@@ -10,6 +10,7 @@ keywords: ["RouterAllocBidiResponseContainer function"]
 ms.keywords: RouterAllocBidiResponseContainer, RouterAllocBidiResponseContainer function [Print Devices], print.routerallocbidiresponsecontainer, spoolfnc_05ba5d83-8913-4591-9ada-2e57440354b9.xml, winsplp/RouterAllocBidiResponseContainer
 f1_keywords:
  - "winsplp/RouterAllocBidiResponseContainer"
+ - "RouterAllocBidiResponseContainer"
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Desktop

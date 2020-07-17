@@ -10,6 +10,7 @@ keywords: ["_WHEA_XPF_NMI_DESCRIPTOR structure"]
 ms.keywords: "*PWHEA_XPF_NMI_DESCRIPTOR, PWHEA_XPF_NMI_DESCRIPTOR, PWHEA_XPF_NMI_DESCRIPTOR structure pointer [WHEA Drivers and Applications], WHEA_XPF_NMI_DESCRIPTOR, WHEA_XPF_NMI_DESCRIPTOR structure [WHEA Drivers and Applications], _WHEA_XPF_NMI_DESCRIPTOR, ntddk/PWHEA_XPF_NMI_DESCRIPTOR, ntddk/WHEA_XPF_NMI_DESCRIPTOR, whea.whea_xpf_nmi_descriptor, whearef_47fae29e-d302-4028-961c-358ac647c0cc.xml"
 f1_keywords:
  - "ntddk/WHEA_XPF_NMI_DESCRIPTOR"
+ - "WHEA_XPF_NMI_DESCRIPTOR"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows

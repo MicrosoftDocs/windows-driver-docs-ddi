@@ -10,6 +10,7 @@ keywords: ["RtlFindClearRuns function"]
 ms.keywords: RtlFindClearRuns, RtlFindClearRuns routine [Kernel-Mode Driver Architecture], k109_10c01954-483b-4ec8-a54d-50928663dc16.xml, kernel.rtlfindclearruns, wdm/RtlFindClearRuns
 f1_keywords:
  - "wdm/RtlFindClearRuns"
+ - "RtlFindClearRuns"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["IDebugControl4::GetLastEventInformationWide"]
 ms.keywords: GetLastEventInformationWide, GetLastEventInformationWide method [Windows Debugging], GetLastEventInformationWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetLastEventInformationWide method, IDebugControl4.GetLastEventInformationWide, IDebugControl4::GetLastEventInformationWide, dbgeng/IDebugControl4::GetLastEventInformationWide, debugger.getlasteventinformationwide
 f1_keywords:
  - "dbgeng/IDebugControl4.GetLastEventInformationWide"
+ - "IDebugControl4.GetLastEventInformationWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

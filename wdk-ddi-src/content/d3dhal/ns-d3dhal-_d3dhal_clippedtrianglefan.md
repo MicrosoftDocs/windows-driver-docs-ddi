@@ -10,6 +10,7 @@ keywords: ["_D3DHAL_CLIPPEDTRIANGLEFAN structure"]
 ms.keywords: "*LPD3DHAL_CLIPPEDTRIANGLEFAN, D3DHAL_CLIPPEDTRIANGLEFAN, D3DHAL_CLIPPEDTRIANGLEFAN structure [Display Devices], LPD3DHAL_CLIPPEDTRIANGLEFAN, LPD3DHAL_CLIPPEDTRIANGLEFAN structure pointer [Display Devices], _D3DHAL_CLIPPEDTRIANGLEFAN, d3dhal/D3DHAL_CLIPPEDTRIANGLEFAN, d3dhal/LPD3DHAL_CLIPPEDTRIANGLEFAN, d3dstrct_443edf3e-a245-41c3-ba98-2ee9634363b9.xml, display.d3dhal_clippedtrianglefan"
 f1_keywords:
  - "d3dhal/D3DHAL_CLIPPEDTRIANGLEFAN"
+ - "D3DHAL_CLIPPEDTRIANGLEFAN"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["OEMCommonUIProp function"]
 ms.keywords: OEMCommonUIProp, OEMCommonUIProp function [Print Devices], print.oemcommonuiprop, print_obsoletefunctions_ef86ce33-1102-4045-b3ad-bba26bafd3de.xml, printoem/OEMCommonUIProp
 f1_keywords:
  - "printoem/OEMCommonUIProp"
+ - "OEMCommonUIProp"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows

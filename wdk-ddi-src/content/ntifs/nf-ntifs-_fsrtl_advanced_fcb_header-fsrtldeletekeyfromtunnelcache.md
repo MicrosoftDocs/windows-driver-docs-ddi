@@ -10,6 +10,7 @@ keywords: ["FsRtlDeleteKeyFromTunnelCache function"]
 ms.keywords: FsRtlDeleteKeyFromTunnelCache, FsRtlDeleteKeyFromTunnelCache routine [Installable File System Drivers], fsrtlref_cbb2d1c7-d4c5-4fe0-9e35-d09dac0e7eff.xml, ifsk.fsrtldeletekeyfromtunnelcache, ntifs/FsRtlDeleteKeyFromTunnelCache
 f1_keywords:
  - "ntifs/FsRtlDeleteKeyFromTunnelCache"
+ - "FsRtlDeleteKeyFromTunnelCache"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal

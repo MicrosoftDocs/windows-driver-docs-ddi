@@ -10,6 +10,7 @@ keywords: ["PFN_WSK_GET_ADDRESS_INFO callback function"]
 ms.keywords: PFN_WSK_GET_ADDRESS_INFO, PFN_WSK_GET_ADDRESS_INFO callback, WskGetAddressInfo, WskGetAddressInfo callback function [Network Drivers Starting with Windows Vista], netvista.wskgetaddressinfo, wsk/WskGetAddressInfo, wskref_4b8f8dcc-eebb-4613-b130-3f7ae2921a8b.xml
 f1_keywords:
  - "wsk/WskGetAddressInfo"
+ - "WskGetAddressInfo"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Universal

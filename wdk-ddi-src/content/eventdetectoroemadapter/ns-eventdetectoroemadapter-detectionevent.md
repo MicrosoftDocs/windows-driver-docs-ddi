@@ -10,6 +10,7 @@ ms.date: 04/11/2019
 keywords: ["DETECTIONEVENT structure"]
 f1_keywords:
  - "eventdetectoroemadapter/DETECTIONEVENT"
+ - "DETECTIONEVENT"
 ms.keywords: DETECTIONEVENT, DETECTIONEVENT, 
 req.header: eventdetectoroemadapter.h
 req.include-header:

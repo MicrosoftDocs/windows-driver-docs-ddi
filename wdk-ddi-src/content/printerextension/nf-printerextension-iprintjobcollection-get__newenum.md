@@ -10,6 +10,7 @@ keywords: ["IPrintJobCollection::get__NewEnum"]
 ms.keywords: IPrintJobCollection interface [Print Devices],NewEnum property, IPrintJobCollection.NewEnum, IPrintJobCollection.get__NewEnum, IPrintJobCollection::NewEnum, IPrintJobCollection::get_NewEnum, IPrintJobCollection::get__NewEnum, NewEnum property [Print Devices], NewEnum property [Print Devices],IPrintJobCollection interface, get__NewEnum, print.iprintjobcollection_newenum, printerextension/IPrintJobCollection::NewEnum, printerextension/IPrintJobCollection::get_NewEnum
 f1_keywords:
  - "printerextension/IPrintJobCollection.NewEnum"
+ - "IPrintJobCollection.NewEnum"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

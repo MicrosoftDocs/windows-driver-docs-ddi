@@ -10,6 +10,7 @@ keywords: ["WdfTimerGetParentObject function"]
 ms.keywords: DFTimerObjectRef_b081e639-a1d6-4119-b47c-b95b772630bc.xml, WdfTimerGetParentObject, WdfTimerGetParentObject method, kmdf.wdftimergetparentobject, wdf.wdftimergetparentobject, wdftimer/WdfTimerGetParentObject
 f1_keywords:
  - "wdftimer/WdfTimerGetParentObject"
+ - "WdfTimerGetParentObject"
 req.header: wdftimer.h
 req.include-header: Wdf.h
 req.target-type: Universal

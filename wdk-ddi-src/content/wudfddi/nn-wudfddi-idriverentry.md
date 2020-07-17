@@ -10,6 +10,7 @@ keywords: ["IDriverEntry interface"]
 ms.keywords: IDriverEntry, IDriverEntry interface, IDriverEntry interface,described, UMDFDriverObjectRef_83709367-02f2-433f-a20b-b98eff736657.xml, umdf.idriverentry, wdf.idriverentry, wudfddi/IDriverEntry
 f1_keywords:
  - "wudfddi/IDriverEntry"
+ - "IDriverEntry"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Windows

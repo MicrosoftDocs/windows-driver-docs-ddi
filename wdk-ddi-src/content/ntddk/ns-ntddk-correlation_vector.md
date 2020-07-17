@@ -10,6 +10,7 @@ keywords: ["CORRELATION_VECTOR structure"]
 ms.keywords: "*PCORRELATION_VECTOR, CORRELATION_VECTOR, CORRELATION_VECTOR structure [Kernel-Mode Driver Architecture], kernel.correlation_vector, ntddk/CORRELATION_VECTOR"
 f1_keywords:
  - "ntddk/CORRELATION_VECTOR"
+ - "CORRELATION_VECTOR"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows

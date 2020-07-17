@@ -10,6 +10,7 @@ keywords: ["IOCTL_SFFDISK_DEVICE_COMMAND IOCTL"]
 ms.keywords: IOCTL_SFFDISK_DEVICE_COMMAND, IOCTL_SFFDISK_DEVICE_COMMAND control, IOCTL_SFFDISK_DEVICE_COMMAND control code [Buses], SD.ioctl_sffdisk_device_command, sd-ioctls_27448784-2a0f-484b-a36f-60f3c617ec08.xml, sffdisk/IOCTL_SFFDISK_DEVICE_COMMAND
 f1_keywords:
  - "sffdisk/IOCTL_SFFDISK_DEVICE_COMMAND"
+ - "IOCTL_SFFDISK_DEVICE_COMMAND"
 req.header: sffdisk.h
 req.include-header: Sffdisk.h
 req.target-type: Windows

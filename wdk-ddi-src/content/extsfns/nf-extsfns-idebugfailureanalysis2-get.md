@@ -10,6 +10,7 @@ keywords: ["IDebugFailureAnalysis2::Get"]
 ms.keywords: Get, Get method [Windows Debugging], Get method [Windows Debugging],IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging],Get method, IDebugFailureAnalysis2.Get, IDebugFailureAnalysis2::Get, debugger.idebugfailureanalysis2_get, extsfns/IDebugFailureAnalysis2::Get
 f1_keywords:
  - "extsfns/IDebugFailureAnalysis2.Get"
+ - "IDebugFailureAnalysis2.Get"
 req.header: extsfns.h
 req.include-header: 
 req.target-type: Desktop

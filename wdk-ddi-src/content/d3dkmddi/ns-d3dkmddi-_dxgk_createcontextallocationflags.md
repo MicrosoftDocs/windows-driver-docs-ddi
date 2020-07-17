@@ -9,6 +9,7 @@ keywords: ["_DXGK_CREATECONTEXTALLOCATIONFLAGS structure"]
 ms.keywords: DXGK_CREATECONTEXTALLOCATIONFLAGS, DXGK_CREATECONTEXTALLOCATIONFLAGS structure [Display Devices], _DXGK_CREATECONTEXTALLOCATIONFLAGS, d3dkmddi/DXGK_CREATECONTEXTALLOCATIONFLAGS, display.dxgk_createcontextallocationflags
 f1_keywords:
  - "d3dkmddi/DXGK_CREATECONTEXTALLOCATIONFLAGS"
+ - "DXGK_CREATECONTEXTALLOCATIONFLAGS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

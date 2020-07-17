@@ -10,6 +10,7 @@ keywords: ["IoAllocateMdl function"]
 ms.keywords: IoAllocateMdl, IoAllocateMdl routine [Kernel-Mode Driver Architecture], k104_8f4336cd-03b0-4ca2-9538-182970594ba3.xml, kernel.ioallocatemdl, wdm/IoAllocateMdl
 f1_keywords:
  - "wdm/IoAllocateMdl"
+ - "IoAllocateMdl"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

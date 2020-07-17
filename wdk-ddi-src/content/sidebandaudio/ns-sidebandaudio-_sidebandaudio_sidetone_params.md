@@ -7,6 +7,7 @@ ms.date: 09/06/2018
 keywords: ["_SIDEBANDAUDIO_SIDETONE_PARAMS structure"]
 f1_keywords:
  - "sidebandaudio/_SIDEBANDAUDIO_SIDETONE_PARAMS"
+ - "_SIDEBANDAUDIO_SIDETONE_PARAMS"
 ms.keywords: _SIDEBANDAUDIO_SIDETONE_PARAMS, SIDEBANDAUDIO_SIDETONE_PARAMS, *PSIDEBANDAUDIO_SIDETONE_PARAMS, 
 req.header: sidebandaudio.h
 req.include-header:

@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["PBANKED_SECTION_ROUTINE callback function"]
 f1_keywords:
  - "dispmprt/PBANKED_SECTION_ROUTINE"
+ - "PBANKED_SECTION_ROUTINE"
 req.header: dispmprt.h
 req.include-header:
 req.target-type:

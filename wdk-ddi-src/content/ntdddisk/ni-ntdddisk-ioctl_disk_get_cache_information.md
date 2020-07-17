@@ -10,6 +10,7 @@ keywords: ["IOCTL_DISK_GET_CACHE_INFORMATION IOCTL"]
 ms.keywords: IOCTL_DISK_GET_CACHE_INFORMATION, IOCTL_DISK_GET_CACHE_INFORMATION control, IOCTL_DISK_GET_CACHE_INFORMATION control code [Storage Devices], k307_1471eb7a-169f-4653-9bfe-01714d6299b7.xml, ntdddisk/IOCTL_DISK_GET_CACHE_INFORMATION, storage.ioctl_disk_get_cache_information
 f1_keywords:
  - "ntdddisk/IOCTL_DISK_GET_CACHE_INFORMATION"
+ - "IOCTL_DISK_GET_CACHE_INFORMATION"
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h
 req.target-type: Windows

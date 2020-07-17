@@ -10,6 +10,7 @@ keywords: ["RxScavengeAllFobxs function"]
 ms.keywords: RxScavengeAllFobxs, RxScavengeAllFobxs function [Installable File System Drivers], ifsk.rxscavengeallfobxs, rxprocs/RxScavengeAllFobxs, rxref_d983b334-0cc7-42ab-abc7-79f1bc0876cd.xml
 f1_keywords:
  - "rxprocs/RxScavengeAllFobxs"
+ - "RxScavengeAllFobxs"
 req.header: rxprocs.h
 req.include-header: Rxprocs.h
 req.target-type: Desktop

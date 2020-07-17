@@ -10,6 +10,7 @@ keywords: ["EVT_UCX_USBDEVICE_ADDRESS callback function"]
 ms.keywords: EVT_UCX_USBDEVICE_ADDRESS, EVT_UCX_USBDEVICE_ADDRESS callback, EvtUcxUsbDeviceAddress, EvtUcxUsbDeviceAddress callback function [Buses], PEVT_UCX_USBDEVICE_ADDRESS, PEVT_UCX_USBDEVICE_ADDRESS callback function pointer [Buses], buses.evt_ucx_usbdevice_address, ucxusbdevice/EvtUcxUsbDeviceAddress
 f1_keywords:
  - "ucxusbdevice/PEVT_UCX_USBDEVICE_ADDRESS"
+ - "PEVT_UCX_USBDEVICE_ADDRESS"
 req.header: ucxusbdevice.h
 req.include-header: Ucxclass.h
 req.target-type: Windows

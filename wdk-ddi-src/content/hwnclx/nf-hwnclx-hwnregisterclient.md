@@ -10,6 +10,7 @@ keywords: ["HwNRegisterClient function"]
 ms.keywords: HwNRegisterClient, HwNRegisterClient function, gpiobtn.hwnregisterclient, hwnclx/HwNRegisterClient
 f1_keywords:
  - "hwnclx/HwNRegisterClient"
+ - "HwNRegisterClient"
 req.header: hwnclx.h
 req.include-header:
 req.target-type: Windows

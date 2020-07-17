@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMTDestroyTrackedWorkload function"]
 f1_keywords:
  - "d3dkmthk/D3DKMTDestroyTrackedWorkload"
+ - "D3DKMTDestroyTrackedWorkload"
 ms.keywords: D3DKMTDestroyTrackedWorkload
 req.header: d3dkmthk.h
 req.include-header:

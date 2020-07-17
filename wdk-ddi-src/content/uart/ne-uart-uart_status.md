@@ -8,6 +8,7 @@ ms.date: 10/19/2018
 keywords: ["UART_STATUS enumeration"]
 f1_keywords:
  - "uart/UART_STATUS"
+ - "UART_STATUS"
 ms.keywords: UART_STATUS, UART_STATUS, *PUART_STATUS,
 req.header: uart.h
 req.include-header:

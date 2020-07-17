@@ -10,6 +10,7 @@ keywords: ["IDebugControl3::RemoveBreakpoint"]
 ms.keywords: IDebugControl interface [Windows Debugging],RemoveBreakpoint method, IDebugControl2 interface [Windows Debugging],RemoveBreakpoint method, IDebugControl2::RemoveBreakpoint, IDebugControl3 interface [Windows Debugging],RemoveBreakpoint method, IDebugControl3.RemoveBreakpoint, IDebugControl3::RemoveBreakpoint, IDebugControl::RemoveBreakpoint, IDebugControl_431f31ce-38fb-4350-851b-49b103047943.xml, RemoveBreakpoint, RemoveBreakpoint method [Windows Debugging], RemoveBreakpoint method [Windows Debugging],IDebugControl interface, RemoveBreakpoint method [Windows Debugging],IDebugControl2 interface, RemoveBreakpoint method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::RemoveBreakpoint, dbgeng/IDebugControl3::RemoveBreakpoint, dbgeng/IDebugControl::RemoveBreakpoint, debugger.removebreakpoint
 f1_keywords:
  - "dbgeng/IDebugControl.RemoveBreakpoint"
+ - "IDebugControl.RemoveBreakpoint"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

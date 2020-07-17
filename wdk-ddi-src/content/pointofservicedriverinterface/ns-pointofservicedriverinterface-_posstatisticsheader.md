@@ -10,6 +10,7 @@ keywords: ["_PosStatisticsHeader structure"]
 ms.keywords: PosStatisticsHeader, PosStatisticsHeader structure, _PosStatisticsHeader, pointofservicedriverinterface/PosStatisticsHeader, pos.posstatisticsheader
 f1_keywords:
  - "pointofservicedriverinterface/PosStatisticsHeader"
+ - "PosStatisticsHeader"
 req.header: pointofservicedriverinterface.h
 req.include-header: PointOfServiceDriverInterface.h
 req.target-type: Windows

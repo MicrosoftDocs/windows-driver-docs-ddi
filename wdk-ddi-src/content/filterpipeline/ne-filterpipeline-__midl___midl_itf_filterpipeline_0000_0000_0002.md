@@ -10,6 +10,7 @@ keywords: ["__MIDL___MIDL_itf_filterpipeline_0000_0000_0002 enumeration"]
 ms.keywords: EXpsFontOptions, EXpsFontOptions enumeration [Print Devices], Font_Normal, Font_Obfusticate, __MIDL___MIDL_itf_filterpipeline_0000_0000_0002, filterpipeline/EXpsFontOptions, filterpipeline/Font_Normal, filterpipeline/Font_Obfusticate, filterpipeline_252cd44a-7a00-40fb-9245-364c1453e2ef.xml, print.expsfontoptions
 f1_keywords:
  - "filterpipeline/EXpsFontOptions"
+ - "EXpsFontOptions"
 req.header: filterpipeline.h
 req.include-header: Filterpipeline.h
 req.target-type: Windows

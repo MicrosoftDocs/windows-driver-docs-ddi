@@ -10,6 +10,7 @@ keywords: ["_WDI_P2P_SERVICE_NAME_HASH structure"]
 ms.keywords: "*PWDI_P2P_SERVICE_NAME_HASH, PWDI_P2P_SERVICE_NAME_HASH, PWDI_P2P_SERVICE_NAME_HASH structure pointer [Network Drivers Starting with Windows Vista], WDI_P2P_SERVICE_NAME_HASH, WDI_P2P_SERVICE_NAME_HASH structure [Network Drivers Starting with Windows Vista], _WDI_P2P_SERVICE_NAME_HASH, dot11wdi/PWDI_P2P_SERVICE_NAME_HASH, dot11wdi/WDI_P2P_SERVICE_NAME_HASH, netvista.wdi_p2p_service_name_hash"
 f1_keywords:
  - "dot11wdi/WDI_P2P_SERVICE_NAME_HASH"
+ - "WDI_P2P_SERVICE_NAME_HASH"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows

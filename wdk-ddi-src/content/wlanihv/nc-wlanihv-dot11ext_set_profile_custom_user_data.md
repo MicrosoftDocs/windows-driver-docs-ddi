@@ -10,6 +10,7 @@ keywords: ["DOT11EXT_SET_PROFILE_CUSTOM_USER_DATA callback"]
 ms.keywords: DOT11EXT_SET_PROFILE_CUSTOM_USER_DATA, Dot11ExtSetProfileCustomUserData, Dot11ExtSetProfileCustomUserData callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_87f713b8-bd3e-4165-adce-c37fbb829cdb.xml, netvista.dot11extsetprofilecustomuserdata, wlanihv/Dot11ExtSetProfileCustomUserData
 f1_keywords:
  - "wlanihv/Dot11ExtSetProfileCustomUserData"
+ - "Dot11ExtSetProfileCustomUserData"
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Desktop

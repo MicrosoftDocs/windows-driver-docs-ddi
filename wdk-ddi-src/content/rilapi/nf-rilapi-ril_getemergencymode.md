@@ -10,6 +10,7 @@ keywords: ["RIL_GetEmergencyMode function"]
 ms.keywords: RIL_GetEmergencyMode, RIL_GetEmergencyMode method [Network Drivers Starting with Windows Vista], netvista.ril_getemergencymode, rilapi/RIL_GetEmergencyMode
 f1_keywords:
  - "rilapi/RIL_GetEmergencyMode"
+ - "RIL_GetEmergencyMode"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

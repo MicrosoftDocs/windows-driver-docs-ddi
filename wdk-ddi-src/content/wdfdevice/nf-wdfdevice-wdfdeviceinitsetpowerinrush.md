@@ -10,6 +10,7 @@ keywords: ["WdfDeviceInitSetPowerInrush function"]
 ms.keywords: DFDeviceObjectGeneralRef_07e58947-78a3-4864-924c-8bd11dfd8af5.xml, WdfDeviceInitSetPowerInrush, WdfDeviceInitSetPowerInrush method, kmdf.wdfdeviceinitsetpowerinrush, wdf.wdfdeviceinitsetpowerinrush, wdfdevice/WdfDeviceInitSetPowerInrush
 f1_keywords:
  - "wdfdevice/WdfDeviceInitSetPowerInrush"
+ - "WdfDeviceInitSetPowerInrush"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

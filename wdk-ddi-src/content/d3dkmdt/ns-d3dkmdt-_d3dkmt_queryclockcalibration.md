@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_QUERYCLOCKCALIBRATION structure"]
 f1_keywords:
  - "d3dkmdt/_D3DKMT_QUERYCLOCKCALIBRATION"
+ - "_D3DKMT_QUERYCLOCKCALIBRATION"
 ms.keywords: _D3DKMT_QUERYCLOCKCALIBRATION, D3DKMT_QUERYCLOCKCALIBRATION, 
 req.header: d3dkmdt.h
 req.include-header:

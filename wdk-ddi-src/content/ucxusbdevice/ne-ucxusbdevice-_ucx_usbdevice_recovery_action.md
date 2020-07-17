@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["_UCX_USBDEVICE_RECOVERY_ACTION enumeration"]
 f1_keywords:
  - "ucxusbdevice/_UCX_USBDEVICE_RECOVERY_ACTION"
+ - "_UCX_USBDEVICE_RECOVERY_ACTION"
 ms.keywords: _UCX_USBDEVICE_RECOVERY_ACTION, UCX_USBDEVICE_RECOVERY_ACTION, 
 req.header: ucxusbdevice.h
 req.include-header: Ucxclass.h

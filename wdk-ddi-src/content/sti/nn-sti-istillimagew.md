@@ -10,6 +10,7 @@ keywords: ["IStillImageW interface"]
 ms.keywords: IStillImageW, IStillImageW interface [Imaging Devices], IStillImageW interface [Imaging Devices],described, image.istillimage_interface_methods, sti/IStillImageW, stifnc_a737fc11-5690-49a8-b64e-82b27bb55e52.xml
 f1_keywords:
  - "sti/IStillImageW"
+ - "IStillImageW"
 req.header: sti.h
 req.include-header: 
 req.target-type: Desktop

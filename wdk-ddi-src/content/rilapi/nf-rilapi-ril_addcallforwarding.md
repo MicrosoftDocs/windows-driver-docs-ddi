@@ -10,6 +10,7 @@ keywords: ["RIL_AddCallForwarding function"]
 ms.keywords: RIL_AddCallForwarding, RIL_AddCallForwarding method [Network Drivers Starting with Windows Vista], netvista.ril_addcallforwarding, rilapi/RIL_AddCallForwarding
 f1_keywords:
  - "rilapi/RIL_AddCallForwarding"
+ - "RIL_AddCallForwarding"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

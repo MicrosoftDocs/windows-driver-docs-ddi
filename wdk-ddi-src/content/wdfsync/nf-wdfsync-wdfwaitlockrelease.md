@@ -10,6 +10,7 @@ keywords: ["WdfWaitLockRelease function"]
 ms.keywords: DFSynchroRef_f64028b9-9f56-4d2a-8341-1b305ab02eff.xml, WdfWaitLockRelease, WdfWaitLockRelease method, kmdf.wdfwaitlockrelease, wdf.wdfwaitlockrelease, wdfsync/WdfWaitLockRelease
 f1_keywords:
  - "wdfsync/WdfWaitLockRelease"
+ - "WdfWaitLockRelease"
 req.header: wdfsync.h
 req.include-header: Wdf.h
 req.target-type: Universal

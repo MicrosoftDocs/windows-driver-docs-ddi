@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["DXGKCB_MAPFRAMEBUFFERPOINTER callback function"]
 f1_keywords:
  - "d3dkmddi/DXGKCB_MAPFRAMEBUFFERPOINTER"
+ - "DXGKCB_MAPFRAMEBUFFERPOINTER"
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type:

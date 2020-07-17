@@ -10,6 +10,7 @@ keywords: ["_DLGPAGE structure"]
 ms.keywords: "*PDLGPAGE, DLGPAGE, DLGPAGE structure [Print Devices], PDLGPAGE, PDLGPAGE structure pointer [Print Devices], _DLGPAGE, compstui/DLGPAGE, compstui/PDLGPAGE, cpsuifnc_5054b61d-a4fc-4017-a491-4d753ce3e137.xml, print.dlgpage"
 f1_keywords:
  - "compstui/DLGPAGE"
+ - "DLGPAGE"
 req.header: compstui.h
 req.include-header: Compstui.h
 req.target-type: Windows

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_CPDRIVERNAME structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_CPDRIVERNAME"
+ - "_D3DKMT_CPDRIVERNAME"
 ms.keywords: _D3DKMT_CPDRIVERNAME, D3DKMT_CPDRIVERNAME, 
 req.header: d3dkmthk.h
 req.include-header:

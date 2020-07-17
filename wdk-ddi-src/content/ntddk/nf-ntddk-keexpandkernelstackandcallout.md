@@ -10,6 +10,7 @@ keywords: ["KeExpandKernelStackAndCallout function"]
 ms.keywords: KeExpandKernelStackAndCallout, KeExpandKernelStackAndCallout routine [Kernel-Mode Driver Architecture], k105_37fc85c2-2317-41a2-9daa-766c3ccf343f.xml, kernel.keexpandkernelstackandcallout, ntddk/KeExpandKernelStackAndCallout
 f1_keywords:
  - "ntddk/KeExpandKernelStackAndCallout"
+ - "KeExpandKernelStackAndCallout"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

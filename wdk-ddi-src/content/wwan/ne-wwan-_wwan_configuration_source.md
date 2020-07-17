@@ -8,6 +8,7 @@ ms.date: 08/23/2018
 keywords: ["_WWAN_CONFIGURATION_SOURCE enumeration"]
 f1_keywords:
  - "wwan/_WWAN_CONFIGURATION_SOURCE"
+ - "_WWAN_CONFIGURATION_SOURCE"
 ms.keywords: _WWAN_CONFIGURATION_SOURCE, WWAN_CONFIGURATION_SOURCE, *PWWAN_CONFIGURATION_SOURCE, 
 req.header: wwan.h
 req.include-header:

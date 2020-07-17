@@ -10,6 +10,7 @@ keywords: ["IQueueCallbackIoResume::OnIoResume"]
 ms.keywords: IQueueCallbackIoResume interface,OnIoResume method, IQueueCallbackIoResume.OnIoResume, IQueueCallbackIoResume::OnIoResume, OnIoResume, OnIoResume method, OnIoResume method,IQueueCallbackIoResume interface, UMDFQueueObjectRef_fd16ca4e-eccf-49a2-a7f5-bce7e7931a77.xml, umdf.iqueuecallbackioresume_onioresume, wdf.iqueuecallbackioresume_onioresume, wudfddi/IQueueCallbackIoResume::OnIoResume
 f1_keywords:
  - "wudfddi/IQueueCallbackIoResume.OnIoResume"
+ - "IQueueCallbackIoResume.OnIoResume"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Windows

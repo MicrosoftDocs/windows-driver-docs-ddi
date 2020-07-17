@@ -7,6 +7,7 @@ ms.date: 08/20/2018
 keywords: ["IDataModelScriptProvider::CreateScript"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptProvider.CreateScript"
+ - "IDataModelScriptProvider.CreateScript"
 ms.keywords: IDataModelScriptProvider::CreateScript, CreateScript, IDataModelScriptProvider.CreateScript, IDataModelScriptProvider::CreateScript, IDataModelScriptProvider.CreateScript
 req.header: dbgmodel.h
 req.include-header:

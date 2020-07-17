@@ -10,6 +10,7 @@ keywords: ["IOCTL_HPMI_BATTERY_UTILIZATION_HINT IOCTL"]
 ms.keywords: IOCTL_HPMI_BATTERY_UTILIZATION_HINT, IOCTL_HPMI_BATTERY_UTILIZATION_HINT control, IOCTL_HPMI_BATTERY_UTILIZATION_HINT control code [Power Metering and Budgeting Devices], hpmi/IOCTL_HPMI_BATTERY_UTILIZATION_HINT, powermeter.ioctl_hpmi_battery_utilization_hint
 f1_keywords:
  - "hpmi/IOCTL_HPMI_BATTERY_UTILIZATION_HINT"
+ - "IOCTL_HPMI_BATTERY_UTILIZATION_HINT"
 req.header: hpmi.h
 req.include-header: Hpmi.h
 req.target-type: Windows

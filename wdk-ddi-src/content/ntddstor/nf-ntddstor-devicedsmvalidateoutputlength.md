@@ -11,6 +11,7 @@ keywords: ["DeviceDsmValidateOutputLength function"]
 ms.keywords: DeviceDsmValidateOutputLength
 f1_keywords:
  - "ntddstor/DeviceDsmValidateOutputLength"
+ - "DeviceDsmValidateOutputLength"
 req.header: ntddstor.h
 req.include-header:
 req.target-type:

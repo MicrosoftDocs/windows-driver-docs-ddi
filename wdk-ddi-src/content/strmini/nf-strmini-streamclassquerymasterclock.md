@@ -10,6 +10,7 @@ keywords: ["StreamClassQueryMasterClock function"]
 ms.keywords: StreamClassQueryMasterClock, StreamClassQueryMasterClock routine [Streaming Media Devices], strclass-routines_2049b544-0e7a-4c12-801b-15d0a4a7ce6c.xml, stream.streamclassquerymasterclock, strmini/StreamClassQueryMasterClock
 f1_keywords:
  - "strmini/StreamClassQueryMasterClock"
+ - "StreamClassQueryMasterClock"
 req.header: strmini.h
 req.include-header: Strmini.h
 req.target-type: Desktop

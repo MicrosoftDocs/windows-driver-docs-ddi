@@ -10,6 +10,7 @@ keywords: ["_NDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS structure"]
 ms.keywords: "*PNDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS, NDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS, NDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS, PNDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS, netvista.ndis_sriov_read_vf_config_space_parameters, ntddndis/NDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS, ntddndis/PNDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS"
 f1_keywords:
  - "ntddndis/NDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS"
+ - "NDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

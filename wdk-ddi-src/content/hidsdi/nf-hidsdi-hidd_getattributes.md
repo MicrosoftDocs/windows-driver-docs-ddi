@@ -10,6 +10,7 @@ keywords: ["HidD_GetAttributes function"]
 ms.keywords: HidD_GetAttributes, HidD_GetAttributes routine [Human Input Devices], hid.hidd_getattributes, hidfunc_e4c243d5-b210-409f-b454-68a69c28057c.xml, hidsdi/HidD_GetAttributes
 f1_keywords:
  - "hidsdi/HidD_GetAttributes"
+ - "HidD_GetAttributes"
 req.header: hidsdi.h
 req.include-header: Hidsdi.h
 req.target-type: Universal

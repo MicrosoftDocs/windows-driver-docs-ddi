@@ -10,6 +10,7 @@ keywords: ["InitializePrintMonitorUI function"]
 ms.keywords: InitializePrintMonitorUI, InitializePrintMonitorUI function [Print Devices], print.initializeprintmonitorui, spoolfnc_927446a6-117a-4585-8ce0-9a4b543c4037.xml, winsplp/InitializePrintMonitorUI
 f1_keywords:
  - "winsplp/InitializePrintMonitorUI"
+ - "InitializePrintMonitorUI"
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Desktop

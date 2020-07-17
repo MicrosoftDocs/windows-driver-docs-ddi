@@ -10,6 +10,7 @@ keywords: ["WdfUsbTargetDeviceQueryString function"]
 ms.keywords: DFUsbRef_ea603209-6043-48e6-b8ff-4795f572dea6.xml, WdfUsbTargetDeviceQueryString, WdfUsbTargetDeviceQueryString method, kmdf.wdfusbtargetdevicequerystring, wdf.wdfusbtargetdevicequerystring, wdfusb/WdfUsbTargetDeviceQueryString
 f1_keywords:
  - "wdfusb/WdfUsbTargetDeviceQueryString"
+ - "WdfUsbTargetDeviceQueryString"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal

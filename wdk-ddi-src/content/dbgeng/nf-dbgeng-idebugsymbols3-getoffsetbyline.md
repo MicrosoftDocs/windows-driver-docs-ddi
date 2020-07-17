@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::GetOffsetByLine"]
 ms.keywords: GetOffsetByLine, GetOffsetByLine method [Windows Debugging], GetOffsetByLine method [Windows Debugging],IDebugSymbols interface, GetOffsetByLine method [Windows Debugging],IDebugSymbols2 interface, GetOffsetByLine method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetOffsetByLine method, IDebugSymbols2 interface [Windows Debugging],GetOffsetByLine method, IDebugSymbols2::GetOffsetByLine, IDebugSymbols3 interface [Windows Debugging],GetOffsetByLine method, IDebugSymbols3.GetOffsetByLine, IDebugSymbols3::GetOffsetByLine, IDebugSymbols::GetOffsetByLine, IDebugSymbols_1aa7fddc-6a33-469e-828f-45ff0f31aae7.xml, dbgeng/IDebugSymbols2::GetOffsetByLine, dbgeng/IDebugSymbols3::GetOffsetByLine, dbgeng/IDebugSymbols::GetOffsetByLine, debugger.getoffsetbyline
 f1_keywords:
  - "dbgeng/IDebugSymbols.GetOffsetByLine"
+ - "IDebugSymbols.GetOffsetByLine"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

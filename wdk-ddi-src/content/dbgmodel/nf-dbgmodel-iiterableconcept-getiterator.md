@@ -7,6 +7,7 @@ ms.date: 09/19/2018
 keywords: ["IIterableConcept::GetIterator"]
 f1_keywords:
  - "dbgmodel/IIterableConcept.GetIterator"
+ - "IIterableConcept.GetIterator"
 ms.keywords: IIterableConcept::GetIterator, GetIterator, IIterableConcept.GetIterator, IIterableConcept::GetIterator, IIterableConcept.GetIterator
 req.header: dbgmodel.h
 req.include-header:

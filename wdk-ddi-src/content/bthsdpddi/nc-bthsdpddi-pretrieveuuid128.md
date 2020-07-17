@@ -29,6 +29,7 @@ targetos: Windows
 req.typenames: 
 f1_keywords:
  - "bthsdpddi/SdpRetrieveUuid128"
+ - "SdpRetrieveUuid128"
 topic_type:
  - APIRef
  - kbSyntax

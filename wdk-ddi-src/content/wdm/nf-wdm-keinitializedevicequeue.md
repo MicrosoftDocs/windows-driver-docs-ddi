@@ -10,6 +10,7 @@ keywords: ["KeInitializeDeviceQueue function"]
 ms.keywords: KeInitializeDeviceQueue, KeInitializeDeviceQueue routine [Kernel-Mode Driver Architecture], k105_5d7ea571-8c88-45f7-917c-e42e6caac514.xml, kernel.keinitializedevicequeue, wdm/KeInitializeDeviceQueue
 f1_keywords:
  - "wdm/KeInitializeDeviceQueue"
+ - "KeInitializeDeviceQueue"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

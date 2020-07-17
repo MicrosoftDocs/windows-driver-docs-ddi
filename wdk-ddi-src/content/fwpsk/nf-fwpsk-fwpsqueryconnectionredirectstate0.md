@@ -10,6 +10,7 @@ keywords: ["FwpsQueryConnectionRedirectState0 function"]
 ms.keywords: FwpsQueryConnectionRedirectState0, FwpsQueryConnectionRedirectState0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsQueryConnectionRedirectState0, netvista.fwpsqueryconnectionredirectstate0
 f1_keywords:
  - "fwpsk/FwpsQueryConnectionRedirectState0"
+ - "FwpsQueryConnectionRedirectState0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal

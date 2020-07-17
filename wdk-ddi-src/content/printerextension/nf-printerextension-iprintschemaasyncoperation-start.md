@@ -10,6 +10,7 @@ keywords: ["IPrintSchemaAsyncOperation::Start"]
 ms.keywords: IPrintSchemaAsyncOperation interface [Print Devices],Start method, IPrintSchemaAsyncOperation.Start, IPrintSchemaAsyncOperation::Start, Start, Start method [Print Devices], Start method [Print Devices],IPrintSchemaAsyncOperation interface, print.iprintschemaasyncoperation_start, printerextension/IPrintSchemaAsyncOperation::Start
 f1_keywords:
  - "printerextension/IPrintSchemaAsyncOperation.Start"
+ - "IPrintSchemaAsyncOperation.Start"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop

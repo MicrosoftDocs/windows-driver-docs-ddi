@@ -10,6 +10,7 @@ keywords: ["_CHANGER_SET_ACCESS structure"]
 ms.keywords: "*PCHANGER_SET_ACCESS, CHANGER_SET_ACCESS, CHANGER_SET_ACCESS structure [Storage Devices], PCHANGER_SET_ACCESS, PCHANGER_SET_ACCESS structure pointer [Storage Devices], _CHANGER_SET_ACCESS, ntddchgr/CHANGER_SET_ACCESS, ntddchgr/PCHANGER_SET_ACCESS, storage.changer_set_access, structs-changer_01f5a159-3d46-4400-8eae-87367e81ed72.xml"
 f1_keywords:
  - "ntddchgr/CHANGER_SET_ACCESS"
+ - "CHANGER_SET_ACCESS"
 req.header: ntddchgr.h
 req.include-header: 
 req.target-type: Windows

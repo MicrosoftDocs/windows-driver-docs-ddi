@@ -10,6 +10,7 @@ keywords: ["HidP_GetButtonCaps function"]
 ms.keywords: HidP_GetButtonCaps, HidP_GetButtonCaps routine [Human Input Devices], hid.hidp_getbuttoncaps, hidfunc_57425ae7-03dd-42b7-b9b3-0581569ab442.xml, hidpi/HidP_GetButtonCaps
 f1_keywords:
  - "hidpi/HidP_GetButtonCaps"
+ - "HidP_GetButtonCaps"
 req.header: hidpi.h
 req.include-header: Hidpi.h
 req.target-type: Universal

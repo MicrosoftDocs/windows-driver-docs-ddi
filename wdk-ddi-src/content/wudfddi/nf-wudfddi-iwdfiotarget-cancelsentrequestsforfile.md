@@ -10,6 +10,7 @@ keywords: ["IWDFIoTarget::CancelSentRequestsForFile"]
 ms.keywords: CancelSentRequestsForFile, CancelSentRequestsForFile method, CancelSentRequestsForFile method,IWDFIoTarget interface, IWDFIoTarget interface,CancelSentRequestsForFile method, IWDFIoTarget.CancelSentRequestsForFile, IWDFIoTarget::CancelSentRequestsForFile, UMDFIoTargetObjectRef_d2a2405f-312e-4e3c-8ffa-8568438805b0.xml, umdf.iwdfiotarget_cancelsentrequestsforfile, wdf.iwdfiotarget_cancelsentrequestsforfile, wudfddi/IWDFIoTarget::CancelSentRequestsForFile
 f1_keywords:
  - "wudfddi/IWDFIoTarget.CancelSentRequestsForFile"
+ - "IWDFIoTarget.CancelSentRequestsForFile"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

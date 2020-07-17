@@ -10,6 +10,7 @@ keywords: ["DXGKDDI_CONTROL_ETW_LOGGING callback function"]
 ms.keywords: DXGKDDI_CONTROL_ETW_LOGGING, DXGKDDI_CONTROL_ETW_LOGGING callback, DmFunctions_87548564-6b7b-431b-b68c-202af84deefc.xml, DxgkDdiControlEtwLogging, DxgkDdiControlEtwLogging callback function [Display Devices], display.dxgkddicontroletwlogging, dispmprt/DxgkDdiControlEtwLogging
 f1_keywords:
  - "dispmprt/DxgkDdiControlEtwLogging"
+ - "DxgkDdiControlEtwLogging"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop

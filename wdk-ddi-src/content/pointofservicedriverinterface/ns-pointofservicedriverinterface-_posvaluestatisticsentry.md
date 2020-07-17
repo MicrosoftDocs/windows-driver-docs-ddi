@@ -10,6 +10,7 @@ keywords: ["_PosValueStatisticsEntry structure"]
 ms.keywords: PosValueStatisticsEntry, PosValueStatisticsEntry structure, _PosValueStatisticsEntry, pointofservicedriverinterface/PosValueStatisticsEntry, pos.posvaluestatisticsentry
 f1_keywords:
  - "pointofservicedriverinterface/PosValueStatisticsEntry"
+ - "PosValueStatisticsEntry"
 req.header: pointofservicedriverinterface.h
 req.include-header: PointOfServiceDriverInterface.h
 req.target-type: Windows

@@ -21,6 +21,7 @@ ms.custom: RS5
 tech.root: display
 f1_keywords:
  - "d3dumddi/_D3DDDIBASISTYPE"
+ - "_D3DDDIBASISTYPE"
 topic_type:
  - apiref
 api_type:

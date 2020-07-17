@@ -10,6 +10,7 @@ keywords: ["KsCompletePendingRequest function"]
 ms.keywords: KsCompletePendingRequest, KsCompletePendingRequest function [Streaming Media Devices], avfunc_e01e61fc-ec10-4781-aee2-0aa7e24ca31a.xml, ks/KsCompletePendingRequest, stream.kscompletependingrequest
 f1_keywords:
  - "ks/KsCompletePendingRequest"
+ - "KsCompletePendingRequest"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

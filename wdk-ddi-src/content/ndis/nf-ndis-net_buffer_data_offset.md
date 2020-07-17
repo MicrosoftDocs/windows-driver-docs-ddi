@@ -8,6 +8,7 @@ ms.date: 04/12/2018
 keywords: ["NET_BUFFER_DATA_OFFSET macro"]
 f1_keywords:
  - "ndis/NET_BUFFER_DATA_OFFSET"
+ - "NET_BUFFER_DATA_OFFSET"
 ms.keywords: NET_BUFFER_DATA_OFFSET
 req.header: ndis.h
 req.include-header:

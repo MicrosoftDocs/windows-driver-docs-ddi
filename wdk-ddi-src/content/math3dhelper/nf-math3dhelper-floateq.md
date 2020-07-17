@@ -7,6 +7,7 @@ ms.date: 08/01/2018
 keywords: ["FloatEq function"]
 f1_keywords:
  - "math3dhelper/FloatEq"
+ - "FloatEq"
 tech.root: sensors
 ms.keywords: FloatEq, math3dhelper
 req.header: math3dhelper.h

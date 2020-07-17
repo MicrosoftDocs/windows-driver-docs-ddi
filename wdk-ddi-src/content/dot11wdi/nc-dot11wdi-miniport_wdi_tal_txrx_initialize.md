@@ -10,6 +10,7 @@ keywords: ["MINIPORT_WDI_TAL_TXRX_INITIALIZE callback function"]
 ms.keywords: MINIPORT_WDI_TAL_TXRX_INITIALIZE, MINIPORT_WDI_TAL_TXRX_INITIALIZE callback, MiniportWdiTalTxRxInitialize, MiniportWdiTalTxRxInitialize callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTalTxRxInitialize, netvista.miniportwditaltxrxinitialize
 f1_keywords:
  - "dot11wdi/MiniportWdiTalTxRxInitialize"
+ - "MiniportWdiTalTxRxInitialize"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["RILPOSITIONINFOGSM structure"]
 ms.keywords: "*LPRILPOSITIONINFOGSM, RILPOSITIONINFOGSM, RILPOSITIONINFOGSM structure [Network Drivers Starting with Windows Vista], netvista.rilpositioninfogsm_2, rilapitypes/RILPOSITIONINFOGSM"
 f1_keywords:
  - "rilapitypes/RILPOSITIONINFOGSM"
+ - "RILPOSITIONINFOGSM"
 req.header: rilapitypes.h
 req.include-header:
 req.target-type: Windows

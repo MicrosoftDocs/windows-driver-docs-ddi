@@ -9,6 +9,7 @@ keywords: ["_DXGK_QUERYSEGMENTOUT3 structure"]
 ms.keywords: DXGK_QUERYSEGMENTOUT3, DXGK_QUERYSEGMENTOUT3 structure [Display Devices], _DXGK_QUERYSEGMENTOUT3, d3dkmddi/DXGK_QUERYSEGMENTOUT3, display.dxgk_querysegmentout3
 f1_keywords:
  - "d3dkmddi/DXGK_QUERYSEGMENTOUT3"
+ - "DXGK_QUERYSEGMENTOUT3"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows

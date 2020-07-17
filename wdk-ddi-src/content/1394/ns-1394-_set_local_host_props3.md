@@ -10,6 +10,7 @@ keywords: ["_SET_LOCAL_HOST_PROPS3 structure"]
 ms.keywords: "*PSET_LOCAL_HOST_PROPS3, 1394/PSET_LOCAL_HOST_PROPS3, 1394/SET_LOCAL_HOST_PROPS3, 1394stct_3e1725d2-1109-4762-b64e-05283146250a.xml, IEEE.set_local_host_props3, PSET_LOCAL_HOST_PROPS3, PSET_LOCAL_HOST_PROPS3 structure pointer [Buses], SET_LOCAL_HOST_PROPS3, SET_LOCAL_HOST_PROPS3 structure [Buses], _SET_LOCAL_HOST_PROPS3"
 f1_keywords:
  - "1394/SET_LOCAL_HOST_PROPS3"
+ - "SET_LOCAL_HOST_PROPS3"
 req.header: 1394.h
 req.include-header: 1394.h
 req.target-type: Windows

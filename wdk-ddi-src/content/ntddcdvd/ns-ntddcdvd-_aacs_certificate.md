@@ -10,6 +10,7 @@ keywords: ["_AACS_CERTIFICATE structure"]
 ms.keywords: "*PAACS_CERTIFICATE, AACS_CERTIFICATE, AACS_CERTIFICATE structure [Storage Devices], PAACS_CERTIFICATE, PAACS_CERTIFICATE structure pointer [Storage Devices], _AACS_CERTIFICATE, ntddcdvd/AACS_CERTIFICATE, ntddcdvd/PAACS_CERTIFICATE, storage.aacs_certificate, structs-DVD_0eedee44-0be8-462e-84ac-e5efbc37fc82.xml"
 f1_keywords:
  - "ntddcdvd/AACS_CERTIFICATE"
+ - "AACS_CERTIFICATE"
 req.header: ntddcdvd.h
 req.include-header: Ntddcdvd.h
 req.target-type: Windows

@@ -7,6 +7,7 @@ ms.date: 09/21/2018
 keywords: ["IRawEnumerator::AddRef"]
 f1_keywords:
  - "dbgmodel/IRawEnumerator.AddRef"
+ - "IRawEnumerator.AddRef"
 ms.keywords: IRawEnumerator::AddRef, AddRef, IRawEnumerator.AddRef, IRawEnumerator::AddRef, IRawEnumerator.AddRef
 req.header: dbgmodel.h
 req.include-header:

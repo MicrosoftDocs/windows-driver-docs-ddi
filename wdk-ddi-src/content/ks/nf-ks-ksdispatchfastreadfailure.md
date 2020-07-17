@@ -10,6 +10,7 @@ keywords: ["KsDispatchFastReadFailure function"]
 ms.keywords: KsDispatchFastReadFailure, KsDispatchFastReadFailure function [Streaming Media Devices], KsDispatchFastWriteFailure, ks/KsDispatchFastReadFailure, ksfunc_fe3ea42f-80ae-4fbd-a2c2-55e957e913cc.xml, stream.ksdispatchfastreadfailure
 f1_keywords:
  - "ks/KsDispatchFastReadFailure"
+ - "KsDispatchFastReadFailure"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

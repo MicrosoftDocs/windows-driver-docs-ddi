@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["COLORSPACE_TRANSFORM_3x4 structure"]
 f1_keywords:
  - "ntddvdeo/COLORSPACE_TRANSFORM_3x4"
+ - "COLORSPACE_TRANSFORM_3x4"
 ms.keywords: COLORSPACE_TRANSFORM_3x4, COLORSPACE_TRANSFORM_3x4, *PCOLORSPACE_TRANSFORM_3x4, 
 req.header: ntddvdeo.h
 req.include-header:

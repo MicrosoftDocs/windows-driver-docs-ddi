@@ -10,6 +10,7 @@ keywords: ["RtlAnsiStringToUnicodeSize macro"]
 ms.keywords: RtlAnsiStringToUnicodeSize, RtlAnsiStringToUnicodeSize routine [Kernel-Mode Driver Architecture], k109_90cc45c4-2e5b-4f11-823d-5dbc52017e15.xml, kernel.rtlansistringtounicodesize, wdm/RtlAnsiStringToUnicodeSize
 f1_keywords:
  - "wdm/RtlAnsiStringToUnicodeSize"
+ - "RtlAnsiStringToUnicodeSize"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

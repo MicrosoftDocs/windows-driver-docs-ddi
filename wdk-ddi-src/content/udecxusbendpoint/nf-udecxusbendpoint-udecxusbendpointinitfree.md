@@ -10,6 +10,7 @@ keywords: ["UdecxUsbEndpointInitFree function"]
 ms.keywords: UdecxUsbEndpointInitFree, UdecxUsbEndpointInitFree function [Buses], buses.udecxusbendpointinitfree, udecxusbendpoint/UdecxUsbEndpointInitFree
 f1_keywords:
  - "udecxusbendpoint/UdecxUsbEndpointInitFree"
+ - "UdecxUsbEndpointInitFree"
 req.header: udecxusbendpoint.h
 req.include-header: Udecx.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["IMiniportWaveRTStreamNotification interface"]
 ms.keywords: IMiniportWaveRTStreamNotification, IMiniportWaveRTStreamNotification interface [Audio Devices], IMiniportWaveRTStreamNotification interface [Audio Devices],described, audio.iminiportwavertstreamnotification, audmp-routines_a49bf74b-367b-44f4-b8de-a3adf6240b36.xml, portcls/IMiniportWaveRTStreamNotification
 f1_keywords:
  - "portcls/IMiniportWaveRTStreamNotification"
+ - "IMiniportWaveRTStreamNotification"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows

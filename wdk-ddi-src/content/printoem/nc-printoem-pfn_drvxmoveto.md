@@ -10,6 +10,7 @@ keywords: ["PFN_DrvXMoveTo callback function"]
 ms.keywords: DrvXMoveTo, DrvXMoveTo callback function [Print Devices], PFN_DrvXMoveTo, PFN_DrvXMoveTo callback, print.drvxmoveto, print_obsoletefunctions_a9d1de5a-71ef-4533-ab48-5e56a113dfb9.xml, printoem/DrvXMoveTo
 f1_keywords:
  - "printoem/DrvXMoveTo"
+ - "DrvXMoveTo"
 req.header: printoem.h
 req.include-header: 
 req.target-type: Windows

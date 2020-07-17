@@ -10,6 +10,7 @@ keywords: ["KsGetDefaultClockTime function"]
 ms.keywords: KsGetDefaultClockTime, KsGetDefaultClockTime function [Streaming Media Devices], ks/KsGetDefaultClockTime, ksfunc_16bfafe4-e317-48e9-841f-f642eb1fb8d3.xml, stream.ksgetdefaultclocktime
 f1_keywords:
  - "ks/KsGetDefaultClockTime"
+ - "KsGetDefaultClockTime"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

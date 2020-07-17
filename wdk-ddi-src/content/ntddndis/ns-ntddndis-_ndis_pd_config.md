@@ -10,6 +10,7 @@ keywords: ["_NDIS_PD_CONFIG structure"]
 ms.keywords: NDIS_PD_CONFIG, NDIS_PD_CONFIG structure [Network Drivers Starting with Windows Vista], _NDIS_PD_CONFIG, netvista.ndis_pd_config, ntddndis/NDIS_PD_CONFIG
 f1_keywords:
  - "ntddndis/NDIS_PD_CONFIG"
+ - "NDIS_PD_CONFIG"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

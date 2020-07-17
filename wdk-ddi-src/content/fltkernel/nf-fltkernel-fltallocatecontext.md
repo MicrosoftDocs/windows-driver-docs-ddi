@@ -10,6 +10,7 @@ keywords: ["FltAllocateContext function"]
 ms.keywords: FltAllocateContext, FltAllocateContext routine [Installable File System Drivers], FltApiRef_a_to_d_dcc03d8c-1f61-4afb-8774-f98951ebfb1f.xml, fltkernel/FltAllocateContext, ifsk.fltallocatecontext
 f1_keywords:
  - "fltkernel/FltAllocateContext"
+ - "FltAllocateContext"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

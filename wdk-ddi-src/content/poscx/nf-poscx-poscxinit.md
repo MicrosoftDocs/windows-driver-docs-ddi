@@ -10,6 +10,7 @@ keywords: ["PosCxInit function"]
 ms.keywords: PosCxInit, PosCxInit function, pos.poscxinit, poscx/PosCxInit
 f1_keywords:
  - "poscx/PosCxInit"
+ - "PosCxInit"
 req.header: poscx.h
 req.include-header: Poscx.h
 req.target-type: Windows

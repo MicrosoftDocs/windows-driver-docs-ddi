@@ -10,6 +10,7 @@ keywords: ["IPortWaveRTStream::GetPhysicalPagesCount"]
 ms.keywords: GetPhysicalPagesCount, GetPhysicalPagesCount method [Audio Devices], GetPhysicalPagesCount method [Audio Devices],IPortWaveRTStream interface, IPortWaveRTStream interface [Audio Devices],GetPhysicalPagesCount method, IPortWaveRTStream.GetPhysicalPagesCount, IPortWaveRTStream::GetPhysicalPagesCount, audio.iportwavertstream_getphysicalpagescount, audmp-routines_bdc74102-0337-436b-b3ac-68187fb323a4.xml, portcls/IPortWaveRTStream::GetPhysicalPagesCount
 f1_keywords:
  - "portcls/IPortWaveRTStream.GetPhysicalPagesCount"
+ - "IPortWaveRTStream.GetPhysicalPagesCount"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal

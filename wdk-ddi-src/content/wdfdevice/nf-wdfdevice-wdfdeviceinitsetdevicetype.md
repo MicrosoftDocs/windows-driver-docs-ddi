@@ -10,6 +10,7 @@ keywords: ["WdfDeviceInitSetDeviceType function"]
 ms.keywords: DFDeviceObjectGeneralRef_872eb4dd-0d40-46ed-a7ed-4eae8ec67240.xml, WdfDeviceInitSetDeviceType, WdfDeviceInitSetDeviceType method, kmdf.wdfdeviceinitsetdevicetype, wdf.wdfdeviceinitsetdevicetype, wdfdevice/WdfDeviceInitSetDeviceType
 f1_keywords:
  - "wdfdevice/WdfDeviceInitSetDeviceType"
+ - "WdfDeviceInitSetDeviceType"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

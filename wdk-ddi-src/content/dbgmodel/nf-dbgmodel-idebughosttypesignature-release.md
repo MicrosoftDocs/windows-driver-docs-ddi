@@ -7,6 +7,7 @@ ms.date: 09/10/2018
 keywords: ["IDebugHostTypeSignature::Release"]
 f1_keywords:
  - "dbgmodel/IDebugHostTypeSignature.Release"
+ - "IDebugHostTypeSignature.Release"
 ms.keywords: IDebugHostTypeSignature::Release, Release, IDebugHostTypeSignature.Release, IDebugHostTypeSignature::Release, IDebugHostTypeSignature.Release
 req.header: dbgmodel.h
 req.include-header:

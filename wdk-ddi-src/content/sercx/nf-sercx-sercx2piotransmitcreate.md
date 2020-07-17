@@ -10,6 +10,7 @@ keywords: ["SerCx2PioTransmitCreate function"]
 ms.keywords: 2/SerCx2PioTransmitCreate, SerCx2PioTransmitCreate, SerCx2PioTransmitCreate method [Serial Ports], serports.sercx2piotransmitcreate
 f1_keywords:
  - "sercx/SerCx2PioTransmitCreate"
+ - "SerCx2PioTransmitCreate"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal

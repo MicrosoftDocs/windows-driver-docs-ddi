@@ -10,6 +10,7 @@ keywords: ["KeReleaseInStackQueuedSpinLock function"]
 ms.keywords: KeReleaseInStackQueuedSpinLock, KeReleaseInStackQueuedSpinLock routine [Kernel-Mode Driver Architecture], k105_1904b4b2-4f31-4061-895f-8564a1de04f6.xml, kernel.kereleaseinstackqueuedspinlock, wdm/KeReleaseInStackQueuedSpinLock
 f1_keywords:
  - "wdm/KeReleaseInStackQueuedSpinLock"
+ - "KeReleaseInStackQueuedSpinLock"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["RIL_DeleteMsg function"]
 ms.keywords: RIL_DeleteMsg, RIL_DeleteMsg method [Network Drivers Starting with Windows Vista], netvista.ril_deletemsg, rilapi/RIL_DeleteMsg
 f1_keywords:
  - "rilapi/RIL_DeleteMsg"
+ - "RIL_DeleteMsg"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

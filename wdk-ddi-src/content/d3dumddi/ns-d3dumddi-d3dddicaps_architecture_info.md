@@ -10,6 +10,7 @@ keywords: ["D3DDDICAPS_ARCHITECTURE_INFO structure"]
 ms.keywords: D3DDDICAPS_ARCHITECTURE_INFO, D3DDDICAPS_ARCHITECTURE_INFO structure [Display Devices], d3dumddi/D3DDDICAPS_ARCHITECTURE_INFO, display.d3dddicaps_architecture_info
 f1_keywords:
  - "d3dumddi/D3DDDICAPS_ARCHITECTURE_INFO"
+ - "D3DDDICAPS_ARCHITECTURE_INFO"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

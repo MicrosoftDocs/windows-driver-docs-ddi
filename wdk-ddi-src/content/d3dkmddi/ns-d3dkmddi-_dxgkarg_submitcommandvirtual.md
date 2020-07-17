@@ -9,6 +9,7 @@ keywords: ["_DXGKARG_SUBMITCOMMANDVIRTUAL structure"]
 ms.keywords: DXGKARG_SUBMITCOMMANDVIRTUAL, DXGKARG_SUBMITCOMMANDVIRTUAL structure [Display Devices], _DXGKARG_SUBMITCOMMANDVIRTUAL, d3dkmddi/DXGKARG_SUBMITCOMMANDVIRTUAL, display.dxgkarg_submitcommandvirtual
 f1_keywords:
  - "d3dkmddi/DXGKARG_SUBMITCOMMANDVIRTUAL"
+ - "DXGKARG_SUBMITCOMMANDVIRTUAL"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["CommonPropertySheetUIW function"]
 ms.keywords: CommonPropertySheetUI, CommonPropertySheetUI function [Print Devices], CommonPropertySheetUIA, CommonPropertySheetUIW, compstui/CommonPropertySheetUI, cpsuifnc_547a4235-9e08-43fc-acae-b30091032ab3.xml, print.commonpropertysheetui
 f1_keywords:
  - "compstui/CommonPropertySheetUI"
+ - "CommonPropertySheetUI"
 req.header: compstui.h
 req.include-header: Compstui.h
 req.target-type: Desktop

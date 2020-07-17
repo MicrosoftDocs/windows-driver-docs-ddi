@@ -10,6 +10,7 @@ keywords: ["DevQueryPrint function"]
 ms.keywords: DevQueryPrint, DevQueryPrint function [Print Devices], print.devqueryprint, winsplp/DevQueryPrint
 f1_keywords:
  - "winsplp/DevQueryPrint"
+ - "DevQueryPrint"
 req.header: winsplp.h
 req.include-header: 
 req.target-type: Windows

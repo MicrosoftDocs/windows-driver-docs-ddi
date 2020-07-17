@@ -10,6 +10,7 @@ keywords: ["_SECURE_ELEMENT_ENDPOINT_INFO structure"]
 ms.keywords: "*PSECURE_ELEMENT_ENDPOINT_INFO, P_SECURE_ELEMENT_ENDPOINT_INFO, P_SECURE_ELEMENT_ENDPOINT_INFO structure pointer [Near-Field Proximity Drivers], SECURE_ELEMENT_ENDPOINT_INFO, SECURE_ELEMENT_ENDPOINT_INFO structure [Near-Field Proximity Drivers], _SECURE_ELEMENT_ENDPOINT_INFO, nfcsedev/P_SECURE_ELEMENT_ENDPOINT_INFO, nfcsedev/_SECURE_ELEMENT_ENDPOINT_INFO, nfpdrivers._secure_element_endpoint_info"
 f1_keywords:
  - "nfcsedev/SECURE_ELEMENT_ENDPOINT_INFO"
+ - "SECURE_ELEMENT_ENDPOINT_INFO"
 req.header: nfcsedev.h
 req.include-header: 
 req.target-type: Windows

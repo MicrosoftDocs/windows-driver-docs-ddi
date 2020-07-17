@@ -10,6 +10,7 @@ keywords: ["ExInterlockedPushEntrySList macro"]
 ms.keywords: ExInterlockedPushEntrySList, ExInterlockedPushEntrySList routine [Kernel-Mode Driver Architecture], k102_53da8507-cae3-4a71-9c59-49676a8b7a95.xml, kernel.exinterlockedpushentryslist, wdm/ExInterlockedPushEntrySList
 f1_keywords:
  - "wdm/ExInterlockedPushEntrySList"
+ - "ExInterlockedPushEntrySList"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

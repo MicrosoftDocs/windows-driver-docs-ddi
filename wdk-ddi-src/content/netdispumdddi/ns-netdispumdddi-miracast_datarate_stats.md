@@ -10,6 +10,7 @@ keywords: ["MIRACAST_DATARATE_STATS structure"]
 ms.keywords: MIRACAST_DATARATE_STATS, MIRACAST_DATARATE_STATS structure [Display Devices], display.miracast_datarate_stats, netdispumdddi/MIRACAST_DATARATE_STATS
 f1_keywords:
  - "netdispumdddi/MIRACAST_DATARATE_STATS"
+ - "MIRACAST_DATARATE_STATS"
 req.header: netdispumdddi.h
 req.include-header: Netdispumdddi.h
 req.target-type: Windows

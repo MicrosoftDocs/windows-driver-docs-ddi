@@ -10,6 +10,7 @@ keywords: ["IDebugRegisters2 interface"]
 ms.keywords: IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], IDebugRegisters2 interface [Windows Debugging],described, dbgeng/IDebugRegisters2, debugger.idebugregisters2
 f1_keywords:
  - "dbgeng/IDebugRegisters2"
+ - "IDebugRegisters2"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

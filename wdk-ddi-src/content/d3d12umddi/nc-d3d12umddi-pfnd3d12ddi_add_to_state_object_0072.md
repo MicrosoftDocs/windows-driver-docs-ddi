@@ -27,6 +27,7 @@ tech.root: display
 ms.custom:
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_ADD_TO_STATE_OBJECT_0072"
+ - "PFND3D12DDI_ADD_TO_STATE_OBJECT_0072"
 topic_type:
  - apiref
 api_type:

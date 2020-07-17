@@ -10,6 +10,7 @@ keywords: ["IWDTFDriverPackageAction2::get_Date"]
 ms.keywords: Date property [Windows Device Testing Framework], Date property [Windows Device Testing Framework],IWDTFDriverPackageAction2 interface, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework],Date property, IWDTFDriverPackageAction2.Date, IWDTFDriverPackageAction2.get_Date, IWDTFDriverPackageAction2::Date, IWDTFDriverPackageAction2::get_Date, Microsoft.WDTF.IWDTFDriverPackageAction2.Date, Microsoft::WDTF::IWDTFDriverPackageAction2::Date, dtf.iwdtfdriverpackageaction2_date, get_Date, wdtfdriverpackageaction/IWDTFDriverPackageAction2::Date, wdtfdriverpackageaction/IWDTFDriverPackageAction2::get_Date
 f1_keywords:
  - "wdtfdriverpackageaction/IWDTFDriverPackageAction2.Date"
+ - "IWDTFDriverPackageAction2.Date"
 req.header: wdtfdriverpackageaction.h
 req.include-header: 
 req.target-type: Windows

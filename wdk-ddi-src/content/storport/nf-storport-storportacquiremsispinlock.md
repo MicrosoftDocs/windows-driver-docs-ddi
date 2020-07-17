@@ -10,6 +10,7 @@ keywords: ["StorPortAcquireMSISpinLock function"]
 ms.keywords: StorPortAcquireMSISpinLock, StorPortAcquireMSISpinLock routine [Storage Devices], storage.storportacquiremsispinlock, storport/StorPortAcquireMSISpinLock, storprt_0db1ab5c-a2a5-4362-84e0-493a5cebc2d3.xml
 f1_keywords:
  - "storport/StorPortAcquireMSISpinLock"
+ - "StorPortAcquireMSISpinLock"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

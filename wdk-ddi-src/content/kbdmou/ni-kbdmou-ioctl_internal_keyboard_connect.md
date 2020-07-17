@@ -10,6 +10,7 @@ keywords: ["IOCTL_INTERNAL_KEYBOARD_CONNECT IOCTL"]
 ms.keywords: IOCTL_INTERNAL_KEYBOARD_CONNECT, IOCTL_INTERNAL_KEYBOARD_CONNECT control, IOCTL_INTERNAL_KEYBOARD_CONNECT control code [Human Input Devices], hid.ioctl_internal_keyboard_connect, kbdmou/IOCTL_INTERNAL_KEYBOARD_CONNECT, kfilref_b9a87851-bbc4-4567-a459-9e647d6d3315.xml
 f1_keywords:
  - "kbdmou/IOCTL_INTERNAL_KEYBOARD_CONNECT"
+ - "IOCTL_INTERNAL_KEYBOARD_CONNECT"
 req.header: kbdmou.h
 req.include-header: Kbdmou.h
 req.target-type: Windows

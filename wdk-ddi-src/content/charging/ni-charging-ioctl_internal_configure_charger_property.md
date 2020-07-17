@@ -10,6 +10,7 @@ keywords: ["IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY IOCTL"]
 ms.keywords: IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY, IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY control, IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY control code [Battery Devices], battery.ioctl_internal_configure_charger_property, charging/IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY
 f1_keywords:
  - "charging/IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY"
+ - "IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY"
 req.header: charging.h
 req.include-header: Charging.h
 req.target-type: Windows

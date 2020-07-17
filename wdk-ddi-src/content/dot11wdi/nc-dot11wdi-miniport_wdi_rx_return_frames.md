@@ -10,6 +10,7 @@ keywords: ["MINIPORT_WDI_RX_RETURN_FRAMES callback function"]
 ms.keywords: MINIPORT_WDI_RX_RETURN_FRAMES, MINIPORT_WDI_RX_RETURN_FRAMES callback, MiniportWdiRxReturnFrames, MiniportWdiRxReturnFrames callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiRxReturnFrames, netvista.miniportwdirxreturnframes
 f1_keywords:
  - "dot11wdi/MiniportWdiRxReturnFrames"
+ - "MiniportWdiRxReturnFrames"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows

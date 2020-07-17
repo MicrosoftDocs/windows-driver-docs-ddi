@@ -10,6 +10,7 @@ keywords: ["PFN_START_MIRACAST_SESSION callback function"]
 ms.keywords: PFN_START_MIRACAST_SESSION, PFN_START_MIRACAST_SESSION callback, StartMiracastSession, StartMiracastSession callback function [Display Devices], display.startmiracastsession, netdispumdddi/StartMiracastSession
 f1_keywords:
  - "netdispumdddi/StartMiracastSession"
+ - "StartMiracastSession"
 req.header: netdispumdddi.h
 req.include-header: Netdispumdddi.h
 req.target-type: Desktop

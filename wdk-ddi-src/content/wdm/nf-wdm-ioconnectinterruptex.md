@@ -10,6 +10,7 @@ keywords: ["IoConnectInterruptEx function"]
 ms.keywords: IoConnectInterruptEx, IoConnectInterruptEx routine [Kernel-Mode Driver Architecture], WdmlibIoConnectInterruptEx, k104_17833453-ee13-4346-9c58-a1c47dccf636.xml, kernel.ioconnectinterruptex, wdm/IoConnectInterruptEx, wdm/WdmlibIoConnectInterruptEx
 f1_keywords:
  - "wdm/IoConnectInterruptEx"
+ - "IoConnectInterruptEx"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

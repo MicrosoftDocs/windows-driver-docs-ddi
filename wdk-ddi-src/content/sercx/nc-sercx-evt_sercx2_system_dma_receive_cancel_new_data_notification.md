@@ -10,6 +10,7 @@ keywords: ["EVT_SERCX2_SYSTEM_DMA_RECEIVE_CANCEL_NEW_DATA_NOTIFICATION callback 
 ms.keywords: 2/EvtSerCx2SystemDmaReceiveCancelNewDataNotification, EVT_SERCX2_SYSTEM_DMA_RECEIVE_CANCEL_NEW_DATA_NOTIFICATION, EVT_SERCX2_SYSTEM_DMA_RECEIVE_CANCEL_NEW_DATA_NOTIFICATION callback, EvtSerCx2SystemDmaReceiveCancelNewDataNotification, EvtSerCx2SystemDmaReceiveCancelNewDataNotification callback function [Serial Ports], serports.evtsercx2systemdmareceivecancelnewdatanotification
 f1_keywords:
  - "sercx/EvtSerCx2SystemDmaReceiveCancelNewDataNotification"
+ - "EvtSerCx2SystemDmaReceiveCancelNewDataNotification"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["_PEP_WORK structure"]
 ms.keywords: "*PPEP_WORK, PEP_WORK, PEP_WORK structure [Kernel-Mode Driver Architecture], PPEP_WORK, PPEP_WORK structure pointer [Kernel-Mode Driver Architecture], _PEP_WORK, kernel.pep_work, pepfx/PEP_WORK, pepfx/PPEP_WORK"
 f1_keywords:
  - "pepfx/PEP_WORK"
+ - "PEP_WORK"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows

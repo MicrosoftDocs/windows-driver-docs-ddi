@@ -10,6 +10,7 @@ keywords: ["IXpsPartIterator::Current"]
 ms.keywords: Current, Current method [Print Devices], Current method [Print Devices],IXpsPartIterator interface, IXpsPartIterator interface [Print Devices],Current method, IXpsPartIterator.Current, IXpsPartIterator::Current, filterpipeline/IXpsPartIterator::Current, filterpipeline_72cbd5d6-003c-410b-a943-bfd6552df8ee.xml, print.ixpspartiterator_current
 f1_keywords:
  - "filterpipeline/IXpsPartIterator.Current"
+ - "IXpsPartIterator.Current"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop

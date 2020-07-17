@@ -10,6 +10,7 @@ keywords: ["FsRtlFastLock macro"]
 ms.keywords: FsRtlFastLock, FsRtlFastLock function [Installable File System Drivers], fsrtlref_c60db87b-ac5a-4c60-83f2-7381e0156806.xml, ifsk.fsrtlfastlock, ntifs/FsRtlFastLock
 f1_keywords:
  - "ntifs/FsRtlFastLock"
+ - "FsRtlFastLock"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Desktop

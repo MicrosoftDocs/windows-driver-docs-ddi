@@ -10,6 +10,7 @@ keywords: ["IWDFRemoteInterface interface"]
 ms.keywords: IWDFRemoteInterface, IWDFRemoteInterface interface, IWDFRemoteInterface interface, described, wdf.iwdfremoteinterface, wudfddi/IWDFRemoteInterface
 f1_keywords:
  - "wudfddi/IWDFRemoteInterface"
+ - "IWDFRemoteInterface"
 req.header: wudfddi.h
 req.include-header:
 req.target-type: Desktop

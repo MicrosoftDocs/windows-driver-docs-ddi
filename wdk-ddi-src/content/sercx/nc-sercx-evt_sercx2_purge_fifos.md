@@ -10,6 +10,7 @@ keywords: ["EVT_SERCX2_PURGE_FIFOS callback function"]
 ms.keywords: 2/EvtSerCx2PurgeFifos, EVT_SERCX2_PURGE_FIFOS, EVT_SERCX2_PURGE_FIFOS callback, EvtSerCx2PurgeFifos, EvtSerCx2PurgeFifos callback function [Serial Ports], serports.evtsercx2purgefifos
 f1_keywords:
  - "sercx/EvtSerCx2PurgeFifos"
+ - "EvtSerCx2PurgeFifos"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop

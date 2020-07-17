@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DXGK_DSI2_CAPS structure"]
 f1_keywords:
  - "d3dkmddi/DXGK_DSI2_CAPS"
+ - "DXGK_DSI2_CAPS"
 ms.keywords: DXGK_DSI2_CAPS, DXGK_DSI2_CAPS, *PDXGK_DSI2_CAPS, 
 req.header: d3dkmddi.h
 req.include-header:

@@ -7,6 +7,7 @@ ms.date: 09/20/2018
 keywords: ["IDebugHostStatus::PollUserInterrupt"]
 f1_keywords:
  - "dbgmodel/IDebugHostStatus.PollUserInterrupt"
+ - "IDebugHostStatus.PollUserInterrupt"
 ms.keywords: IDebugHostStatus::PollUserInterrupt, PollUserInterrupt, IDebugHostStatus.PollUserInterrupt, IDebugHostStatus::PollUserInterrupt, IDebugHostStatus.PollUserInterrupt
 req.header: dbgmodel.h
 req.include-header:

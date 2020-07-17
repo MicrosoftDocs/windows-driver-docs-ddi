@@ -10,6 +10,7 @@ keywords: ["IOCTL_GET_TUPLE_DATA IOCTL"]
 ms.keywords: IOCTL_GET_TUPLE_DATA, IOCTL_GET_TUPLE_DATA control, IOCTL_GET_TUPLE_DATA control code [Buses], PCMCIA.ioctl_get_tuple_data, memcdref_80c1671e-c0c2-4429-b703-ffb389cc7af5.xml, ntddpcm/IOCTL_GET_TUPLE_DATA
 f1_keywords:
  - "ntddpcm/IOCTL_GET_TUPLE_DATA"
+ - "IOCTL_GET_TUPLE_DATA"
 req.header: ntddpcm.h
 req.include-header: Ntddpcm.h
 req.target-type: Windows

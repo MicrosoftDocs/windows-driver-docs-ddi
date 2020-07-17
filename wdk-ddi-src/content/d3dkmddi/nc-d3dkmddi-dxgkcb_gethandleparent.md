@@ -9,6 +9,7 @@ keywords: ["DXGKCB_GETHANDLEPARENT callback function"]
 ms.keywords: DXGKCB_GETHANDLEPARENT, DXGKCB_GETHANDLEPARENT callback, DpFunctions_7094d9b1-3262-45b9-88de-e834878b6b2d.xml, DxgkCbGetHandleParent, DxgkCbGetHandleParent callback function [Display Devices], d3dkmddi/DxgkCbGetHandleParent, display.dxgkcbgethandleparent
 f1_keywords:
  - "d3dkmddi/DxgkCbGetHandleParent"
+ - "DxgkCbGetHandleParent"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop

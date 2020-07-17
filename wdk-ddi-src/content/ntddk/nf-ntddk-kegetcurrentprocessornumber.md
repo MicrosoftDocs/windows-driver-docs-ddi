@@ -10,6 +10,7 @@ keywords: ["KeGetCurrentProcessorNumber function"]
 ms.keywords: KeGetCurrentProcessorNumber, KeGetCurrentProcessorNumber routine [Kernel-Mode Driver Architecture], k105_3faba96b-e6d9-40d2-a543-6ea95ce67c73.xml, kernel.kegetcurrentprocessornumber, ntddk/KeGetCurrentProcessorNumber
 f1_keywords:
  - "ntddk/KeGetCurrentProcessorNumber"
+ - "KeGetCurrentProcessorNumber"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Desktop

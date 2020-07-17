@@ -10,6 +10,7 @@ keywords: ["VhfReadReportSubmit function"]
 ms.keywords: VhfReadReportSubmit, VhfReadReportSubmit method [Human Input Devices], hid.vhfreadreportsubmit, vhf/VhfReadReportSubmit
 f1_keywords:
  - "vhf/VhfReadReportSubmit"
+ - "VhfReadReportSubmit"
 req.header: vhf.h
 req.include-header: 
 req.target-type: Windows

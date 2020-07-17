@@ -10,6 +10,7 @@ keywords: ["IOCTL_INTERNAL_USBFN_GET_PIPE_STATE IOCTL"]
 ms.keywords: IOCTL_INTERNAL_USBFN_GET_PIPE_STATE, IOCTL_INTERNAL_USBFN_GET_PIPE_STATE control, IOCTL_INTERNAL_USBFN_GET_PIPE_STATE control code [Buses], buses.ioctl_internal_usbfn_get_pipe_state, usbfnioctl/IOCTL_INTERNAL_USBFN_GET_PIPE_STATE
 f1_keywords:
  - "usbfnioctl/IOCTL_INTERNAL_USBFN_GET_PIPE_STATE"
+ - "IOCTL_INTERNAL_USBFN_GET_PIPE_STATE"
 req.header: usbfnioctl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["RIL_CloseUiccLogicalChannel function"]
 ms.keywords: RIL_CloseUiccLogicalChannel, RIL_CloseUiccLogicalChannel method [Network Drivers Starting with Windows Vista], netvista.ril_closeuicclogicalchannel, rilapi/RIL_CloseUiccLogicalChannel
 f1_keywords:
  - "rilapi/RIL_CloseUiccLogicalChannel"
+ - "RIL_CloseUiccLogicalChannel"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

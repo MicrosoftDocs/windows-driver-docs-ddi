@@ -10,6 +10,7 @@ keywords: ["_SECURE_ELEMENT_CARD_EMULATION_MODE enumeration"]
 ms.keywords: "*PSECURE_ELEMENT_CARD_EMULATION_MODE, EmulationOff, EmulationOnPowerDependent, EmulationOnPowerIndependent, SECURE_ELEMENT_CARD_EMULATION_MODE, SECURE_ELEMENT_CARD_EMULATION_MODE enumeration [Near-Field Proximity Drivers], _SECURE_ELEMENT_CARD_EMULATION_MODE, nfcsedev/EmulationOff, nfcsedev/EmulationOnPowerDependent, nfcsedev/EmulationOnPowerIndependent, nfcsedev/SECURE_ELEMENT_CARD_EMULATION_MODE, nfpdrivers.secure_element_set_card_emulation_mode"
 f1_keywords:
  - "nfcsedev/SECURE_ELEMENT_CARD_EMULATION_MODE"
+ - "SECURE_ELEMENT_CARD_EMULATION_MODE"
 req.header: nfcsedev.h
 req.include-header: 
 req.target-type: Windows

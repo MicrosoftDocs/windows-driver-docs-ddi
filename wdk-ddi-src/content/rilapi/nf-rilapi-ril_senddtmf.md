@@ -10,6 +10,7 @@ keywords: ["RIL_SendDTMF function"]
 ms.keywords: RIL_SendDTMF, RIL_SendDTMF method [Network Drivers Starting with Windows Vista], netvista.ril_senddtmf, rilapi/RIL_SendDTMF
 f1_keywords:
  - "rilapi/RIL_SendDTMF"
+ - "RIL_SendDTMF"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

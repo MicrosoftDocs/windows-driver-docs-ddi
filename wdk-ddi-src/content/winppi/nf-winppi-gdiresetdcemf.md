@@ -10,6 +10,7 @@ keywords: ["GdiResetDCEMF function"]
 ms.keywords: GdiResetDCEMF, GdiResetDCEMF function [Print Devices], gdifnc_ff066b35-7062-430e-a8b9-bbdef46494a6.xml, print.gdiresetdcemf, winppi/GdiResetDCEMF
 f1_keywords:
  - "winppi/GdiResetDCEMF"
+ - "GdiResetDCEMF"
 req.header: winppi.h
 req.include-header: Winppi.h
 req.target-type: Universal

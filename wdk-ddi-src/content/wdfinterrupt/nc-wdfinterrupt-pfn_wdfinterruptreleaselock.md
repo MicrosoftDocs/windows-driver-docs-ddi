@@ -10,6 +10,7 @@ keywords: ["PFN_WDFINTERRUPTRELEASELOCK callback"]
 ms.keywords: wdf.wdfinterruptreleaselock, PFN_WDFINTERRUPTRELEASELOCK, WdfInterruptReleaseLock callback function, WdfInterruptReleaseLock, wdfinterrupt/WdfInterruptReleaseLock, DFInterruptObjectRef_70637f8b-a7d9-4637-b02c-1ebed3e363c7.xml, kmdf.wdfinterruptreleaselock
 f1_keywords:
  - "wdfinterrupt/WdfInterruptReleaseLock"
+ - "WdfInterruptReleaseLock"
 req.header: wdfinterrupt.h
 req.include-header: Wdf.h
 req.target-type: Universal

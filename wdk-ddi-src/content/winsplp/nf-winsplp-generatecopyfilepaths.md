@@ -10,6 +10,7 @@ keywords: ["GenerateCopyFilePaths function"]
 ms.keywords: GenerateCopyFilePaths, GenerateCopyFilePaths function [Print Devices], poprfnc_35a0e3c2-1841-4e84-b980-c3b13592c854.xml, print.generatecopyfilepaths, winsplp/GenerateCopyFilePaths
 f1_keywords:
  - "winsplp/GenerateCopyFilePaths"
+ - "GenerateCopyFilePaths"
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Universal

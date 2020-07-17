@@ -10,6 +10,7 @@ keywords: ["IOCTL_EHSTOR_DEVICE_QUERY_PROPERTIES IOCTL"]
 ms.keywords: IOCTL_EHSTOR_DEVICE_QUERY_PROPERTIES, IOCTL_EHSTOR_DEVICE_QUERY_PROPERTIES control, IOCTL_EHSTOR_DEVICE_QUERY_PROPERTIES control code [Storage Devices], ehstorioctl/IOCTL_EHSTOR_DEVICE_QUERY_PROPERTIES, storage.ioctl_ehstor_device_query_properties
 f1_keywords:
  - "ehstorioctl/IOCTL_EHSTOR_DEVICE_QUERY_PROPERTIES"
+ - "IOCTL_EHSTOR_DEVICE_QUERY_PROPERTIES"
 req.header: ehstorioctl.h
 req.include-header: EhStorIoctl.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["RILPHONEBOOKREADYSTATE structure"]
 ms.keywords: "*LPRILPHONEBOOKREADYSTATE, RILPHONEBOOKREADYSTATE, RILPHONEBOOKREADYSTATE structure [Network Drivers Starting with Windows Vista], netvista.rilphonebookreadystate, ntddrilapitypes/RILPHONEBOOKREADYSTATE"
 f1_keywords:
  - "rilapitypes/RILPHONEBOOKREADYSTATE"
+ - "RILPHONEBOOKREADYSTATE"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

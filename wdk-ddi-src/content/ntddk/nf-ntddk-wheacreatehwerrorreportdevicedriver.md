@@ -36,6 +36,7 @@ api_name:
  - WheaCreateHwErrorReportDeviceDriver
 f1_keywords:
  - ntddk/WheaCreateHwErrorReportDeviceDriver
+ - ""
 dev_langs:
  - c++
 ---

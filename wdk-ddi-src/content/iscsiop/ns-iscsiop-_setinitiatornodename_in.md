@@ -10,6 +10,7 @@ keywords: ["_SetInitiatorNodeName_IN structure"]
 ms.keywords: "*PSetInitiatorNodeName_IN, PSetInitiatorNodeName_IN, PSetInitiatorNodeName_IN structure pointer [Storage Devices], SetInitiatorNodeName_IN, SetInitiatorNodeName_IN structure [Storage Devices], _SetInitiatorNodeName_IN, iscsiop/PSetInitiatorNodeName_IN, iscsiop/SetInitiatorNodeName_IN, storage.setinitiatornodename_in, structs-iSCSI_fac4e524-8266-4135-9211-564d1ea2a952.xml"
 f1_keywords:
  - "iscsiop/SetInitiatorNodeName_IN"
+ - "SetInitiatorNodeName_IN"
 req.header: iscsiop.h
 req.include-header: Iscsiop.h
 req.target-type: Windows

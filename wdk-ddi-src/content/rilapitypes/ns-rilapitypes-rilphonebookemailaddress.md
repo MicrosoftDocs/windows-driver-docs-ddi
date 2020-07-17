@@ -10,6 +10,7 @@ keywords: ["RILPHONEBOOKEMAILADDRESS structure"]
 ms.keywords: "*LPRILPHONEBOOKEMAILADDRESS, RILPHONEBOOKEMAILADDRESS, RILPHONEBOOKEMAILADDRESS structure [Network Drivers Starting with Windows Vista], netvista.rilphonebookemailaddress, ntddrilapitypes/RILPHONEBOOKEMAILADDRESS"
 f1_keywords:
  - "rilapitypes/RILPHONEBOOKEMAILADDRESS"
+ - "RILPHONEBOOKEMAILADDRESS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

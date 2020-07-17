@@ -10,6 +10,7 @@ keywords: ["RIL_GetRadioStateGroups function"]
 ms.keywords: RIL_GetRadioStateGroups, RIL_GetRadioStateGroups method [Network Drivers Starting with Windows Vista], netvista.ril_getradiostategroups, rilapi/RIL_GetRadioStateGroups
 f1_keywords:
  - "rilapi/RIL_GetRadioStateGroups"
+ - "RIL_GetRadioStateGroups"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["RtlEnumerateGenericTable function"]
 ms.keywords: RtlEnumerateGenericTable, RtlEnumerateGenericTable routine [Installable File System Drivers], ifsk.rtlenumerategenerictable, ntddk/RtlEnumerateGenericTable, rtlref_5fb7c196-aee1-4dcc-a39c-587472a2fbe9.xml
 f1_keywords:
  - "ntddk/RtlEnumerateGenericTable"
+ - "RtlEnumerateGenericTable"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Universal

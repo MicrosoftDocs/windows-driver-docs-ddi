@@ -10,6 +10,7 @@ keywords: ["RtlInt8ToUChar function"]
 ms.keywords: RtlInt8ToUChar, RtlInt8ToUChar function [Kernel-Mode Driver Architecture], kernel.rtlint8touchar, ntintsafe/RtlInt8ToUChar
 f1_keywords:
  - "ntintsafe/RtlInt8ToUChar"
+ - "RtlInt8ToUChar"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

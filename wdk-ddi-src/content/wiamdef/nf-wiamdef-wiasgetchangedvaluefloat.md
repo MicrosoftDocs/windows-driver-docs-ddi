@@ -10,6 +10,7 @@ keywords: ["wiasGetChangedValueFloat function"]
 ms.keywords: image.wiasgetchangedvaluefloat, wiamdef/wiasGetChangedValueFloat, wiasFncs_d7b124d9-d108-4293-946c-a5d6bb43996f.xml, wiasGetChangedValueFloat, wiasGetChangedValueFloat function [Imaging Devices]
 f1_keywords:
  - "wiamdef/wiasGetChangedValueFloat"
+ - "wiasGetChangedValueFloat"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop

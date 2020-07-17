@@ -10,6 +10,7 @@ keywords: ["IDebugControl4::GetTextReplacementWide"]
 ms.keywords: GetTextReplacementWide, GetTextReplacementWide method [Windows Debugging], GetTextReplacementWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetTextReplacementWide method, IDebugControl4.GetTextReplacementWide, IDebugControl4::GetTextReplacementWide, dbgeng/IDebugControl4::GetTextReplacementWide, debugger.gettextreplacementwide
 f1_keywords:
  - "dbgeng/IDebugControl4.GetTextReplacementWide"
+ - "IDebugControl4.GetTextReplacementWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

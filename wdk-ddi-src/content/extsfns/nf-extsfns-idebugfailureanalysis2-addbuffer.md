@@ -10,6 +10,7 @@ keywords: ["IDebugFailureAnalysis2::AddBuffer"]
 ms.keywords: AddBuffer, AddBuffer method [Windows Debugging], AddBuffer method [Windows Debugging],IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging],AddBuffer method, IDebugFailureAnalysis2.AddBuffer, IDebugFailureAnalysis2::AddBuffer, debugger.idebugfailureanalysis2_addbuffer, extsfns/IDebugFailureAnalysis2::AddBuffer
 f1_keywords:
  - "extsfns/IDebugFailureAnalysis2.AddBuffer"
+ - "IDebugFailureAnalysis2.AddBuffer"
 req.header: extsfns.h
 req.include-header: 
 req.target-type: Desktop

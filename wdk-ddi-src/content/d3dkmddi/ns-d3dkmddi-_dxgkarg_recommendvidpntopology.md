@@ -9,6 +9,7 @@ keywords: ["_DXGKARG_RECOMMENDVIDPNTOPOLOGY structure"]
 ms.keywords: DXGKARG_RECOMMENDVIDPNTOPOLOGY, DXGKARG_RECOMMENDVIDPNTOPOLOGY structure [Display Devices], DmStructs_960673e2-caf0-4f46-9b8c-c1da025fb6bf.xml, _DXGKARG_RECOMMENDVIDPNTOPOLOGY, d3dkmddi/DXGKARG_RECOMMENDVIDPNTOPOLOGY, display.dxgkarg_recommendvidpntopology
 f1_keywords:
  - "d3dkmddi/DXGKARG_RECOMMENDVIDPNTOPOLOGY"
+ - "DXGKARG_RECOMMENDVIDPNTOPOLOGY"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

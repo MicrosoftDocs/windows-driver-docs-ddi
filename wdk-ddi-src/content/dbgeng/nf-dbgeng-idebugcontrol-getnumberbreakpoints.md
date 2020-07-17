@@ -10,6 +10,7 @@ keywords: ["IDebugControl::GetNumberBreakpoints"]
 ms.keywords: GetNumberBreakpoints, GetNumberBreakpoints method [Windows Debugging], GetNumberBreakpoints method [Windows Debugging],IDebugControl interface, GetNumberBreakpoints method [Windows Debugging],IDebugControl2 interface, GetNumberBreakpoints method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetNumberBreakpoints method, IDebugControl.GetNumberBreakpoints, IDebugControl2 interface [Windows Debugging],GetNumberBreakpoints method, IDebugControl2::GetNumberBreakpoints, IDebugControl3 interface [Windows Debugging],GetNumberBreakpoints method, IDebugControl3::GetNumberBreakpoints, IDebugControl::GetNumberBreakpoints, IDebugControl_c5b9bf83-0a0e-4570-8a05-04ca39a4d335.xml, dbgeng/IDebugControl2::GetNumberBreakpoints, dbgeng/IDebugControl3::GetNumberBreakpoints, dbgeng/IDebugControl::GetNumberBreakpoints, debugger.getnumberbreakpoints
 f1_keywords:
  - "dbgeng/IDebugControl.GetNumberBreakpoints"
+ - "IDebugControl.GetNumberBreakpoints"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

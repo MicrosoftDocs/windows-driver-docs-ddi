@@ -10,6 +10,7 @@ keywords: ["FsRtlFastUnlockAllByKey function"]
 ms.keywords: FsRtlFastUnlockAllByKey, FsRtlFastUnlockAllByKey routine [Installable File System Drivers], fsrtlref_193afe01-52f3-4dbc-8a33-bd058beb10ce.xml, ifsk.fsrtlfastunlockallbykey, ntifs/FsRtlFastUnlockAllByKey
 f1_keywords:
  - "ntifs/FsRtlFastUnlockAllByKey"
+ - "FsRtlFastUnlockAllByKey"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

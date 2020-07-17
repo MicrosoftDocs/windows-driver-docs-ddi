@@ -10,6 +10,7 @@ keywords: ["IPowerPolicyCallbackWakeFromS0 interface"]
 ms.keywords: IPowerPolicyCallbackWakeFromS0, IPowerPolicyCallbackWakeFromS0 interface, IPowerPolicyCallbackWakeFromS0 interface,described, UMDFDeviceObjectRef_e79ecf1d-279d-4945-941a-ed53b00f6242.xml, umdf.ipowerpolicycallbackwakefroms0, wdf.ipowerpolicycallbackwakefroms0, wudfddi/IPowerPolicyCallbackWakeFromS0
 f1_keywords:
  - "wudfddi/IPowerPolicyCallbackWakeFromS0"
+ - "IPowerPolicyCallbackWakeFromS0"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

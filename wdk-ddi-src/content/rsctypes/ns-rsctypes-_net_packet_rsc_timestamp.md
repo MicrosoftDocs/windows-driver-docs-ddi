@@ -10,6 +10,7 @@ ms.date: 09/24/2019
 keywords: ["NET_PACKET_RSC_TIMESTAMP structure"]
 f1_keywords:
  - "rsctypes/NET_PACKET_RSC_TIMESTAMP"
+ - "NET_PACKET_RSC_TIMESTAMP"
 ms.keywords: NET_PACKET_RSC_TIMESTAMP, NET_PACKET_RSC_TIMESTAMP, 
 req.header: rsctypes.h
 req.include-header:

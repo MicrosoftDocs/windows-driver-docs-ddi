@@ -10,6 +10,7 @@ keywords: ["RILRADIOSTATEPASSWORD structure"]
 ms.keywords: "*LPRILRADIOSTATEPASSWORD, RILRADIOSTATEPASSWORD, RILRADIOSTATEPASSWORD structure [Network Drivers Starting with Windows Vista], netvista.rilradiostatepassword, ntddrilapitypes/RILRADIOSTATEPASSWORD"
 f1_keywords:
  - "rilapitypes/RILRADIOSTATEPASSWORD"
+ - "RILRADIOSTATEPASSWORD"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["GetTebAddress function"]
 ms.keywords: GetTebAddress, GetTebAddress function [Windows Debugging], WdbgExts_Ref_69ad127f-7df4-4c57-9475-55040aa02f78.xml, debugger.gettebaddress, wdbgexts/GetTebAddress
 f1_keywords:
  - "wdbgexts/GetTebAddress"
+ - "GetTebAddress"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["NdisAllocateGenericObject function"]
 ms.keywords: NdisAllocateGenericObject, NdisAllocateGenericObject function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateGenericObject, ndis_object_ref_bb08930d-d264-4580-be64-a48061ab8ad4.xml, netvista.ndisallocategenericobject
 f1_keywords:
  - "ndis/NdisAllocateGenericObject"
+ - "NdisAllocateGenericObject"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

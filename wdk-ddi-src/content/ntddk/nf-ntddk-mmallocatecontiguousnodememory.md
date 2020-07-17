@@ -10,6 +10,7 @@ keywords: ["MmAllocateContiguousNodeMemory function"]
 ms.keywords: MmAllocateContiguousNodeMemory, MmAllocateContiguousNodeMemory routine [Kernel-Mode Driver Architecture], kernel.mmallocatecontiguousnodememory, wdm/MmAllocateContiguousNodeMemory
 f1_keywords:
  - "ntddk/MmAllocateContiguousNodeMemory"
+ - "MmAllocateContiguousNodeMemory"
 req.header: ntddk.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal

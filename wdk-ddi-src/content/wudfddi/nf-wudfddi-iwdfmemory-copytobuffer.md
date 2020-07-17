@@ -10,6 +10,7 @@ keywords: ["IWDFMemory::CopyToBuffer"]
 ms.keywords: CopyToBuffer, CopyToBuffer method, CopyToBuffer method,IWDFMemory interface, IWDFMemory interface,CopyToBuffer method, IWDFMemory.CopyToBuffer, IWDFMemory::CopyToBuffer, UMDFMemoryObjectRef_40ff2a7e-f93c-4f95-ba14-b7ade765ab2d.xml, umdf.iwdfmemory_copytobuffer, wdf.iwdfmemory_copytobuffer, wudfddi/IWDFMemory::CopyToBuffer
 f1_keywords:
  - "wudfddi/IWDFMemory.CopyToBuffer"
+ - "IWDFMemory.CopyToBuffer"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

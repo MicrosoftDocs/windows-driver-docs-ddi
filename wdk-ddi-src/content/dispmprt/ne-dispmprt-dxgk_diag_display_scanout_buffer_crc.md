@@ -29,6 +29,7 @@ api_name:
 f1_keywords:
  - dispmprt/_DXGK_DIAG_DISPLAY_SCANOUT_BUFFER_CRC
  - dispmprt/DXGK_DIAG_DISPLAY_SCANOUT_BUFFER_CRC
+ - ""
 dev_langs:
  - c++
 ---

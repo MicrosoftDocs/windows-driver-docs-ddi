@@ -10,6 +10,7 @@ keywords: ["_NDIS_SWITCH_OPTIONAL_HANDLERS structure"]
 ms.keywords: "*PNDIS_SWITCH_OPTIONAL_HANDLERS, NDIS_SWITCH_OPTIONAL_HANDLERS, NDIS_SWITCH_OPTIONAL_HANDLERS structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_OPTIONAL_HANDLERS, PNDIS_SWITCH_OPTIONAL_HANDLERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_OPTIONAL_HANDLERS, ndis/NDIS_SWITCH_OPTIONAL_HANDLERS, ndis/PNDIS_SWITCH_OPTIONAL_HANDLERS, netvista.ndis_switch_optional_handlers"
 f1_keywords:
  - "ndis/NDIS_SWITCH_OPTIONAL_HANDLERS"
+ - "NDIS_SWITCH_OPTIONAL_HANDLERS"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

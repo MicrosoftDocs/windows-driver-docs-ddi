@@ -9,6 +9,7 @@ keywords: ["D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0022 structure"]
 ms.keywords: D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0022, D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0022 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0022, display.d3d12ddi_video_process_support_data
 f1_keywords:
  - "d3d12umddi/D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0022"
+ - "D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0022"
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows

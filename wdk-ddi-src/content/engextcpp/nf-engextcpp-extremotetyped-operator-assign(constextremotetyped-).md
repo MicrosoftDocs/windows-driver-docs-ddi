@@ -10,6 +10,7 @@ keywords: ["ExtRemoteTyped::operator=(const ExtRemoteTyped &)"]
 ms.keywords: ExtRemoteTyped class [Windows Debugging],operator= method, ExtRemoteTyped.operator=, ExtRemoteTyped.operator=(const ExtRemoteTyped &), ExtRemoteTyped.operator=(const ExtRemoteTyped&), ExtRemoteTyped::operator=, ExtRemoteTyped::operator=(const ExtRemoteTyped &), debugger.extremotetyped_operatorequals_extremotetyped, operator=, operator= method [Windows Debugging], operator= method [Windows Debugging],ExtRemoteTyped class
 f1_keywords:
  - "engextcpp/ExtRemoteTyped.operator="
+ - "ExtRemoteTyped.operator="
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop

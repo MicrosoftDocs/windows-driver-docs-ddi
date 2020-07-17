@@ -10,6 +10,7 @@ keywords: ["FWPS_VSWITCH_RUNTIME_STATE_SAVE_CALLBACK0 callback function"]
 ms.keywords: FWPS_VSWITCH_RUNTIME_STATE_SAVE_CALLBACK0, FWPS_VSWITCH_RUNTIME_STATE_SAVE_CALLBACK0 callback, fwpsk/vSwitchRuntimeStateSaveNotifyFn, netvista.fwps_vswitch_runtime_state_save_callback0, vSwitchRuntimeStateSaveNotifyFn, vSwitchRuntimeStateSaveNotifyFn callback function [Network Drivers Starting with Windows Vista]
 f1_keywords:
  - "fwpsk/vSwitchRuntimeStateSaveNotifyFn"
+ - "vSwitchRuntimeStateSaveNotifyFn"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Windows

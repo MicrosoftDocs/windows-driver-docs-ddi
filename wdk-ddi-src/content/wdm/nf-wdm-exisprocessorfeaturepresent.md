@@ -10,6 +10,7 @@ keywords: ["ExIsProcessorFeaturePresent function"]
 ms.keywords: ExIsProcessorFeaturePresent, ExIsProcessorFeaturePresent routine [Kernel-Mode Driver Architecture], k102_4dccea04-24a3-4465-97bc-67bb58cee3b1.xml, kernel.exisprocessorfeaturepresent, wdm/ExIsProcessorFeaturePresent
 f1_keywords:
  - "wdm/ExIsProcessorFeaturePresent"
+ - "ExIsProcessorFeaturePresent"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

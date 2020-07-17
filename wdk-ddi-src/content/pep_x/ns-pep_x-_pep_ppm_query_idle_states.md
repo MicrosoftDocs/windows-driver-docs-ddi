@@ -10,6 +10,7 @@ keywords: ["_PEP_PPM_QUERY_IDLE_STATES structure"]
 ms.keywords: "*PPEP_PPM_QUERY_IDLE_STATES, PEP_PPM_QUERY_IDLE_STATES, PEP_PPM_QUERY_IDLE_STATES structure [Kernel-Mode Driver Architecture], PPEP_PPM_QUERY_IDLE_STATES, PPEP_PPM_QUERY_IDLE_STATES structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_QUERY_IDLE_STATES, kernel.pep_ppm_query_idle_states, pep_x/PEP_PPM_QUERY_IDLE_STATES, pep_x/PPEP_PPM_QUERY_IDLE_STATES"
 f1_keywords:
  - "pep_x/PEP_PPM_QUERY_IDLE_STATES"
+ - "PEP_PPM_QUERY_IDLE_STATES"
 req.header: pep_x.h
 req.include-header: Pepfx.h
 req.target-type: Windows

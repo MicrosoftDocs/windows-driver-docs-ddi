@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::AddSyntheticModuleWide"]
 ms.keywords: AddSyntheticModuleWide, AddSyntheticModuleWide method [Windows Debugging], AddSyntheticModuleWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],AddSyntheticModuleWide method, IDebugSymbols3.AddSyntheticModuleWide, IDebugSymbols3::AddSyntheticModuleWide, dbgeng/IDebugSymbols3::AddSyntheticModuleWide, debugger.addsyntheticmodulewide
 f1_keywords:
  - "dbgeng/IDebugSymbols3.AddSyntheticModuleWide"
+ - "IDebugSymbols3.AddSyntheticModuleWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

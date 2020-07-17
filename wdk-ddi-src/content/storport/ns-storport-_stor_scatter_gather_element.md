@@ -10,6 +10,7 @@ keywords: ["_STOR_SCATTER_GATHER_ELEMENT structure"]
 ms.keywords: "*PSTOR_SCATTER_GATHER_ELEMENT, PSTOR_SCATTER_GATHER_ELEMENT, PSTOR_SCATTER_GATHER_ELEMENT structure pointer [Storage Devices], STOR_SCATTER_GATHER_ELEMENT, STOR_SCATTER_GATHER_ELEMENT structure [Storage Devices], _STOR_SCATTER_GATHER_ELEMENT, storage.stor_scatter_gather_element, storport/PSTOR_SCATTER_GATHER_ELEMENT, storport/STOR_SCATTER_GATHER_ELEMENT, structs-storport_e7e71caf-d421-45ba-b356-c1450eec6e6c.xml"
 f1_keywords:
  - "storport/STOR_SCATTER_GATHER_ELEMENT"
+ - "STOR_SCATTER_GATHER_ELEMENT"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Windows

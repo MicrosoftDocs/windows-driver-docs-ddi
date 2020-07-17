@@ -7,6 +7,7 @@ ms.date: 09/11/2018
 keywords: ["IDataModelManager2::QueryInterface"]
 f1_keywords:
  - "dbgmodel/IDataModelManager2.QueryInterface"
+ - "IDataModelManager2.QueryInterface"
 ms.keywords: IDataModelManager2::QueryInterface, QueryInterface, IDataModelManager2.QueryInterface, IDataModelManager2::QueryInterface, IDataModelManager2.QueryInterface
 req.header: dbgmodel.h
 req.include-header:

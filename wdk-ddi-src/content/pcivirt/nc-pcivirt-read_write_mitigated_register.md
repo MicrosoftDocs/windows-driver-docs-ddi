@@ -10,6 +10,7 @@ keywords: ["READ_WRITE_MITIGATED_REGISTER callback"]
 ms.keywords: "*PREAD_WRITE_MITIGATED_REGISTER, *PREAD_WRITE_MITIGATED_REGISTER callback function pointer [Buses], PCI.read_write_mitigated_registers, READ_WRITE_MITIGATED_REGISTER, ReadWriteMitigatedRegister, ReadWriteMitigatedRegister callback function [Buses], pcivirt/ReadWriteMitigatedRegister"
 f1_keywords:
  - "pcivirt/*PREAD_WRITE_MITIGATED_REGISTER"
+ - "*PREAD_WRITE_MITIGATED_REGISTER"
 req.header: pcivirt.h
 req.include-header:
 req.target-type: Windows

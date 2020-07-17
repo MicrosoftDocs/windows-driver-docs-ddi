@@ -10,6 +10,7 @@ keywords: ["NdisGetRoutineAddress function"]
 ms.keywords: NdisGetRoutineAddress, NdisGetRoutineAddress function [Network Drivers Starting with Windows Vista], ndis/NdisGetRoutineAddress, ndis_sysinfo_ref_d2259157-f4fd-4fd8-b86e-f685ab4213d5.xml, netvista.ndisgetroutineaddress
 f1_keywords:
  - "ndis/NdisGetRoutineAddress"
+ - "NdisGetRoutineAddress"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

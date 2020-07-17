@@ -9,6 +9,7 @@ keywords: ["D3D12DDIARG_RESOURCE_BARRIER_0022 structure"]
 ms.keywords: D3D12DDIARG_RESOURCE_BARRIER_0022, D3D12DDIARG_RESOURCE_BARRIER_0022 structure [Display Devices], d3d12umddi/D3D12DDIARG_RESOURCE_BARRIER_0022, display.d3d12ddiarg_resource_barrier_0022
 f1_keywords:
  - "d3d12umddi/D3D12DDIARG_RESOURCE_BARRIER_0022"
+ - "D3D12DDIARG_RESOURCE_BARRIER_0022"
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["PROTECT_WC_MEMORY callback function"]
 ms.keywords: PROTECT_WC_MEMORY, PROTECT_WC_MEMORY callback, VideoPortProtectWCMemory, VideoPortProtectWCMemory callback function [Display Devices], VideoPort_Functions_5aead504-6c27-4b86-95e0-b4ec1b2b3e7d.xml, display.videoportprotectwcmemory, video/VideoPortProtectWCMemory
 f1_keywords:
  - "video/VideoPortProtectWCMemory"
+ - "VideoPortProtectWCMemory"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

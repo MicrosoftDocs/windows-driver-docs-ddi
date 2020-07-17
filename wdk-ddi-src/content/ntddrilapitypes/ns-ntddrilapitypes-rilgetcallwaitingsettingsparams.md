@@ -10,6 +10,7 @@ keywords: ["RILGETCALLWAITINGSETTINGSPARAMS structure"]
 ms.keywords: "*LPRILGETCALLWAITINGSETTINGSPARAMS, RILGETCALLWAITINGSETTINGSPARAMS, RILGETCALLWAITINGSETTINGSPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilgetcallwaitingsettingsparams, ntddrilapitypes/RILGETCALLWAITINGSETTINGSPARAMS"
 f1_keywords:
  - "ntddrilapitypes/RILGETCALLWAITINGSETTINGSPARAMS"
+ - "RILGETCALLWAITINGSETTINGSPARAMS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

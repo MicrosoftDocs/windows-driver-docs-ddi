@@ -10,6 +10,7 @@ keywords: ["FsRtlIsLeadDbcsCharacter macro"]
 ms.keywords: FsRtlIsLeadDbcsCharacter, FsRtlIsLeadDbcsCharacter function [Installable File System Drivers], fsrtlref_758a5e18-3446-43c4-8cce-baecdf727f98.xml, ifsk.fsrtlisleaddbcscharacter, ntifs/FsRtlIsLeadDbcsCharacter
 f1_keywords:
  - "ntifs/FsRtlIsLeadDbcsCharacter"
+ - "FsRtlIsLeadDbcsCharacter"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Desktop

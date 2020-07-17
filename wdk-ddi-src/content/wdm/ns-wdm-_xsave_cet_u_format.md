@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_XSAVE_CET_U_FORMAT structure"]
 f1_keywords:
  - "wdm/_XSAVE_CET_U_FORMAT"
+ - "_XSAVE_CET_U_FORMAT"
 ms.keywords: _XSAVE_CET_U_FORMAT, XSAVE_CET_U_FORMAT, *PXSAVE_CET_U_FORMAT, 
 req.header: wdm.h
 req.include-header:

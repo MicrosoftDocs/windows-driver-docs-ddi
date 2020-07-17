@@ -10,6 +10,7 @@ keywords: ["IOCTL_NFCSE_ENUM_ENDPOINTS IOCTL"]
 ms.keywords: IOCTL_NFCSE_ENUM_ENDPOINTS, IOCTL_NFCSE_ENUM_ENDPOINTS control, IOCTL_NFCSE_ENUM_ENDPOINTS control code [Near-Field Proximity Drivers], _IOCTL_NFCSE_ENUM_ENDPOINTS, nfcsedev/IOCTL_NFCSE_ENUM_ENDPOINTS, nfpdrivers.ioctl_nfcse_enum_endpoints
 f1_keywords:
  - "nfcsedev/IOCTL_NFCSE_ENUM_ENDPOINTS"
+ - "IOCTL_NFCSE_ENUM_ENDPOINTS"
 req.header: nfcsedev.h
 req.include-header: 
 req.target-type: Windows

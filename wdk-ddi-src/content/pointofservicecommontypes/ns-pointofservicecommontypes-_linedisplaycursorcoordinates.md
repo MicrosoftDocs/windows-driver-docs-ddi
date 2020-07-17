@@ -10,6 +10,7 @@ keywords: ["_LineDisplayCursorCoordinates structure"]
 ms.keywords: LineDisplayCursorCoordinates, LineDisplayCursorCoordinates structure, PLineDisplayCursorCoordinates, PLineDisplayCursorCoordinates structure pointer, _LineDisplayCursorCoordinates, pointofservicecommontypes/LineDisplayCursorCoordinates, pointofservicecommontypes/PLineDisplayCursorCoordinates, pos.linedisplaycursorcoordinates
 f1_keywords:
  - "pointofservicecommontypes/LineDisplayCursorCoordinates"
+ - "LineDisplayCursorCoordinates"
 req.header: pointofservicecommontypes.h
 req.include-header: Pointofservicecommontypes.h
 req.target-type: Windows

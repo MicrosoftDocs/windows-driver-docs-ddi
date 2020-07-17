@@ -10,6 +10,7 @@ keywords: ["ExtExtension::Initialize"]
 ms.keywords: EngExtCpp_Ref_e6893e43-8573-4f07-baee-e9f4adcde156.xml, ExtExtension class [Windows Debugging],Initialize method, ExtExtension.Initialize, ExtExtension::Initialize, Initialize, Initialize method [Windows Debugging], Initialize method [Windows Debugging],ExtExtension class, debugger.initialize
 f1_keywords:
  - "engextcpp/ExtExtension.Initialize"
+ - "ExtExtension.Initialize"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop

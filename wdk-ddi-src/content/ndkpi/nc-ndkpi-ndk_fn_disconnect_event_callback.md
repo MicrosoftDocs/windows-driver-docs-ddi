@@ -10,6 +10,7 @@ keywords: ["NDK_FN_DISCONNECT_EVENT_CALLBACK callback function"]
 ms.keywords: NDK_FN_DISCONNECT_EVENT_CALLBACK, NDK_FN_DISCONNECT_EVENT_CALLBACK callback, NdkDisconnectEventCallback, NdkDisconnectEventCallback callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkDisconnectEventCallback, netvista.ndk_fn_disconnect_event_callback
 f1_keywords:
  - "ndkpi/NdkDisconnectEventCallback"
+ - "NdkDisconnectEventCallback"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["IPortClsPower::UnregisterAdapterPowerManagement"]
 ms.keywords: IPortClsPower interface [Audio Devices],UnregisterAdapterPowerManagement method, IPortClsPower.UnregisterAdapterPowerManagement, IPortClsPower::UnregisterAdapterPowerManagement, UnregisterAdapterPowerManagement, UnregisterAdapterPowerManagement method [Audio Devices], UnregisterAdapterPowerManagement method [Audio Devices],IPortClsPower interface, audio.iportclspower_unregisteradapterpowermanagement, audmp-routines_3dca5fa9-542d-437d-a2d9-9eef51b5f2ea.xml, portcls/IPortClsPower::UnregisterAdapterPowerManagement
 f1_keywords:
  - "portcls/IPortClsPower.UnregisterAdapterPowerManagement"
+ - "IPortClsPower.UnregisterAdapterPowerManagement"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

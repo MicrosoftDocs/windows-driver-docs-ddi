@@ -8,6 +8,7 @@ ms.date: 07/02/2018
 keywords: ["_MBB_DEVICE_CONFIG structure"]
 f1_keywords:
  - "mbbcx/_MBB_DEVICE_CONFIG"
+ - "_MBB_DEVICE_CONFIG"
 ms.keywords: _MBB_DEVICE_CONFIG, MBB_DEVICE_CONFIG, *PMBB_DEVICE_CONFIG, 
 req.header: mbbcx.h
 req.include-header:

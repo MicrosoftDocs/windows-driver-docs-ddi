@@ -8,6 +8,7 @@ ms.date: 08/23/2018
 keywords: ["_WWAN_LTE_ATTACH_STATUS structure"]
 f1_keywords:
  - "wwan/_WWAN_LTE_ATTACH_STATUS"
+ - "_WWAN_LTE_ATTACH_STATUS"
 ms.keywords: _WWAN_LTE_ATTACH_STATUS, WWAN_LTE_ATTACH_STATUS, *PWWAN_LTE_ATTACH_STATUS, 
 req.header: wwan.h
 req.include-header:

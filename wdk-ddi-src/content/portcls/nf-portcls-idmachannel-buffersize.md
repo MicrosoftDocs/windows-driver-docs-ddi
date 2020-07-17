@@ -8,6 +8,7 @@ ms.date: 10/31/2018
 keywords: ["IDmaChannel::BufferSize"]
 f1_keywords:
  - "portcls/IDmaChannel.BufferSize"
+ - "IDmaChannel.BufferSize"
 ms.keywords: IDmaChannel::BufferSize, BufferSize, IDmaChannel.BufferSize, IDmaChannel::BufferSize, IDmaChannel.BufferSize
 req.header: portcls.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["PALLOCATE_RENDER_DMA_ENGINE callback function"]
 ms.keywords: AllocateRenderDmaEngine, AllocateRenderDmaEngine callback function [Audio Devices], PALLOCATE_RENDER_DMA_ENGINE, PALLOCATE_RENDER_DMA_ENGINE callback, aud-prop2_69a03ff9-5eda-4f39-85cf-e4af523214e1.xml, audio.allocaterenderdmaengine, hdaudio/AllocateRenderDmaEngine
 f1_keywords:
  - "hdaudio/AllocateRenderDmaEngine"
+ - "AllocateRenderDmaEngine"
 req.header: hdaudio.h
 req.include-header: Hdaudio.h
 req.target-type: Desktop

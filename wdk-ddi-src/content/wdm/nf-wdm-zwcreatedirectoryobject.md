@@ -10,6 +10,7 @@ keywords: ["ZwCreateDirectoryObject function"]
 ms.keywords: NtCreateDirectoryObject, ZwCreateDirectoryObject, ZwCreateDirectoryObject routine [Kernel-Mode Driver Architecture], k111_b1b0f371-6699-42f6-b86d-a0fb57983d9f.xml, kernel.zwcreatedirectoryobject, wdm/NtCreateDirectoryObject, wdm/ZwCreateDirectoryObject
 f1_keywords:
  - "wdm/ZwCreateDirectoryObject"
+ - "ZwCreateDirectoryObject"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

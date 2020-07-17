@@ -10,6 +10,7 @@ keywords: ["_WDF_CHILD_ADDRESS_DESCRIPTION_HEADER structure"]
 ms.keywords: "*PWDF_CHILD_ADDRESS_DESCRIPTION_HEADER, DFDeviceObjectChildListRef_3fc67e2b-a0f5-4e03-a901-b2629e494157.xml, PWDF_CHILD_ADDRESS_DESCRIPTION_HEADER, PWDF_CHILD_ADDRESS_DESCRIPTION_HEADER structure pointer, WDF_CHILD_ADDRESS_DESCRIPTION_HEADER, WDF_CHILD_ADDRESS_DESCRIPTION_HEADER structure, _WDF_CHILD_ADDRESS_DESCRIPTION_HEADER, kmdf.wdf_child_address_description_header, wdf.wdf_child_address_description_header, wdfchildlist/PWDF_CHILD_ADDRESS_DESCRIPTION_HEADER, wdfchildlist/WDF_CHILD_ADDRESS_DESCRIPTION_HEADER"
 f1_keywords:
  - "wdfchildlist/WDF_CHILD_ADDRESS_DESCRIPTION_HEADER"
+ - "WDF_CHILD_ADDRESS_DESCRIPTION_HEADER"
 req.header: wdfchildlist.h
 req.include-header: Wdf.h
 req.target-type: Windows

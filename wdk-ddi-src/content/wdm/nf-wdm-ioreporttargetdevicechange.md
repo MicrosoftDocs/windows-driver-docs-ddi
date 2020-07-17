@@ -10,6 +10,7 @@ keywords: ["IoReportTargetDeviceChange function"]
 ms.keywords: IoReportTargetDeviceChange, IoReportTargetDeviceChange routine [Kernel-Mode Driver Architecture], k104_489fe1b0-1d73-4ed6-99ab-ae8f4bee52d1.xml, kernel.ioreporttargetdevicechange, wdm/IoReportTargetDeviceChange
 f1_keywords:
  - "wdm/IoReportTargetDeviceChange"
+ - "IoReportTargetDeviceChange"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

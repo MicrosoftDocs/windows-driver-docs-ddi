@@ -10,6 +10,7 @@ keywords: ["WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT function"]
 ms.keywords: DFDriverObjectRef_9638f416-7d77-45af-8e87-07c51198fb05.xml, WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT, WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT function, kmdf.wdf_driver_version_available_params_init, wdf.wdf_driver_version_available_params_init, wdfdriver/WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT
 f1_keywords:
  - "wdfdriver/WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT"
+ - "WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT"
 req.header: wdfdriver.h
 req.include-header: Wdf.h
 req.target-type: Universal

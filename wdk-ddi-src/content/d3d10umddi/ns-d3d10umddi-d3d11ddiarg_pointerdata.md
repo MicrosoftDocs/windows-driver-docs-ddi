@@ -9,6 +9,7 @@ keywords: ["D3D11DDIARG_POINTERDATA structure"]
 ms.keywords: D3D11DDIARG_POINTERDATA, D3D11DDIARG_POINTERDATA structure [Display Devices], UMDisplayDriver_Dx11param_Structs_4e1d0abb-4385-4d8b-9687-0c913884ab46.xml, d3d10umddi/D3D11DDIARG_POINTERDATA, display.d3d11ddiarg_pointerdata
 f1_keywords:
  - "d3d10umddi/D3D11DDIARG_POINTERDATA"
+ - "D3D11DDIARG_POINTERDATA"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

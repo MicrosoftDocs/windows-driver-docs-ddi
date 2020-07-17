@@ -10,6 +10,7 @@ keywords: ["PHW_INTERRUPT callback"]
 ms.keywords: "(*PHW_INTERRUPT), (*PHW_INTERRUPT) callback function [Storage Devices], ide_minikr_d0fa2a3d-deef-45c5-9251-a3c30c7af434.xml, srb/(*PHW_INTERRUPT), storage.phw_interrupt"
 f1_keywords:
  - "srb/(*PHW_INTERRUPT)"
+ - "(*PHW_INTERRUPT)"
 req.header: srb.h
 req.include-header: Storport.h, Srb.h, Storport.h
 req.target-type: Desktop

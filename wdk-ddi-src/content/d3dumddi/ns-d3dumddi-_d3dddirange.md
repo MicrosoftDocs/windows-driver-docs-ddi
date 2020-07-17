@@ -10,6 +10,7 @@ keywords: ["_D3DDDIRANGE structure"]
 ms.keywords: D3DDDIRANGE, D3DDDIRANGE structure [Display Devices], _D3DDDIRANGE, d3dumddi/D3DDDIRANGE, display.d3dddirange
 f1_keywords:
  - "d3dumddi/D3DDDIRANGE"
+ - "D3DDDIRANGE"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

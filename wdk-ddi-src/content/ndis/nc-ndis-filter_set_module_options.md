@@ -10,6 +10,7 @@ keywords: ["FILTER_SET_MODULE_OPTIONS callback function"]
 ms.keywords: "(*FILTER_SET_FILTER_MODULE_OPTIONS_HANDLER), (*FILTER_SET_FILTER_MODULE_OPTIONS_HANDLER) callback function [Network Drivers Starting with Windows Vista], FILTER_SET_MODULE_OPTIONS, FILTER_SET_MODULE_OPTIONS callback, FilterSetModuleOptions, FilterSetModuleOptions callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_165a2df8-6944-43cc-9e27-711a72e3b160.xml, ndis/FilterSetModuleOptions, netvista.filtersetmoduleoptions"
 f1_keywords:
  - "ndis/(*FILTER_SET_FILTER_MODULE_OPTIONS_HANDLER)"
+ - "(*FILTER_SET_FILTER_MODULE_OPTIONS_HANDLER)"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

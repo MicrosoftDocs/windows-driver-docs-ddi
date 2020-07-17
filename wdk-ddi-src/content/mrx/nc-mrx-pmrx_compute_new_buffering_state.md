@@ -10,6 +10,7 @@ keywords: ["PMRX_COMPUTE_NEW_BUFFERING_STATE callback function"]
 ms.keywords: MRxComputeNewBufferingState, MRxComputeNewBufferingState routine [Installable File System Drivers], PMRX_COMPUTE_NEW_BUFFERING_STATE, ifsk.mrxcomputenewbufferingstate, mrx/MRxComputeNewBufferingState, mrxref_294ad2d0-2454-437d-818a-6879361f97e5.xml
 f1_keywords:
  - "mrx/MRxComputeNewBufferingState"
+ - "MRxComputeNewBufferingState"
 req.header: mrx.h
 req.include-header: Mrx.h
 req.target-type: Desktop

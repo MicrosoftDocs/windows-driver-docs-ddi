@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DDDIRECTPATCH_INFO structure"]
 f1_keywords:
  - "d3dumddi/_D3DDDIRECTPATCH_INFO"
+ - "_D3DDDIRECTPATCH_INFO"
 ms.keywords: _D3DDDIRECTPATCH_INFO, D3DDDIRECTPATCH_INFO, 
 req.header: d3dumddi.h
 req.include-header:

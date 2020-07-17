@@ -10,6 +10,7 @@ keywords: ["WdfDeviceInitSetRequestAttributes function"]
 ms.keywords: DFDeviceObjectGeneralRef_30c50afa-81a1-4f3c-a2b0-987920922a4f.xml, WdfDeviceInitSetRequestAttributes, WdfDeviceInitSetRequestAttributes method, kmdf.wdfdeviceinitsetrequestattributes, wdf.wdfdeviceinitsetrequestattributes, wdfdevice/WdfDeviceInitSetRequestAttributes
 f1_keywords:
  - "wdfdevice/WdfDeviceInitSetRequestAttributes"
+ - "WdfDeviceInitSetRequestAttributes"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

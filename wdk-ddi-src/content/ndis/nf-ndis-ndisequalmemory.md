@@ -10,6 +10,7 @@ keywords: ["NdisEqualMemory macro"]
 ms.keywords: NdisEqualMemory, NdisEqualMemory macro [Network Drivers Starting with Windows Vista], ndis/NdisEqualMemory, ndis_memory_ref_67be2fe2-f491-4b7d-9524-a4e324630f74.xml, netvista.ndisequalmemory
 f1_keywords:
  - "ndis/NdisEqualMemory"
+ - "NdisEqualMemory"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

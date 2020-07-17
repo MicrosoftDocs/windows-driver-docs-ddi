@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_CREATEPROTECTEDSESSION structure"]
 ms.keywords: D3DKMT_CREATEPROTECTEDSESSION, D3DKMT_CREATEPROTECTEDSESSION structure [Display Devices], _D3DKMT_CREATEPROTECTEDSESSION, d3dkmthk/D3DKMT_CREATEPROTECTEDSESSION, display.d3dkmt-createprotectedsession
 f1_keywords:
  - "d3dkmthk/D3DKMT_CREATEPROTECTEDSESSION"
+ - "D3DKMT_CREATEPROTECTEDSESSION"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["MINIPORT_WDI_TAL_TXRX_PEER_DELETE_CONFIRM callback function"]
 ms.keywords: MINIPORT_WDI_TAL_TXRX_PEER_DELETE_CONFIRM, MINIPORT_WDI_TAL_TXRX_PEER_DELETE_CONFIRM callback, MiniportWdiTalTxRxPeerDeleteConfirm, MiniportWdiTalTxRxPeerDeleteConfirm callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTalTxRxPeerDeleteConfirm, netvista.miniportwditaltxrxpeerdeleteconfirm
 f1_keywords:
  - "dot11wdi/MiniportWdiTalTxRxPeerDeleteConfirm"
+ - "MiniportWdiTalTxRxPeerDeleteConfirm"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows

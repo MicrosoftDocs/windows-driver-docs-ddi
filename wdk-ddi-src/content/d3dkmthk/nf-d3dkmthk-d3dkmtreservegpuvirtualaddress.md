@@ -9,6 +9,7 @@ keywords: ["D3DKMTReserveGpuVirtualAddress function"]
 ms.keywords: D3DKMTReserveGpuVirtualAddress, D3DKMTReserveGpuVirtualAddress function [Display Devices], d3dkmthk/D3DKMTReserveGpuVirtualAddress, display.d3dkmtreservegpuvirtualaddress
 f1_keywords:
  - "d3dkmthk/D3DKMTReserveGpuVirtualAddress"
+ - "D3DKMTReserveGpuVirtualAddress"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

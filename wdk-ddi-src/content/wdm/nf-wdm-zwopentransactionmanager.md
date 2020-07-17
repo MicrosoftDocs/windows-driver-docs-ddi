@@ -10,6 +10,7 @@ keywords: ["ZwOpenTransactionManager function"]
 ms.keywords: NtOpenTransactionManager, ZwOpenTransactionManager, ZwOpenTransactionManager routine [Kernel-Mode Driver Architecture], kernel.zwopentransactionmanager, ktm_ref_26c2e5a4-0a1b-4d75-994a-88f45e213fe3.xml, wdm/NtOpenTransactionManager, wdm/ZwOpenTransactionManager
 f1_keywords:
  - "wdm/ZwOpenTransactionManager"
+ - "ZwOpenTransactionManager"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntifs.h
 req.target-type: Universal

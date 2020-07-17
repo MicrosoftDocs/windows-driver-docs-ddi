@@ -10,6 +10,7 @@ keywords: ["IOCTL_SERIAL_GET_PROPERTIES IOCTL"]
 ms.keywords: IOCTL_SERIAL_GET_PROPERTIES, IOCTL_SERIAL_GET_PROPERTIES control, IOCTL_SERIAL_GET_PROPERTIES control code [Serial Ports], ntddser/IOCTL_SERIAL_GET_PROPERTIES, serports.ioctl_serial_get_properties, serref_aff2123d-9c26-4958-84e7-9921fe45398e.xml
 f1_keywords:
  - "ntddser/IOCTL_SERIAL_GET_PROPERTIES"
+ - "IOCTL_SERIAL_GET_PROPERTIES"
 req.header: ntddser.h
 req.include-header: Ntddser.h
 req.target-type: Windows

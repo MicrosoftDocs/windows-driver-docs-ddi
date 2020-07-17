@@ -10,6 +10,7 @@ keywords: ["_D3DDDI_CREATEHWQUEUEFLAGS structure"]
 ms.keywords: D3DDDI_CREATEHWQUEUEFLAGS, D3DDDI_CREATEHWQUEUEFLAGS , D3DDDI_CREATEHWQUEUEFLAGS structure [Display Devices], _D3DDDI_CREATEHWQUEUEFLAGS, d3dukmdt/D3DDDI_CREATEHWQUEUEFLAGS, display.d3dddi_createhwqueueflags_
 f1_keywords:
  - "d3dukmdt/D3DDDI_CREATEHWQUEUEFLAGS"
+ - "D3DDDI_CREATEHWQUEUEFLAGS"
 req.header: d3dukmdt.h
 req.include-header: 
 req.target-type: Windows

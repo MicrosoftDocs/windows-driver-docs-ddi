@@ -10,6 +10,7 @@ keywords: ["KSQUERYBUFFER structure"]
 ms.keywords: "*PKSQUERYBUFFER, KSQUERYBUFFER, KSQUERYBUFFER structure [Streaming Media Devices], PKSQUERYBUFFER, PKSQUERYBUFFER structure pointer [Streaming Media Devices], ks-struct_aa45ed01-603d-4452-8862-649a73361c48.xml, ks/KSQUERYBUFFER, ks/PKSQUERYBUFFER, stream.ksquerybuffer"
 f1_keywords:
  - "ks/KSQUERYBUFFER"
+ - "KSQUERYBUFFER"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["EVT_UDECX_USB_DEVICE_SET_FUNCTION_SUSPEND_AND_WAKE callback function
 ms.keywords: EVT_UDECX_USB_DEVICE_SET_FUNCTION_SUSPEND_AND_WAKE, EVT_UDECX_USB_DEVICE_SET_FUNCTION_SUSPEND_AND_WAKE callback, EvtUsbDeviceSetFunctionSuspendAndWake, EvtUsbDeviceSetFunctionSuspendAndWake callback function [Buses], buses.evt_udecx_usb_device_set_function_suspend_and_wake, udecxusbdevice/EvtUsbDeviceSetFunctionSuspendAndWake
 f1_keywords:
  - "udecxusbdevice/EvtUsbDeviceSetFunctionSuspendAndWake"
+ - "EvtUsbDeviceSetFunctionSuspendAndWake"
 req.header: udecxusbdevice.h
 req.include-header: Udecx.h
 req.target-type: Windows

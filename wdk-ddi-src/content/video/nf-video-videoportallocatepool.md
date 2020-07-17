@@ -10,6 +10,7 @@ keywords: ["VideoPortAllocatePool function"]
 ms.keywords: VideoPortAllocatePool, VideoPortAllocatePool function [Display Devices], VideoPort_Functions_a9163e5b-6519-4427-a748-066ad120022a.xml, display.videoportallocatepool, video/VideoPortAllocatePool
 f1_keywords:
  - "video/VideoPortAllocatePool"
+ - "VideoPortAllocatePool"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

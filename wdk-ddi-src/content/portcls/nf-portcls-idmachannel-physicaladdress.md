@@ -8,6 +8,7 @@ ms.date: 10/31/2018
 keywords: ["IDmaChannel::PhysicalAddress"]
 f1_keywords:
  - "portcls/IDmaChannel.PhysicalAddress"
+ - "IDmaChannel.PhysicalAddress"
 ms.keywords: IDmaChannel::PhysicalAddress, PhysicalAddress, IDmaChannel.PhysicalAddress, IDmaChannel::PhysicalAddress, IDmaChannel.PhysicalAddress
 req.header: portcls.h
 req.include-header:

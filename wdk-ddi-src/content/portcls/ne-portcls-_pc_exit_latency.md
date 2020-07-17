@@ -10,6 +10,7 @@ keywords: ["_PC_EXIT_LATENCY enumeration"]
 ms.keywords: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY, PC_EXIT_LATENCY enumeration [Audio Devices], PcExitLatencyFast, PcExitLatencyInstant, PcExitLatencyResponsive, _PC_EXIT_LATENCY, audio.pc_exit_latency, portcls/PC_EXIT_LATENCY, portcls/PcExitLatencyFast, portcls/PcExitLatencyInstant, portcls/PcExitLatencyResponsive"
 f1_keywords:
  - "portcls/PC_EXIT_LATENCY"
+ - "PC_EXIT_LATENCY"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows

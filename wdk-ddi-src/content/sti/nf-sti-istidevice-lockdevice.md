@@ -10,6 +10,7 @@ keywords: ["IStiDevice::LockDevice"]
 ms.keywords: IStiDevice interface [Imaging Devices],LockDevice method, IStiDevice.LockDevice, IStiDevice::LockDevice, LockDevice, LockDevice method [Imaging Devices], LockDevice method [Imaging Devices],IStiDevice interface, image.istidevice_lockdevice, sti/IStiDevice::LockDevice, stifnc_05519c97-dd77-4c30-836e-5b1991a5b3f7.xml
 f1_keywords:
  - "sti/IStiDevice.LockDevice"
+ - "IStiDevice.LockDevice"
 req.header: sti.h
 req.include-header: Sti.h
 req.target-type: Desktop

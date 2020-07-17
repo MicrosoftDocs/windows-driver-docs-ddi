@@ -10,6 +10,7 @@ keywords: ["KeQueryNodeMaximumProcessorCount function"]
 ms.keywords: KeQueryNodeMaximumProcessorCount, KeQueryNodeMaximumProcessorCount routine [Kernel-Mode Driver Architecture], k105_15c5df15-b04a-41bd-9aec-2e402e2824a9.xml, kernel.kequerynodemaximumprocessorcount, wdm/KeQueryNodeMaximumProcessorCount
 f1_keywords:
  - "ntddk/KeQueryNodeMaximumProcessorCount"
+ - "KeQueryNodeMaximumProcessorCount"
 req.header: ntddk.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

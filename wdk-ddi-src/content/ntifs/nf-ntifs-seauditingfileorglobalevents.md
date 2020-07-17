@@ -10,6 +10,7 @@ keywords: ["SeAuditingFileOrGlobalEvents function"]
 ms.keywords: SeAuditingFileOrGlobalEvents, SeAuditingFileOrGlobalEvents routine [Installable File System Drivers], ifsk.seauditingfileorglobalevents, ntifs/SeAuditingFileOrGlobalEvents, seref_06c1ee74-261c-4a57-b009-f76420e14055.xml
 f1_keywords:
  - "ntifs/SeAuditingFileOrGlobalEvents"
+ - "SeAuditingFileOrGlobalEvents"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

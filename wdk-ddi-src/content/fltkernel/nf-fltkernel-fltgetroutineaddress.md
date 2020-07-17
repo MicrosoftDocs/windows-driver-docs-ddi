@@ -10,6 +10,7 @@ keywords: ["FltGetRoutineAddress function"]
 ms.keywords: FltApiRef_e_to_o_81848969-38e3-4f2f-bdc3-45027ea28202.xml, FltGetRoutineAddress, FltGetRoutineAddress routine [Installable File System Drivers], fltkernel/FltGetRoutineAddress, ifsk.fltgetroutineaddress
 f1_keywords:
  - "fltkernel/FltGetRoutineAddress"
+ - "FltGetRoutineAddress"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

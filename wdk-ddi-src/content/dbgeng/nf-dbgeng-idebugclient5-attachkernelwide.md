@@ -10,6 +10,7 @@ keywords: ["IDebugClient5::AttachKernelWide"]
 ms.keywords: AttachKernelWide, AttachKernelWide method [Windows Debugging], AttachKernelWide method [Windows Debugging],IDebugClient5 interface, IDebugClient5 interface [Windows Debugging],AttachKernelWide method, IDebugClient5.AttachKernelWide, IDebugClient5::AttachKernelWide, dbgeng/IDebugClient5::AttachKernelWide, debugger.attachkernelwide
 f1_keywords:
  - "dbgeng/IDebugClient5.AttachKernelWide"
+ - "IDebugClient5.AttachKernelWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

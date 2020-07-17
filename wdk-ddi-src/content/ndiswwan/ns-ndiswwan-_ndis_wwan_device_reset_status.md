@@ -10,6 +10,7 @@ keywords: ["_NDIS_WWAN_DEVICE_RESET_STATUS structure"]
 ms.keywords: "*PNDIS_WWAN_DEVICE_RESET_STATUS, NDIS_WWAN_DEVICE_RESET_STATUS, NDIS_WWAN_DEVICE_RESET_STATUS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_DEVICE_RESET_STATUS, PNDIS_WWAN_DEVICE_RESET_STATUS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_DEVICE_RESET_STATUS, ndiswwan/NDIS_WWAN_DEVICE_RESET_STATUS, ndiswwan/PNDIS_WWAN_DEVICE_RESET_STATUS, netvista.ndis_wwan_device_reset_status"
 f1_keywords:
  - "ndiswwan/NDIS_WWAN_DEVICE_RESET_STATUS"
+ - "NDIS_WWAN_DEVICE_RESET_STATUS"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows

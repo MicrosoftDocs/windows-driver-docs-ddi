@@ -10,6 +10,7 @@ keywords: ["MINIPORT_WDI_TX_DATA_SEND callback function"]
 ms.keywords: MINIPORT_WDI_TX_DATA_SEND, MINIPORT_WDI_TX_DATA_SEND callback, MiniportWdiTxDataSend, MiniportWdiTxDataSend callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTxDataSend, netvista.miniportwditxdatasend
 f1_keywords:
  - "dot11wdi/MiniportWdiTxDataSend"
+ - "MiniportWdiTxDataSend"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows

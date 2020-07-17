@@ -9,6 +9,7 @@ keywords: ["D3DKMTDestroyContext function"]
 ms.keywords: D3DKMTDestroyContext, D3DKMTDestroyContext function [Display Devices], OpenGL_Functions_f7a43a18-cb8c-4b76-8123-d5eeda18d6cb.xml, d3dkmthk/D3DKMTDestroyContext, display.d3dkmtdestroycontext
 f1_keywords:
  - "d3dkmthk/D3DKMTDestroyContext"
+ - "D3DKMTDestroyContext"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

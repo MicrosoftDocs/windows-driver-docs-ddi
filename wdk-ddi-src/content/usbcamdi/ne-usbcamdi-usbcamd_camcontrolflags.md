@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["USBCAMD_CamControlFlags enumeration"]
 f1_keywords:
  - "usbcamdi/USBCAMD_CamControlFlags"
+ - "USBCAMD_CamControlFlags"
 ms.keywords: USBCAMD_CamControlFlags, USBCAMD_CamControlFlags, 
 req.header: usbcamdi.h
 req.include-header:

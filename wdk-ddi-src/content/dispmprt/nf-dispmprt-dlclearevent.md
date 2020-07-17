@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DlClearEvent function"]
 f1_keywords:
  - "dispmprt/DlClearEvent"
+ - "DlClearEvent"
 ms.keywords: DlClearEvent
 req.header: dispmprt.h
 req.include-header:

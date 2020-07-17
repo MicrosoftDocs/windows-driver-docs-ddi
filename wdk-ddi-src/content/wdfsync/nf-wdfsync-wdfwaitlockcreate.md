@@ -10,6 +10,7 @@ keywords: ["WdfWaitLockCreate function"]
 ms.keywords: DFSynchroRef_19d02cf5-4fa3-449c-8913-4a5ff80bd578.xml, WdfWaitLockCreate, WdfWaitLockCreate method, kmdf.wdfwaitlockcreate, wdf.wdfwaitlockcreate, wdfsync/WdfWaitLockCreate
 f1_keywords:
  - "wdfsync/WdfWaitLockCreate"
+ - "WdfWaitLockCreate"
 req.header: wdfsync.h
 req.include-header: Wdf.h
 req.target-type: Universal

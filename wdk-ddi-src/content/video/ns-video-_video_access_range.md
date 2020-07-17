@@ -10,6 +10,7 @@ keywords: ["_VIDEO_ACCESS_RANGE structure"]
 ms.keywords: "*PVIDEO_ACCESS_RANGE, PVIDEO_ACCESS_RANGE, PVIDEO_ACCESS_RANGE structure pointer [Display Devices], VIDEO_ACCESS_RANGE, VIDEO_ACCESS_RANGE structure [Display Devices], Video_Structs_b5c6bb55-a4a4-41be-879c-de6f71abe988.xml, _VIDEO_ACCESS_RANGE, display.video_access_range, video/PVIDEO_ACCESS_RANGE, video/VIDEO_ACCESS_RANGE"
 f1_keywords:
  - "video/VIDEO_ACCESS_RANGE"
+ - "VIDEO_ACCESS_RANGE"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Windows

@@ -7,6 +7,7 @@ ms.date: 09/21/2018
 keywords: ["IDebugHostSymbol2::AddRef"]
 f1_keywords:
  - "dbgmodel/IDebugHostSymbol2.AddRef"
+ - "IDebugHostSymbol2.AddRef"
 ms.keywords: IDebugHostSymbol2::AddRef, AddRef, IDebugHostSymbol2.AddRef, IDebugHostSymbol2::AddRef, IDebugHostSymbol2.AddRef
 req.header: dbgmodel.h
 req.include-header:

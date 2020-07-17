@@ -10,6 +10,7 @@ keywords: ["_WDI_RX_THROTTLE_LEVEL enumeration"]
 ms.keywords: WDI_RX_THROTTLE_LEVEL, WDI_RX_THROTTLE_LEVEL enumeration [Network Drivers Starting with Windows Vista], WDI_RxThrottleLevelAggressive, WDI_RxThrottleLevelMedium, WDI_RxThrottleLevelNone, _WDI_RX_THROTTLE_LEVEL, dot11wdi/WDI_RX_THROTTLE_LEVEL, dot11wdi/WDI_RxThrottleLevelAggressive, dot11wdi/WDI_RxThrottleLevelMedium, dot11wdi/WDI_RxThrottleLevelNone, netvista.wdi_rx_throttle_level, netvista.wifi_rx_throttle_level
 f1_keywords:
  - "dot11wdi/WDI_RX_THROTTLE_LEVEL"
+ - "WDI_RX_THROTTLE_LEVEL"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["KSVPSURFACEPARAMS structure"]
 ms.keywords: "*PKSVPSURFACEPARAMS, KSVPSURFACEPARAMS, KSVPSURFACEPARAMS structure [Streaming Media Devices], PKSVPSURFACEPARAMS, PKSVPSURFACEPARAMS structure pointer [Streaming Media Devices], dvdref_676b0467-3a23-4aac-8f72-7fd53ef399dd.xml, ksmedia/KSVPSURFACEPARAMS, ksmedia/PKSVPSURFACEPARAMS, stream.ksvpsurfaceparams"
 f1_keywords:
  - "ksmedia/KSVPSURFACEPARAMS"
+ - "KSVPSURFACEPARAMS"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

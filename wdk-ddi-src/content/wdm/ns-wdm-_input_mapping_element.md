@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_INPUT_MAPPING_ELEMENT structure"]
 f1_keywords:
  - "wdm/_INPUT_MAPPING_ELEMENT"
+ - "_INPUT_MAPPING_ELEMENT"
 ms.keywords: _INPUT_MAPPING_ELEMENT, INPUT_MAPPING_ELEMENT, *PINPUT_MAPPING_ELEMENT, 
 req.header: wdm.h
 req.include-header:

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3D12DDIARG_META_COMMAND_DESC structure"]
 f1_keywords:
  - "d3d12umddi/D3D12DDIARG_META_COMMAND_DESC"
+ - "D3D12DDIARG_META_COMMAND_DESC"
 ms.keywords: D3D12DDIARG_META_COMMAND_DESC, D3D12DDIARG_META_COMMAND_DESC, 
 req.header: d3d12umddi.h
 req.include-header:

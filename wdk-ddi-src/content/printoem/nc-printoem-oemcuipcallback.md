@@ -10,6 +10,7 @@ keywords: ["OEMCUIPCALLBACK callback function"]
 ms.keywords: OEMCUIPCALLBACK, OEMCUIPCALLBACK callback, OEMCUIPCALLBACK callback function [Print Devices], print.oemcuipcallback, print_unidrv-pscript_ui_e40ce896-2920-4839-99a8-ddc0a616dcad.xml, printoem/OEMCUIPCALLBACK
 f1_keywords:
  - "printoem/OEMCUIPCALLBACK"
+ - "OEMCUIPCALLBACK"
 req.header: printoem.h
 req.include-header: Printoem.h, Compstui.h
 req.target-type: Desktop

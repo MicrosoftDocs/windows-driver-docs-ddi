@@ -10,6 +10,7 @@ keywords: ["CcUnpinRepinnedBcb function"]
 ms.keywords: CcUnpinRepinnedBcb, CcUnpinRepinnedBcb routine [Installable File System Drivers], ccref_72300deb-bf8a-4f2a-b594-69ccb01cff56.xml, ifsk.ccunpinrepinnedbcb, ntifs/CcUnpinRepinnedBcb
 f1_keywords:
  - "ntifs/CcUnpinRepinnedBcb"
+ - "CcUnpinRepinnedBcb"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

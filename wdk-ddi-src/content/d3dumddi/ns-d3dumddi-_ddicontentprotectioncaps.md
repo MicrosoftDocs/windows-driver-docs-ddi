@@ -10,6 +10,7 @@ keywords: ["_DDICONTENTPROTECTIONCAPS structure"]
 ms.keywords: D3D_other_Structs_15111323-4ebe-49be-8ce6-d43a896533ee.xml, DDICONTENTPROTECTIONCAPS, DDICONTENTPROTECTIONCAPS structure [Display Devices], _DDICONTENTPROTECTIONCAPS, d3dumddi/DDICONTENTPROTECTIONCAPS, display.ddicontentprotectioncaps
 f1_keywords:
  - "d3dumddi/DDICONTENTPROTECTIONCAPS"
+ - "DDICONTENTPROTECTIONCAPS"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

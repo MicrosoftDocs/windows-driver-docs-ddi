@@ -10,6 +10,7 @@ keywords: ["TmRollbackTransaction function"]
 ms.keywords: TmRollbackTransaction, TmRollbackTransaction routine [Kernel-Mode Driver Architecture], kernel.tmrollbacktransaction, ktm_ref_5ea93853-7ca0-4db2-b5ca-3329b5c7f0f0.xml, wdm/TmRollbackTransaction
 f1_keywords:
  - "wdm/TmRollbackTransaction"
+ - "TmRollbackTransaction"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

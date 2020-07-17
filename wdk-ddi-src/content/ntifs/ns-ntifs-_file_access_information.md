@@ -10,6 +10,7 @@ keywords: ["_FILE_ACCESS_INFORMATION structure"]
 ms.keywords: "*PFILE_ACCESS_INFORMATION, FILE_ACCESS_INFORMATION, FILE_ACCESS_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_ACCESS_INFORMATION, PFILE_ACCESS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _FILE_ACCESS_INFORMATION, kernel.file_access_information, kstruct_b_3419b751-aa57-41e2-a51d-35bb5a6f38c8.xml, ntifs/FILE_ACCESS_INFORMATION, ntifs/PFILE_ACCESS_INFORMATION"
 f1_keywords:
  - "ntifs/FILE_ACCESS_INFORMATION"
+ - "FILE_ACCESS_INFORMATION"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["_SM_SendTEST_IN structure"]
 ms.keywords: "*PSM_SendTEST_IN, PSM_SendTEST_IN, PSM_SendTEST_IN structure pointer [Storage Devices], SM_SendTEST_IN, SM_SendTEST_IN structure [Storage Devices], _SM_SendTEST_IN, hbapiwmi/PSM_SendTEST_IN, hbapiwmi/SM_SendTEST_IN, storage.sm_sendtest_in, structs-Fibre_6d12c9e2-88bd-4803-893a-bb4e54604fad.xml"
 f1_keywords:
  - "hbapiwmi/SM_SendTEST_IN"
+ - "SM_SendTEST_IN"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows

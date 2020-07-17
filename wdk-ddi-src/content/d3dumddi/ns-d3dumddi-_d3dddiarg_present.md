@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_PRESENT structure"]
 ms.keywords: D3DDDIARG_PRESENT, D3DDDIARG_PRESENT structure [Display Devices], UMDisplayDriver_param_Structs_1406aa28-1355-4e46-886f-9121fcbd7750.xml, _D3DDDIARG_PRESENT, d3dumddi/D3DDDIARG_PRESENT, display.d3dddiarg_present
 f1_keywords:
  - "d3dumddi/D3DDDIARG_PRESENT"
+ - "D3DDDIARG_PRESENT"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

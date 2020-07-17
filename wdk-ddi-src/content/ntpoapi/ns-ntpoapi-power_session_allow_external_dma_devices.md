@@ -32,6 +32,7 @@ api_name:
 f1_keywords:
  - ntpoapi/_POWER_SESSION_ALLOW_EXTERNAL_DMA_DEVICES
  - ntpoapi/POWER_SESSION_ALLOW_EXTERNAL_DMA_DEVICES
+ - ""
 dev_langs:
  - c++
 ---

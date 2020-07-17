@@ -10,6 +10,7 @@ keywords: ["UdecxUsbEndpointInitSetEndpointAddress function"]
 ms.keywords: UdecxUsbEndpointInitSetEndpointAddress, UdecxUsbEndpointInitSetEndpointAddress function [Buses], buses.udecxusbendpointinitsetendpointaddress, udecxusbendpoint/UdecxUsbEndpointInitSetEndpointAddress
 f1_keywords:
  - "udecxusbendpoint/UdecxUsbEndpointInitSetEndpointAddress"
+ - "UdecxUsbEndpointInitSetEndpointAddress"
 req.header: udecxusbendpoint.h
 req.include-header: Udecx.h
 req.target-type: Windows

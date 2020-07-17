@@ -10,6 +10,7 @@ keywords: ["StorPortInterlockedInsertTailList function"]
 ms.keywords: StorPortInterlockedInsertTailList, StorPortInterlockedInsertTailList routine [Storage Devices], storage.storportinterlockedinserttaillist, storport/StorPortInterlockedInsertTailList
 f1_keywords:
  - "storport/StorPortInterlockedInsertTailList"
+ - "StorPortInterlockedInsertTailList"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

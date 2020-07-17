@@ -10,6 +10,7 @@ keywords: ["KsAcquireResetValue function"]
 ms.keywords: KsAcquireResetValue, KsAcquireResetValue function [Streaming Media Devices], ks/KsAcquireResetValue, ksfunc_fbfd5f64-6842-4559-9829-05797fda4fa2.xml, stream.ksacquireresetvalue
 f1_keywords:
  - "ks/KsAcquireResetValue"
+ - "KsAcquireResetValue"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

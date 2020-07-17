@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_OUTPUTDUPLPRESENTFLAGS structure"]
 ms.keywords: D3DKMT_OUTPUTDUPLPRESENTFLAGS, D3DKMT_OUTPUTDUPLPRESENTFLAGS structure [Display Devices], _D3DKMT_OUTPUTDUPLPRESENTFLAGS, d3dkmthk/D3DKMT_OUTPUTDUPLPRESENTFLAGS, display.d3dkmt_outputduplpresentflags
 f1_keywords:
  - "d3dkmthk/D3DKMT_OUTPUTDUPLPRESENTFLAGS"
+ - "D3DKMT_OUTPUTDUPLPRESENTFLAGS"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

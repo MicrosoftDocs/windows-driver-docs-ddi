@@ -10,6 +10,7 @@ keywords: ["_USBFN_CLASS_INTERFACE structure"]
 ms.keywords: "*PUSBFN_CLASS_INTERFACE, PUSBFN_CLASS_INTERFACE, PUSBFN_CLASS_INTERFACE structure pointer [Buses], USBFN_CLASS_INTERFACE, USBFN_CLASS_INTERFACE structure [Buses], _USBFN_CLASS_INTERFACE, buses.usbfn_class_interface, usbfnbase/PUSBFN_CLASS_INTERFACE, usbfnbase/USBFN_CLASS_INTERFACE"
 f1_keywords:
  - "usbfnbase/USBFN_CLASS_INTERFACE"
+ - "USBFN_CLASS_INTERFACE"
 req.header: usbfnbase.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["WdfFdoInitSetFilter function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_d1040c41-d94a-489d-ab74-9b3ae1e900bb.xml, WdfFdoInitSetFilter, WdfFdoInitSetFilter method, kmdf.wdffdoinitsetfilter, wdf.wdffdoinitsetfilter, wdffdo/WdfFdoInitSetFilter
 f1_keywords:
  - "wdffdo/WdfFdoInitSetFilter"
+ - "WdfFdoInitSetFilter"
 req.header: wdffdo.h
 req.include-header: Wdf.h
 req.target-type: Universal

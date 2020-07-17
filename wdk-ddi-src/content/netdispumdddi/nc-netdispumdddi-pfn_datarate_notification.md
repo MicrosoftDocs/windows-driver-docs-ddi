@@ -10,6 +10,7 @@ keywords: ["PFN_DATARATE_NOTIFICATION callback function"]
 ms.keywords: PFN_DATARATE_NOTIFICATION, PFN_DATARATE_NOTIFICATION callback, display.pfndataratenotify, netdispumdddi/pfnDataRateNotify, pfnDataRateNotify, pfnDataRateNotify callback function [Display Devices]
 f1_keywords:
  - "netdispumdddi/pfnDataRateNotify"
+ - "pfnDataRateNotify"
 req.header: netdispumdddi.h
 req.include-header: Netdispumdddi.h
 req.target-type: Desktop

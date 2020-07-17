@@ -10,6 +10,7 @@ keywords: ["IPnpCallbackSelfManagedIo::OnSelfManagedIoFlush"]
 ms.keywords: IPnpCallbackSelfManagedIo interface,OnSelfManagedIoFlush method, IPnpCallbackSelfManagedIo.OnSelfManagedIoFlush, IPnpCallbackSelfManagedIo::OnSelfManagedIoFlush, OnSelfManagedIoFlush, OnSelfManagedIoFlush method, OnSelfManagedIoFlush method,IPnpCallbackSelfManagedIo interface, UMDFDeviceObjectRef_ddf0d0a2-a913-4e15-b482-16cae945c4a2.xml, umdf.ipnpcallbackselfmanagedio_onselfmanagedioflush, wdf.ipnpcallbackselfmanagedio_onselfmanagedioflush, wudfddi/IPnpCallbackSelfManagedIo::OnSelfManagedIoFlush
 f1_keywords:
  - "wudfddi/IPnpCallbackSelfManagedIo.OnSelfManagedIoFlush"
+ - "IPnpCallbackSelfManagedIo.OnSelfManagedIoFlush"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Windows

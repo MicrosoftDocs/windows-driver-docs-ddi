@@ -8,6 +8,7 @@ ms.date: 08/08/2018
 keywords: ["_NET_BUFFER_LIST_TIMESTAMP structure"]
 f1_keywords:
  - "ndis/_NET_BUFFER_LIST_TIMESTAMP"
+ - "_NET_BUFFER_LIST_TIMESTAMP"
 ms.keywords: _NET_BUFFER_LIST_TIMESTAMP, NET_BUFFER_LIST_TIMESTAMP, *PNET_BUFFER_LIST_TIMESTAMP, 
 req.header: ndis.h
 req.include-header:

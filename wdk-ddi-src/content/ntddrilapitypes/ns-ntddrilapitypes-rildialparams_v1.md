@@ -10,6 +10,7 @@ keywords: ["RILDIALPARAMS_V1 structure"]
 ms.keywords: "*LPRILDIALPARAMS_V1, RILDIALPARAMS_V1, RILDIALPARAMS_V1 structure [Network Drivers Starting with Windows Vista], netvista.rildialparams_v1, ntddrilapitypes/RILDIALPARAMS_V1"
 f1_keywords:
  - "ntddrilapitypes/RILDIALPARAMS_V1"
+ - "RILDIALPARAMS_V1"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

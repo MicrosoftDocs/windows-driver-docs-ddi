@@ -10,6 +10,7 @@ keywords: ["SET_D3COLD_SUPPORT callback function"]
 ms.keywords: SET_D3COLD_SUPPORT, SetD3ColdSupport, SetD3ColdSupport routine [Kernel-Mode Driver Architecture], kernel.setd3coldsupport, wdm/SetD3ColdSupport
 f1_keywords:
  - "wdm/SetD3ColdSupport"
+ - "SetD3ColdSupport"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop

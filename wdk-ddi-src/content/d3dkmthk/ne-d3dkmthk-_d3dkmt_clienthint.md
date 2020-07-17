@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_CLIENTHINT enumeration"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_CLIENTHINT"
+ - "_D3DKMT_CLIENTHINT"
 ms.keywords: _D3DKMT_CLIENTHINT, D3DKMT_CLIENTHINT, 
 req.header: d3dkmthk.h
 req.include-header:

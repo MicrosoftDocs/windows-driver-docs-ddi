@@ -10,6 +10,7 @@ keywords: ["FltInitializeFileLock function"]
 ms.keywords: FltApiRef_e_to_o_8e2110a7-bc7b-4a98-b094-c6a7a12e7900.xml, FltInitializeFileLock, FltInitializeFileLock routine [Installable File System Drivers], fltkernel/FltInitializeFileLock, ifsk.fltinitializefilelock
 f1_keywords:
  - "fltkernel/FltInitializeFileLock"
+ - "FltInitializeFileLock"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

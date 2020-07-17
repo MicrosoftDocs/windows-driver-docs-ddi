@@ -10,6 +10,7 @@ keywords: ["_TAPE_WMI_OPERATIONS structure"]
 ms.keywords: "*PTAPE_WMI_OPERATIONS, PTAPE_WMI_OPERATIONS, PTAPE_WMI_OPERATIONS structure pointer [Storage Devices], TAPE_WMI_OPERATIONS, TAPE_WMI_OPERATIONS structure [Storage Devices], _TAPE_WMI_OPERATIONS, ntddtape/PTAPE_WMI_OPERATIONS, ntddtape/TAPE_WMI_OPERATIONS, storage.tape_wmi_operations, structs-tape_93f1d9af-45b2-4121-9b4c-70ed7eaf1782.xml"
 f1_keywords:
  - "ntddtape/TAPE_WMI_OPERATIONS"
+ - "TAPE_WMI_OPERATIONS"
 req.header: ntddtape.h
 req.include-header: Ntddchgr.h, Minitape.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["_PEP_PPM_QUERY_STATE_NAME structure"]
 ms.keywords: "*PPEP_PPM_QUERY_STATE_NAME, PEP_PPM_QUERY_STATE_NAME, PEP_PPM_QUERY_STATE_NAME structure [Kernel-Mode Driver Architecture], PPEP_PPM_QUERY_STATE_NAME, PPEP_PPM_QUERY_STATE_NAME structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_QUERY_STATE_NAME, kernel.pep_ppm_query_state_name, pepfx/PEP_PPM_QUERY_STATE_NAME, pepfx/PPEP_PPM_QUERY_STATE_NAME"
 f1_keywords:
  - "pepfx/PEP_PPM_QUERY_STATE_NAME"
+ - "PEP_PPM_QUERY_STATE_NAME"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows

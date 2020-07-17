@@ -10,6 +10,7 @@ keywords: ["RILUICCSUBSCRIBERNUMBERS structure"]
 ms.keywords: "*LPRILUICCSUBSCRIBERNUMBERS, RILUICCSUBSCRIBERNUMBERS, RILUICCSUBSCRIBERNUMBERS structure [Network Drivers Starting with Windows Vista], netvista.riluiccsubscribernumbers_2, rilapitypes/RILUICCSUBSCRIBERNUMBERS"
 f1_keywords:
  - "rilapitypes/RILUICCSUBSCRIBERNUMBERS"
+ - "RILUICCSUBSCRIBERNUMBERS"
 req.header: rilapitypes.h
 req.include-header:
 req.target-type: Windows

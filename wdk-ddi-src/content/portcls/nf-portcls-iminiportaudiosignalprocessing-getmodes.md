@@ -10,6 +10,7 @@ keywords: ["IMiniportAudioSignalProcessing::GetModes"]
 ms.keywords: GetModes, GetModes method [Audio Devices], GetModes method [Audio Devices],IMiniportAudioSignalProcessing interface, IMiniportAudioSignalProcessing interface [Audio Devices],GetModes method, IMiniportAudioSignalProcessing.GetModes, IMiniportAudioSignalProcessing::GetModes, audio.iminiportaudiosignalprocessing_getmodes, portcls/IMiniportAudioSignalProcessing::GetModes
 f1_keywords:
  - "portcls/IMiniportAudioSignalProcessing.GetModes"
+ - "IMiniportAudioSignalProcessing.GetModes"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal

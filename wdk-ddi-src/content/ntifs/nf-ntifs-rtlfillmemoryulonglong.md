@@ -10,6 +10,7 @@ keywords: ["RtlFillMemoryUlonglong macro"]
 ms.keywords: RtlFillMemoryUlonglong, RtlFillMemoryUlonglong routine [Installable File System Drivers], ifsk.rtlfillmemoryulonglong, ntifs/RtlFillMemoryUlonglong, rtlref_5e06d1be-accd-40f6-a5b1-2a3b39caacce.xml
 f1_keywords:
  - "ntifs/RtlFillMemoryUlonglong"
+ - "RtlFillMemoryUlonglong"
 req.header: ntifs.h
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["_WWAN_AUTH_AKA_RESPONSE structure"]
 ms.keywords: "*PWWAN_AUTH_AKA_RESPONSE, PWWAN_AUTH_AKA_RESPONSE, PWWAN_AUTH_AKA_RESPONSE structure pointer [Network Drivers Starting with Windows Vista], WWAN_AUTH_AKA_RESPONSE, WWAN_AUTH_AKA_RESPONSE structure [Network Drivers Starting with Windows Vista], _WWAN_AUTH_AKA_RESPONSE, netvista.wwan_auth_aka_response, wwan/PWWAN_AUTH_AKA_RESPONSE, wwan/WWAN_AUTH_AKA_RESPONSE"
 f1_keywords:
  - "wwan/WWAN_AUTH_AKA_RESPONSE"
+ - "WWAN_AUTH_AKA_RESPONSE"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows

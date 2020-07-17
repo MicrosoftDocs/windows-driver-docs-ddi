@@ -10,6 +10,7 @@ ms.keywords: RtlUTF8StringToUnicodeString, RtlUTF8StringToUnicodeString routine 
 ms.topic: function
 f1_keywords:
  - "ntifs/RtlUTF8StringToUnicodeString"
+ - "RtlUTF8StringToUnicodeString"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Wdm.h, Ntifs.h
 req.target-type: Universal

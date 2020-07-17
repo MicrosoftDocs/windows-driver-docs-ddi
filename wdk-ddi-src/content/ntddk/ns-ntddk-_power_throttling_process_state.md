@@ -10,6 +10,7 @@ keywords: ["_POWER_THROTTLING_PROCESS_STATE structure"]
 ms.keywords: "*PPOWER_THROTTLING_PROCESS_STATE, POWER_THROTTLING_PROCESS_STATE, POWER_THROTTLING_PROCESS_STATE structure [Kernel-Mode Driver Architecture], _POWER_THROTTLING_PROCESS_STATE, kernel.power_throttling_process_state, ntddk/POWER_THROTTLING_PROCESS_STATE"
 f1_keywords:
  - "ntddk/POWER_THROTTLING_PROCESS_STATE"
+ - "POWER_THROTTLING_PROCESS_STATE"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows

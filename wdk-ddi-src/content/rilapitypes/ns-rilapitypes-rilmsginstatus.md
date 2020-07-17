@@ -10,6 +10,7 @@ keywords: ["RILMSGINSTATUS structure"]
 ms.keywords: "*LPRILMSGINSTATUS, RILMSGINSTATUS, RILMSGINSTATUS structure [Network Drivers Starting with Windows Vista], netvista.rilmsginstatus, ntddrilapitypes/RILMSGINSTATUS"
 f1_keywords:
  - "rilapitypes/RILMSGINSTATUS"
+ - "RILMSGINSTATUS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

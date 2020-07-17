@@ -10,6 +10,7 @@ keywords: ["AuxKlibGetSystemFirmwareTable function"]
 ms.keywords: AuxKlibGetSystemFirmwareTable, AuxKlibGetSystemFirmwareTable routine [Kernel-Mode Driver Architecture], aux_klib/AuxKlibGetSystemFirmwareTable, kernel.auxklibgetsystemfirmwaretable
 f1_keywords:
  - "aux_klib/AuxKlibGetSystemFirmwareTable"
+ - "AuxKlibGetSystemFirmwareTable"
 req.header: aux_klib.h
 req.include-header: Aux_klib.h
 req.target-type: Universal

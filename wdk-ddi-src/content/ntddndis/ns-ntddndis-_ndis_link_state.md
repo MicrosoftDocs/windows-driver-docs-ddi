@@ -10,6 +10,7 @@ keywords: ["_NDIS_LINK_STATE structure"]
 ms.keywords: "*PNDIS_LINK_STATE, NDIS_LINK_STATE, NDIS_LINK_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_LINK_STATE, PNDIS_LINK_STATE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_LINK_STATE, netvista.ndis_link_state, ntddndis/NDIS_LINK_STATE, ntddndis/PNDIS_LINK_STATE"
 f1_keywords:
  - "ntddndis/NDIS_LINK_STATE"
+ - "NDIS_LINK_STATE"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

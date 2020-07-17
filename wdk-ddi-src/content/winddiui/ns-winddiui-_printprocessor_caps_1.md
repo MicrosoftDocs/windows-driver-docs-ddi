@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_PRINTPROCESSOR_CAPS_1 structure"]
 f1_keywords:
  - "winddiui/_PRINTPROCESSOR_CAPS_1"
+ - "_PRINTPROCESSOR_CAPS_1"
 ms.keywords: _PRINTPROCESSOR_CAPS_1, PRINTPROCESSOR_CAPS_1, *PPRINTPROCESSOR_CAPS_1, 
 req.header: winddiui.h
 req.include-header:

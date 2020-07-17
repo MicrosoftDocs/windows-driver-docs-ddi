@@ -10,6 +10,7 @@ keywords: ["KdChangeOption function"]
 ms.keywords: DebugFns_7d909b99-2ffb-4c60-9738-cb35c9a0c4fa.xml, KdChangeOption, KdChangeOption routine [Driver Development Tools], devtest.kdchangeoption, wdm/KdChangeOption
 f1_keywords:
  - "wdm/KdChangeOption"
+ - "KdChangeOption"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Universal

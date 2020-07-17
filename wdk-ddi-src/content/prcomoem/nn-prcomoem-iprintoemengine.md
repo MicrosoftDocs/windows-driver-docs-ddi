@@ -10,6 +10,7 @@ keywords: ["IPrintOemEngine interface"]
 ms.keywords: IPrintOemEngine, IPrintOemEngine interface [Print Devices], IPrintOemEngine interface [Print Devices],described, prcomoem/IPrintOemEngine, print.iprintoemengine
 f1_keywords:
  - "prcomoem/IPrintOemEngine"
+ - "IPrintOemEngine"
 req.header: prcomoem.h
 req.include-header: 
 req.target-type: Windows

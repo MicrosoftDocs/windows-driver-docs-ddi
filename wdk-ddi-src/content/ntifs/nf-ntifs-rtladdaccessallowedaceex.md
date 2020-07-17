@@ -10,6 +10,7 @@ keywords: ["RtlAddAccessAllowedAceEx function"]
 ms.keywords: RtlAddAccessAllowedAceEx, RtlAddAccessAllowedAceEx routine [Installable File System Drivers], ifsk.rtladdaccessallowedaceex, ntifs/RtlAddAccessAllowedAceEx, rtlref_c28640a5-62e2-462a-9c30-b59faedc8386.xml
 f1_keywords:
  - "ntifs/RtlAddAccessAllowedAceEx"
+ - "RtlAddAccessAllowedAceEx"
 req.header: ntifs.h
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal

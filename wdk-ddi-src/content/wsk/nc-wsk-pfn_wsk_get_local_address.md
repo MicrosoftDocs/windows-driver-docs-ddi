@@ -10,6 +10,7 @@ keywords: ["PFN_WSK_GET_LOCAL_ADDRESS callback function"]
 ms.keywords: PFN_WSK_GET_LOCAL_ADDRESS, PFN_WSK_GET_LOCAL_ADDRESS callback, WskGetLocalAddress, WskGetLocalAddress callback function [Network Drivers Starting with Windows Vista], netvista.wskgetlocaladdress, wsk/WskGetLocalAddress, wskref_35a0f32f-247a-435c-83fe-0ba642f8519c.xml
 f1_keywords:
  - "wsk/WskGetLocalAddress"
+ - "WskGetLocalAddress"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Universal

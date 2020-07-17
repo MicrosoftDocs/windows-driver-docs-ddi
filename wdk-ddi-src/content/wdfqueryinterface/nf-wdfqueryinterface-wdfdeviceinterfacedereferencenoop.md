@@ -10,6 +10,7 @@ keywords: ["WdfDeviceInterfaceDereferenceNoOp function"]
 ms.keywords: DFDeviceObjectDriverDefIntRef_2bfa96a8-a58a-4408-83db-11670d7de8c7.xml, WdfDeviceInterfaceDereferenceNoOp, WdfDeviceInterfaceDereferenceNoOp method, kmdf.wdfdeviceinterfacedereferencenoop, wdf.wdfdeviceinterfacedereferencenoop, wdfqueryinterface/WdfDeviceInterfaceDereferenceNoOp
 f1_keywords:
  - "wdfqueryinterface/WdfDeviceInterfaceDereferenceNoOp"
+ - "WdfDeviceInterfaceDereferenceNoOp"
 req.header: wdfqueryinterface.h
 req.include-header: Wdf.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["ExtRemoteData::ExtRemoteData(PCSTR,ULONG64,ULONG)"]
 ms.keywords: ExtRemoteData, ExtRemoteData class [Windows Debugging],ExtRemoteData constructor, ExtRemoteData constructor [Windows Debugging], ExtRemoteData constructor [Windows Debugging],ExtRemoteData class, ExtRemoteData.ExtRemoteData, ExtRemoteData.ExtRemoteData(PCSTR,ULONG64,ULONG), ExtRemoteData::ExtRemoteData, ExtRemoteData::ExtRemoteData(PCSTR,ULONG64,ULONG), debugger.extremotedata_extremotedata_name_offset_bytes
 f1_keywords:
  - "engextcpp/ExtRemoteData.ExtRemoteData"
+ - "ExtRemoteData.ExtRemoteData"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop

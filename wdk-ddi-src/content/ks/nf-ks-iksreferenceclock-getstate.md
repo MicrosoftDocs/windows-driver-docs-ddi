@@ -10,6 +10,7 @@ keywords: ["IKsReferenceClock::GetState"]
 ms.keywords: GetState, GetState method [Streaming Media Devices], GetState method [Streaming Media Devices],IKsReferenceClock interface, IKsReferenceClock interface [Streaming Media Devices],GetState method, IKsReferenceClock.GetState, IKsReferenceClock::GetState, avintfc_e2017894-2e83-4091-84b7-5ea793076b29.xml, ks/IKsReferenceClock::GetState, stream.iksreferenceclock_getstate
 f1_keywords:
  - "ks/IKsReferenceClock.GetState"
+ - "IKsReferenceClock.GetState"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

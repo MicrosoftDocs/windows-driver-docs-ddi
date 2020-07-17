@@ -33,6 +33,7 @@ api_name:
 f1_keywords:
  - dispmprt/_DXGK_DIAG_DISPLAY_SCANOUT_BUFFER_HISTOGRAM
  - dispmprt/DXGK_DIAG_DISPLAY_SCANOUT_BUFFER_HISTOGRAM
+ - ""
 dev_langs:
  - c++
 ---

@@ -10,6 +10,7 @@ keywords: ["WdfDmaTransactionGetDevice function"]
 ms.keywords: DFDmaObjectRef_eb3ef52a-cba0-4754-8dad-d113b200f949.xml, WdfDmaTransactionGetDevice, WdfDmaTransactionGetDevice method, kmdf.wdfdmatransactiongetdevice, wdf.wdfdmatransactiongetdevice, wdfdmatransaction/WdfDmaTransactionGetDevice
 f1_keywords:
  - "wdfdmatransaction/WdfDmaTransactionGetDevice"
+ - "WdfDmaTransactionGetDevice"
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h
 req.target-type: Universal

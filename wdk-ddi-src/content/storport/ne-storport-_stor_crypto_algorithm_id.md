@@ -10,6 +10,7 @@ keywords: ["_STOR_CRYPTO_ALGORITHM_ID enumeration"]
 ms.keywords: "*PSTOR_CRYPTO_ALGORITHM_ID, PSTOR_CRYPTO_ALGORITHM_ID, PSTOR_CRYPTO_ALGORITHM_ID enumeration pointer [Storage Devices], STOR_CRYPTO_ALGORITHM_ID, STOR_CRYPTO_ALGORITHM_ID enumeration [Storage Devices], _STOR_CRYPTO_ALGORITHM_ID, storage.stor_crypto_algorithm_id, storport/, storport/PSTOR_CRYPTO_ALGORITHM_ID, storport/STOR_CRYPTO_ALGORITHM_ID"
 f1_keywords:
  - "storport/STOR_CRYPTO_ALGORITHM_ID"
+ - "STOR_CRYPTO_ALGORITHM_ID"
 req.header: storport.h
 req.include-header: 
 req.target-type: Windows

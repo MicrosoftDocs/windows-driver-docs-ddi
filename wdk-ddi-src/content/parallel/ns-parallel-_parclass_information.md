@@ -10,6 +10,7 @@ keywords: ["_PARCLASS_INFORMATION structure"]
 ms.keywords: "*PPARCLASS_INFORMATION, PARCLASS_INFORMATION, PARCLASS_INFORMATION structure [Parallel Ports], PPARCLASS_INFORMATION, PPARCLASS_INFORMATION structure pointer [Parallel Ports], _PARCLASS_INFORMATION, cisspd_b7b1d8b8-fc86-4bd9-a474-e31f416da93c.xml, parallel/PARCLASS_INFORMATION, parallel/PPARCLASS_INFORMATION, parports.parclass_information"
 f1_keywords:
  - "parallel/PARCLASS_INFORMATION"
+ - "PARCLASS_INFORMATION"
 req.header: parallel.h
 req.include-header: Parallel.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["PPO_ENUMERATE_INTERRUPT_SOURCE_CALLBACK callback"]
 ms.keywords: EnumerateInterruptSource, EnumerateInterruptSource routine [Kernel-Mode Driver Architecture], PO_ENUMERATE_INTERRUPT_SOURCE_CALLBACK, kernel.enumerateinterruptsource, pepfx/EnumerateInterruptSource
 f1_keywords:
  - "pepfx/EnumerateInterruptSource"
+ - "EnumerateInterruptSource"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["ISensorClassExtension::PostStateChange"]
 ms.keywords: ISensorClassExtension interface [Sensor Devices],PostStateChange method, ISensorClassExtension.PostStateChange, ISensorClassExtension::PostStateChange, PostStateChange, PostStateChange method [Sensor Devices], PostStateChange method [Sensor Devices],ISensorClassExtension interface, Sensor_IFaces_b6cc2565-ed4f-48cb-83ea-8d03322c2670.xml, sensors.isensorclassextension_poststatechange, sensorsclassextension/ISensorClassExtension::PostStateChange
 f1_keywords:
  - "sensorsclassextension/ISensorClassExtension.PostStateChange"
+ - "ISensorClassExtension.PostStateChange"
 req.header: sensorsclassextension.h
 req.include-header: 
 req.target-type: Desktop

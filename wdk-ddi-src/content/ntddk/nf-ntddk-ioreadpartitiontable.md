@@ -10,6 +10,7 @@ keywords: ["IoReadPartitionTable function"]
 ms.keywords: IoReadPartitionTable, IoReadPartitionTable routine [Storage Devices], ntddk/IoReadPartitionTable, rtns-disk_9a43d91f-cbb5-4747-bfa9-66da170b0864.xml, storage.ioreadpartitiontable
 f1_keywords:
  - "ntddk/IoReadPartitionTable"
+ - "IoReadPartitionTable"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

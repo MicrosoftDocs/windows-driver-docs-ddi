@@ -10,6 +10,7 @@ keywords: ["DOT11EXTIHV_VALIDATE_PROFILE callback"]
 ms.keywords: DOT11EXTIHV_VALIDATE_PROFILE, Dot11ExtIhvValidateProfile, Dot11ExtIhvValidateProfile callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_14df716f-4572-424e-8bee-a19b5b3d6e68.xml, netvista.dot11extihvvalidateprofile, wlanihv/Dot11ExtIhvValidateProfile
 f1_keywords:
  - "wlanihv/Dot11ExtIhvValidateProfile"
+ - "Dot11ExtIhvValidateProfile"
 req.header: wlanihv.h
 req.include-header: Wlanihv.h, L2cmn.h
 req.target-type: Desktop

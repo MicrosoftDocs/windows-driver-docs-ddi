@@ -10,6 +10,7 @@ keywords: ["_BTH_SDP_STREAM_RESPONSE structure"]
 ms.keywords: "*PBTH_SDP_STREAM_RESPONSE, BTH_SDP_STREAM_RESPONSE, BTH_SDP_STREAM_RESPONSE structure [Bluetooth Devices], PBTH_SDP_STREAM_RESPONSE, PBTH_SDP_STREAM_RESPONSE structure pointer [Bluetooth Devices], _BTH_SDP_STREAM_RESPONSE, bltooth.bth_sdp_stream_response, bth_structs_c48540ef-f38b-4821-84cd-2b781c0b5352.xml, bthioctl/BTH_SDP_STREAM_RESPONSE, bthioctl/PBTH_SDP_STREAM_RESPONSE"
 f1_keywords:
  - "bthioctl/BTH_SDP_STREAM_RESPONSE"
+ - "BTH_SDP_STREAM_RESPONSE"
 req.header: bthioctl.h
 req.include-header: Bthioctl.h
 req.target-type: Windows

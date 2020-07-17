@@ -10,6 +10,7 @@ keywords: ["KsGetFirstChild function"]
 ms.keywords: KsGetFirstChild, KsGetFirstChild function [Streaming Media Devices], avfunc_cfdde7e3-bc8b-46df-abf4-fe43ac9b0bfc.xml, ks/KsGetFirstChild, stream.ksgetfirstchild
 f1_keywords:
  - "ks/KsGetFirstChild"
+ - "KsGetFirstChild"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

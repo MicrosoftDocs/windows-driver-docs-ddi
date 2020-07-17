@@ -10,6 +10,7 @@ keywords: ["IDebugEventCallbacksWide::LoadModule"]
 ms.keywords: IDebugEventCallbacksWide interface [Windows Debugging],LoadModule method, IDebugEventCallbacksWide.LoadModule, IDebugEventCallbacksWide::LoadModule, LoadModule, LoadModule method [Windows Debugging], LoadModule method [Windows Debugging],IDebugEventCallbacksWide interface, dbgeng/IDebugEventCallbacksWide::LoadModule, debugger.idebugeventcallbackswide_loadmodule
 f1_keywords:
  - "dbgeng/IDebugEventCallbacksWide.LoadModule"
+ - "IDebugEventCallbacksWide.LoadModule"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

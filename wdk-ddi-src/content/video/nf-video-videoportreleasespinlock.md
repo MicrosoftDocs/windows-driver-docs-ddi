@@ -10,6 +10,7 @@ keywords: ["VideoPortReleaseSpinLock function"]
 ms.keywords: VideoPortReleaseSpinLock, VideoPortReleaseSpinLock function [Display Devices], VideoPort_Functions_43cceda5-f5eb-4567-97f5-d53d0bf93c0b.xml, display.videoportreleasespinlock, video/VideoPortReleaseSpinLock
 f1_keywords:
  - "video/VideoPortReleaseSpinLock"
+ - "VideoPortReleaseSpinLock"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

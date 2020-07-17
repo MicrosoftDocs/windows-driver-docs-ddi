@@ -29,6 +29,7 @@ targetos: Windows
 req.typenames: 
 f1_keywords:
  - "bthsdpddi/SdpByteSwapUuid128"
+ - "SdpByteSwapUuid128"
 topic_type:
  - APIRef
  - kbSyntax

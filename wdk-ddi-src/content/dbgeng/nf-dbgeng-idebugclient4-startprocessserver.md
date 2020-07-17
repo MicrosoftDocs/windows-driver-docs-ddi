@@ -10,6 +10,7 @@ keywords: ["IDebugClient4::StartProcessServer"]
 ms.keywords: IDebugClient interface [Windows Debugging],StartProcessServer method, IDebugClient2 interface [Windows Debugging],StartProcessServer method, IDebugClient2::StartProcessServer, IDebugClient3 interface [Windows Debugging],StartProcessServer method, IDebugClient3::StartProcessServer, IDebugClient4 interface [Windows Debugging],StartProcessServer method, IDebugClient4.StartProcessServer, IDebugClient4::StartProcessServer, IDebugClient5 interface [Windows Debugging],StartProcessServer method, IDebugClient5::StartProcessServer, IDebugClient::StartProcessServer, IDebugClient_de137b80-ffd7-4399-85a3-50b3c870c28c.xml, StartProcessServer, StartProcessServer method [Windows Debugging], StartProcessServer method [Windows Debugging],IDebugClient interface, StartProcessServer method [Windows Debugging],IDebugClient2 interface, StartProcessServer method [Windows Debugging],IDebugClient3 interface, StartProcessServer method [Windows Debugging],IDebugClient4 interface, StartProcessServer method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient2::StartProcessServer, dbgeng/IDebugClient3::StartProcessServer, dbgeng/IDebugClient4::StartProcessServer, dbgeng/IDebugClient5::StartProcessServer, dbgeng/IDebugClient::StartProcessServer, debugger.startprocessserver
 f1_keywords:
  - "dbgeng/IDebugClient.StartProcessServer"
+ - "IDebugClient.StartProcessServer"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

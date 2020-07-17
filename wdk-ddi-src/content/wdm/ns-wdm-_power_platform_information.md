@@ -10,6 +10,7 @@ keywords: ["_POWER_PLATFORM_INFORMATION structure"]
 ms.keywords: "*PPOWER_PLATFORM_INFORMATION, POWER_PLATFORM_INFORMATION, POWER_PLATFORM_INFORMATION structure [Kernel-Mode Driver Architecture], PPOWER_PLATFORM_INFORMATION, PPOWER_PLATFORM_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _POWER_PLATFORM_INFORMATION, kernel.power_platform_information, wdm/POWER_PLATFORM_INFORMATION, wdm/PPOWER_PLATFORM_INFORMATION"
 f1_keywords:
  - "wdm/POWER_PLATFORM_INFORMATION"
+ - "POWER_PLATFORM_INFORMATION"
 req.header: wdm.h
 req.include-header: Ntpoapi.h
 req.target-type: Windows

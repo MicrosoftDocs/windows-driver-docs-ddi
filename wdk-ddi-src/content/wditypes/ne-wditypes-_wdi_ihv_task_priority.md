@@ -10,6 +10,7 @@ keywords: ["_WDI_IHV_TASK_PRIORITY enumeration"]
 ms.keywords: WDI_IHV_TASK_PRIORITY, WDI_IHV_TASK_PRIORITY enumeration [Network Drivers Starting with Windows Vista], WDI_IHV_TASK_PRIORITY_HIGH, WDI_IHV_TASK_PRIORITY_LOW, WDI_IHV_TASK_PRIORITY_MEDIUM, _WDI_IHV_TASK_PRIORITY, netvista.wdi_ihv_task_priority, netvista.wifi_ihv_task_priority, wditypes/WDI_IHV_TASK_PRIORITY, wditypes/WDI_IHV_TASK_PRIORITY_HIGH, wditypes/WDI_IHV_TASK_PRIORITY_LOW, wditypes/WDI_IHV_TASK_PRIORITY_MEDIUM
 f1_keywords:
  - "wditypes/WDI_IHV_TASK_PRIORITY"
+ - "WDI_IHV_TASK_PRIORITY"
 req.header: wditypes.hpp
 req.include-header: 
 req.target-type: Windows

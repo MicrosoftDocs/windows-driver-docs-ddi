@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["WHEAP_CLEARED_POISON_EVENT structure"]
 f1_keywords:
  - "ntddk/WHEAP_CLEARED_POISON_EVENT"
+ - "WHEAP_CLEARED_POISON_EVENT"
 ms.keywords: WHEAP_CLEARED_POISON_EVENT, WHEAP_CLEARED_POISON_EVENT, *PWHEAP_CLEARED_POISON_EVENT, 
 req.header: ntddk.h
 req.include-header:

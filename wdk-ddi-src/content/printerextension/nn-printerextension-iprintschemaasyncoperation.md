@@ -10,6 +10,7 @@ keywords: ["IPrintSchemaAsyncOperation interface"]
 ms.keywords: IPrintSchemaAsyncOperation, IPrintSchemaAsyncOperation interface [Print Devices], IPrintSchemaAsyncOperation interface [Print Devices],described, print.iprintschemaasyncoperation_interface, printerextension/IPrintSchemaAsyncOperation
 f1_keywords:
  - "printerextension/IPrintSchemaAsyncOperation"
+ - "IPrintSchemaAsyncOperation"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

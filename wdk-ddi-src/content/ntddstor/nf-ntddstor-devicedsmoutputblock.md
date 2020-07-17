@@ -8,6 +8,7 @@ ms.date: 08/23/2019
 keywords: ["DeviceDsmOutputBlock function"]
 f1_keywords:
  - "ntddstor/DeviceDsmOutputBlock"
+ - "DeviceDsmOutputBlock"
 ms.keywords: DeviceDsmOutputBlock
 req.header: ntddstor.h
 req.include-header:

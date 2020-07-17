@@ -10,6 +10,7 @@ keywords: ["IWDFInterrupt::Disable"]
 ms.keywords: Disable, Disable method, Disable method,IWDFInterrupt interface, IWDFInterrupt interface,Disable method, IWDFInterrupt.Disable, IWDFInterrupt::Disable, umdf.iwdfinterrupt_disable, wdf.iwdfinterrupt_disable, wudfddi/IWDFInterrupt::Disable
 f1_keywords:
  - "wudfddi/IWDFInterrupt.Disable"
+ - "IWDFInterrupt.Disable"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["_PEP_PROCESSOR_IDLE_STATE_V2 structure"]
 ms.keywords: "*PPEP_PROCESSOR_IDLE_STATE_V2, PEP_PROCESSOR_IDLE_STATE_V2, PEP_PROCESSOR_IDLE_STATE_V2 structure [Kernel-Mode Driver Architecture], PPEP_PROCESSOR_IDLE_STATE_V2, PPEP_PROCESSOR_IDLE_STATE_V2 structure pointer [Kernel-Mode Driver Architecture], _PEP_PROCESSOR_IDLE_STATE_V2, kernel.pep_processor_idle_state_v2, pepfx/PEP_PROCESSOR_IDLE_STATE_V2, pepfx/PPEP_PROCESSOR_IDLE_STATE_V2"
 f1_keywords:
  - "pepfx/PEP_PROCESSOR_IDLE_STATE_V2"
+ - "PEP_PROCESSOR_IDLE_STATE_V2"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows

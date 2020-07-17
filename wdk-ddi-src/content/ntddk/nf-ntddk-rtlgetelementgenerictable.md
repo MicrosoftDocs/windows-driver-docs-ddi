@@ -10,6 +10,7 @@ keywords: ["RtlGetElementGenericTable function"]
 ms.keywords: RtlGetElementGenericTable, RtlGetElementGenericTable routine [Installable File System Drivers], ifsk.rtlgetelementgenerictable, ntddk/RtlGetElementGenericTable, rtlref_5127995d-65ea-4a8b-8b5b-ad64c7cc4c0d.xml
 f1_keywords:
  - "ntddk/RtlGetElementGenericTable"
+ - "RtlGetElementGenericTable"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal

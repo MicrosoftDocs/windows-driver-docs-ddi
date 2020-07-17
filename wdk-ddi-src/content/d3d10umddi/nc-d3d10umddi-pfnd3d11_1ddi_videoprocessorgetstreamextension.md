@@ -9,6 +9,7 @@ keywords: ["PFND3D11_1DDI_VIDEOPROCESSORGETSTREAMEXTENSION callback function"]
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORGETSTREAMEXTENSION, PFND3D11_1DDI_VIDEOPROCESSORGETSTREAMEXTENSION callback, d3d10umddi/pfnVideoProcessorGetStreamExtension, display.videoprocessorgetstreamextension, pfnVideoProcessorGetStreamExtension, pfnVideoProcessorGetStreamExtension callback function [Display Devices]
 f1_keywords:
  - "d3d10umddi/pfnVideoProcessorGetStreamExtension"
+ - "pfnVideoProcessorGetStreamExtension"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

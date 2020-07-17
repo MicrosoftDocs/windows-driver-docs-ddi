@@ -10,6 +10,7 @@ keywords: ["PFN_WSK_SEND_BACKLOG_EVENT callback function"]
 ms.keywords: PFN_WSK_SEND_BACKLOG_EVENT, PFN_WSK_SEND_BACKLOG_EVENT callback, WskSendBacklogEvent, WskSendBacklogEvent callback function [Network Drivers Starting with Windows Vista], netvista.wsksendbacklogevent, wsk/WskSendBacklogEvent, wskref_9b34fa29-9c3a-4aa2-8ceb-3f637c4902cd.xml
 f1_keywords:
  - "wsk/WskSendBacklogEvent"
+ - "WskSendBacklogEvent"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Windows

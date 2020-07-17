@@ -10,6 +10,7 @@ keywords: ["RtlNumberOfSetBitsUlongPtr function"]
 ms.keywords: RtlNumberOfSetBitsUlongPtr, RtlNumberOfSetBitsUlongPtr routine [Kernel-Mode Driver Architecture], kernel.rtlnumberofsetbitsulongptr, wdm/RtlNumberOfSetBitsUlongPtr
 f1_keywords:
  - "wdm/RtlNumberOfSetBitsUlongPtr"
+ - "RtlNumberOfSetBitsUlongPtr"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["_SECURITY_IMPERSONATION_LEVEL enumeration"]
 ms.keywords: "*PSECURITY_IMPERSONATION_LEVEL, PSECURITY_IMPERSONATION_LEVEL, PSECURITY_IMPERSONATION_LEVEL enumeration pointer [Installable File System Drivers], SECURITY_IMPERSONATION_LEVEL, SECURITY_IMPERSONATION_LEVEL enumeration [Installable File System Drivers], SecurityAnonymous, SecurityDelegation, SecurityIdentification, SecurityImpersonation, _SECURITY_IMPERSONATION_LEVEL, ifsk.security_impersonation_level, securitystructures_d049c4aa-1df4-46b1-b789-01f04e939de2.xml, wdm/PSECURITY_IMPERSONATION_LEVEL, wdm/SECURITY_IMPERSONATION_LEVEL, wdm/SecurityAnonymous, wdm/SecurityDelegation, wdm/SecurityIdentification, wdm/SecurityImpersonation"
 f1_keywords:
  - "wdm/SECURITY_IMPERSONATION_LEVEL"
+ - "SECURITY_IMPERSONATION_LEVEL"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Windows

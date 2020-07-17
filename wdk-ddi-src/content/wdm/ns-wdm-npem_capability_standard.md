@@ -32,6 +32,7 @@ api_name:
 f1_keywords:
  - wdm/_NPEM_CAPABILITY_STANDARD
  - wdm/NPEM_CAPABILITY_STANDARD
+ - ""
 dev_langs:
  - c++
 ---

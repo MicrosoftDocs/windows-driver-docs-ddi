@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["IO_NOTIFICATION_EVENT_CATEGORY enumeration"]
 f1_keywords:
  - "wdm/IO_NOTIFICATION_EVENT_CATEGORY"
+ - "IO_NOTIFICATION_EVENT_CATEGORY"
 ms.keywords: IO_NOTIFICATION_EVENT_CATEGORY, IO_NOTIFICATION_EVENT_CATEGORY, 
 req.header: wdm.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["OEMResetPDEV function"]
 ms.keywords: OEMResetPDEV, OEMResetPDEV function [Print Devices], print.oemresetpdev, print_obsoletefunctions_c49829da-bbf6-4438-b291-c8dd93856311.xml, printoem/OEMResetPDEV
 f1_keywords:
  - "printoem/OEMResetPDEV"
+ - "OEMResetPDEV"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows

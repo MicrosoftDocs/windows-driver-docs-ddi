@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_SEGMENTSIZEINFO structure"]
 ms.keywords: D3DKMT_SEGMENTSIZEINFO, D3DKMT_SEGMENTSIZEINFO structure [Display Devices], OpenGL_Structs_bdb19184-37f0-4341-b8bb-41011f6cb6b3.xml, _D3DKMT_SEGMENTSIZEINFO, d3dkmthk/D3DKMT_SEGMENTSIZEINFO, display.d3dkmt_segmentsizeinfo
 f1_keywords:
  - "d3dkmthk/D3DKMT_SEGMENTSIZEINFO"
+ - "D3DKMT_SEGMENTSIZEINFO"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

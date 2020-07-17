@@ -10,6 +10,7 @@ keywords: ["_DD_GETEXTENDEDMODEDATA structure"]
 ms.keywords: DD_GETEXTENDEDMODEDATA, DD_GETEXTENDEDMODEDATA structure [Display Devices], _DD_GETEXTENDEDMODEDATA, d3dhal/DD_GETEXTENDEDMODEDATA, d3dstrct_a39e1e5a-9b07-48eb-a7c6-40bcac8a21d6.xml, display.dd_getextendedmodedata
 f1_keywords:
  - "d3dhal/DD_GETEXTENDEDMODEDATA"
+ - "DD_GETEXTENDEDMODEDATA"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows

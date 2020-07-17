@@ -10,6 +10,7 @@ keywords: ["FwpsInjectionHandleCreate0 function"]
 ms.keywords: FwpsInjectionHandleCreate0, FwpsInjectionHandleCreate0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsInjectionHandleCreate0, netvista.fwpsinjectionhandlecreate0, wfp_ref_2_funct_3_fwps_I_24f21d21-bf9c-4f77-9630-2c589b18aca4.xml
 f1_keywords:
  - "fwpsk/FwpsInjectionHandleCreate0"
+ - "FwpsInjectionHandleCreate0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal

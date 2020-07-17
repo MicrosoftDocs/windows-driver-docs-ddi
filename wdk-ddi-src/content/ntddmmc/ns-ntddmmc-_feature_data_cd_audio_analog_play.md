@@ -10,6 +10,7 @@ keywords: ["_FEATURE_DATA_CD_AUDIO_ANALOG_PLAY structure"]
 ms.keywords: "*PFEATURE_DATA_CD_AUDIO_ANALOG_PLAY, FEATURE_DATA_CD_AUDIO_ANALOG_PLAY, FEATURE_DATA_CD_AUDIO_ANALOG_PLAY structure [Storage Devices], PFEATURE_DATA_CD_AUDIO_ANALOG_PLAY, PFEATURE_DATA_CD_AUDIO_ANALOG_PLAY structure pointer [Storage Devices], _FEATURE_DATA_CD_AUDIO_ANALOG_PLAY, ntddmmc/FEATURE_DATA_CD_AUDIO_ANALOG_PLAY, ntddmmc/PFEATURE_DATA_CD_AUDIO_ANALOG_PLAY, storage.feature_data_cd_audio_analog_play, structs-CD-ROM_87a067ea-0911-429b-808a-102f9600ecac.xml"
 f1_keywords:
  - "ntddmmc/FEATURE_DATA_CD_AUDIO_ANALOG_PLAY"
+ - "FEATURE_DATA_CD_AUDIO_ANALOG_PLAY"
 req.header: ntddmmc.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows

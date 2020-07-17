@@ -10,6 +10,7 @@ keywords: ["WdfDeviceClearRemovalRelationsDevices function"]
 ms.keywords: DFDeviceObjectGeneralRef_e2dc5cb6-4f45-441c-b242-5b67ea8fa381.xml, WdfDeviceClearRemovalRelationsDevices, WdfDeviceClearRemovalRelationsDevices method, kmdf.wdfdeviceclearremovalrelationsdevices, wdf.wdfdeviceclearremovalrelationsdevices, wdfdevice/WdfDeviceClearRemovalRelationsDevices
 f1_keywords:
  - "wdfdevice/WdfDeviceClearRemovalRelationsDevices"
+ - "WdfDeviceClearRemovalRelationsDevices"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

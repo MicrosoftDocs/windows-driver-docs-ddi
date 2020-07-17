@@ -10,6 +10,7 @@ keywords: ["FltGetFileNameInformationUnsafe function"]
 ms.keywords: FltGetFileNameInformationUnsafe, FltGetFileNameInformationUnsafe routine [Installable File System Drivers], fltkernel/FltGetFileNameInformationUnsafe, ifsk.fltgetfilenameinformationunsafe
 f1_keywords:
  - "fltkernel/FltGetFileNameInformationUnsafe"
+ - "FltGetFileNameInformationUnsafe"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["GPIO_CLIENT_RESTORE_BANK_HARDWARE_CONTEXT callback function"]
 ms.keywords: CLIENT_RestoreBankHardwareContext, CLIENT_RestoreBankHardwareContext callback, CLIENT_RestoreBankHardwareContext callback function [Parallel Ports], GPIO.client_restorebankhardwarecontext, GPIO_CLIENT_RESTORE_BANK_HARDWARE_CONTEXT, gpioclx/CLIENT_RestoreBankHardwareContext
 f1_keywords:
  - "gpioclx/CLIENT_RestoreBankHardwareContext"
+ - "CLIENT_RestoreBankHardwareContext"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["_DXGK_CHILD_DEVICE_HPD_AWARENESS enumeration"]
 ms.keywords: "*PDXGK_CHILD_DEVICE_HPD_AWARENESS, DXGK_CHILD_DEVICE_HPD_AWARENESS, DXGK_CHILD_DEVICE_HPD_AWARENESS enumeration [Display Devices], DmEnums_1d5801e8-cb03-4409-a037-b25242176eea.xml, HpdAwarenessAlwaysConnected, HpdAwarenessInterruptible, HpdAwarenessNone, HpdAwarenessPolled, HpdAwarenessUninitialized, PDXGK_CHILD_DEVICE_HPD_AWARENESS, PDXGK_CHILD_DEVICE_HPD_AWARENESS enumeration pointer [Display Devices], _DXGK_CHILD_DEVICE_HPD_AWARENESS, d3dkmdt/DXGK_CHILD_DEVICE_HPD_AWARENESS, d3dkmdt/HpdAwarenessAlwaysConnected, d3dkmdt/HpdAwarenessInterruptible, d3dkmdt/HpdAwarenessNone, d3dkmdt/HpdAwarenessPolled, d3dkmdt/HpdAwarenessUninitialized, d3dkmdt/PDXGK_CHILD_DEVICE_HPD_AWARENESS, display.dxgk_child_device_hpd_awareness"
 f1_keywords:
  - "d3dkmdt/DXGK_CHILD_DEVICE_HPD_AWARENESS"
+ - "DXGK_CHILD_DEVICE_HPD_AWARENESS"
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
 req.target-type: Windows

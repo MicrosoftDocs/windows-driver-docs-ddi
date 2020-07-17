@@ -10,6 +10,7 @@ keywords: ["IDD_CX_CLIENT_CONFIG structure"]
 ms.keywords: IDD_CX_CLIENT_CONFIG, IDD_CX_CLIENT_CONFIG structure [Display Devices], display.idd_cx_client_config, iddcx/IDD_CX_CLIENT_CONFIG
 f1_keywords:
  - "iddcx/IDD_CX_CLIENT_CONFIG"
+ - "IDD_CX_CLIENT_CONFIG"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows

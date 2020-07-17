@@ -10,6 +10,7 @@ keywords: ["IWDTFPNPAction2::RestartDevice"]
 ms.keywords: IWDTFPNPAction2 interface [Windows Device Testing Framework],RestartDevice method, IWDTFPNPAction2.RestartDevice, IWDTFPNPAction2::RestartDevice, Microsoft.WDTF.IWDTFPNPAction2.RestartDevice, Microsoft::WDTF::IWDTFPNPAction2::RestartDevice, RestartDevice, RestartDevice method [Windows Device Testing Framework], RestartDevice method [Windows Device Testing Framework],IWDTFPNPAction2 interface, dtf.iwdtfpnpaction2_restartdevice, wdtfpnpaction/IWDTFPNPAction2::RestartDevice
 f1_keywords:
  - "wdtfpnpaction/IWDTFPNPAction2.RestartDevice"
+ - "IWDTFPNPAction2.RestartDevice"
 req.header: wdtfpnpaction.h
 req.include-header: 
 req.target-type: Desktop

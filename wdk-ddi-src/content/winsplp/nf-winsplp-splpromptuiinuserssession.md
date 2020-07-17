@@ -10,6 +10,7 @@ keywords: ["SplPromptUIInUsersSession function"]
 ms.keywords: SplPromptUIInUsersSession, SplPromptUIInUsersSession function [Print Devices], print.splpromptuiinuserssession, spoolfnc_5b2379b2-c34b-4a98-b148-25a09f55be2b.xml, winsplp/SplPromptUIInUsersSession
 f1_keywords:
  - "winsplp/SplPromptUIInUsersSession"
+ - "SplPromptUIInUsersSession"
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Desktop

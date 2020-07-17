@@ -7,6 +7,7 @@ ms.date: 07/20/2018
 keywords: ["IModelObject interface"]
 f1_keywords:
  - "dbgmodel/IModelObject"
+ - "IModelObject"
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

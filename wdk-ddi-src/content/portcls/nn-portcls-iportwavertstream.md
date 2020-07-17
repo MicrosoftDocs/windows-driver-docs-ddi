@@ -10,6 +10,7 @@ keywords: ["IPortWaveRTStream interface"]
 ms.keywords: IPortWaveRTStream, IPortWaveRTStream interface [Audio Devices], IPortWaveRTStream interface [Audio Devices],described, audio.iportwavertstream, audmp-routines_485f04fa-bdd1-4b92-bb3b-4f8653393811.xml, portcls/IPortWaveRTStream
 f1_keywords:
  - "portcls/IPortWaveRTStream"
+ - "IPortWaveRTStream"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows

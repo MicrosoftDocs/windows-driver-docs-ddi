@@ -10,6 +10,7 @@ keywords: ["_EXTCHKBOX structure"]
 ms.keywords: "*PEXTCHKBOX, EXTCHKBOX, EXTCHKBOX structure [Print Devices], PEXTCHKBOX, PEXTCHKBOX structure pointer [Print Devices], _EXTCHKBOX, compstui/EXTCHKBOX, compstui/PEXTCHKBOX, cpsuifnc_3d620423-7173-4a78-b087-f8f269c5715d.xml, print.extchkbox"
 f1_keywords:
  - "compstui/EXTCHKBOX"
+ - "EXTCHKBOX"
 req.header: compstui.h
 req.include-header: Compstui.h
 req.target-type: Windows

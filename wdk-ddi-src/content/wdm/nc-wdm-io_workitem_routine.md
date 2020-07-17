@@ -10,6 +10,7 @@ keywords: ["IO_WORKITEM_ROUTINE callback function"]
 ms.keywords: DrvrRtns_55d37b62-e72b-4aa3-b590-e9598ead0b46.xml, IO_WORKITEM_ROUTINE, WorkItem, WorkItem routine [Kernel-Mode Driver Architecture], kernel.workitem, wdm/WorkItem
 f1_keywords:
  - "wdm/WorkItem"
+ - "WorkItem"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

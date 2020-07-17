@@ -10,6 +10,7 @@ keywords: ["ClfsReserveAndAppendLog function"]
 ms.keywords: ClfsReserveAndAppendLog, ClfsReserveAndAppendLog routine [Kernel-Mode Driver Architecture], Clfs_4378f8c9-0765-48af-9309-2bc0a1af1da5.xml, kernel.clfsreserveandappendlog, wdm/ClfsReserveAndAppendLog
 f1_keywords:
  - "wdm/ClfsReserveAndAppendLog"
+ - "ClfsReserveAndAppendLog"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop

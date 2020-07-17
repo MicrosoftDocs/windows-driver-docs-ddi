@@ -10,6 +10,7 @@ keywords: ["KsPinAttemptProcessing function"]
 ms.keywords: KsPinAttemptProcessing, KsPinAttemptProcessing function [Streaming Media Devices], avfunc_e17d5ad8-b0e3-4b5e-ab4c-a552f1650ed4.xml, ks/KsPinAttemptProcessing, stream.kspinattemptprocessing
 f1_keywords:
  - "ks/KsPinAttemptProcessing"
+ - "KsPinAttemptProcessing"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

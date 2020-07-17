@@ -10,6 +10,7 @@ keywords: ["IWDFDevice2 interface"]
 ms.keywords: IWDFDevice2, IWDFDevice2 interface, IWDFDevice2 interface,described, UMDFDeviceObjectRef_0b02d642-234d-4f98-b6d1-5557aa74eb14.xml, umdf.iwdfdevice2, wdf.iwdfdevice2, wudfddi/IWDFDevice2
 f1_keywords:
  - "wudfddi/IWDFDevice2"
+ - "IWDFDevice2"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

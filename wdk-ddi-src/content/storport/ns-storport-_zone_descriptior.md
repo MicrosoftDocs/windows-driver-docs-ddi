@@ -10,6 +10,7 @@ keywords: ["_ZONE_DESCRIPTIOR structure"]
 ms.keywords: "*PZONE_DESCRIPTIOR, PZONE_DESCRIPTIOR, PZONE_DESCRIPTIOR structure pointer [Storage Devices], ZONE_DESCRIPTIOR, ZONE_DESCRIPTIOR structure [Storage Devices], _ZONE_DESCRIPTIOR, scsi/PZONE_DESCRIPTIOR, scsi/ZONE_DESCRIPTIOR, storage.zone_descriptior"
 f1_keywords:
  - "storport/ZONE_DESCRIPTIOR"
+ - "ZONE_DESCRIPTIOR"
 req.header: storport.h
 req.include-header: Minitape.h, Storport.h
 req.target-type: Windows

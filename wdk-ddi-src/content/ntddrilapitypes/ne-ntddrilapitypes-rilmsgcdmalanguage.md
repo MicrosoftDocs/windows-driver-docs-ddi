@@ -10,6 +10,7 @@ keywords: ["RILMSGCDMALANGUAGE enumeration"]
 ms.keywords: RILMSGCDMALANGUAGE, RILMSGCDMALANGUAGE enumeration [Network Drivers Starting with Windows Vista], RIL_MSGCDMALANG_CHINESE, RIL_MSGCDMALANG_ENGLISH, RIL_MSGCDMALANG_FRENCH, RIL_MSGCDMALANG_HEBREW, RIL_MSGCDMALANG_JAPANESE, RIL_MSGCDMALANG_KOREAN, RIL_MSGCDMALANG_MAX, RIL_MSGCDMALANG_SPANISH, netvista.rilmsgcdmalanguage, ntddrilapitypes/RILMSGCDMALANGUAGE, ntddrilapitypes/RIL_MSGCDMALANG_CHINESE, ntddrilapitypes/RIL_MSGCDMALANG_ENGLISH, ntddrilapitypes/RIL_MSGCDMALANG_FRENCH, ntddrilapitypes/RIL_MSGCDMALANG_HEBREW, ntddrilapitypes/RIL_MSGCDMALANG_JAPANESE, ntddrilapitypes/RIL_MSGCDMALANG_KOREAN, ntddrilapitypes/RIL_MSGCDMALANG_MAX, ntddrilapitypes/RIL_MSGCDMALANG_SPANISH
 f1_keywords:
  - "ntddrilapitypes/RILMSGCDMALANGUAGE"
+ - "RILMSGCDMALANGUAGE"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

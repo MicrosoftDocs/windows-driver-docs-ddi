@@ -10,6 +10,7 @@ keywords: ["_NDK_CONNECTOR structure"]
 ms.keywords: NDK_CONNECTOR, NDK_CONNECTOR structure [Network Drivers Starting with Windows Vista], PNDK_CONNECTOR, PNDK_CONNECTOR structure pointer [Network Drivers Starting with Windows Vista], _NDK_CONNECTOR, ndkpi/NDK_CONNECTOR, ndkpi/PNDK_CONNECTOR, netvista.ndk_connector
 f1_keywords:
  - "ndkpi/NDK_CONNECTOR"
+ - "NDK_CONNECTOR"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

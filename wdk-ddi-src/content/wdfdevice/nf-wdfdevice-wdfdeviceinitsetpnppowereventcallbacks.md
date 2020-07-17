@@ -10,6 +10,7 @@ keywords: ["WdfDeviceInitSetPnpPowerEventCallbacks function"]
 ms.keywords: DFDeviceObjectGeneralRef_6a2f152e-b1ee-492e-a986-9c1ea925ff24.xml, WdfDeviceInitSetPnpPowerEventCallbacks, WdfDeviceInitSetPnpPowerEventCallbacks method, kmdf.wdfdeviceinitsetpnppowereventcallbacks, wdf.wdfdeviceinitsetpnppowereventcallbacks, wdfdevice/WdfDeviceInitSetPnpPowerEventCallbacks
 f1_keywords:
  - "wdfdevice/WdfDeviceInitSetPnpPowerEventCallbacks"
+ - "WdfDeviceInitSetPnpPowerEventCallbacks"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

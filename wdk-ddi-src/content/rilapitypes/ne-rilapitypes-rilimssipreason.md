@@ -10,6 +10,7 @@ keywords: ["RILIMSSIPREASON enumeration"]
 ms.keywords: RILIMSSIPREASON, RILIMSSIPREASON enumeration [Network Drivers Starting with Windows Vista], RIL_IMSSIPREASON_MAX, RIL_IMSSIPREASON_NOT_AUTHORIZED_FOR_SERVICE, netvista.rilimssipreason, ntddrilapitypes/RILIMSSIPREASON, ntddrilapitypes/RIL_IMSSIPREASON_MAX, ntddrilapitypes/RIL_IMSSIPREASON_NOT_AUTHORIZED_FOR_SERVICE
 f1_keywords:
  - "rilapitypes/RILIMSSIPREASON"
+ - "RILIMSSIPREASON"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

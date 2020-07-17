@@ -10,6 +10,7 @@ keywords: ["IDebugSymbolGroup2::GetSymbolValueTextWide"]
 ms.keywords: GetSymbolValueTextWide, GetSymbolValueTextWide method [Windows Debugging], GetSymbolValueTextWide method [Windows Debugging],IDebugSymbolGroup2 interface, IDebugSymbolGroup2 interface [Windows Debugging],GetSymbolValueTextWide method, IDebugSymbolGroup2.GetSymbolValueTextWide, IDebugSymbolGroup2::GetSymbolValueTextWide, dbgeng/IDebugSymbolGroup2::GetSymbolValueTextWide, debugger.getsymbolvaluetextwide
 f1_keywords:
  - "dbgeng/IDebugSymbolGroup2.GetSymbolValueTextWide"
+ - "IDebugSymbolGroup2.GetSymbolValueTextWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

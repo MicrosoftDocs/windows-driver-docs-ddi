@@ -10,6 +10,7 @@ keywords: ["RILUICCFILELOCKSTATUS structure"]
 ms.keywords: "*LPRILUICCFILELOCKSTATUS, RILUICCFILELOCKSTATUS, RILUICCFILELOCKSTATUS structure [Network Drivers Starting with Windows Vista], netvista.riluiccfilelockstatus, rilapitypes/RILUICCFILELOCKSTATUS"
 f1_keywords:
  - "ntddrilapitypes/RILUICCFILELOCKSTATUS"
+ - "RILUICCFILELOCKSTATUS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["IPrintOemUni3::DownloadPattern"]
 ms.keywords: DownloadPattern, DownloadPattern method [Print Devices], DownloadPattern method [Print Devices],IPrintOemUni3 interface, IPrintOemUni3 interface [Print Devices],DownloadPattern method, IPrintOemUni3.DownloadPattern, IPrintOemUni3::DownloadPattern, prcomoem/IPrintOemUni3::DownloadPattern, print.iprintoemuni3_downloadpattern, print_unidrv-pscript_rendering_ce79f65e-3515-4d0b-96d6-d468c15039f1.xml
 f1_keywords:
  - "prcomoem/IPrintOemUni3.DownloadPattern"
+ - "IPrintOemUni3.DownloadPattern"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop

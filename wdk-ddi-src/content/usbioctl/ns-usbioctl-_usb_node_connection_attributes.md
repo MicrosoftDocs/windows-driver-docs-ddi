@@ -10,6 +10,7 @@ keywords: ["_USB_NODE_CONNECTION_ATTRIBUTES structure"]
 ms.keywords: "*PUSB_NODE_CONNECTION_ATTRIBUTES, PUSB_NODE_CONNECTION_ATTRIBUTES, PUSB_NODE_CONNECTION_ATTRIBUTES structure pointer [Buses], USB_NODE_CONNECTION_ATTRIBUTES, USB_NODE_CONNECTION_ATTRIBUTES structure [Buses], _USB_NODE_CONNECTION_ATTRIBUTES, buses.usb_node_connection_attributes, usbioctl/PUSB_NODE_CONNECTION_ATTRIBUTES, usbioctl/USB_NODE_CONNECTION_ATTRIBUTES, usbstrct_20423110-ee37-4637-8202-e712bb13d43b.xml"
 f1_keywords:
  - "usbioctl/USB_NODE_CONNECTION_ATTRIBUTES"
+ - "USB_NODE_CONNECTION_ATTRIBUTES"
 req.header: usbioctl.h
 req.include-header: Usbioctl.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["IStillImageW::SetDeviceValue"]
 ms.keywords: IStillImageW interface [Imaging Devices],SetDeviceValue method, IStillImageW.SetDeviceValue, IStillImageW::SetDeviceValue, SetDeviceValue, SetDeviceValue method [Imaging Devices], SetDeviceValue method [Imaging Devices],IStillImageW interface, image.istillimage_setdevicevalue, sti/IStillImageW::SetDeviceValue, stifnc_74822300-cad0-43db-80b9-d3f868afcd19.xml
 f1_keywords:
  - "sti/IStillImageW.SetDeviceValue"
+ - "IStillImageW.SetDeviceValue"
 req.header: sti.h
 req.include-header: Sti.h
 req.target-type: Desktop

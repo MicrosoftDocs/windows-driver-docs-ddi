@@ -10,6 +10,7 @@ keywords: ["RILCAPSLOCKINGPWDLENGTH structure"]
 ms.keywords: "*LPRILCAPSLOCKINGPWDLENGTH, RILCAPSLOCKINGPWDLENGTH, RILCAPSLOCKINGPWDLENGTH structure [Network Drivers Starting with Windows Vista], netvista.rilcapslockingpwdlength, ntddrilapitypes/RILCAPSLOCKINGPWDLENGTH"
 f1_keywords:
  - "ntddrilapitypes/RILCAPSLOCKINGPWDLENGTH"
+ - "RILCAPSLOCKINGPWDLENGTH"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

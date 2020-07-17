@@ -10,6 +10,7 @@ keywords: ["IPrinterQueueViewEvent::OnChanged"]
 ms.keywords: IPrinterQueueViewEvent interface [Print Devices],OnChanged method, IPrinterQueueViewEvent.OnChanged, IPrinterQueueViewEvent::OnChanged, OnChanged, OnChanged method [Print Devices], OnChanged method [Print Devices],IPrinterQueueViewEvent interface, print.iprinterqueueviewevent_onchanged, printerextension/IPrinterQueueViewEvent::OnChanged
 f1_keywords:
  - "printerextension/IPrinterQueueViewEvent.OnChanged"
+ - "IPrinterQueueViewEvent.OnChanged"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop

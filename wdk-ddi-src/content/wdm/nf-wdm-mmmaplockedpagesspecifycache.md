@@ -10,6 +10,7 @@ keywords: ["MmMapLockedPagesSpecifyCache function"]
 ms.keywords: MmMapLockedPagesSpecifyCache, MmMapLockedPagesSpecifyCache routine [Kernel-Mode Driver Architecture], k106_337c0e8a-c098-46a8-b820-db78be002148.xml, kernel.mmmaplockedpagesspecifycache, wdm/MmMapLockedPagesSpecifyCache
 f1_keywords:
  - "wdm/MmMapLockedPagesSpecifyCache"
+ - "MmMapLockedPagesSpecifyCache"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

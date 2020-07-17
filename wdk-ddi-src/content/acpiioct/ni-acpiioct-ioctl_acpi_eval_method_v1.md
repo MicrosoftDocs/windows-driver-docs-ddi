@@ -10,6 +10,7 @@ keywords: ["IOCTL_ACPI_EVAL_METHOD_V1 IOCTL"]
 ms.keywords: IOCTL_ACPI_EVAL_METHOD_V1, IOCTL_ACPI_EVAL_METHOD_V1 control, IOCTL_ACPI_EVAL_METHOD_V1 control code [ACPI Devices], acpi.ioctl_acpi_eval_method_v1, acpiioct/IOCTL_ACPI_EVAL_METHOD_V1
 f1_keywords:
  - "acpiioct/IOCTL_ACPI_EVAL_METHOD_V1"
+ - "IOCTL_ACPI_EVAL_METHOD_V1"
 req.header: acpiioct.h
 req.include-header: Acpiioct.h
 req.target-type: Windows

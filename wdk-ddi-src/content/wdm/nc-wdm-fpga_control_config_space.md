@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["FPGA_CONTROL_CONFIG_SPACE callback function"]
 f1_keywords:
  - "wdm/FPGA_CONTROL_CONFIG_SPACE"
+ - "FPGA_CONTROL_CONFIG_SPACE"
 req.header: wdm.h
 req.include-header:
 req.target-type:

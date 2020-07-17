@@ -10,6 +10,7 @@ keywords: ["SensorsCxSensorDataReady function"]
 ms.keywords: SensorsCxSensorDataReady, SensorsCxSensorDataReady function [Sensor Devices], sensors.sensorscxsensordataready, sensorscx/SensorsCxSensorDataReady
 f1_keywords:
  - "sensorscx/SensorsCxSensorDataReady"
+ - "SensorsCxSensorDataReady"
 req.header: sensorscx.h
 req.include-header: 
 req.target-type: Desktop

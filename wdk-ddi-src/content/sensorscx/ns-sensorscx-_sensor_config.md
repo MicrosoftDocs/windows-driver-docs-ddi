@@ -10,6 +10,7 @@ keywords: ["_SENSOR_CONFIG structure"]
 ms.keywords: "*PSENSOR_CONFIG, PSENSOR_CONFIG, PSENSOR_CONFIG structure pointer [Sensor Devices], SENSOR_CONFIG, SENSOR_CONFIG structure [Sensor Devices], _SENSOR_CONFIG, sensors.sensor_config, sensorscx/PSENSOR_CONFIG, sensorscx/SENSOR_CONFIG"
 f1_keywords:
  - "sensorscx/SENSOR_CONFIG"
+ - "SENSOR_CONFIG"
 req.header: sensorscx.h
 req.include-header: 
 req.target-type: Windows

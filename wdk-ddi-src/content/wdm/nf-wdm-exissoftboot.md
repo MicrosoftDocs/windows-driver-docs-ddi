@@ -10,6 +10,7 @@ keywords: ["ExIsSoftBoot function"]
 ms.keywords: ExIsSoftBoot, ExIsSoftBoot function [Kernel-Mode Driver Architecture], kernel.exissoftboot, wdm/ExIsSoftBoot
 f1_keywords:
  - "wdm/ExIsSoftBoot"
+ - "ExIsSoftBoot"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Windows

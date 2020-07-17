@@ -10,6 +10,7 @@ ms.keywords: KBUGCHECK_CALLBACK_REASON, KBUGCHECK_CALLBACK_REASON enumeration [K
 keywords: ["_KBUGCHECK_CALLBACK_REASON enumeration"]
 f1_keywords:
  - "wdm/KBUGCHECK_CALLBACK_REASON"
+ - "KBUGCHECK_CALLBACK_REASON"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows

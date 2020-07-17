@@ -10,6 +10,7 @@ keywords: ["WdfRequestWdmFormatUsingStackLocation function"]
 ms.keywords: DFRequestObjectRef_a210a31a-e3a5-4bbd-af19-5be5f7651757.xml, WdfRequestWdmFormatUsingStackLocation, WdfRequestWdmFormatUsingStackLocation method, kmdf.wdfrequestwdmformatusingstacklocation, wdf.wdfrequestwdmformatusingstacklocation, wdfrequest/WdfRequestWdmFormatUsingStackLocation
 f1_keywords:
  - "wdfrequest/WdfRequestWdmFormatUsingStackLocation"
+ - "WdfRequestWdmFormatUsingStackLocation"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal

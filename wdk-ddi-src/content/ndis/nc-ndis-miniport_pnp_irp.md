@@ -10,6 +10,7 @@ keywords: ["MINIPORT_PNP_IRP callback function"]
 ms.keywords: "(*MINIPORT_PNP_IRP_HANDLER), (*MINIPORT_PNP_IRP_HANDLER) callback function [Network Drivers Starting with Windows Vista], MINIPORT_PNP_IRP, MINIPORT_PNP_IRP callback, MiniportPnpIrp, MiniportPnpIrp callback function [Network Drivers Starting with Windows Vista], ndis/MiniportPnpIrp, ndis_msix_ref_421866fc-9921-4101-87b5-3d48e064f855.xml, netvista.miniportstartdevice"
 f1_keywords:
  - "ndis/(*MINIPORT_PNP_IRP_HANDLER)"
+ - "(*MINIPORT_PNP_IRP_HANDLER)"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

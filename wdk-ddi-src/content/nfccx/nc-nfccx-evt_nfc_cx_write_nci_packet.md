@@ -10,6 +10,7 @@ keywords: ["EVT_NFC_CX_WRITE_NCI_PACKET callback function"]
 ms.keywords: EVT_NFC_CX_WRITE_NCI_PACKET, EVT_NFC_CX_WRITE_NCI_PACKET callback, EvtNfcCxWriteNciPacket, EvtNfcCxWriteNciPacket callback function [Near-Field Proximity Drivers], nfccx/EvtNfcCxWriteNciPacket, nfpdrivers.evtnfccxwritencipacket
 f1_keywords:
  - "nfccx/EvtNfcCxWriteNciPacket"
+ - "EvtNfcCxWriteNciPacket"
 req.header: nfccx.h
 req.include-header: Ncidef.h
 req.target-type: Desktop

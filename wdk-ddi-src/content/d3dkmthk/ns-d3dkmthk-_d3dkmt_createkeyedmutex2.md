@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_CREATEKEYEDMUTEX2 structure"]
 ms.keywords: D3DKMT_CREATEKEYEDMUTEX2, D3DKMT_CREATEKEYEDMUTEX2 structure [Display Devices], _D3DKMT_CREATEKEYEDMUTEX2, d3dkmthk/D3DKMT_CREATEKEYEDMUTEX2, display.d3dkmt_createkeyedmutex2
 f1_keywords:
  - "d3dkmthk/D3DKMT_CREATEKEYEDMUTEX2"
+ - "D3DKMT_CREATEKEYEDMUTEX2"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

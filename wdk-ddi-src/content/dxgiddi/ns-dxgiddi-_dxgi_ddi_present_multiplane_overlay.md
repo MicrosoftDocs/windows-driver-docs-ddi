@@ -10,6 +10,7 @@ keywords: ["_DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY structure"]
 ms.keywords: DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY, DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY structure [Display Devices], _DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY, display.dxgi_ddi_present_multiplane_overlay, dxgiddi/DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY
 f1_keywords:
  - "dxgiddi/DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY"
+ - "DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY"
 req.header: dxgiddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

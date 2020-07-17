@@ -10,6 +10,7 @@ keywords: ["_NDIS_LINK_SPEED structure"]
 ms.keywords: "*PNDIS_LINK_SPEED, NDIS_LINK_SPEED, NDIS_LINK_SPEED structure [Network Drivers Starting with Windows Vista], PNDIS_LINK_SPEED, PNDIS_LINK_SPEED structure pointer [Network Drivers Starting with Windows Vista], _NDIS_LINK_SPEED, netvista.ndis_link_speed, ntddndis/NDIS_LINK_SPEED, ntddndis/PNDIS_LINK_SPEED, oid_structures_ref_c610b58c-eead-4483-96ab-c3fd62c1e846.xml"
 f1_keywords:
  - "ntddndis/NDIS_LINK_SPEED"
+ - "NDIS_LINK_SPEED"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

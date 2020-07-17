@@ -10,6 +10,7 @@ keywords: ["BdaGetChangeState function"]
 ms.keywords: BdaGetChangeState, BdaGetChangeState function [Streaming Media Devices], bdaref_52b39183-4a62-47b2-91d1-41fb76b31606.xml, bdasup/BdaGetChangeState, stream.bdagetchangestate
 f1_keywords:
  - "bdasup/BdaGetChangeState"
+ - "BdaGetChangeState"
 req.header: bdasup.h
 req.include-header: Bdasup.h
 req.target-type: Desktop

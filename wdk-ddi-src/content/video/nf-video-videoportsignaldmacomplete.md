@@ -10,6 +10,7 @@ keywords: ["VideoPortSignalDmaComplete function"]
 ms.keywords: VideoPortSignalDmaComplete, VideoPortSignalDmaComplete function [Display Devices], VideoPort_Functions_2246061c-11be-4eca-94bf-3b788dddd420.xml, display.videoportsignaldmacomplete, video/VideoPortSignalDmaComplete
 f1_keywords:
  - "video/VideoPortSignalDmaComplete"
+ - "VideoPortSignalDmaComplete"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

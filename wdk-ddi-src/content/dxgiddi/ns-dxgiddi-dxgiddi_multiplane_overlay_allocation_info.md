@@ -10,6 +10,7 @@ keywords: ["DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO structure"]
 ms.keywords: DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO, DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO structure [Display Devices], display.dxgiddi_multiplane_overlay_allocation_info, dxgiddi/DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO
 f1_keywords:
  - "dxgiddi/DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO"
+ - "DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO"
 req.header: dxgiddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["_PEP_ACPI_REGISTER_DEVICE structure"]
 ms.keywords: "*PPEP_ACPI_REGISTER_DEVICE, PEP_ACPI_REGISTER_DEVICE, PEP_ACPI_REGISTER_DEVICE structure [Kernel-Mode Driver Architecture], PPEP_ACPI_REGISTER_DEVICE, PPEP_ACPI_REGISTER_DEVICE structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_REGISTER_DEVICE, kernel.pep_acpi_register_device, pepfx/PEP_ACPI_REGISTER_DEVICE, pepfx/PPEP_ACPI_REGISTER_DEVICE"
 f1_keywords:
  - "pepfx/PEP_ACPI_REGISTER_DEVICE"
+ - "PEP_ACPI_REGISTER_DEVICE"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows

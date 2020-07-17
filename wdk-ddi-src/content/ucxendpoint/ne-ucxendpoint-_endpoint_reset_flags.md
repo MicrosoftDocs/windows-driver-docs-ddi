@@ -10,6 +10,7 @@ keywords: ["_ENDPOINT_RESET_FLAGS enumeration"]
 ms.keywords: ENDPOINT_RESET_FLAGS, ENDPOINT_RESET_FLAGS enumeration [Buses], FlagEndpointResetPreserveTransferState, _ENDPOINT_RESET_FLAGS, buses.endpoint_reset_flags, ucxendpoint/ENDPOINT_RESET_FLAGS, ucxendpoint/FlagEndpointResetPreserveTransferState
 f1_keywords:
  - "ucxendpoint/ENDPOINT_RESET_FLAGS"
+ - "ENDPOINT_RESET_FLAGS"
 req.header: ucxendpoint.h
 req.include-header: Ucxclass.h, Ucxendpoint.h
 req.target-type: Windows

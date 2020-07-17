@@ -10,6 +10,7 @@ keywords: ["EVT_SERCX_TRANSMIT_CANCEL callback function"]
 ms.keywords: 1/EvtSerCxTransmitCancel, EVT_SERCX_TRANSMIT_CANCEL, EVT_SERCX_TRANSMIT_CANCEL callback, EvtSerCxTransmitCancel, EvtSerCxTransmitCancel callback function [Serial Ports], serports.evtsercxtransmitcancel
 f1_keywords:
  - "sercx/EvtSerCxTransmitCancel"
+ - "EvtSerCxTransmitCancel"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop

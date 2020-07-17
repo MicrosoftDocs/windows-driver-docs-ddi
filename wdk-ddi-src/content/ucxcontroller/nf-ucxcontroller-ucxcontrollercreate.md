@@ -10,6 +10,7 @@ keywords: ["UcxControllerCreate function"]
 ms.keywords: UcxControllerCreate, UcxControllerCreate method [Buses], buses._ucxcontrollercreate, ucxcontroller/UcxControllerCreate
 f1_keywords:
  - "ucxcontroller/UcxControllerCreate"
+ - "UcxControllerCreate"
 req.header: ucxcontroller.h
 req.include-header: Ucxclass.h
 req.target-type: Windows

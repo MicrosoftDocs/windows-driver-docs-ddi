@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_DEVICE_RELEASE_HARDWARE callback function"]
 ms.keywords: DFDeviceObjectGeneralRef_aaaf477b-f2be-4b26-a607-cb057d976dc1.xml, EVT_WDF_DEVICE_RELEASE_HARDWARE, EVT_WDF_DEVICE_RELEASE_HARDWARE callback, EvtDeviceReleaseHardware, EvtDeviceReleaseHardware callback function, kmdf.evtdevicereleasehardware, wdf.evtdevicereleasehardware, wdfdevice/EvtDeviceReleaseHardware
 f1_keywords:
  - "wdfdevice/EvtDeviceReleaseHardware"
+ - "EvtDeviceReleaseHardware"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

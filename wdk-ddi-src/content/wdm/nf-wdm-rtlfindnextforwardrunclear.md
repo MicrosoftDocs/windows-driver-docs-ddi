@@ -10,6 +10,7 @@ keywords: ["RtlFindNextForwardRunClear function"]
 ms.keywords: RtlFindNextForwardRunClear, RtlFindNextForwardRunClear routine [Kernel-Mode Driver Architecture], k109_3625ede2-f1b5-495d-9b79-2063e0daa567.xml, kernel.rtlfindnextforwardrunclear, wdm/RtlFindNextForwardRunClear
 f1_keywords:
  - "wdm/RtlFindNextForwardRunClear"
+ - "RtlFindNextForwardRunClear"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

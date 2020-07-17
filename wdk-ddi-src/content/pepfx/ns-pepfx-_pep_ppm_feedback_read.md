@@ -10,6 +10,7 @@ keywords: ["_PEP_PPM_FEEDBACK_READ structure"]
 ms.keywords: "*PPEP_PPM_FEEDBACK_READ, PEP_PPM_FEEDBACK_READ, PEP_PPM_FEEDBACK_READ structure [Kernel-Mode Driver Architecture], PPEP_PPM_FEEDBACK_READ, PPEP_PPM_FEEDBACK_READ structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_FEEDBACK_READ, kernel.pep_ppm_feedback_read, pepfx/PEP_PPM_FEEDBACK_READ, pepfx/PPEP_PPM_FEEDBACK_READ"
 f1_keywords:
  - "pepfx/PEP_PPM_FEEDBACK_READ"
+ - "PEP_PPM_FEEDBACK_READ"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows

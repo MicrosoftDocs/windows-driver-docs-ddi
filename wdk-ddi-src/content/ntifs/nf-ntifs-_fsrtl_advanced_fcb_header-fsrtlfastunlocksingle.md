@@ -10,6 +10,7 @@ keywords: ["FsRtlFastUnlockSingle function"]
 ms.keywords: FsRtlFastUnlockSingle, FsRtlFastUnlockSingle routine [Installable File System Drivers], fsrtlref_22b539f2-395b-4ecc-b182-36a1b8333290.xml, ifsk.fsrtlfastunlocksingle, ntifs/FsRtlFastUnlockSingle
 f1_keywords:
  - "ntifs/FsRtlFastUnlockSingle"
+ - "FsRtlFastUnlockSingle"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal

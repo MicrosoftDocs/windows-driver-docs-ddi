@@ -10,6 +10,7 @@ keywords: ["WdfDmaTransactionSetDeviceAddressOffset function"]
 ms.keywords: WdfDmaTransactionSetDeviceAddressOffset, WdfDmaTransactionSetDeviceAddressOffset method, kmdf.wdfdmatransactionsetdeviceaddressoffset, wdf.wdfdmatransactionsetdeviceaddressoffset, wdfdmatransaction/WdfDmaTransactionSetDeviceAddressOffset
 f1_keywords:
  - "wdfdmatransaction/WdfDmaTransactionSetDeviceAddressOffset"
+ - "WdfDmaTransactionSetDeviceAddressOffset"
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h
 req.target-type: Universal

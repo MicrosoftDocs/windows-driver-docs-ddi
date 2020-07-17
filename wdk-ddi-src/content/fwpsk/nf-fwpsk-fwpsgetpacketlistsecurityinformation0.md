@@ -10,6 +10,7 @@ keywords: ["FwpsGetPacketListSecurityInformation0 function"]
 ms.keywords: FwpsGetPacketListSecurityInformation0, FwpsGetPacketListSecurityInformation0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsGetPacketListSecurityInformation0, netvista.fwpsgetpacketlistsecurityinformation0, wfp_ref_2_funct_3_fwps_D-H_1c333aca-c13e-449e-b230-a6d217442a5d.xml
 f1_keywords:
  - "fwpsk/FwpsGetPacketListSecurityInformation0"
+ - "FwpsGetPacketListSecurityInformation0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal

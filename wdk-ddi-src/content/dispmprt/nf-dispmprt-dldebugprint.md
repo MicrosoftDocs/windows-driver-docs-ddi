@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DlDebugPrint function"]
 f1_keywords:
  - "dispmprt/DlDebugPrint"
+ - "DlDebugPrint"
 ms.keywords: DlDebugPrint
 req.header: dispmprt.h
 req.include-header:

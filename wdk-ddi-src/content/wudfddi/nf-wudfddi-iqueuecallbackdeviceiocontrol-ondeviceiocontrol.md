@@ -10,6 +10,7 @@ keywords: ["IQueueCallbackDeviceIoControl::OnDeviceIoControl"]
 ms.keywords: IQueueCallbackDeviceIoControl interface,OnDeviceIoControl method, IQueueCallbackDeviceIoControl.OnDeviceIoControl, IQueueCallbackDeviceIoControl::OnDeviceIoControl, OnDeviceIoControl, OnDeviceIoControl method, OnDeviceIoControl method,IQueueCallbackDeviceIoControl interface, UMDFQueueObjectRef_2dd692cd-27fb-41fc-ab9d-2bb9db9b32bb.xml, umdf.iqueuecallbackdeviceiocontrol_ondeviceiocontrol, wdf.iqueuecallbackdeviceiocontrol_ondeviceiocontrol, wudfddi/IQueueCallbackDeviceIoControl::OnDeviceIoControl
 f1_keywords:
  - "wudfddi/IQueueCallbackDeviceIoControl.OnDeviceIoControl"
+ - "IQueueCallbackDeviceIoControl.OnDeviceIoControl"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Windows

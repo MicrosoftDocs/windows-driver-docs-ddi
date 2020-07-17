@@ -10,6 +10,7 @@ keywords: ["FwpsvSwitchNotifyComplete0 function"]
 ms.keywords: FwpsvSwitchNotifyComplete0, FwpsvSwitchNotifyComplete0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsvSwitchNotifyComplete0, netvista.fwpsvswitchnotifycomplete0
 f1_keywords:
  - "fwpsk/FwpsvSwitchNotifyComplete0"
+ - "FwpsvSwitchNotifyComplete0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal

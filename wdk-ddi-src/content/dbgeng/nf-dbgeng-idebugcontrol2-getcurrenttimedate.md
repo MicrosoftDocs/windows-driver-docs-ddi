@@ -10,6 +10,7 @@ keywords: ["IDebugControl2::GetCurrentTimeDate"]
 ms.keywords: GetCurrentTimeDate, GetCurrentTimeDate method [Windows Debugging], GetCurrentTimeDate method [Windows Debugging],IDebugControl2 interface, GetCurrentTimeDate method [Windows Debugging],IDebugControl3 interface, IDebugControl2 interface [Windows Debugging],GetCurrentTimeDate method, IDebugControl2.GetCurrentTimeDate, IDebugControl2::GetCurrentTimeDate, IDebugControl3 interface [Windows Debugging],GetCurrentTimeDate method, IDebugControl3::GetCurrentTimeDate, IDebugControl_166ad959-02b4-4b42-8acd-1456d224f9e7.xml, dbgeng/IDebugControl2::GetCurrentTimeDate, dbgeng/IDebugControl3::GetCurrentTimeDate, debugger.getcurrenttimedate
 f1_keywords:
  - "dbgeng/IDebugControl2.GetCurrentTimeDate"
+ - "IDebugControl2.GetCurrentTimeDate"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

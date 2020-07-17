@@ -10,6 +10,7 @@ ms.date: 10/08/2019
 keywords: ["NetWakeSourceListGetCount function"]
 f1_keywords:
  - "netwakesourcelist/NetWakeSourceListGetCount"
+ - "NetWakeSourceListGetCount"
 ms.keywords: NetWakeSourceListGetCount
 req.header: netwakesourcelist.h
 req.include-header:

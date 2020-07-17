@@ -7,6 +7,7 @@ ms.date: 07/19/2018
 keywords: ["IDataModelManager::RegisterNamedModel"]
 f1_keywords:
  - "dbgmodel/IDataModelManager.RegisterNamedModel"
+ - "IDataModelManager.RegisterNamedModel"
 ms.keywords: IDataModelManager::RegisterNamedModel, RegisterNamedModel, IDataModelManager.RegisterNamedModel, IDataModelManager::RegisterNamedModel, IDataModelManager.RegisterNamedModel
 req.header: dbgmodel.h
 req.include-header:

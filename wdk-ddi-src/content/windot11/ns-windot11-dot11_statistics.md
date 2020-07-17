@@ -10,6 +10,7 @@ keywords: ["DOT11_STATISTICS structure"]
 ms.keywords: "*PDOT11_STATISTICS, DOT11_STATISTICS, DOT11_STATISTICS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_613cdf17-03f8-47df-963b-f64ce23031e9.xml, PDOT11_STATISTICS, PDOT11_STATISTICS structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_statistics, windot11/DOT11_STATISTICS, windot11/PDOT11_STATISTICS"
 f1_keywords:
  - "windot11/DOT11_STATISTICS"
+ - "DOT11_STATISTICS"
 req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["ObReleaseObjectSecurity function"]
 ms.keywords: ObReleaseObjectSecurity, ObReleaseObjectSecurity routine [Kernel-Mode Driver Architecture], k107_b43166d5-3dac-420a-803e-053b272d3405.xml, kernel.obreleaseobjectsecurity, wdm/ObReleaseObjectSecurity
 f1_keywords:
  - "wdm/ObReleaseObjectSecurity"
+ - "ObReleaseObjectSecurity"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

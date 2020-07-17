@@ -8,6 +8,7 @@ ms.date: 02/07/2018
 keywords: ["NetConfigurationQueryLinkLayerAddress function"]
 f1_keywords:
  - "netconfiguration/NetConfigurationQueryLinkLayerAddress"
+ - "NetConfigurationQueryLinkLayerAddress"
 ms.keywords: NetConfigurationQueryLinkLayerAddress
 req.header: netconfiguration.h
 req.include-header: netadaptercx.h

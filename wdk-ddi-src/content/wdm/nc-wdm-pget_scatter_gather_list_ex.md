@@ -10,6 +10,7 @@ keywords: ["PGET_SCATTER_GATHER_LIST_EX callback function"]
 ms.keywords: DMA_SYNCHRONOUS_CALLBACK, GetScatterGatherListEx, GetScatterGatherListEx callback function [Kernel-Mode Driver Architecture], PGET_SCATTER_GATHER_LIST_EX, PGET_SCATTER_GATHER_LIST_EX callback, kernel.getscattergatherlistex, wdm/GetScatterGatherListEx
 f1_keywords:
  - "wdm/GetScatterGatherListEx"
+ - "GetScatterGatherListEx"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["PCPIN_DESCRIPTOR structure"]
 ms.keywords: "*PPCPIN_DESCRIPTOR, PCPIN_DESCRIPTOR, PCPIN_DESCRIPTOR structure [Audio Devices], PPCPIN_DESCRIPTOR, PPCPIN_DESCRIPTOR structure pointer [Audio Devices], audio.pcpin_descriptor, audpc-struct_475141ba-bf2e-4425-92ac-02649248e19f.xml, portcls/PCPIN_DESCRIPTOR, portcls/PPCPIN_DESCRIPTOR"
 f1_keywords:
  - "portcls/PCPIN_DESCRIPTOR"
+ - "PCPIN_DESCRIPTOR"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Windows

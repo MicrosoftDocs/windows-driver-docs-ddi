@@ -10,6 +10,7 @@ keywords: ["StorPortInitializeDpc function"]
 ms.keywords: StorPortInitializeDpc, StorPortInitializeDpc routine [Storage Devices], storage.storportinitializedpc, storport/StorPortInitializeDpc, storprt_984c8e07-f6c8-452f-a333-dd23a0fdf9f7.xml
 f1_keywords:
  - "storport/StorPortInitializeDpc"
+ - "StorPortInitializeDpc"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

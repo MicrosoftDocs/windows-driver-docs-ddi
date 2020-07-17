@@ -10,6 +10,7 @@ keywords: ["KeSetEvent function"]
 ms.keywords: KeSetEvent, KeSetEvent routine [Kernel-Mode Driver Architecture], k105_0b9a87b5-bdf2-4449-81f6-1836ea47f038.xml, kernel.kesetevent, wdm/KeSetEvent
 f1_keywords:
  - "wdm/KeSetEvent"
+ - "KeSetEvent"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

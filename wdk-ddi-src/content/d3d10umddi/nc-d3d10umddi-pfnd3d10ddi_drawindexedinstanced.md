@@ -9,6 +9,7 @@ keywords: ["PFND3D10DDI_DRAWINDEXEDINSTANCED callback function"]
 ms.keywords: DrawIndexedInstanced, DrawIndexedInstanced callback function [Display Devices], PFND3D10DDI_DRAWINDEXEDINSTANCED, PFND3D10DDI_DRAWINDEXEDINSTANCED callback, UserModeDisplayDriverDx10_Functions_7452fd0b-4fff-4321-b0ce-464ac0ad2f6d.xml, d3d10umddi/DrawIndexedInstanced, display.drawindexedinstanced
 f1_keywords:
  - "d3d10umddi/DrawIndexedInstanced"
+ - "DrawIndexedInstanced"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

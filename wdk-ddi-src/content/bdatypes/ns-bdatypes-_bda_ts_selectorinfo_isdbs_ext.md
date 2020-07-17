@@ -10,6 +10,7 @@ keywords: ["_BDA_TS_SELECTORINFO_ISDBS_EXT structure"]
 ms.keywords: "*PBDA_TS_SELECTORINFO_ISDBS_EXT, BDA_TS_SELECTORINFO_ISDBS_EXT, BDA_TS_SELECTORINFO_ISDBS_EXT structure [Streaming Media Devices], PBDA_TS_SELECTORINFO_ISDBS_EXT, PBDA_TS_SELECTORINFO_ISDBS_EXT structure pointer [Streaming Media Devices], _BDA_TS_SELECTORINFO_ISDBS_EXT, bdatypes/BDA_TS_SELECTORINFO_ISDBS_EXT, bdatypes/PBDA_TS_SELECTORINFO_ISDBS_EXT, stream.bda_ts_selectorinfo_isdbs_ext"
 f1_keywords:
  - "bdatypes/BDA_TS_SELECTORINFO_ISDBS_EXT"
+ - "BDA_TS_SELECTORINFO_ISDBS_EXT"
 req.header: bdatypes.h
 req.include-header: 
 req.target-type: Windows

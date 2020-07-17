@@ -10,6 +10,7 @@ keywords: ["_DOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO structure"]
 ms.keywords: "*PDOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO, DOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO, DOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO structure [Network Drivers Starting with Windows Vista], PDOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO, PDOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO structure pointer [Network Drivers Starting with Windows Vista], _DOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO, netvista.dot11_power_mgmt_auto_mode_enabled_info, windot11/DOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO, windot11/PDOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO"
 f1_keywords:
  - "windot11/DOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO"
+ - "DOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO"
 req.header: windot11.h
 req.include-header: Windot11.h
 req.target-type: Windows

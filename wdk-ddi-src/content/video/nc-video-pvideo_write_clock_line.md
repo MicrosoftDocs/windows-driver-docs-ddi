@@ -10,6 +10,7 @@ keywords: ["PVIDEO_WRITE_CLOCK_LINE callback function"]
 ms.keywords: PVIDEO_WRITE_CLOCK_LINE, PVIDEO_WRITE_CLOCK_LINE callback, VideoMiniport_Functions_7d36df35-ac09-4a82-af0c-47a733617d9a.xml, WriteClockLine, WriteClockLine callback function [Display Devices], display.writeclockline, video/WriteClockLine
 f1_keywords:
  - "video/WriteClockLine"
+ - "WriteClockLine"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

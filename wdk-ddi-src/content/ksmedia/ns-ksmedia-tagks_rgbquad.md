@@ -10,6 +10,7 @@ keywords: ["tagKS_RGBQUAD structure"]
 ms.keywords: "*PKS_RGBQUAD, KS_RGBQUAD, KS_RGBQUAD structure [Streaming Media Devices], PKS_RGBQUAD, PKS_RGBQUAD structure pointer [Streaming Media Devices], ksmedia/KS_RGBQUAD, ksmedia/PKS_RGBQUAD, stream.ks_rgbquad, tagKS_RGBQUAD, vidcapstruct_c081668e-9e81-4c30-89d1-b4c26dc9a300.xml"
 f1_keywords:
  - "ksmedia/KS_RGBQUAD"
+ - "KS_RGBQUAD"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

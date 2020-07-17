@@ -10,6 +10,7 @@ keywords: ["WdfIoTargetQueryTargetProperty function"]
 ms.keywords: DFIOTargetRef_33739a99-4af2-4e90-92e5-b75e785f1c2c.xml, WdfIoTargetQueryTargetProperty, WdfIoTargetQueryTargetProperty method, kmdf.wdfiotargetquerytargetproperty, wdf.wdfiotargetquerytargetproperty, wdfiotarget/WdfIoTargetQueryTargetProperty
 f1_keywords:
  - "wdfiotarget/WdfIoTargetQueryTargetProperty"
+ - "WdfIoTargetQueryTargetProperty"
 req.header: wdfiotarget.h
 req.include-header: Wdf.h
 req.target-type: Universal

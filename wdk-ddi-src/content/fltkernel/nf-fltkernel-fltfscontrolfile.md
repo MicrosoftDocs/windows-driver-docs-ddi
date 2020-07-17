@@ -10,6 +10,7 @@ keywords: ["FltFsControlFile function"]
 ms.keywords: FltApiRef_e_to_o_3cad833f-9ece-410a-896d-1b3fe897c251.xml, FltFsControlFile, FltFsControlFile routine [Installable File System Drivers], fltkernel/FltFsControlFile, ifsk.fltfscontrolfile
 f1_keywords:
  - "fltkernel/FltFsControlFile"
+ - "FltFsControlFile"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["PFNSCO_INDICATION_CALLBACK callback function"]
 ms.keywords: PFNSCO_INDICATION_CALLBACK, PFNSCO_INDICATION_CALLBACK callback, SCOIndicationCallback, SCOIndicationCallback callback function [Bluetooth Devices], bltooth.sco_callback_function, bth_funcs_05d035df-348d-42c0-8041-5d3822b0346e.xml, bthddi/SCOIndicationCallback
 f1_keywords:
  - "bthddi/SCOIndicationCallback"
+ - "SCOIndicationCallback"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["_WWAN_CDMA_MRL structure"]
 ms.keywords: "*PWWAN_CDMA_MRL, PWWAN_CDMA_MRL, PWWAN_CDMA_MRL structure pointer [Network Drivers Starting with Windows Vista], WWAN_CDMA_MRL, WWAN_CDMA_MRL structure [Network Drivers Starting with Windows Vista], _WWAN_CDMA_MRL, netvista.wwan_cdma_mrl, wwan/PWWAN_CDMA_MRL, wwan/WWAN_CDMA_MRL"
 f1_keywords:
  - "wwan/WWAN_CDMA_MRL"
+ - "WWAN_CDMA_MRL"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows

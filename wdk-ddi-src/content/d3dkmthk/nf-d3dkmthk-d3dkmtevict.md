@@ -9,6 +9,7 @@ keywords: ["D3DKMTEvict function"]
 ms.keywords: D3DKMTEvict, D3DKMTEvict function [Display Devices], d3dkmthk/D3DKMTEvict, display.d3dkmtevict
 f1_keywords:
  - "d3dkmthk/D3DKMTEvict"
+ - "D3DKMTEvict"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

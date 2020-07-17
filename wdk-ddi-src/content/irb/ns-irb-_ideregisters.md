@@ -10,6 +10,7 @@ keywords: ["_IDEREGISTERS structure"]
 ms.keywords: "*PIDEREGISTERS, IDEREGISTERS, IDEREGISTERS structure [Storage Devices], PIDEREGISTERS, PIDEREGISTERS structure pointer [Storage Devices], _IDEREGISTERS, irb/IDEREGISTERS, irb/PIDEREGISTERS, storage.ideregisters, structs-ATA_8e024553-553c-4a64-9f74-7259f530b3b5.xml"
 f1_keywords:
  - "irb/IDEREGISTERS"
+ - "IDEREGISTERS"
 req.header: irb.h
 req.include-header: Irb.h
 req.target-type: Windows

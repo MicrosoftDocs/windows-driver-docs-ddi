@@ -10,6 +10,7 @@ keywords: ["IOCTL_USBPRINT_GET_1284_ID IOCTL"]
 ms.keywords: IOCTL_USBPRINT_GET_1284_ID, IOCTL_USBPRINT_GET_1284_ID control, IOCTL_USBPRINT_GET_1284_ID control code [Print Devices], print.ioctl_usbprint_get_1284_id, usbioctl_4b1e9092-6483-4603-b690-a5e655a73670.xml, usbprint/IOCTL_USBPRINT_GET_1284_ID
 f1_keywords:
  - "usbprint/IOCTL_USBPRINT_GET_1284_ID"
+ - "IOCTL_USBPRINT_GET_1284_ID"
 req.header: usbprint.h
 req.include-header: 
 req.target-type: Windows

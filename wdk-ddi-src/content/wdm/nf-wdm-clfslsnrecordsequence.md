@@ -10,6 +10,7 @@ keywords: ["ClfsLsnRecordSequence function"]
 ms.keywords: ClfsLsnRecordSequence, ClfsLsnRecordSequence routine [Kernel-Mode Driver Architecture], Clfs_a78f7923-d295-408c-9a52-16e5cc38ca31.xml, kernel.clfslsnrecordsequence, wdm/ClfsLsnRecordSequence
 f1_keywords:
  - "wdm/ClfsLsnRecordSequence"
+ - "ClfsLsnRecordSequence"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop

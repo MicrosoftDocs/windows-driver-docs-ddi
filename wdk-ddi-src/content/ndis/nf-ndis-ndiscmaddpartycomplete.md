@@ -10,6 +10,7 @@ keywords: ["NdisCmAddPartyComplete function"]
 ms.keywords: NdisCmAddPartyComplete, NdisCmAddPartyComplete function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_5a60a49b-5bca-48b4-9659-af4e8bdfd032.xml, ndis/NdisCmAddPartyComplete, netvista.ndiscmaddpartycomplete
 f1_keywords:
  - "ndis/NdisCmAddPartyComplete"
+ - "NdisCmAddPartyComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

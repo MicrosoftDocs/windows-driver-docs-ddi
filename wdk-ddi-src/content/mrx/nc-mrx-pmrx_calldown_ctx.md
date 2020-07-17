@@ -10,6 +10,7 @@ keywords: ["PMRX_CALLDOWN_CTX callback function"]
 ms.keywords: MRxStart, MRxStart routine [Installable File System Drivers], PMRX_CALLDOWN_CTX, ifsk.mrxstart, mrx/MRxStart, mrxref_e76b85d0-b290-4206-a16c-5d5ed9a5cfff.xml
 f1_keywords:
  - "mrx/MRxStart"
+ - "MRxStart"
 req.header: mrx.h
 req.include-header: Mrx.h
 req.target-type: Desktop

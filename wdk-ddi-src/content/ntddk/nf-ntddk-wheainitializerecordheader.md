@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["WheaInitializeRecordHeader function"]
 f1_keywords:
  - "ntddk/WheaInitializeRecordHeader"
+ - "WheaInitializeRecordHeader"
 ms.keywords: WheaInitializeRecordHeader
 req.header: ntddk.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["_BATTERYPROVISIONINGSTATUS structure"]
 ms.keywords: "*PBATTERYPROVISIONINGSTATUS, BATTERYPROVISIONINGSTATUS, BATTERYPROVISIONINGSTATUS structure [Battery Devices], _BATTERYPROVISIONINGSTATUS, battery.batteryprovisioningstatus, charging/BATTERY_INFORMATION"
 f1_keywords:
  - "charging/BATTERY_INFORMATION"
+ - "BATTERY_INFORMATION"
 req.header: charging.h
 req.include-header: Charging.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["FwpsPendOperation0 function"]
 ms.keywords: FwpsPendOperation0, FwpsPendOperation0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsPendOperation0, netvista.fwpspendoperation0, wfp_ref_2_funct_3_fwps_J-Q_4e19462a-e31a-4d06-af83-68b11a00dd7a.xml
 f1_keywords:
  - "fwpsk/FwpsPendOperation0"
+ - "FwpsPendOperation0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["FsRtlInitializeLargeMcb function"]
 ms.keywords: FsRtlInitializeLargeMcb, FsRtlInitializeLargeMcb routine [Installable File System Drivers], fsrtlref_298126ca-6c2b-4662-a7ef-2dbc5d1ba361.xml, ifsk.fsrtlinitializelargemcb, ntifs/FsRtlInitializeLargeMcb
 f1_keywords:
  - "ntifs/FsRtlInitializeLargeMcb"
+ - "FsRtlInitializeLargeMcb"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

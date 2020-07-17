@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_GETRUNTIMEDATA structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_GETRUNTIMEDATA"
+ - "_D3DKMT_GETRUNTIMEDATA"
 ms.keywords: _D3DKMT_GETRUNTIMEDATA, D3DKMT_GETRUNTIMEDATA, 
 req.header: d3dkmthk.h
 req.include-header:

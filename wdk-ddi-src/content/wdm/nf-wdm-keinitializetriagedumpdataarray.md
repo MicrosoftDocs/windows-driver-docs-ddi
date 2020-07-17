@@ -10,6 +10,7 @@ ms.date: 10/19/2018
 keywords: ["KeInitializeTriageDumpDataArray function"]
 f1_keywords:
  - "wdm/KeInitializeTriageDumpDataArray"
+ - "KeInitializeTriageDumpDataArray"
 ms.keywords: KeInitializeTriageDumpDataArray
 req.header: wdm.h
 req.include-header:

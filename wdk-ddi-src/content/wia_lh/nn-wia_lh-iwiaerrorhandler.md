@@ -10,6 +10,7 @@ keywords: ["IWiaErrorHandler interface"]
 ms.keywords: IWiaErrorHandler, IWiaErrorHandler interface [Imaging Devices], IWiaErrorHandler interface [Imaging Devices],described, IWiaErrorHandler_0a501695-14b7-4aab-aee8-19ce74caea94.xml, image.iwiaerrorhandler_interface, wia_lh/IWiaErrorHandler
 f1_keywords:
  - "wia_lh/IWiaErrorHandler"
+ - "IWiaErrorHandler"
 req.header: wia_lh.h
 req.include-header: 
 req.target-type: Windows

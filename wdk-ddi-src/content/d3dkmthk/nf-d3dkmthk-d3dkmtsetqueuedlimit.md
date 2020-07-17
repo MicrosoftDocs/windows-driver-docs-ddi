@@ -9,6 +9,7 @@ keywords: ["D3DKMTSetQueuedLimit function"]
 ms.keywords: D3DKMTSetQueuedLimit, D3DKMTSetQueuedLimit function [Display Devices], OpenGL_Functions_22227369-eb8b-4ee0-a3d8-97eb0f469d94.xml, d3dkmthk/D3DKMTSetQueuedLimit, display.d3dkmtsetqueuedlimit
 f1_keywords:
  - "d3dkmthk/D3DKMTSetQueuedLimit"
+ - "D3DKMTSetQueuedLimit"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

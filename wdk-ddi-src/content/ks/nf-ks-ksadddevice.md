@@ -10,6 +10,7 @@ keywords: ["KsAddDevice function"]
 ms.keywords: KsAddDevice, KsAddDevice function [Streaming Media Devices], avfunc_8d3f4443-fa48-4484-a2b3-2f3b70cc2ce5.xml, ks/KsAddDevice, stream.ksadddevice
 f1_keywords:
  - "ks/KsAddDevice"
+ - "KsAddDevice"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

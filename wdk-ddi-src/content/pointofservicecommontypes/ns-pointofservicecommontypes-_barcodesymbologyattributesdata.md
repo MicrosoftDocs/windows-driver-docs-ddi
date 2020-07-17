@@ -10,6 +10,7 @@ keywords: ["_BarcodeSymbologyAttributesData structure"]
 ms.keywords: BarcodeSymbologyAttributesData, BarcodeSymbologyAttributesData structure, _BarcodeSymbologyAttributesData, pointofservicecommontypes/BarcodeSymbologyAttributesData, pos.barcodesymbologyattributesdata
 f1_keywords:
  - "pointofservicecommontypes/BarcodeSymbologyAttributesData"
+ - "BarcodeSymbologyAttributesData"
 req.header: pointofservicecommontypes.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["KsValidateAllocatorCreateRequest function"]
 ms.keywords: KsValidateAllocatorCreateRequest, KsValidateAllocatorCreateRequest function [Streaming Media Devices], ks/KsValidateAllocatorCreateRequest, ksfunc_2d988d7a-d39f-4c77-8c18-06d01a8d75e9.xml, stream.ksvalidateallocatorcreaterequest
 f1_keywords:
  - "ks/KsValidateAllocatorCreateRequest"
+ - "KsValidateAllocatorCreateRequest"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

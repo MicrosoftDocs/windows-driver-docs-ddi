@@ -10,6 +10,7 @@ keywords: ["VideoPortGetDeviceBase function"]
 ms.keywords: VideoPortGetDeviceBase, VideoPortGetDeviceBase function [Display Devices], VideoPort_Functions_ee5844a6-6337-42b7-b960-5228ad1c1ae4.xml, display.videoportgetdevicebase, video/VideoPortGetDeviceBase
 f1_keywords:
  - "video/VideoPortGetDeviceBase"
+ - "VideoPortGetDeviceBase"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

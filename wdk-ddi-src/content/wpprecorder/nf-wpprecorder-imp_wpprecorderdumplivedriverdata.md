@@ -10,6 +10,7 @@ keywords: ["imp_WppRecorderDumpLiveDriverData function"]
 ms.keywords: WppRecorderDumpLiveDriverData, devtest.wpprecorderdumplivedriverdata, imp_WppRecorderDumpLiveDriverData, imp_WppRecorderDumpLiveDriverData function [Driver Development Tools], wpprecorder/imp_WppRecorderDumpLiveDriverData
 f1_keywords:
  - "wpprecorder/imp_WppRecorderDumpLiveDriverData"
+ - "imp_WppRecorderDumpLiveDriverData"
 req.header: wpprecorder.h
 req.include-header: 
 req.target-type: Windows

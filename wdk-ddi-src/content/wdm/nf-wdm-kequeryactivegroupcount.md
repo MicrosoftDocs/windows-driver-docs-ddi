@@ -10,6 +10,7 @@ keywords: ["KeQueryActiveGroupCount function"]
 ms.keywords: KeQueryActiveGroupCount, KeQueryActiveGroupCount routine [Kernel-Mode Driver Architecture], k105_29b5c7ca-1596-4a3e-8cda-20c6ccec4ebb.xml, kernel.kequeryactivegroupcount, wdm/KeQueryActiveGroupCount
 f1_keywords:
  - "wdm/KeQueryActiveGroupCount"
+ - "KeQueryActiveGroupCount"
 req.header: wdm.h
 req.include-header: Ntddk.h, Wdm.h, Ntddk.h
 req.target-type: Universal

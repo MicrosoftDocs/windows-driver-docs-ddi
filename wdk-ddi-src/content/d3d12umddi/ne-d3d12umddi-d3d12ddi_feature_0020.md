@@ -29,6 +29,7 @@ tech.root: display
 req.typenames: D3D12DDI_FEATURE_0020
 f1_keywords:
  - "d3d12umddi/D3D12DDI_FEATURE_0020"
+ - "D3D12DDI_FEATURE_0020"
 topic_type:
  - APIRef
  - kbSyntax

@@ -10,6 +10,7 @@ keywords: ["PFN_GET_NEXT_CHUNK_DATA callback function"]
 ms.keywords: GetNextChunkData, GetNextChunkData callback function [Display Devices], PFN_GET_NEXT_CHUNK_DATA, PFN_GET_NEXT_CHUNK_DATA callback, display.getnextchunkdata, netdispumdddi/GetNextChunkData
 f1_keywords:
  - "netdispumdddi/GetNextChunkData"
+ - "GetNextChunkData"
 req.header: netdispumdddi.h
 req.include-header: Netdispumdddi.h
 req.target-type: Desktop

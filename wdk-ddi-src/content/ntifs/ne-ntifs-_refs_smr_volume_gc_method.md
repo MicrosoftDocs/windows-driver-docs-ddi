@@ -10,6 +10,7 @@ keywords: ["_REFS_SMR_VOLUME_GC_METHOD enumeration"]
 ms.keywords: "*PREFS_SMR_VOLUME_GC_METHOD, PREFS_SMR_VOLUME_GC_METHOD, PREFS_SMR_VOLUME_GC_METHOD enumeration pointer [Installable File System Drivers], REFS_SMR_VOLUME_GC_METHOD, REFS_SMR_VOLUME_GC_METHOD enumeration [Installable File System Drivers], SmrGcMethodCompaction, SmrGcMethodCompression, SmrGcMethodRotation, _REFS_SMR_VOLUME_GC_METHOD, ifsk.refs_smr_volume_gc_method, ntifs/PREFS_SMR_VOLUME_GC_METHOD, ntifs/REFS_SMR_VOLUME_GC_METHOD, ntifs/SmrGcMethodCompaction, ntifs/SmrGcMethodCompression, ntifs/SmrGcMethodRotation"
 f1_keywords:
  - "ntifs/REFS_SMR_VOLUME_GC_METHOD"
+ - "REFS_SMR_VOLUME_GC_METHOD"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

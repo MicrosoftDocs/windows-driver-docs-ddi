@@ -10,6 +10,7 @@ keywords: ["FsRtlGetPerStreamContextPointer macro"]
 ms.keywords: FsRtlGetPerStreamContextPointer, FsRtlGetPerStreamContextPointer function [Installable File System Drivers], fsrtlref_c7e152d7-1815-435e-852a-975962e355a6.xml, ifsk.fsrtlgetperstreamcontextpointer, ntifs/FsRtlGetPerStreamContextPointer
 f1_keywords:
  - "ntifs/FsRtlGetPerStreamContextPointer"
+ - "FsRtlGetPerStreamContextPointer"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Desktop

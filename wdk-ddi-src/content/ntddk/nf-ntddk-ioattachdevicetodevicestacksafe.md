@@ -10,6 +10,7 @@ keywords: ["IoAttachDeviceToDeviceStackSafe function"]
 ms.keywords: IoAttachDeviceToDeviceStackSafe, IoAttachDeviceToDeviceStackSafe routine [Installable File System Drivers], ifsk.ioattachdevicetodevicestacksafe, ioref_1db91288-e8ad-4796-9052-333bf37f01d1.xml, ntddk/IoAttachDeviceToDeviceStackSafe
 f1_keywords:
  - "ntddk/IoAttachDeviceToDeviceStackSafe"
+ - "IoAttachDeviceToDeviceStackSafe"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

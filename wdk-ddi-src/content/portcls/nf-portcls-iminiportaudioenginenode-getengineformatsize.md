@@ -10,6 +10,7 @@ keywords: ["IMiniportAudioEngineNode::GetEngineFormatSize"]
 ms.keywords: GetEngineFormatSize, GetEngineFormatSize method [Audio Devices], GetEngineFormatSize method [Audio Devices],IMiniportAudioEngineNode interface, IMiniportAudioEngineNode interface [Audio Devices],GetEngineFormatSize method, IMiniportAudioEngineNode.GetEngineFormatSize, IMiniportAudioEngineNode::GetEngineFormatSize, audio.iminiportaudioenginenode_getengineformatsize, portcls/IMiniportAudioEngineNode::GetEngineFormatSize
 f1_keywords:
  - "portcls/IMiniportAudioEngineNode.GetEngineFormatSize"
+ - "IMiniportAudioEngineNode.GetEngineFormatSize"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal

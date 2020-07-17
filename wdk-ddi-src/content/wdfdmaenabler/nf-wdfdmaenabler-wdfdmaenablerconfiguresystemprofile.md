@@ -10,6 +10,7 @@ keywords: ["WdfDmaEnablerConfigureSystemProfile function"]
 ms.keywords: WdfDmaEnablerConfigureSystemProfile, WdfDmaEnablerConfigureSystemProfile method, kmdf.wdfdmaenablerconfiguresystemprofile, wdf.wdfdmaenablerconfiguresystemprofile, wdfdmaenabler/WdfDmaEnablerConfigureSystemProfile
 f1_keywords:
  - "wdfdmaenabler/WdfDmaEnablerConfigureSystemProfile"
+ - "WdfDmaEnablerConfigureSystemProfile"
 req.header: wdfdmaenabler.h
 req.include-header: Wdf.h
 req.target-type: Universal

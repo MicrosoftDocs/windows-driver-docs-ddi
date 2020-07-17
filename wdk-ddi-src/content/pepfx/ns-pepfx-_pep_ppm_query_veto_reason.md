@@ -10,6 +10,7 @@ keywords: ["_PEP_PPM_QUERY_VETO_REASON structure"]
 ms.keywords: "*PPEP_PPM_QUERY_VETO_REASON, PEP_PPM_QUERY_VETO_REASON, PEP_PPM_QUERY_VETO_REASON structure [Kernel-Mode Driver Architecture], PPEP_PPM_QUERY_VETO_REASON, PPEP_PPM_QUERY_VETO_REASON structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_QUERY_VETO_REASON, kernel.pep_ppm_query_veto_reason, pepfx/PEP_PPM_QUERY_VETO_REASON, pepfx/PPEP_PPM_QUERY_VETO_REASON"
 f1_keywords:
  - "pepfx/PEP_PPM_QUERY_VETO_REASON"
+ - "PEP_PPM_QUERY_VETO_REASON"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows

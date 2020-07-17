@@ -10,6 +10,7 @@ keywords: ["PsGetServerSiloActiveConsoleId function"]
 ms.keywords: PsGetServerSiloActiveConsoleId, PsGetServerSiloActiveConsoleId method [Kernel-Mode Driver Architecture], kernel.psgetserversiloactiveconsoleid, ntddk/PsGetServerSiloActiveConsoleId
 f1_keywords:
  - "ntddk/PsGetServerSiloActiveConsoleId"
+ - "PsGetServerSiloActiveConsoleId"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows

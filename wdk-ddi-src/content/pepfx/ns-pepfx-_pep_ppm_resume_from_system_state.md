@@ -10,6 +10,7 @@ keywords: ["_PEP_PPM_RESUME_FROM_SYSTEM_STATE structure"]
 ms.keywords: "*PPEP_PPM_RESUME_FROM_SYSTEM_STATE, PEP_PPM_RESUME_FROM_SYSTEM_STATE, PEP_PPM_RESUME_FROM_SYSTEM_STATE structure [Kernel-Mode Driver Architecture], _PEP_PPM_RESUME_FROM_SYSTEM_STATE, kernel.pep_ppm_resume_from_system_state, pepfx/PEP_PPM_RESUME_FROM_SYSTEM_STATE"
 f1_keywords:
  - "pepfx/PEP_PPM_RESUME_FROM_SYSTEM_STATE"
+ - "PEP_PPM_RESUME_FROM_SYSTEM_STATE"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows

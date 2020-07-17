@@ -10,6 +10,7 @@ keywords: ["_DXGK_SURPRISE_REMOVAL_TYPE enumeration"]
 ms.keywords: DXGK_SURPRISE_REMOVAL_TYPE, DXGK_SURPRISE_REMOVAL_TYPE enumeration [Display Devices], DxgkRemovalHibernation, _DXGK_SURPRISE_REMOVAL_TYPE, display.dxgk_surprise_removal_type, dispmprt/DXGK_SURPRISE_REMOVAL_TYPE, dispmprt/DxgkRemovalHibernation
 f1_keywords:
  - "dispmprt/DXGK_SURPRISE_REMOVAL_TYPE"
+ - "DXGK_SURPRISE_REMOVAL_TYPE"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Windows

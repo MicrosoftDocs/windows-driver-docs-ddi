@@ -10,6 +10,7 @@ keywords: ["UpdatePrintDeviceObject function"]
 ms.keywords: UpdatePrintDeviceObject, UpdatePrintDeviceObject function [Print Devices], print.updateprintdeviceobject, winsplp/UpdatePrintDeviceObject
 f1_keywords:
  - "winsplp/UpdatePrintDeviceObject"
+ - "UpdatePrintDeviceObject"
 req.header: winsplp.h
 req.include-header: Winspool.h
 req.target-type: Desktop

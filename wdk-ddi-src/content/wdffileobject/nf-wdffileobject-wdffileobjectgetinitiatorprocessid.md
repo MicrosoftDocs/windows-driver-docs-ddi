@@ -10,6 +10,7 @@ keywords: ["WdfFileObjectGetInitiatorProcessId function"]
 ms.keywords: WdfFileObjectGetInitiatorProcessId, WdfFileObjectGetInitiatorProcessId function, wdf.wdffileobjectgetinitiatorprocessid, wdffileobject/WdfFileObjectGetInitiatorProcessId
 f1_keywords:
  - "wdffileobject/WdfFileObjectGetInitiatorProcessId"
+ - "WdfFileObjectGetInitiatorProcessId"
 req.header: wdffileobject.h
 req.include-header: Wdf.h
 req.target-type: Universal

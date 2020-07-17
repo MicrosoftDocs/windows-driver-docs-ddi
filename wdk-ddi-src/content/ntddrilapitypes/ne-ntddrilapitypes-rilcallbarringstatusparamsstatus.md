@@ -10,6 +10,7 @@ keywords: ["RILCALLBARRINGSTATUSPARAMSSTATUS enumeration"]
 ms.keywords: RILCALLBARRINGSTATUSPARAMSSTATUS, RILCALLBARRINGSTATUSPARAMSSTATUS enumeration [Network Drivers Starting with Windows Vista], RIL_BARRINGSTATUS_ENABLED, RIL_BARRINGSTATUS_MAX, netvista.rilcallbarringstatusparamsstatus, ntddrilapitypes/RILCALLBARRINGSTATUSPARAMSSTATUS, ntddrilapitypes/RIL_BARRINGSTATUS_ENABLED, ntddrilapitypes/RIL_BARRINGSTATUS_MAX
 f1_keywords:
  - "ntddrilapitypes/RILCALLBARRINGSTATUSPARAMSSTATUS"
+ - "RILCALLBARRINGSTATUSPARAMSSTATUS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

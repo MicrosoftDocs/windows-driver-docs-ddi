@@ -10,6 +10,7 @@ keywords: ["_D3DDDICB_UPDATEGPUVIRTUALADDRESS structure"]
 ms.keywords: D3DDDICB_UPDATEGPUVIRTUALADDRESS, D3DDDICB_UPDATEGPUVIRTUALADDRESS structure [Display Devices], _D3DDDICB_UPDATEGPUVIRTUALADDRESS, d3dumddi/D3DDDICB_UPDATEGPUVIRTUALADDRESS, display.d3dddicb_updategpuvirtualaddress
 f1_keywords:
  - "d3dumddi/D3DDDICB_UPDATEGPUVIRTUALADDRESS"
+ - "D3DDDICB_UPDATEGPUVIRTUALADDRESS"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

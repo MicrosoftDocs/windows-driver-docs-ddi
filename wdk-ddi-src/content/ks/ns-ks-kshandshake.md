@@ -10,6 +10,7 @@ keywords: ["KSHANDSHAKE structure"]
 ms.keywords: "*PKSHANDSHAKE, KSHANDSHAKE, KSHANDSHAKE structure [Streaming Media Devices], PKSHANDSHAKE, PKSHANDSHAKE structure pointer [Streaming Media Devices], avstruct_65ba3a40-5560-4acb-bf85-90fa9ad46fc1.xml, ks/KSHANDSHAKE, ks/PKSHANDSHAKE, stream.kshandshake"
 f1_keywords:
  - "ks/KSHANDSHAKE"
+ - "KSHANDSHAKE"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows

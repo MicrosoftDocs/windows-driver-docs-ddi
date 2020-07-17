@@ -10,6 +10,7 @@ keywords: ["EVT_UCX_USBDEVICE_UPDATE callback function"]
 ms.keywords: EVT_UCX_USBDEVICE_UPDATE, EVT_UCX_USBDEVICE_UPDATE callback, EvtUcxUsbDeviceUpdate, EvtUcxUsbDeviceUpdate callback function [Buses], PEVT_UCX_USBDEVICE_UPDATE, PEVT_UCX_USBDEVICE_UPDATE callback function pointer [Buses], buses.evt_ucx_usbdevice_update, ucxusbdevice/EvtUcxUsbDeviceUpdate
 f1_keywords:
  - "ucxusbdevice/PEVT_UCX_USBDEVICE_UPDATE"
+ - "PEVT_UCX_USBDEVICE_UPDATE"
 req.header: ucxusbdevice.h
 req.include-header: Ucxclass.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["NdisRetrieveUlong macro"]
 ms.keywords: NdisRetrieveUlong, NdisRetrieveUlong macro [Network Drivers Starting with Windows Vista], ndis/NdisRetrieveUlong, ndis_memory_ref_929d856f-6798-499a-aa9a-0f5e7181b972.xml, netvista.ndisretrieveulong
 f1_keywords:
  - "ndis/NdisRetrieveUlong"
+ - "NdisRetrieveUlong"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

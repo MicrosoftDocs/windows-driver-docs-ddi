@@ -10,6 +10,7 @@ keywords: ["wiasGetRootItem function"]
 ms.keywords: image.wiasgetrootitem, wiamdef/wiasGetRootItem, wiasFncs_4e991723-5462-456e-b56f-82a38e5cf556.xml, wiasGetRootItem, wiasGetRootItem function [Imaging Devices]
 f1_keywords:
  - "wiamdef/wiasGetRootItem"
+ - "wiasGetRootItem"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop

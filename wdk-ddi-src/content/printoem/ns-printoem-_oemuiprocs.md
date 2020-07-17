@@ -10,6 +10,7 @@ keywords: ["_OEMUIPROCS structure"]
 ms.keywords: "*POEMUIPROCS, OEMUIPROCS, OEMUIPROCS structure [Print Devices], POEMUIPROCS, POEMUIPROCS structure pointer [Print Devices], _OEMUIPROCS, print.oemuiprocs, print_unidrv-pscript_ui_2252155b-8f63-4c0f-886b-c66b26ccdd5f.xml, printoem/OEMUIPROCS, printoem/POEMUIPROCS"
 f1_keywords:
  - "printoem/OEMUIPROCS"
+ - "OEMUIPROCS"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows

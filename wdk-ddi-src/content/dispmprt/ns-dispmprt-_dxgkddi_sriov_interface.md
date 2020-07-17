@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["_DXGKDDI_SRIOV_INTERFACE structure"]
 f1_keywords:
  - "dispmprt/_DXGKDDI_SRIOV_INTERFACE"
+ - "_DXGKDDI_SRIOV_INTERFACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: _DXGKDDI_SRIOV_INTERFACE, DXGKDDI_SRIOV_INTERFACE, *PDXGKDDI_SRIOV_INTERFACE, 

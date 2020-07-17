@@ -10,6 +10,7 @@ keywords: ["_WDF_REQUEST_COMPLETION_PARAMS structure"]
 ms.keywords: "*PWDF_REQUEST_COMPLETION_PARAMS, DFRequestObjectRef_e8277b90-7e1e-4d00-9f6b-012b189c153f.xml, PWDF_REQUEST_COMPLETION_PARAMS, PWDF_REQUEST_COMPLETION_PARAMS structure pointer, WDF_REQUEST_COMPLETION_PARAMS, WDF_REQUEST_COMPLETION_PARAMS structure, _WDF_REQUEST_COMPLETION_PARAMS, kmdf.wdf_request_completion_params, wdf.wdf_request_completion_params, wdfrequest/PWDF_REQUEST_COMPLETION_PARAMS, wdfrequest/WDF_REQUEST_COMPLETION_PARAMS"
 f1_keywords:
  - "wdfrequest/WDF_REQUEST_COMPLETION_PARAMS"
+ - "WDF_REQUEST_COMPLETION_PARAMS"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["MM_MDL_ROUTINE callback function"]
 ms.keywords: "*PMM_MDL_ROUTINE, *PMM_MDL_ROUTINE callback function [Kernel-Mode Driver Architecture], MM_MDL_ROUTINE, MM_MDL_ROUTINE callback, MmMdlRoutine, MmMdlRoutine callback function [Kernel-Mode Driver Architecture], kernel.mm_mdl_routine, wdm/MmMdlRoutine"
 f1_keywords:
  - "wdm/*PMM_MDL_ROUTINE"
+ - "*PMM_MDL_ROUTINE"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Windows

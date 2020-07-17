@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_ADAPTER_VERIFIER_OPTION structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_ADAPTER_VERIFIER_OPTION"
+ - "_D3DKMT_ADAPTER_VERIFIER_OPTION"
 ms.keywords: _D3DKMT_ADAPTER_VERIFIER_OPTION, D3DKMT_ADAPTER_VERIFIER_OPTION, 
 req.header: d3dkmthk.h
 req.include-header:

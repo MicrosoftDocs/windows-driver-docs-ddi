@@ -10,6 +10,7 @@ keywords: ["RtlOemStringToUnicodeString function"]
 ms.keywords: RtlOemStringToUnicodeString, RtlOemStringToUnicodeString routine [Installable File System Drivers], ifsk.rtloemstringtounicodestring, ntifs/RtlOemStringToUnicodeString, rtlref_6b1f3210-6b02-4f20-9887-b7efd0090b7f.xml
 f1_keywords:
  - "ntifs/RtlOemStringToUnicodeString"
+ - "RtlOemStringToUnicodeString"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["IPrintReadStream::ReadBytes"]
 ms.keywords: IPrintReadStream interface [Print Devices],ReadBytes method, IPrintReadStream.ReadBytes, IPrintReadStream::ReadBytes, ReadBytes, ReadBytes method [Print Devices], ReadBytes method [Print Devices],IPrintReadStream interface, filterpipeline/IPrintReadStream::ReadBytes, filterpipeline_92cb33c3-6229-47ca-b3da-2f4c268f8b7b.xml, print.iprintreadstream_readbytes
 f1_keywords:
  - "filterpipeline/IPrintReadStream.ReadBytes"
+ - "IPrintReadStream.ReadBytes"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop

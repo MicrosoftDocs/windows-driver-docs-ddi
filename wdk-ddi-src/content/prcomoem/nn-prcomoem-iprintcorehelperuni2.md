@@ -10,6 +10,7 @@ keywords: ["IPrintCoreHelperUni2 interface"]
 ms.keywords: IPrintCoreHelperUni2, IPrintCoreHelperUni2 interface [Print Devices], IPrintCoreHelperUni2 interface [Print Devices],described, prcomoem/IPrintCoreHelperUni2, print.iprintcorehelperuni2_interface
 f1_keywords:
  - "prcomoem/IPrintCoreHelperUni2"
+ - "IPrintCoreHelperUni2"
 req.header: prcomoem.h
 req.include-header: 
 req.target-type: Windows

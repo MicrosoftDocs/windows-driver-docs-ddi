@@ -10,6 +10,7 @@ keywords: ["_CONNECT_DATA structure"]
 ms.keywords: "*PCONNECT_DATA, CONNECT_DATA, CONNECT_DATA structure [Human Input Devices], PCONNECT_DATA, PCONNECT_DATA structure pointer [Human Input Devices], _CONNECT_DATA, hid.connect_data__kbdclass_, kbdmou/CONNECT_DATA, kbdmou/PCONNECT_DATA, kref_e50b6d57-99fa-41bd-979c-de2d83922af6.xml"
 f1_keywords:
  - "kbdmou/CONNECT_DATA"
+ - "CONNECT_DATA"
 req.header: kbdmou.h
 req.include-header: Kbdmou.h
 req.target-type: Windows

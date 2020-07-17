@@ -10,6 +10,7 @@ keywords: ["_NDIS_WWAN_MAC_PARAMETERS structure"]
 ms.keywords: "*PNDIS_WWAN_MAC_PARAMETERS, NDIS_WWAN_MAC_PARAMETERS, NDIS_WWAN_MAC_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_MAC_PARAMETERS, PNDIS_WWAN_MAC_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_MAC_PARAMETERS, ndiswwan/NDIS_WWAN_MAC_PARAMETERS, ndiswwan/PNDIS_WWAN_MAC_PARAMETERS, netvista.ndis_wwan_mac_parameters"
 f1_keywords:
  - "ndiswwan/NDIS_WWAN_MAC_PARAMETERS"
+ - "NDIS_WWAN_MAC_PARAMETERS"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY2 callback function"]
 f1_keywords:
  - "dispmprt/DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY2"
+ - "DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY2"
 req.header: dispmprt.h
 req.include-header:
 req.target-type:

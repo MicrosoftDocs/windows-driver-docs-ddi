@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["IOCTL_TR_EXECUTE_FUNCTION IOCTL"]
 f1_keywords:
  - "trustedrt/IOCTL_TR_EXECUTE_FUNCTION"
+ - "IOCTL_TR_EXECUTE_FUNCTION"
 req.header: trustedrt.h
 req.include-header:
 req.target-type:

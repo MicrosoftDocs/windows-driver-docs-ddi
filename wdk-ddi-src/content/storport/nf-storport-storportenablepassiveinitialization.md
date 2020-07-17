@@ -10,6 +10,7 @@ keywords: ["StorPortEnablePassiveInitialization function"]
 ms.keywords: StorPortEnablePassiveInitialization, StorPortEnablePassiveInitialization routine [Storage Devices], storage.storportenablepassiveinitialization, storport/StorPortEnablePassiveInitialization, storprt_faea18e4-c684-4010-aca4-177132c011c5.xml
 f1_keywords:
  - "storport/StorPortEnablePassiveInitialization"
+ - "StorPortEnablePassiveInitialization"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

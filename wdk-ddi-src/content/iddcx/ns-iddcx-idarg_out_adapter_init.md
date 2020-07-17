@@ -10,6 +10,7 @@ keywords: ["IDARG_OUT_ADAPTER_INIT structure"]
 ms.keywords: IDARG_OUT_ADAPTER_INIT, IDARG_OUT_ADAPTER_INIT structure [Display Devices], display.idarg_out_adapter_init, iddcx/IDARG_OUT_ADAPTER_INIT
 f1_keywords:
  - "iddcx/IDARG_OUT_ADAPTER_INIT"
+ - "IDARG_OUT_ADAPTER_INIT"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows

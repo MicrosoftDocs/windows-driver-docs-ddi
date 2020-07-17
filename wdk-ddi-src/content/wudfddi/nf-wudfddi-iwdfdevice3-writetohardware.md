@@ -10,6 +10,7 @@ keywords: ["IWDFDevice3::WriteToHardware"]
 ms.keywords: IWDFDevice3 interface,WriteToHardware method, IWDFDevice3.WriteToHardware, IWDFDevice3::WriteToHardware, WriteToHardware, WriteToHardware method, WriteToHardware method,IWDFDevice3 interface, umdf.iwdfdevice3_writetohardware, wdf.iwdfdevice3_writetohardware, wudfddi/IWDFDevice3::WriteToHardware
 f1_keywords:
  - "wudfddi/IWDFDevice3.WriteToHardware"
+ - "IWDFDevice3.WriteToHardware"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop

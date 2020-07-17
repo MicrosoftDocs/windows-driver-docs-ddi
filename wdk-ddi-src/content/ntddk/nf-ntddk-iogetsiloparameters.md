@@ -10,6 +10,7 @@ keywords: ["IoGetSiloParameters function"]
 ms.keywords: IoGetSiloParameters, IoGetSiloParameters function [Installable File System Drivers], PIO_FOEXT_SILO_PARAMETERS, ifsk.iogetsiloparameters, ntddk/IoGetSiloParameters
 f1_keywords:
  - "ntddk/IoGetSiloParameters"
+ - "IoGetSiloParameters"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows

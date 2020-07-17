@@ -8,6 +8,7 @@ ms.date: 02/06/2018
 keywords: ["NET_ADAPTER_LINK_STATE_INIT function"]
 f1_keywords:
  - "netadapter/NET_ADAPTER_LINK_STATE_INIT"
+ - "NET_ADAPTER_LINK_STATE_INIT"
 ms.keywords: NET_ADAPTER_LINK_STATE_INIT
 req.header: netadapter.h
 req.include-header:

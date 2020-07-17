@@ -10,6 +10,7 @@ ms.date: 03/18/2019
 keywords: ["NTSCSI_UNICODE_STRING structure"]
 f1_keywords:
  - "ntddscsi/NTSCSI_UNICODE_STRING"
+ - "NTSCSI_UNICODE_STRING"
 ms.keywords: NTSCSI_UNICODE_STRING, NTSCSI_UNICODE_STRING, *PNTSCSI_UNICODE_STRING
 req.header: ntddscsi.h
 req.include-header:

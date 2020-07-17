@@ -10,6 +10,7 @@ keywords: ["MmUnmapReservedMapping function"]
 ms.keywords: MmUnmapReservedMapping, MmUnmapReservedMapping routine [Kernel-Mode Driver Architecture], k106_48bc7719-e11c-4c70-a976-c7fbecbff464.xml, kernel.mmunmapreservedmapping, wdm/MmUnmapReservedMapping
 f1_keywords:
  - "wdm/MmUnmapReservedMapping"
+ - "MmUnmapReservedMapping"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

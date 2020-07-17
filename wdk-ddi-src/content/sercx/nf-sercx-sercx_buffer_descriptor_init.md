@@ -10,6 +10,7 @@ keywords: ["SERCX_BUFFER_DESCRIPTOR_INIT function"]
 ms.keywords: 1/SERCX_BUFFER_DESCRIPTOR_INIT, SERCX_BUFFER_DESCRIPTOR_INIT, SERCX_BUFFER_DESCRIPTOR_INIT function [Serial Ports], serports.sercx_buffer_descriptor_init
 f1_keywords:
  - "sercx/SERCX_BUFFER_DESCRIPTOR_INIT"
+ - "SERCX_BUFFER_DESCRIPTOR_INIT"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop

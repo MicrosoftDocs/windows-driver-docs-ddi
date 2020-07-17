@@ -10,6 +10,7 @@ keywords: ["IPortableDevicePropVariantCollection::Add"]
 ms.keywords: Add, Add method, Add method,IPortableDevicePropVariantCollection interface, IPortableDevicePropVariantCollection interface,Add method, IPortableDevicePropVariantCollection.Add, IPortableDevicePropVariantCollection::Add, IPortableDevicePropVariantCollectionAdd, portabledevicetypes/IPortableDevicePropVariantCollection::Add, wpddk.iportabledevicepropvariantcollection_add
 f1_keywords:
  - "portabledevicetypes/IPortableDevicePropVariantCollection.Add"
+ - "IPortableDevicePropVariantCollection.Add"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows

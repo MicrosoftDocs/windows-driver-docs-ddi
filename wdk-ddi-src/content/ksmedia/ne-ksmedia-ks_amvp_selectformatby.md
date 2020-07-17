@@ -10,6 +10,7 @@ keywords: ["KS_AMVP_SELECTFORMATBY enumeration"]
 ms.keywords: KS_AMVP_BEST_BANDWIDTH, KS_AMVP_DO_NOT_CARE, KS_AMVP_INPUT_SAME_AS_OUTPUT, KS_AMVP_SELECTFORMATBY, KS_AMVP_SELECTFORMATBY enumeration [Streaming Media Devices], ksmedia/KS_AMVP_BEST_BANDWIDTH, ksmedia/KS_AMVP_DO_NOT_CARE, ksmedia/KS_AMVP_INPUT_SAME_AS_OUTPUT, ksmedia/KS_AMVP_SELECTFORMATBY, stream.ks_amvp_selectformatby, vidcapstruct_98fc9313-4177-46c2-8740-f0dc2857b447.xml
 f1_keywords:
  - "ksmedia/KS_AMVP_SELECTFORMATBY"
+ - "KS_AMVP_SELECTFORMATBY"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

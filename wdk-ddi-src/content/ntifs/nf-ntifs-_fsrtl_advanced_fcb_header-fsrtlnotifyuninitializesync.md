@@ -10,6 +10,7 @@ keywords: ["FsRtlNotifyUninitializeSync function"]
 ms.keywords: FsRtlNotifyUninitializeSync, FsRtlNotifyUninitializeSync routine [Installable File System Drivers], fsrtlref_bb1d0439-691c-4a2d-8d0f-750f26d75995.xml, ifsk.fsrtlnotifyuninitializesync, ntifs/FsRtlNotifyUninitializeSync
 f1_keywords:
  - "ntifs/FsRtlNotifyUninitializeSync"
+ - "FsRtlNotifyUninitializeSync"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal

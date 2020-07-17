@@ -10,6 +10,7 @@ keywords: ["PcNewPort function"]
 ms.keywords: PcNewPort, PcNewPort function [Audio Devices], audio.pcnewport, audpc-routines_799c0416-dde0-4818-8da7-a38e4e6d4541.xml, portcls/PcNewPort
 f1_keywords:
  - "portcls/PcNewPort"
+ - "PcNewPort"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["_NETWORK_APP_INSTANCE_ECP_CONTEXT structure"]
 ms.keywords: "*PNETWORK_APP_INSTANCE_ECP_CONTEXT, NETWORK_APP_INSTANCE_ECP_CONTEXT, NETWORK_APP_INSTANCE_ECP_CONTEXT structure [Installable File System Drivers], PNETWORK_APP_INSTANCE_ECP_CONTEXT, PNETWORK_APP_INSTANCE_ECP_CONTEXT structure pointer [Installable File System Drivers], _NETWORK_APP_INSTANCE_ECP_CONTEXT, ifsk.network_app_instance_ecp_context, ntifs/NETWORK_APP_INSTANCE_ECP_CONTEXT, ntifs/PNETWORK_APP_INSTANCE_ECP_CONTEXT"
 f1_keywords:
  - "ntifs/NETWORK_APP_INSTANCE_ECP_CONTEXT"
+ - "NETWORK_APP_INSTANCE_ECP_CONTEXT"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

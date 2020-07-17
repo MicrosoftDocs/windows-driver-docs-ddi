@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_ACQUIRESWAPCHAIN structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_ACQUIRESWAPCHAIN"
+ - "_D3DKMT_ACQUIRESWAPCHAIN"
 ms.keywords: _D3DKMT_ACQUIRESWAPCHAIN, D3DKMT_ACQUIRESWAPCHAIN,
 req.header: d3dkmthk.h
 req.include-header:

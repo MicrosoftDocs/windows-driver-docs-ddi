@@ -10,6 +10,7 @@ keywords: ["MmAllocatePagesForMdl function"]
 ms.keywords: MmAllocatePagesForMdl, MmAllocatePagesForMdl routine [Kernel-Mode Driver Architecture], k106_bb9bac91-62a6-45f8-9133-0d23eda07b1e.xml, kernel.mmallocatepagesformdl, wdm/MmAllocatePagesForMdl
 f1_keywords:
  - "wdm/MmAllocatePagesForMdl"
+ - "MmAllocatePagesForMdl"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

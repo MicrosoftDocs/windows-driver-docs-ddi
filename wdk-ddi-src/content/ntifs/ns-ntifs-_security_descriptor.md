@@ -10,6 +10,7 @@ keywords: ["_SECURITY_DESCRIPTOR structure"]
 ms.keywords: "*PISECURITY_DESCRIPTOR, SECURITY_DESCRIPTOR, SECURITY_DESCRIPTOR structure [Installable File System Drivers], _SECURITY_DESCRIPTOR, ifsk.security_descriptor, ntifs/SECURITY_DESCRIPTOR, securitystructures_b3cd4d20-6abc-49e7-92dd-8dd707e973fa.xml"
 f1_keywords:
  - "ntifs/SECURITY_DESCRIPTOR"
+ - "SECURITY_DESCRIPTOR"
 req.header: ntifs.h
 req.include-header: 
 req.target-type: Windows

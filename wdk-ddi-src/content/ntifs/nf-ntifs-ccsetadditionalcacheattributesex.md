@@ -10,6 +10,7 @@ keywords: ["CcSetAdditionalCacheAttributesEx function"]
 ms.keywords: CcSetAdditionalCacheAttributesEx, CcSetAdditionalCacheAttributesEx routine [Installable File System Drivers], ifsk.ccsetadditionalcacheattributesex, ntifs/CcSetAdditionalCacheAttributesEx
 f1_keywords:
  - "ntifs/CcSetAdditionalCacheAttributesEx"
+ - "CcSetAdditionalCacheAttributesEx"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

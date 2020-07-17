@@ -10,6 +10,7 @@ keywords: ["IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket"]
 ms.keywords: ConvertDevModeToPrintTicket, ConvertDevModeToPrintTicket method [Print Devices], ConvertDevModeToPrintTicket method [Print Devices],IPrintOemPrintTicketProvider interface, IPrintOemPrintTicketProvider interface [Print Devices],ConvertDevModeToPrintTicket method, IPrintOemPrintTicketProvider.ConvertDevModeToPrintTicket, IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket, prcomoem/IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket, print.iprintoemprintticketprovider_convertdevmodetoprintticket, print_ticket-package_4605321f-640a-438b-a4cc-6e34ef5521b1.xml
 f1_keywords:
  - "prcomoem/IPrintOemPrintTicketProvider.ConvertDevModeToPrintTicket"
+ - "IPrintOemPrintTicketProvider.ConvertDevModeToPrintTicket"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop

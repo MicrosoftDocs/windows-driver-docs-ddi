@@ -10,6 +10,7 @@ keywords: ["IOCTL_KS_RESET_STATE IOCTL"]
 ms.keywords: IOCTL_KS_RESET_STATE, IOCTL_KS_RESET_STATE control, IOCTL_KS_RESET_STATE control code [Streaming Media Devices], ks-ioctl_ce7c174b-952d-4b08-ab05-f8843155af33.xml, ks/IOCTL_KS_RESET_STATE, stream.ioctl_ks_reset_state
 f1_keywords:
  - "ks/IOCTL_KS_RESET_STATE"
+ - "IOCTL_KS_RESET_STATE"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows

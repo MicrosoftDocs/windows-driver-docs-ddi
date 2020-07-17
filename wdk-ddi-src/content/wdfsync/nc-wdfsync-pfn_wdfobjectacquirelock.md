@@ -10,6 +10,7 @@ keywords: ["PFN_WDFOBJECTACQUIRELOCK callback"]
 ms.keywords: wdf.wdfobjectacquirelock, PFN_WDFOBJECTACQUIRELOCK, WdfObjectAcquireLock callback function, WdfObjectAcquireLock, wdfsync/WdfObjectAcquireLock, DFSynchroRef_d6a841c3-cbcb-4072-861a-5666dc2b4b02.xml, kmdf.wdfobjectacquirelock
 f1_keywords:
  - "wdfsync/WdfObjectAcquireLock"
+ - "WdfObjectAcquireLock"
 req.header: wdfsync.h
 req.include-header: Wdf.h
 req.target-type: Universal

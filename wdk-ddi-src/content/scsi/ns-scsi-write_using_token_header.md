@@ -10,6 +10,7 @@ keywords: ["WRITE_USING_TOKEN_HEADER structure"]
 ms.keywords: "*PWRITE_USING_TOKEN_HEADER, PWRITE_USING_TOKEN_HEADER, PWRITE_USING_TOKEN_HEADER structure pointer [Storage Devices], WRITE_USING_TOKEN_HEADER, WRITE_USING_TOKEN_HEADER structure [Storage Devices], scsi/PWRITE_USING_TOKEN_HEADER, scsi/WRITE_USING_TOKEN_HEADER, storage.write_using_token_header"
 f1_keywords:
  - "scsi/WRITE_USING_TOKEN_HEADER"
+ - "WRITE_USING_TOKEN_HEADER"
 req.header: scsi.h
 req.include-header: Scsi.h, Minitape.h, Storport.h
 req.target-type: Windows

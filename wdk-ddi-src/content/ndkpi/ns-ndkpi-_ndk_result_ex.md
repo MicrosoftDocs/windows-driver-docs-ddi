@@ -10,6 +10,7 @@ keywords: ["_NDK_RESULT_EX structure"]
 ms.keywords: NDK_RESULT_EX, NDK_RESULT_EX structure [Network Drivers Starting with Windows Vista], PNDK_RESULT_EX, PNDK_RESULT_EX structure pointer [Network Drivers Starting with Windows Vista], _NDK_RESULT_EX, ndkpi/NDK_RESULT_EX, ndkpi/PNDK_RESULT_EX, netvista.ndk_result_ex
 f1_keywords:
  - "ndkpi/NDK_RESULT_EX"
+ - "NDK_RESULT_EX"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

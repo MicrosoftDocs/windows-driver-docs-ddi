@@ -8,6 +8,7 @@ ms.date: 10/19/2018
 keywords: ["UART_SET_BAUD callback function"]
 f1_keywords:
  - "uart/UART_SET_BAUD"
+ - "UART_SET_BAUD"
 req.header: uart.h
 req.include-header:
 req.target-type:

@@ -10,6 +10,7 @@ keywords: ["ZwSetInformationThread function"]
 ms.keywords: MEMORY_PRIORITY_BELOW_NORMAL, MEMORY_PRIORITY_LOW, MEMORY_PRIORITY_MEDIUM, MEMORY_PRIORITY_NORMAL, MEMORY_PRIORITY_VERY_LOW, NtSetInformationThread, ZwSetInformationThread, ZwSetInformationThread routine [Kernel-Mode Driver Architecture], k111_6d6657b3-b0f9-4c47-9bb5-d5c692161c53.xml, kernel.zwsetinformationthread, ntddk/NtSetInformationThread, ntddk/ZwSetInformationThread
 f1_keywords:
  - "ntddk/ZwSetInformationThread"
+ - "ZwSetInformationThread"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal

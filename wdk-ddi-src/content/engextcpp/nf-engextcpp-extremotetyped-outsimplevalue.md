@@ -10,6 +10,7 @@ keywords: ["ExtRemoteTyped::OutSimpleValue"]
 ms.keywords: EngExtCpp_Ref_8592b96c-7253-42f9-a704-739e539bad66.xml, ExtRemoteTyped interface [Windows Debugging],OutSimpleValue method, ExtRemoteTyped.OutSimpleValue, ExtRemoteTyped::OutSimpleValue, OutSimpleValue, OutSimpleValue method [Windows Debugging], OutSimpleValue method [Windows Debugging],ExtRemoteTyped interface, debugger.extremotetyped_outsimplevalue
 f1_keywords:
  - "engextcpp/ExtRemoteTyped.OutSimpleValue"
+ - "ExtRemoteTyped.OutSimpleValue"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop

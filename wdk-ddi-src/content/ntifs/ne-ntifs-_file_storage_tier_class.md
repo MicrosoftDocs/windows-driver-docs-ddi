@@ -8,6 +8,7 @@ ms.date: 09/30/2018
 keywords: ["_FILE_STORAGE_TIER_CLASS enumeration"]
 f1_keywords:
  - "ntifs/_FILE_STORAGE_TIER_CLASS"
+ - "_FILE_STORAGE_TIER_CLASS"
 ms.keywords: _FILE_STORAGE_TIER_CLASS, FILE_STORAGE_TIER_CLASS, *PFILE_STORAGE_TIER_CLASS, 
 req.header: ntifs.h
 req.include-header:

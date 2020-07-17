@@ -10,6 +10,7 @@ keywords: ["PBUILD_SCATTER_GATHER_LIST_EX callback function"]
 ms.keywords: BuildScatterGatherListEx, BuildScatterGatherListEx callback function [Kernel-Mode Driver Architecture], DMA_SYNCHRONOUS_CALLBACK, PBUILD_SCATTER_GATHER_LIST_EX, PBUILD_SCATTER_GATHER_LIST_EX callback, kernel.buildscattergatherlistex, wdm/BuildScatterGatherListEx
 f1_keywords:
  - "wdm/BuildScatterGatherListEx"
+ - "BuildScatterGatherListEx"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["IWDFIoRequest::SetInformation"]
 ms.keywords: IWDFIoRequest interface,SetInformation method, IWDFIoRequest.SetInformation, IWDFIoRequest::SetInformation, SetInformation, SetInformation method, SetInformation method,IWDFIoRequest interface, UMDFRequestObjectRef_6b29fa48-7024-44de-ab4f-68907515483a.xml, umdf.iwdfiorequest_setinformation, wdf.iwdfiorequest_setinformation, wudfddi/IWDFIoRequest::SetInformation
 f1_keywords:
  - "wudfddi/IWDFIoRequest.SetInformation"
+ - "IWDFIoRequest.SetInformation"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

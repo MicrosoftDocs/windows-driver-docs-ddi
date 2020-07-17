@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_DXGK_VIRTUALMACHINEDATAFLAGS structure"]
 f1_keywords:
  - "d3dkmddi/_DXGK_VIRTUALMACHINEDATAFLAGS"
+ - "_DXGK_VIRTUALMACHINEDATAFLAGS"
 ms.keywords: _DXGK_VIRTUALMACHINEDATAFLAGS, DXGK_VIRTUALMACHINEDATAFLAGS,
 req.header: d3dkmddi.h
 req.include-header:

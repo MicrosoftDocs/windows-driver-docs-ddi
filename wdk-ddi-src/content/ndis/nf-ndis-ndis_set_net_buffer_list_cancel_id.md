@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["NDIS_SET_NET_BUFFER_LIST_CANCEL_ID macro"]
 f1_keywords:
  - "ndis/NDIS_SET_NET_BUFFER_LIST_CANCEL_ID"
+ - "NDIS_SET_NET_BUFFER_LIST_CANCEL_ID"
 ms.keywords: NDIS_SET_NET_BUFFER_LIST_CANCEL_ID
 req.header: ndis.h
 req.include-header:

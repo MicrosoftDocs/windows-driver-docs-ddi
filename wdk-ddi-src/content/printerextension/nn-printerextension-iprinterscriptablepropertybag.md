@@ -10,6 +10,7 @@ keywords: ["IPrinterScriptablePropertyBag interface"]
 ms.keywords: IPrinterScriptablePropertyBag, IPrinterScriptablePropertyBag interface [Print Devices], IPrinterScriptablePropertyBag interface [Print Devices],described, print.iprinterscriptablepropertybag, printerextension/IPrinterScriptablePropertyBag
 f1_keywords:
  - "printerextension/IPrinterScriptablePropertyBag"
+ - "IPrinterScriptablePropertyBag"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["UdecxWdfDeviceResetComplete function"]
 ms.keywords: UdecxWdfDeviceResetComplete, UdecxWdfDeviceResetComplete function [Buses], buses.udecxwdfdeviceresetcomplete, udecxwdfdevice/UdecxWdfDeviceResetComplete
 f1_keywords:
  - "udecxwdfdevice/UdecxWdfDeviceResetComplete"
+ - "UdecxWdfDeviceResetComplete"
 req.header: udecxwdfdevice.h
 req.include-header: Udecx.h
 req.target-type: Windows

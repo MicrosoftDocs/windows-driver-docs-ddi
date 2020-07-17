@@ -10,6 +10,7 @@ keywords: ["_D3DDDI_RESOURCEFLAGS2 structure"]
 ms.keywords: D3DDDI_RESOURCEFLAGS2, D3DDDI_RESOURCEFLAGS2 structure [Display Devices], _D3DDDI_RESOURCEFLAGS2, d3dukmdt/D3DDDI_RESOURCEFLAGS2, display.d3dddi_resourceflags2
 f1_keywords:
  - "d3dukmdt/D3DDDI_RESOURCEFLAGS2"
+ - "D3DDDI_RESOURCEFLAGS2"
 req.header: d3dukmdt.h
 req.include-header: D3dukmdt.h, D3dkmddi.h
 req.target-type: Windows

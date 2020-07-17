@@ -10,6 +10,7 @@ keywords: ["FsRtlUpperOplockFsctrl function"]
 ms.keywords: FsRtlUpperOplockFsctrl, FsRtlUpperOplockFsctrl routine [Installable File System Drivers], OPLOCK_LEVEL_CACHE_HANDLE, OPLOCK_LEVEL_CACHE_READ, OPLOCK_LEVEL_CACHE_WRITE, ifsk.fsrtlupperoplockfsctrl, ntifs/FsRtlUpperOplockFsctrl
 f1_keywords:
  - "ntifs/FsRtlUpperOplockFsctrl"
+ - "FsRtlUpperOplockFsctrl"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

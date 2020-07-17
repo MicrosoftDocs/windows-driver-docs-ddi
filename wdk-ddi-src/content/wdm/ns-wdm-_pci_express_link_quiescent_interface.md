@@ -10,6 +10,7 @@ keywords: ["_PCI_EXPRESS_LINK_QUIESCENT_INTERFACE structure"]
 ms.keywords: "*PPCI_EXPRESS_LINK_QUIESCENT_INTERFACE, PCI.pci_express_link_quiescent_interface_, PCI_EXPRESS_LINK_QUIESCENT_INTERFACE, PCI_EXPRESS_LINK_QUIESCENT_INTERFACE structure [Buses], _PCI_EXPRESS_LINK_QUIESCENT_INTERFACE, wdm/"
 f1_keywords:
  - "wdm/PCI_EXPRESS_LINK_QUIESCENT_INTERFACE"
+ - "PCI_EXPRESS_LINK_QUIESCENT_INTERFACE"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Windows

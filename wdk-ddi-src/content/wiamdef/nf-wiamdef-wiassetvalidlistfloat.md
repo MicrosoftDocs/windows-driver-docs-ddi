@@ -10,6 +10,7 @@ keywords: ["wiasSetValidListFloat function"]
 ms.keywords: image.wiassetvalidlistfloat, wiamdef/wiasSetValidListFloat, wiasFncs_ef1aa836-f63d-43e8-8378-22d37fbdc3a2.xml, wiasSetValidListFloat, wiasSetValidListFloat function [Imaging Devices]
 f1_keywords:
  - "wiamdef/wiasSetValidListFloat"
+ - "wiasSetValidListFloat"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop

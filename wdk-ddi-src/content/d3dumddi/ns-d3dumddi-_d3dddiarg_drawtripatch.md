@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_DRAWTRIPATCH structure"]
 ms.keywords: D3DDDIARG_DRAWTRIPATCH, D3DDDIARG_DRAWTRIPATCH structure [Display Devices], UMDisplayDriver_param_Structs_e4f18b26-f2ae-46e2-af49-6ae55f79b2be.xml, _D3DDDIARG_DRAWTRIPATCH, d3dumddi/D3DDDIARG_DRAWTRIPATCH, display.d3dddiarg_drawtripatch
 f1_keywords:
  - "d3dumddi/D3DDDIARG_DRAWTRIPATCH"
+ - "D3DDDIARG_DRAWTRIPATCH"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

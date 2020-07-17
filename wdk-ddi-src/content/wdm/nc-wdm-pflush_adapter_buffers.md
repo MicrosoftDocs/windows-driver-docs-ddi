@@ -10,6 +10,7 @@ keywords: ["PFLUSH_ADAPTER_BUFFERS callback function"]
 ms.keywords: FlushAdapterBuffers, FlushAdapterBuffers callback function [Kernel-Mode Driver Architecture], PFLUSH_ADAPTER_BUFFERS, PFLUSH_ADAPTER_BUFFERS callback, kdma_97ac2c04-7f7e-495d-b846-d4f0ea27bdac.xml, kernel.flushadapterbuffers, wdm/FlushAdapterBuffers
 f1_keywords:
  - "wdm/FlushAdapterBuffers"
+ - "FlushAdapterBuffers"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

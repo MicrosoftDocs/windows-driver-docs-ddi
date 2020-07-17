@@ -10,6 +10,7 @@ keywords: ["DXGKDDI_OPM_DESTROY_PROTECTED_OUTPUT callback function"]
 ms.keywords: DXGKDDI_OPM_DESTROY_PROTECTED_OUTPUT, DXGKDDI_OPM_DESTROY_PROTECTED_OUTPUT callback, Dm_Opm_functions_e744a9ff-d14b-4cef-aed6-4dba714dc695.xml, DxgkDdiOPMDestroyProtectedOutput, DxgkDdiOPMDestroyProtectedOutput callback function [Display Devices], display.dxgkddiopmdestroyprotectedoutput, dispmprt/DxgkDdiOPMDestroyProtectedOutput
 f1_keywords:
  - "dispmprt/DxgkDdiOPMDestroyProtectedOutput"
+ - "DxgkDdiOPMDestroyProtectedOutput"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop

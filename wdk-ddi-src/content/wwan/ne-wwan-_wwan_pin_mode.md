@@ -10,6 +10,7 @@ keywords: ["_WWAN_PIN_MODE enumeration"]
 ms.keywords: "*PWWAN_PIN_MODE, PWWAN_PIN_MODE, PWWAN_PIN_MODE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_PIN_MODE, WWAN_PIN_MODE enumeration [Network Drivers Starting with Windows Vista], WwanPinModeDisabled, WwanPinModeEnabled, WwanPinModeMax, WwanPinModeNotSupported, WwanRef_43194a1d-461a-4793-bb0b-40354466610c.xml, _WWAN_PIN_MODE, netvista.wwan_pin_mode, wwan/PWWAN_PIN_MODE, wwan/WWAN_PIN_MODE, wwan/WwanPinModeDisabled, wwan/WwanPinModeEnabled, wwan/WwanPinModeMax, wwan/WwanPinModeNotSupported"
 f1_keywords:
  - "wwan/WWAN_PIN_MODE"
+ - "WWAN_PIN_MODE"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows

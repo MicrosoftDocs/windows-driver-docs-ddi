@@ -10,6 +10,7 @@ keywords: ["_FLT_VOLUME_PROPERTIES structure"]
 ms.keywords: "*PFLT_VOLUME_PROPERTIES, FLT_VOLUME_PROPERTIES, FLT_VOLUME_PROPERTIES structure [Installable File System Drivers], FltSystemStructures_9de12b81-e647-4dc7-8d4c-dd90070c7dfa.xml, PFLT_VOLUME_PROPERTIES, PFLT_VOLUME_PROPERTIES structure pointer [Installable File System Drivers], VOL_PROP_FL_DAX_VOLUME, _FLT_VOLUME_PROPERTIES, fltkernel/FLT_VOLUME_PROPERTIES, fltkernel/PFLT_VOLUME_PROPERTIES, ifsk.flt_volume_properties"
 f1_keywords:
  - "fltkernel/FLT_VOLUME_PROPERTIES"
+ - "FLT_VOLUME_PROPERTIES"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Windows

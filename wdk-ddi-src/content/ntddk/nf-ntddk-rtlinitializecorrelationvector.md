@@ -10,6 +10,7 @@ keywords: ["RtlInitializeCorrelationVector function"]
 ms.keywords: RtlInitializeCorrelationVector, RtlInitializeCorrelationVector function [Kernel-Mode Driver Architecture], kernel.rtlinitializecorrelationvector, ntddk/RtlInitializeCorrelationVector
 f1_keywords:
  - "ntddk/RtlInitializeCorrelationVector"
+ - "RtlInitializeCorrelationVector"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows

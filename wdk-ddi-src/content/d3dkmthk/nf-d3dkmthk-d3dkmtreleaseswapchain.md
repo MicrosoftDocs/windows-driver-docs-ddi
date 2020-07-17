@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMTReleaseSwapChain function"]
 f1_keywords:
  - "d3dkmthk/D3DKMTReleaseSwapChain"
+ - "D3DKMTReleaseSwapChain"
 ms.keywords: D3DKMTReleaseSwapChain
 req.header: d3dkmthk.h
 req.include-header:

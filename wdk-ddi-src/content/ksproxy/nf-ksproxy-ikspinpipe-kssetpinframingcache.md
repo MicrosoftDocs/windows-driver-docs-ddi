@@ -10,6 +10,7 @@ keywords: ["IKsPinPipe::KsSetPinFramingCache"]
 ms.keywords: IKsPinPipe interface [Streaming Media Devices],KsSetPinFramingCache method, IKsPinPipe.KsSetPinFramingCache, IKsPinPipe::KsSetPinFramingCache, KsSetPinFramingCache, KsSetPinFramingCache method [Streaming Media Devices], KsSetPinFramingCache method [Streaming Media Devices],IKsPinPipe interface, ksproxy/IKsPinPipe::KsSetPinFramingCache, stream.ikspinpipe_kssetpinframingcache
 f1_keywords:
  - "ksproxy/IKsPinPipe.KsSetPinFramingCache"
+ - "IKsPinPipe.KsSetPinFramingCache"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["IPrintReadStreamFactory interface"]
 ms.keywords: IPrintReadStreamFactory, IPrintReadStreamFactory interface [Print Devices], IPrintReadStreamFactory interface [Print Devices],described, filterpipeline/IPrintReadStreamFactory, filterpipeline_6e71f042-ebb2-4a81-91ac-2dbfb8fd2161.xml, print.iprintreadstreamfactory
 f1_keywords:
  - "filterpipeline/IPrintReadStreamFactory"
+ - "IPrintReadStreamFactory"
 req.header: filterpipeline.h
 req.include-header: Filterpipeline.h
 req.target-type: Windows

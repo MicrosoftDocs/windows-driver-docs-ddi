@@ -10,6 +10,7 @@ keywords: ["ExInterlockedInsertHeadList function"]
 ms.keywords: ExInterlockedInsertHeadList, ExInterlockedInsertHeadList routine [Kernel-Mode Driver Architecture], k102_35e48cb9-2d0b-42df-aee0-b391b0ade424.xml, kernel.exinterlockedinsertheadlist, wdm/ExInterlockedInsertHeadList
 f1_keywords:
  - "wdm/ExInterlockedInsertHeadList"
+ - "ExInterlockedInsertHeadList"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

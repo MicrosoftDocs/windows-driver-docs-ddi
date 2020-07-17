@@ -10,6 +10,7 @@ keywords: ["StorPortReleaseMSISpinLock function"]
 ms.keywords: StorPortReleaseMSISpinLock, StorPortReleaseMSISpinLock routine [Storage Devices], storage.storportreleasemsispinlock, storport/StorPortReleaseMSISpinLock, storprt_212b8090-c4a3-4ea8-8c50-6704a6d0cee7.xml
 f1_keywords:
  - "storport/StorPortReleaseMSISpinLock"
+ - "StorPortReleaseMSISpinLock"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

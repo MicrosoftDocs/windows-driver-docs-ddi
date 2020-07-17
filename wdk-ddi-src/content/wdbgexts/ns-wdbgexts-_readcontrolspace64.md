@@ -10,6 +10,7 @@ keywords: ["_READCONTROLSPACE64 structure"]
 ms.keywords: "*PREADCONTROLSPACE64, READCONTROLSPACE64, ReadControlSpace64, ReadControlSpace64 function [Windows Debugging], WdbgExts_Ref_3327dad4-903c-4285-b3cc-fe408d15f129.xml, _READCONTROLSPACE64, debugger.readcontrolspace64, wdbgexts/ReadControlSpace64"
 f1_keywords:
  - "wdbgexts/ReadControlSpace64"
+ - "ReadControlSpace64"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop

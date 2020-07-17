@@ -10,6 +10,7 @@ keywords: ["IWDFFile::RetrieveFileName"]
 ms.keywords: IWDFFile interface,RetrieveFileName method, IWDFFile.RetrieveFileName, IWDFFile::RetrieveFileName, RetrieveFileName, RetrieveFileName method, RetrieveFileName method,IWDFFile interface, UMDFFileObjectRef_6c460bef-f774-4f9c-9e56-3c57ad023ae8.xml, umdf.iwdffile_retrievefilename, wdf.iwdffile_retrievefilename, wudfddi/IWDFFile::RetrieveFileName
 f1_keywords:
  - "wudfddi/IWDFFile.RetrieveFileName"
+ - "IWDFFile.RetrieveFileName"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

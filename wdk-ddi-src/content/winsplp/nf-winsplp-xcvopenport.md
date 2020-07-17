@@ -10,6 +10,7 @@ keywords: ["XcvOpenPort function"]
 ms.keywords: print.xcvopenport, spoolfnc_d2e14d20-1b34-49f5-a627-7b08ccc79ccf.xml, winsplp/XcvOpenPort, XcvOpenPort function [Print Devices], XcvOpenPort
 f1_keywords:
  - "winsplp/XcvOpenPort"
+ - "XcvOpenPort"
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Desktop

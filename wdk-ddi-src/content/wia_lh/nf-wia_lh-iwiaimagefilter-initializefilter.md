@@ -10,6 +10,7 @@ keywords: ["IWiaImageFilter::InitializeFilter"]
 ms.keywords: IWiaErrorHandler_f9d42d0d-1768-4868-bd41-b20297008312.xml, IWiaImageFilter interface [Imaging Devices],InitializeFilter method, IWiaImageFilter.InitializeFilter, IWiaImageFilter::InitializeFilter, InitializeFilter, InitializeFilter method [Imaging Devices], InitializeFilter method [Imaging Devices],IWiaImageFilter interface, image.iwiaimagefilter_initializefilter, wia_lh/IWiaImageFilter::InitializeFilter
 f1_keywords:
  - "wia_lh/IWiaImageFilter.InitializeFilter"
+ - "IWiaImageFilter.InitializeFilter"
 req.header: wia_lh.h
 req.include-header: Wia_lh.h
 req.target-type: Desktop

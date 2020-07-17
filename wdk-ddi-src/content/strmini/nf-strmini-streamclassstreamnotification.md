@@ -10,6 +10,7 @@ keywords: ["StreamClassStreamNotification function"]
 ms.keywords: StreamClassStreamNotification, StreamClassStreamNotification routine [Streaming Media Devices], strclass-routines_22bc1b48-b75e-4dce-9aae-16e16b1ca1f9.xml, stream.streamclassstreamnotification, strmini/StreamClassStreamNotification
 f1_keywords:
  - "strmini/StreamClassStreamNotification"
+ - "StreamClassStreamNotification"
 req.header: strmini.h
 req.include-header: Strmini.h
 req.target-type: Desktop

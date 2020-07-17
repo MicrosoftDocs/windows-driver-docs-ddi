@@ -10,6 +10,7 @@ keywords: ["SerCx2CustomReceiveCreate function"]
 ms.keywords: 2/SerCx2CustomReceiveCreate, SerCx2CustomReceiveCreate, SerCx2CustomReceiveCreate method [Serial Ports], serports.sercx2customreceivecreate
 f1_keywords:
  - "sercx/SerCx2CustomReceiveCreate"
+ - "SerCx2CustomReceiveCreate"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal

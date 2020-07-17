@@ -10,6 +10,7 @@ keywords: ["ScsiPortGetUncachedExtension function"]
 ms.keywords: ScsiPortGetUncachedExtension, ScsiPortGetUncachedExtension routine [Storage Devices], scsiprt_b3764d3f-3e99-4a2f-b17c-30d6fcafe255.xml, srb/ScsiPortGetUncachedExtension, storage.scsiportgetuncachedextension
 f1_keywords:
  - "srb/ScsiPortGetUncachedExtension"
+ - "ScsiPortGetUncachedExtension"
 req.header: srb.h
 req.include-header: Miniport.h, Scsi.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["RtlULongLongToChar function"]
 ms.keywords: RtlULongLongToChar, RtlULongLongToChar function [Kernel-Mode Driver Architecture], kernel.rtlulonglongtochar, ntintsafe/RtlULongLongToChar
 f1_keywords:
  - "ntintsafe/RtlULongLongToChar"
+ - "RtlULongLongToChar"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

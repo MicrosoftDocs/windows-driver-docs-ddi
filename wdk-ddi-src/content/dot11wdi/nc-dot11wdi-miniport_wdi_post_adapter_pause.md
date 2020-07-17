@@ -10,6 +10,7 @@ keywords: ["MINIPORT_WDI_POST_ADAPTER_PAUSE callback function"]
 ms.keywords: MINIPORT_WDI_POST_ADAPTER_PAUSE, MINIPORT_WDI_POST_ADAPTER_PAUSE callback, MiniportWdiPostAdapterPause, MiniportWdiPostAdapterPause callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiPostAdapterPause, netvista.miniportwdipostadapterpause
 f1_keywords:
  - "dot11wdi/MiniportWdiPostAdapterPause"
+ - "MiniportWdiPostAdapterPause"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows

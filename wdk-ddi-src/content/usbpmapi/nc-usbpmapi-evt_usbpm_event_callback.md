@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["EVT_USBPM_EVENT_CALLBACK callback function"]
 f1_keywords:
  - "usbpmapi/EVT_USBPM_EVENT_CALLBACK"
+ - "EVT_USBPM_EVENT_CALLBACK"
 tech.root: usbref
 req.header: usbpmapi.h
 req.include-header:

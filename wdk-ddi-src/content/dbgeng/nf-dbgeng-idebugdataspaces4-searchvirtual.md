@@ -10,6 +10,7 @@ keywords: ["IDebugDataSpaces4::SearchVirtual"]
 ms.keywords: IDebugDataSpaces interface [Windows Debugging],SearchVirtual method, IDebugDataSpaces2 interface [Windows Debugging],SearchVirtual method, IDebugDataSpaces2::SearchVirtual, IDebugDataSpaces3 interface [Windows Debugging],SearchVirtual method, IDebugDataSpaces3::SearchVirtual, IDebugDataSpaces4 interface [Windows Debugging],SearchVirtual method, IDebugDataSpaces4.SearchVirtual, IDebugDataSpaces4::SearchVirtual, IDebugDataSpaces::SearchVirtual, IDebugDataSpaces_9af5d620-f8df-430c-88ab-0d4f96844499.xml, SearchVirtual, SearchVirtual method [Windows Debugging], SearchVirtual method [Windows Debugging],IDebugDataSpaces interface, SearchVirtual method [Windows Debugging],IDebugDataSpaces2 interface, SearchVirtual method [Windows Debugging],IDebugDataSpaces3 interface, SearchVirtual method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces2::SearchVirtual, dbgeng/IDebugDataSpaces3::SearchVirtual, dbgeng/IDebugDataSpaces4::SearchVirtual, dbgeng/IDebugDataSpaces::SearchVirtual, debugger.searchvirtual
 f1_keywords:
  - "dbgeng/IDebugDataSpaces.SearchVirtual"
+ - "IDebugDataSpaces.SearchVirtual"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

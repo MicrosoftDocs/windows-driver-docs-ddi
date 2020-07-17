@@ -10,6 +10,7 @@ keywords: ["_MSiSCSI_BootConfiguration structure"]
 ms.keywords: "*PMSiSCSI_BootConfiguration, MSiSCSI_BootConfiguration, MSiSCSI_BootConfiguration structure [Storage Devices], PMSiSCSI_BootConfiguration, PMSiSCSI_BootConfiguration structure pointer [Storage Devices], _MSiSCSI_BootConfiguration, iscsicfg/MSiSCSI_BootConfiguration, iscsicfg/PMSiSCSI_BootConfiguration, storage.msiscsi_bootconfiguration, structs-iSCSI_eb9ca716-5f5e-4bec-a4e0-e00d5a93b329.xml"
 f1_keywords:
  - "iscsicfg/MSiSCSI_BootConfiguration"
+ - "MSiSCSI_BootConfiguration"
 req.header: iscsicfg.h
 req.include-header: Iscsicfg.h
 req.target-type: Windows

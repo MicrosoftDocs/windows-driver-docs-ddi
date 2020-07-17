@@ -10,6 +10,7 @@ keywords: ["WdfPdoMarkMissing function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_a4198313-bd10-4b8a-a032-f253cdaccc7b.xml, WdfPdoMarkMissing, WdfPdoMarkMissing method, kmdf.wdfpdomarkmissing, wdf.wdfpdomarkmissing, wdfpdo/WdfPdoMarkMissing
 f1_keywords:
  - "wdfpdo/WdfPdoMarkMissing"
+ - "WdfPdoMarkMissing"
 req.header: wdfpdo.h
 req.include-header: Wdf.h
 req.target-type: Universal

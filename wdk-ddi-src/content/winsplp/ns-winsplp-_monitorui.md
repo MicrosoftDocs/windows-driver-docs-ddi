@@ -10,6 +10,7 @@ keywords: ["_MONITORUI structure"]
 ms.keywords: "*PMONITORUI, MONITORUI, MONITORUI structure [Print Devices], PMONITORUI, PMONITORUI structure pointer [Print Devices], _MONITORUI, print.monitorui, spoolfnc_bcf5298e-b0b6-41c1-9152-9a804234fba9.xml, winsplp/MONITORUI, winsplp/PMONITORUI"
 f1_keywords:
  - "winsplp/MONITORUI"
+ - "MONITORUI"
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Windows

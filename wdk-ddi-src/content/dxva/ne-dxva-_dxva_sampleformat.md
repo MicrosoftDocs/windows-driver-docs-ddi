@@ -10,6 +10,7 @@ keywords: ["_DXVA_SampleFormat enumeration"]
 ms.keywords: DXVA_SampleFieldInterleavedEvenFirst, DXVA_SampleFieldInterleavedOddFirst, DXVA_SampleFieldSingleEven, DXVA_SampleFieldSingleOdd, DXVA_SampleFormat, DXVA_SampleFormat enumeration [Display Devices], DXVA_SampleFormatMask, DXVA_SamplePreviousFrame, DXVA_SampleProgressiveFrame, DXVA_SampleSubStream, DXVA_SampleUnknown, _DXVA_SampleFormat, display.dxva_sampleformat, dxva/DXVA_SampleFieldInterleavedEvenFirst, dxva/DXVA_SampleFieldInterleavedOddFirst, dxva/DXVA_SampleFieldSingleEven, dxva/DXVA_SampleFieldSingleOdd, dxva/DXVA_SampleFormat, dxva/DXVA_SampleFormatMask, dxva/DXVA_SamplePreviousFrame, dxva/DXVA_SampleProgressiveFrame, dxva/DXVA_SampleSubStream, dxva/DXVA_SampleUnknown, dxvaref_342ab3ab-8498-4d6f-a052-aff84c407436.xml
 f1_keywords:
  - "dxva/DXVA_SampleFormat"
+ - "DXVA_SampleFormat"
 req.header: dxva.h
 req.include-header: Dxva.h
 req.target-type: Windows

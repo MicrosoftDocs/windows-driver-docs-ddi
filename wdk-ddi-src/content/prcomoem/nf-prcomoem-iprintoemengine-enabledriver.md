@@ -10,6 +10,7 @@ keywords: ["IPrintOemEngine::EnableDriver"]
 ms.keywords: EnableDriver, EnableDriver method [Print Devices], EnableDriver method [Print Devices],IPrintOemEngine interface, IPrintOemEngine interface [Print Devices],EnableDriver method, IPrintOemEngine.EnableDriver, IPrintOemEngine::EnableDriver, prcomoem/IPrintOemEngine::EnableDriver, print.iprintoemengine_enabledriver
 f1_keywords:
  - "prcomoem/IPrintOemEngine.EnableDriver"
+ - "IPrintOemEngine.EnableDriver"
 req.header: prcomoem.h
 req.include-header: 
 req.target-type: Windows

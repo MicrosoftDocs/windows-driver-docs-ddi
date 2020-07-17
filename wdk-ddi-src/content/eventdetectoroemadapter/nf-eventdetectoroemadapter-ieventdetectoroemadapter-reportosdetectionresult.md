@@ -10,6 +10,7 @@ ms.date: 02/25/2019
 keywords: ["IEventDetectorOemAdapter::ReportOSDetectionResult"]
 f1_keywords:
  - "eventdetectoroemadapter/IEventDetectorOemAdapter.ReportOSDetectionResult"
+ - "IEventDetectorOemAdapter.ReportOSDetectionResult"
 ms.keywords: IEventDetectorOemAdapter::ReportOSDetectionResult, ReportOSDetectionResult, IEventDetectorOemAdapter.ReportOSDetectionResult, IEventDetectorOemAdapter::ReportOSDetectionResult, IEventDetectorOemAdapter.ReportOSDetectionResult
 req.header: eventdetectoroemadapter.h
 req.include-header:

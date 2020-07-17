@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_OUTPUTDUPL_RELEASE_FRAME structure"]
 ms.keywords: D3DKMT_OUTPUTDUPL_RELEASE_FRAME, D3DKMT_OUTPUTDUPL_RELEASE_FRAME structure [Display Devices], _D3DKMT_OUTPUTDUPL_RELEASE_FRAME, d3dkmthk/D3DKMT_OUTPUTDUPL_RELEASE_FRAME, display.d3dkmt_outputdupl_release_frame
 f1_keywords:
  - "d3dkmthk/D3DKMT_OUTPUTDUPL_RELEASE_FRAME"
+ - "D3DKMT_OUTPUTDUPL_RELEASE_FRAME"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

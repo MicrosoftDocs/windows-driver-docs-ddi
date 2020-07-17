@@ -10,6 +10,7 @@ keywords: ["IFileCallbackCleanup interface"]
 ms.keywords: IFileCallbackCleanup, IFileCallbackCleanup interface, IFileCallbackCleanup interface,described, UMDFFileObjectRef_8f409e94-4586-4f25-a8ba-1c39544ec661.xml, umdf.ifilecallbackcleanup, wdf.ifilecallbackcleanup, wudfddi/IFileCallbackCleanup
 f1_keywords:
  - "wudfddi/IFileCallbackCleanup"
+ - "IFileCallbackCleanup"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Windows

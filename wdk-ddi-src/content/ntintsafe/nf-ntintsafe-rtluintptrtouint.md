@@ -10,6 +10,7 @@ keywords: ["RtlUIntPtrToUInt function"]
 ms.keywords: RtlUIntPtrToUInt, RtlUIntPtrToUInt function [Kernel-Mode Driver Architecture], kernel.rtluintptrtouint, ntintsafe/RtlUIntPtrToUInt
 f1_keywords:
  - "ntintsafe/RtlUIntPtrToUInt"
+ - "RtlUIntPtrToUInt"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

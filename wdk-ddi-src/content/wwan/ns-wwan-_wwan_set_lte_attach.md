@@ -8,6 +8,7 @@ ms.date: 08/22/2018
 keywords: ["_WWAN_SET_LTE_ATTACH structure"]
 f1_keywords:
  - "wwan/_WWAN_SET_LTE_ATTACH"
+ - "_WWAN_SET_LTE_ATTACH"
 ms.keywords: _WWAN_SET_LTE_ATTACH, WWAN_SET_LTE_ATTACH, *PWWAN_SET_LTE_ATTACH, 
 req.header: wwan.h
 req.include-header:

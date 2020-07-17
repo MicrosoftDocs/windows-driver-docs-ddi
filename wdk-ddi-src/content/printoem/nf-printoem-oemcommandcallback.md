@@ -10,6 +10,7 @@ keywords: ["OEMCommandCallback function"]
 ms.keywords: OEMCommandCallback, OEMCommandCallback function [Print Devices], print.oemcommandcallback, print_obsoletefunctions_e59bdbd7-9100-40b3-9e89-6d41cbc85f44.xml, printoem/OEMCommandCallback
 f1_keywords:
  - "printoem/OEMCommandCallback"
+ - "OEMCommandCallback"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows

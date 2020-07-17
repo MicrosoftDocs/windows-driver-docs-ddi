@@ -10,6 +10,7 @@ keywords: ["PFLT_SECTION_CONFLICT_NOTIFICATION_CALLBACK callback function"]
 ms.keywords: PFLT_SECTION_CONFLICT_NOTIFICATION_CALLBACK, SectionNotificationCallback, SectionNotificationCallback routine [Installable File System Drivers], fltkernel/SectionNotificationCallback, ifsk.pflt_section_conflict_notification_callback
 f1_keywords:
  - "fltkernel/SectionNotificationCallback"
+ - "SectionNotificationCallback"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Desktop

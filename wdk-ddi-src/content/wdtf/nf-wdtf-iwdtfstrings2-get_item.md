@@ -10,6 +10,7 @@ keywords: ["IWDTFStrings2::get_Item"]
 ms.keywords: IWDTFStrings2 interface [Windows Device Testing Framework],Item property, IWDTFStrings2.Item, IWDTFStrings2.get_Item, IWDTFStrings2::Item, IWDTFStrings2::get_Item, Item property [Windows Device Testing Framework], Item property [Windows Device Testing Framework],IWDTFStrings2 interface, Microsoft.WDTF.IWDTFStrings2.Item, Microsoft::WDTF::IWDTFStrings2::Item, dtf.iwdtfstrings2_item, get_Item, wdtf/IWDTFStrings2::Item, wdtf/IWDTFStrings2::get_Item
 f1_keywords:
  - "wdtf/IWDTFStrings2.Item"
+ - "IWDTFStrings2.Item"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Windows

@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_EVICT structure"]
 ms.keywords: D3DKMT_EVICT, D3DKMT_EVICT structure [Display Devices], _D3DKMT_EVICT, d3dkmthk/D3DKMT_EVICT, display.d3dkmt_evict
 f1_keywords:
  - "d3dkmthk/D3DKMT_EVICT"
+ - "D3DKMT_EVICT"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

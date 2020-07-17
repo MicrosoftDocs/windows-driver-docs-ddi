@@ -10,6 +10,7 @@ keywords: ["IWiaDrvItem::GetItemName"]
 ms.keywords: DrvItem_18b6c67e-9d95-45d4-844f-90fcb5c277bd.xml, GetItemName, GetItemName method [Imaging Devices], GetItemName method [Imaging Devices],IWiaDrvItem interface, IWiaDrvItem interface [Imaging Devices],GetItemName method, IWiaDrvItem.GetItemName, IWiaDrvItem::GetItemName, image.iwiadrvitem_getitemname, wiamindr_lh/IWiaDrvItem::GetItemName
 f1_keywords:
  - "wiamindr_lh/IWiaDrvItem.GetItemName"
+ - "IWiaDrvItem.GetItemName"
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop

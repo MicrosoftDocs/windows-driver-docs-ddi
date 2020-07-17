@@ -10,6 +10,7 @@ keywords: ["_PEP_PPM_LPI_COMPLETE structure"]
 ms.keywords: "*PPEP_PPM_LPI_COMPLETE, *PPEP_PPM_QUERY_FEEDBACK_COUNTERS, PEP_PPM_LPI_COMPLETE, PEP_PPM_QUERY_FEEDBACK_COUNTERS, PEP_PPM_QUERY_FEEDBACK_COUNTERS structure [Kernel-Mode Driver Architecture], PPEP_PPM_QUERY_FEEDBACK_COUNTERS, PPEP_PPM_QUERY_FEEDBACK_COUNTERS structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_LPI_COMPLETE, kernel.pep_ppm_query_feedback_counters, pepfx/PEP_PPM_QUERY_FEEDBACK_COUNTERS, pepfx/PPEP_PPM_QUERY_FEEDBACK_COUNTERS"
 f1_keywords:
  - "pep_x/PEP_PPM_QUERY_FEEDBACK_COUNTERS"
+ - "PEP_PPM_QUERY_FEEDBACK_COUNTERS"
 req.header: pep_x.h
 req.include-header: Pep_x.h, Pep_x.h
 req.target-type: Windows

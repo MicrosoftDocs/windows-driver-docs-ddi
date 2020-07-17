@@ -10,6 +10,7 @@ keywords: ["DrvPrinterEvent function"]
 ms.keywords: DrvPrinterEvent, DrvPrinterEvent function [Print Devices], print.drvprinterevent, print_interface-graphics_5bfc5cb2-1835-4659-afa7-7b3bbb7ee051.xml, winddiui/DrvPrinterEvent
 f1_keywords:
  - "winddiui/DrvPrinterEvent"
+ - "DrvPrinterEvent"
 req.header: winddiui.h
 req.include-header: Winddiui.h
 req.target-type: Desktop

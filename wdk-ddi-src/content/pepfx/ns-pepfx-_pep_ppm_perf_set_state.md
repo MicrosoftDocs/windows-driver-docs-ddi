@@ -10,6 +10,7 @@ keywords: ["_PEP_PPM_PERF_SET_STATE structure"]
 ms.keywords: "*PPEP_PPM_PERF_SET_STATE, PEP_PPM_PERF_SET_STATE, PEP_PPM_PERF_SET_STATE structure [Kernel-Mode Driver Architecture], PPEP_PPM_PERF_SET_STATE, PPEP_PPM_PERF_SET_STATE structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_PERF_SET_STATE, kernel.pep_ppm_perf_set_state, pepfx/PEP_PPM_PERF_SET_STATE, pepfx/PPEP_PPM_PERF_SET_STATE"
 f1_keywords:
  - "pepfx/PEP_PPM_PERF_SET_STATE"
+ - "PEP_PPM_PERF_SET_STATE"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows

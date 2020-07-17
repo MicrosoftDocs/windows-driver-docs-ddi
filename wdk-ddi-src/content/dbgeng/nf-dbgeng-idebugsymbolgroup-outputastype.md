@@ -10,6 +10,7 @@ keywords: ["IDebugSymbolGroup::OutputAsType"]
 ms.keywords: ComOther_6805cc12-0d46-4114-a40d-54c7e32b3c7c.xml, IDebugSymbolGroup interface [Windows Debugging],OutputAsType method, IDebugSymbolGroup.OutputAsType, IDebugSymbolGroup2 interface [Windows Debugging],OutputAsType method, IDebugSymbolGroup2::OutputAsType, IDebugSymbolGroup::OutputAsType, OutputAsType, OutputAsType method [Windows Debugging], OutputAsType method [Windows Debugging],IDebugSymbolGroup interface, OutputAsType method [Windows Debugging],IDebugSymbolGroup2 interface, dbgeng/IDebugSymbolGroup2::OutputAsType, dbgeng/IDebugSymbolGroup::OutputAsType, debugger.outputastype
 f1_keywords:
  - "dbgeng/IDebugSymbolGroup.OutputAsType"
+ - "IDebugSymbolGroup.OutputAsType"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

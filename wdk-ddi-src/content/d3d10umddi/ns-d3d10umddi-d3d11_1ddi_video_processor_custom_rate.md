@@ -9,6 +9,7 @@ keywords: ["D3D11_1DDI_VIDEO_PROCESSOR_CUSTOM_RATE structure"]
 ms.keywords: D3D11_1DDI_VIDEO_PROCESSOR_CUSTOM_RATE, D3D11_1DDI_VIDEO_PROCESSOR_CUSTOM_RATE structure [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_CUSTOM_RATE, display.d3d11_1ddi_video_processor_custom_rate
 f1_keywords:
  - "d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_CUSTOM_RATE"
+ - "D3D11_1DDI_VIDEO_PROCESSOR_CUSTOM_RATE"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

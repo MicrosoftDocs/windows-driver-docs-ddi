@@ -10,6 +10,7 @@ ms.date: 03/12/2019
 keywords: ["IoUpdateLinkShareAccessEx function"]
 f1_keywords:
  - "wdm/IoUpdateLinkShareAccessEx"
+ - "IoUpdateLinkShareAccessEx"
 ms.keywords: IoUpdateLinkShareAccessEx, IoUpdateLinkShareAccessEx function [Kernel-Mode Driver Architecture], kernel.IoUpdateLinkShareAccessEx, wdm/IoUpdateLinkShareAccessEx
 req.header: wdm.h
 req.include-header:

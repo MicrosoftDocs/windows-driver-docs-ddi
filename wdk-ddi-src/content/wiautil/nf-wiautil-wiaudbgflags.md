@@ -10,6 +10,7 @@ keywords: ["wiauDbgFlags function"]
 ms.keywords: image.wiaudbgflags, wiauDbgFlags, wiauDbgFlags function [Imaging Devices], wiauFncs_db71e773-84d8-40b9-9688-9fa33aad9182.xml, wiautil/wiauDbgFlags
 f1_keywords:
  - "wiautil/wiauDbgFlags"
+ - "wiauDbgFlags"
 req.header: wiautil.h
 req.include-header: Wiautil.h
 req.target-type: Desktop

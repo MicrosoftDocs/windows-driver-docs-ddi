@@ -10,6 +10,7 @@ keywords: ["NdisReleaseSpinLock macro"]
 ms.keywords: NdisReleaseSpinLock, NdisReleaseSpinLock macro [Network Drivers Starting with Windows Vista], ndis/NdisReleaseSpinLock, ndis_spin_lock_ref_a4e1c783-4682-401c-a198-fdc14cbfa383.xml, netvista.ndisreleasespinlock
 f1_keywords:
  - "ndis/NdisReleaseSpinLock"
+ - "NdisReleaseSpinLock"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

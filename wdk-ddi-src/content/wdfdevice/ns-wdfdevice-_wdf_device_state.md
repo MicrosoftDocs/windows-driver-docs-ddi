@@ -10,6 +10,7 @@ keywords: ["_WDF_DEVICE_STATE structure"]
 ms.keywords: "*PWDF_DEVICE_STATE, DFDeviceObjectGeneralRef_a5705164-b38f-4307-8b7d-5b3156aadf62.xml, PWDF_DEVICE_STATE, PWDF_DEVICE_STATE structure pointer, WDF_DEVICE_STATE, WDF_DEVICE_STATE structure, _WDF_DEVICE_STATE, kmdf.wdf_device_state, wdf.wdf_device_state, wdfdevice/PWDF_DEVICE_STATE, wdfdevice/WDF_DEVICE_STATE"
 f1_keywords:
  - "wdfdevice/WDF_DEVICE_STATE"
+ - "WDF_DEVICE_STATE"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Windows

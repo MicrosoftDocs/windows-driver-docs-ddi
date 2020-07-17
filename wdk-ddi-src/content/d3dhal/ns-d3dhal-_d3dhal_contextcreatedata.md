@@ -10,6 +10,7 @@ keywords: ["_D3DHAL_CONTEXTCREATEDATA structure"]
 ms.keywords: "*LPD3DHAL_CONTEXTCREATEDATA, D3DHAL_CONTEXTCREATEDATA, D3DHAL_CONTEXTCREATEDATA structure [Display Devices], LPD3DHAL_CONTEXTCREATEDATA, LPD3DHAL_CONTEXTCREATEDATA structure pointer [Display Devices], _D3DHAL_CONTEXTCREATEDATA, d3dhal/D3DHAL_CONTEXTCREATEDATA, d3dhal/LPD3DHAL_CONTEXTCREATEDATA, d3dstrct_46c9dd06-302d-423b-8cd6-fc81a4227ab4.xml, display.d3dhal_contextcreatedata"
 f1_keywords:
  - "d3dhal/D3DHAL_CONTEXTCREATEDATA"
+ - "D3DHAL_CONTEXTCREATEDATA"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMTSetSyncRefreshCountWaitTarget function"]
 f1_keywords:
  - "d3dkmthk/D3DKMTSetSyncRefreshCountWaitTarget"
+ - "D3DKMTSetSyncRefreshCountWaitTarget"
 ms.keywords: D3DKMTSetSyncRefreshCountWaitTarget
 req.header: d3dkmthk.h
 req.include-header:

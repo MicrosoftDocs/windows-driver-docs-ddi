@@ -8,6 +8,7 @@ ms.date: 07/16/2018
 keywords: ["EVT_PACKET_QUEUE_ADVANCE callback function"]
 f1_keywords:
  - "netpacketqueue/EVT_PACKET_QUEUE_ADVANCE"
+ - "EVT_PACKET_QUEUE_ADVANCE"
 req.header: netpacketqueue.h
 req.include-header:
 req.target-type: Universal

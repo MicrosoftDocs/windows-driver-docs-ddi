@@ -10,6 +10,7 @@ keywords: ["NdisIfDeregisterInterface function"]
 ms.keywords: NdisIfDeregisterInterface, NdisIfDeregisterInterface function [Network Drivers Starting with Windows Vista], ndis/NdisIfDeregisterInterface, net_if_functions_ref_dc1bdf3d-3cca-4d4a-b0f9-4bdef32bcdb0.xml, netvista.ndisifderegisterinterface
 f1_keywords:
  - "ndis/NdisIfDeregisterInterface"
+ - "NdisIfDeregisterInterface"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

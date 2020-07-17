@@ -10,6 +10,7 @@ keywords: ["IDebugBreakpoint::GetAdder"]
 ms.keywords: ComOther_069dfd81-8ad8-4fe7-95c4-a3499c1b5512.xml, GetAdder, GetAdder method [Windows Debugging], GetAdder method [Windows Debugging],IDebugBreakpoint interface, GetAdder method [Windows Debugging],IDebugBreakpoint2 interface, IDebugBreakpoint interface [Windows Debugging],GetAdder method, IDebugBreakpoint.GetAdder, IDebugBreakpoint2 interface [Windows Debugging],GetAdder method, IDebugBreakpoint2::GetAdder, IDebugBreakpoint::GetAdder, dbgeng/IDebugBreakpoint2::GetAdder, dbgeng/IDebugBreakpoint::GetAdder, debugger.getadder
 f1_keywords:
  - "dbgeng/IDebugBreakpoint.GetAdder"
+ - "IDebugBreakpoint.GetAdder"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

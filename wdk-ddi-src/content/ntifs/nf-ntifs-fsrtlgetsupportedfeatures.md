@@ -10,6 +10,7 @@ keywords: ["FsRtlGetSupportedFeatures function"]
 ms.keywords: FsRtlGetSupportedFeatures, FsRtlGetSupportedFeatures routine [Installable File System Drivers], SUPPORTED_FS_FEATURES_OFFLOAD_READ, SUPPORTED_FS_FEATURES_OFFLOAD_WRITE, ifsk.fsrtlgetsupportedfeatures, ntifs/FsRtlGetSupportedFeatures
 f1_keywords:
  - "ntifs/FsRtlGetSupportedFeatures"
+ - "FsRtlGetSupportedFeatures"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

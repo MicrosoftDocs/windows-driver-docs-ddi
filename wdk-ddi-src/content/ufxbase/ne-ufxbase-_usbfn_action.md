@@ -10,6 +10,7 @@ keywords: ["_USBFN_ACTION enumeration"]
 ms.keywords: "*PUSBFN_ACTION, USBFN_ACTION, USBFN_ACTION enumeration [Buses], UsbfnActionDetectProprietaryCharger, UsbfnActionNoCad, UsbfnActionNone, _USBFN_ACTION, buses.usbfn_action, ufxbase/USBFN_ACTION, ufxbase/UsbfnActionDetectProprietaryCharger, ufxbase/UsbfnActionNoCad, ufxbase/UsbfnActionNone"
 f1_keywords:
  - "ufxbase/USBFN_ACTION"
+ - "USBFN_ACTION"
 req.header: ufxbase.h
 req.include-header: 
 req.target-type: Windows

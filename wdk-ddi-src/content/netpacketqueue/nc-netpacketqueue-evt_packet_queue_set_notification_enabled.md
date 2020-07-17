@@ -8,6 +8,7 @@ ms.date: 01/23/2019
 keywords: ["EVT_PACKET_QUEUE_SET_NOTIFICATION_ENABLED callback function"]
 f1_keywords:
  - "netpacketqueue/EVT_PACKET_QUEUE_SET_NOTIFICATION_ENABLED"
+ - "EVT_PACKET_QUEUE_SET_NOTIFICATION_ENABLED"
 req.header: netpacketqueue.h
 req.include-header:
 req.target-type: Universal

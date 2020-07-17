@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["IDARG_IN_ADAPTERSETRENDERADAPTER structure"]
 f1_keywords:
  - "iddcx/IDARG_IN_ADAPTERSETRENDERADAPTER"
+ - "IDARG_IN_ADAPTERSETRENDERADAPTER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: IDARG_IN_ADAPTERSETRENDERADAPTER, , 

@@ -10,6 +10,7 @@ keywords: ["_UNIT_ISOCH_PARAMS structure"]
 ms.keywords: "*PUNIT_ISOCH_PARAMS, 61883/PUNIT_ISOCH_PARAMS, 61883/UNIT_ISOCH_PARAMS, 61883_structures_eece3eb1-516b-40a8-9529-e4a3d8832f02.xml, IEEE.unit_isoch_params, PUNIT_ISOCH_PARAMS, PUNIT_ISOCH_PARAMS structure pointer [Buses], UNIT_ISOCH_PARAMS, UNIT_ISOCH_PARAMS structure [Buses], _UNIT_ISOCH_PARAMS"
 f1_keywords:
  - "61883/UNIT_ISOCH_PARAMS"
+ - "UNIT_ISOCH_PARAMS"
 req.header: 61883.h
 req.include-header: 61883.h
 req.target-type: Windows

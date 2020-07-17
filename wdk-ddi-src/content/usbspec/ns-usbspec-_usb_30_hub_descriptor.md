@@ -10,6 +10,7 @@ keywords: ["_USB_30_HUB_DESCRIPTOR structure"]
 ms.keywords: "*PUSB_30_HUB_DESCRIPTOR, PUSB_30_HUB_DESCRIPTOR, PUSB_30_HUB_DESCRIPTOR structure pointer [Buses], USB_30_HUB_DESCRIPTOR, USB_30_HUB_DESCRIPTOR structure [Buses], _USB_30_HUB_DESCRIPTOR, buses.usb_30_hub_descriptor, usbspec/PUSB_30_HUB_DESCRIPTOR, usbspec/USB_30_HUB_DESCRIPTOR"
 f1_keywords:
  - "usbspec/USB_30_HUB_DESCRIPTOR"
+ - "USB_30_HUB_DESCRIPTOR"
 req.header: usbspec.h
 req.include-header: 
 req.target-type: Windows

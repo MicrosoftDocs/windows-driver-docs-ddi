@@ -8,6 +8,7 @@ ms.date: 02/06/2018
 keywords: ["NetAdapterSetCurrentLinkLayerAddress function"]
 f1_keywords:
  - "netadapter/NetAdapterSetCurrentLinkLayerAddress"
+ - "NetAdapterSetCurrentLinkLayerAddress"
 ms.keywords: NetAdapterSetCurrentLinkLayerAddress
 req.header: netadapter.h
 req.include-header: netadaptercx.h

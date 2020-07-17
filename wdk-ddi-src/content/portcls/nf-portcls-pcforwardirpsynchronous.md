@@ -10,6 +10,7 @@ keywords: ["PcForwardIrpSynchronous function"]
 ms.keywords: PcForwardIrpSynchronous, PcForwardIrpSynchronous function [Audio Devices], audio.pcforwardirpsynchronous, audpc-routines_9ecb1bfa-c318-424c-8f65-3777136c5f65.xml, portcls/PcForwardIrpSynchronous
 f1_keywords:
  - "portcls/PcForwardIrpSynchronous"
+ - "PcForwardIrpSynchronous"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

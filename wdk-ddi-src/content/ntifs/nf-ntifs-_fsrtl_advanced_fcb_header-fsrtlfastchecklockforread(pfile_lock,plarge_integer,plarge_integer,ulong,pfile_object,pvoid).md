@@ -10,6 +10,7 @@ keywords: ["FsRtlFastCheckLockForRead function"]
 ms.keywords: FsRtlFastCheckLockForRead, FsRtlFastCheckLockForRead routine [Installable File System Drivers], fsrtlref_b0a3dc82-d734-44b8-8762-7e10478f60c6.xml, ifsk.fsrtlfastchecklockforread, ntifs/FsRtlFastCheckLockForRead
 f1_keywords:
  - "ntifs/FsRtlFastCheckLockForRead"
+ - "FsRtlFastCheckLockForRead"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal

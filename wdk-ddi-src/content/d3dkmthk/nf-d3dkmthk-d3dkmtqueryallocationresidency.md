@@ -9,6 +9,7 @@ keywords: ["D3DKMTQueryAllocationResidency function"]
 ms.keywords: D3DKMTQueryAllocationResidency, D3DKMTQueryAllocationResidency function [Display Devices], OpenGL_Functions_4efd6e87-91b6-4cf2-8691-0463a9ab218a.xml, d3dkmthk/D3DKMTQueryAllocationResidency, display.d3dkmtqueryallocationresidency
 f1_keywords:
  - "d3dkmthk/D3DKMTQueryAllocationResidency"
+ - "D3DKMTQueryAllocationResidency"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

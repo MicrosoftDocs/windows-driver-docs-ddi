@@ -10,6 +10,7 @@ keywords: ["_PEP_ACPI_RESOURCE_FLAGS structure"]
 ms.keywords: "*PPEP_ACPI_RESOURCE_FLAGS, PEP_ACPI_RESOURCE_FLAGS, PEP_ACPI_RESOURCE_FLAGS union [Kernel-Mode Driver Architecture], PPEP_ACPI_RESOURCE_FLAGS, PPEP_ACPI_RESOURCE_FLAGS union pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_RESOURCE_FLAGS, kernel.pep_acpi_resource_flags, pepfx/PEP_ACPI_RESOURCE_FLAGS, pepfx/PPEP_ACPI_RESOURCE_FLAGS"
 f1_keywords:
  - "pepfx/PEP_ACPI_RESOURCE_FLAGS"
+ - "PEP_ACPI_RESOURCE_FLAGS"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows

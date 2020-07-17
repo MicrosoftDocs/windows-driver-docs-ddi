@@ -10,6 +10,7 @@ keywords: ["KsFilterGetOuterUnknown function"]
 ms.keywords: KsFilterGetOuterUnknown, KsFilterGetOuterUnknown function [Streaming Media Devices], avfunc_32947579-50ca-4942-a594-b991c42d6681.xml, ks/KsFilterGetOuterUnknown, stream.ksfiltergetouterunknown
 f1_keywords:
  - "ks/KsFilterGetOuterUnknown"
+ - "KsFilterGetOuterUnknown"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop

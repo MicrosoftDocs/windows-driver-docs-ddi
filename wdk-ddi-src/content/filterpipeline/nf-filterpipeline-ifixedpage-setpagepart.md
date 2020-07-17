@@ -10,6 +10,7 @@ keywords: ["IFixedPage::SetPagePart"]
 ms.keywords: IFixedPage interface [Print Devices],SetPagePart method, IFixedPage.SetPagePart, IFixedPage::SetPagePart, SetPagePart, SetPagePart method [Print Devices], SetPagePart method [Print Devices],IFixedPage interface, filterpipeline/IFixedPage::SetPagePart, filterpipeline_03059a3d-9aac-4ff2-8506-7754327942f6.xml, print.ifixedpage_setpagepart
 f1_keywords:
  - "filterpipeline/IFixedPage.SetPagePart"
+ - "IFixedPage.SetPagePart"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop

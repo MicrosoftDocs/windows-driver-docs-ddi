@@ -10,6 +10,7 @@ keywords: ["NdisFreeMdl function"]
 ms.keywords: NdisFreeMdl, NdisFreeMdl function [Network Drivers Starting with Windows Vista], ndis/NdisFreeMdl, ndis_netbuf_functions_ref_0631fdd9-0961-43a9-a7a8-7d41e9d17220.xml, netvista.ndisfreemdl
 f1_keywords:
  - "ndis/NdisFreeMdl"
+ - "NdisFreeMdl"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

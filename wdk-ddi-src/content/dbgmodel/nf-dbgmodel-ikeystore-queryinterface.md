@@ -7,6 +7,7 @@ ms.date: 08/13/2018
 keywords: ["IKeyStore::QueryInterface"]
 f1_keywords:
  - "dbgmodel/IKeyStore.QueryInterface"
+ - "IKeyStore.QueryInterface"
 ms.keywords: IKeyStore::QueryInterface, QueryInterface, IKeyStore.QueryInterface, IKeyStore::QueryInterface, IKeyStore.QueryInterface
 req.header: dbgmodel.h
 req.include-header:

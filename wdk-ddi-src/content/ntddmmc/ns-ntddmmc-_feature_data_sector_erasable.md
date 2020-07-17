@@ -10,6 +10,7 @@ keywords: ["_FEATURE_DATA_SECTOR_ERASABLE structure"]
 ms.keywords: "*PFEATURE_DATA_SECTOR_ERASABLE, FEATURE_DATA_SECTOR_ERASABLE, FEATURE_DATA_SECTOR_ERASABLE structure [Storage Devices], PFEATURE_DATA_SECTOR_ERASABLE, PFEATURE_DATA_SECTOR_ERASABLE structure pointer [Storage Devices], _FEATURE_DATA_SECTOR_ERASABLE, ntddmmc/FEATURE_DATA_SECTOR_ERASABLE, ntddmmc/PFEATURE_DATA_SECTOR_ERASABLE, storage.feature_data_sector_erasable, structs-CD-ROM_e48f2e10-1b6d-4d5a-9e8d-b1fc45fd8509.xml"
 f1_keywords:
  - "ntddmmc/FEATURE_DATA_SECTOR_ERASABLE"
+ - "FEATURE_DATA_SECTOR_ERASABLE"
 req.header: ntddmmc.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows

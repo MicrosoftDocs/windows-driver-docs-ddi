@@ -9,6 +9,7 @@ keywords: ["D3D12DDIARG_CREATEDEVICE_0003 structure"]
 ms.keywords: D3D12DDIARG_CREATEDEVICE_0003, D3D12DDIARG_CREATEDEVICE_0003 structure [Display Devices], d3d12umddi/D3D12DDIARG_CREATEDEVICE_0003, display.d3d12ddiarg_createdevice_0003
 f1_keywords:
  - "d3d12umddi/D3D12DDIARG_CREATEDEVICE_0003"
+ - "D3D12DDIARG_CREATEDEVICE_0003"
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: Windows

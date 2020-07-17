@@ -10,6 +10,7 @@ keywords: ["KeQueryMaximumGroupCount function"]
 ms.keywords: KeQueryMaximumGroupCount, KeQueryMaximumGroupCount routine [Kernel-Mode Driver Architecture], k105_c1e0cc3e-f9d0-4570-8a56-b799d2ca5d14.xml, kernel.kequerymaximumgroupcount, wdm/KeQueryMaximumGroupCount
 f1_keywords:
  - "wdm/KeQueryMaximumGroupCount"
+ - "KeQueryMaximumGroupCount"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

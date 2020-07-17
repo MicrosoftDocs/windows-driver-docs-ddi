@@ -10,6 +10,7 @@ keywords: ["_CDROM_PLAY_AUDIO_MSF structure"]
 ms.keywords: "*PCDROM_PLAY_AUDIO_MSF, CDROM_PLAY_AUDIO_MSF, CDROM_PLAY_AUDIO_MSF structure [Storage Devices], PCDROM_PLAY_AUDIO_MSF, PCDROM_PLAY_AUDIO_MSF structure pointer [Storage Devices], _CDROM_PLAY_AUDIO_MSF, ntddcdrm/CDROM_PLAY_AUDIO_MSF, ntddcdrm/PCDROM_PLAY_AUDIO_MSF, storage.cdrom_play_audio_msf, structs-CD-ROM_27bfe732-1972-4101-baa1-e9d520c3dfcf.xml"
 f1_keywords:
  - "ntddcdrm/CDROM_PLAY_AUDIO_MSF"
+ - "CDROM_PLAY_AUDIO_MSF"
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows

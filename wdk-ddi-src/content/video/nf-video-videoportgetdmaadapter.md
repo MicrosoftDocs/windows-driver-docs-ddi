@@ -10,6 +10,7 @@ keywords: ["VideoPortGetDmaAdapter function"]
 ms.keywords: VideoPortGetDmaAdapter, VideoPortGetDmaAdapter function [Display Devices], VideoPort_Functions_a45601ab-cd5a-4aed-95ec-731f09b175a4.xml, display.videoportgetdmaadapter, video/VideoPortGetDmaAdapter
 f1_keywords:
  - "video/VideoPortGetDmaAdapter"
+ - "VideoPortGetDmaAdapter"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

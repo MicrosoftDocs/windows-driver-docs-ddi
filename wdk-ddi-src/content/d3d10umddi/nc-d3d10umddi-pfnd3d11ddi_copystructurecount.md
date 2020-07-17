@@ -9,6 +9,7 @@ keywords: ["PFND3D11DDI_COPYSTRUCTURECOUNT callback function"]
 ms.keywords: CopyStructureCount, CopyStructureCount callback function [Display Devices], PFND3D11DDI_COPYSTRUCTURECOUNT, PFND3D11DDI_COPYSTRUCTURECOUNT callback, UserModeDisplayDriverDx11_Functions_b6bad9fd-b0b2-40fa-aa4a-664554984dcd.xml, d3d10umddi/CopyStructureCount, display.copystructurecount
 f1_keywords:
  - "d3d10umddi/CopyStructureCount"
+ - "CopyStructureCount"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

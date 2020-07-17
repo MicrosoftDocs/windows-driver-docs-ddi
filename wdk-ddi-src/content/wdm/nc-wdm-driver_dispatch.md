@@ -10,6 +10,7 @@ keywords: ["DRIVER_DISPATCH callback function"]
 ms.keywords: DRIVER_DISPATCH, DispatchCleanup, DispatchClose, DispatchCreate, DispatchCreateClose, DispatchDeviceControl, DispatchFlushBuffers, DispatchInternalDeviceControl, DispatchPnP, DispatchPower, DispatchQueryInformation, DispatchRead, DispatchReadWrite, DispatchSetInformation, DispatchShutdown, DispatchSystemControl, DispatchWrite, DrvrRtns_157dfedc-63c2-4924-ad5c-04ff9f746a94.xml, MyDispatch, MyDispatch routine [Kernel-Mode Driver Architecture], kernel.dispatchcleanup, wdm/MyDispatch
 f1_keywords:
  - "wdm/MyDispatch"
+ - "MyDispatch"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

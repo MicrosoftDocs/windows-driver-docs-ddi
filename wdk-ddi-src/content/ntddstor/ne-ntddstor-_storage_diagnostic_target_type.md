@@ -10,6 +10,7 @@ keywords: ["_STORAGE_DIAGNOSTIC_TARGET_TYPE enumeration"]
 ms.keywords: "*PSTORAGE_DIAGNOSTIC_TARGET_TYPE, PSTORAGE_DIAGNOSTIC_TARGET_TYPE, PSTORAGE_DIAGNOSTIC_TARGET_TYPE enumeration pointer [Storage Devices], STORAGE_DIAGNOSTIC_TARGET_TYPE, STORAGE_DIAGNOSTIC_TARGET_TYPE enumeration [Storage Devices], StorageDiagnosticTargetTypeHbaFirmware, StorageDiagnosticTargetTypeMax, StorageDiagnosticTargetTypeMiniport, StorageDiagnosticTargetTypePort, StorageDiagnosticTargetTypeUndefined, _STORAGE_DIAGNOSTIC_TARGET_TYPE, ntddstor/PSTORAGE_DIAGNOSTIC_TARGET_TYPE, ntddstor/STORAGE_DIAGNOSTIC_TARGET_TYPE, ntddstor/StorageDiagnosticTargetTypeHbaFirmware, ntddstor/StorageDiagnosticTargetTypeMax, ntddstor/StorageDiagnosticTargetTypeMiniport, ntddstor/StorageDiagnosticTargetTypePort, ntddstor/StorageDiagnosticTargetTypeUndefined, storage.storage_diagnostic_target_type"
 f1_keywords:
  - "ntddstor/STORAGE_DIAGNOSTIC_TARGET_TYPE"
+ - "STORAGE_DIAGNOSTIC_TARGET_TYPE"
 req.header: ntddstor.h
 req.include-header: 
 req.target-type: Windows

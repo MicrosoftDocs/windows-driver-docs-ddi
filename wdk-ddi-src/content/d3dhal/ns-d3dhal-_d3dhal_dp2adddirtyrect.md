@@ -10,6 +10,7 @@ keywords: ["_D3DHAL_DP2ADDDIRTYRECT structure"]
 ms.keywords: "*LPD3DHAL_DP2ADDDIRTYRECT, D3DHAL_DP2ADDDIRTYRECT, D3DHAL_DP2ADDDIRTYRECT structure [Display Devices], LPD3DHAL_DP2ADDDIRTYRECT, LPD3DHAL_DP2ADDDIRTYRECT structure pointer [Display Devices], _D3DHAL_DP2ADDDIRTYRECT, d3dhal/D3DHAL_DP2ADDDIRTYRECT, d3dhal/LPD3DHAL_DP2ADDDIRTYRECT, d3dstrct_64c25041-cbd9-4073-a42a-e9fb304e0d65.xml, display.d3dhal_dp2adddirtyrect"
 f1_keywords:
  - "d3dhal/D3DHAL_DP2ADDDIRTYRECT"
+ - "D3DHAL_DP2ADDDIRTYRECT"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows

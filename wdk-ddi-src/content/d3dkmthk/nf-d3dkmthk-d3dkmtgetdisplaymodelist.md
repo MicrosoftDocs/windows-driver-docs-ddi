@@ -9,6 +9,7 @@ keywords: ["D3DKMTGetDisplayModeList function"]
 ms.keywords: D3DKMTGetDisplayModeList, D3DKMTGetDisplayModeList function [Display Devices], OpenGL_Functions_a132bdb6-955b-4af3-a928-f834f5fdf440.xml, d3dkmthk/D3DKMTGetDisplayModeList, display.d3dkmtgetdisplaymodelist
 f1_keywords:
  - "d3dkmthk/D3DKMTGetDisplayModeList"
+ - "D3DKMTGetDisplayModeList"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

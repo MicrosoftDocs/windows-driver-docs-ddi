@@ -10,6 +10,7 @@ keywords: ["_BRB_VERSION enumeration"]
 ms.keywords: BLUETOOTH_V1, BLUETOOTH_V2, BRB_VERSION, BRB_VERSION Enumeration, BRB_VERSION enumeration [Bluetooth Devices], _BRB_VERSION, bltooth.brb_version, bth_enums_d14431ac-24e9-4a27-90b9-a8aef7e38769.xml, bthddi/BLUETOOTH_V1, bthddi/BLUETOOTH_V2, bthddi/BRB_VERSION
 f1_keywords:
  - "bthddi/BRB_VERSION"
+ - "BRB_VERSION"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows

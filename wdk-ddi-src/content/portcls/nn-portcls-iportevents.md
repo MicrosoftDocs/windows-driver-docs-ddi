@@ -10,6 +10,7 @@ keywords: ["IPortEvents interface"]
 ms.keywords: IPortEvents, IPortEvents interface [Audio Devices], IPortEvents interface [Audio Devices],described, audio.iportevents, audmp-routines_8e6cf7c4-af42-4c89-8c00-29470317a455.xml, portcls/IPortEvents
 f1_keywords:
  - "portcls/IPortEvents"
+ - "IPortEvents"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows

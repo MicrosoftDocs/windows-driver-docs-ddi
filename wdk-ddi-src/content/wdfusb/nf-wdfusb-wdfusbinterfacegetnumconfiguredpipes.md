@@ -10,6 +10,7 @@ keywords: ["WdfUsbInterfaceGetNumConfiguredPipes function"]
 ms.keywords: DFUsbRef_4273baba-c0e8-4bda-b6da-c9c9f00cabf9.xml, WdfUsbInterfaceGetNumConfiguredPipes, WdfUsbInterfaceGetNumConfiguredPipes method, kmdf.wdfusbinterfacegetnumconfiguredpipes, wdf.wdfusbinterfacegetnumconfiguredpipes, wdfusb/WdfUsbInterfaceGetNumConfiguredPipes
 f1_keywords:
  - "wdfusb/WdfUsbInterfaceGetNumConfiguredPipes"
+ - "WdfUsbInterfaceGetNumConfiguredPipes"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal

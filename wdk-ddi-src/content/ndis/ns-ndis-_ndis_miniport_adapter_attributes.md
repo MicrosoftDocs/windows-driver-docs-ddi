@@ -10,6 +10,7 @@ keywords: ["_NDIS_MINIPORT_ADAPTER_ATTRIBUTES structure"]
 ms.keywords: NDIS_MINIPORT_ADAPTER_ATTRIBUTES, NDIS_MINIPORT_ADAPTER_ATTRIBUTES union [Network Drivers Starting with Windows Vista], PNDIS_MINIPORT_ADAPTER_ATTRIBUTES, PNDIS_MINIPORT_ADAPTER_ATTRIBUTES union pointer [Network Drivers Starting with Windows Vista], _NDIS_MINIPORT_ADAPTER_ATTRIBUTES, miniport_structures_ref_dc9acf58-fbc9-4b4c-8c99-33ab7a3bc653.xml, ndis/NDIS_MINIPORT_ADAPTER_ATTRIBUTES, ndis/PNDIS_MINIPORT_ADAPTER_ATTRIBUTES, netvista.ndis_miniport_adapter_attributes
 f1_keywords:
  - "ndis/NDIS_MINIPORT_ADAPTER_ATTRIBUTES"
+ - "NDIS_MINIPORT_ADAPTER_ATTRIBUTES"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

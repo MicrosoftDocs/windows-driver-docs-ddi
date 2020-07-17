@@ -25,6 +25,7 @@ targetos: Windows
 ms.custom: DXGKDDI_INTERFACE_VERSION_WDDM2_6, 19H1
 f1_keywords:
  - "d3dkmddi/_DXGK_FEATURE_ID"
+ - "_DXGK_FEATURE_ID"
 topic_type:
  - apiref
 api_type:

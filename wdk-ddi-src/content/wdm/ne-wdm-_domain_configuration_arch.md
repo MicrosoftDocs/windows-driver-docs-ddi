@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_DOMAIN_CONFIGURATION_ARCH enumeration"]
 f1_keywords:
  - "wdm/_DOMAIN_CONFIGURATION_ARCH"
+ - "_DOMAIN_CONFIGURATION_ARCH"
 ms.keywords: _DOMAIN_CONFIGURATION_ARCH, *PDOMAIN_CONFIGURATION_ARCH, DOMAIN_CONFIGURATION_ARCH, 
 req.header: wdm.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["IWDFRequestCompletionParams::GetCompletedRequestType"]
 ms.keywords: GetCompletedRequestType, GetCompletedRequestType method, GetCompletedRequestType method,IWDFRequestCompletionParams interface, IWDFRequestCompletionParams interface,GetCompletedRequestType method, IWDFRequestCompletionParams.GetCompletedRequestType, IWDFRequestCompletionParams::GetCompletedRequestType, UMDFRequestObjectRef_97c61d1b-059f-44d7-9d3a-7c031099d669.xml, umdf.iwdfrequestcompletionparams_getcompletedrequesttype, wdf.iwdfrequestcompletionparams_getcompletedrequesttype, wudfddi/IWDFRequestCompletionParams::GetCompletedRequestType
 f1_keywords:
  - "wudfddi/IWDFRequestCompletionParams.GetCompletedRequestType"
+ - "IWDFRequestCompletionParams.GetCompletedRequestType"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

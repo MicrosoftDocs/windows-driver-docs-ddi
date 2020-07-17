@@ -10,6 +10,7 @@ keywords: ["_PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE structure"]
 ms.keywords: "*PPEP_ACPI_ENUMERATE_DEVICE_NAMESPACE, PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE, PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE structure [Kernel-Mode Driver Architecture], PPEP_ACPI_ENUMERATE_DEVICE_NAMESPACE, PPEP_ACPI_ENUMERATE_DEVICE_NAMESPACE structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE, kernel.pep_acpi_enumerate_device_namespace, pepfx/PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE, pepfx/PPEP_ACPI_ENUMERATE_DEVICE_NAMESPACE"
 f1_keywords:
  - "pep_x/PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE"
+ - "PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows

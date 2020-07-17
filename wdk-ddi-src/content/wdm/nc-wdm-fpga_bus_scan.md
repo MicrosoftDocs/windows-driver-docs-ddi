@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["FPGA_BUS_SCAN callback function"]
 f1_keywords:
  - "wdm/FPGA_BUS_SCAN"
+ - "FPGA_BUS_SCAN"
 req.header: wdm.h
 req.include-header:
 req.target-type:

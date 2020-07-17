@@ -10,6 +10,7 @@ keywords: ["RIL_UnblockUiccLock function"]
 ms.keywords: RIL_UnblockUiccLock, RIL_UnblockUiccLock method [Network Drivers Starting with Windows Vista], netvista.ril_unblockuicclock, rilapi/RIL_UnblockUiccLock
 f1_keywords:
  - "rilapi/RIL_UnblockUiccLock"
+ - "RIL_UnblockUiccLock"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

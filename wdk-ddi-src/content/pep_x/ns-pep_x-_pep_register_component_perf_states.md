@@ -10,6 +10,7 @@ keywords: ["_PEP_REGISTER_COMPONENT_PERF_STATES structure"]
 ms.keywords: "*PPEP_REGISTER_COMPONENT_PERF_STATES, PEP_REGISTER_COMPONENT_PERF_STATES, PEP_REGISTER_COMPONENT_PERF_STATES structure [Kernel-Mode Driver Architecture], PPEP_REGISTER_COMPONENT_PERF_STATES, PPEP_REGISTER_COMPONENT_PERF_STATES structure pointer [Kernel-Mode Driver Architecture], _PEP_REGISTER_COMPONENT_PERF_STATES, kernel.pep_register_component_perf_states, pepfx/PEP_REGISTER_COMPONENT_PERF_STATES, pepfx/PPEP_REGISTER_COMPONENT_PERF_STATES"
 f1_keywords:
  - "pep_x/PEP_REGISTER_COMPONENT_PERF_STATES"
+ - "PEP_REGISTER_COMPONENT_PERF_STATES"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows

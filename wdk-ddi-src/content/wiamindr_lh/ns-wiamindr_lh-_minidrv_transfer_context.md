@@ -10,6 +10,7 @@ keywords: ["_MINIDRV_TRANSFER_CONTEXT structure"]
 ms.keywords: "*PMINIDRV_TRANSFER_CONTEXT, MINIDRV_TRANSFER_CONTEXT, MINIDRV_TRANSFER_CONTEXT structure [Imaging Devices], PMINIDRV_TRANSFER_CONTEXT, PMINIDRV_TRANSFER_CONTEXT structure pointer [Imaging Devices], _MINIDRV_TRANSFER_CONTEXT, image.minidrv_transfer_context, wiamindr_lh/MINIDRV_TRANSFER_CONTEXT, wiamindr_lh/PMINIDRV_TRANSFER_CONTEXT, wiastrct_36e477d2-73a8-41b7-af46-82fb7c6f0bca.xml"
 f1_keywords:
  - "wiamindr_lh/MINIDRV_TRANSFER_CONTEXT"
+ - "MINIDRV_TRANSFER_CONTEXT"
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Windows

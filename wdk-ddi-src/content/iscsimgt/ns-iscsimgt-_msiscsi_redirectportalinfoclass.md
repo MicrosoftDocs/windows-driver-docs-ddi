@@ -10,6 +10,7 @@ keywords: ["_MSiSCSI_RedirectPortalInfoClass structure"]
 ms.keywords: "*PMSiSCSI_RedirectPortalInfoClass, MSiSCSI_RedirectPortalInfoClass, MSiSCSI_RedirectPortalInfoClass structure [Storage Devices], PMSiSCSI_RedirectPortalInfoClass, PMSiSCSI_RedirectPortalInfoClass structure pointer [Storage Devices], _MSiSCSI_RedirectPortalInfoClass, iscsimgt/MSiSCSI_RedirectPortalInfoClass, iscsimgt/PMSiSCSI_RedirectPortalInfoClass, storage.msiscsi_redirectportalinfoclass, structs-iSCSI_211386cb-7e73-40d9-8284-560555fe8201.xml"
 f1_keywords:
  - "iscsimgt/MSiSCSI_RedirectPortalInfoClass"
+ - "MSiSCSI_RedirectPortalInfoClass"
 req.header: iscsimgt.h
 req.include-header: Iscsimgt.h
 req.target-type: Windows

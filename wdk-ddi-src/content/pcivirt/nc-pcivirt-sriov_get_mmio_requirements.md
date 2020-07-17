@@ -10,6 +10,7 @@ keywords: ["SRIOV_GET_MMIO_REQUIREMENTS callback"]
 ms.keywords: "*PSRIOV_GET_MMIO_REQUIREMENTS, *PSRIOV_GET_MMIO_REQUIREMENTS callback function pointer [Buses], PCI.sriov_get_mmio_requirements, SRIOV_GET_MMIO_REQUIREMENTS, SriovGetMmioRequirements, SriovGetMmioRequirements callback function [Buses], pcivirt/SriovGetMmioRequirements"
 f1_keywords:
  - "pcivirt/*PSRIOV_GET_MMIO_REQUIREMENTS"
+ - "*PSRIOV_GET_MMIO_REQUIREMENTS"
 req.header: pcivirt.h
 req.include-header: Pcivirt.h
 req.target-type: Windows

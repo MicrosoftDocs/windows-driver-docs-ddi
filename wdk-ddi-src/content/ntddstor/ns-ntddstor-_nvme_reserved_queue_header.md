@@ -8,6 +8,7 @@ ms.date: 10/19/2018
 keywords: ["_NVME_RESERVED_QUEUE_HEADER structure"]
 f1_keywords:
  - "ntddstor/_NVME_RESERVED_QUEUE_HEADER"
+ - "_NVME_RESERVED_QUEUE_HEADER"
 ms.keywords: _NVME_RESERVED_QUEUE_HEADER, NVME_RESERVED_QUEUE_HEADER, *PNVME_RESERVED_QUEUE_HEADER, 
 req.header: ntddstor.h
 req.include-header:

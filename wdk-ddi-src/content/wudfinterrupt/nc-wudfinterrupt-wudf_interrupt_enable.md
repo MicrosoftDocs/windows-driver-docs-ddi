@@ -10,6 +10,7 @@ keywords: ["WUDF_INTERRUPT_ENABLE callback function"]
 ms.keywords: OnInterruptEnable, OnInterruptEnable callback function, WUDF_INTERRUPT_ENABLE, WUDF_INTERRUPT_ENABLE callback, umdf.oninterruptenable, wdf.oninterruptenable, wudfinterrupt/OnInterruptEnable
 f1_keywords:
  - "wudfinterrupt/OnInterruptEnable"
+ - "OnInterruptEnable"
 req.header: wudfinterrupt.h
 req.include-header: 
 req.target-type: Desktop

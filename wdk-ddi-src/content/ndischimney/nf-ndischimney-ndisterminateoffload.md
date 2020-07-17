@@ -10,6 +10,7 @@ keywords: ["NdisTerminateOffload function"]
 ms.keywords: NdisTerminateOffload, NdisTerminateOffload function [Network Drivers Starting with Windows Vista], ndischimney/NdisTerminateOffload, netvista.ndisterminateoffload, tcp_chim_ndis_func_44201f08-cbfc-4796-b2a9-78bbc5c348c4.xml
 f1_keywords:
  - "ndischimney/NdisTerminateOffload"
+ - "NdisTerminateOffload"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Universal

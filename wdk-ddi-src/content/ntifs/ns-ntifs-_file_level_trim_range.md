@@ -10,6 +10,7 @@ keywords: ["_FILE_LEVEL_TRIM_RANGE structure"]
 ms.keywords: "*PFILE_LEVEL_TRIM_RANGE, FILE_LEVEL_TRIM_RANGE, FILE_LEVEL_TRIM_RANGE structure [Installable File System Drivers], PFILE_LEVEL_TRIM_RANGE, PFILE_LEVEL_TRIM_RANGE structure pointer [Installable File System Drivers], _FILE_LEVEL_TRIM_RANGE, ifsk.file_level_trim_range, ntifs/FILE_LEVEL_TRIM_RANGE, ntifs/PFILE_LEVEL_TRIM_RANGE"
 f1_keywords:
  - "ntifs/FILE_LEVEL_TRIM_RANGE"
+ - "FILE_LEVEL_TRIM_RANGE"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

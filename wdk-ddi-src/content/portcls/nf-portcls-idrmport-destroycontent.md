@@ -8,6 +8,7 @@ ms.date: 02/20/2019
 keywords: ["IDrmPort::DestroyContent"]
 f1_keywords:
  - "portcls/IDrmPort.DestroyContent"
+ - "IDrmPort.DestroyContent"
 ms.keywords: IDrmPort::DestroyContent, DestroyContent, IDrmPort.DestroyContent, IDrmPort::DestroyContent, IDrmPort.DestroyContent
 req.header: portcls.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["_SetLoadBalancePolicy_OUT structure"]
 ms.keywords: "*PSetLoadBalancePolicy_OUT, PSetLoadBalancePolicy_OUT, PSetLoadBalancePolicy_OUT structure pointer [Storage Devices], SetLoadBalancePolicy_OUT, SetLoadBalancePolicy_OUT structure [Storage Devices], _SetLoadBalancePolicy_OUT, iscsimgt/PSetLoadBalancePolicy_OUT, iscsimgt/SetLoadBalancePolicy_OUT, storage.setloadbalancepolicy_out, structs-iSCSI_32a19db4-8102-4e39-b9be-30a8a03d2732.xml"
 f1_keywords:
  - "iscsimgt/SetLoadBalancePolicy_OUT"
+ - "SetLoadBalancePolicy_OUT"
 req.header: iscsimgt.h
 req.include-header: Iscsimgt.h
 req.target-type: Windows

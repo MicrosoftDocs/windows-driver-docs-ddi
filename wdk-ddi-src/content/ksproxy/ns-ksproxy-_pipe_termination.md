@@ -10,6 +10,7 @@ keywords: ["_PIPE_TERMINATION structure"]
 ms.keywords: PIPE_TERMINATION, PIPE_TERMINATION structure [Streaming Media Devices], PPIPE_TERMINATION, PPIPE_TERMINATION structure pointer [Streaming Media Devices], _PIPE_TERMINATION, ksproxy/PIPE_TERMINATION, ksproxy/PPIPE_TERMINATION, ksproxy_ee6f14a8-dda3-4b28-b6a9-e99bafd7e921.xml, stream.pipe_termination
 f1_keywords:
  - "ksproxy/PIPE_TERMINATION"
+ - "PIPE_TERMINATION"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Windows

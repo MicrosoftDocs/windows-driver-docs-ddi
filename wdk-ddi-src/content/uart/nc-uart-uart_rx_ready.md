@@ -8,6 +8,7 @@ ms.date: 10/19/2018
 keywords: ["UART_RX_READY callback function"]
 f1_keywords:
  - "uart/UART_RX_READY"
+ - "UART_RX_READY"
 req.header: uart.h
 req.include-header:
 req.target-type:

@@ -10,6 +10,7 @@ keywords: ["IoGetTransactionParameterBlock function"]
 ms.keywords: IoGetTransactionParameterBlock, IoGetTransactionParameterBlock routine [Installable File System Drivers], ifsk.iogettransactionparameterblock, ioref_4bce32be-89e0-4b69-9e44-a4b619588c79.xml, ntddk/IoGetTransactionParameterBlock
 f1_keywords:
  - "ntddk/IoGetTransactionParameterBlock"
+ - "IoGetTransactionParameterBlock"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Universal

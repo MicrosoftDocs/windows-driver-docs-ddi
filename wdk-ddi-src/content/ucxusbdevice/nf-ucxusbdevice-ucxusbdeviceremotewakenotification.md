@@ -10,6 +10,7 @@ keywords: ["UcxUsbDeviceRemoteWakeNotification function"]
 ms.keywords: UcxUsbDeviceRemoteWakeNotification, UcxUsbDeviceRemoteWakeNotification method [Buses], buses._ucxusbdeviceremotewakenotification, ucxusbdevice/UcxUsbDeviceRemoteWakeNotification
 f1_keywords:
  - "ucxusbdevice/UcxUsbDeviceRemoteWakeNotification"
+ - "UcxUsbDeviceRemoteWakeNotification"
 req.header: ucxusbdevice.h
 req.include-header: Ucxclass.h
 req.target-type: Windows

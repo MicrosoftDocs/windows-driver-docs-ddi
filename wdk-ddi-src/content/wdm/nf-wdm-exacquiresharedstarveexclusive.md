@@ -10,6 +10,7 @@ keywords: ["ExAcquireSharedStarveExclusive function"]
 ms.keywords: ExAcquireSharedStarveExclusive, ExAcquireSharedStarveExclusive routine [Kernel-Mode Driver Architecture], k102_b350fc88-cc76-4432-98e0-90e113e98007.xml, kernel.exacquiresharedstarveexclusive, wdm/ExAcquireSharedStarveExclusive
 f1_keywords:
  - "wdm/ExAcquireSharedStarveExclusive"
+ - "ExAcquireSharedStarveExclusive"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

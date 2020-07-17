@@ -28,6 +28,7 @@ api_name:
  - D3D12DDI_RAYTRACING_PIPELINE_FLAGS
 f1_keywords:
  - d3d12umddi/D3D12DDI_RAYTRACING_PIPELINE_FLAGS
+ - ""
 dev_langs:
  - c++
 ---

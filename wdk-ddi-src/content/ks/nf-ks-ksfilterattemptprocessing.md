@@ -10,6 +10,7 @@ keywords: ["KsFilterAttemptProcessing function"]
 ms.keywords: KsFilterAttemptProcessing, KsFilterAttemptProcessing function [Streaming Media Devices], avfunc_ee888474-cf0c-4b23-b8a2-f1e7491db8fd.xml, ks/KsFilterAttemptProcessing, stream.ksfilterattemptprocessing
 f1_keywords:
  - "ks/KsFilterAttemptProcessing"
+ - "KsFilterAttemptProcessing"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

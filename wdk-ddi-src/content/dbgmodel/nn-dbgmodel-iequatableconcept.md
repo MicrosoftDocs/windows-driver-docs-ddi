@@ -7,6 +7,7 @@ ms.date: 07/13/2018
 keywords: ["IEquatableConcept interface"]
 f1_keywords:
  - "dbgmodel/IEquatableConcept"
+ - "IEquatableConcept"
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

@@ -10,6 +10,7 @@ keywords: ["FltCbdqInitialize function"]
 ms.keywords: FltApiRef_a_to_d_e365fdac-7834-4388-b8ba-65593b045d19.xml, FltCbdqInitialize, FltCbdqInitialize function [Installable File System Drivers], fltkernel/FltCbdqInitialize, ifsk.fltcbdqinitialize
 f1_keywords:
  - "fltkernel/FltCbdqInitialize"
+ - "FltCbdqInitialize"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

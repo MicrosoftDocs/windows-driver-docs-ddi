@@ -10,6 +10,7 @@ keywords: ["_ACCESS_STATE structure"]
 ms.keywords: "*PACCESS_STATE, ACCESS_STATE, ACCESS_STATE structure [Installable File System Drivers], PACCESS_STATE, PACCESS_STATE structure pointer [Installable File System Drivers], _ACCESS_STATE, ifsk.access_state, securitystructures_41c08d1c-9d46-4df7-a1fe-dc274e8b3fe7.xml, wdm/ACCESS_STATE, wdm/PACCESS_STATE"
 f1_keywords:
  - "wdm/ACCESS_STATE"
+ - "ACCESS_STATE"
 req.header: wdm.h
 req.include-header: Ntifs.h
 req.target-type: Windows

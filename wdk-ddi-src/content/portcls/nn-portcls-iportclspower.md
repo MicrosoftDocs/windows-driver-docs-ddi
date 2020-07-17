@@ -10,6 +10,7 @@ keywords: ["IPortClsPower interface"]
 ms.keywords: IPortClsPower, IPortClsPower interface [Audio Devices], IPortClsPower interface [Audio Devices],described, audio.iportclspower, audmp-routines_d6815c8f-a34f-423a-a58d-e45a1292d22d.xml, portcls/IPortClsPower
 f1_keywords:
  - "portcls/IPortClsPower"
+ - "IPortClsPower"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows

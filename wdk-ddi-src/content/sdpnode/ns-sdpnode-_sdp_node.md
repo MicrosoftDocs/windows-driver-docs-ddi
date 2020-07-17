@@ -10,6 +10,7 @@ keywords: ["_SDP_NODE structure"]
 ms.keywords: "*PSDP_NODE, PSDP_NODE, PSDP_NODE structure pointer [Bluetooth Devices], SDP_NODE, SDP_NODE structure [Bluetooth Devices], _SDP_NODE, bltooth.sdp_node, bth_structs_30367149-bffb-4ff9-a6d8-2f73c5198874.xml, sdpnode/PSDP_NODE, sdpnode/SDP_NODE"
 f1_keywords:
  - "sdpnode/SDP_NODE"
+ - "SDP_NODE"
 req.header: sdpnode.h
 req.include-header: Sdpnode.h
 req.target-type: Windows

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3DDDI_REVISION16_FROM_VERSION32 macro"]
 f1_keywords:
  - "d3dumddi/D3DDDI_REVISION16_FROM_VERSION32"
+ - "D3DDDI_REVISION16_FROM_VERSION32"
 ms.keywords: D3DDDI_REVISION16_FROM_VERSION32
 req.header: d3dumddi.h
 req.include-header:

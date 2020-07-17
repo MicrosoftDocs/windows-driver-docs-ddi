@@ -10,6 +10,7 @@ keywords: ["PI8042_KEYBOARD_ISR callback function"]
 ms.keywords: KeyboardIsr, KeyboardIsr callback function [Human Input Devices], PI8042_KEYBOARD_ISR, PI8042_KEYBOARD_ISR callback, hid.pi8042_keyboard_isr, i8042ref_34293f47-3e6c-4721-ab58-8ac531543c8e.xml, ntdd8042/KeyboardIsr
 f1_keywords:
  - "ntdd8042/KeyboardIsr"
+ - "KeyboardIsr"
 req.header: ntdd8042.h
 req.include-header: Ntdd8042.h
 req.target-type: Desktop

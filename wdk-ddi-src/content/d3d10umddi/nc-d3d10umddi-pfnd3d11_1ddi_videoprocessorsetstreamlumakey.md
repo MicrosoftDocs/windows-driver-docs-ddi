@@ -9,6 +9,7 @@ keywords: ["PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMLUMAKEY callback function"]
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMLUMAKEY, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMLUMAKEY callback, d3d10umddi/pfnVideoProcessorSetStreamLumaKey, display.videoprocessorsetstreamlumakey, pfnVideoProcessorSetStreamLumaKey, pfnVideoProcessorSetStreamLumaKey callback function [Display Devices]
 f1_keywords:
  - "d3d10umddi/pfnVideoProcessorSetStreamLumaKey"
+ - "pfnVideoProcessorSetStreamLumaKey"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

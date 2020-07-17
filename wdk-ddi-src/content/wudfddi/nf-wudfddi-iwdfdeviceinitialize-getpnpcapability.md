@@ -10,6 +10,7 @@ keywords: ["IWDFDeviceInitialize::GetPnpCapability"]
 ms.keywords: GetPnpCapability, GetPnpCapability method, GetPnpCapability method,IWDFDeviceInitialize interface, IWDFDeviceInitialize interface,GetPnpCapability method, IWDFDeviceInitialize.GetPnpCapability, IWDFDeviceInitialize::GetPnpCapability, UMDFDeviceObjectRef_1b66d13c-336f-4542-9f44-740679953603.xml, umdf.iwdfdeviceinitialize_getpnpcapability, wdf.iwdfdeviceinitialize_getpnpcapability, wudfddi/IWDFDeviceInitialize::GetPnpCapability
 f1_keywords:
  - "wudfddi/IWDFDeviceInitialize.GetPnpCapability"
+ - "IWDFDeviceInitialize.GetPnpCapability"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

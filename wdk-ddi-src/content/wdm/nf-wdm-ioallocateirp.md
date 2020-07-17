@@ -10,6 +10,7 @@ keywords: ["IoAllocateIrp function"]
 ms.keywords: IoAllocateIrp, IoAllocateIrp routine [Kernel-Mode Driver Architecture], k104_326eb80d-9bc3-4a91-9f33-710f7975808a.xml, kernel.ioallocateirp, wdm/IoAllocateIrp
 f1_keywords:
  - "wdm/IoAllocateIrp"
+ - "IoAllocateIrp"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

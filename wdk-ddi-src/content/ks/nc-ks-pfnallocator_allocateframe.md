@@ -10,6 +10,7 @@ keywords: ["PFNALLOCATOR_ALLOCATEFRAME callback function"]
 ms.keywords: KStrAllocateFrame, KStrAllocateFrame routine [Streaming Media Devices], PFNALLOCATOR_ALLOCATEFRAME, ks/KStrAllocateFrame, ksfunc_a90af96e-53df-43f5-b847-ba1876b788fd.xml, stream.kstrallocateframe
 f1_keywords:
  - "ks/KStrAllocateFrame"
+ - "KStrAllocateFrame"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop

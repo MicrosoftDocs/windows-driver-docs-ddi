@@ -10,6 +10,7 @@ keywords: ["WdfCommonBufferGetLength function"]
 ms.keywords: DFCommonBufferObjectRef_cf0ad31e-c159-4cac-846c-52bb280b3d52.xml, WdfCommonBufferGetLength, WdfCommonBufferGetLength method, kmdf.wdfcommonbuffergetlength, wdf.wdfcommonbuffergetlength, wdfcommonbuffer/WdfCommonBufferGetLength
 f1_keywords:
  - "wdfcommonbuffer/WdfCommonBufferGetLength"
+ - "WdfCommonBufferGetLength"
 req.header: wdfcommonbuffer.h
 req.include-header: WdfCommonBuffer.h
 req.target-type: Universal

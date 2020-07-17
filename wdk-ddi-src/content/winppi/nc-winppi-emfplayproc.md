@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["EMFPLAYPROC callback function"]
 f1_keywords:
  - "winppi/EMFPLAYPROC"
+ - "EMFPLAYPROC"
 req.header: winppi.h
 req.include-header:
 req.target-type:

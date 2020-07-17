@@ -10,6 +10,7 @@ keywords: ["_BRB_PSM structure"]
 ms.keywords: "_BRB_PSM, _BRB_PSM structure [Bluetooth Devices], bltooth._brb_psm, bth_structs_f40af07e-a5ad-4654-9ff6-4d162a46ea58.xml, bthddi/_BRB_PSM"
 f1_keywords:
  - "bthddi/_BRB_PSM"
+ - "_BRB_PSM"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["IBidiAsyncNotifyChannel interface"]
 ms.keywords: IBidiAsyncNotifyChannel, IBidiAsyncNotifyChannel interface [Print Devices], IBidiAsyncNotifyChannel interface [Print Devices],described, print.ibidiasyncnotifychannel, prnasntp/IBidiAsyncNotifyChannel
 f1_keywords:
  - "prnasntp/IBidiAsyncNotifyChannel"
+ - "IBidiAsyncNotifyChannel"
 req.header: prnasntp.h
 req.include-header: 
 req.target-type: Windows

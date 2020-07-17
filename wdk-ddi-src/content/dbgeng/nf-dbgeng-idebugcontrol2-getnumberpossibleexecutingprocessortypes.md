@@ -10,6 +10,7 @@ keywords: ["IDebugControl2::GetNumberPossibleExecutingProcessorTypes"]
 ms.keywords: GetNumberPossibleExecutingProcessorTypes, GetNumberPossibleExecutingProcessorTypes method [Windows Debugging], GetNumberPossibleExecutingProcessorTypes method [Windows Debugging],IDebugControl interface, GetNumberPossibleExecutingProcessorTypes method [Windows Debugging],IDebugControl2 interface, GetNumberPossibleExecutingProcessorTypes method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetNumberPossibleExecutingProcessorTypes method, IDebugControl2 interface [Windows Debugging],GetNumberPossibleExecutingProcessorTypes method, IDebugControl2.GetNumberPossibleExecutingProcessorTypes, IDebugControl2::GetNumberPossibleExecutingProcessorTypes, IDebugControl3 interface [Windows Debugging],GetNumberPossibleExecutingProcessorTypes method, IDebugControl3::GetNumberPossibleExecutingProcessorTypes, IDebugControl::GetNumberPossibleExecutingProcessorTypes, IDebugControl_62f066c6-6ffb-4323-ad82-786a8a763783.xml, dbgeng/IDebugControl2::GetNumberPossibleExecutingProcessorTypes, dbgeng/IDebugControl3::GetNumberPossibleExecutingProcessorTypes, dbgeng/IDebugControl::GetNumberPossibleExecutingProcessorTypes, debugger.getnumberpossibleexecutingprocessortypes
 f1_keywords:
  - "dbgeng/IDebugControl.GetNumberPossibleExecutingProcessorTypes"
+ - "IDebugControl.GetNumberPossibleExecutingProcessorTypes"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["PRI_RESERVATION_LIST structure"]
 ms.keywords: "*PPRI_RESERVATION_LIST, PPRI_RESERVATION_LIST, PPRI_RESERVATION_LIST structure pointer [Storage Devices], PRI_RESERVATION_LIST, PRI_RESERVATION_LIST structure [Storage Devices], storage.pri_reservation_list, storport/PPRI_RESERVATION_LIST, storport/PRI_RESERVATION_LIST, structs-general_10a53f53-2aed-4be1-bf2b-d61efa2c846f.xml"
 f1_keywords:
  - "scsi/PRI_RESERVATION_LIST"
+ - "PRI_RESERVATION_LIST"
 req.header: scsi.h
 req.include-header: Ntddstor.h, Minitape.h, Scsi.h
 req.target-type: Windows

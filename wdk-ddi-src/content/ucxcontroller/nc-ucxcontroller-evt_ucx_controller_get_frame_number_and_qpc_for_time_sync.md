@@ -10,6 +10,7 @@ keywords: ["EVT_UCX_CONTROLLER_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC callback f
 ms.keywords: EVT_UCX_CONTROLLER_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC, EVT_UCX_CONTROLLER_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC callback, EvtUcxControllerGetFrameNumberAndQpcForTimeSync, EvtUcxControllerGetFrameNumberAndQpcForTimeSync callback function [Buses], buses.evt_ucx_controller_get_frame_number_and_qpc_for_time_sync, ucxcontroller/EvtUcxControllerGetFrameNumberAndQpcForTimeSync
 f1_keywords:
  - "ucxcontroller/EvtUcxControllerGetFrameNumberAndQpcForTimeSync"
+ - "EvtUcxControllerGetFrameNumberAndQpcForTimeSync"
 req.header: ucxcontroller.h
 req.include-header: Ucxclass.h
 req.target-type: Windows

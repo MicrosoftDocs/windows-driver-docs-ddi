@@ -10,6 +10,7 @@ keywords: ["HidD_GetHidGuid function"]
 ms.keywords: HidD_GetHidGuid, HidD_GetHidGuid routine [Human Input Devices], hid.hidd_gethidguid, hidfunc_61242b6f-b794-48c7-84b8-ef8d0d4e69af.xml, hidsdi/HidD_GetHidGuid
 f1_keywords:
  - "hidsdi/HidD_GetHidGuid"
+ - "HidD_GetHidGuid"
 req.header: hidsdi.h
 req.include-header: Hidsdi.h
 req.target-type: Universal

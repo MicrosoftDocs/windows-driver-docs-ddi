@@ -10,6 +10,7 @@ keywords: ["WRITE_REGISTER_BUFFER_USHORT function"]
 ms.keywords: WRITE_REGISTER_BUFFER_USHORT, WRITE_REGISTER_BUFFER_USHORT routine [Kernel-Mode Driver Architecture], k103_31475540-7ba8-44b6-ad54-e794ffddf8ee.xml, kernel.write_register_buffer_ushort, wdm/WRITE_REGISTER_BUFFER_USHORT
 f1_keywords:
  - "wdm/WRITE_REGISTER_BUFFER_USHORT"
+ - "WRITE_REGISTER_BUFFER_USHORT"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Miniport.h, Wudfwdm.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DXGK_TARGET_GAMMA_CAPS structure"]
 f1_keywords:
  - "d3dkmddi/DXGK_TARGET_GAMMA_CAPS"
+ - "DXGK_TARGET_GAMMA_CAPS"
 ms.keywords: DXGK_TARGET_GAMMA_CAPS, DXGK_TARGET_GAMMA_CAPS, *PDXGK_TARGET_GAMMA_CAPS, 
 req.header: d3dkmddi.h
 req.include-header:

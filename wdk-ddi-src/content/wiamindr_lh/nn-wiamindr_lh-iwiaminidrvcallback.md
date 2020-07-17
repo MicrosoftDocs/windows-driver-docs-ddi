@@ -10,6 +10,7 @@ keywords: ["IWiaMiniDrvCallBack interface"]
 ms.keywords: CallBack_2e94f80e-dde0-4289-8911-a769a909b4d8.xml, IWiaMiniDrvCallBack, IWiaMiniDrvCallBack interface [Imaging Devices], IWiaMiniDrvCallBack interface [Imaging Devices],described, image.iwiaminidrvcallback_interface, wiamindr_lh/IWiaMiniDrvCallBack
 f1_keywords:
  - "wiamindr_lh/IWiaMiniDrvCallBack"
+ - "IWiaMiniDrvCallBack"
 req.header: wiamindr_lh.h
 req.include-header: 
 req.target-type: Windows

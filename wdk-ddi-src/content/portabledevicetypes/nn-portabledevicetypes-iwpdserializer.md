@@ -10,6 +10,7 @@ keywords: ["IWpdSerializer interface"]
 ms.keywords: IWpdSerializer, IWpdSerializer interface, IWpdSerializer interface,described, IWpdSerializerInterface, portabledevicetypes/IWpdSerializer, wpddk.iwpdserializer
 f1_keywords:
  - "portabledevicetypes/IWpdSerializer"
+ - "IWpdSerializer"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows

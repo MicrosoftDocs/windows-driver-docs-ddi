@@ -10,6 +10,7 @@ keywords: ["PoFxSetTargetDripsDevicePowerState function"]
 ms.keywords: PoFxSetTargetDripsDevicePowerState, PoFxSetTargetDripsDevicePowerState function [Kernel-Mode Driver Architecture], kernel.pofxsettargetdripsdevicepowerstate, wdm/PoFxSetTargetDripsDevicePowerState
 f1_keywords:
  - "wdm/PoFxSetTargetDripsDevicePowerState"
+ - "PoFxSetTargetDripsDevicePowerState"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Windows

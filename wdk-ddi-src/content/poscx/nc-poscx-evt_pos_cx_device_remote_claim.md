@@ -10,6 +10,7 @@ keywords: ["EVT_POS_CX_DEVICE_REMOTE_CLAIM callback function"]
 ms.keywords: EVT_POS_CX_DEVICE_REMOTE_CLAIM, EVT_POS_CX_DEVICE_REMOTE_CLAIM callback, EvtPosCxDeviceRemoteClaim, EvtPosCxDeviceRemoteClaim callback function, pos.evt_pos_cx_device_remote_claim, poscx/EvtPosCxDeviceRemoteClaim
 f1_keywords:
  - "poscx/EvtPosCxDeviceRemoteClaim"
+ - "EvtPosCxDeviceRemoteClaim"
 req.header: poscx.h
 req.include-header: Poscx.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["EVT_SPB_CONTROLLER_READ callback function"]
 ms.keywords: EVT_SPB_CONTROLLER_READ, EVT_SPB_CONTROLLER_READ callback, EvtSpbControllerIoRead, EvtSpbControllerIoRead callback function [Buses], SPB.evtspbcontrollerioread, spbcx/EvtSpbControllerIoRead
 f1_keywords:
  - "spbcx/EvtSpbControllerIoRead"
+ - "EvtSpbControllerIoRead"
 req.header: spbcx.h
 req.include-header: 
 req.target-type: Desktop

@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["_EMULATOR_PORT_ACCESS_TYPE enumeration"]
 f1_keywords:
  - "dispmprt/_EMULATOR_PORT_ACCESS_TYPE"
+ - "_EMULATOR_PORT_ACCESS_TYPE"
 ms.keywords: _EMULATOR_PORT_ACCESS_TYPE, EMULATOR_PORT_ACCESS_TYPE, *PEMULATOR_PORT_ACCESS_TYPE, 
 ms.prod: windows-hardware
 ms.technology: windows-devices

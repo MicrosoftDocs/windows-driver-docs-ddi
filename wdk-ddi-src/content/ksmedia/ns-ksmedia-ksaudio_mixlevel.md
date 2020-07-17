@@ -10,6 +10,7 @@ keywords: ["KSAUDIO_MIXLEVEL structure"]
 ms.keywords: "*PKSAUDIO_MIXLEVEL, KSAUDIO_MIXLEVEL, KSAUDIO_MIXLEVEL structure [Audio Devices], PKSAUDIO_MIXLEVEL, PKSAUDIO_MIXLEVEL structure pointer [Audio Devices], aud-prop_d80f29a4-4872-49cc-b1af-94b69be9c229.xml, audio.ksaudio_mixlevel, ksmedia/KSAUDIO_MIXLEVEL, ksmedia/PKSAUDIO_MIXLEVEL"
 f1_keywords:
  - "ksmedia/KSAUDIO_MIXLEVEL"
+ - "KSAUDIO_MIXLEVEL"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

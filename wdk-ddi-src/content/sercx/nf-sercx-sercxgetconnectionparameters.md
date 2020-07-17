@@ -10,6 +10,7 @@ keywords: ["SerCxGetConnectionParameters function"]
 ms.keywords: 1/SerCxGetConnectionParameters, SerCxGetConnectionParameters, SerCxGetConnectionParameters method [Serial Ports], serports.sercxgetconnectionparameters
 f1_keywords:
  - "sercx/SerCxGetConnectionParameters"
+ - "SerCxGetConnectionParameters"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal

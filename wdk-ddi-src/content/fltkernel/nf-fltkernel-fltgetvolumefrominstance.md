@@ -10,6 +10,7 @@ keywords: ["FltGetVolumeFromInstance function"]
 ms.keywords: FltApiRef_e_to_o_4e727c23-1258-41cd-a8eb-befec90c7ea9.xml, FltGetVolumeFromInstance, FltGetVolumeFromInstance routine [Installable File System Drivers], fltkernel/FltGetVolumeFromInstance, ifsk.fltgetvolumefrominstance
 f1_keywords:
  - "fltkernel/FltGetVolumeFromInstance"
+ - "FltGetVolumeFromInstance"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

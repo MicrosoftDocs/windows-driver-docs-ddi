@@ -10,6 +10,7 @@ keywords: ["IOCTL_MOUNTMGR_QUERY_POINTS IOCTL"]
 ms.keywords: IOCTL_MOUNTMGR_QUERY_POINTS, IOCTL_MOUNTMGR_QUERY_POINTS control, IOCTL_MOUNTMGR_QUERY_POINTS control code [Storage Devices], k307_2d7b44e3-c40f-4626-aad0-5e1cf8843685.xml, mountmgr/IOCTL_MOUNTMGR_QUERY_POINTS, storage.ioctl_mountmgr_query_points
 f1_keywords:
  - "mountmgr/IOCTL_MOUNTMGR_QUERY_POINTS"
+ - "IOCTL_MOUNTMGR_QUERY_POINTS"
 req.header: mountmgr.h
 req.include-header: Mountmgr.h
 req.target-type: Windows

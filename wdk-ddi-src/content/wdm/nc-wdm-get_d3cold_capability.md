@@ -10,6 +10,7 @@ keywords: ["GET_D3COLD_CAPABILITY callback function"]
 ms.keywords: GET_D3COLD_CAPABILITY, GetBusDriverD3ColdSupport, GetBusDriverD3ColdSupport routine [Kernel-Mode Driver Architecture], kernel.getbusdriverd3coldsupport, wdm/GetBusDriverD3ColdSupport
 f1_keywords:
  - "wdm/GetBusDriverD3ColdSupport"
+ - "GetBusDriverD3ColdSupport"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["_KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT structure"]
 ms.keywords: "*PKE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT structure [Kernel-Mode Driver Architecture], PKE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, PKE_PROCESSOR_CHANGE_NOTIFY_CONTEXT structure pointer [Kernel-Mode Driver Architecture], _KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, kernel.ke_processor_change_notify_context, kstruct_c_dcd6ab01-880a-4a63-bd74-acff53b786d1.xml, wdm/KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, wdm/PKE_PROCESSOR_CHANGE_NOTIFY_CONTEXT"
 f1_keywords:
  - "wdm/KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT"
+ - "KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows

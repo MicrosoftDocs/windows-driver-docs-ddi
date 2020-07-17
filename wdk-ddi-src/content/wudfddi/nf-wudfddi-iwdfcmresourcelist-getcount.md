@@ -10,6 +10,7 @@ keywords: ["IWDFCmResourceList::GetCount"]
 ms.keywords: GetCount, GetCount method, GetCount method,IWDFCmResourceList interface, IWDFCmResourceList interface,GetCount method, IWDFCmResourceList.GetCount, IWDFCmResourceList::GetCount, umdf.iwdfcmresourcelist_getcount, wdf.iwdfcmresourcelist_getcount, wudfddi/IWDFCmResourceList::GetCount
 f1_keywords:
  - "wudfddi/IWDFCmResourceList.GetCount"
+ - "IWDFCmResourceList.GetCount"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop

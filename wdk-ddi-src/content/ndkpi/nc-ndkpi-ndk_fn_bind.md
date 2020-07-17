@@ -10,6 +10,7 @@ keywords: ["NDK_FN_BIND callback function"]
 ms.keywords: NDK_FN_BIND, NDK_FN_BIND callback, NDK_OP_FLAG_ALLOW_REMOTE_READ, NDK_OP_FLAG_ALLOW_REMOTE_WRITE, NDK_OP_FLAG_DEFER, NDK_OP_FLAG_READ_FENCE, NDK_OP_FLAG_SILENT_SUCCESS, NdkBind, NdkBind callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkBind, netvista.ndk_fn_bind
 f1_keywords:
  - "ndkpi/NdkBind"
+ - "NdkBind"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

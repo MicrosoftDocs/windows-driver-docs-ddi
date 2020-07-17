@@ -10,6 +10,7 @@ keywords: ["_NDIS_SWITCH_PARAMETERS structure"]
 ms.keywords: "*PNDIS_SWITCH_PARAMETERS, NDIS_SWITCH_PARAMETERS, NDIS_SWITCH_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PARAMETERS, PNDIS_SWITCH_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PARAMETERS, netvista.ndis_switch_parameters, ntddndis/NDIS_SWITCH_PARAMETERS, ntddndis/PNDIS_SWITCH_PARAMETERS"
 f1_keywords:
  - "ntddndis/NDIS_SWITCH_PARAMETERS"
+ - "NDIS_SWITCH_PARAMETERS"
 req.header: ntddndis.h
 req.include-header: Ndis.h, Fwpsk.h
 req.target-type: Windows

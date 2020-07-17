@@ -10,6 +10,7 @@ keywords: ["IOCTL_TAPE_PREPARE IOCTL"]
 ms.keywords: IOCTL_TAPE_PREPARE, IOCTL_TAPE_PREPARE control, IOCTL_TAPE_PREPARE control code [Storage Devices], k307_a564f3c9-909a-437c-973c-0e6c25fad061.xml, ntddtape/IOCTL_TAPE_PREPARE, storage.ioctl_tape_prepare
 f1_keywords:
  - "ntddtape/IOCTL_TAPE_PREPARE"
+ - "IOCTL_TAPE_PREPARE"
 req.header: ntddtape.h
 req.include-header: Ntddtape.h
 req.target-type: Windows

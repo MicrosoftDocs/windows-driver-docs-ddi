@@ -10,6 +10,7 @@ keywords: ["_NDIS_NIC_SWITCH_TYPE enumeration"]
 ms.keywords: "*PNDIS_NIC_SWITCH_TYPE, NDIS_NIC_SWITCH_TYPE, NDIS_NIC_SWITCH_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisNicSwitchTypeExternal, NdisNicSwitchTypeMax, NdisNicSwitchTypeUnspecified, PNDIS_NIC_SWITCH_TYPE, PNDIS_NIC_SWITCH_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_NIC_SWITCH_TYPE, netvista.ndis_nic_switch_type, ntddndis/NDIS_NIC_SWITCH_TYPE, ntddndis/NdisNicSwitchTypeExternal, ntddndis/NdisNicSwitchTypeMax, ntddndis/NdisNicSwitchTypeUnspecified, ntddndis/PNDIS_NIC_SWITCH_TYPE"
 f1_keywords:
  - "ntddndis/NDIS_NIC_SWITCH_TYPE"
+ - "NDIS_NIC_SWITCH_TYPE"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

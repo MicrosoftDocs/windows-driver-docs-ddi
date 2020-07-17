@@ -10,6 +10,7 @@ keywords: ["IoMakeAssociatedIrp function"]
 ms.keywords: IoMakeAssociatedIrp, IoMakeAssociatedIrp routine [Kernel-Mode Driver Architecture], k104_35615730-15a8-4959-8c4d-8e9b4a186e10.xml, kernel.iomakeassociatedirp, ntddk/IoMakeAssociatedIrp
 f1_keywords:
  - "ntddk/IoMakeAssociatedIrp"
+ - "IoMakeAssociatedIrp"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

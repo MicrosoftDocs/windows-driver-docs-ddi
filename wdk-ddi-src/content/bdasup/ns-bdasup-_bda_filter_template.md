@@ -10,6 +10,7 @@ keywords: ["_BDA_FILTER_TEMPLATE structure"]
 ms.keywords: "*PBDA_FILTER_TEMPLATE, BDA_FILTER_TEMPLATE, BDA_FILTER_TEMPLATE structure [Streaming Media Devices], PBDA_FILTER_TEMPLATE, PBDA_FILTER_TEMPLATE structure pointer [Streaming Media Devices], _BDA_FILTER_TEMPLATE, bdaref_cf65795d-632d-4c79-9136-95c256ae8b35.xml, bdasup/BDA_FILTER_TEMPLATE, bdasup/PBDA_FILTER_TEMPLATE, stream.bda_filter_template"
 f1_keywords:
  - "bdasup/BDA_FILTER_TEMPLATE"
+ - "BDA_FILTER_TEMPLATE"
 req.header: bdasup.h
 req.include-header: Bdasup.h
 req.target-type: Windows

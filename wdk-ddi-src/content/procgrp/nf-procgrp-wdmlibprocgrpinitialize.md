@@ -10,6 +10,7 @@ keywords: ["WdmlibProcgrpInitialize function"]
 ms.keywords: WdmlibProcgrpInitialize, WdmlibProcgrpInitialize function [Kernel-Mode Driver Architecture], kernel.wdmlibprocgrpinitialize, procgrp/WdmlibProcgrpInitialize, procgrp_ba92a7bb-1a2b-4056-bebd-d9df299768c1.xml
 f1_keywords:
  - "procgrp/WdmlibProcgrpInitialize"
+ - "WdmlibProcgrpInitialize"
 req.header: procgrp.h
 req.include-header: Procgrp.h
 req.target-type: Desktop

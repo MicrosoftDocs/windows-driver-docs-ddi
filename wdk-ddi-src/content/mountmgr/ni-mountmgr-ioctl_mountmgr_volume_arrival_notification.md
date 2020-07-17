@@ -10,6 +10,7 @@ keywords: ["IOCTL_MOUNTMGR_VOLUME_ARRIVAL_NOTIFICATION IOCTL"]
 ms.keywords: IOCTL_MOUNTMGR_VOLUME_ARRIVAL_NOTIFICATION, IOCTL_MOUNTMGR_VOLUME_ARRIVAL_NOTIFICATION control, IOCTL_MOUNTMGR_VOLUME_ARRIVAL_NOTIFICATION control code [Storage Devices], k307_7a15b0f1-9be7-476f-936c-225e39ef53c0.xml, mountmgr/IOCTL_MOUNTMGR_VOLUME_ARRIVAL_NOTIFICATION, storage.ioctl_mountmgr_volume_arrival_notification
 f1_keywords:
  - "mountmgr/IOCTL_MOUNTMGR_VOLUME_ARRIVAL_NOTIFICATION"
+ - "IOCTL_MOUNTMGR_VOLUME_ARRIVAL_NOTIFICATION"
 req.header: mountmgr.h
 req.include-header: Mountmgr.h
 req.target-type: Windows

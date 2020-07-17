@@ -10,6 +10,7 @@ keywords: ["RtlIsValidOemCharacter function"]
 ms.keywords: RtlIsValidOemCharacter, RtlIsValidOemCharacter routine [Installable File System Drivers], ifsk.rtlisvalidoemcharacter, ntifs/RtlIsValidOemCharacter, rtlref_ebbaa5fc-63da-4eef-b8ac-be10a6e062a0.xml
 f1_keywords:
  - "ntifs/RtlIsValidOemCharacter"
+ - "RtlIsValidOemCharacter"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

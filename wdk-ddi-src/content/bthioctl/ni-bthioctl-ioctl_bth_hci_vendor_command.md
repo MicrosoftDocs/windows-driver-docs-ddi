@@ -10,6 +10,7 @@ keywords: ["IOCTL_BTH_HCI_VENDOR_COMMAND IOCTL"]
 ms.keywords: IOCTL_BTH_HCI_VENDOR_COMMAND, IOCTL_BTH_HCI_VENDOR_COMMAND control, IOCTL_BTH_HCI_VENDOR_COMMAND control code [Bluetooth Devices], bltooth.ioctl_bth_hci_vendor_command, bth_ref_f907562d-11ca-4ec2-ace5-97042364bb01.xml, bthioctl/IOCTL_BTH_HCI_VENDOR_COMMAND
 f1_keywords:
  - "bthioctl/IOCTL_BTH_HCI_VENDOR_COMMAND"
+ - "IOCTL_BTH_HCI_VENDOR_COMMAND"
 req.header: bthioctl.h
 req.include-header: Bthioctl.h
 req.target-type: Windows

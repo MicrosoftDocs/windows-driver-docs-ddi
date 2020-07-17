@@ -10,6 +10,7 @@ keywords: ["IWDTFSystemAction2::put_Critical"]
 ms.keywords: Critical property [Windows Device Testing Framework], Critical property [Windows Device Testing Framework],IWDTFSystemAction2 interface, IWDTFSystemAction2 interface [Windows Device Testing Framework],Critical property, IWDTFSystemAction2.Critical, IWDTFSystemAction2.put_Critical, IWDTFSystemAction2::Critical, IWDTFSystemAction2::get_Critical, IWDTFSystemAction2::put_Critical, Microsoft.WDTF.IWDTFSystemAction2.Critical, Microsoft::WDTF::IWDTFSystemAction2::Critical, dtf.iwdtfsystemaction2_critical, put_Critical, wdtfsystemaction/IWDTFSystemAction2::Critical, wdtfsystemaction/IWDTFSystemAction2::get_Critical, wdtfsystemaction/IWDTFSystemAction2::put_Critical
 f1_keywords:
  - "wdtfsystemaction/IWDTFSystemAction2.Critical"
+ - "IWDTFSystemAction2.Critical"
 req.header: wdtfsystemaction.h
 req.include-header: 
 req.target-type: Windows

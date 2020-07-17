@@ -10,6 +10,7 @@ keywords: ["tagKS_MPEG1VIDEOINFO structure"]
 ms.keywords: "*PKS_MPEG1VIDEOINFO, KS_MPEG1VIDEOINFO, KS_MPEG1VIDEOINFO structure [Streaming Media Devices], PKS_MPEG1VIDEOINFO, PKS_MPEG1VIDEOINFO structure pointer [Streaming Media Devices], ksmedia/KS_MPEG1VIDEOINFO, ksmedia/PKS_MPEG1VIDEOINFO, stream.ks_mpeg1videoinfo, tagKS_MPEG1VIDEOINFO, vidcapstruct_5c9e7f76-f279-49fb-9ad8-f23b7741d685.xml"
 f1_keywords:
  - "ksmedia/KS_MPEG1VIDEOINFO"
+ - "KS_MPEG1VIDEOINFO"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

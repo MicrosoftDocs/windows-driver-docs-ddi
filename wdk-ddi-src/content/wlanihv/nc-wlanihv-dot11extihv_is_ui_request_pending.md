@@ -10,6 +10,7 @@ keywords: ["DOT11EXTIHV_IS_UI_REQUEST_PENDING callback"]
 ms.keywords: DOT11EXTIHV_IS_UI_REQUEST_PENDING, Dot11ExtIhvIsUIRequestPending, Dot11ExtIhvIsUIRequestPending callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_88488999-ecad-4845-a4b3-051b96c506dd.xml, netvista.dot11extihvisuirequestpending, wlanihv/Dot11ExtIhvIsUIRequestPending
 f1_keywords:
  - "wlanihv/Dot11ExtIhvIsUIRequestPending"
+ - "Dot11ExtIhvIsUIRequestPending"
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Desktop

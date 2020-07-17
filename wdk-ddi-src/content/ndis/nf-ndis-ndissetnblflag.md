@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["NdisSetNblFlag macro"]
 f1_keywords:
  - "ndis/NdisSetNblFlag"
+ - "NdisSetNblFlag"
 ms.keywords: NdisSetNblFlag
 req.header: ndis.h
 req.include-header:

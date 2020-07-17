@@ -10,6 +10,7 @@ keywords: ["BranchOfficeJobDataPipelineFailed structure"]
 ms.keywords: "*PBranchOfficeJobDataPipelineFailed, BranchOfficeJobDataPipelineFailed, BranchOfficeJobDataPipelineFailed structure [Print Devices], PBranchOfficeJobDataPipelineFailed, PBranchOfficeJobDataPipelineFailed structure pointer [Print Devices], print.branchofficejobdatapipelinefailed, winsplp/BranchOfficeJobDataPipelineFailed, winsplp/PBranchOfficeJobDataPipelineFailed"
 f1_keywords:
  - "winsplp/BranchOfficeJobDataPipelineFailed"
+ - "BranchOfficeJobDataPipelineFailed"
 req.header: winsplp.h
 req.include-header: 
 req.target-type: Windows

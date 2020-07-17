@@ -10,6 +10,7 @@ keywords: ["RILOPENUICCLOGICALCHANNELPARAMS structure"]
 ms.keywords: "*LPRILOPENUICCLOGICALCHANNELPARAMS, RILOPENUICCLOGICALCHANNELPARAMS, RILOPENUICCLOGICALCHANNELPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilopenuicclogicalchannelparams, ntddrilapitypes/RILOPENUICCLOGICALCHANNELPARAMS"
 f1_keywords:
  - "ntddrilapitypes/RILOPENUICCLOGICALCHANNELPARAMS"
+ - "RILOPENUICCLOGICALCHANNELPARAMS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["FsRtlReleaseFile function"]
 ms.keywords: FsRtlReleaseFile, FsRtlReleaseFile function [Installable File System Drivers], fsrtlref_301a078d-fbc5-4d2d-84f3-e0a1214731a9.xml, ifsk.fsrtlreleasefile, ntifs/FsRtlReleaseFile
 f1_keywords:
  - "ntifs/FsRtlReleaseFile"
+ - "FsRtlReleaseFile"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

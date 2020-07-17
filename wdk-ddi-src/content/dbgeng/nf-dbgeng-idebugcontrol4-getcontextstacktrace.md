@@ -10,6 +10,7 @@ keywords: ["IDebugControl4::GetContextStackTrace"]
 ms.keywords: GetContextStackTrace, GetContextStackTrace method [Windows Debugging], GetContextStackTrace method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetContextStackTrace method, IDebugControl4.GetContextStackTrace, IDebugControl4::GetContextStackTrace, IDebugControl_ae12ec1a-8839-49cc-8082-c328a570188b.xml, dbgeng/IDebugControl4::GetContextStackTrace, debugger.getcontextstacktrace
 f1_keywords:
  - "dbgeng/IDebugControl4.GetContextStackTrace"
+ - "IDebugControl4.GetContextStackTrace"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h, Ntddk.h
 req.target-type: Desktop

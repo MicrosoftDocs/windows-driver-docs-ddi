@@ -10,6 +10,7 @@ keywords: ["_BIDI_REQUEST_CONTAINER structure"]
 ms.keywords: "*LPBIDI_REQUEST_CONTAINER, *PBIDI_REQUEST_CONTAINER, BIDI_REQUEST_CONTAINER, BIDI_REQUEST_CONTAINER structure [Print Devices], LPBIDI_REQUEST_CONTAINER, LPBIDI_REQUEST_CONTAINER structure pointer [Print Devices], PBIDI_REQUEST_CONTAINER, PBIDI_REQUEST_CONTAINER structure pointer [Print Devices], _BIDI_REQUEST_CONTAINER, print.bidi_request_container, spoolfnc_26c43d0f-69f8-415c-8653-79ef503fe139.xml, winspool/BIDI_REQUEST_CONTAINER, winspool/LPBIDI_REQUEST_CONTAINER, winspool/PBIDI_REQUEST_CONTAINER"
 f1_keywords:
  - "winspool/BIDI_REQUEST_CONTAINER"
+ - "BIDI_REQUEST_CONTAINER"
 req.header: winspool.h
 req.include-header: Winspool.h
 req.target-type: Windows

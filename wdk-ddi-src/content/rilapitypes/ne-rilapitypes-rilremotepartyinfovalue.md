@@ -10,6 +10,7 @@ keywords: ["RILREMOTEPARTYINFOVALUE enumeration"]
 ms.keywords: RILREMOTEPARTYINFOVALUE, RILREMOTEPARTYINFOVALUE enumeration [Network Drivers Starting with Windows Vista], RIL_REMOTEPARTYINFO_MAX, RIL_REMOTEPARTYINFO_UNAVAILABLE, RIL_REMOTEPARTYINFO_WITHHELD, netvista.rilremotepartyinfovalue, ntddrilapitypes/RILREMOTEPARTYINFOVALUE, ntddrilapitypes/RIL_REMOTEPARTYINFO_MAX, ntddrilapitypes/RIL_REMOTEPARTYINFO_UNAVAILABLE, ntddrilapitypes/RIL_REMOTEPARTYINFO_WITHHELD
 f1_keywords:
  - "rilapitypes/RILREMOTEPARTYINFOVALUE"
+ - "RILREMOTEPARTYINFOVALUE"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

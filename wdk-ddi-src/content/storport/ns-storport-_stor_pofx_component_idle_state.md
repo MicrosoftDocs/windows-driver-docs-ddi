@@ -10,6 +10,7 @@ keywords: ["_STOR_POFX_COMPONENT_IDLE_STATE structure"]
 ms.keywords: "*PSTOR_POFX_COMPONENT_IDLE_STATE, PSTOR_POFX_COMPONENT_IDLE_STATE, PSTOR_POFX_COMPONENT_IDLE_STATE structure pointer [Storage Devices], STOR_POFX_COMPONENT_IDLE_STATE, STOR_POFX_COMPONENT_IDLE_STATE structure [Storage Devices], _STOR_POFX_COMPONENT_IDLE_STATE, storage.stor_pofx_component_idle_state, storport/PSTOR_POFX_COMPONENT_IDLE_STATE, storport/STOR_POFX_COMPONENT_IDLE_STATE"
 f1_keywords:
  - "storport/STOR_POFX_COMPONENT_IDLE_STATE"
+ - "STOR_POFX_COMPONENT_IDLE_STATE"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["RILMESSAGETYPE enumeration"]
 ms.keywords: RILMESSAGETYPE, RILMESSAGETYPE enumeration [Network Drivers Starting with Windows Vista], RIL_MSGTYPE_BC_GENERAL, RIL_MSGTYPE_IN_CDMADELIVER, RIL_MSGTYPE_IN_IS637STATUS, RIL_MSGTYPE_IN_STATUS, RIL_MSGTYPE_OUT_CDMASUBMIT, RIL_MSGTYPE_OUT_SUBMIT, netvista.rilmessagetype, ntddrilapitypes/RILMESSAGETYPE, ntddrilapitypes/RIL_MSGTYPE_BC_GENERAL, ntddrilapitypes/RIL_MSGTYPE_IN_CDMADELIVER, ntddrilapitypes/RIL_MSGTYPE_IN_IS637STATUS, ntddrilapitypes/RIL_MSGTYPE_IN_STATUS, ntddrilapitypes/RIL_MSGTYPE_OUT_CDMASUBMIT, ntddrilapitypes/RIL_MSGTYPE_OUT_SUBMIT
 f1_keywords:
  - "ntddrilapitypes/RILMESSAGETYPE"
+ - "RILMESSAGETYPE"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

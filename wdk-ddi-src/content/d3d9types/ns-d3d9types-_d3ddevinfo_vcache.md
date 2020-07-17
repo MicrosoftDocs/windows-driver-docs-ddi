@@ -10,6 +10,7 @@ keywords: ["_D3DDEVINFO_VCACHE structure"]
 ms.keywords: "*LPD3DDEVINFO_VCACHE, D3DDEVINFO_VCACHE, D3DDEVINFO_VCACHE structure [Display Devices], LPD3DDEVINFO_VCACHE, LPD3DDEVINFO_VCACHE structure pointer [Display Devices], _D3DDEVINFO_VCACHE, d3d9types/D3DDEVINFO_VCACHE, d3d9types/LPD3DDEVINFO_VCACHE, d3dstrct_19dad044-1780-4c89-a518-328f0dfa3a26.xml, display.d3ddevinfo_vcache"
 f1_keywords:
  - "d3d9types/D3DDEVINFO_VCACHE"
+ - "D3DDEVINFO_VCACHE"
 req.header: d3d9types.h
 req.include-header: D3d9types.h
 req.target-type: Windows

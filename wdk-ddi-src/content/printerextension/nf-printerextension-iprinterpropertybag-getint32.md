@@ -10,6 +10,7 @@ keywords: ["IPrinterPropertyBag::GetInt32"]
 ms.keywords: GetInt32, GetInt32 method [Print Devices], GetInt32 method [Print Devices],IPrinterPropertyBag interface, IPrinterPropertyBag interface [Print Devices],GetInt32 method, IPrinterPropertyBag.GetInt32, IPrinterPropertyBag::GetInt32, print.iprinterpropertybag_getint32, printerextension/IPrinterPropertyBag::GetInt32
 f1_keywords:
  - "printerextension/IPrinterPropertyBag.GetInt32"
+ - "IPrinterPropertyBag.GetInt32"
 req.header: printerextension.h
 req.include-header: Printerextension.h
 req.target-type: Desktop

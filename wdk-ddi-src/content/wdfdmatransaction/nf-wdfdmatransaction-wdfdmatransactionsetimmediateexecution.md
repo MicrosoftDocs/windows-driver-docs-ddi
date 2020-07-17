@@ -10,6 +10,7 @@ keywords: ["WdfDmaTransactionSetImmediateExecution function"]
 ms.keywords: WdfDmaTransactionSetImmediateExecution, WdfDmaTransactionSetImmediateExecution method, kmdf.wdfdmatransactionsetimmediateexecution, wdf.wdfdmatransactionsetimmediateexecution, wdfdmatransaction/WdfDmaTransactionSetImmediateExecution
 f1_keywords:
  - "wdfdmatransaction/WdfDmaTransactionSetImmediateExecution"
+ - "WdfDmaTransactionSetImmediateExecution"
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h
 req.target-type: Universal

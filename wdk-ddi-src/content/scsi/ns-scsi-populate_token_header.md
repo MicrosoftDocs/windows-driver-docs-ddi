@@ -10,6 +10,7 @@ keywords: ["POPULATE_TOKEN_HEADER structure"]
 ms.keywords: "*PPOPULATE_TOKEN_HEADER, POPULATE_TOKEN_HEADER, POPULATE_TOKEN_HEADER structure [Storage Devices], PPOPULATE_TOKEN_HEADER, PPOPULATE_TOKEN_HEADER structure pointer [Storage Devices], scsi/POPULATE_TOKEN_HEADER, scsi/PPOPULATE_TOKEN_HEADER, storage.populate_token_header"
 f1_keywords:
  - "scsi/POPULATE_TOKEN_HEADER"
+ - "POPULATE_TOKEN_HEADER"
 req.header: scsi.h
 req.include-header: Scsi.h, Minitape.h, Storport.h
 req.target-type: Windows

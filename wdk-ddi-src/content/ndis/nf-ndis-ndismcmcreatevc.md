@@ -10,6 +10,7 @@ keywords: ["NdisMCmCreateVc function"]
 ms.keywords: NdisMCmCreateVc, NdisMCmCreateVc function [Network Drivers Starting with Windows Vista], condis_mcm_ref_eab0d24d-ee49-457d-9475-e4d7c3a50023.xml, ndis/NdisMCmCreateVc, netvista.ndismcmcreatevc
 f1_keywords:
  - "ndis/NdisMCmCreateVc"
+ - "NdisMCmCreateVc"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

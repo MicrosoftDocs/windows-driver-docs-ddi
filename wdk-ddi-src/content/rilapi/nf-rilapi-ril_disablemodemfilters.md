@@ -10,6 +10,7 @@ keywords: ["RIL_DisableModemFilters function"]
 ms.keywords: RIL_DisableModemFilters, RIL_DisableModemFilters method [Network Drivers Starting with Windows Vista], netvista.ril_disablemodemfilters, rilapi/RIL_DisableModemFilters
 f1_keywords:
  - "rilapi/RIL_DisableModemFilters"
+ - "RIL_DisableModemFilters"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

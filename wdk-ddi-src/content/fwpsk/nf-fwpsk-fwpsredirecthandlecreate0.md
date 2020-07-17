@@ -10,6 +10,7 @@ keywords: ["FwpsRedirectHandleCreate0 function"]
 ms.keywords: FwpsRedirectHandleCreate0, FwpsRedirectHandleCreate0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsRedirectHandleCreate0, netvista.fwpsredirecthandlecreate0
 f1_keywords:
  - "fwpsk/FwpsRedirectHandleCreate0"
+ - "FwpsRedirectHandleCreate0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal

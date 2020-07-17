@@ -10,6 +10,7 @@ keywords: ["IOCTL_DISK_GET_DRIVE_LAYOUT_EX IOCTL"]
 ms.keywords: IOCTL_DISK_GET_DRIVE_LAYOUT_EX, IOCTL_DISK_GET_DRIVE_LAYOUT_EX control, IOCTL_DISK_GET_DRIVE_LAYOUT_EX control code [Storage Devices], k307_81993d9b-900f-412c-ac07-f0765114141f.xml, ntdddisk/IOCTL_DISK_GET_DRIVE_LAYOUT_EX, storage.ioctl_disk_get_drive_layout_ex
 f1_keywords:
  - "ntdddisk/IOCTL_DISK_GET_DRIVE_LAYOUT_EX"
+ - "IOCTL_DISK_GET_DRIVE_LAYOUT_EX"
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h
 req.target-type: Windows

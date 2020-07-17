@@ -7,6 +7,7 @@ ms.date: 08/03/2018
 keywords: ["SENSOR_CONNECTION_TYPES enumeration"]
 f1_keywords:
  - "sensorsdef/SENSOR_CONNECTION_TYPES"
+ - "SENSOR_CONNECTION_TYPES"
 ms.keywords: SENSOR_CONNECTION_TYPES, SENSOR_CONNECTION_TYPES,
 req.header: sensorsdef.h
 req.include-header:

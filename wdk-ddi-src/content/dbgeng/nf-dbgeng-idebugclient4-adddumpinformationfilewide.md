@@ -10,6 +10,7 @@ keywords: ["IDebugClient4::AddDumpInformationFileWide"]
 ms.keywords: AddDumpInformationFileWide, AddDumpInformationFileWide method [Windows Debugging], AddDumpInformationFileWide method [Windows Debugging],IDebugClient4 interface, AddDumpInformationFileWide method [Windows Debugging],IDebugClient5 interface, IDebugClient4 interface [Windows Debugging],AddDumpInformationFileWide method, IDebugClient4.AddDumpInformationFileWide, IDebugClient4::AddDumpInformationFileWide, IDebugClient5 interface [Windows Debugging],AddDumpInformationFileWide method, IDebugClient5::AddDumpInformationFileWide, IDebugClient_515044fe-647d-447a-bb74-5738d4d08d6d.xml, dbgeng/IDebugClient4::AddDumpInformationFileWide, dbgeng/IDebugClient5::AddDumpInformationFileWide, debugger.adddumpinformationfilewide
 f1_keywords:
  - "dbgeng/IDebugClient4.AddDumpInformationFileWide"
+ - "IDebugClient4.AddDumpInformationFileWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

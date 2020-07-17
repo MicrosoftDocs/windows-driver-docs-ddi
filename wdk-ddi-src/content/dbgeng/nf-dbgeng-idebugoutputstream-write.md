@@ -10,6 +10,7 @@ keywords: ["IDebugOutputStream::Write"]
 ms.keywords: IDebugOutputStream interface [Windows Debugging],Write method, IDebugOutputStream.Write, IDebugOutputStream::Write, Write, Write method [Windows Debugging], Write method [Windows Debugging],IDebugOutputStream interface, dbgeng/IDebugOutputStream::Write, debugger.idebugoutputstream_write
 f1_keywords:
  - "dbgeng/IDebugOutputStream.Write"
+ - "IDebugOutputStream.Write"
 req.header: dbgeng.h
 req.include-header: 
 req.target-type: Windows

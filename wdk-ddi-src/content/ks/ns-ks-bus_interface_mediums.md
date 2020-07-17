@@ -10,6 +10,7 @@ keywords: ["BUS_INTERFACE_MEDIUMS structure"]
 ms.keywords: "*PBUS_INTERFACE_MEDIUMS, BUS_INTERFACE_MEDIUMS, BUS_INTERFACE_MEDIUMS structure [Streaming Media Devices], PBUS_INTERFACE_MEDIUMS, PBUS_INTERFACE_MEDIUMS structure pointer [Streaming Media Devices], ks/BUS_INTERFACE_MEDIUMS, ks/PBUS_INTERFACE_MEDIUMS, stream.bus_interface_mediums"
 f1_keywords:
  - "ks/BUS_INTERFACE_MEDIUMS"
+ - "BUS_INTERFACE_MEDIUMS"
 req.header: ks.h
 req.include-header: 
 req.target-type: Windows

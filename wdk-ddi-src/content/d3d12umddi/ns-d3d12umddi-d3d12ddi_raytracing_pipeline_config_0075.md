@@ -32,6 +32,7 @@ api_name:
  - D3D12DDI_RAYTRACING_PIPELINE_CONFIG_0075
 f1_keywords:
  - d3d12umddi/D3D12DDI_RAYTRACING_PIPELINE_CONFIG_0075
+ - ""
 dev_langs:
  - c++
 ---

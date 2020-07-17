@@ -10,6 +10,7 @@ keywords: ["_BTHX_VERSION structure"]
 ms.keywords: "*PBTHX_VERSION, BTHX_VERSION, BTHX_VERSION structure [Bluetooth Devices], _BTHX_VERSION, bltooth.bthx_version, bthxddi/_BTHX_VERSION"
 f1_keywords:
  - "bthxddi/_BTHX_VERSION"
+ - "_BTHX_VERSION"
 req.header: bthxddi.h
 req.include-header: BthXDDI.h
 req.target-type: Windows

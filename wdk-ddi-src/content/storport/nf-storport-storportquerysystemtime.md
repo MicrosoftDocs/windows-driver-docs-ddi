@@ -10,6 +10,7 @@ keywords: ["StorPortQuerySystemTime function"]
 ms.keywords: StorPortQuerySystemTime, StorPortQuerySystemTime routine [Storage Devices], storage.storportquerysystemtime, storport/StorPortQuerySystemTime, storprt_fcad0e23-f796-4cd9-935c-6db56a63d899.xml
 f1_keywords:
  - "storport/StorPortQuerySystemTime"
+ - "StorPortQuerySystemTime"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

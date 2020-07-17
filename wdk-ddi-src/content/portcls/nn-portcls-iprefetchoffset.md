@@ -10,6 +10,7 @@ keywords: ["IPreFetchOffset interface"]
 ms.keywords: IPreFetchOffset, IPreFetchOffset interface [Audio Devices], IPreFetchOffset interface [Audio Devices],described, audio.iprefetchoffset, audmp-routines_71e52125-c3a2-4434-96f3-e3a66b482a3a.xml, portcls/IPreFetchOffset
 f1_keywords:
  - "portcls/IPreFetchOffset"
+ - "IPreFetchOffset"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows

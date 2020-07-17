@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["MCG_CAP structure"]
 f1_keywords:
  - "ntddk/MCG_CAP"
+ - "MCG_CAP"
 ms.keywords: MCG_CAP, MCG_CAP, *PMCG_CAP, 
 req.header: ntddk.h
 req.include-header:

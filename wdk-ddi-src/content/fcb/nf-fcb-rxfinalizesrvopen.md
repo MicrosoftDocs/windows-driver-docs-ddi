@@ -10,6 +10,7 @@ keywords: ["RxFinalizeSrvOpen function"]
 ms.keywords: RxFinalizeSrvOpen, RxFinalizeSrvOpen function [Installable File System Drivers], fcb/RxFinalizeSrvOpen, ifsk.rxfinalizesrvopen, rxref_0665a600-9a4c-4674-87bd-f9758b579cee.xml
 f1_keywords:
  - "fcb/RxFinalizeSrvOpen"
+ - "RxFinalizeSrvOpen"
 req.header: fcb.h
 req.include-header: Mrxfcb.h, Fcb.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["ClfsLsnContainer function"]
 ms.keywords: ClfsLsnContainer, ClfsLsnContainer routine [Kernel-Mode Driver Architecture], Clfs_87c1e289-57b7-414d-a78e-8074a75d1262.xml, kernel.clfslsncontainer, wdm/ClfsLsnContainer
 f1_keywords:
  - "wdm/ClfsLsnContainer"
+ - "ClfsLsnContainer"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop

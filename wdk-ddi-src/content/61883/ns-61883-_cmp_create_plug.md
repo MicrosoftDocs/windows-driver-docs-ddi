@@ -10,6 +10,7 @@ keywords: ["_CMP_CREATE_PLUG structure"]
 ms.keywords: "*PCMP_CREATE_PLUG, 61883/CMP_CREATE_PLUG, 61883/PCMP_CREATE_PLUG, CMP_CREATE_PLUG, CMP_CREATE_PLUG structure [Buses], IEEE.cmp_create_plug, PCMP_CREATE_PLUG, PCMP_CREATE_PLUG structure pointer [Buses], _CMP_CREATE_PLUG"
 f1_keywords:
  - "61883/CMP_CREATE_PLUG"
+ - "CMP_CREATE_PLUG"
 req.header: 61883.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["MmResetDriverPaging function"]
 ms.keywords: MmResetDriverPaging, MmResetDriverPaging routine [Kernel-Mode Driver Architecture], k106_4b691510-4e1f-4da2-bfba-d008a83ef43e.xml, kernel.mmresetdriverpaging, wdm/MmResetDriverPaging
 f1_keywords:
  - "wdm/MmResetDriverPaging"
+ - "MmResetDriverPaging"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

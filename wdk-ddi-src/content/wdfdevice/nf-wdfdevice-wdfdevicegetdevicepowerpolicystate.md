@@ -10,6 +10,7 @@ keywords: ["WdfDeviceGetDevicePowerPolicyState function"]
 ms.keywords: DFDeviceObjectGeneralRef_34dd5376-7889-4900-bcd9-65ad9ff732e2.xml, WdfDeviceGetDevicePowerPolicyState, WdfDeviceGetDevicePowerPolicyState method, kmdf.wdfdevicegetdevicepowerpolicystate, wdf.wdfdevicegetdevicepowerpolicystate, wdfdevice/WdfDeviceGetDevicePowerPolicyState
 f1_keywords:
  - "wdfdevice/WdfDeviceGetDevicePowerPolicyState"
+ - "WdfDeviceGetDevicePowerPolicyState"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

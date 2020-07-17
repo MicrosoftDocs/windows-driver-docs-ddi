@@ -10,6 +10,7 @@ keywords: ["ITracer::GetBits"]
 ms.keywords: GetBits, GetBits method [Windows Device Testing Framework], GetBits method [Windows Device Testing Framework],ITracer interface, ITracer interface [Windows Device Testing Framework],GetBits method, ITracer.GetBits, ITracer::GetBits, ITracer_80af4d1b-1fed-4775-83c6-4b7bee53b4a0.xml, dtf.itracer_getbits_method, wdtf/ITracer::GetBits
 f1_keywords:
  - "wdtf/ITracer.GetBits"
+ - "ITracer.GetBits"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Desktop

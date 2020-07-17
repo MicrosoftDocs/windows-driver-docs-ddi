@@ -10,6 +10,7 @@ keywords: ["RtlUnicodeToOemN function"]
 ms.keywords: RtlUnicodeToOemN, RtlUnicodeToOemN routine [Installable File System Drivers], ifsk.rtlunicodetooemn, ntifs/RtlUnicodeToOemN, rtlref_f78dd2e1-13f7-4622-ac13-9207c040b782.xml
 f1_keywords:
  - "ntifs/RtlUnicodeToOemN"
+ - "RtlUnicodeToOemN"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

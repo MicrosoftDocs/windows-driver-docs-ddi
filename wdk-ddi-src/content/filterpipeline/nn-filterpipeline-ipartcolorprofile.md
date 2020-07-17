@@ -10,6 +10,7 @@ keywords: ["IPartColorProfile interface"]
 ms.keywords: IPartColorProfile, IPartColorProfile interface [Print Devices], IPartColorProfile interface [Print Devices], described, filterpipeline/IPartColorProfile, filterpipeline_53a5ba2a-17ce-4c9a-981b-1ab5067bddc2.xml, print.ipartcolorprofile
 f1_keywords:
  - "filterpipeline/IPartColorProfile"
+ - "IPartColorProfile"
 req.header: filterpipeline.h
 req.include-header: Filterpipeline.h
 req.target-type: Windows

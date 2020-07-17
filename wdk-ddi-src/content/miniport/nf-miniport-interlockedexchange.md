@@ -10,6 +10,7 @@ keywords: ["InterlockedExchange function"]
 ms.keywords: InterlockedExchange, InterlockedExchange routine [Kernel-Mode Driver Architecture], k102_ae8d85b7-040e-4c44-9476-68d6919a50e4.xml, kernel.interlockedexchange, wdm/InterlockedExchange
 f1_keywords:
  - "miniport/InterlockedExchange"
+ - "InterlockedExchange"
 req.header: miniport.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Miniport.h
 req.target-type: Universal

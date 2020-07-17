@@ -10,6 +10,7 @@ keywords: ["SerCx2PioTransmitInitializeTransactionComplete function"]
 ms.keywords: 2/SerCx2PioTransmitInitializeTransactionComplete, SerCx2PioTransmitInitializeTransactionComplete, SerCx2PioTransmitInitializeTransactionComplete method [Serial Ports], serports.sercx2piotransmitinitializetransactioncomplete
 f1_keywords:
  - "sercx/SerCx2PioTransmitInitializeTransactionComplete"
+ - "SerCx2PioTransmitInitializeTransactionComplete"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal

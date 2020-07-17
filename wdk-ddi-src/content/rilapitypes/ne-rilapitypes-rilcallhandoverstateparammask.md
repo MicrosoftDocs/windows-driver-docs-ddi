@@ -10,6 +10,7 @@ keywords: ["RILCALLHANDOVERSTATEPARAMMASK enumeration"]
 ms.keywords: RILCALLHANDOVERSTATEPARAMMASK, RILCALLHANDOVERSTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_HANDOVER_3GPPCAUSE, RIL_PARAM_HANDOVER_ALL, RIL_PARAM_HANDOVER_NEW_TYPE, RIL_PARAM_HANDOVER_OLD_TYPE, netvista.rilcallhandoverstateparammask, ntddrilapitypes/RILCALLHANDOVERSTATEPARAMMASK, ntddrilapitypes/RIL_PARAM_HANDOVER_3GPPCAUSE, ntddrilapitypes/RIL_PARAM_HANDOVER_ALL, ntddrilapitypes/RIL_PARAM_HANDOVER_NEW_TYPE, ntddrilapitypes/RIL_PARAM_HANDOVER_OLD_TYPE
 f1_keywords:
  - "rilapitypes/RILCALLHANDOVERSTATEPARAMMASK"
+ - "RILCALLHANDOVERSTATEPARAMMASK"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

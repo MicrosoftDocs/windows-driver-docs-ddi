@@ -10,6 +10,7 @@ keywords: ["PALLOCATE_DMA_BUFFER_WITH_NOTIFICATION callback function"]
 ms.keywords: AllocateDmaBufferWithNotification, AllocateDmaBufferWithNotification callback function [Audio Devices], PALLOCATE_DMA_BUFFER_WITH_NOTIFICATION, PALLOCATE_DMA_BUFFER_WITH_NOTIFICATION callback, aud-prop2_37aa129c-f389-402a-ba68-8dedb9ce6b6b.xml, audio.allocatedmabufferwithnotification, hdaudio/AllocateDmaBufferWithNotification
 f1_keywords:
  - "hdaudio/AllocateDmaBufferWithNotification"
+ - "AllocateDmaBufferWithNotification"
 req.header: hdaudio.h
 req.include-header: Hdaudio.h
 req.target-type: Desktop

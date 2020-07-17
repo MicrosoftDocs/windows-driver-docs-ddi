@@ -10,6 +10,7 @@ keywords: ["UcmTcpciPortControllerStart function"]
 ms.keywords: UcmTcpciPortControllerStart, UcmTcpciPortControllerStart method [Buses], buses.ucmtcpciportcontrollerstart, ucmtcpciportcontroller/UcmTcpciPortControllerStart
 f1_keywords:
  - "ucmtcpciportcontroller/UcmTcpciPortControllerStart"
+ - "UcmTcpciPortControllerStart"
 req.header: ucmtcpciportcontroller.h
 req.include-header: 
 req.target-type: Windows

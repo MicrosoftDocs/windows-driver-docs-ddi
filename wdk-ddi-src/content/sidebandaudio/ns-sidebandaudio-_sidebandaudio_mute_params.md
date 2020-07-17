@@ -7,6 +7,7 @@ ms.date: 10/05/2018
 keywords: ["_SIDEBANDAUDIO_MUTE_PARAMS structure"]
 f1_keywords:
  - "sidebandaudio/_SIDEBANDAUDIO_MUTE_PARAMS"
+ - "_SIDEBANDAUDIO_MUTE_PARAMS"
 ms.keywords: _SIDEBANDAUDIO_MUTE_PARAMS, SIDEBANDAUDIO_MUTE_PARAMS, *PSIDEBANDAUDIO_MUTE_PARAMS, 
 req.header: sidebandaudio.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["_FILE_FULL_DIR_INFORMATION structure"]
 ms.keywords: "*PFILE_FULL_DIR_INFORMATION, FILE_FULL_DIR_INFORMATION, FILE_FULL_DIR_INFORMATION structure [Installable File System Drivers], PFILE_FULL_DIR_INFORMATION, PFILE_FULL_DIR_INFORMATION structure pointer [Installable File System Drivers], _FILE_FULL_DIR_INFORMATION, fileinformationstructures_2dfa5780-08bf-4cb8-96f6-c247baaa813a.xml, ifsk.file_full_dir_information, ntifs/FILE_FULL_DIR_INFORMATION, ntifs/PFILE_FULL_DIR_INFORMATION"
 f1_keywords:
  - "ntifs/FILE_FULL_DIR_INFORMATION"
+ - "FILE_FULL_DIR_INFORMATION"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows

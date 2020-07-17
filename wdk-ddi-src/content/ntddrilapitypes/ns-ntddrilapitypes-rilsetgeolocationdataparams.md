@@ -10,6 +10,7 @@ keywords: ["RILSETGEOLOCATIONDATAPARAMS structure"]
 ms.keywords: "*LPRILSETGEOLOCATIONDATAPARAMS, RILSETGEOLOCATIONDATAPARAMS, RILSETGEOLOCATIONDATAPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetgeolocationdataparams, ntddrilapitypes/RILSETGEOLOCATIONDATAPARAMS"
 f1_keywords:
  - "ntddrilapitypes/RILSETGEOLOCATIONDATAPARAMS"
+ - "RILSETGEOLOCATIONDATAPARAMS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

@@ -9,6 +9,7 @@ keywords: ["_DXGK_QUERYGPUMMUCAPSIN structure"]
 ms.keywords: DXGK_QUERYGPUMMUCAPSIN, DXGK_QUERYGPUMMUCAPSIN structure [Display Devices], _DXGK_QUERYGPUMMUCAPSIN, d3dkmddi/DXGK_QUERYGPUMMUCAPSIN, display.dxgk_querygpummucapsin
 f1_keywords:
  - "d3dkmddi/DXGK_QUERYGPUMMUCAPSIN"
+ - "DXGK_QUERYGPUMMUCAPSIN"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

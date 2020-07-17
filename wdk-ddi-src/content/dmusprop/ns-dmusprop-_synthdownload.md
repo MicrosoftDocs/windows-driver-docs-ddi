@@ -10,6 +10,7 @@ keywords: ["_SYNTHDOWNLOAD structure"]
 ms.keywords: "*PSYNTHDOWNLOAD, PSYNTHDOWNLOAD, PSYNTHDOWNLOAD structure pointer [Audio Devices], SYNTHDOWNLOAD, SYNTHDOWNLOAD structure [Audio Devices], _SYNTHDOWNLOAD, aud-prop_dbafbabb-05b5-4bf4-9791-e7c2eb78ed4f.xml, audio.synthdownload, dmusprop/PSYNTHDOWNLOAD, dmusprop/SYNTHDOWNLOAD"
 f1_keywords:
  - "dmusprop/SYNTHDOWNLOAD"
+ - "SYNTHDOWNLOAD"
 req.header: dmusprop.h
 req.include-header: Dmusprop.h
 req.target-type: Windows

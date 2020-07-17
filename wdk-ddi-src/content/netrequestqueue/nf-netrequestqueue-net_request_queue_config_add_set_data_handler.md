@@ -8,6 +8,7 @@ ms.date: 02/09/2018
 keywords: ["NET_REQUEST_QUEUE_CONFIG_ADD_SET_DATA_HANDLER function"]
 f1_keywords:
  - "netrequestqueue/NET_REQUEST_QUEUE_CONFIG_ADD_SET_DATA_HANDLER"
+ - "NET_REQUEST_QUEUE_CONFIG_ADD_SET_DATA_HANDLER"
 ms.keywords: NET_REQUEST_QUEUE_CONFIG_ADD_SET_DATA_HANDLER
 req.header: netrequestqueue.h
 req.include-header:

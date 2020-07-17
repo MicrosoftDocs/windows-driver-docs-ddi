@@ -10,6 +10,7 @@ keywords: ["GetDebuggerData macro"]
 ms.keywords: GetDebuggerData, GetDebuggerData function [Windows Debugging], WdbgExts_Ref_a9b54b49-d8ac-4bee-a837-3986a250403a.xml, debugger.getdebuggerdata, wdbgexts/GetDebuggerData
 f1_keywords:
  - "wdbgexts/GetDebuggerData"
+ - "GetDebuggerData"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop

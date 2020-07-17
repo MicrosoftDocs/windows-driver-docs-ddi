@@ -10,6 +10,7 @@ keywords: ["tagOEMPTOPTS enumeration"]
 ms.keywords: "*POEMPTOPTS, OEMPTOPTS, OEMPTOPTS enumeration [Print Devices], OEMPT_DEFAULT, OEMPT_NOSHAPSHOT, POEMPTOPTS, POEMPTOPTS enumeration pointer [Print Devices], prcomoem/OEMPTOPTS, prcomoem/OEMPT_DEFAULT, prcomoem/OEMPT_NOSHAPSHOT, prcomoem/POEMPTOPTS, print.oemptopts, tagOEMPTOPTS"
 f1_keywords:
  - "prcomoem/OEMPTOPTS"
+ - "OEMPTOPTS"
 req.header: prcomoem.h
 req.include-header: 
 req.target-type: Windows

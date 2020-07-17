@@ -10,6 +10,7 @@ keywords: ["_BRB_HEADER structure"]
 ms.keywords: BRB_HEADER, BRB_HEADER structure [Bluetooth Devices], _BRB_HEADER, bltooth.brb_header, bth_structs_69a21ba7-b425-45ec-bb2d-dd76a6cb8342.xml, bthddi/BRB_HEADER
 f1_keywords:
  - "bthddi/BRB_HEADER"
+ - "BRB_HEADER"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows

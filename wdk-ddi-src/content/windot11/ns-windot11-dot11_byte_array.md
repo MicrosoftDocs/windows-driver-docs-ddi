@@ -10,6 +10,7 @@ keywords: ["DOT11_BYTE_ARRAY structure"]
 ms.keywords: "*PDOT11_BYTE_ARRAY, DOT11_BYTE_ARRAY, DOT11_BYTE_ARRAY structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_b4146de4-b261-40d9-847d-1eebb48eafea.xml, PDOT11_BYTE_ARRAY, PDOT11_BYTE_ARRAY structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_byte_array, windot11/DOT11_BYTE_ARRAY, windot11/PDOT11_BYTE_ARRAY"
 f1_keywords:
  - "windot11/DOT11_BYTE_ARRAY"
+ - "DOT11_BYTE_ARRAY"
 req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows

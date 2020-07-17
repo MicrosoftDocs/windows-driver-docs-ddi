@@ -10,6 +10,7 @@ keywords: ["WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT function"]
 ms.keywords: DFRequestObjectRef_bcbdd786-6d81-45f7-a70b-96e781da0d36.xml, WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT, WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT function, kmdf.wdf_request_send_options_set_timeout, wdf.wdf_request_send_options_set_timeout, wdfrequest/WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT
 f1_keywords:
  - "wdfrequest/WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT"
+ - "WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal

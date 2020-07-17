@@ -8,6 +8,7 @@ ms.date: 06/29/2018
 keywords: ["MbbRequestGetCorrelationId function"]
 f1_keywords:
  - "mbbcx/MbbRequestGetCorrelationId"
+ - "MbbRequestGetCorrelationId"
 ms.keywords: MbbRequestGetCorrelationId
 req.header: mbbcx.h
 req.include-header:

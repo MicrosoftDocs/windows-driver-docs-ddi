@@ -10,6 +10,7 @@ keywords: ["IOCTL_PAR_SET_WRITE_ADDRESS IOCTL"]
 ms.keywords: IOCTL_PAR_SET_WRITE_ADDRESS, IOCTL_PAR_SET_WRITE_ADDRESS control code [Parallel Ports], cisspd_396ff93f-623f-48a5-925e-9338672fa974.xml, ntddpar/IOCTL_PAR_SET_WRITE_ADDRESS, parports.ioctl_par_set_write_address
 f1_keywords:
  - "ntddpar/IOCTL_PAR_SET_WRITE_ADDRESS"
+ - "IOCTL_PAR_SET_WRITE_ADDRESS"
 req.header: ntddpar.h
 req.include-header: Ntddpar.h
 req.target-type: Windows

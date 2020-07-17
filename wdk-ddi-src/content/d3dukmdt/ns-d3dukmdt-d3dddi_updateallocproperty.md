@@ -10,6 +10,7 @@ keywords: ["D3DDDI_UPDATEALLOCPROPERTY structure"]
 ms.keywords: D3DDDI_UPDATEALLOCPROPERTY, D3DDDI_UPDATEALLOCPROPERTY structure [Display Devices], d3dukmdt/D3DDDI_UPDATEALLOCPROPERTY, display.d3dddi_updateallocproperty
 f1_keywords:
  - "d3dukmdt/D3DDDI_UPDATEALLOCPROPERTY"
+ - "D3DDDI_UPDATEALLOCPROPERTY"
 req.header: d3dukmdt.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

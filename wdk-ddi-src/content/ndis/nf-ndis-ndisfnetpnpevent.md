@@ -10,6 +10,7 @@ keywords: ["NdisFNetPnPEvent function"]
 ms.keywords: NdisFNetPnPEvent, NdisFNetPnPEvent function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_36921970-788b-4b5e-9cf0-c54f8dcdeef2.xml, ndis/NdisFNetPnPEvent, netvista.ndisfnetpnpevent
 f1_keywords:
  - "ndis/NdisFNetPnPEvent"
+ - "NdisFNetPnPEvent"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

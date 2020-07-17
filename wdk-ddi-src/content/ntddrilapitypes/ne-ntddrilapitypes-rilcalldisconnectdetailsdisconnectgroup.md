@@ -10,6 +10,7 @@ keywords: ["RILCALLDISCONNECTDETAILSDISCONNECTGROUP enumeration"]
 ms.keywords: RILCALLDISCONNECTDETAILSDISCONNECTGROUP, RILCALLDISCONNECTDETAILSDISCONNECTGROUP enumeration [Network Drivers Starting with Windows Vista], RIL_CD_3GPP2_VENDOR_CAUSE, RIL_CD_3GPP_NETWORK_CAUSE, RIL_CD_3GPP_REJECT_CAUSE, RIL_CD_AS_CAUSE, RIL_CD_CAUSE_MAX, RIL_CD_IMS_SIP_CAUSE, RIL_CD_OTHER_CAUSE, netvista.rilcalldisconnectdetailsdisconnectgroup, ntddrilapitypes/RILCALLDISCONNECTDETAILSDISCONNECTGROUP, ntddrilapitypes/RIL_CD_3GPP2_VENDOR_CAUSE, ntddrilapitypes/RIL_CD_3GPP_NETWORK_CAUSE, ntddrilapitypes/RIL_CD_3GPP_REJECT_CAUSE, ntddrilapitypes/RIL_CD_AS_CAUSE, ntddrilapitypes/RIL_CD_CAUSE_MAX, ntddrilapitypes/RIL_CD_IMS_SIP_CAUSE, ntddrilapitypes/RIL_CD_OTHER_CAUSE
 f1_keywords:
  - "ntddrilapitypes/RILCALLDISCONNECTDETAILSDISCONNECTGROUP"
+ - "RILCALLDISCONNECTDETAILSDISCONNECTGROUP"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

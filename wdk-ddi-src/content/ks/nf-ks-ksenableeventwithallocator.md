@@ -10,6 +10,7 @@ keywords: ["KsEnableEventWithAllocator function"]
 ms.keywords: KsEnableEventWithAllocator, KsEnableEventWithAllocator function [Streaming Media Devices], ks/KsEnableEventWithAllocator, ksfunc_2af8f81f-ef1d-4ad5-9267-dfdc14005183.xml, stream.ksenableeventwithallocator
 f1_keywords:
  - "ks/KsEnableEventWithAllocator"
+ - "KsEnableEventWithAllocator"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

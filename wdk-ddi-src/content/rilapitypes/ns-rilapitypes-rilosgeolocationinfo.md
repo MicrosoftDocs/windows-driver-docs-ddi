@@ -10,6 +10,7 @@ keywords: ["RILOSGEOLOCATIONINFO structure"]
 ms.keywords: "*LPRILOSGEOLOCATIONINFO, RILOSGEOLOCATIONINFO, RILOSGEOLOCATIONINFO structure [Network Drivers Starting with Windows Vista], netvista.rilosgeolocationinfo, ntddrilapitypes/RILOSGEOLOCATIONINFO"
 f1_keywords:
  - "rilapitypes/RILOSGEOLOCATIONINFO"
+ - "RILOSGEOLOCATIONINFO"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

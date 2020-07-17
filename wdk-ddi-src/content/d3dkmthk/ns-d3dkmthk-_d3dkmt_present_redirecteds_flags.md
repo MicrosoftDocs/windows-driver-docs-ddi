@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_PRESENT_REDIRECTEDS_FLAGS structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_PRESENT_REDIRECTEDS_FLAGS"
+ - "_D3DKMT_PRESENT_REDIRECTEDS_FLAGS"
 ms.keywords: _D3DKMT_PRESENT_REDIRECTEDS_FLAGS, D3DKMT_PRESENT_REDIRECTED_FLAGS, 
 req.header: d3dkmthk.h
 req.include-header:

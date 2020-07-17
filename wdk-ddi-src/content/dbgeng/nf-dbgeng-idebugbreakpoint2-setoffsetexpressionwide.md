@@ -10,6 +10,7 @@ keywords: ["IDebugBreakpoint2::SetOffsetExpressionWide"]
 ms.keywords: IDebugBreakpoint2 interface [Windows Debugging],SetOffsetExpressionWide method, IDebugBreakpoint2.SetOffsetExpressionWide, IDebugBreakpoint2::SetOffsetExpressionWide, SetOffsetExpressionWide, SetOffsetExpressionWide method [Windows Debugging], SetOffsetExpressionWide method [Windows Debugging],IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint2::SetOffsetExpressionWide, debugger.setoffsetexpressionwide
 f1_keywords:
  - "dbgeng/IDebugBreakpoint2.SetOffsetExpressionWide"
+ - "IDebugBreakpoint2.SetOffsetExpressionWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

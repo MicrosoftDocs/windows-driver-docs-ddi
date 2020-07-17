@@ -10,6 +10,7 @@ keywords: ["KSWAVE_BUFFER structure"]
 ms.keywords: "*PKSWAVE_BUFFER, KSWAVE_BUFFER, KSWAVE_BUFFER structure [Streaming Media Devices], PKSWAVE_BUFFER, PKSWAVE_BUFFER structure pointer [Streaming Media Devices], dvdref_8b774201-3725-497e-8545-10c5cad2ef1f.xml, ksmedia/KSWAVE_BUFFER, ksmedia/PKSWAVE_BUFFER, stream.kswave_buffer"
 f1_keywords:
  - "ksmedia/KSWAVE_BUFFER"
+ - "KSWAVE_BUFFER"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

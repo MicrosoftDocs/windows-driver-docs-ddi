@@ -10,6 +10,7 @@ keywords: ["_STOR_DEVICE_CAPABILITIES structure"]
 ms.keywords: "*PSTOR_DEVICE_CAPABILITIES, PSTOR_DEVICE_CAPABILITIES, PSTOR_DEVICE_CAPABILITIES structure pointer [Storage Devices], STOR_DEVICE_CAPABILITIES, STOR_DEVICE_CAPABILITIES structure [Storage Devices], _STOR_DEVICE_CAPABILITIES, storage.stor_device_capabilities, storport/PSTOR_DEVICE_CAPABILITIES, storport/STOR_DEVICE_CAPABILITIES"
 f1_keywords:
  - "srb/STOR_DEVICE_CAPABILITIES"
+ - "STOR_DEVICE_CAPABILITIES"
 req.header: srb.h
 req.include-header: Storport.h, Minitape.h, Srb.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["NmrClientAttachProvider function"]
 ms.keywords: NmrClientAttachProvider, NmrClientAttachProvider function [Network Drivers Starting with Windows Vista], netioddk/NmrClientAttachProvider, netvista.nmrclientattachprovider, nmrref_6d66009c-5262-4a75-986d-1eb91dcc61a2.xml
 f1_keywords:
  - "netioddk/NmrClientAttachProvider"
+ - "NmrClientAttachProvider"
 req.header: netioddk.h
 req.include-header: Wsk.h
 req.target-type: Desktop

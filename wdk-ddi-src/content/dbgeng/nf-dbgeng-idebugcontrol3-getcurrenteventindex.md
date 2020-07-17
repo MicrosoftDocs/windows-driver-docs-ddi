@@ -10,6 +10,7 @@ keywords: ["IDebugControl3::GetCurrentEventIndex"]
 ms.keywords: GetCurrentEventIndex, GetCurrentEventIndex method [Windows Debugging], GetCurrentEventIndex method [Windows Debugging],IDebugControl3 interface, IDebugControl3 interface [Windows Debugging],GetCurrentEventIndex method, IDebugControl3.GetCurrentEventIndex, IDebugControl3::GetCurrentEventIndex, IDebugControl_7aec300e-651e-46c6-a4e7-d4ed2b9ca674.xml, dbgeng/IDebugControl3::GetCurrentEventIndex, debugger.getcurrenteventindex
 f1_keywords:
  - "dbgeng/IDebugControl3.GetCurrentEventIndex"
+ - "IDebugControl3.GetCurrentEventIndex"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

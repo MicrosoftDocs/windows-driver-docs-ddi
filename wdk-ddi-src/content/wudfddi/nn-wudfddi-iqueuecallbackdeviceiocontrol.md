@@ -10,6 +10,7 @@ keywords: ["IQueueCallbackDeviceIoControl interface"]
 ms.keywords: IQueueCallbackDeviceIoControl, IQueueCallbackDeviceIoControl interface, IQueueCallbackDeviceIoControl interface,described, UMDFQueueObjectRef_43ec96af-39ec-4d9c-89bd-c8d08bec3999.xml, umdf.iqueuecallbackdeviceiocontrol, wdf.iqueuecallbackdeviceiocontrol, wudfddi/IQueueCallbackDeviceIoControl
 f1_keywords:
  - "wudfddi/IQueueCallbackDeviceIoControl"
+ - "IQueueCallbackDeviceIoControl"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Windows

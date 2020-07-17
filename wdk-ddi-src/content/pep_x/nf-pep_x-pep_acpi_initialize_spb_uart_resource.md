@@ -10,6 +10,7 @@ keywords: ["PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE function"]
 ms.keywords: 0, 1, 2, 3, 4, 5, 6, 7, PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE, PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE function [Kernel-Mode Driver Architecture], kernel.pep_acpi_initialize_spb_uart_resource, pepfx/PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE
 f1_keywords:
  - "pep_x/PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE"
+ - "PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows

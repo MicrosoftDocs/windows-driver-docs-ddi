@@ -10,6 +10,7 @@ keywords: ["NDK_FN_CONNECT callback function"]
 ms.keywords: NDK_FN_CONNECT, NDK_FN_CONNECT callback, NdkConnect, NdkConnect callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkConnect, netvista.ndk_fn_connect
 f1_keywords:
  - "ndkpi/NdkConnect"
+ - "NdkConnect"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

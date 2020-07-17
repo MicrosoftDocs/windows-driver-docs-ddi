@@ -10,6 +10,7 @@ keywords: ["PCPROPERTY_ITEM structure"]
 ms.keywords: "*PPCPROPERTY_ITEM, PCPROPERTY_ITEM, PCPROPERTY_ITEM structure [Audio Devices], PPCPROPERTY_ITEM, PPCPROPERTY_ITEM structure pointer [Audio Devices], audio.pcproperty_item, audpc-struct_6d95504b-3ecc-47dc-b98f-b6ebfa40d749.xml, portcls/PCPROPERTY_ITEM, portcls/PPCPROPERTY_ITEM"
 f1_keywords:
  - "portcls/PCPROPERTY_ITEM"
+ - "PCPROPERTY_ITEM"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Windows

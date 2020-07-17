@@ -10,6 +10,7 @@ keywords: ["GetJobAttributes function"]
 ms.keywords: GetJobAttributes, GetJobAttributes function [Print Devices], print.getjobattributes, spoolfnc_5f511391-a38e-4d0b-8d45-4464b798a7c9.xml, winsplp/GetJobAttributes
 f1_keywords:
  - "winsplp/GetJobAttributes"
+ - "GetJobAttributes"
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Desktop

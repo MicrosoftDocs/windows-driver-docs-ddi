@@ -10,6 +10,7 @@ keywords: ["_NFC_CX_SEQUENCE enumeration"]
 ms.keywords: "*PNFC_CX_SEQUENCE, NFC_CX_SEQUENCE, NFC_CX_SEQUENCE enumeration [Near-Field Proximity Drivers], PNFC_CX_SEQUENCE, SequenceInitComplete, SequenceMaximum, SequenceNfceeDiscComplete, SequencePreInit, SequencePreNfceeDisc, SequencePreRecovery, SequencePreRfDiscStart, SequencePreRfDiscStop, SequencePreShutdown, SequenceRecoveryComplete, SequenceRfDiscStartComplete, SequenceRfDiscStopComplete, SequenceShutdownComplete, _NFC_CX_SEQUENCE, nfccx/NFC_CX_SEQUENCE, nfccx/SequenceInitComplete, nfccx/SequenceMaximum, nfccx/SequenceNfceeDiscComplete, nfccx/SequencePreInit, nfccx/SequencePreNfceeDisc, nfccx/SequencePreRecovery, nfccx/SequencePreRfDiscStart, nfccx/SequencePreRfDiscStop, nfccx/SequencePreShutdown, nfccx/SequenceRecoveryComplete, nfccx/SequenceRfDiscStartComplete, nfccx/SequenceRfDiscStopComplete, nfccx/SequenceShutdownComplete, nfpdrivers.nfc_cx_sequence"
 f1_keywords:
  - "nfccx/NFC_CX_SEQUENCE"
+ - "NFC_CX_SEQUENCE"
 req.header: nfccx.h
 req.include-header: Ncidef.h
 req.target-type: Windows

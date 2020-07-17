@@ -10,6 +10,7 @@ keywords: ["_NDIS_SWITCH_PORT_VLAN_MODE enumeration"]
 ms.keywords: "*PNDIS_SWITCH_PORT_VLAN_MODE, NDIS_SWITCH_PORT_VLAN_MODE, NDIS_SWITCH_PORT_VLAN_MODE enumeration [Network Drivers Starting with Windows Vista], NdisSwitchPortVlanModeAccess, NdisSwitchPortVlanModeMax, NdisSwitchPortVlanModePrivate, NdisSwitchPortVlanModeTrunk, NdisSwitchPortVlanModeUnknown, PNDIS_SWITCH_PORT_VLAN_MODE, PNDIS_SWITCH_PORT_VLAN_MODE enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_VLAN_MODE, netvista.ndis_switch_port_vlan_mode, ntddndis/NDIS_SWITCH_PORT_VLAN_MODE, ntddndis/NdisSwitchPortVlanModeAccess, ntddndis/NdisSwitchPortVlanModeMax, ntddndis/NdisSwitchPortVlanModePrivate, ntddndis/NdisSwitchPortVlanModeTrunk, ntddndis/NdisSwitchPortVlanModeUnknown, ntddndis/PNDIS_SWITCH_PORT_VLAN_MODE"
 f1_keywords:
  - "ntddndis/NDIS_SWITCH_PORT_VLAN_MODE"
+ - "NDIS_SWITCH_PORT_VLAN_MODE"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

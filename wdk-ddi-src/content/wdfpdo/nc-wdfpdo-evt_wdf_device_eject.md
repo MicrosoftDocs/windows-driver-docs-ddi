@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_DEVICE_EJECT callback function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_38feba70-59b4-4981-af2d-0fc0fa4ff68a.xml, EVT_WDF_DEVICE_EJECT, EVT_WDF_DEVICE_EJECT callback, EvtDeviceEject, EvtDeviceEject callback function, kmdf.evtdeviceeject, wdf.evtdeviceeject, wdfpdo/EvtDeviceEject
 f1_keywords:
  - "wdfpdo/EvtDeviceEject"
+ - "EvtDeviceEject"
 req.header: wdfpdo.h
 req.include-header: Wdf.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["RtlRandom function"]
 ms.keywords: RtlRandom, RtlRandom routine [Installable File System Drivers], ifsk.rtlrandom, ntifs/RtlRandom, rtlref_c9c196b4-7335-4320-ae7f-7c565b6f73e6.xml
 f1_keywords:
  - "ntifs/RtlRandom"
+ - "RtlRandom"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Universal

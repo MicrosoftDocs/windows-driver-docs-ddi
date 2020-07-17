@@ -10,6 +10,7 @@ keywords: ["WdfDeviceGetHardwareRegisterMappedAddress function"]
 ms.keywords: WdfDeviceGetHardwareRegisterMappedAddress, WdfDeviceGetHardwareRegisterMappedAddress function, wdf.wdfdevicegethardwareregistermappedaddress, wdfdevice/WdfDeviceGetHardwareRegisterMappedAddress
 f1_keywords:
  - "wdfdevice/WdfDeviceGetHardwareRegisterMappedAddress"
+ - "WdfDeviceGetHardwareRegisterMappedAddress"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

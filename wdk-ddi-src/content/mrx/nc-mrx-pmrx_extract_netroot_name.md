@@ -10,6 +10,7 @@ keywords: ["PMRX_EXTRACT_NETROOT_NAME callback function"]
 ms.keywords: MRxExtractNetRootName, MRxExtractNetRootName routine [Installable File System Drivers], PMRX_EXTRACT_NETROOT_NAME, ifsk.mrxextractnetrootname, mrx/MRxExtractNetRootName, mrxref_6ccbe7d3-a74d-4eab-bfc1-994791d9613a.xml
 f1_keywords:
  - "mrx/MRxExtractNetRootName"
+ - "MRxExtractNetRootName"
 req.header: mrx.h
 req.include-header: Mrx.h
 req.target-type: Desktop

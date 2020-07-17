@@ -10,6 +10,7 @@ keywords: ["_D3DHAL_DP2SETRENDERTARGET structure"]
 ms.keywords: "*LPD3DHAL_DP2SETRENDERTARGET, D3DHAL_DP2SETRENDERTARGET, D3DHAL_DP2SETRENDERTARGET structure [Display Devices], LPD3DHAL_DP2SETRENDERTARGET, LPD3DHAL_DP2SETRENDERTARGET structure pointer [Display Devices], _D3DHAL_DP2SETRENDERTARGET, d3dhal/D3DHAL_DP2SETRENDERTARGET, d3dhal/LPD3DHAL_DP2SETRENDERTARGET, d3dstrct_d3f81bd9-d8fd-4560-b8b3-61af41d4a13b.xml, display.d3dhal_dp2setrendertarget"
 f1_keywords:
  - "d3dhal/D3DHAL_DP2SETRENDERTARGET"
+ - "D3DHAL_DP2SETRENDERTARGET"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows

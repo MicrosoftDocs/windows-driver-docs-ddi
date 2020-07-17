@@ -7,6 +7,7 @@ ms.date: 10/03/2018
 keywords: ["IDataModelScriptProviderEnumerator::Reset"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptProviderEnumerator.Reset"
+ - "IDataModelScriptProviderEnumerator.Reset"
 ms.keywords: IDataModelScriptProviderEnumerator::Reset, Reset, IDataModelScriptProviderEnumerator.Reset, IDataModelScriptProviderEnumerator::Reset, IDataModelScriptProviderEnumerator.Reset
 req.header: dbgmodel.h
 req.include-header:

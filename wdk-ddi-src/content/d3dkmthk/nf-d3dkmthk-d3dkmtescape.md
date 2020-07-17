@@ -9,6 +9,7 @@ keywords: ["D3DKMTEscape function"]
 ms.keywords: D3DKMTEscape, D3DKMTEscape function [Display Devices], OpenGL_Functions_ad391641-4fb5-425a-839f-7b257f26849a.xml, d3dkmthk/D3DKMTEscape, display.d3dkmtescape
 f1_keywords:
  - "d3dkmthk/D3DKMTEscape"
+ - "D3DKMTEscape"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

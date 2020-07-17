@@ -10,6 +10,7 @@ keywords: ["IOCTL_DISK_VERIFY IOCTL"]
 ms.keywords: IOCTL_DISK_VERIFY, IOCTL_DISK_VERIFY control, IOCTL_DISK_VERIFY control code [Storage Devices], k307_bafd5046-34ca-4e76-b1a6-bf5195adbb3b.xml, ntdddisk/IOCTL_DISK_VERIFY, storage.ioctl_disk_verify
 f1_keywords:
  - "ntdddisk/IOCTL_DISK_VERIFY"
+ - "IOCTL_DISK_VERIFY"
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h
 req.target-type: Windows

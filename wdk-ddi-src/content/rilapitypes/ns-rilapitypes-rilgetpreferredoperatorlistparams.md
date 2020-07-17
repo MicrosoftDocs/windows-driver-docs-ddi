@@ -10,6 +10,7 @@ keywords: ["RILGETPREFERREDOPERATORLISTPARAMS structure"]
 ms.keywords: "*LPRILGETPREFERREDOPERATORLISTPARAMS, RILGETPREFERREDOPERATORLISTPARAMS, RILGETPREFERREDOPERATORLISTPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilgetpreferredoperatorlistparams, ntddrilapitypes/RILGETPREFERREDOPERATORLISTPARAMS"
 f1_keywords:
  - "rilapitypes/RILGETPREFERREDOPERATORLISTPARAMS"
+ - "RILGETPREFERREDOPERATORLISTPARAMS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

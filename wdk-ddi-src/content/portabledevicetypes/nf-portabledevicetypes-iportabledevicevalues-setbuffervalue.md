@@ -10,6 +10,7 @@ keywords: ["IPortableDeviceValues::SetBufferValue"]
 ms.keywords: IPortableDeviceValues interface,SetBufferValue method, IPortableDeviceValues.SetBufferValue, IPortableDeviceValues::SetBufferValue, IPortableDeviceValuesSetBufferValue, SetBufferValue, SetBufferValue method, SetBufferValue method,IPortableDeviceValues interface, portabledevicetypes/IPortableDeviceValues::SetBufferValue, wpddk.iportabledevicevalues_setbuffervalue
 f1_keywords:
  - "portabledevicetypes/IPortableDeviceValues.SetBufferValue"
+ - "IPortableDeviceValues.SetBufferValue"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows

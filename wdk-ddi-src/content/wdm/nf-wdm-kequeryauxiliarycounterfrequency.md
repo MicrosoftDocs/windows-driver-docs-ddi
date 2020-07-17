@@ -10,6 +10,7 @@ keywords: ["KeQueryAuxiliaryCounterFrequency function"]
 ms.keywords: KeQueryAuxiliaryCounterFrequency, KeQueryAuxiliaryCounterFrequency routine [Kernel-Mode Driver Architecture], kernel.kequeryauxiliarycounterfrequency, wdm/KeQueryAuxiliaryCounterFrequency
 f1_keywords:
  - "wdm/KeQueryAuxiliaryCounterFrequency"
+ - "KeQueryAuxiliaryCounterFrequency"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal

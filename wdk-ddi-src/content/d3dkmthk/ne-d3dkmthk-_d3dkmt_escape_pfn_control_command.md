@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_ESCAPE_PFN_CONTROL_COMMAND enumeration"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_ESCAPE_PFN_CONTROL_COMMAND"
+ - "_D3DKMT_ESCAPE_PFN_CONTROL_COMMAND"
 ms.keywords: _D3DKMT_ESCAPE_PFN_CONTROL_COMMAND, D3DKMT_ESCAPE_PFN_CONTROL_COMMAND, 
 req.header: d3dkmthk.h
 req.include-header:

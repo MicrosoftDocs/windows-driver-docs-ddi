@@ -10,6 +10,7 @@ keywords: ["PsSetCreateProcessNotifyRoutineEx2 function"]
 ms.keywords: PsSetCreateProcessNotifyRoutineEx2, PsSetCreateProcessNotifyRoutineEx2 routine [Kernel-Mode Driver Architecture], kernel.pssetcreateprocessnotifyroutineex2, ntddk/PsSetCreateProcessNotifyRoutineEx2
 f1_keywords:
  - "ntddk/PsSetCreateProcessNotifyRoutineEx2"
+ - "PsSetCreateProcessNotifyRoutineEx2"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

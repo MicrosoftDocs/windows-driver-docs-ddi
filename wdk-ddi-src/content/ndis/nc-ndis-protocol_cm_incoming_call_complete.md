@@ -10,6 +10,7 @@ keywords: ["PROTOCOL_CM_INCOMING_CALL_COMPLETE callback function"]
 ms.keywords: PROTOCOL_CM_INCOMING_CALL_COMPLETE, PROTOCOL_CM_INCOMING_CALL_COMPLETE callback, ProtocolCmIncomingCallComplete, ProtocolCmIncomingCallComplete callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_0760b8c9-29b8-40ff-b8a9-03e4c4f792e2.xml, ndis/ProtocolCmIncomingCallComplete, netvista.protocolcmincomingcallcomplete
 f1_keywords:
  - "ndis/ProtocolCmIncomingCallComplete"
+ - "ProtocolCmIncomingCallComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

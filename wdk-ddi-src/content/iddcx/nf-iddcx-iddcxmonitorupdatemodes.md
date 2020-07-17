@@ -10,6 +10,7 @@ keywords: ["IddCxMonitorUpdateModes function"]
 ms.keywords: IddCxMonitorUpdateModes, IddCxMonitorUpdateModes method [Display Devices], display.iddcxmonitorupdatemodes, iddcx/IddCxMonitorUpdateModes
 f1_keywords:
  - "iddcx/IddCxMonitorUpdateModes"
+ - "IddCxMonitorUpdateModes"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows

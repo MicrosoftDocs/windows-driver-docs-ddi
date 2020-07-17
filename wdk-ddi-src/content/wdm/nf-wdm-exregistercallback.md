@@ -10,6 +10,7 @@ keywords: ["ExRegisterCallback function"]
 ms.keywords: ExRegisterCallback, ExRegisterCallback routine [Kernel-Mode Driver Architecture], k102_db841434-fe00-448d-b5bb-2c35d1ad0ec4.xml, kernel.exregistercallback, wdm/ExRegisterCallback
 f1_keywords:
  - "wdm/ExRegisterCallback"
+ - "ExRegisterCallback"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

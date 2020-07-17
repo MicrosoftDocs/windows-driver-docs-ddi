@@ -8,6 +8,7 @@ ms.date: 02/06/2019
 keywords: ["_NET_EXTENSION structure"]
 f1_keywords:
  - "extension/SOUNDDETECTOR_PATTERNHEADER"
+ - "SOUNDDETECTOR_PATTERNHEADER"
 ms.keywords: _NET_EXTENSION, NET_EXTENSION, *PNET_EXTENSION, 
 req.header: extension.h
 req.include-header:

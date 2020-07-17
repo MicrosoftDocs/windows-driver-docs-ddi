@@ -10,6 +10,7 @@ keywords: ["IDARG_OUT_OPM_GET_INFOMATION structure"]
 ms.keywords: IDARG_OUT_OPM_GET_INFOMATION, IDARG_OUT_OPM_GET_INFOMATION structure [Display Devices], display.idarg_out_opm_get_infomation, iddcx/IDARG_OUT_OPM_GET_INFOMATION
 f1_keywords:
  - "iddcx/IDARG_OUT_OPM_GET_INFOMATION"
+ - "IDARG_OUT_OPM_GET_INFOMATION"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["IMiniportDMus interface"]
 ms.keywords: IMiniportDMus, IMiniportDMus interface [Audio Devices], IMiniportDMus interface [Audio Devices],described, audio.iminiportdmus, audmp-routines_b123c50b-e4b9-4f19-a2c4-b33fb335bec6.xml, dmusicks/IMiniportDMus
 f1_keywords:
  - "dmusicks/IMiniportDMus"
+ - "IMiniportDMus"
 req.header: dmusicks.h
 req.include-header: Dmusicks.h
 req.target-type: Windows

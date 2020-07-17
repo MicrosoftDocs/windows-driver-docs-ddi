@@ -10,6 +10,7 @@ keywords: ["_CHANGER_EXCHANGE_MEDIUM structure"]
 ms.keywords: "*PCHANGER_EXCHANGE_MEDIUM, CHANGER_EXCHANGE_MEDIUM, CHANGER_EXCHANGE_MEDIUM structure [Storage Devices], PCHANGER_EXCHANGE_MEDIUM, PCHANGER_EXCHANGE_MEDIUM structure pointer [Storage Devices], _CHANGER_EXCHANGE_MEDIUM, ntddchgr/CHANGER_EXCHANGE_MEDIUM, ntddchgr/PCHANGER_EXCHANGE_MEDIUM, storage.changer_exchange_medium, structs-changer_4af39195-5fe7-42e2-b8bd-3247391fea3f.xml"
 f1_keywords:
  - "ntddchgr/CHANGER_EXCHANGE_MEDIUM"
+ - "CHANGER_EXCHANGE_MEDIUM"
 req.header: ntddchgr.h
 req.include-header: 
 req.target-type: Windows

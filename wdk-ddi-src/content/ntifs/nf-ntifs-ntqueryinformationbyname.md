@@ -12,6 +12,7 @@ ms.keywords: NtQueryInformationByName
 req.header: ntifs.h
 f1_keywords:
  - "ntifs/NtQueryInformationByName"
+ - "NtQueryInformationByName"
 req.include-header:
 req.target-type:
 req.target-min-winverclnt: Available starting with Windows 10 version 1703.

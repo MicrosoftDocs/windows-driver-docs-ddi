@@ -10,6 +10,7 @@ keywords: ["IPrinterScriptablePropertyBag::SetString"]
 ms.keywords: IPrinterScriptablePropertyBag interface [Print Devices],SetString method, IPrinterScriptablePropertyBag.SetString, IPrinterScriptablePropertyBag::SetString, SetString, SetString method [Print Devices], SetString method [Print Devices],IPrinterScriptablePropertyBag interface, print.iprinterscriptablepropertybag_setstring, printerextension/IPrinterScriptablePropertyBag::SetString
 f1_keywords:
  - "printerextension/IPrinterScriptablePropertyBag.SetString"
+ - "IPrinterScriptablePropertyBag.SetString"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop

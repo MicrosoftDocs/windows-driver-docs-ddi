@@ -10,6 +10,7 @@ keywords: ["_MSR_AUTHENTICATE_DEVICE structure"]
 ms.keywords: "*PMSR_AUTHENTICATE_DEVICE, MSR_AUTHENTICATE_DEVICE, MSR_AUTHENTICATE_DEVICE structure, PMSR_AUTHENTICATE_DEVICE, PMSR_AUTHENTICATE_DEVICE structure pointer, _MSR_AUTHENTICATE_DEVICE, pointofservicedriverinterface/MSR_AUTHENTICATE_DEVICE, pointofservicedriverinterface/PMSR_AUTHENTICATE_DEVICE, pos.msr_authenticate_device"
 f1_keywords:
  - "pointofservicedriverinterface/MSR_AUTHENTICATE_DEVICE"
+ - "MSR_AUTHENTICATE_DEVICE"
 req.header: pointofservicedriverinterface.h
 req.include-header: PointOfServiceDriverInterface.h
 req.target-type: Windows

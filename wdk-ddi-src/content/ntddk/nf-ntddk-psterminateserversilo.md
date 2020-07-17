@@ -10,6 +10,7 @@ keywords: ["PsTerminateServerSilo function"]
 ms.keywords: PsTerminateServerSilo, PsTerminateServerSilo routine [Kernel-Mode Driver Architecture], kernel.psterminateserversilo, ntddk/PsTerminateServerSilo
 f1_keywords:
  - "ntddk/PsTerminateServerSilo"
+ - "PsTerminateServerSilo"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows

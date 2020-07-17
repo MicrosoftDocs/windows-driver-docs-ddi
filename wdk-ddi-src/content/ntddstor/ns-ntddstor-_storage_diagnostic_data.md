@@ -10,6 +10,7 @@ keywords: ["_STORAGE_DIAGNOSTIC_DATA structure"]
 ms.keywords: "*PSTORAGE_DIAGNOSTIC_DATA, PSTORAGE_DIAGNOSTIC_DATA, PSTORAGE_DIAGNOSTIC_DATA structure pointer [Storage Devices], STORAGE_DIAGNOSTIC_DATA, STORAGE_DIAGNOSTIC_DATA structure [Storage Devices], _STORAGE_DIAGNOSTIC_DATA, ntddstor/PSTORAGE_DIAGNOSTIC_DATA, ntddstor/STORAGE_DIAGNOSTIC_DATA, storage.storage_diagnostic_data"
 f1_keywords:
  - "ntddstor/STORAGE_DIAGNOSTIC_DATA"
+ - "STORAGE_DIAGNOSTIC_DATA"
 req.header: ntddstor.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["NDIS_PD_ALLOCATE_COUNTER callback function"]
 ms.keywords: NDIS_PD_ALLOCATE_COUNTER, NDIS_PD_ALLOCATE_COUNTER callback, NdisPDAllocateCounter, NdisPDAllocateCounter callback function [Network Drivers Starting with Windows Vista], ndis/NdisPDAllocateCounter, netvista.ndispdallocatecounter
 f1_keywords:
  - "ndis/NdisPDAllocateCounter"
+ - "NdisPDAllocateCounter"
 req.header: ndis.h
 req.include-header: 
 req.target-type: Windows

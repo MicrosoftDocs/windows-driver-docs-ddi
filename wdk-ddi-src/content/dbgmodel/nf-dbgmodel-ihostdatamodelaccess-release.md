@@ -7,6 +7,7 @@ ms.date: 07/20/2018
 keywords: ["IHostDataModelAccess::Release"]
 f1_keywords:
  - "dbgmodel/IHostDataModelAccess.Release"
+ - "IHostDataModelAccess.Release"
 ms.keywords: IHostDataModelAccess::Release, Release, IHostDataModelAccess.Release, IHostDataModelAccess::Release, IHostDataModelAccess.Release
 req.header: dbgmodel.h
 req.include-header:

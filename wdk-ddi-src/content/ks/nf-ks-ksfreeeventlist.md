@@ -10,6 +10,7 @@ keywords: ["KsFreeEventList function"]
 ms.keywords: KsFreeEventList, KsFreeEventList function [Streaming Media Devices], ks/KsFreeEventList, ksfunc_b9315995-1d55-4edc-97b4-4fb6ad5631a2.xml, stream.ksfreeeventlist
 f1_keywords:
  - "ks/KsFreeEventList"
+ - "KsFreeEventList"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["IOCTL_LAMP_GET_INTENSITY_WHITE IOCTL"]
 ms.keywords: IOCTL_LAMP_GET_INTENSITY_WHITE, IOCTL_LAMP_GET_INTENSITY_WHITE control, IOCTL_LAMP_GET_INTENSITY_WHITE control code [Streaming Media Devices], lamp/IOCTL_LAMP_GET_INTENSITY_WHITE, stream.ioctl_lamp_get__intensity_white
 f1_keywords:
  - "lamp/IOCTL_LAMP_GET_INTENSITY_WHITE"
+ - "IOCTL_LAMP_GET_INTENSITY_WHITE"
 req.header: lamp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["ISensorDriver interface"]
 ms.keywords: ISensorDriver, ISensorDriver interface [Sensor Devices], ISensorDriver interface [Sensor Devices],described, Sensor_IFaces_014342f2-5466-426b-bb11-cb4e89a7691a.xml, sensors.isensordriver, sensorsclassextension/ISensorDriver
 f1_keywords:
  - "sensorsclassextension/ISensorDriver"
+ - "ISensorDriver"
 req.header: sensorsclassextension.h
 req.include-header: 
 req.target-type: Windows

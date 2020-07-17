@@ -10,6 +10,7 @@ keywords: ["FltSetIoPriorityHintIntoThread function"]
 ms.keywords: FltApiRef_p_to_z_acdf2d2e-c98e-4e7d-8074-fb2b89594771.xml, FltSetIoPriorityHintIntoThread, FltSetIoPriorityHintIntoThread routine [Installable File System Drivers], fltkernel/FltSetIoPriorityHintIntoThread, ifsk.fltsetiopriorityhintintothread
 f1_keywords:
  - "fltkernel/FltSetIoPriorityHintIntoThread"
+ - "FltSetIoPriorityHintIntoThread"
 req.header: fltkernel.h
 req.include-header: FltKernel.h
 req.target-type: Universal

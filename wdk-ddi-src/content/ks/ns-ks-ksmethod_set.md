@@ -10,6 +10,7 @@ keywords: ["KSMETHOD_SET structure"]
 ms.keywords: "*PKSMETHOD_SET, KSMETHOD_SET, KSMETHOD_SET structure [Streaming Media Devices], PKSMETHOD_SET, PKSMETHOD_SET structure pointer [Streaming Media Devices], ks-struct_c3d1123f-8d2a-491b-a748-df8d88c7d9bc.xml, ks/KSMETHOD_SET, ks/PKSMETHOD_SET, stream.ksmethod_set"
 f1_keywords:
  - "ks/KSMETHOD_SET"
+ - "KSMETHOD_SET"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows

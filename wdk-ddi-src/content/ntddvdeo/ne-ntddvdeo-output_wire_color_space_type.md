@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["OUTPUT_WIRE_COLOR_SPACE_TYPE enumeration"]
 f1_keywords:
  - "ntddvdeo/OUTPUT_WIRE_COLOR_SPACE_TYPE"
+ - "OUTPUT_WIRE_COLOR_SPACE_TYPE"
 ms.keywords: OUTPUT_WIRE_COLOR_SPACE_TYPE, OUTPUT_WIRE_COLOR_SPACE_TYPE, 
 req.header: ntddvdeo.h
 req.include-header:

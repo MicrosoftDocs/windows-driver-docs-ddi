@@ -10,6 +10,7 @@ keywords: ["GNSS_SUPL_HSLP_CONFIG structure"]
 ms.keywords: "*PGNSS_SUPL_HSLP_CONFIG, GNSS_SUPL_HSLP_CONFIG, GNSS_SUPL_HSLP_CONFIG structure [Sensor Devices], PGNSS_SUPL_HSLP_CONFIG, PGNSS_SUPL_HSLP_CONFIG structure pointer [Sensor Devices], gnss.gnss_supl_hslp_config, gnssdriver/GNSS_SUPL_HSLP_CONFIG, gnssdriver/PGNSS_SUPL_HSLP_CONFIG"
 f1_keywords:
  - "gnssdriver/GNSS_SUPL_HSLP_CONFIG"
+ - "GNSS_SUPL_HSLP_CONFIG"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows

@@ -9,6 +9,7 @@ keywords: ["PFND3DKMT_QUERYRESOURCEINFOFROMNTHANDLE callback function"]
 ms.keywords: D3DKMTQueryResourceInfoFromNtHandle, D3DKMTQueryResourceInfoFromNtHandle callback function [Display Devices], PFND3DKMT_QUERYRESOURCEINFOFROMNTHANDLE, PFND3DKMT_QUERYRESOURCEINFOFROMNTHANDLE callback, d3dkmthk/D3DKMTQueryResourceInfoFromNtHandle, display.d3dkmtqueryresourceinfofromnthandle
 f1_keywords:
  - "d3dkmthk/D3DKMTQueryResourceInfoFromNtHandle"
+ - "D3DKMTQueryResourceInfoFromNtHandle"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

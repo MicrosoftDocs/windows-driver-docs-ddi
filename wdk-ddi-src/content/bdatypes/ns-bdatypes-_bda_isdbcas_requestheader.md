@@ -10,6 +10,7 @@ keywords: ["_BDA_ISDBCAS_REQUESTHEADER structure"]
 ms.keywords: "*PBDA_ISDBCAS_REQUESTHEADER, BDA_ISDBCAS_REQUESTHEADER, BDA_ISDBCAS_REQUESTHEADER structure [Streaming Media Devices], PBDA_ISDBCAS_REQUESTHEADER, PBDA_ISDBCAS_REQUESTHEADER structure pointer [Streaming Media Devices], _BDA_ISDBCAS_REQUESTHEADER, bdatypes/BDA_ISDBCAS_REQUESTHEADER, bdatypes/PBDA_ISDBCAS_REQUESTHEADER, stream.bda_isdbcas_requestheader"
 f1_keywords:
  - "bdatypes/BDA_ISDBCAS_REQUESTHEADER"
+ - "BDA_ISDBCAS_REQUESTHEADER"
 req.header: bdatypes.h
 req.include-header: 
 req.target-type: Windows

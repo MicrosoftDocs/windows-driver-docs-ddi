@@ -10,6 +10,7 @@ keywords: ["MINIPORT_REMOVE_DEVICE callback function"]
 ms.keywords: MINIPORT_REMOVE_DEVICE, MINIPORT_REMOVE_DEVICE callback, MiniportRemoveDevice, MiniportRemoveDevice callback function [Network Drivers Starting with Windows Vista], ndis/MiniportRemoveDevice, ndis_msix_ref_daeef188-96e7-4917-b37f-2af8ba18eda9.xml, netvista.miniportremovedevice
 f1_keywords:
  - "ndis/MiniportRemoveDevice"
+ - "MiniportRemoveDevice"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

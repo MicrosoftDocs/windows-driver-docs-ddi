@@ -10,6 +10,7 @@ keywords: ["WdfDeviceRetrieveDeviceInterfaceString function"]
 ms.keywords: DFDeviceObjectGeneralRef_a7f98bd1-23e0-4461-9a6c-481b8e10ba63.xml, WdfDeviceRetrieveDeviceInterfaceString, WdfDeviceRetrieveDeviceInterfaceString method, kmdf.wdfdeviceretrievedeviceinterfacestring, wdf.wdfdeviceretrievedeviceinterfacestring, wdfdevice/WdfDeviceRetrieveDeviceInterfaceString
 f1_keywords:
  - "wdfdevice/WdfDeviceRetrieveDeviceInterfaceString"
+ - "WdfDeviceRetrieveDeviceInterfaceString"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

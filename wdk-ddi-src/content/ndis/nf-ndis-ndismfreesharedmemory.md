@@ -10,6 +10,7 @@ keywords: ["NdisMFreeSharedMemory function"]
 ms.keywords: NdisMFreeSharedMemory, NdisMFreeSharedMemory function [Network Drivers Starting with Windows Vista], miniport_memory_shared_ref_1aab9bae-ae02-40ba-83ec-1dd880e207cf.xml, ndis/NdisMFreeSharedMemory, netvista.ndismfreesharedmemory
 f1_keywords:
  - "ndis/NdisMFreeSharedMemory"
+ - "NdisMFreeSharedMemory"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

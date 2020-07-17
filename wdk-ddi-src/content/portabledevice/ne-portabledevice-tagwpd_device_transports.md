@@ -10,6 +10,7 @@ keywords: ["tagWPD_DEVICE_TRANSPORTS enumeration"]
 ms.keywords: WPD_DEVICE_TRANSPORTS, WPD_DEVICE_TRANSPORTS enumeration, WPD_DEVICE_TRANSPORT_BLUETOOTH, WPD_DEVICE_TRANSPORT_IP, WPD_DEVICE_TRANSPORT_UNSPECIFIED, WPD_DEVICE_TRANSPORT_USB, portabledevice/WPD_DEVICE_TRANSPORTS, portabledevice/WPD_DEVICE_TRANSPORT_BLUETOOTH, portabledevice/WPD_DEVICE_TRANSPORT_IP, portabledevice/WPD_DEVICE_TRANSPORT_UNSPECIFIED, portabledevice/WPD_DEVICE_TRANSPORT_USB, tagWPD_DEVICE_TRANSPORTS, wpddk.wpd_device_transports
 f1_keywords:
  - "portabledevice/WPD_DEVICE_TRANSPORTS"
+ - "WPD_DEVICE_TRANSPORTS"
 req.header: portabledevice.h
 req.include-header: 
 req.target-type: Windows

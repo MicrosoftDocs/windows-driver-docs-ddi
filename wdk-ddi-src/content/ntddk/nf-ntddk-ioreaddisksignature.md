@@ -10,6 +10,7 @@ keywords: ["IoReadDiskSignature function"]
 ms.keywords: IoReadDiskSignature, IoReadDiskSignature routine [Storage Devices], ntddk/IoReadDiskSignature, rtns-disk_4bd8bcea-c43a-45ea-a074-013b8eb30e01.xml, storage.ioreaddisksignature
 f1_keywords:
  - "ntddk/IoReadDiskSignature"
+ - "IoReadDiskSignature"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

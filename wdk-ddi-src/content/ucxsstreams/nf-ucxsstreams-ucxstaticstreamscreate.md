@@ -10,6 +10,7 @@ keywords: ["UcxStaticStreamsCreate function"]
 ms.keywords: UcxStaticStreamsCreate, UcxStaticStreamsCreate method [Buses], buses._ucxstaticstreamscreate, ucxsstreams/UcxStaticStreamsCreate
 f1_keywords:
  - "ucxsstreams/UcxStaticStreamsCreate"
+ - "UcxStaticStreamsCreate"
 req.header: ucxsstreams.h
 req.include-header: Ucxclass.h, Ucxstreams.h
 req.target-type: Windows

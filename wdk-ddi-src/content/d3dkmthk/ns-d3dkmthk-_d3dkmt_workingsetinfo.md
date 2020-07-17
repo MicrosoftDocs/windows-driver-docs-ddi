@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_WORKINGSETINFO structure"]
 ms.keywords: D3DKMT_WORKINGSETINFO, D3DKMT_WORKINGSETINFO structure [Display Devices], OpenGL_Structs_a3992911-10eb-48fe-a755-fe14e68fbaa8.xml, _D3DKMT_WORKINGSETINFO, d3dkmthk/D3DKMT_WORKINGSETINFO, display.d3dkmt_workingsetinfo
 f1_keywords:
  - "d3dkmthk/D3DKMT_WORKINGSETINFO"
+ - "D3DKMT_WORKINGSETINFO"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

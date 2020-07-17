@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DlSetBusData function"]
 f1_keywords:
  - "dispmprt/DlSetBusData"
+ - "DlSetBusData"
 ms.keywords: DlSetBusData
 req.header: dispmprt.h
 req.include-header:

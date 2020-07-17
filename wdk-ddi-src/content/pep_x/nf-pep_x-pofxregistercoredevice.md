@@ -10,6 +10,7 @@ keywords: ["PoFxRegisterCoreDevice function"]
 ms.keywords: PoFxRegisterCoreDevice, PoFxRegisterCoreDevice routine [Kernel-Mode Driver Architecture], kernel.pofxregistercoredevice, pepfx/PoFxRegisterCoreDevice
 f1_keywords:
  - "pep_x/PoFxRegisterCoreDevice"
+ - "PoFxRegisterCoreDevice"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows

@@ -27,6 +27,7 @@ tech.root: display
 ms.custom: RS5
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_CREATE_PIPELINE_STATE_0010"
+ - "PFND3D12DDI_CREATE_PIPELINE_STATE_0010"
 topic_type:
  - apiref
 api_type:

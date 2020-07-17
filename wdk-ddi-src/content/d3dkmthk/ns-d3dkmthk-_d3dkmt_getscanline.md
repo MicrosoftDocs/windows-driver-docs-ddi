@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_GETSCANLINE structure"]
 ms.keywords: D3DKMT_GETSCANLINE, D3DKMT_GETSCANLINE structure [Display Devices], OpenGL_Structs_1e99e2c0-2215-43ed-9dc4-657f30903637.xml, _D3DKMT_GETSCANLINE, d3dkmthk/D3DKMT_GETSCANLINE, display.d3dkmt_getscanline
 f1_keywords:
  - "d3dkmthk/D3DKMT_GETSCANLINE"
+ - "D3DKMT_GETSCANLINE"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

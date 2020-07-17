@@ -10,6 +10,7 @@ keywords: ["IPrintOemUni::TTDownloadMethod"]
 ms.keywords: IPrintOemUni interface [Print Devices],TTDownloadMethod method, IPrintOemUni.TTDownloadMethod, IPrintOemUni::TTDownloadMethod, TTDownloadMethod, TTDownloadMethod method [Print Devices], TTDownloadMethod method [Print Devices],IPrintOemUni interface, prcomoem/IPrintOemUni::TTDownloadMethod, print.iprintoemuni_ttdownloadmethod, print_unidrv-pscript_rendering_8a4dc2b9-3318-492d-8585-9fb5e6d8fd9d.xml
 f1_keywords:
  - "prcomoem/IPrintOemUni.TTDownloadMethod"
+ - "IPrintOemUni.TTDownloadMethod"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop

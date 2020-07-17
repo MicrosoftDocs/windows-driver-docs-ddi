@@ -7,6 +7,7 @@ ms.date: 09/12/2018
 keywords: ["IDebugHostErrorSink::Release"]
 f1_keywords:
  - "dbgmodel/IDebugHostErrorSink.Release"
+ - "IDebugHostErrorSink.Release"
 ms.keywords: IDebugHostErrorSink::Release, Release, IDebugHostErrorSink.Release, IDebugHostErrorSink::Release, IDebugHostErrorSink.Release
 req.header: dbgmodel.h
 req.include-header:

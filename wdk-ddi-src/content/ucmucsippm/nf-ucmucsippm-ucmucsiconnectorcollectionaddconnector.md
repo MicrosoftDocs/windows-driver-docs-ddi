@@ -8,6 +8,7 @@ ms.date: 09/30/2018
 keywords: ["UcmUcsiConnectorCollectionAddConnector function"]
 f1_keywords:
  - "ucmucsippm/UcmUcsiConnectorCollectionAddConnector"
+ - "UcmUcsiConnectorCollectionAddConnector"
 ms.keywords: UcmUcsiConnectorCollectionAddConnector
 req.header: Ucmucsippm.h
 req.include-header: UcmUcsiCx.h

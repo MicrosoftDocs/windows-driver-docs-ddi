@@ -10,6 +10,7 @@ keywords: ["SerCx2CustomReceiveTransactionInitializeComplete function"]
 ms.keywords: 2/SerCx2CustomReceiveTransactionInitializeComplete, SerCx2CustomReceiveTransactionInitializeComplete, SerCx2CustomReceiveTransactionInitializeComplete method [Serial Ports], serports.sercx2customreceivetransactioninitializecomplete
 f1_keywords:
  - "sercx/SerCx2CustomReceiveTransactionInitializeComplete"
+ - "SerCx2CustomReceiveTransactionInitializeComplete"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal

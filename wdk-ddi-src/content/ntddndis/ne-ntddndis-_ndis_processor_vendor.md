@@ -10,6 +10,7 @@ keywords: ["_NDIS_PROCESSOR_VENDOR enumeration"]
 ms.keywords: "*PNDIS_PROCESSOR_VENDOR, NDIS_PROCESSOR_VENDOR, NDIS_PROCESSOR_VENDOR enumeration [Network Drivers Starting with Windows Vista], NdisProcessorVendorAuthenticAMD, NdisProcessorVendorGenuinIntel, NdisProcessorVendorUnknown, PNDIS_PROCESSOR_VENDOR, PNDIS_PROCESSOR_VENDOR enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_PROCESSOR_VENDOR, ndis_sysinfo_ref_7037b548-2ccc-4f39-9b34-33002f811bf1.xml, netvista.ndis_processor_vendor, ntddndis/NDIS_PROCESSOR_VENDOR, ntddndis/NdisProcessorVendorAuthenticAMD, ntddndis/NdisProcessorVendorGenuinIntel, ntddndis/NdisProcessorVendorUnknown, ntddndis/PNDIS_PROCESSOR_VENDOR"
 f1_keywords:
  - "ntddndis/NDIS_PROCESSOR_VENDOR"
+ - "NDIS_PROCESSOR_VENDOR"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

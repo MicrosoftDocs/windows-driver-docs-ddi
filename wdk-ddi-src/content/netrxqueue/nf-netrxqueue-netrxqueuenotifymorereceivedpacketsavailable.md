@@ -8,6 +8,7 @@ ms.date: 11/06/2018
 keywords: ["NetRxQueueNotifyMoreReceivedPacketsAvailable function"]
 f1_keywords:
  - "netrxqueue/NetRxQueueInitGetQueueId"
+ - "NetRxQueueInitGetQueueId"
 ms.keywords: NetRxQueueNotifyMoreReceivedPacketsAvailable
 req.header: netrxqueue.h
 req.include-header: netadaptercx.h

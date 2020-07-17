@@ -10,6 +10,7 @@ keywords: ["NdisCmOpenAddressFamilyComplete function"]
 ms.keywords: NdisCmOpenAddressFamilyComplete, NdisCmOpenAddressFamilyComplete function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_0b6dfac0-905d-48a8-b547-85bfe047e8f1.xml, ndis/NdisCmOpenAddressFamilyComplete, netvista.ndiscmopenaddressfamilycomplete
 f1_keywords:
  - "ndis/NdisCmOpenAddressFamilyComplete"
+ - "NdisCmOpenAddressFamilyComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

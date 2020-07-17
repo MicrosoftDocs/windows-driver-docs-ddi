@@ -10,6 +10,7 @@ keywords: ["RILUICCATRINFO structure"]
 ms.keywords: "*LPRILUICCATRINFO, RILUICCATRINFO, RILUICCATRINFO structure [Network Drivers Starting with Windows Vista], netvista.riluiccatrinfo, ntddrilapitypes/RILUICCATRINFO"
 f1_keywords:
  - "ntddrilapitypes/RILUICCATRINFO"
+ - "RILUICCATRINFO"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

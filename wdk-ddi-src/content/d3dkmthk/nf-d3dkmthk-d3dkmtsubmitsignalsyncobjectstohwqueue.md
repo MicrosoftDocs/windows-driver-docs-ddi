@@ -9,6 +9,7 @@ keywords: ["D3DKMTSubmitSignalSyncObjectsToHwQueue function"]
 ms.keywords: D3DKMTSubmitSignalSyncObjectsToHwQueue, D3DKMTSubmitSignalSyncObjectsToHwQueue function [Display Devices], d3dkmthk/D3DKMTSubmitSignalSyncObjectsToHwQueue, display.d3dkmtsubmitsignalsyncobjectstohwqueue
 f1_keywords:
  - "d3dkmthk/D3DKMTSubmitSignalSyncObjectsToHwQueue"
+ - "D3DKMTSubmitSignalSyncObjectsToHwQueue"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows

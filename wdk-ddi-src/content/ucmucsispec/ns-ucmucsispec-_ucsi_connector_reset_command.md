@@ -8,6 +8,7 @@ ms.date: 09/30/2018
 keywords: ["_UCSI_CONNECTOR_RESET_COMMAND structure"]
 f1_keywords:
  - "ucmucsispec/_UCSI_CONNECTOR_RESET_COMMAND"
+ - "_UCSI_CONNECTOR_RESET_COMMAND"
 ms.keywords: _UCSI_CONNECTOR_RESET_COMMAND, UCSI_CONNECTOR_RESET_COMMAND, *PUCSI_CONNECTOR_RESET_COMMAND, 
 req.header: ucmucsispec.h
 req.include-header: UcmUcsiCx.h 

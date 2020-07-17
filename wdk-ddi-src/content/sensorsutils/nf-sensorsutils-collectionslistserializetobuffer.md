@@ -7,6 +7,7 @@ ms.date: 08/08/2018
 keywords: ["CollectionsListSerializeToBuffer function"]
 f1_keywords:
  - "sensorsutils/CollectionsListSerializeToBuffer"
+ - "CollectionsListSerializeToBuffer"
 tech.root: sensors
 ms.keywords: CollectionsListSerializeToBuffer
 req.header: sensorsutils.h

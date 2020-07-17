@@ -7,6 +7,7 @@ ms.date: 07/16/2018
 keywords: ["IDataModelManager::AcquireNamedModel"]
 f1_keywords:
  - "dbgmodel/IDataModelManager.AcquireNamedModel"
+ - "IDataModelManager.AcquireNamedModel"
 ms.keywords: IDataModelManager::AcquireNamedModel, AcquireNamedModel, IDataModelManager.AcquireNamedModel, IDataModelManager::AcquireNamedModel, IDataModelManager.AcquireNamedModel
 req.header: dbgmodel.h
 req.include-header:

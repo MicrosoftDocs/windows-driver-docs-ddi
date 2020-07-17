@@ -10,6 +10,7 @@ keywords: ["IOCTL_EHSTOR_DEVICE_GET_AUTHZ_STATE IOCTL"]
 ms.keywords: IOCTL_EHSTOR_DEVICE_GET_AUTHZ_STATE, IOCTL_EHSTOR_DEVICE_GET_AUTHZ_STATE control, IOCTL_EHSTOR_DEVICE_GET_AUTHZ_STATE control code [Storage Devices], ehstorioctl/IOCTL_EHSTOR_DEVICE_GET_AUTHZ_STATE, storage.ioctl_ehstor_device_get_authz_state
 f1_keywords:
  - "ehstorioctl/IOCTL_EHSTOR_DEVICE_GET_AUTHZ_STATE"
+ - "IOCTL_EHSTOR_DEVICE_GET_AUTHZ_STATE"
 req.header: ehstorioctl.h
 req.include-header: EhStorIoctl.h
 req.target-type: Windows

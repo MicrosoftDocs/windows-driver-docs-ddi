@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::GetSourceEntryBySourceEntry"]
 ms.keywords: GetSourceEntryBySourceEntry, GetSourceEntryBySourceEntry method [Windows Debugging], GetSourceEntryBySourceEntry method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSourceEntryBySourceEntry method, IDebugSymbols3.GetSourceEntryBySourceEntry, IDebugSymbols3::GetSourceEntryBySourceEntry, dbgeng/IDebugSymbols3::GetSourceEntryBySourceEntry, debugger.idebugsymbols3_getsourceentrybysourceentry
 f1_keywords:
  - "dbgeng/IDebugSymbols3.GetSourceEntryBySourceEntry"
+ - "IDebugSymbols3.GetSourceEntryBySourceEntry"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

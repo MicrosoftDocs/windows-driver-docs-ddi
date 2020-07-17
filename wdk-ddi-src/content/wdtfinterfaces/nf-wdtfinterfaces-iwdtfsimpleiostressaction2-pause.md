@@ -10,6 +10,7 @@ keywords: ["IWDTFSimpleIOStressAction2::Pause"]
 ms.keywords: IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework],Pause method, IWDTFSimpleIOStressAction2.Pause, IWDTFSimpleIOStressAction2::Pause, Microsoft.WDTF.IWDTFSimpleIOStressAction2.Pause, Microsoft::WDTF::IWDTFSimpleIOStressAction2::Pause, Pause, Pause method [Windows Device Testing Framework], Pause method [Windows Device Testing Framework],IWDTFSimpleIOStressAction2 interface, dtf.iwdtfsimpleiostressaction2_pause, wdtfinterfaces/IWDTFSimpleIOStressAction2::Pause
 f1_keywords:
  - "wdtfinterfaces/IWDTFSimpleIOStressAction2.Pause"
+ - "IWDTFSimpleIOStressAction2.Pause"
 req.header: wdtfinterfaces.h
 req.include-header: 
 req.target-type: Desktop

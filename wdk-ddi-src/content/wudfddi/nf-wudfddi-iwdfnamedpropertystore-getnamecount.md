@@ -10,6 +10,7 @@ keywords: ["IWDFNamedPropertyStore::GetNameCount"]
 ms.keywords: GetNameCount, GetNameCount method, GetNameCount method,IWDFNamedPropertyStore interface, IWDFNamedPropertyStore interface,GetNameCount method, IWDFNamedPropertyStore.GetNameCount, IWDFNamedPropertyStore::GetNameCount, UMDFPropertyStoreObjectRef_94f4d4d8-43e9-4901-a2bb-613761069daf.xml, umdf.iwdfnamedpropertystore_getnamecount, wdf.iwdfnamedpropertystore_getnamecount, wudfddi/IWDFNamedPropertyStore::GetNameCount
 f1_keywords:
  - "wudfddi/IWDFNamedPropertyStore.GetNameCount"
+ - "IWDFNamedPropertyStore.GetNameCount"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

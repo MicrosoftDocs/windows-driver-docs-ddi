@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_VAD_ESCAPE_COMMAND enumeration"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_VAD_ESCAPE_COMMAND"
+ - "_D3DKMT_VAD_ESCAPE_COMMAND"
 ms.keywords: _D3DKMT_VAD_ESCAPE_COMMAND, D3DKMT_VAD_ESCAPE_COMMAND, 
 req.header: d3dkmthk.h
 req.include-header:

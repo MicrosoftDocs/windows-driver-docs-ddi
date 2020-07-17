@@ -8,6 +8,7 @@ ms.date: 04/10/2019
 keywords: ["_NDIS_WWAN_UICC_ACCESS_BINARY structure"]
 f1_keywords:
  - "ndiswwan/_NDIS_WWAN_UICC_ACCESS_BINARY"
+ - "_NDIS_WWAN_UICC_ACCESS_BINARY"
 ms.keywords: _NDIS_WWAN_UICC_ACCESS_BINARY, NDIS_WWAN_UICC_ACCESS_BINARY, *PNDIS_WWAN_UICC_ACCESS_BINARY, 
 req.header: ndiswwan.h
 req.include-header:

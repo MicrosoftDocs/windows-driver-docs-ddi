@@ -10,6 +10,7 @@ keywords: ["IStiDevice::GetStatus"]
 ms.keywords: GetStatus, GetStatus method [Imaging Devices], GetStatus method [Imaging Devices],IStiDevice interface, IStiDevice interface [Imaging Devices],GetStatus method, IStiDevice.GetStatus, IStiDevice::GetStatus, image.istidevice_getstatus, sti/IStiDevice::GetStatus, stifnc_b1ed4e70-9658-47e4-9f89-6dc2b8463886.xml
 f1_keywords:
  - "sti/IStiDevice.GetStatus"
+ - "IStiDevice.GetStatus"
 req.header: sti.h
 req.include-header: Sti.h
 req.target-type: Desktop

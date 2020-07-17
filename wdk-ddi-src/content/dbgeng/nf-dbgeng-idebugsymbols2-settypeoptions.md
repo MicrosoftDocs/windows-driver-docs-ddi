@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols2::SetTypeOptions"]
 ms.keywords: IDebugSymbols2 interface [Windows Debugging],SetTypeOptions method, IDebugSymbols2.SetTypeOptions, IDebugSymbols2::SetTypeOptions, IDebugSymbols3 interface [Windows Debugging],SetTypeOptions method, IDebugSymbols3::SetTypeOptions, IDebugSymbols_b6a88e5d-93c9-4cc6-ab53-e5e5f6b8f107.xml, SetTypeOptions, SetTypeOptions method [Windows Debugging], SetTypeOptions method [Windows Debugging],IDebugSymbols2 interface, SetTypeOptions method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols2::SetTypeOptions, dbgeng/IDebugSymbols3::SetTypeOptions, debugger.settypeoptions
 f1_keywords:
  - "dbgeng/IDebugSymbols2.SetTypeOptions"
+ - "IDebugSymbols2.SetTypeOptions"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

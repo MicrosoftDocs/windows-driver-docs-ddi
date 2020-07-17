@@ -10,6 +10,7 @@ ms.date: 10/11/2019
 keywords: ["EVT_NET_DEVICE_PREVIEW_WAKE_SOURCE callback function"]
 f1_keywords:
  - "netdevice/EVT_NET_DEVICE_PREVIEW_WAKE_SOURCE"
+ - "EVT_NET_DEVICE_PREVIEW_WAKE_SOURCE"
 req.header: netdevice.h
 req.include-header:
 req.target-type: Universal

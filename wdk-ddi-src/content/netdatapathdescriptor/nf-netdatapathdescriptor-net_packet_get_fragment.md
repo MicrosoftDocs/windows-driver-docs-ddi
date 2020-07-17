@@ -8,6 +8,7 @@ ms.date: 02/27/2018
 keywords: ["NET_PACKET_GET_FRAGMENT macro"]
 f1_keywords:
  - "netdatapathdescriptor/NET_PACKET_GET_FRAGMENT"
+ - "NET_PACKET_GET_FRAGMENT"
 ms.keywords: NET_PACKET_GET_FRAGMENT
 req.header: netdatapathdescriptor.h
 req.include-header: netadaptercx.h

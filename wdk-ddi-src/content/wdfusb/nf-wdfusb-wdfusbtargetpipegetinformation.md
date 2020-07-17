@@ -10,6 +10,7 @@ keywords: ["WdfUsbTargetPipeGetInformation function"]
 ms.keywords: DFUsbRef_edde1f49-9228-48fc-8812-ebfe65f48b18.xml, WdfUsbTargetPipeGetInformation, WdfUsbTargetPipeGetInformation method, kmdf.wdfusbtargetpipegetinformation, wdf.wdfusbtargetpipegetinformation, wdfusb/WdfUsbTargetPipeGetInformation
 f1_keywords:
  - "wdfusb/WdfUsbTargetPipeGetInformation"
+ - "WdfUsbTargetPipeGetInformation"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal

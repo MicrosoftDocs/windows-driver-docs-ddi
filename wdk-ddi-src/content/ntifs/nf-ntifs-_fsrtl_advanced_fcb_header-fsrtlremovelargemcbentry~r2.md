@@ -10,6 +10,7 @@ keywords: ["FsRtlRemoveLargeMcbEntry function"]
 ms.keywords: FsRtlRemoveLargeMcbEntry, FsRtlRemoveLargeMcbEntry routine [Installable File System Drivers], fsrtlref_d80cc918-81da-4aae-b8ba-b2aea9519af3.xml, ifsk.fsrtlremovelargemcbentry, ntifs/FsRtlRemoveLargeMcbEntry
 f1_keywords:
  - "ntifs/FsRtlRemoveLargeMcbEntry"
+ - "FsRtlRemoveLargeMcbEntry"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

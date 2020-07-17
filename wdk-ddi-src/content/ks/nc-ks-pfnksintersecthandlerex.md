@@ -10,6 +10,7 @@ keywords: ["PFNKSINTERSECTHANDLEREX callback function"]
 ms.keywords: AVStrMiniIntersectHandlerEx, AVStrMiniIntersectHandlerEx routine [Streaming Media Devices], PFNKSINTERSECTHANDLEREX, avstclbk_7a9be78c-3ca2-4fe2-961c-37dbd122a4b8.xml, ks/AVStrMiniIntersectHandlerEx, stream.avstrminiintersecthandlerex
 f1_keywords:
  - "ks/AVStrMiniIntersectHandlerEx"
+ - "AVStrMiniIntersectHandlerEx"
 req.header: ks.h
 req.include-header: 
 req.target-type: Desktop

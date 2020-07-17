@@ -10,6 +10,7 @@ keywords: ["PCMP_MONITOR_ROUTINE callback function"]
 ms.keywords: 61883/CmpMonitorRoutine, CmpMonitorRoutine, CmpMonitorRoutine callback function [Buses], IEEE.pcmp_monitor_routine, PCMP_MONITOR_ROUTINE, PCMP_MONITOR_ROUTINE callback
 f1_keywords:
  - "61883/CmpMonitorRoutine"
+ - "CmpMonitorRoutine"
 req.header: 61883.h
 req.include-header: 
 req.target-type: Windows

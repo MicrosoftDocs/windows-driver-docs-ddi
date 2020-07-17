@@ -10,6 +10,7 @@ keywords: ["DOT11EXT_ONEX_START callback"]
 ms.keywords: DOT11EXT_ONEX_START, Dot11ExtStartOneX, Dot11ExtStartOneX callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_71199b82-64e0-4b96-89f0-e964dd959077.xml, netvista.dot11extstartonex, wlanihv/Dot11ExtStartOneX
 f1_keywords:
  - "wlanihv/Dot11ExtStartOneX"
+ - "Dot11ExtStartOneX"
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Desktop

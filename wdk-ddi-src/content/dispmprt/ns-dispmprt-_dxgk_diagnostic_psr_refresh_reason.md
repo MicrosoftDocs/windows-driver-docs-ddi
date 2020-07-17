@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_DXGK_DIAGNOSTIC_PSR_REFRESH_REASON structure"]
 f1_keywords:
  - "dispmprt/_DXGK_DIAGNOSTIC_PSR_REFRESH_REASON"
+ - "_DXGK_DIAGNOSTIC_PSR_REFRESH_REASON"
 ms.keywords: _DXGK_DIAGNOSTIC_PSR_REFRESH_REASON, DXGK_DIAGNOSTIC_PSR_REFRESH_REASON, 
 req.header: dispmprt.h
 req.include-header:

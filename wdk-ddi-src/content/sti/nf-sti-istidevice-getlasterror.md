@@ -10,6 +10,7 @@ keywords: ["IStiDevice::GetLastError"]
 ms.keywords: GetLastError, GetLastError method [Imaging Devices], GetLastError method [Imaging Devices],IStiDevice interface, IStiDevice interface [Imaging Devices],GetLastError method, IStiDevice.GetLastError, IStiDevice::GetLastError, image.istidevice_getlasterror, sti/IStiDevice::GetLastError, stifnc_9c8050a1-8e9a-4b24-a461-bc567602900d.xml
 f1_keywords:
  - "sti/IStiDevice.GetLastError"
+ - "IStiDevice.GetLastError"
 req.header: sti.h
 req.include-header: Sti.h
 req.target-type: Desktop

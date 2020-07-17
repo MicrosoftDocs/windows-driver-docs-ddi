@@ -10,6 +10,7 @@ keywords: ["IDebugRegisters2::GetValues2"]
 ms.keywords: GetValues2, GetValues2 method [Windows Debugging], GetValues2 method [Windows Debugging],IDebugRegisters2 interface, IDebugRegisters2 interface [Windows Debugging],GetValues2 method, IDebugRegisters2.GetValues2, IDebugRegisters2::GetValues2, IDebugRegisters_de7a1e67-5ffe-48f8-a19d-63858c500389.xml, dbgeng/IDebugRegisters2::GetValues2, debugger.getvalues2
 f1_keywords:
  - "dbgeng/IDebugRegisters2.GetValues2"
+ - "IDebugRegisters2.GetValues2"
 req.header: dbgeng.h
 req.include-header: DbgEng.h
 req.target-type: Desktop

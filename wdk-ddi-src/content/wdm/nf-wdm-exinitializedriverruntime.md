@@ -34,6 +34,7 @@ api_name:
  - ExInitializeDriverRuntime
 f1_keywords:
  - wdm/ExInitializeDriverRuntime
+ - ""
 dev_langs:
  - c++
 ---

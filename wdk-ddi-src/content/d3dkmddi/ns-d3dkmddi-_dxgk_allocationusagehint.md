@@ -9,6 +9,7 @@ keywords: ["_DXGK_ALLOCATIONUSAGEHINT structure"]
 ms.keywords: DXGK_ALLOCATIONUSAGEHINT, DXGK_ALLOCATIONUSAGEHINT structure [Display Devices], DmStructs_9597c610-bb79-496c-b7b3-9fb5abb30a46.xml, _DXGK_ALLOCATIONUSAGEHINT, d3dkmddi/DXGK_ALLOCATIONUSAGEHINT, display.dxgk_allocationusagehint
 f1_keywords:
  - "d3dkmddi/DXGK_ALLOCATIONUSAGEHINT"
+ - "DXGK_ALLOCATIONUSAGEHINT"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

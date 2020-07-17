@@ -10,6 +10,7 @@ keywords: ["DOT11EXTIHV_PERFORM_PRE_ASSOCIATE callback"]
 ms.keywords: DOT11EXTIHV_PERFORM_PRE_ASSOCIATE, Dot11ExtIhvPerformPreAssociate, Dot11ExtIhvPerformPreAssociate callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_431e221a-0022-47ad-b2bf-e7580eb889e8.xml, netvista.dot11extihvperformpreassociate, wlanihv/Dot11ExtIhvPerformPreAssociate
 f1_keywords:
  - "wlanihv/Dot11ExtIhvPerformPreAssociate"
+ - "Dot11ExtIhvPerformPreAssociate"
 req.header: wlanihv.h
 req.include-header: Wlanihv.h, L2cmn.h
 req.target-type: Desktop

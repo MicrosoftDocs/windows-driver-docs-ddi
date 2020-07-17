@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMTPresentMultiPlaneOverlay3 function"]
 f1_keywords:
  - "d3dkmthk/D3DKMTPresentMultiPlaneOverlay3"
+ - "D3DKMTPresentMultiPlaneOverlay3"
 ms.keywords: D3DKMTPresentMultiPlaneOverlay3
 req.header: d3dkmthk.h
 req.include-header:

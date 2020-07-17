@@ -10,6 +10,7 @@ keywords: ["_SYNTHCAPS structure"]
 ms.keywords: "*PSYNTHCAPS, PSYNTHCAPS, PSYNTHCAPS structure pointer [Audio Devices], SYNTHCAPS, SYNTHCAPS structure [Audio Devices], _SYNTHCAPS, aud-prop_609e484a-6bcb-4ea2-9ca5-fa640c4d9ba8.xml, audio.synthcaps, dmusprop/PSYNTHCAPS, dmusprop/SYNTHCAPS"
 f1_keywords:
  - "dmusprop/SYNTHCAPS"
+ - "SYNTHCAPS"
 req.header: dmusprop.h
 req.include-header: Dmusprop.h
 req.target-type: Windows

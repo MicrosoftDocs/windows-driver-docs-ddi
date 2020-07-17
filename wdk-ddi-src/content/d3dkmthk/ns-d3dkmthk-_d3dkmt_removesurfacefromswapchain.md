@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_REMOVESURFACEFROMSWAPCHAIN structure"]
 ms.keywords: D3DKMT_REMOVESURFACEFROMSWAPCHAIN, D3DKMT_REMOVESURFACEFROMSWAPCHAIN structure [Display Devices], _D3DKMT_REMOVESURFACEFROMSWAPCHAIN, d3dkmthk/D3DKMT_REMOVESURFACEFROMSWAPCHAIN, display.d3dkmt-removesurfacefromswapchain
 f1_keywords:
  - "d3dkmthk/D3DKMT_REMOVESURFACEFROMSWAPCHAIN"
+ - "D3DKMT_REMOVESURFACEFROMSWAPCHAIN"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows

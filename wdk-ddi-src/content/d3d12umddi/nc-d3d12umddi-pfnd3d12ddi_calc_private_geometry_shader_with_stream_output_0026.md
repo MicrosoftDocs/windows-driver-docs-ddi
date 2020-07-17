@@ -28,6 +28,7 @@ req.type-library:
 targetos: Windows
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_CALC_PRIVATE_GEOMETRY_SHADER_WITH_STREAM_OUTPUT_0026"
+ - "PFND3D12DDI_CALC_PRIVATE_GEOMETRY_SHADER_WITH_STREAM_OUTPUT_0026"
 topic_type:
  - apiref
 api_type:

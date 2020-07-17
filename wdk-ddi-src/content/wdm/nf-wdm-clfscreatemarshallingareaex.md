@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["ClfsCreateMarshallingAreaEx function"]
 f1_keywords:
  - "wdm/ClfsCreateMarshallingAreaEx"
+ - "ClfsCreateMarshallingAreaEx"
 ms.keywords: ClfsCreateMarshallingAreaEx
 req.header: wdm.h
 req.include-header:

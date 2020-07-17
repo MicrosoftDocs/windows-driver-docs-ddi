@@ -10,6 +10,7 @@ keywords: ["LPD3DHAL_VALIDATETEXTURESTAGESTATECB callback function"]
 ms.keywords: D3dValidateTextureStageState, D3dValidateTextureStageState callback, D3dValidateTextureStageState callback function [Display Devices], LPD3DHAL_VALIDATETEXTURESTAGESTATECB, d3dfncs_f83c205a-4cad-4365-beee-442a66e2c67a.xml, d3dhal/D3dValidateTextureStageState, display.d3dvalidatetexturestagestate
 f1_keywords:
  - "d3dhal/D3dValidateTextureStageState"
+ - "D3dValidateTextureStageState"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Desktop

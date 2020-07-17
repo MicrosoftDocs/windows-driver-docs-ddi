@@ -9,6 +9,7 @@ keywords: ["_DXGK_QUERYSEGMENTMEMORYSTATE structure"]
 ms.keywords: DXGK_QUERYSEGMENTMEMORYSTATE, DXGK_QUERYSEGMENTMEMORYSTATE structure [Display Devices], DXGK_SEGMENTMEMORYSTATE, _DXGK_QUERYSEGMENTMEMORYSTATE, d3dkmddi/DXGK_QUERYSEGMENTMEMORYSTATE, display.dxgk_querysegmentmemorystate
 f1_keywords:
  - "d3dkmddi/DXGK_QUERYSEGMENTMEMORYSTATE"
+ - "DXGK_QUERYSEGMENTMEMORYSTATE"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

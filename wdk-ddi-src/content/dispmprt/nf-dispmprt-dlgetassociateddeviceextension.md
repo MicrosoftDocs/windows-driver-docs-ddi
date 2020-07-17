@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DlGetAssociatedDeviceExtension function"]
 f1_keywords:
  - "dispmprt/DlGetAssociatedDeviceExtension"
+ - "DlGetAssociatedDeviceExtension"
 ms.keywords: DlGetAssociatedDeviceExtension
 req.header: dispmprt.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["IKsControl interface"]
 ms.keywords: IKsControl, IKsControl interface [Streaming Media Devices], IKsControl interface [Streaming Media Devices],described, avintfc_fc0ad706-c416-40f7-b213-5467fcebeb72.xml, ks/IKsControl, stream.ikscontrol8
 f1_keywords:
  - "ks/IKsControl"
+ - "IKsControl"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows

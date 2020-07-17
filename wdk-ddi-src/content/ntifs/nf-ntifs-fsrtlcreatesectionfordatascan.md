@@ -10,6 +10,7 @@ keywords: ["FsRtlCreateSectionForDataScan function"]
 ms.keywords: FsRtlCreateSectionForDataScan, FsRtlCreateSectionForDataScan routine [Installable File System Drivers], fsrtlref_5117d865-19da-4ec5-8b20-cccab94eb013.xml, ifsk.fsrtlcreatesectionfordatascan, ntifs/FsRtlCreateSectionForDataScan
 f1_keywords:
  - "ntifs/FsRtlCreateSectionForDataScan"
+ - "FsRtlCreateSectionForDataScan"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

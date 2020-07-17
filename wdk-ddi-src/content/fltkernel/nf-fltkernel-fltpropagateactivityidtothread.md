@@ -10,6 +10,7 @@ keywords: ["FltPropagateActivityIdToThread function"]
 ms.keywords: FltPropagateActivityIdToThread, FltPropagateActivityIdToThread routine [Installable File System Drivers], fltkernel/FltPropagateActivityIdToThread, ifsk.fltpropagateactivityidtothread
 f1_keywords:
  - "fltkernel/FltPropagateActivityIdToThread"
+ - "FltPropagateActivityIdToThread"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

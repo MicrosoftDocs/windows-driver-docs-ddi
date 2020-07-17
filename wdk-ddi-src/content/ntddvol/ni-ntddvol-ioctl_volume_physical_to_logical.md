@@ -10,6 +10,7 @@ keywords: ["IOCTL_VOLUME_PHYSICAL_TO_LOGICAL IOCTL"]
 ms.keywords: IOCTL_VOLUME_PHYSICAL_TO_LOGICAL, IOCTL_VOLUME_PHYSICAL_TO_LOGICAL control, IOCTL_VOLUME_PHYSICAL_TO_LOGICAL control code [Storage Devices], k307_7f4b8e45-1569-4d69-a33b-856b8587fe7b.xml, ntddvol/IOCTL_VOLUME_PHYSICAL_TO_LOGICAL, storage.ioctl_volume_physical_to_logical
 f1_keywords:
  - "ntddvol/IOCTL_VOLUME_PHYSICAL_TO_LOGICAL"
+ - "IOCTL_VOLUME_PHYSICAL_TO_LOGICAL"
 req.header: ntddvol.h
 req.include-header: Ntddvol.h
 req.target-type: Windows

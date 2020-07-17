@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["IOCTL_COLORSPACE_TRANSFORM_QUERY_TARGET_CAPS IOCTL"]
 f1_keywords:
  - "ntddvdeo/IOCTL_COLORSPACE_TRANSFORM_QUERY_TARGET_CAPS"
+ - "IOCTL_COLORSPACE_TRANSFORM_QUERY_TARGET_CAPS"
 req.header: ntddvdeo.h
 req.include-header:
 req.target-type:

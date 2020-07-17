@@ -10,6 +10,7 @@ keywords: ["ISynthSinkDMus::RefTimeToSample"]
 ms.keywords: ISynthSinkDMus interface [Audio Devices],RefTimeToSample method, ISynthSinkDMus.RefTimeToSample, ISynthSinkDMus::RefTimeToSample, RefTimeToSample, RefTimeToSample method [Audio Devices], RefTimeToSample method [Audio Devices],ISynthSinkDMus interface, audio.isynthsinkdmus_reftimetosample, audmp-routines_8c8379c0-db14-4275-adfc-2dd595879feb.xml, dmusicks/ISynthSinkDMus::RefTimeToSample
 f1_keywords:
  - "dmusicks/ISynthSinkDMus.RefTimeToSample"
+ - "ISynthSinkDMus.RefTimeToSample"
 req.header: dmusicks.h
 req.include-header: Dmusicks.h
 req.target-type: Desktop

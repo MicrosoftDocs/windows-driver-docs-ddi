@@ -10,6 +10,7 @@ keywords: ["_CMP_CONNECT_VER2 structure"]
 ms.keywords: "*PCMP_CONNECT, *PCMP_CONNECT_VER2, 61883/CMP_CONNECT_VER2, 61883/PCMP_CONNECT_VER2, CMP_CONNECT, CMP_CONNECT_VER2, CMP_CONNECT_VER2 structure, IEEE.cmp_connect_ver2, PCMP_CONNECT_VER2, PCMP_CONNECT_VER2 structure pointer, _CMP_CONNECT_VER2"
 f1_keywords:
  - "61883/CMP_CONNECT_VER2"
+ - "CMP_CONNECT_VER2"
 req.header: 61883.h
 req.include-header: 
 req.target-type: Windows

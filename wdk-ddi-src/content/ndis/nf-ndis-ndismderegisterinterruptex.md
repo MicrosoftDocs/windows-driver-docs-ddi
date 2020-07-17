@@ -10,6 +10,7 @@ keywords: ["NdisMDeregisterInterruptEx function"]
 ms.keywords: NdisMDeregisterInterruptEx, NdisMDeregisterInterruptEx function [Network Drivers Starting with Windows Vista], ndis/NdisMDeregisterInterruptEx, ndis_interrupts_functions_ref_51574ad2-1b99-4238-b6a3-e427c321cd16.xml, netvista.ndismderegisterinterruptex
 f1_keywords:
  - "ndis/NdisMDeregisterInterruptEx"
+ - "NdisMDeregisterInterruptEx"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

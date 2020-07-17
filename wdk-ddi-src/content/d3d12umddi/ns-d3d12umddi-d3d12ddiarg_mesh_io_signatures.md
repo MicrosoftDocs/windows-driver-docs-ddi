@@ -32,6 +32,7 @@ api_name:
  - D3D12DDIARG_MESH_IO_SIGNATURES
 f1_keywords:
  - d3d12umddi/D3D12DDIARG_MESH_IO_SIGNATURES
+ - ""
 dev_langs:
  - c++
 ---

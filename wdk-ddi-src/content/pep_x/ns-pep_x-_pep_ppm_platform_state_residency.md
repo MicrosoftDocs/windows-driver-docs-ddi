@@ -10,6 +10,7 @@ keywords: ["_PEP_PPM_PLATFORM_STATE_RESIDENCY structure"]
 ms.keywords: "*PPEP_PPM_PLATFORM_STATE_RESIDENCY, PEP_PPM_PLATFORM_STATE_RESIDENCY, PEP_PPM_PLATFORM_STATE_RESIDENCY structure [Kernel-Mode Driver Architecture], PPEP_PPM_PLATFORM_STATE_RESIDENCY, PPEP_PPM_PLATFORM_STATE_RESIDENCY structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_PLATFORM_STATE_RESIDENCY, kernel.pep_ppm_platform_state_residency, pepfx/PEP_PPM_PLATFORM_STATE_RESIDENCY, pepfx/PPEP_PPM_PLATFORM_STATE_RESIDENCY"
 f1_keywords:
  - "pep_x/PEP_PPM_PLATFORM_STATE_RESIDENCY"
+ - "PEP_PPM_PLATFORM_STATE_RESIDENCY"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows

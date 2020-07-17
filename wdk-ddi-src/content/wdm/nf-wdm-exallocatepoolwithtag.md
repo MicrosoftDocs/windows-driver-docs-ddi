@@ -10,6 +10,7 @@ keywords: ["ExAllocatePoolWithTag function"]
 ms.keywords: ExAllocatePoolWithTag, ExAllocatePoolWithTag routine [Kernel-Mode Driver Architecture], k102_13ab2d7e-dd96-4474-bf27-59ee9b7d84d6.xml, kernel.exallocatepoolwithtag, wdm/ExAllocatePoolWithTag
 f1_keywords:
  - "wdm/ExAllocatePoolWithTag"
+ - "ExAllocatePoolWithTag"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

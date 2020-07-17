@@ -7,6 +7,7 @@ ms.date: 07/16/2018
 keywords: ["SignatureComparison enumeration"]
 f1_keywords:
  - "dbgmodel/SignatureComparison"
+ - "SignatureComparison"
 ms.keywords: SignatureComparison, , 
 req.header: dbgmodel.h
 req.include-header:

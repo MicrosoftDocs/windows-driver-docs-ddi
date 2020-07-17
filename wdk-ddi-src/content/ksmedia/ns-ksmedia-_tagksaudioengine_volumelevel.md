@@ -10,6 +10,7 @@ keywords: ["_tagKSAUDIOENGINE_VOLUMELEVEL structure"]
 ms.keywords: "*PKSAUDIOENGINE_VOLUMELEVEL, KSAUDIOENGINE_VOLUMELEVEL, KSAUDIOENGINE_VOLUMELEVEL structure [Audio Devices], PKSAUDIOENGINE_VOLUMELEVEL, PKSAUDIOENGINE_VOLUMELEVEL structure pointer [Audio Devices], _tagKSAUDIOENGINE_VOLUMELEVEL, audio.ksaudioengine_volumelevel, ksmedia/KSAUDIOENGINE_VOLUMELEVEL, ksmedia/PKSAUDIOENGINE_VOLUMELEVEL"
 f1_keywords:
  - "ksmedia/KSAUDIOENGINE_VOLUMELEVEL"
+ - "KSAUDIOENGINE_VOLUMELEVEL"
 req.header: ksmedia.h
 req.include-header: 
 req.target-type: Windows

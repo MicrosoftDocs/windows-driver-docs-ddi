@@ -10,6 +10,7 @@ keywords: ["NDIS_PD_CLEAR_RECEIVE_FILTER callback function"]
 ms.keywords: NDIS_PD_CLEAR_RECEIVE_FILTER, NDIS_PD_CLEAR_RECEIVE_FILTER callback, NdisPDClearReceiveFilter, NdisPDClearReceiveFilter callback function [Network Drivers Starting with Windows Vista], ndis/NdisPDClearReceiveFilter, netvista.ndispdclearreceivefilter
 f1_keywords:
  - "ndis/NdisPDClearReceiveFilter"
+ - "NdisPDClearReceiveFilter"
 req.header: ndis.h
 req.include-header: 
 req.target-type: Windows

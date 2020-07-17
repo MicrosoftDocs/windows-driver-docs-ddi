@@ -8,6 +8,7 @@ ms.date: 10/19/2018
 keywords: ["_PANEL_GET_BACKLIGHT_REDUCTION structure"]
 f1_keywords:
  - "ntddvdeo/_PANEL_GET_BACKLIGHT_REDUCTION"
+ - "_PANEL_GET_BACKLIGHT_REDUCTION"
 ms.keywords: _PANEL_GET_BACKLIGHT_REDUCTION, *PPANEL_GET_BACKLIGHT_REDUCTION, PANEL_GET_BACKLIGHT_REDUCTION,
 req.header: ntddvdeo.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["ChangerInitializeElementStatus function"]
 ms.keywords: ChangerInitializeElementStatus, ChangerInitializeElementStatus function [Storage Devices], chgrmini_2aa82220-731a-49b0-b3e5-1db93f8e6dc0.xml, mcd/ChangerInitializeElementStatus, storage.changerinitializeelementstatus
 f1_keywords:
  - "mcd/ChangerInitializeElementStatus"
+ - "ChangerInitializeElementStatus"
 req.header: mcd.h
 req.include-header: Mcd.h, Ntddchgr.h
 req.target-type: Desktop

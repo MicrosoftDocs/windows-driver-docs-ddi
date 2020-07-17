@@ -10,6 +10,7 @@ keywords: ["CWiauDbgFn::CWiauDbgFn"]
 ms.keywords: CWiauDbgFn, CWiauDbgFn interface [Imaging Devices],CWiauDbgFn method, CWiauDbgFn method [Imaging Devices], CWiauDbgFn method [Imaging Devices],CWiauDbgFn interface, CWiauDbgFn.CWiauDbgFn, CWiauDbgFn::CWiauDbgFn, image.cwiaudbgfn_cwiaudbgfn, wiauFncs_1dfa7486-9ad3-41b8-8724-29165ea0a45b.xml, wiautil/CWiauDbgFn::CWiauDbgFn
 f1_keywords:
  - "wiautil/CWiauDbgFn.CWiauDbgFn"
+ - "CWiauDbgFn.CWiauDbgFn"
 req.header: wiautil.h
 req.include-header: Wiautil.h, Wiamindr.h
 req.target-type: Desktop

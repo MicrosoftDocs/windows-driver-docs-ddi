@@ -7,6 +7,7 @@ ms.date: 07/16/2018
 keywords: ["IModelPropertyAccessor interface"]
 f1_keywords:
  - "dbgmodel/IModelPropertyAccessor"
+ - "IModelPropertyAccessor"
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

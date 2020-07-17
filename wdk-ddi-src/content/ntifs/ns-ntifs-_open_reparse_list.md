@@ -10,6 +10,7 @@ keywords: ["_OPEN_REPARSE_LIST structure"]
 ms.keywords: "*POPEN_REPARSE_LIST, OPEN_REPARSE_LIST, OPEN_REPARSE_LIST structure [Installable File System Drivers], POPEN_REPARSE_LIST, POPEN_REPARSE_LIST structure pointer [Installable File System Drivers], _OPEN_REPARSE_LIST, ifsk.open_reparse_list, ntifs/OPEN_REPARSE_LIST, ntifs/POPEN_REPARSE_LIST"
 f1_keywords:
  - "ntifs/OPEN_REPARSE_LIST"
+ - "OPEN_REPARSE_LIST"
 req.header: ntifs.h
 req.include-header: 
 req.target-type: Windows

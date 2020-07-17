@@ -10,6 +10,7 @@ keywords: ["IOCTL_EHSTOR_BANDMGMT_ERASE_BAND IOCTL"]
 ms.keywords: IOCTL_EHSTOR_BANDMGMT_ERASE_BAND, IOCTL_EHSTOR_BANDMGMT_ERASE_BAND control, IOCTL_EHSTOR_BANDMGMT_ERASE_BAND control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_ERASE_BAND, storage.ioctl_ehstor_bandmgmt_erase_band
 f1_keywords:
  - "ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_ERASE_BAND"
+ - "IOCTL_EHSTOR_BANDMGMT_ERASE_BAND"
 req.header: ehstorbandmgmt.h
 req.include-header: EhStorBandMgmt.h
 req.target-type: Windows

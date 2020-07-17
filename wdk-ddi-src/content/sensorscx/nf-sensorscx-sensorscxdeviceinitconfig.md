@@ -10,6 +10,7 @@ keywords: ["SensorsCxDeviceInitConfig function"]
 ms.keywords: SensorsCxDeviceInitConfig, SensorsCxDeviceInitConfig function [Sensor Devices], sensors.sensorscxdeviceinitconfig, sensorscx/SensorsCxDeviceInitConfig
 f1_keywords:
  - "sensorscx/SensorsCxDeviceInitConfig"
+ - "SensorsCxDeviceInitConfig"
 req.header: sensorscx.h
 req.include-header: 
 req.target-type: Desktop

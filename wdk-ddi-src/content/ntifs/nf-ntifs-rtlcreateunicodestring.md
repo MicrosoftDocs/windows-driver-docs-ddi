@@ -10,6 +10,7 @@ keywords: ["RtlCreateUnicodeString function"]
 ms.keywords: RtlCreateUnicodeString, RtlCreateUnicodeString routine [Installable File System Drivers], ifsk.rtlcreateunicodestring, ntifs/RtlCreateUnicodeString, rtlref_8d7cd5ce-a1c9-48a0-86a9-86120954d328.xml
 f1_keywords:
  - "ntifs/RtlCreateUnicodeString"
+ - "RtlCreateUnicodeString"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

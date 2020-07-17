@@ -10,6 +10,7 @@ keywords: ["StorPortInterlockedFlushSList function"]
 ms.keywords: StorPortInterlockedFlushSList, StorPortInterlockedFlushSList routine [Storage Devices], storage.storportinterlockedflushslist, storport/StorPortInterlockedFlushSList
 f1_keywords:
  - "storport/StorPortInterlockedFlushSList"
+ - "StorPortInterlockedFlushSList"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["IPrintWriteStreamFlush interface"]
 ms.keywords: IPrintWriteStreamFlush, IPrintWriteStreamFlush interface [Print Devices], IPrintWriteStreamFlush interface [Print Devices],described, filterpipeline/IPrintWriteStreamFlush, print.iprintwritestreamflush
 f1_keywords:
  - "filterpipeline/IPrintWriteStreamFlush"
+ - "IPrintWriteStreamFlush"
 req.header: filterpipeline.h
 req.include-header: Filterpipeline.h
 req.target-type: Windows

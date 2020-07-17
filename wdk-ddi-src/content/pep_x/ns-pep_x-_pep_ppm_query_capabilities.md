@@ -10,6 +10,7 @@ keywords: ["_PEP_PPM_QUERY_CAPABILITIES structure"]
 ms.keywords: "*PPEP_PPM_QUERY_CAPABILITIES, PEP_PPM_QUERY_CAPABILITIES, PEP_PPM_QUERY_CAPABILITIES structure [Kernel-Mode Driver Architecture], PPEP_PPM_QUERY_CAPABILITIES, PPEP_PPM_QUERY_CAPABILITIES structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_QUERY_CAPABILITIES, kernel.pep_ppm_query_capabilities, pepfx/PEP_PPM_QUERY_CAPABILITIES, pepfx/PPEP_PPM_QUERY_CAPABILITIES"
 f1_keywords:
  - "pep_x/PEP_PPM_QUERY_CAPABILITIES"
+ - "PEP_PPM_QUERY_CAPABILITIES"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows

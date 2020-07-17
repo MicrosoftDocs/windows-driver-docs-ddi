@@ -10,6 +10,7 @@ keywords: ["VideoPortReadPortUchar function"]
 ms.keywords: VideoPortReadPortUchar, VideoPortReadPortUchar function [Display Devices], VideoPort_Functions_128aedd7-fb7b-4e0e-8447-12733a245bc0.xml, display.videoportreadportuchar, video/VideoPortReadPortUchar
 f1_keywords:
  - "video/VideoPortReadPortUchar"
+ - "VideoPortReadPortUchar"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

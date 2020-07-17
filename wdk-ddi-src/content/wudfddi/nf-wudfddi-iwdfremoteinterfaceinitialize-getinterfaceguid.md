@@ -10,6 +10,7 @@ keywords: ["IWDFRemoteInterfaceInitialize::GetInterfaceGuid"]
 ms.keywords: GetInterfaceGuid, GetInterfaceGuid method, GetInterfaceGuid method,IWDFRemoteInterfaceInitialize interface, IWDFRemoteInterfaceInitialize interface,GetInterfaceGuid method, IWDFRemoteInterfaceInitialize.GetInterfaceGuid, IWDFRemoteInterfaceInitialize::GetInterfaceGuid, UMDFIoTargetObjectRef_bbc014c0-b69e-4109-be81-a86d93104ad4.xml, umdf.iwdfremoteinterfaceinitialize_getinterfaceguid, wdf.iwdfremoteinterfaceinitialize_getinterfaceguid, wudfddi/IWDFRemoteInterfaceInitialize::GetInterfaceGuid
 f1_keywords:
  - "wudfddi/IWDFRemoteInterfaceInitialize.GetInterfaceGuid"
+ - "IWDFRemoteInterfaceInitialize.GetInterfaceGuid"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

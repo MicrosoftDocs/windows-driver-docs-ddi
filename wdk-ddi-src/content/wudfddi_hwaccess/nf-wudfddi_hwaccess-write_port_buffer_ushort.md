@@ -10,6 +10,7 @@ keywords: ["WRITE_PORT_BUFFER_USHORT function"]
 ms.keywords: WRITE_PORT_BUFFER_USHORT, WRITE_PORT_BUFFER_USHORT function, umdf.write_port_buffer_ushort, wdf.write_port_buffer_ushort, wudfddi_hwaccess/WRITE_PORT_BUFFER_USHORT
 f1_keywords:
  - "wudfddi_hwaccess/WRITE_PORT_BUFFER_USHORT"
+ - "WRITE_PORT_BUFFER_USHORT"
 req.header: wudfddi_hwaccess.h
 req.include-header: 
 req.target-type: Desktop

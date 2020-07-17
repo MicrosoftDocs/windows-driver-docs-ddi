@@ -10,6 +10,7 @@ keywords: ["NdisMCmRegisterSapComplete macro"]
 ms.keywords: NdisMCmRegisterSapComplete, NdisMCmRegisterSapComplete macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_4b7dfebf-1828-41cd-9645-0fc6774cc9a8.xml, ndis/NdisMCmRegisterSapComplete, netvista.ndismcmregistersapcomplete
 f1_keywords:
  - "ndis/NdisMCmRegisterSapComplete"
+ - "NdisMCmRegisterSapComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

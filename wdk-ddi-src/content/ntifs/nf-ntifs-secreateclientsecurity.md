@@ -10,6 +10,7 @@ keywords: ["SeCreateClientSecurity function"]
 ms.keywords: SeCreateClientSecurity, SeCreateClientSecurity routine [Installable File System Drivers], ifsk.secreateclientsecurity, ntifs/SeCreateClientSecurity, seref_3b2ae680-788b-4ecb-b747-427f8fd3b4bf.xml
 f1_keywords:
  - "ntifs/SeCreateClientSecurity"
+ - "SeCreateClientSecurity"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

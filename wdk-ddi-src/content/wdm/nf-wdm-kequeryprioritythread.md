@@ -10,6 +10,7 @@ keywords: ["KeQueryPriorityThread function"]
 ms.keywords: KeQueryPriorityThread, KeQueryPriorityThread routine [Kernel-Mode Driver Architecture], k105_6a330d84-aa5a-4822-a4d3-7b68aa9e8882.xml, kernel.kequeryprioritythread, wdm/KeQueryPriorityThread
 f1_keywords:
  - "wdm/KeQueryPriorityThread"
+ - "KeQueryPriorityThread"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["_PosProfileType structure"]
 ms.keywords: PosProfileType, PosProfileType structure, _PosProfileType, pointofservicedriverinterface/PosProfileType, pos.posprofiletype
 f1_keywords:
  - "pointofservicedriverinterface/PosProfileType"
+ - "PosProfileType"
 req.header: pointofservicedriverinterface.h
 req.include-header: PointOfServiceDriverInterface.h
 req.target-type: Windows

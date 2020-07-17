@@ -9,6 +9,7 @@ keywords: ["D3D10DDIARG_TEX3D_SHADERRESOURCEVIEW structure"]
 ms.keywords: D3D10DDIARG_TEX3D_SHADERRESOURCEVIEW, D3D10DDIARG_TEX3D_SHADERRESOURCEVIEW structure [Display Devices], UMDisplayDriver_Dx10param_Structs_b3c96163-7085-43eb-a8da-84f0f824e069.xml, d3d10umddi/D3D10DDIARG_TEX3D_SHADERRESOURCEVIEW, display.d3d10ddiarg_tex3d_shaderresourceview
 f1_keywords:
  - "d3d10umddi/D3D10DDIARG_TEX3D_SHADERRESOURCEVIEW"
+ - "D3D10DDIARG_TEX3D_SHADERRESOURCEVIEW"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

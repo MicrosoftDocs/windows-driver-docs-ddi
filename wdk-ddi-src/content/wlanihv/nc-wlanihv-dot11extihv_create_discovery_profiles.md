@@ -10,6 +10,7 @@ keywords: ["DOT11EXTIHV_CREATE_DISCOVERY_PROFILES callback"]
 ms.keywords: DOT11EXTIHV_CREATE_DISCOVERY_PROFILES, Dot11ExtIhvCreateDiscoveryProfiles, Dot11ExtIhvCreateDiscoveryProfiles callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_fadde2b4-2a9d-4c6b-8a92-e044bab5c544.xml, netvista.dot11extihvcreatediscoveryprofiles, wlanihv/Dot11ExtIhvCreateDiscoveryProfiles
 f1_keywords:
  - "wlanihv/Dot11ExtIhvCreateDiscoveryProfiles"
+ - "Dot11ExtIhvCreateDiscoveryProfiles"
 req.header: wlanihv.h
 req.include-header: Wlanihv.h, Winclient.h, L2cmn.h
 req.target-type: Desktop

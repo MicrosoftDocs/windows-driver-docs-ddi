@@ -10,6 +10,7 @@ keywords: ["IoBuildDeviceIoControlRequest function"]
 ms.keywords: IoBuildDeviceIoControlRequest, IoBuildDeviceIoControlRequest routine [Kernel-Mode Driver Architecture], k104_dca88c92-682a-437e-963b-6fac4e9c39bf.xml, kernel.iobuilddeviceiocontrolrequest, wdm/IoBuildDeviceIoControlRequest
 f1_keywords:
  - "wdm/IoBuildDeviceIoControlRequest"
+ - "IoBuildDeviceIoControlRequest"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["NdisUpcaseUnicodeString macro"]
 ms.keywords: NdisUpcaseUnicodeString, NdisUpcaseUnicodeString macro [Network Drivers Starting with Windows Vista], ndis/NdisUpcaseUnicodeString, ndis_string_ref_79578398-7b4c-4741-a39b-5e5e30b2f4b3.xml, netvista.ndisupcaseunicodestring
 f1_keywords:
  - "ndis/NdisUpcaseUnicodeString"
+ - "NdisUpcaseUnicodeString"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

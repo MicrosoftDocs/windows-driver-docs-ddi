@@ -10,6 +10,7 @@ keywords: ["IWDTFEnhancedDeviceTestSupportActions2::Disable"]
 ms.keywords: Disable, Disable method [Windows Device Testing Framework], Disable method [Windows Device Testing Framework],IWDTFEnhancedDeviceTestSupportActions2 interface, IWDTFEnhancedDeviceTestSupportActions2 interface [Windows Device Testing Framework],Disable method, IWDTFEnhancedDeviceTestSupportActions2.Disable, IWDTFEnhancedDeviceTestSupportActions2::Disable, dtf.iwdtfenhanceddevicetestsupportactions2_disable, wdtfedtaction/IWDTFEnhancedDeviceTestSupportActions2::Disable
 f1_keywords:
  - "wdtfedtaction/IWDTFEnhancedDeviceTestSupportActions2.Disable"
+ - "IWDTFEnhancedDeviceTestSupportActions2.Disable"
 req.header: wdtfedtaction.h
 req.include-header: 
 req.target-type: Desktop

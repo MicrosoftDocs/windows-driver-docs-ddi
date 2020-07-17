@@ -10,6 +10,7 @@ keywords: ["IoGetRequestorProcessId function"]
 ms.keywords: IoGetRequestorProcessId, IoGetRequestorProcessId routine [Installable File System Drivers], ifsk.iogetrequestorprocessid, ioref_a08b37d7-b999-4e40-a0aa-c62744fee6dd.xml, ntifs/IoGetRequestorProcessId
 f1_keywords:
  - "ntifs/IoGetRequestorProcessId"
+ - "IoGetRequestorProcessId"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

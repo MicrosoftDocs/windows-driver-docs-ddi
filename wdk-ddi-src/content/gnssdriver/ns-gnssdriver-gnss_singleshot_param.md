@@ -10,6 +10,7 @@ keywords: ["GNSS_SINGLESHOT_PARAM structure"]
 ms.keywords: "*PGNSS_SINGLESHOT_PARAM, GNSS_SINGLESHOT_PARAM, GNSS_SINGLESHOT_PARAM structure [Sensor Devices], PGNSS_SINGLESHOT_PARAM, PGNSS_SINGLESHOT_PARAM structure pointer [Sensor Devices], gnss.gnss_singleshot_param, gnssdriver/GNSS_SINGLESHOT_PARAM, gnssdriver/PGNSS_SINGLESHOT_PARAM"
 f1_keywords:
  - "gnssdriver/GNSS_SINGLESHOT_PARAM"
+ - "GNSS_SINGLESHOT_PARAM"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows

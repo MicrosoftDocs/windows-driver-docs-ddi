@@ -10,6 +10,7 @@ keywords: ["VhfDelete function"]
 ms.keywords: VhfDelete, VhfDelete method [Human Input Devices], hid.vhfdelete, vhf/VhfDelete
 f1_keywords:
  - "vhf/VhfDelete"
+ - "VhfDelete"
 req.header: vhf.h
 req.include-header: 
 req.target-type: Windows

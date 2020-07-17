@@ -9,6 +9,7 @@ keywords: ["PFND3D11DDI_DESTROYCOMMANDLIST callback function"]
 ms.keywords: DestroyCommandList, DestroyCommandList callback function [Display Devices], PFND3D11DDI_DESTROYCOMMANDLIST, PFND3D11DDI_DESTROYCOMMANDLIST callback, UserModeDisplayDriverDx11_Functions_cf01bd33-1921-4d56-a377-f8eda35a8d04.xml, d3d10umddi/DestroyCommandList, display.destroycommandlist
 f1_keywords:
  - "d3d10umddi/DestroyCommandList"
+ - "DestroyCommandList"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

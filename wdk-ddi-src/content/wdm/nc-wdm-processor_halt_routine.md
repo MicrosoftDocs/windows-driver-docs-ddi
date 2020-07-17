@@ -10,6 +10,7 @@ keywords: ["PROCESSOR_HALT_ROUTINE callback function"]
 ms.keywords: Halt, Halt routine [Kernel-Mode Driver Architecture], PROCESSOR_HALT_ROUTINE, kernel.halt, wdm/Halt
 f1_keywords:
  - "wdm/Halt"
+ - "Halt"
 req.header: wdm.h
 req.include-header: Pepfx.h
 req.target-type: Windows

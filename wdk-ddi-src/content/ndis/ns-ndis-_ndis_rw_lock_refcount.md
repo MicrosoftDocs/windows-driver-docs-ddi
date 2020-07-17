@@ -10,6 +10,7 @@ keywords: ["_NDIS_RW_LOCK_REFCOUNT structure"]
 ms.keywords: NDIS_RW_LOCK_REFCOUNT, NDIS_RW_LOCK_REFCOUNT union [Network Drivers Starting with Windows Vista], _NDIS_RW_LOCK_REFCOUNT, ndis/NDIS_RW_LOCK_REFCOUNT, ndis_processor_group_ref_55aa679b-460e-43a3-8ad2-678926bbf200.xml, netvista.ndis_rw_lock_refcount
 f1_keywords:
  - "ndis/NDIS_RW_LOCK_REFCOUNT"
+ - "NDIS_RW_LOCK_REFCOUNT"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DlUnlockBuffer function"]
 f1_keywords:
  - "dispmprt/DlUnlockBuffer"
+ - "DlUnlockBuffer"
 ms.keywords: DlUnlockBuffer
 req.header: dispmprt.h
 req.include-header:

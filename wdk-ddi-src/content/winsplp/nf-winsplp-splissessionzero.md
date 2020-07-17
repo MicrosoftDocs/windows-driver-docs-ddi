@@ -10,6 +10,7 @@ keywords: ["SplIsSessionZero function"]
 ms.keywords: SplIsSessionZero, SplIsSessionZero function [Print Devices], print.splissessionzero, spoolfnc_8fd112f0-f2bf-4a33-8411-c1ce7c620390.xml, winsplp/SplIsSessionZero
 f1_keywords:
  - "winsplp/SplIsSessionZero"
+ - "SplIsSessionZero"
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Desktop

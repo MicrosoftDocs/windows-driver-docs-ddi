@@ -7,6 +7,7 @@ ms.date: 08/20/2018
 keywords: ["IDataModelScript::Populate"]
 f1_keywords:
  - "dbgmodel/IDataModelScript.Populate"
+ - "IDataModelScript.Populate"
 ms.keywords: IDataModelScript::Populate, Populate, IDataModelScript.Populate, IDataModelScript::Populate, IDataModelScript.Populate
 req.header: dbgmodel.h
 req.include-header:

@@ -8,6 +8,7 @@ ms.date: 07/27/2018
 keywords: ["NET_ADAPTER_DATAPATH_CALLBACKS_INIT function"]
 f1_keywords:
  - "netadapter/NET_ADAPTER_DATAPATH_CALLBACKS_INIT"
+ - "NET_ADAPTER_DATAPATH_CALLBACKS_INIT"
 ms.keywords: NET_ADAPTER_DATAPATH_CALLBACKS_INIT
 req.header: netadapter.h
 req.include-header:

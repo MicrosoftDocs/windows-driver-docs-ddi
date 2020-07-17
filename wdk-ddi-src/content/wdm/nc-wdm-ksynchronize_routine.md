@@ -10,6 +10,7 @@ keywords: ["KSYNCHRONIZE_ROUTINE callback function"]
 ms.keywords: DrvrRtns_ead80ba6-d012-4140-923c-683d877d5b60.xml, KSYNCHRONIZE_ROUTINE, SynchCritSection, SynchCritSection routine [Kernel-Mode Driver Architecture], kernel.synchcritsection, wdm/SynchCritSection
 f1_keywords:
  - "wdm/SynchCritSection"
+ - "SynchCritSection"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

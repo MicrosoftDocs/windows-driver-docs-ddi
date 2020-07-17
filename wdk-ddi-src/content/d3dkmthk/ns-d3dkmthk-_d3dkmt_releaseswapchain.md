@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_RELEASESWAPCHAIN structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_RELEASESWAPCHAIN"
+ - "_D3DKMT_RELEASESWAPCHAIN"
 ms.keywords: _D3DKMT_RELEASESWAPCHAIN, D3DKMT_RELEASESWAPCHAIN,
 req.header: d3dkmthk.h
 req.include-header:

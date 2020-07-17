@@ -10,6 +10,7 @@ keywords: ["IKsControl::KsEvent"]
 ms.keywords: IKsControl interface [Streaming Media Devices],KsEvent method, IKsControl.KsEvent, IKsControl::KsEvent, KsEvent, KsEvent method [Streaming Media Devices], KsEvent method [Streaming Media Devices],IKsControl interface, avintfc_359de56d-5fcc-47ea-838c-cd110493856c.xml, ks/IKsControl::KsEvent, stream.ikscontrol_ksevent2
 f1_keywords:
  - "ks/IKsControl.KsEvent"
+ - "IKsControl.KsEvent"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: DesktopMobile

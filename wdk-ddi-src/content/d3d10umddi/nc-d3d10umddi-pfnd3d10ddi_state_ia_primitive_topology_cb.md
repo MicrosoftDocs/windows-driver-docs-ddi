@@ -9,6 +9,7 @@ keywords: ["PFND3D10DDI_STATE_IA_PRIMITIVE_TOPOLOGY_CB callback function"]
 ms.keywords: PFND3D10DDI_STATE_IA_PRIMITIVE_TOPOLOGY_CB, PFND3D10DDI_STATE_IA_PRIMITIVE_TOPOLOGY_CB callback, d3d10state_functions_5866253f-2d14-41e3-b60d-d633b272848c.xml, d3d10umddi/pfnStateIaPrimitiveTopologyCb, display.pfnstateiaprimitivetopologycb, pfnStateIaPrimitiveTopologyCb, pfnStateIaPrimitiveTopologyCb callback function [Display Devices]
 f1_keywords:
  - "d3d10umddi/pfnStateIaPrimitiveTopologyCb"
+ - "pfnStateIaPrimitiveTopologyCb"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

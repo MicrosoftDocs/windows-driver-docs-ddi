@@ -10,6 +10,7 @@ keywords: ["UCX_USBDEVICE_EVENT_CALLBACKS_INIT function"]
 ms.keywords: UCX_USBDEVICE_EVENT_CALLBACKS_INIT, UCX_USBDEVICE_EVENT_CALLBACKS_INIT function [Buses], buses._ucx_usbdevice_event_callbacks_init, ucxusbdevice/UCX_USBDEVICE_EVENT_CALLBACKS_INIT
 f1_keywords:
  - "ucxusbdevice/UCX_USBDEVICE_EVENT_CALLBACKS_INIT"
+ - "UCX_USBDEVICE_EVENT_CALLBACKS_INIT"
 req.header: ucxusbdevice.h
 req.include-header: Ucxclass.h
 req.target-type: Windows

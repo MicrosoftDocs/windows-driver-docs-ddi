@@ -10,6 +10,7 @@ keywords: ["IDebugSystemObjects2::GetProcessIdByHandle"]
 ms.keywords: GetProcessIdByHandle, GetProcessIdByHandle method [Windows Debugging], GetProcessIdByHandle method [Windows Debugging],IDebugSystemObjects interface, GetProcessIdByHandle method [Windows Debugging],IDebugSystemObjects2 interface, GetProcessIdByHandle method [Windows Debugging],IDebugSystemObjects3 interface, GetProcessIdByHandle method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects interface [Windows Debugging],GetProcessIdByHandle method, IDebugSystemObjects2 interface [Windows Debugging],GetProcessIdByHandle method, IDebugSystemObjects2.GetProcessIdByHandle, IDebugSystemObjects2::GetProcessIdByHandle, IDebugSystemObjects3 interface [Windows Debugging],GetProcessIdByHandle method, IDebugSystemObjects3::GetProcessIdByHandle, IDebugSystemObjects4 interface [Windows Debugging],GetProcessIdByHandle method, IDebugSystemObjects4::GetProcessIdByHandle, IDebugSystemObjects::GetProcessIdByHandle, IDebugSystemObjects_92e69c0f-a50c-498b-8352-74f0c28ea0d8.xml, dbgeng/IDebugSystemObjects2::GetProcessIdByHandle, dbgeng/IDebugSystemObjects3::GetProcessIdByHandle, dbgeng/IDebugSystemObjects4::GetProcessIdByHandle, dbgeng/IDebugSystemObjects::GetProcessIdByHandle, debugger.getprocessidbyhandle
 f1_keywords:
  - "dbgeng/IDebugSystemObjects.GetProcessIdByHandle"
+ - "IDebugSystemObjects.GetProcessIdByHandle"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

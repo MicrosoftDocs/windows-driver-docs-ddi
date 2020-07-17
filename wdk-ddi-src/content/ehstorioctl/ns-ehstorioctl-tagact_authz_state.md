@@ -10,6 +10,7 @@ keywords: ["tagACT_AUTHZ_STATE structure"]
 ms.keywords: "*PACT_AUTHZ_STATE, ACT_AUTHZ_STATE, ACT_AUTHZ_STATE structure [Storage Devices], PACT_AUTHZ_STATE, PACT_AUTHZ_STATE structure pointer [Storage Devices], ehstorioctl/ACT_AUTHZ_STATE, ehstorioctl/PACT_AUTHZ_STATE, storage.act_authz_state, structs-silo_5a83edfd-d997-4f63-bbb9-58ec7cab438f.xml, tagACT_AUTHZ_STATE"
 f1_keywords:
  - "ehstorioctl/ACT_AUTHZ_STATE"
+ - "ACT_AUTHZ_STATE"
 req.header: ehstorioctl.h
 req.include-header: EhStorIoctl.h
 req.target-type: Windows

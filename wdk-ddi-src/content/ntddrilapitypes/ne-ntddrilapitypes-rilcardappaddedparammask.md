@@ -10,6 +10,7 @@ keywords: ["RILCARDAPPADDEDPARAMMASK enumeration"]
 ms.keywords: RILCARDAPPADDEDPARAMMASK, RILCARDAPPADDEDPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CARDAPPADDED_ALL, RIL_PARAM_CARDAPPADDED_UICCAPPINFO, netvista.rilcardappaddedparammask, ntddrilapitypes/RILCARDAPPADDEDPARAMMASK, ntddrilapitypes/RIL_PARAM_CARDAPPADDED_ALL, ntddrilapitypes/RIL_PARAM_CARDAPPADDED_UICCAPPINFO
 f1_keywords:
  - "ntddrilapitypes/RILCARDAPPADDEDPARAMMASK"
+ - "RILCARDAPPADDEDPARAMMASK"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

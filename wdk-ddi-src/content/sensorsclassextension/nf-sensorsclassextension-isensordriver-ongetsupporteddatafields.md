@@ -10,6 +10,7 @@ keywords: ["ISensorDriver::OnGetSupportedDataFields"]
 ms.keywords: ISensorDriver interface [Sensor Devices],OnGetSupportedDataFields method, ISensorDriver.OnGetSupportedDataFields, ISensorDriver::OnGetSupportedDataFields, OnGetSupportedDataFields, OnGetSupportedDataFields method [Sensor Devices], OnGetSupportedDataFields method [Sensor Devices],ISensorDriver interface, sensors.isensordriver_ongetsupporteddatafields, sensorsclassextension/ISensorDriver::OnGetSupportedDataFields
 f1_keywords:
  - "sensorsclassextension/OnGetSupportedDataFields"
+ - "OnGetSupportedDataFields"
 req.header: sensorsclassextension.h
 req.include-header: 
 req.target-type: Windows

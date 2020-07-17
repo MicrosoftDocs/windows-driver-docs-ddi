@@ -10,6 +10,7 @@ keywords: ["FWPS_NET_BUFFER_LIST_NOTIFY_FN0 callback function"]
 ms.keywords: FWPS_NET_BUFFER_LIST_NOTIFY_FN0, FWPS_NET_BUFFER_LIST_NOTIFY_FN0 callback, FwpsNetBufferListNotifyFN0, FwpsNetBufferListNotifyFN0 callback function [Network Drivers Starting with Windows Vista], fwpsk/FwpsNetBufferListNotifyFN0, netvista.fwps_net_buffer_list_notify_fn0, wfp_ref_2_funct_4_callout_89757871-18df-415f-8dc1-d977395a09c9.xml
 f1_keywords:
  - "fwpsk/FwpsNetBufferListNotifyFN0"
+ - "FwpsNetBufferListNotifyFN0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Windows

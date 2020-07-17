@@ -7,6 +7,7 @@ ms.date: 07/20/2018
 keywords: ["IModelObject::ClearConcepts"]
 f1_keywords:
  - "dbgmodel/IModelObject.ClearConcepts"
+ - "IModelObject.ClearConcepts"
 ms.keywords: IModelObject::ClearConcepts, ClearConcepts, IModelObject.ClearConcepts, IModelObject::ClearConcepts, IModelObject.ClearConcepts
 req.header: dbgmodel.h
 req.include-header:

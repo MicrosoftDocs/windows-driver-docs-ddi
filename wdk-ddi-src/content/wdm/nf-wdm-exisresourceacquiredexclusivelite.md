@@ -10,6 +10,7 @@ keywords: ["ExIsResourceAcquiredExclusiveLite function"]
 ms.keywords: ExIsResourceAcquiredExclusiveLite, ExIsResourceAcquiredExclusiveLite routine [Kernel-Mode Driver Architecture], k102_ef023047-60ff-42aa-8224-37e2cfbe9f7b.xml, kernel.exisresourceacquiredexclusivelite, wdm/ExIsResourceAcquiredExclusiveLite
 f1_keywords:
  - "wdm/ExIsResourceAcquiredExclusiveLite"
+ - "ExIsResourceAcquiredExclusiveLite"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["IKsInterfaceHandler interface"]
 ms.keywords: IKsInterfaceHandler, IKsInterfaceHandler interface [Streaming Media Devices], IKsInterfaceHandler interface [Streaming Media Devices],described, ksproxy/IKsInterfaceHandler, ksproxy_9d597bae-a5d7-4575-a4ac-983b827b0ae4.xml, stream.iksinterfacehandler
 f1_keywords:
  - "ksproxy/IKsInterfaceHandler"
+ - "IKsInterfaceHandler"
 req.header: ksproxy.h
 req.include-header: 
 req.target-type: Windows

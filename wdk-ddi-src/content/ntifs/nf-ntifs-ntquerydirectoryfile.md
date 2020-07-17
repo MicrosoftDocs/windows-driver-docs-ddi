@@ -10,6 +10,7 @@ keywords: ["NtQueryDirectoryFile function"]
 ms.keywords: NtQueryDirectoryFile, ZwQueryDirectoryFile, ZwQueryDirectoryFile routine [Kernel-Mode Driver Architecture], k111_ffed894d-20dc-416e-8759-073a0cee3229.xml, kernel.zwquerydirectoryfile, ntifs/NtQueryDirectoryFile, ntifs/ZwQueryDirectoryFile
 f1_keywords:
  - "ntifs/ZwQueryDirectoryFile"
+ - "ZwQueryDirectoryFile"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

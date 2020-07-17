@@ -10,6 +10,7 @@ keywords: ["_REGISTER_COMPOSITE_DEVICE structure"]
 ms.keywords: "*PREGISTER_COMPOSITE_DEVICE, PREGISTER_COMPOSITE_DEVICE, PREGISTER_COMPOSITE_DEVICE structure pointer [Buses], REGISTER_COMPOSITE_DEVICE, REGISTER_COMPOSITE_DEVICE structure [Buses], _REGISTER_COMPOSITE_DEVICE, buses.register_composite_driver, usbdlib/PREGISTER_COMPOSITE_DEVICE, usbdlib/REGISTER_COMPOSITE_DEVICE"
 f1_keywords:
  - "usbdlib/REGISTER_COMPOSITE_DEVICE"
+ - "REGISTER_COMPOSITE_DEVICE"
 req.header: usbdlib.h
 req.include-header: 
 req.target-type: Windows

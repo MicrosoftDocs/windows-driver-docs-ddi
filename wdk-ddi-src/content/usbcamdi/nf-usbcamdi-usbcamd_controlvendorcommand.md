@@ -10,6 +10,7 @@ keywords: ["USBCAMD_ControlVendorCommand function"]
 ms.keywords: USBCAMD_ControlVendorCommand, USBCAMD_ControlVendorCommand function [Streaming Media Devices], stream.usbcamd_controlvendorcommand, usbcamdi/USBCAMD_ControlVendorCommand, usbcmdpr_71f3fad0-03ef-4328-90cf-d556de6736f5.xml
 f1_keywords:
  - "usbcamdi/USBCAMD_ControlVendorCommand"
+ - "USBCAMD_ControlVendorCommand"
 req.header: usbcamdi.h
 req.include-header: Usbcamdi.h
 req.target-type: Desktop

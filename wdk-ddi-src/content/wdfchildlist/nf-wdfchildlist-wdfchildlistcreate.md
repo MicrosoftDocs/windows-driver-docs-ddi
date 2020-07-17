@@ -10,6 +10,7 @@ keywords: ["WdfChildListCreate function"]
 ms.keywords: DFDeviceObjectChildListRef_750e00c2-f0a0-4a3f-a357-09de7568e268.xml, WdfChildListCreate, WdfChildListCreate method, kmdf.wdfchildlistcreate, wdf.wdfchildlistcreate, wdfchildlist/WdfChildListCreate
 f1_keywords:
  - "wdfchildlist/WdfChildListCreate"
+ - "WdfChildListCreate"
 req.header: wdfchildlist.h
 req.include-header: Wdf.h
 req.target-type: Universal

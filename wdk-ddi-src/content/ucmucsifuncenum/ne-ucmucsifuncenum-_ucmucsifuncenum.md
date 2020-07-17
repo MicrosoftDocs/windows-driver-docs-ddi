@@ -8,6 +8,7 @@ ms.date: 10/19/2018
 keywords: ["_UCMUCSIFUNCENUM enumeration"]
 f1_keywords:
  - "ucmucsifuncenum/_UCMUCSIFUNCENUM"
+ - "_UCMUCSIFUNCENUM"
 ms.keywords: _UCMUCSIFUNCENUM, UCMUCSIFUNCENUM, 
 req.header: ucmucsifuncenum.h
 req.include-header: UcmUcsiCx.h

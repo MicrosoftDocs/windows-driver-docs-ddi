@@ -8,6 +8,7 @@ ms.date: 07/27/2018
 keywords: ["_NET_ADAPTER_DATAPATH_CALLBACKS structure"]
 f1_keywords:
  - "netadapter/_NET_ADAPTER_DATAPATH_CALLBACKS"
+ - "_NET_ADAPTER_DATAPATH_CALLBACKS"
 ms.keywords: _NET_ADAPTER_DATAPATH_CALLBACKS, NET_ADAPTER_DATAPATH_CALLBACKS, *PNET_ADAPTER_DATAPATH_CALLBACKS, 
 req.header: netadapter.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["WdfPdoRetrieveIdentificationDescription function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_fe883ca1-8b36-4ac1-b7ff-8c38bf098148.xml, WdfPdoRetrieveIdentificationDescription, WdfPdoRetrieveIdentificationDescription method, kmdf.wdfpdoretrieveidentificationdescription, wdf.wdfpdoretrieveidentificationdescription, wdfpdo/WdfPdoRetrieveIdentificationDescription
 f1_keywords:
  - "wdfpdo/WdfPdoRetrieveIdentificationDescription"
+ - "WdfPdoRetrieveIdentificationDescription"
 req.header: wdfpdo.h
 req.include-header: Wdf.h
 req.target-type: Universal

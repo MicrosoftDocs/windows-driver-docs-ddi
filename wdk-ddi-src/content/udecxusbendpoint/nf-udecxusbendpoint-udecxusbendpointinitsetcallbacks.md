@@ -10,6 +10,7 @@ keywords: ["UdecxUsbEndpointInitSetCallbacks function"]
 ms.keywords: UdecxUsbEndpointInitSetCallbacks, UdecxUsbEndpointInitSetCallbacks function [Buses], buses.udecxusbendpointinitsetcallbacks, udecxusbendpoint/UdecxUsbEndpointInitSetCallbacks
 f1_keywords:
  - "udecxusbendpoint/UdecxUsbEndpointInitSetCallbacks"
+ - "UdecxUsbEndpointInitSetCallbacks"
 req.header: udecxusbendpoint.h
 req.include-header: Udecx.h
 req.target-type: Windows

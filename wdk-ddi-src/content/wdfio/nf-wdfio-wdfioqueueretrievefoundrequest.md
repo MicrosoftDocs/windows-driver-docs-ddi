@@ -10,6 +10,7 @@ keywords: ["WdfIoQueueRetrieveFoundRequest function"]
 ms.keywords: DFQueueObjectRef_17174143-5657-4500-bd07-bf9487e8048e.xml, WdfIoQueueRetrieveFoundRequest, WdfIoQueueRetrieveFoundRequest method, kmdf.wdfioqueueretrievefoundrequest, wdf.wdfioqueueretrievefoundrequest, wdfio/WdfIoQueueRetrieveFoundRequest
 f1_keywords:
  - "wdfio/WdfIoQueueRetrieveFoundRequest"
+ - "WdfIoQueueRetrieveFoundRequest"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["DOT11EXTIHV_INIT_VIRTUAL_STATION callback"]
 ms.keywords: DOT11EXTIHV_INIT_VIRTUAL_STATION, Dot11ExtIhvInitVirtualStation, Dot11ExtIhvInitVirtualStation callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_1daef8e4-6444-447a-b7a7-0189715a6ab9.xml, netvista.dot11extihvinitvirtualstation, wlanihv/Dot11ExtIhvInitVirtualStation
 f1_keywords:
  - "wlanihv/Dot11ExtIhvInitVirtualStation"
+ - "Dot11ExtIhvInitVirtualStation"
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Desktop

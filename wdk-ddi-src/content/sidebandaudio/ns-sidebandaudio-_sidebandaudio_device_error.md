@@ -7,6 +7,7 @@ ms.date: 09/06/2018
 keywords: ["_SIDEBANDAUDIO_DEVICE_ERROR structure"]
 f1_keywords:
  - "sidebandaudio/_SIDEBANDAUDIO_DEVICE_ERROR"
+ - "_SIDEBANDAUDIO_DEVICE_ERROR"
 ms.keywords: _SIDEBANDAUDIO_DEVICE_ERROR, SIDEBANDAUDIO_DEVICE_ERROR, *PSIDEBANDAUDIO_DEVICE_ERROR, 
 req.header: sidebandaudio.h
 req.include-header:

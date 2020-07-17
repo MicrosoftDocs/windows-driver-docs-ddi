@@ -10,6 +10,7 @@ keywords: ["IOCTL_NFCSERM_QUERY_RADIO_STATE IOCTL"]
 ms.keywords: IOCTL_NFCSERM_QUERY_RADIO_STATE, IOCTL_NFCSERM_QUERY_RADIO_STATE control, IOCTL_NFCSERM_QUERY_RADIO_STATE control code [Near-Field Proximity Drivers], _IOCTL_NFCSERM_QUERY_RADIO_STATE, nfcradiodev/IOCTL_NFCSERM_QUERY_RADIO_STATE, nfpdrivers.ioctl_nfcserm_query_radio_state
 f1_keywords:
  - "nfcradiodev/IOCTL_NFCSERM_QUERY_RADIO_STATE"
+ - "IOCTL_NFCSERM_QUERY_RADIO_STATE"
 req.header: nfcradiodev.h
 req.include-header: 
 req.target-type: Windows

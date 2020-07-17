@@ -10,6 +10,7 @@ keywords: ["IPnpCallbackHardwareInterrupt interface"]
 ms.keywords: IPnpCallbackHardwareInterrupt, IPnpCallbackHardwareInterrupt interface, IPnpCallbackHardwareInterrupt interface,described, umdf.ipnpcallbackhardwareinterrupt, wdf.ipnpcallbackhardwareinterrupt, wudfddi/IPnpCallbackHardwareInterrupt
 f1_keywords:
  - "wudfddi/IPnpCallbackHardwareInterrupt"
+ - "IPnpCallbackHardwareInterrupt"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop

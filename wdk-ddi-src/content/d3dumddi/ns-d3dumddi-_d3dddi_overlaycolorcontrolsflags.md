@@ -10,6 +10,7 @@ keywords: ["_D3DDDI_OVERLAYCOLORCONTROLSFLAGS structure"]
 ms.keywords: D3DDDI_OVERLAYCOLORCONTROLSFLAGS, D3DDDI_OVERLAYCOLORCONTROLSFLAGS structure [Display Devices], D3D_other_Structs_ada675f2-18ed-4597-bcc4-803d8598ae66.xml, _D3DDDI_OVERLAYCOLORCONTROLSFLAGS, d3dumddi/D3DDDI_OVERLAYCOLORCONTROLSFLAGS, display.d3dddi_overlaycolorcontrolsflags
 f1_keywords:
  - "d3dumddi/D3DDDI_OVERLAYCOLORCONTROLSFLAGS"
+ - "D3DDDI_OVERLAYCOLORCONTROLSFLAGS"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

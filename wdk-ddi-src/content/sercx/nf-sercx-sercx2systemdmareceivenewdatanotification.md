@@ -10,6 +10,7 @@ keywords: ["SerCx2SystemDmaReceiveNewDataNotification function"]
 ms.keywords: 2/SerCx2SystemDmaReceiveNewDataNotification, SerCx2SystemDmaReceiveNewDataNotification, SerCx2SystemDmaReceiveNewDataNotification method [Serial Ports], serports.sercx2systemdmareceivenewdatanotification
 f1_keywords:
  - "sercx/SerCx2SystemDmaReceiveNewDataNotification"
+ - "SerCx2SystemDmaReceiveNewDataNotification"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal

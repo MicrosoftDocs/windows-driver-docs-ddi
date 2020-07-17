@@ -10,6 +10,7 @@ keywords: ["_GETINFO_GLYPHWIDTH structure"]
 ms.keywords: "*PGETINFO_GLYPHWIDTH, GETINFO_GLYPHWIDTH, GETINFO_GLYPHWIDTH structure [Print Devices], PGETINFO_GLYPHWIDTH, PGETINFO_GLYPHWIDTH structure pointer [Print Devices], _GETINFO_GLYPHWIDTH, print.getinfo_glyphwidth, print_unidrv-pscript_rendering_d4e07803-7342-4550-90fd-1ee8669934f0.xml, printoem/GETINFO_GLYPHWIDTH, printoem/PGETINFO_GLYPHWIDTH"
 f1_keywords:
  - "printoem/GETINFO_GLYPHWIDTH"
+ - "GETINFO_GLYPHWIDTH"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["DeletePrinterIC function"]
 ms.keywords: DeletePrinterIC, DeletePrinterIC function [Print Devices], print.deleteprinteric, winsplp/DeletePrinterIC
 f1_keywords:
  - "winsplp/DeletePrinterIC"
+ - "DeletePrinterIC"
 req.header: winsplp.h
 req.include-header: 
 req.target-type: Windows

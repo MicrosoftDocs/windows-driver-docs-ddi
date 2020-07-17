@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_OUTDUPL_POINTER_SHAPE_INFO structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_OUTDUPL_POINTER_SHAPE_INFO"
+ - "_D3DKMT_OUTDUPL_POINTER_SHAPE_INFO"
 ms.keywords: _D3DKMT_OUTDUPL_POINTER_SHAPE_INFO, D3DKMT_OUTDUPL_POINTER_SHAPE_INFO, 
 req.header: d3dkmthk.h
 req.include-header:

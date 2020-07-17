@@ -10,6 +10,7 @@ keywords: ["WdfCompanionCreate function"]
 ms.keywords: WdfCompanionCreate, WdfCompanionCreate method, wdf.wdfcompanioncreate, wdfcompanion/WdfCompanionCreate
 f1_keywords:
  - "wdfcompanion/WdfCompanionCreate"
+ - "WdfCompanionCreate"
 req.header: wdfcompanion.h
 req.include-header: 
 req.target-type: Windows

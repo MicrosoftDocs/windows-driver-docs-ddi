@@ -10,6 +10,7 @@ keywords: ["HW_CLEANUP_TRACING callback function"]
 ms.keywords: HW_CLEANUP_TRACING, HwStorCleanupTracing, HwStorCleanupTracing routine [Storage Devices], storage.hwstorcleanuptracing, storport/HwStorCleanupTracing, storvmini_7a5c9359-04e5-4ad4-b638-14cce4087df2.xml
 f1_keywords:
  - "storport/HwStorCleanupTracing"
+ - "HwStorCleanupTracing"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

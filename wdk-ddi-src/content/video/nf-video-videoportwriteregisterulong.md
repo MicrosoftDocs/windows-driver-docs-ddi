@@ -10,6 +10,7 @@ keywords: ["VideoPortWriteRegisterUlong function"]
 ms.keywords: VideoPortWriteRegisterUlong, VideoPortWriteRegisterUlong function [Display Devices], VideoPort_Functions_18ff4439-1c87-44fe-b695-3903b0093e55.xml, display.videoportwriteregisterulong, video/VideoPortWriteRegisterUlong
 f1_keywords:
  - "video/VideoPortWriteRegisterUlong"
+ - "VideoPortWriteRegisterUlong"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

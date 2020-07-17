@@ -10,6 +10,7 @@ keywords: ["RILALPHAIDENTIFIER structure"]
 ms.keywords: "*LPRILALPHAIDENTIFIER, RILALPHAIDENTIFIER, RILALPHAIDENTIFIER structure [Network Drivers Starting with Windows Vista], netvista.rilalphaidentifier, ntddrilapitypes/RILALPHAIDENTIFIER"
 f1_keywords:
  - "ntddrilapitypes/RILALPHAIDENTIFIER"
+ - "RILALPHAIDENTIFIER"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

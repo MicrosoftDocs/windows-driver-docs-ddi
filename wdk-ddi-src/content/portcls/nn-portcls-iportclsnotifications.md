@@ -10,6 +10,7 @@ keywords: ["IPortClsNotifications interface"]
 ms.keywords: IPortClsNotifications, IPortClsNotifications interface [Audio Devices], IPortClsNotifications interface [Audio Devices],described, audio.iportclsnotifications, portcls/IPortClsNotifications
 f1_keywords:
  - "portcls/IPortClsNotifications"
+ - "IPortClsNotifications"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows

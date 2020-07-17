@@ -10,6 +10,7 @@ keywords: ["IDebugDataSpaces4::EndEnumTagged"]
 ms.keywords: EndEnumTagged, EndEnumTagged method [Windows Debugging], EndEnumTagged method [Windows Debugging],IDebugDataSpaces3 interface, EndEnumTagged method [Windows Debugging],IDebugDataSpaces4 interface, IDebugDataSpaces3 interface [Windows Debugging],EndEnumTagged method, IDebugDataSpaces3::EndEnumTagged, IDebugDataSpaces4 interface [Windows Debugging],EndEnumTagged method, IDebugDataSpaces4.EndEnumTagged, IDebugDataSpaces4::EndEnumTagged, IDebugDataSpaces_a6366d17-1a38-43ca-af52-3c7e2b73be9e.xml, dbgeng/IDebugDataSpaces3::EndEnumTagged, dbgeng/IDebugDataSpaces4::EndEnumTagged, debugger.endenumtagged
 f1_keywords:
  - "dbgeng/IDebugDataSpaces3.EndEnumTagged"
+ - "IDebugDataSpaces3.EndEnumTagged"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

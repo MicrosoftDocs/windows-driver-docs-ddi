@@ -10,6 +10,7 @@ keywords: ["StorPortPause function"]
 ms.keywords: StorPortPause, StorPortPause routine [Storage Devices], storage.storportpause, storport/StorPortPause, storprt_0d8b3555-f061-4320-948e-f8db6a204d0e.xml
 f1_keywords:
  - "storport/StorPortPause"
+ - "StorPortPause"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

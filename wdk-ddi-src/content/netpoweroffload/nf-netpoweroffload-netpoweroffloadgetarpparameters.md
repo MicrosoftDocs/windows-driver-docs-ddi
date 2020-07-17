@@ -10,6 +10,7 @@ ms.date: 10/03/2019
 keywords: ["NetPowerOffloadGetArpParameters function"]
 f1_keywords:
  - "netpoweroffload/NetPowerOffloadGetArpParameters"
+ - "NetPowerOffloadGetArpParameters"
 ms.keywords: NetPowerOffloadGetArpParameters
 req.header: netpoweroffload.h
 req.include-header:

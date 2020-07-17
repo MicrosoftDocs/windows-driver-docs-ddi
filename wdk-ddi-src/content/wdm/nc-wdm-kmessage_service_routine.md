@@ -10,6 +10,7 @@ keywords: ["KMESSAGE_SERVICE_ROUTINE callback function"]
 ms.keywords: DrvrRtns_1f39517a-fa8b-44a4-9e6c-2ecc428cd416.xml, InterruptMessageService, InterruptMessageService routine [Kernel-Mode Driver Architecture], KMESSAGE_SERVICE_ROUTINE, kernel.interruptmessageservice, wdm/InterruptMessageService
 f1_keywords:
  - "wdm/InterruptMessageService"
+ - "InterruptMessageService"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["WdfTimerStart function"]
 ms.keywords: DFTimerObjectRef_42b50b58-85f6-4f1b-9824-f1c9ed675371.xml, WdfTimerStart, WdfTimerStart method, kmdf.wdftimerstart, wdf.wdftimerstart, wdftimer/WdfTimerStart
 f1_keywords:
  - "wdftimer/WdfTimerStart"
+ - "WdfTimerStart"
 req.header: wdftimer.h
 req.include-header: Wdf.h
 req.target-type: Universal

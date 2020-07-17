@@ -10,6 +10,7 @@ keywords: ["IServiceSink::RequestService"]
 ms.keywords: IServiceSink interface [Audio Devices],RequestService method, IServiceSink.RequestService, IServiceSink::RequestService, RequestService, RequestService method [Audio Devices], RequestService method [Audio Devices],IServiceSink interface, audio.iservicesink_requestservice, audmp-routines_c59de1c6-446e-489b-ba96-c2b24f74576a.xml, portcls/IServiceSink::RequestService
 f1_keywords:
  - "portcls/IServiceSink.RequestService"
+ - "IServiceSink.RequestService"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

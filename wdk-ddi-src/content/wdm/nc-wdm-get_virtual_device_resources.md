@@ -10,6 +10,7 @@ keywords: ["GET_VIRTUAL_DEVICE_RESOURCES callback"]
 ms.keywords: GET_VIRTUAL_DEVICE_RESOURCES, GetResources, GetResources routine, PCI.getresources, wdm/GetResources
 f1_keywords:
  - "wdm/GetResources"
+ - "GetResources"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop

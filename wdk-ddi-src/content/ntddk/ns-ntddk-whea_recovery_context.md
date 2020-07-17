@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["WHEA_RECOVERY_CONTEXT structure"]
 f1_keywords:
  - "ntddk/WHEA_RECOVERY_CONTEXT"
+ - "WHEA_RECOVERY_CONTEXT"
 ms.keywords: WHEA_RECOVERY_CONTEXT, WHEA_RECOVERY_CONTEXT, *PWHEA_RECOVERY_CONTEXT, 
 req.header: ntddk.h
 req.include-header:

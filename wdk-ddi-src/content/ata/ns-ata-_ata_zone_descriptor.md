@@ -10,6 +10,7 @@ keywords: ["_ATA_ZONE_DESCRIPTOR structure"]
 ms.keywords: "*PATA_ZONE_DESCRIPTOR, ATA_ZONE_DESCRIPTOR, ATA_ZONE_DESCRIPTOR structure [Storage Devices], PATA_ZONE_DESCRIPTOR, PATA_ZONE_DESCRIPTOR structure pointer [Storage Devices], _ATA_ZONE_DESCRIPTOR, ata/ATA_ZONE_DESCRIPTOR, ata/PATA_ZONE_DESCRIPTOR, storage.ata_zone_descriptor"
 f1_keywords:
  - "ata/ATA_ZONE_DESCRIPTOR"
+ - "ATA_ZONE_DESCRIPTOR"
 req.header: ata.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["_MPIO_DEVINSTANCE_HEALTH_CLASS structure"]
 ms.keywords: "*PMPIO_DEVINSTANCE_HEALTH_CLASS, MPIO_DEVINSTANCE_HEALTH_CLASS, MPIO_DEVINSTANCE_HEALTH_CLASS structure [Storage Devices], PMPIO_DEVINSTANCE_HEALTH_CLASS, PMPIO_DEVINSTANCE_HEALTH_CLASS structure pointer [Storage Devices], _MPIO_DEVINSTANCE_HEALTH_CLASS, mpiodisk/MPIO_DEVINSTANCE_HEALTH_CLASS, mpiodisk/PMPIO_DEVINSTANCE_HEALTH_CLASS, storage.mpio_devinstance_health_class, structs-scsibus_aae91588-5920-42bb-8c74-13604bed0bfc.xml"
 f1_keywords:
  - "mpiodisk/MPIO_DEVINSTANCE_HEALTH_CLASS"
+ - "MPIO_DEVINSTANCE_HEALTH_CLASS"
 req.header: mpiodisk.h
 req.include-header: Mpiowmi.h
 req.target-type: Windows

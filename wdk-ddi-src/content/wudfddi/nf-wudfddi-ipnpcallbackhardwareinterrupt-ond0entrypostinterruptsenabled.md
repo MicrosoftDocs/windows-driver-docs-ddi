@@ -10,6 +10,7 @@ keywords: ["IPnpCallbackHardwareInterrupt::OnD0EntryPostInterruptsEnabled"]
 ms.keywords: IPnpCallbackHardwareInterrupt interface,OnD0EntryPostInterruptsEnabled method, IPnpCallbackHardwareInterrupt.OnD0EntryPostInterruptsEnabled, IPnpCallbackHardwareInterrupt::OnD0EntryPostInterruptsEnabled, OnD0EntryPostInterruptsEnabled, OnD0EntryPostInterruptsEnabled method, OnD0EntryPostInterruptsEnabled method,IPnpCallbackHardwareInterrupt interface, umdf.ipnpcallbackhardwareinterrupt_ond0entrypostinterruptsenabled, wdf.ipnpcallbackhardwareinterrupt_ond0entrypostinterruptsenabled, wudfddi/IPnpCallbackHardwareInterrupt::OnD0EntryPostInterruptsEnabled
 f1_keywords:
  - "wudfddi/IPnpCallbackHardwareInterrupt.OnD0EntryPostInterruptsEnabled"
+ - "IPnpCallbackHardwareInterrupt.OnD0EntryPostInterruptsEnabled"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop

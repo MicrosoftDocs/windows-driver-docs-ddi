@@ -10,6 +10,7 @@ keywords: ["IoFreeWorkItem function"]
 ms.keywords: IoFreeWorkItem, IoFreeWorkItem routine [Kernel-Mode Driver Architecture], k104_7db57e08-0786-4f20-96d8-ecb7980a479c.xml, kernel.iofreeworkitem, wdm/IoFreeWorkItem
 f1_keywords:
  - "wdm/IoFreeWorkItem"
+ - "IoFreeWorkItem"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

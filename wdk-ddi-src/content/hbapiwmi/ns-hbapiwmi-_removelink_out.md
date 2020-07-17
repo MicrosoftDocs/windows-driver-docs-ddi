@@ -10,6 +10,7 @@ keywords: ["_RemoveLink_OUT structure"]
 ms.keywords: "*PRemoveLink_OUT, PRemoveLink_OUT, PRemoveLink_OUT structure pointer [Storage Devices], RemoveLink_OUT, RemoveLink_OUT structure [Storage Devices], _RemoveLink_OUT, hbapiwmi/PRemoveLink_OUT, hbapiwmi/RemoveLink_OUT, storage.removelink_out, structs-Fibre_0210455d-c6c4-4548-ae14-63aa2e7b9a5d.xml"
 f1_keywords:
  - "hbapiwmi/RemoveLink_OUT"
+ - "RemoveLink_OUT"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows

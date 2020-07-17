@@ -10,6 +10,7 @@ keywords: ["IWDFObject::AssignContext"]
 ms.keywords: AssignContext, AssignContext method, AssignContext method,IWDFObject interface, IWDFObject interface,AssignContext method, IWDFObject.AssignContext, IWDFObject::AssignContext, UMDFBaseObjectRef_1cc8c14a-66bd-487c-a58d-00f22f52adcc.xml, umdf.iwdfobject_assigncontext, wdf.iwdfobject_assigncontext, wudfddi/IWDFObject::AssignContext
 f1_keywords:
  - "wudfddi/IWDFObject.AssignContext"
+ - "IWDFObject.AssignContext"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

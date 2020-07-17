@@ -10,6 +10,7 @@ keywords: ["WdfObjectContextGetObject function"]
 ms.keywords: DFGenObjectRef_cf11ce54-dbb0-4835-919d-6f0bec903e2d.xml, WdfObjectContextGetObject, WdfObjectContextGetObject method, kmdf.wdfobjectcontextgetobject, wdf.wdfobjectcontextgetobject, wdfobject/WdfObjectContextGetObject
 f1_keywords:
  - "wdfobject/WdfObjectContextGetObject"
+ - "WdfObjectContextGetObject"
 req.header: wdfobject.h
 req.include-header: Wdf.h
 req.target-type: Universal

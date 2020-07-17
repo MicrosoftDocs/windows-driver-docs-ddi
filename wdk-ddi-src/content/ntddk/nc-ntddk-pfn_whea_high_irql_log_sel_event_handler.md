@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["PFN_WHEA_HIGH_IRQL_LOG_SEL_EVENT_HANDLER callback function"]
 f1_keywords:
  - "ntddk/PFN_WHEA_HIGH_IRQL_LOG_SEL_EVENT_HANDLER"
+ - "PFN_WHEA_HIGH_IRQL_LOG_SEL_EVENT_HANDLER"
 req.header: ntddk.h
 req.include-header:
 req.target-type:

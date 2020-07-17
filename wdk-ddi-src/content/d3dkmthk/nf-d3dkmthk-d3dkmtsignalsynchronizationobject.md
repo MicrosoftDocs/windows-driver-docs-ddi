@@ -9,6 +9,7 @@ keywords: ["D3DKMTSignalSynchronizationObject function"]
 ms.keywords: D3DKMTSignalSynchronizationObject, D3DKMTSignalSynchronizationObject function [Display Devices], OpenGL_Functions_183a6489-8a99-4dd3-a697-04db44b229c9.xml, d3dkmthk/D3DKMTSignalSynchronizationObject, display.d3dkmtsignalsynchronizationobject
 f1_keywords:
  - "d3dkmthk/D3DKMTSignalSynchronizationObject"
+ - "D3DKMTSignalSynchronizationObject"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

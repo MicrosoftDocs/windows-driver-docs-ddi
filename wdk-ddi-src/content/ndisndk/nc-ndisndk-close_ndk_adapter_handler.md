@@ -10,6 +10,7 @@ keywords: ["CLOSE_NDK_ADAPTER_HANDLER callback function"]
 ms.keywords: CLOSE_NDK_ADAPTER_HANDLER, CLOSE_NDK_ADAPTER_HANDLER callback, CloseNdkAdapterHandler, CloseNdkAdapterHandler callback function [Network Drivers Starting with Windows Vista], ndisndk/CloseNdkAdapterHandler, netvista.close_ndk_adapter_handler
 f1_keywords:
  - "ndisndk/CloseNdkAdapterHandler"
+ - "CloseNdkAdapterHandler"
 req.header: ndisndk.h
 req.include-header: 
 req.target-type: Windows

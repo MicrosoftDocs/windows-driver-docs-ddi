@@ -10,6 +10,7 @@ keywords: ["IKsReferenceClock interface"]
 ms.keywords: IKsReferenceClock, IKsReferenceClock interface [Streaming Media Devices], IKsReferenceClock interface [Streaming Media Devices],described, avintfc_7146002a-d8ab-4789-b752-863f8b2d94d2.xml, ks/IKsReferenceClock, stream.iksreferenceclock
 f1_keywords:
  - "ks/IKsReferenceClock"
+ - "IKsReferenceClock"
 req.header: ks.h
 req.include-header: 
 req.target-type: Windows

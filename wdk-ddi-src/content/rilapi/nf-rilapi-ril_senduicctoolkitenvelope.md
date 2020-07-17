@@ -10,6 +10,7 @@ keywords: ["RIL_SendUiccToolkitEnvelope function"]
 ms.keywords: RIL_SendUiccToolkitEnvelope, RIL_SendUiccToolkitEnvelope method [Network Drivers Starting with Windows Vista], netvista.ril_senduicctoolkitenvelope, rilapi/RIL_SendUiccToolkitEnvelope
 f1_keywords:
  - "rilapi/RIL_SendUiccToolkitEnvelope"
+ - "RIL_SendUiccToolkitEnvelope"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

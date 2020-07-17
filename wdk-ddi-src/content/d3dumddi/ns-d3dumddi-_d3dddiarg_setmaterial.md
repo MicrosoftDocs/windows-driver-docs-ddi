@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_SETMATERIAL structure"]
 ms.keywords: D3DDDIARG_SETMATERIAL, D3DDDIARG_SETMATERIAL structure [Display Devices], UMDisplayDriver_param_Structs_5a3ecda9-5303-46f4-b7a2-42243e3a66d1.xml, _D3DDDIARG_SETMATERIAL, d3dumddi/D3DDDIARG_SETMATERIAL, display.d3dddiarg_setmaterial
 f1_keywords:
  - "d3dumddi/D3DDDIARG_SETMATERIAL"
+ - "D3DDDIARG_SETMATERIAL"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

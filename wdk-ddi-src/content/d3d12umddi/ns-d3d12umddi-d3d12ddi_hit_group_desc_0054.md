@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3D12DDI_HIT_GROUP_DESC_0054 structure"]
 f1_keywords:
  - "d3d12umddi/D3D12DDI_HIT_GROUP_DESC_0054"
+ - "D3D12DDI_HIT_GROUP_DESC_0054"
 ms.keywords: D3D12DDI_HIT_GROUP_DESC_0054, D3D12DDI_HIT_GROUP_DESC_0054, 
 req.header: d3d12umddi.h
 req.include-header:

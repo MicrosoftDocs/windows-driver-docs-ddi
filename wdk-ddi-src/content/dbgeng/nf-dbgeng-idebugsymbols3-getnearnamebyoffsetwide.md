@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::GetNearNameByOffsetWide"]
 ms.keywords: GetNearNameByOffsetWide, GetNearNameByOffsetWide method [Windows Debugging], GetNearNameByOffsetWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetNearNameByOffsetWide method, IDebugSymbols3.GetNearNameByOffsetWide, IDebugSymbols3::GetNearNameByOffsetWide, dbgeng/IDebugSymbols3::GetNearNameByOffsetWide, debugger.getnearnamebyoffsetwide
 f1_keywords:
  - "dbgeng/IDebugSymbols3.GetNearNameByOffsetWide"
+ - "IDebugSymbols3.GetNearNameByOffsetWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

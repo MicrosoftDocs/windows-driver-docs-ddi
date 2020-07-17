@@ -23,6 +23,7 @@ targetos: Windows
 tech.root: display
 f1_keywords:
  - "d3d12umddi/D3D12DDI_DEVICE_FUNCS_CORE_0043"
+ - "D3D12DDI_DEVICE_FUNCS_CORE_0043"
 topic_type:
  - apiref
 api_type:

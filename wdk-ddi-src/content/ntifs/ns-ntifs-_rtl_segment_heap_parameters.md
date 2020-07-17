@@ -8,6 +8,7 @@ tech.root: ifsk
 keywords: ["_RTL_SEGMENT_HEAP_PARAMETERS structure"]
 f1_keywords:
  - "ntifs/_RTL_SEGMENT_HEAP_PARAMETERS"
+ - "_RTL_SEGMENT_HEAP_PARAMETERS"
 ms.keywords: _RTL_SEGMENT_HEAP_PARAMETERS, RTL_SEGMENT_HEAP_PARAMETERS, *PRTL_SEGMENT_HEAP_PARAMETERS, 
 req.header: ntifs.h
 req.include-header:

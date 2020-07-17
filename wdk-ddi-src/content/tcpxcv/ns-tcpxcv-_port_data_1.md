@@ -10,6 +10,7 @@ keywords: ["_PORT_DATA_1 structure"]
 ms.keywords: "*PPORT_DATA_1, PORT_DATA_1, PORT_DATA_1 structure [Print Devices], PPORT_DATA_1, PPORT_DATA_1 structure pointer [Print Devices], _PORT_DATA_1, print.port_data_1, spoolfnc_6fd52423-d2f1-4c6c-bf42-63000c5d0e66.xml, tcpxcv/PORT_DATA_1, tcpxcv/PPORT_DATA_1"
 f1_keywords:
  - "tcpxcv/PORT_DATA_1"
+ - "PORT_DATA_1"
 req.header: tcpxcv.h
 req.include-header: Tcpxcv.h
 req.target-type: Windows

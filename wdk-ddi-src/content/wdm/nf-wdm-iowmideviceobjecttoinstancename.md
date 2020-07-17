@@ -10,6 +10,7 @@ keywords: ["IoWMIDeviceObjectToInstanceName function"]
 ms.keywords: IoWMIDeviceObjectToInstanceName, IoWMIDeviceObjectToInstanceName routine [Kernel-Mode Driver Architecture], k104_9341dc2b-c948-44bd-891d-a530a8676259.xml, kernel.iowmideviceobjecttoinstancename, wdm/IoWMIDeviceObjectToInstanceName
 f1_keywords:
  - "wdm/IoWMIDeviceObjectToInstanceName"
+ - "IoWMIDeviceObjectToInstanceName"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

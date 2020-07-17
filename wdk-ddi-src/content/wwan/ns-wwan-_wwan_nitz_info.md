@@ -8,6 +8,7 @@ ms.date: 04/11/2019
 keywords: ["_WWAN_NITZ_INFO structure"]
 f1_keywords:
  - "wwan/_WWAN_NITZ_INFO"
+ - "_WWAN_NITZ_INFO"
 ms.keywords: _WWAN_NITZ_INFO, WWAN_NITZ_INFO, *PWWAN_NITZ_INFO, 
 req.header: wwan.h
 req.include-header:

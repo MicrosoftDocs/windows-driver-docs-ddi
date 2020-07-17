@@ -10,6 +10,7 @@ keywords: ["AtaPortGetScatterGatherList function"]
 ms.keywords: AtaPortGetScatterGatherList, AtaPortGetScatterGatherList routine [Storage Devices], atartns_ef8ff0f5-2d1c-47e1-bf1a-2b554de3969d.xml, irb/AtaPortGetScatterGatherList, storage.ataportgetscattergatherlist
 f1_keywords:
  - "irb/AtaPortGetScatterGatherList"
+ - "AtaPortGetScatterGatherList"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop

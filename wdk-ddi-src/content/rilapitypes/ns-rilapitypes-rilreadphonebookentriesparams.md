@@ -10,6 +10,7 @@ keywords: ["RILREADPHONEBOOKENTRIESPARAMS structure"]
 ms.keywords: "*LPRILREADPHONEBOOKENTRIESPARAMS, RILREADPHONEBOOKENTRIESPARAMS, RILREADPHONEBOOKENTRIESPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilreadphonebookentriesparams, ntddrilapitypes/RILREADPHONEBOOKENTRIESPARAMS"
 f1_keywords:
  - "rilapitypes/RILREADPHONEBOOKENTRIESPARAMS"
+ - "RILREADPHONEBOOKENTRIESPARAMS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

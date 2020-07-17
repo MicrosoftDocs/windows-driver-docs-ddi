@@ -10,6 +10,7 @@ keywords: ["ScsiPortWriteRegisterBufferUchar macro"]
 ms.keywords: ScsiPortWriteRegisterBufferUchar, ScsiPortWriteRegisterBufferUchar routine [Storage Devices], scsiprt_260290c1-818a-49dd-9705-ea79984fa0af.xml, srb/ScsiPortWriteRegisterBufferUchar, storage.scsiportwriteregisterbufferuchar
 f1_keywords:
  - "storport/ScsiPortWriteRegisterBufferUchar"
+ - "ScsiPortWriteRegisterBufferUchar"
 req.header: storport.h
 req.include-header: Miniport.h, Scsi.h, Storport.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["IOCTL_INTERNAL_LOCK_PORT_NO_SELECT IOCTL"]
 ms.keywords: IOCTL_INTERNAL_LOCK_PORT_NO_SELECT, IOCTL_INTERNAL_LOCK_PORT_NO_SELECT control code [Parallel Ports], cisspd_a8b5a024-9169-47ef-843d-706a0322247b.xml, parallel/IOCTL_INTERNAL_LOCK_PORT_NO_SELECT, parports.ioctl_internal_lock_port_no_select
 f1_keywords:
  - "parallel/IOCTL_INTERNAL_LOCK_PORT_NO_SELECT"
+ - "IOCTL_INTERNAL_LOCK_PORT_NO_SELECT"
 req.header: parallel.h
 req.include-header: Parallel.h
 req.target-type: Windows

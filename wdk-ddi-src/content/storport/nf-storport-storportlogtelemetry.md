@@ -10,6 +10,7 @@ keywords: ["StorPortLogTelemetry function"]
 ms.keywords: StorPortLogTelemetry, StorPortLogTelemetry routine [Storage Devices], storage.storportlogtelemetry, storport/StorPortLogTelemetry
 f1_keywords:
  - "storport/StorPortLogTelemetry"
+ - "StorPortLogTelemetry"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Windows

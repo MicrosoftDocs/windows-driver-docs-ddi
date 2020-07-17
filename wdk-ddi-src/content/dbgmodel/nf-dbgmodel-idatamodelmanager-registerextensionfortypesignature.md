@@ -7,6 +7,7 @@ ms.date: 07/19/2018
 keywords: ["IDataModelManager::RegisterExtensionForTypeSignature"]
 f1_keywords:
  - "dbgmodel/IDataModelManager.RegisterExtensionForTypeSignature"
+ - "IDataModelManager.RegisterExtensionForTypeSignature"
 ms.keywords: IDataModelManager::RegisterExtensionForTypeSignature, RegisterExtensionForTypeSignature, IDataModelManager.RegisterExtensionForTypeSignature, IDataModelManager::RegisterExtensionForTypeSignature, IDataModelManager.RegisterExtensionForTypeSignature
 req.header: dbgmodel.h
 req.include-header:

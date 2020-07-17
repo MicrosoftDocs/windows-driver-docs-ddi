@@ -7,6 +7,7 @@ ms.date: 09/28/2018
 keywords: ["CreateDataModelManager function"]
 f1_keywords:
  - "dbgmodel/CreateDataModelManager"
+ - "CreateDataModelManager"
 ms.keywords: CreateDataModelManager
 req.header: dbgmodel.h
 req.include-header:

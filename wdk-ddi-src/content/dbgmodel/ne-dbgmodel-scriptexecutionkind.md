@@ -7,6 +7,7 @@ ms.date: 07/16/2018
 keywords: ["ScriptExecutionKind enumeration"]
 f1_keywords:
  - "dbgmodel/ScriptExecutionKind"
+ - "ScriptExecutionKind"
 ms.keywords: ScriptExecutionKind, , 
 req.header: dbgmodel.h
 req.include-header:

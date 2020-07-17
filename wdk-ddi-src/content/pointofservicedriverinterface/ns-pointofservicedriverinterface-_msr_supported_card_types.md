@@ -10,6 +10,7 @@ keywords: ["_MSR_SUPPORTED_CARD_TYPES structure"]
 ms.keywords: "*PMSR_SUPPORTED_CARD_TYPES, MSR_SUPPORTED_CARD_TYPES, MSR_SUPPORTED_CARD_TYPES structure, PMSR_SUPPORTED_CARD_TYPES, PMSR_SUPPORTED_CARD_TYPES structure pointer, _MSR_SUPPORTED_CARD_TYPES, pointofservicedriverinterface/MSR_SUPPORTED_CARD_TYPES, pointofservicedriverinterface/PMSR_SUPPORTED_CARD_TYPES, pos.msr_supported_card_types"
 f1_keywords:
  - "pointofservicedriverinterface/MSR_SUPPORTED_CARD_TYPES"
+ - "MSR_SUPPORTED_CARD_TYPES"
 req.header: pointofservicedriverinterface.h
 req.include-header: PointOfServiceDriverInterface.h
 req.target-type: Windows

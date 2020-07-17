@@ -10,6 +10,7 @@ keywords: ["_POWERSOURCESTATUS structure"]
 ms.keywords: "*PPOWERSOURCESTATUS, POWERSOURCESTATUS, POWERSOURCESTATUS structure [Battery Devices], _POWERSOURCESTATUS, battery.powersourcestatus, charging/BATTERY_INFORMATION"
 f1_keywords:
  - "charging/BATTERY_INFORMATION"
+ - "BATTERY_INFORMATION"
 req.header: charging.h
 req.include-header: Charging.h
 req.target-type: Windows

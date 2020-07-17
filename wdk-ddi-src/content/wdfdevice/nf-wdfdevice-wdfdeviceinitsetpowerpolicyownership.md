@@ -10,6 +10,7 @@ keywords: ["WdfDeviceInitSetPowerPolicyOwnership function"]
 ms.keywords: DFDeviceObjectGeneralRef_0c94f8f0-3b23-404a-83c2-1742785ff17d.xml, WdfDeviceInitSetPowerPolicyOwnership, WdfDeviceInitSetPowerPolicyOwnership method, kmdf.wdfdeviceinitsetpowerpolicyownership, wdf.wdfdeviceinitsetpowerpolicyownership, wdfdevice/WdfDeviceInitSetPowerPolicyOwnership
 f1_keywords:
  - "wdfdevice/WdfDeviceInitSetPowerPolicyOwnership"
+ - "WdfDeviceInitSetPowerPolicyOwnership"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

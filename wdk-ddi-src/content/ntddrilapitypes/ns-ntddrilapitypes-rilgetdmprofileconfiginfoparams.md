@@ -10,6 +10,7 @@ keywords: ["RILGETDMPROFILECONFIGINFOPARAMS structure"]
 ms.keywords: "*LPRILGETDMPROFILECONFIGINFOPARAMS, RILGETDMPROFILECONFIGINFOPARAMS, RILGETDMPROFILECONFIGINFOPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilgetdmprofileconfiginfoparams, ntddrilapitypes/RILGETDMPROFILECONFIGINFOPARAMS"
 f1_keywords:
  - "ntddrilapitypes/RILGETDMPROFILECONFIGINFOPARAMS"
+ - "RILGETDMPROFILECONFIGINFOPARAMS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

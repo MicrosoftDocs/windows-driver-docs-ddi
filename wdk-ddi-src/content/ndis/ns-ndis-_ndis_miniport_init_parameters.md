@@ -10,6 +10,7 @@ keywords: ["_NDIS_MINIPORT_INIT_PARAMETERS structure"]
 ms.keywords: "*PNDIS_MINIPORT_INIT_PARAMETERS, NDIS_MINIPORT_INIT_PARAMETERS, NDIS_MINIPORT_INIT_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_MINIPORT_INIT_PARAMETERS, PNDIS_MINIPORT_INIT_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_MINIPORT_INIT_PARAMETERS, miniport_structures_ref_064614b0-eb2a-4fdd-8b0a-d14540e6faa5.xml, ndis/NDIS_MINIPORT_INIT_PARAMETERS, ndis/PNDIS_MINIPORT_INIT_PARAMETERS, netvista.ndis_miniport_init_parameters"
 f1_keywords:
  - "ndis/NDIS_MINIPORT_INIT_PARAMETERS"
+ - "NDIS_MINIPORT_INIT_PARAMETERS"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["_FILTER_VOLUME_BASIC_INFORMATION structure"]
 ms.keywords: "*PFILTER_VOLUME_BASIC_INFORMATION, FILTER_VOLUME_BASIC_INFORMATION, FILTER_VOLUME_BASIC_INFORMATION structure [Installable File System Drivers], FltSystemStructures_7bc0a3dc-37e1-4783-aecd-f4ef96e38a32.xml, PFILTER_VOLUME_BASIC_INFORMATION, PFILTER_VOLUME_BASIC_INFORMATION structure pointer [Installable File System Drivers], _FILTER_VOLUME_BASIC_INFORMATION, fltuserstructures/FILTER_VOLUME_BASIC_INFORMATION, fltuserstructures/PFILTER_VOLUME_BASIC_INFORMATION, ifsk.filter_volume_basic_information"
 f1_keywords:
  - "fltuserstructures/FILTER_VOLUME_BASIC_INFORMATION"
+ - "FILTER_VOLUME_BASIC_INFORMATION"
 req.header: fltuserstructures.h
 req.include-header: FltUser.h, FltKernel.h
 req.target-type: Windows

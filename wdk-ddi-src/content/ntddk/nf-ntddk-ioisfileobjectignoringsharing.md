@@ -10,6 +10,7 @@ keywords: ["IoIsFileObjectIgnoringSharing function"]
 ms.keywords: IoIsFileObjectIgnoringSharing, IoIsFileObjectIgnoringSharing routine [Installable File System Drivers], ifsk.ioisfileobjectignoringsharing, ntddk/IoIsFileObjectIgnoringSharing
 f1_keywords:
  - "ntddk/IoIsFileObjectIgnoringSharing"
+ - "IoIsFileObjectIgnoringSharing"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Universal

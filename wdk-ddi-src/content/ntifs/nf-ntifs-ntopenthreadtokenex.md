@@ -10,6 +10,7 @@ keywords: ["NtOpenThreadTokenEx function"]
 ms.keywords: NtOpenThreadTokenEx, ZwOpenThreadTokenEx, ZwOpenThreadTokenEx routine [Kernel-Mode Driver Architecture], k111_657ad702-595c-4422-99be-ca8ecc428bbe.xml, kernel.zwopenthreadtokenex, ntifs/NtOpenThreadTokenEx, ntifs/ZwOpenThreadTokenEx
 f1_keywords:
  - "ntifs/ZwOpenThreadTokenEx"
+ - "ZwOpenThreadTokenEx"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

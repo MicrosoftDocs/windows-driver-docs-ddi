@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_CHILD_LIST_DEVICE_REENUMERATED callback function"]
 ms.keywords: DFDeviceObjectChildListRef_70b8a1c2-d157-4d57-85d3-09566977b649.xml, EVT_WDF_CHILD_LIST_DEVICE_REENUMERATED, EVT_WDF_CHILD_LIST_DEVICE_REENUMERATED callback, EvtChildListDeviceReenumerated, EvtChildListDeviceReenumerated callback function, kmdf.evtchildlistdevicereenumerated, wdf.evtchildlistdevicereenumerated, wdfchildlist/EvtChildListDeviceReenumerated
 f1_keywords:
  - "wdfchildlist/EvtChildListDeviceReenumerated"
+ - "EvtChildListDeviceReenumerated"
 req.header: wdfchildlist.h
 req.include-header: Wdf.h
 req.target-type: Universal

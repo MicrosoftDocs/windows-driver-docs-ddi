@@ -10,6 +10,7 @@ keywords: ["WdmlibIoGetAffinityInterrupt function"]
 ms.keywords: IoGetAffinityInterrupt, WdmlibIoGetAffinityInterrupt, WdmlibIoGetAffinityInterrupt function [Kernel-Mode Driver Architecture], iointex/IoGetAffinityInterrupt, iointex/WdmlibIoGetAffinityInterrupt, kernel.wdmlibiogetaffinityinterrupt
 f1_keywords:
  - "iointex/WdmlibIoGetAffinityInterrupt"
+ - "WdmlibIoGetAffinityInterrupt"
 req.header: iointex.h
 req.include-header: Iointex.h, Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows

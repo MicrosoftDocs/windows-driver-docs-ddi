@@ -10,6 +10,7 @@ keywords: ["_WWAN_DEVICE_CAPS structure"]
 ms.keywords: "*PWWAN_DEVICE_CAPS, PWWAN_DEVICE_CAPS, PWWAN_DEVICE_CAPS structure pointer [Network Drivers Starting with Windows Vista], WWAN_DEVICE_CAPS, WWAN_DEVICE_CAPS structure [Network Drivers Starting with Windows Vista], WwanRef_a809d2dc-68a8-45dd-b5b0-bfe519ffc3d7.xml, _WWAN_DEVICE_CAPS, netvista.wwan_device_caps, wwan/PWWAN_DEVICE_CAPS, wwan/WWAN_DEVICE_CAPS"
 f1_keywords:
  - "wwan/WWAN_DEVICE_CAPS"
+ - "WWAN_DEVICE_CAPS"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows

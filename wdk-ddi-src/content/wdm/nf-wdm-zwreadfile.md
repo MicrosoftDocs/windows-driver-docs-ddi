@@ -10,6 +10,7 @@ keywords: ["ZwReadFile function"]
 ms.keywords: NtReadFile, ZwReadFile, ZwReadFile routine [Kernel-Mode Driver Architecture], k111_5cf3ebe2-7c2f-4998-b441-7d2aa2eb091f.xml, kernel.zwreadfile, wdm/NtReadFile, wdm/ZwReadFile
 f1_keywords:
  - "wdm/ZwReadFile"
+ - "ZwReadFile"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

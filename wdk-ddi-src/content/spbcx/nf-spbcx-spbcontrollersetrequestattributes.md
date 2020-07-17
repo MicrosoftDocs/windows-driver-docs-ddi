@@ -10,6 +10,7 @@ keywords: ["SpbControllerSetRequestAttributes function"]
 ms.keywords: SPB.spbcontrollersetrequestattributes, SpbControllerSetRequestAttributes, SpbControllerSetRequestAttributes method [Buses], spbcx/SpbControllerSetRequestAttributes
 f1_keywords:
  - "spbcx/SpbControllerSetRequestAttributes"
+ - "SpbControllerSetRequestAttributes"
 req.header: spbcx.h
 req.include-header: 
 req.target-type: Universal

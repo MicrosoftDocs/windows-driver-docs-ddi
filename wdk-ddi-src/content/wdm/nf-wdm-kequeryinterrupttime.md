@@ -10,6 +10,7 @@ keywords: ["KeQueryInterruptTime function"]
 ms.keywords: KeQueryInterruptTime, KeQueryInterruptTime routine [Kernel-Mode Driver Architecture], k105_a87c40d1-b9be-42f1-ada4-6e0fb3d33220.xml, kernel.kequeryinterrupttime, wdm/KeQueryInterruptTime
 f1_keywords:
  - "wdm/KeQueryInterruptTime"
+ - "KeQueryInterruptTime"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

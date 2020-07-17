@@ -8,6 +8,7 @@ ms.date: 03/05/2018
 keywords: ["NetAdapterStop function"]
 f1_keywords:
  - "netadapter/NetAdapterStop"
+ - "NetAdapterStop"
 ms.keywords: NetAdapterStop
 req.header: netadapter.h
 req.include-header: netadaptercx.h

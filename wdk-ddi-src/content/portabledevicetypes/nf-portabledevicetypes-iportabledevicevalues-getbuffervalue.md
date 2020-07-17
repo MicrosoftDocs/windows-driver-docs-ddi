@@ -10,6 +10,7 @@ keywords: ["IPortableDeviceValues::GetBufferValue"]
 ms.keywords: GetBufferValue, GetBufferValue method, GetBufferValue method,IPortableDeviceValues interface, IPortableDeviceValues interface,GetBufferValue method, IPortableDeviceValues.GetBufferValue, IPortableDeviceValues::GetBufferValue, IPortableDeviceValuesGetBufferValue, portabledevicetypes/IPortableDeviceValues::GetBufferValue, wpddk.iportabledevicevalues_getbuffervalue
 f1_keywords:
  - "portabledevicetypes/IPortableDeviceValues.GetBufferValue"
+ - "IPortableDeviceValues.GetBufferValue"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows

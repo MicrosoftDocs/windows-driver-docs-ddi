@@ -10,6 +10,7 @@ keywords: ["IInterruptSync::RegisterServiceRoutine"]
 ms.keywords: IInterruptSync interface [Audio Devices],RegisterServiceRoutine method, IInterruptSync.RegisterServiceRoutine, IInterruptSync::RegisterServiceRoutine, RegisterServiceRoutine, RegisterServiceRoutine method [Audio Devices], RegisterServiceRoutine method [Audio Devices],IInterruptSync interface, audio.iinterruptsync_registerserviceroutine, audmp-routines_92919bdc-00aa-4911-ac3c-58a0807c7212.xml, portcls/IInterruptSync::RegisterServiceRoutine
 f1_keywords:
  - "portcls/IInterruptSync.RegisterServiceRoutine"
+ - "IInterruptSync.RegisterServiceRoutine"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

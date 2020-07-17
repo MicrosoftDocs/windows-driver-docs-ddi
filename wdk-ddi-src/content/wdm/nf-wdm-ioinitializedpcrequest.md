@@ -10,6 +10,7 @@ keywords: ["IoInitializeDpcRequest function"]
 ms.keywords: IoInitializeDpcRequest, IoInitializeDpcRequest routine [Kernel-Mode Driver Architecture], k104_6b13de62-4cbe-4902-8c60-67d873873047.xml, kernel.ioinitializedpcrequest, wdm/IoInitializeDpcRequest
 f1_keywords:
  - "wdm/IoInitializeDpcRequest"
+ - "IoInitializeDpcRequest"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

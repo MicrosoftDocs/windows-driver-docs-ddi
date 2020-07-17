@@ -10,6 +10,7 @@ keywords: ["RtlSubtreeSuccessor function"]
 ms.keywords: RtlSubtreeSuccessor, RtlSubtreeSuccessor routine [Installable File System Drivers], ifsk.rtlsubtreesuccessor, ntddk/RtlSubtreeSuccessor, rtlref_65e50284-427f-47d9-92c7-719b8bc1bab5.xml
 f1_keywords:
  - "ntddk/RtlSubtreeSuccessor"
+ - "RtlSubtreeSuccessor"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal

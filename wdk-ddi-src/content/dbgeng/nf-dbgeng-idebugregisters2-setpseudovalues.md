@@ -10,6 +10,7 @@ keywords: ["IDebugRegisters2::SetPseudoValues"]
 ms.keywords: IDebugRegisters2 interface [Windows Debugging],SetPseudoValues method, IDebugRegisters2.SetPseudoValues, IDebugRegisters2::SetPseudoValues, IDebugRegisters_db4bc070-c017-479f-b9ca-4b2abe513d7f.xml, SetPseudoValues, SetPseudoValues method [Windows Debugging], SetPseudoValues method [Windows Debugging],IDebugRegisters2 interface, dbgeng/IDebugRegisters2::SetPseudoValues, debugger.setpseudovalues
 f1_keywords:
  - "dbgeng/IDebugRegisters2.SetPseudoValues"
+ - "IDebugRegisters2.SetPseudoValues"
 req.header: dbgeng.h
 req.include-header: DbgEng.h
 req.target-type: Desktop

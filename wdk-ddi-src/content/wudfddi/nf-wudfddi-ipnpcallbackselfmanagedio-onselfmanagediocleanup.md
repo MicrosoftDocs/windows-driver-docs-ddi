@@ -10,6 +10,7 @@ keywords: ["IPnpCallbackSelfManagedIo::OnSelfManagedIoCleanup"]
 ms.keywords: IPnpCallbackSelfManagedIo interface,OnSelfManagedIoCleanup method, IPnpCallbackSelfManagedIo.OnSelfManagedIoCleanup, IPnpCallbackSelfManagedIo::OnSelfManagedIoCleanup, OnSelfManagedIoCleanup, OnSelfManagedIoCleanup method, OnSelfManagedIoCleanup method,IPnpCallbackSelfManagedIo interface, UMDFDeviceObjectRef_32b2f920-2288-4d12-8ecd-a5ea61cc8ebd.xml, umdf.ipnpcallbackselfmanagedio_onselfmanagediocleanup, wdf.ipnpcallbackselfmanagedio_onselfmanagediocleanup, wudfddi/IPnpCallbackSelfManagedIo::OnSelfManagedIoCleanup
 f1_keywords:
  - "wudfddi/IPnpCallbackSelfManagedIo.OnSelfManagedIoCleanup"
+ - "IPnpCallbackSelfManagedIo.OnSelfManagedIoCleanup"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Windows

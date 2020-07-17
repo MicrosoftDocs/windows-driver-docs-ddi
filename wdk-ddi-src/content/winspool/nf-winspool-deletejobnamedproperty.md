@@ -10,6 +10,7 @@ keywords: ["DeleteJobNamedProperty function"]
 ms.keywords: DeleteJobNamedProperty, DeleteJobNamedProperty function [Print Devices], print.deletejobnamedproperty, winspool/DeleteJobNamedProperty
 f1_keywords:
  - "winspool/DeleteJobNamedProperty"
+ - "DeleteJobNamedProperty"
 req.header: winspool.h
 req.include-header: Winspool.h
 req.target-type: Desktop

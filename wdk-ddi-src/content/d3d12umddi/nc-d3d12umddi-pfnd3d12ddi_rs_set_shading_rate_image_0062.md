@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["PFND3D12DDI_RS_SET_SHADING_RATE_IMAGE_0062 callback function"]
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_RS_SET_SHADING_RATE_IMAGE_0062"
+ - "PFND3D12DDI_RS_SET_SHADING_RATE_IMAGE_0062"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

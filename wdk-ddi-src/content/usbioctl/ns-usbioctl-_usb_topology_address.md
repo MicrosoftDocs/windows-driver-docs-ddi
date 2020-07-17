@@ -10,6 +10,7 @@ keywords: ["_USB_TOPOLOGY_ADDRESS structure"]
 ms.keywords: "*PUSB_TOPOLOGY_ADDRESS, PUSB_TOPOLOGY_ADDRESS, PUSB_TOPOLOGY_ADDRESS structure pointer [Buses], USB_TOPOLOGY_ADDRESS, USB_TOPOLOGY_ADDRESS structure [Buses], _USB_TOPOLOGY_ADDRESS, buses.usb_topology_address, usbioctl/PUSB_TOPOLOGY_ADDRESS, usbioctl/USB_TOPOLOGY_ADDRESS"
 f1_keywords:
  - "usbioctl/USB_TOPOLOGY_ADDRESS"
+ - "USB_TOPOLOGY_ADDRESS"
 req.header: usbioctl.h
 req.include-header: Usbioctl.h
 req.target-type: Windows

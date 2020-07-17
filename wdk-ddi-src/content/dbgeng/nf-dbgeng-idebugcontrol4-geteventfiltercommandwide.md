@@ -10,6 +10,7 @@ keywords: ["IDebugControl4::GetEventFilterCommandWide"]
 ms.keywords: GetEventFilterCommandWide, GetEventFilterCommandWide method [Windows Debugging], GetEventFilterCommandWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetEventFilterCommandWide method, IDebugControl4.GetEventFilterCommandWide, IDebugControl4::GetEventFilterCommandWide, dbgeng/IDebugControl4::GetEventFilterCommandWide, debugger.geteventfiltercommandwide
 f1_keywords:
  - "dbgeng/IDebugControl4.GetEventFilterCommandWide"
+ - "IDebugControl4.GetEventFilterCommandWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

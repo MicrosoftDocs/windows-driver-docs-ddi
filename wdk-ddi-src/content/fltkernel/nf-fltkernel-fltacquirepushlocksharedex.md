@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["FltAcquirePushLockSharedEx function"]
 f1_keywords:
  - "fltkernel/FltAcquirePushLockSharedEx"
+ - "FltAcquirePushLockSharedEx"
 ms.keywords: FltAcquirePushLockSharedEx
 req.header: fltkernel.h
 req.include-header:

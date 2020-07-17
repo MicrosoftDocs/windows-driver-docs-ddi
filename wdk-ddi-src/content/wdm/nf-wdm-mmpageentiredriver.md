@@ -10,6 +10,7 @@ keywords: ["MmPageEntireDriver function"]
 ms.keywords: MmPageEntireDriver, MmPageEntireDriver routine [Kernel-Mode Driver Architecture], k106_2e2de4d8-8b4f-4f8b-9451-f4f1ea8a5325.xml, kernel.mmpageentiredriver, wdm/MmPageEntireDriver
 f1_keywords:
  - "wdm/MmPageEntireDriver"
+ - "MmPageEntireDriver"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["ExtRemoteData::GetBoolean"]
 ms.keywords: EngExtCpp_Ref_791b0934-9cb7-430a-8b80-d7fe4f458f49.xml, ExtRemoteData class [Windows Debugging],GetBoolean method, ExtRemoteData.GetBoolean, ExtRemoteData::GetBoolean, GetBoolean, GetBoolean method [Windows Debugging], GetBoolean method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_getboolean
 f1_keywords:
  - "engextcpp/ExtRemoteData.GetBoolean"
+ - "ExtRemoteData.GetBoolean"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop

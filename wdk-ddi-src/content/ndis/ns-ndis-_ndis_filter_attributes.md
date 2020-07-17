@@ -10,6 +10,7 @@ keywords: ["_NDIS_FILTER_ATTRIBUTES structure"]
 ms.keywords: "*PNDIS_FILTER_ATTRIBUTES, NDIS_FILTER_ATTRIBUTES, NDIS_FILTER_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], PNDIS_FILTER_ATTRIBUTES, PNDIS_FILTER_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_FILTER_ATTRIBUTES, filter_structures_ref_8711cb33-bba0-41ba-912b-af351c7e758d.xml, ndis/NDIS_FILTER_ATTRIBUTES, ndis/PNDIS_FILTER_ATTRIBUTES, netvista.ndis_filter_attributes"
 f1_keywords:
  - "ndis/NDIS_FILTER_ATTRIBUTES"
+ - "NDIS_FILTER_ATTRIBUTES"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

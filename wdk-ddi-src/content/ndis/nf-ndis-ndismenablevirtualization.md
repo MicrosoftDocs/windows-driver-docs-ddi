@@ -10,6 +10,7 @@ keywords: ["NdisMEnableVirtualization function"]
 ms.keywords: NdisMEnableVirtualization, NdisMEnableVirtualization function [Network Drivers Starting with Windows Vista], ndis/NdisMEnableVirtualization, netvista.ndismenablevirtualization
 f1_keywords:
  - "ndis/NdisMEnableVirtualization"
+ - "NdisMEnableVirtualization"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

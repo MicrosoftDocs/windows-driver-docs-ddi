@@ -10,6 +10,7 @@ keywords: ["TRANSPORT_STATE structure"]
 ms.keywords: "*PTRANSPORT_STATE, PTRANSPORT_STATE, PTRANSPORT_STATE structure pointer [Streaming Media Devices], TRANSPORT_STATE, TRANSPORT_STATE structure [Streaming Media Devices], ksmedia/PTRANSPORT_STATE, ksmedia/TRANSPORT_STATE, stream.transport_state, vidcapstruct_5caaba9f-8a5c-4896-b181-c432a9678f58.xml"
 f1_keywords:
  - "ksmedia/TRANSPORT_STATE"
+ - "TRANSPORT_STATE"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

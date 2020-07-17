@@ -10,6 +10,7 @@ keywords: ["_WDF_POWER_DEVICE_STATE enumeration"]
 ms.keywords: "*PWDF_POWER_DEVICE_STATE, DFDeviceObjectGeneralRef_5a921767-81e1-4a80-b775-8f91819c6ea5.xml, PWDF_POWER_DEVICE_STATE, PWDF_POWER_DEVICE_STATE enumeration pointer, WDF_POWER_DEVICE_STATE, WDF_POWER_DEVICE_STATE enumeration, WdfPowerDeviceD0, WdfPowerDeviceD1, WdfPowerDeviceD2, WdfPowerDeviceD3, WdfPowerDeviceD3Final, WdfPowerDeviceInvalid, WdfPowerDeviceMaximum, WdfPowerDevicePrepareForHibernation, _WDF_POWER_DEVICE_STATE, kmdf.wdf_power_device_state, wdf.wdf_power_device_state, wdfdevice/PWDF_POWER_DEVICE_STATE, wdfdevice/WDF_POWER_DEVICE_STATE, wdfdevice/WdfPowerDeviceD0, wdfdevice/WdfPowerDeviceD1, wdfdevice/WdfPowerDeviceD2, wdfdevice/WdfPowerDeviceD3, wdfdevice/WdfPowerDeviceD3Final, wdfdevice/WdfPowerDeviceInvalid, wdfdevice/WdfPowerDeviceMaximum, wdfdevice/WdfPowerDevicePrepareForHibernation"
 f1_keywords:
  - "wdfdevice/WDF_POWER_DEVICE_STATE"
+ - "WDF_POWER_DEVICE_STATE"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Windows

@@ -33,6 +33,7 @@ api_name:
 f1_keywords:
  - dispmprt/_DXGKARG_DISPLAYSTATE_INTRUSIVE
  - dispmprt/DXGK_DISPLAYSTATE_INTRUSIVE
+ - ""
 dev_langs:
  - c++
 ---

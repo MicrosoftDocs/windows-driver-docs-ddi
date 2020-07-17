@@ -10,6 +10,7 @@ keywords: ["VideoPortInterlockedDecrement function"]
 ms.keywords: VideoPortInterlockedDecrement, VideoPortInterlockedDecrement function [Display Devices], VideoPort_Functions_907ed72b-de68-432d-a9e4-b7c072628f9a.xml, display.videoportinterlockeddecrement, video/VideoPortInterlockedDecrement
 f1_keywords:
  - "video/VideoPortInterlockedDecrement"
+ - "VideoPortInterlockedDecrement"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

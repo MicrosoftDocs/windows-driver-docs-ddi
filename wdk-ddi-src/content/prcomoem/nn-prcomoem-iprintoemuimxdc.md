@@ -10,6 +10,7 @@ keywords: ["IPrintOemUIMXDC interface"]
 ms.keywords: IPrintOemUIMXDC, IPrintOemUIMXDC interface [Print Devices], IPrintOemUIMXDC interface [Print Devices],described, prcomoem/IPrintOemUIMXDC, print.iprintoemuimxdc_interface, print_unidrv-pscript_ui_120354fc-1e37-41c9-b273-c28fde18079f.xml
 f1_keywords:
  - "prcomoem/IPrintOemUIMXDC"
+ - "IPrintOemUIMXDC"
 req.header: prcomoem.h
 req.include-header: 
 req.target-type: Windows

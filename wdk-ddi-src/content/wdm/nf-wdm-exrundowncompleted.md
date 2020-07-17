@@ -10,6 +10,7 @@ keywords: ["ExRundownCompleted function"]
 ms.keywords: ExRundownCompleted, ExRundownCompleted routine [Kernel-Mode Driver Architecture], kernel.exrundowncompleted, wdm/ExRundownCompleted
 f1_keywords:
  - "wdm/ExRundownCompleted"
+ - "ExRundownCompleted"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Universal

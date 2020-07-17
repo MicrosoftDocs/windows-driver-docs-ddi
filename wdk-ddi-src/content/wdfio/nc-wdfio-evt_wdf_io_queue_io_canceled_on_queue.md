@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_IO_QUEUE_IO_CANCELED_ON_QUEUE callback function"]
 ms.keywords: DFQueueObjectRef_24cf727b-3673-44a1-94a2-5308aa195827.xml, EVT_WDF_IO_QUEUE_IO_CANCELED_ON_QUEUE, EVT_WDF_IO_QUEUE_IO_CANCELED_ON_QUEUE callback, EvtIoCanceledOnQueue, EvtIoCanceledOnQueue callback function, kmdf.evtiocanceledonqueue, wdf.evtiocanceledonqueue, wdfio/EvtIoCanceledOnQueue
 f1_keywords:
  - "wdfio/EvtIoCanceledOnQueue"
+ - "EvtIoCanceledOnQueue"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal

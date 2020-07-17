@@ -10,6 +10,7 @@ keywords: ["DxgkInitialize function"]
 ms.keywords: DpFunctions_a3ffc7d5-f2bc-42f0-97f3-411bfe7b95e7.xml, DxgkInitialize, DxgkInitialize function [Display Devices], display.dxgkinitialize, dispmprt/DxgkInitialize
 f1_keywords:
  - "dispmprt/DxgkInitialize"
+ - "DxgkInitialize"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["ClfsAdvanceLogBase function"]
 ms.keywords: ClfsAdvanceLogBase, ClfsAdvanceLogBase routine [Kernel-Mode Driver Architecture], Clfs_d8f1a522-ef50-47fe-bd39-f18f2f176a3b.xml, kernel.clfsadvancelogbase, wdm/ClfsAdvanceLogBase
 f1_keywords:
  - "wdm/ClfsAdvanceLogBase"
+ - "ClfsAdvanceLogBase"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop

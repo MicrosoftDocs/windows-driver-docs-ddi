@@ -10,6 +10,7 @@ ms.date: 11/07/2019
 keywords: ["EVT_NET_ADAPTER_OFFLOAD_SET_RSC callback function"]
 f1_keywords:
  - "netadapteroffload/EVT_NET_ADAPTER_OFFLOAD_SET_RSC"
+ - "EVT_NET_ADAPTER_OFFLOAD_SET_RSC"
 req.header: netadapteroffload.h
 req.include-header:
 req.target-type: Universal

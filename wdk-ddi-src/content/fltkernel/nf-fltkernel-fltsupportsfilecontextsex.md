@@ -10,6 +10,7 @@ keywords: ["FltSupportsFileContextsEx function"]
 ms.keywords: FltApiRef_p_to_z_3e8b5485-5c61-4405-9c5d-7d7c966f0478.xml, FltSupportsFileContextsEx, FltSupportsFileContextsEx routine [Installable File System Drivers], fltkernel/FltSupportsFileContextsEx, ifsk.fltsupportsfilecontextsex
 f1_keywords:
  - "fltkernel/FltSupportsFileContextsEx"
+ - "FltSupportsFileContextsEx"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

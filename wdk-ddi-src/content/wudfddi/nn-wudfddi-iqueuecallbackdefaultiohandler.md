@@ -10,6 +10,7 @@ keywords: ["IQueueCallbackDefaultIoHandler interface"]
 ms.keywords: IQueueCallbackDefaultIoHandler, IQueueCallbackDefaultIoHandler interface, IQueueCallbackDefaultIoHandler interface,described, UMDFQueueObjectRef_31f05689-d38c-444b-b930-9c6c5136c60d.xml, umdf.iqueuecallbackdefaultiohandler, wdf.iqueuecallbackdefaultiohandler, wudfddi/IQueueCallbackDefaultIoHandler
 f1_keywords:
  - "wudfddi/IQueueCallbackDefaultIoHandler"
+ - "IQueueCallbackDefaultIoHandler"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Windows

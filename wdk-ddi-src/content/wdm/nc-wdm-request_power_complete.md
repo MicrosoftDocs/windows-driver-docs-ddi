@@ -10,6 +10,7 @@ keywords: ["REQUEST_POWER_COMPLETE callback function"]
 ms.keywords: PowerCompletion, PowerCompletion routine [Kernel-Mode Driver Architecture], REQUEST_POWER_COMPLETE, kernel.powercompletion, wdm/PowerCompletion
 f1_keywords:
  - "wdm/PowerCompletion"
+ - "PowerCompletion"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["IAsyncGetSrvReferralCookie interface"]
 ms.keywords: IAsyncGetSrvReferralCookie, IAsyncGetSrvReferralCookie interface [Print Devices], IAsyncGetSrvReferralCookie interface [Print Devices],described, print.iasyncgetsrvreferralcookie, prnasntp/IAsyncGetSrvReferralCookie
 f1_keywords:
  - "prnasntp/IAsyncGetSrvReferralCookie"
+ - "IAsyncGetSrvReferralCookie"
 req.header: prnasntp.h
 req.include-header: 
 req.target-type: Windows

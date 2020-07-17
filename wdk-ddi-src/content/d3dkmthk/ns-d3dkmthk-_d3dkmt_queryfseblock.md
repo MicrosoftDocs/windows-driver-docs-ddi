@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_QUERYFSEBLOCK structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_QUERYFSEBLOCK"
+ - "_D3DKMT_QUERYFSEBLOCK"
 ms.keywords: _D3DKMT_QUERYFSEBLOCK, D3DKMT_QUERYFSEBLOCK, 
 req.header: d3dkmthk.h
 req.include-header:

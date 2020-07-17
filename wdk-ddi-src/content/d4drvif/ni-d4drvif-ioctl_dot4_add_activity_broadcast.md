@@ -10,6 +10,7 @@ keywords: ["IOCTL_DOT4_ADD_ACTIVITY_BROADCAST IOCTL"]
 ms.keywords: IOCTL_DOT4_ADD_ACTIVITY_BROADCAST, IOCTL_DOT4_ADD_ACTIVITY_BROADCAST control, IOCTL_DOT4_ADD_ACTIVITY_BROADCAST control code [Print Devices], d4drvif/IOCTL_DOT4_ADD_ACTIVITY_BROADCAST, print.ioctl_ioctl_dot4_add_activity_broadcast
 f1_keywords:
  - "d4drvif/IOCTL_DOT4_ADD_ACTIVITY_BROADCAST"
+ - "IOCTL_DOT4_ADD_ACTIVITY_BROADCAST"
 req.header: d4drvif.h
 req.include-header: 
 req.target-type: Windows

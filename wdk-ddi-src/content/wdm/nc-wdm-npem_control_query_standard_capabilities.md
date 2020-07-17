@@ -34,6 +34,7 @@ api_name:
  - NPEM_CONTROL_QUERY_STANDARD_CAPABILITIES
 f1_keywords:
  - wdm/NPEM_CONTROL_QUERY_STANDARD_CAPABILITIES
+ - ""
 dev_langs:
  - c++
 ---

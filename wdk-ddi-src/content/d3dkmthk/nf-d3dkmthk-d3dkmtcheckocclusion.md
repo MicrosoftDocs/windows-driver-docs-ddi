@@ -9,6 +9,7 @@ keywords: ["D3DKMTCheckOcclusion function"]
 ms.keywords: D3DKMTCheckOcclusion, D3DKMTCheckOcclusion callback function [Display Devices], OpenGL_Functions_a73b8485-971d-47a7-bc42-77bd709c5a74.xml, PFND3DKMT_CHECKOCCLUSION, PFND3DKMT_CHECKOCCLUSION callback, d3dkmthk/D3DKMTCheckOcclusion, display.d3dkmtcheckocclusion
 f1_keywords:
  - "d3dkmthk/D3DKMTCheckOcclusion"
+ - "D3DKMTCheckOcclusion"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

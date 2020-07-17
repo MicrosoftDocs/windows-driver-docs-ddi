@@ -10,6 +10,7 @@ keywords: ["OEMStrokePath function"]
 ms.keywords: OEMStrokePath, OEMStrokePath function [Print Devices], print.oemstrokepath, print_unidrv-pscript_rendering_8bc38d91-34ed-4225-baf1-6ca18026b7d0.xml, printoem/OEMStrokePath
 f1_keywords:
  - "printoem/OEMStrokePath"
+ - "OEMStrokePath"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows

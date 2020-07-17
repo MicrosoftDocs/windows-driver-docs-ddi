@@ -10,6 +10,7 @@ keywords: ["IsReparseTagValid macro"]
 ms.keywords: IsReparseTagValid, IsReparseTagValid macro [Installable File System Drivers], ifsk.isreparsetagvalid, ioref_72128993-53a1-4e3e-a0e2-12378862ff25.xml, ntifs/IsReparseTagValid
 f1_keywords:
  - "ntifs/IsReparseTagValid"
+ - "IsReparseTagValid"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

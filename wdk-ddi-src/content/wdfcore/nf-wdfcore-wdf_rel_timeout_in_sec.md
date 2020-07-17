@@ -10,6 +10,7 @@ keywords: ["WDF_REL_TIMEOUT_IN_SEC function"]
 ms.keywords: DFTimerObjectRef_2c5d8c96-3c4d-484d-9d60-656c4c4a7cc5.xml, WDF_REL_TIMEOUT_IN_SEC, WDF_REL_TIMEOUT_IN_SEC function, kmdf.wdf_rel_timeout_in_sec, wdf.wdf_rel_timeout_in_sec, wdfcore/WDF_REL_TIMEOUT_IN_SEC
 f1_keywords:
  - "wdfcore/WDF_REL_TIMEOUT_IN_SEC"
+ - "WDF_REL_TIMEOUT_IN_SEC"
 req.header: wdfcore.h
 req.include-header: Wdf.h
 req.target-type: Universal

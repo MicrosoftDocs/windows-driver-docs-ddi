@@ -9,6 +9,7 @@ keywords: ["PDXGK_POWER_NOTIFICATION callback"]
 ms.keywords: "*PDXGK_POWER_NOTIFICATION, *PDXGK_POWER_NOTIFICATION callback function [Display Devices], d3dkmthk/*PDXGK_POWER_NOTIFICATION, display.pdxgk_power_notification"
 f1_keywords:
  - "d3dkmthk/*PDXGK_POWER_NOTIFICATION"
+ - "*PDXGK_POWER_NOTIFICATION"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type: Windows

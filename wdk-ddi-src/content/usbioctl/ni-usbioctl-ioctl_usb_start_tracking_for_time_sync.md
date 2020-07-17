@@ -10,6 +10,7 @@ keywords: ["IOCTL_USB_START_TRACKING_FOR_TIME_SYNC IOCTL"]
 ms.keywords: IOCTL_USB_START_TRACKING_FOR_TIME_SYNC, IOCTL_USB_START_TRACKING_FOR_TIME_SYNC control, IOCTL_USB_START_TRACKING_FOR_TIME_SYNC control code [Buses], buses.ioctl_usb_start_tracking_for_time_sync, usbioctl/IOCTL_USB_START_TRACKING_FOR_TIME_SYNC
 f1_keywords:
  - "usbioctl/IOCTL_USB_START_TRACKING_FOR_TIME_SYNC"
+ - "IOCTL_USB_START_TRACKING_FOR_TIME_SYNC"
 req.header: usbioctl.h
 req.include-header: 
 req.target-type: Windows

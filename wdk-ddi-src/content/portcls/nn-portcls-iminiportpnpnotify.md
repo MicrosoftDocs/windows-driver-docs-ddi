@@ -10,6 +10,7 @@ keywords: ["IMiniportPnpNotify interface"]
 ms.keywords: IMiniportPnpNotify, IMiniportPnpNotify interface [Audio Devices], IMiniportPnpNotify interface [Audio Devices], described, audio.iminiportpnpnotify, portcls/IMiniportPnpNotify
 f1_keywords:
  - "portcls/IMiniportPnpNotify"
+ - "IMiniportPnpNotify"
 req.header: portcls.h
 req.include-header:
 req.target-type: Windows

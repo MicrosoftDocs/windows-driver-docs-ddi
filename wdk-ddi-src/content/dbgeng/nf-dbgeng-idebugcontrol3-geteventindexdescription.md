@@ -10,6 +10,7 @@ keywords: ["IDebugControl3::GetEventIndexDescription"]
 ms.keywords: GetEventIndexDescription, GetEventIndexDescription method [Windows Debugging], GetEventIndexDescription method [Windows Debugging],IDebugControl3 interface, IDebugControl3 interface [Windows Debugging],GetEventIndexDescription method, IDebugControl3.GetEventIndexDescription, IDebugControl3::GetEventIndexDescription, IDebugControl_53afcbab-2b43-4b99-9b87-050fce6d495b.xml, dbgeng/IDebugControl3::GetEventIndexDescription, debugger.geteventindexdescription
 f1_keywords:
  - "dbgeng/IDebugControl3.GetEventIndexDescription"
+ - "IDebugControl3.GetEventIndexDescription"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

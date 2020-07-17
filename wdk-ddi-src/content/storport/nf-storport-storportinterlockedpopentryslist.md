@@ -10,6 +10,7 @@ keywords: ["StorPortInterlockedPopEntrySList function"]
 ms.keywords: StorPortInterlockedPopEntrySList, StorPortInterlockedPopEntrySList routine [Storage Devices], storage.storportinterlockedpopentryslist, storport/StorPortInterlockedPopEntrySList
 f1_keywords:
  - "storport/StorPortInterlockedPopEntrySList"
+ - "StorPortInterlockedPopEntrySList"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

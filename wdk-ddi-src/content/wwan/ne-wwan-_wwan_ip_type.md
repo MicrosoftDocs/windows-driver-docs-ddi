@@ -10,6 +10,7 @@ keywords: ["_WWAN_IP_TYPE enumeration"]
 ms.keywords: "*PWWAN_IP_TYPE, WWAN_IP_TYPE, WWAN_IP_TYPE enumeration [Network Drivers Starting with Windows Vista], WwanIPTypeDefault, WwanIPTypeIPv4, WwanIPTypeIPv6, WwanIPTypeIpv4v6, _WWAN_IP_TYPE, netvista.wwan_ip_type, wwan/WWAN_IP_TYPE, wwan/WwanIPTypeDefault, wwan/WwanIPTypeIPv4, wwan/WwanIPTypeIPv6, wwan/WwanIPTypeIpv4v6"
 f1_keywords:
  - "wwan/WWAN_IP_TYPE"
+ - "WWAN_IP_TYPE"
 req.header: wwan.h
 req.include-header: 
 req.target-type: Windows

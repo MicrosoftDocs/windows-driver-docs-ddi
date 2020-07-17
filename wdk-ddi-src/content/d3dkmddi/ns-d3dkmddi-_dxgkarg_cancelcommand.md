@@ -9,6 +9,7 @@ keywords: ["_DXGKARG_CANCELCOMMAND structure"]
 ms.keywords: DXGKARG_CANCELCOMMAND, DXGKARG_CANCELCOMMAND structure [Display Devices], _DXGKARG_CANCELCOMMAND, d3dkmddi/DXGKARG_CANCELCOMMAND, display.dxgkarg_cancelcommand
 f1_keywords:
  - "d3dkmddi/DXGKARG_CANCELCOMMAND"
+ - "DXGKARG_CANCELCOMMAND"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["DxApi function"]
 ms.keywords: DxApi, DxApi function [Display Devices], ddfncs_b76158a1-30ff-4874-b527-a201c5a67fc5.xml, display.dxapi, dxapi/DxApi
 f1_keywords:
  - "dxapi/DxApi"
+ - "DxApi"
 req.header: dxapi.h
 req.include-header: Ddkmapi.h
 req.target-type: Desktop

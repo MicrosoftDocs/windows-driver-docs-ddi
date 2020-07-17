@@ -10,6 +10,7 @@ keywords: ["PPUT_SCATTER_GATHER_LIST callback function"]
 ms.keywords: PPUT_SCATTER_GATHER_LIST, PPUT_SCATTER_GATHER_LIST callback, PutScatterGatherList, PutScatterGatherList callback function [Kernel-Mode Driver Architecture], kdma_0f73e6d3-bf6c-4f2b-aff9-ae783b2130c5.xml, kernel.putscattergatherlist, ntddk/PutScatterGatherList
 f1_keywords:
  - "wdm/PutScatterGatherList"
+ - "PutScatterGatherList"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

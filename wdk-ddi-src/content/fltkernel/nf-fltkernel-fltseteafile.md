@@ -10,6 +10,7 @@ keywords: ["FltSetEaFile function"]
 ms.keywords: FltApiRef_p_to_z_7e886e7f-a5f4-4a87-9322-7818e31c84af.xml, FltSetEaFile, FltSetEaFile function [Installable File System Drivers], fltkernel/FltSetEaFile, ifsk.fltseteafile
 f1_keywords:
  - "fltkernel/FltSetEaFile"
+ - "FltSetEaFile"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DlGetDmaAdapter function"]
 f1_keywords:
  - "dispmprt/DlGetDmaAdapter"
+ - "DlGetDmaAdapter"
 ms.keywords: DlGetDmaAdapter
 req.header: dispmprt.h
 req.include-header:

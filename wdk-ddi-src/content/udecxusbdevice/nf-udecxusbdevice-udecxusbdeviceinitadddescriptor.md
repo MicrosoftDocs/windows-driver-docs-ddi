@@ -10,6 +10,7 @@ keywords: ["UdecxUsbDeviceInitAddDescriptor function"]
 ms.keywords: UdecxUsbDeviceInitAddDescriptor, UdecxUsbDeviceInitAddDescriptor function [Buses], buses.udecxusbdeviceinitadddescriptor, udecxusbdevice/UdecxUsbDeviceInitAddDescriptor
 f1_keywords:
  - "udecxusbdevice/UdecxUsbDeviceInitAddDescriptor"
+ - "UdecxUsbDeviceInitAddDescriptor"
 req.header: udecxusbdevice.h
 req.include-header: Udecx.h
 req.target-type: Windows

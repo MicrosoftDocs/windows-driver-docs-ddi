@@ -10,6 +10,7 @@ keywords: ["_NDIS_DEVICE_OBJECT_ATTRIBUTES structure"]
 ms.keywords: "*PNDIS_DEVICE_OBJECT_ATTRIBUTES, NDIS_DEVICE_OBJECT_ATTRIBUTES, NDIS_DEVICE_OBJECT_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], PNDIS_DEVICE_OBJECT_ATTRIBUTES, PNDIS_DEVICE_OBJECT_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_DEVICE_OBJECT_ATTRIBUTES, ndis/NDIS_DEVICE_OBJECT_ATTRIBUTES, ndis/PNDIS_DEVICE_OBJECT_ATTRIBUTES, ndis_devices_ref_85d7040d-1d34-42e4-ab6b-ef03ed95eeb9.xml, netvista.ndis_device_object_attributes"
 f1_keywords:
  - "ndis/NDIS_DEVICE_OBJECT_ATTRIBUTES"
+ - "NDIS_DEVICE_OBJECT_ATTRIBUTES"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

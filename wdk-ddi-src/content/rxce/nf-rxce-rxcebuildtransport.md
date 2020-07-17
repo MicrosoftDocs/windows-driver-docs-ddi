@@ -10,6 +10,7 @@ keywords: ["RxCeBuildTransport function"]
 ms.keywords: RxCeBuildTransport, RxCeBuildTransport function [Installable File System Drivers], ifsk.rxcebuildtransport, rxce/RxCeBuildTransport, rxref_8251916d-7a85-4e6d-8ca1-2deacf4a389a.xml
 f1_keywords:
  - "rxce/RxCeBuildTransport"
+ - "RxCeBuildTransport"
 req.header: rxce.h
 req.include-header: Rxce.h
 req.target-type: Desktop

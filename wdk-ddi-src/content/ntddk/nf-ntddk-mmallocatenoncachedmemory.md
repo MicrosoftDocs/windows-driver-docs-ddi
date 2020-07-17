@@ -10,6 +10,7 @@ keywords: ["MmAllocateNonCachedMemory function"]
 ms.keywords: MmAllocateNonCachedMemory, MmAllocateNonCachedMemory routine [Kernel-Mode Driver Architecture], k106_a52baa62-3e10-4158-98e5-5e4dce16ee6a.xml, kernel.mmallocatenoncachedmemory, ntddk/MmAllocateNonCachedMemory
 f1_keywords:
  - "ntddk/MmAllocateNonCachedMemory"
+ - "MmAllocateNonCachedMemory"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

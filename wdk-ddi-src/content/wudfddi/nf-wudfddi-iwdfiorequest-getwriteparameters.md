@@ -10,6 +10,7 @@ keywords: ["IWDFIoRequest::GetWriteParameters"]
 ms.keywords: GetWriteParameters, GetWriteParameters method, GetWriteParameters method,IWDFIoRequest interface, IWDFIoRequest interface,GetWriteParameters method, IWDFIoRequest.GetWriteParameters, IWDFIoRequest::GetWriteParameters, UMDFRequestObjectRef_1aa8b098-4652-435b-beb7-5b7be69fd5d0.xml, umdf.iwdfiorequest_getwriteparameters, wdf.iwdfiorequest_getwriteparameters, wudfddi/IWDFIoRequest::GetWriteParameters
 f1_keywords:
  - "wudfddi/IWDFIoRequest.GetWriteParameters"
+ - "IWDFIoRequest.GetWriteParameters"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

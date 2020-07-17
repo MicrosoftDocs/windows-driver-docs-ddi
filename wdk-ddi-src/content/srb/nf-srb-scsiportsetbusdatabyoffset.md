@@ -10,6 +10,7 @@ keywords: ["ScsiPortSetBusDataByOffset function"]
 ms.keywords: ScsiPortSetBusDataByOffset, ScsiPortSetBusDataByOffset routine [Storage Devices], scsiprt_83fdaa63-8e40-41e6-8f60-b9cc98c6eade.xml, srb/ScsiPortSetBusDataByOffset, storage.scsiportsetbusdatabyoffset
 f1_keywords:
  - "srb/ScsiPortSetBusDataByOffset"
+ - "ScsiPortSetBusDataByOffset"
 req.header: srb.h
 req.include-header: Miniport.h, Scsi.h
 req.target-type: Desktop

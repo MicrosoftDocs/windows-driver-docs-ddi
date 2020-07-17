@@ -8,6 +8,7 @@ ms.date: 09/30/2018
 keywords: ["_UCSI_GET_CABLE_PROPERTY_COMMAND structure"]
 f1_keywords:
  - "ucmucsispec/_UCSI_GET_CABLE_PROPERTY_COMMAND"
+ - "_UCSI_GET_CABLE_PROPERTY_COMMAND"
 ms.keywords: _UCSI_GET_CABLE_PROPERTY_COMMAND, UCSI_GET_CABLE_PROPERTY_COMMAND, *PUCSI_GET_CABLE_PROPERTY_COMMAND, 
 req.header: ucmucsispec.h
 req.include-header: UcmUcsiCx.h 

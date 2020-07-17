@@ -7,6 +7,7 @@ ms.date: 10/01/2018
 keywords: ["_ACPI_PLD_CONTAINER_BUFFER structure"]
 f1_keywords:
  - "acpitabl/_ACPI_PLD_CONTAINER_BUFFER"
+ - "_ACPI_PLD_CONTAINER_BUFFER"
 ms.keywords: _ACPI_PLD_CONTAINER_BUFFER, ACPI_PLD_CONTAINER_BUFFER, *PACPI_PLD_CONTAINER_BUFFER, 
 req.header: acpitabl.h
 req.include-header:

@@ -9,6 +9,7 @@ keywords: ["D3DKMTSetDeviceLostSupport function"]
 ms.keywords: D3DKMTSetDeviceLostSupport, D3DKMTSetDeviceLostSupport method [Display Devices], d3dkmthk/D3DKMTSetDeviceLostSupport, display.d3dkmtsetdevicelostsupport
 f1_keywords:
  - "d3dkmthk/D3DKMTSetDeviceLostSupport"
+ - "D3DKMTSetDeviceLostSupport"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type: Windows

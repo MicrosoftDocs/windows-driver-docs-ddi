@@ -10,6 +10,7 @@ keywords: ["IsListEmpty function"]
 ms.keywords: IsListEmpty, IsListEmpty routine [Kernel-Mode Driver Architecture], k109_26969818-30d0-4e01-965d-e0ee6891fdd5.xml, kernel.islistempty, wdm/IsListEmpty
 f1_keywords:
  - "wdm/IsListEmpty"
+ - "IsListEmpty"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Desktop

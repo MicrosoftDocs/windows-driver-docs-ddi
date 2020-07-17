@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["DXGKDDI_CONTROLDIAGNOSTICREPORTING callback function"]
 f1_keywords:
  - "dispmprt/DXGKDDI_CONTROLDIAGNOSTICREPORTING"
+ - "DXGKDDI_CONTROLDIAGNOSTICREPORTING"
 req.header: dispmprt.h
 req.include-header:
 req.target-type:

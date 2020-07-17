@@ -7,6 +7,7 @@ ms.date: 09/21/2018
 keywords: ["IDataModelConcept::AddRef"]
 f1_keywords:
  - "dbgmodel/IDataModelConcept.AddRef"
+ - "IDataModelConcept.AddRef"
 ms.keywords: IDataModelConcept::AddRef, AddRef, IDataModelConcept.AddRef, IDataModelConcept::AddRef, IDataModelConcept.AddRef
 req.header: dbgmodel.h
 req.include-header:

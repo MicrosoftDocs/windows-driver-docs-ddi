@@ -7,6 +7,7 @@ ms.date: 07/13/2018
 keywords: ["IDebugHostSymbol interface"]
 f1_keywords:
  - "dbgmodel/IDebugHostSymbol"
+ - "IDebugHostSymbol"
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

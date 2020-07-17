@@ -10,6 +10,7 @@ keywords: ["KsDefaultDeviceIoCompletion function"]
 ms.keywords: KsDefaultDeviceIoCompletion, KsDefaultDeviceIoCompletion function [Streaming Media Devices], ks/KsDefaultDeviceIoCompletion, ksfunc_ae9df7be-800d-4f4a-a8d9-f39e09653e98.xml, stream.ksdefaultdeviceiocompletion
 f1_keywords:
  - "ks/KsDefaultDeviceIoCompletion"
+ - "KsDefaultDeviceIoCompletion"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

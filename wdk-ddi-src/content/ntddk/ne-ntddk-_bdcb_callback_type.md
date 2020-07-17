@@ -10,6 +10,7 @@ keywords: ["_BDCB_CALLBACK_TYPE enumeration"]
 ms.keywords: "*PBDCB_CALLBACK_TYPE, BDCB_CALLBACK_TYPE, BDCB_CALLBACK_TYPE enumeration [Kernel-Mode Driver Architecture], BdCbInitializeImage, BdCbStatusUpdate, _BDCB_CALLBACK_TYPE, kernel.bdcb_callback_type, ntddk/BDCB_CALLBACK_TYPE, ntddk/BdCbInitializeImage, ntddk/BdCbStatusUpdate"
 f1_keywords:
  - "ntddk/BDCB_CALLBACK_TYPE"
+ - "BDCB_CALLBACK_TYPE"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows

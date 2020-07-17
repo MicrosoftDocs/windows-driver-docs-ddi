@@ -10,6 +10,7 @@ keywords: ["StorPortGetLogicalUnit function"]
 ms.keywords: StorPortGetLogicalUnit, StorPortGetLogicalUnit routine [Storage Devices], storage.storportgetlogicalunit, storport/StorPortGetLogicalUnit, storprt_065c9617-06c6-4795-9743-14cd5803d9f9.xml
 f1_keywords:
  - "storport/StorPortGetLogicalUnit"
+ - "StorPortGetLogicalUnit"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

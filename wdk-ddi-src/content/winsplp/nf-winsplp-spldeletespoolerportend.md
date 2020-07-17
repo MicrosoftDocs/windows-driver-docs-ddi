@@ -10,6 +10,7 @@ keywords: ["SplDeleteSpoolerPortEnd function"]
 ms.keywords: SplDeleteSpoolerPortEnd, SplDeleteSpoolerPortEnd function [Print Devices], print.spldeletespoolerportend, winsplp/SplDeleteSpoolerPortEnd
 f1_keywords:
  - "winsplp/SplDeleteSpoolerPortEnd"
+ - "SplDeleteSpoolerPortEnd"
 req.header: winsplp.h
 req.include-header: 
 req.target-type: Windows

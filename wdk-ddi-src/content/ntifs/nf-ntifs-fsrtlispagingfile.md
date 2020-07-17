@@ -10,6 +10,7 @@ keywords: ["FsRtlIsPagingFile function"]
 ms.keywords: FsRtlIsPagingFile, FsRtlIsPagingFile routine [Installable File System Drivers], fsrtlref_80254cb1-bb65-4b1b-8fe4-c975b0f00c63.xml, ifsk.fsrtlispagingfile, ntifs/FsRtlIsPagingFile
 f1_keywords:
  - "ntifs/FsRtlIsPagingFile"
+ - "FsRtlIsPagingFile"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

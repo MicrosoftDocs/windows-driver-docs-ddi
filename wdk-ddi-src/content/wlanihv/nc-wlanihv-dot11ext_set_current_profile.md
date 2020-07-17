@@ -10,6 +10,7 @@ keywords: ["DOT11EXT_SET_CURRENT_PROFILE callback"]
 ms.keywords: DOT11EXT_SET_CURRENT_PROFILE, Dot11ExtSetCurrentProfile, Dot11ExtSetCurrentProfile callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_0a4afb35-a806-47f0-8f52-76c88ba5ffac.xml, netvista.dot11extsetcurrentprofile, wlanihv/Dot11ExtSetCurrentProfile
 f1_keywords:
  - "wlanihv/Dot11ExtSetCurrentProfile"
+ - "Dot11ExtSetCurrentProfile"
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Desktop

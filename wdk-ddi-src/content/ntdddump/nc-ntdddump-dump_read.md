@@ -10,6 +10,7 @@ keywords: ["DUMP_READ callback function"]
 ms.keywords: Dump_Read, Dump_Read routine [Storage Devices], PDUMP_READ, ntdddump/Dump_Read, storage.dump_read
 f1_keywords:
  - "ntdddump/Dump_Read"
+ - "Dump_Read"
 req.header: ntdddump.h
 req.include-header: Ntdddump.h
 req.target-type: Desktop

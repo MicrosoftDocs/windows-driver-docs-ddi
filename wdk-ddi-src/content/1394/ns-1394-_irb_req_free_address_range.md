@@ -10,6 +10,7 @@ keywords: ["_IRB_REQ_FREE_ADDRESS_RANGE structure"]
 ms.keywords: 1394/IRB_REQ_FREE_ADDRESS_RANGE, IEEE.irb_req_free_address_range, IRB_REQ_FREE_ADDRESS_RANGE, IRB_REQ_FREE_ADDRESS_RANGE structure [Buses], _IRB_REQ_FREE_ADDRESS_RANGE
 f1_keywords:
  - "1394/IRB_REQ_FREE_ADDRESS_RANGE"
+ - "IRB_REQ_FREE_ADDRESS_RANGE"
 req.header: 1394.h
 req.include-header: 
 req.target-type: Windows

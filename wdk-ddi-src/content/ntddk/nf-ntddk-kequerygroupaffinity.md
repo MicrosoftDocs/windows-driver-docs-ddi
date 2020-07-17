@@ -10,6 +10,7 @@ keywords: ["KeQueryGroupAffinity function"]
 ms.keywords: KeQueryGroupAffinity, KeQueryGroupAffinity routine [Kernel-Mode Driver Architecture], k105_9116eade-e2ed-47f4-a204-c21d456371b0.xml, kernel.kequerygroupaffinity, wdm/KeQueryGroupAffinity
 f1_keywords:
  - "ntddk/KeQueryGroupAffinity"
+ - "KeQueryGroupAffinity"
 req.header: ntddk.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

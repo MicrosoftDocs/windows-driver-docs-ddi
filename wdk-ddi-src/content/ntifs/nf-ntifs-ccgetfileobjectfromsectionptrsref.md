@@ -10,6 +10,7 @@ keywords: ["CcGetFileObjectFromSectionPtrsRef function"]
 ms.keywords: CcGetFileObjectFromSectionPtrsRef, CcGetFileObjectFromSectionPtrsRef routine [Installable File System Drivers], ccref_e38ddec7-5501-40b4-a2a3-0a13c1c0fb4d.xml, ifsk.ccgetfileobjectfromsectionptrsref, ntifs/CcGetFileObjectFromSectionPtrsRef
 f1_keywords:
  - "ntifs/CcGetFileObjectFromSectionPtrsRef"
+ - "CcGetFileObjectFromSectionPtrsRef"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Universal

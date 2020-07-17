@@ -9,6 +9,7 @@ keywords: ["D3DKMTSetAllocationPriority function"]
 ms.keywords: D3DKMTSetAllocationPriority, D3DKMTSetAllocationPriority function [Display Devices], OpenGL_Functions_dc77467a-7ec3-4be9-96cd-8bedb5beb948.xml, d3dkmthk/D3DKMTSetAllocationPriority, display.d3dkmtsetallocationpriority
 f1_keywords:
  - "d3dkmthk/D3DKMTSetAllocationPriority"
+ - "D3DKMTSetAllocationPriority"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

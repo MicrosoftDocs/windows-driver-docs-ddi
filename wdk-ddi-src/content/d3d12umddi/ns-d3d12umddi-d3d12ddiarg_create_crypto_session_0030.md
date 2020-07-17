@@ -9,6 +9,7 @@ keywords: ["D3D12DDIARG_CREATE_CRYPTO_SESSION_0030 structure"]
 ms.keywords: D3D12DDIARG_CREATE_CRYPTO_SESSION_0030, D3D12DDIARG_CREATE_CRYPTO_SESSION_0030 structure [Display Devices], d3d12umddi/D3D12DDIARG_CREATE_CRYPTO_SESSION_0030, display.d3d12ddiarg-create-crypto-session-0030
 f1_keywords:
  - "d3d12umddi/D3D12DDIARG_CREATE_CRYPTO_SESSION_0030"
+ - "D3D12DDIARG_CREATE_CRYPTO_SESSION_0030"
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: Windows

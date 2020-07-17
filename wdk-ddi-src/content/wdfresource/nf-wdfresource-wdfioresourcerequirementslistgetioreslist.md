@@ -10,6 +10,7 @@ keywords: ["WdfIoResourceRequirementsListGetIoResList function"]
 ms.keywords: DFResourceObjectRef_a90ce2a4-5690-49c8-ac63-6ccf89f4e5f3.xml, WdfIoResourceRequirementsListGetIoResList, WdfIoResourceRequirementsListGetIoResList method, kmdf.wdfioresourcerequirementslistgetioreslist, wdf.wdfioresourcerequirementslistgetioreslist, wdfresource/WdfIoResourceRequirementsListGetIoResList
 f1_keywords:
  - "wdfresource/WdfIoResourceRequirementsListGetIoResList"
+ - "WdfIoResourceRequirementsListGetIoResList"
 req.header: wdfresource.h
 req.include-header: Wdf.h
 req.target-type: Universal

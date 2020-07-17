@@ -9,6 +9,7 @@ keywords: ["_DXGKARG_UPDATEOVERLAY structure"]
 ms.keywords: DXGKARG_UPDATEOVERLAY, DXGKARG_UPDATEOVERLAY structure [Display Devices], DmStructs_4832993a-6e58-4951-a4ea-a954b8008a6e.xml, _DXGKARG_UPDATEOVERLAY, d3dkmddi/DXGKARG_UPDATEOVERLAY, display.dxgkarg_updateoverlay
 f1_keywords:
  - "d3dkmddi/DXGKARG_UPDATEOVERLAY"
+ - "DXGKARG_UPDATEOVERLAY"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

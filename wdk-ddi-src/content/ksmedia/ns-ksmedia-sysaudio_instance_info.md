@@ -10,6 +10,7 @@ keywords: ["SYSAUDIO_INSTANCE_INFO structure"]
 ms.keywords: "*PSYSAUDIO_INSTANCE_INFO, PSYSAUDIO_INSTANCE_INFO, PSYSAUDIO_INSTANCE_INFO structure pointer [Audio Devices], SYSAUDIO_INSTANCE_INFO, SYSAUDIO_INSTANCE_INFO structure [Audio Devices], aud-prop_dd4269d6-0f6e-476a-a4d3-ea71f3b9a96a.xml, audio.sysaudio_instance_info, ksmedia/PSYSAUDIO_INSTANCE_INFO, ksmedia/SYSAUDIO_INSTANCE_INFO"
 f1_keywords:
  - "ksmedia/SYSAUDIO_INSTANCE_INFO"
+ - "SYSAUDIO_INSTANCE_INFO"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["PHW_INITIALIZE callback"]
 ms.keywords: "(*PHW_INITIALIZE), (*PHW_INITIALIZE) callback function [Storage Devices], ide_minikr_95bb126d-6d4c-4091-b2fa-6b891d587186.xml, srb/(*PHW_INITIALIZE), storage.phw_initialize"
 f1_keywords:
  - "srb/(*PHW_INITIALIZE)"
+ - "(*PHW_INITIALIZE)"
 req.header: srb.h
 req.include-header: Storport.h, Srb.h, Storport.h
 req.target-type: Desktop

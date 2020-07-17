@@ -10,6 +10,7 @@ keywords: ["SeSetSecurityDescriptorInfo function"]
 ms.keywords: SeSetSecurityDescriptorInfo, SeSetSecurityDescriptorInfo routine [Installable File System Drivers], ifsk.sesetsecuritydescriptorinfo, ntifs/SeSetSecurityDescriptorInfo, seref_061b8609-a537-4ccb-aa60-50a46b08e97f.xml
 f1_keywords:
  - "ntifs/SeSetSecurityDescriptorInfo"
+ - "SeSetSecurityDescriptorInfo"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["ExtExtension::GetNumUnnamedArgs"]
 ms.keywords: EngExtCpp_Ref_8ca2186f-dcda-422a-948f-ead63f451ff2.xml, ExtExtension class [Windows Debugging],GetNumUnnamedArgs method, ExtExtension.GetNumUnnamedArgs, ExtExtension::GetNumUnnamedArgs, GetNumUnnamedArgs, GetNumUnnamedArgs method [Windows Debugging], GetNumUnnamedArgs method [Windows Debugging],ExtExtension class, debugger.getnumunnamedargs
 f1_keywords:
  - "engextcpp/ExtExtension.GetNumUnnamedArgs"
+ - "ExtExtension.GetNumUnnamedArgs"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop

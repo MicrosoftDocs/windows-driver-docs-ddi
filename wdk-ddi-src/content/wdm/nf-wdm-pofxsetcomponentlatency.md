@@ -10,6 +10,7 @@ keywords: ["PoFxSetComponentLatency function"]
 ms.keywords: PoFxSetComponentLatency, PoFxSetComponentLatency routine [Kernel-Mode Driver Architecture], kernel.pofxsetcomponentlatency, wdm/PoFxSetComponentLatency
 f1_keywords:
  - "wdm/PoFxSetComponentLatency"
+ - "PoFxSetComponentLatency"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal

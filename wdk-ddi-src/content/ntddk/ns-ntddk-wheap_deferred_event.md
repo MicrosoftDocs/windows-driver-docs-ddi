@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["WHEAP_DEFERRED_EVENT structure"]
 f1_keywords:
  - "ntddk/WHEAP_DEFERRED_EVENT"
+ - "WHEAP_DEFERRED_EVENT"
 ms.keywords: WHEAP_DEFERRED_EVENT, WHEAP_DEFERRED_EVENT, *PWHEAP_DEFERRED_EVENT, 
 req.header: ntddk.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["_IRB_REQ_GET_SPEED_TOPOLOGY_MAPS structure"]
 ms.keywords: 1394/IRB_REQ_GET_SPEED_TOPOLOGY_MAPS, IEEE.irb_req_get_speed_topology_maps, IRB_REQ_GET_SPEED_TOPOLOGY_MAPS, IRB_REQ_GET_SPEED_TOPOLOGY_MAPS structure [Buses], _IRB_REQ_GET_SPEED_TOPOLOGY_MAPS
 f1_keywords:
  - "1394/IRB_REQ_GET_SPEED_TOPOLOGY_MAPS"
+ - "IRB_REQ_GET_SPEED_TOPOLOGY_MAPS"
 req.header: 1394.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["_STOR_UNIT_ATTRIBUTES structure"]
 ms.keywords: "*PSTOR_UNIT_ATTRIBUTES, PSTOR_UNIT_ATTRIBUTES, PSTOR_UNIT_ATTRIBUTES structure pointer [Storage Devices], STOR_UNIT_ATTRIBUTES, STOR_UNIT_ATTRIBUTES structure [Storage Devices], _STOR_UNIT_ATTRIBUTES, storage.stor_unit_attributes, storport/PSTOR_UNIT_ATTRIBUTES, storport/STOR_UNIT_ATTRIBUTES"
 f1_keywords:
  - "storport/STOR_UNIT_ATTRIBUTES"
+ - "STOR_UNIT_ATTRIBUTES"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Windows

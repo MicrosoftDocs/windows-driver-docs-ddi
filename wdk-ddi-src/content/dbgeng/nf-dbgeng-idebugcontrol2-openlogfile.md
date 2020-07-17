@@ -10,6 +10,7 @@ keywords: ["IDebugControl2::OpenLogFile"]
 ms.keywords: IDebugControl interface [Windows Debugging],OpenLogFile method, IDebugControl2 interface [Windows Debugging],OpenLogFile method, IDebugControl2.OpenLogFile, IDebugControl2::OpenLogFile, IDebugControl3 interface [Windows Debugging],OpenLogFile method, IDebugControl3::OpenLogFile, IDebugControl::OpenLogFile, IDebugControl_984f684e-c1c0-4819-b8ac-02718581c6ad.xml, OpenLogFile, OpenLogFile method [Windows Debugging], OpenLogFile method [Windows Debugging],IDebugControl interface, OpenLogFile method [Windows Debugging],IDebugControl2 interface, OpenLogFile method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::OpenLogFile, dbgeng/IDebugControl3::OpenLogFile, dbgeng/IDebugControl::OpenLogFile, debugger.openlogfile
 f1_keywords:
  - "dbgeng/IDebugControl.OpenLogFile"
+ - "IDebugControl.OpenLogFile"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

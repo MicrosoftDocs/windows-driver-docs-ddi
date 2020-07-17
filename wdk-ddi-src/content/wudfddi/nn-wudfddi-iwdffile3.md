@@ -10,6 +10,7 @@ keywords: ["IWDFFile3 interface"]
 ms.keywords: IWDFFile3, IWDFFile3 interface, IWDFFile3 interface,described, umdf.iwdffile3, wdf.iwdffile3, wudfddi/IWDFFile3
 f1_keywords:
  - "wudfddi/IWDFFile3"
+ - "IWDFFile3"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop

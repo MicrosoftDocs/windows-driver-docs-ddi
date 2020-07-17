@@ -9,6 +9,7 @@ keywords: ["PDXGK_GRAPHICSPOWER_UNREGISTER callback function"]
 ms.keywords: PDXGK_GRAPHICSPOWER_UNREGISTER, PDXGK_GRAPHICSPOWER_UNREGISTER callback, PDXGK_GRAPHICSPOWER_UNREGISTER callback function [Display Devices], d3dkmthk/PDXGK_GRAPHICSPOWER_UNREGISTER, display.pdxgk_graphicspower_unregister
 f1_keywords:
  - "d3dkmthk/PDXGK_GRAPHICSPOWER_UNREGISTER"
+ - "PDXGK_GRAPHICSPOWER_UNREGISTER"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type: Windows

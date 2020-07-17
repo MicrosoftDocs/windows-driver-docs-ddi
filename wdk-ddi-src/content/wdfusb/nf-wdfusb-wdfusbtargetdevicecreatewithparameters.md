@@ -10,6 +10,7 @@ keywords: ["WdfUsbTargetDeviceCreateWithParameters function"]
 ms.keywords: WdfUsbTargetDeviceCreateWithParameters, WdfUsbTargetDeviceCreateWithParameters method, kmdf.wdfusbtargetdevicecreatewithconfig, kmdf.wdfusbtargetdevicecreatewithparameters, wdf.wdfusbtargetdevicecreatewithparameters, wdfusb/WdfUsbTargetDeviceCreateWithParameters
 f1_keywords:
  - "wdfusb/WdfUsbTargetDeviceCreateWithParameters"
+ - "WdfUsbTargetDeviceCreateWithParameters"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal

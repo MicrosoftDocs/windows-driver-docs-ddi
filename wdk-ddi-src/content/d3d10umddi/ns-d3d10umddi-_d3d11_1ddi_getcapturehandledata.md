@@ -9,6 +9,7 @@ keywords: ["_D3D11_1DDI_GETCAPTUREHANDLEDATA structure"]
 ms.keywords: D3D11_1DDI_GETCAPTUREHANDLEDATA, D3D11_1DDI_GETCAPTUREHANDLEDATA structure [Display Devices], _D3D11_1DDI_GETCAPTUREHANDLEDATA, d3d10umddi/D3D11_1DDI_GETCAPTUREHANDLEDATA, display.d3d11_1ddi_getcapturehandledata
 f1_keywords:
  - "d3d10umddi/D3D11_1DDI_GETCAPTUREHANDLEDATA"
+ - "D3D11_1DDI_GETCAPTUREHANDLEDATA"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

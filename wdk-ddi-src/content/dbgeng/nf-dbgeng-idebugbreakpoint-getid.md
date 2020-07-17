@@ -10,6 +10,7 @@ keywords: ["IDebugBreakpoint::GetId"]
 ms.keywords: ComOther_408e8e80-f34e-4895-9bae-66dbb0f9aa97.xml, GetId, GetId method [Windows Debugging], GetId method [Windows Debugging],IDebugBreakpoint interface, GetId method [Windows Debugging],IDebugBreakpoint2 interface, IDebugBreakpoint interface [Windows Debugging],GetId method, IDebugBreakpoint.GetId, IDebugBreakpoint2 interface [Windows Debugging],GetId method, IDebugBreakpoint2::GetId, IDebugBreakpoint::GetId, dbgeng/IDebugBreakpoint2::GetId, dbgeng/IDebugBreakpoint::GetId, debugger.getid
 f1_keywords:
  - "dbgeng/IDebugBreakpoint.GetId"
+ - "IDebugBreakpoint.GetId"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

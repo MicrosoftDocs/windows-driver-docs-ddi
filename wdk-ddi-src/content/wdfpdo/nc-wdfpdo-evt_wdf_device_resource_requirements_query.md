@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_DEVICE_RESOURCE_REQUIREMENTS_QUERY callback function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_7b6a59e4-0131-45fc-9a9b-f9e2c39660a6.xml, EVT_WDF_DEVICE_RESOURCE_REQUIREMENTS_QUERY, EVT_WDF_DEVICE_RESOURCE_REQUIREMENTS_QUERY callback, EvtDeviceResourceRequirementsQuery, EvtDeviceResourceRequirementsQuery callback function, kmdf.evtdeviceresourcerequirementsquery, wdf.evtdeviceresourcerequirementsquery, wdfpdo/EvtDeviceResourceRequirementsQuery
 f1_keywords:
  - "wdfpdo/EvtDeviceResourceRequirementsQuery"
+ - "EvtDeviceResourceRequirementsQuery"
 req.header: wdfpdo.h
 req.include-header: Wdf.h
 req.target-type: Universal

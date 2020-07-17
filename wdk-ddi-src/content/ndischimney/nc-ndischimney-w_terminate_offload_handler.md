@@ -10,6 +10,7 @@ keywords: ["W_TERMINATE_OFFLOAD_HANDLER callback function"]
 ms.keywords: MiniportTerminateOffload, MiniportTerminateOffload callback function [Network Drivers Starting with Windows Vista], W_TERMINATE_OFFLOAD_HANDLER, W_TERMINATE_OFFLOAD_HANDLER callback, ndischimney/MiniportTerminateOffload, netvista.miniportterminateoffload, tcp_chim_miniport_func_73171220-b803-4d9e-bf13-fe4daebbe5dc.xml
 f1_keywords:
  - "ndischimney/MiniportTerminateOffload"
+ - "MiniportTerminateOffload"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Windows

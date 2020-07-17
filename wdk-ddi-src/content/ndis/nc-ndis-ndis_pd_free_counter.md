@@ -10,6 +10,7 @@ keywords: ["NDIS_PD_FREE_COUNTER callback function"]
 ms.keywords: NDIS_PD_FREE_COUNTER, NDIS_PD_FREE_COUNTER callback, NdisPDFreeCounter, NdisPDFreeCounter callback function [Network Drivers Starting with Windows Vista], ndis/NdisPDFreeCounter, netvista.ndispdfreecounter
 f1_keywords:
  - "ndis/NdisPDFreeCounter"
+ - "NdisPDFreeCounter"
 req.header: ndis.h
 req.include-header: 
 req.target-type: Windows

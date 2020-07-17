@@ -10,6 +10,7 @@ keywords: ["IPortWavePci interface"]
 ms.keywords: IPortWavePci, IPortWavePci interface [Audio Devices], IPortWavePci interface [Audio Devices],described, audio.iportwavepci, audmp-routines_4948783a-44c9-42c3-ba67-c3c66a0a2951.xml, portcls/IPortWavePci
 f1_keywords:
  - "portcls/IPortWavePci"
+ - "IPortWavePci"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows

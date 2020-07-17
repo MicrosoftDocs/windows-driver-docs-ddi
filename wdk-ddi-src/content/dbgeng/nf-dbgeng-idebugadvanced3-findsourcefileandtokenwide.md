@@ -10,6 +10,7 @@ keywords: ["IDebugAdvanced3::FindSourceFileAndTokenWide"]
 ms.keywords: FindSourceFileAndTokenWide, FindSourceFileAndTokenWide method [Windows Debugging], FindSourceFileAndTokenWide method [Windows Debugging],IDebugAdvanced3 interface, IDebugAdvanced3 interface [Windows Debugging],FindSourceFileAndTokenWide method, IDebugAdvanced3.FindSourceFileAndTokenWide, IDebugAdvanced3::FindSourceFileAndTokenWide, dbgeng/IDebugAdvanced3::FindSourceFileAndTokenWide, debugger.findsourcefileandtokenwide
 f1_keywords:
  - "dbgeng/IDebugAdvanced3.FindSourceFileAndTokenWide"
+ - "IDebugAdvanced3.FindSourceFileAndTokenWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

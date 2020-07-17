@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["IOCTL_MINIPORT_SIGNATURE_CREATE_RESERVED_QUEUE_PAIR IOCTL"]
 f1_keywords:
  - "ntddscsi/IOCTL_MINIPORT_SIGNATURE_CREATE_RESERVED_QUEUE_PAIR"
+ - "IOCTL_MINIPORT_SIGNATURE_CREATE_RESERVED_QUEUE_PAIR"
 req.header: ntddscsi.h
 req.include-header:
 req.target-type:

@@ -10,6 +10,7 @@ keywords: ["EVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY callback function"]
 ms.keywords: EVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY, EVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY callback, EvtUcxControllerQueryUsbCapability, EvtUcxControllerQueryUsbCapability callback function [Buses], PEVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY, PEVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY callback function pointer [Buses], buses.evt_ucx_controller_query_usb_capability, ucxcontroller/EvtUcxControllerQueryUsbCapability
 f1_keywords:
  - "ucxcontroller/PEVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY"
+ - "PEVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY"
 req.header: ucxcontroller.h
 req.include-header: Ucxclass.h
 req.target-type: Windows

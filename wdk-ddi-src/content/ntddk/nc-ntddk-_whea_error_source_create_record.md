@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["_WHEA_ERROR_SOURCE_CREATE_RECORD callback function"]
 f1_keywords:
  - "ntddk/_WHEA_ERROR_SOURCE_CREATE_RECORD"
+ - "_WHEA_ERROR_SOURCE_CREATE_RECORD"
 req.header: ntddk.h
 req.include-header:
 req.target-type:

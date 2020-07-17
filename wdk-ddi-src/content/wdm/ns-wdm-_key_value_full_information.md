@@ -10,6 +10,7 @@ keywords: ["_KEY_VALUE_FULL_INFORMATION structure"]
 ms.keywords: "*PKEY_VALUE_FULL_INFORMATION, KEY_VALUE_FULL_INFORMATION, KEY_VALUE_FULL_INFORMATION structure [Kernel-Mode Driver Architecture], PKEY_VALUE_FULL_INFORMATION, PKEY_VALUE_FULL_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _KEY_VALUE_FULL_INFORMATION, kernel.key_value_full_information, kstruct_c_15c88f03-6342-40db-9f43-cb4087f24610.xml, wdm/KEY_VALUE_FULL_INFORMATION, wdm/PKEY_VALUE_FULL_INFORMATION"
 f1_keywords:
  - "wdm/KEY_VALUE_FULL_INFORMATION"
+ - "KEY_VALUE_FULL_INFORMATION"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows

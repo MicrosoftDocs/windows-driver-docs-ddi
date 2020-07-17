@@ -10,6 +10,7 @@ keywords: ["FltEnumerateFilterInformation function"]
 ms.keywords: FltApiRef_e_to_o_dc4c496f-b21e-4b92-93c6-7efbe25400a6.xml, FltEnumerateFilterInformation, FltEnumerateFilterInformation routine [Installable File System Drivers], fltkernel/FltEnumerateFilterInformation, ifsk.fltenumeratefilterinformation
 f1_keywords:
  - "fltkernel/FltEnumerateFilterInformation"
+ - "FltEnumerateFilterInformation"
 req.header: fltkernel.h
 req.include-header: FltKernel.h
 req.target-type: Universal

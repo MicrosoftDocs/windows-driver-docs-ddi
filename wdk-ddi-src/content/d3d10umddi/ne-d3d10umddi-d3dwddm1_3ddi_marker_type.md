@@ -9,6 +9,7 @@ keywords: ["D3DWDDM1_3DDI_MARKER_TYPE enumeration"]
 ms.keywords: D3DWDDM1_3DDI_MARKER_TYPE, D3DWDDM1_3DDI_MARKER_TYPE enumeration [Display Devices], D3DWDDM1_3DDI_MARKER_TYPE_NONE, D3DWDDM1_3DDI_MARKER_TYPE_PROFILE, d3d10umddi/D3DWDDM1_3DDI_MARKER_TYPE, d3d10umddi/D3DWDDM1_3DDI_MARKER_TYPE_NONE, d3d10umddi/D3DWDDM1_3DDI_MARKER_TYPE_PROFILE, display.d3dwddm1_3ddi_marker_type
 f1_keywords:
  - "d3d10umddi/D3DWDDM1_3DDI_MARKER_TYPE"
+ - "D3DWDDM1_3DDI_MARKER_TYPE"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

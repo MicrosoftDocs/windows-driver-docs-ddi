@@ -9,6 +9,7 @@ keywords: ["D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1 structure"]
 ms.keywords: D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1, D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1 structure [Display Devices], d3d10umddi/D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1, display.d3dwddm2_0ddi_video_decoder_buffer_desc1
 f1_keywords:
  - "d3d10umddi/D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1"
+ - "D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

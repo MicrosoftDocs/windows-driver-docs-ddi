@@ -10,6 +10,7 @@ keywords: ["DXGKDDI_OPM_GET_INFORMATION callback function"]
 ms.keywords: DXGKDDI_OPM_GET_INFORMATION, DXGKDDI_OPM_GET_INFORMATION callback, Dm_Opm_functions_6d4af4a5-4390-49f1-a557-735bf2c90ce6.xml, DxgkDdiOPMGetInformation, DxgkDdiOPMGetInformation callback function [Display Devices], display.dxgkddiopmgetinformation, dispmprt/DxgkDdiOPMGetInformation
 f1_keywords:
  - "dispmprt/DxgkDdiOPMGetInformation"
+ - "DxgkDdiOPMGetInformation"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop

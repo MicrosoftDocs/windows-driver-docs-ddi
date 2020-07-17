@@ -9,6 +9,7 @@ keywords: ["PFND3D10DDI_SETPREDICATION callback function"]
 ms.keywords: PFND3D10DDI_SETPREDICATION, PFND3D10DDI_SETPREDICATION callback, SetPredication, SetPredication callback function [Display Devices], UserModeDisplayDriverDx10_Functions_358db7d9-6533-4c37-b761-985c921f4957.xml, d3d10umddi/SetPredication, display.setpredication
 f1_keywords:
  - "d3d10umddi/SetPredication"
+ - "SetPredication"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

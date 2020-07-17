@@ -10,6 +10,7 @@ keywords: ["KsFilterFactoryGetFirstChildFilter function"]
 ms.keywords: KsFilterFactoryGetFirstChildFilter, KsFilterFactoryGetFirstChildFilter function [Streaming Media Devices], avfunc_1e512072-d270-48d9-8289-feaf8d2bcf35.xml, ks/KsFilterFactoryGetFirstChildFilter, stream.ksfilterfactorygetfirstchildfilter
 f1_keywords:
  - "ks/KsFilterFactoryGetFirstChildFilter"
+ - "KsFilterFactoryGetFirstChildFilter"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop

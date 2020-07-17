@@ -10,6 +10,7 @@ keywords: ["NDIS_WDI_TX_SEND_PAUSE_IND callback function"]
 ms.keywords: NDIS_WDI_TX_SEND_PAUSE_IND, NDIS_WDI_TX_SEND_PAUSE_IND callback, NdisWdiTxSendPauseIndication, NdisWdiTxSendPauseIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxSendPauseIndication, netvista.ndiswditxsendpauseindication
 f1_keywords:
  - "dot11wdi/NdisWdiTxSendPauseIndication"
+ - "NdisWdiTxSendPauseIndication"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows

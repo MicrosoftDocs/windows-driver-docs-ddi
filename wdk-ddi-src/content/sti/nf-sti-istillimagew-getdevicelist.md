@@ -10,6 +10,7 @@ keywords: ["IStillImageW::GetDeviceList"]
 ms.keywords: GetDeviceList, GetDeviceList method [Imaging Devices], GetDeviceList method [Imaging Devices],IStillImageW interface, IStillImageW interface [Imaging Devices],GetDeviceList method, IStillImageW.GetDeviceList, IStillImageW::GetDeviceList, image.istillimage_getdevicelist, sti/IStillImageW::GetDeviceList, stifnc_eb4712d7-33b5-40d3-87f9-6f5eef639039.xml
 f1_keywords:
  - "sti/IStillImageW.GetDeviceList"
+ - "IStillImageW.GetDeviceList"
 req.header: sti.h
 req.include-header: Sti.h
 req.target-type: Desktop

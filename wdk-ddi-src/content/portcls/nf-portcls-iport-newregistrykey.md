@@ -8,6 +8,7 @@ ms.date: 10/31/2018
 keywords: ["IPort::NewRegistryKey"]
 f1_keywords:
  - "portcls/IPort.NewRegistryKey"
+ - "IPort.NewRegistryKey"
 ms.keywords: IPort::NewRegistryKey, NewRegistryKey, IPort.NewRegistryKey, IPort::NewRegistryKey, IPort.NewRegistryKey
 req.header: portcls.h
 req.include-header:

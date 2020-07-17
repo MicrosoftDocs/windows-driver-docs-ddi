@@ -10,6 +10,7 @@ keywords: ["FsRtlRegisterUncProviderEx function"]
 ms.keywords: FsRtlRegisterUncProviderEx, FsRtlRegisterUncProviderEx routine [Installable File System Drivers], fsrtlref_ae033ff2-3d3a-468c-973d-d6a78a2293a2.xml, ifsk.fsrtlregisteruncproviderex, ntifs/FsRtlRegisterUncProviderEx
 f1_keywords:
  - "ntifs/FsRtlRegisterUncProviderEx"
+ - "FsRtlRegisterUncProviderEx"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["_IRB_REQ_ASYNC_LOCK structure"]
 ms.keywords: 1394/IRB_REQ_ASYNC_LOCK, IEEE.irb_req_async_lock, IRB_REQ_ASYNC_LOCK, IRB_REQ_ASYNC_LOCK structure [Buses], _IRB_REQ_ASYNC_LOCK
 f1_keywords:
  - "1394/IRB_REQ_ASYNC_LOCK"
+ - "IRB_REQ_ASYNC_LOCK"
 req.header: 1394.h
 req.include-header: 
 req.target-type: Windows

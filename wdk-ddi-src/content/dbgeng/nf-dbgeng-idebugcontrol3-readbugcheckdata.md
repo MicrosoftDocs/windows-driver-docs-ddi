@@ -10,6 +10,7 @@ keywords: ["IDebugControl3::ReadBugCheckData"]
 ms.keywords: IDebugControl interface [Windows Debugging],ReadBugCheckData method, IDebugControl2 interface [Windows Debugging],ReadBugCheckData method, IDebugControl2::ReadBugCheckData, IDebugControl3 interface [Windows Debugging],ReadBugCheckData method, IDebugControl3.ReadBugCheckData, IDebugControl3::ReadBugCheckData, IDebugControl::ReadBugCheckData, IDebugControl_d96bd559-1a82-4d5d-8aa8-7a32242f2b68.xml, ReadBugCheckData, ReadBugCheckData method [Windows Debugging], ReadBugCheckData method [Windows Debugging],IDebugControl interface, ReadBugCheckData method [Windows Debugging],IDebugControl2 interface, ReadBugCheckData method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::ReadBugCheckData, dbgeng/IDebugControl3::ReadBugCheckData, dbgeng/IDebugControl::ReadBugCheckData, debugger.readbugcheckdata
 f1_keywords:
  - "dbgeng/IDebugControl.ReadBugCheckData"
+ - "IDebugControl.ReadBugCheckData"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["RtlSetOwnerSecurityDescriptor function"]
 ms.keywords: RtlSetOwnerSecurityDescriptor, RtlSetOwnerSecurityDescriptor routine [Installable File System Drivers], ifsk.rtlsetownersecuritydescriptor, ntifs/RtlSetOwnerSecurityDescriptor, rtlref_c8ec0e44-dadc-42ad-9947-2ecb5ec4aa57.xml
 f1_keywords:
  - "ntifs/RtlSetOwnerSecurityDescriptor"
+ - "RtlSetOwnerSecurityDescriptor"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

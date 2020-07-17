@@ -10,6 +10,7 @@ keywords: ["KsUnregisterWorker function"]
 ms.keywords: KsUnregisterWorker, KsUnregisterWorker function [Streaming Media Devices], ks/KsUnregisterWorker, ksfunc_9b3f2185-8ab0-484d-91d7-3b822ce1c4aa.xml, stream.ksunregisterworker
 f1_keywords:
  - "ks/KsUnregisterWorker"
+ - "KsUnregisterWorker"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

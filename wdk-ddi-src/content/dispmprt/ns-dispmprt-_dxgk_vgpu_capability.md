@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["_DXGK_VGPU_CAPABILITY structure"]
 f1_keywords:
  - "dispmprt/_DXGK_VGPU_CAPABILITY"
+ - "_DXGK_VGPU_CAPABILITY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: _DXGK_VGPU_CAPABILITY, DXGK_VGPU_CAPABILITY, *PDXGK_VGPU_CAPABILITY, 

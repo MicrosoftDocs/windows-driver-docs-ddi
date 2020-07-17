@@ -10,6 +10,7 @@ keywords: ["GetCurrentProcessHandle function"]
 ms.keywords: GetCurrentProcessHandle, GetCurrentProcessHandle function [Windows Debugging], WdbgExts_Ref_50cc8e27-7f7e-4ec3-ad2d-745f38e87037.xml, debugger.getcurrentprocesshandle, wdbgexts/GetCurrentProcessHandle
 f1_keywords:
  - "wdbgexts/GetCurrentProcessHandle"
+ - "GetCurrentProcessHandle"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop

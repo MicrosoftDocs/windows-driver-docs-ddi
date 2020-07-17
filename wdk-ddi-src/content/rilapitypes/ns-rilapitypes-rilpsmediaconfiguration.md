@@ -10,6 +10,7 @@ keywords: ["RILPSMEDIACONFIGURATION structure"]
 ms.keywords: "*LPRILPSMEDIACONFIGURATION, RILPSMEDIACONFIGURATION, RILPSMEDIACONFIGURATION structure [Network Drivers Starting with Windows Vista], netvista.rilpsmediaconfiguration, ntddrilapitypes/RILPSMEDIACONFIGURATION"
 f1_keywords:
  - "rilapitypes/RILPSMEDIACONFIGURATION"
+ - "RILPSMEDIACONFIGURATION"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

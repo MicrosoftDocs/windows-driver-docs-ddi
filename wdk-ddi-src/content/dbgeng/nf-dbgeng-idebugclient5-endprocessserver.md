@@ -10,6 +10,7 @@ keywords: ["IDebugClient5::EndProcessServer"]
 ms.keywords: EndProcessServer, EndProcessServer method [Windows Debugging], EndProcessServer method [Windows Debugging],IDebugClient2 interface, EndProcessServer method [Windows Debugging],IDebugClient3 interface, EndProcessServer method [Windows Debugging],IDebugClient4 interface, EndProcessServer method [Windows Debugging],IDebugClient5 interface, IDebugClient2 interface [Windows Debugging],EndProcessServer method, IDebugClient2::EndProcessServer, IDebugClient3 interface [Windows Debugging],EndProcessServer method, IDebugClient3::EndProcessServer, IDebugClient4 interface [Windows Debugging],EndProcessServer method, IDebugClient4::EndProcessServer, IDebugClient5 interface [Windows Debugging],EndProcessServer method, IDebugClient5.EndProcessServer, IDebugClient5::EndProcessServer, IDebugClient_a24a3c82-f966-424c-a739-a775b45cb600.xml, dbgeng/IDebugClient2::EndProcessServer, dbgeng/IDebugClient3::EndProcessServer, dbgeng/IDebugClient4::EndProcessServer, dbgeng/IDebugClient5::EndProcessServer, debugger.endprocessserver
 f1_keywords:
  - "dbgeng/IDebugClient2.EndProcessServer"
+ - "IDebugClient2.EndProcessServer"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

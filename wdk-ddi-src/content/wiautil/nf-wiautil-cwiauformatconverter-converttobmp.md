@@ -10,6 +10,7 @@ keywords: ["CWiauFormatConverter::ConvertToBmp"]
 ms.keywords: CWiauFormatConverter interface [Imaging Devices],ConvertToBmp method, CWiauFormatConverter.ConvertToBmp, CWiauFormatConverter::ConvertToBmp, ConvertToBmp, ConvertToBmp method [Imaging Devices], ConvertToBmp method [Imaging Devices],CWiauFormatConverter interface, image.cwiauformatconverter_converttobmp, wiauFncs_2c929e01-3e1f-4a07-9f2f-f50775b39017.xml, wiautil/CWiauFormatConverter::ConvertToBmp
 f1_keywords:
  - "wiautil/CWiauFormatConverter.ConvertToBmp"
+ - "CWiauFormatConverter.ConvertToBmp"
 req.header: wiautil.h
 req.include-header: Wiautil.h, Wiamindr.h
 req.target-type: Desktop

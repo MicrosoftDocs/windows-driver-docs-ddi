@@ -10,6 +10,7 @@ keywords: ["StorPortEtwEvent8 function"]
 ms.keywords: STORPORT_ETW_EVENT_KEYWORD_ENUMERATION, STORPORT_ETW_EVENT_KEYWORD_IO, STORPORT_ETW_EVENT_KEYWORD_PERFORMANCE, STORPORT_ETW_EVENT_KEYWORD_POWER, StorPortEtwEvent8, StorPortEtwEvent8 routine [Storage Devices], StorportEtwEventOpcodeDC_Start, StorportEtwEventOpcodeDC_Stop, StorportEtwEventOpcodeExtension, StorportEtwEventOpcodeInfo, StorportEtwEventOpcodeReceive, StorportEtwEventOpcodeReply, StorportEtwEventOpcodeResume, StorportEtwEventOpcodeStart, StorportEtwEventOpcodeStop, StorportEtwEventOpcodeSuspend, StorportEtwLevelCritical, StorportEtwLevelError, StorportEtwLevelInformational, StorportEtwLevelLogAlways, StorportEtwLevelVerbose, StorportEtwLevelWarning, storage.storportetwevent8, storport/StorPortEtwEvent8
 f1_keywords:
  - "storport/StorPortEtwEvent8"
+ - "StorPortEtwEvent8"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

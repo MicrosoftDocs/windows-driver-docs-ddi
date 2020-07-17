@@ -10,6 +10,7 @@ keywords: ["_D3D12DDICB_RECLAIMALLOCATIONS2 structure"]
 ms.keywords: D3D12DDICB_RECLAIMALLOCATIONS2, D3D12DDICB_RECLAIMALLOCATIONS2 structure [Display Devices], _D3D12DDICB_RECLAIMALLOCATIONS2, d3dumddi/D3D12DDICB_RECLAIMALLOCATIONS2, display.d3d12ddicb_reclaimallocations2
 f1_keywords:
  - "d3dumddi/D3D12DDICB_RECLAIMALLOCATIONS2"
+ - "D3D12DDICB_RECLAIMALLOCATIONS2"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

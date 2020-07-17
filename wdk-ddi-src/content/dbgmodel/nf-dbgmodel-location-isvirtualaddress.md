@@ -7,6 +7,7 @@ ms.date: 09/28/2018
 keywords: ["IsVirtualAddress function"]
 f1_keywords:
  - "dbgmodel/IsVirtualAddress"
+ - "IsVirtualAddress"
 ms.keywords: IsVirtualAddress
 req.header: dbgmodel.h
 req.include-header:

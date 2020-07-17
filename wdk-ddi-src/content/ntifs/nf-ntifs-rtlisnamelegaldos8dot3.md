@@ -10,6 +10,7 @@ keywords: ["RtlIsNameLegalDOS8Dot3 function"]
 ms.keywords: RtlIsNameLegalDOS8Dot3, RtlIsNameLegalDOS8Dot3 routine [Installable File System Drivers], ifsk.rtlisnamelegaldos8dot3, ntifs/RtlIsNameLegalDOS8Dot3, rtlref_73bcf962-f0aa-4fa1-9e45-0a471a6b2c40.xml
 f1_keywords:
  - "ntifs/RtlIsNameLegalDOS8Dot3"
+ - "RtlIsNameLegalDOS8Dot3"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

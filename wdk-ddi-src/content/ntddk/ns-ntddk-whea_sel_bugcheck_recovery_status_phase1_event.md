@@ -32,6 +32,7 @@ api_name:
 f1_keywords:
  - ntddk/_WHEA_SEL_BUGCHECK_RECOVERY_STATUS_PHASE1_EVENT
  - ntddk/WHEA_SEL_BUGCHECK_RECOVERY_STATUS_PHASE1_EVENT
+ - ""
 dev_langs:
  - c++
 ---

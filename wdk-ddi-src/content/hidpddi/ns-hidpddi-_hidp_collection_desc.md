@@ -10,6 +10,7 @@ keywords: ["_HIDP_COLLECTION_DESC structure"]
 ms.keywords: "*PHIDP_COLLECTION_DESC, HIDP_COLLECTION_DESC, HIDP_COLLECTION_DESC structure [Human Input Devices], PHIDP_COLLECTION_DESC, PHIDP_COLLECTION_DESC structure pointer [Human Input Devices], _HIDP_COLLECTION_DESC, hid.hidp_collection_desc, hidpddi/HIDP_COLLECTION_DESC, hidpddi/PHIDP_COLLECTION_DESC"
 f1_keywords:
  - "hidpddi/HIDP_COLLECTION_DESC"
+ - "HIDP_COLLECTION_DESC"
 req.header: hidpddi.h
 req.include-header: Hidpddi.h
 req.target-type: Windows

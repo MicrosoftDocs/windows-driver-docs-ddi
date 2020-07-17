@@ -10,6 +10,7 @@ keywords: ["WdfIoTargetOpen function"]
 ms.keywords: DFIOTargetRef_72899f0c-58db-461c-b02c-5e99d5a0f875.xml, WdfIoTargetOpen, WdfIoTargetOpen method, kmdf.wdfiotargetopen, wdf.wdfiotargetopen, wdfiotarget/WdfIoTargetOpen
 f1_keywords:
  - "wdfiotarget/WdfIoTargetOpen"
+ - "WdfIoTargetOpen"
 req.header: wdfiotarget.h
 req.include-header: Wdf.h
 req.target-type: Universal

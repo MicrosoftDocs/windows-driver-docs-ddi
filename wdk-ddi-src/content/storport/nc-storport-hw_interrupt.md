@@ -10,6 +10,7 @@ keywords: ["HW_INTERRUPT callback function"]
 ms.keywords: HW_INTERRUPT, HwStorInterrupt, HwStorInterrupt routine [Storage Devices], storage.hwstorinterrupt, stormini_17f68641-1cfd-47b3-a52f-be98f96e693f.xml, storport/HwStorInterrupt
 f1_keywords:
  - "storport/HwStorInterrupt"
+ - "HwStorInterrupt"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

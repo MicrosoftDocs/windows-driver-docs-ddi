@@ -10,6 +10,7 @@ keywords: ["RILSENDFLASHPARAMS structure"]
 ms.keywords: "*LPRILSENDFLASHPARAMS, RILSENDFLASHPARAMS, RILSENDFLASHPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsendflashparams, ntddrilapitypes/RILSENDFLASHPARAMS"
 f1_keywords:
  - "ntddrilapitypes/RILSENDFLASHPARAMS"
+ - "RILSENDFLASHPARAMS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

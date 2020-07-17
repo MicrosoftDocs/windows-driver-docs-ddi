@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_FPGA_CONTROL_INTERFACE structure"]
 f1_keywords:
  - "wdm/_FPGA_CONTROL_INTERFACE"
+ - "_FPGA_CONTROL_INTERFACE"
 ms.keywords: _FPGA_CONTROL_INTERFACE, FPGA_CONTROL_INTERFACE, *PFPGA_CONTROL_INTERFACE, 
 req.header: wdm.h
 req.include-header:

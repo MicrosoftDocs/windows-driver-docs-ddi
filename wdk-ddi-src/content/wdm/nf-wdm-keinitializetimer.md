@@ -10,6 +10,7 @@ keywords: ["KeInitializeTimer function"]
 ms.keywords: KeInitializeTimer, KeInitializeTimer routine [Kernel-Mode Driver Architecture], k105_ce90de5c-7259-4863-adf1-fe90f288e791.xml, kernel.keinitializetimer, wdm/KeInitializeTimer
 f1_keywords:
  - "wdm/KeInitializeTimer"
+ - "KeInitializeTimer"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

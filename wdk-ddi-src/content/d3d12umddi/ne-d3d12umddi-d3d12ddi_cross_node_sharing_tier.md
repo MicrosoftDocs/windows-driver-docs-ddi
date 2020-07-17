@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3D12DDI_CROSS_NODE_SHARING_TIER enumeration"]
 f1_keywords:
  - "d3d12umddi/D3D12DDI_CROSS_NODE_SHARING_TIER"
+ - "D3D12DDI_CROSS_NODE_SHARING_TIER"
 ms.keywords: D3D12DDI_CROSS_NODE_SHARING_TIER, D3D12DDI_CROSS_NODE_SHARING_TIER,
 req.header: d3d12umddi.h
 req.include-header:

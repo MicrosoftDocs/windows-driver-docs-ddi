@@ -10,6 +10,7 @@ keywords: ["KSEVENT_VOLUMELIMIT enumeration"]
 ms.keywords: KSEVENT_VOLUMELIMIT, KSEVENT_VOLUMELIMIT enumeration [Streaming Media Devices], KSEVENT_VOLUMELIMIT_CHANGED, ks/KSEVENT_VOLUMELIMIT, ks/KSEVENT_VOLUMELIMIT_CHANGED, stream.ksevent_volumelimit
 f1_keywords:
  - "ks/KSEVENT_VOLUMELIMIT"
+ - "KSEVENT_VOLUMELIMIT"
 req.header: ks.h
 req.include-header: 
 req.target-type: Windows

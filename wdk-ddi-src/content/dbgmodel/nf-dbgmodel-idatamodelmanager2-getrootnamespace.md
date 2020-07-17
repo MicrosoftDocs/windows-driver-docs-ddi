@@ -7,6 +7,7 @@ ms.date: 09/11/2018
 keywords: ["IDataModelManager2::GetRootNamespace"]
 f1_keywords:
  - "dbgmodel/IDataModelManager2.GetRootNamespace"
+ - "IDataModelManager2.GetRootNamespace"
 ms.keywords: IDataModelManager2::GetRootNamespace, GetRootNamespace, IDataModelManager2.GetRootNamespace, IDataModelManager2::GetRootNamespace, IDataModelManager2.GetRootNamespace
 req.header: dbgmodel.h
 req.include-header:

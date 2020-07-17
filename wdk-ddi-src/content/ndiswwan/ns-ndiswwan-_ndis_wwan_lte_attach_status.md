@@ -8,6 +8,7 @@ ms.date: 08/23/2018
 keywords: ["_NDIS_WWAN_LTE_ATTACH_STATUS structure"]
 f1_keywords:
  - "ndiswwan/_NDIS_WWAN_LTE_ATTACH_STATUS"
+ - "_NDIS_WWAN_LTE_ATTACH_STATUS"
 ms.keywords: _NDIS_WWAN_LTE_ATTACH_STATUS, NDIS_WWAN_LTE_ATTACH_STATUS, *PNDIS_WWAN_LTE_ATTACH_STATUS, 
 req.header: ndiswwan.h
 req.include-header:

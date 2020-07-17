@@ -10,6 +10,7 @@ keywords: ["IOCTL_GNSS_LISTEN_AGNSS IOCTL"]
 ms.keywords: IOCTL_GNSS_LISTEN_AGNSS, IOCTL_GNSS_LISTEN_AGNSS control, IOCTL_GNSS_LISTEN_AGNSS control code [Sensor Devices], gnss.ioctl_gnss_listen_agnss, gnssdriver/IOCTL_GNSS_LISTEN_AGNSS
 f1_keywords:
  - "gnssdriver/IOCTL_GNSS_LISTEN_AGNSS"
+ - "IOCTL_GNSS_LISTEN_AGNSS"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows

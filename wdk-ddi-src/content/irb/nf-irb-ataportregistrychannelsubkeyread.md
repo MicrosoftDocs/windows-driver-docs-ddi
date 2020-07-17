@@ -10,6 +10,7 @@ keywords: ["AtaPortRegistryChannelSubkeyRead function"]
 ms.keywords: AtaPortRegistryChannelSubKeyRead, AtaPortRegistryChannelSubkeyRead, AtaPortRegistryChannelSubkeyRead routine [Storage Devices], atartns_35b220a8-6f27-43c3-90b7-fc0ef628b270.xml, irb/AtaPortRegistryChannelSubkeyRead, storage.ataportregistrychannelsubkeyread
 f1_keywords:
  - "irb/AtaPortRegistryChannelSubkeyRead"
+ - "AtaPortRegistryChannelSubkeyRead"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop

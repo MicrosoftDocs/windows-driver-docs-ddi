@@ -8,6 +8,7 @@ ms.date: 09/30/2018
 keywords: ["_UCSI_DATA_BLOCK structure"]
 f1_keywords:
  - "ucmucsispec/_UCSI_DATA_BLOCK"
+ - "_UCSI_DATA_BLOCK"
 ms.keywords: _UCSI_DATA_BLOCK, UCSI_DATA_BLOCK, *PUCSI_DATA_BLOCK, 
 req.header: ucmucsispec.h
 req.include-header: UcmUcsiCx.h 

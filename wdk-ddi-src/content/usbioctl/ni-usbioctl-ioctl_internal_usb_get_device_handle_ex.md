@@ -10,6 +10,7 @@ keywords: ["IOCTL_INTERNAL_USB_GET_DEVICE_HANDLE_EX IOCTL"]
 ms.keywords: IOCTL_INTERNAL_USB_GET_DEVICE_HANDLE_EX, IOCTL_INTERNAL_USB_GET_DEVICE_HANDLE_EX control, IOCTL_INTERNAL_USB_GET_DEVICE_HANDLE_EX control code [Buses], buses.ioctl_internal_usb_get_device_handle_ex, usbioctl/IOCTL_INTERNAL_USB_GET_DEVICE_HANDLE_EX
 f1_keywords:
  - "usbioctl/IOCTL_INTERNAL_USB_GET_DEVICE_HANDLE_EX"
+ - "IOCTL_INTERNAL_USB_GET_DEVICE_HANDLE_EX"
 req.header: usbioctl.h
 req.include-header: Usbioctl.h
 req.target-type: Windows

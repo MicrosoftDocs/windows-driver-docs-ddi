@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DSI2_CONTROL_TRANSMISSION_MODE enumeration"]
 f1_keywords:
  - "ntddvdeo/DSI2_CONTROL_TRANSMISSION_MODE"
+ - "DSI2_CONTROL_TRANSMISSION_MODE"
 ms.keywords: DSI2_CONTROL_TRANSMISSION_MODE, DSI2_CONTROL_TRANSMISSION_MODE, 
 req.header: ntddvdeo.h
 req.include-header:

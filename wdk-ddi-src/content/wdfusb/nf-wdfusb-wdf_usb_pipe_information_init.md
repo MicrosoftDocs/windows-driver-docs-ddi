@@ -10,6 +10,7 @@ keywords: ["WDF_USB_PIPE_INFORMATION_INIT function"]
 ms.keywords: DFUsbRef_ed525fc0-384b-4e9c-877a-075386f5d667.xml, WDF_USB_PIPE_INFORMATION_INIT, WDF_USB_PIPE_INFORMATION_INIT function, kmdf.wdf_usb_pipe_information_init, wdf.wdf_usb_pipe_information_init, wdfusb/WDF_USB_PIPE_INFORMATION_INIT
 f1_keywords:
  - "wdfusb/WDF_USB_PIPE_INFORMATION_INIT"
+ - "WDF_USB_PIPE_INFORMATION_INIT"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal

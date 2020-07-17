@@ -10,6 +10,7 @@ keywords: ["KeInitializeTimerEx function"]
 ms.keywords: KeInitializeTimerEx, KeInitializeTimerEx routine [Kernel-Mode Driver Architecture], k105_62ca8d08-a87a-4cbd-80fa-18b646b8500d.xml, kernel.keinitializetimerex, wdm/KeInitializeTimerEx
 f1_keywords:
  - "wdm/KeInitializeTimerEx"
+ - "KeInitializeTimerEx"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

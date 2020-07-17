@@ -21,6 +21,7 @@ ms.custom: RS5
 tech.root: display
 f1_keywords:
  - "d3dumddi/_DXVAHDDDI_FILTER_CAPS"
+ - "_DXVAHDDDI_FILTER_CAPS"
 topic_type:
  - apiref
 api_type:

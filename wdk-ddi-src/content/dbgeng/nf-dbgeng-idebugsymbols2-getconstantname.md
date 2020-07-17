@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols2::GetConstantName"]
 ms.keywords: GetConstantName, GetConstantName method [Windows Debugging], GetConstantName method [Windows Debugging],IDebugSymbols2 interface, GetConstantName method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols2 interface [Windows Debugging],GetConstantName method, IDebugSymbols2.GetConstantName, IDebugSymbols2::GetConstantName, IDebugSymbols3 interface [Windows Debugging],GetConstantName method, IDebugSymbols3::GetConstantName, IDebugSymbols_438111b4-a0f4-40cc-aadc-8b1d2c67b219.xml, dbgeng/IDebugSymbols2::GetConstantName, dbgeng/IDebugSymbols3::GetConstantName, debugger.getconstantname
 f1_keywords:
  - "dbgeng/IDebugSymbols2.GetConstantName"
+ - "IDebugSymbols2.GetConstantName"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

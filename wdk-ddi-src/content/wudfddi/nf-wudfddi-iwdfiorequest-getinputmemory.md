@@ -10,6 +10,7 @@ keywords: ["IWDFIoRequest::GetInputMemory"]
 ms.keywords: GetInputMemory, GetInputMemory method, GetInputMemory method,IWDFIoRequest interface, IWDFIoRequest interface,GetInputMemory method, IWDFIoRequest.GetInputMemory, IWDFIoRequest::GetInputMemory, UMDFRequestObjectRef_80c18660-b423-42b0-879d-a8732d2e7796.xml, umdf.iwdfiorequest_getinputmemory, wdf.iwdfiorequest_getinputmemory, wudfddi/IWDFIoRequest::GetInputMemory
 f1_keywords:
  - "wudfddi/IWDFIoRequest.GetInputMemory"
+ - "IWDFIoRequest.GetInputMemory"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

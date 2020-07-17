@@ -10,6 +10,7 @@ keywords: ["IDebugControl::GetNumberSupportedProcessorTypes"]
 ms.keywords: GetNumberSupportedProcessorTypes, GetNumberSupportedProcessorTypes method [Windows Debugging], GetNumberSupportedProcessorTypes method [Windows Debugging],IDebugControl interface, GetNumberSupportedProcessorTypes method [Windows Debugging],IDebugControl2 interface, GetNumberSupportedProcessorTypes method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetNumberSupportedProcessorTypes method, IDebugControl.GetNumberSupportedProcessorTypes, IDebugControl2 interface [Windows Debugging],GetNumberSupportedProcessorTypes method, IDebugControl2::GetNumberSupportedProcessorTypes, IDebugControl3 interface [Windows Debugging],GetNumberSupportedProcessorTypes method, IDebugControl3::GetNumberSupportedProcessorTypes, IDebugControl::GetNumberSupportedProcessorTypes, IDebugControl_5b3a8335-0e6f-4f83-9549-fa53ce9eb1d5.xml, dbgeng/IDebugControl2::GetNumberSupportedProcessorTypes, dbgeng/IDebugControl3::GetNumberSupportedProcessorTypes, dbgeng/IDebugControl::GetNumberSupportedProcessorTypes, debugger.getnumbersupportedprocessortypes
 f1_keywords:
  - "dbgeng/IDebugControl.GetNumberSupportedProcessorTypes"
+ - "IDebugControl.GetNumberSupportedProcessorTypes"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DXGKDDI_SAVEMEMORYFORHOTUPDATE callback function"]
 f1_keywords:
  - "d3dkmddi/DXGKDDI_SAVEMEMORYFORHOTUPDATE"
+ - "DXGKDDI_SAVEMEMORYFORHOTUPDATE"
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type:

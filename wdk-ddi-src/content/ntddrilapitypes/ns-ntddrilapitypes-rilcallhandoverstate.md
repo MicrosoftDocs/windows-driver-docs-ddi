@@ -10,6 +10,7 @@ keywords: ["RILCALLHANDOVERSTATE structure"]
 ms.keywords: "*LPRILCALLHANDOVERSTATE, RILCALLHANDOVERSTATE, RILCALLHANDOVERSTATE structure [Network Drivers Starting with Windows Vista], netvista.rilcallhandoverstate, ntddrilapitypes/RILCALLHANDOVERSTATE"
 f1_keywords:
  - "ntddrilapitypes/RILCALLHANDOVERSTATE"
+ - "RILCALLHANDOVERSTATE"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

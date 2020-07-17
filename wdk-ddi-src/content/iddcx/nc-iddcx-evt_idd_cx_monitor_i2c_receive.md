@@ -10,6 +10,7 @@ keywords: ["EVT_IDD_CX_MONITOR_I2C_RECEIVE callback function"]
 ms.keywords: EVT_IDD_CX_MONITOR_I2C_RECEIVE, EVT_IDD_CX_MONITOR_I2C_RECEIVE callback, EvtIddCxMonitorI2cReceive, EvtIddCxMonitorI2cReceive callback function [Display Devices], PFN_IDD_CX_MONITOR_I2C_RECEIVE, PFN_IDD_CX_MONITOR_I2C_RECEIVE callback function pointer [Display Devices], display.evt_idd_cx_monitor_i2c_receive, iddcx/EvtIddCxMonitorI2cReceive
 f1_keywords:
  - "iddcx/PFN_IDD_CX_MONITOR_I2C_RECEIVE"
+ - "PFN_IDD_CX_MONITOR_I2C_RECEIVE"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows

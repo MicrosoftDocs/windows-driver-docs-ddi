@@ -10,6 +10,7 @@ keywords: ["ChangerClassInitialize function"]
 ms.keywords: ChangerClassInitialize, ChangerClassInitialize routine [Storage Devices], chgrclas_f0aa8547-be16-44aa-bd15-a4828d7f57f5.xml, mcd/ChangerClassInitialize, storage.changerclassinitialize
 f1_keywords:
  - "mcd/ChangerClassInitialize"
+ - "ChangerClassInitialize"
 req.header: mcd.h
 req.include-header: Mcd.h, Ntddchgr.h
 req.target-type: Desktop

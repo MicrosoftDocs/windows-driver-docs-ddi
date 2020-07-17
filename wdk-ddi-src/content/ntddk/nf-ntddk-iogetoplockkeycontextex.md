@@ -10,6 +10,7 @@ keywords: ["IoGetOplockKeyContextEx function"]
 ms.keywords: IoGetOplockKeyContext, IoGetOplockKeyContextEx, IoGetOplockKeyContextEx routine [Installable File System Drivers], ifsk.iogetoplockkeycontext, ntddk/IoGetOplockKeyContextEx
 f1_keywords:
  - "ntddk/IoGetOplockKeyContextEx"
+ - "IoGetOplockKeyContextEx"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["SeAuditingHardLinkEvents function"]
 ms.keywords: SeAuditingHardLinkEvents, SeAuditingHardLinkEvents function [Installable File System Drivers], ifsk.seauditinghardlinkevents, ntifs/SeAuditingHardLinkEvents, seref_b63ee159-df1c-405e-9ac2-44e56b2bd51c.xml
 f1_keywords:
  - "ntifs/SeAuditingHardLinkEvents"
+ - "SeAuditingHardLinkEvents"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

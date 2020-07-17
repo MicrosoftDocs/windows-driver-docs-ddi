@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["WHEA_PMEM_ERROR_SECTION structure"]
 f1_keywords:
  - "ntddk/WHEA_PMEM_ERROR_SECTION"
+ - "WHEA_PMEM_ERROR_SECTION"
 ms.keywords: WHEA_PMEM_ERROR_SECTION, WHEA_PMEM_ERROR_SECTION, *PWHEA_PMEM_ERROR_SECTION, 
 req.header: ntddk.h
 req.include-header:

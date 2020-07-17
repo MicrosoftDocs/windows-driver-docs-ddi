@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_USB_READER_COMPLETION_ROUTINE callback function"]
 ms.keywords: DFUsbRef_6c37ab84-2c88-41d5-8a63-3e74207083ed.xml, EVT_WDF_USB_READER_COMPLETION_ROUTINE, EVT_WDF_USB_READER_COMPLETION_ROUTINE callback, EvtUsbTargetPipeReadComplete, EvtUsbTargetPipeReadComplete callback function, kmdf.evtusbtargetpipereadcomplete, wdf.evtusbtargetpipereadcomplete, wdfusb/EvtUsbTargetPipeReadComplete
 f1_keywords:
  - "wdfusb/EvtUsbTargetPipeReadComplete"
+ - "EvtUsbTargetPipeReadComplete"
 req.header: wdfusb.h
 req.include-header: Wdf.h
 req.target-type: Universal

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["EVT_TR_PROCESS_OTHER_SECURE_SERVICE_IO callback function"]
 f1_keywords:
  - "trustedruntimeclx/EVT_TR_PROCESS_OTHER_SECURE_SERVICE_IO"
+ - "EVT_TR_PROCESS_OTHER_SECURE_SERVICE_IO"
 req.header: trustedruntimeclx.h
 req.include-header:
 req.target-type:

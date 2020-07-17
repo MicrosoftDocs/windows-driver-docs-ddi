@@ -10,6 +10,7 @@ keywords: ["IOCTL_HID_GET_INDEXED_STRING IOCTL"]
 ms.keywords: IOCTL_HID_GET_INDEXED_STRING, IOCTL_HID_GET_INDEXED_STRING control, IOCTL_HID_GET_INDEXED_STRING control code [Human Input Devices], hid.ioctl_hid_get_indexed_string2, hidclass/IOCTL_HID_GET_INDEXED_STRING, hidioreq_ab829578-5003-4082-9c70-d81d59fb5015.xml
 f1_keywords:
  - "hidclass/IOCTL_HID_GET_INDEXED_STRING"
+ - "IOCTL_HID_GET_INDEXED_STRING"
 req.header: hidclass.h
 req.include-header: Hidclass.h
 req.target-type: Windows

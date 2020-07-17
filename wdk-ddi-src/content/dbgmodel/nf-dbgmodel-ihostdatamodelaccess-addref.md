@@ -7,6 +7,7 @@ ms.date: 07/20/2018
 keywords: ["IHostDataModelAccess::AddRef"]
 f1_keywords:
  - "dbgmodel/IHostDataModelAccess.AddRef"
+ - "IHostDataModelAccess.AddRef"
 ms.keywords: IHostDataModelAccess::AddRef, AddRef, IHostDataModelAccess.AddRef, IHostDataModelAccess::AddRef, IHostDataModelAccess.AddRef
 req.header: dbgmodel.h
 req.include-header:

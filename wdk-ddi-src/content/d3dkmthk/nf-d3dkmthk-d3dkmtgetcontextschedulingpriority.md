@@ -9,6 +9,7 @@ keywords: ["D3DKMTGetContextSchedulingPriority function"]
 ms.keywords: D3DKMTGetContextSchedulingPriority, D3DKMTGetContextSchedulingPriority function [Display Devices], OpenGL_Functions_2f186385-7f1b-445e-93f9-594dea4feeb4.xml, d3dkmthk/D3DKMTGetContextSchedulingPriority, display.d3dkmtgetcontextschedulingpriority
 f1_keywords:
  - "d3dkmthk/D3DKMTGetContextSchedulingPriority"
+ - "D3DKMTGetContextSchedulingPriority"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

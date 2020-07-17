@@ -10,6 +10,7 @@ keywords: ["PMI_CONFIGURATION_TYPE enumeration"]
 ms.keywords: PMI_CONFIGURATION_TYPE, PMI_CONFIGURATION_TYPE enumeration [Power Metering and Budgeting Devices], PmiBudgetingConfiguration, PmiConfigurationMax, PmiMeasurementConfiguration, PmiThresholdConfiguration, PowerMeterRef_6d83a5b7-03d3-4f86-b2ac-9d70a889285e.xml, pmi/PMI_CONFIGURATION_TYPE, pmi/PmiBudgetingConfiguration, pmi/PmiConfigurationMax, pmi/PmiMeasurementConfiguration, pmi/PmiThresholdConfiguration, powermeter.pmi_configuration_type
 f1_keywords:
  - "pmi/PMI_CONFIGURATION_TYPE"
+ - "PMI_CONFIGURATION_TYPE"
 req.header: pmi.h
 req.include-header: Pmi.h
 req.target-type: Windows

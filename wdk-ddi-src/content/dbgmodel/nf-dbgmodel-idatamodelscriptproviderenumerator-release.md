@@ -7,6 +7,7 @@ ms.date: 09/21/2018
 keywords: ["IDataModelScriptProviderEnumerator::Release"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptProviderEnumerator.Release"
+ - "IDataModelScriptProviderEnumerator.Release"
 ms.keywords: IDataModelScriptProviderEnumerator::Release, Release, IDataModelScriptProviderEnumerator.Release, IDataModelScriptProviderEnumerator::Release, IDataModelScriptProviderEnumerator.Release
 req.header: dbgmodel.h
 req.include-header:

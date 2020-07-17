@@ -10,6 +10,7 @@ keywords: ["ExAcquireRundownProtectionEx function"]
 ms.keywords: ExAcquireRundownProtectionEx, ExAcquireRundownProtectionEx routine [Kernel-Mode Driver Architecture], kernel.exacquirerundownprotectionex, wdm/ExAcquireRundownProtectionEx
 f1_keywords:
  - "wdm/ExAcquireRundownProtectionEx"
+ - "ExAcquireRundownProtectionEx"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Universal

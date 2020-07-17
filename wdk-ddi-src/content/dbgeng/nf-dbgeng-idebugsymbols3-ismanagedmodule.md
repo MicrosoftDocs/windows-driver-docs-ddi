@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::IsManagedModule"]
 ms.keywords: IDebugSymbols3 interface [Windows Debugging],IsManagedModule method, IDebugSymbols3.IsManagedModule, IDebugSymbols3::IsManagedModule, IsManagedModule, IsManagedModule method [Windows Debugging], IsManagedModule method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols3::IsManagedModule, debugger.idebugsymbols3_ismanagedmodule
 f1_keywords:
  - "dbgeng/IDebugSymbols3.IsManagedModule"
+ - "IDebugSymbols3.IsManagedModule"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

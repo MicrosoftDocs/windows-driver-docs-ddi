@@ -10,6 +10,7 @@ keywords: ["IPortWavePciStream::TerminatePacket"]
 ms.keywords: IPortWavePciStream interface [Audio Devices],TerminatePacket method, IPortWavePciStream.TerminatePacket, IPortWavePciStream::TerminatePacket, TerminatePacket, TerminatePacket method [Audio Devices], TerminatePacket method [Audio Devices],IPortWavePciStream interface, audio.iportwavepcistream_terminatepacket, audmp-routines_7991fb3b-ea9a-4c58-acd5-7563752f415e.xml, portcls/IPortWavePciStream::TerminatePacket
 f1_keywords:
  - "portcls/IPortWavePciStream.TerminatePacket"
+ - "IPortWavePciStream.TerminatePacket"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

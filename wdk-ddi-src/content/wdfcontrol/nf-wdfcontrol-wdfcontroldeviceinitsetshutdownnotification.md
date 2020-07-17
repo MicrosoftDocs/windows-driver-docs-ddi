@@ -10,6 +10,7 @@ keywords: ["WdfControlDeviceInitSetShutdownNotification function"]
 ms.keywords: DFDeviceObjectControllerDevObjRef_ee736de4-6e27-46d9-8f83-40d7368c960a.xml, WdfControlDeviceInitSetShutdownNotification, WdfControlDeviceInitSetShutdownNotification method, kmdf.wdfcontroldeviceinitsetshutdownnotification, wdf.wdfcontroldeviceinitsetshutdownnotification, wdfcontrol/WdfControlDeviceInitSetShutdownNotification
 f1_keywords:
  - "wdfcontrol/WdfControlDeviceInitSetShutdownNotification"
+ - "WdfControlDeviceInitSetShutdownNotification"
 req.header: wdfcontrol.h
 req.include-header: Wdf.h
 req.target-type: Universal

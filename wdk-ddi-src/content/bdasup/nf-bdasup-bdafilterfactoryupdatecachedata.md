@@ -10,6 +10,7 @@ keywords: ["BdaFilterFactoryUpdateCacheData function"]
 ms.keywords: BdaFilterFactoryUpdateCacheData, BdaFilterFactoryUpdateCacheData function [Streaming Media Devices], bdaref_b384500e-7b80-4413-a950-f7cf7aed3f54.xml, bdasup/BdaFilterFactoryUpdateCacheData, stream.bdafilterfactoryupdatecachedata
 f1_keywords:
  - "bdasup/BdaFilterFactoryUpdateCacheData"
+ - "BdaFilterFactoryUpdateCacheData"
 req.header: bdasup.h
 req.include-header: Bdasup.h
 req.target-type: Desktop

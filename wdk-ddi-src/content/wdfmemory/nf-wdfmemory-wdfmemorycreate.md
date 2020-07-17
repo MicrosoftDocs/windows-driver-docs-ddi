@@ -10,6 +10,7 @@ keywords: ["WdfMemoryCreate function"]
 ms.keywords: DFMemoryObjectRef_53623d93-01bb-4062-b066-e884beed3f32.xml, WdfMemoryCreate, WdfMemoryCreate method, kmdf.wdfmemorycreate, wdf.wdfmemorycreate, wdfmemory/WdfMemoryCreate
 f1_keywords:
  - "wdfmemory/WdfMemoryCreate"
+ - "WdfMemoryCreate"
 req.header: wdfmemory.h
 req.include-header: Wdf.h
 req.target-type: Universal

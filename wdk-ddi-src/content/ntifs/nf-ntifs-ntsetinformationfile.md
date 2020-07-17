@@ -10,6 +10,7 @@ keywords: ["NtSetInformationFile function"]
 ms.keywords: NtSetInformationFile, ZwSetInformationFile, ZwSetInformationFile routine [Kernel-Mode Driver Architecture], k111_91ac021a-37b3-4d2d-9369-c80659e0dcd7.xml, kernel.zwsetinformationfile, wdm/NtSetInformationFile, wdm/ZwSetInformationFile
 f1_keywords:
  - "ntifs/ZwSetInformationFile"
+ - "ZwSetInformationFile"
 req.header: ntifs.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

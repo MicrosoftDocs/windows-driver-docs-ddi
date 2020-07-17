@@ -10,6 +10,7 @@ keywords: ["_FLT_REGISTRATION structure"]
 ms.keywords: "*PFLT_REGISTRATION, FLTFL_REGISTRATION_DO_NOT_SUPPORT_SERVICE_STOP, FLTFL_REGISTRATION_SUPPORT_DAX_VOLUME, FLTFL_REGISTRATION_SUPPORT_NPFS_MSFS, FLT_REGISTRATION, FLT_REGISTRATION structure [Installable File System Drivers], FltSystemStructures_5257e153-faae-4eb8-845a-f6c137a29390.xml, PFLT_REGISTRATION, PFLT_REGISTRATION structure pointer [Installable File System Drivers], _FLT_REGISTRATION, fltkernel/FLT_REGISTRATION, fltkernel/PFLT_REGISTRATION, ifsk.flt_registration"
 f1_keywords:
  - "fltkernel/FLT_REGISTRATION"
+ - "FLT_REGISTRATION"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Windows

@@ -8,6 +8,7 @@ ms.date: 10/19/2018
 keywords: ["NtCreateSectionEx function"]
 f1_keywords:
  - "ntifs/NtCreateSectionEx"
+ - "NtCreateSectionEx"
 ms.keywords: NtCreateSectionEx
 req.header: ntifs.h
 req.include-header:

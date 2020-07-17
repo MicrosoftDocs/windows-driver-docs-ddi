@@ -35,6 +35,7 @@ api_name:
  - ExAllocatePoolQuotaZero
 f1_keywords:
  - wdm/ExAllocatePoolQuotaZero
+ - ""
 dev_langs:
  - c++
 ---

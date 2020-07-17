@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["PDXGK_FSTATE_NOTIFICATION callback function"]
 f1_keywords:
  - "d3dkmthk/PDXGK_FSTATE_NOTIFICATION"
+ - "PDXGK_FSTATE_NOTIFICATION"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

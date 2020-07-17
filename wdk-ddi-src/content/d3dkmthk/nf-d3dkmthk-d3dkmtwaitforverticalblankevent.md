@@ -9,6 +9,7 @@ keywords: ["D3DKMTWaitForVerticalBlankEvent function"]
 ms.keywords: D3DKMTWaitForVerticalBlankEvent, D3DKMTWaitForVerticalBlankEvent function [Display Devices], OpenGL_Functions_9e2c6684-7429-43d7-b43a-0f11aea6807f.xml, d3dkmthk/D3DKMTWaitForVerticalBlankEvent, display.d3dkmtwaitforverticalblankevent
 f1_keywords:
  - "d3dkmthk/D3DKMTWaitForVerticalBlankEvent"
+ - "D3DKMTWaitForVerticalBlankEvent"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

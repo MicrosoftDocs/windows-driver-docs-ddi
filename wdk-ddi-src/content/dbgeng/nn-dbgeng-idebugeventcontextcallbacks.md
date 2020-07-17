@@ -10,6 +10,7 @@ keywords: ["IDebugEventContextCallbacks interface"]
 ms.keywords: IDebugEventContextCallbacks, IDebugEventContextCallbacks interface [Windows Debugging], IDebugEventContextCallbacks interface [Windows Debugging],described, dbgeng/IDebugEventContextCallbacks, debugger.idebugeventcontextcallbacks
 f1_keywords:
  - "dbgeng/IDebugEventContextCallbacks"
+ - "IDebugEventContextCallbacks"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["_INVOC structure"]
 ms.keywords: "*PINVOC, INVOC, INVOC structure [Print Devices], PINVOC, PINVOC structure pointer [Print Devices], _INVOC, print.invoc, print_unidrv-pscript_fonts_1c5bebe8-a2ca-4049-bcce-defd8622761b.xml, prntfont/INVOC, prntfont/PINVOC"
 f1_keywords:
  - "prntfont/INVOC"
+ - "INVOC"
 req.header: prntfont.h
 req.include-header: Prntfont.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["_WWAN_SUPPORTED_DEVICE_SERVICES structure"]
 ms.keywords: "*PWWAN_SUPPORTED_DEVICE_SERVICES, PWWAN_SUPPORTED_DEVICE_SERVICES, PWWAN_SUPPORTED_DEVICE_SERVICES structure pointer [Network Drivers Starting with Windows Vista], WWAN_SUPPORTED_DEVICE_SERVICES, WWAN_SUPPORTED_DEVICE_SERVICES structure [Network Drivers Starting with Windows Vista], _WWAN_SUPPORTED_DEVICE_SERVICES, netvista.wwan_supported_device_services, wwan/PWWAN_SUPPORTED_DEVICE_SERVICES, wwan/WWAN_SUPPORTED_DEVICE_SERVICES"
 f1_keywords:
  - "wwan/WWAN_SUPPORTED_DEVICE_SERVICES"
+ - "WWAN_SUPPORTED_DEVICE_SERVICES"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows

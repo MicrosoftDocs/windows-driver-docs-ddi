@@ -10,6 +10,7 @@ keywords: ["EtwWriteTransfer function"]
 ms.keywords: EtwWriteTransfer, EtwWriteTransfer function [Driver Development Tools], devtest.etwwritetransfer, etw_km_210cf13d-0f54-4a51-b8f2-7d37b22d8eac.xml, wdm/EtwWriteTransfer
 f1_keywords:
  - "wdm/EtwWriteTransfer"
+ - "EtwWriteTransfer"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal

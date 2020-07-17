@@ -10,6 +10,7 @@ keywords: ["TRACK_DATA structure"]
 ms.keywords: "*PTRACK_DATA, PTRACK_DATA, PTRACK_DATA structure pointer [Storage Devices], TRACK_DATA, TRACK_DATA structure [Storage Devices], _TRACK_DATA, ntddcdrm/PTRACK_DATA, ntddcdrm/TRACK_DATA, storage.track_data, structs-CD-ROM_37ea4578-82b7-4b8e-be1b-28c27de349d9.xml"
 f1_keywords:
  - "ntddcdrm/TRACK_DATA"
+ - "TRACK_DATA"
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows

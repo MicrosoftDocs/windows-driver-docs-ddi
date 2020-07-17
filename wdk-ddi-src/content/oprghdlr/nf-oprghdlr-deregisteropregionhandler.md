@@ -10,6 +10,7 @@ keywords: ["DeRegisterOpRegionHandler function"]
 ms.keywords: DeRegisterOpRegionHandler, DeRegisterOpRegionHandler routine [ACPI Devices], acpi.deregisteropregionhandler, opregref_e991e152-6162-4d45-9418-282afb447d18.xml, oprghdlr/DeRegisterOpRegionHandler
 f1_keywords:
  - "oprghdlr/DeRegisterOpRegionHandler"
+ - "DeRegisterOpRegionHandler"
 req.header: oprghdlr.h
 req.include-header: Oprghdlr.h
 req.target-type: Universal

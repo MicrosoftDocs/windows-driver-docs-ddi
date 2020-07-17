@@ -10,6 +10,7 @@ keywords: ["_WHEA_ERROR_TYPE enumeration"]
 ms.keywords: "*PWHEA_ERROR_TYPE, PWHEA_ERROR_TYPE, PWHEA_ERROR_TYPE enumeration pointer [WHEA Drivers and Applications], WHEA_ERROR_TYPE, WHEA_ERROR_TYPE enumeration [WHEA Drivers and Applications], WheaErrTypeGeneric, WheaErrTypeMemory, WheaErrTypeNMI, WheaErrTypePCIExpress, WheaErrTypePCIXBus, WheaErrTypePCIXDevice, WheaErrTypeProcessor, _WHEA_ERROR_TYPE, ntddk/PWHEA_ERROR_TYPE, ntddk/WHEA_ERROR_TYPE, ntddk/WheaErrTypeGeneric, ntddk/WheaErrTypeMemory, ntddk/WheaErrTypeNMI, ntddk/WheaErrTypePCIExpress, ntddk/WheaErrTypePCIXBus, ntddk/WheaErrTypePCIXDevice, ntddk/WheaErrTypeProcessor, whea.whea_error_type, whearef_4e585fa6-81e5-4196-b7fa-6194d3701835.xml"
 f1_keywords:
  - "ntddk/WHEA_ERROR_TYPE"
+ - "WHEA_ERROR_TYPE"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows

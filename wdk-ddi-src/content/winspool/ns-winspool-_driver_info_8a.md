@@ -10,6 +10,7 @@ keywords: ["_DRIVER_INFO_8A structure"]
 ms.keywords: "*LPDRIVER_INFO_8A, *PDRIVER_INFO_8A, DRIVER_INFO_8, DRIVER_INFO_8 structure [Print Devices], DRIVER_INFO_8A, LPDRIVER_INFO_8, LPDRIVER_INFO_8 structure pointer [Print Devices], PDRIVER_INFO_8, PDRIVER_INFO_8 structure pointer [Print Devices], _DRIVER_INFO_8A, print.driver_info_8, print_ticket-package_dba844e8-6e97-4eaf-8de4-1003562e01d5.xml, winspool/DRIVER_INFO_8, winspool/LPDRIVER_INFO_8, winspool/PDRIVER_INFO_8"
 f1_keywords:
  - "winspool/DRIVER_INFO_8"
+ - "DRIVER_INFO_8"
 req.header: winspool.h
 req.include-header: Winspool.h
 req.target-type: Windows

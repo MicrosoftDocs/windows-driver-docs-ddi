@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["OUTPUT_WIRE_FORMAT structure"]
 f1_keywords:
  - "ntddvdeo/OUTPUT_WIRE_FORMAT"
+ - "OUTPUT_WIRE_FORMAT"
 ms.keywords: OUTPUT_WIRE_FORMAT, OUTPUT_WIRE_FORMAT, 
 req.header: ntddvdeo.h
 req.include-header:

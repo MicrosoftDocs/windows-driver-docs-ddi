@@ -10,6 +10,7 @@ ms.date: 10/11/2019
 keywords: ["NetDeviceInitSetPowerPolicyEventCallbacks function"]
 f1_keywords:
  - "netdevice/NetDeviceInitSetPowerPolicyEventCallbacks"
+ - "NetDeviceInitSetPowerPolicyEventCallbacks"
 ms.keywords: NetDeviceInitSetPowerPolicyEventCallbacks
 req.header: netdevice.h
 req.include-header:

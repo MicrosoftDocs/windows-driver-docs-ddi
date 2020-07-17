@@ -8,6 +8,7 @@ ms.date: 04/10/2019
 keywords: ["_WWAN_PIN_APP structure"]
 f1_keywords:
  - "wwan/_WWAN_PIN_APP"
+ - "_WWAN_PIN_APP"
 ms.keywords: _WWAN_PIN_APP, WWAN_PIN_APP, *PWWAN_PIN_APP, 
 req.header: wwan.h
 req.include-header:

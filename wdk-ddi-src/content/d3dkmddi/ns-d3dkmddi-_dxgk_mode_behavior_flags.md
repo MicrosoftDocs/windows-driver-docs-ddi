@@ -7,6 +7,7 @@ ms.date: 10/14/2019
 keywords: ["_DXGK_MODE_BEHAVIOR_FLAGS structure"]
 f1_keywords:
  - "d3dkmddi/_DXGK_MODE_BEHAVIOR_FLAGS"
+ - "_DXGK_MODE_BEHAVIOR_FLAGS"
 ms.keywords: _DXGK_MODE_BEHAVIOR_FLAGS, DXGK_MODE_BEHAVIOR_FLAGS,
 req.header: d3dkmddi.h
 req.include-header:

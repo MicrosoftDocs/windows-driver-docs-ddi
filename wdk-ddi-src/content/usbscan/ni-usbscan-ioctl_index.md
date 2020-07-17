@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["IOCTL_INDEX IOCTL"]
 f1_keywords:
  - "usbscan/IOCTL_INDEX"
+ - "IOCTL_INDEX"
 req.header: usbscan.h
 req.include-header:
 req.target-type:

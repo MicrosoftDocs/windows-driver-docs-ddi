@@ -10,6 +10,7 @@ keywords: ["_FEATURE_DATA_FIRMWARE_DATE structure"]
 ms.keywords: "*PFEATURE_DATA_FIRMWARE_DATE, FEATURE_DATA_FIRMWARE_DATE, FEATURE_DATA_FIRMWARE_DATE structure [Storage Devices], PFEATURE_DATA_FIRMWARE_DATE, PFEATURE_DATA_FIRMWARE_DATE structure pointer [Storage Devices], _FEATURE_DATA_FIRMWARE_DATE, ntddmmc/FEATURE_DATA_FIRMWARE_DATE, ntddmmc/PFEATURE_DATA_FIRMWARE_DATE, storage.feature_data_firmware_date, structs-CD-ROM_5e7edafb-823d-4e78-a601-a8f29c62ee4e.xml"
 f1_keywords:
  - "ntddmmc/FEATURE_DATA_FIRMWARE_DATE"
+ - "FEATURE_DATA_FIRMWARE_DATE"
 req.header: ntddmmc.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows

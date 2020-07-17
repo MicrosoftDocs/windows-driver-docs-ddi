@@ -10,6 +10,7 @@ keywords: ["RIL_GetCellBroadcastMsgConfig function"]
 ms.keywords: RIL_GetCellBroadcastMsgConfig, RIL_GetCellBroadcastMsgConfig method [Network Drivers Starting with Windows Vista], netvista.ril_getcellbroadcastmsgconfig, rilapi/RIL_GetCellBroadcastMsgConfig
 f1_keywords:
  - "rilapi/RIL_GetCellBroadcastMsgConfig"
+ - "RIL_GetCellBroadcastMsgConfig"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

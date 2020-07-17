@@ -10,6 +10,7 @@ keywords: ["GetFieldOffset function"]
 ms.keywords: GetFieldOffset, GetFieldOffset function [Windows Debugging], WdbgExts_Ref_22c8a9bc-dec9-4eec-95c6-b265694b4385.xml, debugger.getfieldoffset, wdbgexts/GetFieldOffset
 f1_keywords:
  - "wdbgexts/GetFieldOffset"
+ - "GetFieldOffset"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop

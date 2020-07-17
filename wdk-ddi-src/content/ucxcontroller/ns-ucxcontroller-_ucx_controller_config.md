@@ -10,6 +10,7 @@ keywords: ["_UCX_CONTROLLER_CONFIG structure"]
 ms.keywords: "*PUCX_CONTROLLER_CONFIG, P_UCX_CONTROLLER_CONFIG, P_UCX_CONTROLLER_CONFIG structure pointer [Buses], UCX_CONTROLLER_CONFIG, UCX_CONTROLLER_CONFIG structure [Buses], _UCX_CONTROLLER_CONFIG, buses._ucx_controller_config, ucxcontroller/P_UCX_CONTROLLER_CONFIG, ucxcontroller/_UCX_CONTROLLER_CONFIG"
 f1_keywords:
  - "ucxcontroller/UCX_CONTROLLER_CONFIG"
+ - "UCX_CONTROLLER_CONFIG"
 req.header: ucxcontroller.h
 req.include-header: Ucxclass.h
 req.target-type: Windows

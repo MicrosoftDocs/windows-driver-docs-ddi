@@ -7,6 +7,7 @@ ms.date: 07/13/2018
 keywords: ["IDataModelNameBinder interface"]
 f1_keywords:
  - "dbgmodel/IDataModelNameBinder"
+ - "IDataModelNameBinder"
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

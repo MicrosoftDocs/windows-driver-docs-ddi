@@ -9,6 +9,7 @@ keywords: ["_DXGK_ENGINESTATUS structure"]
 ms.keywords: DXGK_ENGINESTATUS, DXGK_ENGINESTATUS structure [Display Devices], _DXGK_ENGINESTATUS, d3dkmddi/DXGK_ENGINESTATUS, display.dxgk_enginestatus
 f1_keywords:
  - "d3dkmddi/DXGK_ENGINESTATUS"
+ - "DXGK_ENGINESTATUS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

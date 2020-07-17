@@ -10,6 +10,7 @@ keywords: ["_NDIS_FILTER_PARTIAL_CHARACTERISTICS structure"]
 ms.keywords: "*PNDIS_FILTER_PARTIAL_CHARACTERISTICS, NDIS_FILTER_PARTIAL_CHARACTERISTICS, NDIS_FILTER_PARTIAL_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNDIS_FILTER_PARTIAL_CHARACTERISTICS, PNDIS_FILTER_PARTIAL_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_FILTER_PARTIAL_CHARACTERISTICS, filter_structures_ref_34b4c497-9a4c-4d15-9d25-672a7580456b.xml, ndis/NDIS_FILTER_PARTIAL_CHARACTERISTICS, ndis/PNDIS_FILTER_PARTIAL_CHARACTERISTICS, netvista.ndis_filter_partial_characteristics"
 f1_keywords:
  - "ndis/NDIS_FILTER_PARTIAL_CHARACTERISTICS"
+ - "NDIS_FILTER_PARTIAL_CHARACTERISTICS"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

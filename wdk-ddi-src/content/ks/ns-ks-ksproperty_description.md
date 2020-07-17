@@ -10,6 +10,7 @@ keywords: ["KSPROPERTY_DESCRIPTION structure"]
 ms.keywords: "*PKSPROPERTY_DESCRIPTION, KSPROPERTY_DESCRIPTION, KSPROPERTY_DESCRIPTION structure [Streaming Media Devices], PKSPROPERTY_DESCRIPTION, PKSPROPERTY_DESCRIPTION structure pointer [Streaming Media Devices], ks-struct_37ee8090-f90e-40a9-8731-3521d1d3a157.xml, ks/KSPROPERTY_DESCRIPTION, ks/PKSPROPERTY_DESCRIPTION, stream.ksproperty_description"
 f1_keywords:
  - "ks/KSPROPERTY_DESCRIPTION"
+ - "KSPROPERTY_DESCRIPTION"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows

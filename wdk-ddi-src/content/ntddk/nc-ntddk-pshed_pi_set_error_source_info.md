@@ -10,6 +10,7 @@ keywords: ["PSHED_PI_SET_ERROR_SOURCE_INFO callback function"]
 ms.keywords: PSHED_PI_SET_ERROR_SOURCE_INFO, PSHED_PI_SET_ERROR_SOURCE_INFO callback, SetErrorSourceInfo, SetErrorSourceInfo callback function [WHEA Drivers and Applications], ntddk/SetErrorSourceInfo, whea.seterrorsourceinfo, whearef_49924aa5-519d-4e23-95c5-a52264713258.xml
 f1_keywords:
  - "ntddk/SetErrorSourceInfo"
+ - "SetErrorSourceInfo"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Desktop

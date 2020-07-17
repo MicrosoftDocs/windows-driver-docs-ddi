@@ -10,6 +10,7 @@ keywords: ["ExSetFirmwareEnvironmentVariable function"]
 ms.keywords: ExSetFirmwareEnvironmentVariable, ExSetFirmwareEnvironmentVariable routine [Kernel-Mode Driver Architecture], kernel.exsetfirmwareenvironmentvariable, wdm/ExSetFirmwareEnvironmentVariable
 f1_keywords:
  - "wdm/ExSetFirmwareEnvironmentVariable"
+ - "ExSetFirmwareEnvironmentVariable"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

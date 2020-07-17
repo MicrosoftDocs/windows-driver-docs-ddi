@@ -10,6 +10,7 @@ keywords: ["IPrintSchemaOption::get_Selected"]
 ms.keywords: IPrintSchemaOption interface [Print Devices],Selected property, IPrintSchemaOption.Selected, IPrintSchemaOption.get_Selected, IPrintSchemaOption::Selected, IPrintSchemaOption::get_Selected, Selected property [Print Devices], Selected property [Print Devices],IPrintSchemaOption interface, get_Selected, print.iprintschemaoption_selected, printerextension/IPrintSchemaOption::Selected, printerextension/IPrintSchemaOption::get_Selected
 f1_keywords:
  - "printerextension/IPrintSchemaOption.Selected"
+ - "IPrintSchemaOption.Selected"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

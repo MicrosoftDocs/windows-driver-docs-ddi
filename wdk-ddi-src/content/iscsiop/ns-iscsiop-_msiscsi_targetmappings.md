@@ -10,6 +10,7 @@ keywords: ["_MSiSCSI_TargetMappings structure"]
 ms.keywords: "*PMSiSCSI_TargetMappings, MSiSCSI_TargetMappings, MSiSCSI_TargetMappings structure [Storage Devices], PMSiSCSI_TargetMappings, PMSiSCSI_TargetMappings structure pointer [Storage Devices], _MSiSCSI_TargetMappings, iscsiop/MSiSCSI_TargetMappings, iscsiop/PMSiSCSI_TargetMappings, storage.msiscsi_targetmappings, structs-iSCSI_b8a3267a-8bab-4be6-9f3c-4086cc54f0f5.xml"
 f1_keywords:
  - "iscsiop/MSiSCSI_TargetMappings"
+ - "MSiSCSI_TargetMappings"
 req.header: iscsiop.h
 req.include-header: Iscsiop.h
 req.target-type: Windows

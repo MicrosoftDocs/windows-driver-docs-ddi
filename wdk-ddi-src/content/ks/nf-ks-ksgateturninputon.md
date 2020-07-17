@@ -10,6 +10,7 @@ keywords: ["KsGateTurnInputOn function"]
 ms.keywords: KsGateTurnInputOn, KsGateTurnInputOn function [Streaming Media Devices], avfunc_9aaa9c85-b3a1-49ae-8135-6402f7bc1755.xml, ks/KsGateTurnInputOn, stream.ksgateturninputon
 f1_keywords:
  - "ks/KsGateTurnInputOn"
+ - "KsGateTurnInputOn"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop

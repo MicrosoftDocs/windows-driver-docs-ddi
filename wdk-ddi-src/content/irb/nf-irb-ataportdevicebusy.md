@@ -10,6 +10,7 @@ keywords: ["AtaPortDeviceBusy function"]
 ms.keywords: AtaPortDeviceBusy, AtaPortDeviceBusy routine [Storage Devices], atartns_22d36e2a-804e-4d24-910e-051e6dccdeaa.xml, irb/AtaPortDeviceBusy, storage.ataportdevicebusy
 f1_keywords:
  - "irb/AtaPortDeviceBusy"
+ - "AtaPortDeviceBusy"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop

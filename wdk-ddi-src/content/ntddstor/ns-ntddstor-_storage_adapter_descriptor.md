@@ -10,6 +10,7 @@ keywords: ["_STORAGE_ADAPTER_DESCRIPTOR structure"]
 ms.keywords: PSTORAGE_ADAPTER_DESCRIPTOR, PSTORAGE_ADAPTER_DESCRIPTOR structure pointer [Storage Devices], SRB_TYPE_SCSI_REQUEST_BLOCK, SRB_TYPE_STORAGE_REQUEST_BLOCK, STORAGE_ADAPTER_DESCRIPTOR, STORAGE_ADAPTER_DESCRIPTOR structure [Storage Devices], STORAGE_ADDRESS_TYPE_BTL8, _STORAGE_ADAPTER_DESCRIPTOR, ntddstor/PSTORAGE_ADAPTER_DESCRIPTOR, ntddstor/STORAGE_ADAPTER_DESCRIPTOR, storage.storage_adapter_descriptor, structs-general_196c7640-0a2d-4567-8958-1244c46b84a6.xml
 f1_keywords:
  - "ntddstor/STORAGE_ADAPTER_DESCRIPTOR"
+ - "STORAGE_ADAPTER_DESCRIPTOR"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows

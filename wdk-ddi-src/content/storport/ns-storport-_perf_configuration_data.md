@@ -10,6 +10,7 @@ keywords: ["_PERF_CONFIGURATION_DATA structure"]
 ms.keywords: "*PPERF_CONFIGURATION_DATA, PERF_CONFIGURATION_DATA, PERF_CONFIGURATION_DATA structure [Storage Devices], PPERF_CONFIGURATION_DATA, PPERF_CONFIGURATION_DATA structure pointer [Storage Devices], _PERF_CONFIGURATION_DATA, storage.perf_configuration_data, storport/PERF_CONFIGURATION_DATA, storport/PPERF_CONFIGURATION_DATA, structs-storport_3ff35217-29b1-43ab-a6e4-72aeaf90e931.xml"
 f1_keywords:
  - "storport/PERF_CONFIGURATION_DATA"
+ - "PERF_CONFIGURATION_DATA"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Windows

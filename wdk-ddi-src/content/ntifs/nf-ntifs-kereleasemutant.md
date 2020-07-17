@@ -10,6 +10,7 @@ keywords: ["KeReleaseMutant function"]
 ms.keywords: KeReleaseMutant, KeReleaseMutant function [Installable File System Drivers], ifsk.kereleasemutant, keref_3bfd3822-4bbe-4d79-844e-afc6511d1bbb.xml, ntifs/KeReleaseMutant
 f1_keywords:
  - "ntifs/KeReleaseMutant"
+ - "KeReleaseMutant"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

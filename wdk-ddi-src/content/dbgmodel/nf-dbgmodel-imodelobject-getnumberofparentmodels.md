@@ -7,6 +7,7 @@ ms.date: 08/09/2018
 keywords: ["IModelObject::GetNumberOfParentModels"]
 f1_keywords:
  - "dbgmodel/IModelObject.GetNumberOfParentModels"
+ - "IModelObject.GetNumberOfParentModels"
 ms.keywords: IModelObject::GetNumberOfParentModels, GetNumberOfParentModels, IModelObject.GetNumberOfParentModels, IModelObject::GetNumberOfParentModels, IModelObject.GetNumberOfParentModels
 req.header: dbgmodel.h
 req.include-header:

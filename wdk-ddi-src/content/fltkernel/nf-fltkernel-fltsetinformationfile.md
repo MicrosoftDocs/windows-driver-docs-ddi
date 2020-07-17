@@ -10,6 +10,7 @@ keywords: ["FltSetInformationFile function"]
 ms.keywords: FltApiRef_p_to_z_310caf59-cf9a-488a-8632-f0d8d5e14769.xml, FltSetInformationFile, FltSetInformationFile function [Installable File System Drivers], fltkernel/FltSetInformationFile, ifsk.fltsetinformationfile
 f1_keywords:
  - "fltkernel/FltSetInformationFile"
+ - "FltSetInformationFile"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

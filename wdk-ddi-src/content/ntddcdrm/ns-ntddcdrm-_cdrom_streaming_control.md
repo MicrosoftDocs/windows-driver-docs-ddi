@@ -10,6 +10,7 @@ keywords: ["_CDROM_STREAMING_CONTROL structure"]
 ms.keywords: "*PCDROM_STREAMING_CONTROL, CDROM_STREAMING_CONTROL, CDROM_STREAMING_CONTROL structure [Storage Devices], PCDROM_STREAMING_CONTROL, PCDROM_STREAMING_CONTROL structure pointer [Storage Devices], _CDROM_STREAMING_CONTROL, ntddcdrm/CDROM_STREAMING_CONTROL, ntddcdrm/PCDROM_STREAMING_CONTROL, storage.cdrom_streaming_control"
 f1_keywords:
  - "ntddcdrm/CDROM_STREAMING_CONTROL"
+ - "CDROM_STREAMING_CONTROL"
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["RILGEOLOCATIONREQUESTACCURACY enumeration"]
 ms.keywords: RILGEOLOCATIONREQUESTACCURACY, RILGEOLOCATIONREQUESTACCURACY enumeration [Network Drivers Starting with Windows Vista], RIL_LOCACCURACY_DEFAULT, netvista.rilgeolocationrequestaccuracy, ntddrilapitypes/RILGEOLOCATIONREQUESTACCURACY, ntddrilapitypes/RIL_LOCACCURACY_DEFAULT
 f1_keywords:
  - "ntddrilapitypes/RILGEOLOCATIONREQUESTACCURACY"
+ - "RILGEOLOCATIONREQUESTACCURACY"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

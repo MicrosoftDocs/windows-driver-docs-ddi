@@ -10,6 +10,7 @@ keywords: ["IFixedPage::DeleteResource"]
 ms.keywords: DeleteResource, DeleteResource method [Print Devices], DeleteResource method [Print Devices],IFixedPage interface, IFixedPage interface [Print Devices],DeleteResource method, IFixedPage.DeleteResource, IFixedPage::DeleteResource, filterpipeline/IFixedPage::DeleteResource, filterpipeline_b87a40f2-68cc-4664-9531-aaffc41b1a1a.xml, print.ifixedpage_deleteresource
 f1_keywords:
  - "filterpipeline/IFixedPage.DeleteResource"
+ - "IFixedPage.DeleteResource"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop

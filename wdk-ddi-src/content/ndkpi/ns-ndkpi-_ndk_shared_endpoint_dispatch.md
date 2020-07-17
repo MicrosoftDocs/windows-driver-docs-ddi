@@ -10,6 +10,7 @@ keywords: ["_NDK_SHARED_ENDPOINT_DISPATCH structure"]
 ms.keywords: NDK_SHARED_ENDPOINT_DISPATCH, NDK_SHARED_ENDPOINT_DISPATCH structure [Network Drivers Starting with Windows Vista], _NDK_SHARED_ENDPOINT_DISPATCH, ndkpi/NDK_SHARED_ENDPOINT_DISPATCH, netvista.ndk_shared_endpoint_dispatch
 f1_keywords:
  - "ndkpi/NDK_SHARED_ENDPOINT_DISPATCH"
+ - "NDK_SHARED_ENDPOINT_DISPATCH"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

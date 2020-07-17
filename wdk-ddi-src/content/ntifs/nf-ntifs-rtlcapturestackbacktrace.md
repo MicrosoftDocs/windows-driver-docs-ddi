@@ -10,6 +10,7 @@ keywords: ["RtlCaptureStackBackTrace function"]
 ms.keywords: RtlCaptureStackBackTrace, RtlCaptureStackBackTrace routine [Installable File System Drivers], ifsk.rtlcapturestackbacktrace, ntifs/RtlCaptureStackBackTrace, rtlref_c329ad74-ebb1-478d-a0d2-fd2ae2c8da2a.xml
 f1_keywords:
  - "ntifs/RtlCaptureStackBackTrace"
+ - "RtlCaptureStackBackTrace"
 req.header: ntifs.h
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal

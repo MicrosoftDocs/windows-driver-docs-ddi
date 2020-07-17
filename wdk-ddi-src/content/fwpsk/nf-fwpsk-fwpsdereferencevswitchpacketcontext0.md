@@ -10,6 +10,7 @@ keywords: ["FwpsDereferencevSwitchPacketContext0 function"]
 ms.keywords: FwpsDereferencevSwitchPacketContext0, FwpsDereferencevSwitchPacketContext0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsDereferencevSwitchPacketContext0, netvista.fwpsdereferencevswitchpacketcontext0
 f1_keywords:
  - "fwpsk/FwpsDereferencevSwitchPacketContext0"
+ - "FwpsDereferencevSwitchPacketContext0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal

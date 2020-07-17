@@ -10,6 +10,7 @@ keywords: ["GNSS_GEOREGION structure"]
 ms.keywords: "*PGNSS_GEOREGION, GNSS_GEOREGION, GNSS_GEOREGION structure [Sensor Devices], PGNSS_GEOREGION, PGNSS_GEOREGION structure pointer [Sensor Devices], gnss.gnss_georegion, gnssdriver/GNSS_GEOREGION, gnssdriver/PGNSS_GEOREGION"
 f1_keywords:
  - "gnssdriver/GNSS_GEOREGION"
+ - "GNSS_GEOREGION"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows

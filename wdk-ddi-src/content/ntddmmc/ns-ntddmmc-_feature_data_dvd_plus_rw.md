@@ -10,6 +10,7 @@ keywords: ["_FEATURE_DATA_DVD_PLUS_RW structure"]
 ms.keywords: "*PFEATURE_DATA_DVD_PLUS_RW, FEATURE_DATA_DVD_PLUS_RW, FEATURE_DATA_DVD_PLUS_RW structure [Storage Devices], PFEATURE_DATA_DVD_PLUS_RW, PFEATURE_DATA_DVD_PLUS_RW structure pointer [Storage Devices], _FEATURE_DATA_DVD_PLUS_RW, ntddmmc/FEATURE_DATA_DVD_PLUS_RW, ntddmmc/PFEATURE_DATA_DVD_PLUS_RW, storage.feature_data_dvd_plus_rw, structs-CD-ROM_8b49bf86-5e1a-42a3-9bb6-ba6afca60375.xml"
 f1_keywords:
  - "ntddmmc/FEATURE_DATA_DVD_PLUS_RW"
+ - "FEATURE_DATA_DVD_PLUS_RW"
 req.header: ntddmmc.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["IDebugDataSpaces3::ReadPointersVirtual"]
 ms.keywords: IDebugDataSpaces interface [Windows Debugging],ReadPointersVirtual method, IDebugDataSpaces2 interface [Windows Debugging],ReadPointersVirtual method, IDebugDataSpaces2::ReadPointersVirtual, IDebugDataSpaces3 interface [Windows Debugging],ReadPointersVirtual method, IDebugDataSpaces3.ReadPointersVirtual, IDebugDataSpaces3::ReadPointersVirtual, IDebugDataSpaces4 interface [Windows Debugging],ReadPointersVirtual method, IDebugDataSpaces4::ReadPointersVirtual, IDebugDataSpaces::ReadPointersVirtual, IDebugDataSpaces_d3857a69-3e22-4d7a-97ef-d6cb7bf8613a.xml, ReadPointersVirtual, ReadPointersVirtual method [Windows Debugging], ReadPointersVirtual method [Windows Debugging],IDebugDataSpaces interface, ReadPointersVirtual method [Windows Debugging],IDebugDataSpaces2 interface, ReadPointersVirtual method [Windows Debugging],IDebugDataSpaces3 interface, ReadPointersVirtual method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces2::ReadPointersVirtual, dbgeng/IDebugDataSpaces3::ReadPointersVirtual, dbgeng/IDebugDataSpaces4::ReadPointersVirtual, dbgeng/IDebugDataSpaces::ReadPointersVirtual, debugger.readpointersvirtual
 f1_keywords:
  - "dbgeng/IDebugDataSpaces.ReadPointersVirtual"
+ - "IDebugDataSpaces.ReadPointersVirtual"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

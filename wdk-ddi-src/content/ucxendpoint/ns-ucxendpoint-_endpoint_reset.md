@@ -10,6 +10,7 @@ keywords: ["_ENDPOINT_RESET structure"]
 ms.keywords: "*PENDPOINT_RESET, ENDPOINT_RESET, ENDPOINT_RESET structure [Buses], P_ENDPOINT_RESET, P_ENDPOINT_RESET structure pointer [Buses], _ENDPOINT_RESET, buses._endpoint_reset, ucxendpoint/P_ENDPOINT_RESET, ucxendpoint/_ENDPOINT_RESET"
 f1_keywords:
  - "ucxendpoint/ENDPOINT_RESET"
+ - "ENDPOINT_RESET"
 req.header: ucxendpoint.h
 req.include-header: Ucxclass.h, Ucxendpoint.h
 req.target-type: Windows

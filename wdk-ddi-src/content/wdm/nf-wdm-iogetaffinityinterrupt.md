@@ -10,6 +10,7 @@ keywords: ["IoGetAffinityInterrupt function"]
 ms.keywords: IoGetAffinityInterrupt, IoGetAffinityInterrupt routine [Kernel-Mode Driver Architecture], WdmlibIoGetAffinityInterrupt, k104_39247b69-50e1-4162-b26e-81b5358738de.xml, kernel.iogetaffinityinterrupt, wdm/IoGetAffinityInterrupt, wdm/WdmlibIoGetAffinityInterrupt
 f1_keywords:
  - "wdm/IoGetAffinityInterrupt"
+ - "IoGetAffinityInterrupt"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["IPrintCoreHelperPS::CreateInstanceOfMSXMLObject"]
 ms.keywords: CreateInstanceOfMSXMLObject, CreateInstanceOfMSXMLObject method [Print Devices], CreateInstanceOfMSXMLObject method [Print Devices],IPrintCoreHelperPS interface, IPrintCoreHelperPS interface [Print Devices],CreateInstanceOfMSXMLObject method, IPrintCoreHelperPS.CreateInstanceOfMSXMLObject, IPrintCoreHelperPS::CreateInstanceOfMSXMLObject, prcomoem/IPrintCoreHelperPS::CreateInstanceOfMSXMLObject, print.iprintcorehelperps_createinstanceofmsxmlobject, print_unidrv-pscript_allplugins_c47c4793-f7d9-4688-a50c-3c39b6a9e15c.xml
 f1_keywords:
  - "prcomoem/IPrintCoreHelperPS.CreateInstanceOfMSXMLObject"
+ - "IPrintCoreHelperPS.CreateInstanceOfMSXMLObject"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["_DXVA_BufferDescription structure"]
 ms.keywords: "*LPDXVA_BufferDescription, DXVA_BufferDescription, DXVA_BufferDescription structure [Display Devices], LPDXVA_BufferDescription, LPDXVA_BufferDescription structure pointer [Display Devices], _DXVA_BufferDescription, display.dxva_bufferdescription, dxva/DXVA_BufferDescription, dxva/LPDXVA_BufferDescription, dxvaref_3d6f62c8-77a1-40b0-8bf3-1a82deaf3020.xml"
 f1_keywords:
  - "dxva/DXVA_BufferDescription"
+ - "DXVA_BufferDescription"
 req.header: dxva.h
 req.include-header: Dxva.h
 req.target-type: Windows

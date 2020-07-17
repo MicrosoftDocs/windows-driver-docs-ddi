@@ -10,6 +10,7 @@ keywords: ["_DXVADDI_FIXED32 structure"]
 ms.keywords: DXVA2_Structs_3d19835e-9a75-4d5a-bd6b-451a9978eadb.xml, DXVADDI_FIXED32, DXVADDI_FIXED32 structure [Display Devices], _DXVADDI_FIXED32, d3dumddi/DXVADDI_FIXED32, display.dxvaddi_fixed32
 f1_keywords:
  - "d3dumddi/DXVADDI_FIXED32"
+ - "DXVADDI_FIXED32"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

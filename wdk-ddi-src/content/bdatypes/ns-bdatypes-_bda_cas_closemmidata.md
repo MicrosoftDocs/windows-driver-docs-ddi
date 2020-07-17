@@ -10,6 +10,7 @@ keywords: ["_BDA_CAS_CLOSEMMIDATA structure"]
 ms.keywords: "*PBDA_CAS_CLOSEMMIDATA, BDA_CAS_CLOSEMMIDATA, BDA_CAS_CLOSEMMIDATA structure [Streaming Media Devices], PBDA_CAS_CLOSEMMIDATA, PBDA_CAS_CLOSEMMIDATA structure pointer [Streaming Media Devices], _BDA_CAS_CLOSEMMIDATA, bdatypes/BDA_CAS_CLOSEMMIDATA, bdatypes/PBDA_CAS_CLOSEMMIDATA, stream.bda_cas_closemmidata"
 f1_keywords:
  - "bdatypes/BDA_CAS_CLOSEMMIDATA"
+ - "BDA_CAS_CLOSEMMIDATA"
 req.header: bdatypes.h
 req.include-header: 
 req.target-type: Windows

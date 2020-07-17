@@ -10,6 +10,7 @@ keywords: ["IDebugEventCallbacksWide::CreateProcess"]
 ms.keywords: CreateProcess, CreateProcess method [Windows Debugging], CreateProcess method [Windows Debugging],IDebugEventCallbacksWide interface, IDebugEventCallbacksWide interface [Windows Debugging],CreateProcess method, IDebugEventCallbacksWide.CreateProcess, IDebugEventCallbacksWide::CreateProcess, dbgeng/IDebugEventCallbacksWide::CreateProcess, debugger.idebugeventcallbackswide_createprocess
 f1_keywords:
  - "dbgeng/IDebugEventCallbacksWide.CreateProcess"
+ - "IDebugEventCallbacksWide.CreateProcess"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

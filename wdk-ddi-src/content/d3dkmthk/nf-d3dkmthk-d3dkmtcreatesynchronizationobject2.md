@@ -9,6 +9,7 @@ keywords: ["D3DKMTCreateSynchronizationObject2 function"]
 ms.keywords: D3DKMTCreateSynchronizationObject2, D3DKMTCreateSynchronizationObject2 function [Display Devices], OpenGL_Functions_ba9aa4a0-19e6-40d2-8a17-d22c8756c555.xml, d3dkmthk/D3DKMTCreateSynchronizationObject2, display.d3dkmtcreatesynchronizationobject2
 f1_keywords:
  - "d3dkmthk/D3DKMTCreateSynchronizationObject2"
+ - "D3DKMTCreateSynchronizationObject2"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

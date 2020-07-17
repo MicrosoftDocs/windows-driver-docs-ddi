@@ -10,6 +10,7 @@ keywords: ["_FCP_SEND_REQUEST structure"]
 ms.keywords: "*PFCP_REQUEST, *PFCP_SEND_REQUEST, 61883/FCP_SEND_REQUEST, 61883/PFCP_SEND_REQUEST, FCP_REQUEST, FCP_SEND_REQUEST, FCP_SEND_REQUEST structure [Buses], IEEE.fcp_send_request, PFCP_SEND_REQUEST, PFCP_SEND_REQUEST structure pointer [Buses], _FCP_SEND_REQUEST"
 f1_keywords:
  - "61883/FCP_SEND_REQUEST"
+ - "FCP_SEND_REQUEST"
 req.header: 61883.h
 req.include-header: 
 req.target-type: Windows

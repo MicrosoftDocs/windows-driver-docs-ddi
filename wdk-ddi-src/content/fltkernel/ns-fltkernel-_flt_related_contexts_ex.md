@@ -10,6 +10,7 @@ keywords: ["_FLT_RELATED_CONTEXTS_EX structure"]
 ms.keywords: "*PFLT_RELATED_CONTEXTS_EX, FLT_RELATED_CONTEXTS_EX, FLT_RELATED_CONTEXTS_EX structure [Installable File System Drivers], PFLT_RELATED_CONTEXTS_EX, PFLT_RELATED_CONTEXTS_EX structure pointer [Installable File System Drivers], _FLT_RELATED_CONTEXTS_EX, fltkernel/FLT_RELATED_CONTEXTS_EX, fltkernel/PFLT_RELATED_CONTEXTS_EX, ifsk.flt_related_contexts_ex"
 f1_keywords:
  - "fltkernel/FLT_RELATED_CONTEXTS_EX"
+ - "FLT_RELATED_CONTEXTS_EX"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Windows

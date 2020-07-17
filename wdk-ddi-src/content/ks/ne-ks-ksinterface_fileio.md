@@ -10,6 +10,7 @@ keywords: ["KSINTERFACE_FILEIO enumeration"]
 ms.keywords: KSINTERFACE_FILEIO, KSINTERFACE_FILEIO enumeration [Streaming Media Devices], KSINTERFACE_FILEIO_STREAMING, ks/KSINTERFACE_FILEIO, ks/KSINTERFACE_FILEIO_STREAMING, stream.ksinterface_fileio
 f1_keywords:
  - "ks/KSINTERFACE_FILEIO"
+ - "KSINTERFACE_FILEIO"
 req.header: ks.h
 req.include-header: 
 req.target-type: Windows

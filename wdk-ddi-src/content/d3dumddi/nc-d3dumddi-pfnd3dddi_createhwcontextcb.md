@@ -29,6 +29,7 @@ targetos: Windows
 req.typenames: 
 f1_keywords:
  - "d3dumddi/PFND3DDDI_CREATEHWCONTEXTCB"
+ - "PFND3DDDI_CREATEHWCONTEXTCB"
 topic_type:
  - APIRef
  - kbSyntax

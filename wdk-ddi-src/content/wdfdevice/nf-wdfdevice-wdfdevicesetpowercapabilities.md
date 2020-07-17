@@ -10,6 +10,7 @@ keywords: ["WdfDeviceSetPowerCapabilities function"]
 ms.keywords: DFDeviceObjectGeneralRef_d3d51bfe-62da-4146-b4c1-152cac9f0e82.xml, WdfDeviceSetPowerCapabilities, WdfDeviceSetPowerCapabilities method, kmdf.wdfdevicesetpowercapabilities, wdf.wdfdevicesetpowercapabilities, wdfdevice/WdfDeviceSetPowerCapabilities
 f1_keywords:
  - "wdfdevice/WdfDeviceSetPowerCapabilities"
+ - "WdfDeviceSetPowerCapabilities"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

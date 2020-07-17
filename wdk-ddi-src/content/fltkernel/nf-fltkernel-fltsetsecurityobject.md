@@ -10,6 +10,7 @@ keywords: ["FltSetSecurityObject function"]
 ms.keywords: FltApiRef_p_to_z_1174281c-5ba7-489b-8b8a-c0a4697ce678.xml, FltSetSecurityObject, FltSetSecurityObject function [Installable File System Drivers], fltkernel/FltSetSecurityObject, ifsk.fltsetsecurityobject
 f1_keywords:
  - "fltkernel/FltSetSecurityObject"
+ - "FltSetSecurityObject"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

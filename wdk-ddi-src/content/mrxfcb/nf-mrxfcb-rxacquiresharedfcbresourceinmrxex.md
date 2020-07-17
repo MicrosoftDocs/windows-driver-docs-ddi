@@ -10,6 +10,7 @@ keywords: ["RxAcquireSharedFcbResourceInMRxEx function"]
 ms.keywords: RxAcquireSharedFcbResourceInMRxEx, RxAcquireSharedFcbResourceInMRxEx routine [Installable File System Drivers], ifsk.rxacquiresharedfcbresourceinmrxex, mrxfcb/RxAcquireSharedFcbResourceInMRxEx, rxref_2b8fc5d6-96e5-45a0-897a-f55964e6cc8a.xml
 f1_keywords:
  - "mrxfcb/RxAcquireSharedFcbResourceInMRxEx"
+ - "RxAcquireSharedFcbResourceInMRxEx"
 req.header: mrxfcb.h
 req.include-header: Mrxfcb.h
 req.target-type: Desktop

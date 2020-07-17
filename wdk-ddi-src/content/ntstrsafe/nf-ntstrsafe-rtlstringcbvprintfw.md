@@ -10,6 +10,7 @@ keywords: ["RtlStringCbVPrintfW function"]
 ms.keywords: RtlStringCbVPrintf, RtlStringCbVPrintfA, RtlStringCbVPrintfW, RtlStringCbVPrintfW function [Kernel-Mode Driver Architecture], kernel.rtlstringcbvprintf, ntstrsafe/RtlStringCbVPrintfA, ntstrsafe/RtlStringCbVPrintfW, safestrings_8b0897a4-24fb-4375-80aa-4148ca6815ce.xml
 f1_keywords:
  - "ntstrsafe/RtlStringCbVPrintfW"
+ - "RtlStringCbVPrintfW"
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop

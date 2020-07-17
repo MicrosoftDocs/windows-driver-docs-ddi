@@ -9,6 +9,7 @@ keywords: ["D3DKMTDestroyHwQueue function"]
 ms.keywords: D3DKMTDestroyHwQueue, D3DKMTDestroyHwQueue function [Display Devices], d3dkmthk/D3DKMTDestroyHwQueue, display.d3dkmtdestroyhwqueue
 f1_keywords:
  - "d3dkmthk/D3DKMTDestroyHwQueue"
+ - "D3DKMTDestroyHwQueue"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows

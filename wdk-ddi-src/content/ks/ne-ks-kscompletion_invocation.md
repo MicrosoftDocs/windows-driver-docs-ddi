@@ -10,6 +10,7 @@ keywords: ["KSCOMPLETION_INVOCATION enumeration"]
 ms.keywords: KSCOMPLETION_INVOCATION, KSCOMPLETION_INVOCATION enumeration [Streaming Media Devices], KsInvokeOnCancel, KsInvokeOnError, KsInvokeOnSuccess, ks/KSCOMPLETION_INVOCATION, ks/KsInvokeOnCancel, ks/KsInvokeOnError, ks/KsInvokeOnSuccess, stream.kscompletion_invocation
 f1_keywords:
  - "ks/KSCOMPLETION_INVOCATION"
+ - "KSCOMPLETION_INVOCATION"
 req.header: ks.h
 req.include-header: 
 req.target-type: Windows

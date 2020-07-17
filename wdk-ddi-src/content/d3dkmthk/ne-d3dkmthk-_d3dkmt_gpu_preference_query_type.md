@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["_D3DKMT_GPU_PREFERENCE_QUERY_TYPE enumeration"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_GPU_PREFERENCE_QUERY_TYPE"
+ - "_D3DKMT_GPU_PREFERENCE_QUERY_TYPE"
 ms.keywords: _D3DKMT_GPU_PREFERENCE_QUERY_TYPE, D3DKMT_GPU_PREFERENCE_QUERY_TYPE, 
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -10,6 +10,7 @@ keywords: ["RtlUnicodeStringPrintfEx function"]
 ms.keywords: RtlUnicodeStringPrintfEx, RtlUnicodeStringPrintfEx function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringprintfex, ntstrsafe/RtlUnicodeStringPrintfEx, safestrings_06495952-554e-4e33-8610-dc34b7f1b879.xml
 f1_keywords:
  - "ntstrsafe/RtlUnicodeStringPrintfEx"
+ - "RtlUnicodeStringPrintfEx"
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["FWPS_VSWITCH_POLICY_EVENT_CALLBACK0 callback function"]
 ms.keywords: FWPS_VSWITCH_POLICY_EVENT_CALLBACK0, FWPS_VSWITCH_POLICY_EVENT_CALLBACK0 callback, fwpsk/vSwitchPolicyEventNotifyFn, netvista.fwps_vswitch_policy_event_callback0, vSwitchPolicyEventNotifyFn, vSwitchPolicyEventNotifyFn callback function [Network Drivers Starting with Windows Vista]
 f1_keywords:
  - "fwpsk/vSwitchPolicyEventNotifyFn"
+ - "vSwitchPolicyEventNotifyFn"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Windows

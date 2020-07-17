@@ -10,6 +10,7 @@ keywords: ["KBUGCHECK_CALLBACK_ROUTINE callback function"]
 ms.keywords: BugCheckCallback, BugCheckCallback routine [Kernel-Mode Driver Architecture], DrvrRtns_e968f3db-9875-4f94-8781-074029354e2c.xml, KBUGCHECK_CALLBACK_ROUTINE, kernel.bugcheckcallback, wdm/BugCheckCallback
 f1_keywords:
  - "wdm/BugCheckCallback"
+ - "BugCheckCallback"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

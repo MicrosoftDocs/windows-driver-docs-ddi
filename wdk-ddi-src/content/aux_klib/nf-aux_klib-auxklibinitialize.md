@@ -10,6 +10,7 @@ keywords: ["AuxKlibInitialize function"]
 ms.keywords: AuxKlibInitialize, AuxKlibInitialize routine [Kernel-Mode Driver Architecture], aux_klib/AuxKlibInitialize, aux_klib_d83fd3ae-3a26-4798-9ef8-1530adb78543.xml, kernel.auxklibinitialize
 f1_keywords:
  - "aux_klib/AuxKlibInitialize"
+ - "AuxKlibInitialize"
 req.header: aux_klib.h
 req.include-header: Aux_klib.h
 req.target-type: Universal

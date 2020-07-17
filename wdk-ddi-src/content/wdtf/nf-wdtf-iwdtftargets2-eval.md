@@ -10,6 +10,7 @@ keywords: ["IWDTFTargets2::Eval"]
 ms.keywords: Eval, Eval method [Windows Device Testing Framework], Eval method [Windows Device Testing Framework],IWDTFTargets2 interface, IWDTFTargets2 interface [Windows Device Testing Framework],Eval method, IWDTFTargets2.Eval, IWDTFTargets2::Eval, Microsoft.WDTF.IWDTFTargets2.Eval, Microsoft::WDTF::IWDTFTargets2::Eval, dtf.iwdtftargets2_eval, wdtf/IWDTFTargets2::Eval
 f1_keywords:
  - "wdtf/IWDTFTargets2.Eval"
+ - "IWDTFTargets2.Eval"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Desktop

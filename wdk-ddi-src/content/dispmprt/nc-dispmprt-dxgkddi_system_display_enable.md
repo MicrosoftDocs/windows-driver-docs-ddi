@@ -10,6 +10,7 @@ keywords: ["DXGKDDI_SYSTEM_DISPLAY_ENABLE callback function"]
 ms.keywords: DXGKDDI_SYSTEM_DISPLAY_ENABLE, DXGKDDI_SYSTEM_DISPLAY_ENABLE callback, DxgkDdiSystemDisplayEnable, DxgkDdiSystemDisplayEnable callback function [Display Devices], display.dxgkddisystemdisplayenable, dispmprt/DxgkDdiSystemDisplayEnable
 f1_keywords:
  - "dispmprt/DxgkDdiSystemDisplayEnable"
+ - "DxgkDdiSystemDisplayEnable"
 req.header: dispmprt.h
 req.include-header: 
 req.target-type: Desktop

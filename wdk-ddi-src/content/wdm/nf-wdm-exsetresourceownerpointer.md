@@ -10,6 +10,7 @@ keywords: ["ExSetResourceOwnerPointer function"]
 ms.keywords: ExSetResourceOwnerPointer, ExSetResourceOwnerPointer routine [Kernel-Mode Driver Architecture], k102_1f5ed4f7-4252-4f50-9c40-06d6204d8b57.xml, kernel.exsetresourceownerpointer, wdm/ExSetResourceOwnerPointer
 f1_keywords:
  - "wdm/ExSetResourceOwnerPointer"
+ - "ExSetResourceOwnerPointer"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

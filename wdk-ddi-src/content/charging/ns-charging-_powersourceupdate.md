@@ -10,6 +10,7 @@ keywords: ["_POWERSOURCEUPDATE structure"]
 ms.keywords: "*PPOWERSOURCEUPDATE, POWERSOURCEUPDATE, POWERSOURCEUPDATE structure [Battery Devices], _POWERSOURCEUPDATE, battery.powersourceupdate, charging/BATTERY_INFORMATION"
 f1_keywords:
  - "charging/BATTERY_INFORMATION"
+ - "BATTERY_INFORMATION"
 req.header: charging.h
 req.include-header: Charging.h
 req.target-type: Windows

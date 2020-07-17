@@ -7,6 +7,7 @@ ms.date: 07/13/2018
 keywords: ["ErrorClass enumeration"]
 f1_keywords:
  - "dbgmodel/ErrorClass"
+ - "ErrorClass"
 ms.keywords: ErrorClass, , 
 req.header: dbgmodel.h
 req.include-header:

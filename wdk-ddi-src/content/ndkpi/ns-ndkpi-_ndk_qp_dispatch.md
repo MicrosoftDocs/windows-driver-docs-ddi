@@ -10,6 +10,7 @@ keywords: ["_NDK_QP_DISPATCH structure"]
 ms.keywords: NDK_QP_DISPATCH, NDK_QP_DISPATCH structure [Network Drivers Starting with Windows Vista], _NDK_QP_DISPATCH, ndkpi/NDK_QP_DISPATCH, netvista.ndk_qp_dispatch
 f1_keywords:
  - "ndkpi/NDK_QP_DISPATCH"
+ - "NDK_QP_DISPATCH"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["_RemoveConnectionFromSession_IN structure"]
 ms.keywords: "*PRemoveConnectionFromSession_IN, PRemoveConnectionFromSession_IN, PRemoveConnectionFromSession_IN structure pointer [Storage Devices], RemoveConnectionFromSession_IN, RemoveConnectionFromSession_IN structure [Storage Devices], _RemoveConnectionFromSession_IN, iscsiop/PRemoveConnectionFromSession_IN, iscsiop/RemoveConnectionFromSession_IN, storage.removeconnectionfromsession_in, structs-iSCSI_7dca8bd4-ebf8-4ccc-996a-852fabba5df3.xml"
 f1_keywords:
  - "iscsiop/RemoveConnectionFromSession_IN"
+ - "RemoveConnectionFromSession_IN"
 req.header: iscsiop.h
 req.include-header: Iscsiop.h
 req.target-type: Windows

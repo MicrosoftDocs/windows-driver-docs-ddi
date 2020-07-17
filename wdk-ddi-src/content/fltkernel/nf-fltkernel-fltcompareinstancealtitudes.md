@@ -10,6 +10,7 @@ keywords: ["FltCompareInstanceAltitudes function"]
 ms.keywords: FltApiRef_a_to_d_5f6cccb8-671c-495a-9c18-c262d4845105.xml, FltCompareInstanceAltitudes, FltCompareInstanceAltitudes function [Installable File System Drivers], fltkernel/FltCompareInstanceAltitudes, ifsk.fltcompareinstancealtitudes
 f1_keywords:
  - "fltkernel/FltCompareInstanceAltitudes"
+ - "FltCompareInstanceAltitudes"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

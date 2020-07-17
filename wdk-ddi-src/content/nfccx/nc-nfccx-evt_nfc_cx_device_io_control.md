@@ -10,6 +10,7 @@ keywords: ["EVT_NFC_CX_DEVICE_IO_CONTROL callback function"]
 ms.keywords: EVT_NFC_CX_DEVICE_IO_CONTROL, EVT_NFC_CX_DEVICE_IO_CONTROL callback, EvtNfcCxDeviceIoControl, EvtNfcCxDeviceIoControl callback function [Near-Field Proximity Drivers], nfccx/EvtNfcCxDeviceIoControl, nfpdrivers.evtnfccxdeviceiocontrol_
 f1_keywords:
  - "nfccx/EvtNfcCxDeviceIoControl"
+ - "EvtNfcCxDeviceIoControl"
 req.header: nfccx.h
 req.include-header: Ncidef.h
 req.target-type: Desktop

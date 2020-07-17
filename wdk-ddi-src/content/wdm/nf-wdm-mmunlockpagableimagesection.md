@@ -10,6 +10,7 @@ keywords: ["MmUnlockPagableImageSection function"]
 ms.keywords: MmUnlockPagableImageSection, MmUnlockPagableImageSection routine [Kernel-Mode Driver Architecture], k106_1420e152-a858-4256-87ed-8fa78ee76379.xml, kernel.mmunlockpagableimagesection, wdm/MmUnlockPagableImageSection
 f1_keywords:
  - "wdm/MmUnlockPagableImageSection"
+ - "MmUnlockPagableImageSection"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

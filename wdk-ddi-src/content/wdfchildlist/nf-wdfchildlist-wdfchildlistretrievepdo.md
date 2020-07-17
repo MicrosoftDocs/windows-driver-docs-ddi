@@ -10,6 +10,7 @@ keywords: ["WdfChildListRetrievePdo function"]
 ms.keywords: DFDeviceObjectChildListRef_d61bfe9b-d201-48ae-89f4-4e1566c0a396.xml, WdfChildListRetrievePdo, WdfChildListRetrievePdo method, kmdf.wdfchildlistretrievepdo, wdf.wdfchildlistretrievepdo, wdfchildlist/WdfChildListRetrievePdo
 f1_keywords:
  - "wdfchildlist/WdfChildListRetrievePdo"
+ - "WdfChildListRetrievePdo"
 req.header: wdfchildlist.h
 req.include-header: Wdf.h
 req.target-type: Universal

@@ -7,6 +7,7 @@ ms.date: 08/08/2018
 keywords: ["CollectionsListGetMarshalledSize function"]
 f1_keywords:
  - "sensorsutils/CollectionsListGetMarshalledSize"
+ - "CollectionsListGetMarshalledSize"
 tech.root: sensors
 ms.keywords: CollectionsListGetMarshalledSize
 req.header: sensorsutils.h

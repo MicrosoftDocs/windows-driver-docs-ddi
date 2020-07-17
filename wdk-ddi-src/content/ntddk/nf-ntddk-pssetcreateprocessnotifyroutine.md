@@ -10,6 +10,7 @@ keywords: ["PsSetCreateProcessNotifyRoutine function"]
 ms.keywords: PsSetCreateProcessNotifyRoutine, PsSetCreateProcessNotifyRoutine routine [Kernel-Mode Driver Architecture], k108_6ae7797a-ecbe-4665-85d5-e199f13613cd.xml, kernel.pssetcreateprocessnotifyroutine, ntddk/PsSetCreateProcessNotifyRoutine
 f1_keywords:
  - "ntddk/PsSetCreateProcessNotifyRoutine"
+ - "PsSetCreateProcessNotifyRoutine"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

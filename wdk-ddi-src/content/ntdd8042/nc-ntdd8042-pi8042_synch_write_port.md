@@ -10,6 +10,7 @@ keywords: ["PI8042_SYNCH_WRITE_PORT callback function"]
 ms.keywords: PI8042_SYNCH_WRITE_PORT, PI8042_SYNCH_WRITE_PORT callback, SynchWritePort, SynchWritePort callback function [Human Input Devices], hid.pi8042_synch_write_port, i8042ref_79e22dfb-4844-4126-a6a2-b2f908cbdf79.xml, ntdd8042/SynchWritePort
 f1_keywords:
  - "ntdd8042/SynchWritePort"
+ - "SynchWritePort"
 req.header: ntdd8042.h
 req.include-header: Ntdd8042.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["RxPrefixTableLookupName function"]
 ms.keywords: RxPrefixTableLookupName, RxPrefixTableLookupName function [Installable File System Drivers], ifsk.rxprefixtablelookupname, prefix/RxPrefixTableLookupName, rxref_e46fe04e-07a6-4733-936e-e70a51009618.xml
 f1_keywords:
  - "prefix/RxPrefixTableLookupName"
+ - "RxPrefixTableLookupName"
 req.header: prefix.h
 req.include-header: Prefix.h
 req.target-type: Desktop

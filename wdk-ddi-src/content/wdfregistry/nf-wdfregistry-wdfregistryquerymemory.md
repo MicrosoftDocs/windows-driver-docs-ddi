@@ -10,6 +10,7 @@ keywords: ["WdfRegistryQueryMemory function"]
 ms.keywords: DFRegKeyObjectRef_97e02e2b-59d4-4041-a22d-e3a8905c096f.xml, WdfRegistryQueryMemory, WdfRegistryQueryMemory method, kmdf.wdfregistryquerymemory, wdf.wdfregistryquerymemory, wdfregistry/WdfRegistryQueryMemory
 f1_keywords:
  - "wdfregistry/WdfRegistryQueryMemory"
+ - "WdfRegistryQueryMemory"
 req.header: wdfregistry.h
 req.include-header: Wdf.h
 req.target-type: Universal

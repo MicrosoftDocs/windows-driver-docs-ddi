@@ -10,6 +10,7 @@ keywords: ["PFNKSDEVICEIRP callback function"]
 ms.keywords: AVStrMiniDeviceQueryInterface, AVStrMiniDeviceQueryRemove, AVStrMiniDeviceQueryRemove routine [Streaming Media Devices], PFNKSDEVICEIRP, avstclbk_e4e3e23a-c4e7-47fb-ad10-6a0a630669ed.xml, ks/AVStrMiniDeviceQueryRemove, stream.avstrminidevicequeryremove
 f1_keywords:
  - "ks/AVStrMiniDeviceQueryRemove"
+ - "AVStrMiniDeviceQueryRemove"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop

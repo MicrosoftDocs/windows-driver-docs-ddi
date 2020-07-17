@@ -10,6 +10,7 @@ keywords: ["EVT_UCM_CONNECTOR_SET_POWER_ROLE callback function"]
 ms.keywords: EVT_UCM_CONNECTOR_SET_POWER_ROLE, EVT_UCM_CONNECTOR_SET_POWER_ROLE callback, EvtSetDataRole, EvtSetDataRole callback function [Buses], PFN_UCM_CONNECTOR_SET_POWER_ROLE, PFN_UCM_CONNECTOR_SET_POWER_ROLE callback function pointer [Buses], buses.evt_ucm_connector_set_power_role, ucmmanager/EvtSetDataRole
 f1_keywords:
  - "ucmmanager/PFN_UCM_CONNECTOR_SET_POWER_ROLE"
+ - "PFN_UCM_CONNECTOR_SET_POWER_ROLE"
 req.header: ucmmanager.h
 req.include-header: Ucmcx.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["BdaPropertyNodeMethods function"]
 ms.keywords: BdaPropertyNodeMethods, BdaPropertyNodeMethods function [Streaming Media Devices], bdaref_15a0d157-4e7d-43ae-9f1f-6ffb70bd4f9b.xml, bdasup/BdaPropertyNodeMethods, stream.bdapropertynodemethods
 f1_keywords:
  - "bdasup/BdaPropertyNodeMethods"
+ - "BdaPropertyNodeMethods"
 req.header: bdasup.h
 req.include-header: Bdasup.h
 req.target-type: Desktop

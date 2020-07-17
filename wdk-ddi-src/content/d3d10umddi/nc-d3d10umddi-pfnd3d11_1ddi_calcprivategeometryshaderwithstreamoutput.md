@@ -9,6 +9,7 @@ keywords: ["PFND3D11_1DDI_CALCPRIVATEGEOMETRYSHADERWITHSTREAMOUTPUT callback fun
 ms.keywords: CalcPrivateGeometryShaderWithStreamOutput(D3D11_1), CalcPrivateGeometryShaderWithStreamOutput(D3D11_1) callback function [Display Devices], PFND3D11_1DDI_CALCPRIVATEGEOMETRYSHADERWITHSTREAMOUTPUT, PFND3D11_1DDI_CALCPRIVATEGEOMETRYSHADERWITHSTREAMOUTPUT callback, d3d10umddi/CalcPrivateGeometryShaderWithStreamOutput(D3D11_1), display.calcprivategeometryshaderwithstreamoutput_d3d11_1_, display.pfncalcprivategeometryshaderwithstreamoutput
 f1_keywords:
  - "d3d10umddi/CalcPrivateGeometryShaderWithStreamOutput(D3D11_1)"
+ - "CalcPrivateGeometryShaderWithStreamOutput(D3D11_1)"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

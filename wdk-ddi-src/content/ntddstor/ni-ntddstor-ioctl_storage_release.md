@@ -10,6 +10,7 @@ keywords: ["IOCTL_STORAGE_RELEASE IOCTL"]
 ms.keywords: IOCTL_STORAGE_RELEASE, IOCTL_STORAGE_RELEASE control, IOCTL_STORAGE_RELEASE control code [Storage Devices], k307_8097610b-98ad-4bb2-9f16-2caca8bf7f0d.xml, ntddstor/IOCTL_STORAGE_RELEASE, storage.ioctl_storage_release
 f1_keywords:
  - "ntddstor/IOCTL_STORAGE_RELEASE"
+ - "IOCTL_STORAGE_RELEASE"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows

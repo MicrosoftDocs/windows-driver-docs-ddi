@@ -10,6 +10,7 @@ keywords: ["IPartFont::SetFontOptions"]
 ms.keywords: IPartFont interface [Print Devices],SetFontOptions method, IPartFont.SetFontOptions, IPartFont::SetFontOptions, SetFontOptions, SetFontOptions method [Print Devices], SetFontOptions method [Print Devices],IPartFont interface, filterpipeline/IPartFont::SetFontOptions, filterpipeline_9461a7cc-ee59-4710-ada4-ebea899babaa.xml, print.ipartfont_setfontoptions
 f1_keywords:
  - "filterpipeline/IPartFont.SetFontOptions"
+ - "IPartFont.SetFontOptions"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop

@@ -7,6 +7,7 @@ ms.date: 07/20/2018
 keywords: ["IModelObject::Compare"]
 f1_keywords:
  - "dbgmodel/IModelObject.Compare"
+ - "IModelObject.Compare"
 ms.keywords: IModelObject::Compare, Compare, IModelObject.Compare, IModelObject::Compare, IModelObject.Compare
 req.header: dbgmodel.h
 req.include-header:

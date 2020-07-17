@@ -10,6 +10,7 @@ keywords: ["_IO_ADDRESS structure"]
 ms.keywords: "*PIO_ADDRESS, 1394/IO_ADDRESS, 1394/PIO_ADDRESS, 1394stct_1683915b-161d-4741-91b9-32f632b56e59.xml, IEEE.io_address, IO_ADDRESS, IO_ADDRESS structure [Buses], PIO_ADDRESS, PIO_ADDRESS structure pointer [Buses], _IO_ADDRESS"
 f1_keywords:
  - "1394/IO_ADDRESS"
+ - "IO_ADDRESS"
 req.header: 1394.h
 req.include-header: 1394.h
 req.target-type: Windows

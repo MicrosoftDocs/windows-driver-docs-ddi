@@ -10,6 +10,7 @@ keywords: ["PFN_WSK_ACCEPT callback function"]
 ms.keywords: PFN_WSK_ACCEPT, PFN_WSK_ACCEPT callback, WskAccept, WskAccept callback function [Network Drivers Starting with Windows Vista], netvista.wskaccept, wsk/WskAccept, wskref_22de82fc-18c4-4fed-b0fe-7e048ba7cfeb.xml
 f1_keywords:
  - "wsk/WskAccept"
+ - "WskAccept"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Universal

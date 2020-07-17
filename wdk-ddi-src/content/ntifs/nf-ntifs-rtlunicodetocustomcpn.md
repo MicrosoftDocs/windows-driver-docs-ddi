@@ -10,6 +10,7 @@ keywords: ["RtlUnicodeToCustomCPN function"]
 ms.keywords: RtlUnicodeToCustomCPN, RtlUnicodeToCustomCPN function [Installable File System Drivers], ifsk.rtlunicodetocustomcpn, ntifs/RtlUnicodeToCustomCPN, rtlref_0c9942bd-a950-4d59-8fc7-58c41cfe78d4.xml
 f1_keywords:
  - "ntifs/RtlUnicodeToCustomCPN"
+ - "RtlUnicodeToCustomCPN"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

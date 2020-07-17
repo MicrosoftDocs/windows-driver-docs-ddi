@@ -10,6 +10,7 @@ keywords: ["WdfDmaTransactionRelease function"]
 ms.keywords: DFDmaObjectRef_24ae3a95-d8b5-4a41-874a-ef537ed4c4cd.xml, WdfDmaTransactionRelease, WdfDmaTransactionRelease method, kmdf.wdfdmatransactionrelease, wdf.wdfdmatransactionrelease, wdfdmatransaction/WdfDmaTransactionRelease
 f1_keywords:
  - "wdfdmatransaction/WdfDmaTransactionRelease"
+ - "WdfDmaTransactionRelease"
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h
 req.target-type: Universal

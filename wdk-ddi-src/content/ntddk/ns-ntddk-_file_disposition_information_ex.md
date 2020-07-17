@@ -10,6 +10,7 @@ keywords: ["_FILE_DISPOSITION_INFORMATION_EX structure"]
 ms.keywords: "*PFILE_DISPOSITION_INFORMATION_EX, FILE_DISPOSITION_INFORMATION_EX, FILE_DISPOSITION_INFORMATION_EX structure [Installable File System Drivers], PFILE_DISPOSITION_INFORMATION_EX, PFILE_DISPOSITION_INFORMATION_EX structure pointer [Installable File System Drivers], _FILE_DISPOSITION_INFORMATION_EX, ifsk.file_disposition_information_ex, ntddk/FILE_DISPOSITION_INFORMATION_EX, ntddk/PFILE_DISPOSITION_INFORMATION_EX"
 f1_keywords:
  - "ntddk/FILE_DISPOSITION_INFORMATION_EX"
+ - "FILE_DISPOSITION_INFORMATION_EX"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Windows

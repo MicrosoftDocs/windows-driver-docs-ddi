@@ -10,6 +10,7 @@ keywords: ["IPrintOemPS::ResetPDEV"]
 ms.keywords: IPrintOemPS interface [Print Devices],ResetPDEV method, IPrintOemPS.ResetPDEV, IPrintOemPS::ResetPDEV, ResetPDEV, ResetPDEV method [Print Devices], ResetPDEV method [Print Devices],IPrintOemPS interface, prcomoem/IPrintOemPS::ResetPDEV, print.iprintoemps_resetpdev, print_unidrv-pscript_rendering_d7b128bc-174c-4d06-8ffa-8df31ac22303.xml
 f1_keywords:
  - "prcomoem/IPrintOemPS.ResetPDEV"
+ - "IPrintOemPS.ResetPDEV"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["WdfIoTargetSendIoctlSynchronously function"]
 ms.keywords: DFIOTargetRef_522ce9d9-948a-4a19-a590-ab01d6ca8969.xml, WdfIoTargetSendIoctlSynchronously, WdfIoTargetSendIoctlSynchronously method, kmdf.wdfiotargetsendioctlsynchronously, wdf.wdfiotargetsendioctlsynchronously, wdfiotarget/WdfIoTargetSendIoctlSynchronously
 f1_keywords:
  - "wdfiotarget/WdfIoTargetSendIoctlSynchronously"
+ - "WdfIoTargetSendIoctlSynchronously"
 req.header: wdfiotarget.h
 req.include-header: Wdf.h
 req.target-type: Universal

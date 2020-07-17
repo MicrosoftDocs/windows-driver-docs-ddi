@@ -10,6 +10,7 @@ keywords: ["IPortWaveRTStream::UnmapAllocatedPages"]
 ms.keywords: IPortWaveRTStream interface [Audio Devices],UnmapAllocatedPages method, IPortWaveRTStream.UnmapAllocatedPages, IPortWaveRTStream::UnmapAllocatedPages, UnmapAllocatedPages, UnmapAllocatedPages method [Audio Devices], UnmapAllocatedPages method [Audio Devices],IPortWaveRTStream interface, audio.iportwavertstream_unmapallocatedpages, audmp-routines_2d402b1b-6951-48db-89bb-81f3cc7e0076.xml, portcls/IPortWaveRTStream::UnmapAllocatedPages
 f1_keywords:
  - "portcls/IPortWaveRTStream.UnmapAllocatedPages"
+ - "IPortWaveRTStream.UnmapAllocatedPages"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal

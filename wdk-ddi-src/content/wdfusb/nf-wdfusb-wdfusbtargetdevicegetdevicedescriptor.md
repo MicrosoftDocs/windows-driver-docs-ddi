@@ -10,6 +10,7 @@ keywords: ["WdfUsbTargetDeviceGetDeviceDescriptor function"]
 ms.keywords: DFUsbRef_a59d2f05-4ecf-400f-823e-b2d2533020a2.xml, WdfUsbTargetDeviceGetDeviceDescriptor, WdfUsbTargetDeviceGetDeviceDescriptor method, kmdf.wdfusbtargetdevicegetdevicedescriptor, wdf.wdfusbtargetdevicegetdevicedescriptor, wdfusb/WdfUsbTargetDeviceGetDeviceDescriptor
 f1_keywords:
  - "wdfusb/WdfUsbTargetDeviceGetDeviceDescriptor"
+ - "WdfUsbTargetDeviceGetDeviceDescriptor"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal

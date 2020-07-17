@@ -10,6 +10,7 @@ keywords: ["IPrinterExtensionRequest::Complete"]
 ms.keywords: Complete, Complete method [Print Devices], Complete method [Print Devices],IPrinterExtensionRequest interface, IPrinterExtensionRequest interface [Print Devices],Complete method, IPrinterExtensionRequest.Complete, IPrinterExtensionRequest::Complete, print.iprinterextensionrequest_complete, printerextension/IPrinterExtensionRequest::Complete
 f1_keywords:
  - "printerextension/IPrinterExtensionRequest.Complete"
+ - "IPrinterExtensionRequest.Complete"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop

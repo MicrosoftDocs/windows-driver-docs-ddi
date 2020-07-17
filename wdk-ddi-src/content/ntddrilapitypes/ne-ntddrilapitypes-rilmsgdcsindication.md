@@ -10,6 +10,7 @@ keywords: ["RILMSGDCSINDICATION enumeration"]
 ms.keywords: RILMSGDCSINDICATION, RILMSGDCSINDICATION enumeration [Network Drivers Starting with Windows Vista], RIL_DCSINDICATION_EMAIL, RIL_DCSINDICATION_FAX, RIL_DCSINDICATION_MAX, RIL_DCSINDICATION_OTHER, netvista.rilmsgdcsindication, ntddrilapitypes/RILMSGDCSINDICATION, ntddrilapitypes/RIL_DCSINDICATION_EMAIL, ntddrilapitypes/RIL_DCSINDICATION_FAX, ntddrilapitypes/RIL_DCSINDICATION_MAX, ntddrilapitypes/RIL_DCSINDICATION_OTHER
 f1_keywords:
  - "ntddrilapitypes/RILMSGDCSINDICATION"
+ - "RILMSGDCSINDICATION"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

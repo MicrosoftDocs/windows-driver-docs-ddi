@@ -10,6 +10,7 @@ keywords: ["OEMQueryDeviceSupport function"]
 ms.keywords: OEMQueryDeviceSupport, OEMQueryDeviceSupport function [Print Devices], print.oemquerydevicesupport, print_unidrv-pscript_rendering_9bfec781-8785-4ff6-8abf-6e14233827dc.xml, printoem/OEMQueryDeviceSupport
 f1_keywords:
  - "printoem/OEMQueryDeviceSupport"
+ - "OEMQueryDeviceSupport"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows

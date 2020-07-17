@@ -10,6 +10,7 @@ keywords: ["_WDF_QUERY_INTERFACE_CONFIG structure"]
 ms.keywords: "*PWDF_QUERY_INTERFACE_CONFIG, DFDeviceObjectDriverDefIntRef_5b68f6e3-95f7-4339-91c2-2ea2d88d698b.xml, PWDF_QUERY_INTERFACE_CONFIG, PWDF_QUERY_INTERFACE_CONFIG structure pointer, WDF_QUERY_INTERFACE_CONFIG, WDF_QUERY_INTERFACE_CONFIG structure, _WDF_QUERY_INTERFACE_CONFIG, kmdf.wdf_query_interface_config, wdf.wdf_query_interface_config, wdfqueryinterface/PWDF_QUERY_INTERFACE_CONFIG, wdfqueryinterface/WDF_QUERY_INTERFACE_CONFIG"
 f1_keywords:
  - "wdfqueryinterface/WDF_QUERY_INTERFACE_CONFIG"
+ - "WDF_QUERY_INTERFACE_CONFIG"
 req.header: wdfqueryinterface.h
 req.include-header: Wdf.h
 req.target-type: Windows

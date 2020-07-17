@@ -10,6 +10,7 @@ keywords: ["FsRtlAddToTunnelCache function"]
 ms.keywords: FsRtlAddToTunnelCache, FsRtlAddToTunnelCache routine [Installable File System Drivers], fsrtlref_85021948-2f5a-4462-8222-ddc25ed86f97.xml, ifsk.fsrtladdtotunnelcache, ntifs/FsRtlAddToTunnelCache
 f1_keywords:
  - "ntifs/FsRtlAddToTunnelCache"
+ - "FsRtlAddToTunnelCache"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

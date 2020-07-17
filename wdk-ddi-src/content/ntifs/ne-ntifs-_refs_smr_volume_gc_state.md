@@ -10,6 +10,7 @@ keywords: ["_REFS_SMR_VOLUME_GC_STATE enumeration"]
 ms.keywords: "*PREFS_SMR_VOLUME_GC_STATE, PREFS_SMR_VOLUME_GC_STATE, PREFS_SMR_VOLUME_GC_STATE enumeration pointer [Installable File System Drivers], REFS_SMR_VOLUME_GC_STATE, REFS_SMR_VOLUME_GC_STATE enumeration [Installable File System Drivers], SmrGcStateActive, SmrGcStateActiveFullSpeed, SmrGcStateInactive, SmrGcStatePaused, _REFS_SMR_VOLUME_GC_STATE, ifsk.refs_smr_volume_gc_state, ntifs/PREFS_SMR_VOLUME_GC_STATE, ntifs/REFS_SMR_VOLUME_GC_STATE, ntifs/SmrGcStateActive, ntifs/SmrGcStateActiveFullSpeed, ntifs/SmrGcStateInactive, ntifs/SmrGcStatePaused"
 f1_keywords:
  - "ntifs/REFS_SMR_VOLUME_GC_STATE"
+ - "REFS_SMR_VOLUME_GC_STATE"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

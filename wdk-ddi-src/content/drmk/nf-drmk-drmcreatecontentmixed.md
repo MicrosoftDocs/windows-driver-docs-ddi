@@ -10,6 +10,7 @@ keywords: ["DrmCreateContentMixed function"]
 ms.keywords: DrmCreateContentMixed, DrmCreateContentMixed function [Audio Devices], aud-prop2_19a8815e-db9d-43a9-ad5a-c081a1af4f99.xml, audio.drmcreatecontentmixed, drmk/DrmCreateContentMixed
 f1_keywords:
  - "drmk/DrmCreateContentMixed"
+ - "DrmCreateContentMixed"
 req.header: drmk.h
 req.include-header: Drmk.h
 req.target-type: Universal

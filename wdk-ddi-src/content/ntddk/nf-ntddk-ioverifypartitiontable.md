@@ -10,6 +10,7 @@ keywords: ["IoVerifyPartitionTable function"]
 ms.keywords: IoVerifyPartitionTable, IoVerifyPartitionTable routine [Kernel-Mode Driver Architecture], k104_d550806b-f911-45f6-b6ab-efbf05683c4d.xml, kernel.ioverifypartitiontable, ntddk/IoVerifyPartitionTable
 f1_keywords:
  - "ntddk/IoVerifyPartitionTable"
+ - "IoVerifyPartitionTable"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

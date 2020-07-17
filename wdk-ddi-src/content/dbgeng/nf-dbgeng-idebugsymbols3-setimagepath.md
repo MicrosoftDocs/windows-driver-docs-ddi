@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::SetImagePath"]
 ms.keywords: IDebugSymbols interface [Windows Debugging],SetImagePath method, IDebugSymbols2 interface [Windows Debugging],SetImagePath method, IDebugSymbols2::SetImagePath, IDebugSymbols3 interface [Windows Debugging],SetImagePath method, IDebugSymbols3.SetImagePath, IDebugSymbols3::SetImagePath, IDebugSymbols::SetImagePath, IDebugSymbols_062aa9c4-33c9-4a73-a11f-7d5e6b94e96c.xml, SetImagePath, SetImagePath method [Windows Debugging], SetImagePath method [Windows Debugging],IDebugSymbols interface, SetImagePath method [Windows Debugging],IDebugSymbols2 interface, SetImagePath method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols2::SetImagePath, dbgeng/IDebugSymbols3::SetImagePath, dbgeng/IDebugSymbols::SetImagePath, debugger.setimagepath
 f1_keywords:
  - "dbgeng/IDebugSymbols.SetImagePath"
+ - "IDebugSymbols.SetImagePath"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

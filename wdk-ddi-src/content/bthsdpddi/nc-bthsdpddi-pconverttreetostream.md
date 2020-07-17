@@ -29,6 +29,7 @@ targetos: Windows
 req.typenames: 
 f1_keywords:
  - "bthsdpddi/SdpConvertTreeToStream"
+ - "SdpConvertTreeToStream"
 topic_type:
  - APIRef
  - kbSyntax

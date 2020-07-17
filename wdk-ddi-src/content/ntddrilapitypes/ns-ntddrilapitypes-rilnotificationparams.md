@@ -10,6 +10,7 @@ keywords: ["RILNOTIFICATIONPARAMS structure"]
 ms.keywords: "*LPRILNOTIFICATIONPARAMS, RILNOTIFICATIONPARAMS, RILNOTIFICATIONPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilnotificationparams, ntddrilapitypes/RILNOTIFICATIONPARAMS"
 f1_keywords:
  - "ntddrilapitypes/RILNOTIFICATIONPARAMS"
+ - "RILNOTIFICATIONPARAMS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

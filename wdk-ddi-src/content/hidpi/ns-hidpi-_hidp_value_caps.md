@@ -10,6 +10,7 @@ keywords: ["_HIDP_VALUE_CAPS structure"]
 ms.keywords: "*PHIDP_VALUE_CAPS, HIDP_VALUE_CAPS, HIDP_VALUE_CAPS structure [Human Input Devices], PHIDP_VALUE_CAPS, PHIDP_VALUE_CAPS structure pointer [Human Input Devices], _HIDP_VALUE_CAPS, hid.hidp_value_caps, hidpi/HIDP_VALUE_CAPS, hidpi/PHIDP_VALUE_CAPS, hidstrct_cbe30aff-5a6a-40d4-9621-b8d93ebb1948.xml"
 f1_keywords:
  - "hidpi/HIDP_VALUE_CAPS"
+ - "HIDP_VALUE_CAPS"
 req.header: hidpi.h
 req.include-header: Hidpi.h
 req.target-type: Windows

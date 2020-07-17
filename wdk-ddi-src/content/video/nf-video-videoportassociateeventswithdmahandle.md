@@ -10,6 +10,7 @@ keywords: ["VideoPortAssociateEventsWithDmaHandle function"]
 ms.keywords: VideoPortAssociateEventsWithDmaHandle, VideoPortAssociateEventsWithDmaHandle function [Display Devices], VideoPort_Functions_0b61cb97-6bee-4882-83c9-1a56b8c2807b.xml, display.videoportassociateeventswithdmahandle, video/VideoPortAssociateEventsWithDmaHandle
 f1_keywords:
  - "video/VideoPortAssociateEventsWithDmaHandle"
+ - "VideoPortAssociateEventsWithDmaHandle"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

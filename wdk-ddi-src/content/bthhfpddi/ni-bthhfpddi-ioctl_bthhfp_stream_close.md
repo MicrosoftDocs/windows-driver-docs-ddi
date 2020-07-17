@@ -10,6 +10,7 @@ keywords: ["IOCTL_BTHHFP_STREAM_CLOSE IOCTL"]
 ms.keywords: IOCTL_BTHHFP_STREAM_CLOSE, IOCTL_BTHHFP_STREAM_CLOSE control, IOCTL_BTHHFP_STREAM_CLOSE control code [Audio Devices], audio.ioctl_bthhfp_stream_close, bthhfpddi/IOCTL_BTHHFP_STREAM_CLOSE
 f1_keywords:
  - "bthhfpddi/IOCTL_BTHHFP_STREAM_CLOSE"
+ - "IOCTL_BTHHFP_STREAM_CLOSE"
 req.header: bthhfpddi.h
 req.include-header: 
 req.target-type: Windows

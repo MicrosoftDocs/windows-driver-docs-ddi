@@ -10,6 +10,7 @@ keywords: ["PCAM_NEW_FRAME_ROUTINE callback function"]
 ms.keywords: CamNewVideoFrame, CamNewVideoFrame callback function [Streaming Media Devices], PCAM_NEW_FRAME_ROUTINE, PCAM_NEW_FRAME_ROUTINE callback, stream.camnewvideoframe, usbcamdi/CamNewVideoFrame, usbcmdpr_5f488227-2c1a-497e-975a-dc2b388f8489.xml
 f1_keywords:
  - "usbcamdi/CamNewVideoFrame"
+ - "CamNewVideoFrame"
 req.header: usbcamdi.h
 req.include-header: Usbcamdi.h
 req.target-type: Desktop

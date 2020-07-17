@@ -10,6 +10,7 @@ keywords: ["EVT_SERCX2_PIO_RECEIVE_INITIALIZE_TRANSACTION callback function"]
 ms.keywords: 2/EvtSerCx2PioReceiveInitializeTransaction, EVT_SERCX2_PIO_RECEIVE_INITIALIZE_TRANSACTION, EVT_SERCX2_PIO_RECEIVE_INITIALIZE_TRANSACTION callback, EvtSerCx2PioReceiveInitializeTransaction, EvtSerCx2PioReceiveInitializeTransaction callback function [Serial Ports], serports.evtsercx2pioreceiveinitializetransaction
 f1_keywords:
  - "sercx/EvtSerCx2PioReceiveInitializeTransaction"
+ - "EvtSerCx2PioReceiveInitializeTransaction"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop

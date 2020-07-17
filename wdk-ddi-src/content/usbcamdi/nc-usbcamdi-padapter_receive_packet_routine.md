@@ -10,6 +10,7 @@ keywords: ["PADAPTER_RECEIVE_PACKET_ROUTINE callback function"]
 ms.keywords: AdapterReceivePacket, AdapterReceivePacket callback function [Streaming Media Devices], PADAPTER_RECEIVE_PACKET_ROUTINE, PADAPTER_RECEIVE_PACKET_ROUTINE callback, stream.adapterreceivepacket, usbcamdi/AdapterReceivePacket, usbcmdpr_4f4422ba-64f3-4eee-8450-4a3b5715b910.xml
 f1_keywords:
  - "usbcamdi/AdapterReceivePacket"
+ - "AdapterReceivePacket"
 req.header: usbcamdi.h
 req.include-header: Usbcamdi.h
 req.target-type: Desktop

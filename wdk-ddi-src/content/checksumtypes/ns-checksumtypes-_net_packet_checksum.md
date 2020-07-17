@@ -8,6 +8,7 @@ ms.date: 09/25/2019
 keywords: ["_NET_PACKET_CHECKSUM structure"]
 f1_keywords:
  - "checksumtypes/BATTERY_INFORMATION"
+ - "BATTERY_INFORMATION"
 ms.keywords: _NET_PACKET_CHECKSUM, NET_PACKET_CHECKSUM, *PNET_PACKET_CHECKSUM
 req.header: checksumtypes.h
 req.include-header:

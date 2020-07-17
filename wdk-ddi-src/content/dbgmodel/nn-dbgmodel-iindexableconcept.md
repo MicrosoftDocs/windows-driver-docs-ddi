@@ -7,6 +7,7 @@ ms.date: 10/04/2018
 keywords: ["IIndexableConcept interface"]
 f1_keywords:
  - "dbgmodel/IIndexableConcept"
+ - "IIndexableConcept"
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

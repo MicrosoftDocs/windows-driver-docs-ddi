@@ -10,6 +10,7 @@ keywords: ["FltWriteFileEx function"]
 ms.keywords: FltWriteFileEx, FltWriteFileEx function [Installable File System Drivers], fltkernel/FltWriteFileEx, ifsk.fltwritefileex
 f1_keywords:
  - "fltkernel/FltWriteFileEx"
+ - "FltWriteFileEx"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

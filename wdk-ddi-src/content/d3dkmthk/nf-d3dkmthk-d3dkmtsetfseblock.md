@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMTSetFSEBlock function"]
 f1_keywords:
  - "d3dkmthk/D3DKMTSetFSEBlock"
+ - "D3DKMTSetFSEBlock"
 ms.keywords: D3DKMTSetFSEBlock
 req.header: d3dkmthk.h
 req.include-header:

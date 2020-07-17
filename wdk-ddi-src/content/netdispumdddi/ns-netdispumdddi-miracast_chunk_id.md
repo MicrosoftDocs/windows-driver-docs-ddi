@@ -10,6 +10,7 @@ keywords: ["MIRACAST_CHUNK_ID structure"]
 ms.keywords: MIRACAST_CHUNK_ID, MIRACAST_CHUNK_ID union [Display Devices], display.miracast_chunk_id, netdispumdddi/MIRACAST_CHUNK_ID
 f1_keywords:
  - "netdispumdddi/MIRACAST_CHUNK_ID"
+ - "MIRACAST_CHUNK_ID"
 req.header: netdispumdddi.h
 req.include-header: Netdispumdddi.h
 req.target-type: Windows

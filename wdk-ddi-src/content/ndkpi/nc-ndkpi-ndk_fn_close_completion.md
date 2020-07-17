@@ -10,6 +10,7 @@ keywords: ["NDK_FN_CLOSE_COMPLETION callback function"]
 ms.keywords: NDK_FN_CLOSE_COMPLETION, NDK_FN_CLOSE_COMPLETION callback, NdkCloseCompletion, NdkCloseCompletion callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCloseCompletion, netvista.ndk_fn_close_completion
 f1_keywords:
  - "ndkpi/NdkCloseCompletion"
+ - "NdkCloseCompletion"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

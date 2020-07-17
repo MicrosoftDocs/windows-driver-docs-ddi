@@ -10,6 +10,7 @@ ms.date: 09/26/2019
 keywords: ["NET_FRAGMENT_MDL structure"]
 f1_keywords:
  - "mdltypes/NET_FRAGMENT_MDL"
+ - "NET_FRAGMENT_MDL"
 ms.keywords: NET_FRAGMENT_MDL, NET_FRAGMENT_MDL, 
 req.header: mdltypes.h
 req.include-header:

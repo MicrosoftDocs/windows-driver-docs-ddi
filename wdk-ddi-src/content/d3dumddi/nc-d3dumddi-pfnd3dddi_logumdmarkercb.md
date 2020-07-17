@@ -29,6 +29,7 @@ targetos: Windows
 req.typenames: 
 f1_keywords:
  - "d3dumddi/pfnLogUMDMarkerCb"
+ - "pfnLogUMDMarkerCb"
 topic_type:
  - APIRef
  - kbSyntax

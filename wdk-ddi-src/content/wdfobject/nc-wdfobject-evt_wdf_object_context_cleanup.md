@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_OBJECT_CONTEXT_CLEANUP callback function"]
 ms.keywords: DFGenObjectRef_aef7bd25-42a4-41d2-9ba1-1b1113159657.xml, EVT_WDF_OBJECT_CONTEXT_CLEANUP, EVT_WDF_OBJECT_CONTEXT_CLEANUP callback, EvtCleanupCallback, EvtCleanupCallback callback function, kmdf.evtcleanupcallback, wdf.evtcleanupcallback, wdfobject/EvtCleanupCallback
 f1_keywords:
  - "wdfobject/EvtCleanupCallback"
+ - "EvtCleanupCallback"
 req.header: wdfobject.h
 req.include-header: Wdf.h
 req.target-type: Universal

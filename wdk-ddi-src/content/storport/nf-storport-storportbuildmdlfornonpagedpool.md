@@ -10,6 +10,7 @@ keywords: ["StorPortBuildMdlForNonPagedPool function"]
 ms.keywords: StorPortBuildMdlForNonPagedPool, StorPortBuildMdlForNonPagedPool routine [Storage Devices], storage.storportbuildmdlfornonpagedpool, storport/StorPortBuildMdlForNonPagedPool, storprt_98151881-8a9f-4bf9-8365-ec50aecced4f.xml
 f1_keywords:
  - "storport/StorPortBuildMdlForNonPagedPool"
+ - "StorPortBuildMdlForNonPagedPool"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

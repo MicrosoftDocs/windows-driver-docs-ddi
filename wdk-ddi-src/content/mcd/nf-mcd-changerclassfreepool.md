@@ -10,6 +10,7 @@ keywords: ["ChangerClassFreePool function"]
 ms.keywords: ChangerClassFreePool, ChangerClassFreePool routine [Storage Devices], chgrclas_3f5fb8a4-3c85-4dde-80c9-f8e001b7b3bd.xml, mcd/ChangerClassFreePool, storage.changerclassfreepool
 f1_keywords:
  - "mcd/ChangerClassFreePool"
+ - "ChangerClassFreePool"
 req.header: mcd.h
 req.include-header: Mcd.h, Ntddchgr.h
 req.target-type: Desktop

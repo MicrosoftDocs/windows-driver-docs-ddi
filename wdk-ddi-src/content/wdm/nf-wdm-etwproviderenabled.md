@@ -10,6 +10,7 @@ keywords: ["EtwProviderEnabled function"]
 ms.keywords: EtwProviderEnabled, EtwProviderEnabled function [Driver Development Tools], devtest.etwproviderenabled, etw_km_ea4989d3-f349-4dda-9d86-f1b9528ddf1c.xml, wdm/EtwProviderEnabled
 f1_keywords:
  - "wdm/EtwProviderEnabled"
+ - "EtwProviderEnabled"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["IWDFIoTarget::FormatRequestForRead"]
 ms.keywords: FormatRequestForRead, FormatRequestForRead method, FormatRequestForRead method,IWDFIoTarget interface, IWDFIoTarget interface,FormatRequestForRead method, IWDFIoTarget.FormatRequestForRead, IWDFIoTarget::FormatRequestForRead, UMDFIoTargetObjectRef_49d4b6d7-0cd7-4d8a-9b16-7ecc89f82f1e.xml, umdf.iwdfiotarget_formatrequestforread, wdf.iwdfiotarget_formatrequestforread, wudfddi/IWDFIoTarget::FormatRequestForRead
 f1_keywords:
  - "wudfddi/IWDFIoTarget.FormatRequestForRead"
+ - "IWDFIoTarget.FormatRequestForRead"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

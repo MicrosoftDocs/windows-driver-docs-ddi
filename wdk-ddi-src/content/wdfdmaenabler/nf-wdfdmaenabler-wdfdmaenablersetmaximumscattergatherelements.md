@@ -10,6 +10,7 @@ keywords: ["WdfDmaEnablerSetMaximumScatterGatherElements function"]
 ms.keywords: DFDmaObjectRef_d9f2c46d-5981-4997-96b6-5a9db0dbfd8d.xml, WdfDmaEnablerSetMaximumScatterGatherElements, WdfDmaEnablerSetMaximumScatterGatherElements method, kmdf.wdfdmaenablersetmaximumscattergatherelements, wdf.wdfdmaenablersetmaximumscattergatherelements, wdfdmaenabler/WdfDmaEnablerSetMaximumScatterGatherElements
 f1_keywords:
  - "wdfdmaenabler/WdfDmaEnablerSetMaximumScatterGatherElements"
+ - "WdfDmaEnablerSetMaximumScatterGatherElements"
 req.header: wdfdmaenabler.h
 req.include-header: Wdf.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["IAllocatorMXF::GetMessage"]
 ms.keywords: GetMessage, GetMessage method [Audio Devices], GetMessage method [Audio Devices],IAllocatorMXF interface, IAllocatorMXF interface [Audio Devices],GetMessage method, IAllocatorMXF.GetMessage, IAllocatorMXF::GetMessage, audio.iallocatormxf_getmessage, audmp-routines_24207ff5-69a9-47bd-a756-78c2a218080e.xml, dmusicks/IAllocatorMXF::GetMessage
 f1_keywords:
  - "dmusicks/IAllocatorMXF.GetMessage"
+ - "IAllocatorMXF.GetMessage"
 req.header: dmusicks.h
 req.include-header: Dmusicks.h
 req.target-type: Desktop

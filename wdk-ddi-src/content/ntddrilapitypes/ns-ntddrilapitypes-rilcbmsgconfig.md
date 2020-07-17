@@ -10,6 +10,7 @@ keywords: ["RILCBMSGCONFIG structure"]
 ms.keywords: "*LPRILCBMSGCONFIG, RILCBMSGCONFIG, RILCBMSGCONFIG structure [Network Drivers Starting with Windows Vista], netvista.rilcbmsgconfig, ntddrilapitypes/RILCBMSGCONFIG"
 f1_keywords:
  - "ntddrilapitypes/RILCBMSGCONFIG"
+ - "RILCBMSGCONFIG"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

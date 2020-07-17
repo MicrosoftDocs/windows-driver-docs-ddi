@@ -21,6 +21,7 @@ tech.root: display
 ms.custom: RS5
 f1_keywords:
  - "d3d12umddi/D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_TYPE_0053"
+ - "D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_TYPE_0053"
 topic_type:
  - apiref
 api_type:

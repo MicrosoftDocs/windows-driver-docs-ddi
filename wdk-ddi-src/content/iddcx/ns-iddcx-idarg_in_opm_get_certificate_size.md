@@ -10,6 +10,7 @@ keywords: ["IDARG_IN_OPM_GET_CERTIFICATE_SIZE structure"]
 ms.keywords: IDARG_IN_OPM_GET_CERTIFICATE_SIZE, IDARG_IN_OPM_GET_CERTIFICATE_SIZE structure [Display Devices], display.idarg_in_opm_get_certificate_size, iddcx/IDARG_IN_OPM_GET_CERTIFICATE_SIZE
 f1_keywords:
  - "iddcx/IDARG_IN_OPM_GET_CERTIFICATE_SIZE"
+ - "IDARG_IN_OPM_GET_CERTIFICATE_SIZE"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows

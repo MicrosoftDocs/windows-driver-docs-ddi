@@ -10,6 +10,7 @@ keywords: ["IDebugControl5::GetStackTraceEx"]
 ms.keywords: GetStackTraceEx, GetStackTraceEx method [Windows Debugging], GetStackTraceEx method [Windows Debugging],IDebugControl5 interface, IDebugControl5 interface [Windows Debugging],GetStackTraceEx method, IDebugControl5.GetStackTraceEx, IDebugControl5::GetStackTraceEx, dbgeng/IDebugControl5::GetStackTraceEx, debugger.idebugcontrol5_getstacktraceex
 f1_keywords:
  - "dbgeng/IDebugControl5.GetStackTraceEx"
+ - "IDebugControl5.GetStackTraceEx"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

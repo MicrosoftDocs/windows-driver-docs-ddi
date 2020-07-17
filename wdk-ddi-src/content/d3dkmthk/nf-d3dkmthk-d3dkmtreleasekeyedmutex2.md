@@ -9,6 +9,7 @@ keywords: ["D3DKMTReleaseKeyedMutex2 function"]
 ms.keywords: D3DKMTReleaseKeyedMutex2, D3DKMTReleaseKeyedMutex2 callback function [Display Devices], PFND3DKMT_RELEASEKEYEDMUTEX2, PFND3DKMT_RELEASEKEYEDMUTEX2 callback, d3dkmthk/D3DKMTReleaseKeyedMutex2, display.d3dkmtreleasekeyedmutex2
 f1_keywords:
  - "d3dkmthk/D3DKMTReleaseKeyedMutex2"
+ - "D3DKMTReleaseKeyedMutex2"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

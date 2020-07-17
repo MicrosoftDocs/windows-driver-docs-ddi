@@ -10,6 +10,7 @@ keywords: ["KS_FRAMING_RANGE_WEIGHTED structure"]
 ms.keywords: "*PKS_FRAMING_RANGE_WEIGHTED, KS_FRAMING_RANGE_WEIGHTED, KS_FRAMING_RANGE_WEIGHTED structure [Streaming Media Devices], PKS_FRAMING_RANGE_WEIGHTED, PKS_FRAMING_RANGE_WEIGHTED structure pointer [Streaming Media Devices], ks-struct_9bc7dcda-b095-4f53-9446-40ec43d6397b.xml, ks/KS_FRAMING_RANGE_WEIGHTED, ks/PKS_FRAMING_RANGE_WEIGHTED, stream.ks_framing_range_weighted"
 f1_keywords:
  - "ks/KS_FRAMING_RANGE_WEIGHTED"
+ - "KS_FRAMING_RANGE_WEIGHTED"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows

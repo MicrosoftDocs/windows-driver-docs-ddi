@@ -10,6 +10,7 @@ keywords: ["FsRtlCheckLockForWriteAccess function"]
 ms.keywords: FsRtlCheckLockForWriteAccess, FsRtlCheckLockForWriteAccess routine [Installable File System Drivers], fsrtlref_460451fb-37b9-4c7e-bf53-8d72c7e73a55.xml, ifsk.fsrtlchecklockforwriteaccess, ntifs/FsRtlCheckLockForWriteAccess
 f1_keywords:
  - "ntifs/FsRtlCheckLockForWriteAccess"
+ - "FsRtlCheckLockForWriteAccess"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

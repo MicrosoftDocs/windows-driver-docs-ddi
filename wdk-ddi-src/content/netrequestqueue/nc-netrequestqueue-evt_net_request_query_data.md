@@ -8,6 +8,7 @@ ms.date: 02/08/2018
 keywords: ["EVT_NET_REQUEST_QUERY_DATA callback function"]
 f1_keywords:
  - "netrequestqueue/NetRequestWdmGetNdisOidRequest"
+ - "NetRequestWdmGetNdisOidRequest"
 req.header: netrequestqueue.h
 req.include-header:
 req.target-type: Universal

@@ -30,6 +30,7 @@ req.typenames: D3D12DDICAPS_TYPE_VIDEO_0020
 ms.custom: 19H1
 f1_keywords:
  - "d3d12umddi/D3D12DDICAPS_TYPE_VIDEO_0020"
+ - "D3D12DDICAPS_TYPE_VIDEO_0020"
 topic_type:
  - APIRef
  - kbSyntax

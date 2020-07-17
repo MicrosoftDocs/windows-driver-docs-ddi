@@ -7,6 +7,7 @@ ms.date: 09/11/2018
 keywords: ["IDataModelConcept::QueryInterface"]
 f1_keywords:
  - "dbgmodel/IDataModelConcept.QueryInterface"
+ - "IDataModelConcept.QueryInterface"
 ms.keywords: IDataModelConcept::QueryInterface, QueryInterface, IDataModelConcept.QueryInterface, IDataModelConcept::QueryInterface, IDataModelConcept.QueryInterface
 req.header: dbgmodel.h
 req.include-header:

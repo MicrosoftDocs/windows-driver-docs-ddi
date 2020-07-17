@@ -10,6 +10,7 @@ keywords: ["IWDFIoRequest interface"]
 ms.keywords: IWDFIoRequest, IWDFIoRequest interface, IWDFIoRequest interface,described, UMDFRequestObjectRef_65cbf2de-e966-4eb3-8f3f-2012dba23d99.xml, umdf.iwdfiorequest, wdf.iwdfiorequest, wudfddi/IWDFIoRequest
 f1_keywords:
  - "wudfddi/IWDFIoRequest"
+ - "IWDFIoRequest"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop

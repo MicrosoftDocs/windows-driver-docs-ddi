@@ -10,6 +10,7 @@ keywords: ["ExRaiseAccessViolation function"]
 ms.keywords: ExRaiseAccessViolation, ExRaiseAccessViolation routine [Kernel-Mode Driver Architecture], k102_71b4c053-599c-4a6d-8a59-08aae6bdc534.xml, kernel.exraiseaccessviolation, ntddk/ExRaiseAccessViolation
 f1_keywords:
  - "ntddk/ExRaiseAccessViolation"
+ - "ExRaiseAccessViolation"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

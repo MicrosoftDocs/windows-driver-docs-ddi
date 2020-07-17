@@ -10,6 +10,7 @@ keywords: ["D3DDDI_MARKERLOGTYPE enumeration"]
 ms.keywords: D3DDDIMLT_FT_PROFILE, D3DDDIMLT_NONE, D3DDDIMLT_PROFILE, D3DDDI_MARKERLOGTYPE, D3DDDI_MARKERLOGTYPE enumeration [Display Devices], d3dumddi/D3DDDIMLT_FT_PROFILE, d3dumddi/D3DDDIMLT_NONE, d3dumddi/D3DDDIMLT_PROFILE, d3dumddi/D3DDDI_MARKERLOGTYPE, display.d3dddi_markerlogtype
 f1_keywords:
  - "d3dumddi/D3DDDI_MARKERLOGTYPE"
+ - "D3DDDI_MARKERLOGTYPE"
 req.header: d3dumddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

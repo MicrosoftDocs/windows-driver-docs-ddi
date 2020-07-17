@@ -10,6 +10,7 @@ keywords: ["RILRADIOCONFIGURATIONS structure"]
 ms.keywords: "*LPRILRADIOCONFIGURATIONS, RILRADIOCONFIGURATIONS, RILRADIOCONFIGURATIONS structure [Network Drivers Starting with Windows Vista], netvista.rilradioconfigurations, ntddrilapitypes/RILRADIOCONFIGURATIONS"
 f1_keywords:
  - "ntddrilapitypes/RILRADIOCONFIGURATIONS"
+ - "RILRADIOCONFIGURATIONS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

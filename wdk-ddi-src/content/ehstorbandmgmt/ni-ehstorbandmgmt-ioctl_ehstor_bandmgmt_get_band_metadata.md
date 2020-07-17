@@ -10,6 +10,7 @@ keywords: ["IOCTL_EHSTOR_BANDMGMT_GET_BAND_METADATA IOCTL"]
 ms.keywords: IOCTL_EHSTOR_BANDMGMT_GET_BAND_METADATA, IOCTL_EHSTOR_BANDMGMT_GET_BAND_METADATA control, IOCTL_EHSTOR_BANDMGMT_GET_BAND_METADATA control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_GET_BAND_METADATA, storage.ioctl_ehstor_bandmgmt_get_band_metadata
 f1_keywords:
  - "ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_GET_BAND_METADATA"
+ - "IOCTL_EHSTOR_BANDMGMT_GET_BAND_METADATA"
 req.header: ehstorbandmgmt.h
 req.include-header: EhStorBandMgmt.h
 req.target-type: Windows

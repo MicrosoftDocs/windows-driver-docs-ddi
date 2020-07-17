@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["_DXGKARG_CREATEVIRTUALGPU structure"]
 f1_keywords:
  - "dispmprt/_DXGKARG_CREATEVIRTUALGPU"
+ - "_DXGKARG_CREATEVIRTUALGPU"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: _DXGKARG_CREATEVIRTUALGPU, DXGKARG_CREATEVIRTUALGPU, *PDXGKARG_CREATEVIRTUALGPU, 

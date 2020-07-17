@@ -10,6 +10,7 @@ keywords: ["_D3DKMDT_COLOR_COEFF_DYNAMIC_RANGES structure"]
 ms.keywords: D3DKMDT_COLOR_COEFF_DYNAMIC_RANGES, D3DKMDT_COLOR_COEFF_DYNAMIC_RANGES structure [Display Devices], DmStructs_33f2d82d-dbb3-4d51-bc3c-5c8e334d5113.xml, _D3DKMDT_COLOR_COEFF_DYNAMIC_RANGES, d3dkmdt/D3DKMDT_COLOR_COEFF_DYNAMIC_RANGES, display.d3dkmdt_color_coeff_dynamic_ranges
 f1_keywords:
  - "d3dkmdt/D3DKMDT_COLOR_COEFF_DYNAMIC_RANGES"
+ - "D3DKMDT_COLOR_COEFF_DYNAMIC_RANGES"
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
 req.target-type: Windows

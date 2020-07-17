@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_DXGKARG_SWITCHTOHWCONTEXTLIST structure"]
 f1_keywords:
  - "d3dkmddi/_DXGKARG_SWITCHTOHWCONTEXTLIST"
+ - "_DXGKARG_SWITCHTOHWCONTEXTLIST"
 ms.keywords: _DXGKARG_SWITCHTOHWCONTEXTLIST, DXGKARG_SWITCHTOHWCONTEXTLIST, 
 req.header: d3dkmddi.h
 req.include-header:

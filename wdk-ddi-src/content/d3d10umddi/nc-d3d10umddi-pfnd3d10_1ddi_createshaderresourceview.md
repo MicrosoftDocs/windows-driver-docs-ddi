@@ -29,6 +29,7 @@ tech.root: display
 req.typenames: 
 f1_keywords:
  - "d3d10umddi/CreateShaderResourceView_d3d10_1_"
+ - "CreateShaderResourceView_d3d10_1_"
 topic_type:
  - APIRef
  - kbSyntax

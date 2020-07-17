@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["IOCTL_PANEL_QUERY_BRIGHTNESS_RANGES IOCTL"]
 f1_keywords:
  - "ntddvdeo/IOCTL_PANEL_QUERY_BRIGHTNESS_RANGES"
+ - "IOCTL_PANEL_QUERY_BRIGHTNESS_RANGES"
 req.header: ntddvdeo.h
 req.include-header:
 req.target-type:

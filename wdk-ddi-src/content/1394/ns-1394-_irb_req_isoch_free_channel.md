@@ -10,6 +10,7 @@ keywords: ["_IRB_REQ_ISOCH_FREE_CHANNEL structure"]
 ms.keywords: 1394/IRB_REQ_ISOCH_FREE_CHANNEL, IEEE.irb_req_isoch_free_channel, IRB_REQ_ISOCH_FREE_CHANNEL, IRB_REQ_ISOCH_FREE_CHANNEL structure [Buses], _IRB_REQ_ISOCH_FREE_CHANNEL
 f1_keywords:
  - "1394/IRB_REQ_ISOCH_FREE_CHANNEL"
+ - "IRB_REQ_ISOCH_FREE_CHANNEL"
 req.header: 1394.h
 req.include-header: 
 req.target-type: Windows

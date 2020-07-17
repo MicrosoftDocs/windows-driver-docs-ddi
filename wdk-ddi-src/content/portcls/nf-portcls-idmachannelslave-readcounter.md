@@ -8,6 +8,7 @@ ms.date: 10/30/2018
 keywords: ["IDmaChannelSlave::ReadCounter"]
 f1_keywords:
  - "portcls/IDmaChannelSlave.ReadCounter"
+ - "IDmaChannelSlave.ReadCounter"
 ms.keywords: IDmaChannelSlave::ReadCounter, ReadCounter, IDmaChannelSlave.ReadCounter, IDmaChannelSlave::ReadCounter, IDmaChannelSlave.ReadCounter
 req.header: portcls.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["IWDTFEnhancedDeviceTestSupportAction2 interface"]
 ms.keywords: IWDTFEnhancedDeviceTestSupportAction2, IWDTFEnhancedDeviceTestSupportAction2 interface [Windows Device Testing Framework], IWDTFEnhancedDeviceTestSupportAction2 interface [Windows Device Testing Framework],described, Microsoft.WDTF.IWDTFEnhancedDeviceTestSupportAction2, dtf.iwdtfenhanceddevicetestsupportaction2, wdtfedtaction/IWDTFEnhancedDeviceTestSupportAction2
 f1_keywords:
  - "wdtfedtaction/IWDTFEnhancedDeviceTestSupportAction2"
+ - "IWDTFEnhancedDeviceTestSupportAction2"
 req.header: wdtfedtaction.h
 req.include-header: 
 req.target-type: Windows

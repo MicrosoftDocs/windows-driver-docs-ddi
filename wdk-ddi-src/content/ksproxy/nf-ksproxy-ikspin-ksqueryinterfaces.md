@@ -10,6 +10,7 @@ keywords: ["IKsPin::KsQueryInterfaces"]
 ms.keywords: IKsPin interface [Streaming Media Devices],KsQueryInterfaces method, IKsPin.KsQueryInterfaces, IKsPin::KsQueryInterfaces, KsQueryInterfaces, KsQueryInterfaces method [Streaming Media Devices], KsQueryInterfaces method [Streaming Media Devices],IKsPin interface, ksproxy/IKsPin::KsQueryInterfaces, ksproxy_6a22f676-b7bd-4212-a79a-3a02da890e9f.xml, stream.ikspin_ksqueryinterfaces
 f1_keywords:
  - "ksproxy/IKsPin.KsQueryInterfaces"
+ - "IKsPin.KsQueryInterfaces"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Desktop

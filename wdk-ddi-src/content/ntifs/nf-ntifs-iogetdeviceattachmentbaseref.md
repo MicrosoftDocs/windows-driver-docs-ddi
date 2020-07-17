@@ -10,6 +10,7 @@ keywords: ["IoGetDeviceAttachmentBaseRef function"]
 ms.keywords: IoGetDeviceAttachmentBaseRef, IoGetDeviceAttachmentBaseRef routine [Installable File System Drivers], ifsk.iogetdeviceattachmentbaseref, ioref_ab9c898e-74be-48aa-9462-d78d0e34c435.xml, ntifs/IoGetDeviceAttachmentBaseRef
 f1_keywords:
  - "ntifs/IoGetDeviceAttachmentBaseRef"
+ - "IoGetDeviceAttachmentBaseRef"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["ClfsMgmtRemovePolicy function"]
 ms.keywords: ClfsMgmtRemovePolicy, ClfsMgmtRemovePolicy routine [Kernel-Mode Driver Architecture], Clfs_management_70e3d576-6891-4379-a25b-d880222db235.xml, kernel.clfsmgmtremovepolicy, wdm/ClfsMgmtRemovePolicy
 f1_keywords:
  - "wdm/ClfsMgmtRemovePolicy"
+ - "ClfsMgmtRemovePolicy"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

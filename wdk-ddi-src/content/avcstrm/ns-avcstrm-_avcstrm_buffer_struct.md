@@ -10,6 +10,7 @@ keywords: ["_AVCSTRM_BUFFER_STRUCT structure"]
 ms.keywords: "*PAVCSTRM_BUFFER_STRUCT, AVCSTRM_BUFFER_STRUCT, AVCSTRM_BUFFER_STRUCT structure [Streaming Media Devices], PAVCSTRM_BUFFER_STRUCT, PAVCSTRM_BUFFER_STRUCT structure pointer [Streaming Media Devices], _AVCSTRM_BUFFER_STRUCT, avcsref_9cec2cfb-d187-4349-b443-894f881f5108.xml, avcstrm/AVCSTRM_BUFFER_STRUCT, avcstrm/PAVCSTRM_BUFFER_STRUCT, stream.avcstrm_buffer_struct"
 f1_keywords:
  - "avcstrm/AVCSTRM_BUFFER_STRUCT"
+ - "AVCSTRM_BUFFER_STRUCT"
 req.header: avcstrm.h
 req.include-header: Avcstrm.h
 req.target-type: Windows

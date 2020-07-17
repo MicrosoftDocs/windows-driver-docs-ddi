@@ -9,6 +9,7 @@ keywords: ["_DXGKARG_CLOSEALLOCATION structure"]
 ms.keywords: DXGKARG_CLOSEALLOCATION, DXGKARG_CLOSEALLOCATION structure [Display Devices], DmStructs_0d76b996-7ce8-4471-894f-585cc9f3f225.xml, _DXGKARG_CLOSEALLOCATION, d3dkmddi/DXGKARG_CLOSEALLOCATION, display.dxgkarg_closeallocation
 f1_keywords:
  - "d3dkmddi/DXGKARG_CLOSEALLOCATION"
+ - "DXGKARG_CLOSEALLOCATION"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

@@ -8,6 +8,7 @@ keywords: ["SensorCollectionGetAt function"]
 tech.root: sensors
 f1_keywords:
  - "sensorsutils/SensorCollectionGetAt"
+ - "SensorCollectionGetAt"
 ms.keywords: SensorCollectionGetAt
 req.header: sensorsutils.h
 req.include-header:

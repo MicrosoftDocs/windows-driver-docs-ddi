@@ -10,6 +10,7 @@ keywords: ["ExtRemoteTyped::GetTypeFieldOffset"]
 ms.keywords: EngExtCpp_Ref_f916dec8-a1be-4180-aa87-33136677949f.xml, ExtRemoteTyped interface [Windows Debugging],GetTypeFieldOffset method, ExtRemoteTyped.GetTypeFieldOffset, ExtRemoteTyped::GetTypeFieldOffset, GetTypeFieldOffset, GetTypeFieldOffset method [Windows Debugging], GetTypeFieldOffset method [Windows Debugging],ExtRemoteTyped interface, debugger.extremotetyped_gettypefieldoffset
 f1_keywords:
  - "engextcpp/ExtRemoteTyped.GetTypeFieldOffset"
+ - "ExtRemoteTyped.GetTypeFieldOffset"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["IOMMU_DOMAIN_DETACH_DEVICE callback function"]
 f1_keywords:
  - "wdm/IOMMU_DOMAIN_DETACH_DEVICE"
+ - "IOMMU_DOMAIN_DETACH_DEVICE"
 req.header: wdm.h
 req.include-header:
 req.target-type:

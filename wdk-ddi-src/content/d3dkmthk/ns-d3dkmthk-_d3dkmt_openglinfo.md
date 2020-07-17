@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_OPENGLINFO structure"]
 ms.keywords: D3DKMT_OPENGLINFO, D3DKMT_OPENGLINFO structure [Display Devices], OpenGL_Structs_93ba7fd7-969f-4edf-a6ce-38a135bcda83.xml, _D3DKMT_OPENGLINFO, d3dkmthk/D3DKMT_OPENGLINFO, display.d3dkmt_openglinfo
 f1_keywords:
  - "d3dkmthk/D3DKMT_OPENGLINFO"
+ - "D3DKMT_OPENGLINFO"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

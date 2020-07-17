@@ -10,6 +10,7 @@ keywords: ["IWDFUsbTargetPipe2::ConfigureContinuousReader"]
 ms.keywords: ConfigureContinuousReader, ConfigureContinuousReader method, ConfigureContinuousReader method,IWDFUsbTargetPipe2 interface, IWDFUsbTargetPipe2 interface,ConfigureContinuousReader method, IWDFUsbTargetPipe2.ConfigureContinuousReader, IWDFUsbTargetPipe2::ConfigureContinuousReader, UMDFUSBref_fbf1e16d-97a6-43c4-b667-a4715769009b.xml, umdf.iwdfusbtargetpipe2_configurecontinuousreader, wdf.iwdfusbtargetpipe2_configurecontinuousreader, wudfusb/IWDFUsbTargetPipe2::ConfigureContinuousReader
 f1_keywords:
  - "wudfusb/IWDFUsbTargetPipe2.ConfigureContinuousReader"
+ - "IWDFUsbTargetPipe2.ConfigureContinuousReader"
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
 req.target-type: Desktop

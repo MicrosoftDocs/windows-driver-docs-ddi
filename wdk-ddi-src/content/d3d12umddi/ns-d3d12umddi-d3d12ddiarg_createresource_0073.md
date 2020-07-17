@@ -32,6 +32,7 @@ api_name:
  - D3D12DDIARG_CREATERESOURCE_0073
 f1_keywords:
  - d3d12umddi/D3D12DDIARG_CREATERESOURCE_0073
+ - ""
 dev_langs:
  - c++
 ---

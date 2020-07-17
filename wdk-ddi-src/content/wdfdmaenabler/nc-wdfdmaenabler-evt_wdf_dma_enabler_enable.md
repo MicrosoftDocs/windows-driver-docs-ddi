@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_DMA_ENABLER_ENABLE callback function"]
 ms.keywords: DFDmaObjectRef_ca81d643-d2a6-4f88-9c6e-80c5681b76d1.xml, EVT_WDF_DMA_ENABLER_ENABLE, EVT_WDF_DMA_ENABLER_ENABLE callback, EvtDmaEnablerEnable, EvtDmaEnablerEnable callback function, kmdf.evtdmaenablerenable, wdf.evtdmaenablerenable, wdfdmaenabler/EvtDmaEnablerEnable
 f1_keywords:
  - "wdfdmaenabler/EvtDmaEnablerEnable"
+ - "EvtDmaEnablerEnable"
 req.header: wdfdmaenabler.h
 req.include-header: Wdf.h
 req.target-type: Universal

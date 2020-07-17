@@ -7,6 +7,7 @@ ms.date: 08/13/2018
 keywords: ["IKeyEnumerator::Release"]
 f1_keywords:
  - "dbgmodel/IKeyEnumerator.Release"
+ - "IKeyEnumerator.Release"
 ms.keywords: IKeyEnumerator::Release, Release, IKeyEnumerator.Release, IKeyEnumerator::Release, IKeyEnumerator.Release
 req.header: dbgmodel.h
 req.include-header:

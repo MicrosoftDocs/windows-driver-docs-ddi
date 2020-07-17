@@ -10,6 +10,7 @@ keywords: ["D3DDDI_MAPGPUVIRTUALADDRESS structure"]
 ms.keywords: D3DDDI_MAPGPUVIRTUALADDRESS, D3DDDI_MAPGPUVIRTUALADDRESS structure [Display Devices], Execute, NoAccess, Write, Zero, d3dukmdt/D3DDDI_MAPGPUVIRTUALADDRESS, display.d3dddi_mapgpuvirtualaddress
 f1_keywords:
  - "d3dukmdt/D3DDDI_MAPGPUVIRTUALADDRESS"
+ - "D3DDDI_MAPGPUVIRTUALADDRESS"
 req.header: d3dukmdt.h
 req.include-header: D3dumddi.h, D3dkmddi.h
 req.target-type: Windows

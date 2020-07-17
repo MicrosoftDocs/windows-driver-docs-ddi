@@ -10,6 +10,7 @@ keywords: ["ClfsDeleteMarshallingArea function"]
 ms.keywords: ClfsDeleteMarshallingArea, ClfsDeleteMarshallingArea routine [Kernel-Mode Driver Architecture], Clfs_a015edd3-4625-4b24-995f-75217a711528.xml, kernel.clfsdeletemarshallingarea, wdm/ClfsDeleteMarshallingArea
 f1_keywords:
  - "wdm/ClfsDeleteMarshallingArea"
+ - "ClfsDeleteMarshallingArea"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop

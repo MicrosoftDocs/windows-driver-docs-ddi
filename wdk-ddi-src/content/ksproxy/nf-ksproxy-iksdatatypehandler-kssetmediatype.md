@@ -10,6 +10,7 @@ keywords: ["IKsDataTypeHandler::KsSetMediaType"]
 ms.keywords: IKsDataTypeHandler interface [Streaming Media Devices],KsSetMediaType method, IKsDataTypeHandler.KsSetMediaType, IKsDataTypeHandler::KsSetMediaType, KsSetMediaType, KsSetMediaType method [Streaming Media Devices], KsSetMediaType method [Streaming Media Devices],IKsDataTypeHandler interface, ksproxy/IKsDataTypeHandler::KsSetMediaType, ksproxy_5992cc35-8912-4e1e-8712-ebb6f36f5193.xml, stream.iksdatatypehandler_kssetmediatype
 f1_keywords:
  - "ksproxy/IKsDataTypeHandler.KsSetMediaType"
+ - "IKsDataTypeHandler.KsSetMediaType"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Desktop

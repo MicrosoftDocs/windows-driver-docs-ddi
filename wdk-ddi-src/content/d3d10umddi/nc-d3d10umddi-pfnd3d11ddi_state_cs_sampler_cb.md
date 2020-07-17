@@ -9,6 +9,7 @@ keywords: ["PFND3D11DDI_STATE_CS_SAMPLER_CB callback function"]
 ms.keywords: PFND3D11DDI_STATE_CS_SAMPLER_CB, PFND3D11DDI_STATE_CS_SAMPLER_CB callback, d3d10umddi/pfnStateCsSamplerCb, d3d11state_functions_5a300b32-e958-46be-b13b-89dee7d81b39.xml, display.pfnstatecssamplercb, pfnStateCsSamplerCb, pfnStateCsSamplerCb callback function [Display Devices]
 f1_keywords:
  - "d3d10umddi/pfnStateCsSamplerCb"
+ - "pfnStateCsSamplerCb"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["NdisGetCurrentProcessorCounts function"]
 ms.keywords: NdisGetCurrentProcessorCounts, NdisGetCurrentProcessorCounts function [Network Drivers Starting with Windows Vista], ndis/NdisGetCurrentProcessorCounts, ndis_sysinfo_ref_dab49118-724d-43e8-8d8d-05ebc7220f22.xml, netvista.ndisgetcurrentprocessorcounts
 f1_keywords:
  - "ndis/NdisGetCurrentProcessorCounts"
+ - "NdisGetCurrentProcessorCounts"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

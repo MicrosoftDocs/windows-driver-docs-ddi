@@ -10,6 +10,7 @@ keywords: ["IDebugControl4::SetSpecificFilterArgumentWide"]
 ms.keywords: IDebugControl4 interface [Windows Debugging],SetSpecificFilterArgumentWide method, IDebugControl4.SetSpecificFilterArgumentWide, IDebugControl4::SetSpecificFilterArgumentWide, SetSpecificFilterArgumentWide, SetSpecificFilterArgumentWide method [Windows Debugging], SetSpecificFilterArgumentWide method [Windows Debugging],IDebugControl4 interface, dbgeng/IDebugControl4::SetSpecificFilterArgumentWide, debugger.setspecificfilterargumentwide
 f1_keywords:
  - "dbgeng/IDebugControl4.SetSpecificFilterArgumentWide"
+ - "IDebugControl4.SetSpecificFilterArgumentWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

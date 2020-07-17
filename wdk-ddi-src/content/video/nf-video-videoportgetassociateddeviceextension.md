@@ -10,6 +10,7 @@ keywords: ["VideoPortGetAssociatedDeviceExtension function"]
 ms.keywords: VideoPortGetAssociatedDeviceExtension, VideoPortGetAssociatedDeviceExtension function [Display Devices], VideoPort_Functions_7116b537-1296-4136-b62c-ce5918eea10d.xml, display.videoportgetassociateddeviceextension, video/VideoPortGetAssociatedDeviceExtension
 f1_keywords:
  - "video/VideoPortGetAssociatedDeviceExtension"
+ - "VideoPortGetAssociatedDeviceExtension"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

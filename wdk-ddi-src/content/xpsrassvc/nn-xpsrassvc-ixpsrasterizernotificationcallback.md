@@ -10,6 +10,7 @@ keywords: ["IXpsRasterizerNotificationCallback interface"]
 ms.keywords: IXpsRasterizerNotificationCallback, IXpsRasterizerNotificationCallback interface [Print Devices], IXpsRasterizerNotificationCallback interface [Print Devices],described, print.ixpsrasterizernotificationcallback_interface, print_xpsrast_fe5791b3-111b-454e-a033-45dfa128d325.xml, xpsrassvc/IXpsRasterizerNotificationCallback
 f1_keywords:
  - "xpsrassvc/IXpsRasterizerNotificationCallback"
+ - "IXpsRasterizerNotificationCallback"
 req.header: xpsrassvc.h
 req.include-header: 
 req.target-type: Windows

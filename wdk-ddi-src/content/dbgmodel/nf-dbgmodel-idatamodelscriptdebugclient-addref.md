@@ -7,6 +7,7 @@ ms.date: 09/21/2018
 keywords: ["IDataModelScriptDebugClient::AddRef"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebugClient.AddRef"
+ - "IDataModelScriptDebugClient.AddRef"
 ms.keywords: IDataModelScriptDebugClient::AddRef, AddRef, IDataModelScriptDebugClient.AddRef, IDataModelScriptDebugClient::AddRef, IDataModelScriptDebugClient.AddRef
 req.header: dbgmodel.h
 req.include-header:

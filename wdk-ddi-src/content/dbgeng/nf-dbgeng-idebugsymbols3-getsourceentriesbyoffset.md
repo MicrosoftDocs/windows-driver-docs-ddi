@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::GetSourceEntriesByOffset"]
 ms.keywords: GetSourceEntriesByOffset, GetSourceEntriesByOffset method [Windows Debugging], GetSourceEntriesByOffset method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSourceEntriesByOffset method, IDebugSymbols3.GetSourceEntriesByOffset, IDebugSymbols3::GetSourceEntriesByOffset, dbgeng/IDebugSymbols3::GetSourceEntriesByOffset, debugger.idebugsymbols3_getsourceentriesbyoffset
 f1_keywords:
  - "dbgeng/IDebugSymbols3.GetSourceEntriesByOffset"
+ - "IDebugSymbols3.GetSourceEntriesByOffset"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

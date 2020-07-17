@@ -10,6 +10,7 @@ keywords: ["PcNewServiceGroup function"]
 ms.keywords: PcNewServiceGroup, PcNewServiceGroup function [Audio Devices], audio.pcnewservicegroup, audpc-routines_2164b9cd-1bb5-4e51-aa07-6ed9cb40e3fb.xml, portcls/PcNewServiceGroup
 f1_keywords:
  - "portcls/PcNewServiceGroup"
+ - "PcNewServiceGroup"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

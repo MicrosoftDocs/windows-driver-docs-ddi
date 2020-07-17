@@ -10,6 +10,7 @@ keywords: ["KSVPMAXPIXELRATE structure"]
 ms.keywords: "*PKSVPMAXPIXELRATE, KSVPMAXPIXELRATE, KSVPMAXPIXELRATE structure [Streaming Media Devices], PKSVPMAXPIXELRATE, PKSVPMAXPIXELRATE structure pointer [Streaming Media Devices], dvdref_c9ca0c83-e189-48b3-a798-95456c07ae0b.xml, ksmedia/KSVPMAXPIXELRATE, ksmedia/PKSVPMAXPIXELRATE, stream.ksvpmaxpixelrate"
 f1_keywords:
  - "ksmedia/KSVPMAXPIXELRATE"
+ - "KSVPMAXPIXELRATE"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["NdisInitUnicodeString macro"]
 ms.keywords: NdisInitUnicodeString, NdisInitUnicodeString macro [Network Drivers Starting with Windows Vista], ndis/NdisInitUnicodeString, ndis_string_ref_a25a98b2-f88b-4a56-9bb7-77a4e6dc10a6.xml, netvista.ndisinitunicodestring
 f1_keywords:
  - "ndis/NdisInitUnicodeString"
+ - "NdisInitUnicodeString"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

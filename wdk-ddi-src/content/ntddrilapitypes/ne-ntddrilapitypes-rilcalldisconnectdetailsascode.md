@@ -10,6 +10,7 @@ keywords: ["RILCALLDISCONNECTDETAILSASCODE enumeration"]
 ms.keywords: RILCALLDISCONNECTDETAILSASCODE, RILCALLDISCONNECTDETAILSASCODE enumeration [Network Drivers Starting with Windows Vista], RIL_CD_L2, RIL_CD_L3, RIL_CD_LAYER_MAX, netvista.rilcalldisconnectdetailsascode, ntddrilapitypes/RILCALLDISCONNECTDETAILSASCODE, ntddrilapitypes/RIL_CD_L2, ntddrilapitypes/RIL_CD_L3, ntddrilapitypes/RIL_CD_LAYER_MAX
 f1_keywords:
  - "ntddrilapitypes/RILCALLDISCONNECTDETAILSASCODE"
+ - "RILCALLDISCONNECTDETAILSASCODE"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["VideoPortGetBytesUsed function"]
 ms.keywords: VideoPortGetBytesUsed, VideoPortGetBytesUsed function [Display Devices], VideoPort_Functions_315c6ad1-757d-44d3-8059-d94ab407ea69.xml, display.videoportgetbytesused, video/VideoPortGetBytesUsed
 f1_keywords:
  - "video/VideoPortGetBytesUsed"
+ - "VideoPortGetBytesUsed"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

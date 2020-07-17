@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_OUTPUTDUPL_SNAPSHOT structure"]
 ms.keywords: D3DKMT_OUTPUTDUPL_SNAPSHOT, D3DKMT_OUTPUTDUPL_SNAPSHOT structure [Display Devices], _D3DKMT_OUTPUTDUPL_SNAPSHOT, d3dkmthk/D3DKMT_OUTPUTDUPL_SNAPSHOT, display.d3dkmt_outputdupl_snapshot
 f1_keywords:
  - "d3dkmthk/D3DKMT_OUTPUTDUPL_SNAPSHOT"
+ - "D3DKMT_OUTPUTDUPL_SNAPSHOT"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

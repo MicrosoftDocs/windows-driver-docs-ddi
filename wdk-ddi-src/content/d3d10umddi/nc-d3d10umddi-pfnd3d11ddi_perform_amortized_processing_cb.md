@@ -9,6 +9,7 @@ keywords: ["PFND3D11DDI_PERFORM_AMORTIZED_PROCESSING_CB callback function"]
 ms.keywords: PFND3D11DDI_PERFORM_AMORTIZED_PROCESSING_CB, PFND3D11DDI_PERFORM_AMORTIZED_PROCESSING_CB callback, d3d10umddi/pfnPerformAmortizedProcessingCb, d3d11state_functions_7da0e622-fd33-44b6-a096-143ff6c47953.xml, display.pfnperformamortizedprocessingcb, pfnPerformAmortizedProcessingCb, pfnPerformAmortizedProcessingCb callback function [Display Devices]
 f1_keywords:
  - "d3d10umddi/pfnPerformAmortizedProcessingCb"
+ - "pfnPerformAmortizedProcessingCb"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

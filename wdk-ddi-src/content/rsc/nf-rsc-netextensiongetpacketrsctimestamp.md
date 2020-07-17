@@ -10,6 +10,7 @@ ms.date: 09/24/2019
 keywords: ["NetExtensionGetPacketRscTimestamp function"]
 f1_keywords:
  - "rsc/NetExtensionGetPacketRscTimestamp"
+ - "NetExtensionGetPacketRscTimestamp"
 ms.keywords: NetExtensionGetPacketRscTimestamp
 req.header: rsc.h
 req.include-header:

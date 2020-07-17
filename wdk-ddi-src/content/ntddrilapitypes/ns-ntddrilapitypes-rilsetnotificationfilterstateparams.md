@@ -10,6 +10,7 @@ keywords: ["RILSETNOTIFICATIONFILTERSTATEPARAMS structure"]
 ms.keywords: "*LPRILSETNOTIFICATIONFILTERSTATEPARAMS, RILSETNOTIFICATIONFILTERSTATEPARAMS, RILSETNOTIFICATIONFILTERSTATEPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetnotificationfilterstateparams, ntddrilapitypes/RILSETNOTIFICATIONFILTERSTATEPARAMS"
 f1_keywords:
  - "ntddrilapitypes/RILSETNOTIFICATIONFILTERSTATEPARAMS"
+ - "RILSETNOTIFICATIONFILTERSTATEPARAMS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

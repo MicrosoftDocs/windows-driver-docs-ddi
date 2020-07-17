@@ -7,6 +7,7 @@ ms.date: 09/21/2018
 keywords: ["IDebugHostModule2::GetSymbolKind"]
 f1_keywords:
  - "dbgmodel/IDebugHostModule2.GetSymbolKind"
+ - "IDebugHostModule2.GetSymbolKind"
 ms.keywords: IDebugHostModule2::GetSymbolKind, GetSymbolKind, IDebugHostModule2.GetSymbolKind, IDebugHostModule2::GetSymbolKind, IDebugHostModule2.GetSymbolKind
 req.header: dbgmodel.h
 req.include-header:

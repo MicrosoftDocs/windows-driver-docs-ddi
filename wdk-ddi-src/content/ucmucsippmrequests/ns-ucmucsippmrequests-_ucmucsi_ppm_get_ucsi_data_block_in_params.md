@@ -8,6 +8,7 @@ ms.date: 09/30/2018
 keywords: ["_UCMUCSI_PPM_GET_UCSI_DATA_BLOCK_IN_PARAMS structure"]
 f1_keywords:
  - "ucmucsippmrequests/_UCMUCSI_PPM_GET_UCSI_DATA_BLOCK_IN_PARAMS"
+ - "_UCMUCSI_PPM_GET_UCSI_DATA_BLOCK_IN_PARAMS"
 ms.keywords: _UCMUCSI_PPM_GET_UCSI_DATA_BLOCK_IN_PARAMS, UCMUCSI_PPM_GET_UCSI_DATA_BLOCK_IN_PARAMS, *PUCMUCSI_PPM_GET_UCSI_DATA_BLOCK_IN_PARAMS, 
 req.header: ucmucsippmrequests.h
 req.include-header: UcmUcsiCx.h

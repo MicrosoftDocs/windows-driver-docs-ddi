@@ -10,6 +10,7 @@ keywords: ["WdfRegistryQueryUnicodeString function"]
 ms.keywords: DFRegKeyObjectRef_3301cdb3-8fe5-4094-8fc2-717467802680.xml, WdfRegistryQueryUnicodeString, WdfRegistryQueryUnicodeString method, kmdf.wdfregistryqueryunicodestring, wdf.wdfregistryqueryunicodestring, wdfregistry/WdfRegistryQueryUnicodeString
 f1_keywords:
  - "wdfregistry/WdfRegistryQueryUnicodeString"
+ - "WdfRegistryQueryUnicodeString"
 req.header: wdfregistry.h
 req.include-header: Wdf.h
 req.target-type: Universal

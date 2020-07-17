@@ -7,6 +7,7 @@ ms.date: 08/13/2018
 keywords: ["IModelObject::SetContextForDataModel"]
 f1_keywords:
  - "dbgmodel/IModelObject.SetContextForDataModel"
+ - "IModelObject.SetContextForDataModel"
 ms.keywords: IModelObject::SetContextForDataModel, SetContextForDataModel, IModelObject.SetContextForDataModel, IModelObject::SetContextForDataModel, IModelObject.SetContextForDataModel
 req.header: dbgmodel.h
 req.include-header:

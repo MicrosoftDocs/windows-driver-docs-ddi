@@ -10,6 +10,7 @@ keywords: ["IDebugClient5::GetOutputLinePrefixWide"]
 ms.keywords: GetOutputLinePrefixWide, GetOutputLinePrefixWide method [Windows Debugging], GetOutputLinePrefixWide method [Windows Debugging],IDebugClient5 interface, IDebugClient5 interface [Windows Debugging],GetOutputLinePrefixWide method, IDebugClient5.GetOutputLinePrefixWide, IDebugClient5::GetOutputLinePrefixWide, dbgeng/IDebugClient5::GetOutputLinePrefixWide, debugger.idebugclient5_getoutputlineprefixwide
 f1_keywords:
  - "dbgeng/IDebugClient5.GetOutputLinePrefixWide"
+ - "IDebugClient5.GetOutputLinePrefixWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

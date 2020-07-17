@@ -10,6 +10,7 @@ keywords: ["FltTagFile function"]
 ms.keywords: FltApiRef_p_to_z_01cd7989-387a-4a7c-a45a-3a60a8b126c0.xml, FltTagFile, FltTagFile function [Installable File System Drivers], fltkernel/FltTagFile, ifsk.flttagfile
 f1_keywords:
  - "fltkernel/FltTagFile"
+ - "FltTagFile"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

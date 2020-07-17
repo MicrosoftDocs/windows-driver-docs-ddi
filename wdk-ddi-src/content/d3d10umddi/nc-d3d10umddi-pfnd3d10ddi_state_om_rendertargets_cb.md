@@ -9,6 +9,7 @@ keywords: ["PFND3D10DDI_STATE_OM_RENDERTARGETS_CB callback function"]
 ms.keywords: PFND3D10DDI_STATE_OM_RENDERTARGETS_CB, PFND3D10DDI_STATE_OM_RENDERTARGETS_CB callback, d3d10state_functions_d1d161af-c985-4d8d-b734-7acda03b13ce.xml, d3d10umddi/pfnStateOmRenderTargetsCb, display.pfnstateomrendertargetscb, pfnStateOmRenderTargetsCb, pfnStateOmRenderTargetsCb callback function [Display Devices]
 f1_keywords:
  - "d3d10umddi/pfnStateOmRenderTargetsCb"
+ - "pfnStateOmRenderTargetsCb"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

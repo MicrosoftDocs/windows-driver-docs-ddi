@@ -10,6 +10,7 @@ keywords: ["RILNITZINFOPARAMMASK enumeration"]
 ms.keywords: RILNITZINFOPARAMMASK, RILNITZINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_NITZ_ALL, RIL_PARAM_NITZ_DAYLIGHTSAVINGOFFSET, RIL_PARAM_NITZ_SYSTEMTIME, RIL_PARAM_NITZ_SYSTEMTYPE, RIL_PARAM_NITZ_TIMEZONEOFFSET, netvista.rilnitzinfoparammask, ntddrilapitypes/RILNITZINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_NITZ_ALL, ntddrilapitypes/RIL_PARAM_NITZ_DAYLIGHTSAVINGOFFSET, ntddrilapitypes/RIL_PARAM_NITZ_SYSTEMTIME, ntddrilapitypes/RIL_PARAM_NITZ_SYSTEMTYPE, ntddrilapitypes/RIL_PARAM_NITZ_TIMEZONEOFFSET
 f1_keywords:
  - "rilapitypes/RILNITZINFOPARAMMASK"
+ - "RILNITZINFOPARAMMASK"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

@@ -8,6 +8,7 @@ ms.date: 10/19/2018
 keywords: ["UART_HARDWARE_WRITE_UCHAR callback function"]
 f1_keywords:
  - "uart/UART_HARDWARE_WRITE_UCHAR"
+ - "UART_HARDWARE_WRITE_UCHAR"
 req.header: uart.h
 req.include-header:
 req.target-type:

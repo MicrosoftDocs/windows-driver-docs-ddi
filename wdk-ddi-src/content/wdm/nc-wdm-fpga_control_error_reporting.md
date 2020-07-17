@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["FPGA_CONTROL_ERROR_REPORTING callback function"]
 f1_keywords:
  - "wdm/FPGA_CONTROL_ERROR_REPORTING"
+ - "FPGA_CONTROL_ERROR_REPORTING"
 req.header: wdm.h
 req.include-header:
 req.target-type:

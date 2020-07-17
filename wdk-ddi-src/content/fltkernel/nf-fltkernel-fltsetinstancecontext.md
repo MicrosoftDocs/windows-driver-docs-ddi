@@ -10,6 +10,7 @@ keywords: ["FltSetInstanceContext function"]
 ms.keywords: FltApiRef_p_to_z_a8984c00-54a9-427c-b33d-829b1db55149.xml, FltSetInstanceContext, FltSetInstanceContext function [Installable File System Drivers], fltkernel/FltSetInstanceContext, ifsk.fltsetinstancecontext
 f1_keywords:
  - "fltkernel/FltSetInstanceContext"
+ - "FltSetInstanceContext"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

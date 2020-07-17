@@ -10,6 +10,7 @@ keywords: ["IOCTL_SCSI_GET_CAPABILITIES IOCTL"]
 ms.keywords: IOCTL_SCSI_GET_CAPABILITIES, IOCTL_SCSI_GET_CAPABILITIES control, IOCTL_SCSI_GET_CAPABILITIES control code [Storage Devices], k307_99c3b622-6b7f-4550-9740-22b46d141966.xml, ntddscsi/IOCTL_SCSI_GET_CAPABILITIES, storage.ioctl_scsi_get_capabilities
 f1_keywords:
  - "ntddscsi/IOCTL_SCSI_GET_CAPABILITIES"
+ - "IOCTL_SCSI_GET_CAPABILITIES"
 req.header: ntddscsi.h
 req.include-header: Ntddscsi.h
 req.target-type: Windows

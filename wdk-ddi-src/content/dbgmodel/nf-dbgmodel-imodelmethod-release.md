@@ -7,6 +7,7 @@ ms.date: 08/13/2018
 keywords: ["IModelMethod::Release"]
 f1_keywords:
  - "dbgmodel/IModelMethod.Release"
+ - "IModelMethod.Release"
 ms.keywords: IModelMethod::Release, Release, IModelMethod.Release, IModelMethod::Release, IModelMethod.Release
 req.header: dbgmodel.h
 req.include-header:

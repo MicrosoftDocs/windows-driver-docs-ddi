@@ -10,6 +10,7 @@ keywords: ["RILGETMSGINUICCSTATUSPARAMS structure"]
 ms.keywords: "*LPRILGETMSGINUICCSTATUSPARAMS, RILGETMSGINUICCSTATUSPARAMS, RILGETMSGINUICCSTATUSPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilgetmsginuiccstatusparams, ntddrilapitypes/RILGETMSGINUICCSTATUSPARAMS"
 f1_keywords:
  - "ntddrilapitypes/RILGETMSGINUICCSTATUSPARAMS"
+ - "RILGETMSGINUICCSTATUSPARAMS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

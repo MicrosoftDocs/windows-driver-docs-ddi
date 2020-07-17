@@ -10,6 +10,7 @@ keywords: ["MIRACAST_WFD_CONNECTION_STATS structure"]
 ms.keywords: MIRACAST_WFD_CONNECTION_STATS, MIRACAST_WFD_CONNECTION_STATS structure [Display Devices], display.miracast_wfd_connection_stats, netdispumdddi/MIRACAST_WFD_CONNECTION_STATS
 f1_keywords:
  - "netdispumdddi/MIRACAST_WFD_CONNECTION_STATS"
+ - "MIRACAST_WFD_CONNECTION_STATS"
 req.header: netdispumdddi.h
 req.include-header: Netdispumdddi.h
 req.target-type: Windows

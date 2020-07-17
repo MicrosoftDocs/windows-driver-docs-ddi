@@ -10,6 +10,7 @@ keywords: ["FltGetNewSystemBufferAddress function"]
 ms.keywords: FltApiRef_e_to_o_a9a2a8aa-92e5-4843-a1e9-5b1a15d870fa.xml, FltGetNewSystemBufferAddress, FltGetNewSystemBufferAddress function [Installable File System Drivers], fltkernel/FltGetNewSystemBufferAddress, ifsk.fltgetnewsystembufferaddress
 f1_keywords:
  - "fltkernel/FltGetNewSystemBufferAddress"
+ - "FltGetNewSystemBufferAddress"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

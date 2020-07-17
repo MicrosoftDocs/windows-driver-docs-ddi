@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_REGISTERTRIMNOTIFICATION structure"]
 ms.keywords: D3DKMT_REGISTERTRIMNOTIFICATION, D3DKMT_REGISTERTRIMNOTIFICATION structure [Display Devices], _D3DKMT_REGISTERTRIMNOTIFICATION, d3dkmthk/D3DKMT_REGISTERTRIMNOTIFICATION, display.d3dkmt_registertrimnotification
 f1_keywords:
  - "d3dkmthk/D3DKMT_REGISTERTRIMNOTIFICATION"
+ - "D3DKMT_REGISTERTRIMNOTIFICATION"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

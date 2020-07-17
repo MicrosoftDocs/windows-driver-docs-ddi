@@ -10,6 +10,7 @@ keywords: ["_PMI_CAPABILITIES structure"]
 ms.keywords: "*PPMI_CAPABILITIES, PMI_CAPABILITIES, PMI_CAPABILITIES structure [Power Metering and Budgeting Devices], PPMI_CAPABILITIES, PPMI_CAPABILITIES structure pointer [Power Metering and Budgeting Devices], PowerMeterRef_14d27676-6523-4aca-8ce7-c6c3e8794171.xml, _PMI_CAPABILITIES, pmi/PMI_CAPABILITIES, pmi/PPMI_CAPABILITIES, powermeter.pmi_capabilities"
 f1_keywords:
  - "pmi/PMI_CAPABILITIES"
+ - "PMI_CAPABILITIES"
 req.header: pmi.h
 req.include-header: Pmi.h
 req.target-type: Windows

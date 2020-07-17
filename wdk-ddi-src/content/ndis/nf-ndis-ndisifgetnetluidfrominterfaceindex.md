@@ -10,6 +10,7 @@ keywords: ["NdisIfGetNetLuidFromInterfaceIndex function"]
 ms.keywords: NdisIfGetNetLuidFromInterfaceIndex, NdisIfGetNetLuidFromInterfaceIndex function [Network Drivers Starting with Windows Vista], ndis/NdisIfGetNetLuidFromInterfaceIndex, net_if_functions_ref_eb50b72f-9bb0-4c02-88d3-dbb0fb1d82d1.xml, netvista.ndisifgetnetluidfrominterfaceindex
 f1_keywords:
  - "ndis/NdisIfGetNetLuidFromInterfaceIndex"
+ - "NdisIfGetNetLuidFromInterfaceIndex"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

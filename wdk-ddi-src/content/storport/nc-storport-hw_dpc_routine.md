@@ -10,6 +10,7 @@ keywords: ["HW_DPC_ROUTINE callback function"]
 ms.keywords: HW_DPC_ROUTINE, HwStorDpcRoutine, HwStorDpcRoutine routine [Storage Devices], storage.hwstordpcroutine, stormini_593e93b3-e078-48a4-b192-75cc161686bb.xml, storport/HwStorDpcRoutine
 f1_keywords:
  - "storport/HwStorDpcRoutine"
+ - "HwStorDpcRoutine"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

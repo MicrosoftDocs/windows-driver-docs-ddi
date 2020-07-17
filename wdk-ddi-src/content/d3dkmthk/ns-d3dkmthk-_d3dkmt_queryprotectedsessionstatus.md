@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_QUERYPROTECTEDSESSIONSTATUS structure"]
 ms.keywords: D3DKMT_QUERYPROTECTEDSESSIONSTATUS, D3DKMT_QUERYPROTECTEDSESSIONSTATUS structure [Display Devices], _D3DKMT_QUERYPROTECTEDSESSIONSTATUS, d3dkmthk/D3DKMT_QUERYPROTECTEDSESSIONSTATUS, display.d3dkmt-queryprotectedsessionstatus
 f1_keywords:
  - "d3dkmthk/D3DKMT_QUERYPROTECTEDSESSIONSTATUS"
+ - "D3DKMT_QUERYPROTECTEDSESSIONSTATUS"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["ExTryConvertSharedSpinLockExclusive function"]
 ms.keywords: ExTryConvertSharedSpinLockExclusive, ExTryConvertSharedSpinLockExclusive routine [Kernel-Mode Driver Architecture], kernel.extryconvertsharedspinlockexclusive_, wdm/ExTryConvertSharedSpinLockExclusive
 f1_keywords:
  - "wdm/ExTryConvertSharedSpinLockExclusive"
+ - "ExTryConvertSharedSpinLockExclusive"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal

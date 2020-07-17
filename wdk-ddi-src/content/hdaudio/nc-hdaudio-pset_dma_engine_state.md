@@ -10,6 +10,7 @@ keywords: ["PSET_DMA_ENGINE_STATE callback function"]
 ms.keywords: PSET_DMA_ENGINE_STATE, PSET_DMA_ENGINE_STATE callback, SetDmaEngineState, SetDmaEngineState callback function [Audio Devices], aud-prop2_a1455dc1-3ed9-43c3-a5b6-af321c26eefe.xml, audio.setdmaenginestate, hdaudio/SetDmaEngineState
 f1_keywords:
  - "hdaudio/SetDmaEngineState"
+ - "SetDmaEngineState"
 req.header: hdaudio.h
 req.include-header: Hdaudio.h
 req.target-type: Desktop

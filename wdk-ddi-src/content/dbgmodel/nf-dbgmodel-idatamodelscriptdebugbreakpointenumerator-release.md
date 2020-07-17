@@ -7,6 +7,7 @@ ms.date: 09/10/2018
 keywords: ["IDataModelScriptDebugBreakpointEnumerator::Release"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebugBreakpointEnumerator.Release"
+ - "IDataModelScriptDebugBreakpointEnumerator.Release"
 ms.keywords: IDataModelScriptDebugBreakpointEnumerator::Release, Release, IDataModelScriptDebugBreakpointEnumerator.Release, IDataModelScriptDebugBreakpointEnumerator::Release, IDataModelScriptDebugBreakpointEnumerator.Release
 req.header: dbgmodel.h
 req.include-header:

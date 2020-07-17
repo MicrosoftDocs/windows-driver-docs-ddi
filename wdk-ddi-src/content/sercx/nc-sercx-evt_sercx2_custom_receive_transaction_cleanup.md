@@ -10,6 +10,7 @@ keywords: ["EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_CLEANUP callback function"]
 ms.keywords: 2/EvtSerCx2CustomReceiveTransactionCleanup, EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_CLEANUP, EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_CLEANUP callback, EvtSerCx2CustomReceiveTransactionCleanup, EvtSerCx2CustomReceiveTransactionCleanup callback function [Serial Ports], serports.evtsercx2customreceivetransactioncleanup
 f1_keywords:
  - "sercx/EvtSerCx2CustomReceiveTransactionCleanup"
+ - "EvtSerCx2CustomReceiveTransactionCleanup"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop

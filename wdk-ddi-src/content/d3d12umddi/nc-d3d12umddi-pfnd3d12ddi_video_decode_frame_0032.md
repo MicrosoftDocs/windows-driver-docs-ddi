@@ -29,6 +29,7 @@ tech.root: display
 req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_VIDEO_DECODE_FRAME_0030"
+ - "PFND3D12DDI_VIDEO_DECODE_FRAME_0030"
 topic_type:
  - APIRef
  - kbSyntax

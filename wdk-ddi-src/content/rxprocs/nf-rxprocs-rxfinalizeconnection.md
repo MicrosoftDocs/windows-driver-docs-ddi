@@ -10,6 +10,7 @@ keywords: ["RxFinalizeConnection function"]
 ms.keywords: RxFinalizeConnection, RxFinalizeConnection function [Installable File System Drivers], ifsk.rxfinalizeconnection, rxprocs/RxFinalizeConnection, rxref_4d5f5633-98fc-4cdc-9803-01ccc06486f5.xml
 f1_keywords:
  - "rxprocs/RxFinalizeConnection"
+ - "RxFinalizeConnection"
 req.header: rxprocs.h
 req.include-header: Rxprocs.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["_DXGKVGPU_ESCAPE_TYPE enumeration"]
 ms.keywords: DXGKVGPU_ESCAPE_TYPE, DXGKVGPU_ESCAPE_TYPE enumeration [Display Devices], DXGKVGPU_ESCAPE_TYPE_GET_VGPU_TYPE, DXGKVGPU_ESCAPE_TYPE_READ_PCI_CONFIG, _DXGKVGPU_ESCAPE_TYPE, d3dukmdt/DXGKVGPU_ESCAPE_TYPE, d3dukmdt/DXGKVGPU_ESCAPE_TYPE_GET_VGPU_TYPE, d3dukmdt/DXGKVGPU_ESCAPE_TYPE_READ_PCI_CONFIG, display.dxgkvgpu_escape_type
 f1_keywords:
  - "d3dukmdt/DXGKVGPU_ESCAPE_TYPE"
+ - "DXGKVGPU_ESCAPE_TYPE"
 req.header: d3dukmdt.h
 req.include-header: 
 req.target-type: Windows

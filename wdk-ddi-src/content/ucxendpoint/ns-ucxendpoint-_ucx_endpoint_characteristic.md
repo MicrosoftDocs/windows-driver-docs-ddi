@@ -10,6 +10,7 @@ keywords: ["_UCX_ENDPOINT_CHARACTERISTIC structure"]
 ms.keywords: "*PUCX_ENDPOINT_CHARACTERISTIC, PUCX_ENDPOINT_CHARACTERISTIC, PUCX_ENDPOINT_CHARACTERISTIC structure pointer [Buses], UCX_ENDPOINT_CHARACTERISTIC, UCX_ENDPOINT_CHARACTERISTIC structure [Buses], _UCX_ENDPOINT_CHARACTERISTIC, buses.ucx_endpoint_characteristic, ucxendpoint/PUCX_ENDPOINT_CHARACTERISTIC, ucxendpoint/UCX_ENDPOINT_CHARACTERISTIC"
 f1_keywords:
  - "ucxendpoint/UCX_ENDPOINT_CHARACTERISTIC"
+ - "UCX_ENDPOINT_CHARACTERISTIC"
 req.header: ucxendpoint.h
 req.include-header: Ucxclass.h
 req.target-type: Windows

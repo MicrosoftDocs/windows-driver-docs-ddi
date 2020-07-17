@@ -10,6 +10,7 @@ keywords: ["_D3DDDICB_DESTROYALLOCATION2FLAGS structure"]
 ms.keywords: D3DDDICB_DESTROYALLOCATION2FLAGS, D3DDDICB_DESTROYALLOCATION2FLAGS structure [Display Devices], _D3DDDICB_DESTROYALLOCATION2FLAGS, d3dukmdt/D3DDDICB_DESTROYALLOCATION2FLAGS, display.d3dddicb_destroyallocation2flags
 f1_keywords:
  - "d3dukmdt/D3DDDICB_DESTROYALLOCATION2FLAGS"
+ - "D3DDDICB_DESTROYALLOCATION2FLAGS"
 req.header: d3dukmdt.h
 req.include-header: D3dumddi.h, D3dkmddi.h
 req.target-type: Windows

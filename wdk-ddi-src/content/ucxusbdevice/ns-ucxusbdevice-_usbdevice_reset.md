@@ -10,6 +10,7 @@ keywords: ["_USBDEVICE_RESET structure"]
 ms.keywords: "*PUSBDEVICE_RESET, P_USBDEVICE_RESET, P_USBDEVICE_RESET structure pointer [Buses], USBDEVICE_RESET, USBDEVICE_RESET structure [Buses], _USBDEVICE_RESET, buses._usbdevice_reset, ucxusbdevice/P_USBDEVICE_RESET, ucxusbdevice/_USBDEVICE_RESET"
 f1_keywords:
  - "ucxusbdevice/USBDEVICE_RESET"
+ - "USBDEVICE_RESET"
 req.header: ucxusbdevice.h
 req.include-header: Ucxclass.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["IoGetStackLimits function"]
 ms.keywords: IoGetStackLimits, IoGetStackLimits routine [Kernel-Mode Driver Architecture], k104_2688546a-d427-4d20-bc67-278b0fc20f45.xml, kernel.iogetstacklimits, wdm/IoGetStackLimits
 f1_keywords:
  - "wdm/IoGetStackLimits"
+ - "IoGetStackLimits"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

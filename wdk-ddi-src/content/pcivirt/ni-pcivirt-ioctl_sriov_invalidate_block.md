@@ -10,6 +10,7 @@ keywords: ["IOCTL_SRIOV_INVALIDATE_BLOCK IOCTL"]
 ms.keywords: IOCTL_SRIOV_INVALIDATE_BLOCK, IOCTL_SRIOV_INVALIDATE_BLOCK control code [Buses], PCI.ioctl-sriov-invalidate-block, pcivirt/IOCTL_SRIOV_INVALIDATE_BLOCK
 f1_keywords:
  - "pcivirt/IOCTL_SRIOV_INVALIDATE_BLOCK"
+ - "IOCTL_SRIOV_INVALIDATE_BLOCK"
 req.header: pcivirt.h
 req.include-header:
 req.target-type: Windows

@@ -9,6 +9,7 @@ keywords: ["D3DKMTReleaseKeyedMutex function"]
 ms.keywords: D3DKMTReleaseKeyedMutex, D3DKMTReleaseKeyedMutex function [Display Devices], OpenGL_Functions_16fd3037-2615-49c0-8500-7c93bcda3c9f.xml, d3dkmthk/D3DKMTReleaseKeyedMutex, display.d3dkmtreleasekeyedmutex
 f1_keywords:
  - "d3dkmthk/D3DKMTReleaseKeyedMutex"
+ - "D3DKMTReleaseKeyedMutex"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

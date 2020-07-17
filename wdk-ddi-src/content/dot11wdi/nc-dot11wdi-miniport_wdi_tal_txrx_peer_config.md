@@ -10,6 +10,7 @@ keywords: ["MINIPORT_WDI_TAL_TXRX_PEER_CONFIG callback function"]
 ms.keywords: MINIPORT_WDI_TAL_TXRX_PEER_CONFIG, MINIPORT_WDI_TAL_TXRX_PEER_CONFIG callback, MiniportWdiTalTxRxPeerConfig, MiniportWdiTalTxRxPeerConfig callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTalTxRxPeerConfig, netvista.miniportwditaltxrxpeerconfig
 f1_keywords:
  - "dot11wdi/MiniportWdiTalTxRxPeerConfig"
+ - "MiniportWdiTalTxRxPeerConfig"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows

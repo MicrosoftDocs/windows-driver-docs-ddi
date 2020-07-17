@@ -10,6 +10,7 @@ ms.date: 11/30/2019
 ms.topic: ioctl
 f1_keywords:
  - "ntddstor/IOCTL_STORAGE_SET_LED"
+ - "IOCTL_STORAGE_SET_LED"
 req.header: ntddstor.h
 req.include-header:
 req.target-type:

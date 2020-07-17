@@ -10,6 +10,7 @@ keywords: ["PosCxMarkPosApp function"]
 ms.keywords: PosCxMarkPosApp, PosCxMarkPosApp function, pos.poscxmarkposapp, poscx/PosCxMarkPosApp
 f1_keywords:
  - "poscx/PosCxMarkPosApp"
+ - "PosCxMarkPosApp"
 req.header: poscx.h
 req.include-header: Poscx.h
 req.target-type: Windows

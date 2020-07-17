@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["PGET_DMA_DOMAIN callback function"]
 f1_keywords:
  - "wdm/PGET_DMA_DOMAIN"
+ - "PGET_DMA_DOMAIN"
 req.header: wdm.h
 req.include-header:
 req.target-type:

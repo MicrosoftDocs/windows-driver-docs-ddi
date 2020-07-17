@@ -10,6 +10,7 @@ keywords: ["ProbeForRead function"]
 ms.keywords: ProbeForRead, ProbeForRead routine [Kernel-Mode Driver Architecture], k102_a0260886-9f28-408e-91a1-fde07974ef9b.xml, kernel.probeforread, wdm/ProbeForRead
 f1_keywords:
  - "wdm/ProbeForRead"
+ - "ProbeForRead"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

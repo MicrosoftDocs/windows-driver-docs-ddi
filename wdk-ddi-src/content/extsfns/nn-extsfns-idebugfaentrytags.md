@@ -10,6 +10,7 @@ keywords: ["IDebugFAEntryTags interface"]
 ms.keywords: IDebugFAEntryTags, IDebugFAEntryTags interface [Windows Debugging], IDebugFAEntryTags interface [Windows Debugging],described, debugger.idebugfaentrytags, extsfns/IDebugFAEntryTags
 f1_keywords:
  - "extsfns/IDebugFAEntryTags"
+ - "IDebugFAEntryTags"
 req.header: extsfns.h
 req.include-header: 
 req.target-type: Windows

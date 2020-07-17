@@ -30,6 +30,7 @@ req.typenames: D3D12DDI_TABLE_TYPE
 ms.custom: 19H1
 f1_keywords:
  - "d3d12umddi/D3D12DDI_TABLE_TYPE"
+ - "D3D12DDI_TABLE_TYPE"
 topic_type:
  - APIRef
  - kbSyntax

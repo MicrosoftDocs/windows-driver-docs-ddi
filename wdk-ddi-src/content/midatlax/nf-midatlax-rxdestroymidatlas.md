@@ -10,6 +10,7 @@ keywords: ["RxDestroyMidAtlas function"]
 ms.keywords: RxDestroyMidAtlas, RxDestroyMidAtlas function [Installable File System Drivers], ifsk.rxdestroymidatlas, midatlax/RxDestroyMidAtlas, rxref_3a954108-5744-4b47-87b7-7553d64ec038.xml
 f1_keywords:
  - "midatlax/RxDestroyMidAtlas"
+ - "RxDestroyMidAtlas"
 req.header: midatlax.h
 req.include-header: Midatlax.h
 req.target-type: Desktop

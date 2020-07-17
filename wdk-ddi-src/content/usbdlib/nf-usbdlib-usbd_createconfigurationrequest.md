@@ -10,6 +10,7 @@ keywords: ["USBD_CreateConfigurationRequest function"]
 ms.keywords: USBD_CreateConfigurationRequest, USBD_CreateConfigurationRequest routine [Buses], buses.usbd_createconfigurationrequest, usbdlib/USBD_CreateConfigurationRequest, usbfunc_d2701cb6-8159-48e0-b668-bb3b02226a7d.xml
 f1_keywords:
  - "usbdlib/USBD_CreateConfigurationRequest"
+ - "USBD_CreateConfigurationRequest"
 req.header: usbdlib.h
 req.include-header: 
 req.target-type: Universal

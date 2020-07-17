@@ -10,6 +10,7 @@ keywords: ["RILAVOIDCDMASYSTEMPARAMS structure"]
 ms.keywords: "*LPRILAVOIDCDMASYSTEMPARAMS, RILAVOIDCDMASYSTEMPARAMS, RILAVOIDCDMASYSTEMPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilavoidcdmasystemparams, ntddrilapitypes/RILAVOIDCDMASYSTEMPARAMS"
 f1_keywords:
  - "ntddrilapitypes/RILAVOIDCDMASYSTEMPARAMS"
+ - "RILAVOIDCDMASYSTEMPARAMS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["IOCTL_INTERNAL_USB_NOTIFY_IDLE_READY IOCTL"]
 ms.keywords: IOCTL_INTERNAL_USB_NOTIFY_IDLE_READY, IOCTL_INTERNAL_USB_NOTIFY_IDLE_READY control, IOCTL_INTERNAL_USB_NOTIFY_IDLE_READY control code [Buses], buses.ioctl_internal_usb_notify_idle_ready, usbioctl/IOCTL_INTERNAL_USB_NOTIFY_IDLE_READY
 f1_keywords:
  - "usbioctl/IOCTL_INTERNAL_USB_NOTIFY_IDLE_READY"
+ - "IOCTL_INTERNAL_USB_NOTIFY_IDLE_READY"
 req.header: usbioctl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["_WORK_QUEUE_ITEM structure"]
 ms.keywords: "*PWORK_QUEUE_ITEM, PWORK_QUEUE_ITEM, PWORK_QUEUE_ITEM structure pointer [Installable File System Drivers], WORK_QUEUE_ITEM, WORK_QUEUE_ITEM structure [Installable File System Drivers], _WORK_QUEUE_ITEM, ifsk.work_queue_item, othersystemstructures_52486f79-e8f4-4fb3-9b41-564bbd78f5d5.xml, wdm/PWORK_QUEUE_ITEM, wdm/WORK_QUEUE_ITEM"
 f1_keywords:
  - "wdm/WORK_QUEUE_ITEM"
+ - "WORK_QUEUE_ITEM"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Windows

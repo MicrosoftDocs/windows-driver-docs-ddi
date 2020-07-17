@@ -10,6 +10,7 @@ keywords: ["IDebugControl4::EvaluateWide"]
 ms.keywords: EvaluateWide, EvaluateWide method [Windows Debugging], EvaluateWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],EvaluateWide method, IDebugControl4.EvaluateWide, IDebugControl4::EvaluateWide, dbgeng/IDebugControl4::EvaluateWide, debugger.evaluatewide
 f1_keywords:
  - "dbgeng/IDebugControl4.EvaluateWide"
+ - "IDebugControl4.EvaluateWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

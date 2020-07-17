@@ -10,6 +10,7 @@ keywords: ["_IRB_REQ_ISOCH_LISTEN structure"]
 ms.keywords: 1394/IRB_REQ_ISOCH_LISTEN, IEEE.irb_req_isoch_listen, IRB_REQ_ISOCH_LISTEN, IRB_REQ_ISOCH_LISTEN structure [Buses], _IRB_REQ_ISOCH_LISTEN
 f1_keywords:
  - "1394/IRB_REQ_ISOCH_LISTEN"
+ - "IRB_REQ_ISOCH_LISTEN"
 req.header: 1394.h
 req.include-header: 
 req.target-type: Windows

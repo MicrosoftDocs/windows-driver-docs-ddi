@@ -10,6 +10,7 @@ keywords: ["ExInitializeDeleteTimerParameters function"]
 ms.keywords: ExInitializeDeleteTimerParameters, ExInitializeDeleteTimerParameters routine [Kernel-Mode Driver Architecture], kernel.exinitializedeletetimerparameters, wdm/ExInitializeDeleteTimerParameters
 f1_keywords:
  - "wdm/ExInitializeDeleteTimerParameters"
+ - "ExInitializeDeleteTimerParameters"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

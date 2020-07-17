@@ -9,6 +9,7 @@ keywords: ["PFND3D12DDI_SET_PREDICATION callback function"]
 ms.keywords: PFND3D12DDI_SET_PREDICATION, PFND3D12DDI_SET_PREDICATION callback, d3d12umddi/pfnSetPredication, display.pfnd3d12ddi_set_predication, pfnSetPredication, pfnSetPredication callback function [Display Devices]
 f1_keywords:
  - "d3d12umddi/pfnSetPredication"
+ - "pfnSetPredication"
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows

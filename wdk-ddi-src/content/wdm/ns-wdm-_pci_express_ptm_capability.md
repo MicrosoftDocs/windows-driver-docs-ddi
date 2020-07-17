@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_PCI_EXPRESS_PTM_CAPABILITY structure"]
 f1_keywords:
  - "wdm/_PCI_EXPRESS_PTM_CAPABILITY"
+ - "_PCI_EXPRESS_PTM_CAPABILITY"
 ms.keywords: _PCI_EXPRESS_PTM_CAPABILITY, PCI_EXPRESS_PTM_CAPABILITY, *PPCI_EXPRESS_PTM_CAPABILITY, 
 req.header: wdm.h
 req.include-header:

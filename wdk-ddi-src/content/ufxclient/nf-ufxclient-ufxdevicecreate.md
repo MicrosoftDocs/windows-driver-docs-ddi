@@ -10,6 +10,7 @@ keywords: ["UfxDeviceCreate function"]
 ms.keywords: UfxDeviceCreate, UfxDeviceCreate method [Buses], buses.ufxdevicecreate, ufxclient/UfxDeviceCreate
 f1_keywords:
  - "ufxclient/UfxDeviceCreate"
+ - "UfxDeviceCreate"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows

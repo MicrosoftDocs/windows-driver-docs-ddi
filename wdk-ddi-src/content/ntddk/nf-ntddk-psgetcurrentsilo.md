@@ -10,6 +10,7 @@ keywords: ["PsGetCurrentSilo function"]
 ms.keywords: PsGetCurrentSilo, PsGetCurrentSilo routine [Kernel-Mode Driver Architecture], kernel.psgetcurrentsilo, ntddk/PsGetCurrentSilo
 f1_keywords:
  - "ntddk/PsGetCurrentSilo"
+ - "PsGetCurrentSilo"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows

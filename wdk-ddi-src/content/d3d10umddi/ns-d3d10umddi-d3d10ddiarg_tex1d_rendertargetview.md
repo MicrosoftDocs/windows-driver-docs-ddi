@@ -9,6 +9,7 @@ keywords: ["D3D10DDIARG_TEX1D_RENDERTARGETVIEW structure"]
 ms.keywords: D3D10DDIARG_TEX1D_RENDERTARGETVIEW, D3D10DDIARG_TEX1D_RENDERTARGETVIEW structure [Display Devices], UMDisplayDriver_Dx10param_Structs_588779f0-1830-4434-b83e-1f1d8e16906b.xml, d3d10umddi/D3D10DDIARG_TEX1D_RENDERTARGETVIEW, display.d3d10ddiarg_tex1d_rendertargetview
 f1_keywords:
  - "d3d10umddi/D3D10DDIARG_TEX1D_RENDERTARGETVIEW"
+ - "D3D10DDIARG_TEX1D_RENDERTARGETVIEW"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

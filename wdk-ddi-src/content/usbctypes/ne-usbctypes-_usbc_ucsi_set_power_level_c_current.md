@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["_USBC_UCSI_SET_POWER_LEVEL_C_CURRENT enumeration"]
 f1_keywords:
  - "usbctypes/_USBC_UCSI_SET_POWER_LEVEL_C_CURRENT"
+ - "_USBC_UCSI_SET_POWER_LEVEL_C_CURRENT"
 ms.keywords: _USBC_UCSI_SET_POWER_LEVEL_C_CURRENT, USBC_UCSI_SET_POWER_LEVEL_C_CURRENT, *PUSBPM_UCSI_SET_POWER_LEVEL_C_CURRENT, 
 req.header: usbctypes.h
 req.include-header: usbctypes.h

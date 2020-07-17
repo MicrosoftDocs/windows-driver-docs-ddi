@@ -9,6 +9,7 @@ ms.author: windowsdriverdev
 ms.date: 03/24/2020
 f1_keywords:
  - "ntddvdeo/IOCTL_MIPI_DSI_QUERY_CAPS"
+ - "IOCTL_MIPI_DSI_QUERY_CAPS"
 req.header: ntddvdeo.h
 req.include-header:
 req.target-type:

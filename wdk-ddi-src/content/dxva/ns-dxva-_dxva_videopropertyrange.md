@@ -10,6 +10,7 @@ keywords: ["_DXVA_VideoPropertyRange structure"]
 ms.keywords: "*LPDXVA_VideoPropertyRange, DXVA_VideoPropertyRange, DXVA_VideoPropertyRange structure [Display Devices], LPDXVA_VideoPropertyRange, LPDXVA_VideoPropertyRange structure pointer [Display Devices], _DXVA_VideoPropertyRange, display.dxva_videopropertyrange, dxva/DXVA_VideoPropertyRange, dxva/LPDXVA_VideoPropertyRange, dxvaref_0e7bc2aa-0404-4025-908a-5d4c528e020b.xml"
 f1_keywords:
  - "dxva/DXVA_VideoPropertyRange"
+ - "DXVA_VideoPropertyRange"
 req.header: dxva.h
 req.include-header: Dxva.h
 req.target-type: Windows

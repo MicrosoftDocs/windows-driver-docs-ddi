@@ -10,6 +10,7 @@ ms.date: 01/02/2020
 keywords: ["FltFlushBuffers2 function"]
 f1_keywords:
  - "fltkernel/FltFlushBuffers2"
+ - "FltFlushBuffers2"
 ms.keywords: FltFlushBuffers2, FltFlushBuffers, IRP_MJ_FLUSH_BUFFERS
 req.header: fltkernel.h
 req.include-header:

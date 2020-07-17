@@ -32,6 +32,7 @@ api_name:
 f1_keywords:
  - ntddk/_PCI_EXPRESS_DPC_CAPABILITY
  - ntddk/PCI_EXPRESS_DPC_CAPABILITY
+ - ""
 dev_langs:
  - c++
 ---

@@ -10,6 +10,7 @@ keywords: ["KeIpiGenericCall function"]
 ms.keywords: KeIpiGenericCall, KeIpiGenericCall routine [Kernel-Mode Driver Architecture], k105_f819c564-ecbc-4d28-aa64-6936c8ad3542.xml, kernel.keipigenericcall, wdm/KeIpiGenericCall
 f1_keywords:
  - "wdm/KeIpiGenericCall"
+ - "KeIpiGenericCall"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

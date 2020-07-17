@@ -10,6 +10,7 @@ keywords: ["FWPS_STREAM_DATA0_ structure"]
 ms.keywords: FWPS_STREAM_DATA0, FWPS_STREAM_DATA0 structure [Network Drivers Starting with Windows Vista], FWPS_STREAM_DATA0_, fwpsk/FWPS_STREAM_DATA0, netvista.fwps_stream_data0, wfp_ref_3_struct_3_fwps_P-Z_d8d6e633-542c-4273-9341-935281133be4.xml
 f1_keywords:
  - "fwpsk/FWPS_STREAM_DATA0"
+ - "FWPS_STREAM_DATA0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["IWDFRemoteTarget interface"]
 ms.keywords: IWDFRemoteTarget, IWDFRemoteTarget interface, IWDFRemoteTarget interface,described, UMDFIoTargetObjectRef_5b14493b-370a-40a0-b571-dbd03b2a19a0.xml, umdf.iwdfremotetarget, wdf.iwdfremotetarget, wudfddi/IWDFRemoteTarget
 f1_keywords:
  - "wudfddi/IWDFRemoteTarget"
+ - "IWDFRemoteTarget"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop

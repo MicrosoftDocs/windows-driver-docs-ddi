@@ -10,6 +10,7 @@ keywords: ["UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT function"]
 ms.keywords: UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT, UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT function [Buses], buses.udecx_usb_device_plug_in_options_init, udecxusbdevice/UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT
 f1_keywords:
  - "udecxusbdevice/UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT"
+ - "UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT"
 req.header: udecxusbdevice.h
 req.include-header: Udecx.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["NDIS_WDI_TX_SEND_RESTART_IND callback function"]
 ms.keywords: NDIS_WDI_TX_SEND_RESTART_IND, NDIS_WDI_TX_SEND_RESTART_IND callback, NdisWdiTxSendRestartIndication, NdisWdiTxSendRestartIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxSendRestartIndication, netvista.ndiswditxsendrestartindication
 f1_keywords:
  - "dot11wdi/NdisWdiTxSendRestartIndication"
+ - "NdisWdiTxSendRestartIndication"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows

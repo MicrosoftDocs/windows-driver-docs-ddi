@@ -10,6 +10,7 @@ ms.date: 10/03/2019
 keywords: ["NetPowerOffloadGetNSParameters function"]
 f1_keywords:
  - "netpoweroffload/NetPowerOffloadGetNSParameters"
+ - "NetPowerOffloadGetNSParameters"
 ms.keywords: NetPowerOffloadGetNSParameters
 req.header: netpoweroffload.h
 req.include-header:

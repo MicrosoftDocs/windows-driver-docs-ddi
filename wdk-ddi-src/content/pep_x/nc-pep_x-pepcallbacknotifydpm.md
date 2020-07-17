@@ -10,6 +10,7 @@ keywords: ["PEPCALLBACKNOTIFYDPM callback function"]
 ms.keywords: AcceptDeviceNotification, AcceptDeviceNotification routine [Kernel-Mode Driver Architecture], PEPCALLBACKNOTIFYDPM, kernel.acceptdevicenotification, pepfx/AcceptDeviceNotification
 f1_keywords:
  - "pep_x/AcceptDeviceNotification"
+ - "AcceptDeviceNotification"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows

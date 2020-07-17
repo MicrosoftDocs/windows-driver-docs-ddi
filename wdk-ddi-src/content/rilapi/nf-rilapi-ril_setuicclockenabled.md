@@ -10,6 +10,7 @@ keywords: ["RIL_SetUiccLockEnabled function"]
 ms.keywords: RIL_SetUiccLockEnabled, RIL_SetUiccLockEnabled method [Network Drivers Starting with Windows Vista], netvista.ril_setuicclockenabled, rilapi/RIL_SetUiccLockEnabled
 f1_keywords:
  - "rilapi/RIL_SetUiccLockEnabled"
+ - "RIL_SetUiccLockEnabled"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

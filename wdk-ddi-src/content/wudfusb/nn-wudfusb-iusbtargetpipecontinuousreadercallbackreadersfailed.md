@@ -10,6 +10,7 @@ keywords: ["IUsbTargetPipeContinuousReaderCallbackReadersFailed interface"]
 ms.keywords: IUsbTargetPipeContinuousReaderCallbackReadersFailed, IUsbTargetPipeContinuousReaderCallbackReadersFailed interface, IUsbTargetPipeContinuousReaderCallbackReadersFailed interface,described, UMDFUSBref_c38e329c-f04a-4675-ad3b-25677fddedf9.xml, umdf.iusbtargetpipecontinuousreadercallbackreadersfailed, wdf.iusbtargetpipecontinuousreadercallbackreadersfailed, wudfusb/IUsbTargetPipeContinuousReaderCallbackReadersFailed
 f1_keywords:
  - "wudfusb/IUsbTargetPipeContinuousReaderCallbackReadersFailed"
+ - "IUsbTargetPipeContinuousReaderCallbackReadersFailed"
 req.header: wudfusb.h
 req.include-header: 
 req.target-type: Windows

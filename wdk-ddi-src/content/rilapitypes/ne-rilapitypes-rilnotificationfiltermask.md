@@ -10,6 +10,7 @@ keywords: ["RILNOTIFICATIONFILTERMASK enumeration"]
 ms.keywords: RILNOTIFICATIONFILTERMASK, RILNOTIFICATIONFILTERMASK enumeration [Network Drivers Starting with Windows Vista], RIL_NFS_ALL, RIL_NFS_LOCATIONUPDATE, RIL_NFS_REGSTATUS_RATKIND, RIL_NFS_SIGNALQUALITY, netvista.rilnotificationfiltermask, ntddrilapitypes/RILNOTIFICATIONFILTERMASK, ntddrilapitypes/RIL_NFS_ALL, ntddrilapitypes/RIL_NFS_LOCATIONUPDATE, ntddrilapitypes/RIL_NFS_REGSTATUS_RATKIND, ntddrilapitypes/RIL_NFS_SIGNALQUALITY
 f1_keywords:
  - "rilapitypes/RILNOTIFICATIONFILTERMASK"
+ - "RILNOTIFICATIONFILTERMASK"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

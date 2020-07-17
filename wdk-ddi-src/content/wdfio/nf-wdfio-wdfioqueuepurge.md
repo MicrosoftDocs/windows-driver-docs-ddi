@@ -10,6 +10,7 @@ keywords: ["WdfIoQueuePurge function"]
 ms.keywords: DFQueueObjectRef_611371f2-862e-41c5-9f8f-d0a61c7e731e.xml, WdfIoQueuePurge, WdfIoQueuePurge method, kmdf.wdfioqueuepurge, wdf.wdfioqueuepurge, wdfio/WdfIoQueuePurge
 f1_keywords:
  - "wdfio/WdfIoQueuePurge"
+ - "WdfIoQueuePurge"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal

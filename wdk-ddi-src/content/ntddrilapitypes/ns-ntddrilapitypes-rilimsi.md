@@ -10,6 +10,7 @@ keywords: ["RILIMSI structure"]
 ms.keywords: "*LPRILIMSI, RILIMSI, RILIMSI structure [Network Drivers Starting with Windows Vista], netvista.rilimsi, rilapitypes/RILIMSI"
 f1_keywords:
  - "ntddrilapitypes/RILIMSI"
+ - "RILIMSI"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows

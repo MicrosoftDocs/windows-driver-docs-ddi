@@ -10,6 +10,7 @@ keywords: ["RILMSGMWIDETAIL structure"]
 ms.keywords: "*LPRILMSGMWIDETAIL, RILMSGMWIDETAIL, RILMSGMWIDETAIL structure [Network Drivers Starting with Windows Vista], netvista.rilmsgmwidetail, ntddrilapitypes/RILMSGMWIDETAIL"
 f1_keywords:
  - "ntddrilapitypes/RILMSGMWIDETAIL"
+ - "RILMSGMWIDETAIL"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

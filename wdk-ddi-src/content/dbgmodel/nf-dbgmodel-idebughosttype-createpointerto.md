@@ -7,6 +7,7 @@ ms.date: 08/22/2018
 keywords: ["IDebugHostType::CreatePointerTo"]
 f1_keywords:
  - "dbgmodel/IDebugHostType.CreatePointerTo"
+ - "IDebugHostType.CreatePointerTo"
 ms.keywords: IDebugHostType::CreatePointerTo, CreatePointerTo, IDebugHostType.CreatePointerTo, IDebugHostType::CreatePointerTo, IDebugHostType.CreatePointerTo
 req.header: dbgmodel.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["IDebugOutputStream interface"]
 ms.keywords: IDebugOutputStream, IDebugOutputStream interface [Windows Debugging], IDebugOutputStream interface [Windows Debugging],described, dbgeng/IDebugOutputStream, debugger.idebugoutputstream
 f1_keywords:
  - "dbgeng/IDebugOutputStream"
+ - "IDebugOutputStream"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

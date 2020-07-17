@@ -10,6 +10,7 @@ keywords: ["NdisMQueryProbedBars function"]
 ms.keywords: NdisMQueryProbedBars, NdisMQueryProbedBars function [Network Drivers Starting with Windows Vista], ndis/NdisMQueryProbedBars, netvista.ndismqueryprobedbars
 f1_keywords:
  - "ndis/NdisMQueryProbedBars"
+ - "NdisMQueryProbedBars"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

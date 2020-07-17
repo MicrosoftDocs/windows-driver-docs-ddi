@@ -10,6 +10,7 @@ keywords: ["IDebugPlmClient3::QueryPlmPackageList"]
 ms.keywords: IDebugPlmClient3 interface [Windows Debugging],QueryPlmPackageList method, IDebugPlmClient3.QueryPlmPackageList, IDebugPlmClient3::QueryPlmPackageList, QueryPlmPackageList, QueryPlmPackageList method [Windows Debugging], QueryPlmPackageList method [Windows Debugging],IDebugPlmClient3 interface, dbgeng/IDebugPlmClient3::QueryPlmPackageList, debugger.idebugplmclient3_queryplmpackagelist
 f1_keywords:
  - "dbgeng/IDebugPlmClient3.QueryPlmPackageList"
+ - "IDebugPlmClient3.QueryPlmPackageList"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

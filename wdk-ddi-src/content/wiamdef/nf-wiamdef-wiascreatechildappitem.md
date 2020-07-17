@@ -10,6 +10,7 @@ keywords: ["wiasCreateChildAppItem function"]
 ms.keywords: image.wiascreatechildappitem, wiamdef/wiasCreateChildAppItem, wiasCreateChildAppItem, wiasCreateChildAppItem function [Imaging Devices], wiasFncs_63e9cbb1-6435-433b-a27f-36b66042be8a.xml
 f1_keywords:
  - "wiamdef/wiasCreateChildAppItem"
+ - "wiasCreateChildAppItem"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop

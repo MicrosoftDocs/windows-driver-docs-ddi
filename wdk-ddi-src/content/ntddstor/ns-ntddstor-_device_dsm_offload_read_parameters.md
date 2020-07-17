@@ -10,6 +10,7 @@ keywords: ["_DEVICE_DSM_OFFLOAD_READ_PARAMETERS structure"]
 ms.keywords: "*PDEVICE_DSM_OFFLOAD_READ_PARAMETERS, DEVICE_DSM_OFFLOAD_READ_PARAMETERS, DEVICE_DSM_OFFLOAD_READ_PARAMETERS structure [Storage Devices], PDEVICE_DSM_OFFLOAD_READ_PARAMETERS, PDEVICE_DSM_OFFLOAD_READ_PARAMETERS structure pointer [Storage Devices], _DEVICE_DSM_OFFLOAD_READ_PARAMETERS, ntddstor/DEVICE_DSM_OFFLOAD_READ_PARAMETERS, ntddstor/PDEVICE_DSM_OFFLOAD_READ_PARAMETERS, storage.device_dsm_offload_read_parameters"
 f1_keywords:
  - "ntddstor/DEVICE_DSM_OFFLOAD_READ_PARAMETERS"
+ - "DEVICE_DSM_OFFLOAD_READ_PARAMETERS"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows

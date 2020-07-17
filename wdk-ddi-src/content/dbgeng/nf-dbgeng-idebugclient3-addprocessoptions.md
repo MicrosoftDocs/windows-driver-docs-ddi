@@ -10,6 +10,7 @@ keywords: ["IDebugClient3::AddProcessOptions"]
 ms.keywords: AddProcessOptions, AddProcessOptions method [Windows Debugging], AddProcessOptions method [Windows Debugging],IDebugClient interface, AddProcessOptions method [Windows Debugging],IDebugClient2 interface, AddProcessOptions method [Windows Debugging],IDebugClient3 interface, AddProcessOptions method [Windows Debugging],IDebugClient4 interface, AddProcessOptions method [Windows Debugging],IDebugClient5 interface, IDebugClient interface [Windows Debugging],AddProcessOptions method, IDebugClient2 interface [Windows Debugging],AddProcessOptions method, IDebugClient2::AddProcessOptions, IDebugClient3 interface [Windows Debugging],AddProcessOptions method, IDebugClient3.AddProcessOptions, IDebugClient3::AddProcessOptions, IDebugClient4 interface [Windows Debugging],AddProcessOptions method, IDebugClient4::AddProcessOptions, IDebugClient5 interface [Windows Debugging],AddProcessOptions method, IDebugClient5::AddProcessOptions, IDebugClient::AddProcessOptions, IDebugClient_995041c9-9380-4a66-b9f8-d74d68398a44.xml, dbgeng/IDebugClient2::AddProcessOptions, dbgeng/IDebugClient3::AddProcessOptions, dbgeng/IDebugClient4::AddProcessOptions, dbgeng/IDebugClient5::AddProcessOptions, dbgeng/IDebugClient::AddProcessOptions, debugger.addprocessoptions
 f1_keywords:
  - "dbgeng/IDebugClient.AddProcessOptions"
+ - "IDebugClient.AddProcessOptions"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

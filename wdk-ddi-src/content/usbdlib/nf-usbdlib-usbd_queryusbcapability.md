@@ -10,6 +10,7 @@ keywords: ["USBD_QueryUsbCapability function"]
 ms.keywords: USBD_QueryUsbCapability, USBD_QueryUsbCapability routine [Buses], buses.usbd_getcapability, usbdlib/USBD_QueryUsbCapability
 f1_keywords:
  - "usbdlib/USBD_QueryUsbCapability"
+ - "USBD_QueryUsbCapability"
 req.header: usbdlib.h
 req.include-header: Usbdlib.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["PEPCALLBACKNOTIFYPPM callback function"]
 ms.keywords: AcceptProcessorNotification, AcceptProcessorNotification routine [Kernel-Mode Driver Architecture], PEPCALLBACKNOTIFYPPM, kernel.acceptprocessornotification, pepfx/AcceptProcessorNotification
 f1_keywords:
  - "pep_x/AcceptProcessorNotification"
+ - "AcceptProcessorNotification"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["FsRtlNumberOfRunsInLargeMcb function"]
 ms.keywords: FsRtlNumberOfRunsInLargeMcb, FsRtlNumberOfRunsInLargeMcb routine [Installable File System Drivers], fsrtlref_26b0787d-7f2e-4bfa-a36f-505836d50d2c.xml, ifsk.fsrtlnumberofrunsinlargemcb, ntifs/FsRtlNumberOfRunsInLargeMcb
 f1_keywords:
  - "ntifs/FsRtlNumberOfRunsInLargeMcb"
+ - "FsRtlNumberOfRunsInLargeMcb"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

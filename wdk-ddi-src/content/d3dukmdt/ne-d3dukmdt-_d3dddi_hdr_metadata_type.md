@@ -10,6 +10,7 @@ keywords: ["_D3DDDI_HDR_METADATA_TYPE enumeration"]
 ms.keywords: D3DDDI_HDR_METADATA_TYPE, D3DDDI_HDR_METADATA_TYPE enumeration [Display Devices], D3DDDI_HDR_METADATA_TYPE_HDR10, D3DDDI_HDR_METADATA_TYPE_NONE, _D3DDDI_HDR_METADATA_TYPE, d3dukmdt/D3DDDI_HDR_METADATA_TYPE, d3dukmdt/D3DDDI_HDR_METADATA_TYPE_HDR10, d3dukmdt/D3DDDI_HDR_METADATA_TYPE_NONE, display.d3dddi_hdr_metadata_type
 f1_keywords:
  - "d3dukmdt/D3DDDI_HDR_METADATA_TYPE"
+ - "D3DDDI_HDR_METADATA_TYPE"
 req.header: d3dukmdt.h
 req.include-header:
 req.target-type: Windows

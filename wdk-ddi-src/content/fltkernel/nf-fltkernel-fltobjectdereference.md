@@ -10,6 +10,7 @@ keywords: ["FltObjectDereference function"]
 ms.keywords: FltApiRef_e_to_o_4fbb4535-c814-4af7-b68d-f0d66da9bae2.xml, FltObjectDereference, FltObjectDereference routine [Installable File System Drivers], fltkernel/FltObjectDereference, ifsk.fltobjectdereference
 f1_keywords:
  - "fltkernel/FltObjectDereference"
+ - "FltObjectDereference"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

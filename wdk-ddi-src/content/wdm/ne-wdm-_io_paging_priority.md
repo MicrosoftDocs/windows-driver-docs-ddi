@@ -10,6 +10,7 @@ keywords: ["_IO_PAGING_PRIORITY enumeration"]
 ms.keywords: IO_PAGING_PRIORITY, IO_PAGING_PRIORITY enumeration [Kernel-Mode Driver Architecture], IoPagingPriorityHigh, IoPagingPriorityInvalid, IoPagingPriorityNormal, IoPagingPriorityReserved1, IoPagingPriorityReserved2, _IO_PAGING_PRIORITY, kernel.io_paging_priority, sysenum_8e021ebd-f26a-4749-8e76-c540af5dfae1.xml, wdm/IO_PAGING_PRIORITY, wdm/IoPagingPriorityHigh, wdm/IoPagingPriorityInvalid, wdm/IoPagingPriorityNormal, wdm/IoPagingPriorityReserved1, wdm/IoPagingPriorityReserved2
 f1_keywords:
  - "wdm/IO_PAGING_PRIORITY"
+ - "IO_PAGING_PRIORITY"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows

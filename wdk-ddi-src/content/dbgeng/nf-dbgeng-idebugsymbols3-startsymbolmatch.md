@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::StartSymbolMatch"]
 ms.keywords: IDebugSymbols interface [Windows Debugging],StartSymbolMatch method, IDebugSymbols2 interface [Windows Debugging],StartSymbolMatch method, IDebugSymbols2::StartSymbolMatch, IDebugSymbols3 interface [Windows Debugging],StartSymbolMatch method, IDebugSymbols3.StartSymbolMatch, IDebugSymbols3::StartSymbolMatch, IDebugSymbols::StartSymbolMatch, IDebugSymbols_4b000f13-0dc1-4a2c-8de3-3bf5384172c3.xml, StartSymbolMatch, StartSymbolMatch method [Windows Debugging], StartSymbolMatch method [Windows Debugging],IDebugSymbols interface, StartSymbolMatch method [Windows Debugging],IDebugSymbols2 interface, StartSymbolMatch method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols2::StartSymbolMatch, dbgeng/IDebugSymbols3::StartSymbolMatch, dbgeng/IDebugSymbols::StartSymbolMatch, debugger.startsymbolmatch
 f1_keywords:
  - "dbgeng/IDebugSymbols.StartSymbolMatch"
+ - "IDebugSymbols.StartSymbolMatch"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["_TCP_OFFLOAD_STATE_DELEGATED structure"]
 ms.keywords: "*PTCP_OFFLOAD_STATE_DELEGATED, PTCP_OFFLOAD_STATE_DELEGATED, PTCP_OFFLOAD_STATE_DELEGATED structure pointer [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_STATE_DELEGATED, TCP_OFFLOAD_STATE_DELEGATED structure [Network Drivers Starting with Windows Vista], _TCP_OFFLOAD_STATE_DELEGATED, ndischimney/PTCP_OFFLOAD_STATE_DELEGATED, ndischimney/TCP_OFFLOAD_STATE_DELEGATED, netvista.tcp_offload_state_delegated, tcp_chim_struct_e835c163-e154-4b9c-b1bb-b658376fd89d.xml"
 f1_keywords:
  - "ndischimney/TCP_OFFLOAD_STATE_DELEGATED"
+ - "TCP_OFFLOAD_STATE_DELEGATED"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Windows

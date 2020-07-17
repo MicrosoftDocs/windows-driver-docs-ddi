@@ -10,6 +10,7 @@ keywords: ["_D3DDDIRECT structure"]
 ms.keywords: D3DDDIRECT, D3DDDIRECT structure [Display Devices], D3D_other_Structs_0b4f8354-6a1e-49fa-85aa-681b20e7d072.xml, _D3DDDIRECT, d3dukmdt/D3DDDIRECT, display.d3dddirect
 f1_keywords:
  - "d3dukmdt/D3DDDIRECT"
+ - "D3DDDIRECT"
 req.header: d3dukmdt.h
 req.include-header: D3dukmdt.h
 req.target-type: Windows

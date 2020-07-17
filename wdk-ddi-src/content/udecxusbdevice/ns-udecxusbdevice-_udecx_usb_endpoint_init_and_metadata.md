@@ -10,6 +10,7 @@ keywords: ["_UDECX_USB_ENDPOINT_INIT_AND_METADATA structure"]
 ms.keywords: "*PUDECX_USB_ENDPOINT_INIT_AND_METADATA, PUDECX_USB_ENDPOINT_INIT_AND_METADATA, PUDECX_USB_ENDPOINT_INIT_AND_METADATA structure pointer [Buses], UDECX_USB_ENDPOINT_INIT_AND_METADATA, UDECX_USB_ENDPOINT_INIT_AND_METADATA structure [Buses], _UDECX_USB_ENDPOINT_INIT_AND_METADATA, buses.udecx_usb_endpoint_init_and_metadata, udecxusbdevice/PUDECX_USB_ENDPOINT_INIT_AND_METADATA, udecxusbdevice/UDECX_USB_ENDPOINT_INIT_AND_METADATA"
 f1_keywords:
  - "udecxusbdevice/UDECX_USB_ENDPOINT_INIT_AND_METADATA"
+ - "UDECX_USB_ENDPOINT_INIT_AND_METADATA"
 req.header: udecxusbdevice.h
 req.include-header: Udecx.h
 req.target-type: Windows

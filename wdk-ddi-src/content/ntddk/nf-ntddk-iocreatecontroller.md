@@ -10,6 +10,7 @@ keywords: ["IoCreateController function"]
 ms.keywords: IoCreateController, IoCreateController routine [Kernel-Mode Driver Architecture], k104_a7ec4f8c-84d0-4fec-9f9e-40c5d57036f1.xml, kernel.iocreatecontroller, ntddk/IoCreateController
 f1_keywords:
  - "ntddk/IoCreateController"
+ - "IoCreateController"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

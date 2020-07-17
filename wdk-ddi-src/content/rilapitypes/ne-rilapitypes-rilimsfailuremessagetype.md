@@ -10,6 +10,7 @@ keywords: ["RILIMSFAILUREMESSAGETYPE enumeration"]
 ms.keywords: RILIMSFAILUREMESSAGETYPE, RILIMSFAILUREMESSAGETYPE enumeration [Network Drivers Starting with Windows Vista], RIL_IMSFAILUREMESSAGETYPE_INCALL, RIL_IMSFAILUREMESSAGETYPE_MAX, RIL_IMSFAILUREMESSAGETYPE_SUBSCRIBE, netvista.rilimsfailuremessagetype, ntddrilapitypes/RILIMSFAILUREMESSAGETYPE, ntddrilapitypes/RIL_IMSFAILUREMESSAGETYPE_INCALL, ntddrilapitypes/RIL_IMSFAILUREMESSAGETYPE_MAX, ntddrilapitypes/RIL_IMSFAILUREMESSAGETYPE_SUBSCRIBE
 f1_keywords:
  - "rilapitypes/RILIMSFAILUREMESSAGETYPE"
+ - "RILIMSFAILUREMESSAGETYPE"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

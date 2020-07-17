@@ -10,6 +10,7 @@ keywords: ["VideoPortGetAgpServices function"]
 ms.keywords: VideoPortGetAgpServices, VideoPortGetAgpServices function [Display Devices], VideoPort_Functions_498a8f06-f24e-4116-90df-30360fa111a1.xml, display.videoportgetagpservices, videoagp/VideoPortGetAgpServices
 f1_keywords:
  - "videoagp/VideoPortGetAgpServices"
+ - "VideoPortGetAgpServices"
 req.header: videoagp.h
 req.include-header: Video.h
 req.target-type: Desktop

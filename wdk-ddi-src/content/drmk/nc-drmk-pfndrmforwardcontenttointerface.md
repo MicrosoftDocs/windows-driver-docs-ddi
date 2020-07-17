@@ -10,6 +10,7 @@ keywords: ["PFNDRMFORWARDCONTENTTOINTERFACE callback function"]
 ms.keywords: DRMForwardContentToInterface, DRMForwardContentToInterface callback function [Audio Devices], PFNDRMFORWARDCONTENTTOINTERFACE, PFNDRMFORWARDCONTENTTOINTERFACE callback, PfnDRMForwardContentToInterface, PfnDRMForwardContentToInterface callback function [Audio Devices], audio.pfndrmforwardcontenttointerface, drmk/PfnDRMForwardContentToInterface
 f1_keywords:
  - "drmk/DRMForwardContentToInterface"
+ - "DRMForwardContentToInterface"
 req.header: drmk.h
 req.include-header: 
 req.target-type: Windows

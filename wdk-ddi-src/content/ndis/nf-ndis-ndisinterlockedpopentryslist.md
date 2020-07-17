@@ -10,6 +10,7 @@ keywords: ["NdisInterlockedPopEntrySList macro"]
 ms.keywords: NdisInterlockedPopEntrySList, NdisInterlockedPopEntrySList macro [Network Drivers Starting with Windows Vista], ndis/NdisInterlockedPopEntrySList, ndis_interlocked_ref_5e66ef00-4498-4599-be50-f21ef676d032.xml, netvista.ndisinterlockedpopentryslist
 f1_keywords:
  - "ndis/NdisInterlockedPopEntrySList"
+ - "NdisInterlockedPopEntrySList"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

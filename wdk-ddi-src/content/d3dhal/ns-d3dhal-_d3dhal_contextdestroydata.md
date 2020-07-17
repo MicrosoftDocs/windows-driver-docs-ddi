@@ -10,6 +10,7 @@ keywords: ["_D3DHAL_CONTEXTDESTROYDATA structure"]
 ms.keywords: "*LPD3DHAL_CONTEXTDESTROYDATA, D3DHAL_CONTEXTDESTROYDATA, D3DHAL_CONTEXTDESTROYDATA structure [Display Devices], LPD3DHAL_CONTEXTDESTROYDATA, LPD3DHAL_CONTEXTDESTROYDATA structure pointer [Display Devices], _D3DHAL_CONTEXTDESTROYDATA, d3dhal/D3DHAL_CONTEXTDESTROYDATA, d3dhal/LPD3DHAL_CONTEXTDESTROYDATA, d3dstrct_7ae0080d-0578-43e2-9ddc-0dd7df1a4fcd.xml, display.d3dhal_contextdestroydata"
 f1_keywords:
  - "d3dhal/D3DHAL_CONTEXTDESTROYDATA"
+ - "D3DHAL_CONTEXTDESTROYDATA"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows

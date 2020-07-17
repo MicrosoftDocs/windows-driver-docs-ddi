@@ -10,6 +10,7 @@ keywords: ["FWPS_CALLOUT_NOTIFY_FN1 callback function"]
 ms.keywords: FWPS_CALLOUT_NOTIFY_FN1, FWPS_CALLOUT_NOTIFY_FN1 callback, fwpsk/notifyFn1, netvista.notifyfn1, notifyFn1, notifyFn1 callback function [Network Drivers Starting with Windows Vista], wfp_ref_2_funct_4_callout_0cbdb762-b5f8-4c14-a361-a44589e1d663.xml
 f1_keywords:
  - "fwpsk/notifyFn1"
+ - "notifyFn1"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Windows

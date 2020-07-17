@@ -10,6 +10,7 @@ keywords: ["KsCancelIo function"]
 ms.keywords: KsCancelIo, KsCancelIo function [Streaming Media Devices], ks/KsCancelIo, ksfunc_135412c3-120f-4b19-ac05-da63ab6b1ddd.xml, stream.kscancelio
 f1_keywords:
  - "ks/KsCancelIo"
+ - "KsCancelIo"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

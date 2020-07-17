@@ -10,6 +10,7 @@ keywords: ["FsRtlIsNameInExpression function"]
 ms.keywords: FsRtlIsNameInExpression, FsRtlIsNameInExpression routine [Installable File System Drivers], fsrtlref_719072fe-274b-482a-ba9c-4a21d4d2be21.xml, ifsk.fsrtlisnameinexpression, ntifs/FsRtlIsNameInExpression
 f1_keywords:
  - "ntifs/FsRtlIsNameInExpression"
+ - "FsRtlIsNameInExpression"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal

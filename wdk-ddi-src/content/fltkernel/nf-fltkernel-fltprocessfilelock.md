@@ -10,6 +10,7 @@ keywords: ["FltProcessFileLock function"]
 ms.keywords: FltApiRef_p_to_z_e4ff8145-c586-4c3c-acfa-d4c22f48a5d2.xml, FltProcessFileLock, FltProcessFileLock routine [Installable File System Drivers], fltkernel/FltProcessFileLock, ifsk.fltprocessfilelock
 f1_keywords:
  - "fltkernel/FltProcessFileLock"
+ - "FltProcessFileLock"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

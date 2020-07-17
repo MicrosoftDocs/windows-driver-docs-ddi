@@ -10,6 +10,7 @@ keywords: ["ZwSetEvent function"]
 ms.keywords: NtSetEvent, ZwSetEvent, ZwSetEvent routine [Kernel-Mode Driver Architecture], k111_e01bbbbf-29f9-4c0a-89a2-84cf927aeb47.xml, kernel.zwsetevent, ntifs/NtSetEvent, ntifs/ZwSetEvent
 f1_keywords:
  - "ntifs/ZwSetEvent"
+ - "ZwSetEvent"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

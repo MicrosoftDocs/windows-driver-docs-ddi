@@ -10,6 +10,7 @@ keywords: ["IPortClsRuntimePower interface"]
 ms.keywords: IPortClsRuntimePower, IPortClsRuntimePower interface [Audio Devices], IPortClsRuntimePower interface [Audio Devices],described, audio.iportclsruntimepower, portcls/IPortClsRuntimePower
 f1_keywords:
  - "portcls/IPortClsRuntimePower"
+ - "IPortClsRuntimePower"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows

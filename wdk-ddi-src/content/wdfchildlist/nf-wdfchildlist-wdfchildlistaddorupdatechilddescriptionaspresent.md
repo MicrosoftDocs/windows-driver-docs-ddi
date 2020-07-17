@@ -10,6 +10,7 @@ keywords: ["WdfChildListAddOrUpdateChildDescriptionAsPresent function"]
 ms.keywords: DFDeviceObjectChildListRef_9e96421e-d818-4c2e-a46b-03db44980414.xml, WdfChildListAddOrUpdateChildDescriptionAsPresent, WdfChildListAddOrUpdateChildDescriptionAsPresent method, kmdf.wdfchildlistaddorupdatechilddescriptionaspresent, wdf.wdfchildlistaddorupdatechilddescriptionaspresent, wdfchildlist/WdfChildListAddOrUpdateChildDescriptionAsPresent
 f1_keywords:
  - "wdfchildlist/WdfChildListAddOrUpdateChildDescriptionAsPresent"
+ - "WdfChildListAddOrUpdateChildDescriptionAsPresent"
 req.header: wdfchildlist.h
 req.include-header: Wdf.h
 req.target-type: Universal

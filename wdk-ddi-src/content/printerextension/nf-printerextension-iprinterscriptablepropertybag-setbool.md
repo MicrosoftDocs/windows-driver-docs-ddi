@@ -10,6 +10,7 @@ keywords: ["IPrinterScriptablePropertyBag::SetBool"]
 ms.keywords: IPrinterScriptablePropertyBag interface [Print Devices],SetBool method, IPrinterScriptablePropertyBag.SetBool, IPrinterScriptablePropertyBag::SetBool, SetBool, SetBool method [Print Devices], SetBool method [Print Devices],IPrinterScriptablePropertyBag interface, print.iprinterscriptablepropertybag_setbool, printerextension/IPrinterScriptablePropertyBag::SetBool
 f1_keywords:
  - "printerextension/IPrinterScriptablePropertyBag.SetBool"
+ - "IPrinterScriptablePropertyBag.SetBool"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop

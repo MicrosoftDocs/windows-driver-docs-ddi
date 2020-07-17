@@ -10,6 +10,7 @@ keywords: ["IDebugFailureAnalysis2::SetUlong"]
 ms.keywords: IDebugFailureAnalysis2 interface [Windows Debugging],SetUlong method, IDebugFailureAnalysis2.SetUlong, IDebugFailureAnalysis2::SetUlong, SetUlong, SetUlong method [Windows Debugging], SetUlong method [Windows Debugging],IDebugFailureAnalysis2 interface, debugger.idebugfailureanalysis2_setextensionulong, debugger.idebugfailureanalysis2_setulong, extsfns/IDebugFailureAnalysis2::SetUlong
 f1_keywords:
  - "extsfns/IDebugFailureAnalysis2.SetUlong"
+ - "IDebugFailureAnalysis2.SetUlong"
 req.header: extsfns.h
 req.include-header: 
 req.target-type: Desktop

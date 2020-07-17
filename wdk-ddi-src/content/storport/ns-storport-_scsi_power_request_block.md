@@ -10,6 +10,7 @@ keywords: ["_SCSI_POWER_REQUEST_BLOCK structure"]
 ms.keywords: "*PSCSI_POWER_REQUEST_BLOCK, PSCSI_POWER_REQUEST_BLOCK, PSCSI_POWER_REQUEST_BLOCK structure pointer [Storage Devices], SCSI_POWER_REQUEST_BLOCK, SCSI_POWER_REQUEST_BLOCK structure [Storage Devices], _SCSI_POWER_REQUEST_BLOCK, storage.scsi_power_request_block, storport/PSCSI_POWER_REQUEST_BLOCK, storport/SCSI_POWER_REQUEST_BLOCK, structs-storport_de071b99-aa78-4c21-845e-f47b7d0297c0.xml"
 f1_keywords:
  - "storport/SCSI_POWER_REQUEST_BLOCK"
+ - "SCSI_POWER_REQUEST_BLOCK"
 req.header: storport.h
 req.include-header: Storport.h, Minitape.h, Srb.h
 req.target-type: Windows

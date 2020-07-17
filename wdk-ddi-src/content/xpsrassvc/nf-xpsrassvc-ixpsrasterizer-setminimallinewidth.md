@@ -10,6 +10,7 @@ keywords: ["IXpsRasterizer::SetMinimalLineWidth"]
 ms.keywords: IXpsRasterizer interface [Print Devices],SetMinimalLineWidth method, IXpsRasterizer.SetMinimalLineWidth, IXpsRasterizer::SetMinimalLineWidth, SetMinimalLineWidth, SetMinimalLineWidth method [Print Devices], SetMinimalLineWidth method [Print Devices],IXpsRasterizer interface, print.ixpsrasterizer_setminimallinewidth, print_xpsrast_2208b605-31bd-4ab9-8bd5-6941a921ff7a.xml, xpsrassvc/IXpsRasterizer::SetMinimalLineWidth
 f1_keywords:
  - "xpsrassvc/IXpsRasterizer.SetMinimalLineWidth"
+ - "IXpsRasterizer.SetMinimalLineWidth"
 req.header: xpsrassvc.h
 req.include-header: 
 req.target-type: Desktop

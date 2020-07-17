@@ -9,6 +9,7 @@ keywords: ["D3D11_1DDI_AUTHENTICATED_QUERY_CRYPTO_SESSION_INPUT structure"]
 ms.keywords: D3D11_1DDI_AUTHENTICATED_QUERY_CRYPTO_SESSION_INPUT, D3D11_1DDI_AUTHENTICATED_QUERY_CRYPTO_SESSION_INPUT structure [Display Devices], d3d10umddi/D3D11_1DDI_AUTHENTICATED_QUERY_CRYPTO_SESSION_INPUT, display.d3d11_1ddi_authenticated_query_crypto_session_input
 f1_keywords:
  - "d3d10umddi/D3D11_1DDI_AUTHENTICATED_QUERY_CRYPTO_SESSION_INPUT"
+ - "D3D11_1DDI_AUTHENTICATED_QUERY_CRYPTO_SESSION_INPUT"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

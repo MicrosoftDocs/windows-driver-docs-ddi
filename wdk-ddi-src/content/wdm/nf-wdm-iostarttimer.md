@@ -10,6 +10,7 @@ keywords: ["IoStartTimer function"]
 ms.keywords: IoStartTimer, IoStartTimer routine [Kernel-Mode Driver Architecture], k104_bca7aa97-41e1-48e4-96df-52dd6109cd51.xml, kernel.iostarttimer, wdm/IoStartTimer
 f1_keywords:
  - "wdm/IoStartTimer"
+ - "IoStartTimer"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows

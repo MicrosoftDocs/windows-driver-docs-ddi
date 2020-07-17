@@ -10,6 +10,7 @@ keywords: ["UcmConnectorPdConnectionStateChanged function"]
 ms.keywords: UcmConnectorPdConnectionStateChanged, UcmConnectorPdConnectionStateChanged method [Buses], buses.ucmconnectorpdconnectionstatechanged, ucmmanager/UcmConnectorPdConnectionStateChanged
 f1_keywords:
  - "ucmmanager/UcmConnectorPdConnectionStateChanged"
+ - "UcmConnectorPdConnectionStateChanged"
 req.header: ucmmanager.h
 req.include-header: Ucmcx.h
 req.target-type: Windows

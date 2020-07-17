@@ -10,6 +10,7 @@ keywords: ["IOCTL_SERIAL_SET_TIMEOUTS IOCTL"]
 ms.keywords: IOCTL_SERIAL_SET_TIMEOUTS, IOCTL_SERIAL_SET_TIMEOUTS control, IOCTL_SERIAL_SET_TIMEOUTS control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_TIMEOUTS, serports.ioctl_serial_set_timeouts, serref_5aac4101-9b7e-4bff-a61c-108ef9cb76f3.xml
 f1_keywords:
  - "ntddser/IOCTL_SERIAL_SET_TIMEOUTS"
+ - "IOCTL_SERIAL_SET_TIMEOUTS"
 req.header: ntddser.h
 req.include-header: Ntddser.h
 req.target-type: Windows

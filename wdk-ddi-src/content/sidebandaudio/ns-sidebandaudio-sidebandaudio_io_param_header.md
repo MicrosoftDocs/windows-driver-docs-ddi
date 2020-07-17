@@ -7,6 +7,7 @@ ms.date: 09/07/2018
 keywords: ["SIDEBANDAUDIO_IO_PARAM_HEADER structure"]
 f1_keywords:
  - "sidebandaudio/SIDEBANDAUDIO_IO_PARAM_HEADER"
+ - "SIDEBANDAUDIO_IO_PARAM_HEADER"
 ms.keywords: SIDEBANDAUDIO_IO_PARAM_HEADER, SIDEBANDAUDIO_IO_PARAM_HEADER, *PSIDEBANDAUDIO_IO_PARAM_HEADER, 
 req.header: sidebandaudio.h
 req.include-header:

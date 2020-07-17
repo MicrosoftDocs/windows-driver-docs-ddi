@@ -10,6 +10,7 @@ keywords: ["_DXVA_VideoSample32 structure"]
 ms.keywords: DXVA_VideoSample32, DXVA_VideoSample32 structure [Display Devices], _DXVA_VideoSample32, display.dxva_videosample32, dxva/DXVA_VideoSample32, dxvaref_3e581191-6878-4daa-87e6-62188fa4708e.xml
 f1_keywords:
  - "dxva/DXVA_VideoSample32"
+ - "DXVA_VideoSample32"
 req.header: dxva.h
 req.include-header: Dxva.h
 req.target-type: Windows

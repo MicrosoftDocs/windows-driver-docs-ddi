@@ -10,6 +10,7 @@ keywords: ["_NDIS_MSIX_TABLE_CONFIG enumeration"]
 ms.keywords: "*PNDIS_MSIX_TABLE_OPERATION, NDIS_MSIX_TABLE_OPERATION, NDIS_MSIX_TABLE_OPERATION enumeration [Network Drivers Starting with Windows Vista], NdisMSIXTableConfigMaskTableEntry, NdisMSIXTableConfigMax, NdisMSIXTableConfigSetTableEntry, NdisMSIXTableConfigUnmaskTableEntry, PNDIS_MSIX_TABLE_OPERATION, PNDIS_MSIX_TABLE_OPERATION enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_MSIX_TABLE_CONFIG, ndis/NDIS_MSIX_TABLE_OPERATION, ndis/NdisMSIXTableConfigMaskTableEntry, ndis/NdisMSIXTableConfigMax, ndis/NdisMSIXTableConfigSetTableEntry, ndis/NdisMSIXTableConfigUnmaskTableEntry, ndis/PNDIS_MSIX_TABLE_OPERATION, ndis_msix_ref_b315600c-7d23-4251-bcdb-560c46d5fa79.xml, netvista.ndis_msix_table_operation"
 f1_keywords:
  - "ndis/NDIS_MSIX_TABLE_OPERATION"
+ - "NDIS_MSIX_TABLE_OPERATION"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

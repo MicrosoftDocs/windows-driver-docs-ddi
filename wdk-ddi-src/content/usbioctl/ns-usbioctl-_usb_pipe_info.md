@@ -10,6 +10,7 @@ keywords: ["_USB_PIPE_INFO structure"]
 ms.keywords: "*PUSB_PIPE_INFO, PUSB_PIPE_INFO, PUSB_PIPE_INFO structure pointer [Buses], USB_PIPE_INFO, USB_PIPE_INFO structure [Buses], _USB_PIPE_INFO, buses.usb_pipe_info, usbioctl/PUSB_PIPE_INFO, usbioctl/USB_PIPE_INFO, usbstrct_bba47504-f840-483c-9cf8-49a7ade717d3.xml"
 f1_keywords:
  - "usbioctl/USB_PIPE_INFO"
+ - "USB_PIPE_INFO"
 req.header: usbioctl.h
 req.include-header: Usbioctl.h
 req.target-type: Windows

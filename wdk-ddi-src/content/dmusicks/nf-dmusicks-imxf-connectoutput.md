@@ -8,6 +8,7 @@ ms.date: 10/31/2018
 keywords: ["IMXF::ConnectOutput"]
 f1_keywords:
  - "dmusicks/IMXF.ConnectOutput"
+ - "IMXF.ConnectOutput"
 ms.keywords: IMXF::ConnectOutput, ConnectOutput, IMXF.ConnectOutput, IMXF::ConnectOutput, IMXF.ConnectOutput
 req.header: dmusicks.h
 req.include-header:

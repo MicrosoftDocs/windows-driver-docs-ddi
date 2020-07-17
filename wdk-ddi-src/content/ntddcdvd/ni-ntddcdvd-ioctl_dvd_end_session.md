@@ -10,6 +10,7 @@ keywords: ["IOCTL_DVD_END_SESSION IOCTL"]
 ms.keywords: IOCTL_DVD_END_SESSION, IOCTL_DVD_END_SESSION control, IOCTL_DVD_END_SESSION control code [Storage Devices], k307_6d285513-0b3e-4493-977e-e6e837fa3d6a.xml, ntddcdvd/IOCTL_DVD_END_SESSION, storage.ioctl_dvd_end_session
 f1_keywords:
  - "ntddcdvd/IOCTL_DVD_END_SESSION"
+ - "IOCTL_DVD_END_SESSION"
 req.header: ntddcdvd.h
 req.include-header: Ntddcdvd.h
 req.target-type: Windows

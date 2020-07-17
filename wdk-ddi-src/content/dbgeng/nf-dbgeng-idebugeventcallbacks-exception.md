@@ -10,6 +10,7 @@ keywords: ["IDebugEventCallbacks::Exception"]
 ms.keywords: ComCallbacks_46bf959d-52a9-4b0a-b074-d28b76de343d.xml, Exception, Exception method [Windows Debugging], Exception method [Windows Debugging],IDebugEventCallbacks interface, IDebugEventCallbacks interface [Windows Debugging],Exception method, IDebugEventCallbacks.Exception, IDebugEventCallbacks::Exception, dbgeng/IDebugEventCallbacks::Exception, debugger.idebugeventcallbacks_exception
 f1_keywords:
  - "dbgeng/IDebugEventCallbacks.Exception"
+ - "IDebugEventCallbacks.Exception"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

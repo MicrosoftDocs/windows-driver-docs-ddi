@@ -10,6 +10,7 @@ keywords: ["USBFN_GET_ATTACH_ACTION_ABORT callback function"]
 ms.keywords: USBFN_GET_ATTACH_ACTION_ABORT, USBFN_GET_ATTACH_ACTION_ABORT callback, UsbFnGetAttachActionAbort, UsbFnGetAttachActionAbort callback function [Buses], buses.usbfn_get_attach_action_abort, usbfnattach/UsbFnGetAttachActionAbort
 f1_keywords:
  - "usbfnattach/USBFN_SET_DEVICE_STATE"
+ - "USBFN_SET_DEVICE_STATE"
 req.header: usbfnattach.h
 req.include-header: 
 req.target-type: Windows

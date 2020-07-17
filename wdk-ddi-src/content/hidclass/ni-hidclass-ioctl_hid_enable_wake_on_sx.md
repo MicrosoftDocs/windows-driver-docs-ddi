@@ -10,6 +10,7 @@ keywords: ["IOCTL_HID_ENABLE_WAKE_ON_SX IOCTL"]
 ms.keywords: IOCTL_HID_ENABLE_WAKE_ON_SX, IOCTL_HID_ENABLE_WAKE_ON_SX control, IOCTL_HID_ENABLE_WAKE_ON_SX control code [Human Input Devices], hid.ioctl_hid_enable_wake_on_sx, hidclass/IOCTL_HID_ENABLE_WAKE_ON_SX
 f1_keywords:
  - "hidclass/IOCTL_HID_ENABLE_WAKE_ON_SX"
+ - "IOCTL_HID_ENABLE_WAKE_ON_SX"
 req.header: hidclass.h
 req.include-header: Hidclass.h
 req.target-type: Windows

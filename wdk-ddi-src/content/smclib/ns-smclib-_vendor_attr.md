@@ -10,6 +10,7 @@ keywords: ["_VENDOR_ATTR structure"]
 ms.keywords: "*PVENDOR_ATTR, PVENDOR_ATTR, PVENDOR_ATTR structure pointer [Smart Card Reader Devices], VENDOR_ATTR, VENDOR_ATTR structure [Smart Card Reader Devices], _VENDOR_ATTR, scstruct_dfa4be20-d572-46d6-aff7-c4c16d930c7f.xml, smartcrd.vendor_attr, smclib/PVENDOR_ATTR, smclib/VENDOR_ATTR"
 f1_keywords:
  - "smclib/VENDOR_ATTR"
+ - "VENDOR_ATTR"
 req.header: smclib.h
 req.include-header: Smclib.h
 req.target-type: Windows

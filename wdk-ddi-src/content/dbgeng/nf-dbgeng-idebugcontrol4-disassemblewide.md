@@ -10,6 +10,7 @@ keywords: ["IDebugControl4::DisassembleWide"]
 ms.keywords: DisassembleWide, DisassembleWide method [Windows Debugging], DisassembleWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],DisassembleWide method, IDebugControl4.DisassembleWide, IDebugControl4::DisassembleWide, dbgeng/IDebugControl4::DisassembleWide, debugger.disassemblewide
 f1_keywords:
  - "dbgeng/IDebugControl4.DisassembleWide"
+ - "IDebugControl4.DisassembleWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

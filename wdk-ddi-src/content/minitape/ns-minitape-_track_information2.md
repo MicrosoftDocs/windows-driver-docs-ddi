@@ -10,6 +10,7 @@ keywords: ["_TRACK_INFORMATION2 structure"]
 ms.keywords: "*PTRACK_INFORMATION2, PTRACK_INFORMATION2, PTRACK_INFORMATION2 structure pointer [Storage Devices], TRACK_INFORMATION2, TRACK_INFORMATION2 structure [Storage Devices], _TRACK_INFORMATION2, scsi/PTRACK_INFORMATION2, scsi/TRACK_INFORMATION2, storage.track_information2, structs-CD-ROM_a77c4142-fe27-489b-ab9c-1637cf4b911d.xml"
 f1_keywords:
  - "minitape/TRACK_INFORMATION2"
+ - "TRACK_INFORMATION2"
 req.header: minitape.h
 req.include-header: Scsi.h, Minitape.h, Storport.h
 req.target-type: Windows

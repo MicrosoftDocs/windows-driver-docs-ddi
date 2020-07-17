@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_SCATTERBLT structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_SCATTERBLT"
+ - "_D3DKMT_SCATTERBLT"
 ms.keywords: _D3DKMT_SCATTERBLT, D3DKMT_SCATTERBLT, 
 req.header: d3dkmthk.h
 req.include-header:

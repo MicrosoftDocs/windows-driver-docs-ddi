@@ -29,6 +29,7 @@ targetos: Windows
 req.typenames: 
 f1_keywords:
  - "d3dumddi/SetMaterial"
+ - "SetMaterial"
 topic_type:
  - APIRef
  - kbSyntax

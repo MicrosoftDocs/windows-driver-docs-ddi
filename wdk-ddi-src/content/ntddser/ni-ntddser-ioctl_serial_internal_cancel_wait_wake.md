@@ -10,6 +10,7 @@ keywords: ["IOCTL_SERIAL_INTERNAL_CANCEL_WAIT_WAKE IOCTL"]
 ms.keywords: IOCTL_SERIAL_INTERNAL_CANCEL_WAIT_WAKE, IOCTL_SERIAL_INTERNAL_CANCEL_WAIT_WAKE control, IOCTL_SERIAL_INTERNAL_CANCEL_WAIT_WAKE control code [Serial Ports], ntddser/IOCTL_SERIAL_INTERNAL_CANCEL_WAIT_WAKE, serports.ioctl_serial_internal_cancel_wait_wake, serref_0976b701-5c14-4912-854f-4d5a356744d2.xml
 f1_keywords:
  - "ntddser/IOCTL_SERIAL_INTERNAL_CANCEL_WAIT_WAKE"
+ - "IOCTL_SERIAL_INTERNAL_CANCEL_WAIT_WAKE"
 req.header: ntddser.h
 req.include-header: Ntddser.h
 req.target-type: Windows

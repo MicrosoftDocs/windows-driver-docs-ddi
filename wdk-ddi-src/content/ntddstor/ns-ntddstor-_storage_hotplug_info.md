@@ -10,6 +10,7 @@ keywords: ["_STORAGE_HOTPLUG_INFO structure"]
 ms.keywords: "*PSTORAGE_HOTPLUG_INFO, PSTORAGE_HOTPLUG_INFO, PSTORAGE_HOTPLUG_INFO structure pointer [Storage Devices], STORAGE_HOTPLUG_INFO, STORAGE_HOTPLUG_INFO structure [Storage Devices], _STORAGE_HOTPLUG_INFO, ntddstor/PSTORAGE_HOTPLUG_INFO, ntddstor/STORAGE_HOTPLUG_INFO, storage.storage_hotplug_info, structs-general_36f1b63b-a574-47e7-85b0-10954c2d84d9.xml"
 f1_keywords:
  - "ntddstor/STORAGE_HOTPLUG_INFO"
+ - "STORAGE_HOTPLUG_INFO"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows

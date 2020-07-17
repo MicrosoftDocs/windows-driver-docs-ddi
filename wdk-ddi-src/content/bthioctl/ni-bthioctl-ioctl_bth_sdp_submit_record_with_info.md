@@ -10,6 +10,7 @@ keywords: ["IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO IOCTL"]
 ms.keywords: IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO, IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO control, IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO control code [Bluetooth Devices], bltooth.ioctl_bth_sdp_submit_record_with_info, bth_ioctls_6ae2aeb0-ecf1-40c4-9135-2397c40a278e.xml, bthioctl/IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO
 f1_keywords:
  - "bthioctl/IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO"
+ - "IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO"
 req.header: bthioctl.h
 req.include-header: Bthioctl.h
 req.target-type: Windows

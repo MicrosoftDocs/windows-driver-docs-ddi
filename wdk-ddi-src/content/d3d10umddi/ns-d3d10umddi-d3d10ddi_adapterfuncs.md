@@ -9,6 +9,7 @@ keywords: ["D3D10DDI_ADAPTERFUNCS structure"]
 ms.keywords: D3D10DDI_ADAPTERFUNCS, D3D10DDI_ADAPTERFUNCS structure [Display Devices], UMDisplayDriver_Dx10param_Structs_6d9fe453-3734-43eb-833e-6f7deeccaf2f.xml, d3d10umddi/D3D10DDI_ADAPTERFUNCS, display.d3d10ddi_adapterfuncs
 f1_keywords:
  - "d3d10umddi/D3D10DDI_ADAPTERFUNCS"
+ - "D3D10DDI_ADAPTERFUNCS"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["IDebugSymbolGroup2::GetSymbolOffset"]
 ms.keywords: ComOther_11a91301-541c-4bc3-aa1e-614db8170e03.xml, GetSymbolOffset, GetSymbolOffset method [Windows Debugging], GetSymbolOffset method [Windows Debugging],IDebugSymbolGroup2 interface, IDebugSymbolGroup2 interface [Windows Debugging],GetSymbolOffset method, IDebugSymbolGroup2.GetSymbolOffset, IDebugSymbolGroup2::GetSymbolOffset, dbgeng/IDebugSymbolGroup2::GetSymbolOffset, debugger.getsymboloffset
 f1_keywords:
  - "dbgeng/IDebugSymbolGroup2.GetSymbolOffset"
+ - "IDebugSymbolGroup2.GetSymbolOffset"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

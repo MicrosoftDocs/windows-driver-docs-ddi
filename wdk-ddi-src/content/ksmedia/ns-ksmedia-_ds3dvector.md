@@ -10,6 +10,7 @@ keywords: ["_DS3DVECTOR structure"]
 ms.keywords: "*PDS3DVECTOR, DS3DVECTOR, DS3DVECTOR structure [Audio Devices], PDS3DVECTOR, PDS3DVECTOR structure pointer [Audio Devices], _DS3DVECTOR, aud-prop_3e17b5ec-c2fc-4e6c-bff1-27be36e376c9.xml, audio.ds3dvector, ksmedia/DS3DVECTOR, ksmedia/PDS3DVECTOR"
 f1_keywords:
  - "ksmedia/DS3DVECTOR"
+ - "DS3DVECTOR"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

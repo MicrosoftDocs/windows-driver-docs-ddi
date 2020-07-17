@@ -7,6 +7,7 @@ ms.date: 09/11/2018
 keywords: ["IDataModelManager2::UnregisterExtensionForTypeSignature"]
 f1_keywords:
  - "dbgmodel/IDataModelManager2.UnregisterExtensionForTypeSignature"
+ - "IDataModelManager2.UnregisterExtensionForTypeSignature"
 ms.keywords: IDataModelManager2::UnregisterExtensionForTypeSignature, UnregisterExtensionForTypeSignature, IDataModelManager2.UnregisterExtensionForTypeSignature, IDataModelManager2::UnregisterExtensionForTypeSignature, IDataModelManager2.UnregisterExtensionForTypeSignature
 req.header: dbgmodel.h
 req.include-header:

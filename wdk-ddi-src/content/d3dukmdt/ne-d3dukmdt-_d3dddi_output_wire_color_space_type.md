@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DDDI_OUTPUT_WIRE_COLOR_SPACE_TYPE enumeration"]
 f1_keywords:
  - "d3dukmdt/_D3DDDI_OUTPUT_WIRE_COLOR_SPACE_TYPE"
+ - "_D3DDDI_OUTPUT_WIRE_COLOR_SPACE_TYPE"
 ms.keywords: _D3DDDI_OUTPUT_WIRE_COLOR_SPACE_TYPE, D3DDDI_OUTPUT_WIRE_COLOR_SPACE_TYPE,
 req.header: d3dukmdt.h
 req.include-header:

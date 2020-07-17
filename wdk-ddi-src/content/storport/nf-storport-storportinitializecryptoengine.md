@@ -10,6 +10,7 @@ keywords: ["StorPortInitializeCryptoEngine function"]
 ms.keywords: StorPortInitializeCryptoEngine, StorPortInitializeCryptoEngine routine [Storage Devices], storage.storportinitializecryptoengine, storport/StorPortInitializeCryptoEngine
 f1_keywords:
  - "storport/StorPortInitializeCryptoEngine"
+ - "StorPortInitializeCryptoEngine"
 req.header: storport.h
 req.include-header: 
 req.target-type: Universal

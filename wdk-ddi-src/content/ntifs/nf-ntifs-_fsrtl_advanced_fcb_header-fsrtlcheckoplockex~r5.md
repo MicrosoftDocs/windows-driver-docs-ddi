@@ -10,6 +10,7 @@ keywords: ["FsRtlCheckOplockEx function"]
 ms.keywords: FsRtlCheckOplockEx, FsRtlCheckOplockEx routine [Installable File System Drivers], fsrtlref_8c9699aa-3c4e-4095-9eee-4caef21f4709.xml, ifsk.fsrtlcheckoplockex, ntifs/FsRtlCheckOplockEx
 f1_keywords:
  - "ntifs/FsRtlCheckOplockEx"
+ - "FsRtlCheckOplockEx"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_CREATEDEVICEFLAGS structure"]
 ms.keywords: D3DKMT_CREATEDEVICEFLAGS, D3DKMT_CREATEDEVICEFLAGS structure [Display Devices], OpenGL_Structs_7cb495c3-44aa-46cb-8bca-87b66c5d422f.xml, _D3DKMT_CREATEDEVICEFLAGS, d3dkmthk/D3DKMT_CREATEDEVICEFLAGS, display.d3dkmt_createdeviceflags
 f1_keywords:
  - "d3dkmthk/D3DKMT_CREATEDEVICEFLAGS"
+ - "D3DKMT_CREATEDEVICEFLAGS"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

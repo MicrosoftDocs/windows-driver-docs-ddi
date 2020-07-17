@@ -10,6 +10,7 @@ keywords: ["IDebugEventCallbacks::SessionStatus"]
 ms.keywords: ComCallbacks_72cb31db-cc24-41b7-b891-65921c50ce12.xml, IDebugEventCallbacks interface [Windows Debugging],SessionStatus method, IDebugEventCallbacks.SessionStatus, IDebugEventCallbacks::SessionStatus, SessionStatus, SessionStatus method [Windows Debugging], SessionStatus method [Windows Debugging],IDebugEventCallbacks interface, dbgeng/IDebugEventCallbacks::SessionStatus, debugger.idebugeventcallbacks_sessionstatus
 f1_keywords:
  - "dbgeng/IDebugEventCallbacks.SessionStatus"
+ - "IDebugEventCallbacks.SessionStatus"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

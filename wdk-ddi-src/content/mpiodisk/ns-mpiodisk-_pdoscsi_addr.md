@@ -10,6 +10,7 @@ keywords: ["_PDOSCSI_ADDR structure"]
 ms.keywords: "*PPDOSCSI_ADDR, PDOSCSI_ADDR, PDOSCSI_ADDR structure [Storage Devices], PPDOSCSI_ADDR, PPDOSCSI_ADDR structure pointer [Storage Devices], _PDOSCSI_ADDR, mpiodisk/PDOSCSI_ADDR, mpiodisk/PPDOSCSI_ADDR, storage.pdoscsi_addr, structs-scsibus_4875cdbd-eeff-447f-b682-a2ab41196146.xml"
 f1_keywords:
  - "mpiodisk/PDOSCSI_ADDR"
+ - "PDOSCSI_ADDR"
 req.header: mpiodisk.h
 req.include-header: Mpiowmi.h
 req.target-type: Windows

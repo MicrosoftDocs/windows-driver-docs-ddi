@@ -10,6 +10,7 @@ keywords: ["UcxInitializeDeviceInit function"]
 ms.keywords: UcxInitializeDeviceInit, UcxInitializeDeviceInit method [Buses], buses._ucxinitializedeviceinit, ucxclass/UcxInitializeDeviceInit
 f1_keywords:
  - "ucxclass/UcxInitializeDeviceInit"
+ - "UcxInitializeDeviceInit"
 req.header: ucxclass.h
 req.include-header: 
 req.target-type: Windows

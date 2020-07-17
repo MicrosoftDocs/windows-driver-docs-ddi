@@ -8,6 +8,7 @@ ms.date: 04/13/2018
 keywords: ["NET_BUFFER_LIST_NEXT_NBL macro"]
 f1_keywords:
  - "ndis/NET_BUFFER_LIST_NEXT_NBL"
+ - "NET_BUFFER_LIST_NEXT_NBL"
 ms.keywords: NET_BUFFER_LIST_NEXT_NBL
 req.header: ndis.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT function"]
 ms.keywords: SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT, SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT function [Sensor Devices], sensors.sensor_property_list_calculate_max_count, sensorsdef/SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT
 f1_keywords:
  - "sensorsdef/SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT"
+ - "SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT"
 req.header: sensorsdef.h
 req.include-header: 
 req.target-type: Desktop

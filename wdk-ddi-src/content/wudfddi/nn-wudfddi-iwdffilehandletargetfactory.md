@@ -10,6 +10,7 @@ keywords: ["IWDFFileHandleTargetFactory interface"]
 ms.keywords: IWDFFileHandleTargetFactory, IWDFFileHandleTargetFactory interface, IWDFFileHandleTargetFactory interface,described, UMDFDeviceObjectRef_01a7fcc5-c259-4bad-b44c-9a20eeae1751.xml, umdf.iwdffilehandletargetfactory, wdf.iwdffilehandletargetfactory, wudfddi/IWDFFileHandleTargetFactory
 f1_keywords:
  - "wudfddi/IWDFFileHandleTargetFactory"
+ - "IWDFFileHandleTargetFactory"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

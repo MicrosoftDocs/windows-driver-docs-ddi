@@ -10,6 +10,7 @@ keywords: ["IStiDevice::RawWriteData"]
 ms.keywords: IStiDevice interface [Imaging Devices],RawWriteData method, IStiDevice.RawWriteData, IStiDevice::RawWriteData, RawWriteData, RawWriteData method [Imaging Devices], RawWriteData method [Imaging Devices],IStiDevice interface, image.istidevice_rawwritedata, sti/IStiDevice::RawWriteData, stifnc_2b8739f4-3ab7-4b25-bae2-7e025cffe72d.xml
 f1_keywords:
  - "sti/IStiDevice.RawWriteData"
+ - "IStiDevice.RawWriteData"
 req.header: sti.h
 req.include-header: Sti.h
 req.target-type: Desktop

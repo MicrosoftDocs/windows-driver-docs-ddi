@@ -10,6 +10,7 @@ keywords: ["RILEXCHANGEUICCAPDUPARAMS structure"]
 ms.keywords: "*LPRILEXCHANGEUICCAPDUPARAMS, RILEXCHANGEUICCAPDUPARAMS, RILEXCHANGEUICCAPDUPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilexchangeuiccapduparams, ntddrilapitypes/RILEXCHANGEUICCAPDUPARAMS"
 f1_keywords:
  - "rilapitypes/RILEXCHANGEUICCAPDUPARAMS"
+ - "RILEXCHANGEUICCAPDUPARAMS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

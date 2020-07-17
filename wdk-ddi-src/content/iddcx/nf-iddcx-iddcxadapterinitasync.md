@@ -10,6 +10,7 @@ keywords: ["IddCxAdapterInitAsync function"]
 ms.keywords: IddCxAdapterInitAsync, IddCxAdapterInitAsync method [Display Devices], display.iddcxadapterinitasync, iddcx/IddCxAdapterInitAsync
 f1_keywords:
  - "iddcx/IddCxAdapterInitAsync"
+ - "IddCxAdapterInitAsync"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows

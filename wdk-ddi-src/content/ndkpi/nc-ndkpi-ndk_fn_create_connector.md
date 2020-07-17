@@ -10,6 +10,7 @@ keywords: ["NDK_FN_CREATE_CONNECTOR callback function"]
 ms.keywords: NDK_FN_CREATE_CONNECTOR, NDK_FN_CREATE_CONNECTOR callback, NdkCreateConnector, NdkCreateConnector callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreateConnector, netvista.ndk_fn_create_connector
 f1_keywords:
  - "ndkpi/NdkCreateConnector"
+ - "NdkCreateConnector"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols2::OutputTypedDataPhysical"]
 ms.keywords: IDebugSymbols interface [Windows Debugging],OutputTypedDataPhysical method, IDebugSymbols2 interface [Windows Debugging],OutputTypedDataPhysical method, IDebugSymbols2.OutputTypedDataPhysical, IDebugSymbols2::OutputTypedDataPhysical, IDebugSymbols3 interface [Windows Debugging],OutputTypedDataPhysical method, IDebugSymbols3::OutputTypedDataPhysical, IDebugSymbols::OutputTypedDataPhysical, IDebugSymbols_35ce4485-6c19-44fd-8382-011b0e620f48.xml, OutputTypedDataPhysical, OutputTypedDataPhysical method [Windows Debugging], OutputTypedDataPhysical method [Windows Debugging],IDebugSymbols interface, OutputTypedDataPhysical method [Windows Debugging],IDebugSymbols2 interface, OutputTypedDataPhysical method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols2::OutputTypedDataPhysical, dbgeng/IDebugSymbols3::OutputTypedDataPhysical, dbgeng/IDebugSymbols::OutputTypedDataPhysical, debugger.outputtypeddataphysical
 f1_keywords:
  - "dbgeng/IDebugSymbols.OutputTypedDataPhysical"
+ - "IDebugSymbols.OutputTypedDataPhysical"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

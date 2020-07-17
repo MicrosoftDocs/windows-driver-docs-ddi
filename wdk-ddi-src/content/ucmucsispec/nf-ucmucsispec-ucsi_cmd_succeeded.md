@@ -8,6 +8,7 @@ ms.date: 09/30/2018
 keywords: ["UCSI_CMD_SUCCEEDED function"]
 f1_keywords:
  - "ucmucsispec/UCSI_CMD_SUCCEEDED"
+ - "UCSI_CMD_SUCCEEDED"
 ms.keywords: UCSI_CMD_SUCCEEDED
 req.header: ucmucsispec.h
 req.include-header: UcmUcsiCx.h 

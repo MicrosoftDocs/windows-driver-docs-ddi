@@ -10,6 +10,7 @@ keywords: ["IPrintSchemaPageImageableSize::get_OriginWidthInMicrons"]
 ms.keywords: IPrintSchemaPageImageableSize interface [Print Devices],OriginWidthInMicrons property, IPrintSchemaPageImageableSize.OriginWidthInMicrons, IPrintSchemaPageImageableSize.get_OriginWidthInMicrons, IPrintSchemaPageImageableSize::OriginWidthInMicrons, IPrintSchemaPageImageableSize::get_OriginWidthInMicrons, OriginWidthInMicrons property [Print Devices], OriginWidthInMicrons property [Print Devices],IPrintSchemaPageImageableSize interface, get_OriginWidthInMicrons, print.iprintschemapageimageablesize_originwidthinmicrons, printerextension/IPrintSchemaPageImageableSize::OriginWidthInMicrons, printerextension/IPrintSchemaPageImageableSize::get_OriginWidthInMicrons
 f1_keywords:
  - "printerextension/IPrintSchemaPageImageableSize.OriginWidthInMicrons"
+ - "IPrintSchemaPageImageableSize.OriginWidthInMicrons"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

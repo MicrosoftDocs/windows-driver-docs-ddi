@@ -10,6 +10,7 @@ keywords: ["IPrintOemEngine::EnablePDEV"]
 ms.keywords: EnablePDEV, EnablePDEV method [Print Devices], EnablePDEV method [Print Devices],IPrintOemEngine interface, IPrintOemEngine interface [Print Devices],EnablePDEV method, IPrintOemEngine.EnablePDEV, IPrintOemEngine::EnablePDEV, prcomoem/IPrintOemEngine::EnablePDEV, print.iprintoemengine_enablepdev
 f1_keywords:
  - "prcomoem/IPrintOemEngine.EnablePDEV"
+ - "IPrintOemEngine.EnablePDEV"
 req.header: prcomoem.h
 req.include-header: 
 req.target-type: Windows

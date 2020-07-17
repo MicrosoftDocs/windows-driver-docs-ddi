@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["NDIS_MAKE_NET_LUID macro"]
 f1_keywords:
  - "ntddndis/NDIS_MAKE_NET_LUID"
+ - "NDIS_MAKE_NET_LUID"
 ms.keywords: NDIS_MAKE_NET_LUID
 req.header: ntddndis.h
 req.include-header: ndis.h

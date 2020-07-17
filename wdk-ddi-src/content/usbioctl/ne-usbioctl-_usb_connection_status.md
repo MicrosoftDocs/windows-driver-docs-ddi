@@ -10,6 +10,7 @@ keywords: ["_USB_CONNECTION_STATUS enumeration"]
 ms.keywords: "*PUSB_CONNECTION_STATUS, DeviceCausedOvercurrent, DeviceConnected, DeviceEnumerating, DeviceFailedEnumeration, DeviceGeneralFailure, DeviceHubNestedTooDeeply, DeviceInLegacyHub, DeviceNotEnoughBandwidth, DeviceNotEnoughPower, DeviceReset, NoDeviceConnected, PUSB_CONNECTION_STATUS, PUSB_CONNECTION_STATUS enumeration pointer [Buses], USB_CONNECTION_STATUS, USB_CONNECTION_STATUS enumeration [Buses], _USB_CONNECTION_STATUS, buses.usb_connection_status, usbioctl/DeviceCausedOvercurrent, usbioctl/DeviceConnected, usbioctl/DeviceEnumerating, usbioctl/DeviceFailedEnumeration, usbioctl/DeviceGeneralFailure, usbioctl/DeviceHubNestedTooDeeply, usbioctl/DeviceInLegacyHub, usbioctl/DeviceNotEnoughBandwidth, usbioctl/DeviceNotEnoughPower, usbioctl/DeviceReset, usbioctl/NoDeviceConnected, usbioctl/PUSB_CONNECTION_STATUS, usbioctl/USB_CONNECTION_STATUS, usbstrct_3f747b8b-9fe5-48f1-bfc4-3701ab8be8e9.xml"
 f1_keywords:
  - "usbioctl/USB_CONNECTION_STATUS"
+ - "USB_CONNECTION_STATUS"
 req.header: usbioctl.h
 req.include-header: Usbioctl.h
 req.target-type: Windows

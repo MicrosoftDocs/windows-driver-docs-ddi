@@ -7,6 +7,7 @@ ms.date: 09/19/2018
 keywords: ["IDynamicConceptProviderConcept::GetConcept"]
 f1_keywords:
  - "dbgmodel/IDynamicConceptProviderConcept.GetConcept"
+ - "IDynamicConceptProviderConcept.GetConcept"
 ms.keywords: IDynamicConceptProviderConcept::GetConcept, GetConcept, IDynamicConceptProviderConcept.GetConcept, IDynamicConceptProviderConcept::GetConcept, IDynamicConceptProviderConcept.GetConcept
 req.header: dbgmodel.h
 req.include-header:

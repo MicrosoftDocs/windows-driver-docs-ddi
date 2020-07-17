@@ -10,6 +10,7 @@ keywords: ["IQueueCallbackIoResume interface"]
 ms.keywords: IQueueCallbackIoResume, IQueueCallbackIoResume interface, IQueueCallbackIoResume interface,described, UMDFQueueObjectRef_3ee832e4-15ba-4c39-bb77-38ebbc91983d.xml, umdf.iqueuecallbackioresume, wdf.iqueuecallbackioresume, wudfddi/IQueueCallbackIoResume
 f1_keywords:
  - "wudfddi/IQueueCallbackIoResume"
+ - "IQueueCallbackIoResume"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Windows

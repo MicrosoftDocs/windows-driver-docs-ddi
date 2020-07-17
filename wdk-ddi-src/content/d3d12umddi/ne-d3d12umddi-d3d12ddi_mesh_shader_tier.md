@@ -28,6 +28,7 @@ api_name:
  - D3D12DDI_MESH_SHADER_TIER
 f1_keywords:
  - d3d12umddi/D3D12DDI_MESH_SHADER_TIER
+ - ""
 dev_langs:
  - c++
 ---

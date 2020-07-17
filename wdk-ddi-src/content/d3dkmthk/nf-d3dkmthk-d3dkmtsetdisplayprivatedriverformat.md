@@ -9,6 +9,7 @@ keywords: ["D3DKMTSetDisplayPrivateDriverFormat function"]
 ms.keywords: D3DKMTSetDisplayPrivateDriverFormat, D3DKMTSetDisplayPrivateDriverFormat function [Display Devices], OpenGL_Functions_742fb584-0b9d-4650-a0a6-64f3e3f55dff.xml, d3dkmthk/D3DKMTSetDisplayPrivateDriverFormat, display.d3dkmtsetdisplayprivatedriverformat
 f1_keywords:
  - "d3dkmthk/D3DKMTSetDisplayPrivateDriverFormat"
+ - "D3DKMTSetDisplayPrivateDriverFormat"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

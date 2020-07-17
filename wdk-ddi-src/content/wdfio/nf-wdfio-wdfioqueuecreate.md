@@ -10,6 +10,7 @@ keywords: ["WdfIoQueueCreate function"]
 ms.keywords: DFQueueObjectRef_97b06453-cf79-4944-85d7-530b83211353.xml, WdfIoQueueCreate, WdfIoQueueCreate method, kmdf.wdfioqueuecreate, wdf.wdfioqueuecreate, wdfio/WdfIoQueueCreate
 f1_keywords:
  - "wdfio/WdfIoQueueCreate"
+ - "WdfIoQueueCreate"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal

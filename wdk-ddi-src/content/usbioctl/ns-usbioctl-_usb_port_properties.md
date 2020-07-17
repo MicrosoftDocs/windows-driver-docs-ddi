@@ -10,6 +10,7 @@ keywords: ["_USB_PORT_PROPERTIES structure"]
 ms.keywords: "*PUSB_PORT_PROPERTIES, PUSB_PORT_PROPERTIES, PUSB_PORT_PROPERTIES union pointer [Buses], USB_PORT_PROPERTIES, USB_PORT_PROPERTIES union [Buses], _USB_PORT_PROPERTIES, buses.usb_port_properties, usbioctl/PUSB_PORT_PROPERTIES, usbioctl/USB_PORT_PROPERTIES"
 f1_keywords:
  - "usbioctl/USB_PORT_PROPERTIES"
+ - "USB_PORT_PROPERTIES"
 req.header: usbioctl.h
 req.include-header: Usbioctl.h
 req.target-type: Windows

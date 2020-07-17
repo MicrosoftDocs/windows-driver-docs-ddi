@@ -10,6 +10,7 @@ keywords: ["_OPTCOMBO structure"]
 ms.keywords: "*POPTCOMBO, OPTCOMBO, OPTCOMBO structure [Print Devices], POPTCOMBO, POPTCOMBO structure pointer [Print Devices], _OPTCOMBO, compstui/OPTCOMBO, compstui/POPTCOMBO, print.optcombo"
 f1_keywords:
  - "compstui/OPTCOMBO"
+ - "OPTCOMBO"
 req.header: compstui.h
 req.include-header: 
 req.target-type: Windows

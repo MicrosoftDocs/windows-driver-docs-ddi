@@ -10,6 +10,7 @@ keywords: ["IOCTL_GNSS_SET_SUPL_HSLP IOCTL"]
 ms.keywords: IOCTL_GNSS_SET_SUPL_HSLP, IOCTL_GNSS_SET_SUPL_HSLP control, IOCTL_GNSS_SET_SUPL_HSLP control code [Sensor Devices], gnss.ioctl_gnss_set_supl_hslp, gnssdriver/IOCTL_GNSS_SET_SUPL_HSLP
 f1_keywords:
  - "gnssdriver/IOCTL_GNSS_SET_SUPL_HSLP"
+ - "IOCTL_GNSS_SET_SUPL_HSLP"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows

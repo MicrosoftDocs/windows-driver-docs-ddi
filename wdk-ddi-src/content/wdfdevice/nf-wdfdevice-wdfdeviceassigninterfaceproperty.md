@@ -10,6 +10,7 @@ keywords: ["WdfDeviceAssignInterfaceProperty function"]
 ms.keywords: WdfDeviceAssignInterfaceProperty, WdfDeviceAssignInterfaceProperty method, wdf.wdfdeviceassigninterfaceproperty, wdfdevice/WdfDeviceAssignInterfaceProperty
 f1_keywords:
  - "wdfdevice/WdfDeviceAssignInterfaceProperty"
+ - "WdfDeviceAssignInterfaceProperty"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

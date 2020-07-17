@@ -10,6 +10,7 @@ keywords: ["wiauDbgLegacyHresult2 function"]
 ms.keywords: image.wiaudbglegacyhresult2, wiauDbgLegacyHresult2, wiauDbgLegacyHresult2 function [Imaging Devices], wiauFncs_b980cd55-047b-4870-9bad-928253d0ce77.xml, wiautil/wiauDbgLegacyHresult2
 f1_keywords:
  - "wiautil/wiauDbgLegacyHresult2"
+ - "wiauDbgLegacyHresult2"
 req.header: wiautil.h
 req.include-header: Wiautil.h
 req.target-type: Desktop

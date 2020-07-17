@@ -7,6 +7,7 @@ ms.date: 11/21/2018
 keywords: ["_D3DKMT_ENUMADAPTERS2 structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_ENUMADAPTERS2"
+ - "_D3DKMT_ENUMADAPTERS2"
 ms.keywords: _D3DKMT_ENUMADAPTERS2, D3DKMT_ENUMADAPTERS2, 
 req.header: d3dkmthk.h
 req.include-header:

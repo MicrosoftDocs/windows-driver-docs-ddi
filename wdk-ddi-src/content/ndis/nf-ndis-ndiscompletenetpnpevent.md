@@ -10,6 +10,7 @@ keywords: ["NdisCompleteNetPnPEvent function"]
 ms.keywords: NdisCompleteNetPnPEvent, NdisCompleteNetPnPEvent function [Network Drivers Starting with Windows Vista], ndis/NdisCompleteNetPnPEvent, netvista.ndiscompletenetpnpevent, protocol_ndis_functions_ref_4f57d0f9-c9bf-4451-a612-caa665d0b6be.xml
 f1_keywords:
  - "ndis/NdisCompleteNetPnPEvent"
+ - "NdisCompleteNetPnPEvent"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

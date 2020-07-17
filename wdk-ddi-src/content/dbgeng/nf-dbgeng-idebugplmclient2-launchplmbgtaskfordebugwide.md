@@ -10,6 +10,7 @@ keywords: ["IDebugPlmClient2::LaunchPlmBgTaskForDebugWide"]
 ms.keywords: IDebugPlmClient2 interface [Windows Debugging],LaunchPlmBgTaskForDebugWide method, IDebugPlmClient2.LaunchPlmBgTaskForDebugWide, IDebugPlmClient2::LaunchPlmBgTaskForDebugWide, LaunchPlmBgTaskForDebugWide, LaunchPlmBgTaskForDebugWide method [Windows Debugging], LaunchPlmBgTaskForDebugWide method [Windows Debugging],IDebugPlmClient2 interface, dbgeng/IDebugPlmClient2::LaunchPlmBgTaskForDebugWide, debugger.idebugplmclient2_launchplmbgtaskfordebugwide
 f1_keywords:
  - "dbgeng/IDebugPlmClient2.LaunchPlmBgTaskForDebugWide"
+ - "IDebugPlmClient2.LaunchPlmBgTaskForDebugWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

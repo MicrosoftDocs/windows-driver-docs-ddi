@@ -7,6 +7,7 @@ ms.date: 07/16/2018
 keywords: ["IKeyStore interface"]
 f1_keywords:
  - "dbgmodel/IKeyStore"
+ - "IKeyStore"
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

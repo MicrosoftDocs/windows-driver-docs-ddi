@@ -10,6 +10,7 @@ keywords: ["NdisWaitEvent function"]
 ms.keywords: NdisWaitEvent, NdisWaitEvent function [Network Drivers Starting with Windows Vista], ndis/NdisWaitEvent, ndis_event_ref_d607d02a-0509-4399-90e8-bbfb43d613b3.xml, netvista.ndiswaitevent
 f1_keywords:
  - "ndis/NdisWaitEvent"
+ - "NdisWaitEvent"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

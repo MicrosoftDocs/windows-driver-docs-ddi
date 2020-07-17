@@ -10,6 +10,7 @@ keywords: ["RtlSetBits function"]
 ms.keywords: RtlSetBits, RtlSetBits routine [Kernel-Mode Driver Architecture], k109_aca53733-c7f0-4c1a-9334-b7e27b199299.xml, kernel.rtlsetbits, wdm/RtlSetBits
 f1_keywords:
  - "wdm/RtlSetBits"
+ - "RtlSetBits"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

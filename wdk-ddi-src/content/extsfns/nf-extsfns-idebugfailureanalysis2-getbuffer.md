@@ -10,6 +10,7 @@ keywords: ["IDebugFailureAnalysis2::GetBuffer"]
 ms.keywords: GetBuffer, GetBuffer method [Windows Debugging], GetBuffer method [Windows Debugging],IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging],GetBuffer method, IDebugFailureAnalysis2.GetBuffer, IDebugFailureAnalysis2::GetBuffer, debugger.idebugfailureanalysis2_getbuffer, extsfns/IDebugFailureAnalysis2::GetBuffer
 f1_keywords:
  - "extsfns/IDebugFailureAnalysis2.GetBuffer"
+ - "IDebugFailureAnalysis2.GetBuffer"
 req.header: extsfns.h
 req.include-header: 
 req.target-type: Desktop

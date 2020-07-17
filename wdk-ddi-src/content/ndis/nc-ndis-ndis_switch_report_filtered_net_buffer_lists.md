@@ -10,6 +10,7 @@ keywords: ["NDIS_SWITCH_REPORT_FILTERED_NET_BUFFER_LISTS callback function"]
 ms.keywords: NDIS_SWITCH_REPORT_FILTERED_NET_BUFFER_LISTS, NDIS_SWITCH_REPORT_FILTERED_NET_BUFFER_LISTS callback, ReportFilteredNetBufferLists, ReportFilteredNetBufferLists callback function [Network Drivers Starting with Windows Vista], ndis/ReportFilteredNetBufferLists, netvista.reportfilterednetbufferlists
 f1_keywords:
  - "ndis/ReportFilteredNetBufferLists"
+ - "ReportFilteredNetBufferLists"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

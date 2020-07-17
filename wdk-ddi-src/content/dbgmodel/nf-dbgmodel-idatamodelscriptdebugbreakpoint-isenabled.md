@@ -7,6 +7,7 @@ ms.date: 09/10/2018
 keywords: ["IDataModelScriptDebugBreakpoint::IsEnabled"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebugBreakpoint.IsEnabled"
+ - "IDataModelScriptDebugBreakpoint.IsEnabled"
 ms.keywords: IDataModelScriptDebugBreakpoint::IsEnabled, IsEnabled, IDataModelScriptDebugBreakpoint.IsEnabled, IDataModelScriptDebugBreakpoint::IsEnabled, IDataModelScriptDebugBreakpoint.IsEnabled
 req.header: dbgmodel.h
 req.include-header:

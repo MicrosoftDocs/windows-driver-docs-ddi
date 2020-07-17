@@ -10,6 +10,7 @@ keywords: ["IOCTL_CHANGER_REINITIALIZE_TRANSPORT IOCTL"]
 ms.keywords: IOCTL_CHANGER_REINITIALIZE_TRANSPORT, IOCTL_CHANGER_REINITIALIZE_TRANSPORT control, IOCTL_CHANGER_REINITIALIZE_TRANSPORT control code [Storage Devices], k307_36f3bd40-f084-4b11-b2e1-5e4ff976ba64.xml, ntddchgr/IOCTL_CHANGER_REINITIALIZE_TRANSPORT, storage.ioctl_changer_reinitialize_transport
 f1_keywords:
  - "ntddchgr/IOCTL_CHANGER_REINITIALIZE_TRANSPORT"
+ - "IOCTL_CHANGER_REINITIALIZE_TRANSPORT"
 req.header: ntddchgr.h
 req.include-header: Ntddchgr.h
 req.target-type: Windows

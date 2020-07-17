@@ -10,6 +10,7 @@ keywords: ["IDebugControl::AddEngineOptions"]
 ms.keywords: AddEngineOptions, AddEngineOptions method [Windows Debugging], AddEngineOptions method [Windows Debugging],IDebugControl interface, AddEngineOptions method [Windows Debugging],IDebugControl2 interface, AddEngineOptions method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],AddEngineOptions method, IDebugControl.AddEngineOptions, IDebugControl2 interface [Windows Debugging],AddEngineOptions method, IDebugControl2::AddEngineOptions, IDebugControl3 interface [Windows Debugging],AddEngineOptions method, IDebugControl3::AddEngineOptions, IDebugControl::AddEngineOptions, IDebugControl_6042b0b9-8175-4790-be19-43f8659716dc.xml, dbgeng/IDebugControl2::AddEngineOptions, dbgeng/IDebugControl3::AddEngineOptions, dbgeng/IDebugControl::AddEngineOptions, debugger.addengineoptions
 f1_keywords:
  - "dbgeng/IDebugControl.AddEngineOptions"
+ - "IDebugControl.AddEngineOptions"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

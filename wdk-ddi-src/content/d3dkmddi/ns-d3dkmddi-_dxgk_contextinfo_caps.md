@@ -9,6 +9,7 @@ keywords: ["_DXGK_CONTEXTINFO_CAPS structure"]
 ms.keywords: DXGK_CONTEXTINFO_CAPS, DXGK_CONTEXTINFO_CAPS structure [Display Devices], _DXGK_CONTEXTINFO_CAPS, d3dkmddi/DXGK_CONTEXTINFO_CAPS, display.dxgk_contextinfo_caps
 f1_keywords:
  - "d3dkmddi/DXGK_CONTEXTINFO_CAPS"
+ - "DXGK_CONTEXTINFO_CAPS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

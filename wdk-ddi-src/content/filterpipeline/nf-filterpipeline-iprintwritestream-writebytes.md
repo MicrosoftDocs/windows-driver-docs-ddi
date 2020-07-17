@@ -10,6 +10,7 @@ keywords: ["IPrintWriteStream::WriteBytes"]
 ms.keywords: IPrintWriteStream interface [Print Devices],WriteBytes method, IPrintWriteStream.WriteBytes, IPrintWriteStream::WriteBytes, WriteBytes, WriteBytes method [Print Devices], WriteBytes method [Print Devices],IPrintWriteStream interface, filterpipeline/IPrintWriteStream::WriteBytes, filterpipeline_168a03b1-8fdc-4a98-9a5f-5c706fcd401b.xml, print.iprintwritestream_writebytes
 f1_keywords:
  - "filterpipeline/IPrintWriteStream.WriteBytes"
+ - "IPrintWriteStream.WriteBytes"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop

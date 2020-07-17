@@ -10,6 +10,7 @@ keywords: ["CWiauPropertyList class"]
 ms.keywords: CWiauPropertyList, CWiauPropertyList class [Imaging Devices], CWiauPropertyList class [Imaging Devices],described, image.cwiaupropertylist_class, wiauFncs_b6021ff9-9843-4f31-b2c1-aff36af0cbc6.xml, wiautil/CWiauPropertyList
 f1_keywords:
  - "wiautil/CWiauPropertyList"
+ - "CWiauPropertyList"
 req.header: wiautil.h
 req.include-header: 
 req.target-type: Windows

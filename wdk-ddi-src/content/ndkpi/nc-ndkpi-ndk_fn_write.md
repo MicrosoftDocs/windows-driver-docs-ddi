@@ -10,6 +10,7 @@ keywords: ["NDK_FN_WRITE callback function"]
 ms.keywords: NDK_FN_WRITE, NDK_FN_WRITE callback, NDK_OP_FLAG_DEFER, NDK_OP_FLAG_READ_FENCE, NDK_OP_FLAG_SILENT_SUCCESS, NdkWrite, NdkWrite callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkWrite, netvista.ndk_fn_write
 f1_keywords:
  - "ndkpi/NdkWrite"
+ - "NdkWrite"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

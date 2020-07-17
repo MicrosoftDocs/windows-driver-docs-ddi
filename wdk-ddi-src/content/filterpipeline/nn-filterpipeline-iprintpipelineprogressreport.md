@@ -10,6 +10,7 @@ keywords: ["IPrintPipelineProgressReport interface"]
 ms.keywords: IPrintPipelineProgressReport, IPrintPipelineProgressReport interface [Print Devices], IPrintPipelineProgressReport interface [Print Devices],described, filterpipeline/IPrintPipelineProgressReport, filterpipeline_de104fc6-8ac2-4a10-ab09-09596a093835.xml, print.iprintpipelineprogressreport
 f1_keywords:
  - "filterpipeline/IPrintPipelineProgressReport"
+ - "IPrintPipelineProgressReport"
 req.header: filterpipeline.h
 req.include-header: Filterpipeline.h
 req.target-type: Windows

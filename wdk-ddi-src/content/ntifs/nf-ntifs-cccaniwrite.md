@@ -10,6 +10,7 @@ keywords: ["CcCanIWrite function"]
 ms.keywords: CcCanIWrite, CcCanIWrite routine [Installable File System Drivers], ccref_b964dbf1-d1ad-4929-ab9c-21b1e6f69077.xml, ifsk.cccaniwrite, ntifs/CcCanIWrite
 f1_keywords:
  - "ntifs/CcCanIWrite"
+ - "CcCanIWrite"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

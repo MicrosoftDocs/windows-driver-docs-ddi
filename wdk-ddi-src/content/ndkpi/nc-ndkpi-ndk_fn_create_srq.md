@@ -10,6 +10,7 @@ keywords: ["NDK_FN_CREATE_SRQ callback function"]
 ms.keywords: NDK_FN_CREATE_SRQ, NDK_FN_CREATE_SRQ callback, NdkCreateSrq, NdkCreateSrq callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreateSrq, netvista.ndk_fn_create_srq
 f1_keywords:
  - "ndkpi/NdkCreateSrq"
+ - "NdkCreateSrq"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

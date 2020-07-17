@@ -10,6 +10,7 @@ keywords: ["IOCTL_EHSTOR_BANDMGMT_DELETE_BAND IOCTL"]
 ms.keywords: IOCTL_EHSTOR_BANDMGMT_DELETE_BAND, IOCTL_EHSTOR_BANDMGMT_DELETE_BAND control, IOCTL_EHSTOR_BANDMGMT_DELETE_BAND control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_DELETE_BAND, storage.ioctl_ehstor_bandmgmt_delete_band
 f1_keywords:
  - "ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_DELETE_BAND"
+ - "IOCTL_EHSTOR_BANDMGMT_DELETE_BAND"
 req.header: ehstorbandmgmt.h
 req.include-header: EhStorBandMgmt.h
 req.target-type: Windows

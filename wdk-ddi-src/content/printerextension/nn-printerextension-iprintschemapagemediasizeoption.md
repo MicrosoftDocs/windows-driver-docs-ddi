@@ -10,6 +10,7 @@ keywords: ["IPrintSchemaPageMediaSizeOption interface"]
 ms.keywords: IPrintSchemaPageMediaSizeOption, IPrintSchemaPageMediaSizeOption interface [Print Devices], IPrintSchemaPageMediaSizeOption interface [Print Devices],described, print.iprintschemapagemediasizeoption_interface, printerextension/IPrintSchemaPageMediaSizeOption
 f1_keywords:
  - "printerextension/IPrintSchemaPageMediaSizeOption"
+ - "IPrintSchemaPageMediaSizeOption"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["SpbRequestGetTarget function"]
 ms.keywords: SPB.spbrequestgettarget, SpbRequestGetTarget, SpbRequestGetTarget method [Buses], spbcx/SpbRequestGetTarget
 f1_keywords:
  - "spbcx/SpbRequestGetTarget"
+ - "SpbRequestGetTarget"
 req.header: spbcx.h
 req.include-header: 
 req.target-type: Universal

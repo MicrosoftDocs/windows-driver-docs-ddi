@@ -10,6 +10,7 @@ keywords: ["_DOT11EXT_IHV_PARAMS structure"]
 ms.keywords: "*PDOT11EXT_IHV_PARAMS, DOT11EXT_IHV_PARAMS, DOT11EXT_IHV_PARAMS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_90966964-74cc-4ff7-ae77-2807ab20d869.xml, PDOT11EXT_IHV_PARAMS, PDOT11EXT_IHV_PARAMS structure pointer [Network Drivers Starting with Windows Vista], _DOT11EXT_IHV_PARAMS, netvista.dot11ext_ihv_params, wlanihvtypes/DOT11EXT_IHV_PARAMS, wlanihvtypes/PDOT11EXT_IHV_PARAMS"
 f1_keywords:
  - "wlanihvtypes/DOT11EXT_IHV_PARAMS"
+ - "DOT11EXT_IHV_PARAMS"
 req.header: wlanihvtypes.h
 req.include-header: Wlanihv.h
 req.target-type: Windows

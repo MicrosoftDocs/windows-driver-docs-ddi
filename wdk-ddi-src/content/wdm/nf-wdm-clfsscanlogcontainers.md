@@ -10,6 +10,7 @@ keywords: ["ClfsScanLogContainers function"]
 ms.keywords: ClfsScanLogContainers, ClfsScanLogContainers routine [Kernel-Mode Driver Architecture], Clfs_eec877a8-028a-49f8-91ff-b8363e124011.xml, kernel.clfsscanlogcontainers, wdm/ClfsScanLogContainers
 f1_keywords:
  - "wdm/ClfsScanLogContainers"
+ - "ClfsScanLogContainers"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

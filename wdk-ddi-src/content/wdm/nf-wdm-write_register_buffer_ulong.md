@@ -10,6 +10,7 @@ keywords: ["WRITE_REGISTER_BUFFER_ULONG function"]
 ms.keywords: WRITE_REGISTER_BUFFER_ULONG, WRITE_REGISTER_BUFFER_ULONG routine [Kernel-Mode Driver Architecture], k103_9ef495b2-fe86-484a-bec2-5390df6ee246.xml, kernel.write_register_buffer_ulong, wdm/WRITE_REGISTER_BUFFER_ULONG
 f1_keywords:
  - "wdm/WRITE_REGISTER_BUFFER_ULONG"
+ - "WRITE_REGISTER_BUFFER_ULONG"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Miniport.h, Wudfwdm.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["CcWaitForCurrentLazyWriterActivity function"]
 ms.keywords: CcWaitForCurrentLazyWriterActivity, CcWaitForCurrentLazyWriterActivity routine [Installable File System Drivers], ccref_a216c467-24be-4ea5-9c53-71cf1fe1c47d.xml, ifsk.ccwaitforcurrentlazywriteractivity, ntifs/CcWaitForCurrentLazyWriterActivity
 f1_keywords:
  - "ntifs/CcWaitForCurrentLazyWriterActivity"
+ - "CcWaitForCurrentLazyWriterActivity"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

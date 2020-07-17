@@ -10,6 +10,7 @@ keywords: ["FsRtlQueryKernelEaFile function"]
 ms.keywords: FsRtlQueryKernelEaFile, FsRtlQueryKernelEaFile routine [Installable File System Drivers], ifsk.fsrtlquerykerneleafile, ntifs/FsRtlQueryKernelEaFile
 f1_keywords:
  - "ntifs/FsRtlQueryKernelEaFile"
+ - "FsRtlQueryKernelEaFile"
 req.header: ntifs.h
 req.include-header: 
 req.target-type: Windows

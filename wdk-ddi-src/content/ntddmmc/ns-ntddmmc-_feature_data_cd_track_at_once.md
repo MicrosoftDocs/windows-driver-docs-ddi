@@ -10,6 +10,7 @@ keywords: ["_FEATURE_DATA_CD_TRACK_AT_ONCE structure"]
 ms.keywords: "*PFEATURE_DATA_CD_TRACK_AT_ONCE, FEATURE_DATA_CD_TRACK_AT_ONCE, FEATURE_DATA_CD_TRACK_AT_ONCE structure [Storage Devices], PFEATURE_DATA_CD_TRACK_AT_ONCE, PFEATURE_DATA_CD_TRACK_AT_ONCE structure pointer [Storage Devices], _FEATURE_DATA_CD_TRACK_AT_ONCE, ntddmmc/FEATURE_DATA_CD_TRACK_AT_ONCE, ntddmmc/PFEATURE_DATA_CD_TRACK_AT_ONCE, storage.feature_data_cd_track_at_once, structs-CD-ROM_d2648aa5-b3d5-49f2-98d1-01e90dd72332.xml"
 f1_keywords:
  - "ntddmmc/FEATURE_DATA_CD_TRACK_AT_ONCE"
+ - "FEATURE_DATA_CD_TRACK_AT_ONCE"
 req.header: ntddmmc.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows

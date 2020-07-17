@@ -10,6 +10,7 @@ keywords: ["_WDF_POWER_POLICY_SX_WAKE_USER_CONTROL enumeration"]
 ms.keywords: DFDeviceObjectGeneralRef_1594c32d-63b6-4280-b5b3-dfcf508a88c6.xml, WDF_POWER_POLICY_SX_WAKE_USER_CONTROL, WDF_POWER_POLICY_SX_WAKE_USER_CONTROL enumeration, WakeAllowUserControl, WakeDoNotAllowUserControl, WakeUserControlInvalid, _WDF_POWER_POLICY_SX_WAKE_USER_CONTROL, kmdf.wdf_power_policy_sx_wake_user_control, wdf.wdf_power_policy_sx_wake_user_control, wdfdevice/WDF_POWER_POLICY_SX_WAKE_USER_CONTROL, wdfdevice/WakeAllowUserControl, wdfdevice/WakeDoNotAllowUserControl, wdfdevice/WakeUserControlInvalid, wudfddi_types/WDF_POWER_POLICY_SX_WAKE_USER_CONTROL, wudfddi_types/WakeAllowUserControl, wudfddi_types/WakeDoNotAllowUserControl, wudfddi_types/WakeUserControlInvalid
 f1_keywords:
  - "wdfdevice/WDF_POWER_POLICY_SX_WAKE_USER_CONTROL"
+ - "WDF_POWER_POLICY_SX_WAKE_USER_CONTROL"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Windows

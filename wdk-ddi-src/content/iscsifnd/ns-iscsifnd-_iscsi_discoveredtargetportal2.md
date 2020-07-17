@@ -10,6 +10,7 @@ keywords: ["_ISCSI_DiscoveredTargetPortal2 structure"]
 ms.keywords: "*PISCSI_DiscoveredTargetPortal2, ISCSI_DiscoveredTargetPortal2, ISCSI_DiscoveredTargetPortal2 structure [Storage Devices], PISCSI_DiscoveredTargetPortal2, PISCSI_DiscoveredTargetPortal2 structure pointer [Storage Devices], _ISCSI_DiscoveredTargetPortal2, iscsifnd/ISCSI_DiscoveredTargetPortal2, iscsifnd/PISCSI_DiscoveredTargetPortal2, storage.iscsi_discoveredtargetportal2, structs-iSCSI_bbb760ce-7dc5-4f04-880e-3ff53921ed78.xml"
 f1_keywords:
  - "iscsifnd/ISCSI_DiscoveredTargetPortal2"
+ - "ISCSI_DiscoveredTargetPortal2"
 req.header: iscsifnd.h
 req.include-header: Iscsifnd.h
 req.target-type: Windows

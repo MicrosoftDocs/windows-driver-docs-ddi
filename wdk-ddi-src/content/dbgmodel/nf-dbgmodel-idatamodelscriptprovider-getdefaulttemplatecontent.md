@@ -7,6 +7,7 @@ ms.date: 08/20/2018
 keywords: ["IDataModelScriptProvider::GetDefaultTemplateContent"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptProvider.GetDefaultTemplateContent"
+ - "IDataModelScriptProvider.GetDefaultTemplateContent"
 ms.keywords: IDataModelScriptProvider::GetDefaultTemplateContent, GetDefaultTemplateContent, IDataModelScriptProvider.GetDefaultTemplateContent, IDataModelScriptProvider::GetDefaultTemplateContent, IDataModelScriptProvider.GetDefaultTemplateContent
 req.header: dbgmodel.h
 req.include-header:

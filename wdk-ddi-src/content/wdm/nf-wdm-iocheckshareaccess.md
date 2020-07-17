@@ -10,6 +10,7 @@ keywords: ["IoCheckShareAccess function"]
 ms.keywords: IoCheckShareAccess, IoCheckShareAccess routine [Kernel-Mode Driver Architecture], k104_0411033a-da5d-4803-a970-f6e7289a6200.xml, kernel.iocheckshareaccess, wdm/IoCheckShareAccess
 f1_keywords:
  - "wdm/IoCheckShareAccess"
+ - "IoCheckShareAccess"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

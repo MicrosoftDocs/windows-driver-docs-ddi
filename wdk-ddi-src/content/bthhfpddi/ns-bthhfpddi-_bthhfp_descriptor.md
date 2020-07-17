@@ -10,6 +10,7 @@ keywords: ["_BTHHFP_DESCRIPTOR structure"]
 ms.keywords: "*PBTHHFP_DESCRIPTOR, BTHHFP_DESCRIPTOR, BTHHFP_DESCRIPTOR structure [Audio Devices], PBTHHFP_DESCRIPTOR, PBTHHFP_DESCRIPTOR structure pointer [Audio Devices], _BTHHFP_DESCRIPTOR, audio.bthhfp_descriptor, bthhfpddi/BTHHFP_DESCRIPTOR, bthhfpddi/PBTHHFP_DESCRIPTOR"
 f1_keywords:
  - "bthhfpddi/BTHHFP_DESCRIPTOR"
+ - "BTHHFP_DESCRIPTOR"
 req.header: bthhfpddi.h
 req.include-header: 
 req.target-type: Windows

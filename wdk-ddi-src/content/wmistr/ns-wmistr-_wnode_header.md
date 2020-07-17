@@ -10,6 +10,7 @@ keywords: ["_WNODE_HEADER structure"]
 ms.keywords: "*PWNODE_HEADER, PWNODE_HEADER, PWNODE_HEADER structure pointer [Kernel-Mode Driver Architecture], WNODE_HEADER, WNODE_HEADER structure [Kernel-Mode Driver Architecture], _WNODE_HEADER, kernel.wnode_header, kstruct_d_ff879b76-aed0-46d5-a688-c59e1424aeb4.xml, wmistr/PWNODE_HEADER, wmistr/WNODE_HEADER"
 f1_keywords:
  - "wmistr/WNODE_HEADER"
+ - "WNODE_HEADER"
 req.header: wmistr.h
 req.include-header: Wmistr.h
 req.target-type: Windows

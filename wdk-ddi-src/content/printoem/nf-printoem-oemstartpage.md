@@ -10,6 +10,7 @@ keywords: ["OEMStartPage function"]
 ms.keywords: OEMStartPage, OEMStartPage function [Print Devices], print.oemstartpage, print_unidrv-pscript_rendering_df5731ee-40be-45e1-8dbb-b7893ec27622.xml, printoem/OEMStartPage
 f1_keywords:
  - "printoem/OEMStartPage"
+ - "OEMStartPage"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows

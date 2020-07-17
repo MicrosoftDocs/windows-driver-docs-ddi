@@ -10,6 +10,7 @@ keywords: ["_DXVA_SampleFlags enumeration"]
 ms.keywords: DXVA_SampleFlag_ColorData_Changed, DXVA_SampleFlag_DstRect_Changed, DXVA_SampleFlag_Palette_Changed, DXVA_SampleFlag_SrcRect_Changed, DXVA_SampleFlags, DXVA_SampleFlags enumeration [Display Devices], DXVA_SampleFlagsMask, _DXVA_SampleFlags, display.dxva_sampleflags, dxva/DXVA_SampleFlag_ColorData_Changed, dxva/DXVA_SampleFlag_DstRect_Changed, dxva/DXVA_SampleFlag_Palette_Changed, dxva/DXVA_SampleFlag_SrcRect_Changed, dxva/DXVA_SampleFlags, dxva/DXVA_SampleFlagsMask, dxvaref_b74a9819-950e-40cc-bf3c-eebb797862f7.xml
 f1_keywords:
  - "dxva/DXVA_SampleFlags"
+ - "DXVA_SampleFlags"
 req.header: dxva.h
 req.include-header: Dxva.h
 req.target-type: Windows

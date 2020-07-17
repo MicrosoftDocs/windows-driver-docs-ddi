@@ -10,6 +10,7 @@ keywords: ["_D3DDeviceDesc_V1 structure"]
 ms.keywords: "*LPD3DDEVICEDESC_V1, D3DDEVICEDESC_V1, D3DDEVICEDESC_V1 structure [Display Devices], LPD3DDEVICEDESC_V1, LPD3DDEVICEDESC_V1 structure pointer [Display Devices], _D3DDeviceDesc_V1, d3dhal/D3DDEVICEDESC_V1, d3dhal/LPD3DDEVICEDESC_V1, d3dstrct_111d5153-fb7f-4c2b-acc5-65818723e263.xml, display.d3ddevicedesc_v1"
 f1_keywords:
  - "d3dhal/D3DDEVICEDESC_V1"
+ - "D3DDEVICEDESC_V1"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows

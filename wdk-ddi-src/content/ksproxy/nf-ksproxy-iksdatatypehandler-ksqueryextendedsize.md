@@ -10,6 +10,7 @@ keywords: ["IKsDataTypeHandler::KsQueryExtendedSize"]
 ms.keywords: IKsDataTypeHandler interface [Streaming Media Devices],KsQueryExtendedSize method, IKsDataTypeHandler.KsQueryExtendedSize, IKsDataTypeHandler::KsQueryExtendedSize, KsQueryExtendedSize, KsQueryExtendedSize method [Streaming Media Devices], KsQueryExtendedSize method [Streaming Media Devices],IKsDataTypeHandler interface, ksproxy/IKsDataTypeHandler::KsQueryExtendedSize, ksproxy_b76ac8b2-6bf7-4839-9783-35c865efeb29.xml, stream.iksdatatypehandler_ksqueryextendedsize
 f1_keywords:
  - "ksproxy/IKsDataTypeHandler.KsQueryExtendedSize"
+ - "IKsDataTypeHandler.KsQueryExtendedSize"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Desktop

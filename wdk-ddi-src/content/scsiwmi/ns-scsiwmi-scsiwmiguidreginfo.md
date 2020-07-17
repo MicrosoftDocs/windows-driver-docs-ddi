@@ -10,6 +10,7 @@ keywords: ["SCSIWMIGUIDREGINFO structure"]
 ms.keywords: "*PSCSIWMIGUIDREGINFO, PSCSIWMIGUIDREGINFO, PSCSIWMIGUIDREGINFO structure pointer [Storage Devices], SCSIWMIGUIDREGINFO, SCSIWMIGUIDREGINFO structure [Storage Devices], scsiwmi/PSCSIWMIGUIDREGINFO, scsiwmi/SCSIWMIGUIDREGINFO, storage.scsiwmiguidreginfo, structs-scsibus_3688cdd5-2515-4fd8-8eae-37689dac26c0.xml"
 f1_keywords:
  - "scsiwmi/SCSIWMIGUIDREGINFO"
+ - "SCSIWMIGUIDREGINFO"
 req.header: scsiwmi.h
 req.include-header: Scsiwmi.h
 req.target-type: Windows

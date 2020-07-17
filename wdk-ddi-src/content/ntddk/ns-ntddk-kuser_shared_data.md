@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["KUSER_SHARED_DATA structure"]
 f1_keywords:
  - "ntddk/KUSER_SHARED_DATA"
+ - "KUSER_SHARED_DATA"
 ms.keywords: KUSER_SHARED_DATA, KUSER_SHARED_DATA, *PKUSER_SHARED_DATA, 
 req.header: ntddk.h
 req.include-header:

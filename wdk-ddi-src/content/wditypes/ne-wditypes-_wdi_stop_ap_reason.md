@@ -10,6 +10,7 @@ keywords: ["_WDI_STOP_AP_REASON enumeration"]
 ms.keywords: WDI_STOP_AP_REASON, WDI_STOP_AP_REASON enumeration [Network Drivers Starting with Windows Vista], WDI_STOP_AP_REASON_AP_ACTIVE, WDI_STOP_AP_REASON_CHANNEL_NOT_AVAILABLE, WDI_STOP_AP_REASON_FREQUENCY_NOT_AVAILABLE, WDI_STOP_AP_REASON_IHV_END, WDI_STOP_AP_REASON_IHV_START, _WDI_STOP_AP_REASON, netvista.wdi_stop_ap_reason, wditypes/WDI_STOP_AP_REASON, wditypes/WDI_STOP_AP_REASON_AP_ACTIVE, wditypes/WDI_STOP_AP_REASON_CHANNEL_NOT_AVAILABLE, wditypes/WDI_STOP_AP_REASON_FREQUENCY_NOT_AVAILABLE, wditypes/WDI_STOP_AP_REASON_IHV_END, wditypes/WDI_STOP_AP_REASON_IHV_START
 f1_keywords:
  - "wditypes/WDI_STOP_AP_REASON"
+ - "WDI_STOP_AP_REASON"
 req.header: wditypes.hpp
 req.include-header: 
 req.target-type: Windows

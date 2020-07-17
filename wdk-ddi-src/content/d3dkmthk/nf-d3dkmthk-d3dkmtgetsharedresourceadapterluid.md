@@ -9,6 +9,7 @@ keywords: ["D3DKMTGetSharedResourceAdapterLuid function"]
 ms.keywords: D3DKMTGetSharedResourceAdapterLuid, D3DKMTGetSharedResourceAdapterLuid function [Display Devices], d3dkmthk/D3DKMTGetSharedResourceAdapterLuid, display.d3dkmtgetsharedresourceadapterluid
 f1_keywords:
  - "d3dkmthk/D3DKMTGetSharedResourceAdapterLuid"
+ - "D3DKMTGetSharedResourceAdapterLuid"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["_DXGK_VGPU_CAPABILITY_TYPE enumeration"]
 f1_keywords:
  - "dispmprt/_DXGK_VGPU_CAPABILITY_TYPE"
+ - "_DXGK_VGPU_CAPABILITY_TYPE"
 ms.keywords: _DXGK_VGPU_CAPABILITY_TYPE, DXGK_VGPU_CAPABILITY_TYPE, 
 ms.prod: windows-hardware
 ms.technology: windows-devices

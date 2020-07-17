@@ -10,6 +10,7 @@ keywords: ["FltAttachVolumeAtAltitude function"]
 ms.keywords: FltApiRef_a_to_d_5a0e9e03-7d81-4894-9430-fed1c32181b6.xml, FltAttachVolumeAtAltitude, FltAttachVolumeAtAltitude routine [Installable File System Drivers], fltkernel/FltAttachVolumeAtAltitude, ifsk.fltattachvolumeataltitude
 f1_keywords:
  - "fltkernel/FltAttachVolumeAtAltitude"
+ - "FltAttachVolumeAtAltitude"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["NdisMAllocateNetBufferSGList function"]
 ms.keywords: NdisMAllocateNetBufferSGList, NdisMAllocateNetBufferSGList function [Network Drivers Starting with Windows Vista], ndis/NdisMAllocateNetBufferSGList, ndis_sgdma_ref_7d06207d-de5d-41a8-b6e8-4ecab32123a1.xml, netvista.ndismallocatenetbuffersglist
 f1_keywords:
  - "ndis/NdisMAllocateNetBufferSGList"
+ - "NdisMAllocateNetBufferSGList"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

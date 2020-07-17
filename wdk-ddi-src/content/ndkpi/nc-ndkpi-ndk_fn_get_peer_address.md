@@ -10,6 +10,7 @@ keywords: ["NDK_FN_GET_PEER_ADDRESS callback function"]
 ms.keywords: NDK_FN_GET_PEER_ADDRESS, NDK_FN_GET_PEER_ADDRESS callback, NdkGetPeerAddress, NdkGetPeerAddress callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkGetPeerAddress, netvista.ndk_fn_get_peer_address
 f1_keywords:
  - "ndkpi/NdkGetPeerAddress"
+ - "NdkGetPeerAddress"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

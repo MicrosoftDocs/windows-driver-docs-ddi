@@ -10,6 +10,7 @@ keywords: ["_BDA_STRING structure"]
 ms.keywords: "*PBDA_STRING, BDA_STRING, BDA_STRING structure [Streaming Media Devices], PBDA_STRING, PBDA_STRING structure pointer [Streaming Media Devices], _BDA_STRING, bdatypes/BDA_STRING, bdatypes/PBDA_STRING, stream.bda_string"
 f1_keywords:
  - "bdatypes/BDA_STRING"
+ - "BDA_STRING"
 req.header: bdatypes.h
 req.include-header: 
 req.target-type: Windows

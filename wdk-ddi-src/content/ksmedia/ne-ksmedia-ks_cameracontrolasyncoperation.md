@@ -10,6 +10,7 @@ keywords: ["KS_CameraControlAsyncOperation enumeration"]
 ms.keywords: KS_CAMERACONTROL_ASYNC_RESET, KS_CAMERACONTROL_ASYNC_START, KS_CAMERACONTROL_ASYNC_STOP, KS_CameraControlAsyncOperation, KS_CameraControlAsyncOperation enumeration [Streaming Media Devices], ksmedia/KS_CAMERACONTROL_ASYNC_RESET, ksmedia/KS_CAMERACONTROL_ASYNC_START, ksmedia/KS_CAMERACONTROL_ASYNC_STOP, ksmedia/KS_CameraControlAsyncOperation, stream.ks_cameracontrolasyncoperation
 f1_keywords:
  - "ksmedia/KS_CameraControlAsyncOperation"
+ - "KS_CameraControlAsyncOperation"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

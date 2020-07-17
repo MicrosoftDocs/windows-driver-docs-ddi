@@ -10,6 +10,7 @@ keywords: ["OEMEscape function"]
 ms.keywords: OEMEscape, OEMEscape function [Print Devices], print.oemescape, print_unidrv-pscript_rendering_6f5f3a3e-6027-4524-bb11-1010dfc48727.xml, printoem/OEMEscape
 f1_keywords:
  - "printoem/OEMEscape"
+ - "OEMEscape"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows

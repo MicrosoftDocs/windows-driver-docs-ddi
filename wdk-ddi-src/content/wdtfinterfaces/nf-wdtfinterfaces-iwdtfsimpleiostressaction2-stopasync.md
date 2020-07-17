@@ -10,6 +10,7 @@ keywords: ["IWDTFSimpleIOStressAction2::StopAsync"]
 ms.keywords: IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework],StopAsync method, IWDTFSimpleIOStressAction2.StopAsync, IWDTFSimpleIOStressAction2::StopAsync, Microsoft.WDTF.IWDTFSimpleIOStressAction2.StopAsync, Microsoft::WDTF::IWDTFSimpleIOStressAction2::StopAsync, StopAsync, StopAsync method [Windows Device Testing Framework], StopAsync method [Windows Device Testing Framework],IWDTFSimpleIOStressAction2 interface, dtf.iwdtfsimpleiostressaction2_stopasync, wdtfinterfaces/IWDTFSimpleIOStressAction2::StopAsync
 f1_keywords:
  - "wdtfinterfaces/IWDTFSimpleIOStressAction2.StopAsync"
+ - "IWDTFSimpleIOStressAction2.StopAsync"
 req.header: wdtfinterfaces.h
 req.include-header: 
 req.target-type: Desktop

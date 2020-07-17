@@ -10,6 +10,7 @@ keywords: ["NdisMOffloadEventIndicate function"]
 ms.keywords: NdisMOffloadEventIndicate, NdisMOffloadEventIndicate function [Network Drivers Starting with Windows Vista], ndischimney/NdisMOffloadEventIndicate, netvista.ndismoffloadeventindicate, tcp_chim_ndis_func_6199452b-e2ea-41ca-8a16-eaf5109430fe.xml
 f1_keywords:
  - "ndischimney/NdisMOffloadEventIndicate"
+ - "NdisMOffloadEventIndicate"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["IPrintSchemaTicket::NotifyXmlChanged"]
 ms.keywords: IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices],NotifyXmlChanged method, IPrintSchemaTicket.NotifyXmlChanged, IPrintSchemaTicket::NotifyXmlChanged, NotifyXmlChanged, NotifyXmlChanged method [Print Devices], NotifyXmlChanged method [Print Devices],IPrintSchemaTicket interface, print.iprintschematicket_notifyxmlchanged, printerextension/IPrintSchemaTicket::NotifyXmlChanged
 f1_keywords:
  - "printerextension/IPrintSchemaTicket.NotifyXmlChanged"
+ - "IPrintSchemaTicket.NotifyXmlChanged"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["IoGetActivityIdThread function"]
 ms.keywords: IoGetActivityIdThread, IoGetActivityIdThread routine [Kernel-Mode Driver Architecture], kernel.iogetactivityidthread, ntddk/IoGetActivityIdThread
 f1_keywords:
  - "ntddk/IoGetActivityIdThread"
+ - "IoGetActivityIdThread"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["_BBRT_TABLE structure"]
 ms.keywords: "*PBBRT_TABLE, BBRT_TABLE, BBRT_TABLE structure [ACPI Devices], PBBRT_TABLE, PBBRT_TABLE structure pointer [ACPI Devices], _BBRT_TABLE, acpi.bbrt_table, acpitabl/BBRT_TABLE, acpitabl/PBBRT_TABLE"
 f1_keywords:
  - "acpitabl/BBRT_TABLE"
+ - "BBRT_TABLE"
 req.header: acpitabl.h
 req.include-header: Acpitabl.h
 req.target-type: Windows

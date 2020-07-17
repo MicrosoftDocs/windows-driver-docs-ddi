@@ -10,6 +10,7 @@ keywords: ["CWiauPropertyList::SetCurrentValue(INT,CLSID)"]
 ms.keywords: CWiauPropertyList interface [Imaging Devices],SetCurrentValue method, CWiauPropertyList.SetCurrentValue, CWiauPropertyList.SetCurrentValue(INT,CLSID), CWiauPropertyList::SetCurrentValue, CWiauPropertyList::SetCurrentValue(INT ,CLSID*), CWiauPropertyList::SetCurrentValue(INT,CLSID), SetCurrentValue, SetCurrentValue method [Imaging Devices], SetCurrentValue method [Imaging Devices],CWiauPropertyList interface, image.cwiaupropertylist_setcurrentvalue_clsid_, wiauFncs_3fb0d48f-8b37-4b0a-992f-97d5f5243aaa.xml, wiautil/CWiauPropertyList::SetCurrentValue
 f1_keywords:
  - "wiautil/CWiauPropertyList.SetCurrentValue"
+ - "CWiauPropertyList.SetCurrentValue"
 req.header: wiautil.h
 req.include-header: Wiautil.h, Wiamindr.h
 req.target-type: Desktop

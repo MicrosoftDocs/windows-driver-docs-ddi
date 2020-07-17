@@ -10,6 +10,7 @@ keywords: ["IOCTL_INTERNAL_USB_SUBMIT_URB IOCTL"]
 ms.keywords: IOCTL_INTERNAL_USB_SUBMIT_URB, IOCTL_INTERNAL_USB_SUBMIT_URB control, IOCTL_INTERNAL_USB_SUBMIT_URB control code [Buses], buses.ioctl_internal_usb_submit_urb, usbioctl/IOCTL_INTERNAL_USB_SUBMIT_URB, usbirp_2df110d3-a22d-4074-b14f-125afd943afa.xml
 f1_keywords:
  - "usbioctl/IOCTL_INTERNAL_USB_SUBMIT_URB"
+ - "IOCTL_INTERNAL_USB_SUBMIT_URB"
 req.header: usbioctl.h
 req.include-header: Usbioctl.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["_tagAvcResponseCode enumeration"]
 ms.keywords: AVC_RESPONSE_ACCEPTED, AVC_RESPONSE_CHANGED, AVC_RESPONSE_IMPLEMENTED, AVC_RESPONSE_INTERIM, AVC_RESPONSE_IN_TRANSITION, AVC_RESPONSE_NOTIMPL, AVC_RESPONSE_REJECTED, AVC_RESPONSE_STABLE, AvcResponseCode, AvcResponseCode enumeration [Streaming Media Devices], _tagAvcResponseCode, avc/AVC_RESPONSE_ACCEPTED, avc/AVC_RESPONSE_CHANGED, avc/AVC_RESPONSE_IMPLEMENTED, avc/AVC_RESPONSE_INTERIM, avc/AVC_RESPONSE_IN_TRANSITION, avc/AVC_RESPONSE_NOTIMPL, avc/AVC_RESPONSE_REJECTED, avc/AVC_RESPONSE_STABLE, avc/AvcResponseCode, avcref_28d2a6d6-4b1f-4b5e-af90-294da5dd14e5.xml, stream.avcresponsecode
 f1_keywords:
  - "avc/AvcResponseCode"
+ - "AvcResponseCode"
 req.header: avc.h
 req.include-header: Avc.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["WdfDriverIsVersionAvailable function"]
 ms.keywords: DFDriverObjectRef_56291c91-1c81-486d-89ce-948d037b8bc4.xml, WdfDriverIsVersionAvailable, WdfDriverIsVersionAvailable method, kmdf.wdfdriverisversionavailable, wdf.wdfdriverisversionavailable, wdfdriver/WdfDriverIsVersionAvailable
 f1_keywords:
  - "wdfdriver/WdfDriverIsVersionAvailable"
+ - "WdfDriverIsVersionAvailable"
 req.header: wdfdriver.h
 req.include-header: Wdf.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["PoRegisterPowerSettingCallback function"]
 ms.keywords: PoRegisterPowerSettingCallback, PoRegisterPowerSettingCallback routine [Kernel-Mode Driver Architecture], kernel.poregisterpowersettingcallback, portn_ddaef830-5cf5-4b7f-9fa6-e29a2b9f847f.xml, wdm/PoRegisterPowerSettingCallback
 f1_keywords:
  - "ntifs/PoRegisterPowerSettingCallback"
+ - "PoRegisterPowerSettingCallback"
 req.header: ntifs.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

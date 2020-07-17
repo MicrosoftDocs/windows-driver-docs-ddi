@@ -10,6 +10,7 @@ keywords: ["_NDIS_NDK_PERFORMANCE_COUNTERS structure"]
 ms.keywords: "*PNDIS_NDK_PERFORMANCE_COUNTERS, NDIS_NDK_PERFORMANCE_COUNTERS, NDIS_NDK_PERFORMANCE_COUNTERS structure [Network Drivers Starting with Windows Vista], PNDIS_NDK_PERFORMANCE_COUNTERS, PNDIS_NDK_PERFORMANCE_COUNTERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NDK_PERFORMANCE_COUNTERS, netvista.ndis_ndk_performance_counters, ntddndis/NDIS_NDK_PERFORMANCE_COUNTERS, ntddndis/PNDIS_NDK_PERFORMANCE_COUNTERS"
 f1_keywords:
  - "ntddndis/NDIS_NDK_PERFORMANCE_COUNTERS"
+ - "NDIS_NDK_PERFORMANCE_COUNTERS"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

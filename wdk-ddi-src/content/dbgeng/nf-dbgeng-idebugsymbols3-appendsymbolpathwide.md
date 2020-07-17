@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::AppendSymbolPathWide"]
 ms.keywords: AppendSymbolPathWide, AppendSymbolPathWide method [Windows Debugging], AppendSymbolPathWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],AppendSymbolPathWide method, IDebugSymbols3.AppendSymbolPathWide, IDebugSymbols3::AppendSymbolPathWide, dbgeng/IDebugSymbols3::AppendSymbolPathWide, debugger.appendsymbolpathwide
 f1_keywords:
  - "dbgeng/IDebugSymbols3.AppendSymbolPathWide"
+ - "IDebugSymbols3.AppendSymbolPathWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

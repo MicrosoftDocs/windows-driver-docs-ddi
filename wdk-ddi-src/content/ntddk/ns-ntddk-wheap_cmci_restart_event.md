@@ -32,6 +32,7 @@ api_name:
 f1_keywords:
  - ntddk/_WHEAP_CMCI_RESTART_EVENT
  - ntddk/WHEAP_CMCI_RESTART_EVENT
+ - ""
 dev_langs:
  - c++
 ---

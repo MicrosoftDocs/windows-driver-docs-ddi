@@ -9,6 +9,7 @@ keywords: ["PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTSTEREOMODE callback function"]
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTSTEREOMODE, PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTSTEREOMODE callback, d3d10umddi/pfnVideoProcessorSetOutputStereoMode, display.videoprocessorsetoutputstereomode, pfnVideoProcessorSetOutputStereoMode, pfnVideoProcessorSetOutputStereoMode callback function [Display Devices]
 f1_keywords:
  - "d3d10umddi/pfnVideoProcessorSetOutputStereoMode"
+ - "pfnVideoProcessorSetOutputStereoMode"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

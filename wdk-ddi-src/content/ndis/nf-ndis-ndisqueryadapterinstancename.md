@@ -10,6 +10,7 @@ keywords: ["NdisQueryAdapterInstanceName function"]
 ms.keywords: NdisQueryAdapterInstanceName, NdisQueryAdapterInstanceName function [Network Drivers Starting with Windows Vista], ndis/NdisQueryAdapterInstanceName, netvista.ndisqueryadapterinstancename, protocol_ndis_functions_ref_e9e2070d-3b82-43a6-8964-92296de4c896.xml
 f1_keywords:
  - "ndis/NdisQueryAdapterInstanceName"
+ - "NdisQueryAdapterInstanceName"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

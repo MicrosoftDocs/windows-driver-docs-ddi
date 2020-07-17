@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["_USBPM_CONNECTOR_STATE structure"]
 f1_keywords:
  - "usbpmapi/_USBPM_CONNECTOR_STATE"
+ - "_USBPM_CONNECTOR_STATE"
 tech.root: usbref
 ms.keywords: _USBPM_CONNECTOR_STATE, USBPM_CONNECTOR_STATE, *PUSBPM_CONNECTOR_STATE, 
 req.header: usbpmapi.h

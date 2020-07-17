@@ -10,6 +10,7 @@ keywords: ["DOT11_CIPHER_DEFAULT_KEY_VALUE structure"]
 ms.keywords: "*PDOT11_CIPHER_DEFAULT_KEY_VALUE, DOT11_CIPHER_DEFAULT_KEY_VALUE, DOT11_CIPHER_DEFAULT_KEY_VALUE structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_dba46983-b572-4b76-8628-776848e4b22e.xml, PDOT11_CIPHER_DEFAULT_KEY_VALUE, PDOT11_CIPHER_DEFAULT_KEY_VALUE structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_cipher_default_key_value, windot11/DOT11_CIPHER_DEFAULT_KEY_VALUE, windot11/PDOT11_CIPHER_DEFAULT_KEY_VALUE"
 f1_keywords:
  - "windot11/DOT11_CIPHER_DEFAULT_KEY_VALUE"
+ - "DOT11_CIPHER_DEFAULT_KEY_VALUE"
 req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows

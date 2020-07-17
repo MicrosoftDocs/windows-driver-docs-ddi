@@ -10,6 +10,7 @@ keywords: ["FltCompletePendedPostOperation function"]
 ms.keywords: FltApiRef_a_to_d_ce848a3a-9d76-433d-a65c-e67ea0f9550b.xml, FltCompletePendedPostOperation, FltCompletePendedPostOperation routine [Installable File System Drivers], fltkernel/FltCompletePendedPostOperation, ifsk.fltcompletependedpostoperation
 f1_keywords:
  - "fltkernel/FltCompletePendedPostOperation"
+ - "FltCompletePendedPostOperation"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["RtlIoDecodeMemIoResource function"]
 ms.keywords: RtlIoDecodeMemIoResource, RtlIoDecodeMemIoResource routine [Kernel-Mode Driver Architecture], k109_27e29ad7-3e41-44ad-b3da-027180f51d2a.xml, kernel.rtliodecodememioresource, wdm/RtlIoDecodeMemIoResource
 f1_keywords:
  - "wdm/RtlIoDecodeMemIoResource"
+ - "RtlIoDecodeMemIoResource"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

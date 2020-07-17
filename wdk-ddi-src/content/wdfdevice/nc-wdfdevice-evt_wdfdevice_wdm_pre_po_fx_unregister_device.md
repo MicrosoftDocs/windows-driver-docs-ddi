@@ -10,6 +10,7 @@ keywords: ["EVT_WDFDEVICE_WDM_PRE_PO_FX_UNREGISTER_DEVICE callback function"]
 ms.keywords: EVT_WDFDEVICE_WDM_PRE_PO_FX_UNREGISTER_DEVICE, EVT_WDFDEVICE_WDM_PRE_PO_FX_UNREGISTER_DEVICE callback, EvtDeviceWdmPrePoFxUnregisterDevice, EvtDeviceWdmPrePoFxUnregisterDevice callback function, kmdf.evtdevicewdmprepofxunregisterdevice, wdf.evtdevicewdmprepofxunregisterdevice, wdfdevice/EvtDeviceWdmPrePoFxUnregisterDevice
 f1_keywords:
  - "wdfdevice/EvtDeviceWdmPrePoFxUnregisterDevice"
+ - "EvtDeviceWdmPrePoFxUnregisterDevice"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

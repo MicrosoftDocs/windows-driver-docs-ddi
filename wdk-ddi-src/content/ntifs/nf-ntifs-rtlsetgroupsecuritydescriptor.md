@@ -10,6 +10,7 @@ keywords: ["RtlSetGroupSecurityDescriptor function"]
 ms.keywords: RtlSetGroupSecurityDescriptor, RtlSetGroupSecurityDescriptor routine [Installable File System Drivers], ifsk.rtlsetgroupsecuritydescriptor, ntifs/RtlSetGroupSecurityDescriptor, rtlref_113e5ca7-5db3-4c93-a26f-c568e2164de9.xml
 f1_keywords:
  - "ntifs/RtlSetGroupSecurityDescriptor"
+ - "RtlSetGroupSecurityDescriptor"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

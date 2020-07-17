@@ -10,6 +10,7 @@ keywords: ["IBidiSpl2::UnbindDevice"]
 ms.keywords: IBidiSpl2 interface [Print Devices],UnbindDevice method, IBidiSpl2.UnbindDevice, IBidiSpl2::UnbindDevice, UnbindDevice, UnbindDevice method [Print Devices], UnbindDevice method [Print Devices],IBidiSpl2 interface, _win32_IBidiSpl2_UnbindDevice, bidispl/IBidiSpl2::UnbindDevice, gdi.ibidispl2_ibidispl2__unbinddevice, print.ibidispl2_ibidispl2__unbinddevice
 f1_keywords:
  - "bidispl/IBidiSpl2.UnbindDevice"
+ - "IBidiSpl2.UnbindDevice"
 req.header: bidispl.h
 req.include-header: 
 req.target-type: Desktop

@@ -29,6 +29,7 @@ api_name:
 f1_keywords:
  - dispmprt/_DXGK_DSI_CONTROL_TRANSMISSION_MODE
  - dispmprt/DXGK_DSI_CONTROL_TRANSMISSION_MODE
+ - ""
 dev_langs:
  - c++
 ---

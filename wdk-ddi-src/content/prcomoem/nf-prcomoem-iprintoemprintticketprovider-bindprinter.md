@@ -10,6 +10,7 @@ keywords: ["IPrintOemPrintTicketProvider::BindPrinter"]
 ms.keywords: BindPrinter, BindPrinter method [Print Devices], BindPrinter method [Print Devices],IPrintOemPrintTicketProvider interface, IPrintOemPrintTicketProvider interface [Print Devices],BindPrinter method, IPrintOemPrintTicketProvider.BindPrinter, IPrintOemPrintTicketProvider::BindPrinter, prcomoem/IPrintOemPrintTicketProvider::BindPrinter, print.iprintoemprintticketprovider_bindprinter, print_ticket-package_14890643-fabb-4e03-8d1e-08a6ff7f1c9c.xml
 f1_keywords:
  - "prcomoem/IPrintOemPrintTicketProvider.BindPrinter"
+ - "IPrintOemPrintTicketProvider.BindPrinter"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop

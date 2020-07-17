@@ -10,6 +10,7 @@ keywords: ["IRegistryKey::EnumerateValueKey"]
 ms.keywords: EnumerateValueKey, EnumerateValueKey method [Audio Devices], EnumerateValueKey method [Audio Devices],IRegistryKey interface, IRegistryKey interface [Audio Devices],EnumerateValueKey method, IRegistryKey.EnumerateValueKey, IRegistryKey::EnumerateValueKey, audio.iregistrykey_enumeratevaluekey, audmp-routines_8b4fc752-24a3-4331-b90b-85642dc2121a.xml, portcls/IRegistryKey::EnumerateValueKey
 f1_keywords:
  - "portcls/IRegistryKey.EnumerateValueKey"
+ - "IRegistryKey.EnumerateValueKey"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

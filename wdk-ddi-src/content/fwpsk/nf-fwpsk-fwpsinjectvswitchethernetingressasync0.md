@@ -10,6 +10,7 @@ keywords: ["FwpsInjectvSwitchEthernetIngressAsync0 function"]
 ms.keywords: FwpsInjectvSwitchEthernetIngressAsync0, FwpsInjectvSwitchEthernetIngressAsync0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsInjectvSwitchEthernetIngressAsync0, netvista.fwpsinjectvswitchingressasync0
 f1_keywords:
  - "fwpsk/FwpsInjectvSwitchEthernetIngressAsync0"
+ - "FwpsInjectvSwitchEthernetIngressAsync0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal

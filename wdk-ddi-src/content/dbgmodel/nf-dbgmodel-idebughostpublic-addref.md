@@ -7,6 +7,7 @@ ms.date: 09/21/2018
 keywords: ["IDebugHostPublic::AddRef"]
 f1_keywords:
  - "dbgmodel/IDebugHostPublic.AddRef"
+ - "IDebugHostPublic.AddRef"
 ms.keywords: IDebugHostPublic::AddRef, AddRef, IDebugHostPublic.AddRef, IDebugHostPublic::AddRef, IDebugHostPublic.AddRef
 req.header: dbgmodel.h
 req.include-header:

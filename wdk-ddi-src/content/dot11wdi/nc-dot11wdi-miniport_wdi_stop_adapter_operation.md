@@ -10,6 +10,7 @@ keywords: ["MINIPORT_WDI_STOP_ADAPTER_OPERATION callback function"]
 ms.keywords: "(*MINIPORT_WDI_STOP_OPERATION_HANDLER), (*MINIPORT_WDI_STOP_OPERATION_HANDLER) callback function [Network Drivers Starting with Windows Vista], MINIPORT_WDI_STOP_ADAPTER_OPERATION, MINIPORT_WDI_STOP_ADAPTER_OPERATION callback, MiniportWdiStopAdapterOperation, MiniportWdiStopAdapterOperation callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiStopAdapterOperation, netvista.miniportwdistopoperation"
 f1_keywords:
  - "dot11wdi/(*MINIPORT_WDI_STOP_OPERATION_HANDLER)"
+ - "(*MINIPORT_WDI_STOP_OPERATION_HANDLER)"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows

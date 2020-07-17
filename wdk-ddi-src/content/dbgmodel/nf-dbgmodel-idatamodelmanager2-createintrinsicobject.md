@@ -7,6 +7,7 @@ ms.date: 08/21/2018
 keywords: ["IDataModelManager2::CreateIntrinsicObject"]
 f1_keywords:
  - "dbgmodel/IDataModelManager2.CreateIntrinsicObject"
+ - "IDataModelManager2.CreateIntrinsicObject"
 ms.keywords: IDataModelManager2::CreateIntrinsicObject, CreateIntrinsicObject, IDataModelManager2.CreateIntrinsicObject, IDataModelManager2::CreateIntrinsicObject, IDataModelManager2.CreateIntrinsicObject
 req.header: dbgmodel.h
 req.include-header:

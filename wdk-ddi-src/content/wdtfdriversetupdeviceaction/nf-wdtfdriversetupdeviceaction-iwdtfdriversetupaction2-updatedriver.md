@@ -10,6 +10,7 @@ keywords: ["IWDTFDriverSetupAction2::UpdateDriver"]
 ms.keywords: IWDTFDriverSetupAction2 interface [Windows Device Testing Framework],UpdateDriver method, IWDTFDriverSetupAction2.UpdateDriver, IWDTFDriverSetupAction2::UpdateDriver, Microsoft.WDTF.IWDTFDriverSetupAction2.UpdateDriver, Microsoft::WDTF::IWDTFDriverSetupAction2::UpdateDriver, UpdateDriver, UpdateDriver method [Windows Device Testing Framework], UpdateDriver method [Windows Device Testing Framework],IWDTFDriverSetupAction2 interface, dtf.iwdtfdriversetupaction2_updatedriver, wdtfdriversetupdeviceaction/IWDTFDriverSetupAction2::UpdateDriver
 f1_keywords:
  - "wdtfdriversetupdeviceaction/IWDTFDriverSetupAction2.UpdateDriver"
+ - "IWDTFDriverSetupAction2.UpdateDriver"
 req.header: wdtfdriversetupdeviceaction.h
 req.include-header: 
 req.target-type: Desktop

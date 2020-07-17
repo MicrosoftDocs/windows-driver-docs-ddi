@@ -10,6 +10,7 @@ keywords: ["FRAMING_CACHE_OPS enumeration"]
 ms.keywords: FRAMING_CACHE_OPS, FRAMING_CACHE_OPS enumeration [Streaming Media Devices], Framing_Cache_ReadLast, Framing_Cache_ReadOrig, Framing_Cache_Update, Framing_Cache_Write, ksproxy/FRAMING_CACHE_OPS, ksproxy/Framing_Cache_ReadLast, ksproxy/Framing_Cache_ReadOrig, ksproxy/Framing_Cache_Update, ksproxy/Framing_Cache_Write, stream.framing_cache_ops
 f1_keywords:
  - "ksproxy/FRAMING_CACHE_OPS"
+ - "FRAMING_CACHE_OPS"
 req.header: ksproxy.h
 req.include-header: 
 req.target-type: Windows

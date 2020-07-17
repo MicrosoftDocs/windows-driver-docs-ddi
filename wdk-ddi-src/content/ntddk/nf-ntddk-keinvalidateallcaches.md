@@ -10,6 +10,7 @@ keywords: ["KeInvalidateAllCaches function"]
 ms.keywords: KeInvalidateAllCaches, KeInvalidateAllCaches routine [Kernel-Mode Driver Architecture], k105_4b59c5bd-70e3-48e1-aa6c-abf4e02925e8.xml, kernel.keinvalidateallcaches, ntddk/KeInvalidateAllCaches
 f1_keywords:
  - "ntddk/KeInvalidateAllCaches"
+ - "KeInvalidateAllCaches"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

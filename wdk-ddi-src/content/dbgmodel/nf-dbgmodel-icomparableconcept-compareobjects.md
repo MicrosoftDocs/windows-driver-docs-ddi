@@ -7,6 +7,7 @@ ms.date: 09/28/2018
 keywords: ["IComparableConcept::CompareObjects"]
 f1_keywords:
  - "dbgmodel/IComparableConcept.CompareObjects"
+ - "IComparableConcept.CompareObjects"
 ms.keywords: IComparableConcept::CompareObjects, CompareObjects, IComparableConcept.CompareObjects, IComparableConcept::CompareObjects, IComparableConcept.CompareObjects
 req.header: dbgmodel.h
 req.include-header:

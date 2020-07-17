@@ -10,6 +10,7 @@ keywords: ["IDebugFAEntryTags::GetProperties"]
 ms.keywords: GetProperties, GetProperties method [Windows Debugging], GetProperties method [Windows Debugging],IDebugFAEntryTags interface, IDebugFAEntryTags interface [Windows Debugging],GetProperties method, IDebugFAEntryTags.GetProperties, IDebugFAEntryTags::GetProperties, debugger.idebugfaentrytags_getproperties, extsfns/IDebugFAEntryTags::GetProperties
 f1_keywords:
  - "extsfns/IDebugFAEntryTags.GetProperties"
+ - "IDebugFAEntryTags.GetProperties"
 req.header: extsfns.h
 req.include-header: 
 req.target-type: Desktop

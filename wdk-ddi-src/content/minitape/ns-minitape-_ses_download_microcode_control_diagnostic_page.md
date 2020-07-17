@@ -10,6 +10,7 @@ keywords: ["_SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE structure"]
 ms.keywords: "*PSES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, Activate deferred microcode, Download microcode with offsets,save,and activate, Download microcode with offsets,save,and defer activate, PSES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, PSES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE structure pointer [Storage Devices], Reserved, SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE structure [Storage Devices], _SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, scsi/PSES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, scsi/SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, storage.ses_download_microcode_control_diagnostic_page"
 f1_keywords:
  - "minitape/SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE"
+ - "SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE"
 req.header: minitape.h
 req.include-header: Minitape.h, Storport.h
 req.target-type: Windows

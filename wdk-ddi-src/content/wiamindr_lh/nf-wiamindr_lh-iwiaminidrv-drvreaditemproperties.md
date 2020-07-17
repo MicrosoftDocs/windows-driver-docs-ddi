@@ -10,6 +10,7 @@ keywords: ["IWiaMiniDrv::drvReadItemProperties"]
 ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvReadItemProperties method, IWiaMiniDrv.drvReadItemProperties, IWiaMiniDrv::drvReadItemProperties, MiniDrv_515d9cc7-c76a-4a15-9cc1-59be834382fe.xml, drvReadItemProperties, drvReadItemProperties method [Imaging Devices], drvReadItemProperties method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvreaditemproperties, wiamindr_lh/IWiaMiniDrv::drvReadItemProperties
 f1_keywords:
  - "wiamindr_lh/IWiaMiniDrv.drvReadItemProperties"
+ - "IWiaMiniDrv.drvReadItemProperties"
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop

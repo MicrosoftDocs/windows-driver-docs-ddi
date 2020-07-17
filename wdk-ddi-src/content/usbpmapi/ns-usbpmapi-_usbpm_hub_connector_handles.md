@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["_USBPM_HUB_CONNECTOR_HANDLES structure"]
 f1_keywords:
  - "usbpmapi/_USBPM_HUB_CONNECTOR_HANDLES"
+ - "_USBPM_HUB_CONNECTOR_HANDLES"
 tech.root: usbref
 ms.keywords: _USBPM_HUB_CONNECTOR_HANDLES, USBPM_HUB_CONNECTOR_HANDLES, *PUSBPM_HUB_CONNECTOR_HANDLES, 
 req.header: usbpmapi.h

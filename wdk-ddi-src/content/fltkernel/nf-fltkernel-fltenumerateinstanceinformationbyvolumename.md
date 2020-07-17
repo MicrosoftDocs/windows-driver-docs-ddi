@@ -10,6 +10,7 @@ keywords: ["FltEnumerateInstanceInformationByVolumeName function"]
 ms.keywords: FltEnumerateInstanceInformationByVolumeName, FltEnumerateInstanceInformationByVolumeName routine [Installable File System Drivers], fltkernel/FltEnumerateInstanceInformationByVolumeName, ifsk.fltenumerateinstanceinformationbyvolumename
 f1_keywords:
  - "fltkernel/FltEnumerateInstanceInformationByVolumeName"
+ - "FltEnumerateInstanceInformationByVolumeName"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

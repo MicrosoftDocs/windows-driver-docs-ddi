@@ -10,6 +10,7 @@ keywords: ["PAGP_COMMIT_PHYSICAL callback function"]
 ms.keywords: AgpCommitPhysical, AgpCommitPhysical callback function [Display Devices], PAGP_COMMIT_PHYSICAL, PAGP_COMMIT_PHYSICAL callback, VideoPort_Functions_11f78058-194b-4407-b98b-1ae7cd0028f7.xml, display.agpcommitphysical, videoagp/AgpCommitPhysical
 f1_keywords:
  - "videoagp/AgpCommitPhysical"
+ - "AgpCommitPhysical"
 req.header: videoagp.h
 req.include-header: Video.h
 req.target-type: Desktop

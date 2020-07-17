@@ -7,6 +7,7 @@ ms.date: 08/20/2018
 keywords: ["IDataModelScriptManager::EnumerateScriptProviders"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptManager.EnumerateScriptProviders"
+ - "IDataModelScriptManager.EnumerateScriptProviders"
 ms.keywords: IDataModelScriptManager::EnumerateScriptProviders, EnumerateScriptProviders, IDataModelScriptManager.EnumerateScriptProviders, IDataModelScriptManager::EnumerateScriptProviders, IDataModelScriptManager.EnumerateScriptProviders
 req.header: dbgmodel.h
 req.include-header:

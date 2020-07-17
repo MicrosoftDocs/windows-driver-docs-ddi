@@ -10,6 +10,7 @@ keywords: ["IMiniportWaveRT::NewStream"]
 ms.keywords: IMiniportWaveRT interface [Audio Devices],NewStream method, IMiniportWaveRT.NewStream, IMiniportWaveRT::NewStream, NewStream, NewStream method [Audio Devices], NewStream method [Audio Devices],IMiniportWaveRT interface, audio.iminiportwavert_newstream, audmp-routines_f6e65bf7-d19d-42fc-a0f0-2d2c83e88250.xml, portcls/IMiniportWaveRT::NewStream
 f1_keywords:
  - "portcls/IMiniportWaveRT.NewStream"
+ - "IMiniportWaveRT.NewStream"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal

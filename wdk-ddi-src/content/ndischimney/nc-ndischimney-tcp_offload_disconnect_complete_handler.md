@@ -10,6 +10,7 @@ keywords: ["TCP_OFFLOAD_DISCONNECT_COMPLETE_HANDLER callback function"]
 ms.keywords: ProtocolTcpOffloadDisconnectComplete, ProtocolTcpOffloadDisconnectComplete callback function [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_DISCONNECT_COMPLETE_HANDLER, TCP_OFFLOAD_DISCONNECT_COMPLETE_HANDLER callback, ndischimney/ProtocolTcpOffloadDisconnectComplete, netvista.protocoltcpoffloaddisconnectcomplete, tcp_chim_protocol_func_fadc0ea9-acd8-489d-886c-213b909d93b3.xml
 f1_keywords:
  - "ndischimney/ProtocolTcpOffloadDisconnectComplete"
+ - "ProtocolTcpOffloadDisconnectComplete"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["GPIO_CLIENT_PREPARE_CONTROLLER callback function"]
 ms.keywords: CLIENT_PrepareController, CLIENT_PrepareController callback, CLIENT_PrepareController callback function [Parallel Ports], GPIO.client_preparecontroller, GPIO_CLIENT_PREPARE_CONTROLLER, gpioclx/CLIENT_PrepareController
 f1_keywords:
  - "gpioclx/CLIENT_PrepareController"
+ - "CLIENT_PrepareController"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Desktop

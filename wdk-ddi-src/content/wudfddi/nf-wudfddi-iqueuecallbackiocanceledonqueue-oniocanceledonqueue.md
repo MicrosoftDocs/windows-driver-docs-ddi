@@ -10,6 +10,7 @@ keywords: ["IQueueCallbackIoCanceledOnQueue::OnIoCanceledOnQueue"]
 ms.keywords: IQueueCallbackIoCanceledOnQueue interface,OnIoCanceledOnQueue method, IQueueCallbackIoCanceledOnQueue.OnIoCanceledOnQueue, IQueueCallbackIoCanceledOnQueue::OnIoCanceledOnQueue, OnIoCanceledOnQueue, OnIoCanceledOnQueue method, OnIoCanceledOnQueue method,IQueueCallbackIoCanceledOnQueue interface, UMDFQueueObjectRef_e80a1257-b51e-46f8-8e9f-0fff3b830587.xml, umdf.iqueuecallbackiocanceledonqueue_oniocanceledonqueue, wdf.iqueuecallbackiocanceledonqueue_oniocanceledonqueue, wudfddi/IQueueCallbackIoCanceledOnQueue::OnIoCanceledOnQueue
 f1_keywords:
  - "wudfddi/IQueueCallbackIoCanceledOnQueue.OnIoCanceledOnQueue"
+ - "IQueueCallbackIoCanceledOnQueue.OnIoCanceledOnQueue"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

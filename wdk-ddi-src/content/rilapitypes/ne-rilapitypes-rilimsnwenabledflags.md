@@ -10,6 +10,7 @@ keywords: ["RILIMSNWENABLEDFLAGS enumeration"]
 ms.keywords: RILIMSNWENABLEDFLAGS, RILIMSNWENABLEDFLAGS enumeration [Network Drivers Starting with Windows Vista], RIL_IMS_NW_ENABLED_FLAG_ALL, RIL_IMS_NW_ENABLED_FLAG_EAB, RIL_IMS_NW_ENABLED_FLAG_PROVISION, RIL_IMS_NW_ENABLED_FLAG_VIDEO, RIL_IMS_NW_ENABLED_FLAG_VOICE, netvista.rilimsnwenabledflags, ntddrilapitypes/RILIMSNWENABLEDFLAGS, ntddrilapitypes/RIL_IMS_NW_ENABLED_FLAG_ALL, ntddrilapitypes/RIL_IMS_NW_ENABLED_FLAG_EAB, ntddrilapitypes/RIL_IMS_NW_ENABLED_FLAG_PROVISION, ntddrilapitypes/RIL_IMS_NW_ENABLED_FLAG_VIDEO, ntddrilapitypes/RIL_IMS_NW_ENABLED_FLAG_VOICE
 f1_keywords:
  - "rilapitypes/RILIMSNWENABLEDFLAGS"
+ - "RILIMSNWENABLEDFLAGS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

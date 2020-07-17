@@ -10,6 +10,7 @@ keywords: ["RtlEqualString function"]
 ms.keywords: RtlEqualString, RtlEqualString routine [Kernel-Mode Driver Architecture], k109_67ef861f-4f4b-4e98-be53-8962b02df08e.xml, kernel.rtlequalstring, ntddk/RtlEqualString
 f1_keywords:
  - "ntddk/RtlEqualString"
+ - "RtlEqualString"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal

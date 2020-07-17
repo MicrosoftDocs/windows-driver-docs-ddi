@@ -10,6 +10,7 @@ keywords: ["NDIS_WDI_OPEN_ADAPTER_COMPLETE callback function"]
 ms.keywords: NDIS_WDI_OPEN_ADAPTER_COMPLETE, NDIS_WDI_OPEN_ADAPTER_COMPLETE callback, NdisWdiOpenAdapterComplete, NdisWdiOpenAdapterComplete callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiOpenAdapterComplete, netvista.ndiswdiopenadaptercomplete
 f1_keywords:
  - "dot11wdi/NdisWdiOpenAdapterComplete"
+ - "NdisWdiOpenAdapterComplete"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows

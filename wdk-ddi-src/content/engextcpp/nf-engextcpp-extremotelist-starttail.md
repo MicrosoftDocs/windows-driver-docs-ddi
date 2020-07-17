@@ -10,6 +10,7 @@ keywords: ["ExtRemoteList::StartTail"]
 ms.keywords: EngExtCpp_Ref_736ed502-a1e7-49cd-95f6-67201cb8dbb3.xml, ExtRemoteList class [Windows Debugging],StartTail method, ExtRemoteList.StartTail, ExtRemoteList::StartTail, StartTail, StartTail method [Windows Debugging], StartTail method [Windows Debugging],ExtRemoteList class, debugger.extremotelist_starttail
 f1_keywords:
  - "engextcpp/ExtRemoteList.StartTail"
+ - "ExtRemoteList.StartTail"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop

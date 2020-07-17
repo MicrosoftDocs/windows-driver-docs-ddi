@@ -10,6 +10,7 @@ keywords: ["IoGetRelatedDeviceObject function"]
 ms.keywords: IoGetRelatedDeviceObject, IoGetRelatedDeviceObject routine [Kernel-Mode Driver Architecture], k104_22abf9c6-81f5-497e-9bca-8a00b2c871df.xml, kernel.iogetrelateddeviceobject, wdm/IoGetRelatedDeviceObject
 f1_keywords:
  - "wdm/IoGetRelatedDeviceObject"
+ - "IoGetRelatedDeviceObject"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

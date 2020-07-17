@@ -8,6 +8,7 @@ ms.date: 10/31/2018
 keywords: ["IDmaChannel::FreeBuffer"]
 f1_keywords:
  - "portcls/IDmaChannel.FreeBuffer"
+ - "IDmaChannel.FreeBuffer"
 ms.keywords: IDmaChannel::FreeBuffer, FreeBuffer, IDmaChannel.FreeBuffer, IDmaChannel::FreeBuffer, IDmaChannel.FreeBuffer
 req.header: portcls.h
 req.include-header:

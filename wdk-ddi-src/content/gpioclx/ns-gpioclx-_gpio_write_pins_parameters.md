@@ -10,6 +10,7 @@ keywords: ["_GPIO_WRITE_PINS_PARAMETERS structure"]
 ms.keywords: "*PGPIO_WRITE_PINS_PARAMETERS, GPIO.gpio_write_pins_parameters, GPIO_WRITE_PINS_PARAMETERS, GPIO_WRITE_PINS_PARAMETERS structure [Parallel Ports], PGPIO_WRITE_PINS_PARAMETERS, PGPIO_WRITE_PINS_PARAMETERS structure pointer [Parallel Ports], _GPIO_WRITE_PINS_PARAMETERS, gpioclx/GPIO_WRITE_PINS_PARAMETERS, gpioclx/PGPIO_WRITE_PINS_PARAMETERS"
 f1_keywords:
  - "gpioclx/GPIO_WRITE_PINS_PARAMETERS"
+ - "GPIO_WRITE_PINS_PARAMETERS"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Windows

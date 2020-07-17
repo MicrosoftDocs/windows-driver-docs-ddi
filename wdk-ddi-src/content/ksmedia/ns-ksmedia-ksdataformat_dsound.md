@@ -10,6 +10,7 @@ keywords: ["KSDATAFORMAT_DSOUND structure"]
 ms.keywords: "*PKSDATAFORMAT_DSOUND, KSDATAFORMAT_DSOUND, KSDATAFORMAT_DSOUND structure [Audio Devices], PKSDATAFORMAT_DSOUND, PKSDATAFORMAT_DSOUND structure pointer [Audio Devices], aud-prop_2e782d9c-dfeb-4797-b902-e32e947d2542.xml, audio.ksdataformat_dsound, ksmedia/KSDATAFORMAT_DSOUND, ksmedia/PKSDATAFORMAT_DSOUND"
 f1_keywords:
  - "ksmedia/KSDATAFORMAT_DSOUND"
+ - "KSDATAFORMAT_DSOUND"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

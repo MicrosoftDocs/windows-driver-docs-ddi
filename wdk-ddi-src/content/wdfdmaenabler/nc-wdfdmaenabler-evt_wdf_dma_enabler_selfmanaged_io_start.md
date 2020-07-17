@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_DMA_ENABLER_SELFMANAGED_IO_START callback function"]
 ms.keywords: DFDmaObjectRef_6ccb5cb2-c30f-4ae0-a47e-cb58e24de25b.xml, EVT_WDF_DMA_ENABLER_SELFMANAGED_IO_START, EVT_WDF_DMA_ENABLER_SELFMANAGED_IO_START callback, EvtDmaEnablerSelfManagedIoStart, EvtDmaEnablerSelfManagedIoStart callback function, kmdf.evtdmaenablerselfmanagediostart, wdf.evtdmaenablerselfmanagediostart, wdfdmaenabler/EvtDmaEnablerSelfManagedIoStart
 f1_keywords:
  - "wdfdmaenabler/EvtDmaEnablerSelfManagedIoStart"
+ - "EvtDmaEnablerSelfManagedIoStart"
 req.header: wdfdmaenabler.h
 req.include-header: Wdf.h
 req.target-type: Universal

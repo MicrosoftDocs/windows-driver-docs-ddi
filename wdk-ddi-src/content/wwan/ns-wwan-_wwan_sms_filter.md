@@ -10,6 +10,7 @@ keywords: ["_WWAN_SMS_FILTER structure"]
 ms.keywords: "*PWWAN_SMS_FILTER, PWWAN_SMS_FILTER, PWWAN_SMS_FILTER structure pointer [Network Drivers Starting with Windows Vista], WWAN_SMS_FILTER, WWAN_SMS_FILTER structure [Network Drivers Starting with Windows Vista], WwanRef_1bec8893-7ce8-4d8c-aea1-d1c76b0013fc.xml, _WWAN_SMS_FILTER, netvista.wwan_sms_filter, wwan/PWWAN_SMS_FILTER, wwan/WWAN_SMS_FILTER"
 f1_keywords:
  - "wwan/WWAN_SMS_FILTER"
+ - "WWAN_SMS_FILTER"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows

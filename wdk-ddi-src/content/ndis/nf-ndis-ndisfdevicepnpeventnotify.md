@@ -10,6 +10,7 @@ keywords: ["NdisFDevicePnPEventNotify function"]
 ms.keywords: NdisFDevicePnPEventNotify, NdisFDevicePnPEventNotify function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_56e249ae-0200-4c98-b20c-03cc8d3fdd7d.xml, ndis/NdisFDevicePnPEventNotify, netvista.ndisfdevicepnpeventnotify
 f1_keywords:
  - "ndis/NdisFDevicePnPEventNotify"
+ - "NdisFDevicePnPEventNotify"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

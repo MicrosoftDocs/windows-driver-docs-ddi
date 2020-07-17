@@ -10,6 +10,7 @@ keywords: ["StorPortDebugPrint function"]
 ms.keywords: StorPortDebugPrint, StorPortDebugPrint routine [Storage Devices], storage.storportdebugprint, storport/StorPortDebugPrint, storprt_4c594dd0-20a0-456f-acdb-3c08198dc8b5.xml
 f1_keywords:
  - "storport/StorPortDebugPrint"
+ - "StorPortDebugPrint"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

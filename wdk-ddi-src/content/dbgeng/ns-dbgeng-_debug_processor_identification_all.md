@@ -10,6 +10,7 @@ keywords: ["_DEBUG_PROCESSOR_IDENTIFICATION_ALL structure"]
 ms.keywords: "*PDEBUG_PROCESSOR_IDENTIFICATION_ALL, DEBUG_PROCESSOR_IDENTIFICATION_ALL, DEBUG_PROCESSOR_IDENTIFICATION_ALL union [Windows Debugging], _DEBUG_PROCESSOR_IDENTIFICATION_ALL, dbgeng/DEBUG_PROCESSOR_IDENTIFICATION_ALL, debugger.debug_processor_identification_all"
 f1_keywords:
  - "dbgeng/DEBUG_PROCESSOR_IDENTIFICATION_ALL"
+ - "DEBUG_PROCESSOR_IDENTIFICATION_ALL"
 req.header: dbgeng.h
 req.include-header: DbgEng.h
 req.target-type: Windows

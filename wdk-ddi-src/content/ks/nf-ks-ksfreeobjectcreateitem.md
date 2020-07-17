@@ -10,6 +10,7 @@ keywords: ["KsFreeObjectCreateItem function"]
 ms.keywords: KsFreeObjectCreateItem, KsFreeObjectCreateItem function [Streaming Media Devices], ks/KsFreeObjectCreateItem, ksfunc_e91e49bc-521e-486e-a67b-33b16b7caa68.xml, stream.ksfreeobjectcreateitem
 f1_keywords:
  - "ks/KsFreeObjectCreateItem"
+ - "KsFreeObjectCreateItem"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

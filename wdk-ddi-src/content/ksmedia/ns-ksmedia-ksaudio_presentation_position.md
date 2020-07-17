@@ -10,6 +10,7 @@ keywords: ["KSAUDIO_PRESENTATION_POSITION structure"]
 ms.keywords: "*PKSAUDIO_PRESENTATION_POSITION, KSAUDIO_PRESENTATION_POSITION, KSAUDIO_PRESENTATION_POSITION structure [Audio Devices], PKSAUDIO_PRESENTATION_POSITION, PKSAUDIO_PRESENTATION_POSITION structure pointer [Audio Devices], audio.ksaudio_presentation_position, ksmedia/KSAUDIO_PRESENTATION_POSITION, ksmedia/PKSAUDIO_PRESENTATION_POSITION"
 f1_keywords:
  - "ksmedia/KSAUDIO_PRESENTATION_POSITION"
+ - "KSAUDIO_PRESENTATION_POSITION"
 req.header: ksmedia.h
 req.include-header: 
 req.target-type: Windows

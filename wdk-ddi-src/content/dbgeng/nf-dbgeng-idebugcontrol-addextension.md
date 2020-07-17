@@ -10,6 +10,7 @@ keywords: ["IDebugControl::AddExtension"]
 ms.keywords: AddExtension, AddExtension method [Windows Debugging], AddExtension method [Windows Debugging],IDebugControl interface, AddExtension method [Windows Debugging],IDebugControl2 interface, AddExtension method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],AddExtension method, IDebugControl.AddExtension, IDebugControl2 interface [Windows Debugging],AddExtension method, IDebugControl2::AddExtension, IDebugControl3 interface [Windows Debugging],AddExtension method, IDebugControl3::AddExtension, IDebugControl::AddExtension, IDebugControl_9d85fcbb-1c02-4b5a-b9ab-c50b9b266d1d.xml, dbgeng/IDebugControl2::AddExtension, dbgeng/IDebugControl3::AddExtension, dbgeng/IDebugControl::AddExtension, debugger.addextension
 f1_keywords:
  - "dbgeng/IDebugControl.AddExtension"
+ - "IDebugControl.AddExtension"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["MmAdvanceMdl function"]
 ms.keywords: MmAdvanceMdl, MmAdvanceMdl routine [Kernel-Mode Driver Architecture], k106_14f78a97-f29c-4996-b8aa-94a04b62f11c.xml, kernel.mmadvancemdl, wdm/MmAdvanceMdl
 f1_keywords:
  - "wdm/MmAdvanceMdl"
+ - "MmAdvanceMdl"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

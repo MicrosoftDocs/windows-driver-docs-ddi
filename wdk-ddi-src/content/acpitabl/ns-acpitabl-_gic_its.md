@@ -10,6 +10,7 @@ keywords: ["_GIC_ITS structure"]
 ms.keywords: "*PGIC_ITS, GIC_ITS, GIC_ITS structure [ACPI Devices], _GIC_ITS, acpi.gic_its, acpitabl/GIC_ITS"
 f1_keywords:
  - "acpitabl/GIC_ITS"
+ - "GIC_ITS"
 req.header: acpitabl.h
 req.include-header: Acpitabl.h
 req.target-type: Windows

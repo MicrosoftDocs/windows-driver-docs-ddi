@@ -10,6 +10,7 @@ keywords: ["_NDK_LOGICAL_ADDRESS_MAPPING structure"]
 ms.keywords: NDK_LOGICAL_ADDRESS_MAPPING, NDK_LOGICAL_ADDRESS_MAPPING structure [Network Drivers Starting with Windows Vista], PNDK_LOGICAL_ADDRESS_MAPPING, PNDK_LOGICAL_ADDRESS_MAPPING structure pointer [Network Drivers Starting with Windows Vista], _NDK_LOGICAL_ADDRESS_MAPPING, ndkpi/NDK_LOGICAL_ADDRESS_MAPPING, ndkpi/PNDK_LOGICAL_ADDRESS_MAPPING, netvista.ndk_logical_address_mapping
 f1_keywords:
  - "ndkpi/NDK_LOGICAL_ADDRESS_MAPPING"
+ - "NDK_LOGICAL_ADDRESS_MAPPING"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

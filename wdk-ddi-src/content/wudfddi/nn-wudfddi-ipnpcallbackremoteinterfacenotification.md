@@ -10,6 +10,7 @@ keywords: ["IPnpCallbackRemoteInterfaceNotification interface"]
 ms.keywords: IPnpCallbackRemoteInterfaceNotification, IPnpCallbackRemoteInterfaceNotification interface, IPnpCallbackRemoteInterfaceNotification interface,described, UMDFDeviceObjectRef_4701eb20-04aa-412f-8511-f44a2590ee5b.xml, umdf.ipnpcallbackremoteinterfacenotification, wdf.ipnpcallbackremoteinterfacenotification, wudfddi/IPnpCallbackRemoteInterfaceNotification
 f1_keywords:
  - "wudfddi/IPnpCallbackRemoteInterfaceNotification"
+ - "IPnpCallbackRemoteInterfaceNotification"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

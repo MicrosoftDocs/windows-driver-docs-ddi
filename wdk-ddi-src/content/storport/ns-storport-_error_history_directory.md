@@ -8,6 +8,7 @@ ms.date: 10/19/2018
 keywords: ["_ERROR_HISTORY_DIRECTORY structure"]
 f1_keywords:
  - "storport/_ERROR_HISTORY_DIRECTORY"
+ - "_ERROR_HISTORY_DIRECTORY"
 ms.keywords: _ERROR_HISTORY_DIRECTORY, ERROR_HISTORY_DIRECTORY, *PERROR_HISTORY_DIRECTORY, 
 req.header: storport.h
 req.include-header:

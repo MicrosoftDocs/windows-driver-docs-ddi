@@ -10,6 +10,7 @@ keywords: ["ScsiPortReadPortUchar function"]
 ms.keywords: ScsiPortReadPortUchar, ScsiPortReadPortUchar routine [Storage Devices], scsiprt_bdc335c6-bee2-47f6-ad8e-61bece6f7c15.xml, srb/ScsiPortReadPortUchar, storage.scsiportreadportuchar
 f1_keywords:
  - "srb/ScsiPortReadPortUchar"
+ - "ScsiPortReadPortUchar"
 req.header: srb.h
 req.include-header: Miniport.h, Scsi.h, Storport.h
 req.target-type: Desktop

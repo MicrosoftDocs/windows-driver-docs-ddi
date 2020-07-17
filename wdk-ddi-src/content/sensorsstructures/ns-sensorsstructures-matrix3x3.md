@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["MATRIX3X3 structure"]
 f1_keywords:
  - "sensorsstructures/MATRIX3X3"
+ - "MATRIX3X3"
 tech.root: sensors
 ms.keywords: MATRIX3X3, MATRIX3X3, *PMATRIX3X3, 
 req.header: sensorsstructures.h

@@ -10,6 +10,7 @@ keywords: ["ClfsMgmtTailAdvanceFailure function"]
 ms.keywords: ClfsMgmtTailAdvanceFailure, ClfsMgmtTailAdvanceFailure routine [Kernel-Mode Driver Architecture], Clfs_management_6512b59a-78e2-4b01-ba4f-00b099c2c53f.xml, kernel.clfsmgmttailadvancefailure, wdm/ClfsMgmtTailAdvanceFailure
 f1_keywords:
  - "wdm/ClfsMgmtTailAdvanceFailure"
+ - "ClfsMgmtTailAdvanceFailure"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop

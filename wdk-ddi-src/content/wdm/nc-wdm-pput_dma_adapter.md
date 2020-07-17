@@ -10,6 +10,7 @@ keywords: ["PPUT_DMA_ADAPTER callback function"]
 ms.keywords: PPUT_DMA_ADAPTER, PPUT_DMA_ADAPTER callback, PutDmaAdapter, PutDmaAdapter callback function [Kernel-Mode Driver Architecture], kdma_49fe7ec6-e0a3-445e-9275-08b94ca2cf48.xml, kernel.putdmaadapter, wdm/PutDmaAdapter
 f1_keywords:
  - "wdm/PutDmaAdapter"
+ - "PutDmaAdapter"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

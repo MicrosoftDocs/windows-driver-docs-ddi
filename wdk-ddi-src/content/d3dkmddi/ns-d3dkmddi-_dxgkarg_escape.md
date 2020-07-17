@@ -9,6 +9,7 @@ keywords: ["_DXGKARG_ESCAPE structure"]
 ms.keywords: DXGKARG_ESCAPE, DXGKARG_ESCAPE structure [Display Devices], DmStructs_1edfa7aa-7ba1-4abc-a453-253de2a191af.xml, _DXGKARG_ESCAPE, d3dkmddi/DXGKARG_ESCAPE, display.dxgkarg_escape
 f1_keywords:
  - "d3dkmddi/DXGKARG_ESCAPE"
+ - "DXGKARG_ESCAPE"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

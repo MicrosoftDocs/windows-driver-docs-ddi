@@ -10,6 +10,7 @@ keywords: ["IWDTFPNPActions2::EDTTryStopDeviceFailRestart"]
 ms.keywords: EDTTryStopDeviceFailRestart, EDTTryStopDeviceFailRestart method [Windows Device Testing Framework], EDTTryStopDeviceFailRestart method [Windows Device Testing Framework],IWDTFPNPActions2 interface, IWDTFPNPActions2 interface [Windows Device Testing Framework],EDTTryStopDeviceFailRestart method, IWDTFPNPActions2.EDTTryStopDeviceFailRestart, IWDTFPNPActions2::EDTTryStopDeviceFailRestart, dtf.iwdtfpnpactions2_edttrystopdevicefailrestart, wdtfpnpaction/IWDTFPNPActions2::EDTTryStopDeviceFailRestart
 f1_keywords:
  - "wdtfpnpaction/IWDTFPNPActions2.EDTTryStopDeviceFailRestart"
+ - "IWDTFPNPActions2.EDTTryStopDeviceFailRestart"
 req.header: wdtfpnpaction.h
 req.include-header: 
 req.target-type: Desktop

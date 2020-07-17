@@ -10,6 +10,7 @@ keywords: ["PFREE_DMA_BUFFER_WITH_NOTIFICATION callback function"]
 ms.keywords: FreeDmaBufferWithNotification, FreeDmaBufferWithNotification callback function [Audio Devices], PFREE_DMA_BUFFER_WITH_NOTIFICATION, PFREE_DMA_BUFFER_WITH_NOTIFICATION callback, aud-prop2_065b7aad-f695-4076-9450-3311083ac17b.xml, audio.freedmabufferwithnotification, hdaudio/FreeDmaBufferWithNotification
 f1_keywords:
  - "hdaudio/FreeDmaBufferWithNotification"
+ - "FreeDmaBufferWithNotification"
 req.header: hdaudio.h
 req.include-header: Hdaudio.h
 req.target-type: Desktop

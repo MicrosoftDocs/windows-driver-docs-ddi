@@ -10,6 +10,7 @@ keywords: ["RILEVDOKIND enumeration"]
 ms.keywords: RILEVDOKIND, RILEVDOKIND enumeration [Network Drivers Starting with Windows Vista], RIL_EVDOKIND_MAX, RIL_EVDOKIND_REVA, RIL_EVDOKIND_REVB, netvista.rilevdokind, ntddrilapitypes/RILEVDOKIND, ntddrilapitypes/RIL_EVDOKIND_MAX, ntddrilapitypes/RIL_EVDOKIND_REVA, ntddrilapitypes/RIL_EVDOKIND_REVB
 f1_keywords:
  - "rilapitypes/RILEVDOKIND"
+ - "RILEVDOKIND"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

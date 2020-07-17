@@ -10,6 +10,7 @@ keywords: ["wiauDbgLegacyTrace2 function"]
 ms.keywords: image.wiaudbglegacytrace2, wiauDbgLegacyTrace2, wiauDbgLegacyTrace2 function [Imaging Devices], wiauFncs_8fbdcd6b-cb2b-461b-81f0-880675d0124b.xml, wiautil/wiauDbgLegacyTrace2
 f1_keywords:
  - "wiautil/wiauDbgLegacyTrace2"
+ - "wiauDbgLegacyTrace2"
 req.header: wiautil.h
 req.include-header: Wiautil.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["IPinCount interface"]
 ms.keywords: IPinCount, IPinCount interface [Audio Devices], IPinCount interface [Audio Devices],described, audio.ipincount, audmp-routines_05698591-4c80-4f02-a420-a87afff949ad.xml, portcls/IPinCount
 f1_keywords:
  - "portcls/IPinCount"
+ - "IPinCount"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows

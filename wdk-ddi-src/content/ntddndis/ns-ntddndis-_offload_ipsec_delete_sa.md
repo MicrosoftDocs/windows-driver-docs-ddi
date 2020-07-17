@@ -10,6 +10,7 @@ keywords: ["_OFFLOAD_IPSEC_DELETE_SA structure"]
 ms.keywords: "*POFFLOAD_IPSEC_DELETE_SA, 216offload_1e6bbc64-755a-4da3-a7d2-ce57c4b98ce6.xml, OFFLOAD_IPSEC_DELETE_SA, OFFLOAD_IPSEC_DELETE_SA structure [Network Drivers Starting with Windows Vista], POFFLOAD_IPSEC_DELETE_SA, POFFLOAD_IPSEC_DELETE_SA structure pointer [Network Drivers Starting with Windows Vista], _OFFLOAD_IPSEC_DELETE_SA, netvista.offload_ipsec_delete_sa, ntddndis/OFFLOAD_IPSEC_DELETE_SA, ntddndis/POFFLOAD_IPSEC_DELETE_SA"
 f1_keywords:
  - "ntddndis/OFFLOAD_IPSEC_DELETE_SA"
+ - "OFFLOAD_IPSEC_DELETE_SA"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

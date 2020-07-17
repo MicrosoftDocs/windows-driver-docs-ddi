@@ -10,6 +10,7 @@ keywords: ["_GetEventBuffer_OUT structure"]
 ms.keywords: "*PGetEventBuffer_OUT, GetEventBuffer_OUT, GetEventBuffer_OUT structure [Storage Devices], PGetEventBuffer_OUT, PGetEventBuffer_OUT structure pointer [Storage Devices], _GetEventBuffer_OUT, hbapiwmi/GetEventBuffer_OUT, hbapiwmi/PGetEventBuffer_OUT, storage.geteventbuffer_out, structs-Fibre_af1916c9-60f8-4601-b9dd-d4575a100d98.xml"
 f1_keywords:
  - "hbapiwmi/GetEventBuffer_OUT"
+ - "GetEventBuffer_OUT"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows

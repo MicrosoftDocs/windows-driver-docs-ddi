@@ -10,6 +10,7 @@ keywords: ["_PosBarcodeScannerErrorOccurredEventData structure"]
 ms.keywords: PosBarcodeScannerErrorOccurredEventData, PosBarcodeScannerErrorOccurredEventData structure, _PosBarcodeScannerErrorOccurredEventData, pointofservicedriverinterface/PosBarcodeScannerErrorOccurredEventData, pos.posbarcodescannererroroccurredeventdata
 f1_keywords:
  - "pointofservicedriverinterface/PosBarcodeScannerErrorOccurredEventData"
+ - "PosBarcodeScannerErrorOccurredEventData"
 req.header: pointofservicedriverinterface.h
 req.include-header: PointOfServiceDriverInterface.h
 req.target-type: Windows

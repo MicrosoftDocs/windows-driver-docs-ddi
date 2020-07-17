@@ -10,6 +10,7 @@ keywords: ["NDK_FN_GET_CQ_RESULTS_EX callback function"]
 ms.keywords: NDK_FN_GET_CQ_RESULTS_EX, NDK_FN_GET_CQ_RESULTS_EX callback, NDK_FN_GET_CQ_RESULTS_EX callback function [Network Drivers Starting with Windows Vista], ndkpi/NDK_FN_GET_CQ_RESULTS_EX, netvista.ndk_fn_get_cq_results_ex
 f1_keywords:
  - "ndkpi/NDK_FN_GET_CQ_RESULTS_EX"
+ - "NDK_FN_GET_CQ_RESULTS_EX"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

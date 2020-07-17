@@ -10,6 +10,7 @@ keywords: ["IResourceList::TranslatedList"]
 ms.keywords: IResourceList interface [Audio Devices],TranslatedList method, IResourceList.TranslatedList, IResourceList::TranslatedList, TranslatedList, TranslatedList method [Audio Devices], TranslatedList method [Audio Devices],IResourceList interface, audio.iresourcelist_translatedlist, audmp-routines_d74c0767-97d9-4488-82f1-51cde4dc8259.xml, portcls/IResourceList::TranslatedList
 f1_keywords:
  - "portcls/IResourceList.TranslatedList"
+ - "IResourceList.TranslatedList"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

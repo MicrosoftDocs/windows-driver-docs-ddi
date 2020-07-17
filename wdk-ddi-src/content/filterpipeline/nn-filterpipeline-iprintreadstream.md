@@ -10,6 +10,7 @@ keywords: ["IPrintReadStream interface"]
 ms.keywords: IPrintReadStream, IPrintReadStream interface [Print Devices], IPrintReadStream interface [Print Devices],described, filterpipeline/IPrintReadStream, filterpipeline_51454792-ccd6-4c55-adbc-d5cc1536f93c.xml, print.iprintreadstream
 f1_keywords:
  - "filterpipeline/IPrintReadStream"
+ - "IPrintReadStream"
 req.header: filterpipeline.h
 req.include-header: Filterpipeline.h
 req.target-type: Windows

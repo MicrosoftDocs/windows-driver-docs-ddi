@@ -10,6 +10,7 @@ keywords: ["RILCALLAUDIOSOURCE enumeration"]
 ms.keywords: RILCALLAUDIOSOURCE, RILCALLAUDIOSOURCE enumeration [Network Drivers Starting with Windows Vista], RIL_CALLAUDIOSOURCE_MAX, RIL_CALLAUDIOSOURCE_PKT_APP, RIL_CALLAUDIOSOURCE_PKT_MODEM, netvista.rilcallaudiosource, ntddrilapitypes/RILCALLAUDIOSOURCE, ntddrilapitypes/RIL_CALLAUDIOSOURCE_MAX, ntddrilapitypes/RIL_CALLAUDIOSOURCE_PKT_APP, ntddrilapitypes/RIL_CALLAUDIOSOURCE_PKT_MODEM
 f1_keywords:
  - "rilapitypes/RILCALLAUDIOSOURCE"
+ - "RILCALLAUDIOSOURCE"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

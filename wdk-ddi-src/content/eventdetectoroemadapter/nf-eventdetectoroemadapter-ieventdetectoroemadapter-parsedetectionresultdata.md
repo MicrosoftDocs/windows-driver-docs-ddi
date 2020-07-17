@@ -10,6 +10,7 @@ ms.date: 02/26/2019
 keywords: ["IEventDetectorOemAdapter::ParseDetectionResultData"]
 f1_keywords:
  - "eventdetectoroemadapter/IEventDetectorOemAdapter.ParseDetectionResultData"
+ - "IEventDetectorOemAdapter.ParseDetectionResultData"
 ms.keywords: IEventDetectorOemAdapter::ParseDetectionResultData, ParseDetectionResultData, IEventDetectorOemAdapter.ParseDetectionResultData, IEventDetectorOemAdapter::ParseDetectionResultData, IEventDetectorOemAdapter.ParseDetectionResultData
 req.header: eventdetectoroemadapter.h
 req.include-header:

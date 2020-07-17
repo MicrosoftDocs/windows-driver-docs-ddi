@@ -10,6 +10,7 @@ keywords: ["ATA_ADDRESS_TRANSLATION enumeration"]
 ms.keywords: ATA_ADDRESS_TRANSLATION, ATA_ADDRESS_TRANSLATION enumeration [Storage Devices], ChsMode, Lba48BitMode, LbaMode, UnknownMode, irb/ATA_ADDRESS_TRANSLATION, irb/ChsMode, irb/Lba48BitMode, irb/LbaMode, irb/UnknownMode, storage.ata_address_translation, structs-ATA_f2a24a19-e6fa-4457-afac-b307d9dcbc76.xml
 f1_keywords:
  - "irb/ATA_ADDRESS_TRANSLATION"
+ - "ATA_ADDRESS_TRANSLATION"
 req.header: irb.h
 req.include-header: Irb.h
 req.target-type: Windows

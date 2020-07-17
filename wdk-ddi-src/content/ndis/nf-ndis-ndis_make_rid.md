@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["NDIS_MAKE_RID macro"]
 f1_keywords:
  - "ndis/NDIS_MAKE_RID"
+ - "NDIS_MAKE_RID"
 ms.keywords: NDIS_MAKE_RID
 req.header: ndis.h
 req.include-header:

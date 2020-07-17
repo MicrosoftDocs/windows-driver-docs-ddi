@@ -10,6 +10,7 @@ keywords: ["_AVCCONNECTINFO structure"]
 ms.keywords: "*PAVCCONNECTINFO, AVCCONNECTINFO, AVCCONNECTINFO structure [Streaming Media Devices], PAVCCONNECTINFO, PAVCCONNECTINFO structure pointer [Streaming Media Devices], _AVCCONNECTINFO, avc/AVCCONNECTINFO, avc/PAVCCONNECTINFO, avcref_41c8705a-5735-4ab2-87f0-02b55b128c23.xml, stream.avcconnectinfo"
 f1_keywords:
  - "avc/AVCCONNECTINFO"
+ - "AVCCONNECTINFO"
 req.header: avc.h
 req.include-header: Avc.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["IRemoteTargetCallbackRemoval::OnRemoteTargetQueryRemove"]
 ms.keywords: IRemoteTargetCallbackRemoval interface,OnRemoteTargetQueryRemove method, IRemoteTargetCallbackRemoval.OnRemoteTargetQueryRemove, IRemoteTargetCallbackRemoval::OnRemoteTargetQueryRemove, OnRemoteTargetQueryRemove, OnRemoteTargetQueryRemove method, OnRemoteTargetQueryRemove method,IRemoteTargetCallbackRemoval interface, UMDFIoTargetObjectRef_7cdc408d-7527-4af9-9fef-d8ccb9c1d4c3.xml, umdf.iremotetargetcallbackremoval_onremotetargetqueryremove, wdf.iremotetargetcallbackremoval_onremotetargetqueryremove, wudfddi/IRemoteTargetCallbackRemoval::OnRemoteTargetQueryRemove
 f1_keywords:
  - "wudfddi/IRemoteTargetCallbackRemoval.OnRemoteTargetQueryRemove"
+ - "IRemoteTargetCallbackRemoval.OnRemoteTargetQueryRemove"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

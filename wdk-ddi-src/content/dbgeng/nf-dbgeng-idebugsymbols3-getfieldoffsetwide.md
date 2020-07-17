@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::GetFieldOffsetWide"]
 ms.keywords: GetFieldOffsetWide, GetFieldOffsetWide method [Windows Debugging], GetFieldOffsetWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetFieldOffsetWide method, IDebugSymbols3.GetFieldOffsetWide, IDebugSymbols3::GetFieldOffsetWide, dbgeng/IDebugSymbols3::GetFieldOffsetWide, debugger.getfieldoffsetwide
 f1_keywords:
  - "dbgeng/IDebugSymbols3.GetFieldOffsetWide"
+ - "IDebugSymbols3.GetFieldOffsetWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

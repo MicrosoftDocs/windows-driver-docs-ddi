@@ -10,6 +10,7 @@ keywords: ["_STORAGE_PROTOCOL_SPECIFIC_DATA structure"]
 ms.keywords: "*PSTORAGE_PROTOCOL_SPECIFIC_DATA, PSTORAGE_PROTOCOL_SPECIFIC_DATA, PSTORAGE_PROTOCOL_SPECIFIC_DATA structure pointer [Storage Devices], STORAGE_PROTOCOL_SPECIFIC_DATA, STORAGE_PROTOCOL_SPECIFIC_DATA structure [Storage Devices], _STORAGE_PROTOCOL_SPECIFIC_DATA, ntddstor/PSTORAGE_PROTOCOL_SPECIFIC_DATA, ntddstor/STORAGE_PROTOCOL_SPECIFIC_DATA, storage.storage_protocol_specific_data"
 f1_keywords:
  - "ntddstor/STORAGE_PROTOCOL_SPECIFIC_DATA"
+ - "STORAGE_PROTOCOL_SPECIFIC_DATA"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows

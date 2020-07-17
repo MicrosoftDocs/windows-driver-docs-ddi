@@ -10,6 +10,7 @@ keywords: ["RtlDescribeChunk function"]
 ms.keywords: RtlDescribeChunk, RtlDescribeChunk function [Installable File System Drivers], ifsk.rtldescribechunk, ntifs/RtlDescribeChunk, rtlref_03ffe48d-5d72-4f8b-ac88-e79909151d2f.xml
 f1_keywords:
  - "ntifs/RtlDescribeChunk"
+ - "RtlDescribeChunk"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

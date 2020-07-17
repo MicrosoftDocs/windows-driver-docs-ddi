@@ -9,6 +9,7 @@ keywords: ["PFND3D11_1DDI_CHECKDIRECTFLIPSUPPORT callback function"]
 ms.keywords: CheckDirectFlipSupport(D3D11_1), CheckDirectFlipSupport(D3D11_1) callback function [Display Devices], PFND3D11_1DDI_CHECKDIRECTFLIPSUPPORT, PFND3D11_1DDI_CHECKDIRECTFLIPSUPPORT callback, d3d10umddi/CheckDirectFlipSupport(D3D11_1), display.checkdirectflipsupport_d3d11_1_, display.pfncheckdirectflipsupport
 f1_keywords:
  - "d3d10umddi/CheckDirectFlipSupport(D3D11_1)"
+ - "CheckDirectFlipSupport(D3D11_1)"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

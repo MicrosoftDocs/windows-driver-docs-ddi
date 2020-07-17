@@ -10,6 +10,7 @@ keywords: ["PFNKSPINSETDEVICESTATE callback function"]
 ms.keywords: AVStrMiniPinSetDeviceState, AVStrMiniPinSetDeviceState routine [Streaming Media Devices], PFNKSPINSETDEVICESTATE, avstclbk_5a0f9097-33fb-4047-a361-bf14ac834cc3.xml, ks/AVStrMiniPinSetDeviceState, stream.avstrminipinsetdevicestate
 f1_keywords:
  - "ks/AVStrMiniPinSetDeviceState"
+ - "AVStrMiniPinSetDeviceState"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop

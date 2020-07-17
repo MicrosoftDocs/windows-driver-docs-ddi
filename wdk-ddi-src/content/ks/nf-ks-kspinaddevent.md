@@ -10,6 +10,7 @@ keywords: ["KsPinAddEvent function"]
 ms.keywords: KsPinAddEvent, KsPinAddEvent function [Streaming Media Devices], avfunc_2291126f-31dd-4e37-a082-97f24e8b5bd9.xml, ks/KsPinAddEvent, stream.kspinaddevent
 f1_keywords:
  - "ks/KsPinAddEvent"
+ - "KsPinAddEvent"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["IPrintSchemaNUpOption interface"]
 ms.keywords: IPrintSchemaNUpOption, IPrintSchemaNUpOption interface [Print Devices], IPrintSchemaNUpOption interface [Print Devices],described, print.iprintschemanupoption_interface, printerextension/IPrintSchemaNUpOption
 f1_keywords:
  - "printerextension/IPrintSchemaNUpOption"
+ - "IPrintSchemaNUpOption"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

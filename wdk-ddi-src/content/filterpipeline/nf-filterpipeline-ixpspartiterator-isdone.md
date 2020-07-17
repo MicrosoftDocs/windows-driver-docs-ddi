@@ -10,6 +10,7 @@ keywords: ["IXpsPartIterator::IsDone"]
 ms.keywords: IXpsPartIterator interface [Print Devices],IsDone method, IXpsPartIterator.IsDone, IXpsPartIterator::IsDone, IsDone, IsDone method [Print Devices], IsDone method [Print Devices],IXpsPartIterator interface, filterpipeline/IXpsPartIterator::IsDone, filterpipeline_c3b7b22e-6a29-463a-a516-d7857413050e.xml, print.ixpspartiterator_isdone
 f1_keywords:
  - "filterpipeline/IXpsPartIterator.IsDone"
+ - "IXpsPartIterator.IsDone"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop

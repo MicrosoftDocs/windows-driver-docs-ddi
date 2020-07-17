@@ -10,6 +10,7 @@ keywords: ["_D3DDDI_LOCKFLAGS structure"]
 ms.keywords: D3DDDI_LOCKFLAGS, D3DDDI_LOCKFLAGS structure [Display Devices], D3D_other_Structs_1bff30dd-936f-4753-bcbe-e656c454e675.xml, _D3DDDI_LOCKFLAGS, d3dumddi/D3DDDI_LOCKFLAGS, display.d3dddi_lockflags
 f1_keywords:
  - "d3dumddi/D3DDDI_LOCKFLAGS"
+ - "D3DDDI_LOCKFLAGS"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

@@ -7,6 +7,7 @@ ms.date: 10/05/2018
 keywords: ["SIDEBANDAUDIO_IOCTL macro"]
 f1_keywords:
  - "sidebandaudio/SIDEBANDAUDIO_IOCTL"
+ - "SIDEBANDAUDIO_IOCTL"
 ms.keywords: SIDEBANDAUDIO_IOCTL
 req.header: sidebandaudio.h
 req.include-header:

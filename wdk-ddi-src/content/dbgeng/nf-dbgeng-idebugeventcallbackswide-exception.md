@@ -10,6 +10,7 @@ keywords: ["IDebugEventCallbacksWide::Exception"]
 ms.keywords: Exception, Exception method [Windows Debugging], Exception method [Windows Debugging],IDebugEventCallbacksWide interface, IDebugEventCallbacksWide interface [Windows Debugging],Exception method, IDebugEventCallbacksWide.Exception, IDebugEventCallbacksWide::Exception, dbgeng/IDebugEventCallbacksWide::Exception, debugger.idebugeventcallbackswide_exception
 f1_keywords:
  - "dbgeng/IDebugEventCallbacksWide.Exception"
+ - "IDebugEventCallbacksWide.Exception"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

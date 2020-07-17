@@ -10,6 +10,7 @@ keywords: ["IWDFDriver::IsVersionAvailable"]
 ms.keywords: IWDFDriver interface,IsVersionAvailable method, IWDFDriver.IsVersionAvailable, IWDFDriver::IsVersionAvailable, IsVersionAvailable, IsVersionAvailable method, IsVersionAvailable method,IWDFDriver interface, UMDFDriverObjectRef_6ad78413-a8c5-4a9f-953d-94bd4eaf3425.xml, umdf.iwdfdriver_isversionavailable, wdf.iwdfdriver_isversionavailable, wudfddi/IWDFDriver::IsVersionAvailable
 f1_keywords:
  - "wudfddi/IWDFDriver.IsVersionAvailable"
+ - "IWDFDriver.IsVersionAvailable"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

@@ -7,6 +7,7 @@ ms.date: 08/09/2018
 keywords: ["IModelObject::GetRawValue"]
 f1_keywords:
  - "dbgmodel/IModelObject.GetRawValue"
+ - "IModelObject.GetRawValue"
 ms.keywords: IModelObject::GetRawValue, GetRawValue, IModelObject.GetRawValue, IModelObject::GetRawValue, IModelObject.GetRawValue
 req.header: dbgmodel.h
 req.include-header:

@@ -7,6 +7,7 @@ ms.date: 08/22/2018
 keywords: ["IDebugHostSymbols::CreateTypeSignatureForModuleRange"]
 f1_keywords:
  - "dbgmodel/IDebugHostSymbols.CreateTypeSignatureForModuleRange"
+ - "IDebugHostSymbols.CreateTypeSignatureForModuleRange"
 ms.keywords: IDebugHostSymbols::CreateTypeSignatureForModuleRange, CreateTypeSignatureForModuleRange, IDebugHostSymbols.CreateTypeSignatureForModuleRange, IDebugHostSymbols::CreateTypeSignatureForModuleRange, IDebugHostSymbols.CreateTypeSignatureForModuleRange
 req.header: dbgmodel.h
 req.include-header:

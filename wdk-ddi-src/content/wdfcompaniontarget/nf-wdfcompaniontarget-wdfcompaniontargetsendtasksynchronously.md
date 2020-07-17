@@ -10,6 +10,7 @@ keywords: ["WdfCompanionTargetSendTaskSynchronously function"]
 ms.keywords: WdfCompanionTargetSendTaskSynchronously, WdfCompanionTargetSendTaskSynchronously method, wdf.wdfcompaniontargetsendtasksynchronously, wdfcompaniontarget/WdfCompanionTargetSendTaskSynchronously
 f1_keywords:
  - "wdfcompaniontarget/WdfCompanionTargetSendTaskSynchronously"
+ - "WdfCompanionTargetSendTaskSynchronously"
 req.header: wdfcompaniontarget.h
 req.include-header: 
 req.target-type: Windows

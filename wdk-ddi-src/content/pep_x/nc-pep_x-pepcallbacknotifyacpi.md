@@ -10,6 +10,7 @@ keywords: ["PEPCALLBACKNOTIFYACPI callback function"]
 ms.keywords: AcceptAcpiNotification, AcceptAcpiNotification routine [Kernel-Mode Driver Architecture], PEPCALLBACKNOTIFYACPI, kernel.acceptacpinotification, pepfx/AcceptAcpiNotification
 f1_keywords:
  - "pep_x/AcceptAcpiNotification"
+ - "AcceptAcpiNotification"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["PFN_WSK_CLIENT_EVENT callback function"]
 ms.keywords: PFN_WSK_CLIENT_EVENT, PFN_WSK_CLIENT_EVENT callback, WskClientEvent, WskClientEvent callback function [Network Drivers Starting with Windows Vista], netvista.wskclientevent, wsk/WskClientEvent, wskref_c9f563f1-19c1-4f8d-ab44-04eedd74763f.xml
 f1_keywords:
  - "wsk/WskClientEvent"
+ - "WskClientEvent"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Windows

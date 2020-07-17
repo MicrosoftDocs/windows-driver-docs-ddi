@@ -10,6 +10,7 @@ keywords: ["_NET_BUFFER_LIST_POOL_PARAMETERS structure"]
 ms.keywords: "*PNET_BUFFER_LIST_POOL_PARAMETERS, NET_BUFFER_LIST_POOL_PARAMETERS, NET_BUFFER_LIST_POOL_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNET_BUFFER_LIST_POOL_PARAMETERS, PNET_BUFFER_LIST_POOL_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NET_BUFFER_LIST_POOL_PARAMETERS, ndis/NET_BUFFER_LIST_POOL_PARAMETERS, ndis/PNET_BUFFER_LIST_POOL_PARAMETERS, netvista.net_buffer_list_pool_parameters"
 f1_keywords:
  - "ndis/NET_BUFFER_LIST_POOL_PARAMETERS"
+ - "NET_BUFFER_LIST_POOL_PARAMETERS"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

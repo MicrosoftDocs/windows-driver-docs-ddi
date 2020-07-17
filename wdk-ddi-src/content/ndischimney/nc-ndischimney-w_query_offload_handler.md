@@ -10,6 +10,7 @@ keywords: ["W_QUERY_OFFLOAD_HANDLER callback function"]
 ms.keywords: MiniportQueryOffload, MiniportQueryOffload callback function [Network Drivers Starting with Windows Vista], W_QUERY_OFFLOAD_HANDLER, W_QUERY_OFFLOAD_HANDLER callback, ndischimney/MiniportQueryOffload, netvista.miniportqueryoffload, tcp_chim_miniport_func_920f9145-1dda-4899-85d7-845dd545a6bc.xml
 f1_keywords:
  - "ndischimney/MiniportQueryOffload"
+ - "MiniportQueryOffload"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Windows

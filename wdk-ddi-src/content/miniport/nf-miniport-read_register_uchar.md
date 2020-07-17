@@ -10,6 +10,7 @@ keywords: ["READ_REGISTER_UCHAR function"]
 ms.keywords: READ_REGISTER_UCHAR, READ_REGISTER_UCHAR routine [Kernel-Mode Driver Architecture], k103_b7970afc-0b18-49c4-b873-a9fd689c0c97.xml, kernel.read_register_uchar, wdm/READ_REGISTER_UCHAR
 f1_keywords:
  - "miniport/READ_REGISTER_UCHAR"
+ - "READ_REGISTER_UCHAR"
 req.header: miniport.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Ioaccess.h, Miniport.h, Wudfwdm.h
 req.target-type: Universal

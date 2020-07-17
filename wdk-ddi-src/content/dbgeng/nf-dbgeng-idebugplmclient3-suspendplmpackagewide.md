@@ -10,6 +10,7 @@ keywords: ["IDebugPlmClient3::SuspendPlmPackageWide"]
 ms.keywords: IDebugPlmClient3 interface [Windows Debugging],SuspendPlmPackageWide method, IDebugPlmClient3.SuspendPlmPackageWide, IDebugPlmClient3::SuspendPlmPackageWide, SuspendPlmPackageWide, SuspendPlmPackageWide method [Windows Debugging], SuspendPlmPackageWide method [Windows Debugging],IDebugPlmClient3 interface, dbgeng/IDebugPlmClient3::SuspendPlmPackageWide, debugger.idebugplmclient3_suspendplmpackagewide
 f1_keywords:
  - "dbgeng/IDebugPlmClient3.SuspendPlmPackageWide"
+ - "IDebugPlmClient3.SuspendPlmPackageWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

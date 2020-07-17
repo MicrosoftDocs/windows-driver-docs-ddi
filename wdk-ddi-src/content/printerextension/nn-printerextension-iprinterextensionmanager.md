@@ -10,6 +10,7 @@ keywords: ["IPrinterExtensionManager interface"]
 ms.keywords: IPrinterExtensionManager, IPrinterExtensionManager interface [Print Devices], IPrinterExtensionManager interface [Print Devices],described, print.iprinterextensionmanager_interface, printerextension/IPrinterExtensionManager
 f1_keywords:
  - "printerextension/IPrinterExtensionManager"
+ - "IPrinterExtensionManager"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

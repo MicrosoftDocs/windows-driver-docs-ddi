@@ -10,6 +10,7 @@ keywords: ["_DXVADDI_FREQUENCY structure"]
 ms.keywords: DXVA2_Structs_bf2ee217-d321-4302-8bd3-1621081fdb09.xml, DXVADDI_FREQUENCY, DXVADDI_FREQUENCY structure [Display Devices], _DXVADDI_FREQUENCY, d3dumddi/DXVADDI_FREQUENCY, display.dxvaddi_frequency
 f1_keywords:
  - "d3dumddi/DXVADDI_FREQUENCY"
+ - "DXVADDI_FREQUENCY"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

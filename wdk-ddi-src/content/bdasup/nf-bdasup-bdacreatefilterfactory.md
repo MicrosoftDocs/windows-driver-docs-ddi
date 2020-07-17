@@ -10,6 +10,7 @@ keywords: ["BdaCreateFilterFactory function"]
 ms.keywords: BdaCreateFilterFactory, BdaCreateFilterFactory function [Streaming Media Devices], bdaref_187ab038-cc22-4f82-a9c9-b326b77fef64.xml, bdasup/BdaCreateFilterFactory, stream.bdacreatefilterfactory
 f1_keywords:
  - "bdasup/BdaCreateFilterFactory"
+ - "BdaCreateFilterFactory"
 req.header: bdasup.h
 req.include-header: Bdasup.h
 req.target-type: Desktop

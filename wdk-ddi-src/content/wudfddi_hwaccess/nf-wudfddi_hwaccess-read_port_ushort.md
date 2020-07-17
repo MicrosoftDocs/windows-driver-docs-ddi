@@ -10,6 +10,7 @@ keywords: ["READ_PORT_USHORT function"]
 ms.keywords: READ_PORT_USHORT, READ_PORT_USHORT function, umdf.read_port_ushort, wdf.read_port_ushort, wudfddi_hwaccess/READ_PORT_USHORT
 f1_keywords:
  - "wudfddi_hwaccess/READ_PORT_USHORT"
+ - "READ_PORT_USHORT"
 req.header: wudfddi_hwaccess.h
 req.include-header: 
 req.target-type: Desktop

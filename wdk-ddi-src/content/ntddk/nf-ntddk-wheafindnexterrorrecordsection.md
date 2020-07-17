@@ -10,6 +10,7 @@ keywords: ["WheaFindNextErrorRecordSection function"]
 ms.keywords: WheaFindNextErrorRecordSection, WheaFindNextErrorRecordSection function [WHEA Drivers and Applications], ntddk/WheaFindNextErrorRecordSection, whea.wheafindnexterrorrecordsection, whearef2_9beb5b85-6c25-49e5-9abc-bcb8e343c8c9.xml
 f1_keywords:
  - "ntddk/WheaFindNextErrorRecordSection"
+ - "WheaFindNextErrorRecordSection"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Desktop

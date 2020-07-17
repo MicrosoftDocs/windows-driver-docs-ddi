@@ -28,6 +28,7 @@ api_name:
 f1_keywords:
  - dispmprt/_DXGK_DIAG_DISPLAY_MODE_SET
  - dispmprt/DXGK_DIAG_DISPLAY_MODE_SET
+ - ""
 dev_langs:
  - c++
 ---

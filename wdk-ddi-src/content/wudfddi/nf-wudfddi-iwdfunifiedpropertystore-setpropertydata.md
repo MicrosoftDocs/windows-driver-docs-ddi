@@ -10,6 +10,7 @@ keywords: ["IWDFUnifiedPropertyStore::SetPropertyData"]
 ms.keywords: IWDFUnifiedPropertyStore interface,SetPropertyData method, IWDFUnifiedPropertyStore.SetPropertyData, IWDFUnifiedPropertyStore::SetPropertyData, SetPropertyData, SetPropertyData method, SetPropertyData method,IWDFUnifiedPropertyStore interface, umdf.iwdfunifiedpropertystore_setpropertydata, wdf.iwdfunifiedpropertystore_setpropertydata, wudfddi/IWDFUnifiedPropertyStore::SetPropertyData
 f1_keywords:
  - "wudfddi/IWDFUnifiedPropertyStore.SetPropertyData"
+ - "IWDFUnifiedPropertyStore.SetPropertyData"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop

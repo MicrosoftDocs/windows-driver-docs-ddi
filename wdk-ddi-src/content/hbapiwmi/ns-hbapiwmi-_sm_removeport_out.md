@@ -10,6 +10,7 @@ keywords: ["_SM_RemovePort_OUT structure"]
 ms.keywords: "*PSM_RemovePort_OUT, PSM_RemovePort_OUT, PSM_RemovePort_OUT structure pointer [Storage Devices], SM_RemovePort_OUT, SM_RemovePort_OUT structure [Storage Devices], _SM_RemovePort_OUT, hbapiwmi/PSM_RemovePort_OUT, hbapiwmi/SM_RemovePort_OUT, storage.sm_removeport_out, structs-Fibre_00eb7ab2-9a70-4e22-8b57-1468f52bfe02.xml"
 f1_keywords:
  - "hbapiwmi/SM_RemovePort_OUT"
+ - "SM_RemovePort_OUT"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows

@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_FENCE_PRESENTHISTORYTOKEN structure"]
 ms.keywords: D3DKMT_FENCE_PRESENTHISTORYTOKEN, D3DKMT_FENCE_PRESENTHISTORYTOKEN structure [Display Devices], OpenGL_Structs_eaaa4933-1089-4698-9812-05ff6521f431.xml, _D3DKMT_FENCE_PRESENTHISTORYTOKEN, d3dkmthk/D3DKMT_FENCE_PRESENTHISTORYTOKEN, display.d3dkmt_fence_presenthistorytoken
 f1_keywords:
  - "d3dkmthk/D3DKMT_FENCE_PRESENTHISTORYTOKEN"
+ - "D3DKMT_FENCE_PRESENTHISTORYTOKEN"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

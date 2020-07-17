@@ -8,6 +8,7 @@ ms.date: 01/18/2019
 keywords: ["NetAdapterInitFree function"]
 f1_keywords:
  - "netadapter/NetAdapterInitFree"
+ - "NetAdapterInitFree"
 ms.keywords: NetAdapterInitFree
 req.header: netadapter.h
 req.include-header:

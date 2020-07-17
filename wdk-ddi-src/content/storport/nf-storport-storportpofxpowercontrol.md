@@ -10,6 +10,7 @@ keywords: ["StorPortPoFxPowerControl function"]
 ms.keywords: StorPortPoFxPowerControl, StorPortPoFxPowerControl routine [Storage Devices], storage.storportpofxpowercontrol, storport/StorPortPoFxPowerControl
 f1_keywords:
  - "storport/StorPortPoFxPowerControl"
+ - "StorPortPoFxPowerControl"
 req.header: storport.h
 req.include-header: 
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["NdisGetCurrentProcessorCpuUsage function"]
 ms.keywords: NdisGetCurrentProcessorCpuUsage, NdisGetCurrentProcessorCpuUsage function [Network Drivers Starting with Windows Vista], ndis/NdisGetCurrentProcessorCpuUsage, ndis_sysinfo_ref_64c35a8c-5776-4902-b062-0685a16f5453.xml, netvista.ndisgetcurrentprocessorcpuusage
 f1_keywords:
  - "ndis/NdisGetCurrentProcessorCpuUsage"
+ - "NdisGetCurrentProcessorCpuUsage"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

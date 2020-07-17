@@ -7,6 +7,7 @@ ms.date: 09/20/2018
 keywords: ["IDebugHostType2::GetGenericArgumentCount"]
 f1_keywords:
  - "dbgmodel/IDebugHostType2.GetGenericArgumentCount"
+ - "IDebugHostType2.GetGenericArgumentCount"
 ms.keywords: IDebugHostType2::GetGenericArgumentCount, GetGenericArgumentCount, IDebugHostType2.GetGenericArgumentCount, IDebugHostType2::GetGenericArgumentCount, IDebugHostType2.GetGenericArgumentCount
 req.header: dbgmodel.h
 req.include-header:

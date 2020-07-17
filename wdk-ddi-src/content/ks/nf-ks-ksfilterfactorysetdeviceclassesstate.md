@@ -10,6 +10,7 @@ keywords: ["KsFilterFactorySetDeviceClassesState function"]
 ms.keywords: KsFilterFactorySetDeviceClassesState, KsFilterFactorySetDeviceClassesState function [Streaming Media Devices], avfunc_a88f0816-e755-450f-b8b7-83dee85171f9.xml, ks/KsFilterFactorySetDeviceClassesState, stream.ksfilterfactorysetdeviceclassesstate
 f1_keywords:
  - "ks/KsFilterFactorySetDeviceClassesState"
+ - "KsFilterFactorySetDeviceClassesState"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

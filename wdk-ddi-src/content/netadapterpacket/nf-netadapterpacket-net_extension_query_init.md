@@ -10,6 +10,7 @@ ms.date: 11/07/2019
 keywords: ["NET_EXTENSION_QUERY_INIT function"]
 f1_keywords:
  - "netadapterpacket/NET_EXTENSION_QUERY_INIT"
+ - "NET_EXTENSION_QUERY_INIT"
 ms.keywords: NET_EXTENSION_QUERY_INIT
 req.header: netadapterpacket.h
 req.include-header:

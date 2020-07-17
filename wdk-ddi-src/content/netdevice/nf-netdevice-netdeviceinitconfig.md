@@ -10,6 +10,7 @@ ms.date: 10/11/2019
 keywords: ["NetDeviceInitConfig function"]
 f1_keywords:
  - "netdevice/NetDeviceInitConfig"
+ - "NetDeviceInitConfig"
 ms.keywords: NetDeviceInitConfig
 req.header: netdevice.h
 req.include-header:

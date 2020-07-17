@@ -10,6 +10,7 @@ keywords: ["DUMP_FINISH callback function"]
 ms.keywords: Dump_Finish, Dump_Finish routine [Storage Devices], PDUMP_FINISH, filter_rtns_7d5c92a4-19b6-4ef1-9b86-a9ec250106ef.xml, ntdddump/Dump_Finish, storage.dump_finish
 f1_keywords:
  - "ntdddump/Dump_Finish"
+ - "Dump_Finish"
 req.header: ntdddump.h
 req.include-header: Ntdddump.h
 req.target-type: Desktop

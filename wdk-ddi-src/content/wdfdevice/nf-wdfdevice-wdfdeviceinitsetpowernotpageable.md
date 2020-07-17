@@ -10,6 +10,7 @@ keywords: ["WdfDeviceInitSetPowerNotPageable function"]
 ms.keywords: DFDeviceObjectGeneralRef_b7acdb97-66a4-497f-b9fb-4335d9147c1a.xml, WdfDeviceInitSetPowerNotPageable, WdfDeviceInitSetPowerNotPageable method, kmdf.wdfdeviceinitsetpowernotpageable, wdf.wdfdeviceinitsetpowernotpageable, wdfdevice/WdfDeviceInitSetPowerNotPageable
 f1_keywords:
  - "wdfdevice/WdfDeviceInitSetPowerNotPageable"
+ - "WdfDeviceInitSetPowerNotPageable"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

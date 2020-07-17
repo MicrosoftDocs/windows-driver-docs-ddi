@@ -10,6 +10,7 @@ keywords: ["WMI_QUERY_DATABLOCK_CALLBACK callback function"]
 ms.keywords: DpWmiQueryDataBlock, DpWmiQueryDataBlock callback function [Kernel-Mode Driver Architecture], WMI_QUERY_DATABLOCK_CALLBACK, WMI_QUERY_DATABLOCK_CALLBACK callback, k903_9a558594-4fe5-4e18-823a-8b487e1770d9.xml, kernel.dpwmiquerydatablock, wmilib/DpWmiQueryDataBlock
 f1_keywords:
  - "wmilib/DpWmiQueryDataBlock"
+ - "DpWmiQueryDataBlock"
 req.header: wmilib.h
 req.include-header: Wmilib.h
 req.target-type: Desktop

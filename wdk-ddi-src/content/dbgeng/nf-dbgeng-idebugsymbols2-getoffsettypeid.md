@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols2::GetOffsetTypeId"]
 ms.keywords: GetOffsetTypeId, GetOffsetTypeId method [Windows Debugging], GetOffsetTypeId method [Windows Debugging],IDebugSymbols interface, GetOffsetTypeId method [Windows Debugging],IDebugSymbols2 interface, GetOffsetTypeId method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetOffsetTypeId method, IDebugSymbols2 interface [Windows Debugging],GetOffsetTypeId method, IDebugSymbols2.GetOffsetTypeId, IDebugSymbols2::GetOffsetTypeId, IDebugSymbols3 interface [Windows Debugging],GetOffsetTypeId method, IDebugSymbols3::GetOffsetTypeId, IDebugSymbols::GetOffsetTypeId, IDebugSymbols_3f41981b-8ed2-4828-8bfb-a50b934a65ee.xml, dbgeng/IDebugSymbols2::GetOffsetTypeId, dbgeng/IDebugSymbols3::GetOffsetTypeId, dbgeng/IDebugSymbols::GetOffsetTypeId, debugger.getoffsettypeid
 f1_keywords:
  - "dbgeng/IDebugSymbols.GetOffsetTypeId"
+ - "IDebugSymbols.GetOffsetTypeId"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

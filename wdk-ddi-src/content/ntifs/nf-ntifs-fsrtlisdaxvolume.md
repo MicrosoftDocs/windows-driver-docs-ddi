@@ -10,6 +10,7 @@ keywords: ["FsRtlIsDaxVolume function"]
 ms.keywords: FsRtlIsDaxVolume, FsRtlIsDaxVolume routine [Installable File System Drivers], ifsk.fsrtlisdaxvolume, ntifs/FsRtlIsDaxVolume
 f1_keywords:
  - "ntifs/FsRtlIsDaxVolume"
+ - "FsRtlIsDaxVolume"
 req.header: ntifs.h
 req.include-header: 
 req.target-type: Windows

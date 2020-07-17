@@ -10,6 +10,7 @@ keywords: ["FltGetSectionContext function"]
 ms.keywords: FltGetSectionContext, FltGetSectionContext routine [Installable File System Drivers], fltkernel/FltGetSectionContext, ifsk.fltgetsectioncontext
 f1_keywords:
  - "fltkernel/FltGetSectionContext"
+ - "FltGetSectionContext"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["WDF_INTERRUPT_CONFIG_INIT function"]
 ms.keywords: DFInterruptObjectRef_eb73ee25-bee4-4c0a-a070-7893bd5b699a.xml, WDF_INTERRUPT_CONFIG_INIT, WDF_INTERRUPT_CONFIG_INIT function, kmdf.wdf_interrupt_config_init, wdf.wdf_interrupt_config_init, wdfinterrupt/WDF_INTERRUPT_CONFIG_INIT
 f1_keywords:
  - "wdfinterrupt/WDF_INTERRUPT_CONFIG_INIT"
+ - "WDF_INTERRUPT_CONFIG_INIT"
 req.header: wdfinterrupt.h
 req.include-header: Wdf.h
 req.target-type: Universal

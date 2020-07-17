@@ -10,6 +10,7 @@ keywords: ["READ_REGISTER_BUFFER_ULONG64 function"]
 ms.keywords: READ_REGISTER_BUFFER_ULONG64, READ_REGISTER_BUFFER_ULONG64 function, umdf.read_register_buffer_ulong64, wdf.read_register_buffer_ulong64, wudfddi_hwaccess/READ_REGISTER_BUFFER_ULONG64
 f1_keywords:
  - "miniport/READ_REGISTER_BUFFER_ULONG64"
+ - "READ_REGISTER_BUFFER_ULONG64"
 req.header: miniport.h
 req.include-header: Wdm.h, Miniport.h, Wudfwdm.h
 req.target-type: Desktop

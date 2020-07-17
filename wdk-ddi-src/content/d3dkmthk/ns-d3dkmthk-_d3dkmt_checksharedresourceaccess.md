@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_CHECKSHAREDRESOURCEACCESS structure"]
 ms.keywords: D3DKMT_CHECKSHAREDRESOURCEACCESS, D3DKMT_CHECKSHAREDRESOURCEACCESS structure [Display Devices], OpenGL_Structs_5d797cef-2ace-482b-a7b2-82b26a2c7504.xml, _D3DKMT_CHECKSHAREDRESOURCEACCESS, d3dkmthk/D3DKMT_CHECKSHAREDRESOURCEACCESS, display.d3dkmt_checksharedresourceaccess
 f1_keywords:
  - "d3dkmthk/D3DKMT_CHECKSHAREDRESOURCEACCESS"
+ - "D3DKMT_CHECKSHAREDRESOURCEACCESS"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

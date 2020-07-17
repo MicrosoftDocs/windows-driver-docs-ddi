@@ -10,6 +10,7 @@ keywords: ["IWDFPropertyStoreFactory interface"]
 ms.keywords: IWDFPropertyStoreFactory, IWDFPropertyStoreFactory interface, IWDFPropertyStoreFactory interface,described, UMDFDeviceObjectRef_07ada2e1-57a4-4b48-9145-fd38baef01cf.xml, umdf.iwdfpropertystorefactory, wdf.iwdfpropertystorefactory, wudfddi/IWDFPropertyStoreFactory
 f1_keywords:
  - "wudfddi/IWDFPropertyStoreFactory"
+ - "IWDFPropertyStoreFactory"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["RxCreateSrvOpen function"]
 ms.keywords: RxCreateSrvOpen, RxCreateSrvOpen function [Installable File System Drivers], fcb/RxCreateSrvOpen, ifsk.rxcreatesrvopen, rxref_663bb1d7-f914-4571-9701-e21ccf548337.xml
 f1_keywords:
  - "fcb/RxCreateSrvOpen"
+ - "RxCreateSrvOpen"
 req.header: fcb.h
 req.include-header: Mrxfcb.h, Fcb.h
 req.target-type: Desktop

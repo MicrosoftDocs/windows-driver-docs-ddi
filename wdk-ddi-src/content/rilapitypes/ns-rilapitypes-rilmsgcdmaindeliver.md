@@ -10,6 +10,7 @@ keywords: ["RILMSGCDMAINDELIVER structure"]
 ms.keywords: "*LPRILMSGCDMAINDELIVER, RILMSGCDMAINDELIVER, RILMSGCDMAINDELIVER structure [Network Drivers Starting with Windows Vista], netvista.rilmsgcdmaindeliver, ntddrilapitypes/RILMSGCDMAINDELIVER"
 f1_keywords:
  - "rilapitypes/RILMSGCDMAINDELIVER"
+ - "RILMSGCDMAINDELIVER"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

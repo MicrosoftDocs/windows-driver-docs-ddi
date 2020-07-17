@@ -10,6 +10,7 @@ keywords: ["_CDROM_SIMPLE_OPC_INFO structure"]
 ms.keywords: "*PCDROM_SIMPLE_OPC_INFO, CDROM_SIMPLE_OPC_INFO, CDROM_SIMPLE_OPC_INFO structure [Storage Devices], PCDROM_SIMPLE_OPC_INFO, PCDROM_SIMPLE_OPC_INFO structure pointer [Storage Devices], _CDROM_SIMPLE_OPC_INFO, ntddcdrm/CDROM_SIMPLE_OPC_INFO, ntddcdrm/PCDROM_SIMPLE_OPC_INFO, storage.cdrom_simple_opc_info"
 f1_keywords:
  - "ntddcdrm/CDROM_SIMPLE_OPC_INFO"
+ - "CDROM_SIMPLE_OPC_INFO"
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows

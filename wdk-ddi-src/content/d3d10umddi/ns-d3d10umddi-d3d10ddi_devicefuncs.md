@@ -9,6 +9,7 @@ keywords: ["D3D10DDI_DEVICEFUNCS structure"]
 ms.keywords: D3D10DDI_DEVICEFUNCS, D3D10DDI_DEVICEFUNCS structure [Display Devices], UMDisplayDriver_Dx10param_Structs_4d7e9e93-233d-4726-af26-bcaf0cbf149a.xml, d3d10umddi/D3D10DDI_DEVICEFUNCS, display.d3d10ddi_devicefuncs
 f1_keywords:
  - "d3d10umddi/D3D10DDI_DEVICEFUNCS"
+ - "D3D10DDI_DEVICEFUNCS"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

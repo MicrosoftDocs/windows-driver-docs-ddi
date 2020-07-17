@@ -10,6 +10,7 @@ keywords: ["ExtRemoteData::GetString(ExtBuffer<char>,ULONG)"]
 ms.keywords: EngExtCpp_Ref_0e8b8a7f-d6d4-4262-a1ed-5829a83ec80d.xml, ExtRemoteData class [Windows Debugging],GetString method, ExtRemoteData.GetString, ExtRemoteData.GetString(ExtBuffer<char>,ULONG), ExtRemoteData::GetString, ExtRemoteData::GetString(ExtBuffer<char>,ULONG), GetString, GetString method [Windows Debugging], GetString method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_getstring
 f1_keywords:
  - "engextcpp/ExtRemoteData.GetString"
+ - "ExtRemoteData.GetString"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop

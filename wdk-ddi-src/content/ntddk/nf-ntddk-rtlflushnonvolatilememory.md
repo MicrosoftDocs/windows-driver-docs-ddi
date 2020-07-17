@@ -10,6 +10,7 @@ keywords: ["RtlFlushNonVolatileMemory function"]
 ms.keywords: RtlFlushNonVolatileMemory, RtlFlushNonVolatileMemory routine [Installable File System Drivers], ifsk.rtlflushnonvolatilememory, ntddk/RtlFlushNonVolatileMemory
 f1_keywords:
  - "ntddk/RtlFlushNonVolatileMemory"
+ - "RtlFlushNonVolatileMemory"
 req.header: ntddk.h
 req.include-header: Winnt.h
 req.target-type: Windows

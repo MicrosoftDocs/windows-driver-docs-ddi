@@ -10,6 +10,7 @@ keywords: ["StorPortIssueDpc function"]
 ms.keywords: StorPortIssueDpc, StorPortIssueDpc routine [Storage Devices], storage.storportissuedpc, storport/StorPortIssueDpc, storprt_e9cbe677-4d21-4c07-97a2-9db50858321f.xml
 f1_keywords:
  - "storport/StorPortIssueDpc"
+ - "StorPortIssueDpc"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

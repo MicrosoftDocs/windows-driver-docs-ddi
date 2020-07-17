@@ -10,6 +10,7 @@ keywords: ["RxScavengeFobxsForNetRoot function"]
 ms.keywords: RxScavengeFobxsForNetRoot, RxScavengeFobxsForNetRoot function [Installable File System Drivers], ifsk.rxscavengefobxsfornetroot, rxref_9fac9a87-f068-4ee4-909c-85a41c9884d6.xml, scavengr/RxScavengeFobxsForNetRoot
 f1_keywords:
  - "scavengr/RxScavengeFobxsForNetRoot"
+ - "RxScavengeFobxsForNetRoot"
 req.header: scavengr.h
 req.include-header: Rxprocs.h
 req.target-type: Desktop

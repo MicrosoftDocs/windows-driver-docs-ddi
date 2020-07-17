@@ -10,6 +10,7 @@ keywords: ["VideoPortLockPages function"]
 ms.keywords: VideoPortLockPages, VideoPortLockPages function [Display Devices], VideoPort_Functions_47b202e0-2a8b-4fb0-9cf2-b4ef3ddb9ff4.xml, display.videoportlockpages, video/VideoPortLockPages
 f1_keywords:
  - "video/VideoPortLockPages"
+ - "VideoPortLockPages"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

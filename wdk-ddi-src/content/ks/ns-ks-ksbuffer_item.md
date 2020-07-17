@@ -10,6 +10,7 @@ keywords: ["KSBUFFER_ITEM structure"]
 ms.keywords: "*PKSBUFFER_ITEM, KSBUFFER_ITEM, KSBUFFER_ITEM structure [Streaming Media Devices], PKSBUFFER_ITEM, PKSBUFFER_ITEM structure pointer [Streaming Media Devices], ks-struct_6c2444cb-9f6c-4ab7-ab79-ae969705db59.xml, ks/KSBUFFER_ITEM, ks/PKSBUFFER_ITEM, stream.ksbuffer_item"
 f1_keywords:
  - "ks/KSBUFFER_ITEM"
+ - "KSBUFFER_ITEM"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows

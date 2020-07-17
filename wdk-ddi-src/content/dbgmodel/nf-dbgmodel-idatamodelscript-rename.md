@@ -7,6 +7,7 @@ ms.date: 08/20/2018
 keywords: ["IDataModelScript::Rename"]
 f1_keywords:
  - "dbgmodel/IDataModelScript.Rename"
+ - "IDataModelScript.Rename"
 ms.keywords: IDataModelScript::Rename, Rename, IDataModelScript.Rename, IDataModelScript::Rename, IDataModelScript.Rename
 req.header: dbgmodel.h
 req.include-header:

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DFILLMODE enumeration"]
 f1_keywords:
  - "d3d9types/_D3DFILLMODE"
+ - "_D3DFILLMODE"
 ms.keywords: _D3DFILLMODE, D3DFILLMODE, 
 req.header: d3d9types.h
 req.include-header:

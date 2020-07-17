@@ -7,6 +7,7 @@ ms.date: 08/22/2018
 keywords: ["IDebugHostSymbolEnumerator::Reset"]
 f1_keywords:
  - "dbgmodel/IDebugHostSymbolEnumerator.Reset"
+ - "IDebugHostSymbolEnumerator.Reset"
 ms.keywords: IDebugHostSymbolEnumerator::Reset, Reset, IDebugHostSymbolEnumerator.Reset, IDebugHostSymbolEnumerator::Reset, IDebugHostSymbolEnumerator.Reset
 req.header: dbgmodel.h
 req.include-header:

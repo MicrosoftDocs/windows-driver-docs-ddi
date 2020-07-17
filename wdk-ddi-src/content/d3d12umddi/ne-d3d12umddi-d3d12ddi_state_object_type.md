@@ -21,6 +21,7 @@ tech.root: display
 ms.custom: RS5
 f1_keywords:
  - "d3d12umddi/D3D12DDI_STATE_OBJECT_TYPE"
+ - "D3D12DDI_STATE_OBJECT_TYPE"
 topic_type:
  - apiref
 api_type:

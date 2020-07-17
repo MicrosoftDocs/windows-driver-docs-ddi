@@ -10,6 +10,7 @@ keywords: ["StorPortWriteRegisterUchar macro"]
 ms.keywords: StorPortWriteRegisterUchar, StorPortWriteRegisterUchar routine [Storage Devices], storage.storportwriteregisteruchar, storport/StorPortWriteRegisterUchar, storprt_5c7a4209-e917-4a68-94f7-7b3b3fcc634e.xml
 f1_keywords:
  - "storport/StorPortWriteRegisterUchar"
+ - "StorPortWriteRegisterUchar"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

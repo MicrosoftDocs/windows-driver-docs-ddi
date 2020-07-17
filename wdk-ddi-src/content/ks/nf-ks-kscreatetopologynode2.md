@@ -10,6 +10,7 @@ keywords: ["KsCreateTopologyNode2 function"]
 ms.keywords: KsCreateTopologyNode2, KsCreateTopologyNode2 function [Streaming Media Devices], ks/KsCreateTopologyNode2, stream.kscreatetopologynode2
 f1_keywords:
  - "ks/KsCreateTopologyNode2"
+ - "KsCreateTopologyNode2"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

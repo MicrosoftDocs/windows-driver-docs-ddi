@@ -7,6 +7,7 @@ ms.date: 09/12/2018
 keywords: ["IDebugHostField::GetLocationKind"]
 f1_keywords:
  - "dbgmodel/IDebugHostField.GetLocationKind"
+ - "IDebugHostField.GetLocationKind"
 ms.keywords: IDebugHostField::GetLocationKind, GetLocationKind, IDebugHostField.GetLocationKind, IDebugHostField::GetLocationKind, IDebugHostField.GetLocationKind
 req.header: dbgmodel.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["_MSiSCSI_PersistentLogins structure"]
 ms.keywords: "*PMSiSCSI_PersistentLogins, MSiSCSI_PersistentLogins, MSiSCSI_PersistentLogins structure [Storage Devices], PMSiSCSI_PersistentLogins, PMSiSCSI_PersistentLogins structure pointer [Storage Devices], _MSiSCSI_PersistentLogins, iscsiop/MSiSCSI_PersistentLogins, iscsiop/PMSiSCSI_PersistentLogins, storage.msiscsi_persistentlogins, structs-iSCSI_150a8086-8025-4140-9fdb-75d05bfcb0ac.xml"
 f1_keywords:
  - "iscsiop/MSiSCSI_PersistentLogins"
+ - "MSiSCSI_PersistentLogins"
 req.header: iscsiop.h
 req.include-header: Iscsiop.h
 req.target-type: Windows

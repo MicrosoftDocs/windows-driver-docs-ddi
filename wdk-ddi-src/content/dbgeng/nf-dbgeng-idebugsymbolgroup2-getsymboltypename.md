@@ -10,6 +10,7 @@ keywords: ["IDebugSymbolGroup2::GetSymbolTypeName"]
 ms.keywords: ComOther_27d4a23e-4566-4b37-a692-2b82310ae8e9.xml, GetSymbolTypeName, GetSymbolTypeName method [Windows Debugging], GetSymbolTypeName method [Windows Debugging],IDebugSymbolGroup2 interface, IDebugSymbolGroup2 interface [Windows Debugging],GetSymbolTypeName method, IDebugSymbolGroup2.GetSymbolTypeName, IDebugSymbolGroup2::GetSymbolTypeName, dbgeng/IDebugSymbolGroup2::GetSymbolTypeName, debugger.getsymboltypename
 f1_keywords:
  - "dbgeng/IDebugSymbolGroup2.GetSymbolTypeName"
+ - "IDebugSymbolGroup2.GetSymbolTypeName"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

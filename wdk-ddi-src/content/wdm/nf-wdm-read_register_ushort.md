@@ -10,6 +10,7 @@ keywords: ["READ_REGISTER_USHORT function"]
 ms.keywords: READ_REGISTER_USHORT, READ_REGISTER_USHORT routine [Kernel-Mode Driver Architecture], k103_c2fa06bd-05b9-4fbd-b47c-f264d3ed0bd7.xml, kernel.read_register_ushort, wdm/READ_REGISTER_USHORT
 f1_keywords:
  - "wdm/READ_REGISTER_USHORT"
+ - "READ_REGISTER_USHORT"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Ioaccess.h, Miniport.h, Wudfwdm.h
 req.target-type: Universal

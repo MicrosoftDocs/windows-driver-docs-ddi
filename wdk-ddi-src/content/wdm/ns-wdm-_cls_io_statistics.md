@@ -10,6 +10,7 @@ keywords: ["_CLS_IO_STATISTICS structure"]
 ms.keywords: "*PCLFS_IO_STATISTICS, *PCLS_IO_STATISTICS, CLFS_IO_STATISTICS, CLFS_IO_STATISTICS structure [Kernel-Mode Driver Architecture], CLS_IO_STATISTICS, CLS_IO_STATISTICS structure [Kernel-Mode Driver Architecture], PCLFS_IO_STATISTICS, PCLFS_IO_STATISTICS structure pointer [Kernel-Mode Driver Architecture], PCLS_IO_STATISTICS, PCLS_IO_STATISTICS structure pointer [Kernel-Mode Driver Architecture], PPCLFS_IO_STATISTICS, PPCLFS_IO_STATISTICS structure pointer [Kernel-Mode Driver Architecture], PPCLS_IO_STATISTICS, PPCLS_IO_STATISTICS structure pointer [Kernel-Mode Driver Architecture], _CLS_IO_STATISTICS, kernel.clfs_io_statistics, kstruct_a_2e43db78-8c4e-462f-ad85-8c799be2f2e3.xml, wdm/CLFS_IO_STATISTICS, wdm/CLS_IO_STATISTICS, wdm/PCLFS_IO_STATISTICS, wdm/PCLS_IO_STATISTICS, wdm/PPCLFS_IO_STATISTICS, wdm/PPCLS_IO_STATISTICS"
 f1_keywords:
  - "wdm/CLS_IO_STATISTICS"
+ - "CLS_IO_STATISTICS"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntddk.h
 req.target-type: Windows

@@ -8,6 +8,7 @@ ms.date: 06/28/2018
 keywords: ["MbbDeviceInitConfig function"]
 f1_keywords:
  - "mbbcx/MbbDeviceInitConfig"
+ - "MbbDeviceInitConfig"
 ms.keywords: MbbDeviceInitConfig
 req.header: mbbcx.h
 req.include-header:

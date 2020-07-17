@@ -10,6 +10,7 @@ keywords: ["_D3DDDICB_LOCK2 structure"]
 ms.keywords: D3DDDICB_LOCK2, D3DDDICB_LOCK2 structure [Display Devices], _D3DDDICB_LOCK2, d3dumddi/D3DDDICB_LOCK2, display.d3dddicb_lock2
 f1_keywords:
  - "d3dumddi/D3DDDICB_LOCK2"
+ - "D3DDDICB_LOCK2"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

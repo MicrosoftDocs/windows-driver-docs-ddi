@@ -10,6 +10,7 @@ keywords: ["_NDIS_WWAN_BASE_STATIONS_INFO structure"]
 ms.keywords: "*PNDIS_WWAN_BASE_STATIONS_INFO, NDIS_WWAN_BASE_STATIONS_INFO, NDIS_WWAN_BASE_STATIONS_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_BASE_STATIONS_INFO, PNDIS_WWAN_BASE_STATIONS_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_BASE_STATIONS_INFO, ndiswwan/NDIS_WWAN_BASE_STATIONS_INFO, ndiswwan/PNDIS_WWAN_BASE_STATIONS_INFO, netvista.ndis_wwan_base_stations_info"
 f1_keywords:
  - "ndiswwan/NDIS_WWAN_BASE_STATIONS_INFO"
+ - "NDIS_WWAN_BASE_STATIONS_INFO"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows

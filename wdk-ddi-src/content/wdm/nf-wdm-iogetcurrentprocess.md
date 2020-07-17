@@ -10,6 +10,7 @@ keywords: ["IoGetCurrentProcess function"]
 ms.keywords: IoGetCurrentProcess, IoGetCurrentProcess routine [Kernel-Mode Driver Architecture], k104_f59c640e-e335-46e0-a6ca-2f672bb6fc35.xml, kernel.iogetcurrentprocess, wdm/IoGetCurrentProcess, PsGetCurrentProcess
 f1_keywords:
  - "wdm/IoGetCurrentProcess"
+ - "IoGetCurrentProcess"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["WdfRequestRetrieveInputBuffer function"]
 ms.keywords: DFRequestObjectRef_7b0c1902-f3a3-4b89-8a9d-3e05e1639fd3.xml, WdfRequestRetrieveInputBuffer, WdfRequestRetrieveInputBuffer method, kmdf.wdfrequestretrieveinputbuffer, wdf.wdfrequestretrieveinputbuffer, wdfrequest/WdfRequestRetrieveInputBuffer
 f1_keywords:
  - "wdfrequest/WdfRequestRetrieveInputBuffer"
+ - "WdfRequestRetrieveInputBuffer"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal

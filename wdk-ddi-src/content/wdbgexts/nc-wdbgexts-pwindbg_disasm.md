@@ -10,6 +10,7 @@ keywords: ["PWINDBG_DISASM callback function"]
 ms.keywords: Disasm, Disasm callback function [Windows Debugging], PWINDBG_DISASM, PWINDBG_DISASM callback, WdbgExts_Ref_787ab353-1829-4111-8931-2192bfb9cd0c.xml, debugger.disasm, wdbgexts/Disasm
 f1_keywords:
  - "wdbgexts/Disasm"
+ - "Disasm"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop

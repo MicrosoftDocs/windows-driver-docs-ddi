@@ -10,6 +10,7 @@ keywords: ["WDF_REL_TIMEOUT_IN_MS function"]
 ms.keywords: DFTimerObjectRef_0504a695-4fab-4656-8522-a6c9f0989c2d.xml, WDF_REL_TIMEOUT_IN_MS, WDF_REL_TIMEOUT_IN_MS function, kmdf.wdf_rel_timeout_in_ms, wdf.wdf_rel_timeout_in_ms, wdfcore/WDF_REL_TIMEOUT_IN_MS
 f1_keywords:
  - "wdfcore/WDF_REL_TIMEOUT_IN_MS"
+ - "WDF_REL_TIMEOUT_IN_MS"
 req.header: wdfcore.h
 req.include-header: Wdf.h
 req.target-type: Universal

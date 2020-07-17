@@ -10,6 +10,7 @@ keywords: ["FWPS_VSWITCH_RUNTIME_STATE_RESTORE_CALLBACK0 callback function"]
 ms.keywords: FWPS_VSWITCH_RUNTIME_STATE_RESTORE_CALLBACK0, FWPS_VSWITCH_RUNTIME_STATE_RESTORE_CALLBACK0 callback, fwpsk/vSwitchRuntimeStateRestoreNotifyFn, netvista.fwps_vswitch_runtime_state_restore_callback0, vSwitchRuntimeStateRestoreNotifyFn, vSwitchRuntimeStateRestoreNotifyFn callback function [Network Drivers Starting with Windows Vista]
 f1_keywords:
  - "fwpsk/vSwitchRuntimeStateRestoreNotifyFn"
+ - "vSwitchRuntimeStateRestoreNotifyFn"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Windows

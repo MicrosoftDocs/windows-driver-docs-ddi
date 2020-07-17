@@ -10,6 +10,7 @@ keywords: ["CmGetCallbackVersion function"]
 ms.keywords: CmGetCallbackVersion, CmGetCallbackVersion routine [Kernel-Mode Driver Architecture], ConfigMgrRef_f15e2e9c-8b84-40b2-abb4-b37a6d38f920.xml, kernel.cmgetcallbackversion, wdm/CmGetCallbackVersion
 f1_keywords:
  - "wdm/CmGetCallbackVersion"
+ - "CmGetCallbackVersion"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

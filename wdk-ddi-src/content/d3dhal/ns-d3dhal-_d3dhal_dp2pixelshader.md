@@ -10,6 +10,7 @@ keywords: ["_D3DHAL_DP2PIXELSHADER structure"]
 ms.keywords: "*LPD3DHAL_DP2PIXELSHADER, D3DHAL_DP2PIXELSHADER, D3DHAL_DP2PIXELSHADER structure [Display Devices], LPD3DHAL_DP2PIXELSHADER, LPD3DHAL_DP2PIXELSHADER structure pointer [Display Devices], _D3DHAL_DP2PIXELSHADER, d3dhal/D3DHAL_DP2PIXELSHADER, d3dhal/LPD3DHAL_DP2PIXELSHADER, d3dstrct_f9a920b0-9018-4b87-ab28-d0b50753195b.xml, display.d3dhal_dp2pixelshader"
 f1_keywords:
  - "d3dhal/D3DHAL_DP2PIXELSHADER"
+ - "D3DHAL_DP2PIXELSHADER"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows

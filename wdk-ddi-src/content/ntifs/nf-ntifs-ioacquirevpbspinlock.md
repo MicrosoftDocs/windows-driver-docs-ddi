@@ -10,6 +10,7 @@ keywords: ["IoAcquireVpbSpinLock function"]
 ms.keywords: IoAcquireVpbSpinLock, IoAcquireVpbSpinLock routine [Installable File System Drivers], ifsk.ioacquirevpbspinlock, ioref_b5833043-4673-46ff-850c-bd71da7defef.xml, ntifs/IoAcquireVpbSpinLock
 f1_keywords:
  - "ntifs/IoAcquireVpbSpinLock"
+ - "IoAcquireVpbSpinLock"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

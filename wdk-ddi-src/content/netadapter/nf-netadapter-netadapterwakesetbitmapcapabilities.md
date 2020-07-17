@@ -10,6 +10,7 @@ ms.date: 10/24/2019
 keywords: ["NetAdapterWakeSetBitmapCapabilities function"]
 f1_keywords:
  - "netadapter/NetAdapterWakeSetBitmapCapabilities"
+ - "NetAdapterWakeSetBitmapCapabilities"
 ms.keywords: NetAdapterWakeSetBitmapCapabilities
 req.header: netadapter.h
 req.include-header:

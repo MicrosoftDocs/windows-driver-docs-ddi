@@ -10,6 +10,7 @@ keywords: ["_HPMI_HINT_BOOL enumeration"]
 ms.keywords: "*PHPMI_HINT_BOOL, HPMI_HINT_BOOL, HPMI_HINT_BOOL enumeration [Power Metering and Budgeting Devices], HpmiBoolFalse, HpmiBoolMax, HpmiBoolTrue, HpmiBoolUnavailable, _HPMI_HINT_BOOL, hpmi/HPMI_HINT_BOOL, hpmi/HpmiBoolFalse, hpmi/HpmiBoolMax, hpmi/HpmiBoolTrue, hpmi/HpmiBoolUnavailable, powermeter.hpmi_hint_bool"
 f1_keywords:
  - "hpmi/HPMI_HINT_BOOL"
+ - "HPMI_HINT_BOOL"
 req.header: hpmi.h
 req.include-header: Hpmi.h
 req.target-type: Windows

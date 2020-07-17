@@ -10,6 +10,7 @@ keywords: ["IWDFIoTargetStateManagement::GetState"]
 ms.keywords: GetState, GetState method, GetState method,IWDFIoTargetStateManagement interface, IWDFIoTargetStateManagement interface,GetState method, IWDFIoTargetStateManagement.GetState, IWDFIoTargetStateManagement::GetState, UMDFIoTargetObjectRef_0a52ff77-9947-49a1-958a-ffe6e61ec169.xml, umdf.iwdfiotargetstatemanagement_getstate, wdf.iwdfiotargetstatemanagement_getstate, wudfddi/IWDFIoTargetStateManagement::GetState
 f1_keywords:
  - "wudfddi/IWDFIoTargetStateManagement.GetState"
+ - "IWDFIoTargetStateManagement.GetState"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

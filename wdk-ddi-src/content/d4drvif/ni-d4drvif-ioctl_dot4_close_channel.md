@@ -10,6 +10,7 @@ keywords: ["IOCTL_DOT4_CLOSE_CHANNEL IOCTL"]
 ms.keywords: IOCTL_DOT4_CLOSE_CHANNEL, IOCTL_DOT4_CLOSE_CHANNEL control, IOCTL_DOT4_CLOSE_CHANNEL control code [Print Devices], d4drvif/IOCTL_DOT4_CLOSE_CHANNEL, print.ioctl_ioctl_dot4_close_channel
 f1_keywords:
  - "d4drvif/IOCTL_DOT4_CLOSE_CHANNEL"
+ - "IOCTL_DOT4_CLOSE_CHANNEL"
 req.header: d4drvif.h
 req.include-header: 
 req.target-type: Windows

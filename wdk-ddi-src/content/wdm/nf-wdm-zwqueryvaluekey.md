@@ -10,6 +10,7 @@ keywords: ["ZwQueryValueKey function"]
 ms.keywords: NtQueryValueKey, ZwQueryValueKey, ZwQueryValueKey routine [Kernel-Mode Driver Architecture], k111_f51b0b92-f768-4f96-9f2a-d1322fd02517.xml, kernel.zwqueryvaluekey, wdm/NtQueryValueKey, wdm/ZwQueryValueKey
 f1_keywords:
  - "wdm/ZwQueryValueKey"
+ - "ZwQueryValueKey"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

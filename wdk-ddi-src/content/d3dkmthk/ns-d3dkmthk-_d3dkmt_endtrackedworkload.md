@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_ENDTRACKEDWORKLOAD structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_ENDTRACKEDWORKLOAD"
+ - "_D3DKMT_ENDTRACKEDWORKLOAD"
 ms.keywords: _D3DKMT_ENDTRACKEDWORKLOAD, D3DKMT_ENDTRACKEDWORKLOAD, 
 req.header: d3dkmthk.h
 req.include-header:

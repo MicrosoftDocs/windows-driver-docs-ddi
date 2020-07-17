@@ -10,6 +10,7 @@ keywords: ["IOCTL_SERIAL_SET_BREAK_OFF IOCTL"]
 ms.keywords: IOCTL_SERIAL_SET_BREAK_OFF, IOCTL_SERIAL_SET_BREAK_OFF control, IOCTL_SERIAL_SET_BREAK_OFF control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_BREAK_OFF, serports.ioctl_serial_set_break_off, serref_1a347f28-6dfb-4b5d-afb8-9bb8ffad9f36.xml
 f1_keywords:
  - "ntddser/IOCTL_SERIAL_SET_BREAK_OFF"
+ - "IOCTL_SERIAL_SET_BREAK_OFF"
 req.header: ntddser.h
 req.include-header: Ntddser.h
 req.target-type: Windows

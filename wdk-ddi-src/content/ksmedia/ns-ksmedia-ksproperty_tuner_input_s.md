@@ -10,6 +10,7 @@ keywords: ["KSPROPERTY_TUNER_INPUT_S structure"]
 ms.keywords: "*PKSPROPERTY_TUNER_INPUT_S, KSPROPERTY_TUNER_INPUT_S, KSPROPERTY_TUNER_INPUT_S structure [Streaming Media Devices], PKSPROPERTY_TUNER_INPUT_S, PKSPROPERTY_TUNER_INPUT_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_TUNER_INPUT_S, ksmedia/PKSPROPERTY_TUNER_INPUT_S, stream.ksproperty_tuner_input_s, vidcapstruct_db1848a6-76f7-4f65-923e-cfd678a90b64.xml"
 f1_keywords:
  - "ksmedia/KSPROPERTY_TUNER_INPUT_S"
+ - "KSPROPERTY_TUNER_INPUT_S"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

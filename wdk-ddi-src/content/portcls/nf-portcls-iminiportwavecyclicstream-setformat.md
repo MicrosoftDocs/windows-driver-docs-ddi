@@ -10,6 +10,7 @@ keywords: ["IMiniportWaveCyclicStream::SetFormat"]
 ms.keywords: IMiniportWaveCyclicStream interface [Audio Devices],SetFormat method, IMiniportWaveCyclicStream.SetFormat, IMiniportWaveCyclicStream::SetFormat, SetFormat, SetFormat method [Audio Devices], SetFormat method [Audio Devices],IMiniportWaveCyclicStream interface, audio.iminiportwavecyclicstream_setformat, audmp-routines_d23a09d4-7110-425f-b10d-5f7f601179bb.xml, portcls/IMiniportWaveCyclicStream::SetFormat
 f1_keywords:
  - "portcls/IMiniportWaveCyclicStream.SetFormat"
+ - "IMiniportWaveCyclicStream.SetFormat"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

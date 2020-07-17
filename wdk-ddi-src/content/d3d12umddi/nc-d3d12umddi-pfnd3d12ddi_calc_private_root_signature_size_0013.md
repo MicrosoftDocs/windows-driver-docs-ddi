@@ -28,6 +28,7 @@ req.type-library:
 targetos: Windows
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_CALC_PRIVATE_ROOT_SIGNATURE_SIZE_0013"
+ - "PFND3D12DDI_CALC_PRIVATE_ROOT_SIGNATURE_SIZE_0013"
 topic_type:
  - apiref
 api_type:

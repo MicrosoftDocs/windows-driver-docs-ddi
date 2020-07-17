@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::ReloadWide"]
 ms.keywords: IDebugSymbols3 interface [Windows Debugging],ReloadWide method, IDebugSymbols3.ReloadWide, IDebugSymbols3::ReloadWide, ReloadWide, ReloadWide method [Windows Debugging], ReloadWide method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols3::ReloadWide, debugger.reloadwide
 f1_keywords:
  - "dbgeng/IDebugSymbols3.ReloadWide"
+ - "IDebugSymbols3.ReloadWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

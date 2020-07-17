@@ -10,6 +10,7 @@ keywords: ["_DEVICE_DESCRIPTOR structure"]
 ms.keywords: "*PDEVICE_DESCRIPTOR, DEVICE_DESCRIPTOR, DEVICE_DESCRIPTOR structure [Imaging Devices], PDEVICE_DESCRIPTOR, PDEVICE_DESCRIPTOR structure pointer [Imaging Devices], _DEVICE_DESCRIPTOR, image.device_descriptor, stifnc_1b07d50b-5530-47d4-a212-54305a0fef7a.xml, usbscan/DEVICE_DESCRIPTOR, usbscan/PDEVICE_DESCRIPTOR"
 f1_keywords:
  - "usbscan/DEVICE_DESCRIPTOR"
+ - "DEVICE_DESCRIPTOR"
 req.header: usbscan.h
 req.include-header: Usbscan.h
 req.target-type: Windows

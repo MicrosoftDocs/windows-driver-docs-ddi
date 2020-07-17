@@ -10,6 +10,7 @@ keywords: ["ZwFlushVirtualMemory function"]
 ms.keywords: NtFlushVirtualMemory, ZwFlushVirtualMemory, ZwFlushVirtualMemory routine [Kernel-Mode Driver Architecture], k111_536d2679-dc41-490f-be7b-171e0208a1fd.xml, kernel.zwflushvirtualmemory, ntifs/NtFlushVirtualMemory, ntifs/ZwFlushVirtualMemory
 f1_keywords:
  - "ntifs/ZwFlushVirtualMemory"
+ - "ZwFlushVirtualMemory"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

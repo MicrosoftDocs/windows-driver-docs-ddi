@@ -10,6 +10,7 @@ keywords: ["IPowerPolicyCallbackWakeFromSx::OnDisarmWakeFromSx"]
 ms.keywords: IPowerPolicyCallbackWakeFromSx interface,OnDisarmWakeFromSx method, IPowerPolicyCallbackWakeFromSx.OnDisarmWakeFromSx, IPowerPolicyCallbackWakeFromSx::OnDisarmWakeFromSx, OnDisarmWakeFromSx, OnDisarmWakeFromSx method, OnDisarmWakeFromSx method,IPowerPolicyCallbackWakeFromSx interface, UMDFDeviceObjectRef_65152bfc-4855-40ba-ab0d-abfc2415441d.xml, umdf.ipowerpolicycallbackwakefromsx_ondisarmwakefromsx, wdf.ipowerpolicycallbackwakefromsx_ondisarmwakefromsx, wudfddi/IPowerPolicyCallbackWakeFromSx::OnDisarmWakeFromSx
 f1_keywords:
  - "wudfddi/IPowerPolicyCallbackWakeFromSx.OnDisarmWakeFromSx"
+ - "IPowerPolicyCallbackWakeFromSx.OnDisarmWakeFromSx"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

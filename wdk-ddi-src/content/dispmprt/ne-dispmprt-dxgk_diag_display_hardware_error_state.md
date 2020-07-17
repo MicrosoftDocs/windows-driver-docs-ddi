@@ -29,6 +29,7 @@ api_name:
 f1_keywords:
  - dispmprt/_DXGK_DIAG_DISPLAY_HARDWARE_ERROR_STATE
  - dispmprt/DXGK_DIAG_DISPLAY_HARDWARE_ERROR_STATE
+ - ""
 dev_langs:
  - c++
 ---

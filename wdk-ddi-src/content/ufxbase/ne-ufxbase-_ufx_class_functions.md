@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_UFX_CLASS_FUNCTIONS enumeration"]
 f1_keywords:
  - "ufxbase/_UFX_CLASS_FUNCTIONS"
+ - "_UFX_CLASS_FUNCTIONS"
 ms.keywords: _UFX_CLASS_FUNCTIONS, UFX_CLASS_FUNCTIONS, 
 req.header: ufxbase.h
 req.include-header:

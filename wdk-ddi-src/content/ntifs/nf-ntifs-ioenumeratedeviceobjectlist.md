@@ -10,6 +10,7 @@ keywords: ["IoEnumerateDeviceObjectList function"]
 ms.keywords: IoEnumerateDeviceObjectList, IoEnumerateDeviceObjectList routine [Installable File System Drivers], ifsk.ioenumeratedeviceobjectlist, ioref_5bfd9f2c-73c0-4f69-8a5e-4cc105c2f92a.xml, ntifs/IoEnumerateDeviceObjectList
 f1_keywords:
  - "ntifs/IoEnumerateDeviceObjectList"
+ - "IoEnumerateDeviceObjectList"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

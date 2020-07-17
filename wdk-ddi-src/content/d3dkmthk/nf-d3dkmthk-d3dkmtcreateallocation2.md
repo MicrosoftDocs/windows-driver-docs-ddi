@@ -9,6 +9,7 @@ keywords: ["D3DKMTCreateAllocation2 function"]
 ms.keywords: D3DKMTCreateAllocation2, D3DKMTCreateAllocation2 callback function [Display Devices], PFND3DKMT_CREATEALLOCATION2, PFND3DKMT_CREATEALLOCATION2 callback, d3dkmthk/D3DKMTCreateAllocation2, display.d3dkmtcreateallocation2
 f1_keywords:
  - "d3dkmthk/D3DKMTCreateAllocation2"
+ - "D3DKMTCreateAllocation2"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

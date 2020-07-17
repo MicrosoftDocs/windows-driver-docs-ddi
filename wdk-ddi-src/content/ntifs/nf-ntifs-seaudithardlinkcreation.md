@@ -10,6 +10,7 @@ keywords: ["SeAuditHardLinkCreation function"]
 ms.keywords: SeAuditHardLinkCreation, SeAuditHardLinkCreation function [Installable File System Drivers], ifsk.seaudithardlinkcreation, ntifs/SeAuditHardLinkCreation, seref_da710638-38e7-4305-9102-7cfbc4299f94.xml
 f1_keywords:
  - "ntifs/SeAuditHardLinkCreation"
+ - "SeAuditHardLinkCreation"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

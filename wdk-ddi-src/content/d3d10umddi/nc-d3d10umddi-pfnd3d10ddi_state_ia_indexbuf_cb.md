@@ -9,6 +9,7 @@ keywords: ["PFND3D10DDI_STATE_IA_INDEXBUF_CB callback function"]
 ms.keywords: PFND3D10DDI_STATE_IA_INDEXBUF_CB, PFND3D10DDI_STATE_IA_INDEXBUF_CB callback, d3d10state_functions_0bf4b875-3cd1-4a62-a8b5-4dd61259188b.xml, d3d10umddi/pfnStateIaIndexBufCb, display.pfnstateiaindexbufcb, pfnStateIaIndexBufCb, pfnStateIaIndexBufCb callback function [Display Devices]
 f1_keywords:
  - "d3d10umddi/pfnStateIaIndexBufCb"
+ - "pfnStateIaIndexBufCb"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

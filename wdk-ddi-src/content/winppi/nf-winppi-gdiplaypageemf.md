@@ -10,6 +10,7 @@ keywords: ["GdiPlayPageEMF function"]
 ms.keywords: GdiPlayPageEMF, GdiPlayPageEMF function [Print Devices], gdifnc_b1c27aba-d367-481a-8012-6c2f957ff11e.xml, print.gdiplaypageemf, winppi/GdiPlayPageEMF
 f1_keywords:
  - "winppi/GdiPlayPageEMF"
+ - "GdiPlayPageEMF"
 req.header: winppi.h
 req.include-header: Winppi.h
 req.target-type: Universal

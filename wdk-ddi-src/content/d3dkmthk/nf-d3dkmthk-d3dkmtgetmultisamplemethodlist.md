@@ -9,6 +9,7 @@ keywords: ["D3DKMTGetMultisampleMethodList function"]
 ms.keywords: D3DKMTGetMultisampleMethodList, D3DKMTGetMultisampleMethodList function [Display Devices], OpenGL_Functions_8adebfdd-1a02-4e17-8aef-e183587202d2.xml, d3dkmthk/D3DKMTGetMultisampleMethodList, display.d3dkmtgetmultisamplemethodlist
 f1_keywords:
  - "d3dkmthk/D3DKMTGetMultisampleMethodList"
+ - "D3DKMTGetMultisampleMethodList"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

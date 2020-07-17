@@ -9,6 +9,7 @@ keywords: ["D3D11_1DDI_CERTIFICATE_INFO structure"]
 ms.keywords: D3D11_1DDI_CERTIFICATE_INFO, D3D11_1DDI_CERTIFICATE_INFO structure [Display Devices], d3d10umddi/D3D11_1DDI_CERTIFICATE_INFO, display.d3d11_1ddi_certificate_info
 f1_keywords:
  - "d3d10umddi/D3D11_1DDI_CERTIFICATE_INFO"
+ - "D3D11_1DDI_CERTIFICATE_INFO"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

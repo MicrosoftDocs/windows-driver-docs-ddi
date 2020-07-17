@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3D12DDI_CLEAR_VALUES structure"]
 f1_keywords:
  - "d3d12umddi/D3D12DDI_CLEAR_VALUES"
+ - "D3D12DDI_CLEAR_VALUES"
 ms.keywords: D3D12DDI_CLEAR_VALUES, D3D12DDI_CLEAR_VALUES, 
 req.header: d3d12umddi.h
 req.include-header:

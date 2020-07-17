@@ -10,6 +10,7 @@ keywords: ["IDebugAdvanced3::GetSymbolInformationWide"]
 ms.keywords: GetSymbolInformationWide, GetSymbolInformationWide method [Windows Debugging], GetSymbolInformationWide method [Windows Debugging],IDebugAdvanced3 interface, IDebugAdvanced3 interface [Windows Debugging],GetSymbolInformationWide method, IDebugAdvanced3.GetSymbolInformationWide, IDebugAdvanced3::GetSymbolInformationWide, dbgeng/IDebugAdvanced3::GetSymbolInformationWide, debugger.getsymbolinformationwide
 f1_keywords:
  - "dbgeng/IDebugAdvanced3.GetSymbolInformationWide"
+ - "IDebugAdvanced3.GetSymbolInformationWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

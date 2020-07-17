@@ -9,6 +9,7 @@ keywords: ["_PORT_CONFIGURATION_INFORMATION structure"]
 ms.keywords: "*PPORT_CONFIGURATION_INFORMATION, PORT_CONFIGURATION_INFORMATION, PORT_CONFIGURATION_INFORMATION structure [Storage Devices], PPORT_CONFIGURATION_INFORMATION, PPORT_CONFIGURATION_INFORMATION structure pointer [Storage Devices], _PORT_CONFIGURATION_INFORMATION, _PORT_CONFIGURATION_INFORMATION structure [Storage Devices]"
 f1_keywords:
  - "storport/PORT_CONFIGURATION_INFORMATION"
+ - "PORT_CONFIGURATION_INFORMATION"
 req.header: storport.h
 req.include-header: Srb.h, Storport.h, Strmini.h
 req.target-type: Windows

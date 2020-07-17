@@ -10,6 +10,7 @@ keywords: ["SerCx2CompleteWait function"]
 ms.keywords: 2/SerCx2CompleteWait, SerCx2CompleteWait, SerCx2CompleteWait method [Serial Ports], serports.sercx2completewait
 f1_keywords:
  - "sercx/SerCx2CompleteWait"
+ - "SerCx2CompleteWait"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["KSP_NODE structure"]
 ms.keywords: "*PKSP_NODE, KSP_NODE, KSP_NODE structure [Streaming Media Devices], PKSP_NODE, PKSP_NODE structure pointer [Streaming Media Devices], ks-struct_e93685c5-c84a-469a-ad2c-2407cb2e383b.xml, ks/KSP_NODE, ks/PKSP_NODE, stream.ksp_node"
 f1_keywords:
  - "ks/KSP_NODE"
+ - "KSP_NODE"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows

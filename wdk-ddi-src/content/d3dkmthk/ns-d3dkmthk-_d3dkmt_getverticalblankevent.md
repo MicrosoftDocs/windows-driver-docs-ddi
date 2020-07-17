@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_GETVERTICALBLANKEVENT structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_GETVERTICALBLANKEVENT"
+ - "_D3DKMT_GETVERTICALBLANKEVENT"
 ms.keywords: _D3DKMT_GETVERTICALBLANKEVENT, D3DKMT_GETVERTICALBLANKEVENT, 
 req.header: d3dkmthk.h
 req.include-header:

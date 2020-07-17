@@ -10,6 +10,7 @@ keywords: ["IOCTL_UMDF_HID_GET_FEATURE IOCTL"]
 ms.keywords: IOCTL_UMDF_HID_GET_FEATURE, IOCTL_UMDF_HID_GET_FEATURE control, IOCTL_UMDF_HID_GET_FEATURE control code, hid.ioctl_umdf_hid_get_feature, hidport/IOCTL_UMDF_HID_GET_FEATURE, umdf.ioctl_umdf_hid_get_feature
 f1_keywords:
  - "hidport/IOCTL_UMDF_HID_GET_FEATURE"
+ - "IOCTL_UMDF_HID_GET_FEATURE"
 req.header: hidport.h
 req.include-header: 
 req.target-type: Windows

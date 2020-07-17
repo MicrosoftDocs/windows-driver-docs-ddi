@@ -8,6 +8,7 @@ ms.date: 02/08/2018
 keywords: ["NetRequestGetSwitchId function"]
 f1_keywords:
  - "netrequest/NetRequestGetSwitchId"
+ - "NetRequestGetSwitchId"
 ms.keywords: NetRequestGetSwitchId
 req.header: netrequest.h
 req.include-header: netadaptercx.h

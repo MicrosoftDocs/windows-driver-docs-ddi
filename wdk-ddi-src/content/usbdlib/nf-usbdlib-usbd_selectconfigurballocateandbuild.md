@@ -10,6 +10,7 @@ keywords: ["USBD_SelectConfigUrbAllocateAndBuild function"]
 ms.keywords: USBD_SelectConfigUrbAllocateAndBuild, USBD_SelectConfigUrbAllocateAndBuild routine [Buses], buses.usbd_selectconfigurballocateandbuild, usbdlib/USBD_SelectConfigUrbAllocateAndBuild
 f1_keywords:
  - "usbdlib/USBD_SelectConfigUrbAllocateAndBuild"
+ - "USBD_SelectConfigUrbAllocateAndBuild"
 req.header: usbdlib.h
 req.include-header: 
 req.target-type: Desktop

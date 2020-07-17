@@ -9,6 +9,7 @@ keywords: ["PFND3D12DDI_CREATEVIDEOPROCESSOR_0021 callback function"]
 ms.keywords: PFND3D12DDI_CREATEVIDEOPROCESSOR_0021, PFND3D12DDI_CREATEVIDEOPROCESSOR_0021 callback, d3d12umddi/pfnCreateVideoProcessor, display.pfnd3d12ddi_createvideoprocessor, pfnCreateVideoProcessor, pfnCreateVideoProcessor callback function [Display Devices]
 f1_keywords:
  - "d3d12umddi/pfnCreateVideoProcessor"
+ - "pfnCreateVideoProcessor"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type: Windows

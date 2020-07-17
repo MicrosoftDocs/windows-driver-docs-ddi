@@ -10,6 +10,7 @@ keywords: ["_DRIVE_LAYOUT_INFORMATION_MBR structure"]
 ms.keywords: "*PDRIVE_LAYOUT_INFORMATION_MBR, DRIVE_LAYOUT_INFORMATION_MBR, DRIVE_LAYOUT_INFORMATION_MBR structure [Storage Devices], PDRIVE_LAYOUT_INFORMATION_MBR, PDRIVE_LAYOUT_INFORMATION_MBR structure pointer [Storage Devices], _DRIVE_LAYOUT_INFORMATION_MBR, ntdddisk/DRIVE_LAYOUT_INFORMATION_MBR, ntdddisk/PDRIVE_LAYOUT_INFORMATION_MBR, storage.drive_layout_information_mbr, structs-disk_766d8fbf-64c1-4b4e-b0ce-421c8892b0d4.xml"
 f1_keywords:
  - "ntdddisk/DRIVE_LAYOUT_INFORMATION_MBR"
+ - "DRIVE_LAYOUT_INFORMATION_MBR"
 req.header: ntdddisk.h
 req.include-header: Ntddk.h
 req.target-type: Windows

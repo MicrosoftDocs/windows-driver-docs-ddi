@@ -8,6 +8,7 @@ ms.date: 10/31/2018
 keywords: ["IPortClsStreamResourceManager::RemoveStreamResource"]
 f1_keywords:
  - "portcls/IPortClsStreamResourceManager.RemoveStreamResource"
+ - "IPortClsStreamResourceManager.RemoveStreamResource"
 ms.keywords: IPortClsStreamResourceManager::RemoveStreamResource, RemoveStreamResource, IPortClsStreamResourceManager.RemoveStreamResource, IPortClsStreamResourceManager::RemoveStreamResource, IPortClsStreamResourceManager.RemoveStreamResource
 req.header: portcls.h
 req.include-header:

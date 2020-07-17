@@ -10,6 +10,7 @@ keywords: ["USBD_GetUSBDIVersion function"]
 ms.keywords: USBD_GetUSBDIVersion, USBD_GetUSBDIVersion routine [Buses], buses.usbd_getusbdiversion, usbdlib/USBD_GetUSBDIVersion, usbfunc_567ca75b-8d65-412c-aa28-284a01cff650.xml
 f1_keywords:
  - "usbdlib/USBD_GetUSBDIVersion"
+ - "USBD_GetUSBDIVersion"
 req.header: usbdlib.h
 req.include-header: Usbdlib.h
 req.target-type: Universal

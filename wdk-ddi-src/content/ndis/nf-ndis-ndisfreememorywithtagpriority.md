@@ -10,6 +10,7 @@ keywords: ["NdisFreeMemoryWithTagPriority function"]
 ms.keywords: NdisFreeMemoryWithTagPriority, NdisFreeMemoryWithTagPriority function [Network Drivers Starting with Windows Vista], ndis/NdisFreeMemoryWithTagPriority, ndis_shared_memory_ref_60846563-cc80-4e5e-b9da-37bcfd5239b2.xml, netvista.ndisfreememorywithtagpriority
 f1_keywords:
  - "ndis/NdisFreeMemoryWithTagPriority"
+ - "NdisFreeMemoryWithTagPriority"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

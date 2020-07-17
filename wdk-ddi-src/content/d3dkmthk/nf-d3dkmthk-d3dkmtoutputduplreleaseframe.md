@@ -9,6 +9,7 @@ keywords: ["D3DKMTOutputDuplReleaseFrame function"]
 ms.keywords: D3DKMTOutputDuplReleaseFrame, D3DKMTOutputDuplReleaseFrame callback function [Display Devices], PFND3DKMT_OUTPUTDUPLRELEASEFRAME, PFND3DKMT_OUTPUTDUPLRELEASEFRAME callback, d3dkmthk/D3DKMTOutputDuplReleaseFrame, display.d3dkmtoutputduplreleaseframe
 f1_keywords:
  - "d3dkmthk/D3DKMTOutputDuplReleaseFrame"
+ - "D3DKMTOutputDuplReleaseFrame"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

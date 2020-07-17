@@ -10,6 +10,7 @@ keywords: ["NDK_FN_CREATE_PD callback function"]
 ms.keywords: NDK_FN_CREATE_PD, NDK_FN_CREATE_PD callback, NdkCreatePd, NdkCreatePd callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreatePd, netvista.ndk_fn_create_pd
 f1_keywords:
  - "ndkpi/NdkCreatePd"
+ - "NdkCreatePd"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

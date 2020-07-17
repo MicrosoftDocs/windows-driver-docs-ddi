@@ -10,6 +10,7 @@ keywords: ["NtPowerInformation function"]
 ms.keywords: NtPowerInformation, PlatformInformation, ZwPowerInformation, ZwPowerInformation routine [Kernel-Mode Driver Architecture], kernel.zwpowerinformation, wdm/NtPowerInformation, wdm/ZwPowerInformation
 f1_keywords:
  - "wdm/ZwPowerInformation"
+ - "ZwPowerInformation"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntpoapi.h
 req.target-type: Universal

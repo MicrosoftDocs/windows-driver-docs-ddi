@@ -10,6 +10,7 @@ keywords: ["_HBAFC3MgmtInfo structure"]
 ms.keywords: "*PHBAFC3MgmtInfo, HBAFC3MgmtInfo, HBAFC3MgmtInfo structure [Storage Devices], PHBAFC3MgmtInfo, PHBAFC3MgmtInfo structure pointer [Storage Devices], _HBAFC3MgmtInfo, hbapiwmi/HBAFC3MgmtInfo, hbapiwmi/PHBAFC3MgmtInfo, storage.hbafc3mgmtinfo, structs-Fibre_b128f553-eb08-4077-9dcb-7a7238ec220f.xml"
 f1_keywords:
  - "hbapiwmi/HBAFC3MgmtInfo"
+ - "HBAFC3MgmtInfo"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows

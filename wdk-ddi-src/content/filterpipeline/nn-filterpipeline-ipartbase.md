@@ -10,6 +10,7 @@ keywords: ["IPartBase interface"]
 ms.keywords: IPartBase, IPartBase interface [Print Devices], IPartBase interface [Print Devices],described, filterpipeline/IPartBase, filterpipeline_aaad898e-c110-439c-9983-fedbab82c06d.xml, print.ipartbase
 f1_keywords:
  - "filterpipeline/IPartBase"
+ - "IPartBase"
 req.header: filterpipeline.h
 req.include-header: Filterpipeline.h
 req.target-type: Windows

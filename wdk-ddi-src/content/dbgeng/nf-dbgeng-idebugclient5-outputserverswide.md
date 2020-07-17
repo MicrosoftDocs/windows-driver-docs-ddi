@@ -10,6 +10,7 @@ keywords: ["IDebugClient5::OutputServersWide"]
 ms.keywords: IDebugClient5 interface [Windows Debugging],OutputServersWide method, IDebugClient5.OutputServersWide, IDebugClient5::OutputServersWide, OutputServersWide, OutputServersWide method [Windows Debugging], OutputServersWide method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient5::OutputServersWide, debugger.outputserverswide
 f1_keywords:
  - "dbgeng/IDebugClient5.OutputServersWide"
+ - "IDebugClient5.OutputServersWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

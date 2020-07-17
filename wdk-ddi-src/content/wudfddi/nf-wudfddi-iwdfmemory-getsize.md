@@ -10,6 +10,7 @@ keywords: ["IWDFMemory::GetSize"]
 ms.keywords: GetSize, GetSize method, GetSize method,IWDFMemory interface, IWDFMemory interface,GetSize method, IWDFMemory.GetSize, IWDFMemory::GetSize, UMDFMemoryObjectRef_24a9b921-5760-41fd-8b01-6a21e6be71ed.xml, umdf.iwdfmemory_getsize, wdf.iwdfmemory_getsize, wudfddi/IWDFMemory::GetSize
 f1_keywords:
  - "wudfddi/IWDFMemory.GetSize"
+ - "IWDFMemory.GetSize"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["_PEP_PPM_QUERY_PERF_CONSTRAINTS structure"]
 ms.keywords: "*PPEP_PPM_PERF_CONSTRAINTS, PEP_PPM_PERF_CONSTRAINTS, PEP_PPM_PERF_CONSTRAINTS structure [Kernel-Mode Driver Architecture], PERFORMANCE_LIMIT_DOMAIN_DEPENDENCY, PERFORMANCE_LIMIT_POWER, PERFORMANCE_LIMIT_THERMAL, PPEP_PPM_PERF_CONSTRAINTS, PPEP_PPM_PERF_CONSTRAINTS structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_QUERY_PERF_CONSTRAINTS, kernel.pep_ppm_perf_constraints, pepfx/PEP_PPM_PERF_CONSTRAINTS, pepfx/PPEP_PPM_PERF_CONSTRAINTS"
 f1_keywords:
  - "pepfx/PEP_PPM_PERF_CONSTRAINTS"
+ - "PEP_PPM_PERF_CONSTRAINTS"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows

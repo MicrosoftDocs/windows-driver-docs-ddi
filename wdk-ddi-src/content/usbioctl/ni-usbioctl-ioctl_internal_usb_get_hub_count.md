@@ -10,6 +10,7 @@ keywords: ["IOCTL_INTERNAL_USB_GET_HUB_COUNT IOCTL"]
 ms.keywords: IOCTL_INTERNAL_USB_GET_HUB_COUNT, IOCTL_INTERNAL_USB_GET_HUB_COUNT control, IOCTL_INTERNAL_USB_GET_HUB_COUNT control code [Buses], buses.ioctl_internal_usb_get_hub_count, usbioctl/IOCTL_INTERNAL_USB_GET_HUB_COUNT, usbirp_8c73af1c-9349-4b49-8d8d-aaaeb090dc5e.xml
 f1_keywords:
  - "usbioctl/IOCTL_INTERNAL_USB_GET_HUB_COUNT"
+ - "IOCTL_INTERNAL_USB_GET_HUB_COUNT"
 req.header: usbioctl.h
 req.include-header: Usbioctl.h
 req.target-type: Windows

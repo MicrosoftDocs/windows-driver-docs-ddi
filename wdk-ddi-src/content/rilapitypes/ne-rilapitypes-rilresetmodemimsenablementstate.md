@@ -10,6 +10,7 @@ keywords: ["RILRESETMODEMIMSENABLEMENTSTATE enumeration"]
 ms.keywords: RILRESETMODEMIMSENABLEMENTSTATE, RILRESETMODEMIMSENABLEMENTSTATE enumeration [Network Drivers Starting with Windows Vista], RIL_RESETMODEM_ENABLED, netvista.rilresetmodemimsenablementstate, ntddrilapitypes/RILRESETMODEMIMSENABLEMENTSTATE, ntddrilapitypes/RIL_RESETMODEM_ENABLED
 f1_keywords:
  - "rilapitypes/RILRESETMODEMIMSENABLEMENTSTATE"
+ - "RILRESETMODEMIMSENABLEMENTSTATE"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

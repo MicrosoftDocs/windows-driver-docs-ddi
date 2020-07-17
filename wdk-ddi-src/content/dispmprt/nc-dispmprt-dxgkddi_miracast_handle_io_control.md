@@ -10,6 +10,7 @@ keywords: ["DXGKDDI_MIRACAST_HANDLE_IO_CONTROL callback function"]
 ms.keywords: DXGKDDI_MIRACAST_HANDLE_IO_CONTROL, DXGKDDI_MIRACAST_HANDLE_IO_CONTROL callback, DxgkDdiMiracastIoControl, DxgkDdiMiracastIoControl callback function [Display Devices], display.dxgkddimiracastiocontrol, dispmprt/DxgkDdiMiracastIoControl
 f1_keywords:
  - "dispmprt/DxgkDdiMiracastIoControl"
+ - "DxgkDdiMiracastIoControl"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop

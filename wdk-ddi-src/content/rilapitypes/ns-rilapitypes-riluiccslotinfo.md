@@ -10,6 +10,7 @@ keywords: ["RILUICCSLOTINFO structure"]
 ms.keywords: "*LPRILUICCSLOTINFO, RILUICCSLOTINFO, RILUICCSLOTINFO structure [Network Drivers Starting with Windows Vista], netvista.riluiccslotinfo, ntddrilapitypes/RILUICCSLOTINFO"
 f1_keywords:
  - "rilapitypes/RILUICCSLOTINFO"
+ - "RILUICCSLOTINFO"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

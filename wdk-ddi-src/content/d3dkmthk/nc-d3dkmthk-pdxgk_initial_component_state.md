@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["PDXGK_INITIAL_COMPONENT_STATE callback function"]
 f1_keywords:
  - "d3dkmthk/PDXGK_INITIAL_COMPONENT_STATE"
+ - "PDXGK_INITIAL_COMPONENT_STATE"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

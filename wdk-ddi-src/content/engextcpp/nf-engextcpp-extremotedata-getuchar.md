@@ -10,6 +10,7 @@ keywords: ["ExtRemoteData::GetUchar"]
 ms.keywords: EngExtCpp_Ref_687a7887-560a-4565-8417-ec46cc1ee254.xml, ExtRemoteData class [Windows Debugging],GetUchar method, ExtRemoteData.GetUchar, ExtRemoteData::GetUchar, GetUchar, GetUchar method [Windows Debugging], GetUchar method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_getuchar
 f1_keywords:
  - "engextcpp/ExtRemoteData.GetUchar"
+ - "ExtRemoteData.GetUchar"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop

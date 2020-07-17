@@ -10,6 +10,7 @@ keywords: ["PALLOCATE_ADAPTER_CHANNEL_EX callback function"]
 ms.keywords: AllocateAdapterChannelEx, AllocateAdapterChannelEx callback function [Kernel-Mode Driver Architecture], DMA_SYNCHRONOUS_CALLBACK, PALLOCATE_ADAPTER_CHANNEL_EX, PALLOCATE_ADAPTER_CHANNEL_EX callback, kernel.allocateadapterchannelex, wdm/AllocateAdapterChannelEx
 f1_keywords:
  - "wdm/AllocateAdapterChannelEx"
+ - "AllocateAdapterChannelEx"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

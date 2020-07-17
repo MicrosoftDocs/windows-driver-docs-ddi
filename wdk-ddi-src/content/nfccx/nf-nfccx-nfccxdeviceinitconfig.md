@@ -10,6 +10,7 @@ keywords: ["NfcCxDeviceInitConfig function"]
 ms.keywords: NfcCxDeviceInitConfig, NfcCxDeviceInitConfig function [Near-Field Proximity Drivers], nfccx/NfcCxDeviceInitConfig, nfpdrivers._nfccxdeviceinitconfig_
 f1_keywords:
  - "nfccx/NfcCxDeviceInitConfig"
+ - "NfcCxDeviceInitConfig"
 req.header: nfccx.h
 req.include-header: Ncidef.h
 req.target-type: Windows

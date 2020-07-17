@@ -10,6 +10,7 @@ keywords: ["IOCTL_VOLUME_IS_CLUSTERED IOCTL"]
 ms.keywords: IOCTL_VOLUME_IS_CLUSTERED, IOCTL_VOLUME_IS_CLUSTERED control, IOCTL_VOLUME_IS_CLUSTERED control code [Storage Devices], k307_32e3c9a5-1828-4fbb-b7f1-9ddbd367f70f.xml, ntddvol/IOCTL_VOLUME_IS_CLUSTERED, storage.ioctl_volume_is_clustered
 f1_keywords:
  - "ntddvol/IOCTL_VOLUME_IS_CLUSTERED"
+ - "IOCTL_VOLUME_IS_CLUSTERED"
 req.header: ntddvol.h
 req.include-header: Ntddvol.h
 req.target-type: Windows

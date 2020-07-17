@@ -10,6 +10,7 @@ keywords: ["IPrintOemDriverUI interface"]
 ms.keywords: IPrintOemDriverUI, IPrintOemDriverUI interface [Print Devices], IPrintOemDriverUI interface [Print Devices],described, prcomoem/IPrintOemDriverUI, print.iprintoemdriverui_interface, print_unidrv-pscript_ui_af445d30-9f51-4759-867d-d93e9ae0bc34.xml
 f1_keywords:
  - "prcomoem/IPrintOemDriverUI"
+ - "IPrintOemDriverUI"
 req.header: prcomoem.h
 req.include-header: 
 req.target-type: Windows

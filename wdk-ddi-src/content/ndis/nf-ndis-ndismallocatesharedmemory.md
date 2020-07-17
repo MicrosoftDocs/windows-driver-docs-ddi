@@ -10,6 +10,7 @@ keywords: ["NdisMAllocateSharedMemory function"]
 ms.keywords: NdisMAllocateSharedMemory, NdisMAllocateSharedMemory function [Network Drivers Starting with Windows Vista], miniport_memory_shared_ref_c2bf3765-9335-488e-a320-7e955f95eed8.xml, ndis/NdisMAllocateSharedMemory, netvista.ndismallocatesharedmemory
 f1_keywords:
  - "ndis/NdisMAllocateSharedMemory"
+ - "NdisMAllocateSharedMemory"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["RtlDeleteRegistryValue function"]
 ms.keywords: RtlDeleteRegistryValue, RtlDeleteRegistryValue routine [Kernel-Mode Driver Architecture], k109_ad2e98c7-7787-49b2-b2af-1782d7f64e0d.xml, kernel.rtldeleteregistryvalue, wdm/RtlDeleteRegistryValue
 f1_keywords:
  - "wdm/RtlDeleteRegistryValue"
+ - "RtlDeleteRegistryValue"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

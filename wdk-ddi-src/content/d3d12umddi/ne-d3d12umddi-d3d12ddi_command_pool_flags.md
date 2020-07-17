@@ -20,6 +20,7 @@ targetos: Windows
 tech.root: display
 f1_keywords:
  - "d3d12umddi/D3D12DDI_COMMAND_POOL_FLAGS"
+ - "D3D12DDI_COMMAND_POOL_FLAGS"
 topic_type:
  - apiref
 api_type:

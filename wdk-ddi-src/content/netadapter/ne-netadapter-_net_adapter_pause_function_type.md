@@ -10,6 +10,7 @@ ms.date: 11/07/2019
 keywords: ["NET_ADAPTER_PAUSE_FUNCTION_TYPE enumeration"]
 f1_keywords:
  - "netadapter/NET_ADAPTER_PAUSE_FUNCTION_TYPE"
+ - "NET_ADAPTER_PAUSE_FUNCTION_TYPE"
 ms.keywords: NET_ADAPTER_PAUSE_FUNCTION_TYPE, NET_ADAPTER_PAUSE_FUNCTION_TYPE, 
 req.header: netadapter.h
 req.include-header:

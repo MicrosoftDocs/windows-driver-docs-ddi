@@ -33,6 +33,7 @@ api_name:
 f1_keywords:
  - dispmprt/_DXGK_DIAG_DISPLAY_SAMPLED_GAMMA
  - dispmprt/DXGK_DIAG_DISPLAY_SAMPLED_GAMMA
+ - ""
 dev_langs:
  - c++
 ---

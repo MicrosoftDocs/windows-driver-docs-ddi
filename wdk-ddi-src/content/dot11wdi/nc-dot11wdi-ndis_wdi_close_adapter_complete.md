@@ -10,6 +10,7 @@ keywords: ["NDIS_WDI_CLOSE_ADAPTER_COMPLETE callback function"]
 ms.keywords: NDIS_WDI_CLOSE_ADAPTER_COMPLETE, NDIS_WDI_CLOSE_ADAPTER_COMPLETE callback, NdisWdiCloseAdapterComplete, NdisWdiCloseAdapterComplete callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiCloseAdapterComplete, netvista.ndiswdicloseadaptercomplete
 f1_keywords:
  - "dot11wdi/NdisWdiCloseAdapterComplete"
+ - "NdisWdiCloseAdapterComplete"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows

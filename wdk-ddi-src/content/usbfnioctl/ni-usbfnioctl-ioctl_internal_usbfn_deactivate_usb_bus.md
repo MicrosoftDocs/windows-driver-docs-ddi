@@ -10,6 +10,7 @@ keywords: ["IOCTL_INTERNAL_USBFN_DEACTIVATE_USB_BUS IOCTL"]
 ms.keywords: IOCTL_INTERNAL_USBFN_DEACTIVATE_USB_BUS, IOCTL_INTERNAL_USBFN_DEACTIVATE_USB_BUS control, IOCTL_INTERNAL_USBFN_DEACTIVATE_USB_BUS control code [Buses], buses.ioctl_internal_usbfn_deactivate_usb_bus, usbfnioctl/IOCTL_INTERNAL_USBFN_DEACTIVATE_USB_BUS
 f1_keywords:
  - "usbfnioctl/IOCTL_INTERNAL_USBFN_DEACTIVATE_USB_BUS"
+ - "IOCTL_INTERNAL_USBFN_DEACTIVATE_USB_BUS"
 req.header: usbfnioctl.h
 req.include-header: Usbfnioctl.h
 req.target-type: Windows

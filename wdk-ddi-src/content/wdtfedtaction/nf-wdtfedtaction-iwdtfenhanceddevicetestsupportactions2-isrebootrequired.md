@@ -10,6 +10,7 @@ keywords: ["IWDTFEnhancedDeviceTestSupportActions2::IsRebootRequired"]
 ms.keywords: IWDTFEnhancedDeviceTestSupportActions2 interface [Windows Device Testing Framework],IsRebootRequired method, IWDTFEnhancedDeviceTestSupportActions2.IsRebootRequired, IWDTFEnhancedDeviceTestSupportActions2::IsRebootRequired, IsRebootRequired, IsRebootRequired method [Windows Device Testing Framework], IsRebootRequired method [Windows Device Testing Framework],IWDTFEnhancedDeviceTestSupportActions2 interface, dtf.iwdtfenhanceddevicetestsupportactions2_isrebootrequired, wdtfedtaction/IWDTFEnhancedDeviceTestSupportActions2::IsRebootRequired
 f1_keywords:
  - "wdtfedtaction/IWDTFEnhancedDeviceTestSupportActions2.IsRebootRequired"
+ - "IWDTFEnhancedDeviceTestSupportActions2.IsRebootRequired"
 req.header: wdtfedtaction.h
 req.include-header: 
 req.target-type: Desktop

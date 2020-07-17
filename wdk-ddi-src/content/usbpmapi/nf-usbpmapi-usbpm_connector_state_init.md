@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["USBPM_CONNECTOR_STATE_INIT function"]
 f1_keywords:
  - "usbpmapi/USBPM_CONNECTOR_STATE_INIT"
+ - "USBPM_CONNECTOR_STATE_INIT"
 ms.keywords: USBPM_CONNECTOR_STATE_INIT
 tech.root: usbref
 req.header: usbpmapi.h

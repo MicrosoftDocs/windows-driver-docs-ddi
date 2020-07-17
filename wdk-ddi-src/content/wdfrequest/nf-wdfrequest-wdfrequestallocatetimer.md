@@ -10,6 +10,7 @@ keywords: ["WdfRequestAllocateTimer function"]
 ms.keywords: DFRequestObjectRef_ae292896-d156-44ae-b0cd-3f807fbc1765.xml, WdfRequestAllocateTimer, WdfRequestAllocateTimer method, kmdf.wdfrequestallocatetimer, wdf.wdfrequestallocatetimer, wdfrequest/WdfRequestAllocateTimer
 f1_keywords:
  - "wdfrequest/WdfRequestAllocateTimer"
+ - "WdfRequestAllocateTimer"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal

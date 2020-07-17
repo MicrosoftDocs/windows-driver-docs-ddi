@@ -10,6 +10,7 @@ keywords: ["PDEBUG_EXTENSION_KNOWN_STRUCT callback function"]
 ms.keywords: Extensions_Ref_dfff8fda-36a7-42ab-9ad7-1698c352c028.xml, KnownStructOutput, KnownStructOutput callback function [Windows Debugging], PDEBUG_EXTENSION_KNOWN_STRUCT, PDEBUG_EXTENSION_KNOWN_STRUCT callback, dbgeng/KnownStructOutput, debugger.knownstructoutput
 f1_keywords:
  - "dbgeng/KnownStructOutput"
+ - "KnownStructOutput"
 req.header: dbgeng.h
 req.include-header: 
 req.target-type: Desktop

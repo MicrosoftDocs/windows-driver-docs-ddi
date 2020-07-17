@@ -10,6 +10,7 @@ keywords: ["_GET_LENGTH_INFORMATION structure"]
 ms.keywords: "*PGET_LENGTH_INFORMATION, GET_LENGTH_INFORMATION, GET_LENGTH_INFORMATION structure [Storage Devices], PGET_LENGTH_INFORMATION, PGET_LENGTH_INFORMATION structure pointer [Storage Devices], _GET_LENGTH_INFORMATION, ntdddisk/GET_LENGTH_INFORMATION, ntdddisk/PGET_LENGTH_INFORMATION, storage.get_length_information, structs-disk_6efbf7e7-9fc2-44b0-a9f8-b83219b07a64.xml"
 f1_keywords:
  - "ntdddisk/GET_LENGTH_INFORMATION"
+ - "GET_LENGTH_INFORMATION"
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h
 req.target-type: Windows

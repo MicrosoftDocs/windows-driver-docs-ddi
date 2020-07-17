@@ -10,6 +10,7 @@ keywords: ["_USBDEVICE_HUB_INFO structure"]
 ms.keywords: "*PUSBDEVICE_HUB_INFO, P_USBDEVICE_HUB_INFO, P_USBDEVICE_HUB_INFO structure pointer [Buses], USBDEVICE_HUB_INFO, USBDEVICE_HUB_INFO structure [Buses], _USBDEVICE_HUB_INFO, buses._usbdevice_hub_info, ucxusbdevice/P_USBDEVICE_HUB_INFO, ucxusbdevice/_USBDEVICE_HUB_INFO"
 f1_keywords:
  - "ucxusbdevice/USBDEVICE_HUB_INFO"
+ - "USBDEVICE_HUB_INFO"
 req.header: ucxusbdevice.h
 req.include-header: Ucxclass.h
 req.target-type: Windows

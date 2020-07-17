@@ -10,6 +10,7 @@ keywords: ["IWDTFCONFIG2 interface"]
 ms.keywords: IWDTFCONFIG2, IWDTFCONFIG2 interface [Windows Device Testing Framework], IWDTFCONFIG2 interface [Windows Device Testing Framework],described, Microsoft.WDTF.IWDTFCONFIG2, dtf.iwdtfconfig2, wdtf/IWDTFCONFIG2
 f1_keywords:
  - "wdtf/IWDTFCONFIG2"
+ - "IWDTFCONFIG2"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Windows

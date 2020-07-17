@@ -10,6 +10,7 @@ keywords: ["ExAllocatePoolWithTagPriority function"]
 ms.keywords: ExAllocatePoolWithTagPriority, ExAllocatePoolWithTagPriority routine [Kernel-Mode Driver Architecture], k102_cca6adc7-0f37-4565-858d-a191062f4fbd.xml, kernel.exallocatepoolwithtagpriority, wdm/ExAllocatePoolWithTagPriority
 f1_keywords:
  - "wdm/ExAllocatePoolWithTagPriority"
+ - "ExAllocatePoolWithTagPriority"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

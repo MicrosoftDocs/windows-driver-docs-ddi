@@ -10,6 +10,7 @@ keywords: ["IDebugControl6::GetExecutionStatusEx"]
 ms.keywords: GetExecutionStatusEx, GetExecutionStatusEx method [Windows Debugging], GetExecutionStatusEx method [Windows Debugging],IDebugControl6 interface, IDebugControl6 interface [Windows Debugging],GetExecutionStatusEx method, IDebugControl6.GetExecutionStatusEx, IDebugControl6::GetExecutionStatusEx, dbgeng/IDebugControl6::GetExecutionStatusEx, debugger.idebugcontrol6_getexecutionstatusex
 f1_keywords:
  - "dbgeng/IDebugControl6.GetExecutionStatusEx"
+ - "IDebugControl6.GetExecutionStatusEx"
 req.header: dbgeng.h
 req.include-header: 
 req.target-type: Desktop

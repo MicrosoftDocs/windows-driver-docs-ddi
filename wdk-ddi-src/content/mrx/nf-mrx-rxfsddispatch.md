@@ -10,6 +10,7 @@ keywords: ["RxFsdDispatch function"]
 ms.keywords: RxFsdDispatch, RxFsdDispatch routine [Installable File System Drivers], ifsk.rxfsddispatch, mrx/RxFsdDispatch, rxref_23ec1489-9629-4aef-b0b0-d844364b67a7.xml
 f1_keywords:
  - "mrx/RxFsdDispatch"
+ - "RxFsdDispatch"
 req.header: mrx.h
 req.include-header: Mrx.h, Rxstruc.h, Struchdr.h
 req.target-type: Desktop

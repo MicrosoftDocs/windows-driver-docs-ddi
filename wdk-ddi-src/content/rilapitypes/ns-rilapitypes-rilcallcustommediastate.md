@@ -10,6 +10,7 @@ keywords: ["RILCALLCUSTOMMEDIASTATE structure"]
 ms.keywords: "*LPRILCALLCUSTOMMEDIASTATE, RILCALLCUSTOMMEDIASTATE, RILCALLCUSTOMMEDIASTATE structure [Network Drivers Starting with Windows Vista], netvista.rilcallcustommediastate, ntddrilapitypes/RILCALLCUSTOMMEDIASTATE"
 f1_keywords:
  - "rilapitypes/RILCALLCUSTOMMEDIASTATE"
+ - "RILCALLCUSTOMMEDIASTATE"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

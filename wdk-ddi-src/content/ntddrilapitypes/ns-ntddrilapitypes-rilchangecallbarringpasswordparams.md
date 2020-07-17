@@ -10,6 +10,7 @@ keywords: ["RILCHANGECALLBARRINGPASSWORDPARAMS structure"]
 ms.keywords: "*LPRILCHANGECALLBARRINGPASSWORDPARAMS, RILCHANGECALLBARRINGPASSWORDPARAMS, RILCHANGECALLBARRINGPASSWORDPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilchangecallbarringpasswordparams, ntddrilapitypes/RILCHANGECALLBARRINGPASSWORDPARAMS"
 f1_keywords:
  - "ntddrilapitypes/RILCHANGECALLBARRINGPASSWORDPARAMS"
+ - "RILCHANGECALLBARRINGPASSWORDPARAMS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

@@ -7,6 +7,7 @@ ms.date: 08/13/2018
 keywords: ["IKeyStore::AddRef"]
 f1_keywords:
  - "dbgmodel/IKeyStore.AddRef"
+ - "IKeyStore.AddRef"
 ms.keywords: IKeyStore::AddRef, AddRef, IKeyStore.AddRef, IKeyStore::AddRef, IKeyStore.AddRef
 req.header: dbgmodel.h
 req.include-header:

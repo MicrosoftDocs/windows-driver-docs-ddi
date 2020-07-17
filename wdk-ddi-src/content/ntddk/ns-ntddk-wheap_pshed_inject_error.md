@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["WHEAP_PSHED_INJECT_ERROR structure"]
 f1_keywords:
  - "ntddk/WHEAP_PSHED_INJECT_ERROR"
+ - "WHEAP_PSHED_INJECT_ERROR"
 ms.keywords: WHEAP_PSHED_INJECT_ERROR, WHEAP_PSHED_INJECT_ERROR, *PWHEAP_PSHED_INJECT_ERROR, 
 req.header: ntddk.h
 req.include-header:

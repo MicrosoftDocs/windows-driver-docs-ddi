@@ -10,6 +10,7 @@ keywords: ["NdisMGetOffloadHandlers function"]
 ms.keywords: NdisMGetOffloadHandlers, NdisMGetOffloadHandlers function [Network Drivers Starting with Windows Vista], ndischimney/NdisMGetOffloadHandlers, netvista.ndismgetoffloadhandlers, tcp_chim_ndis_func_6cfee4fb-432c-4f03-b28d-947dbc95ae48.xml
 f1_keywords:
  - "ndischimney/NdisMGetOffloadHandlers"
+ - "NdisMGetOffloadHandlers"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Universal

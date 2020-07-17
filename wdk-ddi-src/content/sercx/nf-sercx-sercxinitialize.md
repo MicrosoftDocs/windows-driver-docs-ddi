@@ -10,6 +10,7 @@ keywords: ["SerCxInitialize function"]
 ms.keywords: 1/SerCxInitialize, SerCxInitialize, SerCxInitialize method [Serial Ports], serports.sercxinitialize
 f1_keywords:
  - "sercx/SerCxInitialize"
+ - "SerCxInitialize"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal

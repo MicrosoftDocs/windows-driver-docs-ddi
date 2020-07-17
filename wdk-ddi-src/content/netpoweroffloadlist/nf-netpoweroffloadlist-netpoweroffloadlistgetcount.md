@@ -10,6 +10,7 @@ ms.date: 10/03/2019
 keywords: ["NetPowerOffloadListGetCount function"]
 f1_keywords:
  - "netpoweroffloadlist/NetPowerOffloadListGetCount"
+ - "NetPowerOffloadListGetCount"
 ms.keywords: NetPowerOffloadListGetCount
 req.header: netpoweroffloadlist.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["PDEBUG_EXTENSION_CALL callback function"]
 ms.keywords: DebugExtensionCall, DebugExtensionCall callback function [Windows Debugging], Extensions_Ref_fc621d91-0419-4ae3-8e53-71f4c522c318.xml, PDEBUG_EXTENSION_CALL, PDEBUG_EXTENSION_CALL callback, dbgeng/DebugExtensionCall, debugger.pdebug_extension_call
 f1_keywords:
  - "dbgeng/DebugExtensionCall"
+ - "DebugExtensionCall"
 req.header: dbgeng.h
 req.include-header: 
 req.target-type: Desktop

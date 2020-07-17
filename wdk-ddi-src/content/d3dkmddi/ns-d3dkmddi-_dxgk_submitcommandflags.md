@@ -9,6 +9,7 @@ keywords: ["_DXGK_SUBMITCOMMANDFLAGS structure"]
 ms.keywords: DXGK_SUBMITCOMMANDFLAGS, DXGK_SUBMITCOMMANDFLAGS structure [Display Devices], DmStructs_c3c77059-3e18-4fe7-a845-b59bb117ba30.xml, _DXGK_SUBMITCOMMANDFLAGS, d3dkmddi/DXGK_SUBMITCOMMANDFLAGS, display.dxgk_submitcommandflags
 f1_keywords:
  - "d3dkmddi/DXGK_SUBMITCOMMANDFLAGS"
+ - "DXGK_SUBMITCOMMANDFLAGS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

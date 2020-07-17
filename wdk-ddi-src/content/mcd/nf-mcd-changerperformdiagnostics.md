@@ -10,6 +10,7 @@ keywords: ["ChangerPerformDiagnostics function"]
 ms.keywords: ChangerPerformDiagnostics, ChangerPerformDiagnostics function [Storage Devices], chgrmini_dd38573a-a1cc-4b7b-abdf-0a200ba11d88.xml, mcd/ChangerPerformDiagnostics, storage.changerperformdiagnostics
 f1_keywords:
  - "mcd/ChangerPerformDiagnostics"
+ - "ChangerPerformDiagnostics"
 req.header: mcd.h
 req.include-header: Mcd.h, Ntddchgr.h
 req.target-type: Desktop

@@ -7,6 +7,7 @@ ms.date: 07/16/2018
 keywords: ["LocationKind enumeration"]
 f1_keywords:
  - "dbgmodel/LocationKind"
+ - "LocationKind"
 ms.keywords: LocationKind, , 
 req.header: dbgmodel.h
 req.include-header:

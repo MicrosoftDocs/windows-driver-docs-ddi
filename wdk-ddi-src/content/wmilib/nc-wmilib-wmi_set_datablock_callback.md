@@ -10,6 +10,7 @@ keywords: ["WMI_SET_DATABLOCK_CALLBACK callback function"]
 ms.keywords: DpWmiSetDataBlock, DpWmiSetDataBlock callback function [Kernel-Mode Driver Architecture], WMI_SET_DATABLOCK_CALLBACK, WMI_SET_DATABLOCK_CALLBACK callback, k903_bb4a483a-1ffc-4664-930b-13cc3579086e.xml, kernel.dpwmisetdatablock, wmilib/DpWmiSetDataBlock
 f1_keywords:
  - "wmilib/DpWmiSetDataBlock"
+ - "DpWmiSetDataBlock"
 req.header: wmilib.h
 req.include-header: Wmilib.h
 req.target-type: Desktop

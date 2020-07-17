@@ -10,6 +10,7 @@ keywords: ["PoFxRegisterPlugin function"]
 ms.keywords: PoFxRegisterPlugin, PoFxRegisterPlugin routine [Kernel-Mode Driver Architecture], kernel.pofxregisterplugin, pepfx/PoFxRegisterPlugin
 f1_keywords:
  - "pepfx/PoFxRegisterPlugin"
+ - "PoFxRegisterPlugin"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows

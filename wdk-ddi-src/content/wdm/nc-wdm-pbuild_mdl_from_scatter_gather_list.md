@@ -10,6 +10,7 @@ keywords: ["PBUILD_MDL_FROM_SCATTER_GATHER_LIST callback function"]
 ms.keywords: BuildMdlFromScatterGatherList, BuildMdlFromScatterGatherList callback function [Kernel-Mode Driver Architecture], PBUILD_MDL_FROM_SCATTER_GATHER_LIST, PBUILD_MDL_FROM_SCATTER_GATHER_LIST callback, kdma_8a1b5bc2-b0ff-41ca-b352-647a0e7b4a79.xml, kernel.buildmdlfromscattergatherlist, wdm/BuildMdlFromScatterGatherList
 f1_keywords:
  - "wdm/BuildMdlFromScatterGatherList"
+ - "BuildMdlFromScatterGatherList"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop

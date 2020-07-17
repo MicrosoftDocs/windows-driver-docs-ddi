@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["_Field_size_bytes_DXGK_ macro"]
 f1_keywords:
  - "dispmprt/_Field_size_bytes_DXGK_"
+ - "_Field_size_bytes_DXGK_"
 ms.keywords: _Field_size_bytes_DXGK_
 req.header: dispmprt.h
 req.include-header:

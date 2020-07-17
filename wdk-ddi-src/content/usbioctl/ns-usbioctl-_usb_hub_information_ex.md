@@ -10,6 +10,7 @@ keywords: ["_USB_HUB_INFORMATION_EX structure"]
 ms.keywords: "*PUSB_HUB_INFORMATION_EX, PUSB_HUB_INFORMATION_EX, PUSB_HUB_INFORMATION_EX structure pointer [Buses], USB_HUB_INFORMATION_EX, USB_HUB_INFORMATION_EX structure [Buses], _USB_HUB_INFORMATION_EX, buses.usb_hub_information_ex, usbioctl/PUSB_HUB_INFORMATION_EX, usbioctl/USB_HUB_INFORMATION_EX"
 f1_keywords:
  - "usbioctl/USB_HUB_INFORMATION_EX"
+ - "USB_HUB_INFORMATION_EX"
 req.header: usbioctl.h
 req.include-header: Usbioctl.h
 req.target-type: Windows

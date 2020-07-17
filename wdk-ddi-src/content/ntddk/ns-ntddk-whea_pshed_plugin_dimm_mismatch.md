@@ -32,6 +32,7 @@ api_name:
 f1_keywords:
  - ntddk/_WHEA_PSHED_PLUGIN_DIMM_MISMATCH
  - ntddk/WHEA_PSHED_PLUGIN_DIMM_MISMATCH
+ - ""
 dev_langs:
  - c++
 ---

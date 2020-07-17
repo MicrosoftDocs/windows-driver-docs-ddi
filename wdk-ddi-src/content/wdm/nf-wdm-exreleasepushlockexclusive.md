@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["ExReleasePushLockExclusive macro"]
 f1_keywords:
  - "wdm/ExReleasePushLockExclusive"
+ - "ExReleasePushLockExclusive"
 ms.keywords: ExReleasePushLockExclusive
 req.header: wdm.h
 req.include-header:

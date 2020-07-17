@@ -10,6 +10,7 @@ keywords: ["KSSTACK_USE enumeration"]
 ms.keywords: KSSTACK_USE, KSSTACK_USE enumeration [Streaming Media Devices], KsStackCopyToNewLocation, KsStackReuseCurrentLocation, KsStackUseNewLocation, ks/KSSTACK_USE, ks/KsStackCopyToNewLocation, ks/KsStackReuseCurrentLocation, ks/KsStackUseNewLocation, stream.ksstack_use
 f1_keywords:
  - "ks/KSSTACK_USE"
+ - "KSSTACK_USE"
 req.header: ks.h
 req.include-header: 
 req.target-type: Windows

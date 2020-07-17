@@ -10,6 +10,7 @@ keywords: ["KsDiscard macro"]
 ms.keywords: KsDiscard, KsDiscard function [Streaming Media Devices], avfunc_645e5574-6c6b-4336-87fe-fe777f7d1c91.xml, ks/KsDiscard, stream.ksdiscard
 f1_keywords:
  - "ks/KsDiscard"
+ - "KsDiscard"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["ExtRemoteData::Clear method"]
 ms.keywords: ExtRemoteData class [Windows Debugging], described, EngExtCpp_Ref_e84c03ce-1156-481b-a429-f0a918797565.xml, debugger.extremotedata, Clear, ExtRemoteData class [Windows Debugging], ExtRemoteData, engextcpp/ExtRemoteData, ExtRemoteData::Clear
 f1_keywords:
  - "engextcpp/ExtRemoteData"
+ - "ExtRemoteData"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Windows

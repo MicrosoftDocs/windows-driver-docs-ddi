@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["*PFN_TRSECUREDEVICEQUERYOSSERVICE callback function"]
 f1_keywords:
  - "trustedruntimeclx/*PFN_TRSECUREDEVICEQUERYOSSERVICE"
+ - "*PFN_TRSECUREDEVICEQUERYOSSERVICE"
 req.header: trustedruntimeclx.h
 req.include-header:
 req.target-type:

@@ -10,6 +10,7 @@ keywords: ["KeFlushIoBuffers function"]
 ms.keywords: KeFlushIoBuffers, KeFlushIoBuffers routine [Kernel-Mode Driver Architecture], k105_265e110c-5dad-444c-a97d-6693d7996c51.xml, kernel.keflushiobuffers, wdm/KeFlushIoBuffers
 f1_keywords:
  - "wdm/KeFlushIoBuffers"
+ - "KeFlushIoBuffers"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

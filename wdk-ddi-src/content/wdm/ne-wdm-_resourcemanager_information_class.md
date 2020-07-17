@@ -10,6 +10,7 @@ keywords: ["_RESOURCEMANAGER_INFORMATION_CLASS enumeration"]
 ms.keywords: RESOURCEMANAGER_INFORMATION_CLASS, RESOURCEMANAGER_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], ResourceManagerBasicInformation, ResourceManagerCompletionInformation, _RESOURCEMANAGER_INFORMATION_CLASS, kernel.resourcemanager_information_class, ktm_ref_72b34c92-3548-4148-94c2-49f4a66ad4bf.xml, wdm/RESOURCEMANAGER_INFORMATION_CLASS, wdm/ResourceManagerBasicInformation, wdm/ResourceManagerCompletionInformation
 f1_keywords:
  - "wdm/RESOURCEMANAGER_INFORMATION_CLASS"
+ - "RESOURCEMANAGER_INFORMATION_CLASS"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows

@@ -9,6 +9,7 @@ keywords: ["PFND3D11_1DDI_CHECKVIDEODECODERFORMAT callback function"]
 ms.keywords: CheckVideoDecoderFormat, CheckVideoDecoderFormat callback function [Display Devices], PFND3D11_1DDI_CHECKVIDEODECODERFORMAT, PFND3D11_1DDI_CHECKVIDEODECODERFORMAT callback, d3d10umddi/CheckVideoDecoderFormat, display.checkvideodecoderformat
 f1_keywords:
  - "d3d10umddi/CheckVideoDecoderFormat"
+ - "CheckVideoDecoderFormat"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

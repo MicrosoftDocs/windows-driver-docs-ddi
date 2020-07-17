@@ -10,6 +10,7 @@ keywords: ["NFC_CX_CLIENT_CONFIG_INIT function"]
 ms.keywords: NFC_CX_CLIENT_CONFIG_INIT, NFC_CX_CLIENT_CONFIG_INIT function [Near-Field Proximity Drivers], nfccx/NFC_CX_CLIENT_CONFIG_INIT, nfpdrivers.nfc_cx_client_config_init
 f1_keywords:
  - "nfccx/NFC_CX_CLIENT_CONFIG_INIT"
+ - "NFC_CX_CLIENT_CONFIG_INIT"
 req.header: nfccx.h
 req.include-header: Ncidef.h
 req.target-type: Desktop

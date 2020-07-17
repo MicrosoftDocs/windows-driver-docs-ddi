@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["USBPM_HUB_CONNECTOR_HANDLES_INIT function"]
 f1_keywords:
  - "usbpmapi/USBPM_HUB_CONNECTOR_HANDLES_INIT"
+ - "USBPM_HUB_CONNECTOR_HANDLES_INIT"
 ms.keywords: USBPM_HUB_CONNECTOR_HANDLES_INIT
 tech.root: usbref
 req.header: usbpmapi.h

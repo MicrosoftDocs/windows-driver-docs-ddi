@@ -10,6 +10,7 @@ keywords: ["W_INITIATE_OFFLOAD_HANDLER callback function"]
 ms.keywords: MiniportInitiateOffload, MiniportInitiateOffload callback function [Network Drivers Starting with Windows Vista], W_INITIATE_OFFLOAD_HANDLER, W_INITIATE_OFFLOAD_HANDLER callback, ndischimney/MiniportInitiateOffload, netvista.miniportinitiateoffload, tcp_chim_miniport_func_58c338e0-ea8e-41c2-a781-a32f4be7758c.xml
 f1_keywords:
  - "ndischimney/MiniportInitiateOffload"
+ - "MiniportInitiateOffload"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Windows

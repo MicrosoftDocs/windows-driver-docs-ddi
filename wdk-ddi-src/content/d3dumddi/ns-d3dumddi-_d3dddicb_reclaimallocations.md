@@ -10,6 +10,7 @@ keywords: ["_D3DDDICB_RECLAIMALLOCATIONS structure"]
 ms.keywords: D3DDDICB_RECLAIMALLOCATIONS, D3DDDICB_RECLAIMALLOCATIONS structure [Display Devices], _D3DDDICB_RECLAIMALLOCATIONS, d3dumddi/D3DDDICB_RECLAIMALLOCATIONS, display.d3dddicb_reclaimallocations
 f1_keywords:
  - "d3dumddi/D3DDDICB_RECLAIMALLOCATIONS"
+ - "D3DDDICB_RECLAIMALLOCATIONS"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

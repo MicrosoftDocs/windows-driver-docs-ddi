@@ -10,6 +10,7 @@ keywords: ["RtlConvertUlongToLuid function"]
 ms.keywords: RtlConvertUlongToLuid, RtlConvertUlongToLuid routine [Kernel-Mode Driver Architecture], k109_25b3458f-dc47-436f-af5b-7d6a9d8eeb2a.xml, kernel.rtlconvertulongtoluid, ntddk/RtlConvertUlongToLuid
 f1_keywords:
  - "ntddk/RtlConvertUlongToLuid"
+ - "RtlConvertUlongToLuid"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Desktop

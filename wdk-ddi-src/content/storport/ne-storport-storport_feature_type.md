@@ -12,6 +12,7 @@ ms.keywords: STORPORT_FEATURE_TYPE, STORPORT_FEATURE_TYPE,
 req.header: storport.h
 f1_keywords:
  - "storport/STORPORT_FEATURE_TYPE"
+ - "STORPORT_FEATURE_TYPE"
 req.include-header:
 req.target-type:
 req.target-min-winverclnt: Windows 10, version 2004

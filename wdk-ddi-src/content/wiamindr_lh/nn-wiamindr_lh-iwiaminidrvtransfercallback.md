@@ -10,6 +10,7 @@ keywords: ["IWiaMiniDrvTransferCallback interface"]
 ms.keywords: IWiaMiniDrvTransferCallback, IWiaMiniDrvTransferCallback interface [Imaging Devices], IWiaMiniDrvTransferCallback interface [Imaging Devices],described, image.iwiaminidrvtransfercallback, wiamindr_lh/IWiaMiniDrvTransferCallback
 f1_keywords:
  - "wiamindr_lh/IWiaMiniDrvTransferCallback"
+ - "IWiaMiniDrvTransferCallback"
 req.header: wiamindr_lh.h
 req.include-header: 
 req.target-type: Desktop

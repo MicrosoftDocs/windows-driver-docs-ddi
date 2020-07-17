@@ -10,6 +10,7 @@ keywords: ["_DELETE_BAND_PARAMETERS structure"]
 ms.keywords: "*PDELETE_BAND_PARAMETERS, DELBAND_ERASE_BEFORE_DELETE, DELETE_BAND_PARAMETERS, DELETE_BAND_PARAMETERS structure [Storage Devices], PDELETE_BAND_PARAMETERS, PDELETE_BAND_PARAMETERS structure pointer [Storage Devices], _DELETE_BAND_PARAMETERS, ehstorbandmgmt/DELETE_BAND_PARAMETERS, ehstorbandmgmt/PDELETE_BAND_PARAMETERS, storage.delete_band_parameters"
 f1_keywords:
  - "ehstorbandmgmt/DELETE_BAND_PARAMETERS"
+ - "DELETE_BAND_PARAMETERS"
 req.header: ehstorbandmgmt.h
 req.include-header: EhStorBandMgmt.h
 req.target-type: Windows

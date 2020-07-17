@@ -10,6 +10,7 @@ keywords: ["_DXGK_CHILD_CONTAINER_ID structure"]
 ms.keywords: "*PDXGK_CHILD_CONTAINER_ID, DXGK_CHILD_CONTAINER_ID, DXGK_CHILD_CONTAINER_ID structure [Display Devices], PDXGK_CHILD_CONTAINER_ID, PDXGK_CHILD_CONTAINER_ID structure pointer [Display Devices], _DXGK_CHILD_CONTAINER_ID, display.dxgk_child_container_id, dispmprt/DXGK_CHILD_CONTAINER_ID, dispmprt/PDXGK_CHILD_CONTAINER_ID"
 f1_keywords:
  - "dispmprt/DXGK_CHILD_CONTAINER_ID"
+ - "DXGK_CHILD_CONTAINER_ID"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Windows

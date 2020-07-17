@@ -10,6 +10,7 @@ keywords: ["POFXCALLBACKREQUESTWORKER callback function"]
 ms.keywords: POFXCALLBACKREQUESTWORKER, RequestWorker, RequestWorker routine [Kernel-Mode Driver Architecture], kernel.requestworker, pepfx/RequestWorker
 f1_keywords:
  - "pep_x/RequestWorker"
+ - "RequestWorker"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["IsReparseTagNameSurrogate macro"]
 ms.keywords: IsReparseTagNameSurrogate, IsReparseTagNameSurrogate function [Installable File System Drivers], ifsk.isreparsetagnamesurrogate, ioref_f44ef76c-2211-43a1-b151-a5804c7cd361.xml, ntifs/IsReparseTagNameSurrogate
 f1_keywords:
  - "ntifs/IsReparseTagNameSurrogate"
+ - "IsReparseTagNameSurrogate"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["IOCTL_TAPE_GET_STATUS IOCTL"]
 ms.keywords: IOCTL_TAPE_GET_STATUS, IOCTL_TAPE_GET_STATUS control, IOCTL_TAPE_GET_STATUS control code [Storage Devices], k307_8ab90364-adac-4937-9036-aa28ddeffb19.xml, ntddtape/IOCTL_TAPE_GET_STATUS, storage.ioctl_tape_get_status
 f1_keywords:
  - "ntddtape/IOCTL_TAPE_GET_STATUS"
+ - "IOCTL_TAPE_GET_STATUS"
 req.header: ntddtape.h
 req.include-header: Ntddtape.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["NdisDeleteNPagedLookasideList macro"]
 ms.keywords: NdisDeleteNPagedLookasideList, NdisDeleteNPagedLookasideList macro [Network Drivers Starting with Windows Vista], ndis/NdisDeleteNPagedLookasideList, ndis_lookaside_ref_37df3d7d-0aa7-4d8e-b6a5-38ab85ca929e.xml, netvista.ndisdeletenpagedlookasidelist
 f1_keywords:
  - "ndis/NdisDeleteNPagedLookasideList"
+ - "NdisDeleteNPagedLookasideList"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

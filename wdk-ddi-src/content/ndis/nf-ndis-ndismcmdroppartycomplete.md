@@ -10,6 +10,7 @@ keywords: ["NdisMCmDropPartyComplete macro"]
 ms.keywords: NdisMCmDropPartyComplete, NdisMCmDropPartyComplete macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_61bf04f0-c6cd-445f-8e4a-512884b96902.xml, ndis/NdisMCmDropPartyComplete, netvista.ndismcmdroppartycomplete
 f1_keywords:
  - "ndis/NdisMCmDropPartyComplete"
+ - "NdisMCmDropPartyComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

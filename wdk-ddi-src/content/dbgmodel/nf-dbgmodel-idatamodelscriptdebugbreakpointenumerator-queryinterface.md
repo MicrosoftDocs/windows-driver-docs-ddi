@@ -7,6 +7,7 @@ ms.date: 09/10/2018
 keywords: ["IDataModelScriptDebugBreakpointEnumerator::QueryInterface"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebugBreakpointEnumerator.QueryInterface"
+ - "IDataModelScriptDebugBreakpointEnumerator.QueryInterface"
 ms.keywords: IDataModelScriptDebugBreakpointEnumerator::QueryInterface, QueryInterface, IDataModelScriptDebugBreakpointEnumerator.QueryInterface, IDataModelScriptDebugBreakpointEnumerator::QueryInterface, IDataModelScriptDebugBreakpointEnumerator.QueryInterface
 req.header: dbgmodel.h
 req.include-header:

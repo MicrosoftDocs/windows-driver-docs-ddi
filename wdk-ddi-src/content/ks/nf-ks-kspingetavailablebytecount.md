@@ -10,6 +10,7 @@ keywords: ["KsPinGetAvailableByteCount function"]
 ms.keywords: KsPinGetAvailableByteCount, KsPinGetAvailableByteCount routine [Streaming Media Devices], avfunc_2ba6a7f8-59b4-45bf-989a-97f8a494b4bc.xml, ks/KsPinGetAvailableByteCount, stream.kspingetavailablebytecount
 f1_keywords:
  - "ks/KsPinGetAvailableByteCount"
+ - "KsPinGetAvailableByteCount"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

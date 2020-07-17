@@ -10,6 +10,7 @@ keywords: ["_REG_DELETE_VALUE_KEY_INFORMATION structure"]
 ms.keywords: "*PREG_DELETE_VALUE_KEY_INFORMATION, PREG_DELETE_VALUE_KEY_INFORMATION, PREG_DELETE_VALUE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_DELETE_VALUE_KEY_INFORMATION, REG_DELETE_VALUE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], _REG_DELETE_VALUE_KEY_INFORMATION, kernel.reg_delete_value_key_information, kstruct_d_a95a729a-53de-4acc-a935-c2f60d7f9f18.xml, wdm/PREG_DELETE_VALUE_KEY_INFORMATION, wdm/REG_DELETE_VALUE_KEY_INFORMATION"
 f1_keywords:
  - "wdm/REG_DELETE_VALUE_KEY_INFORMATION"
+ - "REG_DELETE_VALUE_KEY_INFORMATION"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows

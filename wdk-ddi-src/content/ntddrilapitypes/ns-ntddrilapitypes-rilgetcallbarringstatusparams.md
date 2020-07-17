@@ -10,6 +10,7 @@ keywords: ["RILGETCALLBARRINGSTATUSPARAMS structure"]
 ms.keywords: "*LPRILGETCALLBARRINGSTATUSPARAMS, RILGETCALLBARRINGSTATUSPARAMS, RILGETCALLBARRINGSTATUSPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilgetcallbarringstatusparams, ntddrilapitypes/RILGETCALLBARRINGSTATUSPARAMS"
 f1_keywords:
  - "ntddrilapitypes/RILGETCALLBARRINGSTATUSPARAMS"
+ - "RILGETCALLBARRINGSTATUSPARAMS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["KSNODEPROPERTY structure"]
 ms.keywords: "*PKSNODEPROPERTY, KSNODEPROPERTY, KSNODEPROPERTY structure [Audio Devices], PKSNODEPROPERTY, PKSNODEPROPERTY structure pointer [Audio Devices], aud-prop_7d1e6907-77f6-445d-ba5d-b94037b234f3.xml, audio.ksnodeproperty, ksmedia/KSNODEPROPERTY, ksmedia/PKSNODEPROPERTY"
 f1_keywords:
  - "ksmedia/KSNODEPROPERTY"
+ - "KSNODEPROPERTY"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

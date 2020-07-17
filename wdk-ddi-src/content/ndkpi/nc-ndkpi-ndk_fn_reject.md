@@ -10,6 +10,7 @@ keywords: ["NDK_FN_REJECT callback function"]
 ms.keywords: NDK_FN_REJECT, NDK_FN_REJECT callback, NdkReject, NdkReject callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkReject, netvista.ndk_fn_reject
 f1_keywords:
  - "ndkpi/NdkReject"
+ - "NdkReject"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

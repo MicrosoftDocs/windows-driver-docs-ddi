@@ -9,6 +9,7 @@ keywords: ["_DXGK_SEGMENTBANKPREFERENCE structure"]
 ms.keywords: DXGK_SEGMENTBANKPREFERENCE, DXGK_SEGMENTBANKPREFERENCE structure [Display Devices], DmStructs_58615e96-0b7c-49a9-8966-0f627d7078f7.xml, _DXGK_SEGMENTBANKPREFERENCE, d3dkmddi/DXGK_SEGMENTBANKPREFERENCE, display.dxgk_segmentbankpreference
 f1_keywords:
  - "d3dkmddi/DXGK_SEGMENTBANKPREFERENCE"
+ - "DXGK_SEGMENTBANKPREFERENCE"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

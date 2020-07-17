@@ -10,6 +10,7 @@ keywords: ["_PNP_LOCATION_INTERFACE structure"]
 ms.keywords: "*PPNP_LOCATION_INTERFACE, PNP_LOCATION_INTERFACE, PNP_LOCATION_INTERFACE structure [Kernel-Mode Driver Architecture], PPNP_LOCATION_INTERFACE, PPNP_LOCATION_INTERFACE structure pointer [Kernel-Mode Driver Architecture], _PNP_LOCATION_INTERFACE, drvr_interface_06c9b5c0-359b-4b14-9ade-8f88f04ee534.xml, kernel.pnp_location_interface, ntddk/PNP_LOCATION_INTERFACE, ntddk/PPNP_LOCATION_INTERFACE"
 f1_keywords:
  - "ntddk/PNP_LOCATION_INTERFACE"
+ - "PNP_LOCATION_INTERFACE"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Windows

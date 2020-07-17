@@ -10,6 +10,7 @@ keywords: ["MINIPORT_ADD_DEVICE callback function"]
 ms.keywords: MINIPORT_ADD_DEVICE, MINIPORT_ADD_DEVICE callback, MiniportAddDevice, MiniportAddDevice callback function [Network Drivers Starting with Windows Vista], ndis/MiniportAddDevice, ndis_msix_ref_60df66e2-2e17-4bd1-8793-8310326d883d.xml, netvista.miniportadddevice
 f1_keywords:
  - "ndis/MiniportAddDevice"
+ - "MiniportAddDevice"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

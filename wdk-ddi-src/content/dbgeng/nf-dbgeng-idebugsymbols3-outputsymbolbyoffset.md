@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::OutputSymbolByOffset"]
 ms.keywords: IDebugSymbols3 interface [Windows Debugging],OutputSymbolByOffset method, IDebugSymbols3.OutputSymbolByOffset, IDebugSymbols3::OutputSymbolByOffset, IDebugSymbols_45f0a841-85cf-4be8-82bc-e962b5af2f5d.xml, OutputSymbolByOffset, OutputSymbolByOffset method [Windows Debugging], OutputSymbolByOffset method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols3::OutputSymbolByOffset, debugger.outputsymbolbyoffset
 f1_keywords:
  - "dbgeng/IDebugSymbols3.OutputSymbolByOffset"
+ - "IDebugSymbols3.OutputSymbolByOffset"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

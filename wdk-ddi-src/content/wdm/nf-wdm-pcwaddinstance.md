@@ -10,6 +10,7 @@ keywords: ["PcwAddInstance function"]
 ms.keywords: PcwAddInstance, PcwAddInstance function [Driver Development Tools], devtest.pcwaddinstance, km_pcw_1819c4ec-a951-4069-a8ff-24cf11f1b68c.xml, wdm/PcwAddInstance
 f1_keywords:
  - "wdm/PcwAddInstance"
+ - "PcwAddInstance"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["NDK_FN_GET_SHARED_ENDPOINT_LOCAL_ADDRESS callback function"]
 ms.keywords: NDK_FN_GET_SHARED_ENDPOINT_LOCAL_ADDRESS, NDK_FN_GET_SHARED_ENDPOINT_LOCAL_ADDRESS callback, NdkGetSharedEndpointLocalAddress, NdkGetSharedEndpointLocalAddress callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkGetSharedEndpointLocalAddress, netvista.ndk_fn_get_shared_endpoint_local_address
 f1_keywords:
  - "ndkpi/NdkGetSharedEndpointLocalAddress"
+ - "NdkGetSharedEndpointLocalAddress"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

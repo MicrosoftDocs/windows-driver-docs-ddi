@@ -10,6 +10,7 @@ keywords: ["PROTOCOL_CL_DROP_PARTY_COMPLETE callback function"]
 ms.keywords: PROTOCOL_CL_DROP_PARTY_COMPLETE, PROTOCOL_CL_DROP_PARTY_COMPLETE callback, ProtocolClDropPartyComplete, ProtocolClDropPartyComplete callback function [Network Drivers Starting with Windows Vista], condis_client_ref_6586ee1a-9f7f-4125-966e-1f6df74b75df.xml, ndis/ProtocolClDropPartyComplete, netvista.protocolcldroppartycomplete
 f1_keywords:
  - "ndis/ProtocolClDropPartyComplete"
+ - "ProtocolClDropPartyComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["_OFFLOAD_SECURITY_ASSOCIATION structure"]
 ms.keywords: "*POFFLOAD_SECURITY_ASSOCIATION, 216offload_3c6a958b-81b2-4f18-b974-b0669b6294e1.xml, OFFLOAD_SECURITY_ASSOCIATION, OFFLOAD_SECURITY_ASSOCIATION structure [Network Drivers Starting with Windows Vista], POFFLOAD_SECURITY_ASSOCIATION, POFFLOAD_SECURITY_ASSOCIATION structure pointer [Network Drivers Starting with Windows Vista], _OFFLOAD_SECURITY_ASSOCIATION, netvista.offload_security_association, ntddndis/OFFLOAD_SECURITY_ASSOCIATION, ntddndis/POFFLOAD_SECURITY_ASSOCIATION"
 f1_keywords:
  - "ntddndis/OFFLOAD_SECURITY_ASSOCIATION"
+ - "OFFLOAD_SECURITY_ASSOCIATION"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

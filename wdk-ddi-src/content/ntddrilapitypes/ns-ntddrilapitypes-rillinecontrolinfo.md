@@ -10,6 +10,7 @@ keywords: ["RILLINECONTROLINFO structure"]
 ms.keywords: "*LPRILLINECONTROLINFO, RILLINECONTROLINFO, RILLINECONTROLINFO structure [Network Drivers Starting with Windows Vista], netvista.rillinecontrolinfo, ntddrilapitypes/RILLINECONTROLINFO"
 f1_keywords:
  - "ntddrilapitypes/RILLINECONTROLINFO"
+ - "RILLINECONTROLINFO"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["tagWPD_STORAGE_TYPE_VALUES enumeration"]
 ms.keywords: WPD_STORAGE_TYPE_FIXED_RAM, WPD_STORAGE_TYPE_FIXED_ROM, WPD_STORAGE_TYPE_REMOVABLE_RAM, WPD_STORAGE_TYPE_REMOVABLE_ROM, WPD_STORAGE_TYPE_UNDEFINED, WPD_STORAGE_TYPE_VALUES, WPD_STORAGE_TYPE_VALUES enumeration, portabledevice/WPD_STORAGE_TYPE_FIXED_RAM, portabledevice/WPD_STORAGE_TYPE_FIXED_ROM, portabledevice/WPD_STORAGE_TYPE_REMOVABLE_RAM, portabledevice/WPD_STORAGE_TYPE_REMOVABLE_ROM, portabledevice/WPD_STORAGE_TYPE_UNDEFINED, portabledevice/WPD_STORAGE_TYPE_VALUES, tagWPD_STORAGE_TYPE_VALUES, wpddk.wpd_storage_type_values
 f1_keywords:
  - "portabledevice/WPD_STORAGE_TYPE_VALUES"
+ - "WPD_STORAGE_TYPE_VALUES"
 req.header: portabledevice.h
 req.include-header: 
 req.target-type: Windows

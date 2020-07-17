@@ -7,6 +7,7 @@ ms.date: 10/05/2018
 keywords: ["IDataModelScriptHostContext interface"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptHostContext"
+ - "IDataModelScriptHostContext"
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

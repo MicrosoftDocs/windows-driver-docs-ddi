@@ -10,6 +10,7 @@ ms.topic: enum
 ms.keywords: KSPROPERTY_NETWORKCAMERACONTROL_PROPERTY
 f1_keywords:
 - "ksmedia/KSPROPERTY_NETWORKCAMERACONTROL_PROPERTY"
+ - "KSPROPERTY_NETWORKCAMERACONTROL_PROPERTY"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.construct-type: structure

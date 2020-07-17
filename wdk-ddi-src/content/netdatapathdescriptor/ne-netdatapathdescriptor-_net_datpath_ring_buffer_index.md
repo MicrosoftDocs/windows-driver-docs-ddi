@@ -8,6 +8,7 @@ ms.date: 02/27/2018
 keywords: ["_NET_DATPATH_RING_BUFFER_INDEX enumeration"]
 f1_keywords:
  - "netdatapathdescriptor/_NET_DATPATH_RING_BUFFER_INDEX"
+ - "_NET_DATPATH_RING_BUFFER_INDEX"
 ms.keywords: _NET_DATPATH_RING_BUFFER_INDEX, NET_DATPATH_RING_BUFFER_INDEX, 
 req.header: netdatapathdescriptor.h
 req.include-header: netadaptercx.h

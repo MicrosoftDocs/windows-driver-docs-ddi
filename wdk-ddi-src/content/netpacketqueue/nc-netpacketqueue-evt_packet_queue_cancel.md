@@ -8,6 +8,7 @@ ms.date: 01/24/2019
 keywords: ["EVT_PACKET_QUEUE_CANCEL callback function"]
 f1_keywords:
  - "netpacketqueue/EVT_PACKET_QUEUE_CANCEL"
+ - "EVT_PACKET_QUEUE_CANCEL"
 req.header: netpacketqueue.h
 req.include-header:
 req.target-type: Universal

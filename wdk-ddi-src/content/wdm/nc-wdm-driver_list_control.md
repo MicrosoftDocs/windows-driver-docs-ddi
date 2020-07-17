@@ -10,6 +10,7 @@ keywords: ["DRIVER_LIST_CONTROL callback function"]
 ms.keywords: AdapterListControl, AdapterListControl routine [Kernel-Mode Driver Architecture], DRIVER_LIST_CONTROL, DrvrRtns_feb5903f-df38-4471-ab1e-2e6341620774.xml, kernel.adapterlistcontrol, wdm/AdapterListControl
 f1_keywords:
  - "wdm/AdapterListControl"
+ - "AdapterListControl"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

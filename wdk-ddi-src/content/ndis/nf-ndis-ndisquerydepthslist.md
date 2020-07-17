@@ -10,6 +10,7 @@ keywords: ["NdisQueryDepthSList macro"]
 ms.keywords: NdisQueryDepthSList, NdisQueryDepthSList macro [Network Drivers Starting with Windows Vista], ndis/NdisQueryDepthSList, ndis_interlocked_ref_f44c64cf-029a-408e-84a0-a8c09bc91592.xml, netvista.ndisquerydepthslist
 f1_keywords:
  - "ndis/NdisQueryDepthSList"
+ - "NdisQueryDepthSList"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

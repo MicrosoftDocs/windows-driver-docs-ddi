@@ -10,6 +10,7 @@ keywords: ["PcwCreateInstance function"]
 ms.keywords: PcwCreateInstance, PcwCreateInstance function [Driver Development Tools], devtest.pcwcreateinstance, km_pcw_32dba149-fed7-4e86-b68c-1f3a6348cb7a.xml, wdm/PcwCreateInstance
 f1_keywords:
  - "wdm/PcwCreateInstance"
+ - "PcwCreateInstance"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["EVT_IDD_CX_MONITOR_OPM_GET_INFOMATION callback function"]
 ms.keywords: EVT_IDD_CX_MONITOR_OPM_GET_INFOMATION, EVT_IDD_CX_MONITOR_OPM_GET_INFOMATION callback, EvtIddCxMonitorOpmGetInfomation, EvtIddCxMonitorOpmGetInfomation callback function [Display Devices], PFN_IDD_CX_MONITOR_OPM_GET_INFOMATION, PFN_IDD_CX_MONITOR_OPM_GET_INFOMATION callback function pointer [Display Devices], display.evt_idd_cx_monitor_opm_get_infomation, iddcx/EvtIddCxMonitorOpmGetInfomation
 f1_keywords:
  - "iddcx/PFN_IDD_CX_MONITOR_OPM_GET_INFOMATION"
+ - "PFN_IDD_CX_MONITOR_OPM_GET_INFOMATION"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows

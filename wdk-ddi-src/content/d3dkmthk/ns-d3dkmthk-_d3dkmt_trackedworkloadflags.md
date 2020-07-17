@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_TRACKEDWORKLOADFLAGS structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_TRACKEDWORKLOADFLAGS"
+ - "_D3DKMT_TRACKEDWORKLOADFLAGS"
 ms.keywords: _D3DKMT_TRACKEDWORKLOADFLAGS, D3DKMT_TRACKEDWORKLOADFLAGS, 
 req.header: d3dkmthk.h
 req.include-header:

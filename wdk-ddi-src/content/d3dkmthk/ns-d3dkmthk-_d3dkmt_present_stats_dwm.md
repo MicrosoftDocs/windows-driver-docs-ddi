@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_PRESENT_STATS_DWM structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_PRESENT_STATS_DWM"
+ - "_D3DKMT_PRESENT_STATS_DWM"
 ms.keywords: _D3DKMT_PRESENT_STATS_DWM, D3DKMT_PRESENT_STATS_DWM, 
 req.header: d3dkmthk.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["KsPinRegisterAggregatedClientUnknown function"]
 ms.keywords: KsPinRegisterAggregatedClientUnknown, KsPinRegisterAggregatedClientUnknown function [Streaming Media Devices], avfunc_688a6c60-58c8-4e65-a3bc-d68e713ca3fc.xml, ks/KsPinRegisterAggregatedClientUnknown, stream.kspinregisteraggregatedclientunknown
 f1_keywords:
  - "ks/KsPinRegisterAggregatedClientUnknown"
+ - "KsPinRegisterAggregatedClientUnknown"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop

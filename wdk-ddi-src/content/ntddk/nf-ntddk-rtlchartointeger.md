@@ -10,6 +10,7 @@ keywords: ["RtlCharToInteger function"]
 ms.keywords: RtlCharToInteger, RtlCharToInteger routine [Kernel-Mode Driver Architecture], k109_0c8d9b78-6363-4884-a475-4f402ea3643a.xml, kernel.rtlchartointeger, ntddk/RtlCharToInteger
 f1_keywords:
  - "ntddk/RtlCharToInteger"
+ - "RtlCharToInteger"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

@@ -7,6 +7,7 @@ ms.date: 04/19/2018
 keywords: ["I2C_REQUEST_SIZE macro"]
 f1_keywords:
  - "sensorsdriversutils/I2C_REQUEST_SIZE"
+ - "I2C_REQUEST_SIZE"
 ms.keywords: I2C_REQUEST_SIZE
 req.header: sensorsdriversutils.h
 req.include-header:

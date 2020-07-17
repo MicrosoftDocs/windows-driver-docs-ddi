@@ -8,6 +8,7 @@ ms.date: 07/18/2018
 keywords: ["EVT_PACKET_QUEUE_STOP callback function"]
 f1_keywords:
  - "netpacketqueue/EVT_PACKET_QUEUE_STOP"
+ - "EVT_PACKET_QUEUE_STOP"
 req.header: netpacketqueue.h
 req.include-header:
 req.target-type: Universal

@@ -8,6 +8,7 @@ ms.date: 04/13/2018
 keywords: ["NET_BUFFER_LIST_GET_HASH_FUNCTION macro"]
 f1_keywords:
  - "ndis/NET_BUFFER_LIST_GET_HASH_FUNCTION"
+ - "NET_BUFFER_LIST_GET_HASH_FUNCTION"
 ms.keywords: NET_BUFFER_LIST_GET_HASH_FUNCTION
 req.header: ndis.h
 req.include-header:

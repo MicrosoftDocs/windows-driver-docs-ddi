@@ -7,6 +7,7 @@ ms.date: 09/12/2018
 keywords: ["IDebugHostEvaluator::EvaluateExtendedExpression"]
 f1_keywords:
  - "dbgmodel/IDebugHostEvaluator.EvaluateExtendedExpression"
+ - "IDebugHostEvaluator.EvaluateExtendedExpression"
 ms.keywords: IDebugHostEvaluator::EvaluateExtendedExpression, EvaluateExtendedExpression, IDebugHostEvaluator.EvaluateExtendedExpression, IDebugHostEvaluator::EvaluateExtendedExpression, IDebugHostEvaluator.EvaluateExtendedExpression
 req.header: dbgmodel.h
 req.include-header:

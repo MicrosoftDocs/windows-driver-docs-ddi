@@ -10,6 +10,7 @@ keywords: ["IPrintOemEngine::ResetPDEV"]
 ms.keywords: IPrintOemEngine interface [Print Devices],ResetPDEV method, IPrintOemEngine.ResetPDEV, IPrintOemEngine::ResetPDEV, ResetPDEV, ResetPDEV method [Print Devices], ResetPDEV method [Print Devices],IPrintOemEngine interface, prcomoem/IPrintOemEngine::ResetPDEV, print.iprintoemengine_resetpdev
 f1_keywords:
  - "prcomoem/IPrintOemEngine.ResetPDEV"
+ - "IPrintOemEngine.ResetPDEV"
 req.header: prcomoem.h
 req.include-header: 
 req.target-type: Windows

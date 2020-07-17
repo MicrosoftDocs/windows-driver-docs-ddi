@@ -10,6 +10,7 @@ keywords: ["_VP_DEVICE_DESCRIPTION structure"]
 ms.keywords: "*PVP_DEVICE_DESCRIPTION, PVP_DEVICE_DESCRIPTION, PVP_DEVICE_DESCRIPTION structure pointer [Display Devices], VP_DEVICE_DESCRIPTION, VP_DEVICE_DESCRIPTION structure [Display Devices], Video_Structs_056eb332-bc5b-4b1f-8219-91a418dd628f.xml, _VP_DEVICE_DESCRIPTION, display.vp_device_description, video/PVP_DEVICE_DESCRIPTION, video/VP_DEVICE_DESCRIPTION"
 f1_keywords:
  - "video/VP_DEVICE_DESCRIPTION"
+ - "VP_DEVICE_DESCRIPTION"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Windows

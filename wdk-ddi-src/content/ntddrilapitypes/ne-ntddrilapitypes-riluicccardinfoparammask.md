@@ -10,6 +10,7 @@ keywords: ["RILUICCCARDINFOPARAMMASK enumeration"]
 ms.keywords: RILUICCCARDINFOPARAMMASK, RILUICCCARDINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CARDINFO_ALL, RIL_PARAM_CARDINFO_APPINFO, RIL_PARAM_CARDINFO_ICCID, RIL_PARAM_CARDINFO_NUMAPPS, netvista.riluicccardinfoparammask, ntddrilapitypes/RILUICCCARDINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_CARDINFO_ALL, ntddrilapitypes/RIL_PARAM_CARDINFO_APPINFO, ntddrilapitypes/RIL_PARAM_CARDINFO_ICCID, ntddrilapitypes/RIL_PARAM_CARDINFO_NUMAPPS
 f1_keywords:
  - "ntddrilapitypes/RILUICCCARDINFOPARAMMASK"
+ - "RILUICCCARDINFOPARAMMASK"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

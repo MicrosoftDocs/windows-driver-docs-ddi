@@ -10,6 +10,7 @@ keywords: ["FsRtlMupGetProviderIdFromName function"]
 ms.keywords: FsRtlMupGetProviderIdFromName, FsRtlMupGetProviderIdFromName routine [Installable File System Drivers], fsrtlref_40c084cd-454c-4e09-afc1-fca3a78bf614.xml, ifsk.fsrtlmupgetprovideridfromname, ntifs/FsRtlMupGetProviderIdFromName
 f1_keywords:
  - "ntifs/FsRtlMupGetProviderIdFromName"
+ - "FsRtlMupGetProviderIdFromName"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

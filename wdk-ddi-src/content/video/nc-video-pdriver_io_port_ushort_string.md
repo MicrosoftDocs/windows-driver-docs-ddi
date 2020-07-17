@@ -10,6 +10,7 @@ keywords: ["PDRIVER_IO_PORT_USHORT_STRING callback function"]
 ms.keywords: PDRIVER_IO_PORT_USHORT_STRING, PDRIVER_IO_PORT_USHORT_STRING callback, SvgaHwIoPortUshortString, SvgaHwIoPortUshortString callback function [Display Devices], VideoMiniport_Functions_7ac011d5-6b69-4ac5-92dd-abc8f2c43740.xml, display.svgahwioportushortstring, video/SvgaHwIoPortUshortString
 f1_keywords:
  - "video/SvgaHwIoPortUshortString"
+ - "SvgaHwIoPortUshortString"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

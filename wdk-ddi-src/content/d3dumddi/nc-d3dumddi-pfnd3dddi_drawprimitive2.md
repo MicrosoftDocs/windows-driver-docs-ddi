@@ -29,6 +29,7 @@ targetos: Windows
 req.typenames: 
 f1_keywords:
  - "d3dumddi/DrawPrimitive2"
+ - "DrawPrimitive2"
 topic_type:
  - APIRef
  - kbSyntax

@@ -10,6 +10,7 @@ keywords: ["NpdBrokerUninitialize function"]
 ms.keywords: NpdBrokerUninitialize, NpdBrokerUninitialize function [Network Drivers Starting with Windows Vista], knetpwrdepbroker/NpdBrokerUninitialize, netvista.npdbrokeruninitialize
 f1_keywords:
  - "knetpwrdepbroker/NpdBrokerUninitialize"
+ - "NpdBrokerUninitialize"
 req.header: knetpwrdepbroker.h
 req.include-header: KNetPwrDepBroker.h
 req.target-type: Windows

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["PLEAVE_DMA_DOMAIN callback function"]
 f1_keywords:
  - "wdm/PLEAVE_DMA_DOMAIN"
+ - "PLEAVE_DMA_DOMAIN"
 req.header: wdm.h
 req.include-header:
 req.target-type:

@@ -10,6 +10,7 @@ keywords: ["PFLT_COMPLETE_LOCK_CALLBACK_DATA_ROUTINE callback function"]
 ms.keywords: CompleteLockCallbackDataRoutine, CompleteLockCallbackDataRoutine routine [Installable File System Drivers], FltCallbacks_a02e356c-ad01-4ae4-bfff-b753ffa0a1c3.xml, PFLT_COMPLETE_LOCK_CALLBACK_DATA_ROUTINE, fltkernel/CompleteLockCallbackDataRoutine, ifsk.pflt_complete_lock_callback_data_routine
 f1_keywords:
  - "fltkernel/CompleteLockCallbackDataRoutine"
+ - "CompleteLockCallbackDataRoutine"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Desktop

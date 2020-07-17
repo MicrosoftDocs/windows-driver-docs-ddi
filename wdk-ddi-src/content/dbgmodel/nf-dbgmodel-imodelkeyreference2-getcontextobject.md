@@ -7,6 +7,7 @@ ms.date: 08/14/2018
 keywords: ["IModelKeyReference2::GetContextObject"]
 f1_keywords:
  - "dbgmodel/IModelKeyReference2.GetContextObject"
+ - "IModelKeyReference2.GetContextObject"
 ms.keywords: IModelKeyReference2::GetContextObject, GetContextObject, IModelKeyReference2.GetContextObject, IModelKeyReference2::GetContextObject, IModelKeyReference2.GetContextObject
 req.header: dbgmodel.h
 req.include-header:

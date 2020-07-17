@@ -8,6 +8,7 @@ ms.date: 09/30/2018
 keywords: ["IOCTL_UCMUCSI_PPM_GET_UCSI_DATA_BLOCK IOCTL"]
 f1_keywords:
  - "ucmucsippmrequests/IOCTL_UCMUCSI_PPM_GET_UCSI_DATA_BLOCK"
+ - "IOCTL_UCMUCSI_PPM_GET_UCSI_DATA_BLOCK"
 req.header: Ucmucsippmrequests.h
 req.include-header: UcmUcsiCx.h
 req.target-type:

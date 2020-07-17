@@ -10,6 +10,7 @@ keywords: ["EVT_SENSOR_DRIVER_GET_SUPPORTED_DATA_FIELDS callback function"]
 ms.keywords: EVT_SENSOR_DRIVER_GET_SUPPORTED_DATA_FIELDS, EVT_SENSOR_DRIVER_GET_SUPPORTED_DATA_FIELDS callback, EvtSensorGetSupportedDataFields, EvtSensorGetSupportedDataFields callback function [Sensor Devices], sensors.evtsensorgetsupporteddatafields, sensorscx/EvtSensorGetSupportedDataFields
 f1_keywords:
  - "sensorscx/EvtSensorGetSupportedDataFields"
+ - "EvtSensorGetSupportedDataFields"
 req.header: sensorscx.h
 req.include-header: 
 req.target-type: Windows

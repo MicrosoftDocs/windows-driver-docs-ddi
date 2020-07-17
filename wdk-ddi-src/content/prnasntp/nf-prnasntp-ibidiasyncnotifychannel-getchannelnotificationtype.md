@@ -10,6 +10,7 @@ keywords: ["IBidiAsyncNotifyChannel::GetChannelNotificationType"]
 ms.keywords: GetChannelNotificationType, GetChannelNotificationType method [Print Devices], GetChannelNotificationType method [Print Devices],IBidiAsyncNotifyChannel interface, IBidiAsyncNotifyChannel interface [Print Devices],GetChannelNotificationType method, IBidiAsyncNotifyChannel.GetChannelNotificationType, IBidiAsyncNotifyChannel::GetChannelNotificationType, print.ibidiasyncnotifychannel_getchannelnotificationtype, prnasntp/IBidiAsyncNotifyChannel::GetChannelNotificationType
 f1_keywords:
  - "prnasntp/IBidiAsyncNotifyChannel.GetChannelNotificationType"
+ - "IBidiAsyncNotifyChannel.GetChannelNotificationType"
 req.header: prnasntp.h
 req.include-header: 
 req.target-type: Windows

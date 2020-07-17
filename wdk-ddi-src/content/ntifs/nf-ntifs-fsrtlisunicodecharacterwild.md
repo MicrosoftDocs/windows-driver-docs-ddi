@@ -10,6 +10,7 @@ keywords: ["FsRtlIsUnicodeCharacterWild macro"]
 ms.keywords: FsRtlIsUnicodeCharacterWild, FsRtlIsUnicodeCharacterWild function [Installable File System Drivers], fsrtlref_90047321-d510-4139-bfcf-d2f48c126834.xml, ifsk.fsrtlisunicodecharacterwild, ntifs/FsRtlIsUnicodeCharacterWild
 f1_keywords:
  - "ntifs/FsRtlIsUnicodeCharacterWild"
+ - "FsRtlIsUnicodeCharacterWild"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Desktop

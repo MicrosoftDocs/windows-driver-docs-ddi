@@ -10,6 +10,7 @@ keywords: ["FsRtlNotifyFilterChangeDirectory function"]
 ms.keywords: FsRtlNotifyFilterChangeDirectory, FsRtlNotifyFilterChangeDirectory routine [Installable File System Drivers], fsrtlref_ef37396f-2844-4b1e-a474-16788aa1de75.xml, ifsk.fsrtlnotifyfilterchangedirectory, ntifs/FsRtlNotifyFilterChangeDirectory
 f1_keywords:
  - "ntifs/FsRtlNotifyFilterChangeDirectory"
+ - "FsRtlNotifyFilterChangeDirectory"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

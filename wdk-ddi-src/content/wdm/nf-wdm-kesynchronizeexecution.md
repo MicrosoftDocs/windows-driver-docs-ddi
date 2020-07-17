@@ -10,6 +10,7 @@ keywords: ["KeSynchronizeExecution function"]
 ms.keywords: KeSynchronizeExecution, KeSynchronizeExecution routine [Kernel-Mode Driver Architecture], k105_2abf2438-6849-4069-8571-7d24d348056f.xml, kernel.kesynchronizeexecution, wdm/KeSynchronizeExecution
 f1_keywords:
  - "wdm/KeSynchronizeExecution"
+ - "KeSynchronizeExecution"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

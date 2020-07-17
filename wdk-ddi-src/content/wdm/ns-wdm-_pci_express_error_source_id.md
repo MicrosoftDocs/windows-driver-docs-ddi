@@ -10,6 +10,7 @@ keywords: ["_PCI_EXPRESS_ERROR_SOURCE_ID structure"]
 ms.keywords: "*PPCI_EXPRESS_ERROR_SOURCE_ID, PCI.pci_express_error_source_id, PCI_EXPRESS_ERROR_SOURCE_ID, PCI_EXPRESS_ERROR_SOURCE_ID union [Buses], PPCI_EXPRESS_ERROR_SOURCE_ID, PPCI_EXPRESS_ERROR_SOURCE_ID union pointer [Buses], _PCI_EXPRESS_ERROR_SOURCE_ID, pci_struct_f111f61b-46a0-450d-bbce-172f125a6903.xml, wdm/PCI_EXPRESS_ERROR_SOURCE_ID, wdm/PPCI_EXPRESS_ERROR_SOURCE_ID"
 f1_keywords:
  - "wdm/PCI_EXPRESS_ERROR_SOURCE_ID"
+ - "PCI_EXPRESS_ERROR_SOURCE_ID"
 req.header: wdm.h
 req.include-header: Ntddk.h, Wdm.h, Miniport.h
 req.target-type: Windows

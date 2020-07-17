@@ -10,6 +10,7 @@ keywords: ["KeStallExecutionProcessor function"]
 ms.keywords: KeStallExecutionProcessor, KeStallExecutionProcessor routine [Kernel-Mode Driver Architecture], k105_47405815-7368-4100-b39d-43f5a242f5c1.xml, kernel.kestallexecutionprocessor, wdm/KeStallExecutionProcessor
 f1_keywords:
  - "ntifs/KeStallExecutionProcessor"
+ - "KeStallExecutionProcessor"
 req.header: ntifs.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

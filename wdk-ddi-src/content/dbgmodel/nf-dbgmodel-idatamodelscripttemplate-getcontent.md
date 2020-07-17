@@ -7,6 +7,7 @@ ms.date: 08/21/2018
 keywords: ["IDataModelScriptTemplate::GetContent"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptTemplate.GetContent"
+ - "IDataModelScriptTemplate.GetContent"
 ms.keywords: IDataModelScriptTemplate::GetContent, GetContent, IDataModelScriptTemplate.GetContent, IDataModelScriptTemplate::GetContent, IDataModelScriptTemplate.GetContent
 req.header: dbgmodel.h
 req.include-header:

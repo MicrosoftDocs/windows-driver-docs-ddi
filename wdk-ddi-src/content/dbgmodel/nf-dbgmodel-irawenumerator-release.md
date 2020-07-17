@@ -7,6 +7,7 @@ ms.date: 08/13/2018
 keywords: ["IRawEnumerator::Release"]
 f1_keywords:
  - "dbgmodel/IRawEnumerator.Release"
+ - "IRawEnumerator.Release"
 ms.keywords: IRawEnumerator::Release, Release, IRawEnumerator.Release, IRawEnumerator::Release, IRawEnumerator.Release
 req.header: dbgmodel.h
 req.include-header:

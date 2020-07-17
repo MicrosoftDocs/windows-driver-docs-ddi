@@ -10,6 +10,7 @@ keywords: ["PCI_MSIX_SET_ENTRY callback function"]
 ms.keywords: PCI_MSIX_SET_ENTRY, SetTableEntry, SetTableEntry routine [Kernel-Mode Driver Architecture], drvr_interface_93258cbb-54ac-4992-9fed-57248d997245.xml, kernel.msixsettableentry, kernel.settableentry, wdm/SetTableEntry
 f1_keywords:
  - "wdm/SetTableEntry"
+ - "SetTableEntry"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

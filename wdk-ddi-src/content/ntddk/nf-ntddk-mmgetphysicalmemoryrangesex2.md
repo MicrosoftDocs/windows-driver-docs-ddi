@@ -36,6 +36,7 @@ api_name:
  - MmGetPhysicalMemoryRangesEx2
 f1_keywords:
  - ntddk/MmGetPhysicalMemoryRangesEx2
+ - ""
 dev_langs:
  - c++
 ---

@@ -10,6 +10,7 @@ keywords: ["WdfRequestUnmarkCancelable function"]
 ms.keywords: DFRequestObjectRef_a20d187a-e056-4cb9-8efb-4021be144597.xml, WdfRequestUnmarkCancelable, WdfRequestUnmarkCancelable method, kmdf.wdfrequestunmarkcancelable, wdf.wdfrequestunmarkcancelable, wdfrequest/WdfRequestUnmarkCancelable
 f1_keywords:
  - "wdfrequest/WdfRequestUnmarkCancelable"
+ - "WdfRequestUnmarkCancelable"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal

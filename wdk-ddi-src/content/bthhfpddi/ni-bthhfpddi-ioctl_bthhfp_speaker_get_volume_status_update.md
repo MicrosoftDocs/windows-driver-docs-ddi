@@ -10,6 +10,7 @@ keywords: ["IOCTL_BTHHFP_SPEAKER_GET_VOLUME_STATUS_UPDATE IOCTL"]
 ms.keywords: IOCTL_BTHHFP_SPEAKER_GET_VOLUME_STATUS_UPDATE, IOCTL_BTHHFP_SPEAKER_GET_VOLUME_STATUS_UPDATE control, IOCTL_BTHHFP_SPEAKER_GET_VOLUME_STATUS_UPDATE control code [Audio Devices], audio.ioctl_bthhfp_speaker_get_volume_status_update, bthhfpddi/IOCTL_BTHHFP_SPEAKER_GET_VOLUME_STATUS_UPDATE
 f1_keywords:
  - "bthhfpddi/IOCTL_BTHHFP_SPEAKER_GET_VOLUME_STATUS_UPDATE"
+ - "IOCTL_BTHHFP_SPEAKER_GET_VOLUME_STATUS_UPDATE"
 req.header: bthhfpddi.h
 req.include-header: 
 req.target-type: Windows

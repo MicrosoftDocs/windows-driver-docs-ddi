@@ -10,6 +10,7 @@ keywords: ["UcxUsbDeviceInitSetEventCallbacks function"]
 ms.keywords: UcxUsbDeviceInitSetEventCallbacks, UcxUsbDeviceInitSetEventCallbacks method [Buses], buses._ucxusbdeviceinitseteventcallbacks
 f1_keywords:
  - "ucxusbdevice/UcxUsbDeviceInitSetEventCallbacks"
+ - "UcxUsbDeviceInitSetEventCallbacks"
 req.header: ucxusbdevice.h
 req.include-header: Ucxclass.h
 req.target-type: Windows

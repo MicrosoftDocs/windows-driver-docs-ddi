@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_OPENSYNCOBJECTFROMNTHANDLE structure"]
 ms.keywords: D3DKMT_OPENSYNCOBJECTFROMNTHANDLE, D3DKMT_OPENSYNCOBJECTFROMNTHANDLE structure [Display Devices], _D3DKMT_OPENSYNCOBJECTFROMNTHANDLE, d3dkmthk/D3DKMT_OPENSYNCOBJECTFROMNTHANDLE, display.d3dkmt_opensyncobjectfromnthandle
 f1_keywords:
  - "d3dkmthk/D3DKMT_OPENSYNCOBJECTFROMNTHANDLE"
+ - "D3DKMT_OPENSYNCOBJECTFROMNTHANDLE"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

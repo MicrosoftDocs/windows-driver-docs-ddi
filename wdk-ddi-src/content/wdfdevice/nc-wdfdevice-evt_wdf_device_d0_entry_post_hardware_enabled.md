@@ -34,6 +34,7 @@ api_name:
  - EVT_WDF_DEVICE_D0_ENTRY_POST_HARDWARE_ENABLED
 f1_keywords:
  - wdfdevice/EVT_WDF_DEVICE_D0_ENTRY_POST_HARDWARE_ENABLED
+ - ""
 dev_langs:
  - c++
 ---

@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DlDeleteEvent function"]
 f1_keywords:
  - "dispmprt/DlDeleteEvent"
+ - "DlDeleteEvent"
 ms.keywords: DlDeleteEvent
 req.header: dispmprt.h
 req.include-header:

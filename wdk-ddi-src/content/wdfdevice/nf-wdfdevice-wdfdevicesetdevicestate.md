@@ -10,6 +10,7 @@ keywords: ["WdfDeviceSetDeviceState function"]
 ms.keywords: DFDeviceObjectGeneralRef_41bd0604-a8fb-4df9-a1d2-f602d7ddcac4.xml, WdfDeviceSetDeviceState, WdfDeviceSetDeviceState method, kmdf.wdfdevicesetdevicestate, wdf.wdfdevicesetdevicestate, wdfdevice/WdfDeviceSetDeviceState
 f1_keywords:
  - "wdfdevice/WdfDeviceSetDeviceState"
+ - "WdfDeviceSetDeviceState"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

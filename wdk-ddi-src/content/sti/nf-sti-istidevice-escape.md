@@ -10,6 +10,7 @@ keywords: ["IStiDevice::Escape"]
 ms.keywords: Escape, Escape method [Imaging Devices], Escape method [Imaging Devices],IStiDevice interface, IStiDevice interface [Imaging Devices],Escape method, IStiDevice.Escape, IStiDevice::Escape, image.istidevice_escape, sti/IStiDevice::Escape, stifnc_5eb8e67e-67cc-4d04-abff-ada5b42b0004.xml
 f1_keywords:
  - "sti/IStiDevice.Escape"
+ - "IStiDevice.Escape"
 req.header: sti.h
 req.include-header: Sti.h
 req.target-type: Desktop

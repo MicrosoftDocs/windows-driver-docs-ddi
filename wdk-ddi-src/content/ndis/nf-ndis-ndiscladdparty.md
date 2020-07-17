@@ -10,6 +10,7 @@ keywords: ["NdisClAddParty function"]
 ms.keywords: NdisClAddParty, NdisClAddParty function [Network Drivers Starting with Windows Vista], condis_client_ref_90d23e8e-f3a5-4a19-9eeb-b68a28f7f915.xml, ndis/NdisClAddParty, netvista.ndiscladdparty
 f1_keywords:
  - "ndis/NdisClAddParty"
+ - "NdisClAddParty"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

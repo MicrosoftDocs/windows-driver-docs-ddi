@@ -10,6 +10,7 @@ keywords: ["_ACPI_ENUM_CHILDREN_OUTPUT_BUFFER structure"]
 ms.keywords: "*PACPI_ENUM_CHILDREN_OUTPUT_BUFFER, ACPI_ENUM_CHILDREN_OUTPUT_BUFFER, ACPI_ENUM_CHILDREN_OUTPUT_BUFFER structure [ACPI Devices], _ACPI_ENUM_CHILDREN_OUTPUT_BUFFER, acpi-meth-eval-ref_cb8acde5-31cb-4b32-9337-e196db32de8b.xml, acpi.acpi_enum_children_output_buffer, acpiioct/ACPI_ENUM_CHILDREN_OUTPUT_BUFFER"
 f1_keywords:
  - "acpiioct/ACPI_ENUM_CHILDREN_OUTPUT_BUFFER"
+ - "ACPI_ENUM_CHILDREN_OUTPUT_BUFFER"
 req.header: acpiioct.h
 req.include-header: Acpiioct.h
 req.target-type: Windows

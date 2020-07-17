@@ -10,6 +10,7 @@ keywords: ["_PosStatusUpdatedEventData structure"]
 ms.keywords: PosStatusUpdatedEventData, PosStatusUpdatedEventData structure, _PosStatusUpdatedEventData, pointofservicedriverinterface/PosStatusUpdatedEventData, pos.posstatusupdatedeventdata
 f1_keywords:
  - "pointofservicedriverinterface/PosStatusUpdatedEventData"
+ - "PosStatusUpdatedEventData"
 req.header: pointofservicedriverinterface.h
 req.include-header: PointOfServiceDriverInterface.h
 req.target-type: Windows

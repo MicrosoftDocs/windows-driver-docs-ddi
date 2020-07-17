@@ -10,6 +10,7 @@ keywords: ["IWDFDeviceInitialize::SetPnpCapability"]
 ms.keywords: IWDFDeviceInitialize interface,SetPnpCapability method, IWDFDeviceInitialize.SetPnpCapability, IWDFDeviceInitialize::SetPnpCapability, SetPnpCapability, SetPnpCapability method, SetPnpCapability method,IWDFDeviceInitialize interface, UMDFDeviceObjectRef_516aeba5-c0c2-40a0-a9e6-d1a983835a94.xml, umdf.iwdfdeviceinitialize_setpnpcapability, wdf.iwdfdeviceinitialize_setpnpcapability, wudfddi/IWDFDeviceInitialize::SetPnpCapability
 f1_keywords:
  - "wudfddi/IWDFDeviceInitialize.SetPnpCapability"
+ - "IWDFDeviceInitialize.SetPnpCapability"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

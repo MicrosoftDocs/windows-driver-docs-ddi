@@ -10,6 +10,7 @@ keywords: ["NdisFRestartFilter function"]
 ms.keywords: NdisFRestartFilter, NdisFRestartFilter function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_c95250d0-3081-40cc-a39f-0d5c1ce51925.xml, ndis/NdisFRestartFilter, netvista.ndisfrestartfilter
 f1_keywords:
  - "ndis/NdisFRestartFilter"
+ - "NdisFRestartFilter"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

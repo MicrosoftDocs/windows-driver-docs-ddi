@@ -10,6 +10,7 @@ keywords: ["KSPROPERTY_STEPPING_LONG structure"]
 ms.keywords: "*PKSPROPERTY_STEPPING_LONG, KSPROPERTY_STEPPING_LONG, KSPROPERTY_STEPPING_LONG structure [Streaming Media Devices], PKSPROPERTY_STEPPING_LONG, PKSPROPERTY_STEPPING_LONG structure pointer [Streaming Media Devices], ks-struct_2aad8fb1-d35c-4227-ad97-92451261b33c.xml, ks/KSPROPERTY_STEPPING_LONG, ks/PKSPROPERTY_STEPPING_LONG, stream.ksproperty_stepping_long"
 f1_keywords:
  - "ks/KSPROPERTY_STEPPING_LONG"
+ - "KSPROPERTY_STEPPING_LONG"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows

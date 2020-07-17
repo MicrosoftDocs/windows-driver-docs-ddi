@@ -10,6 +10,7 @@ keywords: ["FsRtlIsHpfsDbcsLegal function"]
 ms.keywords: FsRtlIsHpfsDbcsLegal, FsRtlIsHpfsDbcsLegal routine [Installable File System Drivers], fsrtlref_6cde5ef1-2a54-4b66-b2da-e134b5700668.xml, ifsk.fsrtlishpfsdbcslegal, ntifs/FsRtlIsHpfsDbcsLegal
 f1_keywords:
  - "ntifs/FsRtlIsHpfsDbcsLegal"
+ - "FsRtlIsHpfsDbcsLegal"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["PROTOCOL_CO_OID_REQUEST callback function"]
 ms.keywords: PROTOCOL_CO_OID_REQUEST, PROTOCOL_CO_OID_REQUEST callback, ProtocolCoOidRequest, ProtocolCoOidRequest callback function [Network Drivers Starting with Windows Vista], condis_request_ref_b02b012f-58cc-4dd6-be48-6e1cc4f00b24.xml, ndis/ProtocolCoOidRequest, netvista.protocolcooidrequest
 f1_keywords:
  - "ndis/ProtocolCoOidRequest"
+ - "ProtocolCoOidRequest"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

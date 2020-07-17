@@ -10,6 +10,7 @@ keywords: ["KoDeviceInitialize function"]
 ms.keywords: KoDeviceInitialize, KoDeviceInitialize function [Streaming Media Devices], kcom/KoDeviceInitialize, ksfunc_1d3ad49e-d34c-4341-ab30-45c8e96e8b3e.xml, stream.kodeviceinitialize
 f1_keywords:
  - "kcom/KoDeviceInitialize"
+ - "KoDeviceInitialize"
 req.header: kcom.h
 req.include-header: Kcom.h
 req.target-type: Universal

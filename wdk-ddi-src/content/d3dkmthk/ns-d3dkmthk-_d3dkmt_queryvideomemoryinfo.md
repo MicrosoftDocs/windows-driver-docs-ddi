@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_QUERYVIDEOMEMORYINFO structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_QUERYVIDEOMEMORYINFO"
+ - "_D3DKMT_QUERYVIDEOMEMORYINFO"
 ms.keywords: _D3DKMT_QUERYVIDEOMEMORYINFO, D3DKMT_QUERYVIDEOMEMORYINFO, 
 req.header: d3dkmthk.h
 req.include-header:

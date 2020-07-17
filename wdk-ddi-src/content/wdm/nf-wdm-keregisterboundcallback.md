@@ -10,6 +10,7 @@ keywords: ["KeRegisterBoundCallback function"]
 ms.keywords: KeRegisterBoundCallback, KeRegisterBoundCallback routine [Kernel-Mode Driver Architecture], kernel.keregisterboundcallback, wdm/KeRegisterBoundCallback
 f1_keywords:
  - "wdm/KeRegisterBoundCallback"
+ - "KeRegisterBoundCallback"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal

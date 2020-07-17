@@ -9,6 +9,7 @@ keywords: ["_DXGKARGCB_GETHANDLEDATA structure"]
 ms.keywords: DXGKARGCB_GETHANDLEDATA, DXGKARGCB_GETHANDLEDATA structure [Display Devices], DmStructs_6ae35474-ffde-4e60-8324-b6266cc54fd8.xml, _DXGKARGCB_GETHANDLEDATA, d3dkmddi/DXGKARGCB_GETHANDLEDATA, display.dxgkargcb_gethandledata
 f1_keywords:
  - "d3dkmddi/DXGKARGCB_GETHANDLEDATA"
+ - "DXGKARGCB_GETHANDLEDATA"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

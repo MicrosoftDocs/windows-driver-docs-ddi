@@ -10,6 +10,7 @@ keywords: ["SerCxDeviceInitConfig function"]
 ms.keywords: 1/SerCxDeviceInitConfig, SerCxDeviceInitConfig, SerCxDeviceInitConfig method [Serial Ports], serports.sercxdeviceinitconfig
 f1_keywords:
  - "sercx/SerCxDeviceInitConfig"
+ - "SerCxDeviceInitConfig"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal

@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DlGetVersion function"]
 f1_keywords:
  - "dispmprt/DlGetVersion"
+ - "DlGetVersion"
 ms.keywords: DlGetVersion
 req.header: dispmprt.h
 req.include-header:

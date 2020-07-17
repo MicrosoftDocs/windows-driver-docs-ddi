@@ -7,6 +7,7 @@ ms.date: 09/10/2018
 keywords: ["IDebugHostData::GetValue"]
 f1_keywords:
  - "dbgmodel/IDebugHostData.GetValue"
+ - "IDebugHostData.GetValue"
 ms.keywords: IDebugHostData::GetValue, GetValue, IDebugHostData.GetValue, IDebugHostData::GetValue, IDebugHostData.GetValue
 req.header: dbgmodel.h
 req.include-header:

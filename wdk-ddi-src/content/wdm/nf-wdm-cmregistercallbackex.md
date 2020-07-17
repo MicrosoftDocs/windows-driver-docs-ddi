@@ -10,6 +10,7 @@ keywords: ["CmRegisterCallbackEx function"]
 ms.keywords: CmRegisterCallbackEx, CmRegisterCallbackEx routine [Kernel-Mode Driver Architecture], ConfigMgrRef_60ae8a2c-45c7-4b5e-ae19-916402b47903.xml, kernel.cmregistercallbackex, wdm/CmRegisterCallbackEx
 f1_keywords:
  - "wdm/CmRegisterCallbackEx"
+ - "CmRegisterCallbackEx"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

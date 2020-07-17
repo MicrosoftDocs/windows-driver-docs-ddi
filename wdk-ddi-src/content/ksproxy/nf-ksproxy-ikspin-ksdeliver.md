@@ -10,6 +10,7 @@ keywords: ["IKsPin::KsDeliver"]
 ms.keywords: IKsPin interface [Streaming Media Devices],KsDeliver method, IKsPin.KsDeliver, IKsPin::KsDeliver, KsDeliver, KsDeliver method [Streaming Media Devices], KsDeliver method [Streaming Media Devices],IKsPin interface, ksproxy/IKsPin::KsDeliver, ksproxy_3608c6b5-20e3-43e1-b1aa-a283f8d00f17.xml, stream.ikspin_ksdeliver
 f1_keywords:
  - "ksproxy/IKsPin.KsDeliver"
+ - "IKsPin.KsDeliver"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Desktop

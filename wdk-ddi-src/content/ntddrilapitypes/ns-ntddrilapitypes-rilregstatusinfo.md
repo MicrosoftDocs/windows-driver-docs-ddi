@@ -10,6 +10,7 @@ keywords: ["RILREGSTATUSINFO structure"]
 ms.keywords: "*LPRILREGSTATUSINFO, RILREGSTATUSINFO, RILREGSTATUSINFO structure [Network Drivers Starting with Windows Vista], netvista.rilregstatusinfo, ntddrilapitypes/RILREGSTATUSINFO"
 f1_keywords:
  - "ntddrilapitypes/RILREGSTATUSINFO"
+ - "RILREGSTATUSINFO"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

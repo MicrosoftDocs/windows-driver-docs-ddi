@@ -10,6 +10,7 @@ keywords: ["IWDTFNumbers2::get__NewEnum"]
 ms.keywords: IWDTFNumbers2 interface [Windows Device Testing Framework],_NewEnum property, IWDTFNumbers2._NewEnum, IWDTFNumbers2.get__NewEnum, IWDTFNumbers2::_NewEnum, IWDTFNumbers2::get__NewEnum, Microsoft.WDTF.IWDTFNumbers2._NewEnum, Microsoft::WDTF::IWDTFNumbers2::_NewEnum, _NewEnum property [Windows Device Testing Framework], _NewEnum property [Windows Device Testing Framework],IWDTFNumbers2 interface, dtf.iwdtfnumbers2__newenum, get__NewEnum, wdtf/IWDTFNumbers2::_NewEnum, wdtf/IWDTFNumbers2::get__NewEnum
 f1_keywords:
  - "wdtf/IWDTFNumbers2._NewEnum"
+ - "IWDTFNumbers2._NewEnum"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Windows

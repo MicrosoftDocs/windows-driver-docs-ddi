@@ -8,6 +8,7 @@ keywords: ["PropKeyFindKeyGetFileTime function"]
 tech.root: sensors
 f1_keywords:
  - "sensorsutils/PropKeyFindKeyGetFileTime"
+ - "PropKeyFindKeyGetFileTime"
 ms.keywords: PropKeyFindKeyGetFileTime
 req.header: sensorsutils.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["FltCurrentOplockH function"]
 ms.keywords: FltApiRef_a_to_d_0abdd89d-fe36-4546-a3bd-87d7d132f73e.xml, FltCurrentOplockH, FltCurrentOplockH routine [Installable File System Drivers], fltkernel/FltCurrentOplockH, ifsk.fltcurrentoplockh
 f1_keywords:
  - "fltkernel/FltCurrentOplockH"
+ - "FltCurrentOplockH"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

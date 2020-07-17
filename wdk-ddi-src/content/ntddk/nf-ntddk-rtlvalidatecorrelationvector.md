@@ -10,6 +10,7 @@ keywords: ["RtlValidateCorrelationVector function"]
 ms.keywords: RtlValidateCorrelationVector, RtlValidateCorrelationVector function [Kernel-Mode Driver Architecture], kernel.rtlvalidatecorrelationvector, ntddk/RtlValidateCorrelationVector
 f1_keywords:
  - "ntddk/RtlValidateCorrelationVector"
+ - "RtlValidateCorrelationVector"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows

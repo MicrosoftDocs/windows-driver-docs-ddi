@@ -10,6 +10,7 @@ keywords: ["PFLT_INSTANCE_SETUP_CALLBACK callback function"]
 ms.keywords: FltCallbacks_c32f2452-6198-4e87-8566-6e219dcf2f28.xml, InstanceSetupCallback, InstanceSetupCallback routine [Installable File System Drivers], PFLT_INSTANCE_SETUP_CALLBACK, fltkernel/InstanceSetupCallback, ifsk.pflt_instance_setup_callback
 f1_keywords:
  - "fltkernel/InstanceSetupCallback"
+ - "InstanceSetupCallback"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Desktop

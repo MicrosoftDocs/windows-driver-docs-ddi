@@ -10,6 +10,7 @@ keywords: ["DXGI_DDI_ARG_PRESENT structure"]
 ms.keywords: DXGI_DDI_ARG_PRESENT, DXGI_DDI_ARG_PRESENT structure [Display Devices], UMDisplayDriver_Dx10param_Structs_5ad1821d-dfdb-4361-84dc-48a4a283d66a.xml, display.dxgi_ddi_arg_present, dxgiddi/DXGI_DDI_ARG_PRESENT
 f1_keywords:
  - "dxgiddi/DXGI_DDI_ARG_PRESENT"
+ - "DXGI_DDI_ARG_PRESENT"
 req.header: dxgiddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

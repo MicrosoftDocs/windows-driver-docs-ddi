@@ -10,6 +10,7 @@ keywords: ["IoSetDeviceToVerify function"]
 ms.keywords: IoSetDeviceToVerify, IoSetDeviceToVerify routine [Installable File System Drivers], ifsk.iosetdevicetoverify, ioref_58eab192-eab0-42ee-8c2b-4fe1ad0fb703.xml, ntifs/IoSetDeviceToVerify
 f1_keywords:
  - "ntifs/IoSetDeviceToVerify"
+ - "IoSetDeviceToVerify"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

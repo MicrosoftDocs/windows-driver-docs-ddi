@@ -10,6 +10,7 @@ keywords: ["UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION_INIT function"]
 ms.keywords: UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION_INIT, UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION_INIT method [Buses], buses.ucmtcpci_port_controller_identification_init, ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION_INIT
 f1_keywords:
  - "ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION_INIT"
+ - "UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION_INIT"
 req.header: ucmtcpciportcontroller.h
 req.include-header: 
 req.target-type: Windows

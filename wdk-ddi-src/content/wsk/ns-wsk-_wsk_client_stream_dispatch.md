@@ -10,6 +10,7 @@ keywords: ["_WSK_CLIENT_STREAM_DISPATCH structure"]
 ms.keywords: "*PWSK_CLIENT_STREAM_DISPATCH, PWSK_CLIENT_STREAM_DISPATCH, PWSK_CLIENT_STREAM_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], WSK_CLIENT_STREAM_DISPATCH, WSK_CLIENT_STREAM_DISPATCH structure [Network Drivers Starting with Windows Vista], _WSK_CLIENT_STREAM_DISPATCH, netvista.wsk_client_stream_dispatch, wsk/PWSK_CLIENT_STREAM_DISPATCH, wsk/WSK_CLIENT_STREAM_DISPATCH"
 f1_keywords:
  - "wsk/WSK_CLIENT_STREAM_DISPATCH"
+ - "WSK_CLIENT_STREAM_DISPATCH"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Windows

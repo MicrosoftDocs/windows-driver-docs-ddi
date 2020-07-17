@@ -10,6 +10,7 @@ keywords: ["PsGetParentSilo function"]
 ms.keywords: PsGetParentSilo, PsGetParentSilo function [Kernel-Mode Driver Architecture], kernel.psgetparentsilo, ntddk/PsGetParentSilo
 f1_keywords:
  - "ntddk/PsGetParentSilo"
+ - "PsGetParentSilo"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows

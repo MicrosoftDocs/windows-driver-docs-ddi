@@ -8,6 +8,7 @@ ms.date: 10/31/2018
 keywords: ["IDmaChannel::TransferCount"]
 f1_keywords:
  - "portcls/IDmaChannel.TransferCount"
+ - "IDmaChannel.TransferCount"
 ms.keywords: IDmaChannel::TransferCount, TransferCount, IDmaChannel.TransferCount, IDmaChannel::TransferCount, IDmaChannel.TransferCount
 req.header: portcls.h
 req.include-header:

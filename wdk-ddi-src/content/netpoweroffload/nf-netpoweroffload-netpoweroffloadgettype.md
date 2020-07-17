@@ -10,6 +10,7 @@ ms.date: 10/03/2019
 keywords: ["NetPowerOffloadGetType function"]
 f1_keywords:
  - "netpoweroffload/NetPowerOffloadGetType"
+ - "NetPowerOffloadGetType"
 ms.keywords: NetPowerOffloadGetType
 req.header: netpoweroffload.h
 req.include-header:

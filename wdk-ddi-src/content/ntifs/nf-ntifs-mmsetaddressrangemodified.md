@@ -10,6 +10,7 @@ keywords: ["MmSetAddressRangeModified function"]
 ms.keywords: MmSetAddressRangeModified, MmSetAddressRangeModified routine [Installable File System Drivers], ifsk.mmsetaddressrangemodified, mmref_4d6ef497-4a72-4fed-8422-365708740cc7.xml, ntifs/MmSetAddressRangeModified
 f1_keywords:
  - "ntifs/MmSetAddressRangeModified"
+ - "MmSetAddressRangeModified"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

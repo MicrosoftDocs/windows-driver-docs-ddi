@@ -7,6 +7,7 @@ ms.date: 11/21/2018
 keywords: ["_D3DDDI_QUERYREGISTRY_FLAGS structure"]
 f1_keywords:
  - "d3dukmdt/_D3DDDI_QUERYREGISTRY_FLAGS"
+ - "_D3DDDI_QUERYREGISTRY_FLAGS"
 ms.keywords: _D3DDDI_QUERYREGISTRY_FLAGS, D3DDDI_QUERYREGISTRY_FLAGS,
 req.header: d3dukmdt.h
 req.include-header:

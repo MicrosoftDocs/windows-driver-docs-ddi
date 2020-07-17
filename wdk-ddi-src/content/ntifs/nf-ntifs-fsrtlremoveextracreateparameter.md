@@ -10,6 +10,7 @@ keywords: ["FsRtlRemoveExtraCreateParameter function"]
 ms.keywords: FsRtlRemoveExtraCreateParameter, FsRtlRemoveExtraCreateParameter routine [Installable File System Drivers], fsrtlref_3fa961e9-0dc1-4d4b-a5dc-80883b1db15e.xml, ifsk.fsrtlremoveextracreateparameter, ntifs/FsRtlRemoveExtraCreateParameter
 f1_keywords:
  - "ntifs/FsRtlRemoveExtraCreateParameter"
+ - "FsRtlRemoveExtraCreateParameter"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

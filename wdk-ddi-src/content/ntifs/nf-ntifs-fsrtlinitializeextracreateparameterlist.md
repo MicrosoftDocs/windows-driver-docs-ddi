@@ -10,6 +10,7 @@ keywords: ["FsRtlInitializeExtraCreateParameterList function"]
 ms.keywords: FsRtlInitializeExtraCreateParameterList, FsRtlInitializeExtraCreateParameterList routine [Installable File System Drivers], fsrtlref_785d3f11-f568-491e-9cdb-abba70ae3eeb.xml, ifsk.fsrtlinitializeextracreateparameterlist, ntifs/FsRtlInitializeExtraCreateParameterList
 f1_keywords:
  - "ntifs/FsRtlInitializeExtraCreateParameterList"
+ - "FsRtlInitializeExtraCreateParameterList"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

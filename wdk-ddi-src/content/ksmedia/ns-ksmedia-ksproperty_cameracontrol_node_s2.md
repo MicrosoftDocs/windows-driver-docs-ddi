@@ -10,6 +10,7 @@ keywords: ["KSPROPERTY_CAMERACONTROL_NODE_S2 structure"]
 ms.keywords: "*PKSPROPERTY_CAMERACONTROL_NODE_S2, KSPROPERTY_CAMERACONTROL_NODE_S2, KSPROPERTY_CAMERACONTROL_NODE_S2 structure [Streaming Media Devices], PKSPROPERTY_CAMERACONTROL_NODE_S2, PKSPROPERTY_CAMERACONTROL_NODE_S2 structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_CAMERACONTROL_NODE_S2, ksmedia/PKSPROPERTY_CAMERACONTROL_NODE_S2, stream.ksproperty_cameracontrol_node_s2, vidcapstruct_fda6afc4-4b0a-4161-9502-1b335b1022e2.xml"
 f1_keywords:
  - "ksmedia/KSPROPERTY_CAMERACONTROL_NODE_S2"
+ - "KSPROPERTY_CAMERACONTROL_NODE_S2"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

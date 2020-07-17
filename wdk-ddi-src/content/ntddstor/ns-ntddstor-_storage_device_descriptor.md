@@ -10,6 +10,7 @@ keywords: ["_STORAGE_DEVICE_DESCRIPTOR structure"]
 ms.keywords: PSTORAGE_DEVICE_DESCRIPTOR, PSTORAGE_DEVICE_DESCRIPTOR structure pointer [Storage Devices], STORAGE_DEVICE_DESCRIPTOR, STORAGE_DEVICE_DESCRIPTOR structure [Storage Devices], _STORAGE_DEVICE_DESCRIPTOR, ntddstor/PSTORAGE_DEVICE_DESCRIPTOR, ntddstor/STORAGE_DEVICE_DESCRIPTOR, storage.storage_device_descriptor, structs-general_3c393126-f5c8-47d8-bfb5-6127ce656e9a.xml
 f1_keywords:
  - "ntddstor/STORAGE_DEVICE_DESCRIPTOR"
+ - "STORAGE_DEVICE_DESCRIPTOR"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows

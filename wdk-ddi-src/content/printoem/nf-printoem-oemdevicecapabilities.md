@@ -10,6 +10,7 @@ keywords: ["OEMDeviceCapabilities function"]
 ms.keywords: OEMDeviceCapabilities, OEMDeviceCapabilities function [Print Devices], print.oemdevicecapabilities, print_obsoletefunctions_7ab2cfd8-e7cd-4f7c-be2d-a53dbb3651c9.xml, printoem/OEMDeviceCapabilities
 f1_keywords:
  - "printoem/OEMDeviceCapabilities"
+ - "OEMDeviceCapabilities"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows

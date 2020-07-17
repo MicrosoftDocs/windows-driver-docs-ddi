@@ -10,6 +10,7 @@ keywords: ["_KSPIN structure"]
 ms.keywords: "*PKSPIN, KSPIN, KSPIN structure [Streaming Media Devices], PKSPIN, PKSPIN structure pointer [Streaming Media Devices], _KSPIN, avstruct_9453feff-ba40-4f54-bdb6-07f4f31548aa.xml, ks/KSPIN, ks/PKSPIN, stream.kspin"
 f1_keywords:
  - "ks/KSPIN"
+ - "KSPIN"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows

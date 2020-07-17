@@ -10,6 +10,7 @@ keywords: ["_STORAGE_PROPERTY_QUERY structure"]
 ms.keywords: "*PSTORAGE_PROPERTY_QUERY, PSTORAGE_PROPERTY_QUERY, PSTORAGE_PROPERTY_QUERY structure pointer [Storage Devices], STORAGE_PROPERTY_QUERY, STORAGE_PROPERTY_QUERY structure [Storage Devices], _STORAGE_PROPERTY_QUERY, ntddstor/PSTORAGE_PROPERTY_QUERY, ntddstor/STORAGE_PROPERTY_QUERY, storage.storage_property_query, structs-general_3b25ee3b-72f2-4f41-8c76-a1764bea86af.xml"
 f1_keywords:
  - "ntddstor/STORAGE_PROPERTY_QUERY"
+ - "STORAGE_PROPERTY_QUERY"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows

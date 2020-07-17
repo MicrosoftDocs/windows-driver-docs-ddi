@@ -7,6 +7,7 @@ ms.date: 09/21/2018
 keywords: ["IDebugHostModuleSignature::AddRef"]
 f1_keywords:
  - "dbgmodel/IDebugHostModuleSignature.AddRef"
+ - "IDebugHostModuleSignature.AddRef"
 ms.keywords: IDebugHostModuleSignature::AddRef, AddRef, IDebugHostModuleSignature.AddRef, IDebugHostModuleSignature::AddRef, IDebugHostModuleSignature.AddRef
 req.header: dbgmodel.h
 req.include-header:

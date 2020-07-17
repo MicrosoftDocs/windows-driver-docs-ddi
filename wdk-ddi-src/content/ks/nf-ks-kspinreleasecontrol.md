@@ -10,6 +10,7 @@ keywords: ["KsPinReleaseControl function"]
 ms.keywords: KsPinReleaseControl, KsPinReleaseControl function [Streaming Media Devices], avfunc_24f35b7d-4ecc-4a64-8b78-9972ba7bab5c.xml, ks/KsPinReleaseControl, stream.kspinreleasecontrol
 f1_keywords:
  - "ks/KsPinReleaseControl"
+ - "KsPinReleaseControl"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop

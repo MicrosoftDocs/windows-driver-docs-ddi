@@ -10,6 +10,7 @@ keywords: ["IPartBase::GetPartCompression"]
 ms.keywords: GetPartCompression, GetPartCompression method [Print Devices], GetPartCompression method [Print Devices],IPartBase interface, IPartBase interface [Print Devices],GetPartCompression method, IPartBase.GetPartCompression, IPartBase::GetPartCompression, filterpipeline/IPartBase::GetPartCompression, filterpipeline_384bc679-c974-4c0d-86cd-32cdd0ebf7be.xml, print.ipartbase_getpartcompression
 f1_keywords:
  - "filterpipeline/IPartBase.GetPartCompression"
+ - "IPartBase.GetPartCompression"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop

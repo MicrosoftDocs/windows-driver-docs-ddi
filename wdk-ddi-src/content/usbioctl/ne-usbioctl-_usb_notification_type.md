@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_USB_NOTIFICATION_TYPE enumeration"]
 f1_keywords:
  - "usbioctl/_USB_NOTIFICATION_TYPE"
+ - "_USB_NOTIFICATION_TYPE"
 ms.keywords: _USB_NOTIFICATION_TYPE, USB_NOTIFICATION_TYPE, 
 req.header: usbioctl.h
 req.include-header:

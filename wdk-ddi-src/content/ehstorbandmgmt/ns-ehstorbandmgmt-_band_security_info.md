@@ -10,6 +10,7 @@ keywords: ["_BAND_SECURITY_INFO structure"]
 ms.keywords: "*PBAND_SECURITY_INFO, BAND_LOCATION_INFO, BAND_LOCATION_INFO structure [Storage Devices], BAND_SECURITY_INFO, BAND_SECURITY_INFO structure [Storage Devices], PBAND_LOCATION_INFO, PBAND_LOCATION_INFO structure pointer [Storage Devices], _BAND_SECURITY_INFO, ehstorbandmgmt/BAND_SECURITY_INFO, ehstorbandmgmt/PBAND_LOCATION_INFO, storage.band_security_info"
 f1_keywords:
  - "ehstorbandmgmt/BAND_LOCATION_INFO"
+ - "BAND_LOCATION_INFO"
 req.header: ehstorbandmgmt.h
 req.include-header: EhStorBandMgmt.h
 req.target-type: Windows

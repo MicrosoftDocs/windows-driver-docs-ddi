@@ -10,6 +10,7 @@ keywords: ["_POWERSOURCEID enumeration"]
 ms.keywords: "*PPOWERSOURCEID, POWERSOURCEID, _POWERSOURCEID, battery.powersourceid, charging/, enumeration [Battery Devices]"
 f1_keywords:
  - "charging/POWERSOURCEID"
+ - "POWERSOURCEID"
 req.header: charging.h
 req.include-header: Charging.h
 req.target-type: Windows

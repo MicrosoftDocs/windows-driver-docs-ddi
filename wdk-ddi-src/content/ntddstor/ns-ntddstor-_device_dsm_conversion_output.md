@@ -10,6 +10,7 @@ ms.date: 08/23/2019
 keywords: ["DEVICE_DSM_CONVERSION_OUTPUT structure"]
 f1_keywords:
  - "ntddstor/_DEVICE_DSM_CONVERSION_OUTPUT"
+ - "_DEVICE_DSM_CONVERSION_OUTPUT"
 ms.keywords: DEVICE_DSM_CONVERSION_OUTPUT, DEVICE_DSM_CONVERSION_OUTPUT, *PDEVICE_DSM_CONVERSION_OUTPUT, 
 req.header: ntddstor.h
 req.include-header:

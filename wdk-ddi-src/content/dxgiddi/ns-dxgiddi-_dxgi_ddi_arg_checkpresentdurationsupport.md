@@ -10,6 +10,7 @@ keywords: ["_DXGI_DDI_ARG_CHECKPRESENTDURATIONSUPPORT structure"]
 ms.keywords: DXGI_DDI_ARG_CHECKPRESENTDURATIONSUPPORT, DXGI_DDI_ARG_CHECKPRESENTDURATIONSUPPORT structure [Display Devices], _DXGI_DDI_ARG_CHECKPRESENTDURATIONSUPPORT, display.dxgi_ddi_arg_checkpresentdurationsupport, dxgiddi/DXGI_DDI_ARG_CHECKPRESENTDURATIONSUPPORT
 f1_keywords:
  - "dxgiddi/DXGI_DDI_ARG_CHECKPRESENTDURATIONSUPPORT"
+ - "DXGI_DDI_ARG_CHECKPRESENTDURATIONSUPPORT"
 req.header: dxgiddi.h
 req.include-header: 
 req.target-type: Windows

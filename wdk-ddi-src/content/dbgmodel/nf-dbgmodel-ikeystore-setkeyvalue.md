@@ -7,6 +7,7 @@ ms.date: 08/13/2018
 keywords: ["IKeyStore::SetKeyValue"]
 f1_keywords:
  - "dbgmodel/IKeyStore.SetKeyValue"
+ - "IKeyStore.SetKeyValue"
 ms.keywords: IKeyStore::SetKeyValue, SetKeyValue, IKeyStore.SetKeyValue, IKeyStore::SetKeyValue, IKeyStore.SetKeyValue
 req.header: dbgmodel.h
 req.include-header:

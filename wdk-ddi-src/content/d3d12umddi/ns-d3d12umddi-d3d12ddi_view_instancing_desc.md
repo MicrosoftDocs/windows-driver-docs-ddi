@@ -9,6 +9,7 @@ keywords: ["D3D12DDI_VIEW_INSTANCING_DESC structure"]
 ms.keywords: D3D12DDI_VIEW_INSTANCING_DESC, D3D12DDI_VIEW_INSTANCING_DESC structure [Display Devices], d3d12umddi/D3D12DDI_VIEW_INSTANCING_DESC, display.d3d12ddi-view-instancing-desc
 f1_keywords:
  - "d3d12umddi/D3D12DDI_VIEW_INSTANCING_DESC"
+ - "D3D12DDI_VIEW_INSTANCING_DESC"
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: Windows

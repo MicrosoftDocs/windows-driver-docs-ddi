@@ -10,6 +10,7 @@ keywords: ["RILUICCSUBSCRIBERNUMBERS structure"]
 ms.keywords: "*LPRILUICCSUBSCRIBERNUMBERS, RILUICCSUBSCRIBERNUMBERS, RILUICCSUBSCRIBERNUMBERS structure [Network Drivers Starting with Windows Vista], netvista.riluiccsubscribernumbers, rilapitypes/RILUMTSMRL"
 f1_keywords:
  - "ntddrilapitypes/RILUMTSMRL"
+ - "RILUMTSMRL"
 req.header: ntddrilapitypes.h
 req.include-header: Ntddrilapitypes.h
 req.target-type: Windows

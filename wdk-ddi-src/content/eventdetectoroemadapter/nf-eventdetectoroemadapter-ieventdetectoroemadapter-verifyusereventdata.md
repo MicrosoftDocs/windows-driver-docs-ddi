@@ -10,6 +10,7 @@ ms.date: 02/25/2019
 keywords: ["IEventDetectorOemAdapter::VerifyUserEventData"]
 f1_keywords:
  - "eventdetectoroemadapter/IEventDetectorOemAdapter.VerifyUserEventData"
+ - "IEventDetectorOemAdapter.VerifyUserEventData"
 ms.keywords: IEventDetectorOemAdapter::VerifyUserEventData, VerifyUserEventData, IEventDetectorOemAdapter.VerifyUserEventData, IEventDetectorOemAdapter::VerifyUserEventData, IEventDetectorOemAdapter.VerifyUserEventData
 req.header: eventdetectoroemadapter.h
 req.include-header:

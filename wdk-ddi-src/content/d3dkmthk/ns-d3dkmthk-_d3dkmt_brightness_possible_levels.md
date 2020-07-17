@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS structure"]
 ms.keywords: D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS, D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS structure [Display Devices], _D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS, d3dkmthk/D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS, display.d3dkmt_brightness_possible_levels
 f1_keywords:
  - "d3dkmthk/D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS"
+ - "D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

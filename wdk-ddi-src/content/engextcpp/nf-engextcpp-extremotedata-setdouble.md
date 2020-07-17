@@ -10,6 +10,7 @@ keywords: ["ExtRemoteData::SetDouble method"]
 ms.keywords: ExtRemoteData class [Windows Debugging], described, ExtRemoteData::SetChar, EngExtCpp_Ref_e84c03ce-1156-481b-a429-f0a918797565.xml, Clear, debugger.extremotedata, ExtRemoteData::Clear, ExtRemoteData class [Windows Debugging], SetDouble, ExtRemoteData, engextcpp/ExtRemoteData, ExtRemoteData::SetDouble, SetChar, ExtRemoteData::SetBoolean, ExtRemoteData::SetData, SetData, SetBoolean
 f1_keywords:
  - "engextcpp/ExtRemoteData"
+ - "ExtRemoteData"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Windows

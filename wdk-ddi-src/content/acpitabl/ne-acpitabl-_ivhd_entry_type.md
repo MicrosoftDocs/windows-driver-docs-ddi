@@ -7,6 +7,7 @@ ms.date: 10/01/2018
 keywords: ["_IVHD_ENTRY_TYPE enumeration"]
 f1_keywords:
  - "acpitabl/_IVHD_ENTRY_TYPE"
+ - "_IVHD_ENTRY_TYPE"
 ms.keywords: _IVHD_ENTRY_TYPE, IVRS_TABLE_TYPE, 
 req.header: acpitabl.h
 req.include-header:

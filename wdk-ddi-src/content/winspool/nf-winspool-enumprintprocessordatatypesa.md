@@ -10,6 +10,7 @@ keywords: ["EnumPrintProcessorDatatypesA function"]
 ms.keywords: EnumPrintProcessorDatatypes, EnumPrintProcessorDatatypes function [Print Devices], EnumPrintProcessorDatatypesA, print.enumprintprocessordatatypes, spoolfnc_f0686e8e-e1bc-448a-8dd1-eeccfb66dd9e.xml, winspool/EnumPrintProcessorDatatypes
 f1_keywords:
  - "winspool/EnumPrintProcessorDatatypes"
+ - "EnumPrintProcessorDatatypes"
 req.header: winspool.h
 req.include-header: Winspool.h
 req.target-type: Desktop

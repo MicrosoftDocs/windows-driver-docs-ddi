@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["UsbPm_RetrieveConnectorState function"]
 f1_keywords:
  - "usbpmapi/UsbPm_RetrieveConnectorState"
+ - "UsbPm_RetrieveConnectorState"
 ms.keywords: UsbPm_RetrieveConnectorState
 tech.root: usbref
 req.header: usbpmapi.h

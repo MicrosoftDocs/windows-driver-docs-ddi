@@ -10,6 +10,7 @@ keywords: ["IoCheckQuerySetFileInformation function"]
 ms.keywords: IoCheckQuerySetFileInformation, IoCheckQuerySetFileInformation function [Installable File System Drivers], ifsk.iocheckquerysetfileinformation, ioref_22478455-1bd1-46cb-8ac2-05e4857c9524.xml, ntifs/IoCheckQuerySetFileInformation
 f1_keywords:
  - "ntifs/IoCheckQuerySetFileInformation"
+ - "IoCheckQuerySetFileInformation"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

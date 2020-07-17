@@ -10,6 +10,7 @@ keywords: ["IOCTL_GNSS_POP_BREADCRUMBS IOCTL"]
 ms.keywords: IOCTL_GNSS_POP_BREADCRUMBS, IOCTL_GNSS_POP_BREADCRUMBS control, IOCTL_GNSS_POP_BREADCRUMBS control code [Sensor Devices], gnss.ioctl_gnss_pop_breadcrumbs_, gnssdriver/IOCTL_GNSS_POP_BREADCRUMBS
 f1_keywords:
  - "gnssdriver/IOCTL_GNSS_POP_BREADCRUMBS"
+ - "IOCTL_GNSS_POP_BREADCRUMBS"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows

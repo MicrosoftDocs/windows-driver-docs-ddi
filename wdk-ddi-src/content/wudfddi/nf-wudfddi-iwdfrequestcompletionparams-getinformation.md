@@ -10,6 +10,7 @@ keywords: ["IWDFRequestCompletionParams::GetInformation"]
 ms.keywords: GetInformation, GetInformation method, GetInformation method,IWDFRequestCompletionParams interface, IWDFRequestCompletionParams interface,GetInformation method, IWDFRequestCompletionParams.GetInformation, IWDFRequestCompletionParams::GetInformation, UMDFRequestObjectRef_f014a31c-ac37-419d-a318-31d910c646b1.xml, umdf.iwdfrequestcompletionparams_getinformation, wdf.iwdfrequestcompletionparams_getinformation, wudfddi/IWDFRequestCompletionParams::GetInformation
 f1_keywords:
  - "wudfddi/IWDFRequestCompletionParams.GetInformation"
+ - "IWDFRequestCompletionParams.GetInformation"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["IDARG_IN_I2C_TRANSMIT structure"]
 ms.keywords: IDARG_IN_I2C_TRANSMIT, IDARG_IN_I2C_TRANSMIT structure [Display Devices], display.idarg_in_i2c_transmit, iddcx/IDARG_IN_I2C_TRANSMIT
 f1_keywords:
  - "iddcx/IDARG_IN_I2C_TRANSMIT"
+ - "IDARG_IN_I2C_TRANSMIT"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows

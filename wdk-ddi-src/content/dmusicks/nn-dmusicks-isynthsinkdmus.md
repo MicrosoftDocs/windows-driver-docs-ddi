@@ -10,6 +10,7 @@ keywords: ["ISynthSinkDMus interface"]
 ms.keywords: ISynthSinkDMus, ISynthSinkDMus interface [Audio Devices], ISynthSinkDMus interface [Audio Devices],described, audio.isynthsinkdmus, audmp-routines_744ae6c7-7f7e-4a66-9624-5a5d82e2eb86.xml, dmusicks/ISynthSinkDMus
 f1_keywords:
  - "dmusicks/ISynthSinkDMus"
+ - "ISynthSinkDMus"
 req.header: dmusicks.h
 req.include-header: 
 req.target-type: Windows

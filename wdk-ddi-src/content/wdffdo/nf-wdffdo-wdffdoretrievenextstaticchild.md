@@ -10,6 +10,7 @@ keywords: ["WdfFdoRetrieveNextStaticChild function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_013cf620-08fe-4c72-8a5e-c7e38a37b503.xml, WdfFdoRetrieveNextStaticChild, WdfFdoRetrieveNextStaticChild method, kmdf.wdffdoretrievenextstaticchild, wdf.wdffdoretrievenextstaticchild, wdffdo/WdfFdoRetrieveNextStaticChild
 f1_keywords:
  - "wdffdo/WdfFdoRetrieveNextStaticChild"
+ - "WdfFdoRetrieveNextStaticChild"
 req.header: wdffdo.h
 req.include-header: Wdf.h
 req.target-type: Universal

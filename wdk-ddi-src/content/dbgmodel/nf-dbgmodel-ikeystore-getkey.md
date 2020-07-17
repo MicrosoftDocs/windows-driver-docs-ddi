@@ -7,6 +7,7 @@ ms.date: 08/13/2018
 keywords: ["IKeyStore::GetKey"]
 f1_keywords:
  - "dbgmodel/IKeyStore.GetKey"
+ - "IKeyStore.GetKey"
 ms.keywords: IKeyStore::GetKey, GetKey, IKeyStore.GetKey, IKeyStore::GetKey, IKeyStore.GetKey
 req.header: dbgmodel.h
 req.include-header:

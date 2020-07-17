@@ -10,6 +10,7 @@ keywords: ["_USBFN_INTERFACE_ATTACH structure"]
 ms.keywords: "*PUSBFN_INTERFACE_ATTACH, PUSBFN_INTERFACE_ATTACH, PUSBFN_INTERFACE_ATTACH structure pointer [Buses], USBFN_INTERFACE_ATTACH, USBFN_INTERFACE_ATTACH structure [Buses], _USBFN_INTERFACE_ATTACH, buses.usbfn_interface_attach, usbfnattach/PUSBFN_INTERFACE_ATTACH, usbfnattach/USBFN_INTERFACE_ATTACH"
 f1_keywords:
  - "usbfnattach/USBFN_INTERFACE_ATTACH"
+ - "USBFN_INTERFACE_ATTACH"
 req.header: usbfnattach.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["KSPROPERTY_SERVICE enumeration"]
 ms.keywords: KSPROPERTY_SERVICE, KSPROPERTY_SERVICE enumeration [Streaming Media Devices], KSPROPERTY_SERVICE_BUILDCACHE, KSPROPERTY_SERVICE_MERIT, ksi/KSPROPERTY_SERVICE, ksi/KSPROPERTY_SERVICE_BUILDCACHE, ksi/KSPROPERTY_SERVICE_MERIT, stream.ksproperty_service
 f1_keywords:
  - "ksi/KSPROPERTY_SERVICE"
+ - "KSPROPERTY_SERVICE"
 req.header: ksi.h
 req.include-header: 
 req.target-type: Windows

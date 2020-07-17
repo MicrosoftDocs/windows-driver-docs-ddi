@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DlEnableInterrupt function"]
 f1_keywords:
  - "dispmprt/DlEnableInterrupt"
+ - "DlEnableInterrupt"
 ms.keywords: DlEnableInterrupt
 req.header: dispmprt.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["GetDebuggerCacheSize function"]
 ms.keywords: GetDebuggerCacheSize, GetDebuggerCacheSize function [Windows Debugging], WdbgExts_Ref_da3c4b36-e7b1-429a-9d63-4f92101a189a.xml, debugger.getdebuggercachesize, wdbgexts/GetDebuggerCacheSize
 f1_keywords:
  - "wdbgexts/GetDebuggerCacheSize"
+ - "GetDebuggerCacheSize"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop

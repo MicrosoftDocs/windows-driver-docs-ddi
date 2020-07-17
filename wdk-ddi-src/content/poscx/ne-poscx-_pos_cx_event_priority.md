@@ -10,6 +10,7 @@ keywords: ["_POS_CX_EVENT_PRIORITY enumeration"]
 ms.keywords: POS_CX_EVENT_PRIORITY, POS_CX_EVENT_PRIORITY enumeration, POS_CX_EVENT_PRIORITY_CONTROL, POS_CX_EVENT_PRIORITY_DATA, POS_CX_EVENT_PRIORITY_INVALID, _POS_CX_EVENT_PRIORITY, pos.pos_cx_event_priority, poscx/POS_CX_EVENT_PRIORITY, poscx/POS_CX_EVENT_PRIORITY_CONTROL, poscx/POS_CX_EVENT_PRIORITY_DATA, poscx/POS_CX_EVENT_PRIORITY_INVALID
 f1_keywords:
  - "poscx/POS_CX_EVENT_PRIORITY"
+ - "POS_CX_EVENT_PRIORITY"
 req.header: poscx.h
 req.include-header: Poscx.h
 req.target-type: Windows

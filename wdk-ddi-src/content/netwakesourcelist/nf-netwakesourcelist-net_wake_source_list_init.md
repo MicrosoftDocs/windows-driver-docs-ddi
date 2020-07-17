@@ -10,6 +10,7 @@ ms.date: 10/08/2019
 keywords: ["NET_WAKE_SOURCE_LIST_INIT function"]
 f1_keywords:
  - "netwakesourcelist/NET_WAKE_SOURCE_LIST_INIT"
+ - "NET_WAKE_SOURCE_LIST_INIT"
 ms.keywords: NET_WAKE_SOURCE_LIST_INIT
 req.header: netwakesourcelist.h
 req.include-header:

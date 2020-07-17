@@ -7,6 +7,7 @@ ms.date: 09/19/2018
 keywords: ["IIterableConcept::GetDefaultIndexDimensionality"]
 f1_keywords:
  - "dbgmodel/IIterableConcept.GetDefaultIndexDimensionality"
+ - "IIterableConcept.GetDefaultIndexDimensionality"
 ms.keywords: IIterableConcept::GetDefaultIndexDimensionality, GetDefaultIndexDimensionality, IIterableConcept.GetDefaultIndexDimensionality, IIterableConcept::GetDefaultIndexDimensionality, IIterableConcept.GetDefaultIndexDimensionality
 req.header: dbgmodel.h
 req.include-header:

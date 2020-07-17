@@ -10,6 +10,7 @@ ms.date: 09/26/2019
 keywords: ["NET_FRAGMENT_VIRTUAL_ADDRESS structure"]
 f1_keywords:
  - "virtualaddresstypes/NET_FRAGMENT_VIRTUAL_ADDRESS"
+ - "NET_FRAGMENT_VIRTUAL_ADDRESS"
 ms.keywords: NET_FRAGMENT_VIRTUAL_ADDRESS, NET_FRAGMENT_VIRTUAL_ADDRESS, 
 req.header: virtualaddresstypes.h
 req.include-header:

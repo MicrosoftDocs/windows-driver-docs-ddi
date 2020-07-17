@@ -10,6 +10,7 @@ keywords: ["CWiauPropertyList::SetValidValues(INT,LONG,LONG,INT,PLONG)"]
 ms.keywords: CWiauPropertyList interface [Imaging Devices],SetValidValues method, CWiauPropertyList.SetValidValues, CWiauPropertyList.SetValidValues(INT,LONG,LONG,INT,PLONG), CWiauPropertyList::SetValidValues, CWiauPropertyList::SetValidValues(INT  ,LONG  ,LONG  ,INT  ,PLONG  ), CWiauPropertyList::SetValidValues(INT,LONG,LONG,INT,PLONG), SetValidValues, SetValidValues method [Imaging Devices], SetValidValues method [Imaging Devices],CWiauPropertyList interface, SetValidValues(LONG,(CWiauPropertyList), image.cwiaupropertylist_setvalidvalues_long__list_, wiauFncs_6438ee42-db48-4c58-8414-5dee8fe186ef.xml, wiautil/CWiauPropertyList::SetValidValues
 f1_keywords:
  - "wiautil/CWiauPropertyList.SetValidValues"
+ - "CWiauPropertyList.SetValidValues"
 req.header: wiautil.h
 req.include-header: Wiautil.h, Wiamindr.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["ExGetPreviousMode function"]
 ms.keywords: ExGetPreviousMode, ExGetPreviousMode routine [Kernel-Mode Driver Architecture], k102_080fbfa6-6261-453d-a2c7-e08818d34b6f.xml, kernel.exgetpreviousmode, wdm/ExGetPreviousMode
 f1_keywords:
  - "wdm/ExGetPreviousMode"
+ - "ExGetPreviousMode"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

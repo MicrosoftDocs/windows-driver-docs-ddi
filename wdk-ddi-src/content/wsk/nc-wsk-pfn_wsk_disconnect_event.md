@@ -10,6 +10,7 @@ keywords: ["PFN_WSK_DISCONNECT_EVENT callback function"]
 ms.keywords: PFN_WSK_DISCONNECT_EVENT, PFN_WSK_DISCONNECT_EVENT callback, WskDisconnectEvent, WskDisconnectEvent callback function [Network Drivers Starting with Windows Vista], netvista.wskdisconnectevent, wsk/WskDisconnectEvent, wskref_ec112b8d-f939-456f-9766-e181c7836e2c.xml
 f1_keywords:
  - "wsk/WskDisconnectEvent"
+ - "WskDisconnectEvent"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Windows

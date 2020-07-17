@@ -10,6 +10,7 @@ keywords: ["_USBFN_CLASS_INFORMATION_PACKET structure"]
 ms.keywords: "*PUSBFN_CLASS_INFORMATION_PACKET, PUSBFN_CLASS_INFORMATION_PACKET, PUSBFN_CLASS_INFORMATION_PACKET structure pointer [Buses], USBFN_CLASS_INFORMATION_PACKET, USBFN_CLASS_INFORMATION_PACKET structure [Buses], _USBFN_CLASS_INFORMATION_PACKET, buses.usbfn_class_information_packet, usbfnbase/PUSBFN_CLASS_INFORMATION_PACKET, usbfnbase/USBFN_CLASS_INFORMATION_PACKET"
 f1_keywords:
  - "usbfnbase/USBFN_CLASS_INFORMATION_PACKET"
+ - "USBFN_CLASS_INFORMATION_PACKET"
 req.header: usbfnbase.h
 req.include-header: 
 req.target-type: Windows

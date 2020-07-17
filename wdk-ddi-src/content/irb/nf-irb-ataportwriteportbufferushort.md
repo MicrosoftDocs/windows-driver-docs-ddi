@@ -10,6 +10,7 @@ keywords: ["AtaPortWritePortBufferUshort function"]
 ms.keywords: AtaPortWritePortBufferUshort, AtaPortWritePortBufferUshort routine [Storage Devices], atartns_78cda4b1-7995-40c3-a784-ed66d8a8d520.xml, irb/AtaPortWritePortBufferUshort, storage.ataportwriteportbufferushort
 f1_keywords:
  - "irb/AtaPortWritePortBufferUshort"
+ - "AtaPortWritePortBufferUshort"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop

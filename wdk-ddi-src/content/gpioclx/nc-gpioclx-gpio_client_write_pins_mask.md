@@ -10,6 +10,7 @@ keywords: ["GPIO_CLIENT_WRITE_PINS_MASK callback function"]
 ms.keywords: CLIENT_WriteGpioPinsUsingMask, CLIENT_WriteGpioPinsUsingMask callback, CLIENT_WriteGpioPinsUsingMask callback function [Parallel Ports], GPIO.client_writegpiopinsusingmask, GPIO_CLIENT_WRITE_PINS_MASK, gpioclx/CLIENT_WriteGpioPinsUsingMask
 f1_keywords:
  - "gpioclx/CLIENT_WriteGpioPinsUsingMask"
+ - "CLIENT_WriteGpioPinsUsingMask"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Desktop

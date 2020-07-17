@@ -10,6 +10,7 @@ keywords: ["IDebugDataSpaces3::ReadImageNtHeaders"]
 ms.keywords: IDebugDataSpaces3 interface [Windows Debugging],ReadImageNtHeaders method, IDebugDataSpaces3.ReadImageNtHeaders, IDebugDataSpaces3::ReadImageNtHeaders, IDebugDataSpaces4 interface [Windows Debugging],ReadImageNtHeaders method, IDebugDataSpaces4::ReadImageNtHeaders, IDebugDataSpaces_333f4fab-a56c-43e2-92d7-59775b794e1f.xml, ReadImageNtHeaders, ReadImageNtHeaders method [Windows Debugging], ReadImageNtHeaders method [Windows Debugging],IDebugDataSpaces3 interface, ReadImageNtHeaders method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces3::ReadImageNtHeaders, dbgeng/IDebugDataSpaces4::ReadImageNtHeaders, debugger.readimagentheaders
 f1_keywords:
  - "dbgeng/IDebugDataSpaces3.ReadImageNtHeaders"
+ - "IDebugDataSpaces3.ReadImageNtHeaders"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

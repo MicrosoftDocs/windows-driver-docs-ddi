@@ -10,6 +10,7 @@ keywords: ["RILALPHAIDENTIFIDERTYPE enumeration"]
 ms.keywords: RILALPHAIDENTIFIDERTYPE, RILALPHAIDENTIFIDERTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_ALPHAIDENTIFIERTYPE_MAX, RIL_ALPHAIDENTIFIERTYPE_NOTPRESENT, RIL_ALPHAIDENTIFIERTYPE_PRESENT, netvista.rilalphaidentifidertype, ntddrilapitypes/RILALPHAIDENTIFIDERTYPE, ntddrilapitypes/RIL_ALPHAIDENTIFIERTYPE_MAX, ntddrilapitypes/RIL_ALPHAIDENTIFIERTYPE_NOTPRESENT, ntddrilapitypes/RIL_ALPHAIDENTIFIERTYPE_PRESENT
 f1_keywords:
  - "ntddrilapitypes/RILALPHAIDENTIFIDERTYPE"
+ - "RILALPHAIDENTIFIDERTYPE"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

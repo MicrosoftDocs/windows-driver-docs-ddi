@@ -7,6 +7,7 @@ ms.date: 12/21/2018
 keywords: ["IKeyEnumerator::GetNext"]
 f1_keywords:
  - "dbgmodel/IKeyEnumerator.GetNext"
+ - "IKeyEnumerator.GetNext"
 ms.keywords: IKeyEnumerator::GetNext, GetNext, IKeyEnumerator.GetNext, IKeyEnumerator::GetNext, IKeyEnumerator.GetNext
 req.header: dbgmodel.h
 req.include-header:

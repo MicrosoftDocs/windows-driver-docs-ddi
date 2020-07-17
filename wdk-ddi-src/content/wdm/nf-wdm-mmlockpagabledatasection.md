@@ -10,6 +10,7 @@ keywords: ["MmLockPagableDataSection function"]
 ms.keywords: MmLockPagableDataSection, MmLockPagableDataSection routine [Kernel-Mode Driver Architecture], k106_05a47a6d-54f2-48d3-abba-ba3864aaa94b.xml, kernel.mmlockpagabledatasection, wdm/MmLockPagableDataSection
 f1_keywords:
  - "wdm/MmLockPagableDataSection"
+ - "MmLockPagableDataSection"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

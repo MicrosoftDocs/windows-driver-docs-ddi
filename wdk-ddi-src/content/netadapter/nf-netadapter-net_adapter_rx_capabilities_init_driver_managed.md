@@ -8,6 +8,7 @@ ms.date: 02/14/2018
 keywords: ["NET_ADAPTER_RX_CAPABILITIES_INIT_DRIVER_MANAGED function"]
 f1_keywords:
  - "netadapter/NET_ADAPTER_RX_CAPABILITIES_INIT_DRIVER_MANAGED"
+ - "NET_ADAPTER_RX_CAPABILITIES_INIT_DRIVER_MANAGED"
 ms.keywords: NET_ADAPTER_RX_CAPABILITIES_INIT_DRIVER_MANAGED
 req.header: netadapter.h
 req.include-header: netadaptercx.h

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["DEFINE_GUIDEX function"]
 f1_keywords:
  - "swenum/DEFINE_GUIDEX"
+ - "DEFINE_GUIDEX"
 ms.keywords: DEFINE_GUIDEX
 req.header: swenum.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["PFND3DDDI_DRAWRECTPATCH callback function"]
 ms.keywords: DrawRectPatch, DrawRectPatch callback function [Display Devices], PFND3DDDI_DRAWRECTPATCH, PFND3DDDI_DRAWRECTPATCH callback, UserModeDisplayDriver_Functions_a32bf010-d5a9-4cf7-b885-4f0fb407a4ad.xml, d3dumddi/DrawRectPatch, display.drawrectpatch
 f1_keywords:
  - "d3dumddi/DrawRectPatch"
+ - "DrawRectPatch"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

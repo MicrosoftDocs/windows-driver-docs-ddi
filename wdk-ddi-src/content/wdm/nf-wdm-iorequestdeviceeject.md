@@ -10,6 +10,7 @@ keywords: ["IoRequestDeviceEject function"]
 ms.keywords: IoRequestDeviceEject, IoRequestDeviceEject routine [Kernel-Mode Driver Architecture], k104_59a74c47-2538-400a-a9b5-a27a5fc495dd.xml, kernel.iorequestdeviceeject, wdm/IoRequestDeviceEject
 f1_keywords:
  - "wdm/IoRequestDeviceEject"
+ - "IoRequestDeviceEject"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

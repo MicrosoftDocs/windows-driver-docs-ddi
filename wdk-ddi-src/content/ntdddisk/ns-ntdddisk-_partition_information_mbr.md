@@ -10,6 +10,7 @@ keywords: ["_PARTITION_INFORMATION_MBR structure"]
 ms.keywords: "*PPARTITION_INFORMATION_MBR, PARTITION_INFORMATION_MBR, PARTITION_INFORMATION_MBR structure [Storage Devices], PPARTITION_INFORMATION_MBR, PPARTITION_INFORMATION_MBR structure pointer [Storage Devices], _PARTITION_INFORMATION_MBR, ntdddisk/PARTITION_INFORMATION_MBR, ntdddisk/PPARTITION_INFORMATION_MBR, storage.partition_information_mbr, structs-disk_c386ea16-c8d7-4a5e-8e61-d8e8ddead136.xml"
 f1_keywords:
  - "ntdddisk/PARTITION_INFORMATION_MBR"
+ - "PARTITION_INFORMATION_MBR"
 req.header: ntdddisk.h
 req.include-header: Ntddk.h, Ntdddisk.h
 req.target-type: Windows

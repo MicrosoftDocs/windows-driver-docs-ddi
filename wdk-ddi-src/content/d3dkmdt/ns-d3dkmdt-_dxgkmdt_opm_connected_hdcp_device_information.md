@@ -10,6 +10,7 @@ keywords: ["_DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION structure"]
 ms.keywords: DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION, DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION structure [Display Devices], DmStructs_9c39e234-e0dd-4d2f-b1b4-e8745bcc69aa.xml, _DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION, d3dkmdt/DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION, display.dxgkmdt_opm_connected_hdcp_device_information
 f1_keywords:
  - "d3dkmdt/DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION"
+ - "DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION"
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
 req.target-type: Windows

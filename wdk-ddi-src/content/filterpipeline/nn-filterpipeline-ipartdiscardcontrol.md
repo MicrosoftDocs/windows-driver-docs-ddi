@@ -10,6 +10,7 @@ keywords: ["IPartDiscardControl interface"]
 ms.keywords: IPartDiscardControl, IPartDiscardControl interface [Print Devices], IPartDiscardControl interface [Print Devices],described, filterpipeline/IPartDiscardControl, filterpipeline_c29b91d3-ecf6-4697-bf5f-5b536cfb7071.xml, print.ipartdiscardcontrol
 f1_keywords:
  - "filterpipeline/IPartDiscardControl"
+ - "IPartDiscardControl"
 req.header: filterpipeline.h
 req.include-header: Filterpipeline.h
 req.target-type: Windows

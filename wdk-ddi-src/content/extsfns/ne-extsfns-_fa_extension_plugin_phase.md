@@ -10,6 +10,7 @@ keywords: ["_FA_EXTENSION_PLUGIN_PHASE enumeration"]
 ms.keywords: FA_EXTENSION_PLUGIN_PHASE, FA_EXTENSION_PLUGIN_PHASE enumeration [Windows Debugging], FA_PLUGIN_INITILIZATION, FA_PLUGIN_POST_BUCKETING, FA_PLUGIN_PRE_BUCKETING, FA_PLUGIN_STACK_ANALYSIS, _FA_EXTENSION_PLUGIN_PHASE, debugger.fa_extension_plugin_phase, extsfns/FA_EXTENSION_PLUGIN_PHASE, extsfns/FA_PLUGIN_INITILIZATION, extsfns/FA_PLUGIN_POST_BUCKETING, extsfns/FA_PLUGIN_PRE_BUCKETING, extsfns/FA_PLUGIN_STACK_ANALYSIS
 f1_keywords:
  - "extsfns/FA_EXTENSION_PLUGIN_PHASE"
+ - "FA_EXTENSION_PLUGIN_PHASE"
 req.header: extsfns.h
 req.include-header: 
 req.target-type: Windows

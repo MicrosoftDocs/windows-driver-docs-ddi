@@ -10,6 +10,7 @@ keywords: ["WdfWmiInstanceDeregister function"]
 ms.keywords: DFWMIRef_4e04e7da-3a14-4bd4-a430-8f5f3624b61a.xml, WdfWmiInstanceDeregister, WdfWmiInstanceDeregister method, kmdf.wdfwmiinstancederegister, wdf.wdfwmiinstancederegister, wdfwmi/WdfWmiInstanceDeregister
 f1_keywords:
  - "wdfwmi/WdfWmiInstanceDeregister"
+ - "WdfWmiInstanceDeregister"
 req.header: wdfwmi.h
 req.include-header: Wdf.h
 req.target-type: Universal

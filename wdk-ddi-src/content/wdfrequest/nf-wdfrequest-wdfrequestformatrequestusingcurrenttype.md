@@ -10,6 +10,7 @@ keywords: ["WdfRequestFormatRequestUsingCurrentType function"]
 ms.keywords: DFRequestObjectRef_c84fc560-9492-448a-9886-754c2857eba5.xml, WdfRequestFormatRequestUsingCurrentType, WdfRequestFormatRequestUsingCurrentType method, kmdf.wdfrequestformatrequestusingcurrenttype, wdf.wdfrequestformatrequestusingcurrenttype, wdfrequest/WdfRequestFormatRequestUsingCurrentType
 f1_keywords:
  - "wdfrequest/WdfRequestFormatRequestUsingCurrentType"
+ - "WdfRequestFormatRequestUsingCurrentType"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal

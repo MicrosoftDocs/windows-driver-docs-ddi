@@ -10,6 +10,7 @@ keywords: ["IoRaiseHardError function"]
 ms.keywords: IoRaiseHardError, IoRaiseHardError routine [Kernel-Mode Driver Architecture], k104_d723a2b6-2fdc-43d2-a7bc-ab356157a040.xml, kernel.ioraiseharderror, ntddk/IoRaiseHardError
 f1_keywords:
  - "ntddk/IoRaiseHardError"
+ - "IoRaiseHardError"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

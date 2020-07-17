@@ -10,6 +10,7 @@ keywords: ["WRITE_REGISTER_UCHAR function"]
 ms.keywords: WRITE_REGISTER_UCHAR, WRITE_REGISTER_UCHAR function, umdf.write_register_uchar, wdf.write_register_uchar, wudfddi_hwaccess/WRITE_REGISTER_UCHAR
 f1_keywords:
  - "wudfddi_hwaccess/WRITE_REGISTER_UCHAR"
+ - "WRITE_REGISTER_UCHAR"
 req.header: wudfddi_hwaccess.h
 req.include-header: 
 req.target-type: Desktop

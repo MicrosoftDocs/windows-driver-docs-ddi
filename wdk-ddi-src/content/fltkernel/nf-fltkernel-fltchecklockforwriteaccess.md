@@ -10,6 +10,7 @@ keywords: ["FltCheckLockForWriteAccess function"]
 ms.keywords: FltApiRef_a_to_d_c9957537-90d0-4830-bba1-1043f450c367.xml, FltCheckLockForWriteAccess, FltCheckLockForWriteAccess routine [Installable File System Drivers], fltkernel/FltCheckLockForWriteAccess, ifsk.fltchecklockforwriteaccess
 f1_keywords:
  - "fltkernel/FltCheckLockForWriteAccess"
+ - "FltCheckLockForWriteAccess"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["RxMapMidToContext function"]
 ms.keywords: RxMapMidToContext, RxMapMidToContext function [Installable File System Drivers], ifsk.rxmapmidtocontext, midatlax/RxMapMidToContext, rxref_e7a11999-7ace-4154-91aa-28dc99a83790.xml
 f1_keywords:
  - "midatlax/RxMapMidToContext"
+ - "RxMapMidToContext"
 req.header: midatlax.h
 req.include-header: Midatlax.h
 req.target-type: Desktop

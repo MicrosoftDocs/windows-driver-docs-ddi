@@ -10,6 +10,7 @@ keywords: ["_BOOTDISK_INFORMATION_EX structure"]
 ms.keywords: "*PBOOTDISK_INFORMATION_EX, BOOTDISK_INFORMATION_EX, BOOTDISK_INFORMATION_EX structure [Kernel-Mode Driver Architecture], PBOOTDISK_INFORMATION_EX, PBOOTDISK_INFORMATION_EX structure pointer [Kernel-Mode Driver Architecture], _BOOTDISK_INFORMATION_EX, kernel.bootdisk_information_ex, kstruct_a_abc410ed-6eca-4417-b428-565971e85287.xml, wdm/BOOTDISK_INFORMATION_EX, wdm/PBOOTDISK_INFORMATION_EX"
 f1_keywords:
  - "wdm/BOOTDISK_INFORMATION_EX"
+ - "BOOTDISK_INFORMATION_EX"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["GetInputLine function"]
 ms.keywords: GetInputLine, GetInputLine function [Windows Debugging], WdbgExts_Ref_ed42718c-5e3e-4fe6-a2d6-f553b6c58800.xml, debugger.getinputline, wdbgexts/GetInputLine
 f1_keywords:
  - "wdbgexts/GetInputLine"
+ - "GetInputLine"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop

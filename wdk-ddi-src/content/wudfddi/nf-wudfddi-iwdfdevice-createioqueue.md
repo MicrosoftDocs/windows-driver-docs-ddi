@@ -10,6 +10,7 @@ keywords: ["IWDFDevice::CreateIoQueue"]
 ms.keywords: CreateIoQueue, CreateIoQueue method, CreateIoQueue method,IWDFDevice interface, IWDFDevice interface,CreateIoQueue method, IWDFDevice.CreateIoQueue, IWDFDevice::CreateIoQueue, UMDFDeviceObjectRef_ed702ef2-a628-44cc-9aba-421018c236c1.xml, umdf.iwdfdevice_createioqueue, wdf.iwdfdevice_createioqueue, wudfddi/IWDFDevice::CreateIoQueue
 f1_keywords:
  - "wudfddi/IWDFDevice.CreateIoQueue"
+ - "IWDFDevice.CreateIoQueue"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

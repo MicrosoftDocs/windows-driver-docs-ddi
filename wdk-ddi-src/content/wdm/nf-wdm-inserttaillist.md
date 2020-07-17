@@ -10,6 +10,7 @@ keywords: ["InsertTailList function"]
 ms.keywords: InsertTailList, InsertTailList routine [Kernel-Mode Driver Architecture], k109_8f31d6a6-89a0-440c-9397-2bef61a5878f.xml, kernel.inserttaillist, wdm/InsertTailList
 f1_keywords:
  - "wdm/InsertTailList"
+ - "InsertTailList"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Desktop

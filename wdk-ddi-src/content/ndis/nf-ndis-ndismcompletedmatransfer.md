@@ -10,6 +10,7 @@ keywords: ["NdisMCompleteDmaTransfer macro"]
 ms.keywords: NdisMCompleteDmaTransfer, NdisMCompleteDmaTransfer macro [Network Drivers Starting with Windows Vista], dma_ref_bd601fef-cf06-42ff-9906-d3bf8edef72f.xml, ndis/NdisMCompleteDmaTransfer, netvista.ndismcompletedmatransfer
 f1_keywords:
  - "ndis/NdisMCompleteDmaTransfer"
+ - "NdisMCompleteDmaTransfer"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["PFNKSDEVICEQUERYCAPABILITIES callback function"]
 ms.keywords: AVStrMiniDeviceQueryCapabilities, AVStrMiniDeviceQueryCapabilities routine [Streaming Media Devices], PFNKSDEVICEQUERYCAPABILITIES, avstclbk_6078ead8-c11e-4f25-9742-21740e9a9da8.xml, ks/AVStrMiniDeviceQueryCapabilities, stream.avstrminidevicequerycapabilities
 f1_keywords:
  - "ks/AVStrMiniDeviceQueryCapabilities"
+ - "AVStrMiniDeviceQueryCapabilities"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop

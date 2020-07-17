@@ -8,6 +8,7 @@ ms.date: 04/17/2018
 keywords: ["NDIS_SWITCH_PORT_PROPERTY_ENUM_INFO_GET_PROPERTY macro"]
 f1_keywords:
  - "ntddndis/NDIS_SWITCH_PORT_PROPERTY_ENUM_INFO_GET_PROPERTY"
+ - "NDIS_SWITCH_PORT_PROPERTY_ENUM_INFO_GET_PROPERTY"
 ms.keywords: NDIS_SWITCH_PORT_PROPERTY_ENUM_INFO_GET_PROPERTY
 req.header: ntddndis.h
 req.include-header: ndis.h

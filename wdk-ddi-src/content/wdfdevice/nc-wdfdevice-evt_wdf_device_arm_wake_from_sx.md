@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_DEVICE_ARM_WAKE_FROM_SX callback function"]
 ms.keywords: DFDeviceObjectGeneralRef_7d373786-c5fd-41fe-a5b8-341fdb703984.xml, EVT_WDF_DEVICE_ARM_WAKE_FROM_SX, EVT_WDF_DEVICE_ARM_WAKE_FROM_SX callback, EvtDeviceArmWakeFromSx, EvtDeviceArmWakeFromSx callback function, kmdf.evtdevicearmwakefromsx, wdf.evtdevicearmwakefromsx, wdfdevice/EvtDeviceArmWakeFromSx
 f1_keywords:
  - "wdfdevice/EvtDeviceArmWakeFromSx"
+ - "EvtDeviceArmWakeFromSx"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

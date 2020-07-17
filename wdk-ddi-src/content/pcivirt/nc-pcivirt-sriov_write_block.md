@@ -10,6 +10,7 @@ keywords: ["SRIOV_WRITE_BLOCK callback"]
 ms.keywords: "*PSRIOV_WRITE_BLOCK, *PSRIOV_WRITE_BLOCK callback function pointer [Buses], PCI.sriov_write_block, SRIOV_WRITE_BLOCK, SriovWriteBlock, SriovWriteBlock callback function [Buses], pcivirt/SriovWriteBlock"
 f1_keywords:
  - "pcivirt/*PSRIOV_WRITE_BLOCK"
+ - "*PSRIOV_WRITE_BLOCK"
 req.header: pcivirt.h
 req.include-header:
 req.target-type: Windows

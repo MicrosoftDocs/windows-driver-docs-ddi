@@ -10,6 +10,7 @@ keywords: ["VideoPortZeroDeviceMemory function"]
 ms.keywords: VideoPortZeroDeviceMemory, VideoPortZeroDeviceMemory function [Display Devices], VideoPort_Functions_42829075-dd6d-49fd-a4d6-3ee19152335d.xml, display.videoportzerodevicememory, video/VideoPortZeroDeviceMemory
 f1_keywords:
  - "video/VideoPortZeroDeviceMemory"
+ - "VideoPortZeroDeviceMemory"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

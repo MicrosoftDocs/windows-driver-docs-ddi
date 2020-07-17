@@ -10,6 +10,7 @@ keywords: ["ChangerClassAllocatePool function"]
 ms.keywords: ChangerClassAllocatePool, ChangerClassAllocatePool function [Storage Devices], chgrclas_e1b15ece-f3e4-446f-adc4-39301fc0346f.xml, mcd/ChangerClassAllocatePool, storage.changerclassallocatepool
 f1_keywords:
  - "mcd/ChangerClassAllocatePool"
+ - "ChangerClassAllocatePool"
 req.header: mcd.h
 req.include-header: Mcd.h, Ntddchgr.h
 req.target-type: Desktop

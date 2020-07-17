@@ -10,6 +10,7 @@ keywords: ["_DEBUG_MODULE_PARAMETERS structure"]
 ms.keywords: "*PDEBUG_MODULE_PARAMETERS, DEBUG_MODULE_PARAMETERS, DEBUG_MODULE_PARAMETERS structure [Windows Debugging], PDEBUG_MODULE_PARAMETERS, PDEBUG_MODULE_PARAMETERS structure pointer [Windows Debugging], Structures_6e7366d2-9f49-4b7e-a277-d788808e4c40.xml, _DEBUG_MODULE_PARAMETERS, dbgeng/DEBUG_MODULE_PARAMETERS, dbgeng/PDEBUG_MODULE_PARAMETERS, debugger.debug_module_parameters"
 f1_keywords:
  - "dbgeng/DEBUG_MODULE_PARAMETERS"
+ - "DEBUG_MODULE_PARAMETERS"
 req.header: dbgeng.h
 req.include-header: DbgEng.h
 req.target-type: Windows

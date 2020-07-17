@@ -10,6 +10,7 @@ keywords: ["NtCreateSection function"]
 ms.keywords: NtCreateSection, ZwCreateSection, ZwCreateSection routine [Kernel-Mode Driver Architecture], k111_8e0d13e2-4cd7-4b39-b1ce-41b193c495be.xml, kernel.zwcreatesection, wdm/NtCreateSection, wdm/ZwCreateSection
 f1_keywords:
  - "ntifs/ZwCreateSection"
+ - "ZwCreateSection"
 req.header: ntifs.h
 req.include-header: Wdm.h, Ntifs.h
 req.target-type: Universal

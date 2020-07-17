@@ -10,6 +10,7 @@ keywords: ["FltDeleteVolumeContext function"]
 ms.keywords: FltApiRef_a_to_d_261f2efb-7c2e-4f85-a75c-b5cf55236271.xml, FltDeleteVolumeContext, FltDeleteVolumeContext function [Installable File System Drivers], fltkernel/FltDeleteVolumeContext, ifsk.fltdeletevolumecontext
 f1_keywords:
  - "fltkernel/FltDeleteVolumeContext"
+ - "FltDeleteVolumeContext"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

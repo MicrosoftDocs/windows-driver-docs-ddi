@@ -10,6 +10,7 @@ keywords: ["FsRtlRemoveDotsFromPath function"]
 ms.keywords: FsRtlRemoveDotsFromPath, FsRtlRemoveDotsFromPath routine [Installable File System Drivers], fsrtlref_93b15313-3292-4122-9852-731b995e9d20.xml, ifsk.fsrtlremovedotsfrompath, ntifs/FsRtlRemoveDotsFromPath
 f1_keywords:
  - "ntifs/FsRtlRemoveDotsFromPath"
+ - "FsRtlRemoveDotsFromPath"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal

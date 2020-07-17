@@ -8,6 +8,7 @@ ms.date: 08/23/2019
 keywords: ["DeviceDsmValidateOutput function"]
 f1_keywords:
  - "ntddstor/DeviceDsmValidateOutput"
+ - "DeviceDsmValidateOutput"
 ms.keywords: DeviceDsmValidateOutput
 req.header: ntddstor.h
 req.include-header:

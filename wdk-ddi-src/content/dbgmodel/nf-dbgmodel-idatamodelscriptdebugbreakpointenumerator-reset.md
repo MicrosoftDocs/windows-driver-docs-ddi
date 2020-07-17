@@ -7,6 +7,7 @@ ms.date: 09/10/2018
 keywords: ["IDataModelScriptDebugBreakpointEnumerator::Reset"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebugBreakpointEnumerator.Reset"
+ - "IDataModelScriptDebugBreakpointEnumerator.Reset"
 ms.keywords: IDataModelScriptDebugBreakpointEnumerator::Reset, Reset, IDataModelScriptDebugBreakpointEnumerator.Reset, IDataModelScriptDebugBreakpointEnumerator::Reset, IDataModelScriptDebugBreakpointEnumerator.Reset
 req.header: dbgmodel.h
 req.include-header:

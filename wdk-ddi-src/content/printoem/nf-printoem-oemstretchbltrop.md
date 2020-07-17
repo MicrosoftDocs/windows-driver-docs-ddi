@@ -10,6 +10,7 @@ keywords: ["OEMStretchBltROP function"]
 ms.keywords: OEMStretchBltROP, OEMStretchBltROP function [Print Devices], print.oemstretchbltrop, print_unidrv-pscript_rendering_b1617a87-83e0-4b49-b123-e1db1ed3dd70.xml, printoem/OEMStretchBltROP
 f1_keywords:
  - "printoem/OEMStretchBltROP"
+ - "OEMStretchBltROP"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows

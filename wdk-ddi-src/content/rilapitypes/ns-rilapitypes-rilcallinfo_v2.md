@@ -10,6 +10,7 @@ keywords: ["RILCALLINFO_V2 structure"]
 ms.keywords: "*LPRILCALLINFO_V2, RILCALLINFO_V2, RILCALLINFO_V2 structure [Network Drivers Starting with Windows Vista], netvista.rilcallinfo_v2, ntddrilapitypes/RILCALLINFO_V2"
 f1_keywords:
  - "rilapitypes/RILCALLINFO_V2"
+ - "RILCALLINFO_V2"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

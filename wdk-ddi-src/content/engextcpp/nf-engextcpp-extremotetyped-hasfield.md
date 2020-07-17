@@ -10,6 +10,7 @@ keywords: ["ExtRemoteTyped::HasField"]
 ms.keywords: EngExtCpp_Ref_8ce2c346-a92a-45ef-8baa-f1c42670aca6.xml, ExtRemoteTyped interface [Windows Debugging],HasField method, ExtRemoteTyped.HasField, ExtRemoteTyped::HasField, HasField, HasField method [Windows Debugging], HasField method [Windows Debugging],ExtRemoteTyped interface, debugger.extremotetyped_hasfield
 f1_keywords:
  - "engextcpp/ExtRemoteTyped.HasField"
+ - "ExtRemoteTyped.HasField"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop

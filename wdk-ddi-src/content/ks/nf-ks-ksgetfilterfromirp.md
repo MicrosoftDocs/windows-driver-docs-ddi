@@ -10,6 +10,7 @@ keywords: ["KsGetFilterFromIrp function"]
 ms.keywords: KsGetFilterFromIrp, KsGetFilterFromIrp function [Streaming Media Devices], avfunc_223d8c62-c585-4749-a087-19cfa48824f3.xml, ks/KsGetFilterFromIrp, stream.ksgetfilterfromirp
 f1_keywords:
  - "ks/KsGetFilterFromIrp"
+ - "KsGetFilterFromIrp"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_ESCAPETYPE enumeration"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_ESCAPETYPE"
+ - "_D3DKMT_ESCAPETYPE"
 ms.keywords: _D3DKMT_ESCAPETYPE, D3DKMT_ESCAPETYPE,
 req.header: d3dkmthk.h
 req.include-header:

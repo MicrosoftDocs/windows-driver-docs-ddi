@@ -7,6 +7,7 @@ ms.date: 09/21/2018
 keywords: ["IDataModelScriptDebugVariableSetEnumerator::AddRef"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebugVariableSetEnumerator.AddRef"
+ - "IDataModelScriptDebugVariableSetEnumerator.AddRef"
 ms.keywords: IDataModelScriptDebugVariableSetEnumerator::AddRef, AddRef, IDataModelScriptDebugVariableSetEnumerator.AddRef, IDataModelScriptDebugVariableSetEnumerator::AddRef, IDataModelScriptDebugVariableSetEnumerator.AddRef
 req.header: dbgmodel.h
 req.include-header:

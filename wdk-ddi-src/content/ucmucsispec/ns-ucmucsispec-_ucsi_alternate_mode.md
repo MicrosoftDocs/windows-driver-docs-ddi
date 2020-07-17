@@ -8,6 +8,7 @@ ms.date: 09/30/2018
 keywords: ["_UCSI_ALTERNATE_MODE structure"]
 f1_keywords:
  - "ucmucsispec/_UCSI_ALTERNATE_MODE"
+ - "_UCSI_ALTERNATE_MODE"
 ms.keywords: _UCSI_ALTERNATE_MODE, UCSI_ALTERNATE_MODE, *PUCSI_ALTERNATE_MODE, 
 req.header: ucmucsispec.h
 req.include-header: UcmUcsiCx.h 

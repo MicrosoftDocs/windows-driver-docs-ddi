@@ -10,6 +10,7 @@ keywords: ["IDebugSystemObjects3::GetSystemByServer"]
 ms.keywords: GetSystemByServer, GetSystemByServer method [Windows Debugging], GetSystemByServer method [Windows Debugging],IDebugSystemObjects3 interface, IDebugSystemObjects3 interface [Windows Debugging],GetSystemByServer method, IDebugSystemObjects3.GetSystemByServer, IDebugSystemObjects3::GetSystemByServer, dbgeng/IDebugSystemObjects3::GetSystemByServer, debugger.idebugsystemobjects3_getsystembyserver
 f1_keywords:
  - "dbgeng/IDebugSystemObjects3.GetSystemByServer"
+ - "IDebugSystemObjects3.GetSystemByServer"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

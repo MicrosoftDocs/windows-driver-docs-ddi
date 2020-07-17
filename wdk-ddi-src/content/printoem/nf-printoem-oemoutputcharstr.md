@@ -10,6 +10,7 @@ keywords: ["OEMOutputCharStr function"]
 ms.keywords: OEMOutputCharStr, OEMOutputCharStr function [Print Devices], print.oemoutputcharstr, print_obsoletefunctions_250a623a-d7ce-48ba-9163-c24f52eb687d.xml, printoem/OEMOutputCharStr
 f1_keywords:
  - "printoem/OEMOutputCharStr"
+ - "OEMOutputCharStr"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["FltCreateSectionForDataScan function"]
 ms.keywords: FltCreateSectionForDataScan, FltCreateSectionForDataScan routine [Installable File System Drivers], fltkernel/FltCreateSectionForDataScan, ifsk.fltcreatesectionfordatascan
 f1_keywords:
  - "fltkernel/FltCreateSectionForDataScan"
+ - "FltCreateSectionForDataScan"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

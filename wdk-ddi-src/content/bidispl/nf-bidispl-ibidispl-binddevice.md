@@ -10,6 +10,7 @@ keywords: ["IBidiSpl::BindDevice"]
 ms.keywords: BIDI_ACCESS_ADMINISTRATOR, BIDI_ACCESS_USER, BindDevice, BindDevice method [Print Devices], BindDevice method [Print Devices],IBidiSpl interface, IBidiSpl interface [Print Devices],BindDevice method, IBidiSpl.BindDevice, IBidiSpl::BindDevice, _win32_IBidiSpl_BindDevice, bidispl/IBidiSpl::BindDevice, gdi.ibidispl_ibidispl__binddevice, print.ibidispl_ibidispl__binddevice
 f1_keywords:
  - "bidispl/IBidiSpl.BindDevice"
+ - "IBidiSpl.BindDevice"
 req.header: bidispl.h
 req.include-header: 
 req.target-type: Desktop

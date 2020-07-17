@@ -10,6 +10,7 @@ keywords: ["SpbRequestComplete function"]
 ms.keywords: SPB.spbrequestcomplete, SpbRequestComplete, SpbRequestComplete method [Buses], spbcx/SpbRequestComplete
 f1_keywords:
  - "spbcx/SpbRequestComplete"
+ - "SpbRequestComplete"
 req.header: spbcx.h
 req.include-header: 
 req.target-type: Universal

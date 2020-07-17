@@ -27,6 +27,7 @@ tech.root: display
 ms.custom:
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_PINRESOURCES_CB_0076"
+ - "PFND3D12DDI_PINRESOURCES_CB_0076"
 topic_type:
  - apiref
 api_type:

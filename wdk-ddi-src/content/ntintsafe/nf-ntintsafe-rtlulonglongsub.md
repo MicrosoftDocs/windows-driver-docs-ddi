@@ -10,6 +10,7 @@ keywords: ["RtlULongLongSub function"]
 ms.keywords: RtlULongLongSub, RtlULongLongSub function [Kernel-Mode Driver Architecture], kernel.rtlulonglongsub, ntintsafe/RtlULongLongSub
 f1_keywords:
  - "ntintsafe/RtlULongLongSub"
+ - "RtlULongLongSub"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["CcDeferWrite function"]
 ms.keywords: CcDeferWrite, CcDeferWrite routine [Installable File System Drivers], ccref_06158fb8-cf33-42fa-bf7c-94b3a5e1fcfd.xml, ifsk.ccdeferwrite, ntifs/CcDeferWrite
 f1_keywords:
  - "ntifs/CcDeferWrite"
+ - "CcDeferWrite"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

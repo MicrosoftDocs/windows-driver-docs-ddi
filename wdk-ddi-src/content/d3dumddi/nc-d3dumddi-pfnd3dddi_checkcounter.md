@@ -10,6 +10,7 @@ keywords: ["PFND3DDDI_CHECKCOUNTER callback function"]
 ms.keywords: PFND3DDDI_CHECKCOUNTER, PFND3DDDI_CHECKCOUNTER callback, d3dumddi/pfnCheckCounter, display.pfncheckcounter, pfnCheckCounter, pfnCheckCounter callback function [Display Devices]
 f1_keywords:
  - "d3dumddi/pfnCheckCounter"
+ - "pfnCheckCounter"
 req.header: d3dumddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

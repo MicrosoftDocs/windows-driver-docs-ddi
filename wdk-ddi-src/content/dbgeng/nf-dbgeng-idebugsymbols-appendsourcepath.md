@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols::AppendSourcePath"]
 ms.keywords: AppendSourcePath, AppendSourcePath method [Windows Debugging], AppendSourcePath method [Windows Debugging],IDebugSymbols interface, AppendSourcePath method [Windows Debugging],IDebugSymbols2 interface, AppendSourcePath method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],AppendSourcePath method, IDebugSymbols.AppendSourcePath, IDebugSymbols2 interface [Windows Debugging],AppendSourcePath method, IDebugSymbols2::AppendSourcePath, IDebugSymbols3 interface [Windows Debugging],AppendSourcePath method, IDebugSymbols3::AppendSourcePath, IDebugSymbols::AppendSourcePath, IDebugSymbols_8e47c1ea-e190-4f34-a952-1dcf4ef9e971.xml, dbgeng/IDebugSymbols2::AppendSourcePath, dbgeng/IDebugSymbols3::AppendSourcePath, dbgeng/IDebugSymbols::AppendSourcePath, debugger.appendsourcepath
 f1_keywords:
  - "dbgeng/IDebugSymbols.AppendSourcePath"
+ - "IDebugSymbols.AppendSourcePath"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

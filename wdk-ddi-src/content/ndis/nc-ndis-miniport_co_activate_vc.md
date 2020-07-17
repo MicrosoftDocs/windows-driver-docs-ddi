@@ -10,6 +10,7 @@ keywords: ["MINIPORT_CO_ACTIVATE_VC callback function"]
 ms.keywords: MINIPORT_CO_ACTIVATE_VC, MINIPORT_CO_ACTIVATE_VC callback, MiniportCoActivateVc, MiniportCoActivateVc callback function [Network Drivers Starting with Windows Vista], condis_miniport_ref_b93127ea-bac1-48d1-b7fd-3c7f40cbcbdb.xml, ndis/MiniportCoActivateVc, netvista.miniportcoactivatevc
 f1_keywords:
  - "ndis/MiniportCoActivateVc"
+ - "MiniportCoActivateVc"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

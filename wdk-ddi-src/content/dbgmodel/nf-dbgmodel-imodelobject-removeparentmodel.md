@@ -7,6 +7,7 @@ ms.date: 08/13/2018
 keywords: ["IModelObject::RemoveParentModel"]
 f1_keywords:
  - "dbgmodel/IModelObject.RemoveParentModel"
+ - "IModelObject.RemoveParentModel"
 ms.keywords: IModelObject::RemoveParentModel, RemoveParentModel, IModelObject.RemoveParentModel, IModelObject::RemoveParentModel, IModelObject.RemoveParentModel
 req.header: dbgmodel.h
 req.include-header:

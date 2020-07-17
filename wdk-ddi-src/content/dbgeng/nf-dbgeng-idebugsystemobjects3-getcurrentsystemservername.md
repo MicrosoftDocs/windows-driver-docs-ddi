@@ -10,6 +10,7 @@ keywords: ["IDebugSystemObjects3::GetCurrentSystemServerName"]
 ms.keywords: GetCurrentSystemServerName, GetCurrentSystemServerName method [Windows Debugging], GetCurrentSystemServerName method [Windows Debugging],IDebugSystemObjects3 interface, IDebugSystemObjects3 interface [Windows Debugging],GetCurrentSystemServerName method, IDebugSystemObjects3.GetCurrentSystemServerName, IDebugSystemObjects3::GetCurrentSystemServerName, dbgeng/IDebugSystemObjects3::GetCurrentSystemServerName, debugger.idebugsystemobjects3_getcurrentsystemservername
 f1_keywords:
  - "dbgeng/IDebugSystemObjects3.GetCurrentSystemServerName"
+ - "IDebugSystemObjects3.GetCurrentSystemServerName"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

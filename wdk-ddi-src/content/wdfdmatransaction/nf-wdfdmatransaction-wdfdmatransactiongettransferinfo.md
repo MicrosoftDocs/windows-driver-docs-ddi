@@ -10,6 +10,7 @@ keywords: ["WdfDmaTransactionGetTransferInfo function"]
 ms.keywords: WdfDmaTransactionGetTransferInfo, WdfDmaTransactionGetTransferInfo method, kmdf.wdfdmatransactiongettransferinfo, wdf.wdfdmatransactiongettransferinfo, wdfdmatransaction/WdfDmaTransactionGetTransferInfo
 f1_keywords:
  - "wdfdmatransaction/WdfDmaTransactionGetTransferInfo"
+ - "WdfDmaTransactionGetTransferInfo"
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h
 req.target-type: Universal

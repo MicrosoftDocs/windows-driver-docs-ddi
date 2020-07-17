@@ -10,6 +10,7 @@ keywords: ["KsReleaseCachedMdl function"]
 ms.keywords: KsReleaseCachedMdl, KsReleaseCachedMdl function [Streaming Media Devices], ks/KsReleaseCachedMdl, stream.ksreleasecachedmdl
 f1_keywords:
  - "ks/KsReleaseCachedMdl"
+ - "KsReleaseCachedMdl"
 req.header: ks.h
 req.include-header: 
 req.target-type: Universal

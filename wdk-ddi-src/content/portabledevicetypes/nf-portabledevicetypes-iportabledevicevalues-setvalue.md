@@ -10,6 +10,7 @@ keywords: ["IPortableDeviceValues::SetValue"]
 ms.keywords: IPortableDeviceValues interface,SetValue method, IPortableDeviceValues.SetValue, IPortableDeviceValues::SetValue, IPortableDeviceValuesSetValue, SetValue, SetValue method, SetValue method,IPortableDeviceValues interface, portabledevicetypes/IPortableDeviceValues::SetValue, wpddk.iportabledevicevalues_setvalue
 f1_keywords:
  - "portabledevicetypes/IPortableDeviceValues.SetValue"
+ - "IPortableDeviceValues.SetValue"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows

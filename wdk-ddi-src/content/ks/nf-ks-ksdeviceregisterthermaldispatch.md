@@ -10,6 +10,7 @@ keywords: ["KsDeviceRegisterThermalDispatch function"]
 ms.keywords: KsDeviceRegisterThermalDispatch, KsDeviceRegisterThermalDispatch function [Streaming Media Devices], ks/KsDeviceRegisterThermalDispatch, stream.ksdeviceregisterthermaldispatch
 f1_keywords:
  - "ks/KsDeviceRegisterThermalDispatch"
+ - "KsDeviceRegisterThermalDispatch"
 req.header: ks.h
 req.include-header: 
 req.target-type: Universal

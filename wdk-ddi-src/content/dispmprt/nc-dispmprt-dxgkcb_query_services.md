@@ -10,6 +10,7 @@ keywords: ["DXGKCB_QUERY_SERVICES callback function"]
 ms.keywords: DXGKCB_QUERY_SERVICES, DXGKCB_QUERY_SERVICES callback, DpFunctions_1bf190e2-3bfc-4ea9-942a-502ec71fa362.xml, DxgkCbQueryServices, DxgkCbQueryServices callback function [Display Devices], display.dxgkcbqueryservices, dispmprt/DxgkCbQueryServices
 f1_keywords:
  - "dispmprt/DxgkCbQueryServices"
+ - "DxgkCbQueryServices"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["RxLogEventWithBufferDirect function"]
 ms.keywords: RxLogEventWithBufferDirect, RxLogEventWithBufferDirect function [Installable File System Drivers], ifsk.rxlogeventwithbufferdirect, rxprocs/RxLogEventWithBufferDirect, rxref_95cd6139-10e2-4cf1-bfd9-51b3d6dd1119.xml
 f1_keywords:
  - "rxprocs/RxLogEventWithBufferDirect"
+ - "RxLogEventWithBufferDirect"
 req.header: rxprocs.h
 req.include-header: Rxprocs.h, Rxstruc.h
 req.target-type: Desktop

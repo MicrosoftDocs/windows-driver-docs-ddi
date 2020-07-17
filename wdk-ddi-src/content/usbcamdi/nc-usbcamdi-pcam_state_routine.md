@@ -10,6 +10,7 @@ keywords: ["PCAM_STATE_ROUTINE callback function"]
 ms.keywords: CamRestoreState, CamSaveState, MyCamState, MyCamState callback function [Streaming Media Devices], PCAM_STATE_ROUTINE, PCAM_STATE_ROUTINE callback, stream.camrestorestate, usbcamdi/MyCamState, usbcmdpr_74c8ba54-9be6-4512-a498-b49635db1760.xml
 f1_keywords:
  - "usbcamdi/MyCamState"
+ - "MyCamState"
 req.header: usbcamdi.h
 req.include-header: Usbcamdi.h
 req.target-type: Desktop

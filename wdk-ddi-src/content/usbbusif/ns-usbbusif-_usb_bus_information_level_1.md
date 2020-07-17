@@ -10,6 +10,7 @@ keywords: ["_USB_BUS_INFORMATION_LEVEL_1 structure"]
 ms.keywords: "*PUSB_BUS_INFORMATION_LEVEL_1, PUSB_BUS_INFORMATION_LEVEL_1, PUSB_BUS_INFORMATION_LEVEL_1 structure pointer [Buses], USB_BUS_INFORMATION_LEVEL_1, USB_BUS_INFORMATION_LEVEL_1 structure [Buses], _USB_BUS_INFORMATION_LEVEL_1, buses.usb_bus_information_level_1, usbbusif/PUSB_BUS_INFORMATION_LEVEL_1, usbbusif/USB_BUS_INFORMATION_LEVEL_1, usbstrct_44c7c910-aa13-492b-b81e-79faa501f1f9.xml"
 f1_keywords:
  - "usbbusif/USB_BUS_INFORMATION_LEVEL_1"
+ - "USB_BUS_INFORMATION_LEVEL_1"
 req.header: usbbusif.h
 req.include-header: Usbbusif.h
 req.target-type: Windows

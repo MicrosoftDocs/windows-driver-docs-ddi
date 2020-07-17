@@ -10,6 +10,7 @@ keywords: ["KsForwardAndCatchIrp function"]
 ms.keywords: KsForwardAndCatchIrp, KsForwardAndCatchIrp function [Streaming Media Devices], ks/KsForwardAndCatchIrp, ksfunc_db5ae1e5-b0c8-4703-866f-a3f060e5ffb3.xml, stream.ksforwardandcatchirp
 f1_keywords:
  - "ks/KsForwardAndCatchIrp"
+ - "KsForwardAndCatchIrp"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["EVT_UCX_ENDPOINT_PURGE callback function"]
 ms.keywords: EVT_UCX_ENDPOINT_PURGE, EVT_UCX_ENDPOINT_PURGE callback, EvtUcxEndpointPurge, EvtUcxEndpointPurge callback function [Buses], PEVT_UCX_ENDPOINT_PURGE, PEVT_UCX_ENDPOINT_PURGE callback function pointer [Buses], buses.evt_ucx_endpoint_purge, ucxendpoint/EvtUcxEndpointPurge
 f1_keywords:
  - "ucxendpoint/PEVT_UCX_ENDPOINT_PURGE"
+ - "PEVT_UCX_ENDPOINT_PURGE"
 req.header: ucxendpoint.h
 req.include-header: Ucxclass.h, Ucxendpoint.h
 req.target-type: Windows

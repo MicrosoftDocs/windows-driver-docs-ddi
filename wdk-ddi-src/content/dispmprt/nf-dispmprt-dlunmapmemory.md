@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DlUnmapMemory function"]
 f1_keywords:
  - "dispmprt/DlUnmapMemory"
+ - "DlUnmapMemory"
 ms.keywords: DlUnmapMemory
 req.header: dispmprt.h
 req.include-header:

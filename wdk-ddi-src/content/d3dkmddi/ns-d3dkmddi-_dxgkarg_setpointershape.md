@@ -9,6 +9,7 @@ keywords: ["_DXGKARG_SETPOINTERSHAPE structure"]
 ms.keywords: DXGKARG_SETPOINTERSHAPE, DXGKARG_SETPOINTERSHAPE structure [Display Devices], DmStructs_9fab674a-0138-4c55-b17e-87cb85110325.xml, _DXGKARG_SETPOINTERSHAPE, d3dkmddi/DXGKARG_SETPOINTERSHAPE, display.dxgkarg_setpointershape
 f1_keywords:
  - "d3dkmddi/DXGKARG_SETPOINTERSHAPE"
+ - "DXGKARG_SETPOINTERSHAPE"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

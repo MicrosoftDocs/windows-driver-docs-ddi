@@ -8,6 +8,7 @@ ms.date: 11/02/2018
 keywords: ["NetConfigurationQueryBinary function"]
 f1_keywords:
  - "netconfiguration/NetConfigurationQueryBinary"
+ - "NetConfigurationQueryBinary"
 ms.keywords: NetConfigurationQueryBinary
 req.header: netconfiguration.h
 req.include-header: netadaptercx.h

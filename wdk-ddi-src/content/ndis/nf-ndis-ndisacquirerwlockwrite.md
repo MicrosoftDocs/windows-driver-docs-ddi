@@ -10,6 +10,7 @@ keywords: ["NdisAcquireRWLockWrite function"]
 ms.keywords: NdisAcquireRWLockWrite, NdisAcquireRWLockWrite function [Network Drivers Starting with Windows Vista], ndis/NdisAcquireRWLockWrite, ndis_processor_group_ref_f957b48a-4c09-4348-897c-51813ede9b19.xml, netvista.ndisacquirerwlockwrite
 f1_keywords:
  - "ndis/NdisAcquireRWLockWrite"
+ - "NdisAcquireRWLockWrite"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

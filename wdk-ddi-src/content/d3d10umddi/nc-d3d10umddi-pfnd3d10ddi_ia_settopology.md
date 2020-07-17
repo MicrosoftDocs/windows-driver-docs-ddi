@@ -9,6 +9,7 @@ keywords: ["PFND3D10DDI_IA_SETTOPOLOGY callback function"]
 ms.keywords: IaSetTopology, IaSetTopology callback function [Display Devices], PFND3D10DDI_IA_SETTOPOLOGY, PFND3D10DDI_IA_SETTOPOLOGY callback, UserModeDisplayDriverDx10_Functions_9c7ceca5-4745-4550-832d-d85cdcfecf81.xml, d3d10umddi/IaSetTopology, display.iasettopology
 f1_keywords:
  - "d3d10umddi/IaSetTopology"
+ - "IaSetTopology"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

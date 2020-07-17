@@ -10,6 +10,7 @@ keywords: ["IO_TIMER_ROUTINE callback function"]
 ms.keywords: DrvrRtns_e0e54c40-37d6-41b3-8374-b1a7763d54ed.xml, IO_TIMER_ROUTINE, IoTimer, IoTimer routine [Kernel-Mode Driver Architecture], kernel.iotimer, wdm/IoTimer
 f1_keywords:
  - "wdm/IoTimer"
+ - "IoTimer"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

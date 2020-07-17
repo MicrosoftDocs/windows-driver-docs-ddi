@@ -9,6 +9,7 @@ ms.date: 06/03/2019
 keywords: ["_KBUGCHECK_TRIAGE_DUMP_DATA structure"]
 f1_keywords:
  - "wdm/_KBUGCHECK_SECONDARY_DUMP_DATA_EX"
+ - "_KBUGCHECK_SECONDARY_DUMP_DATA_EX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: _KBUGCHECK_TRIAGE_DUMP_DATA, KBUGCHECK_TRIAGE_DUMP_DATA, *PKBUGCHECK_TRIAGE_DUMP_DATA, 

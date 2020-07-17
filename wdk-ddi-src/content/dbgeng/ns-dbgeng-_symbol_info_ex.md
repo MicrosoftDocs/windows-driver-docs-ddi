@@ -10,6 +10,7 @@ keywords: ["_SYMBOL_INFO_EX structure"]
 ms.keywords: "*PSYMBOL_INFO_EX, PSYMBOL_INFO_EX, PSYMBOL_INFO_EX structure pointer [Windows Debugging], SYMBOL_INFO_EX, SYMBOL_INFO_EX structure [Windows Debugging], _SYMBOL_INFO_EX, dbgeng/PSYMBOL_INFO_EX, dbgeng/SYMBOL_INFO_EX, debugger.symbol_info_ex"
 f1_keywords:
  - "dbgeng/SYMBOL_INFO_EX"
+ - "SYMBOL_INFO_EX"
 req.header: dbgeng.h
 req.include-header: DbgEng.h
 req.target-type: Windows

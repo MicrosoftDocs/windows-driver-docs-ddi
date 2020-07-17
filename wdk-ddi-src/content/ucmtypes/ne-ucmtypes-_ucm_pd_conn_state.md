@@ -10,6 +10,7 @@ keywords: ["_UCM_PD_CONN_STATE enumeration"]
 ms.keywords: UCM_PD_CONN_STATE, UCM_PD_CONN_STATE enumeration [Buses], UcmPdConnStateInvalid, UcmPdConnStateNegotiationFailed, UcmPdConnStateNegotiationSucceeded, UcmPdConnStateNotSupported, _UCM_PD_CONN_STATE, buses.ucm_pd_conn_state, ucmtypes/UCM_PD_CONN_STATE, ucmtypes/UcmPdConnStateInvalid, ucmtypes/UcmPdConnStateNegotiationFailed, ucmtypes/UcmPdConnStateNegotiationSucceeded, ucmtypes/UcmPdConnStateNotSupported
 f1_keywords:
  - "ucmtypes/UCM_PD_CONN_STATE"
+ - "UCM_PD_CONN_STATE"
 req.header: ucmtypes.h
 req.include-header: Ucmcx.h
 req.target-type: Windows

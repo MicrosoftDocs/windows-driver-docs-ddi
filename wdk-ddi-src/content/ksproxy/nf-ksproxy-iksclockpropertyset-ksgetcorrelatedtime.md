@@ -10,6 +10,7 @@ keywords: ["IKsClockPropertySet::KsGetCorrelatedTime"]
 ms.keywords: IKsClockPropertySet interface [Streaming Media Devices],KsGetCorrelatedTime method, IKsClockPropertySet.KsGetCorrelatedTime, IKsClockPropertySet::KsGetCorrelatedTime, KsGetCorrelatedTime, KsGetCorrelatedTime method [Streaming Media Devices], KsGetCorrelatedTime method [Streaming Media Devices],IKsClockPropertySet interface, ksproxy/IKsClockPropertySet::KsGetCorrelatedTime, ksproxy_79582c7f-456c-420e-88eb-b0cb6916040f.xml, stream.iksclockpropertyset_ksgetcorrelatedtime
 f1_keywords:
  - "ksproxy/IKsClockPropertySet.KsGetCorrelatedTime"
+ - "IKsClockPropertySet.KsGetCorrelatedTime"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Desktop

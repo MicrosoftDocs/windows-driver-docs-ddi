@@ -10,6 +10,7 @@ keywords: ["_NFCCX_DRIVER_GLOBALS structure"]
 ms.keywords: "*PNFCCX_DRIVER_GLOBALS, NFCCX_DRIVER_GLOBALS, NFCCX_DRIVER_GLOBALS structure [Near-Field Proximity Drivers], PNFCCX_DRIVER_GLOBALS, PNFCCX_DRIVER_GLOBALS structure pointer [Near-Field Proximity Drivers], _NFCCX_DRIVER_GLOBALS, nfccx/NFCCX_DRIVER_GLOBALS, nfccx/PNFCCX_DRIVER_GLOBALS, nfpdrivers.nfccx_driver_globals"
 f1_keywords:
  - "nfccx/NFCCX_DRIVER_GLOBALS"
+ - "NFCCX_DRIVER_GLOBALS"
 req.header: nfccx.h
 req.include-header: Ncidef.h
 req.target-type: Windows

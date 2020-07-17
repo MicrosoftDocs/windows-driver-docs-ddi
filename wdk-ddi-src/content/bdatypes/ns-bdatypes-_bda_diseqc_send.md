@@ -10,6 +10,7 @@ keywords: ["_BDA_DISEQC_SEND structure"]
 ms.keywords: "*PBDA_DISEQC_SEND, BDA_DISEQC_SEND, BDA_DISEQC_SEND structure [Streaming Media Devices], PBDA_DISEQC_SEND, PBDA_DISEQC_SEND structure pointer [Streaming Media Devices], _BDA_DISEQC_SEND, bdatypes/BDA_DISEQC_SEND, bdatypes/PBDA_DISEQC_SEND, stream.bda_diseqc_send"
 f1_keywords:
  - "bdatypes/BDA_DISEQC_SEND"
+ - "BDA_DISEQC_SEND"
 req.header: bdatypes.h
 req.include-header: 
 req.target-type: Windows

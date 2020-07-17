@@ -10,6 +10,7 @@ keywords: ["KSRTAUDIO_HWLATENCY structure"]
 ms.keywords: "*PKSRTAUDIO_HWLATENCY, KSRTAUDIO_HWLATENCY, KSRTAUDIO_HWLATENCY structure [Audio Devices], PKSRTAUDIO_HWLATENCY, PKSRTAUDIO_HWLATENCY structure pointer [Audio Devices], aud-prop_dd10bf1b-e1b6-4dfd-bb50-1540ef3caed5.xml, audio.ksrtaudio_hwlatency, ksmedia/KSRTAUDIO_HWLATENCY, ksmedia/PKSRTAUDIO_HWLATENCY"
 f1_keywords:
  - "ksmedia/KSRTAUDIO_HWLATENCY"
+ - "KSRTAUDIO_HWLATENCY"
 req.header: ksmedia.h
 req.include-header: 
 req.target-type: Windows

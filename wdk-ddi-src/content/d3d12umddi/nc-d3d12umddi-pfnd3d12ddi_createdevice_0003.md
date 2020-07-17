@@ -29,6 +29,7 @@ tech.root: display
 req.typenames: 
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_CREATEDEVICE_0003"
+ - "PFND3D12DDI_CREATEDEVICE_0003"
 topic_type:
  - APIRef
  - kbSyntax

@@ -7,6 +7,7 @@ ms.date: 08/07/2018
 keywords: ["CollectionsListCopyAndMarshall function"]
 f1_keywords:
  - "sensorsutils/CollectionsListCopyAndMarshall"
+ - "CollectionsListCopyAndMarshall"
 tech.root: sensors
 ms.keywords: CollectionsListCopyAndMarshall
 req.header: sensorsutils.h

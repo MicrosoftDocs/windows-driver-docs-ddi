@@ -10,6 +10,7 @@ keywords: ["_NDK_MW structure"]
 ms.keywords: NDK_MW, NDK_MW structure [Network Drivers Starting with Windows Vista], PNDK_MW, PNDK_MW structure pointer [Network Drivers Starting with Windows Vista], _NDK_MW, ndkpi/NDK_MW, ndkpi/PNDK_MW, netvista.ndk_mw
 f1_keywords:
  - "ndkpi/NDK_MW"
+ - "NDK_MW"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["RILOPERATORINFOPARAMMASK enumeration"]
 ms.keywords: RILOPERATORINFOPARAMMASK, RILOPERATORINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_OI_ALL, RIL_PARAM_OI_NAMES, RIL_PARAM_OI_STATUS, netvista.riloperatorinfoparammask, ntddrilapitypes/RILOPERATORINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_OI_ALL, ntddrilapitypes/RIL_PARAM_OI_NAMES, ntddrilapitypes/RIL_PARAM_OI_STATUS
 f1_keywords:
  - "rilapitypes/RILOPERATORINFOPARAMMASK"
+ - "RILOPERATORINFOPARAMMASK"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

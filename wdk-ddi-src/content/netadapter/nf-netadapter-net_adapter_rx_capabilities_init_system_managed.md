@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["NET_ADAPTER_RX_CAPABILITIES_INIT_SYSTEM_MANAGED function"]
 f1_keywords:
  - "netadapter/NET_ADAPTER_RX_CAPABILITIES_INIT_SYSTEM_MANAGED"
+ - "NET_ADAPTER_RX_CAPABILITIES_INIT_SYSTEM_MANAGED"
 ms.keywords: NET_ADAPTER_RX_CAPABILITIES_INIT_SYSTEM_MANAGED
 req.header: netadapter.h
 req.include-header: netadaptercx.h

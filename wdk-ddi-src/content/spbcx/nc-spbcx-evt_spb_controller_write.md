@@ -10,6 +10,7 @@ keywords: ["EVT_SPB_CONTROLLER_WRITE callback function"]
 ms.keywords: EVT_SPB_CONTROLLER_WRITE, EVT_SPB_CONTROLLER_WRITE callback, EvtSpbControllerIoWrite, EvtSpbControllerIoWrite callback function [Buses], SPB.evtspbcontrolleriowrite, spbcx/EvtSpbControllerIoWrite
 f1_keywords:
  - "spbcx/EvtSpbControllerIoWrite"
+ - "EvtSpbControllerIoWrite"
 req.header: spbcx.h
 req.include-header: 
 req.target-type: Desktop

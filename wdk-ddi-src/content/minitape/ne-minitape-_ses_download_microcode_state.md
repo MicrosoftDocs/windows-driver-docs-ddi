@@ -10,6 +10,7 @@ keywords: ["_SES_DOWNLOAD_MICROCODE_STATE enumeration"]
 ms.keywords: "*PSES_DOWNLOAD_MICROCODE_STATE, PSES_DOWNLOAD_MICROCODE_STATE, PSES_DOWNLOAD_MICROCODE_STATE enumeration pointer [Storage Devices], SES_DOWNLOAD_MICROCODE_STATE, SES_DOWNLOAD_MICROCODE_STATE enumeration [Storage Devices], SesDownloadMcStateCompletedPendingActivation, SesDownloadMcStateCompletedPendingPowerOn, SesDownloadMcStateCompletedPendingReset, SesDownloadMcStateInProgress, SesDownloadMcStateNoneInProgress, _SES_DOWNLOAD_MICROCODE_STATE, scsi/PSES_DOWNLOAD_MICROCODE_STATE, scsi/SES_DOWNLOAD_MICROCODE_STATE, scsi/SesDownloadMcStateCompletedPendingActivation, scsi/SesDownloadMcStateCompletedPendingPowerOn, scsi/SesDownloadMcStateCompletedPendingReset, scsi/SesDownloadMcStateInProgress, scsi/SesDownloadMcStateNoneInProgress, storage.ses_download_microcode_state"
 f1_keywords:
  - "minitape/SES_DOWNLOAD_MICROCODE_STATE"
+ - "SES_DOWNLOAD_MICROCODE_STATE"
 req.header: minitape.h
 req.include-header: Minitape.h, Storport.h
 req.target-type: Windows

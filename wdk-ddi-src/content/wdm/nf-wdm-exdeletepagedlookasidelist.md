@@ -10,6 +10,7 @@ keywords: ["ExDeletePagedLookasideList function"]
 ms.keywords: ExDeletePagedLookasideList, ExDeletePagedLookasideList routine [Kernel-Mode Driver Architecture], k102_6e78a15a-e6e1-4282-a8de-a4f38f74ebc6.xml, kernel.exdeletepagedlookasidelist, wdm/ExDeletePagedLookasideList
 f1_keywords:
  - "wdm/ExDeletePagedLookasideList"
+ - "ExDeletePagedLookasideList"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

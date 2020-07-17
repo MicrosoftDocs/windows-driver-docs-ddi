@@ -10,6 +10,7 @@ keywords: ["RIL_OpenUiccLogicalChannel function"]
 ms.keywords: RIL_OpenUiccLogicalChannel, RIL_OpenUiccLogicalChannel method [Network Drivers Starting with Windows Vista], netvista.ril_openuicclogicalchannel, rilapi/RIL_OpenUiccLogicalChannel
 f1_keywords:
  - "rilapi/RIL_OpenUiccLogicalChannel"
+ - "RIL_OpenUiccLogicalChannel"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

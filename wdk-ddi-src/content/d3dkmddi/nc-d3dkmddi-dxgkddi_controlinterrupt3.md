@@ -36,6 +36,7 @@ api_name:
  - DXGKDDI_CONTROLINTERRUPT3
 f1_keywords:
  - d3dkmddi/DXGKDDI_CONTROLINTERRUPT3
+ - ""
 dev_langs:
  - c++
 ---

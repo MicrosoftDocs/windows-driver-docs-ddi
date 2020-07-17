@@ -10,6 +10,7 @@ keywords: ["ClfsAddLogContainer function"]
 ms.keywords: ClfsAddLogContainer, ClfsAddLogContainer routine [Kernel-Mode Driver Architecture], Clfs_30478f90-41d2-4a83-8291-83b90601dc11.xml, kernel.clfsaddlogcontainer, wdm/ClfsAddLogContainer
 f1_keywords:
  - "wdm/ClfsAddLogContainer"
+ - "ClfsAddLogContainer"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop

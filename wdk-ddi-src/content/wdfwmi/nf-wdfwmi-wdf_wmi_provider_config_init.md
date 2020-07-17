@@ -10,6 +10,7 @@ keywords: ["WDF_WMI_PROVIDER_CONFIG_INIT function"]
 ms.keywords: DFWMIRef_34f9d195-3f6b-419d-bab7-29ad49c3d177.xml, WDF_WMI_PROVIDER_CONFIG_INIT, WDF_WMI_PROVIDER_CONFIG_INIT function, kmdf.wdf_wmi_provider_config_init, wdf.wdf_wmi_provider_config_init, wdfwmi/WDF_WMI_PROVIDER_CONFIG_INIT
 f1_keywords:
  - "wdfwmi/WDF_WMI_PROVIDER_CONFIG_INIT"
+ - "WDF_WMI_PROVIDER_CONFIG_INIT"
 req.header: wdfwmi.h
 req.include-header: Wdf.h
 req.target-type: Universal

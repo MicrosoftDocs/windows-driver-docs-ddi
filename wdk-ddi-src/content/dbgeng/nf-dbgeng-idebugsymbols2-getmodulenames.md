@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols2::GetModuleNames"]
 ms.keywords: GetModuleNames, GetModuleNames method [Windows Debugging], GetModuleNames method [Windows Debugging],IDebugSymbols interface, GetModuleNames method [Windows Debugging],IDebugSymbols2 interface, GetModuleNames method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetModuleNames method, IDebugSymbols2 interface [Windows Debugging],GetModuleNames method, IDebugSymbols2.GetModuleNames, IDebugSymbols2::GetModuleNames, IDebugSymbols3 interface [Windows Debugging],GetModuleNames method, IDebugSymbols3::GetModuleNames, IDebugSymbols::GetModuleNames, IDebugSymbols_b200104b-e0e6-4470-80f9-d6904c346737.xml, dbgeng/IDebugSymbols2::GetModuleNames, dbgeng/IDebugSymbols3::GetModuleNames, dbgeng/IDebugSymbols::GetModuleNames, debugger.getmodulenames
 f1_keywords:
  - "dbgeng/IDebugSymbols.GetModuleNames"
+ - "IDebugSymbols.GetModuleNames"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

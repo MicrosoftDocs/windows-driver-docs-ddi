@@ -10,6 +10,7 @@ keywords: ["_DXVADDI_DECODEBUFFERDESC structure"]
 ms.keywords: DXVA2_Structs_0946584e-3d1f-4bb4-95d5-7ae2c669814a.xml, DXVADDI_DECODEBUFFERDESC, DXVADDI_DECODEBUFFERDESC structure [Display Devices], _DXVADDI_DECODEBUFFERDESC, d3dumddi/DXVADDI_DECODEBUFFERDESC, display.dxvaddi_decodebufferdesc
 f1_keywords:
  - "d3dumddi/DXVADDI_DECODEBUFFERDESC"
+ - "DXVADDI_DECODEBUFFERDESC"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

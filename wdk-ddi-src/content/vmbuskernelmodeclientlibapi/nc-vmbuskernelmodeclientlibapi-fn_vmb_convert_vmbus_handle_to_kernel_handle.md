@@ -8,6 +8,7 @@ ms.date: 05/22/2018
 keywords: ["FN_VMB_CONVERT_VMBUS_HANDLE_TO_KERNEL_HANDLE callback function"]
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/FN_VMB_CONVERT_VMBUS_HANDLE_TO_KERNEL_HANDLE"
+ - "FN_VMB_CONVERT_VMBUS_HANDLE_TO_KERNEL_HANDLE"
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:

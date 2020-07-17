@@ -10,6 +10,7 @@ keywords: ["_NDIS_SWITCH_PORT_TYPE enumeration"]
 ms.keywords: NDIS_SWITCH_PORT_TYPE, NDIS_SWITCH_PORT_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisSwitchPortTypeEmulated, NdisSwitchPortTypeExternal, NdisSwitchPortTypeGeneric, NdisSwitchPortTypeInternal, NdisSwitchPortTypeSynthetic, PNDIS_SWITCH_PORT_TYPE, PNDIS_SWITCH_PORT_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_TYPE, netvista.ndis_switch_port_type, ntddndis/NDIS_SWITCH_PORT_TYPE, ntddndis/NdisSwitchPortTypeEmulated, ntddndis/NdisSwitchPortTypeExternal, ntddndis/NdisSwitchPortTypeGeneric, ntddndis/NdisSwitchPortTypeInternal, ntddndis/NdisSwitchPortTypeSynthetic, ntddndis/PNDIS_SWITCH_PORT_TYPE
 f1_keywords:
  - "ntddndis/NDIS_SWITCH_PORT_TYPE"
+ - "NDIS_SWITCH_PORT_TYPE"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["SerCxGetWaitMask function"]
 ms.keywords: 1/SerCxGetWaitMask, SerCxGetWaitMask, SerCxGetWaitMask method [Serial Ports], serports.sercxgetwaitmask
 f1_keywords:
  - "sercx/SerCxGetWaitMask"
+ - "SerCxGetWaitMask"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal

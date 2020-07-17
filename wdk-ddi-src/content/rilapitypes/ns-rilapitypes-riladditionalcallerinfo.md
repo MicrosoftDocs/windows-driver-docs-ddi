@@ -10,6 +10,7 @@ keywords: ["RILADDITIONALCALLERINFO structure"]
 ms.keywords: "*LPRILADDITIONALCALLERINFO, RILADDITIONALCALLERINFO, RILADDITIONALCALLERINFO structure [Network Drivers Starting with Windows Vista], netvista.riladditionalcallerinfo, ntddrilapitypes/RILADDITIONALCALLERINFO"
 f1_keywords:
  - "rilapitypes/RILADDITIONALCALLERINFO"
+ - "RILADDITIONALCALLERINFO"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

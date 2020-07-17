@@ -10,6 +10,7 @@ ms.date: 03/06/2019
 keywords: ["STOR_TELEMETRY_CATEGORY enumeration"]
 f1_keywords:
  - "storport/STOR_TELEMETRY_CATEGORY"
+ - "STOR_TELEMETRY_CATEGORY"
 ms.keywords: STOR_TELEMETRY_CATEGORY, STOR_TELEMETRY_CATEGORY, *PSTOR_TELEMETRY_CATEGORY, StorPortLogTelemetryEx, STORPORT_TELEMETRY_EVENT
 req.header: storport.h
 req.include-header:

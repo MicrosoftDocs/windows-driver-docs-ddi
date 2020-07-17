@@ -10,6 +10,7 @@ keywords: ["_STACK_SYM_FRAME_INFO structure"]
 ms.keywords: "*PSTACK_SYM_FRAME_INFO, PSTACK_SYM_FRAME_INFO, PSTACK_SYM_FRAME_INFO structure pointer [Windows Debugging], STACK_SYM_FRAME_INFO, STACK_SYM_FRAME_INFO structure [Windows Debugging], _STACK_SYM_FRAME_INFO, dbgeng/PSTACK_SYM_FRAME_INFO, dbgeng/STACK_SYM_FRAME_INFO, debugger.stack_sym_frame_info"
 f1_keywords:
  - "dbgeng/STACK_SYM_FRAME_INFO"
+ - "STACK_SYM_FRAME_INFO"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

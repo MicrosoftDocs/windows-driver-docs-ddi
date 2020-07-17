@@ -10,6 +10,7 @@ keywords: ["IPortableDeviceValues::GetGuidValue"]
 ms.keywords: GetGuidValue, GetGuidValue method, GetGuidValue method,IPortableDeviceValues interface, IPortableDeviceValues interface,GetGuidValue method, IPortableDeviceValues.GetGuidValue, IPortableDeviceValues::GetGuidValue, IPortableDeviceValuesGetGuidValue, portabledevicetypes/IPortableDeviceValues::GetGuidValue, wpddk.iportabledevicevalues_getguidvalue
 f1_keywords:
  - "portabledevicetypes/IPortableDeviceValues.GetGuidValue"
+ - "IPortableDeviceValues.GetGuidValue"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows

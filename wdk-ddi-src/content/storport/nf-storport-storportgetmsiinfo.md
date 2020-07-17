@@ -10,6 +10,7 @@ keywords: ["StorPortGetMSIInfo function"]
 ms.keywords: StorPortGetMSIInfo, StorPortGetMSIInfo routine [Storage Devices], storage.storportgetmsiinfo, storport/StorPortGetMSIInfo, storprt_32654460-fd47-4dc9-bd33-2080b881502f.xml
 f1_keywords:
  - "storport/StorPortGetMSIInfo"
+ - "StorPortGetMSIInfo"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

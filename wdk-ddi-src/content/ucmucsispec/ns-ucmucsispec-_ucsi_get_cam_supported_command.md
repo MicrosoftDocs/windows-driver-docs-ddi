@@ -8,6 +8,7 @@ ms.date: 09/30/2018
 keywords: ["_UCSI_GET_CAM_SUPPORTED_COMMAND structure"]
 f1_keywords:
  - "ucmucsispec/_UCSI_GET_CAM_SUPPORTED_COMMAND"
+ - "_UCSI_GET_CAM_SUPPORTED_COMMAND"
 ms.keywords: _UCSI_GET_CAM_SUPPORTED_COMMAND, UCSI_GET_CAM_SUPPORTED_COMMAND, *PUCSI_GET_CAM_SUPPORTED_COMMAND, 
 req.header: ucmucsispec.h
 req.include-header: UcmUcsiCx.h 

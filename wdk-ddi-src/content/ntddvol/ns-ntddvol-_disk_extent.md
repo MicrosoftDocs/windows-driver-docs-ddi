@@ -10,6 +10,7 @@ keywords: ["_DISK_EXTENT structure"]
 ms.keywords: "*PDISK_EXTENT, DISK_EXTENT, DISK_EXTENT structure [Storage Devices], PDISK_EXTENT, PDISK_EXTENT structure pointer [Storage Devices], _DISK_EXTENT, ntddvol/DISK_EXTENT, ntddvol/PDISK_EXTENT, storage.disk_extent, structs-disk_2874d2a7-dc4e-46e6-9d43-2374e82c857b.xml"
 f1_keywords:
  - "ntddvol/DISK_EXTENT"
+ - "DISK_EXTENT"
 req.header: ntddvol.h
 req.include-header: Ntddvol.h
 req.target-type: Windows

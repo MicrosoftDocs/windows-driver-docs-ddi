@@ -29,6 +29,7 @@ tech.root: display
 req.typenames: 
 f1_keywords:
  - "d3dkmddi/DXGKCB_MULTIPLANEOVERLAYDISABLED"
+ - "DXGKCB_MULTIPLANEOVERLAYDISABLED"
 topic_type:
  - APIRef
  - kbSyntax

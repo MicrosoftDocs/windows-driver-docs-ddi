@@ -10,6 +10,7 @@ keywords: ["FsRtlGetFileSize function"]
 ms.keywords: FsRtlGetFileSize, FsRtlGetFileSize routine [Installable File System Drivers], fsrtlref_d1056cd3-20f5-436c-9bac-0f1c217bb569.xml, ifsk.fsrtlgetfilesize, ntifs/FsRtlGetFileSize
 f1_keywords:
  - "ntifs/FsRtlGetFileSize"
+ - "FsRtlGetFileSize"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["ScsiPortWritePortUshort function"]
 ms.keywords: ScsiPortWritePortUshort, ScsiPortWritePortUshort routine [Storage Devices], scsiprt_e7e27190-3f51-4ede-9b4d-fcc437f46d17.xml, srb/ScsiPortWritePortUshort, storage.scsiportwriteportushort
 f1_keywords:
  - "srb/ScsiPortWritePortUshort"
+ - "ScsiPortWritePortUshort"
 req.header: srb.h
 req.include-header: Miniport.h, Scsi.h, Storport.h
 req.target-type: Desktop

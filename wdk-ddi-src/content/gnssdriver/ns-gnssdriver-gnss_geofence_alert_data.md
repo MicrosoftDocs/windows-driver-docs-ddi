@@ -10,6 +10,7 @@ keywords: ["GNSS_GEOFENCE_ALERT_DATA structure"]
 ms.keywords: "*PGNSS_GEOFENCE_ALERT_DATA, GNSS_GEOFENCE_ALERT_DATA, GNSS_GEOFENCE_ALERT_DATA structure [Sensor Devices], PGNSS_GEOFENCE_ALERT_DATA, PGNSS_GEOFENCE_ALERT_DATA structure pointer [Sensor Devices], gnss.gnss_geofence_alert_data, gnssdriver/GNSS_GEOFENCE_ALERT_DATA, gnssdriver/PGNSS_GEOFENCE_ALERT_DATA"
 f1_keywords:
  - "gnssdriver/GNSS_GEOFENCE_ALERT_DATA"
+ - "GNSS_GEOFENCE_ALERT_DATA"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows

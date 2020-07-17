@@ -10,6 +10,7 @@ keywords: ["IDebugDataSpaces3::ReadPhysical"]
 ms.keywords: IDebugDataSpaces interface [Windows Debugging],ReadPhysical method, IDebugDataSpaces2 interface [Windows Debugging],ReadPhysical method, IDebugDataSpaces2::ReadPhysical, IDebugDataSpaces3 interface [Windows Debugging],ReadPhysical method, IDebugDataSpaces3.ReadPhysical, IDebugDataSpaces3::ReadPhysical, IDebugDataSpaces4 interface [Windows Debugging],ReadPhysical method, IDebugDataSpaces4::ReadPhysical, IDebugDataSpaces::ReadPhysical, IDebugDataSpaces_5be1f680-1177-4cdf-a4d8-5868644a51af.xml, ReadPhysical, ReadPhysical method [Windows Debugging], ReadPhysical method [Windows Debugging],IDebugDataSpaces interface, ReadPhysical method [Windows Debugging],IDebugDataSpaces2 interface, ReadPhysical method [Windows Debugging],IDebugDataSpaces3 interface, ReadPhysical method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces2::ReadPhysical, dbgeng/IDebugDataSpaces3::ReadPhysical, dbgeng/IDebugDataSpaces4::ReadPhysical, dbgeng/IDebugDataSpaces::ReadPhysical, debugger.readphysical3
 f1_keywords:
  - "dbgeng/IDebugDataSpaces.ReadPhysical"
+ - "IDebugDataSpaces.ReadPhysical"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

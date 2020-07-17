@@ -10,6 +10,7 @@ keywords: ["IWDTFSimpleIOStressAction2::WaitAsyncCompletion"]
 ms.keywords: IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework],WaitAsyncCompletion method, IWDTFSimpleIOStressAction2.WaitAsyncCompletion, IWDTFSimpleIOStressAction2::WaitAsyncCompletion, Microsoft.WDTF.IWDTFSimpleIOStressAction2.WaitAsyncCompletion, Microsoft::WDTF::IWDTFSimpleIOStressAction2::WaitAsyncCompletion, WaitAsyncCompletion, WaitAsyncCompletion method [Windows Device Testing Framework], WaitAsyncCompletion method [Windows Device Testing Framework],IWDTFSimpleIOStressAction2 interface, dtf.iwdtfsimpleiostressaction2_waitasynccompletion, wdtfinterfaces/IWDTFSimpleIOStressAction2::WaitAsyncCompletion
 f1_keywords:
  - "wdtfinterfaces/IWDTFSimpleIOStressAction2.WaitAsyncCompletion"
+ - "IWDTFSimpleIOStressAction2.WaitAsyncCompletion"
 req.header: wdtfinterfaces.h
 req.include-header: 
 req.target-type: Desktop

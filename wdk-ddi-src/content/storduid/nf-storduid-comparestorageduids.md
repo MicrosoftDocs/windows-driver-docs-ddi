@@ -10,6 +10,7 @@ keywords: ["CompareStorageDuids function"]
 ms.keywords: CompareStorageDuids, CompareStorageDuids routine [Storage Devices], storage.comparestorageduids, storduid/CompareStorageDuids, storertns-general_86f18b5a-ed33-48e8-b13c-76bd2422418d.xml
 f1_keywords:
  - "storduid/CompareStorageDuids"
+ - "CompareStorageDuids"
 req.header: storduid.h
 req.include-header: Storduid.h
 req.target-type: Desktop

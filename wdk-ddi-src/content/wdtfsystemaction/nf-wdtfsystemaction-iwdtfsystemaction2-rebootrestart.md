@@ -10,6 +10,7 @@ keywords: ["IWDTFSystemAction2::RebootRestart"]
 ms.keywords: IWDTFSystemAction2 interface [Windows Device Testing Framework],RebootRestart method, IWDTFSystemAction2.RebootRestart, IWDTFSystemAction2::RebootRestart, Microsoft.WDTF.IWDTFSystemAction2.RebootRestart, Microsoft::WDTF::IWDTFSystemAction2::RebootRestart, RebootRestart, RebootRestart method [Windows Device Testing Framework], RebootRestart method [Windows Device Testing Framework],IWDTFSystemAction2 interface, dtf.iwdtfsystemaction2_rebootrestart, wdtfsystemaction/IWDTFSystemAction2::RebootRestart
 f1_keywords:
  - "wdtfsystemaction/IWDTFSystemAction2.RebootRestart"
+ - "IWDTFSystemAction2.RebootRestart"
 req.header: wdtfsystemaction.h
 req.include-header: 
 req.target-type: Desktop

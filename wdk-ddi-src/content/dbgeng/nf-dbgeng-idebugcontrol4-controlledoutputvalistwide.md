@@ -10,6 +10,7 @@ keywords: ["IDebugControl4::ControlledOutputVaListWide"]
 ms.keywords: ControlledOutputVaListWide, ControlledOutputVaListWide method [Windows Debugging], ControlledOutputVaListWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],ControlledOutputVaListWide method, IDebugControl4.ControlledOutputVaListWide, IDebugControl4::ControlledOutputVaListWide, dbgeng/IDebugControl4::ControlledOutputVaListWide, debugger.controlledoutputvalistwide
 f1_keywords:
  - "dbgeng/IDebugControl4.ControlledOutputVaListWide"
+ - "IDebugControl4.ControlledOutputVaListWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h, Stdarg.h
 req.target-type: Desktop

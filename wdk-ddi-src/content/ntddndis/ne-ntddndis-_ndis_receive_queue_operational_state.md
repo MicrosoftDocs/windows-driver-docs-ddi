@@ -10,6 +10,7 @@ keywords: ["_NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE enumeration"]
 ms.keywords: "*PNDIS_RECEIVE_QUEUE_OPERATIONAL_STATE, NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE, NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE enumeration [Network Drivers Starting with Windows Vista], NdisReceiveQueueOperationalStateDmaStopped, NdisReceiveQueueOperationalStateMaximum, NdisReceiveQueueOperationalStatePaused, NdisReceiveQueueOperationalStateRunning, NdisReceiveQueueOperationalStateUndefined, PNDIS_RECEIVE_QUEUE_OPERATIONAL_STATE, PNDIS_RECEIVE_QUEUE_OPERATIONAL_STATE enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE, netvista.ndis_receive_queue_operational_state, ntddndis/NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE, ntddndis/NdisReceiveQueueOperationalStateDmaStopped, ntddndis/NdisReceiveQueueOperationalStateMaximum, ntddndis/NdisReceiveQueueOperationalStatePaused, ntddndis/NdisReceiveQueueOperationalStateRunning, ntddndis/NdisReceiveQueueOperationalStateUndefined, ntddndis/PNDIS_RECEIVE_QUEUE_OPERATIONAL_STATE, virtual_machine_queue_ref_db0b16e1-5367-4a29-8a24-474aa09c07f5.xml"
 f1_keywords:
  - "ntddndis/NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE"
+ - "NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

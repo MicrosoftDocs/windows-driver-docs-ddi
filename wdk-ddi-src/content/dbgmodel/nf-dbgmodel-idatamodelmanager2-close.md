@@ -7,6 +7,7 @@ ms.date: 07/20/2018
 keywords: ["IDataModelManager2::Close"]
 f1_keywords:
  - "dbgmodel/IDataModelManager2.Close"
+ - "IDataModelManager2.Close"
 ms.keywords: IDataModelManager2::Close, Close, IDataModelManager2.Close, IDataModelManager2::Close, IDataModelManager2.Close
 req.header: dbgmodel.h
 req.include-header:

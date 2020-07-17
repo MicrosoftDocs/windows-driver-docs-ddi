@@ -8,6 +8,7 @@ ms.date: 06/29/2018
 keywords: ["MbbDeviceReceiveDeviceServiceSessionData function"]
 f1_keywords:
  - "mbbcx/MbbDeviceReceiveDeviceServiceSessionData"
+ - "MbbDeviceReceiveDeviceServiceSessionData"
 ms.keywords: MbbDeviceReceiveDeviceServiceSessionData
 req.header: mbbcx.h
 req.include-header:

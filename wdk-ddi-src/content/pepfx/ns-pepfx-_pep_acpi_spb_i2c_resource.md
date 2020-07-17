@@ -10,6 +10,7 @@ keywords: ["_PEP_ACPI_SPB_I2C_RESOURCE structure"]
 ms.keywords: "*PPEP_ACPI_SPB_I2C_RESOURCE, PEP_ACPI_SPB_I2C_RESOURCE, PEP_ACPI_SPB_I2C_RESOURCE structure [Kernel-Mode Driver Architecture], PPEP_ACPI_SPB_I2C_RESOURCE, PPEP_ACPI_SPB_I2C_RESOURCE structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_SPB_I2C_RESOURCE, kernel.pep_acpi_spb_i2c_resource, pepfx/PEP_ACPI_SPB_I2C_RESOURCE, pepfx/PPEP_ACPI_SPB_I2C_RESOURCE"
 f1_keywords:
  - "pepfx/PEP_ACPI_SPB_I2C_RESOURCE"
+ - "PEP_ACPI_SPB_I2C_RESOURCE"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows

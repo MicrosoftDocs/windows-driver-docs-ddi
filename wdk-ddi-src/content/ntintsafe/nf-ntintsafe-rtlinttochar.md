@@ -10,6 +10,7 @@ keywords: ["RtlIntToChar function"]
 ms.keywords: RtlIntToChar, RtlIntToChar function [Kernel-Mode Driver Architecture], kernel.rtlinttochar, ntintsafe/RtlIntToChar
 f1_keywords:
  - "ntintsafe/RtlIntToChar"
+ - "RtlIntToChar"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

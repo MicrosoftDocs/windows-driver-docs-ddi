@@ -10,6 +10,7 @@ keywords: ["GetJobNamedPropertyValue function"]
 ms.keywords: GetJobNamedPropertyValue, GetJobNamedPropertyValue function [Print Devices], print.getjobnamedpropertyvalue, winspool/GetJobNamedPropertyValue
 f1_keywords:
  - "winspool/GetJobNamedPropertyValue"
+ - "GetJobNamedPropertyValue"
 req.header: winspool.h
 req.include-header: Winspool.h
 req.target-type: Desktop

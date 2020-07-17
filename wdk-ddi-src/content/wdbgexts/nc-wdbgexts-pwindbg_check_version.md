@@ -10,6 +10,7 @@ keywords: ["PWINDBG_CHECK_VERSION callback function"]
 ms.keywords: CheckVersion, CheckVersion callback function [Windows Debugging], PWINDBG_CHECK_VERSION, PWINDBG_CHECK_VERSION callback, WdbgExts_Callbacks_9f917023-190d-4047-a272-7e46de9b5afb.xml, debugger.checkversion, wdbgexts/CheckVersion
 f1_keywords:
  - "wdbgexts/CheckVersion"
+ - "CheckVersion"
 req.header: wdbgexts.h
 req.include-header: 
 req.target-type: Desktop

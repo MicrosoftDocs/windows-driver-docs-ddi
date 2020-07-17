@@ -10,6 +10,7 @@ keywords: ["ExtRemoteData::ReadBuffer"]
 ms.keywords: EngExtCpp_Ref_b27c97d0-4083-4773-b323-55f915dfdd05.xml, ExtRemoteData class [Windows Debugging],ReadBuffer method, ExtRemoteData.ReadBuffer, ExtRemoteData::ReadBuffer, ReadBuffer, ReadBuffer method [Windows Debugging], ReadBuffer method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_readbuffer
 f1_keywords:
  - "engextcpp/ExtRemoteData.ReadBuffer"
+ - "ExtRemoteData.ReadBuffer"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop

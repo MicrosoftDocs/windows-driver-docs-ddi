@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_DEVICEPRESENT_STATE structure"]
 ms.keywords: D3DKMT_DEVICEPRESENT_STATE, D3DKMT_DEVICEPRESENT_STATE structure [Display Devices], OpenGL_Structs_d1f2fcff-dfb8-411f-a4f8-4016924b4ebd.xml, _D3DKMT_DEVICEPRESENT_STATE, d3dkmthk/D3DKMT_DEVICEPRESENT_STATE, display.d3dkmt_devicepresent_state
 f1_keywords:
  - "d3dkmthk/D3DKMT_DEVICEPRESENT_STATE"
+ - "D3DKMT_DEVICEPRESENT_STATE"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

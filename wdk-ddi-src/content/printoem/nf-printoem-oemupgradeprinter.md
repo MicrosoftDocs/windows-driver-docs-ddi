@@ -10,6 +10,7 @@ keywords: ["OEMUpgradePrinter function"]
 ms.keywords: OEMUpgradePrinter, OEMUpgradePrinter function [Print Devices], print.oemupgradeprinter, print_obsoletefunctions_188db86f-1544-410e-ae88-c15c0e26cc3c.xml, printoem/OEMUpgradePrinter
 f1_keywords:
  - "printoem/OEMUpgradePrinter"
+ - "OEMUpgradePrinter"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows

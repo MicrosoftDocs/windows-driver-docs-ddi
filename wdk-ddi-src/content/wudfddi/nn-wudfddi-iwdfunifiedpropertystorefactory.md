@@ -10,6 +10,7 @@ keywords: ["IWDFUnifiedPropertyStoreFactory interface"]
 ms.keywords: IWDFUnifiedPropertyStoreFactory, IWDFUnifiedPropertyStoreFactory interface, IWDFUnifiedPropertyStoreFactory interface,described, umdf.iwdfunifiedpropertystorefactory, wdf.iwdfunifiedpropertystorefactory, wudfddi/IWDFUnifiedPropertyStoreFactory
 f1_keywords:
  - "wudfddi/IWDFUnifiedPropertyStoreFactory"
+ - "IWDFUnifiedPropertyStoreFactory"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop

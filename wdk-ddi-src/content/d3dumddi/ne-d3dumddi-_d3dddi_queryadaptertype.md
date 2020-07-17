@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DDDI_QUERYADAPTERTYPE enumeration"]
 f1_keywords:
  - "d3dumddi/_D3DDDI_QUERYADAPTERTYPE"
+ - "_D3DDDI_QUERYADAPTERTYPE"
 ms.keywords: _D3DDDI_QUERYADAPTERTYPE, D3DDDI_QUERYADAPTERTYPE,
 req.header: d3dumddi.h
 req.include-header:

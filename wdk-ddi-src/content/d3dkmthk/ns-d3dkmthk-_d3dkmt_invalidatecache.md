@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_INVALIDATECACHE structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_INVALIDATECACHE"
+ - "_D3DKMT_INVALIDATECACHE"
 ms.keywords: _D3DKMT_INVALIDATECACHE, D3DKMT_INVALIDATECACHE, 
 req.header: d3dkmthk.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["FsRtlInsertPerFileContext function"]
 ms.keywords: FsRtlInsertPerFileContext, FsRtlInsertPerFileContext routine [Installable File System Drivers], fsrtlref_570a2352-733f-4b83-8f63-f4bfed0e2f56.xml, ifsk.fsrtlinsertperfilecontext, ntifs/FsRtlInsertPerFileContext
 f1_keywords:
  - "ntifs/FsRtlInsertPerFileContext"
+ - "FsRtlInsertPerFileContext"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal

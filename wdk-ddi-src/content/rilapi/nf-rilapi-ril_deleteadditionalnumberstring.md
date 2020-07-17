@@ -10,6 +10,7 @@ keywords: ["RIL_DeleteAdditionalNumberString function"]
 ms.keywords: RIL_DeleteAdditionalNumberString, RIL_DeleteAdditionalNumberString method [Network Drivers Starting with Windows Vista], netvista.ril_deleteadditionalnumberstring, rilapi/RIL_DeleteAdditionalNumberString
 f1_keywords:
  - "rilapi/RIL_DeleteAdditionalNumberString"
+ - "RIL_DeleteAdditionalNumberString"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

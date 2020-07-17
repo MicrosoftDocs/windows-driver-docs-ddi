@@ -10,6 +10,7 @@ keywords: ["PSCSIWMI_QUERY_REGINFO callback function"]
 ms.keywords: HwScsiWmiQueryReginfo, HwScsiWmiQueryReginfo callback function [Storage Devices], PSCSIWMI_QUERY_REGINFO, PSCSIWMI_QUERY_REGINFO callback, Scsimini_16dc5cef-69cd-488a-b941-9819951a3652.xml, scsiwmi/HwScsiWmiQueryReginfo, storage.hwscsiwmiqueryreginfo
 f1_keywords:
  - "scsiwmi/HwScsiWmiQueryReginfo"
+ - "HwScsiWmiQueryReginfo"
 req.header: scsiwmi.h
 req.include-header: Scsiwmi.h
 req.target-type: Desktop

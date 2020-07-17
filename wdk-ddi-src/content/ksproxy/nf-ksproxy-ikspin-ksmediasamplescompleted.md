@@ -10,6 +10,7 @@ keywords: ["IKsPin::KsMediaSamplesCompleted"]
 ms.keywords: IKsPin interface [Streaming Media Devices],KsMediaSamplesCompleted method, IKsPin.KsMediaSamplesCompleted, IKsPin::KsMediaSamplesCompleted, KsMediaSamplesCompleted, KsMediaSamplesCompleted method [Streaming Media Devices], KsMediaSamplesCompleted method [Streaming Media Devices],IKsPin interface, ksproxy/IKsPin::KsMediaSamplesCompleted, ksproxy_06b7c470-0755-4cae-a346-15f544c51d1d.xml, stream.ikspin_ksmediasamplescompleted
 f1_keywords:
  - "ksproxy/IKsPin.KsMediaSamplesCompleted"
+ - "IKsPin.KsMediaSamplesCompleted"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Desktop

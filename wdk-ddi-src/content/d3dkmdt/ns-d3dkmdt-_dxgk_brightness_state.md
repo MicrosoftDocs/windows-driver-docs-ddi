@@ -10,6 +10,7 @@ keywords: ["_DXGK_BRIGHTNESS_STATE structure"]
 ms.keywords: DXGK_BRIGHTNESS_STATE, DXGK_BRIGHTNESS_STATE structure [Display Devices], _DXGK_BRIGHTNESS_STATE, d3dkmdt/DXGK_BRIGHTNESS_STATE, display.dxgk_brightness_state
 f1_keywords:
  - "d3dkmdt/DXGK_BRIGHTNESS_STATE"
+ - "DXGK_BRIGHTNESS_STATE"
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
 req.target-type: Windows

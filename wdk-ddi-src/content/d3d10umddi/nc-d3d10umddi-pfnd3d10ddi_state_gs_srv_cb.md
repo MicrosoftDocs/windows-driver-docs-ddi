@@ -9,6 +9,7 @@ keywords: ["PFND3D10DDI_STATE_GS_SRV_CB callback function"]
 ms.keywords: PFND3D10DDI_STATE_GS_SRV_CB, PFND3D10DDI_STATE_GS_SRV_CB callback, d3d10state_functions_a19053b4-243c-4158-baf0-2eee3ba01dc5.xml, d3d10umddi/pfnStateGsSrvCb, display.pfnstategssrvcb, pfnStateGsSrvCb, pfnStateGsSrvCb callback function [Display Devices]
 f1_keywords:
  - "d3d10umddi/pfnStateGsSrvCb"
+ - "pfnStateGsSrvCb"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

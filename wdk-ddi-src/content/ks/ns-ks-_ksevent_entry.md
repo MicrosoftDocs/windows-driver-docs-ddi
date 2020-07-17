@@ -10,6 +10,7 @@ keywords: ["_KSEVENT_ENTRY structure"]
 ms.keywords: "*PKSEVENT_ENTRY, KSEVENT_ENTRY, KSEVENT_ENTRY structure [Streaming Media Devices], _KSEVENT_ENTRY, ks-struct_1c40526b-bc37-4f6b-a1e1-b0e710238156.xml, ks/KSEVENT_ENTRY, stream.ksevent_entry"
 f1_keywords:
  - "ks/KSEVENT_ENTRY"
+ - "KSEVENT_ENTRY"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows

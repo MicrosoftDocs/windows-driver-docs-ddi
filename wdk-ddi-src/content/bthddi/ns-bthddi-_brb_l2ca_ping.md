@@ -10,6 +10,7 @@ keywords: ["_BRB_L2CA_PING structure"]
 ms.keywords: "_BRB_L2CA_PING, _BRB_L2CA_PING structure [Bluetooth Devices], bltooth._brb_l2ca_ping, bth_structs_40384235-0f47-4870-a6be-72e807ee439d.xml, bthddi/_BRB_L2CA_PING"
 f1_keywords:
  - "bthddi/_BRB_L2CA_PING"
+ - "_BRB_L2CA_PING"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["RtlInitializeSid function"]
 ms.keywords: RtlInitializeSid, RtlInitializeSid routine [Installable File System Drivers], ifsk.rtlinitializesid, ntifs/RtlInitializeSid, rtlref_fbcc1ed7-4929-415f-9644-b8d9521a5c1a.xml
 f1_keywords:
  - "ntifs/RtlInitializeSid"
+ - "RtlInitializeSid"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

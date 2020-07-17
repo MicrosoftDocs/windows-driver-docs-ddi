@@ -10,6 +10,7 @@ keywords: ["KeRemoveByKeyDeviceQueue function"]
 ms.keywords: KeRemoveByKeyDeviceQueue, KeRemoveByKeyDeviceQueue routine [Kernel-Mode Driver Architecture], k105_7ceac4c8-26cc-4dfc-86fa-937d1c63d11b.xml, kernel.keremovebykeydevicequeue, wdm/KeRemoveByKeyDeviceQueue
 f1_keywords:
  - "wdm/KeRemoveByKeyDeviceQueue"
+ - "KeRemoveByKeyDeviceQueue"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

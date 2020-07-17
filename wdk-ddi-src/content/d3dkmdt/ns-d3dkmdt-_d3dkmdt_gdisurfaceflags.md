@@ -10,6 +10,7 @@ keywords: ["_D3DKMDT_GDISURFACEFLAGS structure"]
 ms.keywords: D3DKMDT_GDISURFACEFLAGS, D3DKMDT_GDISURFACEFLAGS structure [Display Devices], DmStructs_6d5ae8f4-0155-41d5-b558-a229f68ffa99.xml, _D3DKMDT_GDISURFACEFLAGS, d3dkmdt/D3DKMDT_GDISURFACEFLAGS, display.d3dkmdt_gdisurfaceflags
 f1_keywords:
  - "d3dkmdt/D3DKMDT_GDISURFACEFLAGS"
+ - "D3DKMDT_GDISURFACEFLAGS"
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
 req.target-type: Windows

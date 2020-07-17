@@ -32,6 +32,7 @@ api_name:
  - D3D12DDICB_UNPIN_RESOURCES_0076
 f1_keywords:
  - d3d12umddi/D3D12DDICB_UNPIN_RESOURCES_0076
+ - ""
 dev_langs:
  - c++
 ---

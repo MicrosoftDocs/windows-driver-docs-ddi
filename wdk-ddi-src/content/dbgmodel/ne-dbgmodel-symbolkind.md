@@ -7,6 +7,7 @@ ms.date: 07/16/2018
 keywords: ["SymbolKind enumeration"]
 f1_keywords:
  - "dbgmodel/SymbolKind"
+ - "SymbolKind"
 ms.keywords: SymbolKind, , 
 req.header: dbgmodel.h
 req.include-header:

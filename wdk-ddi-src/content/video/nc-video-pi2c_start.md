@@ -10,6 +10,7 @@ keywords: ["PI2C_START callback function"]
 ms.keywords: I2CStart, I2CStart callback function [Display Devices], PI2C_START, PI2C_START callback, VideoPort_Functions_287e51cf-dce0-47c5-b743-c6fb401bb74e.xml, display.i2cstart, video/I2CStart
 f1_keywords:
  - "video/I2CStart"
+ - "I2CStart"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

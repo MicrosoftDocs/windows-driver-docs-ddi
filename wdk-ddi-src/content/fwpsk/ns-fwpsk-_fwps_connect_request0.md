@@ -10,6 +10,7 @@ keywords: ["_FWPS_CONNECT_REQUEST0 structure"]
 ms.keywords: FWPS_CONNECT_REQUEST0, FWPS_CONNECT_REQUEST0 structure [Network Drivers Starting with Windows Vista], _FWPS_CONNECT_REQUEST0, fwpsk/FWPS_CONNECT_REQUEST0, netvista.fwps_connect_request0, wfp_ref_3_struct_3_fwps_A-E_af2ba16d-4454-4f69-9682-c9f759ef26e8.xml
 f1_keywords:
  - "fwpsk/FWPS_CONNECT_REQUEST0"
+ - "FWPS_CONNECT_REQUEST0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Windows

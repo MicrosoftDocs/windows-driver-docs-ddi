@@ -10,6 +10,7 @@ keywords: ["_PEP_POWER_CONTROL_COMPLETE structure"]
 ms.keywords: "*PPEP_POWER_CONTROL_COMPLETE, PEP_POWER_CONTROL_COMPLETE, PEP_POWER_CONTROL_COMPLETE structure [Kernel-Mode Driver Architecture], PPEP_POWER_CONTROL_COMPLETE, PPEP_POWER_CONTROL_COMPLETE structure pointer [Kernel-Mode Driver Architecture], _PEP_POWER_CONTROL_COMPLETE, kernel.pep_power_control_complete, pepfx/PEP_POWER_CONTROL_COMPLETE, pepfx/PPEP_POWER_CONTROL_COMPLETE"
 f1_keywords:
  - "pep_x/PEP_POWER_CONTROL_COMPLETE"
+ - "PEP_POWER_CONTROL_COMPLETE"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["_URB structure"]
 ms.keywords: PURB, PURB structure pointer [Buses], URB, URB structure [Buses], _URB, buses.urb, usb/PURB, usb/URB, usbstrct_20441a98-258d-44d2-b414-67b336a44fac.xml
 f1_keywords:
  - "usb/URB"
+ - "URB"
 req.header: usb.h
 req.include-header: Usb.h
 req.target-type: Windows

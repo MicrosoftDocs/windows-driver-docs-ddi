@@ -10,6 +10,7 @@ keywords: ["_DXVA_MVvalue structure"]
 ms.keywords: "*LPDXVA_MVvalue, DXVA_MVvalue, DXVA_MVvalue structure [Display Devices], LPDXVA_MVvalue, LPDXVA_MVvalue structure pointer [Display Devices], _DXVA_MVvalue, display.dxva_mvvalue, dxva/DXVA_MVvalue, dxva/LPDXVA_MVvalue, dxvaref_4eeb8072-1676-479e-b92c-05d8ba9c4586.xml"
 f1_keywords:
  - "dxva/DXVA_MVvalue"
+ - "DXVA_MVvalue"
 req.header: dxva.h
 req.include-header: Dxva.h
 req.target-type: Windows

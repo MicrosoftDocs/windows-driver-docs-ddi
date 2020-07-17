@@ -10,6 +10,7 @@ ms.date: 11/07/2019
 keywords: ["MBB_DEVICE_WAKE_CAPABILITIES_INIT function"]
 f1_keywords:
  - "mbbcx/MBB_DEVICE_WAKE_CAPABILITIES_INIT"
+ - "MBB_DEVICE_WAKE_CAPABILITIES_INIT"
 ms.keywords: MBB_DEVICE_WAKE_CAPABILITIES_INIT
 req.header: mbbcx.h
 req.include-header:

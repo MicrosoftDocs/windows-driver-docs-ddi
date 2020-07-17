@@ -9,6 +9,7 @@ keywords: ["D3DKMTDestroyHwContext function"]
 ms.keywords: D3DKMTDestroyHwContext, D3DKMTDestroyHwContext function [Display Devices], d3dkmthk/D3DKMTDestroyHwContext, display.d3dkmtdestroyhwcontext
 f1_keywords:
  - "d3dkmthk/D3DKMTDestroyHwContext"
+ - "D3DKMTDestroyHwContext"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows

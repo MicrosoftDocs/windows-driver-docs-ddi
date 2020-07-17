@@ -10,6 +10,7 @@ keywords: ["RtlFindLongestRunClear function"]
 ms.keywords: RtlFindLongestRunClear, RtlFindLongestRunClear routine [Kernel-Mode Driver Architecture], k109_a6295996-9e2c-4d19-9ee9-1dc7802bd145.xml, kernel.rtlfindlongestrunclear, wdm/RtlFindLongestRunClear
 f1_keywords:
  - "wdm/RtlFindLongestRunClear"
+ - "RtlFindLongestRunClear"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

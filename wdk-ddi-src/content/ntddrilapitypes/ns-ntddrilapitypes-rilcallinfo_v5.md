@@ -10,6 +10,7 @@ keywords: ["RILCALLINFO_V5 structure"]
 ms.keywords: "*LPRILCALLINFO, *LPRILCALLINFO_V5, RILCALLINFO, RILCALLINFO_V5, RILCALLINFO_V5 structure [Network Drivers Starting with Windows Vista], netvista.rilcallinfo_v5, ntddrilapitypes/RILCALLINFO_V5"
 f1_keywords:
  - "ntddrilapitypes/RILCALLINFO_V5"
+ - "RILCALLINFO_V5"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

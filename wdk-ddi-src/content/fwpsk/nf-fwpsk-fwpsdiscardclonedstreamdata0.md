@@ -10,6 +10,7 @@ keywords: ["FwpsDiscardClonedStreamData0 function"]
 ms.keywords: FwpsDiscardClonedStreamData0, FwpsDiscardClonedStreamData0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsDiscardClonedStreamData0, netvista.fwpsdiscardclonedstreamdata0, wfp_ref_2_funct_3_fwps_D-H_b09851bf-8f28-4f16-8c7d-b6f89b276845.xml
 f1_keywords:
  - "fwpsk/FwpsDiscardClonedStreamData0"
+ - "FwpsDiscardClonedStreamData0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal

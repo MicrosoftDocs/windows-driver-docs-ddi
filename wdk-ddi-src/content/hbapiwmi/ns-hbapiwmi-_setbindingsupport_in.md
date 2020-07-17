@@ -10,6 +10,7 @@ keywords: ["_SetBindingSupport_IN structure"]
 ms.keywords: "*PSetBindingSupport_IN, PSetBindingSupport_IN, PSetBindingSupport_IN structure pointer [Storage Devices], SetBindingSupport_IN, SetBindingSupport_IN structure [Storage Devices], _SetBindingSupport_IN, hbapiwmi/PSetBindingSupport_IN, hbapiwmi/SetBindingSupport_IN, storage.setbindingsupport_in, structs-Fibre_2545c261-7902-4fb8-9943-21087c281089.xml"
 f1_keywords:
  - "hbapiwmi/SetBindingSupport_IN"
+ - "SetBindingSupport_IN"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows

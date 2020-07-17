@@ -10,6 +10,7 @@ keywords: ["WdfDmaEnablerGetFragmentLength function"]
 ms.keywords: DFDmaObjectRef_7c147fef-46f6-49aa-b8a9-9ef1a82ef963.xml, WdfDmaEnablerGetFragmentLength, WdfDmaEnablerGetFragmentLength method, kmdf.wdfdmaenablergetfragmentlength, wdf.wdfdmaenablergetfragmentlength, wdfdmaenabler/WdfDmaEnablerGetFragmentLength
 f1_keywords:
  - "wdfdmaenabler/WdfDmaEnablerGetFragmentLength"
+ - "WdfDmaEnablerGetFragmentLength"
 req.header: wdfdmaenabler.h
 req.include-header: Wdf.h
 req.target-type: Universal

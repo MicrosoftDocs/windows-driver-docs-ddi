@@ -10,6 +10,7 @@ keywords: ["IDebugInputCallbacks::StartInput"]
 ms.keywords: ComCallbacks_155d62a2-08b2-4caf-80d6-80fab139e77b.xml, IDebugInputCallbacks interface [Windows Debugging],StartInput method, IDebugInputCallbacks.StartInput, IDebugInputCallbacks::StartInput, StartInput, StartInput method [Windows Debugging], StartInput method [Windows Debugging],IDebugInputCallbacks interface, dbgeng/IDebugInputCallbacks::StartInput, debugger.idebuginputcallbacks_startinput
 f1_keywords:
  - "dbgeng/IDebugInputCallbacks.StartInput"
+ - "IDebugInputCallbacks.StartInput"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

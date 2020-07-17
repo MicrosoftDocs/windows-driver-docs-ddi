@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["_USBC_PD_CONN_STATE enumeration"]
 f1_keywords:
  - "usbctypes/_USBC_PD_CONN_STATE"
+ - "_USBC_PD_CONN_STATE"
 ms.keywords: _USBC_PD_CONN_STATE, USBC_PD_CONN_STATE, 
 req.header: usbctypes.h
 req.include-header: usbctypes.h

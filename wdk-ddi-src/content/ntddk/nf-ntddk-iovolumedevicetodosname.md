@@ -10,6 +10,7 @@ keywords: ["IoVolumeDeviceToDosName function"]
 ms.keywords: IoVolumeDeviceToDosName, IoVolumeDeviceToDosName routine [Kernel-Mode Driver Architecture], k104_01cdeb80-9a49-4d42-a311-cf8b69d03b9c.xml, kernel.iovolumedevicetodosname, ntddk/IoVolumeDeviceToDosName
 f1_keywords:
  - "ntddk/IoVolumeDeviceToDosName"
+ - "IoVolumeDeviceToDosName"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

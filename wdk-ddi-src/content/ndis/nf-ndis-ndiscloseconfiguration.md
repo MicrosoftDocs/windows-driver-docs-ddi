@@ -10,6 +10,7 @@ keywords: ["NdisCloseConfiguration function"]
 ms.keywords: NdisCloseConfiguration, NdisCloseConfiguration function [Network Drivers Starting with Windows Vista], ndis/NdisCloseConfiguration, ndis_configuration_ref_eb02fa4e-fff9-41e5-81f6-9580af7480a7.xml, netvista.ndiscloseconfiguration
 f1_keywords:
  - "ndis/NdisCloseConfiguration"
+ - "NdisCloseConfiguration"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

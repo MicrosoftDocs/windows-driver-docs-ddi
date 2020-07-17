@@ -9,6 +9,7 @@ keywords: ["D3DKMTUnlock2 function"]
 ms.keywords: D3DKMTUnlock2, D3DKMTUnlock2 function [Display Devices], d3dkmthk/D3DKMTUnlock2, display.d3dkmtunlock2
 f1_keywords:
  - "d3dkmthk/D3DKMTUnlock2"
+ - "D3DKMTUnlock2"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

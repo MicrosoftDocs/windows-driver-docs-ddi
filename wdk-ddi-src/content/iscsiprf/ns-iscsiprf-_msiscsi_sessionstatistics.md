@@ -10,6 +10,7 @@ keywords: ["_MSiSCSI_SessionStatistics structure"]
 ms.keywords: "*PMSiSCSI_SessionStatistics, MSiSCSI_SessionStatistics, MSiSCSI_SessionStatistics structure [Storage Devices], PMSiSCSI_SessionStatistics, PMSiSCSI_SessionStatistics structure pointer [Storage Devices], _MSiSCSI_SessionStatistics, iscsiprf/MSiSCSI_SessionStatistics, iscsiprf/PMSiSCSI_SessionStatistics, storage.msiscsi_sessionstatistics, structs-iSCSI_90b593e8-cda5-4b61-860b-b17394f90891.xml"
 f1_keywords:
  - "iscsiprf/MSiSCSI_SessionStatistics"
+ - "MSiSCSI_SessionStatistics"
 req.header: iscsiprf.h
 req.include-header: Iscsiprf.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["RILDIALEDIDSETTINGSPARAMMASK enumeration"]
 ms.keywords: RILDIALEDIDSETTINGSPARAMMASK, RILDIALEDIDSETTINGSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_DIDS_ALL, RIL_PARAM_DIDS_PROVISIONING, RIL_PARAM_DIDS_STATUS, netvista.rildialedidsettingsparammask, ntddrilapitypes/RILDIALEDIDSETTINGSPARAMMASK, ntddrilapitypes/RIL_PARAM_DIDS_ALL, ntddrilapitypes/RIL_PARAM_DIDS_PROVISIONING, ntddrilapitypes/RIL_PARAM_DIDS_STATUS
 f1_keywords:
  - "ntddrilapitypes/RILDIALEDIDSETTINGSPARAMMASK"
+ - "RILDIALEDIDSETTINGSPARAMMASK"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

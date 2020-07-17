@@ -10,6 +10,7 @@ keywords: ["IUnregisterPhysicalConnection interface"]
 ms.keywords: IUnregisterPhysicalConnection, IUnregisterPhysicalConnection interface [Audio Devices], IUnregisterPhysicalConnection interface [Audio Devices],described, audio.iunregisterphysicalconnection, audmp-routines_b26d005c-70d9-4df0-80ae-446907f22fd4.xml, portcls/IUnregisterPhysicalConnection
 f1_keywords:
  - "portcls/IUnregisterPhysicalConnection"
+ - "IUnregisterPhysicalConnection"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows

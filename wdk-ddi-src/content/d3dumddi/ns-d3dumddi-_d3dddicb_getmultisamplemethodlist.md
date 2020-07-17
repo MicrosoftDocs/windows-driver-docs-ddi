@@ -10,6 +10,7 @@ keywords: ["_D3DDDICB_GETMULTISAMPLEMETHODLIST structure"]
 ms.keywords: D3DDDICB_GETMULTISAMPLEMETHODLIST, D3DDDICB_GETMULTISAMPLEMETHODLIST structure [Display Devices], D3D_param_Structs_11da91d5-a4e6-4d24-b2b1-3645003ff25e.xml, _D3DDDICB_GETMULTISAMPLEMETHODLIST, d3dumddi/D3DDDICB_GETMULTISAMPLEMETHODLIST, display.d3dddicb_getmultisamplemethodlist
 f1_keywords:
  - "d3dumddi/D3DDDICB_GETMULTISAMPLEMETHODLIST"
+ - "D3DDDICB_GETMULTISAMPLEMETHODLIST"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

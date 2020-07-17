@@ -7,6 +7,7 @@ ms.date: 09/20/2018
 keywords: ["IDebugHostType2::GetFunctionParameterTypeAt"]
 f1_keywords:
  - "dbgmodel/IDebugHostType2.GetFunctionParameterTypeAt"
+ - "IDebugHostType2.GetFunctionParameterTypeAt"
 ms.keywords: IDebugHostType2::GetFunctionParameterTypeAt, GetFunctionParameterTypeAt, IDebugHostType2.GetFunctionParameterTypeAt, IDebugHostType2::GetFunctionParameterTypeAt, IDebugHostType2.GetFunctionParameterTypeAt
 req.header: dbgmodel.h
 req.include-header:

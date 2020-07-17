@@ -10,6 +10,7 @@ keywords: ["_DISK_INT13_INFO structure"]
 ms.keywords: "*PDISK_INT13_INFO, DISK_INT13_INFO, DISK_INT13_INFO structure [Storage Devices], PDISK_INT13_INFO, PDISK_INT13_INFO structure pointer [Storage Devices], _DISK_INT13_INFO, ntdddisk/DISK_INT13_INFO, ntdddisk/PDISK_INT13_INFO, storage.disk_int13_info, structs-disk_fc6ee399-d876-44e3-955a-3ab95c1b5134.xml"
 f1_keywords:
  - "ntdddisk/DISK_INT13_INFO"
+ - "DISK_INT13_INFO"
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["IPortableDeviceValues::SetUnsignedIntegerValue"]
 ms.keywords: IPortableDeviceValues interface,SetUnsignedIntegerValue method, IPortableDeviceValues.SetUnsignedIntegerValue, IPortableDeviceValues::SetUnsignedIntegerValue, IPortableDeviceValuesSetUnsignedIntegerValue, SetUnsignedIntegerValue, SetUnsignedIntegerValue method, SetUnsignedIntegerValue method,IPortableDeviceValues interface, portabledevicetypes/IPortableDeviceValues::SetUnsignedIntegerValue, wpddk.iportabledevicevalues_setunsignedintegervalue
 f1_keywords:
  - "portabledevicetypes/IPortableDeviceValues.SetUnsignedIntegerValue"
+ - "IPortableDeviceValues.SetUnsignedIntegerValue"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows

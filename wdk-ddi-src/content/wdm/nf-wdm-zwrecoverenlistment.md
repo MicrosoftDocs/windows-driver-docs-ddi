@@ -10,6 +10,7 @@ keywords: ["ZwRecoverEnlistment function"]
 ms.keywords: NtRecoverEnlistment, ZwRecoverEnlistment, ZwRecoverEnlistment routine [Kernel-Mode Driver Architecture], kernel.zwrecoverenlistment, ktm_ref_0a6564fb-c6d1-4b4b-a278-a1d78395c1b4.xml, wdm/NtRecoverEnlistment, wdm/ZwRecoverEnlistment
 f1_keywords:
  - "wdm/ZwRecoverEnlistment"
+ - "ZwRecoverEnlistment"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

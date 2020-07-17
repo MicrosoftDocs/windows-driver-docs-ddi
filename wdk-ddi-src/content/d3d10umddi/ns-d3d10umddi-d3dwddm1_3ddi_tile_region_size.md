@@ -9,6 +9,7 @@ keywords: ["D3DWDDM1_3DDI_TILE_REGION_SIZE structure"]
 ms.keywords: D3DWDDM1_3DDI_TILE_REGION_SIZE, D3DWDDM1_3DDI_TILE_REGION_SIZE structure [Display Devices], d3d10umddi/D3DWDDM1_3DDI_TILE_REGION_SIZE, display.d3dwddm1_3ddi_tile_region_size
 f1_keywords:
  - "d3d10umddi/D3DWDDM1_3DDI_TILE_REGION_SIZE"
+ - "D3DWDDM1_3DDI_TILE_REGION_SIZE"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

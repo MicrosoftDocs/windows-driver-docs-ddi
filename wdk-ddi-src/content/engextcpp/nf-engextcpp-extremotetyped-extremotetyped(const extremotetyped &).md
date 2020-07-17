@@ -10,6 +10,7 @@ keywords: ["ExtRemoteTyped::ExtRemoteTyped(const ExtRemoteTyped &)"]
 ms.keywords: ExtRemoteTyped, ExtRemoteTyped class [Windows Debugging],ExtRemoteTyped constructor, ExtRemoteTyped constructor [Windows Debugging], ExtRemoteTyped constructor [Windows Debugging],ExtRemoteTyped class, ExtRemoteTyped.ExtRemoteTyped, ExtRemoteTyped.ExtRemoteTyped(ExtRemoteTyped&), ExtRemoteTyped.ExtRemoteTyped(const ExtRemoteTyped &), ExtRemoteTyped::ExtRemoteTyped, ExtRemoteTyped::ExtRemoteTyped(const ExtRemoteTyped &), debugger.extremotetyped_extremotetyped_extremotetyped
 f1_keywords:
  - "engextcpp/ExtRemoteTyped.ExtRemoteTyped"
+ - "ExtRemoteTyped.ExtRemoteTyped"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop

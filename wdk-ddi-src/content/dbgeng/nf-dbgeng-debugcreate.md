@@ -10,6 +10,7 @@ keywords: ["DebugCreate function"]
 ms.keywords: ClientFns_4a96fd16-32b9-40f5-bc7f-60ae6ecadb32.xml, DebugCreate, DebugCreate function [Windows Debugging], dbgeng/DebugCreate, debugger.debugcreate
 f1_keywords:
  - "dbgeng/DebugCreate"
+ - "DebugCreate"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

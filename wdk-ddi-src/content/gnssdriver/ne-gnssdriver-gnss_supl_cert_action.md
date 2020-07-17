@@ -10,6 +10,7 @@ keywords: ["GNSS_SUPL_CERT_ACTION enumeration"]
 ms.keywords: GNSS_SUPL_CERT_ACTION, GNSS_SUPL_CERT_ACTION enumeration [Sensor Devices], GNSS_Supl_Cert_Delete, GNSS_Supl_Cert_Inject, GNSS_Supl_Cert_Purge, gnss.gnss_supl_cert_action, gnssdriver/GNSS_SUPL_CERT_ACTION, gnssdriver/GNSS_Supl_Cert_Delete, gnssdriver/GNSS_Supl_Cert_Inject, gnssdriver/GNSS_Supl_Cert_Purge
 f1_keywords:
  - "gnssdriver/GNSS_SUPL_CERT_ACTION"
+ - "GNSS_SUPL_CERT_ACTION"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows

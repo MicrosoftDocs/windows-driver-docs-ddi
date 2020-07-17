@@ -10,6 +10,7 @@ keywords: ["IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS IOCTL"]
 ms.keywords: IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS, IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS control, IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS control code [Buses], buses.ioctl_internal_usb_get_topology_address, usbioctl/IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS
 f1_keywords:
  - "usbioctl/IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS"
+ - "IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS"
 req.header: usbioctl.h
 req.include-header: Usbioctl.h
 req.target-type: Windows

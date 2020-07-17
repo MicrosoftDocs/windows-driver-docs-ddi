@@ -10,6 +10,7 @@ keywords: ["KeRevertToUserGroupAffinityThread function"]
 ms.keywords: KeRevertToUserGroupAffinityThread, KeRevertToUserGroupAffinityThread routine [Kernel-Mode Driver Architecture], k105_be46d681-835f-40ba-8120-b8699e16ea0b.xml, kernel.kereverttousergroupaffinitythread, wdm/KeRevertToUserGroupAffinityThread
 f1_keywords:
  - "wdm/KeRevertToUserGroupAffinityThread"
+ - "KeRevertToUserGroupAffinityThread"
 req.header: wdm.h
 req.include-header: Ntddk.h, Wdm.h, Ntddk.h
 req.target-type: Universal

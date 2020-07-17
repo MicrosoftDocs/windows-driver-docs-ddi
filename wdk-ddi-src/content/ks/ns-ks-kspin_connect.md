@@ -10,6 +10,7 @@ keywords: ["KSPIN_CONNECT structure"]
 ms.keywords: "*PKSPIN_CONNECT, KSPIN_CONNECT, KSPIN_CONNECT structure [Streaming Media Devices], PKSPIN_CONNECT, PKSPIN_CONNECT structure pointer [Streaming Media Devices], ks-struct_07642f18-c766-4649-b97a-12582aa0fffb.xml, ks/KSPIN_CONNECT, ks/PKSPIN_CONNECT, stream.kspin_connect"
 f1_keywords:
  - "ks/KSPIN_CONNECT"
+ - "KSPIN_CONNECT"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["_DD_GETD3DQUERYDATA structure"]
 ms.keywords: DD_GETD3DQUERYDATA, DD_GETD3DQUERYDATA structure [Display Devices], _DD_GETD3DQUERYDATA, d3dhal/DD_GETD3DQUERYDATA, d3dstrct_ec5ab755-9f1e-4add-bcf1-73bcb01988e6.xml, display.dd_getd3dquerydata
 f1_keywords:
  - "d3dhal/DD_GETD3DQUERYDATA"
+ - "DD_GETD3DQUERYDATA"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows

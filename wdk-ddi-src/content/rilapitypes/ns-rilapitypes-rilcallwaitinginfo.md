@@ -10,6 +10,7 @@ keywords: ["RILCALLWAITINGINFO structure"]
 ms.keywords: "*LPRILCALLWAITINGINFO, RILCALLWAITINGINFO, RILCALLWAITINGINFO structure [Network Drivers Starting with Windows Vista], netvista.rilcallwaitinginfo, ntddrilapitypes/RILCALLWAITINGINFO"
 f1_keywords:
  - "rilapitypes/RILCALLWAITINGINFO"
+ - "RILCALLWAITINGINFO"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

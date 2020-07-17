@@ -10,6 +10,7 @@ keywords: ["_MPIO_DISK_INFO structure"]
 ms.keywords: "*PMPIO_DISK_INFO, MPIO_DISK_INFO, MPIO_DISK_INFO structure [Storage Devices], PMPIO_DISK_INFO, PMPIO_DISK_INFO structure pointer [Storage Devices], _MPIO_DISK_INFO, mpiowmi/MPIO_DISK_INFO, mpiowmi/PMPIO_DISK_INFO, storage.mpio_disk_info, structs-scsibus_d58f08a1-1534-4f93-83d4-031ce1dee9bf.xml"
 f1_keywords:
  - "mpiowmi/MPIO_DISK_INFO"
+ - "MPIO_DISK_INFO"
 req.header: mpiowmi.h
 req.include-header: Mpiowmi.h
 req.target-type: Windows

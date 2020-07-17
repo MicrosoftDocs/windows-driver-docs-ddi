@@ -10,6 +10,7 @@ keywords: ["IWDTFDeviceDepot2::get_Count"]
 ms.keywords: Count property [Windows Device Testing Framework], Count property [Windows Device Testing Framework],IWDTFDeviceDepot2 interface, IWDTFDeviceDepot2 interface [Windows Device Testing Framework],Count property, IWDTFDeviceDepot2.Count, IWDTFDeviceDepot2.get_Count, IWDTFDeviceDepot2::Count, IWDTFDeviceDepot2::get_Count, Microsoft.WDTF.IWDTFDeviceDepot2.Count, Microsoft::WDTF::IWDTFDeviceDepot2::Count, dtf.iwdtfdevicedepot2_count, get_Count, wdtf/IWDTFDeviceDepot2::Count, wdtf/IWDTFDeviceDepot2::get_Count
 f1_keywords:
  - "wdtf/IWDTFDeviceDepot2.Count"
+ - "IWDTFDeviceDepot2.Count"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Windows

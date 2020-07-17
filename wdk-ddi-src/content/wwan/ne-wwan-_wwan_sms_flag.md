@@ -10,6 +10,7 @@ keywords: ["_WWAN_SMS_FLAG enumeration"]
 ms.keywords: "*PWWAN_SMS_FLAG, PWWAN_SMS_FLAG, PWWAN_SMS_FLAG enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_SMS_FLAG, WWAN_SMS_FLAG enumeration [Network Drivers Starting with Windows Vista], WwanRef_379a284f-534f-4acb-88c7-d60f7627ab32.xml, WwanSmsFlagAll, WwanSmsFlagDraft, WwanSmsFlagIndex, WwanSmsFlagMax, WwanSmsFlagNew, WwanSmsFlagOld, WwanSmsFlagSent, _WWAN_SMS_FLAG, netvista.wwan_sms_flag, wwan/PWWAN_SMS_FLAG, wwan/WWAN_SMS_FLAG, wwan/WwanSmsFlagAll, wwan/WwanSmsFlagDraft, wwan/WwanSmsFlagIndex, wwan/WwanSmsFlagMax, wwan/WwanSmsFlagNew, wwan/WwanSmsFlagOld, wwan/WwanSmsFlagSent"
 f1_keywords:
  - "wwan/WWAN_SMS_FLAG"
+ - "WWAN_SMS_FLAG"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["WdfFdoInitQueryProperty function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_92306389-1cdf-4751-a0c5-552cdb5e4556.xml, WdfFdoInitQueryProperty, WdfFdoInitQueryProperty method, kmdf.wdffdoinitqueryproperty, wdf.wdffdoinitqueryproperty, wdffdo/WdfFdoInitQueryProperty
 f1_keywords:
  - "wdffdo/WdfFdoInitQueryProperty"
+ - "WdfFdoInitQueryProperty"
 req.header: wdffdo.h
 req.include-header: Wdf.h
 req.target-type: Universal

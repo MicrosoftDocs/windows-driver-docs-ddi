@@ -10,6 +10,7 @@ keywords: ["IDebugRegisters2::GetIndexByNameWide"]
 ms.keywords: GetIndexByNameWide, GetIndexByNameWide method [Windows Debugging], GetIndexByNameWide method [Windows Debugging],IDebugRegisters2 interface, IDebugRegisters2 interface [Windows Debugging],GetIndexByNameWide method, IDebugRegisters2.GetIndexByNameWide, IDebugRegisters2::GetIndexByNameWide, dbgeng/IDebugRegisters2::GetIndexByNameWide, debugger.getindexbynamewide
 f1_keywords:
  - "dbgeng/IDebugRegisters2.GetIndexByNameWide"
+ - "IDebugRegisters2.GetIndexByNameWide"
 req.header: dbgeng.h
 req.include-header: DbgEng.h
 req.target-type: Desktop

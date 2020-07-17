@@ -7,6 +7,7 @@ ms.date: 07/16/2018
 keywords: ["ScriptDebugEventInformation structure"]
 f1_keywords:
  - "dbgmodel/ScriptDebugEventInformation"
+ - "ScriptDebugEventInformation"
 ms.keywords: ScriptDebugEventInformation, , 
 req.header: dbgmodel.h
 req.include-header:

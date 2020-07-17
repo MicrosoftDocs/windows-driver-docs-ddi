@@ -9,6 +9,7 @@ keywords: ["D3D12DDI_QUERY_DATA_VIDEO_DECODE_STATISTICS_0022 structure"]
 ms.keywords: D3D12DDI_QUERY_DATA_VIDEO_DECODE_STATISTICS_0022, D3D12DDI_QUERY_DATA_VIDEO_DECODE_STATISTICS_0022 structure [Display Devices], d3d12umddi/D3D12DDI_QUERY_DATA_VIDEO_DECODE_STATISTICS_0022, display.d3d12ddi_query_data_video_decode_statistics
 f1_keywords:
  - "d3d12umddi/D3D12DDI_QUERY_DATA_VIDEO_DECODE_STATISTICS_0022"
+ - "D3D12DDI_QUERY_DATA_VIDEO_DECODE_STATISTICS_0022"
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows

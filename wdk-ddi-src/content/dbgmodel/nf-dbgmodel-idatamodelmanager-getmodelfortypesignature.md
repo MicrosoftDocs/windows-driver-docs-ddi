@@ -7,6 +7,7 @@ ms.date: 07/19/2018
 keywords: ["IDataModelManager::GetModelForTypeSignature"]
 f1_keywords:
  - "dbgmodel/IDataModelManager.GetModelForTypeSignature"
+ - "IDataModelManager.GetModelForTypeSignature"
 ms.keywords: IDataModelManager::GetModelForTypeSignature, GetModelForTypeSignature, IDataModelManager.GetModelForTypeSignature, IDataModelManager::GetModelForTypeSignature, IDataModelManager.GetModelForTypeSignature
 req.header: dbgmodel.h
 req.include-header:

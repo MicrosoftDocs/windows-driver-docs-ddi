@@ -10,6 +10,7 @@ keywords: ["_DOT4_ACTIVITY structure"]
 ms.keywords: "*PDOT4_ACTIVITY, DOT4_ACTIVITY, DOT4_ACTIVITY structure [Print Devices], PDOT4_ACTIVITY, PDOT4_ACTIVITY structure pointer [Print Devices], _DOT4_ACTIVITY, d4iface/DOT4_ACTIVITY, d4iface/PDOT4_ACTIVITY, print.dot4_activity"
 f1_keywords:
  - "d4iface/DOT4_ACTIVITY"
+ - "DOT4_ACTIVITY"
 req.header: d4iface.h
 req.include-header: 
 req.target-type: Windows

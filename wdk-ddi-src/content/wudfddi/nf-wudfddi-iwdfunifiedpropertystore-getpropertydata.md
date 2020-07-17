@@ -10,6 +10,7 @@ keywords: ["IWDFUnifiedPropertyStore::GetPropertyData"]
 ms.keywords: GetPropertyData, GetPropertyData method, GetPropertyData method,IWDFUnifiedPropertyStore interface, IWDFUnifiedPropertyStore interface,GetPropertyData method, IWDFUnifiedPropertyStore.GetPropertyData, IWDFUnifiedPropertyStore::GetPropertyData, umdf.iwdfunifiedpropertystore_getpropertydata, wdf.iwdfunifiedpropertystore_getpropertydata, wudfddi/IWDFUnifiedPropertyStore::GetPropertyData
 f1_keywords:
  - "wudfddi/IWDFUnifiedPropertyStore.GetPropertyData"
+ - "IWDFUnifiedPropertyStore.GetPropertyData"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop

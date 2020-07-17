@@ -10,6 +10,7 @@ keywords: ["IDebugInputCallbacks interface"]
 ms.keywords: ComCallbacks_9dd6d3d2-e92d-41bc-8276-fa8b7818a372.xml, IDebugInputCallbacks, IDebugInputCallbacks interface [Windows Debugging], IDebugInputCallbacks interface [Windows Debugging],described, dbgeng/IDebugInputCallbacks, debugger.idebuginputcallbacks
 f1_keywords:
  - "dbgeng/IDebugInputCallbacks"
+ - "IDebugInputCallbacks"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["IPortClsEtwHelper interface"]
 ms.keywords: IPortClsEtwHelper, IPortClsEtwHelper interface [Audio Devices], IPortClsEtwHelper interface [Audio Devices],described, audio.iportclsetwhelper, portcls/IPortClsEtwHelper
 f1_keywords:
  - "portcls/IPortClsEtwHelper"
+ - "IPortClsEtwHelper"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows

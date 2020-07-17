@@ -10,6 +10,7 @@ keywords: ["IPrintSchemaNUpOption::get_PagesPerSheet"]
 ms.keywords: IPrintSchemaNUpOption interface [Print Devices],PagesPerSheet property, IPrintSchemaNUpOption.PagesPerSheet, IPrintSchemaNUpOption.get_PagesPerSheet, IPrintSchemaNUpOption::PagesPerSheet, IPrintSchemaNUpOption::get_PagesPerSheet, PagesPerSheet property [Print Devices], PagesPerSheet property [Print Devices],IPrintSchemaNUpOption interface, get_PagesPerSheet, print.iprintschemanupoption_pagespersheet, printerextension/IPrintSchemaNUpOption::PagesPerSheet, printerextension/IPrintSchemaNUpOption::get_PagesPerSheet
 f1_keywords:
  - "printerextension/IPrintSchemaNUpOption.PagesPerSheet"
+ - "IPrintSchemaNUpOption.PagesPerSheet"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

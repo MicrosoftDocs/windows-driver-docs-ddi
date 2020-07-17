@@ -10,6 +10,7 @@ keywords: ["ClfsCloseAndResetLogFile function"]
 ms.keywords: ClfsCloseAndResetLogFile, ClfsCloseAndResetLogFile routine [Kernel-Mode Driver Architecture], Clfs_79ba6a07-3da2-40e8-9e7c-6b299ef55d63.xml, kernel.clfscloseandresetlogfile, wdm/ClfsCloseAndResetLogFile
 f1_keywords:
  - "wdm/ClfsCloseAndResetLogFile"
+ - "ClfsCloseAndResetLogFile"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop

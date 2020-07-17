@@ -10,6 +10,7 @@ keywords: ["FsRtlDeleteExtraCreateParameterLookasideList function"]
 ms.keywords: FsRtlDeleteExtraCreateParameterLookasideList, FsRtlDeleteExtraCreateParameterLookasideList routine [Installable File System Drivers], fsrtlref_43144ea3-5cbc-43ce-b3f8-4101b1e3aeaa.xml, ifsk.fsrtldeleteextracreateparameterlookasidelist, ntifs/FsRtlDeleteExtraCreateParameterLookasideList
 f1_keywords:
  - "ntifs/FsRtlDeleteExtraCreateParameterLookasideList"
+ - "FsRtlDeleteExtraCreateParameterLookasideList"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

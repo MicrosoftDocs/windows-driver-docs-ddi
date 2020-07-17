@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3D12DDI_SHADER_CAPS_0042 structure"]
 f1_keywords:
  - "d3d12umddi/D3D12DDI_SHADER_CAPS_0042"
+ - "D3D12DDI_SHADER_CAPS_0042"
 ms.keywords: D3D12DDI_SHADER_CAPS_0042, D3D12DDI_SHADER_CAPS_0042,
 req.header: d3d12umddi.h
 req.include-header:

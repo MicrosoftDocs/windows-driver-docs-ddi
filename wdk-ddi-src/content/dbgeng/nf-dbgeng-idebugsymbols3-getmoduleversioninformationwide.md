@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::GetModuleVersionInformationWide"]
 ms.keywords: GetModuleVersionInformationWide, GetModuleVersionInformationWide method [Windows Debugging], GetModuleVersionInformationWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetModuleVersionInformationWide method, IDebugSymbols3.GetModuleVersionInformationWide, IDebugSymbols3::GetModuleVersionInformationWide, dbgeng/IDebugSymbols3::GetModuleVersionInformationWide, debugger.getmoduleversioninformationwide
 f1_keywords:
  - "dbgeng/IDebugSymbols3.GetModuleVersionInformationWide"
+ - "IDebugSymbols3.GetModuleVersionInformationWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

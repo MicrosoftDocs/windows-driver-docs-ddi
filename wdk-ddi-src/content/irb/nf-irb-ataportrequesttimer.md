@@ -10,6 +10,7 @@ keywords: ["AtaPortRequestTimer function"]
 ms.keywords: AtaPortRequestTimer, AtaPortRequestTimer routine [Storage Devices], atartns_604a8d41-c918-4121-97ef-10d3a7fbf3b4.xml, irb/AtaPortRequestTimer, storage.ataportrequesttimer
 f1_keywords:
  - "irb/AtaPortRequestTimer"
+ - "AtaPortRequestTimer"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop

@@ -8,6 +8,7 @@ ms.date: 02/07/2018
 keywords: ["NetConfigurationAssignMultiString function"]
 f1_keywords:
  - "netconfiguration/NetConfigurationAssignMultiString"
+ - "NetConfigurationAssignMultiString"
 ms.keywords: NetConfigurationAssignMultiString
 req.header: netconfiguration.h
 req.include-header: netadaptercx.h

@@ -10,6 +10,7 @@ keywords: ["RtlFindSetBitsAndClear function"]
 ms.keywords: RtlFindSetBitsAndClear, RtlFindSetBitsAndClear routine [Kernel-Mode Driver Architecture], k109_a6043f35-d317-434a-93c1-1c44aa9e8cd4.xml, kernel.rtlfindsetbitsandclear, wdm/RtlFindSetBitsAndClear
 f1_keywords:
  - "wdm/RtlFindSetBitsAndClear"
+ - "RtlFindSetBitsAndClear"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

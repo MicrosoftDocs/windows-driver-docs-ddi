@@ -10,6 +10,7 @@ keywords: ["IDebugPlmClient3 interface"]
 ms.keywords: IDebugPlmClient3, IDebugPlmClient3 interface [Windows Debugging], IDebugPlmClient3 interface [Windows Debugging],described, dbgeng/IDebugPlmClient3, debugger.idebugplmclient3
 f1_keywords:
  - "dbgeng/IDebugPlmClient3"
+ - "IDebugPlmClient3"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

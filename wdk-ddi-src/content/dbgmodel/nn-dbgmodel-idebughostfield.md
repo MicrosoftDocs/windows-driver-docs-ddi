@@ -7,6 +7,7 @@ ms.date: 07/13/2018
 keywords: ["IDebugHostField interface"]
 f1_keywords:
  - "dbgmodel/IDebugHostField"
+ - "IDebugHostField"
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

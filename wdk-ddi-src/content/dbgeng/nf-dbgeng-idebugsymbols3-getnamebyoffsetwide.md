@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::GetNameByOffsetWide"]
 ms.keywords: GetNameByOffsetWide, GetNameByOffsetWide method [Windows Debugging], GetNameByOffsetWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetNameByOffsetWide method, IDebugSymbols3.GetNameByOffsetWide, IDebugSymbols3::GetNameByOffsetWide, dbgeng/IDebugSymbols3::GetNameByOffsetWide, debugger.getnamebyoffsetwide
 f1_keywords:
  - "dbgeng/IDebugSymbols3.GetNameByOffsetWide"
+ - "IDebugSymbols3.GetNameByOffsetWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

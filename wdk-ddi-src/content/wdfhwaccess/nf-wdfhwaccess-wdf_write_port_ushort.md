@@ -10,6 +10,7 @@ keywords: ["WDF_WRITE_PORT_USHORT function"]
 ms.keywords: WDF_WRITE_PORT_USHORT, WDF_WRITE_PORT_USHORT function, wdf.wdf_write_port_ushort, wdfhwaccess/WDF_WRITE_PORT_USHORT
 f1_keywords:
  - "wdfhwaccess/WDF_WRITE_PORT_USHORT"
+ - "WDF_WRITE_PORT_USHORT"
 req.header: wdfhwaccess.h
 req.include-header: 
 req.target-type: Universal

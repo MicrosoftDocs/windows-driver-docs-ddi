@@ -10,6 +10,7 @@ keywords: ["IOCTL_CAD_GET_BATTERY_PROVISIONING_STATUS IOCTL"]
 ms.keywords: IOCTL_CAD_GET_BATTERY_PROVISIONING_STATUS, IOCTL_CAD_GET_BATTERY_PROVISIONING_STATUS control, IOCTL_CAD_GET_BATTERY_PROVISIONING_STATUS control code [Battery Devices], battery.ioctl_cad_get_battery_provisioning_status, charging/IOCTL_CAD_GET_BATTERY_PROVISIONING_STATUS
 f1_keywords:
  - "charging/IOCTL_CAD_GET_BATTERY_PROVISIONING_STATUS"
+ - "IOCTL_CAD_GET_BATTERY_PROVISIONING_STATUS"
 req.header: charging.h
 req.include-header: 
 req.target-type: Windows

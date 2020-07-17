@@ -10,6 +10,7 @@ keywords: ["ObDereferenceObjectWithTag macro"]
 ms.keywords: ObDereferenceObjectWithTag, ObDereferenceObjectWithTag routine [Kernel-Mode Driver Architecture], k107_4a4d8579-6641-4d2a-9599-9ac39c25fd91.xml, kernel.obdereferenceobjectwithtag, wdm/ObDereferenceObjectWithTag
 f1_keywords:
  - "wdm/ObDereferenceObjectWithTag"
+ - "ObDereferenceObjectWithTag"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Desktop

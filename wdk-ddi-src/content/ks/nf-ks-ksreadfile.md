@@ -10,6 +10,7 @@ keywords: ["KsReadFile function"]
 ms.keywords: KsReadFile, KsReadFile function [Streaming Media Devices], ks/KsReadFile, ksfunc_9264bdad-2acc-46fe-9ca3-d006bf6c3e23.xml, stream.ksreadfile
 f1_keywords:
  - "ks/KsReadFile"
+ - "KsReadFile"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

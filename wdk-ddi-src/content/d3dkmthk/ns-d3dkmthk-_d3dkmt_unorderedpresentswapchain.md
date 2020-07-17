@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_UNORDEREDPRESENTSWAPCHAIN structure"]
 ms.keywords: D3DKMT_UNORDEREDPRESENTSWAPCHAIN, D3DKMT_UNORDEREDPRESENTSWAPCHAIN structure [Display Devices], _D3DKMT_UNORDEREDPRESENTSWAPCHAIN, d3dkmthk/D3DKMT_UNORDEREDPRESENTSWAPCHAIN, display.d3dkmt-unorderedpresentswapchain
 f1_keywords:
  - "d3dkmthk/D3DKMT_UNORDEREDPRESENTSWAPCHAIN"
+ - "D3DKMT_UNORDEREDPRESENTSWAPCHAIN"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type: Windows

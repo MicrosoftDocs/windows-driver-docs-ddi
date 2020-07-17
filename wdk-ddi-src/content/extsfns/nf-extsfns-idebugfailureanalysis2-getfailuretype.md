@@ -10,6 +10,7 @@ keywords: ["IDebugFailureAnalysis2::GetFailureType"]
 ms.keywords: GetFailureType, GetFailureType method [Windows Debugging], GetFailureType method [Windows Debugging],IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging],GetFailureType method, IDebugFailureAnalysis2.GetFailureType, IDebugFailureAnalysis2::GetFailureType, debugger.idebugfailureanalysis2_getfailuretype, extsfns/IDebugFailureAnalysis2::GetFailureType
 f1_keywords:
  - "extsfns/IDebugFailureAnalysis2.GetFailureType"
+ - "IDebugFailureAnalysis2.GetFailureType"
 req.header: extsfns.h
 req.include-header: 
 req.target-type: Desktop

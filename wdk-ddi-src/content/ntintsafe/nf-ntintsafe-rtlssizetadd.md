@@ -10,6 +10,7 @@ keywords: ["RtlSSIZETAdd function"]
 ms.keywords: RtlSSIZETAdd, RtlSSIZETAdd function [Kernel-Mode Driver Architecture], kernel.rtlssizetadd, ntintsafe/RtlSSIZETAdd
 f1_keywords:
  - "ntintsafe/RtlSSIZETAdd"
+ - "RtlSSIZETAdd"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

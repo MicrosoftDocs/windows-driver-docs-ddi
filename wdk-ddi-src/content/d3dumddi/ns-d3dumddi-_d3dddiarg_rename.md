@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_RENAME structure"]
 ms.keywords: D3DDDIARG_RENAME, D3DDDIARG_RENAME structure [Display Devices], UMDisplayDriver_param_Structs_5acf671e-94e3-4752-89c1-b3c9e33cba7a.xml, _D3DDDIARG_RENAME, d3dumddi/D3DDDIARG_RENAME, display.d3dddiarg_rename
 f1_keywords:
  - "d3dumddi/D3DDDIARG_RENAME"
+ - "D3DDDIARG_RENAME"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

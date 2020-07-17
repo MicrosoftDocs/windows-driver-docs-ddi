@@ -10,6 +10,7 @@ keywords: ["IWDFRemoteTarget::Start"]
 ms.keywords: IWDFRemoteTarget interface,Start method, IWDFRemoteTarget.Start, IWDFRemoteTarget::Start, Start, Start method, Start method,IWDFRemoteTarget interface, UMDFIoTargetObjectRef_8e44c1ab-5ce6-4c4a-a7dc-e9de4b10ba12.xml, umdf.iwdfremotetarget_start, wdf.iwdfremotetarget_start, wudfddi/IWDFRemoteTarget::Start
 f1_keywords:
  - "wudfddi/IWDFRemoteTarget.Start"
+ - "IWDFRemoteTarget.Start"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["_WDF_CALLBACK_CONSTRAINT enumeration"]
 ms.keywords: None, WDF_CALLBACK_CONSTRAINT, WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS, WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS enumeration, WdfDeviceLevel, WdfLevelReserved, _WDF_CALLBACK_CONSTRAINT, wdf.wdf_callback_constraint, wudfddi_types/None, wudfddi_types/WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS, wudfddi_types/WdfDeviceLevel, wudfddi_types/WdfLevelReserved
 f1_keywords:
  - "wudfddi_types/WDF_CALLBACK_CONSTRAINT"
+ - "WDF_CALLBACK_CONSTRAINT"
 req.header: wudfddi_types.h
 req.include-header: Wdf.h
 req.target-type: Windows

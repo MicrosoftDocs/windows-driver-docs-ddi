@@ -10,6 +10,7 @@ keywords: ["SeReleaseSubjectContext function"]
 ms.keywords: SeReleaseSubjectContext, SeReleaseSubjectContext routine [Installable File System Drivers], ifsk.sereleasesubjectcontext, ntifs/SeReleaseSubjectContext, seref_f46fe5d3-13d1-4907-85b4-47eb78116fe0.xml
 f1_keywords:
  - "ntifs/SeReleaseSubjectContext"
+ - "SeReleaseSubjectContext"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Wdm.h
 req.target-type: Universal

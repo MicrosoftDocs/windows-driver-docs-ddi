@@ -8,6 +8,7 @@ ms.date: 07/02/2018
 keywords: ["EVT_MBB_DEVICE_RECEIVE_MBIM_FRAGMENT callback function"]
 f1_keywords:
  - "mbbcx/EVT_MBB_DEVICE_RECEIVE_MBIM_FRAGMENT"
+ - "EVT_MBB_DEVICE_RECEIVE_MBIM_FRAGMENT"
 req.header: mbbcx.h
 req.include-header:
 req.target-type: Universal

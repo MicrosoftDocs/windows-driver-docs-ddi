@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_DEVICE_RESOURCES_QUERY callback function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_89ca471c-ee81-4799-9b58-410aedd12f87.xml, EVT_WDF_DEVICE_RESOURCES_QUERY, EVT_WDF_DEVICE_RESOURCES_QUERY callback, EvtDeviceResourcesQuery, EvtDeviceResourcesQuery callback function, kmdf.evtdeviceresourcesquery, wdf.evtdeviceresourcesquery, wdfpdo/EvtDeviceResourcesQuery
 f1_keywords:
  - "wdfpdo/EvtDeviceResourcesQuery"
+ - "EvtDeviceResourcesQuery"
 req.header: wdfpdo.h
 req.include-header: Wdf.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["FwpsQueryConnectionSioFormatRedirectRecords0 function"]
 ms.keywords: FwpsQueryConnectionSioFormatRedirectRecords0, FwpsQueryConnectionSioFormatRedirectRecords0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsQueryConnectionSioFormatRedirectRecords0, netvista.fwpsqueryconnectionsioformatredirectrecords0
 f1_keywords:
  - "fwpsk/FwpsQueryConnectionSioFormatRedirectRecords0"
+ - "FwpsQueryConnectionSioFormatRedirectRecords0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal

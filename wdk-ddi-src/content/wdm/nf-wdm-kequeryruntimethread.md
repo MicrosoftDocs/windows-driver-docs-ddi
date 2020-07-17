@@ -10,6 +10,7 @@ keywords: ["KeQueryRuntimeThread function"]
 ms.keywords: KeQueryRuntimeThread, KeQueryRuntimeThread routine [Kernel-Mode Driver Architecture], k105_e8f1a28f-98f1-447c-bb72-1d1da6b50f01.xml, kernel.kequeryruntimethread, wdm/KeQueryRuntimeThread
 f1_keywords:
  - "wdm/KeQueryRuntimeThread"
+ - "KeQueryRuntimeThread"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

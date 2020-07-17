@@ -10,6 +10,7 @@ keywords: ["DXGK_BRIGHTNESS_GET callback function"]
 ms.keywords: DXGK_BRIGHTNESS_GET, DXGK_BRIGHTNESS_GET callback, DmFunctions_be286481-7cef-4059-acb2-cac6554eb346.xml, DxgkDdiGetBrightness, DxgkDdiGetBrightness callback function [Display Devices], display.dxgkddigetbrightness, dispmprt/DxgkDdiGetBrightness
 f1_keywords:
  - "dispmprt/DxgkDdiGetBrightness"
+ - "DxgkDdiGetBrightness"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop

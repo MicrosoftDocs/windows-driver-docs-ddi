@@ -9,6 +9,7 @@ keywords: ["D3D11_1DDIARG_CREATEVIDEODECODER structure"]
 ms.keywords: D3D11_1DDIARG_CREATEVIDEODECODER, D3D11_1DDIARG_CREATEVIDEODECODER structure [Display Devices], d3d10umddi/D3D11_1DDIARG_CREATEVIDEODECODER, display.d3d11_1ddiarg_createvideodecoder
 f1_keywords:
  - "d3d10umddi/D3D11_1DDIARG_CREATEVIDEODECODER"
+ - "D3D11_1DDIARG_CREATEVIDEODECODER"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

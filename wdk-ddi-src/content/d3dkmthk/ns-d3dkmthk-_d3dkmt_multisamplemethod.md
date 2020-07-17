@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_MULTISAMPLEMETHOD structure"]
 ms.keywords: D3DKMT_MULTISAMPLEMETHOD, D3DKMT_MULTISAMPLEMETHOD structure [Display Devices], OpenGL_Structs_0617065f-aa53-4b1a-9a3f-e135972d4852.xml, _D3DKMT_MULTISAMPLEMETHOD, d3dkmthk/D3DKMT_MULTISAMPLEMETHOD, display.d3dkmt_multisamplemethod
 f1_keywords:
  - "d3dkmthk/D3DKMT_MULTISAMPLEMETHOD"
+ - "D3DKMT_MULTISAMPLEMETHOD"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["UdecxUsbDeviceInitFree function"]
 ms.keywords: UdecxUsbDeviceInitFree, UdecxUsbDeviceInitFree function [Buses], buses.udecxusbdeviceinitfree, udecxusbdevice/UdecxUsbDeviceInitFree
 f1_keywords:
  - "udecxusbdevice/UdecxUsbDeviceInitFree"
+ - "UdecxUsbDeviceInitFree"
 req.header: udecxusbdevice.h
 req.include-header: Udecx.h
 req.target-type: Windows

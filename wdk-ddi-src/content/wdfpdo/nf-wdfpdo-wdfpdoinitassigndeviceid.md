@@ -10,6 +10,7 @@ keywords: ["WdfPdoInitAssignDeviceID function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_c0885107-9e40-4c57-ab50-c757ea58b2f9.xml, WdfPdoInitAssignDeviceID, WdfPdoInitAssignDeviceID method, kmdf.wdfpdoinitassigndeviceid, wdf.wdfpdoinitassigndeviceid, wdfpdo/WdfPdoInitAssignDeviceID
 f1_keywords:
  - "wdfpdo/WdfPdoInitAssignDeviceID"
+ - "WdfPdoInitAssignDeviceID"
 req.header: wdfpdo.h
 req.include-header: Wdf.h
 req.target-type: Universal

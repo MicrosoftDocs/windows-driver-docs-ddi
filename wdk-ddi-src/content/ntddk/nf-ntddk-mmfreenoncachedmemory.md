@@ -10,6 +10,7 @@ keywords: ["MmFreeNonCachedMemory function"]
 ms.keywords: MmFreeNonCachedMemory, MmFreeNonCachedMemory routine [Kernel-Mode Driver Architecture], k106_29c317c1-955e-4d0c-9e65-e1aa511c7a8d.xml, kernel.mmfreenoncachedmemory, ntddk/MmFreeNonCachedMemory
 f1_keywords:
  - "ntddk/MmFreeNonCachedMemory"
+ - "MmFreeNonCachedMemory"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

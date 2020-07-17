@@ -10,6 +10,7 @@ keywords: ["FREE_FUNCTION_EX callback function"]
 ms.keywords: DrvrRtns_8e1790bd-6b06-4eed-afec-eb8055f2cbde.xml, FREE_FUNCTION_EX, LookasideListFreeEx, LookasideListFreeEx routine [Kernel-Mode Driver Architecture], kernel.lookasidelistfreeex, wdm/LookasideListFreeEx
 f1_keywords:
  - "wdm/LookasideListFreeEx"
+ - "LookasideListFreeEx"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

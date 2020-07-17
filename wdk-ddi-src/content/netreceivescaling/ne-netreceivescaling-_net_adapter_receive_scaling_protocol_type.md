@@ -8,6 +8,7 @@ ms.date: 03/07/2018
 keywords: ["_NET_ADAPTER_RECEIVE_SCALING_PROTOCOL_TYPE enumeration"]
 f1_keywords:
  - "netreceivescaling/_NET_ADAPTER_RECEIVE_SCALING_PROTOCOL_TYPE"
+ - "_NET_ADAPTER_RECEIVE_SCALING_PROTOCOL_TYPE"
 ms.keywords: _NET_ADAPTER_RECEIVE_SCALING_PROTOCOL_TYPE, NET_ADAPTER_RECEIVE_SCALING_PROTOCOL_TYPE, 
 req.header: netreceivescaling.h
 req.include-header:

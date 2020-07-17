@@ -10,6 +10,7 @@ keywords: ["RtlIsStateSeparationEnabled function"]
 ms.keywords: RtlIsStateSeparationEnabled, RtlIsStateSeparationEnabled function [Kernel-Mode Driver Architecture], kernel.rtlisstateseparationenabled, ntddk/RtlIsStateSeparationEnabled
 f1_keywords:
  - "ntddk/RtlIsStateSeparationEnabled"
+ - "RtlIsStateSeparationEnabled"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows

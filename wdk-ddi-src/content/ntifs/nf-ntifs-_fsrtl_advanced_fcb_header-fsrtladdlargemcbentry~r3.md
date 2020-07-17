@@ -10,6 +10,7 @@ keywords: ["FsRtlAddLargeMcbEntry function"]
 ms.keywords: FsRtlAddLargeMcbEntry, FsRtlAddLargeMcbEntry routine [Installable File System Drivers], fsrtlref_de8b7789-cdba-4535-b2b9-bbc29add7fc6.xml, ifsk.fsrtladdlargemcbentry, ntifs/FsRtlAddLargeMcbEntry
 f1_keywords:
  - "ntifs/FsRtlAddLargeMcbEntry"
+ - "FsRtlAddLargeMcbEntry"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

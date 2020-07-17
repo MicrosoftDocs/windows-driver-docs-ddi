@@ -10,6 +10,7 @@ keywords: ["SKIP_AMOUNT enumeration"]
 ms.keywords: SKIP_AMOUNT, SKIP_AMOUNT enumeration [Imaging Devices], SKIP_BOTHHDR, SKIP_FILEHDR, SKIP_OFF, image.skip_amount, wiauFncs_8f521aa0-0663-4f84-a9c9-91747fcb13e8.xml, wiautil/SKIP_AMOUNT, wiautil/SKIP_BOTHHDR, wiautil/SKIP_FILEHDR, wiautil/SKIP_OFF
 f1_keywords:
  - "wiautil/SKIP_AMOUNT"
+ - "SKIP_AMOUNT"
 req.header: wiautil.h
 req.include-header: Wiautil.h, Wiamindr.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["RILOPERATORNAMES structure"]
 ms.keywords: "*LPRILOPERATORNAMES, RILOPERATORNAMES, RILOPERATORNAMES structure [Network Drivers Starting with Windows Vista], netvista.riloperatornames_2, rilapitypes/RILOPERATORNAMES"
 f1_keywords:
  - "rilapitypes/RILOPERATORNAMES"
+ - "RILOPERATORNAMES"
 req.header: rilapitypes.h
 req.include-header:
 req.target-type: Windows

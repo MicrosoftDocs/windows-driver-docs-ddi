@@ -10,6 +10,7 @@ keywords: ["imp_WppRecorderGetTriageInfo function"]
 ms.keywords: devtest.wpprecordergettriageinfo, imp_WppRecorderGetTriageInfo, imp_WppRecorderGetTriageInfo function [Driver Development Tools], wpprecorder/imp_WppRecorderGetTriageInfo
 f1_keywords:
  - "wpprecorder/imp_WppRecorderGetTriageInfo"
+ - "imp_WppRecorderGetTriageInfo"
 req.header: wpprecorder.h
 req.include-header: 
 req.target-type: Desktop

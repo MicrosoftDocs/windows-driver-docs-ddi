@@ -10,6 +10,7 @@ keywords: ["IPrinterBidiSetRequestCallback interface"]
 ms.keywords: IPrinterBidiSetRequestCallback, IPrinterBidiSetRequestCallback interface [Print Devices], IPrinterBidiSetRequestCallback interface [Print Devices],described, print.iprinterbidisetrequestcallback, printerextension/IPrinterBidiSetRequestCallback
 f1_keywords:
  - "printerextension/IPrinterBidiSetRequestCallback"
+ - "IPrinterBidiSetRequestCallback"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

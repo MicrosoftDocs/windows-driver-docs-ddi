@@ -10,6 +10,7 @@ keywords: ["_GET_BAND_METADATA_PARAMETERS structure"]
 ms.keywords: "*PGET_BAND_METADATA_PARAMETERS, GET_BAND_METADATA_PARAMETERS, GET_BAND_METADATA_PARAMETERS structure [Storage Devices], PGET_BAND_METADATA_PARAMETERS, PGET_BAND_METADATA_PARAMETERS structure pointer [Storage Devices], _GET_BAND_METADATA_PARAMETERS, ehstorbandmgmt/GET_BAND_METADATA_PARAMETERS, ehstorbandmgmt/PGET_BAND_METADATA_PARAMETERS, storage.get_band_metadata_parameters"
 f1_keywords:
  - "ehstorbandmgmt/GET_BAND_METADATA_PARAMETERS"
+ - "GET_BAND_METADATA_PARAMETERS"
 req.header: ehstorbandmgmt.h
 req.include-header: EhStorBandMgmt.h
 req.target-type: Windows

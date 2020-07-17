@@ -10,6 +10,7 @@ keywords: ["IPrintOemUni2::WritePrinter"]
 ms.keywords: IPrintOemUni2 interface [Print Devices],WritePrinter method, IPrintOemUni2.WritePrinter, IPrintOemUni2::WritePrinter, WritePrinter, WritePrinter method [Print Devices], WritePrinter method [Print Devices],IPrintOemUni2 interface, prcomoem/IPrintOemUni2::WritePrinter, print.iprintoemuni2_writeprinter, print_unidrv-pscript_rendering_8dfd9075-d0a9-451b-bb31-9e1a55c16c1c.xml
 f1_keywords:
  - "prcomoem/IPrintOemUni2.WritePrinter"
+ - "IPrintOemUni2.WritePrinter"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop

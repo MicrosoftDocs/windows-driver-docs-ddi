@@ -10,6 +10,7 @@ keywords: ["VideoPortGetMdl function"]
 ms.keywords: VideoPortGetMdl, VideoPortGetMdl function [Display Devices], VideoPort_Functions_570b04cd-9b69-4d1a-b953-7220d4fc7790.xml, display.videoportgetmdl, video/VideoPortGetMdl
 f1_keywords:
  - "video/VideoPortGetMdl"
+ - "VideoPortGetMdl"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

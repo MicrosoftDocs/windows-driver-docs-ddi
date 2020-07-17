@@ -10,6 +10,7 @@ keywords: ["_FLT_TAG_DATA_BUFFER structure"]
 ms.keywords: "*PFLT_TAG_DATA_BUFFER, FLT_TAG_DATA_BUFFER, FLT_TAG_DATA_BUFFER structure [Installable File System Drivers], FltSystemStructures_47092b0b-5a4b-40eb-8b5f-f0a182d5e509.xml, PFLT_TAG_DATA_BUFFER, PFLT_TAG_DATA_BUFFER structure pointer [Installable File System Drivers], _FLT_TAG_DATA_BUFFER, fltkernel/FLT_TAG_DATA_BUFFER, fltkernel/PFLT_TAG_DATA_BUFFER, ifsk.flt_tag_data_buffer"
 f1_keywords:
  - "fltkernel/FLT_TAG_DATA_BUFFER"
+ - "FLT_TAG_DATA_BUFFER"
 req.header: fltkernel.h
 req.include-header: FltKernel.h
 req.target-type: Windows

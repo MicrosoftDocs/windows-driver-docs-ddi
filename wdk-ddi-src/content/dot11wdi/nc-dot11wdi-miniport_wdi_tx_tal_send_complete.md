@@ -10,6 +10,7 @@ keywords: ["MINIPORT_WDI_TX_TAL_SEND_COMPLETE callback function"]
 ms.keywords: MINIPORT_WDI_TX_TAL_SEND_COMPLETE, MINIPORT_WDI_TX_TAL_SEND_COMPLETE callback, MiniportWdiTxTalSendComplete, MiniportWdiTxTalSendComplete callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTxTalSendComplete, netvista.miniportwditxtalsendcomplete
 f1_keywords:
  - "dot11wdi/MiniportWdiTxTalSendComplete"
+ - "MiniportWdiTxTalSendComplete"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows

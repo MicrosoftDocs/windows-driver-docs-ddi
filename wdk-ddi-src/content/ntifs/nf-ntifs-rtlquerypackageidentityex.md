@@ -12,6 +12,7 @@ ms.keywords: RtlQueryPackageIdentityEx
 req.header: ntifs.h
 f1_keywords:
  - "ntifs/RtlQueryPackageIdentityEx"
+ - "RtlQueryPackageIdentityEx"
 req.include-header:
 req.target-type:
 req.target-min-winverclnt: Available on Windows 8.1 and later versions

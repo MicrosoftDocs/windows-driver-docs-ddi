@@ -10,6 +10,7 @@ keywords: ["_MSFC_NPIVLUNMappingInformation structure"]
 ms.keywords: "*PMSFC_NPIVLUNMappingInformation, MSFC_NPIVLUNMappingInformation, MSFC_NPIVLUNMappingInformation structure [Storage Devices], PMSFC_NPIVLUNMappingInformation, PMSFC_NPIVLUNMappingInformation structure pointer [Storage Devices], _MSFC_NPIVLUNMappingInformation, npivwmi/MSFC_NPIVLUNMappingInformation, npivwmi/PMSFC_NPIVLUNMappingInformation, storage.msfc_npivlunmappinginformation"
 f1_keywords:
  - "npivwmi/MSFC_NPIVLUNMappingInformation"
+ - "MSFC_NPIVLUNMappingInformation"
 req.header: npivwmi.h
 req.include-header: Npivwmi.h
 req.target-type: Windows

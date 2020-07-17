@@ -10,6 +10,7 @@ keywords: ["_DXGKMDT_OPM_SET_PROTECTION_LEVEL_PARAMETERS structure"]
 ms.keywords: DXGKMDT_OPM_SET_PROTECTION_LEVEL_PARAMETERS, DXGKMDT_OPM_SET_PROTECTION_LEVEL_PARAMETERS structure [Display Devices], DmStructs_9d43af01-039a-4f68-8583-b42ae54a5bbe.xml, _DXGKMDT_OPM_SET_PROTECTION_LEVEL_PARAMETERS, d3dkmdt/DXGKMDT_OPM_SET_PROTECTION_LEVEL_PARAMETERS, display.dxgkmdt_opm_set_protection_level_parameters
 f1_keywords:
  - "d3dkmdt/DXGKMDT_OPM_SET_PROTECTION_LEVEL_PARAMETERS"
+ - "DXGKMDT_OPM_SET_PROTECTION_LEVEL_PARAMETERS"
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
 req.target-type: Windows

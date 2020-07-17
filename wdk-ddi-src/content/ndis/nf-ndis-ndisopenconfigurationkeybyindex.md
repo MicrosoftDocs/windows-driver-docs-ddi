@@ -10,6 +10,7 @@ keywords: ["NdisOpenConfigurationKeyByIndex function"]
 ms.keywords: NdisOpenConfigurationKeyByIndex, NdisOpenConfigurationKeyByIndex function [Network Drivers Starting with Windows Vista], ndis/NdisOpenConfigurationKeyByIndex, ndis_configuration_ref_71c37932-c758-475c-9c84-c176c6c40cf8.xml, netvista.ndisopenconfigurationkeybyindex
 f1_keywords:
  - "ndis/NdisOpenConfigurationKeyByIndex"
+ - "NdisOpenConfigurationKeyByIndex"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

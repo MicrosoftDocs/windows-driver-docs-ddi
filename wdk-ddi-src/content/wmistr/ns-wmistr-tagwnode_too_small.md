@@ -10,6 +10,7 @@ keywords: ["tagWNODE_TOO_SMALL structure"]
 ms.keywords: "*PWNODE_TOO_SMALL, PWNODE_TOO_SMALL, PWNODE_TOO_SMALL structure pointer [Kernel-Mode Driver Architecture], WNODE_TOO_SMALL, WNODE_TOO_SMALL structure [Kernel-Mode Driver Architecture], kernel.wnode_too_small, kstruct_d_dcabaeb1-21d1-4cbe-a3ea-c6022e57e4b9.xml, tagWNODE_TOO_SMALL, wmistr/PWNODE_TOO_SMALL, wmistr/WNODE_TOO_SMALL"
 f1_keywords:
  - "wmistr/WNODE_TOO_SMALL"
+ - "WNODE_TOO_SMALL"
 req.header: wmistr.h
 req.include-header: Wmistr.h
 req.target-type: Windows

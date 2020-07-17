@@ -7,6 +7,7 @@ ms.date: 09/28/2018
 keywords: ["GetOffset function"]
 f1_keywords:
  - "dbgmodel/GetOffset"
+ - "GetOffset"
 ms.keywords: GetOffset
 req.header: dbgmodel.h
 req.include-header:

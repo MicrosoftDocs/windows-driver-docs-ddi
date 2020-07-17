@@ -10,6 +10,7 @@ keywords: ["TmCommitComplete function"]
 ms.keywords: TmCommitComplete, TmCommitComplete routine [Kernel-Mode Driver Architecture], kernel.tmcommitcomplete, ktm_ref_e6357c60-303b-4d42-a0a2-1ff3766acbb9.xml, wdm/TmCommitComplete
 f1_keywords:
  - "wdm/TmCommitComplete"
+ - "TmCommitComplete"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

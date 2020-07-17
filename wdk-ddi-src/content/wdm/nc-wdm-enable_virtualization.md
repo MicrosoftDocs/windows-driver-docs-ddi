@@ -10,6 +10,7 @@ keywords: ["ENABLE_VIRTUALIZATION callback"]
 ms.keywords: ENABLE_VIRTUALIZATION, EnableVirtualization, EnableVirtualization routine, PCI.enablevirtualization, wdm/EnableVirtualization
 f1_keywords:
  - "wdm/EnableVirtualization"
+ - "EnableVirtualization"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop

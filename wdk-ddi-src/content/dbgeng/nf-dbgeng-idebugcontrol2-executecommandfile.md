@@ -10,6 +10,7 @@ keywords: ["IDebugControl2::ExecuteCommandFile"]
 ms.keywords: ExecuteCommandFile, ExecuteCommandFile method [Windows Debugging], ExecuteCommandFile method [Windows Debugging],IDebugControl interface, ExecuteCommandFile method [Windows Debugging],IDebugControl2 interface, ExecuteCommandFile method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],ExecuteCommandFile method, IDebugControl2 interface [Windows Debugging],ExecuteCommandFile method, IDebugControl2.ExecuteCommandFile, IDebugControl2::ExecuteCommandFile, IDebugControl3 interface [Windows Debugging],ExecuteCommandFile method, IDebugControl3::ExecuteCommandFile, IDebugControl::ExecuteCommandFile, IDebugControl_61c4589a-321e-4574-8565-87bdc7b36a73.xml, dbgeng/IDebugControl2::ExecuteCommandFile, dbgeng/IDebugControl3::ExecuteCommandFile, dbgeng/IDebugControl::ExecuteCommandFile, debugger.executecommandfile
 f1_keywords:
  - "dbgeng/IDebugControl.ExecuteCommandFile"
+ - "IDebugControl.ExecuteCommandFile"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

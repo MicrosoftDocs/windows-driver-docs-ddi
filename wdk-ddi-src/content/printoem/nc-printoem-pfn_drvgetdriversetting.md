@@ -10,6 +10,7 @@ keywords: ["PFN_DrvGetDriverSetting callback function"]
 ms.keywords: DrvGetDriverSetting, DrvGetDriverSetting callback function [Print Devices], PFN_DrvGetDriverSetting, PFN_DrvGetDriverSetting callback, print.drvgetdriversetting, print_obsoletefunctions_655cde75-fc70-4d6c-a7b4-8eb1e068ebd9.xml, printoem/DrvGetDriverSetting
 f1_keywords:
  - "printoem/DrvGetDriverSetting"
+ - "DrvGetDriverSetting"
 req.header: printoem.h
 req.include-header: 
 req.target-type: Windows

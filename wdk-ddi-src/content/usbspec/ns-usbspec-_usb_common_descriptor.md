@@ -10,6 +10,7 @@ keywords: ["_USB_COMMON_DESCRIPTOR structure"]
 ms.keywords: "*PUSB_COMMON_DESCRIPTOR, PUSB_COMMON_DESCRIPTOR, PUSB_COMMON_DESCRIPTOR structure pointer [Buses], USB_COMMON_DESCRIPTOR, USB_COMMON_DESCRIPTOR structure [Buses], _USB_COMMON_DESCRIPTOR, buses.usb_common_descriptor, usbspec/PUSB_COMMON_DESCRIPTOR, usbspec/USB_COMMON_DESCRIPTOR, usbstrct_be74945b-60a4-44cc-9c7b-e1eb5cc25525.xml"
 f1_keywords:
  - "usbspec/USB_COMMON_DESCRIPTOR"
+ - "USB_COMMON_DESCRIPTOR"
 req.header: usbspec.h
 req.include-header: Usb100.h
 req.target-type: Windows

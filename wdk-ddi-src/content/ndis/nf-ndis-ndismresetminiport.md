@@ -10,6 +10,7 @@ keywords: ["NdisMResetMiniport function"]
 ms.keywords: NdisMResetMiniport, NdisMResetMiniport function [Network Drivers Starting with Windows Vista], ndis/NdisMResetMiniport, netvista.ndismresetminiport
 f1_keywords:
  - "ndis/NdisMResetMiniport"
+ - "NdisMResetMiniport"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

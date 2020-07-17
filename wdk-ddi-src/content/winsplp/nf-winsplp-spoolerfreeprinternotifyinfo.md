@@ -10,6 +10,7 @@ keywords: ["SpoolerFreePrinterNotifyInfo function"]
 ms.keywords: SpoolerFreePrinterNotifyInfo, SpoolerFreePrinterNotifyInfo function [Print Devices], print.spoolerfreeprinternotifyinfo, winsplp/SpoolerFreePrinterNotifyInfo
 f1_keywords:
  - "winsplp/SpoolerFreePrinterNotifyInfo"
+ - "SpoolerFreePrinterNotifyInfo"
 req.header: winsplp.h
 req.include-header: 
 req.target-type: Windows

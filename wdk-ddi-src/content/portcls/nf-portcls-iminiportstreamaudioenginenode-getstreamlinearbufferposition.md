@@ -10,6 +10,7 @@ keywords: ["IMiniportStreamAudioEngineNode::GetStreamLinearBufferPosition"]
 ms.keywords: GetStreamLinearBufferPosition, GetStreamLinearBufferPosition method [Audio Devices], GetStreamLinearBufferPosition method [Audio Devices],IMiniportStreamAudioEngineNode interface, IMiniportStreamAudioEngineNode interface [Audio Devices],GetStreamLinearBufferPosition method, IMiniportStreamAudioEngineNode.GetStreamLinearBufferPosition, IMiniportStreamAudioEngineNode::GetStreamLinearBufferPosition, audio.iminiportstreamaudioenginenode_getstreamlinearbufferposition, portcls/IMiniportStreamAudioEngineNode::GetStreamLinearBufferPosition
 f1_keywords:
  - "portcls/IMiniportStreamAudioEngineNode.GetStreamLinearBufferPosition"
+ - "IMiniportStreamAudioEngineNode.GetStreamLinearBufferPosition"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal

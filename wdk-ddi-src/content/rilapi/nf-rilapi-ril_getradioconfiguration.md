@@ -10,6 +10,7 @@ keywords: ["RIL_GetRadioConfiguration function"]
 ms.keywords: RIL_GetRadioConfiguration, RIL_GetRadioConfiguration method [Network Drivers Starting with Windows Vista], netvista.ril_getradioconfiguration, rilapi/RIL_GetRadioConfiguration
 f1_keywords:
  - "rilapi/RIL_GetRadioConfiguration"
+ - "RIL_GetRadioConfiguration"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

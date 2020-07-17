@@ -10,6 +10,7 @@ keywords: ["IoReleaseVpbSpinLock function"]
 ms.keywords: IoReleaseVpbSpinLock, IoReleaseVpbSpinLock routine [Installable File System Drivers], ifsk.ioreleasevpbspinlock, ioref_6ccdef5f-9874-4e93-8d91-a05b80d5cecf.xml, ntifs/IoReleaseVpbSpinLock
 f1_keywords:
  - "ntifs/IoReleaseVpbSpinLock"
+ - "IoReleaseVpbSpinLock"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

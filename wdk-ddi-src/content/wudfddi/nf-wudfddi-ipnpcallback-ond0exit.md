@@ -10,6 +10,7 @@ keywords: ["IPnpCallback::OnD0Exit"]
 ms.keywords: IPnpCallback interface,OnD0Exit method, IPnpCallback.OnD0Exit, IPnpCallback::OnD0Exit, OnD0Exit, OnD0Exit method, OnD0Exit method,IPnpCallback interface, UMDFDeviceObjectRef_4c9ce2f7-92c8-4e0b-80fe-cfb06d1be83a.xml, umdf.ipnpcallback_ond0exit, wdf.ipnpcallback_ond0exit, wudfddi/IPnpCallback::OnD0Exit
 f1_keywords:
  - "wudfddi/IPnpCallback.OnD0Exit"
+ - "IPnpCallback.OnD0Exit"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["_VPCI_PNP_ID structure"]
 ms.keywords: "*PVPCI_PNP_ID, PCI.vpci_pnp_id, VPCI_PNP_ID, VPCI_PNP_ID structure [Buses], _VPCI_PNP_ID, pcivirt/VPCI_PNP_ID"
 f1_keywords:
  - "pcivirt/VPCI_PNP_ID"
+ - "VPCI_PNP_ID"
 req.header: pcivirt.h
 req.include-header:
 req.target-type: Windows

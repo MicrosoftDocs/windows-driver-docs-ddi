@@ -10,6 +10,7 @@ keywords: ["IDebugControl4::RemoveBreakpoint2"]
 ms.keywords: IDebugControl4 interface [Windows Debugging],RemoveBreakpoint2 method, IDebugControl4.RemoveBreakpoint2, IDebugControl4::RemoveBreakpoint2, RemoveBreakpoint2, RemoveBreakpoint2 method [Windows Debugging], RemoveBreakpoint2 method [Windows Debugging],IDebugControl4 interface, dbgeng/IDebugControl4::RemoveBreakpoint2, debugger.removebreakpoint2
 f1_keywords:
  - "dbgeng/IDebugControl4.RemoveBreakpoint2"
+ - "IDebugControl4.RemoveBreakpoint2"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

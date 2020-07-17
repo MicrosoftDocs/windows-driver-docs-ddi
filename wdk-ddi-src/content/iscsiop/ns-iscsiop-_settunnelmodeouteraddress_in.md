@@ -10,6 +10,7 @@ keywords: ["_SetTunnelModeOuterAddress_IN structure"]
 ms.keywords: "*PSetTunnelModeOuterAddress_IN, PSetTunnelModeOuterAddress_IN, PSetTunnelModeOuterAddress_IN structure pointer [Storage Devices], SetTunnelModeOuterAddress_IN, SetTunnelModeOuterAddress_IN structure [Storage Devices], _SetTunnelModeOuterAddress_IN, iscsiop/PSetTunnelModeOuterAddress_IN, iscsiop/SetTunnelModeOuterAddress_IN, storage.settunnelmodeouteraddress_in, structs-iSCSI_d86148f6-e3d0-42b3-9e1d-3f341545f0b8.xml"
 f1_keywords:
  - "iscsiop/SetTunnelModeOuterAddress_IN"
+ - "SetTunnelModeOuterAddress_IN"
 req.header: iscsiop.h
 req.include-header: Iscsiop.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["IOCTL_SMARTCARD_IS_ABSENT IOCTL"]
 ms.keywords: IOCTL_SMARTCARD_IS_ABSENT, IOCTL_SMARTCARD_IS_ABSENT control, IOCTL_SMARTCARD_IS_ABSENT control code [Near-Field Proximity Drivers], nfpdrivers.ioctl_smartcard_is_absent, winsmcrd/IOCTL_SMARTCARD_IS_ABSENT
 f1_keywords:
  - "winsmcrd/IOCTL_SMARTCARD_IS_ABSENT"
+ - "IOCTL_SMARTCARD_IS_ABSENT"
 req.header: winsmcrd.h
 req.include-header: 
 req.target-type: Windows

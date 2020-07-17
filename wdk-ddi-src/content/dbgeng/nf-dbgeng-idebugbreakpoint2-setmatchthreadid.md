@@ -10,6 +10,7 @@ keywords: ["IDebugBreakpoint2::SetMatchThreadId"]
 ms.keywords: ComOther_5100cd0c-7d69-4210-9d32-ca1e9bd321aa.xml, IDebugBreakpoint interface [Windows Debugging],SetMatchThreadId method, IDebugBreakpoint2 interface [Windows Debugging],SetMatchThreadId method, IDebugBreakpoint2.SetMatchThreadId, IDebugBreakpoint2::SetMatchThreadId, IDebugBreakpoint::SetMatchThreadId, SetMatchThreadId, SetMatchThreadId method [Windows Debugging], SetMatchThreadId method [Windows Debugging],IDebugBreakpoint interface, SetMatchThreadId method [Windows Debugging],IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint2::SetMatchThreadId, dbgeng/IDebugBreakpoint::SetMatchThreadId, debugger.setmatchthreadid
 f1_keywords:
  - "dbgeng/IDebugBreakpoint.SetMatchThreadId"
+ - "IDebugBreakpoint.SetMatchThreadId"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

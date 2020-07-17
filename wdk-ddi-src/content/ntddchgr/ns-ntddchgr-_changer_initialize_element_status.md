@@ -10,6 +10,7 @@ keywords: ["_CHANGER_INITIALIZE_ELEMENT_STATUS structure"]
 ms.keywords: "*PCHANGER_INITIALIZE_ELEMENT_STATUS, CHANGER_INITIALIZE_ELEMENT_STATUS, CHANGER_INITIALIZE_ELEMENT_STATUS structure [Storage Devices], PCHANGER_INITIALIZE_ELEMENT_STATUS, PCHANGER_INITIALIZE_ELEMENT_STATUS structure pointer [Storage Devices], _CHANGER_INITIALIZE_ELEMENT_STATUS, ntddchgr/CHANGER_INITIALIZE_ELEMENT_STATUS, ntddchgr/PCHANGER_INITIALIZE_ELEMENT_STATUS, storage.changer_initialize_element_status, structs-changer_94235bd7-09e6-47a1-b30c-0d5d12ca7917.xml"
 f1_keywords:
  - "ntddchgr/CHANGER_INITIALIZE_ELEMENT_STATUS"
+ - "CHANGER_INITIALIZE_ELEMENT_STATUS"
 req.header: ntddchgr.h
 req.include-header: 
 req.target-type: Windows

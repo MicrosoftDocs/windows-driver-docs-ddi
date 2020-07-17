@@ -9,6 +9,7 @@ keywords: ["D3DKMTCreateContext function"]
 ms.keywords: D3DKMTCreateContext, D3DKMTCreateContext callback function [Display Devices], OpenGL_Functions_ee92f6d8-b9af-4171-a628-e686f190a370.xml, PFND3DKMT_CREATECONTEXT, PFND3DKMT_CREATECONTEXT callback, d3dkmthk/D3DKMTCreateContext, display.d3dkmtcreatecontext
 f1_keywords:
  - "d3dkmthk/D3DKMTCreateContext"
+ - "D3DKMTCreateContext"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

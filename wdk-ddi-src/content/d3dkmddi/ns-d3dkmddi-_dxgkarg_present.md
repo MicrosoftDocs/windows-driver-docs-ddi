@@ -9,6 +9,7 @@ keywords: ["_DXGKARG_PRESENT structure"]
 ms.keywords: "*INOUT_PDXGKARG_PRESENT, DXGKARG_PRESENT, DXGKARG_PRESENT structure [Display Devices], DmStructs_cbe9fbba-047c-468e-bb52-0f90c4e2b75c.xml, _DXGKARG_PRESENT, d3dkmddi/DXGKARG_PRESENT, display.dxgkarg_present"
 f1_keywords:
  - "d3dkmddi/DXGKARG_PRESENT"
+ - "DXGKARG_PRESENT"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

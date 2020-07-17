@@ -10,6 +10,7 @@ keywords: ["WdmlibIoCreateDeviceSecure function"]
 ms.keywords: IoCreateDeviceSecure, WdmlibIoCreateDeviceSecure, WdmlibIoCreateDeviceSecure function [Kernel-Mode Driver Architecture], kernel.wdmlibiocreatedevicesecure, wdmsec/IoCreateDeviceSecure, wdmsec/WdmlibIoCreateDeviceSecure
 f1_keywords:
  - "wdmsec/WdmlibIoCreateDeviceSecure"
+ - "WdmlibIoCreateDeviceSecure"
 req.header: wdmsec.h
 req.include-header: Wdmsec.h
 req.target-type: Desktop

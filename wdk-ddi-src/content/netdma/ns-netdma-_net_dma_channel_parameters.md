@@ -10,6 +10,7 @@ keywords: ["_NET_DMA_CHANNEL_PARAMETERS structure"]
 ms.keywords: "*PNET_DMA_CHANNEL_PARAMETERS, NET_DMA_CHANNEL_PARAMETERS, NET_DMA_CHANNEL_PARAMETERS structure [Network Drivers Starting with Windows Vista], NetDmaTransferStatusActive, NetDmaTransferStatusArmed, NetDmaTransferStatusHalted, NetDmaTransferStatusIdle, NetDmaTransferStatusSuspend, PNET_DMA_CHANNEL_PARAMETERS, PNET_DMA_CHANNEL_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NET_DMA_CHANNEL_PARAMETERS, netdma/NET_DMA_CHANNEL_PARAMETERS, netdma/PNET_DMA_CHANNEL_PARAMETERS, netdma_ref_021ebc64-529e-4588-b5ff-83ed04aa9478.xml, netvista.net_dma_channel_parameters"
 f1_keywords:
  - "netdma/NET_DMA_CHANNEL_PARAMETERS"
+ - "NET_DMA_CHANNEL_PARAMETERS"
 req.header: netdma.h
 req.include-header: Netdma.h
 req.target-type: Windows

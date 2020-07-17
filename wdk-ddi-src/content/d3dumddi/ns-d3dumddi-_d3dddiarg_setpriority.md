@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_SETPRIORITY structure"]
 ms.keywords: D3DDDIARG_SETPRIORITY, D3DDDIARG_SETPRIORITY structure [Display Devices], UMDisplayDriver_param_Structs_e416cff1-5cad-4488-a3e2-ea0b42a7cd81.xml, _D3DDDIARG_SETPRIORITY, d3dumddi/D3DDDIARG_SETPRIORITY, display.d3dddiarg_setpriority
 f1_keywords:
  - "d3dumddi/D3DDDIARG_SETPRIORITY"
+ - "D3DDDIARG_SETPRIORITY"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

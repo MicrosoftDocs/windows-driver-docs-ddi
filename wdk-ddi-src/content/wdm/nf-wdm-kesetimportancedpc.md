@@ -10,6 +10,7 @@ keywords: ["KeSetImportanceDpc function"]
 ms.keywords: KeSetImportanceDpc, KeSetImportanceDpc routine [Kernel-Mode Driver Architecture], k105_dc95afd2-5be3-4d48-a99f-0a9f2d8dab9b.xml, kernel.kesetimportancedpc, wdm/KeSetImportanceDpc
 f1_keywords:
  - "wdm/KeSetImportanceDpc"
+ - "KeSetImportanceDpc"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

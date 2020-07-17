@@ -10,6 +10,7 @@ keywords: ["ExtRemoteData::GetUshort"]
 ms.keywords: EngExtCpp_Ref_5429785d-2f76-434d-96c6-4fa7298aa32e.xml, ExtRemoteData class [Windows Debugging],GetUshort method, ExtRemoteData.GetUshort, ExtRemoteData::GetUshort, GetUshort, GetUshort method [Windows Debugging], GetUshort method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_getushort
 f1_keywords:
  - "engextcpp/ExtRemoteData.GetUshort"
+ - "ExtRemoteData.GetUshort"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop

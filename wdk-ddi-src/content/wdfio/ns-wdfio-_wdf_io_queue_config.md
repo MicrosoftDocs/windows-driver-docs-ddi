@@ -10,6 +10,7 @@ keywords: ["_WDF_IO_QUEUE_CONFIG structure"]
 ms.keywords: "*PWDF_IO_QUEUE_CONFIG, DFQueueObjectRef_5fda62f6-b76d-4691-9354-e091af8a5567.xml, PWDF_IO_QUEUE_CONFIG, PWDF_IO_QUEUE_CONFIG structure pointer, WDF_IO_QUEUE_CONFIG, WDF_IO_QUEUE_CONFIG structure, _WDF_IO_QUEUE_CONFIG, kmdf.wdf_io_queue_config, wdf.wdf_io_queue_config, wdfio/PWDF_IO_QUEUE_CONFIG, wdfio/WDF_IO_QUEUE_CONFIG"
 f1_keywords:
  - "wdfio/WDF_IO_QUEUE_CONFIG"
+ - "WDF_IO_QUEUE_CONFIG"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Windows

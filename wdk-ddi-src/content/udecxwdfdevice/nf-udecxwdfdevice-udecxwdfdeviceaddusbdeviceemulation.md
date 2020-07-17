@@ -10,6 +10,7 @@ keywords: ["UdecxWdfDeviceAddUsbDeviceEmulation function"]
 ms.keywords: UdecxWdfDeviceAddUsbDeviceEmulation, UdecxWdfDeviceAddUsbDeviceEmulation function [Buses], buses.udecxwdfdeviceaddusbdeviceemulation, udecxwdfdevice/UdecxWdfDeviceAddUsbDeviceEmulation
 f1_keywords:
  - "udecxwdfdevice/UdecxWdfDeviceAddUsbDeviceEmulation"
+ - "UdecxWdfDeviceAddUsbDeviceEmulation"
 req.header: udecxwdfdevice.h
 req.include-header: Udecx.h
 req.target-type: Windows

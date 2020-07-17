@@ -9,6 +9,7 @@ keywords: ["PFND3D12DDI_SETVIEWINSTANCEMASK_0033 callback function"]
 ms.keywords: PFND3D12DDI_SETVIEWINSTANCEMASK_0033, PFND3D12DDI_SETVIEWINSTANCEMASK_0033 callback, PFND3D12DDI_SETVIEWINSTANCEMASK_0033 callback function [Display Devices], d3d12umddi/PFND3D12DDI_SETVIEWINSTANCEMASK_0033, display.pfnd3d12ddi_setviewinstancemask_0033
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_SETVIEWINSTANCEMASK_0033"
+ - "PFND3D12DDI_SETVIEWINSTANCEMASK_0033"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type: Windows

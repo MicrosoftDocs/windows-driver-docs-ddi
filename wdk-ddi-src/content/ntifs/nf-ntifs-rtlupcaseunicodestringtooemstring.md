@@ -10,6 +10,7 @@ keywords: ["RtlUpcaseUnicodeStringToOemString function"]
 ms.keywords: RtlUpcaseUnicodeStringToOemString, RtlUpcaseUnicodeStringToOemString routine [Installable File System Drivers], ifsk.rtlupcaseunicodestringtooemstring, ntifs/RtlUpcaseUnicodeStringToOemString, rtlref_a98f9782-c665-40fa-af3d-47eb2bef27d9.xml
 f1_keywords:
  - "ntifs/RtlUpcaseUnicodeStringToOemString"
+ - "RtlUpcaseUnicodeStringToOemString"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

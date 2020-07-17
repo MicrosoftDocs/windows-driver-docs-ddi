@@ -10,6 +10,7 @@ keywords: ["IWDFRemoteInterfaceInitialize::RetrieveSymbolicLink"]
 ms.keywords: IWDFRemoteInterfaceInitialize interface,RetrieveSymbolicLink method, IWDFRemoteInterfaceInitialize.RetrieveSymbolicLink, IWDFRemoteInterfaceInitialize::RetrieveSymbolicLink, RetrieveSymbolicLink, RetrieveSymbolicLink method, RetrieveSymbolicLink method,IWDFRemoteInterfaceInitialize interface, UMDFIoTargetObjectRef_e76cdd61-351a-43f9-93a6-6991159e3d53.xml, umdf.iwdfremoteinterfaceinitialize_retrievesymboliclink, wdf.iwdfremoteinterfaceinitialize_retrievesymboliclink, wudfddi/IWDFRemoteInterfaceInitialize::RetrieveSymbolicLink
 f1_keywords:
  - "wudfddi/IWDFRemoteInterfaceInitialize.RetrieveSymbolicLink"
+ - "IWDFRemoteInterfaceInitialize.RetrieveSymbolicLink"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

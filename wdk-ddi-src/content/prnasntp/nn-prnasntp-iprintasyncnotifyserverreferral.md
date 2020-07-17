@@ -10,6 +10,7 @@ keywords: ["IPrintAsyncNotifyServerReferral interface"]
 ms.keywords: IPrintAsyncNotifyServerReferral, IPrintAsyncNotifyServerReferral interface [Print Devices], IPrintAsyncNotifyServerReferral interface [Print Devices],described, print.iprintasyncnotifyserverreferral, prnasntp/IPrintAsyncNotifyServerReferral
 f1_keywords:
  - "prnasntp/IPrintAsyncNotifyServerReferral"
+ - "IPrintAsyncNotifyServerReferral"
 req.header: prnasntp.h
 req.include-header: 
 req.target-type: Windows

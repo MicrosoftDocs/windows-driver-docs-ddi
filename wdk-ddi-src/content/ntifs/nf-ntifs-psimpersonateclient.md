@@ -10,6 +10,7 @@ keywords: ["PsImpersonateClient function"]
 ms.keywords: PsImpersonateClient, PsImpersonateClient routine [Installable File System Drivers], ifsk.psimpersonateclient, ntifs/PsImpersonateClient, psref_57279501-1e5a-4113-93ea-a04825989e73.xml
 f1_keywords:
  - "ntifs/PsImpersonateClient"
+ - "PsImpersonateClient"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

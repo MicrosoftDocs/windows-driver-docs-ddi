@@ -10,6 +10,7 @@ keywords: ["ReplyPrinterChangeNotification function"]
 ms.keywords: ReplyPrinterChangeNotification, ReplyPrinterChangeNotification function [Print Devices], print.replyprinterchangenotification, spoolfnc_524073df-9320-46d6-b4fe-6d3b73ccbe5b.xml, winsplp/ReplyPrinterChangeNotification
 f1_keywords:
  - "winsplp/ReplyPrinterChangeNotification"
+ - "ReplyPrinterChangeNotification"
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Desktop

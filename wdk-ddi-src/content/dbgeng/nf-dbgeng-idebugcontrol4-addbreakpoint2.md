@@ -10,6 +10,7 @@ keywords: ["IDebugControl4::AddBreakpoint2"]
 ms.keywords: AddBreakpoint2, AddBreakpoint2 method [Windows Debugging], AddBreakpoint2 method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],AddBreakpoint2 method, IDebugControl4.AddBreakpoint2, IDebugControl4::AddBreakpoint2, dbgeng/IDebugControl4::AddBreakpoint2, debugger.addbreakpoint2
 f1_keywords:
  - "dbgeng/IDebugControl4.AddBreakpoint2"
+ - "IDebugControl4.AddBreakpoint2"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

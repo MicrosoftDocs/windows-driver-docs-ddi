@@ -10,6 +10,7 @@ keywords: ["KSPROPERTY_SERIALHDR structure"]
 ms.keywords: "*PKSPROPERTY_SERIALHDR, KSPROPERTY_SERIALHDR, KSPROPERTY_SERIALHDR structure [Streaming Media Devices], PKSPROPERTY_SERIALHDR, PKSPROPERTY_SERIALHDR structure pointer [Streaming Media Devices], ks-struct_cdf54d37-a5b8-4a73-98dd-c7a9439ac51a.xml, ks/KSPROPERTY_SERIALHDR, ks/PKSPROPERTY_SERIALHDR, stream.ksproperty_serialhdr"
 f1_keywords:
  - "ks/KSPROPERTY_SERIALHDR"
+ - "KSPROPERTY_SERIALHDR"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows

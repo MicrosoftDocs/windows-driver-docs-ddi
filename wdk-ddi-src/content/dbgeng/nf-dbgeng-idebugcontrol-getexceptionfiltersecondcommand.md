@@ -10,6 +10,7 @@ keywords: ["IDebugControl::GetExceptionFilterSecondCommand"]
 ms.keywords: GetExceptionFilterSecondCommand, GetExceptionFilterSecondCommand method [Windows Debugging], GetExceptionFilterSecondCommand method [Windows Debugging],IDebugControl interface, GetExceptionFilterSecondCommand method [Windows Debugging],IDebugControl2 interface, GetExceptionFilterSecondCommand method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetExceptionFilterSecondCommand method, IDebugControl.GetExceptionFilterSecondCommand, IDebugControl2 interface [Windows Debugging],GetExceptionFilterSecondCommand method, IDebugControl2::GetExceptionFilterSecondCommand, IDebugControl3 interface [Windows Debugging],GetExceptionFilterSecondCommand method, IDebugControl3::GetExceptionFilterSecondCommand, IDebugControl::GetExceptionFilterSecondCommand, IDebugControl_fba6b716-8dba-4581-87c3-b808d3ab40a1.xml, dbgeng/IDebugControl2::GetExceptionFilterSecondCommand, dbgeng/IDebugControl3::GetExceptionFilterSecondCommand, dbgeng/IDebugControl::GetExceptionFilterSecondCommand, debugger.getexceptionfiltersecondcommand
 f1_keywords:
  - "dbgeng/IDebugControl.GetExceptionFilterSecondCommand"
+ - "IDebugControl.GetExceptionFilterSecondCommand"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

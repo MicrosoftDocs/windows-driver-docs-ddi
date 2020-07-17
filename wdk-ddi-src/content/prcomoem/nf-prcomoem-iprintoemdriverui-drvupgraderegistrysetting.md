@@ -10,6 +10,7 @@ keywords: ["IPrintOemDriverUI::DrvUpgradeRegistrySetting"]
 ms.keywords: DrvUpgradeRegistrySetting, DrvUpgradeRegistrySetting method [Print Devices], DrvUpgradeRegistrySetting method [Print Devices],IPrintOemDriverUI interface, IPrintOemDriverUI interface [Print Devices],DrvUpgradeRegistrySetting method, IPrintOemDriverUI.DrvUpgradeRegistrySetting, IPrintOemDriverUI::DrvUpgradeRegistrySetting, prcomoem/IPrintOemDriverUI::DrvUpgradeRegistrySetting, print.iprintoemdriverui_drvupgraderegistrysetting, print_unidrv-pscript_ui_f87ff21a-a7c2-49b5-857a-2ef201c2f13f.xml
 f1_keywords:
  - "prcomoem/IPrintOemDriverUI.DrvUpgradeRegistrySetting"
+ - "IPrintOemDriverUI.DrvUpgradeRegistrySetting"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop

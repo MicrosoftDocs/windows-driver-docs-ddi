@@ -10,6 +10,7 @@ keywords: ["FWPS_CALLOUT_CLASSIFY_FN1 callback function"]
 ms.keywords: FWPS_CALLOUT_CLASSIFY_FN1, FWPS_CALLOUT_CLASSIFY_FN1 callback, classifyFn1, classifyFn1 callback function [Network Drivers Starting with Windows Vista], fwpsk/classifyFn1, netvista.classifyfn1, wfp_ref_2_funct_4_callout_db29c2d0-9b7c-4737-b66f-472c78fff234.xml
 f1_keywords:
  - "fwpsk/classifyFn1"
+ - "classifyFn1"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Windows

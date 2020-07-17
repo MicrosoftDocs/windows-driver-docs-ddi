@@ -10,6 +10,7 @@ keywords: ["IoGetDeviceProperty function"]
 ms.keywords: IoGetDeviceProperty, IoGetDeviceProperty routine [Kernel-Mode Driver Architecture], k104_b6185e0d-5e39-4671-ab50-07fe5eda3606.xml, kernel.iogetdeviceproperty, wdm/IoGetDeviceProperty
 f1_keywords:
  - "wdm/IoGetDeviceProperty"
+ - "IoGetDeviceProperty"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

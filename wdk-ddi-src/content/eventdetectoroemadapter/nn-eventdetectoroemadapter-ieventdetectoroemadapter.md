@@ -10,6 +10,7 @@ ms.date: 02/22/2019
 keywords: ["IEventDetectorOemAdapter interface"]
 f1_keywords:
  - "eventdetectoroemadapter/IEventDetectorOemAdapter"
+ - "IEventDetectorOemAdapter"
 req.header: eventdetectoroemadapter.h
 req.include-header:
 req.target-type:

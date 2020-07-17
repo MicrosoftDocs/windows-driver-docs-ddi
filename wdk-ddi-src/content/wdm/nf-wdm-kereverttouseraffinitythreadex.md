@@ -10,6 +10,7 @@ keywords: ["KeRevertToUserAffinityThreadEx function"]
 ms.keywords: KeRevertToUserAffinityThreadEx, KeRevertToUserAffinityThreadEx routine [Kernel-Mode Driver Architecture], k105_88dc65fe-5379-4b7c-bfa0-6f2bb943b7cc.xml, kernel.kereverttouseraffinitythreadex, wdm/KeRevertToUserAffinityThreadEx
 f1_keywords:
  - "wdm/KeRevertToUserAffinityThreadEx"
+ - "KeRevertToUserAffinityThreadEx"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

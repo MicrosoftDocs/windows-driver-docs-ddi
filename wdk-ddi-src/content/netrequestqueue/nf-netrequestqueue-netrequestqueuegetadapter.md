@@ -8,6 +8,7 @@ ms.date: 02/01/2019
 keywords: ["NetRequestQueueGetAdapter function"]
 f1_keywords:
  - "netrequestqueue/NET_REQUEST_QUEUE_TYPE"
+ - "NET_REQUEST_QUEUE_TYPE"
 ms.keywords: NetRequestQueueGetAdapter
 req.header: netrequestqueue.h
 req.include-header: netadaptercx.h

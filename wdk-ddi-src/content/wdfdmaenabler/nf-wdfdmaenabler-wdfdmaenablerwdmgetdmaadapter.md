@@ -10,6 +10,7 @@ keywords: ["WdfDmaEnablerWdmGetDmaAdapter function"]
 ms.keywords: DFDmaObjectRef_9ed5be1b-56fd-4305-8aad-0ebb0856e34a.xml, WdfDmaEnablerWdmGetDmaAdapter, WdfDmaEnablerWdmGetDmaAdapter method, kmdf.wdfdmaenablerwdmgetdmaadapter, wdf.wdfdmaenablerwdmgetdmaadapter, wdfdmaenabler/WdfDmaEnablerWdmGetDmaAdapter
 f1_keywords:
  - "wdfdmaenabler/WdfDmaEnablerWdmGetDmaAdapter"
+ - "WdfDmaEnablerWdmGetDmaAdapter"
 req.header: wdfdmaenabler.h
 req.include-header: Wdf.h
 req.target-type: Universal

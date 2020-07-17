@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["IPMI_OS_SEL_RECORD_TYPE enumeration"]
 f1_keywords:
  - "ntddk/IPMI_OS_SEL_RECORD_TYPE"
+ - "IPMI_OS_SEL_RECORD_TYPE"
 ms.keywords: IPMI_OS_SEL_RECORD_TYPE, IPMI_OS_SEL_RECORD_TYPE, *PIPMI_OS_SEL_RECORD_TYPE, 
 req.header: ntddk.h
 req.include-header:

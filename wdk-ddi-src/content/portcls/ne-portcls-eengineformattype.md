@@ -10,6 +10,7 @@ keywords: ["eEngineFormatType enumeration"]
 ms.keywords: audio.eengineformattype, eDeviceFormat, eEngineFormatType, eEngineFormatType enumeration [Audio Devices], eMixFormat, eSupportedDeviceFormats, portcls/eDeviceFormat, portcls/eEngineFormatType, portcls/eMixFormat, portcls/eSupportedDeviceFormats
 f1_keywords:
  - "portcls/eEngineFormatType"
+ - "eEngineFormatType"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["IWDTFDriverSetupAction2::UnInstallDriverPermanently"]
 ms.keywords: IWDTFDriverSetupAction2 interface [Windows Device Testing Framework],UnInstallDriverPermanently method, IWDTFDriverSetupAction2.UnInstallDriverPermanently, IWDTFDriverSetupAction2::UnInstallDriverPermanently, Microsoft.WDTF.IWDTFDriverSetupAction2.UnInstallDriverPermanently, Microsoft::WDTF::IWDTFDriverSetupAction2::UnInstallDriverPermanently, UnInstallDriverPermanently, UnInstallDriverPermanently method [Windows Device Testing Framework], UnInstallDriverPermanently method [Windows Device Testing Framework],IWDTFDriverSetupAction2 interface, dtf.iwdtfdriversetupaction2_uninstalldriverpermanently, wdtfdriversetupdeviceaction/IWDTFDriverSetupAction2::UnInstallDriverPermanently
 f1_keywords:
  - "wdtfdriversetupdeviceaction/IWDTFDriverSetupAction2.UnInstallDriverPermanently"
+ - "IWDTFDriverSetupAction2.UnInstallDriverPermanently"
 req.header: wdtfdriversetupdeviceaction.h
 req.include-header: 
 req.target-type: Desktop

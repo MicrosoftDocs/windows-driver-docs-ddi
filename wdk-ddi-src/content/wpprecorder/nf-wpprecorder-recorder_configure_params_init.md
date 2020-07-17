@@ -10,6 +10,7 @@ keywords: ["RECORDER_CONFIGURE_PARAMS_INIT function"]
 ms.keywords: RECORDER_CONFIGURE_PARAMS_INIT, RECORDER_CONFIGURE_PARAMS_INIT function [Driver Development Tools], devtest.recorder_configure_params_init, wpprecorder/RECORDER_CONFIGURE_PARAMS_INIT
 f1_keywords:
  - "wpprecorder/RECORDER_CONFIGURE_PARAMS_INIT"
+ - "RECORDER_CONFIGURE_PARAMS_INIT"
 req.header: wpprecorder.h
 req.include-header: 
 req.target-type: Desktop

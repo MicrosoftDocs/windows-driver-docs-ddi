@@ -10,6 +10,7 @@ keywords: ["WdfRegistryOpenKey function"]
 ms.keywords: DFRegKeyObjectRef_a53062c9-844d-4a0f-bfea-738b0adba93c.xml, WdfRegistryOpenKey, WdfRegistryOpenKey method, kmdf.wdfregistryopenkey, wdf.wdfregistryopenkey, wdfregistry/WdfRegistryOpenKey
 f1_keywords:
  - "wdfregistry/WdfRegistryOpenKey"
+ - "WdfRegistryOpenKey"
 req.header: wdfregistry.h
 req.include-header: Wdf.h
 req.target-type: Universal

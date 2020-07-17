@@ -10,6 +10,7 @@ keywords: ["_DMA_TRANSFER_INFO structure"]
 ms.keywords: "*PDMA_TRANSFER_INFO, DMA_TRANSFER_INFO, DMA_TRANSFER_INFO structure [Kernel-Mode Driver Architecture], PDMA_TRANSFER_INFO, PDMA_TRANSFER_INFO structure pointer [Kernel-Mode Driver Architecture], _DMA_TRANSFER_INFO, kernel.dma_transfer_info, wdm/DMA_TRANSFER_INFO, wdm/PDMA_TRANSFER_INFO"
 f1_keywords:
  - "wdm/DMA_TRANSFER_INFO"
+ - "DMA_TRANSFER_INFO"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["SerCx2PioTransmitPurgeFifoComplete function"]
 ms.keywords: 2/SerCx2PioTransmitPurgeFifoComplete, SerCx2PioTransmitPurgeFifoComplete, SerCx2PioTransmitPurgeFifoComplete method [Serial Ports], serports.sercx2piotransmitpurgefifocomplete
 f1_keywords:
  - "sercx/SerCx2PioTransmitPurgeFifoComplete"
+ - "SerCx2PioTransmitPurgeFifoComplete"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal

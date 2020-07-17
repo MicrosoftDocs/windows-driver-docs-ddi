@@ -10,6 +10,7 @@ keywords: ["IWDFCmResourceList::GetDescriptor"]
 ms.keywords: GetDescriptor, GetDescriptor method, GetDescriptor method,IWDFCmResourceList interface, IWDFCmResourceList interface,GetDescriptor method, IWDFCmResourceList.GetDescriptor, IWDFCmResourceList::GetDescriptor, umdf.iwdfcmresourcelist_getdescriptor, wdf.iwdfcmresourcelist_getdescriptor, wudfddi/IWDFCmResourceList::GetDescriptor
 f1_keywords:
  - "wudfddi/IWDFCmResourceList.GetDescriptor"
+ - "IWDFCmResourceList.GetDescriptor"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop

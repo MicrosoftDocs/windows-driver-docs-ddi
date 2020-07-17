@@ -10,6 +10,7 @@ keywords: ["WdfRegistryAssignMemory function"]
 ms.keywords: DFRegKeyObjectRef_263749e2-fb1e-4153-9387-32cc256d7fe4.xml, WdfRegistryAssignMemory, WdfRegistryAssignMemory method, kmdf.wdfregistryassignmemory, wdf.wdfregistryassignmemory, wdfregistry/WdfRegistryAssignMemory
 f1_keywords:
  - "wdfregistry/WdfRegistryAssignMemory"
+ - "WdfRegistryAssignMemory"
 req.header: wdfregistry.h
 req.include-header: Wdf.h
 req.target-type: Universal

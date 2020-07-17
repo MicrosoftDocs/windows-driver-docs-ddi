@@ -10,6 +10,7 @@ keywords: ["NdisMoveMemory macro"]
 ms.keywords: NdisMoveMemory, NdisMoveMemory macro [Network Drivers Starting with Windows Vista], ndis/NdisMoveMemory, ndis_memory_ref_19f420d5-3747-48fa-a6c6-d1088449075b.xml, netvista.ndismovememory
 f1_keywords:
  - "ndis/NdisMoveMemory"
+ - "NdisMoveMemory"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

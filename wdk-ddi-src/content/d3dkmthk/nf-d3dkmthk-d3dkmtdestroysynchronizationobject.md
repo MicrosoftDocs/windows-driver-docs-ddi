@@ -9,6 +9,7 @@ keywords: ["D3DKMTDestroySynchronizationObject function"]
 ms.keywords: D3DKMTDestroySynchronizationObject, D3DKMTDestroySynchronizationObject function [Display Devices], OpenGL_Functions_181e72ed-9dd7-4b4c-b6e6-9231a2603f20.xml, d3dkmthk/D3DKMTDestroySynchronizationObject, display.d3dkmtdestroysynchronizationobject
 f1_keywords:
  - "d3dkmthk/D3DKMTDestroySynchronizationObject"
+ - "D3DKMTDestroySynchronizationObject"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

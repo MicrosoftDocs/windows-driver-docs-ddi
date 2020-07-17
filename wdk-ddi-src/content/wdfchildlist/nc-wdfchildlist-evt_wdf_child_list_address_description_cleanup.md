@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_CHILD_LIST_ADDRESS_DESCRIPTION_CLEANUP callback function"]
 ms.keywords: DFDeviceObjectChildListRef_f28ee1b8-ff52-416e-9811-1eb46939505a.xml, EVT_WDF_CHILD_LIST_ADDRESS_DESCRIPTION_CLEANUP, EVT_WDF_CHILD_LIST_ADDRESS_DESCRIPTION_CLEANUP callback, EvtChildListAddressDescriptionCleanup, EvtChildListAddressDescriptionCleanup callback function, kmdf.evtchildlistaddressdescriptioncleanup, wdf.evtchildlistaddressdescriptioncleanup, wdfchildlist/EvtChildListAddressDescriptionCleanup
 f1_keywords:
  - "wdfchildlist/EvtChildListAddressDescriptionCleanup"
+ - "EvtChildListAddressDescriptionCleanup"
 req.header: wdfchildlist.h
 req.include-header: Wdf.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["IDARG_IN_SWAPCHAINSETDEVICE structure"]
 ms.keywords: IDARG_IN_SWAPCHAINSETDEVICE, IDARG_IN_SWAPCHAINSETDEVICE structure [Display Devices], display.idarg_in_swapchainsetdevice, iddcx/IDARG_IN_SWAPCHAINSETDEVICE
 f1_keywords:
  - "iddcx/IDARG_IN_SWAPCHAINSETDEVICE"
+ - "IDARG_IN_SWAPCHAINSETDEVICE"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows

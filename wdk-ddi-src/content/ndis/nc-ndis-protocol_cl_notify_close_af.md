@@ -10,6 +10,7 @@ keywords: ["PROTOCOL_CL_NOTIFY_CLOSE_AF callback function"]
 ms.keywords: PROTOCOL_CL_NOTIFY_CLOSE_AF, PROTOCOL_CL_NOTIFY_CLOSE_AF callback, ProtocolClNotifyCloseAf, ProtocolClNotifyCloseAf callback function [Network Drivers Starting with Windows Vista], condis_client_ref_0b778346-7d48-4d72-807d-16d8be2da913.xml, ndis/ProtocolClNotifyCloseAf, netvista.protocolclnotifycloseaf
 f1_keywords:
  - "ndis/ProtocolClNotifyCloseAf"
+ - "ProtocolClNotifyCloseAf"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

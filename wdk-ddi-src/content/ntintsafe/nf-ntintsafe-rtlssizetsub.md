@@ -10,6 +10,7 @@ keywords: ["RtlSSIZETSub function"]
 ms.keywords: RtlSSIZETSub, RtlSSIZETSub function [Kernel-Mode Driver Architecture], kernel.rtlssizetsub, ntintsafe/RtlSSIZETSub
 f1_keywords:
  - "ntintsafe/RtlSSIZETSub"
+ - "RtlSSIZETSub"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

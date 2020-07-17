@@ -10,6 +10,7 @@ keywords: ["IOCTL_STORAGE_LOAD_MEDIA IOCTL"]
 ms.keywords: IOCTL_STORAGE_LOAD_MEDIA, IOCTL_STORAGE_LOAD_MEDIA control, IOCTL_STORAGE_LOAD_MEDIA control code [Storage Devices], k307_730c4c03-9d36-406b-8965-270aa539d0ca.xml, ntddstor/IOCTL_STORAGE_LOAD_MEDIA, storage.ioctl_storage_load_media
 f1_keywords:
  - "ntddstor/IOCTL_STORAGE_LOAD_MEDIA"
+ - "IOCTL_STORAGE_LOAD_MEDIA"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows

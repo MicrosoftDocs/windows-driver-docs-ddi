@@ -10,6 +10,7 @@ keywords: ["_KSFILTER structure"]
 ms.keywords: "*PKSFILTER, KSFILTER, KSFILTER structure [Streaming Media Devices], PKSFILTER, PKSFILTER structure pointer [Streaming Media Devices], _KSFILTER, avstruct_6662a03a-c6de-4f5e-b86a-a3685dba320e.xml, ks/KSFILTER, ks/PKSFILTER, stream.ksfilter"
 f1_keywords:
  - "ks/KSFILTER"
+ - "KSFILTER"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows

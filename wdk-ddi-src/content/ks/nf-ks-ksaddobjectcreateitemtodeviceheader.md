@@ -10,6 +10,7 @@ keywords: ["KsAddObjectCreateItemToDeviceHeader function"]
 ms.keywords: KsAddObjectCreateItemToDeviceHeader, KsAddObjectCreateItemToDeviceHeader function [Streaming Media Devices], ks/KsAddObjectCreateItemToDeviceHeader, ksfunc_89d7ee34-62de-4702-9cfa-5e3b6c9a9819.xml, stream.ksaddobjectcreateitemtodeviceheader
 f1_keywords:
  - "ks/KsAddObjectCreateItemToDeviceHeader"
+ - "KsAddObjectCreateItemToDeviceHeader"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

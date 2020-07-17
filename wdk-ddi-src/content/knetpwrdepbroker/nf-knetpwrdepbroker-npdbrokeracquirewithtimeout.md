@@ -10,6 +10,7 @@ keywords: ["NpdBrokerAcquireWithTimeout function"]
 ms.keywords: NpdBrokerAcquireWithTimeout, NpdBrokerAcquireWithTimeout function [Network Drivers Starting with Windows Vista], knetpwrdepbroker/NpdBrokerAcquireWithTimeout, netvista.npdbrokeracquirewithtimeout
 f1_keywords:
  - "knetpwrdepbroker/NpdBrokerAcquireWithTimeout"
+ - "NpdBrokerAcquireWithTimeout"
 req.header: knetpwrdepbroker.h
 req.include-header: KNetPwrDepBroker.h
 req.target-type: Windows

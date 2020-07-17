@@ -10,6 +10,7 @@ keywords: ["_WWAN_SET_SMS_CONFIGURATION structure"]
 ms.keywords: "*PWWAN_SET_SMS_CONFIGURATION, PWWAN_SET_SMS_CONFIGURATION, PWWAN_SET_SMS_CONFIGURATION structure pointer [Network Drivers Starting with Windows Vista], WWAN_SET_SMS_CONFIGURATION, WWAN_SET_SMS_CONFIGURATION structure [Network Drivers Starting with Windows Vista], WwanRef_2a344216-b18f-41d6-8a11-dac6cb24de69.xml, _WWAN_SET_SMS_CONFIGURATION, netvista.wwan_set_sms_configuration, wwan/PWWAN_SET_SMS_CONFIGURATION, wwan/WWAN_SET_SMS_CONFIGURATION"
 f1_keywords:
  - "wwan/WWAN_SET_SMS_CONFIGURATION"
+ - "WWAN_SET_SMS_CONFIGURATION"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows

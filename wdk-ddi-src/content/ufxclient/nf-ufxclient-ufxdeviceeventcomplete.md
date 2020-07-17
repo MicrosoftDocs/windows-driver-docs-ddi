@@ -10,6 +10,7 @@ keywords: ["UfxDeviceEventComplete function"]
 ms.keywords: UfxDeviceEventComplete, UfxDeviceEventComplete method [Buses], buses.ufxdeviceeventcomplete, ufxclient/UfxDeviceEventComplete
 f1_keywords:
  - "ufxclient/UfxDeviceEventComplete"
+ - "UfxDeviceEventComplete"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows

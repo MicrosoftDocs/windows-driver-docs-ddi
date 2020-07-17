@@ -10,6 +10,7 @@ keywords: ["IWDTFDriverSetupSystemAction2::ImportDriverPackage"]
 ms.keywords: IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework],ImportDriverPackage method, IWDTFDriverSetupSystemAction2.ImportDriverPackage, IWDTFDriverSetupSystemAction2::ImportDriverPackage, ImportDriverPackage, ImportDriverPackage method [Windows Device Testing Framework], ImportDriverPackage method [Windows Device Testing Framework],IWDTFDriverSetupSystemAction2 interface, Microsoft.WDTF.IWDTFDriverSetupSystemAction2.ImportDriverPackage, Microsoft::WDTF::IWDTFDriverSetupSystemAction2::ImportDriverPackage, dtf.iwdtfdriversetupsystemaction2_importdriverpackage, wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2::ImportDriverPackage
 f1_keywords:
  - "wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2.ImportDriverPackage"
+ - "IWDTFDriverSetupSystemAction2.ImportDriverPackage"
 req.header: wdtfdriversetupsystemaction.h
 req.include-header: 
 req.target-type: Desktop

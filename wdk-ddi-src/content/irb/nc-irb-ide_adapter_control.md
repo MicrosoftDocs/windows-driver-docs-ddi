@@ -10,6 +10,7 @@ keywords: ["IDE_ADAPTER_CONTROL callback function"]
 ms.keywords: AtaAdapterControl, AtaAdapterControl routine [Storage Devices], IDE_ADAPTER_CONTROL, atartns_6460976d-3415-4cda-b128-f74baefd075f.xml, irb/AtaAdapterControl, storage.ataadaptercontrol
 f1_keywords:
  - "irb/AtaAdapterControl"
+ - "AtaAdapterControl"
 req.header: irb.h
 req.include-header: Irb.h
 req.target-type: Desktop

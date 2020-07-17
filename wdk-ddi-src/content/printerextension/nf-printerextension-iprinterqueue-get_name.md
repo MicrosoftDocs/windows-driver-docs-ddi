@@ -10,6 +10,7 @@ keywords: ["IPrinterQueue::get_Name"]
 ms.keywords: IPrinterQueue interface [Print Devices],Name property, IPrinterQueue.Name, IPrinterQueue.get_Name, IPrinterQueue::Name, IPrinterQueue::get_Name, Name property [Print Devices], Name property [Print Devices],IPrinterQueue interface, get_Name, print.iprinterqueue_name, printerextension/IPrinterQueue::Name, printerextension/IPrinterQueue::get_Name
 f1_keywords:
  - "printerextension/IPrinterQueue.Name"
+ - "IPrinterQueue.Name"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

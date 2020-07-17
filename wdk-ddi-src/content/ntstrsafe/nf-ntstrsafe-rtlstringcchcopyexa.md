@@ -10,6 +10,7 @@ keywords: ["RtlStringCchCopyExA function"]
 ms.keywords: RtlStringCchCopyEx, RtlStringCchCopyExA, RtlStringCchCopyExW, RtlStringCchCopyExW function [Kernel-Mode Driver Architecture], STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, kernel.rtlstringcchcopyex, ntstrsafe/RtlStringCchCopyExA, ntstrsafe/RtlStringCchCopyExW, safestrings_d4303dc8-8b38-4159-a001-04421ccd2548.xml
 f1_keywords:
  - "ntstrsafe/RtlStringCchCopyExW"
+ - "RtlStringCchCopyExW"
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop

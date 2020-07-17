@@ -10,6 +10,7 @@ keywords: ["SILO_MONITOR_TERMINATE_CALLBACK callback function"]
 ms.keywords: SILO_MONITOR_TERMINATE_CALLBACK, SILO_MONITOR_TERMINATE_CALLBACK callback, TerminateCallback, TerminateCallback callback function [Kernel-Mode Driver Architecture], kernel.silo_monitor_terminate_callback, ntddk/TerminateCallback
 f1_keywords:
  - "ntddk/TerminateCallback"
+ - "TerminateCallback"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows

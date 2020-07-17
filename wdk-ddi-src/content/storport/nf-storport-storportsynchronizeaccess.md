@@ -10,6 +10,7 @@ keywords: ["StorPortSynchronizeAccess function"]
 ms.keywords: StorPortSynchronizeAccess, StorPortSynchronizeAccess routine [Storage Devices], storage.storportsynchronizeaccess, storport/StorPortSynchronizeAccess, storprt_25ee1679-940a-4758-9828-123a9ad24268.xml
 f1_keywords:
  - "storport/StorPortSynchronizeAccess"
+ - "StorPortSynchronizeAccess"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

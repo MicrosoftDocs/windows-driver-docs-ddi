@@ -10,6 +10,7 @@ keywords: ["IPrintUnidiAsyncNotifyRegistration::AsyncGetNotification"]
 ms.keywords: AsyncGetNotification, AsyncGetNotification method [Print Devices], AsyncGetNotification method [Print Devices],IPrintUnidiAsyncNotifyRegistration interface, IPrintUnidiAsyncNotifyRegistration interface [Print Devices],AsyncGetNotification method, IPrintUnidiAsyncNotifyRegistration.AsyncGetNotification, IPrintUnidiAsyncNotifyRegistration::AsyncGetNotification, print.iprintunidiasyncnotifyregistration_asyncgetnotification, prnasntp/IPrintUnidiAsyncNotifyRegistration::AsyncGetNotification
 f1_keywords:
  - "prnasntp/IPrintUnidiAsyncNotifyRegistration.AsyncGetNotification"
+ - "IPrintUnidiAsyncNotifyRegistration.AsyncGetNotification"
 req.header: prnasntp.h
 req.include-header: 
 req.target-type: Windows

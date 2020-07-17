@@ -10,6 +10,7 @@ keywords: ["PEP_ACPI_INITIALIZE_IOPORT_RESOURCE function"]
 ms.keywords: PEP_ACPI_INITIALIZE_IOPORT_RESOURCE, PEP_ACPI_INITIALIZE_IOPORT_RESOURCE function [Kernel-Mode Driver Architecture], kernel.pep_acpi_initialize_ioport_resource, pepfx/PEP_ACPI_INITIALIZE_IOPORT_RESOURCE
 f1_keywords:
  - "pepfx/PEP_ACPI_INITIALIZE_IOPORT_RESOURCE"
+ - "PEP_ACPI_INITIALIZE_IOPORT_RESOURCE"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows

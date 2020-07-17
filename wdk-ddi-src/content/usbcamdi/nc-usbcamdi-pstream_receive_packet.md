@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["PSTREAM_RECEIVE_PACKET callback function"]
 f1_keywords:
  - "usbcamdi/PSTREAM_RECEIVE_PACKET"
+ - "PSTREAM_RECEIVE_PACKET"
 req.header: usbcamdi.h
 req.include-header:
 req.target-type:

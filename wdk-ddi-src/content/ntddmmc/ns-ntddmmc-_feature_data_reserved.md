@@ -10,6 +10,7 @@ keywords: ["_FEATURE_DATA_RESERVED structure"]
 ms.keywords: "*PFEATURE_DATA_RESERVED, FEATURE_DATA_RESERVED, FEATURE_DATA_RESERVED structure [Storage Devices], PFEATURE_DATA_RESERVED, PFEATURE_DATA_RESERVED structure pointer [Storage Devices], _FEATURE_DATA_RESERVED, ntddmmc/FEATURE_DATA_RESERVED, ntddmmc/PFEATURE_DATA_RESERVED, storage.feature_data_reserved, structs-CD-ROM_4fc9f24f-2488-493d-8e63-2e4c8a3ab879.xml"
 f1_keywords:
  - "ntddmmc/FEATURE_DATA_RESERVED"
+ - "FEATURE_DATA_RESERVED"
 req.header: ntddmmc.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows

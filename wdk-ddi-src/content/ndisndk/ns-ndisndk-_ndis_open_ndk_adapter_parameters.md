@@ -10,6 +10,7 @@ keywords: ["_NDIS_OPEN_NDK_ADAPTER_PARAMETERS structure"]
 ms.keywords: "*PNDIS_OPEN_NDK_ADAPTER_PARAMETERS, NDIS_OPEN_NDK_ADAPTER_PARAMETERS, NDIS_OPEN_NDK_ADAPTER_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_OPEN_NDK_ADAPTER_PARAMETERS, PNDIS_OPEN_NDK_ADAPTER_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_OPEN_NDK_ADAPTER_PARAMETERS, ndisndk/NDIS_OPEN_NDK_ADAPTER_PARAMETERS, ndisndk/PNDIS_OPEN_NDK_ADAPTER_PARAMETERS, netvista.ndis_open_ndk_adapter_parameters"
 f1_keywords:
  - "ndisndk/NDIS_OPEN_NDK_ADAPTER_PARAMETERS"
+ - "NDIS_OPEN_NDK_ADAPTER_PARAMETERS"
 req.header: ndisndk.h
 req.include-header: Ndis.h
 req.target-type: Windows

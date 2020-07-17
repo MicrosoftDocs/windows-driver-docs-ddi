@@ -10,6 +10,7 @@ keywords: ["_VIDEO_MEMORY structure"]
 ms.keywords: "*PVIDEO_MEMORY, PVIDEO_MEMORY, PVIDEO_MEMORY structure pointer [Display Devices], VIDEO_MEMORY, VIDEO_MEMORY structure [Display Devices], Video_Structs_85973586-1583-46cb-93a7-c8d37ba4ef5f.xml, _VIDEO_MEMORY, display.video_memory, ntddvdeo/PVIDEO_MEMORY, ntddvdeo/VIDEO_MEMORY"
 f1_keywords:
  - "ntddvdeo/VIDEO_MEMORY"
+ - "VIDEO_MEMORY"
 req.header: ntddvdeo.h
 req.include-header: Ntddvdeo.h
 req.target-type: Windows

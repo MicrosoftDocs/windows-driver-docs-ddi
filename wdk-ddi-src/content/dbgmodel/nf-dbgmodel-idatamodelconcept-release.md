@@ -7,6 +7,7 @@ ms.date: 09/21/2018
 keywords: ["IDataModelConcept::Release"]
 f1_keywords:
  - "dbgmodel/IDataModelConcept.Release"
+ - "IDataModelConcept.Release"
 ms.keywords: IDataModelConcept::Release, Release, IDataModelConcept.Release, IDataModelConcept::Release, IDataModelConcept.Release
 req.header: dbgmodel.h
 req.include-header:

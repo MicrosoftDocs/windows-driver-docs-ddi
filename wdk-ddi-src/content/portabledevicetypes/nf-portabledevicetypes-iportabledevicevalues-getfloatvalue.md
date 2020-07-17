@@ -10,6 +10,7 @@ keywords: ["IPortableDeviceValues::GetFloatValue"]
 ms.keywords: GetFloatValue, GetFloatValue method, GetFloatValue method,IPortableDeviceValues interface, IPortableDeviceValues interface,GetFloatValue method, IPortableDeviceValues.GetFloatValue, IPortableDeviceValues::GetFloatValue, IPortableDeviceValuesGetFloatValue, portabledevicetypes/IPortableDeviceValues::GetFloatValue, wpddk.iportabledevicevalues_getfloatvalue
 f1_keywords:
  - "portabledevicetypes/IPortableDeviceValues.GetFloatValue"
+ - "IPortableDeviceValues.GetFloatValue"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows

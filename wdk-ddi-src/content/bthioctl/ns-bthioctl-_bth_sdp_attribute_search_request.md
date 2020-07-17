@@ -10,6 +10,7 @@ keywords: ["_BTH_SDP_ATTRIBUTE_SEARCH_REQUEST structure"]
 ms.keywords: "*PBTH_SDP_ATTRIBUTE_SEARCH_REQUEST, BTH_SDP_ATTRIBUTE_SEARCH_REQUEST, BTH_SDP_ATTRIBUTE_SEARCH_REQUEST structure [Bluetooth Devices], PBTH_SDP_ATTRIBUTE_SEARCH_REQUEST, PBTH_SDP_ATTRIBUTE_SEARCH_REQUEST structure pointer [Bluetooth Devices], _BTH_SDP_ATTRIBUTE_SEARCH_REQUEST, bltooth.bth_sdp_attribute_search_request, bth_structs_7856642e-a720-490e-9240-d61ac6f257b4.xml, bthioctl/BTH_SDP_ATTRIBUTE_SEARCH_REQUEST, bthioctl/PBTH_SDP_ATTRIBUTE_SEARCH_REQUEST"
 f1_keywords:
  - "bthioctl/BTH_SDP_ATTRIBUTE_SEARCH_REQUEST"
+ - "BTH_SDP_ATTRIBUTE_SEARCH_REQUEST"
 req.header: bthioctl.h
 req.include-header: Bthioctl.h
 req.target-type: Windows

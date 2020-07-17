@@ -10,6 +10,7 @@ keywords: ["_NDIS_WWAN_DEVICE_SERVICE_SESSION_INFO structure"]
 ms.keywords: "*PNDIS_WWAN_DEVICE_SERVICE_SESSION_COMPLETE, NDIS_WWAN_DEVICE_SERVICE_SESSION_INFO, NDIS_WWAN_DEVICE_SERVICE_SESSION_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_DEVICE_SERVICE_SESSION_INFO, PNDIS_WWAN_DEVICE_SERVICE_SESSION_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_DEVICE_SERVICE_SESSION_INFO, ndiswwan/NDIS_WWAN_DEVICE_SERVICE_SESSION_INFO, ndiswwan/PNDIS_WWAN_DEVICE_SERVICE_SESSION_INFO, netvista.ndis_wwan_device_service_session_info"
 f1_keywords:
  - "ndiswwan/NDIS_WWAN_DEVICE_SERVICE_SESSION_INFO"
+ - "NDIS_WWAN_DEVICE_SERVICE_SESSION_INFO"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows

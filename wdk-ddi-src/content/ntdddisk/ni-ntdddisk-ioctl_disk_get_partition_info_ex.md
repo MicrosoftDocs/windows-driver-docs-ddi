@@ -10,6 +10,7 @@ keywords: ["IOCTL_DISK_GET_PARTITION_INFO_EX IOCTL"]
 ms.keywords: IOCTL_DISK_GET_PARTITION_INFO_EX, IOCTL_DISK_GET_PARTITION_INFO_EX control, IOCTL_DISK_GET_PARTITION_INFO_EX control code [Storage Devices], k307_e9e632f5-6cc9-4494-876a-2e2f9071358b.xml, ntdddisk/IOCTL_DISK_GET_PARTITION_INFO_EX, storage.ioctl_disk_get_partition_info_ex
 f1_keywords:
  - "ntdddisk/IOCTL_DISK_GET_PARTITION_INFO_EX"
+ - "IOCTL_DISK_GET_PARTITION_INFO_EX"
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h
 req.target-type: Windows

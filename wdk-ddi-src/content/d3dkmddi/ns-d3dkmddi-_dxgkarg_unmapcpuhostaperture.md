@@ -9,6 +9,7 @@ keywords: ["_DXGKARG_UNMAPCPUHOSTAPERTURE structure"]
 ms.keywords: DXGKARG_UNMAPCPUHOSTAPERTURE, DXGKARG_UNMAPCPUHOSTAPERTURE structure [Display Devices], _DXGKARG_UNMAPCPUHOSTAPERTURE, d3dkmddi/DXGKARG_UNMAPCPUHOSTAPERTURE, display.dxgkarg_unmapcpuhostaperture
 f1_keywords:
  - "d3dkmddi/DXGKARG_UNMAPCPUHOSTAPERTURE"
+ - "DXGKARG_UNMAPCPUHOSTAPERTURE"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

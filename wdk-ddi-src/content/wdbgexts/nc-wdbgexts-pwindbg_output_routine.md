@@ -10,6 +10,7 @@ keywords: ["PWINDBG_OUTPUT_ROUTINE callback function"]
 ms.keywords: PWINDBG_OUTPUT_ROUTINE, PWINDBG_OUTPUT_ROUTINE callback, WdbgExts_Ref_89454805-6140-4023-ba28-2d7130c73cf5.xml, debugger.dprintf, dprintf, dprintf callback function [Windows Debugging], wdbgexts/dprintf
 f1_keywords:
  - "wdbgexts/dprintf"
+ - "dprintf"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop

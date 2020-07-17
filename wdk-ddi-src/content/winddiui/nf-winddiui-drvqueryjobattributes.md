@@ -10,6 +10,7 @@ keywords: ["DrvQueryJobAttributes function"]
 ms.keywords: DrvQueryJobAttributes, DrvQueryJobAttributes function [Print Devices], print.drvqueryjobattributes, print_interface-graphics_3fc2f9a4-bfe5-4323-a73e-6ac3ca9cf217.xml, winddiui/DrvQueryJobAttributes
 f1_keywords:
  - "winddiui/DrvQueryJobAttributes"
+ - "DrvQueryJobAttributes"
 req.header: winddiui.h
 req.include-header: Winddiui.h
 req.target-type: Desktop

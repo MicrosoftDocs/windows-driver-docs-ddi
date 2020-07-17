@@ -7,6 +7,7 @@ ms.date: 09/18/2018
 keywords: ["IDebugHostModule::FindSymbolByName"]
 f1_keywords:
  - "dbgmodel/IDebugHostModule.FindSymbolByName"
+ - "IDebugHostModule.FindSymbolByName"
 ms.keywords: IDebugHostModule::FindSymbolByName, FindSymbolByName, IDebugHostModule.FindSymbolByName, IDebugHostModule::FindSymbolByName, IDebugHostModule.FindSymbolByName
 req.header: dbgmodel.h
 req.include-header:

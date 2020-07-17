@@ -10,6 +10,7 @@ keywords: ["NDK_FN_CREATE_LISTENER callback function"]
 ms.keywords: NDK_FN_CREATE_LISTENER, NDK_FN_CREATE_LISTENER callback, NdkCreateListener, NdkCreateListener callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreateListener, netvista.ndk_fn_create_listener
 f1_keywords:
  - "ndkpi/NdkCreateListener"
+ - "NdkCreateListener"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::GetSymbolEntryByToken"]
 ms.keywords: GetSymbolEntryByToken, GetSymbolEntryByToken method [Windows Debugging], GetSymbolEntryByToken method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSymbolEntryByToken method, IDebugSymbols3.GetSymbolEntryByToken, IDebugSymbols3::GetSymbolEntryByToken, dbgeng/IDebugSymbols3::GetSymbolEntryByToken, debugger.idebugsymbols3_getsymbolentrybytoken
 f1_keywords:
  - "dbgeng/IDebugSymbols3.GetSymbolEntryByToken"
+ - "IDebugSymbols3.GetSymbolEntryByToken"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

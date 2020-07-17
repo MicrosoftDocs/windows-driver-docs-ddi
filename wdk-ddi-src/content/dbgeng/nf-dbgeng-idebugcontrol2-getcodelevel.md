@@ -10,6 +10,7 @@ keywords: ["IDebugControl2::GetCodeLevel"]
 ms.keywords: GetCodeLevel, GetCodeLevel method [Windows Debugging], GetCodeLevel method [Windows Debugging],IDebugControl interface, GetCodeLevel method [Windows Debugging],IDebugControl2 interface, GetCodeLevel method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetCodeLevel method, IDebugControl2 interface [Windows Debugging],GetCodeLevel method, IDebugControl2.GetCodeLevel, IDebugControl2::GetCodeLevel, IDebugControl3 interface [Windows Debugging],GetCodeLevel method, IDebugControl3::GetCodeLevel, IDebugControl::GetCodeLevel, IDebugControl_8533dd3f-f004-4d89-9f02-b7835fc6169e.xml, dbgeng/IDebugControl2::GetCodeLevel, dbgeng/IDebugControl3::GetCodeLevel, dbgeng/IDebugControl::GetCodeLevel, debugger.getcodelevel
 f1_keywords:
  - "dbgeng/IDebugControl.GetCodeLevel"
+ - "IDebugControl.GetCodeLevel"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

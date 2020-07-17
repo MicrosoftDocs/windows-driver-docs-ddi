@@ -10,6 +10,7 @@ ms.date: 07/11/2019
 keywords: ["KSPROPERTY_INTERLEAVEDAUDIO enumeration"]
 f1_keywords:
  - "ksmedia/KSPROPERTY_INTERLEAVEDAUDIO"
+ - "KSPROPERTY_INTERLEAVEDAUDIO"
 ms.keywords: KSPROPERTY_INTERLEAVEDAUDIO, KSPROPERTY_INTERLEAVEDAUDIO, 
 ms.prod: windows-hardware
 ms.technology: windows-devices

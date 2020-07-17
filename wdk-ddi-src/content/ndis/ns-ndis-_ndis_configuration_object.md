@@ -10,6 +10,7 @@ keywords: ["_NDIS_CONFIGURATION_OBJECT structure"]
 ms.keywords: "*PNDIS_CONFIGURATION_OBJECT, NDIS_CONFIGURATION_OBJECT, NDIS_CONFIGURATION_OBJECT structure [Network Drivers Starting with Windows Vista], PNDIS_CONFIGURATION_OBJECT, PNDIS_CONFIGURATION_OBJECT structure pointer [Network Drivers Starting with Windows Vista], _NDIS_CONFIGURATION_OBJECT, ndis/NDIS_CONFIGURATION_OBJECT, ndis/PNDIS_CONFIGURATION_OBJECT, ndis_configuration_ref_aa617bdd-fe13-11d9-8a38-0030ab150798.xml, netvista.ndis_configuration_object"
 f1_keywords:
  - "ndis/NDIS_CONFIGURATION_OBJECT"
+ - "NDIS_CONFIGURATION_OBJECT"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

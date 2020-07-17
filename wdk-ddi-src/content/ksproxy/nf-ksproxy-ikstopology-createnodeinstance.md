@@ -10,6 +10,7 @@ keywords: ["IKsTopology::CreateNodeInstance"]
 ms.keywords: CreateNodeInstance, CreateNodeInstance method [Streaming Media Devices], CreateNodeInstance method [Streaming Media Devices],IKsTopology interface, IKsTopology interface [Streaming Media Devices],CreateNodeInstance method, IKsTopology.CreateNodeInstance, IKsTopology::CreateNodeInstance, ksproxy/IKsTopology::CreateNodeInstance, ksproxy_91ff533c-4aa9-43db-9165-1c0c6f395393.xml, stream.ikstopology_createnodeinstance
 f1_keywords:
  - "ksproxy/IKsTopology.CreateNodeInstance"
+ - "IKsTopology.CreateNodeInstance"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: DesktopMobile

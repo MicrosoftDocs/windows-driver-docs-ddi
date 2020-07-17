@@ -10,6 +10,7 @@ keywords: ["SdpFreeTree function"]
 ms.keywords: SdpFreeTree, SdpFreeTree function [Bluetooth Devices], bltooth.sdpfreetree, bth_funcs_526ed9cd-2c07-4c1f-a420-dec6fe930e44.xml, sdplib/SdpFreeTree
 f1_keywords:
  - "sdplib/SdpFreeTree"
+ - "SdpFreeTree"
 req.header: sdplib.h
 req.include-header: BthSdpddi.h
 req.target-type: Desktop

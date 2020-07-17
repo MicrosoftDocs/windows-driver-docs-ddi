@@ -10,6 +10,7 @@ keywords: ["NdisMWriteLogData function"]
 ms.keywords: NdisMWriteLogData, NdisMWriteLogData function [Network Drivers Starting with Windows Vista], miniport_logging_ref_ca57cae5-4951-4c02-a745-d668bc8ec663.xml, ndis/NdisMWriteLogData, netvista.ndismwritelogdata
 f1_keywords:
  - "ndis/NdisMWriteLogData"
+ - "NdisMWriteLogData"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

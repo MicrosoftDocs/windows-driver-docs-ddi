@@ -10,6 +10,7 @@ keywords: ["IWDFInterrupt::GetInfo"]
 ms.keywords: GetInfo, GetInfo method, GetInfo method,IWDFInterrupt interface, IWDFInterrupt interface,GetInfo method, IWDFInterrupt.GetInfo, IWDFInterrupt::GetInfo, umdf.iwdfinterrupt_getinfo, wdf.iwdfinterrupt_getinfo, wudfddi/IWDFInterrupt::GetInfo
 f1_keywords:
  - "wudfddi/IWDFInterrupt.GetInfo"
+ - "IWDFInterrupt.GetInfo"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop

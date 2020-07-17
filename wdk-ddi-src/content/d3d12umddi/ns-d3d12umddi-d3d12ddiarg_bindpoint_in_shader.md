@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3D12DDIARG_BINDPOINT_IN_SHADER structure"]
 f1_keywords:
  - "d3d12umddi/D3D12DDIARG_BINDPOINT_IN_SHADER"
+ - "D3D12DDIARG_BINDPOINT_IN_SHADER"
 ms.keywords: D3D12DDIARG_BINDPOINT_IN_SHADER, D3D12DDIARG_BINDPOINT_IN_SHADER,
 req.header: d3d12umddi.h
 req.include-header:

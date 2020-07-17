@@ -10,6 +10,7 @@ keywords: ["OEMMEMORYUSAGE structure"]
 ms.keywords: "*POEMMEMORYUSAGE, OEMMEMORYUSAGE, OEMMEMORYUSAGE structure [Print Devices], POEMMEMORYUSAGE, POEMMEMORYUSAGE structure pointer [Print Devices], print.oemmemoryusage, print_unidrv-pscript_rendering_c6746c1c-f6c5-4acf-bcd3-bc1f69382dae.xml, printoem/OEMMEMORYUSAGE, printoem/POEMMEMORYUSAGE"
 f1_keywords:
  - "printoem/OEMMEMORYUSAGE"
+ - "OEMMEMORYUSAGE"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows

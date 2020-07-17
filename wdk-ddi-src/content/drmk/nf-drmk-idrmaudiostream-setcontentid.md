@@ -10,6 +10,7 @@ keywords: ["IDrmAudioStream::SetContentId"]
 ms.keywords: IDrmAudioStream interface [Audio Devices],SetContentId method, IDrmAudioStream.SetContentId, IDrmAudioStream::SetContentId, SetContentId, SetContentId method [Audio Devices], SetContentId method [Audio Devices],IDrmAudioStream interface, audio.idrmaudiostream_setcontentid, audmp-routines_66106418-566d-4203-a6d6-faae74a6db13.xml, drmk/IDrmAudioStream::SetContentId
 f1_keywords:
  - "drmk/IDrmAudioStream.SetContentId"
+ - "IDrmAudioStream.SetContentId"
 req.header: drmk.h
 req.include-header: Drmk.h
 req.target-type: Universal

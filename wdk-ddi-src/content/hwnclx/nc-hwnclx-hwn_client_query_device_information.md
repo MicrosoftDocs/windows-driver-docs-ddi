@@ -10,6 +10,7 @@ keywords: ["HWN_CLIENT_QUERY_DEVICE_INFORMATION callback"]
 ms.keywords: HWN_CLIENT_QUERY_DEVICE_INFORMATION, HwnClientQueryDeviceInformation, HwnClientQueryDeviceInformation callback function, PHWN_CLIENT_QUERY_DEVICE_INFORMATION, PHWN_CLIENT_QUERY_DEVICE_INFORMATION callback function pointer, gpiobtn.hwn_client_query_device_information, hwnclx/HwnClientQueryDeviceInformation
 f1_keywords:
  - "hwnclx/PHWN_CLIENT_QUERY_DEVICE_INFORMATION"
+ - "PHWN_CLIENT_QUERY_DEVICE_INFORMATION"
 req.header: hwnclx.h
 req.include-header:
 req.target-type: Windows

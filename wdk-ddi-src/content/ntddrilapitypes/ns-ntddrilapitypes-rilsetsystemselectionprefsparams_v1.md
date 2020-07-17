@@ -10,6 +10,7 @@ keywords: ["RILSETSYSTEMSELECTIONPREFSPARAMS_V1 structure"]
 ms.keywords: "*LPRILSETSYSTEMSELECTIONPREFSPARAMS_V1, RILSETSYSTEMSELECTIONPREFSPARAMS_V1, RILSETSYSTEMSELECTIONPREFSPARAMS_V1 structure [Network Drivers Starting with Windows Vista], netvista.rilsetsystemselectionprefsparams_v1, ntddrilapitypes/RILSETSYSTEMSELECTIONPREFSPARAMS_V1"
 f1_keywords:
  - "ntddrilapitypes/RILSETSYSTEMSELECTIONPREFSPARAMS_V1"
+ - "RILSETSYSTEMSELECTIONPREFSPARAMS_V1"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["ScsiPortGetDeviceBase function"]
 ms.keywords: ScsiPortGetDeviceBase, ScsiPortGetDeviceBase routine [Storage Devices], scsiprt_2924bfb1-e5a0-4533-afd7-65d2d7962b46.xml, srb/ScsiPortGetDeviceBase, storage.scsiportgetdevicebase
 f1_keywords:
  - "srb/ScsiPortGetDeviceBase"
+ - "ScsiPortGetDeviceBase"
 req.header: srb.h
 req.include-header: Miniport.h, Scsi.h
 req.target-type: Desktop

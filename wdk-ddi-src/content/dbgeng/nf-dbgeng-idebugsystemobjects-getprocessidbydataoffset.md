@@ -10,6 +10,7 @@ keywords: ["IDebugSystemObjects::GetProcessIdByDataOffset"]
 ms.keywords: GetProcessIdByDataOffset, GetProcessIdByDataOffset method [Windows Debugging], GetProcessIdByDataOffset method [Windows Debugging],IDebugSystemObjects interface, GetProcessIdByDataOffset method [Windows Debugging],IDebugSystemObjects2 interface, GetProcessIdByDataOffset method [Windows Debugging],IDebugSystemObjects3 interface, GetProcessIdByDataOffset method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects interface [Windows Debugging],GetProcessIdByDataOffset method, IDebugSystemObjects.GetProcessIdByDataOffset, IDebugSystemObjects2 interface [Windows Debugging],GetProcessIdByDataOffset method, IDebugSystemObjects2::GetProcessIdByDataOffset, IDebugSystemObjects3 interface [Windows Debugging],GetProcessIdByDataOffset method, IDebugSystemObjects3::GetProcessIdByDataOffset, IDebugSystemObjects4 interface [Windows Debugging],GetProcessIdByDataOffset method, IDebugSystemObjects4::GetProcessIdByDataOffset, IDebugSystemObjects::GetProcessIdByDataOffset, IDebugSystemObjects_8c7f276b-9a12-41ac-8c56-4e37b68d491d.xml, dbgeng/IDebugSystemObjects2::GetProcessIdByDataOffset, dbgeng/IDebugSystemObjects3::GetProcessIdByDataOffset, dbgeng/IDebugSystemObjects4::GetProcessIdByDataOffset, dbgeng/IDebugSystemObjects::GetProcessIdByDataOffset, debugger.getprocessidbydataoffset
 f1_keywords:
  - "dbgeng/IDebugSystemObjects.GetProcessIdByDataOffset"
+ - "IDebugSystemObjects.GetProcessIdByDataOffset"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

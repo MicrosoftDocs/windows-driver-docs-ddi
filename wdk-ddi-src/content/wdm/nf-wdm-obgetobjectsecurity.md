@@ -10,6 +10,7 @@ keywords: ["ObGetObjectSecurity function"]
 ms.keywords: ObGetObjectSecurity, ObGetObjectSecurity routine [Kernel-Mode Driver Architecture], k107_a0c800de-984a-427f-b308-415f831e5d34.xml, kernel.obgetobjectsecurity, wdm/ObGetObjectSecurity
 f1_keywords:
  - "wdm/ObGetObjectSecurity"
+ - "ObGetObjectSecurity"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

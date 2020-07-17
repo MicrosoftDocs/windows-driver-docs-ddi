@@ -10,6 +10,7 @@ keywords: ["KsPinRegisterPowerCallbacks function"]
 ms.keywords: KsPinRegisterPowerCallbacks, KsPinRegisterPowerCallbacks function [Streaming Media Devices], avfunc_2e133cdb-6afa-47a7-8d3b-8293b63428b5.xml, ks/KsPinRegisterPowerCallbacks, stream.kspinregisterpowercallbacks
 f1_keywords:
  - "ks/KsPinRegisterPowerCallbacks"
+ - "KsPinRegisterPowerCallbacks"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

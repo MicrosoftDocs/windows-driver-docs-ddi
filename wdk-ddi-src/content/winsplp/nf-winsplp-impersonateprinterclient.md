@@ -10,6 +10,7 @@ keywords: ["ImpersonatePrinterClient function"]
 ms.keywords: ImpersonatePrinterClient, ImpersonatePrinterClient function [Print Devices], print.impersonateprinterclient, spoolfnc_2eb48193-850d-43dc-8e9b-025c8187c49e.xml, winsplp/ImpersonatePrinterClient
 f1_keywords:
  - "winsplp/ImpersonatePrinterClient"
+ - "ImpersonatePrinterClient"
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Desktop

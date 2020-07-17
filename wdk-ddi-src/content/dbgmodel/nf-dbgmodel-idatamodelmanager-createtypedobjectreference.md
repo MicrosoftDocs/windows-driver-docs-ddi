@@ -7,6 +7,7 @@ ms.date: 07/17/2018
 keywords: ["IDataModelManager::CreateTypedObjectReference"]
 f1_keywords:
  - "dbgmodel/IDataModelManager.CreateTypedObjectReference"
+ - "IDataModelManager.CreateTypedObjectReference"
 ms.keywords: IDataModelManager::CreateTypedObjectReference, CreateTypedObjectReference, IDataModelManager.CreateTypedObjectReference, IDataModelManager::CreateTypedObjectReference, IDataModelManager.CreateTypedObjectReference
 req.header: dbgmodel.h
 req.include-header:

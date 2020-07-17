@@ -10,6 +10,7 @@ keywords: ["NdisMCmOidRequestComplete macro"]
 ms.keywords: NdisMCmOidRequestComplete, NdisMCmOidRequestComplete macro [Network Drivers Starting with Windows Vista], condis_request_ref_fc46ea1a-b820-4f1d-b986-e879adb27ad6.xml, ndis/NdisMCmOidRequestComplete, netvista.ndismcmoidrequestcomplete
 f1_keywords:
  - "ndis/NdisMCmOidRequestComplete"
+ - "NdisMCmOidRequestComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

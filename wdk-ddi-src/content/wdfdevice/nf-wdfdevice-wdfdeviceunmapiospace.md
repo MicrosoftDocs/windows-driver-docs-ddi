@@ -10,6 +10,7 @@ keywords: ["WdfDeviceUnmapIoSpace function"]
 ms.keywords: WdfDeviceUnmapIoSpace, WdfDeviceUnmapIoSpace function, wdf.wdfdeviceunmapiospace, wdfdevice/WdfDeviceUnmapIoSpace
 f1_keywords:
  - "wdfdevice/WdfDeviceUnmapIoSpace"
+ - "WdfDeviceUnmapIoSpace"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["IOCTL_HID_GET_PRODUCT_STRING IOCTL"]
 ms.keywords: IOCTL_HID_GET_PRODUCT_STRING, IOCTL_HID_GET_PRODUCT_STRING control, IOCTL_HID_GET_PRODUCT_STRING control code [Human Input Devices], hid.ioctl_hid_get_product_string, hidclass/IOCTL_HID_GET_PRODUCT_STRING, hidioreq_566be8cb-e7d2-4756-a5e8-51c24d540780.xml
 f1_keywords:
  - "hidclass/IOCTL_HID_GET_PRODUCT_STRING"
+ - "IOCTL_HID_GET_PRODUCT_STRING"
 req.header: hidclass.h
 req.include-header: Hidclass.h
 req.target-type: Windows

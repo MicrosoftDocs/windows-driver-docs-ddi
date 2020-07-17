@@ -10,6 +10,7 @@ keywords: ["KeRundownQueue function"]
 ms.keywords: KeRundownQueue, KeRundownQueue routine [Installable File System Drivers], ifsk.kerundownqueue, keref_d1ad3c47-a2e8-40d9-b59d-bcedd6e4314a.xml, ntifs/KeRundownQueue
 f1_keywords:
  - "ntifs/KeRundownQueue"
+ - "KeRundownQueue"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

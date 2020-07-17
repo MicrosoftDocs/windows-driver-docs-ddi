@@ -10,6 +10,7 @@ keywords: ["PROTOCOL_UNINSTALL callback function"]
 ms.keywords: PROTOCOL_UNINSTALL, PROTOCOL_UNINSTALL callback, ProtocolUninstall, ProtocolUninstall callback function [Network Drivers Starting with Windows Vista], ndis/ProtocolUninstall, netvista.protocoluninstall, protocol_functions_ref_5c889ae3-39d9-43ff-84b5-8ecbb0b48be5.xml
 f1_keywords:
  - "ndis/ProtocolUninstall"
+ - "ProtocolUninstall"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

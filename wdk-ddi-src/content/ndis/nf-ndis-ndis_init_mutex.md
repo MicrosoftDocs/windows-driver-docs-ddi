@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["NDIS_INIT_MUTEX macro"]
 f1_keywords:
  - "ndis/NDIS_INIT_MUTEX"
+ - "NDIS_INIT_MUTEX"
 ms.keywords: NDIS_INIT_MUTEX
 req.header: ndis.h
 req.include-header:

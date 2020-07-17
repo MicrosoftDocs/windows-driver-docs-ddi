@@ -10,6 +10,7 @@ keywords: ["_STOR_POFX_COMPONENT_V2 structure"]
 ms.keywords: "*PSTOR_POFX_COMPONENT_V2, PSTOR_POFX_COMPONENT_V2, PSTOR_POFX_COMPONENT_V2 structure pointer [Storage Devices], STOR_POFX_COMPONENT_V2, STOR_POFX_COMPONENT_V2 structure [Storage Devices], _STOR_POFX_COMPONENT_V2, storage.stor_pofx_component_v2, storport/PSTOR_POFX_COMPONENT_V2, storport/STOR_POFX_COMPONENT"
 f1_keywords:
  - "storport/STOR_POFX_COMPONENT_V2"
+ - "STOR_POFX_COMPONENT_V2"
 req.header: storport.h
 req.include-header: 
 req.target-type: Windows

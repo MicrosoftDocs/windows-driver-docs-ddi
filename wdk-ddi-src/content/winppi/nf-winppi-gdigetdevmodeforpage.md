@@ -10,6 +10,7 @@ keywords: ["GdiGetDevmodeForPage function"]
 ms.keywords: GdiGetDevmodeForPage, GdiGetDevmodeForPage function [Print Devices], gdifnc_39ecbc8c-73fb-4e71-9df7-abdc4d8ccdcf.xml, print.gdigetdevmodeforpage, winppi/GdiGetDevmodeForPage
 f1_keywords:
  - "winppi/GdiGetDevmodeForPage"
+ - "GdiGetDevmodeForPage"
 req.header: winppi.h
 req.include-header: Winppi.h
 req.target-type: Universal

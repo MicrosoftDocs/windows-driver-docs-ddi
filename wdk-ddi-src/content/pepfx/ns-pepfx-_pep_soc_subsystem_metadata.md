@@ -10,6 +10,7 @@ keywords: ["_PEP_SOC_SUBSYSTEM_METADATA structure"]
 ms.keywords: "*PPEP_SOC_SUBSYSTEM_METADATA, PEP_SOC_SUBSYSTEM_METADATA, PEP_SOC_SUBSYSTEM_METADATA structure [Kernel-Mode Driver Architecture], PPEP_SOC_SUBSYSTEM_METADATA, PPEP_SOC_SUBSYSTEM_METADATA structure pointer [Kernel-Mode Driver Architecture], _PEP_SOC_SUBSYSTEM_METADATA, kernel.pep_soc_subsystem_metadata, pepfx/PEP_SOC_SUBSYSTEM_METADATA, pepfx/PPEP_SOC_SUBSYSTEM_METADATA"
 f1_keywords:
  - "pepfx/PEP_SOC_SUBSYSTEM_METADATA"
+ - "PEP_SOC_SUBSYSTEM_METADATA"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["PsGetJobSilo function"]
 ms.keywords: PsGetJobSilo, PsGetJobSilo routine [Kernel-Mode Driver Architecture], kernel.psgetjobsilo, ntddk/PsGetJobSilo
 f1_keywords:
  - "ntddk/PsGetJobSilo"
+ - "PsGetJobSilo"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows

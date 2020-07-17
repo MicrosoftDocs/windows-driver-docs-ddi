@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["IOMMU_DOMAIN_CONFIGURE callback function"]
 f1_keywords:
  - "wdm/IOMMU_DOMAIN_CONFIGURE"
+ - "IOMMU_DOMAIN_CONFIGURE"
 req.header: wdm.h
 req.include-header:
 req.target-type:

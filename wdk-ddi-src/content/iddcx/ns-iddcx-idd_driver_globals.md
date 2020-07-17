@@ -10,6 +10,7 @@ keywords: ["IDD_DRIVER_GLOBALS structure"]
 ms.keywords: "*PIDD_DRIVER_GLOBALS, IDD_DRIVER_GLOBALS, IDD_DRIVER_GLOBALS structure [Display Devices], display.idd_driver_globals, iddcx/IDD_DRIVER_GLOBALS"
 f1_keywords:
  - "iddcx/IDD_DRIVER_GLOBALS"
+ - "IDD_DRIVER_GLOBALS"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows

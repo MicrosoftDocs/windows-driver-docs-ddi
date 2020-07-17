@@ -10,6 +10,7 @@ keywords: ["WdfCmResourceListGetDescriptor function"]
 ms.keywords: DFResourceObjectRef_bdc580d1-2283-4549-a26b-cbe0f2a84e19.xml, WdfCmResourceListGetDescriptor, WdfCmResourceListGetDescriptor method, kmdf.wdfcmresourcelistgetdescriptor, wdf.wdfcmresourcelistgetdescriptor, wdfresource/WdfCmResourceListGetDescriptor
 f1_keywords:
  - "wdfresource/WdfCmResourceListGetDescriptor"
+ - "WdfCmResourceListGetDescriptor"
 req.header: wdfresource.h
 req.include-header: Wdf.h
 req.target-type: Universal

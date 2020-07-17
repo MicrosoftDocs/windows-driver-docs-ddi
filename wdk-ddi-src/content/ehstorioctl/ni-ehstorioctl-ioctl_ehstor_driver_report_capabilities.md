@@ -10,6 +10,7 @@ keywords: ["IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES IOCTL"]
 ms.keywords: IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES, IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES control, IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES control code [Storage Devices], ehstorioctl/IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES, storage.ioctl_ehstor_driver_report_capabilities
 f1_keywords:
  - "ehstorioctl/IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES"
+ - "IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES"
 req.header: ehstorioctl.h
 req.include-header: EhStorIoctl.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["_DOT11_WFD_SECONDARY_DEVICE_TYPE_LIST structure"]
 ms.keywords: "*PDOT11_WFD_SECONDARY_DEVICE_TYPE_LIST, DOT11_WFD_SECONDARY_DEVICE_TYPE_LIST, DOT11_WFD_SECONDARY_DEVICE_TYPE_LIST structure [Network Drivers Starting with Windows Vista], PDOT11_WFD_SECONDARY_DEVICE_TYPE_LIST, PDOT11_WFD_SECONDARY_DEVICE_TYPE_LIST structure pointer [Network Drivers Starting with Windows Vista], _DOT11_WFD_SECONDARY_DEVICE_TYPE_LIST, netvista._dot11_wfd_secondary_device_type_list, windot11/ DOT11_WFD_SECONDARY_DEVICE_TYPE_LIST, windot11/PDOT11_WFD_SECONDARY_DEVICE_TYPE_LIST"
 f1_keywords:
  - "windot11/DOT11_WFD_SECONDARY_DEVICE_TYPE_LIST"
+ - "DOT11_WFD_SECONDARY_DEVICE_TYPE_LIST"
 req.header: windot11.h
 req.include-header: Windot11.h
 req.target-type: Windows

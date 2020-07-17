@@ -10,6 +10,7 @@ keywords: ["RILGETPREFERENCEDOPERATORLISTFORMAT enumeration"]
 ms.keywords: RILGETPREFERENCEDOPERATORLISTFORMAT, RILGETPREFERENCEDOPERATORLISTFORMAT enumeration [Network Drivers Starting with Windows Vista], RIL_OPFORMAT_MAX, RIL_OPFORMAT_NUM, RIL_OPFORMAT_SHORT, netvista.rilgetpreferencedoperatorlistformat, ntddrilapitypes/RILGETPREFERENCEDOPERATORLISTFORMAT, ntddrilapitypes/RIL_OPFORMAT_MAX, ntddrilapitypes/RIL_OPFORMAT_NUM, ntddrilapitypes/RIL_OPFORMAT_SHORT
 f1_keywords:
  - "ntddrilapitypes/RILGETPREFERENCEDOPERATORLISTFORMAT"
+ - "RILGETPREFERENCEDOPERATORLISTFORMAT"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

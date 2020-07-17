@@ -8,6 +8,7 @@ ms.date: 09/30/2018
 keywords: ["_UCSI_GET_CURRENT_CAM_IN structure"]
 f1_keywords:
  - "ucmucsispec/_UCSI_GET_CURRENT_CAM_IN"
+ - "_UCSI_GET_CURRENT_CAM_IN"
 ms.keywords: _UCSI_GET_CURRENT_CAM_IN, UCSI_GET_CURRENT_CAM_IN, *PUCSI_GET_CURRENT_CAM_IN, 
 req.header: ucmucsispec.h
 req.include-header: UcmUcsiCx.h 

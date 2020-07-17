@@ -10,6 +10,7 @@ keywords: ["IPrintSchemaDisplayableElement interface"]
 ms.keywords: IPrintSchemaDisplayableElement, IPrintSchemaDisplayableElement interface [Print Devices], IPrintSchemaDisplayableElement interface [Print Devices],described, print.iprintschemadisplayableelement_interface, printerextension/IPrintSchemaDisplayableElement
 f1_keywords:
  - "printerextension/IPrintSchemaDisplayableElement"
+ - "IPrintSchemaDisplayableElement"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

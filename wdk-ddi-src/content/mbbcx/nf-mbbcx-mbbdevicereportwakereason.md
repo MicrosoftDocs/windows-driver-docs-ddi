@@ -10,6 +10,7 @@ ms.date: 11/07/2019
 keywords: ["MbbDeviceReportWakeReason function"]
 f1_keywords:
  - "mbbcx/MbbDeviceReportWakeReason"
+ - "MbbDeviceReportWakeReason"
 ms.keywords: MbbDeviceReportWakeReason
 req.header: mbbcx.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["_WDI_P2P_GO_INTERNAL_RESET_POLICY enumeration"]
 ms.keywords: WDI_P2P_GO_INTERNAL_RESET_POLICY, WDI_P2P_GO_INTERNAL_RESET_POLICY enumeration [Device and Driver Installation], WDI_P2P_GO_INTERNAL_RESET_POLICY_ALLOW_CHANNEL_OPTIMIZATION, WDI_P2P_GO_INTERNAL_RESET_POLICY_USE_LAST_CHANNEL, _WDI_P2P_GO_INTERNAL_RESET_POLICY, netvista.wdi_p2p_go_internal_reset_policy, netvista.wifi_p2p_go_internal_reset_policy, wditypes/WDI_P2P_GO_INTERNAL_RESET_POLICY, wditypes/WDI_P2P_GO_INTERNAL_RESET_POLICY_ALLOW_CHANNEL_OPTIMIZATION, wditypes/WDI_P2P_GO_INTERNAL_RESET_POLICY_USE_LAST_CHANNEL
 f1_keywords:
  - "wditypes/WDI_P2P_GO_INTERNAL_RESET_POLICY"
+ - "WDI_P2P_GO_INTERNAL_RESET_POLICY"
 req.header: wditypes.hpp
 req.include-header: 
 req.target-type: Windows

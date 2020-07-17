@@ -10,6 +10,7 @@ keywords: ["MmIsRecursiveIoFault function"]
 ms.keywords: MmIsRecursiveIoFault, MmIsRecursiveIoFault routine [Installable File System Drivers], ifsk.mmisrecursiveiofault, mmref_2f97ee70-0e70-4607-841e-e9d5b3ae74c8.xml, ntifs/MmIsRecursiveIoFault
 f1_keywords:
  - "ntifs/MmIsRecursiveIoFault"
+ - "MmIsRecursiveIoFault"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

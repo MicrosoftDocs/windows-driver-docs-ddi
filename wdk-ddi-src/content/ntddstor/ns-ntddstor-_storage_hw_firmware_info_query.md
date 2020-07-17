@@ -10,6 +10,7 @@ keywords: ["_STORAGE_HW_FIRMWARE_INFO_QUERY structure"]
 ms.keywords: "*PSTORAGE_HW_FIRMWARE_INFO_QUERY, PSTORAGE_HW_FIRMWARE_INFO_QUERY, PSTORAGE_HW_FIRMWARE_INFO_QUERY structure pointer [Storage Devices], STORAGE_HW_FIRMWARE_INFO_QUERY, STORAGE_HW_FIRMWARE_INFO_QUERY structure [Storage Devices], _STORAGE_HW_FIRMWARE_INFO_QUERY, ntddstor/PSTORAGE_HW_FIRMWARE_INFO_QUERY, ntddstor/STORAGE_HW_FIRMWARE_INFO_QUERY, storage.storage_hw_firmware_info_query"
 f1_keywords:
  - "ntddstor/STORAGE_HW_FIRMWARE_INFO_QUERY"
+ - "STORAGE_HW_FIRMWARE_INFO_QUERY"
 req.header: ntddstor.h
 req.include-header: 
 req.target-type: Windows

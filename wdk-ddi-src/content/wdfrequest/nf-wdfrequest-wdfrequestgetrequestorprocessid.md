@@ -10,6 +10,7 @@ keywords: ["WdfRequestGetRequestorProcessId function"]
 ms.keywords: WdfRequestGetRequestorProcessId, WdfRequestGetRequestorProcessId method, wdf.wdfrequestgetrequestorprocessid, wdfrequest/WdfRequestGetRequestorProcessId
 f1_keywords:
  - "wdfrequest/WdfRequestGetRequestorProcessId"
+ - "WdfRequestGetRequestorProcessId"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal

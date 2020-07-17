@@ -10,6 +10,7 @@ keywords: ["NdisCmDispatchIncomingCallQoSChange function"]
 ms.keywords: NdisCmDispatchIncomingCallQoSChange, NdisCmDispatchIncomingCallQoSChange function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_01f18e60-ebc6-4192-9544-a57b07a4575e.xml, ndis/NdisCmDispatchIncomingCallQoSChange, netvista.ndiscmdispatchincomingcallqoschange
 f1_keywords:
  - "ndis/NdisCmDispatchIncomingCallQoSChange"
+ - "NdisCmDispatchIncomingCallQoSChange"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

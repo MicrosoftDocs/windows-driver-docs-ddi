@@ -10,6 +10,7 @@ keywords: ["WDF_MEMORY_DESCRIPTOR_INIT_HANDLE function"]
 ms.keywords: DFMemoryObjectRef_1cec1e9e-7279-4278-a5c2-2eaaaa7a8074.xml, WDF_MEMORY_DESCRIPTOR_INIT_HANDLE, WDF_MEMORY_DESCRIPTOR_INIT_HANDLE function, kmdf.wdf_memory_descriptor_init_handle, wdf.wdf_memory_descriptor_init_handle, wdfmemory/WDF_MEMORY_DESCRIPTOR_INIT_HANDLE
 f1_keywords:
  - "wdfmemory/WDF_MEMORY_DESCRIPTOR_INIT_HANDLE"
+ - "WDF_MEMORY_DESCRIPTOR_INIT_HANDLE"
 req.header: wdfmemory.h
 req.include-header: Wdf.h
 req.target-type: Universal

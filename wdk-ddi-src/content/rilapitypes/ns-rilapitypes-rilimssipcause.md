@@ -10,6 +10,7 @@ keywords: ["RILIMSSIPCAUSE structure"]
 ms.keywords: "*LPRILIMSSIPCAUSE, RILIMSSIPCAUSE, RILIMSSIPCAUSE structure [Network Drivers Starting with Windows Vista], netvista.rilimssipcause, ntddrilapitypes/RILIMSSIPCAUSE"
 f1_keywords:
  - "rilapitypes/RILIMSSIPCAUSE"
+ - "RILIMSSIPCAUSE"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

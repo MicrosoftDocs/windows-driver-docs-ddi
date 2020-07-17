@@ -10,6 +10,7 @@ keywords: ["_INTERNAL_I8042_HOOK_MOUSE structure"]
 ms.keywords: "*PINTERNAL_I8042_HOOK_MOUSE, INTERNAL_I8042_HOOK_MOUSE, INTERNAL_I8042_HOOK_MOUSE structure [Human Input Devices], PINTERNAL_I8042_HOOK_MOUSE, PINTERNAL_I8042_HOOK_MOUSE structure pointer [Human Input Devices], _INTERNAL_I8042_HOOK_MOUSE, hid.internal_i8042_hook_mouse, i8042ref_23133caf-3bd0-4160-8213-899e37b7703e.xml, ntdd8042/INTERNAL_I8042_HOOK_MOUSE, ntdd8042/PINTERNAL_I8042_HOOK_MOUSE"
 f1_keywords:
  - "ntdd8042/INTERNAL_I8042_HOOK_MOUSE"
+ - "INTERNAL_I8042_HOOK_MOUSE"
 req.header: ntdd8042.h
 req.include-header: Ntdd8042.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["_FILE_OBJECTID_INFORMATION structure"]
 ms.keywords: "*PFILE_OBJECTID_INFORMATION, FILE_OBJECTID_INFORMATION, FILE_OBJECTID_INFORMATION structure [Installable File System Drivers], PFILE_OBJECTID_INFORMATION, PFILE_OBJECTID_INFORMATION structure pointer [Installable File System Drivers], _FILE_OBJECTID_INFORMATION, fileinformationstructures_330b72bc-0a91-45d2-b4c9-04d065e0545e.xml, ifsk.file_objectid_information, ntifs/FILE_OBJECTID_INFORMATION, ntifs/PFILE_OBJECTID_INFORMATION"
 f1_keywords:
  - "ntifs/FILE_OBJECTID_INFORMATION"
+ - "FILE_OBJECTID_INFORMATION"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows

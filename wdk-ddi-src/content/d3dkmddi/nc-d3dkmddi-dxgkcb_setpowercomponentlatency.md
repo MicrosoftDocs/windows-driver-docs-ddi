@@ -29,6 +29,7 @@ tech.root: display
 req.typenames: 
 f1_keywords:
  - "d3dkmddi/DxgkCbSetPowerComponentLatency"
+ - "DxgkCbSetPowerComponentLatency"
 topic_type:
  - APIRef
  - kbSyntax

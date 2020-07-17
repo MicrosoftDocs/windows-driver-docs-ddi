@@ -10,6 +10,7 @@ keywords: ["StorPortCompleteRequest function"]
 ms.keywords: StorPortCompleteRequest, StorPortCompleteRequest routine [Storage Devices], storage.storportcompleterequest, storport/StorPortCompleteRequest, storprt_c91d5dfe-31de-4804-a0be-c2bab228fbb9.xml
 f1_keywords:
  - "storport/StorPortCompleteRequest"
+ - "StorPortCompleteRequest"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

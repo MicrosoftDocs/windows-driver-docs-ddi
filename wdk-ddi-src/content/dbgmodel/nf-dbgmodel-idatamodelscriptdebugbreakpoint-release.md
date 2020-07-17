@@ -7,6 +7,7 @@ ms.date: 09/10/2018
 keywords: ["IDataModelScriptDebugBreakpoint::Release"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebugBreakpoint.Release"
+ - "IDataModelScriptDebugBreakpoint.Release"
 ms.keywords: IDataModelScriptDebugBreakpoint::Release, Release, IDataModelScriptDebugBreakpoint.Release, IDataModelScriptDebugBreakpoint::Release, IDataModelScriptDebugBreakpoint.Release
 req.header: dbgmodel.h
 req.include-header:

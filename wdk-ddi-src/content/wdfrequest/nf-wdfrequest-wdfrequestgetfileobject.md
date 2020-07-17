@@ -10,6 +10,7 @@ keywords: ["WdfRequestGetFileObject function"]
 ms.keywords: DFRequestObjectRef_cfa39375-4338-428c-aec5-52479b2a91ea.xml, WdfRequestGetFileObject, WdfRequestGetFileObject method, kmdf.wdfrequestgetfileobject, wdf.wdfrequestgetfileobject, wdfrequest/WdfRequestGetFileObject
 f1_keywords:
  - "wdfrequest/WdfRequestGetFileObject"
+ - "WdfRequestGetFileObject"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal

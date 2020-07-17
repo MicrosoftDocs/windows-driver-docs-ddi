@@ -10,6 +10,7 @@ keywords: ["IoInvalidateDeviceRelations function"]
 ms.keywords: IoInvalidateDeviceRelations, IoInvalidateDeviceRelations routine [Kernel-Mode Driver Architecture], k104_c839e20b-2be6-4586-86c9-57c773bf755f.xml, kernel.ioinvalidatedevicerelations, wdm/IoInvalidateDeviceRelations
 f1_keywords:
  - "wdm/IoInvalidateDeviceRelations"
+ - "IoInvalidateDeviceRelations"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

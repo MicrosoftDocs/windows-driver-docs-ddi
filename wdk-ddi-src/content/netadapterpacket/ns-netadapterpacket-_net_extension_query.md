@@ -10,6 +10,7 @@ ms.date: 11/07/2019
 keywords: ["NET_EXTENSION_QUERY structure"]
 f1_keywords:
  - "netadapterpacket/NET_EXTENSION_QUERY"
+ - "NET_EXTENSION_QUERY"
 ms.keywords: NET_EXTENSION_QUERY, NET_EXTENSION_QUERY, 
 req.header: netadapterpacket.h
 req.include-header:

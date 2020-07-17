@@ -10,6 +10,7 @@ keywords: ["IWDFUsbInterface::GetInterfaceNumber"]
 ms.keywords: GetInterfaceNumber, GetInterfaceNumber method, GetInterfaceNumber method,IWDFUsbInterface interface, IWDFUsbInterface interface,GetInterfaceNumber method, IWDFUsbInterface.GetInterfaceNumber, IWDFUsbInterface::GetInterfaceNumber, UMDFUSBref_4f4d9bc1-a1a1-4cc4-87ba-522fa3f8a0f7.xml, umdf.iwdfusbinterface_getinterfacenumber, wdf.iwdfusbinterface_getinterfacenumber, wudfusb/IWDFUsbInterface::GetInterfaceNumber
 f1_keywords:
  - "wudfusb/IWDFUsbInterface.GetInterfaceNumber"
+ - "IWDFUsbInterface.GetInterfaceNumber"
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
 req.target-type: Desktop

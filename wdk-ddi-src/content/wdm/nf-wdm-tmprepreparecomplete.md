@@ -10,6 +10,7 @@ keywords: ["TmPrePrepareComplete function"]
 ms.keywords: TmPrePrepareComplete, TmPrePrepareComplete routine [Kernel-Mode Driver Architecture], kernel.tmprepreparecomplete, ktm_ref_8ea6e6df-93c0-4b25-9bfe-3d53fbe1793f.xml, wdm/TmPrePrepareComplete
 f1_keywords:
  - "wdm/TmPrePrepareComplete"
+ - "TmPrePrepareComplete"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

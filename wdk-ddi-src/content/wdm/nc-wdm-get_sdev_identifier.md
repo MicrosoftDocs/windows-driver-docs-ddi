@@ -10,6 +10,7 @@ keywords: ["GET_SDEV_IDENTIFIER callback function"]
 ms.keywords: GET_SDEV_IDENTIFIER, GET_SDEV_IDENTIFIER callback, GetSDevIdentifier, GetSDevIdentifier callback function [Kernel-Mode Driver Architecture], kernel.get_sdev_identifier, wdm/GetSDevIdentifier
 f1_keywords:
  - "wdm/GET_SDEV_IDENTIFIER callback"
+ - "GET_SDEV_IDENTIFIER callback"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Windows

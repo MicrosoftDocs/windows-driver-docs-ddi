@@ -10,6 +10,7 @@ keywords: ["_WHEA_PCIEXPRESS_ERROR_SECTION structure"]
 ms.keywords: "*PWHEA_PCIEXPRESS_ERROR, *PWHEA_PCIEXPRESS_ERROR_SECTION, PWHEA_PCIEXPRESS_ERROR_SECTION, PWHEA_PCIEXPRESS_ERROR_SECTION structure pointer [WHEA Drivers and Applications], WHEA_PCIEXPRESS_ERROR, WHEA_PCIEXPRESS_ERROR_SECTION, WHEA_PCIEXPRESS_ERROR_SECTION structure [WHEA Drivers and Applications], _WHEA_PCIEXPRESS_ERROR_SECTION, ntddk/PWHEA_PCIEXPRESS_ERROR_SECTION, ntddk/WHEA_PCIEXPRESS_ERROR_SECTION, whea.whea_pciexpress_error_section, whearef_77796d60-3376-4d78-9b24-9ddb1e3d6132.xml"
 f1_keywords:
  - "ntddk/WHEA_PCIEXPRESS_ERROR_SECTION"
+ - "WHEA_PCIEXPRESS_ERROR_SECTION"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows

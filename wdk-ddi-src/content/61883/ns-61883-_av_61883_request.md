@@ -10,6 +10,7 @@ keywords: ["_AV_61883_REQUEST structure"]
 ms.keywords: "*PAV_61883_REQUEST, 61883/AV_61883_REQUEST, 61883/PAV_61883_REQUEST, 61883_structures_d914a3cc-63dd-4eaf-9d0f-2682e1da78c9.xml, AV_61883_REQUEST, AV_61883_REQUEST structure [Buses], IEEE.av_61883_request, PAV_61883_REQUEST, PAV_61883_REQUEST structure pointer [Buses], _AV_61883_REQUEST"
 f1_keywords:
  - "61883/AV_61883_REQUEST"
+ - "AV_61883_REQUEST"
 req.header: 61883.h
 req.include-header: 61883.h
 req.target-type: Windows

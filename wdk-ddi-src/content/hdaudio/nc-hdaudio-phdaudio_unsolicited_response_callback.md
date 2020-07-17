@@ -10,6 +10,7 @@ keywords: ["PHDAUDIO_UNSOLICITED_RESPONSE_CALLBACK callback function"]
 ms.keywords: HDAudioUnsolicitedResponseCallback, HDAudioUnsolicitedResponseCallback callback function [Audio Devices], PHDAUDIO_UNSOLICITED_RESPONSE_CALLBACK, PHDAUDIO_UNSOLICITED_RESPONSE_CALLBACK callback, audio.phdaudio_unsolicited_response_callback, hdaudio/HDAudioUnsolicitedResponseCallback
 f1_keywords:
  - "hdaudio/HDAudioUnsolicitedResponseCallback"
+ - "HDAudioUnsolicitedResponseCallback"
 req.header: hdaudio.h
 req.include-header: 
 req.target-type: Windows

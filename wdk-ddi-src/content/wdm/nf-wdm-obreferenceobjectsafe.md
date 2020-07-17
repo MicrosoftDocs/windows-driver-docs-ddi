@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["ObReferenceObjectSafe function"]
 f1_keywords:
  - "wdm/ObReferenceObjectSafe"
+ - "ObReferenceObjectSafe"
 ms.keywords: ObReferenceObjectSafe
 req.header: wdm.h
 req.include-header:

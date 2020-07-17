@@ -10,6 +10,7 @@ keywords: ["RtlCopySid function"]
 ms.keywords: RtlCopySid, RtlCopySid routine [Installable File System Drivers], ifsk.rtlcopysid, ntifs/RtlCopySid, rtlref_598b8f18-6cd2-4714-a2da-8e91f6aba065.xml
 f1_keywords:
  - "ntifs/RtlCopySid"
+ - "RtlCopySid"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

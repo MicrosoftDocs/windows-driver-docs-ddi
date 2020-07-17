@@ -10,6 +10,7 @@ keywords: ["PUSB_BUSIFFN_SUBMIT_ISO_OUT_URB callback function"]
 ms.keywords: PUSB_BUSIFFN_SUBMIT_ISO_OUT_URB, PUSB_BUSIFFN_SUBMIT_ISO_OUT_URB callback, SubmitIsoOutUrb, SubmitIsoOutUrb callback function [Buses], buses.submitisoouturb, usbbusif/SubmitIsoOutUrb, usbinterKR_7caf9f1e-d3e3-4d26-b91f-c2864594703a.xml
 f1_keywords:
  - "usbbusif/SubmitIsoOutUrb"
+ - "SubmitIsoOutUrb"
 req.header: usbbusif.h
 req.include-header: Usbbusif.h
 req.target-type: Desktop

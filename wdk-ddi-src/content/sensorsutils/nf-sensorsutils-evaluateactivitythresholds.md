@@ -8,6 +8,7 @@ keywords: ["EvaluateActivityThresholds function"]
 tech.root: sensors
 f1_keywords:
  - "sensorsutils/EvaluateActivityThresholds"
+ - "EvaluateActivityThresholds"
 ms.keywords: EvaluateActivityThresholds
 req.header: sensorsutils.h
 req.include-header:

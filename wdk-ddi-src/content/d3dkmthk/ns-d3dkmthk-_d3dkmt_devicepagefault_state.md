@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_DEVICEPAGEFAULT_STATE structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_DEVICEPAGEFAULT_STATE"
+ - "_D3DKMT_DEVICEPAGEFAULT_STATE"
 ms.keywords: _D3DKMT_DEVICEPAGEFAULT_STATE, D3DKMT_DEVICEPAGEFAULT_STATE, 
 req.header: d3dkmthk.h
 req.include-header:

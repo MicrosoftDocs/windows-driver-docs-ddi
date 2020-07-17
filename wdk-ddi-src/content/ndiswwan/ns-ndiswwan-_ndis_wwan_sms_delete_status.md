@@ -10,6 +10,7 @@ keywords: ["_NDIS_WWAN_SMS_DELETE_STATUS structure"]
 ms.keywords: "*PNDIS_WWAN_SMS_DELETE_STATUS, NDIS_WWAN_SMS_DELETE_STATUS, NDIS_WWAN_SMS_DELETE_STATUS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SMS_DELETE_STATUS, PNDIS_WWAN_SMS_DELETE_STATUS structure pointer [Network Drivers Starting with Windows Vista], WwanRef_aa4755ba-7eac-42ef-8901-170593ed60af.xml, _NDIS_WWAN_SMS_DELETE_STATUS, ndiswwan/NDIS_WWAN_SMS_DELETE_STATUS, ndiswwan/PNDIS_WWAN_SMS_DELETE_STATUS, netvista.ndis_wwan_sms_delete_status"
 f1_keywords:
  - "ndiswwan/NDIS_WWAN_SMS_DELETE_STATUS"
+ - "NDIS_WWAN_SMS_DELETE_STATUS"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows

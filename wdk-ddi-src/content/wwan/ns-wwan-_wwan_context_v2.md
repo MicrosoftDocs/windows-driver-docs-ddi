@@ -8,6 +8,7 @@ ms.date: 08/22/2018
 keywords: ["_WWAN_CONTEXT_V2 structure"]
 f1_keywords:
  - "wwan/_WWAN_CONTEXT_V2"
+ - "_WWAN_CONTEXT_V2"
 ms.keywords: _WWAN_CONTEXT_V2, WWAN_CONTEXT_V2, *PWWAN_CONTEXT_V2, 
 req.header: wwan.h
 req.include-header:

@@ -8,6 +8,7 @@ ms.date: 10/19/2018
 keywords: ["FsRtlAddBaseMcbEntryEx function"]
 f1_keywords:
  - "ntifs/FsRtlAddBaseMcbEntryEx"
+ - "FsRtlAddBaseMcbEntryEx"
 ms.keywords: FsRtlAddBaseMcbEntryEx
 req.header: ntifs.h
 req.include-header:

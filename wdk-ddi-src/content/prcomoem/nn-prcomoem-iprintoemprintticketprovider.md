@@ -10,6 +10,7 @@ keywords: ["IPrintOemPrintTicketProvider interface"]
 ms.keywords: IPrintOemPrintTicketProvider, IPrintOemPrintTicketProvider interface [Print Devices], IPrintOemPrintTicketProvider interface [Print Devices],described, prcomoem/IPrintOemPrintTicketProvider, print.iprintoemprintticketprovider_interface, print_ticket-package_73ff5919-5d89-4fe1-b10f-03f2b14b716f.xml
 f1_keywords:
  - "prcomoem/IPrintOemPrintTicketProvider"
+ - "IPrintOemPrintTicketProvider"
 req.header: prcomoem.h
 req.include-header: 
 req.target-type: Windows

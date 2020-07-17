@@ -10,6 +10,7 @@ keywords: ["RILMSGACKSTATUS enumeration"]
 ms.keywords: RILMSGACKSTATUS, RILMSGACKSTATUS enumeration [Network Drivers Starting with Windows Vista], RIL_MSGACKSTATUS_ERROR, RIL_MSGACKSTATUS_FAIL_MEM_FULL, RIL_MSGACKSTATUS_MAX, netvista.rilmsgackstatus, ntddrilapitypes/RILMSGACKSTATUS, ntddrilapitypes/RIL_MSGACKSTATUS_ERROR, ntddrilapitypes/RIL_MSGACKSTATUS_FAIL_MEM_FULL, ntddrilapitypes/RIL_MSGACKSTATUS_MAX
 f1_keywords:
  - "rilapitypes/RILMSGACKSTATUS"
+ - "RILMSGACKSTATUS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

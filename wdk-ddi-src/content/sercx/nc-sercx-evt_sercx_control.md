@@ -10,6 +10,7 @@ keywords: ["EVT_SERCX_CONTROL callback function"]
 ms.keywords: 1/EvtSerCxControl, EVT_SERCX_CONTROL, EVT_SERCX_CONTROL callback, EvtSerCxControl, EvtSerCxControl callback function [Serial Ports], serports.evtsercxcontrol
 f1_keywords:
  - "sercx/EvtSerCxControl"
+ - "EvtSerCxControl"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop

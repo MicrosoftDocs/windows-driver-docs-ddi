@@ -10,6 +10,7 @@ keywords: ["ExtRemoteTyped::OutFullValue"]
 ms.keywords: EngExtCpp_Ref_30c4c99e-e68e-4f44-b72c-fa67cdcac0fd.xml, ExtRemoteTyped interface [Windows Debugging],OutFullValue method, ExtRemoteTyped.OutFullValue, ExtRemoteTyped::OutFullValue, OutFullValue, OutFullValue method [Windows Debugging], OutFullValue method [Windows Debugging],ExtRemoteTyped interface, debugger.extremotetyped_outfullvalue
 f1_keywords:
  - "engextcpp/ExtRemoteTyped.OutFullValue"
+ - "ExtRemoteTyped.OutFullValue"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop

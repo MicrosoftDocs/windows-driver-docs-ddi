@@ -10,6 +10,7 @@ keywords: ["WdfObjectGetTypedContextWorker function"]
 ms.keywords: DFGenObjectRef_d932d163-5341-45b3-b896-bb3adb5831a6.xml, WdfObjectGetTypedContextWorker, WdfObjectGetTypedContextWorker method, kmdf.wdfobjectgettypedcontextworker, wdf.wdfobjectgettypedcontextworker, wdfobject/WdfObjectGetTypedContextWorker
 f1_keywords:
  - "wdfobject/WdfObjectGetTypedContextWorker"
+ - "WdfObjectGetTypedContextWorker"
 req.header: wdfobject.h
 req.include-header: 
 req.target-type: Windows

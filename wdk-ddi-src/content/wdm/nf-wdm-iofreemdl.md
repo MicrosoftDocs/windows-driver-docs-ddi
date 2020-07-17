@@ -10,6 +10,7 @@ keywords: ["IoFreeMdl function"]
 ms.keywords: IoFreeMdl, IoFreeMdl routine [Kernel-Mode Driver Architecture], k104_30217ed4-82a6-4b6d-b6f6-77fab8faa867.xml, kernel.iofreemdl, wdm/IoFreeMdl
 f1_keywords:
  - "wdm/IoFreeMdl"
+ - "IoFreeMdl"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

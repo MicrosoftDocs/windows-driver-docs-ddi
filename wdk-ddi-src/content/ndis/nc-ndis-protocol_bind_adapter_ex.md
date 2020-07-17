@@ -10,6 +10,7 @@ keywords: ["PROTOCOL_BIND_ADAPTER_EX callback function"]
 ms.keywords: PROTOCOL_BIND_ADAPTER_EX, PROTOCOL_BIND_ADAPTER_EX callback, ProtocolBindAdapterEx, ProtocolBindAdapterEx callback function [Network Drivers Starting with Windows Vista], ndis/ProtocolBindAdapterEx, netvista.protocolbindadapterex, protocol_functions_ref_82268bd4-3e45-48ba-8b80-df47fbde11e1.xml
 f1_keywords:
  - "ndis/ProtocolBindAdapterEx"
+ - "ProtocolBindAdapterEx"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

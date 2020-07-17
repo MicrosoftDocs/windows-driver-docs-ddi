@@ -10,6 +10,7 @@ keywords: ["IDebugSymbolGroup2::AddSymbol"]
 ms.keywords: AddSymbol, AddSymbol method [Windows Debugging], AddSymbol method [Windows Debugging],IDebugSymbolGroup interface, AddSymbol method [Windows Debugging],IDebugSymbolGroup2 interface, ComOther_936851e7-6a8b-4b42-b339-9c8aa096d684.xml, IDebugSymbolGroup interface [Windows Debugging],AddSymbol method, IDebugSymbolGroup2 interface [Windows Debugging],AddSymbol method, IDebugSymbolGroup2.AddSymbol, IDebugSymbolGroup2::AddSymbol, IDebugSymbolGroup::AddSymbol, dbgeng/IDebugSymbolGroup2::AddSymbol, dbgeng/IDebugSymbolGroup::AddSymbol, debugger.addsymbol
 f1_keywords:
  - "dbgeng/IDebugSymbolGroup.AddSymbol"
+ - "IDebugSymbolGroup.AddSymbol"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

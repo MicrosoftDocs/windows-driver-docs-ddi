@@ -10,6 +10,7 @@ keywords: ["KsGetBusEnumPnpDeviceObject function"]
 ms.keywords: KsGetBusEnumPnpDeviceObject, KsGetBusEnumPnpDeviceObject function [Streaming Media Devices], ksfunc_246a7c6e-ef5a-4cf4-a05a-70a499a487cb.xml, stream.ksgetbusenumpnpdeviceobject, swenum/KsGetBusEnumPnpDeviceObject
 f1_keywords:
  - "swenum/KsGetBusEnumPnpDeviceObject"
+ - "KsGetBusEnumPnpDeviceObject"
 req.header: swenum.h
 req.include-header: Swenum.h
 req.target-type: Universal

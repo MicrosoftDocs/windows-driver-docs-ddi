@@ -10,6 +10,7 @@ keywords: ["ClfsAlignReservedLog function"]
 ms.keywords: ClfsAlignReservedLog, ClfsAlignReservedLog routine [Kernel-Mode Driver Architecture], Clfs_68de31de-d1f9-4948-ab15-bf8678aebcf2.xml, kernel.clfsalignreservedlog, wdm/ClfsAlignReservedLog
 f1_keywords:
  - "wdm/ClfsAlignReservedLog"
+ - "ClfsAlignReservedLog"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

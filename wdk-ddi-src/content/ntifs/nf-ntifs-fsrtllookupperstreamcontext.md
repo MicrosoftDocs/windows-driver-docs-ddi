@@ -10,6 +10,7 @@ keywords: ["FsRtlLookupPerStreamContext macro"]
 ms.keywords: FsRtlLookupPerStreamContext, FsRtlLookupPerStreamContext function [Installable File System Drivers], fsrtlref_8284a485-5669-4a4f-a2cf-d566b82299fb.xml, ifsk.fsrtllookupperstreamcontext, ntifs/FsRtlLookupPerStreamContext
 f1_keywords:
  - "ntifs/FsRtlLookupPerStreamContext"
+ - "FsRtlLookupPerStreamContext"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Desktop

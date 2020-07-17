@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DlFreePool function"]
 f1_keywords:
  - "dispmprt/DlFreePool"
+ - "DlFreePool"
 ms.keywords: DlFreePool
 req.header: dispmprt.h
 req.include-header:

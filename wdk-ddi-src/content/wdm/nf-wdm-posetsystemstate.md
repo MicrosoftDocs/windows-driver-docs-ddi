@@ -10,6 +10,7 @@ keywords: ["PoSetSystemState function"]
 ms.keywords: PoSetSystemState, PoSetSystemState routine [Kernel-Mode Driver Architecture], kernel.posetsystemstate, portn_f20a5d5b-d863-4ff7-8837-6a7e625271d7.xml, wdm/PoSetSystemState
 f1_keywords:
  - "wdm/PoSetSystemState"
+ - "PoSetSystemState"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

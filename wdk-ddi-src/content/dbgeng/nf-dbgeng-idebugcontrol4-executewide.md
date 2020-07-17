@@ -10,6 +10,7 @@ keywords: ["IDebugControl4::ExecuteWide"]
 ms.keywords: ExecuteWide, ExecuteWide method [Windows Debugging], ExecuteWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],ExecuteWide method, IDebugControl4.ExecuteWide, IDebugControl4::ExecuteWide, dbgeng/IDebugControl4::ExecuteWide, debugger.executewide
 f1_keywords:
  - "dbgeng/IDebugControl4.ExecuteWide"
+ - "IDebugControl4.ExecuteWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["IPrintSchemaElement::get_Name"]
 ms.keywords: IPrintSchemaElement interface [Print Devices],Name property, IPrintSchemaElement.Name, IPrintSchemaElement.get_Name, IPrintSchemaElement::Name, IPrintSchemaElement::get_Name, Name property [Print Devices], Name property [Print Devices],IPrintSchemaElement interface, get_Name, print.iprintschemaelement_name, printerextension/IPrintSchemaElement::Name, printerextension/IPrintSchemaElement::get_Name
 f1_keywords:
  - "printerextension/IPrintSchemaElement.Name"
+ - "IPrintSchemaElement.Name"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

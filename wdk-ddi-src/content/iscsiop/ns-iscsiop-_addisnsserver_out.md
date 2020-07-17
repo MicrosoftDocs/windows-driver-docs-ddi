@@ -10,6 +10,7 @@ keywords: ["_AddiSNSServer_OUT structure"]
 ms.keywords: "*PAddiSNSServer_OUT, AddiSNSServer_OUT, AddiSNSServer_OUT structure [Storage Devices], PAddiSNSServer_OUT, PAddiSNSServer_OUT structure pointer [Storage Devices], _AddiSNSServer_OUT, iscsiop/AddiSNSServer_OUT, iscsiop/PAddiSNSServer_OUT, storage.addisnsserver_out, structs-iSCSI_d1d3f4d6-6c48-4f6d-bc5e-9449a4b87d2b.xml"
 f1_keywords:
  - "iscsiop/AddiSNSServer_OUT"
+ - "AddiSNSServer_OUT"
 req.header: iscsiop.h
 req.include-header: Iscsiop.h
 req.target-type: Windows

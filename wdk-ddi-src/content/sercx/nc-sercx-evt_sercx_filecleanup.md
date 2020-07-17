@@ -10,6 +10,7 @@ keywords: ["EVT_SERCX_FILECLEANUP callback function"]
 ms.keywords: 1/EvtSerCxFileCleanup, EVT_SERCX_FILECLEANUP, EVT_SERCX_FILECLEANUP callback, EvtSerCxFileCleanup, EvtSerCxFileCleanup callback function [Serial Ports], serports.evtsercxfilecleanup
 f1_keywords:
  - "sercx/EvtSerCxFileCleanup"
+ - "EvtSerCxFileCleanup"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop

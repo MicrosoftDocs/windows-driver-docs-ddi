@@ -10,6 +10,7 @@ keywords: ["IKsDataTypeCompletion interface"]
 ms.keywords: IKsDataTypeCompletion, IKsDataTypeCompletion interface [Streaming Media Devices], IKsDataTypeCompletion interface [Streaming Media Devices],described, ksproxy/IKsDataTypeCompletion, ksproxy_0ae81dab-7e72-45e0-9577-069d41973670.xml, stream.iksdatatypecompletion
 f1_keywords:
  - "ksproxy/IKsDataTypeCompletion"
+ - "IKsDataTypeCompletion"
 req.header: ksproxy.h
 req.include-header: 
 req.target-type: Windows

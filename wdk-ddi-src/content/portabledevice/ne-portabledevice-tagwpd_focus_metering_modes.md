@@ -10,6 +10,7 @@ keywords: ["tagWPD_FOCUS_METERING_MODES enumeration"]
 ms.keywords: WPD_FOCUS_METERING_MODES, WPD_FOCUS_METERING_MODES enumeration, WPD_FOCUS_METERING_MODE_CENTER_SPOT, WPD_FOCUS_METERING_MODE_MULTI_SPOT, WPD_FOCUS_METERING_MODE_UNDEFINED, enumeration, portabledevice/WPD_FOCUS_METERING_MODES, portabledevice/WPD_FOCUS_METERING_MODE_CENTER_SPOT, portabledevice/WPD_FOCUS_METERING_MODE_MULTI_SPOT, portabledevice/WPD_FOCUS_METERING_MODE_UNDEFINED, tagWPD_FOCUS_METERING_MODES, wpddk.wpd_focus_metering_modes
 f1_keywords:
  - "portabledevice/WPD_FOCUS_METERING_MODES"
+ - "WPD_FOCUS_METERING_MODES"
 req.header: portabledevice.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["MmSecureVirtualMemoryEx function"]
 f1_keywords:
  - "ntddk/MmSecureVirtualMemoryEx"
+ - "MmSecureVirtualMemoryEx"
 ms.keywords: MmSecureVirtualMemoryEx
 req.header: ntddk.h
 req.include-header:

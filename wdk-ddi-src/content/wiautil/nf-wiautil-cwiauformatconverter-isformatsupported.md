@@ -10,6 +10,7 @@ keywords: ["CWiauFormatConverter::IsFormatSupported"]
 ms.keywords: CWiauFormatConverter interface [Imaging Devices],IsFormatSupported method, CWiauFormatConverter.IsFormatSupported, CWiauFormatConverter::IsFormatSupported, IsFormatSupported, IsFormatSupported method [Imaging Devices], IsFormatSupported method [Imaging Devices],CWiauFormatConverter interface, image.cwiauformatconverter_isformatsupported, wiauFncs_894f0261-249e-4b7c-aaa1-43a52bd48fbf.xml, wiautil/CWiauFormatConverter::IsFormatSupported
 f1_keywords:
  - "wiautil/CWiauFormatConverter.IsFormatSupported"
+ - "CWiauFormatConverter.IsFormatSupported"
 req.header: wiautil.h
 req.include-header: Wiautil.h, Wiamindr.h
 req.target-type: Desktop

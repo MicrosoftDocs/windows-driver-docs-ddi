@@ -7,6 +7,7 @@ ms.date: 09/21/2018
 keywords: ["IPreferredRuntimeTypeConcept::AddRef"]
 f1_keywords:
  - "dbgmodel/IPreferredRuntimeTypeConcept.AddRef"
+ - "IPreferredRuntimeTypeConcept.AddRef"
 ms.keywords: IPreferredRuntimeTypeConcept::AddRef, AddRef, IPreferredRuntimeTypeConcept.AddRef, IPreferredRuntimeTypeConcept::AddRef, IPreferredRuntimeTypeConcept.AddRef
 req.header: dbgmodel.h
 req.include-header:

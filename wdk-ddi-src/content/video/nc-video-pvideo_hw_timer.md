@@ -10,6 +10,7 @@ keywords: ["PVIDEO_HW_TIMER callback function"]
 ms.keywords: HwVidTimer, HwVidTimer callback function [Display Devices], PVIDEO_HW_TIMER, PVIDEO_HW_TIMER callback, VideoMiniport_Functions_80fa0df4-2b7c-4ffa-9048-e252b8af26cf.xml, display.hwvidtimer, video/HwVidTimer
 f1_keywords:
  - "video/HwVidTimer"
+ - "HwVidTimer"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

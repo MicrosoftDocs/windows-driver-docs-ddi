@@ -10,6 +10,7 @@ keywords: ["RILCALLINFOSTATUS enumeration"]
 ms.keywords: RILCALLINFOSTATUS, RILCALLINFOSTATUS enumeration [Network Drivers Starting with Windows Vista], RIL_CPISTAT_CONNECTED, RIL_CPISTAT_DISCONNECTED, RIL_CPISTAT_HANDOVER, RIL_CPISTAT_MAX, RIL_CPISTAT_MEDIA, RIL_CPISTAT_NEW_INCOMING, RIL_CPISTAT_NEW_OUTGOING, RIL_CPISTAT_ONHOLD, netvista.rilcallinfostatus, ntddrilapitypes/RILCALLINFOSTATUS, ntddrilapitypes/RIL_CPISTAT_CONNECTED, ntddrilapitypes/RIL_CPISTAT_DISCONNECTED, ntddrilapitypes/RIL_CPISTAT_HANDOVER, ntddrilapitypes/RIL_CPISTAT_MAX, ntddrilapitypes/RIL_CPISTAT_MEDIA, ntddrilapitypes/RIL_CPISTAT_NEW_INCOMING, ntddrilapitypes/RIL_CPISTAT_NEW_OUTGOING, ntddrilapitypes/RIL_CPISTAT_ONHOLD
 f1_keywords:
  - "rilapitypes/RILCALLINFOSTATUS"
+ - "RILCALLINFOSTATUS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

@@ -9,6 +9,7 @@ keywords: ["D3DKMTWaitForIdle function"]
 ms.keywords: D3DKMTWaitForIdle, D3DKMTWaitForIdle function [Display Devices], OpenGL_Functions_80855290-d991-4e03-aa64-f0fb486c57b0.xml, d3dkmthk/D3DKMTWaitForIdle, display.d3dkmtwaitforidle
 f1_keywords:
  - "d3dkmthk/D3DKMTWaitForIdle"
+ - "D3DKMTWaitForIdle"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

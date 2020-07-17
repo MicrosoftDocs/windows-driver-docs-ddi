@@ -10,6 +10,7 @@ keywords: ["IWDFUsbTargetDevice::RetrieveDescriptor"]
 ms.keywords: IWDFUsbTargetDevice interface,RetrieveDescriptor method, IWDFUsbTargetDevice.RetrieveDescriptor, IWDFUsbTargetDevice::RetrieveDescriptor, RetrieveDescriptor, RetrieveDescriptor method, RetrieveDescriptor method,IWDFUsbTargetDevice interface, UMDFUSBref_8b9eb5fc-8bd6-4eee-9f54-f1e4d37e5b9e.xml, umdf.iwdfusbtargetdevice_retrievedescriptor, wdf.iwdfusbtargetdevice_retrievedescriptor, wudfusb/IWDFUsbTargetDevice::RetrieveDescriptor
 f1_keywords:
  - "wudfusb/IWDFUsbTargetDevice.RetrieveDescriptor"
+ - "IWDFUsbTargetDevice.RetrieveDescriptor"
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
 req.target-type: Desktop

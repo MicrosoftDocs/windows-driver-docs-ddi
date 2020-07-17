@@ -10,6 +10,7 @@ keywords: ["_TRANSACTION_OUTCOME enumeration"]
 ms.keywords: TRANSACTION_OUTCOME, TRANSACTION_OUTCOME enumeration [Kernel-Mode Driver Architecture], TransactionOutcomeAborted, TransactionOutcomeCommitted, TransactionOutcomeUndetermined, _TRANSACTION_OUTCOME, kernel.transaction_outcome, ktm_ref_e1c01db3-bc06-43d4-a046-f94af84782e8.xml, wdm/TRANSACTION_OUTCOME, wdm/TransactionOutcomeAborted, wdm/TransactionOutcomeCommitted, wdm/TransactionOutcomeUndetermined
 f1_keywords:
  - "wdm/TRANSACTION_OUTCOME"
+ - "TRANSACTION_OUTCOME"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows

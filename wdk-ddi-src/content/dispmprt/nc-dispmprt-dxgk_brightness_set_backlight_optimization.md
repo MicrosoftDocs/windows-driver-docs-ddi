@@ -10,6 +10,7 @@ keywords: ["DXGK_BRIGHTNESS_SET_BACKLIGHT_OPTIMIZATION callback function"]
 ms.keywords: DXGK_BRIGHTNESS_SET_BACKLIGHT_OPTIMIZATION, DXGK_BRIGHTNESS_SET_BACKLIGHT_OPTIMIZATION callback, DxgkDdiSetBacklightOptimization, DxgkDdiSetBacklightOptimization callback function [Display Devices], display.dxgkddisetbacklightoptimization, dispmprt/DxgkDdiSetBacklightOptimization
 f1_keywords:
  - "dispmprt/DxgkDdiSetBacklightOptimization"
+ - "DxgkDdiSetBacklightOptimization"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop

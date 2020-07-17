@@ -10,6 +10,7 @@ keywords: ["wiauSetImageItemSize function"]
 ms.keywords: image.wiausetimageitemsize, wiauFncs_9def0e29-20fe-4e9b-b473-a2dbca9088da.xml, wiauSetImageItemSize, wiauSetImageItemSize function [Imaging Devices], wiautil/wiauSetImageItemSize
 f1_keywords:
  - "wiautil/wiauSetImageItemSize"
+ - "wiauSetImageItemSize"
 req.header: wiautil.h
 req.include-header: Wiautil.h
 req.target-type: Desktop

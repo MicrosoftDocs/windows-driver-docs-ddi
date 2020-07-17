@@ -10,6 +10,7 @@ keywords: ["_PEP_PPM_IDLE_COMPLETE structure"]
 ms.keywords: "*PPEP_PPM_IDLE_COMPLETE, PEP_PPM_IDLE_COMPLETE, PEP_PPM_IDLE_COMPLETE structure [Kernel-Mode Driver Architecture], PPEP_PPM_IDLE_COMPLETE, PPEP_PPM_IDLE_COMPLETE structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_IDLE_COMPLETE, kernel.pep_ppm_idle_complete, pepfx/PEP_PPM_IDLE_COMPLETE, pepfx/PPEP_PPM_IDLE_COMPLETE"
 f1_keywords:
  - "pep_x/PEP_PPM_IDLE_COMPLETE"
+ - "PEP_PPM_IDLE_COMPLETE"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows

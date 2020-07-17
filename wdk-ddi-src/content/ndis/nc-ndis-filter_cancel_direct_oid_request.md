@@ -10,6 +10,7 @@ keywords: ["FILTER_CANCEL_DIRECT_OID_REQUEST callback function"]
 ms.keywords: FILTER_CANCEL_DIRECT_OID_REQUEST, FILTER_CANCEL_DIRECT_OID_REQUEST callback, FilterCancelDirectOidRequest, FilterCancelDirectOidRequest callback function [Network Drivers Starting with Windows Vista], ndis/FilterCancelDirectOidRequest, ndis_request_direct_ref_e9bd9db7-8a50-485e-9592-e43461963137.xml, netvista.filtercanceldirectoidrequest
 f1_keywords:
  - "ndis/FilterCancelDirectOidRequest"
+ - "FilterCancelDirectOidRequest"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

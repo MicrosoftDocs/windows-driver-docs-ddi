@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DlVerifyAccessRanges function"]
 f1_keywords:
  - "dispmprt/DlVerifyAccessRanges"
+ - "DlVerifyAccessRanges"
 ms.keywords: DlVerifyAccessRanges
 req.header: dispmprt.h
 req.include-header:

@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS structure"]
 ms.keywords: D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS, D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS structure [Display Devices], _D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS, d3dkmddi/D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS, display.d3dkmt_present_display_only_flags
 f1_keywords:
  - "d3dkmddi/D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS"
+ - "D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

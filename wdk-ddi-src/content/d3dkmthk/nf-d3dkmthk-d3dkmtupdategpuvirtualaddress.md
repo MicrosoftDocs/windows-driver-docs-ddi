@@ -9,6 +9,7 @@ keywords: ["D3DKMTUpdateGpuVirtualAddress function"]
 ms.keywords: D3DKMTUpdateGpuVirtualAddress, D3DKMTUpdateGpuVirtualAddress function [Display Devices], d3dkmthk/D3DKMTUpdateGpuVirtualAddress, display.d3dkmtupdategpuvirtualaddress
 f1_keywords:
  - "d3dkmthk/D3DKMTUpdateGpuVirtualAddress"
+ - "D3DKMTUpdateGpuVirtualAddress"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["READ_REGISTER_USHORT function"]
 ms.keywords: READ_REGISTER_USHORT, READ_REGISTER_USHORT function, umdf.read_register_ushort, wdf.read_register_ushort, wudfddi_hwaccess/READ_REGISTER_USHORT
 f1_keywords:
  - "wudfddi_hwaccess/READ_REGISTER_USHORT"
+ - "READ_REGISTER_USHORT"
 req.header: wudfddi_hwaccess.h
 req.include-header: 
 req.target-type: Desktop

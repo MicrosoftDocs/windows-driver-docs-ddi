@@ -10,6 +10,7 @@ keywords: ["D3DDDIARG_TRIMRESIDENCYSET structure"]
 ms.keywords: D3DDDIARG_TRIMRESIDENCYSET, D3DDDIARG_TRIMRESIDENCYSET structure [Display Devices], d3dumddi/D3DDDIARG_TRIMRESIDENCYSET, display.d3dddiarg_trimresidencyset
 f1_keywords:
  - "d3dumddi/D3DDDIARG_TRIMRESIDENCYSET"
+ - "D3DDDIARG_TRIMRESIDENCYSET"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

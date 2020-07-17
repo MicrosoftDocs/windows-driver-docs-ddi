@@ -10,6 +10,7 @@ keywords: ["D3DDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO structure"]
 ms.keywords: D3DDDI_MULTIPLANE_ALLOCATION_INFO, D3DDDI_MULTIPLANE_ALLOCATION_INFO structure [Display Devices], D3DDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO, d3dumddi/D3DDDI_MULTIPLANE_ALLOCATION_INFO, display.d3dddi_multiplane_allocation_info
 f1_keywords:
  - "d3dumddi/D3DDDI_MULTIPLANE_ALLOCATION_INFO"
+ - "D3DDDI_MULTIPLANE_ALLOCATION_INFO"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

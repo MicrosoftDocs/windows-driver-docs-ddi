@@ -10,6 +10,7 @@ keywords: ["UcxEndpointNeedToCancelTransfers function"]
 ms.keywords: UcxEndpointNeedToCancelTransfers, UcxEndpointNeedToCancelTransfers method [Buses], buses._ucxendpointneedtocanceltransfers, ucxendpoint/UcxEndpointNeedToCancelTransfers
 f1_keywords:
  - "ucxendpoint/UcxEndpointNeedToCancelTransfers"
+ - "UcxEndpointNeedToCancelTransfers"
 req.header: ucxendpoint.h
 req.include-header: Ucxclass.h, Ucxendpoint.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["RtlStringCbCatNExW function"]
 ms.keywords: RtlStringCbCatNEx, RtlStringCbCatNExA, RtlStringCbCatNExW, RtlStringCbCatNExW function [Kernel-Mode Driver Architecture], STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, kernel.rtlstringcbcatnex, ntstrsafe/RtlStringCbCatNExA, ntstrsafe/RtlStringCbCatNExW, safestrings_9e639754-980b-4a6d-9760-b826a8e09351.xml
 f1_keywords:
  - "ntstrsafe/RtlStringCbCatNExW"
+ - "RtlStringCbCatNExW"
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["VideoPortReadPortBufferUshort function"]
 ms.keywords: VideoPortReadPortBufferUshort, VideoPortReadPortBufferUshort function [Display Devices], VideoPort_Functions_598e11ff-25be-4b55-a86f-130100ed0972.xml, display.videoportreadportbufferushort, video/VideoPortReadPortBufferUshort
 f1_keywords:
  - "video/VideoPortReadPortBufferUshort"
+ - "VideoPortReadPortBufferUshort"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

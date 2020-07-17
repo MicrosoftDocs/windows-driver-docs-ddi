@@ -10,6 +10,7 @@ keywords: ["KSPROPERTY_QUALITY enumeration"]
 ms.keywords: KSPROPERTY_QUALITY, KSPROPERTY_QUALITY enumeration [Streaming Media Devices], KSPROPERTY_QUALITY_ERROR, KSPROPERTY_QUALITY_REPORT, ks/KSPROPERTY_QUALITY, ks/KSPROPERTY_QUALITY_ERROR, ks/KSPROPERTY_QUALITY_REPORT, stream.ksproperty_quality
 f1_keywords:
  - "ks/KSPROPERTY_QUALITY"
+ - "KSPROPERTY_QUALITY"
 req.header: ks.h
 req.include-header: 
 req.target-type: Windows

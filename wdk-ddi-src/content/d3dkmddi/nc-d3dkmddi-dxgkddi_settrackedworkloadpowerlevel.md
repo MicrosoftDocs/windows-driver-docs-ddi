@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["DXGKDDI_SETTRACKEDWORKLOADPOWERLEVEL callback function"]
 f1_keywords:
  - "d3dkmddi/DXGKDDI_SETTRACKEDWORKLOADPOWERLEVEL"
+ - "DXGKDDI_SETTRACKEDWORKLOADPOWERLEVEL"
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type:

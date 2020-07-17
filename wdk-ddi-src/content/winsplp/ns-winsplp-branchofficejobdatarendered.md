@@ -10,6 +10,7 @@ keywords: ["BranchOfficeJobDataRendered structure"]
 ms.keywords: "*PBranchOfficeJobDataRendered, BranchOfficeJobDataRendered, BranchOfficeJobDataRendered structure [Print Devices], PBranchOfficeJobDataRendered, PBranchOfficeJobDataRendered structure pointer [Print Devices], print.branchofficejobdatarendered, winsplp/BranchOfficeJobDataRendered, winsplp/PBranchOfficeJobDataRendered"
 f1_keywords:
  - "winsplp/BranchOfficeJobDataRendered"
+ - "BranchOfficeJobDataRendered"
 req.header: winsplp.h
 req.include-header: 
 req.target-type: Windows

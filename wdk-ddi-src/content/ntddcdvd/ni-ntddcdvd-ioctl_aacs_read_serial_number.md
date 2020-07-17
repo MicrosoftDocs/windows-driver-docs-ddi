@@ -10,6 +10,7 @@ keywords: ["IOCTL_AACS_READ_SERIAL_NUMBER IOCTL"]
 ms.keywords: IOCTL_AACS_READ_SERIAL_NUMBER, IOCTL_AACS_READ_SERIAL_NUMBER control, IOCTL_AACS_READ_SERIAL_NUMBER control code [Storage Devices], k307_039c336e-5b51-4a22-83bc-1b28d5ba5a33.xml, ntddcdvd/IOCTL_AACS_READ_SERIAL_NUMBER, storage.ioctl_aacs_read_serial_number
 f1_keywords:
  - "ntddcdvd/IOCTL_AACS_READ_SERIAL_NUMBER"
+ - "IOCTL_AACS_READ_SERIAL_NUMBER"
 req.header: ntddcdvd.h
 req.include-header: Ntddcdvd.h
 req.target-type: Windows

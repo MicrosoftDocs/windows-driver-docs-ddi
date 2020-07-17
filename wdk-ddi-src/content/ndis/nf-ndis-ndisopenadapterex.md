@@ -10,6 +10,7 @@ keywords: ["NdisOpenAdapterEx function"]
 ms.keywords: NdisOpenAdapterEx, NdisOpenAdapterEx function [Network Drivers Starting with Windows Vista], ndis/NdisOpenAdapterEx, netvista.ndisopenadapterex, protocol_ndis_functions_ref_7ea04244-bfbb-460d-86f3-35e908850c6a.xml
 f1_keywords:
  - "ndis/NdisOpenAdapterEx"
+ - "NdisOpenAdapterEx"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["_HIDP_REPORT_IDS structure"]
 ms.keywords: "*PHIDP_REPORT_IDS, HIDP_REPORT_IDS, HIDP_REPORT_IDS structure [Human Input Devices], PHIDP_REPORT_IDS, PHIDP_REPORT_IDS structure pointer [Human Input Devices], _HIDP_REPORT_IDS, hid.hidp_report_ids, hidpddi/HIDP_REPORT_IDS, hidpddi/PHIDP_REPORT_IDS"
 f1_keywords:
  - "hidpddi/HIDP_REPORT_IDS"
+ - "HIDP_REPORT_IDS"
 req.header: hidpddi.h
 req.include-header: Hidpddi.h
 req.target-type: Windows

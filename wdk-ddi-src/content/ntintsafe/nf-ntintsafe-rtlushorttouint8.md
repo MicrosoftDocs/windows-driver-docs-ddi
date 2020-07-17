@@ -10,6 +10,7 @@ keywords: ["RtlUShortToUInt8 function"]
 ms.keywords: RtlUShortToUInt8, RtlUShortToUInt8 function [Kernel-Mode Driver Architecture], kernel.rtlushorttouint8, ntintsafe/RtlUShortToUInt8
 f1_keywords:
  - "ntintsafe/RtlUShortToUInt8"
+ - "RtlUShortToUInt8"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

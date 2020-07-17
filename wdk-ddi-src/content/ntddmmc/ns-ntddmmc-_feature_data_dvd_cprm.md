@@ -10,6 +10,7 @@ keywords: ["_FEATURE_DATA_DVD_CPRM structure"]
 ms.keywords: "*PFEATURE_DATA_DVD_CPRM, FEATURE_DATA_DVD_CPRM, FEATURE_DATA_DVD_CPRM structure [Storage Devices], PFEATURE_DATA_DVD_CPRM, PFEATURE_DATA_DVD_CPRM structure pointer [Storage Devices], _FEATURE_DATA_DVD_CPRM, ntddmmc/FEATURE_DATA_DVD_CPRM, ntddmmc/PFEATURE_DATA_DVD_CPRM, storage.feature_data_dvd_cprm, structs-CD-ROM_376d4f99-5d92-48ad-b126-d1f6858e7fac.xml"
 f1_keywords:
  - "ntddmmc/FEATURE_DATA_DVD_CPRM"
+ - "FEATURE_DATA_DVD_CPRM"
 req.header: ntddmmc.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows

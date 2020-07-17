@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["WHEA_PFA_REMOVE_TRIGGER enumeration"]
 f1_keywords:
  - "ntddk/WHEA_PFA_REMOVE_TRIGGER"
+ - "WHEA_PFA_REMOVE_TRIGGER"
 ms.keywords: WHEA_PFA_REMOVE_TRIGGER, WHEA_PFA_REMOVE_TRIGGER, *PWHEA_PFA_REMOVE_TRIGGER, 
 req.header: ntddk.h
 req.include-header:

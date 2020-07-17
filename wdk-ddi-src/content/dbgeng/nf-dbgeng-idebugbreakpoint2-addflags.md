@@ -10,6 +10,7 @@ keywords: ["IDebugBreakpoint2::AddFlags"]
 ms.keywords: AddFlags, AddFlags method [Windows Debugging], AddFlags method [Windows Debugging],IDebugBreakpoint interface, AddFlags method [Windows Debugging],IDebugBreakpoint2 interface, ComOther_2becec27-600b-4d57-93b0-8a794ff2f068.xml, IDebugBreakpoint interface [Windows Debugging],AddFlags method, IDebugBreakpoint2 interface [Windows Debugging],AddFlags method, IDebugBreakpoint2.AddFlags, IDebugBreakpoint2::AddFlags, IDebugBreakpoint::AddFlags, dbgeng/IDebugBreakpoint2::AddFlags, dbgeng/IDebugBreakpoint::AddFlags, debugger.addflags
 f1_keywords:
  - "dbgeng/IDebugBreakpoint.AddFlags"
+ - "IDebugBreakpoint.AddFlags"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

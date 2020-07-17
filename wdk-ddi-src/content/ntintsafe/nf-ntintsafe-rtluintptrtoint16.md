@@ -10,6 +10,7 @@ keywords: ["RtlUIntPtrToInt16 function"]
 ms.keywords: RtlUIntPtrToInt16, RtlUIntPtrToInt16 function [Kernel-Mode Driver Architecture], kernel.rtluintptrtoint16, ntintsafe/RtlUIntPtrToInt16
 f1_keywords:
  - "ntintsafe/RtlUIntPtrToInt16"
+ - "RtlUIntPtrToInt16"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

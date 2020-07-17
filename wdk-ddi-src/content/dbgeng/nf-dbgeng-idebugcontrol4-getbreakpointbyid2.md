@@ -10,6 +10,7 @@ keywords: ["IDebugControl4::GetBreakpointById2"]
 ms.keywords: GetBreakpointById2, GetBreakpointById2 method [Windows Debugging], GetBreakpointById2 method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetBreakpointById2 method, IDebugControl4.GetBreakpointById2, IDebugControl4::GetBreakpointById2, dbgeng/IDebugControl4::GetBreakpointById2, debugger.getbreakpointbyid2
 f1_keywords:
  - "dbgeng/IDebugControl4.GetBreakpointById2"
+ - "IDebugControl4.GetBreakpointById2"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

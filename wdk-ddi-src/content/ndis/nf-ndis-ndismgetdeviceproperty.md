@@ -10,6 +10,7 @@ keywords: ["NdisMGetDeviceProperty function"]
 ms.keywords: NdisMGetDeviceProperty, NdisMGetDeviceProperty function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_849a967a-d488-4440-a9b5-9c7fbc247acd.xml, ndis/NdisMGetDeviceProperty, netvista.ndismgetdeviceproperty
 f1_keywords:
  - "ndis/NdisMGetDeviceProperty"
+ - "NdisMGetDeviceProperty"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

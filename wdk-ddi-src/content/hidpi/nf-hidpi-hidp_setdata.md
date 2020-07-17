@@ -10,6 +10,7 @@ keywords: ["HidP_SetData function"]
 ms.keywords: HidP_SetData, HidP_SetData routine [Human Input Devices], hid.hidp_setdata, hidfunc_4b2f18db-e7a2-432d-abd6-51240a0ffc91.xml, hidpi/HidP_SetData
 f1_keywords:
  - "hidpi/HidP_SetData"
+ - "HidP_SetData"
 req.header: hidpi.h
 req.include-header: Hidpi.h
 req.target-type: Universal

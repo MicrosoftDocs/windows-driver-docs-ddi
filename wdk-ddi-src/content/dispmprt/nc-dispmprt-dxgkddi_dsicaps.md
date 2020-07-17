@@ -35,6 +35,7 @@ api_name:
  - DXGKDDI_DSICAPS
 f1_keywords:
  - dispmprt/DXGKDDI_DSICAPS
+ - ""
 dev_langs:
  - c++
 ---

@@ -10,6 +10,7 @@ keywords: ["IDebugClient5::GetRunningProcessDescriptionWide"]
 ms.keywords: GetRunningProcessDescriptionWide, GetRunningProcessDescriptionWide method [Windows Debugging], GetRunningProcessDescriptionWide method [Windows Debugging],IDebugClient3 interface, GetRunningProcessDescriptionWide method [Windows Debugging],IDebugClient4 interface, GetRunningProcessDescriptionWide method [Windows Debugging],IDebugClient5 interface, IDebugClient3 interface [Windows Debugging],GetRunningProcessDescriptionWide method, IDebugClient3::GetRunningProcessDescriptionWide, IDebugClient4 interface [Windows Debugging],GetRunningProcessDescriptionWide method, IDebugClient4::GetRunningProcessDescriptionWide, IDebugClient5 interface [Windows Debugging],GetRunningProcessDescriptionWide method, IDebugClient5.GetRunningProcessDescriptionWide, IDebugClient5::GetRunningProcessDescriptionWide, dbgeng/IDebugClient3::GetRunningProcessDescriptionWide, dbgeng/IDebugClient4::GetRunningProcessDescriptionWide, dbgeng/IDebugClient5::GetRunningProcessDescriptionWide, debugger.getrunningprocessdescriptionwide
 f1_keywords:
  - "dbgeng/IDebugClient3.GetRunningProcessDescriptionWide"
+ - "IDebugClient3.GetRunningProcessDescriptionWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

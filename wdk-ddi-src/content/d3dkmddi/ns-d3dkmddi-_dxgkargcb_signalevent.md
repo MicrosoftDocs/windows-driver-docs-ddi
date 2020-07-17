@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_DXGKARGCB_SIGNALEVENT structure"]
 f1_keywords:
  - "d3dkmddi/_DXGKARGCB_SIGNALEVENT"
+ - "_DXGKARGCB_SIGNALEVENT"
 ms.keywords: _DXGKARGCB_SIGNALEVENT, DXGKARGCB_SIGNALEVENT, 
 req.header: d3dkmddi.h
 req.include-header:

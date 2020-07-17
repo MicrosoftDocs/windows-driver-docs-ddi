@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMTTrimProcessCommitment function"]
 f1_keywords:
  - "d3dkmthk/D3DKMTTrimProcessCommitment"
+ - "D3DKMTTrimProcessCommitment"
 ms.keywords: D3DKMTTrimProcessCommitment
 req.header: d3dkmthk.h
 req.include-header:

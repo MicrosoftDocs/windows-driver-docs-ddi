@@ -10,6 +10,7 @@ keywords: ["UdecxUrbRetrieveBuffer function"]
 ms.keywords: UdecxUrbRetrieveBuffer, UdecxUrbRetrieveBuffer function [Buses], buses.udecxurbretrievebuffer, udecxurb/UdecxUrbRetrieveBuffer
 f1_keywords:
  - "udecxurb/UdecxUrbRetrieveBuffer"
+ - "UdecxUrbRetrieveBuffer"
 req.header: udecxurb.h
 req.include-header: Udecx.h
 req.target-type: Windows

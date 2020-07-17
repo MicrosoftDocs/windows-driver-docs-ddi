@@ -10,6 +10,7 @@ keywords: ["NDIS_SWITCH_UPDATE_NET_BUFFER_LIST_DESTINATIONS callback function"]
 ms.keywords: NDIS_SWITCH_UPDATE_NET_BUFFER_LIST_DESTINATIONS, NDIS_SWITCH_UPDATE_NET_BUFFER_LIST_DESTINATIONS callback, UpdateNetBufferListDestinations, UpdateNetBufferListDestinations callback function [Network Drivers Starting with Windows Vista], ndis/UpdateNetBufferListDestinations, netvista.UpdateNetBufferListDestinations
 f1_keywords:
  - "ndis/UpdateNetBufferListDestinations"
+ - "UpdateNetBufferListDestinations"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["PcForwardContentToFileObject function"]
 ms.keywords: PcForwardContentToFileObject, PcForwardContentToFileObject function [Audio Devices], audio.pcforwardcontenttofileobject, audpc-routines_2560382f-57c9-4d3c-9ba0-330374e18663.xml, portcls/PcForwardContentToFileObject
 f1_keywords:
  - "portcls/PcForwardContentToFileObject"
+ - "PcForwardContentToFileObject"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["RIL_GetDeviceInfo function"]
 ms.keywords: RIL_GetDeviceInfo, RIL_GetDeviceInfo method [Network Drivers Starting with Windows Vista], netvista.ril_getdeviceinfo, rilapi/RIL_GetDeviceInfo
 f1_keywords:
  - "rilapi/RIL_GetDeviceInfo"
+ - "RIL_GetDeviceInfo"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

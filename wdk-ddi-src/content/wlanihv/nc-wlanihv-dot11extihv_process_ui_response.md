@@ -10,6 +10,7 @@ keywords: ["DOT11EXTIHV_PROCESS_UI_RESPONSE callback"]
 ms.keywords: DOT11EXTIHV_PROCESS_UI_RESPONSE, Dot11ExtIhvProcessUIResponse, Dot11ExtIhvProcessUIResponse callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_6bf65442-0a9a-4061-81a3-855b0ae80df4.xml, netvista.dot11extihvprocessuiresponse, wlanihv/Dot11ExtIhvProcessUIResponse
 f1_keywords:
  - "wlanihv/Dot11ExtIhvProcessUIResponse"
+ - "Dot11ExtIhvProcessUIResponse"
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Desktop

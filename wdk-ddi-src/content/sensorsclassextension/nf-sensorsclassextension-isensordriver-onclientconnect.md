@@ -10,6 +10,7 @@ keywords: ["ISensorDriver::OnClientConnect"]
 ms.keywords: ISensorDriver interface [Sensor Devices],OnClientConnect method, ISensorDriver.OnClientConnect, ISensorDriver::OnClientConnect, OnClientConnect, OnClientConnect method [Sensor Devices], OnClientConnect method [Sensor Devices],ISensorDriver interface, sensors.isensordriver_onclientconnect, sensorsclassextension/ISensorDriver::OnClientConnect
 f1_keywords:
  - "sensorsclassextension/OnClientConnect"
+ - "OnClientConnect"
 req.header: sensorsclassextension.h
 req.include-header: 
 req.target-type: Windows

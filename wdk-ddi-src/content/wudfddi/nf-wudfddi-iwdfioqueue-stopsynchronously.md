@@ -10,6 +10,7 @@ keywords: ["IWDFIoQueue::StopSynchronously"]
 ms.keywords: IWDFIoQueue interface,StopSynchronously method, IWDFIoQueue.StopSynchronously, IWDFIoQueue::StopSynchronously, StopSynchronously, StopSynchronously method, StopSynchronously method,IWDFIoQueue interface, UMDFQueueObjectRef_18e42c5a-ade3-4d81-8af1-bd19655650e7.xml, umdf.iwdfioqueue_stopsynchronously, wdf.iwdfioqueue_stopsynchronously, wudfddi/IWDFIoQueue::StopSynchronously
 f1_keywords:
  - "wudfddi/IWDFIoQueue.StopSynchronously"
+ - "IWDFIoQueue.StopSynchronously"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

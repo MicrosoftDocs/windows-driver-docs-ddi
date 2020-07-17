@@ -9,6 +9,7 @@ keywords: ["_DXGKARG_COMMITVIDPN_FLAGS structure"]
 ms.keywords: DXGKARG_COMMITVIDPN_FLAGS, DXGKARG_COMMITVIDPN_FLAGS structure [Display Devices], DmStructs_267e916a-7058-4ce7-892d-9ed9d6f74bce.xml, _DXGKARG_COMMITVIDPN_FLAGS, d3dkmddi/DXGKARG_COMMITVIDPN_FLAGS, display.dxgkarg_commitvidpn_flags
 f1_keywords:
  - "d3dkmddi/DXGKARG_COMMITVIDPN_FLAGS"
+ - "DXGKARG_COMMITVIDPN_FLAGS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

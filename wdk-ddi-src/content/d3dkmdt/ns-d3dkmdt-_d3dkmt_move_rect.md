@@ -10,6 +10,7 @@ keywords: ["_D3DKMT_MOVE_RECT structure"]
 ms.keywords: D3DKMT_MOVE_RECT, D3DKMT_MOVE_RECT structure [Display Devices], _D3DKMT_MOVE_RECT, d3dkmdt/D3DKMT_MOVE_RECT, display.d3dkmt_move_rect
 f1_keywords:
  - "d3dkmdt/D3DKMT_MOVE_RECT"
+ - "D3DKMT_MOVE_RECT"
 req.header: d3dkmdt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["_WWAN_SERVICE_ACTIVATION_STATUS structure"]
 ms.keywords: "*PWWAN_SERVICE_ACTIVATION_STATUS, PWWAN_SERVICE_ACTIVATION_STATUS, PWWAN_SERVICE_ACTIVATION_STATUS structure pointer [Network Drivers Starting with Windows Vista], WWAN_SERVICE_ACTIVATION_STATUS, WWAN_SERVICE_ACTIVATION_STATUS structure [Network Drivers Starting with Windows Vista], WwanRef_b9086c08-c7df-46f1-8ce2-c056dd667eac.xml, _WWAN_SERVICE_ACTIVATION_STATUS, netvista.wwan_service_activation_status, wwan/PWWAN_SERVICE_ACTIVATION_STATUS, wwan/WWAN_SERVICE_ACTIVATION_STATUS"
 f1_keywords:
  - "wwan/WWAN_SERVICE_ACTIVATION_STATUS"
+ - "WWAN_SERVICE_ACTIVATION_STATUS"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows

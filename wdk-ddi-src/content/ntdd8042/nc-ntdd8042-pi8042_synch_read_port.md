@@ -10,6 +10,7 @@ keywords: ["PI8042_SYNCH_READ_PORT callback function"]
 ms.keywords: PI8042_SYNCH_READ_PORT, PI8042_SYNCH_READ_PORT callback, SynchReadPort, SynchReadPort callback function [Human Input Devices], hid.pi8042_synch_read_port, i8042ref_be606020-f80b-4347-883d-71378e5fa59d.xml, ntdd8042/SynchReadPort
 f1_keywords:
  - "ntdd8042/SynchReadPort"
+ - "SynchReadPort"
 req.header: ntdd8042.h
 req.include-header: Ntdd8042.h
 req.target-type: Desktop

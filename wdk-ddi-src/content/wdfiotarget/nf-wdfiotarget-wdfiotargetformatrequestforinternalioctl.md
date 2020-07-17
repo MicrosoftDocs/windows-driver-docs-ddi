@@ -10,6 +10,7 @@ keywords: ["WdfIoTargetFormatRequestForInternalIoctl function"]
 ms.keywords: DFIOTargetRef_be699aa7-773f-4395-9328-4c4d595c3aba.xml, WdfIoTargetFormatRequestForInternalIoctl, WdfIoTargetFormatRequestForInternalIoctl method, kmdf.wdfiotargetformatrequestforinternalioctl, wdf.wdfiotargetformatrequestforinternalioctl, wdfiotarget/WdfIoTargetFormatRequestForInternalIoctl
 f1_keywords:
  - "wdfiotarget/WdfIoTargetFormatRequestForInternalIoctl"
+ - "WdfIoTargetFormatRequestForInternalIoctl"
 req.header: wdfiotarget.h
 req.include-header: Wdf.h
 req.target-type: Universal

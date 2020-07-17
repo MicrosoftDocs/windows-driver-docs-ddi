@@ -12,6 +12,7 @@ ms.keywords: RtlInitUTF8StringEx
 req.header: ntifs.h
 f1_keywords:
  - "ntifs/RtlInitUTF8StringEx"
+ - "RtlInitUTF8StringEx"
 req.include-header:
 req.target-type:
 req.target-min-winverclnt: Windows 10, version 2004

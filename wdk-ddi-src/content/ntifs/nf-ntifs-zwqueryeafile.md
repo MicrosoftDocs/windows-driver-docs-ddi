@@ -10,6 +10,7 @@ keywords: ["ZwQueryEaFile function"]
 ms.keywords: ZwQueryEaFile, ZwQueryEaFile routine [Kernel-Mode Driver Architecture], kernel.zwqueryeafile, ntifs/ZwQueryEaFile
 f1_keywords:
  - "ntifs/ZwQueryEaFile"
+ - "ZwQueryEaFile"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal

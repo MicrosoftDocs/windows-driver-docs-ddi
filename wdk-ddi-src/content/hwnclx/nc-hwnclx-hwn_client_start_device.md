@@ -10,6 +10,7 @@ keywords: ["HWN_CLIENT_START_DEVICE callback"]
 ms.keywords: "*PHWN_CLIENT_START_DEVICE, *PHWN_CLIENT_START_DEVICE callback function pointer, HWN_CLIENT_START_DEVICE, HwnClientStartDevice, HwnClientStartDevice callback function, gpiobtn.hwn_client_start_device, hwnclx/HwnClientStartDevice"
 f1_keywords:
  - "hwnclx/*PHWN_CLIENT_START_DEVICE"
+ - "*PHWN_CLIENT_START_DEVICE"
 req.header: hwnclx.h
 req.include-header:
 req.target-type: Windows

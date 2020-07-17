@@ -10,6 +10,7 @@ keywords: ["IAllocatorMXF interface"]
 ms.keywords: IAllocatorMXF, IAllocatorMXF interface [Audio Devices], IAllocatorMXF interface [Audio Devices],described, audio.iallocatormxf, audmp-routines_3ab3f61f-aa26-4a37-b1ff-68c1b0ae97c4.xml, dmusicks/IAllocatorMXF
 f1_keywords:
  - "dmusicks/IAllocatorMXF"
+ - "IAllocatorMXF"
 req.header: dmusicks.h
 req.include-header: 
 req.target-type: Windows

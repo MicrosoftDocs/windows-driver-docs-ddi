@@ -10,6 +10,7 @@ keywords: ["WDF_WRITE_PORT_BUFFER_ULONG function"]
 ms.keywords: WDF_WRITE_PORT_BUFFER_ULONG, WDF_WRITE_PORT_BUFFER_ULONG function, wdf.wdf_write_port_buffer_ulong, wdfhwaccess/WDF_WRITE_PORT_BUFFER_ULONG
 f1_keywords:
  - "wdfhwaccess/WDF_WRITE_PORT_BUFFER_ULONG"
+ - "WDF_WRITE_PORT_BUFFER_ULONG"
 req.header: wdfhwaccess.h
 req.include-header: 
 req.target-type: Universal

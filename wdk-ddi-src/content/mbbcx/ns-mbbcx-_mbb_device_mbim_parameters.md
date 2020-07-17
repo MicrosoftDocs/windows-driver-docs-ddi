@@ -8,6 +8,7 @@ ms.date: 02/06/2019
 keywords: ["_MBB_DEVICE_MBIM_PARAMETERS structure"]
 f1_keywords:
  - "mbbcx/-	_MBB_DEVICE_MBIM_PARAMETERS"
+ - "-	_MBB_DEVICE_MBIM_PARAMETERS"
 ms.keywords: _MBB_DEVICE_MBIM_PARAMETERS, MBB_DEVICE_MBIM_PARAMETERS, *PMBB_DEVICE_MBIM_PARAMETERS, 
 req.header: mbbcx.h
 req.include-header:

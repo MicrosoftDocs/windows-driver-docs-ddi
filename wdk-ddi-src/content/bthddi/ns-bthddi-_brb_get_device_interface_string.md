@@ -10,6 +10,7 @@ keywords: ["_BRB_GET_DEVICE_INTERFACE_STRING structure"]
 ms.keywords: "_BRB_GET_DEVICE_INTERFACE_STRING, _BRB_GET_DEVICE_INTERFACE_STRING structure [Bluetooth Devices], bltooth._brb_get_device_interface_string, bth_structs_3d85c9ac-2714-4d6c-8a3e-f8908d8e5be9.xml, bthddi/_BRB_GET_DEVICE_INTERFACE_STRING"
 f1_keywords:
  - "bthddi/_BRB_GET_DEVICE_INTERFACE_STRING"
+ - "_BRB_GET_DEVICE_INTERFACE_STRING"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.date: 10/19/2018
 keywords: ["_NVME_RESERVED_CQ_INFO structure"]
 f1_keywords:
  - "ntddstor/_NVME_RESERVED_CQ_INFO"
+ - "_NVME_RESERVED_CQ_INFO"
 ms.keywords: _NVME_RESERVED_CQ_INFO, NVME_RESERVED_CQ_INFO, *PNVME_RESERVED_CQ_INFO, 
 req.header: ntddstor.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["IKsPinPipe::KsSetPinBusCache"]
 ms.keywords: IKsPinPipe interface [Streaming Media Devices],KsSetPinBusCache method, IKsPinPipe.KsSetPinBusCache, IKsPinPipe::KsSetPinBusCache, KsSetPinBusCache, KsSetPinBusCache method [Streaming Media Devices], KsSetPinBusCache method [Streaming Media Devices],IKsPinPipe interface, ksproxy/IKsPinPipe::KsSetPinBusCache, stream.ikspinpipe_kssetpinbuscache
 f1_keywords:
  - "ksproxy/IKsPinPipe.KsSetPinBusCache"
+ - "IKsPinPipe.KsSetPinBusCache"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Windows

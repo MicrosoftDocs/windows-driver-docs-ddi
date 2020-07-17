@@ -10,6 +10,7 @@ keywords: ["NDK_FN_GET_LOCAL_ADDRESS callback function"]
 ms.keywords: NDK_FN_GET_LOCAL_ADDRESS, NDK_FN_GET_LOCAL_ADDRESS callback, NdkGetLocalAddress, NdkGetLocalAddress callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkGetLocalAddress, netvista.ndk_fn_get_local_address
 f1_keywords:
  - "ndkpi/NdkGetLocalAddress"
+ - "NdkGetLocalAddress"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

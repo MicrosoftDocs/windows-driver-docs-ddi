@@ -10,6 +10,7 @@ keywords: ["AtaPortReadRegisterBufferUlong function"]
 ms.keywords: AtaPortReadRegisterBufferUlong, AtaPortReadRegisterBufferUlong routine [Storage Devices], atartns_2e57cb04-ad9c-47fd-b4a5-9f9aa433c8ad.xml, irb/AtaPortReadRegisterBufferUlong, storage.ataportreadregisterbufferulong
 f1_keywords:
  - "irb/AtaPortReadRegisterBufferUlong"
+ - "AtaPortReadRegisterBufferUlong"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop

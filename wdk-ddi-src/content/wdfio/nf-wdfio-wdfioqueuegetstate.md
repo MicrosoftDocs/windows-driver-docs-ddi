@@ -10,6 +10,7 @@ keywords: ["WdfIoQueueGetState function"]
 ms.keywords: DFQueueObjectRef_756666e1-e5eb-4bcc-907e-65b10e580396.xml, WdfIoQueueGetState, WdfIoQueueGetState method, kmdf.wdfioqueuegetstate, wdf.wdfioqueuegetstate, wdfio/WdfIoQueueGetState
 f1_keywords:
  - "wdfio/WdfIoQueueGetState"
+ - "WdfIoQueueGetState"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal

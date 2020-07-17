@@ -10,6 +10,7 @@ keywords: ["_CAD_POWER_SOURCE_INFO structure"]
 ms.keywords: "*PCAD_POWER_SOURCE_INFO, CAD_POWER_SOURCE_INFO, CAD_POWER_SOURCE_INFO structure [Battery Devices], _CAD_POWER_SOURCE_INFO, battery.cad_power_source_info, charging/BATTERY_INFORMATION"
 f1_keywords:
  - "charging/BATTERY_INFORMATION"
+ - "BATTERY_INFORMATION"
 req.header: charging.h
 req.include-header: Charging.h
 req.target-type: Windows

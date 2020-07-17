@@ -10,6 +10,7 @@ keywords: ["_IO_STACK_LOCATION structure"]
 ms.keywords: "*PIO_STACK_LOCATION, IO_STACK_LOCATION, IO_STACK_LOCATION structure [Kernel-Mode Driver Architecture], PIO_STACK_LOCATION, PIO_STACK_LOCATION structure pointer [Kernel-Mode Driver Architecture], _IO_STACK_LOCATION, kernel.io_stack_location, kstruct_b_8fcba8ca-d004-4800-87d1-d5c7714a494b.xml, wdm/IO_STACK_LOCATION, wdm/PIO_STACK_LOCATION"
 f1_keywords:
  - "wdm/IO_STACK_LOCATION"
+ - "IO_STACK_LOCATION"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows

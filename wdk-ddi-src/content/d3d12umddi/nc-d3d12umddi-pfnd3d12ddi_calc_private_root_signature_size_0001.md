@@ -27,6 +27,7 @@ tech.root: display
 ms.custom: RS5
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_CALC_PRIVATE_ROOT_SIGNATURE_SIZE_0001"
+ - "PFND3D12DDI_CALC_PRIVATE_ROOT_SIGNATURE_SIZE_0001"
 topic_type:
  - apiref
 api_type:

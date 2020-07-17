@@ -10,6 +10,7 @@ keywords: ["_CONTROLLER_USB_20_HARDWARE_LPM_FLAGS structure"]
 ms.keywords: "*PCONTROLLER_USB_20_HARDWARE_LPM_FLAGS, CONTROLLER_USB_20_HARDWARE_LPM_FLAGS, CONTROLLER_USB_20_HARDWARE_LPM_FLAGS union [Buses], _CONTROLLER_USB_20_HARDWARE_LPM_FLAGS, buses._controller_usb_20_hardware_lpm_flags, ucxroothub/_CONTROLLER_USB_20_HARDWARE_LPM_FLAGS"
 f1_keywords:
  - "ucxroothub/CONTROLLER_USB_20_HARDWARE_LPM_FLAGS"
+ - "CONTROLLER_USB_20_HARDWARE_LPM_FLAGS"
 req.header: ucxroothub.h
 req.include-header: Ucxclass.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["IOCTL_STORAGE_FIRMWARE_DOWNLOAD IOCTL"]
 ms.keywords: IOCTL_STORAGE_FIRMWARE_DOWNLOAD, IOCTL_STORAGE_FIRMWARE_DOWNLOAD control, IOCTL_STORAGE_FIRMWARE_DOWNLOAD control code [Storage Devices], ntddstor/IOCTL_STORAGE_FIRMWARE_DOWNLOAD, storage.ioctl_storage_firmware_download
 f1_keywords:
  - "ntddstor/IOCTL_STORAGE_FIRMWARE_DOWNLOAD"
+ - "IOCTL_STORAGE_FIRMWARE_DOWNLOAD"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["_SRIOV_MITIGATED_RANGE_COUNT_OUTPUT structure"]
 ms.keywords: "*PSRIOV_MITIGATED_RANGE_COUNT_OUTPUT, PCI.sriov_mitigated_range_count_output, SRIOV_MITIGATED_RANGE_COUNT_OUTPUT, SRIOV_MITIGATED_RANGE_COUNT_OUTPUT structure [Buses], _SRIOV_MITIGATED_RANGE_COUNT_OUTPUT, pcivirt/SRIOV_MITIGATED_RANGE_COUNT_OUTPUT"
 f1_keywords:
  - "pcivirt/SRIOV_MITIGATED_RANGE_COUNT_OUTPUT"
+ - "SRIOV_MITIGATED_RANGE_COUNT_OUTPUT"
 req.header: pcivirt.h
 req.include-header:
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["imp_WppRecorderLogSetIdentifier function"]
 ms.keywords: WppRecorderLogSetIdentifier, devtest.wpprecorderlogsetidentifier, imp_WppRecorderLogSetIdentifier, imp_WppRecorderLogSetIdentifier function [Driver Development Tools], wpprecorder/imp_WppRecorderLogSetIdentifier
 f1_keywords:
  - "wpprecorder/imp_WppRecorderLogSetIdentifier"
+ - "imp_WppRecorderLogSetIdentifier"
 req.header: wpprecorder.h
 req.include-header: 
 req.target-type: Windows

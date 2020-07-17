@@ -10,6 +10,7 @@ keywords: ["_KSCAMERA_PROFILE_INFO structure"]
 ms.keywords: "*PKSCAMERA_PROFILE_INFO, KSCAMERA_PROFILE_INFO, KSCAMERA_PROFILE_INFO structure [Streaming Media Devices], PKSCAMERA_PROFILE_INFO, PKSCAMERA_PROFILE_INFO structure pointer [Streaming Media Devices], _KSCAMERA_PROFILE_INFO, ksmedia/KSCAMERA_PROFILE_INFO, ksmedia/PKSCAMERA_PROFILE_INFO, stream.kscamera_profile_info"
 f1_keywords:
  - "ksmedia/KSCAMERA_PROFILE_INFO"
+ - "KSCAMERA_PROFILE_INFO"
 req.header: ksmedia.h
 req.include-header: 
 req.target-type: Windows

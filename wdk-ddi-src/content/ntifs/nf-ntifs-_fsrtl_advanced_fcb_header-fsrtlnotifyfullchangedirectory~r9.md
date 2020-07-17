@@ -10,6 +10,7 @@ keywords: ["FsRtlNotifyFullChangeDirectory function"]
 ms.keywords: FsRtlNotifyFullChangeDirectory, FsRtlNotifyFullChangeDirectory routine [Installable File System Drivers], fsrtlref_551aff27-746f-49a4-b427-fa273249c36e.xml, ifsk.fsrtlnotifyfullchangedirectory, rxprocs/FsRtlNotifyFullChangeDirectory
 f1_keywords:
  - "ntifs/FsRtlNotifyFullChangeDirectory"
+ - "FsRtlNotifyFullChangeDirectory"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

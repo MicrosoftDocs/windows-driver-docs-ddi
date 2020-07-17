@@ -10,6 +10,7 @@ keywords: ["RtlMoveMemory macro"]
 ms.keywords: RtlMoveMemory, RtlMoveMemory routine [Kernel-Mode Driver Architecture], k109_5731ba5b-a7a5-4883-87cf-543768a29a93.xml, kernel.rtlmovememory, wdm/RtlMoveMemory
 f1_keywords:
  - "wdm/RtlMoveMemory"
+ - "RtlMoveMemory"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

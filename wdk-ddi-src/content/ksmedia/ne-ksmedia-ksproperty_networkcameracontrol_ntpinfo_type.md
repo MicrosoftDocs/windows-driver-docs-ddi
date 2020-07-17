@@ -10,6 +10,7 @@ ms.topic: enum
 ms.keywords: KSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_TYPE
 f1_keywords:
 - "ksmedia/KSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_TYPE"
+ - "KSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_TYPE"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.construct-type: structure

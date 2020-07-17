@@ -10,6 +10,7 @@ keywords: ["KsEnableEvent function"]
 ms.keywords: KsEnableEvent, KsEnableEvent function [Streaming Media Devices], ks/KsEnableEvent, ksfunc_f6611298-cc8d-40eb-86e6-1287caff3ec0.xml, stream.ksenableevent
 f1_keywords:
  - "ks/KsEnableEvent"
+ - "KsEnableEvent"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

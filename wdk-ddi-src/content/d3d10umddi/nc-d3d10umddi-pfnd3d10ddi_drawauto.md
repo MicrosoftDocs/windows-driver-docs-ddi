@@ -9,6 +9,7 @@ keywords: ["PFND3D10DDI_DRAWAUTO callback function"]
 ms.keywords: DrawAuto, DrawAuto callback function [Display Devices], PFND3D10DDI_DRAWAUTO, PFND3D10DDI_DRAWAUTO callback, UserModeDisplayDriverDx10_Functions_ff0a6fae-2ed9-4b49-8095-fe5f61cac148.xml, d3d10umddi/DrawAuto, display.drawauto
 f1_keywords:
  - "d3d10umddi/DrawAuto"
+ - "DrawAuto"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

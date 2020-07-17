@@ -8,6 +8,7 @@ keywords: ["IsSensorSubscribed function"]
 tech.root: sensors
 f1_keywords:
  - "sensorsutils/IsSensorSubscribed"
+ - "IsSensorSubscribed"
 ms.keywords: IsSensorSubscribed
 req.header: sensorsutils.h
 req.include-header:

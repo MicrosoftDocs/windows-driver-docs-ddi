@@ -10,6 +10,7 @@ keywords: ["IOCTL_INTERNAL_USBFN_TRANSFER_IN_APPEND_ZERO_PKT IOCTL"]
 ms.keywords: IOCTL_INTERNAL_USBFN_TRANSFER_IN_APPEND_ZERO_PKT, IOCTL_INTERNAL_USBFN_TRANSFER_IN_APPEND_ZERO_PKT control, IOCTL_INTERNAL_USBFN_TRANSFER_IN_APPEND_ZERO_PKT control code [Buses], buses.ioctl_internal_usbfn_transfer_in_append_zero_pkt, usbfnioctl/IOCTL_INTERNAL_USBFN_TRANSFER_IN_APPEND_ZERO_PKT
 f1_keywords:
  - "usbfnioctl/IOCTL_INTERNAL_USBFN_TRANSFER_IN_APPEND_ZERO_PKT"
+ - "IOCTL_INTERNAL_USBFN_TRANSFER_IN_APPEND_ZERO_PKT"
 req.header: usbfnioctl.h
 req.include-header: 
 req.target-type: Windows

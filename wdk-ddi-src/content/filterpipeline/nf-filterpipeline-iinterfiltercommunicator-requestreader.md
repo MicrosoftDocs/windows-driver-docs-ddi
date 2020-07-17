@@ -10,6 +10,7 @@ keywords: ["IInterFilterCommunicator::RequestReader"]
 ms.keywords: IInterFilterCommunicator interface [Print Devices],RequestReader method, IInterFilterCommunicator.RequestReader, IInterFilterCommunicator::RequestReader, RequestReader, RequestReader method [Print Devices], RequestReader method [Print Devices],IInterFilterCommunicator interface, filterpipeline/IInterFilterCommunicator::RequestReader, filterpipeline_dba6ebe4-7acb-471e-80e4-cedc8c2523b0.xml, print.iinterfiltercommunicator_requestreader
 f1_keywords:
  - "filterpipeline/IInterFilterCommunicator.RequestReader"
+ - "IInterFilterCommunicator.RequestReader"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop

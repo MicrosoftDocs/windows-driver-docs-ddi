@@ -10,6 +10,7 @@ ms.date: 03/24/2020
 ms.topic: method
 f1_keywords:
  - "ntifs/FsRtlCheckOplockEx2"
+ - "FsRtlCheckOplockEx2"
 ms.keywords: FSRTL_ADVANCED_FCB_HEADER::FsRtlCheckOplockEx2, FsRtlCheckOplockEx2, FSRTL_ADVANCED_FCB_HEADER.FsRtlCheckOplockEx2, FSRTL_ADVANCED_FCB_HEADER::FsRtlCheckOplockEx2, FSRTL_ADVANCED_FCB_HEADER.FsRtlCheckOplockEx2
 req.header: ntifs.h
 req.include-header:

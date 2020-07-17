@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols2::GetScope"]
 ms.keywords: GetScope, GetScope method [Windows Debugging], GetScope method [Windows Debugging],IDebugSymbols interface, GetScope method [Windows Debugging],IDebugSymbols2 interface, GetScope method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetScope method, IDebugSymbols2 interface [Windows Debugging],GetScope method, IDebugSymbols2.GetScope, IDebugSymbols2::GetScope, IDebugSymbols3 interface [Windows Debugging],GetScope method, IDebugSymbols3::GetScope, IDebugSymbols::GetScope, IDebugSymbols_500f523a-22d9-468e-8d7c-36f49bda089c.xml, dbgeng/IDebugSymbols2::GetScope, dbgeng/IDebugSymbols3::GetScope, dbgeng/IDebugSymbols::GetScope, debugger.getscope
 f1_keywords:
  - "dbgeng/IDebugSymbols.GetScope"
+ - "IDebugSymbols.GetScope"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h, Ntddk.h
 req.target-type: Desktop

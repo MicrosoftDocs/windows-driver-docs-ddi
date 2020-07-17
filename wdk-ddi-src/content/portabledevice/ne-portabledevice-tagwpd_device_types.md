@@ -10,6 +10,7 @@ keywords: ["tagWPD_DEVICE_TYPES enumeration"]
 ms.keywords: WPD_DEVICE_TYPES, WPD_DEVICE_TYPES enumeration, WPD_DEVICE_TYPE_CAMERA, WPD_DEVICE_TYPE_GENERIC, WPD_DEVICE_TYPE_MEDIA_PLAYER, WPD_DEVICE_TYPE_PHONE, portabledevice/WPD_DEVICE_TYPES, portabledevice/WPD_DEVICE_TYPE_CAMERA, portabledevice/WPD_DEVICE_TYPE_GENERIC, portabledevice/WPD_DEVICE_TYPE_MEDIA_PLAYER, portabledevice/WPD_DEVICE_TYPE_PHONE, tagWPD_DEVICE_TYPES, wpddk.wpd_device_types
 f1_keywords:
  - "portabledevice/WPD_DEVICE_TYPES"
+ - "WPD_DEVICE_TYPES"
 req.header: portabledevice.h
 req.include-header: 
 req.target-type: Windows

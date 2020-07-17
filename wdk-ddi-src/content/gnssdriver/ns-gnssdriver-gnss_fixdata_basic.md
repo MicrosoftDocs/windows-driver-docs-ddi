@@ -10,6 +10,7 @@ keywords: ["GNSS_FIXDATA_BASIC structure"]
 ms.keywords: "*PGNSS_FIXDATA_BASIC, GNSS_FIXDATA_BASIC, GNSS_FIXDATA_BASIC structure [Sensor Devices], PGNSS_FIXDATA_BASIC, PGNSS_FIXDATA_BASIC structure pointer [Sensor Devices], gnss.gnss_fixdata_basic, gnssdriver/GNSS_FIXDATA_BASIC, gnssdriver/PGNSS_FIXDATA_BASIC"
 f1_keywords:
  - "gnssdriver/GNSS_FIXDATA_BASIC"
+ - "GNSS_FIXDATA_BASIC"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows

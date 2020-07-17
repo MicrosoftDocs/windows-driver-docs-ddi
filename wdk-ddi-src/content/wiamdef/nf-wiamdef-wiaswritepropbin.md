@@ -10,6 +10,7 @@ keywords: ["wiasWritePropBin function"]
 ms.keywords: image.wiaswritepropbin, wiamdef/wiasWritePropBin, wiasFncs_fa38d5cc-94dd-4a1f-9e24-e12c42ce0429.xml, wiasWritePropBin, wiasWritePropBin function [Imaging Devices]
 f1_keywords:
  - "wiamdef/wiasWritePropBin"
+ - "wiasWritePropBin"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop

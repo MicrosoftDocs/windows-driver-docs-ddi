@@ -9,6 +9,7 @@ keywords: ["D3D10_DDIARG_SUBRESOURCE_UP structure"]
 ms.keywords: D3D10_DDIARG_SUBRESOURCE_UP, D3D10_DDIARG_SUBRESOURCE_UP structure [Display Devices], UMDisplayDriver_Dx10param_Structs_4bc98700-ad44-4b40-9fc2-b40eeae79626.xml, d3d10umddi/D3D10_DDIARG_SUBRESOURCE_UP, display.d3d10_ddiarg_subresource_up
 f1_keywords:
  - "d3d10umddi/D3D10_DDIARG_SUBRESOURCE_UP"
+ - "D3D10_DDIARG_SUBRESOURCE_UP"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

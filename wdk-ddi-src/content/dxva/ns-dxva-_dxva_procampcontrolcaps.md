@@ -10,6 +10,7 @@ keywords: ["_DXVA_ProcAmpControlCaps structure"]
 ms.keywords: "*LPDXVA_ProcAmpControlCaps, DXVA_ProcAmpControlCaps, DXVA_ProcAmpControlCaps structure [Display Devices], LPDXVA_ProcAmpControlCaps, LPDXVA_ProcAmpControlCaps structure pointer [Display Devices], _DXVA_ProcAmpControlCaps, display.dxva_procampcontrolcaps, dxva/DXVA_ProcAmpControlCaps, dxva/LPDXVA_ProcAmpControlCaps, dxvaref_7641df03-ca9f-462a-b6b8-bddd7c8a14b7.xml"
 f1_keywords:
  - "dxva/DXVA_ProcAmpControlCaps"
+ - "DXVA_ProcAmpControlCaps"
 req.header: dxva.h
 req.include-header: Dxva.h
 req.target-type: Windows

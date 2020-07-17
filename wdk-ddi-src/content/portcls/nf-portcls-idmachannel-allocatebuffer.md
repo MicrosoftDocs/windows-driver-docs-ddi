@@ -8,6 +8,7 @@ ms.date: 10/31/2018
 keywords: ["IDmaChannel::AllocateBuffer"]
 f1_keywords:
  - "portcls/IDmaChannel.AllocateBuffer"
+ - "IDmaChannel.AllocateBuffer"
 ms.keywords: IDmaChannel::AllocateBuffer, AllocateBuffer, IDmaChannel.AllocateBuffer, IDmaChannel::AllocateBuffer, IDmaChannel.AllocateBuffer
 req.header: portcls.h
 req.include-header:

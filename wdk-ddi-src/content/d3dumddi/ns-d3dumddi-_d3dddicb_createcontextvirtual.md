@@ -10,6 +10,7 @@ keywords: ["_D3DDDICB_CREATECONTEXTVIRTUAL structure"]
 ms.keywords: D3DDDICB_CREATECONTEXTVIRTUAL, D3DDDICB_CREATECONTEXTVIRTUAL structure [Display Devices], _D3DDDICB_CREATECONTEXTVIRTUAL, d3dumddi/D3DDDICB_CREATECONTEXTVIRTUAL, display.d3dddicb_createcontextvirtual
 f1_keywords:
  - "d3dumddi/D3DDDICB_CREATECONTEXTVIRTUAL"
+ - "D3DDDICB_CREATECONTEXTVIRTUAL"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

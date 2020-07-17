@@ -10,6 +10,7 @@ keywords: ["IBidiRequestContainer::GetEnumObject"]
 ms.keywords: GetEnumObject, GetEnumObject method [Print Devices], GetEnumObject method [Print Devices],IBidiRequestContainer interface, IBidiRequestContainer interface [Print Devices],GetEnumObject method, IBidiRequestContainer.GetEnumObject, IBidiRequestContainer::GetEnumObject, _win32_IBidiRequestContainer_GetEnumObject, bidispl/IBidiRequestContainer::GetEnumObject, gdi.ibidirequestcontainer_ibidirequestcontainer__getenumobject, print.ibidirequestcontainer_ibidirequestcontainer__getenumobject
 f1_keywords:
  - "bidispl/IBidiRequestContainer.GetEnumObject"
+ - "IBidiRequestContainer.GetEnumObject"
 req.header: bidispl.h
 req.include-header: 
 req.target-type: Desktop

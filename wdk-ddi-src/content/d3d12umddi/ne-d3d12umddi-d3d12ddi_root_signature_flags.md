@@ -21,6 +21,7 @@ ms.custom: RS5
 tech.root: display
 f1_keywords:
  - "d3d12umddi/D3D12DDI_ROOT_SIGNATURE_FLAGS"
+ - "D3D12DDI_ROOT_SIGNATURE_FLAGS"
 topic_type:
  - apiref
 api_type:

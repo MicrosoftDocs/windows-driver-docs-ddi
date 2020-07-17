@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["NDIS_RSS_HASH_TYPE_FROM_HASH_INFO macro"]
 f1_keywords:
  - "ntddndis/NDIS_RSS_HASH_TYPE_FROM_HASH_INFO"
+ - "NDIS_RSS_HASH_TYPE_FROM_HASH_INFO"
 ms.keywords: NDIS_RSS_HASH_TYPE_FROM_HASH_INFO
 req.header: ntddndis.h
 req.include-header: ndis.h

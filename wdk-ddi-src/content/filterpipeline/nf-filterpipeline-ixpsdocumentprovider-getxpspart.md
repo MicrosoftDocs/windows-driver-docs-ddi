@@ -10,6 +10,7 @@ keywords: ["IXpsDocumentProvider::GetXpsPart"]
 ms.keywords: GetXpsPart, GetXpsPart method [Print Devices], GetXpsPart method [Print Devices],IXpsDocumentProvider interface, IXpsDocumentProvider interface [Print Devices],GetXpsPart method, IXpsDocumentProvider.GetXpsPart, IXpsDocumentProvider::GetXpsPart, filterpipeline/IXpsDocumentProvider::GetXpsPart, filterpipeline_e99337a9-3674-4d34-886c-684a85a8dd0d.xml, print.ixpsdocumentprovider_getxpspart
 f1_keywords:
  - "filterpipeline/IXpsDocumentProvider.GetXpsPart"
+ - "IXpsDocumentProvider.GetXpsPart"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop

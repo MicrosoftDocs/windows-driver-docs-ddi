@@ -10,6 +10,7 @@ keywords: ["tagKSCAMERA_EXTENDEDPROP_PHOTOMODE structure"]
 ms.keywords: "*PKSCAMERA_EXTENDEDPROP_PHOTOMODE, KSCAMERA_EXTENDEDPROP_PHOTOMODE, KSCAMERA_EXTENDEDPROP_PHOTOMODE structure [Streaming Media Devices], PKSCAMERA_EXTENDEDPROP_PHOTOMODE, PKSCAMERA_EXTENDEDPROP_PHOTOMODE structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_EXTENDEDPROP_PHOTOMODE, ksmedia/PKSCAMERA_EXTENDEDPROP_PHOTOMODE, stream.kscamera_extendedprop_photomode, tagKSCAMERA_EXTENDEDPROP_PHOTOMODE"
 f1_keywords:
  - "ksmedia/KSCAMERA_EXTENDEDPROP_PHOTOMODE"
+ - "KSCAMERA_EXTENDEDPROP_PHOTOMODE"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

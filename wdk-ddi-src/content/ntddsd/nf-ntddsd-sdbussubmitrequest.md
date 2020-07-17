@@ -10,6 +10,7 @@ keywords: ["SdBusSubmitRequest function"]
 ms.keywords: SD.sdbussubmitrequest, SdBusSubmitRequest, SdBusSubmitRequest function [Buses], ntddsd/SdBusSubmitRequest, sd-rtns_2709a5bb-0cc9-42b0-9fd1-2b8206a383d5.xml
 f1_keywords:
  - "ntddsd/SdBusSubmitRequest"
+ - "SdBusSubmitRequest"
 req.header: ntddsd.h
 req.include-header: Ntddsd.h
 req.target-type: Desktop

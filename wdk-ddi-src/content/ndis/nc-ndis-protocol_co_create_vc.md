@@ -10,6 +10,7 @@ keywords: ["PROTOCOL_CO_CREATE_VC callback function"]
 ms.keywords: PROTOCOL_CO_CREATE_VC, PROTOCOL_CO_CREATE_VC callback, ProtocolCoCreateVc, ProtocolCoCreateVc callback function [Network Drivers Starting with Windows Vista], condis_protocol_ref_f0a7e657-70d5-4cd1-a42a-684cefe1dc60.xml, ndis/ProtocolCoCreateVc, netvista.protocolcocreatevc
 f1_keywords:
  - "ndis/ProtocolCoCreateVc"
+ - "ProtocolCoCreateVc"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

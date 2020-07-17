@@ -10,6 +10,7 @@ keywords: ["ScsiPortWmiGetReturnStatus macro"]
 ms.keywords: ScsiPortWmiGetReturnStatus, ScsiPortWmiGetReturnStatus macro [Storage Devices], scsiprt_cb3693a3-2fab-4d25-9c64-84327a7ef61c.xml, scsiwmi/ScsiPortWmiGetReturnStatus, storage.scsiportwmigetreturnstatus
 f1_keywords:
  - "scsiwmi/ScsiPortWmiGetReturnStatus"
+ - "ScsiPortWmiGetReturnStatus"
 req.header: scsiwmi.h
 req.include-header: Miniport.h, Scsi.h
 req.target-type: Desktop

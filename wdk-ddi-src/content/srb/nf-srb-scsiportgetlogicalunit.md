@@ -10,6 +10,7 @@ keywords: ["ScsiPortGetLogicalUnit function"]
 ms.keywords: ScsiPortGetLogicalUnit, ScsiPortGetLogicalUnit routine [Storage Devices], scsiprt_2b4c797a-4fbb-4c0c-913a-628bfb6dab3d.xml, srb/ScsiPortGetLogicalUnit, storage.scsiportgetlogicalunit
 f1_keywords:
  - "srb/ScsiPortGetLogicalUnit"
+ - "ScsiPortGetLogicalUnit"
 req.header: srb.h
 req.include-header: Miniport.h, Scsi.h
 req.target-type: Desktop

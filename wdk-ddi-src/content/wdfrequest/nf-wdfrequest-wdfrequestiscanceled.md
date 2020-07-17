@@ -10,6 +10,7 @@ keywords: ["WdfRequestIsCanceled function"]
 ms.keywords: DFRequestObjectRef_2306854d-71f7-475f-bd8c-a74e2e6630ca.xml, WdfRequestIsCanceled, WdfRequestIsCanceled method, kmdf.wdfrequestiscanceled, wdf.wdfrequestiscanceled, wdfrequest/WdfRequestIsCanceled
 f1_keywords:
  - "wdfrequest/WdfRequestIsCanceled"
+ - "WdfRequestIsCanceled"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["GNSS_SELFTESTCONFIG structure"]
 ms.keywords: "*PGNSS_SELFTESTCONFIG, GNSS_SELFTESTCONFIG, GNSS_SELFTESTCONFIG structure [Sensor Devices], PGNSS_SELFTESTCONFIG, PGNSS_SELFTESTCONFIG structure pointer [Sensor Devices], gnss.gnss_selftestconfig, gnssdriver/GNSS_SELFTESTCONFIG, gnssdriver/PGNSS_SELFTESTCONFIG"
 f1_keywords:
  - "gnssdriver/GNSS_SELFTESTCONFIG"
+ - "GNSS_SELFTESTCONFIG"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows

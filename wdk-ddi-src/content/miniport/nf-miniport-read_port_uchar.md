@@ -10,6 +10,7 @@ keywords: ["READ_PORT_UCHAR function"]
 ms.keywords: READ_PORT_UCHAR, READ_PORT_UCHAR routine [Kernel-Mode Driver Architecture], k103_d0d69b7f-15ad-4a72-ad99-6a5753348f6a.xml, kernel.read_port_uchar, wdm/READ_PORT_UCHAR
 f1_keywords:
  - "miniport/READ_PORT_UCHAR"
+ - "READ_PORT_UCHAR"
 req.header: miniport.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Ioaccess.h, Miniport.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["IOCTL_MOUNTMGR_AUTO_DL_ASSIGNMENTS IOCTL"]
 ms.keywords: IOCTL_MOUNTMGR_AUTO_DL_ASSIGNMENTS, IOCTL_MOUNTMGR_AUTO_DL_ASSIGNMENTS control, IOCTL_MOUNTMGR_AUTO_DL_ASSIGNMENTS control code [Storage Devices], k307_ec5f9d47-ffd0-481c-8ce9-fa0465c5b69c.xml, mountmgr/IOCTL_MOUNTMGR_AUTO_DL_ASSIGNMENTS, storage.ioctl_mountmgr_auto_dl_assignments
 f1_keywords:
  - "mountmgr/IOCTL_MOUNTMGR_AUTO_DL_ASSIGNMENTS"
+ - "IOCTL_MOUNTMGR_AUTO_DL_ASSIGNMENTS"
 req.header: mountmgr.h
 req.include-header: Mountmgr.h
 req.target-type: Windows

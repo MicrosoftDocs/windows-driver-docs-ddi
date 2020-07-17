@@ -29,6 +29,7 @@ targetos: Windows
 ms.custom: D3D12 Release 6, Build rev 2., 19H1
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_RS_SET_SHADING_RATE_0062"
+ - "PFND3D12DDI_RS_SET_SHADING_RATE_0062"
 topic_type:
  - apiref
 api_type:

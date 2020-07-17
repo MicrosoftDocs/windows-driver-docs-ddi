@@ -10,6 +10,7 @@ keywords: ["NdisMDeregisterDmaChannel function"]
 ms.keywords: NdisMDeregisterDmaChannel, NdisMDeregisterDmaChannel function [Network Drivers Starting with Windows Vista], dma_ref_8babcd45-1946-4928-a0a2-2fc0871b9f90.xml, ndis/NdisMDeregisterDmaChannel, netvista.ndismderegisterdmachannel
 f1_keywords:
  - "ndis/NdisMDeregisterDmaChannel"
+ - "NdisMDeregisterDmaChannel"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

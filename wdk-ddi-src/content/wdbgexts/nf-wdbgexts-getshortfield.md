@@ -10,6 +10,7 @@ keywords: ["GetShortField function"]
 ms.keywords: GetShortField, GetShortField function [Windows Debugging], WdbgExts_Ref_ef67af78-e72f-440c-9ef3-d84b8cca12dc.xml, debugger.getshortfield, wdbgexts/GetShortField
 f1_keywords:
  - "wdbgexts/GetShortField"
+ - "GetShortField"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop

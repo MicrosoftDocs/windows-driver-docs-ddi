@@ -10,6 +10,7 @@ keywords: ["_WWAN_UICC_PASSTHROUGH_STATUS enumeration"]
 ms.keywords: "*PWWAN_UICC_PASSTHROUGH_STATUS, WWAN_UICC_PASSTHROUGH_STATUS, WWAN_UICC_PASSTHROUGH_STATUS enumeration [Network Drivers Starting with Windows Vista], WwanUiccPassThroughDisabled, WwanUiccPassThroughEnabled, WwanUiccPassThroughMaximum, _WWAN_UICC_PASSTHROUGH_STATUS, netvista.wwan_uicc_passthrough_status, wwan/WWAN_UICC_PASSTHROUGH_STATUS, wwan/WwanUiccPassThroughDisabled, wwan/WwanUiccPassThroughEnabled, wwan/WwanUiccPassThroughMaximum"
 f1_keywords:
  - "wwan/WWAN_UICC_PASSTHROUGH_STATUS"
+ - "WWAN_UICC_PASSTHROUGH_STATUS"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows

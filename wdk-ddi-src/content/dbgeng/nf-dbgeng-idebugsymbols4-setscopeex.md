@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols4::SetScopeEx"]
 ms.keywords: IDebugSymbols4 interface [Windows Debugging],SetScopeEx method, IDebugSymbols4.SetScopeEx, IDebugSymbols4::SetScopeEx, SetScopeEx, SetScopeEx method [Windows Debugging], SetScopeEx method [Windows Debugging],IDebugSymbols4 interface, dbgeng/IDebugSymbols4::SetScopeEx, debugger.idebugsymbols4_setscopeex
 f1_keywords:
  - "dbgeng/IDebugSymbols4.SetScopeEx"
+ - "IDebugSymbols4.SetScopeEx"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

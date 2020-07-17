@@ -10,6 +10,7 @@ keywords: ["IOCTL_TAPE_SET_POSITION IOCTL"]
 ms.keywords: IOCTL_TAPE_SET_POSITION, IOCTL_TAPE_SET_POSITION control, IOCTL_TAPE_SET_POSITION control code [Storage Devices], k307_3fc298fe-1a00-4bb5-8a10-09b5fec325b3.xml, ntddtape/IOCTL_TAPE_SET_POSITION, storage.ioctl_tape_set_position
 f1_keywords:
  - "ntddtape/IOCTL_TAPE_SET_POSITION"
+ - "IOCTL_TAPE_SET_POSITION"
 req.header: ntddtape.h
 req.include-header: Ntddtape.h
 req.target-type: Windows

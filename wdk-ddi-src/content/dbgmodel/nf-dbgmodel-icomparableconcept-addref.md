@@ -7,6 +7,7 @@ ms.date: 09/21/2018
 keywords: ["IComparableConcept::AddRef"]
 f1_keywords:
  - "dbgmodel/IComparableConcept.AddRef"
+ - "IComparableConcept.AddRef"
 ms.keywords: IComparableConcept::AddRef, AddRef, IComparableConcept.AddRef, IComparableConcept::AddRef, IComparableConcept.AddRef
 req.header: dbgmodel.h
 req.include-header:

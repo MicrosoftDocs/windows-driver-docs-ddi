@@ -10,6 +10,7 @@ keywords: ["NtFlushBuffersFile function"]
 ms.keywords: FLUSH_FLAGS_FILE_DATA_ONLY, FLUSH_FLAGS_NO_SYNC, NtFlushBuffersFile, ZwFlushBuffersFile, ZwFlushBuffersFile routine [Kernel-Mode Driver Architecture], kernel.ZwFlushBuffersFile, ntifs/NtFlushBuffersFile, ntifs/ZwFlushBuffersFile
 f1_keywords:
  - "ntifs/NtFlushBuffersFile"
+ - "NtFlushBuffersFile"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

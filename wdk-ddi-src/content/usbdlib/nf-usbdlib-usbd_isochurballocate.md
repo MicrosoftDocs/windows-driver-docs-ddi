@@ -10,6 +10,7 @@ keywords: ["USBD_IsochUrbAllocate function"]
 ms.keywords: USBD_IsochUrbAllocate, USBD_IsochUrbAllocate routine [Buses], buses.usbd_isochurballocate, usbdlib/USBD_IsochUrbAllocate
 f1_keywords:
  - "usbdlib/USBD_IsochUrbAllocate"
+ - "USBD_IsochUrbAllocate"
 req.header: usbdlib.h
 req.include-header: 
 req.target-type: Desktop

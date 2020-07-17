@@ -10,6 +10,7 @@ keywords: ["WdfIoTargetCloseForQueryRemove function"]
 ms.keywords: DFIOTargetRef_ea857ade-1dcd-4e58-b198-50186a536159.xml, WdfIoTargetCloseForQueryRemove, WdfIoTargetCloseForQueryRemove method, kmdf.wdfiotargetcloseforqueryremove, wdf.wdfiotargetcloseforqueryremove, wdfiotarget/WdfIoTargetCloseForQueryRemove
 f1_keywords:
  - "wdfiotarget/WdfIoTargetCloseForQueryRemove"
+ - "WdfIoTargetCloseForQueryRemove"
 req.header: wdfiotarget.h
 req.include-header: Wdf.h
 req.target-type: Universal

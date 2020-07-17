@@ -9,6 +9,7 @@ keywords: ["_DXGK_BUILDPAGINGBUFFER_COPY_RANGE structure"]
 ms.keywords: DXGK_BUILDPAGINGBUFFER_COPY_RANGE, DXGK_BUILDPAGINGBUFFER_COPY_RANGE structure [Display Devices], _DXGK_BUILDPAGINGBUFFER_COPY_RANGE, d3dkmddi/DXGK_BUILDPAGINGBUFFER_COPY_RANGE, display.dxgk_buildpagingbuffer_copy_range
 f1_keywords:
  - "d3dkmddi/DXGK_BUILDPAGINGBUFFER_COPY_RANGE"
+ - "DXGK_BUILDPAGINGBUFFER_COPY_RANGE"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

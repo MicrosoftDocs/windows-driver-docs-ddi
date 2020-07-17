@@ -10,6 +10,7 @@ keywords: ["IPnpCallback::OnQueryRemove"]
 ms.keywords: IPnpCallback interface,OnQueryRemove method, IPnpCallback.OnQueryRemove, IPnpCallback::OnQueryRemove, OnQueryRemove, OnQueryRemove method, OnQueryRemove method,IPnpCallback interface, UMDFDeviceObjectRef_27404593-38b6-46cc-8dcc-809d159822b6.xml, umdf.ipnpcallback_onqueryremove, wdf.ipnpcallback_onqueryremove, wudfddi/IPnpCallback::OnQueryRemove
 f1_keywords:
  - "wudfddi/IPnpCallback.OnQueryRemove"
+ - "IPnpCallback.OnQueryRemove"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Windows

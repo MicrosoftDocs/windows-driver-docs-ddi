@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["QUATERNION structure"]
 f1_keywords:
  - "sensorsstructures/QUATERNION"
+ - "QUATERNION"
 tech.root: sensors
 ms.keywords: QUATERNION, QUATERNION, *PQUATERNION, 
 req.header: sensorsstructures.h

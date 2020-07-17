@@ -10,6 +10,7 @@ keywords: ["FltApplyPriorityInfoThread function"]
 ms.keywords: FltApiRef_a_to_d_446351ed-afa7-4548-8197-f9bf92d671e5.xml, FltApplyPriorityInfoThread, FltApplyPriorityInfoThread routine [Installable File System Drivers], fltkernel/FltApplyPriorityInfoThread, ifsk.fltapplypriorityinfothread
 f1_keywords:
  - "fltkernel/FltApplyPriorityInfoThread"
+ - "FltApplyPriorityInfoThread"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

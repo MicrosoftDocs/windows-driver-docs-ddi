@@ -8,6 +8,7 @@ ms.date: 08/23/2019
 keywords: ["DeviceDsmInitializeInput function"]
 f1_keywords:
  - "ntddstor/DeviceDsmInitializeInput"
+ - "DeviceDsmInitializeInput"
 ms.keywords: DeviceDsmInitializeInput
 req.header: ntddstor.h
 req.include-header:

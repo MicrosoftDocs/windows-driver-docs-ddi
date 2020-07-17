@@ -10,6 +10,7 @@ keywords: ["RILEMERGENCYNUMBERSLIST structure"]
 ms.keywords: "*LPRILEMERGENCYNUMBERSLIST, RILEMERGENCYNUMBERSLIST, RILEMERGENCYNUMBERSLIST structure [Network Drivers Starting with Windows Vista], netvista.rilemergencynumberslist, ntddrilapitypes/RILEMERGENCYNUMBERSLIST"
 f1_keywords:
  - "rilapitypes/RILEMERGENCYNUMBERSLIST"
+ - "RILEMERGENCYNUMBERSLIST"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

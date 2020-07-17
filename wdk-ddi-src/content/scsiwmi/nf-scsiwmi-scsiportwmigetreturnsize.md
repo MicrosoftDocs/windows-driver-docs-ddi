@@ -10,6 +10,7 @@ keywords: ["ScsiPortWmiGetReturnSize macro"]
 ms.keywords: ScsiPortWmiGetReturnSize, ScsiPortWmiGetReturnSize macro [Storage Devices], scsiprt_a9717bc6-2519-4446-8965-47340976a85f.xml, scsiwmi/ScsiPortWmiGetReturnSize, storage.scsiportwmigetreturnsize
 f1_keywords:
  - "scsiwmi/ScsiPortWmiGetReturnSize"
+ - "ScsiPortWmiGetReturnSize"
 req.header: scsiwmi.h
 req.include-header: Miniport.h, Scsi.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["_WDF_REQUEST_STOP_ACTION_FLAGS enumeration"]
 ms.keywords: DFRequestObjectRef_e291c6a5-1e65-4505-9090-19e6ea66e7b3.xml, WDF_REQUEST_STOP_ACTION_FLAGS, WDF_REQUEST_STOP_ACTION_FLAGS enumeration, WdfRequestStopActionInvalid, WdfRequestStopActionPurge, WdfRequestStopActionSuspend, WdfRequestStopRequestCancelable, _WDF_REQUEST_STOP_ACTION_FLAGS, kmdf.wdf_request_stop_action_flags, wdf.wdf_request_stop_action_flags, wdfrequest/WDF_REQUEST_STOP_ACTION_FLAGS, wdfrequest/WdfRequestStopActionInvalid, wdfrequest/WdfRequestStopActionPurge, wdfrequest/WdfRequestStopActionSuspend, wdfrequest/WdfRequestStopRequestCancelable
 f1_keywords:
  - "wdfrequest/WDF_REQUEST_STOP_ACTION_FLAGS"
+ - "WDF_REQUEST_STOP_ACTION_FLAGS"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Windows

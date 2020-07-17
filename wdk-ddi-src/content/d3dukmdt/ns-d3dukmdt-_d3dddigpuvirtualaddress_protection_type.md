@@ -10,6 +10,7 @@ keywords: ["_D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE structure"]
 ms.keywords: D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE, D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE structure [Display Devices], _D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE, d3dukmdt/D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE, display.d3dddigpuvirtualaddress_protection_type
 f1_keywords:
  - "d3dukmdt/D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE"
+ - "D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE"
 req.header: d3dukmdt.h
 req.include-header: D3dumddi.h, D3dkmddi.h
 req.target-type: Windows

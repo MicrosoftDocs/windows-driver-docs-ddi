@@ -10,6 +10,7 @@ keywords: ["IOCTL_NFP_ENABLE IOCTL"]
 ms.keywords: IOCTL_NFP_ENABLE, IOCTL_NFP_ENABLE control, IOCTL_NFP_ENABLE control code [Near-Field Proximity Drivers], _IOCTL_NFP_ENABLE, nfpdev/IOCTL_NFP_ENABLE, nfpdrivers.ioctl_nfp_enable
 f1_keywords:
  - "nfpdev/IOCTL_NFP_ENABLE"
+ - "IOCTL_NFP_ENABLE"
 req.header: nfpdev.h
 req.include-header: 
 req.target-type: Windows

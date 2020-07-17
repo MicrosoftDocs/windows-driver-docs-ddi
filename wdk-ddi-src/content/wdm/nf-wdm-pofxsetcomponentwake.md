@@ -10,6 +10,7 @@ keywords: ["PoFxSetComponentWake function"]
 ms.keywords: PoFxSetComponentWake, PoFxSetComponentWake routine [Kernel-Mode Driver Architecture], kernel.pofxsetcomponentwake, wdm/PoFxSetComponentWake
 f1_keywords:
  - "wdm/PoFxSetComponentWake"
+ - "PoFxSetComponentWake"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal

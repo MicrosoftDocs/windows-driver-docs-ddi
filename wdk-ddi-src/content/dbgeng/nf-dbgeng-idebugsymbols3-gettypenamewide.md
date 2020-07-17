@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::GetTypeNameWide"]
 ms.keywords: GetTypeNameWide, GetTypeNameWide method [Windows Debugging], GetTypeNameWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetTypeNameWide method, IDebugSymbols3.GetTypeNameWide, IDebugSymbols3::GetTypeNameWide, dbgeng/IDebugSymbols3::GetTypeNameWide, debugger.gettypenamewide
 f1_keywords:
  - "dbgeng/IDebugSymbols3.GetTypeNameWide"
+ - "IDebugSymbols3.GetTypeNameWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

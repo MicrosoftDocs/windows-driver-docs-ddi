@@ -10,6 +10,7 @@ keywords: ["IWiaSegmentationFilter::DetectRegions"]
 ms.keywords: DetectRegions, DetectRegions method [Imaging Devices], DetectRegions method [Imaging Devices],IWiaSegmentationFilter interface, IWiaSegmentationFilter interface [Imaging Devices],DetectRegions method, IWiaSegmentationFilter.DetectRegions, IWiaSegmentationFilter::DetectRegions, image.iwiasegmentationfilter_detectregions, iwiasegmentationfilter_d819daf8-a36c-448c-a566-bb3c864cea40.xml, wia_lh/IWiaSegmentationFilter::DetectRegions
 f1_keywords:
  - "wia_lh/IWiaSegmentationFilter.DetectRegions"
+ - "IWiaSegmentationFilter.DetectRegions"
 req.header: wia_lh.h
 req.include-header: 
 req.target-type: Desktop

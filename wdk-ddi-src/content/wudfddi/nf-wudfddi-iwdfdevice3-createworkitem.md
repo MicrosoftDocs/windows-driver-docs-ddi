@@ -10,6 +10,7 @@ keywords: ["IWDFDevice3::CreateWorkItem"]
 ms.keywords: CreateWorkItem, CreateWorkItem method, CreateWorkItem method,IWDFDevice3 interface, IWDFDevice3 interface,CreateWorkItem method, IWDFDevice3.CreateWorkItem, IWDFDevice3::CreateWorkItem, umdf.iwdfdevice3_createworkitem, wdf.iwdfdevice3_createworkitem, wudfddi/IWDFDevice3::CreateWorkItem
 f1_keywords:
  - "wudfddi/IWDFDevice3.CreateWorkItem"
+ - "IWDFDevice3.CreateWorkItem"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop

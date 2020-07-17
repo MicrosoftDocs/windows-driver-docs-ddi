@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_DMA_ENABLER_FILL callback function"]
 ms.keywords: DFDmaObjectRef_3546c1f6-cb96-4b6e-bafa-25a1d15b00c5.xml, EVT_WDF_DMA_ENABLER_FILL, EVT_WDF_DMA_ENABLER_FILL callback, EvtDmaEnablerFill, EvtDmaEnablerFill callback function, kmdf.evtdmaenablerfill, wdf.evtdmaenablerfill, wdfdmaenabler/EvtDmaEnablerFill
 f1_keywords:
  - "wdfdmaenabler/EvtDmaEnablerFill"
+ - "EvtDmaEnablerFill"
 req.header: wdfdmaenabler.h
 req.include-header: Wdf.h
 req.target-type: Universal

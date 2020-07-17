@@ -10,6 +10,7 @@ keywords: ["ZwDeviceIoControlFile function"]
 ms.keywords: NtDeviceIoControlFile, ZwDeviceIoControlFile, ZwDeviceIoControlFile routine [Kernel-Mode Driver Architecture], k111_03e754fc-b6b5-4266-9be1-452d5ba5331c.xml, kernel.zwdeviceiocontrolfile, ntifs/NtDeviceIoControlFile, ntifs/ZwDeviceIoControlFile
 f1_keywords:
  - "ntddk/ZwDeviceIoControlFile"
+ - "ZwDeviceIoControlFile"
 req.header: ntddk.h
 req.include-header: Ntifs.h, Ntddk.h
 req.target-type: Universal

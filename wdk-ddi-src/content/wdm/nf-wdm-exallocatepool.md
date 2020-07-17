@@ -10,6 +10,7 @@ keywords: ["ExAllocatePool function"]
 ms.keywords: ExAllocatePool, ExAllocatePool routine [Kernel-Mode Driver Architecture], k102_02ff5510-3d96-4a15-a0da-5da56e14b1b8.xml, kernel.exallocatepool, wdm/ExAllocatePool
 f1_keywords:
  - "wdm/ExAllocatePool"
+ - "ExAllocatePool"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Classpnp.h, Smcnt.h
 req.target-type: Universal

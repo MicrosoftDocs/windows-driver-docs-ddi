@@ -7,6 +7,7 @@ ms.date: 09/21/2018
 keywords: ["IDebugHostErrorSink::AddRef"]
 f1_keywords:
  - "dbgmodel/IDebugHostErrorSink.AddRef"
+ - "IDebugHostErrorSink.AddRef"
 ms.keywords: IDebugHostErrorSink::AddRef, AddRef, IDebugHostErrorSink.AddRef, IDebugHostErrorSink::AddRef, IDebugHostErrorSink.AddRef
 req.header: dbgmodel.h
 req.include-header:

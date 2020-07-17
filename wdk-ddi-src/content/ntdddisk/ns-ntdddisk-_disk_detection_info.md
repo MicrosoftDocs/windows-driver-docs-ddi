@@ -10,6 +10,7 @@ keywords: ["_DISK_DETECTION_INFO structure"]
 ms.keywords: "*PDISK_DETECTION_INFO, DISK_DETECTION_INFO, DISK_DETECTION_INFO structure [Storage Devices], PDISK_DETECTION_INFO, PDISK_DETECTION_INFO structure pointer [Storage Devices], _DISK_DETECTION_INFO, ntdddisk/DISK_DETECTION_INFO, ntdddisk/PDISK_DETECTION_INFO, storage.disk_detection_info, structs-disk_04ca1cb1-3995-47d9-9b5a-0e54ea98dbd6.xml"
 f1_keywords:
  - "ntdddisk/DISK_DETECTION_INFO"
+ - "DISK_DETECTION_INFO"
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h, Ntddk.h, Ntdddisk.h
 req.target-type: Windows

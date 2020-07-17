@@ -10,6 +10,7 @@ keywords: ["ZwDuplicateObject function"]
 ms.keywords: NtDuplicateObject, ZwDuplicateObject, ZwDuplicateObject routine [Kernel-Mode Driver Architecture], kernel.zwduplicateobject, ntifs/NtDuplicateObject, ntifs/ZwDuplicateObject
 f1_keywords:
  - "ntifs/ZwDuplicateObject"
+ - "ZwDuplicateObject"
 req.header: ntifs.h
 req.include-header: Ntdef.h, Ntifs.h, Fltkernel.h
 req.target-type: Universal

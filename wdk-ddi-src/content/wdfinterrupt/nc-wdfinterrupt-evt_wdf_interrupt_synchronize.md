@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_INTERRUPT_SYNCHRONIZE callback function"]
 ms.keywords: DFInterruptObjectRef_4310d770-645e-48c8-bd33-b9edcc8cb667.xml, EVT_WDF_INTERRUPT_SYNCHRONIZE, EVT_WDF_INTERRUPT_SYNCHRONIZE callback, EvtInterruptSynchronize, EvtInterruptSynchronize callback function, kmdf.evtinterruptsynchronize, wdf.evtinterruptsynchronize, wdfinterrupt/EvtInterruptSynchronize
 f1_keywords:
  - "wdfinterrupt/EvtInterruptSynchronize"
+ - "EvtInterruptSynchronize"
 req.header: wdfinterrupt.h
 req.include-header: Wdf.h
 req.target-type: Universal

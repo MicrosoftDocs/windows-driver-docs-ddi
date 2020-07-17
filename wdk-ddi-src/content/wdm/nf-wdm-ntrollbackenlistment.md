@@ -10,6 +10,7 @@ keywords: ["NtRollbackEnlistment function"]
 ms.keywords: NtRollbackEnlistment, ZwRollbackEnlistment, ZwRollbackEnlistment routine [Kernel-Mode Driver Architecture], kernel.zwrollbackenlistment, ktm_ref_6e57f040-d43e-4986-a756-e35e1abc8670.xml, wdm/NtRollbackEnlistment, wdm/ZwRollbackEnlistment
 f1_keywords:
  - "wdm/ZwRollbackEnlistment"
+ - "ZwRollbackEnlistment"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntifs.h
 req.target-type: Universal

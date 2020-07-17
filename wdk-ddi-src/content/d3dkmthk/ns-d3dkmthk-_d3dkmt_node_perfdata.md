@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_NODE_PERFDATA structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_NODE_PERFDATA"
+ - "_D3DKMT_NODE_PERFDATA"
 ms.keywords: _D3DKMT_NODE_PERFDATA, D3DKMT_NODE_PERFDATA,
 req.header: d3dkmthk.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["DMA_CHANNEL_FREE_HANDLER callback function"]
 ms.keywords: DMA_CHANNEL_FREE_HANDLER, DMA_CHANNEL_FREE_HANDLER callback, ProviderFreeDmaChannel, ProviderFreeDmaChannel callback function [Network Drivers Starting with Windows Vista], netdma/ProviderFreeDmaChannel, netdma_ref_d81eae9f-e306-4ac7-a4ce-3e4831b45c39.xml, netvista.providerfreedmachannel
 f1_keywords:
  - "netdma/ProviderFreeDmaChannel"
+ - "ProviderFreeDmaChannel"
 req.header: netdma.h
 req.include-header: Netdma.h
 req.target-type: Windows

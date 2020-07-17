@@ -10,6 +10,7 @@ keywords: ["ExtRemoteTyped::Clear method"]
 ms.keywords: ExtRemoteTyped class [Windows Debugging], described, ExtRemoteTyped, engextcpp/ExtRemoteTyped, ExtRemoteTyped class [Windows Debugging], debugger.extremotetyped, Clear, EngExtCpp_Ref_04970dac-e759-4a04-a1e0-8dab752c1418.xml, ExtRemoteTyped::Clear
 f1_keywords:
  - "engextcpp/ExtRemoteTyped"
+ - "ExtRemoteTyped"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Windows

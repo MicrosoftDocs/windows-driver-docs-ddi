@@ -10,6 +10,7 @@ keywords: ["SpoolerCopyFileEvent function"]
 ms.keywords: SpoolerCopyFileEvent, SpoolerCopyFileEvent function [Print Devices], poprfnc_e85f9707-18cf-4cd5-aece-ebcd5fd09270.xml, print.spoolercopyfileevent, winsplp/SpoolerCopyFileEvent
 f1_keywords:
  - "winsplp/SpoolerCopyFileEvent"
+ - "SpoolerCopyFileEvent"
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Universal

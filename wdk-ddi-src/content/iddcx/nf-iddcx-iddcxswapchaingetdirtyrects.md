@@ -10,6 +10,7 @@ keywords: ["IddCxSwapChainGetDirtyRects function"]
 ms.keywords: IddCxSwapChainGetDirtyRects, IddCxSwapChainGetDirtyRects method [Display Devices], display.iddcxswapchaingetdirtyrects, iddcx/IddCxSwapChainGetDirtyRects
 f1_keywords:
  - "iddcx/IddCxSwapChainGetDirtyRects"
+ - "IddCxSwapChainGetDirtyRects"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows

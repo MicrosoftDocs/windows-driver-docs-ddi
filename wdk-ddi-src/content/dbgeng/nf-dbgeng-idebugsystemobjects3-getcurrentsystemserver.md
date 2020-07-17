@@ -10,6 +10,7 @@ keywords: ["IDebugSystemObjects3::GetCurrentSystemServer"]
 ms.keywords: GetCurrentSystemServer, GetCurrentSystemServer method [Windows Debugging], GetCurrentSystemServer method [Windows Debugging],IDebugSystemObjects3 interface, IDebugSystemObjects3 interface [Windows Debugging],GetCurrentSystemServer method, IDebugSystemObjects3.GetCurrentSystemServer, IDebugSystemObjects3::GetCurrentSystemServer, dbgeng/IDebugSystemObjects3::GetCurrentSystemServer, debugger.idebugsystemobjects3_getcurrentsystemserver
 f1_keywords:
  - "dbgeng/IDebugSystemObjects3.GetCurrentSystemServer"
+ - "IDebugSystemObjects3.GetCurrentSystemServer"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

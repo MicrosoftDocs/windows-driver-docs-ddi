@@ -8,6 +8,7 @@ ms.date: 04/13/2018
 keywords: ["NET_BUFFER_LIST_SET_HASH_TYPE function"]
 f1_keywords:
  - "ndis/NET_BUFFER_LIST_SET_HASH_TYPE"
+ - "NET_BUFFER_LIST_SET_HASH_TYPE"
 ms.keywords: NET_BUFFER_LIST_SET_HASH_TYPE
 req.header: ndis.h
 req.include-header:

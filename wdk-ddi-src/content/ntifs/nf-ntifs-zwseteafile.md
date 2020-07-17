@@ -10,6 +10,7 @@ keywords: ["ZwSetEaFile function"]
 ms.keywords: ZwSetEaFile, ZwSetEaFile routine [Kernel-Mode Driver Architecture], kernel.zwseteafile, ntifs/ZwSetEaFile
 f1_keywords:
  - "ntifs/ZwSetEaFile"
+ - "ZwSetEaFile"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal

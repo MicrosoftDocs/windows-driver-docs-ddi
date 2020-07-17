@@ -10,6 +10,7 @@ keywords: ["PHW_FIND_ADAPTER callback"]
 ms.keywords: "(*PHW_FIND_ADAPTER), (*PHW_FIND_ADAPTER) callback function [Storage Devices], ide_minikr_dcd06c33-80a8-417c-acf6-5c38fa4d62ed.xml, srb/(*PHW_FIND_ADAPTER), storage.phw_find_adapter"
 f1_keywords:
  - "srb/(*PHW_FIND_ADAPTER)"
+ - "(*PHW_FIND_ADAPTER)"
 req.header: srb.h
 req.include-header: Storport.h, Srb.h, Storport.h
 req.target-type: Desktop

@@ -7,6 +7,7 @@ ms.date: 08/21/2018
 keywords: ["IDataModelManager2::AcquireSubNamespace"]
 f1_keywords:
  - "dbgmodel/IDataModelManager2.AcquireSubNamespace"
+ - "IDataModelManager2.AcquireSubNamespace"
 ms.keywords: IDataModelManager2::AcquireSubNamespace, AcquireSubNamespace, IDataModelManager2.AcquireSubNamespace, IDataModelManager2::AcquireSubNamespace, IDataModelManager2.AcquireSubNamespace
 req.header: dbgmodel.h
 req.include-header:

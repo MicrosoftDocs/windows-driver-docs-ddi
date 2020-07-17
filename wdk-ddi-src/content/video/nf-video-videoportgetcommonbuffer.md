@@ -10,6 +10,7 @@ keywords: ["VideoPortGetCommonBuffer function"]
 ms.keywords: VideoPortGetCommonBuffer, VideoPortGetCommonBuffer function [Display Devices], VideoPort_Functions_eead14aa-271b-49a2-8ded-482ffc73741e.xml, display.videoportgetcommonbuffer, video/VideoPortGetCommonBuffer
 f1_keywords:
  - "video/VideoPortGetCommonBuffer"
+ - "VideoPortGetCommonBuffer"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

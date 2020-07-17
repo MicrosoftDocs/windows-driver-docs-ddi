@@ -9,6 +9,7 @@ keywords: ["_DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2 structure"]
 ms.keywords: DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2, DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2 structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2, display.dxgk_multiplane_overlay_vsync_info2
 f1_keywords:
  - "d3dkmddi/DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2"
+ - "DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows

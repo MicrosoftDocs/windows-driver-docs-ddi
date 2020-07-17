@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_SUBMITCOMMANDFLAGS structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_SUBMITCOMMANDFLAGS"
+ - "_D3DKMT_SUBMITCOMMANDFLAGS"
 ms.keywords: _D3DKMT_SUBMITCOMMANDFLAGS, D3DKMT_SUBMITCOMMANDFLAGS, 
 req.header: d3dkmthk.h
 req.include-header:

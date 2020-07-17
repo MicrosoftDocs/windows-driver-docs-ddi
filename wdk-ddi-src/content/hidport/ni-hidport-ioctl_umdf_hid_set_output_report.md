@@ -10,6 +10,7 @@ keywords: ["IOCTL_UMDF_HID_SET_OUTPUT_REPORT IOCTL"]
 ms.keywords: IOCTL_UMDF_HID_SET_OUTPUT_REPORT, IOCTL_UMDF_HID_SET_OUTPUT_REPORT control, IOCTL_UMDF_HID_SET_OUTPUT_REPORT control code, hid.ioctl_umdf_hid_set_output_report, hidport/IOCTL_UMDF_HID_SET_OUTPUT_REPORT, umdf.ioctl_umdf_hid_set_output_report
 f1_keywords:
  - "hidport/IOCTL_UMDF_HID_SET_OUTPUT_REPORT"
+ - "IOCTL_UMDF_HID_SET_OUTPUT_REPORT"
 req.header: hidport.h
 req.include-header: 
 req.target-type: Windows

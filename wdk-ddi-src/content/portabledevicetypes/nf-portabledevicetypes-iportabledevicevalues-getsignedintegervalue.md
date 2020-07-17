@@ -10,6 +10,7 @@ keywords: ["IPortableDeviceValues::GetSignedIntegerValue"]
 ms.keywords: GetSignedIntegerValue, GetSignedIntegerValue method, GetSignedIntegerValue method,IPortableDeviceValues interface, IPortableDeviceValues interface,GetSignedIntegerValue method, IPortableDeviceValues.GetSignedIntegerValue, IPortableDeviceValues::GetSignedIntegerValue, IPortableDeviceValuesGetSignedIntegerValue, portabledevicetypes/IPortableDeviceValues::GetSignedIntegerValue, wpddk.iportabledevicevalues_getsignedintegervalue
 f1_keywords:
  - "portabledevicetypes/IPortableDeviceValues.GetSignedIntegerValue"
+ - "IPortableDeviceValues.GetSignedIntegerValue"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows

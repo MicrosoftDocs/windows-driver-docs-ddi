@@ -10,6 +10,7 @@ keywords: ["RIL_SendFlash function"]
 ms.keywords: RIL_SendFlash, RIL_SendFlash method [Network Drivers Starting with Windows Vista], netvista.ril_sendflash, rilapi/RIL_SendFlash
 f1_keywords:
  - "rilapi/RIL_SendFlash"
+ - "RIL_SendFlash"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

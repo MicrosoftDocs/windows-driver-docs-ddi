@@ -7,6 +7,7 @@ ms.date: 08/20/2018
 keywords: ["IDataModelScript::Execute"]
 f1_keywords:
  - "dbgmodel/IDataModelScript.Execute"
+ - "IDataModelScript.Execute"
 ms.keywords: IDataModelScript::Execute, Execute, IDataModelScript.Execute, IDataModelScript::Execute, IDataModelScript.Execute
 req.header: dbgmodel.h
 req.include-header:

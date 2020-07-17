@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_ADAPTER_PERFDATACAPS structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_ADAPTER_PERFDATACAPS"
+ - "_D3DKMT_ADAPTER_PERFDATACAPS"
 ms.keywords: _D3DKMT_ADAPTER_PERFDATACAPS, D3DKMT_ADAPTER_PERFDATACAPS,
 req.header: d3dkmthk.h
 req.include-header:

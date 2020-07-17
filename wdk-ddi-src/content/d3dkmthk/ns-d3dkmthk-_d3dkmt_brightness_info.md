@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_BRIGHTNESS_INFO structure"]
 ms.keywords: D3DKMT_BRIGHTNESS_INFO, D3DKMT_BRIGHTNESS_INFO structure [Display Devices], _D3DKMT_BRIGHTNESS_INFO, d3dkmthk/D3DKMT_BRIGHTNESS_INFO, display.d3dkmt_brightness_info
 f1_keywords:
  - "d3dkmthk/D3DKMT_BRIGHTNESS_INFO"
+ - "D3DKMT_BRIGHTNESS_INFO"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

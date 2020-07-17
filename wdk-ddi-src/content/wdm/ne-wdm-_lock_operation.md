@@ -10,6 +10,7 @@ keywords: ["_LOCK_OPERATION enumeration"]
 ms.keywords: IoModifyAccess, IoReadAccess, IoWriteAccess, LOCK_OPERATION, LOCK_OPERATION enumeration [Installable File System Drivers], _LOCK_OPERATION, ifsk.lock_operation, wdm/IoModifyAccess, wdm/IoReadAccess, wdm/IoWriteAccess, wdm/LOCK_OPERATION
 f1_keywords:
  - "wdm/LOCK_OPERATION"
+ - "LOCK_OPERATION"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Windows

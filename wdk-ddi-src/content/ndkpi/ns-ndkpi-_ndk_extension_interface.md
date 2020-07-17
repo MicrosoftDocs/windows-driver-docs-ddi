@@ -10,6 +10,7 @@ keywords: ["_NDK_EXTENSION_INTERFACE structure"]
 ms.keywords: NDK_EXTENSION_INTERFACE, NDK_EXTENSION_INTERFACE structure [Network Drivers Starting with Windows Vista], PNDK_EXTENSION_INTERFACE, PNDK_EXTENSION_INTERFACE structure pointer [Network Drivers Starting with Windows Vista], _NDK_EXTENSION_INTERFACE, ndkpi/NDK_EXTENSION_INTERFACE, ndkpi/PNDK_EXTENSION_INTERFACE, netvista.ndk_extension_interface
 f1_keywords:
  - "ndkpi/NDK_EXTENSION_INTERFACE"
+ - "NDK_EXTENSION_INTERFACE"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

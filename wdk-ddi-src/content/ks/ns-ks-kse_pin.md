@@ -10,6 +10,7 @@ keywords: ["KSE_PIN structure"]
 ms.keywords: "*PKSE_PIN, KSE_PIN, KSE_PIN structure [Streaming Media Devices], PKSE_PIN, PKSE_PIN structure pointer [Streaming Media Devices], ks/KSE_PIN, ks/PKSE_PIN, stream.kse_pin"
 f1_keywords:
  - "ks/KSE_PIN"
+ - "KSE_PIN"
 req.header: ks.h
 req.include-header: 
 req.target-type: Windows

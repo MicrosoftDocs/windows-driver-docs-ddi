@@ -10,6 +10,7 @@ keywords: ["IWDTFActions2::EnableObjectLogging"]
 ms.keywords: EnableObjectLogging, EnableObjectLogging method [Windows Device Testing Framework], EnableObjectLogging method [Windows Device Testing Framework],IWDTFActions2 interface, IWDTFActions2 interface [Windows Device Testing Framework],EnableObjectLogging method, IWDTFActions2.EnableObjectLogging, IWDTFActions2::EnableObjectLogging, dtf.iwdtfactions2_enableobjectlogging, wdtf/IWDTFActions2::EnableObjectLogging
 f1_keywords:
  - "wdtf/IWDTFActions2.EnableObjectLogging"
+ - "IWDTFActions2.EnableObjectLogging"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Desktop

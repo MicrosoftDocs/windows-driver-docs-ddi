@@ -8,6 +8,7 @@ ms.date: 10/19/2018
 keywords: ["UART_HARDWARE_READ_USHORT callback function"]
 f1_keywords:
  - "uart/UART_HARDWARE_READ_USHORT"
+ - "UART_HARDWARE_READ_USHORT"
 req.header: uart.h
 req.include-header:
 req.target-type:

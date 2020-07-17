@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["WELL_KNOWN_SID_TYPE enumeration"]
 f1_keywords:
  - "ntddk/WELL_KNOWN_SID_TYPE"
+ - "WELL_KNOWN_SID_TYPE"
 ms.keywords: WELL_KNOWN_SID_TYPE, WELL_KNOWN_SID_TYPE 
 req.header: ntddk.h
 req.include-header:

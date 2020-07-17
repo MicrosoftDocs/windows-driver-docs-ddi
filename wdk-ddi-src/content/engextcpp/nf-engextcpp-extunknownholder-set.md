@@ -10,6 +10,7 @@ keywords: ["ExtUnknownHolder::Set method"]
 ms.keywords: Set method [Windows Debugging], Set, ExtUnknownHolder::Set, ExtBuffer::Set, ExtCheckedPointer, ExtDeleteHolder, ExtRemoteTyped class [Windows Debugging], Set method, ExtCheckedPointer::Set, ExtBuffer, debugger.extremotetyped_set_bool, ExtUnknownHolder, ExtDeleteHolder::Set, Set method [Windows Debugging], ExtRemoteTyped class
 f1_keywords:
  - "engextcpp/ExtRemoteTyped.Set"
+ - "ExtRemoteTyped.Set"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["_STORAGE_ZONES_ATTRIBUTES enumeration"]
 ms.keywords: "*PSTORAGE_ZONES_ATTRIBUTES, PSTORAGE_ZONES_ATTRIBUTES, PSTORAGE_ZONES_ATTRIBUTES enumeration pointer [Storage Devices], STORAGE_ZONES_ATTRIBUTES, STORAGE_ZONES_ATTRIBUTES enumeration [Storage Devices], ZonesAttributeTypeAndLengthMayDifferent, ZonesAttributeTypeMayDifferentLengthSame, ZonesAttributeTypeSameLastZoneLengthDifferent, ZonesAttributeTypeSameLengthSame, _STORAGE_ZONES_ATTRIBUTES, ntddstor/PSTORAGE_ZONES_ATTRIBUTES, ntddstor/STORAGE_ZONES_ATTRIBUTES, ntddstor/ZonesAttributeTypeAndLengthMayDifferent, ntddstor/ZonesAttributeTypeMayDifferentLengthSame, ntddstor/ZonesAttributeTypeSameLastZoneLengthDifferent, ntddstor/ZonesAttributeTypeSameLengthSame, storage.storage_zones_attributes"
 f1_keywords:
  - "ntddstor/STORAGE_ZONES_ATTRIBUTES"
+ - "STORAGE_ZONES_ATTRIBUTES"
 req.header: ntddstor.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.date: 03/24/2020
 ms.topic: function
 f1_keywords:
  - "storport/StorPortMarkDeviceFailedEx"
+ - "StorPortMarkDeviceFailedEx"
 ms.keywords: StorPortMarkDeviceFailedEx
 req.header: storport.h
 req.include-header:

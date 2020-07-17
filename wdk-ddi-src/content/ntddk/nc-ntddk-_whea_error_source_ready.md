@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["_WHEA_ERROR_SOURCE_READY callback function"]
 f1_keywords:
  - "ntddk/_WHEA_ERROR_SOURCE_READY"
+ - "_WHEA_ERROR_SOURCE_READY"
 req.header: ntddk.h
 req.include-header:
 req.target-type:

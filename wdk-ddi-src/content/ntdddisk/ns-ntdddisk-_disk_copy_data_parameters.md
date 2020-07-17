@@ -10,6 +10,7 @@ keywords: ["_DISK_COPY_DATA_PARAMETERS structure"]
 ms.keywords: "*PDISK_COPY_DATA_PARAMETERS, DISK_COPY_DATA_PARAMETERS, DISK_COPY_DATA_PARAMETERS structure [Storage Devices], PDISK_COPY_DATA_PARAMETERS, PDISK_COPY_DATA_PARAMETERS structure pointer [Storage Devices], _DISK_COPY_DATA_PARAMETERS, ntdddisk/DISK_COPY_DATA_PARAMETERS, ntdddisk/PDISK_COPY_DATA_PARAMETERS, storage.disk_copy_data_parameters, structs-disk_3b1d751a-57a0-47a6-accd-f895fdb9bb61.xml"
 f1_keywords:
  - "ntdddisk/DISK_COPY_DATA_PARAMETERS"
+ - "DISK_COPY_DATA_PARAMETERS"
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h
 req.target-type: Windows

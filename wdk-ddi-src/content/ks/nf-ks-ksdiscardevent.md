@@ -10,6 +10,7 @@ keywords: ["KsDiscardEvent function"]
 ms.keywords: KsDiscardEvent, KsDiscardEvent function [Streaming Media Devices], ks/KsDiscardEvent, ksfunc_553391e5-343a-4cc7-9bc5-99971cff2fcd.xml, stream.ksdiscardevent
 f1_keywords:
  - "ks/KsDiscardEvent"
+ - "KsDiscardEvent"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["WdfDeviceAssignSxWakeSettings function"]
 ms.keywords: DFDeviceObjectGeneralRef_1a9b9467-862d-422a-9cf6-501d1ddefe5e.xml, WdfDeviceAssignSxWakeSettings, WdfDeviceAssignSxWakeSettings method, kmdf.wdfdeviceassignsxwakesettings, wdf.wdfdeviceassignsxwakesettings, wdfdevice/WdfDeviceAssignSxWakeSettings
 f1_keywords:
  - "wdfdevice/WdfDeviceAssignSxWakeSettings"
+ - "WdfDeviceAssignSxWakeSettings"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

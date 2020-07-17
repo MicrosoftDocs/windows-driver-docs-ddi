@@ -10,6 +10,7 @@ keywords: ["HWN_CLIENT_SET_STATE callback"]
 ms.keywords: "*PHWN_CLIENT_SET_STATE, *PHWN_CLIENT_SET_STATE callback function pointer, HWN_CLIENT_SET_STATE, HwnClientSetState, HwnClientSetState callback function, gpiobtn.hwn_client_set_state, hwnclx/HwnClientSetState"
 f1_keywords:
  - "hwnclx/*PHWN_CLIENT_SET_STATE"
+ - "*PHWN_CLIENT_SET_STATE"
 req.header: hwnclx.h
 req.include-header:
 req.target-type: Windows

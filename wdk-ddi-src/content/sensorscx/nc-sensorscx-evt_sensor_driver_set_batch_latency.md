@@ -10,6 +10,7 @@ keywords: ["EVT_SENSOR_DRIVER_SET_BATCH_LATENCY callback function"]
 ms.keywords: EVT_SENSOR_DRIVER_SET_BATCH_LATENCY, EVT_SENSOR_DRIVER_SET_BATCH_LATENCY callback, EvtSensorSetBatchLatency, EvtSensorSetBatchLatency callback function [Sensor Devices], sensors.evtsensorsetbatchlatency, sensorscx/EvtSensorSetBatchLatency
 f1_keywords:
  - "sensorscx/EvtSensorSetBatchLatency"
+ - "EvtSensorSetBatchLatency"
 req.header: sensorscx.h
 req.include-header: 
 req.target-type: Windows

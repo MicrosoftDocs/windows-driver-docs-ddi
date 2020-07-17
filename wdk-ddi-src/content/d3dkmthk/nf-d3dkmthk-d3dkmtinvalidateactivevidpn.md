@@ -9,6 +9,7 @@ keywords: ["D3DKMTInvalidateActiveVidPn function"]
 ms.keywords: D3DKMTInvalidateActiveVidPn, D3DKMTInvalidateActiveVidPn function [Display Devices], OpenGL_Functions_3c74c218-cf17-4a86-af8e-da565b3cffd4.xml, d3dkmthk/D3DKMTInvalidateActiveVidPn, display.d3dkmtinvalidateactivevidpn
 f1_keywords:
  - "d3dkmthk/D3DKMTInvalidateActiveVidPn"
+ - "D3DKMTInvalidateActiveVidPn"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

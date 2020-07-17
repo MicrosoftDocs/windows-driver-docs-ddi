@@ -10,6 +10,7 @@ keywords: ["KsAcquireCachedMdl function"]
 ms.keywords: GUID, KsAcquireCachedMdl, KsAcquireCachedMdl function [Streaming Media Devices], PVOID, ks/KsAcquireCachedMdl, stream.ksacquirecachedmdl
 f1_keywords:
  - "ks/KsAcquireCachedMdl"
+ - "KsAcquireCachedMdl"
 req.header: ks.h
 req.include-header: 
 req.target-type: Universal

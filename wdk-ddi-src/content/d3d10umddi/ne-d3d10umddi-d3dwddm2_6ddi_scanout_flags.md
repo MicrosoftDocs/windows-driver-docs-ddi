@@ -25,6 +25,7 @@ targetos: Windows
 ms.custom: WDDM 2.6, 19H1
 f1_keywords:
  - "d3d10umddi/D3DWDDM2_6DDI_SCANOUT_FLAGS"
+ - "D3DWDDM2_6DDI_SCANOUT_FLAGS"
 topic_type:
  - apiref
 api_type:

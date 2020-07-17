@@ -10,6 +10,7 @@ keywords: ["KSDATARANGE_AUDIO structure"]
 ms.keywords: "*PKSDATARANGE_AUDIO, KSDATARANGE_AUDIO, KSDATARANGE_AUDIO structure [Audio Devices], PKSDATARANGE_AUDIO, PKSDATARANGE_AUDIO structure pointer [Audio Devices], aud-prop_9a59d4cd-4c84-4c22-8a36-741cf53ec08d.xml, audio.ksdatarange_audio, ksmedia/KSDATARANGE_AUDIO, ksmedia/PKSDATARANGE_AUDIO"
 f1_keywords:
  - "ksmedia/KSDATARANGE_AUDIO"
+ - "KSDATARANGE_AUDIO"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

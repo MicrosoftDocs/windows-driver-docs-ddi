@@ -10,6 +10,7 @@ keywords: ["WdfPdoInitSetEventCallbacks function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_00002737-467e-4449-8c6c-498860a18747.xml, WdfPdoInitSetEventCallbacks, WdfPdoInitSetEventCallbacks method, kmdf.wdfpdoinitseteventcallbacks, wdf.wdfpdoinitseteventcallbacks, wdfpdo/WdfPdoInitSetEventCallbacks
 f1_keywords:
  - "wdfpdo/WdfPdoInitSetEventCallbacks"
+ - "WdfPdoInitSetEventCallbacks"
 req.header: wdfpdo.h
 req.include-header: Wdf.h
 req.target-type: Universal

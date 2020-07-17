@@ -10,6 +10,7 @@ keywords: ["IPrintPipelinePropertyBag interface"]
 ms.keywords: IPrintPipelinePropertyBag, IPrintPipelinePropertyBag interface [Print Devices], IPrintPipelinePropertyBag interface [Print Devices],described, filterpipeline/IPrintPipelinePropertyBag, filterpipeline_e103ac79-2365-4fb3-be40-d00986bba793.xml, print.iprintpipelinepropertybag
 f1_keywords:
  - "filterpipeline/IPrintPipelinePropertyBag"
+ - "IPrintPipelinePropertyBag"
 req.header: filterpipeline.h
 req.include-header: Filterpipeline.h
 req.target-type: Windows

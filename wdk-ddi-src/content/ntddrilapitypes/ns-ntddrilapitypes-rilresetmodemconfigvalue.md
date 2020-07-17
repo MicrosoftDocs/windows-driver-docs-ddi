@@ -10,6 +10,7 @@ keywords: ["RILRESETMODEMCONFIGVALUE structure"]
 ms.keywords: "*LPRILRESETMODEMCONFIGVALUE, RILRESETMODEMCONFIGVALUE, RILRESETMODEMCONFIGVALUE structure [Network Drivers Starting with Windows Vista], netvista.rilresetmodemconfigvalue, ntddrilapitypes/RILRESETMODEMCONFIGVALUE"
 f1_keywords:
  - "ntddrilapitypes/RILRESETMODEMCONFIGVALUE"
+ - "RILRESETMODEMCONFIGVALUE"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

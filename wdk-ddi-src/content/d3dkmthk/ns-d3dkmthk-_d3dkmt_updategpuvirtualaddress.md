@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_UPDATEGPUVIRTUALADDRESS structure"]
 ms.keywords: D3DKMT_UPDATEGPUVIRTUALADDRESS, D3DKMT_UPDATEGPUVIRTUALADDRESS structure [Display Devices], _D3DKMT_UPDATEGPUVIRTUALADDRESS, d3dkmthk/D3DKMT_UPDATEGPUVIRTUALADDRESS, display.d3dkmt_updategpuvirtualaddress
 f1_keywords:
  - "d3dkmthk/D3DKMT_UPDATEGPUVIRTUALADDRESS"
+ - "D3DKMT_UPDATEGPUVIRTUALADDRESS"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

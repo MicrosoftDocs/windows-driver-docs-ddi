@@ -10,6 +10,7 @@ keywords: ["_GPIO_PIN_CONFIG_TYPE enumeration"]
 ms.keywords: GPIO_PIN_CONFIG_TYPE, GPIO_PIN_CONFIG_TYPE enumeration [Kernel-Mode Driver Architecture], PullDefault, PullDown, PullNone, PullUp, _GPIO_PIN_CONFIG_TYPE, kernel.gpio_pin_config_type, pepfx/GPIO_PIN_CONFIG_TYPE, pepfx/PullDefault, pepfx/PullDown, pepfx/PullNone, pepfx/PullUp
 f1_keywords:
  - "pep_x/GPIO_PIN_CONFIG_TYPE"
+ - "GPIO_PIN_CONFIG_TYPE"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows

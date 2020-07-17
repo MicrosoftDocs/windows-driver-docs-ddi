@@ -10,6 +10,7 @@ keywords: ["KeReadStateQueue function"]
 ms.keywords: KeReadStateQueue, KeReadStateQueue function [Installable File System Drivers], ifsk.kereadstatequeue, keref_ae112949-4020-4501-8403-da1075d854c6.xml, ntifs/KeReadStateQueue
 f1_keywords:
  - "ntifs/KeReadStateQueue"
+ - "KeReadStateQueue"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

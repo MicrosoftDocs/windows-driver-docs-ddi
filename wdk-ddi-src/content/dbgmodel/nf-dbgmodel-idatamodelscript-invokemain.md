@@ -7,6 +7,7 @@ ms.date: 08/20/2018
 keywords: ["IDataModelScript::InvokeMain"]
 f1_keywords:
  - "dbgmodel/IDataModelScript.InvokeMain"
+ - "IDataModelScript.InvokeMain"
 ms.keywords: IDataModelScript::InvokeMain, InvokeMain, IDataModelScript.InvokeMain, IDataModelScript::InvokeMain, IDataModelScript.InvokeMain
 req.header: dbgmodel.h
 req.include-header:

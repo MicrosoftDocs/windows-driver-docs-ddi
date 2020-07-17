@@ -7,6 +7,7 @@ ms.date: 09/21/2018
 keywords: ["IDataModelNameBinder::AddRef"]
 f1_keywords:
  - "dbgmodel/IDataModelNameBinder.AddRef"
+ - "IDataModelNameBinder.AddRef"
 ms.keywords: IDataModelNameBinder::AddRef, AddRef, IDataModelNameBinder.AddRef, IDataModelNameBinder::AddRef, IDataModelNameBinder.AddRef
 req.header: dbgmodel.h
 req.include-header:

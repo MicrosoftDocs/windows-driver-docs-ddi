@@ -9,6 +9,7 @@ keywords: ["PFND3D10DDI_STATE_IA_INPUTLAYOUT_CB callback function"]
 ms.keywords: PFND3D10DDI_STATE_IA_INPUTLAYOUT_CB, PFND3D10DDI_STATE_IA_INPUTLAYOUT_CB callback, d3d10state_functions_7b16723d-2341-4413-9a3c-e1755e34b55e.xml, d3d10umddi/pfnStateIaInputLayoutCb, display.pfnstateiainputlayoutcb, pfnStateIaInputLayoutCb, pfnStateIaInputLayoutCb callback function [Display Devices]
 f1_keywords:
  - "d3d10umddi/pfnStateIaInputLayoutCb"
+ - "pfnStateIaInputLayoutCb"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

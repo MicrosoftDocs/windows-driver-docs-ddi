@@ -10,6 +10,7 @@ keywords: ["PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE function"]
 ms.keywords: PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE, PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE function [Kernel-Mode Driver Architecture], kernel.pep_acpi_initialize_gpio_int_resource, pepfx/PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE
 f1_keywords:
  - "pepfx/PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE"
+ - "PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows

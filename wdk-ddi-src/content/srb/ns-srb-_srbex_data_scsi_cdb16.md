@@ -10,6 +10,7 @@ keywords: ["_SRBEX_DATA_SCSI_CDB16 structure"]
 ms.keywords: "*PSRBEX_DATA_SCSI_CDB16, PSRBEX_DATA_SCSI_CDB16, PSRBEX_DATA_SCSI_CDB16 structure pointer [Storage Devices], SRBEX_DATA_SCSI_CDB16, SRBEX_DATA_SCSI_CDB16 structure [Storage Devices], _SRBEX_DATA_SCSI_CDB16, storage.srbex_data_scsi_cdb16, storport/PSRBEX_DATA_SCSI_CDB16, storport/SRBEX_DATA_SCSI_CDB16"
 f1_keywords:
  - "srb/SRBEX_DATA_SCSI_CDB16"
+ - "SRBEX_DATA_SCSI_CDB16"
 req.header: srb.h
 req.include-header: Storport.h, Srb.h, Minitape.h
 req.target-type: Windows

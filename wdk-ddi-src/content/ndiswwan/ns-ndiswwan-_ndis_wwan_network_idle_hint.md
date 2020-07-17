@@ -10,6 +10,7 @@ keywords: ["_NDIS_WWAN_NETWORK_IDLE_HINT structure"]
 ms.keywords: "*PNDIS_WWAN_NETWORK_IDLE_HINT, NDIS_WWAN_NETWORK_IDLE_HINT, NDIS_WWAN_NETWORK_IDLE_HINT structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_NETWORK_IDLE_HINT, PNDIS_WWAN_NETWORK_IDLE_HINT structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_NETWORK_IDLE_HINT, ndiswwan/NDIS_WWAN_NETWORK_IDLE_HINT, ndiswwan/PNDIS_WWAN_NETWORK_IDLE_HINT, netvista.ndis_wwan_network_idle_hint"
 f1_keywords:
  - "ndiswwan/NDIS_WWAN_NETWORK_IDLE_HINT"
+ - "NDIS_WWAN_NETWORK_IDLE_HINT"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["_INSTANCE_BASIC_INFORMATION structure"]
 ms.keywords: FltSystemStructures_bc615e69-e0f4-478b-9684-9371d62f5602.xml, INSTANCE_BASIC_INFORMATION, INSTANCE_BASIC_INFORMATION structure [Installable File System Drivers], PINSTANCE_BASIC_INFORMATION, PINSTANCE_BASIC_INFORMATION structure pointer [Installable File System Drivers], _INSTANCE_BASIC_INFORMATION, fltuserstructures/INSTANCE_BASIC_INFORMATION, fltuserstructures/PINSTANCE_BASIC_INFORMATION, ifsk.instance_basic_information
 f1_keywords:
  - "fltuserstructures/INSTANCE_BASIC_INFORMATION"
+ - "INSTANCE_BASIC_INFORMATION"
 req.header: fltuserstructures.h
 req.include-header: FltUser.h, Fltkernel.h
 req.target-type: Windows

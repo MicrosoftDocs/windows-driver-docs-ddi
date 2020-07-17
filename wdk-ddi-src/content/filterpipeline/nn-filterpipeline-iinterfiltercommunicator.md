@@ -10,6 +10,7 @@ keywords: ["IInterFilterCommunicator interface"]
 ms.keywords: IInterFilterCommunicator, IInterFilterCommunicator interface [Print Devices], IInterFilterCommunicator interface [Print Devices],described, filterpipeline/IInterFilterCommunicator, filterpipeline_80929d81-f333-4d23-9e46-72682784f0a2.xml, print.iinterfiltercommunicator
 f1_keywords:
  - "filterpipeline/IInterFilterCommunicator"
+ - "IInterFilterCommunicator"
 req.header: filterpipeline.h
 req.include-header: Filterpipeline.h
 req.target-type: Windows

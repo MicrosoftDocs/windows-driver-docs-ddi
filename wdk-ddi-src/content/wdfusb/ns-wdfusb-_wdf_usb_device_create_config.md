@@ -10,6 +10,7 @@ keywords: ["_WDF_USB_DEVICE_CREATE_CONFIG structure"]
 ms.keywords: "*PWDF_USB_DEVICE_CREATE_CONFIG, PWDF_USB_DEVICE_CREATE_CONFIG, PWDF_USB_DEVICE_CREATE_CONFIG structure pointer, WDF_USB_DEVICE_CREATE_CONFIG, WDF_USB_DEVICE_CREATE_CONFIG structure, _WDF_USB_DEVICE_CREATE_CONFIG, kmdf.wdf_usb_device_create_config, kmdf.wdf_usbtarget_device_config, wdf.wdf_usb_device_create_config, wdfusb/PWDF_USB_DEVICE_CREATE_CONFIG, wdfusb/WDF_USB_DEVICE_CREATE_CONFIG"
 f1_keywords:
  - "wdfusb/WDF_USB_DEVICE_CREATE_CONFIG"
+ - "WDF_USB_DEVICE_CREATE_CONFIG"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Windows

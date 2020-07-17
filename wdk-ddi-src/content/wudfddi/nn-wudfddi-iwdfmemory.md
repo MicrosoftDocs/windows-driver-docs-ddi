@@ -10,6 +10,7 @@ keywords: ["IWDFMemory interface"]
 ms.keywords: IWDFMemory, IWDFMemory interface, IWDFMemory interface,described, UMDFMemoryObjectRef_14266bd8-214b-4244-a96b-9bea5cfa9d84.xml, umdf.iwdfmemory, wdf.iwdfmemory, wudfddi/IWDFMemory
 f1_keywords:
  - "wudfddi/IWDFMemory"
+ - "IWDFMemory"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["IMiniportAudioEngineNode::SetDeviceChannelVolume"]
 ms.keywords: IMiniportAudioEngineNode interface [Audio Devices],SetDeviceChannelVolume method, IMiniportAudioEngineNode.SetDeviceChannelVolume, IMiniportAudioEngineNode::SetDeviceChannelVolume, SetDeviceChannelVolume, SetDeviceChannelVolume method [Audio Devices], SetDeviceChannelVolume method [Audio Devices],IMiniportAudioEngineNode interface, audio.iminiportaudioenginenode_setdevicechannelvolume, portcls/IMiniportAudioEngineNode::SetDeviceChannelVolume
 f1_keywords:
  - "portcls/IMiniportAudioEngineNode.SetDeviceChannelVolume"
+ - "IMiniportAudioEngineNode.SetDeviceChannelVolume"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["IXpsDocumentConsumer::SendFixedDocumentSequence"]
 ms.keywords: IXpsDocumentConsumer interface [Print Devices],SendFixedDocumentSequence method, IXpsDocumentConsumer.SendFixedDocumentSequence, IXpsDocumentConsumer::SendFixedDocumentSequence, SendFixedDocumentSequence, SendFixedDocumentSequence method [Print Devices], SendFixedDocumentSequence method [Print Devices],IXpsDocumentConsumer interface, filterpipeline/IXpsDocumentConsumer::SendFixedDocumentSequence, filterpipeline_cd741d5b-4069-4a67-8add-b5c2701699f6.xml, print.ixpsdocumentconsumer_sendfixeddocumentsequence
 f1_keywords:
  - "filterpipeline/IXpsDocumentConsumer.SendFixedDocumentSequence"
+ - "IXpsDocumentConsumer.SendFixedDocumentSequence"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop

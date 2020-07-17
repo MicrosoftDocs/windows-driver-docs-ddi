@@ -10,6 +10,7 @@ keywords: ["ExtExtension::SetArgStr"]
 ms.keywords: EngExtCpp_Ref_768f449e-fa81-4759-a16d-a8dfe1d3bf61.xml, ExtExtension class [Windows Debugging],SetArgStr method, ExtExtension.SetArgStr, ExtExtension::SetArgStr, SetArgStr, SetArgStr method [Windows Debugging], SetArgStr method [Windows Debugging],ExtExtension class, debugger.setargstr
 f1_keywords:
  - "engextcpp/ExtExtension.SetArgStr"
+ - "ExtExtension.SetArgStr"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop

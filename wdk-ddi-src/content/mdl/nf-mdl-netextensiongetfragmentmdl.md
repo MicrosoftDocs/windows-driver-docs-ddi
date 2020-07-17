@@ -10,6 +10,7 @@ ms.date: 09/26/2019
 keywords: ["NetExtensionGetFragmentMdl function"]
 f1_keywords:
  - "mdl/NetExtensionGetFragmentMdl"
+ - "NetExtensionGetFragmentMdl"
 ms.keywords: NetExtensionGetFragmentMdl
 req.header: mdl.h
 req.include-header:

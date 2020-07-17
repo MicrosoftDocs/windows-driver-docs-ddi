@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["WHEAP_OSC_IMPLEMENTED structure"]
 f1_keywords:
  - "ntddk/WHEAP_OSC_IMPLEMENTED"
+ - "WHEAP_OSC_IMPLEMENTED"
 ms.keywords: WHEAP_OSC_IMPLEMENTED, WHEAP_OSC_IMPLEMENTED, *PWHEAP_OSC_IMPLEMENTED, 
 req.header: ntddk.h
 req.include-header:

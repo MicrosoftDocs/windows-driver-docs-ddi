@@ -10,6 +10,7 @@ keywords: ["UCM_PD_POWER_DATA_OBJECT_INIT_BATTERY function"]
 ms.keywords: UCM_PD_POWER_DATA_OBJECT_INIT_BATTERY, UCM_PD_POWER_DATA_OBJECT_INIT_BATTERY function [Buses], buses.ucm_pd_power_data_object_init_battery, ucmtypes/UCM_PD_POWER_DATA_OBJECT_INIT_BATTERY
 f1_keywords:
  - "ucmtypes/UCM_PD_POWER_DATA_OBJECT_INIT_BATTERY"
+ - "UCM_PD_POWER_DATA_OBJECT_INIT_BATTERY"
 req.header: ucmtypes.h
 req.include-header: Ucmcx.h
 req.target-type: Windows

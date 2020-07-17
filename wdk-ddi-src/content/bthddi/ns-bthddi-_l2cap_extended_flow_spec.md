@@ -10,6 +10,7 @@ keywords: ["_L2CAP_EXTENDED_FLOW_SPEC structure"]
 ms.keywords: "*PL2CAP_EXTENDED_FLOW_SPEC, L2CAP_EXTENDED_FLOW_SPEC, L2CAP_EXTENDED_FLOW_SPEC structure [Bluetooth Devices], PL2CAP_EXTENDED_FLOW_SPEC, PL2CAP_EXTENDED_FLOW_SPEC structure pointer [Bluetooth Devices], _L2CAP_EXTENDED_FLOW_SPEC, bltooth.l2cap_extended_flow_spec, bthddi/L2CAP_EXTENDED_FLOW_SPEC, bthddi/PL2CAP_EXTENDED_FLOW_SPEC"
 f1_keywords:
  - "bthddi/L2CAP_EXTENDED_FLOW_SPEC"
+ - "L2CAP_EXTENDED_FLOW_SPEC"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows

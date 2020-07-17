@@ -10,6 +10,7 @@ keywords: ["IPortClsPnp interface"]
 ms.keywords: IPortClsPnp, IPortClsPnp interface [Audio Devices], IPortClsPnp interface [Audio Devices],described, audio.iportclspnp, portcls/IPortClsPnp
 f1_keywords:
  - "portcls/IPortClsPnp"
+ - "IPortClsPnp"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows

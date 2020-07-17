@@ -10,6 +10,7 @@ keywords: ["PC_REBALANCE_TYPE enumeration"]
 ms.keywords: PC_REBALANCE_TYPE, PC_REBALANCE_TYPE enumeration [Audio Devices], PcRebalanceNotSupported, PcRebalanceRemoveSubdevices, audio.pc_rebalance_type, portcls/PC_REBALANCE_TYPE, portcls/PcRebalanceNotSupported, portcls/PcRebalanceRemoveSubdevices
 f1_keywords:
  - "portcls/PC_REBALANCE_TYPE"
+ - "PC_REBALANCE_TYPE"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Windows

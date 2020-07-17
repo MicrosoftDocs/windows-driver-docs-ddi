@@ -7,6 +7,7 @@ ms.date: 09/10/2018
 keywords: ["IDebugHostTypeSignature::IsMatch"]
 f1_keywords:
  - "dbgmodel/IDebugHostTypeSignature.IsMatch"
+ - "IDebugHostTypeSignature.IsMatch"
 ms.keywords: IDebugHostTypeSignature::IsMatch, IsMatch, IDebugHostTypeSignature.IsMatch, IDebugHostTypeSignature::IsMatch, IDebugHostTypeSignature.IsMatch
 req.header: dbgmodel.h
 req.include-header:

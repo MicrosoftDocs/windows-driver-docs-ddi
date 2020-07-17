@@ -10,6 +10,7 @@ keywords: ["IOCTL_SERENUM_GET_PORT_NAME IOCTL"]
 ms.keywords: IOCTL_SERENUM_GET_PORT_NAME, IOCTL_SERENUM_GET_PORT_NAME control, IOCTL_SERENUM_GET_PORT_NAME control code [Serial Ports], ntddser/IOCTL_SERENUM_GET_PORT_NAME, senumref_448bb4bf-eda4-4fbc-abb6-5f470d07861e.xml, serports.ioctl_serenum_get_port_name
 f1_keywords:
  - "ntddser/IOCTL_SERENUM_GET_PORT_NAME"
+ - "IOCTL_SERENUM_GET_PORT_NAME"
 req.header: ntddser.h
 req.include-header: Ntddser.h
 req.target-type: Windows

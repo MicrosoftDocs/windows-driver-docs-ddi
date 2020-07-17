@@ -10,6 +10,7 @@ keywords: ["IoPageRead function"]
 ms.keywords: IoPageRead, IoPageRead function [Installable File System Drivers], ifsk.iopageread, ioref_2c5776f2-eef8-49e5-ade1-3ed0edcd6102.xml, ntifs/IoPageRead
 f1_keywords:
  - "ntifs/IoPageRead"
+ - "IoPageRead"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

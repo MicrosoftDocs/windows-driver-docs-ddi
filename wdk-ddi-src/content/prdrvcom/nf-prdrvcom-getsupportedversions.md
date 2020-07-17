@@ -10,6 +10,7 @@ keywords: ["GetSupportedVersions function"]
 ms.keywords: GetSupportedVersions, GetSupportedVersions method [Print Devices], GetSupportedVersions method [Print Devices],IPrintTicketProvider interface, IPrintTicketProvider interface [Print Devices],GetSupportedVersions method, IPrintTicketProvider::GetSupportedVersions, prdrvcom/IPrintTicketProvider::GetSupportedVersions, print.iprintticketprovider_getsupportedversions, print_ticket-package_3c9ed7b7-a38f-49b2-a7fc-7fc78aa39a27.xml
 f1_keywords:
  - "prdrvcom/IPrintTicketProvider.GetSupportedVersions"
+ - "IPrintTicketProvider.GetSupportedVersions"
 req.header: prdrvcom.h
 req.include-header: Prdrvcom.h
 req.target-type: Desktop

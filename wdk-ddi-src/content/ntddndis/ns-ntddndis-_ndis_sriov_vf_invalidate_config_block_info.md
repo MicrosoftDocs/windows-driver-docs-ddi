@@ -10,6 +10,7 @@ keywords: ["_NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO structure"]
 ms.keywords: "*PNDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO, NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO, NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO, PNDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO, netvista.ndis_sriov_vf_invalidate_config_block_info, ntddndis/NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO, ntddndis/PNDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO"
 f1_keywords:
  - "ntddndis/NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO"
+ - "NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

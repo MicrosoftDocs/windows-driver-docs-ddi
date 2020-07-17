@@ -10,6 +10,7 @@ keywords: ["IPnpCallbackSelfManagedIo::OnSelfManagedIoInit"]
 ms.keywords: IPnpCallbackSelfManagedIo interface,OnSelfManagedIoInit method, IPnpCallbackSelfManagedIo.OnSelfManagedIoInit, IPnpCallbackSelfManagedIo::OnSelfManagedIoInit, OnSelfManagedIoInit, OnSelfManagedIoInit method, OnSelfManagedIoInit method,IPnpCallbackSelfManagedIo interface, UMDFDeviceObjectRef_17a86796-71ff-4ca3-897b-da7780614f24.xml, umdf.ipnpcallbackselfmanagedio_onselfmanagedioinit, wdf.ipnpcallbackselfmanagedio_onselfmanagedioinit, wudfddi/IPnpCallbackSelfManagedIo::OnSelfManagedIoInit
 f1_keywords:
  - "wudfddi/IPnpCallbackSelfManagedIo.OnSelfManagedIoInit"
+ - "IPnpCallbackSelfManagedIo.OnSelfManagedIoInit"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Windows

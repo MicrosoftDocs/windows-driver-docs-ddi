@@ -10,6 +10,7 @@ keywords: ["AtaPortWritePortUchar function"]
 ms.keywords: AtaPortWritePortUchar, AtaPortWritePortUchar routine [Storage Devices], atartns_25e284e4-0c1e-4172-b0d2-4435e23f7270.xml, irb/AtaPortWritePortUchar, storage.ataportwriteportuchar
 f1_keywords:
  - "irb/AtaPortWritePortUchar"
+ - "AtaPortWritePortUchar"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop

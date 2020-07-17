@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_TRIMPROCESSCOMMITMENT structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_TRIMPROCESSCOMMITMENT"
+ - "_D3DKMT_TRIMPROCESSCOMMITMENT"
 ms.keywords: _D3DKMT_TRIMPROCESSCOMMITMENT, D3DKMT_TRIMPROCESSCOMMITMENT, 
 req.header: d3dkmthk.h
 req.include-header:

@@ -31,6 +31,7 @@ targetos: Windows
 ms.custom: WDDM 2.6, 19H1
 f1_keywords:
  - "d3d10umddi/PFND3DWDDM2_6DDI_PREPARE_SCANOUT_TRANSFORMATION"
+ - "PFND3DWDDM2_6DDI_PREPARE_SCANOUT_TRANSFORMATION"
 topic_type:
  - apiref
 api_type:

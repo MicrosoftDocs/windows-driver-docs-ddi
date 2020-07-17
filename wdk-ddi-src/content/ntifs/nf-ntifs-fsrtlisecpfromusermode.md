@@ -10,6 +10,7 @@ keywords: ["FsRtlIsEcpFromUserMode function"]
 ms.keywords: FsRtlIsEcpFromUserMode, FsRtlIsEcpFromUserMode routine [Installable File System Drivers], fsrtlref_14f09529-adf9-4113-bff4-5183ade20059.xml, ifsk.fsrtlisecpfromusermode, ntifs/FsRtlIsEcpFromUserMode
 f1_keywords:
  - "ntifs/FsRtlIsEcpFromUserMode"
+ - "FsRtlIsEcpFromUserMode"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

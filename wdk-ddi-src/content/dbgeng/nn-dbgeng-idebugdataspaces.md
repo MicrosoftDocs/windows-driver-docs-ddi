@@ -10,6 +10,7 @@ keywords: ["IDebugDataSpaces interface"]
 ms.keywords: IDebugDataSpaces, IDebugDataSpaces interface [Windows Debugging], IDebugDataSpaces interface [Windows Debugging],described, IDebugDataSpaces_83f3a88c-f7e6-4b5c-a2b2-4e8bccef4281.xml, dbgeng/IDebugDataSpaces, debugger.idebugdataspaces
 f1_keywords:
  - "dbgeng/IDebugDataSpaces"
+ - "IDebugDataSpaces"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

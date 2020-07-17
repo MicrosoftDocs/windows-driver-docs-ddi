@@ -10,6 +10,7 @@ keywords: ["_DXVADDI_SAMPLEFORMAT enumeration"]
 ms.keywords: DXVA2_Structs_70e0302d-16a1-4a48-8f51-943873c20997.xml, DXVADDI_SAMPLEFORMAT, DXVADDI_SAMPLEFORMAT enumeration [Display Devices], DXVADDI_SampleFieldInterleavedEvenFirst, DXVADDI_SampleFieldInterleavedOddFirst, DXVADDI_SampleFieldSingleEven, DXVADDI_SampleFieldSingleOdd, DXVADDI_SampleFormatMask, DXVADDI_SampleProgressiveFrame, DXVADDI_SampleSubStream, DXVADDI_SampleUnknown, _DXVADDI_SAMPLEFORMAT, d3dumddi/DXVADDI_SAMPLEFORMAT, d3dumddi/DXVADDI_SampleFieldInterleavedEvenFirst, d3dumddi/DXVADDI_SampleFieldInterleavedOddFirst, d3dumddi/DXVADDI_SampleFieldSingleEven, d3dumddi/DXVADDI_SampleFieldSingleOdd, d3dumddi/DXVADDI_SampleFormatMask, d3dumddi/DXVADDI_SampleProgressiveFrame, d3dumddi/DXVADDI_SampleSubStream, d3dumddi/DXVADDI_SampleUnknown, display.dxvaddi_sampleformat
 f1_keywords:
  - "d3dumddi/DXVADDI_SAMPLEFORMAT"
+ - "DXVADDI_SAMPLEFORMAT"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

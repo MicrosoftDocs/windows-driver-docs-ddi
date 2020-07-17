@@ -10,6 +10,7 @@ keywords: ["FsRtlValidateReparsePointBuffer function"]
 ms.keywords: FsRtlValidateReparsePointBuffer, FsRtlValidateReparsePointBuffer routine [Installable File System Drivers], fsrtlref_809c9e16-62b6-4a08-82d5-d6e86e7844ff.xml, ifsk.fsrtlvalidatereparsepointbuffer, ntifs/FsRtlValidateReparsePointBuffer
 f1_keywords:
  - "ntifs/FsRtlValidateReparsePointBuffer"
+ - "FsRtlValidateReparsePointBuffer"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal

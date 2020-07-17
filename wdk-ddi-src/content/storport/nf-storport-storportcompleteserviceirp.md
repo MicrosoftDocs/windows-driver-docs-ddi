@@ -10,6 +10,7 @@ keywords: ["StorPortCompleteServiceIrp function"]
 ms.keywords: StorPortCompleteServiceIrp, StorPortCompleteServiceIrp routine [Storage Devices], storage.storportcompleteserviceirp, storport/StorPortCompleteServiceIrp, storprt_439990ea-8133-4114-b417-1c88e53cce14.xml
 f1_keywords:
  - "storport/StorPortCompleteServiceIrp"
+ - "StorPortCompleteServiceIrp"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

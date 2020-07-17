@@ -10,6 +10,7 @@ keywords: ["IPrintCoreHelperPS::GetFontSubstitution"]
 ms.keywords: GetFontSubstitution, GetFontSubstitution method [Print Devices], GetFontSubstitution method [Print Devices],IPrintCoreHelperPS interface, IPrintCoreHelperPS interface [Print Devices],GetFontSubstitution method, IPrintCoreHelperPS.GetFontSubstitution, IPrintCoreHelperPS::GetFontSubstitution, prcomoem/IPrintCoreHelperPS::GetFontSubstitution, print.iprintcorehelperps_getfontsubstitution, print_unidrv-pscript_allplugins_624e3173-a8f8-4028-9cd4-b271e1e56430.xml
 f1_keywords:
  - "prcomoem/IPrintCoreHelperPS.GetFontSubstitution"
+ - "IPrintCoreHelperPS.GetFontSubstitution"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["FltGetVolumeProperties function"]
 ms.keywords: FltApiRef_e_to_o_3afcdc71-3007-478e-8699-a1480ca118b8.xml, FltGetVolumeProperties, FltGetVolumeProperties routine [Installable File System Drivers], fltkernel/FltGetVolumeProperties, ifsk.fltgetvolumeproperties
 f1_keywords:
  - "fltkernel/FltGetVolumeProperties"
+ - "FltGetVolumeProperties"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

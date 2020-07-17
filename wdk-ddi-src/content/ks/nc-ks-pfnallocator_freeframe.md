@@ -10,6 +10,7 @@ keywords: ["PFNALLOCATOR_FREEFRAME callback function"]
 ms.keywords: KStrFreeFrame, KStrFreeFrame routine [Streaming Media Devices], PFNALLOCATOR_FREEFRAME, ks/KStrFreeFrame, ksfunc_fbbb5f23-02d9-4670-8e9a-c157402d413e.xml, stream.kstrfreeframe
 f1_keywords:
  - "ks/KStrFreeFrame"
+ - "KStrFreeFrame"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop

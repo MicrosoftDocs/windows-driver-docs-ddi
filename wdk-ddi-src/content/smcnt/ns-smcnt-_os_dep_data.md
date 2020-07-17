@@ -10,6 +10,7 @@ keywords: ["_OS_DEP_DATA structure"]
 ms.keywords: "*POS_DEP_DATA, OS_DEP_DATA, OS_DEP_DATA (WDM), OS_DEP_DATA (WDM) structure [Smart Card Reader Devices], OS_DEP_DATA structure [Smart Card Reader Devices], POS_DEP_DATA, POS_DEP_DATA structure pointer [Smart Card Reader Devices], _OS_DEP_DATA, scstruct_f7288ef8-a011-44c0-ab86-db7cc6d1a985.xml, smartcrd.os_dep_data__wdm_, smcnt/OS_DEP_DATA, smcnt/POS_DEP_DATA"
 f1_keywords:
  - "smcnt/OS_DEP_DATA"
+ - "OS_DEP_DATA"
 req.header: smcnt.h
 req.include-header: Smcnt.h
 req.target-type: Windows

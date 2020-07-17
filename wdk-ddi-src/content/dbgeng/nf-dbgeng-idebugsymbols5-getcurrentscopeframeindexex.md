@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols5::GetCurrentScopeFrameIndexEx"]
 ms.keywords: GetCurrentScopeFrameIndexEx, GetCurrentScopeFrameIndexEx method [Windows Debugging], GetCurrentScopeFrameIndexEx method [Windows Debugging],IDebugSymbols5 interface, IDebugSymbols5 interface [Windows Debugging],GetCurrentScopeFrameIndexEx method, IDebugSymbols5.GetCurrentScopeFrameIndexEx, IDebugSymbols5::GetCurrentScopeFrameIndexEx, dbgeng/IDebugSymbols5::GetCurrentScopeFrameIndexEx, debugger.idebugsymbols5_getcurrentscopeframeindexex
 f1_keywords:
  - "dbgeng/IDebugSymbols5.GetCurrentScopeFrameIndexEx"
+ - "IDebugSymbols5.GetCurrentScopeFrameIndexEx"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

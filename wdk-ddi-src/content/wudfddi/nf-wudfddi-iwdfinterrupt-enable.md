@@ -10,6 +10,7 @@ keywords: ["IWDFInterrupt::Enable"]
 ms.keywords: Enable, Enable method, Enable method,IWDFInterrupt interface, IWDFInterrupt interface,Enable method, IWDFInterrupt.Enable, IWDFInterrupt::Enable, umdf.iwdfinterrupt_enable, wdf.iwdfinterrupt_enable, wudfddi/IWDFInterrupt::Enable
 f1_keywords:
  - "wudfddi/IWDFInterrupt.Enable"
+ - "IWDFInterrupt.Enable"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop

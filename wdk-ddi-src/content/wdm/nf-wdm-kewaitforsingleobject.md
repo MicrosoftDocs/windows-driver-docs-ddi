@@ -10,6 +10,7 @@ keywords: ["KeWaitForSingleObject function"]
 ms.keywords: KeWaitForMutexObject, KeWaitForSingleObject, KeWaitForSingleObject routine [Kernel-Mode Driver Architecture], k105_de338bec-f7ef-4780-85e6-592a24314145.xml, kernel.kewaitforsingleobject, wdm/KeWaitForSingleObject
 f1_keywords:
  - "wdm/KeWaitForSingleObject"
+ - "KeWaitForSingleObject"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

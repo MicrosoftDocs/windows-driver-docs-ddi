@@ -10,6 +10,7 @@ keywords: ["KsGateRemoveOnInputFromOr function"]
 ms.keywords: KsGateRemoveOnInputFromOr, KsGateRemoveOnInputFromOr function [Streaming Media Devices], avfunc_6f131d80-de01-44e6-a17d-eb7f9b0b968f.xml, ks/KsGateRemoveOnInputFromOr, stream.ksgateremoveoninputfromor
 f1_keywords:
  - "ks/KsGateRemoveOnInputFromOr"
+ - "KsGateRemoveOnInputFromOr"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop

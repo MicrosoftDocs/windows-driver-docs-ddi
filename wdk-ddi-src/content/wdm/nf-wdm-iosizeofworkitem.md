@@ -10,6 +10,7 @@ keywords: ["IoSizeofWorkItem function"]
 ms.keywords: IoSizeofWorkItem, IoSizeofWorkItem routine [Kernel-Mode Driver Architecture], k104_9f2b3349-cd46-48ec-bcff-10e91bd522b5.xml, kernel.iosizeofworkitem, wdm/IoSizeofWorkItem
 f1_keywords:
  - "wdm/IoSizeofWorkItem"
+ - "IoSizeofWorkItem"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

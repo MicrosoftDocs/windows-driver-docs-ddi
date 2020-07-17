@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_VIDPNSOURCEOWNER_TYPE enumeration"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_VIDPNSOURCEOWNER_TYPE"
+ - "_D3DKMT_VIDPNSOURCEOWNER_TYPE"
 ms.keywords: _D3DKMT_VIDPNSOURCEOWNER_TYPE, D3DKMT_VIDPNSOURCEOWNER_TYPE, 
 req.header: d3dkmthk.h
 req.include-header:

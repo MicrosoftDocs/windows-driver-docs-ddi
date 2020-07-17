@@ -10,6 +10,7 @@ keywords: ["RILSERVICESETTINGSSTATUS enumeration"]
 ms.keywords: RILSERVICESETTINGSSTATUS, RILSERVICESETTINGSSTATUS enumeration [Network Drivers Starting with Windows Vista], RIL_SVCSTAT_DEFAULT, RIL_SVCSTAT_DISABLED, RIL_SVCSTAT_ENABLED, RIL_SVCSTAT_MAX, netvista.rilservicesettingsstatus, ntddrilapitypes/RILSERVICESETTINGSSTATUS, ntddrilapitypes/RIL_SVCSTAT_DEFAULT, ntddrilapitypes/RIL_SVCSTAT_DISABLED, ntddrilapitypes/RIL_SVCSTAT_ENABLED, ntddrilapitypes/RIL_SVCSTAT_MAX
 f1_keywords:
  - "rilapitypes/RILSERVICESETTINGSSTATUS"
+ - "RILSERVICESETTINGSSTATUS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

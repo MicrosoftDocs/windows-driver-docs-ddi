@@ -10,6 +10,7 @@ keywords: ["SdpCreateNodeUInt128 function"]
 ms.keywords: SdpCreateNodeUInt128, SdpCreateNodeUInt128 function [Bluetooth Devices], bltooth.sdpcreatenodeuint128, bth_funcs_c03666c1-b1d7-4361-9133-f0525300e546.xml, sdplib/SdpCreateNodeUInt128
 f1_keywords:
  - "sdplib/SdpCreateNodeUInt128"
+ - "SdpCreateNodeUInt128"
 req.header: sdplib.h
 req.include-header: BthSdpddi.h
 req.target-type: Desktop

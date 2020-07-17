@@ -28,6 +28,7 @@ targetos: Windows
 ms.custom: UMD DDI Min Version D3D12DDI_SUPPORTED_0043, 19H1
 f1_keywords:
  - "d3d12umddi/D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_ENCODE_0060"
+ - "D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_ENCODE_0060"
 topic_type:
  - apiref
 api_type:

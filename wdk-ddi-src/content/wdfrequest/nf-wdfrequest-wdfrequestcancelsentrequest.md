@@ -10,6 +10,7 @@ keywords: ["WdfRequestCancelSentRequest function"]
 ms.keywords: DFRequestObjectRef_203c9cb4-5e9d-4a6b-b30d-b60b8eadf6db.xml, WdfRequestCancelSentRequest, WdfRequestCancelSentRequest method, kmdf.wdfrequestcancelsentrequest, wdf.wdfrequestcancelsentrequest, wdfrequest/WdfRequestCancelSentRequest
 f1_keywords:
  - "wdfrequest/WdfRequestCancelSentRequest"
+ - "WdfRequestCancelSentRequest"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal

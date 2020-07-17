@@ -10,6 +10,7 @@ keywords: ["RtlAllocateHeap function"]
 ms.keywords: RtlAllocateHeap, RtlAllocateHeap routine [Installable File System Drivers], ifsk.rtlallocateheap, ntifs/RtlAllocateHeap, rtlref_fa360ead-62c7-46c3-8d66-a73ee9e1a0bb.xml
 f1_keywords:
  - "ntifs/RtlAllocateHeap"
+ - "RtlAllocateHeap"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

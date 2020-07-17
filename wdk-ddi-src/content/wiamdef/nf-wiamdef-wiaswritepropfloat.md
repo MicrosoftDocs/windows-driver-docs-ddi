@@ -10,6 +10,7 @@ keywords: ["wiasWritePropFloat function"]
 ms.keywords: image.wiaswritepropfloat, wiamdef/wiasWritePropFloat, wiasFncs_49539474-675e-420d-b7a4-67f147017975.xml, wiasWritePropFloat, wiasWritePropFloat function [Imaging Devices]
 f1_keywords:
  - "wiamdef/wiasWritePropFloat"
+ - "wiasWritePropFloat"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop

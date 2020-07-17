@@ -10,6 +10,7 @@ keywords: ["_URB_PIPE_REQUEST structure"]
 ms.keywords: "_URB_PIPE_REQUEST, _URB_PIPE_REQUEST structure [Buses], buses._urb_pipe_request, usb/_URB_PIPE_REQUEST, usbstrct_dfcdbce6-e230-46a8-88df-59a253e6bfa0.xml"
 f1_keywords:
  - "usb/_URB_PIPE_REQUEST"
+ - "_URB_PIPE_REQUEST"
 req.header: usb.h
 req.include-header: Usb.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["_OEMCUIPPARAM structure"]
 ms.keywords: "*POEMCUIPPARAM, OEMCUIPPARAM, OEMCUIPPARAM structure [Print Devices], _OEMCUIPPARAM, print.oemcuipparam, print_unidrv-pscript_ui_6ea92d10-0152-4bb2-a79b-0f6c29507e8c.xml, printoem/OEMCUIPPARAM"
 f1_keywords:
  - "printoem/OEMCUIPPARAM"
+ - "OEMCUIPPARAM"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows

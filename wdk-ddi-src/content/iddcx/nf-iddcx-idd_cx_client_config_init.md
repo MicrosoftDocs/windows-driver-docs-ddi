@@ -10,6 +10,7 @@ keywords: ["IDD_CX_CLIENT_CONFIG_INIT function"]
 ms.keywords: IDD_CX_CLIENT_CONFIG_INIT, IDD_CX_CLIENT_CONFIG_INIT method [Display Devices], display.idd_cx_client_config_init, iddcx/IDD_CX_CLIENT_CONFIG_INIT
 f1_keywords:
  - "iddcx/IDD_CX_CLIENT_CONFIG_INIT"
+ - "IDD_CX_CLIENT_CONFIG_INIT"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows

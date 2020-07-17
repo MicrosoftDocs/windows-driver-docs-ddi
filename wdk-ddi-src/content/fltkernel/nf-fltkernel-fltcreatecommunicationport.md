@@ -10,6 +10,7 @@ keywords: ["FltCreateCommunicationPort function"]
 ms.keywords: FltApiRef_a_to_d_77aa523f-3374-41e7-9b9f-ed0d9e5b3094.xml, FltCreateCommunicationPort, FltCreateCommunicationPort function [Installable File System Drivers], fltkernel/FltCreateCommunicationPort, ifsk.fltcreatecommunicationport
 f1_keywords:
  - "fltkernel/FltCreateCommunicationPort"
+ - "FltCreateCommunicationPort"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

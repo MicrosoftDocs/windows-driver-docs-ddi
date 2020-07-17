@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DlQueueDpc function"]
 f1_keywords:
  - "dispmprt/DlQueueDpc"
+ - "DlQueueDpc"
 ms.keywords: DlQueueDpc
 req.header: dispmprt.h
 req.include-header:

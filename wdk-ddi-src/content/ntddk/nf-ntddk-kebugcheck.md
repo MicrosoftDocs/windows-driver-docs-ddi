@@ -10,6 +10,7 @@ keywords: ["KeBugCheck function"]
 ms.keywords: KeBugCheck, KeBugCheck routine [Kernel-Mode Driver Architecture], k105_0d6fece0-a301-44af-92b4-0ff735195c2b.xml, kernel.kebugcheck, ntddk/KeBugCheck
 f1_keywords:
  - "ntddk/KeBugCheck"
+ - "KeBugCheck"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

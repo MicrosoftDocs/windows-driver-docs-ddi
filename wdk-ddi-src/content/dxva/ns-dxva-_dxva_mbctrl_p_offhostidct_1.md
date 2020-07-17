@@ -10,6 +10,7 @@ keywords: ["_DXVA_MBctrl_P_OffHostIDCT_1 structure"]
 ms.keywords: "*LPDXVA_MBctrl_P_OffHostIDCT_1, DXVA_MBctrl_P_OffHostIDCT_1, DXVA_MBctrl_P_OffHostIDCT_1 structure [Display Devices], _DXVA_MBctrl_P_OffHostIDCT_1, display.dxva_mbctrl_p_offhostidct_1, dxva/DXVA_MBctrl_P_OffHostIDCT_1, dxvaref_5dae57d5-3e27-4928-8fd2-4c9cdad0285b.xml"
 f1_keywords:
  - "dxva/DXVA_MBctrl_P_OffHostIDCT_1"
+ - "DXVA_MBctrl_P_OffHostIDCT_1"
 req.header: dxva.h
 req.include-header: Dxva.h
 req.target-type: Windows

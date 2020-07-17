@@ -10,6 +10,7 @@ keywords: ["FltSetTransactionContext function"]
 ms.keywords: FLT_SET_CONTEXT_KEEP_IF_EXISTS, FLT_SET_CONTEXT_REPLACE_IF_EXISTS, FltApiRef_p_to_z_ac2c79a4-ca14-417d-a394-24a38d89f3bf.xml, FltSetTransactionContext, FltSetTransactionContext routine [Installable File System Drivers], fltkernel/FltSetTransactionContext, ifsk.fltsettransactioncontext
 f1_keywords:
  - "fltkernel/FltSetTransactionContext"
+ - "FltSetTransactionContext"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

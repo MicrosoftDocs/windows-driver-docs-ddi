@@ -10,6 +10,7 @@ keywords: ["KDEFERRED_ROUTINE callback function"]
 ms.keywords: CustomDpc, CustomThreadedDpc, CustomTimerDpc, DrvrRtns_977bffb4-a7ff-4b2b-80c6-181d00462d69.xml, KDEFERRED_ROUTINE, MyDpc, MyDpc routine [Kernel-Mode Driver Architecture], kernel.customdpc, wdm/MyDpc
 f1_keywords:
  - "wdm/MyDpc"
+ - "MyDpc"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

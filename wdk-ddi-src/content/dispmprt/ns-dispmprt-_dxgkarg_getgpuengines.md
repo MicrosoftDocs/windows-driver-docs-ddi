@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["_DXGKARG_GETGPUENGINES structure"]
 f1_keywords:
  - "dispmprt/_DXGKARG_GETGPUENGINES"
+ - "_DXGKARG_GETGPUENGINES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: _DXGKARG_GETGPUENGINES, DXGKARG_GETGPUENGINES, *PDXGKARG_GETGPUENGINES, 

@@ -7,6 +7,7 @@ ms.date: 08/22/2018
 keywords: ["IDebugHostType::GetIntrinsicType"]
 f1_keywords:
  - "dbgmodel/IDebugHostType.GetIntrinsicType"
+ - "IDebugHostType.GetIntrinsicType"
 ms.keywords: IDebugHostType::GetIntrinsicType, GetIntrinsicType, IDebugHostType.GetIntrinsicType, IDebugHostType::GetIntrinsicType, IDebugHostType.GetIntrinsicType
 req.header: dbgmodel.h
 req.include-header:

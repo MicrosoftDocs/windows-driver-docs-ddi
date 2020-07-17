@@ -10,6 +10,7 @@ keywords: ["NdisIMCancelInitializeDeviceInstance function"]
 ms.keywords: NdisIMCancelInitializeDeviceInstance, NdisIMCancelInitializeDeviceInstance function [Network Drivers Starting with Windows Vista], intermediate_ref_4cdce462-8c79-46ad-aa3e-68a0f9b72ef1.xml, ndis/NdisIMCancelInitializeDeviceInstance, netvista.ndisimcancelinitializedeviceinstance
 f1_keywords:
  - "ndis/NdisIMCancelInitializeDeviceInstance"
+ - "NdisIMCancelInitializeDeviceInstance"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

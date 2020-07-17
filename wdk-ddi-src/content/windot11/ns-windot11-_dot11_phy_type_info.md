@@ -10,6 +10,7 @@ keywords: ["_DOT11_PHY_TYPE_INFO structure"]
 ms.keywords: "*PDOT11_PHY_TYPE_INFO, DOT11_PHY_TYPE_INFO, DOT11_PHY_TYPE_INFO structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_20e3d688-253f-416e-b9b0-8adec6bf7415.xml, PDOT11_PHY_TYPE_INFO, PDOT11_PHY_TYPE_INFO structure pointer [Network Drivers Starting with Windows Vista], _DOT11_PHY_TYPE_INFO, netvista.dot11_phy_type_info, windot11/DOT11_PHY_TYPE_INFO, windot11/PDOT11_PHY_TYPE_INFO"
 f1_keywords:
  - "windot11/DOT11_PHY_TYPE_INFO"
+ - "DOT11_PHY_TYPE_INFO"
 req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows

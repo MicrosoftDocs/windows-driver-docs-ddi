@@ -8,6 +8,7 @@ ms.date: 02/27/2018
 keywords: ["_NET_DATAPATH_DESCRIPTOR structure"]
 f1_keywords:
  - "netdatapathdescriptor/_NET_DATAPATH_DESCRIPTOR"
+ - "_NET_DATAPATH_DESCRIPTOR"
 ms.keywords: _NET_DATAPATH_DESCRIPTOR, NET_DATAPATH_DESCRIPTOR, *PCNET_DATAPATH_DESCRIPTOR, 
 req.header: netdatapathdescriptor.h
 req.include-header: netadaptercx.h

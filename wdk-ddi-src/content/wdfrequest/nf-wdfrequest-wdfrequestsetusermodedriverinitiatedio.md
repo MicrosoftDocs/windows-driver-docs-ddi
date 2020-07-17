@@ -10,6 +10,7 @@ keywords: ["WdfRequestSetUserModeDriverInitiatedIo function"]
 ms.keywords: WdfRequestSetUserModeDriverInitiatedIo, WdfRequestSetUserModeDriverInitiatedIo method, wdf.wdfrequestsetusermodedriverinitiatedio, wdfrequest/WdfRequestSetUserModeDriverInitiatedIo
 f1_keywords:
  - "wdfrequest/WdfRequestSetUserModeDriverInitiatedIo"
+ - "WdfRequestSetUserModeDriverInitiatedIo"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal

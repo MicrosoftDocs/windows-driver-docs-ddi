@@ -10,6 +10,7 @@ keywords: ["IWDFMemory::CopyFromMemory"]
 ms.keywords: CopyFromMemory, CopyFromMemory method, CopyFromMemory method,IWDFMemory interface, IWDFMemory interface,CopyFromMemory method, IWDFMemory.CopyFromMemory, IWDFMemory::CopyFromMemory, UMDFMemoryObjectRef_c5bc961a-62e9-4692-bbd7-6551b268b08b.xml, umdf.iwdfmemory_copyfrommemory, wdf.iwdfmemory_copyfrommemory, wudfddi/IWDFMemory::CopyFromMemory
 f1_keywords:
  - "wudfddi/IWDFMemory.CopyFromMemory"
+ - "IWDFMemory.CopyFromMemory"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

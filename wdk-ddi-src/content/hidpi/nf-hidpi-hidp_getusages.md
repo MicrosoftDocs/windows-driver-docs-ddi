@@ -10,6 +10,7 @@ keywords: ["HidP_GetUsages function"]
 ms.keywords: HidP_GetUsages, HidP_GetUsages routine [Human Input Devices], hid.hidp_getusages, hidfunc_ed08f7c0-5435-417a-958f-34a6cbb1f541.xml, hidpi/HidP_GetUsages
 f1_keywords:
  - "hidpi/HidP_GetUsages"
+ - "HidP_GetUsages"
 req.header: hidpi.h
 req.include-header: Hidpi.h
 req.target-type: Universal

@@ -9,6 +9,7 @@ keywords: ["PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMSOURCERECT callback function"]
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMSOURCERECT, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMSOURCERECT callback, d3d10umddi/pfnVideoProcessorSetStreamSourceRect, display.videoprocessorsetstreamsourcerect, pfnVideoProcessorSetStreamSourceRect, pfnVideoProcessorSetStreamSourceRect callback function [Display Devices]
 f1_keywords:
  - "d3d10umddi/pfnVideoProcessorSetStreamSourceRect"
+ - "pfnVideoProcessorSetStreamSourceRect"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

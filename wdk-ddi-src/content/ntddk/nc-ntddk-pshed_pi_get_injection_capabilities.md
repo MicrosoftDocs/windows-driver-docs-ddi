@@ -10,6 +10,7 @@ keywords: ["PSHED_PI_GET_INJECTION_CAPABILITIES callback function"]
 ms.keywords: GetInjectionCapabilities, GetInjectionCapabilities callback function [WHEA Drivers and Applications], PSHED_PI_GET_INJECTION_CAPABILITIES, PSHED_PI_GET_INJECTION_CAPABILITIES callback, ntddk/GetInjectionCapabilities, whea.getinjectioncapabilities, whearef_0c5e00c7-c5d7-4e28-a351-7831d883c70f.xml
 f1_keywords:
  - "ntddk/GetInjectionCapabilities"
+ - "GetInjectionCapabilities"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Desktop

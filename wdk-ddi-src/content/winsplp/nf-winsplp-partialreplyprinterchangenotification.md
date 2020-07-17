@@ -10,6 +10,7 @@ keywords: ["PartialReplyPrinterChangeNotification function"]
 ms.keywords: PartialReplyPrinterChangeNotification, PartialReplyPrinterChangeNotification function [Print Devices], print.partialreplyprinterchangenotification, spoolfnc_95f9f0ac-2340-463b-9c8d-6c27130020d9.xml, winsplp/PartialReplyPrinterChangeNotification
 f1_keywords:
  - "winsplp/PartialReplyPrinterChangeNotification"
+ - "PartialReplyPrinterChangeNotification"
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Desktop

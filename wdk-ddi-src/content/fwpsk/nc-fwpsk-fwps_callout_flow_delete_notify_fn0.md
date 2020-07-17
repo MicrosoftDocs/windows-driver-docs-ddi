@@ -10,6 +10,7 @@ keywords: ["FWPS_CALLOUT_FLOW_DELETE_NOTIFY_FN0 callback function"]
 ms.keywords: FWPS_CALLOUT_FLOW_DELETE_NOTIFY_FN0, FWPS_CALLOUT_FLOW_DELETE_NOTIFY_FN0 callback, flowDeleteFn, flowDeleteFn callback function [Network Drivers Starting with Windows Vista], fwpsk/flowDeleteFn, netvista.flowdeletefn, wfp_ref_2_funct_4_callout_b89bd091-32f2-4d86-a394-84aa027219f7.xml
 f1_keywords:
  - "fwpsk/flowDeleteFn"
+ - "flowDeleteFn"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Windows

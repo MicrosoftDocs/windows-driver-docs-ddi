@@ -7,6 +7,7 @@ ms.date: 08/13/2018
 keywords: ["IModelIterator::GetNext"]
 f1_keywords:
  - "dbgmodel/IModelIterator.GetNext"
+ - "IModelIterator.GetNext"
 ms.keywords: IModelIterator::GetNext, GetNext, IModelIterator.GetNext, IModelIterator::GetNext, IModelIterator.GetNext
 req.header: dbgmodel.h
 req.include-header:

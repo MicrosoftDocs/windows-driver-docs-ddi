@@ -10,6 +10,7 @@ keywords: ["PFNREFERENCEDEVICEOBJECT callback function"]
 ms.keywords: KStrReferenceDeviceObject, KStrReferenceDeviceObject routine [Streaming Media Devices], PFNREFERENCEDEVICEOBJECT, ks/KStrReferenceDeviceObject, ksfunc_721dd90e-6810-4f02-8454-dbacc872f90f.xml, stream.kstrreferencedeviceobject
 f1_keywords:
  - "ks/KStrReferenceDeviceObject"
+ - "KStrReferenceDeviceObject"
 req.header: ks.h
 req.include-header: Ks.h, Swenum.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["_NDIS_SWITCH_NIC_ARRAY structure"]
 ms.keywords: "*PNDIS_SWITCH_NIC_ARRAY, NDIS_SWITCH_NIC_ARRAY, NDIS_SWITCH_NIC_ARRAY structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_NIC_ARRAY, PNDIS_SWITCH_NIC_ARRAY structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_NIC_ARRAY, netvista.ndis_switch_nic_array, ntddndis/NDIS_SWITCH_NIC_ARRAY, ntddndis/PNDIS_SWITCH_NIC_ARRAY"
 f1_keywords:
  - "ntddndis/NDIS_SWITCH_NIC_ARRAY"
+ - "NDIS_SWITCH_NIC_ARRAY"
 req.header: ntddndis.h
 req.include-header: Ndis.h, Fwpsk.h
 req.target-type: Windows

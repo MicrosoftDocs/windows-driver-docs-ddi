@@ -7,6 +7,7 @@ ms.date: 09/10/2018
 keywords: ["IDebugHostType::GetType"]
 f1_keywords:
  - "dbgmodel/IDebugHostType.GetType"
+ - "IDebugHostType.GetType"
 ms.keywords: IDebugHostType::GetType, GetType, IDebugHostType.GetType, IDebugHostType::GetType, IDebugHostType.GetType
 req.header: dbgmodel.h
 req.include-header:

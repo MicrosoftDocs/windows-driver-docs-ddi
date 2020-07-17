@@ -10,6 +10,7 @@ keywords: ["IoSetTopLevelIrp macro"]
 ms.keywords: IoSetTopLevelIrp, IoSetTopLevelIrp routine [Installable File System Drivers], ifsk.iosettoplevelirp, ioref_1c046677-97df-4f46-956c-108a203f83f2.xml, ntifs/IoSetTopLevelIrp
 f1_keywords:
  - "rx/IoSetTopLevelIrp"
+ - "IoSetTopLevelIrp"
 req.header: rx.h
 req.include-header: Rx.h, Wdm.h
 req.target-type: Universal

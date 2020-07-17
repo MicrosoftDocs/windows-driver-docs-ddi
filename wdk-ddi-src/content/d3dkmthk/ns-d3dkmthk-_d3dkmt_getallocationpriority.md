@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_GETALLOCATIONPRIORITY structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_GETALLOCATIONPRIORITY"
+ - "_D3DKMT_GETALLOCATIONPRIORITY"
 ms.keywords: _D3DKMT_GETALLOCATIONPRIORITY, D3DKMT_GETALLOCATIONPRIORITY, 
 req.header: d3dkmthk.h
 req.include-header:

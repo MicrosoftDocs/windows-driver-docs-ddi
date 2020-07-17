@@ -10,6 +10,7 @@ keywords: ["tagPrintSchemaSelectionType enumeration"]
 ms.keywords: PrintSchemaSelectionType, PrintSchemaSelectionType enumeration [Print Devices], PrintSchemaSelectionType_PickMany, PrintSchemaSelectionType_PickOne, print.printschemaselectiontype, printerextension/PrintSchemaSelectionType, printerextension/PrintSchemaSelectionType_PickMany, printerextension/PrintSchemaSelectionType_PickOne, tagPrintSchemaSelectionType
 f1_keywords:
  - "printerextension/PrintSchemaSelectionType"
+ - "PrintSchemaSelectionType"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

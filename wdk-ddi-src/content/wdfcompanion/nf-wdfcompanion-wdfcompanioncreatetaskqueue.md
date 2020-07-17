@@ -10,6 +10,7 @@ keywords: ["WdfCompanionCreateTaskQueue function"]
 ms.keywords: WdfCompanionCreateTaskQueue, WdfCompanionCreateTaskQueue method, wdf.wdfcompanioncreatetaskqueue, wdfcompanion/WdfCompanionCreateTaskQueue
 f1_keywords:
  - "wdfcompanion/WdfCompanionCreateTaskQueue"
+ - "WdfCompanionCreateTaskQueue"
 req.header: wdfcompanion.h
 req.include-header: 
 req.target-type: Windows

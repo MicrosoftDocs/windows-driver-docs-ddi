@@ -10,6 +10,7 @@ keywords: ["IOCTL_SRIOV_PROXY_QUERY_LUID IOCTL"]
 ms.keywords: IOCTL_SRIOV_PROXY_QUERY_LUID, IOCTL_SRIOV_PROXY_QUERY_LUID control code [Buses], PCI.ioctl-sriov-proxy-query-luid, pcivirt/IOCTL_SRIOV_PROXY_QUERY_LUID
 f1_keywords:
  - "pcivirt/IOCTL_SRIOV_PROXY_QUERY_LUID"
+ - "IOCTL_SRIOV_PROXY_QUERY_LUID"
 req.header: pcivirt.h
 req.include-header:
 req.target-type: Windows

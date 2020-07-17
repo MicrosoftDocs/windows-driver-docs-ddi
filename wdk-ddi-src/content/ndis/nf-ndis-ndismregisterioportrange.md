@@ -10,6 +10,7 @@ keywords: ["NdisMRegisterIoPortRange function"]
 ms.keywords: NdisMRegisterIoPortRange, NdisMRegisterIoPortRange function [Network Drivers Starting with Windows Vista], miniport_port_io_ref_fa0141f1-639d-485d-a074-8af029c04406.xml, ndis/NdisMRegisterIoPortRange, netvista.ndismregisterioportrange
 f1_keywords:
  - "ndis/NdisMRegisterIoPortRange"
+ - "NdisMRegisterIoPortRange"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

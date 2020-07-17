@@ -7,6 +7,7 @@ ms.date: 08/14/2018
 keywords: ["IModelKeyReference::AddRef"]
 f1_keywords:
  - "dbgmodel/IModelKeyReference.AddRef"
+ - "IModelKeyReference.AddRef"
 ms.keywords: IModelKeyReference::AddRef, AddRef, IModelKeyReference.AddRef, IModelKeyReference::AddRef, IModelKeyReference.AddRef
 req.header: dbgmodel.h
 req.include-header:

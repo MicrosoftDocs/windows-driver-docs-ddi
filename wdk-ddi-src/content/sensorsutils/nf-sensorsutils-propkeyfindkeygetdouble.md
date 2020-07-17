@@ -8,6 +8,7 @@ keywords: ["PropKeyFindKeyGetDouble function"]
 tech.root: sensors
 f1_keywords:
  - "sensorsutils/PropKeyFindKeyGetDouble"
+ - "PropKeyFindKeyGetDouble"
 ms.keywords: PropKeyFindKeyGetDouble
 req.header: sensorsutils.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["_PCEVENT_REQUEST structure"]
 ms.keywords: "*PPCEVENT_REQUEST, PCEVENT_REQUEST, PCEVENT_REQUEST structure [Audio Devices], PPCEVENT_REQUEST, PPCEVENT_REQUEST structure pointer [Audio Devices], _PCEVENT_REQUEST, audio.pcevent_request, audpc-struct_d60c4cf4-11e2-44b7-842a-65d965c8c422.xml, portcls/PCEVENT_REQUEST, portcls/PPCEVENT_REQUEST"
 f1_keywords:
  - "portcls/PCEVENT_REQUEST"
+ - "PCEVENT_REQUEST"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Windows

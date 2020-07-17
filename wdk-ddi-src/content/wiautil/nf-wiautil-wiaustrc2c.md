@@ -10,6 +10,7 @@ keywords: ["wiauStrC2C function"]
 ms.keywords: image.wiaustrc2c, wiauFncs_2266a6c9-ed4b-4af8-947a-d634bd9e9912.xml, wiauStrC2C, wiauStrC2C function [Imaging Devices], wiautil/wiauStrC2C
 f1_keywords:
  - "wiautil/wiauStrC2C"
+ - "wiauStrC2C"
 req.header: wiautil.h
 req.include-header: Wiautil.h
 req.target-type: Desktop

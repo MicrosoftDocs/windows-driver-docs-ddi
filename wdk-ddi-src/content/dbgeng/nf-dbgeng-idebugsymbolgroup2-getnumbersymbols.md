@@ -10,6 +10,7 @@ keywords: ["IDebugSymbolGroup2::GetNumberSymbols"]
 ms.keywords: ComOther_e355317f-ba58-4d2a-a8f7-ad3cf4b17607.xml, GetNumberSymbols, GetNumberSymbols method [Windows Debugging], GetNumberSymbols method [Windows Debugging],IDebugSymbolGroup interface, GetNumberSymbols method [Windows Debugging],IDebugSymbolGroup2 interface, IDebugSymbolGroup interface [Windows Debugging],GetNumberSymbols method, IDebugSymbolGroup2 interface [Windows Debugging],GetNumberSymbols method, IDebugSymbolGroup2.GetNumberSymbols, IDebugSymbolGroup2::GetNumberSymbols, IDebugSymbolGroup::GetNumberSymbols, dbgeng/IDebugSymbolGroup2::GetNumberSymbols, dbgeng/IDebugSymbolGroup::GetNumberSymbols, debugger.getnumbersymbols
 f1_keywords:
  - "dbgeng/IDebugSymbolGroup.GetNumberSymbols"
+ - "IDebugSymbolGroup.GetNumberSymbols"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

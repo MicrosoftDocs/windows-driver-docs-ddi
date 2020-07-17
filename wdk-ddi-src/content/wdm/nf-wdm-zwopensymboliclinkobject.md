@@ -10,6 +10,7 @@ keywords: ["ZwOpenSymbolicLinkObject function"]
 ms.keywords: NtOpenSymbolicLinkObject, ZwOpenSymbolicLinkObject, ZwOpenSymbolicLinkObject routine [Kernel-Mode Driver Architecture], k111_8f2ddd22-26d2-438f-8335-fcc261735592.xml, kernel.zwopensymboliclinkobject, wdm/NtOpenSymbolicLinkObject, wdm/ZwOpenSymbolicLinkObject
 f1_keywords:
  - "wdm/ZwOpenSymbolicLinkObject"
+ - "ZwOpenSymbolicLinkObject"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

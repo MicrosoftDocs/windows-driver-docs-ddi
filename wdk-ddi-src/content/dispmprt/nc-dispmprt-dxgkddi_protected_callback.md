@@ -10,6 +10,7 @@ keywords: ["DXGKDDI_PROTECTED_CALLBACK callback function"]
 ms.keywords: DXGKDDI_PROTECTED_CALLBACK, DXGKDDI_PROTECTED_CALLBACK callback, DmFunctions_a4386149-d1c4-45f4-8649-5539783620f4.xml, DxgkProtectedCallback, DxgkProtectedCallback callback function [Display Devices], display.dxgkprotectedcallback, dispmprt/DxgkProtectedCallback
 f1_keywords:
  - "dispmprt/DxgkProtectedCallback"
+ - "DxgkProtectedCallback"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop

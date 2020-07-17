@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DSTENCILOP enumeration"]
 f1_keywords:
  - "d3d9types/_D3DSTENCILOP"
+ - "_D3DSTENCILOP"
 ms.keywords: _D3DSTENCILOP, D3DSTENCILOP, 
 req.header: d3d9types.h
 req.include-header:

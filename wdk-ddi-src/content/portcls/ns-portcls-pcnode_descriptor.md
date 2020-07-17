@@ -10,6 +10,7 @@ keywords: ["PCNODE_DESCRIPTOR structure"]
 ms.keywords: "*PPCNODE_DESCRIPTOR, PCNODE_DESCRIPTOR, PCNODE_DESCRIPTOR structure [Audio Devices], PPCNODE_DESCRIPTOR, PPCNODE_DESCRIPTOR structure pointer [Audio Devices], audio.pcnode_descriptor, audpc-struct_275973f3-8db9-4b2c-ad30-e375b5e69656.xml, portcls/PCNODE_DESCRIPTOR, portcls/PPCNODE_DESCRIPTOR"
 f1_keywords:
  - "portcls/PCNODE_DESCRIPTOR"
+ - "PCNODE_DESCRIPTOR"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Windows

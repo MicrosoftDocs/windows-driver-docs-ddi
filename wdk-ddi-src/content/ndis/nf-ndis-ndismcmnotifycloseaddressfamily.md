@@ -10,6 +10,7 @@ keywords: ["NdisMCmNotifyCloseAddressFamily macro"]
 ms.keywords: NdisMCmNotifyCloseAddressFamily, NdisMCmNotifyCloseAddressFamily macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_448486f3-1eeb-4f45-b764-6fd4ab06b63e.xml, ndis/NdisMCmNotifyCloseAddressFamily, netvista.ndismcmnotifycloseaddressfamily
 f1_keywords:
  - "ndis/NdisMCmNotifyCloseAddressFamily"
+ - "NdisMCmNotifyCloseAddressFamily"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

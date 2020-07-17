@@ -10,6 +10,7 @@ keywords: ["IWDTFLOG2::StartTestCase"]
 ms.keywords: IWDTFLOG2 interface [Windows Device Testing Framework],StartTestCase method, IWDTFLOG2.StartTestCase, IWDTFLOG2::StartTestCase, Microsoft.WDTF.IWDTFLOG2.StartTestCase, Microsoft::WDTF::IWDTFLOG2::StartTestCase, StartTestCase, StartTestCase method [Windows Device Testing Framework], StartTestCase method [Windows Device Testing Framework],IWDTFLOG2 interface, dtf.iwdtflog2_starttestcase, wdtf/IWDTFLOG2::StartTestCase
 f1_keywords:
  - "wdtf/IWDTFLOG2.StartTestCase"
+ - "IWDTFLOG2.StartTestCase"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Desktop

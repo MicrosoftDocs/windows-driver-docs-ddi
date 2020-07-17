@@ -10,6 +10,7 @@ keywords: ["PlayGdiScriptOnPrinterIC function"]
 ms.keywords: PlayGdiScriptOnPrinterIC, PlayGdiScriptOnPrinterIC function [Print Devices], print.playgdiscriptonprinteric, winsplp/PlayGdiScriptOnPrinterIC
 f1_keywords:
  - "winsplp/PlayGdiScriptOnPrinterIC"
+ - "PlayGdiScriptOnPrinterIC"
 req.header: winsplp.h
 req.include-header: 
 req.target-type: Windows

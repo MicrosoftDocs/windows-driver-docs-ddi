@@ -7,6 +7,7 @@ ms.date: 04/19/2018
 keywords: ["InitTransformationMatrix function"]
 f1_keywords:
  - "sensorsdriversutils/InitTransformationMatrix"
+ - "InitTransformationMatrix"
 ms.keywords: InitTransformationMatrix
 req.header: sensorsdriversutils.h
 req.include-header:

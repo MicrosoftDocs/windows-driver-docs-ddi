@@ -10,6 +10,7 @@ keywords: ["IPartImage::SetImageContent"]
 ms.keywords: IPartImage interface [Print Devices],SetImageContent method, IPartImage.SetImageContent, IPartImage::SetImageContent, SetImageContent, SetImageContent method [Print Devices], SetImageContent method [Print Devices],IPartImage interface, filterpipeline/IPartImage::SetImageContent, filterpipeline_1bbf6da0-f016-486d-a06d-768614fe1d5a.xml, print.ipartimage_setimagecontent
 f1_keywords:
  - "filterpipeline/IPartImage.SetImageContent"
+ - "IPartImage.SetImageContent"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop

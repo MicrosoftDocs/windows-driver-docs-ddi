@@ -10,6 +10,7 @@ keywords: ["RtlFindLeastSignificantBit function"]
 ms.keywords: RtlFindLeastSignificantBit, RtlFindLeastSignificantBit routine [Kernel-Mode Driver Architecture], k109_c7ab87ad-4b9e-40f5-87fb-25ced2ec0dd8.xml, kernel.rtlfindleastsignificantbit, wdm/RtlFindLeastSignificantBit
 f1_keywords:
  - "wdm/RtlFindLeastSignificantBit"
+ - "RtlFindLeastSignificantBit"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["SeFilterToken function"]
 ms.keywords: SeFilterToken, SeFilterToken routine [Installable File System Drivers], ifsk.sefiltertoken, ntifs/SeFilterToken, seref_33edad21-5cc4-4bd9-86f1-b52c648fc87c.xml
 f1_keywords:
  - "ntifs/SeFilterToken"
+ - "SeFilterToken"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["_WSK_TDI_MAP_INFO structure"]
 ms.keywords: "*PWSK_TDI_MAP_INFO, PWSK_TDI_MAP_INFO, PWSK_TDI_MAP_INFO structure pointer [Network Drivers Starting with Windows Vista], WSK_TDI_MAP_INFO, WSK_TDI_MAP_INFO structure [Network Drivers Starting with Windows Vista], _WSK_TDI_MAP_INFO, netvista.wsk_tdi_map_info, wsk/PWSK_TDI_MAP_INFO, wsk/WSK_TDI_MAP_INFO, wskref_27c8b9f2-49b9-4358-aeac-be81e5aeb297.xml"
 f1_keywords:
  - "wsk/WSK_TDI_MAP_INFO"
+ - "WSK_TDI_MAP_INFO"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Windows

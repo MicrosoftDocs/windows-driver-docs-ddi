@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_SETCLIPPLANE structure"]
 ms.keywords: D3DDDIARG_SETCLIPPLANE, D3DDDIARG_SETCLIPPLANE structure [Display Devices], UMDisplayDriver_param_Structs_3371265a-3cb5-4aee-b019-14ef454e9d6d.xml, _D3DDDIARG_SETCLIPPLANE, d3dumddi/D3DDDIARG_SETCLIPPLANE, display.d3dddiarg_setclipplane
 f1_keywords:
  - "d3dumddi/D3DDDIARG_SETCLIPPLANE"
+ - "D3DDDIARG_SETCLIPPLANE"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

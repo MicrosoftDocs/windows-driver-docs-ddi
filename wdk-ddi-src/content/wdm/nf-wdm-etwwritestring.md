@@ -10,6 +10,7 @@ keywords: ["EtwWriteString function"]
 ms.keywords: EtwWriteString, EtwWriteString function [Driver Development Tools], devtest.etwwritestring, etw_km_b4cb697f-3523-4730-8df5-1faf201af7f8.xml, wdm/EtwWriteString
 f1_keywords:
  - "wdm/EtwWriteString"
+ - "EtwWriteString"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal

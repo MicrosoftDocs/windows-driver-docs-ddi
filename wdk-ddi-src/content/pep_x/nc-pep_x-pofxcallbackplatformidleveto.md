@@ -10,6 +10,7 @@ keywords: ["POFXCALLBACKPLATFORMIDLEVETO callback function"]
 ms.keywords: POFXCALLBACKPLATFORMIDLEVETO, PlatformIdleVeto, PlatformIdleVeto routine [Kernel-Mode Driver Architecture], kernel.platformidleveto, pepfx/PlatformIdleVeto
 f1_keywords:
  - "pep_x/PlatformIdleVeto"
+ - "PlatformIdleVeto"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows

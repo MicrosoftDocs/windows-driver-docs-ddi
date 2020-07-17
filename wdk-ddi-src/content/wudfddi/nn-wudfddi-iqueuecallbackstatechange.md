@@ -10,6 +10,7 @@ keywords: ["IQueueCallbackStateChange interface"]
 ms.keywords: IQueueCallbackStateChange, IQueueCallbackStateChange interface, IQueueCallbackStateChange interface,described, UMDFQueueObjectRef_57a57868-6a9d-42b3-8c74-ceb6c4be03c3.xml, umdf.iqueuecallbackstatechange, wdf.iqueuecallbackstatechange, wudfddi/IQueueCallbackStateChange
 f1_keywords:
  - "wudfddi/IQueueCallbackStateChange"
+ - "IQueueCallbackStateChange"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Windows

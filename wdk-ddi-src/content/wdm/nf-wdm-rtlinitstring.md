@@ -10,6 +10,7 @@ keywords: ["RtlInitString function"]
 ms.keywords: RtlInitString, RtlInitString routine [Kernel-Mode Driver Architecture], k109_c0bd87a9-811c-4312-b2b4-e82bdbfa5b8c.xml, kernel.rtlinitstring, wdm/RtlInitString
 f1_keywords:
  - "wdm/RtlInitString"
+ - "RtlInitString"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

@@ -9,6 +9,7 @@ keywords: ["_DXGKARG_RESETENGINE structure"]
 ms.keywords: "*INOUT_PDXGKARG_RESETENGINE, DXGKARG_RESETENGINE, DXGKARG_RESETENGINE structure [Display Devices], _DXGKARG_RESETENGINE, d3dkmddi/DXGKARG_RESETENGINE, display.dxgkarg_resetengine"
 f1_keywords:
  - "d3dkmddi/DXGKARG_RESETENGINE"
+ - "DXGKARG_RESETENGINE"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

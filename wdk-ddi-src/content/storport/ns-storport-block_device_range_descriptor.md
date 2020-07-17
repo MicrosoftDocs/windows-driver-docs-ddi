@@ -10,6 +10,7 @@ keywords: ["BLOCK_DEVICE_RANGE_DESCRIPTOR structure"]
 ms.keywords: "*PBLOCK_DEVICE_RANGE_DESCRIPTOR, BLOCK_DEVICE_RANGE_DESCRIPTOR, BLOCK_DEVICE_RANGE_DESCRIPTOR structure [Storage Devices], PBLOCK_DEVICE_RANGE_DESCRIPTOR, PBLOCK_DEVICE_RANGE_DESCRIPTOR structure pointer [Storage Devices], scsi/BLOCK_DEVICE_RANGE_DESCRIPTOR, scsi/PBLOCK_DEVICE_RANGE_DESCRIPTOR, storage.block_device_range_descriptor"
 f1_keywords:
  - "storport/BLOCK_DEVICE_RANGE_DESCRIPTOR"
+ - "BLOCK_DEVICE_RANGE_DESCRIPTOR"
 req.header: storport.h
 req.include-header: Scsi.h, Minitape.h, Storport.h
 req.target-type: Windows

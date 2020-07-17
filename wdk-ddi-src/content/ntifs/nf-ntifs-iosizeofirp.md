@@ -10,6 +10,7 @@ keywords: ["IoSizeOfIrp macro"]
 ms.keywords: IoSizeOfIrp, IoSizeOfIrp routine [Kernel-Mode Driver Architecture], k104_7c08c9ff-7731-462e-acb8-3793f85a84c2.xml, kernel.iosizeofirp, wdm/IoSizeOfIrp
 f1_keywords:
  - "ntifs/IoSizeOfIrp"
+ - "IoSizeOfIrp"
 req.header: ntifs.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

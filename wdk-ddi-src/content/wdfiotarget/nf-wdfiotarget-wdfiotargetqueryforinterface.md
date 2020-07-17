@@ -10,6 +10,7 @@ keywords: ["WdfIoTargetQueryForInterface function"]
 ms.keywords: DFIOTargetRef_ed9f676e-903e-4a93-ad0a-80c428ed8230.xml, WdfIoTargetQueryForInterface, WdfIoTargetQueryForInterface method, kmdf.wdfiotargetqueryforinterface, wdf.wdfiotargetqueryforinterface, wdfiotarget/WdfIoTargetQueryForInterface
 f1_keywords:
  - "wdfiotarget/WdfIoTargetQueryForInterface"
+ - "WdfIoTargetQueryForInterface"
 req.header: wdfiotarget.h
 req.include-header: Wdf.h
 req.target-type: Universal

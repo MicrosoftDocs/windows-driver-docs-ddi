@@ -10,6 +10,7 @@ keywords: ["MmUnmapLockedPages function"]
 ms.keywords: MmUnmapLockedPages, MmUnmapLockedPages routine [Kernel-Mode Driver Architecture], k106_1ed6ae95-665b-4a6e-802a-4f80294c4f6e.xml, kernel.mmunmaplockedpages, wdm/MmUnmapLockedPages
 f1_keywords:
  - "wdm/MmUnmapLockedPages"
+ - "MmUnmapLockedPages"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

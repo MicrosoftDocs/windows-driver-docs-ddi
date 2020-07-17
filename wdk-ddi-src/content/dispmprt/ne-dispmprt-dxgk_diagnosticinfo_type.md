@@ -10,6 +10,7 @@ ms.date: 03/24/2020
 keywords: ["DXGK_DIAGNOSTICINFO_TYPE enumeration"]
 f1_keywords:
  - "dispmprt/DXGK_DIAGNOSTICINFO_TYPE"
+ - "DXGK_DIAGNOSTICINFO_TYPE"
 ms.keywords: DXGK_DIAGNOSTICINFO_TYPE, DXGK_DIAGNOSTICINFO_TYPE, 
 req.header: dispmprt.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["_UNIFM_HDR structure"]
 ms.keywords: "*PUNIFM_HDR, PUNIFM_HDR, PUNIFM_HDR structure pointer [Print Devices], UNIFM_HDR, UNIFM_HDR structure [Print Devices], _UNIFM_HDR, print.unifm_hdr, print_unidrv-pscript_fonts_eaf5dd18-df64-41bc-91b5-836b6ed165b6.xml, prntfont/PUNIFM_HDR, prntfont/UNIFM_HDR"
 f1_keywords:
  - "prntfont/UNIFM_HDR"
+ - "UNIFM_HDR"
 req.header: prntfont.h
 req.include-header: Prntfont.h
 req.target-type: Windows

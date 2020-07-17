@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMT_MULTIPLANE_OVERLAY_BLEND enumeration"]
 f1_keywords:
  - "d3dkmthk/D3DKMT_MULTIPLANE_OVERLAY_BLEND"
+ - "D3DKMT_MULTIPLANE_OVERLAY_BLEND"
 ms.keywords: D3DKMT_MULTIPLANE_OVERLAY_BLEND, D3DKMT_MULTIPLANE_OVERLAY_BLEND, 
 req.header: d3dkmthk.h
 req.include-header:

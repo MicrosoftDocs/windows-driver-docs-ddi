@@ -7,6 +7,7 @@ ms.date: 10/04/2018
 keywords: ["IDebugHostModule2::FindSymbolByRVA"]
 f1_keywords:
  - "dbgmodel/IDebugHostModule2.FindSymbolByRVA"
+ - "IDebugHostModule2.FindSymbolByRVA"
 ms.keywords: IDebugHostModule2::FindSymbolByRVA, FindSymbolByRVA, IDebugHostModule2.FindSymbolByRVA, IDebugHostModule2::FindSymbolByRVA, IDebugHostModule2.FindSymbolByRVA
 req.header: dbgmodel.h
 req.include-header:

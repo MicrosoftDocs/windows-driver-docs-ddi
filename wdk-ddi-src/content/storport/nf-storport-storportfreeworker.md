@@ -10,6 +10,7 @@ keywords: ["StorPortFreeWorker function"]
 ms.keywords: StorPortFreeWorker, StorPortFreeWorker routine [Storage Devices], storage.storportfreeworker, storport/StorPortFreeWorker
 f1_keywords:
  - "storport/StorPortFreeWorker"
+ - "StorPortFreeWorker"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

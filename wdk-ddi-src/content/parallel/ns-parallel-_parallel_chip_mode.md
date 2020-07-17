@@ -10,6 +10,7 @@ keywords: ["_PARALLEL_CHIP_MODE structure"]
 ms.keywords: "*PPARALLEL_CHIP_MODE, PARALLEL_CHIP_MODE, PARALLEL_CHIP_MODE structure [Parallel Ports], PPARALLEL_CHIP_MODE, PPARALLEL_CHIP_MODE structure pointer [Parallel Ports], _PARALLEL_CHIP_MODE, cisspd_1dbc3693-e551-46a3-9a41-725b06a2ee9a.xml, parallel/PARALLEL_CHIP_MODE, parallel/PPARALLEL_CHIP_MODE, parports.parallel_chip_mode"
 f1_keywords:
  - "parallel/PARALLEL_CHIP_MODE"
+ - "PARALLEL_CHIP_MODE"
 req.header: parallel.h
 req.include-header: Parallel.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["UcxControllerSetIdStrings function"]
 ms.keywords: UcxControllerSetIdStrings, UcxControllerSetIdStrings function [Buses], buses.ucxcontrollersetidstrings, ucxcontroller/UcxControllerSetIdStrings
 f1_keywords:
  - "ucxcontroller/UcxControllerSetIdStrings"
+ - "UcxControllerSetIdStrings"
 req.header: ucxcontroller.h
 req.include-header: Ucxclass.h
 req.target-type: Windows

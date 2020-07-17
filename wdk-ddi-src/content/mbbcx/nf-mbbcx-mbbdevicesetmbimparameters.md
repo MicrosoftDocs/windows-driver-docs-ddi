@@ -8,6 +8,7 @@ ms.date: 06/29/2018
 keywords: ["MbbDeviceSetMbimParameters function"]
 f1_keywords:
  - "mbbcx/MbbDeviceSetMbimParameters"
+ - "MbbDeviceSetMbimParameters"
 ms.keywords: MbbDeviceSetMbimParameters
 req.header: mbbcx.h
 req.include-header:

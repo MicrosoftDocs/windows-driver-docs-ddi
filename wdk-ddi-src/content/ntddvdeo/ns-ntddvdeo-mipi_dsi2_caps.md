@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["MIPI_DSI2_CAPS structure"]
 f1_keywords:
  - "ntddvdeo/MIPI_DSI2_CAPS"
+ - "MIPI_DSI2_CAPS"
 ms.keywords: MIPI_DSI2_CAPS, MIPI_DSI2_CAPS, *PMIPI_DSI2_CAPS, 
 req.header: ntddvdeo.h
 req.include-header:

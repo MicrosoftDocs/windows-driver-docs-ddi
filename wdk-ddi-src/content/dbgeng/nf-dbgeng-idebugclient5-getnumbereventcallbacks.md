@@ -10,6 +10,7 @@ keywords: ["IDebugClient5::GetNumberEventCallbacks"]
 ms.keywords: GetNumberEventCallbacks, GetNumberEventCallbacks method [Windows Debugging], GetNumberEventCallbacks method [Windows Debugging],IDebugClient5 interface, IDebugClient5 interface [Windows Debugging],GetNumberEventCallbacks method, IDebugClient5.GetNumberEventCallbacks, IDebugClient5::GetNumberEventCallbacks, IDebugClient_976101a5-6218-475a-b8e9-e7091e2524d6.xml, dbgeng/IDebugClient5::GetNumberEventCallbacks, debugger.getnumbereventcallbacks
 f1_keywords:
  - "dbgeng/IDebugClient5.GetNumberEventCallbacks"
+ - "IDebugClient5.GetNumberEventCallbacks"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

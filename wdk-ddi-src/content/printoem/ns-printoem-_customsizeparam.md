@@ -10,6 +10,7 @@ keywords: ["_CUSTOMSIZEPARAM structure"]
 ms.keywords: "*PCUSTOMSIZEPARAM, CUSTOMSIZEPARAM, CUSTOMSIZEPARAM structure [Print Devices], PCUSTOMSIZEPARAM, PCUSTOMSIZEPARAM structure pointer [Print Devices], _CUSTOMSIZEPARAM, print.customsizeparam, print_unidrv-pscript_ui_ca016241-b74a-43d1-9b45-4deece484d10.xml, printoem/CUSTOMSIZEPARAM, printoem/PCUSTOMSIZEPARAM"
 f1_keywords:
  - "printoem/CUSTOMSIZEPARAM"
+ - "CUSTOMSIZEPARAM"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["PosCxGetDeviceInterfaceTag function"]
 ms.keywords: PosCxGetDeviceInterfaceTag, PosCxGetDeviceInterfaceTag function, pos.poscxgetdeviceinterfacetag, poscx/PosCxGetDeviceInterfaceTag
 f1_keywords:
  - "poscx/PosCxGetDeviceInterfaceTag"
+ - "PosCxGetDeviceInterfaceTag"
 req.header: poscx.h
 req.include-header: Poscx.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["IDebugControl3::OutputVaList"]
 ms.keywords: IDebugControl interface [Windows Debugging],OutputVaList method, IDebugControl2 interface [Windows Debugging],OutputVaList method, IDebugControl2::OutputVaList, IDebugControl3 interface [Windows Debugging],OutputVaList method, IDebugControl3.OutputVaList, IDebugControl3::OutputVaList, IDebugControl::OutputVaList, IDebugControl_4c0f8057-9e61-4a89-a2e8-be15bd49e5fc.xml, OutputVaList, OutputVaList method [Windows Debugging], OutputVaList method [Windows Debugging],IDebugControl interface, OutputVaList method [Windows Debugging],IDebugControl2 interface, OutputVaList method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::OutputVaList, dbgeng/IDebugControl3::OutputVaList, dbgeng/IDebugControl::OutputVaList, debugger.outputvalist
 f1_keywords:
  - "dbgeng/IDebugControl.OutputVaList"
+ - "IDebugControl.OutputVaList"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h, Stdarg.h
 req.target-type: Desktop

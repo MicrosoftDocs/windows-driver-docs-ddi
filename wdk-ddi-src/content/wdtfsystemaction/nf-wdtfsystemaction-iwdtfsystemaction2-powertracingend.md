@@ -10,6 +10,7 @@ keywords: ["IWDTFSystemAction2::PowerTracingEnd"]
 ms.keywords: IWDTFSystemAction2 interface [Windows Device Testing Framework],PowerTracingEnd method, IWDTFSystemAction2.PowerTracingEnd, IWDTFSystemAction2::PowerTracingEnd, Microsoft.WDTF.IWDTFSystemAction2.PowerTracingEnd, Microsoft::WDTF::IWDTFSystemAction2::PowerTracingEnd, PowerTracingEnd, PowerTracingEnd method [Windows Device Testing Framework], PowerTracingEnd method [Windows Device Testing Framework],IWDTFSystemAction2 interface, dtf.iwdtfsystemaction2_powertracingend, wdtfsystemaction/IWDTFSystemAction2::PowerTracingEnd
 f1_keywords:
  - "wdtfsystemaction/IWDTFSystemAction2.PowerTracingEnd"
+ - "IWDTFSystemAction2.PowerTracingEnd"
 req.header: wdtfsystemaction.h
 req.include-header: 
 req.target-type: Desktop

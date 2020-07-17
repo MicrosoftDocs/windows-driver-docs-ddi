@@ -10,6 +10,7 @@ keywords: ["IOCTL_MPIO_PASS_THROUGH_PATH_EX IOCTL"]
 ms.keywords: IOCTL_MPIO_PASS_THROUGH_PATH_EX, IOCTL_MPIO_PASS_THROUGH_PATH_EX control, IOCTL_MPIO_PASS_THROUGH_PATH_EX control code [Storage Devices], ntddscsi/IOCTL_MPIO_PASS_THROUGH_PATH_EX, storage.ioctl_mpio_pass_through_path_ex
 f1_keywords:
  - "ntddscsi/IOCTL_MPIO_PASS_THROUGH_PATH_EX"
+ - "IOCTL_MPIO_PASS_THROUGH_PATH_EX"
 req.header: ntddscsi.h
 req.include-header: Ntddscsi.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["IPartBase::GetUri"]
 ms.keywords: GetUri, GetUri method [Print Devices], GetUri method [Print Devices],IPartBase interface, IPartBase interface [Print Devices],GetUri method, IPartBase.GetUri, IPartBase::GetUri, filterpipeline/IPartBase::GetUri, filterpipeline_ae1b8045-4a34-4a66-939c-31363ba66c6b.xml, print.ipartbase_geturi
 f1_keywords:
  - "filterpipeline/IPartBase.GetUri"
+ - "IPartBase.GetUri"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop

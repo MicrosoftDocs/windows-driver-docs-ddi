@@ -7,6 +7,7 @@ ms.date: 08/13/2018
 keywords: ["IModelPropertyAccessor::GetValue"]
 f1_keywords:
  - "dbgmodel/IModelPropertyAccessor.GetValue"
+ - "IModelPropertyAccessor.GetValue"
 ms.keywords: IModelPropertyAccessor::GetValue, GetValue, IModelPropertyAccessor.GetValue, IModelPropertyAccessor::GetValue, IModelPropertyAccessor.GetValue
 req.header: dbgmodel.h
 req.include-header:

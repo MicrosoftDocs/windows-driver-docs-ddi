@@ -10,6 +10,7 @@ keywords: ["IoWithinStackLimits function"]
 ms.keywords: IoWithinStackLimits, IoWithinStackLimits routine [Kernel-Mode Driver Architecture], k104_631648cb-6ba2-47b1-8745-e6314e17be30.xml, kernel.iowithinstacklimits, wdm/IoWithinStackLimits
 f1_keywords:
  - "wdm/IoWithinStackLimits"
+ - "IoWithinStackLimits"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

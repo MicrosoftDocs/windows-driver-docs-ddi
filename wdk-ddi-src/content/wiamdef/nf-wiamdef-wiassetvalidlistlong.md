@@ -10,6 +10,7 @@ keywords: ["wiasSetValidListLong function"]
 ms.keywords: image.wiassetvalidlistlong, wiamdef/wiasSetValidListLong, wiasFncs_0ccc4e24-3b86-426e-94c6-7c8bb19811f8.xml, wiasSetValidListLong, wiasSetValidListLong function [Imaging Devices]
 f1_keywords:
  - "wiamdef/wiasSetValidListLong"
+ - "wiasSetValidListLong"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop

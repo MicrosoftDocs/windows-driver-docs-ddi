@@ -10,6 +10,7 @@ ms.date: 03/22/2019
 keywords: ["SOUNDDETECTOR_PATTERNHEADER structure"]
 f1_keywords:
  - "eventdetectoroemadapter/SOUNDDETECTOR_PATTERNHEADER"
+ - "SOUNDDETECTOR_PATTERNHEADER"
 ms.keywords: SOUNDDETECTOR_PATTERNHEADER, SOUNDDETECTOR_PATTERNHEADER, 
 req.header: eventdetectoroemadapter.h
 req.include-header:

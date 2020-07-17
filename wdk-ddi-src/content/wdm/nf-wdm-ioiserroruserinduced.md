@@ -10,6 +10,7 @@ keywords: ["IoIsErrorUserInduced macro"]
 ms.keywords: IoIsErrorUserInduced, IoIsErrorUserInduced routine [Kernel-Mode Driver Architecture], k104_860a6f10-e6c0-44cd-9386-c09e356f3472.xml, kernel.ioiserroruserinduced, wdm/IoIsErrorUserInduced
 f1_keywords:
  - "wdm/IoIsErrorUserInduced"
+ - "IoIsErrorUserInduced"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

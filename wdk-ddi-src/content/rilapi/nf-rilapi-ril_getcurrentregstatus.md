@@ -10,6 +10,7 @@ keywords: ["RIL_GetCurrentRegStatus function"]
 ms.keywords: RIL_GetCurrentRegStatus, RIL_GetCurrentRegStatus method [Network Drivers Starting with Windows Vista], netvista.ril_getcurrentregstatus, rilapi/RIL_GetCurrentRegStatus
 f1_keywords:
  - "rilapi/RIL_GetCurrentRegStatus"
+ - "RIL_GetCurrentRegStatus"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

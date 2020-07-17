@@ -10,6 +10,7 @@ keywords: ["IPrintSchemaCapabilities::get_PageImageableSize"]
 ms.keywords: IPrintSchemaCapabilities interface [Print Devices],PageImageableSize property, IPrintSchemaCapabilities.PageImageableSize, IPrintSchemaCapabilities.get_PageImageableSize, IPrintSchemaCapabilities::PageImageableSize, IPrintSchemaCapabilities::get_PageImageableSize, PageImageableSize property [Print Devices], PageImageableSize property [Print Devices],IPrintSchemaCapabilities interface, get_PageImageableSize, print.iprintschemacapabilities_pageimageablesize, printerextension/IPrintSchemaCapabilities::PageImageableSize, printerextension/IPrintSchemaCapabilities::get_PageImageableSize
 f1_keywords:
  - "printerextension/IPrintSchemaCapabilities.PageImageableSize"
+ - "IPrintSchemaCapabilities.PageImageableSize"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

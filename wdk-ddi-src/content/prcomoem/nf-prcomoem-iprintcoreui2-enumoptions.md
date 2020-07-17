@@ -10,6 +10,7 @@ keywords: ["IPrintCoreUI2::EnumOptions"]
 ms.keywords: EnumOptions, EnumOptions method [Print Devices], EnumOptions method [Print Devices],IPrintCoreUI2 interface, IPrintCoreUI2 interface [Print Devices],EnumOptions method, IPrintCoreUI2.EnumOptions, IPrintCoreUI2::EnumOptions, prcomoem/IPrintCoreUI2::EnumOptions, print.iprintcoreui2_enumoptions, print_unidrv-pscript_ui_bacd11be-a1da-4322-b893-6227b5ad1bc1.xml
 f1_keywords:
  - "prcomoem/IPrintCoreUI2.EnumOptions"
+ - "IPrintCoreUI2.EnumOptions"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop

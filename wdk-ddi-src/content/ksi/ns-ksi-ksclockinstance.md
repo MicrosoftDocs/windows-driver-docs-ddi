@@ -10,6 +10,7 @@ keywords: ["KSCLOCKINSTANCE structure"]
 ms.keywords: "*PKSCLOCKINSTANCE, KSCLOCKINSTANCE, KSCLOCKINSTANCE structure [Streaming Media Devices], PKSCLOCKINSTANCE, PKSCLOCKINSTANCE structure pointer [Streaming Media Devices], ksi/KSCLOCKINSTANCE, ksi/PKSCLOCKINSTANCE, stream.ksclockinstance"
 f1_keywords:
  - "ksi/KSCLOCKINSTANCE"
+ - "KSCLOCKINSTANCE"
 req.header: ksi.h
 req.include-header: 
 req.target-type: Windows

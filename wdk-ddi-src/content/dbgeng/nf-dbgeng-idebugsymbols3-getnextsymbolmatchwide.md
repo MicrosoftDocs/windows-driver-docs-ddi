@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::GetNextSymbolMatchWide"]
 ms.keywords: GetNextSymbolMatchWide, GetNextSymbolMatchWide method [Windows Debugging], GetNextSymbolMatchWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetNextSymbolMatchWide method, IDebugSymbols3.GetNextSymbolMatchWide, IDebugSymbols3::GetNextSymbolMatchWide, dbgeng/IDebugSymbols3::GetNextSymbolMatchWide, debugger.getnextsymbolmatchwide
 f1_keywords:
  - "dbgeng/IDebugSymbols3.GetNextSymbolMatchWide"
+ - "IDebugSymbols3.GetNextSymbolMatchWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

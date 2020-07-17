@@ -32,6 +32,7 @@ api_name:
 f1_keywords:
  - ntddk/_WHEA_PACKET_LOG_DATA
  - ntddk/WHEA_PACKET_LOG_DATA
+ - ""
 dev_langs:
  - c++
 ---

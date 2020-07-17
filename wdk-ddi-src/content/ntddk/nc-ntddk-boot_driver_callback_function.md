@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["BOOT_DRIVER_CALLBACK_FUNCTION callback function"]
 f1_keywords:
  - "ntddk/BOOT_DRIVER_CALLBACK_FUNCTION"
+ - "BOOT_DRIVER_CALLBACK_FUNCTION"
 req.header: ntddk.h
 req.include-header:
 req.target-type:

@@ -10,6 +10,7 @@ keywords: ["NDIS_WDI_TX_TRANSFER_COMPLETE_IND callback function"]
 ms.keywords: NDIS_WDI_TX_TRANSFER_COMPLETE_IND, NDIS_WDI_TX_TRANSFER_COMPLETE_IND callback, NdisWdiTxTransferCompleteIndication, NdisWdiTxTransferCompleteIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxTransferCompleteIndication, netvista.ndiswditxtransfercompleteindication
 f1_keywords:
  - "dot11wdi/NdisWdiTxTransferCompleteIndication"
+ - "NdisWdiTxTransferCompleteIndication"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows

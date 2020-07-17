@@ -10,6 +10,7 @@ keywords: ["RILSIGNALQUALITYCAPS enumeration"]
 ms.keywords: RILSIGNALQUALITYCAPS, RILSIGNALQUALITYCAPS enumeration [Network Drivers Starting with Windows Vista], RIL_CAPS_SIGNALQUALITY_MAX, RIL_CAPS_SIGNALQUALITY_POLLING, netvista.rilsignalqualitycaps, ntddrilapitypes/RILSIGNALQUALITYCAPS, ntddrilapitypes/RIL_CAPS_SIGNALQUALITY_MAX, ntddrilapitypes/RIL_CAPS_SIGNALQUALITY_POLLING
 f1_keywords:
  - "ntddrilapitypes/RILSIGNALQUALITYCAPS"
+ - "RILSIGNALQUALITYCAPS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

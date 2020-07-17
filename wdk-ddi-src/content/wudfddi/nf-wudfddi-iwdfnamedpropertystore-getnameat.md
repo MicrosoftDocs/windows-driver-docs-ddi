@@ -10,6 +10,7 @@ keywords: ["IWDFNamedPropertyStore::GetNameAt"]
 ms.keywords: GetNameAt, GetNameAt method, GetNameAt method,IWDFNamedPropertyStore interface, IWDFNamedPropertyStore interface,GetNameAt method, IWDFNamedPropertyStore.GetNameAt, IWDFNamedPropertyStore::GetNameAt, UMDFPropertyStoreObjectRef_d7568b53-9673-4344-bbbc-100fc19aaba5.xml, umdf.iwdfnamedpropertystore_getnameat, wdf.iwdfnamedpropertystore_getnameat, wudfddi/IWDFNamedPropertyStore::GetNameAt
 f1_keywords:
  - "wudfddi/IWDFNamedPropertyStore.GetNameAt"
+ - "IWDFNamedPropertyStore.GetNameAt"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

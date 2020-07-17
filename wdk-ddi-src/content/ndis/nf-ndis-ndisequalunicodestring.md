@@ -10,6 +10,7 @@ keywords: ["NdisEqualUnicodeString macro"]
 ms.keywords: NdisEqualUnicodeString, NdisEqualUnicodeString macro [Network Drivers Starting with Windows Vista], ndis/NdisEqualUnicodeString, ndis_string_ref_ccfcf1e6-b983-47a3-a46e-3a6ff1eb7158.xml, netvista.ndisequalunicodestring
 f1_keywords:
  - "ndis/NdisEqualUnicodeString"
+ - "NdisEqualUnicodeString"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

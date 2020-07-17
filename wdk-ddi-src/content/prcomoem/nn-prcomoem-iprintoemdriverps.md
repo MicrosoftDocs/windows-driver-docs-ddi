@@ -10,6 +10,7 @@ keywords: ["IPrintOemDriverPS interface"]
 ms.keywords: IPrintOemDriverPS, IPrintOemDriverPS interface [Print Devices], IPrintOemDriverPS interface [Print Devices],described, prcomoem/IPrintOemDriverPS, print.iprintoemdriverps_interface, print_unidrv-pscript_rendering_a44b8943-0472-41da-9e5b-2f82d34e1f9a.xml
 f1_keywords:
  - "prcomoem/IPrintOemDriverPS"
+ - "IPrintOemDriverPS"
 req.header: prcomoem.h
 req.include-header: 
 req.target-type: Windows

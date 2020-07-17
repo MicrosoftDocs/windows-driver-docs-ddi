@@ -10,6 +10,7 @@ keywords: ["IDARG_IN_MONITORCREATE structure"]
 ms.keywords: IDARG_IN_MONITORCREATE, IDARG_IN_MONITORCREATE structure [Display Devices], display.idarg_in_monitorcreate, iddcx/IDARG_IN_MONITORCREATE
 f1_keywords:
  - "iddcx/IDARG_IN_MONITORCREATE"
+ - "IDARG_IN_MONITORCREATE"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows

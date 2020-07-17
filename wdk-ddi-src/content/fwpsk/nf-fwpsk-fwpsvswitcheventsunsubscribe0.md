@@ -10,6 +10,7 @@ keywords: ["FwpsvSwitchEventsUnsubscribe0 function"]
 ms.keywords: FwpsvSwitchEventsUnsubscribe0, FwpsvSwitchEventsUnsubscribe0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsvSwitchEventsUnsubscribe0, netvista.fwpsvswitcheventsunsubscribe0
 f1_keywords:
  - "fwpsk/FwpsvSwitchEventsUnsubscribe0"
+ - "FwpsvSwitchEventsUnsubscribe0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal

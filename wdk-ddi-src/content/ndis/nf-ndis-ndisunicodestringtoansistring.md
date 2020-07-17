@@ -10,6 +10,7 @@ keywords: ["NdisUnicodeStringToAnsiString macro"]
 ms.keywords: NdisUnicodeStringToAnsiString, NdisUnicodeStringToAnsiString macro [Network Drivers Starting with Windows Vista], ndis/NdisUnicodeStringToAnsiString, ndis_string_ref_31235ece-f64c-4806-af32-e3ffffdb7904.xml, netvista.ndisunicodestringtoansistring
 f1_keywords:
  - "ndis/NdisUnicodeStringToAnsiString"
+ - "NdisUnicodeStringToAnsiString"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

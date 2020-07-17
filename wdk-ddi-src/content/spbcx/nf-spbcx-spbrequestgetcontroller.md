@@ -10,6 +10,7 @@ keywords: ["SpbRequestGetController function"]
 ms.keywords: SPB.spbrequestgetcontroller, SpbRequestGetController, SpbRequestGetController method [Buses], spbcx/SpbRequestGetController
 f1_keywords:
  - "spbcx/SpbRequestGetController"
+ - "SpbRequestGetController"
 req.header: spbcx.h
 req.include-header: 
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["KsFilterGenerateEvents function"]
 ms.keywords: KsFilterGenerateEvents, KsFilterGenerateEvents function [Streaming Media Devices], avfunc_bf12d7bb-6ebf-460b-a2c2-24632c89b083.xml, ks/KsFilterGenerateEvents, stream.ksfiltergenerateevents
 f1_keywords:
  - "ks/KsFilterGenerateEvents"
+ - "KsFilterGenerateEvents"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["IWDTFDriverPackageAction2::GetQueryForDeviceThatCanUsePackage method
 ms.keywords: GetQueryForDeviceThatCanUsePackage,IWDTFDriverPackageAction2.GetQueryForDeviceThatCanUsePackage, GetQueryForDevicesThatCanUsePackage method [Windows Device Testing Framework], GetQueryForDevicesThatCanUsePackage method [Windows Device Testing Framework], IWDTFDriverPackageAction2 interface, IWDTFDriverPackageAction2, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework], GetQueryForDevicesThatCanUsePackage method, IWDTFDriverPackageAction2::GetQueryForDeviceThatCanUsePackage, IWDTFDriverPackageAction2::GetQueryForDevicesThatCanUsePackage, Microsoft.WDTF.IWDTFDriverPackageAction2.GetQueryForDevicesThatCanUsePackage, Microsoft::WDTF::IWDTFDriverPackageAction2::GetQueryForDevicesThatCanUsePackage, dtf.iwdtfdriverpackageaction2_getqueryfordevicethatcanusepackage, wdtfdriverpackageaction/IWDTFDriverPackageAction2::GetQueryForDevicesThatCanUsePackage
 f1_keywords:
  - "wdtfdriverpackageaction/IWDTFDriverPackageAction2.GetQueryForDevicesThatCanUsePackage"
+ - "IWDTFDriverPackageAction2.GetQueryForDevicesThatCanUsePackage"
 req.header: wdtfdriverpackageaction.h
 req.include-header:
 req.target-type: Desktop

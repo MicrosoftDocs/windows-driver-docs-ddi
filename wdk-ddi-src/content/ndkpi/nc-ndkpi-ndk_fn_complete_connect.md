@@ -10,6 +10,7 @@ keywords: ["NDK_FN_COMPLETE_CONNECT callback function"]
 ms.keywords: NDK_FN_COMPLETE_CONNECT, NDK_FN_COMPLETE_CONNECT callback, NdkCompleteConnect, NdkCompleteConnect callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCompleteConnect, netvista.ndk_fn_complete_connect
 f1_keywords:
  - "ndkpi/NdkCompleteConnect"
+ - "NdkCompleteConnect"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

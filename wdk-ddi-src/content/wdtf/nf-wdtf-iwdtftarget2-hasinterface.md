@@ -10,6 +10,7 @@ keywords: ["IWDTFTarget2::HasInterface"]
 ms.keywords: HasInterface, HasInterface method [Windows Device Testing Framework], HasInterface method [Windows Device Testing Framework],IWDTFTarget2 interface, IWDTFTarget2 interface [Windows Device Testing Framework],HasInterface method, IWDTFTarget2.HasInterface, IWDTFTarget2::HasInterface, Microsoft.WDTF.IWDTFTarget2.HasInterface, Microsoft::WDTF::IWDTFTarget2::HasInterface, dtf.iwdtftarget2_hasinterface, wdtf/IWDTFTarget2::HasInterface
 f1_keywords:
  - "wdtf/IWDTFTarget2.HasInterface"
+ - "IWDTFTarget2.HasInterface"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Desktop

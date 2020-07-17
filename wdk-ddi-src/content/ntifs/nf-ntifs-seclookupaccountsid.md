@@ -10,6 +10,7 @@ keywords: ["SecLookupAccountSid function"]
 ms.keywords: SecLookupAccountSid, SecLookupAccountSid function [Installable File System Drivers], ifsk.seclookupaccountsid, ksecddref_ba65e59c-5c9a-47bb-bf2c-9b3b8c727bb6.xml, ntifs/SecLookupAccountSid
 f1_keywords:
  - "ntifs/SecLookupAccountSid"
+ - "SecLookupAccountSid"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

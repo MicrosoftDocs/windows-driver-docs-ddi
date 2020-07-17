@@ -10,6 +10,7 @@ keywords: ["_SDEV_IDENTIFIER_INTERFACE structure"]
 ms.keywords: "*PSDEV_IDENTIFIER_INTERFACE, SDEV_IDENTIFIER_INTERFACE, SDEV_IDENTIFIER_INTERFACE structure [Kernel-Mode Driver Architecture], _SDEV_IDENTIFIER_INTERFACE, kernel._sdev_identifier_interface, wdm/SDEV_IDENTIFIER_INTERFACE"
 f1_keywords:
  - "wdm/SDEV_IDENTIFIER_INTERFACE"
+ - "SDEV_IDENTIFIER_INTERFACE"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Windows

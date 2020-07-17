@@ -10,6 +10,7 @@ keywords: ["_LineDisplayStatusType enumeration"]
 ms.keywords: LineDisplayStatusType, LineDisplayStatusType enumeration, PLineDisplayStatusType, PLineDisplayStatusType enumeration pointer, _LineDisplayStatusType, pointofservicecommontypes/, pointofservicecommontypes/LineDisplayStatusType, pointofservicecommontypes/PLineDisplayStatusType, pos.linedisplaystatustype
 f1_keywords:
  - "pointofservicecommontypes/LineDisplayStatusType"
+ - "LineDisplayStatusType"
 req.header: pointofservicecommontypes.h
 req.include-header: Pointofservicecommontypes.h
 req.target-type: Windows

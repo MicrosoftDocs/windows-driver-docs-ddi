@@ -26,6 +26,7 @@ targetos: Windows
 tech.root: display
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_CALCPRIVATEVIDEOPROCESSORSIZE_0072"
+ - "PFND3D12DDI_CALCPRIVATEVIDEOPROCESSORSIZE_0072"
 topic_type:
  - apiref
 api_type:

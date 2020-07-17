@@ -8,6 +8,7 @@ keywords: ["IsKeyPresentInCollectionList function"]
 tech.root: sensors
 f1_keywords:
  - "sensorsutils/IsKeyPresentInCollectionList"
+ - "IsKeyPresentInCollectionList"
 ms.keywords: IsKeyPresentInCollectionList
 req.header: sensorsutils.h
 req.include-header:

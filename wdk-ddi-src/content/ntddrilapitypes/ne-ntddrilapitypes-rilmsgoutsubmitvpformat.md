@@ -10,6 +10,7 @@ keywords: ["RILMSGOUTSUBMITVPFORMAT enumeration"]
 ms.keywords: RILMSGOUTSUBMITVPFORMAT, RILMSGOUTSUBMITVPFORMAT enumeration [Network Drivers Starting with Windows Vista], RIL_MSGVP_ABSOLUTE, RIL_MSGVP_ENHANCED, RIL_MSGVP_MAX, RIL_MSGVP_RELATIVE, netvista.rilmsgoutsubmitvpformat, ntddrilapitypes/RILMSGOUTSUBMITVPFORMAT, ntddrilapitypes/RIL_MSGVP_ABSOLUTE, ntddrilapitypes/RIL_MSGVP_ENHANCED, ntddrilapitypes/RIL_MSGVP_MAX, ntddrilapitypes/RIL_MSGVP_RELATIVE
 f1_keywords:
  - "ntddrilapitypes/RILMSGOUTSUBMITVPFORMAT"
+ - "RILMSGOUTSUBMITVPFORMAT"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

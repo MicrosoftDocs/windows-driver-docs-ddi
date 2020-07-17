@@ -7,6 +7,7 @@ ms.date: 09/20/2018
 keywords: ["IDebugHostType2::QueryInterface"]
 f1_keywords:
  - "dbgmodel/IDebugHostType2.QueryInterface"
+ - "IDebugHostType2.QueryInterface"
 ms.keywords: IDebugHostType2::QueryInterface, QueryInterface, IDebugHostType2.QueryInterface, IDebugHostType2::QueryInterface, IDebugHostType2.QueryInterface
 req.header: dbgmodel.h
 req.include-header:

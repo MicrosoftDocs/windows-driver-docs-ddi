@@ -10,6 +10,7 @@ keywords: ["_ELEMENT_TYPE enumeration"]
 ms.keywords: "*PELEMENT_TYPE, AllElements, ChangerDoor, ChangerDrive, ChangerIEPort, ChangerKeypad, ChangerMaxElement, ChangerSlot, ChangerTransport, ELEMENT_TYPE, ELEMENT_TYPE enumeration [Storage Devices], PELEMENT_TYPE, PELEMENT_TYPE enumeration pointer [Storage Devices], _ELEMENT_TYPE, ntddchgr/AllElements, ntddchgr/ChangerDoor, ntddchgr/ChangerDrive, ntddchgr/ChangerIEPort, ntddchgr/ChangerKeypad, ntddchgr/ChangerMaxElement, ntddchgr/ChangerSlot, ntddchgr/ChangerTransport, ntddchgr/ELEMENT_TYPE, ntddchgr/PELEMENT_TYPE, storage.element_type, structs-changer_e97997e8-4dc3-46e9-897e-3ded47adf8b8.xml"
 f1_keywords:
  - "ntddchgr/ELEMENT_TYPE"
+ - "ELEMENT_TYPE"
 req.header: ntddchgr.h
 req.include-header: 
 req.target-type: Windows

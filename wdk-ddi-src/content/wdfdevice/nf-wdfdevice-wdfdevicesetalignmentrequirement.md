@@ -10,6 +10,7 @@ keywords: ["WdfDeviceSetAlignmentRequirement function"]
 ms.keywords: DFDeviceObjectGeneralRef_9648c639-95b8-4dd9-8d30-8fb6352fe5f6.xml, WdfDeviceSetAlignmentRequirement, WdfDeviceSetAlignmentRequirement method, kmdf.wdfdevicesetalignmentrequirement, wdf.wdfdevicesetalignmentrequirement, wdfdevice/WdfDeviceSetAlignmentRequirement
 f1_keywords:
  - "wdfdevice/WdfDeviceSetAlignmentRequirement"
+ - "WdfDeviceSetAlignmentRequirement"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

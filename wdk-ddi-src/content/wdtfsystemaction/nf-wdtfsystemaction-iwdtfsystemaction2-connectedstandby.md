@@ -10,6 +10,7 @@ keywords: ["IWDTFSystemAction2::ConnectedStandby"]
 ms.keywords: ConnectedStandby, ConnectedStandby method [Windows Device Testing Framework], ConnectedStandby method [Windows Device Testing Framework],IWDTFSystemAction2 interface, IWDTFSystemAction2 interface [Windows Device Testing Framework],ConnectedStandby method, IWDTFSystemAction2.ConnectedStandby, IWDTFSystemAction2::ConnectedStandby, Microsoft.WDTF.IWDTFSystemAction2.ConnectedStandby, Microsoft::WDTF::IWDTFSystemAction2::ConnectedStandby, dtf.iwdtfsystemaction2_connectedstandby, wdtfsystemaction/IWDTFSystemAction2::ConnectedStandby
 f1_keywords:
  - "wdtfsystemaction/IWDTFSystemAction2.ConnectedStandby"
+ - "IWDTFSystemAction2.ConnectedStandby"
 req.header: wdtfsystemaction.h
 req.include-header: 
 req.target-type: Desktop

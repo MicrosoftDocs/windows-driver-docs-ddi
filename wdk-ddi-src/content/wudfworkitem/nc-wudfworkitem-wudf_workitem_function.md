@@ -10,6 +10,7 @@ keywords: ["WUDF_WORKITEM_FUNCTION callback function"]
 ms.keywords: OnWorkItem, OnWorkItem callback function, PFN_WUDF_WORKITEM, PFN_WUDF_WORKITEM callback function pointer, WUDF_WORKITEM_FUNCTION, WUDF_WORKITEM_FUNCTION callback, umdf.onworkitem, wdf.onworkitem, wudfworkitem/OnWorkItem, wudfworkitem/PFN_WUDF_WORKITEM
 f1_keywords:
  - "wudfworkitem/WUDF_WORKITEM_FUNCTION"
+ - "WUDF_WORKITEM_FUNCTION"
 req.header: wudfworkitem.h
 req.include-header: 
 req.target-type: Desktop

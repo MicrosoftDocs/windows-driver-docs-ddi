@@ -10,6 +10,7 @@ keywords: ["_USBD_ISO_PACKET_DESCRIPTOR structure"]
 ms.keywords: "*PUSBD_ISO_PACKET_DESCRIPTOR, PUSBD_ISO_PACKET_DESCRIPTOR, PUSBD_ISO_PACKET_DESCRIPTOR structure pointer [Buses], USBD_ISO_PACKET_DESCRIPTOR, USBD_ISO_PACKET_DESCRIPTOR structure [Buses], _USBD_ISO_PACKET_DESCRIPTOR, buses.usbd_iso_packet_descriptor, usb/PUSBD_ISO_PACKET_DESCRIPTOR, usb/USBD_ISO_PACKET_DESCRIPTOR, usbstrct_142becb1-b374-467e-9a11-2cda26e69ff4.xml"
 f1_keywords:
  - "usb/USBD_ISO_PACKET_DESCRIPTOR"
+ - "USBD_ISO_PACKET_DESCRIPTOR"
 req.header: usb.h
 req.include-header: Usb.h
 req.target-type: Windows

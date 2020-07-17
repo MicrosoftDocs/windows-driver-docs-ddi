@@ -10,6 +10,7 @@ keywords: ["EtwWriteEx function"]
 ms.keywords: EtwWriteEx, EtwWriteEx function [Driver Development Tools], devtest.etwwriteex, wdm/EtwWriteEx
 f1_keywords:
  - "wdm/EtwWriteEx"
+ - "EtwWriteEx"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal

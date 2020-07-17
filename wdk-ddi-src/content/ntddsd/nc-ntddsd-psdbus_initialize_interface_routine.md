@@ -10,6 +10,7 @@ keywords: ["PSDBUS_INITIALIZE_INTERFACE_ROUTINE callback function"]
 ms.keywords: InitializeInterface, InitializeInterface callback function [Buses], PSDBUS_INITIALIZE_INTERFACE_ROUTINE, PSDBUS_INITIALIZE_INTERFACE_ROUTINE callback, SD.psdbus_initialize_interface_routine, ntddsd/InitializeInterface, sd-rtns_7716bd48-1f82-4b8e-b688-016bb0716e57.xml
 f1_keywords:
  - "ntddsd/InitializeInterface"
+ - "InitializeInterface"
 req.header: ntddsd.h
 req.include-header: Ntddsd.h
 req.target-type: Desktop

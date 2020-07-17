@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["_USBC_DATA_ROLE enumeration"]
 f1_keywords:
  - "usbctypes/_USBC_DATA_ROLE"
+ - "_USBC_DATA_ROLE"
 ms.keywords: _USBC_DATA_ROLE, USBC_DATA_ROLE, 
 req.header: usbctypes.h
 req.include-header: usbctypes.h

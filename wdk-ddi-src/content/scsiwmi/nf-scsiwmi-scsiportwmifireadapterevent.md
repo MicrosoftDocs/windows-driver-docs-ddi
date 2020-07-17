@@ -10,6 +10,7 @@ keywords: ["ScsiPortWmiFireAdapterEvent macro"]
 ms.keywords: ScsiPortWmiFireAdapterEvent, ScsiPortWmiFireAdapterEvent macro [Storage Devices], scsiprt_39ab704d-53a4-46d4-9196-f545710692ae.xml, scsiwmi/ScsiPortWmiFireAdapterEvent, storage.scsiportwmifireadapterevent
 f1_keywords:
  - "scsiwmi/ScsiPortWmiFireAdapterEvent"
+ - "ScsiPortWmiFireAdapterEvent"
 req.header: scsiwmi.h
 req.include-header: Miniport.h, Scsi.h
 req.target-type: Desktop

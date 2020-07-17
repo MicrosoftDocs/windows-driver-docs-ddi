@@ -8,6 +8,7 @@ ms.date: 09/27/2019
 keywords: ["_NET_RING_TYPE enumeration"]
 f1_keywords:
  - "ringcollection/RILWRITEPHONEBOOKENTRYPARAMS"
+ - "RILWRITEPHONEBOOKENTRYPARAMS"
 ms.keywords: _NET_RING_TYPE, NET_RING_TYPE, 
 req.header: ringcollection.h
 req.include-header:

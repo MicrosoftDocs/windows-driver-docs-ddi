@@ -10,6 +10,7 @@ keywords: ["_KSAUDIOMODULE_NOTIFICATION structure"]
 ms.keywords: "*PKSAUDIOMODULE_NOTIFICATION, KSAUDIOMODULE_NOTIFICATION, KSAUDIOMODULE_NOTIFICATION structure [Audio Devices], PKSAUDIOMODULE_NOTIFICATION, PKSAUDIOMODULE_NOTIFICATION structure pointer [Audio Devices], _KSAUDIOMODULE_NOTIFICATION, audio.ksaudiomodule_notification, ksmedia/KSAUDIOMODULE_NOTIFICATION, ksmedia/PKSAUDIOMODULE_NOTIFICATION"
 f1_keywords:
  - "ksmedia/KSAUDIOMODULE_NOTIFICATION"
+ - "KSAUDIOMODULE_NOTIFICATION"
 req.header: ksmedia.h
 req.include-header: 
 req.target-type: Windows

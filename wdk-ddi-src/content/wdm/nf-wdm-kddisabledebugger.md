@@ -10,6 +10,7 @@ keywords: ["KdDisableDebugger function"]
 ms.keywords: DebugFns_e280d38c-6f87-4540-a782-d7669815a0f5.xml, KdDisableDebugger, KdDisableDebugger routine [Driver Development Tools], devtest.kddisabledebugger, wdm/KdDisableDebugger
 f1_keywords:
  - "wdm/KdDisableDebugger"
+ - "KdDisableDebugger"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Universal

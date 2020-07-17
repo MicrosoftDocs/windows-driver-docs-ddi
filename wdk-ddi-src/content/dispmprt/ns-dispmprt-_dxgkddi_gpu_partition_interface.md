@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["_DXGKDDI_GPU_PARTITION_INTERFACE structure"]
 f1_keywords:
  - "dispmprt/_DXGKDDI_GPU_PARTITION_INTERFACE"
+ - "_DXGKDDI_GPU_PARTITION_INTERFACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: _DXGKDDI_GPU_PARTITION_INTERFACE, DXGKDDI_GPU_PARTITION_INTERFACE, *PDXGKDDI_GPU_PARTITION_INTERFACE, 

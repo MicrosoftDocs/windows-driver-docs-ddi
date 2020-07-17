@@ -10,6 +10,7 @@ keywords: ["IWDFFileHandleTargetFactory::CreateFileHandleTarget"]
 ms.keywords: CreateFileHandleTarget, CreateFileHandleTarget method, CreateFileHandleTarget method,IWDFFileHandleTargetFactory interface, IWDFFileHandleTargetFactory interface,CreateFileHandleTarget method, IWDFFileHandleTargetFactory.CreateFileHandleTarget, IWDFFileHandleTargetFactory::CreateFileHandleTarget, UMDFDeviceObjectRef_4a3fcfeb-e1a1-4375-8bd5-bdd75c36c454.xml, umdf.iwdffilehandletargetfactory_createfilehandletarget, wdf.iwdffilehandletargetfactory_createfilehandletarget, wudfddi/IWDFFileHandleTargetFactory::CreateFileHandleTarget
 f1_keywords:
  - "wudfddi/IWDFFileHandleTargetFactory.CreateFileHandleTarget"
+ - "IWDFFileHandleTargetFactory.CreateFileHandleTarget"
 req.header: wudfddi.h
 req.include-header: Wudfusb.h
 req.target-type: Desktop

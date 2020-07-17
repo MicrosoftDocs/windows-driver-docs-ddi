@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMTResetTrackedWorkload function"]
 f1_keywords:
  - "d3dkmthk/D3DKMTResetTrackedWorkload"
+ - "D3DKMTResetTrackedWorkload"
 ms.keywords: D3DKMTResetTrackedWorkload
 req.header: d3dkmthk.h
 req.include-header:

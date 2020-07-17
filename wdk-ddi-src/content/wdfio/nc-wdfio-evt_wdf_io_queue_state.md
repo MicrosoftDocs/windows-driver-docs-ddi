@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_IO_QUEUE_STATE callback function"]
 ms.keywords: DFQueueObjectRef_726524eb-d12b-451c-aa6e-3f60aa9b7940.xml, EVT_WDF_IO_QUEUE_STATE, EVT_WDF_IO_QUEUE_STATE callback, EvtIoQueueState, EvtIoQueueState callback function, kmdf.evtioqueuestate, wdf.evtioqueuestate, wdfio/EvtIoQueueState
 f1_keywords:
  - "wdfio/EvtIoQueueState"
+ - "EvtIoQueueState"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["WdfDriverCreate function"]
 ms.keywords: DFDriverObjectRef_10e33793-b3e1-4938-9b82-439451aceb86.xml, WdfDriverCreate, WdfDriverCreate method, kmdf.wdfdrivercreate, wdf.wdfdrivercreate, wdfdriver/WdfDriverCreate
 f1_keywords:
  - "wdfdriver/WdfDriverCreate"
+ - "WdfDriverCreate"
 req.header: wdfdriver.h
 req.include-header: Wdf.h
 req.target-type: Universal

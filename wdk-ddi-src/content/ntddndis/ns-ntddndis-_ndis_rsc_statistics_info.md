@@ -10,6 +10,7 @@ keywords: ["_NDIS_RSC_STATISTICS_INFO structure"]
 ms.keywords: "*PNDIS_RSC_STATISTICS_INFO, NDIS_RSC_STATISTICS_INFO, NDIS_RSC_STATISTICS_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_RSC_STATISTICS_INFO, PNDIS_RSC_STATISTICS_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RSC_STATISTICS_INFO, netvista.ndis_rsc_statistics_info, ntddndis/NDIS_RSC_STATISTICS_INFO, ntddndis/PNDIS_RSC_STATISTICS_INFO"
 f1_keywords:
  - "ntddndis/NDIS_RSC_STATISTICS_INFO"
+ - "NDIS_RSC_STATISTICS_INFO"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

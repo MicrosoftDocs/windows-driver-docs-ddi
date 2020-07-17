@@ -10,6 +10,7 @@ keywords: ["FltOpenVolume function"]
 ms.keywords: FltApiRef_e_to_o_fa9d628c-94e6-46f5-9f8f-9923c554a15f.xml, FltOpenVolume, FltOpenVolume routine [Installable File System Drivers], fltkernel/FltOpenVolume, ifsk.fltopenvolume
 f1_keywords:
  - "fltkernel/FltOpenVolume"
+ - "FltOpenVolume"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

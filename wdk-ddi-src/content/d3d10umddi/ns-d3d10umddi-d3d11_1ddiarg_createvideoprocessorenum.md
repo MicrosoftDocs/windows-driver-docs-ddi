@@ -9,6 +9,7 @@ keywords: ["D3D11_1DDIARG_CREATEVIDEOPROCESSORENUM structure"]
 ms.keywords: D3D11_1DDIARG_CREATEVIDEOPROCESSORENUM, D3D11_1DDIARG_CREATEVIDEOPROCESSORENUM structure [Display Devices], d3d10umddi/D3D11_1DDIARG_CREATEVIDEOPROCESSORENUM, display.d3d11_1ddiarg_createvideoprocessorenum
 f1_keywords:
  - "d3d10umddi/D3D11_1DDIARG_CREATEVIDEOPROCESSORENUM"
+ - "D3D11_1DDIARG_CREATEVIDEOPROCESSORENUM"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

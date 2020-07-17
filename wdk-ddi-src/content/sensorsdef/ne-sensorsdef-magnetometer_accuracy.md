@@ -10,6 +10,7 @@ keywords: ["MAGNETOMETER_ACCURACY enumeration"]
 ms.keywords: MAGNETOMETER_ACCURACY, MAGNETOMETER_ACCURACY enumeration [Sensor Devices], MagnetometerAccuracy_Approximate, MagnetometerAccuracy_High, MagnetometerAccuracy_Unknown, MagnetometerAccuracy_Unreliable, sensors.magnetometer_accuracy, sensorsdef/MAGNETOMETER_ACCURACY, sensorsdef/MagnetometerAccuracy_Approximate, sensorsdef/MagnetometerAccuracy_High, sensorsdef/MagnetometerAccuracy_Unknown, sensorsdef/MagnetometerAccuracy_Unreliable
 f1_keywords:
  - "sensorsdef/MAGNETOMETER_ACCURACY"
+ - "MAGNETOMETER_ACCURACY"
 req.header: sensorsdef.h
 req.include-header: 
 req.target-type: Windows

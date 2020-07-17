@@ -10,6 +10,7 @@ keywords: ["VideoPortLockBuffer function"]
 ms.keywords: VideoPortLockBuffer, VideoPortLockBuffer function [Display Devices], VideoPort_Functions_8c96bd4d-b9fc-4ff7-9d81-1087d6527700.xml, display.videoportlockbuffer, video/VideoPortLockBuffer
 f1_keywords:
  - "video/VideoPortLockBuffer"
+ - "VideoPortLockBuffer"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

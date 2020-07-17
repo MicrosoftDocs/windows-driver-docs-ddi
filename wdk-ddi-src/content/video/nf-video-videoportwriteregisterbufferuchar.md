@@ -10,6 +10,7 @@ keywords: ["VideoPortWriteRegisterBufferUchar function"]
 ms.keywords: VideoPortWriteRegisterBufferUchar, VideoPortWriteRegisterBufferUchar function [Display Devices], VideoPort_Functions_5a9ee1e8-744e-4141-993d-1a1710599431.xml, display.videoportwriteregisterbufferuchar, video/VideoPortWriteRegisterBufferUchar
 f1_keywords:
  - "video/VideoPortWriteRegisterBufferUchar"
+ - "VideoPortWriteRegisterBufferUchar"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

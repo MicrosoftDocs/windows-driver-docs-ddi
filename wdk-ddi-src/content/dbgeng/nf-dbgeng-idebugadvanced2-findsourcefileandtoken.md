@@ -10,6 +10,7 @@ keywords: ["IDebugAdvanced2::FindSourceFileAndToken"]
 ms.keywords: FindSourceFileAndToken, FindSourceFileAndToken method [Windows Debugging], FindSourceFileAndToken method [Windows Debugging],IDebugAdvanced2 interface, FindSourceFileAndToken method [Windows Debugging],IDebugAdvanced3 interface, IDebugAdvanced2 interface [Windows Debugging],FindSourceFileAndToken method, IDebugAdvanced2.FindSourceFileAndToken, IDebugAdvanced2::FindSourceFileAndToken, IDebugAdvanced3 interface [Windows Debugging],FindSourceFileAndToken method, IDebugAdvanced3::FindSourceFileAndToken, IDebugAdvanced_3c88de99-1ddb-47e4-ab70-37a2521b9f1b.xml, dbgeng/IDebugAdvanced2::FindSourceFileAndToken, dbgeng/IDebugAdvanced3::FindSourceFileAndToken, debugger.findsourcefileandtoken
 f1_keywords:
  - "dbgeng/IDebugAdvanced2.FindSourceFileAndToken"
+ - "IDebugAdvanced2.FindSourceFileAndToken"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

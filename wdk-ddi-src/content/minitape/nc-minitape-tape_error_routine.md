@@ -10,6 +10,7 @@ keywords: ["TAPE_ERROR_ROUTINE callback function"]
 ms.keywords: "(*TAPE_ERROR_ROUTINE), (*TAPE_ERROR_ROUTINE) routine [Storage Devices], TAPE_ERROR_ROUTINE, minitape/(*TAPE_ERROR_ROUTINE), storage.tapeminitapeerror, tapemini_cf0f724e-63c4-4923-a59e-508c45dac6d9.xml"
 f1_keywords:
  - "minitape/(*TAPE_ERROR_ROUTINE)"
+ - "(*TAPE_ERROR_ROUTINE)"
 req.header: minitape.h
 req.include-header: Minitape.h
 req.target-type: Desktop

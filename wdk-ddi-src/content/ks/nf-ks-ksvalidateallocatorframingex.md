@@ -10,6 +10,7 @@ keywords: ["KsValidateAllocatorFramingEx function"]
 ms.keywords: KsValidateAllocatorFramingEx, KsValidateAllocatorFramingEx function [Streaming Media Devices], ks/KsValidateAllocatorFramingEx, ksfunc_11744207-4d37-4b6c-a0bf-c454d7502b38.xml, stream.ksvalidateallocatorframingex
 f1_keywords:
  - "ks/KsValidateAllocatorFramingEx"
+ - "KsValidateAllocatorFramingEx"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows

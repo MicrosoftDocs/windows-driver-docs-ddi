@@ -10,6 +10,7 @@ keywords: ["WdfDeviceSetFailed function"]
 ms.keywords: DFDeviceObjectGeneralRef_7efacd41-7c8c-4832-b10a-cc7d3dac8982.xml, WdfDeviceSetFailed, WdfDeviceSetFailed method, kmdf.wdfdevicesetfailed, wdf.wdfdevicesetfailed, wdfdevice/WdfDeviceSetFailed
 f1_keywords:
  - "wdfdevice/WdfDeviceSetFailed"
+ - "WdfDeviceSetFailed"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

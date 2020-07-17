@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["WHEAP_GENERIC_ERR_MEM_MAP_EVENT structure"]
 f1_keywords:
  - "ntddk/WHEAP_GENERIC_ERR_MEM_MAP_EVENT"
+ - "WHEAP_GENERIC_ERR_MEM_MAP_EVENT"
 ms.keywords: WHEAP_GENERIC_ERR_MEM_MAP_EVENT, WHEAP_GENERIC_ERR_MEM_MAP_EVENT, *PWHEAP_GENERIC_ERR_MEM_MAP_EVENT, 
 req.header: ntddk.h
 req.include-header:

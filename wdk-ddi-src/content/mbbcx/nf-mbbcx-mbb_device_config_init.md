@@ -8,6 +8,7 @@ ms.date: 06/26/2018
 keywords: ["MBB_DEVICE_CONFIG_INIT function"]
 f1_keywords:
  - "mbbcx/MBB_DEVICE_CONFIG_INIT"
+ - "MBB_DEVICE_CONFIG_INIT"
 ms.keywords: MBB_DEVICE_CONFIG_INIT
 req.header: mbbcx.h
 req.include-header:

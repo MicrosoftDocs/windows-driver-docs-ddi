@@ -7,6 +7,7 @@ ms.date: 08/20/2018
 keywords: ["IDataModelScript::Unlink"]
 f1_keywords:
  - "dbgmodel/IDataModelScript.Unlink"
+ - "IDataModelScript.Unlink"
 ms.keywords: IDataModelScript::Unlink, Unlink, IDataModelScript.Unlink, IDataModelScript::Unlink, IDataModelScript.Unlink
 req.header: dbgmodel.h
 req.include-header:

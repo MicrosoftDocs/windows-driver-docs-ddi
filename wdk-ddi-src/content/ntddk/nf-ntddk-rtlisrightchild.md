@@ -10,6 +10,7 @@ keywords: ["RtlIsRightChild macro"]
 ms.keywords: RtlIsRightChild, RtlIsRightChild routine [Installable File System Drivers], ifsk.rtlisrightchild, ntddk/RtlIsRightChild, rtlref_741652e3-af4f-4e7b-978a-e6355db283a9.xml
 f1_keywords:
  - "ntddk/RtlIsRightChild"
+ - "RtlIsRightChild"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Desktop

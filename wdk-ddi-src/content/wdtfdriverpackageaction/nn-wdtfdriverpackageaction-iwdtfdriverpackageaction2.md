@@ -10,6 +10,7 @@ keywords: ["IWDTFDriverPackageAction2 interface"]
 ms.keywords: IWDTFDriverPackageAction2, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework], IWDTFDriverPackageAction2 interface [Windows Device Testing Framework],described, Microsoft.WDTF.IWDTFDriverPackageAction2, dtf.iwdtfdriverpackageaction2, wdtfdriverpackageaction/IWDTFDriverPackageAction2
 f1_keywords:
  - "wdtfdriverpackageaction/IWDTFDriverPackageAction2"
+ - "IWDTFDriverPackageAction2"
 req.header: wdtfdriverpackageaction.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["KSPROPERTY_TUNER_STANDARD_MODE_S structure"]
 ms.keywords: "*PKSPROPERTY_TUNER_STANDARD_MODE_S, KSPROPERTY_TUNER_STANDARD_MODE_S, KSPROPERTY_TUNER_STANDARD_MODE_S structure [Streaming Media Devices], PKSPROPERTY_TUNER_STANDARD_MODE_S, PKSPROPERTY_TUNER_STANDARD_MODE_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_TUNER_STANDARD_MODE_S, ksmedia/PKSPROPERTY_TUNER_STANDARD_MODE_S, stream.ksproperty_tuner_standard_mode_s, vidcapstruct_5b923a0a-26a2-4ef4-82d7-de7b3c3b67d0.xml"
 f1_keywords:
  - "ksmedia/KSPROPERTY_TUNER_STANDARD_MODE_S"
+ - "KSPROPERTY_TUNER_STANDARD_MODE_S"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

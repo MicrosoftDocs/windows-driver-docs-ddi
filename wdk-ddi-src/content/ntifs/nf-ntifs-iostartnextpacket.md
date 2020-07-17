@@ -10,6 +10,7 @@ keywords: ["IoStartNextPacket function"]
 ms.keywords: IoStartNextPacket, IoStartNextPacket routine [Kernel-Mode Driver Architecture], k104_5a02a1fa-cf0e-43b0-a4e8-db1da8ad110c.xml, kernel.iostartnextpacket, wdm/IoStartNextPacket
 f1_keywords:
  - "ntifs/IoStartNextPacket"
+ - "IoStartNextPacket"
 req.header: ntifs.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

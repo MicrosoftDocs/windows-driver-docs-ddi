@@ -10,6 +10,7 @@ keywords: ["_TAL_TXRX_PARAMETERS structure"]
 ms.keywords: "*PTAL_TXRX_PARAMETERS, PTAL_TXRX_PARAMETERS, PTAL_TXRX_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], TAL_TXRX_PARAMETERS, TAL_TXRX_PARAMETERS structure [Network Drivers Starting with Windows Vista], _TAL_TXRX_PARAMETERS, dot11wdi/PTAL_TXRX_PARAMETERS, dot11wdi/TAL_TXRX_PARAMETERS, netvista.tal_txrx_parameters"
 f1_keywords:
  - "dot11wdi/TAL_TXRX_PARAMETERS"
+ - "TAL_TXRX_PARAMETERS"
 req.header: dot11wdi.h
 req.include-header: Ndis.h
 req.target-type: Windows

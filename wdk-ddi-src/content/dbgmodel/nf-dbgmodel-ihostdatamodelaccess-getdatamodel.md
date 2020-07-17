@@ -7,6 +7,7 @@ ms.date: 07/20/2018
 keywords: ["IHostDataModelAccess::GetDataModel"]
 f1_keywords:
  - "dbgmodel/IHostDataModelAccess.GetDataModel"
+ - "IHostDataModelAccess.GetDataModel"
 ms.keywords: IHostDataModelAccess::GetDataModel, GetDataModel, IHostDataModelAccess.GetDataModel, IHostDataModelAccess::GetDataModel, IHostDataModelAccess.GetDataModel
 req.header: dbgmodel.h
 req.include-header:

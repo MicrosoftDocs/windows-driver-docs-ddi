@@ -21,6 +21,7 @@ tech.root: display
 ms.custom: RS5
 f1_keywords:
  - "d3d12umddi/D3D12DDI_VIDEO_MOTION_ESTIMATOR_SEARCH_BLOCK_SIZE_FLAGS_0053"
+ - "D3D12DDI_VIDEO_MOTION_ESTIMATOR_SEARCH_BLOCK_SIZE_FLAGS_0053"
 topic_type:
  - apiref
 api_type:

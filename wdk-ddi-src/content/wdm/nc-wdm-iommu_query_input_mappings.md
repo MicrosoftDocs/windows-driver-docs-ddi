@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["IOMMU_QUERY_INPUT_MAPPINGS callback function"]
 f1_keywords:
  - "wdm/IOMMU_QUERY_INPUT_MAPPINGS"
+ - "IOMMU_QUERY_INPUT_MAPPINGS"
 req.header: wdm.h
 req.include-header:
 req.target-type:

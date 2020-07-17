@@ -9,6 +9,7 @@ keywords: ["_DXGKARG_SUBMITCOMMAND structure"]
 ms.keywords: DXGKARG_SUBMITCOMMAND, DXGKARG_SUBMITCOMMAND structure [Display Devices], DmStructs_04cbfdbf-3b43-4b70-8964-75eb9f9c4128.xml, _DXGKARG_SUBMITCOMMAND, d3dkmddi/DXGKARG_SUBMITCOMMAND, display.dxgkarg_submitcommand
 f1_keywords:
  - "d3dkmddi/DXGKARG_SUBMITCOMMAND"
+ - "DXGKARG_SUBMITCOMMAND"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

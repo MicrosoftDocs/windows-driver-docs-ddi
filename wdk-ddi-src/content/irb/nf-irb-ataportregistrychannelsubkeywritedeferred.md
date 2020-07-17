@@ -10,6 +10,7 @@ keywords: ["AtaPortRegistryChannelSubkeyWriteDeferred function"]
 ms.keywords: AtaPortRegistryChannelSubKeyWriteDeferred, AtaPortRegistryChannelSubkeyWriteDeferred, AtaPortRegistryChannelSubkeyWriteDeferred routine [Storage Devices], atartns_ddf14e05-c641-4382-88b4-18abb54e0f17.xml, irb/AtaPortRegistryChannelSubkeyWriteDeferred, storage.ataportregistrychannelsubkeywritedeferred
 f1_keywords:
  - "irb/AtaPortRegistryChannelSubkeyWriteDeferred"
+ - "AtaPortRegistryChannelSubkeyWriteDeferred"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop

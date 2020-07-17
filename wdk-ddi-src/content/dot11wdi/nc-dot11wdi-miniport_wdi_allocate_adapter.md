@@ -10,6 +10,7 @@ keywords: ["MINIPORT_WDI_ALLOCATE_ADAPTER callback function"]
 ms.keywords: MINIPORT_WDI_ALLOCATE_ADAPTER, MINIPORT_WDI_ALLOCATE_ADAPTER callback, MiniportWdiAllocateAdapter, MiniportWdiAllocateAdapter callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiAllocateAdapter, netvista.miniportwdiallocateadapter
 f1_keywords:
  - "dot11wdi/MiniportWdiAllocateAdapter"
+ - "MiniportWdiAllocateAdapter"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows

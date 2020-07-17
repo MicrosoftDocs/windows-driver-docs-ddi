@@ -10,6 +10,7 @@ keywords: ["WdfIoQueueStopAndPurge function"]
 ms.keywords: WdfIoQueueStopAndPurge, WdfIoQueueStopAndPurge method, kmdf.wdfioqueuestopandpurge, wdf.wdfioqueuestopandpurge, wdfio/WdfIoQueueStopAndPurge
 f1_keywords:
  - "wdfio/WdfIoQueueStopAndPurge"
+ - "WdfIoQueueStopAndPurge"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["IWDTF2::get_SystemDepot"]
 ms.keywords: IWDTF2 interface [Windows Device Testing Framework],SystemDepot property, IWDTF2.SystemDepot, IWDTF2.get_SystemDepot, IWDTF2::SystemDepot, IWDTF2::get_SystemDepot, Microsoft.WDTF.IWDTF2.SystemDepot, Microsoft::WDTF::IWDTF2::SystemDepot, SystemDepot property [Windows Device Testing Framework], SystemDepot property [Windows Device Testing Framework],IWDTF2 interface, dtf.iwdtf2_systemdepot, get_SystemDepot, wdtf/IWDTF2::SystemDepot, wdtf/IWDTF2::get_SystemDepot
 f1_keywords:
  - "wdtf/IWDTF2.SystemDepot"
+ - "IWDTF2.SystemDepot"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Windows

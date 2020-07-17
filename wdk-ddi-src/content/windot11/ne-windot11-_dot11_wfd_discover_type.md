@@ -10,6 +10,7 @@ keywords: ["_DOT11_WFD_DISCOVER_TYPE enumeration"]
 ms.keywords: "*PDOT11_WFD_DISCOVER_TYPE, DOT11_WFD_DISCOVER_TYPE, DOT11_WFD_DISCOVER_TYPE enumeration [Network Drivers Starting with Windows Vista], _DOT11_WFD_DISCOVER_TYPE, dot11_wfd_discover_type_auto, dot11_wfd_discover_type_find_only, dot11_wfd_discover_type_forced, dot11_wfd_discover_type_scan_only, dot11_wfd_discover_type_scan_social_channels, netvista.dot11_wfd_discover_type, windot11/DOT11_WFD_DISCOVER_TYPE, windot11/dot11_wfd_discover_type_auto, windot11/dot11_wfd_discover_type_find_only, windot11/dot11_wfd_discover_type_forced, windot11/dot11_wfd_discover_type_scan_only, windot11/dot11_wfd_discover_type_scan_social_channels"
 f1_keywords:
  - "windot11/DOT11_WFD_DISCOVER_TYPE"
+ - "DOT11_WFD_DISCOVER_TYPE"
 req.header: windot11.h
 req.include-header:
 req.target-type: Windows

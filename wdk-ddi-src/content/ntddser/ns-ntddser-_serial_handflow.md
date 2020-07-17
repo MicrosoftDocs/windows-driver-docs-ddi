@@ -10,6 +10,7 @@ keywords: ["_SERIAL_HANDFLOW structure"]
 ms.keywords: "*PSERIAL_HANDFLOW, PSERIAL_HANDFLOW, PSERIAL_HANDFLOW structure pointer [Serial Ports], SERIAL_HANDFLOW, SERIAL_HANDFLOW structure [Serial Ports], _SERIAL_HANDFLOW, ntddser/PSERIAL_HANDFLOW, ntddser/SERIAL_HANDFLOW, serports.serial_handflow"
 f1_keywords:
  - "ntddser/SERIAL_HANDFLOW"
+ - "SERIAL_HANDFLOW"
 req.header: ntddser.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["PDEBUG_EXTENSION_CANUNLOAD callback function"]
 ms.keywords: DebugExtensionCanUnload, DebugExtensionCanUnload callback function [Windows Debugging], PDEBUG_EXTENSION_CANUNLOAD, PDEBUG_EXTENSION_CANUNLOAD callback, dbgeng/DebugExtensionCanUnload, debugger.debugextensioncanunload
 f1_keywords:
  - "dbgeng/DebugExtensionCanUnload"
+ - "DebugExtensionCanUnload"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

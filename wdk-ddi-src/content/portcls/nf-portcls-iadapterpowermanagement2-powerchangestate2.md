@@ -10,6 +10,7 @@ keywords: ["IAdapterPowerManagement2::PowerChangeState2"]
 ms.keywords: IAdapterPowerManagement2 interface [Audio Devices],PowerChangeState2 method, IAdapterPowerManagement2.PowerChangeState2, IAdapterPowerManagement2::PowerChangeState2, PowerChangeState2, PowerChangeState2 method [Audio Devices], PowerChangeState2 method [Audio Devices],IAdapterPowerManagement2 interface, audio.iadapterpowermanagement2_powerchangestate2, audmp-routines_d145e24a-5ef1-44a3-b51b-9ee2c8a89772.xml, portcls/IAdapterPowerManagement2::PowerChangeState2
 f1_keywords:
  - "portcls/IAdapterPowerManagement2.PowerChangeState2"
+ - "IAdapterPowerManagement2.PowerChangeState2"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

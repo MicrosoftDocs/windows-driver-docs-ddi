@@ -10,6 +10,7 @@ keywords: ["_DXGK_BACKLIGHT_INFO structure"]
 ms.keywords: DXGK_BACKLIGHT_INFO, DXGK_BACKLIGHT_INFO structure [Display Devices], _DXGK_BACKLIGHT_INFO, d3dkmdt/DXGK_BACKLIGHT_INFO, display.dxgk_backlight_info
 f1_keywords:
  - "d3dkmdt/DXGK_BACKLIGHT_INFO"
+ - "DXGK_BACKLIGHT_INFO"
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
 req.target-type: Windows

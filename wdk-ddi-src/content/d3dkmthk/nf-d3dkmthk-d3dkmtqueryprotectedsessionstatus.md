@@ -9,6 +9,7 @@ keywords: ["D3DKMTQueryProtectedSessionStatus function"]
 ms.keywords: D3DKMTQueryProtectedSessionStatus, D3DKMTQueryProtectedSessionStatus method [Display Devices], d3dkmthk/D3DKMTQueryProtectedSessionStatus, display.d3dkmtqueryprotectedsessionstatus
 f1_keywords:
  - "d3dkmthk/D3DKMTQueryProtectedSessionStatus"
+ - "D3DKMTQueryProtectedSessionStatus"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows

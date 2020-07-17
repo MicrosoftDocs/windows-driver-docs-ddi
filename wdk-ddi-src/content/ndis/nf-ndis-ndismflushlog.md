@@ -10,6 +10,7 @@ keywords: ["NdisMFlushLog function"]
 ms.keywords: NdisMFlushLog, NdisMFlushLog function [Network Drivers Starting with Windows Vista], miniport_logging_ref_9de3f5b8-80d8-4f98-82ac-c4b490a3c8a4.xml, ndis/NdisMFlushLog, netvista.ndismflushlog
 f1_keywords:
  - "ndis/NdisMFlushLog"
+ - "NdisMFlushLog"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

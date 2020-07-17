@@ -10,6 +10,7 @@ keywords: ["IMiniportMidiStream::Read"]
 ms.keywords: IMiniportMidiStream interface [Audio Devices],Read method, IMiniportMidiStream.Read, IMiniportMidiStream::Read, Read, Read method [Audio Devices], Read method [Audio Devices],IMiniportMidiStream interface, audio.iminiportmidistream_read, audmp-routines_35ce63a1-ab31-4758-887a-9043e1f65915.xml, portcls/IMiniportMidiStream::Read
 f1_keywords:
  - "portcls/IMiniportMidiStream.Read"
+ - "IMiniportMidiStream.Read"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

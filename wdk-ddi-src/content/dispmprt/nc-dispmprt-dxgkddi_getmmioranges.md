@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["DXGKDDI_GETMMIORANGES callback function"]
 f1_keywords:
  - "dispmprt/DXGKDDI_GETMMIORANGES"
+ - "DXGKDDI_GETMMIORANGES"
 req.header: dispmprt.h
 req.include-header:
 req.target-type:

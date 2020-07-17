@@ -10,6 +10,7 @@ keywords: ["_ENG_EVENT structure"]
 ms.keywords: "*PENG_EVENT, *PEVENT, ENG_EVENT, ENG_EVENT structure [Display Devices], PENG_EVENT, PENG_EVENT structure pointer [Display Devices], Video_Structs_a4ad3c78-3ef4-42b2-9640-ef253a74637b.xml, _ENG_EVENT, display.eng_event, ntddvdeo/ENG_EVENT, ntddvdeo/PENG_EVENT"
 f1_keywords:
  - "ntddvdeo/ENG_EVENT"
+ - "ENG_EVENT"
 req.header: ntddvdeo.h
 req.include-header: Ntddvdeo.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["NdisInitializeListHead macro"]
 ms.keywords: NdisInitializeListHead, NdisInitializeListHead macro [Network Drivers Starting with Windows Vista], ndis/NdisInitializeListHead, ndis_interlocked_ref_35d40751-6f2b-43db-801d-40479f3e0b6b.xml, netvista.ndisinitializelisthead
 f1_keywords:
  - "ndis/NdisInitializeListHead"
+ - "NdisInitializeListHead"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

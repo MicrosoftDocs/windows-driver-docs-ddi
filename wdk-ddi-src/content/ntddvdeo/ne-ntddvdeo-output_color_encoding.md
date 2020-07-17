@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["OUTPUT_COLOR_ENCODING enumeration"]
 f1_keywords:
  - "ntddvdeo/OUTPUT_COLOR_ENCODING"
+ - "OUTPUT_COLOR_ENCODING"
 ms.keywords: OUTPUT_COLOR_ENCODING, OUTPUT_COLOR_ENCODING, 
 req.header: ntddvdeo.h
 req.include-header:

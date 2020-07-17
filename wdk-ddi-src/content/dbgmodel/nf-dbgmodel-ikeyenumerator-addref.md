@@ -7,6 +7,7 @@ ms.date: 08/13/2018
 keywords: ["IKeyEnumerator::AddRef"]
 f1_keywords:
  - "dbgmodel/IKeyEnumerator.AddRef"
+ - "IKeyEnumerator.AddRef"
 ms.keywords: IKeyEnumerator::AddRef, AddRef, IKeyEnumerator.AddRef, IKeyEnumerator::AddRef, IKeyEnumerator.AddRef
 req.header: dbgmodel.h
 req.include-header:

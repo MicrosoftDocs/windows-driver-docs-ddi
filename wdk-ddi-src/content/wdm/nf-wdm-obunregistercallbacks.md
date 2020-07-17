@@ -10,6 +10,7 @@ keywords: ["ObUnRegisterCallbacks function"]
 ms.keywords: ObUnRegisterCallbacks, ObUnRegisterCallbacks routine [Kernel-Mode Driver Architecture], k107_f0c1fdd0-3dcc-466c-a7a1-fab0b38e4e88.xml, kernel.obunregistercallbacks, wdm/ObUnRegisterCallbacks
 f1_keywords:
  - "wdm/ObUnRegisterCallbacks"
+ - "ObUnRegisterCallbacks"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

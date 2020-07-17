@@ -10,6 +10,7 @@ keywords: ["IStillImageW::GetHwNotificationState"]
 ms.keywords: GetHwNotificationState, GetHwNotificationState method [Imaging Devices], GetHwNotificationState method [Imaging Devices],IStillImageW interface, IStillImageW interface [Imaging Devices],GetHwNotificationState method, IStillImageW.GetHwNotificationState, IStillImageW::GetHwNotificationState, image.istillimage_gethwnotificationstate, sti/IStillImageW::GetHwNotificationState, stifnc_9dab6727-1954-4054-b918-be9666c05301.xml
 f1_keywords:
  - "sti/IStillImageW.GetHwNotificationState"
+ - "IStillImageW.GetHwNotificationState"
 req.header: sti.h
 req.include-header: Sti.h
 req.target-type: Desktop

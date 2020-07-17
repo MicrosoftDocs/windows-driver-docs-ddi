@@ -10,6 +10,7 @@ keywords: ["ZwFlushKey function"]
 ms.keywords: NtFlushKey, ZwFlushKey, ZwFlushKey routine [Kernel-Mode Driver Architecture], k111_2831bd9f-93c1-4377-9f0e-26d4ef20e095.xml, kernel.zwflushkey, wdm/NtFlushKey, wdm/ZwFlushKey
 f1_keywords:
  - "wdm/ZwFlushKey"
+ - "ZwFlushKey"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

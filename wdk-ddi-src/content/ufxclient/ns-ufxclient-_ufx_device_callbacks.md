@@ -10,6 +10,7 @@ keywords: ["_UFX_DEVICE_CALLBACKS structure"]
 ms.keywords: "*PUFX_DEVICE_CALLBACKS, PUFX_DEVICE_CALLBACKS, PUFX_DEVICE_CALLBACKS structure pointer [Buses], UFX_DEVICE_CALLBACKS, UFX_DEVICE_CALLBACKS structure [Buses], _UFX_DEVICE_CALLBACKS, buses.ufx_device_callbacks, ufxclient/PUFX_DEVICE_CALLBACKS, ufxclient/UFX_DEVICE_CALLBACKS"
 f1_keywords:
  - "ufxclient/UFX_DEVICE_CALLBACKS"
+ - "UFX_DEVICE_CALLBACKS"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows

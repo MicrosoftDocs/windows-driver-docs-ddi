@@ -10,6 +10,7 @@ keywords: ["RIL_WatchUiccFileChange function"]
 ms.keywords: RIL_WatchUiccFileChange, RIL_WatchUiccFileChange method [Network Drivers Starting with Windows Vista], netvista.ril_watchuiccfilechange, rilapi/RIL_WatchUiccFileChange
 f1_keywords:
  - "rilapi/RIL_WatchUiccFileChange"
+ - "RIL_WatchUiccFileChange"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

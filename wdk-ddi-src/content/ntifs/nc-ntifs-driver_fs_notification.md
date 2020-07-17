@@ -10,6 +10,7 @@ keywords: ["DRIVER_FS_NOTIFICATION callback function"]
 ms.keywords: DRIVER_FS_NOTIFICATION, DriverNotificationRoutine, DriverNotificationRoutine routine [Installable File System Drivers], FilterCallbacks_5b421108-0db7-47ba-afba-3a8b79a61d66.xml, PDRIVER_FS_NOTIFICATION, ifsk.pdriver_fs_notification, ntifs/DriverNotificationRoutine
 f1_keywords:
  - "ntifs/PDRIVER_FS_NOTIFICATION"
+ - "PDRIVER_FS_NOTIFICATION"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Desktop

@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_CHECKMONITORPOWERSTATE structure"]
 ms.keywords: D3DKMT_CHECKMONITORPOWERSTATE, D3DKMT_CHECKMONITORPOWERSTATE structure [Display Devices], OpenGL_Structs_2c4ec2cb-c35a-4447-8e35-dc8e4964e8b2.xml, _D3DKMT_CHECKMONITORPOWERSTATE, d3dkmthk/D3DKMT_CHECKMONITORPOWERSTATE, display.d3dkmt_checkmonitorpowerstate
 f1_keywords:
  - "d3dkmthk/D3DKMT_CHECKMONITORPOWERSTATE"
+ - "D3DKMT_CHECKMONITORPOWERSTATE"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

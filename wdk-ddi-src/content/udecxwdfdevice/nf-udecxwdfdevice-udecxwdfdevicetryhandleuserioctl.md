@@ -10,6 +10,7 @@ keywords: ["UdecxWdfDeviceTryHandleUserIoctl function"]
 ms.keywords: UdecxWdfDeviceTryHandleUserIoctl, UdecxWdfDeviceTryHandleUserIoctl function [Buses], buses.udecxwdfdevicetryhandleuserioctl, udecxwdfdevice/UdecxWdfDeviceTryHandleUserIoctl
 f1_keywords:
  - "udecxwdfdevice/UdecxWdfDeviceTryHandleUserIoctl"
+ - "UdecxWdfDeviceTryHandleUserIoctl"
 req.header: udecxwdfdevice.h
 req.include-header: Udecx.h
 req.target-type: Windows

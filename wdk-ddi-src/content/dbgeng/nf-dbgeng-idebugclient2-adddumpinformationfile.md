@@ -10,6 +10,7 @@ keywords: ["IDebugClient2::AddDumpInformationFile"]
 ms.keywords: AddDumpInformationFile, AddDumpInformationFile method [Windows Debugging], AddDumpInformationFile method [Windows Debugging],IDebugClient2 interface, AddDumpInformationFile method [Windows Debugging],IDebugClient3 interface, AddDumpInformationFile method [Windows Debugging],IDebugClient4 interface, AddDumpInformationFile method [Windows Debugging],IDebugClient5 interface, IDebugClient2 interface [Windows Debugging],AddDumpInformationFile method, IDebugClient2.AddDumpInformationFile, IDebugClient2::AddDumpInformationFile, IDebugClient3 interface [Windows Debugging],AddDumpInformationFile method, IDebugClient3::AddDumpInformationFile, IDebugClient4 interface [Windows Debugging],AddDumpInformationFile method, IDebugClient4::AddDumpInformationFile, IDebugClient5 interface [Windows Debugging],AddDumpInformationFile method, IDebugClient5::AddDumpInformationFile, IDebugClient_11398d02-21c4-4ec5-9e1c-8e7e87808c35.xml, dbgeng/IDebugClient2::AddDumpInformationFile, dbgeng/IDebugClient3::AddDumpInformationFile, dbgeng/IDebugClient4::AddDumpInformationFile, dbgeng/IDebugClient5::AddDumpInformationFile, debugger.adddumpinformationfile
 f1_keywords:
  - "dbgeng/IDebugClient2.AddDumpInformationFile"
+ - "IDebugClient2.AddDumpInformationFile"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

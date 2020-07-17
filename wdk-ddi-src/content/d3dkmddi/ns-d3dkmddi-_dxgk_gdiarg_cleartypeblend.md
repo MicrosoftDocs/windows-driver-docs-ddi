@@ -9,6 +9,7 @@ keywords: ["_DXGK_GDIARG_CLEARTYPEBLEND structure"]
 ms.keywords: DXGK_GDIARG_CLEARTYPEBLEND, DXGK_GDIARG_CLEARTYPEBLEND structure [Display Devices], DmStructs_b59789df-1494-45ea-b89a-4403e6c82dfd.xml, _DXGK_GDIARG_CLEARTYPEBLEND, d3dkmddi/DXGK_GDIARG_CLEARTYPEBLEND, display.dxgk_gdiarg_cleartypeblend
 f1_keywords:
  - "d3dkmddi/DXGK_GDIARG_CLEARTYPEBLEND"
+ - "DXGK_GDIARG_CLEARTYPEBLEND"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

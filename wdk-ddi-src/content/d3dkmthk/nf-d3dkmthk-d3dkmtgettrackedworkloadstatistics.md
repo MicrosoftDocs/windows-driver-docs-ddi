@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMTGetTrackedWorkloadStatistics function"]
 f1_keywords:
  - "d3dkmthk/D3DKMTGetTrackedWorkloadStatistics"
+ - "D3DKMTGetTrackedWorkloadStatistics"
 ms.keywords: D3DKMTGetTrackedWorkloadStatistics
 req.header: d3dkmthk.h
 req.include-header:

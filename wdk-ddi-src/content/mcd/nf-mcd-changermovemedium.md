@@ -10,6 +10,7 @@ keywords: ["ChangerMoveMedium function"]
 ms.keywords: ChangerMoveMedium, ChangerMoveMedium function [Storage Devices], chgrmini_a74d85d9-1b7c-45bc-a826-e60257192a09.xml, mcd/ChangerMoveMedium, storage.changermovemedium
 f1_keywords:
  - "mcd/ChangerMoveMedium"
+ - "ChangerMoveMedium"
 req.header: mcd.h
 req.include-header: Mcd.h, Ntddchgr.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["W_TCP_OFFLOAD_SEND_HANDLER callback function"]
 ms.keywords: MiniportTcpOffloadSend, MiniportTcpOffloadSend callback function [Network Drivers Starting with Windows Vista], W_TCP_OFFLOAD_SEND_HANDLER, W_TCP_OFFLOAD_SEND_HANDLER callback, ndischimney/MiniportTcpOffloadSend, netvista.miniporttcpoffloadsend, tcp_chim_miniport_func_930a6efe-5c72-42cf-8afd-d8d35b2c33ed.xml
 f1_keywords:
  - "ndischimney/MiniportTcpOffloadSend"
+ - "MiniportTcpOffloadSend"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Windows

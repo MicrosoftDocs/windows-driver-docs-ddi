@@ -10,6 +10,7 @@ keywords: ["FltIsVolumeSnapshot function"]
 ms.keywords: FltApiRef_e_to_o_652c8b18-8114-460b-852f-9c6bc8ff687f.xml, FltIsVolumeSnapshot, FltIsVolumeSnapshot routine [Installable File System Drivers], fltkernel/FltIsVolumeSnapshot, ifsk.fltisvolumesnapshot
 f1_keywords:
  - "fltkernel/FltIsVolumeSnapshot"
+ - "FltIsVolumeSnapshot"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

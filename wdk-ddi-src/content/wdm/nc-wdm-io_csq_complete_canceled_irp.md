@@ -10,6 +10,7 @@ keywords: ["IO_CSQ_COMPLETE_CANCELED_IRP callback function"]
 ms.keywords: CsqCompleteCanceledIrp, CsqCompleteCanceledIrp routine [Kernel-Mode Driver Architecture], DrvrRtns_07239a13-c445-4f75-8765-ff5806515ecb.xml, IO_CSQ_COMPLETE_CANCELED_IRP, kernel.csqcompletecanceledirp, wdm/CsqCompleteCanceledIrp
 f1_keywords:
  - "wdm/CsqCompleteCanceledIrp"
+ - "CsqCompleteCanceledIrp"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

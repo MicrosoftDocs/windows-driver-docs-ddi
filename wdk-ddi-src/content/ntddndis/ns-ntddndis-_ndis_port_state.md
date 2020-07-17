@@ -10,6 +10,7 @@ keywords: ["_NDIS_PORT_STATE structure"]
 ms.keywords: "*PNDIS_PORT_STATE, NDIS_PORT_STATE, NDIS_PORT_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_PORT_STATE, PNDIS_PORT_STATE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PORT_STATE, ndis_ports_ref_dbfd8cd5-9c0c-4ea9-8329-d9fbf15b14df.xml, netvista.ndis_port_state, ntddndis/NDIS_PORT_STATE, ntddndis/PNDIS_PORT_STATE"
 f1_keywords:
  - "ntddndis/NDIS_PORT_STATE"
+ - "NDIS_PORT_STATE"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

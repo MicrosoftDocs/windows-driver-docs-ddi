@@ -10,6 +10,7 @@ keywords: ["InitializeMonitor function"]
 ms.keywords: InitializeMonitor, InitializeMonitor function [Print Devices], print.initializemonitor, spoolfnc_21afb8f9-70e1-478e-9ad0-cec810216b50.xml, winsplp/InitializeMonitor
 f1_keywords:
  - "winsplp/InitializeMonitor"
+ - "InitializeMonitor"
 req.header: winsplp.h
 req.include-header: 
 req.target-type: Windows

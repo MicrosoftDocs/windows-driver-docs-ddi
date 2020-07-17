@@ -10,6 +10,7 @@ keywords: ["UCM_PD_POWER_DATA_OBJECT_GET_TYPE function"]
 ms.keywords: UCM_PD_POWER_DATA_OBJECT_GET_TYPE, UCM_PD_POWER_DATA_OBJECT_GET_TYPE function [Buses], buses.ucm_pd_power_data_object_get_type, ucmtypes/UCM_PD_POWER_DATA_OBJECT_GET_TYPE
 f1_keywords:
  - "ucmtypes/UCM_PD_POWER_DATA_OBJECT_GET_TYPE"
+ - "UCM_PD_POWER_DATA_OBJECT_GET_TYPE"
 req.header: ucmtypes.h
 req.include-header: Ucmcx.h
 req.target-type: Windows

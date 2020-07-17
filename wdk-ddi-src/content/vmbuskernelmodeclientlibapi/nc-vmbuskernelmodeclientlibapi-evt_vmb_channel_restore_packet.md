@@ -10,6 +10,7 @@ keywords: ["EVT_VMB_CHANNEL_RESTORE_PACKET callback function"]
 ms.keywords: EVT_VMB_CHANNEL_RESTORE_PACKET, EVT_VMB_CHANNEL_RESTORE_PACKET callback, EvtVmbChannelRestorePacket, EvtVmbChannelRestorePacket callback function [Network Drivers Starting with Windows Vista], PFN_VMB_CHANNEL_RESTORE_PACKET, PFN_VMB_CHANNEL_RESTORE_PACKET callback function pointer [Network Drivers Starting with Windows Vista], netvista.evt_vmb_channel_restore_packet, vmbuskernelmodeclientlibapi/EvtVmbChannelRestorePacket
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/PFN_VMB_CHANNEL_RESTORE_PACKET"
+ - "PFN_VMB_CHANNEL_RESTORE_PACKET"
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header: VmbusKernelModeClientLibApi.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["FwpsInjectionHandleDestroy0 function"]
 ms.keywords: FwpsInjectionHandleDestroy0, FwpsInjectionHandleDestroy0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsInjectionHandleDestroy0, netvista.fwpsinjectionhandledestroy0, wfp_ref_2_funct_3_fwps_I_3ec9dea7-1b95-4265-b030-b88f67d21882.xml
 f1_keywords:
  - "fwpsk/FwpsInjectionHandleDestroy0"
+ - "FwpsInjectionHandleDestroy0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal

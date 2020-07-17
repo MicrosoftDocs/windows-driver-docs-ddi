@@ -10,6 +10,7 @@ keywords: ["KeInitializeMutant function"]
 ms.keywords: KeInitializeMutant, KeInitializeMutant function [Installable File System Drivers], ifsk.keinitializemutant, keref_b0f59cc4-6d50-45bc-928c-3c2288ba0f14.xml, ntifs/KeInitializeMutant
 f1_keywords:
  - "ntifs/KeInitializeMutant"
+ - "KeInitializeMutant"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

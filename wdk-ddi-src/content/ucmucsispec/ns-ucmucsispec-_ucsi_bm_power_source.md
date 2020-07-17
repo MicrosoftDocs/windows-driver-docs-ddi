@@ -8,6 +8,7 @@ ms.date: 09/30/2018
 keywords: ["_UCSI_BM_POWER_SOURCE structure"]
 f1_keywords:
  - "ucmucsispec/_UCSI_BM_POWER_SOURCE"
+ - "_UCSI_BM_POWER_SOURCE"
 ms.keywords: _UCSI_BM_POWER_SOURCE, UCSI_BM_POWER_SOURCE, *PUCSI_BM_POWER_SOURCE, 
 req.header: ucmucsispec.h
 req.include-header: UcmUcsiCx.h 

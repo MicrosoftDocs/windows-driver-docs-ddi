@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols2::ReadTypedDataVirtual"]
 ms.keywords: IDebugSymbols interface [Windows Debugging],ReadTypedDataVirtual method, IDebugSymbols2 interface [Windows Debugging],ReadTypedDataVirtual method, IDebugSymbols2.ReadTypedDataVirtual, IDebugSymbols2::ReadTypedDataVirtual, IDebugSymbols3 interface [Windows Debugging],ReadTypedDataVirtual method, IDebugSymbols3::ReadTypedDataVirtual, IDebugSymbols::ReadTypedDataVirtual, IDebugSymbols_c7a6fee6-d6bc-4dd6-923a-7e789801091f.xml, ReadTypedDataVirtual, ReadTypedDataVirtual method [Windows Debugging], ReadTypedDataVirtual method [Windows Debugging],IDebugSymbols interface, ReadTypedDataVirtual method [Windows Debugging],IDebugSymbols2 interface, ReadTypedDataVirtual method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols2::ReadTypedDataVirtual, dbgeng/IDebugSymbols3::ReadTypedDataVirtual, dbgeng/IDebugSymbols::ReadTypedDataVirtual, debugger.readtypeddatavirtual
 f1_keywords:
  - "dbgeng/IDebugSymbols.ReadTypedDataVirtual"
+ - "IDebugSymbols.ReadTypedDataVirtual"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

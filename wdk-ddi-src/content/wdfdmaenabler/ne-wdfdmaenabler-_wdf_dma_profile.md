@@ -10,6 +10,7 @@ keywords: ["_WDF_DMA_PROFILE enumeration"]
 ms.keywords: DFDmaObjectRef_24cd95b0-ec51-4af4-a507-04f9a91276cf.xml, WDF_DMA_PROFILE, WDF_DMA_PROFILE enumeration, WdfDmaProfileInvalid, WdfDmaProfilePacket, WdfDmaProfilePacket64, WdfDmaProfileScatterGather, WdfDmaProfileScatterGather64, WdfDmaProfileScatterGather64Duplex, WdfDmaProfileScatterGatherDuplex, WdfDmaProfileSystem, WdfDmaProfileSystemDuplex, _WDF_DMA_PROFILE, kmdf.wdf_dma_profile, wdf.wdf_dma_profile, wdfdmaenabler/WDF_DMA_PROFILE, wdfdmaenabler/WdfDmaProfileInvalid, wdfdmaenabler/WdfDmaProfilePacket, wdfdmaenabler/WdfDmaProfilePacket64, wdfdmaenabler/WdfDmaProfileScatterGather, wdfdmaenabler/WdfDmaProfileScatterGather64, wdfdmaenabler/WdfDmaProfileScatterGather64Duplex, wdfdmaenabler/WdfDmaProfileScatterGatherDuplex, wdfdmaenabler/WdfDmaProfileSystem, wdfdmaenabler/WdfDmaProfileSystemDuplex
 f1_keywords:
  - "wdfdmaenabler/WDF_DMA_PROFILE"
+ - "WDF_DMA_PROFILE"
 req.header: wdfdmaenabler.h
 req.include-header: Wdf.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["_KSCAMERA_EXTENDEDPROP_PROFILE structure"]
 ms.keywords: "*PKSCAMERA_EXTENDEDPROP_PROFILE, KSCAMERA_EXTENDEDPROP_PROFILE, KSCAMERA_EXTENDEDPROP_PROFILE structure [Streaming Media Devices], PKSCAMERA_EXTENDEDPROP_PROFILE, PKSCAMERA_EXTENDEDPROP_PROFILE structure pointer [Streaming Media Devices], _KSCAMERA_EXTENDEDPROP_PROFILE, ksmedia/KSCAMERA_EXTENDEDPROP_PROFILE, ksmedia/PKSCAMERA_EXTENDEDPROP_PROFILE, stream.kscamera_extendedprop_profile"
 f1_keywords:
  - "ksmedia/KSCAMERA_EXTENDEDPROP_PROFILE"
+ - "KSCAMERA_EXTENDEDPROP_PROFILE"
 req.header: ksmedia.h
 req.include-header: 
 req.target-type: Windows

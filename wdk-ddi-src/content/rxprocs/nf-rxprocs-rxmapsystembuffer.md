@@ -10,6 +10,7 @@ keywords: ["RxMapSystemBuffer function"]
 ms.keywords: RxMapSystemBuffer, RxMapSystemBuffer function [Installable File System Drivers], ifsk.rxmapsystembuffer, rxprocs/RxMapSystemBuffer, rxref_b9222b0a-25ca-4ad4-95b9-b9651c625a39.xml
 f1_keywords:
  - "rxprocs/RxMapSystemBuffer"
+ - "RxMapSystemBuffer"
 req.header: rxprocs.h
 req.include-header: Rxcontx.h, Rxprocs.h
 req.target-type: Desktop

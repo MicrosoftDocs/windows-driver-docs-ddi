@@ -10,6 +10,7 @@ keywords: ["IPortableDeviceValues::GetIPortableDeviceValuesValue"]
 ms.keywords: GetIPortableDeviceValuesValue, GetIPortableDeviceValuesValue method, GetIPortableDeviceValuesValue method,IPortableDeviceValues interface, IPortableDeviceValues interface,GetIPortableDeviceValuesValue method, IPortableDeviceValues.GetIPortableDeviceValuesValue, IPortableDeviceValues::GetIPortableDeviceValuesValue, IPortableDeviceValuesGetIPortableDeviceValuesValue, portabledevicetypes/IPortableDeviceValues::GetIPortableDeviceValuesValue, wpddk.iportabledevicevalues_getiportabledevicevaluesvalue
 f1_keywords:
  - "portabledevicetypes/IPortableDeviceValues.GetIPortableDeviceValuesValue"
+ - "IPortableDeviceValues.GetIPortableDeviceValuesValue"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows

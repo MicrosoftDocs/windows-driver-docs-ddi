@@ -10,6 +10,7 @@ keywords: ["WdfChildListRetrieveAddressDescription function"]
 ms.keywords: DFDeviceObjectChildListRef_bd30cd1e-b7ac-40cd-b96f-4071d08bafc1.xml, WdfChildListRetrieveAddressDescription, WdfChildListRetrieveAddressDescription method, kmdf.wdfchildlistretrieveaddressdescription, wdf.wdfchildlistretrieveaddressdescription, wdfchildlist/WdfChildListRetrieveAddressDescription
 f1_keywords:
  - "wdfchildlist/WdfChildListRetrieveAddressDescription"
+ - "WdfChildListRetrieveAddressDescription"
 req.header: wdfchildlist.h
 req.include-header: Wdf.h
 req.target-type: Universal

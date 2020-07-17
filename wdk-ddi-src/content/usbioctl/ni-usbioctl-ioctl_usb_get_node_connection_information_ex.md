@@ -10,6 +10,7 @@ keywords: ["IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX IOCTL"]
 ms.keywords: IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX, IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX control, IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX control code [Buses], buses.ioctl_usb_get_node_connection_information_ex, usbioctl/IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX, usbirp_61c188b5-2820-4601-b2de-08bf30109824.xml
 f1_keywords:
  - "usbioctl/IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX"
+ - "IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX"
 req.header: usbioctl.h
 req.include-header: Usbioctl.h
 req.target-type: Windows

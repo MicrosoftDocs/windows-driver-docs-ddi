@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["SensorsCxSensorHistoryRetrievalCompleted function"]
 f1_keywords:
  - "sensorscx/SensorsCxSensorHistoryRetrievalCompleted"
+ - "SensorsCxSensorHistoryRetrievalCompleted"
 ms.keywords: SensorsCxSensorHistoryRetrievalCompleted
 req.header: sensorscx.h
 req.include-header:

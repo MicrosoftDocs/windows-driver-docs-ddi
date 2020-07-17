@@ -10,6 +10,7 @@ keywords: ["RILMODEMRESETSTATE enumeration"]
 ms.keywords: RILMODEMRESETSTATE, RILMODEMRESETSTATE enumeration [Network Drivers Starting with Windows Vista], RIL_MODEMRESETSTATE_FAILED, RIL_MODEMRESETSTATE_MAX, RIL_MODEMRESETSTATE_RECOVERED, netvista.rilmodemresetstate, ntddrilapitypes/RILMODEMRESETSTATE, ntddrilapitypes/RIL_MODEMRESETSTATE_FAILED, ntddrilapitypes/RIL_MODEMRESETSTATE_MAX, ntddrilapitypes/RIL_MODEMRESETSTATE_RECOVERED
 f1_keywords:
  - "rilapitypes/RILMODEMRESETSTATE"
+ - "RILMODEMRESETSTATE"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["PsGetSiloContainerId function"]
 f1_keywords:
  - "ntddk/PsGetSiloContainerId"
+ - "PsGetSiloContainerId"
 ms.keywords: PsGetSiloContainerId
 req.header: ntddk.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_DEVICE_SELF_MANAGED_IO_CLEANUP callback function"]
 ms.keywords: DFDeviceObjectGeneralRef_73e3f47e-1f3d-4dee-9fb2-62acbb5aaea2.xml, EVT_WDF_DEVICE_SELF_MANAGED_IO_CLEANUP, EVT_WDF_DEVICE_SELF_MANAGED_IO_CLEANUP callback, EvtDeviceSelfManagedIoCleanup, EvtDeviceSelfManagedIoCleanup callback function, kmdf.evtdeviceselfmanagediocleanup, wdf.evtdeviceselfmanagediocleanup, wdfdevice/EvtDeviceSelfManagedIoCleanup
 f1_keywords:
  - "wdfdevice/EvtDeviceSelfManagedIoCleanup"
+ - "EvtDeviceSelfManagedIoCleanup"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

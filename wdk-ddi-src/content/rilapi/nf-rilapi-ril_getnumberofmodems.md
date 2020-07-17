@@ -10,6 +10,7 @@ keywords: ["RIL_GetNumberOfModems function"]
 ms.keywords: RIL_GetNumberOfModems, RIL_GetNumberOfModems method [Network Drivers Starting with Windows Vista], netvista.ril_getnumberofmodems, rilapi/RIL_GetNumberOfModems
 f1_keywords:
  - "rilapi/RIL_GetNumberOfModems"
+ - "RIL_GetNumberOfModems"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

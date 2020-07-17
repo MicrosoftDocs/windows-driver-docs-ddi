@@ -10,6 +10,7 @@ keywords: ["HW_ADAPTER_CONTROL callback function"]
 ms.keywords: HW_ADAPTER_CONTROL, HwStorAdapterControl, HwStorAdapterControl routine [Storage Devices], storage.hwstoradaptercontrol, stormini_19cbc8b1-9908-4b4d-a62b-712fb97e6bbd.xml, storport/HwStorAdapterControl
 f1_keywords:
  - "storport/HwStorAdapterControl"
+ - "HwStorAdapterControl"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

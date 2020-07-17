@@ -7,6 +7,7 @@ ms.date: 06/10/2019
 keywords: ["IDataModelScriptManager::RegisterScriptProvider"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptManager.RegisterScriptProvider"
+ - "IDataModelScriptManager.RegisterScriptProvider"
 ms.keywords: IDataModelScriptManager::RegisterScriptProvider, RegisterScriptProvider, IDataModelScriptManager.RegisterScriptProvider, IDataModelScriptManager::RegisterScriptProvider, IDataModelScriptManager.RegisterScriptProvider
 req.header: dbgmodel.h
 req.include-header:

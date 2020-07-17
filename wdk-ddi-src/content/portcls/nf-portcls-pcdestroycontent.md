@@ -10,6 +10,7 @@ keywords: ["PcDestroyContent function"]
 ms.keywords: PcDestroyContent, PcDestroyContent function [Audio Devices], audio.pcdestroycontent, audpc-routines_8f5adcf6-89a7-4918-ac2e-78afa45c38c5.xml, portcls/PcDestroyContent
 f1_keywords:
  - "portcls/PcDestroyContent"
+ - "PcDestroyContent"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

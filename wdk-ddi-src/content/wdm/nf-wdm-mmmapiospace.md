@@ -10,6 +10,7 @@ keywords: ["MmMapIoSpace function"]
 ms.keywords: MmMapIoSpace, MmMapIoSpace routine [Kernel-Mode Driver Architecture], k106_65fbb44b-6b8a-408d-8945-8d2eba25ca7c.xml, kernel.mmmapiospace, wdm/MmMapIoSpace
 f1_keywords:
  - "wdm/MmMapIoSpace"
+ - "MmMapIoSpace"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

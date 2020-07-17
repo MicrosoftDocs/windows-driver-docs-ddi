@@ -10,6 +10,7 @@ keywords: ["_SM_SendRPS_OUT structure"]
 ms.keywords: "*PSM_SendRPS_OUT, PSM_SendRPS_OUT, PSM_SendRPS_OUT structure pointer [Storage Devices], SM_SendRPS_OUT, SM_SendRPS_OUT structure [Storage Devices], _SM_SendRPS_OUT, hbapiwmi/PSM_SendRPS_OUT, hbapiwmi/SM_SendRPS_OUT, storage.sm_sendrps_out, structs-Fibre_6aad3070-5819-4742-87c6-f5c3b50b4f9b.xml"
 f1_keywords:
  - "hbapiwmi/SM_SendRPS_OUT"
+ - "SM_SendRPS_OUT"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows

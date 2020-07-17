@@ -10,6 +10,7 @@ keywords: ["_D3DKMDT_PREEMPTION_CAPS structure"]
 ms.keywords: D3DKMDT_PREEMPTION_CAPS, D3DKMDT_PREEMPTION_CAPS structure [Display Devices], _D3DKMDT_PREEMPTION_CAPS, d3dkmdt/D3DKMDT_PREEMPTION_CAPS, display.d3dkmdt_preemption_caps
 f1_keywords:
  - "d3dkmdt/D3DKMDT_PREEMPTION_CAPS"
+ - "D3DKMDT_PREEMPTION_CAPS"
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
 req.target-type: Windows

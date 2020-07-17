@@ -10,6 +10,7 @@ keywords: ["DMA_CHANNEL_ALLOCATE_HANDLER callback function"]
 ms.keywords: DMA_CHANNEL_ALLOCATE_HANDLER, DMA_CHANNEL_ALLOCATE_HANDLER callback, ProviderAllocateDmaChannel, ProviderAllocateDmaChannel callback function [Network Drivers Starting with Windows Vista], netdma/ProviderAllocateDmaChannel, netdma_ref_6f33588b-3234-4522-9ee6-3f56f3cd7be9.xml, netvista.providerallocatedmachannel
 f1_keywords:
  - "netdma/ProviderAllocateDmaChannel"
+ - "ProviderAllocateDmaChannel"
 req.header: netdma.h
 req.include-header: Netdma.h
 req.target-type: Windows

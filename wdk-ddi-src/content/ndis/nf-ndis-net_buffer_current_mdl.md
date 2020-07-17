@@ -8,6 +8,7 @@ ms.date: 04/12/2018
 keywords: ["NET_BUFFER_CURRENT_MDL macro"]
 f1_keywords:
  - "ndis/NET_BUFFER_CURRENT_MDL"
+ - "NET_BUFFER_CURRENT_MDL"
 ms.keywords: NET_BUFFER_CURRENT_MDL
 req.header: ndis.h
 req.include-header:

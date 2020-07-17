@@ -10,6 +10,7 @@ keywords: ["StorPortWriteRegisterBufferUlong macro"]
 ms.keywords: StorPortWriteRegisterBufferUlong, StorPortWriteRegisterBufferUlong routine [Storage Devices], storage.storportwriteregisterbufferulong, storport/StorPortWriteRegisterBufferUlong, storprt_f43e38af-b5f2-4727-990c-dc0cb79bbc09.xml
 f1_keywords:
  - "storport/StorPortWriteRegisterBufferUlong"
+ - "StorPortWriteRegisterBufferUlong"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["RtlShortSub function"]
 ms.keywords: RtlShortSub, RtlShortSub function [Kernel-Mode Driver Architecture], kernel.rtlshortsub, ntintsafe/RtlShortSub
 f1_keywords:
  - "ntintsafe/RtlShortSub"
+ - "RtlShortSub"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

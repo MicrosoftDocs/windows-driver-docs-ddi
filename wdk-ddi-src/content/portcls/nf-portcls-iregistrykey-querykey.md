@@ -10,6 +10,7 @@ keywords: ["IRegistryKey::QueryKey"]
 ms.keywords: IRegistryKey interface [Audio Devices],QueryKey method, IRegistryKey.QueryKey, IRegistryKey::QueryKey, QueryKey, QueryKey method [Audio Devices], QueryKey method [Audio Devices],IRegistryKey interface, audio.iregistrykey_querykey, audmp-routines_88fe19d0-095e-4f70-b8aa-a0c908600296.xml, portcls/IRegistryKey::QueryKey
 f1_keywords:
  - "portcls/IRegistryKey.QueryKey"
+ - "IRegistryKey.QueryKey"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

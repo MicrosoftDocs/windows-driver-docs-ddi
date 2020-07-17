@@ -10,6 +10,7 @@ keywords: ["IoRemoveLinkShareAccess function"]
 ms.keywords: IoRemoveLinkShareAccess, IoRemoveLinkShareAccess function [Kernel-Mode Driver Architecture], kernel.ioremovelinkshareaccess, wdm/IoRemoveLinkShareAccess
 f1_keywords:
  - "wdm/IoRemoveLinkShareAccess"
+ - "IoRemoveLinkShareAccess"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal

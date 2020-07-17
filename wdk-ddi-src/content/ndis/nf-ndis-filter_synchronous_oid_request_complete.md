@@ -10,6 +10,7 @@ keywords: ["FILTER_SYNCHRONOUS_OID_REQUEST_COMPLETE function"]
 ms.keywords: FILTER_SYNCHRONOUS_OID_REQUEST_COMPLETE, FilterSynchronousOidRequestComplete, FilterSynchronousOidRequestComplete function [Network Drivers Starting with Windows Vista], ndis/FilterSynchronousOidRequestComplete, netvista.filter_synchronous_oid_request_complete
 f1_keywords:
  - "ndis/FilterSynchronousOidRequestComplete"
+ - "FilterSynchronousOidRequestComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

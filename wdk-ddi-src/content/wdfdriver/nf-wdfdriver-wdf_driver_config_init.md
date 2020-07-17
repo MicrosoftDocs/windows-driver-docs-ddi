@@ -10,6 +10,7 @@ keywords: ["WDF_DRIVER_CONFIG_INIT function"]
 ms.keywords: DFDriverObjectRef_c8331742-9717-476d-8a48-f9e472cb3128.xml, WDF_DRIVER_CONFIG_INIT, WDF_DRIVER_CONFIG_INIT function, kmdf.wdf_driver_config_init, wdf.wdf_driver_config_init, wdfdriver/WDF_DRIVER_CONFIG_INIT
 f1_keywords:
  - "wdfdriver/WDF_DRIVER_CONFIG_INIT"
+ - "WDF_DRIVER_CONFIG_INIT"
 req.header: wdfdriver.h
 req.include-header: Wdf.h
 req.target-type: Universal

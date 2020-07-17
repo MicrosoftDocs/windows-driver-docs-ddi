@@ -10,6 +10,7 @@ keywords: ["NdisMCmDispatchCallConnected macro"]
 ms.keywords: NdisMCmDispatchCallConnected, NdisMCmDispatchCallConnected macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_3d3199be-36e5-445e-986d-984a4f778da0.xml, ndis/NdisMCmDispatchCallConnected, netvista.ndismcmdispatchcallconnected
 f1_keywords:
  - "ndis/NdisMCmDispatchCallConnected"
+ - "NdisMCmDispatchCallConnected"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

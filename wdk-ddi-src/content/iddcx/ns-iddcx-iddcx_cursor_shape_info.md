@@ -10,6 +10,7 @@ keywords: ["IDDCX_CURSOR_SHAPE_INFO structure"]
 ms.keywords: IDDCX_CURSOR_SHAPE_INFO, IDDCX_CURSOR_SHAPE_INFO structure [Display Devices], display.iddcx_cursor_shape_info, iddcx/IDDCX_CURSOR_SHAPE_INFO
 f1_keywords:
  - "iddcx/IDDCX_CURSOR_SHAPE_INFO"
+ - "IDDCX_CURSOR_SHAPE_INFO"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows

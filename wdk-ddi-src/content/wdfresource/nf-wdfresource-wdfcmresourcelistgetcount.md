@@ -10,6 +10,7 @@ keywords: ["WdfCmResourceListGetCount function"]
 ms.keywords: DFResourceObjectRef_8161cc12-7f39-44f4-a4a1-28329911ac96.xml, WdfCmResourceListGetCount, WdfCmResourceListGetCount method, kmdf.wdfcmresourcelistgetcount, wdf.wdfcmresourcelistgetcount, wdfresource/WdfCmResourceListGetCount
 f1_keywords:
  - "wdfresource/WdfCmResourceListGetCount"
+ - "WdfCmResourceListGetCount"
 req.header: wdfresource.h
 req.include-header: Wdf.h
 req.target-type: Universal

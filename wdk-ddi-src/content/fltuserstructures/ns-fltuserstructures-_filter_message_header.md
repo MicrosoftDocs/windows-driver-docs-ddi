@@ -10,6 +10,7 @@ keywords: ["_FILTER_MESSAGE_HEADER structure"]
 ms.keywords: "*PFILTER_MESSAGE_HEADER, FILTER_MESSAGE_HEADER, FILTER_MESSAGE_HEADER structure [Installable File System Drivers], FltSystemStructures_80f5d30b-5507-45c8-b399-6fa816ba9232.xml, PFILTER_MESSAGE_HEADER, PFILTER_MESSAGE_HEADER structure pointer [Installable File System Drivers], _FILTER_MESSAGE_HEADER, fltuserstructures/FILTER_MESSAGE_HEADER, fltuserstructures/PFILTER_MESSAGE_HEADER, ifsk.filter_message_header"
 f1_keywords:
  - "fltuserstructures/FILTER_MESSAGE_HEADER"
+ - "FILTER_MESSAGE_HEADER"
 req.header: fltuserstructures.h
 req.include-header: FltUser.h, Fltkernel.h
 req.target-type: Windows

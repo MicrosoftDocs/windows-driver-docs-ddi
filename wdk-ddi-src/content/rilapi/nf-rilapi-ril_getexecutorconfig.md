@@ -10,6 +10,7 @@ keywords: ["RIL_GetExecutorConfig function"]
 ms.keywords: RIL_GetExecutorConfig, RIL_GetExecutorConfig method [Network Drivers Starting with Windows Vista], netvista.ril_getexecutorconfig, rilapi/RIL_GetExecutorConfig
 f1_keywords:
  - "rilapi/RIL_GetExecutorConfig"
+ - "RIL_GetExecutorConfig"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

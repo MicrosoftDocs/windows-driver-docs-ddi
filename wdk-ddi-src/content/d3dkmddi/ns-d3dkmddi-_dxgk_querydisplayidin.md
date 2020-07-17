@@ -9,6 +9,7 @@ keywords: ["_DXGK_QUERYDISPLAYIDIN structure"]
 ms.keywords: DXGK_QUERYDISPLAYIDIN, DXGK_QUERYDISPLAYIDIN structure [Display Devices], _DXGK_QUERYDISPLAYIDIN, d3dkmddi/DXGK_QUERYDISPLAYIDIN, display.dxgk_querydisplayidin
 f1_keywords:
  - "d3dkmddi/DXGK_QUERYDISPLAYIDIN"
+ - "DXGK_QUERYDISPLAYIDIN"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows

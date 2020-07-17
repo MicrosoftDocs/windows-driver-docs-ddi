@@ -10,6 +10,7 @@ keywords: ["RILADDITIONALCALLERINFOPARAMMASK enumeration"]
 ms.keywords: RILADDITIONALCALLERINFOPARAMMASK, RILADDITIONALCALLERINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_ADDTLCI_ALL, RIL_PARAM_ADDTLCI_CALLERINFO, RIL_PARAM_ADDTLCI_CALLERINFOLENGTH, RIL_PARAM_ADDTLCI_CALLID, netvista.riladditionalcallerinfoparammask, ntddrilapitypes/RILADDITIONALCALLERINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_ADDTLCI_ALL, ntddrilapitypes/RIL_PARAM_ADDTLCI_CALLERINFO, ntddrilapitypes/RIL_PARAM_ADDTLCI_CALLERINFOLENGTH, ntddrilapitypes/RIL_PARAM_ADDTLCI_CALLID
 f1_keywords:
  - "ntddrilapitypes/RILADDITIONALCALLERINFOPARAMMASK"
+ - "RILADDITIONALCALLERINFOPARAMMASK"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

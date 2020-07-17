@@ -10,6 +10,7 @@ keywords: ["_D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT structure"]
 ms.keywords: D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT, D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT structure [Display Devices], D3D_param_Structs_347963a7-4c6b-478e-9a2f-e708a807cac6.xml, _D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT, d3dumddi/D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT, display.d3dddicb_signalsynchronizationobject
 f1_keywords:
  - "d3dumddi/D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT"
+ - "D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

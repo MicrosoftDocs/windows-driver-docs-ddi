@@ -8,6 +8,7 @@ ms.date: 10/19/2018
 keywords: ["_VPD_EXTENDED_INQUIRY_DATA_PAGE structure"]
 f1_keywords:
  - "storport/_VPD_EXTENDED_INQUIRY_DATA_PAGE"
+ - "_VPD_EXTENDED_INQUIRY_DATA_PAGE"
 ms.keywords: _VPD_EXTENDED_INQUIRY_DATA_PAGE, VPD_EXTENDED_INQUIRY_DATA_PAGE, *PVPD_EXTENDED_INQUIRY_DATA_PAGE, 
 req.header: storport.h
 req.include-header:

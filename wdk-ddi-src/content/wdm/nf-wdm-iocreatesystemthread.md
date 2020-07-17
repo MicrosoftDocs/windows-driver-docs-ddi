@@ -10,6 +10,7 @@ keywords: ["IoCreateSystemThread function"]
 ms.keywords: IoCreateSystemThread, IoCreateSystemThread routine [Kernel-Mode Driver Architecture], kernel.iocreatesystemthread, wdm/IoCreateSystemThread
 f1_keywords:
  - "wdm/IoCreateSystemThread"
+ - "IoCreateSystemThread"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

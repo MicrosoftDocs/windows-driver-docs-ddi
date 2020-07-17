@@ -10,6 +10,7 @@ keywords: ["IDebugPlmClient3::ResumePlmPackageWide"]
 ms.keywords: IDebugPlmClient3 interface [Windows Debugging],ResumePlmPackageWide method, IDebugPlmClient3.ResumePlmPackageWide, IDebugPlmClient3::ResumePlmPackageWide, ResumePlmPackageWide, ResumePlmPackageWide method [Windows Debugging], ResumePlmPackageWide method [Windows Debugging],IDebugPlmClient3 interface, dbgeng/IDebugPlmClient3::ResumePlmPackageWide, debugger.idebugplmclient3_resumeplmpackagewide
 f1_keywords:
  - "dbgeng/IDebugPlmClient3.ResumePlmPackageWide"
+ - "IDebugPlmClient3.ResumePlmPackageWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

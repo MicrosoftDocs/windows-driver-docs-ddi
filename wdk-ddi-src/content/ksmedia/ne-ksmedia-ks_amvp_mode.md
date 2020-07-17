@@ -10,6 +10,7 @@ keywords: ["KS_AMVP_MODE enumeration"]
 ms.keywords: KS_AMVP_MODE, KS_AMVP_MODE enumeration [Streaming Media Devices], KS_AMVP_MODE_BOBINTERLEAVED, KS_AMVP_MODE_BOBNONINTERLEAVED, KS_AMVP_MODE_SKIPEVEN, KS_AMVP_MODE_SKIPODD, KS_AMVP_MODE_WEAVE, ksmedia/KS_AMVP_MODE, ksmedia/KS_AMVP_MODE_BOBINTERLEAVED, ksmedia/KS_AMVP_MODE_BOBNONINTERLEAVED, ksmedia/KS_AMVP_MODE_SKIPEVEN, ksmedia/KS_AMVP_MODE_SKIPODD, ksmedia/KS_AMVP_MODE_WEAVE, stream.ks_amvp_mode, vidcapstruct_64634d5e-72a6-4300-9fa9-e1d6859f0813.xml
 f1_keywords:
  - "ksmedia/KS_AMVP_MODE"
+ - "KS_AMVP_MODE"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

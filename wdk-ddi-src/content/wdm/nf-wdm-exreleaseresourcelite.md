@@ -10,6 +10,7 @@ keywords: ["ExReleaseResourceLite function"]
 ms.keywords: ExReleaseResourceLite, ExReleaseResourceLite routine [Kernel-Mode Driver Architecture], k102_3846f443-1ef7-48f4-a5ce-2dd56f83b9be.xml, kernel.exreleaseresourcelite, wdm/ExReleaseResourceLite
 f1_keywords:
  - "wdm/ExReleaseResourceLite"
+ - "ExReleaseResourceLite"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

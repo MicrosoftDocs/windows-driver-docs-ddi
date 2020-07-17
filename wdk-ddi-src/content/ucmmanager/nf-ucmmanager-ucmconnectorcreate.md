@@ -10,6 +10,7 @@ keywords: ["UcmConnectorCreate function"]
 ms.keywords: UcmConnectorCreate, UcmConnectorCreate method [Buses], buses.ucmconnectorcreate, ucmmanager/UcmConnectorCreate
 f1_keywords:
  - "ucmmanager/UcmConnectorCreate"
+ - "UcmConnectorCreate"
 req.header: ucmmanager.h
 req.include-header: Ucmcx.h
 req.target-type: Windows

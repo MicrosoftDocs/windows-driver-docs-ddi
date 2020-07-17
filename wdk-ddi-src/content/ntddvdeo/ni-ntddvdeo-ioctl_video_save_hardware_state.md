@@ -10,6 +10,7 @@ keywords: ["IOCTL_VIDEO_SAVE_HARDWARE_STATE IOCTL"]
 ms.keywords: IOCTL_VIDEO_SAVE_HARDWARE_STATE, IOCTL_VIDEO_SAVE_HARDWARE_STATE control, IOCTL_VIDEO_SAVE_HARDWARE_STATE control code [Display Devices], Video_IOCTLs_2595d8e2-5b1e-47dd-b3ba-627425f84215.xml, display.ioctl_video_save_hardware_state, ntddvdeo/IOCTL_VIDEO_SAVE_HARDWARE_STATE
 f1_keywords:
  - "ntddvdeo/IOCTL_VIDEO_SAVE_HARDWARE_STATE"
+ - "IOCTL_VIDEO_SAVE_HARDWARE_STATE"
 req.header: ntddvdeo.h
 req.include-header: 
 req.target-type: Windows

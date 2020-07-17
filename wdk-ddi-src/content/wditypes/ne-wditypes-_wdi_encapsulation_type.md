@@ -10,6 +10,7 @@ keywords: ["_WDI_ENCAPSULATION_TYPE enumeration"]
 ms.keywords: WDI_ENCAPSULATION_802_1H, WDI_ENCAPSULATION_RFC_1042, WDI_ENCAPSULATION_TYPE, WDI_ENCAPSULATION_TYPE enumeration [Device and Driver Installation], _WDI_ENCAPSULATION_TYPE, netvista.wdi_encapsulation_type, netvista.wifi_encapsulation_type, wditypes/WDI_ENCAPSULATION_802_1H, wditypes/WDI_ENCAPSULATION_RFC_1042, wditypes/WDI_ENCAPSULATION_TYPE
 f1_keywords:
  - "wditypes/WDI_ENCAPSULATION_TYPE"
+ - "WDI_ENCAPSULATION_TYPE"
 req.header: wditypes.hpp
 req.include-header: 
 req.target-type: Windows

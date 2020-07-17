@@ -10,6 +10,7 @@ keywords: ["PROTOCOL_CO_STATUS_EX callback function"]
 ms.keywords: PROTOCOL_CO_STATUS_EX, PROTOCOL_CO_STATUS_EX callback, ProtocolCoStatusEx, ProtocolCoStatusEx callback function [Network Drivers Starting with Windows Vista], condis_status_ref_683f5893-6979-4335-966b-41d48bd0fda3.xml, ndis/ProtocolCoStatusEx, netvista.protocolcostatusex
 f1_keywords:
  - "ndis/ProtocolCoStatusEx"
+ - "ProtocolCoStatusEx"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

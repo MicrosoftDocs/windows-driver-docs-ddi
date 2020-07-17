@@ -10,6 +10,7 @@ keywords: ["IDebugControl4::GetSystemVersionString"]
 ms.keywords: GetSystemVersionString, GetSystemVersionString method [Windows Debugging], GetSystemVersionString method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetSystemVersionString method, IDebugControl4.GetSystemVersionString, IDebugControl4::GetSystemVersionString, IDebugControl_4adaed37-7034-4c64-9064-466706a2951e.xml, dbgeng/IDebugControl4::GetSystemVersionString, debugger.getsystemversionstring
 f1_keywords:
  - "dbgeng/IDebugControl4.GetSystemVersionString"
+ - "IDebugControl4.GetSystemVersionString"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

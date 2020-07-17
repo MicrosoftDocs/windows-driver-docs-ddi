@@ -10,6 +10,7 @@ keywords: ["_NDIS_WWAN_SET_PACKET_SERVICE structure"]
 ms.keywords: "*PNDIS_WWAN_SET_PACKET_SERVICE, NDIS_WWAN_SET_PACKET_SERVICE, NDIS_WWAN_SET_PACKET_SERVICE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SET_PACKET_SERVICE, PNDIS_WWAN_SET_PACKET_SERVICE structure pointer [Network Drivers Starting with Windows Vista], WwanRef_b98b2778-6d41-426f-85c3-99add8477050.xml, _NDIS_WWAN_SET_PACKET_SERVICE, ndiswwan/NDIS_WWAN_SET_PACKET_SERVICE, ndiswwan/PNDIS_WWAN_SET_PACKET_SERVICE, netvista.ndis_wwan_set_packet_service"
 f1_keywords:
  - "ndiswwan/NDIS_WWAN_SET_PACKET_SERVICE"
+ - "NDIS_WWAN_SET_PACKET_SERVICE"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["IDebugEventCallbacksWide::ExitProcess"]
 ms.keywords: ExitProcess, ExitProcess method [Windows Debugging], ExitProcess method [Windows Debugging],IDebugEventCallbacksWide interface, IDebugEventCallbacksWide interface [Windows Debugging],ExitProcess method, IDebugEventCallbacksWide.ExitProcess, IDebugEventCallbacksWide::ExitProcess, dbgeng/IDebugEventCallbacksWide::ExitProcess, debugger.idebugeventcallbackswide_exitprocess
 f1_keywords:
  - "dbgeng/IDebugEventCallbacksWide.ExitProcess"
+ - "IDebugEventCallbacksWide.ExitProcess"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

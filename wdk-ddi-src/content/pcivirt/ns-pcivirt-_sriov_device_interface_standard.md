@@ -10,6 +10,7 @@ keywords: ["_SRIOV_DEVICE_INTERFACE_STANDARD structure"]
 ms.keywords: "*PSRIOV_DEVICE_INTERFACE_STANDARD, PCI.sriov_device_interface_standard, SRIOV_DEVICE_INTERFACE_STANDARD, SRIOV_DEVICE_INTERFACE_STANDARD structure [Buses], _SRIOV_DEVICE_INTERFACE_STANDARD, pcivirt/SRIOV_DEVICE_INTERFACE_STANDARD"
 f1_keywords:
  - "pcivirt/SRIOV_DEVICE_INTERFACE_STANDARD"
+ - "SRIOV_DEVICE_INTERFACE_STANDARD"
 req.header: pcivirt.h
 req.include-header:
 req.target-type: Windows

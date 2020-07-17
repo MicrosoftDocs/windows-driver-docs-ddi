@@ -10,6 +10,7 @@ keywords: ["EXT_CALLBACK callback function"]
 ms.keywords: EXT_CALLBACK, ExTimerCallback, ExTimerCallback routine [Kernel-Mode Driver Architecture], kernel.extimercallback, wdm/ExTimerCallback
 f1_keywords:
  - "wdm/ExTimerCallback"
+ - "ExTimerCallback"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

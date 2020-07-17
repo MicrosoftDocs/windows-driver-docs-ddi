@@ -10,6 +10,7 @@ keywords: ["IWDFIoTargetStateManagement::Stop"]
 ms.keywords: IWDFIoTargetStateManagement interface,Stop method, IWDFIoTargetStateManagement.Stop, IWDFIoTargetStateManagement::Stop, Stop, Stop method, Stop method,IWDFIoTargetStateManagement interface, UMDFIoTargetObjectRef_e3b5b892-9d72-49ad-8d58-9cf751f831ad.xml, umdf.iwdfiotargetstatemanagement_stop, wdf.iwdfiotargetstatemanagement_stop, wudfddi/IWDFIoTargetStateManagement::Stop
 f1_keywords:
  - "wudfddi/IWDFIoTargetStateManagement.Stop"
+ - "IWDFIoTargetStateManagement.Stop"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

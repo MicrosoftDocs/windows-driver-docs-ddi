@@ -10,6 +10,7 @@ keywords: ["_DXVADDI_AYUVSAMPLE16 structure"]
 ms.keywords: DXVA2_Structs_9e7fc230-f50c-4a07-b1cb-358694dc207d.xml, DXVADDI_AYUVSAMPLE16, DXVADDI_AYUVSAMPLE16 structure [Display Devices], _DXVADDI_AYUVSAMPLE16, d3dumddi/DXVADDI_AYUVSAMPLE16, display.dxvaddi_ayuvsample16
 f1_keywords:
  - "d3dumddi/DXVADDI_AYUVSAMPLE16"
+ - "DXVADDI_AYUVSAMPLE16"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["KsSetMajorFunctionHandler function"]
 ms.keywords: KsSetMajorFunctionHandler, KsSetMajorFunctionHandler function [Streaming Media Devices], ks/KsSetMajorFunctionHandler, ksfunc_e8761f66-4ca5-4465-bf7b-f6d2ab1d2355.xml, stream.kssetmajorfunctionhandler
 f1_keywords:
  - "ks/KsSetMajorFunctionHandler"
+ - "KsSetMajorFunctionHandler"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

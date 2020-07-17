@@ -10,6 +10,7 @@ keywords: ["_DOT11_EXTAP_ATTRIBUTES structure"]
 ms.keywords: "*PDOT11_EXTAP_ATTRIBUTES, DOT11_EXTAP_ATTRIBUTES, DOT11_EXTAP_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_a1779e69-266e-4fa0-bbd2-01701b9b8772.xml, PDOT11_EXTAP_ATTRIBUTES, PDOT11_EXTAP_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], _DOT11_EXTAP_ATTRIBUTES, netvista.dot11_extap_attributes, windot11/DOT11_EXTAP_ATTRIBUTES, windot11/PDOT11_EXTAP_ATTRIBUTES"
 f1_keywords:
  - "windot11/DOT11_EXTAP_ATTRIBUTES"
+ - "DOT11_EXTAP_ATTRIBUTES"
 req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows

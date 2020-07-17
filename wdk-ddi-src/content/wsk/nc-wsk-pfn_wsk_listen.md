@@ -10,6 +10,7 @@ keywords: ["PFN_WSK_LISTEN callback function"]
 ms.keywords: PFN_WSK_LISTEN, PFN_WSK_LISTEN callback, WskListen, WskListen callback function [Network Drivers Starting with Windows Vista], netvista.wsklisten, wsk/WskListen
 f1_keywords:
  - "wsk/WskListen"
+ - "WskListen"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Universal

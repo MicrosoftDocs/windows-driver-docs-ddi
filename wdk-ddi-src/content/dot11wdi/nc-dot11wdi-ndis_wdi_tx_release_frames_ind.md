@@ -10,6 +10,7 @@ keywords: ["NDIS_WDI_TX_RELEASE_FRAMES_IND callback function"]
 ms.keywords: NDIS_WDI_TX_RELEASE_FRAMES_IND, NDIS_WDI_TX_RELEASE_FRAMES_IND callback, NdisWdiTxReleaseFrameIndication, NdisWdiTxReleaseFrameIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxReleaseFrameIndication, netvista.ndiswditxreleaseframesindication
 f1_keywords:
  - "dot11wdi/NdisWdiTxReleaseFrameIndication"
+ - "NdisWdiTxReleaseFrameIndication"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows

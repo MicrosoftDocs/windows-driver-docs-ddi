@@ -10,6 +10,7 @@ keywords: ["RtlULongToUInt8 function"]
 ms.keywords: RtlULongToUInt8, RtlULongToUInt8 function [Kernel-Mode Driver Architecture], kernel.rtlulongtouint8, ntintsafe/RtlULongToUInt8
 f1_keywords:
  - "ntintsafe/RtlULongToUInt8"
+ - "RtlULongToUInt8"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["_MSFC_PortEvent structure"]
 ms.keywords: "*PMSFC_PortEvent, MSFC_PortEvent, MSFC_PortEvent structure [Storage Devices], PMSFC_PortEvent, PMSFC_PortEvent structure pointer [Storage Devices], _MSFC_PortEvent, hbapiwmi/MSFC_PortEvent, hbapiwmi/PMSFC_PortEvent, storage.msfc_portevent, structs-Fibre_21739c44-07d2-412e-bc03-3cc25b14bb9d.xml"
 f1_keywords:
  - "hbapiwmi/MSFC_PortEvent"
+ - "MSFC_PortEvent"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows

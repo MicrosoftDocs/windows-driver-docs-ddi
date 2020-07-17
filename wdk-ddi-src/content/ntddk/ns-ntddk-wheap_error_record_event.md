@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["WHEAP_ERROR_RECORD_EVENT structure"]
 f1_keywords:
  - "ntddk/WHEAP_ERROR_RECORD_EVENT"
+ - "WHEAP_ERROR_RECORD_EVENT"
 ms.keywords: WHEAP_ERROR_RECORD_EVENT, WHEAP_ERROR_RECORD_EVENT, *PWHEAP_ERROR_RECORD_EVENT, 
 req.header: ntddk.h
 req.include-header:

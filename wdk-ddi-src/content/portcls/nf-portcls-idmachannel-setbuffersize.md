@@ -8,6 +8,7 @@ ms.date: 10/31/2018
 keywords: ["IDmaChannel::SetBufferSize"]
 f1_keywords:
  - "portcls/IDmaChannel.SetBufferSize"
+ - "IDmaChannel.SetBufferSize"
 ms.keywords: IDmaChannel::SetBufferSize, SetBufferSize, IDmaChannel.SetBufferSize, IDmaChannel::SetBufferSize, IDmaChannel.SetBufferSize
 req.header: portcls.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["D3DDDI_MAKERESIDENT_FLAGS structure"]
 ms.keywords: D3DDDI_MAKERESIDENT_FLAGS, D3DDDI_MAKERESIDENT_FLAGS structure [Display Devices], d3dukmdt/D3DDDI_MAKERESIDENT_FLAGS, display.d3dddi_makeresident_flags
 f1_keywords:
  - "d3dukmdt/D3DDDI_MAKERESIDENT_FLAGS"
+ - "D3DDDI_MAKERESIDENT_FLAGS"
 req.header: d3dukmdt.h
 req.include-header: D3dumddi.h, D3dkmddi.h
 req.target-type: Windows

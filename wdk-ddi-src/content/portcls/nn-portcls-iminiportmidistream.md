@@ -10,6 +10,7 @@ keywords: ["IMiniportMidiStream interface"]
 ms.keywords: IMiniportMidiStream, IMiniportMidiStream interface [Audio Devices], IMiniportMidiStream interface [Audio Devices],described, audio.iminiportmidistream, audmp-routines_604abeae-e44f-418a-913f-39502b6f266b.xml, portcls/IMiniportMidiStream
 f1_keywords:
  - "portcls/IMiniportMidiStream"
+ - "IMiniportMidiStream"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows

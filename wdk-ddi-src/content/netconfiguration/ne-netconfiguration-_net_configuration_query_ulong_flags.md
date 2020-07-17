@@ -8,6 +8,7 @@ ms.date: 02/07/2018
 keywords: ["_NET_CONFIGURATION_QUERY_ULONG_FLAGS enumeration"]
 f1_keywords:
  - "netconfiguration/NET_CONFIGURATION_QUERY_ULONG_FLAGS"
+ - "NET_CONFIGURATION_QUERY_ULONG_FLAGS"
 ms.keywords: _NET_CONFIGURATION_QUERY_ULONG_FLAGS, NET_CONFIGURATION_QUERY_ULONG_FLAGS, 
 req.header: netconfiguration.h
 req.include-header:

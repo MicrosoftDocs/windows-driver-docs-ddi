@@ -10,6 +10,7 @@ keywords: ["PcGetContentRights function"]
 ms.keywords: PcGetContentRights, PcGetContentRights function [Audio Devices], audio.pcgetcontentrights, audpc-routines_0f94b5f4-2667-488d-a191-4cf13a1f3a27.xml, portcls/PcGetContentRights
 f1_keywords:
  - "portcls/PcGetContentRights"
+ - "PcGetContentRights"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

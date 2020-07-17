@@ -10,6 +10,7 @@ keywords: ["BdaCreatePin function"]
 ms.keywords: BdaCreatePin, BdaCreatePin function [Streaming Media Devices], bdaref_e84fba91-044c-40f3-9364-ede0bbabda48.xml, bdasup/BdaCreatePin, stream.bdacreatepin
 f1_keywords:
  - "bdasup/BdaCreatePin"
+ - "BdaCreatePin"
 req.header: bdasup.h
 req.include-header: Bdasup.h
 req.target-type: Desktop

@@ -7,6 +7,7 @@ ms.date: 10/02/2018
 keywords: ["_ACPI_PLD_PANEL enumeration"]
 f1_keywords:
  - "acpitabl/_ACPI_PLD_PANEL"
+ - "_ACPI_PLD_PANEL"
 ms.keywords: _ACPI_PLD_PANEL, ACPI_PLD_PANEL, *PACPI_PLD_PANEL, AcpiPldPanel
 req.header: acpitabl.h
 req.include-header:

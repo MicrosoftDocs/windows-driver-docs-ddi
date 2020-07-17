@@ -10,6 +10,7 @@ keywords: ["IDebugClient5::PopOutputLinePrefix"]
 ms.keywords: IDebugClient5 interface [Windows Debugging],PopOutputLinePrefix method, IDebugClient5.PopOutputLinePrefix, IDebugClient5::PopOutputLinePrefix, PopOutputLinePrefix, PopOutputLinePrefix method [Windows Debugging], PopOutputLinePrefix method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient5::PopOutputLinePrefix, debugger.idebugclient5_popoutputlineprefix
 f1_keywords:
  - "dbgeng/IDebugClient5.PopOutputLinePrefix"
+ - "IDebugClient5.PopOutputLinePrefix"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

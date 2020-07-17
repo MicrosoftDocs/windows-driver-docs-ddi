@@ -10,6 +10,7 @@ keywords: ["PFN_WSK_RECEIVE callback function"]
 ms.keywords: PFN_WSK_RECEIVE, PFN_WSK_RECEIVE callback, WskReceive, WskReceive callback function [Network Drivers Starting with Windows Vista], netvista.wskreceive, wsk/WskReceive, wskref_7a0473b3-5687-44e8-b505-a346e9546807.xml
 f1_keywords:
  - "wsk/WskReceive"
+ - "WskReceive"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Universal

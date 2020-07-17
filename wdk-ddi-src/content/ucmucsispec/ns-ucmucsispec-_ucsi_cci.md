@@ -8,6 +8,7 @@ ms.date: 09/30/2018
 keywords: ["_UCSI_CCI structure"]
 f1_keywords:
  - "ucmucsispec/_UCSI_CCI"
+ - "_UCSI_CCI"
 ms.keywords: _UCSI_CCI, UCSI_CCI, *PUCSI_CCI, 
 req.header: ucmucsispec.h
 req.include-header: UcmUcsiCx.h 

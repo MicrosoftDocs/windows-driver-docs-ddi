@@ -10,6 +10,7 @@ keywords: ["WdfWmiInstanceCreate function"]
 ms.keywords: DFWMIRef_8d75a5ee-d683-46fb-ba16-a2f8a2e892e3.xml, WdfWmiInstanceCreate, WdfWmiInstanceCreate method, kmdf.wdfwmiinstancecreate, wdf.wdfwmiinstancecreate, wdfwmi/WdfWmiInstanceCreate
 f1_keywords:
  - "wdfwmi/WdfWmiInstanceCreate"
+ - "WdfWmiInstanceCreate"
 req.header: wdfwmi.h
 req.include-header: Wdf.h
 req.target-type: Universal

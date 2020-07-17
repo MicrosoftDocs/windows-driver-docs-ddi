@@ -7,6 +7,7 @@ ms.date: 07/16/2018
 keywords: ["ScriptDebugEventFilter enumeration"]
 f1_keywords:
  - "dbgmodel/ScriptDebugEventFilter"
+ - "ScriptDebugEventFilter"
 ms.keywords: ScriptDebugEventFilter, , 
 req.header: dbgmodel.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["KSPRIORITY structure"]
 ms.keywords: "*PKSPRIORITY, KSPRIORITY, KSPRIORITY structure [Streaming Media Devices], PKSPRIORITY, PKSPRIORITY structure pointer [Streaming Media Devices], ks-struct_08294311-6f72-4888-bfb8-b4598e1fc9bd.xml, ks/KSPRIORITY, ks/PKSPRIORITY, stream.kspriority"
 f1_keywords:
  - "ks/KSPRIORITY"
+ - "KSPRIORITY"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows

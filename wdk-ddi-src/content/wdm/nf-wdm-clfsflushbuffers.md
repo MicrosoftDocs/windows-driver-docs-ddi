@@ -10,6 +10,7 @@ keywords: ["ClfsFlushBuffers function"]
 ms.keywords: ClfsFlushBuffers, ClfsFlushBuffers routine [Kernel-Mode Driver Architecture], Clfs_3c04240c-0914-472f-9b4b-97a00221e092.xml, kernel.clfsflushbuffers, wdm/ClfsFlushBuffers
 f1_keywords:
  - "wdm/ClfsFlushBuffers"
+ - "ClfsFlushBuffers"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop

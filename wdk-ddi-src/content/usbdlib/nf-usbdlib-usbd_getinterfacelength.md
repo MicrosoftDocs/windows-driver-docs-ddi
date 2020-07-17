@@ -10,6 +10,7 @@ keywords: ["USBD_GetInterfaceLength function"]
 ms.keywords: USBD_GetInterfaceLength, USBD_GetInterfaceLength routine [Buses], buses.usbd_getinterfacelength, usbdlib/USBD_GetInterfaceLength, usbfunc_d462af93-f7ec-429f-9719-4b09af55236c.xml
 f1_keywords:
  - "usbdlib/USBD_GetInterfaceLength"
+ - "USBD_GetInterfaceLength"
 req.header: usbdlib.h
 req.include-header: Usbdlib.h
 req.target-type: Universal

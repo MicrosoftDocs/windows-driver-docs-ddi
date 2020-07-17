@@ -29,6 +29,7 @@ tech.root: display
 req.typenames: DXGK_RENDERKM_COMMAND
 f1_keywords:
  - "d3dkmddi/DXGK_RENDERKM_COMMAND"
+ - "DXGK_RENDERKM_COMMAND"
 topic_type:
  - APIRef
  - kbSyntax

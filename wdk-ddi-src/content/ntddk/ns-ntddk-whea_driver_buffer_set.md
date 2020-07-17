@@ -34,6 +34,7 @@ api_name:
 f1_keywords:
  - ntddk/_WHEA_DRIVER_BUFFER_SET
  - ntddk/WHEA_DRIVER_BUFFER_SET
+ - ""
 dev_langs:
  - c++
 ---

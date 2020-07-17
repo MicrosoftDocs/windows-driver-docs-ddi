@@ -10,6 +10,7 @@ keywords: ["KsPinAcquireProcessingMutex function"]
 ms.keywords: KsPinAcquireProcessingMutex, KsPinAcquireProcessingMutex function [Streaming Media Devices], avfunc_d06d3037-45b0-4931-86e4-ef7c586bcdf1.xml, ks/KsPinAcquireProcessingMutex, stream.kspinacquireprocessingmutex
 f1_keywords:
  - "ks/KsPinAcquireProcessingMutex"
+ - "KsPinAcquireProcessingMutex"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

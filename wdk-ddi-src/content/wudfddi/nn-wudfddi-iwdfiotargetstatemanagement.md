@@ -10,6 +10,7 @@ keywords: ["IWDFIoTargetStateManagement interface"]
 ms.keywords: IWDFIoTargetStateManagement, IWDFIoTargetStateManagement interface, IWDFIoTargetStateManagement interface,described, UMDFIoTargetObjectRef_667496e9-fa1f-4c90-911d-d456ffc3b59e.xml, umdf.iwdfiotargetstatemanagement, wdf.iwdfiotargetstatemanagement, wudfddi/IWDFIoTargetStateManagement
 f1_keywords:
  - "wudfddi/IWDFIoTargetStateManagement"
+ - "IWDFIoTargetStateManagement"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop

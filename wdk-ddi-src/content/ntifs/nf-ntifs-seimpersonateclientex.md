@@ -10,6 +10,7 @@ keywords: ["SeImpersonateClientEx function"]
 ms.keywords: SeImpersonateClientEx, SeImpersonateClientEx routine [Installable File System Drivers], ifsk.seimpersonateclientex, ntifs/SeImpersonateClientEx, seref_557d14bb-0d77-4bc8-8c75-57bb3c789963.xml
 f1_keywords:
  - "ntifs/SeImpersonateClientEx"
+ - "SeImpersonateClientEx"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

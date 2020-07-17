@@ -10,6 +10,7 @@ keywords: ["UcxControllerResetComplete function"]
 ms.keywords: UcxControllerResetComplete, UcxControllerResetComplete method [Buses], buses._ucxcontrollerresetcomplete, ucxcontroller/UcxControllerResetComplete
 f1_keywords:
  - "ucxcontroller/UcxControllerResetComplete"
+ - "UcxControllerResetComplete"
 req.header: ucxcontroller.h
 req.include-header: Ucxclass.h
 req.target-type: Windows

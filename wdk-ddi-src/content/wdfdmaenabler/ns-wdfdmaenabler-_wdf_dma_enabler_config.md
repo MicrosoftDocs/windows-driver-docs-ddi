@@ -10,6 +10,7 @@ keywords: ["_WDF_DMA_ENABLER_CONFIG structure"]
 ms.keywords: "*PWDF_DMA_ENABLER_CONFIG, DFDmaObjectRef_854b91a3-b389-47a9-bc88-d4796025f73e.xml, PWDF_DMA_ENABLER_CONFIG, PWDF_DMA_ENABLER_CONFIG structure pointer, WDF_DMA_ENABLER_CONFIG, WDF_DMA_ENABLER_CONFIG structure, _WDF_DMA_ENABLER_CONFIG, kmdf.wdf_dma_enabler_config, wdf.wdf_dma_enabler_config, wdfdmaenabler/PWDF_DMA_ENABLER_CONFIG, wdfdmaenabler/WDF_DMA_ENABLER_CONFIG"
 f1_keywords:
  - "wdfdmaenabler/WDF_DMA_ENABLER_CONFIG"
+ - "WDF_DMA_ENABLER_CONFIG"
 req.header: wdfdmaenabler.h
 req.include-header: Wdf.h
 req.target-type: Windows

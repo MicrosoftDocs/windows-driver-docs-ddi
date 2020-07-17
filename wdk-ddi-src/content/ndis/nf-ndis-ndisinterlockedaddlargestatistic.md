@@ -10,6 +10,7 @@ keywords: ["NdisInterlockedAddLargeStatistic macro"]
 ms.keywords: NdisInterlockedAddLargeStatistic, NdisInterlockedAddLargeStatistic macro [Network Drivers Starting with Windows Vista], ndis/NdisInterlockedAddLargeStatistic, ndis_interlocked_ref_f1b7622e-acc8-45d7-b85e-c39058b595fe.xml, netvista.ndisinterlockedaddlargestatistic
 f1_keywords:
  - "ndis/NdisInterlockedAddLargeStatistic"
+ - "NdisInterlockedAddLargeStatistic"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

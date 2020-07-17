@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_OUTPUTDUPL_METADATA structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_OUTPUTDUPL_METADATA"
+ - "_D3DKMT_OUTPUTDUPL_METADATA"
 ms.keywords: _D3DKMT_OUTPUTDUPL_METADATA, D3DKMT_OUTPUTDUPL_METADATA, 
 req.header: d3dkmthk.h
 req.include-header:

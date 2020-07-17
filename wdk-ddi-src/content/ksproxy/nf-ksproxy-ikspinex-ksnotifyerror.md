@@ -10,6 +10,7 @@ keywords: ["IKsPinEx::KsNotifyError"]
 ms.keywords: IKsPinEx interface [Streaming Media Devices],KsNotifyError method, IKsPinEx.KsNotifyError, IKsPinEx::KsNotifyError, KsNotifyError, KsNotifyError method [Streaming Media Devices], KsNotifyError method [Streaming Media Devices],IKsPinEx interface, ksproxy/IKsPinEx::KsNotifyError, ksproxy_41c855aa-58a3-4bf6-bb8a-1eb8dfe2a3e1.xml, stream.ikspinex_ksnotifyerror
 f1_keywords:
  - "ksproxy/IKsPinEx.KsNotifyError"
+ - "IKsPinEx.KsNotifyError"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Desktop

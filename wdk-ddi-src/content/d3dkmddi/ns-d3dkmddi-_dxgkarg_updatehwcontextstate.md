@@ -9,6 +9,7 @@ keywords: ["_DXGKARG_UPDATEHWCONTEXTSTATE structure"]
 ms.keywords: DXGKARG_UPDATEHWCONTEXTSTATE, DXGKARG_UPDATEHWCONTEXTSTATE structure [Display Devices], _DXGKARG_UPDATEHWCONTEXTSTATE, d3dkmddi/DXGKARG_UPDATEHWCONTEXTSTATE, display.dxgkarg_updatehwcontextstate
 f1_keywords:
  - "d3dkmddi/DXGKARG_UPDATEHWCONTEXTSTATE"
+ - "DXGKARG_UPDATEHWCONTEXTSTATE"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows

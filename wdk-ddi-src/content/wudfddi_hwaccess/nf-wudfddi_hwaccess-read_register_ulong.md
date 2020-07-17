@@ -10,6 +10,7 @@ keywords: ["READ_REGISTER_ULONG function"]
 ms.keywords: READ_REGISTER_ULONG, READ_REGISTER_ULONG function, umdf.read_register_ulong, wdf.read_register_ulong, wudfddi_hwaccess/READ_REGISTER_ULONG
 f1_keywords:
  - "wudfddi_hwaccess/READ_REGISTER_ULONG"
+ - "READ_REGISTER_ULONG"
 req.header: wudfddi_hwaccess.h
 req.include-header: 
 req.target-type: Desktop

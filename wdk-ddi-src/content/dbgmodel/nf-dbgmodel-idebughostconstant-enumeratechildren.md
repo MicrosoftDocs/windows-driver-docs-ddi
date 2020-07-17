@@ -7,6 +7,7 @@ ms.date: 09/20/2018
 keywords: ["IDebugHostConstant::EnumerateChildren"]
 f1_keywords:
  - "dbgmodel/IDebugHostConstant.EnumerateChildren"
+ - "IDebugHostConstant.EnumerateChildren"
 ms.keywords: IDebugHostConstant::EnumerateChildren, EnumerateChildren, IDebugHostConstant.EnumerateChildren, IDebugHostConstant::EnumerateChildren, IDebugHostConstant.EnumerateChildren
 req.header: dbgmodel.h
 req.include-header:

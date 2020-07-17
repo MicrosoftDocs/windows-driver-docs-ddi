@@ -10,6 +10,7 @@ keywords: ["RILSETUICCLOCKENABLEDPARAMS structure"]
 ms.keywords: "*LPRILSETUICCLOCKENABLEDPARAMS, RILSETUICCLOCKENABLEDPARAMS, RILSETUICCLOCKENABLEDPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetuicclockenabledparams, ntddrilapitypes/RILSETUICCLOCKENABLEDPARAMS"
 f1_keywords:
  - "ntddrilapitypes/RILSETUICCLOCKENABLEDPARAMS"
+ - "RILSETUICCLOCKENABLEDPARAMS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

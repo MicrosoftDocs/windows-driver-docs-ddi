@@ -8,6 +8,7 @@ ms.date: 06/25/2018
 keywords: ["_NDIS_WWAN_MPDP_LIST structure"]
 f1_keywords:
  - "ndiswwan/_NDIS_WWAN_MPDP_LIST"
+ - "_NDIS_WWAN_MPDP_LIST"
 ms.keywords: _NDIS_WWAN_MPDP_LIST, NDIS_WWAN_MPDP_LIST, *PNDIS_WWAN_MPDP_LIST, 
 req.header: ndiswwan.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["StorPortFreeHostMemoryBuffer function"]
 ms.keywords: StorPortFreeHostMemoryBuffer, StorPortFreeHostMemoryBuffer routine [Storage Devices], storage.storportfreehostmemorybuffer, storport/StorPortFreeHostMemoryBuffer
 f1_keywords:
  - "storport/StorPortFreeHostMemoryBuffer"
+ - "StorPortFreeHostMemoryBuffer"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

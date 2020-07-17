@@ -10,6 +10,7 @@ keywords: ["IOCTL_SYSENV_ENUM_VARIABLES IOCTL"]
 ms.keywords: IOCTL_SYSENV_ENUM_VARIABLES, IOCTL_SYSENV_ENUM_VARIABLES control, IOCTL_SYSENV_ENUM_VARIABLES control code [Kernel-Mode Driver Architecture], kernel.ioctl_ioctl_sysenv_enum_variables, ntddsysenv/IOCTL_SYSENV_ENUM_VARIABLES
 f1_keywords:
  - "ntddsysenv/IOCTL_SYSENV_ENUM_VARIABLES"
+ - "IOCTL_SYSENV_ENUM_VARIABLES"
 req.header: ntddsysenv.h
 req.include-header: 
 req.target-type: Windows

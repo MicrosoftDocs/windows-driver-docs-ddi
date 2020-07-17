@@ -10,6 +10,7 @@ keywords: ["IUsbTargetPipeContinuousReaderCallbackReadersFailed::OnReaderFailure
 ms.keywords: IUsbTargetPipeContinuousReaderCallbackReadersFailed interface,OnReaderFailure method, IUsbTargetPipeContinuousReaderCallbackReadersFailed.OnReaderFailure, IUsbTargetPipeContinuousReaderCallbackReadersFailed::OnReaderFailure, OnReaderFailure, OnReaderFailure method, OnReaderFailure method,IUsbTargetPipeContinuousReaderCallbackReadersFailed interface, UMDFUSBref_01c8b9de-ab85-4cc6-abec-238dcda2b1e8.xml, umdf.iusbtargetpipecontinuousreadercallbackreadersfailed_onreaderfailure, wdf.iusbtargetpipecontinuousreadercallbackreadersfailed_onreaderfailure, wudfusb/IUsbTargetPipeContinuousReaderCallbackReadersFailed::OnReaderFailure
 f1_keywords:
  - "wudfusb/IUsbTargetPipeContinuousReaderCallbackReadersFailed.OnReaderFailure"
+ - "IUsbTargetPipeContinuousReaderCallbackReadersFailed.OnReaderFailure"
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
 req.target-type: Desktop

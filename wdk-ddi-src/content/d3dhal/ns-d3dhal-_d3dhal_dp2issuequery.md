@@ -10,6 +10,7 @@ keywords: ["_D3DHAL_DP2ISSUEQUERY structure"]
 ms.keywords: "*LPD3DHAL_DP2ISSUEQUERY, D3DHAL_DP2ISSUEQUERY, D3DHAL_DP2ISSUEQUERY structure [Display Devices], LPD3DHAL_DP2ISSUEQUERY, LPD3DHAL_DP2ISSUEQUERY structure pointer [Display Devices], _D3DHAL_DP2ISSUEQUERY, d3dhal/D3DHAL_DP2ISSUEQUERY, d3dhal/LPD3DHAL_DP2ISSUEQUERY, d3dstrct_bc6a2c98-b3cf-4161-8aca-fadda2a6cceb.xml, display.d3dhal_dp2issuequery"
 f1_keywords:
  - "d3dhal/D3DHAL_DP2ISSUEQUERY"
+ - "D3DHAL_DP2ISSUEQUERY"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows

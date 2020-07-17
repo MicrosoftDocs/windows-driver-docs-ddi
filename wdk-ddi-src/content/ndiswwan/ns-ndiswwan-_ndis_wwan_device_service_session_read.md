@@ -10,6 +10,7 @@ keywords: ["_NDIS_WWAN_DEVICE_SERVICE_SESSION_READ structure"]
 ms.keywords: "*PNDIS_WWAN_DEVICE_SERVICE_SESSION_READ, NDIS_WWAN_DEVICE_SERVICE_SESSION_READ, NDIS_WWAN_DEVICE_SERVICE_SESSION_READ structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_DEVICE_SERVICE_SESSION_READ, PNDIS_WWAN_DEVICE_SERVICE_SESSION_READ structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_DEVICE_SERVICE_SESSION_READ, ndiswwan/NDIS_WWAN_DEVICE_SERVICE_SESSION_READ, ndiswwan/PNDIS_WWAN_DEVICE_SERVICE_SESSION_READ, netvista.ndis_wwan_device_service_session_read"
 f1_keywords:
  - "ndiswwan/NDIS_WWAN_DEVICE_SERVICE_SESSION_READ"
+ - "NDIS_WWAN_DEVICE_SERVICE_SESSION_READ"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows

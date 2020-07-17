@@ -7,6 +7,7 @@ ms.date: 09/20/2018
 keywords: ["IDebugHostContext::IsEqualTo"]
 f1_keywords:
  - "dbgmodel/IDebugHostContext.IsEqualTo"
+ - "IDebugHostContext.IsEqualTo"
 ms.keywords: IDebugHostContext::IsEqualTo, IsEqualTo, IDebugHostContext.IsEqualTo, IDebugHostContext::IsEqualTo, IDebugHostContext.IsEqualTo
 req.header: dbgmodel.h
 req.include-header:

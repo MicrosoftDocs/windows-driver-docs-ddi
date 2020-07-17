@@ -10,6 +10,7 @@ keywords: ["IStiDeviceControl::GetMyDeviceHandle"]
 ms.keywords: GetMyDeviceHandle, GetMyDeviceHandle method [Imaging Devices], GetMyDeviceHandle method [Imaging Devices],IStiDeviceControl interface, IStiDeviceControl interface [Imaging Devices],GetMyDeviceHandle method, IStiDeviceControl.GetMyDeviceHandle, IStiDeviceControl::GetMyDeviceHandle, image.istidevicecontrol_getmydevicehandle, stiusd/IStiDeviceControl::GetMyDeviceHandle
 f1_keywords:
  - "stiusd/IStiDeviceControl.GetMyDeviceHandle"
+ - "IStiDeviceControl.GetMyDeviceHandle"
 req.header: stiusd.h
 req.include-header: 
 req.target-type: Windows

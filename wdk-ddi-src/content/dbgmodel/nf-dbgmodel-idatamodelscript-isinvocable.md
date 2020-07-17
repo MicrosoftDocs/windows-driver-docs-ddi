@@ -7,6 +7,7 @@ ms.date: 08/20/2018
 keywords: ["IDataModelScript::IsInvocable"]
 f1_keywords:
  - "dbgmodel/IDataModelScript.IsInvocable"
+ - "IDataModelScript.IsInvocable"
 ms.keywords: IDataModelScript::IsInvocable, IsInvocable, IDataModelScript.IsInvocable, IDataModelScript::IsInvocable, IDataModelScript.IsInvocable
 req.header: dbgmodel.h
 req.include-header:

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_KTRIAGE_DUMP_DATA_ARRAY structure"]
 f1_keywords:
  - "wdm/_KTRIAGE_DUMP_DATA_ARRAY"
+ - "_KTRIAGE_DUMP_DATA_ARRAY"
 ms.keywords: _KTRIAGE_DUMP_DATA_ARRAY, PKTRIAGE_DUMP_DATA_ARRAY, KTRIAGE_DUMP_DATA_ARRAY, 
 req.header: wdm.h
 req.include-header:

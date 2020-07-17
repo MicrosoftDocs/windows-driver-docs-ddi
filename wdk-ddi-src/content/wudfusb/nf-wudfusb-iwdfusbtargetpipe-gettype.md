@@ -10,6 +10,7 @@ keywords: ["IWDFUsbTargetPipe::GetType"]
 ms.keywords: GetType, GetType method, GetType method,IWDFUsbTargetPipe interface, IWDFUsbTargetPipe interface,GetType method, IWDFUsbTargetPipe.GetType, IWDFUsbTargetPipe::GetType, UMDFUSBref_792b0720-a0c3-45da-b5e8-7b2f3a0c3770.xml, umdf.iwdfusbtargetpipe_gettype, wdf.iwdfusbtargetpipe_gettype, wudfusb/IWDFUsbTargetPipe::GetType
 f1_keywords:
  - "wudfusb/IWDFUsbTargetPipe.GetType"
+ - "IWDFUsbTargetPipe.GetType"
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
 req.target-type: Desktop

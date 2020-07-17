@@ -10,6 +10,7 @@ keywords: ["DOT11EXTIHV_RECEIVE_INDICATION callback"]
 ms.keywords: DOT11EXTIHV_RECEIVE_INDICATION, Dot11ExtIhvReceiveIndication, Dot11ExtIhvReceiveIndication callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_f3bf018e-2849-4abc-af5b-4edb3438339f.xml, netvista.dot11extihvreceiveindication, wlanihv/Dot11ExtIhvReceiveIndication
 f1_keywords:
  - "wlanihv/Dot11ExtIhvReceiveIndication"
+ - "Dot11ExtIhvReceiveIndication"
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Desktop

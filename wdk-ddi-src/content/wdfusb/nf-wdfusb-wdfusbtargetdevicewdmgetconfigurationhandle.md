@@ -10,6 +10,7 @@ keywords: ["WdfUsbTargetDeviceWdmGetConfigurationHandle function"]
 ms.keywords: DFUsbRef_503d3873-7148-4084-b56e-199b7437511b.xml, WdfUsbTargetDeviceWdmGetConfigurationHandle, WdfUsbTargetDeviceWdmGetConfigurationHandle method, kmdf.wdfusbtargetdevicewdmgetconfigurationhandle, wdf.wdfusbtargetdevicewdmgetconfigurationhandle, wdfusb/WdfUsbTargetDeviceWdmGetConfigurationHandle
 f1_keywords:
  - "wdfusb/WdfUsbTargetDeviceWdmGetConfigurationHandle"
+ - "WdfUsbTargetDeviceWdmGetConfigurationHandle"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal

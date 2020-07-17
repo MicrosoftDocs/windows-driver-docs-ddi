@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["_DXGK_VIRTUALGPUPROFILE structure"]
 f1_keywords:
  - "dispmprt/_DXGK_VIRTUALGPUPROFILE"
+ - "_DXGK_VIRTUALGPUPROFILE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: _DXGK_VIRTUALGPUPROFILE, DXGK_VIRTUALGPUPROFILE, *PDXGK_VIRTUALGPUPROFILE, 

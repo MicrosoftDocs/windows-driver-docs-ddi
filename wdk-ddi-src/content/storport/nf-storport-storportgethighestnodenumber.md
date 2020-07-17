@@ -10,6 +10,7 @@ keywords: ["StorPortGetHighestNodeNumber function"]
 ms.keywords: StorPortGetHighestNodeNumber, StorPortGetHighestNodeNumber routine [Storage Devices], storage.storportgethighestnodenumber, storport/StorPortGetHighestNodeNumber, storprt_e9e942e1-6de3-4170-87ec-00660ce9925a.xml
 f1_keywords:
  - "storport/StorPortGetHighestNodeNumber"
+ - "StorPortGetHighestNodeNumber"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

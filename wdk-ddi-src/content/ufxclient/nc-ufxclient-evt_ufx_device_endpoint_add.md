@@ -10,6 +10,7 @@ keywords: ["EVT_UFX_DEVICE_ENDPOINT_ADD callback function"]
 ms.keywords: EVT_UFX_DEVICE_ENDPOINT_ADD, EVT_UFX_DEVICE_ENDPOINT_ADD callback, EvtUfxDeviceEndpointAdd, EvtUfxDeviceEndpointAdd callback function [Buses], PFN_UFX_DEVICE_ENDPOINT_ADD, PFN_UFX_DEVICE_ENDPOINT_ADD callback function pointer [Buses], buses.evt_ufx_device_endpoint_add, ufxclient/EvtUfxDeviceEndpointAdd
 f1_keywords:
  - "ufxclient/PFN_UFX_DEVICE_ENDPOINT_ADD"
+ - "PFN_UFX_DEVICE_ENDPOINT_ADD"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows

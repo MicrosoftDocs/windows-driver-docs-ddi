@@ -10,6 +10,7 @@ keywords: ["FltAttachVolume function"]
 ms.keywords: FltApiRef_a_to_d_f4ac8b0d-55c2-45b1-8f3b-3a09bee7bb23.xml, FltAttachVolume, FltAttachVolume function [Installable File System Drivers], fltkernel/FltAttachVolume, ifsk.fltattachvolume
 f1_keywords:
  - "fltkernel/FltAttachVolume"
+ - "FltAttachVolume"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

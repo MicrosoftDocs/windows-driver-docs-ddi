@@ -10,6 +10,7 @@ keywords: ["NdisRawReadPortUshort macro"]
 ms.keywords: NdisRawReadPortUshort, NdisRawReadPortUshort macro [Network Drivers Starting with Windows Vista], miniport_port_raw_ref_5d9255b3-3679-4cd2-bc07-baa0dc2c684f.xml, ndis/NdisRawReadPortUshort, netvista.ndisrawreadportushort
 f1_keywords:
  - "ndis/NdisRawReadPortUshort"
+ - "NdisRawReadPortUshort"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

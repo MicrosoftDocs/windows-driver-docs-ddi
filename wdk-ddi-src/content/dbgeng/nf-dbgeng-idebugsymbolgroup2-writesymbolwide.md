@@ -10,6 +10,7 @@ keywords: ["IDebugSymbolGroup2::WriteSymbolWide"]
 ms.keywords: IDebugSymbolGroup2 interface [Windows Debugging],WriteSymbolWide method, IDebugSymbolGroup2.WriteSymbolWide, IDebugSymbolGroup2::WriteSymbolWide, WriteSymbolWide, WriteSymbolWide method [Windows Debugging], WriteSymbolWide method [Windows Debugging],IDebugSymbolGroup2 interface, dbgeng/IDebugSymbolGroup2::WriteSymbolWide, debugger.writesymbolwide
 f1_keywords:
  - "dbgeng/IDebugSymbolGroup2.WriteSymbolWide"
+ - "IDebugSymbolGroup2.WriteSymbolWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

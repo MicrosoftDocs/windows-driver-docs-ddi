@@ -8,6 +8,7 @@ ms.date: 06/25/2018
 keywords: ["_WWAN_MPDP_OPERATION enumeration"]
 f1_keywords:
  - "ndiswwan/_WWAN_MPDP_OPERATION"
+ - "_WWAN_MPDP_OPERATION"
 ms.keywords: _WWAN_MPDP_OPERATION, WWAN_MPDP_OPERATION, *PWWAN_MPDP_OPERATION, 
 req.header: ndiswwan.h
 req.include-header:

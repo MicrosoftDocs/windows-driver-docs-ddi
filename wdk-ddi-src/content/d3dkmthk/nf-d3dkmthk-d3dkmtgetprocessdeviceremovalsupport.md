@@ -7,6 +7,7 @@ ms.date: 08/03/2018
 keywords: ["D3DKMTGetProcessDeviceRemovalSupport function"]
 f1_keywords:
  - "d3dkmthk/D3DKMTGetProcessDeviceRemovalSupport"
+ - "D3DKMTGetProcessDeviceRemovalSupport"
 ms.keywords: D3DKMTGetProcessDeviceRemovalSupport
 req.header: d3dkmthk.h
 req.include-header:

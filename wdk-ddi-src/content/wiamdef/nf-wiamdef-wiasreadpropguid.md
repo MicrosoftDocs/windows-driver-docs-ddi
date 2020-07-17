@@ -10,6 +10,7 @@ keywords: ["wiasReadPropGuid function"]
 ms.keywords: image.wiasreadpropguid, wiamdef/wiasReadPropGuid, wiasFncs_80e78a38-5f47-4bd3-b071-62eebc65fd6f.xml, wiasReadPropGuid, wiasReadPropGuid function [Imaging Devices]
 f1_keywords:
  - "wiamdef/wiasReadPropGuid"
+ - "wiasReadPropGuid"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop

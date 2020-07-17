@@ -10,6 +10,7 @@ keywords: ["WdfUsbInterfaceGetDescriptor function"]
 ms.keywords: DFUsbRef_eb98efa1-720d-408c-824f-59cfef80bbba.xml, WdfUsbInterfaceGetDescriptor, WdfUsbInterfaceGetDescriptor method, kmdf.wdfusbinterfacegetdescriptor, wdf.wdfusbinterfacegetdescriptor, wdfusb/WdfUsbInterfaceGetDescriptor
 f1_keywords:
  - "wdfusb/WdfUsbInterfaceGetDescriptor"
+ - "WdfUsbInterfaceGetDescriptor"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["_ATTRIBUTE_INFO_2 structure"]
 ms.keywords: "*PATTRIBUTE_INFO_2, ATTRIBUTE_INFO_2, ATTRIBUTE_INFO_2 structure [Print Devices], PATTRIBUTE_INFO_2, PATTRIBUTE_INFO_2 structure pointer [Print Devices], _ATTRIBUTE_INFO_2, print.attribute_info_2, print_interface-graphics_681158ae-a9ad-40f6-a3de-c82cda7156e0.xml, winddiui/ATTRIBUTE_INFO_2, winddiui/PATTRIBUTE_INFO_2"
 f1_keywords:
  - "winddiui/ATTRIBUTE_INFO_2"
+ - "ATTRIBUTE_INFO_2"
 req.header: winddiui.h
 req.include-header: Winddiui.h
 req.target-type: Windows

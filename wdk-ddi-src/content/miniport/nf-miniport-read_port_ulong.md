@@ -10,6 +10,7 @@ keywords: ["READ_PORT_ULONG function"]
 ms.keywords: READ_PORT_ULONG, READ_PORT_ULONG routine [Kernel-Mode Driver Architecture], k103_04794cc7-88eb-4456-8613-6fcf9947ebe4.xml, kernel.read_port_ulong, wdm/READ_PORT_ULONG
 f1_keywords:
  - "miniport/READ_PORT_ULONG"
+ - "READ_PORT_ULONG"
 req.header: miniport.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Ioaccess.h, Miniport.h
 req.target-type: Universal

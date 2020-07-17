@@ -10,6 +10,7 @@ keywords: ["IPrintSchemaElement::get_XmlNode"]
 ms.keywords: IPrintSchemaElement interface [Print Devices],XmlNode property, IPrintSchemaElement.XmlNode, IPrintSchemaElement.get_XmlNode, IPrintSchemaElement::XmlNode, IPrintSchemaElement::get_XmlNode, XmlNode property [Print Devices], XmlNode property [Print Devices],IPrintSchemaElement interface, get_XmlNode, print.iprintschemaelement_xmlnode, printerextension/IPrintSchemaElement::XmlNode, printerextension/IPrintSchemaElement::get_XmlNode
 f1_keywords:
  - "printerextension/IPrintSchemaElement.XmlNode"
+ - "IPrintSchemaElement.XmlNode"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

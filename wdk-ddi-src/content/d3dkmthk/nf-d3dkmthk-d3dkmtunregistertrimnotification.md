@@ -9,6 +9,7 @@ keywords: ["D3DKMTUnregisterTrimNotification function"]
 ms.keywords: D3DKMTUnregisterTrimNotification, D3DKMTUnregisterTrimNotification function [Display Devices], d3dkmthk/D3DKMTUnregisterTrimNotification, display.d3dkmtunregistertrimnotification
 f1_keywords:
  - "d3dkmthk/D3DKMTUnregisterTrimNotification"
+ - "D3DKMTUnregisterTrimNotification"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

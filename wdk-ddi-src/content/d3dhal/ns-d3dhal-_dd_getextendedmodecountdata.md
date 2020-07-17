@@ -10,6 +10,7 @@ keywords: ["_DD_GETEXTENDEDMODECOUNTDATA structure"]
 ms.keywords: DD_GETEXTENDEDMODECOUNTDATA, DD_GETEXTENDEDMODECOUNTDATA structure [Display Devices], _DD_GETEXTENDEDMODECOUNTDATA, d3dhal/DD_GETEXTENDEDMODECOUNTDATA, d3dstrct_2139722c-6eff-4c77-b899-2085de6239fd.xml, display.dd_getextendedmodecountdata
 f1_keywords:
  - "d3dhal/DD_GETEXTENDEDMODECOUNTDATA"
+ - "DD_GETEXTENDEDMODECOUNTDATA"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows

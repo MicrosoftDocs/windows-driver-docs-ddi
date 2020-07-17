@@ -10,6 +10,7 @@ keywords: ["KeDeregisterBugCheckCallback function"]
 ms.keywords: KeDeregisterBugCheckCallback, KeDeregisterBugCheckCallback routine [Kernel-Mode Driver Architecture], k105_6bb11ae2-ceb1-4640-b59c-47b42496b819.xml, kernel.kederegisterbugcheckcallback, wdm/KeDeregisterBugCheckCallback
 f1_keywords:
  - "wdm/KeDeregisterBugCheckCallback"
+ - "KeDeregisterBugCheckCallback"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

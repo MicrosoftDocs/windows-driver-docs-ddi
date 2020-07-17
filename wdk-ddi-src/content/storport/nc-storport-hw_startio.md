@@ -10,6 +10,7 @@ keywords: ["HW_STARTIO callback function"]
 ms.keywords: HW_STARTIO, HwStorStartIo, HwStorStartIo routine [Storage Devices], storage.hwstorstartio, stormini_8f910467-49f3-4f15-919d-84edee8ad053.xml, storport/HwStorStartIo
 f1_keywords:
  - "storport/HwStorStartIo"
+ - "HwStorStartIo"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

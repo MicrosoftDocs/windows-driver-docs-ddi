@@ -10,6 +10,7 @@ keywords: ["FwpsFlowAssociateContext0 function"]
 ms.keywords: FwpsFlowAssociateContext0, FwpsFlowAssociateContext0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsFlowAssociateContext0, netvista.fwpsflowassociatecontext0, wfp_ref_2_funct_3_fwps_D-H_a700b313-fb1e-4b66-a3be-837b1a2d89b3.xml
 f1_keywords:
  - "fwpsk/FwpsFlowAssociateContext0"
+ - "FwpsFlowAssociateContext0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal

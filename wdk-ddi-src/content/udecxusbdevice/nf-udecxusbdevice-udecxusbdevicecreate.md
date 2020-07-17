@@ -10,6 +10,7 @@ keywords: ["UdecxUsbDeviceCreate function"]
 ms.keywords: UdecxUsbDeviceCreate, UdecxUsbDeviceCreate function [Buses], buses.udecxusbdevicecreate, udecxusbdevice/UdecxUsbDeviceCreate
 f1_keywords:
  - "udecxusbdevice/UdecxUsbDeviceCreate"
+ - "UdecxUsbDeviceCreate"
 req.header: udecxusbdevice.h
 req.include-header: Udecx.h
 req.target-type: Windows

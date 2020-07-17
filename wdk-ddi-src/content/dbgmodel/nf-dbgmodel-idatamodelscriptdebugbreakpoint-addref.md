@@ -7,6 +7,7 @@ ms.date: 09/21/2018
 keywords: ["IDataModelScriptDebugBreakpoint::AddRef"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebugBreakpoint.AddRef"
+ - "IDataModelScriptDebugBreakpoint.AddRef"
 ms.keywords: IDataModelScriptDebugBreakpoint::AddRef, AddRef, IDataModelScriptDebugBreakpoint.AddRef, IDataModelScriptDebugBreakpoint::AddRef, IDataModelScriptDebugBreakpoint.AddRef
 req.header: dbgmodel.h
 req.include-header:

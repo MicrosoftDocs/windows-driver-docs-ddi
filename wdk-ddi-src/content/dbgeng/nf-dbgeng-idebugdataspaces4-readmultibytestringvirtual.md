@@ -10,6 +10,7 @@ keywords: ["IDebugDataSpaces4::ReadMultiByteStringVirtual"]
 ms.keywords: IDebugDataSpaces4 interface [Windows Debugging],ReadMultiByteStringVirtual method, IDebugDataSpaces4.ReadMultiByteStringVirtual, IDebugDataSpaces4::ReadMultiByteStringVirtual, IDebugDataSpaces_43ca08e3-d4f0-43f8-b84e-514d3b52c6c4.xml, ReadMultiByteStringVirtual, ReadMultiByteStringVirtual method [Windows Debugging], ReadMultiByteStringVirtual method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces4::ReadMultiByteStringVirtual, debugger.readmultibytestringvirtual
 f1_keywords:
  - "dbgeng/IDebugDataSpaces4.ReadMultiByteStringVirtual"
+ - "IDebugDataSpaces4.ReadMultiByteStringVirtual"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["VideoPortReleaseBuffer function"]
 ms.keywords: VideoPortReleaseBuffer, VideoPortReleaseBuffer function [Display Devices], VideoPort_Functions_908af223-2ee5-4e86-b5ab-47f7f3cc459b.xml, display.videoportreleasebuffer, video/VideoPortReleaseBuffer
 f1_keywords:
  - "video/VideoPortReleaseBuffer"
+ - "VideoPortReleaseBuffer"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

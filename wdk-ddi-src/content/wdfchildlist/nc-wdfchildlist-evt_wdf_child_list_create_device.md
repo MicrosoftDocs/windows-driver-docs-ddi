@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_CHILD_LIST_CREATE_DEVICE callback function"]
 ms.keywords: DFDeviceObjectChildListRef_e3abb118-d40f-46f5-9b70-80d0fc8c531f.xml, EVT_WDF_CHILD_LIST_CREATE_DEVICE, EVT_WDF_CHILD_LIST_CREATE_DEVICE callback, EvtChildListCreateDevice, EvtChildListCreateDevice callback function, kmdf.evtchildlistcreatedevice, wdf.evtchildlistcreatedevice, wdfchildlist/EvtChildListCreateDevice
 f1_keywords:
  - "wdfchildlist/EvtChildListCreateDevice"
+ - "EvtChildListCreateDevice"
 req.header: wdfchildlist.h
 req.include-header: Wdf.h
 req.target-type: Universal

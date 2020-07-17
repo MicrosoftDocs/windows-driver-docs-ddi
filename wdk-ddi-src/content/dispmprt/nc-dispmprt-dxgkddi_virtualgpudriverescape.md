@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DXGKDDI_VIRTUALGPUDRIVERESCAPE callback function"]
 f1_keywords:
  - "dispmprt/DXGKDDI_VIRTUALGPUDRIVERESCAPE"
+ - "DXGKDDI_VIRTUALGPUDRIVERESCAPE"
 req.header: dispmprt.h
 req.include-header:
 req.target-type:

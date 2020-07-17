@@ -10,6 +10,7 @@ keywords: ["GET_DMA_ADAPTER callback function"]
 ms.keywords: GET_DMA_ADAPTER, GetDmaAdapter, GetDmaAdapter routine [Kernel-Mode Driver Architecture], drvr_interface_5c7fd89d-0b6c-45e7-8559-8666f43beb9a.xml, kernel.busgetdmaadapter, kernel.getdmaadapter, ntddk/GetDmaAdapter
 f1_keywords:
  - "wdm/GetDmaAdapter"
+ - "GetDmaAdapter"
 req.header: wdm.h
 req.include-header: Ntddk.h, Wdm.h
 req.target-type: Desktop

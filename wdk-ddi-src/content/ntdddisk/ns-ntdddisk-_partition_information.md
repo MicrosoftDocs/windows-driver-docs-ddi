@@ -10,6 +10,7 @@ keywords: ["_PARTITION_INFORMATION structure"]
 ms.keywords: "*PPARTITION_INFORMATION, PARTITION_INFORMATION, PARTITION_INFORMATION structure [Storage Devices], PPARTITION_INFORMATION, PPARTITION_INFORMATION structure pointer [Storage Devices], _PARTITION_INFORMATION, ntdddisk/PARTITION_INFORMATION, ntdddisk/PPARTITION_INFORMATION, storage.partition_information, structs-disk_19ff49c5-6929-46fb-a9c2-4850969a99a8.xml"
 f1_keywords:
  - "ntdddisk/PARTITION_INFORMATION"
+ - "PARTITION_INFORMATION"
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h
 req.target-type: Windows

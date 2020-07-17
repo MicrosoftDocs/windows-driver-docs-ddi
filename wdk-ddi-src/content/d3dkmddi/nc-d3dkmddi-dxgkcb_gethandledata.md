@@ -9,6 +9,7 @@ keywords: ["DXGKCB_GETHANDLEDATA callback function"]
 ms.keywords: DXGKCB_GETHANDLEDATA, DXGKCB_GETHANDLEDATA callback, DpFunctions_74327569-9de1-4396-928b-0350e622740f.xml, DxgkCbGetHandleData, DxgkCbGetHandleData callback function [Display Devices], d3dkmddi/DxgkCbGetHandleData, display.dxgkcbgethandledata
 f1_keywords:
  - "d3dkmddi/DxgkCbGetHandleData"
+ - "DxgkCbGetHandleData"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop

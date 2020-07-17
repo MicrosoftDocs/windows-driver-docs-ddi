@@ -10,6 +10,7 @@ keywords: ["RILCALLFORWARDINGSETTINGS structure"]
 ms.keywords: "*LPRILCALLFORWARDINGSETTINGS, RILCALLFORWARDINGSETTINGS, RILCALLFORWARDINGSETTINGS structure [Network Drivers Starting with Windows Vista], netvista.rilcallforwardingsettings, ntddrilapitypes/RILCALLFORWARDINGSETTINGS"
 f1_keywords:
  - "rilapitypes/RILCALLFORWARDINGSETTINGS"
+ - "RILCALLFORWARDINGSETTINGS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

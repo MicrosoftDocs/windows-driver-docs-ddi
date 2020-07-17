@@ -10,6 +10,7 @@ keywords: ["IPrintCoreUI2::QuerySimulationSupport"]
 ms.keywords: IPrintCoreUI2 interface [Print Devices],QuerySimulationSupport method, IPrintCoreUI2.QuerySimulationSupport, IPrintCoreUI2::QuerySimulationSupport, QuerySimulationSupport, QuerySimulationSupport method [Print Devices], QuerySimulationSupport method [Print Devices],IPrintCoreUI2 interface, prcomoem/IPrintCoreUI2::QuerySimulationSupport, print.iprintcoreui2_querysimulationsupport, print_unidrv-pscript_ui_96f40d94-5dfc-4707-ac4d-0f043a829dd2.xml
 f1_keywords:
  - "prcomoem/IPrintCoreUI2.QuerySimulationSupport"
+ - "IPrintCoreUI2.QuerySimulationSupport"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["SeSinglePrivilegeCheck function"]
 ms.keywords: SeSinglePrivilegeCheck, SeSinglePrivilegeCheck routine [Kernel-Mode Driver Architecture], k110_ee767278-7c5f-4dcd-b328-e9219b453a84.xml, kernel.sesingleprivilegecheck, ntddk/SeSinglePrivilegeCheck
 f1_keywords:
  - "ntddk/SeSinglePrivilegeCheck"
+ - "SeSinglePrivilegeCheck"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

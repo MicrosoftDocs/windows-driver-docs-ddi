@@ -10,6 +10,7 @@ keywords: ["wiasSetPropertyAttributes function"]
 ms.keywords: image.wiassetpropertyattributes, wiamdef/wiasSetPropertyAttributes, wiasFncs_630b9e1f-49f8-433e-b0f0-19e7e6c32460.xml, wiasSetPropertyAttributes, wiasSetPropertyAttributes function [Imaging Devices]
 f1_keywords:
  - "wiamdef/wiasSetPropertyAttributes"
+ - "wiasSetPropertyAttributes"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop

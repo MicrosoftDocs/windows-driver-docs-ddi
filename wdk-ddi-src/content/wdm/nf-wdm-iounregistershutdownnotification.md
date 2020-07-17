@@ -10,6 +10,7 @@ keywords: ["IoUnregisterShutdownNotification function"]
 ms.keywords: IoUnregisterShutdownNotification, IoUnregisterShutdownNotification routine [Kernel-Mode Driver Architecture], k104_f242a3dc-8338-4d64-bad7-0cca78c30a45.xml, kernel.iounregistershutdownnotification, wdm/IoUnregisterShutdownNotification
 f1_keywords:
  - "wdm/IoUnregisterShutdownNotification"
+ - "IoUnregisterShutdownNotification"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

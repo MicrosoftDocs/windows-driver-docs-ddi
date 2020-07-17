@@ -10,6 +10,7 @@ keywords: ["operator= function"]
 ms.keywords: ExtRemoteTyped class [Windows Debugging], operator= method, debugger.extremotetyped_operatorequals_debug_typed_data, operator=, operator= method [Windows Debugging], operator= method [Windows Debugging], ExtRemoteTyped class
 f1_keywords:
  - "wexlogtrace/ExtRemoteTyped.operator="
+ - "ExtRemoteTyped.operator="
 req.header: wexlogtrace.h
 req.include-header: Engextcpp.hpp, Wexlogtrace.h, Wextestclass.h, Wextestclass.h
 req.target-type: Desktop

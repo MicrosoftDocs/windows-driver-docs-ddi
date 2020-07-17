@@ -7,6 +7,7 @@ ms.date: 08/13/2018
 keywords: ["IModelIterator::QueryInterface"]
 f1_keywords:
  - "dbgmodel/IModelIterator.QueryInterface"
+ - "IModelIterator.QueryInterface"
 ms.keywords: IModelIterator::QueryInterface, QueryInterface, IModelIterator.QueryInterface, IModelIterator::QueryInterface, IModelIterator.QueryInterface
 req.header: dbgmodel.h
 req.include-header:

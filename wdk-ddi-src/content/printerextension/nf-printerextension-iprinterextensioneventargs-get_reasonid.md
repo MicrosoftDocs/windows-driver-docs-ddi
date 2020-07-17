@@ -10,6 +10,7 @@ keywords: ["IPrinterExtensionEventArgs::get_ReasonId"]
 ms.keywords: IPrinterExtensionEventArgs interface [Print Devices],ReasonId property, IPrinterExtensionEventArgs.ReasonId, IPrinterExtensionEventArgs.get_ReasonId, IPrinterExtensionEventArgs::ReasonId, IPrinterExtensionEventArgs::get_ReasonId, ReasonId property [Print Devices], ReasonId property [Print Devices],IPrinterExtensionEventArgs interface, get_ReasonId, print.iprinterextensioneventargs_reasonid, printerextension/IPrinterExtensionEventArgs::ReasonId, printerextension/IPrinterExtensionEventArgs::get_ReasonId
 f1_keywords:
  - "printerextension/IPrinterExtensionEventArgs.ReasonId"
+ - "IPrinterExtensionEventArgs.ReasonId"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

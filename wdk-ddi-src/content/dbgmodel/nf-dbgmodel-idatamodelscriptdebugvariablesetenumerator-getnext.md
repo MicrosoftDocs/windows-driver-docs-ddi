@@ -7,6 +7,7 @@ ms.date: 09/10/2018
 keywords: ["IDataModelScriptDebugVariableSetEnumerator::GetNext"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebugVariableSetEnumerator.GetNext"
+ - "IDataModelScriptDebugVariableSetEnumerator.GetNext"
 ms.keywords: IDataModelScriptDebugVariableSetEnumerator::GetNext, GetNext, IDataModelScriptDebugVariableSetEnumerator.GetNext, IDataModelScriptDebugVariableSetEnumerator::GetNext, IDataModelScriptDebugVariableSetEnumerator.GetNext
 req.header: dbgmodel.h
 req.include-header:

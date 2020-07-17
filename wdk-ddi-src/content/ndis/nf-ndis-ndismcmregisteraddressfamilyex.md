@@ -10,6 +10,7 @@ keywords: ["NdisMCmRegisterAddressFamilyEx function"]
 ms.keywords: NdisMCmRegisterAddressFamilyEx, NdisMCmRegisterAddressFamilyEx function [Network Drivers Starting with Windows Vista], condis_mcm_ref_9e0ef0aa-0fa8-4f40-a225-8908099356bc.xml, ndis/NdisMCmRegisterAddressFamilyEx, netvista.ndismcmregisteraddressfamilyex
 f1_keywords:
  - "ndis/NdisMCmRegisterAddressFamilyEx"
+ - "NdisMCmRegisterAddressFamilyEx"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

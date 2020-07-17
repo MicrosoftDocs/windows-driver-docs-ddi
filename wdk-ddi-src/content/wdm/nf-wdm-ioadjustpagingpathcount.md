@@ -10,6 +10,7 @@ keywords: ["IoAdjustPagingPathCount macro"]
 ms.keywords: IoAdjustPagingPathCount, IoAdjustPagingPathCount routine [Kernel-Mode Driver Architecture], k104_f52acd6d-f3f6-43c2-a339-3060a12a6298.xml, kernel.ioadjustpagingpathcount, wdm/IoAdjustPagingPathCount
 f1_keywords:
  - "wdm/IoAdjustPagingPathCount"
+ - "IoAdjustPagingPathCount"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

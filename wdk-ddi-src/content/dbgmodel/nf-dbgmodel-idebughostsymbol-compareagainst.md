@@ -7,6 +7,7 @@ ms.date: 09/11/2018
 keywords: ["IDebugHostSymbol::CompareAgainst"]
 f1_keywords:
  - "dbgmodel/IDebugHostSymbol.CompareAgainst"
+ - "IDebugHostSymbol.CompareAgainst"
 ms.keywords: IDebugHostSymbol::CompareAgainst, CompareAgainst, IDebugHostSymbol.CompareAgainst, IDebugHostSymbol::CompareAgainst, IDebugHostSymbol.CompareAgainst
 req.header: dbgmodel.h
 req.include-header:

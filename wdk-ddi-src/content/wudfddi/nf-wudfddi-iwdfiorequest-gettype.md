@@ -10,6 +10,7 @@ keywords: ["IWDFIoRequest::GetType"]
 ms.keywords: GetType, GetType method, GetType method,IWDFIoRequest interface, IWDFIoRequest interface,GetType method, IWDFIoRequest.GetType, IWDFIoRequest::GetType, UMDFRequestObjectRef_8f8bc7b0-b527-4325-a2dc-a9ef5e73cc28.xml, umdf.iwdfiorequest_gettype, wdf.iwdfiorequest_gettype, wudfddi/IWDFIoRequest::GetType
 f1_keywords:
  - "wudfddi/IWDFIoRequest.GetType"
+ - "IWDFIoRequest.GetType"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

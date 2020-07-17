@@ -10,6 +10,7 @@ keywords: ["NdisFPauseComplete function"]
 ms.keywords: NdisFPauseComplete, NdisFPauseComplete function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_2f2cd8ef-a148-49d2-a00d-ec0acef7e310.xml, ndis/NdisFPauseComplete, netvista.ndisfpausecomplete
 f1_keywords:
  - "ndis/NdisFPauseComplete"
+ - "NdisFPauseComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

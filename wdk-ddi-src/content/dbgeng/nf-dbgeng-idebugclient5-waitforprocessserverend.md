@@ -10,6 +10,7 @@ keywords: ["IDebugClient5::WaitForProcessServerEnd"]
 ms.keywords: IDebugClient2 interface [Windows Debugging],WaitForProcessServerEnd method, IDebugClient2::WaitForProcessServerEnd, IDebugClient3 interface [Windows Debugging],WaitForProcessServerEnd method, IDebugClient3::WaitForProcessServerEnd, IDebugClient4 interface [Windows Debugging],WaitForProcessServerEnd method, IDebugClient4::WaitForProcessServerEnd, IDebugClient5 interface [Windows Debugging],WaitForProcessServerEnd method, IDebugClient5.WaitForProcessServerEnd, IDebugClient5::WaitForProcessServerEnd, IDebugClient_ac54327c-85c5-41ab-906f-605d374a0e2d.xml, WaitForProcessServerEnd, WaitForProcessServerEnd method [Windows Debugging], WaitForProcessServerEnd method [Windows Debugging],IDebugClient2 interface, WaitForProcessServerEnd method [Windows Debugging],IDebugClient3 interface, WaitForProcessServerEnd method [Windows Debugging],IDebugClient4 interface, WaitForProcessServerEnd method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient2::WaitForProcessServerEnd, dbgeng/IDebugClient3::WaitForProcessServerEnd, dbgeng/IDebugClient4::WaitForProcessServerEnd, dbgeng/IDebugClient5::WaitForProcessServerEnd, debugger.waitforprocessserverend
 f1_keywords:
  - "dbgeng/IDebugClient2.WaitForProcessServerEnd"
+ - "IDebugClient2.WaitForProcessServerEnd"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h, Winbase.h
 req.target-type: Desktop

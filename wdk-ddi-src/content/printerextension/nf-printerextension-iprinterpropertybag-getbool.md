@@ -10,6 +10,7 @@ keywords: ["IPrinterPropertyBag::GetBool"]
 ms.keywords: GetBool, GetBool method [Print Devices], GetBool method [Print Devices],IPrinterPropertyBag interface, IPrinterPropertyBag interface [Print Devices],GetBool method, IPrinterPropertyBag.GetBool, IPrinterPropertyBag::GetBool, print.iprinterpropertybag_getbool, printerextension/IPrinterPropertyBag::GetBool
 f1_keywords:
  - "printerextension/IPrinterPropertyBag.GetBool"
+ - "IPrinterPropertyBag.GetBool"
 req.header: printerextension.h
 req.include-header: Printerextension.h
 req.target-type: Desktop

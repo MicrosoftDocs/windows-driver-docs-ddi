@@ -7,6 +7,7 @@ ms.date: 09/11/2018
 keywords: ["IDataModelManager2::UnregisterNamedModel"]
 f1_keywords:
  - "dbgmodel/IDataModelManager2.UnregisterNamedModel"
+ - "IDataModelManager2.UnregisterNamedModel"
 ms.keywords: IDataModelManager2::UnregisterNamedModel, UnregisterNamedModel, IDataModelManager2.UnregisterNamedModel, IDataModelManager2::UnregisterNamedModel, IDataModelManager2.UnregisterNamedModel
 req.header: dbgmodel.h
 req.include-header:

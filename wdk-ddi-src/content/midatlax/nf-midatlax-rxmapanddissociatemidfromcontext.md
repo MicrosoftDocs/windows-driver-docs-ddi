@@ -10,6 +10,7 @@ keywords: ["RxMapAndDissociateMidFromContext function"]
 ms.keywords: RxMapAndDissociateMidFromContext, RxMapAndDissociateMidFromContext function [Installable File System Drivers], ifsk.rxmapanddissociatemidfromcontext, midatlax/RxMapAndDissociateMidFromContext, rxref_919dabed-ac8c-4495-8709-8fb45280e16f.xml
 f1_keywords:
  - "midatlax/RxMapAndDissociateMidFromContext"
+ - "RxMapAndDissociateMidFromContext"
 req.header: midatlax.h
 req.include-header: Midatlax.h
 req.target-type: Desktop

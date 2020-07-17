@@ -10,6 +10,7 @@ keywords: ["IDebugSymbolGroup2::GetSymbolSize"]
 ms.keywords: ComOther_a6e69468-38f9-449d-9bd7-0ef52585f2aa.xml, GetSymbolSize, GetSymbolSize method [Windows Debugging], GetSymbolSize method [Windows Debugging],IDebugSymbolGroup2 interface, IDebugSymbolGroup2 interface [Windows Debugging],GetSymbolSize method, IDebugSymbolGroup2.GetSymbolSize, IDebugSymbolGroup2::GetSymbolSize, dbgeng/IDebugSymbolGroup2::GetSymbolSize, debugger.getsymbolsize
 f1_keywords:
  - "dbgeng/IDebugSymbolGroup2.GetSymbolSize"
+ - "IDebugSymbolGroup2.GetSymbolSize"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

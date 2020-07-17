@@ -10,6 +10,7 @@ keywords: ["KeAreApcsDisabled function"]
 ms.keywords: KeAreApcsDisabled, KeAreApcsDisabled routine [Kernel-Mode Driver Architecture], k105_8bdca8e2-6541-4525-b4b6-7fdc26e451ac.xml, kernel.keareapcsdisabled, wdm/KeAreApcsDisabled
 f1_keywords:
  - "ntddk/KeAreApcsDisabled"
+ - "KeAreApcsDisabled"
 req.header: ntddk.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

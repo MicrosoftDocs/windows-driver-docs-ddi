@@ -10,6 +10,7 @@ keywords: ["_D3DDDI_LIGHT structure"]
 ms.keywords: D3DDDI_LIGHT, D3DDDI_LIGHT structure [Display Devices], D3D_other_Structs_4f43b697-886b-47bf-97b9-603306e899f8.xml, _D3DDDI_LIGHT, d3dumddi/D3DDDI_LIGHT, display.d3dddi_light
 f1_keywords:
  - "d3dumddi/D3DDDI_LIGHT"
+ - "D3DDDI_LIGHT"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

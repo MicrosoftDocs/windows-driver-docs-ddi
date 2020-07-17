@@ -10,6 +10,7 @@ keywords: ["_BDA_WMDRMTUNER_PIDPROTECTION structure"]
 ms.keywords: "*PBDA_WMDRMTUNER_PIDPROTECTION, BDA_WMDRMTUNER_PIDPROTECTION, BDA_WMDRMTUNER_PIDPROTECTION structure [Streaming Media Devices], PBDA_WMDRMTUNER_PIDPROTECTION, PBDA_WMDRMTUNER_PIDPROTECTION structure pointer [Streaming Media Devices], _BDA_WMDRMTUNER_PIDPROTECTION, bdatypes/BDA_WMDRMTUNER_PIDPROTECTION, bdatypes/PBDA_WMDRMTUNER_PIDPROTECTION, stream.bda_wmdrmtuner_pidprotection"
 f1_keywords:
  - "bdatypes/BDA_WMDRMTUNER_PIDPROTECTION"
+ - "BDA_WMDRMTUNER_PIDPROTECTION"
 req.header: bdatypes.h
 req.include-header: 
 req.target-type: Windows

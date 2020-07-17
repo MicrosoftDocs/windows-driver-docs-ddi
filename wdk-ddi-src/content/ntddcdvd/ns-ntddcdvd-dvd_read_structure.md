@@ -10,6 +10,7 @@ keywords: ["DVD_READ_STRUCTURE structure"]
 ms.keywords: "*PDVD_READ_STRUCTURE, DVD_READ_STRUCTURE, DVD_READ_STRUCTURE structure [Storage Devices], PDVD_READ_STRUCTURE, PDVD_READ_STRUCTURE structure pointer [Storage Devices], ntddcdvd/DVD_READ_STRUCTURE, ntddcdvd/PDVD_READ_STRUCTURE, storage.dvd_read_structure, structs-DVD_64ffaf42-815a-4a1e-a712-7027930d099f.xml"
 f1_keywords:
  - "ntddcdvd/DVD_READ_STRUCTURE"
+ - "DVD_READ_STRUCTURE"
 req.header: ntddcdvd.h
 req.include-header: Ntddcdvd.h
 req.target-type: Windows

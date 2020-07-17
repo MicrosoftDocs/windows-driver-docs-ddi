@@ -10,6 +10,7 @@ keywords: ["_STI_DEV_CAPS structure"]
 ms.keywords: "*PSTI_DEV_CAPS, PSTI_DEV_CAPS, PSTI_DEV_CAPS structure pointer [Imaging Devices], STI_DEV_CAPS, STI_DEV_CAPS structure [Imaging Devices], _STI_DEV_CAPS, image.sti_dev_caps, sti/PSTI_DEV_CAPS, sti/STI_DEV_CAPS, stifnc_34efd7cf-944e-474e-8ed5-5ba24be9bf2e.xml"
 f1_keywords:
  - "sti/STI_DEV_CAPS"
+ - "STI_DEV_CAPS"
 req.header: sti.h
 req.include-header: Sti.h
 req.target-type: Windows

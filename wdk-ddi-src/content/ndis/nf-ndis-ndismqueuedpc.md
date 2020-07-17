@@ -10,6 +10,7 @@ keywords: ["NdisMQueueDpc function"]
 ms.keywords: NdisMQueueDpc, NdisMQueueDpc function [Network Drivers Starting with Windows Vista], ndis/NdisMQueueDpc, ndis_interrupts_functions_ref_a4b04210-b671-4ab3-8b5b-989bed907aed.xml, netvista.ndismqueuedpc
 f1_keywords:
  - "ndis/NdisMQueueDpc"
+ - "NdisMQueueDpc"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

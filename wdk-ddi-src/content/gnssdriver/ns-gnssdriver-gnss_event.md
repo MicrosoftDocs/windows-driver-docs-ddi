@@ -10,6 +10,7 @@ keywords: ["GNSS_EVENT structure"]
 ms.keywords: "*PGNSS_EVENT, GNSS_EVENT, GNSS_EVENT structure [Sensor Devices], PGNSS_EVENT, PGNSS_EVENT structure pointer [Sensor Devices], gnss.gnss_event, gnssdriver/GNSS_EVENT, gnssdriver/PGNSS_EVENT"
 f1_keywords:
  - "gnssdriver/GNSS_EVENT"
+ - "GNSS_EVENT"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows

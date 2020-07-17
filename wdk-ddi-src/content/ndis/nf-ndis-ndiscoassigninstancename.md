@@ -10,6 +10,7 @@ keywords: ["NdisCoAssignInstanceName function"]
 ms.keywords: NdisCoAssignInstanceName, NdisCoAssignInstanceName function [Network Drivers Starting with Windows Vista], condis_protocol_ref_48515a9c-790b-4122-8a29-2a35cf560af9.xml, ndis/NdisCoAssignInstanceName, netvista.ndiscoassigninstancename
 f1_keywords:
  - "ndis/NdisCoAssignInstanceName"
+ - "NdisCoAssignInstanceName"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

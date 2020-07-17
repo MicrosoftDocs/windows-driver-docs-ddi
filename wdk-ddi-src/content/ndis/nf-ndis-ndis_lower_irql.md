@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["NDIS_LOWER_IRQL macro"]
 f1_keywords:
  - "ndis/NDIS_LOWER_IRQL"
+ - "NDIS_LOWER_IRQL"
 ms.keywords: NDIS_LOWER_IRQL
 req.header: ndis.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["_PEP_ACPI_EVALUATE_CONTROL_METHOD structure"]
 ms.keywords: "*PPEP_ACPI_EVALUATE_CONTROL_METHOD, PEP_ACPI_EVALUATE_CONTROL_METHOD, PEP_ACPI_EVALUATE_CONTROL_METHOD structure [Kernel-Mode Driver Architecture], PPEP_ACPI_EVALUATE_CONTROL_METHOD, PPEP_ACPI_EVALUATE_CONTROL_METHOD structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_EVALUATE_CONTROL_METHOD, kernel.pep_acpi_evaluate_control_method, pepfx/PEP_ACPI_EVALUATE_CONTROL_METHOD, pepfx/PPEP_ACPI_EVALUATE_CONTROL_METHOD"
 f1_keywords:
  - "pepfx/PEP_ACPI_EVALUATE_CONTROL_METHOD"
+ - "PEP_ACPI_EVALUATE_CONTROL_METHOD"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows

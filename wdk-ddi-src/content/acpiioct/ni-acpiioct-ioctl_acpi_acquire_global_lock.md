@@ -10,6 +10,7 @@ keywords: ["IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK IOCTL"]
 ms.keywords: IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK, IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK control, IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK control code [ACPI Devices], acpi-meth-eval-ref_e6fd9b97-db9e-4a08-88bb-e6e84f08359b.xml, acpi.ioctl_acpi_acquire_global_lock, acpiioct/IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK
 f1_keywords:
  - "acpiioct/IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK"
+ - "IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK"
 req.header: acpiioct.h
 req.include-header: Acpiioct.h
 req.target-type: Windows

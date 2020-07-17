@@ -10,6 +10,7 @@ keywords: ["IPrintOemUI::PrinterEvent"]
 ms.keywords: IPrintOemUI interface [Print Devices],PrinterEvent method, IPrintOemUI.PrinterEvent, IPrintOemUI::PrinterEvent, PrinterEvent, PrinterEvent method [Print Devices], PrinterEvent method [Print Devices],IPrintOemUI interface, prcomoem/IPrintOemUI::PrinterEvent, print.iprintoemui_printerevent, print_unidrv-pscript_ui_87a42746-bb3f-494a-a647-8b111e2b0e09.xml
 f1_keywords:
  - "prcomoem/IPrintOemUI.PrinterEvent"
+ - "IPrintOemUI.PrinterEvent"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop

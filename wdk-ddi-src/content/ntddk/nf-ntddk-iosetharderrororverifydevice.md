@@ -10,6 +10,7 @@ keywords: ["IoSetHardErrorOrVerifyDevice function"]
 ms.keywords: IoSetHardErrorOrVerifyDevice, IoSetHardErrorOrVerifyDevice routine [Kernel-Mode Driver Architecture], k104_60c33e0c-64d3-404b-85a3-57e7da269404.xml, kernel.iosetharderrororverifydevice, ntddk/IoSetHardErrorOrVerifyDevice
 f1_keywords:
  - "ntddk/IoSetHardErrorOrVerifyDevice"
+ - "IoSetHardErrorOrVerifyDevice"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

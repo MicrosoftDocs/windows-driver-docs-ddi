@@ -10,6 +10,7 @@ keywords: ["ExtExtension::HasArg"]
 ms.keywords: EngExtCpp_Ref_a4d457bf-6e64-46d7-892a-5ddda81c7f9d.xml, ExtExtension class [Windows Debugging],HasArg method, ExtExtension.HasArg, ExtExtension::HasArg, HasArg, HasArg method [Windows Debugging], HasArg method [Windows Debugging],ExtExtension class, debugger.hasarg
 f1_keywords:
  - "engextcpp/ExtExtension.HasArg"
+ - "ExtExtension.HasArg"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["IoSetDeviceInterfaceState function"]
 ms.keywords: IoSetDeviceInterfaceState, IoSetDeviceInterfaceState routine [Kernel-Mode Driver Architecture], k104_da5493d0-6dd5-4404-a647-6c23825df29c.xml, kernel.iosetdeviceinterfacestate, wdm/IoSetDeviceInterfaceState
 f1_keywords:
  - "wdm/IoSetDeviceInterfaceState"
+ - "IoSetDeviceInterfaceState"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

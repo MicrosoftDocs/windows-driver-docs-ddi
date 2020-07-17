@@ -10,6 +10,7 @@ keywords: ["IDebugAdvanced4::GetSymbolInformationWideEx"]
 ms.keywords: GetSymbolInformationWideEx, GetSymbolInformationWideEx method [Windows Debugging], GetSymbolInformationWideEx method [Windows Debugging],IDebugAdvanced4 interface, IDebugAdvanced4 interface [Windows Debugging],GetSymbolInformationWideEx method, IDebugAdvanced4.GetSymbolInformationWideEx, IDebugAdvanced4::GetSymbolInformationWideEx, dbgeng/IDebugAdvanced4::GetSymbolInformationWideEx, debugger.getsymbolinformationwideex
 f1_keywords:
  - "dbgeng/IDebugAdvanced4.GetSymbolInformationWideEx"
+ - "IDebugAdvanced4.GetSymbolInformationWideEx"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

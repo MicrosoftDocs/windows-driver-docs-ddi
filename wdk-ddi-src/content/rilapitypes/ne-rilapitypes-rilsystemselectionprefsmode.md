@@ -10,6 +10,7 @@ keywords: ["RILSYSTEMSELECTIONPREFSMODE enumeration"]
 ms.keywords: RILSYSTEMSELECTIONPREFSMODE, RILSYSTEMSELECTIONPREFSMODE enumeration [Network Drivers Starting with Windows Vista], RIL_OPSELMODE_MANUAL, RIL_OPSELMODE_MAX, netvista.rilsystemselectionprefsmode, ntddrilapitypes/RILSYSTEMSELECTIONPREFSMODE, ntddrilapitypes/RIL_OPSELMODE_MANUAL, ntddrilapitypes/RIL_OPSELMODE_MAX
 f1_keywords:
  - "rilapitypes/RILSYSTEMSELECTIONPREFSMODE"
+ - "RILSYSTEMSELECTIONPREFSMODE"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

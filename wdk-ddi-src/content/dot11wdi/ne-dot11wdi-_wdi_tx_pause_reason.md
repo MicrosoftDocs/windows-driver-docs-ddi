@@ -10,6 +10,7 @@ keywords: ["_WDI_TX_PAUSE_REASON enumeration"]
 ms.keywords: WDI_TX_PAUSE_REASON, WDI_TX_PAUSE_REASON enumeration [Network Drivers Starting with Windows Vista], WDI_TX_PAUSE_REASON_CREDIT, WDI_TX_PAUSE_REASON_IHV_END, WDI_TX_PAUSE_REASON_IHV_START, WDI_TX_PAUSE_REASON_NULL, WDI_TX_PAUSE_REASON_PEER_CREATE, WDI_TX_PAUSE_REASON_PS, _WDI_TX_PAUSE_REASON, dot11wdi/WDI_TX_PAUSE_REASON, dot11wdi/WDI_TX_PAUSE_REASON_CREDIT, dot11wdi/WDI_TX_PAUSE_REASON_IHV_END, dot11wdi/WDI_TX_PAUSE_REASON_IHV_START, dot11wdi/WDI_TX_PAUSE_REASON_NULL, dot11wdi/WDI_TX_PAUSE_REASON_PEER_CREATE, dot11wdi/WDI_TX_PAUSE_REASON_PS, netvista.wdi_tx_pause_reason, netvista.wifi_tx_pause_reason
 f1_keywords:
  - "dot11wdi/WDI_TX_PAUSE_REASON"
+ - "WDI_TX_PAUSE_REASON"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows

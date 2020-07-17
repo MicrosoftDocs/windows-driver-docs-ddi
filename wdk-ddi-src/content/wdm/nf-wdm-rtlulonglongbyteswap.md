@@ -10,6 +10,7 @@ keywords: ["RtlUlonglongByteSwap macro"]
 ms.keywords: RtlUlonglongByteSwap, RtlUlonglongByteSwap routine [Kernel-Mode Driver Architecture], k109_e3102ade-bf90-43a5-831d-c4c215a6872c.xml, kernel.rtlulonglongbyteswap, wdm/RtlUlonglongByteSwap
 f1_keywords:
  - "wdm/RtlUlonglongByteSwap"
+ - "RtlUlonglongByteSwap"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

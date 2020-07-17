@@ -10,6 +10,7 @@ keywords: ["_DOT11EXT_VIRTUAL_STATION_APIS structure"]
 ms.keywords: "*PDOT11EXT_VIRTUAL_STATION_APIS, DOT11EXT_VIRTUAL_STATION_APIS, DOT11EXT_VIRTUAL_STATION_APIS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_0b2dadd3-7d60-4836-9171-c2c11b56010d.xml, PDOT11EXT_VIRTUAL_STATION_APIS, PDOT11EXT_VIRTUAL_STATION_APIS structure pointer [Network Drivers Starting with Windows Vista], _DOT11EXT_VIRTUAL_STATION_APIS, netvista.dot11ext_virtual_station_apis, wlanihv/DOT11EXT_VIRTUAL_STATION_APIS, wlanihv/PDOT11EXT_VIRTUAL_STATION_APIS"
 f1_keywords:
  - "wlanihv/DOT11EXT_VIRTUAL_STATION_APIS"
+ - "DOT11EXT_VIRTUAL_STATION_APIS"
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["RILSIGNALQUALITY structure"]
 ms.keywords: "*LPRILSIGNALQUALITY, RILSIGNALQUALITY, RILSIGNALQUALITY structure [Network Drivers Starting with Windows Vista], netvista.rilsignalquality, ntddrilapitypes/RILSIGNALQUALITY"
 f1_keywords:
  - "ntddrilapitypes/RILSIGNALQUALITY"
+ - "RILSIGNALQUALITY"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

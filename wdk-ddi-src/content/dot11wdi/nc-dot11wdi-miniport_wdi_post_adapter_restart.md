@@ -10,6 +10,7 @@ keywords: ["MINIPORT_WDI_POST_ADAPTER_RESTART callback function"]
 ms.keywords: MINIPORT_WDI_POST_ADAPTER_RESTART, MINIPORT_WDI_POST_ADAPTER_RESTART callback, MiniportWdiPostAdapterRestart, MiniportWdiPostAdapterRestart callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiPostAdapterRestart, netvista.miniportwdipostadapterrestart
 f1_keywords:
  - "dot11wdi/MiniportWdiPostAdapterRestart"
+ - "MiniportWdiPostAdapterRestart"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows

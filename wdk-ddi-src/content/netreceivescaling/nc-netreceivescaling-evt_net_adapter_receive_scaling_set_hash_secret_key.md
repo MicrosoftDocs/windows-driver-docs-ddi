@@ -8,6 +8,7 @@ ms.date: 02/01/2019
 keywords: ["EVT_NET_ADAPTER_RECEIVE_SCALING_SET_HASH_SECRET_KEY callback function"]
 f1_keywords:
  - "netreceivescaling/EVT_NET_ADAPTER_RECEIVE_SCALING_ENABLE"
+ - "EVT_NET_ADAPTER_RECEIVE_SCALING_ENABLE"
 req.header: netreceivescaling.h
 req.include-header:
 req.target-type: Universal

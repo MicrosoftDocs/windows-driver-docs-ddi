@@ -10,6 +10,7 @@ keywords: ["KS_AnalogVideoStandard enumeration"]
 ms.keywords: KS_AnalogVideoStandard, KS_AnalogVideoStandard enumeration [Streaming Media Devices], KS_AnalogVideo_NTSC_433, KS_AnalogVideo_NTSC_M, KS_AnalogVideo_NTSC_M_J, KS_AnalogVideo_None, KS_AnalogVideo_PAL_60, KS_AnalogVideo_PAL_B, KS_AnalogVideo_PAL_D, KS_AnalogVideo_PAL_G, KS_AnalogVideo_PAL_H, KS_AnalogVideo_PAL_I, KS_AnalogVideo_PAL_M, KS_AnalogVideo_PAL_N, KS_AnalogVideo_PAL_N_COMBO, KS_AnalogVideo_SECAM_B, KS_AnalogVideo_SECAM_D, KS_AnalogVideo_SECAM_G, KS_AnalogVideo_SECAM_H, KS_AnalogVideo_SECAM_K, KS_AnalogVideo_SECAM_K1, KS_AnalogVideo_SECAM_L, KS_AnalogVideo_SECAM_L1, ksmedia/KS_AnalogVideoStandard, ksmedia/KS_AnalogVideo_NTSC_433, ksmedia/KS_AnalogVideo_NTSC_M, ksmedia/KS_AnalogVideo_NTSC_M_J, ksmedia/KS_AnalogVideo_None, ksmedia/KS_AnalogVideo_PAL_60, ksmedia/KS_AnalogVideo_PAL_B, ksmedia/KS_AnalogVideo_PAL_D, ksmedia/KS_AnalogVideo_PAL_G, ksmedia/KS_AnalogVideo_PAL_H, ksmedia/KS_AnalogVideo_PAL_I, ksmedia/KS_AnalogVideo_PAL_M, ksmedia/KS_AnalogVideo_PAL_N, ksmedia/KS_AnalogVideo_PAL_N_COMBO, ksmedia/KS_AnalogVideo_SECAM_B, ksmedia/KS_AnalogVideo_SECAM_D, ksmedia/KS_AnalogVideo_SECAM_G, ksmedia/KS_AnalogVideo_SECAM_H, ksmedia/KS_AnalogVideo_SECAM_K, ksmedia/KS_AnalogVideo_SECAM_K1, ksmedia/KS_AnalogVideo_SECAM_L, ksmedia/KS_AnalogVideo_SECAM_L1, stream.ks_analogvideostandard, vidcapstruct_90d60791-13e2-42ec-a641-6eee5bbf25fa.xml
 f1_keywords:
  - "ksmedia/KS_AnalogVideoStandard"
+ - "KS_AnalogVideoStandard"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

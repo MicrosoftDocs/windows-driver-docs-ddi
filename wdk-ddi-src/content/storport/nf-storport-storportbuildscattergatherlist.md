@@ -10,6 +10,7 @@ keywords: ["StorPortBuildScatterGatherList function"]
 ms.keywords: StorPortBuildScatterGatherList, StorPortBuildScatterGatherList routine [Storage Devices], storage.storportbuildscattergatherlist, storport/StorPortBuildScatterGatherList, storprt_ed0a920c-d8f4-44f2-a262-5a74470ec67a.xml
 f1_keywords:
  - "storport/StorPortBuildScatterGatherList"
+ - "StorPortBuildScatterGatherList"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

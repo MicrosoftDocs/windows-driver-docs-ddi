@@ -10,6 +10,7 @@ keywords: ["_MIRACAST_CALLBACKS structure"]
 ms.keywords: "*PMIRACAST_CALLBACKS, MIRACAST_CALLBACKS, MIRACAST_CALLBACKS structure [Display Devices], PMIRACAST_CALLBACKS, PMIRACAST_CALLBACKS structure pointer [Display Devices], _MIRACAST_CALLBACKS, display.miracast_callbacks, netdispumdddi/MIRACAST_CALLBACKS, netdispumdddi/PMIRACAST_CALLBACKS"
 f1_keywords:
  - "netdispumdddi/MIRACAST_CALLBACKS"
+ - "MIRACAST_CALLBACKS"
 req.header: netdispumdddi.h
 req.include-header: Netdispumdddi.h
 req.target-type: Windows

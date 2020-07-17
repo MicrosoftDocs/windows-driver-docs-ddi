@@ -10,6 +10,7 @@ keywords: ["IPrintOemUni::DisableDriver"]
 ms.keywords: DisableDriver, DisableDriver method [Print Devices], DisableDriver method [Print Devices],IPrintOemUni interface, IPrintOemUni interface [Print Devices],DisableDriver method, IPrintOemUni.DisableDriver, IPrintOemUni::DisableDriver, prcomoem/IPrintOemUni::DisableDriver, print.iprintoemuni_disabledriver, print_unidrv-pscript_rendering_033d3e0c-4d60-4925-a5b4-1fb47aa42cc9.xml
 f1_keywords:
  - "prcomoem/IPrintOemUni.DisableDriver"
+ - "IPrintOemUni.DisableDriver"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop

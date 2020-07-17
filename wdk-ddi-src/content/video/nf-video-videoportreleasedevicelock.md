@@ -10,6 +10,7 @@ keywords: ["VideoPortReleaseDeviceLock function"]
 ms.keywords: VideoPortReleaseDeviceLock, VideoPortReleaseDeviceLock function [Display Devices], VideoPort_Functions_509d905b-a70f-4932-975f-62d4c90c77b9.xml, display.videoportreleasedevicelock, video/VideoPortReleaseDeviceLock
 f1_keywords:
  - "video/VideoPortReleaseDeviceLock"
+ - "VideoPortReleaseDeviceLock"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

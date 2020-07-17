@@ -10,6 +10,7 @@ keywords: ["NdisCancelOidRequest function"]
 ms.keywords: NdisCancelOidRequest, NdisCancelOidRequest function [Network Drivers Starting with Windows Vista], ndis/NdisCancelOidRequest, ndis_request_ref_5f7f8a9a-f773-4ca8-aba3-21fe74431e0c.xml, netvista.ndiscanceloidrequest
 f1_keywords:
  - "ndis/NdisCancelOidRequest"
+ - "NdisCancelOidRequest"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["RILADDITIONALNUMBERSTRINGUPDATE structure"]
 ms.keywords: "*LPRILADDITIONALNUMBERSTRINGUPDATE, RILADDITIONALNUMBERSTRINGUPDATE, RILADDITIONALNUMBERSTRINGUPDATE structure [Network Drivers Starting with Windows Vista], netvista.riladditionalnumberstringupdate, ntddrilapitypes/RILADDITIONALNUMBERSTRINGUPDATE"
 f1_keywords:
  - "rilapitypes/RILADDITIONALNUMBERSTRINGUPDATE"
+ - "RILADDITIONALNUMBERSTRINGUPDATE"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

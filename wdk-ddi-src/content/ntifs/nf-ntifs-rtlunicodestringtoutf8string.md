@@ -12,6 +12,7 @@ ms.keywords: RtlUnicodeStringToUTF8String
 req.header: ntifs.h
 f1_keywords:
  - "ntifs/RtlUnicodeStringToUTF8String"
+ - "RtlUnicodeStringToUTF8String"
 req.include-header:
 req.target-type:
 req.target-min-winverclnt: Windows 10, version 2004

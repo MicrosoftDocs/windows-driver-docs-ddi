@@ -26,6 +26,7 @@ targetos: Windows
 tech.root: display
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_CALC_PRIVATE_COMMAND_RECORDER_SIZE_0040"
+ - "PFND3D12DDI_CALC_PRIVATE_COMMAND_RECORDER_SIZE_0040"
 topic_type:
  - apiref
 api_type:

@@ -9,6 +9,7 @@ keywords: ["PFND3D10DDI_STATE_VS_SRV_CB callback function"]
 ms.keywords: PFND3D10DDI_STATE_VS_SRV_CB, PFND3D10DDI_STATE_VS_SRV_CB callback, d3d10state_functions_18fed75e-bd90-41af-9ddd-d68c80f6afd7.xml, d3d10umddi/pfnStateVsSrvCb, display.pfnstatevssrvcb, pfnStateVsSrvCb, pfnStateVsSrvCb callback function [Display Devices]
 f1_keywords:
  - "d3d10umddi/pfnStateVsSrvCb"
+ - "pfnStateVsSrvCb"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

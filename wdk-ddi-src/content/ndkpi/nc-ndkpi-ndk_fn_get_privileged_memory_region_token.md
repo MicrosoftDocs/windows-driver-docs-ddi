@@ -10,6 +10,7 @@ keywords: ["NDK_FN_GET_PRIVILEGED_MEMORY_REGION_TOKEN callback function"]
 ms.keywords: NDK_FN_GET_PRIVILEGED_MEMORY_REGION_TOKEN, NDK_FN_GET_PRIVILEGED_MEMORY_REGION_TOKEN callback, NdkGetPrivilegedMemoryRegionToken, NdkGetPrivilegedMemoryRegionToken callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkGetPrivilegedMemoryRegionToken, netvista.ndk_fn_get_privileged_memory_region_token
 f1_keywords:
  - "ndkpi/NdkGetPrivilegedMemoryRegionToken"
+ - "NdkGetPrivilegedMemoryRegionToken"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

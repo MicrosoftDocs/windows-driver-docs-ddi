@@ -10,6 +10,7 @@ keywords: ["RtlCreateRegistryKey function"]
 ms.keywords: RtlCreateRegistryKey, RtlCreateRegistryKey routine [Kernel-Mode Driver Architecture], k109_9a163bcc-501d-453b-b426-a4267d04135c.xml, kernel.rtlcreateregistrykey, wdm/RtlCreateRegistryKey
 f1_keywords:
  - "wdm/RtlCreateRegistryKey"
+ - "RtlCreateRegistryKey"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

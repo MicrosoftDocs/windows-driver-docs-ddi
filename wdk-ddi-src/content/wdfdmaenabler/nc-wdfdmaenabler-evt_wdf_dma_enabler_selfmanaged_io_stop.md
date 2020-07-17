@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_DMA_ENABLER_SELFMANAGED_IO_STOP callback function"]
 ms.keywords: DFDmaObjectRef_b04ab1d3-dbff-42f2-b22a-a212d04fac5b.xml, EVT_WDF_DMA_ENABLER_SELFMANAGED_IO_STOP, EVT_WDF_DMA_ENABLER_SELFMANAGED_IO_STOP callback, EvtDmaEnablerSelfManagedIoStop, EvtDmaEnablerSelfManagedIoStop callback function, kmdf.evtdmaenablerselfmanagediostop, wdf.evtdmaenablerselfmanagediostop, wdfdmaenabler/EvtDmaEnablerSelfManagedIoStop
 f1_keywords:
  - "wdfdmaenabler/EvtDmaEnablerSelfManagedIoStop"
+ - "EvtDmaEnablerSelfManagedIoStop"
 req.header: wdfdmaenabler.h
 req.include-header: Wdf.h
 req.target-type: Universal

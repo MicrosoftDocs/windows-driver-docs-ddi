@@ -10,6 +10,7 @@ keywords: ["ClfsCreateLogFile function"]
 ms.keywords: ClfsCreateLogFile, ClfsCreateLogFile routine [Kernel-Mode Driver Architecture], Clfs_79aa05cc-fff5-404a-93c6-89c9d938f104.xml, kernel.clfscreatelogfile, wdm/ClfsCreateLogFile
 f1_keywords:
  - "wdm/ClfsCreateLogFile"
+ - "ClfsCreateLogFile"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop

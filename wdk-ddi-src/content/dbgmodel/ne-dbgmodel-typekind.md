@@ -7,6 +7,7 @@ ms.date: 06/10/2019
 keywords: ["TypeKind enumeration"]
 f1_keywords:
  - "dbgmodel/TypeKind"
+ - "TypeKind"
 ms.keywords: TypeKind, , 
 req.header: dbgmodel.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["UcxEndpointNoPingResponseError function"]
 ms.keywords: UcxEndpointNoPingResponseError, UcxEndpointNoPingResponseError method [Buses], buses._ucxendpointnopingresponseerror, ucxendpoint/UcxEndpointNoPingResponseError
 f1_keywords:
  - "ucxendpoint/UcxEndpointNoPingResponseError"
+ - "UcxEndpointNoPingResponseError"
 req.header: ucxendpoint.h
 req.include-header: Ucxclass.h, Ucxendpoint.h
 req.target-type: Windows

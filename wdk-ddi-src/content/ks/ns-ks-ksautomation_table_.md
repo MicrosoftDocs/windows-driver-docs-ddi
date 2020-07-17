@@ -10,6 +10,7 @@ keywords: ["KSAUTOMATION_TABLE_ structure"]
 ms.keywords: "*PKSAUTOMATION_TABLE, KSAUTOMATION_TABLE, KSAUTOMATION_TABLE structure [Streaming Media Devices], KSAUTOMATION_TABLE_, PKSAUTOMATION_TABLE, PKSAUTOMATION_TABLE structure pointer [Streaming Media Devices], avstruct_7389df5c-d86a-43b2-9daf-d0e1e8a2dfbe.xml, ks/KSAUTOMATION_TABLE, ks/PKSAUTOMATION_TABLE, stream.ksautomation_table"
 f1_keywords:
  - "ks/KSAUTOMATION_TABLE"
+ - "KSAUTOMATION_TABLE"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows

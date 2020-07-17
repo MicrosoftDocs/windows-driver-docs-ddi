@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_MULTIPLANE_OVERLAY_CAPS structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_MULTIPLANE_OVERLAY_CAPS"
+ - "_D3DKMT_MULTIPLANE_OVERLAY_CAPS"
 ms.keywords: _D3DKMT_MULTIPLANE_OVERLAY_CAPS, D3DKMT_MULTIPLANE_OVERLAY_CAPS, 
 req.header: d3dkmthk.h
 req.include-header:

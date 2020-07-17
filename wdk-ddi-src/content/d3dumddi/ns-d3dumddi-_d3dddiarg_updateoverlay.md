@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_UPDATEOVERLAY structure"]
 ms.keywords: D3DDDIARG_UPDATEOVERLAY, D3DDDIARG_UPDATEOVERLAY structure [Display Devices], UMDisplayDriver_param_Structs_6c415566-a5f5-4efc-820b-7eb466b59149.xml, _D3DDDIARG_UPDATEOVERLAY, d3dumddi/D3DDDIARG_UPDATEOVERLAY, display.d3dddiarg_updateoverlay
 f1_keywords:
  - "d3dumddi/D3DDDIARG_UPDATEOVERLAY"
+ - "D3DDDIARG_UPDATEOVERLAY"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.date: 11/07/2019
 keywords: ["MbbDeviceSetWakeCapabilities function"]
 f1_keywords:
  - "mbbcx/MbbDeviceSetWakeCapabilities"
+ - "MbbDeviceSetWakeCapabilities"
 ms.keywords: MbbDeviceSetWakeCapabilities
 req.header: mbbcx.h
 req.include-header:

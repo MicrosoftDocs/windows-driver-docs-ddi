@@ -10,6 +10,7 @@ keywords: ["RtlInitializeGenericTable function"]
 ms.keywords: RtlInitializeGenericTable, RtlInitializeGenericTable routine [Installable File System Drivers], ifsk.rtlinitializegenerictable, ntddk/RtlInitializeGenericTable, rtlref_2ef380c8-bc8a-4711-b0d1-b1c669818f2c.xml
 f1_keywords:
  - "ntddk/RtlInitializeGenericTable"
+ - "RtlInitializeGenericTable"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Universal

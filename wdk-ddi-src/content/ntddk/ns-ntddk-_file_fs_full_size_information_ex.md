@@ -8,6 +8,7 @@ ms.date: 09/30/2018
 keywords: ["_FILE_FS_FULL_SIZE_INFORMATION_EX structure"]
 f1_keywords:
  - "ntddk/_FILE_FS_FULL_SIZE_INFORMATION_EX"
+ - "_FILE_FS_FULL_SIZE_INFORMATION_EX"
 ms.keywords: _FILE_FS_FULL_SIZE_INFORMATION_EX, FILE_FS_FULL_SIZE_INFORMATION_EX, *PFILE_FS_FULL_SIZE_INFORMATION_EX, 
 req.header: ntddk.h
 req.include-header: wdm.h

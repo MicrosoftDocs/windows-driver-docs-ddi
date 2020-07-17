@@ -7,6 +7,7 @@ ms.date: 08/22/2018
 keywords: ["IDebugHostType::GetContext"]
 f1_keywords:
  - "dbgmodel/IDebugHostType.GetContext"
+ - "IDebugHostType.GetContext"
 ms.keywords: IDebugHostType::GetContext, GetContext, IDebugHostType.GetContext, IDebugHostType::GetContext, IDebugHostType.GetContext
 req.header: dbgmodel.h
 req.include-header:

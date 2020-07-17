@@ -10,6 +10,7 @@ keywords: ["NDIS_PROCESS_SG_LIST callback function"]
 ms.keywords: NDIS_PROCESS_SG_LIST, NDIS_PROCESS_SG_LIST callback, NetProcessSGList, NetProcessSGList callback function [Network Drivers Starting with Windows Vista], ndis/NetProcessSGList, ndis_shared_memory_ref_0c3e2851-6897-4997-a974-2a108e1e5ee9.xml, netvista.netprocesssglist
 f1_keywords:
  - "ndis/NetProcessSGList"
+ - "NetProcessSGList"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DlSetTrappedEmulatorPorts function"]
 f1_keywords:
  - "dispmprt/DlSetTrappedEmulatorPorts"
+ - "DlSetTrappedEmulatorPorts"
 ms.keywords: DlSetTrappedEmulatorPorts
 req.header: dispmprt.h
 req.include-header:

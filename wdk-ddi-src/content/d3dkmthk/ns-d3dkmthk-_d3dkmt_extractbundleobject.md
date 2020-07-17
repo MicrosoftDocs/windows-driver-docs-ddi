@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_EXTRACTBUNDLEOBJECT structure"]
 ms.keywords: D3DKMT_EXTRACTBUNDLEOBJECT, D3DKMT_EXTRACTBUNDLEOBJECT structure [Display Devices], _D3DKMT_EXTRACTBUNDLEOBJECT, d3dkmthk/D3DKMT_EXTRACTBUNDLEOBJECT, display.d3dkmt-extractbundleobject
 f1_keywords:
  - "d3dkmthk/D3DKMT_EXTRACTBUNDLEOBJECT"
+ - "D3DKMT_EXTRACTBUNDLEOBJECT"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type: Windows

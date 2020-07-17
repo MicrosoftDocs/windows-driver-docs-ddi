@@ -8,6 +8,7 @@ ms.date: 12/28/2018
 keywords: ["IMiniport::DataRangeIntersection"]
 f1_keywords:
  - "portcls/IMiniport.DataRangeIntersection"
+ - "IMiniport.DataRangeIntersection"
 ms.keywords: IMiniport::DataRangeIntersection, DataRangeIntersection, IMiniport.DataRangeIntersection, IMiniport::DataRangeIntersection, IMiniport.DataRangeIntersection
 req.header: portcls.h
 req.include-header:

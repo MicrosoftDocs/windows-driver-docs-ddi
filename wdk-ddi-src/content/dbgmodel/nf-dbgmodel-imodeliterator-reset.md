@@ -7,6 +7,7 @@ ms.date: 08/13/2018
 keywords: ["IModelIterator::Reset"]
 f1_keywords:
  - "dbgmodel/IModelIterator.Reset"
+ - "IModelIterator.Reset"
 ms.keywords: IModelIterator::Reset, Reset, IModelIterator.Reset, IModelIterator::Reset, IModelIterator.Reset
 req.header: dbgmodel.h
 req.include-header:

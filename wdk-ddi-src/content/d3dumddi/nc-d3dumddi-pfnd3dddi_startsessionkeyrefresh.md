@@ -29,6 +29,7 @@ targetos: Windows
 req.typenames: 
 f1_keywords:
  - "d3dumddi/StartSessionKeyRefresh"
+ - "StartSessionKeyRefresh"
 topic_type:
  - APIRef
  - kbSyntax

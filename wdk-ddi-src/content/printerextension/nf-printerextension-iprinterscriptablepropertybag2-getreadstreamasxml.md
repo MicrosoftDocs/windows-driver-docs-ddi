@@ -10,6 +10,7 @@ keywords: ["IPrinterScriptablePropertyBag2::GetReadStreamAsXML"]
 ms.keywords: GetReadStreamAsXML, GetReadStreamAsXML method [Print Devices], GetReadStreamAsXML method [Print Devices],IPrinterScriptablePropertyBag2 interface, IPrinterScriptablePropertyBag2 interface [Print Devices],GetReadStreamAsXML method, IPrinterScriptablePropertyBag2.GetReadStreamAsXML, IPrinterScriptablePropertyBag2::GetReadStreamAsXML, print.iprinterscriptablepropertybag2_getreadstreamasxml, printerextension/IPrinterScriptablePropertyBag2::GetReadStreamAsXML
 f1_keywords:
  - "printerextension/IPrinterScriptablePropertyBag2.GetReadStreamAsXML"
+ - "IPrinterScriptablePropertyBag2.GetReadStreamAsXML"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["DOT11EXT_SET_DEFAULT_KEY callback"]
 ms.keywords: DOT11EXT_SET_DEFAULT_KEY, Dot11ExtSetDefaultKey, Dot11ExtSetDefaultKey callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_c313f938-0a68-4470-b298-d9e6c0231268.xml, netvista.dot11extsetdefaultkey, wlanihv/Dot11ExtSetDefaultKey
 f1_keywords:
  - "wlanihv/Dot11ExtSetDefaultKey"
+ - "Dot11ExtSetDefaultKey"
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Desktop

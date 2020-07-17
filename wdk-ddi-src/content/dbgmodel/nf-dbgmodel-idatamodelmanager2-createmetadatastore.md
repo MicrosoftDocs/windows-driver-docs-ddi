@@ -7,6 +7,7 @@ ms.date: 09/11/2018
 keywords: ["IDataModelManager2::CreateMetadataStore"]
 f1_keywords:
  - "dbgmodel/IDataModelManager2.CreateMetadataStore"
+ - "IDataModelManager2.CreateMetadataStore"
 ms.keywords: IDataModelManager2::CreateMetadataStore, CreateMetadataStore, IDataModelManager2.CreateMetadataStore, IDataModelManager2::CreateMetadataStore, IDataModelManager2.CreateMetadataStore
 req.header: dbgmodel.h
 req.include-header:

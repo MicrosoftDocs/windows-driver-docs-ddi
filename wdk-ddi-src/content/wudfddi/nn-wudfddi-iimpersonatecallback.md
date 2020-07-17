@@ -10,6 +10,7 @@ keywords: ["IImpersonateCallback interface"]
 ms.keywords: IImpersonateCallback, IImpersonateCallback interface, IImpersonateCallback interface,described, UMDFRequestObjectRef_a92c4df0-b16b-4fc0-b858-4b2cdd59c3b2.xml, umdf.iimpersonatecallback, wdf.iimpersonatecallback, wudfddi/IImpersonateCallback
 f1_keywords:
  - "wudfddi/IImpersonateCallback"
+ - "IImpersonateCallback"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Windows

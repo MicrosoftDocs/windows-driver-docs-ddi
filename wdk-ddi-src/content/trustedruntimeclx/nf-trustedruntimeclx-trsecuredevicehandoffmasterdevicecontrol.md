@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["TrSecureDeviceHandoffMasterDeviceControl function"]
 f1_keywords:
  - "trustedruntimeclx/TrSecureDeviceHandoffMasterDeviceControl"
+ - "TrSecureDeviceHandoffMasterDeviceControl"
 ms.keywords: TrSecureDeviceHandoffMasterDeviceControl
 req.header: trustedruntimeclx.h
 req.include-header:

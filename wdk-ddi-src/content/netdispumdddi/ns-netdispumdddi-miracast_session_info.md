@@ -10,6 +10,7 @@ keywords: ["MIRACAST_SESSION_INFO structure"]
 ms.keywords: MIRACAST_SESSION_INFO, MIRACAST_SESSION_INFO union [Display Devices], display.miracast_session_info, netdispumdddi/MIRACAST_SESSION_INFO
 f1_keywords:
  - "netdispumdddi/MIRACAST_SESSION_INFO"
+ - "MIRACAST_SESSION_INFO"
 req.header: netdispumdddi.h
 req.include-header: Netdispumdddi.h
 req.target-type: Windows

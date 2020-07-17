@@ -10,6 +10,7 @@ keywords: ["FltOplockIsFastIoPossible function"]
 ms.keywords: FltApiRef_e_to_o_d80a24fe-5ca7-43e6-8e6f-cb9414c427c3.xml, FltOplockIsFastIoPossible, FltOplockIsFastIoPossible routine [Installable File System Drivers], fltkernel/FltOplockIsFastIoPossible, ifsk.fltoplockisfastiopossible
 f1_keywords:
  - "fltkernel/FltOplockIsFastIoPossible"
+ - "FltOplockIsFastIoPossible"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

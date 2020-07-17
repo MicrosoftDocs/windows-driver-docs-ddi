@@ -10,6 +10,7 @@ keywords: ["IDebugControl4::GetProcessorTypeNamesWide"]
 ms.keywords: GetProcessorTypeNamesWide, GetProcessorTypeNamesWide method [Windows Debugging], GetProcessorTypeNamesWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetProcessorTypeNamesWide method, IDebugControl4.GetProcessorTypeNamesWide, IDebugControl4::GetProcessorTypeNamesWide, dbgeng/IDebugControl4::GetProcessorTypeNamesWide, debugger.getprocessortypenameswide
 f1_keywords:
  - "dbgeng/IDebugControl4.GetProcessorTypeNamesWide"
+ - "IDebugControl4.GetProcessorTypeNamesWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

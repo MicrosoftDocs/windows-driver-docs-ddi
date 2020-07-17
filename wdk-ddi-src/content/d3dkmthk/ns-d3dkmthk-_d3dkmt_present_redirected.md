@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_PRESENT_REDIRECTED structure"]
 ms.keywords: D3DKMT_PRESENT_REDIRECTED, D3DKMT_PRESENT_REDIRECTED structure [Display Devices], _D3DKMT_PRESENT_REDIRECTED, d3dkmthk/D3DKMT_PRESENT_REDIRECTED, display.d3dkmt-present-redirected
 f1_keywords:
  - "d3dkmthk/D3DKMT_PRESENT_REDIRECTED"
+ - "D3DKMT_PRESENT_REDIRECTED"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type: Windows

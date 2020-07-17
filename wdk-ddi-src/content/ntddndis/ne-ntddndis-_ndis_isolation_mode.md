@@ -10,6 +10,7 @@ keywords: ["_NDIS_ISOLATION_MODE enumeration"]
 ms.keywords: "*PNDIS_ISOLATION_MODE, NDIS_ISOLATION_MODE, NDIS_ISOLATION_MODE enumeration [Network Drivers Starting with Windows Vista], NdisIsolationModeExternalVirtualSubnet, NdisIsolationModeNativeVirtualSubnet, NdisIsolationModeNone, NdisIsolationModeVlan, _NDIS_ISOLATION_MODE, netvista.ndis_isolation_mode, ntddndis/NDIS_ISOLATION_MODE, ntddndis/NdisIsolationModeExternalVirtualSubnet, ntddndis/NdisIsolationModeNativeVirtualSubnet, ntddndis/NdisIsolationModeNone, ntddndis/NdisIsolationModeVlan"
 f1_keywords:
  - "ntddndis/NDIS_ISOLATION_MODE"
+ - "NDIS_ISOLATION_MODE"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

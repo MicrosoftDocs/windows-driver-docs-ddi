@@ -10,6 +10,7 @@ keywords: ["BdaPropertyGetControllingPinId function"]
 ms.keywords: BdaPropertyGetControllingPinId, BdaPropertyGetControllingPinId function [Streaming Media Devices], bdaref_7f3a3695-4599-4b16-8a90-4ac171ab1ec0.xml, bdasup/BdaPropertyGetControllingPinId, stream.bdapropertygetcontrollingpinid
 f1_keywords:
  - "bdasup/BdaPropertyGetControllingPinId"
+ - "BdaPropertyGetControllingPinId"
 req.header: bdasup.h
 req.include-header: Bdasup.h
 req.target-type: Desktop

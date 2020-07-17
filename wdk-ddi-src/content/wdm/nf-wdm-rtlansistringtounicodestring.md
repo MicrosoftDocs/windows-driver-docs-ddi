@@ -10,6 +10,7 @@ keywords: ["RtlAnsiStringToUnicodeString function"]
 ms.keywords: RtlAnsiStringToUnicodeString, RtlAnsiStringToUnicodeString function [Kernel-Mode Driver Architecture], k109_d27ee285-6d32-4ecb-994b-ba8a47f1e588.xml, kernel.rtlansistringtounicodestring, wdm/RtlAnsiStringToUnicodeString
 f1_keywords:
  - "wdm/RtlAnsiStringToUnicodeString"
+ - "RtlAnsiStringToUnicodeString"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

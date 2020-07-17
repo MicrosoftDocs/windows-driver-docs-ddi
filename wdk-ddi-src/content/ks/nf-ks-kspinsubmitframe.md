@@ -10,6 +10,7 @@ keywords: ["KsPinSubmitFrame function"]
 ms.keywords: KsPinSubmitFrame, KsPinSubmitFrame function [Streaming Media Devices], avfunc_ce7c4c71-c404-4061-a2e5-b9f4c15df4a2.xml, ks/KsPinSubmitFrame, stream.kspinsubmitframe
 f1_keywords:
  - "ks/KsPinSubmitFrame"
+ - "KsPinSubmitFrame"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

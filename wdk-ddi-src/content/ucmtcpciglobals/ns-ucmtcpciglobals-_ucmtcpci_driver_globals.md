@@ -10,6 +10,7 @@ keywords: ["_UCMTCPCI_DRIVER_GLOBALS structure"]
 ms.keywords: "*PUCMTCPCI_DRIVER_GLOBALS, UCMTCPCI_DRIVER_GLOBALS, UCMTCPCI_DRIVER_GLOBALS structure [Buses], _UCMTCPCI_DRIVER_GLOBALS, buses.ucmtcpci_driver_globals, ucmtcpciglobals/UCMTCPCI_DRIVER_GLOBALS"
 f1_keywords:
  - "ucmtcpciglobals/UCMTCPCI_DRIVER_GLOBALS"
+ - "UCMTCPCI_DRIVER_GLOBALS"
 req.header: ucmtcpciglobals.h
 req.include-header: 
 req.target-type: Windows

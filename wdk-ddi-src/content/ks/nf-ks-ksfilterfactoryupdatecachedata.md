@@ -10,6 +10,7 @@ keywords: ["KsFilterFactoryUpdateCacheData function"]
 ms.keywords: KsFilterFactoryUpdateCacheData, KsFilterFactoryUpdateCacheData function [Streaming Media Devices], avfunc_2fdbd12c-b074-415e-8de3-bfbe61ef198a.xml, ks/KsFilterFactoryUpdateCacheData, stream.ksfilterfactoryupdatecachedata
 f1_keywords:
  - "ks/KsFilterFactoryUpdateCacheData"
+ - "KsFilterFactoryUpdateCacheData"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

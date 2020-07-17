@@ -10,6 +10,7 @@ keywords: ["StorPortIsCurrentOsInstallationUpgrade function"]
 ms.keywords: StorPortIsCurrentOsInstallationUpgrade, StorPortIsCurrentOsInstallationUpgrade routine [Storage Devices], storage.storportiscurrentosinstallationupgrade, storport/StorPortIsCurrentOsInstallationUpgrade
 f1_keywords:
  - "storport/StorPortIsCurrentOsInstallationUpgrade"
+ - "StorPortIsCurrentOsInstallationUpgrade"
 req.header: storport.h
 req.include-header: 
 req.target-type: Universal

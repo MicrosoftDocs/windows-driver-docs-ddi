@@ -10,6 +10,7 @@ keywords: ["IDARG_IN_UPDATEMODES structure"]
 ms.keywords: IDARG_IN_UPDATEMODES, IDARG_IN_UPDATEMODES structure [Display Devices], display.idarg_in_updatemodes, iddcx/IDARG_IN_UPDATEMODES
 f1_keywords:
  - "iddcx/IDARG_IN_UPDATEMODES"
+ - "IDARG_IN_UPDATEMODES"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows

@@ -7,6 +7,7 @@ ms.date: 09/28/2018
 keywords: ["Location function"]
 f1_keywords:
  - "dbgmodel/Location"
+ - "Location"
 ms.keywords: Location
 req.header: dbgmodel.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["_PEP_ACPI_QUERY_OBJECT_INFORMATION structure"]
 ms.keywords: "*PPEP_ACPI_QUERY_OBJECT_INFORMATION, PEP_ACPI_QUERY_OBJECT_INFORMATION, PEP_ACPI_QUERY_OBJECT_INFORMATION structure [Kernel-Mode Driver Architecture], PPEP_ACPI_QUERY_OBJECT_INFORMATION, PPEP_ACPI_QUERY_OBJECT_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_QUERY_OBJECT_INFORMATION, kernel.pep_acpi_query_object_information, pepfx/PEP_ACPI_QUERY_OBJECT_INFORMATION, pepfx/PPEP_ACPI_QUERY_OBJECT_INFORMATION"
 f1_keywords:
  - "pep_x/PEP_ACPI_QUERY_OBJECT_INFORMATION"
+ - "PEP_ACPI_QUERY_OBJECT_INFORMATION"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["IOCTL_SERIAL_SET_LINE_CONTROL IOCTL"]
 ms.keywords: IOCTL_SERIAL_SET_LINE_CONTROL, IOCTL_SERIAL_SET_LINE_CONTROL control, IOCTL_SERIAL_SET_LINE_CONTROL control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_LINE_CONTROL, serports.ioctl_serial_set_line_control, serref_70796be3-dbb8-4918-899d-d3750813aad3.xml
 f1_keywords:
  - "ntddser/IOCTL_SERIAL_SET_LINE_CONTROL"
+ - "IOCTL_SERIAL_SET_LINE_CONTROL"
 req.header: ntddser.h
 req.include-header: Ntddser.h
 req.target-type: Windows

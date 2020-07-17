@@ -10,6 +10,7 @@ keywords: ["PMRX_FINALIZE_NET_ROOT_CALLDOWN callback function"]
 ms.keywords: MRxFinalizeNetRoot, MRxFinalizeNetRoot routine [Installable File System Drivers], PMRX_FINALIZE_NET_ROOT_CALLDOWN, ifsk.mrxfinalizenetroot, mrx/MRxFinalizeNetRoot, mrxref_5f5d7468-3257-4800-99fe-e5e6b7c99e37.xml
 f1_keywords:
  - "mrx/MRxFinalizeNetRoot"
+ - "MRxFinalizeNetRoot"
 req.header: mrx.h
 req.include-header: Mrx.h
 req.target-type: Desktop

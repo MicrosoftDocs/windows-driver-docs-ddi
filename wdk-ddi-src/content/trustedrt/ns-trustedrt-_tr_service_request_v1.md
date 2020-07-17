@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_TR_SERVICE_REQUEST_V1 structure"]
 f1_keywords:
  - "trustedrt/_TR_SERVICE_REQUEST_V1"
+ - "_TR_SERVICE_REQUEST_V1"
 ms.keywords: _TR_SERVICE_REQUEST_V1, TR_SERVICE_REQUEST_V1, *PTR_SERVICE_REQUEST_V1, TR_SERVICE_REQUEST, *PTR_SERVICE_REQUEST
 req.header: trustedrt.h
 req.include-header:

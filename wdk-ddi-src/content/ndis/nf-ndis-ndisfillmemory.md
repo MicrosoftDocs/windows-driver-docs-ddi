@@ -10,6 +10,7 @@ keywords: ["NdisFillMemory macro"]
 ms.keywords: NdisFillMemory, NdisFillMemory macro [Network Drivers Starting with Windows Vista], ndis/NdisFillMemory, ndis_memory_ref_c1411624-0e7b-40e2-9812-4426b2a9f2bc.xml, netvista.ndisfillmemory
 f1_keywords:
  - "ndis/NdisFillMemory"
+ - "NdisFillMemory"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

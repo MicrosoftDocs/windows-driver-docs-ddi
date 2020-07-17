@@ -7,6 +7,7 @@ ms.date: 09/19/2018
 keywords: ["IDynamicConceptProviderConcept::NotifyParent"]
 f1_keywords:
  - "dbgmodel/IDynamicConceptProviderConcept.NotifyParent"
+ - "IDynamicConceptProviderConcept.NotifyParent"
 ms.keywords: IDynamicConceptProviderConcept::NotifyParent, NotifyParent, IDynamicConceptProviderConcept.NotifyParent, IDynamicConceptProviderConcept::NotifyParent, IDynamicConceptProviderConcept.NotifyParent
 req.header: dbgmodel.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["IOCTL_TAPE_GET_POSITION IOCTL"]
 ms.keywords: IOCTL_TAPE_GET_POSITION, IOCTL_TAPE_GET_POSITION control, IOCTL_TAPE_GET_POSITION control code [Storage Devices], k307_88069692-1167-4a21-914b-505e1100f6dc.xml, ntddtape/IOCTL_TAPE_GET_POSITION, storage.ioctl_tape_get_position
 f1_keywords:
  - "ntddtape/IOCTL_TAPE_GET_POSITION"
+ - "IOCTL_TAPE_GET_POSITION"
 req.header: ntddtape.h
 req.include-header: Ntddtape.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["_MSiSCSI_InitiatorNodeFailureEvent structure"]
 ms.keywords: "*PMSiSCSI_InitiatorNodeFailureEvent, MSiSCSI_InitiatorNodeFailureEvent, MSiSCSI_InitiatorNodeFailureEvent structure [Storage Devices], PMSiSCSI_InitiatorNodeFailureEvent, PMSiSCSI_InitiatorNodeFailureEvent structure pointer [Storage Devices], _MSiSCSI_InitiatorNodeFailureEvent, iscsimgt/MSiSCSI_InitiatorNodeFailureEvent, iscsimgt/PMSiSCSI_InitiatorNodeFailureEvent, storage.msiscsi_initiatornodefailureevent, structs-iSCSI_0d1bb4bf-74a0-4d99-9bf8-1545faaff14d.xml"
 f1_keywords:
  - "iscsimgt/MSiSCSI_InitiatorNodeFailureEvent"
+ - "MSiSCSI_InitiatorNodeFailureEvent"
 req.header: iscsimgt.h
 req.include-header: Iscsimgt.h
 req.target-type: Windows

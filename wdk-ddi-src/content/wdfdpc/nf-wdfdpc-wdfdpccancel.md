@@ -10,6 +10,7 @@ keywords: ["WdfDpcCancel function"]
 ms.keywords: DFDpcObjectRef_4efcdae1-0c0a-4808-a1d8-640dea3555cb.xml, WdfDpcCancel, WdfDpcCancel method, kmdf.wdfdpccancel, wdf.wdfdpccancel, wdfdpc/WdfDpcCancel
 f1_keywords:
  - "wdfdpc/WdfDpcCancel"
+ - "WdfDpcCancel"
 req.header: wdfdpc.h
 req.include-header: Wdf.h
 req.target-type: Universal

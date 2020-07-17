@@ -10,6 +10,7 @@ keywords: ["_SCSI_PNP_REQUEST_BLOCK structure"]
 ms.keywords: "*PSCSI_PNP_REQUEST_BLOCK, PSCSI_PNP_REQUEST_BLOCK, PSCSI_PNP_REQUEST_BLOCK structure pointer [Storage Devices], SCSI_PNP_REQUEST_BLOCK, SCSI_PNP_REQUEST_BLOCK structure [Storage Devices], StorFilterResourceRequirements, StorQueryCapabilities, StorQueryResourceRequirements, StorRemoveDevice, StorStartDevice, StorStopDevice, StorSupriseRemoval, _SCSI_PNP_REQUEST_BLOCK, storage.scsi_pnp_request_block, storport/PSCSI_PNP_REQUEST_BLOCK, storport/SCSI_PNP_REQUEST_BLOCK, structs-storport_d08ea849-f1d6-4584-b6a4-df7127f6873d.xml"
 f1_keywords:
  - "srb/SCSI_PNP_REQUEST_BLOCK"
+ - "SCSI_PNP_REQUEST_BLOCK"
 req.header: srb.h
 req.include-header: Storport.h, Minitape.h, Srb.h
 req.target-type: Windows

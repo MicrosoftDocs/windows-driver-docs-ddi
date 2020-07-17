@@ -10,6 +10,7 @@ keywords: ["_COMPROPSHEETUI structure"]
 ms.keywords: "*PCOMPROPSHEETUI, COMPROPSHEETUI, COMPROPSHEETUI structure [Print Devices], PCOMPROPSHEETUI, PCOMPROPSHEETUI structure pointer [Print Devices], _COMPROPSHEETUI, compstui/COMPROPSHEETUI, compstui/PCOMPROPSHEETUI, cpsuifnc_9b1aab20-fcd7-41b5-8bc5-959ae606d6b8.xml, print.compropsheetui"
 f1_keywords:
  - "compstui/COMPROPSHEETUI"
+ - "COMPROPSHEETUI"
 req.header: compstui.h
 req.include-header: Compstui.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["RILMSGCDMAMSGDISPLAYMODE enumeration"]
 ms.keywords: RILMSGCDMAMSGDISPLAYMODE, RILMSGCDMAMSGDISPLAYMODE enumeration [Network Drivers Starting with Windows Vista], RIL_MSGDISPLAYMODE_MAX, RIL_MSGDISPLAYMODE_MOBILEDEFAULT, RIL_MSGDISPLAYMODE_USERDEFAULT, netvista.rilmsgcdmamsgdisplaymode, ntddrilapitypes/RILMSGCDMAMSGDISPLAYMODE, ntddrilapitypes/RIL_MSGDISPLAYMODE_MAX, ntddrilapitypes/RIL_MSGDISPLAYMODE_MOBILEDEFAULT, ntddrilapitypes/RIL_MSGDISPLAYMODE_USERDEFAULT
 f1_keywords:
  - "rilapitypes/RILMSGCDMAMSGDISPLAYMODE"
+ - "RILMSGCDMAMSGDISPLAYMODE"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

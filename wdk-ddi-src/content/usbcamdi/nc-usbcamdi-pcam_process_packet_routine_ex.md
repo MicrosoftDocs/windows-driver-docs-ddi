@@ -10,6 +10,7 @@ keywords: ["PCAM_PROCESS_PACKET_ROUTINE_EX callback function"]
 ms.keywords: CamProcessUSBPacketEx, CamProcessUSBPacketEx routine [Streaming Media Devices], PCAM_PROCESS_PACKET_ROUTINE_EX, stream.camprocessusbpacketex, usbcamdi/CamProcessUSBPacketEx, usbcmdpr_bd37e77c-386b-4b94-ad7c-8b1c5c26799a.xml
 f1_keywords:
  - "usbcamdi/CamProcessUSBPacketEx"
+ - "CamProcessUSBPacketEx"
 req.header: usbcamdi.h
 req.include-header: Usbcamdi.h
 req.target-type: Desktop

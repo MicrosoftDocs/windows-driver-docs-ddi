@@ -10,6 +10,7 @@ keywords: ["IPrintOemUni::TextOutAsBitmap"]
 ms.keywords: IPrintOemUni interface [Print Devices],TextOutAsBitmap method, IPrintOemUni.TextOutAsBitmap, IPrintOemUni::TextOutAsBitmap, TextOutAsBitmap, TextOutAsBitmap method [Print Devices], TextOutAsBitmap method [Print Devices],IPrintOemUni interface, prcomoem/IPrintOemUni::TextOutAsBitmap, print.iprintoemuni_textoutasbitmap, print_unidrv-pscript_rendering_41d6e02a-2a7b-4d78-95d6-fff6ae39b333.xml
 f1_keywords:
  - "prcomoem/IPrintOemUni.TextOutAsBitmap"
+ - "IPrintOemUni.TextOutAsBitmap"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop

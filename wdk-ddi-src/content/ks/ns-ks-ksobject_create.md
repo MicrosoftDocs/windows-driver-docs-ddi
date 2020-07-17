@@ -10,6 +10,7 @@ keywords: ["KSOBJECT_CREATE structure"]
 ms.keywords: "*PKSOBJECT_CREATE, KSOBJECT_CREATE, KSOBJECT_CREATE structure [Streaming Media Devices], PKSOBJECT_CREATE, PKSOBJECT_CREATE structure pointer [Streaming Media Devices], ks-struct_885122dd-299b-47d0-b161-2d3ffac610f6.xml, ks/KSOBJECT_CREATE, ks/PKSOBJECT_CREATE, stream.ksobject_create"
 f1_keywords:
  - "ks/KSOBJECT_CREATE"
+ - "KSOBJECT_CREATE"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows

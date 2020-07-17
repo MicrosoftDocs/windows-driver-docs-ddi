@@ -10,6 +10,7 @@ keywords: ["BdaDeletePin function"]
 ms.keywords: BdaDeletePin, BdaDeletePin function [Streaming Media Devices], bdaref_36a08eca-6cfb-4647-8252-05b6c8e0b8e1.xml, bdasup/BdaDeletePin, stream.bdadeletepin
 f1_keywords:
  - "bdasup/BdaDeletePin"
+ - "BdaDeletePin"
 req.header: bdasup.h
 req.include-header: Bdasup.h
 req.target-type: Desktop

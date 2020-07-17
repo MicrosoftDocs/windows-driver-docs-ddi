@@ -10,6 +10,7 @@ keywords: ["NdisFSendNetBufferLists function"]
 ms.keywords: NdisFSendNetBufferLists, NdisFSendNetBufferLists function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_333e9ef3-6858-4b5b-bca1-4f06da775906.xml, ndis/NdisFSendNetBufferLists, netvista.ndisfsendnetbufferlists
 f1_keywords:
  - "ndis/NdisFSendNetBufferLists"
+ - "NdisFSendNetBufferLists"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

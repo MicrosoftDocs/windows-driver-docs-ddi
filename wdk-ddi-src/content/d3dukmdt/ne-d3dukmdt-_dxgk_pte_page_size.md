@@ -10,6 +10,7 @@ keywords: ["_DXGK_PTE_PAGE_SIZE enumeration"]
 ms.keywords: DXGK_PTE_PAGE_SIZE, DXGK_PTE_PAGE_SIZE enumeration [Display Devices], DXGK_PTE_PAGE_TABLE_PAGE_4KB, DXGK_PTE_PAGE_TABLE_PAGE_64KB, _DXGK_PTE_PAGE_SIZE, d3dukmdt/DXGK_PTE_PAGE_SIZE, d3dukmdt/DXGK_PTE_PAGE_TABLE_PAGE_4KB, d3dukmdt/DXGK_PTE_PAGE_TABLE_PAGE_64KB, display.dxgk_pte_page_size
 f1_keywords:
  - "d3dukmdt/DXGK_PTE_PAGE_SIZE"
+ - "DXGK_PTE_PAGE_SIZE"
 req.header: d3dukmdt.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

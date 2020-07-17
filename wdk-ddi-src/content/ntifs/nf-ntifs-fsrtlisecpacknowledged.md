@@ -10,6 +10,7 @@ keywords: ["FsRtlIsEcpAcknowledged function"]
 ms.keywords: FsRtlIsEcpAcknowledged, FsRtlIsEcpAcknowledged routine [Installable File System Drivers], fsrtlref_5e05018f-5f4a-41e1-a05a-93ab636012e1.xml, ifsk.fsrtlisecpacknowledged, ntifs/FsRtlIsEcpAcknowledged
 f1_keywords:
  - "ntifs/FsRtlIsEcpAcknowledged"
+ - "FsRtlIsEcpAcknowledged"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

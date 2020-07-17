@@ -7,6 +7,7 @@ ms.date: 09/21/2018
 keywords: ["IDataModelScriptDebug::Release"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebug.Release"
+ - "IDataModelScriptDebug.Release"
 ms.keywords: IDataModelScriptDebug::Release, Release, IDataModelScriptDebug.Release, IDataModelScriptDebug::Release, IDataModelScriptDebug.Release
 req.header: dbgmodel.h
 req.include-header:

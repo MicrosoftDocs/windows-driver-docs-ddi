@@ -7,6 +7,7 @@ ms.date: 07/16/2018
 keywords: ["SymbolSearchInfo structure"]
 f1_keywords:
  - "dbgmodel/SymbolSearchInfo"
+ - "SymbolSearchInfo"
 ms.keywords: SymbolSearchInfo, , 
 req.header: dbgmodel.h
 req.include-header:

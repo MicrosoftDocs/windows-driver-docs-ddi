@@ -10,6 +10,7 @@ keywords: ["IDebugDataSpaces4::ReadVirtualUncached"]
 ms.keywords: IDebugDataSpaces interface [Windows Debugging],ReadVirtualUncached method, IDebugDataSpaces2 interface [Windows Debugging],ReadVirtualUncached method, IDebugDataSpaces2::ReadVirtualUncached, IDebugDataSpaces3 interface [Windows Debugging],ReadVirtualUncached method, IDebugDataSpaces3::ReadVirtualUncached, IDebugDataSpaces4 interface [Windows Debugging],ReadVirtualUncached method, IDebugDataSpaces4.ReadVirtualUncached, IDebugDataSpaces4::ReadVirtualUncached, IDebugDataSpaces::ReadVirtualUncached, IDebugDataSpaces_265817a7-d690-4b8c-957f-06ec5d4f2f08.xml, ReadVirtualUncached, ReadVirtualUncached method [Windows Debugging], ReadVirtualUncached method [Windows Debugging],IDebugDataSpaces interface, ReadVirtualUncached method [Windows Debugging],IDebugDataSpaces2 interface, ReadVirtualUncached method [Windows Debugging],IDebugDataSpaces3 interface, ReadVirtualUncached method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces2::ReadVirtualUncached, dbgeng/IDebugDataSpaces3::ReadVirtualUncached, dbgeng/IDebugDataSpaces4::ReadVirtualUncached, dbgeng/IDebugDataSpaces::ReadVirtualUncached, debugger.readvirtualuncached
 f1_keywords:
  - "dbgeng/IDebugDataSpaces.ReadVirtualUncached"
+ - "IDebugDataSpaces.ReadVirtualUncached"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

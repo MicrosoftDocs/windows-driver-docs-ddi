@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["_USBC_PD_POWER_DATA_OBJECT_TYPE enumeration"]
 f1_keywords:
  - "usbctypes/_USBC_PD_POWER_DATA_OBJECT_TYPE"
+ - "_USBC_PD_POWER_DATA_OBJECT_TYPE"
 ms.keywords: _USBC_PD_POWER_DATA_OBJECT_TYPE, USBC_PD_POWER_DATA_OBJECT_TYPE, 
 req.header: usbctypes.h
 req.include-header: usbctypes.h

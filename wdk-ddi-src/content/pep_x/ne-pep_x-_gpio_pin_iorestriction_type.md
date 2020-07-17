@@ -10,6 +10,7 @@ keywords: ["_GPIO_PIN_IORESTRICTION_TYPE enumeration"]
 ms.keywords: GPIO_PIN_IORESTRICTION_TYPE, GPIO_PIN_IORESTRICTION_TYPE enumeration [Kernel-Mode Driver Architecture], IoRestrictionInputOnly, IoRestrictionNone, IoRestrictionNoneAndPreserve, IoRestrictionOutputOnly, _GPIO_PIN_IORESTRICTION_TYPE, kernel.gpio_pin_iorestriction_type, pepfx/GPIO_PIN_IORESTRICTION_TYPE, pepfx/IoRestrictionInputOnly, pepfx/IoRestrictionNone, pepfx/IoRestrictionNoneAndPreserve, pepfx/IoRestrictionOutputOnly
 f1_keywords:
  - "pep_x/GPIO_PIN_IORESTRICTION_TYPE"
+ - "GPIO_PIN_IORESTRICTION_TYPE"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows

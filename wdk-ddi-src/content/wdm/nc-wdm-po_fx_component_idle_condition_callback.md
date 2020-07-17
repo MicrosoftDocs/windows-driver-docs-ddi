@@ -10,6 +10,7 @@ keywords: ["PO_FX_COMPONENT_IDLE_CONDITION_CALLBACK callback function"]
 ms.keywords: ComponentIdleConditionCallback, ComponentIdleConditionCallback routine [Kernel-Mode Driver Architecture], PO_FX_COMPONENT_IDLE_CONDITION_CALLBACK, kernel.componentidleconditioncallback, wdm/ComponentIdleConditionCallback
 f1_keywords:
  - "wdm/ComponentIdleConditionCallback"
+ - "ComponentIdleConditionCallback"
 req.header: wdm.h
 req.include-header: Wudfwdm.h
 req.target-type: Desktop

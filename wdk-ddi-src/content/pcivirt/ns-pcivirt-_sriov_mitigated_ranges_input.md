@@ -10,6 +10,7 @@ keywords: ["_SRIOV_MITIGATED_RANGES_INPUT structure"]
 ms.keywords: "*PSRIOV_MITIGATED_RANGES_INPUT, PCI.sriov_mitigated_ranges_input, SRIOV_MITIGATED_RANGES_INPUT, SRIOV_MITIGATED_RANGES_INPUT structure [Buses], _SRIOV_MITIGATED_RANGES_INPUT, pcivirt/SRIOV_MITIGATED_RANGES_INPUT"
 f1_keywords:
  - "pcivirt/SRIOV_MITIGATED_RANGES_INPUT"
+ - "SRIOV_MITIGATED_RANGES_INPUT"
 req.header: pcivirt.h
 req.include-header:
 req.target-type: Windows

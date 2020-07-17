@@ -10,6 +10,7 @@ keywords: ["OEMFilterGraphics function"]
 ms.keywords: OEMFilterGraphics, OEMFilterGraphics function [Print Devices], print.oemfiltergraphics, print_obsoletefunctions_fa20bac8-85b3-4ddb-8bf6-1a659f30b3ad.xml, printoem/OEMFilterGraphics
 f1_keywords:
  - "printoem/OEMFilterGraphics"
+ - "OEMFilterGraphics"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows

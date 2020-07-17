@@ -10,6 +10,7 @@ keywords: ["_MSR_DATA_RECEIVED structure"]
 ms.keywords: "*PMSR_DATA_RECEIVED, MSR_DATA_RECEIVED, MSR_DATA_RECEIVED structure, PMSR_DATA_RECEIVED, PMSR_DATA_RECEIVED structure pointer, _MSR_DATA_RECEIVED, pointofservicedriverinterface/MSR_DATA_RECEIVED, pointofservicedriverinterface/PMSR_DATA_RECEIVED, pos.msr_data_received"
 f1_keywords:
  - "pointofservicedriverinterface/MSR_DATA_RECEIVED"
+ - "MSR_DATA_RECEIVED"
 req.header: pointofservicedriverinterface.h
 req.include-header: PointOfServiceDriverInterface.h
 req.target-type: Windows

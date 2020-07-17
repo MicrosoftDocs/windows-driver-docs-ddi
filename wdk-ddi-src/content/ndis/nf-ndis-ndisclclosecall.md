@@ -10,6 +10,7 @@ keywords: ["NdisClCloseCall function"]
 ms.keywords: NdisClCloseCall, NdisClCloseCall function [Network Drivers Starting with Windows Vista], condis_client_ref_6d047338-0482-4d26-8dfa-4c07502fb8a2.xml, ndis/NdisClCloseCall, netvista.ndisclclosecall
 f1_keywords:
  - "ndis/NdisClCloseCall"
+ - "NdisClCloseCall"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

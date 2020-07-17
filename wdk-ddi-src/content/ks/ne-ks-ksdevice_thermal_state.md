@@ -10,6 +10,7 @@ keywords: ["KSDEVICE_THERMAL_STATE enumeration"]
 ms.keywords: KSDEVICE_THERMAL_STATE, KSDEVICE_THERMAL_STATE enumeration [Streaming Media Devices], KSDEVICE_THERMAL_STATE_HIGH, KSDEVICE_THERMAL_STATE_LOW, ks/KSDEVICE_THERMAL_STATE, ks/KSDEVICE_THERMAL_STATE_HIGH, ks/KSDEVICE_THERMAL_STATE_LOW, stream.ksdevice_thermal_state
 f1_keywords:
  - "ks/KSDEVICE_THERMAL_STATE"
+ - "KSDEVICE_THERMAL_STATE"
 req.header: ks.h
 req.include-header: 
 req.target-type: Windows

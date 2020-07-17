@@ -10,6 +10,7 @@ keywords: ["_L2CAP_CONFIG_VALUE_RANGE structure"]
 ms.keywords: "*PL2CAP_CONFIG_VALUE_RANGE, L2CAP_CONFIG_VALUE_RANGE, L2CAP_CONFIG_VALUE_RANGE structure [Bluetooth Devices], PL2CAP_CONFIG_VALUE_RANGE, PL2CAP_CONFIG_VALUE_RANGE structure pointer [Bluetooth Devices], _L2CAP_CONFIG_VALUE_RANGE, bltooth.l2cap_config_value_range, bth_structs_3af526a5-d36e-432f-9d2e-fa31bee0effe.xml, bthddi/L2CAP_CONFIG_VALUE_RANGE, bthddi/PL2CAP_CONFIG_VALUE_RANGE"
 f1_keywords:
  - "bthddi/L2CAP_CONFIG_VALUE_RANGE"
+ - "L2CAP_CONFIG_VALUE_RANGE"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows

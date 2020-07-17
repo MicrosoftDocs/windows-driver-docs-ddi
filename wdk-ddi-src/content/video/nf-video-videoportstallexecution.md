@@ -10,6 +10,7 @@ keywords: ["VideoPortStallExecution function"]
 ms.keywords: VideoPortStallExecution, VideoPortStallExecution function [Display Devices], VideoPort_Functions_bda7e25d-a636-4ceb-ae47-c74435f9483a.xml, display.videoportstallexecution, video/VideoPortStallExecution
 f1_keywords:
  - "video/VideoPortStallExecution"
+ - "VideoPortStallExecution"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

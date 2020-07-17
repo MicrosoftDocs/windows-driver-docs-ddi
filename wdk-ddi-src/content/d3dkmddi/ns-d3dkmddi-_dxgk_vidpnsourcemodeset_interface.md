@@ -9,6 +9,7 @@ keywords: ["_DXGK_VIDPNSOURCEMODESET_INTERFACE structure"]
 ms.keywords: DXGK_VIDPNSOURCEMODESET_INTERFACE, DXGK_VIDPNSOURCEMODESET_INTERFACE structure [Display Devices], DmStructs_8e8b4b99-8121-4cff-9d1b-f88a9041e7cd.xml, _DXGK_VIDPNSOURCEMODESET_INTERFACE, d3dkmddi/DXGK_VIDPNSOURCEMODESET_INTERFACE, display.dxgk_vidpnsourcemodeset_interface
 f1_keywords:
  - "d3dkmddi/DXGK_VIDPNSOURCEMODESET_INTERFACE"
+ - "DXGK_VIDPNSOURCEMODESET_INTERFACE"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["WRITE_PORT_ULONG function"]
 ms.keywords: WRITE_PORT_ULONG, WRITE_PORT_ULONG function, umdf.write_port_ulong, wdf.write_port_ulong, wudfddi_hwaccess/WRITE_PORT_ULONG
 f1_keywords:
  - "wudfddi_hwaccess/WRITE_PORT_ULONG"
+ - "WRITE_PORT_ULONG"
 req.header: wudfddi_hwaccess.h
 req.include-header: 
 req.target-type: Desktop

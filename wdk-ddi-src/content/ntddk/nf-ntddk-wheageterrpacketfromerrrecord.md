@@ -10,6 +10,7 @@ keywords: ["WheaGetErrPacketFromErrRecord function"]
 ms.keywords: WheaGetErrPacketFromErrRecord, WheaGetErrPacketFromErrRecord function [WHEA Drivers and Applications], ntddk/WheaGetErrPacketFromErrRecord, whea.wheageterrpacketfromerrrecord, whearef2_c7c202ca-0ed0-4a12-a3f0-64723e6483c6.xml
 f1_keywords:
  - "ntddk/WheaGetErrPacketFromErrRecord"
+ - "WheaGetErrPacketFromErrRecord"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Desktop

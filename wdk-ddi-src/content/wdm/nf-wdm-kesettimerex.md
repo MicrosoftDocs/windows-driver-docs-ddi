@@ -10,6 +10,7 @@ keywords: ["KeSetTimerEx function"]
 ms.keywords: KeSetTimerEx, KeSetTimerEx routine [Kernel-Mode Driver Architecture], k105_ca0b6adf-7903-485b-b29c-c406701c3032.xml, kernel.kesettimerex, wdm/KeSetTimerEx
 f1_keywords:
  - "wdm/KeSetTimerEx"
+ - "KeSetTimerEx"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

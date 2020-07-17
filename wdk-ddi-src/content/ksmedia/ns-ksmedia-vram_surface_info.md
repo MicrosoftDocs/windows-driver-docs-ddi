@@ -10,6 +10,7 @@ keywords: ["VRAM_SURFACE_INFO structure"]
 ms.keywords: "*PVRAM_SURFACE_INFO, PVRAM_SURFACE_INFO, PVRAM_SURFACE_INFO structure pointer [Streaming Media Devices], VRAM_SURFACE_INFO, VRAM_SURFACE_INFO structure [Streaming Media Devices], avstruct_ac2ca5de-0eea-453b-b3fd-79874fd2242a.xml, ksmedia/PVRAM_SURFACE_INFO, ksmedia/VRAM_SURFACE_INFO, stream.vram_surface_info"
 f1_keywords:
  - "ksmedia/VRAM_SURFACE_INFO"
+ - "VRAM_SURFACE_INFO"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

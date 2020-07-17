@@ -8,6 +8,7 @@ keywords: ["CollectionsListUpdateMarshalledPointer function"]
 tech.root: sensors
 f1_keywords:
  - "sensorsutils/CollectionsListUpdateMarshalledPointer"
+ - "CollectionsListUpdateMarshalledPointer"
 ms.keywords: CollectionsListUpdateMarshalledPointer
 req.header: sensorsutils.h
 req.include-header:

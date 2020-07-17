@@ -10,6 +10,7 @@ keywords: ["DMA_RESUME_HANDLER callback function"]
 ms.keywords: DMA_RESUME_HANDLER, DMA_RESUME_HANDLER callback, ProviderResumeDma, ProviderResumeDma callback function [Network Drivers Starting with Windows Vista], netdma/ProviderResumeDma, netdma_ref_75548093-1640-40f2-a715-0918b92900d3.xml, netvista.providerresumedma
 f1_keywords:
  - "netdma/ProviderResumeDma"
+ - "ProviderResumeDma"
 req.header: netdma.h
 req.include-header: Netdma.h
 req.target-type: Windows

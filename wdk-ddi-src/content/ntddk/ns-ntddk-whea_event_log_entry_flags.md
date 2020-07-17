@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["WHEA_EVENT_LOG_ENTRY_FLAGS structure"]
 f1_keywords:
  - "ntddk/WHEA_EVENT_LOG_ENTRY_FLAGS"
+ - "WHEA_EVENT_LOG_ENTRY_FLAGS"
 ms.keywords: WHEA_EVENT_LOG_ENTRY_FLAGS, WHEA_EVENT_LOG_ENTRY_FLAGS, *PWHEA_EVENT_LOG_ENTRY_FLAGS, 
 req.header: ntddk.h
 req.include-header:

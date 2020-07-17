@@ -7,6 +7,7 @@ ms.date: 08/14/2018
 keywords: ["IModelKeyReference::GetKeyValue"]
 f1_keywords:
  - "dbgmodel/IModelKeyReference.GetKeyValue"
+ - "IModelKeyReference.GetKeyValue"
 ms.keywords: IModelKeyReference::GetKeyValue, GetKeyValue, IModelKeyReference.GetKeyValue, IModelKeyReference::GetKeyValue, IModelKeyReference.GetKeyValue
 req.header: dbgmodel.h
 req.include-header:

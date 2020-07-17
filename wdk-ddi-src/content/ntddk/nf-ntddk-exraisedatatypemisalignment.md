@@ -10,6 +10,7 @@ keywords: ["ExRaiseDatatypeMisalignment function"]
 ms.keywords: ExRaiseDatatypeMisalignment, ExRaiseDatatypeMisalignment routine [Kernel-Mode Driver Architecture], k102_ff274a50-ae59-4591-9484-6bc068601ee8.xml, kernel.exraisedatatypemisalignment, ntddk/ExRaiseDatatypeMisalignment
 f1_keywords:
  - "ntddk/ExRaiseDatatypeMisalignment"
+ - "ExRaiseDatatypeMisalignment"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

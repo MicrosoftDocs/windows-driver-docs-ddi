@@ -10,6 +10,7 @@ keywords: ["CMP_PLUG_TYPE enumeration"]
 ms.keywords: 61883/CMP_PLUG_TYPE, 61883/CMP_PlugIn, 61883/CMP_PlugOut, CMP_PLUG_TYPE, CMP_PLUG_TYPE enumeration [Buses], CMP_PlugIn, CMP_PlugOut, IEEE.cmp_plug_type
 f1_keywords:
  - "61883/CMP_PLUG_TYPE"
+ - "CMP_PLUG_TYPE"
 req.header: 61883.h
 req.include-header: 
 req.target-type: Windows

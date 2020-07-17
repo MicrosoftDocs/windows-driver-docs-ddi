@@ -10,6 +10,7 @@ keywords: ["_IMAGE_INFO structure"]
 ms.keywords: "*PIMAGE_INFO, IMAGE_INFO, IMAGE_INFO structure [Kernel-Mode Driver Architecture], PIMAGE_INFO, PIMAGE_INFO structure pointer [Kernel-Mode Driver Architecture], _IMAGE_INFO, kernel.image_info, ntddk/IMAGE_INFO, ntddk/PIMAGE_INFO"
 f1_keywords:
  - "ntddk/IMAGE_INFO"
+ - "IMAGE_INFO"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows

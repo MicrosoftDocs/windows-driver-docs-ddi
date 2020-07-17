@@ -9,6 +9,7 @@ keywords: ["DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_RETURN_INFO structure"]
 ms.keywords: DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_RETURN_INFO, DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_RETURN_INFO structure [Display Devices], d3dkmddi/DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_RETURN_INFO, display.dxgk_check_multiplane_overlay_support_return_info
 f1_keywords:
  - "d3dkmddi/DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_RETURN_INFO"
+ - "DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_RETURN_INFO"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

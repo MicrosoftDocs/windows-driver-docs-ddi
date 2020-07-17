@@ -10,6 +10,7 @@ keywords: ["HW_PROCESS_SERVICE_REQUEST callback function"]
 ms.keywords: HW_PROCESS_SERVICE_REQUEST, HwStorProcessServiceRequest, HwStorProcessServiceRequest routine [Storage Devices], storage.hwstorprocessservicerequest, storport/HwStorProcessServiceRequest, storvmini_50b0d1a2-74bf-4ee4-a9f7-3c30f1a81507.xml
 f1_keywords:
  - "storport/HwStorProcessServiceRequest"
+ - "HwStorProcessServiceRequest"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

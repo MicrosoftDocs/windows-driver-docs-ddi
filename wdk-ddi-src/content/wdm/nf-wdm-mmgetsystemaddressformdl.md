@@ -10,6 +10,7 @@ keywords: ["MmGetSystemAddressForMdl macro"]
 ms.keywords: MmGetSystemAddressForMdl, MmGetSystemAddressForMdl routine [Kernel-Mode Driver Architecture], k106_fc92914d-81c3-4ae9-a12d-86003d55bb4d.xml, kernel.mmgetsystemaddressformdl, wdm/MmGetSystemAddressForMdl
 f1_keywords:
  - "wdm/MmGetSystemAddressForMdl"
+ - "MmGetSystemAddressForMdl"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

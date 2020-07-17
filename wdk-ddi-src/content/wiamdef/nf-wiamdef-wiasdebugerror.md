@@ -10,6 +10,7 @@ keywords: ["wiasDebugError function"]
 ms.keywords: image.wiasdebugerror, wiamdef/wiasDebugError, wiasDebugError, wiasDebugError function [Imaging Devices], wiasFncs_0ccba388-a6ca-42b9-acd5-720b6763a202.xml
 f1_keywords:
  - "wiamdef/wiasDebugError"
+ - "wiasDebugError"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop

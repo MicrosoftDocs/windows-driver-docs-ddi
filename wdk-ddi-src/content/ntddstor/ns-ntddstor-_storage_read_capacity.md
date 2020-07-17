@@ -10,6 +10,7 @@ keywords: ["_STORAGE_READ_CAPACITY structure"]
 ms.keywords: PSTORAGE_READ_CAPACITY, PSTORAGE_READ_CAPACITY structure pointer [Storage Devices], STORAGE_READ_CAPACITY, STORAGE_READ_CAPACITY structure [Storage Devices], _STORAGE_READ_CAPACITY, ntddstor/PSTORAGE_READ_CAPACITY, ntddstor/STORAGE_READ_CAPACITY, storage.storage_read_capacity
 f1_keywords:
  - "ntddstor/STORAGE_READ_CAPACITY"
+ - "STORAGE_READ_CAPACITY"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows

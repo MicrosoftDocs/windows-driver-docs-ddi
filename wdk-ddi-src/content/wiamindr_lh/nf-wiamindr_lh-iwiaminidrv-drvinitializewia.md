@@ -10,6 +10,7 @@ keywords: ["IWiaMiniDrv::drvInitializeWia"]
 ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvInitializeWia method, IWiaMiniDrv.drvInitializeWia, IWiaMiniDrv::drvInitializeWia, MiniDrv_04485b20-ff45-4cf7-a861-841bf03befcf.xml, drvInitializeWia, drvInitializeWia method [Imaging Devices], drvInitializeWia method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvinitializewia, wiamindr_lh/IWiaMiniDrv::drvInitializeWia
 f1_keywords:
  - "wiamindr_lh/IWiaMiniDrv.drvInitializeWia"
+ - "IWiaMiniDrv.drvInitializeWia"
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop

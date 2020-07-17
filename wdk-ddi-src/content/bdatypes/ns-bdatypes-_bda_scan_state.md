@@ -10,6 +10,7 @@ keywords: ["_BDA_SCAN_STATE structure"]
 ms.keywords: "*PBDA_SCAN_STATE, BDA_SCAN_STATE, BDA_SCAN_STATE structure [Streaming Media Devices], PBDA_SCAN_STATE, PBDA_SCAN_STATE structure pointer [Streaming Media Devices], _BDA_SCAN_STATE, bdatypes/BDA_SCAN_STATE, bdatypes/PBDA_SCAN_STATE, stream.bda_scan_state"
 f1_keywords:
  - "bdatypes/BDA_SCAN_STATE"
+ - "BDA_SCAN_STATE"
 req.header: bdatypes.h
 req.include-header: 
 req.target-type: Windows

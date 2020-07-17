@@ -10,6 +10,7 @@ keywords: ["IOCTL_SERIAL_CLR_RTS IOCTL"]
 ms.keywords: IOCTL_SERIAL_CLR_RTS, IOCTL_SERIAL_CLR_RTS control, IOCTL_SERIAL_CLR_RTS control code [Serial Ports], ntddser/IOCTL_SERIAL_CLR_RTS, serports.ioctl_serial_clr_rts, serref_c6ddd78f-7cea-4358-9c02-9c211399f6c8.xml
 f1_keywords:
  - "ntddser/IOCTL_SERIAL_CLR_RTS"
+ - "IOCTL_SERIAL_CLR_RTS"
 req.header: ntddser.h
 req.include-header: Ntddser.h
 req.target-type: Windows

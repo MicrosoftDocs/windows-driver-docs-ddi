@@ -10,6 +10,7 @@ keywords: ["IDebugRegisters interface"]
 ms.keywords: IDebugRegisters, IDebugRegisters interface [Windows Debugging], IDebugRegisters interface [Windows Debugging],described, IDebugRegisters_ca710692-a977-4276-b779-2b66311938dc.xml, dbgeng/IDebugRegisters, debugger.idebugregisters
 f1_keywords:
  - "dbgeng/IDebugRegisters"
+ - "IDebugRegisters"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

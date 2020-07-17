@@ -10,6 +10,7 @@ keywords: ["IDebugClient7::SetClientContext"]
 ms.keywords: IDebugClient7 interface [Windows Debugging],SetClientContext method, IDebugClient7.SetClientContext, IDebugClient7::SetClientContext, SetClientContext, SetClientContext method [Windows Debugging], SetClientContext method [Windows Debugging],IDebugClient7 interface, dbgeng/IDebugClient7::SetClientContext, debugger.idebugclient7_setclientcontext
 f1_keywords:
  - "dbgeng/IDebugClient7.SetClientContext"
+ - "IDebugClient7.SetClientContext"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

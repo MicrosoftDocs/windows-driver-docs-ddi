@@ -10,6 +10,7 @@ keywords: ["SerCxProgressTransmit function"]
 ms.keywords: 1/SerCxProgressTransmit, SerCxProgressTransmit, SerCxProgressTransmit method [Serial Ports], serports.sercxprogresstransmit
 f1_keywords:
  - "sercx/SerCxProgressTransmit"
+ - "SerCxProgressTransmit"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal

@@ -8,6 +8,7 @@ ms.date: 08/20/2018
 keywords: ["_WWAN_SAR_TRANSMISSION_STATUS enumeration"]
 f1_keywords:
  - "wwan/_WWAN_SAR_TRANSMISSION_STATUS"
+ - "_WWAN_SAR_TRANSMISSION_STATUS"
 ms.keywords: _WWAN_SAR_TRANSMISSION_STATUS, WWAN_SAR_TRANSMISSION_STATUS, *PWWAN_SAR_TRANSMISSION_STATUS, 
 req.header: wwan.h
 req.include-header:

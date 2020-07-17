@@ -7,6 +7,7 @@ ms.date: 09/28/2018
 keywords: ["BindReadOnlyProperty function"]
 f1_keywords:
  - "dbgmodel/BindReadOnlyProperty"
+ - "BindReadOnlyProperty"
 ms.keywords: BindReadOnlyProperty
 req.header: dbgmodel.h
 req.include-header:

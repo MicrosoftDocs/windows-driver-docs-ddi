@@ -10,6 +10,7 @@ keywords: ["DXGI_DDI_ARG_PRESENTSURFACE structure"]
 ms.keywords: DXGI_DDI_ARG_PRESENTSURFACE, DXGI_DDI_ARG_PRESENTSURFACE structure [Display Devices], display.dxgi_ddi_arg_presentsurface, dxgiddi/DXGI_DDI_ARG_PRESENTSURFACE
 f1_keywords:
  - "dxgiddi/DXGI_DDI_ARG_PRESENTSURFACE"
+ - "DXGI_DDI_ARG_PRESENTSURFACE"
 req.header: dxgiddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_WMI_INSTANCE_QUERY_INSTANCE callback function"]
 ms.keywords: DFWMIRef_424a0070-8839-4d3f-b285-166b23ac03f7.xml, EVT_WDF_WMI_INSTANCE_QUERY_INSTANCE, EVT_WDF_WMI_INSTANCE_QUERY_INSTANCE callback, EvtWmiInstanceQueryInstance, EvtWmiInstanceQueryInstance callback function, kmdf.evtwmiinstancequeryinstance, wdf.evtwmiinstancequeryinstance, wdfwmi/EvtWmiInstanceQueryInstance
 f1_keywords:
  - "wdfwmi/EvtWmiInstanceQueryInstance"
+ - "EvtWmiInstanceQueryInstance"
 req.header: wdfwmi.h
 req.include-header: Wdf.h
 req.target-type: Universal

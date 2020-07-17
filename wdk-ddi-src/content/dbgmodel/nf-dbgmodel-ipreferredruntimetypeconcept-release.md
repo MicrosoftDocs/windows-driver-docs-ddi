@@ -7,6 +7,7 @@ ms.date: 09/20/2018
 keywords: ["IPreferredRuntimeTypeConcept::Release"]
 f1_keywords:
  - "dbgmodel/IPreferredRuntimeTypeConcept.Release"
+ - "IPreferredRuntimeTypeConcept.Release"
 ms.keywords: IPreferredRuntimeTypeConcept::Release, Release, IPreferredRuntimeTypeConcept.Release, IPreferredRuntimeTypeConcept::Release, IPreferredRuntimeTypeConcept.Release
 req.header: dbgmodel.h
 req.include-header:

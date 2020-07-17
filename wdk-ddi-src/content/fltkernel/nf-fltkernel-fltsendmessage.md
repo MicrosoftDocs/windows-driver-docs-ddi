@@ -10,6 +10,7 @@ keywords: ["FltSendMessage function"]
 ms.keywords: FltApiRef_p_to_z_17d1087d-2a25-4c72-aed4-9246b4610b8b.xml, FltSendMessage, FltSendMessage function [Installable File System Drivers], fltkernel/FltSendMessage, ifsk.fltsendmessage
 f1_keywords:
  - "fltkernel/FltSendMessage"
+ - "FltSendMessage"
 req.header: fltkernel.h
 req.include-header: FltKernel.h
 req.target-type: Universal

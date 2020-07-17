@@ -10,6 +10,7 @@ keywords: ["_DOT11_TEMP_TYPE enumeration"]
 ms.keywords: "*PDOT11_TEMP_TYPE, DOT11_TEMP_TYPE, DOT11_TEMP_TYPE enumeration [Network Drivers Starting with Windows Vista], Native_802.11_data_types_5b580f41-75a6-4d16-9ea5-cc3dc3622a84.xml, PDOT11_TEMP_TYPE, PDOT11_TEMP_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _DOT11_TEMP_TYPE, dot11_temp_type_1, dot11_temp_type_2, dot11_temp_type_unknown, netvista.dot11_temp_type, windot11/DOT11_TEMP_TYPE, windot11/PDOT11_TEMP_TYPE, windot11/dot11_temp_type_1, windot11/dot11_temp_type_2, windot11/dot11_temp_type_unknown"
 f1_keywords:
  - "windot11/DOT11_TEMP_TYPE"
+ - "DOT11_TEMP_TYPE"
 req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows

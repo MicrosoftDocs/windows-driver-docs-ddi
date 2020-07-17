@@ -10,6 +10,7 @@ keywords: ["StorPortGetSystemAddress function"]
 ms.keywords: StorPortGetSystemAddress, StorPortGetSystemAddress routine [Storage Devices], storage.storportgetsystemaddress, storport/StorPortGetSystemAddress, storprt_6e6713c8-a235-43b8-a325-2d4b8fca8f35.xml
 f1_keywords:
  - "storport/StorPortGetSystemAddress"
+ - "StorPortGetSystemAddress"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

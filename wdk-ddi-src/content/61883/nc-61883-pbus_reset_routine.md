@@ -10,6 +10,7 @@ keywords: ["PBUS_RESET_ROUTINE callback function"]
 ms.keywords: 61883/BusResetRoutine, BusResetRoutine, BusResetRoutine callback function [Buses], IEEE.pbus_reset_routine, PBUS_RESET_ROUTINE, PBUS_RESET_ROUTINE callback
 f1_keywords:
  - "61883/BusResetRoutine"
+ - "BusResetRoutine"
 req.header: 61883.h
 req.include-header: 
 req.target-type: Windows

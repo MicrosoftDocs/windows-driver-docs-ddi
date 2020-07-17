@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_COLORFILL structure"]
 ms.keywords: D3DDDIARG_COLORFILL, D3DDDIARG_COLORFILL structure [Display Devices], UMDisplayDriver_param_Structs_1ad82ddb-4070-45be-81c3-c2347170fad0.xml, _D3DDDIARG_COLORFILL, d3dumddi/D3DDDIARG_COLORFILL, display.d3dddiarg_colorfill
 f1_keywords:
  - "d3dumddi/D3DDDIARG_COLORFILL"
+ - "D3DDDIARG_COLORFILL"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

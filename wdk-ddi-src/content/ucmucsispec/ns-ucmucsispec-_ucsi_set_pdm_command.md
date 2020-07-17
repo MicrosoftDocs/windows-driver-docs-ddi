@@ -8,6 +8,7 @@ ms.date: 09/30/2018
 keywords: ["_UCSI_SET_PDM_COMMAND structure"]
 f1_keywords:
  - "ucmucsispec/_UCSI_SET_PDM_COMMAND"
+ - "_UCSI_SET_PDM_COMMAND"
 ms.keywords: _UCSI_SET_PDM_COMMAND, UCSI_SET_PDM_COMMAND, *PUCSI_SET_PDM_COMMAND, 
 req.header: ucmucsispec.h
 req.include-header: UcmUcsiCx.h 

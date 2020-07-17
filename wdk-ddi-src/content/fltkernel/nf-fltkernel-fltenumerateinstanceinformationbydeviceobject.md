@@ -10,6 +10,7 @@ keywords: ["FltEnumerateInstanceInformationByDeviceObject function"]
 ms.keywords: FltEnumerateInstanceInformationByDeviceObject, FltEnumerateInstanceInformationByDeviceObject routine [Installable File System Drivers], fltkernel/FltEnumerateInstanceInformationByDeviceObject, ifsk.fltenumerateinstanceinformationbydeviceobject
 f1_keywords:
  - "fltkernel/FltEnumerateInstanceInformationByDeviceObject"
+ - "FltEnumerateInstanceInformationByDeviceObject"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

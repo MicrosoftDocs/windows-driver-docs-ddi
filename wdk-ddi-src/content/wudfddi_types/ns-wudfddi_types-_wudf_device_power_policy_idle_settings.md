@@ -10,6 +10,7 @@ keywords: ["_WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS structure"]
 ms.keywords: "*PWUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, PWUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, PWUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS structure pointer, WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS structure, _WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, umdf.wudf_device_power_policy_idle_settings, wdf.wudf_device_power_policy_idle_settings, wudfddi_types/PWUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, wudfddi_types/WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS"
 f1_keywords:
  - "wudfddi_types/WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS"
+ - "WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS"
 req.header: wudfddi_types.h
 req.include-header: 
 req.target-type: Windows

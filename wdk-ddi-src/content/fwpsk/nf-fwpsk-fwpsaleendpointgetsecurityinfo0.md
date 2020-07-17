@@ -10,6 +10,7 @@ keywords: ["FwpsAleEndpointGetSecurityInfo0 function"]
 ms.keywords: FwpsAleEndpointGetSecurityInfo0, FwpsAleEndpointGetSecurityInfo0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsAleEndpointGetSecurityInfo0, netvista.fwpsaleendpointgetsecurityinfo0, wfp_ref_2_funct_3_fwps_A-B_83803cc6-94be-4b32-8b33-2d12cec31e9e.xml
 f1_keywords:
  - "fwpsk/FwpsAleEndpointGetSecurityInfo0"
+ - "FwpsAleEndpointGetSecurityInfo0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal

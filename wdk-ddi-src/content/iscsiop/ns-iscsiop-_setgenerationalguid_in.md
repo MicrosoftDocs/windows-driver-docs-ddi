@@ -10,6 +10,7 @@ keywords: ["_SetGenerationalGuid_IN structure"]
 ms.keywords: "*PSetGenerationalGuid_IN, PSetGenerationalGuid_IN, PSetGenerationalGuid_IN structure pointer [Storage Devices], SetGenerationalGuid_IN, SetGenerationalGuid_IN structure [Storage Devices], _SetGenerationalGuid_IN, iscsiop/PSetGenerationalGuid_IN, iscsiop/SetGenerationalGuid_IN, storage.setgenerationalguid_in, structs-iSCSI_e40eec29-19af-4f5a-8c5f-11b40c76ae0c.xml"
 f1_keywords:
  - "iscsiop/SetGenerationalGuid_IN"
+ - "SetGenerationalGuid_IN"
 req.header: iscsiop.h
 req.include-header: Iscsiop.h
 req.target-type: Windows

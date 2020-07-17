@@ -10,6 +10,7 @@ keywords: ["FltCreateFileEx function"]
 ms.keywords: FltApiRef_a_to_d_3bc45f49-48cd-4c08-8906-09074f48e712.xml, FltCreateFileEx, FltCreateFileEx routine [Installable File System Drivers], fltkernel/FltCreateFileEx, ifsk.fltcreatefileex
 f1_keywords:
  - "fltkernel/FltCreateFileEx"
+ - "FltCreateFileEx"
 req.header: fltkernel.h
 req.include-header: FltKernel.h
 req.target-type: Universal

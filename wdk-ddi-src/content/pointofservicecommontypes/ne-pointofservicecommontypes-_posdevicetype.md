@@ -10,6 +10,7 @@ keywords: ["_PosDeviceType enumeration"]
 ms.keywords: PosDeviceType, PosDeviceType enumeration, PosDeviceType_BarcodeScanner, PosDeviceType_CashDrawer, PosDeviceType_MagneticStripeReader, PosDeviceType_Max, PosDeviceType_Printer, PosDeviceType_Unknown, _PosDeviceType, pointofservicecommontypes/PosDeviceType, pointofservicecommontypes/PosDeviceType_BarcodeScanner, pointofservicecommontypes/PosDeviceType_CashDrawer, pointofservicecommontypes/PosDeviceType_MagneticStripeReader, pointofservicecommontypes/PosDeviceType_Max, pointofservicecommontypes/PosDeviceType_Printer, pointofservicecommontypes/PosDeviceType_Unknown, pos.posdevicetype
 f1_keywords:
  - "pointofservicecommontypes/PosDeviceType"
+ - "PosDeviceType"
 req.header: pointofservicecommontypes.h
 req.include-header: Pointofservicecommontypes.h
 req.target-type: Windows

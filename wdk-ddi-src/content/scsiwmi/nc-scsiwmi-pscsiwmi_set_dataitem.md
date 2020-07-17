@@ -10,6 +10,7 @@ keywords: ["PSCSIWMI_SET_DATAITEM callback function"]
 ms.keywords: HwScsiWmiSetDataItem, HwScsiWmiSetDataItem callback function [Storage Devices], PSCSIWMI_SET_DATAITEM, PSCSIWMI_SET_DATAITEM callback, Scsimini_6cc9b791-9522-4839-b60b-776c73b04d38.xml, scsiwmi/HwScsiWmiSetDataItem, storage.hwscsiwmisetdataitem
 f1_keywords:
  - "scsiwmi/HwScsiWmiSetDataItem"
+ - "HwScsiWmiSetDataItem"
 req.header: scsiwmi.h
 req.include-header: Scsiwmi.h
 req.target-type: Desktop

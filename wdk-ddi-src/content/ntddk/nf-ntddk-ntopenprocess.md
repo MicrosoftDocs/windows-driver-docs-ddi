@@ -10,6 +10,7 @@ keywords: ["NtOpenProcess function"]
 ms.keywords: NtOpenProcess, ZwOpenProcess, ZwOpenProcess routine [Kernel-Mode Driver Architecture], k111_cf01d6cd-b10e-46b6-9b78-984aac1ef96d.xml, kernel.zwopenprocess, ntddk/NtOpenProcess, ntddk/ZwOpenProcess
 f1_keywords:
  - "ntddk/ZwOpenProcess"
+ - "ZwOpenProcess"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal

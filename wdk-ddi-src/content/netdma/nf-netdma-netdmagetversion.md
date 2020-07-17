@@ -10,6 +10,7 @@ keywords: ["NetDmaGetVersion function"]
 ms.keywords: NetDmaGetVersion, NetDmaGetVersion function [Network Drivers Starting with Windows Vista], netdma/NetDmaGetVersion, netdma_ref_bb1adf18-d43d-4dc2-b780-1a1322014581.xml, netvista.netdmagetversion
 f1_keywords:
  - "netdma/NetDmaGetVersion"
+ - "NetDmaGetVersion"
 req.header: netdma.h
 req.include-header: Netdma.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["READ_PORT_BUFFER_UCHAR function"]
 ms.keywords: READ_PORT_BUFFER_UCHAR, READ_PORT_BUFFER_UCHAR function, umdf.read_port_buffer_uchar, wdf.read_port_buffer_uchar, wudfddi_hwaccess/READ_PORT_BUFFER_UCHAR
 f1_keywords:
  - "wudfddi_hwaccess/READ_PORT_BUFFER_UCHAR"
+ - "READ_PORT_BUFFER_UCHAR"
 req.header: wudfddi_hwaccess.h
 req.include-header: 
 req.target-type: Desktop

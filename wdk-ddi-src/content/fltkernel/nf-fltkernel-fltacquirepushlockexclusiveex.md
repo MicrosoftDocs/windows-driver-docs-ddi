@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["FltAcquirePushLockExclusiveEx function"]
 f1_keywords:
  - "fltkernel/FltAcquirePushLockExclusiveEx"
+ - "FltAcquirePushLockExclusiveEx"
 ms.keywords: FltAcquirePushLockExclusiveEx
 req.header: fltkernel.h
 req.include-header:

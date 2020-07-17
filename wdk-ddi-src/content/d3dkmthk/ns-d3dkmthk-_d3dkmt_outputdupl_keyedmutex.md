@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_OUTPUTDUPL_KEYEDMUTEX structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_OUTPUTDUPL_KEYEDMUTEX"
+ - "_D3DKMT_OUTPUTDUPL_KEYEDMUTEX"
 ms.keywords: _D3DKMT_OUTPUTDUPL_KEYEDMUTEX, D3DKMT_OUTPUTDUPL_KEYEDMUTEX, 
 req.header: d3dkmthk.h
 req.include-header:

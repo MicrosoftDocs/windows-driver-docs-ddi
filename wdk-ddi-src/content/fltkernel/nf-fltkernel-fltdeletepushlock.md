@@ -10,6 +10,7 @@ keywords: ["FltDeletePushLock function"]
 ms.keywords: FltApiRef_a_to_d_876710d9-ee11-413f-8889-f9a34cb423fd.xml, FltDeletePushLock, FltDeletePushLock routine [Installable File System Drivers], fltkernel/FltDeletePushLock, ifsk.fltdeletepushlock
 f1_keywords:
  - "fltkernel/FltDeletePushLock"
+ - "FltDeletePushLock"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

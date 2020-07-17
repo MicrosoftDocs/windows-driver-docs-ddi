@@ -10,6 +10,7 @@ keywords: ["RILRTTDATA structure"]
 ms.keywords: "*LPRILRTTDATA, RILRTTDATA, RILRTTDATA structure [Network Drivers Starting with Windows Vista], netvista.rilrttdata, ntddrilapitypes/RILRTTDATA"
 f1_keywords:
  - "rilapitypes/RILRTTDATA"
+ - "RILRTTDATA"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["ChangerClassDeviceControl function"]
 ms.keywords: ChangerClassDeviceControl, ChangerClassDeviceControl routine [Storage Devices], chgrclas_0338541c-8796-485d-aa1c-20335ea4c6c5.xml, mcd/ChangerClassDeviceControl, storage.changerclassdevicecontrol
 f1_keywords:
  - "mcd/ChangerClassDeviceControl"
+ - "ChangerClassDeviceControl"
 req.header: mcd.h
 req.include-header: Mcd.h, Ntddchgr.h
 req.target-type: Desktop

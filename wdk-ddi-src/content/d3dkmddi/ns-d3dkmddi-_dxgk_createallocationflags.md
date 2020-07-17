@@ -9,6 +9,7 @@ keywords: ["_DXGK_CREATEALLOCATIONFLAGS structure"]
 ms.keywords: DXGK_CREATEALLOCATIONFLAGS, DXGK_CREATEALLOCATIONFLAGS structure [Display Devices], DmStructs_320b15bf-5664-4fb9-9126-2c063ef75467.xml, _DXGK_CREATEALLOCATIONFLAGS, d3dkmddi/DXGK_CREATEALLOCATIONFLAGS, display.dxgk_createallocationflags
 f1_keywords:
  - "d3dkmddi/DXGK_CREATEALLOCATIONFLAGS"
+ - "DXGK_CREATEALLOCATIONFLAGS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

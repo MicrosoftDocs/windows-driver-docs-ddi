@@ -10,6 +10,7 @@ keywords: ["PFNCOMPROPSHEET callback function"]
 ms.keywords: ComPropSheet, ComPropSheet routine [Print Devices], PFNCOMPROPSHEET, compstui/ComPropSheet, cpsuifnc_2586427b-a3ae-4c2e-b081-06d58ec310c3.xml, print.compropsheet
 f1_keywords:
  - "compstui/ComPropSheet"
+ - "ComPropSheet"
 req.header: compstui.h
 req.include-header: Compstui.h
 req.target-type: Desktop

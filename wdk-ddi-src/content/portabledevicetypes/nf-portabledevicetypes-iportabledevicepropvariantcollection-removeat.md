@@ -10,6 +10,7 @@ keywords: ["IPortableDevicePropVariantCollection::RemoveAt"]
 ms.keywords: IPortableDevicePropVariantCollection interface,RemoveAt method, IPortableDevicePropVariantCollection.RemoveAt, IPortableDevicePropVariantCollection::RemoveAt, IPortableDevicePropVariantCollectionRemoveAt, RemoveAt, RemoveAt method, RemoveAt method,IPortableDevicePropVariantCollection interface, portabledevicetypes/IPortableDevicePropVariantCollection::RemoveAt, wpddk.iportabledevicepropvariantcollection_removeat
 f1_keywords:
  - "portabledevicetypes/IPortableDevicePropVariantCollection.RemoveAt"
+ - "IPortableDevicePropVariantCollection.RemoveAt"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows

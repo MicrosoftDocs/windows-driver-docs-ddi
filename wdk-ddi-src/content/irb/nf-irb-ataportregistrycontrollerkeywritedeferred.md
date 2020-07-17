@@ -10,6 +10,7 @@ keywords: ["AtaPortRegistryControllerKeyWriteDeferred function"]
 ms.keywords: AtaPortRegistryControllerKeyWriteDeferred, AtaPortRegistryControllerKeyWriteDeferred routine [Storage Devices], atartns_cd43ce27-787a-4ffb-99d5-de7f410c4b32.xml, irb/AtaPortRegistryControllerKeyWriteDeferred, storage.ataportregistrycontrollerkeywritedeferred
 f1_keywords:
  - "irb/AtaPortRegistryControllerKeyWriteDeferred"
+ - "AtaPortRegistryControllerKeyWriteDeferred"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop

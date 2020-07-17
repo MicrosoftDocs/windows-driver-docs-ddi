@@ -10,6 +10,7 @@ keywords: ["SPB_REQUEST_PARAMETERS_INIT function"]
 ms.keywords: SPB.spb_request_parameters_init, SPB_REQUEST_PARAMETERS_INIT, SPB_REQUEST_PARAMETERS_INIT function [Buses], spbcx/SPB_REQUEST_PARAMETERS_INIT
 f1_keywords:
  - "spbcx/SPB_REQUEST_PARAMETERS_INIT"
+ - "SPB_REQUEST_PARAMETERS_INIT"
 req.header: spbcx.h
 req.include-header: 
 req.target-type: Desktop

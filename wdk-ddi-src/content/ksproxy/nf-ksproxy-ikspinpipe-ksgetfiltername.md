@@ -10,6 +10,7 @@ keywords: ["IKsPinPipe::KsGetFilterName"]
 ms.keywords: IKsPinPipe interface [Streaming Media Devices],KsGetFilterName method, IKsPinPipe.KsGetFilterName, IKsPinPipe::KsGetFilterName, KsGetFilterName, KsGetFilterName method [Streaming Media Devices], KsGetFilterName method [Streaming Media Devices],IKsPinPipe interface, ksproxy/IKsPinPipe::KsGetFilterName, stream.ikspinpipe_ksgetfiltername
 f1_keywords:
  - "ksproxy/IKsPinPipe.KsGetFilterName"
+ - "IKsPinPipe.KsGetFilterName"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Windows

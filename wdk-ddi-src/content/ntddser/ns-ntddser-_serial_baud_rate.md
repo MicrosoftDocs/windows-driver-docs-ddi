@@ -10,6 +10,7 @@ keywords: ["_SERIAL_BAUD_RATE structure"]
 ms.keywords: "*PSERIAL_BAUD_RATE, PSERIAL_BAUD_RATE, PSERIAL_BAUD_RATE structure pointer [Serial Ports], SERIAL_BAUD_RATE, SERIAL_BAUD_RATE structure [Serial Ports], _SERIAL_BAUD_RATE, ntddser/PSERIAL_BAUD_RATE, ntddser/SERIAL_BAUD_RATE, serports.serial_baud_rate"
 f1_keywords:
  - "ntddser/SERIAL_BAUD_RATE"
+ - "SERIAL_BAUD_RATE"
 req.header: ntddser.h
 req.include-header: 
 req.target-type: Windows

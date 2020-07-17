@@ -9,6 +9,7 @@ keywords: ["_DXGK_MONITOR_INTERFACE_V2 structure"]
 ms.keywords: DXGK_MONITOR_INTERFACE_V2, DXGK_MONITOR_INTERFACE_V2 structure [Display Devices], DmStructs_8af61532-16df-472d-abb7-c8f9a677e968.xml, _DXGK_MONITOR_INTERFACE_V2, d3dkmddi/DXGK_MONITOR_INTERFACE_V2, display.dxgk_monitor_interface_v2
 f1_keywords:
  - "d3dkmddi/DXGK_MONITOR_INTERFACE_V2"
+ - "DXGK_MONITOR_INTERFACE_V2"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

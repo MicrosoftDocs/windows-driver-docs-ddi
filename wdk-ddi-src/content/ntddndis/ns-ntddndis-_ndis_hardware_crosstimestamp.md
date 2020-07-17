@@ -8,6 +8,7 @@ ms.date: 08/08/2018
 keywords: ["_NDIS_HARDWARE_CROSSTIMESTAMP structure"]
 f1_keywords:
  - "ntddndis/_NDIS_HARDWARE_CROSSTIMESTAMP"
+ - "_NDIS_HARDWARE_CROSSTIMESTAMP"
 ms.keywords: _NDIS_HARDWARE_CROSSTIMESTAMP, NDIS_HARDWARE_CROSSTIMESTAMP, *PNDIS_HARDWARE_CROSSTIMESTAMP, 
 req.header: ntddndis.h
 req.include-header: ndis.h

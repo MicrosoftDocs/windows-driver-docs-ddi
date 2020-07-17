@@ -10,6 +10,7 @@ keywords: ["KsFreeDefaultClock function"]
 ms.keywords: KsFreeDefaultClock, KsFreeDefaultClock function [Streaming Media Devices], ks/KsFreeDefaultClock, ksfunc_30a51e64-775e-4412-9a8c-b186e6caf932.xml, stream.ksfreedefaultclock
 f1_keywords:
  - "ks/KsFreeDefaultClock"
+ - "KsFreeDefaultClock"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

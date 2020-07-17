@@ -10,6 +10,7 @@ keywords: ["PFN_WSK_BIND callback function"]
 ms.keywords: PFN_WSK_BIND, PFN_WSK_BIND callback, WskBind, WskBind callback function [Network Drivers Starting with Windows Vista], netvista.wskbind, wsk/WskBind, wskref_5d411257-ce57-4331-913a-c195e71a1138.xml
 f1_keywords:
  - "wsk/WskBind"
+ - "WskBind"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Universal

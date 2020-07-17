@@ -10,6 +10,7 @@ keywords: ["IOCTL_AVC_CLASS IOCTL"]
 ms.keywords: IOCTL_AVC_CLASS, IOCTL_AVC_CLASS control, IOCTL_AVC_CLASS control code [Streaming Media Devices], avc/IOCTL_AVC_CLASS, avcref_720c03f6-d568-4ebe-8bd8-295fd8a6c222.xml, stream.ioctl_avc_class
 f1_keywords:
  - "avc/IOCTL_AVC_CLASS"
+ - "IOCTL_AVC_CLASS"
 req.header: avc.h
 req.include-header: Avc.h
 req.target-type: Windows

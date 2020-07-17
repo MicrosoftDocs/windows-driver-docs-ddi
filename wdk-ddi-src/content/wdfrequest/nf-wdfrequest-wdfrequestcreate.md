@@ -10,6 +10,7 @@ keywords: ["WdfRequestCreate function"]
 ms.keywords: DFRequestObjectRef_9c240f29-fd5e-4d6e-9a54-31abb05507c5.xml, WdfRequestCreate, WdfRequestCreate method, kmdf.wdfrequestcreate, wdf.wdfrequestcreate, wdfrequest/WdfRequestCreate
 f1_keywords:
  - "wdfrequest/WdfRequestCreate"
+ - "WdfRequestCreate"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal

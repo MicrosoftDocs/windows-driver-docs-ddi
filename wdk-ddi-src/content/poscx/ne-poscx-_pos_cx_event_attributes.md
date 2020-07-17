@@ -10,6 +10,7 @@ keywords: ["_POS_CX_EVENT_ATTRIBUTES enumeration"]
 ms.keywords: POS_CX_EVENT_ATTRIBUTES, POS_CX_EVENT_ATTRIBUTES enumeration, POS_CX_EVENT_ATTR_BCAST_CONTROL, POS_CX_EVENT_ATTR_CONTROL, POS_CX_EVENT_ATTR_DATA, _POS_CX_EVENT_ATTRIBUTES, pos.pos_cx_event_attributes, poscx/POS_CX_EVENT_ATTRIBUTES, poscx/POS_CX_EVENT_ATTR_BCAST_CONTROL, poscx/POS_CX_EVENT_ATTR_CONTROL, poscx/POS_CX_EVENT_ATTR_DATA
 f1_keywords:
  - "poscx/POS_CX_EVENT_ATTRIBUTES"
+ - "POS_CX_EVENT_ATTRIBUTES"
 req.header: poscx.h
 req.include-header: Poscx.h
 req.target-type: Windows

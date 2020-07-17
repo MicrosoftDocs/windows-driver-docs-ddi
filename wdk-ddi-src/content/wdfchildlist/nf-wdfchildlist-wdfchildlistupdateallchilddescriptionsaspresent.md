@@ -10,6 +10,7 @@ keywords: ["WdfChildListUpdateAllChildDescriptionsAsPresent function"]
 ms.keywords: DFDeviceObjectChildListRef_55956590-2843-4486-acfb-0e85c01702a0.xml, WdfChildListUpdateAllChildDescriptionsAsPresent, WdfChildListUpdateAllChildDescriptionsAsPresent method, kmdf.wdfchildlistupdateallchilddescriptionsaspresent, wdf.wdfchildlistupdateallchilddescriptionsaspresent, wdfchildlist/WdfChildListUpdateAllChildDescriptionsAsPresent
 f1_keywords:
  - "wdfchildlist/WdfChildListUpdateAllChildDescriptionsAsPresent"
+ - "WdfChildListUpdateAllChildDescriptionsAsPresent"
 req.header: wdfchildlist.h
 req.include-header: Wdf.h
 req.target-type: Universal

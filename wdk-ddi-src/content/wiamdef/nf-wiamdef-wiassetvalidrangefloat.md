@@ -10,6 +10,7 @@ keywords: ["wiasSetValidRangeFloat function"]
 ms.keywords: image.wiassetvalidrangefloat, wiamdef/wiasSetValidRangeFloat, wiasFncs_d8eb35e4-e295-43cf-a457-5e6fac3f537d.xml, wiasSetValidRangeFloat, wiasSetValidRangeFloat function [Imaging Devices]
 f1_keywords:
  - "wiamdef/wiasSetValidRangeFloat"
+ - "wiasSetValidRangeFloat"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop

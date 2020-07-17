@@ -10,6 +10,7 @@ keywords: ["NPI_CLIENT_CLEANUP_BINDING_CONTEXT_FN callback function"]
 ms.keywords: ClientCleanupBindingContext, ClientCleanupBindingContext callback function [Network Drivers Starting with Windows Vista], NPI_CLIENT_CLEANUP_BINDING_CONTEXT_FN, NPI_CLIENT_CLEANUP_BINDING_CONTEXT_FN callback, PNPI_CLIENT_CLEANUP_BINDING_CONTEXT_FN, PNPI_CLIENT_CLEANUP_BINDING_CONTEXT_FN callback function [Network Drivers Starting with Windows Vista], netioddk/ClientCleanupBindingContext, netvista.clientcleanupbindingcontext, nmrref_75483511-e903-4f9d-bc78-29e823b22f8f.xml
 f1_keywords:
  - "netioddk/PNPI_CLIENT_CLEANUP_BINDING_CONTEXT_FN"
+ - "PNPI_CLIENT_CLEANUP_BINDING_CONTEXT_FN"
 req.header: netioddk.h
 req.include-header: Wsk.h
 req.target-type: Windows

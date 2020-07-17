@@ -10,6 +10,7 @@ keywords: ["FsRtlResetLargeMcb function"]
 ms.keywords: FsRtlResetLargeMcb, FsRtlResetLargeMcb routine [Installable File System Drivers], fsrtlref_947ccacb-eef2-44d8-9b73-1b8aa930cd03.xml, ifsk.fsrtlresetlargemcb, ntifs/FsRtlResetLargeMcb
 f1_keywords:
  - "ntifs/FsRtlResetLargeMcb"
+ - "FsRtlResetLargeMcb"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

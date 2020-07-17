@@ -10,6 +10,7 @@ keywords: ["_WDI_SCAN_TYPE enumeration"]
 ms.keywords: WDI_SCAN_TYPE, WDI_SCAN_TYPE enumeration [Device and Driver Installation], WDI_SCAN_TYPE_ACTIVE_ONLY, WDI_SCAN_TYPE_AUTO, WDI_SCAN_TYPE_PASSIVE_ONLY, _WDI_SCAN_TYPE, netvista.wdi_scan_type, netvista.wifi_scan_type, wditypes/WDI_SCAN_TYPE, wditypes/WDI_SCAN_TYPE_ACTIVE_ONLY, wditypes/WDI_SCAN_TYPE_AUTO, wditypes/WDI_SCAN_TYPE_PASSIVE_ONLY
 f1_keywords:
  - "wditypes/WDI_SCAN_TYPE"
+ - "WDI_SCAN_TYPE"
 req.header: wditypes.hpp
 req.include-header: 
 req.target-type: Windows

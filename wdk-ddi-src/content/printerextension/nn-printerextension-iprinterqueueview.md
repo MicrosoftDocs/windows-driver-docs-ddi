@@ -10,6 +10,7 @@ keywords: ["IPrinterQueueView interface"]
 ms.keywords: IPrinterQueueView, IPrinterQueueView interface [Print Devices], IPrinterQueueView interface [Print Devices],described, print.iprinterqueueview, printerextension/IPrinterQueueView
 f1_keywords:
  - "printerextension/IPrinterQueueView"
+ - "IPrinterQueueView"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

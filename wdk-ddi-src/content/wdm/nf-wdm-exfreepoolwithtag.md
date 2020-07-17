@@ -10,6 +10,7 @@ keywords: ["ExFreePoolWithTag function"]
 ms.keywords: ExFreePoolWithTag, ExFreePoolWithTag routine [Kernel-Mode Driver Architecture], k102_03ac2997-acff-40b6-a110-718261627130.xml, kernel.exfreepoolwithtag, wdm/ExFreePoolWithTag
 f1_keywords:
  - "wdm/ExFreePoolWithTag"
+ - "ExFreePoolWithTag"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

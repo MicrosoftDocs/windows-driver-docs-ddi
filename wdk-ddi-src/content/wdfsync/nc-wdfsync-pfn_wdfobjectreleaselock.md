@@ -10,6 +10,7 @@ keywords: ["PFN_WDFOBJECTRELEASELOCK callback"]
 ms.keywords: wdf.wdfobjectreleaselock, PFN_WDFOBJECTRELEASELOCK, WdfObjectReleaseLock callback function, WdfObjectReleaseLock, wdfsync/WdfObjectReleaseLock, DFSynchroRef_14ab9c69-1eb8-4a83-b1fb-cb8db7a67d06.xml, kmdf.wdfobjectreleaselock
 f1_keywords:
  - "wdfsync/WdfObjectReleaseLock"
+ - "WdfObjectReleaseLock"
 req.header: wdfsync.h
 req.include-header: Wdf.h
 req.target-type: Universal

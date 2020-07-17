@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["_DXGKARG_GETRESOURCEFORBAR structure"]
 f1_keywords:
  - "dispmprt/_DXGKARG_GETRESOURCEFORBAR"
+ - "_DXGKARG_GETRESOURCEFORBAR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: _DXGKARG_GETRESOURCEFORBAR, DXGKARG_GETRESOURCEFORBAR, *PDXGKARG_GETRESOURCEFORBAR, 

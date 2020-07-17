@@ -29,6 +29,7 @@ api_name:
 f1_keywords:
  - dispmprt/_DXGK_DIAG_BASIC_DISPLAY_TOPOLOGY
  - dispmprt/DXGK_DIAG_BASIC_DISPLAY_TOPOLOGY
+ - ""
 dev_langs:
  - c++
 ---

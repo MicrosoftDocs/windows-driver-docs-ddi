@@ -10,6 +10,7 @@ keywords: ["ClfsAllocReservedLog function"]
 ms.keywords: ClfsAllocReservedLog, ClfsAllocReservedLog routine [Kernel-Mode Driver Architecture], Clfs_4429c61b-96d5-48cb-9ff0-5b0e3f01e0ec.xml, kernel.clfsallocreservedlog, wdm/ClfsAllocReservedLog
 f1_keywords:
  - "wdm/ClfsAllocReservedLog"
+ - "ClfsAllocReservedLog"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop

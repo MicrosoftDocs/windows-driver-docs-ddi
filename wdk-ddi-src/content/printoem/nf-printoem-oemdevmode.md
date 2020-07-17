@@ -10,6 +10,7 @@ keywords: ["OEMDevMode function"]
 ms.keywords: OEMDevMode, OEMDevMode function [Print Devices], print.oemdevmode, print_obsoletefunctions_7a402f29-f8ab-48cc-951f-89b21f45aebd.xml, printoem/OEMDevMode
 f1_keywords:
  - "printoem/OEMDevMode"
+ - "OEMDevMode"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows

@@ -9,6 +9,7 @@ keywords: ["_DXGK_ENUM_PIVOT structure"]
 ms.keywords: DXGK_ENUM_PIVOT, DXGK_ENUM_PIVOT structure [Display Devices], DmStructs_7a6fa02d-2223-4052-9911-cf9be1ab931a.xml, _DXGK_ENUM_PIVOT, d3dkmddi/DXGK_ENUM_PIVOT, display.dxgk_enum_pivot
 f1_keywords:
  - "d3dkmddi/DXGK_ENUM_PIVOT"
+ - "DXGK_ENUM_PIVOT"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["_PEP_PPM_CONTEXT_QUERY_PARKING_PAGE structure"]
 ms.keywords: "*PPEP_PPM_CONTEXT_QUERY_PARKING_PAGE, PEP_PPM_CONTEXT_QUERY_PARKING_PAGE, PEP_PPM_CONTEXT_QUERY_PARKING_PAGE structure [Kernel-Mode Driver Architecture], PPEP_PPM_CONTEXT_QUERY_PARKING_PAGE, PPEP_PPM_CONTEXT_QUERY_PARKING_PAGE structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_CONTEXT_QUERY_PARKING_PAGE, kernel.pep_ppm_context_query_parking_page, pepfx/PEP_PPM_CONTEXT_QUERY_PARKING_PAGE, pepfx/PPEP_PPM_CONTEXT_QUERY_PARKING_PAGE"
 f1_keywords:
  - "pepfx/PEP_PPM_CONTEXT_QUERY_PARKING_PAGE"
+ - "PEP_PPM_CONTEXT_QUERY_PARKING_PAGE"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows

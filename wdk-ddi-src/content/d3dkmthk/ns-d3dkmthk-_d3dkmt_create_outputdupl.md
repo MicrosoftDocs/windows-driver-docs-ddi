@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_CREATE_OUTPUTDUPL structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_CREATE_OUTPUTDUPL"
+ - "_D3DKMT_CREATE_OUTPUTDUPL"
 ms.keywords: _D3DKMT_CREATE_OUTPUTDUPL, D3DKMT_CREATE_OUTPUTDUPL, 
 req.header: d3dkmthk.h
 req.include-header:

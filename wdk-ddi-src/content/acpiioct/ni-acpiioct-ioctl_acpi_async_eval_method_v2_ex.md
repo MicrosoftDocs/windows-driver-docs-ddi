@@ -10,6 +10,7 @@ keywords: ["IOCTL_ACPI_ASYNC_EVAL_METHOD_V2_EX IOCTL"]
 ms.keywords: IOCTL_ACPI_ASYNC_EVAL_METHOD_V2_EX, IOCTL_ACPI_ASYNC_EVAL_METHOD_V2_EX control, IOCTL_ACPI_ASYNC_EVAL_METHOD_V2_EX control code [ACPI Devices], acpi.ioctl_acpi_async_eval_method_v2_ex, acpiioct/IOCTL_ACPI_ASYNC_EVAL_METHOD_V2_EX
 f1_keywords:
  - "acpiioct/IOCTL_ACPI_ASYNC_EVAL_METHOD_V2_EX"
+ - "IOCTL_ACPI_ASYNC_EVAL_METHOD_V2_EX"
 req.header: acpiioct.h
 req.include-header: Acpiioct.h
 req.target-type: Windows

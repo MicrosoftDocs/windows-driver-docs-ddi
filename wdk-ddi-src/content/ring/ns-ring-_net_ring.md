@@ -8,6 +8,7 @@ ms.date: 09/25/2019
 keywords: ["_NET_RING structure"]
 f1_keywords:
  - "ring/RILWRITEPHONEBOOKENTRYPARAMS"
+ - "RILWRITEPHONEBOOKENTRYPARAMS"
 ms.keywords: _NET_RING, NET_RING, *PNET_RING, 
 req.header: ring.h
 req.include-header:

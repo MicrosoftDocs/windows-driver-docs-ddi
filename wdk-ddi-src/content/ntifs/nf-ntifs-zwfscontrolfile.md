@@ -10,6 +10,7 @@ keywords: ["ZwFsControlFile function"]
 ms.keywords: NtFsControlFile, ZwFsControlFile, ZwFsControlFile routine [Kernel-Mode Driver Architecture], k111_5da20655-11b0-4366-bca2-8cee3aadbeab.xml, kernel.zwfscontrolfile, ntifs/NtFsControlFile, ntifs/ZwFsControlFile
 f1_keywords:
  - "ntifs/ZwFsControlFile"
+ - "ZwFsControlFile"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["NdisGetVersion function"]
 ms.keywords: NdisGetVersion, NdisGetVersion function [Network Drivers Starting with Windows Vista], ndis/NdisGetVersion, ndis_configuration_ref_fcdf5ece-888e-4f1a-b855-367cbe4c68fe.xml, netvista.ndisgetversion
 f1_keywords:
  - "ndis/NdisGetVersion"
+ - "NdisGetVersion"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

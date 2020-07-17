@@ -10,6 +10,7 @@ keywords: ["NDIS_WDI_TX_QUERY_RA_TID_STATE callback function"]
 ms.keywords: NDIS_WDI_TX_QUERY_RA_TID_STATE, NDIS_WDI_TX_QUERY_RA_TID_STATE callback, NdisWdiTxQueryRATIDState, NdisWdiTxQueryRATIDState callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxQueryRATIDState, netvista.ndiswditxqueryratidstate
 f1_keywords:
  - "dot11wdi/NdisWdiTxQueryRATIDState"
+ - "NdisWdiTxQueryRATIDState"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows

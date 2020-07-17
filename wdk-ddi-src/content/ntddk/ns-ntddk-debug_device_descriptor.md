@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["DEBUG_DEVICE_DESCRIPTOR structure"]
 f1_keywords:
  - "ntddk/DEBUG_DEVICE_DESCRIPTOR"
+ - "DEBUG_DEVICE_DESCRIPTOR"
 ms.keywords: DEBUG_DEVICE_DESCRIPTOR, DEBUG_DEVICE_DESCRIPTOR, *PDEBUG_DEVICE_DESCRIPTOR, 
 req.header: ntddk.h
 req.include-header:

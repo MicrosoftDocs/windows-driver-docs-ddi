@@ -8,6 +8,7 @@ ms.date: 10/31/2018
 keywords: ["IMiniportWaveRTStream::GetPosition"]
 f1_keywords:
  - "portcls/IMiniportWaveRTStream.GetPosition"
+ - "IMiniportWaveRTStream.GetPosition"
 ms.keywords: IMiniportWaveRTStream::GetPosition, GetPosition, IMiniportWaveRTStream.GetPosition, IMiniportWaveRTStream::GetPosition, IMiniportWaveRTStream.GetPosition
 req.header: portcls.h
 req.include-header:

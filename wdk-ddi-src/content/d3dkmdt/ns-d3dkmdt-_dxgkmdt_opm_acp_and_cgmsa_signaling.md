@@ -10,6 +10,7 @@ keywords: ["_DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING structure"]
 ms.keywords: DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING, DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING structure [Display Devices], DmStructs_0d89c3c0-96f1-4b88-8c79-a33ad8246e4a.xml, _DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING, d3dkmdt/DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING, display.dxgkmdt_opm_acp_and_cgmsa_signaling
 f1_keywords:
  - "d3dkmdt/DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING"
+ - "DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING"
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
 req.target-type: Windows

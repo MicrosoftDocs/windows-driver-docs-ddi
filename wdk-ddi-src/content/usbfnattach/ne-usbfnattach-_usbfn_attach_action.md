@@ -10,6 +10,7 @@ keywords: ["_USBFN_ATTACH_ACTION enumeration"]
 ms.keywords: "*PUSBFN_ATTACH_ACTION, USBFN_ATTACH_ACTION, USBFN_ATTACH_ACTION enumeration [Buses], UsbfnDetectProprietaryCharger, UsbfnIgnoreAttach, UsbfnPortDetected, UsbfnPortDetectedNoCad, UsbfnProceedWithAttach, _USBFN_ATTACH_ACTION, buses.usbfn_attach_action, usbfnattach/USBFN_ATTACH_ACTION, usbfnattach/UsbfnDetectProprietaryCharger, usbfnattach/UsbfnIgnoreAttach, usbfnattach/UsbfnPortDetected, usbfnattach/UsbfnPortDetectedNoCad, usbfnattach/UsbfnProceedWithAttach"
 f1_keywords:
  - "usbfnattach/USBFN_ATTACH_ACTION"
+ - "USBFN_ATTACH_ACTION"
 req.header: usbfnattach.h
 req.include-header: 
 req.target-type: Windows

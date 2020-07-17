@@ -10,6 +10,7 @@ keywords: ["DOT11EXT_SET_ETHERTYPE_HANDLING callback"]
 ms.keywords: DOT11EXT_SET_ETHERTYPE_HANDLING, Dot11ExtSetEtherTypeHandling, Dot11ExtSetEtherTypeHandling callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_6265fb16-690c-4ada-a79d-fa39760a63d2.xml, netvista.dot11extsetethertypehandling, wlanihv/Dot11ExtSetEtherTypeHandling
 f1_keywords:
  - "wlanihv/Dot11ExtSetEtherTypeHandling"
+ - "Dot11ExtSetEtherTypeHandling"
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Desktop

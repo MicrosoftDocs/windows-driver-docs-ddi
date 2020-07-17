@@ -10,6 +10,7 @@ keywords: ["ZwRecoverTransactionManager function"]
 ms.keywords: NtRecoverTransactionManager, ZwRecoverTransactionManager, ZwRecoverTransactionManager routine [Kernel-Mode Driver Architecture], kernel.zwrecovertransactionmanager, ktm_ref_8ff406ba-2e7b-453e-8fc7-12e88a3bf41e.xml, wdm/NtRecoverTransactionManager, wdm/ZwRecoverTransactionManager
 f1_keywords:
  - "wdm/ZwRecoverTransactionManager"
+ - "ZwRecoverTransactionManager"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntifs.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["USBD_ParseConfigurationDescriptor function"]
 ms.keywords: USBD_ParseConfigurationDescriptor, USBD_ParseConfigurationDescriptor routine [Buses], buses.usbd_parseconfigurationdescriptor, usbdlib/USBD_ParseConfigurationDescriptor, usbfunc_e0bfa26f-42a8-47a2-bf0e-5f8c97c5e9eb.xml
 f1_keywords:
  - "usbdlib/USBD_ParseConfigurationDescriptor"
+ - "USBD_ParseConfigurationDescriptor"
 req.header: usbdlib.h
 req.include-header: 
 req.target-type: Universal

@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_OPENNTHANDLEFROMNAME structure"]
 ms.keywords: D3DKMT_OPENNTHANDLEFROMNAME, D3DKMT_OPENNTHANDLEFROMNAME structure [Display Devices], _D3DKMT_OPENNTHANDLEFROMNAME, d3dkmthk/D3DKMT_OPENNTHANDLEFROMNAME, display.d3dkmt_opennthandlefromname
 f1_keywords:
  - "d3dkmthk/D3DKMT_OPENNTHANDLEFROMNAME"
+ - "D3DKMT_OPENNTHANDLEFROMNAME"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

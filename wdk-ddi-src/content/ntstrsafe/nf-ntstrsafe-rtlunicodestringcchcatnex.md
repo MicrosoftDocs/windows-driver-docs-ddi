@@ -10,6 +10,7 @@ keywords: ["RtlUnicodeStringCchCatNEx function"]
 ms.keywords: RtlUnicodeStringCchCatNEx, RtlUnicodeStringCchCatNEx function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcchcatnex, ntstrsafe/RtlUnicodeStringCchCatNEx, safestrings_31ae2a1e-4ec4-4cd3-b5d4-f966860fa50a.xml
 f1_keywords:
  - "ntstrsafe/RtlUnicodeStringCchCatNEx"
+ - "RtlUnicodeStringCchCatNEx"
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop

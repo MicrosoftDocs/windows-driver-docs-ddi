@@ -10,6 +10,7 @@ keywords: ["NdisAllocateRWLock function"]
 ms.keywords: NdisAllocateRWLock, NdisAllocateRWLock function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateRWLock, ndis_processor_group_ref_7df54f29-88d4-4596-9649-8af7b84f6d7e.xml, netvista.ndisallocaterwlock
 f1_keywords:
  - "ndis/NdisAllocateRWLock"
+ - "NdisAllocateRWLock"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

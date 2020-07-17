@@ -10,6 +10,7 @@ keywords: ["IDARG_OUT_OPM_GET_RANDOM_NUMBER structure"]
 ms.keywords: IDARG_OUT_OPM_GET_RANDOM_NUMBER, IDARG_OUT_OPM_GET_RANDOM_NUMBER structure [Display Devices], display.idarg_out_opm_get_random_number, iddcx/IDARG_OUT_OPM_GET_RANDOM_NUMBER
 f1_keywords:
  - "iddcx/IDARG_OUT_OPM_GET_RANDOM_NUMBER"
+ - "IDARG_OUT_OPM_GET_RANDOM_NUMBER"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows

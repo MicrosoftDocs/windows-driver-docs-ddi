@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_DEVICE_SURPRISE_REMOVAL callback function"]
 ms.keywords: DFDeviceObjectGeneralRef_3623a2b6-f452-4e7d-98a3-d9e42d815f35.xml, EVT_WDF_DEVICE_SURPRISE_REMOVAL, EVT_WDF_DEVICE_SURPRISE_REMOVAL callback, EvtDeviceSurpriseRemoval, EvtDeviceSurpriseRemoval callback function, kmdf.evtdevicesurpriseremoval, wdf.evtdevicesurpriseremoval, wdfdevice/EvtDeviceSurpriseRemoval
 f1_keywords:
  - "wdfdevice/EvtDeviceSurpriseRemoval"
+ - "EvtDeviceSurpriseRemoval"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

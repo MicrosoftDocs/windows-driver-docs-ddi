@@ -10,6 +10,7 @@ keywords: ["IWDTFLongNumbers2::get_Count"]
 ms.keywords: Count property [Windows Device Testing Framework], Count property [Windows Device Testing Framework],IWDTFLongNumbers2 interface, IWDTFLongNumbers2 interface [Windows Device Testing Framework],Count property, IWDTFLongNumbers2.Count, IWDTFLongNumbers2.get_Count, IWDTFLongNumbers2::Count, IWDTFLongNumbers2::get_Count, Microsoft.WDTF.IWDTFLongNumbers2.Count, Microsoft::WDTF::IWDTFLongNumbers2::Count, dtf.iwdtflongnumbers2_count, get_Count, wdtf/IWDTFLongNumbers2::Count, wdtf/IWDTFLongNumbers2::get_Count
 f1_keywords:
  - "wdtf/IWDTFLongNumbers2.Count"
+ - "IWDTFLongNumbers2.Count"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Windows

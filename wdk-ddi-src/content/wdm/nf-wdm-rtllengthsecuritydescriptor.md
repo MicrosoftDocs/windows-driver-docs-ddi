@@ -10,6 +10,7 @@ keywords: ["RtlLengthSecurityDescriptor function"]
 ms.keywords: RtlLengthSecurityDescriptor, RtlLengthSecurityDescriptor routine [Kernel-Mode Driver Architecture], k109_ea245194-f36b-4b47-9d81-2d72fc19d5bc.xml, kernel.rtllengthsecuritydescriptor, wdm/RtlLengthSecurityDescriptor
 f1_keywords:
  - "wdm/RtlLengthSecurityDescriptor"
+ - "RtlLengthSecurityDescriptor"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

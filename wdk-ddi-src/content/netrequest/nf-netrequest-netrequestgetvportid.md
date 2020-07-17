@@ -8,6 +8,7 @@ ms.date: 02/08/2018
 keywords: ["NetRequestGetVPortId function"]
 f1_keywords:
  - "netrequest/NetRequestGetVPortId"
+ - "NetRequestGetVPortId"
 ms.keywords: NetRequestGetVPortId
 req.header: netrequest.h
 req.include-header: netadaptercx.h

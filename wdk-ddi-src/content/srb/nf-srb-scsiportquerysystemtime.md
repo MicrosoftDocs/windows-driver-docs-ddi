@@ -10,6 +10,7 @@ keywords: ["ScsiPortQuerySystemTime function"]
 ms.keywords: ScsiPortQuerySystemTime, ScsiPortQuerySystemTime routine [Storage Devices], scsiprt_033d0cc3-e930-448b-a13e-b140829d2b7d.xml, srb/ScsiPortQuerySystemTime, storage.scsiportquerysystemtime
 f1_keywords:
  - "srb/ScsiPortQuerySystemTime"
+ - "ScsiPortQuerySystemTime"
 req.header: srb.h
 req.include-header: 
 req.target-type: Desktop

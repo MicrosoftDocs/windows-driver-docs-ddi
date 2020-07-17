@@ -10,6 +10,7 @@ keywords: ["PosCxClaimDevice function"]
 ms.keywords: PosCxClaimDevice, PosCxClaimDevice function, pos.poscxclaimdevice, poscx/PosCxClaimDevice
 f1_keywords:
  - "poscx/PosCxClaimDevice"
+ - "PosCxClaimDevice"
 req.header: poscx.h
 req.include-header: Poscx.h
 req.target-type: Windows

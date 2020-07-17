@@ -10,6 +10,7 @@ keywords: ["NdisFreeNetBuffer function"]
 ms.keywords: NdisFreeNetBuffer, NdisFreeNetBuffer function [Network Drivers Starting with Windows Vista], ndis/NdisFreeNetBuffer, ndis_netbuf_functions_ref_623498b1-25e0-48ae-831e-8c1240106bd4.xml, netvista.ndisfreenetbuffer
 f1_keywords:
  - "ndis/NdisFreeNetBuffer"
+ - "NdisFreeNetBuffer"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

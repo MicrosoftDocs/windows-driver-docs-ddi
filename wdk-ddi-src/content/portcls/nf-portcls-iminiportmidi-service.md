@@ -10,6 +10,7 @@ keywords: ["IMiniportMidi::Service"]
 ms.keywords: IMiniportMidi interface [Audio Devices],Service method, IMiniportMidi.Service, IMiniportMidi::Service, Service, Service method [Audio Devices], Service method [Audio Devices],IMiniportMidi interface, audio.iminiportmidi_service, audmp-routines_e37a9a63-eaeb-4827-b534-4d73dead44fb.xml, portcls/IMiniportMidi::Service
 f1_keywords:
  - "portcls/IMiniportMidi.Service"
+ - "IMiniportMidi.Service"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

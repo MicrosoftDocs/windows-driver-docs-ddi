@@ -9,6 +9,7 @@ keywords: ["_DXGK_CPUHOSTAPERTURE structure"]
 ms.keywords: DXGK_CPUHOSTAPERTURE, DXGK_CPUHOSTAPERTURE structure [Display Devices], _DXGK_CPUHOSTAPERTURE, d3dkmddi/DXGK_CPUHOSTAPERTURE, display.dxgk_cpuhostaperture
 f1_keywords:
  - "d3dkmddi/DXGK_CPUHOSTAPERTURE"
+ - "DXGK_CPUHOSTAPERTURE"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

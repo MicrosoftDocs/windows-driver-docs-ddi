@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["_UDECX_WDF_DEVICE_RESET_TYPE enumeration"]
 f1_keywords:
  - "udecxwdfdevice/_UDECX_WDF_DEVICE_RESET_TYPE"
+ - "_UDECX_WDF_DEVICE_RESET_TYPE"
 ms.keywords: _UDECX_WDF_DEVICE_RESET_TYPE, UDECX_WDF_DEVICE_RESET_TYPE, *PUDECX_WDF_DEVICE_RESET_TYPE, 
 req.header: udecxwdfdevice.h
 req.include-header:

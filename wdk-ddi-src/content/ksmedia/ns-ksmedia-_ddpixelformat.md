@@ -10,6 +10,7 @@ keywords: ["_DDPIXELFORMAT structure"]
 ms.keywords: "*LPDDPIXELFORMAT, DDPIXELFORMAT, DDPIXELFORMAT structure [Display Devices], LPDDPIXELFORMAT, LPDDPIXELFORMAT structure pointer [Display Devices], _DDPIXELFORMAT, ddstrcts_861a4798-418e-492a-b4cb-c4f1ce794a71.xml, display.ddpixelformat, ksmedia/DDPIXELFORMAT, ksmedia/LPDDPIXELFORMAT"
 f1_keywords:
  - "ksmedia/DDPIXELFORMAT"
+ - "DDPIXELFORMAT"
 req.header: ksmedia.h
 req.include-header: Ddraw.h
 req.target-type: Windows

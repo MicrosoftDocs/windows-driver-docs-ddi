@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DlGetRegistryParameters function"]
 f1_keywords:
  - "dispmprt/DlGetRegistryParameters"
+ - "DlGetRegistryParameters"
 ms.keywords: DlGetRegistryParameters
 req.header: dispmprt.h
 req.include-header:

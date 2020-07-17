@@ -10,6 +10,7 @@ keywords: ["WdfDeviceQueryProperty function"]
 ms.keywords: DFDeviceObjectGeneralRef_e3f58989-ddd0-4402-94bf-418481869972.xml, WdfDeviceQueryProperty, WdfDeviceQueryProperty method, kmdf.wdfdevicequeryproperty, wdf.wdfdevicequeryproperty, wdfdevice/WdfDeviceQueryProperty
 f1_keywords:
  - "wdfdevice/WdfDeviceQueryProperty"
+ - "WdfDeviceQueryProperty"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

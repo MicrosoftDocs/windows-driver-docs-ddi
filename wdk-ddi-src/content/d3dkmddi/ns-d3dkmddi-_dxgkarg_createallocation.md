@@ -9,6 +9,7 @@ keywords: ["_DXGKARG_CREATEALLOCATION structure"]
 ms.keywords: "*INOUT_PDXGKARG_CREATEALLOCATION, DXGKARG_CREATEALLOCATION, DXGKARG_CREATEALLOCATION structure [Display Devices], DmStructs_751430a9-4161-4230-bb97-d09600d48d62.xml, _DXGKARG_CREATEALLOCATION, d3dkmddi/DXGKARG_CREATEALLOCATION, display.dxgkarg_createallocation"
 f1_keywords:
  - "d3dkmddi/DXGKARG_CREATEALLOCATION"
+ - "DXGKARG_CREATEALLOCATION"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["NdisReadNetworkAddress function"]
 ms.keywords: NdisReadNetworkAddress, NdisReadNetworkAddress function [Network Drivers Starting with Windows Vista], ndis/NdisReadNetworkAddress, ndis_configuration_ref_459fbfae-4235-4f60-9b10-02c60defc236.xml, netvista.ndisreadnetworkaddress
 f1_keywords:
  - "ndis/NdisReadNetworkAddress"
+ - "NdisReadNetworkAddress"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

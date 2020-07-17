@@ -10,6 +10,7 @@ keywords: ["IWDFRemoteInterfaceInitialize interface"]
 ms.keywords: IWDFRemoteInterfaceInitialize, IWDFRemoteInterfaceInitialize interface, IWDFRemoteInterfaceInitialize interface,described, UMDFIoTargetObjectRef_0536631b-c316-41e7-856b-94a3c991c318.xml, umdf.iwdfremoteinterfaceinitialize, wdf.iwdfremoteinterfaceinitialize, wudfddi/IWDFRemoteInterfaceInitialize
 f1_keywords:
  - "wudfddi/IWDFRemoteInterfaceInitialize"
+ - "IWDFRemoteInterfaceInitialize"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["NdisReadConfiguration function"]
 ms.keywords: NDIS_STATUS_FAILURE, NDIS_STATUS_RESOURCES, NDIS_STATUS_SUCCESS, NdisReadConfiguration, NdisReadConfiguration function [Network Drivers Starting with Windows Vista], ndis/NdisReadConfiguration, ndis_configuration_ref_fb5d2879-b30e-470b-aa07-f5f5286973bf.xml, netvista.ndisreadconfiguration
 f1_keywords:
  - "ndis/NdisReadConfiguration"
+ - "NdisReadConfiguration"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

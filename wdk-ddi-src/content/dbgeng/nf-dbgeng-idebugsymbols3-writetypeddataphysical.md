@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::WriteTypedDataPhysical"]
 ms.keywords: IDebugSymbols interface [Windows Debugging],WriteTypedDataPhysical method, IDebugSymbols2 interface [Windows Debugging],WriteTypedDataPhysical method, IDebugSymbols2::WriteTypedDataPhysical, IDebugSymbols3 interface [Windows Debugging],WriteTypedDataPhysical method, IDebugSymbols3.WriteTypedDataPhysical, IDebugSymbols3::WriteTypedDataPhysical, IDebugSymbols::WriteTypedDataPhysical, IDebugSymbols_b5205296-88eb-4af8-8448-b2a79f08e7b0.xml, WriteTypedDataPhysical, WriteTypedDataPhysical method [Windows Debugging], WriteTypedDataPhysical method [Windows Debugging],IDebugSymbols interface, WriteTypedDataPhysical method [Windows Debugging],IDebugSymbols2 interface, WriteTypedDataPhysical method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols2::WriteTypedDataPhysical, dbgeng/IDebugSymbols3::WriteTypedDataPhysical, dbgeng/IDebugSymbols::WriteTypedDataPhysical, debugger.writetypeddataphysical
 f1_keywords:
  - "dbgeng/IDebugSymbols.WriteTypedDataPhysical"
+ - "IDebugSymbols.WriteTypedDataPhysical"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

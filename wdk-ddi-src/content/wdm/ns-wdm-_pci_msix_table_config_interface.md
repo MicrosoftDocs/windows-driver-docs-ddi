@@ -10,6 +10,7 @@ keywords: ["_PCI_MSIX_TABLE_CONFIG_INTERFACE structure"]
 ms.keywords: "*PPCI_MSIX_TABLE_CONFIG_INTERFACE, PCI_MSIX_TABLE_CONFIG_INTERFACE, PCI_MSIX_TABLE_CONFIG_INTERFACE structure [Kernel-Mode Driver Architecture], PPCI_MSIX_TABLE_CONFIG_INTERFACE, PPCI_MSIX_TABLE_CONFIG_INTERFACE structure pointer [Kernel-Mode Driver Architecture], _PCI_MSIX_TABLE_CONFIG_INTERFACE, drvr_interface_86de1cfb-1eac-442b-a154-6f23fcab87cd.xml, kernel.pci_msix_table_config_interface, wdm/PCI_MSIX_TABLE_CONFIG_INTERFACE, wdm/PPCI_MSIX_TABLE_CONFIG_INTERFACE"
 f1_keywords:
  - "wdm/PCI_MSIX_TABLE_CONFIG_INTERFACE"
+ - "PCI_MSIX_TABLE_CONFIG_INTERFACE"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows

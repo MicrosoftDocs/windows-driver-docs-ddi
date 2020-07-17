@@ -10,6 +10,7 @@ keywords: ["StorPortConvertUlongToPhysicalAddress function"]
 ms.keywords: StorPortConvertUlongToPhysicalAddress, StorPortConvertUlongToPhysicalAddress routine [Storage Devices], storage.storportconvertulongtophysicaladdress, storport/StorPortConvertUlongToPhysicalAddress, storprt_c0da13f0-81f8-48ae-93e2-8af7bcedf4dc.xml
 f1_keywords:
  - "storport/StorPortConvertUlongToPhysicalAddress"
+ - "StorPortConvertUlongToPhysicalAddress"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

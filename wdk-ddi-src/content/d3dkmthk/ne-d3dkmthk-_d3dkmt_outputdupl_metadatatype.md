@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_OUTPUTDUPL_METADATATYPE enumeration"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_OUTPUTDUPL_METADATATYPE"
+ - "_D3DKMT_OUTPUTDUPL_METADATATYPE"
 ms.keywords: _D3DKMT_OUTPUTDUPL_METADATATYPE, D3DKMT_OUTPUTDUPL_METADATATYPE, 
 req.header: d3dkmthk.h
 req.include-header:

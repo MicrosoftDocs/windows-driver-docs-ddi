@@ -10,6 +10,7 @@ keywords: ["_ISCSI_TargetMapping structure"]
 ms.keywords: "*PISCSI_TargetMapping, ISCSI_TargetMapping, ISCSI_TargetMapping structure [Storage Devices], PISCSI_TargetMapping, PISCSI_TargetMapping structure pointer [Storage Devices], _ISCSI_TargetMapping, iscsidef/ISCSI_TargetMapping, iscsidef/PISCSI_TargetMapping, storage.iscsi_targetmapping, structs-iSCSI_5512347c-9b89-4d14-9c84-4e7b9191dbfa.xml"
 f1_keywords:
  - "iscsidef/ISCSI_TargetMapping"
+ - "ISCSI_TargetMapping"
 req.header: iscsidef.h
 req.include-header: Iscsidef.h
 req.target-type: Windows

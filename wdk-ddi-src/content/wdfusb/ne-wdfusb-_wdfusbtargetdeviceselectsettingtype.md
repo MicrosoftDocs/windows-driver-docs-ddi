@@ -10,6 +10,7 @@ keywords: ["_WdfUsbTargetDeviceSelectSettingType enumeration"]
 ms.keywords: DFUsbRef_2c08813e-959f-48db-92d5-3aece2d8e856.xml, WdfUsbInterfaceSelectSettingTypeDescriptor, WdfUsbInterfaceSelectSettingTypeSetting, WdfUsbInterfaceSelectSettingTypeUrb, WdfUsbTargetDeviceSelectSettingType, WdfUsbTargetDeviceSelectSettingType enumeration, _WdfUsbTargetDeviceSelectSettingType, kmdf.wdfusbtargetdeviceselectsettingtype, wdf.wdfusbtargetdeviceselectsettingtype, wdfusb/WdfUsbInterfaceSelectSettingTypeDescriptor, wdfusb/WdfUsbInterfaceSelectSettingTypeSetting, wdfusb/WdfUsbInterfaceSelectSettingTypeUrb, wdfusb/WdfUsbTargetDeviceSelectSettingType
 f1_keywords:
  - "wdfusb/WdfUsbTargetDeviceSelectSettingType"
+ - "WdfUsbTargetDeviceSelectSettingType"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Windows

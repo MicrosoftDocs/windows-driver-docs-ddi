@@ -10,6 +10,7 @@ keywords: ["WdfRequestIsFrom32BitProcess function"]
 ms.keywords: DFRequestObjectRef_d700883f-10dc-428b-abbf-7d257d2bd62d.xml, WdfRequestIsFrom32BitProcess, WdfRequestIsFrom32BitProcess method, kmdf.wdfrequestisfrom32bitprocess, wdf.wdfrequestisfrom32bitprocess, wdfrequest/WdfRequestIsFrom32BitProcess
 f1_keywords:
  - "wdfrequest/WdfRequestIsFrom32BitProcess"
+ - "WdfRequestIsFrom32BitProcess"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal

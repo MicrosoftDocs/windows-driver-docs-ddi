@@ -10,6 +10,7 @@ keywords: ["LineDisplayCursorTypeFlags enumeration"]
 ms.keywords: LineDisplayCursorTypeFlags, LineDisplayCursorTypeFlags enumeration, pointofservicecommontypes/, pointofservicecommontypes/LineDisplayCursorTypeFlags, pos.linedisplaycursortypeflags
 f1_keywords:
  - "pointofservicecommontypes/LineDisplayCursorTypeFlags"
+ - "LineDisplayCursorTypeFlags"
 req.header: pointofservicecommontypes.h
 req.include-header: Pointofservicecommontypes.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["tagSMS_MESSAGE_TYPES enumeration"]
 ms.keywords: SMS_BINARY_MESSAGE, SMS_MESSAGE_TYPES, SMS_MESSAGE_TYPES enumeration, SMS_TEXT_MESSAGE, enumeration, portabledevice/SMS_BINARY_MESSAGE, portabledevice/SMS_MESSAGE_TYPES, portabledevice/SMS_TEXT_MESSAGE, tagSMS_MESSAGE_TYPES, wpddk.sms_message_types
 f1_keywords:
  - "portabledevice/SMS_MESSAGE_TYPES"
+ - "SMS_MESSAGE_TYPES"
 req.header: portabledevice.h
 req.include-header: 
 req.target-type: Windows

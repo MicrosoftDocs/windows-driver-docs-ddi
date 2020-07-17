@@ -9,6 +9,7 @@ keywords: ["PFND3D12DDI_VIDEO_DECODER_TRIM_ALLOCATIONS_0021 callback function"]
 ms.keywords: PFND3D12DDI_VIDEO_DECODER_TRIM_ALLOCATIONS_0021, PFND3D12DDI_VIDEO_DECODER_TRIM_ALLOCATIONS_0021 callback, d3d12umddi/pfnDecoderTrimAllocations, display.pfnd3d12ddi_video_decoder_trim_allocations, pfnDecoderTrimAllocations, pfnDecoderTrimAllocations callback function [Display Devices]
 f1_keywords:
  - "d3d12umddi/pfnDecoderTrimAllocations"
+ - "pfnDecoderTrimAllocations"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type: Windows

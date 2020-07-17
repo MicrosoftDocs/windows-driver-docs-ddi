@@ -10,6 +10,7 @@ keywords: ["RxAcquireExclusiveFcbResourceInMRx function"]
 ms.keywords: RxAcquireExclusiveFcbResourceInMRx, RxAcquireExclusiveFcbResourceInMRx routine [Installable File System Drivers], ifsk.rxacquireexclusivefcbresourceinmrx, mrxfcb/RxAcquireExclusiveFcbResourceInMRx, rxref_54a3508a-7d99-487a-9363-a13500540230.xml
 f1_keywords:
  - "mrxfcb/RxAcquireExclusiveFcbResourceInMRx"
+ - "RxAcquireExclusiveFcbResourceInMRx"
 req.header: mrxfcb.h
 req.include-header: Mrxfcb.h
 req.target-type: Desktop

@@ -9,6 +9,7 @@ keywords: ["D3DKMTSetContextInProcessSchedulingPriority function"]
 ms.keywords: D3DKMTSetContextInProcessSchedulingPriority, D3DKMTSetContextInProcessSchedulingPriority function [Display Devices], d3dkmthk/D3DKMTSetContextInProcessSchedulingPriority, display.d3dkmtsetcontextinprocessschedulingpriority
 f1_keywords:
  - "d3dkmthk/D3DKMTSetContextInProcessSchedulingPriority"
+ - "D3DKMTSetContextInProcessSchedulingPriority"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

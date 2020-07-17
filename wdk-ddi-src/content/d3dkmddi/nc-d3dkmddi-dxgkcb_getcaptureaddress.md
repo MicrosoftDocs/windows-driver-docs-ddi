@@ -9,6 +9,7 @@ keywords: ["DXGKCB_GETCAPTUREADDRESS callback function"]
 ms.keywords: DXGKCB_GETCAPTUREADDRESS, DXGKCB_GETCAPTUREADDRESS callback, DpFunctions_a8e4882c-a196-4cdf-826f-fa4cf44ba8f8.xml, DxgkCbGetCaptureAddress, DxgkCbGetCaptureAddress callback function [Display Devices], d3dkmddi/DxgkCbGetCaptureAddress, display.dxgkcbgetcaptureaddress
 f1_keywords:
  - "d3dkmddi/DxgkCbGetCaptureAddress"
+ - "DxgkCbGetCaptureAddress"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["_WDF_FILEOBJECT_CONFIG structure"]
 ms.keywords: "*PWDF_FILEOBJECT_CONFIG, DFDeviceObjectGeneralRef_5f843338-f299-48d3-80ad-d5d35c122d0f.xml, PWDF_FILEOBJECT_CONFIG, PWDF_FILEOBJECT_CONFIG structure pointer, WDF_FILEOBJECT_CONFIG, WDF_FILEOBJECT_CONFIG structure, _WDF_FILEOBJECT_CONFIG, kmdf.wdf_fileobject_config, wdf.wdf_fileobject_config, wdfdevice/PWDF_FILEOBJECT_CONFIG, wdfdevice/WDF_FILEOBJECT_CONFIG"
 f1_keywords:
  - "wdfdevice/WDF_FILEOBJECT_CONFIG"
+ - "WDF_FILEOBJECT_CONFIG"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Windows

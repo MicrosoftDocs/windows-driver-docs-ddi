@@ -10,6 +10,7 @@ keywords: ["SerCx2CustomTransmitCreate function"]
 ms.keywords: 2/SerCx2CustomTransmitCreate, SerCx2CustomTransmitCreate, SerCx2CustomTransmitCreate method [Serial Ports], serports.sercx2customtransmitcreate
 f1_keywords:
  - "sercx/SerCx2CustomTransmitCreate"
+ - "SerCx2CustomTransmitCreate"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal

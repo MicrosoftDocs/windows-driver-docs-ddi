@@ -10,6 +10,7 @@ keywords: ["wiasWriteMultiple function"]
 ms.keywords: image.wiaswritemultiple, wiamdef/wiasWriteMultiple, wiasFncs_e29533d3-4181-41f3-b49b-fb34a20950db.xml, wiasWriteMultiple, wiasWriteMultiple function [Imaging Devices]
 f1_keywords:
  - "wiamdef/wiasWriteMultiple"
+ - "wiasWriteMultiple"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop

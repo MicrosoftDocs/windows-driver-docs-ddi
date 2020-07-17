@@ -10,6 +10,7 @@ keywords: ["PcwRegister function"]
 ms.keywords: PcwRegister, PcwRegister function [Driver Development Tools], devtest.pcwregister, km_pcw_5204b626-3251-4c63-bd89-be1470980960.xml, wdm/PcwRegister
 f1_keywords:
  - "wdm/PcwRegister"
+ - "PcwRegister"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal

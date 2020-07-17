@@ -10,6 +10,7 @@ keywords: ["IPortableDeviceClassExtension interface"]
 ms.keywords: IPortableDeviceClassExtension, IPortableDeviceClassExtension interface, IPortableDeviceClassExtension interface,described, IPortableDeviceClassExtensionInterface, portabledeviceclassextension/IPortableDeviceClassExtension, wpddk.iportabledeviceclassextension
 f1_keywords:
  - "portabledeviceclassextension/IPortableDeviceClassExtension"
+ - "IPortableDeviceClassExtension"
 req.header: portabledeviceclassextension.h
 req.include-header: 
 req.target-type: Windows

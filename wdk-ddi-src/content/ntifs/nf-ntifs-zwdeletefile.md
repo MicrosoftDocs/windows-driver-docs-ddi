@@ -10,6 +10,7 @@ keywords: ["ZwDeleteFile function"]
 ms.keywords: NtDeleteFile, ZwDeleteFile, ZwDeleteFile routine [Kernel-Mode Driver Architecture], k111_4f0117b0-323a-46b6-a1c0-74de4db2ca4d.xml, kernel.zwdeletefile, ntifs/NtDeleteFile, ntifs/ZwDeleteFile
 f1_keywords:
  - "ntifs/ZwDeleteFile"
+ - "ZwDeleteFile"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

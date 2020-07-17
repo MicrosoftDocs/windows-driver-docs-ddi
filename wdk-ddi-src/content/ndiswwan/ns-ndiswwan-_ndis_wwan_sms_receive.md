@@ -10,6 +10,7 @@ keywords: ["_NDIS_WWAN_SMS_RECEIVE structure"]
 ms.keywords: "*PNDIS_WWAN_SMS_RECEIVE, NDIS_WWAN_SMS_RECEIVE, NDIS_WWAN_SMS_RECEIVE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SMS_RECEIVE, PNDIS_WWAN_SMS_RECEIVE structure pointer [Network Drivers Starting with Windows Vista], WwanRef_f268c794-63fd-4d7f-afba-67c7b232ea91.xml, _NDIS_WWAN_SMS_RECEIVE, ndiswwan/NDIS_WWAN_SMS_RECEIVE, ndiswwan/PNDIS_WWAN_SMS_RECEIVE, netvista.ndis_wwan_sms_receive"
 f1_keywords:
  - "ndiswwan/NDIS_WWAN_SMS_RECEIVE"
+ - "NDIS_WWAN_SMS_RECEIVE"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows
