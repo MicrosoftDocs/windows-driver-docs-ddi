@@ -28,8 +28,8 @@ api_name:
  - DXGK_DIAG_MONITOR_STATE
 f1_keywords:
  - dispmprt/_DXGK_DIAG_MONITOR_STATE
- - dispmprt/DXGK_DIAG_MONITOR_STATE
- - ""
+ - dispmprt//DXGK_DIAG_MONITOR_STATE
+ - DXGK_DIAG_MONITOR_STATE
 dev_langs:
  - c++
 ---

@@ -11,7 +11,6 @@ ms.keywords: NdisInterlockedInsertTailList, NdisInterlockedInsertTailList macro 
 f1_keywords:
  - "ndis/NdisInterlockedInsertTailList"
  - "NdisInterlockedInsertTailList"
- - ""
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

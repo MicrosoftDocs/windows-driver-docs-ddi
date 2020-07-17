@@ -30,7 +30,7 @@ api_name:
 - GNSS_SUPL_VERSION_2
 f1_keywords:
 - gnssdriver/GNSS_SUPL_VERSION_2
- - ""
+- GNSS_SUPL_VERSION_2
 dev_langs:
 - c++
 product:

@@ -32,8 +32,8 @@ api_name:
  - DXGK_OPM_INTERFACE_2
 f1_keywords:
  - dispmprt/_DXGK_OPM_INTERFACE_2
- - dispmprt/DXGK_OPM_INTERFACE_2
- - ""
+ - dispmprt//DXGK_OPM_INTERFACE_2
+ - DXGK_OPM_INTERFACE_2
 dev_langs:
  - c++
 ---

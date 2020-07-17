@@ -27,8 +27,8 @@ api_location:
 api_name:
  - D3D12DDI_SAMPLER_FEEDBACK_TIER
 f1_keywords:
- - d3d12umddi/D3D12DDI_SAMPLER_FEEDBACK_TIER
- - ""
+ - d3d12umddi//D3D12DDI_SAMPLER_FEEDBACK_TIER
+ - D3D12DDI_SAMPLER_FEEDBACK_TIER
 dev_langs:
  - c++
 ---

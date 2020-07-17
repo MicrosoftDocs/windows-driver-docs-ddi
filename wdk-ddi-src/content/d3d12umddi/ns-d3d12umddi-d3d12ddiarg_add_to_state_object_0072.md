@@ -31,8 +31,8 @@ api_location:
 api_name:
  - D3D12DDIARG_ADD_TO_STATE_OBJECT_0072
 f1_keywords:
- - d3d12umddi/D3D12DDIARG_ADD_TO_STATE_OBJECT_0072
- - ""
+ - d3d12umddi//D3D12DDIARG_ADD_TO_STATE_OBJECT_0072
+ - D3D12DDIARG_ADD_TO_STATE_OBJECT_0072
 dev_langs:
  - c++
 ---

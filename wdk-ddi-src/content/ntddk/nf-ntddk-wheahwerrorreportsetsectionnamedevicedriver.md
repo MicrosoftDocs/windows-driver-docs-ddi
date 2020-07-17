@@ -33,8 +33,8 @@ api_location:
 api_name:
  - WheaHwErrorReportSetSectionNameDeviceDriver
 f1_keywords:
- - ntddk/WheaHwErrorReportSetSectionNameDeviceDriver
- - ""
+ - ntddk//WheaHwErrorReportSetSectionNameDeviceDriver
+ - WheaHwErrorReportSetSectionNameDeviceDriver
 dev_langs:
  - c++
 ---

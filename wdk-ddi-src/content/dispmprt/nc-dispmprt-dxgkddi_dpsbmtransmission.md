@@ -34,8 +34,8 @@ api_location:
 api_name:
  - DXGKDDI_DPSBMTRANSMISSION
 f1_keywords:
- - dispmprt/DXGKDDI_DPSBMTRANSMISSION
- - ""
+ - dispmprt//DXGKDDI_DPSBMTRANSMISSION
+ - DXGKDDI_DPSBMTRANSMISSION
 dev_langs:
  - c++
 ---

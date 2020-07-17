@@ -28,8 +28,8 @@ api_location:
 api_name:
  - DXGKDDI_DPAUXIOTRANSMISSION
 f1_keywords:
- - dispmprt/DXGKDDI_DPAUXIOTRANSMISSION
- - ""
+ - dispmprt//DXGKDDI_DPAUXIOTRANSMISSION
+ - DXGKDDI_DPAUXIOTRANSMISSION
 dev_langs:
  - c++
 ---

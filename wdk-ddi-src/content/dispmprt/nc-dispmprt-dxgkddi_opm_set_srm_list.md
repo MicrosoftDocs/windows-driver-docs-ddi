@@ -34,8 +34,8 @@ api_location:
 api_name:
  - DXGKDDI_OPM_SET_SRM_LIST
 f1_keywords:
- - dispmprt/DXGKDDI_OPM_SET_SRM_LIST
- - ""
+ - dispmprt//DXGKDDI_OPM_SET_SRM_LIST
+ - DXGKDDI_OPM_SET_SRM_LIST
 dev_langs:
  - c++
 ---

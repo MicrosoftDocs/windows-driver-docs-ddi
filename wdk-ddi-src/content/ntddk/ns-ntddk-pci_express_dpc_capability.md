@@ -31,8 +31,8 @@ api_name:
  - PCI_EXPRESS_DPC_CAPABILITY
 f1_keywords:
  - ntddk/_PCI_EXPRESS_DPC_CAPABILITY
- - ntddk/PCI_EXPRESS_DPC_CAPABILITY
- - ""
+ - ntddk//PCI_EXPRESS_DPC_CAPABILITY
+ - PCI_EXPRESS_DPC_CAPABILITY
 dev_langs:
  - c++
 ---

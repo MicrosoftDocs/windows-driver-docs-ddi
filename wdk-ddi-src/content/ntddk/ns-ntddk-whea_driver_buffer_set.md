@@ -33,8 +33,8 @@ api_name:
  - WHEA_DRIVER_BUFFER_SET
 f1_keywords:
  - ntddk/_WHEA_DRIVER_BUFFER_SET
- - ntddk/WHEA_DRIVER_BUFFER_SET
- - ""
+ - ntddk//WHEA_DRIVER_BUFFER_SET
+ - WHEA_DRIVER_BUFFER_SET
 dev_langs:
  - c++
 ---

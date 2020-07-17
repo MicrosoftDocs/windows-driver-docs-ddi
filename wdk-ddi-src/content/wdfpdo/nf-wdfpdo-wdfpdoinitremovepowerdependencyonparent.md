@@ -33,8 +33,8 @@ api_location:
 api_name:
  - WdfPdoInitRemovePowerDependencyOnParent
 f1_keywords:
- - wdfpdo/WdfPdoInitRemovePowerDependencyOnParent
- - ""
+ - wdfpdo//WdfPdoInitRemovePowerDependencyOnParent
+ - WdfPdoInitRemovePowerDependencyOnParent
 dev_langs:
  - c++
 ---

@@ -34,8 +34,8 @@ api_location:
 api_name:
  - ExAllocatePoolQuotaUninitialized
 f1_keywords:
- - wdm/ExAllocatePoolQuotaUninitialized
- - ""
+ - wdm//ExAllocatePoolQuotaUninitialized
+ - ExAllocatePoolQuotaUninitialized
 dev_langs:
  - c++
 ---
