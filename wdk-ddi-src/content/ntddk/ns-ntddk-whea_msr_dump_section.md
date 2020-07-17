@@ -31,8 +31,8 @@ api_name:
  - WHEA_MSR_DUMP_SECTION
 f1_keywords:
  - ntddk/_WHEA_MSR_DUMP_SECTION
- - ntddk/WHEA_MSR_DUMP_SECTION
- - ""
+ - ntddk//WHEA_MSR_DUMP_SECTION
+ - WHEA_MSR_DUMP_SECTION
 dev_langs:
  - c++
 ---

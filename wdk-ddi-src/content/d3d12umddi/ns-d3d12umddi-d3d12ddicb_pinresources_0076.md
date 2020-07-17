@@ -31,8 +31,8 @@ api_location:
 api_name:
  - D3D12DDICB_PIN_RESOURCES_0076
 f1_keywords:
- - d3d12umddi/D3D12DDICB_PIN_RESOURCES_0076
- - ""
+ - d3d12umddi//D3D12DDICB_PIN_RESOURCES_0076
+ - D3D12DDICB_PIN_RESOURCES_0076
 dev_langs:
  - c++
 ---

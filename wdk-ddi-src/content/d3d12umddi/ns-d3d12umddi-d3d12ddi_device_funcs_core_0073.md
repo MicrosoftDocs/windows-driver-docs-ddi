@@ -31,8 +31,8 @@ api_location:
 api_name:
  - D3D12DDI_DEVICE_FUNCS_CORE_0073
 f1_keywords:
- - d3d12umddi/D3D12DDI_DEVICE_FUNCS_CORE_0073
- - ""
+ - d3d12umddi//D3D12DDI_DEVICE_FUNCS_CORE_0073
+ - D3D12DDI_DEVICE_FUNCS_CORE_0073
 dev_langs:
  - c++
 ---

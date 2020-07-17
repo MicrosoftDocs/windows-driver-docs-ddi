@@ -33,7 +33,7 @@ api_name:
 f1_keywords:
 - acpitabl/_SDEV_SECURE_RESOURCE_MEMORY_ENTRY
 - acpitabl/SDEV_SECURE_RESOURCE_MEMORY_ENTRY
- - ""
+- SDEV_SECURE_RESOURCE_MEMORY_ENTRY
 dev_langs:
 - c++
 product:

@@ -31,8 +31,8 @@ api_name:
  - WHEAP_EDPC_ENABLED_EVENT
 f1_keywords:
  - ntddk/_WHEAP_EDPC_ENABLED_EVENT
- - ntddk/WHEAP_EDPC_ENABLED_EVENT
- - ""
+ - ntddk//WHEAP_EDPC_ENABLED_EVENT
+ - WHEAP_EDPC_ENABLED_EVENT
 dev_langs:
  - c++
 ---

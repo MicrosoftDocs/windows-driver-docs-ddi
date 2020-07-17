@@ -32,8 +32,8 @@ api_name:
  - DXGK_DSI_PACKET
 f1_keywords:
  - dispmprt/_DXGK_DSI_PACKET
- - dispmprt/DXGK_DSI_PACKET
- - ""
+ - dispmprt//DXGK_DSI_PACKET
+ - DXGK_DSI_PACKET
 dev_langs:
  - c++
 ---

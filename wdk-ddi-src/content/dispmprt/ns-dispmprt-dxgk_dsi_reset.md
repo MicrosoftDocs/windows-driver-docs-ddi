@@ -32,8 +32,8 @@ api_name:
  - DXGK_DSI_RESET
 f1_keywords:
  - dispmprt/_DXGK_DSI_RESET
- - dispmprt/DXGK_DSI_RESET
- - ""
+ - dispmprt//DXGK_DSI_RESET
+ - DXGK_DSI_RESET
 dev_langs:
  - c++
 ---

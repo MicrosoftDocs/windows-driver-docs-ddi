@@ -31,8 +31,8 @@ api_location:
 api_name:
  - D3D12DDI_DEVICE_FUNCS_VIDEO_0072
 f1_keywords:
- - d3d12umddi/D3D12DDI_DEVICE_FUNCS_VIDEO_0072
- - ""
+ - d3d12umddi//D3D12DDI_DEVICE_FUNCS_VIDEO_0072
+ - D3D12DDI_DEVICE_FUNCS_VIDEO_0072
 dev_langs:
  - c++
 ---

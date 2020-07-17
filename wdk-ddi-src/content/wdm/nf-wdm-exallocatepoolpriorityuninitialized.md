@@ -34,8 +34,8 @@ api_location:
 api_name:
  - ExAllocatePoolPriorityUninitialized
 f1_keywords:
- - wdm/ExAllocatePoolPriorityUninitialized
- - ""
+ - wdm//ExAllocatePoolPriorityUninitialized
+ - ExAllocatePoolPriorityUninitialized
 dev_langs:
  - c++
 ---
