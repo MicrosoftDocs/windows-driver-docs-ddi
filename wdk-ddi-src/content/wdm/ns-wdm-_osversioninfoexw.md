@@ -309,7 +309,7 @@ The following table summarizes the version information that is returned by suppo
 |Windows Server 2019|10.0|10|0|**wProductType** != VER_NT_WORKSTATION|
 |Windows 10|10.0|10|0|**wProductType** == VER_NT_WORKSTATION|
 |Windows Server 2016|10.0|10|0|**wProductType** != VER_NT_WORKSTATION|
-|Windows Server 2012 R2|6.3|10|0|**wProductType** != VER_NT_WORKSTATION|
+|Windows Server 2012 R2|6.3|6|3|**wProductType** != VER_NT_WORKSTATION|
 |Windows 8.1|6.3|6|3|**wProductType** == VER_NT_WORKSTATION|
 |Windows 8|6.2|6|2|**wProductType** == VER_NT_WORKSTATION|
 |Windows Server 2012|6.2|6|2|**wProductType** != VER_NT_WORKSTATION|
