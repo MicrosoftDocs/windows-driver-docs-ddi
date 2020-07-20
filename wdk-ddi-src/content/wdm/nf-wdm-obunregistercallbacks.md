@@ -68,6 +68,8 @@ A value that identifies the set of callback routines to unregister. The <a href=
 
 A driver that calls the <b>ObRegisterCallbacks</b> routine must call the <b>ObUnRegisterCallbacks</b> routine before the driver is unloaded.
 
+> [!CAUTION]
+> Do not call **ObRegisterCallbacks** more than once. This is a "double free" and results in [Bug Check 0x7E: SYSTEM_THREAD_EXCEPTION_NOT_HANDLED](https://docs.microsoft.com/windows-hardware/drivers/debugger/bug-check-0x7e--system-thread-exception-not-handled).
 
 
 
