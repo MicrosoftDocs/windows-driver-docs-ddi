@@ -44,49 +44,32 @@ req.typenames: PCW_CALLBACK_INFORMATION, *PPCW_CALLBACK_INFORMATION
 
 # _PCW_CALLBACK_INFORMATION structure
 
-
 ## -description
 
-
-The <b>PCW_CALLBACK_INFORMATION</b> union supplies details about the notification to send. A provider passes a pointer to this union as a parameter to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pcw_callback">PcwCallback</a> function. 
-
+The `PCW_CALLBACK_INFORMATION` union supplies details of the notification sent by the system to a provider-defined <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pcw_callback">`PcwCallback`</a> function. The system passes a value of this union in the `Info` parameter of the callback. The active field of the union is determined by the value of the `Type` parameter of the callback.
 
 ## -struct-fields
 
-
-
-
 ### -field AddCounter
 
-The PCW_COUNTER_INFORMATION structure that identifies the counter being added. 
-
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_pcw_counter_information">`PCW_COUNTER_INFORMATION`</a> structure that contains details for a `PcwCallbackAddCounter` notification.
 
 ### -field RemoveCounter
 
-The PCW_COUNTER_INFORMATION structure that identifies the counter being removed. 
-
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_pcw_counter_information">`PCW_COUNTER_INFORMATION`</a> structure that contains details for a `PcwCallbackRemoveCounter` notification.
 
 ### -field EnumerateInstances
 
-The PCW_MASK_INFORMATION structure that identifies the instances of the counter set.
-
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_pcw_mask_information">`PCW_MASK_INFORMATION`</a> structure that contains details for a `PcwCallbackEnumerateInstances` notification.
 
 ### -field CollectData
 
-The PCW_MASK_INFORMATION structure that identifies the instance of the counter set and its buffer.
-
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_pcw_mask_information">`PCW_MASK_INFORMATION`</a> structure that contains details for a `PcwCallbackCollectData `notification.
 
 ## -see-also
 
-
-
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pcw_callback">PcwCallback</a>
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_pcw_counter_information">PCW_COUNTER_INFORMATION</a>
 
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_pcw_mask_information">PCW_MASK_INFORMATION</a>
- 
-
- 
-

@@ -44,39 +44,22 @@ req.typenames:
 
 # PcwCloseInstance function
 
-
 ## -description
 
-
-The <b>PcwCloseInstance</b> function closes the specified instance of the counter set. 
-
+The `PcwCloseInstance` function closes the specified instance of the counterset.
 
 ## -parameters
 
-
-
-
 ### -param Instance [in]
 
-A pointer to the instance of the counter set to close. 
-
+A pointer to the instance of the counterset to close.
 
 ## -remarks
 
+Use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pcwcreateinstance">PcwCreateInstance</a> function to create an instance of a registered counter set. You cannot call `PcwCloseInstance` if you have already called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pcwunregister">PcwUnregister</a>. When you unregister the counter set, any remaining instances are closed for you.
 
-
-Use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pcwcreateinstance">PcwCreateInstance</a> function to create an instance of a registered counter set. You cannot call <b>PcwCloseInstance</b> if you have already called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pcwunregister">PcwUnregister</a>. When you unregister the counter set, the instances are closed for you.
-
-
-
+If using the `CTRPP` code generation tool, the developer will typically use the CTRPP-generated Close function instead of calling PcwCloseInstance directly.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pcwcreateinstance">PcwCreateInstance</a>
- 
-
- 
-

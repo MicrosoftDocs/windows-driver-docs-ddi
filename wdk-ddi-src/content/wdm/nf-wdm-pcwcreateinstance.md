@@ -44,46 +44,33 @@ req.typenames:
 
 # PcwCreateInstance function
 
-
 ## -description
 
-
-The <b>PcwCreateInstance</b> function creates a new instance for the specified registered counter set.
-
+The `PcwCreateInstance` function creates a new instance for the specified counterset.
 
 ## -parameters
 
-
-
-
 ### -param Instance [out]
 
-A pointer to receive the newly created instance.
-
+A pointer to receive the newly created instance. The instance should be closed using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pcwcloseinstance">PcwCloseInstance</a>.
 
 ### -param Registration [in]
 
-A pointer to the registered provider that owns this instance of the counter set.
-
+A pointer to the counterset registration that owns this instance. The registration is created using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pcwregister">PcwRegister</a>
 
 ### -param Name [in]
 
-A pointer to the Unicode string that contains the name of the instance of the counter set.
-
+A pointer to the Unicode string that contains the name of the instance of the counterset. Note that instance names are not case-sensitive and should be unique.
 
 ### -param Count [in]
 
 The number of data blocks that are associated with this instance.
 
-
 ### -param Data [in]
 
-A pointer to an array of data blocks that contains the counter values of this instance.
-
+A pointer to an array of data block descriptors that contains the counter values of this instance.
 
 ## -returns
-
-
 
 This function returns one of the following values:
 
@@ -93,77 +80,52 @@ This function returns one of the following values:
 <th>Description</th>
 </tr>
 <tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The instance was successfully created,
-
+<td>`STATUS_SUCCESS`</td>
+<td>
+The instance was successfully created.
 </td>
 </tr>
 <tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER_4</b></dt>
-</dl>
-</td>
-<td width="60%">
-The number of structures, specified by <i>Count</i>, is not valid for the registered provider.
-
+<td>`STATUS_INVALID_PARAMETER_4`</td>
+<td>
+The number of structures, specified by `Count`, is not valid for the registered provider.
 </td>
 </tr>
 <tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_BUFFER_SIZE</b></dt>
-</dl>
-</td>
-<td width="60%">
+<td>`STATUS_INVALID_BUFFER_SIZE`</td>
+<td>
 A problem was detected with the size of the data buffer and the counter set,
-
 </td>
 </tr>
 <tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INTEGER_OVERFLOW</b></dt>
-</dl>
-</td>
-<td width="60%">
-The size of the structure, specified by <i>Count</i>, overflows the data buffer,
-
+<td>`STATUS_INTEGER_OVERFLOW`</td>
+<td>
+The size of the structure, specified by `Count`, overflows the data buffer,
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+Counterset providers can supply information to the consumer through two different systems:
 
+- The provider can supply a `PCW_CALLBACK` function that will be invoked by the Performance Counter Library as needed to collect data. For more information on this system, refer to the documentation for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pcw_callback">`PCW_CALLBACK`</a>.
+- The provider can use `PcwCreateInstance` and `PcwCloseInstance` to maintain a list of available instances and the corresponding counter data. This system is simple to implement but limited in flexibility. This page explains the usage of `PcwCreateInstance` and `PcwCloseInstance`.
 
-Before the provider uses this function, the provider must call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pcwregister">PcwRegister</a> function to create a registration.
+Before the provider uses this function, the provider must call the PcwRegister function to create a registration.
 
-Use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pcwcloseinstance">PcwCloseInstance</a> function to close this instance.
+If using the `CTRPP` code generation tool, the developer will typically use the CTRPP-generated Create function instead of calling PcwCreateInstance directly.
 
+When a new instance arrives (e.g. when a device is plugged in), the provider should allocate and initialize a data block for the instance, call `PcwCreateInstance` with the name and data block for the instance, and then keep the values in the data block updated with counter values for the instance. When the instance becomes invalid (e.g. when a device is unplugged), the provider should call `PcwCloseInstance` and then delete the data block.
 
+The provider must maintain data blocks (usually in paged or nonpaged pool) containing the current counter values for each instance.
 
+`PcwCreateInstance` will automatically assign a unique id for the instance. To provide specific values for the instance id, implement a `PCW_CALLBACK` function instead of using `PcwCreateInstance`.
+
+Use the PcwCloseInstance function to close the instance.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pcwcloseinstance">PcwCloseInstance</a>
 
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pcwregister">PcwRegister</a>
- 
-
- 
-

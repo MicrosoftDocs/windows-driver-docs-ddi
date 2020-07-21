@@ -44,24 +44,22 @@ req.typenames: PCW_COUNTER_INFORMATION, *PPCW_COUNTER_INFORMATION
 
 # _PCW_COUNTER_INFORMATION structure
 
-
 ## -description
 
-
-The PCW_COUNTER_INFORMATION structure describes attributes that identify a specific instance of a counter set. 
-
+The `PCW_COUNTER_INFORMATION` structure is a member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_pcw_callback_information">`PCW_CALLBACK_INFORMATION`</a> union, which contains details of a notification sent by the system to a provider-defined <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pcw_callback">`PcwCallback`</a> function.
 
 ## -struct-fields
 
-
-
-
 ### -field CounterMask
 
-A bitmask. If the <i>x</i>-th bit is set, counter <i>x</i>^2 is included in the query. The value assigned to identify the counters exposed in a registration.
-
+A bitmask. If the `x`-th bit is set, counter `x` is included in the query.
 
 ### -field InstanceMask
 
-A Unicode string that contains a wildcard specification of the instance. That is, "*" and "?" have the usual meaning of zero-or-more-characters and any-character respectively. The <b>InstanceMask</b> identifies and maps the counter set to a specific instance. 
+A Unicode string that contains a wildcard specification of instance names to be matched in the query. If all instance names should match the query, the `InstanceMask` field will be `"*"`. Otherwise, `"*"` and `"?"` have the usual wildcard meaning of zero-or-more-characters and any-character respectively. Note that instance name matching is not case-sensitive.
 
+## -see-also
+
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pcw_callback">PcwCallback</a>
+
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_pcw_callback_information">PCW_CALLBACK_INFORMATION</a>

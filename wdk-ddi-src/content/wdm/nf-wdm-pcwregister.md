@@ -44,31 +44,21 @@ req.typenames:
 
 # PcwRegister function
 
-
 ## -description
 
-
-The <b>PcwRegister</b> function registers the caller as a provider of the specified counter set.
-
+The `PcwRegister` function creates a new registration of the specified counterset.
 
 ## -parameters
 
-
-
-
 ### -param Registration [out]
 
-A pointer to a PCW_REGISTRATION structure. Receives the handle to the newly allocated registration. The pointer is referenced before the function returns. The caller is responsible to dereference the pointer.
-
+A pointer to a PPCW_REGISTRATION. Receives the handle to the newly allocated registration. The registration should be closed using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pcwunregister">PcwUnregister</a>.
 
 ### -param Info [in]
 
-A pointer to a PCW_REGISTRATION_INFORMATION structure that contains the details about the counter set being registered.
-
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_pcw_registration_information">`PCW_REGISTRATION_INFORMATION`</a> structure that contains the details about the counter set being registered.
 
 ## -returns
-
-
 
 This function returns one of the following values:
 
@@ -78,71 +68,51 @@ This function returns one of the following values:
 <th>Description</th>
 </tr>
 <tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
+<td>`STATUS_SUCCESS`</td>
+<td>
 The counter set is successfully registered.
-
 </td>
 </tr>
 <tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER_2</b></dt>
-</dl>
-</td>
-<td width="60%">
-The <i>Version</i> specified by <i>Info</i> does not match the supported value for this version of Windows.
-
+<td>`STATUS_INVALID_PARAMETER_2`</td>
+<td>
+<p>
+The `Info->Name->Length` field is 0 or is not a multiple of `sizeof(WCHAR)`.
+</p>
+<p>-- OR --</p>
+<p>
+The `Info->Version` field does not match a supported value for this version of Windows. For Windows versions prior to Windows 10 20H1 (Manganese), the Version must be set to `PCW_VERSION_1` (0x100). For Windows 10 20H1 (Manganese) and later, the Version must be set to `PCW_VERSION_1` (0x100) or `PCW_VERSION_2` (0x200). Use `PCW_CURRENT_VERSION` to automatically use `PCW_VERSION_1` or `PCW_VERSION_2` based on the compile-time value of `NTDDI_VERSION`.
+</p>
+<p>-- OR --</p>
+<p>
+The `Info->Flags` field contains a value other than `PcwRegistrationNone` or `PcwRegistrationSiloNeutral`.
+</p>
 </td>
 </tr>
 <tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INTEGER_OVERFLOW</b></dt>
-</dl>
-</td>
-<td width="60%">
+<td>`STATUS_INTEGER_OVERFLOW`</td>
+<td>
 The number of the counters exposed by this registration exceeds the space available.
-
 </td>
 </tr>
 <tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NO_MEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
+<td>`STATUS_NO_MEMORY`</td>
+<td>
 There is not enough space available to allocate memory for the counters
-
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+The provider calls this function to create a new counterset registration. The registration is added to the counterset's registration list. All the input arguments are captured so that the caller does not have to keep a copy of them.
 
+By default, the new counterset is visible only to the server silo that was active at the time the registration is created (i.e. `PcwRegister` associates the newly-created registration with the server silo that was attached to the thread at the time the registration is created). On Windows 10 20H1 or later, use the `PcwRegistrationSiloNeutral` flag in the `PCW_REGISTRATION_INFORMATION::Flags` field to create a counterset registration that is visible to all server silos.
 
-The provider calls this function to create a new registration. The registration is added to the counter set's registration list. All the input arguments are captured so that the caller does not have to keep a copy of them.
-
-
-
+If using the `CTRPP` code generation tool, the developer will typically use the CTRPP-generated Register function instead of calling PcwRegister directly. (For additional control over the `Version` and `Flags` fields of the `PCW_REGISTRATION_INFORMATION` structure, use the CTRPP-generated InitRegistrationInformation function and then call `PcwRegister` instead of using the CTRPP-generated Register function.)
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pcwunregister">PcwUnregister</a>
- 
 
- 
-
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_pcw_registration_information">PCW_REGISTRATION_INFORMATION</a>

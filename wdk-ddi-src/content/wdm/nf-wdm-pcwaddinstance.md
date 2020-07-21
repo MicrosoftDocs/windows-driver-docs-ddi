@@ -44,48 +44,35 @@ req.typenames:
 
 # PcwAddInstance function
 
-
 ## -description
 
-
-The <b>PcwAddInstance</b> function adds the specified instance of the counter set to the consumer buffer. 
-
+The `PcwAddInstance` function adds the specified instance of the counter set to the consumer buffer.
 
 ## -parameters
 
-
-
-
 ### -param Buffer [in]
 
-A pointer to the consumer buffer to which the instance of the counter set will be added. Depending on the purpose of the buffer, the function either adds an instance or collects data. 
-
+A pointer to the consumer buffer to which the instance of the counter set will be added. Depending on the purpose of the buffer, the function either adds an instance or collects data.
 
 ### -param Name [in]
 
 A pointer to the Unicode string that contains the name of the instance of the counter set.
 
-
 ### -param Id [in]
 
-A numeric value that specifies the <i>Id</i> (identifier) associated with the instance of the counter set.
-
+A numeric value that specifies the `Id` (identifier) associated with the instance of the counter set.
 
 ### -param Count [in]
 
 The number of data blocks associated with this instance.
 
-
 ### -param Data [in]
 
 A pointer to an array of data blocks containing the counter values of this instance.
 
-
 ## -returns
 
-
-
-<b>PcwAddInstance</b> returns one of the following values:
+`PcwAddInstance` returns one of the following values:
 
 <table>
 <tr>
@@ -95,7 +82,7 @@ A pointer to an array of data blocks containing the counter values of this insta
 <tr>
 <td width="40%">
 <dl>
-<dt><b>STATUS_SUCCESS</b></dt>
+<dt>`STATUS_SUCCESS`</dt>
 </dl>
 </td>
 <td width="60%">
@@ -106,36 +93,20 @@ The instance was successfully added to the buffer.
 <tr>
 <td width="40%">
 <dl>
-<dt><b>STATUS_INVALID_BUFFER_SIZE</b></dt>
+<dt>`STATUS_INVALID_BUFFER_SIZE`</dt>
 </dl>
 </td>
 <td width="60%">
-One of the provider data blocks is too small. For example, suppose that during the call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pcwregister">PcwRegister</a>, the provider specifies that counter <i>X</i> is at offset 100 of the first data block of size 4 bytes. If the call to <b>PcwAddInstance</b> specifies that the first data block is 50 bytes, this error status is returned.
+One of the provider data blocks is too small. For example, suppose that during the call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pcwregister">PcwRegister</a>, the provider specifies that counter `X` is at offset 100 of the first data block of size 4 bytes. If the call to `PcwAddInstance` specifies that the first data block is 50 bytes, this error status is returned.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The <b>PcwAddInstance</b> function either adds an instance or collects data depending on the purpose of the buffer. The purpose of the buffer is defined by the type of callback. The <b>PcwAddInstance</b> function is called from a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pcw_callback">PcwCallback</a> routine when the reason is either to collect data or to enumerate instances. You can get the <i>Buffer</i> from the <i>Info</i> parameter for the <i>PcwCallback</i> routine
-
-
-
+The `PcwAddInstance` function either adds an instance or collects data depending on the purpose of the buffer. The purpose of the buffer is defined by the type of callback. The `PcwAddInstance` function is called from a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pcw_callback">PcwCallback</a> routine when the reason is either to collect data or to enumerate instances. You can get the `Buffer` from the `Info` parameter for the `PcwCallback` routine
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pcw_callback">PcwCallback</a>
- 
-
- 
-
