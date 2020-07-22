@@ -83,6 +83,8 @@ Specifies the size, in bytes, of the buffer that the <i>ReasonSpecificData</i> p
 
 For information about how to implement this callback routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
 
+For sample code that shows how to write data to the crash dump file, see [DMF_CrashDump](https://github.com/Microsoft/DMF/blob/master/Dmf/Modules.Library/Dmf_CrashDump.md).
+
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_kbugcheck_add_pages">KBUGCHECK_ADD_PAGES</a>
