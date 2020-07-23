@@ -59,17 +59,6 @@ A pointer to a driver-allocated [**NET_ADAPTER_OFFLOAD_GSO_CAPABILITIES**](../ne
 
 Flags specifying the layer 3 protocols and TCP variations contained in packets that the NIC can successfully segment.
 
-The flags should be a combination of:
-
-| Flag | Description |
-| --- | --- |
-| NetAdapterOffloadFlagIPv4WithoutOptions | Set if the NIC is capable of handling IPv4 packets without options |
-| NetAdapterOffloadFlagIPv4WithOptions | Set if the NIC is capable of handling IPv4 packets with options |
-| NetAdapterOffloadFlagIPv6WithoutExtensions | Set if the NIC is capable of handling IPv6 packets without extensions |
-| NetAdapterOffloadFlagIPv6WithExtensions | Set if the NIC is capable of handling IPv6 packets with extensions |
-| NetAdapterOffloadFlagTcpWithoutOptions | Set if the NIC is capable of handling TCP packets without options |
-| NetAdapterOffloadFlagTcpWithOptions | Set if the NIC is capable of handling TCP packets with options |
-
 ### -param MaximumOffloadSize
 
 The maximum bytes of user data that the transport can pass to the NIC driver in a single packet.

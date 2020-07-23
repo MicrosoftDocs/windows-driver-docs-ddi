@@ -45,7 +45,7 @@ ms.custom: 19H1
 
 
 
-The *EvtNetAdapterOffloadSetGso* callback function is implemented by the client driver to set changes in active TCP and UDP large send offload capabilities.
+The *EvtNetAdapterOffloadSetGso* callback function is implemented by the client driver to to query changes in active GSO capabilities and update the hardware settings accordingly.
 
 ## -prototype
 
