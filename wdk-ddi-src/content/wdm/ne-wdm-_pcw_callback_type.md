@@ -46,34 +46,34 @@ req.typenames: PCW_CALLBACK_TYPE, *PPCW_CALLBACK_TYPE
 
 ## -description
 
-The `PCW_CALLBACK_TYPE` enumeration defines the type of the notification sent by the system to the provider-defined <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pcw_callback">`PcwCallback`</a> function. The system passes a value of this enumeration in the `Type` parameter of the callback.
+The `PCW_CALLBACK_TYPE` enumeration defines the type of the notification sent by the system to the provider-defined [PCW\_CALLBACK](nc-wdm-pcw_callback.md) function. The system passes a value of this enumeration in the `Type` parameter of the callback.
 
 ## -enum-fields
 
 ### -field PcwCallbackAddCounter
 
-The system invokes the provider's callback with this Type value to notify the provider that a consumer has added a counter specifier to a query.
+The system invokes the provider's callback with this `Type` value to notify the provider that a consumer has added an instance filter to a query involving this counterset.
 
-Most providers will ignore notifications with this Type, but some might use this notification to optimize their data collection. For example, a provider might InterlockedIncrement a counter for each AddCounter notification and only track performance data when the counter is non-zero.
+Most providers will ignore notifications with this `Type`, but some might use this notification to optimize their data collection. For example, a provider might InterlockedIncrement a global counter for each AddCounter notification and only track performance data when the global counter is non-zero.
 
 ### -field PcwCallbackRemoveCounter
 
-The system invokes the provider's callback with this Type value to notify the provider that a consumer has removed a counter specifier to a query.
+The system invokes the provider's callback with this `Type` value to notify the provider that a consumer has removed an instance filter from a query involving this counterset.
 
-Most providers will ignore notifications with this Type, but some might use this notification to optimize their data collection. For example, a provider might InterlockedDecrement a counter for each RemoveCounter notification and only track performance data when the counter is non-zero.
+Most providers will ignore notifications with this `Type`, but some might use this notification to optimize their data collection. For example, a provider might InterlockedDecrement a global counter for each RemoveCounter notification and only track performance data when the global counter is non-zero.
 
 ### -field PcwCallbackEnumerateInstances
 
-The system invokes the provider's callback with this Type value to request the provider to provide the Name and Id values for the instances of the counterset.
+The system invokes the provider's callback with this `Type` value to request the provider to provide the Name and Id values for the instances of the counterset.
 
 Most providers will use the same implementation for PcwCallbackEnumerateInstances and PcwCallbackCollectData notifications, but some might optimize data collection by skipping collection of counter data values when responding to a PcwCallbackEnumerateInstances callback.
 
 ### -field PcwCallbackCollectData
 
-The system invokes the provider's callback with this Type value to request the provider to provide the Name, Id, and counter data values for the instances of the counterset.
+The system invokes the provider's callback with this `Type` value to request the provider to provide the Name, Id, and counter data values for the instances of the counterset.
 
-Refer to the documentation for the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pcw_callback">`PcwCallback`</a> function for details on handling this notification.
+Refer to the documentation for the [PCW\_CALLBACK](nc-wdm-pcw_callback.md) function for details and examples of handling this notification.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pcw_callback">PcwCallback</a>
+[PCW\_CALLBACK callback function](nc-wdm-pcw_callback.md)

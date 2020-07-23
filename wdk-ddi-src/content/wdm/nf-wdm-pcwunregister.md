@@ -46,7 +46,7 @@ req.typenames:
 
 ## -description
 
-The `PcwUnregister` function closes the registration of the specified counterset.
+The `PcwUnregister` function closes the specified counterset registration. Most developers will use a [CTRPP](https://docs.microsoft.com/windows/win32/perfctrs/ctrpp)-generated Unregister\*\*\* function instead of calling this function directly.
 
 ## -parameters
 
@@ -56,12 +56,30 @@ A pointer to the registration being closed.
 
 ## -remarks
 
-The `PcwUnregister` function closes the registration of the specified counterset. Instances owned by the counterset registration are automatically destroyed. These instances should not be accessed by the provider while the counter set is being unregistered or after the counter set is unregistered.
+The `PcwUnregister` function closes the specified counterset registration. Instances owned by the counterset registration are automatically closed. These instances should not be accessed by the provider while the counter set is being unregistered or after the counter set is unregistered.
 
-Before the provider uses this function, the provider must call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pcwregister">PcwRegister</a> function to create a registration.
+Before the provider uses this function, the provider must call the [PcwRegister](nf-wdm-pcwregister.md) function to create a registration.
 
 If using the `CTRPP` code generation tool, the developer will typically use the CTRPP-generated Unregister function instead of calling PcwUnregister directly.
 
+### CTRPP-generated Unregister\*\*\* function
+
+Most developers do not need to call `PcwUnregister` directly. Instead, they will compile a manifest with the CTRPP tool and use the Unregister\*\*\* function from the CTRPP-generated header. The generated function will look like this:
+
+```C
+EXTERN_C FORCEINLINE VOID
+UnregisterMyCounterset(
+    VOID
+    )
+{
+    PAGED_CODE();
+
+    PcwUnregister(MyCounterset);
+}
+```
+
+The CTRPP-generated Unregister function will be named *Prefix*Unregister*CounterSet*. *Prefix* is usually blank, but may be present if the `-prefix` parameter was used on the CTRPP command-line. *CounterSet* is the name of the counterset, as specified in the manifest. Note that the function references `MyCounterset`, which is a global variable that holds the counterset registration handle initialized by the CTRPP-generated Register\*\*\* function.
+
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pcwregister">PcwRegister</a>
+[PcwRegister function](nf-wdm-pcwregister.md)

@@ -46,13 +46,13 @@ req.typenames: PCW_MASK_INFORMATION, *PPCW_MASK_INFORMATION
 
 ## -description
 
-The `PCW_MASK_INFORMATION` structure is a member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_pcw_callback_information">`PCW_CALLBACK_INFORMATION`</a> union, which contains details of a notification sent by the system to a provider-defined <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pcw_callback">`PcwCallback`</a> function.
+The `PCW_MASK_INFORMATION` structure is a member of the [_PCW_CALLBACK_INFORMATION](ns-wdm-_pcw_callback_information.md) union, which contains details of a notification sent by the system to a provider-defined [PCW_CALLBACK](nc-wdm-pcw_callback.md) function.
 
 ## -struct-fields
 
 ### -field CounterMask
 
-A bitmask. If the `x`-th bit is set, counter `x` is included in the query.
+A bitmask. If the `x`-th bit is set, the counter with id `x` is included in the query.
 
 ### -field InstanceMask
 
@@ -60,15 +60,15 @@ A Unicode string that contains a wildcard specification of instance names to be 
 
 ### -field InstanceId
 
-The numeric value that identifies the ids of the instance(s) to be collected. If the value is `PCW_ANY_INSTANCE_ID`, all instance ids should match the query.
+The numeric value that identifies the id of the instance(s) to be collected. If the value is `PCW_ANY_INSTANCE_ID` (0xFFFFFFFF), all instance ids should match the query.
 
 ### -field CollectMultiple
 
-The BOOLEAN value that indicates whether the consumer will accept more than one instance in the results of the query. This will be FALSE if the counterset is registered as single-instance. This will be TRUE if the counterset is registered as multi-instance.
+The BOOLEAN value that indicates whether the consumer will accept more than one instance in the results of the query. This will be FALSE if the counterset is being treated as a single-instance counterset. This will be TRUE if the counterset is being treated as a multi-instance counterset.
 
 ### -field Buffer
 
-A pointer to the consumer buffer to which the instance(s) of the counter set will be added via `PcwAddInstance` (or via a CTRPP-generated wrapper for `PcwAddInstance`).
+A handle to the system-managed buffer to which the instance(s) of the counter set will be added. This handle should be used when calling `PcwAddInstance` (or when calling the CTRPP-generated Add function, which wraps the call to `PcwAddInstance`).
 
 ### -field CancelEvent
 
@@ -76,6 +76,6 @@ If this field is non-NULL, it is an initialized event object that will be signal
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pcw_callback">PcwCallback</a>
+[PCW_CALLBACK callback function](nc-wdm-pcw_callback.md)
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_pcw_callback_information">PCW_CALLBACK_INFORMATION</a>
+[_PCW_CALLBACK_INFORMATION structure](ns-wdm-_pcw_callback_information.md)

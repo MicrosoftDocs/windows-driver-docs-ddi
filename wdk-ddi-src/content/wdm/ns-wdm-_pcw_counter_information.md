@@ -46,13 +46,13 @@ req.typenames: PCW_COUNTER_INFORMATION, *PPCW_COUNTER_INFORMATION
 
 ## -description
 
-The `PCW_COUNTER_INFORMATION` structure is a member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_pcw_callback_information">`PCW_CALLBACK_INFORMATION`</a> union, which contains details of a notification sent by the system to a provider-defined <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pcw_callback">`PcwCallback`</a> function.
+The `PCW_COUNTER_INFORMATION` structure is a member of the [PCW_CALLBACK_INFORMATION](ns-wdm-_pcw_callback_information.md) union, which contains details of a notification sent by the system to a provider-defined [PCW_CALLBACK](nc-wdm-pcw_callback.md) function.
 
 ## -struct-fields
 
 ### -field CounterMask
 
-A bitmask. If the `x`-th bit is set, counter `x` is included in the query.
+A bitmask. If the `x`-th bit is set, counter with id `x` is included in the query.
 
 ### -field InstanceMask
 
@@ -60,6 +60,6 @@ A Unicode string that contains a wildcard specification of instance names to be 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pcw_callback">PcwCallback</a>
+[PCW_CALLBACK callback function](nc-wdm-pcw_callback.md)
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_pcw_callback_information">PCW_CALLBACK_INFORMATION</a>
+[_PCW_CALLBACK_INFORMATION structure](ns-wdm-_pcw_callback_information.md)

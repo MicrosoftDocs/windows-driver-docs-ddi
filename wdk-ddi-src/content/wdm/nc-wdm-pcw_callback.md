@@ -46,21 +46,21 @@ req.typenames:
 
 ## -description
 
-Providers can optionally implement a `PCW_CALLBACK` function to receive notification when consumers make requests such as enumerating instances or collecting counterset data. The Performance Counter Library (PERFLIB version 2.0) calls the `PCW_CALLBACK` function before the consumer's request completes.
+Providers can optionally implement a `PCW_CALLBACK` function to receive notification when consumers make requests such as enumerating instances or collecting counterset data. The [Performance Counter Library (PERFLIB version 2.0)](https://go.microsoft.com/fwlink/p/?linkid=144623) calls the `PCW_CALLBACK` function before the consumer's request completes.
 
 ## -parameters
 
 ### -param Type [in]
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_pcw_callback_type">`PCW_CALLBACK_TYPE`</a> enumeration value indicating why the callback is invoked. Possible values are `PcwCallbackAddCounter`, `PcwCallbackRemoveCounter`, `PcwCallbackEnumerateInstances`, and `PcwCallbackCollectData`.
+A [PCW\_CALLBACK\_TYPE](ne-wdm-_pcw_callback_type.md) enumeration value indicating why the callback is invoked. Possible values are `PcwCallbackAddCounter`, `PcwCallbackRemoveCounter`, `PcwCallbackEnumerateInstances`, and `PcwCallbackCollectData`.
 
 ### -param Info [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_pcw_callback_information">`PCW_CALLBACK_INFORMATION`</a> union that supplies details about why the provider callback was invoked. The details will be in the union member corresponding to the `Type` parameter. For example, if `Type == PcwCallbackEnumerateInstances` then the details will be in `Info->EnumerateInstances`.
+A pointer to a [PCW\_CALLBACK\_INFORMATION](ns-wdm-_pcw_callback_information.md) union that supplies details about why the provider callback was invoked. The details will be in the union member corresponding to the `Type` parameter. For example, if `Type == PcwCallbackEnumerateInstances` then the details will be in `Info->EnumerateInstances`.
 
 ### -param Context [in, optional]
 
-The callback context that was supplied by the provider when calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pcwregister">`PcwRegister`</a> or when calling the CTRPP-generated Register function (which invokes `PcwRegister`).
+The callback context that was supplied by the provider when calling [PcwRegister](nf-wdm-pcwregister.md) or when calling the CTRPP-generated Register function (which invokes `PcwRegister`).
 
 ## -returns
 
@@ -70,29 +70,29 @@ The `PCW_CALLBACK` callback function should return `STATUS_SUCCESS` if the callb
 
 Counterset providers can supply information to the consumer through two different systems:
 
-- The provider can use `PcwCreateInstance` and `PcwCloseInstance` to maintain a list of available instances and the corresponding counter data. This system is simple to implement but limited in flexibility. When using this system, the provider does not need to supply a callback function. For more information on this system, refer to the documentation for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pcwcreateinstance">`PcwCreateInstance`</a>.
+- The provider can use `PcwCreateInstance` and `PcwCloseInstance` to maintain a list of available instances and the corresponding counter data. This system is simple to implement but limited in flexibility. When using this system, the provider does not need to supply a callback function. For more information on this system, refer to the documentation for [PcwCreateInstance](nf-wdm-pcwcreateinstance.md).
 - The provider can supply a `PCW_CALLBACK` function that will be invoked by the Performance Counter Library as needed to collect data. This page explains the expected behavior of the callback function.
 
 The callback implementation must be thread-safe. Multiple different consumers might simultaneously request data from the provider on multiple different threads.
 
-The callback must handle the `PcwCallbackEnumerateInstances` and `PcwCallbackCollectData` request types. Generally, the callback need do nothing (may return immediately) for other request types, but in complex scenarios the callback might also handle `PcwCallbackAddCounter` and `PcwCallbackRemoveCounter` to optimize data collection (i.e. to enable tracking of statistics only when one or more query is active).
+The callback must handle the `PcwCallbackEnumerateInstances` and `PcwCallbackCollectData` request types. The callback usually does not need to handle other request types, but in complex scenarios the callback might also handle `PcwCallbackAddCounter` and `PcwCallbackRemoveCounter` to optimize data collection (i.e. to disable tracking of statistics only when no queries are open).
 
-The callback is responsible for generating Name and Id values for the counterset instances.
+The callback is responsible for generating `Name` and `Id` values for the counterset instances.
 
-- Instance Id values MUST be stable over time (the same instance should use the same Id value for all invocations of the callback), should be unique (e.g. do not use 0 for all instances), and should be less than 0xFFFFFFFE (do not use `PCW_ANY_INSTANCE_ID` for any instances). Ideally, the instance Id should be stable and meaningful (e.g. a Process counterset might use a PID) instead of arbitrary (avoid using e.g. arrival sequence number).
-- Instance Name values MUST be stable over time (the same instance should use the same Name value for all invocations of the callback) and MUST be unique. If the counterset supports multiple instances, the instance Name should not be blank. String matching is done using a case-insensitive comparison, so Name values should not differ solely by case. (Uniqueness is not verified or enforced by Windows, but non-unique instance names will cause problems for consumers of the counterset.)
+- Instance `Id` values MUST be stable over time (the same logical instance should use the same `Id` value for all invocations of the callback), should be unique (e.g. do not simply use 0 for all instances), and should be less than 0xFFFFFFFE (do not use `PCW_ANY_INSTANCE_ID` for any instances). Ideally, the instance `Id` should be meaningful (e.g. a Process counterset might use a PID as the `Id`) instead of arbitrary (e.g. a sequence number).
+- Instance `Name` values MUST be stable over time (the same logical instance should use the same `Name` value for all invocations of the callback) and MUST be unique. If the counterset supports multiple instances, the instance `Name` should not be blank. String matching is done using a case-insensitive comparison, so `Name` values should not differ only by case. (Uniqueness is not verified or enforced by Windows, but non-unique instance names will cause problems for consumers of the counterset.)
 
-When handling `PcwCallbackCollectData` requests, a basic callback implementation will simply invoke <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pcwaddinstance">`PcwAddInstance`</a> (or the CTRPP-generated function that invokes PcwAddInstance) once for each counterset instance. The following optimizations may be used in more advanced implementations as needed:
+When handling `PcwCallbackCollectData` requests, a basic callback implementation will simply invoke [PcwAddInstance](nf-wdm-pcwaddinstance.md) (or the CTRPP-generated Add function, which invokes `PcwAddInstance`) once for each counterset instance. The following optimizations may be used in more advanced implementations as needed:
 
-- If `Info->CollectData.CounterMask != (UINT64)-1` then the consumer does not need all of the counters in the counterset, so the callback may optimize data collection by leaving the corresponding values as 0 in the data provided to `PcwAddInstance`.
+- If `Info->CollectData.CounterMask != (UINT64)-1` then the consumer does not need all of the counters in the counterset, so the callback may optimize data collection by leaving the corresponding values as 0 in the data block provided to `PcwAddInstance`.
 - If `Info->CollectData.InstanceId != PCW_ANY_INSTANCE_ID` then the consumer only wants data about instances with an `InstanceId` equal to `CollectData.InstanceId`. The callback may optimize data collection by skipping the call to `PcwAddInstance` for instances with non-matching `InstanceId`.
-- If `Info->CollectData.InstanceMask != "*"` then the consumer only wants data about instances with an `InstanceName` that matches the wildcard pattern of `CollectData.InstanceMask`. The callback may optimize data collection by skipping the call to `PcwAddInstance` for instances with non-matching `InstanceName`. (Note that wildcard matching is complex, so this optimization is not generally recommended unless instance data collection is very expensive.)
+- If `Info->CollectData.InstanceMask != "*"` then the consumer only wants data about instances with an `InstanceName` that matches the wildcard pattern of `CollectData.InstanceMask`. The callback may optimize data collection by skipping the call to `PcwAddInstance` for instances with non-matching `InstanceName`. (Note that wildcard matching is hard to implement correctly, so this optimization is recommended only when instance data collection is very expensive.)
 
-In most cases, the callback implementation for a `PcwCallbackEnumerateInstances` request will be identical to the implementation for a `PcwCallbackCollectData`. The callback may optionally optimize data collection by omitting the actual counter data in the call to `PcwAddInstance`.
+In most cases, the callback implementation for a `PcwCallbackEnumerateInstances` request will be identical to the implementation for a `PcwCallbackCollectData`. The callback may optionally optimize data collection by omitting the actual counter data in the call to `PcwAddInstance` (i.e. by passing 0 and NULL for the `Count` and `Data` parameters).
 
-A typical callback implementation would be structured as follows:
+A callback implementation could be structured as follows:
 
-```
+```C
 NTSTATUS NTAPI
 MyProviderCallback(
     _In_ PCW_CALLBACK_TYPE Type,
@@ -135,7 +135,7 @@ MyProviderCallback(
         //     continue;
         // }
 
-        // Note that in most cases, you'll use a CTRPP-generated wrapper instead of directly
+        // Note that in most cases, you'll use a CTRPP-generated Add wrapper instead of directly
         // calling PcwAddInstance.
         Status = PcwAddInstance(MaskInfo->Buffer,
                                 &Instance->Name,
@@ -153,11 +153,11 @@ MyProviderCallback(
 
 ### - example
 
-Most counterset providers use <a href="https://docs.microsoft.com/windows/win32/perfctrs/ctrpp">`CTRPP.exe`</a> to process their counterset manifest and generate helper functions, including functions wrapping `PcwRegister` (CTRPP generates the counter descriptors) and `PcwAddInstance` (CTRPP generates code for wrapping the provider's data structures into the format required by `PcwAddInstance`).
+Most counterset providers use the [CTRPP](https://docs.microsoft.com/windows/win32/perfctrs/ctrpp) tool to process their counterset manifest and generate helper functions, including functions wrapping `PcwRegister` (CTRPP generates the counter descriptors) and `PcwAddInstance` (CTRPP generates code for wrapping the provider's data structures into the format required by `PcwAddInstance`).
 
-For reference in this example, the following is the registration code generated by CTRPP for the `KCS.man` manifest from the KCS sample.
+For reference in this example, the following is the CTRPP-generated Register function for the `KCS.man` manifest from the KCS sample.
 
-```
+```C
 EXTERN_C FORCEINLINE NTSTATUS
 KcsRegisterGeometricWave(
     __in_opt PPCW_CALLBACK Callback,
@@ -188,11 +188,12 @@ KcsRegisterGeometricWave(
 
 The counterset provider implements the `PCW_CALLBACK` function to handle consumer requests. The following code example shows a `PCW_CALLBACK` function named `KcsGeometricWaveCallback` that enumerates and collects simulated data. (Note that `KcsAddGeometricWave` is a CTRPP-generated helper function that calls `PcwAddInstance`.)
 
-```
+```C
 NTSTATUS
 KcsAddGeometricInstance (
     _In_ PPCW_BUFFER Buffer,
     _In_ PCWSTR Name,
+    _In_ ULONG Id,
     _In_ ULONG MinimalValue,
     _In_ ULONG Amplitude
     )
@@ -213,7 +214,7 @@ KcsAddGeometricInstance (
 
     RtlInitUnicodeString(&UnicodeName, Name);
 
-    return KcsAddGeometricWave(Buffer, &UnicodeName, 0, &Values);
+    return KcsAddGeometricWave(Buffer, &UnicodeName, Id, &Values);
 }
 
 NTSTATUS NTAPI
@@ -249,7 +250,7 @@ KcsGeometricWaveCallback (
         RtlInitUnicodeString(&UnicodeName, L"Medium Wave");
         Status = KcsAddGeometricWave(Info->EnumerateInstances.Buffer,
                                      &UnicodeName,
-                                     0,
+                                     1,
                                      NULL);
         if (!NT_SUCCESS(Status)) {
             return Status;
@@ -258,7 +259,7 @@ KcsGeometricWaveCallback (
         RtlInitUnicodeString(&UnicodeName, L"Large Wave");
         Status = KcsAddGeometricWave(Info->EnumerateInstances.Buffer,
                                      &UnicodeName,
-                                     0,
+                                     2,
                                      NULL);
         if (!NT_SUCCESS(Status)) {
             return Status;
@@ -274,6 +275,7 @@ KcsGeometricWaveCallback (
 
         Status = KcsAddGeometricInstance(Info->CollectData.Buffer,
                                          L"Small Wave",
+                                         0,
                                          40,
                                          20);
         if (!NT_SUCCESS(Status)) {
@@ -282,6 +284,7 @@ KcsGeometricWaveCallback (
 
         Status = KcsAddGeometricInstance(Info->CollectData.Buffer,
                                          L"Medium Wave",
+                                         1,
                                          30,
                                          40);
         if (!NT_SUCCESS(Status)) {
@@ -290,6 +293,7 @@ KcsGeometricWaveCallback (
 
         Status = KcsAddGeometricInstance(Info->CollectData.Buffer,
                                          L"Large Wave",
+                                         2,
                                          20,
                                          60);
         if (!NT_SUCCESS(Status)) {
@@ -305,7 +309,7 @@ KcsGeometricWaveCallback (
 
 In the `DriverEntry` routine of the KCS sample, the `KcsGeometricWaveCallback` function is specified as the `Callback` when `KcsRegisterGeometricWave` registers the counter set.
 
-```
+```C
     //
     // Register Countersets during DriverEntry. (TODO: Unregister at driver unload.)
     //
@@ -318,14 +322,16 @@ In the `DriverEntry` routine of the KCS sample, the `KcsGeometricWaveCallback` f
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pcwregister">PcwRegister</a>
+[PcwRegister function](nf-wdm-pcwregister.md)
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pcwaddinstance">PcwAddInstance</a>
+[PcwAddInstance function](nf-wdm-pcwaddinstance.md)
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_pcw_callback_type">PCW_CALLBACK_TYPE</a>
+[PcwCreateInstance function](nf-wdm-pcwcreateinstance.md)
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_pcw_callback_information">PCW_CALLBACK_INFORMATION</a>
+[\_PCW\_CALLBACK\_TYPE enumeration](ne-wdm-_pcw_callback_type.md)
 
-<a href="https://docs.microsoft.com/windows/win32/perfctrs/ctrpp">CTRPP.exe</a>
+[\_PCW\_CALLBACK\_INFORMATION structure](ns-wdm-_pcw_callback_information.md)
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=144623">Performance Counter Library (PERFLIB)</a>
+[CTRPP](https://docs.microsoft.com/windows/win32/perfctrs/ctrpp)
+
+[Performance Counter Library (PERFLIB version 2.0)](https://go.microsoft.com/fwlink/p/?linkid=144623)
