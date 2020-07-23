@@ -124,6 +124,8 @@ InitRegistrationInformationMyCounterset(Callback, CallbackContext, &RegInfo);
 Status = PcwRegister(&MyCounterset, &RegInfo);
 ```
 
+The CTRPP-generated InitRegistrationInformation\*\*\* function initializes the `RegInfo` structure based on declarations from the manifest. For more information about the generated InitRegistrationInformation function, refer to the documentation for [PCW\_REGISTRATION\_INFORMATION](ns-wdm-_pcw_registration_information.md).
+
 If using your own handle variables instead of `MyCounterset` to store the handle, you may also need to call `PcwUnregister` and `PcwCreateInstance` directly instead of using the CTRPP-generated `Unregister***` and `Create***` functions.
 
 ## -see-also

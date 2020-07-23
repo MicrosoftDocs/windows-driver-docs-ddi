@@ -56,7 +56,7 @@ A numeric value that specifies the id of the counter described by this structure
 
 ### -field StructIndex
 
-A numeric value that specifies an index into the array of [PCW_DATA](ns-wdm-_pcw_data.md) structures. In subsequent calls to `PcwCreateInstance` or `PcwAddInstance`, the data block described by `PcwData[PcwCounterDescriptor->StructIndex]` will be used as the source of data for the counter with id `PcwCounterDescriptor->Id`.
+A numeric value that specifies an index into an array of [PCW_DATA](ns-wdm-_pcw_data.md) structures. In subsequent calls to `PcwCreateInstance` or `PcwAddInstance`, the data block described by `PcwData[PcwCounterDescriptor->StructIndex]` will be used as the source of data for the counter with id `PcwCounterDescriptor->Id`.
 
 ### -field Offset
 

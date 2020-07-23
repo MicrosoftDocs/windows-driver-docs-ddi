@@ -62,7 +62,7 @@ A pointer to the counterset registration that owns this instance. The registrati
 
 A pointer to the Unicode string that contains the name of the instance of the counterset.
 
-Instance `Name` values MUST be stable over time (the same logical instance should use the same `Name` value for all invocations of the callback) and MUST be unique. If the counterset supports multiple instances, the instance `Name` should not be blank. Instance name matching is not case-sensitive, so `Name` values should not differ only by case. (Uniqueness is not verified or enforced by Windows, but non-unique instance names will cause problems for consumers of the counterset.)
+Instance `Name` values MUST be stable over time (the same logical instance should use the same `Name` value for all invocations of the callback) and MUST be unique. If the counterset supports multiple instances, the instance `Name` should not be blank. Instance name matching is not case-sensitive, so `Name` values should not differ only by case.
 
 ### -param Count [in]
 

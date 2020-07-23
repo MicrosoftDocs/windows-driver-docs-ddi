@@ -46,7 +46,7 @@ req.typenames: PCW_MASK_INFORMATION, *PPCW_MASK_INFORMATION
 
 ## -description
 
-The `PCW_MASK_INFORMATION` structure is a member of the [_PCW_CALLBACK_INFORMATION](ns-wdm-_pcw_callback_information.md) union, which contains details of a notification sent by the system to a provider-defined [PCW_CALLBACK](nc-wdm-pcw_callback.md) function.
+The `PCW_MASK_INFORMATION` structure is the type of the `EnumerateInstances` and `CollectData` members of the [_PCW_CALLBACK_INFORMATION](ns-wdm-_pcw_callback_information.md) union, which contains details of a notification sent by the system to a provider-defined [PCW_CALLBACK](nc-wdm-pcw_callback.md) function.
 
 ## -struct-fields
 

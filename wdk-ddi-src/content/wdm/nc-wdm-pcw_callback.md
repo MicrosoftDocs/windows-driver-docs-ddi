@@ -46,7 +46,7 @@ req.typenames:
 
 ## -description
 
-Providers can optionally implement a `PCW_CALLBACK` function to receive notification when consumers make requests such as enumerating instances or collecting counterset data. The [Performance Counter Library (PERFLIB version 2.0)](https://go.microsoft.com/fwlink/p/?linkid=144623) calls the `PCW_CALLBACK` function before the consumer's request completes.
+Providers can optionally implement a `PCW_CALLBACK` function to receive notifications when consumers make requests such as enumerating instances or collecting counterset data. The [Performance Counter Library (PERFLIB version 2.0)](https://go.microsoft.com/fwlink/p/?linkid=144623) calls the `PCW_CALLBACK` function before the consumer's request completes.
 
 ## -parameters
 
@@ -56,7 +56,7 @@ A [PCW\_CALLBACK\_TYPE](ne-wdm-_pcw_callback_type.md) enumeration value indicati
 
 ### -param Info [in]
 
-A pointer to a [PCW\_CALLBACK\_INFORMATION](ns-wdm-_pcw_callback_information.md) union that supplies details about why the provider callback was invoked. The details will be in the union member corresponding to the `Type` parameter. For example, if `Type == PcwCallbackEnumerateInstances` then the details will be in `Info->EnumerateInstances`.
+A pointer to a [PCW\_CALLBACK\_INFORMATION](ns-wdm-_pcw_callback_information.md) union that supplies details about why the provider callback was invoked. The details will be in the field corresponding to the `Type` parameter. For example, if `Type == PcwCallbackEnumerateInstances` then the details will be in `Info->EnumerateInstances`.
 
 ### -param Context [in, optional]
 
@@ -71,7 +71,7 @@ The `PCW_CALLBACK` callback function should return `STATUS_SUCCESS` if the callb
 Counterset providers can supply information to the consumer through two different systems:
 
 - The provider can use `PcwCreateInstance` and `PcwCloseInstance` to maintain a list of available instances and the corresponding counter data. This system is simple to implement but limited in flexibility. When using this system, the provider does not need to supply a callback function. For more information on this system, refer to the documentation for [PcwCreateInstance](nf-wdm-pcwcreateinstance.md).
-- The provider can supply a `PCW_CALLBACK` function that will be invoked by the Performance Counter Library as needed to collect data. This page explains the expected behavior of the callback function.
+- The provider can supply a `PCW_CALLBACK` function that will be invoked by the Performance Counter Library as needed to collect data.
 
 The callback implementation must be thread-safe. Multiple different consumers might simultaneously request data from the provider on multiple different threads.
 
@@ -80,13 +80,13 @@ The callback must handle the `PcwCallbackEnumerateInstances` and `PcwCallbackCol
 The callback is responsible for generating `Name` and `Id` values for the counterset instances.
 
 - Instance `Id` values MUST be stable over time (the same logical instance should use the same `Id` value for all invocations of the callback), should be unique (e.g. do not simply use 0 for all instances), and should be less than 0xFFFFFFFE (do not use `PCW_ANY_INSTANCE_ID` for any instances). Ideally, the instance `Id` should be meaningful (e.g. a Process counterset might use a PID as the `Id`) instead of arbitrary (e.g. a sequence number).
-- Instance `Name` values MUST be stable over time (the same logical instance should use the same `Name` value for all invocations of the callback) and MUST be unique. If the counterset supports multiple instances, the instance `Name` should not be blank. String matching is done using a case-insensitive comparison, so `Name` values should not differ only by case. (Uniqueness is not verified or enforced by Windows, but non-unique instance names will cause problems for consumers of the counterset.)
+- Instance `Name` values MUST be stable over time (the same logical instance should use the same `Name` value for all invocations of the callback) and MUST be unique. If the counterset supports multiple instances, the instance `Name` should not be blank. String matching is done using a case-insensitive comparison, so `Name` values should not differ only by case.
 
 When handling `PcwCallbackCollectData` requests, a basic callback implementation will simply invoke [PcwAddInstance](nf-wdm-pcwaddinstance.md) (or the CTRPP-generated Add function, which invokes `PcwAddInstance`) once for each counterset instance. The following optimizations may be used in more advanced implementations as needed:
 
 - If `Info->CollectData.CounterMask != (UINT64)-1` then the consumer does not need all of the counters in the counterset, so the callback may optimize data collection by leaving the corresponding values as 0 in the data block provided to `PcwAddInstance`.
 - If `Info->CollectData.InstanceId != PCW_ANY_INSTANCE_ID` then the consumer only wants data about instances with an `InstanceId` equal to `CollectData.InstanceId`. The callback may optimize data collection by skipping the call to `PcwAddInstance` for instances with non-matching `InstanceId`.
-- If `Info->CollectData.InstanceMask != "*"` then the consumer only wants data about instances with an `InstanceName` that matches the wildcard pattern of `CollectData.InstanceMask`. The callback may optimize data collection by skipping the call to `PcwAddInstance` for instances with non-matching `InstanceName`. (Note that wildcard matching is hard to implement correctly, so this optimization is recommended only when instance data collection is very expensive.)
+- If `Info->CollectData.InstanceMask != "*"` then the consumer only wants data about instances with an `InstanceName` that matches the wildcard pattern of `CollectData.InstanceMask`. The callback may optimize data collection by skipping the call to `PcwAddInstance` for instances with non-matching `InstanceName`. Wildcard matching is hard to implement correctly, so this optimization is recommended only when instance data collection is very expensive.
 
 In most cases, the callback implementation for a `PcwCallbackEnumerateInstances` request will be identical to the implementation for a `PcwCallbackCollectData`. The callback may optionally optimize data collection by omitting the actual counter data in the call to `PcwAddInstance` (i.e. by passing 0 and NULL for the `Count` and `Data` parameters).
 
