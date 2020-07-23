@@ -52,25 +52,25 @@ The `PCW_COUNTER_DESCRIPTOR` structure is used to provide information about a co
 
 ### -field Id
 
-A numeric value that specifies the id of the counter described by this structure. This should match the value provided in the `id` field of a [counter](/windows/win32/perfctrs/performance-counters-counter-complex-type) element in the provider's counterset manifest.
+A numeric value that specifies the ID of the counter described by this structure. This should match the value provided in the `id` field of a [counter](/windows/win32/perfctrs/performance-counters-counter-complex-type) element in the provider's counterset manifest.
 
 ### -field StructIndex
 
-A numeric value that specifies an index into an array of [PCW\_DATA](ns-wdm-_pcw_data.md) structures. In subsequent calls to `PcwCreateInstance` or `PcwAddInstance`, the data block described by `PcwData[PcwCounterDescriptor->StructIndex]` will be used as the source of data for the counter with id `PcwCounterDescriptor->Id`.
+A numeric value that specifies an index into an array of [PCW\_DATA](ns-wdm-_pcw_data.md) structures. In subsequent calls to `PcwCreateInstance` or `PcwAddInstance`, the data block described by `PcwData[PcwCounterDescriptor->StructIndex]` will be used as the source of data for the counter with ID `PcwCounterDescriptor->Id`.
 
 ### -field Offset
 
-A numeric value that specifies an offset (in bytes) relative to the data block indicated by the `StructIndex` field. In subsequent calls to `PcwCreateInstance` or `PcwAddInstance`, the address `PcwData[PcwCounterDescriptor->StructIndex].Data + PcwCounterDescriptor->Offset` will be used as the start of the value for the counter with id `CounterDescriptor->Id`.
+A numeric value that specifies an offset (in bytes) relative to the data block indicated by the `StructIndex` field. In subsequent calls to `PcwCreateInstance` or `PcwAddInstance`, the address `PcwData[PcwCounterDescriptor->StructIndex].Data + PcwCounterDescriptor->Offset` will be used as the start of the value for the counter with ID `CounterDescriptor->Id`.
 
 ### -field Size
 
-A numeric value that specifies the size, in bytes, of the value for the counter with id `CounterDescriptor->Id`. The `Size` field should be set to 4 (for a `UINT32` counter value) or 8 (for a `UINT64` counter value).
+A numeric value that specifies the size, in bytes, of the value for the counter with ID `CounterDescriptor->Id`. The `Size` field should be set to 4 (for a `UINT32` counter value) or 8 (for a `UINT64` counter value).
 
 ## -remarks
 
 Most developers do not need to use this structure directly. The `CTRPP` tool generates registration code that initializes `PCW_COUNTER_DESCRIPTOR` structures based on the content of the provider manifest.
 
-An array of `PCW_COUNTER_DESCRIPTOR` structures is provided during counterset registration (via the [PCW\_REGISTRATION\_INFORMATION](ns-wdm-_pcw_registration_information.md) structure passed to `PcwRegister`). The information from the array is recorded and will be used by `PcwCreateInstance` or `PcwAddInstance` to extract counter values from the structures described by a `PCW_DATA` array.
+An array of `PCW_COUNTER_DESCRIPTOR` structures is provided during counterset registration (via the [PCW\_REGISTRATION\_INFORMATION](ns-wdm-_pcw_registration_information.md) structure passed to `PcwRegister`). The information from the array is recorded and will be used by `PcwCreateInstance` or `PcwAddInstance` to extract counter values from the data blocks described by a `PCW_DATA` array.
 
 ## -see-also
 

@@ -46,13 +46,13 @@ req.typenames:
 
 ## -description
 
-Providers can optionally implement a `PCW_CALLBACK` function to receive notifications when consumers make requests such as enumerating instances or collecting counterset data. The [Performance Counter Library (PERFLIB version 2.0)](https://go.microsoft.com/fwlink/p/?linkid=144623) calls the `PCW_CALLBACK` function before the consumer's request completes.
+Providers can optionally implement a `PCW_CALLBACK` function to receive notifications when consumers make requests such as enumerating instances or collecting counterset data. The [Performance Counter Library (PERFLIB version 2.0)](https://go.microsoft.com/fwlink/p/?linkid=144623) calls the `PCW_CALLBACK` function before completing the consumer's request.
 
 ## -parameters
 
 ### -param Type [in]
 
-A [PCW\_CALLBACK\_TYPE](ne-wdm-_pcw_callback_type.md) enumeration value indicating why the callback is invoked. Possible values are `PcwCallbackAddCounter`, `PcwCallbackRemoveCounter`, `PcwCallbackEnumerateInstances`, and `PcwCallbackCollectData`.
+A [PCW\_CALLBACK\_TYPE](ne-wdm-_pcw_callback_type.md) enumeration value indicating why the callback was invoked. Possible values are `PcwCallbackAddCounter`, `PcwCallbackRemoveCounter`, `PcwCallbackEnumerateInstances`, and `PcwCallbackCollectData`.
 
 ### -param Info [in]
 
@@ -73,18 +73,18 @@ Counterset providers can supply information to the consumer through two differen
 - The provider can use `PcwCreateInstance` and `PcwCloseInstance` to maintain a list of available instances and the corresponding counter data. This system is simple to implement but limited in flexibility. When using this system, the provider does not need to supply a callback function. For more information on this system, refer to the documentation for [PcwCreateInstance](nf-wdm-pcwcreateinstance.md).
 - The provider can supply a `PCW_CALLBACK` function that will be invoked by the Performance Counter Library as needed to collect data.
 
-The callback implementation must be thread-safe. Multiple different consumers might simultaneously request data from the provider on multiple different threads.
+The callback implementation must be thread-safe. Multiple different consumers might simultaneously request data from the provider on different threads.
 
-The callback must handle the `PcwCallbackEnumerateInstances` and `PcwCallbackCollectData` request types. The callback usually does not need to handle other request types, but in complex scenarios the callback might also handle `PcwCallbackAddCounter` and `PcwCallbackRemoveCounter` to optimize data collection (i.e. to disable tracking of statistics only when no queries are open).
+The callback must handle the `PcwCallbackEnumerateInstances` and `PcwCallbackCollectData` request types. The callback usually does not need to handle other request types, but in complex scenarios the callback might also handle `PcwCallbackAddCounter` and `PcwCallbackRemoveCounter` to optimize data collection (i.e. to disable statistics tracking when no queries are active).
 
 The callback is responsible for generating `Name` and `Id` values for the counterset instances.
 
-- Instance `Id` values MUST be stable over time (the same logical instance should use the same `Id` value for all invocations of the callback), should be unique (e.g. do not simply use 0 for all instances), and should be less than 0xFFFFFFFE (do not use `PCW_ANY_INSTANCE_ID` for any instances). Ideally, the instance `Id` should be meaningful (e.g. a Process counterset might use a PID as the `Id`) instead of arbitrary (e.g. a sequence number).
+- Instance `Id` values MUST be stable over time (the same logical instance should use the same `Id` value for all invocations of the callback), should be unique (e.g. do not simply use 0 for all instances), and should be less than 0xFFFFFFFE (do not use `PCW_ANY_INSTANCE_ID`). When possible, the instance `Id` should be meaningful (e.g. a Process counterset might use a PID as the `Id`) instead of arbitrary (e.g. a sequence number).
 - Instance `Name` values MUST be stable over time (the same logical instance should use the same `Name` value for all invocations of the callback) and MUST be unique. If the counterset supports multiple instances, the instance `Name` should not be blank. String matching is done using a case-insensitive comparison, so `Name` values should not differ only by case.
 
-When handling `PcwCallbackCollectData` requests, a basic callback implementation will simply invoke [PcwAddInstance](nf-wdm-pcwaddinstance.md) (or the CTRPP-generated Add function, which invokes `PcwAddInstance`) once for each counterset instance. The following optimizations may be used in more advanced implementations as needed:
+When handling `PcwCallbackCollectData` requests, a basic callback implementation will simply invoke [PcwAddInstance](nf-wdm-pcwaddinstance.md) (or the CTRPP-generated Add\*\*\*) once for each counterset instance. The following optimizations may be used in more advanced implementations when necessary:
 
-- If `Info->CollectData.CounterMask != (UINT64)-1` then the consumer does not need all of the counters in the counterset, so the callback may optimize data collection by leaving the corresponding values as 0 in the data block provided to `PcwAddInstance`.
+- If `Info->CollectData.CounterMask != (UINT64)-1` then the consumer does not need all of the counters in the counterset. In this case, the callback may optimize data collection by leaving the corresponding values as 0 in the counter data block.
 - If `Info->CollectData.InstanceId != PCW_ANY_INSTANCE_ID` then the consumer only wants data about instances with an `InstanceId` equal to `CollectData.InstanceId`. The callback may optimize data collection by skipping the call to `PcwAddInstance` for instances with non-matching `InstanceId`.
 - If `Info->CollectData.InstanceMask != "*"` then the consumer only wants data about instances with an `InstanceName` that matches the wildcard pattern of `CollectData.InstanceMask`. The callback may optimize data collection by skipping the call to `PcwAddInstance` for instances with non-matching `InstanceName`. Wildcard matching is hard to implement correctly, so this optimization is recommended only when instance data collection is very expensive.
 

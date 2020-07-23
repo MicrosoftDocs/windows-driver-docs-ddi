@@ -46,7 +46,7 @@ req.typenames: PCW_REGISTRATION_INFORMATION, *PPCW_REGISTRATION_INFORMATION
 
 ## -description
 
-The `PCW_REGISTRATION_INFORMATION` structure supplies details about the provider and the counter set. Most developers will use a [CTRPP](/windows/win32/perfctrs/ctrpp)-generated Register\*\*\* or InitRegistrationInformation\*\*\* functions instead of using this structure directly.
+The `PCW_REGISTRATION_INFORMATION` structure supplies details about the provider and the counter set. Most developers will use the [CTRPP](/windows/win32/perfctrs/ctrpp)-generated Register\*\*\* or InitRegistrationInformation\*\*\* functions instead of using this structure directly.
 
 ## -struct-fields
 
@@ -63,7 +63,7 @@ By default (i.e. when using the CTRPP-generated Register\*\*\* or InitRegistrati
 |`NTDDI_VERSION <  NTDDI_WIN10_FE`|PCW\_VERSION\_1 (0x0100)
 |`NTDDI_VERSION >= NTDDI_WIN10_FE`|PCW\_VERSION\_2 (0x0200)
 
-If your code builds with `NTDDI_VERSION >= NTDDI_WIN10_FE` but needs to run on an earlier version of Windows, you will need to override this behavior as described in the documentation for [PcwRegister](nf-wdm-pcwregister.md).
+If your code builds with `NTDDI_VERSION >= NTDDI_WIN10_FE` but needs to run on an earlier version of Windows, you will need to set `Version = PCW_VERSION_1` as described in the documentation for [PcwRegister](nf-wdm-pcwregister.md).
 
 ### -field Name
 
@@ -77,7 +77,7 @@ The number of descriptors provided in the `Counters` parameter.
 
 ### -field Counters
 
-An array of descriptors for the counters of this counterset. The information from the descriptors used when extracting counter values from data blocks provided by calls to `PcwCreateInstance` or `PcwAddInstance`.
+An array of descriptors for the counters of this counterset. The information from the descriptors will be used when extracting counter values from data blocks provided by calls to `PcwCreateInstance` or `PcwAddInstance`.
 
 ### -field Callback
 
@@ -147,7 +147,7 @@ InitRegistrationInformationMyCounterset(
 
 The CTRPP-generated InitRegistrationInformation function will be named *Prefix*InitRegistrationInformation*Counterset*. *Prefix* is usually blank, but may be present if the `-prefix` parameter was used on the CTRPP command-line. *Counterset* is the name of the counterset, as specified in the manifest. The generated InitRegistrationInformation function will initialize the provided `PCW_REGISTRATION_INFORMATION` structure with values from the function parameters and the manifest.
 
-The CTRPP-generated InitRegistrationInformation function can optionally verify that the size of the structure members matches the sizes declared in the manifest. By default, `CTRPP_VERIFY_COUNTER_SIZES` is set to 0, disabling this check. To enable this check, `#define CTRPP_VERIFY_COUNTER_SIZES 1` before including the CTRPP-generated header.
+The CTRPP-generated InitRegistrationInformation function can optionally verify that the sizes of the structure members match the sizes declared in the manifest. By default, `CTRPP_VERIFY_COUNTER_SIZES` is set to 0, disabling this check. To enable this check, `#define CTRPP_VERIFY_COUNTER_SIZES 1` before including the CTRPP-generated header.
 
 ## -see-also
 

@@ -70,7 +70,7 @@ The number of descriptors provided in the `Data` parameter.
 
 ### -param Data [in]
 
-An array of descriptors for the provider data blocks that contain the counter values of this instance. This array may be accessed at any time and must remain valid until the instance is closed by `PcwCloseInstance` or `PcwUnregister`.
+An array of descriptors for the provider data blocks that contain the counter values of this instance. The data blocks referenced by the descriptors may be accessed at any time and must remain valid until the instance is closed by `PcwCloseInstance` or `PcwUnregister`.
 
 ## -returns
 

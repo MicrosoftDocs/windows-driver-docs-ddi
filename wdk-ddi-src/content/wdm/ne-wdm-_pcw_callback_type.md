@@ -54,13 +54,13 @@ The `PCW_CALLBACK_TYPE` enumeration defines the type of the notification sent by
 
 The system invokes the provider's callback with this `Type` value to notify the provider that a consumer has added an instance filter to a query involving this counterset.
 
-Most providers will ignore notifications with this `Type`, but some might use this notification to optimize their data collection. For example, a provider might InterlockedIncrement a global counter for each AddCounter notification and only track performance data when the global counter is non-zero.
+Most providers will ignore notifications with this `Type`, but some might use this notification to optimize their data collection. For example, a provider might `InterlockedIncrement` a global counter for each AddCounter notification and only track performance data when the global counter is non-zero.
 
 ### -field PcwCallbackRemoveCounter
 
 The system invokes the provider's callback with this `Type` value to notify the provider that a consumer has removed an instance filter from a query involving this counterset.
 
-Most providers will ignore notifications with this `Type`, but some might use this notification to optimize their data collection. For example, a provider might InterlockedDecrement a global counter for each RemoveCounter notification and only track performance data when the global counter is non-zero.
+Most providers will ignore notifications with this `Type`, but some might use this notification to optimize their data collection. For example, a provider might `InterlockedDecrement` a global counter for each RemoveCounter notification and only track performance data when the global counter is non-zero.
 
 ### -field PcwCallbackEnumerateInstances
 
