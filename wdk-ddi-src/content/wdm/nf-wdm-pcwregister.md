@@ -46,13 +46,13 @@ req.typenames:
 
 ## -description
 
-The `PcwRegister` function creates a new counterset registration. Most developers will use a [CTRPP](https://docs.microsoft.com/windows/win32/perfctrs/ctrpp)-generated Register\*\*\* function instead of calling this function directly.
+The `PcwRegister` function creates a new counterset registration. Most developers will use a [CTRPP](/windows/win32/perfctrs/ctrpp)-generated Register\*\*\* function instead of calling this function directly.
 
 ## -parameters
 
 ### -param Registration [out]
 
-A pointer to a PPCW_REGISTRATION. Receives the handle to the new registration. The registration should be closed using [PcwUnregister](nf-wdm-pcwunregister.md).
+A pointer to a PPCW\_REGISTRATION. Receives the handle to the new registration. The registration should be closed using [PcwUnregister](nf-wdm-pcwunregister.md).
 
 ### -param Info [in]
 
@@ -132,4 +132,4 @@ If using your own handle variables instead of `MyCounterset` to store the handle
 
 [PcwUnregister function](nf-wdm-pcwunregister.md)
 
-[_PCW_REGISTRATION_INFORMATION structure](ns-wdm-_pcw_registration_information.md)
+[\_PCW\_REGISTRATION\_INFORMATION structure](ns-wdm-_pcw_registration_information.md)

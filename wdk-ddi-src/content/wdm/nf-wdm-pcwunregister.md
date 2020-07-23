@@ -46,7 +46,7 @@ req.typenames:
 
 ## -description
 
-The `PcwUnregister` function closes the specified counterset registration. Most developers will use a [CTRPP](https://docs.microsoft.com/windows/win32/perfctrs/ctrpp)-generated Unregister\*\*\* function instead of calling this function directly.
+The `PcwUnregister` function closes the specified counterset registration. Most developers will use a [CTRPP](/windows/win32/perfctrs/ctrpp)-generated Unregister\*\*\* function instead of calling this function directly.
 
 ## -parameters
 

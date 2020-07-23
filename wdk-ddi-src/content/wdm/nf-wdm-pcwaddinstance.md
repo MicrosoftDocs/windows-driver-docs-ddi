@@ -46,7 +46,7 @@ req.typenames:
 
 ## -description
 
-The `PcwAddInstance` function adds the specified instance of the counter set to the consumer buffer. Most developers will use a [CTRPP](https://docs.microsoft.com/windows/win32/perfctrs/ctrpp)-generated Add\*\*\* function instead of calling this function directly.
+The `PcwAddInstance` function adds the specified instance of the counter set to the consumer buffer. Most developers will use a [CTRPP](/windows/win32/perfctrs/ctrpp)-generated Add\*\*\* function instead of calling this function directly.
 
 ## -parameters
 

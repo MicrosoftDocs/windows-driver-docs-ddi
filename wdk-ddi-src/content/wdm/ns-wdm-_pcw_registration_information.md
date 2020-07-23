@@ -42,11 +42,11 @@ targetos: Windows
 req.typenames: PCW_REGISTRATION_INFORMATION, *PPCW_REGISTRATION_INFORMATION
 ---
 
-# _PCW_REGISTRATION_INFORMATION structure
+# \_PCW\_REGISTRATION\_INFORMATION structure
 
 ## -description
 
-The `PCW_REGISTRATION_INFORMATION` structure supplies details about the provider and the counter set. Most developers will use a [CTRPP](https://docs.microsoft.com/windows/win32/perfctrs/ctrpp)-generated Register\*\*\* or InitRegistrationInformation\*\*\* functions instead of using this structure directly.
+The `PCW_REGISTRATION_INFORMATION` structure supplies details about the provider and the counter set. Most developers will use a [CTRPP](/windows/win32/perfctrs/ctrpp)-generated Register\*\*\* or InitRegistrationInformation\*\*\* functions instead of using this structure directly.
 
 ## -struct-fields
 
@@ -81,7 +81,7 @@ An array of descriptors for the counters of this counterset. The information fro
 
 ### -field Callback
 
-A pointer to the optional [PCW_CALLBACK](nc-wdm-pcw_callback.md) callback function that notifies the provider about events related to this counter set. This field may be NULL if the callback is not needed (i.e. if the counterset instances will be managed via `PcwCreateInstance` and `PcwCloseInstance`).
+A pointer to the optional [PCW\_CALLBACK](nc-wdm-pcw_callback.md) callback function that notifies the provider about events related to this counter set. This field may be NULL if the callback is not needed (i.e. if the counterset instances will be managed via `PcwCreateInstance` and `PcwCloseInstance`).
 
 ### -field CallbackContext
 
@@ -151,10 +151,10 @@ The CTRPP-generated InitRegistrationInformation function can optionally verify t
 
 ## -see-also
 
-[_PCW_COUNTER_DESCRIPTOR structure](ns-wdm-_pcw_counter_descriptor.md)
+[\_PCW\_COUNTER\_DESCRIPTOR structure](ns-wdm-_pcw_counter_descriptor.md)
 
-[PCW_CALLBACK callback function](nc-wdm-pcw_callback.md)
+[PCW\_CALLBACK callback function](nc-wdm-pcw_callback.md)
 
 [PcwRegister function](nf-wdm-pcwregister.md)
 
-[CTRPP](https://docs.microsoft.com/windows/win32/perfctrs/ctrpp)
+[CTRPP](/windows/win32/perfctrs/ctrpp)
