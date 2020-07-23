@@ -37,8 +37,6 @@ api_location:
 - Hid.dll
 api_name:
 - HidD_GetPhysicalDescriptor
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

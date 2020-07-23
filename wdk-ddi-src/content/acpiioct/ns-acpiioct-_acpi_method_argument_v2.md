@@ -37,8 +37,6 @@ api_location:
 - Acpiioct.h
 api_name:
 - ACPI_METHOD_ARGUMENT_V2
-product:
-- Windows
 targetos: Windows
 req.typenames: ACPI_METHOD_ARGUMENT_V2
 ---

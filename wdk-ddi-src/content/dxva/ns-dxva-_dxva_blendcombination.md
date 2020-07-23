@@ -37,8 +37,6 @@ api_location:
 - dxva.h
 api_name:
 - DXVA_BlendCombination
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVA_BlendCombination, *LPDXVA_BlendCombination
 ---

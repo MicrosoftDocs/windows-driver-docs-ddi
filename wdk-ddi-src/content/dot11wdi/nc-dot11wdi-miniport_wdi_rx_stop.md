@@ -37,8 +37,6 @@ api_location:
 - dot11wdi.h
 api_name:
 - MiniportWdiRxStop
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - arrayofelements.hpp
 api_name:
 - ExtRemoteTyped.operator=
-product:
-- Windows
 targetos: Windows
 req.typenames: SDEV_SECURE_ACPI_INFO_ENTRY, *PSDEV_SECURE_ACPI_INFO_ENTRY
 ---

@@ -37,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KSPROPERTY_DESCRIPTION
-product:
-- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_DESCRIPTION, *PKSPROPERTY_DESCRIPTION
 ---

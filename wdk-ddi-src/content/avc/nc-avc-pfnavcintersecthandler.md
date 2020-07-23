@@ -37,8 +37,6 @@ api_location:
 - avc.h
 api_name:
 - PFNAVCINTERSECTHANDLER
-product:
-- Windows
 targetos: Windows
 req.typenames: KBUGCHECK_DATA, *PKBUGCHECK_DATA
 ---

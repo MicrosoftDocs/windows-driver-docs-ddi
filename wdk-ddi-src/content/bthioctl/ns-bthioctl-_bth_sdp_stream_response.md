@@ -37,8 +37,6 @@ api_location:
 - bthioctl.h
 api_name:
 - BTH_SDP_STREAM_RESPONSE
-product:
-- Windows
 targetos: Windows
 req.typenames: BTH_SDP_STREAM_RESPONSE, *PBTH_SDP_STREAM_RESPONSE
 ---

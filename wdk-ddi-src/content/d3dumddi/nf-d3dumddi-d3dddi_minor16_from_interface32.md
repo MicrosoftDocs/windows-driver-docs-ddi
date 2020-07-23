@@ -34,8 +34,6 @@ api_location:
 - d3dumddi.h
 api_name: 
 - D3DDDI_MINOR16_FROM_INTERFACE32
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

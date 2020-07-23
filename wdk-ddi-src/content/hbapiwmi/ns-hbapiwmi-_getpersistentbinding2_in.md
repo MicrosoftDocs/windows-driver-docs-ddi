@@ -37,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - GetPersistentBinding2_IN
-product:
-- Windows
 targetos: Windows
 req.typenames: GetPersistentBinding2_IN, *PGetPersistentBinding2_IN
 ---

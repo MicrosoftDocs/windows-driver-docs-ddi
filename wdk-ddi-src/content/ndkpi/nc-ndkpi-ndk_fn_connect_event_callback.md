@@ -37,8 +37,6 @@ api_location:
 - ndkpi.h
 api_name:
 - NdkConnectEventCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

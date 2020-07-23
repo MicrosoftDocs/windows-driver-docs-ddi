@@ -37,8 +37,6 @@ api_location:
 - ntddscsi.h
 api_name:
 - IO_SCSI_CAPABILITIES
-product:
-- Windows
 targetos: Windows
 req.typenames: IO_SCSI_CAPABILITIES, *PIO_SCSI_CAPABILITIES
 ---

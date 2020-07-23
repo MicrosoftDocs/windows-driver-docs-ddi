@@ -37,8 +37,6 @@ api_location:
 - iscsiop.h
 api_name:
 - DeleteInitiatorNodeName_IN
-product:
-- Windows
 targetos: Windows
 req.typenames: DeleteInitiatorNodeName_IN, *PDeleteInitiatorNodeName_IN
 ---

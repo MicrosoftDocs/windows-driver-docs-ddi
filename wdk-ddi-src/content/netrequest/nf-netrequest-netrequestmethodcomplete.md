@@ -38,8 +38,6 @@ api_location:
 api_name: 
 - NetRequestMethodComplete
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetRequestMethodComplete function

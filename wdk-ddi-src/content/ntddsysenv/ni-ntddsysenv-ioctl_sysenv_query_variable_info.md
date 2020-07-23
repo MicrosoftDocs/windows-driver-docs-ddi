@@ -37,8 +37,6 @@ api_location:
 - Ntddsysenv.h
 api_name:
 - IOCTL_SYSENV_QUERY_VARIABLE_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

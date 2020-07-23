@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KSDATAFORMAT_DSOUND
-product:
-- Windows
 targetos: Windows
 req.typenames: KSDATAFORMAT_DSOUND, *PKSDATAFORMAT_DSOUND
 ---

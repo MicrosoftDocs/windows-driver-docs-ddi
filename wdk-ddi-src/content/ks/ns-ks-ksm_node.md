@@ -37,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KSM_NODE
-product:
-- Windows
 targetos: Windows
 req.typenames: KSM_NODE, *PKSM_NODE
 ---

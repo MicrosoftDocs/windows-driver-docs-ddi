@@ -40,8 +40,6 @@ api_name:
 - IDebugDataSpaces2.ReadVirtual
 - IDebugDataSpaces3.ReadVirtual
 - IDebugDataSpaces4.ReadVirtual
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

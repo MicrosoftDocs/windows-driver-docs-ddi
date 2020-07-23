@@ -39,8 +39,6 @@ api_name:
 - IDebugControl.OutputVaList
 - IDebugControl2.OutputVaList
 - IDebugControl3.OutputVaList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

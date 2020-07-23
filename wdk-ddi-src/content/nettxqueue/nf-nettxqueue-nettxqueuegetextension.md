@@ -35,8 +35,6 @@ apilocation:
 - NtosKrnl.exe
 apiname: 
 - NetTxQueueGetExtension
-product:
-- Windows
 targetos: Windows
 
 ---

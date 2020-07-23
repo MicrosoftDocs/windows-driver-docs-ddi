@@ -37,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - SM_GetLUNStatistics_OUT
-product:
-- Windows
 targetos: Windows
 req.typenames: SM_GetLUNStatistics_OUT, *PSM_GetLUNStatistics_OUT
 ---

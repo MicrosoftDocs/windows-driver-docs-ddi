@@ -33,8 +33,6 @@ api_location:
 - ntddk.h
 api_name: 
 - pHalSetSystemInformation
-product:
-- Windows
 targetos: Windows
 ---
 

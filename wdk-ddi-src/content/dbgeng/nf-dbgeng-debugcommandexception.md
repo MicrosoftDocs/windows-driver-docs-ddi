@@ -37,8 +37,6 @@ api_location:
 - dbgeng.dll
 api_name:
 - DebugCommandException
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

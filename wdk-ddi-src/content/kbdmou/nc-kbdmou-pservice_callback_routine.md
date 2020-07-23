@@ -37,8 +37,6 @@ api_location:
 - kbdmou.h
 api_name:
 - ClassServiceCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KSDEVICE_THERMAL_DISPATCH
-product:
-- Windows
 targetos: Windows
 req.typenames: KSDEVICE_THERMAL_DISPATCH, *PKSDEVICE_THERMAL_DISPATCH
 ---

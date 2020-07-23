@@ -37,8 +37,6 @@ api_location:
 - namcache.h
 api_name:
 - RxNameCacheFinalize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - gnssdriver.h
 api_name:
 - GNSS_GEOFENCE_CREATE_RESPONSE
-product:
-- Windows
 targetos: Windows
 req.typenames: GNSS_GEOFENCE_CREATE_RESPONSE, *PGNSS_GEOFENCE_CREATE_RESPONSE
 ---

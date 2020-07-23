@@ -37,8 +37,6 @@ api_location:
 - ntdd8042.h
 api_name:
 - I8042IsrWritePort
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

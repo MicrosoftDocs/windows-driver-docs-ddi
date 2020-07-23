@@ -30,8 +30,6 @@ api_location:
 - ata.h
 api_name: 
 - _CURRENT_DEVICE_INTERNAL_STATUS_LOG
-product:
-- Windows
 targetos: Windows
 ---
 

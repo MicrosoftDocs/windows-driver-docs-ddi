@@ -30,8 +30,6 @@ api_location:
 - acpitabl.h
 api_name: 
 - _IVHD_ACPI_DEVICE_ENTRY
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

@@ -37,8 +37,6 @@ api_location:
 - Bthhfpddi.h
 api_name:
 - IOCTL_BTHHFP_STREAM_CLOSE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

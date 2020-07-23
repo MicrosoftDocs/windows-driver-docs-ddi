@@ -38,8 +38,6 @@ api_location:
 api_name: 
 - NetConfigurationQueryMultiString
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetConfigurationQueryMultiString function

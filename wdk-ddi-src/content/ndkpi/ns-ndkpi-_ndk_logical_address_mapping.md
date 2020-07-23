@@ -37,8 +37,6 @@ api_location:
 - ndkpi.h
 api_name:
 - NDK_LOGICAL_ADDRESS_MAPPING
-product:
-- Windows
 targetos: Windows
 req.typenames: NDK_LOGICAL_ADDRESS_MAPPING
 ---

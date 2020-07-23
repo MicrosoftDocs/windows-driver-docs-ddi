@@ -27,8 +27,6 @@ api_location:
 - d3dkmthk.h
 api_name: 
 - _D3DKMT_GPU_PREFERENCE_QUERY_STATE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

@@ -39,8 +39,6 @@ api_name:
 - IDebugControl.GetInterrupt
 - IDebugControl2.GetInterrupt
 - IDebugControl3.GetInterrupt
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

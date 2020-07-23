@@ -37,8 +37,6 @@ api_location:
 - fltkernel.h
 api_name:
 - ContextFreeCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

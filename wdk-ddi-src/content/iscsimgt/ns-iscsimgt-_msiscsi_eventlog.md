@@ -37,8 +37,6 @@ api_location:
 - Iscsimgt.h
 api_name:
 - MSiSCSI_EventLog
-product:
-- Windows
 targetos: Windows
 req.typenames: MSiSCSI_Eventlog, *PMSiSCSI_Eventlog
 ---

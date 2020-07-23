@@ -37,8 +37,6 @@ api_location:
 - Netdispumdddi.h
 api_name:
 - DestroyMiracastContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

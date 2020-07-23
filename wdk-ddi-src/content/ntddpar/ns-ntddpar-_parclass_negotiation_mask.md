@@ -37,8 +37,6 @@ api_location:
 - ntddpar.h
 api_name:
 - PARCLASS_NEGOTIATION_MASK
-product:
-- Windows
 targetos: Windows
 req.typenames: PARCLASS_NEGOTIATION_MASK, *PPARCLASS_NEGOTIATION_MASK
 ---

@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IDebugSymbolGroup.GetNumberSymbols
 - IDebugSymbolGroup2.GetNumberSymbols
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

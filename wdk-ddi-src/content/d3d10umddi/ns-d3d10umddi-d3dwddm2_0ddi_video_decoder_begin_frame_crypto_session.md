@@ -36,8 +36,6 @@ api_location:
 - D3d10umddi.h
 api_name:
 - D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DWDDM2_0DDI_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION

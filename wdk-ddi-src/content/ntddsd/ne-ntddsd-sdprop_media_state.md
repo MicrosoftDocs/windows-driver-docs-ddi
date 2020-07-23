@@ -37,8 +37,6 @@ api_location:
 - ntddsd.h
 api_name:
 - SDPROP_MEDIA_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: SDPROP_MEDIA_STATE
 ---

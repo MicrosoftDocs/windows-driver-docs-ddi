@@ -37,8 +37,6 @@ api_location:
 - EhStorBandMgmt.h
 api_name:
 - BAND_MANAGEMENT_CAPABILITIES
-product:
-- Windows
 targetos: Windows
 req.typenames: BAND_MANAGEMENT_CAPABILITIES, *PBAND_MANAGEMENT_CAPABILITIES
 ---

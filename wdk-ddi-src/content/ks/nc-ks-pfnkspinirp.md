@@ -37,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - AVStrMiniPinCreate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

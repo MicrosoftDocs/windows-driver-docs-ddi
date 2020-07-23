@@ -37,8 +37,6 @@ api_location:
 - ksproxy.h
 api_name:
 - IKsPin.KsQueryMediums
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

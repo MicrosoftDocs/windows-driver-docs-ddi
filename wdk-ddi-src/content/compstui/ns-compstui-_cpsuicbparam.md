@@ -37,8 +37,6 @@ api_location:
 - compstui.h
 api_name:
 - CPSUICBPARAM
-product:
-- Windows
 targetos: Windows
 req.typenames: CPSUICBPARAM, *PCPSUICBPARAM
 ---

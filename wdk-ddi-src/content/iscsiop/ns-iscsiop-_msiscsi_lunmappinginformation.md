@@ -37,8 +37,6 @@ api_location:
 - iscsiop.h
 api_name:
 - MSiSCSI_LUNMappingInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: MSiSCSI_LUNMappingInformation, *PMSiSCSI_LUNMappingInformation
 ---

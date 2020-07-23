@@ -37,8 +37,6 @@ api_location:
 - netdma.h
 api_name:
 - ProviderResetChannel
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

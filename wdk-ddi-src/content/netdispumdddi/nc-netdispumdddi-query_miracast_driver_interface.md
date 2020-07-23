@@ -37,8 +37,6 @@ api_location:
 - Netdispumdddi.h
 api_name:
 - QueryMiracastDriverInterface
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

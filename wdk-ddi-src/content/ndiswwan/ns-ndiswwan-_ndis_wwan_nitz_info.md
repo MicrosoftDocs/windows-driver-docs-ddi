@@ -31,8 +31,6 @@ api_location:
 - ndiswwan.h
 api_name: 
 - _NDIS_WWAN_NITZ_INFO
-product:
-- Windows
 targetos: Windows
 ms.custom: 19H1
 ---

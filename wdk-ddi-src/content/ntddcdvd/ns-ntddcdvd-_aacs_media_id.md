@@ -37,8 +37,6 @@ api_location:
 - ntddcdvd.h
 api_name:
 - AACS_MEDIA_ID
-product:
-- Windows
 targetos: Windows
 req.typenames: AACS_MEDIA_ID, *PAACS_MEDIA_ID
 ---

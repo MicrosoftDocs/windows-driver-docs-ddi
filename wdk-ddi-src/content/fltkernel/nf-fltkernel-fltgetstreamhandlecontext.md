@@ -37,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltGetStreamHandleContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

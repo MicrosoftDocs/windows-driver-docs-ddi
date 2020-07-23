@@ -37,8 +37,6 @@ api_location:
 - fltkernel.h
 api_name:
 - FltCbdqInsertIo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

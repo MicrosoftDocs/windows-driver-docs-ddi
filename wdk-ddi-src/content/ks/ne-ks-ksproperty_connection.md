@@ -37,8 +37,6 @@ api_location:
 - Ks.h
 api_name:
 - KSPROPERTY_CONNECTION
-product:
-- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_CONNECTION
 ---

@@ -37,8 +37,6 @@ api_location:
 - gnssdriver.h
 api_name:
 - GNSS_SINGLESHOT_PARAM
-product:
-- Windows
 targetos: Windows
 req.typenames: GNSS_SINGLESHOT_PARAM, *PGNSS_SINGLESHOT_PARAM
 ---

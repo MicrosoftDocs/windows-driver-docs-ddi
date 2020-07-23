@@ -37,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugEventCallbacksWide.Breakpoint
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

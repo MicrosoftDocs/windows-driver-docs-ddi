@@ -37,8 +37,6 @@ api_location:
 - BthXDDI.h
 api_name:
 - BTHX_SCO_SUPPORT
-product:
-- Windows
 targetos: Windows
 req.typenames: BTHX_SCO_SUPPORT, *PBTHX_SCO_SUPPORT
 ---

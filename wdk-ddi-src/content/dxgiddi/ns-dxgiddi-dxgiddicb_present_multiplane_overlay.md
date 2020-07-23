@@ -37,8 +37,6 @@ api_location:
 - Dxgiddi.h
 api_name:
 - DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY
 ---

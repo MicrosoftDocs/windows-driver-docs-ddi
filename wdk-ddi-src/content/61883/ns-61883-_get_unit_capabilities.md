@@ -37,8 +37,6 @@ api_location:
 - 61883.h
 api_name:
 - GET_UNIT_CAPABILITIES
-product:
-- Windows
 targetos: Windows
 req.typenames: GET_UNIT_CAPABILITIES, *PGET_UNIT_CAPABILITIES
 ---

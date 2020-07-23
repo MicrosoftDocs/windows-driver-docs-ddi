@@ -37,8 +37,6 @@ api_location:
 - mcd.h
 api_name:
 - ChangerGetElementStatus
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

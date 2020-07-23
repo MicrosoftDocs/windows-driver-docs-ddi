@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KSPROPERTY_VIDEOCOMPRESSION_S
-product:
-- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_VIDEOCOMPRESSION_S, *PKSPROPERTY_VIDEOCOMPRESSION_S
 ---

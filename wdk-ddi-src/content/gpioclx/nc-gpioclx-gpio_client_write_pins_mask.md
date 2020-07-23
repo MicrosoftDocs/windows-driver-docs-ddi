@@ -37,8 +37,6 @@ api_location:
 - Gpioclx.h
 api_name:
 - CLIENT_WriteGpioPinsUsingMask
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

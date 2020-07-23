@@ -40,8 +40,6 @@ api_name:
 - IDebugClient3.AbandonCurrentProcess
 - IDebugClient4.AbandonCurrentProcess
 - IDebugClient5.AbandonCurrentProcess
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

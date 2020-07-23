@@ -36,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - PDXGK_POWER_NOTIFICATION
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_TARGETMODE_DETAIL_TIMING

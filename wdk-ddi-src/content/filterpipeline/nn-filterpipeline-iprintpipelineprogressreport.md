@@ -37,8 +37,6 @@ api_location:
 - filterpipeline.h
 api_name:
 - IPrintPipelineProgressReport
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

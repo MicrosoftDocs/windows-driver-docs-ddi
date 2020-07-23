@@ -37,8 +37,6 @@ api_location:
 - dispmprt.h
 api_name:
 - AgpAllocatePool
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

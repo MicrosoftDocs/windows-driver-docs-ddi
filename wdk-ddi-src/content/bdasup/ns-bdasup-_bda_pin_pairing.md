@@ -37,8 +37,6 @@ api_location:
 - bdasup.h
 api_name:
 - BDA_PIN_PAIRING
-product:
-- Windows
 targetos: Windows
 req.typenames: BDA_PIN_PAIRING, *PBDA_PIN_PAIRING
 ---

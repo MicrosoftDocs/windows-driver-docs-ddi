@@ -38,8 +38,6 @@ api_location:
 - nfccxstub.dll
 api_name:
 - NFC_CX_LLCP_CONFIG_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

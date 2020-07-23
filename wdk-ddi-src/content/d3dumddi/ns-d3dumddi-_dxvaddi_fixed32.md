@@ -37,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - DXVADDI_FIXED32
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVADDI_FIXED32
 ---

@@ -38,8 +38,6 @@ api_location:
 api_name: 
 - NetRequestSetDataComplete
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetRequestSetDataComplete function

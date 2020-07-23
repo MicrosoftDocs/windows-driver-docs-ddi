@@ -32,8 +32,6 @@ api_location:
 -   NtosKrnl.exe
 api_name:
 -   ColorAdapterGetDisplayProfile
-product:
-- Windows
 targetos: Windows
 
 ---

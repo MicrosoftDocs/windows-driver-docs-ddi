@@ -37,8 +37,6 @@ api_location:
 - ntdddump.h
 api_name:
 - FILTER_EXTENSION
-product:
-- Windows
 targetos: Windows
 req.typenames: FILTER_EXTENSION, *PFILTER_EXTENSION
 ---

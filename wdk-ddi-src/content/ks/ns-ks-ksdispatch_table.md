@@ -37,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KSDISPATCH_TABLE
-product:
-- Windows
 targetos: Windows
 req.typenames: KSDISPATCH_TABLE, *PKSDISPATCH_TABLE
 ---

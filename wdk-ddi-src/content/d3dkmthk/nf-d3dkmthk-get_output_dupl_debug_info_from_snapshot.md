@@ -34,8 +34,6 @@ api_location:
 - d3dkmthk.h
 api_name: 
 - GET_OUTPUT_DUPL_DEBUG_INFO_FROM_SNAPSHOT
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

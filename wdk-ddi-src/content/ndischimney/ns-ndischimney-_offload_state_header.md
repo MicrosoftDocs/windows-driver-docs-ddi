@@ -37,8 +37,6 @@ api_location:
 - ndischimney.h
 api_name:
 - OFFLOAD_STATE_HEADER
-product:
-- Windows
 targetos: Windows
 req.typenames: OFFLOAD_STATE_HEADER, *POFFLOAD_STATE_HEADER
 ---

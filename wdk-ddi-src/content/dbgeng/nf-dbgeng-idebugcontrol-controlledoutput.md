@@ -39,8 +39,6 @@ api_name:
 - IDebugControl.ControlledOutput
 - IDebugControl2.ControlledOutput
 - IDebugControl3.ControlledOutput
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

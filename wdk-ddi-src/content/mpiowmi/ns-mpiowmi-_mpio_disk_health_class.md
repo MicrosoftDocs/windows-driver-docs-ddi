@@ -37,8 +37,6 @@ api_location:
 - mpiowmi.h
 api_name:
 - MPIO_DISK_HEALTH_CLASS
-product:
-- Windows
 targetos: Windows
 req.typenames: MPIO_DISK_HEALTH_CLASS, *PMPIO_DISK_HEALTH_CLASS
 ---

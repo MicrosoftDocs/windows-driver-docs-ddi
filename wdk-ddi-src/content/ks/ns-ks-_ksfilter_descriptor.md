@@ -37,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KSFILTER_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: KSFILTER_DESCRIPTOR, *PKSFILTER_DESCRIPTOR
 ---

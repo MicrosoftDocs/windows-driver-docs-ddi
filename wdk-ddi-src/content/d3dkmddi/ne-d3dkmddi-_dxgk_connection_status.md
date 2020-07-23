@@ -36,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGK_CONNECTION_STATUS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_CONNECTION_STATUS, *PDXGK_CONNECTION_STATUS

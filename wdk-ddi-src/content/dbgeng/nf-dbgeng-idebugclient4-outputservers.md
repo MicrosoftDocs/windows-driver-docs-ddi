@@ -41,8 +41,6 @@ api_name:
 - IDebugClient3.OutputServers
 - IDebugClient4.OutputServers
 - IDebugClient5.OutputServers
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

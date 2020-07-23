@@ -30,8 +30,6 @@ api_location:
 - d3dkmthk.h
 api_name: 
 - _D3DKMT_UPDATETRACKEDWORKLOAD
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

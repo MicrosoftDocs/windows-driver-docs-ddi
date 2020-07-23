@@ -37,8 +37,6 @@ api_location:
 - mpiowmi.h
 api_name:
 - DSM_VERSION
-product:
-- Windows
 targetos: Windows
 req.typenames: DSM_VERSION, *PDSM_VERSION
 ---

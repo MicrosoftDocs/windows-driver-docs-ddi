@@ -37,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - MSFC_FCAdapterHBAAttributes
-product:
-- Windows
 targetos: Windows
 req.typenames: MSFC_FCAdapterHBAAttributes, *PMSFC_FCAdapterHBAAttributes
 ---

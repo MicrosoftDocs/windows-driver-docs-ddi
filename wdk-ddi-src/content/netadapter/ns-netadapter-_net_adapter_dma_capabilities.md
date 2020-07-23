@@ -31,8 +31,6 @@ api_location:
 - netadapter.h
 api_name: 
 - _NET_ADAPTER_DMA_CAPABILITIES
-product:
-- Windows
 targetos: Windows
 ---
 

@@ -37,8 +37,6 @@ api_location:
 - hidport.h
 api_name:
 - HID_DEVICE_EXTENSION
-product:
-- Windows
 targetos: Windows
 req.typenames: HID_DEVICE_EXTENSION, *PHID_DEVICE_EXTENSION
 ---

@@ -37,8 +37,6 @@ api_location:
 - Ntddser.h
 api_name:
 - IOCTL_SERIAL_RESET_DEVICE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

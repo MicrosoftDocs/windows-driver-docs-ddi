@@ -30,8 +30,6 @@ api_location:
 - bdatypes.h
 api_name: 
 - _BDA_ISDBCAS_EMG_REQ
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

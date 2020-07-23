@@ -37,8 +37,6 @@ api_location:
 - d3dkmdt.h
 api_name:
 - DXGKDT_OPM_DVI_CHARACTERISTICS
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGKDT_OPM_DVI_CHARACTERISTICS
 ---

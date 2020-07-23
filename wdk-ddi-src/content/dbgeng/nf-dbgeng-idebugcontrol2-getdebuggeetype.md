@@ -39,8 +39,6 @@ api_name:
 - IDebugControl.GetDebuggeeType
 - IDebugControl2.GetDebuggeeType
 - IDebugControl3.GetDebuggeeType
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

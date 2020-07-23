@@ -39,8 +39,6 @@ api_name:
 - IDebugSymbols.GetOffsetByLine
 - IDebugSymbols2.GetOffsetByLine
 - IDebugSymbols3.GetOffsetByLine
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,8 +38,6 @@ api_location:
 - Bdasup.dll
 api_name:
 - BdaPropertyNodeProperties
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

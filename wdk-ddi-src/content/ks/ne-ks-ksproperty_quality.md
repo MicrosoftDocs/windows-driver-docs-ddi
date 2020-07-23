@@ -37,8 +37,6 @@ api_location:
 - Ks.h
 api_name:
 - KSPROPERTY_QUALITY
-product:
-- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_QUALITY
 ---

@@ -37,8 +37,6 @@ api_location:
 - Ntddcdrm.h
 api_name:
 - CDROM_WRITE_SPEED_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: CDROM_WRITE_SPEED_DESCRIPTOR, *PCDROM_WRITE_SPEED_DESCRIPTOR
 ---

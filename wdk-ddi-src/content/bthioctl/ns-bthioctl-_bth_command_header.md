@@ -37,8 +37,6 @@ api_location:
 - bthioctl.h
 api_name:
 - BTH_COMMAND_HEADER
-product:
-- Windows
 targetos: Windows
 req.typenames: BTH_COMMAND_HEADER, *PBTH_COMMAND_HEADER
 ---

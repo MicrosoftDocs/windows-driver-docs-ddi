@@ -37,8 +37,6 @@ api_location:
 - netdma.h
 api_name:
 - NET_DMA_CHANNEL_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: NET_DMA_CHANNEL_PARAMETERS, *PNET_DMA_CHANNEL_PARAMETERS
 ---

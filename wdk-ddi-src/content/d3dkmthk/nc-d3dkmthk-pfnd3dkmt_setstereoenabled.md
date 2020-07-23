@@ -37,8 +37,6 @@ api_location:
 api_name: 
 - PFND3DKMT_SETSTEREOENABLED
 - D3DKMTSetStereoEnabled
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

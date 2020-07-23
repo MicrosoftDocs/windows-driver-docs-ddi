@@ -37,8 +37,6 @@ api_location:
 - filterpipeline.h
 api_name:
 - IXpsDocumentConsumer.SendXpsDocument
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

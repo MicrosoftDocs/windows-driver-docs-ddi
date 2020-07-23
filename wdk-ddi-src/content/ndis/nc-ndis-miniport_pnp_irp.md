@@ -37,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - (*MINIPORT_PNP_IRP_HANDLER)
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

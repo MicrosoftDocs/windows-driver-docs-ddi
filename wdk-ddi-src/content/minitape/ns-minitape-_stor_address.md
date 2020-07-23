@@ -37,8 +37,6 @@ api_location:
 - Storport.h
 api_name:
 - STOR_ADDRESS
-product:
-- Windows
 targetos: Windows
 req.typenames: STOR_ADDRESS, *PSTOR_ADDRESS
 ---

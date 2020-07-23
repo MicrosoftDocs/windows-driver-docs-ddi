@@ -37,8 +37,6 @@ api_location:
 - D3dumddi.h
 api_name:
 - DrawPrimitive
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

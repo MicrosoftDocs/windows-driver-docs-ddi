@@ -36,8 +36,6 @@ api_location:
 - D3dkmddi.h
 api_name:
 - DXGK_CREATECONTEXTALLOCATIONFLAGS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_CREATECONTEXTALLOCATIONFLAGS

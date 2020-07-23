@@ -37,8 +37,6 @@ api_location:
 - iscsicfg.h
 api_name:
 - ISCSI_NIC_LINKSTATE
-product:
-- Windows
 targetos: Windows
 req.typenames: ISCSI_NIC_LINKSTATE, *PISCSI_NIC_LINKSTATE
 ---

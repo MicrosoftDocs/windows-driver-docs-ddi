@@ -36,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS

@@ -37,8 +37,6 @@ api_location:
 - ntddcdrm.h
 api_name:
 - SUB_Q_TRACK_ISRC
-product:
-- Windows
 targetos: Windows
 req.typenames: SUB_Q_TRACK_ISRC, *PSUB_Q_TRACK_ISRC
 ---

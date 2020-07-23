@@ -37,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - READ_REGISTER_USHORT
-product:
-- Windows
 targetos: Windows
 req.typenames: IDD_DRIVER_GLOBALS, *PIDD_DRIVER_GLOBALS, IDD_DRIVER_GLOBALS, *PIDD_DRIVER_GLOBALS
 ---

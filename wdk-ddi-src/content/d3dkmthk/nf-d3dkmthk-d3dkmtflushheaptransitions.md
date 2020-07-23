@@ -34,8 +34,6 @@ api_location:
 - Gdi32.dll
 api_name: 
 - D3DKMTFlushHeapTransitions
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

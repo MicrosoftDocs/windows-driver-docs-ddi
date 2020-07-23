@@ -37,8 +37,6 @@ api_location:
 - ntdddisk.h
 api_name:
 - IOCTL_DISK_GET_MEDIA_TYPES
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

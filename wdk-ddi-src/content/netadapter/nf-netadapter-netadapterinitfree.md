@@ -35,8 +35,6 @@ api_location:
 - netadaptercxstub.lib
 api_name: 
 - NetAdapterInitFree
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

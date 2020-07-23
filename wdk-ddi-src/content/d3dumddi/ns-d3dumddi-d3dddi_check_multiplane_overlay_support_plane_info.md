@@ -30,8 +30,6 @@ api_location:
 - d3dumddi.h
 api_name: 
 - D3DDDI_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE_INFO
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

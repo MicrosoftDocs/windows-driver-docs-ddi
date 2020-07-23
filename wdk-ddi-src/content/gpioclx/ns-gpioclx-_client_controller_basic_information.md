@@ -37,8 +37,6 @@ api_location:
 - Gpioclx.h
 api_name:
 - CLIENT_CONTROLLER_BASIC_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: CLIENT_CONTROLLER_BASIC_INFORMATION, *PCLIENT_CONTROLLER_BASIC_INFORMATION
 ---

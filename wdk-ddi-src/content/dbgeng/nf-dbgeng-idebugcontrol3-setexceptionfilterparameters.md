@@ -39,8 +39,6 @@ api_name:
 - IDebugControl.SetExceptionFilterParameters
 - IDebugControl2.SetExceptionFilterParameters
 - IDebugControl3.SetExceptionFilterParameters
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

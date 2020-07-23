@@ -37,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KsFilterFactoryRegisterAggregatedClientUnknown
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

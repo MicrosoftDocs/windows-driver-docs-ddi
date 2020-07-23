@@ -37,8 +37,6 @@ api_location:
 - EhStorIoctl.h
 api_name:
 - SILO_COMMAND
-product:
-- Windows
 targetos: Windows
 req.typenames: SILO_COMMAND, *PSILO_COMMAND
 ---

@@ -33,8 +33,6 @@ api_location:
 - d3dkmthk.h
 api_name: 
 - PFND3DKMT_ENUMADAPTERS3
-product:
-- Windows
 targetos: Windows
 ms.custom:
 dev_langs:

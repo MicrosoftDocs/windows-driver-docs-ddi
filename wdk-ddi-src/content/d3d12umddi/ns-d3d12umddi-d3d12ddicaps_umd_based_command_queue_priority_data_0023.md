@@ -36,8 +36,6 @@ api_location:
 - D3d12umddi.h
 api_name:
 - D3D12DDICAPS_UMD_BASED_COMMAND_QUEUE_PRIORITY_DATA_0023
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D12DDICAPS_UMD_BASED_COMMAND_QUEUE_PRIORITY_DATA_0023

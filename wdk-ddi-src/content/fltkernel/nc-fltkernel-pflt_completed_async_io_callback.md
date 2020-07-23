@@ -37,8 +37,6 @@ api_location:
 - fltkernel.h
 api_name:
 - PFLT_COMPLETED_ASYNC_IO_CALLBACK
-product:
-- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---

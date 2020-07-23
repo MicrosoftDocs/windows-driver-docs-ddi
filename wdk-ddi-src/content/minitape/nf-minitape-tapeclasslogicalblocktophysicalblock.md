@@ -38,8 +38,6 @@ api_location:
 - Tape.dll
 api_name:
 - TapeClassLogicalBlockToPhysicalBlock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

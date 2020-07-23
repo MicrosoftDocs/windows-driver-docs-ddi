@@ -38,8 +38,6 @@ api_location:
 - FltMgr.dll
 api_name:
 - FltAllocateFileLock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

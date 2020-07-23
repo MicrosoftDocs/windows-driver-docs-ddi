@@ -37,8 +37,6 @@ api_location:
 - ndiswwan.h
 api_name:
 - NDIS_WWAN_IP_ADDRESS_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_IP_ADDRESS_STATE, *PNDIS_WWAN_IP_ADDRESS_STATE
 ---

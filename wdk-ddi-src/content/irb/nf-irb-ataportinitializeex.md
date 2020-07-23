@@ -38,8 +38,6 @@ api_location:
 - Pciidex.dll
 api_name:
 - AtaPortInitializeEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

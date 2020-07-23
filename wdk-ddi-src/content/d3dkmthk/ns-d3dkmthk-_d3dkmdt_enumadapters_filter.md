@@ -36,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMDT_ENUMADAPTERS_FILTER
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMDT_ENUMADAPTERS_FILTER

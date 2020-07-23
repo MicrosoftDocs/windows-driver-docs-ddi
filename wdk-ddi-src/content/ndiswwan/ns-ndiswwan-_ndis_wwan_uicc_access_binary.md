@@ -31,8 +31,6 @@ api_location:
 - ndiswwan.h
 api_name: 
 - _NDIS_WWAN_UICC_ACCESS_BINARY
-product:
-- Windows
 targetos: Windows
 ms.custom: 19H1
 ---

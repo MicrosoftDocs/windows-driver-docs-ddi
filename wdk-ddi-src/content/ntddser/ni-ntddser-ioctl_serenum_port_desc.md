@@ -37,8 +37,6 @@ api_location:
 - ntddser.h
 api_name:
 - IOCTL_SERENUM_PORT_DESC
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

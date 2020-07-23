@@ -37,8 +37,6 @@ api_location:
 - Engextcpp.hpp
 api_name:
 - OnSessionInaccessible
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

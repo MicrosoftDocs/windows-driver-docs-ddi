@@ -37,8 +37,6 @@ api_location:
 - gnssdriver.h
 api_name:
 - IOCTL_GNSS_SET_SUPL_HSLP
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

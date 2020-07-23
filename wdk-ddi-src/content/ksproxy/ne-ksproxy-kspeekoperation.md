@@ -37,8 +37,6 @@ api_location:
 - Ksproxy.h
 api_name:
 - KSPEEKOPERATION
-product:
-- Windows
 targetos: Windows
 req.typenames: KSPEEKOPERATION
 ---

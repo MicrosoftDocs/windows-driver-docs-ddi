@@ -37,8 +37,6 @@ api_location:
 - ndisndk.h
 api_name:
 - CloseNdkAdapterHandler
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -30,8 +30,6 @@ api_location:
 - bdatypes.h
 api_name: 
 - _BDA_MUX_PIDLISTITEM
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

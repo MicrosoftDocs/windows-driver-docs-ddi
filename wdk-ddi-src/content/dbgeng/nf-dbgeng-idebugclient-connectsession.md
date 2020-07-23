@@ -41,8 +41,6 @@ api_name:
 - IDebugClient3.ConnectSession
 - IDebugClient4.ConnectSession
 - IDebugClient5.ConnectSession
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

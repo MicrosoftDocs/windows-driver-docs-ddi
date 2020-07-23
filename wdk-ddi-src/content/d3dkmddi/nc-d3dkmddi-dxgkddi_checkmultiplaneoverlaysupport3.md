@@ -36,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT3
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames:

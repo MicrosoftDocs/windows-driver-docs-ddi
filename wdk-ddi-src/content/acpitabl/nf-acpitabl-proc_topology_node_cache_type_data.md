@@ -34,8 +34,6 @@ api_location:
 - acpitabl.h
 api_name: 
 - PROC_TOPOLOGY_NODE_CACHE_TYPE_DATA
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

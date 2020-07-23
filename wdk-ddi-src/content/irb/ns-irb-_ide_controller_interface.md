@@ -37,8 +37,6 @@ api_location:
 - irb.h
 api_name:
 - IDE_CONTROLLER_INTERFACE
-product:
-- Windows
 targetos: Windows
 req.typenames: IDE_CONTROLLER_INTERFACE, *PIDE_CONTROLLER_INTERFACE
 ---

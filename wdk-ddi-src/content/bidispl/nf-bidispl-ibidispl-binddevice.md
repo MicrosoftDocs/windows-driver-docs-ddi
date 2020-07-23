@@ -37,8 +37,6 @@ api_location:
 - bidispl.dll
 api_name:
 - IBidiSpl.BindDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

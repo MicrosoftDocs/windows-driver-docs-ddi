@@ -38,8 +38,6 @@ api_location:
 api_name: 
 - NetRequestSetBytesNeeded
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetRequestSetBytesNeeded function

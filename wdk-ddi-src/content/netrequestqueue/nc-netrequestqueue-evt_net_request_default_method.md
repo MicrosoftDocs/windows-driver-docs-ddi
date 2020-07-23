@@ -37,8 +37,6 @@ apilocation:
 apiname: 
 - EVT_NET_REQUEST_DEFAULT_METHOD
 targetos: Windows
-product:
-- Windows
 ---
 
 # EVT_NET_REQUEST_DEFAULT_METHOD callback function

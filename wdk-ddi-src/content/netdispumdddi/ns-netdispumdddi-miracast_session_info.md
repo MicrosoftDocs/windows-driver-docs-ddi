@@ -37,8 +37,6 @@ api_location:
 - Netdispumdddi.h
 api_name:
 - MIRACAST_SESSION_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: MIRACAST_SESSION_INFO
 ---

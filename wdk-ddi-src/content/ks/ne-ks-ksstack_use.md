@@ -37,8 +37,6 @@ api_location:
 - Ks.h
 api_name:
 - KSSTACK_USE
-product:
-- Windows
 targetos: Windows
 req.typenames: KSSTACK_USE
 ---

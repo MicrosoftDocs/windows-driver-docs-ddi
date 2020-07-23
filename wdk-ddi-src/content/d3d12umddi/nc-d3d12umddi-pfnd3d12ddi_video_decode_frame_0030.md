@@ -36,8 +36,6 @@ api_location:
 - d3d12umddi.h
 api_name:
 - PFND3D12DDI_VIDEO_DECODE_FRAME_0030
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

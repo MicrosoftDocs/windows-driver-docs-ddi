@@ -37,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KS_SEEKING_FLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: KS_SEEKING_FLAGS
 ---

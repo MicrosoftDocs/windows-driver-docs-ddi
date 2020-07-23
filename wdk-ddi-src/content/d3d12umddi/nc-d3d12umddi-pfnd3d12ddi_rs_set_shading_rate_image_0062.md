@@ -36,8 +36,6 @@ api_location:
  - d3d12umddi.h
 api_name: 
  - PFND3D12DDI_RS_SET_SHADING_RATE_IMAGE_0062
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

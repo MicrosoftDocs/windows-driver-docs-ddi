@@ -37,8 +37,6 @@ api_location:
 - npivwmi.h
 api_name:
 - MSFC_FibrePortNPIVAttributes
-product:
-- Windows
 targetos: Windows
 req.typenames: MSFC_FibrePortNPIVAttributes, *PMSFC_FibrePortNPIVAttributes
 ---

@@ -37,8 +37,6 @@ api_location:
 - ntddmmc.h
 api_name:
 - FEATURE_DATA_EMBEDDED_CHANGER
-product:
-- Windows
 targetos: Windows
 req.typenames: FEATURE_DATA_EMBEDDED_CHANGER, *PFEATURE_DATA_EMBEDDED_CHANGER
 ---

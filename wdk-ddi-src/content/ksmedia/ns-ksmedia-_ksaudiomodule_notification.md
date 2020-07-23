@@ -37,8 +37,6 @@ api_location:
 - Ksmedia.h
 api_name:
 - KSAUDIOMODULE_NOTIFICATION
-product:
-- Windows
 targetos: Windows
 req.typenames: KSAUDIOMODULE_NOTIFICATION, *PKSAUDIOMODULE_NOTIFICATION
 ---

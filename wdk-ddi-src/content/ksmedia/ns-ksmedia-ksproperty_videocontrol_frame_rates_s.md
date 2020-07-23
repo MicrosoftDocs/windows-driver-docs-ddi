@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KSPROPERTY_VIDEOCONTROL_FRAME_RATES_S
-product:
-- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_VIDEOCONTROL_FRAME_RATES_S, *PKSPROPERTY_VIDEOCONTROL_FRAME_RATES_S
 ---

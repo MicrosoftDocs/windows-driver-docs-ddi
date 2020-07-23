@@ -37,8 +37,6 @@ api_location:
 - Ntddndis.h
 api_name:
 - NDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS, *PNDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS
 ---

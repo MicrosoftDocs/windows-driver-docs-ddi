@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KSPROPERTY_EXTXPORT_S
-product:
-- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_EXTXPORT_S, *PKSPROPERTY_EXTXPORT_S
 ---

@@ -37,8 +37,6 @@ api_location:
 - dot11wdi.h
 api_name:
 - WDI_MESSAGE_HEADER
-product:
-- Windows
 targetos: Windows
 req.typenames: WDI_MESSAGE_HEADER, *PWDI_MESSAGE_HEADER
 ---

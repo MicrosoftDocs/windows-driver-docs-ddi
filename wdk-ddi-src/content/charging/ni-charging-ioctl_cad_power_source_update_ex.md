@@ -37,8 +37,6 @@ api_location:
 - charging.h
 api_name:
 - IOCTL_CAD_POWER_SOURCE_UPDATE_EX
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

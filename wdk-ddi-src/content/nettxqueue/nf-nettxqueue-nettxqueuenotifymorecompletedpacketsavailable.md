@@ -38,8 +38,6 @@ apilocation:
 apiname: 
 - NetTxQueueNotifyMoreCompletedPacketsAvailable
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetTxQueueNotifyMoreCompletedPacketsAvailable function

@@ -36,8 +36,6 @@ api_location:
 - Gdi32.dll
 api_name:
 - D3DKMTSetContextInProcessSchedulingPriority
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

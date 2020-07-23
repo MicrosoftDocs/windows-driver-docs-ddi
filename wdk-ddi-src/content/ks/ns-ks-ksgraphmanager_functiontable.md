@@ -37,8 +37,6 @@ api_location:
 - Ks.h
 api_name:
 - KSGRAPHMANAGER_FUNCTIONTABLE
-product:
-- Windows
 targetos: Windows
 req.typenames: KSGRAPHMANAGER_FUNCTIONTABLE, PKSGRAPHMANAGER_FUNCTIONTABLE
 ---

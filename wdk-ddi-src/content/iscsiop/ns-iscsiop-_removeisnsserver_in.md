@@ -37,8 +37,6 @@ api_location:
 - iscsiop.h
 api_name:
 - RemoveiSNSServer_IN
-product:
-- Windows
 targetos: Windows
 req.typenames: RemoveiSNSServer_IN, *PRemoveiSNSServer_IN
 ---

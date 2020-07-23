@@ -37,8 +37,6 @@ api_location:
 - hdaudio.h
 api_name:
 - HDAUDIO_BUFFER_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: HDAUDIO_BUFFER_DESCRIPTOR, *PHDAUDIO_BUFFER_DESCRIPTOR
 ---

@@ -37,8 +37,6 @@ api_location:
 - scsi.h
 api_name:
 - VPD_THIRD_PARTY_COPY_PAGE
-product:
-- Windows
 targetos: Windows
 req.typenames: VPD_THIRD_PARTY_COPY_PAGE, *PVPD_THIRD_PARTY_COPY_PAGE
 ---

@@ -37,8 +37,6 @@ api_location:
 - Dbgeng.h
 api_name:
 - IDebugSymbols3.AddSyntheticModule
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

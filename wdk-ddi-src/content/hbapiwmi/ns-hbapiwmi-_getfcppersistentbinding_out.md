@@ -37,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - GetFcpPersistentBinding_OUT
-product:
-- Windows
 targetos: Windows
 req.typenames: GetFcpPersistentBinding_OUT, *PGetFcpPersistentBinding_OUT
 ---

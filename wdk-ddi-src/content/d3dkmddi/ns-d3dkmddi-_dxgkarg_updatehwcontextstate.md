@@ -36,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGKARG_UPDATEHWCONTEXTSTATE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGKARG_UPDATEHWCONTEXTSTATE

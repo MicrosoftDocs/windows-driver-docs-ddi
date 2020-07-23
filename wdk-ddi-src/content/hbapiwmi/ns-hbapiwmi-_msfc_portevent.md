@@ -37,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - MSFC_PortEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: MSFC_PortEvent, *PMSFC_PortEvent
 ---

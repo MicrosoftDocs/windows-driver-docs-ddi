@@ -37,8 +37,6 @@ api_location:
 - gnssdriver.h
 api_name:
 - GNSS_FIXDATA_SATELLITE
-product:
-- Windows
 targetos: Windows
 req.typenames: GNSS_FIXDATA_SATELLITE, *PGNSS_FIXDATA_SATELLITE
 ---

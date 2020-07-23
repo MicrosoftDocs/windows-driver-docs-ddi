@@ -27,8 +27,6 @@ api_location:
 - ntddk.h
 api_name: 
 - _STATE_LOCATION_TYPE
-product:
-- Windows
 targetos: Windows
 ---
 

@@ -37,8 +37,6 @@ api_location:
 - ndisndk.h
 api_name:
 - NDIS_NDK_PROVIDER_CHARACTERISTICS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_NDK_PROVIDER_CHARACTERISTICS, *PNDIS_NDK_PROVIDER_CHARACTERISTICS
 ---

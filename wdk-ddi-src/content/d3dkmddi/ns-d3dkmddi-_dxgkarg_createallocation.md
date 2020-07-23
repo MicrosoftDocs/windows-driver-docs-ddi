@@ -36,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGKARG_CREATEALLOCATION
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGKARG_CREATEALLOCATION

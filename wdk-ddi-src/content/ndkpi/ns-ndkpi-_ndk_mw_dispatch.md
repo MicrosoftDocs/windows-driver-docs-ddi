@@ -37,8 +37,6 @@ api_location:
 - ndkpi.h
 api_name:
 - NDK_MW_DISPATCH
-product:
-- Windows
 targetos: Windows
 req.typenames: NDK_MW_DISPATCH
 ---

@@ -37,8 +37,6 @@ api_location:
 - ntdd8042.h
 api_name:
 - INTERNAL_I8042_HOOK_MOUSE
-product:
-- Windows
 targetos: Windows
 req.typenames: INTERNAL_I8042_HOOK_MOUSE, *PINTERNAL_I8042_HOOK_MOUSE
 ---

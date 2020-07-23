@@ -34,8 +34,6 @@ api_location:
 - Gdi32.dll
 api_name: 
 - D3DKMTDestroyTrackedWorkload
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

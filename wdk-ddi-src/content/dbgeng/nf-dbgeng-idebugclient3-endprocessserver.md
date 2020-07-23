@@ -40,8 +40,6 @@ api_name:
 - IDebugClient3.EndProcessServer
 - IDebugClient4.EndProcessServer
 - IDebugClient5.EndProcessServer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

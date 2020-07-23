@@ -36,8 +36,6 @@ api_location:
 - d3d12umddi.h
 api_name:
 - D3D12DDI_COMMAND_LIST_FUNCS_3D_0030
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D12DDI_COMMAND_LIST_FUNCS_3D_0030

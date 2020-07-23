@@ -37,8 +37,6 @@ api_location:
 - Ntddndis.h
 api_name:
 - NDIS_NIC_SWITCH_VPORT_INFO_ARRAY
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_NIC_SWITCH_VPORT_INFO_ARRAY, *PNDIS_NIC_SWITCH_VPORT_INFO_ARRAY
 ---

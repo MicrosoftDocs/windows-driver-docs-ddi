@@ -37,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - SM_SendSRL_OUT
-product:
-- Windows
 targetos: Windows
 req.typenames: SM_SendSRL_OUT, *PSM_SendSRL_OUT
 ---

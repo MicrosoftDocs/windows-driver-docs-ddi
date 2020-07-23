@@ -38,8 +38,6 @@ api_location:
 api_name: 
 - NET_REQUEST_QUEUE_CONFIG_INIT_DEFAULT_PARALLEL
 targetos: Windows
-product:
-- Windows
 ---
 
 # NET_REQUEST_QUEUE_CONFIG_INIT_DEFAULT_PARALLEL function

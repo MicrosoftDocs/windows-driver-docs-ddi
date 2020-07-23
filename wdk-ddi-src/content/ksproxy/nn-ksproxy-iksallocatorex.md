@@ -37,8 +37,6 @@ api_location:
 - ksproxy.h
 api_name:
 - IKsAllocatorEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KSEVENT_ITEM
-product:
-- Windows
 targetos: Windows
 req.typenames: KSEVENT_ITEM, *PKSEVENT_ITEM
 ---

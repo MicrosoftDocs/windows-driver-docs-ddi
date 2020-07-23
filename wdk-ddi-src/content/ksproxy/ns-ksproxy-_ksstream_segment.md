@@ -37,8 +37,6 @@ api_location:
 - ksproxy.h
 api_name:
 - KSSTREAM_SEGMENT
-product:
-- Windows
 targetos: Windows
 req.typenames: "*PKSSTREAM_SEGMENT, KSSTREAM_SEGMENT"
 ---

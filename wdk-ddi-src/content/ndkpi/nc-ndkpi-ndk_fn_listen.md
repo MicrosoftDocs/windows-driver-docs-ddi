@@ -37,8 +37,6 @@ api_location:
 - ndkpi.h
 api_name:
 - NdkListen
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

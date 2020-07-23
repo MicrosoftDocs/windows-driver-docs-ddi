@@ -37,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - DXVADDI_QUERYPROCAMPINPUT
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVADDI_QUERYPROCAMPINPUT
 ---

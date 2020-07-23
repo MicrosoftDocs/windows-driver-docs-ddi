@@ -34,8 +34,6 @@ api_location:
 - NtosKrnl.exe
 api_name: 
 - NET_ADAPTER_DMA_CAPABILITIES_INIT
-product:
-- Windows
 targetos: Windows
 
 ---

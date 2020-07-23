@@ -35,8 +35,6 @@ apilocation:
 - NtosKrnl.exe
 apiname: 
 - NetExtensionGetPacketChecksum
-product:
-- Windows
 targetos: Windows
 
 ---

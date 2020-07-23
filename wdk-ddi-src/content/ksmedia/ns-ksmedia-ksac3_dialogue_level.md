@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KSAC3_DIALOGUE_LEVEL
-product:
-- Windows
 targetos: Windows
 req.typenames: KSAC3_DIALOGUE_LEVEL, *PKSAC3_DIALOGUE_LEVEL
 ---

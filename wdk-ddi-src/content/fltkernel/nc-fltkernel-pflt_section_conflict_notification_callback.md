@@ -37,8 +37,6 @@ api_location:
 - fltkernel.h
 api_name:
 - SectionNotificationCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

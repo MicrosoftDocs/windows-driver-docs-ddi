@@ -38,8 +38,6 @@ api_location:
 - Fltmgr.sys
 api_name:
 - FltCreateFileEx2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

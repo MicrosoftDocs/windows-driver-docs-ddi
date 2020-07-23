@@ -37,8 +37,6 @@ api_location:
 - iscsimgt.h
 api_name:
 - PingIPAddress_OUT
-product:
-- Windows
 targetos: Windows
 req.typenames: PingIPAddress_OUT, *PPingIPAddress_OUT
 ---

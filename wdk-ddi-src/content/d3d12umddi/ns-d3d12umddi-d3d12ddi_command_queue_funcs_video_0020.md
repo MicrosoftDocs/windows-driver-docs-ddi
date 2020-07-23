@@ -36,8 +36,6 @@ api_location:
 - D3d12umddi.h
 api_name:
 - D3D12DDI_COMMAND_QUEUE_FUNCS_VIDEO_0020
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D12DDI_COMMAND_QUEUE_FUNCS_VIDEO_0020

@@ -28,8 +28,6 @@ apilocation:
 - netadapter.h
 apiname: 
 - _NET_RX_FRAGMENT_BUFFER_ATTACHMENT_MODE
-product:
-- Windows
 targetos: Windows
 ---
 

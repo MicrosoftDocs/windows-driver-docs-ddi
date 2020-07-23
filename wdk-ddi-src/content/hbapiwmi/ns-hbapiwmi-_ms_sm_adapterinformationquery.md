@@ -37,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - MS_SM_AdapterInformationQuery
-product:
-- Windows
 targetos: Windows
 req.typenames: MS_SM_AdapterInformationQuery, *PMS_SM_AdapterInformationQuery
 ---

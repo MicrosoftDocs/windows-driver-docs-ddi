@@ -31,8 +31,6 @@ api_location:
 - netadapter.h
 api_name: 
 - _NET_ADAPTER_DATAPATH_CALLBACKS
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

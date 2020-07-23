@@ -38,8 +38,6 @@ api_location:
 - Msgpioclxstub.dll
 api_name:
 - GPIO_CLX_RegisterClient
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

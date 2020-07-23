@@ -37,8 +37,6 @@ api_location:
 - EhStorIoctl.h
 api_name:
 - IOCTL_EHSTOR_DEVICE_SET_QUEUE_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

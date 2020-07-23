@@ -37,8 +37,6 @@ api_location:
 - Ntddndis.h
 api_name:
 - NDIS_FRAME_HEADER
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_FRAME_HEADER, *PNDIS_FRAME_HEADER
 ---

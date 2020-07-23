@@ -37,8 +37,6 @@ api_location:
 - filterpipeline.h
 api_name:
 - IPartImage.SetImageContent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

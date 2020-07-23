@@ -37,8 +37,6 @@ api_location:
 - hidclass.h
 api_name:
 - IOCTL_HID_GET_COLLECTION_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

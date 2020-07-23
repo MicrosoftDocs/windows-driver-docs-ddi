@@ -37,8 +37,6 @@ api_location:
 - Displib.lib
 api_name:
 - DxgkInitialize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

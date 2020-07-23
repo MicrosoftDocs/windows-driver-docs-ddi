@@ -37,8 +37,6 @@ api_location:
 - ndiswwan.h
 api_name:
 - NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE, *PNDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE
 ---

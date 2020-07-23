@@ -37,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - DebugExtensionUninitialize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

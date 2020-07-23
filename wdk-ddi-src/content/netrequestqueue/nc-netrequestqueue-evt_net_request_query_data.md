@@ -37,8 +37,6 @@ apilocation:
 apiname: 
 - EVT_NET_REQUEST_QUERY_DATA
 targetos: Windows
-product:
-- Windows
 ---
 
 # EVT_NET_REQUEST_QUERY_DATA callback function

@@ -37,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - SM_SendRNID_OUT
-product:
-- Windows
 targetos: Windows
 req.typenames: SM_SendRNID_OUT, *PSM_SendRNID_OUT
 ---

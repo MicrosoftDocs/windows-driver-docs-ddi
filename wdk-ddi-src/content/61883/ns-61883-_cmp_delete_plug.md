@@ -37,8 +37,6 @@ api_location:
 - 61883.h
 api_name:
 - CMP_DELETE_PLUG
-product:
-- Windows
 targetos: Windows
 req.typenames: CMP_DELETE_PLUG, *PCMP_DELETE_PLUG
 ---

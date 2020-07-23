@@ -39,8 +39,6 @@ api_name:
 - IDebugControl.GetLastEventInformation
 - IDebugControl2.GetLastEventInformation
 - IDebugControl3.GetLastEventInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

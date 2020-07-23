@@ -37,8 +37,6 @@ api_location:
 - mcd.h
 api_name:
 - ChangerInitializeElementStatus
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

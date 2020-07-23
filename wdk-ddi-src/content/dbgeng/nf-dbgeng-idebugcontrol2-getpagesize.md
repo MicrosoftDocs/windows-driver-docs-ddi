@@ -39,8 +39,6 @@ api_name:
 - IDebugControl.GetPageSize
 - IDebugControl2.GetPageSize
 - IDebugControl3.GetPageSize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

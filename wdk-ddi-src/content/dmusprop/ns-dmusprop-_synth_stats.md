@@ -37,8 +37,6 @@ api_location:
 - dmusprop.h
 api_name:
 - SYNTH_STATS
-product:
-- Windows
 targetos: Windows
 req.typenames: SYNTH_STATS, *PSYNTH_STATS
 ---

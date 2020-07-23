@@ -37,8 +37,6 @@ api_location:
 - Bdatypes.h
 api_name:
 - BDA_CAS_CLOSE_MMIDIALOG
-product:
-- Windows
 targetos: Windows
 req.typenames: BDA_CAS_CLOSE_MMIDIALOG, *PBDA_CAS_CLOSE_MMIDIALOG
 ---

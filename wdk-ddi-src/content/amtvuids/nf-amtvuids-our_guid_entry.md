@@ -34,8 +34,6 @@ api_location:
 - amtvuids.h
 api_name: 
 - OUR_GUID_ENTRY
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

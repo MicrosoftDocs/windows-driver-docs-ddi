@@ -37,8 +37,6 @@ api_location:
 - d3dcaps.h
 api_name:
 - D3DPRIMCAPS
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DPRIMCAPS, *LPD3DPRIMCAPS
 ---

@@ -37,8 +37,6 @@ api_location:
 - Ntddk.h
 api_name:
 - SetCreateThreadNotifyRoutine
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

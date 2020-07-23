@@ -38,8 +38,6 @@ api_location:
 - FltMgr.dll
 api_name:
 - FltCancelIo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - D3dumddi.h
 api_name:
 - DXVAHDDDI_ROTATION
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVAHDDDI_ROTATION
 ---

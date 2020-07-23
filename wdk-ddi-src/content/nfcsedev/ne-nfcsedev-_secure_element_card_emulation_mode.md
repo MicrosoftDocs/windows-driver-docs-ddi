@@ -37,8 +37,6 @@ api_location:
 - nfcsedev.h
 api_name:
 - SECURE_ELEMENT_CARD_EMULATION_MODE
-product:
-- Windows
 targetos: Windows
 req.typenames: SECURE_ELEMENT_CARD_EMULATION_MODE, *PSECURE_ELEMENT_CARD_EMULATION_MODE
 ---

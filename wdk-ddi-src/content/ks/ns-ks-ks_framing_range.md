@@ -37,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KS_FRAMING_RANGE
-product:
-- Windows
 targetos: Windows
 req.typenames: KS_FRAMING_RANGE, *PKS_FRAMING_RANGE
 ---

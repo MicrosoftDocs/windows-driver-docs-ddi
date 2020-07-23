@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - SYSAUDIO_INSTANCE_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: SYSAUDIO_INSTANCE_INFO, *PSYSAUDIO_INSTANCE_INFO
 ---

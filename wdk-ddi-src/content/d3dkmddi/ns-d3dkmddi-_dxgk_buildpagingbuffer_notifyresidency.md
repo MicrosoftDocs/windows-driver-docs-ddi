@@ -36,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY

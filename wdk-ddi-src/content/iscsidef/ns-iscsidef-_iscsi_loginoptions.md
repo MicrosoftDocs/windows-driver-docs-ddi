@@ -37,8 +37,6 @@ api_location:
 - iscsidef.h
 api_name:
 - ISCSI_LoginOptions
-product:
-- Windows
 targetos: Windows
 req.typenames: ISCSI_LoginOptions, *PISCSI_LoginOptions
 ---

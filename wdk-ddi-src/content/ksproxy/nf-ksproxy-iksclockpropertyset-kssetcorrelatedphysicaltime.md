@@ -37,8 +37,6 @@ api_location:
 - ksproxy.h
 api_name:
 - IKsClockPropertySet.KsSetCorrelatedPhysicalTime
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

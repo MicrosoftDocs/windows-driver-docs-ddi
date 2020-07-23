@@ -36,8 +36,6 @@ api_location:
 - d3d12umddi.h
 api_name:
 - D3D12DDI_VIDEO_CRYPTO_SESSION_SUPPORT_DATA_0030
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D12DDI_VIDEO_CRYPTO_SESSION_SUPPORT_DATA_0030

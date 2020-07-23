@@ -37,8 +37,6 @@ api_location:
 - Ksmedia.h
 api_name:
 - KSEVENT_CAMERACONTROL
-product:
-- Windows
 targetos: Windows
 req.typenames: KSEVENT_CAMERACONTROL
 ---

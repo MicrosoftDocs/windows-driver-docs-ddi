@@ -37,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltRequestOperationStatusCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

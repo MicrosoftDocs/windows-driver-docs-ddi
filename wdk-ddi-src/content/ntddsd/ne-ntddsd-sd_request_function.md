@@ -37,8 +37,6 @@ api_location:
 - ntddsd.h
 api_name:
 - SD_REQUEST_FUNCTION
-product:
-- Windows
 targetos: Windows
 req.typenames: SD_REQUEST_FUNCTION
 ---

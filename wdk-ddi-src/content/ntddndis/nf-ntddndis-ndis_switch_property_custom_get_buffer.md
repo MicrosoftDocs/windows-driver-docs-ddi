@@ -35,8 +35,6 @@ api_location:
 - ntddndis.h
 api_name: 
 - NDIS_SWITCH_PROPERTY_CUSTOM_GET_BUFFER
-product:
-- Windows
 targetos: Windows
 
 ---

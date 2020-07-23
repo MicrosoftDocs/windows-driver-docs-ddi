@@ -37,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - ReferenceSwitchPort
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

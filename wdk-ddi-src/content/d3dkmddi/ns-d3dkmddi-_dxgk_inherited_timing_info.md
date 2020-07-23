@@ -36,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGK_INHERITED_TIMING_INFO
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_INHERITED_TIMING_INFO, *PDXGK_INHERITED_TIMING_INFO

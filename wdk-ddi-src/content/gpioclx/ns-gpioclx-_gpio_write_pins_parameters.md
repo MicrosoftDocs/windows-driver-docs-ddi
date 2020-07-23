@@ -37,8 +37,6 @@ api_location:
 - Gpioclx.h
 api_name:
 - GPIO_WRITE_PINS_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: GPIO_WRITE_PINS_PARAMETERS, *PGPIO_WRITE_PINS_PARAMETERS
 ---

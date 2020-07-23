@@ -37,8 +37,6 @@ api_location:
 - iscsicfg.h
 api_name:
 - ISCSI_ENCRYPTION_TYPES
-product:
-- Windows
 targetos: Windows
 req.typenames: ISCSI_ENCRYPTION_TYPES, *PISCSI_ENCRYPTION_TYPES
 ---

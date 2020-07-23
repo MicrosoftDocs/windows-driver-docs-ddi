@@ -37,8 +37,6 @@ api_location:
 - ntddndis.h
 api_name:
 - NDIS_PM_WOL_PATTERN
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_PM_WOL_PATTERN, *PNDIS_PM_WOL_PATTERN
 ---

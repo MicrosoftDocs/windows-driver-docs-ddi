@@ -37,8 +37,6 @@ api_location:
 - hidclass.h
 api_name:
 - IOCTL_GET_PHYSICAL_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

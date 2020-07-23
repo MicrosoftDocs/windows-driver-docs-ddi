@@ -37,8 +37,6 @@ api_location:
 - nfcradiodev.h
 api_name:
 - IOCTL_NFCSERM_QUERY_RADIO_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

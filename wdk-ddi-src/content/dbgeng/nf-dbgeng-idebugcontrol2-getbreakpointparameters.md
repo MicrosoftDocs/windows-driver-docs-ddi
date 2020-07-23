@@ -39,8 +39,6 @@ api_name:
 - IDebugControl.GetBreakpointParameters
 - IDebugControl2.GetBreakpointParameters
 - IDebugControl3.GetBreakpointParameters
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

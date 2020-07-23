@@ -37,8 +37,6 @@ api_location:
 - D3dkmdt.h
 api_name:
 - DXGK_PAGE_FAULT_FLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGK_PAGE_FAULT_FLAGS
 ---

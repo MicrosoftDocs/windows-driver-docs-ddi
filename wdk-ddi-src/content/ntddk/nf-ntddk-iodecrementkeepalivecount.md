@@ -37,8 +37,6 @@ api_location:
 - Ntoskrnl.exe
 api_name:
 - IoDecrementKeepAliveCount
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KSFASTMETHOD_ITEM
-product:
-- Windows
 targetos: Windows
 req.typenames: KSFASTMETHOD_ITEM, *PKSFASTMETHOD_ITEM
 ---

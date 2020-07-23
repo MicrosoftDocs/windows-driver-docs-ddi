@@ -37,8 +37,6 @@ api_location:
 - bthddi.h
 api_name:
 - _BRB_SCO_CLOSE_CHANNEL
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

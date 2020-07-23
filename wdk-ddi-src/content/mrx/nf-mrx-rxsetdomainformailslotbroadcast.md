@@ -37,8 +37,6 @@ api_location:
 - mrx.h
 api_name:
 - RxSetDomainForMailslotBroadcast
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - Ntddndis.h
 api_name:
 - NDIS_SRIOV_PROBED_BARS_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_SRIOV_PROBED_BARS_INFO, *PNDIS_SRIOV_PROBED_BARS_INFO
 ---

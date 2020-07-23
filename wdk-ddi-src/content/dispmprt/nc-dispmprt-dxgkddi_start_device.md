@@ -37,8 +37,6 @@ api_location:
 - dispmprt.h
 api_name:
 - DxgkDdiStartDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

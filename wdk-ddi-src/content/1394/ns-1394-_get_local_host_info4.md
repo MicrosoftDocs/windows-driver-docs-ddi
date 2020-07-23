@@ -37,8 +37,6 @@ api_location:
 - 1394.h
 api_name:
 - GET_LOCAL_HOST_INFO4
-product:
-- Windows
 targetos: Windows
 req.typenames: GET_LOCAL_HOST_INFO4, *PGET_LOCAL_HOST_INFO4
 ---

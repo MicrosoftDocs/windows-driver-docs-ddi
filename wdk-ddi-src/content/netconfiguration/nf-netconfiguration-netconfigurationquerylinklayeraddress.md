@@ -38,8 +38,6 @@ api_location:
 api_name: 
 - NetConfigurationQueryLinkLayerAddress
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetConfigurationQueryLinkLayerAddress function

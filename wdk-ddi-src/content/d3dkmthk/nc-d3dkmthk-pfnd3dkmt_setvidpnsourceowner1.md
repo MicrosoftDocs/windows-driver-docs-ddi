@@ -36,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMTSetVidPnSourceOwner1
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

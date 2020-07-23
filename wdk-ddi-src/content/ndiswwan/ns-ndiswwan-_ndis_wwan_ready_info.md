@@ -37,8 +37,6 @@ api_location:
 - ndiswwan.h
 api_name:
 - NDIS_WWAN_READY_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_READY_INFO, *PNDIS_WWAN_READY_INFO
 ---

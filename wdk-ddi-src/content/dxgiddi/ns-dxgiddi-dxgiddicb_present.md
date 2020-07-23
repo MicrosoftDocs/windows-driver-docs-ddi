@@ -37,8 +37,6 @@ api_location:
 - dxgiddi.h
 api_name:
 - DXGIDDICB_PRESENT
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGIDDICB_PRESENT
 ---

@@ -37,8 +37,6 @@ api_location:
 - ntdddisk.h
 api_name:
 - SENDCMDOUTPARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: SENDCMDOUTPARAMS, *PSENDCMDOUTPARAMS, *LPSENDCMDOUTPARAMS
 ---

@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KS_VideoControlFlags
-product:
-- Windows
 targetos: Windows
 req.typenames: KS_VideoControlFlags
 ---

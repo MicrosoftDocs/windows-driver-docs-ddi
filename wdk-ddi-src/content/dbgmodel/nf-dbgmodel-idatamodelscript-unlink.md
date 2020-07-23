@@ -34,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDataModelScript.Unlink
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

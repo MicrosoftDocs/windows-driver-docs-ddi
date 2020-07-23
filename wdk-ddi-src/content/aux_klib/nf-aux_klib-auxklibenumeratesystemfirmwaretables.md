@@ -38,8 +38,6 @@ api_location:
 - Aux_Klib.dll
 api_name:
 - AuxKlibEnumerateSystemFirmwareTables
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

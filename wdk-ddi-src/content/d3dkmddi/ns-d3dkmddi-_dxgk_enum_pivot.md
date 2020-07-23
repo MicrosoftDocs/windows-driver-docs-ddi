@@ -36,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGK_ENUM_PIVOT
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_ENUM_PIVOT

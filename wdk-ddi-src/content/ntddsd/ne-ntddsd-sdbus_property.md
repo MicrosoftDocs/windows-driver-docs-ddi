@@ -37,8 +37,6 @@ api_location:
 - ntddsd.h
 api_name:
 - SDBUS_PROPERTY
-product:
-- Windows
 targetos: Windows
 req.typenames: SDBUS_PROPERTY
 ---

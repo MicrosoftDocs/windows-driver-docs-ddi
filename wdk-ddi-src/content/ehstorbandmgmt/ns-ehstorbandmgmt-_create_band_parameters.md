@@ -37,8 +37,6 @@ api_location:
 - EhStorBandMgmt.h
 api_name:
 - CREATE_BAND_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: CREATE_BAND_PARAMETERS, *PCREATE_BAND_PARAMETERS
 ---

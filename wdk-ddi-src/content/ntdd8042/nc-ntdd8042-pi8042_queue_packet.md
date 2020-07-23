@@ -37,8 +37,6 @@ api_location:
 - ntdd8042.h
 api_name:
 - QueuePacket
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

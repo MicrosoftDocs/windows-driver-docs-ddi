@@ -37,8 +37,6 @@ api_location:
 - ntddndis.h
 api_name:
 - NDIS_RSS_PROFILE
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_RSS_PROFILE, *PNDIS_RSS_PROFILE
 ---

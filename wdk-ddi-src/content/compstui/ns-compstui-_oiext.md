@@ -37,8 +37,6 @@ api_location:
 - compstui.h
 api_name:
 - OIEXT
-product:
-- Windows
 targetos: Windows
 req.typenames: OIEXT, *POIEXT
 ---

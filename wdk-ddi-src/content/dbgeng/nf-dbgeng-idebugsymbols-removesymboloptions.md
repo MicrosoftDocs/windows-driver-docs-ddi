@@ -39,8 +39,6 @@ api_name:
 - IDebugSymbols.RemoveSymbolOptions
 - IDebugSymbols2.RemoveSymbolOptions
 - IDebugSymbols3.RemoveSymbolOptions
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

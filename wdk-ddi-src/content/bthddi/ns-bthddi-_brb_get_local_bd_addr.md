@@ -37,8 +37,6 @@ api_location:
 - bthddi.h
 api_name:
 - _BRB_GET_LOCAL_BD_ADDR
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

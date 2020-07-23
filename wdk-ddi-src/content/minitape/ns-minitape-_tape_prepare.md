@@ -37,8 +37,6 @@ api_location:
 - ntddtape.h
 api_name:
 - TAPE_PREPARE
-product:
-- Windows
 targetos: Windows
 req.typenames: TAPE_PREPARE, *PTAPE_PREPARE
 ---

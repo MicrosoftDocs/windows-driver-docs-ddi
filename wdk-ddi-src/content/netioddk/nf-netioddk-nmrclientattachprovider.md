@@ -38,8 +38,6 @@ api_location:
 - netio.dll
 api_name:
 - NmrClientAttachProvider
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - Dbgeng.h
 api_name:
 - ReconstructStack
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

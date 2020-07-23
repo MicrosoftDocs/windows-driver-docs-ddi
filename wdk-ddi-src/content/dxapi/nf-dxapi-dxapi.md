@@ -38,8 +38,6 @@ api_location:
 - Dxapi.dll
 api_name:
 - DxApi
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

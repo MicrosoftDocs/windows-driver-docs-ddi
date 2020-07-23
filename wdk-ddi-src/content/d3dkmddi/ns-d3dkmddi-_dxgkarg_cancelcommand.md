@@ -36,8 +36,6 @@ api_location:
 - D3dkmddi.h
 api_name:
 - DXGKARG_CANCELCOMMAND
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGKARG_CANCELCOMMAND

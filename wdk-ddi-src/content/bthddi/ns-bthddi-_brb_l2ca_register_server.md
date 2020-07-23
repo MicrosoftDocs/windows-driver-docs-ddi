@@ -37,8 +37,6 @@ api_location:
 - bthddi.h
 api_name:
 - _BRB_L2CA_REGISTER_SERVER
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

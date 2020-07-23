@@ -30,8 +30,6 @@ api_location:
 - d3d12umddi.h
 api_name: 
 - D3D12DDI_GPU_VIRTUAL_ADDRESS_RANGE_AND_STRIDE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

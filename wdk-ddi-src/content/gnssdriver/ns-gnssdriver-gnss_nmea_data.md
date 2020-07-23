@@ -37,8 +37,6 @@ api_location:
 - gnssdriver.h
 api_name:
 - GNSS_NMEA_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: GNSS_NMEA_DATA, *PGNSS_NMEA_DATA
 ---

@@ -37,8 +37,6 @@ api_location:
 - gnssdriver.h
 api_name:
 - GNSS_NI_RESPONSE
-product:
-- Windows
 targetos: Windows
 req.typenames: GNSS_NI_RESPONSE, *PGNSS_NI_RESPONSE
 ---

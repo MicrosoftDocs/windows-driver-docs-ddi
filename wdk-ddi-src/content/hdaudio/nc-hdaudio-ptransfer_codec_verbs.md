@@ -37,8 +37,6 @@ api_location:
 - hdaudio.h
 api_name:
 - TransferCodecVerbs
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IDebugRegisters.GetDescription
 - IDebugRegisters2.GetDescription
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - d3d9types.h
 api_name:
 - D3DSHADER_INSTRUCTION_OPCODE_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DSHADER_INSTRUCTION_OPCODE_TYPE
 ---

@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IDebugRegisters.SetValue
 - IDebugRegisters2.SetValue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

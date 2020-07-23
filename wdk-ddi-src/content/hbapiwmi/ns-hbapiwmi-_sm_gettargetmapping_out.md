@@ -37,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - SM_GetTargetMapping_OUT
-product:
-- Windows
 targetos: Windows
 req.typenames: SM_GetTargetMapping_OUT, *PSM_GetTargetMapping_OUT
 ---

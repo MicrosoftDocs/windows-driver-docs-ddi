@@ -37,8 +37,6 @@ api_location:
 - ntddstor.h
 api_name:
 - STORAGE_QUERY_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: STORAGE_QUERY_TYPE, *PSTORAGE_QUERY_TYPE
 ---

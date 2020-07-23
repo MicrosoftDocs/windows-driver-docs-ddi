@@ -30,8 +30,6 @@ api_location:
 - d3dukmdt.h
 api_name: 
 - _D3DDDI_DRIVERESCAPE_TRANSLATERESOURCEHANDLE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

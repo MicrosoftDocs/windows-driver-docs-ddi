@@ -38,8 +38,6 @@ api_location:
 - Hidparse.dll
 api_name:
 - HidP_SetUsageValueArray
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

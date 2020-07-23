@@ -37,8 +37,6 @@ api_location:
 - ntddpar.h
 api_name:
 - IOCTL_PAR_QUERY_RAW_DEVICE_ID
-product:
-- Windows
 targetos: Windows
 req.typenames: OFFLOAD_SECURITY_ASSOCIATION, *POFFLOAD_SECURITY_ASSOCIATION
 ---

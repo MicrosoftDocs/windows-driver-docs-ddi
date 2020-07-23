@@ -37,8 +37,6 @@ api_location:
 - avcstrm.h
 api_name:
 - AVCSTRM_BUFFER_STRUCT
-product:
-- Windows
 targetos: Windows
 req.typenames: AVCSTRM_BUFFER_STRUCT, *PAVCSTRM_BUFFER_STRUCT
 ---

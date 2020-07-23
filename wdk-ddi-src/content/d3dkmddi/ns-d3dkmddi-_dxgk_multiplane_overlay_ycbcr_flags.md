@@ -36,8 +36,6 @@ api_location:
 - D3dkmddi.h
 api_name:
 - DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS

@@ -37,8 +37,6 @@ api_location:
 - bidispl.dll
 api_name:
 - IBidiRequest.SetInputData
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

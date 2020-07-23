@@ -37,8 +37,6 @@ api_location:
 - ndiswwan.h
 api_name:
 - NDIS_WWAN_MAC_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_MAC_PARAMETERS, *PNDIS_WWAN_MAC_PARAMETERS
 ---

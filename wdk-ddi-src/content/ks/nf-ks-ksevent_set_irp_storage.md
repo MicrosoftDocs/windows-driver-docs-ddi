@@ -37,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KSEVENT_SET_IRP_STORAGE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

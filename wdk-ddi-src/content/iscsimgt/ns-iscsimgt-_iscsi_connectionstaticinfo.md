@@ -37,8 +37,6 @@ api_location:
 - iscsimgt.h
 api_name:
 - ISCSI_ConnectionStaticInfo
-product:
-- Windows
 targetos: Windows
 req.typenames: ISCSI_ConnectionStaticInfo, *PISCSI_ConnectionStaticInfo
 ---

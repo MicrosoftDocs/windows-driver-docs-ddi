@@ -37,8 +37,6 @@ api_location:
 - ntddmmc.h
 api_name:
 - GET_CONFIGURATION_IOCTL_INPUT
-product:
-- Windows
 targetos: Windows
 req.typenames: GET_CONFIGURATION_IOCTL_INPUT, *PGET_CONFIGURATION_IOCTL_INPUT
 ---

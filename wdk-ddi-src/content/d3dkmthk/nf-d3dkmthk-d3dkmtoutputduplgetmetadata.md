@@ -37,8 +37,6 @@ api_location:
 - API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name: 
 - D3DKMTOutputDuplGetMetaData
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

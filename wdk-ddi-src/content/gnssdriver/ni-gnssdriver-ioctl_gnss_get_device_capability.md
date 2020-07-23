@@ -37,8 +37,6 @@ api_location:
 - gnssdriver.h
 api_name:
 - IOCTL_GNSS_GET_DEVICE_CAPABILITY
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

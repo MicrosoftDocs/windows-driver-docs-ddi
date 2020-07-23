@@ -30,8 +30,6 @@ api_location:
 - d3d12umddi.h
 api_name: 
 - D3D12DDI_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_TOOLS_VISUALIZATION_HEADER_0054
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

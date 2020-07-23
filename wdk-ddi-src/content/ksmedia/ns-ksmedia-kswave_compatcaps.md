@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KSWAVE_COMPATCAPS
-product:
-- Windows
 targetos: Windows
 req.typenames: KSWAVE_COMPATCAPS, *PKSWAVE_COMPATCAPS
 ---

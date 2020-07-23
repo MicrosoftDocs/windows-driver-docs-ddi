@@ -36,8 +36,6 @@ api_location:
 - D3d10umddi.h
 api_name:
 - D3DWDDM1_3DDI_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DWDDM1_3DDI_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG

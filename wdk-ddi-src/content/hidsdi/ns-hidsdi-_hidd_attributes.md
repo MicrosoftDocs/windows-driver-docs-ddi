@@ -37,8 +37,6 @@ api_location:
 - hidsdi.h
 api_name:
 - HIDD_ATTRIBUTES
-product:
-- Windows
 targetos: Windows
 req.typenames: HIDD_ATTRIBUTES, *PHIDD_ATTRIBUTES
 ---

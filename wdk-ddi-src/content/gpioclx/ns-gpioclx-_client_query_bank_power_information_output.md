@@ -37,8 +37,6 @@ api_location:
 - Gpioclx.h
 api_name:
 - CLIENT_QUERY_BANK_POWER_INFORMATION_OUTPUT
-product:
-- Windows
 targetos: Windows
 req.typenames: CLIENT_QUERY_BANK_POWER_INFORMATION_OUTPUT, *PCLIENT_QUERY_BANK_POWER_INFORMATION_OUTPUT
 ---

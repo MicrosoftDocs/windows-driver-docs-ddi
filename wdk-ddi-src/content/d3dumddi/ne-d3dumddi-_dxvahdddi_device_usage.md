@@ -37,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - DXVAHDDDI_DEVICE_USAGE
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVAHDDDI_DEVICE_USAGE
 ---

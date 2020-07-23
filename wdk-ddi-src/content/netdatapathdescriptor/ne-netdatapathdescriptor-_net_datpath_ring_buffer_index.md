@@ -28,8 +28,6 @@ api_location:
 - netdatapathdescriptor.h
 api_name: 
 - _NET_DATPATH_RING_BUFFER_INDEX
-product:
-- Windows
 targetos: Windows
 ---
 

@@ -37,8 +37,6 @@ api_location:
 - mpiowmi.h
 api_name:
 - ClearPathHealthCounters_IN
-product:
-- Windows
 targetos: Windows
 req.typenames: ClearPathHealthCounters_IN, *PClearPathHealthCounters_IN
 ---

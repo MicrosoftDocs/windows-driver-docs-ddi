@@ -33,8 +33,6 @@ api_location:
 - dxgiddi.h
 api_name: 
 - PFNDDXGIDDI_SUBMITPRESENTTOHWQUEUECB
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

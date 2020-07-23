@@ -37,8 +37,6 @@ api_location:
 - EhStorBandMgmt.h
 api_name:
 - IOCTL_EHSTOR_BANDMGMT_SET_BAND_METADATA
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

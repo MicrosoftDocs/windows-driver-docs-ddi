@@ -37,8 +37,6 @@ api_location:
 - Acpiioct.h
 api_name:
 - ACPI_ENUM_CHILDREN_OUTPUT_BUFFER
-product:
-- Windows
 targetos: Windows
 req.typenames: ACPI_ENUM_CHILDREN_OUTPUT_BUFFER
 ---

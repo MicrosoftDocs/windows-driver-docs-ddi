@@ -37,8 +37,6 @@ api_location:
 - dxva.h
 api_name:
 - DXVA_AYUVsample2
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVA_AYUVsample2, *LPDXVA_AYUVsample2
 ---

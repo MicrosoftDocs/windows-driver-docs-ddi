@@ -37,8 +37,6 @@ api_location:
 - ndiswwan.h
 api_name:
 - NDIS_WWAN_SMS_DELETE
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_SMS_DELETE, *PNDIS_WWAN_SMS_DELETE
 ---

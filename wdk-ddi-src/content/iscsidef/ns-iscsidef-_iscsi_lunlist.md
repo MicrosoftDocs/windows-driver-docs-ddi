@@ -37,8 +37,6 @@ api_location:
 - iscsidef.h
 api_name:
 - ISCSI_LUNList
-product:
-- Windows
 targetos: Windows
 req.typenames: ISCSI_LUNList, *PISCSI_LUNList
 ---

@@ -30,8 +30,6 @@ api_location:
 - dxgiddi.h
 api_name: 
 - DXGIDDICB_SUBMITPRESENTTOHWQUEUE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

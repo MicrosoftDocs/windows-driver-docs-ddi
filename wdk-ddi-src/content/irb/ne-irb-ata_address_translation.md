@@ -37,8 +37,6 @@ api_location:
 - irb.h
 api_name:
 - ATA_ADDRESS_TRANSLATION
-product:
-- Windows
 targetos: Windows
 req.typenames: ATA_ADDRESS_TRANSLATION
 ---

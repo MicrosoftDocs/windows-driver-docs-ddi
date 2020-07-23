@@ -37,8 +37,6 @@ api_location:
 - extsfns.h
 api_name:
 - IDebugFailureAnalysis2.AddUlong64
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

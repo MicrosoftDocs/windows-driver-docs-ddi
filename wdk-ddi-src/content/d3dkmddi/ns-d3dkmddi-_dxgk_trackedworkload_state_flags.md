@@ -30,8 +30,6 @@ api_location:
 - d3dkmddi.h
 api_name: 
 - _DXGK_TRACKEDWORKLOAD_STATE_FLAGS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

@@ -38,8 +38,6 @@ api_location:
 api_name: 
 - NetTxQueueInitGetQueueId
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetTxQueueInitGetQueueId function

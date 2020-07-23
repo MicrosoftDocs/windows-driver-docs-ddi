@@ -37,8 +37,6 @@ api_location:
 - d3dhal.h
 api_name:
 - D3DHAL_DP2COMMAND
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DHAL_DP2COMMAND, *LPD3DHAL_DP2COMMAND
 ---

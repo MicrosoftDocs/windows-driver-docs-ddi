@@ -37,8 +37,6 @@ api_location:
 - filterpipeline.h
 api_name:
 - IPrintPipelinePropertyBag.GetProperty
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - SM_SendSMPPassThru_OUT
-product:
-- Windows
 targetos: Windows
 req.typenames: SM_SendSMPPassThru_OUT, *PSM_SendSMPPassThru_OUT
 ---

@@ -37,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - SetPersistentEntry_OUT
-product:
-- Windows
 targetos: Windows
 req.typenames: SetPersistentEntry_OUT, *PSetPersistentEntry_OUT
 ---

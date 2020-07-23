@@ -39,8 +39,6 @@ api_name:
 - IDebugClient3.CreateProcessAndAttachWide
 - IDebugClient4.CreateProcessAndAttachWide
 - IDebugClient5.CreateProcessAndAttachWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

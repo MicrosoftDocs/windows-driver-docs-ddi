@@ -37,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - SM_GetBindingCapability_IN
-product:
-- Windows
 targetos: Windows
 req.typenames: SM_GetBindingCapability_IN, *PSM_GetBindingCapability_IN
 ---

@@ -37,8 +37,6 @@ api_location:
 - irb.h
 api_name:
 - AtaPortDeviceReady
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

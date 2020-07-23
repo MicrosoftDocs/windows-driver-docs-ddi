@@ -37,8 +37,6 @@ api_location:
 - fwpsk.h
 api_name:
 - FWPS_FIELDS_ALE_BIND_REDIRECT_V6
-product:
-- Windows
 targetos: Windows
 req.typenames: FWPS_FIELDS_ALE_BIND_REDIRECT_V6
 ---

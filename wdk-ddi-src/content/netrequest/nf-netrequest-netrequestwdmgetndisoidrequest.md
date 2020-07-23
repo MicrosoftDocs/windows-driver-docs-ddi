@@ -38,8 +38,6 @@ api_location:
 api_name: 
 - NetRequestWdmGetNdisOidRequest
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetRequestWdmGetNdisOidRequest function

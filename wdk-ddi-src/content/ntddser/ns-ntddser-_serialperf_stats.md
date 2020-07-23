@@ -37,8 +37,6 @@ api_location:
 - Ntddser.h
 api_name:
 - SERIALPERF_STATS
-product:
-- Windows
 targetos: Windows
 req.typenames: SERIALPERF_STATS, *PSERIALPERF_STATS
 ---

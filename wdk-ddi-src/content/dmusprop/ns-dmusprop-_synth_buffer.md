@@ -37,8 +37,6 @@ api_location:
 - dmusprop.h
 api_name:
 - SYNTH_BUFFER
-product:
-- Windows
 targetos: Windows
 req.typenames: SYNTH_BUFFER, *PSYNTH_BUFFER
 ---

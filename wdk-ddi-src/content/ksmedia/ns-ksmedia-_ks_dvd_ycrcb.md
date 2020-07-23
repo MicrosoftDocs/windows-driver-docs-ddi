@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KS_DVD_YCrCb
-product:
-- Windows
 targetos: Windows
 req.typenames: KS_DVD_YCrCb, *PKS_DVD_YCrCb
 ---

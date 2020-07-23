@@ -35,8 +35,6 @@ api_location:
 - FltMgr.sys
 api_name: 
 - FltAcquirePushLockSharedEx
-product:
-- Windows
 targetos: Windows
 dev_langs:
 - c++

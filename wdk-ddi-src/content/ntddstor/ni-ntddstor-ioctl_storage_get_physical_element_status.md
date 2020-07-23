@@ -37,8 +37,6 @@ api_location:
 - ntddstor.h
 api_name:
 - IOCTL_STORAGE_GET_PHYSICAL_ELEMENT_STATUS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

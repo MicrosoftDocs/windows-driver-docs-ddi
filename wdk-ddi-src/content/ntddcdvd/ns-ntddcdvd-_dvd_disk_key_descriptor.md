@@ -37,8 +37,6 @@ api_location:
 - ntddcdvd.h
 api_name:
 - DVD_DISK_KEY_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: DVD_DISK_KEY_DESCRIPTOR, *PDVD_DISK_KEY_DESCRIPTOR
 ---

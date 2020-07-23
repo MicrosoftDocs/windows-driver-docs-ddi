@@ -37,8 +37,6 @@ api_location:
 - ksproxy.h
 api_name:
 - IKsDataTypeHandler.KsCompleteIoOperation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

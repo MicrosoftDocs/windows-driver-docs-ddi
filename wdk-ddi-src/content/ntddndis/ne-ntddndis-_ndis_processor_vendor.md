@@ -37,8 +37,6 @@ api_location:
 - ntddndis.h
 api_name:
 - NDIS_PROCESSOR_VENDOR
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_PROCESSOR_VENDOR, *PNDIS_PROCESSOR_VENDOR
 ---

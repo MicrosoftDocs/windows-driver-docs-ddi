@@ -38,8 +38,6 @@ api_location:
 - Tape.dll
 api_name:
 - TapeClassLiDiv
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - drmk.h
 api_name:
 - DRMFORWARD
-product:
-- Windows
 targetos: Windows
 req.typenames: DRMFORWARD, *PDRMFORWARD
 ---

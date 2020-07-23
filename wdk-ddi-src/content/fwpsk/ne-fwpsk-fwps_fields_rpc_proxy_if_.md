@@ -37,8 +37,6 @@ api_location:
 - fwpsk.h
 api_name:
 - FWPS_FIELDS_RPC_PROXY_IF_IF
-product:
-- Windows
 targetos: Windows
 req.typenames: FWPS_FIELDS_RPC_PROXY_IF_IF
 ---

@@ -37,8 +37,6 @@ api_location:
 - ndischimney.h
 api_name:
 - NdisMTerminateOffloadComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - hdaudio.h
 api_name:
 - HDAUDIO_CODEC_TRANSFER
-product:
-- Windows
 targetos: Windows
 req.typenames: HDAUDIO_CODEC_TRANSFER, *PHDAUDIO_CODEC_TRANSFER
 ---

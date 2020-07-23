@@ -37,8 +37,6 @@ api_location:
 - Dxgiddi.h
 api_name:
 - DXGI_DDI_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGI_DDI_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE_INFO
 ---

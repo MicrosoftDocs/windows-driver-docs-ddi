@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KSEVENT_TUNER_INITIATE_SCAN_S
-product:
-- Windows
 targetos: Windows
 req.typenames: KSEVENT_TUNER_INITIATE_SCAN_S, *PKSEVENT_TUNER_INITIATE_SCAN_S
 ---

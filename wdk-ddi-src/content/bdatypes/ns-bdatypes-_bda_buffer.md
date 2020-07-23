@@ -37,8 +37,6 @@ api_location:
 - Bdatypes.h
 api_name:
 - BDA_BUFFER
-product:
-- Windows
 targetos: Windows
 req.typenames: BDA_BUFFER, *PBDA_BUFFER
 ---

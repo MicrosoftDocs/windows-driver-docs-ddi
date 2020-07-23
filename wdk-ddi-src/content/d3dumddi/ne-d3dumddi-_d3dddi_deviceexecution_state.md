@@ -37,8 +37,6 @@ api_location:
 - D3dumddi.h
 api_name:
 - D3DDDI_DEVICEEXECUTION_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDI_DEVICEEXECUTION_STATE
 ---

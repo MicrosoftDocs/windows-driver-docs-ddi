@@ -37,8 +37,6 @@ api_location:
 - iscsimgt.h
 api_name:
 - ISCSI_RedirectPortalInfo
-product:
-- Windows
 targetos: Windows
 req.typenames: ISCSI_RedirectPortalInfo, *PISCSI_RedirectPortalInfo
 ---

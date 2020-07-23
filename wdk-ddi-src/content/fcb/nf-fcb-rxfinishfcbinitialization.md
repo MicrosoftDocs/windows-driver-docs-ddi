@@ -37,8 +37,6 @@ api_location:
 - fcb.h
 api_name:
 - RxFinishFcbInitialization
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

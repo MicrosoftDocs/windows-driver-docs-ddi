@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IDebugAdvanced2.FindSourceFileAndToken
 - IDebugAdvanced3.FindSourceFileAndToken
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

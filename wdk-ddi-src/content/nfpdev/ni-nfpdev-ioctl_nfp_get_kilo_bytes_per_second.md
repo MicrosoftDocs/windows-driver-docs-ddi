@@ -37,8 +37,6 @@ api_location:
 - nfpdev.h
 api_name:
 - IOCTL_NFP_GET_KILO_BYTES_PER_SECOND
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -30,8 +30,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - ScriptDebugEventInformation
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

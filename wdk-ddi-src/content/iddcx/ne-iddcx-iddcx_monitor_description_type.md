@@ -37,8 +37,6 @@ api_location:
 - iddcx.h
 api_name:
 - IDDCX_MONITOR_DESCRIPTION_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - iddcx.h
 api_name:
 - PFN_IDD_CX_MONITOR_SET_GAMMA_RAMP
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

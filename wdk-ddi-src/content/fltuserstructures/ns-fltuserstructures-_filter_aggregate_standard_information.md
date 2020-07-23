@@ -37,8 +37,6 @@ api_location:
 - fltuserstructures.h
 api_name:
 - FILTER_AGGREGATE_STANDARD_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: FILTER_AGGREGATE_STANDARD_INFORMATION, *PFILTER_AGGREGATE_STANDARD_INFORMATION
 ---

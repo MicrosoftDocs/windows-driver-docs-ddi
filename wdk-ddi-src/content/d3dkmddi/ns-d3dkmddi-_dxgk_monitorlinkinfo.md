@@ -37,8 +37,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGK_MONITORLINKINFO
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_MONITORLINKINFO

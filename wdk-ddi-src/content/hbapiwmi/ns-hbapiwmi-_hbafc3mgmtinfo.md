@@ -37,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - HBAFC3MgmtInfo
-product:
-- Windows
 targetos: Windows
 req.typenames: HBAFC3MgmtInfo, *PHBAFC3MgmtInfo
 ---

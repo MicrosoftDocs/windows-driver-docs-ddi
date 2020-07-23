@@ -30,8 +30,6 @@ api_location:
 - d3dumddi.h
 api_name: 
 - _D3DDDITRIPATCH_INFO
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

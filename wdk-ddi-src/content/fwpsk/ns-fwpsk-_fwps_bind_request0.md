@@ -37,8 +37,6 @@ api_location:
 - fwpsk.h
 api_name:
 - FWPS_BIND_REQUEST0
-product:
-- Windows
 targetos: Windows
 req.typenames: FWPS_BIND_REQUEST0
 ---

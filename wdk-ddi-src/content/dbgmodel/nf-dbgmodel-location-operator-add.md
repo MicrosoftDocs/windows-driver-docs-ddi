@@ -34,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - operator+
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ---

@@ -37,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - ProtocolStatusEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

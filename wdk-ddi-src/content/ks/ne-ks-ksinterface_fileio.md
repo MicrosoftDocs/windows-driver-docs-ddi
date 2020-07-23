@@ -37,8 +37,6 @@ api_location:
 - Ks.h
 api_name:
 - KSINTERFACE_FILEIO
-product:
-- Windows
 targetos: Windows
 req.typenames: KSINTERFACE_FILEIO
 ---

@@ -37,8 +37,6 @@ api_location:
 - Ks.h
 api_name:
 - KSATTRIBUTE_LIST
-product:
-- Windows
 targetos: Windows
 req.typenames: KSATTRIBUTE_LIST, *PKSATTRIBUTE_LIST
 ---

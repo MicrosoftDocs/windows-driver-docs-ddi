@@ -37,8 +37,6 @@ api_location:
 - Dbgeng.h
 api_name:
 - FreeStackSymFrames
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

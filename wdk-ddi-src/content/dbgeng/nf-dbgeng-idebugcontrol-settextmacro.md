@@ -39,8 +39,6 @@ api_name:
 - IDebugControl.SetTextMacro
 - IDebugControl2.SetTextMacro
 - IDebugControl3.SetTextMacro
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

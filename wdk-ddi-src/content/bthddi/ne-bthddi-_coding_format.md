@@ -37,8 +37,6 @@ api_location:
 - bthddi.h
 api_name:
 - CODING_FORMAT
-product:
-- Windows
 targetos: Windows
 req.typenames: CODING_FORMAT, *PCODING_FORMAT
 ---

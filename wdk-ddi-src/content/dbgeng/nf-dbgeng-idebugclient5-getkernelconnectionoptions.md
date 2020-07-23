@@ -41,8 +41,6 @@ api_name:
 - IDebugClient3.GetKernelConnectionOptions
 - IDebugClient4.GetKernelConnectionOptions
 - IDebugClient5.GetKernelConnectionOptions
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

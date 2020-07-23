@@ -37,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDI_OVERLAYCOLORCONTROLS
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDI_OVERLAYCOLORCONTROLS
 ---

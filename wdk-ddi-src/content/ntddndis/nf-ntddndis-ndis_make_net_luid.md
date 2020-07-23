@@ -35,8 +35,6 @@ api_location:
 - ntddndis.h
 api_name: 
 - NDIS_MAKE_NET_LUID
-product:
-- Windows
 targetos: Windows
 
 ---

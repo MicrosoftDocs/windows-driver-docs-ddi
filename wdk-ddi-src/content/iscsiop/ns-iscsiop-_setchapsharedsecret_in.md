@@ -37,8 +37,6 @@ api_location:
 - iscsiop.h
 api_name:
 - SetCHAPSharedSecret_IN
-product:
-- Windows
 targetos: Windows
 req.typenames: SetCHAPSharedSecret_IN, *PSetCHAPSharedSecret_IN
 ---

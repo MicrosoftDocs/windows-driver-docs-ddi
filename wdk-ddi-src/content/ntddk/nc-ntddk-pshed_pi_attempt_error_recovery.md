@@ -37,8 +37,6 @@ api_location:
 - Ntddk.h
 api_name:
 - AttemptRecovery
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

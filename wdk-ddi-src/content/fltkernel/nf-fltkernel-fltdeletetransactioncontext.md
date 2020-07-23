@@ -38,8 +38,6 @@ api_location:
 - FltMgr.dll
 api_name:
 - FltDeleteTransactionContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

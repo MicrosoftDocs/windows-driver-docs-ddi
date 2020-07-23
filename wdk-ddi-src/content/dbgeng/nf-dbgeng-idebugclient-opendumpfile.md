@@ -41,8 +41,6 @@ api_name:
 - IDebugClient3.OpenDumpFile
 - IDebugClient4.OpenDumpFile
 - IDebugClient5.OpenDumpFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

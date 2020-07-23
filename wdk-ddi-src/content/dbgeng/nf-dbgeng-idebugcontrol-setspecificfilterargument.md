@@ -39,8 +39,6 @@ api_name:
 - IDebugControl.SetSpecificFilterArgument
 - IDebugControl2.SetSpecificFilterArgument
 - IDebugControl3.SetSpecificFilterArgument
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

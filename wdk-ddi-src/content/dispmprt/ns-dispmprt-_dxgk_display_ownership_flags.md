@@ -37,8 +37,6 @@ api_location:
 - dispmprt.h
 api_name:
 - DXGK_DISPLAY_OWNERSHIP_FLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGK_DISPLAY_OWNERSHIP_FLAGS, *PDXGK_DISPLAY_OWNERSHIP_FLAGS
 ---

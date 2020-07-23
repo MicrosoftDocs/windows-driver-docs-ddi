@@ -36,8 +36,6 @@ api_location:
 - D3dkmddi.h
 api_name:
 - D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS

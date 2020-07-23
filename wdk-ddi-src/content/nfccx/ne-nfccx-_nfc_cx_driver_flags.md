@@ -37,8 +37,6 @@ api_location:
 - nfccx.h
 api_name:
 - NFC_CX_DRIVER_FLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: NFC_CX_DRIVER_FLAGS, *PNFC_CX_DRIVER_FLAGS
 ---

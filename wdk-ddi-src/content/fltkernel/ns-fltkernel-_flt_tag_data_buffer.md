@@ -37,8 +37,6 @@ api_location:
 - fltkernel.h
 api_name:
 - FLT_TAG_DATA_BUFFER
-product:
-- Windows
 targetos: Windows
 req.typenames: FLT_TAG_DATA_BUFFER, *PFLT_TAG_DATA_BUFFER
 ---

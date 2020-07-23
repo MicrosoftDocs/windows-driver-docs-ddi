@@ -37,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltReferenceContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

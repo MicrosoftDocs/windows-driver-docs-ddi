@@ -35,8 +35,6 @@ api_location:
 - mbbcxstub.lib
 api_name: 
 - MbbAdapterInitialize
-product:
-- Windows
 targetos: Windows
 
 

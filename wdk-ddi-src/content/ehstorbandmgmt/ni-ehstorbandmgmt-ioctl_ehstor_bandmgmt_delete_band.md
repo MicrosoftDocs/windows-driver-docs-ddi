@@ -37,8 +37,6 @@ api_location:
 - EhStorBandMgmt.h
 api_name:
 - IOCTL_EHSTOR_BANDMGMT_DELETE_BAND
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

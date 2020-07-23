@@ -37,8 +37,6 @@ api_location:
 - D4drvif.h
 api_name:
 - DOT4_DC_CREATE_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT4_DC_CREATE_DATA, *PDOT4_DC_CREATE_DATA
 ---

@@ -37,8 +37,6 @@ api_location:
 - 1394.h
 api_name:
 - SET_LOCAL_HOST_PROPS3
-product:
-- Windows
 targetos: Windows
 req.typenames: SET_LOCAL_HOST_PROPS3, *PSET_LOCAL_HOST_PROPS3
 ---

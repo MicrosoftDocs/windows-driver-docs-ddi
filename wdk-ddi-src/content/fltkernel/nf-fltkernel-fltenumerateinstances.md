@@ -38,8 +38,6 @@ api_location:
 - FltMgr.dll
 api_name:
 - FltEnumerateInstances
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -34,8 +34,6 @@ api_location:
 - d3dumddi.h
 api_name: 
 - MAKE_D3DDDIHRESULT
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

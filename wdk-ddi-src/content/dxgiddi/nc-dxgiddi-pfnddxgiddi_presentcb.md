@@ -37,8 +37,6 @@ api_location:
 - dxgiddi.h
 api_name:
 - pfnPresentCbDXGI
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

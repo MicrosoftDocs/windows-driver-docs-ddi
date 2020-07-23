@@ -37,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KSPIN_MDL_CACHING_EVENT
-product:
-- Windows
 targetos: Windows
 req.typenames: KSPIN_MDL_CACHING_EVENT
 ---

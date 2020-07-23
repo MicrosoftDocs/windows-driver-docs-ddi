@@ -37,8 +37,6 @@ api_location:
 - 61883.h
 api_name:
 - CMP_GET_PLUG_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: CMP_GET_PLUG_STATE, *PCMP_GET_PLUG_STATE
 ---

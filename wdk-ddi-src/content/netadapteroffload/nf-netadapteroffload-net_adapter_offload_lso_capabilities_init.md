@@ -35,8 +35,6 @@ api_location:
 - netadaptercxstub.lib
 api_name: 
 - NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES_INIT
-product:
-- Windows
 targetos: Windows
 ms.custom: 19H1
 ---

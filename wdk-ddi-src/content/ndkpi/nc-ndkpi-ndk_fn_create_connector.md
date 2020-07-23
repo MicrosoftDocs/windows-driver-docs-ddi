@@ -37,8 +37,6 @@ api_location:
 - ndkpi.h
 api_name:
 - NdkCreateConnector
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

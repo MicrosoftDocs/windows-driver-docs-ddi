@@ -37,8 +37,6 @@ api_location:
 - iscsiop.h
 api_name:
 - SetInitiatorNodeName_OUT
-product:
-- Windows
 targetos: Windows
 req.typenames: SetInitiatorNodeName_OUT, *PSetInitiatorNodeName_OUT
 ---

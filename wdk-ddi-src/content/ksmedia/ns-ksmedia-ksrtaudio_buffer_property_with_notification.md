@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION
-product:
-- Windows
 targetos: Windows
 req.typenames: KSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION, *PKSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION
 ---

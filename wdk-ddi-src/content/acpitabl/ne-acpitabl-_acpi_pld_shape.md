@@ -27,8 +27,6 @@ api_location:
 - acpitabl.h
 api_name: 
 - _ACPI_PLD_SHAPE
-product:
-- Windows
 targetos: Windows
 ---
 

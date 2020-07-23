@@ -36,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - D3D11_1DDI_ARCHITECTURE_INFO_DATA
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D11_1DDI_ARCHITECTURE_INFO_DATA

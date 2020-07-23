@@ -37,8 +37,6 @@ api_location:
 - lamp.h
 api_name:
 - LAMP_CAPABILITIES_WHITE
-product:
-- Windows
 targetos: Windows
 req.typenames: LAMP_CAPABILITIES_WHITE
 ---

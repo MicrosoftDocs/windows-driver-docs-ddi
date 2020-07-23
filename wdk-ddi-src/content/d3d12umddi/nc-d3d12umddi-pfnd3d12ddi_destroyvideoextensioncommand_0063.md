@@ -36,8 +36,6 @@ api_location:
  - d3d12umddi.h
 api_name: 
  - PFND3D12DDI_DESTROYVIDEOEXTENSIONCOMMAND_0063
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

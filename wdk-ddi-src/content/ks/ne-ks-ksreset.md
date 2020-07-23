@@ -37,8 +37,6 @@ api_location:
 - Ks.h
 api_name:
 - KSRESET
-product:
-- Windows
 targetos: Windows
 req.typenames: KSRESET
 ---

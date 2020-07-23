@@ -28,8 +28,6 @@ api_location:
 - mbbcx.h
 api_name: 
 - _MBB_MBIM_VERSION
-product:
-- Windows
 targetos: Windows
 ms.custom: 19H1
 ---

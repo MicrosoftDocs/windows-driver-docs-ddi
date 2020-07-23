@@ -38,8 +38,6 @@ api_location:
 api_name: 
 - NetRequestCompleteWithoutInformation
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetRequestCompleteWithoutInformation function

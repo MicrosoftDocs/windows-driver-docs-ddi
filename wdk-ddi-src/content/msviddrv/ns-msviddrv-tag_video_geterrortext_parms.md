@@ -37,8 +37,6 @@ api_location:
 - Msviddrv.h
 api_name:
 - VIDEO_GETERRORTEXT_PARMS
-product:
-- Windows
 targetos: Windows
 req.typenames: VIDEO_GETERRORTEXT_PARMS, *LPVIDEO_GETERRORTEXT_PARMS
 ---

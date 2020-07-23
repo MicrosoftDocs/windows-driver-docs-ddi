@@ -37,8 +37,6 @@ api_location:
 - ksproxy.h
 api_name:
 - IKsPin.KsMediaSamplesCompleted
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -39,8 +39,6 @@ api_name:
 - IDebugDataSpaces2.FillPhysical
 - IDebugDataSpaces3.FillPhysical
 - IDebugDataSpaces4.FillPhysical
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

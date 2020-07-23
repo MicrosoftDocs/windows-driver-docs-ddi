@@ -37,8 +37,6 @@ api_location:
 - EhStorBandMgmt.h
 api_name:
 - GET_BAND_METADATA_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: GET_BAND_METADATA_PARAMETERS, *PGET_BAND_METADATA_PARAMETERS
 ---

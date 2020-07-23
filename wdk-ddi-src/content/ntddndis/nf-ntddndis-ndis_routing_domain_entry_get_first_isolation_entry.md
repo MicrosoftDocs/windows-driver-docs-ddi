@@ -35,8 +35,6 @@ api_location:
 - ntddndis.h
 api_name: 
 - NDIS_ROUTING_DOMAIN_ENTRY_GET_FIRST_ISOLATION_ENTRY
-product:
-- Windows
 targetos: Windows
 
 ---

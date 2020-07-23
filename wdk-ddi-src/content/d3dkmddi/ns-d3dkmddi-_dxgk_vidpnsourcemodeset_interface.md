@@ -36,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGK_VIDPNSOURCEMODESET_INTERFACE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_VIDPNSOURCEMODESET_INTERFACE

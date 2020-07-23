@@ -37,8 +37,6 @@ api_location:
 - hidpi.h
 api_name:
 - HIDP_VALUE_CAPS
-product:
-- Windows
 targetos: Windows
 req.typenames: HIDP_VALUE_CAPS, *PHIDP_VALUE_CAPS
 ---

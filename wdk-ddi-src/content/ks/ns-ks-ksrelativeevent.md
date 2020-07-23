@@ -37,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KSRELATIVEEVENT
-product:
-- Windows
 targetos: Windows
 req.typenames: KSRELATIVEEVENT
 ---

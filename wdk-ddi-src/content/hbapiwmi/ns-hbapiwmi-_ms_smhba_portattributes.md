@@ -37,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - MS_SMHBA_PORTATTRIBUTES
-product:
-- Windows
 targetos: Windows
 req.typenames: MS_SMHBA_PORTATTRIBUTES, *PMS_SMHBA_PORTATTRIBUTES
 ---

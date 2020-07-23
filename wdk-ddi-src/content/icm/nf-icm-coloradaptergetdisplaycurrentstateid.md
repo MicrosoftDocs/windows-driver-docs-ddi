@@ -32,8 +32,6 @@ api_location:
 -   NtosKrnl.exe
 api_name:
 -   ColorAdapterGetDisplayCurrentStateID
-product:
-- Windows
 targetos: Windows
 
 ---

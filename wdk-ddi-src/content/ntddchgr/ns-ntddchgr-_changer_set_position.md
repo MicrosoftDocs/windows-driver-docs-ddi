@@ -37,8 +37,6 @@ api_location:
 - ntddchgr.h
 api_name:
 - CHANGER_SET_POSITION
-product:
-- Windows
 targetos: Windows
 req.typenames: CHANGER_SET_POSITION, *PCHANGER_SET_POSITION
 ---

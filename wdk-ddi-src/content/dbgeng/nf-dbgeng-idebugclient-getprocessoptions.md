@@ -41,8 +41,6 @@ api_name:
 - IDebugClient3.GetProcessOptions
 - IDebugClient4.GetProcessOptions
 - IDebugClient5.GetProcessOptions
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

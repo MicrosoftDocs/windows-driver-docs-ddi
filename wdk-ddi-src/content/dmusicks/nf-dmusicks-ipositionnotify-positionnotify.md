@@ -37,8 +37,6 @@ api_location:
 - Dmusicks.h
 api_name:
 - IPositionNotify.PositionNotify
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

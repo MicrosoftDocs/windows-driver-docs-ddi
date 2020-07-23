@@ -37,8 +37,6 @@ api_location:
 - iddcx.h
 api_name:
 - PFN_IDD_CX_MONITOR_OPM_CREATE_PROTECTED_OUTPUT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

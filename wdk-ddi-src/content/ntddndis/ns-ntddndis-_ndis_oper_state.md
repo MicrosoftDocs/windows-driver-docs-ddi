@@ -37,8 +37,6 @@ api_location:
 - ntddndis.h
 api_name:
 - NDIS_OPER_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_OPER_STATE, *PNDIS_OPER_STATE
 ---

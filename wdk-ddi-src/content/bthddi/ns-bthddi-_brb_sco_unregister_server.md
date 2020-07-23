@@ -37,8 +37,6 @@ api_location:
 - bthddi.h
 api_name:
 - _BRB_SCO_UNREGISTER_SERVER
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

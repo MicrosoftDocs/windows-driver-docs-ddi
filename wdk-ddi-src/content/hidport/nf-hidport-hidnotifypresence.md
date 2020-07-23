@@ -30,8 +30,6 @@ api_location:
 - Hid.dll
 api_name:
 - HidNotifyPresence
-product:
-- Windows
 targetos: Windows
 ---
 

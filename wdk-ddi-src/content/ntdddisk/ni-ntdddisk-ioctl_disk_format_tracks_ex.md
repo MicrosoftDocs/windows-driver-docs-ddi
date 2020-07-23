@@ -37,8 +37,6 @@ api_location:
 - Ntdddisk.h
 api_name:
 - IOCTL_DISK_FORMAT_TRACKS_EX
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

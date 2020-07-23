@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IDebugClient4.WriteDumpFileWide
 - IDebugClient5.WriteDumpFileWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

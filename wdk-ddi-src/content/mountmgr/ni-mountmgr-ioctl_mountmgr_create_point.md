@@ -37,8 +37,6 @@ api_location:
 - Mountmgr.h
 api_name:
 - IOCTL_MOUNTMGR_CREATE_POINT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

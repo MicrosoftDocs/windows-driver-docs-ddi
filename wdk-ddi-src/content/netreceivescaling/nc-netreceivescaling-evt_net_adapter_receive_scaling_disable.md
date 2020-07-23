@@ -34,8 +34,6 @@ api_location:
 - netreceivescaling.h
 api_name: 
 - EVT_NET_ADAPTER_RECEIVE_SCALING_DISABLE
-product:
-- Windows
 targetos: Windows
 ---
 

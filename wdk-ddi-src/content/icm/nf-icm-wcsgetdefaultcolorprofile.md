@@ -35,8 +35,6 @@ api_location:
 -   Mscms.dll
 api_name:
 -   WcsGetDefaultColorProfile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - Dxgitype.h
 api_name:
 - DXGI_GAMMA_CONTROL_CAPABILITIES
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGI_GAMMA_CONTROL_CAPABILITIES
 ---

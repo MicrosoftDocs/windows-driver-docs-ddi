@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KSDS3D_HRTF_PARAMS_MSG
-product:
-- Windows
 targetos: Windows
 req.typenames: KSDS3D_HRTF_PARAMS_MSG, *PKSDS3D_HRTF_PARAMS_MSG
 ---

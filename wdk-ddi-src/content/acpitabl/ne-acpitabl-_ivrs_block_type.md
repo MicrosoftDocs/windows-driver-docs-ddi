@@ -27,8 +27,6 @@ api_location:
 - acpitabl.h
 api_name: 
 - _IVRS_BLOCK_TYPE
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

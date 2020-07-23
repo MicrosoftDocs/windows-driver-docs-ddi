@@ -34,8 +34,6 @@ api_location:
 - d3dumddi.h
 api_name: 
 - D3DDDI_VERSION64_FROM32
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

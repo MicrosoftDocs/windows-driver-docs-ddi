@@ -37,8 +37,6 @@ api_location:
 - kbdmou.h
 api_name:
 - CONNECT_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: CONNECT_DATA, *PCONNECT_DATA
 ---

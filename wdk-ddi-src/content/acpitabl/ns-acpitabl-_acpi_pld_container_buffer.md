@@ -30,8 +30,6 @@ api_location:
 - acpitabl.h
 api_name: 
 - _ACPI_PLD_CONTAINER_BUFFER
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

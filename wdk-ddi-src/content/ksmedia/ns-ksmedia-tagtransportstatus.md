@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - TRANSPORTSTATUS
-product:
-- Windows
 targetos: Windows
 req.typenames: TRANSPORTSTATUS, *PTRANSPORTSTATUS
 ---

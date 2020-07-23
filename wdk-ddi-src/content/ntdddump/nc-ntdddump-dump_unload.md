@@ -37,8 +37,6 @@ api_location:
 - ntdddump.h
 api_name:
 - Dump_Unload
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

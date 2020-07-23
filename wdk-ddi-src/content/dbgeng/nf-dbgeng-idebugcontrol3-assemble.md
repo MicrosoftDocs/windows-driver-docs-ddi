@@ -39,8 +39,6 @@ api_name:
 - IDebugControl.Assemble
 - IDebugControl2.Assemble
 - IDebugControl3.Assemble
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

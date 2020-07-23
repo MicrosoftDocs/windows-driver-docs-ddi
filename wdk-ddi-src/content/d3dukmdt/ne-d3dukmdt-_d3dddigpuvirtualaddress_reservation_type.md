@@ -27,8 +27,6 @@ api_location:
 - d3dukmdt.h
 api_name: 
 - _D3DDDIGPUVIRTUALADDRESS_RESERVATION_TYPE
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

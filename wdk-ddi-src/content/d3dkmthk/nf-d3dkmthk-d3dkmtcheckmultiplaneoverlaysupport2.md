@@ -34,8 +34,6 @@ api_location:
 - Gdi32.dll
 api_name: 
 - D3DKMTCheckMultiPlaneOverlaySupport2
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

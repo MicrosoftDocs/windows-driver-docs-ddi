@@ -38,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisFreeNetBufferPool
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - IddCx.dll
 api_name:
 - IddCxSwapChainGetDirtyRects
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,8 +38,6 @@ api_location:
 - Bdasup.dll
 api_name:
 - BdaCreateFilterFactory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - scsi.h
 api_name:
 - TRACK_INFORMATION2
-product:
-- Windows
 targetos: Windows
 req.typenames: TRACK_INFORMATION2, *PTRACK_INFORMATION2
 ---

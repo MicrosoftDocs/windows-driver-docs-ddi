@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - TRANSPORTAUDIOPARMS
-product:
-- Windows
 targetos: Windows
 req.typenames: TRANSPORTAUDIOPARMS, *PTRANSPORTAUDIOPARMS
 ---

@@ -27,8 +27,6 @@ api_location:
 - acpitabl.h
 api_name: 
 - _IVHD_ENTRY_TYPE
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

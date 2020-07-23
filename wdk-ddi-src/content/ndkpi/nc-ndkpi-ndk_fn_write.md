@@ -37,8 +37,6 @@ api_location:
 - ndkpi.h
 api_name:
 - NdkWrite
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

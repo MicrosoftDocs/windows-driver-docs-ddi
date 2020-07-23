@@ -30,8 +30,6 @@ api_location:
 - dispmprt.h
 api_name: 
 - _DXGK_DIAGTYPE_PROGRESSIONS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

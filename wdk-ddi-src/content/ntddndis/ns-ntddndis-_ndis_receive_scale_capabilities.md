@@ -37,8 +37,6 @@ api_location:
 - Ntddndis.h
 api_name:
 - NDIS_RECEIVE_SCALE_CAPABILITIES
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_RECEIVE_SCALE_CAPABILITIES, *PNDIS_RECEIVE_SCALE_CAPABILITIES
 ---

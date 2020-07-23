@@ -30,8 +30,6 @@ api_location:
 - d3dukmdt.h
 api_name: 
 - _GPUP_DRIVER_ESCAPE_INPUT
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

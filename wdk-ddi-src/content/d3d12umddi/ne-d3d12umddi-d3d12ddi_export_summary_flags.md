@@ -27,8 +27,6 @@ api_location:
 - d3d12umddi.h
 api_name: 
 - D3D12DDI_EXPORT_SUMMARY_FLAGS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

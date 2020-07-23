@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KS_DATARANGE_VIDEO
-product:
-- Windows
 targetos: Windows
 req.typenames: KS_DATARANGE_VIDEO, *PKS_DATARANGE_VIDEO
 ---

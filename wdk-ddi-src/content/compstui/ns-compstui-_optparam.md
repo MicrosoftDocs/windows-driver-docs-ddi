@@ -37,8 +37,6 @@ api_location:
 - compstui.h
 api_name:
 - OPTPARAM
-product:
-- Windows
 targetos: Windows
 req.typenames: OPTPARAM, *POPTPARAM
 ---

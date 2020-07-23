@@ -37,8 +37,6 @@ api_location:
 - ntddndis.h
 api_name:
 - NDIS_INTERRUPT_MODERATION_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_INTERRUPT_MODERATION_PARAMETERS, *PNDIS_INTERRUPT_MODERATION_PARAMETERS
 ---

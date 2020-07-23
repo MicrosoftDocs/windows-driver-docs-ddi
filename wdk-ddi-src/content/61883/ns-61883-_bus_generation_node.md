@@ -37,8 +37,6 @@ api_location:
 - 61883.h
 api_name:
 - BUS_GENERATION_NODE
-product:
-- Windows
 targetos: Windows
 req.typenames: BUS_GENERATION_NODE, *PBUS_GENERATION_NODE
 ---

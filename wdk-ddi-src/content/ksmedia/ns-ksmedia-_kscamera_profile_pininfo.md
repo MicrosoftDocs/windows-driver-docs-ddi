@@ -37,8 +37,6 @@ api_location:
 - Ksmedia.h
 api_name:
 - KSCAMERA_PROFILE_PININFO
-product:
-- Windows
 targetos: Windows
 req.typenames: KSCAMERA_PROFILE_PININFO, *PKSCAMERA_PROFILE_PININFO
 ---

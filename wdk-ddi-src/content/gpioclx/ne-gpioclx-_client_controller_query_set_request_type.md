@@ -37,8 +37,6 @@ api_location:
 - Gpioclx.h
 api_name:
 - CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, *PCLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE
 ---

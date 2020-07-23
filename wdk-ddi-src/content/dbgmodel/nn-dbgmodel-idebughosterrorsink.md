@@ -29,8 +29,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostErrorSink
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

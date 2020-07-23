@@ -34,8 +34,6 @@ api_location:
 - netpacketqueue.h
 api_name: 
 - EVT_PACKET_QUEUE_SET_NOTIFICATION_ENABLED
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IDebugBreakpoint.SetOffset
 - IDebugBreakpoint2.SetOffset
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

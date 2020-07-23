@@ -38,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisCmCloseCallComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

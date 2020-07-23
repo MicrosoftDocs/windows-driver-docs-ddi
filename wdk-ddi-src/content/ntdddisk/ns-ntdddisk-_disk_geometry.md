@@ -37,8 +37,6 @@ api_location:
 - ntdddisk.h
 api_name:
 - DISK_GEOMETRY
-product:
-- Windows
 targetos: Windows
 req.typenames: DISK_GEOMETRY, *PDISK_GEOMETRY
 ---

@@ -37,8 +37,6 @@ api_location:
 - fwpsk.h
 api_name:
 - FWPS_FIELDS_RPC_EP_ADD
-product:
-- Windows
 targetos: Windows
 req.typenames: FWPS_FIELDS_RPC_EP_ADD
 ---

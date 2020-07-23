@@ -30,8 +30,6 @@ api_location:
 - d3d12umddi.h
 api_name: 
 - D3D12DDI_RAYTRACING_GEOMETRY_AABBS_DESC_0054
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

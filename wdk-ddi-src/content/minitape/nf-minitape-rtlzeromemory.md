@@ -37,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlZeroMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: TAPE_STATUS, *PTAPE_STATUS
 ---

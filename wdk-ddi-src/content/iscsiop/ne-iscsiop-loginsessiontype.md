@@ -37,8 +37,6 @@ api_location:
 - iscsiop.h
 api_name:
 - LOGINSESSIONTYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: LOGINSESSIONTYPE, *PLOGINSESSIONTYPE
 ---

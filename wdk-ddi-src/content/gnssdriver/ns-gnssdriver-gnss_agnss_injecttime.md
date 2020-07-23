@@ -37,8 +37,6 @@ api_location:
 - gnssdriver.h
 api_name:
 - GNSS_AGNSS_INJECTTIME
-product:
-- Windows
 targetos: Windows
 req.typenames: GNSS_AGNSS_INJECTTIME, *PGNSS_AGNSS_INJECTTIME
 ---

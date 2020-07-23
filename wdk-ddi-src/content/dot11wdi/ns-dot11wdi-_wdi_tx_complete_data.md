@@ -37,8 +37,6 @@ api_location:
 - dot11wdi.h
 api_name:
 - WDI_TX_COMPLETE_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: WDI_TX_COMPLETE_DATA, *PWDI_TX_COMPLETE_DATA
 ---

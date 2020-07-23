@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IDebugDataSpaces3.EndEnumTagged
 - IDebugDataSpaces4.EndEnumTagged
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

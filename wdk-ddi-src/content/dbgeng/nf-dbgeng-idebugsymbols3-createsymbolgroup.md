@@ -39,8 +39,6 @@ api_name:
 - IDebugSymbols.CreateSymbolGroup
 - IDebugSymbols2.CreateSymbolGroup
 - IDebugSymbols3.CreateSymbolGroup
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -39,8 +39,6 @@ api_name:
 - IDebugControl.AddExtension
 - IDebugControl2.AddExtension
 - IDebugControl3.AddExtension
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

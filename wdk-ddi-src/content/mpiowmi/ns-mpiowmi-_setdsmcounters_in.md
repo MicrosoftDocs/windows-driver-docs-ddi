@@ -37,8 +37,6 @@ api_location:
 - mpiowmi.h
 api_name:
 - SetDSMCounters_IN
-product:
-- Windows
 targetos: Windows
 req.typenames: SetDSMCounters_IN, *PSetDSMCounters_IN
 ---

@@ -41,8 +41,6 @@ api_name:
 - IDebugClient3.SetOtherOutputMask
 - IDebugClient4.SetOtherOutputMask
 - IDebugClient5.SetOtherOutputMask
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

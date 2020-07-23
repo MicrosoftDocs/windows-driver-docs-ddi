@@ -39,8 +39,6 @@ api_name:
 - IDebugControl.SetEffectiveProcessorType
 - IDebugControl2.SetEffectiveProcessorType
 - IDebugControl3.SetEffectiveProcessorType
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -36,8 +36,6 @@ api_location:
 - d3d12umddi.h
 api_name:
 - D3D12DDI_CRYPTO_SESSION_TRANSFORM_DECRYPT_HEADER_INPUT_ARGUMENTS_0030
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D12DDI_CRYPTO_SESSION_TRANSFORM_DECRYPT_HEADER_INPUT_ARGUMENTS_0030

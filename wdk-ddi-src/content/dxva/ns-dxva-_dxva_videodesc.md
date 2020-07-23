@@ -37,8 +37,6 @@ api_location:
 - dxva.h
 api_name:
 - DXVA_VideoDesc
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVA_VideoDesc, *LPDXVA_VideoDesc
 ---

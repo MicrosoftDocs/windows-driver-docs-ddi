@@ -37,8 +37,6 @@ api_location:
 - d3dkmdt.h
 api_name:
 - D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION
 ---

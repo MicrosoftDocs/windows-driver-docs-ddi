@@ -37,8 +37,6 @@ api_location:
 - ntddndis.h
 api_name:
 - NDIS_HD_SPLIT_CURRENT_CONFIG
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_HD_SPLIT_CURRENT_CONFIG, *PNDIS_HD_SPLIT_CURRENT_CONFIG
 ---

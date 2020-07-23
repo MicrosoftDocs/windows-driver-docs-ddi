@@ -37,8 +37,6 @@ api_location:
 - Bdatypes.h
 api_name:
 - BDA_SIGNAL_TIMEOUTS
-product:
-- Windows
 targetos: Windows
 req.typenames: BDA_SIGNAL_TIMEOUTS, *PBDA_SIGNAL_TIMEOUTS
 ---

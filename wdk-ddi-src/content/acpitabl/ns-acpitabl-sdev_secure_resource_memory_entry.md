@@ -36,8 +36,6 @@ f1_keywords:
 - SDEV_SECURE_RESOURCE_MEMORY_ENTRY
 dev_langs:
 - c++
-product:
-- Windows
 targetos: Windows
 ---
 

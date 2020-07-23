@@ -30,8 +30,6 @@ api_location:
 - acpitabl.h
 api_name: 
 - _PROC_TOPOLOGY_NODE
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

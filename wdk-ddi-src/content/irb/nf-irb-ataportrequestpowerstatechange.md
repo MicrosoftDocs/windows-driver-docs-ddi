@@ -37,8 +37,6 @@ api_location:
 - Irb.h
 api_name:
 - AtaPortRequestPowerStateChange
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

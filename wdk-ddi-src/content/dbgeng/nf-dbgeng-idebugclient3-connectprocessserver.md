@@ -41,8 +41,6 @@ api_name:
 - IDebugClient3.ConnectProcessServer
 - IDebugClient4.ConnectProcessServer
 - IDebugClient5.ConnectProcessServer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

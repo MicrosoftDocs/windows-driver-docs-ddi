@@ -37,8 +37,6 @@ api_location:
 - avc.h
 api_name:
 - AVC_PEER_DO_LIST
-product:
-- Windows
 targetos: Windows
 req.typenames: AVC_PEER_DO_LIST, *PAVC_PEER_DO_LIST
 ---

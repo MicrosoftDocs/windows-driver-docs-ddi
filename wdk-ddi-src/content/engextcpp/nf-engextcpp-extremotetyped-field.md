@@ -37,8 +37,6 @@ api_location:
 - engextcpp.hpp
 api_name:
 - ExtRemoteTyped.Field
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

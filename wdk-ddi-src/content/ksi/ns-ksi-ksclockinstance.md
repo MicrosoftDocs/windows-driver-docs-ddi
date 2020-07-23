@@ -37,8 +37,6 @@ api_location:
 - Ksi.h
 api_name:
 - KSCLOCKINSTANCE
-product:
-- Windows
 targetos: Windows
 req.typenames: KSCLOCKINSTANCE, *PKSCLOCKINSTANCE
 ---

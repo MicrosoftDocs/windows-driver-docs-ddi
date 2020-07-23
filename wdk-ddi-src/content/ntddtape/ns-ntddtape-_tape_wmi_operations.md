@@ -37,8 +37,6 @@ api_location:
 - ntddtape.h
 api_name:
 - TAPE_WMI_OPERATIONS
-product:
-- Windows
 targetos: Windows
 req.typenames: TAPE_WMI_OPERATIONS, *PTAPE_WMI_OPERATIONS
 ---

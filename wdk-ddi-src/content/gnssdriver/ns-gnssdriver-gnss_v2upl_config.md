@@ -37,8 +37,6 @@ api_location:
 - gnssdriver.h
 api_name:
 - GNSS_V2UPL_CONFIG
-product:
-- Windows
 targetos: Windows
 req.typenames: GNSS_V2UPL_CONFIG, *PGNSS_V2UPL_CONFIG
 ---

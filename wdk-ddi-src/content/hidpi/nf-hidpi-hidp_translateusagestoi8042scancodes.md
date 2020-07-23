@@ -38,8 +38,6 @@ api_location:
 - Hidparse.dll
 api_name:
 - HidP_TranslateUsagesToI8042ScanCodes
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

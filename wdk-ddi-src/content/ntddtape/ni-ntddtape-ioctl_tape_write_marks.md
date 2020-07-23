@@ -37,8 +37,6 @@ api_location:
 - Ntddtape.h
 api_name:
 - IOCTL_TAPE_WRITE_MARKS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

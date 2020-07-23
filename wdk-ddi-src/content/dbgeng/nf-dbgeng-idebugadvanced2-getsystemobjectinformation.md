@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IDebugAdvanced2.GetSystemObjectInformation
 - IDebugAdvanced3.GetSystemObjectInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

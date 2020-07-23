@@ -37,8 +37,6 @@ api_location:
 - charging.h
 api_name:
 - IOCTL_CAD_GET_BATTERY_PROVISIONING_STATUS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - ndischimney.h
 api_name:
 - TCP_OFFLOAD_STATE_DELEGATED
-product:
-- Windows
 targetos: Windows
 req.typenames: TCP_OFFLOAD_STATE_DELEGATED, *PTCP_OFFLOAD_STATE_DELEGATED
 ---

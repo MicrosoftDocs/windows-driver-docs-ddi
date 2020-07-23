@@ -39,8 +39,6 @@ api_name:
 - IDebugControl.GetDisassembleEffectiveOffset
 - IDebugControl2.GetDisassembleEffectiveOffset
 - IDebugControl3.GetDisassembleEffectiveOffset
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

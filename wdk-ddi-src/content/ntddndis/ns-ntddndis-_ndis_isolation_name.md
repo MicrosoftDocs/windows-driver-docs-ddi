@@ -37,8 +37,6 @@ api_location:
 - Ntddndis.h
 api_name:
 - NDIS_ISOLATION_NAME
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_ISOLATION_NAME
 ---

@@ -38,8 +38,6 @@ api_location:
 - Mshwnclxstub.dll
 api_name:
 - HwNProcessAddDevicePostDeviceCreate
-product:
-- Windows
 targetos: Windows
 req.typenames: HWN_CLX_EXPORT_INDEX, *PHWN_CLX_EXPORT_INDEX
 ---

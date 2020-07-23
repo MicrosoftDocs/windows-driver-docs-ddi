@@ -37,8 +37,6 @@ api_location:
 - ntddmmc.h
 api_name:
 - FEATURE_DATA_LOGICAL_UNIT_SERIAL_NUMBER
-product:
-- Windows
 targetos: Windows
 req.typenames: FEATURE_DATA_LOGICAL_UNIT_SERIAL_NUMBER, *PFEATURE_DATA_LOGICAL_UNIT_SERIAL_NUMBER
 ---

@@ -37,8 +37,6 @@ api_location:
 - dot11wdi.h
 api_name:
 - WDI_TX_PAUSE_REASON
-product:
-- Windows
 targetos: Windows
 req.typenames: WDI_TX_PAUSE_REASON
 ---

@@ -39,8 +39,6 @@ api_name:
 - IDebugDataSpaces2.VirtualToPhysical
 - IDebugDataSpaces3.VirtualToPhysical
 - IDebugDataSpaces4.VirtualToPhysical
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

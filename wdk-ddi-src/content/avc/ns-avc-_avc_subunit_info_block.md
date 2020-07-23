@@ -37,8 +37,6 @@ api_location:
 - avc.h
 api_name:
 - AVC_SUBUNIT_INFO_BLOCK
-product:
-- Windows
 targetos: Windows
 req.typenames: AVC_SUBUNIT_INFO_BLOCK, *PAVC_SUBUNIT_INFO_BLOCK
 ---

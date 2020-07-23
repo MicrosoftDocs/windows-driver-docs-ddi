@@ -37,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - RemovePersistentEntry_OUT
-product:
-- Windows
 targetos: Windows
 req.typenames: RemovePersistentEntry_OUT, *PRemovePersistentEntry_OUT
 ---

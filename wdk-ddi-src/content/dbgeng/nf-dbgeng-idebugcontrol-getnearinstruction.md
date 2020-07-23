@@ -39,8 +39,6 @@ api_name:
 - IDebugControl.GetNearInstruction
 - IDebugControl2.GetNearInstruction
 - IDebugControl3.GetNearInstruction
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

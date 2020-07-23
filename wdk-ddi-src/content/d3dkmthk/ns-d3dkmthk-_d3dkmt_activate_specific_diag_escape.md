@@ -36,8 +36,6 @@ api_location:
 - D3dkmthk.h
 api_name:
 - D3DKMT_ACTIVATE_SPECIFIC_DIAG_ESCAPE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_ACTIVATE_SPECIFIC_DIAG_ESCAPE

@@ -39,8 +39,6 @@ api_name:
 - IDebugControl.OutputCurrentState
 - IDebugControl2.OutputCurrentState
 - IDebugControl3.OutputCurrentState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

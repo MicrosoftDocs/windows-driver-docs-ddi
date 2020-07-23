@@ -38,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisCurrentGroupAndProcessor
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

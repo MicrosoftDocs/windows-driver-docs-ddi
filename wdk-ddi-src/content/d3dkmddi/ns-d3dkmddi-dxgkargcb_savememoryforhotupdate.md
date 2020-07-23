@@ -33,8 +33,6 @@ api_location:
  - d3dkmddi.h
 api_name: 
  - DXGKARGCB_SAVEMEMORYFORHOTUPDATE
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

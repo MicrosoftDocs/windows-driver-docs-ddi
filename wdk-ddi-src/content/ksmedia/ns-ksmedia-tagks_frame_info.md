@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KS_FRAME_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: KS_FRAME_INFO, *PKS_FRAME_INFO
 ms.custom: 19H1

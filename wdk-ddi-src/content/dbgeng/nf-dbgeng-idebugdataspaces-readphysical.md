@@ -40,8 +40,6 @@ api_name:
 - IDebugDataSpaces2.ReadPhysical
 - IDebugDataSpaces3.ReadPhysical
 - IDebugDataSpaces4.ReadPhysical
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - gnssdriver.h
 api_name:
 - GNSS_LKGFIX_PARAM
-product:
-- Windows
 targetos: Windows
 req.typenames: GNSS_LKGFIX_PARAM, *PGNSS_LKGFIX_PARAM
 ---

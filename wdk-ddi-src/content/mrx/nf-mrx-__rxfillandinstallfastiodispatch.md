@@ -37,8 +37,6 @@ api_location:
 - mrx.h
 api_name:
 - __RxFillAndInstallFastIoDispatch
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

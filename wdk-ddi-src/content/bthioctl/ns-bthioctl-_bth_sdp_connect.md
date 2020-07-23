@@ -37,8 +37,6 @@ api_location:
 - bthioctl.h
 api_name:
 - BTH_SDP_CONNECT
-product:
-- Windows
 targetos: Windows
 req.typenames: BTH_SDP_CONNECT, *PBTH_SDP_CONNECT
 ---

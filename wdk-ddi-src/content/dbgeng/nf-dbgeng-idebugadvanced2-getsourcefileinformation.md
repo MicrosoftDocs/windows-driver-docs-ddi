@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IDebugAdvanced2.GetSourceFileInformation
 - IDebugAdvanced3.GetSourceFileInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

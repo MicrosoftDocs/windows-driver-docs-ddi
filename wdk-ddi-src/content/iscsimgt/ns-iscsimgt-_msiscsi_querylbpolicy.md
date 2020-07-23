@@ -37,8 +37,6 @@ api_location:
 - iscsimgt.h
 api_name:
 - MSiSCSI_QueryLBPolicy
-product:
-- Windows
 targetos: Windows
 req.typenames: MSiSCSI_QueryLBPolicy, *PMSiSCSI_QueryLBPolicy
 ---

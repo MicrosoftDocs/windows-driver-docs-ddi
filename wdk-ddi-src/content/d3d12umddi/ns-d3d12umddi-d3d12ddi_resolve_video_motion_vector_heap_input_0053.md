@@ -30,8 +30,6 @@ api_location:
 - d3d12umddi.h
 api_name: 
 - D3D12DDI_RESOLVE_VIDEO_MOTION_VECTOR_HEAP_INPUT_0053
-product:
-- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

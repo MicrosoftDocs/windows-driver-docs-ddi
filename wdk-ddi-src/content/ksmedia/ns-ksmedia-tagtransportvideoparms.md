@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - TRANSPORTVIDEOPARMS
-product:
-- Windows
 targetos: Windows
 req.typenames: TRANSPORTVIDEOPARMS, *PTRANSPORTVIDEOPARMS
 ---

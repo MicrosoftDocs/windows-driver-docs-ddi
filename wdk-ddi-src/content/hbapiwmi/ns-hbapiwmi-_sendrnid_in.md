@@ -37,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - SendRNID_IN
-product:
-- Windows
 targetos: Windows
 req.typenames: SendRNID_IN, *PSendRNID_IN
 ---

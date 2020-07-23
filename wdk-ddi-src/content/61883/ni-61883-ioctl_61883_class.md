@@ -37,8 +37,6 @@ api_location:
 - 61883.h
 api_name:
 - IOCTL_61883_CLASS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

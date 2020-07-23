@@ -39,8 +39,6 @@ api_name:
 - IDebugControl.GetWindbgExtensionApis64
 - IDebugControl2.GetWindbgExtensionApis64
 - IDebugControl3.GetWindbgExtensionApis64
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

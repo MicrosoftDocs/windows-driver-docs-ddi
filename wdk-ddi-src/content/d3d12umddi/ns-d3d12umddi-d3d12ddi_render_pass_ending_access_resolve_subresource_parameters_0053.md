@@ -30,8 +30,6 @@ api_location:
 - d3d12umddi.h
 api_name: 
 - D3D12DDI_RENDER_PASS_ENDING_ACCESS_RESOLVE_SUBRESOURCE_PARAMETERS_0053
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

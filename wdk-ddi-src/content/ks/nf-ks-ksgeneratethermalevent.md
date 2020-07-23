@@ -38,8 +38,6 @@ api_location:
 - ks.dll
 api_name:
 - KsGenerateThermalEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

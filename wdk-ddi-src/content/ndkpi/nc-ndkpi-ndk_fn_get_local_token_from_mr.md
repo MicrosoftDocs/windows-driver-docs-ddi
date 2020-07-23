@@ -37,8 +37,6 @@ api_location:
 - ndkpi.h
 api_name:
 - NdkGetLocalTokenFromMr
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

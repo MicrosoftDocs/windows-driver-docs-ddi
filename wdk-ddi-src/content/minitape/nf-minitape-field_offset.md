@@ -37,8 +37,6 @@ api_location:
 - ntdef.h
 api_name:
 - FIELD_OFFSET
-product:
-- Windows
 targetos: Windows
 req.typenames: TAPE_STATUS, *PTAPE_STATUS
 ---

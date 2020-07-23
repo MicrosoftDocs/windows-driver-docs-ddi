@@ -37,8 +37,6 @@ api_location:
 - bthddi.h
 api_name:
 - BTH_PROFILE_DRIVER_INTERFACE
-product:
-- Windows
 targetos: Windows
 req.typenames: BTH_PROFILE_DRIVER_INTERFACE, *PBTH_PROFILE_DRIVER_INTERFACE
 ---

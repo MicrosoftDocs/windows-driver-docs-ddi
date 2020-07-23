@@ -38,8 +38,6 @@ api_location:
 api_name: 
 - NetConfigurationAssignBinary
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetConfigurationAssignBinary function

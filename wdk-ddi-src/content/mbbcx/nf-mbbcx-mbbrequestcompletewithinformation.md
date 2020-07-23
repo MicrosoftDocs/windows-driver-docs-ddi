@@ -35,8 +35,6 @@ api_location:
 - mbbcxstub.lib
 api_name: 
 - MbbRequestCompleteWithInformation
-product:
-- Windows
 targetos: Windows
 
 

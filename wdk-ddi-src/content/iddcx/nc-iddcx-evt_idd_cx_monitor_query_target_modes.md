@@ -37,8 +37,6 @@ api_location:
 - iddcx.h
 api_name:
 - PFN_IDD_CX_MONITOR_QUERY_TARGET_MODES
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

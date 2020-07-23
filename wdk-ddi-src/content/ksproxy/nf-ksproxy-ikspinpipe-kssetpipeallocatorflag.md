@@ -37,8 +37,6 @@ api_location:
 - ksproxy.h
 api_name:
 - IKsPinPipe.KsSetPipeAllocatorFlag
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

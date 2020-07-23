@@ -37,8 +37,6 @@ api_location:
 - ntddcdrm.h
 api_name:
 - CDROM_TOC_ATIP_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: CDROM_TOC_ATIP_DATA, *PCDROM_TOC_ATIP_DATA
 ---

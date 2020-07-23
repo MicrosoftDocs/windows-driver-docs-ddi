@@ -39,8 +39,6 @@ api_name:
 - IDebugControl.RemoveEngineOptions
 - IDebugControl2.RemoveEngineOptions
 - IDebugControl3.RemoveEngineOptions
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

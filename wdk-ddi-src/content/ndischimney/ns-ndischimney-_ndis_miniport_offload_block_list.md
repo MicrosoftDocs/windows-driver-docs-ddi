@@ -37,8 +37,6 @@ api_location:
 - ndischimney.h
 api_name:
 - NDIS_MINIPORT_OFFLOAD_BLOCK_LIST
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_MINIPORT_OFFLOAD_BLOCK_LIST, *PNDIS_MINIPORT_OFFLOAD_BLOCK_LIST
 ---

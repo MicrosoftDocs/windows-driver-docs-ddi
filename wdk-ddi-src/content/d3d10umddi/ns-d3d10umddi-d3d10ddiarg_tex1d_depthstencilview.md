@@ -36,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - D3D10DDIARG_TEX1D_DEPTHSTENCILVIEW
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D10DDIARG_TEX1D_DEPTHSTENCILVIEW

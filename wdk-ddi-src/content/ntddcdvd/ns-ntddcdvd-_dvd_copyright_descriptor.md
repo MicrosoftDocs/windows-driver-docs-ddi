@@ -37,8 +37,6 @@ api_location:
 - ntddcdvd.h
 api_name:
 - DVD_COPYRIGHT_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: DVD_COPYRIGHT_DESCRIPTOR, *PDVD_COPYRIGHT_DESCRIPTOR
 ---

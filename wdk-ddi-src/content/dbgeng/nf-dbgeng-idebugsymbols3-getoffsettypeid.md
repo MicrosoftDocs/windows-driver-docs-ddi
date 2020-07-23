@@ -39,8 +39,6 @@ api_name:
 - IDebugSymbols.GetOffsetTypeId
 - IDebugSymbols2.GetOffsetTypeId
 - IDebugSymbols3.GetOffsetTypeId
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

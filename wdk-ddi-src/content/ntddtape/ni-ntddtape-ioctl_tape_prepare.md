@@ -37,8 +37,6 @@ api_location:
 - Ntddtape.h
 api_name:
 - IOCTL_TAPE_PREPARE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

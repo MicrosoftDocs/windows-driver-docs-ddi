@@ -37,8 +37,6 @@ api_location:
 - Hwnclx.h
 api_name:
 - HWN_CLIENT_REGISTRATION_PACKET
-product:
-- Windows
 targetos: Windows
 req.typenames: HWN_CLIENT_REGISTRATION_PACKET, *PHWN_CLIENT_REGISTRATION_PACKET
 ---

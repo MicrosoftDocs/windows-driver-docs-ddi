@@ -36,8 +36,6 @@ api_location:
  - d3d12umddi.h
 api_name: 
  - PFND3D12DDI_SET_BACKGROUND_PROCESSING_MODE_0062
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

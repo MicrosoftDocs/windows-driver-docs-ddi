@@ -37,8 +37,6 @@ api_location:
 - Ntddcdrm.h
 api_name:
 - CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR, *PCDROM_NOMINAL_PERFORMANCE_DESCRIPTOR
 ---

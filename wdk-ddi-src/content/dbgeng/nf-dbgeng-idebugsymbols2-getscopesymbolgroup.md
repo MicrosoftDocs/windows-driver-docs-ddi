@@ -39,8 +39,6 @@ api_name:
 - IDebugSymbols.GetScopeSymbolGroup
 - IDebugSymbols2.GetScopeSymbolGroup
 - IDebugSymbols3.GetScopeSymbolGroup
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

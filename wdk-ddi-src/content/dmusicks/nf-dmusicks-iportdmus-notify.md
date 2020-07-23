@@ -37,8 +37,6 @@ api_location:
 - dmusicks.h
 api_name:
 - IPortDMus.Notify
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

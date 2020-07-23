@@ -40,8 +40,6 @@ api_location:
 - pciidex.dll
 api_name:
 - AtaPortCompleteAllActiveRequests
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

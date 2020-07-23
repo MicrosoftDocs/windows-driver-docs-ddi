@@ -37,8 +37,6 @@ api_location:
 - Bdatypes.h
 api_name:
 - BDA_USERACTIVITY_INTERVAL
-product:
-- Windows
 targetos: Windows
 req.typenames: BDA_USERACTIVITY_INTERVAL, *P_BDA_USERACTIVITY_INTERVAL
 ---

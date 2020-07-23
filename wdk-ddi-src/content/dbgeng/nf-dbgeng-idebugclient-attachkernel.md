@@ -41,8 +41,6 @@ api_name:
 - IDebugClient3.AttachKernel
 - IDebugClient4.AttachKernel
 - IDebugClient5.AttachKernel
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

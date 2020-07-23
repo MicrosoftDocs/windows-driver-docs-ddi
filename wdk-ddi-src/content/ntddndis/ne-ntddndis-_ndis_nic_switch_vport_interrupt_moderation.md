@@ -37,8 +37,6 @@ api_location:
 - Ntddndis.h
 api_name:
 - NDIS_NIC_SWITCH_VPORT_INTERRUPT_MODERATION
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_NIC_SWITCH_VPORT_INTERRUPT_MODERATION, *PNDIS_NIC_SWITCH_VPORT_INTERRUPT_MODERATION
 ---

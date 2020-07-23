@@ -37,8 +37,6 @@ api_location:
 - EhStorBandMgmt.h
 api_name:
 - SET_BAND_LOCATION_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: SET_BAND_LOCATION_PARAMETERS, *PSET_BAND_LOCATION_PARAMETERS
 ---

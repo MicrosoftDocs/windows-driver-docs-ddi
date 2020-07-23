@@ -37,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - SM_GetRNIDMgmtInfo_OUT
-product:
-- Windows
 targetos: Windows
 req.typenames: SM_GetRNIDMgmtInfo_OUT, *PSM_GetRNIDMgmtInfo_OUT
 ---

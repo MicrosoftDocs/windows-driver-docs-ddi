@@ -37,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - RemoveTarget_IN
-product:
-- Windows
 targetos: Windows
 req.typenames: RemoveTarget_IN, *PRemoveTarget_IN
 ---

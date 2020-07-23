@@ -37,8 +37,6 @@ api_location:
 - engextcpp.hpp
 api_name:
 - ExtExtension
-product:
-- Windows
 targetos: Windows
 req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---

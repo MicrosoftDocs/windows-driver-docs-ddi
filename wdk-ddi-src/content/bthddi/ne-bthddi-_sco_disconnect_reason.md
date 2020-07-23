@@ -37,8 +37,6 @@ api_location:
 - bthddi.h
 api_name:
 - SCO_DISCONNECT_REASON
-product:
-- Windows
 targetos: Windows
 req.typenames: SCO_DISCONNECT_REASON, *PSCO_DISCONNECT_REASON
 ---

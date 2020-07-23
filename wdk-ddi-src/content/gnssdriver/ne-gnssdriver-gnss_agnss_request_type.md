@@ -37,8 +37,6 @@ api_location:
 - gnssdriver.h
 api_name:
 - GNSS_AGNSS_REQUEST_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: GNSS_AGNSS_REQUEST_TYPE
 ---

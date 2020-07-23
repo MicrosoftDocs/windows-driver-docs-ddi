@@ -37,8 +37,6 @@ api_location:
 - dot11wdi.h
 api_name:
 - WDI_P2P_SERVICE_NAME_HASH
-product:
-- Windows
 targetos: Windows
 req.typenames: WDI_P2P_SERVICE_NAME_HASH, *PWDI_P2P_SERVICE_NAME_HASH
 ---

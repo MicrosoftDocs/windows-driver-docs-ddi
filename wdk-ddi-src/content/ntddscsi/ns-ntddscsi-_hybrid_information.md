@@ -37,8 +37,6 @@ api_location:
 - Ntddscsi.h
 api_name:
 - HYBRID_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: HYBRID_INFORMATION, *PHYBRID_INFORMATION
 ---

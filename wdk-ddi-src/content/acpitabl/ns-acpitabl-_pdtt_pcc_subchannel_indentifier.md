@@ -30,8 +30,6 @@ api_location:
 - acpitabl.h
 api_name: 
 - _PDTT_PCC_SUBCHANNEL_INDENTIFIER
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

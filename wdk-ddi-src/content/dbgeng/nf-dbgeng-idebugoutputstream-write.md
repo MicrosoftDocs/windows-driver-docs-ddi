@@ -37,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugOutputStream.Write
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - Ks.h
 api_name:
 - VARENUM
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

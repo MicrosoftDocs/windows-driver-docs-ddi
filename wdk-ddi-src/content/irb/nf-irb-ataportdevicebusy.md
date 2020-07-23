@@ -37,8 +37,6 @@ api_location:
 - irb.h
 api_name:
 - AtaPortDeviceBusy
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

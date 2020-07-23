@@ -37,8 +37,6 @@ api_location:
 - Dispmprt.h
 api_name:
 - DXGK_BRIGHTNESS_INTERFACE_2
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGK_BRIGHTNESS_INTERFACE_2, *PDXGK_BRIGHTNESS_INTERFACE_2
 ---

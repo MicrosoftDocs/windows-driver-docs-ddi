@@ -37,8 +37,6 @@ api_location:
 - dispmprt.h
 api_name:
 - DXGK_DEBUG_REPORT_INTERFACE
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGK_DEBUG_REPORT_INTERFACE, *PDXGK_DEBUG_REPORT_INTERFACE
 ---

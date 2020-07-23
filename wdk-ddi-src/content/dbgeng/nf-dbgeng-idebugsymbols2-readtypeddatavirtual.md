@@ -39,8 +39,6 @@ api_name:
 - IDebugSymbols.ReadTypedDataVirtual
 - IDebugSymbols2.ReadTypedDataVirtual
 - IDebugSymbols3.ReadTypedDataVirtual
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

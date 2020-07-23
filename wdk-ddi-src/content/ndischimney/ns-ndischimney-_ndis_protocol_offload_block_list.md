@@ -37,8 +37,6 @@ api_location:
 - ndischimney.h
 api_name:
 - NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST, *PNDIS_PROTOCOL_OFFLOAD_BLOCK_LIST
 ---

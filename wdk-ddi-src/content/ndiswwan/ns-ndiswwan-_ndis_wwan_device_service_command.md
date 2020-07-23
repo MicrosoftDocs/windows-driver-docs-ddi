@@ -37,8 +37,6 @@ api_location:
 - ndiswwan.h
 api_name:
 - NDIS_WWAN_DEVICE_SERVICE_COMMAND
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_DEVICE_SERVICE_COMMAND, *PNDIS_WWAN_DEVICE_SERVICE_COMMAND
 ---

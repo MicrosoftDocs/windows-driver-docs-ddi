@@ -37,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KSPIN_PHYSICALCONNECTION
-product:
-- Windows
 targetos: Windows
 req.typenames: KSPIN_PHYSICALCONNECTION, *PKSPIN_PHYSICALCONNECTION
 ---

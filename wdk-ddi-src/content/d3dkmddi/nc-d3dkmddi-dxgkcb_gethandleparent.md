@@ -36,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DxgkCbGetHandleParent
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

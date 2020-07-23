@@ -37,8 +37,6 @@ api_location:
 - ntddcdvd.h
 api_name:
 - DVD_BCA_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: DVD_BCA_DESCRIPTOR, *PDVD_BCA_DESCRIPTOR
 ---

@@ -37,8 +37,6 @@ api_location:
 - dsound.h
 api_name:
 - IKsPropertySet
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

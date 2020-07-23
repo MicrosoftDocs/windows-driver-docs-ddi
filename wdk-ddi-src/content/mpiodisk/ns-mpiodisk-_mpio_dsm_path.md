@@ -37,8 +37,6 @@ api_location:
 - mpiodisk.h
 api_name:
 - MPIO_DSM_Path
-product:
-- Windows
 targetos: Windows
 req.typenames: MPIO_DSM_Path, *PMPIO_DSM_Path
 ---

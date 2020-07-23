@@ -37,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - FilterCancelOidRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

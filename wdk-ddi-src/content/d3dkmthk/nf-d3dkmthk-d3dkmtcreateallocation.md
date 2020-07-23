@@ -36,8 +36,6 @@ api_location:
 - Gdi32.dll
 api_name:
 - D3DKMTCreateAllocation
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

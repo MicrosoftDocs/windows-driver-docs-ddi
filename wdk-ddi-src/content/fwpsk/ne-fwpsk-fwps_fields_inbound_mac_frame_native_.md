@@ -37,8 +37,6 @@ api_location:
 - fwpsk.h
 api_name:
 - FWPS_FIELDS_INBOUND_MAC_FRAME_NATIVE
-product:
-- Windows
 targetos: Windows
 req.typenames: FWPS_FIELDS_INBOUND_MAC_FRAME_NATIVE
 ---

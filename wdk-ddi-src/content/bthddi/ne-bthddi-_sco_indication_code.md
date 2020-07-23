@@ -37,8 +37,6 @@ api_location:
 - bthddi.h
 api_name:
 - SCO_INDICATION_CODE
-product:
-- Windows
 targetos: Windows
 req.typenames: SCO_INDICATION_CODE, *PSCO_INDICATION_CODE
 ---

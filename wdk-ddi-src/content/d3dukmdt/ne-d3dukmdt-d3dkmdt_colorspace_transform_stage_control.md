@@ -30,8 +30,6 @@ api_location:
  - d3dukmdt.h
 api_name: 
  - D3DKMDT_COLORSPACE_TRANSFORM_STAGE_CONTROL
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

@@ -37,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - PCI_EXPRESS_CORRECTABLE_ERROR_MASK
-product:
-- Windows
 targetos: Windows
 req.typenames: PCI_EXPRESS_CORRECTABLE_ERROR_MASK, *PPCI_CORRECTABLE_ERROR_MASK
 ---

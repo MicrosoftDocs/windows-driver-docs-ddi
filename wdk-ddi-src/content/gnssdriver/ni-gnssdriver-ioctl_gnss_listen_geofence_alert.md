@@ -37,8 +37,6 @@ api_location:
 - gnssdriver.h
 api_name:
 - IOCTL_GNSS_LISTEN_GEOFENCE_ALERT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -30,8 +30,6 @@ api_location:
 - d3d12umddi.h
 api_name: 
 - D3D12DDIARG_MAKERESIDENT_0001
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

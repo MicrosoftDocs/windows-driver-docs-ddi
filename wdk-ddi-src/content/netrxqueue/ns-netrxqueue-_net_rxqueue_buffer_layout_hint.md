@@ -34,8 +34,6 @@ api_location:
 api_name: 
 - NET_RXQUEUE_BUFFER_LAYOUT_HINT
 targetos: Windows
-product:
-- Windows
 ---
 
 # _NET_RXQUEUE_BUFFER_LAYOUT_HINT structure

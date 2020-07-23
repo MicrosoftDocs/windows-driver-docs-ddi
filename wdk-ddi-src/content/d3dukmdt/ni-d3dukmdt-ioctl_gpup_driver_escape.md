@@ -28,8 +28,6 @@ api_location:
 - d3dukmdt.h
 api_name: 
 - IOCTL_GPUP_DRIVER_ESCAPE
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

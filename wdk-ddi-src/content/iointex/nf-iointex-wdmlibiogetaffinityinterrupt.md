@@ -38,8 +38,6 @@ api_location:
 api_name:
 - WdmlibIoGetAffinityInterrupt
 - IoGetAffinityInterrupt
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

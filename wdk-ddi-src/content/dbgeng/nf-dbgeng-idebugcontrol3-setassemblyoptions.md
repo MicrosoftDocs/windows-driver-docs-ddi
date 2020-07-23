@@ -37,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugControl3.SetAssemblyOptions
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

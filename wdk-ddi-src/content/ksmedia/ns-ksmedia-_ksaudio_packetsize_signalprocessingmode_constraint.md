@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT
-product:
-- Windows
 targetos: Windows
 req.typenames: KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT
 ---

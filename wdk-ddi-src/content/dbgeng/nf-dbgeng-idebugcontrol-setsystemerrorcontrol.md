@@ -39,8 +39,6 @@ api_name:
 - IDebugControl.SetSystemErrorControl
 - IDebugControl2.SetSystemErrorControl
 - IDebugControl3.SetSystemErrorControl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

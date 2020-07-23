@@ -38,8 +38,6 @@ api_location:
 api_name: 
 - NetConfigurationAssignUnicodeString
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetConfigurationAssignUnicodeString function

@@ -38,8 +38,6 @@ api_location:
 api_name: 
 - NetRequestGetType
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetRequestGetType function

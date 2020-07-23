@@ -27,8 +27,6 @@ api_location:
 - d3dkmddi.h
 api_name: 
 - _DXGK_KERNEL_SUBMISSION_TYPE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

@@ -37,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KSPROCESSPIN
-product:
-- Windows
 targetos: Windows
 req.typenames: KSPROCESSPIN, *PKSPROCESSPIN
 ---

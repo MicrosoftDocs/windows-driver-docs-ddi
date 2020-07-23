@@ -37,8 +37,6 @@ api_location:
 - Ksmedia.h
 api_name:
 - KSCAMERA_METADATA_PHOTOCONFIRMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: KSCAMERA_METADATA_PHOTOCONFIRMATION, *PKSCAMERA_METADATA_PHOTOCONFIRMATION
 ---

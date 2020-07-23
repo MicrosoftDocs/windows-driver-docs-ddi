@@ -37,8 +37,6 @@ api_location:
 - IddCx.dll
 api_name:
 - IddCxMonitorDeparture
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

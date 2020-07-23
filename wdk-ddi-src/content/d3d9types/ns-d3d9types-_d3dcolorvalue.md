@@ -30,8 +30,6 @@ api_location:
 - d3d9types.h
 api_name: 
 - _D3DCOLORVALUE
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

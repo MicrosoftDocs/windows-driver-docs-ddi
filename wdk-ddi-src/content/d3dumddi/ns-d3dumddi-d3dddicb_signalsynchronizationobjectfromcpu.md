@@ -37,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU
 ---

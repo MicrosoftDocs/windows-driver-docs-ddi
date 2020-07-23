@@ -37,8 +37,6 @@ api_location:
 - mpiowmi.h
 api_name:
 - MPIO_REGISTERED_DSM
-product:
-- Windows
 targetos: Windows
 req.typenames: MPIO_REGISTERED_DSM, *PMPIO_REGISTERED_DSM
 ---

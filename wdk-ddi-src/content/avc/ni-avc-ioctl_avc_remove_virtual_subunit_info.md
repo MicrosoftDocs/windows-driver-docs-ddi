@@ -37,8 +37,6 @@ api_location:
 - avc.h
 api_name:
 - IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

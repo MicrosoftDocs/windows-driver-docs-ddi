@@ -34,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostType2.GetArrayDimensions
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

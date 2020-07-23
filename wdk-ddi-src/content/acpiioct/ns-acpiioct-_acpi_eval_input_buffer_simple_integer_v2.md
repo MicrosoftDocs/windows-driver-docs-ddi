@@ -37,8 +37,6 @@ api_location:
 - Acpiioct.h
 api_name:
 - ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2
-product:
-- Windows
 targetos: Windows
 req.typenames: ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2, *PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2
 ---

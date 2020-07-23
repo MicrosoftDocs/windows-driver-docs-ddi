@@ -37,8 +37,6 @@ api_location:
 - ntddcdrm.h
 api_name:
 - IOCTL_CDROM_GET_VOLUME
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

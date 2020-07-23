@@ -37,8 +37,6 @@ api_location:
 - D3dkmdt.h
 api_name:
 - D3DKMDT_GRAPHICS_PREEMPTION_GRANULARITY
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DKMDT_GRAPHICS_PREEMPTION_GRANULARITY
 ---

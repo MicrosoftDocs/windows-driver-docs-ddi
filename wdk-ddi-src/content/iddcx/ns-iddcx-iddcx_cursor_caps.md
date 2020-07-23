@@ -37,8 +37,6 @@ api_location:
 - iddcx.h
 api_name:
 - IDDCX_CURSOR_CAPS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -36,8 +36,6 @@ api_location:
 - D3dkmddi.h
 api_name:
 - DXGK_POWER_COMPONENT_MAPPING
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_POWER_COMPONENT_MAPPING

@@ -37,8 +37,6 @@ api_location:
 - Hwnclx.h
 api_name:
 - HWN_CLX_EXPORT_INDEX
-product:
-- Windows
 targetos: Windows
 req.typenames: HWN_CLX_EXPORT_INDEX, *PHWN_CLX_EXPORT_INDEX
 ---

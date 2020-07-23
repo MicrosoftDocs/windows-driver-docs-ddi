@@ -37,8 +37,6 @@ api_location:
 - netioddk.h
 api_name:
 - PNPI_CLIENT_CLEANUP_BINDING_CONTEXT_FN
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

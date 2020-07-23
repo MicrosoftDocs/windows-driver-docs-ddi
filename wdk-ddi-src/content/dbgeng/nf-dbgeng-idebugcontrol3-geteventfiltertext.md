@@ -39,8 +39,6 @@ api_name:
 - IDebugControl.GetEventFilterText
 - IDebugControl2.GetEventFilterText
 - IDebugControl3.GetEventFilterText
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

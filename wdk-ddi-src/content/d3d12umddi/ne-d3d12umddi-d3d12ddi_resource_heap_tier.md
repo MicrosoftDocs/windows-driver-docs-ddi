@@ -27,8 +27,6 @@ api_location:
 - d3d12umddi.h
 api_name: 
 - D3D12DDI_RESOURCE_HEAP_TIER
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

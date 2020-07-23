@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KSDATARANGE_AUDIO
-product:
-- Windows
 targetos: Windows
 req.typenames: KSDATARANGE_AUDIO, *PKSDATARANGE_AUDIO
 ---

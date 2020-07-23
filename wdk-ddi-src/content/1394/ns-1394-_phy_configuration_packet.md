@@ -37,8 +37,6 @@ api_location:
 - 1394.h
 api_name:
 - PHY_CONFIGURATION_PACKET
-product:
-- Windows
 targetos: Windows
 req.typenames: PHY_CONFIGURATION_PACKET, *PPHY_CONFIGURATION_PACKET
 ---

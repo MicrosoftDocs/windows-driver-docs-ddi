@@ -35,8 +35,6 @@ api_location:
 - ntddndis.h
 api_name: 
 - NDIS_ROUTING_DOMAIN_ENTRY_GET_NEXT
-product:
-- Windows
 targetos: Windows
 
 ---

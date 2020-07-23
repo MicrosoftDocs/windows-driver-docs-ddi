@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IDebugBreakpoint.SetFlags
 - IDebugBreakpoint2.SetFlags
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - Mountmgr.h
 api_name:
 - IOCTL_MOUNTMGR_VOLUME_MOUNT_POINT_DELETED
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

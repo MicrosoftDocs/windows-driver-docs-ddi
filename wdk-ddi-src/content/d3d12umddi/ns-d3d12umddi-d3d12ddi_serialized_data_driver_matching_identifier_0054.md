@@ -30,8 +30,6 @@ api_location:
 - d3d12umddi.h
 api_name: 
 - D3D12DDI_SERIALIZED_DATA_DRIVER_MATCHING_IDENTIFIER_0054
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

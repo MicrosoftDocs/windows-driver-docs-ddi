@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KSSOUNDDETECTORPROPERTY
-product:
-- Windows
 targetos: Windows
 req.typenames: KSSOUNDDETECTORPROPERTY, *PKSSOUNDDETECTORPROPERTY
 ---

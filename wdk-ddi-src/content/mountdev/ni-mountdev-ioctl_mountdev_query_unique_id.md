@@ -37,8 +37,6 @@ api_location:
 - Mountdev.h
 api_name:
 - IOCTL_MOUNTDEV_QUERY_UNIQUE_ID
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

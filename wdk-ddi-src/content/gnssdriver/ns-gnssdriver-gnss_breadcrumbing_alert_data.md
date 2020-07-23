@@ -37,8 +37,6 @@ api_location:
 - gnssdriver.h
 api_name:
 - GNSS_BREADCRUMBING_ALERT_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: GNSS_BREADCRUMBING_ALERT_DATA, *PGNSS_BREADCRUMBING_ALERT_DATA
 ---

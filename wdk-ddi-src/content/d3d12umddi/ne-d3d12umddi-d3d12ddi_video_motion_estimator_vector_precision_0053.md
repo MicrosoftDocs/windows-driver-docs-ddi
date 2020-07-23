@@ -27,8 +27,6 @@ api_location:
 - d3d12umddi.h
 api_name: 
 - D3D12DDI_VIDEO_MOTION_ESTIMATOR_VECTOR_PRECISION_0053
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

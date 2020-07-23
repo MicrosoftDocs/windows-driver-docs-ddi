@@ -37,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILGEOLOCATIONTYPEMASK
-product:
-- Windows
 targetos: Windows
 req.typenames: RILGEOLOCATIONTYPEMASK
 ---

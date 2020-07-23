@@ -37,8 +37,6 @@ api_location:
 - Minitape.h
 api_name:
 - TAPE_INIT_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: TAPE_INIT_DATA, *PTAPE_INIT_DATA
 ---

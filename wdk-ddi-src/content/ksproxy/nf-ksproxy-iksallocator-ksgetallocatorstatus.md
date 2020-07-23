@@ -37,8 +37,6 @@ api_location:
 - ksproxy.h
 api_name:
 - IKsAllocator.KsGetAllocatorStatus
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

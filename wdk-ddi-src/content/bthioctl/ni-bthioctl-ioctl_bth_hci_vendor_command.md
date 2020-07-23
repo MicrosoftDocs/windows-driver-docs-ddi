@@ -37,8 +37,6 @@ api_location:
 - Bthioctl.h
 api_name:
 - IOCTL_BTH_HCI_VENDOR_COMMAND
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

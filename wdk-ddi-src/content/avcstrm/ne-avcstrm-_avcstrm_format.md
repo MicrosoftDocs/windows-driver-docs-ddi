@@ -37,8 +37,6 @@ api_location:
 - avcstrm.h
 api_name:
 - AVCSTRM_FORMAT
-product:
-- Windows
 targetos: Windows
 req.typenames: AVCSTRM_FORMAT
 ---

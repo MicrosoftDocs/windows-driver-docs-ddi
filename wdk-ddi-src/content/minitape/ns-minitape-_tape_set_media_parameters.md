@@ -37,8 +37,6 @@ api_location:
 - ntddtape.h
 api_name:
 - TAPE_SET_MEDIA_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: TAPE_SET_MEDIA_PARAMETERS, *PTAPE_SET_MEDIA_PARAMETERS
 ---

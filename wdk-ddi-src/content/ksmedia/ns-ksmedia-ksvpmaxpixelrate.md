@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KSVPMAXPIXELRATE
-product:
-- Windows
 targetos: Windows
 req.typenames: KSVPMAXPIXELRATE, *PKSVPMAXPIXELRATE
 ---

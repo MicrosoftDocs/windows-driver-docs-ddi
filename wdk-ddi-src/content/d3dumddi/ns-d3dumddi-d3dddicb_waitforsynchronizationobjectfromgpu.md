@@ -37,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMGPU
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMGPU
 ---

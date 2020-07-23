@@ -37,8 +37,6 @@ api_location:
 - Hdaudio.h
 api_name:
 - RegisterNotificationEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

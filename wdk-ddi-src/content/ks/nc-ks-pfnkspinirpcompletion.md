@@ -37,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - AVStrMiniPinIrpCompletion
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

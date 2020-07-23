@@ -35,8 +35,6 @@ api_location:
 - ntddndis.h
 api_name: 
 - NDIS_SWITCH_NIC_AT_ARRAY_INDEX
-product:
-- Windows
 targetos: Windows
 
 ---

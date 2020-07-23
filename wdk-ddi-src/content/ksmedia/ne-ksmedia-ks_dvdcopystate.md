@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KS_DVDCOPYSTATE
-product:
-- Windows
 targetos: Windows
 req.typenames: KS_DVDCOPYSTATE
 ---

@@ -37,8 +37,6 @@ api_location:
 - Fwpsk.h
 api_name:
 - completionFn
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

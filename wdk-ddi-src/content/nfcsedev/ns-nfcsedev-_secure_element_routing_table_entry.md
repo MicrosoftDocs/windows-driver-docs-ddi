@@ -37,8 +37,6 @@ api_location:
 - nfcsedev.h
 api_name:
 - SECURE_ELEMENT_ROUTING_TABLE_ENTRY
-product:
-- Windows
 targetos: Windows
 req.typenames: SECURE_ELEMENT_ROUTING_TABLE_ENTRY, *PSECURE_ELEMENT_ROUTING_TABLE_ENTRY
 ---

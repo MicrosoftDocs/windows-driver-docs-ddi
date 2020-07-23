@@ -37,8 +37,6 @@ api_location:
 - 1394.h
 api_name:
 - ADDRESS_FIFO
-product:
-- Windows
 targetos: Windows
 req.typenames: ADDRESS_FIFO, *PADDRESS_FIFO
 ---

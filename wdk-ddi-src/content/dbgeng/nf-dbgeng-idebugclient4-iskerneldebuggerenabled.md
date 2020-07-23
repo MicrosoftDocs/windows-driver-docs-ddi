@@ -40,8 +40,6 @@ api_name:
 - IDebugClient3.IsKernelDebuggerEnabled
 - IDebugClient4.IsKernelDebuggerEnabled
 - IDebugClient5.IsKernelDebuggerEnabled
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KS_DATAFORMAT_VIDEOINFO_PALETTE
-product:
-- Windows
 targetos: Windows
 req.typenames: KS_DATAFORMAT_VIDEOINFO_PALETTE, *PKS_DATAFORMAT_VIDEOINFO_PALETTE
 ---

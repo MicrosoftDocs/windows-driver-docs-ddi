@@ -37,8 +37,6 @@ api_location:
 - Ntddser.h
 api_name:
 - SERIAL_LINE_CONTROL
-product:
-- Windows
 targetos: Windows
 req.typenames: SERIAL_LINE_CONTROL, *PSERIAL_LINE_CONTROL
 ---

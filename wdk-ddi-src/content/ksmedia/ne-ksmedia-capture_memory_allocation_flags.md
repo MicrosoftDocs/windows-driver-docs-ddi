@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - CAPTURE_MEMORY_ALLOCATION_FLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: CAPTURE_MEMORY_ALLOCATION_FLAGS, *PCAPTURE_MEMORY_ALLOCATION_FLAGS
 ---

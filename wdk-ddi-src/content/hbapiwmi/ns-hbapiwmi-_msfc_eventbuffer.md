@@ -37,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - MSFC_EventBuffer
-product:
-- Windows
 targetos: Windows
 req.typenames: MSFC_EventBuffer, *PMSFC_EventBuffer
 ---

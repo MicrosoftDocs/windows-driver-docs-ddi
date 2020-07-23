@@ -37,8 +37,6 @@ api_location:
 - 1394.h
 api_name:
 - SET_LOCAL_HOST_PROPS2
-product:
-- Windows
 targetos: Windows
 req.typenames: SET_LOCAL_HOST_PROPS2, *PSET_LOCAL_HOST_PROPS2
 ---

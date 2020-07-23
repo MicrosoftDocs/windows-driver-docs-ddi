@@ -30,8 +30,6 @@ api_location:
 - dispmprt.h
 api_name: 
 - _DXGKDDI_FLEXIOV_DEVICE_INTERFACE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

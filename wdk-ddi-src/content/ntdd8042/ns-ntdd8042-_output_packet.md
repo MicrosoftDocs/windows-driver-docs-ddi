@@ -37,8 +37,6 @@ api_location:
 - ntdd8042.h
 api_name:
 - OUTPUT_PACKET
-product:
-- Windows
 targetos: Windows
 req.typenames: OUTPUT_PACKET, *POUTPUT_PACKET
 ---

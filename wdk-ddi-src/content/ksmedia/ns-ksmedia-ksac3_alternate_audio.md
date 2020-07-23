@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KSAC3_ALTERNATE_AUDIO
-product:
-- Windows
 targetos: Windows
 req.typenames: KSAC3_ALTERNATE_AUDIO, *PKSAC3_ALTERNATE_AUDIO
 ---

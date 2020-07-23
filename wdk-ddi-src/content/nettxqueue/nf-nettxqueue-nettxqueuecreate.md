@@ -38,8 +38,6 @@ api_location:
 api_name: 
 - NetTxQueueCreate
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetTxQueueCreate function

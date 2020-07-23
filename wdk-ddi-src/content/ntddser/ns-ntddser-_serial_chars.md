@@ -37,8 +37,6 @@ api_location:
 - Ntddser.h
 api_name:
 - SERIAL_CHARS
-product:
-- Windows
 targetos: Windows
 req.typenames: SERIAL_CHARS, *PSERIAL_CHARS
 ---

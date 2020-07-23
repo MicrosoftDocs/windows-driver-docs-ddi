@@ -37,8 +37,6 @@ api_location:
 - Ntddndis.h
 api_name:
 - NDIS_RECEIVE_QUEUE_FREE_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_RECEIVE_QUEUE_FREE_PARAMETERS, *PNDIS_RECEIVE_QUEUE_FREE_PARAMETERS
 ---

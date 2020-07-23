@@ -37,8 +37,6 @@ api_location:
 - avc.h
 api_name:
 - KSPIN_FLAG_AVC
-product:
-- Windows
 targetos: Windows
 req.typenames: KSPIN_FLAG_AVC
 ---

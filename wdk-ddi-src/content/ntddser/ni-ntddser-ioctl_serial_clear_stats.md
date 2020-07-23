@@ -37,8 +37,6 @@ api_location:
 - Ntddser.h
 api_name:
 - IOCTL_SERIAL_CLEAR_STATS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

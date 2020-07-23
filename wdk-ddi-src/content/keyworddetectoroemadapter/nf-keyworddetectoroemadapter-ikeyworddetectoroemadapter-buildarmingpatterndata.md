@@ -37,8 +37,6 @@ api_location:
 - KeywordDetectorOemAdapter.h
 api_name:
 - IKeywordDetectorOemAdapter.BuildArmingPatternData
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

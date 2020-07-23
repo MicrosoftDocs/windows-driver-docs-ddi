@@ -39,8 +39,6 @@ api_name:
 - IDebugControl.RemoveExtension
 - IDebugControl2.RemoveExtension
 - IDebugControl3.RemoveExtension
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

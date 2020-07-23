@@ -31,8 +31,6 @@ api_location:
 - netadapteroffload.h
 api_name: 
 - _NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES
-product:
-- Windows
 targetos: Windows
 ms.custom: 19H1
 ---

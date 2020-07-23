@@ -37,8 +37,6 @@ api_location:
 - irb.h
 api_name:
 - IdeHwInterrupt
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - ndischimney.h
 api_name:
 - NEIGHBOR_OFFLOAD_STATE_CACHED
-product:
-- Windows
 targetos: Windows
 req.typenames: NEIGHBOR_OFFLOAD_STATE_CACHED, *PNEIGHBOR_OFFLOAD_STATE_CACHED
 ---

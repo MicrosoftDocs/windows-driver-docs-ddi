@@ -37,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - SM_SendECHO_IN
-product:
-- Windows
 targetos: Windows
 req.typenames: SM_SendECHO_IN, *PSM_SendECHO_IN
 ---

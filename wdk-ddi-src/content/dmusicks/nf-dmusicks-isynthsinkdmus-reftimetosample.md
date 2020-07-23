@@ -37,8 +37,6 @@ api_location:
 - dmusicks.h
 api_name:
 - ISynthSinkDMus.RefTimeToSample
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

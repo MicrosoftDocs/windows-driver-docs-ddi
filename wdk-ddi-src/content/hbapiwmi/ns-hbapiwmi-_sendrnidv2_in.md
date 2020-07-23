@@ -37,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - SendRNIDV2_IN
-product:
-- Windows
 targetos: Windows
 req.typenames: SendRNIDV2_IN, *PSendRNIDV2_IN
 ---

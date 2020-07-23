@@ -37,8 +37,6 @@ api_location:
 - mpiodisk.h
 api_name:
 - DsmSetLoadBalancePolicyALUA_OUT
-product:
-- Windows
 targetos: Windows
 req.typenames: DsmSetLoadBalancePolicyALUA_OUT, *PDsmSetLoadBalancePolicyALUA_OUT
 ---

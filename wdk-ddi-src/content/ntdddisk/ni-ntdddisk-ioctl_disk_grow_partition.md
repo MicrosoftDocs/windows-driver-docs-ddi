@@ -37,8 +37,6 @@ api_location:
 - Ntdddisk.h
 api_name:
 - IOCTL_DISK_GROW_PARTITION
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

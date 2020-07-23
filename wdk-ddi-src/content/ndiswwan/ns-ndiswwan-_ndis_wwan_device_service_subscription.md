@@ -37,8 +37,6 @@ api_location:
 - ndiswwan.h
 api_name:
 - NDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION, *PNDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION
 ---

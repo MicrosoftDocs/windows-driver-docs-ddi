@@ -37,8 +37,6 @@ api_location:
 - ntddstor.h
 api_name:
 - STORAGE_MEDIA_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: STORAGE_MEDIA_TYPE, *PSTORAGE_MEDIA_TYPE
 ---

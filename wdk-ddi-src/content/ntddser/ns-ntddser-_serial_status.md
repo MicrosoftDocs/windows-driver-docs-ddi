@@ -37,8 +37,6 @@ api_location:
 - Ntddser.h
 api_name:
 - SERIAL_STATUS
-product:
-- Windows
 targetos: Windows
 req.typenames: SERIAL_STATUS, *PSERIAL_STATUS
 ---

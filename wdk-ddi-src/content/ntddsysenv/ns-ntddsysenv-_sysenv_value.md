@@ -37,8 +37,6 @@ api_location:
 - Ntddsysenv.h
 api_name:
 - SYSENV_VALUE
-product:
-- Windows
 targetos: Windows
 req.typenames: SYSENV_VALUE, *PSYSENV_VALUE
 ---

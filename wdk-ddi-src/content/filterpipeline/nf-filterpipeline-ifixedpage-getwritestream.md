@@ -37,8 +37,6 @@ api_location:
 - filterpipeline.h
 api_name:
 - IFixedPage.GetWriteStream
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

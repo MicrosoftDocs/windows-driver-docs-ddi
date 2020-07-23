@@ -37,8 +37,6 @@ api_location:
 - gnssdriver.h
 api_name:
 - GNSS_ERRORINFO
-product:
-- Windows
 targetos: Windows
 req.typenames: GNSS_ERRORINFO, *PGNSS_ERRORINFO
 ---

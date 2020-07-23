@@ -36,8 +36,6 @@ api_location:
 - D3dkmddi.h
 api_name:
 - DXGKARG_QUERYDEPENDENTENGINEGROUP
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGKARG_QUERYDEPENDENTENGINEGROUP

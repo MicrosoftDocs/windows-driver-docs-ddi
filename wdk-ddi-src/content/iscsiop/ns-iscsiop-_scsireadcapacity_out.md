@@ -37,8 +37,6 @@ api_location:
 - iscsiop.h
 api_name:
 - ScsiReadCapacity_OUT
-product:
-- Windows
 targetos: Windows
 req.typenames: ScsiReadCapacity_OUT, *PScsiReadCapacity_OUT
 ---

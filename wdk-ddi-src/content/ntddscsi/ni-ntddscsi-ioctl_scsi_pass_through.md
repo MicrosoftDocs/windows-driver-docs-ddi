@@ -37,8 +37,6 @@ api_location:
 - Ntddscsi.h
 api_name:
 - IOCTL_SCSI_PASS_THROUGH
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - netdma.h
 api_name:
 - ProviderSuspendDma
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

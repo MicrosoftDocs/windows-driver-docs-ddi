@@ -38,8 +38,6 @@ api_location:
 - Tape.dll
 api_name:
 - TapeClassCompareMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

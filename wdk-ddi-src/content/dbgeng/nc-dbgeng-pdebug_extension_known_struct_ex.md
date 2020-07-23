@@ -37,8 +37,6 @@ api_location:
 - Dbgeng.h
 api_name:
 - DebugExtensionKnownStructEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

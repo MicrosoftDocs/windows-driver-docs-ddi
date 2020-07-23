@@ -37,8 +37,6 @@ api_location:
 - mountdev.h
 api_name:
 - IOCTL_MOUNTDEV_LINK_DELETED
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

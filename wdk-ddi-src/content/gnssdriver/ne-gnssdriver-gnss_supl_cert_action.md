@@ -37,8 +37,6 @@ api_location:
 - gnssdriver.h
 api_name:
 - GNSS_SUPL_CERT_ACTION
-product:
-- Windows
 targetos: Windows
 req.typenames: GNSS_SUPL_CERT_ACTION
 ---

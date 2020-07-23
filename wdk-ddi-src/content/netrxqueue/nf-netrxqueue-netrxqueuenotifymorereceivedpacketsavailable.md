@@ -38,8 +38,6 @@ apilocation:
 apiname: 
 - NetRxQueueNotifyMoreReceivedPacketsAvailable
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetRxQueueNotifyMoreReceivedPacketsAvailable function

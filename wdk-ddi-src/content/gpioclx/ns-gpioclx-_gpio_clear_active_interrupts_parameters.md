@@ -37,8 +37,6 @@ api_location:
 - Gpioclx.h
 api_name:
 - GPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: GPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS, *PGPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS
 ---

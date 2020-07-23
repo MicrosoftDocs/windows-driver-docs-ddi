@@ -34,8 +34,6 @@ api_location:
 - d3dukmdt.h
 api_name: 
 - IS_OFFICIAL_DDI_INTERFACE_VERSION
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

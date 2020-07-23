@@ -37,8 +37,6 @@ api_location:
 - Netdispumdddi.h
 api_name:
 - MIRACAST_PROTOCOL_EVENT
-product:
-- Windows
 targetos: Windows
 req.typenames: MIRACAST_PROTOCOL_EVENT
 ---

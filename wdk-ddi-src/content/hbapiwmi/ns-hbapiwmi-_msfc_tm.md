@@ -37,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - MSFC_TM
-product:
-- Windows
 targetos: Windows
 req.typenames: MSFC_TM, *PMSFC_TM
 ---

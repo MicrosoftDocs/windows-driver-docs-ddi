@@ -37,8 +37,6 @@ api_location:
 - iddcx.h
 api_name:
 - IDARG_OUT_OPM_GET_INFOMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

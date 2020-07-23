@@ -37,8 +37,6 @@ api_location:
 - Dispmprt.h
 api_name:
 - DxgkDdiNotifySurpriseRemoval
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

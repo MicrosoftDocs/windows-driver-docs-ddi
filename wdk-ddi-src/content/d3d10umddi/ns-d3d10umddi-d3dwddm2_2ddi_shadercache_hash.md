@@ -36,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - D3DWDDM2_2DDI_SHADERCACHE_HASH
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DWDDM2_2DDI_SHADERCACHE_HASH

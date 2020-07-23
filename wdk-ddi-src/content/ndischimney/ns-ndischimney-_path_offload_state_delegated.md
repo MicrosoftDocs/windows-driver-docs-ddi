@@ -37,8 +37,6 @@ api_location:
 - ndischimney.h
 api_name:
 - PATH_OFFLOAD_STATE_DELEGATED
-product:
-- Windows
 targetos: Windows
 req.typenames: PATH_OFFLOAD_STATE_DELEGATED, *PPATH_OFFLOAD_STATE_DELEGATED
 ---

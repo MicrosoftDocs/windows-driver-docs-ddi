@@ -37,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - MS_SMHBA_SAS_PHY
-product:
-- Windows
 targetos: Windows
 req.typenames: MS_SMHBA_SAS_PHY, *PMS_SMHBA_SAS_PHY
 ---

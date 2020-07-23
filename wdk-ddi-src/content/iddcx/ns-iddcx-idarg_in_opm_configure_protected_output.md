@@ -37,8 +37,6 @@ api_location:
 - iddcx.h
 api_name:
 - IDARG_IN_OPM_CONFIGURE_PROTECTED_OUTPUT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - bthioctl.h
 api_name:
 - BTH_VENDOR_EVENT_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: BTH_VENDOR_EVENT_INFO, *PBTH_VENDOR_EVENT_INFO
 ---

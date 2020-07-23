@@ -41,8 +41,6 @@ api_name:
 - IDebugClient3.GetRunningProcessSystemIds
 - IDebugClient4.GetRunningProcessSystemIds
 - IDebugClient5.GetRunningProcessSystemIds
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

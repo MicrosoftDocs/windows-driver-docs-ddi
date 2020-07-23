@@ -37,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KSDEGRADE_STANDARD
-product:
-- Windows
 targetos: Windows
 req.typenames: KSDEGRADE_STANDARD
 ---

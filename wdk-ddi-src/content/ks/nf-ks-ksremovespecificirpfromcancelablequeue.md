@@ -38,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsRemoveSpecificIrpFromCancelableQueue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

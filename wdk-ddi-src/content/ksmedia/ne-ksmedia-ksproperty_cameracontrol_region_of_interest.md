@@ -37,8 +37,6 @@ api_location:
 - Ksmedia.h
 api_name:
 - KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST
-product:
-- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST
 ---

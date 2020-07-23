@@ -37,8 +37,6 @@ api_location:
 - irb.h
 api_name:
 - IDE_CONTROL_ACTION
-product:
-- Windows
 targetos: Windows
 req.typenames: IDE_CONTROL_ACTION
 ---

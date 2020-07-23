@@ -37,8 +37,6 @@ api_location:
 - d3dukmdt.h
 api_name:
 - DXGKVGPU_ESCAPE_WRITE_PCI_CONFIG
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGKVGPU_ESCAPE_WRITE_PCI_CONFIG
 ---

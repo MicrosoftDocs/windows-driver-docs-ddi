@@ -37,8 +37,6 @@ api_location:
 - Hidport.h
 api_name:
 - IOCTL_UMDF_HID_SET_FEATURE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

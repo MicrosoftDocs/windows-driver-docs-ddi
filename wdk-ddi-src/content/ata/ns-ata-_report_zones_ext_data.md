@@ -37,8 +37,6 @@ api_location:
 - ata.h
 api_name:
 - REPORT_ZONES_EXT_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: REPORT_ZONES_EXT_DATA, *PREPORT_ZONES_EXT_DATA
 ---

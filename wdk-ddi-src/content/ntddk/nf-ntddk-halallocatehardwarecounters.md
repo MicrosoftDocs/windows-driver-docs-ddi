@@ -37,8 +37,6 @@ api_location:
 - Hal.dll
 api_name:
 - HalAllocateHardwareCounters
-product:
-- Windows
 targetos: Windows
 req.typenames:
 ms.custom: 19H1

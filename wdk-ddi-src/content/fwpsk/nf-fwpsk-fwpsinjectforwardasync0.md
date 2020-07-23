@@ -38,8 +38,6 @@ api_location:
 - fwpkclnt.dll
 api_name:
 - FwpsInjectForwardAsync0
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

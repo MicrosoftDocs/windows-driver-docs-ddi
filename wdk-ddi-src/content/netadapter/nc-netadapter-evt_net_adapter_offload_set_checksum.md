@@ -34,8 +34,6 @@ api_location:
 - netadapter.h
 api_name: 
 - EVT_NET_ADAPTER_OFFLOAD_SET_CHECKSUM
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

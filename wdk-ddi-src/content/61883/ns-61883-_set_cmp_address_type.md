@@ -37,8 +37,6 @@ api_location:
 - 61883.h
 api_name:
 - SET_CMP_ADDRESS_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: SET_CMP_ADDRESS_TYPE, *PSET_CMP_ADDRESS_TYPE
 ---

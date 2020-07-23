@@ -37,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugControl6.GetSynchronizationStatus
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

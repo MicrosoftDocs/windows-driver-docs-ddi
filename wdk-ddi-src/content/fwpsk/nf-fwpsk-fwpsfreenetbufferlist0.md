@@ -38,8 +38,6 @@ api_location:
 - fwpkclnt.dll
 api_name:
 - FwpsFreeNetBufferList0
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

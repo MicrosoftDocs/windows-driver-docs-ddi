@@ -37,8 +37,6 @@ api_location:
 - drmk.h
 api_name:
 - KSDRMAUDIOSTREAM_CONTENTID
-product:
-- Windows
 targetos: Windows
 req.typenames: KSDRMAUDIOSTREAM_CONTENTID, *PKSDRMAUDIOSTREAM_CONTENTID
 ---

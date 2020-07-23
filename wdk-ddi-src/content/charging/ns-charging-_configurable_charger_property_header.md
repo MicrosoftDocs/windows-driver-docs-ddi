@@ -37,8 +37,6 @@ api_location:
 - charging.h
 api_name:
 - CONFIGURABLE_CHARGER_PROPERTY_HEADER
-product:
-- Windows
 targetos: Windows
 req.typenames: CONFIGURABLE_CHARGER_PROPERTY_HEADER, *PCONFIGURABLE_CHARGER_PROPERTY_HEADER
 ---

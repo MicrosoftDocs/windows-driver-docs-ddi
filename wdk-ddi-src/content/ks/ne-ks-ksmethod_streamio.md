@@ -37,8 +37,6 @@ api_location:
 - Ks.h
 api_name:
 - KSMETHOD_STREAMIO
-product:
-- Windows
 targetos: Windows
 req.typenames: KSMETHOD_STREAMIO
 ---

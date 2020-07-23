@@ -37,8 +37,6 @@ api_location:
 - ntddmmc.h
 api_name:
 - FEATURE_DATA_INCREMENTAL_STREAMING_WRITABLE
-product:
-- Windows
 targetos: Windows
 req.typenames: FEATURE_DATA_INCREMENTAL_STREAMING_WRITABLE, *PFEATURE_DATA_INCREMENTAL_STREAMING_WRITABLE
 ---

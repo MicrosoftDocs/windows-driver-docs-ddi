@@ -31,8 +31,6 @@ apilocation:
 - netadapter.h
 apiname: 
 - _NET_ADAPTER_RX_CAPABILITIES
-product:
-- Windows
 targetos: Windows
 ---
 

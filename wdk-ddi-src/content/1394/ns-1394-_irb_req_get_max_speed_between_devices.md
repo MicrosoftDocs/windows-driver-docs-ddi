@@ -37,8 +37,6 @@ api_location:
 - 1394.h
 api_name:
 - IRB_REQ_GET_MAX_SPEED_BETWEEN_DEVICES
-product:
-- Windows
 targetos: Windows
 req.typenames: IRB_REQ_GET_MAX_SPEED_BETWEEN_DEVICES
 ---

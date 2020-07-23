@@ -30,8 +30,6 @@ api_location:
 - d3dkmthk.h
 api_name: 
 - D3DKMT_MIRACAST_CHUNK_DATA
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

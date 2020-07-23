@@ -39,8 +39,6 @@ api_name:
 - IDebugControl.CloseLogFile
 - IDebugControl2.CloseLogFile
 - IDebugControl3.CloseLogFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

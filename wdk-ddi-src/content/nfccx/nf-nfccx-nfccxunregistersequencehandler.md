@@ -37,8 +37,6 @@ api_location:
 - NfcCx.dll
 api_name:
 - NfcCxUnregisterSequenceHandler
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

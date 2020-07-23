@@ -30,8 +30,6 @@ api_location:
 - d3dkmthk.h
 api_name: 
 - _D3DKMT_GET_DEVICE_VIDPN_OWNERSHIP_INFO
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

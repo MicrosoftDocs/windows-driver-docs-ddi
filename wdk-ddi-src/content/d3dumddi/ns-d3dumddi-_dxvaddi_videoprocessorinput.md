@@ -37,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - DXVADDI_VIDEOPROCESSORINPUT
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVADDI_VIDEOPROCESSORINPUT
 ---

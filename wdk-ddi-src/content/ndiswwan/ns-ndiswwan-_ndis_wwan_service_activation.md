@@ -37,8 +37,6 @@ api_location:
 - ndiswwan.h
 api_name:
 - NDIS_WWAN_SERVICE_ACTIVATION
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_SERVICE_ACTIVATION, *PNDIS_WWAN_SERVICE_ACTIVATION
 ---

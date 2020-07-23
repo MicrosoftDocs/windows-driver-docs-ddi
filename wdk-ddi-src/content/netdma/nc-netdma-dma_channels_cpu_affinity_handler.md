@@ -37,8 +37,6 @@ api_location:
 - netdma.h
 api_name:
 - ProviderSetDmaChannelCpuAffinity
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

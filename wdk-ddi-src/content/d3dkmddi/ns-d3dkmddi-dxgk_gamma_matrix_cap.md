@@ -33,8 +33,6 @@ api_location:
  - d3dkmddi.h
 api_name: 
  - DXGK_GAMMA_MATRIX_CAP
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

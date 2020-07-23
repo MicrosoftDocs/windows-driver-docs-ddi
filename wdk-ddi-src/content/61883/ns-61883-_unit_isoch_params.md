@@ -37,8 +37,6 @@ api_location:
 - 61883.h
 api_name:
 - UNIT_ISOCH_PARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: UNIT_ISOCH_PARAMS, *PUNIT_ISOCH_PARAMS
 ---

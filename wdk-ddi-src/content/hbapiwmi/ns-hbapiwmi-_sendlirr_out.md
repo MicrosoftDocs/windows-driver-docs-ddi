@@ -37,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - SendLIRR_OUT
-product:
-- Windows
 targetos: Windows
 req.typenames: SendLIRR_OUT, *PSendLIRR_OUT
 ---

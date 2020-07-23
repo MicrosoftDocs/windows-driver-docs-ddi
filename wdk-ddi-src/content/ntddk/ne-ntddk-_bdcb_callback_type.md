@@ -37,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - BDCB_CALLBACK_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: BDCB_CALLBACK_TYPE, *PBDCB_CALLBACK_TYPE
 ---

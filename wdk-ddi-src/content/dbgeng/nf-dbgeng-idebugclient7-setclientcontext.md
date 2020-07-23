@@ -37,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugClient7.SetClientContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

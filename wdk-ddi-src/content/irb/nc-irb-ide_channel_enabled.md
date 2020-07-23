@@ -37,8 +37,6 @@ api_location:
 - irb.h
 api_name:
 - AtaControllerChannelEnabled
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - Ksmedia.h
 api_name:
 - KSPROPERTY_CAMERACONTROL_PERFRAMESETTING_PROPERTY
-product:
-- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_CAMERACONTROL_PERFRAMESETTING_PROPERTY
 ---

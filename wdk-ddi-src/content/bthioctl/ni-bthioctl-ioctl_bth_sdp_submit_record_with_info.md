@@ -37,8 +37,6 @@ api_location:
 - Bthioctl.h
 api_name:
 - IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

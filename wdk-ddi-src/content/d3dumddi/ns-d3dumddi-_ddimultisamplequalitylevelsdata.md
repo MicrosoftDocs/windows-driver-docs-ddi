@@ -37,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - DDIMULTISAMPLEQUALITYLEVELSDATA
-product:
-- Windows
 targetos: Windows
 req.typenames: DDIMULTISAMPLEQUALITYLEVELSDATA
 ---

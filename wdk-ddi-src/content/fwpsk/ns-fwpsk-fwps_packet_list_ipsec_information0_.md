@@ -37,8 +37,6 @@ api_location:
 - fwpsk.h
 api_name:
 - FWPS_PACKET_LIST_IPSEC_INFORMATION0
-product:
-- Windows
 targetos: Windows
 req.typenames: FWPS_PACKET_LIST_IPSEC_INFORMATION0
 ---

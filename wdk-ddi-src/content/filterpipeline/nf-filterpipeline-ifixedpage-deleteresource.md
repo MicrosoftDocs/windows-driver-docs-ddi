@@ -37,8 +37,6 @@ api_location:
 - filterpipeline.h
 api_name:
 - IFixedPage.DeleteResource
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

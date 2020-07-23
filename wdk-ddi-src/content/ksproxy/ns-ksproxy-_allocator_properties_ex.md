@@ -37,8 +37,6 @@ api_location:
 - ksproxy.h
 api_name:
 - ALLOCATOR_PROPERTIES_EX
-product:
-- Windows
 targetos: Windows
 req.typenames: ALLOCATOR_PROPERTIES_EX
 ---

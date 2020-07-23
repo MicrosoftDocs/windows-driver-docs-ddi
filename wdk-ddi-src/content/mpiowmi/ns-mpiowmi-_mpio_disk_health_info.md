@@ -37,8 +37,6 @@ api_location:
 - mpiowmi.h
 api_name:
 - MPIO_DISK_HEALTH_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: MPIO_DISK_HEALTH_INFO, *PMPIO_DISK_HEALTH_INFO
 ---

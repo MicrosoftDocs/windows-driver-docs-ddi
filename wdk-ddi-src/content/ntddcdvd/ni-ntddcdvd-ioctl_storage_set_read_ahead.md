@@ -37,8 +37,6 @@ api_location:
 - Ntddcdvd.h
 api_name:
 - IOCTL_STORAGE_SET_READ_AHEAD
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

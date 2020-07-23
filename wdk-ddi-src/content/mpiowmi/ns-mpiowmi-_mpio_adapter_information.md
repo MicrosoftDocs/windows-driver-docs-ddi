@@ -37,8 +37,6 @@ api_location:
 - mpiowmi.h
 api_name:
 - MPIO_ADAPTER_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: MPIO_ADAPTER_INFORMATION, *PMPIO_ADAPTER_INFORMATION
 ---

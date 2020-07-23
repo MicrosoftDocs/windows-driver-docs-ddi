@@ -30,8 +30,6 @@ api_location:
 - d3dkmthk.h
 api_name: 
 - _D3DKMT_CHECK_MULTIPLANE_OVERLAY_PLANE2
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

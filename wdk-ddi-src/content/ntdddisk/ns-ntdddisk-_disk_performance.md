@@ -37,8 +37,6 @@ api_location:
 - ntdddisk.h
 api_name:
 - DISK_PERFORMANCE
-product:
-- Windows
 targetos: Windows
 req.typenames: DISK_PERFORMANCE, *PDISK_PERFORMANCE
 ---

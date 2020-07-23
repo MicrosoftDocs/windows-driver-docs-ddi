@@ -37,8 +37,6 @@ api_location:
 - hidport.h
 api_name:
 - IOCTL_HID_WRITE_REPORT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - MS_SMHBA_PORTLUN
-product:
-- Windows
 targetos: Windows
 req.typenames: MS_SMHBA_PORTLUN, *PMS_SMHBA_PORTLUN
 ---

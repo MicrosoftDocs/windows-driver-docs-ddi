@@ -37,8 +37,6 @@ api_location:
 - 1394.h
 api_name:
 - IO_ADDRESS
-product:
-- Windows
 targetos: Windows
 req.typenames: IO_ADDRESS, *PIO_ADDRESS
 ---

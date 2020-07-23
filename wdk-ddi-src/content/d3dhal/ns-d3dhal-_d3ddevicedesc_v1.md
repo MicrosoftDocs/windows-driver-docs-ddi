@@ -37,8 +37,6 @@ api_location:
 - d3dhal.h
 api_name:
 - D3DDEVICEDESC_V1
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDEVICEDESC_V1, *LPD3DDEVICEDESC_V1
 ---

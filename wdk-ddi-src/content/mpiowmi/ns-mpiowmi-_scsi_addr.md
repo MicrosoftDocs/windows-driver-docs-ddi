@@ -37,8 +37,6 @@ api_location:
 - mpiowmi.h
 api_name:
 - SCSI_ADDR
-product:
-- Windows
 targetos: Windows
 req.typenames: SCSI_ADDR, *PSCSI_ADDR
 ---

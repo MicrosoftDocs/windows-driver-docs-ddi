@@ -33,8 +33,6 @@ api_location:
 - d3dkmthk.h
 api_name: 
 - PFND3DKMT_SIGNALSYNCHRONIZATIONOBJECT
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

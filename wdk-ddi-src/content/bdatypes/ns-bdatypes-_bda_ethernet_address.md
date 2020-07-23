@@ -37,8 +37,6 @@ api_location:
 - Bdatypes.h
 api_name:
 - BDA_ETHERNET_ADDRESS
-product:
-- Windows
 targetos: Windows
 req.typenames: BDA_ETHERNET_ADDRESS, *PBDA_ETHERNET_ADDRESS
 ---

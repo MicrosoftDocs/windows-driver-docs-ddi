@@ -31,8 +31,6 @@ api_location:
 - mbbcxtypes.h
 api_name: 
 - _MBB_DRIVER_GLOBALS
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

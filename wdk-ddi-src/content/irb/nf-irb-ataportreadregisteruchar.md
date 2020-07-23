@@ -40,8 +40,6 @@ api_location:
 - pciidex.dll
 api_name:
 - AtaPortReadRegisterUchar
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

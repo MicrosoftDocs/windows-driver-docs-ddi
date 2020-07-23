@@ -37,8 +37,6 @@ api_location:
 - Gpio.h
 api_name:
 - IOCTL_GPIO_READ_PINS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

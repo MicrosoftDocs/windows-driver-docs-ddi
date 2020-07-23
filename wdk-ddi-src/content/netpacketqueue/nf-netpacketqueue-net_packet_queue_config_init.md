@@ -35,8 +35,6 @@ api_location:
 - netadaptercxstub.lib
 api_name: 
 - NET_PACKET_QUEUE_CONFIG_INIT
-product:
-- Windows
 targetos: Windows
 
 

@@ -37,8 +37,6 @@ api_location:
 - Bthhfpddi.h
 api_name:
 - IOCTL_BTHHFP_SPEAKER_SET_VOLUME
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

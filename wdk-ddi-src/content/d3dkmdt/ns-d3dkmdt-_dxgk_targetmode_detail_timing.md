@@ -37,8 +37,6 @@ api_location:
 - d3dkmdt.h
 api_name:
 - DXGK_TARGETMODE_DETAIL_TIMING
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGK_TARGETMODE_DETAIL_TIMING
 ---

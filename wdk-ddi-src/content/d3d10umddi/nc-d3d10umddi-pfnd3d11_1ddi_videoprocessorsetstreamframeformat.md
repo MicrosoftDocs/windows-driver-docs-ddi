@@ -36,8 +36,6 @@ api_location:
 - D3d10umddi.h
 api_name:
 - pfnVideoProcessorSetStreamFrameFormat
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

@@ -39,8 +39,6 @@ api_name:
 - IDebugControl.SetNotifyEventHandle
 - IDebugControl2.SetNotifyEventHandle
 - IDebugControl3.SetNotifyEventHandle
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

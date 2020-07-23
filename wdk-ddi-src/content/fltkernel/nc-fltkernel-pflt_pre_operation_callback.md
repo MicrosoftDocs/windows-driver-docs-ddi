@@ -37,8 +37,6 @@ api_location:
 - fltkernel.h
 api_name:
 - PFLT_PRE_OPERATION_CALLBACK
-product:
-- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---

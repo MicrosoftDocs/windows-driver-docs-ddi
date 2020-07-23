@@ -37,8 +37,6 @@ api_location:
 - Ntddndis.h
 api_name:
 - NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO, *PNDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO
 ---

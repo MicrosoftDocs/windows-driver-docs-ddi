@@ -37,8 +37,6 @@ api_location:
 - dmusicks.h
 api_name:
 - ISynthSinkDMus.Render
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

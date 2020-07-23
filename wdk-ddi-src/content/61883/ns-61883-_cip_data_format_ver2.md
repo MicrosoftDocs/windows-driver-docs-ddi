@@ -37,8 +37,6 @@ api_location:
 - 61883.h
 api_name:
 - CIP_DATA_FORMAT_VER2
-product:
-- Windows
 targetos: Windows
 req.typenames: CIP_DATA_FORMAT_VER2, *PCIP_DATA_FORMAT_VER2
 ---

@@ -37,8 +37,6 @@ api_location:
 - Bdatypes.h
 api_name:
 - BDA_DISEQC_SEND
-product:
-- Windows
 targetos: Windows
 req.typenames: BDA_DISEQC_SEND, *PBDA_DISEQC_SEND
 ---

@@ -37,8 +37,6 @@ api_location:
 - dxva.h
 api_name:
 - DXVA_COPPStatusData
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVA_COPPStatusData
 ---

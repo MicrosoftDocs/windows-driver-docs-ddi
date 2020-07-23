@@ -37,8 +37,6 @@ api_location:
 - Ksi.h
 api_name:
 - KSPROPERTY_SERVICE
-product:
-- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_SERVICE
 ---

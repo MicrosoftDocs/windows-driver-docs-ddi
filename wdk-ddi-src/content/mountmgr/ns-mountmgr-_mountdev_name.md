@@ -37,8 +37,6 @@ api_location:
 - mountmgr.h
 api_name:
 - MOUNTDEV_NAME
-product:
-- Windows
 targetos: Windows
 req.typenames: MOUNTDEV_NAME, *PMOUNTDEV_NAME
 ---

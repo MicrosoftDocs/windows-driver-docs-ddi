@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KSRTAUDIO_SETWRITEPACKET_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: KSRTAUDIO_SETWRITEPACKET_INFO, *PKSRTAUDIO_SETWRITEPACKET_INFO
 ---

@@ -38,8 +38,6 @@ api_location:
 api_name: 
 - NetRequestRetrieveInputOutputBuffer
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetRequestRetrieveInputOutputBuffer function

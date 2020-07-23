@@ -36,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMT_SETVIDPNSOURCEOWNER2
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_SETVIDPNSOURCEOWNER2

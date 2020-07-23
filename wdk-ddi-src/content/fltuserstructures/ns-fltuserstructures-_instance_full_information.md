@@ -37,8 +37,6 @@ api_location:
 - fltuserstructures.h
 api_name:
 - INSTANCE_FULL_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: INSTANCE_FULL_INFORMATION, PINSTANCE_FULL_INFORMATION
 ---

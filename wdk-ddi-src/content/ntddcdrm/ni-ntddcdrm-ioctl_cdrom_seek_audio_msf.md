@@ -37,8 +37,6 @@ api_location:
 - ntddcdrm.h
 api_name:
 - IOCTL_CDROM_SEEK_AUDIO_MSF
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

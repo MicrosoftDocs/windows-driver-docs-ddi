@@ -37,8 +37,6 @@ api_location:
 - dmusprop.h
 api_name:
 - SYNTHDOWNLOAD
-product:
-- Windows
 targetos: Windows
 req.typenames: SYNTHDOWNLOAD, *PSYNTHDOWNLOAD
 ---

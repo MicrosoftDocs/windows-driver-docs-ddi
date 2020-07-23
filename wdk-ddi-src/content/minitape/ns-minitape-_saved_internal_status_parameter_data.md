@@ -30,8 +30,6 @@ api_location:
 - minitape.h
 api_name: 
 - _SAVED_INTERNAL_STATUS_PARAMETER_DATA
-product:
-- Windows
 targetos: Windows
 ---
 

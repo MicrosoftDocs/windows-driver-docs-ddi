@@ -37,8 +37,6 @@ api_location:
 - bthddi.h
 api_name:
 - PCM_DATA_FORMAT
-product:
-- Windows
 targetos: Windows
 req.typenames: PCM_DATA_FORMAT, *PPCM_DATA_FORMAT
 ---

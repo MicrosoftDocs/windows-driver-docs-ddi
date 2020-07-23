@@ -37,8 +37,6 @@ api_location:
 - avcstrm.h
 api_name:
 - IOCTL_AVCSTRM_CLASS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

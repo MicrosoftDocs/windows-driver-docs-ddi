@@ -36,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGK_GDIARG_TRANSPARENTBLT
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_GDIARG_TRANSPARENTBLT

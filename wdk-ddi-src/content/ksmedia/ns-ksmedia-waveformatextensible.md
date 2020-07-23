@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - WAVEFORMATEXTENSIBLE
-product:
-- Windows
 targetos: Windows
 req.typenames: WAVEFORMATEXTENSIBLE, *PWAVEFORMATEXTENSIBLE
 ---

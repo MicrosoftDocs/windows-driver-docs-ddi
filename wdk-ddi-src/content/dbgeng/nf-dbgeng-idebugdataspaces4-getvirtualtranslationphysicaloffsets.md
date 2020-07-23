@@ -39,8 +39,6 @@ api_name:
 - IDebugDataSpaces2.GetVirtualTranslationPhysicalOffsets
 - IDebugDataSpaces3.GetVirtualTranslationPhysicalOffsets
 - IDebugDataSpaces4.GetVirtualTranslationPhysicalOffsets
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

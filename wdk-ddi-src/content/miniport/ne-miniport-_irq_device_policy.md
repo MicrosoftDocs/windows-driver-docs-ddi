@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - IRQ_DEVICE_POLICY
-product:
-- Windows
 targetos: Windows
 req.typenames: IRQ_DEVICE_POLICY, *PIRQ_DEVICE_POLICY
 ---

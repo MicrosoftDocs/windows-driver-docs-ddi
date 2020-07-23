@@ -30,8 +30,6 @@ api_location:
 - d3dumddi.h
 api_name: 
 - D3DDDICB_OFFERALLOCATIONS2
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

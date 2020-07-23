@@ -37,8 +37,6 @@ api_location:
 - ksproxy.h
 api_name:
 - IKsPropertySet.QuerySupported
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

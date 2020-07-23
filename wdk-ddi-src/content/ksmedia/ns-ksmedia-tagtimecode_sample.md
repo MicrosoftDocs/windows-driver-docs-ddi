@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - TIMECODE_SAMPLE
-product:
-- Windows
 targetos: Windows
 req.typenames: TIMECODE_SAMPLE
 ---

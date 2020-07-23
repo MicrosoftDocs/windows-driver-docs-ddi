@@ -36,8 +36,6 @@ f1_keywords:
 - SDEV_SECURE_RESOURCE_ID_ENTRY
 dev_langs:
 - c++
-product:
-- Windows
 targetos: Windows
 ---
 

@@ -37,8 +37,6 @@ api_location:
 - Gpioclx.h
 api_name:
 - GPIO_READ_PINS_MASK_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: GPIO_READ_PINS_MASK_PARAMETERS, *PGPIO_READ_PINS_MASK_PARAMETERS
 ---

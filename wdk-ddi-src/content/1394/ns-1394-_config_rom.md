@@ -37,8 +37,6 @@ api_location:
 - 1394.h
 api_name:
 - CONFIG_ROM
-product:
-- Windows
 targetos: Windows
 req.typenames: CONFIG_ROM, *PCONFIG_ROM
 ---

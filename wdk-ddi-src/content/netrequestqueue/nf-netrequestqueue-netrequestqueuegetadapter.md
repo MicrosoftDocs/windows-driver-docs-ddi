@@ -38,8 +38,6 @@ apilocation:
 apiname: 
 - NetRequestQueueGetAdapter
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetRequestQueueGetAdapter function

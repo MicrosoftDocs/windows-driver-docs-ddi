@@ -31,8 +31,6 @@ api_location:
 - mbbcx.h
 api_name: 
 - _MBB_DEVICE_CONFIG
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

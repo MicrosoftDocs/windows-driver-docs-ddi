@@ -37,8 +37,6 @@ api_location:
 - bthddi.h
 api_name:
 - BRB_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: BRB_TYPE
 ---

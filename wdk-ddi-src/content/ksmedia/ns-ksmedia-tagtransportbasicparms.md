@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - TRANSPORTBASICPARMS
-product:
-- Windows
 targetos: Windows
 req.typenames: TRANSPORTBASICPARMS, *PTRANSPORTBASICPARMS
 ---

@@ -37,8 +37,6 @@ api_location:
 - Ntddscsi.h
 api_name:
 - IOCTL_SCSI_GET_CAPABILITIES
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

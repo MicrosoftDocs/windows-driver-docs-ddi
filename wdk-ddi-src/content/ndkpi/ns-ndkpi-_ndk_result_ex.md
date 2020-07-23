@@ -37,8 +37,6 @@ api_location:
 - ndkpi.h
 api_name:
 - NDK_RESULT_EX
-product:
-- Windows
 targetos: Windows
 req.typenames: NDK_RESULT_EX
 ---

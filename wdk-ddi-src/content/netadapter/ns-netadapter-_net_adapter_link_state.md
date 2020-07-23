@@ -34,8 +34,6 @@ api_location:
 api_name: 
 - NET_ADAPTER_LINK_STATE
 targetos: Windows
-product:
-- Windows
 ---
 
 # _NET_ADAPTER_LINK_STATE structure

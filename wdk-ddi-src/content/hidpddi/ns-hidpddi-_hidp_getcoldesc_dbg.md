@@ -37,8 +37,6 @@ api_location:
 - Hidpddi.h
 api_name:
 - HIDP_GETCOLDESC_DBG
-product:
-- Windows
 targetos: Windows
 req.typenames: HIDP_GETCOLDESC_DBG, *PHIDP_GETCOLDESC_DBG
 ---

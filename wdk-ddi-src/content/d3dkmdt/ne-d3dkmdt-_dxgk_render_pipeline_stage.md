@@ -37,8 +37,6 @@ api_location:
 - D3dkmdt.h
 api_name:
 - DXGK_RENDER_PIPELINE_STAGE
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGK_RENDER_PIPELINE_STAGE
 ---

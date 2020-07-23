@@ -38,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisFreeCloneOidRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

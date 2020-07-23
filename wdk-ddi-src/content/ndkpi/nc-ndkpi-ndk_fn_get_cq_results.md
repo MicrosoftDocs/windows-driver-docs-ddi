@@ -37,8 +37,6 @@ api_location:
 - ndkpi.h
 api_name:
 - NdkGetCqResults
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

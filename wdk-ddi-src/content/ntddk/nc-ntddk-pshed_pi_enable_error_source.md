@@ -37,8 +37,6 @@ api_location:
 - Ntddk.h
 api_name:
 - EnableErrorSource
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

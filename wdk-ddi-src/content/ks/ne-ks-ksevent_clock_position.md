@@ -37,8 +37,6 @@ api_location:
 - Ks.h
 api_name:
 - KSEVENT_CLOCK_POSITION
-product:
-- Windows
 targetos: Windows
 req.typenames: KSEVENT_CLOCK_POSITION
 ---

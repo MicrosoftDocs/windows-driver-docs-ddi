@@ -33,8 +33,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGKDDI_SETSCHEDULINGLOGBUFFER
-product:
-- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

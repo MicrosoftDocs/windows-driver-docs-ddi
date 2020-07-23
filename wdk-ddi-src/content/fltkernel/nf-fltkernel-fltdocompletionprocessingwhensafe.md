@@ -38,8 +38,6 @@ api_location:
 - Fltmgr.dll
 api_name:
 - FltDoCompletionProcessingWhenSafe
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - Charging.h
 api_name:
 - BATTERY_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: BATTERYPROVISIONINGSTATUS, *PBATTERYPROVISIONINGSTATUS
 ---

@@ -37,8 +37,6 @@ api_location:
 - d3dhal.h
 api_name:
 - DD_DXVERSION
-product:
-- Windows
 targetos: Windows
 req.typenames: DD_DXVERSION
 ---

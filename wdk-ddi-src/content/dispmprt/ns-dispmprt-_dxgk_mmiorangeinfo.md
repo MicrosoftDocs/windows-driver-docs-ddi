@@ -30,8 +30,6 @@ api_location:
 - dispmprt.h
 api_name: 
 - _DXGK_MMIORANGEINFO
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

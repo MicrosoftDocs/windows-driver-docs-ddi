@@ -37,8 +37,6 @@ api_location:
 - 61883.h
 api_name:
 - SET_FCP_NOTIFY
-product:
-- Windows
 targetos: Windows
 req.typenames: SET_FCP_NOTIFY, *PSET_FCP_NOTIFY
 ---

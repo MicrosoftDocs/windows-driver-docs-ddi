@@ -35,8 +35,6 @@ apilocation:
 - NtosKrnl.exe
 apiname: 
 - NetExtensionGetData
-product:
-- Windows
 targetos: Windows
 
 ---

@@ -37,8 +37,6 @@ api_location:
 - ndiswwan.h
 api_name:
 - NDIS_WWAN_PREFERRED_PROVIDERS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_PREFERRED_PROVIDERS, *PNDIS_WWAN_PREFERRED_PROVIDERS
 ---

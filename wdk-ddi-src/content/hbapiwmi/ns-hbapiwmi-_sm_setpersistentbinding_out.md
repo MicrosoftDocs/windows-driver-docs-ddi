@@ -37,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - SM_SetPersistentBinding_OUT
-product:
-- Windows
 targetos: Windows
 req.typenames: SM_SetPersistentBinding_OUT, *PSM_SetPersistentBinding_OUT
 ---

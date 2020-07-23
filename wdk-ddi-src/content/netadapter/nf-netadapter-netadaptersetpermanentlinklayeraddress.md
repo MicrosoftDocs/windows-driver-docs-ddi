@@ -39,8 +39,6 @@ api_location:
 api_name: 
 - NetAdapterSetPermanentLinkLayerAddress
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetAdapterSetPermanentLinkLayerAddress function

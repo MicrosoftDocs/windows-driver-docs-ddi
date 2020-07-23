@@ -37,8 +37,6 @@ api_location:
 - bthddi.h
 api_name:
 - _BRB_ACL_GET_MODE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

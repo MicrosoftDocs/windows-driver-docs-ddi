@@ -37,8 +37,6 @@ api_location:
 - bidispl.dll
 api_name:
 - IBidiRequestContainer.GetRequestCount
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
