@@ -59,27 +59,9 @@ A pointer to a driver-allocated [**NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES*
 
 Flags specifying the layer 3 protocol variations that the NIC can successfully perform Tx checksum on.
 
-The flags should be a combination of:
-
-| Flag | Description |
-| --- | --- |
-| NetAdapterOffloadFlagIPv4WithoutOptions | Set if the NIC is capable of performing IPv4 checksum offload or TCP/UDP checksum offload on IPv4 packets without options |
-| NetAdapterOffloadFlagIPv4WithOptions | Set if the NIC is capable of performing Tx checksum offload on IPv4 packets with options |
-| NetAdapterOffloadFlagIPv6WithoutExtensions | Set if the NIC is capable of performing Tx checksum offload on IPv6 packets without extensions |
-| NetAdapterOffloadFlagIPv6WithExtensions | Set if the NIC is capable of performing Tx checksum offload on IPv6 packets with extensions |
-
-
 ### -param Layer4Flags
 
 Flags specifying the layer 4 protocol variations that the NIC can successfully perform Tx checksum on.
-
-The flags should be a combination of:
-
-| Flag | Description |
-| --- | --- |
-| NetAdapterOffloadFlagTcpWithoutOptions | Set if the NIC is capable of performing TCP checksum offload |
-| NetAdapterOffloadFlagTcpWithOptions | Set if the NIC is capable of performing Tx checksum offload on TCP packets with options |
-| NetAdapterOffloadFlagUdp | Set if the NIC is capable of performing UDP checksum offload |
 
 ### -param EvtAdapterOffloadSetTxChecksum
 

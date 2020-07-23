@@ -43,9 +43,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The *EvtNetAdapterOffloadSetTxChecksum* callback function is implemented by the client driver to set changes in active Tx checksum offload capabilities.
+The *EvtNetAdapterOffloadSetTxChecksum* callback function is implemented by the client driver to query changes in active Tx checksum offload capabilities and update the hardware settings accordingly.
 
 ## -prototype
 

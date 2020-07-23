@@ -45,7 +45,7 @@ ms.custom: 19H1
 
 
 
-The *EvtNetAdapterOffloadSetRxChecksum* callback function is implemented by the client driver to set changes in active Rx checksum offload capabilities.
+The *EvtNetAdapterOffloadSetRxChecksum* callback function is implemented by the client driver to query changes in active Rx checksum offload capabilities and update the hardware accordingly.
 
 ## -prototype
 
