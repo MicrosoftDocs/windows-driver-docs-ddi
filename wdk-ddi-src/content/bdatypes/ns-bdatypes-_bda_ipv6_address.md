@@ -37,8 +37,6 @@ api_location:
 - Bdatypes.h
 api_name:
 - BDA_IPv6_ADDRESS
-product:
-- Windows
 targetos: Windows
 req.typenames: BDA_IPv6_ADDRESS, *PBDA_IPv6_ADDRESS
 ---

@@ -34,8 +34,6 @@ api_location:
 - bdatypes.h
 api_name: 
 - TAG
-product:
-- Windows
 targetos: Windows
 
 

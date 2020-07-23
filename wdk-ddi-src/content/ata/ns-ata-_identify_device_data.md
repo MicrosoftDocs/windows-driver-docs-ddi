@@ -37,8 +37,6 @@ api_location:
 - ata.h
 api_name:
 - IDENTIFY_DEVICE_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: IDENTIFY_DEVICE_DATA, *PIDENTIFY_DEVICE_DATA
 ---

@@ -37,8 +37,6 @@ api_location:
 - Bdatypes.h
 api_name:
 - BDA_GDDS_DATATYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: BDA_GDDS_DATATYPE, *P_BDA_GDDS_DATATYPE
 ---

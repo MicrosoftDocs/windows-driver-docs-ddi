@@ -37,8 +37,6 @@ api_location:
 - hdaudio.h
 api_name:
 - FreeDmaEngine
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

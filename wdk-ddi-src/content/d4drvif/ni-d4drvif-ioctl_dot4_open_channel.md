@@ -37,8 +37,6 @@ api_location:
 - D4drvif.h
 api_name:
 - IOCTL_DOT4_OPEN_CHANNEL
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - WHEA_ERROR_SOURCE_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: WHEA_ERROR_SOURCE_STATE, *PWHEA_ERROR_SOURCE_STATE
 ms.custom: 19H1

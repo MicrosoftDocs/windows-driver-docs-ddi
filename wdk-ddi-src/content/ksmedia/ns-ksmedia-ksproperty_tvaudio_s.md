@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KSPROPERTY_TVAUDIO_S
-product:
-- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_TVAUDIO_S, *PKSPROPERTY_TVAUDIO_S
 ---

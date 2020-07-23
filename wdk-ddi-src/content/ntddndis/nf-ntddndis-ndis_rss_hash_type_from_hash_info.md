@@ -35,8 +35,6 @@ api_location:
 - ntddndis.h
 api_name: 
 - NDIS_RSS_HASH_TYPE_FROM_HASH_INFO
-product:
-- Windows
 targetos: Windows
 
 ---

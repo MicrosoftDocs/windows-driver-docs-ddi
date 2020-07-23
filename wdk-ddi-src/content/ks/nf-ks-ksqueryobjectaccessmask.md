@@ -38,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsQueryObjectAccessMask
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

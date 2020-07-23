@@ -36,8 +36,6 @@ f1_keywords:
 - PCC_REDUCED_2_SUBSPACE
 dev_langs:
 - c++
-product:
-- Windows
 targetos: Windows
 ---
 

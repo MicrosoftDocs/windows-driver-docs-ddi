@@ -37,8 +37,6 @@ api_location:
 - mcd.h
 api_name:
 - ChangerPerformDiagnostics
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

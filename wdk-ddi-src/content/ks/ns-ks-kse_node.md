@@ -37,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KSE_NODE
-product:
-- Windows
 targetos: Windows
 req.typenames: KSE_NODE, *PKSE_NODE
 ---

@@ -30,8 +30,6 @@ api_location:
 - d3dkmthk.h
 api_name: 
 - _D3DKMT_QUERY_DEVICE_IDS
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

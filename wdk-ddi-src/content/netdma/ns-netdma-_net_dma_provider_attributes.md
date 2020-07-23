@@ -37,8 +37,6 @@ api_location:
 - netdma.h
 api_name:
 - NET_DMA_PROVIDER_ATTRIBUTES
-product:
-- Windows
 targetos: Windows
 req.typenames: NET_DMA_PROVIDER_ATTRIBUTES, *PNET_DMA_PROVIDER_ATTRIBUTES
 ---

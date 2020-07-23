@@ -37,8 +37,6 @@ api_location:
 - iddcx.h
 api_name:
 - PFN_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - dot11wdi.h
 api_name:
 - MiniportWdiTalTxRxDeinitialize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

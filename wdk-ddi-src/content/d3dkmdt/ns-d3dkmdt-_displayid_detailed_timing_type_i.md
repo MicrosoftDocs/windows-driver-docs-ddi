@@ -37,8 +37,6 @@ api_location:
 - d3dkmdt.h
 api_name:
 - DISPLAYID_DETAILED_TIMING_TYPE_I
-product:
-- Windows
 targetos: Windows
 req.typenames: DISPLAYID_DETAILED_TIMING_TYPE_I
 ---

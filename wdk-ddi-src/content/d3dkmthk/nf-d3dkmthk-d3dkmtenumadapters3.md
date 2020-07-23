@@ -34,8 +34,6 @@ api_location:
 - Gdi32.dll
 api_name: 
 - D3DKMTEnumAdapters2
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMTEnumAdapters3

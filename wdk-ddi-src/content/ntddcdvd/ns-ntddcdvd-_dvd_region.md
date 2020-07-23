@@ -37,8 +37,6 @@ api_location:
 - ntddcdvd.h
 api_name:
 - DVD_REGION
-product:
-- Windows
 targetos: Windows
 req.typenames: DVD_REGION, *PDVD_REGION
 ---

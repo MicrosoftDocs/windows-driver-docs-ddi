@@ -37,8 +37,6 @@ api_location:
 - Hdaudio.h
 api_name:
 - HDAUDIO_STREAM_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: HDAUDIO_STREAM_STATE, *PHDAUDIO_STREAM_STATE
 ---

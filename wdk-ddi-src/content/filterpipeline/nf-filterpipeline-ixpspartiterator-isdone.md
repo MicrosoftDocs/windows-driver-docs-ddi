@@ -37,8 +37,6 @@ api_location:
 - Filterpipeline.h
 api_name:
 - IXpsPartIterator.IsDone
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

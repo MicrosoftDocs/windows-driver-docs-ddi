@@ -37,8 +37,6 @@ api_location:
 - compstui.h
 api_name:
 - SETRESULT_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---

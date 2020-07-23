@@ -36,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGK_PROTECTED_SESSION_STATUS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_PROTECTED_SESSION_STATUS

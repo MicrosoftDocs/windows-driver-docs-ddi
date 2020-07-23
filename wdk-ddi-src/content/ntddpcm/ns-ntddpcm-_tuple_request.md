@@ -37,8 +37,6 @@ api_location:
 - ntddpcm.h
 api_name:
 - TUPLE_REQUEST
-product:
-- Windows
 targetos: Windows
 req.typenames: TUPLE_REQUEST, *PTUPLE_REQUEST
 ---

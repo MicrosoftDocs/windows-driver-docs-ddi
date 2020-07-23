@@ -37,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - DXVAHDDDI_RATIONAL
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVAHDDDI_RATIONAL
 ---

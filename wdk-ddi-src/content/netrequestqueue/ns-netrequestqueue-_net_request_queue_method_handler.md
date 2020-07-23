@@ -34,8 +34,6 @@ api_location:
 api_name: 
 - NET_REQUEST_QUEUE_METHOD_HANDLER
 targetos: Windows
-product:
-- Windows
 ---
 
 # _NET_REQUEST_QUEUE_METHOD_HANDLER structure

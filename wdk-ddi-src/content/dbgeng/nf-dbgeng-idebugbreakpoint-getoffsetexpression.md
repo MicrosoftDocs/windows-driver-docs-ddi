@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IDebugBreakpoint.GetOffsetExpression
 - IDebugBreakpoint2.GetOffsetExpression
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,8 +38,6 @@ api_location:
 - API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 - D3DKMTOpenAdapterFromLuid
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

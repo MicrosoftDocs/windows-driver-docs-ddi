@@ -36,8 +36,6 @@ api_location:
 - Gdi32.dll
 api_name:
 - D3DKMTOpenKeyedMutex2
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

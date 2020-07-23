@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KSAUDIO_POSITIONEX
-product:
-- Windows
 targetos: Windows
 req.typenames: KSAUDIO_POSITIONEX, *PKSAUDIO_POSITIONEX
 ---

@@ -39,8 +39,6 @@ api_name:
 - IDebugSymbols.GetNearNameByOffset
 - IDebugSymbols2.GetNearNameByOffset
 - IDebugSymbols3.GetNearNameByOffset
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

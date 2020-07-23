@@ -37,8 +37,6 @@ api_location:
 - fwpsk.h
 api_name:
 - FWPS_TRANSPORT_SEND_PARAMS1
-product:
-- Windows
 targetos: Windows
 req.typenames: FWPS_TRANSPORT_SEND_PARAMS1
 ---

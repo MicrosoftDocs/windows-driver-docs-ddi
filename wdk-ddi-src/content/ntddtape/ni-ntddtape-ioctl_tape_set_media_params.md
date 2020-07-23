@@ -37,8 +37,6 @@ api_location:
 - Ntddtape.h
 api_name:
 - IOCTL_TAPE_SET_MEDIA_PARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

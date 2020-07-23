@@ -36,8 +36,6 @@ api_location:
  - d3dkmddi.h
 api_name: 
  - DXGKDDI_RESTOREMEMORYFORHOTUPDATE
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

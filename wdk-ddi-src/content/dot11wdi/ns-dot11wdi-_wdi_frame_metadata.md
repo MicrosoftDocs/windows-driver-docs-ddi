@@ -37,8 +37,6 @@ api_location:
 - dot11wdi.h
 api_name:
 - WDI_FRAME_METADATA
-product:
-- Windows
 targetos: Windows
 req.typenames: WDI_FRAME_METADATA, *PWDI_FRAME_METADATA
 ---

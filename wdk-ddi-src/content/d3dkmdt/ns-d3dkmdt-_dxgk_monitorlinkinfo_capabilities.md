@@ -37,8 +37,6 @@ api_location:
 - d3dkmdt.h
 api_name:
 - DXGK_MONITORLINKINFO_CAPABILITIES
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGK_MONITORLINKINFO_CAPABILITIES, *PDXGK_MONITORLINKINFO_CAPABILITIES
 dev_langs:

@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - VIDEOENCODER_BITRATE_MODE
-product:
-- Windows
 targetos: Windows
 req.typenames: VIDEOENCODER_BITRATE_MODE
 ---

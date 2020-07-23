@@ -37,8 +37,6 @@ api_location:
 - hidclass.h
 api_name:
 - IOCTL_HID_SET_S0_IDLE_TIMEOUT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

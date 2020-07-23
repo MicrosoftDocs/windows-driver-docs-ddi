@@ -37,8 +37,6 @@ api_location:
 - ntddmmc.h
 api_name:
 - FEATURE_DATA_DVD_CSS
-product:
-- Windows
 targetos: Windows
 req.typenames: FEATURE_DATA_DVD_CSS, *PFEATURE_DATA_DVD_CSS
 ---

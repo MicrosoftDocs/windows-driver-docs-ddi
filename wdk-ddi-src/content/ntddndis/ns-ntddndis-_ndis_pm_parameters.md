@@ -37,8 +37,6 @@ api_location:
 - Ntddndis.h
 api_name:
 - NDIS_PM_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_PM_PARAMETERS, *PNDIS_PM_PARAMETERS
 ---

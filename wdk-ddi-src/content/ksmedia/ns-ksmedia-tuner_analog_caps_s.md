@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - TUNER_ANALOG_CAPS_S
-product:
-- Windows
 targetos: Windows
 req.typenames: TUNER_ANALOG_CAPS_S, *PTUNER_ANALOG_CAPS_S
 ---

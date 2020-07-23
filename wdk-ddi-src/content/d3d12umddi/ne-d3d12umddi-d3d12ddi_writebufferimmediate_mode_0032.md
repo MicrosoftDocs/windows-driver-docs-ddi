@@ -36,8 +36,6 @@ api_location:
 - d3d12umddi.h
 api_name:
 - D3D12DDI_WRITEBUFFERIMMEDIATE_MODE_0032
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D12DDI_WRITEBUFFERIMMEDIATE_MODE_0032

@@ -37,8 +37,6 @@ api_location:
 - fltkernel.h
 api_name:
 - FLT_RELATED_CONTEXTS
-product:
-- Windows
 targetos: Windows
 req.typenames: FLT_RELATED_CONTEXTS, *PFLT_RELATED_CONTEXTS
 ---

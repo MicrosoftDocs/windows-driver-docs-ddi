@@ -39,8 +39,6 @@ api_location:
 api_name: 
 - NetAdapterGetNetLuid
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetAdapterGetNetLuid function

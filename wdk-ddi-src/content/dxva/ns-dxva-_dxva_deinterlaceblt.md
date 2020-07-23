@@ -37,8 +37,6 @@ api_location:
 - dxva.h
 api_name:
 - DXVA_DeinterlaceBlt
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVA_DeinterlaceBlt
 ---

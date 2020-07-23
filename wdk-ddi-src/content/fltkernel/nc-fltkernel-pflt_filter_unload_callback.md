@@ -37,8 +37,6 @@ api_location:
 - fltkernel.h
 api_name:
 - FilterUnloadCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

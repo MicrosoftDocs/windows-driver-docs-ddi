@@ -37,8 +37,6 @@ api_location:
 - fwpsk.h
 api_name:
 - vSwitchPolicyEventNotifyFn
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

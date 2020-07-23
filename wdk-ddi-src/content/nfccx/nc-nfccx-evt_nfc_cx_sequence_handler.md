@@ -37,8 +37,6 @@ api_location:
 - nfccx.h
 api_name:
 - EvtNfcCxSequenceHandler
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

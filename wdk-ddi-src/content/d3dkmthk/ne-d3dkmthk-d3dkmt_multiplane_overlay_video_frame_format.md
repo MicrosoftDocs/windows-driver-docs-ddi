@@ -27,8 +27,6 @@ api_location:
 - d3dkmthk.h
 api_name: 
 - D3DKMT_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

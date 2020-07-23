@@ -28,8 +28,6 @@ api_location:
 - d3dkmthk.h
 api_name: 
 - IOCTL_INTERNAL_GRAPHICSPOWER_REGISTER
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

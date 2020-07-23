@@ -35,8 +35,6 @@ api_location:
 - ndis.h
 api_name: 
 - NdisClearNblFlag
-product:
-- Windows
 targetos: Windows
 
 ---

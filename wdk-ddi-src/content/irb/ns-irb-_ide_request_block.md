@@ -37,8 +37,6 @@ api_location:
 - irb.h
 api_name:
 - IDE_REQUEST_BLOCK
-product:
-- Windows
 targetos: Windows
 req.typenames: IDE_REQUEST_BLOCK, *PIDE_REQUEST_BLOCK
 ---

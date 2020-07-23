@@ -39,8 +39,6 @@ api_name:
 - IDebugControl.OutputDisassemblyLines
 - IDebugControl2.OutputDisassemblyLines
 - IDebugControl3.OutputDisassemblyLines
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

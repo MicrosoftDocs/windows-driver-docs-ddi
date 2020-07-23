@@ -38,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsDereferenceBusObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

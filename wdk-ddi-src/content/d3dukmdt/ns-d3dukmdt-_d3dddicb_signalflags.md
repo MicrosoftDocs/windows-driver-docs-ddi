@@ -37,8 +37,6 @@ api_location:
 - d3dukmdt.h
 api_name:
 - D3DDDICB_SIGNALFLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDICB_SIGNALFLAGS
 ---

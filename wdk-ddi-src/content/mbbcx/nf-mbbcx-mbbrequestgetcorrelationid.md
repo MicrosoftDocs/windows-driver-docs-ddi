@@ -35,8 +35,6 @@ api_location:
 - mbbcxstub.lib
 api_name: 
 - MbbRequestGetCorrelationId
-product:
-- Windows
 targetos: Windows
 
 

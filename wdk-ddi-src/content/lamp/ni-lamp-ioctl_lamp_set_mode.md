@@ -37,8 +37,6 @@ api_location:
 - lamp.h
 api_name:
 - IOCTL_LAMP_SET_MODE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

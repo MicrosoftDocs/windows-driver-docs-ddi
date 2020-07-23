@@ -37,8 +37,6 @@ api_location:
 - bdamedia.h
 api_name:
 - KS_DATARANGE_BDA_TRANSPORT
-product:
-- Windows
 targetos: Windows
 req.typenames: KS_DATARANGE_BDA_TRANSPORT, *PKS_DATARANGE_BDA_TRANSPORT
 ---

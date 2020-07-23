@@ -30,8 +30,6 @@ api_location:
 - d3dkmthk.h
 api_name: 
 - _D3DKMT_PLANE_SPECIFIC_OUTPUT_FLAGS
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

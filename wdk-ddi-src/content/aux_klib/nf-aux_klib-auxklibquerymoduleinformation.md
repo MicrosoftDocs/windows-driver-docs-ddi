@@ -38,8 +38,6 @@ api_location:
 - Aux_Klib.dll
 api_name:
 - AuxKlibQueryModuleInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

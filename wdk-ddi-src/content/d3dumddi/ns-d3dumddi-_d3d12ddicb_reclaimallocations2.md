@@ -37,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3D12DDICB_RECLAIMALLOCATIONS2
-product:
-- Windows
 targetos: Windows
 req.typenames: D3D12DDICB_RECLAIMALLOCATIONS2
 ---

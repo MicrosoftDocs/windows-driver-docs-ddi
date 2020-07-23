@@ -37,8 +37,6 @@ api_location:
 - Ks.h
 api_name:
 - IKsControl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: 19H1

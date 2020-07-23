@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KSTELEPHONY_CALLINFO
-product:
-- Windows
 targetos: Windows
 req.typenames: KSTELEPHONY_CALLINFO, *PKSTELEPHONY_CALLINFO
 ---

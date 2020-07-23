@@ -37,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KSBUFFER_ITEM
-product:
-- Windows
 targetos: Windows
 req.typenames: KSBUFFER_ITEM, *PKSBUFFER_ITEM
 ---

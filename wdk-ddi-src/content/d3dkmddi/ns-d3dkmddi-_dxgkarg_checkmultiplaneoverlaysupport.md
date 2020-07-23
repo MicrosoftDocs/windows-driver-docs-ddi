@@ -36,8 +36,6 @@ api_location:
 - D3dkmddi.h
 api_name:
 - DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT

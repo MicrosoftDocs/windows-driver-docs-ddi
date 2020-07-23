@@ -37,8 +37,6 @@ api_location:
 - Dispmprt.h
 api_name:
 - DXGK_MIRACAST_CAPS
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGK_MIRACAST_CAPS, *PDXGK_MIRACAST_CAPS
 ---

@@ -37,8 +37,6 @@ api_location:
 - Netdispumdddi.h
 api_name:
 - StopMiracastSession
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

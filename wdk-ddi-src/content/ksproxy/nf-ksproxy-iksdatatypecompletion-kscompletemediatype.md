@@ -37,8 +37,6 @@ api_location:
 - ksproxy.h
 api_name:
 - IKsDataTypeCompletion.KsCompleteMediaType
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

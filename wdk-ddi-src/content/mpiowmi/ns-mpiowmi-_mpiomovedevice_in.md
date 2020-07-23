@@ -37,8 +37,6 @@ api_location:
 - mpiowmi.h
 api_name:
 - MPIOMoveDevice_IN
-product:
-- Windows
 targetos: Windows
 req.typenames: MPIOMoveDevice_IN, *PMPIOMoveDevice_IN
 ---

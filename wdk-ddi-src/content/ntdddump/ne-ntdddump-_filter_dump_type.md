@@ -37,8 +37,6 @@ api_location:
 - ntdddump.h
 api_name:
 - FILTER_DUMP_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: FILTER_DUMP_TYPE, *PFILTER_DUMP_TYPE
 ---

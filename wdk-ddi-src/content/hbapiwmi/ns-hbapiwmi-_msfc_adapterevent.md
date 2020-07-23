@@ -37,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - MSFC_AdapterEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: MSFC_AdapterEvent, *PMSFC_AdapterEvent
 ---

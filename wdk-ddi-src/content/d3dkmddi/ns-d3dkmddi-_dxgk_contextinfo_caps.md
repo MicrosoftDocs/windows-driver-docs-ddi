@@ -36,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGK_CONTEXTINFO_CAPS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_CONTEXTINFO_CAPS

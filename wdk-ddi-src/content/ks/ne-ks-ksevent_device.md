@@ -37,8 +37,6 @@ api_location:
 - Ks.h
 api_name:
 - KSEVENT_DEVICE
-product:
-- Windows
 targetos: Windows
 req.typenames: KSEVENT_DEVICE
 ---

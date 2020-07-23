@@ -37,8 +37,6 @@ api_location:
 - hdaudio.h
 api_name:
 - HDAudioBdlIsr
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

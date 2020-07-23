@@ -37,8 +37,6 @@ api_location:
 - ndiswwan.h
 api_name:
 - NDIS_WWAN_SET_PIN
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_SET_PIN, *PNDIS_WWAN_SET_PIN
 ---

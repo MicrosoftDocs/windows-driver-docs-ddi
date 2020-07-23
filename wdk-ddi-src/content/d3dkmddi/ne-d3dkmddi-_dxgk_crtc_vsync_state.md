@@ -36,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGK_CRTC_VSYNC_STATE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_CRTC_VSYNC_STATE

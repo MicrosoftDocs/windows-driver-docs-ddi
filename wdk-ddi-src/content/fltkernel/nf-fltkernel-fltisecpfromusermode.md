@@ -37,8 +37,6 @@ api_location:
 - FltMgr.sys
 api_name:
 - FltIsEcpFromUserMode
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

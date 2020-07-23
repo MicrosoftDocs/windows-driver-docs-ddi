@@ -37,8 +37,6 @@ api_location:
 - Ntddcdrm.h
 api_name:
 - CDROM_PERFORMANCE_EXCEPTION_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: CDROM_PERFORMANCE_EXCEPTION_TYPE, *PCDROM_PERFORMANCE_EXCEPTION_TYPE
 ---

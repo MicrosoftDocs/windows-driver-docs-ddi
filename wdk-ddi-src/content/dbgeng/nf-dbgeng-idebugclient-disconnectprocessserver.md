@@ -41,8 +41,6 @@ api_name:
 - IDebugClient3.DisconnectProcessServer
 - IDebugClient4.DisconnectProcessServer
 - IDebugClient5.DisconnectProcessServer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

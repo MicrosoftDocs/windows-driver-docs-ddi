@@ -36,8 +36,6 @@ api_location:
 - D3dkmthk.h
 api_name:
 - D3DKMTReclaimAllocations
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

@@ -38,8 +38,6 @@ api_location:
 api_name: 
 - NetConfigurationQueryBinary
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetConfigurationQueryBinary function

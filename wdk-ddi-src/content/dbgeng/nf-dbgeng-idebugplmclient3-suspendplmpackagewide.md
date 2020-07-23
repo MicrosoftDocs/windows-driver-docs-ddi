@@ -37,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugPlmClient3.SuspendPlmPackageWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

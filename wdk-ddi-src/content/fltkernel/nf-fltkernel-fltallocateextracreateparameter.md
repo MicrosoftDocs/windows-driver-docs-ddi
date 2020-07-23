@@ -38,8 +38,6 @@ api_location:
 - FltMgr.dll
 api_name:
 - FltAllocateExtraCreateParameter
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

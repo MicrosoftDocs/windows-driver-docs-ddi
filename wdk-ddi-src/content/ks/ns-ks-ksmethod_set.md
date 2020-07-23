@@ -37,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KSMETHOD_SET
-product:
-- Windows
 targetos: Windows
 req.typenames: KSMETHOD_SET, *PKSMETHOD_SET
 ---

@@ -38,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisFreeFragmentNetBufferList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

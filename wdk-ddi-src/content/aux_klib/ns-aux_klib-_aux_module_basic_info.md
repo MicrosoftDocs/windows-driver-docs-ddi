@@ -37,8 +37,6 @@ api_location:
 - aux_klib.h
 api_name:
 - AUX_MODULE_BASIC_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: AUX_MODULE_BASIC_INFO, *PAUX_MODULE_BASIC_INFO
 ---

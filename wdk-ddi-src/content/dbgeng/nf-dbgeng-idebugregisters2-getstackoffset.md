@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IDebugRegisters.GetStackOffset
 - IDebugRegisters2.GetStackOffset
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

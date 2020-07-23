@@ -37,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KSALLOCATOR_FRAMING
-product:
-- Windows
 targetos: Windows
 req.typenames: KSALLOCATOR_FRAMING, *PKSALLOCATOR_FRAMING
 ---

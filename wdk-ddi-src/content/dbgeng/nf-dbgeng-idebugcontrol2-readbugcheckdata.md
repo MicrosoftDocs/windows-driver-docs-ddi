@@ -39,8 +39,6 @@ api_name:
 - IDebugControl.ReadBugCheckData
 - IDebugControl2.ReadBugCheckData
 - IDebugControl3.ReadBugCheckData
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

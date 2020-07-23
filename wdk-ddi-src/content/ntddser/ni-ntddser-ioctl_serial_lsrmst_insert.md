@@ -37,8 +37,6 @@ api_location:
 - Ntddser.h
 api_name:
 - IOCTL_SERIAL_LSRMST_INSERT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - extsfns.h
 api_name:
 - DEBUG_FLR_PARAM_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: DEBUG_FLR_PARAM_TYPE
 ---

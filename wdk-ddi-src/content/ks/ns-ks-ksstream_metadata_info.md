@@ -37,8 +37,6 @@ api_location:
 - Ks.h
 api_name:
 - KSSTREAM_METADATA_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: KSSTREAM_METADATA_INFO, *PKSSTREAM_METADATA_INFO
 ---

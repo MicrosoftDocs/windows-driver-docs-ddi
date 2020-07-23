@@ -36,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - DispatchIndirect
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

@@ -30,8 +30,6 @@ api_location:
 - d3dkmthk.h
 api_name: 
 - _D3DKMT_HYBRID_LIST
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

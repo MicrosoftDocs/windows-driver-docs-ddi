@@ -37,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - IKsReferenceClock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: 19H1

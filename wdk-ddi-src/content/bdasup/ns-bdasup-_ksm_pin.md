@@ -37,8 +37,6 @@ api_location:
 - bdasup.h
 api_name:
 - KSM_PIN
-product:
-- Windows
 targetos: Windows
 req.typenames: KSM_PIN, *PKSM_PIN
 ---

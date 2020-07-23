@@ -36,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMT_OPENSYNCHRONIZATIONOBJECT
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_OPENSYNCHRONIZATIONOBJECT

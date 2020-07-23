@@ -37,8 +37,6 @@ api_location:
 - Ntddndis.h
 api_name:
 - NDIS_ISOLATION_MODE
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_ISOLATION_MODE, *PNDIS_ISOLATION_MODE
 ---

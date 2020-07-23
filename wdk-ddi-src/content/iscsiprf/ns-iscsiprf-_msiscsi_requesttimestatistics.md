@@ -37,8 +37,6 @@ api_location:
 - iscsiprf.h
 api_name:
 - MSiSCSI_RequestTimeStatistics
-product:
-- Windows
 targetos: Windows
 req.typenames: MSiSCSI_RequestTimeStatistics, *PMSiSCSI_RequestTimeStatistics
 ---

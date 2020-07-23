@@ -38,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisCoDeleteVc
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

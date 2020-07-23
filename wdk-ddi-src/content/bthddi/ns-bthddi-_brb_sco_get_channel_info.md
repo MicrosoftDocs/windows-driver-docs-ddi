@@ -37,8 +37,6 @@ api_location:
 - bthddi.h
 api_name:
 - _BRB_SCO_GET_CHANNEL_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

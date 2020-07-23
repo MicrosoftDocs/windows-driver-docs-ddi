@@ -37,8 +37,6 @@ api_location:
 - dxva.h
 api_name:
 - DXVA_DeinterlaceCaps
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVA_DeinterlaceCaps, *LPDXVA_DeinterlaceCaps
 ---

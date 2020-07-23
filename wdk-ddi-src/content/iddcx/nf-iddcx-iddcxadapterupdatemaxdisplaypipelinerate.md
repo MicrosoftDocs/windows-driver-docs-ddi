@@ -37,8 +37,6 @@ api_location:
 - IddCx.dll
 api_name:
 - IddCxAdapterUpdateMaxDisplayPipelineRate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

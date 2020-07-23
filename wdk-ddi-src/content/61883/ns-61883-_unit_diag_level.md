@@ -37,8 +37,6 @@ api_location:
 - 61883.h
 api_name:
 - UNIT_DIAG_LEVEL
-product:
-- Windows
 targetos: Windows
 req.typenames: UNIT_DIAG_LEVEL, *PUNIT_DIAG_LEVEL
 ---

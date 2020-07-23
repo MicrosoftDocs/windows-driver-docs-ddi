@@ -37,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - AddLink_OUT
-product:
-- Windows
 targetos: Windows
 req.typenames: AddLink_OUT, *PAddLink_OUT
 ---

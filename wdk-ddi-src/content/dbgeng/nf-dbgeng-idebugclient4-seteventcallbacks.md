@@ -41,8 +41,6 @@ api_name:
 - IDebugClient3.SetEventCallbacks
 - IDebugClient4.SetEventCallbacks
 - IDebugClient5.SetEventCallbacks
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

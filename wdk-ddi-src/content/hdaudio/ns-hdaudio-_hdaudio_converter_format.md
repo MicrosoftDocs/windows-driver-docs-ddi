@@ -37,8 +37,6 @@ api_location:
 - hdaudio.h
 api_name:
 - HDAUDIO_CONVERTER_FORMAT
-product:
-- Windows
 targetos: Windows
 req.typenames: HDAUDIO_CONVERTER_FORMAT, *PHDAUDIO_CONVERTER_FORMAT
 ---

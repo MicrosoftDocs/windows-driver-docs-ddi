@@ -37,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugSymbols3.GetConstantNameWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

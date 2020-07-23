@@ -37,8 +37,6 @@ api_location:
 - dot11wdi.h
 api_name:
 - WDI_OPERATION_MODE
-product:
-- Windows
 targetos: Windows
 req.typenames: WDI_OPERATION_MODE
 ---

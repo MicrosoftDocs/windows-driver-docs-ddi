@@ -37,8 +37,6 @@ api_location:
 - EhStorIoctl.h
 api_name:
 - IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

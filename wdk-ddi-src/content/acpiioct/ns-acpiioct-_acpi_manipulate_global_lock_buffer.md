@@ -37,8 +37,6 @@ api_location:
 - Acpiioct.h
 api_name:
 - ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER
-product:
-- Windows
 targetos: Windows
 req.typenames: ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER, *PACPI_MANIPULATE_GLOBAL_LOCK_BUFFER
 ---

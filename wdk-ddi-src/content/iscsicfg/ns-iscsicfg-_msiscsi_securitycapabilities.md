@@ -37,8 +37,6 @@ api_location:
 - iscsicfg.h
 api_name:
 - MSiSCSI_SecurityCapabilities
-product:
-- Windows
 targetos: Windows
 req.typenames: MSiSCSI_SecurityCapabilities, *PMSiSCSI_SecurityCapabilities
 ---

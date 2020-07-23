@@ -37,8 +37,6 @@ api_location:
 - Ntdddisk.h
 api_name:
 - IOCTL_DISK_CONTROLLER_NUMBER
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

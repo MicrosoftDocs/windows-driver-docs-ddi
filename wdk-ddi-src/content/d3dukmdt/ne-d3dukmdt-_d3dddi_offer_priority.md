@@ -37,8 +37,6 @@ api_location:
 - D3dukmdt.h
 api_name:
 - D3DDDI_OFFER_PRIORITY
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDI_OFFER_PRIORITY
 ---

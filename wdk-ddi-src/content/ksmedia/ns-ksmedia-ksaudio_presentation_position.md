@@ -37,8 +37,6 @@ api_location:
 - Ksmedia.h
 api_name:
 - KSAUDIO_PRESENTATION_POSITION
-product:
-- Windows
 targetos: Windows
 req.typenames: KSAUDIO_PRESENTATION_POSITION, *PKSAUDIO_PRESENTATION_POSITION
 ---

@@ -34,8 +34,6 @@ api_location:
 - mbbcx.h
 api_name: 
 - EVT_MBB_DEVICE_CREATE_ADAPTER
-product:
-- Windows
 targetos: Windows
 ms.custom: 19H1
 ---

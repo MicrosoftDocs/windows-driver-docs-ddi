@@ -37,8 +37,6 @@ api_location:
 - iscsicfg.h
 api_name:
 - MSiSCSI_DiscoveryConfig
-product:
-- Windows
 targetos: Windows
 req.typenames: MSiSCSI_DiscoveryConfig, *PMSiSCSI_DiscoveryConfig
 ---

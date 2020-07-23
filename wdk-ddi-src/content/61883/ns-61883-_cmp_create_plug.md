@@ -37,8 +37,6 @@ api_location:
 - 61883.h
 api_name:
 - CMP_CREATE_PLUG
-product:
-- Windows
 targetos: Windows
 req.typenames: CMP_CREATE_PLUG, *PCMP_CREATE_PLUG
 ---

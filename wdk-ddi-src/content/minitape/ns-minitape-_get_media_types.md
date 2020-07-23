@@ -37,8 +37,6 @@ api_location:
 - ntddstor.h
 api_name:
 - GET_MEDIA_TYPES
-product:
-- Windows
 targetos: Windows
 req.typenames: GET_MEDIA_TYPES, *PGET_MEDIA_TYPES
 ---

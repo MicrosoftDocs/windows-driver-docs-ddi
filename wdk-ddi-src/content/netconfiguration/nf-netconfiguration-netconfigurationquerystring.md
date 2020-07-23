@@ -38,8 +38,6 @@ api_location:
 api_name: 
 - NetConfigurationQueryString
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetConfigurationQueryString function

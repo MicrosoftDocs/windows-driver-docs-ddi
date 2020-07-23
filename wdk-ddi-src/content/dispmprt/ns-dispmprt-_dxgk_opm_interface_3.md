@@ -37,8 +37,6 @@ api_location:
 - dispmprt.h
 api_name:
 - DXGK_OPM_INTERFACE_3
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGK_OPM_INTERFACE_3, *PDXGK_OPM_INTERFACE_3
 ---

@@ -37,8 +37,6 @@ api_location:
 - ntddcdrm.h
 api_name:
 - CDROM_EXCLUSIVE_LOCK_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: CDROM_EXCLUSIVE_LOCK_STATE, *PCDROM_EXCLUSIVE_LOCK_STATE
 ---

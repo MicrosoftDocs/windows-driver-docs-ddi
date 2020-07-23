@@ -30,8 +30,6 @@ api_location:
 - d3d12umddi.h
 api_name: 
 - D3D12DDIARG_EVICT
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5, 19H1
 dev_langs:

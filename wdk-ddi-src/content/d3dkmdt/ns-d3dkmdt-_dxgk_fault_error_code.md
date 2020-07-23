@@ -37,8 +37,6 @@ api_location:
 - D3dkmdt.h
 api_name:
 - DXGK_FAULT_ERROR_CODE
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGK_FAULT_ERROR_CODE
 ---

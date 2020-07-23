@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IDebugDataSpaces3.ReadImageNtHeaders
 - IDebugDataSpaces4.ReadImageNtHeaders
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

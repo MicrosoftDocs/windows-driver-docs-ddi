@@ -39,8 +39,6 @@ api_name:
 - IDebugSymbols.GetSymbolPath
 - IDebugSymbols2.GetSymbolPath
 - IDebugSymbols3.GetSymbolPath
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

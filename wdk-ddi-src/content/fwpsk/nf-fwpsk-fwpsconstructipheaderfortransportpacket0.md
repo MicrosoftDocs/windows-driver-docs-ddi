@@ -38,8 +38,6 @@ api_location:
 - fwpkclnt.dll
 api_name:
 - FwpsConstructIpHeaderForTransportPacket0
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

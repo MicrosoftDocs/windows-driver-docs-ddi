@@ -37,8 +37,6 @@ api_location:
 - Ksmedia.h
 api_name:
 - KS_DATAFORMAT_IMAGEINFO
-product:
-- Windows
 targetos: Windows
 req.typenames: KS_DATAFORMAT_IMAGEINFO, *PKS_DATAFORMAT_IMAGEINFO
 ---

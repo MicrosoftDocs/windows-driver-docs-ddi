@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KSWAVE_VOLUME
-product:
-- Windows
 targetos: Windows
 req.typenames: KSWAVE_VOLUME, *PKSWAVE_VOLUME
 ---

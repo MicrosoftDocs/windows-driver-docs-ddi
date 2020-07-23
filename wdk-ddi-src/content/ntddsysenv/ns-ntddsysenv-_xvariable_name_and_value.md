@@ -37,8 +37,6 @@ api_location:
 - Ntddsysenv.h
 api_name:
 - XVARIABLE_NAME_AND_VALUE
-product:
-- Windows
 targetos: Windows
 req.typenames: XVARIABLE_NAME_AND_VALUE, *PXVARIABLE_NAME_AND_VALUE
 ---

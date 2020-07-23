@@ -37,8 +37,6 @@ api_location:
 - Bthioctl.h
 api_name:
 - IOCTL_INTERNAL_BTHENUM_GET_DEVINFO
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

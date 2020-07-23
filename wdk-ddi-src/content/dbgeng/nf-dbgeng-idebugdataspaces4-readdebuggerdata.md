@@ -40,8 +40,6 @@ api_name:
 - IDebugDataSpaces2.ReadDebuggerData
 - IDebugDataSpaces3.ReadDebuggerData
 - IDebugDataSpaces4.ReadDebuggerData
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

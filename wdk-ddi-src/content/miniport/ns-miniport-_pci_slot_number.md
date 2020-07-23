@@ -37,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - PCI_SLOT_NUMBER
-product:
-- Windows
 targetos: Windows
 req.typenames: PCI_SLOT_NUMBER, *PPCI_SLOT_NUMBER
 ---

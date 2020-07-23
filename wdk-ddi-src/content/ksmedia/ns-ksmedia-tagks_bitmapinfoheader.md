@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KS_BITMAPINFOHEADER
-product:
-- Windows
 targetos: Windows
 req.typenames: KS_BITMAPINFOHEADER, *PKS_BITMAPINFOHEADER
 ---

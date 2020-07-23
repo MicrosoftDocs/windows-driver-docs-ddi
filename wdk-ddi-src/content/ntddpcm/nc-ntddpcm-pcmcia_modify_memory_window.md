@@ -37,8 +37,6 @@ api_location:
 - ntddpcm.h
 api_name:
 - ModifyMemoryWindow
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

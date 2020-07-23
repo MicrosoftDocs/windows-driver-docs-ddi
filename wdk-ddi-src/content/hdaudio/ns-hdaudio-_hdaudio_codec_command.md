@@ -37,8 +37,6 @@ api_location:
 - hdaudio.h
 api_name:
 - HDAUDIO_CODEC_COMMAND
-product:
-- Windows
 targetos: Windows
 req.typenames: HDAUDIO_CODEC_COMMAND, *PHDAUDIO_CODEC_COMMAND
 ---

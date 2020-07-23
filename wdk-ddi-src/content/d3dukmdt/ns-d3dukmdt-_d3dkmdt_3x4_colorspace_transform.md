@@ -30,8 +30,6 @@ api_location:
 - d3dukmdt.h
 api_name: 
 - _D3DKMDT_3X4_COLORSPACE_TRANSFORM
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

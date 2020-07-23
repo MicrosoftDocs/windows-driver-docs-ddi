@@ -37,8 +37,6 @@ api_location:
 - D4iface.h
 api_name:
 - DOT4_ACTIVITY
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

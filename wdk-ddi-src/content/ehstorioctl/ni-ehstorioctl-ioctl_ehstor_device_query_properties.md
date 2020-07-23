@@ -37,8 +37,6 @@ api_location:
 - EhStorIoctl.h
 api_name:
 - IOCTL_EHSTOR_DEVICE_QUERY_PROPERTIES
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

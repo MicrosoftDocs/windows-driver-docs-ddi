@@ -37,8 +37,6 @@ api_location:
 - Msviddrv.h
 api_name:
 - VIDEOCONFIGPARMS
-product:
-- Windows
 targetos: Windows
 req.typenames: VIDEOCONFIGPARMS, *LPVIDEOCONFIGPARMS
 ---

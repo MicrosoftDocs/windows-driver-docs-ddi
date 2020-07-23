@@ -39,8 +39,6 @@ api_location:
 api_name: 
 - NetAdapterCreate
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetAdapterCreate function

@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IDebugSymbols2.GetTypeOptions
 - IDebugSymbols3.GetTypeOptions
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

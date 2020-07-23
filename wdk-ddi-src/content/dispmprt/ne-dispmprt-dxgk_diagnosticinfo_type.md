@@ -30,8 +30,6 @@ api_location:
  - dispmprt.h
 api_name: 
  - DXGK_DIAGNOSTICINFO_TYPE
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

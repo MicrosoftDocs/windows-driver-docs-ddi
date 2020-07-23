@@ -37,8 +37,6 @@ api_location:
 - ntddpar.h
 api_name:
 - IOCTL_PAR_GET_DEFAULT_MODES
-product:
-- Windows
 targetos: Windows
 req.typenames: OFFLOAD_SECURITY_ASSOCIATION, *POFFLOAD_SECURITY_ASSOCIATION
 ---

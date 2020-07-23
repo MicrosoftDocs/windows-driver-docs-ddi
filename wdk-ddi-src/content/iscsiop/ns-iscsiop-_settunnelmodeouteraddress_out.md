@@ -37,8 +37,6 @@ api_location:
 - iscsiop.h
 api_name:
 - SetTunnelModeOuterAddress_OUT
-product:
-- Windows
 targetos: Windows
 req.typenames: SetTunnelModeOuterAddress_OUT, *PSetTunnelModeOuterAddress_OUT
 ---

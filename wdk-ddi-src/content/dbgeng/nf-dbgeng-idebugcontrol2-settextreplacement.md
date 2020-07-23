@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IDebugControl2.SetTextReplacement
 - IDebugControl3.SetTextReplacement
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

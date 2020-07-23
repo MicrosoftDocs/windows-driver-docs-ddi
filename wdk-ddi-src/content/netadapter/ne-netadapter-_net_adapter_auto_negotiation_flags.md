@@ -31,8 +31,6 @@ api_location:
 api_name: 
 - NET_ADAPTER_AUTO_NEGOTIATION_FLAGS
 targetos: Windows
-product:
-- Windows
 ---
 
 # _NET_ADAPTER_AUTO_NEGOTIATION_FLAGS enumeration

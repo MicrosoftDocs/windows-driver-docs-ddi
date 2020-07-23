@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IDebugBreakpoint.GetMatchThreadId
 - IDebugBreakpoint2.GetMatchThreadId
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

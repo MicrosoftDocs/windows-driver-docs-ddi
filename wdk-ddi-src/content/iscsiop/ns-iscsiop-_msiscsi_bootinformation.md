@@ -37,8 +37,6 @@ api_location:
 - iscsiop.h
 api_name:
 - MSiSCSI_BootInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: MSiSCSI_BootInformation, *PMSiSCSI_BootInformation
 ---

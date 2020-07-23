@@ -37,8 +37,6 @@ api_location:
 - ntddscsi.h
 api_name:
 - SRB_IO_CONTROL
-product:
-- Windows
 targetos: Windows
 req.typenames: SRB_IO_CONTROL, *PSRB_IO_CONTROL
 ---

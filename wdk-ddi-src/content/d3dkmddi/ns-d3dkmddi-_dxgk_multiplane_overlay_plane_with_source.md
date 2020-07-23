@@ -36,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE

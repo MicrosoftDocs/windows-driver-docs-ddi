@@ -37,8 +37,6 @@ api_location:
 - ntddscsi.h
 api_name:
 - NV_FEATURE_PARAMETER
-product:
-- Windows
 targetos: Windows
 req.typenames: NV_FEATURE_PARAMETER, *PNV_FEATURE_PARAMETER
 ---

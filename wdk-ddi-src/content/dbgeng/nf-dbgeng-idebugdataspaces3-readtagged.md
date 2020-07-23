@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IDebugDataSpaces3.ReadTagged
 - IDebugDataSpaces4.ReadTagged
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

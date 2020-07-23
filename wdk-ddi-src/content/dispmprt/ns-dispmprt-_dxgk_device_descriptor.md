@@ -37,8 +37,6 @@ api_location:
 - dispmprt.h
 api_name:
 - DXGK_DEVICE_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGK_DEVICE_DESCRIPTOR, *PDXGK_DEVICE_DESCRIPTOR
 ---

@@ -37,8 +37,6 @@ api_location:
 - Ksmedia.h
 api_name:
 - KSCAMERA_PROFILE_MEDIAINFO
-product:
-- Windows
 targetos: Windows
 req.typenames: KSCAMERA_PROFILE_MEDIAINFO, *PKSCAMERA_PROFILE_MEDIAINFO
 ---

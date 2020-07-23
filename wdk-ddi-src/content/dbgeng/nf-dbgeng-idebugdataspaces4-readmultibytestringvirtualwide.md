@@ -37,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugDataSpaces4.ReadMultiByteStringVirtualWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

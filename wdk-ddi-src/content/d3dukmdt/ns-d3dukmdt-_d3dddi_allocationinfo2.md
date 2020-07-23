@@ -30,8 +30,6 @@ api_location:
 - d3dukmdt.h
 api_name: 
 - _D3DDDI_ALLOCATIONINFO2
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

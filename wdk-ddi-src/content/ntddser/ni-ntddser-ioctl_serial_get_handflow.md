@@ -37,8 +37,6 @@ api_location:
 - Ntddser.h
 api_name:
 - IOCTL_SERIAL_GET_HANDFLOW
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

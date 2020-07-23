@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - SYSAUDIO_CREATE_VIRTUAL_SOURCE
-product:
-- Windows
 targetos: Windows
 req.typenames: SYSAUDIO_CREATE_VIRTUAL_SOURCE, *PSYSAUDIO_CREATE_VIRTUAL_SOURCE
 ---

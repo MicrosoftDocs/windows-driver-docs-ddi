@@ -37,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - PCI_X_CAPABILITY
-product:
-- Windows
 targetos: Windows
 req.typenames: PCI_X_CAPABILITY, *PPCI_X_CAPABILITY
 ---

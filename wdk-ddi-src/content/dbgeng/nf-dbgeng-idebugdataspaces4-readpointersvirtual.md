@@ -40,8 +40,6 @@ api_name:
 - IDebugDataSpaces2.ReadPointersVirtual
 - IDebugDataSpaces3.ReadPointersVirtual
 - IDebugDataSpaces4.ReadPointersVirtual
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

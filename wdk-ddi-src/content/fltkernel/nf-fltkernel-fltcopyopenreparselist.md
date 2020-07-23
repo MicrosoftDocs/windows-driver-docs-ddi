@@ -37,8 +37,6 @@ api_location:
 - fltKernel.h
 api_name:
 - FltAddOpenReparseEntry
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

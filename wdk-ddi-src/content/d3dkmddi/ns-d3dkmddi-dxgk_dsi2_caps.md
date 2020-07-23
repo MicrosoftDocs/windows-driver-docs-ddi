@@ -33,8 +33,6 @@ api_location:
  - d3dkmddi.h
 api_name: 
  - DXGK_DSI2_CAPS
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

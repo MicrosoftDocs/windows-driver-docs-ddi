@@ -37,8 +37,6 @@ api_location:
 - IddCx.dll
 api_name:
 - IDD_CX_CLIENT_CONFIG_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

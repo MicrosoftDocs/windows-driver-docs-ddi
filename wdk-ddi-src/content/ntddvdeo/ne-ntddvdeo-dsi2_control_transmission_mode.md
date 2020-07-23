@@ -30,8 +30,6 @@ api_location:
  - ntddvdeo.h
 api_name: 
  - DSI2_CONTROL_TRANSMISSION_MODE
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

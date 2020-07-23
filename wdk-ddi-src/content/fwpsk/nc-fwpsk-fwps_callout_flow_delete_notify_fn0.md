@@ -37,8 +37,6 @@ api_location:
 - Fwpsk.h
 api_name:
 - flowDeleteFn
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

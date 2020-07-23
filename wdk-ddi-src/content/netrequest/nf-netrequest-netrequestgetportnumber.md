@@ -38,8 +38,6 @@ api_location:
 api_name: 
 - NetRequestGetPortNumber
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetRequestGetPortNumber function

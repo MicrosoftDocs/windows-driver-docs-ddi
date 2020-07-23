@@ -37,8 +37,6 @@ api_location:
 - lamp.h
 api_name:
 - IOCTL_LAMP_GET_EMITTING_LIGHT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

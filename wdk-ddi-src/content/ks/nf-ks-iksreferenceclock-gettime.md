@@ -37,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - IKsReferenceClock.GetTime
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

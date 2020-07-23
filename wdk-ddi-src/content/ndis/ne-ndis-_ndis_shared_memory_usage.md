@@ -37,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NDIS_SHARED_MEMORY_USAGE
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---

@@ -39,8 +39,6 @@ api_name:
 - IDebugSymbols.OutputTypedDataPhysical
 - IDebugSymbols2.OutputTypedDataPhysical
 - IDebugSymbols3.OutputTypedDataPhysical
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

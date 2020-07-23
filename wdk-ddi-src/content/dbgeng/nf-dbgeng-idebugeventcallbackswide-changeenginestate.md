@@ -37,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugEventCallbacksWide.ChangeEngineState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

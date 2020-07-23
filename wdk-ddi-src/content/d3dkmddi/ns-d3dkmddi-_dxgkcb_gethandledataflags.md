@@ -36,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGKCB_GETHANDLEDATAFLAGS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGKCB_GETHANDLEDATAFLAGS

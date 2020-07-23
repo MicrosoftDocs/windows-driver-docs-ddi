@@ -37,8 +37,6 @@ api_location:
 - lamp.h
 api_name:
 - IOCTL_LAMP_SET_INTENSITY_WHITE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

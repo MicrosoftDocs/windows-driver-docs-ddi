@@ -37,8 +37,6 @@ api_location:
 - dot11wdi.h
 api_name:
 - WDI_TX_FRAME_STATUS
-product:
-- Windows
 targetos: Windows
 req.typenames: WDI_TX_FRAME_STATUS
 ---

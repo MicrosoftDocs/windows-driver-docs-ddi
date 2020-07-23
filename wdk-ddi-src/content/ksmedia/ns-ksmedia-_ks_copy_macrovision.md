@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KS_COPY_MACROVISION
-product:
-- Windows
 targetos: Windows
 req.typenames: KS_COPY_MACROVISION, *PKS_COPY_MACROVISION
 ---

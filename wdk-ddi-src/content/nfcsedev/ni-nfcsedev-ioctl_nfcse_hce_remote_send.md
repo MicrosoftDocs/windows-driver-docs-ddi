@@ -37,8 +37,6 @@ api_location:
 - nfcsedev.h
 api_name:
 - IOCTL_NFCSE_HCE_REMOTE_SEND
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - Ksproxy.h
 api_name:
 - KSALLOCATORMODE
-product:
-- Windows
 targetos: Windows
 req.typenames: KSALLOCATORMODE
 ---

@@ -33,8 +33,6 @@ api_location:
  - d3d12umddi.h
 api_name: 
  - D3D12DDICAPS_QUERY_META_COMMAND_CAPS_0061
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

@@ -37,8 +37,6 @@ api_location:
 - Gpio.h
 api_name:
 - IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - Ks.h
 api_name:
 - KsCreatePin2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

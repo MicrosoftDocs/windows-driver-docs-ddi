@@ -37,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KSEVENT_TIME_MARK
-product:
-- Windows
 targetos: Windows
 req.typenames: KSEVENT_TIME_MARK, *PKSEVENT_TIME_MARK
 ---

@@ -34,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDataModelManager2.CreateTypedObjectReference
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

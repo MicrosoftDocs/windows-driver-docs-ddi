@@ -37,8 +37,6 @@ api_location:
 - ntddcdrm.h
 api_name:
 - IOCTL_CDROM_SEND_OPC_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

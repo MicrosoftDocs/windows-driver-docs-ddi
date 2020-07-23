@@ -35,8 +35,6 @@ api_location:
 - d3d12umddi.h
 api_name: 
 - PFND3D12DDI_DESTROY_META_COMMAND_0052
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

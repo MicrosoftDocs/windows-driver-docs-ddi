@@ -37,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - SOC_SUBSYSTEM_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: SOC_SUBSYSTEM_TYPE, *PSOC_SUBSYSTEM_TYPE
 ---

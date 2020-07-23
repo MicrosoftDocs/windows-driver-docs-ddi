@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KSAC3_DOWNMIX
-product:
-- Windows
 targetos: Windows
 req.typenames: KSAC3_DOWNMIX, *PKSAC3_DOWNMIX
 ---

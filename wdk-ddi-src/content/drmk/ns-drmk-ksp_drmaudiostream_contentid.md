@@ -37,8 +37,6 @@ api_location:
 - drmk.h
 api_name:
 - KSP_DRMAUDIOSTREAM_CONTENTID
-product:
-- Windows
 targetos: Windows
 req.typenames: KSP_DRMAUDIOSTREAM_CONTENTID, *PKSP_DRMAUDIOSTREAM_CONTENTID
 ---

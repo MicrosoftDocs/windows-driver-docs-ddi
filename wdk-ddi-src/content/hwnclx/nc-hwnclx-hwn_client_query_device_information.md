@@ -37,8 +37,6 @@ api_location:
 - Hwnclx.h
 api_name:
 - PHWN_CLIENT_QUERY_DEVICE_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: HPMI_QUERY_CAPABILITIES_RESPONSE, *PHPMI_QUERY_CAPABILITIES_RESPONSE
 ---

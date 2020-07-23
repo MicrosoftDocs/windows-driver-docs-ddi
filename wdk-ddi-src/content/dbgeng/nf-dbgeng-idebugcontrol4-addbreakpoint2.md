@@ -37,8 +37,6 @@ api_location:
 - Dbgeng.h
 api_name:
 - IDebugControl4.AddBreakpoint2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -35,8 +35,6 @@ api_location:
 - NtosKrnl.exe
 api_name: 
 - DeviceDsmOutputBlock
-product:
-- Windows
 targetos: Windows
 
 ---

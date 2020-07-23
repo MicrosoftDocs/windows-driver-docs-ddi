@@ -37,8 +37,6 @@ api_location:
 - d3d9types.h
 api_name:
 - D3DDEVINFO_VCACHE
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDEVINFO_VCACHE, *LPD3DDEVINFO_VCACHE
 ---

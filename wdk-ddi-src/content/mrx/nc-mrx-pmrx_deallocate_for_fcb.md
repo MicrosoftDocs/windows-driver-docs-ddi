@@ -37,8 +37,6 @@ api_location:
 - mrx.h
 api_name:
 - MRxDeallocateForFcb
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

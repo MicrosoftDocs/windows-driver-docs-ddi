@@ -37,8 +37,6 @@ api_location:
 - ntddcdrm.h
 api_name:
 - TRACK_MODE_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: TRACK_MODE_TYPE, *PTRACK_MODE_TYPE
 ---

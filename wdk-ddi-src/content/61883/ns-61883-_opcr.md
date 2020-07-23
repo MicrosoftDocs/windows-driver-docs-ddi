@@ -37,8 +37,6 @@ api_location:
 - 61883.h
 api_name:
 - OPCR
-product:
-- Windows
 targetos: Windows
 req.typenames: OPCR, *POPCR
 ---

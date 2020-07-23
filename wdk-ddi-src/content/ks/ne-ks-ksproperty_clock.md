@@ -37,8 +37,6 @@ api_location:
 - Ks.h
 api_name:
 - KSPROPERTY_CLOCK
-product:
-- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_CLOCK
 ---

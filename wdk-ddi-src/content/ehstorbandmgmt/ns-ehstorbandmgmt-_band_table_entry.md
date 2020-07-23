@@ -37,8 +37,6 @@ api_location:
 - EhStorBandMgmt.h
 api_name:
 - BAND_TABLE_ENTRY
-product:
-- Windows
 targetos: Windows
 req.typenames: BAND_TABLE_ENTRY, *PBAND_TABLE_ENTRY
 ---

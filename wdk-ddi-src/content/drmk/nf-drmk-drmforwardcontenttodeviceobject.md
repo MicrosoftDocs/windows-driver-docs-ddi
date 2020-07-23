@@ -38,8 +38,6 @@ api_location:
 - Drmk.dll
 api_name:
 - DrmForwardContentToDeviceObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

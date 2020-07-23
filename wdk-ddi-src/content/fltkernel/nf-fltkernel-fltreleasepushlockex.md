@@ -34,8 +34,6 @@ api_location:
 - FltMgr.sys
 api_name: 
 - FltReleasePushLockEx
-product:
-- Windows
 targetos: Windows
 dev_langs:
 - c++

@@ -34,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDataModelScriptDebug2.SetBreakpointAtFunction
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

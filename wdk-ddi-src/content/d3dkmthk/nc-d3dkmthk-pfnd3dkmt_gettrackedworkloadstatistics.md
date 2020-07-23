@@ -33,8 +33,6 @@ api_location:
 - d3dkmthk.h
 api_name: 
 - PFND3DKMT_GETTRACKEDWORKLOADSTATISTICS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

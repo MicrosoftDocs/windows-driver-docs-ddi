@@ -33,8 +33,6 @@ api_location:
 - d3d12umddi.h
 api_name: 
 - PFND3D12DDI_END_RENDER_PASS_0053
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

@@ -35,8 +35,6 @@ api_location:
 - NtosKrnl.exe
 api_name: 
 - DeviceDsmAddDataSetRange
-product:
-- Windows
 targetos: Windows
 
 ---

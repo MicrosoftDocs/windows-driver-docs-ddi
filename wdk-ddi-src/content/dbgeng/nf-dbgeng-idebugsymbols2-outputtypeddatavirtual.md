@@ -39,8 +39,6 @@ api_name:
 - IDebugSymbols.OutputTypedDataVirtual
 - IDebugSymbols2.OutputTypedDataVirtual
 - IDebugSymbols3.OutputTypedDataVirtual
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

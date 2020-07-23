@@ -36,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGKARG_RECOMMENDVIDPNTOPOLOGY
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGKARG_RECOMMENDVIDPNTOPOLOGY

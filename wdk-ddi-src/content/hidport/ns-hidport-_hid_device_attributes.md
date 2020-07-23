@@ -37,8 +37,6 @@ api_location:
 - hidport.h
 api_name:
 - HID_DEVICE_ATTRIBUTES
-product:
-- Windows
 targetos: Windows
 req.typenames: HID_DEVICE_ATTRIBUTES, *PHID_DEVICE_ATTRIBUTES
 ---

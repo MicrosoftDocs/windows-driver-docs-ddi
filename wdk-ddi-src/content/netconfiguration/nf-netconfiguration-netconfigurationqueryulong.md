@@ -38,8 +38,6 @@ api_location:
 api_name: 
 - NetConfigurationQueryUlong
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetConfigurationQueryUlong function

@@ -37,8 +37,6 @@ api_location:
 - Ks.h
 api_name:
 - KSPROPERTY_STREAMINTERFACE
-product:
-- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_STREAMINTERFACE
 ---

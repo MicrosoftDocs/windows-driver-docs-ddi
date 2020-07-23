@@ -39,8 +39,6 @@ api_location:
 api_name: 
 - NET_ADAPTER_LINK_LAYER_CAPABILITIES_INIT
 targetos: Windows
-product:
-- Windows
 ---
 
 # NET_ADAPTER_LINK_LAYER_CAPABILITIES_INIT function

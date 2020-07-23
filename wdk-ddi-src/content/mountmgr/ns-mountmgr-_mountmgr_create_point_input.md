@@ -37,8 +37,6 @@ api_location:
 - mountmgr.h
 api_name:
 - MOUNTMGR_CREATE_POINT_INPUT
-product:
-- Windows
 targetos: Windows
 req.typenames: MOUNTMGR_CREATE_POINT_INPUT, *PMOUNTMGR_CREATE_POINT_INPUT
 ---

@@ -37,8 +37,6 @@ api_location:
 - iscsiprf.h
 api_name:
 - MSiSCSI_InitiatorInstanceStatistics
-product:
-- Windows
 targetos: Windows
 req.typenames: MSiSCSI_InitiatorInstanceStatistics, *PMSiSCSI_InitiatorInstanceStatistics
 ---

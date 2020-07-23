@@ -35,8 +35,6 @@ api_location:
 - netdatapathdescriptor.h
 api_name: 
 - NET_DATAPATH_DESCRIPTOR_GET_PACKET_RING_BUFFER
-product:
-- Windows
 targetos: Windows
 
 ---

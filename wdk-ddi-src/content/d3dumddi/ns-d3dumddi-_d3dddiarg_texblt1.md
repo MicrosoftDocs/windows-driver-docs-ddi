@@ -37,8 +37,6 @@ api_location:
 - D3dumddi.h
 api_name:
 - D3DDDIARG_TEXBLT1
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_TEXBLT1
 ---

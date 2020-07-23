@@ -36,8 +36,6 @@ api_location:
 - D3dkmddi.h
 api_name:
 - DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS

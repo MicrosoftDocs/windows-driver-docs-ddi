@@ -37,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltGetVolumeName
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

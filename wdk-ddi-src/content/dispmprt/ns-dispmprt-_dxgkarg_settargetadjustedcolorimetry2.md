@@ -30,8 +30,6 @@ api_location:
 - dispmprt.h
 api_name: 
 - _DXGKARG_SETTARGETADJUSTEDCOLORIMETRY2
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

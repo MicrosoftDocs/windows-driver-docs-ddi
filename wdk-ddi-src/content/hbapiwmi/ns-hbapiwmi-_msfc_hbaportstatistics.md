@@ -37,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - MSFC_HBAPortStatistics
-product:
-- Windows
 targetos: Windows
 req.typenames: MSFC_HBAPortStatistics, *PMSFC_HBAPortStatistics
 ---

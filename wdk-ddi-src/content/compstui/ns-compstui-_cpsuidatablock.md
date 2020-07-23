@@ -37,8 +37,6 @@ api_location:
 - compstui.h
 api_name:
 - CPSUIDATABLOCK
-product:
-- Windows
 targetos: Windows
 req.typenames: CPSUIDATABLOCK, *PCPSUIDATABLOCK
 ---

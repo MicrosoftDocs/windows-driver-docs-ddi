@@ -37,8 +37,6 @@ api_location:
 - iddcx.h
 api_name:
 - IDARG_IN_UPDATEMODES
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

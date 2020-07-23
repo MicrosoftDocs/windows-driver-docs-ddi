@@ -37,8 +37,6 @@ api_location:
 - Gpioclx.h
 api_name:
 - CLIENT_StopController
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

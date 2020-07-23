@@ -37,8 +37,6 @@ api_location:
 - Dispmprt.h
 api_name:
 - DXGKRNL_INTERFACE
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGKRNL_INTERFACE, *PDXGKRNL_INTERFACE
 dev_langs:

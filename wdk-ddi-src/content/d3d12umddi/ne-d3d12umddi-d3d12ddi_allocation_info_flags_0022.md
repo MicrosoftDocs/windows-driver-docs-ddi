@@ -36,8 +36,6 @@ api_location:
 - D3d12umddi.h
 api_name:
 - D3D12DDI_ALLOCATION_INFO_FLAGS_0022
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D12DDI_ALLOCATION_INFO_FLAGS_0022

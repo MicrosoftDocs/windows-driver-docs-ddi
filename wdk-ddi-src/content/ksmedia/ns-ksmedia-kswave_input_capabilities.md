@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KSWAVE_INPUT_CAPABILITIES
-product:
-- Windows
 targetos: Windows
 req.typenames: KSWAVE_INPUT_CAPABILITIES, *PKSWAVE_INPUT_CAPABILITIES
 ---

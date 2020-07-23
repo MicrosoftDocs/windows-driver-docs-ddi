@@ -36,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - PDXGK_SET_SHARED_POWER_COMPONENT_STATE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames:

@@ -37,8 +37,6 @@ api_location:
 - Compstui.dll
 api_name:
 - SetCPSUIUserData
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

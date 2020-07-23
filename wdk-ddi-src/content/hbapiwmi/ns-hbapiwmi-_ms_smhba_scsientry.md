@@ -37,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - MS_SMHBA_SCSIENTRY
-product:
-- Windows
 targetos: Windows
 req.typenames: MS_SMHBA_SCSIENTRY, *PMS_SMHBA_SCSIENTRY
 ---

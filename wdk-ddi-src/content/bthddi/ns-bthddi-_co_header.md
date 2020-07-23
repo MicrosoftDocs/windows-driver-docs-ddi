@@ -37,8 +37,6 @@ api_location:
 - bthddi.h
 api_name:
 - CO_HEADER
-product:
-- Windows
 targetos: Windows
 req.typenames: CO_HEADER
 ---

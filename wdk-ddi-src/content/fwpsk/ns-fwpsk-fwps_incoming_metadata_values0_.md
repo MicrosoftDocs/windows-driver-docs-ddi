@@ -37,8 +37,6 @@ api_location:
 - fwpsk.h
 api_name:
 - FWPS_INCOMING_METADATA_VALUES0
-product:
-- Windows
 targetos: Windows
 req.typenames: FWPS_INCOMING_METADATA_VALUES0
 ---

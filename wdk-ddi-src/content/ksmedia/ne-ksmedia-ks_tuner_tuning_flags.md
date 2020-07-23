@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KS_TUNER_TUNING_FLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: KS_TUNER_TUNING_FLAGS
 ---

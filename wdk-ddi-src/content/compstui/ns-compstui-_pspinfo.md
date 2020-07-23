@@ -37,8 +37,6 @@ api_location:
 - compstui.h
 api_name:
 - PSPINFO
-product:
-- Windows
 targetos: Windows
 req.typenames: PSPINFO, *PPSPINFO
 ---

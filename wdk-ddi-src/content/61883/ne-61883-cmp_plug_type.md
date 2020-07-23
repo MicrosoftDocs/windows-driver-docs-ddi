@@ -37,8 +37,6 @@ api_location:
 - 61883.h
 api_name:
 - CMP_PLUG_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: CMP_PLUG_TYPE
 ---

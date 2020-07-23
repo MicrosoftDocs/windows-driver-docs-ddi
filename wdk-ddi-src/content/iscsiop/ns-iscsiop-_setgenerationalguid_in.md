@@ -37,8 +37,6 @@ api_location:
 - iscsiop.h
 api_name:
 - SetGenerationalGuid_IN
-product:
-- Windows
 targetos: Windows
 req.typenames: SetGenerationalGuid_IN, *PSetGenerationalGuid_IN
 ---

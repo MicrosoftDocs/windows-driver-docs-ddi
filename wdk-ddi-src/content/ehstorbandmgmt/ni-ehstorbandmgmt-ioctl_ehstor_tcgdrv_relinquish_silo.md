@@ -37,8 +37,6 @@ api_location:
 - EhStorBandMgmt.h
 api_name:
 - IOCTL_EHSTOR_TCGDRV_RELINQUISH_SILO
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

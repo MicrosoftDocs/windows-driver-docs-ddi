@@ -37,8 +37,6 @@ api_location:
 - Ksmedia.h
 api_name:
 - KSCAMERA_EXTENDEDPROP_FIELDOFVIEW
-product:
-- Windows
 targetos: Windows
 req.typenames: KSCAMERA_EXTENDEDPROP_FIELDOFVIEW, *PKSCAMERA_EXTENDEDPROP_FIELDOFVIEW
 ---

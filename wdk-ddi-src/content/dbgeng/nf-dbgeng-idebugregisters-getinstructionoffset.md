@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IDebugRegisters.GetInstructionOffset
 - IDebugRegisters2.GetInstructionOffset
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

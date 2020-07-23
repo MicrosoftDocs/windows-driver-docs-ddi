@@ -37,8 +37,6 @@ api_location:
 - lamp.h
 api_name:
 - LAMP_MODE
-product:
-- Windows
 targetos: Windows
 req.typenames: LAMP_MODE
 ---

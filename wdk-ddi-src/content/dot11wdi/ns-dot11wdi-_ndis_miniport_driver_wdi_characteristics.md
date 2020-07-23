@@ -37,8 +37,6 @@ api_location:
 - dot11wdi.h
 api_name:
 - NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS, *PNDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS
 ---

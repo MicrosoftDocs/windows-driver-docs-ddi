@@ -37,8 +37,6 @@ api_location:
 - Ata.h
 api_name:
 - IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO, *PIDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO
 ---

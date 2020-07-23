@@ -37,8 +37,6 @@ api_location:
 - dispmprt.h
 api_name:
 - EMULATOR_ACCESS_ENTRY
-product:
-- Windows
 targetos: Windows
 req.typenames: EMULATOR_ACCESS_ENTRY, *PEMULATOR_ACCESS_ENTRY
 ---

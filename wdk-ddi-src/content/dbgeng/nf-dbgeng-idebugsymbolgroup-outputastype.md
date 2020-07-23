@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IDebugSymbolGroup.OutputAsType
 - IDebugSymbolGroup2.OutputAsType
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

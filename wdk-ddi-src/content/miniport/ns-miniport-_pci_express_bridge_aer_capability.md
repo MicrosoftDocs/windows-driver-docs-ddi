@@ -37,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - PCI_EXPRESS_BRIDGE_AER_CAPABILITY
-product:
-- Windows
 targetos: Windows
 req.typenames: PCI_EXPRESS_BRIDGE_AER_CAPABILITY, *PPCI_EXPRESS_BRIDGE_AER_CAPABILITY
 ---

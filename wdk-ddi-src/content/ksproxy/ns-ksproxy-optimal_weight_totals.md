@@ -37,8 +37,6 @@ api_location:
 - Ksproxy.h
 api_name:
 - OPTIMAL_WEIGHT_TOTALS
-product:
-- Windows
 targetos: Windows
 req.typenames: OPTIMAL_WEIGHT_TOTALS
 ---

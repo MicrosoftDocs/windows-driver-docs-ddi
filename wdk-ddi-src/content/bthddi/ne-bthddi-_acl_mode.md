@@ -37,8 +37,6 @@ api_location:
 - bthddi.h
 api_name:
 - ACL_MODE
-product:
-- Windows
 targetos: Windows
 req.typenames: ACL_MODE
 ---

@@ -37,8 +37,6 @@ api_location:
 - bthddi.h
 api_name:
 - IsBluetoothVersionAvailable
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -32,8 +32,6 @@ api_location:
 -   NtosKrnl.exe
 api_name:
 -   ColorAdapterGetCurrentProfileCalibration
-product:
-- Windows
 targetos: Windows
 
 ---

@@ -30,8 +30,6 @@ api_location:
 - d3dkmdt.h
 api_name:
 - _DXGK_BRIGHTNESS_GET_NIT_RANGES_OUT
-product:
-- Windows
 targetos: Windows
 tech.root: display
 ---

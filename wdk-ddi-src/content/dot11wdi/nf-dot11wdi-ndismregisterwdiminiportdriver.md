@@ -38,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisMRegisterWdiMiniportDriver
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

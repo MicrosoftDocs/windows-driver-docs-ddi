@@ -37,8 +37,6 @@ api_location:
 - ndischimney.h
 api_name:
 - NdisTcpOffloadReceiveHandler
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - Engextcpp.hpp
 api_name:
 - ExtKnownStructMethod
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

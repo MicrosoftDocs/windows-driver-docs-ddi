@@ -37,8 +37,6 @@ api_location:
 - ndiswwan.h
 api_name:
 - NDIS_WWAN_PCO_STATUS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_PCO_STATUS, *PNDIS_WWAN_PCO_STATUS
 ---

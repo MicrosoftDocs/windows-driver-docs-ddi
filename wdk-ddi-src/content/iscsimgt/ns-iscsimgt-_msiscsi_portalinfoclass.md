@@ -37,8 +37,6 @@ api_location:
 - iscsimgt.h
 api_name:
 - MSiSCSI_PortalInfoClass
-product:
-- Windows
 targetos: Windows
 req.typenames: MSiSCSI_PortalInfoClass, *PMSiSCSI_PortalInfoClass
 ---

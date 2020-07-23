@@ -37,8 +37,6 @@ api_location:
 - extsfns.h
 api_name:
 - FA_ENTRY
-product:
-- Windows
 targetos: Windows
 req.typenames: FA_ENTRY, *PFA_ENTRY
 ---

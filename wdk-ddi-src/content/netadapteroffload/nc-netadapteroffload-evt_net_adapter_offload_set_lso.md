@@ -34,8 +34,6 @@ api_location:
 - netadapteroffload.h
 api_name: 
 - EVT_NET_ADAPTER_OFFLOAD_SET_LSO
-product:
-- Windows
 targetos: Windows
 ms.custom: 19H1
 ---

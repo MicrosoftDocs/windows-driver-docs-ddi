@@ -27,8 +27,6 @@ api_location:
 - d3d9types.h
 api_name: 
 - _D3DSTENCILOP
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

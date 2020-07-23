@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KS_DVDCOPY_REGION
-product:
-- Windows
 targetos: Windows
 req.typenames: KS_DVDCOPY_REGION, *PKS_DVDCOPY_REGION
 ---

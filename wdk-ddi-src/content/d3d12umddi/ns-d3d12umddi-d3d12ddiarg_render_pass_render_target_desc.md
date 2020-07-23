@@ -30,8 +30,6 @@ api_location:
 - d3d12umddi.h
 api_name: 
 - D3D12DDIARG_RENDER_PASS_RENDER_TARGET_DESC
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

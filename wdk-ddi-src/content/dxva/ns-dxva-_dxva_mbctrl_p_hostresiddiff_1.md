@@ -37,8 +37,6 @@ api_location:
 - dxva.h
 api_name:
 - DXVA_MBctrl_P_HostResidDiff_1
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVA_MBctrl_P_HostResidDiff_1
 ---

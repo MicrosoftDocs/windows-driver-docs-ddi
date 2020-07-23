@@ -30,8 +30,6 @@ api_location:
 - d3dukmdt.h
 api_name: 
 - _D3DGPU_PHYSICAL_ADDRESS
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

@@ -37,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA
 ---

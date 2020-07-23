@@ -38,8 +38,6 @@ api_location:
 api_name: 
 - NetConfigurationOpenSubConfiguration
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetConfigurationOpenSubConfiguration function

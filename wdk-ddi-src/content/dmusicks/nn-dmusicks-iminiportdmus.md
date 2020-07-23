@@ -37,8 +37,6 @@ api_location:
 - dmusicks.h
 api_name:
 - IMiniportDMus
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

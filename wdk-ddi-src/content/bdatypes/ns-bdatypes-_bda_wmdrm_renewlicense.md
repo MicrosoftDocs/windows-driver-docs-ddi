@@ -37,8 +37,6 @@ api_location:
 - Bdatypes.h
 api_name:
 - BDA_WMDRM_RENEWLICENSE
-product:
-- Windows
 targetos: Windows
 req.typenames: BDA_WMDRM_RENEWLICENSE, *PBDA_WMDRM_RENEWLICENSE
 ---

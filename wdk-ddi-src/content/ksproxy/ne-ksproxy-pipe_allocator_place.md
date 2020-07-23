@@ -37,8 +37,6 @@ api_location:
 - Ksproxy.h
 api_name:
 - PIPE_ALLOCATOR_PLACE
-product:
-- Windows
 targetos: Windows
 req.typenames: PIPE_ALLOCATOR_PLACE
 ---

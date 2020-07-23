@@ -37,8 +37,6 @@ api_location:
 - Ntddchgr.h
 api_name:
 - IOCTL_CHANGER_GET_PRODUCT_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

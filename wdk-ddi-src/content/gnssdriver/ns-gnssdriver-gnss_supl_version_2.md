@@ -33,8 +33,6 @@ f1_keywords:
 - GNSS_SUPL_VERSION_2
 dev_langs:
 - c++
-product:
-- Windows
 targetos: Windows
 req.typenames: GNSS_SUPL_VERSION_2, *PGNSS_SUPL_VERSION_2
 ---

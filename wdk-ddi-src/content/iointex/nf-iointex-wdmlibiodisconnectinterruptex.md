@@ -38,8 +38,6 @@ api_location:
 api_name:
 - WdmlibIoDisconnectInterruptEx
 - IoDisconnectInterruptEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

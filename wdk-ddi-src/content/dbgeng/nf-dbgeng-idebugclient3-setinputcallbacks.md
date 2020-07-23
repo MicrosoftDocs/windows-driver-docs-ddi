@@ -41,8 +41,6 @@ api_name:
 - IDebugClient3.SetInputCallbacks
 - IDebugClient4.SetInputCallbacks
 - IDebugClient5.SetInputCallbacks
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

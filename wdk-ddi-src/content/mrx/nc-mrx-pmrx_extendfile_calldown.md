@@ -37,8 +37,6 @@ api_location:
 - mrx.h
 api_name:
 - MRxExtendForCache
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

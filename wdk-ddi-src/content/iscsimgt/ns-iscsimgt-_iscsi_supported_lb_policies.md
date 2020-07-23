@@ -37,8 +37,6 @@ api_location:
 - iscsimgt.h
 api_name:
 - ISCSI_Supported_LB_Policies
-product:
-- Windows
 targetos: Windows
 req.typenames: ISCSI_Supported_LB_Policies, *PISCSI_Supported_LB_Policies
 ---

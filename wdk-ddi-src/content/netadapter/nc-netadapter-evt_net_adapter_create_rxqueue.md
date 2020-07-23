@@ -36,8 +36,6 @@ api_name:
 - EVT_NET_ADAPTER_CREATE_RXQUEUE
 targetos: Windows
 req.typenames: 
-product:
-- Windows
 ---
 
 # EVT_NET_ADAPTER_CREATE_RXQUEUE callback function

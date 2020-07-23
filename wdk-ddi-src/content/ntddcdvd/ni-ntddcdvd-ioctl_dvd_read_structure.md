@@ -37,8 +37,6 @@ api_location:
 - Ntddcdvd.h
 api_name:
 - IOCTL_DVD_READ_STRUCTURE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

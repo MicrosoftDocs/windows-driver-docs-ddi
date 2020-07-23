@@ -37,8 +37,6 @@ api_location:
 - avcstrm.h
 api_name:
 - AVC_STREAM_REQUEST_BLOCK
-product:
-- Windows
 targetos: Windows
 req.typenames: AVC_STREAM_REQUEST_BLOCK, *PAVC_STREAM_REQUEST_BLOCK
 ---

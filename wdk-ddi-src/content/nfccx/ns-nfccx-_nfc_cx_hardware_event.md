@@ -37,8 +37,6 @@ api_location:
 - nfccx.h
 api_name:
 - NFC_CX_HARDWARE_EVENT
-product:
-- Windows
 targetos: Windows
 req.typenames: NFC_CX_HARDWARE_EVENT, *PNFC_CX_HARDWARE_EVENT
 ---

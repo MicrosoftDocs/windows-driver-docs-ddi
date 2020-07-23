@@ -39,8 +39,6 @@ api_name:
 - IDebugDataSpaces2.FillVirtual
 - IDebugDataSpaces3.FillVirtual
 - IDebugDataSpaces4.FillVirtual
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KS_VIDEOINFO
-product:
-- Windows
 targetos: Windows
 req.typenames: KS_VIDEOINFO, *PKS_VIDEOINFO
 ---

@@ -39,8 +39,6 @@ api_name:
 - IDebugSymbols.GetNameByOffset
 - IDebugSymbols2.GetNameByOffset
 - IDebugSymbols3.GetNameByOffset
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

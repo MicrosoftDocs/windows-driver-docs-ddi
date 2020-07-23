@@ -41,8 +41,6 @@ api_name:
 - IDebugClient3.DispatchCallbacks
 - IDebugClient4.DispatchCallbacks
 - IDebugClient5.DispatchCallbacks
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

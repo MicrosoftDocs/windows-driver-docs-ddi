@@ -37,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - FORMATOP
-product:
-- Windows
 targetos: Windows
 req.typenames: FORMATOP
 ---

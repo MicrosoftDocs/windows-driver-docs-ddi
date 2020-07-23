@@ -39,8 +39,6 @@ api_name:
 - IDebugControl.Evaluate
 - IDebugControl2.Evaluate
 - IDebugControl3.Evaluate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,8 +38,6 @@ api_location:
 - Msgpioclxstub.dll
 api_name:
 - GPIO_CLX_ProcessAddDevicePreDeviceCreate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

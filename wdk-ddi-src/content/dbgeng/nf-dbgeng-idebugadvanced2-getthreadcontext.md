@@ -39,8 +39,6 @@ api_name:
 - IDebugAdvanced.GetThreadContext
 - IDebugAdvanced2.GetThreadContext
 - IDebugAdvanced3.GetThreadContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

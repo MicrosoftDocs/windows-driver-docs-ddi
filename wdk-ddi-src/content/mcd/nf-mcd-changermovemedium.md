@@ -37,8 +37,6 @@ api_location:
 - mcd.h
 api_name:
 - ChangerMoveMedium
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

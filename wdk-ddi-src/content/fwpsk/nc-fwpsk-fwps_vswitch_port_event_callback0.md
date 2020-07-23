@@ -37,8 +37,6 @@ api_location:
 - fwpsk.h
 api_name:
 - vSwitchPortEventNotifyFn
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

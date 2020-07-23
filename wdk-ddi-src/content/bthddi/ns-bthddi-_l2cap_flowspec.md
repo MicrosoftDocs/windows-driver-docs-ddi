@@ -37,8 +37,6 @@ api_location:
 - bthddi.h
 api_name:
 - L2CAP_FLOWSPEC
-product:
-- Windows
 targetos: Windows
 req.typenames: L2CAP_FLOWSPEC, *PL2CAP_FLOWSPEC
 ---

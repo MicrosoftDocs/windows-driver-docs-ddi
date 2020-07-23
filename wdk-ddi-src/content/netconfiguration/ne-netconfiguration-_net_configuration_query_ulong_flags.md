@@ -31,8 +31,6 @@ api_location:
 api_name: 
 - NET_CONFIGURATION_QUERY_ULONG_FLAGS
 targetos: Windows
-product:
-- Windows
 ---
 
 # _NET_CONFIGURATION_QUERY_ULONG_FLAGS enumeration

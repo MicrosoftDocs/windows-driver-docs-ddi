@@ -37,8 +37,6 @@ api_location:
 - Ks.h
 api_name:
 - KsCreateTopologyNode2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

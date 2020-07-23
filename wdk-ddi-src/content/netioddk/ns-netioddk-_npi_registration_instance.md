@@ -37,8 +37,6 @@ api_location:
 - netioddk.h
 api_name:
 - NPI_REGISTRATION_INSTANCE
-product:
-- Windows
 targetos: Windows
 req.typenames: NPI_REGISTRATION_INSTANCE
 ---

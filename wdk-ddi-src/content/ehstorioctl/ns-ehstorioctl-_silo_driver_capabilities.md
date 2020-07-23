@@ -37,8 +37,6 @@ api_location:
 - EhStorIoctl.h
 api_name:
 - SILO_DRIVER_CAPABILITIES
-product:
-- Windows
 targetos: Windows
 req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---

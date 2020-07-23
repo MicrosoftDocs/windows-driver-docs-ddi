@@ -37,8 +37,6 @@ api_location:
 - dispmprt.h
 api_name:
 - DxgkDdiGetChildContainerId
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - (*MINIPORT_SYNCHRONIZE_INTERRUPT_HANDLER)
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

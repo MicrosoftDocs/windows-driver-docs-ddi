@@ -37,8 +37,6 @@ api_location:
 - nfcsedev.h
 api_name:
 - IOCTL_NFCSE_GET_NFCC_CAPABILITIES
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

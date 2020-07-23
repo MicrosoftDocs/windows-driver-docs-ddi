@@ -37,8 +37,6 @@ api_location:
 - fltkernel.h
 api_name:
 - FltCbdqDisable
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

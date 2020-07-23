@@ -37,8 +37,6 @@ api_location:
 - engextcpp.hpp
 api_name:
 - ExtRemoteTyped.GetFieldOffset
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

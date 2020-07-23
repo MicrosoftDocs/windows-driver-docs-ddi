@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - SOUNDDETECTOR_PATTERNHEADER
-product:
-- Windows
 targetos: Windows
 req.typenames: SOUNDDETECTOR_PATTERNHEADER
 ---

@@ -30,8 +30,6 @@ api_location:
 - d3d12umddi.h
 api_name: 
 - D3D12DDIARG_TEXCUBE_RENDER_TARGET_VIEW
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

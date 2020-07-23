@@ -37,8 +37,6 @@ api_location:
 - Charging.h
 api_name:
 - POWERSOURCEID
-product:
-- Windows
 targetos: Windows
 req.typenames: POWERSOURCEID, *PPOWERSOURCEID
 ---

@@ -37,8 +37,6 @@ api_location:
 - dxva.h
 api_name:
 - DXVA_ConnectMode
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVA_ConnectMode, *LPDXVA_ConnectMode
 ---

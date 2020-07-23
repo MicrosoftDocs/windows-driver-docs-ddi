@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - TELEPHONY_CALLCONTROLOP
-product:
-- Windows
 targetos: Windows
 req.typenames: TELEPHONY_CALLCONTROLOP
 ---

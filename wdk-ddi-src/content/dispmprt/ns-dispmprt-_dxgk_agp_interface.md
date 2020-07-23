@@ -37,8 +37,6 @@ api_location:
 - dispmprt.h
 api_name:
 - DXGK_AGP_INTERFACE
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGK_AGP_INTERFACE, *PDXGK_AGP_INTERFACE
 ---

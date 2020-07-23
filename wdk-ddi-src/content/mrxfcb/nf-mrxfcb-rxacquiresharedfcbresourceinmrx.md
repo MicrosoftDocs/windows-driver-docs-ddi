@@ -37,8 +37,6 @@ api_location:
 - mrxfcb.h
 api_name:
 - RxAcquireSharedFcbResourceInMRx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

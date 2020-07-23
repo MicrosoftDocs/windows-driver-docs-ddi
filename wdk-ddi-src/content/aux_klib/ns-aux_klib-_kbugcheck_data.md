@@ -37,8 +37,6 @@ api_location:
 - aux_klib.h
 api_name:
 - KBUGCHECK_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: KBUGCHECK_DATA, *PKBUGCHECK_DATA
 ---

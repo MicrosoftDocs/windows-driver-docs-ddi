@@ -37,8 +37,6 @@ api_location:
 - Bthhfpddi.h
 api_name:
 - IOCTL_BTHHFP_DEVICE_REQUEST_DISCONNECT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

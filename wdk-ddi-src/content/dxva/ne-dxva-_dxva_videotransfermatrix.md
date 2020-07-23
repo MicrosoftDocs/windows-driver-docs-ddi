@@ -37,8 +37,6 @@ api_location:
 - dxva.h
 api_name:
 - DXVA_VideoTransferMatrix
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVA_VideoTransferMatrix
 ---

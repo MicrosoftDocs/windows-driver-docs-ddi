@@ -37,8 +37,6 @@ api_location:
 - Ntddser.h
 api_name:
 - SERIAL_QUEUE_SIZE
-product:
-- Windows
 targetos: Windows
 req.typenames: SERIAL_QUEUE_SIZE, *PSERIAL_QUEUE_SIZE
 ---

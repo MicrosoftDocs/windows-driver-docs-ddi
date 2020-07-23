@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IDebugControl2.GetCurrentTimeDate
 - IDebugControl3.GetCurrentTimeDate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

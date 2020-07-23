@@ -37,8 +37,6 @@ api_location:
 - Bthioctl.h
 api_name:
 - IOCTL_BTH_GET_LOCAL_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

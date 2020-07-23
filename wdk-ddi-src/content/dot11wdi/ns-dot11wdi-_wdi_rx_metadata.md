@@ -37,8 +37,6 @@ api_location:
 - dot11wdi.h
 api_name:
 - WDI_RX_METADATA
-product:
-- Windows
 targetos: Windows
 req.typenames: WDI_RX_METADATA, *PWDI_RX_METADATA
 ---

@@ -37,8 +37,6 @@ api_location:
 - ntdd8042.h
 api_name:
 - SynchWritePort
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

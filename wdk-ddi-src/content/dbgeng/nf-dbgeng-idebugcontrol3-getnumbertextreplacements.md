@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IDebugControl2.GetNumberTextReplacements
 - IDebugControl3.GetNumberTextReplacements
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

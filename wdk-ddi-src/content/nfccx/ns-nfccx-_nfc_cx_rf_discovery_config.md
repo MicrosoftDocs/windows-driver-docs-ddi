@@ -37,8 +37,6 @@ api_location:
 - nfccx.h
 api_name:
 - NFC_CX_RF_DISCOVERY_CONFIG
-product:
-- Windows
 targetos: Windows
 req.typenames: NFC_CX_RF_DISCOVERY_CONFIG, *PNFC_CX_RF_DISCOVERY_CONFIG
 ---

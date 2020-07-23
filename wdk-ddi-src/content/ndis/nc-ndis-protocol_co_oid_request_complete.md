@@ -37,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - ProtocolCoOidRequestComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

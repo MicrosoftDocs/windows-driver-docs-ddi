@@ -37,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - CreateCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

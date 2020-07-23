@@ -37,8 +37,6 @@ api_location:
 - 1394.h
 api_name:
 - ISOCH_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: ISOCH_DESCRIPTOR, *PISOCH_DESCRIPTOR
 ---

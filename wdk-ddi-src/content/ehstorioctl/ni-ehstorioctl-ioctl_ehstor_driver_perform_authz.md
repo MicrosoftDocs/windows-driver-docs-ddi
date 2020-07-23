@@ -37,8 +37,6 @@ api_location:
 - EhStorIoctl.h
 api_name:
 - IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

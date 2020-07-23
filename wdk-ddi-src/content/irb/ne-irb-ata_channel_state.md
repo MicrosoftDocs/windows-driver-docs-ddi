@@ -37,8 +37,6 @@ api_location:
 - irb.h
 api_name:
 - ATA_CHANNEL_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: ATA_CHANNEL_STATE
 ---

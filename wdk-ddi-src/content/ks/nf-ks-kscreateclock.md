@@ -38,8 +38,6 @@ api_location:
 - ks.dll
 api_name:
 - KsCreateClock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

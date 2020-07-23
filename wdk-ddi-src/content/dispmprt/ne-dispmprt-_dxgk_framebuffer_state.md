@@ -37,8 +37,6 @@ api_location:
 - dispmprt.h
 api_name:
 - DXGK_FRAMEBUFFER_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGK_FRAMEBUFFER_STATE
 ---

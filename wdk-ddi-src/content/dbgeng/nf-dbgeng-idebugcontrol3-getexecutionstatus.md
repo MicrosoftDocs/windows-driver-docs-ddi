@@ -39,8 +39,6 @@ api_name:
 - IDebugControl.GetExecutionStatus
 - IDebugControl2.GetExecutionStatus
 - IDebugControl3.GetExecutionStatus
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

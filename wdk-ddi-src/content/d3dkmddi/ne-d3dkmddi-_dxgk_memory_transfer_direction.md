@@ -36,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGK_MEMORY_TRANSFER_DIRECTION
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_MEMORY_TRANSFER_DIRECTION

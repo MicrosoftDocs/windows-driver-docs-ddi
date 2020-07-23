@@ -37,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugRegisters2.GetValues2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

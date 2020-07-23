@@ -40,8 +40,6 @@ api_name:
 - IDebugDataSpaces2.WritePointersVirtual
 - IDebugDataSpaces3.WritePointersVirtual
 - IDebugDataSpaces4.WritePointersVirtual
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

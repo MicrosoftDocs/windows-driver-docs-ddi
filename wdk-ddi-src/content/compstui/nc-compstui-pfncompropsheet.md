@@ -37,8 +37,6 @@ api_location:
 - compstui.h
 api_name:
 - ComPropSheet
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

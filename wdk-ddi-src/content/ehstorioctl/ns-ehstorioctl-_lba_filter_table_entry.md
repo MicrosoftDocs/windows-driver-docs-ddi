@@ -37,8 +37,6 @@ api_location:
 - EhStorIoctl.h
 api_name:
 - LBA_FILTER_TABLE_ENTRY
-product:
-- Windows
 targetos: Windows
 req.typenames: LBA_FILTER_TABLE_ENTRY, *PLBA_FILTER_TABLE_ENTRY
 ---

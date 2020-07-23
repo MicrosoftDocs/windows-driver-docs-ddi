@@ -37,8 +37,6 @@ api_location:
 - 1394.h
 api_name:
 - IRB_REQ_ISOCH_QUERY_RESOURCES
-product:
-- Windows
 targetos: Windows
 req.typenames: IRB_REQ_ISOCH_QUERY_RESOURCES
 ---

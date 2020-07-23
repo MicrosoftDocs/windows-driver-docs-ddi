@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IDebugBreakpoint.GetPassCount
 - IDebugBreakpoint2.GetPassCount
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

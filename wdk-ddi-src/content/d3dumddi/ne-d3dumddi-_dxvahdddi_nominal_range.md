@@ -37,8 +37,6 @@ api_location:
 - D3dumddi.h
 api_name:
 - DXVAHDDDI_NOMINAL_RANGE
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVAHDDDI_NOMINAL_RANGE
 ---

@@ -27,8 +27,6 @@ api_location:
 - d3dukmdt.h
 api_name: 
 - _D3DDDI_DRIVERESCAPETYPE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

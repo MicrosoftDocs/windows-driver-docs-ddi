@@ -37,8 +37,6 @@ api_location:
 - iscsidef.h
 api_name:
 - ISCSI_TargetPortal
-product:
-- Windows
 targetos: Windows
 req.typenames: ISCSI_TargetPortal, *PISCSI_TargetPortal
 ---

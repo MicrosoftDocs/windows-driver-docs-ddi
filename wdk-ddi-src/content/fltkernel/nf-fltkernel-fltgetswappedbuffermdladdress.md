@@ -37,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltGetSwappedBufferMdlAddress
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

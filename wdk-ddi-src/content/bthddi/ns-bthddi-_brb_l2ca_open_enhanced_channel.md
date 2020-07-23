@@ -37,8 +37,6 @@ api_location:
 - Bthddi.h
 api_name:
 - BRB_L2CA_OPEN_ENHANCED_CHANNEL
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

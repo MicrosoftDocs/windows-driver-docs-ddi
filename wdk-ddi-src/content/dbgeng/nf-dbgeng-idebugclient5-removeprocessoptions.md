@@ -41,8 +41,6 @@ api_name:
 - IDebugClient3.RemoveProcessOptions
 - IDebugClient4.RemoveProcessOptions
 - IDebugClient5.RemoveProcessOptions
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

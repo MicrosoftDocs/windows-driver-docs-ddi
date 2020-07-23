@@ -40,8 +40,6 @@ api_name:
 - IDebugDataSpaces2.WritePhysical
 - IDebugDataSpaces3.WritePhysical
 - IDebugDataSpaces4.WritePhysical
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

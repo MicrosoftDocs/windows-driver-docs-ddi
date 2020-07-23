@@ -31,8 +31,6 @@ api_location:
 - ndiswwan.h
 api_name: 
 - _NDIS_WWAN_SET_MPDP_STATE
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

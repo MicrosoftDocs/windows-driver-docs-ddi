@@ -38,8 +38,6 @@ api_location:
 - FltMgr.dll
 api_name:
 - FltFreeCallbackData
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

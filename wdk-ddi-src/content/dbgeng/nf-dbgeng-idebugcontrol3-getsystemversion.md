@@ -39,8 +39,6 @@ api_name:
 - IDebugControl.GetSystemVersion
 - IDebugControl2.GetSystemVersion
 - IDebugControl3.GetSystemVersion
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KSPROPERTY_MEMBERSLIST
-product:
-- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_MEMBERSLIST, *PKSPROPERTY_MEMBERSLIST
 ---

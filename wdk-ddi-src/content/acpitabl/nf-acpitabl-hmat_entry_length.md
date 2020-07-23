@@ -34,8 +34,6 @@ api_location:
 - acpitabl.h
 api_name: 
 - HMAT_ENTRY_LENGTH
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

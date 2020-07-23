@@ -38,8 +38,6 @@ api_location:
 api_name: 
 - NetRequestGetVPortId
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetRequestGetVPortId function

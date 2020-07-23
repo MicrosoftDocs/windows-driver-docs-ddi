@@ -37,8 +37,6 @@ api_location:
 - Ntddk.h
 api_name:
 - BUS_DATA_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: BUS_DATA_TYPE, *PBUS_DATA_TYPE
 ---

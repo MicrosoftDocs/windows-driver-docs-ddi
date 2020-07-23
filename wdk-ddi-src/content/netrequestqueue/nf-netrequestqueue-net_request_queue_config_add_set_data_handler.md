@@ -38,8 +38,6 @@ api_location:
 api_name: 
 - NET_REQUEST_QUEUE_CONFIG_ADD_SET_DATA_HANDLER
 targetos: Windows
-product:
-- Windows
 ---
 
 # NET_REQUEST_QUEUE_CONFIG_ADD_SET_DATA_HANDLER function

@@ -37,8 +37,6 @@ api_location:
 - dispmprt.h
 api_name:
 - DXGK_SERVICES
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGK_SERVICES
 ---

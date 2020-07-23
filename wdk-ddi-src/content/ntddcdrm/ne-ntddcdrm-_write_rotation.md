@@ -37,8 +37,6 @@ api_location:
 - ntddcdrm.h
 api_name:
 - WRITE_ROTATION
-product:
-- Windows
 targetos: Windows
 req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
 ---

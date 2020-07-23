@@ -37,8 +37,6 @@ api_location:
 - Ntddcdvd.h
 api_name:
 - IOCTL_AACS_END_SESSION
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

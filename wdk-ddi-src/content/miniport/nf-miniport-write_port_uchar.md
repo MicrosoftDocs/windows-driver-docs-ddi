@@ -38,8 +38,6 @@ api_location:
 - Hal.dll
 api_name:
 - WRITE_PORT_UCHAR
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

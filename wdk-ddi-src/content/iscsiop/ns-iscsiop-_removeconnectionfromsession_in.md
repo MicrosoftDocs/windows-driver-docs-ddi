@@ -37,8 +37,6 @@ api_location:
 - iscsiop.h
 api_name:
 - RemoveConnectionFromSession_IN
-product:
-- Windows
 targetos: Windows
 req.typenames: RemoveConnectionFromSession_IN, *PRemoveConnectionFromSession_IN
 ---

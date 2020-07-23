@@ -30,8 +30,6 @@ api_location:
 - d3d12umddi.h
 api_name: 
 - D3D12DDI_COMMAND_LIST_FUNCS_3D_0054
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

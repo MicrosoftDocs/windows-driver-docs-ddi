@@ -38,8 +38,6 @@ api_location:
 - Drmk.dll
 api_name:
 - DrmCreateContentMixed
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

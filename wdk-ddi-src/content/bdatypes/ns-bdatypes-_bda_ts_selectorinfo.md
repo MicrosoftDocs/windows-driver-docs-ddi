@@ -37,8 +37,6 @@ api_location:
 - Bdatypes.h
 api_name:
 - BDA_TS_SELECTORINFO
-product:
-- Windows
 targetos: Windows
 req.typenames: BDA_TS_SELECTORINFO, *PBDA_TS_SELECTORINFO
 ---

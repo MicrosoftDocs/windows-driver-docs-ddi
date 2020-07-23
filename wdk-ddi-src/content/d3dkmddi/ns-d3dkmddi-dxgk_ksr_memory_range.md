@@ -33,8 +33,6 @@ api_location:
  - d3dkmddi.h
 api_name: 
  - DXGK_KSR_MEMORY_RANGE
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

@@ -37,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - GetFcpTargetMapping_OUT
-product:
-- Windows
 targetos: Windows
 req.typenames: GetFcpTargetMapping_OUT, *PGetFcpTargetMapping_OUT
 ---

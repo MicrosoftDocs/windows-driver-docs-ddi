@@ -37,8 +37,6 @@ api_location:
 - netdma.h
 api_name:
 - ProviderStartDma
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

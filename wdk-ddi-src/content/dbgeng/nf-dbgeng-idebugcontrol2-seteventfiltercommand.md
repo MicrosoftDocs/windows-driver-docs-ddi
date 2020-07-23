@@ -39,8 +39,6 @@ api_name:
 - IDebugControl.SetEventFilterCommand
 - IDebugControl2.SetEventFilterCommand
 - IDebugControl3.SetEventFilterCommand
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

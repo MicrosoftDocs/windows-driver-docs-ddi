@@ -39,8 +39,6 @@ api_name:
 - IDebugSymbols.ResetScope
 - IDebugSymbols2.ResetScope
 - IDebugSymbols3.ResetScope
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - Bdatypes.h
 api_name:
 - BDA_SCAN_START
-product:
-- Windows
 targetos: Windows
 req.typenames: BDA_SCAN_START, *PBDA_SCAN_START
 ---

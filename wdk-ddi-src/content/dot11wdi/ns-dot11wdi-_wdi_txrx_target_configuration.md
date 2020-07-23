@@ -37,8 +37,6 @@ api_location:
 - dot11wdi.h
 api_name:
 - WDI_TXRX_TARGET_CONFIGURATION
-product:
-- Windows
 targetos: Windows
 req.typenames: WDI_TXRX_TARGET_CONFIGURATION, *PWDI_TXRX_TARGET_CONFIGURATION
 ---

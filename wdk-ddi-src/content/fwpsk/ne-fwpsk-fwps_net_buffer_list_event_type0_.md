@@ -37,8 +37,6 @@ api_location:
 - fwpsk.h
 api_name:
 - FWPS_NET_BUFFER_LIST_EVENT_TYPE0
-product:
-- Windows
 targetos: Windows
 req.typenames: FWPS_NET_BUFFER_LIST_EVENT_TYPE0
 ---

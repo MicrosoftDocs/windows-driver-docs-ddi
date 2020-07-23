@@ -37,8 +37,6 @@ api_location:
 - mpiowmi.h
 api_name:
 - MPIO_CONTROLLER_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: MPIO_CONTROLLER_INFO, *PMPIO_CONTROLLER_INFO
 ---

@@ -37,8 +37,6 @@ api_location:
 - EhStorIoctl.h
 api_name:
 - ACT_AUTHZ_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: ACT_AUTHZ_STATE, *PACT_AUTHZ_STATE
 ---

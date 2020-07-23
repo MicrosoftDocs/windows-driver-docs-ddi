@@ -36,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - D3DWDDM2_0DDI_SWIZZLE_PATTERN_FLAGS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DWDDM2_0DDI_SWIZZLE_PATTERN_FLAGS

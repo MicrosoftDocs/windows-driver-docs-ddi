@@ -37,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KSPPROPERTY_ALLOCATOR_MDLCACHING
-product:
-- Windows
 targetos: Windows
 req.typenames: KSPPROPERTY_ALLOCATOR_MDLCACHING
 ---

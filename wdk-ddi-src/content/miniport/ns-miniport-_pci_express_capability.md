@@ -37,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - PCI_EXPRESS_CAPABILITY
-product:
-- Windows
 targetos: Windows
 req.typenames: PCI_EXPRESS_CAPABILITY, *PPCI_EXPRESS_CAPABILITY
 ---

@@ -37,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KSPIN
-product:
-- Windows
 targetos: Windows
 req.typenames: KSPIN, *PKSPIN
 ---

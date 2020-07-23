@@ -37,8 +37,6 @@ api_location:
 - hidpi.h
 api_name:
 - HIDP_EXTENDED_ATTRIBUTES
-product:
-- Windows
 targetos: Windows
 req.typenames: HIDP_EXTENDED_ATTRIBUTES, *PHIDP_EXTENDED_ATTRIBUTES
 ---

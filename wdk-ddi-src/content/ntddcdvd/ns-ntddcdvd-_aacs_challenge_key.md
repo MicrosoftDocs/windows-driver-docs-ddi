@@ -37,8 +37,6 @@ api_location:
 - ntddcdvd.h
 api_name:
 - AACS_CHALLENGE_KEY
-product:
-- Windows
 targetos: Windows
 req.typenames: AACS_CHALLENGE_KEY, *PAACS_CHALLENGE_KEY
 ---

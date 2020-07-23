@@ -39,8 +39,6 @@ api_name:
 - IDebugControl.GetExtensionByPath
 - IDebugControl2.GetExtensionByPath
 - IDebugControl3.GetExtensionByPath
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

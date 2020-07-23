@@ -37,8 +37,6 @@ api_location:
 - bdatypes.h
 api_name:
 - MPEG2_TRANSPORT_STRIDE
-product:
-- Windows
 targetos: Windows
 req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 ---

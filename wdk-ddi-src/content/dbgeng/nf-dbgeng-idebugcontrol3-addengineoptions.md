@@ -39,8 +39,6 @@ api_name:
 - IDebugControl.AddEngineOptions
 - IDebugControl2.AddEngineOptions
 - IDebugControl3.AddEngineOptions
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

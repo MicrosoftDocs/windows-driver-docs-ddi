@@ -37,8 +37,6 @@ api_location:
 - d3dkmdt.h
 api_name:
 - DXGKMDT_OPM_HDCP_FLAG
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGKMDT_OPM_HDCP_FLAG
 ---

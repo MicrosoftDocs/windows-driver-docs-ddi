@@ -37,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - IO_ACCESS_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: IO_ACCESS_TYPE
 ---

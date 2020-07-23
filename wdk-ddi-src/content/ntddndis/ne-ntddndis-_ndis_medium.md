@@ -37,8 +37,6 @@ api_location:
 - ntddndis.h
 api_name:
 - NDIS_MEDIUM
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_MEDIUM, *PNDIS_MEDIUM
 ---

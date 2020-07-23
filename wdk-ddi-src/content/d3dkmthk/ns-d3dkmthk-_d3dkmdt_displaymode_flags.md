@@ -36,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMDT_DISPLAYMODE_FLAGS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMDT_DISPLAYMODE_FLAGS

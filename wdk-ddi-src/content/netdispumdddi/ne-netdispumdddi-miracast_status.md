@@ -37,8 +37,6 @@ api_location:
 - Netdispumdddi.h
 api_name:
 - MIRACAST_STATUS
-product:
-- Windows
 targetos: Windows
 req.typenames: MIRACAST_STATUS
 ---

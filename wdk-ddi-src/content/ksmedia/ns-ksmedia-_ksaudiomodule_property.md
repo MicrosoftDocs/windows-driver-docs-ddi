@@ -37,8 +37,6 @@ api_location:
 - Ksmedia.h
 api_name:
 - KSAUDIOMODULE_PROPERTY
-product:
-- Windows
 targetos: Windows
 req.typenames: KSAUDIOMODULE_PROPERTY, *PKSAUDIOMODULE_PROPERTY
 ---

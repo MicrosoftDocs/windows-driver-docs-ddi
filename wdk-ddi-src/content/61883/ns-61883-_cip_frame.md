@@ -37,8 +37,6 @@ api_location:
 - 61883.h
 api_name:
 - CIP_FRAME
-product:
-- Windows
 targetos: Windows
 req.typenames: CIP_FRAME, *PCIP_FRAME
 ---

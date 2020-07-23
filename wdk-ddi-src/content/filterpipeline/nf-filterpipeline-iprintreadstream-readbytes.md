@@ -37,8 +37,6 @@ api_location:
 - filterpipeline.h
 api_name:
 - IPrintReadStream.ReadBytes
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

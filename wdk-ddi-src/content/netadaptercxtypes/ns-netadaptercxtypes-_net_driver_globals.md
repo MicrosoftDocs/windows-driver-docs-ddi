@@ -34,8 +34,6 @@ api_location:
 api_name: 
 - NET_DRIVER_GLOBALS
 targetos: Windows
-product:
-- Windows
 ---
 
 # _NET_DRIVER_GLOBALS structure

@@ -37,8 +37,6 @@ api_location:
 - dot11wdi.h
 api_name:
 - WDI_TXRX_PEER_QOS_CAPS
-product:
-- Windows
 targetos: Windows
 req.typenames: WDI_TXRX_PEER_QOS_CAPS
 ---

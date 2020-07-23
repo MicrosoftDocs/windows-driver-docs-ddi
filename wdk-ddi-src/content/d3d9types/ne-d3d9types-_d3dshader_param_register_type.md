@@ -37,8 +37,6 @@ api_location:
 - d3d9types.h
 api_name:
 - D3DSHADER_PARAM_REGISTER_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DSHADER_PARAM_REGISTER_TYPE
 ---

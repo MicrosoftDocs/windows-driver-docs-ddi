@@ -37,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KSSTREAM_UVC_METADATA
-product:
-- Windows
 targetos: Windows
 req.typenames: KSSTREAM_UVC_METADATA, *PKSSTREAM_UVC_METADATA
 ---

@@ -36,8 +36,6 @@ api_location:
 - D3dkmthk.h
 api_name:
 - D3DKMTCheckExclusiveOwnership
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

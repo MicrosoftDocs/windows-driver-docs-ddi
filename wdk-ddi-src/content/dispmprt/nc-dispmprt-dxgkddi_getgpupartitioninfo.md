@@ -36,8 +36,6 @@ api_location:
  - dispmprt.h
 api_name: 
  - DXGKDDI_GETGPUPARTITIONINFO
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

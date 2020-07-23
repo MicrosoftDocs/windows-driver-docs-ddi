@@ -36,8 +36,6 @@ api_location:
  - ntddk.h
 api_name:
  - PPHYSICAL_COUNTER_EVENT_BUFFER_OVERFLOW_HANDLER
-product:
-- Windows
 targetos: Windows
 ms.custom: 19H1
 ---

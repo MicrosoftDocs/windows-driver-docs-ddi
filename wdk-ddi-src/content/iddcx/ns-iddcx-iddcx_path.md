@@ -37,8 +37,6 @@ api_location:
 - iddcx.h
 api_name:
 - IDDCX_PATH
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -31,8 +31,6 @@ api_location:
 api_name: 
 - NET_REQUEST_QUEUE_TYPE
 targetos: Windows
-product:
-- Windows
 ---
 
 # _NET_REQUEST_QUEUE_TYPE enumeration

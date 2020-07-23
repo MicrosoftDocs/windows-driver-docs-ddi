@@ -34,8 +34,6 @@ api_location:
 - netpacketqueue.h
 api_name: 
 - EVT_PACKET_QUEUE_ADVANCE
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

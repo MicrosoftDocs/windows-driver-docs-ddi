@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KS_VIDEOINFOHEADER2
-product:
-- Windows
 targetos: Windows
 req.typenames: KS_VIDEOINFOHEADER2, *PKS_VIDEOINFOHEADER2
 ---

@@ -37,8 +37,6 @@ api_location:
 - ndkpi.h
 api_name:
 - NDK_FN_SEND_AND_INVALIDATE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -34,8 +34,6 @@ apilocation:
 apiname: 
 - NET_FRAGMENT
 targetos: Windows
-product:
-- Windows
 ---
 
 # _NET_FRAGMENT structure

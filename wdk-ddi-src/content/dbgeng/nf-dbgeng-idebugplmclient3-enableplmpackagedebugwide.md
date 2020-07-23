@@ -37,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugPlmClient3.EnablePlmPackageDebugWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

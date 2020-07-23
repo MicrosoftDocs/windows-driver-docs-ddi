@@ -37,8 +37,6 @@ api_location:
 - fltuserstructures.h
 api_name:
 - FILTER_MESSAGE_HEADER
-product:
-- Windows
 targetos: Windows
 req.typenames: FILTER_MESSAGE_HEADER, *PFILTER_MESSAGE_HEADER
 ---

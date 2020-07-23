@@ -37,8 +37,6 @@ api_location:
 - 61883.h
 api_name:
 - CMP_NOTIFY_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: CMP_NOTIFY_INFO, *PCMP_NOTIFY_INFO
 ---

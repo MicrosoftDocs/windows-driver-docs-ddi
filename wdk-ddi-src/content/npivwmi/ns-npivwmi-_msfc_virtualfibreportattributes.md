@@ -37,8 +37,6 @@ api_location:
 - npivwmi.h
 api_name:
 - MSFC_VirtualFibrePortAttributes
-product:
-- Windows
 targetos: Windows
 req.typenames: MSFC_VirtualFibrePortAttributes, *PMSFC_VirtualFibrePortAttributes
 ---

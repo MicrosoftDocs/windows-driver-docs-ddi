@@ -39,8 +39,6 @@ api_name:
 - IDebugControl.ExecuteCommandFile
 - IDebugControl2.ExecuteCommandFile
 - IDebugControl3.ExecuteCommandFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

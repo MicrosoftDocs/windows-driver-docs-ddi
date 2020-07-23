@@ -37,8 +37,6 @@ api_location:
 - FltKernel.h
 api_name:
 - OperationStatusCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -36,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - PDXGK_GRAPHICSPOWER_UNREGISTER
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames:

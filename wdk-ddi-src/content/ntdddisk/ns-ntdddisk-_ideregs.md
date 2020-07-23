@@ -37,8 +37,6 @@ api_location:
 - ntdddisk.h
 api_name:
 - IDEREGS
-product:
-- Windows
 targetos: Windows
 req.typenames: IDEREGS, *PIDEREGS, *LPIDEREGS
 ---

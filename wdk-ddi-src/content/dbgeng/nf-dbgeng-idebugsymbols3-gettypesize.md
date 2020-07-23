@@ -39,8 +39,6 @@ api_name:
 - IDebugSymbols.GetTypeSize
 - IDebugSymbols2.GetTypeSize
 - IDebugSymbols3.GetTypeSize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

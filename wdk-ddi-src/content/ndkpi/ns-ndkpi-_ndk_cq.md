@@ -37,8 +37,6 @@ api_location:
 - ndkpi.h
 api_name:
 - NDK_CQ
-product:
-- Windows
 targetos: Windows
 req.typenames: NDK_CQ
 ---

@@ -37,8 +37,6 @@ api_location:
 - hidpi.h
 api_name:
 - HidP_GetCaps
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

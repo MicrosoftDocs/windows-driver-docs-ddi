@@ -37,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KSHANDSHAKE
-product:
-- Windows
 targetos: Windows
 req.typenames: KSHANDSHAKE, *PKSHANDSHAKE
 ---

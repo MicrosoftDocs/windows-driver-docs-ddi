@@ -37,8 +37,6 @@ api_location:
 - netdma.h
 api_name:
 - NetDmaGetVersion
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

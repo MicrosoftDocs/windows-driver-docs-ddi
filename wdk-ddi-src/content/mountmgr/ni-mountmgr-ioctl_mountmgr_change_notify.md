@@ -37,8 +37,6 @@ api_location:
 - Mountmgr.h
 api_name:
 - IOCTL_MOUNTMGR_CHANGE_NOTIFY
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

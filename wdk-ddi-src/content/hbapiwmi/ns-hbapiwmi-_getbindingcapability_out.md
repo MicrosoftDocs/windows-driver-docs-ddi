@@ -37,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - GetBindingCapability_OUT
-product:
-- Windows
 targetos: Windows
 req.typenames: GetBindingCapability_OUT, *PGetBindingCapability_OUT
 ---

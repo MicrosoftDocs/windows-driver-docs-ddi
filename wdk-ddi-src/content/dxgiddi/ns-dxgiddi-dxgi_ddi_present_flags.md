@@ -37,8 +37,6 @@ api_location:
 - dxgiddi.h
 api_name:
 - DXGI_DDI_PRESENT_FLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGI_DDI_PRESENT_FLAGS
 dev_langs:

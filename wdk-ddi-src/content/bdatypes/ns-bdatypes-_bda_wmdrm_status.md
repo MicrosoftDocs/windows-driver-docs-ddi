@@ -37,8 +37,6 @@ api_location:
 - Bdatypes.h
 api_name:
 - BDA_WMDRM_STATUS
-product:
-- Windows
 targetos: Windows
 req.typenames: BDA_WMDRM_STATUS, *PBDA_WMDRM_STATUS
 ---

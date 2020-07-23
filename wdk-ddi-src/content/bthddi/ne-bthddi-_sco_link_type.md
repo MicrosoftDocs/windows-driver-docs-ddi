@@ -37,8 +37,6 @@ api_location:
 - bthddi.h
 api_name:
 - SCO_LINK_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: SCO_LINK_TYPE, *PSCO_LINK_TYPE
 ---

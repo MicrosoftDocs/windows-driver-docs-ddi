@@ -38,8 +38,6 @@ api_location:
 - Ksproxy.dll
 api_name:
 - KsSynchronousDeviceControl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

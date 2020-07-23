@@ -35,8 +35,6 @@ api_location:
 - NtosKrnl.exe
 api_name: 
 - NET_ADAPTER_RX_CAPABILITIES_INIT_SYSTEM_MANAGED_DMA
-product:
-- Windows
 targetos: Windows
 ---
 

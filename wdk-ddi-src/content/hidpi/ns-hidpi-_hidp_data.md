@@ -37,8 +37,6 @@ api_location:
 - hidpi.h
 api_name:
 - HIDP_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: HIDP_DATA, *PHIDP_DATA
 ---

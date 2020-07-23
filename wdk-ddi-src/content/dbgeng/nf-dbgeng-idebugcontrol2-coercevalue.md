@@ -39,8 +39,6 @@ api_name:
 - IDebugControl.CoerceValue
 - IDebugControl2.CoerceValue
 - IDebugControl3.CoerceValue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

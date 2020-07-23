@@ -36,8 +36,6 @@ api_location:
 - d3d12umddi.h
 api_name:
 - D3D12DDI_DEVICE_FUNCS_CONTENT_PROTECTION_STREAMING_0030
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D12DDI_DEVICE_FUNCS_CONTENT_PROTECTION_STREAMING_0030

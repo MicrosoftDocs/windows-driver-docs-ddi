@@ -38,8 +38,6 @@ apilocation:
 apiname: 
 - NetRequestQueueCreate
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetRequestQueueCreate function

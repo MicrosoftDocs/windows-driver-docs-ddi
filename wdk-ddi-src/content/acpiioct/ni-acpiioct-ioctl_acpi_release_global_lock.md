@@ -37,8 +37,6 @@ api_location:
 - Acpiioct.h
 api_name:
 - IOCTL_ACPI_RELEASE_GLOBAL_LOCK
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

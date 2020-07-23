@@ -37,8 +37,6 @@ api_location:
 - Ntddk.h
 api_name:
 - HalExamineMBR
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

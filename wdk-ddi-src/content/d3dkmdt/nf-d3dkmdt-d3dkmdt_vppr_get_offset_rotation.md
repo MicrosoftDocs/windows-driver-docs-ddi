@@ -37,8 +37,6 @@ api_location:
 - D3dkmdt.h
 api_name:
 - D3DKMDT_VPPR_GET_OFFSET_ROTATION
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

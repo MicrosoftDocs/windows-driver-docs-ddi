@@ -39,8 +39,6 @@ api_name:
 - IDebugControl.OpenLogFile
 - IDebugControl2.OpenLogFile
 - IDebugControl3.OpenLogFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

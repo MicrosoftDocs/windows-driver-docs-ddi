@@ -37,8 +37,6 @@ api_location:
 - Drmk.h
 api_name:
 - DRMCreateContentMixed
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

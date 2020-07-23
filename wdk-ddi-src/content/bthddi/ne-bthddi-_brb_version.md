@@ -37,8 +37,6 @@ api_location:
 - bthddi.h
 api_name:
 - BRB_VERSION
-product:
-- Windows
 targetos: Windows
 req.typenames: BRB_VERSION
 ---

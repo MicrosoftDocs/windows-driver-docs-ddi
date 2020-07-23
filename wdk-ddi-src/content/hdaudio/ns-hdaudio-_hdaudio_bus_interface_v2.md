@@ -37,8 +37,6 @@ api_location:
 - hdaudio.h
 api_name:
 - HDAUDIO_BUS_INTERFACE_V2
-product:
-- Windows
 targetos: Windows
 req.typenames: HDAUDIO_BUS_INTERFACE_V2, *PHDAUDIO_BUS_INTERFACE_V2
 ---

@@ -37,8 +37,6 @@ api_location:
 - keyworddetectoroemadapter.h
 api_name:
 - IKeywordDetectorOemAdapter
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

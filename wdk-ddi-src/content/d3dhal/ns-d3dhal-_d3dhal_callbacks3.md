@@ -37,8 +37,6 @@ api_location:
 - d3dhal.h
 api_name:
 - D3DHAL_CALLBACKS3
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DHAL_CALLBACKS3, *LPD3DHAL_CALLBACKS3
 ---

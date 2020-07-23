@@ -37,8 +37,6 @@ api_location:
 - d3dkmdt.h
 api_name:
 - DXGKMDT_OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGKMDT_OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS
 ---

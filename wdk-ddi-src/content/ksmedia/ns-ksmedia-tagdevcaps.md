@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - DEVCAPS
-product:
-- Windows
 targetos: Windows
 req.typenames: DEVCAPS, *PDEVCAPS
 ---

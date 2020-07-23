@@ -37,8 +37,6 @@ api_location:
 - BthSdpddi.h
 api_name:
 - SdpValidateStream
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

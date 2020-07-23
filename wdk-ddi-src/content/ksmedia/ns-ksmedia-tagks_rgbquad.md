@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KS_RGBQUAD
-product:
-- Windows
 targetos: Windows
 req.typenames: KS_RGBQUAD, *PKS_RGBQUAD
 ---

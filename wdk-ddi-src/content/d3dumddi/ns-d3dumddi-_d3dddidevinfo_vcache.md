@@ -37,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDIDEVINFO_VCACHE
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDIDEVINFO_VCACHE
 ---

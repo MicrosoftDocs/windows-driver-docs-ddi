@@ -35,8 +35,6 @@ apilocation:
 - NtosKrnl.exe
 apiname: 
 - NetRxQueueGetRingCollection
-product:
-- Windows
 targetos: Windows
 
 ---

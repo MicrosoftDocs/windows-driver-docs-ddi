@@ -37,8 +37,6 @@ api_location:
 - Ntddstor.h
 api_name:
 - IOCTL_STORAGE_GET_HOTPLUG_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

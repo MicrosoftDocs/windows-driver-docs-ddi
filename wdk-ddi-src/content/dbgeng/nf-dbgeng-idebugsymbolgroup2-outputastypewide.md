@@ -37,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugSymbolGroup2.OutputAsTypeWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

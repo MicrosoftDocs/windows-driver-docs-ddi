@@ -37,8 +37,6 @@ api_location:
 - Dispmprt.h
 api_name:
 - DXGK_MIRACAST_DISPLAY_INTERFACE
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGK_MIRACAST_DISPLAY_INTERFACE, *PDXGK_MIRACAST_DISPLAY_INTERFACE
 ---

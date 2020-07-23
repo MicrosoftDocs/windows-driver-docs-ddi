@@ -37,8 +37,6 @@ api_location:
 - iddcx.h
 api_name:
 - PFN_IDD_CX_ADAPTER_INIT_FINISHED
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

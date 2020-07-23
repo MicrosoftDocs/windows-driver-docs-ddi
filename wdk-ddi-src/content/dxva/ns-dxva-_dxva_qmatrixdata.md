@@ -37,8 +37,6 @@ api_location:
 - dxva.h
 api_name:
 - DXVA_QmatrixData
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVA_QmatrixData, *LPDXVA_QmatrixData
 ---

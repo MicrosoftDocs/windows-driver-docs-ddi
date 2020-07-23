@@ -37,8 +37,6 @@ api_location:
 - Filterpipeline.h
 api_name:
 - EXpsFontRestriction
-product:
-- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---

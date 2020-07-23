@@ -37,8 +37,6 @@ api_location:
 - Ntddcdvd.h
 api_name:
 - IOCTL_AACS_READ_SERIAL_NUMBER
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -41,8 +41,6 @@ api_name:
 - IDebugClient3.GetExitCode
 - IDebugClient4.GetExitCode
 - IDebugClient5.GetExitCode
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

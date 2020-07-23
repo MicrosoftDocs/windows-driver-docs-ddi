@@ -37,8 +37,6 @@ api_location:
 - ntddsd.h
 api_name:
 - SdBusSubmitRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

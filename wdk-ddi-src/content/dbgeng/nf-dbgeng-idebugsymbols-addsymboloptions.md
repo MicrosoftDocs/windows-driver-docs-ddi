@@ -39,8 +39,6 @@ api_name:
 - IDebugSymbols.AddSymbolOptions
 - IDebugSymbols2.AddSymbolOptions
 - IDebugSymbols3.AddSymbolOptions
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

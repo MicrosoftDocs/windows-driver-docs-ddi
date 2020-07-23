@@ -37,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILCALLMEDIAAUDIOFLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILCALLMEDIAAUDIOFLAGS
 ---

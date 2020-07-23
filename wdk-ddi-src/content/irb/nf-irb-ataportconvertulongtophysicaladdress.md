@@ -40,8 +40,6 @@ api_location:
 - pciidex.dll
 api_name:
 - AtaPortConvertUlongToPhysicalAddress
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

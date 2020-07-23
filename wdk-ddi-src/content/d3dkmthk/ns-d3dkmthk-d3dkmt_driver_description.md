@@ -33,8 +33,6 @@ api_location:
  - d3dkmthk.h
 api_name: 
  - D3DKMT_DRIVER_DESCRIPTION
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

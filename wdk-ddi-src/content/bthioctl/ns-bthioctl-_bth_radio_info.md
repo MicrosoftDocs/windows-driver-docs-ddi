@@ -37,8 +37,6 @@ api_location:
 - bthioctl.h
 api_name:
 - BTH_RADIO_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: BTH_RADIO_INFO, *PBTH_RADIO_INFO
 ---

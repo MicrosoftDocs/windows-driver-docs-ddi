@@ -37,8 +37,6 @@ api_location:
 - hpmi.h
 api_name:
 - HPMI_BATTERY_UTILIZATION_HINT
-product:
-- Windows
 targetos: Windows
 req.typenames: HPMI_BATTERY_UTILIZATION_HINT, *PHPMI_BATTERY_UTILIZATION_HINT
 ---

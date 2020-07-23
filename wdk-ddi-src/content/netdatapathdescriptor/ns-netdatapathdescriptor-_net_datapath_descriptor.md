@@ -31,8 +31,6 @@ api_location:
 - netdatapathdescriptor.h
 api_name: 
 - _NET_DATAPATH_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 ---
 

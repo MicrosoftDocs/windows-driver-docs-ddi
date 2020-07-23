@@ -30,8 +30,6 @@ api_location:
 - d3d12umddi.h
 api_name: 
 - D3D12DDI_VIDEO_FEATURE_AREA_SUPPORT_DATA_0053
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

@@ -37,8 +37,6 @@ api_location:
 - mountmgr.h
 api_name:
 - MOUNTMGR_CHANGE_NOTIFY_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: MOUNTMGR_CHANGE_NOTIFY_INFO, *PMOUNTMGR_CHANGE_NOTIFY_INFO
 ---

@@ -35,8 +35,6 @@ api_location:
 - ntddstor.h
 api_name: 
 - RtlCopyMemory
-product:
-- Windows
 targetos: Windows
 
 ---

@@ -37,8 +37,6 @@ api_location:
 - dmusicks.h
 api_name:
 - IMXF
-product:
-- Windows
 targetos: Windows
 req.typenames: DMUS_STREAM_TYPE
 ---

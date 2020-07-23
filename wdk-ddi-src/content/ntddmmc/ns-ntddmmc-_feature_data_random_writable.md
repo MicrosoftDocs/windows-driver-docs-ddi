@@ -37,8 +37,6 @@ api_location:
 - ntddmmc.h
 api_name:
 - FEATURE_DATA_RANDOM_WRITABLE
-product:
-- Windows
 targetos: Windows
 req.typenames: FEATURE_DATA_RANDOM_WRITABLE, *PFEATURE_DATA_RANDOM_WRITABLE
 ---

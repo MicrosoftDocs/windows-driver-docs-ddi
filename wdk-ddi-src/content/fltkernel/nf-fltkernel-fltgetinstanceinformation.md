@@ -37,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltGetInstanceInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

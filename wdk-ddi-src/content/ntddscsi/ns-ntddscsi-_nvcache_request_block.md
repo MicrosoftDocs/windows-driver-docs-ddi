@@ -37,8 +37,6 @@ api_location:
 - ntddscsi.h
 api_name:
 - NVCACHE_REQUEST_BLOCK
-product:
-- Windows
 targetos: Windows
 req.typenames: NVCACHE_REQUEST_BLOCK, *PNVCACHE_REQUEST_BLOCK
 ---

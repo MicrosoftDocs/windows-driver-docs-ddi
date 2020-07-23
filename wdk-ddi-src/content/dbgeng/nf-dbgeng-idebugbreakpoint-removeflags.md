@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IDebugBreakpoint.RemoveFlags
 - IDebugBreakpoint2.RemoveFlags
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

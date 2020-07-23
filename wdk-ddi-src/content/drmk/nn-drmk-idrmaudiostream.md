@@ -37,8 +37,6 @@ api_location:
 - drmk.h
 api_name:
 - IDrmAudioStream
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

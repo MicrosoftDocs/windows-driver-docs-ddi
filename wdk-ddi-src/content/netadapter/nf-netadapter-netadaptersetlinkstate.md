@@ -39,8 +39,6 @@ apilocation:
 apiname: 
 - NetAdapterSetLinkState
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetAdapterSetLinkState function

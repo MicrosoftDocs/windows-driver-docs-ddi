@@ -37,8 +37,6 @@ api_location:
 - Bidispl.h
 api_name:
 - IBidiSpl2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - Ks.h
 api_name:
 - KSSTREAM_POINTER_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: KSSTREAM_POINTER_STATE
 ---

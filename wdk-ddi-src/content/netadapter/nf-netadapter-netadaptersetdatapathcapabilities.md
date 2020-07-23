@@ -39,8 +39,6 @@ api_location:
 api_name: 
 - NetAdapterSetDataPathCapabilities
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetAdapterSetDataPathCapabilities function

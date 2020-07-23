@@ -31,8 +31,6 @@ apilocation:
 - netreceivescaling.h
 apiname: 
 - _NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRY
-product:
-- Windows
 targetos: Windows
 ---
 

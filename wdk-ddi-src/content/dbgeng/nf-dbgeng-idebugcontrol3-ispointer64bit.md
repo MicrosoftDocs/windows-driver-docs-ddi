@@ -39,8 +39,6 @@ api_name:
 - IDebugControl.IsPointer64Bit
 - IDebugControl2.IsPointer64Bit
 - IDebugControl3.IsPointer64Bit
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

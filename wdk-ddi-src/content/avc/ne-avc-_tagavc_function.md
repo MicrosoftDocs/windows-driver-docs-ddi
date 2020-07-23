@@ -37,8 +37,6 @@ api_location:
 - avc.h
 api_name:
 - AVC_FUNCTION
-product:
-- Windows
 targetos: Windows
 req.typenames: AVC_FUNCTION
 ---

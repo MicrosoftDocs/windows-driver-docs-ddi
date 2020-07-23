@@ -37,8 +37,6 @@ api_location:
 - avcstrm.h
 api_name:
 - KS_DATAFORMAT_DV_AVC
-product:
-- Windows
 targetos: Windows
 req.typenames: KS_DATAFORMAT_DV_AVC, *PKS_DATAFORMAT_DV_AVC
 ---

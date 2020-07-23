@@ -37,8 +37,6 @@ api_location:
 - ntdddisk.h
 api_name:
 - FORMAT_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: FORMAT_PARAMETERS, *PFORMAT_PARAMETERS
 ---

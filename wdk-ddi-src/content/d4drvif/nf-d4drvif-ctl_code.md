@@ -34,8 +34,6 @@ api_location:
 - d4drvif.h
 api_name: 
 - CTL_CODE
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

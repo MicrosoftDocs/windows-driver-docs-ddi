@@ -39,8 +39,6 @@ api_name:
 - IDebugControl.GetRadix
 - IDebugControl2.GetRadix
 - IDebugControl3.GetRadix
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

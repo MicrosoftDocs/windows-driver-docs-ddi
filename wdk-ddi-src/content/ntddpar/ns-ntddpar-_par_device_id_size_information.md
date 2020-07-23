@@ -37,8 +37,6 @@ api_location:
 - ntddpar.h
 api_name:
 - PAR_DEVICE_ID_SIZE_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: PAR_DEVICE_ID_SIZE_INFORMATION, *PPAR_DEVICE_ID_SIZE_INFORMATION
 ---

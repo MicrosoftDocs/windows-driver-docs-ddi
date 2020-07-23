@@ -37,8 +37,6 @@ api_location:
 - ndisndk.h
 api_name:
 - NDIS_OPEN_NDK_ADAPTER_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_OPEN_NDK_ADAPTER_PARAMETERS, *PNDIS_OPEN_NDK_ADAPTER_PARAMETERS
 ---

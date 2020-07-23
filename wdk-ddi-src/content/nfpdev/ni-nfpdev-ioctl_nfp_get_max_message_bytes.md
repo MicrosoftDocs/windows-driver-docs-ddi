@@ -37,8 +37,6 @@ api_location:
 - nfpdev.h
 api_name:
 - IOCTL_NFP_GET_MAX_MESSAGE_BYTES
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

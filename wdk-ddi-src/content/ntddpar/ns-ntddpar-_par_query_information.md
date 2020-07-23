@@ -37,8 +37,6 @@ api_location:
 - ntddpar.h
 api_name:
 - PAR_QUERY_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: PAR_QUERY_INFORMATION, *PPAR_QUERY_INFORMATION
 ---

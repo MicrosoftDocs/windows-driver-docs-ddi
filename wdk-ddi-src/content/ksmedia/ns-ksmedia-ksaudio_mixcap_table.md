@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KSAUDIO_MIXCAP_TABLE
-product:
-- Windows
 targetos: Windows
 req.typenames: KSAUDIO_MIXCAP_TABLE, *PKSAUDIO_MIXCAP_TABLE
 ---

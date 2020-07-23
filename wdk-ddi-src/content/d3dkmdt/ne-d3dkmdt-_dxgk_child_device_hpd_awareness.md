@@ -37,8 +37,6 @@ api_location:
 - d3dkmdt.h
 api_name:
 - DXGK_CHILD_DEVICE_HPD_AWARENESS
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGK_CHILD_DEVICE_HPD_AWARENESS, *PDXGK_CHILD_DEVICE_HPD_AWARENESS
 ---

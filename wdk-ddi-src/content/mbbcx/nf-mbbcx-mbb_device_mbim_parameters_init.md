@@ -35,8 +35,6 @@ api_location:
 - mbbcxstub.lib
 api_name: 
 - MBB_DEVICE_MBIM_PARAMETERS_INIT
-product:
-- Windows
 targetos: Windows
 ms.custom: 19H1
 ---

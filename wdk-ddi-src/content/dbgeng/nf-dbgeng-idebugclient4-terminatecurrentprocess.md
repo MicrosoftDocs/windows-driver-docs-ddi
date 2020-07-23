@@ -40,8 +40,6 @@ api_name:
 - IDebugClient3.TerminateCurrentProcess
 - IDebugClient4.TerminateCurrentProcess
 - IDebugClient5.TerminateCurrentProcess
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

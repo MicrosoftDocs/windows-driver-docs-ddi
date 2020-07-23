@@ -37,8 +37,6 @@ api_location:
 - Dispmprt.h
 api_name:
 - DXGK_MIRACAST_DISPLAY_CALLBACKS
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGK_MIRACAST_DISPLAY_CALLBACKS, *PDXGK_MIRACAST_DISPLAY_CALLBACKS
 ---

@@ -37,8 +37,6 @@ api_location:
 - bdamedia.h
 api_name:
 - KSP_BDA_NODE_PIN
-product:
-- Windows
 targetos: Windows
 req.typenames: KSP_BDA_NODE_PIN, *PKSP_BDA_NODE_PIN
 ---

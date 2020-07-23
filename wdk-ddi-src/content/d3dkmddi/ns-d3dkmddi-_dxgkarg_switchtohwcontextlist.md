@@ -30,8 +30,6 @@ api_location:
 - d3dkmddi.h
 api_name: 
 - _DXGKARG_SWITCHTOHWCONTEXTLIST
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

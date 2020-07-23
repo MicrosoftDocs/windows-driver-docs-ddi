@@ -38,8 +38,6 @@ api_location:
 - Mcd.dll
 api_name:
 - ChangerClassAllocatePool
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

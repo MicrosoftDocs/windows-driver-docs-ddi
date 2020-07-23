@@ -37,8 +37,6 @@ api_location:
 - mpiowmi.h
 api_name:
 - ClearMpioDiskHealthCounters_IN
-product:
-- Windows
 targetos: Windows
 req.typenames: ClearMpioDiskHealthCounters_IN, *PClearMpioDiskHealthCounters_IN
 ---

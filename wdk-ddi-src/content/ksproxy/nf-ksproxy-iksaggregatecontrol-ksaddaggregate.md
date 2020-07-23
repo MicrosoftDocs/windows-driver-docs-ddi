@@ -37,8 +37,6 @@ api_location:
 - ksproxy.h
 api_name:
 - IKsAggregateControl.KsAddAggregate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

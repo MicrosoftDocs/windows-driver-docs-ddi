@@ -37,8 +37,6 @@ api_location:
 - ntddndis.h
 api_name:
 - NDIS_PM_COUNTED_STRING
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_PM_COUNTED_STRING, *PNDIS_PM_COUNTED_STRING
 ---

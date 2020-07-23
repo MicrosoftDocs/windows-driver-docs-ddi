@@ -37,8 +37,6 @@ api_location:
 - fltkernel.h
 api_name:
 - TransactionNotificationCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

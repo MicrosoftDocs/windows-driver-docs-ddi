@@ -33,8 +33,6 @@ api_location:
  - dispmprt.h
 api_name: 
  - DXGKARG_COLLECTDIAGNOSTICINFO
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

@@ -37,8 +37,6 @@ api_location:
 - 1394.h
 api_name:
 - BUS_RESET_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: BUS_RESET_DATA, *PBUS_RESET_DATA
 ---

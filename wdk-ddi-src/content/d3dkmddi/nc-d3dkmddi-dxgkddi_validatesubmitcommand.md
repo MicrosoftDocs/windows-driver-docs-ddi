@@ -33,8 +33,6 @@ api_location:
 - d3dkmddi.h
 api_name: 
 - DXGKDDI_VALIDATESUBMITCOMMAND
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

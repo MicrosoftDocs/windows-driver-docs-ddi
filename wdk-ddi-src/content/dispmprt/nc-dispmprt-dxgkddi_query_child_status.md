@@ -37,8 +37,6 @@ api_location:
 - dispmprt.h
 api_name:
 - DxgkDdiQueryChildStatus
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

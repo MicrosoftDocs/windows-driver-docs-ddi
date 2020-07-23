@@ -33,8 +33,6 @@ api_location:
 - dispmprt.h
 api_name: 
 - DXGKDDI_GETBACKINGRESOURCE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

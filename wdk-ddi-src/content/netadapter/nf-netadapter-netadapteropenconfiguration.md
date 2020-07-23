@@ -39,8 +39,6 @@ api_location:
 api_name: 
 - NetAdapterOpenConfiguration
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetAdapterOpenConfiguration function

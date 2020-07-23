@@ -37,8 +37,6 @@ api_location:
 - Ntddscsi.h
 api_name:
 - IOCTL_ATA_PASS_THROUGH_DIRECT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

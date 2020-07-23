@@ -41,8 +41,6 @@ api_name:
 - IDebugClient3.DetachProcesses
 - IDebugClient4.DetachProcesses
 - IDebugClient5.DetachProcesses
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - d3dhal.h
 api_name:
 - DD_GETD3DQUERYDATA
-product:
-- Windows
 targetos: Windows
 req.typenames: DD_GETD3DQUERYDATA
 ---

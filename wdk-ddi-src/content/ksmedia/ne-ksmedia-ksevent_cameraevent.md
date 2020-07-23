@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KSEVENT_CAMERAEVENT
-product:
-- Windows
 targetos: Windows
 req.typenames: KSEVENT_CAMERAEVENT
 ---

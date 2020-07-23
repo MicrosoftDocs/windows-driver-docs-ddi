@@ -37,8 +37,6 @@ api_location:
 - ndis.sys
 api_name:
 - NdisAllocateNetBufferListPool
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

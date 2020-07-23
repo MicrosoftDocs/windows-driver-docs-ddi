@@ -37,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltGetLowerInstance
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KSEVENTS_LOCKTYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: KSEVENTS_LOCKTYPE
 ---

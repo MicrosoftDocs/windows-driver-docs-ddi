@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IPartFont2
 - IPartFont2.GetFontRestriction
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

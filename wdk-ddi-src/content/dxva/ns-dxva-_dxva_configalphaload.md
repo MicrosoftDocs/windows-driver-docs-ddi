@@ -37,8 +37,6 @@ api_location:
 - dxva.h
 api_name:
 - DXVA_ConfigAlphaLoad
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVA_ConfigAlphaLoad, *LPDXVA_ConfigAlphaLoad
 ---

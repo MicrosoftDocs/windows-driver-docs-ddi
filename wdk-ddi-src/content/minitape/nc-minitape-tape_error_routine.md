@@ -37,8 +37,6 @@ api_location:
 - minitape.h
 api_name:
 - (*TAPE_ERROR_ROUTINE)
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

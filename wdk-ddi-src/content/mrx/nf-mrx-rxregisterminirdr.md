@@ -37,8 +37,6 @@ api_location:
 - mrx.h
 api_name:
 - RxRegisterMinirdr
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

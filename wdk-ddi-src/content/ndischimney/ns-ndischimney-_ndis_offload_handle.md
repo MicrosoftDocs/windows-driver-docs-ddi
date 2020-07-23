@@ -37,8 +37,6 @@ api_location:
 - ndischimney.h
 api_name:
 - NDIS_OFFLOAD_HANDLE
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_OFFLOAD_HANDLE, *PNDIS_OFFLOAD_HANDLE
 ---

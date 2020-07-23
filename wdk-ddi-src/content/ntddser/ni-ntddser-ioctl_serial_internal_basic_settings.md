@@ -37,8 +37,6 @@ api_location:
 - ntddser.h
 api_name:
 - IOCTL_SERIAL_INTERNAL_BASIC_SETTINGS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KSCORRELATED_TIME
-product:
-- Windows
 targetos: Windows
 req.typenames: KSCORRELATED_TIME, *PKSCORRELATED_TIME
 ---

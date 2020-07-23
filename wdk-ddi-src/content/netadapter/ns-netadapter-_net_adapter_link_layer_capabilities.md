@@ -34,8 +34,6 @@ api_location:
 api_name: 
 - NET_ADAPTER_LINK_LAYER_CAPABILITIES
 targetos: Windows
-product:
-- Windows
 ---
 
 # _NET_ADAPTER_LINK_LAYER_CAPABILITIES structure

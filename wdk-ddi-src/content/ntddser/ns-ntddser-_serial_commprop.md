@@ -37,8 +37,6 @@ api_location:
 - Ntddser.h
 api_name:
 - SERIAL_COMMPROP
-product:
-- Windows
 targetos: Windows
 req.typenames: SERIAL_COMMPROP, *PSERIAL_COMMPROP
 ---

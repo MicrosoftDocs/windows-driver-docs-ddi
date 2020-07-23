@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - DDPIXELFORMAT
-product:
-- Windows
 targetos: Windows
 req.typenames: DDPIXELFORMAT, *LPDDPIXELFORMAT
 ---

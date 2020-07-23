@@ -37,8 +37,6 @@ api_location:
 - storport.h
 api_name:
 - PRI_REGISTRATION_LIST
-product:
-- Windows
 targetos: Windows
 req.typenames: PRI_REGISTRATION_LIST, *PPRI_REGISTRATION_LIST
 ---

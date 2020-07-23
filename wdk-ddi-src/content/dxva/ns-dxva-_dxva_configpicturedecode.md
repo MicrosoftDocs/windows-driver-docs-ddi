@@ -37,8 +37,6 @@ api_location:
 - dxva.h
 api_name:
 - DXVA_ConfigPictureDecode
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVA_ConfigPictureDecode, *LPDXVA_ConfigPictureDecode
 ---

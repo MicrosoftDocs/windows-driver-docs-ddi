@@ -34,8 +34,6 @@ api_location:
 - netpacketqueue.h
 api_name: 
 - EVT_PACKET_QUEUE_CANCEL
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

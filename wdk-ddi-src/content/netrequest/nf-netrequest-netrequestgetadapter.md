@@ -35,8 +35,6 @@ api_location:
 - NtosKrnl.exe
 api_name: 
 - NetRequestGetAdapter
-product:
-- Windows
 targetos: Windows
 
 ---

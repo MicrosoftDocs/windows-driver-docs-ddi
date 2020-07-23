@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KSWAVE_OUTPUT_CAPABILITIES
-product:
-- Windows
 targetos: Windows
 req.typenames: KSWAVE_OUTPUT_CAPABILITIES, *PKSWAVE_OUTPUT_CAPABILITIES
 ---

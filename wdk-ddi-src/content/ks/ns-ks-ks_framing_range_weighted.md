@@ -37,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KS_FRAMING_RANGE_WEIGHTED
-product:
-- Windows
 targetos: Windows
 req.typenames: KS_FRAMING_RANGE_WEIGHTED, *PKS_FRAMING_RANGE_WEIGHTED
 ---

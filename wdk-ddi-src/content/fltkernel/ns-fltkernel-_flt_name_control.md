@@ -37,8 +37,6 @@ api_location:
 - fltkernel.h
 api_name:
 - FLT_NAME_CONTROL
-product:
-- Windows
 targetos: Windows
 req.typenames: FLT_NAME_CONTROL, *PFLT_NAME_CONTROL
 ---

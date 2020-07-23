@@ -27,8 +27,6 @@ api_location:
 - d3dkmthk.h
 api_name: 
 - _OUTPUTDUPL_CONTEXT_DEBUG_STATUS
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

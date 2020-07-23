@@ -30,8 +30,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - _DXGK_SCHEDULING_LOG_CONTEXT_STATE_CHANGE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IDebugClient4.GetDumpFile
 - IDebugClient5.GetDumpFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

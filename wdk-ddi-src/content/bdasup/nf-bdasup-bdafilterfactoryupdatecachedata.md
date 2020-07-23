@@ -38,8 +38,6 @@ api_location:
 - Bdasup.dll
 api_name:
 - BdaFilterFactoryUpdateCacheData
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

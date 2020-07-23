@@ -35,8 +35,6 @@ api_location:
 - netadaptercxstub.lib
 api_name: 
 - NetAdapterStart
-product:
-- Windows
 targetos: Windows
 
 ---

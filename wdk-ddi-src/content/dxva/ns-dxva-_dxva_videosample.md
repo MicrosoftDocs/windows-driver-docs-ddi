@@ -37,8 +37,6 @@ api_location:
 - dxva.h
 api_name:
 - DXVA_VideoSample
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVA_VideoSample, *LPDXVA_VideoSample
 ---

@@ -27,8 +27,6 @@ api_location:
 - acpitabl.h
 api_name: 
 - _NFIT_STRUCTURE_TYPE
-product:
-- Windows
 targetos: Windows
 ---
 

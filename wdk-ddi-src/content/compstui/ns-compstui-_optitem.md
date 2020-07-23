@@ -37,8 +37,6 @@ api_location:
 - compstui.h
 api_name:
 - OPTITEM
-product:
-- Windows
 targetos: Windows
 req.typenames: OPTITEM, *POPTITEM
 ---

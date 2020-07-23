@@ -36,8 +36,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltPropagateIrpExtension
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

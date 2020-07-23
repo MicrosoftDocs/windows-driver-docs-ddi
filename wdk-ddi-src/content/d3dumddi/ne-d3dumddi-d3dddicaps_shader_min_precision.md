@@ -37,8 +37,6 @@ api_location:
 - D3dumddi.h
 api_name:
 - D3DDDICAPS_SHADER_MIN_PRECISION
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDICAPS_SHADER_MIN_PRECISION
 ---

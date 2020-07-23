@@ -36,8 +36,6 @@ api_location:
 - D3dkmthk.h
 api_name:
 - D3DKMT_COMPOSITION_PRESENTHISTORYTOKEN
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_COMPOSITION_PRESENTHISTORYTOKEN

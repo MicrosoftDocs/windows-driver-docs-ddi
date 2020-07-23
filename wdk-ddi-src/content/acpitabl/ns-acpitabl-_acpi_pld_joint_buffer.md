@@ -30,8 +30,6 @@ api_location:
 - acpitabl.h
 api_name: 
 - _ACPI_PLD_JOINT_BUFFER
-product:
-- Windows
 targetos: Windows
 ---
 

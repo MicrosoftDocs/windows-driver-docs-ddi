@@ -37,8 +37,6 @@ api_location:
 - Ntddser.h
 api_name:
 - IOCTL_SERIAL_CLR_RTS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

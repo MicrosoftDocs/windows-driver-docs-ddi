@@ -37,8 +37,6 @@ api_location:
 - Ntddndis.h
 api_name:
 - NDIS_LINK_SPEED
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_LINK_SPEED, *PNDIS_LINK_SPEED
 ---

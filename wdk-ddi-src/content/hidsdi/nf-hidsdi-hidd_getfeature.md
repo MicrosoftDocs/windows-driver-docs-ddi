@@ -37,8 +37,6 @@ api_location:
 - Hid.dll
 api_name:
 - HidD_GetFeature
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

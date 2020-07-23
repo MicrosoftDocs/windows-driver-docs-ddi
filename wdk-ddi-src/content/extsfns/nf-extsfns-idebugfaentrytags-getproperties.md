@@ -37,8 +37,6 @@ api_location:
 - extsfns.h
 api_name:
 - IDebugFAEntryTags.GetProperties
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

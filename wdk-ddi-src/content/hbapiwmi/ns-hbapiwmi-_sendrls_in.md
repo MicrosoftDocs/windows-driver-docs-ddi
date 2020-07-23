@@ -37,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - SendRLS_IN
-product:
-- Windows
 targetos: Windows
 req.typenames: SendRLS_IN, *PSendRLS_IN
 ---

@@ -34,8 +34,6 @@ api_location:
 api_name: 
 - PFND3DKMT_PINDIRECTFLIPRESOURCES
 - D3DKMTPinDirectFlipResources
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

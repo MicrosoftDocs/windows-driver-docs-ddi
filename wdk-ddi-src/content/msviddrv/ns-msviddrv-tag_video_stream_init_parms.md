@@ -37,8 +37,6 @@ api_location:
 - Msviddrv.h
 api_name:
 - VIDEO_STREAM_INIT_PARMS
-product:
-- Windows
 targetos: Windows
 req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---

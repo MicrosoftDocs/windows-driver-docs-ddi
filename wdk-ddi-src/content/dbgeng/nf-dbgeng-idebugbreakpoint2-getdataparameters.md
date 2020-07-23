@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IDebugBreakpoint.GetDataParameters
 - IDebugBreakpoint2.GetDataParameters
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

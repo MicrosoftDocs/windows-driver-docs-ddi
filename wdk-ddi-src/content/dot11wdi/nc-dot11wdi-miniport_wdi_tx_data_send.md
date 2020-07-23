@@ -37,8 +37,6 @@ api_location:
 - dot11wdi.h
 api_name:
 - MiniportWdiTxDataSend
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

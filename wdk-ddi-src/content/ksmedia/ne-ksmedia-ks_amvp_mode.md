@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KS_AMVP_MODE
-product:
-- Windows
 targetos: Windows
 req.typenames: KS_AMVP_MODE
 ---

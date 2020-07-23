@@ -37,8 +37,6 @@ api_location:
 - Ntdddisk.h
 api_name:
 - IOCTL_DISK_SET_DRIVE_LAYOUT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

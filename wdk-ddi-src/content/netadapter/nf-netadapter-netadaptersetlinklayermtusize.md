@@ -39,8 +39,6 @@ api_location:
 api_name: 
 - NetAdapterSetLinkLayerMtuSize
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetAdapterSetLinkLayerMtuSize function

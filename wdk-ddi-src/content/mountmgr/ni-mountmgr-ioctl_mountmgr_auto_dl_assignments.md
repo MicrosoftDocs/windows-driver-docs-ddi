@@ -37,8 +37,6 @@ api_location:
 - Mountmgr.h
 api_name:
 - IOCTL_MOUNTMGR_AUTO_DL_ASSIGNMENTS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

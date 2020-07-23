@@ -37,8 +37,6 @@ api_location:
 - Dispmprt.h
 api_name:
 - DxgkCbMiracastSendMessage
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

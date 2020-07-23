@@ -37,8 +37,6 @@ api_location:
 - ntddcdvd.h
 api_name:
 - DVD_MANUFACTURER_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: DVD_MANUFACTURER_DESCRIPTOR, *PDVD_MANUFACTURER_DESCRIPTOR
 ---

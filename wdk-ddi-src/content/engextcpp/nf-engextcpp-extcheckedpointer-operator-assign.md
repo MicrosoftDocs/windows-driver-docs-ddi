@@ -37,8 +37,6 @@ api_location:
 - arrayofelements.hpp
 api_name:
 - ExtRemoteTyped.operator=
-product:
-- Windows
 targetos: Windows
 req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---

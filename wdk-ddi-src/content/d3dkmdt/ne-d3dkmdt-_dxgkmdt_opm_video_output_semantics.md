@@ -37,8 +37,6 @@ api_location:
 - d3dkmdt.h
 api_name:
 - DXGKMDT_OPM_VIDEO_OUTPUT_SEMANTICS
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGKMDT_OPM_VIDEO_OUTPUT_SEMANTICS
 ---

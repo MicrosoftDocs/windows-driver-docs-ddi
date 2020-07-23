@@ -37,8 +37,6 @@ api_location:
 - ksproxy.h
 api_name:
 - PIPE_TERMINATION
-product:
-- Windows
 targetos: Windows
 req.typenames: PIPE_TERMINATION
 ---

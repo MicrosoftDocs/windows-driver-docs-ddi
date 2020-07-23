@@ -37,8 +37,6 @@ api_location:
 - mpiodisk.h
 api_name:
 - PDOSCSI_ADDR
-product:
-- Windows
 targetos: Windows
 req.typenames: PDOSCSI_ADDR, *PPDOSCSI_ADDR
 ---

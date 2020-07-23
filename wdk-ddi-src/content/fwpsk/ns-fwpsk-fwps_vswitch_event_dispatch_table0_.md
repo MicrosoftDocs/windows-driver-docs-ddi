@@ -37,8 +37,6 @@ api_location:
 - fwpsk.h
 api_name:
 - FWPS_VSWITCH_EVENT_DISPATCH_TABLE0
-product:
-- Windows
 targetos: Windows
 req.typenames: FWPS_VSWITCH_EVENT_DISPATCH_TABLE0
 ---

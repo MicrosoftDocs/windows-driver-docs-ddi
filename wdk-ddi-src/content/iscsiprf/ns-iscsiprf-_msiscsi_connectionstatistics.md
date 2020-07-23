@@ -37,8 +37,6 @@ api_location:
 - iscsiprf.h
 api_name:
 - MSiSCSI_ConnectionStatistics
-product:
-- Windows
 targetos: Windows
 req.typenames: MSiSCSI_ConnectionStatistics, *PMSiSCSI_ConnectionStatistics
 ---

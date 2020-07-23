@@ -34,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IModelKeyReference2.SetKey
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

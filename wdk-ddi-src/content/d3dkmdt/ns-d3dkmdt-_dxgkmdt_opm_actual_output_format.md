@@ -37,8 +37,6 @@ api_location:
 - d3dkmdt.h
 api_name:
 - DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT
 ---

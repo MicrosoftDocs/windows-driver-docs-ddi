@@ -37,8 +37,6 @@ api_location:
 - Ntddk.h
 api_name:
 - InjectError
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

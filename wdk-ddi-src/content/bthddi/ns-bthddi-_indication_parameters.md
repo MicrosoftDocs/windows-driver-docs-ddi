@@ -37,8 +37,6 @@ api_location:
 - bthddi.h
 api_name:
 - INDICATION_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: "*PINDICATION_PARAMETERS, INDICATION_PARAMETERS"
 ---

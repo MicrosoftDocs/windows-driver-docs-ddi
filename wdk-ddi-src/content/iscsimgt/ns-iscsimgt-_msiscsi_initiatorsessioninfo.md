@@ -37,8 +37,6 @@ api_location:
 - iscsimgt.h
 api_name:
 - MSiSCSI_InitiatorSessionInfo
-product:
-- Windows
 targetos: Windows
 req.typenames: MSiSCSI_InitiatorSessionInfo, *PMSiSCSI_InitiatorSessionInfo
 ---

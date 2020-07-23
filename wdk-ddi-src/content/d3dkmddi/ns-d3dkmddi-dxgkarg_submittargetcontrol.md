@@ -33,8 +33,6 @@ api_location:
  - d3dkmddi.h
 api_name: 
  - DXGKARG_SUBMITTARGETCONTROL
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

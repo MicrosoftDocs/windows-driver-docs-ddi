@@ -37,8 +37,6 @@ api_location:
 - 61883.h
 api_name:
 - BusResetRoutine
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

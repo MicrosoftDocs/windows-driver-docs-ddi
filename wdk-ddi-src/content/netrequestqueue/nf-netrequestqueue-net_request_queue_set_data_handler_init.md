@@ -38,8 +38,6 @@ api_location:
 api_name: 
 - NET_REQUEST_QUEUE_SET_DATA_HANDLER_INIT
 targetos: Windows
-product:
-- Windows
 ---
 
 # NET_REQUEST_QUEUE_SET_DATA_HANDLER_INIT function

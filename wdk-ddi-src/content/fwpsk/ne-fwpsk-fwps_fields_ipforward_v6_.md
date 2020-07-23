@@ -37,8 +37,6 @@ api_location:
 - fwpsk.h
 api_name:
 - FWPS_FIELDS_IPFORWARD_V6
-product:
-- Windows
 targetos: Windows
 req.typenames: FWPS_FIELDS_IPFORWARD_V6
 ---

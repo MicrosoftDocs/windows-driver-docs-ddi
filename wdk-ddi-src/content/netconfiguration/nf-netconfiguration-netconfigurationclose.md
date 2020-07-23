@@ -38,8 +38,6 @@ api_location:
 api_name: 
 - NetConfigurationClose
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetConfigurationClose function

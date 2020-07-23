@@ -37,8 +37,6 @@ api_location:
 - ntddndis.h
 api_name:
 - NDIS_OBJECT_HEADER
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_OBJECT_HEADER, *PNDIS_OBJECT_HEADER
 ---

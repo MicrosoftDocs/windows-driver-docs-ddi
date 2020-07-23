@@ -35,8 +35,6 @@ api_location:
 - netadaptercxstub.lib
 api_name: 
 - NetAdapterInitAllocate
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

@@ -37,8 +37,6 @@ api_location:
 - ntddpcm.h
 api_name:
 - PCMCIA_CONTROLLER_CLASS
-product:
-- Windows
 targetos: Windows
 req.typenames: PCMCIA_CONTROLLER_CLASS, *PPCMCIA_CONTROLLER_CLASS
 ---

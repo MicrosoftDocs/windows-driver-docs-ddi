@@ -37,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - KINTERRUPT_MODE
-product:
-- Windows
 targetos: Windows
 req.typenames: KINTERRUPT_MODE
 ---

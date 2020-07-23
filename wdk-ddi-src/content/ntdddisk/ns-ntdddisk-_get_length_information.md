@@ -37,8 +37,6 @@ api_location:
 - ntdddisk.h
 api_name:
 - GET_LENGTH_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: GET_LENGTH_INFORMATION, *PGET_LENGTH_INFORMATION
 ---

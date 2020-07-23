@@ -37,8 +37,6 @@ api_location:
 - dxgiddi.h
 api_name:
 - DXGI_DDI_MODE_SCANLINE_ORDER
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGI_DDI_MODE_SCANLINE_ORDER
 ---

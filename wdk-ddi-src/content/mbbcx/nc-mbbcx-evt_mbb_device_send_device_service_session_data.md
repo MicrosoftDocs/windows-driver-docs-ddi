@@ -34,8 +34,6 @@ api_location:
 - mbbcx.h
 api_name: 
 - EVT_MBB_DEVICE_SEND_DEVICE_SERVICE_SESSION_DATA
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

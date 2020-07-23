@@ -36,8 +36,6 @@ api_location:
 - D3d12umddi.h
 api_name:
 - pfnGetDecodeProfileCount
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

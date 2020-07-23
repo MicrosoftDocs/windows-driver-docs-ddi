@@ -37,8 +37,6 @@ api_location:
 - ntddstor.h
 api_name:
 - STORAGE_PREDICT_FAILURE
-product:
-- Windows
 targetos: Windows
 req.typenames: STORAGE_PREDICT_FAILURE, *PSTORAGE_PREDICT_FAILURE
 ---

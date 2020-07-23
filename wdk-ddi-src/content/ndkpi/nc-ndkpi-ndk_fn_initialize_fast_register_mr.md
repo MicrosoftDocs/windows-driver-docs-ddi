@@ -37,8 +37,6 @@ api_location:
 - ndkpi.h
 api_name:
 - NdkInitializeFastRegisterMr
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -27,8 +27,6 @@ api_location:
 - d3dkmthk.h
 api_name: 
 - _DXGKMT_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

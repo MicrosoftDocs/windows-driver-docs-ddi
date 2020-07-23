@@ -30,8 +30,6 @@ api_location:
 - d3dkmthk.h
 api_name: 
 - _D3DKMT_ADAPTER_VERIFIER_VIDMM_TRIM_INTERVAL
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

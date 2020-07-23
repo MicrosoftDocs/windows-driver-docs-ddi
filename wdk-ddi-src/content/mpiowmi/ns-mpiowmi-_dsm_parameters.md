@@ -37,8 +37,6 @@ api_location:
 - mpiowmi.h
 api_name:
 - DSM_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: DSM_PARAMETERS, *PDSM_PARAMETERS
 ---

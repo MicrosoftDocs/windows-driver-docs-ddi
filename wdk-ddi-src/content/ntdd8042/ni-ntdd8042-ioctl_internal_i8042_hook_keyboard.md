@@ -37,8 +37,6 @@ api_location:
 - ntdd8042.h
 api_name:
 - IOCTL_INTERNAL_I8042_HOOK_KEYBOARD
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

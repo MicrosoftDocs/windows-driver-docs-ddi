@@ -37,8 +37,6 @@ api_location:
 - Charging.h
 api_name:
 - BATTERY_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: CAD_POWER_SOURCE_INFO, *PCAD_POWER_SOURCE_INFO
 ---

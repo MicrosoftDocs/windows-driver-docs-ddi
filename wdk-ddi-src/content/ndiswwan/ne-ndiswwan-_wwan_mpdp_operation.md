@@ -28,8 +28,6 @@ api_location:
 - ndiswwan.h
 api_name: 
 - _WWAN_MPDP_OPERATION
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

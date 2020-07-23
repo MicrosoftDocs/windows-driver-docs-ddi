@@ -37,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugOutputCallbacks2.Output2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - compstui.h
 api_name:
 - OPTTYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: OPTTYPE, *POPTTYPE
 ---

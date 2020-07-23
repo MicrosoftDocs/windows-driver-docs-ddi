@@ -37,8 +37,6 @@ api_location:
 - ntddpcm.h
 api_name:
 - IOCTL_GET_TUPLE_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

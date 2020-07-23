@@ -37,8 +37,6 @@ api_location:
 - dxva.h
 api_name:
 - DXVA_EncryptProtocolHeader
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVA_EncryptProtocolHeader, *LPDXVA_EncryptProtocolHeader
 ---

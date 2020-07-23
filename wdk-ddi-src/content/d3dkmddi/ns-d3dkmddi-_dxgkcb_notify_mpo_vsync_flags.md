@@ -36,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGKCB_NOTIFY_MPO_VSYNC_FLAGS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGKCB_NOTIFY_MPO_VSYNC_FLAGS

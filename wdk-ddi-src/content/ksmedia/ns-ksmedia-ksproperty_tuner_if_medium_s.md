@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KSPROPERTY_TUNER_IF_MEDIUM_S
-product:
-- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_TUNER_IF_MEDIUM_S, *PKSPROPERTY_TUNER_IF_MEDIUM_S
 ---

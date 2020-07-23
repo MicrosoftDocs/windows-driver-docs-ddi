@@ -37,8 +37,6 @@ api_location:
 - bthhfpddi.h
 api_name:
 - BTHHFP_AUDIO_DEVICE_CAPABILTIES
-product:
-- Windows
 targetos: Windows
 req.typenames: BTHHFP_AUDIO_DEVICE_CAPABILTIES, *PBTHHFP_AUDIO_DEVICE_CAPABILTIES
 ---

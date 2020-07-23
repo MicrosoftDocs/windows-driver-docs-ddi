@@ -27,8 +27,6 @@ api_location:
 - d3dkmthk.h
 api_name: 
 - _D3DKMT_ESCAPE_PFN_CONTROL_COMMAND
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

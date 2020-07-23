@@ -37,8 +37,6 @@ api_location:
 - Ks.h
 api_name:
 - KSE_PIN
-product:
-- Windows
 targetos: Windows
 req.typenames: KSE_PIN, *PKSE_PIN
 ---

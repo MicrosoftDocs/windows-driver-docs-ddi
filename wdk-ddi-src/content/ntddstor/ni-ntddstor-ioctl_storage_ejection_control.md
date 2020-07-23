@@ -37,8 +37,6 @@ api_location:
 - Ntddstor.h
 api_name:
 - IOCTL_STORAGE_EJECTION_CONTROL
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

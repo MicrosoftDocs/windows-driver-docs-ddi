@@ -38,8 +38,6 @@ api_location:
 - Ksmedia.h
 api_name:
 - KSPROPERTY_CAMERACONTROL_EXTENDED_PROPERTY
-product:
-- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_CAMERACONTROL_EXTENDED_PROPERTY
 ---

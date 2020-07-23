@@ -37,8 +37,6 @@ api_location:
 - Bthhfpddi.h
 api_name:
 - BTHHFP_DESCRIPTOR2
-product:
-- Windows
 targetos: Windows
 req.typenames: BTHHFP_DESCRIPTOR2, *PBTHHFP_DESCRIPTOR2
 ---

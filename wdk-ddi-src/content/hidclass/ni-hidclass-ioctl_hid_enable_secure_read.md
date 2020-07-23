@@ -37,8 +37,6 @@ api_location:
 - hidclass.h
 api_name:
 - IOCTL_HID_ENABLE_SECURE_READ
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

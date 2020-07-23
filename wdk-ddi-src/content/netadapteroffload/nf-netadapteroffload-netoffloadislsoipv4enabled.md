@@ -37,8 +37,6 @@ api_location:
 - netadaptercxstub.lib
 api_name: 
 - NetOffloadIsLsoIPv4Enabled
-product:
-- Windows
 targetos: Windows
 ---
 

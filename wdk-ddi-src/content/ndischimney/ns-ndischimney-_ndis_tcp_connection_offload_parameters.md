@@ -37,8 +37,6 @@ api_location:
 - ndischimney.h
 api_name:
 - NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, *PNDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS
 ---

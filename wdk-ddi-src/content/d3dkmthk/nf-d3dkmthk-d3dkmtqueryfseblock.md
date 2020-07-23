@@ -34,8 +34,6 @@ api_location:
 - Gdi32.dll
 api_name: 
 - D3DKMTQueryFSEBlock
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

@@ -37,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILCALLMEDIAOFFERANSWERTYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: RILCALLMEDIAOFFERANSWERTYPE
 ---

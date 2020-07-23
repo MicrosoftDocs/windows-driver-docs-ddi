@@ -37,8 +37,6 @@ api_location:
 - KNetPwrDepBroker.h
 api_name:
 - NpdBrokerUninitialize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

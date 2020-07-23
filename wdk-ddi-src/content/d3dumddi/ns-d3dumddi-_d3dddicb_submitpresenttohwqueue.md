@@ -30,8 +30,6 @@ api_location:
 - d3dumddi.h
 api_name: 
 - _D3DDDICB_SUBMITPRESENTTOHWQUEUE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

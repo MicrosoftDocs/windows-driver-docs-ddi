@@ -40,8 +40,6 @@ api_name:
 - IDebugDataSpaces2.WriteMsr
 - IDebugDataSpaces3.WriteMsr
 - IDebugDataSpaces4.WriteMsr
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

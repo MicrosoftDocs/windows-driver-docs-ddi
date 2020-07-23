@@ -37,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - DrawIndexedPrimitive2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

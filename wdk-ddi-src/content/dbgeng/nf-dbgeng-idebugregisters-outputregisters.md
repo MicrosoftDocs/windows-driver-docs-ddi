@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IDebugRegisters.OutputRegisters
 - IDebugRegisters2.OutputRegisters
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

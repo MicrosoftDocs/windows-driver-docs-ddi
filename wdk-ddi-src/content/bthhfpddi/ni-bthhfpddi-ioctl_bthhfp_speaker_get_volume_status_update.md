@@ -37,8 +37,6 @@ api_location:
 - Bthhfpddi.h
 api_name:
 - IOCTL_BTHHFP_SPEAKER_GET_VOLUME_STATUS_UPDATE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

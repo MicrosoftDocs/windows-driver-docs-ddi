@@ -37,8 +37,6 @@ api_location:
 - 1394.h
 api_name:
 - IRB_REQ_SET_LOCAL_HOST_PROPERTIES
-product:
-- Windows
 targetos: Windows
 req.typenames: IRB_REQ_SET_LOCAL_HOST_PROPERTIES
 ---

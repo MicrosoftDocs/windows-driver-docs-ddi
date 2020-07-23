@@ -37,8 +37,6 @@ api_location:
 - compstui.h
 api_name:
 - DLGPAGE
-product:
-- Windows
 targetos: Windows
 req.typenames: DLGPAGE, *PDLGPAGE
 ---

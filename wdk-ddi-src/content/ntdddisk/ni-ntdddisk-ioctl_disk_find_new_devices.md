@@ -37,8 +37,6 @@ api_location:
 - ntdddisk.h
 api_name:
 - IOCTL_DISK_FIND_NEW_DEVICES
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

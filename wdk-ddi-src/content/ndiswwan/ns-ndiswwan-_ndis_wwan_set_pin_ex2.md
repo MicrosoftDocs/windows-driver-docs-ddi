@@ -31,8 +31,6 @@ api_location:
 - ndiswwan.h
 api_name: 
 - _NDIS_WWAN_SET_PIN_EX2
-product:
-- Windows
 targetos: Windows
 ms.custom: 19H1
 ---

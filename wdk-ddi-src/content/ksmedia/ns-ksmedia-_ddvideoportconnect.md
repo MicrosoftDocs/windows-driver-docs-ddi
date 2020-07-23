@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - DDVIDEOPORTCONNECT
-product:
-- Windows
 targetos: Windows
 req.typenames: DDVIDEOPORTCONNECT, *LPDDVIDEOPORTCONNECT
 ---

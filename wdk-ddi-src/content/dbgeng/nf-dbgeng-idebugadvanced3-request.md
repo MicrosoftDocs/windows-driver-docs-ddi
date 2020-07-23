@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IDebugAdvanced2.Request
 - IDebugAdvanced3.Request
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

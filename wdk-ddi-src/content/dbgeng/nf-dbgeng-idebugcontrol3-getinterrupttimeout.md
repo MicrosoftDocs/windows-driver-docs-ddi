@@ -39,8 +39,6 @@ api_name:
 - IDebugControl.GetInterruptTimeout
 - IDebugControl2.GetInterruptTimeout
 - IDebugControl3.GetInterruptTimeout
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

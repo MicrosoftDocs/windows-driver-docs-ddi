@@ -37,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - SM_AddPort_OUT
-product:
-- Windows
 targetos: Windows
 req.typenames: SM_AddPort_OUT, *PSM_AddPort_OUT
 ---

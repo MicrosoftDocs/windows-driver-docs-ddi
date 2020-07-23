@@ -37,8 +37,6 @@ api_location:
 - 61883.h
 api_name:
 - CIP_NOTIFY_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: CIP_NOTIFY_INFO, *PCIP_NOTIFY_INFO
 ---

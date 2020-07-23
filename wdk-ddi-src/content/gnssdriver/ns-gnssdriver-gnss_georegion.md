@@ -37,8 +37,6 @@ api_location:
 - gnssdriver.h
 api_name:
 - GNSS_GEOREGION
-product:
-- Windows
 targetos: Windows
 req.typenames: GNSS_GEOREGION, *PGNSS_GEOREGION
 ---

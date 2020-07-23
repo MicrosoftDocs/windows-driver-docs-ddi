@@ -39,8 +39,6 @@ api_location:
 api_name: 
 - NetAdapterSetCurrentLinkLayerAddress
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetAdapterSetCurrentLinkLayerAddress function

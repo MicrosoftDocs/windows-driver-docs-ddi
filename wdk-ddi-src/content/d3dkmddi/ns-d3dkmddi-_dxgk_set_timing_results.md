@@ -36,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGK_SET_TIMING_RESULTS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_SET_TIMING_RESULTS, *PDXGK_SET_TIMING_RESULTS

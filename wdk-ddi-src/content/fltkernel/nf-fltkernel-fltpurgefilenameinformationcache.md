@@ -37,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltPurgeFileNameInformationCache
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

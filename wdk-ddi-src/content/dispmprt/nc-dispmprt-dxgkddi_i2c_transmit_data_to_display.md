@@ -37,8 +37,6 @@ api_location:
 - dispmprt.h
 api_name:
 - DxgkDdiI2CTransmitDataToDisplay
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

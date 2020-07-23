@@ -41,8 +41,6 @@ api_name:
 - IDebugClient3.CreateProcess
 - IDebugClient4.CreateProcess
 - IDebugClient5.CreateProcess
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

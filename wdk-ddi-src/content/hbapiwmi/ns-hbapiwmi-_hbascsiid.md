@@ -37,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - HBAScsiID
-product:
-- Windows
 targetos: Windows
 req.typenames: HBAScsiID, *PHBAScsiID
 ---

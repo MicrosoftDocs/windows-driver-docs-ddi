@@ -37,8 +37,6 @@ api_location:
 - mpiowmi.h
 api_name:
 - MPIO_EventEntry
-product:
-- Windows
 targetos: Windows
 req.typenames: MPIO_EventEntry, *PMPIO_EventEntry
 ---

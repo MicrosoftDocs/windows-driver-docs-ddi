@@ -37,8 +37,6 @@ api_location:
 - EhStorIoctl.h
 api_name:
 - PDO_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: PDO_TYPE
 ---

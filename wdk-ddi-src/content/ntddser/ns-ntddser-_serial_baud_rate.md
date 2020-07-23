@@ -37,8 +37,6 @@ api_location:
 - Ntddser.h
 api_name:
 - SERIAL_BAUD_RATE
-product:
-- Windows
 targetos: Windows
 req.typenames: SERIAL_BAUD_RATE, *PSERIAL_BAUD_RATE
 ---

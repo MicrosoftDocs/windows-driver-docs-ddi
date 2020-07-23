@@ -37,8 +37,6 @@ api_location:
 - dxva.h
 api_name:
 - DXVA_VideoTransferFunction
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVA_VideoTransferFunction
 ---

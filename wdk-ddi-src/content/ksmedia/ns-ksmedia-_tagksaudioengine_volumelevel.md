@@ -37,8 +37,6 @@ api_location:
 - Ksmedia.h
 api_name:
 - KSAUDIOENGINE_VOLUMELEVEL
-product:
-- Windows
 targetos: Windows
 req.typenames: KSAUDIOENGINE_VOLUMELEVEL, *PKSAUDIOENGINE_VOLUMELEVEL
 ---

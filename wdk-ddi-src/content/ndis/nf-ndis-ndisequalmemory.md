@@ -37,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NdisEqualMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

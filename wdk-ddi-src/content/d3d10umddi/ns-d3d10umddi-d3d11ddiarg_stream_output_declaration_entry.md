@@ -36,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - D3D11DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D11DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY

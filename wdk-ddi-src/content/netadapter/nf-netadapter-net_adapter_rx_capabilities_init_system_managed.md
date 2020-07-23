@@ -35,8 +35,6 @@ api_location:
 - NtosKrnl.exe
 api_name: 
 - NET_ADAPTER_RX_CAPABILITIES_INIT_SYSTEM_MANAGED
-product:
-- Windows
 targetos: Windows
 
 ---

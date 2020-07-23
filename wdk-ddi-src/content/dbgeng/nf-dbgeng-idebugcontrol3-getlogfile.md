@@ -39,8 +39,6 @@ api_name:
 - IDebugControl.GetLogFile
 - IDebugControl2.GetLogFile
 - IDebugControl3.GetLogFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

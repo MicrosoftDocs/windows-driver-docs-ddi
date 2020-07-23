@@ -37,8 +37,6 @@ api_location:
 - ntddtape.h
 api_name:
 - TAPE_SET_POSITION
-product:
-- Windows
 targetos: Windows
 req.typenames: TAPE_SET_POSITION, *PTAPE_SET_POSITION
 ---

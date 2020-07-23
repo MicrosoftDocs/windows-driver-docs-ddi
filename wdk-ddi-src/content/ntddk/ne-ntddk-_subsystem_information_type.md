@@ -37,8 +37,6 @@ api_location:
 - Ntddk.h
 api_name:
 - SUBSYSTEM_INFORMATION_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: SUBSYSTEM_INFORMATION_TYPE, *PSUBSYSTEM_INFORMATION_TYPE
 ---

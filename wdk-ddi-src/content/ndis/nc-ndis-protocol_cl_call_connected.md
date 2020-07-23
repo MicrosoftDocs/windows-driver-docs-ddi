@@ -37,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - ProtocolClCallConnected
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

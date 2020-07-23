@@ -39,8 +39,6 @@ api_name:
 - IDebugControl.GetTextMacro
 - IDebugControl2.GetTextMacro
 - IDebugControl3.GetTextMacro
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

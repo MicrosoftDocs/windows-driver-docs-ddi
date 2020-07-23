@@ -37,8 +37,6 @@ api_location:
 - iscsiop.h
 api_name:
 - ScsiInquiry_IN
-product:
-- Windows
 targetos: Windows
 req.typenames: ScsiInquiry_IN, *PScsiInquiry_IN
 ---

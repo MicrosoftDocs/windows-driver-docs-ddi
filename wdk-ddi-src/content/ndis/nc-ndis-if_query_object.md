@@ -37,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - IFP_QUERY_OBJECT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

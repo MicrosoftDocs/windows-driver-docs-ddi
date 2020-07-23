@@ -37,8 +37,6 @@ api_location:
 - Ksmedia.h
 api_name:
 - KS_DATARANGE_IMAGE
-product:
-- Windows
 targetos: Windows
 req.typenames: KS_DATARANGE_IMAGE, *PKS_DATARANGE_IMAGE
 ---

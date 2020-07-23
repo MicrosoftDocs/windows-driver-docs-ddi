@@ -41,8 +41,6 @@ api_name:
 - IDebugClient3.GetIdentity
 - IDebugClient4.GetIdentity
 - IDebugClient5.GetIdentity
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

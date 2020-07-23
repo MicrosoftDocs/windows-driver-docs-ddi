@@ -37,8 +37,6 @@ api_location:
 - Dbgeng.h
 api_name:
 - IDebugSymbols3.CreateSymbolGroup2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

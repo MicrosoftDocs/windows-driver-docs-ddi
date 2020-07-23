@@ -37,8 +37,6 @@ api_location:
 - Mountmgr.h
 api_name:
 - IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

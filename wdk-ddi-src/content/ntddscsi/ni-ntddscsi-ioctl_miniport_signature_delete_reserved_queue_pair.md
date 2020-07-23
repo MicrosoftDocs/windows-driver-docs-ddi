@@ -30,8 +30,6 @@ api_location:
 - ntddscsi.h
 api_name: 
 - IOCTL_MINIPORT_SIGNATURE_DELETE_RESERVED_QUEUE_PAIR
-product:
-- Windows
 targetos: Windows
 ---
 

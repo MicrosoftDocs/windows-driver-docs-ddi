@@ -33,8 +33,6 @@ api_location:
  - d3d12umddi.h
 api_name: 
  - D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0063
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

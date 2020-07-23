@@ -37,8 +37,6 @@ api_location:
 - Ntdddisk.h
 api_name:
 - IOCTL_DISK_PERFORMANCE_OFF
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

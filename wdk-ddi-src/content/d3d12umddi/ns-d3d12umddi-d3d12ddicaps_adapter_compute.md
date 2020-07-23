@@ -30,8 +30,6 @@ api_location:
 - d3d12umddi.h
 api_name: 
 - D3D12DDICAPS_ADAPTER_COMPUTE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

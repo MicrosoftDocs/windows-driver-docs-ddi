@@ -37,8 +37,6 @@ api_location:
 - ntdddisk.h
 api_name:
 - DRIVE_LAYOUT_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: DRIVE_LAYOUT_INFORMATION, *PDRIVE_LAYOUT_INFORMATION
 ---

@@ -38,8 +38,6 @@ api_location:
 api_name: 
 - NetRequestGetSwitchId
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetRequestGetSwitchId function

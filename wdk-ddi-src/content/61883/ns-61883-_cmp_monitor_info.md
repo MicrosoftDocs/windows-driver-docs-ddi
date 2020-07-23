@@ -37,8 +37,6 @@ api_location:
 - 61883.h
 api_name:
 - CMP_MONITOR_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: CMP_MONITOR_INFO, *PCMP_MONITOR_INFO
 ---

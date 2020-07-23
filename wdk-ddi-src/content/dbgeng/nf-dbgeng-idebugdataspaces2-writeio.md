@@ -40,8 +40,6 @@ api_name:
 - IDebugDataSpaces2.WriteIo
 - IDebugDataSpaces3.WriteIo
 - IDebugDataSpaces4.WriteIo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

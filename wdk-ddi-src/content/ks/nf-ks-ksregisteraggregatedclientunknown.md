@@ -38,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsRegisterAggregatedClientUnknown
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

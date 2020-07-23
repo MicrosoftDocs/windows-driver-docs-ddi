@@ -38,8 +38,6 @@ api_location:
 - Displib.dll
 api_name:
 - DxgkInitializeDisplayOnlyDriver
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

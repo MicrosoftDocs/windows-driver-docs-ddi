@@ -37,8 +37,6 @@ api_location:
 - 61883.h
 api_name:
 - CMP_DISCONNECT
-product:
-- Windows
 targetos: Windows
 req.typenames: CMP_DISCONNECT, *PCMP_DISCONNECT
 ---

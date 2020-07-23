@@ -34,8 +34,6 @@ api_location:
 - d3dukmdt.h
 api_name: 
 - MAKEFOURCC
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

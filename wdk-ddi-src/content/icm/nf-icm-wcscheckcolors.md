@@ -35,8 +35,6 @@ api_location:
 - Mscms.dll
 api_name:
 - WcsCheckColors
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

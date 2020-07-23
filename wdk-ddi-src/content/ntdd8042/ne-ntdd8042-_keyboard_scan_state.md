@@ -37,8 +37,6 @@ api_location:
 - ntdd8042.h
 api_name:
 - KEYBOARD_SCAN_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: KEYBOARD_SCAN_STATE, *PKEYBOARD_SCAN_STATE
 ---

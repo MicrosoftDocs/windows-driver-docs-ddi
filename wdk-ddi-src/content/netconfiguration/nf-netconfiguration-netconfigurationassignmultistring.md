@@ -38,8 +38,6 @@ api_location:
 api_name: 
 - NetConfigurationAssignMultiString
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetConfigurationAssignMultiString function

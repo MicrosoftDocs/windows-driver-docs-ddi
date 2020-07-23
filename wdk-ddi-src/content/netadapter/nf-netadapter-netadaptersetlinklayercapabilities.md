@@ -39,8 +39,6 @@ api_location:
 api_name: 
 - NetAdapterSetLinkLayerCapabilities
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetAdapterSetLinkLayerCapabilities function

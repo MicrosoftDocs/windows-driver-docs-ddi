@@ -38,8 +38,6 @@ api_location:
 - Fwpkclnt.dll
 api_name:
 - FwpsCloneStreamData0
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

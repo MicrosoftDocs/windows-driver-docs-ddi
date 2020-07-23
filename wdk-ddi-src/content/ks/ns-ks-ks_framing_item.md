@@ -37,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KS_FRAMING_ITEM
-product:
-- Windows
 targetos: Windows
 req.typenames: KS_FRAMING_ITEM, *PKS_FRAMING_ITEM
 ---

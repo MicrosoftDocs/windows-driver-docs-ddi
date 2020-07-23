@@ -37,8 +37,6 @@ api_location:
 - ntdddisk.h
 api_name:
 - SET_PARTITION_INFORMATION_EX
-product:
-- Windows
 targetos: Windows
 req.typenames: SET_PARTITION_INFORMATION_EX, *PSET_PARTITION_INFORMATION_EX
 ---

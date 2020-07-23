@@ -39,8 +39,6 @@ api_name:
 - IDebugControl.GetActualProcessorType
 - IDebugControl2.GetActualProcessorType
 - IDebugControl3.GetActualProcessorType
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

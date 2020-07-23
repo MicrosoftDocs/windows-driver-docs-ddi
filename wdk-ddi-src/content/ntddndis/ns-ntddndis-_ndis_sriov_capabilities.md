@@ -37,8 +37,6 @@ api_location:
 - Ntddndis.h
 api_name:
 - NDIS_SRIOV_CAPABILITIES
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_SRIOV_CAPABILITIES, *PNDIS_SRIOV_CAPABILITIES
 ---

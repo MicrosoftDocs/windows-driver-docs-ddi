@@ -37,8 +37,6 @@ api_location:
 - engextcpp.hpp
 api_name:
 - ExtRemoteData.GetUchar
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

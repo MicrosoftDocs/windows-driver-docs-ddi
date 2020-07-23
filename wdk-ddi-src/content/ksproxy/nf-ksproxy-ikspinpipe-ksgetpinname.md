@@ -37,8 +37,6 @@ api_location:
 - ksproxy.h
 api_name:
 - IKsPinPipe.KsGetPinName
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

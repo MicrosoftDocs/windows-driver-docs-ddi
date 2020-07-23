@@ -37,8 +37,6 @@ api_location:
 - 1394.h
 api_name:
 - TEXTUAL_LEAF
-product:
-- Windows
 targetos: Windows
 req.typenames: TEXTUAL_LEAF, *PTEXTUAL_LEAF
 ---

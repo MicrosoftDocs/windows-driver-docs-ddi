@@ -37,8 +37,6 @@ api_location:
 - d3dukmdt.h
 api_name:
 - D3DDDIRECT
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDIRECT
 ---

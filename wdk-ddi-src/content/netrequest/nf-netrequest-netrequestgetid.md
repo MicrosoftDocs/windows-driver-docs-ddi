@@ -38,8 +38,6 @@ api_location:
 api_name: 
 - NetRequestGetId
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetRequestGetId function

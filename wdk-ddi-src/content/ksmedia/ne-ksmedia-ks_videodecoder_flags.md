@@ -37,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KS_VIDEODECODER_FLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: KS_VIDEODECODER_FLAGS
 ---

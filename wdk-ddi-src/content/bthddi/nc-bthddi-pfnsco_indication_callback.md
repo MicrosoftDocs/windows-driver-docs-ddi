@@ -37,8 +37,6 @@ api_location:
 - bthddi.h
 api_name:
 - SCOIndicationCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

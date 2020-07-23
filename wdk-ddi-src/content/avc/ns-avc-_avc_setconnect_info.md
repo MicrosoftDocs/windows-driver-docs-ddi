@@ -37,8 +37,6 @@ api_location:
 - avc.h
 api_name:
 - AVC_SETCONNECT_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: AVC_SETCONNECT_INFO, *PAVC_SETCONNECT_INFO
 ---

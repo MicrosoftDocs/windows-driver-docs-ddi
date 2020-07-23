@@ -37,8 +37,6 @@ api_location:
 - d3dkmdt.h
 api_name:
 - DXGK_DISPLAY_USAGE
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGK_DISPLAY_USAGE, *PDXGK_DISPLAY_USAGE
 ---

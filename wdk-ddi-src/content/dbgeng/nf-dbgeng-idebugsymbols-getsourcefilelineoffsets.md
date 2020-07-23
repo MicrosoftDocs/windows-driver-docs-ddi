@@ -39,8 +39,6 @@ api_name:
 - IDebugSymbols.GetSourceFileLineOffsets
 - IDebugSymbols2.GetSourceFileLineOffsets
 - IDebugSymbols3.GetSourceFileLineOffsets
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

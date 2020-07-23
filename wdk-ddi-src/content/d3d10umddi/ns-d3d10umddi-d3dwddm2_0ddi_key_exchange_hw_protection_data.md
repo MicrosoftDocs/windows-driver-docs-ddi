@@ -36,8 +36,6 @@ api_location:
 - D3d10umddi.h
 api_name:
 - D3DWDDM2_0DDI_KEY_EXCHANGE_HW_PROTECTION_DATA
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DWDDM2_0DDI_KEY_EXCHANGE_HW_PROTECTION_DATA

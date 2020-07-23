@@ -37,8 +37,6 @@ api_location:
 - BthXDDI.h
 api_name:
 - _BTHX_VERSION
-product:
-- Windows
 targetos: Windows
 req.typenames: BTHX_VERSION, *PBTHX_VERSION
 ---

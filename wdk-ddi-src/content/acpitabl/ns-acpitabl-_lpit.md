@@ -37,8 +37,6 @@ api_location:
 - acpitabl.h
 api_name:
 - LPIT
-product:
-- Windows
 targetos: Windows
 req.typenames: LPIT, *PLPIT
 ---

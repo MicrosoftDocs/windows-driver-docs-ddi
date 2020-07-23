@@ -37,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KSSTREAM_UVC_METADATATYPE_TIMESTAMP
-product:
-- Windows
 targetos: Windows
 req.typenames: KSSTREAM_UVC_METADATATYPE_TIMESTAMP, *PKSSTREAM_UVC_METADATATYPE_TIMESTAMP
 ---

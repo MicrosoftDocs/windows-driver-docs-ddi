@@ -37,8 +37,6 @@ api_location:
 - ntddcdrm.h
 api_name:
 - IOCTL_CDROM_GET_LAST_SESSION
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

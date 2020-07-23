@@ -40,8 +40,6 @@ api_name:
 - IDebugDataSpaces2.WriteVirtualUncached
 - IDebugDataSpaces3.WriteVirtualUncached
 - IDebugDataSpaces4.WriteVirtualUncached
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

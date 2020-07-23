@@ -38,8 +38,6 @@ api_location:
 - Bdasup.dll
 api_name:
 - BdaUninitFilter
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

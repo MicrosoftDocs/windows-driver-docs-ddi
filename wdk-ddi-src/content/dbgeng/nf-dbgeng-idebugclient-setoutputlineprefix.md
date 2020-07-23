@@ -37,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugClient.SetOutputLinePrefix
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

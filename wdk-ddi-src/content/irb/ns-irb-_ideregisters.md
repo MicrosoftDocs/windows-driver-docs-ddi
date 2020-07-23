@@ -37,8 +37,6 @@ api_location:
 - irb.h
 api_name:
 - IDEREGISTERS
-product:
-- Windows
 targetos: Windows
 req.typenames: IDEREGISTERS, *PIDEREGISTERS
 ---

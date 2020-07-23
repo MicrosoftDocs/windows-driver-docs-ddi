@@ -37,8 +37,6 @@ api_location:
 - mpiodisk.h
 api_name:
 - DSM_QueryUniqueId
-product:
-- Windows
 targetos: Windows
 req.typenames: DSM_QueryUniqueId, *PDSM_QueryUniqueId
 ---
