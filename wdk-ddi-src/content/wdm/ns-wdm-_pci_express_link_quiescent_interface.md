@@ -37,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - PCI_EXPRESS_LINK_QUIESCENT_INTERFACE
-product:
-- Windows
 targetos: Windows
 req.typenames: PCI_EXPRESS_LINK_QUIESCENT_INTERFACE, *PPCI_EXPRESS_LINK_QUIESCENT_INTERFACE
 req.product: Windows 10 or later.

@@ -37,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - CLS_WRITE_ENTRY
-product:
-- Windows
 targetos: Windows
 req.typenames: CLS_WRITE_ENTRY, *PCLS_WRITE_ENTRY, PPCLS_WRITE_ENTRY
 ---

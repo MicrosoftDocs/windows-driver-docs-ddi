@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ZwPrepareEnlistment
 - NtPrepareEnlistment
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

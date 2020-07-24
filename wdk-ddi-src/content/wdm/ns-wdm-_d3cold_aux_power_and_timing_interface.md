@@ -30,8 +30,6 @@ api_location:
 - wdm.h
 api_name: 
 - _D3COLD_AUX_POWER_AND_TIMING_INTERFACE
-product:
-- Windows
 targetos: Windows
 ---
 

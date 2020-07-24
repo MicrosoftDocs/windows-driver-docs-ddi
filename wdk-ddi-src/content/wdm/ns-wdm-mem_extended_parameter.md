@@ -30,8 +30,6 @@ api_location:
 - wdm.h
 api_name: 
 - MEM_EXTENDED_PARAMETER
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

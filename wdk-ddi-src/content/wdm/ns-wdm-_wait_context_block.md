@@ -30,8 +30,6 @@ api_location:
 - wdm.h
 api_name: 
 - _WAIT_CONTEXT_BLOCK
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

@@ -37,8 +37,6 @@ api_location:
 - Hal.dll
 api_name:
 - KeStallExecutionProcessor
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

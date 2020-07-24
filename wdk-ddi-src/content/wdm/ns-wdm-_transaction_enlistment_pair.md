@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - TRANSACTION_ENLISTMENT_PAIR
-product:
-- Windows
 targetos: Windows
 req.typenames: TRANSACTION_ENLISTMENT_PAIR, *PTRANSACTION_ENLISTMENT_PAIR
 ---

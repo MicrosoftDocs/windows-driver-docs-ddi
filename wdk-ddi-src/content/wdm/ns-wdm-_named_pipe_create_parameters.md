@@ -36,8 +36,6 @@ api_location:
 - Wdm.h
 api_name:
 - NAMED_PIPE_CREATE_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: NAMED_PIPE_CREATE_PARAMETERS, *PNAMED_PIPE_CREATE_PARAMETERS
 ---

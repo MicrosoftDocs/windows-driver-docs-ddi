@@ -30,8 +30,6 @@ api_location:
 - wdm.h
 api_name: 
 - _DMA_TRANSFER_INFO_V2
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

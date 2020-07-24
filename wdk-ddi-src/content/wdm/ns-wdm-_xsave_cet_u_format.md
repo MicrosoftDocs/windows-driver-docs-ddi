@@ -30,8 +30,6 @@ api_location:
 - wdm.h
 api_name: 
 - _XSAVE_CET_U_FORMAT
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

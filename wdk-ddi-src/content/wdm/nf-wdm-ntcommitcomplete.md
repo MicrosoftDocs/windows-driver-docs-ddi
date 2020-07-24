@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ZwCommitComplete
 - NtCommitComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

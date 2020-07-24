@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ZwRollbackTransaction
 - NtRollbackTransaction
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

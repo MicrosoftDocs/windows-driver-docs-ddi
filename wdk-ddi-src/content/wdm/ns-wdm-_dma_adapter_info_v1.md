@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - DMA_ADAPTER_INFO_V1
-product:
-- Windows
 targetos: Windows
 req.typenames: DMA_ADAPTER_INFO_V1, *PDMA_ADAPTER_INFO_V1
 ---

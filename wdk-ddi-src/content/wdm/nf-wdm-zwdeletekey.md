@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ZwDeleteKey
 - NtDeleteKey
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

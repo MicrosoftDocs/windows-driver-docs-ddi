@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - KBUGCHECK_ADD_PAGES
-product:
-- Windows
 targetos: Windows
 req.typenames: KBUGCHECK_ADD_PAGES, *PKBUGCHECK_ADD_PAGES
 ---

@@ -38,8 +38,6 @@ api_location:
 - Ntoskrnl.exe
 api_name:
 - KeReleaseInStackQueuedSpinLock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

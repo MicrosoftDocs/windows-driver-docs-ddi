@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ZwSinglePhaseReject
 - NtSinglePhaseReject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - FILE_STANDARD_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: FILE_STANDARD_INFORMATION, *PFILE_STANDARD_INFORMATION
 ---

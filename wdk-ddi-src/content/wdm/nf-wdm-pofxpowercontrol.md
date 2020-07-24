@@ -37,8 +37,6 @@ api_location:
 - Ntoskrnl.exe
 api_name:
 - PoFxPowerControl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

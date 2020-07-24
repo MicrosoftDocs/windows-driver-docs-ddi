@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ZwLoadDriver
 - NtLoadDriver
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - IO_DISCONNECT_INTERRUPT_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: IO_DISCONNECT_INTERRUPT_PARAMETERS, *PIO_DISCONNECT_INTERRUPT_PARAMETERS
 ---

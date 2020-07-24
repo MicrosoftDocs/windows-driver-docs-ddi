@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - FILE_FS_DEVICE_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: FILE_FS_DEVICE_INFORMATION, *PFILE_FS_DEVICE_INFORMATION
 ---

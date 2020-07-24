@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ZwMapViewOfSection
 - NtMapViewOfSection
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ZwCreateResourceManager
 - NtCreateResourceManager
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

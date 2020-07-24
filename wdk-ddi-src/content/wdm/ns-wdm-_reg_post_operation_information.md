@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - REG_POST_OPERATION_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: REG_POST_OPERATION_INFORMATION, *PREG_POST_OPERATION_INFORMATION
 ---

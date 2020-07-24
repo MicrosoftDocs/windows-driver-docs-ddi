@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - OB_POST_DUPLICATE_HANDLE_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: OB_POST_DUPLICATE_HANDLE_INFORMATION, *POB_POST_DUPLICATE_HANDLE_INFORMATION
 ---

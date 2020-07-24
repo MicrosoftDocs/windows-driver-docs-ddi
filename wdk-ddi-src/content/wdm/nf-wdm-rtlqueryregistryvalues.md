@@ -37,8 +37,6 @@ api_location:
 - Ntoskrnl.exe
 api_name:
 - RtlQueryRegistryValues
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - CLS_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: CLS_INFORMATION, *PCLS_INFORMATION, *PPCLS_INFORMATION
 ---

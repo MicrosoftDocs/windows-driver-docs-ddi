@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - CLFS_MGMT_POLICY
-product:
-- Windows
 targetos: Windows
 req.typenames: CLFS_MGMT_POLICY, *PCLFS_MGMT_POLICY
 ---

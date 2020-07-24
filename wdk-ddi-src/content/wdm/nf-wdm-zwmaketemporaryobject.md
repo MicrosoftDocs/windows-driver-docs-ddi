@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ZwMakeTemporaryObject
 - NtMakeTemporaryObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

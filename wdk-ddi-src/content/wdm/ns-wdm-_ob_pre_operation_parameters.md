@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - OB_PRE_OPERATION_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: OB_PRE_OPERATION_PARAMETERS, *POB_PRE_OPERATION_PARAMETERS
 ---

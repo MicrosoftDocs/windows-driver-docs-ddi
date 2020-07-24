@@ -37,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - PLUGPLAY_NOTIFICATION_HEADER
-product:
-- Windows
 targetos: Windows
 req.typenames: PLUGPLAY_NOTIFICATION_HEADER, *PPLUGPLAY_NOTIFICATION_HEADER
 ---

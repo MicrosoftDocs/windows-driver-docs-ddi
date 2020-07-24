@@ -38,8 +38,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - vDbgPrintExWithPrefix
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

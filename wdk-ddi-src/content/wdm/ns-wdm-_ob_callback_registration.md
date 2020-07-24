@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - OB_CALLBACK_REGISTRATION
-product:
-- Windows
 targetos: Windows
 req.typenames: OB_CALLBACK_REGISTRATION, *POB_CALLBACK_REGISTRATION
 ---

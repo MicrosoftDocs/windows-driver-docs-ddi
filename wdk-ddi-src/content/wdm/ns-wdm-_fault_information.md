@@ -30,8 +30,6 @@ api_location:
 - wdm.h
 api_name: 
 - _FAULT_INFORMATION
-product:
-- Windows
 targetos: Windows
 ---
 

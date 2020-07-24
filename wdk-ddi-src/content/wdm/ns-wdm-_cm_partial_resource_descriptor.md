@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - CM_PARTIAL_RESOURCE_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: CM_PARTIAL_RESOURCE_DESCRIPTOR, *PCM_PARTIAL_RESOURCE_DESCRIPTOR
 ---

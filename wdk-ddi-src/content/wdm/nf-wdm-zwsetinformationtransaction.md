@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ZwSetInformationTransaction
 - NtSetInformationTransaction
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

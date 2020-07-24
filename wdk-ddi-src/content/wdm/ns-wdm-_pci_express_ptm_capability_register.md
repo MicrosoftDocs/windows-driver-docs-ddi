@@ -30,8 +30,6 @@ api_location:
 - wdm.h
 api_name: 
 - _PCI_EXPRESS_PTM_CAPABILITY_REGISTER
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

@@ -37,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - REG_QUERY_VALUE_KEY_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: REG_QUERY_VALUE_KEY_INFORMATION, *PREG_QUERY_VALUE_KEY_INFORMATION
 ---

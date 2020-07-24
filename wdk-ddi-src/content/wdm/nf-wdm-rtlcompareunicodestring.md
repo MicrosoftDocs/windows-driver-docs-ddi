@@ -37,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlCompareUnicodeString
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

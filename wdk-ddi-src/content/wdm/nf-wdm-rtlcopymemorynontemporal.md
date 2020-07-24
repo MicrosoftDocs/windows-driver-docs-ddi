@@ -35,8 +35,6 @@ api_location:
 - NtosKrnl.exe
 api_name: 
 - RtlCopyMemoryNonTemporal
-product:
-- Windows
 targetos: Windows
 
 

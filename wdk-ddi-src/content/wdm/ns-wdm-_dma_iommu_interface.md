@@ -30,8 +30,6 @@ api_location:
 - wdm.h
 api_name: 
 - _DMA_IOMMU_INTERFACE
-product:
-- Windows
 targetos: Windows
 ---
 

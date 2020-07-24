@@ -38,8 +38,6 @@ api_location:
 - Ntdll.dll
 api_name:
 - RtlStringFromGUID
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

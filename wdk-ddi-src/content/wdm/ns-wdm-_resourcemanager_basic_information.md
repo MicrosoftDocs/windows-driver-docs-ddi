@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - RESOURCEMANAGER_BASIC_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: RESOURCEMANAGER_BASIC_INFORMATION, *PRESOURCEMANAGER_BASIC_INFORMATION
 ---

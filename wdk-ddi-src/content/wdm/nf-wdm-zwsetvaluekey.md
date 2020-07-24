@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ZwSetValueKey
 - NtSetValueKey
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

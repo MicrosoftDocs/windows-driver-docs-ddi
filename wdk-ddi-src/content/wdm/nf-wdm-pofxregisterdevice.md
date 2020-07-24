@@ -37,8 +37,6 @@ api_location:
 - Ntoskrnl.exe
 api_name:
 - PoFxRegisterDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

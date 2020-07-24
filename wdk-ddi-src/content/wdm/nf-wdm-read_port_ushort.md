@@ -38,8 +38,6 @@ api_location:
 - Hal.dll
 api_name:
 - READ_PORT_USHORT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

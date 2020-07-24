@@ -39,8 +39,6 @@ api_location:
 - tm.sys
 api_name:
 - TmIsTransactionActive
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

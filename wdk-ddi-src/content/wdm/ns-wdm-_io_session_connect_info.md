@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - IO_SESSION_CONNECT_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: IO_SESSION_CONNECT_INFO, *PIO_SESSION_CONNECT_INFO
 ---

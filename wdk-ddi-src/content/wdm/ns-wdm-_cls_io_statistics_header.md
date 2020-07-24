@@ -37,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - CLS_IO_STATISTICS_HEADER
-product:
-- Windows
 targetos: Windows
 req.typenames: CLS_IO_STATISTICS_HEADER, *PCLS_IO_STATISTICS_HEADER, PPCLS_IO_STATISTICS_HEADER
 ---

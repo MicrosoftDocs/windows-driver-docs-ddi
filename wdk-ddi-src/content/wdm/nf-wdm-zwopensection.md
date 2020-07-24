@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ZwOpenSection
 - NtOpenSection
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

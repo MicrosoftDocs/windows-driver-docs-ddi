@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ZwUnmapViewOfSection
 - NtUnmapViewOfSection
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

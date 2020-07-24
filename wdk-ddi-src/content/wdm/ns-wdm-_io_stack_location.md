@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - IO_STACK_LOCATION
-product:
-- Windows
 targetos: Windows
 req.typenames: IO_STACK_LOCATION, *PIO_STACK_LOCATION
 ---

@@ -37,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - PCI_DEVICE_PRESENT_INTERFACE
-product:
-- Windows
 targetos: Windows
 req.typenames: PCI_DEVICE_PRESENT_INTERFACE, *PPCI_DEVICE_PRESENT_INTERFACE
 req.product: Windows 10 or later.

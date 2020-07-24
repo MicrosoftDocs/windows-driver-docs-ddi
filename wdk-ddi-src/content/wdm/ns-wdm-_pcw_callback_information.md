@@ -37,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - PCW_CALLBACK_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: PCW_CALLBACK_INFORMATION, *PPCW_CALLBACK_INFORMATION
 ---

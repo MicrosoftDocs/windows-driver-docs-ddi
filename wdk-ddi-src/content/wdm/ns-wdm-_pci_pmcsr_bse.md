@@ -37,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - PCI_PMCSR_BSE
-product:
-- Windows
 targetos: Windows
 req.typenames: PCI_PMCSR_BSE, *PPCI_PMCSR_BSE
 req.product: Windows 10 or later.

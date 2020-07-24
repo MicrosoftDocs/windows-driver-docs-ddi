@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - OB_PRE_CREATE_HANDLE_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: OB_PRE_CREATE_HANDLE_INFORMATION, *POB_PRE_CREATE_HANDLE_INFORMATION
 ---

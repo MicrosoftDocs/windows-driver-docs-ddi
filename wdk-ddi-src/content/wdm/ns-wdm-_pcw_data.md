@@ -37,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - PCW_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: PCW_DATA, *PPCW_DATA
 ---

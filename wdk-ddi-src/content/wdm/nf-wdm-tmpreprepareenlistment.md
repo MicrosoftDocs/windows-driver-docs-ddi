@@ -39,8 +39,6 @@ api_location:
 - tm.sys
 api_name:
 - TmPrePrepareEnlistment
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - DMA_OPERATIONS
-product:
-- Windows
 targetos: Windows
 req.typenames: "*PDMA_OPERATIONS, DMA_OPERATIONS"
 ---

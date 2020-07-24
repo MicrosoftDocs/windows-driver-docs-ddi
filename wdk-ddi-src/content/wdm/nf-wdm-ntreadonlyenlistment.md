@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ZwReadOnlyEnlistment
 - NtReadOnlyEnlistment
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

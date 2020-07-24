@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - DEVICE_DESCRIPTION
-product:
-- Windows
 targetos: Windows
 req.typenames: DEVICE_DESCRIPTION, *PDEVICE_DESCRIPTION
 ---

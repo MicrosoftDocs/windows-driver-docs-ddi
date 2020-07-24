@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ZwOpenFile
 - NtOpenFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

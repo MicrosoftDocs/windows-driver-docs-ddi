@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ZwRecoverResourceManager
 - NtRecoverResourceManager
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - KEY_FULL_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: KEY_FULL_INFORMATION, *PKEY_FULL_INFORMATION
 ---
