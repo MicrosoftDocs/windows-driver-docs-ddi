@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ZwOpenResourceManager
 - NtOpenResourceManager
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

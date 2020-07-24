@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - IO_ERROR_LOG_PACKET
-product:
-- Windows
 targetos: Windows
 req.typenames: IO_ERROR_LOG_PACKET, *PIO_ERROR_LOG_PACKET
 ---

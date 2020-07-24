@@ -38,8 +38,6 @@ api_location:
 - Ntdll.dll
 api_name:
 - RtlVerifyVersionInfo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

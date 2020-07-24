@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - REG_KEY_HANDLE_CLOSE_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: REG_KEY_HANDLE_CLOSE_INFORMATION, *PREG_KEY_HANDLE_CLOSE_INFORMATION
 ---

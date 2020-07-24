@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - OB_POST_OPERATION_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: OB_POST_OPERATION_PARAMETERS, *POB_POST_OPERATION_PARAMETERS
 ---

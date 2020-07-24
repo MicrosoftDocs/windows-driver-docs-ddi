@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - HWPROFILE_CHANGE_NOTIFICATION
-product:
-- Windows
 targetos: Windows
 req.typenames: HWPROFILE_CHANGE_NOTIFICATION, *PHWPROFILE_CHANGE_NOTIFICATION
 ---

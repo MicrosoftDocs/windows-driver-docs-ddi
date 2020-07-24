@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ZwEnumerateTransactionObject
 - NtEnumerateTransactionObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

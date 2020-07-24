@@ -38,8 +38,6 @@ api_location:
 - Rtlver.dll
 api_name:
 - RtlIsNtDdiVersionAvailable
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

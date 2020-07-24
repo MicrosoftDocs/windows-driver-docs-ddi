@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ZwUnloadDriver
 - NtUnloadDriver
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

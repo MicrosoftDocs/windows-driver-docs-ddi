@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - TRANSACTION_PROPERTIES_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: TRANSACTION_PROPERTIES_INFORMATION, *PTRANSACTION_PROPERTIES_INFORMATION
 ---

@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - TRANSACTIONMANAGER_BASIC_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: TRANSACTIONMANAGER_BASIC_INFORMATION, *PTRANSACTIONMANAGER_BASIC_INFORMATION
 ---

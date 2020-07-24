@@ -37,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - MmUnlockPages
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

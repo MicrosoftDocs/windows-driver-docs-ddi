@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - KEY_VALUE_BASIC_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: KEY_VALUE_BASIC_INFORMATION, *PKEY_VALUE_BASIC_INFORMATION
 ---

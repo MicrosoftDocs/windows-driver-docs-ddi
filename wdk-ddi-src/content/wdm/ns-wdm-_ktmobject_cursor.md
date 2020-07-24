@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - KTMOBJECT_CURSOR
-product:
-- Windows
 targetos: Windows
 req.typenames: KTMOBJECT_CURSOR, *PKTMOBJECT_CURSOR
 ---

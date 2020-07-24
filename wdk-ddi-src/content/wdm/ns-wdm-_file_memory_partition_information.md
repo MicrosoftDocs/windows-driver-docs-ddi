@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - FILE_MEMORY_PARTITION_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: FILE_MEMORY_PARTITION_INFORMATION, *PFILE_MEMORY_PARTITION_INFORMATION
 ---

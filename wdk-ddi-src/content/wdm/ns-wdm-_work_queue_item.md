@@ -37,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - WORK_QUEUE_ITEM
-product:
-- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_ITEM, *PWORK_QUEUE_ITEM
 ---

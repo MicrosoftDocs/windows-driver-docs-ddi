@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ZwCommitEnlistment
 - NtCommitEnlistment
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

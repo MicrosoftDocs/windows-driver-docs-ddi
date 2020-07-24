@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ZwQueryFullAttributesFile
 - NtQueryFullAttributesFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

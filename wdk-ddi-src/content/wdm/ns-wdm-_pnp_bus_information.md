@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - PNP_BUS_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: PNP_BUS_INFORMATION, *PPNP_BUS_INFORMATION
 ---

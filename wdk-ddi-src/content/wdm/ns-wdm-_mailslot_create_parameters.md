@@ -36,8 +36,6 @@ api_location:
 - Wdm.h
 api_name:
 - MAILSLOT_CREATE_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: MAILSLOT_CREATE_PARAMETERS, *PMAILSLOT_CREATE_PARAMETERS
 ---

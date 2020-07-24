@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ZwCreateEnlistment
 - NtCreateEnlistment
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

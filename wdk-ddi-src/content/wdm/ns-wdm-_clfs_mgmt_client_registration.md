@@ -37,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - CLFS_MGMT_CLIENT_REGISTRATION
-product:
-- Windows
 targetos: Windows
 req.typenames: CLFS_MGMT_CLIENT_REGISTRATION, *PCLFS_MGMT_CLIENT_REGISTRATION
 ---

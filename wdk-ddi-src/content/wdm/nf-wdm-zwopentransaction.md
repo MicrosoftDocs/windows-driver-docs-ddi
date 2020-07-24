@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ZwOpenTransaction
 - NtOpenTransaction
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

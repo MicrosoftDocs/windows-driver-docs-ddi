@@ -37,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - KEY_WRITE_TIME_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: KEY_WRITE_TIME_INFORMATION, *PKEY_WRITE_TIME_INFORMATION
 ---

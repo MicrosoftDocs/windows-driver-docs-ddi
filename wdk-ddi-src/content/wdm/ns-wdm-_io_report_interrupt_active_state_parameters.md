@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS, *PIO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS
 ---

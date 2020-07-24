@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ZwFlushKey
 - NtFlushKey
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

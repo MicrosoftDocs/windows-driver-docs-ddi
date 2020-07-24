@@ -38,8 +38,6 @@ api_location:
 api_name:
 - RtlEqualMemory
 - memcmp
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

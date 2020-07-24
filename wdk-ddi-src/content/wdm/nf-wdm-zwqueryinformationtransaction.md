@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ZwQueryInformationTransaction
 - NtQueryInformationTransaction
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

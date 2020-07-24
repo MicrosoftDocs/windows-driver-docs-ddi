@@ -37,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - RTL_OSVERSIONINFOEXW
-product:
-- Windows
 targetos: Windows
 req.typenames: OSVERSIONINFOEXW, *POSVERSIONINFOEXW, *LPOSVERSIONINFOEXW, RTL_OSVERSIONINFOEXW, *PRTL_OSVERSIONINFOEXW
 ---

@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ZwEnumerateKey
 - NtEnumerateKey
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

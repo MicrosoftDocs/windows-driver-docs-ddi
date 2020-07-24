@@ -37,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - READ_REGISTER_UCHAR
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

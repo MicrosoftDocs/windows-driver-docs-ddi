@@ -38,8 +38,6 @@ api_location:
 - Ntdll.dll
 api_name:
 - RtlSetBits
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

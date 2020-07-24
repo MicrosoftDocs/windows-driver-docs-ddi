@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - IO_INTERRUPT_MESSAGE_INFO_ENTRY
-product:
-- Windows
 targetos: Windows
 req.typenames: IO_INTERRUPT_MESSAGE_INFO_ENTRY, *PIO_INTERRUPT_MESSAGE_INFO_ENTRY
 ---

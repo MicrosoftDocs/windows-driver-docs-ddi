@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT
-product:
-- Windows
 targetos: Windows
 req.typenames: KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, *PKE_PROCESSOR_CHANGE_NOTIFY_CONTEXT
 ---

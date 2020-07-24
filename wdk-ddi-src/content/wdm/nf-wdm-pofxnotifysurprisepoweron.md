@@ -37,8 +37,6 @@ api_location:
 - Ntoskrnl.exe
 api_name:
 - PoFxNotifySurprisePowerOn
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ZwRollbackEnlistment
 - NtRollbackEnlistment
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

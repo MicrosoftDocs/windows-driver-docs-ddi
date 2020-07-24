@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - ENLISTMENT_BASIC_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: ENLISTMENT_BASIC_INFORMATION, *PENLISTMENT_BASIC_INFORMATION
 ---

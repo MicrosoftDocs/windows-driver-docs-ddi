@@ -37,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlUnicodeToUTF8N
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

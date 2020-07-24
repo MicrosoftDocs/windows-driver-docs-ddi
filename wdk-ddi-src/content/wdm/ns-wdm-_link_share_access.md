@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - LINK_SHARE_ACCESS
-product:
-- Windows
 targetos: Windows
 req.typenames: LINK_SHARE_ACCESS, *PLINK_SHARE_ACCESS
 ---

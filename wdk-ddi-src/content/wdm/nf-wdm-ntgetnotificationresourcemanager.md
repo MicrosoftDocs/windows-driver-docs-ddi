@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ZwGetNotificationResourceManager
 - NtGetNotificationResourceManager
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

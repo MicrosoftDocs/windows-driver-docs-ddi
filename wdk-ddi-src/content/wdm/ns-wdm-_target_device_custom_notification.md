@@ -37,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - TARGET_DEVICE_CUSTOM_NOTIFICATION
-product:
-- Windows
 targetos: Windows
 req.typenames: TARGET_DEVICE_CUSTOM_NOTIFICATION, *PTARGET_DEVICE_CUSTOM_NOTIFICATION
 ---

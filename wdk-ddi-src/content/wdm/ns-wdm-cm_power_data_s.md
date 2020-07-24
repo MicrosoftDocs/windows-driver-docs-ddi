@@ -37,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - CM_POWER_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: CM_POWER_DATA, *PCM_POWER_DATA
 ---

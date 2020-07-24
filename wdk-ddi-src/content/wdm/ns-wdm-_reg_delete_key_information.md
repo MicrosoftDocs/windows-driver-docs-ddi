@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - REG_DELETE_KEY_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: REG_DELETE_KEY_INFORMATION, *PREG_DELETE_KEY_INFORMATION, REG_FLUSH_KEY_INFORMATION, *PREG_FLUSH_KEY_INFORMATION
 ---

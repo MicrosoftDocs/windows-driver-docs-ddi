@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ZwQuerySymbolicLinkObject
 - NtQuerySymbolicLinkObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

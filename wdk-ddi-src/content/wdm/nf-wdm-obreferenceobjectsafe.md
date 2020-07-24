@@ -34,8 +34,6 @@ api_location:
 - NtosKrnl.exe
 api_name: 
 - ObReferenceObjectSafe
-product:
-- Windows
 targetos: Windows
 
 ms.custom: RS5

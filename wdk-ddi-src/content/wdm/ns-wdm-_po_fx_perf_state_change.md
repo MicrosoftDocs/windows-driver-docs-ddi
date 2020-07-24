@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - PO_FX_PERF_STATE_CHANGE
-product:
-- Windows
 targetos: Windows
 req.typenames: PO_FX_PERF_STATE_CHANGE, *PPO_FX_PERF_STATE_CHANGE
 ---

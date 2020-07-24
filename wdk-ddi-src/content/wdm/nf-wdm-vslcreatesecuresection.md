@@ -36,8 +36,6 @@ api_location:
 - Wdm.h
 api_name:
 - VslCreateSecureSection
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

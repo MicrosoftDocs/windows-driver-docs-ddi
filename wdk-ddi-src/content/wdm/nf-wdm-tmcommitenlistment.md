@@ -39,8 +39,6 @@ api_location:
 - tm.sys
 api_name:
 - TmCommitEnlistment
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - IO_RESOURCE_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: IO_RESOURCE_DESCRIPTOR, *PIO_RESOURCE_DESCRIPTOR
 ---

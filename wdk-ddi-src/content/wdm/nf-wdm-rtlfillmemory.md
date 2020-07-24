@@ -39,8 +39,6 @@ api_location:
 - API-MS-Win-Core-rtlsupport-l1-1-0.dll
 api_name:
 - RtlFillMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

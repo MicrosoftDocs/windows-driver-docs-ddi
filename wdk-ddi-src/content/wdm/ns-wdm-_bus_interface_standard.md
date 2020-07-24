@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - BUS_INTERFACE_STANDARD
-product:
-- Windows
 targetos: Windows
 req.typenames: BUS_INTERFACE_STANDARD, *PBUS_INTERFACE_STANDARD
 ---

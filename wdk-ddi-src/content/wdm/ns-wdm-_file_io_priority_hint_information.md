@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - FILE_IO_PRIORITY_HINT_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: FILE_IO_PRIORITY_HINT_INFORMATION, *PFILE_IO_PRIORITY_HINT_INFORMATION
 ---

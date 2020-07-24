@@ -37,8 +37,6 @@ api_location:
 - Ntoskrnl.exe
 api_name:
 - ObCloseHandle
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

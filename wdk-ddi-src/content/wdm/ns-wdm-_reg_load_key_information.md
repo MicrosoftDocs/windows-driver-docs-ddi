@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - REG_LOAD_KEY_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: REG_LOAD_KEY_INFORMATION, *PREG_LOAD_KEY_INFORMATION
 ---

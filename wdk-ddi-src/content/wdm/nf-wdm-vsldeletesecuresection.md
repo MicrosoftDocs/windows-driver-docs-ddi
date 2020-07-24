@@ -36,8 +36,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - VslDeleteSecureSection
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
