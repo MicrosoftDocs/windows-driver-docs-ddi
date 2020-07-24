@@ -7,7 +7,7 @@ ms.author: windowsdriverdev
 ms.date: 07/02/2020
 ms.custom: Fe
 targetos: Windows
-description: The NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES structure describes the client driver's capabilities to collect diagnostics during device reset.
+description: The NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES structure describes the client driver's capabilities to collect diagnostics in the process of device reset and recovery.
 keywords: ["EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS callback function"]
 req.construct-type: structure
 req.ddi-compliance:
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES structure describes the client driver's capabilities to collect diagnostics during device reset.
+The NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES structure describes the client driver's capabilities to collect diagnostics in the process of device reset and recovery.
 
 ## -struct-fields
 
@@ -52,17 +52,18 @@ The size of this structure, in bytes.
 
 ### -field ResetDiagnosticsGuid
 
-A global unique identifier (GUID) associated with the reset diagnostics data within the full kernel dump captured during device reset.
+A client driver specified global unique identifier (GUID). Developers can retrieve client driver collected reset diagnostics with this identifier as secondary data in the full kernel dump captured in the process of device reset and recovery.
 
 ### -field EvtNetDeviceCollectResetDiagnostics
 
-A pointer to the client driver's implementation of the [**EvtNetDeviceCollectResetDiagnostics**](../netdevice/nc-netdevice-evt_net_device_collect_reset_diagnostics.md) callback function for collecting reset diagnostics from hardware device.
-This member is optional. Framework will not ask the client driver to collect reset diagnostics when this callback is `nullptr`.
+A pointer to the client driver's implementation of the [**EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS**](../netdevice/nc-netdevice-evt_net_device_collect_reset_diagnostics.md) callback, in which the client driver collects device-specific reset diagnostics from hardware device.
 
 ## -remarks
 
 Call [**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES_INIT**](../netdevice/nf-netdevice-net_device_reset_diagnostics_capabilities_init.md) method to initialize this structure.
-For more information about how framework collecting reset diagnostics during device reset and recovering, see [Recovering unresponsive NIC with platform-level device reset](/windows-hardware/drivers/netcx/platform-level-device-reset).
+Call [**NetDeviceInitSetResetDiagnosticsCapabilitites**](../netdeivce/nf-netdevice-netdeviceinitsetresetdiagnosticscapabilitites.md) method to register this structure to the framework.
+See [Register NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES](/windows-hardware/drivers/netcx/platform-level-device-reset/#register-NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES) for details.
 
 ## -see-also
 
+[Recovering unresponsive NIC with NetAdapterCx PLDR](/windows-hardware/drivers/netcx/platform-level-device-reset/).

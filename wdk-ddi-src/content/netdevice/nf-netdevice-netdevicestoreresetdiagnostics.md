@@ -7,7 +7,7 @@ ms.author: windowsdriverdev
 ms.date: 07/02/2020
 ms.custom: Fe
 targetos: Windows
-description: Submit collected reset diagnostics to the framework.
+description: The **NetDeviceStoreResetDiagnostics** method stores client driver collected reset diagnostics into the framework.
 keywords: ["NetDeviceStoreResetDiagnostics function"]
 req.assembly:
 req.construct-type: function
@@ -62,12 +62,9 @@ A pointer to the data buffer that holds the reset diagnostics data. The data buf
 
 ## -remarks
 
-After client driver collects reset diagnostics in its implementation of [**EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS**](../netdevice/nc-netdevice-evt_net_device_collect_reset_diagnostics.md) callback, it should submit diagnostics as a flat data buffer to the framework by calling the **NetDeviceStoreResetDiagnostics** method.
-This is the only valid scenarios to call the **NetDeviceStoreResetDiagnostics** method.
-The framework will bugcheck the client driver if it calls **NetDeviceStoreResetDiagnostics** outside of **EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS** callback, or calls **NetDeviceStoreResetDiagnostics** multiple times.
-The client driver must calls **NetDeviceStoreResetDiagnostics** API at PASSIVE_LEVEL.
-Once The **NetDeviceStoreResetDiagnostics** method returns, it is fine for client drivers to free the collected diagnostics data, that is, the data buffer pointed by **ResetDiagnosticsBuffer**.
-For more info, see [Recovering unresponsive NIC with platform-level device reset](/windows-hardware/drivers/netcx/platform-level-device-reset).
+The only valid scenario to invoke the **NetDeviceStoreResetDiagnostics** method is in a client driver's implementation of [**EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS**](../netdevice/nc-netdevice-evt_net_device_collect_reset_diagnostics.md) callback.
+See [Implement EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS](/windows-hardware/drivers/netcx/platform-level-device-reset/#implement-EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS) for how to correctly use the **NetDeviceStoreResetDiagnostics** method.
 
 ## -see-also
 
+[Recovering unresponsive NIC with NetAdapterCx PLDR](/windows-hardware/drivers/netcx/platform-level-device-reset/).
