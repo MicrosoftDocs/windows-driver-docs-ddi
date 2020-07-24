@@ -37,8 +37,6 @@ api_location:
 - Pmi.h
 api_name:
 - IOCTL_PMI_GET_CONFIGURATION
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - Urstypes.h
 api_name:
 - URS_ROLE, *PURS_ROLE
-product:
-- Windows
 targetos: Windows
 req.typenames: URS_ROLE, *PURS_ROLE
 ---

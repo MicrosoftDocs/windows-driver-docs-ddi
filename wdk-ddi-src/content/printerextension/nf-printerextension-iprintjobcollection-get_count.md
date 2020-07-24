@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IPrintJobCollection.Count
 - IPrintJobCollection.get_Count
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

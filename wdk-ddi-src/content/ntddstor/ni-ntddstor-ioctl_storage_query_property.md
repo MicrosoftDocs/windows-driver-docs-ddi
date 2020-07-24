@@ -37,8 +37,6 @@ api_location:
 - Ntddstor.h
 api_name:
 - IOCTL_STORAGE_QUERY_PROPERTY
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

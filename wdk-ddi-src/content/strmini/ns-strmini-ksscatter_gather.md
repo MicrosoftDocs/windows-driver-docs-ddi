@@ -37,8 +37,6 @@ api_location:
 - Strmini.h
 api_name:
 - KSSCATTER_GATHER
-product:
-- Windows
 targetos: Windows
 req.typenames: KSSCATTER_GATHER, *PKSSCATTER_GATHER
 ---

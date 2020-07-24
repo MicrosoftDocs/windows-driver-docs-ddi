@@ -37,8 +37,6 @@ api_location:
 - Ufs.h
 api_name:
 - UFS_RPMB_UNIT_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: UFS_RPMB_UNIT_DESCRIPTOR, *PUFS_RPMB_UNIT_DESCRIPTOR
 ---

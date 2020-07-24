@@ -37,8 +37,6 @@ api_location:
 - wsk.h
 api_name:
 - WskDisconnect
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

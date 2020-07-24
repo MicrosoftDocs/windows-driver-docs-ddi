@@ -37,8 +37,6 @@ api_location:
 - prcomoem.h
 api_name:
 - IPrintCoreUI2.WhyConstrained
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

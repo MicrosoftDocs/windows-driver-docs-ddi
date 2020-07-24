@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IoGetCurrentProcess
 - PsGetCurrentProcess
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

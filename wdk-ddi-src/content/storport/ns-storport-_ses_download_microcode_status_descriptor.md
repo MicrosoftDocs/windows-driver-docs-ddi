@@ -37,8 +37,6 @@ api_location:
 - scsi.h
 api_name:
 - SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR, *PSES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR
 ---

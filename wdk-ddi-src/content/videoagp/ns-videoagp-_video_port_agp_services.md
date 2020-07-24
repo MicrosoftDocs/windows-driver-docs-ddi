@@ -37,8 +37,6 @@ api_location:
 - videoagp.h
 api_name:
 - VIDEO_PORT_AGP_SERVICES
-product:
-- Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
 ---

@@ -37,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_PCO_VALUE
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_PCO_VALUE, *PWWAN_PCO_VALUE
 ---

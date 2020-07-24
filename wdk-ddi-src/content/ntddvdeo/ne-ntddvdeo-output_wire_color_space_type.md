@@ -30,8 +30,6 @@ api_location:
  - ntddvdeo.h
 api_name: 
  - OUTPUT_WIRE_COLOR_SPACE_TYPE
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

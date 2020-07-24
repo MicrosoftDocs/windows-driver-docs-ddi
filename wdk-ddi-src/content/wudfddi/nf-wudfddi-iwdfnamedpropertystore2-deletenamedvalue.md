@@ -37,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFNamedPropertyStore2.DeleteNamedValue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

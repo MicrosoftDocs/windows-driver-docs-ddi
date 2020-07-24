@@ -37,8 +37,6 @@ api_location:
 - wsk.h
 api_name:
 - WSK_EXTENSION_CONTROL_IN
-product:
-- Windows
 targetos: Windows
 req.typenames: WSK_EXTENSION_CONTROL_IN, *PWSK_EXTENSION_CONTROL_IN
 ---

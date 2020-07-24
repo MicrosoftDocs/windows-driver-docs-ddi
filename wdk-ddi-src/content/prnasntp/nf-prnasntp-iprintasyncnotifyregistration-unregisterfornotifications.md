@@ -37,8 +37,6 @@ api_location:
 - Prnasntp.h
 api_name:
 - IPrintAsyncNotifyRegistration.UnregisterForNotifications
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

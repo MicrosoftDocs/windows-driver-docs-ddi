@@ -37,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NDIS_SYSTEM_PROCESSOR_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_SYSTEM_PROCESSOR_INFO, *PNDIS_SYSTEM_PROCESSOR_INFO
 ---

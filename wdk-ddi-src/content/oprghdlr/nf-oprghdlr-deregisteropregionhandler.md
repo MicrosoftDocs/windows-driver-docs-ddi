@@ -38,8 +38,6 @@ api_location:
 - Oprghdlr.dll
 api_name:
 - DeRegisterOpRegionHandler
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - pmi.h
 api_name:
 - PMI_REPORTED_CAPABILITIES
-product:
-- Windows
 targetos: Windows
 req.typenames: PMI_REPORTED_CAPABILITIES, *PPMI_REPORTED_CAPABILITIES
 ---

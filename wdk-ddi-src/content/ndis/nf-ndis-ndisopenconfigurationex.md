@@ -38,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisOpenConfigurationEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

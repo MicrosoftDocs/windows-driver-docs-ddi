@@ -37,8 +37,6 @@ api_location:
 - DbgEng.h
 api_name:
 - DEBUG_SPECIFIC_FILTER_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: DEBUG_SPECIFIC_FILTER_PARAMETERS, *PDEBUG_SPECIFIC_FILTER_PARAMETERS
 ---

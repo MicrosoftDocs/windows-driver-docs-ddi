@@ -37,8 +37,6 @@ api_location:
 - prcomoem.h
 api_name:
 - IPrintOemDriverUni.DrvGetStandardVariable
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

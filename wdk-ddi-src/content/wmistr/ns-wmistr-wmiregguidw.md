@@ -37,8 +37,6 @@ api_location:
 - wmistr.h
 api_name:
 - WMIREGGUID
-product:
-- Windows
 targetos: Windows
 req.typenames: WMIREGGUIDW, *PWMIREGGUIDW
 ---

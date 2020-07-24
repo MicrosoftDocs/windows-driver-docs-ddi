@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IPrintSchemaElement.XmlNode
 - IPrintSchemaElement.get_XmlNode
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - IO_PAGING_PRIORITY
-product:
-- Windows
 targetos: Windows
 req.typenames: IO_PAGING_PRIORITY
 ---

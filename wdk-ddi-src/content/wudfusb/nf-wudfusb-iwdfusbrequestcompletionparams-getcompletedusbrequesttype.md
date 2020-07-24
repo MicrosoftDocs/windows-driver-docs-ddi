@@ -37,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFUsbRequestCompletionParams.GetCompletedUsbRequestType
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

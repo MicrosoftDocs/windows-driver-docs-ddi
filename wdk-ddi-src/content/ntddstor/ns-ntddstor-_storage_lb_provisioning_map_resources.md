@@ -37,8 +37,6 @@ api_location:
 - Ntddstor.h
 api_name:
 - STORAGE_LB_PROVISIONING_MAP_RESOURCES
-product:
-- Windows
 targetos: Windows
 req.typenames: STORAGE_LB_PROVISIONING_MAP_RESOURCES, *PSTORAGE_LB_PROVISIONING_MAP_RESOURCES
 ---

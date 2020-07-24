@@ -37,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoRegisterPlugPlayNotification
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: 19H1

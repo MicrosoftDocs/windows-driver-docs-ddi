@@ -37,8 +37,6 @@ api_location:
 - Usbscan.h
 api_name:
 - IOCTL_RESET_PIPE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

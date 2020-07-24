@@ -37,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_SET_SMS_CONFIGURATION
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_SET_SMS_CONFIGURATION, *PWWAN_SET_SMS_CONFIGURATION
 ---

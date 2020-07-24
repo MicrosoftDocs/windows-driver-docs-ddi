@@ -38,8 +38,6 @@ api_location:
 - Udecxstub.dll
 api_name:
 - UDECX_USB_DEVICE_CALLBACKS_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_LTE_MRL
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_LTE_MRL, *PWWAN_LTE_MRL
 ---

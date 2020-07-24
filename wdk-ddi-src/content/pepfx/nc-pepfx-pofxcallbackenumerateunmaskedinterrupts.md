@@ -37,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - EnumerateUnmaskedInterrupts
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

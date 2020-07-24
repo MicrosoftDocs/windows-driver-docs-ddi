@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - IoQueryFileInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

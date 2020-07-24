@@ -31,8 +31,6 @@ api_location:
 - ntifs.h
 api_name: 
 - _VIRTUAL_STORAGE_SET_BEHAVIOR_INPUT
-product:
-- Windows
 targetos: Windows
 ---
 

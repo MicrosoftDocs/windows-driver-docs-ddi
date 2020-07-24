@@ -37,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - PEP_PROCESSOR_IDLE_STATE_UPDATE
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_PROCESSOR_IDLE_STATE_UPDATE, *PPEP_PROCESSOR_IDLE_STATE_UPDATE
 ---

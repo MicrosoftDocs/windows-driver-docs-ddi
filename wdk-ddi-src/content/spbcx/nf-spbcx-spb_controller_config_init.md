@@ -37,8 +37,6 @@ api_location:
 - Spbcx.h
 api_name:
 - SPB_CONTROLLER_CONFIG_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

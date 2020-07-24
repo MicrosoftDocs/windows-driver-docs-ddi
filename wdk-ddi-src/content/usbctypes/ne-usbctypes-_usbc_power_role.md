@@ -27,8 +27,6 @@ api_location:
 - usbctypes.h
 api_name: 
 - _USBC_POWER_ROLE
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

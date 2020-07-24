@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - FSCTL_OFFLOAD_WRITE_OUTPUT
-product:
-- Windows
 targetos: Windows
 req.typenames: FSCTL_OFFLOAD_WRITE_OUTPUT, *PFSCTL_OFFLOAD_WRITE_OUTPUT
 ---

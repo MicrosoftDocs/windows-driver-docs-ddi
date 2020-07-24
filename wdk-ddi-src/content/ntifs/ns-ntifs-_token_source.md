@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - TOKEN_SOURCE
-product:
-- Windows
 targetos: Windows
 req.typenames: TOKEN_SOURCE, *PTOKEN_SOURCE
 ---

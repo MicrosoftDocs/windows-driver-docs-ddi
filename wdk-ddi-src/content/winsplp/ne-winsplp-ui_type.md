@@ -37,8 +37,6 @@ api_location:
 - Winsplp.h
 api_name:
 - UI_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: UI_TYPE
 ---

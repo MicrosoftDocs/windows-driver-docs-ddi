@@ -37,8 +37,6 @@ api_location:
 - rxprocs.h
 api_name:
 - RxPurgeAllFobxs
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - FILE_ZERO_DATA_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: FILE_ZERO_DATA_INFORMATION, *PFILE_ZERO_DATA_INFORMATION
 ---

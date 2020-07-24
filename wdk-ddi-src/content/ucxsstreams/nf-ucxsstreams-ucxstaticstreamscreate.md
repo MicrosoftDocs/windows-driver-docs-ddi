@@ -37,8 +37,6 @@ api_location:
 - ucxsstreams.h
 api_name:
 - UcxStaticStreamsCreate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

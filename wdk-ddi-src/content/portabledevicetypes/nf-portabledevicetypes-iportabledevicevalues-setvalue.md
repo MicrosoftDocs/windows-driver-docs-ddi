@@ -37,8 +37,6 @@ api_location:
 - PortableDeviceTypes.h
 api_name:
 - IPortableDeviceValues.SetValue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

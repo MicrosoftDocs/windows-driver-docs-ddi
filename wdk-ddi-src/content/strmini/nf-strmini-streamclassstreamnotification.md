@@ -38,8 +38,6 @@ api_location:
 - Stream.dll
 api_name:
 - StreamClassStreamNotification
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

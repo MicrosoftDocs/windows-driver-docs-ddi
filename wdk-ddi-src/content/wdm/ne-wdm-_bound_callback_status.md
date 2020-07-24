@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - BOUND_CALLBACK_STATUS
-product:
-- Windows
 targetos: Windows
 req.typenames: BOUND_CALLBACK_STATUS, *PBOUND_CALLBACK_STATUS
 ---

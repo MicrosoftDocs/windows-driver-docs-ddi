@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ZwOpenDirectoryObject
 - NtCreateDirectoryObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

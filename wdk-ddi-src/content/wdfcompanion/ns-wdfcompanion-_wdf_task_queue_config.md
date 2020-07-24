@@ -37,8 +37,6 @@ api_location:
 - wdfcompanion.h
 api_name:
 - WDF_TASK_QUEUE_CONFIG
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_TASK_QUEUE_CONFIG, *PWDF_TASK_QUEUE_CONFIG
 ---

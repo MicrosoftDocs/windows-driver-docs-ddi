@@ -37,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION
-product:
-- Windows
 targetos: Windows
 req.typenames: IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, *PIPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION
 ---

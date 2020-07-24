@@ -37,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - LOCK_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: LOCK_STATE, *PLOCK_STATE
 ---

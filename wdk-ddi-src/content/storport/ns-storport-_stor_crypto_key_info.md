@@ -37,8 +37,6 @@ api_location:
 - Storport.h
 api_name:
 - STOR_CRYPTO_KEY_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: STOR_CRYPTO_KEY_INFO, *PSTOR_CRYPTO_KEY_INFO
 ---

@@ -37,8 +37,6 @@ api_location:
 - usbfnattach.h
 api_name:
 - USBFN_SET_DEVICE_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

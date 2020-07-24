@@ -37,8 +37,6 @@ api_location:
 - wlclient.h
 api_name:
 - DOT11_ADAPTER
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT11_ADAPTER, *PDOT11_ADAPTER
 req.product: Windows 10 or later.

@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - WIM_PROVIDER_EXTERNAL_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: WIM_PROVIDER_EXTERNAL_INFO, *PWIM_PROVIDER_EXTERNAL_INFO
 ---

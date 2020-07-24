@@ -37,8 +37,6 @@ api_location:
 - vhf.h
 api_name:
 - VHF_CONFIG
-product:
-- Windows
 targetos: Windows
 req.typenames: VHF_CONFIG, *PVHF_CONFIG
 ---

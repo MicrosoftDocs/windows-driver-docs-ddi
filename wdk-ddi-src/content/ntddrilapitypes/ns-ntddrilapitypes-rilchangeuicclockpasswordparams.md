@@ -37,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILCHANGEUICCLOCKPASSWORDPARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILCHANGEUICCLOCKPASSWORDPARAMS, *LPRILCHANGEUICCLOCKPASSWORDPARAMS
 ---

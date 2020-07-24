@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - FILE_COMPLETION_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: FILE_COMPLETION_INFORMATION, *PFILE_COMPLETION_INFORMATION
 ---

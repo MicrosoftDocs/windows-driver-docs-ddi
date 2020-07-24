@@ -37,8 +37,6 @@ api_location:
 - prntfont.h
 api_name:
 - UNIDRVINFO
-product:
-- Windows
 targetos: Windows
 req.typenames: UNIDRVINFO, *PUNIDRVINFO
 ---

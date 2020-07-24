@@ -37,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFDeviceInitialize.GetPnpCapability
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

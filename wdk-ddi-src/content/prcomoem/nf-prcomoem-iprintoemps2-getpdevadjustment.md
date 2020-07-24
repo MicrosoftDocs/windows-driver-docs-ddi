@@ -37,8 +37,6 @@ api_location:
 - prcomoem.h
 api_name:
 - IPrintOemPS2.GetPDEVAdjustment
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

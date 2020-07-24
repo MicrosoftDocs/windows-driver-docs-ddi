@@ -33,8 +33,6 @@ api_location:
 - wdm.h
 api_name: 
 - IOMMU_FLUSH_DOMAIN_VA_LIST
-product:
-- Windows
 targetos: Windows
 ---
 

@@ -37,8 +37,6 @@ api_location:
 - wudfddi.h
 api_name:
 - IQueueCallbackDeviceIoControl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - usbspec.h
 api_name:
 - USB_COMMON_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: USB_COMMON_DESCRIPTOR, *PUSB_COMMON_DESCRIPTOR
 ---

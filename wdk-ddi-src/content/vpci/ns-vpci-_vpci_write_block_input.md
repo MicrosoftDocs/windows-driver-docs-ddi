@@ -37,8 +37,6 @@ api_location:
 - Vpci.h
 api_name:
 - VPCI_WRITE_BLOCK_INPUT
-product:
-- Windows
 targetos: Windows
 req.typenames: VPCI_WRITE_BLOCK_INPUT, *PVPCI_WRITE_BLOCK_INPUT
 ---

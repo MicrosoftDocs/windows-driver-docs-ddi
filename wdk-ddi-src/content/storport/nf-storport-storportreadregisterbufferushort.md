@@ -38,8 +38,6 @@ api_location:
 - Storport.dll
 api_name:
 - StorPortReadRegisterBufferUshort
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

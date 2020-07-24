@@ -37,8 +37,6 @@ api_location:
 - Spbcx.h
 api_name:
 - SPB_TRANSFER_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: SPB_TRANSFER_DESCRIPTOR, *PSPB_TRANSFER_DESCRIPTOR
 ---

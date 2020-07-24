@@ -37,8 +37,6 @@ api_location:
 - ucxendpoint.h
 api_name:
 - UcxEndpointNeedToCancelTransfers
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

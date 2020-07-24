@@ -37,8 +37,6 @@ api_location:
 - Ntifs.h
 api_name:
 - RtlSetThreadPlaceholderCompatibilityMode
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

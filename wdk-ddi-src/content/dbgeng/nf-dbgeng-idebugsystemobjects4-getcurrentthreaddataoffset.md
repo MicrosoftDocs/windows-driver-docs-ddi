@@ -40,8 +40,6 @@ api_name:
 - IDebugSystemObjects2.GetCurrentThreadDataOffset
 - IDebugSystemObjects3.GetCurrentThreadDataOffset
 - IDebugSystemObjects4.GetCurrentThreadDataOffset
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

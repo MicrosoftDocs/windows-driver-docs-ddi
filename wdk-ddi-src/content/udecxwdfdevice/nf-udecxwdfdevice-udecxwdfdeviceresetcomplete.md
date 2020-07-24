@@ -38,8 +38,6 @@ api_location:
 - Udecxstub.dll
 api_name:
 - UdecxWdfDeviceResetComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

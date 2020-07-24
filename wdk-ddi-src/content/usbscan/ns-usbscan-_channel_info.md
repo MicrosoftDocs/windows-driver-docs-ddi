@@ -37,8 +37,6 @@ api_location:
 - usbscan.h
 api_name:
 - CHANNEL_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: CHANNEL_INFO, *PCHANNEL_INFO
 ---

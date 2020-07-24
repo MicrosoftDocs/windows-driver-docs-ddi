@@ -37,8 +37,6 @@ api_location:
 - scsi.h
 api_name:
 - VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE
-product:
-- Windows
 targetos: Windows
 req.typenames: VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE, *PVPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE
 ---

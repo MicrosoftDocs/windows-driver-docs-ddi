@@ -37,8 +37,6 @@ api_location:
 - Ntifs.h
 api_name:
 - REFS_SMR_VOLUME_GC_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: REFS_SMR_VOLUME_GC_STATE, *PREFS_SMR_VOLUME_GC_STATE
 ---

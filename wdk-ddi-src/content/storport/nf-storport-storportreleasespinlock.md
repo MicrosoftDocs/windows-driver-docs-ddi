@@ -37,8 +37,6 @@ api_location:
 - storport.h
 api_name:
 - StorPortReleaseSpinLock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

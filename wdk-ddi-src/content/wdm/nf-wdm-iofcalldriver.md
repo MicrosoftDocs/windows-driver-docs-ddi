@@ -36,8 +36,6 @@ api_location:
 api_name: 
 - IofCallDriver
 - IoCallDriver
-product:
-- Windows
 targetos: Windows
 
 

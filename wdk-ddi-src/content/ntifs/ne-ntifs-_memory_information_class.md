@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - MEMORY_INFORMATION_CLASS
-product:
-- Windows
 targetos: Windows
 req.typenames: MEMORY_INFORMATION_CLASS
 ---

@@ -37,8 +37,6 @@ api_location:
 - ntddndis.h
 api_name:
 - NDIS_WMI_SET_HEADER
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_WMI_SET_HEADER, *PNDIS_WMI_SET_HEADER
 ---

@@ -34,8 +34,6 @@ api_location:
 - vmbuskernelmodeclientlibapi.h
 api_name: 
 - FN_VMB_CLIENT_CHANNEL_INIT_SET_TARGET_PNP
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

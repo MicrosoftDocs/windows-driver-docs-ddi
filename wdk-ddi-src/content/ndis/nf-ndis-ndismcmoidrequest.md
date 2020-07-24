@@ -38,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisMCmOidRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

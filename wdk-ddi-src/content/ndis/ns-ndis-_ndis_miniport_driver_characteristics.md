@@ -37,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NDIS_MINIPORT_DRIVER_CHARACTERISTICS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_MINIPORT_DRIVER_CHARACTERISTICS, *PNDIS_MINIPORT_DRIVER_CHARACTERISTICS
 ---

@@ -37,8 +37,6 @@ api_location:
 - printoem.h
 api_name:
 - OEMQueryDeviceSupport
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

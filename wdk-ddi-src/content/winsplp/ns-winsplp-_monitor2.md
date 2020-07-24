@@ -37,8 +37,6 @@ api_location:
 - winsplp.h
 api_name:
 - MONITOR2
-product:
-- Windows
 targetos: Windows
 req.typenames: MONITOR2, *PMONITOR2, *LPMONITOR2
 ---

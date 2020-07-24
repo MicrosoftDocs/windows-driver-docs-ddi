@@ -37,8 +37,6 @@ api_location:
 - prdrvcom.h
 api_name:
 - IPrintOemPrintTicketProvider.BindPrinter
-product:
-- Windows
 targetos: Windows
 req.typenames: SHIMOPTS, *PSHIMOPTS
 req.product: Windows 10 or later.

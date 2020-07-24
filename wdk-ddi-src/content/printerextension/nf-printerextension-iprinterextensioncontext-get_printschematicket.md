@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IPrinterExtensionContext.PrintSchemaTicket
 - IPrinterExtensionContext.get_PrintSchemaTicket
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

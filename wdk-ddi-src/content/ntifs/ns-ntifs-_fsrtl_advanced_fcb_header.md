@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - FSRTL_ADVANCED_FCB_HEADER
-product:
-- Windows
 targetos: Windows
 req.typenames: FSRTL_ADVANCED_FCB_HEADER, FSRTL_UNC_PROVIDER_REGISTRATION, *PFSRTL_UNC_PROVIDER_REGISTRATION
 ---

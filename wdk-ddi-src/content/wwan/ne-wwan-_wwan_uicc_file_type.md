@@ -28,8 +28,6 @@ api_location:
 - wwan.h
 api_name: 
 - _WWAN_UICC_FILE_TYPE
-product:
-- Windows
 targetos: Windows
 ms.custom: 19H1
 ---

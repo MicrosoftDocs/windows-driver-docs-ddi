@@ -37,8 +37,6 @@ api_location:
 - oemrilapitypes.h
 api_name:
 - RILGBATOKEN
-product:
-- Windows
 targetos: Windows
 req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ---

@@ -37,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - BDCB_IMAGE_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: BDCB_IMAGE_INFORMATION, *PBDCB_IMAGE_INFORMATION
 ---

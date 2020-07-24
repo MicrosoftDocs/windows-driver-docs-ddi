@@ -37,8 +37,6 @@ api_location:
 - SensorsCx.h
 api_name:
 - EvtSensorSetDataThresholds
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

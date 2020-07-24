@@ -38,8 +38,6 @@ api_location:
 - Ntdll.dll
 api_name:
 - RtlSubAuthoritySid
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -28,8 +28,6 @@ api_location:
 - ucmucsippmrequests.h
 api_name: 
 - _UCMUCSI_PPM_IOCTL
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

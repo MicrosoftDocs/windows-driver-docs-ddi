@@ -37,8 +37,6 @@ api_location:
 - wdfobject.h
 api_name:
 - WDF_OBJECT_ATTRIBUTES_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

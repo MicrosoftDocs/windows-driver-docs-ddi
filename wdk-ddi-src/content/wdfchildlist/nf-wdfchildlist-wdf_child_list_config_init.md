@@ -37,8 +37,6 @@ api_location:
 - wdfchildlist.h
 api_name:
 - WDF_CHILD_LIST_CONFIG_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

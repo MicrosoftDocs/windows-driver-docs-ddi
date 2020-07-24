@@ -37,8 +37,6 @@ api_location:
 - ntddvdeo.h
 api_name:
 - VIDEO_WIN32K_CALLBACKS_PARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: VIDEO_WIN32K_CALLBACKS_PARAMS, *PVIDEO_WIN32K_CALLBACKS_PARAMS
 ---

@@ -33,8 +33,6 @@ api_location:
 - trustedruntimeclx.h
 api_name: 
 - EVT_TR_DESTROY_SECURE_SERVICE_CONTEXT
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

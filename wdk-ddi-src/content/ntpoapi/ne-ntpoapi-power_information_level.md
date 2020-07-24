@@ -37,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - POWER_INFORMATION_LEVEL
-product:
-- Windows
 targetos: Windows
 req.typenames: POWER_INFORMATION_LEVEL
 ---

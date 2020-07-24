@@ -37,8 +37,6 @@ api_location:
 - Storport.h
 api_name:
 - StorPortQueryPerformanceCounter
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

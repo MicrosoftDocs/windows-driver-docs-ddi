@@ -37,8 +37,6 @@ api_location:
 - swenum.h
 api_name:
 - SWENUM_INSTALL_INTERFACE
-product:
-- Windows
 targetos: Windows
 req.typenames: SWENUM_INSTALL_INTERFACE, *PSWENUM_INSTALL_INTERFACE
 ---

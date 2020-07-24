@@ -37,8 +37,6 @@ api_location:
 - wdfcompaniontarget.h
 api_name:
 - WdfCompanionTargetSendTaskSynchronously
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

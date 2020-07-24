@@ -34,8 +34,6 @@ api_location:
 - vmbuskernelmodeclientlibapi.h
 api_name: 
 - FN_VMB_CHANNEL_PACKET_GET_EXTERNAL_DATA
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

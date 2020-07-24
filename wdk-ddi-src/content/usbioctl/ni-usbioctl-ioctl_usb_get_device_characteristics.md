@@ -37,8 +37,6 @@ api_location:
 - Usbioctl.h
 api_name:
 - IOCTL_USB_GET_DEVICE_CHARACTERISTICS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

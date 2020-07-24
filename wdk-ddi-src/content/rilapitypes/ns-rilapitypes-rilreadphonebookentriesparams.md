@@ -37,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILREADPHONEBOOKENTRIESPARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILREADPHONEBOOKENTRIESPARAMS, *LPRILREADPHONEBOOKENTRIESPARAMS
 ---

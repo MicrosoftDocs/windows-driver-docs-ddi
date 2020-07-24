@@ -37,8 +37,6 @@ api_location:
 - scsiwmi.h
 api_name:
 - ScsiPortWmiSetInstanceCount
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

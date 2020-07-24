@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - TRANSACTION_OUTCOME
-product:
-- Windows
 targetos: Windows
 req.typenames: TRANSACTION_OUTCOME
 ---

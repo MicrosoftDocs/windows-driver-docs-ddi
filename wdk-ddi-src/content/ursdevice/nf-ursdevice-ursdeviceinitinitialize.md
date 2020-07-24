@@ -38,8 +38,6 @@ api_location:
 - Urscxstub.dll
 api_name:
 - UrsDeviceInitInitialize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

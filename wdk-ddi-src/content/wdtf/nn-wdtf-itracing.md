@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ITracing
 - ITracing.SetTraceLevel
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

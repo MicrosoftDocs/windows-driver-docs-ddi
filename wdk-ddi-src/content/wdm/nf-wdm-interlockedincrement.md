@@ -42,8 +42,6 @@ api_location:
 - MinKernelBase.dll
 api_name:
 - InterlockedIncrement
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - printoem.h
 api_name:
 - PDEV_ADJUST_PAPER_MARGIN
-product:
-- Windows
 targetos: Windows
 req.typenames: PDEV_ADJUST_PAPER_MARGIN
 ---

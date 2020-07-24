@@ -37,8 +37,6 @@ api_location:
 - WdfDmaTransaction.h
 api_name:
 - EvtDmaTransactionConfigureDmaChannel
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

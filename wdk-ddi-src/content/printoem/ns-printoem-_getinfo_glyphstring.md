@@ -37,8 +37,6 @@ api_location:
 - printoem.h
 api_name:
 - GETINFO_GLYPHSTRING
-product:
-- Windows
 targetos: Windows
 req.typenames: GETINFO_GLYPHSTRING, *PGETINFO_GLYPHSTRING
 ---

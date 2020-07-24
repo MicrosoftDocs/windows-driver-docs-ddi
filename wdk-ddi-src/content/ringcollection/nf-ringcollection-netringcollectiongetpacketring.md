@@ -38,8 +38,6 @@ apilocation:
 apiname: 
 - NetRingCollectionGetPacketRing
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetRingCollectionGetPacketRing function

@@ -37,8 +37,6 @@ api_location:
 - Printerextension.h
 api_name:
 - IPrintSchematicket2.GetParameterInitializer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

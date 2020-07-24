@@ -37,8 +37,6 @@ api_location:
 - wdfrequest.h
 api_name:
 - WDF_REQUEST_REUSE_PARAMS_SET_NEW_IRP
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

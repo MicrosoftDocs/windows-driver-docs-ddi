@@ -37,8 +37,6 @@ api_location:
 - printerextension.h
 api_name:
 - IPrintSchemaTicket.CommitAsync
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

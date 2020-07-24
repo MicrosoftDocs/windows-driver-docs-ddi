@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IWDTFSystemAction2.IsRestarted
 - IWDTFSystemAction2.get_IsRestarted
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

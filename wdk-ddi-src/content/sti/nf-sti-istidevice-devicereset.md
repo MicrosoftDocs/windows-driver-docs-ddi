@@ -37,8 +37,6 @@ api_location:
 - Sti.h
 api_name:
 - IStiDevice.DeviceReset
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

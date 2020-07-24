@@ -37,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILREADMSGPARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILREADMSGPARAMS, *LPRILREADMSGPARAMS
 ---

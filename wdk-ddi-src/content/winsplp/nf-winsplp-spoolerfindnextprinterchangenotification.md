@@ -37,8 +37,6 @@ api_location:
 - Winsplp.h
 api_name:
 - SpoolerFindNextPrinterChangeNotification
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

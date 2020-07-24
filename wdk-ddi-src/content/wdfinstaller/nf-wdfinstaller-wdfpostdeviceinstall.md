@@ -38,8 +38,6 @@ api_location:
 - N/A.dll
 api_name:
 - WdfPostDeviceInstall
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

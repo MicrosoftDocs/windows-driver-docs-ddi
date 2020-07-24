@@ -37,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NET_BUFFER_HEADER
-product:
-- Windows
 targetos: Windows
 req.typenames: NET_BUFFER_HEADER, *PNET_BUFFER_HEADER
 ---

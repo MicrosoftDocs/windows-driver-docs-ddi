@@ -37,8 +37,6 @@ api_location:
 - wmistr.h
 api_name:
 - WNODE_SINGLE_INSTANCE
-product:
-- Windows
 targetos: Windows
 req.typenames: WNODE_SINGLE_INSTANCE, *PWNODE_SINGLE_INSTANCE
 ---

@@ -37,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILTONESIGNALINFO_V1
-product:
-- Windows
 targetos: Windows
 req.typenames: RILTONESIGNALINFO_V1, *LPRILTONESIGNALINFO_V1
 ---

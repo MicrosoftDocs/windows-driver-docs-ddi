@@ -37,8 +37,6 @@ api_location:
 - Stiusd.h
 api_name:
 - IStiDeviceControl.GetMyDeviceHandle
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

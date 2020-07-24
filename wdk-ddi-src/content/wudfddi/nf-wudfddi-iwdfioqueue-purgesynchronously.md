@@ -37,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFIoQueue.PurgeSynchronously
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

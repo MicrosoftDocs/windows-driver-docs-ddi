@@ -37,8 +37,6 @@ api_location:
 - Wiaservc.dll
 api_name:
 - wiasFormatArgs
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

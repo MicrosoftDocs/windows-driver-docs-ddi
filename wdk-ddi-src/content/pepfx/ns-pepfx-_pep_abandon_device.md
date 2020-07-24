@@ -37,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - PEP_ABANDON_DEVICE
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_ABANDON_DEVICE, *PPEP_ABANDON_DEVICE
 ---

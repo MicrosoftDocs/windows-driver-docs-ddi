@@ -35,8 +35,6 @@ api_location:
 - ndis.h
 api_name: 
 - NET_BUFFER_CHECKSUM_BIAS
-product:
-- Windows
 targetos: Windows
 
 ---

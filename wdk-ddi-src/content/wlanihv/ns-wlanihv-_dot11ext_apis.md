@@ -37,8 +37,6 @@ api_location:
 - wlanihv.h
 api_name:
 - DOT11EXT_APIS
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT11EXT_APIS, *PDOT11EXT_APIS
 req.product: Windows 10 or later.

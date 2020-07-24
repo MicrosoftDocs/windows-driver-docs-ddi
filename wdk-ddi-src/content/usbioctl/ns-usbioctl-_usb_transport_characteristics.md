@@ -37,8 +37,6 @@ api_location:
 - Usbioctl.h
 api_name:
 - USB_TRANSPORT_CHARACTERISTICS
-product:
-- Windows
 targetos: Windows
 req.typenames: USB_TRANSPORT_CHARACTERISTICS, *PUSB_TRANSPORT_CHARACTERISTICS
 ---

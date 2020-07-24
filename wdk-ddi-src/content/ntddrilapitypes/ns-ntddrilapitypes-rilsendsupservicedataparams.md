@@ -37,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILSENDSUPSERVICEDATAPARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILSENDSUPSERVICEDATAPARAMS, *LPRILSENDSUPSERVICEDATAPARAMS
 ---

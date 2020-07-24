@@ -37,8 +37,6 @@ api_location:
 - Scsiscan.h
 api_name:
 - IOCTL_SCSISCAN_CMD
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

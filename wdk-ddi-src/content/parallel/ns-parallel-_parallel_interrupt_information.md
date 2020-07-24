@@ -37,8 +37,6 @@ api_location:
 - parallel.h
 api_name:
 - PARALLEL_INTERRUPT_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: PARALLEL_INTERRUPT_INFORMATION, *PPARALLEL_INTERRUPT_INFORMATION
 ---

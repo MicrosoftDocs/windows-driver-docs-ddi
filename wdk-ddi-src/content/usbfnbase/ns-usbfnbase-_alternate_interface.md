@@ -37,8 +37,6 @@ api_location:
 - usbfnbase.h
 api_name:
 - ALTERNATE_INTERFACE
-product:
-- Windows
 targetos: Windows
 req.typenames: ALTERNATE_INTERFACE, *PALTERNATE_INTERFACE
 ---

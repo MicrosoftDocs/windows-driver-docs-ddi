@@ -37,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_BASE_STATIONS_INFO_REQ
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_BASE_STATIONS_INFO_REQ, *PWWAN_BASE_STATIONS_INFO_REQ
 ---

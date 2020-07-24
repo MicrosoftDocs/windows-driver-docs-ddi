@@ -37,8 +37,6 @@ api_location:
 - WdfIoTarget.h
 api_name:
 - EvtIoTargetRemoveCanceled
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

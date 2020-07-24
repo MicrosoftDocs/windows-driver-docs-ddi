@@ -35,8 +35,6 @@ api_location:
 - ndis.h
 api_name: 
 - NET_BUFFER_SHARED_MEM_LENGTH
-product:
-- Windows
 targetos: Windows
 
 ---

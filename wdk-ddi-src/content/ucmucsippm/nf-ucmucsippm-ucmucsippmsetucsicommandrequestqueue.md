@@ -35,8 +35,6 @@ api_location:
 - UcmUcsiCxStub.lib
 api_name: 
 - UcmUcsiPpmSetUcsiCommandRequestQueue
-product:
-- Windows
 targetos: Windows
 
 

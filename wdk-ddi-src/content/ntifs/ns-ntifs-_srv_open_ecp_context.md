@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - SRV_OPEN_ECP_CONTEXT
-product:
-- Windows
 targetos: Windows
 req.typenames: SRV_OPEN_ECP_CONTEXT, *PSRV_OPEN_ECP_CONTEXT
 ---

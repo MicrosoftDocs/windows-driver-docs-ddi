@@ -37,8 +37,6 @@ api_location:
 - wditypes.hpp
 api_name:
 - WDI_FIPS_MODE
-product:
-- Windows
 targetos: Windows
 req.typenames: WDI_FIPS_MODE
 ---

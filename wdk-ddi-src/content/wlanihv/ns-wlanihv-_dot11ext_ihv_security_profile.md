@@ -37,8 +37,6 @@ api_location:
 - wlanihv.h
 api_name:
 - DOT11EXT_IHV_SECURITY_PROFILE
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT11EXT_IHV_SECURITY_PROFILE, *PDOT11EXT_IHV_SECURITY_PROFILE
 req.product: Windows 10 or later.

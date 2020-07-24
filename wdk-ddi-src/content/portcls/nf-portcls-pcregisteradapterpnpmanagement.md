@@ -38,8 +38,6 @@ api_location:
 - Portcls.dll
 api_name:
 - PcRegisterAdapterPnPManagement
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

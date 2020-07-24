@@ -37,8 +37,6 @@ api_location:
 - Ntddvdeo.h
 api_name:
 - IOCTL_VIDEO_ENABLE_CURSOR
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

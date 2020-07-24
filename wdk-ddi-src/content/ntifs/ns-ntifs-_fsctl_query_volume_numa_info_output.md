@@ -37,8 +37,6 @@ api_location:
 - Ntifs.h
 api_name:
 - FSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT
-product:
-- Windows
 targetos: Windows
 req.typenames: FSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT, *PFSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT
 ---

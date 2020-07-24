@@ -37,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_EMERGENCY_MODE
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_EMERGENCY_MODE, *PWWAN_EMERGENCY_MODE
 ---

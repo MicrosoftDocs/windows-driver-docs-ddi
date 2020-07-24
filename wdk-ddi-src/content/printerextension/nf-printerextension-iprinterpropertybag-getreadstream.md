@@ -37,8 +37,6 @@ api_location:
 - Printerextension.h
 api_name:
 - IPrinterPropertyBag.GetReadStream
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - RtlDecompressChunks
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

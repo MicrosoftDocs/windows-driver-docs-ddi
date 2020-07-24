@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - FILE_LINK_ENTRY_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: FILE_LINK_ENTRY_INFORMATION, *PFILE_LINK_ENTRY_INFORMATION
 ---

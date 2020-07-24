@@ -37,8 +37,6 @@ api_location:
 - Strmini.h
 api_name:
 - STREAM_TIME_REFERENCE
-product:
-- Windows
 targetos: Windows
 req.typenames: STREAM_TIME_REFERENCE, *PSTREAM_TIME_REFERENCE
 ---

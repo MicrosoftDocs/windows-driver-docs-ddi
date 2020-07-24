@@ -37,8 +37,6 @@ api_location:
 - UdecxUsbDevice.h
 api_name:
 - UDECX_ENDPOINTS_CONFIGURE_PARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: UDECX_ENDPOINTS_CONFIGURE_PARAMS, *PUDECX_ENDPOINTS_CONFIGURE_PARAMS
 ---

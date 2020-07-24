@@ -28,8 +28,6 @@ api_location:
 - ntpoapi.h
 api_name: 
 - POWER_MONITOR_REQUEST_REASON
-product:
-- Windows
 targetos: Windows
 ---
 

@@ -37,8 +37,6 @@ api_location:
 - prdrvcom.h
 api_name:
 - IPrintTicketProvider.GetPrintCapabilities
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

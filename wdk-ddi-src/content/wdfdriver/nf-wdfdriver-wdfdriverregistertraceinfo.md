@@ -37,8 +37,6 @@ api_location:
 - Wdfdriver.h
 api_name:
 - WdfDriverRegisterTraceInfo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

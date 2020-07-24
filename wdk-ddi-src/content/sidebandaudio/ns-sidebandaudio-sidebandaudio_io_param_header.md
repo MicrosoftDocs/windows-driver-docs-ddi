@@ -30,8 +30,6 @@ api_location:
 - sidebandaudio.h
 api_name: 
 - SIDEBANDAUDIO_IO_PARAM_HEADER
-product:
-- Windows
 targetos: Windows
 tech.root: audio
 ms.custom: RS5

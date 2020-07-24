@@ -37,8 +37,6 @@ api_location:
 - Storport.h
 api_name:
 - SRBEX_DATA_PNP
-product:
-- Windows
 targetos: Windows
 req.typenames: SRBEX_DATA_PNP, *PSRBEX_DATA_PNP
 ---

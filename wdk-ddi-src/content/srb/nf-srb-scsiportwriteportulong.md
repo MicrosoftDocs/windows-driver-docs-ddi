@@ -38,8 +38,6 @@ api_location:
 - Scsiport.dll
 api_name:
 - ScsiPortWritePortUlong
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IDebugSystemObjects3.GetTotalNumberThreadsAndProcesses
 - IDebugSystemObjects4.GetTotalNumberThreadsAndProcesses
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

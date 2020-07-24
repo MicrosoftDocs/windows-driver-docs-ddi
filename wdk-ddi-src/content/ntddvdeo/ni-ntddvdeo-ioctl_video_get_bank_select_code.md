@@ -37,8 +37,6 @@ api_location:
 - Ntddvdeo.h
 api_name:
 - IOCTL_VIDEO_GET_BANK_SELECT_CODE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

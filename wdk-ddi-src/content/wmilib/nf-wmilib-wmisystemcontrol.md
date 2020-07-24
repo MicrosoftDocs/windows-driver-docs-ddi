@@ -38,8 +38,6 @@ api_location:
 - Wmilib.dll
 api_name:
 - WmiSystemControl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

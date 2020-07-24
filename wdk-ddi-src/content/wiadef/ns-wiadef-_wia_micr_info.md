@@ -37,8 +37,6 @@ api_location:
 - wiadef.h
 api_name:
 - WIA_MICR_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: WIA_MICR_INFO
 ---

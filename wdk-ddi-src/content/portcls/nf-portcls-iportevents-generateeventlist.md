@@ -37,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IPortEvents.GenerateEventList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

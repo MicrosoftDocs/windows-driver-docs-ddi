@@ -37,8 +37,6 @@ api_location:
 - Wdfobject.h
 api_name:
 - EvtCleanupCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - wdfinstaller.h
 api_name:
 - WDF_COINSTALLER_INSTALL_OPTIONS_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

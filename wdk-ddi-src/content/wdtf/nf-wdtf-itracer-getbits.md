@@ -37,8 +37,6 @@ api_location:
 - wdtf.h
 api_name:
 - ITracer.GetBits
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

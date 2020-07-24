@@ -37,8 +37,6 @@ api_location:
 - wdfdevice.h
 api_name:
 - WDF_IO_TYPE_CONFIG_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

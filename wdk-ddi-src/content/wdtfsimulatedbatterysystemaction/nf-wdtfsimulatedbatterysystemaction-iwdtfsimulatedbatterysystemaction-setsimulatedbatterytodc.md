@@ -37,8 +37,6 @@ api_location:
 - wdtfsimulatedbatterysystemaction.h
 api_name:
 - IWDTFSimulatedBatterySystemAction.SetSimulatedBatteryToDC
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

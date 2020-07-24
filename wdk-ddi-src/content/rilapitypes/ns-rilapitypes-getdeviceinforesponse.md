@@ -36,8 +36,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - GETDEVICEINFORESPONSE
-product:
-- Windows
 targetos: Windows
 req.typenames: GETDEVICEINFORESPONSE, *LPGETDEVICEINFORESPONSE
 ---

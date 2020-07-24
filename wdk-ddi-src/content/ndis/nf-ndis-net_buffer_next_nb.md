@@ -35,8 +35,6 @@ api_location:
 - ndis.h
 api_name: 
 - NET_BUFFER_NEXT_NB
-product:
-- Windows
 targetos: Windows
 
 ---

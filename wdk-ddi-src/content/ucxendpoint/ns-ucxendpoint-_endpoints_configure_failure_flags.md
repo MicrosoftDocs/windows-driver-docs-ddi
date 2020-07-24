@@ -37,8 +37,6 @@ api_location:
 - ucxendpoint.h
 api_name:
 - ENDPOINTS_CONFIGURE_FAILURE_FLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: ENDPOINTS_CONFIGURE_FAILURE_FLAGS
 ---

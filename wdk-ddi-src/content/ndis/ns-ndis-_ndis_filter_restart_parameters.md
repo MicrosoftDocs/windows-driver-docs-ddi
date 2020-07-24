@@ -37,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NDIS_FILTER_RESTART_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_FILTER_RESTART_PARAMETERS, *PNDIS_FILTER_RESTART_PARAMETERS
 ---

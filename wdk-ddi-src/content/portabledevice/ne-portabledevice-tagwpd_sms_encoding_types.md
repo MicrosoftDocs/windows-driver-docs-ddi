@@ -37,8 +37,6 @@ api_location:
 - PortableDevice.h
 api_name:
 - WPD_SMS_ENCODING_TYPES
-product:
-- Windows
 targetos: Windows
 req.typenames: WPD_SMS_ENCODING_TYPES
 ms.custom: RS5

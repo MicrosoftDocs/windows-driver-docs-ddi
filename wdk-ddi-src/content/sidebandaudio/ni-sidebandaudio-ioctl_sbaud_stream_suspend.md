@@ -28,8 +28,6 @@ api_location:
 - sidebandaudio.h
 api_name: 
 - IOCTL_SBAUD_STREAM_SUSPEND
-product:
-- Windows
 targetos: Windows
 tech.root: audio
 ms.custom: RS5

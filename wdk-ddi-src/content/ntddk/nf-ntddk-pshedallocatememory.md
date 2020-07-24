@@ -37,8 +37,6 @@ api_location:
 - Pshed.dll
 api_name:
 - PshedAllocateMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

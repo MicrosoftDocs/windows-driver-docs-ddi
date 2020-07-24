@@ -36,8 +36,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_SIGNAL_STATE_EXT
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_SIGNAL_STATE_EXT, *PWWAN_SIGNAL_STATE_EXT
 ---

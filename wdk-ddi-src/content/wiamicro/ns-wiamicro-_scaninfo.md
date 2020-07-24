@@ -37,8 +37,6 @@ api_location:
 - wiamicro.h
 api_name:
 - SCANINFO
-product:
-- Windows
 targetos: Windows
 req.typenames: SCANINFO, *PSCANINFO
 ---

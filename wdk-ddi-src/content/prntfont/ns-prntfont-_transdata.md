@@ -37,8 +37,6 @@ api_location:
 - prntfont.h
 api_name:
 - TRANSDATA
-product:
-- Windows
 targetos: Windows
 req.typenames: TRANSDATA, *PTRANSDATA
 ---

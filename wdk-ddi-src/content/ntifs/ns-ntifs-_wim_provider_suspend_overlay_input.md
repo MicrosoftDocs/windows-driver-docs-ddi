@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - WIM_PROVIDER_SUSPEND_OVERLAY_INPUT
-product:
-- Windows
 targetos: Windows
 req.typenames: WIM_PROVIDER_SUSPEND_OVERLAY_INPUT, *PWIM_PROVIDER_SUSPEND_OVERLAY_INPUT
 ---

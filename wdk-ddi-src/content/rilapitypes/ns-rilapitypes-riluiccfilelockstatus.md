@@ -37,8 +37,6 @@ api_location:
 - rilapitypes.h
 api_name:
 - RILUICCFILELOCKSTATUS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILUICCFILELOCKSTATUS, *LPRILUICCFILELOCKSTATUS
 req.product: Windows 10 or later.

@@ -37,8 +37,6 @@ api_location:
 - 2.0\Sercx.h
 api_name:
 - SerCx2CustomReceiveTransactionInitializeComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

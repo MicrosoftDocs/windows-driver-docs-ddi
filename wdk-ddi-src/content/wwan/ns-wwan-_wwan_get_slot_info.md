@@ -37,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_GET_SLOT_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_GET_SLOT_INFO, *PWWAN_GET_SLOT_INFO
 ---

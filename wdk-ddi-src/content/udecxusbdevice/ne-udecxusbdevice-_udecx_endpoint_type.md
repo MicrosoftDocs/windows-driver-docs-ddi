@@ -37,8 +37,6 @@ api_location:
 - UdecxUsbDevice.h
 api_name:
 - UDECX_ENDPOINT_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: UDECX_ENDPOINT_TYPE, *PUDECX_ENDPOINT_TYPE
 ---

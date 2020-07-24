@@ -37,8 +37,6 @@ api_location:
 - Ucmmanager.h
 api_name:
 - UCM_MANAGER_CONFIG
-product:
-- Windows
 targetos: Windows
 req.typenames: UCM_MANAGER_CONFIG, *PUCM_MANAGER_CONFIG
 ---

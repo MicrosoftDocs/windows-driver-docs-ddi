@@ -37,8 +37,6 @@ api_location:
 - Spbcx.h
 api_name:
 - EvtSpbControllerIoOther
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

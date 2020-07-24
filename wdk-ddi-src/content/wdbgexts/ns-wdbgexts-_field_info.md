@@ -37,8 +37,6 @@ api_location:
 - WdbgExts.h
 api_name:
 - FIELD_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: FIELD_INFO, *PFIELD_INFO
 ---

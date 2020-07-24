@@ -37,8 +37,6 @@ api_location:
 - Ntddvol.h
 api_name:
 - IOCTL_VOLUME_READ_PLEX
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

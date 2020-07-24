@@ -38,8 +38,6 @@ api_location:
 - None.dll
 api_name:
 - WDF_WMI_BUFFER_APPEND_STRING
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - video.h
 api_name:
 - VIDEO_PORT_SERVICES
-product:
-- Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 ---

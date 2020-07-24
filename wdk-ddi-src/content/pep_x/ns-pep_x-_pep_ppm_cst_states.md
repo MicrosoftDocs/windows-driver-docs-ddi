@@ -37,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - PEP_PPM_CST_STATES
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_PPM_CST_STATES, *PPEP_PPM_CST_STATES
 ---

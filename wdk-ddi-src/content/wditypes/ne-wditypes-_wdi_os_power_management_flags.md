@@ -28,8 +28,6 @@ api_location:
 - wditypes.hpp
 api_name: 
 - _WDI_OS_POWER_MANAGEMENT_FLAGS
-product:
-- Windows
 targetos: Windows
 ---
 

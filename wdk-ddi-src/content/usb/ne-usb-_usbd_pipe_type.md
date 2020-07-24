@@ -37,8 +37,6 @@ api_location:
 - usb.h
 api_name:
 - USBD_PIPE_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: USBD_PIPE_TYPE
 ---

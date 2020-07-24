@@ -37,8 +37,6 @@ api_location:
 - pmi.h
 api_name:
 - PMI_CONFIGURATION_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: PMI_CONFIGURATION_TYPE
 ---

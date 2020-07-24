@@ -37,8 +37,6 @@ api_location:
 - Mscms.dll
 api_name:
 - GenerateCopyFilePaths
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - PEP_ACPI_INTERRUPT_RESOURCE
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_ACPI_INTERRUPT_RESOURCE, *PPEP_ACPI_INTERRUPT_RESOURCE
 ---

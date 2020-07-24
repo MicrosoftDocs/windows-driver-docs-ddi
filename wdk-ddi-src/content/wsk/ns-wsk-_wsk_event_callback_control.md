@@ -37,8 +37,6 @@ api_location:
 - wsk.h
 api_name:
 - WSK_EVENT_CALLBACK_CONTROL
-product:
-- Windows
 targetos: Windows
 req.typenames: WSK_EVENT_CALLBACK_CONTROL, *PWSK_EVENT_CALLBACK_CONTROL
 ---

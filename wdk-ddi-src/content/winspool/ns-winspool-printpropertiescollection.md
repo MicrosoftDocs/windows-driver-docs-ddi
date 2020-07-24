@@ -37,8 +37,6 @@ api_location:
 - Winspool.h
 api_name:
 - PrintPropertiesCollection
-product:
-- Windows
 targetos: Windows
 req.typenames: PrintPropertiesCollection
 ---

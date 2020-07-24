@@ -37,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - PEP_WORK_COMPLETE_IDLE_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_WORK_COMPLETE_IDLE_STATE, *PPEP_WORK_COMPLETE_IDLE_STATE
 ---

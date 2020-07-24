@@ -37,8 +37,6 @@ api_location:
 - VmbusKernelModeClientLibApi.h
 api_name:
 - VMB_CHANNEL_STATE_CHANGE_CALLBACKS
-product:
-- Windows
 targetos: Windows
 req.typenames: VMB_CHANNEL_STATE_CHANGE_CALLBACKS, *PVMB_CHANNEL_STATE_CHANGE_CALLBACKS
 ---

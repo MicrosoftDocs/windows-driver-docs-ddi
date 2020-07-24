@@ -37,8 +37,6 @@ api_location:
 - Ntddk.h
 api_name:
 - FILE_DISPOSITION_INFORMATION_EX
-product:
-- Windows
 targetos: Windows
 req.typenames: FILE_DISPOSITION_INFORMATION_EX, *PFILE_DISPOSITION_INFORMATION_EX
 ---

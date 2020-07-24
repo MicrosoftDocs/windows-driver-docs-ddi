@@ -37,8 +37,6 @@ api_location:
 - tcpxcv.h
 api_name:
 - DELETE_PORT_DATA_1
-product:
-- Windows
 targetos: Windows
 req.typenames: DELETE_PORT_DATA_1, *PDELETE_PORT_DATA_1
 ---

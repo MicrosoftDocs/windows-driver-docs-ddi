@@ -37,8 +37,6 @@ api_location:
 - wmilib.h
 api_name:
 - WMILIB_CONTEXT
-product:
-- Windows
 targetos: Windows
 req.typenames: WMILIB_CONTEXT, *PWMILIB_CONTEXT
 ---

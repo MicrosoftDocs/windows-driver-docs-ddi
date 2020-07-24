@@ -37,8 +37,6 @@ api_location:
 - Spbcx.h
 api_name:
 - SPB_CONTROLLER_CONFIG
-product:
-- Windows
 targetos: Windows
 req.typenames: SPB_CONTROLLER_CONFIG, *PSPB_CONTROLLER_CONFIG
 ---

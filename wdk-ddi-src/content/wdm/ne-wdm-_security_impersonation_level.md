@@ -37,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - SECURITY_IMPERSONATION_LEVEL
-product:
-- Windows
 targetos: Windows
 req.typenames: SECURITY_IMPERSONATION_LEVEL, *PSECURITY_IMPERSONATION_LEVEL
 ---

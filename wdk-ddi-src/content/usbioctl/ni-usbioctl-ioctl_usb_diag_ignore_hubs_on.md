@@ -37,8 +37,6 @@ api_location:
 - Usbioctl.h
 api_name:
 - IOCTL_USB_DIAG_IGNORE_HUBS_ON
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

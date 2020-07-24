@@ -37,8 +37,6 @@ api_location:
 - WinSpool.drv
 api_name:
 - FindFirstPrinterChangeNotification
-product:
-- Windows
 targetos: Windows
 req.typenames: BIDI_TYPE
 req.product: Windows 10 or later.

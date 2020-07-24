@@ -37,8 +37,6 @@ api_location:
 - rilapitypes.h
 api_name:
 - RILTDSCDMAMRLPARAMMASK
-product:
-- Windows
 targetos: Windows
 req.typenames: RILTDSCDMAMRLPARAMMASK
 ---

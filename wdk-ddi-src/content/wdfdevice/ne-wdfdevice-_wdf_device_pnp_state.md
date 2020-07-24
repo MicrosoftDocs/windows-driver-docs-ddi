@@ -37,8 +37,6 @@ api_location:
 - wdfdevice.h
 api_name:
 - WDF_DEVICE_PNP_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_DEVICE_PNP_STATE, *PWDF_DEVICE_PNP_STATE
 ---

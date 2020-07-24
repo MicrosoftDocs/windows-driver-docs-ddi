@@ -37,8 +37,6 @@ api_location:
 - Videoprt.sys
 api_name:
 - VideoPortReleaseSpinLockFromDpcLevel
-product:
-- Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.

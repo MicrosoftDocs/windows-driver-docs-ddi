@@ -37,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - POWER_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: POWER_STATE, *PPOWER_STATE
 ---

@@ -37,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlInitString
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

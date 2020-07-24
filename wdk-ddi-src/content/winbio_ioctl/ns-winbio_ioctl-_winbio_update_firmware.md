@@ -37,8 +37,6 @@ api_location:
 - winbio_ioctl.h
 api_name:
 - WINBIO_UPDATE_FIRMWARE
-product:
-- Windows
 targetos: Windows
 req.typenames: WINBIO_UPDATE_FIRMWARE, *PWINBIO_UPDATE_FIRMWARE
 ---

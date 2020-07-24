@@ -37,8 +37,6 @@ api_location:
 - Printerextension.h
 api_name:
 - IPrintSchemaAsyncOperation.Start
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

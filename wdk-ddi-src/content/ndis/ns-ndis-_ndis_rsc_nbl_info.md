@@ -37,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NDIS_RSC_NBL_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_RSC_NBL_INFO, *PNDIS_RSC_NBL_INFO
 ---

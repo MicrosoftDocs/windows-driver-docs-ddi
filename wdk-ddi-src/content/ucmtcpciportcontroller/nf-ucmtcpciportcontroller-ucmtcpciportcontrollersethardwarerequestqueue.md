@@ -37,8 +37,6 @@ api_location:
 - ucmtcpciportcontroller.h
 api_name:
 - UcmTcpciPortControllerSetHardwareRequestQueue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

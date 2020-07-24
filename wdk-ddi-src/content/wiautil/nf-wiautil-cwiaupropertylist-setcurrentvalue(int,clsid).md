@@ -37,8 +37,6 @@ api_location:
 - Wiautil.h
 api_name:
 - CWiauPropertyList.SetCurrentValue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

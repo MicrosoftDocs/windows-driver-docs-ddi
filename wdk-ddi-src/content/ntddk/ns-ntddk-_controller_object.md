@@ -37,8 +37,6 @@ api_location:
 - Ntddk.h
 api_name:
 - CONTROLLER_OBJECT
-product:
-- Windows
 targetos: Windows
 req.typenames: CONTROLLER_OBJECT, *PCONTROLLER_OBJECT
 ---

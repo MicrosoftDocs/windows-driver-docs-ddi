@@ -34,8 +34,6 @@ api_location:
 - UcmUcsiCxStub.lib
 api_name: 
 - UcmUcsiPpmCreate
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

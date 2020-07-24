@@ -37,8 +37,6 @@ api_location:
 - prcomoem.h
 api_name:
 - IPrintOemUI2.DocumentEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

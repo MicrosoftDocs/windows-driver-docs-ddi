@@ -37,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - PEP_PPM_QUERY_STATE_NAME
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_PPM_QUERY_STATE_NAME, *PPEP_PPM_QUERY_STATE_NAME
 ---

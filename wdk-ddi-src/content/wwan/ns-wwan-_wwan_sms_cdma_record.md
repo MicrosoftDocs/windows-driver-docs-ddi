@@ -37,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_SMS_CDMA_RECORD
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_SMS_CDMA_RECORD, *PWWAN_SMS_CDMA_RECORD
 ---

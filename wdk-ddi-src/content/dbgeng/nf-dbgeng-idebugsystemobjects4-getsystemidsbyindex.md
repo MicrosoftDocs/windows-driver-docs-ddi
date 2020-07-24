@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IDebugSystemObjects3.GetSystemIdsByIndex
 - IDebugSystemObjects4.GetSystemIdsByIndex
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

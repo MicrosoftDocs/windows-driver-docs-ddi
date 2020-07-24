@@ -37,8 +37,6 @@ api_location:
 - usbcamdi.h
 api_name:
 - USBCAMD_INTERFACE
-product:
-- Windows
 targetos: Windows
 req.typenames: USBCAMD_INTERFACE, *PUSBCAMD_INTERFACE
 ---

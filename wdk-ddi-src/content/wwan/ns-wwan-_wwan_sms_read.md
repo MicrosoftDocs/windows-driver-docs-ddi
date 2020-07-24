@@ -37,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_SMS_READ
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_SMS_READ, *PWWAN_SMS_READ
 ---

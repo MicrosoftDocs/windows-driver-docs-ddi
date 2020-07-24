@@ -37,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - PsIsHostSilo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

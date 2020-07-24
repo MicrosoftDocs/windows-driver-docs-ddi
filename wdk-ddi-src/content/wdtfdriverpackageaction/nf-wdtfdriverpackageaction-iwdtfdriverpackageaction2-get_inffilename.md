@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IWDTFDriverPackageAction2.InfFileName
 - IWDTFDriverPackageAction2.get_InfFileName
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

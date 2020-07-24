@@ -37,8 +37,6 @@ api_location:
 - Wdfdevice.h
 api_name:
 - EvtDeviceD0EntryPostInterruptsEnabled
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - wiamicro.h
 api_name:
 - MicroEntry
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

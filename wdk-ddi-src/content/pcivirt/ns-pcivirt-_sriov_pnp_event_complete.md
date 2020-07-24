@@ -37,8 +37,6 @@ api_location:
 - Pcivirt.h
 api_name:
 - SRIOV_PNP_EVENT_COMPLETE
-product:
-- Windows
 targetos: Windows
 req.typenames: SRIOV_PNP_EVENT_COMPLETE, *PSRIOV_PNP_EVENT_COMPLETE
 ---

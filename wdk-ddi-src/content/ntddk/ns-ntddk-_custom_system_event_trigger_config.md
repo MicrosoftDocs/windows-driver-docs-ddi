@@ -30,8 +30,6 @@ api_location:
 - ntddk.h
 api_name: 
 - _CUSTOM_SYSTEM_EVENT_TRIGGER_CONFIG
-product:
-- Windows
 targetos: Windows
 ---
 

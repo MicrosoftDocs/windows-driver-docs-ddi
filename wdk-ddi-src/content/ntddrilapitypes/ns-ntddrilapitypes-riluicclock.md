@@ -37,8 +37,6 @@ api_location:
 - rilapitypes.h
 api_name:
 - RILUICCLOCK
-product:
-- Windows
 targetos: Windows
 req.typenames: RILUICCLOCK, *LPRILUICCLOCK
 ---

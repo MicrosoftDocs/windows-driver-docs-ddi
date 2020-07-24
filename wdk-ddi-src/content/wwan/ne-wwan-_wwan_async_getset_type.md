@@ -37,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_ASYNC_GETSET_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_ASYNC_GETSET_TYPE, *PWWAN_ASYNC_GETSET_TYPE
 ---

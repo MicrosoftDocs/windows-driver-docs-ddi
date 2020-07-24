@@ -37,8 +37,6 @@ api_location:
 - Ntddk.h
 api_name:
 - WHEA_NOTIFICATION_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: WHEA_NOTIFICATION_DESCRIPTOR, *PWHEA_NOTIFICATION_DESCRIPTOR
 ---

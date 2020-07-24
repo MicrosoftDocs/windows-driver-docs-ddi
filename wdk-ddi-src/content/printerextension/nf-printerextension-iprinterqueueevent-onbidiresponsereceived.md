@@ -37,8 +37,6 @@ api_location:
 - Printerextension.h
 api_name:
 - IPrinterQueueEvent.OnBidiResponseReceived
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

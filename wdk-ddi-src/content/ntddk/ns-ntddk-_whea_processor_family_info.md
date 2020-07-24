@@ -37,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - WHEA_PROCESSOR_FAMILY_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: WHEA_PROCESSOR_FAMILY_INFO, *PWHEA_PROCESSOR_FAMILY_INFO
 ---

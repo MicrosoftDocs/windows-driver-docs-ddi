@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - ExDisableResourceBoostLite
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

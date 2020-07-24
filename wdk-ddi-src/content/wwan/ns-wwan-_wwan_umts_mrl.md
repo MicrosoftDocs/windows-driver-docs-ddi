@@ -37,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_UMTS_MRL
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_UMTS_MRL, *PWWAN_UMTS_MRL
 ---

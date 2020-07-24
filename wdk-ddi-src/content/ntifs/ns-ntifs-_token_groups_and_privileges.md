@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - TOKEN_GROUPS_AND_PRIVILEGES
-product:
-- Windows
 targetos: Windows
 req.typenames: TOKEN_GROUPS_AND_PRIVILEGES, *PTOKEN_GROUPS_AND_PRIVILEGES
 ---

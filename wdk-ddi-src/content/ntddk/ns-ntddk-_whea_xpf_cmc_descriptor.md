@@ -37,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - WHEA_XPF_CMC_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: WHEA_XPF_CMC_DESCRIPTOR, *PWHEA_XPF_CMC_DESCRIPTOR
 ---

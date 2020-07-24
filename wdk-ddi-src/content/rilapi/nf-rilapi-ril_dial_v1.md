@@ -37,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_Dial_V1
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

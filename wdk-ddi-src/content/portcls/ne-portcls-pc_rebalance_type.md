@@ -37,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - PC_REBALANCE_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: PC_REBALANCE_TYPE
 ---

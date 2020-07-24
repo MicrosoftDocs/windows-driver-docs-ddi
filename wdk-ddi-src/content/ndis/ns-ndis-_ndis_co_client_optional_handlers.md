@@ -37,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NDIS_CO_CLIENT_OPTIONAL_HANDLERS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_CO_CLIENT_OPTIONAL_HANDLERS, *PNDIS_CO_CLIENT_OPTIONAL_HANDLERS
 ---

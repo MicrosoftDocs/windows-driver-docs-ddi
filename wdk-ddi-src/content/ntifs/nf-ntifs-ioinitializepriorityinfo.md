@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - IoInitializePriorityInfo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

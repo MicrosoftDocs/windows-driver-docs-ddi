@@ -37,8 +37,6 @@ api_location:
 - Ucmtypes.h
 api_name:
 - UCM_PD_POWER_DATA_OBJECT_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: UCM_PD_POWER_DATA_OBJECT_TYPE
 ---

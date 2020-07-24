@@ -37,8 +37,6 @@ api_location:
 - Ucxcontroller.h
 api_name:
 - UCX_CONTROLLER_ACPI_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: UCX_CONTROLLER_ACPI_INFORMATION, *PUCX_CONTROLLER_ACPI_INFORMATION
 ---

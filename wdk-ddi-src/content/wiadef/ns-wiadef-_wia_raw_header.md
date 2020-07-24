@@ -30,8 +30,6 @@ api_location:
 - wiadef.h
 api_name: 
 - _WIA_RAW_HEADER
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

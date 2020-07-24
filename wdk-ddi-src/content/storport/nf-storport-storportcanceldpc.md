@@ -37,8 +37,6 @@ api_location:
 - storport.h
 api_name: 
 - StorPortCancelDpc
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

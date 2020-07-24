@@ -27,8 +27,6 @@ api_location:
 - treeinlinecryptoservice.h
 api_name: 
 - _INLINE_CRYPTO_DATA_UNIT_SIZE
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

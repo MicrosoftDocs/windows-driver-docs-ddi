@@ -37,8 +37,6 @@ api_location:
 - wditypes.hpp
 api_name:
 - WDI_IHV_TASK_PRIORITY
-product:
-- Windows
 targetos: Windows
 req.typenames: WDI_IHV_TASK_PRIORITY
 ---

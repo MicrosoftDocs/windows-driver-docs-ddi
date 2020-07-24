@@ -38,8 +38,6 @@ api_location:
 - VhfKm.dll
 api_name:
 - VhfAsyncOperationComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

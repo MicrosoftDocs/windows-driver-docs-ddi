@@ -37,8 +37,6 @@ api_location:
 - usbbusif.h
 api_name:
 - USBC_FUNCTION_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: USBC_FUNCTION_DESCRIPTOR, *PUSBC_FUNCTION_DESCRIPTOR
 ---

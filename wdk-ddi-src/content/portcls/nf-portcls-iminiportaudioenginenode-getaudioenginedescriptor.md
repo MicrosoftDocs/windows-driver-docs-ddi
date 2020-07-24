@@ -37,8 +37,6 @@ api_location:
 - Portcls.h
 api_name:
 - IMiniportAudioEngineNode.GetAudioEngineDescriptor
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

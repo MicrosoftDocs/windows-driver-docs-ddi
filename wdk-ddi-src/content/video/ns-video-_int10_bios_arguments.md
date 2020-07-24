@@ -37,8 +37,6 @@ api_location:
 - video.h
 api_name:
 - INT10_BIOS_ARGUMENTS
-product:
-- Windows
 targetos: Windows
 req.typenames: INT10_BIOS_ARGUMENTS, *PINT10_BIOS_ARGUMENTS
 ---

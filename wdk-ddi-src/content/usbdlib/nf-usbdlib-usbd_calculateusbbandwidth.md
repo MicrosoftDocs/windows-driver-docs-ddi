@@ -38,8 +38,6 @@ api_location:
 - Usbd.dll
 api_name:
 - USBD_CalculateUsbBandwidth
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

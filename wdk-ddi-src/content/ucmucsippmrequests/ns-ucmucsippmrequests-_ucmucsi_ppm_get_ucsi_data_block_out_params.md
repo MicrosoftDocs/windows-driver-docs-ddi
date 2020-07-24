@@ -31,8 +31,6 @@ api_location:
 - ucmucsippmrequests.h
 api_name: 
 - _UCMUCSI_PPM_GET_UCSI_DATA_BLOCK_OUT_PARAMS
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

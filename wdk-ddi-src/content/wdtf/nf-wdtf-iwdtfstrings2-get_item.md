@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IWDTFStrings2.Item
 - IWDTFStrings2.get_Item
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

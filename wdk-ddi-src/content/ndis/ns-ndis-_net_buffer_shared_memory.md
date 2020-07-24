@@ -37,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NET_BUFFER_SHARED_MEMORY
-product:
-- Windows
 targetos: Windows
 req.typenames: NET_BUFFER_SHARED_MEMORY, *PNET_BUFFER_SHARED_MEMORY
 ---

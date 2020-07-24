@@ -37,8 +37,6 @@ api_location:
 - Ntifs.h
 api_name:
 - REFS_SMR_VOLUME_INFO_OUTPUT
-product:
-- Windows
 targetos: Windows
 req.typenames: REFS_SMR_VOLUME_INFO_OUTPUT, *PREFS_SMR_VOLUME_INFO_OUTPUT
 ---

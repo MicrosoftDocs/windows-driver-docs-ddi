@@ -37,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_GetCellBroadcastMsgConfig
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

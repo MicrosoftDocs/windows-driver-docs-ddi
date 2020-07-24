@@ -37,8 +37,6 @@ api_location:
 - rilapitypes.h
 api_name:
 - RILDEVICEINFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: RILDEVICEINFORMATION
 req.product: Windows 10 or later.

@@ -37,8 +37,6 @@ api_location:
 - WdfChildlist.h
 api_name:
 - EvtChildListScanForChildren
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - rilapitypes.h
 api_name:
 - RILUICCKEYREF
-product:
-- Windows
 targetos: Windows
 req.typenames: RILUICCKEYREF
 ---

@@ -37,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_ACTIVATION_COMMAND
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_ACTIVATION_COMMAND, *PWWAN_ACTIVATION_COMMAND
 ---

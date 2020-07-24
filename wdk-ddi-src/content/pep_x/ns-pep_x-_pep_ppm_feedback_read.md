@@ -37,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - PEP_PPM_FEEDBACK_READ
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_PPM_FEEDBACK_READ, *PPEP_PPM_FEEDBACK_READ
 ---

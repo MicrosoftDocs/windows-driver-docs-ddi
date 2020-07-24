@@ -37,8 +37,6 @@ api_location:
 - Storport.h
 api_name:
 - STOR_REQUEST_INFO_V1
-product:
-- Windows
 targetos: Windows
 req.typenames: STOR_REQUEST_INFO_V1, *PSTOR_REQUEST_INFO_V1
 ---

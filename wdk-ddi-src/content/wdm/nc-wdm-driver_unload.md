@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - Unload
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

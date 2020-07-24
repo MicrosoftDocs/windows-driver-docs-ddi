@@ -37,8 +37,6 @@ api_location:
 - usbscan.h
 api_name:
 - IO_BLOCK_EX
-product:
-- Windows
 targetos: Windows
 req.typenames: IO_BLOCK_EX, *PIO_BLOCK_EX
 ---

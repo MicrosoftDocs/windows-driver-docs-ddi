@@ -37,8 +37,6 @@ api_location:
 - Wdfhwaccess.h
 api_name:
 - WDF_WRITE_PORT_BUFFER_USHORT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

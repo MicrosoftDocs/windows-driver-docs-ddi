@@ -37,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_UMTS_SERVING_CELL_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_UMTS_SERVING_CELL_INFO, *PWWAN_UMTS_SERVING_CELL_INFO
 ---

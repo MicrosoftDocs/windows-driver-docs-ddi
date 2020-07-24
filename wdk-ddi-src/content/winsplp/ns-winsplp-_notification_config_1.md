@@ -37,8 +37,6 @@ api_location:
 - Winsplp.h
 api_name:
 - NOTIFICATION_CONFIG_1
-product:
-- Windows
 targetos: Windows
 req.typenames: NOTIFICATION_CONFIG_1, *PNOTIFICATION_CONFIG_1
 ---

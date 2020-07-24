@@ -37,8 +37,6 @@ api_location:
 - DbgEng.h
 api_name:
 - DEBUG_BREAKPOINT_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: DEBUG_BREAKPOINT_PARAMETERS, *PDEBUG_BREAKPOINT_PARAMETERS
 ---

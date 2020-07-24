@@ -37,8 +37,6 @@ api_location:
 - ucxusbdevice.h
 api_name:
 - PEVT_UCX_USBDEVICE_RESET
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

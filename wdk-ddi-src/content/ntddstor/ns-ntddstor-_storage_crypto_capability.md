@@ -37,8 +37,6 @@ api_location:
 - Ntddstor.h
 api_name:
 - STORAGE_CRYPTO_CAPABILITY
-product:
-- Windows
 targetos: Windows
 req.typenames: STORAGE_CRYPTO_CAPABILITY, *PSTORAGE_CRYPTO_CAPABILITY
 ---

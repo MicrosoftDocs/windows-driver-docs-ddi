@@ -38,8 +38,6 @@ api_location:
 - Ntdll.dll
 api_name:
 - RtlGetOwnerSecurityDescriptor
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

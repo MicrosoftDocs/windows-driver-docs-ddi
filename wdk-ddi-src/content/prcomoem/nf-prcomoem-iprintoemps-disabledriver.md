@@ -37,8 +37,6 @@ api_location:
 - Prcomoem.h
 api_name:
 - IPrintOemPS.DisableDriver
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

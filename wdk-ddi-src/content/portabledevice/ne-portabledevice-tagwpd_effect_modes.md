@@ -37,8 +37,6 @@ api_location:
 - PortableDevice.h
 api_name:
 - WPD_EFFECT_MODES
-product:
-- Windows
 targetos: Windows
 req.typenames: WPD_EFFECT_MODES
 ms.custom: RS5

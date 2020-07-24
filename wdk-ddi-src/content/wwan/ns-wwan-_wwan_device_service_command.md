@@ -37,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_DEVICE_SERVICE_COMMAND
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_DEVICE_SERVICE_COMMAND, *PWWAN_DEVICE_SERVICE_COMMAND
 ---

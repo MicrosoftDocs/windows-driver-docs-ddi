@@ -37,8 +37,6 @@ api_location:
 - wlanihvtypes.h
 api_name:
 - DOT11_MSSECURITY_SETTINGS
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT11_MSSECURITY_SETTINGS, *PDOT11_MSSECURITY_SETTINGS
 req.product: Windows 10 or later.

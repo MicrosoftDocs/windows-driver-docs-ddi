@@ -37,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - PEP_POWER_CONTROL_REQUEST
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_POWER_CONTROL_REQUEST, *PPEP_POWER_CONTROL_REQUEST
 ---

@@ -37,8 +37,6 @@ api_location:
 - wdfobject.h
 api_name:
 - WDF_EXECUTION_LEVEL
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_EXECUTION_LEVEL
 ---

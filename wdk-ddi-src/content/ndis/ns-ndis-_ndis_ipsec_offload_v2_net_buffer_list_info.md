@@ -37,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO, *PNDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO
 ---

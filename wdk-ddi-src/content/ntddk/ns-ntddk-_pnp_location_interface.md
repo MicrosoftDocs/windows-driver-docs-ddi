@@ -37,8 +37,6 @@ api_location:
 - Ntddk.h
 api_name:
 - PNP_LOCATION_INTERFACE
-product:
-- Windows
 targetos: Windows
 req.typenames: PNP_LOCATION_INTERFACE, *PPNP_LOCATION_INTERFACE
 ---

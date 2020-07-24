@@ -37,8 +37,6 @@ api_location:
 - wdbgexts.h
 api_name:
 - GetFieldOffset
-product:
-- Windows
 targetos: Windows
 req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---

@@ -38,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsGetBusEnumParentFDOFromChildPDO
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

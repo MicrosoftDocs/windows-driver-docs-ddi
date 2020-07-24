@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - FsRtlReleaseFile
-product:
-- Windows
 targetos: Windows
 req.typenames: VOLUME_READ_PLEX_INPUT, *PVOLUME_READ_PLEX_INPUT
 dev_langs:

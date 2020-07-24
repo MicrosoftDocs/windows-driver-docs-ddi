@@ -37,8 +37,6 @@ api_location:
 - Ntddvdeo.h
 api_name:
 - IOCTL_VIDEO_FREE_PUBLIC_ACCESS_RANGES
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

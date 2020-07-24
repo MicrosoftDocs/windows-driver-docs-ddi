@@ -40,8 +40,6 @@ api_name:
 - IDebugSystemObjects2.GetCurrentThreadSystemId
 - IDebugSystemObjects3.GetCurrentThreadSystemId
 - IDebugSystemObjects4.GetCurrentThreadSystemId
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

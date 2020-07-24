@@ -37,8 +37,6 @@ api_location:
 - oemrilapitypes.h
 api_name:
 - RILGBACAPABLE
-product:
-- Windows
 targetos: Windows
 req.typenames: RILGBACAPABLE
 ---

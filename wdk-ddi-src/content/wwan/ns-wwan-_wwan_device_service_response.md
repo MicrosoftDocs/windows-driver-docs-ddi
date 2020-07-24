@@ -37,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_DEVICE_SERVICE_RESPONSE
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_DEVICE_SERVICE_RESPONSE, *PWWAN_DEVICE_SERVICE_RESPONSE
 ---

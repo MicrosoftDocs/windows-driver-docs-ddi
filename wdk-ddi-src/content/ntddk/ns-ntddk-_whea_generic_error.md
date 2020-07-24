@@ -37,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - WHEA_GENERIC_ERROR
-product:
-- Windows
 targetos: Windows
 req.typenames: WHEA_GENERIC_ERROR, *PWHEA_GENERIC_ERROR
 ---

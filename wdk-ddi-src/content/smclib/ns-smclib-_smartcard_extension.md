@@ -37,8 +37,6 @@ api_location:
 - smclib.h
 api_name:
 - SMARTCARD_EXTENSION
-product:
-- Windows
 targetos: Windows
 req.typenames: "*PSMARTCARD_EXTENSION, SMARTCARD_EXTENSION"
 ---

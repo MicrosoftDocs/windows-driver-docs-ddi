@@ -37,8 +37,6 @@ api_location:
 - ucxroothub.h
 api_name:
 - CONTROLLER_USB_20_HARDWARE_LPM_FLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: CONTROLLER_USB_20_HARDWARE_LPM_FLAGS, *PCONTROLLER_USB_20_HARDWARE_LPM_FLAGS
 ---

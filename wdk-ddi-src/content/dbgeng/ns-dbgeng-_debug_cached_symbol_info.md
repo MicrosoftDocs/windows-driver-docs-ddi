@@ -37,8 +37,6 @@ api_location:
 - DbgEng.h
 api_name:
 - DEBUG_CACHED_SYMBOL_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: DEBUG_CACHED_SYMBOL_INFO, *PDEBUG_CACHED_SYMBOL_INFO
 ---

@@ -39,8 +39,6 @@ api_location:
 - GDI32Full.dll
 api_name:
 - GdiStartDocEMF
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

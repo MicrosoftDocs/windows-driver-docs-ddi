@@ -35,8 +35,6 @@ api_location:
 - sensorsutils.h
 api_name: 
 - CollectionsListSerializeToBuffer
-product:
-- Windows
 targetos: Windows
 
 

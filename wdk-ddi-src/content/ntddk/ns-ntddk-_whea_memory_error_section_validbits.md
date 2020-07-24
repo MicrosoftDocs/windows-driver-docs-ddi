@@ -37,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - WHEA_MEMORY_ERROR_SECTION_VALIDBITS
-product:
-- Windows
 targetos: Windows
 req.typenames: WHEA_MEMORY_ERROR_SECTION_VALIDBITS, *PWHEA_MEMORY_ERROR_SECTION_VALIDBITS
 ---

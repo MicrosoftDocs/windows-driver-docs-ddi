@@ -37,8 +37,6 @@ api_location:
 - storport.h
 api_name:
 - STOR_POFX_COMPONENT
-product:
-- Windows
 targetos: Windows
 req.typenames: STOR_POFX_COMPONENT, *PSTOR_POFX_COMPONENT
 ---

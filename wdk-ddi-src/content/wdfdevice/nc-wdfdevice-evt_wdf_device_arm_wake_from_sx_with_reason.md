@@ -37,8 +37,6 @@ api_location:
 - Wdfdevice.h
 api_name:
 - EvtDeviceArmWakeFromSxWithReason
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

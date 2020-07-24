@@ -37,8 +37,6 @@ api_location:
 - usbspec.h
 api_name:
 - USB_STRING_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: USB_STRING_DESCRIPTOR, *PUSB_STRING_DESCRIPTOR
 ---

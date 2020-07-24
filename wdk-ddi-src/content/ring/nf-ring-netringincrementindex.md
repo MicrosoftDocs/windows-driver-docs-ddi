@@ -38,8 +38,6 @@ apilocation:
 apiname: 
 - NetRingIncrementIndex
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetRingIncrementIndex function

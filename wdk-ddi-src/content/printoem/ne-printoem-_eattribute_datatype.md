@@ -37,8 +37,6 @@ api_location:
 - printoem.h
 api_name:
 - EATTRIBUTE_DATATYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: EATTRIBUTE_DATATYPE
 ---

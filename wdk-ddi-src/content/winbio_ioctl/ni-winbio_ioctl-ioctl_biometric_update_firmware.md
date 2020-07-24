@@ -37,8 +37,6 @@ api_location:
 - Winbio_ioctl.h
 api_name:
 - IOCTL_BIOMETRIC_UPDATE_FIRMWARE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

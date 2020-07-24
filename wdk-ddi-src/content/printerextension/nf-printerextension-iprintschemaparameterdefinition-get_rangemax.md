@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IPrintSchemaParameterDefinition.RangeMax
 - IPrintSchemaParameterDefinition.get_RangeMax
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

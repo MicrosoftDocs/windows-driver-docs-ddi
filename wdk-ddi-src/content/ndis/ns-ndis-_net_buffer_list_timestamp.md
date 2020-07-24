@@ -31,8 +31,6 @@ api_location:
 - ndis.h
 api_name: 
 - _NET_BUFFER_LIST_TIMESTAMP
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

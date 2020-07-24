@@ -37,8 +37,6 @@ api_location:
 - Ucxcontroller.h
 api_name:
 - PEVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

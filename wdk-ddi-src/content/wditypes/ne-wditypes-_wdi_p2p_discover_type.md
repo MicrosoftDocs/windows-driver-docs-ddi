@@ -37,8 +37,6 @@ api_location:
 - wditypes.hpp
 api_name:
 - WDI_P2P_DISCOVER_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: WDI_P2P_DISCOVER_TYPE
 ---

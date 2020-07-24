@@ -37,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILUICCAPPPERSOCHECKSTATUSSTATE
-product:
-- Windows
 targetos: Windows
 req.typenames: RILUICCAPPPERSOCHECKSTATUSSTATE
 ---

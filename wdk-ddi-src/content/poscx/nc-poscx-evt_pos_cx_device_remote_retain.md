@@ -37,8 +37,6 @@ api_location:
 - poscx.h
 api_name:
 - EvtPosCxDeviceRemoteRetain
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 req.product: Windows 10 or later.

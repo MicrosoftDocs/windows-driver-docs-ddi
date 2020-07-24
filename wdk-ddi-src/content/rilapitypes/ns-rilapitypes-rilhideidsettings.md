@@ -37,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILHIDEIDSETTINGS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILHIDEIDSETTINGS, *LPRILHIDEIDSETTINGS
 ---

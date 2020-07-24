@@ -37,8 +37,6 @@ api_location:
 - Storport.h
 api_name:
 - STOR_UNIT_ATTRIBUTES
-product:
-- Windows
 targetos: Windows
 req.typenames: STOR_UNIT_ATTRIBUTES, *PSTOR_UNIT_ATTRIBUTES
 ---

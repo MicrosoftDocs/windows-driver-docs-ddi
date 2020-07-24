@@ -37,8 +37,6 @@ api_location:
 - UdecxWdfDevice.h
 api_name:
 - UDECX_WDF_DEVICE_RESET_ACTION
-product:
-- Windows
 targetos: Windows
 req.typenames: UDECX_WDF_DEVICE_RESET_ACTION, *PUDECX_WDF_DEVICE_RESET_ACTION
 ---

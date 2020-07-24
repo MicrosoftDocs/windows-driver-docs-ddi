@@ -37,8 +37,6 @@ api_location:
 - Videoprt.sys
 api_name:
 - VideoPortInt10
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

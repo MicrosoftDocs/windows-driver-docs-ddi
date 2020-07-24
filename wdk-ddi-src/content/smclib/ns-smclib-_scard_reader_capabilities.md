@@ -37,8 +37,6 @@ api_location:
 - Smclib.h
 api_name:
 - SCARD_READER_CAPABILITIES
-product:
-- Windows
 targetos: Windows
 req.typenames: SCARD_READER_CAPABILITIES, *PSCARD_READER_CAPABILITIES
 ---

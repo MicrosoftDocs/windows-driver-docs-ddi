@@ -38,8 +38,6 @@ api_location:
 - Udecxstub.dll
 api_name:
 - UdecxInitializeWdfDeviceInit
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

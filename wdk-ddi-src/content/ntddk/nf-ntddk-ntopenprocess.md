@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ZwOpenProcess
 - NtOpenProcess
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

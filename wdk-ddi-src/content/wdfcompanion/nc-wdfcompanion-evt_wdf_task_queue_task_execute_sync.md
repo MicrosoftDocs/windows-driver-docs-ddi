@@ -37,8 +37,6 @@ api_location:
 - wdfcompanion.h
 api_name:
 - EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

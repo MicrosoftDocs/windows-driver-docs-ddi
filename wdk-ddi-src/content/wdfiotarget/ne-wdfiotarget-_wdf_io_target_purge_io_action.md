@@ -37,8 +37,6 @@ api_location:
 - wdfiotarget.h
 api_name:
 - WDF_IO_TARGET_PURGE_IO_ACTION
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_IO_TARGET_PURGE_IO_ACTION
 ---

@@ -37,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILUICCCMDPARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILUICCCMDPARAMETERS, *LPRILUICCCMDPARAMETERS
 ---

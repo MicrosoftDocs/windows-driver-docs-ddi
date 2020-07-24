@@ -37,8 +37,6 @@ api_location:
 - usbbusif.h
 api_name:
 - QueryControllerType
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

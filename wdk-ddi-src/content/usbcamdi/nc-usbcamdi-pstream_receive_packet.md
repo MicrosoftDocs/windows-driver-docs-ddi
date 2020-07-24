@@ -33,8 +33,6 @@ api_location:
 - usbcamdi.h
 api_name: 
 - PSTREAM_RECEIVE_PACKET
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

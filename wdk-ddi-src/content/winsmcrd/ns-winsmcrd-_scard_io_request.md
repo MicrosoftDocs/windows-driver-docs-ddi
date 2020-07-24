@@ -37,8 +37,6 @@ api_location:
 - winsmcrd.h
 api_name:
 - SCARD_IO_REQUEST
-product:
-- Windows
 targetos: Windows
 req.typenames: SCARD_IO_REQUEST, *PSCARD_IO_REQUEST, *LPSCARD_IO_REQUEST
 ---

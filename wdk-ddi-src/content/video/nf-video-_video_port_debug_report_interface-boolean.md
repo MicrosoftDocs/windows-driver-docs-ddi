@@ -38,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisMSynchronizeWithInterruptEx
-product:
-- Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.

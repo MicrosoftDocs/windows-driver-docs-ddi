@@ -37,8 +37,6 @@ api_location:
 - Sensorsdef.h
 api_name:
 - PEDOMETER_STEP_TYPE_COUNT
-product:
-- Windows
 targetos: Windows
 req.typenames: PEDOMETER_STEP_TYPE_COUNT
 ---

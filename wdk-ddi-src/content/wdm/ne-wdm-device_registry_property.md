@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - DEVICE_REGISTRY_PROPERTY
-product:
-- Windows
 targetos: Windows
 req.typenames: DEVICE_REGISTRY_PROPERTY
 ---

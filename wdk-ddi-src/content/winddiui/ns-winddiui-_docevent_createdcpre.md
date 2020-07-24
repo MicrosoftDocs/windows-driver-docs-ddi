@@ -37,8 +37,6 @@ api_location:
 - winddiui.h
 api_name:
 - DOCEVENT_CREATEDCPRE
-product:
-- Windows
 targetos: Windows
 req.typenames: DOCEVENT_CREATEDCPRE, *PDCEVENT_CREATEDCPRE
 ---

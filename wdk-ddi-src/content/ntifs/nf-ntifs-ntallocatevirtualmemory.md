@@ -37,8 +37,6 @@ api_location:
 api_name:
 - ZwAllocateVirtualMemory
 - NtAllocateVirtualMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

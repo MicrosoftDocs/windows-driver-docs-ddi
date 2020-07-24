@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ExInterlockedPopEntrySList
 - ExpInterlockedPopEntrySList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

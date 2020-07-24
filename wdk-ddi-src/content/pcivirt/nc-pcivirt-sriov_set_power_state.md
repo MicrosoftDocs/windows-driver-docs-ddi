@@ -37,8 +37,6 @@ api_location:
 - Pcivirt.h
 api_name:
 - SRIOV_SET_POWER_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: PARCLASS_INFORMATION, *PPARCLASS_INFORMATION
 ---

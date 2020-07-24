@@ -35,8 +35,6 @@ api_location:
 - ndis.h
 api_name: 
 - NDIS_WAIT_FOR_MUTEX
-product:
-- Windows
 targetos: Windows
 
 ---

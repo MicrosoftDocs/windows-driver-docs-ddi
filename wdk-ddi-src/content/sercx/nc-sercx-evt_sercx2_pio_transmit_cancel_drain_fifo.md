@@ -37,8 +37,6 @@ api_location:
 - 2.0\Sercx.h
 api_name:
 - EvtSerCx2PioTransmitCancelDrainFifo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

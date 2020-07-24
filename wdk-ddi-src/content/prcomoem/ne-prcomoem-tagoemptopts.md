@@ -37,8 +37,6 @@ api_location:
 - Prcomoem.h
 api_name:
 - OEMPTOPTS
-product:
-- Windows
 targetos: Windows
 req.typenames: OEMPTOPTS, *POEMPTOPTS
 ---

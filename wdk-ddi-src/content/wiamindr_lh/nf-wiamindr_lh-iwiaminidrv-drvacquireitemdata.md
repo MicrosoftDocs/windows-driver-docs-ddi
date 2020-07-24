@@ -37,8 +37,6 @@ api_location:
 - wiamindr_lh.h
 api_name:
 - IWiaMiniDrv.drvAcquireItemData
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

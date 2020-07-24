@@ -31,8 +31,6 @@ api_location:
 - ntddk.h
 api_name: 
 - _PCI_FPB_CAPABILITIES_REGISTER
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

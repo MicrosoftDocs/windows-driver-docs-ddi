@@ -37,8 +37,6 @@ api_location:
 - ucxendpoint.h
 api_name:
 - ENDPOINT_RESET
-product:
-- Windows
 targetos: Windows
 req.typenames: ENDPOINT_RESET, *PENDPOINT_RESET
 ---

@@ -37,8 +37,6 @@ api_location:
 - prcomoem.h
 api_name:
 - IPrintCoreHelperUni.CreateGDLSnapshot
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

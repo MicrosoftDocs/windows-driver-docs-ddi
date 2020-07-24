@@ -37,8 +37,6 @@ api_location:
 - PointOfServiceDriverInterface.h
 api_name:
 - MSR_DATA_RECEIVED
-product:
-- Windows
 targetos: Windows
 req.typenames: MSR_DATA_RECEIVED, *PMSR_DATA_RECEIVED
 ---

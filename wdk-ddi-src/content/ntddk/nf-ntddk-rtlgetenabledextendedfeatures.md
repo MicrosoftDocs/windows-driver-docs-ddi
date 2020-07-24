@@ -41,8 +41,6 @@ api_location:
 - API-MS-Win-Core-XState-L1-1-2.dll
 api_name:
 - RtlGetEnabledExtendedFeatures
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

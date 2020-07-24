@@ -37,8 +37,6 @@ api_location:
 - Ntddk.h
 api_name:
 - PROCESS_READWRITEVM_LOGGING_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: PROCESS_READWRITEVM_LOGGING_INFORMATION, *PPROCESS_READWRITEVM_LOGGING_INFORMATION
 ---

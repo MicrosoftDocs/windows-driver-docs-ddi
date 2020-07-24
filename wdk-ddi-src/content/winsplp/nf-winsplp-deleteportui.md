@@ -37,8 +37,6 @@ api_location:
 - winsplp.h
 api_name:
 - pfnDeletePortUI
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

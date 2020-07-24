@@ -33,8 +33,6 @@ api_location:
  - ntddvdeo.h
 api_name: 
  - GAMMA_RAMP_DXGI_1
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

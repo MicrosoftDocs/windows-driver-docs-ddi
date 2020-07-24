@@ -37,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - BuildMdlFromScatterGatherList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - Usb.h
 api_name:
 - _URB_OPEN_STATIC_STREAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

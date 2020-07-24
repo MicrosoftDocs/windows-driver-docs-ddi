@@ -37,8 +37,6 @@ api_location:
 - strmini.h
 api_name:
 - STREAM_DATA_INTERSECT_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: STREAM_DATA_INTERSECT_INFO, *PSTREAM_DATA_INTERSECT_INFO
 ---

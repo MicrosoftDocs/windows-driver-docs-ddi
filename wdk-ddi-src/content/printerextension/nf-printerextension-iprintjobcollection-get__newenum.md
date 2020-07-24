@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IPrintJobCollection.NewEnum
 - IPrintJobCollection.get_NewEnum
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

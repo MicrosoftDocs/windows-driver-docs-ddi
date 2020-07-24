@@ -37,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILCALLINFOFLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILCALLINFOFLAGS
 ---

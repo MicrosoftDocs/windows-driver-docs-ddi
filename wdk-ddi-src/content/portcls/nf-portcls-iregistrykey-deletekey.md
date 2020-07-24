@@ -37,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IRegistryKey.DeleteKey
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

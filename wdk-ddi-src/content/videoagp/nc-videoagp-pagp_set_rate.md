@@ -37,8 +37,6 @@ api_location:
 - videoagp.h
 api_name:
 - AgpSetRate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

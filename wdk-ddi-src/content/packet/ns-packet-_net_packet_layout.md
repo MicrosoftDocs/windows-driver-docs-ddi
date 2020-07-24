@@ -34,8 +34,6 @@ apilocation:
 apiname: 
 - NET_PACKET_LAYOUT
 targetos: Windows
-product:
-- Windows
 ---
 
 # _NET_PACKET_LAYOUT structure

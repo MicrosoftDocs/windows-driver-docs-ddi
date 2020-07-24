@@ -37,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - GetBusData
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

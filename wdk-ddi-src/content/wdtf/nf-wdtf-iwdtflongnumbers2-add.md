@@ -37,8 +37,6 @@ api_location:
 - WDTF.Interop.metadata_dll.dll
 api_name:
 - IWDTFLongNumbers2.Add
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - UdecxUsbDevice.h
 api_name:
 - EvtUsbDeviceEndpointAdd
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

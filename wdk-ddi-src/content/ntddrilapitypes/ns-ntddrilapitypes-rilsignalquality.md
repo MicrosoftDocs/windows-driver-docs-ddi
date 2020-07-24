@@ -37,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILSIGNALQUALITY
-product:
-- Windows
 targetos: Windows
 req.typenames: RILSIGNALQUALITY, *LPRILSIGNALQUALITY
 ---

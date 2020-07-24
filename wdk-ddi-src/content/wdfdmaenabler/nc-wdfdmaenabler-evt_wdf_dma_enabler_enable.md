@@ -37,8 +37,6 @@ api_location:
 - WdfDmaEnabler.h
 api_name:
 - EvtDmaEnablerEnable
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

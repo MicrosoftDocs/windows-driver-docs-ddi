@@ -37,8 +37,6 @@ api_location:
 - scsiscan.h
 api_name:
 - SCSISCAN_CMD
-product:
-- Windows
 targetos: Windows
 req.typenames: SCSISCAN_CMD, *PSCSISCAN_CMD
 ---

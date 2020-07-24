@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - D3COLD_LAST_TRANSITION_STATUS
-product:
-- Windows
 targetos: Windows
 req.typenames: D3COLD_LAST_TRANSITION_STATUS, *PD3COLD_LAST_TRANSITION_STATUS
 ---

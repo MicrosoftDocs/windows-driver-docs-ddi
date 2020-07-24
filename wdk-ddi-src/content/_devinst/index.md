@@ -9,8 +9,6 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 author: tedhudek
-product:
-- Windows
 ---
 
 # Driver installation

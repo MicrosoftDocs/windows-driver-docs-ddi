@@ -37,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - AcceptDeviceNotification
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - wdtfedtaction.h
 api_name:
 - IWDTFEnhancedDeviceTestSupportActions2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

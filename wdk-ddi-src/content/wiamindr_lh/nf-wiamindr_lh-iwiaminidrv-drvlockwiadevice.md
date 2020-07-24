@@ -37,8 +37,6 @@ api_location:
 - wiamindr_lh.h
 api_name:
 - IWiaMiniDrv.drvLockWiaDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

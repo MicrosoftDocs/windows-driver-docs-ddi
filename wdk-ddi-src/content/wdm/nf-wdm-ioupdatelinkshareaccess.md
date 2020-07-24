@@ -37,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoUpdateLinkShareAccess
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: 19H1

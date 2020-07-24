@@ -37,8 +37,6 @@ api_location:
 - winddiui.h
 api_name:
 - DrvDriverEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

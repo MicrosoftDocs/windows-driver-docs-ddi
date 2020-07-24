@@ -37,8 +37,6 @@ api_location:
 - Usbdlib.h
 api_name:
 - UsbBuildOpenStaticStreamsRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

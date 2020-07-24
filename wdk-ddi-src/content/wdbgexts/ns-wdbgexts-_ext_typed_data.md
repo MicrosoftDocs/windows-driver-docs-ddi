@@ -37,8 +37,6 @@ api_location:
 - wdbgexts.h
 api_name:
 - EXT_TYPED_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: EXT_TYPED_DATA, *PEXT_TYPED_DATA
 ---

@@ -37,8 +37,6 @@ api_location:
 - parallel.h
 api_name:
 - IOCTL_INTERNAL_PARALLEL_SET_CHIP_MODE
-product:
-- Windows
 targetos: Windows
 req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ---

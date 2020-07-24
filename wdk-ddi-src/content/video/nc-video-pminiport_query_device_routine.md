@@ -37,8 +37,6 @@ api_location:
 - video.h
 api_name:
 - HwVidQueryDeviceCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - Ntddk.h
 api_name:
 - KEY_NAME_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: KEY_NAME_INFORMATION, *PKEY_NAME_INFORMATION
 ---

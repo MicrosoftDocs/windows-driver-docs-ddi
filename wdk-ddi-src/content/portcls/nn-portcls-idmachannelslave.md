@@ -37,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IDmaChannelSlave
-product:
-- Windows
 targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---

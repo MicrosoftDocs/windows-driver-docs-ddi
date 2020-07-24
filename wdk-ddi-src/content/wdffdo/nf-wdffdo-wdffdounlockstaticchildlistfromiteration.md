@@ -38,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfFdoUnlockStaticChildListFromIteration
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

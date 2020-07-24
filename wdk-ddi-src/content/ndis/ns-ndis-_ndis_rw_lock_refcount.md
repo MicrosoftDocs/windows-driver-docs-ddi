@@ -37,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NDIS_RW_LOCK_REFCOUNT
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_RW_LOCK_REFCOUNT
 ---

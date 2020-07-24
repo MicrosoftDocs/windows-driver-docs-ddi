@@ -37,8 +37,6 @@ api_location:
 - ptpusd.h
 api_name:
 - PTP_VENDOR_DATA_IN
-product:
-- Windows
 targetos: Windows
 req.typenames: PTP_VENDOR_DATA_IN, *PPTP_VENDOR_DATA_IN
 ---

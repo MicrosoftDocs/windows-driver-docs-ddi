@@ -37,8 +37,6 @@ api_location:
 - ucxendpoint.h
 api_name:
 - ENDPOINTS_CONFIGURE
-product:
-- Windows
 targetos: Windows
 req.typenames: ENDPOINTS_CONFIGURE, *PENDPOINTS_CONFIGURE
 ---

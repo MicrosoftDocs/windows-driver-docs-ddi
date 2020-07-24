@@ -37,8 +37,6 @@ api_location:
 - ntddstor.h
 api_name:
 - STORAGE_OFFLOAD_TOKEN
-product:
-- Windows
 targetos: Windows
 req.typenames: STORAGE_OFFLOAD_TOKEN, *PSTORAGE_OFFLOAD_TOKEN
 ---

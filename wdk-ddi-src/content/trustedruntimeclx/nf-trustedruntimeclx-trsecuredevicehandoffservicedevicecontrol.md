@@ -34,8 +34,6 @@ api_location:
 - trustedruntimeclx.h
 api_name: 
 - TrSecureDeviceHandoffServiceDeviceControl
-product:
-- Windows
 targetos: Windows
 
 

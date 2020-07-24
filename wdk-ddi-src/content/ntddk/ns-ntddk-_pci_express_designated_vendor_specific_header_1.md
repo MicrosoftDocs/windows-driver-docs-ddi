@@ -30,8 +30,6 @@ api_location:
 - ntddk.h
 api_name: 
 - _PCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_HEADER_1
-product:
-- Windows
 targetos: Windows
 ---
 

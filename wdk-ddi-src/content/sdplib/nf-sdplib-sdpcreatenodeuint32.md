@@ -37,8 +37,6 @@ api_location:
 - sdplib.h
 api_name:
 - SdpCreateNodeUInt32
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

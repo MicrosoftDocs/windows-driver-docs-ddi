@@ -37,8 +37,6 @@ api_location:
 - rilapitypes.h
 api_name:
 - RILIMSI
-product:
-- Windows
 targetos: Windows
 req.typenames: RILIMSI, *LPRILIMSI
 req.product: Windows 10 or later.

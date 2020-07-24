@@ -37,8 +37,6 @@ api_location:
 - Wdfinterrupt.h
 api_name:
 - EvtInterruptEnable
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

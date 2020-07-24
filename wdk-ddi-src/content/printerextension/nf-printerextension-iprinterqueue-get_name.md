@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IPrinterQueue.Name
 - IPrinterQueue.get_Name
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

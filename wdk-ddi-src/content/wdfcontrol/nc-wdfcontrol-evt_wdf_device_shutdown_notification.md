@@ -37,8 +37,6 @@ api_location:
 - WdfControl.h
 api_name:
 - EvtDeviceShutdownNotification
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

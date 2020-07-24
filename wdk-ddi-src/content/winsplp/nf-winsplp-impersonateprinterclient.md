@@ -37,8 +37,6 @@ api_location:
 - Spoolss.dll
 api_name:
 - ImpersonatePrinterClient
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - Printoem.h
 api_name:
 - OEMStartBanding
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

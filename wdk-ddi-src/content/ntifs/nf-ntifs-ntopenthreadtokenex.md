@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ZwOpenThreadTokenEx
 - NtOpenThreadTokenEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

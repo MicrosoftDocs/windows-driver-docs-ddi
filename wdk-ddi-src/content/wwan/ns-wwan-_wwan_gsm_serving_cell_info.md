@@ -37,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_GSM_SERVING_CELL_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_GSM_SERVING_CELL_INFO, *PWWAN_GSM_SERVING_CELL_INFO
 ---

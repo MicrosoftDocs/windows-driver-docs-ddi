@@ -37,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NdisInitializeSListHead
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

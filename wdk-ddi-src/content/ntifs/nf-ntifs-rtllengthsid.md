@@ -38,8 +38,6 @@ api_location:
 - ntdll.dll
 api_name:
 - RtlLengthSid
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

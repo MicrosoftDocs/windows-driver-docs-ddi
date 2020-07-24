@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - ATOMIC_CREATE_ECP_CONTEXT
-product:
-- Windows
 targetos: Windows
 req.typenames: ATOMIC_CREATE_ECP_CONTEXT, *PATOMIC_CREATE_ECP_CONTEXT
 ---

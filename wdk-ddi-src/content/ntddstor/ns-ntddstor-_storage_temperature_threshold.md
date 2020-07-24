@@ -37,8 +37,6 @@ api_location:
 - ntddstor.h
 api_name:
 - STORAGE_TEMPERATURE_THRESHOLD
-product:
-- Windows
 targetos: Windows
 req.typenames: STORAGE_TEMPERATURE_THRESHOLD, *PSTORAGE_TEMPERATURE_THRESHOLD
 ---

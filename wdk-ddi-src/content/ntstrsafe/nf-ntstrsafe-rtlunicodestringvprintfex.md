@@ -38,8 +38,6 @@ api_location:
 - Ntstrsafe.dll
 api_name:
 - RtlUnicodeStringVPrintfEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - ucxusbdevice.h
 api_name:
 - USBDEVICE_STARTIO
-product:
-- Windows
 targetos: Windows
 req.typenames: USBDEVICE_STARTIO, *PUSBDEVICE_STARTIO
 ---

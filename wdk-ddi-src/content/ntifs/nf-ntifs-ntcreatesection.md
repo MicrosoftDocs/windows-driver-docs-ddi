@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ZwCreateSection
 - NtCreateSection
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

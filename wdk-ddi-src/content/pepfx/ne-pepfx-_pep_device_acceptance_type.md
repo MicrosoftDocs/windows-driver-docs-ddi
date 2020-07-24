@@ -37,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - PEP_DEVICE_ACCEPTANCE_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_DEVICE_ACCEPTANCE_TYPE, *PPEP_DEVICE_ACCEPTANCE_TYPE
 ---

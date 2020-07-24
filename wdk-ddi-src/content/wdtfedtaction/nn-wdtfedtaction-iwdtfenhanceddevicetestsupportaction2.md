@@ -37,8 +37,6 @@ api_location:
 - WDTFDriverEDTAction.Interop.dll
 api_name:
 - IWDTFEnhancedDeviceTestSupportAction2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

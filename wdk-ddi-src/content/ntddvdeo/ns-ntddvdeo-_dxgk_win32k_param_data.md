@@ -37,8 +37,6 @@ api_location:
 - ntddvdeo.h
 api_name:
 - DXGK_WIN32K_PARAM_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGK_WIN32K_PARAM_DATA, *PDXGK_WIN32K_PARAM_DATA
 ---

@@ -37,8 +37,6 @@ api_location:
 - wdfusb.h
 api_name:
 - WDF_USB_BMREQUEST_RECIPIENT
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_USB_BMREQUEST_RECIPIENT
 ---

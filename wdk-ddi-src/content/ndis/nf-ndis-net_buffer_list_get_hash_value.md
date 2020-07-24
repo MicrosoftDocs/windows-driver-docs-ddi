@@ -35,8 +35,6 @@ api_location:
 - ndis.h
 api_name: 
 - NET_BUFFER_LIST_GET_HASH_VALUE
-product:
-- Windows
 targetos: Windows
 
 ---

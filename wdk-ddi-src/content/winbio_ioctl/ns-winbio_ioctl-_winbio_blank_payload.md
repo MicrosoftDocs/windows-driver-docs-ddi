@@ -37,8 +37,6 @@ api_location:
 - winbio_ioctl.h
 api_name:
 - WINBIO_BLANK_PAYLOAD
-product:
-- Windows
 targetos: Windows
 req.typenames: WINBIO_BLANK_PAYLOAD, *PWINBIO_BLANK_PAYLOAD
 ---

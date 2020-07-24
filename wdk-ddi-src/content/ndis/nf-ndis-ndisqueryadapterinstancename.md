@@ -38,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisQueryAdapterInstanceName
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

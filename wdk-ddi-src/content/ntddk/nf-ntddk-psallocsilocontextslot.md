@@ -37,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - PsAllocSiloContextSlot
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

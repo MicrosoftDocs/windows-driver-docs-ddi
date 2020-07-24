@@ -30,8 +30,6 @@ api_location:
 - treerpmbservice.h
 api_name: 
 - _TREE_RPMB_COMMAND_OUTPUT
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

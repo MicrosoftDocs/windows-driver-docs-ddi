@@ -37,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IMiniportAudioEngineNode.SetGfxState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

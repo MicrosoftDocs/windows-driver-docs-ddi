@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - FILE_PIPE_LOCAL_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: FILE_PIPE_LOCAL_INFORMATION, *PFILE_PIPE_LOCAL_INFORMATION
 ---

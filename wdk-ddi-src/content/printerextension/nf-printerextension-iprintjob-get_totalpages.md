@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IPrintJob.TotalPages
 - IPrintJob.get_TotalPages
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - PointOfServiceDriverInterface.h
 api_name:
 - PosBarcodeScannerErrorOccurredEventData
-product:
-- Windows
 targetos: Windows
 req.typenames: PosBarcodeScannerErrorOccurredEventData
 ---

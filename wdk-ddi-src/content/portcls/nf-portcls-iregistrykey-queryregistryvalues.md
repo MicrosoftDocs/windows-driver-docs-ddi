@@ -37,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IRegistryKey.QueryRegistryValues
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

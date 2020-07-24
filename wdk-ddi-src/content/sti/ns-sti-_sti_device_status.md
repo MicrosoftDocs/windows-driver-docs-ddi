@@ -37,8 +37,6 @@ api_location:
 - sti.h
 api_name:
 - STI_DEVICE_STATUS
-product:
-- Windows
 targetos: Windows
 req.typenames: STI_DEVICE_STATUS, *PSTI_DEVICE_STATUS
 ---

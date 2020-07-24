@@ -37,8 +37,6 @@ api_location:
 - rilapitypes.h
 api_name:
 - RILPOSITIONINFOLTEPARAMMASK
-product:
-- Windows
 targetos: Windows
 req.typenames: RILPOSITIONINFOLTEPARAMMASK
 req.product: Windows 10 or later.

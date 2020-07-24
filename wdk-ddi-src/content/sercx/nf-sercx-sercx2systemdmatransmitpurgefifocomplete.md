@@ -37,8 +37,6 @@ api_location:
 - 2.0\Sercx.h
 api_name:
 - SerCx2SystemDmaTransmitPurgeFifoComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

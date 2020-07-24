@@ -28,8 +28,6 @@ api_location:
 - usbpmapi.h
 api_name: 
 - USBPM_EVENT_TYPE
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

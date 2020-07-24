@@ -37,8 +37,6 @@ api_location:
 - Wiaservc.dll
 api_name:
 - wiasGetItemType
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

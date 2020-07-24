@@ -37,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_REGISTRATION_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_REGISTRATION_STATE, *PWWAN_REGISTRATION_STATE
 ---

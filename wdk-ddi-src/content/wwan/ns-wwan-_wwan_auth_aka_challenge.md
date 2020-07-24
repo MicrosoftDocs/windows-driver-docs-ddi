@@ -37,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_AUTH_AKA_CHALLENGE
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_AUTH_AKA_CHALLENGE, *PWWAN_AUTH_AKA_CHALLENGE
 ---

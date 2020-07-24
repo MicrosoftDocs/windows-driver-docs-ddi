@@ -40,8 +40,6 @@ api_name:
 - IDebugSystemObjects3.GetCurrentSystemServer
 - IDebugSystemObjects3.GetSystemByServer
 - IDebugSystemObjects3.GetCurrentSystemServerName
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisInterlockedInsertHeadList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

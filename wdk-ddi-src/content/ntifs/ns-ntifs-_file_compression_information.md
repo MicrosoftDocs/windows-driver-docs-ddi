@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - FILE_COMPRESSION_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: FILE_COMPRESSION_INFORMATION, *PFILE_COMPRESSION_INFORMATION
 ---

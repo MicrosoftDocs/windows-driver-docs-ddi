@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ZwFsControlFile
 - NtFsControlFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

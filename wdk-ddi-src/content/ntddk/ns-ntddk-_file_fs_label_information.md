@@ -37,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - FILE_FS_LABEL_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: FILE_FS_LABEL_INFORMATION, *PFILE_FS_LABEL_INFORMATION
 ---

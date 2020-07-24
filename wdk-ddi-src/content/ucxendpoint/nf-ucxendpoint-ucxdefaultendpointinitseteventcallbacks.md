@@ -37,8 +37,6 @@ api_location:
 - ucxendpoint.h
 api_name:
 - UcxDefaultEndpointInitSetEventCallbacks
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - PO_FX_CORE_DEVICE
-product:
-- Windows
 targetos: Windows
 req.typenames: PO_FX_CORE_DEVICE, *PPO_FX_CORE_DEVICE
 ---

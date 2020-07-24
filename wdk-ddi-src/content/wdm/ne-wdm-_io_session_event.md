@@ -37,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - IO_SESSION_EVENT
-product:
-- Windows
 targetos: Windows
 req.typenames: IO_SESSION_EVENT, *PIO_SESSION_EVENT
 ---

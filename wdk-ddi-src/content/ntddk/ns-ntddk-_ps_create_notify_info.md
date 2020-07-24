@@ -37,8 +37,6 @@ api_location:
 - Ntddk.h
 api_name:
 - PS_CREATE_NOTIFY_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: PS_CREATE_NOTIFY_INFO, *PPS_CREATE_NOTIFY_INFO
 ---

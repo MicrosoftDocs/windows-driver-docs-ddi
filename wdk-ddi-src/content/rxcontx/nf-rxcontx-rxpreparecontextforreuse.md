@@ -37,8 +37,6 @@ api_location:
 - rxcontx.h
 api_name:
 - RxPrepareContextForReuse
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

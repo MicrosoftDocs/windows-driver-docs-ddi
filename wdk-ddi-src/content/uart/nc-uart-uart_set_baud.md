@@ -34,8 +34,6 @@ api_location:
 - uart.h
 api_name:
 - UART_SET_BAUD
-product:
-- Windows
 targetos: Windows
 ---
 

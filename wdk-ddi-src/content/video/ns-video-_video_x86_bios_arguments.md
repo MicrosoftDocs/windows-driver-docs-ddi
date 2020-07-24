@@ -37,8 +37,6 @@ api_location:
 - video.h
 api_name:
 - VIDEO_X86_BIOS_ARGUMENTS
-product:
-- Windows
 targetos: Windows
 req.typenames: VIDEO_X86_BIOS_ARGUMENTS, *PVIDEO_X86_BIOS_ARGUMENTS
 ---

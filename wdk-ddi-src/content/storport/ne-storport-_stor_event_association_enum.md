@@ -37,8 +37,6 @@ api_location:
 - storport.h
 api_name:
 - STOR_EVENT_ASSOCIATION_ENUM
-product:
-- Windows
 targetos: Windows
 req.typenames: STOR_EVENT_ASSOCIATION_ENUM
 ---

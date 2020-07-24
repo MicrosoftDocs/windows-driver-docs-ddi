@@ -37,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_ACE_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_ACE_STATE, *PWWAN_ACE_STATE
 ---

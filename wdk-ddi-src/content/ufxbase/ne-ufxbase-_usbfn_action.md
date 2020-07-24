@@ -37,8 +37,6 @@ api_location:
 - ufxbase.h
 api_name:
 - USBFN_ACTION
-product:
-- Windows
 targetos: Windows
 req.typenames: USBFN_ACTION, *PUSBFN_ACTION
 ---

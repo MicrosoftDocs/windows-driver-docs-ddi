@@ -37,8 +37,6 @@ api_location:
 - usbprint.h
 api_name:
 - IOCTL_USBPRINT_SOFT_RESET
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - storport.h
 api_name:
 - StorPortInitializeListHead
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - pointofservicecommontypes.h
 api_name:
 - LineDisplayBitmapWidth
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

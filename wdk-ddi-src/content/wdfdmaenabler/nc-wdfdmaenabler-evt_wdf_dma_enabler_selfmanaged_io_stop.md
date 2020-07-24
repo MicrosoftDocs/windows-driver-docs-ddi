@@ -37,8 +37,6 @@ api_location:
 - WdfDmaEnabler.h
 api_name:
 - EvtDmaEnablerSelfManagedIoStop
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

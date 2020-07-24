@@ -37,8 +37,6 @@ api_location:
 - Wdfhwaccess.h
 api_name:
 - WDF_READ_REGISTER_USHORT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

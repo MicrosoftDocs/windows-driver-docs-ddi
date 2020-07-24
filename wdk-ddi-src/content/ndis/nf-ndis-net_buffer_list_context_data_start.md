@@ -35,8 +35,6 @@ api_location:
 - ndis.h
 api_name: 
 - NET_BUFFER_LIST_CONTEXT_DATA_START
-product:
-- Windows
 targetos: Windows
 
 ---

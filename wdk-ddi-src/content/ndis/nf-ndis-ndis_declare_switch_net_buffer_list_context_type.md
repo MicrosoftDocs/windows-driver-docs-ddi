@@ -35,8 +35,6 @@ api_location:
 - ndis.h
 api_name: 
 - NDIS_DECLARE_SWITCH_NET_BUFFER_LIST_CONTEXT_TYPE
-product:
-- Windows
 targetos: Windows
 
 ---

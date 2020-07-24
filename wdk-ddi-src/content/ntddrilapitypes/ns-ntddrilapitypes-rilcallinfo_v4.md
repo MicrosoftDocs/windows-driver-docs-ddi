@@ -37,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILCALLINFO_V4
-product:
-- Windows
 targetos: Windows
 req.typenames: RILCALLINFO_V4, *LPRILCALLINFO_V4
 ---

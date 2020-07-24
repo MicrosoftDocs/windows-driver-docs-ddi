@@ -37,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - PEP_PPM_PERF_CHECK_COMPLETE
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_PPM_PERF_CHECK_COMPLETE, *PPEP_PPM_PERF_CHECK_COMPLETE
 ---

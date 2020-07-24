@@ -40,8 +40,6 @@ api_name:
 - IDebugSystemObjects2.GetTotalNumberThreads
 - IDebugSystemObjects3.GetTotalNumberThreads
 - IDebugSystemObjects4.GetTotalNumberThreads
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -40,8 +40,6 @@ api_name:
 - IDebugSystemObjects2.GetEventThread
 - IDebugSystemObjects3.GetEventThread
 - IDebugSystemObjects4.GetEventThread
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

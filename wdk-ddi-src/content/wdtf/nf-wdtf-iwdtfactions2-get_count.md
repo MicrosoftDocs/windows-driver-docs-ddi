@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IWDTFDeviceDepot2.Count
 - IWDTFDeviceDepot2.get_Count
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

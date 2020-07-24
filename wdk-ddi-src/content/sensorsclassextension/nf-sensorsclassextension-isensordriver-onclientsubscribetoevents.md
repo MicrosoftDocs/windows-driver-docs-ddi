@@ -38,8 +38,6 @@ api_location:
 - SensorsClassExtension.dll
 api_name:
 - OnClientSubscribeToEvents
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

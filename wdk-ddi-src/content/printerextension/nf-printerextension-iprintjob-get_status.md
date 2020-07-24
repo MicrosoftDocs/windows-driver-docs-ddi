@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IPrintJob.Status
 - IPrintJob.get_Status
-product:
-- Windows
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
 req.product: Windows 10 or later.

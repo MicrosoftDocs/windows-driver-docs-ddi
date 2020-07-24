@@ -37,8 +37,6 @@ api_location:
 - wdbgexts.h
 api_name:
 - CheckControlC
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

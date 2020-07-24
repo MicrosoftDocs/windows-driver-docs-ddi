@@ -37,8 +37,6 @@ api_location:
 - wmistr.h
 api_name:
 - WNODE_TOO_SMALL
-product:
-- Windows
 targetos: Windows
 req.typenames: WNODE_TOO_SMALL, *PWNODE_TOO_SMALL
 ---

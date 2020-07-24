@@ -38,8 +38,6 @@ api_location:
 - Storport.dll
 api_name:
 - StorPortSetBusDataByOffset
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - storport.h
 api_name:
 - STOR_DEVICE_POWER_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: STOR_DEVICE_POWER_STATE, *PSTOR_DEVICE_POWER_STATE
 ---

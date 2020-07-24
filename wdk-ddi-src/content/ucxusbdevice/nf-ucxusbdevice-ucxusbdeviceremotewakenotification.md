@@ -37,8 +37,6 @@ api_location:
 - ucxusbdevice.h
 api_name:
 - UcxUsbDeviceRemoteWakeNotification
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

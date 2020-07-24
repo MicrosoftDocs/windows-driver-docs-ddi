@@ -37,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlAllocateFileLock
-product:
-- Windows
 targetos: Windows
 req.typenames: VOLUME_READ_PLEX_INPUT, *PVOLUME_READ_PLEX_INPUT
 dev_langs:

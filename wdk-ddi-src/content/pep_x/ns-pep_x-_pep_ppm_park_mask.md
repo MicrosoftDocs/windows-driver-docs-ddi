@@ -37,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - PEP_PPM_PARK_MASK
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_PPM_PARK_MASK, *PPEP_PPM_PARK_MASK
 ---

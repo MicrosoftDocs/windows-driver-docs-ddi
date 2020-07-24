@@ -37,8 +37,6 @@ api_location:
 - wdbgexts.h
 api_name:
 - DBGKD_GET_VERSION64
-product:
-- Windows
 targetos: Windows
 req.typenames: DBGKD_GET_VERSION64, *PDBGKD_GET_VERSION64
 ---

@@ -37,8 +37,6 @@ api_location:
 - usb.h
 api_name:
 - URB
-product:
-- Windows
 targetos: Windows
 req.typenames: URB, PURB
 ---

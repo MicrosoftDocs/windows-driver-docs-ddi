@@ -38,8 +38,6 @@ api_location:
 - ntoskrnl.dll
 api_name:
 - IoCheckShareAccessEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

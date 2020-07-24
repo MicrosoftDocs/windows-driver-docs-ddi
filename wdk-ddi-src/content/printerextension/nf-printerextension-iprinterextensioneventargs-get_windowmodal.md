@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IPrinterExtensionEventArgs.WindowModal
 - IPrinterExtensionEventArgs.get_WindowModal
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

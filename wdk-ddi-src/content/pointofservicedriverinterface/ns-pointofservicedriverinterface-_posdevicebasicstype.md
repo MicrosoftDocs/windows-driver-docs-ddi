@@ -37,8 +37,6 @@ api_location:
 - PointOfServiceDriverInterface.h
 api_name:
 - PosDeviceBasicsType
-product:
-- Windows
 targetos: Windows
 req.typenames: PosDeviceBasicsType
 ---

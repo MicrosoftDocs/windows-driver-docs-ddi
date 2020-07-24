@@ -34,8 +34,6 @@ api_location:
 - wdm.h
 api_name: 
 - IMAGE_POLICY_OVERRIDE
-product:
-- Windows
 targetos: Windows
 
 ---

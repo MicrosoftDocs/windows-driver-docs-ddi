@@ -38,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisMInvalidateConfigBlock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

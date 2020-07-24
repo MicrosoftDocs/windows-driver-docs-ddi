@@ -37,8 +37,6 @@ api_location:
 - WdfUsb.h
 api_name:
 - EvtUsbTargetPipeReadComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

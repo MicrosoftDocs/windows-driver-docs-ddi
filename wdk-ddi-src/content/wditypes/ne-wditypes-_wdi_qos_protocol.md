@@ -37,8 +37,6 @@ api_location:
 - wditypes.hpp
 api_name:
 - WDI_QOS_PROTOCOL
-product:
-- Windows
 targetos: Windows
 req.typenames: WDI_QOS_PROTOCOL
 ---

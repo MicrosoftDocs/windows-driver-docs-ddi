@@ -37,8 +37,6 @@ api_location:
 - DbgEng.h
 api_name:
 - DEBUG_LAST_EVENT_INFO_EXCEPTION
-product:
-- Windows
 targetos: Windows
 req.typenames: DEBUG_LAST_EVENT_INFO_EXCEPTION, *PDEBUG_LAST_EVENT_INFO_EXCEPTION
 ---

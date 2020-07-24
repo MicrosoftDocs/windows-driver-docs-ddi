@@ -38,8 +38,6 @@ api_location:
 - Nwprint.dll
 api_name:
 - ControlPrintProcessor
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

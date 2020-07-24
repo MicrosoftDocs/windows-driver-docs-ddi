@@ -37,8 +37,6 @@ api_location:
 - strmini.h
 api_name:
 - StrMiniEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

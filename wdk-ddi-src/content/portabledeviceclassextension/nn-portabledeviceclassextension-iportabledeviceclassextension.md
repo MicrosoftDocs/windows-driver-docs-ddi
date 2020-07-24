@@ -37,8 +37,6 @@ api_location:
 - PortableDeviceClassExtension.h
 api_name:
 - IPortableDeviceClassExtension
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

@@ -30,8 +30,6 @@ api_location:
  - wditypes.hpp
 api_name: 
  - WDI_FTM_RESPONSE_STATUS
-product:
-- Windows
 targetos: Windows
 ---
 

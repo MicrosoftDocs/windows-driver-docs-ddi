@@ -33,8 +33,6 @@ api_location:
  - ntddvdeo.h
 api_name: 
  - GAMMA_RAMP_RGB
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

@@ -36,8 +36,6 @@ api_location:
 - Wdm.h
 api_name:
 - GET_SDEV_IDENTIFIER callback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

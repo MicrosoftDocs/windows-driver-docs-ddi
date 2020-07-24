@@ -37,8 +37,6 @@ api_location:
 - rilapitypes.h
 api_name:
 - RILADDRESSPARAMMASK
-product:
-- Windows
 targetos: Windows
 req.typenames: RILADDRESSPARAMMASK
 req.product: Windows 10 or later.

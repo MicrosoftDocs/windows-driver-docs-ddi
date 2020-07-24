@@ -37,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlDeleteAce
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

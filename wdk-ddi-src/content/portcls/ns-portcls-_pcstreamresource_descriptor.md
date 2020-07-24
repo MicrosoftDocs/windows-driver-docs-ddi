@@ -37,8 +37,6 @@ api_location:
 - Portcls.h
 api_name:
 - PCSTREAMRESOURCE_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: PCSTREAMRESOURCE_DESCRIPTOR, *PPCSTREAMRESOURCE_DESCRIPTOR
 ---

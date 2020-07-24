@@ -37,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - NDIS_PD_OPEN_PROVIDER_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_PD_OPEN_PROVIDER_PARAMETERS
 ---

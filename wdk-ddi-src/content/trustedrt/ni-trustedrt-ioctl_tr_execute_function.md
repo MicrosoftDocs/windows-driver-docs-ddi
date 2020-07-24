@@ -28,8 +28,6 @@ api_location:
 - trustedrt.h
 api_name: 
 - IOCTL_TR_EXECUTE_FUNCTION
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

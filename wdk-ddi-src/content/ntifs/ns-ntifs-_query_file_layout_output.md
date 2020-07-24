@@ -37,8 +37,6 @@ api_location:
 - Ntifs.h
 api_name:
 - QUERY_FILE_LAYOUT_OUTPUT
-product:
-- Windows
 targetos: Windows
 req.typenames: QUERY_FILE_LAYOUT_OUTPUT, *PQUERY_FILE_LAYOUT_OUTPUT
 ---

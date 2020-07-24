@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - FILE_FS_CONTROL_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: FILE_FS_CONTROL_INFORMATION, *PFILE_FS_CONTROL_INFORMATION
 ---

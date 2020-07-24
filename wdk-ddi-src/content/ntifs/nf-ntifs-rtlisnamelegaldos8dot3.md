@@ -37,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlIsNameLegalDOS8Dot3
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

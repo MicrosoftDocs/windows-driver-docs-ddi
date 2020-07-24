@@ -37,8 +37,6 @@ api_location:
 - Wmistr.h
 api_name:
 - WNODE_EVENT_REFERENCE
-product:
-- Windows
 targetos: Windows
 req.typenames: WNODE_EVENT_REFERENCE, *PWNODE_EVENT_REFERENCE
 ---

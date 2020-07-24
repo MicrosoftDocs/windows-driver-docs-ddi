@@ -37,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NdisMSetupDmaTransfer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - Ntddk.h
 api_name:
 - FILE_VALID_DATA_LENGTH_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: FILE_VALID_DATA_LENGTH_INFORMATION, *PFILE_VALID_DATA_LENGTH_INFORMATION
 ---

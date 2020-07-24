@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - NETWORK_OPEN_ECP_CONTEXT_V0
-product:
-- Windows
 targetos: Windows
 req.typenames: NETWORK_OPEN_ECP_CONTEXT_V0, *PNETWORK_OPEN_ECP_CONTEXT_V0
 ---

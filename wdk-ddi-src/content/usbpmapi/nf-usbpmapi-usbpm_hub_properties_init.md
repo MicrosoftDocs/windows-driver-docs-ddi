@@ -35,8 +35,6 @@ api_location:
 - usbpmapi.h
 api_name: 
 - USBPM_HUB_PROPERTIES_INIT
-product:
-- Windows
 targetos: Windows
 
 

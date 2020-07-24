@@ -37,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - MONITOR_DISPLAY_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: MONITOR_DISPLAY_STATE, *PMONITOR_DISPLAY_STATE
 ---

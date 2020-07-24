@@ -39,8 +39,6 @@ api_location:
 api_name:
 - WdmlibIoCreateDeviceSecure
 - IoCreateDeviceSecure
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

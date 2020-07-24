@@ -31,8 +31,6 @@ api_location:
 - storport.h
 api_name: 
 - _CURRENT_INTERNAL_STATUS_PARAMETER_DATA
-product:
-- Windows
 targetos: Windows
 ---
 

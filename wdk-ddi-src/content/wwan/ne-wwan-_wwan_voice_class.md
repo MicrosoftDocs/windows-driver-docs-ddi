@@ -37,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_VOICE_CLASS
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_VOICE_CLASS, *PWWAN_VOICE_CLASS
 ---

@@ -37,8 +37,6 @@ api_location:
 - scsi.h
 api_name:
 - WINDOWS_BLOCK_DEVICE_TOKEN_LIMITS_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: WINDOWS_BLOCK_DEVICE_TOKEN_LIMITS_DESCRIPTOR, *PWINDOWS_BLOCK_DEVICE_TOKEN_LIMITS_DESCRIPTOR
 ---

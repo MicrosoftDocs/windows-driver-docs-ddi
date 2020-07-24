@@ -37,8 +37,6 @@ api_location:
 - Ntddvol.h
 api_name:
 - IOCTL_VOLUME_LOGICAL_TO_PHYSICAL
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

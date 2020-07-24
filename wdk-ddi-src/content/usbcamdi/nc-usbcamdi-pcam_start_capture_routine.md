@@ -37,8 +37,6 @@ api_location:
 - usbcamdi.h
 api_name:
 - CamStartCapture
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

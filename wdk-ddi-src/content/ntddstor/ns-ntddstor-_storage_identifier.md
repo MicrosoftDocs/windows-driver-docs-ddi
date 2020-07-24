@@ -37,8 +37,6 @@ api_location:
 - ntddstor.h
 api_name:
 - STORAGE_IDENTIFIER
-product:
-- Windows
 targetos: Windows
 req.typenames: STORAGE_IDENTIFIER, *PSTORAGE_IDENTIFIER
 ---

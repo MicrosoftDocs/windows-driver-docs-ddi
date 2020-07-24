@@ -37,8 +37,6 @@ api_location:
 - UcmTcpciPortControllerRequests.h
 api_name:
 - IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_TRANSMIT_BUFFER
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - Ntifs.h
 api_name:
 - WOF_VERSION_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: WOF_VERSION_INFO, *PWOF_VERSION_INFO
 ---

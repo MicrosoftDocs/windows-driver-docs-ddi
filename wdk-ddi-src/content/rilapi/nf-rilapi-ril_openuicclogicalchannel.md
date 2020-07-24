@@ -37,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_OpenUiccLogicalChannel
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

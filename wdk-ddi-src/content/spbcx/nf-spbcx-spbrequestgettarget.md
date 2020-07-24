@@ -38,8 +38,6 @@ api_location:
 - spbcxstubs.dll
 api_name:
 - SpbRequestGetTarget
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

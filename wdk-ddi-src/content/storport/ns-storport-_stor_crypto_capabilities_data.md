@@ -37,8 +37,6 @@ api_location:
 - Storport.h
 api_name:
 - STOR_CRYPTO_CAPABILITIES_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: STOR_CRYPTO_CAPABILITIES_DATA, *PSTOR_CRYPTO_CAPABILITIES_DATA
 ---

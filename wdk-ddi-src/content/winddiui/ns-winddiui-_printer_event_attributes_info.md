@@ -37,8 +37,6 @@ api_location:
 - winddiui.h
 api_name:
 - PRINTER_EVENT_ATTRIBUTES_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: PRINTER_EVENT_ATTRIBUTES_INFO, *PPRINTER_EVENT_ATTRIBUTES_INFO
 ---

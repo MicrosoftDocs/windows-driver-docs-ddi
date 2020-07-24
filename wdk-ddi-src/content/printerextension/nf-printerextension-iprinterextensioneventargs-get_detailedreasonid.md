@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IPrinterExtensionEventArgs.DetailedReasonId
 - IPrinterExtensionEventArgs.get_DetailedReasonId
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

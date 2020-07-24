@@ -30,8 +30,6 @@ api_location:
 - trustedruntimeclx.h
 api_name: 
 - _TR_SECURE_SERVICE_CALLBACKS_V1
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

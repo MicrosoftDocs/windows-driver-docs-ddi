@@ -38,8 +38,6 @@ api_location:
 - N/A.dll
 api_name:
 - WdfPreDeviceInstallEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

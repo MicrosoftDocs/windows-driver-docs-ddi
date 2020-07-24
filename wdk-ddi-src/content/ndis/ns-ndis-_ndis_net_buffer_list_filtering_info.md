@@ -37,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - NDIS_NET_BUFFER_LIST_FILTERING_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_NET_BUFFER_LIST_FILTERING_INFO, *PNDIS_NET_BUFFER_LIST_FILTERING_INFO
 ---

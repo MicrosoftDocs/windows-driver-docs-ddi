@@ -37,8 +37,6 @@ api_location:
 - ufxbase.h
 api_name:
 - UFX_HARDWARE_FAILURE_CONTEXT
-product:
-- Windows
 targetos: Windows
 req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
 ---

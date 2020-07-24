@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IPrintSchemaCapabilities.JobCopiesAllDocumentsMaxValue
 - IPrintSchemaCapabilities.get_JobCopiesAllDocumentsMaxValue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

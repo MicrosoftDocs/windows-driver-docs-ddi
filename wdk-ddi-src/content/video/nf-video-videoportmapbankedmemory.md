@@ -37,8 +37,6 @@ api_location:
 - Videoprt.sys
 api_name:
 - VideoPortMapBankedMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - Spbcx.h
 api_name:
 - SPB_TRANSFER_DESCRIPTOR_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

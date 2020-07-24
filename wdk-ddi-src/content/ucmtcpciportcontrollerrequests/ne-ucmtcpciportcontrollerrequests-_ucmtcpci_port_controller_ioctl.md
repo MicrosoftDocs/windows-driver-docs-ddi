@@ -37,8 +37,6 @@ api_location:
 - UcmTcpciPortControllerRequests.h
 api_name:
 - UCMTCPCI_PORT_CONTROLLER_IOCTL
-product:
-- Windows
 targetos: Windows
 req.typenames: UCMTCPCI_PORT_CONTROLLER_IOCTL
 ---

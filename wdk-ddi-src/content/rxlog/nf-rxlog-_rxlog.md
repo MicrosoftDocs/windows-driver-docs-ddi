@@ -37,8 +37,6 @@ api_location:
 - rxlog.h
 api_name:
 - _RxLog
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,8 +38,6 @@ api_location:
 - ntifs.h
 api_name:
 - SRV_INSTANCE_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: SRV_INSTANCE_TYPE
 ---

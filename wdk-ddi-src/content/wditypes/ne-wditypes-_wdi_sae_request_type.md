@@ -30,8 +30,6 @@ api_location:
  - wditypes.hpp
 api_name: 
  - WDI_SAE_REQUEST_TYPE
-product:
-- Windows
 targetos: Windows
 ---
 

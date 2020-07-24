@@ -37,8 +37,6 @@ api_location:
 - usb.h
 api_name:
 - _URB_CONTROL_GET_STATUS_REQUEST
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

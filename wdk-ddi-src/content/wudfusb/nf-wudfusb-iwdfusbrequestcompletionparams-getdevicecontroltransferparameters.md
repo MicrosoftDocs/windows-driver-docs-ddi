@@ -37,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFUsbRequestCompletionParams.GetDeviceControlTransferParameters
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

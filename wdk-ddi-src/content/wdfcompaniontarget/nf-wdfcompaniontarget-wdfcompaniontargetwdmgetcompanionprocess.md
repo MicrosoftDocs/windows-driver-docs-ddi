@@ -37,8 +37,6 @@ api_location:
 - wdfcompaniontarget.h
 api_name:
 - WdfCompanionTargetWdmGetCompanionProcess
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

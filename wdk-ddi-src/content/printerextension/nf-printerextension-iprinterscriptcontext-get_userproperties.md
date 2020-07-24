@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IPrinterScriptContext.UserProperties
 - IPrinterScriptContext.get_UserProperties
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

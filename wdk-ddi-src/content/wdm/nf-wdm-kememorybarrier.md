@@ -37,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - KeMemoryBarrier
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

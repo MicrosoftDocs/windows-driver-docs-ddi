@@ -37,8 +37,6 @@ api_location:
 - wdfsync.h
 api_name:
 - WdfObjectReleaseLock
-product:
-- Windows
 targetos: Windows
 req.typenames: "*PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS"
 req.product: Windows 10 or later.

@@ -37,8 +37,6 @@ api_location:
 - UdecxUsbDevice.h
 api_name:
 - UDECX_USB_DEVICE_FUNCTION_POWER
-product:
-- Windows
 targetos: Windows
 req.typenames: UDECX_USB_DEVICE_FUNCTION_POWER, *PUDECX_USB_DEVICE_FUNCTION_POWER
 ---

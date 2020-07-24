@@ -37,8 +37,6 @@ api_location:
 - Wudfddi_types.h
 api_name:
 - WDF_REQUEST_STOP_ACTION_FLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_REQUEST_STOP_ACTION_FLAGS
 ---

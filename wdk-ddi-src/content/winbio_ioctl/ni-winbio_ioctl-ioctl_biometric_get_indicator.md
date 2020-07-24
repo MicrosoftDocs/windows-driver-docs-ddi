@@ -37,8 +37,6 @@ api_location:
 - Winbio_ioctl.h
 api_name:
 - IOCTL_BIOMETRIC_GET_INDICATOR
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - NDIS_SWITCH_PORT_DESTINATION
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_SWITCH_PORT_DESTINATION, *PNDIS_SWITCH_PORT_DESTINATION
 ---

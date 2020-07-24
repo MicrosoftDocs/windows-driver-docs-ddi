@@ -37,8 +37,6 @@ api_location:
 - WDTF.tlb
 api_name:
 - ITracer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

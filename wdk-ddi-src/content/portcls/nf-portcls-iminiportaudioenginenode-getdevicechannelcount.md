@@ -37,8 +37,6 @@ api_location:
 - Portcls.h
 api_name:
 - IMiniportAudioEngineNode.GetDeviceChannelCount
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

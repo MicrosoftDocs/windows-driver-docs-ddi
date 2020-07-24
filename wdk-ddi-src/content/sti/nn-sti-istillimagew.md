@@ -37,8 +37,6 @@ api_location:
 - sti.h
 api_name:
 - IStillImageW
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

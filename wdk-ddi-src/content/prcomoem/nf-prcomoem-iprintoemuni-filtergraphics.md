@@ -37,8 +37,6 @@ api_location:
 - prcomoem.h
 api_name:
 - IPrintOemUni.FilterGraphics
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

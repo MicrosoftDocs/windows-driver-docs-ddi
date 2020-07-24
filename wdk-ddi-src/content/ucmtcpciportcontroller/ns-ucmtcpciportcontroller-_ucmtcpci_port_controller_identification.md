@@ -37,8 +37,6 @@ api_location:
 - ucmtcpciportcontroller.h
 api_name:
 - UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION
-product:
-- Windows
 targetos: Windows
 req.typenames: UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION, *PUCMTCPCI_PORT_CONTROLLER_IDENTIFICATION
 ---

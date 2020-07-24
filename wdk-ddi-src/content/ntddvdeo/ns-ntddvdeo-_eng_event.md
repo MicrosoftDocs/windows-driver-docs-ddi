@@ -37,8 +37,6 @@ api_location:
 - ntddvdeo.h
 api_name:
 - ENG_EVENT
-product:
-- Windows
 targetos: Windows
 req.typenames: "*PEVENT, ENG_EVENT, *PENG_EVENT"
 ---

@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - ACE_HEADER
-product:
-- Windows
 targetos: Windows
 req.typenames: ACE_HEADER
 ---

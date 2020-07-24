@@ -37,8 +37,6 @@ api_location:
 - ntddstor.h
 api_name:
 - PERSISTENT_RESERVE_COMMAND
-product:
-- Windows
 targetos: Windows
 req.typenames: PERSISTENT_RESERVE_COMMAND, *PPERSISTENT_RESERVE_COMMAND
 ---

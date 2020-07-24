@@ -37,8 +37,6 @@ api_location:
 - parallel.h
 api_name:
 - IOCTL_INTERNAL_LOCK_PORT_NO_SELECT
-product:
-- Windows
 targetos: Windows
 req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ---

@@ -37,8 +37,6 @@ api_location:
 - wmistr.h
 api_name:
 - WNODE_ALL_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: WNODE_ALL_DATA, *PWNODE_ALL_DATA
 ---

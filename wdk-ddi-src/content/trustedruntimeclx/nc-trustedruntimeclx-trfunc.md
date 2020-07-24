@@ -33,8 +33,6 @@ api_location:
 - trustedruntimeclx.h
 api_name: 
 - TRFUNC
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

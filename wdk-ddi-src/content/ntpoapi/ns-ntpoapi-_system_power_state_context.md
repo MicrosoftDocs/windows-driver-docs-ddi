@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - SYSTEM_POWER_STATE_CONTEXT
-product:
-- Windows
 targetos: Windows
 req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 ---

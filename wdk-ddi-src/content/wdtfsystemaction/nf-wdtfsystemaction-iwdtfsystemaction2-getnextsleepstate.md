@@ -37,8 +37,6 @@ api_location:
 - WDTFSystemAction.Interop.dll
 api_name:
 - IWDTFSystemAction2.GetNextSleepState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

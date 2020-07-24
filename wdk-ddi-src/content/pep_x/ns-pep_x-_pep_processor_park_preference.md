@@ -37,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - PEP_PROCESSOR_PARK_PREFERENCE
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_PROCESSOR_PARK_PREFERENCE, *PPEP_PROCESSOR_PARK_PREFERENCE
 ---

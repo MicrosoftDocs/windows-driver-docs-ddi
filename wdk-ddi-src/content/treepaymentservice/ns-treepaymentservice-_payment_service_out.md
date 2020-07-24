@@ -30,8 +30,6 @@ api_location:
 - treepaymentservice.h
 api_name: 
 - _PAYMENT_SERVICE_OUT
-product:
-- Windows
 targetos: Windows
 ---
 

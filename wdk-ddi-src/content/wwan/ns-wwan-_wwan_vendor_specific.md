@@ -37,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_VENDOR_SPECIFIC
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_VENDOR_SPECIFIC, *PWWAN_VENDOR_SPECIFIC
 ---

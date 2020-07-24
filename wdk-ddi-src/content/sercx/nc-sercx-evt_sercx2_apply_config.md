@@ -37,8 +37,6 @@ api_location:
 - 2.0\Sercx.h
 api_name:
 - EvtSerCx2ApplyConfig
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

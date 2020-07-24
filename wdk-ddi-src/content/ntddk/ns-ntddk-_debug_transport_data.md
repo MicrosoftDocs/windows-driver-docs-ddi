@@ -30,8 +30,6 @@ api_location:
 - ntddk.h
 api_name: 
 - _DEBUG_TRANSPORT_DATA
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

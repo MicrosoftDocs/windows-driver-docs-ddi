@@ -37,8 +37,6 @@ api_location:
 - usb.h
 api_name:
 - USB_CONTROLLER_FLAVOR
-product:
-- Windows
 targetos: Windows
 req.typenames: USB_CONTROLLER_FLAVOR
 ---

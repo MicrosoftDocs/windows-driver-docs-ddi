@@ -38,8 +38,6 @@ api_location:
 - Ntdll.dll
 api_name:
 - RtlCompareString
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

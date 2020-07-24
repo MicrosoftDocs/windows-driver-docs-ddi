@@ -37,8 +37,6 @@ api_location:
 - 2.0\Sercx.h
 api_name:
 - SERCX2_SYSTEM_DMA_RECEIVE_CONFIG_INIT_NEW_DATA_NOTIFICATION
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

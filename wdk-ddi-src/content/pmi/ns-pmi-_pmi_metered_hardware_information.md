@@ -37,8 +37,6 @@ api_location:
 - pmi.h
 api_name:
 - PMI_METERED_HARDWARE_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: PMI_METERED_HARDWARE_INFORMATION, *PPMI_METERED_HARDWARE_INFORMATION
 ---

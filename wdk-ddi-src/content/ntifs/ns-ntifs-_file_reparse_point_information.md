@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - FILE_REPARSE_POINT_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: FILE_REPARSE_POINT_INFORMATION, *PFILE_REPARSE_POINT_INFORMATION
 ---

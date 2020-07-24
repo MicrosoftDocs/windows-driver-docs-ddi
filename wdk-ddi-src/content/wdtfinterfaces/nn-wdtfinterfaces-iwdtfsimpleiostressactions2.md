@@ -37,8 +37,6 @@ api_location:
 - wdtfinterfaces.h
 api_name:
 - IWDTFSimpleIOStressActions2
-product:
-- Windows
 targetos: Windows
 req.typenames: TTraceLevel
 req.product: Windows 10 or later.

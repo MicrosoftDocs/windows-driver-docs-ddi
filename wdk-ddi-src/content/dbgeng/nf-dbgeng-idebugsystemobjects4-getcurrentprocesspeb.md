@@ -40,8 +40,6 @@ api_name:
 - IDebugSystemObjects2.GetCurrentProcessPeb
 - IDebugSystemObjects3.GetCurrentProcessPeb
 - IDebugSystemObjects4.GetCurrentProcessPeb
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

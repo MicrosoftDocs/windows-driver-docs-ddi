@@ -37,8 +37,6 @@ api_location:
 - usbprint.h
 api_name:
 - IOCTL_USBPRINT_GET_1284_ID
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

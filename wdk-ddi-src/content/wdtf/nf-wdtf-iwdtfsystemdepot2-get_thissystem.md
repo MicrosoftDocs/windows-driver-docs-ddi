@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IWDTFSystemDepot2.ThisSystem
 - IWDTFSystemDepot2.get_ThisSystem
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

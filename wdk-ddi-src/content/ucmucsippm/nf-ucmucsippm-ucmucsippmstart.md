@@ -35,8 +35,6 @@ api_location:
 - UcmUcsiCxStub.lib
 api_name: 
 - UcmUcsiPpmStart
-product:
-- Windows
 targetos: Windows
 
 

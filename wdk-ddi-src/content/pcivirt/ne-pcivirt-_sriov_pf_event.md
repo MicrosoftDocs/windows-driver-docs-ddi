@@ -37,8 +37,6 @@ api_location:
 - Pcivirt.h
 api_name:
 - SRIOV_PF_EVENT
-product:
-- Windows
 targetos: Windows
 req.typenames: SRIOV_PF_EVENT, *PSRIOV_PF_EVENT
 ---

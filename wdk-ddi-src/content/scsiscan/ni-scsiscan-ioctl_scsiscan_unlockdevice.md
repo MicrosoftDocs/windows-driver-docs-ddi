@@ -37,8 +37,6 @@ api_location:
 - scsiscan.h
 api_name:
 - IOCTL_SCSISCAN_UNLOCKDEVICE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

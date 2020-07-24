@@ -37,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILSUPSVCINFO
-product:
-- Windows
 targetos: Windows
 req.typenames: RILSUPSVCINFO, *LPRILSUPSVCINFO
 ---

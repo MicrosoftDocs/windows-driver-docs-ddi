@@ -37,8 +37,6 @@ api_location:
 - ucxendpoint.h
 api_name:
 - PEVT_UCX_ENDPOINT_PURGE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IWDTFNumbers2.Count
 - IWDTFNumbers2.get_Count
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - wdfinterrupt.h
 api_name:
 - WDF_INTERRUPT_CONFIG
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_INTERRUPT_CONFIG, *PWDF_INTERRUPT_CONFIG
 ---

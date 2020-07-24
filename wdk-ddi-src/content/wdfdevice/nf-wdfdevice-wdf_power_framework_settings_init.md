@@ -37,8 +37,6 @@ api_location:
 - wdfdevice.h
 api_name:
 - WDF_POWER_FRAMEWORK_SETTINGS_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

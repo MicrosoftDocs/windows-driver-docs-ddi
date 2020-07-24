@@ -37,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - PEP_COMPONENT_V2
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_COMPONENT_V2, *PPEP_COMPONENT_V2
 ---

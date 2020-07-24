@@ -37,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILSTARTDTMFPARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILSTARTDTMFPARAMS, *LPRILSTARTDTMFPARAMS
 ---

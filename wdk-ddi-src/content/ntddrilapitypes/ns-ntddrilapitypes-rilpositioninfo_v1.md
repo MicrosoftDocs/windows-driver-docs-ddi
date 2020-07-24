@@ -37,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILPOSITIONINFO_V1
-product:
-- Windows
 targetos: Windows
 req.typenames: RILPOSITIONINFO_V1, *LPRILPOSITIONINFO_V1
 ---

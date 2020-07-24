@@ -37,8 +37,6 @@ api_location:
 - UcxController.h
 api_name:
 - UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS_CHANGE_FLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS_CHANGE_FLAGS
 ---

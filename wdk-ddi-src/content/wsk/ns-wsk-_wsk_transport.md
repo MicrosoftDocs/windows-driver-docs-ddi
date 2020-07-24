@@ -37,8 +37,6 @@ api_location:
 - wsk.h
 api_name:
 - WSK_TRANSPORT
-product:
-- Windows
 targetos: Windows
 req.typenames: WSK_TRANSPORT, *PWSK_TRANSPORT
 ---

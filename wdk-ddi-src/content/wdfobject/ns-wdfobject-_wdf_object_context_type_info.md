@@ -37,8 +37,6 @@ api_location:
 - wdfobject.h
 api_name:
 - WDF_OBJECT_CONTEXT_TYPE_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_OBJECT_CONTEXT_TYPE_INFO, *PWDF_OBJECT_CONTEXT_TYPE_INFO
 ---

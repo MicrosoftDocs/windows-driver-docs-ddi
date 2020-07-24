@@ -37,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE, *PPEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE
 ---

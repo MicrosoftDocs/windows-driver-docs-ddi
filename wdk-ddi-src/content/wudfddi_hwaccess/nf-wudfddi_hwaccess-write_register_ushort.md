@@ -37,8 +37,6 @@ api_location:
 - Wudfddi_hwaccess.h
 api_name:
 - WRITE_REGISTER_USHORT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

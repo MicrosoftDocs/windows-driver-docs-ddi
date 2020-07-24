@@ -37,8 +37,6 @@ api_location:
 - wdtfpnpaction.h
 api_name:
 - IWDTFPNPActions2.DisableDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

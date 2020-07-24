@@ -37,8 +37,6 @@ api_location:
 - ucxclass.h
 api_name:
 - UcxInitializeDeviceInit
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

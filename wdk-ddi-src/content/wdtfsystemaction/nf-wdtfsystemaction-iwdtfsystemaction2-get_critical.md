@@ -39,8 +39,6 @@ api_name:
 - IWDTFSystemAction2.Critical
 - IWDTFSystemAction2.get_Critical
 - IWDTFSystemAction2.put_Critical
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

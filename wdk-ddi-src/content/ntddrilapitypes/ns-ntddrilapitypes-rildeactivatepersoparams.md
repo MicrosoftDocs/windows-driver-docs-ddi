@@ -37,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILDEACTIVATEPERSOPARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILDEACTIVATEPERSOPARAMS, *LPRILDEACTIVATEPERSOPARAMS
 ---

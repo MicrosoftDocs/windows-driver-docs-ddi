@@ -37,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFIoTarget2.FormatRequestForFlush
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

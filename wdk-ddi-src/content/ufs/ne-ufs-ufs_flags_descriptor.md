@@ -37,8 +37,6 @@ api_location:
 - Ufs.h
 api_name:
 - UFS_FLAGS_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: UFS_FLAGS_DESCRIPTOR
 ---

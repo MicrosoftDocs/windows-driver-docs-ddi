@@ -37,8 +37,6 @@ api_location:
 - rxtimer.h
 api_name:
 - RxPostOneShotTimerRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

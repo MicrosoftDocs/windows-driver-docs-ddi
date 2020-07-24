@@ -37,8 +37,6 @@ api_location:
 - wditypes.hpp
 api_name:
 - WDI_DATA_RATE_ENTRY
-product:
-- Windows
 targetos: Windows
 req.typenames: WDI_DATA_RATE_ENTRY, *PWDI_DATA_RATE_ENTRY
 ---

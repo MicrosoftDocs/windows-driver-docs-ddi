@@ -37,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - RTL_AVL_TABLE
-product:
-- Windows
 targetos: Windows
 req.typenames: RTL_AVL_TABLE
 ---

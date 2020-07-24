@@ -37,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFIoRequest.IsFrom32BitProcess
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

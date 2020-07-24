@@ -38,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisMGetVirtualFunctionBusData
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

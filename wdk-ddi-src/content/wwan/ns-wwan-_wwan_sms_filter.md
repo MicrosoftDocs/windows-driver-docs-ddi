@@ -37,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_SMS_FILTER
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_SMS_FILTER, *PWWAN_SMS_FILTER
 ---

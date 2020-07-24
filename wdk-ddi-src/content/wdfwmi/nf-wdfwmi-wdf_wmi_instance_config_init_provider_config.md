@@ -37,8 +37,6 @@ api_location:
 - wdfwmi.h
 api_name:
 - WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER_CONFIG
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

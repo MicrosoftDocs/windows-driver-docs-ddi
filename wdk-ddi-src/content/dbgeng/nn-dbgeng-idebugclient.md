@@ -41,8 +41,6 @@ api_name:
 - IDebugClient.SetOutputWidth
 - IDebugClient.GetOutputLinePrefix
 - IDebugClient.SetOutputLinePrefix
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

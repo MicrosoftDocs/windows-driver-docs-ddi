@@ -36,8 +36,6 @@ api_location:
 - pepfx.h
 api_name:
 - PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES, *PPEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES
 ---

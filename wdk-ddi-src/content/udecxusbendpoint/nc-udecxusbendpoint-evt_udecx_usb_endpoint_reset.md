@@ -37,8 +37,6 @@ api_location:
 - UdecxUsbEndpoint.h
 api_name:
 - EvtUsbEndpointReset
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

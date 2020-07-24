@@ -37,8 +37,6 @@ api_location:
 - ucxusbdevice.h
 api_name:
 - USBDEVICE_ENABLE_FAILURE_FLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: USBDEVICE_ENABLE_FAILURE_FLAGS
 ---

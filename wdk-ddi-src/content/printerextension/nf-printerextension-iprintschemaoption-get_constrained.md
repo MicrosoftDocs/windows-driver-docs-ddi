@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IPrintSchemaOption.Constrained
 - IPrintSchemaOption.get_Constrained
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

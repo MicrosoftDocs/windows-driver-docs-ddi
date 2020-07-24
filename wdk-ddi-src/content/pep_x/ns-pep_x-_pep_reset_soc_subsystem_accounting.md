@@ -37,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING, *PPEP_RESET_SOC_SUBSYSTEM_ACCOUNTING
 ---

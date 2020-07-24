@@ -37,8 +37,6 @@ api_location:
 - srb.h
 api_name:
 - (*PHW_FIND_ADAPTER)
-product:
-- Windows
 targetos: Windows
 req.typenames: SPB_CONTROLLER_CONFIG, *PSPB_CONTROLLER_CONFIG
 req.product: Windows 10 or later.

@@ -37,8 +37,6 @@ api_location:
 - usbscan.h
 api_name:
 - DRV_VERSION
-product:
-- Windows
 targetos: Windows
 req.typenames: DRV_VERSION, *PDRV_VERSION
 ---

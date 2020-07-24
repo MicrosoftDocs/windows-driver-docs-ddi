@@ -37,8 +37,6 @@ api_location:
 - parallel.h
 api_name:
 - (*PPARALLEL_TRY_SELECT_ROUTINE)
-product:
-- Windows
 targetos: Windows
 req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ---

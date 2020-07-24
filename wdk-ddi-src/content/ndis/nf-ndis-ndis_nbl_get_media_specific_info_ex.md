@@ -35,8 +35,6 @@ api_location:
 - ndis.h
 api_name: 
 - NDIS_NBL_GET_MEDIA_SPECIFIC_INFO_EX
-product:
-- Windows
 targetos: Windows
 
 ---

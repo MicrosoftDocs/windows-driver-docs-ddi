@@ -37,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILUICCTOOLKITCMD
-product:
-- Windows
 targetos: Windows
 req.typenames: RILUICCTOOLKITCMD, *LPRILUICCTOOLKITCMD
 ---

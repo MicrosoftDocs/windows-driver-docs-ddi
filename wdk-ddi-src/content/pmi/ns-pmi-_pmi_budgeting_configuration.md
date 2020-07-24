@@ -37,8 +37,6 @@ api_location:
 - pmi.h
 api_name:
 - PMI_BUDGETING_CONFIGURATION
-product:
-- Windows
 targetos: Windows
 req.typenames: PMI_BUDGETING_CONFIGURATION, *PPMI_BUDGETING_CONFIGURATION
 ---

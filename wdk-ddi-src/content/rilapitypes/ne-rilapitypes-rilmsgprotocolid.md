@@ -37,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILMSGPROTOCOLID
-product:
-- Windows
 targetos: Windows
 req.typenames: RILMSGPROTOCOLID
 ---

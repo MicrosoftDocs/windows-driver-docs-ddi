@@ -35,8 +35,6 @@ api_location:
 - sensorsutils.h
 api_name: 
 - CollectionsListGetSerializedSize
-product:
-- Windows
 targetos: Windows
 
 

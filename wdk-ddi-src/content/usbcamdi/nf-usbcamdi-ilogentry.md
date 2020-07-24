@@ -34,8 +34,6 @@ api_location:
 - usbcamdi.h
 api_name: 
 - ILOGENTRY
-product:
-- Windows
 targetos: Windows
 
 

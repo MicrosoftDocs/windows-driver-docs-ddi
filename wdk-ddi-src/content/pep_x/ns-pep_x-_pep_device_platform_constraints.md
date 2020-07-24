@@ -37,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - PEP_DEVICE_PLATFORM_CONSTRAINTS
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_DEVICE_PLATFORM_CONSTRAINTS, *PPEP_DEVICE_PLATFORM_CONSTRAINTS
 ---

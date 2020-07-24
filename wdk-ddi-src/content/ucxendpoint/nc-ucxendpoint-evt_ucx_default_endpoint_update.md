@@ -37,8 +37,6 @@ api_location:
 - ucxendpoint.h
 api_name:
 - PEVT_UCX_DEFAULT_ENDPOINT_UPDATE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

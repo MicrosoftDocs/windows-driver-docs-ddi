@@ -37,8 +37,6 @@ api_location:
 - Videoprt.sys
 api_name:
 - VideoPortReadRegisterUshort
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

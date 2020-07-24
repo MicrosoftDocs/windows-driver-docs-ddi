@@ -37,8 +37,6 @@ api_location:
 - winsplp.h
 api_name:
 - MESSAGEBOX_PARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: MESSAGEBOX_PARAMS, *PMESSAGEBOX_PARAMS
 ---

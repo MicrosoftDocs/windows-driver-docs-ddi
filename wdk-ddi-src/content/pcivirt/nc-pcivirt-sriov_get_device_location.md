@@ -37,8 +37,6 @@ api_location:
 - Pcivirt.h
 api_name:
 - PSRIOV_GET_DEVICE_LOCATION
-product:
-- Windows
 targetos: Windows
 req.typenames: PARCLASS_INFORMATION, *PPARCLASS_INFORMATION
 ---

@@ -37,8 +37,6 @@ api_location:
 - wdbgexts.h
 api_name:
 - ReloadSymbols
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

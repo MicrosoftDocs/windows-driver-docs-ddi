@@ -34,8 +34,6 @@ api_location:
 - NtosKrnl.exe
 api_name: 
 - KeAddTriageDumpDataBlock
-product:
-- Windows
 targetos: Windows
 
 ms.custom: 19H1

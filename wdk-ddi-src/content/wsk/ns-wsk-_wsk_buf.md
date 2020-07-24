@@ -37,8 +37,6 @@ api_location:
 - wsk.h
 api_name:
 - WSK_BUF
-product:
-- Windows
 targetos: Windows
 req.typenames: WSK_BUF, *PWSK_BUF
 ---

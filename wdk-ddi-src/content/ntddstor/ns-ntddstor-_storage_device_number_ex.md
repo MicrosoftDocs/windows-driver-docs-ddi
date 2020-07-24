@@ -37,8 +37,6 @@ api_location:
 - ntddstor.h
 api_name:
 - STORAGE_DEVICE_NUMBER_EX
-product:
-- Windows
 targetos: Windows
 req.typenames: STORAGE_DEVICE_NUMBER_EX, *PSTORAGE_DEVICE_NUMBER_EX
 ---

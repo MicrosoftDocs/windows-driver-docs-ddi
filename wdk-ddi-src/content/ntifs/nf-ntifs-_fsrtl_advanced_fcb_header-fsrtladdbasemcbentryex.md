@@ -35,8 +35,6 @@ api_location:
 - NtosKrnl.exe
 api_name: 
 - FsRtlAddBaseMcbEntryEx
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

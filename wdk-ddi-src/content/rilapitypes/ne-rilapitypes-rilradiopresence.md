@@ -37,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILRADIOPRESENCE
-product:
-- Windows
 targetos: Windows
 req.typenames: RILRADIOPRESENCE
 ---

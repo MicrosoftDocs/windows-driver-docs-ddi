@@ -37,8 +37,6 @@ api_location:
 - usbfnbase.h
 api_name:
 - USBFN_DEVICE_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: USBFN_DEVICE_STATE, *PUSBFN_DEVICE_STATE
 ---

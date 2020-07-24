@@ -37,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILSENDDTMFPARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILSENDDTMFPARAMS, *LPRILSENDDTMFPARAMS
 ---

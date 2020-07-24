@@ -37,8 +37,6 @@ api_location:
 - Wudfddi.h
 api_name:
 - WDF_IO_QUEUE_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_IO_QUEUE_STATE, *PWDF_IO_QUEUE_STATE
 ---

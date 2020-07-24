@@ -37,8 +37,6 @@ api_location:
 - WUDFx02000.dll
 api_name:
 - WdfRequestIsFromUserModeDriver
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

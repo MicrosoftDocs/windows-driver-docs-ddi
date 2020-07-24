@@ -34,8 +34,6 @@ api_location:
 - vmbuskernelmodeclientlibapi.h
 api_name: 
 - FN_VMB_CHANNEL_INIT_SET_CLIENT_CONTEXT_SIZE
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

@@ -37,8 +37,6 @@ api_location:
 - storport.h
 api_name:
 - STOR_POFX_DEVICE
-product:
-- Windows
 targetos: Windows
 req.typenames: STOR_POFX_DEVICE, *PSTOR_POFX_DEVICE
 ---

@@ -35,8 +35,6 @@ api_location:
 - UsbPmApi.lib
 api_name: 
 - USBPM_HUB_CONNECTOR_HANDLES_INIT
-product:
-- Windows
 targetos: Windows
 
 

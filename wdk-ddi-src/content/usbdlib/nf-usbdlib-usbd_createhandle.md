@@ -40,8 +40,6 @@ api_location:
 - Ntstrsafe.dll
 api_name:
 - USBD_CreateHandle
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

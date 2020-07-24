@@ -28,8 +28,6 @@ api_location:
 - wwan.h
 api_name: 
 - _WWAN_5G_FREQUENCY_RANGE
-product:
-- Windows
 targetos: Windows
 ms.custom: 19H1
 ---

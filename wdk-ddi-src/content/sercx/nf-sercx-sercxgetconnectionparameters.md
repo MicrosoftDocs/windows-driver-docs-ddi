@@ -37,8 +37,6 @@ api_location:
 - 1.0\Sercx.h
 api_name:
 - SerCxGetConnectionParameters
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

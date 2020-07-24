@@ -37,8 +37,6 @@ api_location:
 - Dbgeng.h
 api_name:
 - IDebugSystemObjects4.GetCurrentSystemServerNameWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

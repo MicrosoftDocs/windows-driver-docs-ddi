@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IPrintSchemaDisplayableElement.DisplayName
 - IPrintSchemaDisplayableElement.get_DisplayName
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

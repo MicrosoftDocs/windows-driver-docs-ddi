@@ -37,8 +37,6 @@ api_location:
 - Usbscan.h
 api_name:
 - IOCTL_GET_CHANNEL_ALIGN_RQST
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

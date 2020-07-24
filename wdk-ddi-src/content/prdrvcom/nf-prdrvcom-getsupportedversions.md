@@ -37,8 +37,6 @@ api_location:
 - Prdrvcom.h
 api_name:
 - IPrintTicketProvider.GetSupportedVersions
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

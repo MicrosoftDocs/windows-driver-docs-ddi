@@ -38,8 +38,6 @@ api_location:
 - WinSpool.drv
 api_name:
 - GetJobNamedPropertyValue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

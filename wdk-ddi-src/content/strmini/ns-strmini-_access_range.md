@@ -37,8 +37,6 @@ api_location:
 - srb.h
 api_name:
 - ACCESS_RANGE
-product:
-- Windows
 targetos: Windows
 req.typenames: ACCESS_RANGE, *PACCESS_RANGE
 req.product: Windows 10 or later.

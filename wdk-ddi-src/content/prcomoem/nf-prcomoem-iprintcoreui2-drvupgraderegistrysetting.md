@@ -37,8 +37,6 @@ api_location:
 - Prcomoem.h
 api_name:
 - IPrintCoreUI2.DrvUpgradeRegistrySetting
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

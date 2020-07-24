@@ -37,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - WHEA_FIRMWARE_ERROR_RECORD_REFERENCE
-product:
-- Windows
 targetos: Windows
 req.typenames: WHEA_FIRMWARE_ERROR_RECORD_REFERENCE, *PWHEA_FIRMWARE_ERROR_RECORD_REFERENCE
 ---

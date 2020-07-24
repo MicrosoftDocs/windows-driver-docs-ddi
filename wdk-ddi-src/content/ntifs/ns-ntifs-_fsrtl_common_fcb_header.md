@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - FSRTL_COMMON_FCB_HEADER
-product:
-- Windows
 targetos: Windows
 req.typenames: FSRTL_COMMON_FCB_HEADER
 ---

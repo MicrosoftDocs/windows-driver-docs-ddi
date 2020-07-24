@@ -37,8 +37,6 @@ api_location:
 - WdfWMI.h
 api_name:
 - EvtWmiInstanceSetItem
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -31,8 +31,6 @@ api_location:
 - ntddk.h
 api_name: 
 - _PROCESS_LOGGING_INFORMATION
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

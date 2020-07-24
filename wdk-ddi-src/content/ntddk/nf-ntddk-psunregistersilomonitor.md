@@ -37,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - PsUnregisterSiloMonitor
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

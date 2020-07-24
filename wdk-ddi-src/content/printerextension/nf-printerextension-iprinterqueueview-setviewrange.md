@@ -37,8 +37,6 @@ api_location:
 - Printerextension.h
 api_name:
 - IPrinterQueueView.SetViewRange
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

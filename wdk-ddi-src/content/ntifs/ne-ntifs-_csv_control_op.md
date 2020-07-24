@@ -28,8 +28,6 @@ api_location:
 - ntifs.h
 api_name: 
 - _CSV_CONTROL_OP
-product:
-- Windows
 targetos: Windows
 ---
 

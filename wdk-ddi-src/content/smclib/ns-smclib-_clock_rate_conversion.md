@@ -37,8 +37,6 @@ api_location:
 - smclib.h
 api_name:
 - CLOCK_RATE_CONVERSION
-product:
-- Windows
 targetos: Windows
 req.typenames: CLOCK_RATE_CONVERSION, *PCLOCK_RATE_CONVERSION
 ---

@@ -37,8 +37,6 @@ api_location:
 - Wudfddi_types.h
 api_name:
 - UMDF_VERSION_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: UMDF_VERSION_DATA, *PUMDF_VERSION_DATA
 ---

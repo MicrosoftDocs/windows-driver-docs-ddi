@@ -37,8 +37,6 @@ api_location:
 - rxtimer.h
 api_name:
 - RxPostRecurrentTimerRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

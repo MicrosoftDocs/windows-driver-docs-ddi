@@ -37,8 +37,6 @@ api_location:
 - wlclient.h
 api_name:
 - DOT11_PORT_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT11_PORT_STATE, *PDOT11_PORT_STATE
 req.product: Windows 10 or later.

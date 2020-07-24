@@ -37,8 +37,6 @@ api_location:
 - DbgEng.h
 api_name:
 - DEBUG_PROCESSOR_IDENTIFICATION_X86
-product:
-- Windows
 targetos: Windows
 req.typenames: DEBUG_PROCESSOR_IDENTIFICATION_X86, *PDEBUG_PROCESSOR_IDENTIFICATION_X86
 ---

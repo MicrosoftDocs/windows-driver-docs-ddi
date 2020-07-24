@@ -28,8 +28,6 @@ api_location:
 - uart.h
 api_name:
 - UART_STATUS
-product:
-- Windows
 targetos: Windows
 ---
 

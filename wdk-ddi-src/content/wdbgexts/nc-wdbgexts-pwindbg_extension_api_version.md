@@ -37,8 +37,6 @@ api_location:
 - wdbgexts.h
 api_name:
 - ExtensionApiVersion
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - wdtf.h
 api_name:
 - IWDTFActions2.Clear
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

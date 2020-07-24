@@ -37,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILCARDAPPADDED
-product:
-- Windows
 targetos: Windows
 req.typenames: RILCARDAPPADDED, *LPRILCARDAPPADDED
 ---

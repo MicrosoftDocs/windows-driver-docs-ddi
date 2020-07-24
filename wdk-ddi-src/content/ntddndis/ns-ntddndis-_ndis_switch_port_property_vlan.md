@@ -37,8 +37,6 @@ api_location:
 - Ntddndis.h
 api_name:
 - NDIS_SWITCH_PORT_PROPERTY_VLAN
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_SWITCH_PORT_PROPERTY_VLAN, *PNDIS_SWITCH_PORT_PROPERTY_VLAN
 ---

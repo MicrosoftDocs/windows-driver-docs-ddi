@@ -37,8 +37,6 @@ api_location:
 - pointofservicecommontypes.h
 api_name:
 - DriverUnifiedPosErrorSeverity
-product:
-- Windows
 targetos: Windows
 req.typenames: DriverUnifiedPosErrorSeverity
 ---

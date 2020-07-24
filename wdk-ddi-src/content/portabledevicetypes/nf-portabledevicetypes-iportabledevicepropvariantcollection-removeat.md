@@ -38,8 +38,6 @@ api_location:
 - PortableDeviceGUIDs.dll
 api_name:
 - IPortableDevicePropVariantCollection.RemoveAt
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

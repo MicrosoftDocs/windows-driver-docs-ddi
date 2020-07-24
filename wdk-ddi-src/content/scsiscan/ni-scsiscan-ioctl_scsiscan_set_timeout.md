@@ -37,8 +37,6 @@ api_location:
 - scsiscan.h
 api_name:
 - IOCTL_SCSISCAN_SET_TIMEOUT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -31,8 +31,6 @@ api_location:
 - storport.h
 api_name: 
 - _HW_INITIALIZATION_DATA
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

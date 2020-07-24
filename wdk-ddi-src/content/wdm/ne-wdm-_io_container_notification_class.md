@@ -37,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - IO_CONTAINER_NOTIFICATION_CLASS
-product:
-- Windows
 targetos: Windows
 req.typenames: IO_CONTAINER_NOTIFICATION_CLASS
 ---

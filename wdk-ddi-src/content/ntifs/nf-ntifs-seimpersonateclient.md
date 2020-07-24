@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - SeImpersonateClient
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - Videoprt.sys
 api_name:
 - VideoPortLockBuffer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

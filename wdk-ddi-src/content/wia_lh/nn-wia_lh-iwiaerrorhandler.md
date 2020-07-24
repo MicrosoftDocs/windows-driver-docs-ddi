@@ -37,8 +37,6 @@ api_location:
 - wia_lh.h
 api_name:
 - IWiaErrorHandler
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

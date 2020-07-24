@@ -37,8 +37,6 @@ api_location:
 - Wdffdo.h
 api_name:
 - EvtDeviceRemoveAddedResources
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -30,8 +30,6 @@ api_location:
  - ntddvdeo.h
 api_name: 
  - IOCTL_MIPI_DSI_QUERY_CAPS
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

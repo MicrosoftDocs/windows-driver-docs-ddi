@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - IO_SESSION_NOTIFICATION_FUNCTION
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

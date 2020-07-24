@@ -37,8 +37,6 @@ api_location:
 - wdfdevice.h
 api_name:
 - WDF_STATE_NOTIFICATION_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_STATE_NOTIFICATION_TYPE
 ---

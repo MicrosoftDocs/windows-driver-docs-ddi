@@ -37,8 +37,6 @@ api_location:
 - winddiui.h
 api_name:
 - DOCEVENT_FILTER
-product:
-- Windows
 targetos: Windows
 req.typenames: DOCEVENT_FILTER, *PDOCEVENT_FILTER
 ---

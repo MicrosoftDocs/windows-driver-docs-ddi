@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ZwQueryDirectoryFile
 - NtQueryDirectoryFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

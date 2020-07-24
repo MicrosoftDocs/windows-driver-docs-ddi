@@ -37,8 +37,6 @@ api_location:
 - wmistr.h
 api_name:
 - WNODE_HEADER
-product:
-- Windows
 targetos: Windows
 req.typenames: WNODE_HEADER, *PWNODE_HEADER
 ---

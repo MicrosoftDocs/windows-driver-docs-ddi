@@ -37,8 +37,6 @@ api_location:
 - Stiusd.h
 api_name:
 - IStiUSD.DeviceReset
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - PEP_REGISTER_DEBUGGER
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_REGISTER_DEBUGGER, *PPEP_REGISTER_DEBUGGER
 ---

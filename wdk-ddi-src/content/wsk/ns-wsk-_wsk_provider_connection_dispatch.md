@@ -37,8 +37,6 @@ api_location:
 - wsk.h
 api_name:
 - WSK_PROVIDER_CONNECTION_DISPATCH
-product:
-- Windows
 targetos: Windows
 req.typenames: WSK_PROVIDER_CONNECTION_DISPATCH, *PWSK_PROVIDER_CONNECTION_DISPATCH
 ---

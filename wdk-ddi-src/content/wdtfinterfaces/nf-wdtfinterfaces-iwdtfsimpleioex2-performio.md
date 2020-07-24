@@ -37,8 +37,6 @@ api_location:
 - WDTFInterfaces.Interop.dll
 api_name:
 - IWDTFSimpleIOEx2.PerformIO
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

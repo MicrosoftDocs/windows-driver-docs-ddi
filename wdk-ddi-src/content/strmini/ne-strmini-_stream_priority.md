@@ -37,8 +37,6 @@ api_location:
 - Strmini.h
 api_name:
 - STREAM_PRIORITY
-product:
-- Windows
 targetos: Windows
 req.typenames: STREAM_PRIORITY, *PSTREAM_PRIORITY
 ---

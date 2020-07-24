@@ -37,8 +37,6 @@ api_location:
 - wiautil.h
 api_name:
 - wiauRegGetStr
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

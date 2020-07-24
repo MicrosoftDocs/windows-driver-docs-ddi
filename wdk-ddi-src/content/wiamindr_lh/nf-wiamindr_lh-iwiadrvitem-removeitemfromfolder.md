@@ -37,8 +37,6 @@ api_location:
 - wiamindr_lh.h
 api_name:
 - IWiaDrvItem.RemoveItemFromFolder
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

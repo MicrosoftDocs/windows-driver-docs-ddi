@@ -37,8 +37,6 @@ api_location:
 - swenum.h
 api_name:
 - IOCTL_SWENUM_GET_BUS_ID
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

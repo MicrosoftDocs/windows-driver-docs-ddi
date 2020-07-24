@@ -34,8 +34,6 @@ api_location:
 - winddiui.h
 api_name: 
 - DOCUMENTEVENT_FLAGS
-product:
-- Windows
 targetos: Windows
 
 

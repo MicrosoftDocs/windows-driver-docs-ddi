@@ -37,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - PEP_UNMASKED_INTERRUPT_FLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_UNMASKED_INTERRUPT_FLAGS, *PPEP_UNMASKED_INTERRUPT_FLAGS
 ---

@@ -37,8 +37,6 @@ api_location:
 - WDTF.Interop.metadata_dll.dll
 api_name:
 - IWDTFTarget2.GetRelations
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

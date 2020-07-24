@@ -37,8 +37,6 @@ api_location:
 - Ntifs.h
 api_name:
 - RtlIsPartialPlaceholderFileInfo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

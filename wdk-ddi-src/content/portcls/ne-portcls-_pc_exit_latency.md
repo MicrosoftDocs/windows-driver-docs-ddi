@@ -37,8 +37,6 @@ api_location:
 - Portcls.h
 api_name:
 - PC_EXIT_LATENCY
-product:
-- Windows
 targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---

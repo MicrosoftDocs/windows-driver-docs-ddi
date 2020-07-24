@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - ACCESS_DENIED_ACE
-product:
-- Windows
 targetos: Windows
 req.typenames: ACCESS_DENIED_ACE
 ---

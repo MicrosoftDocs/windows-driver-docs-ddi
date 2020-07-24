@@ -37,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFUsbTargetPipe.IsOutEndPoint
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

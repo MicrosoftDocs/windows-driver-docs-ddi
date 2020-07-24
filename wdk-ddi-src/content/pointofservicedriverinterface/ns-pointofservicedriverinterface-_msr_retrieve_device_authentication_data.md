@@ -37,8 +37,6 @@ api_location:
 - PointOfServiceDriverInterface.h
 api_name:
 - MSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: MSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA, *PMSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA
 ---

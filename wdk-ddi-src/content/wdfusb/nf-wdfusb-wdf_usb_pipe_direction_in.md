@@ -38,8 +38,6 @@ api_location:
 - None.dll
 api_name:
 - WDF_USB_PIPE_DIRECTION_IN
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

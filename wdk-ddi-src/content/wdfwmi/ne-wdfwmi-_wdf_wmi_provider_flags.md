@@ -37,8 +37,6 @@ api_location:
 - wdfwmi.h
 api_name:
 - WDF_WMI_PROVIDER_FLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_WMI_PROVIDER_FLAGS
 ---

@@ -37,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - IO_FOEXT_SILO_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: IO_FOEXT_SILO_PARAMETERS, *PIO_FOEXT_SILO_PARAMETERS
 ---

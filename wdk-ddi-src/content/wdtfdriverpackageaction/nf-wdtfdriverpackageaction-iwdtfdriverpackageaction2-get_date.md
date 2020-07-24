@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IWDTFDriverPackageAction2.Date
 - IWDTFDriverPackageAction2.get_Date
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILGETDRIVERVERSIONPARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILGETDRIVERVERSIONPARAMS, *LPRILGETDRIVERVERSIONPARAMS
 ---

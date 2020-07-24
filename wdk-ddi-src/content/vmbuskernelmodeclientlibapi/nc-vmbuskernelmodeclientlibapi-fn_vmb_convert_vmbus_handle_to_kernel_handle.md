@@ -34,8 +34,6 @@ api_location:
 - vmbuskernelmodeclientlibapi.h
 api_name: 
 - FN_VMB_CONVERT_VMBUS_HANDLE_TO_KERNEL_HANDLE
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

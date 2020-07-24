@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ZwTerminateProcess
 - NtTerminateProcess
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

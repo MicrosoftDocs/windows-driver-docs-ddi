@@ -37,8 +37,6 @@ api_location:
 - Reshub.h
 api_name:
 - PNP_SERIAL_BUS_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: PNP_SERIAL_BUS_DESCRIPTOR, *PPNP_SERIAL_BUS_DESCRIPTOR
 req.product: Windows 10 or later.

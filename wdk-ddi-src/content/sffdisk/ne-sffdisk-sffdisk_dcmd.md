@@ -37,8 +37,6 @@ api_location:
 - sffdisk.h
 api_name:
 - SFFDISK_DCMD
-product:
-- Windows
 targetos: Windows
 req.typenames: SFFDISK_DCMD
 ---

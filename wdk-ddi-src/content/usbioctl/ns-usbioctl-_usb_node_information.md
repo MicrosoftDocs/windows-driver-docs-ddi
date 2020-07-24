@@ -37,8 +37,6 @@ api_location:
 - usbioctl.h
 api_name:
 - USB_NODE_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: USB_NODE_INFORMATION, *PUSB_NODE_INFORMATION
 ---

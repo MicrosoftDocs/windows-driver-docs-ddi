@@ -37,8 +37,6 @@ api_location:
 - prntfont.h
 api_name:
 - UNI_CODEPAGEINFO
-product:
-- Windows
 targetos: Windows
 req.typenames: UNI_CODEPAGEINFO, *PUNI_CODEPAGEINFO
 ---

@@ -30,8 +30,6 @@ api_location:
 - trustedrt.h
 api_name: 
 - _TR_SERVICE_REQUEST_RESPONSE_V1
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

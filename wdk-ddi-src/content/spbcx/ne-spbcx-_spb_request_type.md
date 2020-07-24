@@ -37,8 +37,6 @@ api_location:
 - spbcx.h
 api_name:
 - SPB_REQUEST_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: SPB_REQUEST_TYPE, *PSPB_REQUEST_TYPE
 ---

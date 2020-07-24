@@ -37,8 +37,6 @@ api_location:
 - wdfdevice.h
 api_name:
 - WDF_SPECIAL_FILE_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_SPECIAL_FILE_TYPE, *PWDF_SPECIAL_FILE_TYPE
 ---

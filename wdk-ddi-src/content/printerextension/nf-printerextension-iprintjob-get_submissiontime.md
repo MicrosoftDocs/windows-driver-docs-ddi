@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IPrintJob.SubmissionTime
 - IPrintJob.get_SubmissionTime
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

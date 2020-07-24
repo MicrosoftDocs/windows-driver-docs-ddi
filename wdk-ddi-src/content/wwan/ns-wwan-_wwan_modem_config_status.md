@@ -37,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_MODEM_CONFIG_STATUS
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_MODEM_CONFIG_STATUS, *PWWAN_MODEM_CONFIG_STATUS
 ---

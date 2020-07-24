@@ -37,8 +37,6 @@ api_location:
 - usbfnioctl.h
 api_name:
 - IOCTL_INTERNAL_USBFN_SIGNAL_REMOTE_WAKEUP
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

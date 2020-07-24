@@ -37,8 +37,6 @@ api_location:
 - usbfnbase.h
 api_name:
 - USBFN_BUS_SPEED
-product:
-- Windows
 targetos: Windows
 req.typenames: USBFN_BUS_SPEED, *PUSBFN_BUS_SPEED
 ---

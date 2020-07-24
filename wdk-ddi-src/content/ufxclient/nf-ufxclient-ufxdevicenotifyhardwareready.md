@@ -37,8 +37,6 @@ api_location:
 - ufxclient.h
 api_name:
 - UfxDeviceNotifyHardwareReady
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,8 +38,6 @@ api_location:
 - storport.dll
 api_name:
 - ScsiPortMoveMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

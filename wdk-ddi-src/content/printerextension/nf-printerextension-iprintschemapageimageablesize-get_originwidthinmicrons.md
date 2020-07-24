@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IPrintSchemaPageImageableSize.OriginWidthInMicrons
 - IPrintSchemaPageImageableSize.get_OriginWidthInMicrons
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

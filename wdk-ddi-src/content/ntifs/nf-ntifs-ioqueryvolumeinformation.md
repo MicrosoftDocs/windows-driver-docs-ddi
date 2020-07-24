@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - IoQueryVolumeInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

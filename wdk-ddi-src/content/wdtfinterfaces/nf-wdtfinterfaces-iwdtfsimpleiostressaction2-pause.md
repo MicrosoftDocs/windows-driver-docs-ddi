@@ -37,8 +37,6 @@ api_location:
 - WDTFInterfaces.Interop.dll
 api_name:
 - IWDTFSimpleIOStressAction2.Pause
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

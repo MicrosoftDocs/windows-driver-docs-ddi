@@ -37,8 +37,6 @@ api_location:
 - wdfdpc.h
 api_name:
 - WDF_DPC_CONFIG
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_DPC_CONFIG, *PWDF_DPC_CONFIG
 ---

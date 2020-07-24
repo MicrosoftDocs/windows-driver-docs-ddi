@@ -38,8 +38,6 @@ api_location:
 - Ksecdd.dll
 api_name:
 - SecLookupAccountName
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

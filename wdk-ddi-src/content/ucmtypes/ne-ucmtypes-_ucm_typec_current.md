@@ -37,8 +37,6 @@ api_location:
 - Ucmtypes.h
 api_name:
 - UCM_TYPEC_CURRENT
-product:
-- Windows
 targetos: Windows
 req.typenames: UCM_TYPEC_CURRENT
 ---

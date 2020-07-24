@@ -38,8 +38,6 @@ api_location:
 - Portcls.dll
 api_name:
 - IPortClsStreamResourceManager2.AddStreamResource2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - Usbioctl.h
 api_name:
 - USB_START_TRACKING_FOR_TIME_SYNC_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: USB_START_TRACKING_FOR_TIME_SYNC_INFORMATION, *PUSB_START_TRACKING_FOR_TIME_SYNC_INFORMATION
 ---

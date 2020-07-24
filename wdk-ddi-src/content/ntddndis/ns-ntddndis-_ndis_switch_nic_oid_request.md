@@ -37,8 +37,6 @@ api_location:
 - Ntddndis.h
 api_name:
 - NDIS_SWITCH_NIC_OID_REQUEST
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_SWITCH_NIC_OID_REQUEST, *PNDIS_SWITCH_NIC_OID_REQUEST
 ---

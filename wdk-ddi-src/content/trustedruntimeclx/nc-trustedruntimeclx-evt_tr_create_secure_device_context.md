@@ -33,8 +33,6 @@ api_location:
 - trustedruntimeclx.h
 api_name: 
 - EVT_TR_CREATE_SECURE_DEVICE_CONTEXT
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

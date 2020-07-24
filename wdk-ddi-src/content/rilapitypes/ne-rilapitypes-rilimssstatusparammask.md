@@ -37,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILIMSSSTATUSPARAMMASK
-product:
-- Windows
 targetos: Windows
 req.typenames: RILIMSSSTATUSPARAMMASK
 ---

@@ -37,8 +37,6 @@ api_location:
 - SensorsClassExtension.h
 api_name:
 - SensorState
-product:
-- Windows
 targetos: Windows
 req.typenames: SensorState
 ---

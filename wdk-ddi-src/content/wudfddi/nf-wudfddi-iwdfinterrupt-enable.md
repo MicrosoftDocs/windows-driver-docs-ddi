@@ -37,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFInterrupt.Enable
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

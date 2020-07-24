@@ -35,8 +35,6 @@ api_location:
 - wdm.h
 api_name: 
 - IOMMU_DOMAIN_FAULT_HANDLER
-product:
-- Windows
 targetos: Windows
 ---
 

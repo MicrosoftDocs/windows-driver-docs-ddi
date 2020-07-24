@@ -34,8 +34,6 @@ api_location:
 - NtosKrnl.exe
 api_name: 
 - ExInitializePushLock
-product:
-- Windows
 targetos: Windows
 
 

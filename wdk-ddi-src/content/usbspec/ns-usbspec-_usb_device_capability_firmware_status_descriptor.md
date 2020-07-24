@@ -30,8 +30,6 @@ api_location:
 - usbspec.h
 api_name: 
 - _USB_DEVICE_CAPABILITY_FIRMWARE_STATUS_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

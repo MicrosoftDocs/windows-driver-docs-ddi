@@ -37,8 +37,6 @@ api_location:
 - wlclient.h
 api_name:
 - DOT11_BSS_LIST
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT11_BSS_LIST, *PDOT11_BSS_LIST
 req.product: Windows 10 or later.

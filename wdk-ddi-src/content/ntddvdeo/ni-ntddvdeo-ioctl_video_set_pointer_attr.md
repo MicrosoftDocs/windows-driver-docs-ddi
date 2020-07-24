@@ -37,8 +37,6 @@ api_location:
 - Ntddvdeo.h
 api_name:
 - IOCTL_VIDEO_SET_POINTER_ATTR
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

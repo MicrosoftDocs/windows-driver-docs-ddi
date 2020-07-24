@@ -37,8 +37,6 @@ api_location:
 - usbioctl.h
 api_name:
 - USB_ID_STRING
-product:
-- Windows
 targetos: Windows
 req.typenames: USB_ID_STRING, *PUSB_ID_STRING
 ---

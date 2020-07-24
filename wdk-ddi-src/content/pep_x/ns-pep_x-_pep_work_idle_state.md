@@ -37,8 +37,6 @@ api_location:
 - pep_x.h
 api_name:
 - PEP_WORK_IDLE_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_WORK_IDLE_STATE, *PPEP_WORK_IDLE_STATE
 ---

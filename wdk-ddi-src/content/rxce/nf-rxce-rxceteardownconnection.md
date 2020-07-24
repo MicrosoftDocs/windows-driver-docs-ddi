@@ -37,8 +37,6 @@ api_location:
 - rxce.h
 api_name:
 - RxCeTearDownConnection
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

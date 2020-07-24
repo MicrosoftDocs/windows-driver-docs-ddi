@@ -37,8 +37,6 @@ api_location:
 - WDTFDriverPNPAction.Interop.dll
 api_name:
 - IWDTFPNPAction2.EDTTryStopDeviceFailRestart
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

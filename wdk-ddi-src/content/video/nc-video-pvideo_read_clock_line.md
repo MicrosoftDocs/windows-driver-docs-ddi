@@ -37,8 +37,6 @@ api_location:
 - video.h
 api_name:
 - ReadClockLine
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

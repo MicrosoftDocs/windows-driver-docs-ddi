@@ -34,8 +34,6 @@ api_location:
 - NtosKrnl.exe
 api_name: 
 - IoGetDeviceDirectory
-product:
-- Windows
 targetos: Windows
 
 ---

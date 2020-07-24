@@ -37,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_SET_UICC_RESET
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_SET_UICC_RESET, *PWWAN_SET_UICC_RESET
 ---

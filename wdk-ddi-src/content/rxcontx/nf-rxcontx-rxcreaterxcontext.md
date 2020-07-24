@@ -37,8 +37,6 @@ api_location:
 - rxcontx.h
 api_name:
 - RxCreateRxContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

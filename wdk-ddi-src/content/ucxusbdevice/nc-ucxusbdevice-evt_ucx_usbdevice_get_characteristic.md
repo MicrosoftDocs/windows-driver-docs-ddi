@@ -37,8 +37,6 @@ api_location:
 - ucxusbdevice.h
 api_name:
 - PFN_UCX_USBDEVICE_GET_CHARACTERISTIC
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

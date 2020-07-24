@@ -37,8 +37,6 @@ api_location:
 - wditypes.hpp
 api_name:
 - WDI_DS_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: WDI_DS_INFO
 ---

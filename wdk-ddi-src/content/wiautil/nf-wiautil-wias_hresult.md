@@ -37,8 +37,6 @@ api_location:
 - wiamdef.h
 api_name:
 - WIAS_HRESULT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

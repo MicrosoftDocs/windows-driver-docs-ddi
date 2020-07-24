@@ -37,8 +37,6 @@ api_location:
 - wdfdriver.h
 api_name:
 - WDF_DRIVER_INIT_FLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_DRIVER_INIT_FLAGS
 ---

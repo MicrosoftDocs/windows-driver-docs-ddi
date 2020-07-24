@@ -37,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IInterruptSync.CallSynchronizedRoutine
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

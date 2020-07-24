@@ -35,8 +35,6 @@ api_location:
 - UcmUcsiCxStub.lib
 api_name: 
 - UcmUcsiDeviceInitialize
-product:
-- Windows
 targetos: Windows
 
 

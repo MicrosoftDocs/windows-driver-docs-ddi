@@ -37,8 +37,6 @@ api_location:
 - usb.h
 api_name:
 - _URB_SELECT_INTERFACE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - PEP_DEVICE_STARTED
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_DEVICE_STARTED, *PPEP_DEVICE_STARTED
 ---

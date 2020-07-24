@@ -37,8 +37,6 @@ api_location:
 - Ntddk.h
 api_name:
 - IMAGE_INFO_EX
-product:
-- Windows
 targetos: Windows
 req.typenames: IMAGE_INFO_EX, *PIMAGE_INFO_EX
 ---

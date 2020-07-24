@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IPrintSchemaFeature.SelectionType
 - IPrintSchemaFeature.get_SelectionType
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

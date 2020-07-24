@@ -37,8 +37,6 @@ api_location:
 - Wdfdevice.h
 api_name:
 - EvtDeviceWakeFromSxTriggered
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

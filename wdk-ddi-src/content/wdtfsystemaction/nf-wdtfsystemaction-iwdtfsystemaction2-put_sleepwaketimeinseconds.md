@@ -39,8 +39,6 @@ api_name:
 - IWDTFSystemAction2.SleepWakeTimeInSeconds
 - IWDTFSystemAction2.get_SleepWakeTimeInSeconds
 - IWDTFSystemAction2.put_SleepWakeTimeInSeconds
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

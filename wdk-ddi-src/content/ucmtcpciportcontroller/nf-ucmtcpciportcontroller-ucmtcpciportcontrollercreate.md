@@ -38,8 +38,6 @@ api_location:
 - ucmtcpcicxstub.dll
 api_name:
 - UcmTcpciPortControllerCreate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

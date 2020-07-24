@@ -37,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NDIS_NET_BUFFER_LIST_8021Q_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_NET_BUFFER_LIST_8021Q_INFO, *PNDIS_NET_BUFFER_LIST_8021Q_INFO
 ---

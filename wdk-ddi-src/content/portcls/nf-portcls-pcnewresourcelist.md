@@ -38,8 +38,6 @@ api_location:
 - Portcls.dll
 api_name:
 - PcNewResourceList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

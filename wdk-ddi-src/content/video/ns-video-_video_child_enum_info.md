@@ -37,8 +37,6 @@ api_location:
 - video.h
 api_name:
 - VIDEO_CHILD_ENUM_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: VIDEO_CHILD_ENUM_INFO, *PVIDEO_CHILD_ENUM_INFO
 ---

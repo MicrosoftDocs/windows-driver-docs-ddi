@@ -37,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NET_IF_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: NET_IF_INFORMATION, *PNET_IF_INFORMATION
 ---

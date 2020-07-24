@@ -37,8 +37,6 @@ api_location:
 - ursdevice.h
 api_name:
 - PFN_URS_SET_ROLE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

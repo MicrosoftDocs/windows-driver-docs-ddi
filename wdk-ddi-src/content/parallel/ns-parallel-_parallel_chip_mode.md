@@ -37,8 +37,6 @@ api_location:
 - parallel.h
 api_name:
 - PARALLEL_CHIP_MODE
-product:
-- Windows
 targetos: Windows
 req.typenames: PARALLEL_CHIP_MODE, *PPARALLEL_CHIP_MODE
 ---

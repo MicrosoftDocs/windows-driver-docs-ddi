@@ -37,8 +37,6 @@ api_location:
 - videoagp.h
 api_name:
 - AgpFreePhysical
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

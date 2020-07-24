@@ -37,8 +37,6 @@ api_location:
 - Ntddstor.h
 api_name:
 - DEVICE_DSM_NOTIFICATION_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: DEVICE_DSM_NOTIFICATION_PARAMETERS, *PDEVICE_DSM_NOTIFICATION_PARAMETERS
 ---

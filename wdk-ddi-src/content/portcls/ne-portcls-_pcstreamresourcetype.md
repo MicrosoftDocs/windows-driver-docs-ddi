@@ -37,8 +37,6 @@ api_location:
 - Portcls.h
 api_name:
 - PcStreamResourceType, *PPcStreamResourceType
-product:
-- Windows
 targetos: Windows
 req.typenames: PcStreamResourceType, *PPcStreamResourceType
 ---

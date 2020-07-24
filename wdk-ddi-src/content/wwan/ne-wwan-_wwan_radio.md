@@ -37,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_RADIO
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_RADIO, *PWWAN_RADIO
 ---

@@ -37,8 +37,6 @@ api_location:
 - Strmini.h
 api_name:
 - STREAM_METHOD_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: STREAM_METHOD_DESCRIPTOR, *PSTREAM_METHOD_DESCRIPTOR
 ---

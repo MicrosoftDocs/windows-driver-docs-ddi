@@ -40,8 +40,6 @@ api_name:
 - IDebugSystemObjects2.GetNumberProcesses
 - IDebugSystemObjects3.GetNumberProcesses
 - IDebugSystemObjects4.GetNumberProcesses
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

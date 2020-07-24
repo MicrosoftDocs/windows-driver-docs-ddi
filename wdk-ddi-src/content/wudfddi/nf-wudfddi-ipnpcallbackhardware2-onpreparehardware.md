@@ -37,8 +37,6 @@ api_location:
 - Wudfddi.h
 api_name:
 - IPnpCallbackHardware2.OnPrepareHardware
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

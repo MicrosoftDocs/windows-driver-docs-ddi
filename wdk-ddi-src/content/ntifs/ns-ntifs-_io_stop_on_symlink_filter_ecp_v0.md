@@ -31,8 +31,6 @@ api_location:
 - ntifs.h
 api_name: 
 - _IO_STOP_ON_SYMLINK_FILTER_ECP_v0
-product:
-- Windows
 targetos: Windows
 ---
 

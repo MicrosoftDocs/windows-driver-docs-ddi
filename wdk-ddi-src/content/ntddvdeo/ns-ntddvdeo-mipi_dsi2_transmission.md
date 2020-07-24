@@ -33,8 +33,6 @@ api_location:
  - ntddvdeo.h
 api_name: 
  - MIPI_DSI2_TRANSMISSION
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

@@ -37,8 +37,6 @@ api_location:
 - rxprocs.h
 api_name:
 - RxIndicateChangeOfBufferingState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,8 +38,6 @@ api_location:
 - Portcls.dll
 api_name:
 - PcRequestNewPowerState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

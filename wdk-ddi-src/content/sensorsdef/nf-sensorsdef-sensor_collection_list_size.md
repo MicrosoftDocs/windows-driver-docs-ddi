@@ -37,8 +37,6 @@ api_location:
 - Sensorsdef.h
 api_name:
 - SENSOR_COLLECTION_LIST_SIZE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

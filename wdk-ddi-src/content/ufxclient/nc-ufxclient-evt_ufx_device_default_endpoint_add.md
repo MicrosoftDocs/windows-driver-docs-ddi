@@ -37,8 +37,6 @@ api_location:
 - Ufxclient.h
 api_name:
 - PFN_UFX_DEVICE_DEFAULT_ENDPOINT_ADD
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

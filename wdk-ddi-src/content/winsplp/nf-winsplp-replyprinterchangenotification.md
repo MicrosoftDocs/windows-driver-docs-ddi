@@ -37,8 +37,6 @@ api_location:
 - Spoolss.dll
 api_name:
 - ReplyPrinterChangeNotification
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

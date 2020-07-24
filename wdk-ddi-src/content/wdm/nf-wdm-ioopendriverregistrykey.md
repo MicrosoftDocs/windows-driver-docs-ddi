@@ -35,8 +35,6 @@ api_location:
 - NtosKrnl.exe
 api_name: 
 - IoOpenDriverRegistryKey
-product:
-- Windows
 targetos: Windows
 
 ms.custom: 19H1

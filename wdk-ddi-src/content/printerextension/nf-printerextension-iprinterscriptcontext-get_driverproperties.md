@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IPrinterScriptContext.DriverProperties
 - IPrinterScriptContext.get_DriverProperties
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

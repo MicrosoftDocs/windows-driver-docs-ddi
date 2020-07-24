@@ -37,8 +37,6 @@ api_location:
 - ucxroothub.h
 api_name:
 - TRISTATE
-product:
-- Windows
 targetos: Windows
 req.typenames: TRISTATE
 ---

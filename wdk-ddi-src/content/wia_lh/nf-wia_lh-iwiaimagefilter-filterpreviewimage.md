@@ -37,8 +37,6 @@ api_location:
 - wia_lh.h
 api_name:
 - IWiaImageFilter.FilterPreviewImage
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

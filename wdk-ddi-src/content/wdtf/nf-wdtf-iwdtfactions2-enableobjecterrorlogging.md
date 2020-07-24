@@ -37,8 +37,6 @@ api_location:
 - wdtf.h
 api_name:
 - IWDTFActions2.EnableObjectErrorLogging
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - ntddstor.h
 api_name:
 - IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

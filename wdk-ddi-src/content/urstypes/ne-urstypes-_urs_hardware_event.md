@@ -37,8 +37,6 @@ api_location:
 - Urstypes.h
 api_name:
 - URS_HARDWARE_EVENT, *PURS_HARDWARE_EVENT
-product:
-- Windows
 targetos: Windows
 req.typenames: URS_HARDWARE_EVENT, *PURS_HARDWARE_EVENT
 ---

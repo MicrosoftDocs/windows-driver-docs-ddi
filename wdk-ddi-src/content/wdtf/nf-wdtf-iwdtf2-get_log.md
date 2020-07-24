@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IWDTF2.Log
 - IWDTF2.get_Log
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

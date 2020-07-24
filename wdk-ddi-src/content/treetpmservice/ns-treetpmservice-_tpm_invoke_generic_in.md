@@ -30,8 +30,6 @@ api_location:
 - treetpmservice.h
 api_name: 
 - _TPM_INVOKE_GENERIC_IN
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

@@ -37,8 +37,6 @@ api_location:
 - wditypes.hpp
 api_name:
 - WDI_STOP_AP_REASON
-product:
-- Windows
 targetos: Windows
 req.typenames: WDI_STOP_AP_REASON
 ---

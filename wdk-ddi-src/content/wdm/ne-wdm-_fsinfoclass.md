@@ -37,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - FS_INFORMATION_CLASS
-product:
-- Windows
 targetos: Windows
 req.typenames: FS_INFORMATION_CLASS, *PFS_INFORMATION_CLASS
 ---

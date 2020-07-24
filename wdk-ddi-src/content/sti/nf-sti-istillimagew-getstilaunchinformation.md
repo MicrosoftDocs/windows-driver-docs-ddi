@@ -37,8 +37,6 @@ api_location:
 - sti.h
 api_name:
 - IStillImageW.GetSTILaunchInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

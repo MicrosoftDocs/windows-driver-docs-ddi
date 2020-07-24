@@ -37,8 +37,6 @@ api_location:
 - Printerextension.h
 api_name:
 - IPrintSchemaParameterDefinition
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

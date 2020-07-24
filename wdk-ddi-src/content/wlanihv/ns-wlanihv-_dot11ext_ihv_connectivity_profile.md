@@ -37,8 +37,6 @@ api_location:
 - wlanihv.h
 api_name:
 - DOT11EXT_IHV_CONNECTIVITY_PROFILE
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT11EXT_IHV_CONNECTIVITY_PROFILE, *PDOT11EXT_IHV_CONNECTIVITY_PROFILE
 req.product: Windows 10 or later.

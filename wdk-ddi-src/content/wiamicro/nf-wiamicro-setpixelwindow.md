@@ -37,8 +37,6 @@ api_location:
 - wiamicro.h
 api_name:
 - SetPixelWindow
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

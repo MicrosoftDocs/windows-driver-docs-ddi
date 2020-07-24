@@ -37,8 +37,6 @@ api_location:
 - Wsk.h
 api_name:
 - WskReleaseDataIndicationList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5
