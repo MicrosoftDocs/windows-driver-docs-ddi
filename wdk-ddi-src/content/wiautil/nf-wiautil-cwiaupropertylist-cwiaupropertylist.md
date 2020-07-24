@@ -60,4 +60,4 @@ The **CWiauPropertyList** constructor initializes all data members of a property
 
 [CWiauPropertyList::Init](nf-wiautil-cwiaupropertylist-init.md)
 
-[CWiauPropertyList::~CWiauPropertyList](nf-wiautil-cwiaupropertylist-~cwiaupropertylist.md)
+[CWiauPropertyList::~CWiauPropertyList](nf-wiautil-cwiaupropertylist--cwiaupropertylist.md)
