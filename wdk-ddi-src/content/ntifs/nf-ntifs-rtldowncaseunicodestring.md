@@ -37,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlDowncaseUnicodeString
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

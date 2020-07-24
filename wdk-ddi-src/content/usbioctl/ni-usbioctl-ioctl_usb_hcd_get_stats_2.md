@@ -37,8 +37,6 @@ api_location:
 - Usbioctl.h
 api_name:
 - IOCTL_USB_HCD_GET_STATS_2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

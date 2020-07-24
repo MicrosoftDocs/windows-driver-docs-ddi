@@ -38,8 +38,6 @@ api_location:
 - Netio.dll
 api_name:
 - WskCaptureProviderNPI
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

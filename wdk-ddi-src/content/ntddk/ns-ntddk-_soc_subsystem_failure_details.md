@@ -37,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - SOC_SUBSYSTEM_FAILURE_DETAILS
-product:
-- Windows
 targetos: Windows
 req.typenames: SOC_SUBSYSTEM_FAILURE_DETAILS, *PSOC_SUBSYSTEM_FAILURE_DETAILS
 ---

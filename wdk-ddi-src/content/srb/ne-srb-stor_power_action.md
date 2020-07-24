@@ -37,8 +37,6 @@ api_location:
 - storport.h
 api_name:
 - STOR_POWER_ACTION
-product:
-- Windows
 targetos: Windows
 req.typenames: STOR_POWER_ACTION, *PSTOR_POWER_ACTION
 ---

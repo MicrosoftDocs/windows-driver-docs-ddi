@@ -35,8 +35,6 @@ api_location:
 - ndis.h
 api_name: 
 - NET_BUFFER_CURRENT_MDL_OFFSET
-product:
-- Windows
 targetos: Windows
 
 ---

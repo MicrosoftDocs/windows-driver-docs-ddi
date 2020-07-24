@@ -37,8 +37,6 @@ api_location:
 - Wdfverifier.h
 api_name:
 - WdfGetTriageInfo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

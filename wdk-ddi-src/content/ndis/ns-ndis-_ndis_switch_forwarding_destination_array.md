@@ -37,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - NDIS_SWITCH_FORWARDING_DESTINATION_ARRAY
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_SWITCH_FORWARDING_DESTINATION_ARRAY, *PNDIS_SWITCH_FORWARDING_DESTINATION_ARRAY
 ---

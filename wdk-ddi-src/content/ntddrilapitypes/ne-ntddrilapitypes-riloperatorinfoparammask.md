@@ -37,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILOPERATORINFOPARAMMASK
-product:
-- Windows
 targetos: Windows
 req.typenames: RILOPERATORINFOPARAMMASK
 ---

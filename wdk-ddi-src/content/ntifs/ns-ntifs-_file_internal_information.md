@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - FILE_INTERNAL_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: FILE_INTERNAL_INFORMATION, *PFILE_INTERNAL_INFORMATION
 ---

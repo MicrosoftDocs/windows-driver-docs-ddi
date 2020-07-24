@@ -37,8 +37,6 @@ api_location:
 - printoem.h
 api_name:
 - OEMDisablePDEV
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - printoem.h
 api_name:
 - UNIDRV_PRIVATE_DEVMODE
-product:
-- Windows
 targetos: Windows
 req.typenames: UNIDRV_PRIVATE_DEVMODE, *PUNIDRV_PRIVATE_DEVMODE
 ---

@@ -35,8 +35,6 @@ api_location:
 - ndis.h
 api_name: 
 - NET_BUFFER_LIST_FIRST_NB
-product:
-- Windows
 targetos: Windows
 
 ---

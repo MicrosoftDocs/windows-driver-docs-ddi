@@ -37,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILCALLMEDIASTATE
-product:
-- Windows
 targetos: Windows
 req.typenames: RILCALLMEDIASTATE, *LPRILCALLMEDIASTATE
 ---

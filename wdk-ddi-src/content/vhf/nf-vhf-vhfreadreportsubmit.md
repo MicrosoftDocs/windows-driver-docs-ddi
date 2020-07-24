@@ -38,8 +38,6 @@ api_location:
 - vhfKm.dll
 api_name:
 - VhfReadReportSubmit
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

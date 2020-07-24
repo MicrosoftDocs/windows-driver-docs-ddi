@@ -37,8 +37,6 @@ api_location:
 - rxce.h
 api_name:
 - RxCeBuildVC
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

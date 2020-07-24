@@ -37,8 +37,6 @@ api_location:
 - video.h
 api_name:
 - VP_SCATTER_GATHER_ELEMENT
-product:
-- Windows
 targetos: Windows
 req.typenames: VP_SCATTER_GATHER_ELEMENT, *PVP_SCATTER_GATHER_ELEMENT
 ---

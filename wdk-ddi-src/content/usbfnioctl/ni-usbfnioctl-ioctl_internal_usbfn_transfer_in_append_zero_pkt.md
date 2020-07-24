@@ -37,8 +37,6 @@ api_location:
 - usbfnioctl.h
 api_name:
 - IOCTL_INTERNAL_USBFN_TRANSFER_IN_APPEND_ZERO_PKT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

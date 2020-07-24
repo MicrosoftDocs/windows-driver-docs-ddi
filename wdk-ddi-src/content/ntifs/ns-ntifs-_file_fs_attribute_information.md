@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - FILE_FS_ATTRIBUTE_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: FILE_FS_ATTRIBUTE_INFORMATION, *PFILE_FS_ATTRIBUTE_INFORMATION
 ---

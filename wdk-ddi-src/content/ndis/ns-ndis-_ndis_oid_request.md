@@ -37,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NDIS_OID_REQUEST
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_OID_REQUEST, *PNDIS_OID_REQUEST
 ---

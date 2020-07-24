@@ -37,8 +37,6 @@ api_location:
 - PortableDevice.h
 api_name:
 - WPD_SERVICE_INHERITANCE_TYPES
-product:
-- Windows
 targetos: Windows
 req.typenames: WPD_SERVICE_INHERITANCE_TYPES
 ms.custom: RS5

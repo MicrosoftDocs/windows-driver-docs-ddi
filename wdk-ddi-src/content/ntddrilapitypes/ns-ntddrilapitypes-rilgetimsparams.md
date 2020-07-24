@@ -37,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILGETIMSPARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILGETIMSPARAMS, *LPRILGETIMSPARAMS
 ---

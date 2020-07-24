@@ -37,8 +37,6 @@ api_location:
 - usbfnattach.h
 api_name:
 - USBFN_INTERFACE_ATTACH
-product:
-- Windows
 targetos: Windows
 req.typenames: USBFN_INTERFACE_ATTACH, *PUSBFN_INTERFACE_ATTACH
 ---

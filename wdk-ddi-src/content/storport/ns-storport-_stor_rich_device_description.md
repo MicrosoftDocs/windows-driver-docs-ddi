@@ -37,8 +37,6 @@ api_location:
 - Storport.h
 api_name:
 - STOR_RICH_DEVICE_DESCRIPTION
-product:
-- Windows
 targetos: Windows
 req.typenames: STOR_RICH_DEVICE_DESCRIPTION, *PSTOR_RICH_DEVICE_DESCRIPTION
 ---

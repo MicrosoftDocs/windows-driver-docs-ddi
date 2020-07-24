@@ -37,8 +37,6 @@ api_location:
 - wlantypes.h
 api_name:
 - DOT11_SSID
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT11_SSID, *PDOT11_SSID
 req.product: Windows 10 or later.

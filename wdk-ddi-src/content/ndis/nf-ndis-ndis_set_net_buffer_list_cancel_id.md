@@ -35,8 +35,6 @@ api_location:
 - ndis.h
 api_name: 
 - NDIS_SET_NET_BUFFER_LIST_CANCEL_ID
-product:
-- Windows
 targetos: Windows
 
 ---

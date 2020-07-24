@@ -37,8 +37,6 @@ api_location:
 - wlantypes.h
 api_name:
 - DOT11_BSS_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT11_BSS_TYPE, *PDOT11_BSS_TYPE
 req.product: Windows 10 or later.

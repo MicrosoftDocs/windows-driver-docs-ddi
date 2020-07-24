@@ -34,8 +34,6 @@ api_location:
 api_name: 
 - PGET_DMA_DOMAIN
 - GetDmaDomain
-product:
-- Windows
 targetos: Windows
 ---
 

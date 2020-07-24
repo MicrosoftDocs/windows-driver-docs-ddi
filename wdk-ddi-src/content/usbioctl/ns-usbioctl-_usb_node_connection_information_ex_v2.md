@@ -37,8 +37,6 @@ api_location:
 - Usbioctl.h
 api_name:
 - USB_NODE_CONNECTION_INFORMATION_EX_V2
-product:
-- Windows
 targetos: Windows
 req.typenames: USB_NODE_CONNECTION_INFORMATION_EX_V2, *PUSB_NODE_CONNECTION_INFORMATION_EX_V2
 ---

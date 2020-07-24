@@ -37,8 +37,6 @@ api_location:
 - xpsrassvc.h
 api_name:
 - IXpsRasterizerNotificationCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - IPSEC_OFFLOAD_V2_DELETE_SA
-product:
-- Windows
 targetos: Windows
 req.typenames: IPSEC_OFFLOAD_V2_DELETE_SA, *PIPSEC_OFFLOAD_V2_DELETE_SA
 ---

@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IPrintSchemaTicket.JobCopiesAllDocuments
 - IPrintSchemaTicket.put_JobCopiesAllDocuments
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

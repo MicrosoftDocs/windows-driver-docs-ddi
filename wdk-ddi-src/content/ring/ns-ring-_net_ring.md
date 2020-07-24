@@ -34,8 +34,6 @@ apilocation:
 apiname: 
 - NET_RING
 targetos: Windows
-product:
-- Windows
 ---
 
 # _NET_RING structure

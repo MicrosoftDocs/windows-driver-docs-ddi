@@ -37,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_REGISTER_MODE
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_REGISTER_MODE, *PWWAN_REGISTER_MODE
 ---

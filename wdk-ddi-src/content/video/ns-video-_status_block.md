@@ -37,8 +37,6 @@ api_location:
 - video.h
 api_name:
 - STATUS_BLOCK
-product:
-- Windows
 targetos: Windows
 req.typenames: STATUS_BLOCK, *PSTATUS_BLOCK
 ---

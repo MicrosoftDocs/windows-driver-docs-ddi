@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IPrintSchemaParameterDefinition.UnitType
 - IPrintSchemaParameterDefinition.get_UnitType
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

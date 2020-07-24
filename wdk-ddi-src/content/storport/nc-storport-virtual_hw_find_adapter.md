@@ -37,8 +37,6 @@ api_location:
 - Storport.h
 api_name:
 - VirtualHwStorFindAdapter
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

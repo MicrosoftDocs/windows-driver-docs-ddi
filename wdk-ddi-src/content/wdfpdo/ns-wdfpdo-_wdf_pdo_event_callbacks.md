@@ -37,8 +37,6 @@ api_location:
 - wdfpdo.h
 api_name:
 - WDF_PDO_EVENT_CALLBACKS
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_PDO_EVENT_CALLBACKS, *PWDF_PDO_EVENT_CALLBACKS
 ---

@@ -37,8 +37,6 @@ api_location:
 - pointofservicedriverinterface.h
 api_name:
 - IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

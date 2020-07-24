@@ -37,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFIoRequest2.RetrieveOutputBuffer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

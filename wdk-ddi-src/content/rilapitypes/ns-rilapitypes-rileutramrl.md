@@ -37,8 +37,6 @@ api_location:
 - rilapitypes.h
 api_name:
 - RILEUTRAMRL
-product:
-- Windows
 targetos: Windows
 req.typenames: RILEUTRAMRL, *LPRILEUTRAMRL
 req.product: Windows 10 or later.

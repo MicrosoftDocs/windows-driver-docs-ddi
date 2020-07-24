@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - TRANSACTIONMANAGER_INFORMATION_CLASS
-product:
-- Windows
 targetos: Windows
 req.typenames: TRANSACTIONMANAGER_INFORMATION_CLASS
 ---

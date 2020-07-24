@@ -37,8 +37,6 @@ api_location:
 - Usb.h
 api_name:
 - USBD_ENDPOINT_OFFLOAD_MODE
-product:
-- Windows
 targetos: Windows
 req.typenames: USBD_ENDPOINT_OFFLOAD_MODE
 ---

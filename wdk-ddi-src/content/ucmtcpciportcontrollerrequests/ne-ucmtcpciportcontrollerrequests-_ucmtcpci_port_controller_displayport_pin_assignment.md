@@ -36,8 +36,6 @@ api_location:
 - Ucmtcpciportcontrollerrequests.h
 api_name:
 - UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT
-product:
-- Windows
 targetos: Windows
 req.typenames: UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT
 ---

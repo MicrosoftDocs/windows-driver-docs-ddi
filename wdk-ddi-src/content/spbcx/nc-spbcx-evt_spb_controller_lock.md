@@ -37,8 +37,6 @@ api_location:
 - Spbcx.h
 api_name:
 - EvtSpbControllerLock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

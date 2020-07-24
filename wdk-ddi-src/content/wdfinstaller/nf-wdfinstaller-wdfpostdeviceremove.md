@@ -38,8 +38,6 @@ api_location:
 - N/A.dll
 api_name:
 - WdfPostDeviceRemove
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

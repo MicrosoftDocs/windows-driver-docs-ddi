@@ -37,8 +37,6 @@ api_location:
 - Dbgeng.h
 api_name:
 - IDebugSymbols5.GetCurrentScopeFrameIndexEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

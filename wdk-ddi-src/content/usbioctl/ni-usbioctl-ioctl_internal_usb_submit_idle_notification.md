@@ -37,8 +37,6 @@ api_location:
 - Usbioctl.h
 api_name:
 - IOCTL_INTERNAL_USB_SUBMIT_IDLE_NOTIFICATION
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

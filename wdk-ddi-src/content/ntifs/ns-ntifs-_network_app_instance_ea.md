@@ -31,8 +31,6 @@ api_location:
 - ntifs.h
 api_name: 
 - _NETWORK_APP_INSTANCE_EA
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

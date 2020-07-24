@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ZwFlushBuffersFile
 - NtFlushBuffersFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

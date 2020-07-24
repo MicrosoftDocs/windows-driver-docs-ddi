@@ -38,8 +38,6 @@ api_location:
 api_name:
 - KeAcquireSpinLockAtDpcLevel
 - KefAcquireSpinLockAtDpcLevel
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

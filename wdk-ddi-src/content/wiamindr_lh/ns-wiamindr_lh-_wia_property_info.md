@@ -37,8 +37,6 @@ api_location:
 - wiamindr_lh.h
 api_name:
 - WIA_PROPERTY_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: WIA_PROPERTY_INFO, *PWIA_PROPERTY_INFO
 ---

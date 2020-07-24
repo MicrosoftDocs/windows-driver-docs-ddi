@@ -37,8 +37,6 @@ api_location:
 - Ntintsafe.h
 api_name:
 - RtlUIntPtrSub
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

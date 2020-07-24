@@ -37,8 +37,6 @@ api_location:
 - Winspool.h
 api_name:
 - FreePrintNamedPropertyArray
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

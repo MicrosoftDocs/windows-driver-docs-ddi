@@ -37,8 +37,6 @@ api_location:
 - Portcls.h
 api_name:
 - IPortWaveRTStream.MapAllocatedPages
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -40,8 +40,6 @@ api_name:
 - IDebugSystemObjects2.GetProcessIdByDataOffset
 - IDebugSystemObjects3.GetProcessIdByDataOffset
 - IDebugSystemObjects4.GetProcessIdByDataOffset
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

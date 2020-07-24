@@ -37,8 +37,6 @@ api_location:
 - wiamdef.h
 api_name:
 - WIAS_LERROR
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - printoem.h
 api_name:
 - OEM_DMEXTRAHEADER
-product:
-- Windows
 targetos: Windows
 req.typenames: OEM_DMEXTRAHEADER, *POEM_DMEXTRAHEADER
 ---

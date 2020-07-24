@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IAction
 - IAction.SetTarget
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

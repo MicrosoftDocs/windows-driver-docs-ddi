@@ -34,8 +34,6 @@ api_location:
 - Ntoskrnl.exe
 api_name: 
 - PsGetSiloContainerId
-product:
-- Windows
 targetos: Windows
 
 

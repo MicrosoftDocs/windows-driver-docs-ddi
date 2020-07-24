@@ -37,8 +37,6 @@ api_location:
 - wsk.h
 api_name:
 - WSK_DATA_INDICATION
-product:
-- Windows
 targetos: Windows
 req.typenames: WSK_DATA_INDICATION, *PWSK_DATA_INDICATION
 ---

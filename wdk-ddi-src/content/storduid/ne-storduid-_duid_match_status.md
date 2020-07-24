@@ -37,8 +37,6 @@ api_location:
 - storduid.h
 api_name:
 - DUID_MATCH_STATUS
-product:
-- Windows
 targetos: Windows
 req.typenames: DUID_MATCH_STATUS
 ---

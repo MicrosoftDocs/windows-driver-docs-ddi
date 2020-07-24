@@ -37,8 +37,6 @@ api_location:
 - pcivirt.h
 api_name:
 - PSRIOV_QUERY_VF_LUID
-product:
-- Windows
 targetos: Windows
 req.typenames: PARCLASS_INFORMATION, *PPARCLASS_INFORMATION
 ---

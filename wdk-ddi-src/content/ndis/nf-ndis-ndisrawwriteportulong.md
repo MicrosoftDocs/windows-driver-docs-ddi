@@ -37,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NdisRawWritePortUlong
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - Wudfddi_hwaccess.h
 api_name:
 - READ_REGISTER_BUFFER_ULONG64
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

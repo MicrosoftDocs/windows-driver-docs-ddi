@@ -33,8 +33,6 @@ api_location:
 - wdm.h
 api_name: 
 - IOMMU_DOMAIN_ATTACH_DEVICE
-product:
-- Windows
 targetos: Windows
 ---
 

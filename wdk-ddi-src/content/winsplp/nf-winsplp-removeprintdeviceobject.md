@@ -37,8 +37,6 @@ api_location:
 - WinSpool.drv
 api_name:
 - RemovePrintDeviceObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

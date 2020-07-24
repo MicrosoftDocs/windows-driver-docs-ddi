@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - DIRECTORY_NOTIFY_INFORMATION_CLASS
-product:
-- Windows
 targetos: Windows
 req.typenames: DIRECTORY_NOTIFY_INFORMATION_CLASS, *PDIRECTORY_NOTIFY_INFORMATION_CLASS
 ---

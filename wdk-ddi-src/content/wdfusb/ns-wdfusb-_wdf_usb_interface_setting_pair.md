@@ -37,8 +37,6 @@ api_location:
 - wdfusb.h
 api_name:
 - WDF_USB_INTERFACE_SETTING_PAIR
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_USB_INTERFACE_SETTING_PAIR, *PWDF_USB_INTERFACE_SETTING_PAIR
 ---

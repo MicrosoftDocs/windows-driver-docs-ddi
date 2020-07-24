@@ -37,8 +37,6 @@ api_location:
 - Upssvc.h
 api_name:
 - UPSCancelWait
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

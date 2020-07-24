@@ -37,8 +37,6 @@ api_location:
 - rilapitypes.h
 api_name:
 - RILIMSI
-product:
-- Windows
 targetos: Windows
 req.typenames: RILIMSI, *LPRILIMSI
 ---

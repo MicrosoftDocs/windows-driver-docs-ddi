@@ -37,8 +37,6 @@ api_location:
 - Ntifs.h
 api_name:
 - FILE_MODE_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: FILE_MODE_INFORMATION, *PFILE_MODE_INFORMATION
 ---

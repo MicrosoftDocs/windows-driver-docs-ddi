@@ -37,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - PEP_KERNEL_INFORMATION_STRUCT_V3
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_KERNEL_INFORMATION_STRUCT_V3, *PPEP_KERNEL_INFORMATION_STRUCT_V3
 ---

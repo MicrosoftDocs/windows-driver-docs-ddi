@@ -37,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - WHEA_XPF_TLB_CHECK
-product:
-- Windows
 targetos: Windows
 req.typenames: WHEA_XPF_TLB_CHECK, *PWHEA_XPF_TLB_CHECK
 ---

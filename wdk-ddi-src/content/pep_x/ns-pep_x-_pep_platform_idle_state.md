@@ -37,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - PEP_PLATFORM_IDLE_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_PLATFORM_IDLE_STATE, *PPEP_PLATFORM_IDLE_STATE
 ---

@@ -37,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_AUTH_METHOD
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_AUTH_METHOD, *PWWAN_AUTH_METHOD
 ---

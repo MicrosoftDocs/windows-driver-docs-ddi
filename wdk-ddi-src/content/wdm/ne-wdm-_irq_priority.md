@@ -37,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - IRQ_PRIORITY
-product:
-- Windows
 targetos: Windows
 req.typenames: IRQ_PRIORITY, *PIRQ_PRIORITY
 ---

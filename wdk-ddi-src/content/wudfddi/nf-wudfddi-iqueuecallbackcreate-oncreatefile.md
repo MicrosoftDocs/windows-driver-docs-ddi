@@ -37,8 +37,6 @@ api_location:
 - Wudfddi.h
 api_name:
 - IQueueCallbackCreate.OnCreateFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

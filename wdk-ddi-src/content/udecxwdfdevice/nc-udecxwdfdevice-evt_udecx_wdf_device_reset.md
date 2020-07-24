@@ -37,8 +37,6 @@ api_location:
 - UdecxWdfDevice.h
 api_name:
 - EvtUdecxWdfDeviceReset
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

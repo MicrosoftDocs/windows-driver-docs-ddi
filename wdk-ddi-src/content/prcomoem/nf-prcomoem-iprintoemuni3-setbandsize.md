@@ -37,8 +37,6 @@ api_location:
 - prcomoem.h
 api_name:
 - IPrintOemUni3.SetBandSize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

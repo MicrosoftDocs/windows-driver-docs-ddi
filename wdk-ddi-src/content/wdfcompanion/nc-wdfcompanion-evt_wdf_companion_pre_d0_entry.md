@@ -37,8 +37,6 @@ api_location:
 - wdfcompanion.h
 api_name:
 - EVT_WDF_COMPANION_PRE_D0_ENTRY
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

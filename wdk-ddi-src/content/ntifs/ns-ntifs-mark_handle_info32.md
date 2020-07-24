@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - MARK_HANDLE_INFO32
-product:
-- Windows
 targetos: Windows
 req.typenames: MARK_HANDLE_INFO32, *PMARK_HANDLE_INFO32
 ---

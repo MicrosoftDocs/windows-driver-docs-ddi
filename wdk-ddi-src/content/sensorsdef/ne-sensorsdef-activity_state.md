@@ -37,8 +37,6 @@ api_location:
 - Sensorsdef.h
 api_name:
 - ACTIVITY_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: ACTIVITY_STATE
 ---

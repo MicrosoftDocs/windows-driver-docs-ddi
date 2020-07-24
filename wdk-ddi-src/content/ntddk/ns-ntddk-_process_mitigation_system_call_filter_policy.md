@@ -37,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - PROCESS_MITIGATION_SYSTEM_CALL_FILTER_POLICY
-product:
-- Windows
 targetos: Windows
 req.typenames: PROCESS_MITIGATION_SYSTEM_CALL_FILTER_POLICY, *PPROCESS_MITIGATION_SYSTEM_CALL_FILTER_POLICY
 ---

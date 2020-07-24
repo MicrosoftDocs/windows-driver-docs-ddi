@@ -37,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoDeleteSymbolicLink
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

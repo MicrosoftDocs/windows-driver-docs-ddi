@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IPrinterExtensionEventArgs.SourceApplication
 - IPrinterExtensionEventArgs.get_SourceApplication
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

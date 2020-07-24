@@ -35,8 +35,6 @@ api_location:
 - ndis.lib
 api_name: 
 - NdisGetNblTimestampInfo
-product:
-- Windows
 targetos: Windows
 
 

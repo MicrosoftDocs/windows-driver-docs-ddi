@@ -37,8 +37,6 @@ api_location:
 - ufxbase.h
 api_name:
 - UFX_DEVICE_CAPABILITIES
-product:
-- Windows
 targetos: Windows
 req.typenames: UFX_DEVICE_CAPABILITIES, *PUFX_DEVICE_CAPABILITIES
 ---

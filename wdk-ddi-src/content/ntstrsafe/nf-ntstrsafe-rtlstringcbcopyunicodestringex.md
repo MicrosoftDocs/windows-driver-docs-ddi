@@ -38,8 +38,6 @@ api_location:
 - Ntstrsafe.dll
 api_name:
 - RtlStringCbCopyUnicodeStringEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

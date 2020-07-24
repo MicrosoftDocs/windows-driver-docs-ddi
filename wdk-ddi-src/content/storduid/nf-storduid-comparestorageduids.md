@@ -37,8 +37,6 @@ api_location:
 - storduid.h
 api_name:
 - CompareStorageDuids
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

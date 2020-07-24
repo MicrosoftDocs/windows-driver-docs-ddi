@@ -37,8 +37,6 @@ api_location:
 - rilapitypes.h
 api_name:
 - RILPOSITIONINFOUMTSPARAMMASK
-product:
-- Windows
 targetos: Windows
 req.typenames: RILPOSITIONINFOUMTSPARAMMASK
 ---

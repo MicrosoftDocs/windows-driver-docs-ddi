@@ -37,8 +37,6 @@ api_location:
 - Ucmmanager.h
 api_name:
 - UCM_CONNECTOR_TYPEC_ATTACH_PARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: UCM_CONNECTOR_TYPEC_ATTACH_PARAMS, *PUCM_CONNECTOR_TYPEC_ATTACH_PARAMS
 ---

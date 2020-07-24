@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IPrinterExtensionEventArgs.BidiNotification
 - IPrinterExtensionEventArgs.get_BidiNotification
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

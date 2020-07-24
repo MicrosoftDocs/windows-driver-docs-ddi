@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IPrintSchemaElement.NamespaceUri
 - IPrintSchemaElement.get_NamespaceUri
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

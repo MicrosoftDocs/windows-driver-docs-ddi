@@ -37,8 +37,6 @@ api_location:
 - WdfChildlist.h
 api_name:
 - EvtChildListIdentificationDescriptionCleanup
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

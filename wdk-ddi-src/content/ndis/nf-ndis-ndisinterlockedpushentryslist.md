@@ -37,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NdisInterlockedPushEntrySList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

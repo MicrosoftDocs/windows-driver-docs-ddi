@@ -37,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILMESSAGESTORAGEFULL
-product:
-- Windows
 targetos: Windows
 req.typenames: RILMESSAGESTORAGEFULL, *LPRILMESSAGESTORAGEFULL
 ---

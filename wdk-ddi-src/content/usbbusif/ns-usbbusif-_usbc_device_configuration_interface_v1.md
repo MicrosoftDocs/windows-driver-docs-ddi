@@ -37,8 +37,6 @@ api_location:
 - usbbusif.h
 api_name:
 - USBC_DEVICE_CONFIGURATION_INTERFACE_V1
-product:
-- Windows
 targetos: Windows
 req.typenames: USBC_DEVICE_CONFIGURATION_INTERFACE_V1, *PUSBC_DEVICE_CONFIGURATION_INTERFACE_V1
 ---

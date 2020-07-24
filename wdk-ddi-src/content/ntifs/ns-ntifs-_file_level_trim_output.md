@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - FILE_LEVEL_TRIM_RANGE_OUTPUT
-product:
-- Windows
 targetos: Windows
 req.typenames: FILE_LEVEL_TRIM_OUTPUT, *PFILE_LEVEL_TRIM_OUTPUT
 ---

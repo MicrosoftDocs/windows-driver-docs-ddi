@@ -37,8 +37,6 @@ api_location:
 - Ntddvdeo.h
 api_name:
 - IOCTL_VIDEO_HANDLE_VIDEOPARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

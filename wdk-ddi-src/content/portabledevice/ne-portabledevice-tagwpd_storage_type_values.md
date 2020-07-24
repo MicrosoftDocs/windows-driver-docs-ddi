@@ -37,8 +37,6 @@ api_location:
 - PortableDevice.h
 api_name:
 - WPD_STORAGE_TYPE_VALUES
-product:
-- Windows
 targetos: Windows
 req.typenames: WPD_STORAGE_TYPE_VALUES
 ms.custom: RS5

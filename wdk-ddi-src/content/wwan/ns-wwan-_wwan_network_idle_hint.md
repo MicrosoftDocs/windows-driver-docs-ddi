@@ -37,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_NETWORK_IDLE_HINT
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_NETWORK_IDLE_HINT, *PWWAN_NETWORK_IDLE_HINT
 ---

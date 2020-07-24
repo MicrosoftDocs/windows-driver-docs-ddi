@@ -34,8 +34,6 @@ api_location:
 - wdm.h
 api_name: 
 - ARM64_SYSREG_OP1
-product:
-- Windows
 targetos: Windows
 
 ---

@@ -37,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IMiniportMidi.NewStream
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

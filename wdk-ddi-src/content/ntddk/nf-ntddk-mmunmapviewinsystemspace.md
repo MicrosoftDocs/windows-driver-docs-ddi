@@ -34,8 +34,6 @@ api_location:
 - NfcCx.dll
 api_name: 
 - MmUnmapViewInSystemSpace
-product:
-- Windows
 targetos: Windows
 
 ms.custom: RS5

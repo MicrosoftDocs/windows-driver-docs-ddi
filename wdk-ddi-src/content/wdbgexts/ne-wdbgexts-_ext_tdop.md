@@ -37,8 +37,6 @@ api_location:
 - WdbgExts.h
 api_name:
 - EXT_TDOP
-product:
-- Windows
 targetos: Windows
 req.typenames: EXT_TDOP
 ---

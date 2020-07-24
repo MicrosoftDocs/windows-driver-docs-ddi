@@ -35,8 +35,6 @@ api_location:
 - UcmUcsiCxStub.lib
 api_name: 
 - UcmUcsiPpmStop
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

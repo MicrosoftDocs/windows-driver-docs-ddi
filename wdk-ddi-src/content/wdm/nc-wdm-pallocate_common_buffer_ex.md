@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - AllocateCommonBufferEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

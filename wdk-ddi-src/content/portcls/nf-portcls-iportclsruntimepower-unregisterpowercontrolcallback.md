@@ -37,8 +37,6 @@ api_location:
 - Portcls.h
 api_name:
 - IPortClsRuntimePower.UnregisterPowerControlCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

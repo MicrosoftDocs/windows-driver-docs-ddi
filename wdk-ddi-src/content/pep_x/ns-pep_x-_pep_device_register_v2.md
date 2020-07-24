@@ -36,8 +36,6 @@ api_location:
 - pepfx.h
 api_name:
 - PEP_DEVICE_REGISTER_V2
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_DEVICE_REGISTER_V2, *PPEP_DEVICE_REGISTER_V2
 ---

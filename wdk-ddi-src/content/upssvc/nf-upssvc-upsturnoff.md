@@ -37,8 +37,6 @@ api_location:
 - upssvc.h
 api_name:
 - UPSTurnOff
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

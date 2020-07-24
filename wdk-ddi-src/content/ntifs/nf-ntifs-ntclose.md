@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ZwClose
 - NtClose
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

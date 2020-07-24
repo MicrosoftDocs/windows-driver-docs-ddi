@@ -39,8 +39,6 @@ api_name:
 - IWDTFTarget2.Context
 - IWDTFTarget2.get_Context
 - IWDTFTarget2.put_Context
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

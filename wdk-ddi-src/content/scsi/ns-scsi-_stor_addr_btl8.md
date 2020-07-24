@@ -37,8 +37,6 @@ api_location:
 - Storport.h
 api_name:
 - STOR_ADDR_BTL8
-product:
-- Windows
 targetos: Windows
 req.typenames: STOR_ADDR_BTL8, *PSTOR_ADDR_BTL8
 ---

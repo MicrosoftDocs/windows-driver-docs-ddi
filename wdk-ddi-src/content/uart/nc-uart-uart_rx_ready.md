@@ -34,8 +34,6 @@ api_location:
 - uart.h
 api_name:
 - UART_RX_READY
-product:
-- Windows
 targetos: Windows
 ---
 

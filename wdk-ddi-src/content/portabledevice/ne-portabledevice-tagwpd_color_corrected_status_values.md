@@ -37,8 +37,6 @@ api_location:
 - PortableDevice.h
 api_name:
 - WPD_COLOR_CORRECTED_STATUS_VALUES
-product:
-- Windows
 targetos: Windows
 req.typenames: WPD_COLOR_CORRECTED_STATUS_VALUES
 ms.custom: RS5

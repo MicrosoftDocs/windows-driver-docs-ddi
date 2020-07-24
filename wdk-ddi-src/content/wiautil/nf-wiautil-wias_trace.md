@@ -37,8 +37,6 @@ api_location:
 - wiamdef.h
 api_name:
 - WIAS_TRACE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

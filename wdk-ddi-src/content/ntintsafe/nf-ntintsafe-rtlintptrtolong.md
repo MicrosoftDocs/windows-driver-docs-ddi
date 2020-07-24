@@ -37,8 +37,6 @@ api_location:
 - Ntintsafe.h
 api_name:
 - RtlIntPtrToLong
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

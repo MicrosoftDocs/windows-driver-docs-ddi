@@ -37,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILEXECUTORFOCUSSTATE
-product:
-- Windows
 targetos: Windows
 req.typenames: RILEXECUTORFOCUSSTATE, *LPRILEXECUTORFOCUSSTATE
 ---

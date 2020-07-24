@@ -37,8 +37,6 @@ api_location:
 - usbscan.h
 api_name:
 - USBSCAN_PIPE_CONFIGURATION
-product:
-- Windows
 targetos: Windows
 req.typenames: USBSCAN_PIPE_CONFIGURATION, *PUSBSCAN_PIPE_CONFIGURATION
 ---

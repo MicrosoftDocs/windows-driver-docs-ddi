@@ -31,8 +31,6 @@ api_location:
  - ntddvdeo.h
 api_name: 
  - IOCTL_SET_ACTIVE_COLOR_PROFILE_NAME
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

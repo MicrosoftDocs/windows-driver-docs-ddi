@@ -37,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IPinName.GetPinName
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

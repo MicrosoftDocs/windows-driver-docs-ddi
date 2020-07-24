@@ -30,8 +30,6 @@ api_location:
 - scsi.h
 api_name: 
 - _VPD_EXTENDED_INQUIRY_DATA_PAGE
-product:
-- Windows
 targetos: Windows
 ---
 

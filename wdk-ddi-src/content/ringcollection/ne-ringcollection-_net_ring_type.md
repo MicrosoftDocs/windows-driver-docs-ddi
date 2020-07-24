@@ -28,8 +28,6 @@ apilocation:
 - ringcollection.h
 apiname: 
 - _NET_RING_TYPE
-product:
-- Windows
 targetos: Windows
 ---
 

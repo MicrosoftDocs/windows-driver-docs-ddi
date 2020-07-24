@@ -37,8 +37,6 @@ api_location:
 - ucxroothub.h
 api_name:
 - PARENT_HUB_FLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: PARENT_HUB_FLAGS, *PPARENT_HUB_FLAGS
 ---

@@ -37,8 +37,6 @@ api_location:
 - prntfont.h
 api_name:
 - PRINTIFI32
-product:
-- Windows
 targetos: Windows
 req.typenames: PRINTIFI32, *PPRINTIFI32
 req.product: Windows 10 or later.

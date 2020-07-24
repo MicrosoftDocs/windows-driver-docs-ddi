@@ -37,8 +37,6 @@ api_location:
 - Wdfdevice.h
 api_name:
 - EvtDeviceWdmPostPoFxRegisterDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

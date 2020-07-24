@@ -37,8 +37,6 @@ api_location:
 - sddef.h
 api_name:
 - SD_RESPONSE_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: SD_RESPONSE_TYPE
 ---

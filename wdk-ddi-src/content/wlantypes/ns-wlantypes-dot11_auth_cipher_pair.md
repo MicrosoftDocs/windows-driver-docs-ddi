@@ -37,8 +37,6 @@ api_location:
 - wlantypes.h
 api_name:
 - DOT11_AUTH_CIPHER_PAIR
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT11_AUTH_CIPHER_PAIR, *PDOT11_AUTH_CIPHER_PAIR
 req.product: Windows 10 or later.

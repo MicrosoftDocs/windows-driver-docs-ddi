@@ -40,8 +40,6 @@ api_name:
 - RtlStringCbVPrintfExW
 - RtlStringCbVPrintfExA
 - RtlStringCbVPrintfExW
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

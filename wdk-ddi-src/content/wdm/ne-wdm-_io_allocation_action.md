@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - IO_ALLOCATION_ACTION
-product:
-- Windows
 targetos: Windows
 req.typenames: IO_ALLOCATION_ACTION, *PIO_ALLOCATION_ACTION
 ---

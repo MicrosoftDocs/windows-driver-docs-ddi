@@ -37,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - PCFILTER_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: PCFILTER_DESCRIPTOR, *PPCFILTER_DESCRIPTOR
 ---

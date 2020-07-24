@@ -31,8 +31,6 @@ api_location:
 - usbpmapi.h
 api_name: 
 - _USBPM_CLIENT_CONFIG_EXTRA_INFO
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

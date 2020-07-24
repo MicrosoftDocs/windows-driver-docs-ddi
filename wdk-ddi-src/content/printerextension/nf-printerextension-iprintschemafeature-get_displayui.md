@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IPrintSchemaFeature.DisplayUI
 - IPrintSchemaFeature.get_DisplayUI
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

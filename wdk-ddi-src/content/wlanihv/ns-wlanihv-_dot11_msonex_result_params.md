@@ -37,8 +37,6 @@ api_location:
 - wlanihv.h
 api_name:
 - DOT11_MSONEX_RESULT_PARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT11_MSONEX_RESULT_PARAMS, *PDOT11_MSONEX_RESULT_PARAMS
 req.product: Windows 10 or later.

@@ -37,8 +37,6 @@ api_location:
 - ucxroothub.h
 api_name:
 - PEVT_UCX_ROOTHUB_CONTROL_URB
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

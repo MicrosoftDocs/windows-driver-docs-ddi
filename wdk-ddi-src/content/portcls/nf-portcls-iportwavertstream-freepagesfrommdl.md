@@ -37,8 +37,6 @@ api_location:
 - Portcls.h
 api_name:
 - IPortWaveRTStream.FreePagesFromMdl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

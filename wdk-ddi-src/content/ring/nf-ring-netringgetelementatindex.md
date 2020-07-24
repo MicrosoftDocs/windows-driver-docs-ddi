@@ -38,8 +38,6 @@ apilocation:
 apiname: 
 - NetRingGetElementAtIndex
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetRingGetElementAtIndex function

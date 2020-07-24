@@ -37,8 +37,6 @@ api_location:
 - strmini.h
 api_name:
 - HW_STREAM_OBJECT
-product:
-- Windows
 targetos: Windows
 req.typenames: HW_STREAM_OBJECT, *PHW_STREAM_OBJECT
 ---

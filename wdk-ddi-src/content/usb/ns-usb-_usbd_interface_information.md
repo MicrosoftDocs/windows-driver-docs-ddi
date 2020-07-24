@@ -37,8 +37,6 @@ api_location:
 - usb.h
 api_name:
 - USBD_INTERFACE_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: USBD_INTERFACE_INFORMATION, *PUSBD_INTERFACE_INFORMATION
 ---

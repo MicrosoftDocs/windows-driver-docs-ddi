@@ -37,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFDevice3.WriteToHardware
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

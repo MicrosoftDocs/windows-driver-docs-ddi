@@ -37,8 +37,6 @@ api_location:
 - wlanihv.h
 api_name:
 - WDIAG_IHV_WLAN_ID
-product:
-- Windows
 targetos: Windows
 req.typenames: WDIAG_IHV_WLAN_ID, *PWDIAG_IHV_WLAN_ID
 req.product: Windows 10 or later.

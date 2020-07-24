@@ -37,8 +37,6 @@ api_location:
 - DbgEng.h
 api_name:
 - DEBUG_LAST_EVENT_INFO_SYSTEM_ERROR
-product:
-- Windows
 targetos: Windows
 req.typenames: DEBUG_LAST_EVENT_INFO_SYSTEM_ERROR, *PDEBUG_LAST_EVENT_INFO_SYSTEM_ERROR
 ---

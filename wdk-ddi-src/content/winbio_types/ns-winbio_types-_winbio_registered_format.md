@@ -37,8 +37,6 @@ api_location:
 - winbio_types.h
 api_name:
 - WINBIO_REGISTERED_FORMAT
-product:
-- Windows
 targetos: Windows
 req.typenames: WINBIO_REGISTERED_FORMAT, *PWINBIO_REGISTERED_FORMAT
 ---

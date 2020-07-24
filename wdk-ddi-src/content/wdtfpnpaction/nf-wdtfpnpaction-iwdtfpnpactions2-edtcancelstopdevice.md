@@ -37,8 +37,6 @@ api_location:
 - wdtfpnpaction.h
 api_name:
 - IWDTFPNPActions2.EDTCancelStopDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

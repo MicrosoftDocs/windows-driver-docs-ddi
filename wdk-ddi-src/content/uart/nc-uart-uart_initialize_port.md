@@ -34,8 +34,6 @@ api_location:
 - uart.h
 api_name:
 - UART_INITIALIZE_PORT
-product:
-- Windows
 targetos: Windows
 ---
 

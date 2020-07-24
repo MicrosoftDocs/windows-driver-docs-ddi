@@ -34,8 +34,6 @@ api_location:
 - wdm.h
 api_name: 
 - ExReleasePushLockExclusive
-product:
-- Windows
 targetos: Windows
 
 

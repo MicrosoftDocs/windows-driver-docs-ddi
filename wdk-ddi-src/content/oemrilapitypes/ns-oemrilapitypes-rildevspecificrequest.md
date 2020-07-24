@@ -37,8 +37,6 @@ api_location:
 - oemrilapitypes.h
 api_name:
 - RILDEVSPECIFICREQUEST
-product:
-- Windows
 targetos: Windows
 req.typenames: RILDEVSPECIFICREQUEST, *LPRILDEVSPECIFICREQUEST
 ---

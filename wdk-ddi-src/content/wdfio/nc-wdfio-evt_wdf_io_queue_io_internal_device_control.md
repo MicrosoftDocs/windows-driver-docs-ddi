@@ -37,8 +37,6 @@ api_location:
 - Wdfio.h
 api_name:
 - EvtIoInternalDeviceControl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -36,8 +36,6 @@ api_location:
 - Ufxclient.h
 api_name:
 - EVT_UFX_DEVICE_TESTHOOK callback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

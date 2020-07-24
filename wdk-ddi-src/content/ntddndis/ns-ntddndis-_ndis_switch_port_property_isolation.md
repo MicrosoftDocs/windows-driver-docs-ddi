@@ -37,8 +37,6 @@ api_location:
 - Ntddndis.h
 api_name:
 - NDIS_SWITCH_PORT_PROPERTY_ISOLATION
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_SWITCH_PORT_PROPERTY_ISOLATION, *PNDIS_SWITCH_PORT_PROPERTY_ISOLATION
 ---

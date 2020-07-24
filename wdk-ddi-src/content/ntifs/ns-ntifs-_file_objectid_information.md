@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - FILE_OBJECTID_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: FILE_OBJECTID_INFORMATION, *PFILE_OBJECTID_INFORMATION
 ---

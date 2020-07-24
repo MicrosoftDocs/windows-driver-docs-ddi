@@ -37,8 +37,6 @@ api_location:
 - wdfchildlist.h
 api_name:
 - WDF_CHILD_LIST_ITERATOR
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_CHILD_LIST_ITERATOR, *PWDF_CHILD_LIST_ITERATOR
 ---

@@ -33,8 +33,6 @@ api_location:
 - sensorscx.h
 api_name: 
 - EVT_SENSOR_DRIVER_CLEAR_SENSOR_HISTORY
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

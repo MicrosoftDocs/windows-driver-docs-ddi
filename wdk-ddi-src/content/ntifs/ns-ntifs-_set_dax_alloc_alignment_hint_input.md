@@ -37,8 +37,6 @@ api_location:
 - Ntifs.h
 api_name:
 - SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT
-product:
-- Windows
 targetos: Windows
 req.typenames: SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT, *PSET_DAX_ALLOC_ALIGNMENT_HINT_INPUT
 ---

@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ZwQuerySecurityObject
 - NtQuerySecurityObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

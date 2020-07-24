@@ -37,8 +37,6 @@ api_location:
 - wsk.h
 api_name:
 - WSK_PROVIDER_CHARACTERISTICS
-product:
-- Windows
 targetos: Windows
 req.typenames: WSK_PROVIDER_CHARACTERISTICS, *PWSK_PROVIDER_CHARACTERISTICS
 ---

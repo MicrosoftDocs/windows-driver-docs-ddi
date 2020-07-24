@@ -37,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - WHEA_PSHED_PLUGIN_CALLBACKS
-product:
-- Windows
 targetos: Windows
 req.typenames: WHEA_PSHED_PLUGIN_CALLBACKS, *PWHEA_PSHED_PLUGIN_CALLBACKS
 ---

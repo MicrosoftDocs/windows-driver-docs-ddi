@@ -37,8 +37,6 @@ api_location:
 - wdfdevice.h
 api_name:
 - WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE, *PWDF_RELEASE_HARDWARE_ORDER_ON_FAILURE
 ---

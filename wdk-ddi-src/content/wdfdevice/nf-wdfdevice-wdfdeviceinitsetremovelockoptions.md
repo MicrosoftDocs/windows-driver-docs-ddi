@@ -38,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfDeviceInitSetRemoveLockOptions
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

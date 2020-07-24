@@ -37,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILIMSFAILUREMESSAGETYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: RILIMSFAILUREMESSAGETYPE
 ---

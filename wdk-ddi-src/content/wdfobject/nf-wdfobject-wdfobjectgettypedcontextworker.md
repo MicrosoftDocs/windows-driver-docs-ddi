@@ -37,8 +37,6 @@ api_location:
 - wdfobject.h
 api_name:
 - WdfObjectGetTypedContextWorker
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

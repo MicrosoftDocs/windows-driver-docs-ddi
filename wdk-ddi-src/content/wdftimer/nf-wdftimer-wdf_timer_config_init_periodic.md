@@ -38,8 +38,6 @@ api_location:
 - None.dll
 api_name:
 - WDF_TIMER_CONFIG_INIT_PERIODIC
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

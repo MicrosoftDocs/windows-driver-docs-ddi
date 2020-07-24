@@ -30,8 +30,6 @@ api_location:
 - usbctypes.h
 api_name: 
 - _USBC_PD_POWER_DATA_OBJECT
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

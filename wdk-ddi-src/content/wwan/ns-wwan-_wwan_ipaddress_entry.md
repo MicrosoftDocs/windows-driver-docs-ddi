@@ -37,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_IPADDRESS_ENTRY
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_IPADDRESS_ENTRY, *PWWAN_IPADDRESS_ENTRY
 ---

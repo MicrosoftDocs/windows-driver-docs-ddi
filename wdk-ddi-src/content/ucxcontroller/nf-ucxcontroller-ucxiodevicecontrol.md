@@ -37,8 +37,6 @@ api_location:
 - Ucxcontroller.h
 api_name:
 - UcxIoDeviceControl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

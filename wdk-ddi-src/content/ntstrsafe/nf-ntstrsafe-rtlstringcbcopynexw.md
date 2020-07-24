@@ -40,8 +40,6 @@ api_name:
 - RtlStringCbCopyNExW
 - RtlStringCbCopyNExA
 - RtlStringCbCopyNExW
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

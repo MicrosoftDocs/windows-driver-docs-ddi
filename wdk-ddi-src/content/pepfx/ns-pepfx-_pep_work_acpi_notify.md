@@ -37,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - PEP_WORK_ACPI_NOTIFY
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_WORK_ACPI_NOTIFY, *PPEP_WORK_ACPI_NOTIFY
 ---

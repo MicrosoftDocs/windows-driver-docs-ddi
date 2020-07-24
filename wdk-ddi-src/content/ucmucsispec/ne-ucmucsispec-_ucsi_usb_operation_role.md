@@ -22,8 +22,6 @@ req.max-support:
 req.typenames: UCSI_USB_OPERATION_ROLE
 api_name: 
 - _UCSI_USB_OPERATION_ROLE
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

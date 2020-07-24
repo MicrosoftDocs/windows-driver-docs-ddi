@@ -37,8 +37,6 @@ api_location:
 - wlanihv.h
 api_name:
 - DOT11EXT_IHV_INDICATION_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT11EXT_IHV_INDICATION_TYPE, *PDOT11EXT_IHV_INDICATION_TYPE
 req.product: Windows 10 or later.

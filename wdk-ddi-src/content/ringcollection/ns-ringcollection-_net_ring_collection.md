@@ -34,8 +34,6 @@ apilocation:
 apiname: 
 - NET_RING_COLLECTION
 targetos: Windows
-product:
-- Windows
 ---
 
 # _NET_RING_COLLECTION structure

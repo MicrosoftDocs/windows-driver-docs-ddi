@@ -37,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - PEP_PERF_STATE_UNIT
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_PERF_STATE_UNIT, *PPEP_PERF_STATE_UNIT
 ---

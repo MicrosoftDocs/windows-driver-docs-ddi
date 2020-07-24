@@ -37,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NET_DEVICE_PNP_EVENT
-product:
-- Windows
 targetos: Windows
 req.typenames: NET_DEVICE_PNP_EVENT, *PNET_DEVICE_PNP_EVENT
 ---

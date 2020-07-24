@@ -37,8 +37,6 @@ api_location:
 - prcomoem.h
 api_name:
 - IPrintCoreHelper.CreateInstanceOfMSXMLObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

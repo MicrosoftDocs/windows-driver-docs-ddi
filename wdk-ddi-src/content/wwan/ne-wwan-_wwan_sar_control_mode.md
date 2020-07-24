@@ -28,8 +28,6 @@ api_location:
 - wwan.h
 api_name: 
 - _WWAN_SAR_CONTROL_MODE
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

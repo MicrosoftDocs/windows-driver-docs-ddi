@@ -34,8 +34,6 @@ api_location:
 - winddiui.h
 api_name: 
 - DOCUMENTEVENT_EVENT
-product:
-- Windows
 targetos: Windows
 
 

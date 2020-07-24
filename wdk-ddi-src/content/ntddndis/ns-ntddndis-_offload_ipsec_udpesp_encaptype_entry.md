@@ -37,8 +37,6 @@ api_location:
 - ntddndis.h
 api_name:
 - OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY
-product:
-- Windows
 targetos: Windows
 req.typenames: OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY, *POFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY
 ---

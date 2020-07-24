@@ -37,8 +37,6 @@ api_location:
 - sti.h
 api_name:
 - IStiDevice.RawReadCommand
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

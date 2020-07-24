@@ -37,8 +37,6 @@ api_location:
 - rilapitypes.h
 api_name:
 - RILSMSFORMAT
-product:
-- Windows
 targetos: Windows
 req.typenames: RILSMSFORMAT
 ---

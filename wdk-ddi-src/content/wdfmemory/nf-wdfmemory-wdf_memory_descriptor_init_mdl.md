@@ -37,8 +37,6 @@ api_location:
 - wdfmemory.h
 api_name:
 - WDF_MEMORY_DESCRIPTOR_INIT_MDL
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

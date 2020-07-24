@@ -38,8 +38,6 @@ api_location:
 - Portcls.dll
 api_name:
 - PcRegisterPhysicalConnectionToExternal
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

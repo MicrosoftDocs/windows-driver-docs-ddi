@@ -37,8 +37,6 @@ api_location:
 - wdfmemory.h
 api_name:
 - WDFMEMORY_OFFSET
-product:
-- Windows
 targetos: Windows
 req.typenames: WDFMEMORY_OFFSET, *PWDFMEMORY_OFFSET
 ---

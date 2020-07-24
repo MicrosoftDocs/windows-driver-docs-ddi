@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - OPLOCK_NOTIFY_PARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: OPLOCK_NOTIFY_PARAMS, *POPLOCK_NOTIFY_PARAMS
 ---

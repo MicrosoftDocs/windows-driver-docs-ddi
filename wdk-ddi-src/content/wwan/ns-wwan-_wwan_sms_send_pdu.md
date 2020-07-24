@@ -37,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_SMS_SEND_PDU
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_SMS_SEND_PDU, *PWWAN_SMS_SEND_PDU
 ---

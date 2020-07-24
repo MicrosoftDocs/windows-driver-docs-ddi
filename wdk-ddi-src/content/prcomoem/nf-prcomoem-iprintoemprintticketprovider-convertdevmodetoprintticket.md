@@ -37,8 +37,6 @@ api_location:
 - prcomoem.h
 api_name:
 - IPrintOemPrintTicketProvider.ConvertDevModeToPrintTicket
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -28,8 +28,6 @@ api_location:
 - ucmucsispec.h
 api_name: 
 - _UCSI_GET_ALTERNATE_MODES_RECIPIENT
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

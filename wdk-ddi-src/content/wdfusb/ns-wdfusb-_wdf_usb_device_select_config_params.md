@@ -37,8 +37,6 @@ api_location:
 - wdfusb.h
 api_name:
 - WDF_USB_DEVICE_SELECT_CONFIG_PARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_USB_DEVICE_SELECT_CONFIG_PARAMS, *PWDF_USB_DEVICE_SELECT_CONFIG_PARAMS
 ---

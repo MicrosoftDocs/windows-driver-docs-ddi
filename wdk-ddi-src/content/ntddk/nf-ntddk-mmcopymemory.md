@@ -38,8 +38,6 @@ api_location:
 - ntoskrnl.dll
 api_name:
 - MmCopyMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

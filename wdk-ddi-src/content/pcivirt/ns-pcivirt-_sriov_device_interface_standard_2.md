@@ -37,8 +37,6 @@ api_location:
 - Pcivirt.h
 api_name:
 - SRIOV_DEVICE_INTERFACE_STANDARD_2
-product:
-- Windows
 targetos: Windows
 req.typenames: SRIOV_DEVICE_INTERFACE_STANDARD_2, *PSRIOV_DEVICE_INTERFACE_STANDARD_2
 ---

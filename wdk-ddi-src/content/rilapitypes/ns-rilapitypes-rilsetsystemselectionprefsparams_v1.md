@@ -37,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILSETSYSTEMSELECTIONPREFSPARAMS_V1
-product:
-- Windows
 targetos: Windows
 req.typenames: RILSETSYSTEMSELECTIONPREFSPARAMS_V1, *LPRILSETSYSTEMSELECTIONPREFSPARAMS_V1
 ---

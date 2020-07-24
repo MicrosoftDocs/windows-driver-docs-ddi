@@ -37,8 +37,6 @@ api_location:
 - winbio_types.h
 api_name:
 - WINBIO_VERSION
-product:
-- Windows
 targetos: Windows
 req.typenames: WINBIO_VERSION, *PWINBIO_VERSION
 ---

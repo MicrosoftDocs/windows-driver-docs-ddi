@@ -37,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoRegisterFileSystem
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

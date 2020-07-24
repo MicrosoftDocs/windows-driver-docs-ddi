@@ -37,8 +37,6 @@ api_location:
 - video.h
 api_name:
 - VIDEO_ACCESS_RANGE
-product:
-- Windows
 targetos: Windows
 req.typenames: VIDEO_ACCESS_RANGE, *PVIDEO_ACCESS_RANGE
 ---

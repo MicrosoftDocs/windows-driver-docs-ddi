@@ -37,8 +37,6 @@ api_location:
 - DbgEng.h
 api_name:
 - DEBUG_STACK_FRAME
-product:
-- Windows
 targetos: Windows
 req.typenames: DEBUG_STACK_FRAME, *PDEBUG_STACK_FRAME
 ---

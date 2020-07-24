@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - TOKEN_DEFAULT_DACL
-product:
-- Windows
 targetos: Windows
 req.typenames: TOKEN_DEFAULT_DACL, *PTOKEN_DEFAULT_DACL
 ---

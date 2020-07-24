@@ -40,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfFdoInitQueryPropertyEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

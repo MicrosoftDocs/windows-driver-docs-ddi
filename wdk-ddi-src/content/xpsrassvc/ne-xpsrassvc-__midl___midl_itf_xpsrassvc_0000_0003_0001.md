@@ -37,8 +37,6 @@ api_location:
 - Xpsrassvc.h
 api_name:
 - XPSRAS_PIXEL_FORMAT
-product:
-- Windows
 targetos: Windows
 req.typenames: XPSRAS_PIXEL_FORMAT
 ---

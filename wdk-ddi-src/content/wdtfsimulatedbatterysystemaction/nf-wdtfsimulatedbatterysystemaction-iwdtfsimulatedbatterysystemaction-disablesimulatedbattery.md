@@ -37,8 +37,6 @@ api_location:
 - wdtfsimulatedbatterysystemaction.h
 api_name:
 - IWDTFSimulatedBatterySystemAction.DisableSimulatedBattery
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

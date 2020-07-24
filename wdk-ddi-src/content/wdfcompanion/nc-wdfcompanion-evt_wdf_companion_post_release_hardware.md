@@ -37,8 +37,6 @@ api_location:
 - wdfcompanion.h
 api_name:
 - EVT_WDF_COMPANION_POST_RELEASE_HARDWARE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

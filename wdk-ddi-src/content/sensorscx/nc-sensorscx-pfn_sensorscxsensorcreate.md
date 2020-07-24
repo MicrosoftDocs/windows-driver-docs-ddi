@@ -33,8 +33,6 @@ api_location:
 - sensorscx.h
 api_name: 
 - PFN_SENSORSCXSENSORCREATE
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

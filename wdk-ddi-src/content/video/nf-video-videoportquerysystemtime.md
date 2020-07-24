@@ -37,8 +37,6 @@ api_location:
 - Videoprt.sys
 api_name:
 - VideoPortQuerySystemTime
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

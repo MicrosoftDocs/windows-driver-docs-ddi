@@ -27,8 +27,6 @@ api_location:
 - usbsidebandaudio.h
 api_name: 
 - _SIDEBANDAUDIO_EP_USB_TRANSPORT_RESOURCE_TYPE
-product:
-- Windows
 targetos: Windows
 tech.root: audio
 ms.custom: RS5

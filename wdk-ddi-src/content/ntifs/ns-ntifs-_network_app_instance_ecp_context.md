@@ -37,8 +37,6 @@ api_location:
 - Ntifs.h
 api_name:
 - NETWORK_APP_INSTANCE_ECP_CONTEXT
-product:
-- Windows
 targetos: Windows
 req.typenames: NETWORK_APP_INSTANCE_ECP_CONTEXT, *PNETWORK_APP_INSTANCE_ECP_CONTEXT
 ---

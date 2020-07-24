@@ -37,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IPortMidi.Notify
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

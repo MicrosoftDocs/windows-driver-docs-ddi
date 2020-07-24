@@ -38,8 +38,6 @@ api_location:
 - Hal.dll
 api_name:
 - KeRaiseIrqlToDpcLevel
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

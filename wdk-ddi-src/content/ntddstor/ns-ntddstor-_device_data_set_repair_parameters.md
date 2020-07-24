@@ -37,8 +37,6 @@ api_location:
 - ntddstor.h
 api_name:
 - DEVICE_DATA_SET_REPAIR_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: DEVICE_DATA_SET_REPAIR_PARAMETERS, *PDEVICE_DATA_SET_REPAIR_PARAMETERS
 ---

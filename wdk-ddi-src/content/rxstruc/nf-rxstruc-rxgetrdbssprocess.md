@@ -37,8 +37,6 @@ api_location:
 - rxstruc.h
 api_name:
 - RxGetRDBSSProcess
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

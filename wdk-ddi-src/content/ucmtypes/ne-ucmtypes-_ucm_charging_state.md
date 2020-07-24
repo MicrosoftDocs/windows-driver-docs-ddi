@@ -37,8 +37,6 @@ api_location:
 - Ucmtypes.h
 api_name:
 - UCM_CHARGING_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: UCM_CHARGING_STATE, *PUCM_CHARGING_STATE
 ---

@@ -37,8 +37,6 @@ api_location:
 - prntfont.h
 api_name:
 - UFF_FILEHEADER
-product:
-- Windows
 targetos: Windows
 req.typenames: UFF_FILEHEADER, *PUFF_FILEHEADER
 ---

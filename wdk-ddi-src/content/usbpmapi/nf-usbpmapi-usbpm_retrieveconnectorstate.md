@@ -35,8 +35,6 @@ api_location:
 - UsbPmApi.lib
 api_name: 
 - UsbPm_RetrieveConnectorState
-product:
-- Windows
 targetos: Windows
 
 

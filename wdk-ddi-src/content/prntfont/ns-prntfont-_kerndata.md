@@ -37,8 +37,6 @@ api_location:
 - prntfont.h
 api_name:
 - KERNDATA
-product:
-- Windows
 targetos: Windows
 req.typenames: KERNDATA, *PKERNDATA
 ---

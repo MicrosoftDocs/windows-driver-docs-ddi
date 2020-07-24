@@ -37,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILGPP2CAUSE
-product:
-- Windows
 targetos: Windows
 req.typenames: RILGPP2CAUSE, *LPRILGPP2CAUSE
 ---

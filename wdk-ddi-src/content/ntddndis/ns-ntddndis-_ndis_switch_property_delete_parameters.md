@@ -37,8 +37,6 @@ api_location:
 - Ntddndis.h
 api_name:
 - NDIS_SWITCH_PROPERTY_DELETE_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_SWITCH_PROPERTY_DELETE_PARAMETERS, *PNDIS_SWITCH_PROPERTY_DELETE_PARAMETERS
 ---

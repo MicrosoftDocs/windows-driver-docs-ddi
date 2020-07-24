@@ -37,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugSystemObjects4.GetCurrentProcessExecutableNameWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

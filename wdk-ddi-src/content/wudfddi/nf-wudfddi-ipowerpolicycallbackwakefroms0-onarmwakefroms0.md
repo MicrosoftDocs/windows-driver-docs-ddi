@@ -37,8 +37,6 @@ api_location:
 - Wudfddi.h
 api_name:
 - IPowerPolicyCallbackWakeFromS0.OnArmWakeFromS0
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - TOKEN_INFORMATION_CLASS
-product:
-- Windows
 targetos: Windows
 req.typenames: TOKEN_INFORMATION_CLASS, *PTOKEN_INFORMATION_CLASS
 ---

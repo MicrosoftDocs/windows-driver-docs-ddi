@@ -37,8 +37,6 @@ api_location:
 - Usbioctl.h
 api_name:
 - IOCTL_USB_RESET_HUB
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_READY_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_READY_INFO, *PWWAN_READY_INFO
 ---

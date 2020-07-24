@@ -38,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisGetCurrentSystemTime
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

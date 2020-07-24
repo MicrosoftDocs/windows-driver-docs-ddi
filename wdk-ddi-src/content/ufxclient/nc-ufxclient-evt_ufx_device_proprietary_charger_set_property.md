@@ -37,8 +37,6 @@ api_location:
 - Ufxclient.h
 api_name:
 - PFN_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

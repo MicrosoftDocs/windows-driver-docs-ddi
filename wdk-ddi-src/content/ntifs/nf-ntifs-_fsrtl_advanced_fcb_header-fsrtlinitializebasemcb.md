@@ -35,8 +35,6 @@ api_location:
 - NtosKrnl.exe
 api_name: 
 - FsRtlInitializeBaseMcb
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

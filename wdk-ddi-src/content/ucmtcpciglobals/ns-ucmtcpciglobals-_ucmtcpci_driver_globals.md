@@ -37,8 +37,6 @@ api_location:
 - Ucmtcpciglobals.h
 api_name:
 - UCMTCPCI_DRIVER_GLOBALS
-product:
-- Windows
 targetos: Windows
 req.typenames: UCMTCPCI_DRIVER_GLOBALS, *PUCMTCPCI_DRIVER_GLOBALS
 ---

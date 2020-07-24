@@ -37,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_PIN_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_PIN_STATE, *PWWAN_PIN_STATE
 ---

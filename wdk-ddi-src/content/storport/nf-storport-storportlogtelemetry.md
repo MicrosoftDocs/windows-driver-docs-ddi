@@ -37,8 +37,6 @@ api_location:
 - storport.h
 api_name:
 - StorPortLogTelemetry
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 dev_langs:

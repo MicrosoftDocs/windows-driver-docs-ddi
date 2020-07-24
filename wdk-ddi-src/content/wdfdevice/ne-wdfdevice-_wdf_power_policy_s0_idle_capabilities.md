@@ -38,8 +38,6 @@ api_location:
 - wudfddi_types.h
 api_name:
 - WDF_POWER_POLICY_S0_IDLE_CAPABILITIES
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_POWER_POLICY_S0_IDLE_CAPABILITIES
 ---

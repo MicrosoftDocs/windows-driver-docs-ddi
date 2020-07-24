@@ -37,8 +37,6 @@ api_location:
 - scsiwmi.h
 api_name:
 - HwScsiWmiFunctionControl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

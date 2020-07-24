@@ -37,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFFile3.GetInitiatorProcessId
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

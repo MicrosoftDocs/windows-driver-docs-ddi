@@ -37,8 +37,6 @@ api_location:
 - wdfdevice.h
 api_name:
 - WDF_PNPPOWER_EVENT_CALLBACKS_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

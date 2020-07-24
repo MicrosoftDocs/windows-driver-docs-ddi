@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IPrintSchemaCapabilities.JobCopiesAllDocumentsMinValue
 - IPrintSchemaCapabilities.get_JobCopiesAllDocumentsMinValue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

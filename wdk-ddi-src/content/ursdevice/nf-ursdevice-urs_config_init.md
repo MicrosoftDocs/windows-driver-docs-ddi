@@ -37,8 +37,6 @@ api_location:
 - Ursdevice.h
 api_name:
 - URS_CONFIG_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

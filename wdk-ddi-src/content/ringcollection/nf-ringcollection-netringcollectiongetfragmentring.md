@@ -38,8 +38,6 @@ apilocation:
 apiname: 
 - NetRingCollectionGetFragmentRing
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetRingCollectionGetFragmentRing function

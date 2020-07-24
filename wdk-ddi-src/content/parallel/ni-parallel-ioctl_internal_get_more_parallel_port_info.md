@@ -37,8 +37,6 @@ api_location:
 - parallel.h
 api_name:
 - IOCTL_INTERNAL_GET_MORE_PARALLEL_PORT_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ---

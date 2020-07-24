@@ -34,8 +34,6 @@ api_location:
 - NtosKrnl.exe
 api_name: 
 - WdfDriverErrorReportApiMissing
-product:
-- Windows
 targetos: Windows
 
 ---

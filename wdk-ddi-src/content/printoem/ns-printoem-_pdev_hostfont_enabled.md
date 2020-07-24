@@ -37,8 +37,6 @@ api_location:
 - printoem.h
 api_name:
 - PDEV_HOSTFONT_ENABLED
-product:
-- Windows
 targetos: Windows
 req.typenames: PDEV_HOSTFONT_ENABLED
 ---

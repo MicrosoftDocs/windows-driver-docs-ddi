@@ -37,8 +37,6 @@ api_location:
 - printoem.h
 api_name:
 - GETINFO_MEMORY
-product:
-- Windows
 targetos: Windows
 req.typenames: GETINFO_MEMORY, PGETINFO_MEMROY
 ---

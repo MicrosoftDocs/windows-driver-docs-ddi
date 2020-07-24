@@ -37,8 +37,6 @@ api_location:
 - Wdfio.h
 api_name:
 - EvtIoWrite
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

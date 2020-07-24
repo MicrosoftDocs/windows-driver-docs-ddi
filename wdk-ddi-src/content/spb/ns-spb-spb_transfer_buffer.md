@@ -37,8 +37,6 @@ api_location:
 - Spb.h
 api_name:
 - SPB_TRANSFER_BUFFER
-product:
-- Windows
 targetos: Windows
 req.typenames: SPB_TRANSFER_BUFFER, *PSPB_TRANSFER_BUFFER
 ---

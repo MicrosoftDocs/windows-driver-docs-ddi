@@ -38,8 +38,6 @@ api_location:
 - SensorsClassExtension.dll
 api_name:
 - OnGetSupportedSensorObjects
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

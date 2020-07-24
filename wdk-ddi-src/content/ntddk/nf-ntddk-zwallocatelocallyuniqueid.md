@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ZwAllocateLocallyUniqueId
 - NtAllocateLocallyUniqueId
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

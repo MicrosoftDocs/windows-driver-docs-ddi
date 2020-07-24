@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - FS_FILTER_SECTION_SYNC_OUTPUT
-product:
-- Windows
 targetos: Windows
 req.typenames: FS_FILTER_SECTION_SYNC_OUTPUT, *PFS_FILTER_SECTION_SYNC_OUTPUT
 ---

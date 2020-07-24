@@ -37,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILCBMSGCONFIG
-product:
-- Windows
 targetos: Windows
 req.typenames: RILCBMSGCONFIG, *LPRILCBMSGCONFIG
 ---

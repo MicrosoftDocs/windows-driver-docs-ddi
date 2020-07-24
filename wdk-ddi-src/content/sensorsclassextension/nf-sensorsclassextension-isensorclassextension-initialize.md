@@ -38,8 +38,6 @@ api_location:
 - SensorsClassExtension.dll
 api_name:
 - Initialize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - sti.h
 api_name:
 - STI_DEV_CAPS
-product:
-- Windows
 targetos: Windows
 req.typenames: STI_DEV_CAPS, *PSTI_DEV_CAPS
 ---

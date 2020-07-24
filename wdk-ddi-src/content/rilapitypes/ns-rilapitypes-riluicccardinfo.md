@@ -37,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILUICCCARDINFO
-product:
-- Windows
 targetos: Windows
 req.typenames: RILUICCCARDINFO, *LPRILUICCCARDINFO
 ---

@@ -37,8 +37,6 @@ api_location:
 - sti.h
 api_name:
 - STISUBSCRIBE
-product:
-- Windows
 targetos: Windows
 req.typenames: STISUBSCRIBE, *LPSTISUBSCRIBE
 ---

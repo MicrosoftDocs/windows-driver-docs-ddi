@@ -37,8 +37,6 @@ api_location:
 - ucxusbdevice.h
 api_name:
 - USBDEVICE_RESET
-product:
-- Windows
 targetos: Windows
 req.typenames: USBDEVICE_RESET, *PUSBDEVICE_RESET
 ---

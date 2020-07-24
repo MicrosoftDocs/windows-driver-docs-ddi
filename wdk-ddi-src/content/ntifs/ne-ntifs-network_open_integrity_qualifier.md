@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - NETWORK_OPEN_INTEGRITY_QUALIFIER
-product:
-- Windows
 targetos: Windows
 req.typenames: NETWORK_OPEN_INTEGRITY_QUALIFIER
 ---

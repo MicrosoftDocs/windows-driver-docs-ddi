@@ -37,8 +37,6 @@ api_location:
 - Wmilib.h
 api_name:
 - WMIGUIDREGINFO
-product:
-- Windows
 targetos: Windows
 req.typenames: WMIGUIDREGINFO, *PWMIGUIDREGINFO
 ---

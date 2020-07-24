@@ -33,8 +33,6 @@ api_location:
 - wdm.h
 api_name: 
 - IOMMU_DEVICE_FAULT_HANDLER
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

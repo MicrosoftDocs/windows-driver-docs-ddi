@@ -37,8 +37,6 @@ api_location:
 - Ufs.h
 api_name:
 - UFS_POWER_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: UFS_POWER_DESCRIPTOR, *PUFS_POWER_DESCRIPTOR
 ---

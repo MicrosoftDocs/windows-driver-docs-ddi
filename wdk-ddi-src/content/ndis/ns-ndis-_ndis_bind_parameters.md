@@ -37,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NDIS_BIND_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_BIND_PARAMETERS, *PNDIS_BIND_PARAMETERS
 ---

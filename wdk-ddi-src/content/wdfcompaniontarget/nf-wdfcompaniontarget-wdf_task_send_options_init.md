@@ -37,8 +37,6 @@ api_location:
 - wdfcompaniontarget.h
 api_name:
 - WDF_TASK_SEND_OPTIONS_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

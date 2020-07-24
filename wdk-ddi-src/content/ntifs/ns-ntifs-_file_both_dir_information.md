@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - FILE_BOTH_DIR_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: FILE_BOTH_DIR_INFORMATION, *PFILE_BOTH_DIR_INFORMATION
 ---

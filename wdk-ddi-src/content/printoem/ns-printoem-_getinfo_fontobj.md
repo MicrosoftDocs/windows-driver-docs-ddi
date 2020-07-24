@@ -37,8 +37,6 @@ api_location:
 - printoem.h
 api_name:
 - GETINFO_FONTOBJ
-product:
-- Windows
 targetos: Windows
 req.typenames: GETINFO_FONTOBJ, *PGETINFO_FONTOBJ
 ---

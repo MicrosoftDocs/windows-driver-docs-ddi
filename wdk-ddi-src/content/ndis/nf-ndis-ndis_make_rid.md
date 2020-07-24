@@ -35,8 +35,6 @@ api_location:
 - ndis.h
 api_name: 
 - NDIS_MAKE_RID
-product:
-- Windows
 targetos: Windows
 
 ---

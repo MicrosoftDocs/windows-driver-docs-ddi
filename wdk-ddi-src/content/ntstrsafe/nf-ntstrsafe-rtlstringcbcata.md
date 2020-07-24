@@ -40,8 +40,6 @@ api_name:
 - RtlStringCbCatW
 - RtlStringCbCatA
 - RtlStringCbCatW
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

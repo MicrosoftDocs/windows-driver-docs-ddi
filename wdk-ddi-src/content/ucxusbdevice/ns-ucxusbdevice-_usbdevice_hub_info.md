@@ -37,8 +37,6 @@ api_location:
 - ucxusbdevice.h
 api_name:
 - USBDEVICE_HUB_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: USBDEVICE_HUB_INFO, *PUSBDEVICE_HUB_INFO
 ---

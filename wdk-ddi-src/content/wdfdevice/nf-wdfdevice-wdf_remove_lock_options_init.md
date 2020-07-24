@@ -37,8 +37,6 @@ api_location:
 - wdfdevice.h
 api_name:
 - WDF_REMOVE_LOCK_OPTIONS_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - Wudfddi.h
 api_name:
 - IFileCallbackCleanup.OnCleanupFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

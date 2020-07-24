@@ -37,8 +37,6 @@ api_location:
 - wdfusb.h
 api_name:
 - WDF_USB_PIPE_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_USB_PIPE_INFORMATION, *PWDF_USB_PIPE_INFORMATION
 ---

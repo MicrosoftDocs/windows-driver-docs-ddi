@@ -37,8 +37,6 @@ api_location:
 - usbbusif.h
 api_name:
 - SubmitIsoOutUrb
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

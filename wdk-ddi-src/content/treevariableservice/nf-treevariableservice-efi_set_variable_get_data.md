@@ -34,8 +34,6 @@ api_location:
 - treevariableservice.h
 api_name: 
 - EFI_SET_VARIABLE_GET_DATA
-product:
-- Windows
 targetos: Windows
 
 

@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - (*PTM_RM_NOTIFICATION)
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

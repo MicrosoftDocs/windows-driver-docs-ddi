@@ -31,8 +31,6 @@ api_location:
 - ntddstor.h
 api_name: 
 - _NVME_RESERVED_QUEUES_CREATE_RESPONSE
-product:
-- Windows
 targetos: Windows
 ---
 

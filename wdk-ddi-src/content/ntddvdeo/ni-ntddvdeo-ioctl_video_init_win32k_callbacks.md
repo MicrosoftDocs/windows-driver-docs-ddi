@@ -37,8 +37,6 @@ api_location:
 - Ntddvdeo.h
 api_name:
 - IOCTL_VIDEO_INIT_WIN32K_CALLBACKS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

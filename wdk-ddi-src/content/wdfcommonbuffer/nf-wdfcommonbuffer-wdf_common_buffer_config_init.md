@@ -37,8 +37,6 @@ api_location:
 - wdfcommonbuffer.h
 api_name:
 - WDF_COMMON_BUFFER_CONFIG_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

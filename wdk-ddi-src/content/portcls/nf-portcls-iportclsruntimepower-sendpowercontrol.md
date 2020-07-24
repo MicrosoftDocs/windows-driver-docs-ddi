@@ -37,8 +37,6 @@ api_location:
 - Portcls.h
 api_name:
 - IPortClsRuntimePower.SendPowerControl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

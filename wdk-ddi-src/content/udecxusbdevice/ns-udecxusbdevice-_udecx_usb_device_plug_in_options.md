@@ -37,8 +37,6 @@ api_location:
 - UdecxUsbDevice.h
 api_name:
 - UDECX_USB_DEVICE_PLUG_IN_OPTIONS
-product:
-- Windows
 targetos: Windows
 req.typenames: UDECX_USB_DEVICE_PLUG_IN_OPTIONS, *PUDECX_USB_DEVICE_PLUG_IN_OPTIONS
 ---

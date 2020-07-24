@@ -37,8 +37,6 @@ api_location:
 - dbgEng.h
 api_name:
 - DEBUG_VALUE
-product:
-- Windows
 targetos: Windows
 req.typenames: DEBUG_VALUE, *PDEBUG_VALUE
 ---

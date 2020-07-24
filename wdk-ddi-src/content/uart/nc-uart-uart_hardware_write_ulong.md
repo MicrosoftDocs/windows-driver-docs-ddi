@@ -34,8 +34,6 @@ api_location:
 - uart.h
 api_name:
 - UART_HARDWARE_WRITE_ULONG
-product:
-- Windows
 targetos: Windows
 ---
 

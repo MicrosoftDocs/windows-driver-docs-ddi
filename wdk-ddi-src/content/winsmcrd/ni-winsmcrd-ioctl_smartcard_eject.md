@@ -37,8 +37,6 @@ api_location:
 - Winsmcrd.h
 api_name:
 - IOCTL_SMARTCARD_EJECT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IWDTFNumbers2._NewEnum
 - IWDTFNumbers2.get__NewEnum
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

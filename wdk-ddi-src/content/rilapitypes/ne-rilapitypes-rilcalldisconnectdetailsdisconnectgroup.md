@@ -37,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILCALLDISCONNECTDETAILSDISCONNECTGROUP
-product:
-- Windows
 targetos: Windows
 req.typenames: RILCALLDISCONNECTDETAILSDISCONNECTGROUP
 ---

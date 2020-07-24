@@ -37,8 +37,6 @@ api_location:
 - ucxendpoint.h
 api_name:
 - UcxEndpointSetWdfIoQueue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

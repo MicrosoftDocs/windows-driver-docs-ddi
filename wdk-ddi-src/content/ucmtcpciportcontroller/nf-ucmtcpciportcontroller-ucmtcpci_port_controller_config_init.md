@@ -37,8 +37,6 @@ api_location:
 - ucmtcpciportcontroller.h
 api_name:
 - UCMTCPCI_PORT_CONTROLLER_CONFIG_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

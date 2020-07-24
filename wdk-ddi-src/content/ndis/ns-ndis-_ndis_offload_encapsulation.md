@@ -37,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NDIS_OFFLOAD_ENCAPSULATION
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_OFFLOAD_ENCAPSULATION, *PNDIS_OFFLOAD_ENCAPSULATION
 ---

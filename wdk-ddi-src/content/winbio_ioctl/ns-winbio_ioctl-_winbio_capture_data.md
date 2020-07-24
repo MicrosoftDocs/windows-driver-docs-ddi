@@ -37,8 +37,6 @@ api_location:
 - winbio_ioctl.h
 api_name:
 - WINBIO_CAPTURE_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: WINBIO_CAPTURE_DATA, *PWINBIO_CAPTURE_DATA
 ---

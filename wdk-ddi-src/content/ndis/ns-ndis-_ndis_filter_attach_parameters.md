@@ -37,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NDIS_FILTER_ATTACH_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_FILTER_ATTACH_PARAMETERS, *PNDIS_FILTER_ATTACH_PARAMETERS
 ---

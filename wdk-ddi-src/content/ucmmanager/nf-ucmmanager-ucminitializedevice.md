@@ -38,8 +38,6 @@ api_location:
 - UcmCxstub.dll
 api_name:
 - UcmInitializeDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - wdfrequest.h
 api_name:
 - WDF_REQUEST_REUSE_PARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_REQUEST_REUSE_PARAMS, *PWDF_REQUEST_REUSE_PARAMS
 ---

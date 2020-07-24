@@ -37,8 +37,6 @@ api_location:
 - Ursdevice.h
 api_name:
 - PFN_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - wiautil.h
 api_name:
 - wiauRegOpenData
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - winsmcrd.h
 api_name:
 - IOCTL_SMARTCARD_SET_PROTOCOL
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

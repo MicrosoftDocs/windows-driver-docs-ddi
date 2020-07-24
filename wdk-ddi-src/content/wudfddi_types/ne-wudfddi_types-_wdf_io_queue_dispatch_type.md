@@ -37,8 +37,6 @@ api_location:
 - Wudfddi_types.h
 api_name:
 - WDF_IO_QUEUE_DISPATCH_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_IO_QUEUE_DISPATCH_TYPE
 ---

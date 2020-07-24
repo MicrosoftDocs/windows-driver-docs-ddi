@@ -37,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - AcceptProcessorNotification
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - FILE_ID_GLOBAL_TX_DIR_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: FILE_ID_GLOBAL_TX_DIR_INFORMATION, *PFILE_ID_GLOBAL_TX_DIR_INFORMATION
 ---

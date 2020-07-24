@@ -37,8 +37,6 @@ api_location:
 - wdfrequest.h
 api_name:
 - WDF_REQUEST_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_REQUEST_TYPE
 ---

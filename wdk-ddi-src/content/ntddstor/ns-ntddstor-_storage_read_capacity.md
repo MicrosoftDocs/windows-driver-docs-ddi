@@ -37,8 +37,6 @@ api_location:
 - Ntddstor.h
 api_name:
 - STORAGE_READ_CAPACITY
-product:
-- Windows
 targetos: Windows
 req.typenames: STORAGE_READ_CAPACITY, PSTORAGE_READ_CAPACITY
 ---

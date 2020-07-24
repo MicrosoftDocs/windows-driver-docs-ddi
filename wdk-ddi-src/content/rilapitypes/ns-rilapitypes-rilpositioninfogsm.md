@@ -37,8 +37,6 @@ api_location:
 - rilapitypes.h
 api_name:
 - RILPOSITIONINFOGSM
-product:
-- Windows
 targetos: Windows
 req.typenames: RILPOSITIONINFOGSM, *LPRILPOSITIONINFOGSM
 req.product: Windows 10 or later.

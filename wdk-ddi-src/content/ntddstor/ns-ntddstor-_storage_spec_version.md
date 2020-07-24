@@ -37,8 +37,6 @@ api_location:
 - Ntddstor.h
 api_name:
 - STORAGE_SPEC_VERSION
-product:
-- Windows
 targetos: Windows
 req.typenames: STORAGE_SPEC_VERSION, *PSTORAGE_SPEC_VERSION
 ---

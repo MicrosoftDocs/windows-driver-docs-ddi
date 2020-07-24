@@ -37,8 +37,6 @@ api_location:
 - pointofservicecommontypes.h
 api_name:
 - LineDisplaySizeInPixelsType
-product:
-- Windows
 targetos: Windows
 req.typenames: LineDisplaySizeInPixelsType
 ---

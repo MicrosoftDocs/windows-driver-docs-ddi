@@ -37,8 +37,6 @@ api_location:
 - rxprocs.h
 api_name:
 - RxCompleteRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

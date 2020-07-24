@@ -37,8 +37,6 @@ api_location:
 - PortableDevice.h
 api_name:
 - WPD_VIDEO_SCAN_TYPES
-product:
-- Windows
 targetos: Windows
 req.typenames: WPD_VIDEO_SCAN_TYPES
 ms.custom: RS5

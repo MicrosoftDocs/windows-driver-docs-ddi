@@ -37,8 +37,6 @@ api_location:
 - wiamindr_lh.h
 api_name:
 - WIAS_CHANGED_VALUE_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: WIAS_CHANGED_VALUE_INFO, *PWIAS_CHANGED_VALUE_INFO
 ---

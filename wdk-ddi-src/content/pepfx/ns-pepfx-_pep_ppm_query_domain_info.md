@@ -37,8 +37,6 @@ api_location:
 - Pepfx.h
 api_name:
 - PEP_PPM_QUERY_DOMAIN_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_PPM_QUERY_DOMAIN_INFO, *PPEP_PPM_QUERY_DOMAIN_INFO
 ---

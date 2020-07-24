@@ -38,8 +38,6 @@ api_location:
 - wudfddi_types.h
 api_name:
 - WDF_EVENT_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_EVENT_TYPE
 ---

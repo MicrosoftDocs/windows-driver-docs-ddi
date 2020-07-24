@@ -37,8 +37,6 @@ api_location:
 - usbcamdi.h
 api_name:
 - CamStopCaptureEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

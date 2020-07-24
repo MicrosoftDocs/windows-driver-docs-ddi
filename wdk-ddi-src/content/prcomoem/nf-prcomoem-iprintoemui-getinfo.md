@@ -37,8 +37,6 @@ api_location:
 - Prcomoem.h
 api_name:
 - IPrintOemUI.GetInfo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

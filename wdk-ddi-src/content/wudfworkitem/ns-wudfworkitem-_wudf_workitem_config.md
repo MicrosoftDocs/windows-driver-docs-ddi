@@ -37,8 +37,6 @@ api_location:
 - wudfworkitem.h
 api_name:
 - WUDF_WORKITEM_CONFIG
-product:
-- Windows
 targetos: Windows
 req.typenames: WUDF_WORKITEM_CONFIG, *PWUDF_WORKITEM_CONFIG
 ---

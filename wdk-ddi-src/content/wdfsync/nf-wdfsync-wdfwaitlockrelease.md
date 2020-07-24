@@ -40,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfWaitLockRelease
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

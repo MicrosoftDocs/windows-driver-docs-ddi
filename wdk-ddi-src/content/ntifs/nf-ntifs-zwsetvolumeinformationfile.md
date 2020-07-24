@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ZwSetVolumeInformationFile
 - NtSetInformationFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

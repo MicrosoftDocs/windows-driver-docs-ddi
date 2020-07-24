@@ -37,8 +37,6 @@ api_location:
 - NA
 api_name:
 - PcRemoveStreamResource
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

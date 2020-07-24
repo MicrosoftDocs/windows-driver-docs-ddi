@@ -37,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoStartNextPacketByKey
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

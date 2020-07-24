@@ -37,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeReleaseGuardedMutex
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

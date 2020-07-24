@@ -37,8 +37,6 @@ api_location:
 - wditypes.hpp
 api_name:
 - WDI_CIPHER_KEY_DIRECTION
-product:
-- Windows
 targetos: Windows
 req.typenames: WDI_CIPHER_KEY_DIRECTION
 ---

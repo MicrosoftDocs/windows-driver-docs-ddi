@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - MEMORY_CACHING_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: MEMORY_CACHING_TYPE
 ---

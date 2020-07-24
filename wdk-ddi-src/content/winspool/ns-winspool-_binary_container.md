@@ -37,8 +37,6 @@ api_location:
 - winspool.h
 api_name:
 - BINARY_CONTAINER
-product:
-- Windows
 targetos: Windows
 req.typenames: BINARY_CONTAINER, *PBINARY_CONTAINER
 ---

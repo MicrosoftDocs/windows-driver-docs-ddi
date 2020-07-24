@@ -34,8 +34,6 @@ api_location:
 - trustedruntimeclx.h
 api_name: 
 - TrSecureDeviceLogMessage
-product:
-- Windows
 targetos: Windows
 
 

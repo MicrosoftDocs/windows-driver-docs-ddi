@@ -37,8 +37,6 @@ api_location:
 - sensorscx.h
 api_name:
 - EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

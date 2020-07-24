@@ -30,8 +30,6 @@ api_location:
 - sidebandaudio.h
 api_name: 
 - _SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 tech.root: audio
 ms.custom: RS5

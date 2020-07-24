@@ -40,8 +40,6 @@ api_name:
 - IDebugControl4.GetManagedStatus
 - IDebugControl4.GetManagedStatusWide
 - IDebugControl4.ResetManagedStatus
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

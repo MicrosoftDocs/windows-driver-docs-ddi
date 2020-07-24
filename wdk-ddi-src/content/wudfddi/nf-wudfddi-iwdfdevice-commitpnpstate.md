@@ -37,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFDevice.CommitPnpState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

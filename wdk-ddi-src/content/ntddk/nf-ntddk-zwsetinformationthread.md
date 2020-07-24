@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ZwSetInformationThread
 - NtSetInformationThread
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - WIM_PROVIDER_OVERLAY_ENTRY
-product:
-- Windows
 targetos: Windows
 req.typenames: WIM_PROVIDER_OVERLAY_ENTRY, *PWIM_PROVIDER_OVERLAY_ENTRY
 ---

@@ -37,8 +37,6 @@ api_location:
 - video.h
 api_name:
 - I2CStop
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

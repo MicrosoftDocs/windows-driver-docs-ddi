@@ -37,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - PEP_LOW_POWER_EPOCH
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_LOW_POWER_EPOCH, *PPEP_LOW_POWER_EPOCH
 ---

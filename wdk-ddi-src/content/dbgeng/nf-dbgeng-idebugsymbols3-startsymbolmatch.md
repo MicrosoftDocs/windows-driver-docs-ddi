@@ -39,8 +39,6 @@ api_name:
 - IDebugSymbols.StartSymbolMatch
 - IDebugSymbols2.StartSymbolMatch
 - IDebugSymbols3.StartSymbolMatch
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

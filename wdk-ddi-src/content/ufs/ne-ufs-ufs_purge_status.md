@@ -37,8 +37,6 @@ api_location:
 - Ufs.h
 api_name:
 - UFS_PURGE_STATUS
-product:
-- Windows
 targetos: Windows
 req.typenames: UFS_PURGE_STATUS
 ---

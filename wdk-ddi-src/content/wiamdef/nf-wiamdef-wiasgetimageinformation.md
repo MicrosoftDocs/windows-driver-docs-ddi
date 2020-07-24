@@ -37,8 +37,6 @@ api_location:
 - Wiaservc.dll
 api_name:
 - wiasGetImageInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

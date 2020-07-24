@@ -33,8 +33,6 @@ api_location:
 - wdm.h
 api_name: 
 - D3COLD_REQUEST_CORE_POWER_RAIL
-product:
-- Windows
 targetos: Windows
 ---
 

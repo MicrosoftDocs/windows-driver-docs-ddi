@@ -37,8 +37,6 @@ api_location:
 - wpprecorder.h
 api_name:
 - imp_WppRecorderGetCounterHandle
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

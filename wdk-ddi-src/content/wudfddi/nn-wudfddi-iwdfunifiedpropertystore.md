@@ -37,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFUnifiedPropertyStore
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

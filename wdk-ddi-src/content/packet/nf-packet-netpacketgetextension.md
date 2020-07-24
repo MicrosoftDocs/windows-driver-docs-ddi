@@ -35,8 +35,6 @@ apilocation:
 - NtosKrnl.exe
 apiname: 
 - NetPacketGetExtension
-product:
-- Windows
 targetos: Windows
 
 ---

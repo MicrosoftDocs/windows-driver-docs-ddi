@@ -37,8 +37,6 @@ api_location:
 - Ursdevice.h
 api_name:
 - URS_CONFIG
-product:
-- Windows
 targetos: Windows
 req.typenames: URS_CONFIG, *PURS_CONFIG
 ---

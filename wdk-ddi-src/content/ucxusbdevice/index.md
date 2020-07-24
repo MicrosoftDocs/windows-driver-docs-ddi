@@ -8,8 +8,6 @@ ms.keywords: USB host controller driver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-product:
-- Windows
 tech.root: usbref
 ---
 

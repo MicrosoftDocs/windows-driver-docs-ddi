@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - SID_NAME_USE
-product:
-- Windows
 targetos: Windows
 req.typenames: SID_NAME_USE, *PSID_NAME_USE
 ---

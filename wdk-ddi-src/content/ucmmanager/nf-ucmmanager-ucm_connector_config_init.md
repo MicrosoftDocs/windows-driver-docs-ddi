@@ -37,8 +37,6 @@ api_location:
 - Ucmmanager.h
 api_name:
 - UCM_CONNECTOR_CONFIG_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - WHEA_REVISION
-product:
-- Windows
 targetos: Windows
 req.typenames: WHEA_REVISION, *PWHEA_REVISION
 ---

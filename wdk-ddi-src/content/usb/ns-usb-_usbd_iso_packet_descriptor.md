@@ -37,8 +37,6 @@ api_location:
 - usb.h
 api_name:
 - USBD_ISO_PACKET_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: USBD_ISO_PACKET_DESCRIPTOR, *PUSBD_ISO_PACKET_DESCRIPTOR
 ---

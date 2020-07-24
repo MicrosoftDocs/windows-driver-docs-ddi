@@ -33,8 +33,6 @@ api_location:
 - ntddstor.h
 api_name: 
 - _NVME_RESERVED_CQ_INFO
-product:
-- Windows
 targetos: Windows
 ---
 

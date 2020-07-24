@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IPrintSchemaPageMediaSizeOption.WidthInMicrons
 - IPrintSchemaPageMediaSizeOption.get_WidthInMicrons
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlSecondsSince1970ToTime
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

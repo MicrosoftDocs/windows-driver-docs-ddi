@@ -37,8 +37,6 @@ api_location:
 - sddef.h
 api_name:
 - SD_COMMAND_CLASS
-product:
-- Windows
 targetos: Windows
 req.typenames: SD_COMMAND_CLASS
 ---

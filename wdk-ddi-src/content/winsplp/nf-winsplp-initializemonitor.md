@@ -37,8 +37,6 @@ api_location:
 - winsplp.h
 api_name:
 - InitializeMonitor
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

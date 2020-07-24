@@ -37,8 +37,6 @@ api_location:
 - DbgEng.h
 api_name:
 - SYMBOL_INFO_EX
-product:
-- Windows
 targetos: Windows
 req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---

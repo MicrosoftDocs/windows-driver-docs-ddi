@@ -35,8 +35,6 @@ api_location:
 - UcmUcsiCxStub.lib
 api_name: 
 - UcmUcsiConnectorCollectionAddConnector
-product:
-- Windows
 targetos: Windows
 
 

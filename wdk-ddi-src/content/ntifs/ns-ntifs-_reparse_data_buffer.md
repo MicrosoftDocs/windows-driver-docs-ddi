@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - REPARSE_DATA_BUFFER
-product:
-- Windows
 targetos: Windows
 req.typenames: REPARSE_DATA_BUFFER, *PREPARSE_DATA_BUFFER
 ---

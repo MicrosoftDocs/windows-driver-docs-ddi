@@ -37,8 +37,6 @@ api_location:
 - Prnasntp.h
 api_name:
 - IBidiAsyncNotifyChannel.GetPrintName
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

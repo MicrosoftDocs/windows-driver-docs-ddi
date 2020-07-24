@@ -37,8 +37,6 @@ api_location:
 - 2.0\Sercx.h
 api_name:
 - SERCX2_TRANSACTION_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: SERCX2_TRANSACTION_TYPE
 ---

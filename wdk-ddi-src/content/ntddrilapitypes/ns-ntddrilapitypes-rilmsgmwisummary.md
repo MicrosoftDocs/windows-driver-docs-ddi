@@ -37,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILMSGMWISUMMARY
-product:
-- Windows
 targetos: Windows
 req.typenames: RILMSGMWISUMMARY, *LPRILMSGMWISUMMARY
 ---

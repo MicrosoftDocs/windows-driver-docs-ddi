@@ -37,8 +37,6 @@ api_location:
 - winbio_ioctl.h
 api_name:
 - WINBIO_CALIBRATION_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: WINBIO_CALIBRATION_INFO, *PWINBIO_CALIBRATION_INFO
 ---

@@ -37,8 +37,6 @@ api_location:
 - scsi.h
 api_name:
 - BLOCK_DEVICE_RANGE_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: BLOCK_DEVICE_RANGE_DESCRIPTOR, *PBLOCK_DEVICE_RANGE_DESCRIPTOR
 ---

@@ -37,8 +37,6 @@ api_location:
 - video.h
 api_name:
 - VIDEO_PORT_DEBUG_REPORT_INTERFACE
-product:
-- Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_DEBUG_REPORT_INTERFACE, *PVIDEO_PORT_DEBUG_REPORT_INTERFACE
 ---

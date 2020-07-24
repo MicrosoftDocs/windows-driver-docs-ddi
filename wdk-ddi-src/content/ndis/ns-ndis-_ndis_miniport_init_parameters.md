@@ -37,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NDIS_MINIPORT_INIT_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_MINIPORT_INIT_PARAMETERS, *PNDIS_MINIPORT_INIT_PARAMETERS
 ---

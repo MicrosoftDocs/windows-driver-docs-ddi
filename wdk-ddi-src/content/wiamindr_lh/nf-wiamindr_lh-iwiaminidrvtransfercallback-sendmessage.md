@@ -37,8 +37,6 @@ api_location:
 - Wiamindr_lh.h
 api_name:
 - IWiaMiniDrvTransferCallback.SendMessage
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

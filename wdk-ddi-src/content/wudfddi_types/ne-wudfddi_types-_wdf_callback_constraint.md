@@ -37,8 +37,6 @@ api_location:
 - wudfddi_types.h
 api_name:
 - WDF_CALLBACK_CONSTRAINT
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_CALLBACK_CONSTRAINT
 ---

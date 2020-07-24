@@ -34,8 +34,6 @@ api_location:
 - systemrng.h
 api_name: 
 - EntropyRegisterCallback
-product:
-- Windows
 targetos: Windows
 
 

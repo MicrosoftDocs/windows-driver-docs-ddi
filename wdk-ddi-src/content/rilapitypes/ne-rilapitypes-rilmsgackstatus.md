@@ -37,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILMSGACKSTATUS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILMSGACKSTATUS
 ---

@@ -34,8 +34,6 @@ api_location:
 - vmbuskernelmodeclientlibapi.h
 api_name: 
 - FN_VMB_CHANNEL_INIT_SET_STATE_CHANGE_CALLBACKS
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

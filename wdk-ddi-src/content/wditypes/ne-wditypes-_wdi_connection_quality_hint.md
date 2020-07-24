@@ -37,8 +37,6 @@ api_location:
 - wditypes.hpp
 api_name:
 - WDI_CONNECTION_QUALITY_HINT
-product:
-- Windows
 targetos: Windows
 req.typenames: WDI_CONNECTION_QUALITY_HINT
 ---

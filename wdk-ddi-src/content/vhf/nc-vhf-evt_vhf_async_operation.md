@@ -37,8 +37,6 @@ api_location:
 - vhf.h
 api_name:
 - EvtVhfAsyncOperation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

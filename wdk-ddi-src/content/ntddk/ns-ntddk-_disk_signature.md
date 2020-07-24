@@ -37,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - DISK_SIGNATURE
-product:
-- Windows
 targetos: Windows
 req.typenames: DISK_SIGNATURE, *PDISK_SIGNATURE
 ---

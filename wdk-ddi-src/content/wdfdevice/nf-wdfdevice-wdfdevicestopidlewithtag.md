@@ -39,8 +39,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfDeviceStopIdleWithTag
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

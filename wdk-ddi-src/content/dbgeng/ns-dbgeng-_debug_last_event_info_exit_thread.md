@@ -37,8 +37,6 @@ api_location:
 - DbgEng.h
 api_name:
 - DEBUG_LAST_EVENT_INFO_EXIT_THREAD
-product:
-- Windows
 targetos: Windows
 req.typenames: DEBUG_LAST_EVENT_INFO_EXIT_THREAD, *PDEBUG_LAST_EVENT_INFO_EXIT_THREAD
 ---

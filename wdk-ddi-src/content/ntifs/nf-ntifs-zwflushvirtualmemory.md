@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ZwFlushVirtualMemory
 - NtFlushVirtualMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

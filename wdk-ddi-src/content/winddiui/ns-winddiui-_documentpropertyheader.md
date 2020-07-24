@@ -37,8 +37,6 @@ api_location:
 - winddiui.h
 api_name:
 - DOCUMENTPROPERTYHEADER
-product:
-- Windows
 targetos: Windows
 req.typenames: DOCUMENTPROPERTYHEADER, *PDOCUMENTPROPERTYHEADER
 ---

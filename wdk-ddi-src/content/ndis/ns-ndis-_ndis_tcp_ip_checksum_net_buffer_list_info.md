@@ -37,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO, *PNDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO
 ---

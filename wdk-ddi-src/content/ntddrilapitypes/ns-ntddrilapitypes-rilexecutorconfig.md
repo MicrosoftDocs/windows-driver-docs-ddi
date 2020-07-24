@@ -37,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILEXECUTORCONFIG
-product:
-- Windows
 targetos: Windows
 req.typenames: RILEXECUTORCONFIG, *LPRILEXECUTORCONFIG
 ---

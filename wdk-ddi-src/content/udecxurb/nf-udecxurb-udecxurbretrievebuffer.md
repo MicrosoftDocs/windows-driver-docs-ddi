@@ -38,8 +38,6 @@ api_location:
 - Udecxstub.dll
 api_name:
 - UdecxUrbRetrieveBuffer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

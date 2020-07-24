@@ -37,8 +37,6 @@ api_location:
 - wdfdevice.h
 api_name:
 - WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

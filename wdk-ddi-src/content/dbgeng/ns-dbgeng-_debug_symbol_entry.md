@@ -37,8 +37,6 @@ api_location:
 - DbgEng.h
 api_name:
 - DEBUG_SYMBOL_ENTRY
-product:
-- Windows
 targetos: Windows
 req.typenames: DEBUG_SYMBOL_ENTRY, *PDEBUG_SYMBOL_ENTRY
 ---

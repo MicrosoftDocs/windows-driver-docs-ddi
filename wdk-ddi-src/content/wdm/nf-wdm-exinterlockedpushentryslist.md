@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ExInterlockedPushEntrySList
 - ExpInterlockedPushEntrySList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

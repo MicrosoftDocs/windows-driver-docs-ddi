@@ -37,8 +37,6 @@ api_location:
 - rilapitypes.h
 api_name:
 - RILNETWORKCODE
-product:
-- Windows
 targetos: Windows
 req.typenames: RILNETWORKCODE, *LPRILNETWORKCODE
 req.product: Windows 10 or later.

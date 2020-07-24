@@ -37,8 +37,6 @@ api_location:
 - storport.h
 api_name:
 - STORPORT_TELEMETRY_EVENT
-product:
-- Windows
 targetos: Windows
 req.typenames: STORPORT_TELEMETRY_EVENT, *PSTORPORT_TELEMETRY_EVENT
 ---

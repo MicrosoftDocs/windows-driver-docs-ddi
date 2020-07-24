@@ -37,8 +37,6 @@ api_location:
 - storport.h
 api_name:
 - VIRTUAL_HW_INITIALIZATION_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: VIRTUAL_HW_INITIALIZATION_DATA, *PVIRTUAL_HW_INITIALIZATION_DATA
 ---

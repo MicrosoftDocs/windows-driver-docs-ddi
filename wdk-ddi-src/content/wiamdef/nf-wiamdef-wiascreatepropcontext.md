@@ -37,8 +37,6 @@ api_location:
 - Wiaservc.dll
 api_name:
 - wiasCreatePropContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

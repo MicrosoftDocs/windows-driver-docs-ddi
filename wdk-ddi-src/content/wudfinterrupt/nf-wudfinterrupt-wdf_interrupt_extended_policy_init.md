@@ -37,8 +37,6 @@ api_location:
 - Wudfinterrupt.h
 api_name:
 - WDF_INTERRUPT_EXTENDED_POLICY_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

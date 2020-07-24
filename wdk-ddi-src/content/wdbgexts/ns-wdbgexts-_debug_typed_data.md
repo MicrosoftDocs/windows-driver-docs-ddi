@@ -37,8 +37,6 @@ api_location:
 - WdbgExts.h
 api_name:
 - DEBUG_TYPED_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: DEBUG_TYPED_DATA, *PDEBUG_TYPED_DATA
 ---

@@ -35,8 +35,6 @@ apilocation:
 - NtosKrnl.exe
 apiname: 
 - NetPacketIsIpv6
-product:
-- Windows
 targetos: Windows
 
 ---

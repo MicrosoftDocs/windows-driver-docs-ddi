@@ -30,8 +30,6 @@ api_location:
  - ntddvdeo.h
 api_name: 
  - OUTPUT_COLOR_ENCODING
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

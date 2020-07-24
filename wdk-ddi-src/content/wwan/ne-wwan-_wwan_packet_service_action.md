@@ -37,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_PACKET_SERVICE_ACTION
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_PACKET_SERVICE_ACTION, *PWWAN_PACKET_SERVICE_ACTION
 ---

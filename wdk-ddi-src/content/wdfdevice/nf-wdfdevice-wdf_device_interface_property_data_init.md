@@ -37,8 +37,6 @@ api_location:
 - wdfdevice.h
 api_name:
 - WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

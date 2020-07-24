@@ -33,8 +33,6 @@ api_location:
  - ntddvdeo.h
 api_name: 
  - COLORSPACE_TRANSFORM_1DLUT_CAP
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

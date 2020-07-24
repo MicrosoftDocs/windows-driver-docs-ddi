@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - FILE_LEVEL_TRIM
-product:
-- Windows
 targetos: Windows
 req.typenames: FILE_LEVEL_TRIM, *PFILE_LEVEL_TRIM
 ---

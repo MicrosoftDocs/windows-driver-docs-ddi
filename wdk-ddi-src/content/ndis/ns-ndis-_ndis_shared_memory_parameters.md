@@ -37,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NDIS_SHARED_MEMORY_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_PARAMETERS, *PNDIS_SHARED_MEMORY_PARAMETERS
 ---

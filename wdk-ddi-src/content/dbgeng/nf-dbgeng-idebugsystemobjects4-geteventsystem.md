@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IDebugSystemObjects3.GetEventSystem
 - IDebugSystemObjects4.GetEventSystem
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

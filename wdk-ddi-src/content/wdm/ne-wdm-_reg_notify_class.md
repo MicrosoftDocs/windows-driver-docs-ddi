@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - REG_NOTIFY_CLASS
-product:
-- Windows
 targetos: Windows
 req.typenames: REG_NOTIFY_CLASS
 ---

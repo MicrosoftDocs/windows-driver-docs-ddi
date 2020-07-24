@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ZwQueryQuotaInformationFile
 - NtQueryQuotaInformationFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

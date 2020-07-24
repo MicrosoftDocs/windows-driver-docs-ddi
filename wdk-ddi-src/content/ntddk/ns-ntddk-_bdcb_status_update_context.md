@@ -37,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - BDCB_STATUS_UPDATE_CONTEXT
-product:
-- Windows
 targetos: Windows
 req.typenames: BDCB_STATUS_UPDATE_CONTEXT, *PBDCB_STATUS_UPDATE_CONTEXT
 ---

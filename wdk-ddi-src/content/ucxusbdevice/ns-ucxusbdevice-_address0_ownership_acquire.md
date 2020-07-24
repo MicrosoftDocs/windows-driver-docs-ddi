@@ -37,8 +37,6 @@ api_location:
 - ucxusbdevice.h
 api_name:
 - ADDRESS0_OWNERSHIP_ACQUIRE
-product:
-- Windows
 targetos: Windows
 req.typenames: ADDRESS0_OWNERSHIP_ACQUIRE, *PADDRESS0_OWNERSHIP_ACQUIRE
 ---

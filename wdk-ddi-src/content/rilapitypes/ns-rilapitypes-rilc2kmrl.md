@@ -37,8 +37,6 @@ api_location:
 - rilapitypes.h
 api_name:
 - RILC2KMRL
-product:
-- Windows
 targetos: Windows
 req.typenames: RILC2KMRL, *LPRILC2KMRL
 req.product: Windows 10 or later.

@@ -37,8 +37,6 @@ api_location:
 - wmidata.h
 api_name:
 - WMI_CHANGER_PROBLEM_DEVICE_ERROR
-product:
-- Windows
 targetos: Windows
 req.typenames: WMI_CHANGER_PROBLEM_DEVICE_ERROR, *PWMI_CHANGER_PROBLEM_DEVICE_ERROR
 req.product: Windows 10 or later.

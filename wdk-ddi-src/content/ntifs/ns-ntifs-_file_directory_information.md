@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - FILE_DIRECTORY_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: FILE_DIRECTORY_INFORMATION, *PFILE_DIRECTORY_INFORMATION
 ---

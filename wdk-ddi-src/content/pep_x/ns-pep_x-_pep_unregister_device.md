@@ -37,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - PEP_UNREGISTER_DEVICE
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_UNREGISTER_DEVICE, *PPEP_UNREGISTER_DEVICE
 ---

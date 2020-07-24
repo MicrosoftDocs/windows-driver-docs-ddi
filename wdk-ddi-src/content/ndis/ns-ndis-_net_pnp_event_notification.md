@@ -37,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NET_PNP_EVENT_NOTIFICATION
-product:
-- Windows
 targetos: Windows
 req.typenames: NET_PNP_EVENT_NOTIFICATION, *PNET_PNP_EVENT_NOTIFICATION
 ---

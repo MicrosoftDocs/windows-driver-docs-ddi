@@ -37,8 +37,6 @@ api_location:
 - Smclib.h
 api_name:
 - T1_DATA, *PT1_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: T1_DATA, *PT1_DATA
 ---

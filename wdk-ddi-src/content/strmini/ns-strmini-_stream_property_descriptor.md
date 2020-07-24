@@ -37,8 +37,6 @@ api_location:
 - strmini.h
 api_name:
 - STREAM_PROPERTY_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: STREAM_PROPERTY_DESCRIPTOR, *PSTREAM_PROPERTY_DESCRIPTOR
 ---

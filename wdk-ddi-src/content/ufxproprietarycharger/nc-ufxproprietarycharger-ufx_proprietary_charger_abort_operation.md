@@ -37,8 +37,6 @@ api_location:
 - ufxproprietarycharger.h
 api_name:
 - PFN_UFX_PROPRIETARY_CHARGER_ABORT_OPERATION
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

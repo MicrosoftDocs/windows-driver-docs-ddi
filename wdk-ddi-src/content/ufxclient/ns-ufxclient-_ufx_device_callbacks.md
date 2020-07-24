@@ -37,8 +37,6 @@ api_location:
 - ufxclient.h
 api_name:
 - UFX_DEVICE_CALLBACKS
-product:
-- Windows
 targetos: Windows
 req.typenames: UFX_DEVICE_CALLBACKS, *PUFX_DEVICE_CALLBACKS
 ---

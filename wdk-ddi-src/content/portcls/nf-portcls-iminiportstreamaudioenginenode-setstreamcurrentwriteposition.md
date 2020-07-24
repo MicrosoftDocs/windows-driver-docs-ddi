@@ -37,8 +37,6 @@ api_location:
 - Portcls.h
 api_name:
 - IMiniportStreamAudioEngineNode.SetStreamCurrentWritePosition
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

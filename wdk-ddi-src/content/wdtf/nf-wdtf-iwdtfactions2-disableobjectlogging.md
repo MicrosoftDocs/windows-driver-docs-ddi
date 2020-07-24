@@ -37,8 +37,6 @@ api_location:
 - wdtf.h
 api_name:
 - IWDTFActions2.DisableObjectLogging
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

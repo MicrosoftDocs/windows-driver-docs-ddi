@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IWDTFDriverPackageAction2.IsImported
 - IWDTFDriverPackageAction2.get_IsImported
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - winbio_types.h
 api_name:
 - WINBIO_BIR_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: WINBIO_BIR_DATA
 ---

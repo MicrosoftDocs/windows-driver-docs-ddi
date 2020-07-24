@@ -40,8 +40,6 @@ api_name:
 - IDebugSystemObjects2.GetProcessIdsByIndex
 - IDebugSystemObjects3.GetProcessIdsByIndex
 - IDebugSystemObjects4.GetProcessIdsByIndex
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

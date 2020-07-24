@@ -37,8 +37,6 @@ api_location:
 - wudfddi.h
 api_name:
 - IQueueCallbackRead
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

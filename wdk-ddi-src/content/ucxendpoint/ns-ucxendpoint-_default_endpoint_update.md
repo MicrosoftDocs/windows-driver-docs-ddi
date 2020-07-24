@@ -37,8 +37,6 @@ api_location:
 - ucxendpoint.h
 api_name:
 - DEFAULT_ENDPOINT_UPDATE
-product:
-- Windows
 targetos: Windows
 req.typenames: DEFAULT_ENDPOINT_UPDATE, *PDEFAULT_ENDPOINT_UPDATE
 ---

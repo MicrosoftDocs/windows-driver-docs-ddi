@@ -35,8 +35,6 @@ api_location:
 - ndis.h
 api_name: 
 - NDIS_SWITCH_PORT_DESTINATION_AT_ARRAY_INDEX
-product:
-- Windows
 targetos: Windows
 
 ---

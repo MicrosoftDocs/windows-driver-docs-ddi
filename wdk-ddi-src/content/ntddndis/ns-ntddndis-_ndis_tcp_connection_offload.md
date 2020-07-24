@@ -37,8 +37,6 @@ api_location:
 - ntddndis.h
 api_name:
 - NDIS_TCP_CONNECTION_OFFLOAD
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_TCP_CONNECTION_OFFLOAD, *PNDIS_TCP_CONNECTION_OFFLOAD
 ---

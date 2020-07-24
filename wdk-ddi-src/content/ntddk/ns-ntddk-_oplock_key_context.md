@@ -37,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - OPLOCK_KEY_CONTEXT
-product:
-- Windows
 targetos: Windows
 req.typenames: OPLOCK_KEY_CONTEXT, *POPLOCK_KEY_CONTEXT
 ---

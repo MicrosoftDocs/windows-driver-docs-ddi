@@ -34,8 +34,6 @@ api_location:
 - sidebandaudio.h
 api_name: 
 - SIDEBANDAUDIO_IOCTL
-product:
-- Windows
 targetos: Windows
 tech.root: audio
 ms.custom: RS5

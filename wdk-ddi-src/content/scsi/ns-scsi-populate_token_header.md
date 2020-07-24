@@ -37,8 +37,6 @@ api_location:
 - scsi.h
 api_name:
 - POPULATE_TOKEN_HEADER
-product:
-- Windows
 targetos: Windows
 req.typenames: POPULATE_TOKEN_HEADER, *PPOPULATE_TOKEN_HEADER
 ---

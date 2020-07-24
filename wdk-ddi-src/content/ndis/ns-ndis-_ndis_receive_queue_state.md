@@ -37,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - NDIS_RECEIVE_QUEUE_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_RECEIVE_QUEUE_STATE, *PNDIS_RECEIVE_QUEUE_STATE
 ---

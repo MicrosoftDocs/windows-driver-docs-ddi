@@ -37,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - WHEA_MEMORY_ERROR_SECTION
-product:
-- Windows
 targetos: Windows
 req.typenames: WHEA_MEMORY_ERROR_SECTION, *PWHEA_MEMORY_ERROR_SECTION
 ---

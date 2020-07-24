@@ -37,8 +37,6 @@ api_location:
 - ufxclient.h
 api_name:
 - UfxDeviceNotifyReset
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

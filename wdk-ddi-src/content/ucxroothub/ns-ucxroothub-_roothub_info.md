@@ -37,8 +37,6 @@ api_location:
 - ucxroothub.h
 api_name:
 - ROOTHUB_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: ROOTHUB_INFO, *PROOTHUB_INFO
 ---

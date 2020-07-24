@@ -37,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILACCESSTECHNOLOGYPARAMMASK
-product:
-- Windows
 targetos: Windows
 req.typenames: RILACCESSTECHNOLOGYPARAMMASK
 ---

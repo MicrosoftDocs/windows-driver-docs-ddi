@@ -37,8 +37,6 @@ api_location:
 - usbcamdi.h
 api_name:
 - CamAllocateBandwidth
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

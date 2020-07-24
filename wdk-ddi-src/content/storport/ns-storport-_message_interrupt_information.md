@@ -37,8 +37,6 @@ api_location:
 - storport.h
 api_name:
 - MESSAGE_INTERRUPT_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: MESSAGE_INTERRUPT_INFORMATION, *PMESSAGE_INTERRUPT_INFORMATION
 ---

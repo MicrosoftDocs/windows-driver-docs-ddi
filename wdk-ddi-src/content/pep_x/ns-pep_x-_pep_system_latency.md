@@ -37,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - PEP_SYSTEM_LATENCY
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_SYSTEM_LATENCY, *PPEP_SYSTEM_LATENCY
 ---

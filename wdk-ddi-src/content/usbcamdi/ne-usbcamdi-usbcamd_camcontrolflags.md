@@ -27,8 +27,6 @@ api_location:
 - usbcamdi.h
 api_name: 
 - USBCAMD_CamControlFlags
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

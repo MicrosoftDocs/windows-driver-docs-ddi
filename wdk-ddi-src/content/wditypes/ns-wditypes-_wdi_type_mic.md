@@ -37,8 +37,6 @@ api_location:
 - wditypes.hpp
 api_name:
 - WDI_TYPE_MIC
-product:
-- Windows
 targetos: Windows
 req.typenames: WDI_TYPE_MIC, *PWDI_TYPE_MIC
 ---

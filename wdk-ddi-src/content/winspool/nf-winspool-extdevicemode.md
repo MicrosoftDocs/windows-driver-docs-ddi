@@ -37,8 +37,6 @@ api_location:
 - WinSpool.drv
 api_name:
 - ExtDeviceMode
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,8 +38,6 @@ api_location:
 - ntoskrnl.dll
 api_name:
 - ExQueryTimerResolution
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

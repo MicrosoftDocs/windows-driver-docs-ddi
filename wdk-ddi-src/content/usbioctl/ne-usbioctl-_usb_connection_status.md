@@ -37,8 +37,6 @@ api_location:
 - usbioctl.h
 api_name:
 - USB_CONNECTION_STATUS
-product:
-- Windows
 targetos: Windows
 req.typenames: USB_CONNECTION_STATUS, *PUSB_CONNECTION_STATUS
 ---

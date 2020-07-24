@@ -37,8 +37,6 @@ api_location:
 - ufxproprietarycharger.h
 api_name:
 - UFX_INTERFACE_PROPRIETARY_CHARGER
-product:
-- Windows
 targetos: Windows
 req.typenames: UFX_INTERFACE_PROPRIETARY_CHARGER, *PUFX_INTERFACE_PROPRIETARY_CHARGER
 ---

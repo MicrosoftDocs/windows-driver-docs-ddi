@@ -37,8 +37,6 @@ api_location:
 - winsplp.h
 api_name:
 - MONITORINIT
-product:
-- Windows
 targetos: Windows
 req.typenames: MONITORINIT, *PMONITORINIT
 ---

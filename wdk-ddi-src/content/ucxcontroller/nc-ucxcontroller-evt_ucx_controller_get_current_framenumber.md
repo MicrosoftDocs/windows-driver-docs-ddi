@@ -37,8 +37,6 @@ api_location:
 - Ucxcontroller.h
 api_name:
 - PEVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

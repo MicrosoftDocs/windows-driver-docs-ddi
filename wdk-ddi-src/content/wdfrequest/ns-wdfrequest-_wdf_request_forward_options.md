@@ -37,8 +37,6 @@ api_location:
 - wdfrequest.h
 api_name:
 - WDF_REQUEST_FORWARD_OPTIONS
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_REQUEST_FORWARD_OPTIONS, *PWDF_REQUEST_FORWARD_OPTIONS
 ---

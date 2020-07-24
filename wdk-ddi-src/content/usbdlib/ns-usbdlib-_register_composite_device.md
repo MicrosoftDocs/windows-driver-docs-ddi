@@ -37,8 +37,6 @@ api_location:
 - usbdlib.h
 api_name:
 - REGISTER_COMPOSITE_DEVICE
-product:
-- Windows
 targetos: Windows
 req.typenames: REGISTER_COMPOSITE_DEVICE, *PREGISTER_COMPOSITE_DEVICE
 ---

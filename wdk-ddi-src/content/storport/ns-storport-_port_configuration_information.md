@@ -36,8 +36,6 @@ api_location:
 - srb.h
 api_name:
 - PORT_CONFIGURATION_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: PORT_CONFIGURATION_INFORMATION, *PPORT_CONFIGURATION_INFORMATION
 ---

@@ -37,8 +37,6 @@ api_location:
 - Winsplp.h
 api_name:
 - pfnOpenPort
-product:
-- Windows
 targetos: Windows
 req.typenames: NOTIFICATION_CONFIG_FLAGS
 req.product: Windows 10 or later.

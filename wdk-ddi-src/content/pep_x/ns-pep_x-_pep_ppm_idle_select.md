@@ -37,8 +37,6 @@ api_location:
 - pep_x.h
 api_name:
 - PEP_PPM_IDLE_SELECT
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_PPM_IDLE_SELECT, *PPEP_PPM_IDLE_SELECT
 ---

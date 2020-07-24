@@ -37,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IServiceSink
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

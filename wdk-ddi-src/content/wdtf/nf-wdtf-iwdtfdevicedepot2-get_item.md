@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IWDTFDeviceDepot2.Item
 - IWDTFDeviceDepot2.get_Item
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

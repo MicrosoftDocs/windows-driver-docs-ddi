@@ -37,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILADDITIONALNUMBERSTRINGUPDATE
-product:
-- Windows
 targetos: Windows
 req.typenames: RILADDITIONALNUMBERSTRINGUPDATE, *LPRILADDITIONALNUMBERSTRINGUPDATE
 ---

@@ -37,8 +37,6 @@ api_location:
 - smclib.h
 api_name:
 - SCARD_CARD_CAPABILITIES
-product:
-- Windows
 targetos: Windows
 req.typenames: SCARD_CARD_CAPABILITIES, *PSCARD_CARD_CAPABILITIES
 ---

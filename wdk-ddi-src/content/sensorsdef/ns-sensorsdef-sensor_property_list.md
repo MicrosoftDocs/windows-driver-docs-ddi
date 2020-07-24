@@ -37,8 +37,6 @@ api_location:
 - Sensorsdef.h
 api_name:
 - SENSOR_PROPERTY_LIST
-product:
-- Windows
 targetos: Windows
 req.typenames: SENSOR_PROPERTY_LIST, *PSENSOR_PROPERTY_LIST
 ---

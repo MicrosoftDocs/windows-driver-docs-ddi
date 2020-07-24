@@ -37,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - TransitionCriticalResource
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

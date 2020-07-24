@@ -38,8 +38,6 @@ api_location:
 - vhfKm.dll
 api_name:
 - VHF_CONFIG_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

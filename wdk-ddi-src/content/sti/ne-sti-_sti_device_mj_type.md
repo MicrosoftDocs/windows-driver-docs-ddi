@@ -37,8 +37,6 @@ api_location:
 - Sti.h
 api_name:
 - STI_DEVICE_MJ_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: STI_DEVICE_MJ_TYPE
 ---

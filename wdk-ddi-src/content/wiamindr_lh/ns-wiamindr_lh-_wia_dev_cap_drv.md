@@ -37,8 +37,6 @@ api_location:
 - wiamindr_lh.h
 api_name:
 - WIA_DEV_CAP_DRV
-product:
-- Windows
 targetos: Windows
 req.typenames: WIA_DEV_CAP_DRV, *PWIA_DEV_CAP_DRV
 ---

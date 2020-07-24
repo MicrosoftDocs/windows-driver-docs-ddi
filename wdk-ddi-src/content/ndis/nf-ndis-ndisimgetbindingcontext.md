@@ -38,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisIMGetBindingContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

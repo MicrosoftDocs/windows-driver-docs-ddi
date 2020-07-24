@@ -37,8 +37,6 @@ api_location:
 - swenum.h
 api_name:
 - KsQuerySoftwareBusInterface
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

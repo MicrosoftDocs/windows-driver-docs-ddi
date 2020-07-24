@@ -27,8 +27,6 @@ api_location:
 - usbioctl.h
 api_name: 
 - _USB_NOTIFICATION_TYPE
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

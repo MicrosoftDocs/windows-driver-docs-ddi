@@ -37,8 +37,6 @@ api_location:
 - wiautil.h
 api_name:
 - SKIP_AMOUNT
-product:
-- Windows
 targetos: Windows
 req.typenames: SKIP_AMOUNT
 ---

@@ -37,8 +37,6 @@ api_location:
 - Dbgeng.h
 api_name:
 - INLINE_FRAME_CONTEXT
-product:
-- Windows
 targetos: Windows
 req.typenames: INLINE_FRAME_CONTEXT
 ---

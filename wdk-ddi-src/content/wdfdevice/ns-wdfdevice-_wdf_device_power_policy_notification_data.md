@@ -37,8 +37,6 @@ api_location:
 - wdfdevice.h
 api_name:
 - WDF_DEVICE_POWER_POLICY_NOTIFICATION_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_DEVICE_POWER_POLICY_NOTIFICATION_DATA
 ---

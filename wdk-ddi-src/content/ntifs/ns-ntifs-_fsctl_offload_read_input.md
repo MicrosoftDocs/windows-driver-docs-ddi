@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - FSCTL_OFFLOAD_READ_INPUT
-product:
-- Windows
 targetos: Windows
 req.typenames: FSCTL_OFFLOAD_READ_INPUT, *PFSCTL_OFFLOAD_READ_INPUT
 ---

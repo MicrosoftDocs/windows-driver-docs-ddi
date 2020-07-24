@@ -37,8 +37,6 @@ api_location:
 - PortableDevice.h
 api_name:
 - WPD_OPERATION_STATES
-product:
-- Windows
 targetos: Windows
 req.typenames: WPD_OPERATION_STATES
 ms.custom: RS5

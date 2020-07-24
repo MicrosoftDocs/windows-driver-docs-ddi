@@ -37,8 +37,6 @@ api_location:
 - usbscan.h
 api_name:
 - RAW_PIPE_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: RAW_PIPE_TYPE
 ---

@@ -37,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - PCAUTOMATION_TABLE
-product:
-- Windows
 targetos: Windows
 req.typenames: PCAUTOMATION_TABLE, *PPCAUTOMATION_TABLE
 ---

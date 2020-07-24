@@ -34,8 +34,6 @@ api_location:
 - systemrng.h
 api_name: 
 - EntropyPoolTriggerReseedForIum
-product:
-- Windows
 targetos: Windows
 
 

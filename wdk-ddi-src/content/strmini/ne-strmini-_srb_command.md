@@ -37,8 +37,6 @@ api_location:
 - Strmini.h
 api_name:
 - SRB_COMMAND
-product:
-- Windows
 targetos: Windows
 req.typenames: SRB_COMMAND
 ---

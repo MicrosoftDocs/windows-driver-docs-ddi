@@ -37,8 +37,6 @@ api_location:
 - Ntddvdeo.h
 api_name:
 - IOCTL_VIDEO_QUERY_COLOR_CAPABILITIES
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - printoem.h
 api_name:
 - PDEV_ADJUST_IMAGEABLE_ORIGIN_AREA
-product:
-- Windows
 targetos: Windows
 req.typenames: PDEV_ADJUST_IMAGEABLE_ORIGIN_AREA, *PPDEV_ADJUST_IMAGEABLE_ORIGIN_AREA
 ---

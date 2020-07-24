@@ -37,8 +37,6 @@ api_location:
 - pcivirt.h
 api_name:
 - PSRIOV_GET_RESOURCE_FOR_BAR
-product:
-- Windows
 targetos: Windows
 req.typenames: PARCLASS_INFORMATION, *PPARCLASS_INFORMATION
 ---

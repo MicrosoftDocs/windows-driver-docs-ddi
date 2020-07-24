@@ -35,8 +35,6 @@ api_location:
 - ndis.h
 api_name: 
 - NdisSetNblFlag
-product:
-- Windows
 targetos: Windows
 
 ---

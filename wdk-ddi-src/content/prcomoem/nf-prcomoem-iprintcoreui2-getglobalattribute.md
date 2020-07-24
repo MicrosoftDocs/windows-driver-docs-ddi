@@ -37,8 +37,6 @@ api_location:
 - prcomoem.h
 api_name:
 - IPrintCoreUI2.GetGlobalAttribute
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

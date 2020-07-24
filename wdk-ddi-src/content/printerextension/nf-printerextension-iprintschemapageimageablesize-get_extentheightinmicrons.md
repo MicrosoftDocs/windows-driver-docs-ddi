@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IPrintSchemaPageImageableSize.ExtentHeightInMicrons
 - IPrintSchemaPageImageableSize.get_ExtentHeightInMicrons
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,8 +38,6 @@ api_location:
 - Storport.dll
 api_name:
 - StorPortWritePortUchar
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

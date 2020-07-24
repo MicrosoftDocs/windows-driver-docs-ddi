@@ -37,8 +37,6 @@ api_location:
 - 1.0\Sercx.h
 api_name:
 - SERCX_STATUS
-product:
-- Windows
 targetos: Windows
 req.typenames: SERCX_STATUS, *PSERCX_STATUS
 ---

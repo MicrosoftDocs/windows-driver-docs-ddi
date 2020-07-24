@@ -28,8 +28,6 @@ api_location:
 - ntifs.h
 api_name: 
 - _OPLOCK_NOTIFY_REASON
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

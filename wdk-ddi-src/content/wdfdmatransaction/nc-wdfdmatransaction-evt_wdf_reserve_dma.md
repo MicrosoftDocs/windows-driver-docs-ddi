@@ -37,8 +37,6 @@ api_location:
 - WdfDmaTransaction.h
 api_name:
 - EvtReserveDma
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - Wpprecorder.h
 api_name:
 - imp_WppRecorderConfigure
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

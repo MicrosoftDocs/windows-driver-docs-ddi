@@ -37,8 +37,6 @@ api_location:
 - wdfusb.h
 api_name:
 - WDF_USB_CONTROL_SETUP_PACKET_INIT_CLASS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

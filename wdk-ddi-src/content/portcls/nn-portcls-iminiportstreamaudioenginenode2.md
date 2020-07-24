@@ -37,8 +37,6 @@ api_location:
 - Portcls.h
 api_name:
 - IMiniportStreamAudioEngineNode2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IDebugSystemObjects3.GetNumberSystems
 - IDebugSystemObjects4.GetNumberSystems
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

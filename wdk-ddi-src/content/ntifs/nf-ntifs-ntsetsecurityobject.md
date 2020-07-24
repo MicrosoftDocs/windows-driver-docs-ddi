@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ZwSetSecurityObject
 - NtSetSecurityObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

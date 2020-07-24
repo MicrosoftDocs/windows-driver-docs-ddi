@@ -31,8 +31,6 @@ api_location:
 - wwan.h
 api_name: 
 - _WWAN_SET_SAR_CONFIG
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

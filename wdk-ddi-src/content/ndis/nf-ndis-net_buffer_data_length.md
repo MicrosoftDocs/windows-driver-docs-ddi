@@ -35,8 +35,6 @@ api_location:
 - ndis.h
 api_name: 
 - NET_BUFFER_DATA_LENGTH
-product:
-- Windows
 targetos: Windows
 
 ---

@@ -38,8 +38,6 @@ api_location:
 - Storport.dll
 api_name:
 - StorPortResume
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

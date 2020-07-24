@@ -30,8 +30,6 @@ api_location:
 - winddiui.h
 api_name: 
 - _PRINTPROCESSOR_CAPS_1
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

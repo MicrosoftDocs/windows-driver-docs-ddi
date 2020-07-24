@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - DEVICE_REMOVAL_POLICY
-product:
-- Windows
 targetos: Windows
 req.typenames: DEVICE_REMOVAL_POLICY, *PDEVICE_REMOVAL_POLICY
 ---

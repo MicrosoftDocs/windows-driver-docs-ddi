@@ -34,8 +34,6 @@ api_location:
 - uart.h
 api_name:
 - UART_PUT_BYTE
-product:
-- Windows
 targetos: Windows
 ---
 

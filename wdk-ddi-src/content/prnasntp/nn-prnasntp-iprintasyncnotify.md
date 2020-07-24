@@ -37,8 +37,6 @@ api_location:
 - Prnasntp.h
 api_name:
 - IPrintAsyncNotify
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

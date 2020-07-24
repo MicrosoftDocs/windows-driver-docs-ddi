@@ -37,8 +37,6 @@ api_location:
 - rxce.h
 api_name:
 - RxCeBuildConnectionOverMultipleTransports
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

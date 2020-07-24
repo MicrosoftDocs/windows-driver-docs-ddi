@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ZwQueryObject
 - NtQueryObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

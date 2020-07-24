@@ -37,8 +37,6 @@ api_location:
 - video.h
 api_name:
 - SvgaHwIoPortUchar
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

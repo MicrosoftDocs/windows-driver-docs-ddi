@@ -37,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - MmGetMaximumFileSectionSize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

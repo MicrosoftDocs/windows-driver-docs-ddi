@@ -37,8 +37,6 @@ api_location:
 - Sti.h
 api_name:
 - IStiDevice.UnLockDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

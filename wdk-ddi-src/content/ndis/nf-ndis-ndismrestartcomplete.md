@@ -38,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisMRestartComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

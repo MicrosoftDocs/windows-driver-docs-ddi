@@ -38,8 +38,6 @@ api_location:
 - Udecxstub.dll
 api_name:
 - UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

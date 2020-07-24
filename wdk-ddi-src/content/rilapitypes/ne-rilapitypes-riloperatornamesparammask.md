@@ -37,8 +37,6 @@ api_location:
 - rilapitypes.h
 api_name:
 - RILOPERATORNAMESPARAMMASK
-product:
-- Windows
 targetos: Windows
 req.typenames: RILOPERATORNAMESPARAMMASK
 req.product: Windows 10 or later.

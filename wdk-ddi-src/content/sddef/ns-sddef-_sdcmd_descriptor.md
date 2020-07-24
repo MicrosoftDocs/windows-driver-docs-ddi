@@ -37,8 +37,6 @@ api_location:
 - sddef.h
 api_name:
 - SDCMD_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: SDCMD_DESCRIPTOR, *PSDCMD_DESCRIPTOR
 ---

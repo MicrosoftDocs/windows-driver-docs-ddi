@@ -37,8 +37,6 @@ api_location:
 - Ucmtypes.h
 api_name:
 - UCM_PD_REQUEST_DATA_OBJECT_INIT_ULONG
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

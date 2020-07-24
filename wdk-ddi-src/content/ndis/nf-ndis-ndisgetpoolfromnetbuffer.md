@@ -38,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisGetPoolFromNetBuffer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

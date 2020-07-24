@@ -37,8 +37,6 @@ api_location:
 - wditypes.hpp
 api_name:
 - WDI_TYPE_NONCE
-product:
-- Windows
 targetos: Windows
 req.typenames: WDI_TYPE_NONCE, *PWDI_TYPE_NONCE
 ---

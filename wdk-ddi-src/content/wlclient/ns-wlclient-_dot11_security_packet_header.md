@@ -37,8 +37,6 @@ api_location:
 - wlclient.h
 api_name:
 - DOT11_SECURITY_PACKET_HEADER
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT11_SECURITY_PACKET_HEADER, *PDOT11_SECURITY_PACKET_HEADER
 req.product: Windows 10 or later.

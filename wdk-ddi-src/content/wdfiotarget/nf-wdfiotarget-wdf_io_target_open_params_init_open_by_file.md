@@ -37,8 +37,6 @@ api_location:
 - wdfiotarget.h
 api_name:
 - WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

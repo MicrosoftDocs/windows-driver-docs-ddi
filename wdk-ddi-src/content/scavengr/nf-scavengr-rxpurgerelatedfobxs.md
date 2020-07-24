@@ -37,8 +37,6 @@ api_location:
 - scavengr.h
 api_name:
 - RxPurgeRelatedFobxs
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

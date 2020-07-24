@@ -37,8 +37,6 @@ api_location:
 - ntddvdeo.h
 api_name:
 - VIDEO_PUBLIC_ACCESS_RANGES
-product:
-- Windows
 targetos: Windows
 req.typenames: VIDEO_PUBLIC_ACCESS_RANGES, *PVIDEO_PUBLIC_ACCESS_RANGES
 ---

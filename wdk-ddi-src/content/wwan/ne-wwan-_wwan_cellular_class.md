@@ -37,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_CELLULAR_CLASS
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_CELLULAR_CLASS, *PWWAN_CELLULAR_CLASS
 ---

@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IWDTFDriverPackageAction2.ClassGuid
 - IWDTFDriverPackageAction2.get_ClassGuid
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

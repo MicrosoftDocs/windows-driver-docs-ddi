@@ -37,8 +37,6 @@ api_location:
 - strmini.h
 api_name:
 - HW_INITIALIZATION_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: HW_INITIALIZATION_DATA, *PHW_INITIALIZATION_DATA
 ---

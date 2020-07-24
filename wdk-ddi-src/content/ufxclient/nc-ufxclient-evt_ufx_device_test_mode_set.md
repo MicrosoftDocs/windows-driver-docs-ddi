@@ -37,8 +37,6 @@ api_location:
 - Ufxclient.h
 api_name:
 - PFN_UFX_DEVICE_TEST_MODE_SET
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

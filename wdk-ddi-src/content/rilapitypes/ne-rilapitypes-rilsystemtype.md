@@ -37,8 +37,6 @@ api_location:
 - rilapitypes.h
 api_name:
 - RILSYSTEMTYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: RILSYSTEMTYPE
 req.product: Windows 10 or later.

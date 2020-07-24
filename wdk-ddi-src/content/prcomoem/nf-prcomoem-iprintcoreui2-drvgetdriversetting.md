@@ -37,8 +37,6 @@ api_location:
 - Prcomoem.h
 api_name:
 - IPrintCoreUI2.DrvGetDriverSetting
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - prcomoem.h
 api_name:
 - IPrintOemUI.UpgradePrinter
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

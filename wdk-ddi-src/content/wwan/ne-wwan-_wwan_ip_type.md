@@ -37,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_IP_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_IP_TYPE, *PWWAN_IP_TYPE
 ---

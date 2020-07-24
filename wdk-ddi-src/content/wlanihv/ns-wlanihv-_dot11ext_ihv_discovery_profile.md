@@ -37,8 +37,6 @@ api_location:
 - wlanihv.h
 api_name:
 - DOT11EXT_IHV_DISCOVERY_PROFILE
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT11EXT_IHV_DISCOVERY_PROFILE, *PDOT11EXT_IHV_DISCOVERY_PROFILE
 req.product: Windows 10 or later.

@@ -37,8 +37,6 @@ api_location:
 - wditypes.hpp
 api_name:
 - WDI_ACTION_FRAME_CATEGORY
-product:
-- Windows
 targetos: Windows
 req.typenames: WDI_ACTION_FRAME_CATEGORY
 ---

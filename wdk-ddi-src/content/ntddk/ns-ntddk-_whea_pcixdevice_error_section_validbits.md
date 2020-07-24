@@ -37,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS
-product:
-- Windows
 targetos: Windows
 req.typenames: WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS, *PWHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS
 ---

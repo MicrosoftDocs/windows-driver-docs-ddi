@@ -37,8 +37,6 @@ api_location:
 - prcomoem.h
 api_name:
 - IPrintOemDriverPS.DrvWriteSpoolBuf
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

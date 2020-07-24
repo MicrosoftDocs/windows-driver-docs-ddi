@@ -37,8 +37,6 @@ api_location:
 - Wudfddi_types.h
 api_name:
 - WDF_IO_TARGET_SENT_IO_ACTION
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_IO_TARGET_SENT_IO_ACTION
 ---

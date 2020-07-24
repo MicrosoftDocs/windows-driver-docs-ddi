@@ -37,8 +37,6 @@ api_location:
 - PortableDevice.h
 api_name:
 - WPD_META_GENRES
-product:
-- Windows
 targetos: Windows
 req.typenames: WPD_META_GENRES
 ms.custom: RS5

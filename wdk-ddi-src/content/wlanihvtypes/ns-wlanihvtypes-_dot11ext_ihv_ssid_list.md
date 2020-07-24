@@ -37,8 +37,6 @@ api_location:
 - wlanihvtypes.h
 api_name:
 - DOT11EXT_IHV_SSID_LIST
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT11EXT_IHV_SSID_LIST, *PDOT11EXT_IHV_SSID_LIST
 req.product: Windows 10 or later.

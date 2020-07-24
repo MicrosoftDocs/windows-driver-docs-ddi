@@ -37,8 +37,6 @@ api_location:
 - ndis.sys
 api_name:
 - NdisInitializeReadWriteLock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

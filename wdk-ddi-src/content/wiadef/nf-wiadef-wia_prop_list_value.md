@@ -34,8 +34,6 @@ api_location:
 - wiadef.h
 api_name: 
 - WIA_PROP_LIST_VALUE
-product:
-- Windows
 targetos: Windows
 
 

@@ -37,8 +37,6 @@ api_location:
 - Sensorsdef.h
 api_name:
 - SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

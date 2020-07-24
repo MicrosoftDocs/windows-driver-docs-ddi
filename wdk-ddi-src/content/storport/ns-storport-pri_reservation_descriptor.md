@@ -37,8 +37,6 @@ api_location:
 - storport.h
 api_name:
 - PRI_RESERVATION_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: PRI_RESERVATION_DESCRIPTOR, *PPRI_RESERVATION_DESCRIPTOR
 ---

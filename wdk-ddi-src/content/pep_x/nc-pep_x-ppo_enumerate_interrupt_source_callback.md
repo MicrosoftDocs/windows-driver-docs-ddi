@@ -37,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - EnumerateInterruptSource
-product:
-- Windows
 targetos: Windows
 req.typenames: PO_FX_CORE_DEVICE, *PPO_FX_CORE_DEVICE
 ---

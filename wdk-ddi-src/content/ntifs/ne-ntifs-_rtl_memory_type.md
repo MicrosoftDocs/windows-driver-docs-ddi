@@ -28,8 +28,6 @@ api_location:
 - ntifs.h
 api_name: 
 - _RTL_MEMORY_TYPE
-product:
-- Windows
 targetos: Windows
 ---
 

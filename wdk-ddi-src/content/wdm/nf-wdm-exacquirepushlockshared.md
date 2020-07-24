@@ -34,8 +34,6 @@ api_location:
 - wdm.h
 api_name: 
 - ExAcquirePushLockShared
-product:
-- Windows
 targetos: Windows
 
 ms.custom: RS5

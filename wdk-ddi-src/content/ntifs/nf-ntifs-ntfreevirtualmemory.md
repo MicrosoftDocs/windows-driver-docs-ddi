@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ZwFreeVirtualMemory
 - NtFreeVirtualMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

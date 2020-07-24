@@ -37,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlLookupLargeMcbEntry
-product:
-- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---

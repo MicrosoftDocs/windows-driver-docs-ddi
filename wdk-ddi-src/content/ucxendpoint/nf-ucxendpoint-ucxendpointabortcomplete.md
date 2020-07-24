@@ -37,8 +37,6 @@ api_location:
 - ucxendpoint.h
 api_name:
 - UcxEndpointAbortComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

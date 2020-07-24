@@ -37,8 +37,6 @@ api_location:
 - PortableDevice.h
 api_name:
 - WpdAttributeForm
-product:
-- Windows
 targetos: Windows
 req.typenames: WpdAttributeForm
 ms.custom: RS5

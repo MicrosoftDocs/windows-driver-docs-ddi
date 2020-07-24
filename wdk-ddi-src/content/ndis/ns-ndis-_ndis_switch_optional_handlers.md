@@ -37,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - NDIS_SWITCH_OPTIONAL_HANDLERS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_SWITCH_OPTIONAL_HANDLERS, *PNDIS_SWITCH_OPTIONAL_HANDLERS
 ---

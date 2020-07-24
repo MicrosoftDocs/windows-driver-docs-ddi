@@ -37,8 +37,6 @@ api_location:
 - prcomoem.h
 api_name:
 - IPrintOemUIMXDC.AdjustImageCompression
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

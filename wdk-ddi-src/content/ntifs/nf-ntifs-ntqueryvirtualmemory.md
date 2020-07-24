@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ZwQueryVirtualMemory
 - NtQueryVirtualMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

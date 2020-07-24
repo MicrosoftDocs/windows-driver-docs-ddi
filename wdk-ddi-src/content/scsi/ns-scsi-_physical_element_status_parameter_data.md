@@ -30,8 +30,6 @@ api_location:
 - scsi.h
 api_name: 
 - _PHYSICAL_ELEMENT_STATUS_PARAMETER_DATA
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

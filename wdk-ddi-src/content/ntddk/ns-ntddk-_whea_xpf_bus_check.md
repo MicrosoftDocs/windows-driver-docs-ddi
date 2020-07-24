@@ -37,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - WHEA_XPF_BUS_CHECK
-product:
-- Windows
 targetos: Windows
 req.typenames: WHEA_XPF_BUS_CHECK, *PWHEA_XPF_BUS_CHECK
 ---

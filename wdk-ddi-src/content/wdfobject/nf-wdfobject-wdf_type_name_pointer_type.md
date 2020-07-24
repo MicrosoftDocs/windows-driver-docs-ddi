@@ -40,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WDF_TYPE_NAME_POINTER_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

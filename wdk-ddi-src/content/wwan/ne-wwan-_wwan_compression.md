@@ -37,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_COMPRESSION
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_COMPRESSION, *PWWAN_COMPRESSION
 ---

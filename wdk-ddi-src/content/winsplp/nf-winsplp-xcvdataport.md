@@ -37,8 +37,6 @@ api_location:
 - winsplp.h
 api_name:
 - XcvDataPort
-product:
-- Windows
 targetos: Windows
 req.typenames: NOTIFICATION_CONFIG_FLAGS
 req.product: Windows 10 or later.

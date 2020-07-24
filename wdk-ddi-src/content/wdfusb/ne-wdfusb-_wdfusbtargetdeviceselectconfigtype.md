@@ -37,8 +37,6 @@ api_location:
 - wdfusb.h
 api_name:
 - WdfUsbTargetDeviceSelectConfigType
-product:
-- Windows
 targetos: Windows
 req.typenames: WdfUsbTargetDeviceSelectConfigType
 ---

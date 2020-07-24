@@ -37,8 +37,6 @@ api_location:
 - wiamindr_lh.h
 api_name:
 - WIAS_ENDORSER_VALUE
-product:
-- Windows
 targetos: Windows
 req.typenames: WIAS_ENDORSER_VALUE, *PWIAS_ENDORSER_VALUE
 ---

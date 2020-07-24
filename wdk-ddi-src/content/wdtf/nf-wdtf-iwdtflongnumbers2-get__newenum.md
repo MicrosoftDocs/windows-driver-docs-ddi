@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IWDTFLongNumbers2._NewEnum
 - IWDTFLongNumbers2.get__NewEnum
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

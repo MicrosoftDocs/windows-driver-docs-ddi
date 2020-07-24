@@ -37,8 +37,6 @@ api_location:
 - winspool.h
 api_name:
 - EnumPrintProcessorDatatypes
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

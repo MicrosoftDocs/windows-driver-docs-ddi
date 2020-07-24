@@ -38,8 +38,6 @@ api_location:
 - wudfddi_types.h
 api_name:
 - WDF_TRI_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_TRI_STATE, *PWDF_TRI_STATE
 ---

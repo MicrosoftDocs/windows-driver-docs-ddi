@@ -37,8 +37,6 @@ api_location:
 - scsi.h
 api_name:
 - BLOCK_DEVICE_TOKEN_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: BLOCK_DEVICE_TOKEN_DESCRIPTOR, *PBLOCK_DEVICE_TOKEN_DESCRIPTOR
 ---

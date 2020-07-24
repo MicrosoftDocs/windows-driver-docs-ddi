@@ -33,8 +33,6 @@ api_location:
 - trustedruntimeclx.h
 api_name: 
 - EVT_TR_PREPARE_HARDWARE_SECURE_ENVIRONMENT
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

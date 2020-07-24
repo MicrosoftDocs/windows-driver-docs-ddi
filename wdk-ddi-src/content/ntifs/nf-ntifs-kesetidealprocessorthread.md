@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - KeSetIdealProcessorThread
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

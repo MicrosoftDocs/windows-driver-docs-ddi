@@ -37,8 +37,6 @@ api_location:
 - udecxusbendpoint.h
 api_name:
 - UDECX_USB_ENDPOINT_CALLBACKS
-product:
-- Windows
 targetos: Windows
 req.typenames: UDECX_USB_ENDPOINT_CALLBACKS, *PUDECX_USB_ENDPOINT_CALLBACKS
 ---

@@ -37,8 +37,6 @@ api_location:
 - xpsrassvc.h
 api_name:
 - IXPSRasterizationFactory1.CreateRasterizer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

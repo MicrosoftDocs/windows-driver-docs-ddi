@@ -37,8 +37,6 @@ api_location:
 - PortableDevice.h
 api_name:
 - WPD_POWER_SOURCES
-product:
-- Windows
 targetos: Windows
 req.typenames: WPD_POWER_SOURCES
 ms.custom: RS5

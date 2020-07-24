@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - NFS_OPEN_ECP_CONTEXT
-product:
-- Windows
 targetos: Windows
 req.typenames: NFS_OPEN_ECP_CONTEXT, *PNFS_OPEN_ECP_CONTEXT, PPNFS_OPEN_ECP_CONTEXT
 ---

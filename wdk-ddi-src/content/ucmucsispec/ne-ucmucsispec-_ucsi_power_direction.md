@@ -28,8 +28,6 @@ api_location:
 - ucmucsispec.h
 api_name: 
 - _UCSI_POWER_DIRECTION
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

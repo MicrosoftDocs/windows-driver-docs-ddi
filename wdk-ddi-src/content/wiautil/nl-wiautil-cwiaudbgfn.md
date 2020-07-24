@@ -37,8 +37,6 @@ api_location:
 - Wiautil.h
 api_name:
 - CWiauDbgFn
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

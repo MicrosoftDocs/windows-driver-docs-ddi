@@ -30,8 +30,6 @@ api_location:
 - ntddk.h
 api_name: 
 - _PCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_CAPABILITY
-product:
-- Windows
 targetos: Windows
 ---
 

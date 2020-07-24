@@ -31,8 +31,6 @@ api_location:
 - uart.h
 api_name:
 - _CPPORT
-product:
-- Windows
 targetos: Windows
 ---
 

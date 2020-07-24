@@ -37,8 +37,6 @@ api_location:
 - usb.h
 api_name:
 - _URB_ISOCH_TRANSFER
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

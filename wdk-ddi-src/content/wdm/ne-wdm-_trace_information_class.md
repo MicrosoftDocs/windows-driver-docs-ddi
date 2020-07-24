@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - TRACE_INFORMATION_CLASS
-product:
-- Windows
 targetos: Windows
 req.typenames: TRACE_INFORMATION_CLASS
 ---

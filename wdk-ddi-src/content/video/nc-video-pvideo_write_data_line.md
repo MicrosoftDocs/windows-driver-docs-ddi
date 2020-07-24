@@ -37,8 +37,6 @@ api_location:
 - video.h
 api_name:
 - WriteDataLine
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

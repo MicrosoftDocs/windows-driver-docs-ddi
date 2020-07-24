@@ -37,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - PD_BUFFER_8021Q_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: PD_BUFFER_8021Q_INFO
 ---

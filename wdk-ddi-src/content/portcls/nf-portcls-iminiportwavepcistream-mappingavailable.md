@@ -37,8 +37,6 @@ api_location:
 - Portcls.h
 api_name:
 - IMiniportWavePciStream.MappingAvailable
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

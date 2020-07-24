@@ -37,8 +37,6 @@ api_location:
 - Ntddndis.h
 api_name:
 - NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS, *PNDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS
 ---

@@ -37,8 +37,6 @@ api_location:
 - ufxclient.h
 api_name:
 - UfxDeviceCreate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

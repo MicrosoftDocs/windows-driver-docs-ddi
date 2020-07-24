@@ -37,8 +37,6 @@ api_location:
 - umdprovider.h
 api_name:
 - UMDEtwRegister
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

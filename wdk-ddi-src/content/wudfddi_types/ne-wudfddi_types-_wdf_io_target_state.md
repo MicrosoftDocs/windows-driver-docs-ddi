@@ -38,8 +38,6 @@ api_location:
 - wudfddi_types.h
 api_name:
 - WDF_IO_TARGET_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_IO_TARGET_STATE, *PWDF_IO_TARGET_STATE
 ---

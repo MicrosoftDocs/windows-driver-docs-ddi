@@ -37,8 +37,6 @@ api_location:
 - Videoprt.sys
 api_name:
 - VideoPortDeleteSpinLock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

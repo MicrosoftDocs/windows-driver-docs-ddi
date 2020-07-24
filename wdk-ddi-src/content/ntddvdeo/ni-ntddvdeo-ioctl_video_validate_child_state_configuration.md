@@ -37,8 +37,6 @@ api_location:
 - Ntddvdeo.h
 api_name:
 - IOCTL_VIDEO_VALIDATE_CHILD_STATE_CONFIGURATION
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

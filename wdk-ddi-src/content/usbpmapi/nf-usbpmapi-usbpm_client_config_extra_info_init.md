@@ -35,8 +35,6 @@ api_location:
 - usbpmapi.h
 api_name: 
 - USBPM_CLIENT_CONFIG_EXTRA_INFO_INIT
-product:
-- Windows
 targetos: Windows
 
 

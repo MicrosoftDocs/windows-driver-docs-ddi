@@ -38,8 +38,6 @@ api_location:
 - Ntstrsafe.dll
 api_name:
 - RtlUnalignedStringCbLengthW
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

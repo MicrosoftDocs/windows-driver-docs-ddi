@@ -37,8 +37,6 @@ api_location:
 - usbbusif.h
 api_name:
 - USB_BUS_INFORMATION_LEVEL_0
-product:
-- Windows
 targetos: Windows
 req.typenames: USB_BUS_INFORMATION_LEVEL_0, *PUSB_BUS_INFORMATION_LEVEL_0
 ---

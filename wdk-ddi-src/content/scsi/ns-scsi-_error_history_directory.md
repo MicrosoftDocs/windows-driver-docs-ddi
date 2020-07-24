@@ -30,8 +30,6 @@ api_location:
 - scsi.h
 api_name: 
 - _ERROR_HISTORY_DIRECTORY
-product:
-- Windows
 targetos: Windows
 ---
 

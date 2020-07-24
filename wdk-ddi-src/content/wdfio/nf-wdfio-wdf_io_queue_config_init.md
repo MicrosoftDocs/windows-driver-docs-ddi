@@ -37,8 +37,6 @@ api_location:
 - wdfio.h
 api_name:
 - WDF_IO_QUEUE_CONFIG_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

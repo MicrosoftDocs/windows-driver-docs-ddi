@@ -38,8 +38,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - DbgPrint
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

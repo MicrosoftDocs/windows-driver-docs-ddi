@@ -46,8 +46,6 @@ api_name:
 - IDebugClient5.SetQuitLockString
 - IDebugClient5.GetQuitLockStringWide
 - IDebugClient5.SetQuitLockStringWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

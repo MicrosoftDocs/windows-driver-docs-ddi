@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ZwQueryVolumeInformationFile
 - NtQueryVolumeInformationFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

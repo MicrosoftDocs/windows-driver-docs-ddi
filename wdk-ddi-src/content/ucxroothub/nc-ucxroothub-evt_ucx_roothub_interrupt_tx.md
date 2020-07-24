@@ -37,8 +37,6 @@ api_location:
 - ucxroothub.h
 api_name:
 - PEVT_UCX_ROOTHUB_INTERRUPT_TX
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - rxce.h
 api_name:
 - RxCeCancelConnectRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

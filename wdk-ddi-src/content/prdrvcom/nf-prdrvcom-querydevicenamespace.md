@@ -37,8 +37,6 @@ api_location:
 - prdrvcom.h
 api_name:
 - IPrintTicketProvider.QueryDeviceNamespace
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

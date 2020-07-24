@@ -37,8 +37,6 @@ api_location:
 - Strmini.h
 api_name:
 - STREAM_BUFFER_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: STREAM_BUFFER_TYPE
 ---

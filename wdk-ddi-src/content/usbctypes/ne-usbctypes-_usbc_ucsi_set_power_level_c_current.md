@@ -27,8 +27,6 @@ api_location:
 - usbctypes.h
 api_name: 
 - _USBC_UCSI_SET_POWER_LEVEL_C_CURRENT
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

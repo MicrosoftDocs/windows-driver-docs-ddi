@@ -37,8 +37,6 @@ api_location:
 - pointofservicedriverinterface.h
 api_name:
 - MsrStatusUpdateType
-product:
-- Windows
 targetos: Windows
 req.typenames: MsrStatusUpdateType
 ---

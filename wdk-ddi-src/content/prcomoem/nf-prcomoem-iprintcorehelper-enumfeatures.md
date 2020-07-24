@@ -37,8 +37,6 @@ api_location:
 - Prcomoem.h
 api_name:
 - IPrintCoreHelper.EnumFeatures
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

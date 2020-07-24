@@ -37,8 +37,6 @@ api_location:
 - Wdfqueryinterface.h
 api_name:
 - WDF_QUERY_INTERFACE_CONFIG
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_QUERY_INTERFACE_CONFIG, *PWDF_QUERY_INTERFACE_CONFIG
 ---

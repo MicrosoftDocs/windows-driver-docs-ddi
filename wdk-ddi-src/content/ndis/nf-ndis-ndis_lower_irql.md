@@ -35,8 +35,6 @@ api_location:
 - ndis.h
 api_name: 
 - NDIS_LOWER_IRQL
-product:
-- Windows
 targetos: Windows
 
 ---

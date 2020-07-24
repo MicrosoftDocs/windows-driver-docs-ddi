@@ -38,8 +38,6 @@ api_location:
 - Usbd.dll
 api_name:
 - USBD_CreateConfigurationRequestEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IPrinterExtensionContextCollection.Count
 - IPrinterExtensionContextCollection.get_Count
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

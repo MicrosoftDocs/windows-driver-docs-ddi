@@ -27,8 +27,6 @@ api_location:
 - poscxfuncenum.h
 api_name: 
 - _POSCXFUNCENUM
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

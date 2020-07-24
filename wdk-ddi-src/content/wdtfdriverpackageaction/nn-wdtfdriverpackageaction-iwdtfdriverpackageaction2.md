@@ -37,8 +37,6 @@ api_location:
 - WDTFDriverPackageAction.Interop.dll
 api_name:
 - IWDTFDriverPackageAction2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

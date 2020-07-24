@@ -37,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - MF_MDL_SHARED_PAYLOAD_KEY
-product:
-- Windows
 targetos: Windows
 req.typenames: MF_MDL_SHARED_PAYLOAD_KEY, *PMF_MDL_SHARED_PAYLOAD_KEY
 ---

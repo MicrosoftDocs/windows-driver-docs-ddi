@@ -37,8 +37,6 @@ api_location:
 - Printerextension.h
 api_name:
 - IPrintSchemaCapabilities.GetFeature
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

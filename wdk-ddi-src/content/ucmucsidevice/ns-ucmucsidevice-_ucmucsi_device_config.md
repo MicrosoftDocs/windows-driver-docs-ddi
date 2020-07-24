@@ -31,8 +31,6 @@ api_location:
 - ucmucsidevice.h
 api_name: 
 - UCMUCSI_DEVICE_CONFIG
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

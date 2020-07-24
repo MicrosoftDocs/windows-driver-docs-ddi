@@ -29,8 +29,6 @@ api_location:
 - ntddstor.h
 api_name: 
 - IOCTL_STORAGE_SET_PROPERTY
-product:
-- Windows
 targetos: Windows
 ms.custom: 19H1
 ---

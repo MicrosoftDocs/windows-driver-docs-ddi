@@ -37,8 +37,6 @@ api_location:
 - Ntddvdeo.h
 api_name:
 - VIDEO_POINTER_POSITION
-product:
-- Windows
 targetos: Windows
 req.typenames: VIDEO_POINTER_POSITION, *PVIDEO_POINTER_POSITION
 ---

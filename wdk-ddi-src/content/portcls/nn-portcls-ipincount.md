@@ -37,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IPinCount
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

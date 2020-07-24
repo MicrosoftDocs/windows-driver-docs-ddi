@@ -37,8 +37,6 @@ api_location:
 - rilapitypes.h
 api_name:
 - RILGSMNMR
-product:
-- Windows
 targetos: Windows
 req.typenames: RILGSMNMR, *LPRILGSMNMR
 req.product: Windows 10 or later.

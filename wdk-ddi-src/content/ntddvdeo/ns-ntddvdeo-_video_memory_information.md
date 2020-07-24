@@ -37,8 +37,6 @@ api_location:
 - ntddvdeo.h
 api_name:
 - VIDEO_MEMORY_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: VIDEO_MEMORY_INFORMATION, *PVIDEO_MEMORY_INFORMATION
 ---

@@ -37,8 +37,6 @@ api_location:
 - Dbgeng.h
 api_name:
 - IDebugSymbols4.OutputSymbolByInlineContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - video.h
 api_name:
 - VP_SCATTER_GATHER_LIST
-product:
-- Windows
 targetos: Windows
 req.typenames: VP_SCATTER_GATHER_LIST, *PVP_SCATTER_GATHER_LIST
 ---

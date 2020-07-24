@@ -37,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - WHEA_GENERIC_ERROR_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: WHEA_GENERIC_ERROR_DESCRIPTOR, *PWHEA_GENERIC_ERROR_DESCRIPTOR
 ---

@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IPrinterScriptContext.QueueProperties
 - IPrinterScriptContext.get_QueueProperties
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

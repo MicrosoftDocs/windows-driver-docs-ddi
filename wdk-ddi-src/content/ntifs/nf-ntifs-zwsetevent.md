@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ZwSetEvent
 - NtSetEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

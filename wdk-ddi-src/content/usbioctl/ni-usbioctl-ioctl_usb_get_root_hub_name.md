@@ -37,8 +37,6 @@ api_location:
 - Usbioctl.h
 api_name:
 - IOCTL_USB_GET_ROOT_HUB_NAME
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

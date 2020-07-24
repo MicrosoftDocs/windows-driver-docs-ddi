@@ -37,8 +37,6 @@ api_location:
 - ntddvdeo.h
 api_name:
 - VIDEO_NUM_MODES
-product:
-- Windows
 targetos: Windows
 req.typenames: VIDEO_NUM_MODES, *PVIDEO_NUM_MODES
 ---

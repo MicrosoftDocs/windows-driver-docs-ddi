@@ -38,8 +38,6 @@ api_location:
 api_name:
 - WdmlibIoValidateDeviceIoControlAccess
 - IoValidateDeviceIoControlAccess
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

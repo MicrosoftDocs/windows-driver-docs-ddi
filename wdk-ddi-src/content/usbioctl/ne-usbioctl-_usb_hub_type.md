@@ -37,8 +37,6 @@ api_location:
 - usbioctl.h
 api_name:
 - USB_HUB_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: USB_HUB_TYPE
 ---

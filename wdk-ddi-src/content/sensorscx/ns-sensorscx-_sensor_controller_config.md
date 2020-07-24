@@ -37,8 +37,6 @@ api_location:
 - SensorsCx.h
 api_name:
 - SENSOR_CONTROLLER_CONFIG
-product:
-- Windows
 targetos: Windows
 req.typenames: SENSOR_CONTROLLER_CONFIG, *PSENSOR_CONTROLLER_CONFIG
 ---

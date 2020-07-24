@@ -35,8 +35,6 @@ api_location:
 - UcmUcsiCxStub.lib
 api_name: 
 - UcmUcsiPpmNotification
-product:
-- Windows
 targetos: Windows
 
 

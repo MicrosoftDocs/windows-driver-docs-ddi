@@ -37,8 +37,6 @@ api_location:
 - smclib.h
 api_name:
 - VENDOR_ATTR
-product:
-- Windows
 targetos: Windows
 req.typenames: VENDOR_ATTR, *PVENDOR_ATTR
 ---

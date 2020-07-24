@@ -37,8 +37,6 @@ api_location:
 - wditypes.hpp
 api_name:
 - WDI_POWER_SAVE_LEVEL
-product:
-- Windows
 targetos: Windows
 req.typenames: WDI_POWER_SAVE_LEVEL
 ---

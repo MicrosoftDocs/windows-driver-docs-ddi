@@ -37,8 +37,6 @@ api_location:
 - wditypes.hpp
 api_name:
 - WDI_DATA_RATE_FLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: WDI_DATA_RATE_FLAGS
 ---

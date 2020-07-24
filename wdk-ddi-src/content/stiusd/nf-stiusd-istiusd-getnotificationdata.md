@@ -37,8 +37,6 @@ api_location:
 - stiusd.h
 api_name:
 - IStiUSD.GetNotificationData
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

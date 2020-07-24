@@ -37,8 +37,6 @@ api_location:
 - Pepfx.h
 api_name:
 - PEP_PPM_QUERY_DISCRETE_PERF_STATES
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_PPM_QUERY_DISCRETE_PERF_STATES, *PPEP_PPM_QUERY_DISCRETE_PERF_STATES
 ---

@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - FILE_RENAME_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: FILE_RENAME_INFORMATION, *PFILE_RENAME_INFORMATION
 dev_langs:

@@ -37,8 +37,6 @@ api_location:
 - wdfcompanion.h
 api_name:
 - WdfDeviceInitSetCompanionEventCallbacks
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

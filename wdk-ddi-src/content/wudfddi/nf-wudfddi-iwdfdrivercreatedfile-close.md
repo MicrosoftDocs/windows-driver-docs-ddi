@@ -37,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFDriverCreatedFile.Close
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

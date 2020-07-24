@@ -37,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - PEP_COMPONENT_PERF_SET
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_COMPONENT_PERF_SET, *PPEP_COMPONENT_PERF_SET
 ---

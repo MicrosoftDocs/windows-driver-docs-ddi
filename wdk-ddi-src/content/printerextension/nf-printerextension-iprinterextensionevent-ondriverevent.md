@@ -37,8 +37,6 @@ api_location:
 - printerextension.h
 api_name:
 - IPrinterExtensionEvent.OnDriverEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

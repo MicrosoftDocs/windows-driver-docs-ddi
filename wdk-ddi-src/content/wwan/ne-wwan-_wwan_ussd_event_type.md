@@ -37,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_USSD_EVENT_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_USSD_EVENT_TYPE, *PWWAN_USSD_EVENT_TYPE
 ---

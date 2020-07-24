@@ -39,8 +39,6 @@ api_location:
 api_name:
 - ZwDuplicateObject
 - NtDuplicateObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

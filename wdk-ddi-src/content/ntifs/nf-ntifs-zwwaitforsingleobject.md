@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ZwWaitForSingleObject
 - NtWaitForSingleObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

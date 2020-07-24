@@ -37,8 +37,6 @@ api_location:
 - prcomoem.h
 api_name:
 - IPrintCoreHelperPS.GetFeatureAttribute
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

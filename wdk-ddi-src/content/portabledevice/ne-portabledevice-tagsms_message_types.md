@@ -37,8 +37,6 @@ api_location:
 - PortableDevice.h
 api_name:
 - SMS_MESSAGE_TYPES
-product:
-- Windows
 targetos: Windows
 req.typenames: SMS_MESSAGE_TYPES
 ms.custom: RS5

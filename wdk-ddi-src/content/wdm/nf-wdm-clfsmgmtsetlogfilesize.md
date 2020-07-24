@@ -38,8 +38,6 @@ api_location:
 - Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
 - ClfsMgmtSetLogFileSize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

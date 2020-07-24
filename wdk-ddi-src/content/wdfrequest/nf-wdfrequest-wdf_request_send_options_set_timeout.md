@@ -37,8 +37,6 @@ api_location:
 - wdfrequest.h
 api_name:
 - WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

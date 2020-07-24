@@ -40,8 +40,6 @@ api_name:
 - RtlStringCchCatW
 - RtlStringCchCatA
 - RtlStringCchCatW
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - Wpprecorder.h
 api_name:
 - imp_WppRecorderDumpLiveDriverData
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

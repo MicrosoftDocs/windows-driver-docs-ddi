@@ -37,8 +37,6 @@ api_location:
 - scsiwmi.h
 api_name:
 - SCSIWMI_ENABLE_DISABLE_CONTROL
-product:
-- Windows
 targetos: Windows
 req.typenames: SCSIWMI_ENABLE_DISABLE_CONTROL
 ---

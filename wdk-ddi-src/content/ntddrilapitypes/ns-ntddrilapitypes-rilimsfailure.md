@@ -37,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILIMSFAILURE
-product:
-- Windows
 targetos: Windows
 req.typenames: RILIMSFAILURE, *LPRILIMSFAILURE
 ---

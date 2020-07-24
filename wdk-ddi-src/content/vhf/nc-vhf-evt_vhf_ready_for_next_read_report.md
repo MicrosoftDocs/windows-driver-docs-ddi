@@ -37,8 +37,6 @@ api_location:
 - vhf.h
 api_name:
 - EvtVhfReadyForNextReadReport
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

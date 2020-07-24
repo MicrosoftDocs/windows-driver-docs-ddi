@@ -37,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_ManageCalls_V2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

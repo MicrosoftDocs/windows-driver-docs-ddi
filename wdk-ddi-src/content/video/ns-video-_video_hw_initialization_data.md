@@ -37,8 +37,6 @@ api_location:
 - video.h
 api_name:
 - VIDEO_HW_INITIALIZATION_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: VIDEO_HW_INITIALIZATION_DATA, *PVIDEO_HW_INITIALIZATION_DATA
 ---

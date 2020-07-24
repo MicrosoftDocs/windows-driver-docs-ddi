@@ -37,8 +37,6 @@ api_location:
 - Ntddstor.h
 api_name:
 - STORAGE_PHYSICAL_NODE_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: STORAGE_PHYSICAL_NODE_DATA, *PSTORAGE_PHYSICAL_NODE_DATA
 ---

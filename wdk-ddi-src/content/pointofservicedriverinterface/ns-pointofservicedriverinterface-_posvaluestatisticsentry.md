@@ -37,8 +37,6 @@ api_location:
 - PointOfServiceDriverInterface.h
 api_name:
 - PosValueStatisticsEntry
-product:
-- Windows
 targetos: Windows
 req.typenames: PosValueStatisticsEntry
 ---

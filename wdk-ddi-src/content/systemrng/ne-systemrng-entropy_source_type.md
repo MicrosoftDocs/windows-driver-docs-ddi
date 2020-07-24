@@ -29,8 +29,6 @@ api_location:
 - systemrng.h
 api_name: 
 - ENTROPY_SOURCE_TYPE
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

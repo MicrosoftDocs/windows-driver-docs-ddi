@@ -37,8 +37,6 @@ api_location:
 - pep_x.h
 api_name:
 - PEP_WORK_ACTIVE_COMPLETE
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_WORK_ACTIVE_COMPLETE, *PPEP_WORK_ACTIVE_COMPLETE
 ---

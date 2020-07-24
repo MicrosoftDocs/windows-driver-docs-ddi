@@ -28,8 +28,6 @@ api_location:
 - sidebandaudio.h
 api_name: 
 - IOCTL_SBAUD_SET_DEVICE_CLAIMED
-product:
-- Windows
 targetos: Windows
 tech.root: audio
 ms.custom: RS5

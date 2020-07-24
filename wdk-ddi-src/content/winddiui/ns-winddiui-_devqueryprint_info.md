@@ -37,8 +37,6 @@ api_location:
 - winddiui.h
 api_name:
 - DEVQUERYPRINT_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: DEVQUERYPRINT_INFO, *PDEVQUERYPRINT_INFO
 ---

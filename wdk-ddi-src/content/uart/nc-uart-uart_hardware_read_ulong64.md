@@ -34,8 +34,6 @@ api_location:
 - uart.h
 api_name:
 - UART_HARDWARE_READ_ULONG64
-product:
-- Windows
 targetos: Windows
 ---
 

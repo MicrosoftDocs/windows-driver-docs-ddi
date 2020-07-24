@@ -38,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisMCmRegisterAddressFamilyEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

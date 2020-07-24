@@ -37,8 +37,6 @@ api_location:
 - wdfinterrupt.h
 api_name:
 - WDF_INTERRUPT_POLICY
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_INTERRUPT_POLICY, *PWDF_INTERRUPT_POLICY
 ---

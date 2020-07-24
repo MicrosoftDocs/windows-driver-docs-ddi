@@ -37,8 +37,6 @@ api_location:
 - printoem.h
 api_name:
 - CUSTOMSIZEPARAM
-product:
-- Windows
 targetos: Windows
 req.typenames: CUSTOMSIZEPARAM, *PCUSTOMSIZEPARAM
 ---

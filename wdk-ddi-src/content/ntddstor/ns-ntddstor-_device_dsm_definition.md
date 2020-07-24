@@ -31,8 +31,6 @@ api_location:
 - ntddstor.h
 api_name: 
 - _DEVICE_DSM_DEFINITION
-product:
-- Windows
 targetos: Windows
 ---
 

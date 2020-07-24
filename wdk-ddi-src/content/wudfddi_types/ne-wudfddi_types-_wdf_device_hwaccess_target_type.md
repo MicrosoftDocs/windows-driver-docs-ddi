@@ -38,8 +38,6 @@ api_location:
 - wudfddi_types.h
 api_name:
 - WDF_DEVICE_HWACCESS_TARGET_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_DEVICE_HWACCESS_TARGET_TYPE, *PWDF_DEVICE_HWACCESS_TARGET_TYPE
 ---

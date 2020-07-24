@@ -37,8 +37,6 @@ api_location:
 - Ntddvdeo.h
 api_name:
 - IOCTL_VIDEO_SWITCH_DUALVIEW
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

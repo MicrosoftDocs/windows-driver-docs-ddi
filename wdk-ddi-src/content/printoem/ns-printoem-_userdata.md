@@ -37,8 +37,6 @@ api_location:
 - printoem.h
 api_name:
 - USERDATA
-product:
-- Windows
 targetos: Windows
 req.typenames: USERDATA, *PUSERDATA
 ---

@@ -37,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILGETOPERATORLISTPARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILGETOPERATORLISTPARAMS, *LPRILGETOPERATORLISTPARAMS
 ---

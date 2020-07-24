@@ -37,8 +37,6 @@ api_location:
 - Winsplp.h
 api_name:
 - NOTIFICATION_CONFIG_FLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: NOTIFICATION_CONFIG_FLAGS
 ---

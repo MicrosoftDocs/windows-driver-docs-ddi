@@ -37,8 +37,6 @@ api_location:
 - Wiaservc.dll
 api_name:
 - wiasSetValidListFloat
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -37,8 +37,6 @@ api_location:
 - Ntintsafe.h
 api_name:
 - RtlIntToUInt8
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

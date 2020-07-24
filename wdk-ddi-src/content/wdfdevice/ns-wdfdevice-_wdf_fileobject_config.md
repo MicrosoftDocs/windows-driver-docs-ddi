@@ -37,8 +37,6 @@ api_location:
 - wdfdevice.h
 api_name:
 - WDF_FILEOBJECT_CONFIG
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_FILEOBJECT_CONFIG, *PWDF_FILEOBJECT_CONFIG
 ---

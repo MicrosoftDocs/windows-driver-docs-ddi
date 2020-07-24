@@ -37,8 +37,6 @@ api_location:
 - Wiaservc.dll
 api_name:
 - wiasGetChangedValueFloat
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

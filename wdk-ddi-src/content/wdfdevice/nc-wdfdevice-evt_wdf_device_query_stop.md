@@ -37,8 +37,6 @@ api_location:
 - Wdfdevice.h
 api_name:
 - EvtDeviceQueryStop
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

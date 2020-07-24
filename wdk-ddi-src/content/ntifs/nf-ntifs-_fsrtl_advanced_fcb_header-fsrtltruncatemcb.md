@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - FsRtlTruncateMcb
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 dev_langs:

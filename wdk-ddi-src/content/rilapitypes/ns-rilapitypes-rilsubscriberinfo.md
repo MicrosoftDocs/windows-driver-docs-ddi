@@ -37,8 +37,6 @@ api_location:
 - rilapitypes.h
 api_name:
 - RILSUBSCRIBERINFO
-product:
-- Windows
 targetos: Windows
 req.typenames: RILSUBSCRIBERINFO, *LPRILSUBSCRIBERINFO
 req.product: Windows 10 or later.

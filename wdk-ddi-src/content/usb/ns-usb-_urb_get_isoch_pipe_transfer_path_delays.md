@@ -37,8 +37,6 @@ api_location:
 - Usb.h
 api_name:
 - _URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

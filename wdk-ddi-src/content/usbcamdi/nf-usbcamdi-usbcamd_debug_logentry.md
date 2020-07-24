@@ -38,8 +38,6 @@ api_location:
 - usbcamd2.dll
 api_name:
 - USBCAMD_Debug_LogEntry
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

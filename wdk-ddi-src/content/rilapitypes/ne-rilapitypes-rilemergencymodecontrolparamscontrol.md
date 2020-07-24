@@ -37,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILEMERGENCYMODECONTROLPARAMSCONTROL
-product:
-- Windows
 targetos: Windows
 req.typenames: RILEMERGENCYMODECONTROLPARAMSCONTROL
 ---

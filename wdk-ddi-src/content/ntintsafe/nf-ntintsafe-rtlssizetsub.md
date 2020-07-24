@@ -37,8 +37,6 @@ api_location:
 - Ntintsafe.h
 api_name:
 - RtlSSIZETSub
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

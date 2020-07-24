@@ -37,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_IPV6_ADDRESS
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_IPV6_ADDRESS, *PWWAN_IPV6_ADDRESS
 ---

@@ -28,8 +28,6 @@ api_location:
 - sidebandaudio.h
 api_name: 
 - IOCTL_SBAUD_GET_SIDETONE_VOLUMEPROPERTYVALUES
-product:
-- Windows
 targetos: Windows
 tech.root: audio
 ms.custom: RS5

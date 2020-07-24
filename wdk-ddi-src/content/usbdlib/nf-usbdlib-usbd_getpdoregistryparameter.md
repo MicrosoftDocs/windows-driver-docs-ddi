@@ -38,8 +38,6 @@ api_location:
 - usbd.dll
 api_name:
 - USBD_GetPdoRegistryParameter
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

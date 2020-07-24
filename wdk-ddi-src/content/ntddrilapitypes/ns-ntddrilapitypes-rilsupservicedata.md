@@ -37,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILSUPSERVICEDATA
-product:
-- Windows
 targetos: Windows
 req.typenames: RILSUPSERVICEDATA, *LPRILSUPSERVICEDATA
 ---

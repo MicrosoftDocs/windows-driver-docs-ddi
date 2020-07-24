@@ -37,8 +37,6 @@ api_location:
 - Wudfddi.h
 api_name:
 - IPnpCallback.OnD0Entry
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

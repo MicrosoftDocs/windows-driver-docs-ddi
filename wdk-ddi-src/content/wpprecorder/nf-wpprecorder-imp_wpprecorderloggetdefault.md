@@ -37,8 +37,6 @@ api_location:
 - Wpprecorder.h
 api_name:
 - imp_WppRecorderLogGetDefault
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

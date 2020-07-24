@@ -37,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - WHEA_ERROR_PACKET_V1
-product:
-- Windows
 targetos: Windows
 req.typenames: WHEA_ERROR_PACKET_V1, *PWHEA_ERROR_PACKET_V1, WHEA_ERROR_PACKET, *PWHEA_ERROR_PACKET
 ---

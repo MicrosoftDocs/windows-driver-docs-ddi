@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IWDTFAction2.Target
 - IWDTFAction2.get_Target
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

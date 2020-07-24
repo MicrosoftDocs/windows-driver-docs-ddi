@@ -31,8 +31,6 @@ api_location:
  - ntddvdeo.h
 api_name: 
  - IOCTL_COLORSPACE_TRANSFORM_SET
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

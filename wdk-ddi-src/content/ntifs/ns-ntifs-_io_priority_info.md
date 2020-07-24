@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - IO_PRIORITY_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: IO_PRIORITY_INFO, *PIO_PRIORITY_INFO
 ---

@@ -37,8 +37,6 @@ api_location:
 - Wpprecorder.h
 api_name:
 - RECORDER_CONFIGURE_PARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: RECORDER_CONFIGURE_PARAMS, *PRECORDER_CONFIGURE_PARAMS
 ---

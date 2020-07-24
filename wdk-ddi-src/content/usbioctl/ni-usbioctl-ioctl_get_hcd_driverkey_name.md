@@ -37,8 +37,6 @@ api_location:
 - Usbioctl.h
 api_name:
 - IOCTL_GET_HCD_DRIVERKEY_NAME
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

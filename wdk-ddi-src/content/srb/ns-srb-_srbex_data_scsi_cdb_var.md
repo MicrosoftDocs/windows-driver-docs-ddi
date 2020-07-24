@@ -37,8 +37,6 @@ api_location:
 - Storport.h
 api_name:
 - SRBEX_DATA_SCSI_CDB_VAR
-product:
-- Windows
 targetos: Windows
 req.typenames: SRBEX_DATA_SCSI_CDB_VAR, *PSRBEX_DATA_SCSI_CDB_VAR
 ---

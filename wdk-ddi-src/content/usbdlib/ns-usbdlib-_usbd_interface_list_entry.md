@@ -37,8 +37,6 @@ api_location:
 - usbdlib.h
 api_name:
 - USBD_INTERFACE_LIST_ENTRY
-product:
-- Windows
 targetos: Windows
 req.typenames: USBD_INTERFACE_LIST_ENTRY, *PUSBD_INTERFACE_LIST_ENTRY
 ---

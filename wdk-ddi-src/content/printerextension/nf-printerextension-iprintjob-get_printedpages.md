@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IPrintJob.PrintedPages
 - IPrintJob.get_PrintedPages
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

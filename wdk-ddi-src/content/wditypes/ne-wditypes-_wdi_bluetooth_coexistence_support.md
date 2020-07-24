@@ -37,8 +37,6 @@ api_location:
 - wditypes.hpp
 api_name:
 - WDI_BLUETOOTH_COEXISTENCE_SUPPORT
-product:
-- Windows
 targetos: Windows
 req.typenames: WDI_BLUETOOTH_COEXISTENCE_SUPPORT
 ---

@@ -37,8 +37,6 @@ api_location:
 - usbioctl.h
 api_name:
 - HUB_DEVICE_CONFIG_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: HUB_DEVICE_CONFIG_INFO, *PHUB_DEVICE_CONFIG_INFO
 ---

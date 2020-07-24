@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - SE_EXPORTS
-product:
-- Windows
 targetos: Windows
 req.typenames: SE_EXPORTS, *PSE_EXPORTS
 ---

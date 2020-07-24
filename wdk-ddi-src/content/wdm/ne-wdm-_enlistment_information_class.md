@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - ENLISTMENT_INFORMATION_CLASS
-product:
-- Windows
 targetos: Windows
 req.typenames: ENLISTMENT_INFORMATION_CLASS
 ---

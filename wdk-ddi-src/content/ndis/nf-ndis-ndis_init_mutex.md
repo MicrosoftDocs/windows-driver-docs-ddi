@@ -35,8 +35,6 @@ api_location:
 - ndis.h
 api_name: 
 - NDIS_INIT_MUTEX
-product:
-- Windows
 targetos: Windows
 
 ---

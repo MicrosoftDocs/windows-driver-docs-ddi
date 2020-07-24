@@ -35,8 +35,6 @@ api_location:
 - usbpmapi.h
 api_name: 
 - USBPM_ASSIGN_CONNECTOR_POWER_LEVEL_PARAMS_INIT
-product:
-- Windows
 targetos: Windows
 
 

@@ -37,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - PCPROPERTY_REQUEST
-product:
-- Windows
 targetos: Windows
 req.typenames: PCPROPERTY_REQUEST, *PPCPROPERTY_REQUEST
 ---

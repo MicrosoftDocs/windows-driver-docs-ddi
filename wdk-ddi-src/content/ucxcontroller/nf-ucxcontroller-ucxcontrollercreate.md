@@ -37,8 +37,6 @@ api_location:
 - ucxcontroller.h
 api_name:
 - UcxControllerCreate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

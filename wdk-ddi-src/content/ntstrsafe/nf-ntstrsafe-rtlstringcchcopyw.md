@@ -40,8 +40,6 @@ api_name:
 - RtlStringCchCopyW
 - RtlStringCchCopyA
 - RtlStringCchCopyW
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

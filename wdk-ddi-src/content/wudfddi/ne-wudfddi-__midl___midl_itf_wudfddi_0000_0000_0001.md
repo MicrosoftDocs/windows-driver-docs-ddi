@@ -37,8 +37,6 @@ api_location:
 - Wudfddi.h
 api_name:
 - POWER_ACTION
-product:
-- Windows
 targetos: Windows
 req.typenames: POWER_ACTION, *PPOWER_ACTION
 ---

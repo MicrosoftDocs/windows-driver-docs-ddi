@@ -37,8 +37,6 @@ api_location:
 - arrayofelements.hpp
 api_name:
 - ExtRemoteTyped.operator=
-product:
-- Windows
 targetos: Windows
 req.typenames: TTraceLevel
 req.product: Windows 10 or later.

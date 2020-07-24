@@ -33,8 +33,6 @@ api_location:
 - wdm.h
 api_name: 
 - IOMMU_MAP_IDENTITY_RANGE
-product:
-- Windows
 targetos: Windows
 ---
 

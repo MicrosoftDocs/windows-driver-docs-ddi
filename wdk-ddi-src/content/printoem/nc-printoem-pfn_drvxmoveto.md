@@ -37,8 +37,6 @@ api_location:
 - printoem.h
 api_name:
 - DrvXMoveTo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

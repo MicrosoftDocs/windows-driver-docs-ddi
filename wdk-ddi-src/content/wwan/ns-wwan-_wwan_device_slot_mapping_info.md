@@ -37,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_DEVICE_SLOT_MAPPING_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_DEVICE_SLOT_MAPPING_INFO, *PWWAN_DEVICE_SLOT_MAPPING_INFO
 ---

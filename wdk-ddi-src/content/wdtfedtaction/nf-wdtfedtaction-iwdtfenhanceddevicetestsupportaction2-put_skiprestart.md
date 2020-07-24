@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IWDTFEnhancedDeviceTestSupportAction2.SkipRestart
 - IWDTFEnhancedDeviceTestSupportAction2.put_SkipRestart
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

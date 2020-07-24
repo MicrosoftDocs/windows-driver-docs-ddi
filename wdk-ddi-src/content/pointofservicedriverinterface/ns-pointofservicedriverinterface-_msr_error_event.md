@@ -37,8 +37,6 @@ api_location:
 - PointOfServiceDriverInterface.h
 api_name:
 - MSR_ERROR_EVENT
-product:
-- Windows
 targetos: Windows
 req.typenames: MSR_ERROR_EVENT, *PMSR_ERROR_EVENT
 ---

@@ -37,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - DMA_COMPLETION_STATUS
-product:
-- Windows
 targetos: Windows
 req.typenames: DMA_COMPLETION_STATUS
 ---

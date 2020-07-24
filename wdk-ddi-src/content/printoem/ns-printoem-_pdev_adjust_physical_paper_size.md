@@ -37,8 +37,6 @@ api_location:
 - printoem.h
 api_name:
 - PDEV_ADJUST_PHYSICAL_PAPER_SIZE
-product:
-- Windows
 targetos: Windows
 req.typenames: PDEV_ADJUST_PHYSICAL_PAPER_SIZE, *PPDEV_ADJUST_PHYSICAL_PAPER_SIZE
 ---

@@ -31,8 +31,6 @@ api_location:
 - ntddndis.h
 api_name: 
 - _NDIS_TIMESTAMP_CAPABILITY_FLAGS
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

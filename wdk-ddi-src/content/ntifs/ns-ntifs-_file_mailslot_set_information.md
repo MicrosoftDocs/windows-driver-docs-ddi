@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - FILE_MAILSLOT_SET_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: FILE_MAILSLOT_SET_INFORMATION, *PFILE_MAILSLOT_SET_INFORMATION
 ---

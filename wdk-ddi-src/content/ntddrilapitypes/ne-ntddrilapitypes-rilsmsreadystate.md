@@ -37,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILSMSREADYSTATE
-product:
-- Windows
 targetos: Windows
 req.typenames: RILSMSREADYSTATE
 ---

@@ -37,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NDIS_FILTER_PARTIAL_CHARACTERISTICS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_FILTER_PARTIAL_CHARACTERISTICS, *PNDIS_FILTER_PARTIAL_CHARACTERISTICS
 ---

@@ -37,8 +37,6 @@ api_location:
 - WDTF.Interop.metadata_dll.dll
 api_name:
 - IWDTFCONFIG2.DisableObjectErrorLogging
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

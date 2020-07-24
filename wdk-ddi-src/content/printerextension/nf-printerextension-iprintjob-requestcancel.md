@@ -37,8 +37,6 @@ api_location:
 - Printerextension.h
 api_name:
 - IPrintJob.RequestCancel
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

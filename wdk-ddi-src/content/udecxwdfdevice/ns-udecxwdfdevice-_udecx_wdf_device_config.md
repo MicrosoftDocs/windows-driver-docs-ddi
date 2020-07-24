@@ -37,8 +37,6 @@ api_location:
 - udecxwdfdevice.h
 api_name:
 - UDECX_WDF_DEVICE_CONFIG
-product:
-- Windows
 targetos: Windows
 req.typenames: UDECX_WDF_DEVICE_CONFIG, *PUDECX_WDF_DEVICE_CONFIG
 ---

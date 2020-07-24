@@ -38,8 +38,6 @@ api_location:
 - Ntstrsafe.dll
 api_name:
 - RtlUnicodeStringValidate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

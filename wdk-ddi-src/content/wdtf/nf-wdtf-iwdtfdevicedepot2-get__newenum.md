@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IWDTFDeviceDepot2._NewEnum
 - IWDTFDeviceDepot2.get__NewEnum
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

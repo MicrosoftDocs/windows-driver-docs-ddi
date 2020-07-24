@@ -37,8 +37,6 @@ api_location:
 - usbfnbase.h
 api_name:
 - USBFN_USB_STRING
-product:
-- Windows
 targetos: Windows
 req.typenames: USBFN_USB_STRING, *PUSBFN_USB_STRING
 ---

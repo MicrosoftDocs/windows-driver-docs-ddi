@@ -28,8 +28,6 @@ api_location:
 - ntifs.h
 api_name: 
 - _STORAGE_RESERVE_ID
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

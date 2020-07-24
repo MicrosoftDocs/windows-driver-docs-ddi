@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK
-product:
-- Windows
 targetos: Windows
 req.typenames: VOLUME_READ_PLEX_INPUT, *PVOLUME_READ_PLEX_INPUT
 ---

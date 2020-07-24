@@ -27,8 +27,6 @@ api_location:
 - wdm.h
 api_name: 
 - _FAULT_INFORMATION_ARCH
-product:
-- Windows
 targetos: Windows
 ---
 

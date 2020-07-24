@@ -37,8 +37,6 @@ api_location:
 - wditypes.hpp
 api_name:
 - WDI_PACKET_FILTER_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: WDI_PACKET_FILTER_TYPE
 ---

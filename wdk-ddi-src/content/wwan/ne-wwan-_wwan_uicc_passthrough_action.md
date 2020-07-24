@@ -37,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_UICC_PASSTHROUGH_ACTION
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_UICC_PASSTHROUGH_ACTION, *PWWAN_UICC_PASSTHROUGH_ACTION
 ---

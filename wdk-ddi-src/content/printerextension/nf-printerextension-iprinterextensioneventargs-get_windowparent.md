@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IPrinterExtensionEventArgs.WindowParent
 - IPrinterExtensionEventArgs.get_WindowParent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

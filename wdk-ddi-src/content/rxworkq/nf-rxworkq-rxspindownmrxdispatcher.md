@@ -37,8 +37,6 @@ api_location:
 - rxworkq.h
 api_name:
 - RxSpinDownMRxDispatcher
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

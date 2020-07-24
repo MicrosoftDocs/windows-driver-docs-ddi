@@ -37,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFDriver.RetrieveVersionString
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

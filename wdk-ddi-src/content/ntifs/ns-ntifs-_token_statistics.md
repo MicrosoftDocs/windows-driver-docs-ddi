@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - TOKEN_STATISTICS
-product:
-- Windows
 targetos: Windows
 req.typenames: TOKEN_STATISTICS, *PTOKEN_STATISTICS
 ---

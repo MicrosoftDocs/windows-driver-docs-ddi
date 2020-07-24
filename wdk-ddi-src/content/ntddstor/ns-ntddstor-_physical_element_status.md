@@ -31,8 +31,6 @@ api_location:
 - ntddstor.h
 api_name: 
 - _PHYSICAL_ELEMENT_STATUS
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

@@ -37,8 +37,6 @@ api_location:
 - Winsplp.h
 api_name:
 - ROUTER_NOTIFY_CALLBACK
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

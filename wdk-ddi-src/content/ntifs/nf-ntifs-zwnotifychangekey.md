@@ -38,8 +38,6 @@ api_location:
 api_name:
 - ZwNotifyChangeKey
 - NtNotifyChangeKey
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

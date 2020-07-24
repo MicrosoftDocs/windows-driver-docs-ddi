@@ -37,8 +37,6 @@ api_location:
 - Ntdll.dll
 api_name:
 - RtlEqualPrefixSid
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

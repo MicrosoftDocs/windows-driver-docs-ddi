@@ -35,8 +35,6 @@ api_location:
 - usbpmapi.h
 api_name: 
 - USBPM_CONNECTOR_STATE_INIT
-product:
-- Windows
 targetos: Windows
 
 

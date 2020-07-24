@@ -38,8 +38,6 @@ api_location:
 api_name:
 - IPrinterScriptablePropertyBag2
 - IPrinterScriptablePropertyBag2.GetReadStreamAsXML
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

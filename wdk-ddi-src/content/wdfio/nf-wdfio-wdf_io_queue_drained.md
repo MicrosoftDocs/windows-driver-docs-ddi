@@ -38,8 +38,6 @@ api_location:
 - None.dll
 api_name:
 - WDF_IO_QUEUE_DRAINED
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

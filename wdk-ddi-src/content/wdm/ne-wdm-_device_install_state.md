@@ -37,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - DEVICE_INSTALL_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: DEVICE_INSTALL_STATE, *PDEVICE_INSTALL_STATE
 ---

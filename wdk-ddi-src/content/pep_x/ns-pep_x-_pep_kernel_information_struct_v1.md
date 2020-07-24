@@ -37,8 +37,6 @@ api_location:
 - pep_x.h
 api_name:
 - PEP_KERNEL_INFORMATION_STRUCT_V1
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_KERNEL_INFORMATION_STRUCT_V1, *PPEP_KERNEL_INFORMATION_STRUCT_V1
 ---

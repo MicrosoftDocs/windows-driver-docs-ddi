@@ -37,8 +37,6 @@ api_location:
 - ucxusbdevice.h
 api_name:
 - USBDEVICE_UPDATE_FLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: USBDEVICE_UPDATE_FLAGS
 ---

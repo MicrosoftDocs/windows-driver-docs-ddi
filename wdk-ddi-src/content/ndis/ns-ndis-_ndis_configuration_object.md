@@ -37,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NDIS_CONFIGURATION_OBJECT
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_CONFIGURATION_OBJECT, *PNDIS_CONFIGURATION_OBJECT
 ---

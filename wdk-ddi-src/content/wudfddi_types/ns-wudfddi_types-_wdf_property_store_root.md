@@ -37,8 +37,6 @@ api_location:
 - Wudfddi_types.h
 api_name:
 - WDF_PROPERTY_STORE_ROOT
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_PROPERTY_STORE_ROOT, *PWDF_PROPERTY_STORE_ROOT
 ---

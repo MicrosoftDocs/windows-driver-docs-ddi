@@ -34,8 +34,6 @@ api_location:
 api_name: 
 - PLEAVE_DMA_DOMAIN
 - LeaveDmaDomain
-product:
-- Windows
 targetos: Windows
 ---
 

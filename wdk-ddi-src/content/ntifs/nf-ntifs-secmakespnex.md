@@ -38,8 +38,6 @@ api_location:
 - Ksecdd.dll
 api_name:
 - SecMakeSPNEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

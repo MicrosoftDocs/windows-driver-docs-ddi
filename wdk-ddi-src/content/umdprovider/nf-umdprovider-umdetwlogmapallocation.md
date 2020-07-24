@@ -37,8 +37,6 @@ api_location:
 - umdprovider.h
 api_name:
 - UMDEtwLogMapAllocation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

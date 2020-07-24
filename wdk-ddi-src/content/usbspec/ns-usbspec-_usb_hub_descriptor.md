@@ -37,8 +37,6 @@ api_location:
 - usbspec.h
 api_name:
 - USB_HUB_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: USB_HUB_DESCRIPTOR, *PUSB_HUB_DESCRIPTOR
 ---

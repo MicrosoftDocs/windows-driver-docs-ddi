@@ -30,8 +30,6 @@ api_location:
 - treevariableservice.h
 api_name: 
 - _EFI_GET_NEXT_VARIABLE_NAME_IN
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

@@ -37,8 +37,6 @@ api_location:
 - usbbusif.h
 api_name:
 - EnumLogEntry
-product:
-- Windows
 targetos: Windows
 req.typenames: USBD_VERSION_INFORMATION, *PUSBD_VERSION_INFORMATION
 req.product: Windows 10 or later.

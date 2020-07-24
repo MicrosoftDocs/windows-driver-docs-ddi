@@ -37,8 +37,6 @@ api_location:
 - wdfcompanion.h
 api_name:
 - WDF_COMPANION_EVENT_CALLBACKS_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

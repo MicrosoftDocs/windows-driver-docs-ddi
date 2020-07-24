@@ -34,8 +34,6 @@ api_location:
 - trustedruntimeclx.h
 api_name: 
 - TrSecureDeviceQueryOSService
-product:
-- Windows
 targetos: Windows
 
 

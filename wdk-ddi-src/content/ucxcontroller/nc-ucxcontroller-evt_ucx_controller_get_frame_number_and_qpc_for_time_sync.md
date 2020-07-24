@@ -37,8 +37,6 @@ api_location:
 - Ucxcontroller.h
 api_name:
 - EvtUcxControllerGetFrameNumberAndQpcForTimeSync
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

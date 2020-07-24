@@ -37,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - FsRtlIsAnsiCharacterLegalNtfsStream
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
