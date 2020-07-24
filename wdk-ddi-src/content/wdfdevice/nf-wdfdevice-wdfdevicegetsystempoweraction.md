@@ -78,10 +78,10 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 ## -remarks
 
-Starting in WDF version 1.31, **WdfDeviceGetSystemPowerAction** has been updated to more accurately report system power action when the device is the power policy owner. Drivers need to be recompiled with KMDF or UMDF 1.31 or later to get the following new behavior:
+Starting in WDF version 1.31/2.31 (referred to as "v31"), **WdfDeviceGetSystemPowerAction** has been updated to more accurately report system power action when the device is the power policy owner. Drivers need to be recompiled with v31 or later to get the following new behavior:
 
-* If the device enters or exits D0 due to S0 Idle (see [**WdfDeviceAssignS0IdleSettings**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceassigns0idlesettings)) while an unrelated system power transition is in progress, **WdfDeviceGetSystemPowerAction** might return **PowerActionSleep**. This is fixed in version 1.31 and now it returns **PowerActionNone**.
-* When the system wakes up from Hybrid Sleep (sleep with a hibernation file), before version 1.31, **WdfDeviceGetSystemPowerAction** always returned **PowerActionHibernate**. This is fixed in version 1.31 and now it returns:
+* If the device enters or exits D0 due to S0 Idle (see [**WdfDeviceAssignS0IdleSettings**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceassigns0idlesettings)) while an unrelated system power transition is in progress, **WdfDeviceGetSystemPowerAction** might return **PowerActionSleep**. This is fixed in v31 and now it returns **PowerActionNone**.
+* When the system wakes up from Hybrid Sleep (sleep with a hibernation file), before v31, **WdfDeviceGetSystemPowerAction** always returned **PowerActionHibernate**. This is fixed in v31 and now it returns:
 
    - **PowerActionSleep** if it wakes without power loss, which means the system remained in S3
    - **PowerActionHibernate** if it wakes after power loss, which means the system resumed from the hibernation file
