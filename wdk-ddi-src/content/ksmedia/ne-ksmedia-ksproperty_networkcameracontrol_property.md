@@ -1,11 +1,9 @@
 ---
 UID: NE:ksmedia.__unnamed_enum_93
 title: KSPROPERTY_NETWORKCAMERACONTROL_PROPERTY (ksmedia.h)
-author: windows-driver-content
 description: The KSPROPERTY_NETWORKCAMERACONTROL_PROPERTY enumeration defines the network camera control properties.
 tech.root: stream
-ms.author: windowsdriverdev
-ms.date: 05/11/2020
+ms.date: 07/27/2020
 ms.topic: enum
 ms.keywords: KSPROPERTY_NETWORKCAMERACONTROL_PROPERTY
 f1_keywords:
@@ -32,8 +30,6 @@ api_name:
 - KSPROPERTY_NETWORKCAMERACONTROL_PROPERTY
 dev_langs:
 - c++
-product: 
-- Windows
 targetos: Windows
 ---
 
