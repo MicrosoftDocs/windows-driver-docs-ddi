@@ -64,4 +64,8 @@ For more on how to collect reset diagnostics, see [Register the optional diagnos
 
 ## -see-also
 
-[Recovering an unresponsive NIC with NetAdapterCx PLDR](/windows-hardware/drivers/netcx/platform-level-device-reset/).
+[Recovering an unresponsive NIC with NetAdapterCx PLDR](/windows-hardware/drivers/netcx/platform-level-device-reset/)
+
+[WdfDeviceCreate](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md)
+
+[NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES](../netdevice/ns-netdevice-net_device_reset_diagnostics_capabilities.md)

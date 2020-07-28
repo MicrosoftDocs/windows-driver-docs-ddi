@@ -76,4 +76,8 @@ See [Implement EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS](/windows-hardware/drive
 
 ## -see-also
 
-[Recovering unresponsive NIC with NetAdapterCx PLDR](/windows-hardware/drivers/netcx/platform-level-device-reset/).
+[Recovering unresponsive NIC with NetAdapterCx PLDR](/windows-hardware/drivers/netcx/platform-level-device-reset/)
+
+[WdfDeviceCreate](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md)
+
+[NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES](../netdevice/ns-netdevice-net_device_reset_diagnostics_capabilities.md)
