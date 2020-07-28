@@ -5,7 +5,7 @@ description: The PcwCloseInstance function closes the specified instance of the 
 old-location: devtest\pcwcloseinstance.htm
 tech.root: devtest
 ms.assetid: a577a116-9e5e-42d3-aac0-a6b90131ad9d
-ms.date: 02/23/2018
+ms.date: 07/28/2020
 keywords: ["PcwCloseInstance function"]
 ms.keywords: PcwCloseInstance, PcwCloseInstance function [Driver Development Tools], devtest.pcwcloseinstance, km_pcw_f30288bf-ff25-46fd-b058-74294fc03278.xml, wdm/PcwCloseInstance
 f1_keywords:
@@ -46,7 +46,7 @@ req.typenames:
 
 ## -description
 
-The `PcwCloseInstance` function closes a counterset instance that was created using [PcwCreateInstance](nf-wdm-pcwcreateinstance.md). Most developers will use a [CTRPP](/windows/win32/perfctrs/ctrpp)-generated Close\*\*\* function instead of calling this function directly.
+The `PcwCloseInstance` function closes a counterset instance that was created using [PcwCreateInstance](nf-wdm-pcwcreateinstance.md). Most developers will use a [CTRPP](https://docs.microsoft.com/windows/win32/perfctrs/ctrpp)-generated Close\*\*\* function instead of calling this function directly.
 
 ## -parameters
 

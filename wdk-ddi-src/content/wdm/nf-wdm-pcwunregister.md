@@ -5,7 +5,7 @@ description: The PcwUnregister function unregisters the provider of the specifie
 old-location: devtest\pcwunregister.htm
 tech.root: devtest
 ms.assetid: cf6aeb30-732b-494c-a714-caa6326c0375
-ms.date: 02/23/2018
+ms.date: 07/28/2020
 keywords: ["PcwUnregister function"]
 ms.keywords: PcwUnregister, PcwUnregister function [Driver Development Tools], devtest.pcwunregister, km_pcw_842b91a3-a846-4d1c-adcd-7e1b3fdf4af5.xml, wdm/PcwUnregister
 f1_keywords:
@@ -46,7 +46,7 @@ req.typenames:
 
 ## -description
 
-The `PcwUnregister` function closes the specified counterset registration. Most developers will use a [CTRPP](/windows/win32/perfctrs/ctrpp)-generated Unregister\*\*\* function instead of calling this function directly.
+The `PcwUnregister` function closes the specified counterset registration. Most developers will use a [CTRPP](https://docs.microsoft.com/windows/win32/perfctrs/ctrpp)-generated Unregister\*\*\* function instead of calling this function directly.
 
 ## -parameters
 

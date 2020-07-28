@@ -5,7 +5,7 @@ description: The PCW_REGISTRATION_INFORMATION structure supplies details about t
 old-location: devtest\pcw_registration_information.htm
 tech.root: devtest
 ms.assetid: f5305351-10b4-47e6-a8b6-e1a91c605ca9
-ms.date: 02/23/2018
+ms.date: 07/28/2020
 keywords: ["_PCW_REGISTRATION_INFORMATION structure"]
 ms.keywords: "*PPCW_REGISTRATION_INFORMATION, PCW_REGISTRATION_INFORMATION, PCW_REGISTRATION_INFORMATION structure [Driver Development Tools], PPCW_REGISTRATION_INFORMATION, PPCW_REGISTRATION_INFORMATION structure pointer [Driver Development Tools], _PCW_REGISTRATION_INFORMATION, devtest.pcw_registration_information, km_pcw_a740182f-4844-4a98-9493-522087a3d27c.xml, wdm/PCW_REGISTRATION_INFORMATION, wdm/PPCW_REGISTRATION_INFORMATION"
 f1_keywords:
@@ -46,7 +46,7 @@ req.typenames: PCW_REGISTRATION_INFORMATION, *PPCW_REGISTRATION_INFORMATION
 
 ## -description
 
-The `PCW_REGISTRATION_INFORMATION` structure supplies details about the provider and the counter set. Most developers will use the [CTRPP](/windows/win32/perfctrs/ctrpp)-generated Register\*\*\* or InitRegistrationInformation\*\*\* functions instead of using this structure directly.
+The `PCW_REGISTRATION_INFORMATION` structure supplies details about the provider and the counter set. Most developers will use the [CTRPP](https://docs.microsoft.com/windows/win32/perfctrs/ctrpp)-generated Register\*\*\* or InitRegistrationInformation\*\*\* functions instead of using this structure directly.
 
 ## -struct-fields
 
@@ -54,9 +54,9 @@ The `PCW_REGISTRATION_INFORMATION` structure supplies details about the provider
 
 The numeric value that specifies the version of Performance Counters for Windows (PCW) that the provider requires.
 
-When running on versions of Windows prior to Windows 10 20H2 (prior to NTDDI\_WIN10\_MN), the `Version` field must be set to PCW\_VERSION\_1 (0x100). When running on Windows 10 20H2 or later (NTDDI\_WIN10\_MN or later), this must be set to PCW\_VERSION\_1 (0x100) or PCW\_VERSION\_2 (0x200). If the `Version` field is set to an unrecognized value, `PcwRegister` will return STATUS\_INVALID\_PARAMETER\_2.
+When running on Windows prior to 10.0.19645 (`NTDDI_VERSION < NTDDI_VERSION_MN`), the `Version` field must be set to PCW\_VERSION\_1 (0x100). When running on Windows 10.0.19645 and later (`NTDDI_VERSION >= NTDDI_VERSION_MN`), this may be set to PCW\_VERSION\_1 (0x100) or PCW\_VERSION\_2 (0x200). If the `Version` field is set to an unrecognized value, `PcwRegister` will return STATUS\_INVALID\_PARAMETER\_2.
 
-By default (i.e. when using the CTRPP-generated Register\*\*\* or InitRegistrationInformation\*\*\* functions), the `Version` field will be set to `PCW_CURRENT_VERSION`, which is equivalent to one of the following values, depending on the compile-time value of `NTDDI_VERSION`:
+When using the CTRPP-generated Register\*\*\* or InitRegistrationInformation\*\*\* functions, the `Version` field will be set to `PCW_CURRENT_VERSION`, which is equivalent to one of the following values, depending on the compile-time value of `NTDDI_VERSION`:
 
 |Condition|PCW\_CURRENT\_VERSION value
 |---|---
@@ -157,4 +157,4 @@ The CTRPP-generated InitRegistrationInformation function can optionally verify t
 
 [PcwRegister function](nf-wdm-pcwregister.md)
 
-[CTRPP](/windows/win32/perfctrs/ctrpp)
+[CTRPP](https://docs.microsoft.com/windows/win32/perfctrs/ctrpp)

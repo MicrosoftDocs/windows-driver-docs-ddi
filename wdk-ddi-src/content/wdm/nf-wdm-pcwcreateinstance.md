@@ -5,7 +5,7 @@ description: The PcwCreateInstance function creates a new instance for the speci
 old-location: devtest\pcwcreateinstance.htm
 tech.root: devtest
 ms.assetid: ed9bd8fa-a6e6-465a-8415-3e9c19233419
-ms.date: 02/23/2018
+ms.date: 07/28/2020
 keywords: ["PcwCreateInstance function"]
 ms.keywords: PcwCreateInstance, PcwCreateInstance function [Driver Development Tools], devtest.pcwcreateinstance, km_pcw_32dba149-fed7-4e86-b68c-1f3a6348cb7a.xml, wdm/PcwCreateInstance
 f1_keywords:
@@ -46,7 +46,7 @@ req.typenames:
 
 ## -description
 
-The `PcwCreateInstance` function creates a new counterset instance. Most developers will use a [CTRPP](/windows/win32/perfctrs/ctrpp)-generated Create\*\*\* function instead of calling this function directly.
+The `PcwCreateInstance` function creates a new counterset instance. Most developers will use a [CTRPP](https://docs.microsoft.com/windows/win32/perfctrs/ctrpp)-generated Create\*\*\* function instead of calling this function directly.
 
 ## -parameters
 

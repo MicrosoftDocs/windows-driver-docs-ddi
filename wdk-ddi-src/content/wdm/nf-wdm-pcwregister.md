@@ -5,7 +5,7 @@ description: The PcwRegister function registers the caller as a provider of the 
 old-location: devtest\pcwregister.htm
 tech.root: devtest
 ms.assetid: 40fdb77c-bd6b-4ecd-a9c8-fd5e5b2adc80
-ms.date: 02/23/2018
+ms.date: 07/28/2020
 keywords: ["PcwRegister function"]
 ms.keywords: PcwRegister, PcwRegister function [Driver Development Tools], devtest.pcwregister, km_pcw_5204b626-3251-4c63-bd89-be1470980960.xml, wdm/PcwRegister
 f1_keywords:
@@ -46,7 +46,7 @@ req.typenames:
 
 ## -description
 
-The `PcwRegister` function creates a new counterset registration. Most developers will use a [CTRPP](/windows/win32/perfctrs/ctrpp)-generated Register\*\*\* function instead of calling this function directly.
+The `PcwRegister` function creates a new counterset registration. Most developers will use a [CTRPP](https://docs.microsoft.com/windows/win32/perfctrs/ctrpp)-generated Register\*\*\* function instead of calling this function directly.
 
 ## -parameters
 
@@ -72,14 +72,14 @@ A pointer to a [PCW\_REGISTRATION\_INFORMATION](ns-wdm-_pcw_registration_informa
 `PcwRegister` may return `STATUS_INVALID_PARAMETER_2` in the following cases:
 
 - The `Info->Name->Length` field is 0 or is not a multiple of `sizeof(WCHAR)`.
-- The `Info->Version` field does not match a supported value for this version of Windows. For Windows versions prior to Windows 10 20H2 (NTDDI\_VERSION\_MN), the Version must be set to `PCW_VERSION_1` (0x100). For Windows 10 20H2 and later, the Version must be set to `PCW_VERSION_1` (0x100) or `PCW_VERSION_2` (0x200).
-- The `Info->Flags` field contains a value not recognized by the system.
+- The `Info->Version` field does not match a supported value for this version of Windows. When running on Windows prior to 10.0.19645 (`NTDDI_VERSION < NTDDI_VERSION_MN`), the `Version` field must be set to PCW\_VERSION\_1 (0x100). When running on Windows 10.0.19645 and later (`NTDDI_VERSION >= NTDDI_VERSION_MN`), this may be set to PCW\_VERSION\_1 (0x100) or PCW\_VERSION\_2 (0x200).
+- The `Info->Flags` field contains a value not recognized by the running version of Windows.
 
 ## -remarks
 
 The provider calls this function to create a new counterset registration. All of the input arguments are captured so that the caller does not have to keep a copy of them.
 
-By default, the new counterset is visible only to the server silo that was active at the time of registration (i.e. `PcwRegister` associates the newly-created registration with the server silo that was attached to the thread when `PcwRegister` is called). On Windows 10 20H2 or later (NTDDI\_VERSION\_MN), use the `PcwRegistrationSiloNeutral` flag in the `PCW_REGISTRATION_INFORMATION::Flags` field to create a counterset registration that is visible to all server silos.
+By default, the new counterset is visible only to the server silo that was active at the time of registration (i.e. `PcwRegister` associates the newly-created registration with the server silo that was attached to the thread when `PcwRegister` is called). If running on Windows 10.0.19645 and later (`NTDDI_VERSION >= NTDDI_VERSION_MN`) you may create a counterset registration that is visible to all server silos by setting `PCW_REGISTRATION_INFORMATION::Version` to `PCW_VERSION_2` and setting `PCW_REGISTRATION_INFORMATION::Flags` to `PcwRegistrationSiloNeutral`.
 
 ### CTRPP-generated Register\*\*\* function
 
