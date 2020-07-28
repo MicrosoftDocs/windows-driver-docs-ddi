@@ -5,12 +5,11 @@ description: The NDIS_OFFLOAD_PARAMETERS structure specifies the current task of
 old-location: netvista\ndis_offload_parameters.htm
 tech.root: netvista
 ms.assetid: ceb6647a-a43e-4ab1-88d4-49927103ecba
-ms.date: 05/02/2018
-keywords: ["_NDIS_OFFLOAD_PARAMETERS structure"]
+ms.date: 02/27/2020
 ms.keywords: "*PNDIS_OFFLOAD_PARAMETERS, NDIS_ENCAPSULATION_TYPE_GRE_MAC, NDIS_OFFLOAD_PARAMETERS, NDIS_OFFLOAD_PARAMETERS structure [Network Drivers Starting with Windows Vista], NDIS_OFFLOAD_PARAMETERS_IPSECV1_AH_AND_ESP_ENABLED, NDIS_OFFLOAD_PARAMETERS_IPSECV1_AH_ENABLED, NDIS_OFFLOAD_PARAMETERS_IPSECV1_DISABLED, NDIS_OFFLOAD_PARAMETERS_IPSECV1_ESP_ENABLED, NDIS_OFFLOAD_PARAMETERS_IPSECV2_AH_AND_ESP_ENABLED, NDIS_OFFLOAD_PARAMETERS_IPSECV2_AH_ENABLED, NDIS_OFFLOAD_PARAMETERS_IPSECV2_DISABLED, NDIS_OFFLOAD_PARAMETERS_IPSECV2_ESP_ENABLED, NDIS_OFFLOAD_PARAMETERS_LSOV1_DISABLED, NDIS_OFFLOAD_PARAMETERS_LSOV1_ENABLED, NDIS_OFFLOAD_PARAMETERS_LSOV2_DISABLED, NDIS_OFFLOAD_PARAMETERS_LSOV2_ENABLED, NDIS_OFFLOAD_PARAMETERS_NO_CHANGE, NDIS_OFFLOAD_PARAMETERS_REVISION_1, NDIS_OFFLOAD_PARAMETERS_REVISION_2, NDIS_OFFLOAD_PARAMETERS_REVISION_3, NDIS_OFFLOAD_PARAMETERS_RSC_DISABLED, NDIS_OFFLOAD_PARAMETERS_RSC_ENABLED, NDIS_OFFLOAD_SET_NO_CHANGE, NDIS_OFFLOAD_SET_OFF, NDIS_OFFLOAD_SET_ON, PNDIS_OFFLOAD_PARAMETERS, PNDIS_OFFLOAD_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_OFFLOAD_PARAMETERS, netvista.ndis_offload_parameters, ntddndis/NDIS_OFFLOAD_PARAMETERS, ntddndis/PNDIS_OFFLOAD_PARAMETERS, tcpip_offload_ref_9ae50974-12a7-4c63-973e-27684a4f1474.xml"
+ms.topic: struct
 f1_keywords:
  - "ntddndis/NDIS_OFFLOAD_PARAMETERS"
- - "NDIS_OFFLOAD_PARAMETERS"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -43,28 +42,21 @@ req.typenames: NDIS_OFFLOAD_PARAMETERS, *PNDIS_OFFLOAD_PARAMETERS
 
 # _NDIS_OFFLOAD_PARAMETERS structure
 
-
 ## -description
-
 
 The <b>NDIS_OFFLOAD_PARAMETERS</b> structure specifies the current task offload configuration settings in
   response to an 
   OID set request of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-offload-parameters">OID_TCP_OFFLOAD_PARAMETERS</a>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
 The 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      <b>NDIS_OFFLOAD_PARAMETERS</b> structure. Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_DEFAULT.
-     
 
 To indicate the version of the <b>NDIS_OFFLOAD_PARAMETERS</b> structure, set the 
      <b>Revision</b> member to one of the following values:
@@ -122,44 +114,36 @@ Set the
 </td>
 </tr>
 </table>
- 
-
 
 ### -field IPv4Checksum
 
 The IPv4 checksum setting of the miniport adapter. For more information, see the following Remarks
      section.
 
-
 ### -field TCPIPv4Checksum
 
 The IPv4 checksum setting of the miniport adapter for TCP packets. For more information, see the
      following Remarks section.
-
 
 ### -field UDPIPv4Checksum
 
 The IPv4 checksum setting of the miniport adapter for UDP packets. For more information, see the
      following Remarks section.
 
-
 ### -field TCPIPv6Checksum
 
 The IPv6 checksum setting of the miniport adapter for TCP packets. For more information, see the
      following Remarks section.
-
 
 ### -field UDPIPv6Checksum
 
 The IPv6 checksum setting of the miniport adapter for UDP packets. For more information, see the
      following Remarks section.
 
-
 ### -field LsoV1
 
 The large send offload version 1 (LSOV1) setting of the miniport adapter. This setting should be
      one of the following values:
-     
 
 <table>
 <tr>
@@ -197,14 +181,11 @@ LSOV1 is enabled.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field IPsecV1
 
 The Internet protocol security (IPsec) offload setting of the miniport adapter. This setting
      should be one of the following values:
-     
 
 <table>
 <tr>
@@ -264,14 +245,11 @@ The IPsec offload AH and ESP features areenabled for transmit and receive.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field LsoV2IPv4
 
 The IPv4 large send offload version 2 (LSOV2) setting of the miniport adapter. This setting should
      be one of the following values:
-     
 
 <table>
 <tr>
@@ -309,14 +287,11 @@ LSOV2 for IPv4 is enabled.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field LsoV2IPv6
 
 The IPv6 LSOV2 setting of the miniport adapter. These settings are specified as one of the
      following values:
-     
 
 <table>
 <tr>
@@ -354,14 +329,11 @@ LSOV2 for IPv6 is enabled.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field TcpConnectionIPv4
 
 The IPv4 connection offload setting of the miniport adapter. These settings are specified as one
      of the following values:
-     
 
 <table>
 <tr>
@@ -702,40 +674,130 @@ Specifies GRE MAC  encapsulation (NVGRE).
 
 </td>
 </tr>
+<tr>
+<td width="40%"><a id="NDIS_ENCAPSULATION_TYPE_GRE_MAC"></a><a id="ndis_encapsulation_type_gre_mac"></a><dl>
+<dt><b>NDIS_ENCAPSULATION_TYPE_VXLAN</b></dt>
+<dt>0x00000002</dt>
+</dl>
+</td>
+<td width="60%">
+Specifies VXLAN encapsulation.
+
+</td>
+</tr>
 </table>
  
 
 
 ### -field EncapsulationProtocolParameters
 
- 
+A union that describes the encapsulation parameters for VXLAN encapsulation. 
 
+If the miniport driver advertised **VxlanUDPPortNumerConfigurable** as **TRUE**, then a protocol driver can set **EncapsulationProtocolParameters.VxlanParameters.VxlanUDPPortNumber** to a non-0 value. The minport driver must use this port number for matching and generating VXLAN frames after succeeding the OID, and also advertise the updated value in its capabilities. If the protocol driver passes a value of **0**, then the miniport driver continues to use the port number initialized from the standardized keyword. 
 
 ### -field EncapsulationProtocolParameters.VxlanParameters
 
- 
-
+A structure that contains the **VxlanUDPPortNumber**.
 
 ### -field EncapsulationProtocolParameters.VxlanParameters.VxlanUDPPortNumber
 
- 
-
+The VXLAN destination port value. This value is set to the IANA-assigned value of 4789 by default. If the miniport driver supports a configurable port number as advertised in the [**NDIS_OFFLOAD**](../ntddndis/ns-ntddndis-_ndis_offload.md) structure, a protocol driver can issue an [OID_TCP_OFFLOAD_PARAMETERS](https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-offload-parameters) OID to enable NDIS_ENCAPSULATION_TYPE_VXLAN with a different value in **VxlanUDPPortNumber**. The miniport driver must use **VxlanUDPPortNumber** to determine VXLAN encapsulated packets for performing receive offloads.
 
 ### -field EncapsulationProtocolParameters.Value
 
- 
-
+The port value if **EncapsulationTypes** is not set to NDIS_ENCAPSULATION_TYPE_VXLAN.
 
 ### -field _ENCAPSULATION_PROTOCOL_PARAMETERS
 
- 
+The type name for **EncapsulationProtocolParameters**.
 
+### -field UdpSegmentation
 
+A structure that describes the miniport adapter's UDP Segmentation Offload (USO) settings.
 
+### -field UdpSegmentation.IPv4
+
+The IPv4 UDP Segmentation Offload (USO) setting of the miniport adapter. This setting should be one of the following values:     
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="NDIS_OFFLOAD_PARAMETERS_NO_CHANGE"></a><a id="ndis_offload_parameters_no_change"></a><dl>
+<dt><b>NDIS_OFFLOAD_PARAMETERS_NO_CHANGE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The miniport driver should not change the current setting.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="NDIS_OFFLOAD_PARAMETERS_UDP_SEG_DISABLED"></a><a id="ndis_offload_parameters_udp_seg_disabled"></a><dl>
+<dt><b>NDIS_OFFLOAD_PARAMETERS_UDP_SEG_DISABLED</b></dt>
+</dl>
+</td>
+<td width="60%">
+USO is disabled.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="NDIS_OFFLOAD_PARAMETERS_UDP_SEG_ENABLED"></a><a id="ndis_offload_parameters_udp_seg_enabled"></a><dl>
+<dt><b>NDIS_OFFLOAD_PARAMETERS_UDP_SEG_ENABLED</b></dt>
+</dl>
+</td>
+<td width="60%">
+USO is enabled.
+
+</td>
+</tr>
+</table>
+
+### -field UdpSegmentation.IPv6
+
+The IPv6 UDP Segmentation Offload (USO) setting of the miniport adapter. This setting should be one of the following values:     
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="NDIS_OFFLOAD_PARAMETERS_NO_CHANGE"></a><a id="ndis_offload_parameters_no_change"></a><dl>
+<dt><b>NDIS_OFFLOAD_PARAMETERS_NO_CHANGE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The miniport driver should not change the current setting.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="NDIS_OFFLOAD_PARAMETERS_UDP_SEG_DISABLED"></a><a id="ndis_offload_parameters_udp_seg_disabled"></a><dl>
+<dt><b>NDIS_OFFLOAD_PARAMETERS_UDP_SEG_DISABLED</b></dt>
+</dl>
+</td>
+<td width="60%">
+USO is disabled.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="NDIS_OFFLOAD_PARAMETERS_UDP_SEG_ENABLED"></a><a id="ndis_offload_parameters_udp_seg_enabled"></a><dl>
+<dt><b>NDIS_OFFLOAD_PARAMETERS_UDP_SEG_ENABLED</b></dt>
+</dl>
+</td>
+<td width="60%">
+USO is enabled.
+
+</td>
+</tr>
+</table>
 
 ## -remarks
-
-
 
 In response to an 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-offload-parameters">OID_TCP_OFFLOAD_PARAMETERS</a> OID set
@@ -761,17 +823,27 @@ To access the checksum offload settings, use the following members of the <b>NDI
 
 The preceding members can have one of the following values:
 
+NDIS_OFFLOAD_PARAMETERS_NO_CHANGE  
+The miniport driver should not change the current setting.
 
+NDIS_OFFLOAD_PARAMETERS_TX_RX_DISABLED  
+The feature that the member specifies is disabled.
 
+NDIS_OFFLOAD_PARAMETERS_TX_ENABLED_RX_DISABLED  
+The feature that the member specifies is enabled for transmit and disabled for receive.
 
+NDIS_OFFLOAD_PARAMETERS_RX_ENABLED_TX_DISABLED  
+The feature that the member specifies is enabled for receive and disabled for transmit.
 
+NDIS_OFFLOAD_PARAMETERS_TX_RX_ENABLED  
+The feature that the member specifies is enabled for transmit and receive.
 
 ## -see-also
 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
