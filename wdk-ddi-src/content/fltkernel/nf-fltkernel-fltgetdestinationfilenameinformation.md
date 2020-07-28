@@ -5,7 +5,7 @@ description: The FltGetDestinationFileNameInformation routine constructs a full 
 old-location: ifsk\fltgetdestinationfilenameinformation.htm
 tech.root: ifsk
 ms.assetid: b5438802-fc96-4445-9261-5d497d2d24cc
-ms.date: 05/22/2019
+ms.date: 07/27/2020
 keywords: ["FltGetDestinationFileNameInformation function"]
 ms.keywords: FltApiRef_e_to_o_127cb786-b74b-4c1b-bb38-87ad3494900b.xml, FltGetDestinationFileNameInformation, FltGetDestinationFileNameInformation routine [Installable File System Drivers], fltkernel/FltGetDestinationFileNameInformation, ifsk.fltgetdestinationfilenameinformation
 f1_keywords:
@@ -75,7 +75,7 @@ Length, in bytes, of the wide-character string that *FileName* points to.
 
 ### -param NameOptions [in]
 
-[FLT_FILE_NAME_OPTIONS](https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-file-name-options) value containing flags that specify the format of the name information to be returned, the query method that the Filter Manager is to use, and additional file name flags. This parameter is required and cannot be **NULL**.
+A [FLT_FILE_NAME_OPTIONS](https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-file-name-options) value containing flags that specify the format of the name information to be returned, the query method that the Filter Manager is to use, and additional file name flags. This parameter is required and cannot be **NULL**.
 
 The following are the name format flag values. Only one name format flag can be specified. (Note that FLT_FILE_NAME_SHORT is not a valid flag value for this parameter.)
 
@@ -93,13 +93,12 @@ The following are the query method flag values. Only one query method flag can b
 | FLT_FILE_NAME_QUERY_FILESYSTEM_ONLY | **FltGetDestinationFileNameInformation** queries the file system for the file name information. It does not query the Filter Manager's name cache, and does not cache the result of the file system query. |
 | FLT_FILE_NAME_QUERY_ALWAYS_ALLOW_CACHE_LOOKUP | **FltGetDestinationFileNameInformation** queries the Filter Manager's name cache for the file name information. If the name is not found in the cache, and it is currently safe to do so, **FltGetDestinationFileNameInformation** queries the file system for the file name information and cache the result. |
 
-The following are the file name flag values. Any combination of these flags can be specified.
+The following are the file name flag values. Any combination of these flags can be specified. (Note that FLT_FILE_NAME_ALLOW_QUERY_ON_REPARSE is not a relevant flag for this parameter since **FltGetDestinationFileNameInformation** is not used in a post-create callback.)
 
 | File Name Flag Value | Meaning |
 | ----------------------- | ------- |
 | FLT_FILE_NAME_REQUEST_FROM_CURRENT_PROVIDER | **FltGetDestinationFileNameInformation** directs the name request to the calling filter instance to complete. |
 | FLT_FILE_NAME_DO_NOT_CACHE | **FltGetDestinationFileNameInformation** does not cache the retrieved file name. Name provider minifilters use this flag as they perform intermediate queries to generate a name. |
-| FLT_FILE_NAME_ALLOW_QUERY_ON_REPARSE | Indicates that it is safe to query the name in the post-create path even if STATUS_REPARSE was returned. It is the caller's responsibility to ensure that the **FileObject->FileName** field was not changed. Do not use this flag with mount points or symbolic link reparse points. |
 
 ### -param RetFileNameInformation [out]
 
