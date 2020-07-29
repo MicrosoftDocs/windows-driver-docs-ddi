@@ -57,11 +57,11 @@ Identifies the adapter containing the overlay hardware.
 
 ### -param pPostPresent
 
-A pointer to a DXGKARG_POSTMULTIPLANEOVERLAYPRESENT structure that describes the new overlay configuration recently committed.
+A pointer to a [DXGKARG_POSTMULTIPLANEOVERLAYPRESENT](ns-d3dkmddi-_dxgkarg_postmultiplaneoverlaypresent.md) structure that describes the new overlay configuration recently committed.
 
 ## -returns
 
-DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT returns the following values:
+**DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT** returns the following values:
 
 |Return code|Description|
 |--- |--- |
@@ -71,7 +71,7 @@ DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT returns the following values:
 
 This function is called from PASSIVE level.
 
-This function is only called when driver sets PostPresentNeeded of DXGKCB_NOTIFY_MPO_VSYNC_FLAGS member of the DXGKARGCB_NOTIFY_INTERRUPT_DATA structure in the VSYNC callback.
+This function is only called when driver sets PostPresentNeeded of [DXGKCB_NOTIFY_MPO_VSYNC_FLAGS](ns-d3dkmddi-_dxgkcb_notify_mpo_vsync_flags.md) member of the [DXGKARGCB_NOTIFY_INTERRUPT_DATA](ns-d3dkmddi-_dxgkargcb_notify_interrupt_data.md) structure in the VSYNC callback.
 
 The driver can use this function to lower voltage levels, clocks, FIFO depths, or any other optimization that can save power.
 

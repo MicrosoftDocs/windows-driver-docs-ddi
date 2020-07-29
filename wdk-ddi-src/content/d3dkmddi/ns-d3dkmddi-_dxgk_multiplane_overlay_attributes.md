@@ -43,27 +43,21 @@ req.typenames: DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES
 
 # _DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES structure
 
+> [!NOTE] This structure has been replaced by [DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3](ns-d3dkmddi-_dxgk_multiplane_overlay_attributes3.md).
 
 ## -description
 
-
 Used by the display miniport driver to specify overlay plane attributes.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Flags
 
 Specifies a flip operation as one of the applicable constant values in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_multiplane_overlay_flags">DXGK_MULTIPLANE_OVERLAY_FLAGS</a> enumeration.
 
-
 ### -field SrcRect
 
 Specifies the source rectangle, of type <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a>, relative to the source resource.
-
 
 ### -field DstRect
 

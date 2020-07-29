@@ -47,7 +47,7 @@ req.typenames: DXGK_MULTIPLANEOVERLAYCAPS
 ## -description
 
 
-Multiplane overlay capabilities returned by the DxgkDdiGetMultiPlaneOverlayCaps function.
+Multiplane overlay capabilities returned by the [DxgkDdiGetMultiPlaneOverlayCaps](nc-d3dkmddi-dxgkddi_getmultiplaneoverlaycaps.md) function.
 
 
 ## -struct-fields

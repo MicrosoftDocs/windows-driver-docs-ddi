@@ -48,7 +48,7 @@ req.typenames: DXGKARG_POSTMULTIPLANEOVERLAYPRESENT
 ## -description
 
 
-Contains arguments for the DxgkDdiPostMultiPlaneOverlayPresent function.
+Contains arguments for the [DxgkDdiPostMultiPlaneOverlayPresent](nc-d3dkmddi-dxgkddi_postmultiplaneoverlaypresent.md) function.
 
 
 ## -struct-fields

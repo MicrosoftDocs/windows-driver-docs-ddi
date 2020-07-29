@@ -42,6 +42,8 @@ tech.root: display
 
 # PFND3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT callback function
 
+> [!NOTE] This function has been replaced by [PFND3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT3](nc-d3dkmthk-pfnd3dkmt_checkmultiplaneoverlaysupport3.md).
+
 ## -description
 
 The PFND3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT callback function checks the details of hardware support for multiplane overlays.

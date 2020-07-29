@@ -64,7 +64,7 @@ Indicates that the driver should perform a flip operation that occurs without ve
 
 Indicates that the driver should perform a flip operation that occurs on the next vertical sync.
 
-If the current line being displayed is less than DXGK_MULTIPLANE_OVERLAY_PLANE3.MaxImmediateFlipLine, the driver should convert this flip to an immediate flip and set DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS. FlipConvertedToImmediate to TRUE.
+If the current line being displayed is less than [DXGK_MULTIPLANE_OVERLAY_PLANE3](ns-d3dkmddi-_dxgk_multiplane_overlay_plane3.md).MaxImmediateFlipLine, the driver should convert this flip to an immediate flip and set [DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS](ns-d3dkmddi-_dxgk_plane_specific_output_flags.md). FlipConvertedToImmediate to TRUE.
 
 ### -field SharedPrimaryTransition
 

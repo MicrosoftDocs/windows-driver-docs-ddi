@@ -48,7 +48,7 @@ req.typenames: DXGK_MULTIPLANE_OVERLAY_PLANE3
 ## -description
 
 
-Specifies an overlay plane to display in a call to the DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay3 function.
+Specifies an overlay plane to display in a call to the [DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay3](nc-d3dkmddi-dxgkddi_setvidpnsourceaddresswithmultiplaneoverlay3.md) function.
 
 
 ## -struct-fields
@@ -68,12 +68,12 @@ A 64 bit per-plane identifier used by the driver to report completion of the ove
 
 ### -field InputFlags
 
-A DXGK_PLANE_SPECIFIC_INPUT_FLAGS structure that identifies any plane specific display operations to perform.
+A [DXGK_PLANE_SPECIFIC_INPUT_FLAGS](ns-d3dkmddi-_dxgk_plane_specific_input_flags.md) structure that identifies any plane specific display operations to perform.
 
 
 ### -field OutputFlags
 
-A DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS structure containing status returned by the driver.
+A [DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS](ns-d3dkmddi-_dxgk_plane_specific_output_flags.md) structure containing status returned by the driver.
 
 
 ### -field MaxImmediateFlipLine
@@ -94,7 +94,7 @@ The display line value is relative to the physical mode that is set. If the disp
 
 
 
-When a VSYNC flip is promoted to an immediate flip, the driver should set DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS. FlipConvertedToImmediate to TRUE.
+When a VSYNC flip is promoted to an immediate flip, the driver should set [DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS](ns-d3dkmddi-_dxgk_plane_specific_output_flags.md). FlipConvertedToImmediate to TRUE.
 
 
 
@@ -120,5 +120,5 @@ Private driver data.
 
 ### -field PlaneAttributes
 
-A structure of type DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3 that specifies overlay plane attributes.
+A structure of type [DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3](ns-d3dkmddi-_dxgk_multiplane_overlay_attributes3.md) that specifies overlay plane attributes.
 
