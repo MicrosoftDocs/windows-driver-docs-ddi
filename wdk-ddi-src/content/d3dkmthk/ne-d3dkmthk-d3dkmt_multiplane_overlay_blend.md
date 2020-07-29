@@ -48,7 +48,7 @@ Opaque.
 
 ### -field D3DKMT_MULTIPLANE_OVERLAY_BLEND_ALPHABLEND 
 
-Alpha blend.
+Alpha blend (in linear space).
 
 ## -remarks
 

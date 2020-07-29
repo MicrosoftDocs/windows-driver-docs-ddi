@@ -57,7 +57,7 @@ A structure containing the flags set by the driver to process a flip entry.
 
 ### -field PostPresentNeeded
 
-The driver sets this flag to indicate that scheduler must call DXGDDI_POSTMULTIPLANEOVERLAYPRESENT for this flip entry. 
+The driver sets this flag to indicate that scheduler must call [DxgkDdiPostMultiplaneOverlayPresent](nc-d3dkmddi-dxgkddi_postmultiplaneoverlaypresent.md) for this flip entry.
 
 
 ### -field Reserved
@@ -66,4 +66,3 @@ This member is reserved and should be set to zero. Setting this member to zero i
 
 
 ### -field Value
-

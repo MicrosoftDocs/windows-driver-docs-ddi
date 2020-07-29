@@ -39,6 +39,8 @@ tech.root: display
 
 # _D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT structure
 
+> [!NOTE] This structure has been replaced by [D3DKMT_CHECK_MULTIPLANE_OVERLAY_PLANE3](ns-d3dkmthk-_d3dkmt_check_multiplane_overlay_plane3.md).
+
 ## -description
 
 Check for multiplane overlay support.

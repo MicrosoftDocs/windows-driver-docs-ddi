@@ -48,7 +48,7 @@ req.typenames: DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT3
 ## -description
 
 
-Used in a call to the DxgkDdiCheckMultiPlaneOverlaySupport3 function to check details on hardware support for multi-plane overlays.
+Used in a call to the [DxgkDdiCheckMultiPlaneOverlaySupport3](nc-d3dkmddi-dxgkddi_checkmultiplaneoverlaysupport3.md) function to check details on hardware support for multi-plane overlays.
 
 
 ## -struct-fields

@@ -43,13 +43,14 @@ req.typenames: DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE
 
 # _DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE structure
 
+> [!NOTE] This structure has been replaced by [DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE2](ns-d3dkmddi-_dxgk_multiplane_overlay_plane_with_source2.md).
 
 ## -description
 
 
 <b>DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE</b>
 
-describes the multi-plane overlay plane attributes, allocation, and video present network source identification number.
+Describes the multi-plane overlay plane attributes, allocation, and video present network source identification number.
 
 
 
