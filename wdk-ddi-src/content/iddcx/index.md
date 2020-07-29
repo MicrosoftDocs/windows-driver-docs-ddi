@@ -19,5 +19,5 @@ tech.root: display
 
 This header is used by indirect display drivers. For more information, see:
 
-- [Indirect display driver model overview](/windows-hardware/drivers/display/indirect-display-driver-model-overview)
+- [Indirect display driver model overview](https://docs.microsoft.com/windows-hardware/drivers/display/indirect-display-driver-model-overview)
 - [All display driver headers](../_display/index.md)
