@@ -49,7 +49,11 @@ The requested registry key is the immutable parameters key for the driver.
 
 ### -field DriverRegKeyPersistentState 
 
-The requested registry key is a location for mutable state to be read/written that will persist across reboots.
+The requested registry key is a location for mutable state to be read/written that will persist across reboots. This mutable state is specific to the internals of the driver and only accessible by the driver itself.
+
+### -field DriverRegKeySharedPersistentState 
+
+The requested registry key is a location for mutable state to be read/written that will persist across reboots. This mutable state is meant to be shared between the driver and other components. Other components can access this registry key using GetSharedServiceRegistryStateKey. This value is available on Windows Iron and later versions of Windows.
 
 ## -remarks
 
