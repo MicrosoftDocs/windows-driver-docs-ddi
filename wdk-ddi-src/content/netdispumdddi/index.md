@@ -17,6 +17,10 @@ tech.root: display
 ## -description
 
 
-This header is used by display. For more information, see:
+> [!NOTE]
+> As of Windows 10, the OS contains a native implementation of Miracast wireless displays. Drivers should no longer implement a custom Miracast display component. Support for custom Miracast implementations may be removed in a future version of Windows.
 
+This header is used by display drivers for custom Miracast implementations. For more information, see:
+
+- [Wireless displays (Miracast)](/windows-hardware/drivers/display/wireless-displays--miracast-)
 - [Display](../_display/index.md)
