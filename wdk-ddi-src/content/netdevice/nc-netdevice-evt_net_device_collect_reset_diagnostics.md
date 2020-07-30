@@ -7,7 +7,7 @@ ms.author: windowsdriverdev
 ms.date: 07/02/2020
 ms.custom: Fe
 targetos: Windows
-description: Implement this optional callback to collect diagnostics from hardware device and report it to the framework in the process of device reset and recovery.
+description: Implement EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS to collect diagnostics from a failed hardware device and report it to the framework during the device reset and recovery process.
 keywords: ["EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS callback function"]
 req.assembly:
 req.construct-type: function
@@ -46,37 +46,27 @@ dev_langs:
 
 ## -description
 
-Implement this optional callback to collect diagnostics from hardware device and report it to the framework in the process of device reset and recovery.
-
-## -prototype
-
-```cpp
-// Declaration
-EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS EvtNetDeviceCollectResetDiagnostics;
-
-// Definition
-void EvtNetDeviceCollectResetDiagnostics
-(
-    WDFDEVICE Device
-)
-{...}
-```
+Implement this optional callback to collect diagnostics from a failed hardware device and report it to the NetAdapterCx framework during the device reset and recovery process.
 
 ## -parameters
 
-### -param Device:
+### -param Device
 
 The WDFDEVICE object that the client driver previously obtained with a call to [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md).
 
 ## -remarks
-If provided, the framework (NetAdapterCx) invokes **EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS** callback to collect reset diagnostics in the process of reset and recovery.
-The framework always invokes **EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS** callback at PASSIVE_LEVEL.
+If provided, the NetAdapterCx framework invokes the **EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS** callback to collect reset diagnostics during the reset and recovery process.
+
+The framework always invokes the **EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS** callback at PASSIVE_LEVEL.
 This callback is referred by the **EvtNetDeviceCollectResetDiagnostics** field of the [**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES**](../netdevice/ns-netdevice-net_device_reset_diagnostics_capabilities.md) data structure.
-See [Implement EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS](/windows-hardware/drivers/netcx/platform-level-device-reset/#implement-EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS) for how to correctly implement this callback and the synchrnoization guarantee provided by the framework.
+.....
+
+The [**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES**](../netdevice/ns-netdevice-net_device_reset_diagnostics_capabilities.md) data structure's  **EvtNetDeviceCollectResetDiagnostics** field refers to this callback.
+See [Implement EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS](/windows-hardware/drivers/netcx/platform-level-device-reset/#implement-EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS) for how to correctly implement this callback and the synchronization guarantee provided by the framework.
 
 ## -see-also
 
-[Recovering unresponsive NIC with NetAdapterCx PLDR](/windows-hardware/drivers/netcx/platform-level-device-reset/)
+[Recovering an unresponsive NIC with NetAdapterCx PLDR](/windows-hardware/drivers/netcx/platform-level-device-reset/)
 
 [WdfDeviceCreate](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md)
 

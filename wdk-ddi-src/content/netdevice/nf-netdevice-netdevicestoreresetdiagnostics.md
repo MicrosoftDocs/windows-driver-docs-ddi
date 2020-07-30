@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The **NetDeviceStoreResetDiagnostics** method stores client driver collected reset diagnostics into the framework.
+The **NetDeviceStoreResetDiagnostics** method stores client driver collected reset diagnostics into the NetAdapterCx framework.
 
 ## -parameters
 
@@ -54,7 +54,7 @@ The WDFDEVICE object the client driver previously created with a call to [**WdfD
 
 ### -param ResetDiagnosticsSize
 
-The size, in bytes, of the **ResetDiagnosticsBuffer**. The maximum amount of reset diagnostics accepted by the framework is 1 MBytes.
+The size, in bytes, of the **ResetDiagnosticsBuffer**. The maximum size of reset diagnostics the framework accepts is 1 MBytes.
 
 ### -param ResetDiagnosticsBuffer
 
@@ -62,9 +62,13 @@ A pointer to the data buffer that holds the reset diagnostics data. The data buf
 
 ## -remarks
 
-The only valid scenario to invoke the **NetDeviceStoreResetDiagnostics** method is in a client driver's implementation of [**EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS**](../netdevice/nc-netdevice-evt_net_device_collect_reset_diagnostics.md) callback.
+The only valid scenario to invoke the **NetDeviceStoreResetDiagnostics** method is in a client driver's [**EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS**](../netdevice/nc-netdevice-evt_net_device_collect_reset_diagnostics.md) callback.
 See [Implement EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS](/windows-hardware/drivers/netcx/platform-level-device-reset/#implement-EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS) for how to correctly use the **NetDeviceStoreResetDiagnostics** method.
 
 ## -see-also
 
-[Recovering unresponsive NIC with NetAdapterCx PLDR](/windows-hardware/drivers/netcx/platform-level-device-reset/).
+[Recovering an unresponsive NIC with NetAdapterCx PLDR](/windows-hardware/drivers/netcx/platform-level-device-reset/)
+
+[**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md)
+
+[**EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS**](../netdevice/nc-netdevice-evt_net_device_collect_reset_diagnostics.md)
