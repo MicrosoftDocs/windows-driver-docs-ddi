@@ -47,7 +47,7 @@ req.typenames: D3DDDI_SYNCHRONIZATIONOBJECT_TYPE
 ## -description
 
 
-The <b>D3DDDI_SYNCHRONIZATIONOBJECT_TYPE</b> enumeration indicates the type of synchronization object.
+The **D3DDDI_SYNCHRONIZATIONOBJECT_TYPE** enumeration indicates the type of synchronization object.
 
 
 ## -enum-fields
@@ -89,14 +89,9 @@ The synchronization object is a monitored fence.
 
 Supported starting with Windows 10.
 
-The synchronization object is a periodic monitored fence.
-
-Supported starting with Windows 10.
-
 
 ### -field D3DDDI_PERIODIC_MONITORED_FENCE
 
+The synchronization object is a periodic monitored fence.
 
-
-
-
+Supported starting with Windows 10.
