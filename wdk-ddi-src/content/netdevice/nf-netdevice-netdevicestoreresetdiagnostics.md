@@ -7,7 +7,7 @@ ms.author: windowsdriverdev
 ms.date: 07/02/2020
 ms.custom: Fe
 targetos: Windows
-description: The **NetDeviceStoreResetDiagnostics** method stores client driver collected reset diagnostics into the framework.
+description: The NetDeviceStoreResetDiagnostics method stores client driver collected reset diagnostics into the NetAdapterCx framework.
 keywords: ["NetDeviceStoreResetDiagnostics function"]
 req.assembly:
 req.construct-type: function
@@ -54,7 +54,7 @@ The WDFDEVICE object the client driver previously created with a call to [**WdfD
 
 ### -param ResetDiagnosticsSize
 
-The size, in bytes, of the **ResetDiagnosticsBuffer**. The maximum size of reset diagnostics the framework accepts is 1 MBytes.
+The size in bytes of the **ResetDiagnosticsBuffer**. The maximum size of reset diagnostics the framework accepts is 1 MB.
 
 ### -param ResetDiagnosticsBuffer
 
@@ -62,8 +62,9 @@ A pointer to the data buffer that holds the reset diagnostics data. The data buf
 
 ## -remarks
 
-The only valid scenario to invoke the **NetDeviceStoreResetDiagnostics** method is in a client driver's [**EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS**](../netdevice/nc-netdevice-evt_net_device_collect_reset_diagnostics.md) callback.
-See [Implement EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS](/windows-hardware/drivers/netcx/platform-level-device-reset/#implement-EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS) for how to correctly use the **NetDeviceStoreResetDiagnostics** method.
+The only valid scenario to invoke the **NetDeviceStoreResetDiagnostics** method is in a client driver's [**EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS**](../netdevice/nc-netdevice-evt_net_device_collect_reset_diagnostics.md) callback. The client driver must call **NetDeviceStoreResetDiagnostics** at PASSIVE_LEVEL
+
+To learn how to correctly use the **NetDeviceStoreResetDiagnostics** method, see [Implement EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS](/windows-hardware/drivers/netcx/platform-level-device-reset/#implement-EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS).
 
 ## -see-also
 

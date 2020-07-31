@@ -55,19 +55,17 @@ Implement this optional callback to collect diagnostics from a failed hardware d
 The WDFDEVICE object that the client driver previously obtained with a call to [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md).
 
 ## -remarks
-If provided, the NetAdapterCx framework invokes the **EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS** callback to collect reset diagnostics during the reset and recovery process.
 
-The framework always invokes the **EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS** callback at PASSIVE_LEVEL.
-This callback is referred by the **EvtNetDeviceCollectResetDiagnostics** field of the [**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES**](../netdevice/ns-netdevice-net_device_reset_diagnostics_capabilities.md) data structure.
-.....
+If provided, the NetAdapterCx framework invokes the **EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS** callback to collect reset diagnostics during the reset and recovery process. The framework always invokes this callback at PASSIVE_LEVEL.
 
-The [**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES**](../netdevice/ns-netdevice-net_device_reset_diagnostics_capabilities.md) data structure's  **EvtNetDeviceCollectResetDiagnostics** field refers to this callback.
-See [Implement EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS](/windows-hardware/drivers/netcx/platform-level-device-reset/#implement-EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS) for how to correctly implement this callback and the synchronization guarantee provided by the framework.
+The **EvtNetDeviceCollectResetDiagnostics** field of the [**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES**](../netdevice/ns-netdevice-net_device_reset_diagnostics_capabilities.md) data structure refers to this callback.
+
+To learn how to correctly implement this callback and for more information about the framework's synchronization guarantee, see [Implement EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS](/windows-hardware/drivers/netcx/platform-level-device-reset/#implement-EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS).
 
 ## -see-also
 
 [Recovering an unresponsive NIC with NetAdapterCx PLDR](/windows-hardware/drivers/netcx/platform-level-device-reset/)
 
-[WdfDeviceCreate](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md)
+[**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md)
 
-[NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES](../netdevice/ns-netdevice-net_device_reset_diagnostics_capabilities.md)
+[**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES**](../netdevice/ns-netdevice-net_device_reset_diagnostics_capabilities.md)

@@ -7,7 +7,7 @@ ms.author: windowsdriverdev
 ms.date: 07/02/2020
 ms.custom: Fe
 targetos: Windows
-description: The NetDeviceRequestReset method asks the framework to reset and recover an unresponsive NIC device.
+description: The NetDeviceRequestReset method triggers the NetAdapterCx framework to perform the platform-level device reset operation that recovers an unresponsive NIC device.
 keywords: ["NetDeviceRequestReset function"]
 req.assembly:
 req.construct-type: function
@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The **NetDeviceRequestReset** method triggers the framework to perform the platform-level device reset operation to recover an unresponsive NIC device.
+The **NetDeviceRequestReset** method triggers the NetAdapterCx framework to perform the platform-level device reset operation that recovers an unresponsive NIC device.
 
 ## -parameters
 
@@ -61,11 +61,10 @@ A client driver calls **NetDeviceRequestReset** when it detects device failure. 
 We recommend that client drivers set up a [**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES**](../netdevice/ns-netdevice-net_device_reset_diagnostics_capabilities.md) structure to collect meaningful reset diagnostics during the device reset and recovery process.
 For more on how to collect reset diagnostics, see [Register the optional diagnostics collection callback](/windows-hardware/drivers/netcx/platform-level-device-reset/#register-the-optional-diagnostics-collection-callback).
 
-
 ## -see-also
 
 [Recovering an unresponsive NIC with NetAdapterCx PLDR](/windows-hardware/drivers/netcx/platform-level-device-reset/)
 
-[WdfDeviceCreate](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md)
+[**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md)
 
-[NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES](../netdevice/ns-netdevice-net_device_reset_diagnostics_capabilities.md)
+[**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES**](../netdevice/ns-netdevice-net_device_reset_diagnostics_capabilities.md)

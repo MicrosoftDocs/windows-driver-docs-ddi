@@ -60,7 +60,7 @@ A client driver specified global unique identifier (GUID). Developers can use th
 
 ### -param EvtNetDeviceCollectResetDiagnostics
 
-A pointer to the client driver's implementation of the [**EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS**](../netdevice/nc-netdevice-evt_net_device_collect_reset_diagnostics.md) callback for collecting device-specific reset diagnostics from a hardware device.
+A pointer to the client driver's implementation of the [**EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS**](../netdevice/nc-netdevice-evt_net_device_collect_reset_diagnostics.md) callback that collects device-specific reset diagnostics from a hardware device.
 
 ## -remarks
 

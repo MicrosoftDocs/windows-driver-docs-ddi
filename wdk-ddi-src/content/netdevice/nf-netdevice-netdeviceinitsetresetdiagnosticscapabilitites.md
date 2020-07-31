@@ -62,10 +62,9 @@ A client driver typically calls **NetDeviceInitSetResetDiagnosticsCapabilitites*
 
 Before calling this method, the client driver must initialize [**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES**](../netdevice/ns-netdevice-net_device_reset_diagnostics_capabilities.md) by calling the [**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES_INIT**](../netdevice/nf-netdevice-net_device_reset_diagnostics_capabilities_init.md) method.
 
-
 ## -see-also
 
-[Recovering unresponsive NIC with NetAdapterCx PLDR](/windows-hardware/drivers/netcx/platform-level-device-reset/)
+[Recovering an unresponsive NIC with NetAdapterCx PLDR](/windows-hardware/drivers/netcx/platform-level-device-reset/)
 
 [**EVT_WDF_DRIVER_DEVICE_ADD**](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md)
 
