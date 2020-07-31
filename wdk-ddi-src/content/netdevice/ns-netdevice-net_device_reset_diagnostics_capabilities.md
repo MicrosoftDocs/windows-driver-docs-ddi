@@ -56,15 +56,15 @@ A client driver specified global unique identifier (GUID). Developers can use th
 
 ### -field EvtNetDeviceCollectResetDiagnostics
 
-A pointer to the client driver's implementation of the [**EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS**](../netdevice/nc-netdevice-evt_net_device_collect_reset_diagnostics.md) callback that collects device-specific reset diagnostics from a hardware device.
+A pointer to the client driver's implementation of the [**EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS**](nc-netdevice-evt_net_device_collect_reset_diagnostics.md) callback that collects device-specific reset diagnostics from a hardware device.
 
 ## -remarks
 
-Client drivers initialize and register this structure in their [**EVT_WDF_DRIVER_DEVICE_ADD**](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add) callback function.
+Client drivers initialize and register this structure in their [**EVT_WDF_DRIVER_DEVICE_ADD**](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md) callback function.
 
-Call [**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES_INIT**](../netdevice/nf-netdevice-net_device_reset_diagnostics_capabilities_init.md) to initialize this structure.
+Call [**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES_INIT**](nf-netdevice-net_device_reset_diagnostics_capabilities_init.md) to initialize this structure.
 
-Call [**NetDeviceInitSetResetDiagnosticsCapabilitites**](../netdeivce/nf-netdevice-netdeviceinitsetresetdiagnosticscapabilitites.md) to register this structure to the NetAdapterCx framework.
+Call [**NetDeviceInitSetResetDiagnosticsCapabilitites**](nf-netdevice-netdeviceinitsetresetdiagnosticscapabilitites.md) to register this structure to the NetAdapterCx framework.
 
 For more information, see [Register NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES](/windows-hardware/drivers/netcx/platform-level-device-reset/#register-NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES).
 
@@ -72,10 +72,10 @@ For more information, see [Register NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES](/
 
 [Recovering an unresponsive NIC with NetAdapterCx PLDR](/windows-hardware/drivers/netcx/platform-level-device-reset/)
 
-[**EVT_WDF_DRIVER_DEVICE_ADD**](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add)
+[**EVT_WDF_DRIVER_DEVICE_ADD**](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md)
 
-[**EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS**](../netdevice/nc-netdevice-evt_net_device_collect_reset_diagnostics.md)
+[**EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS**](nc-netdevice-evt_net_device_collect_reset_diagnostics.md)
 
-[**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES_INIT**](../netdevice/nf-netdevice-net_device_reset_diagnostics_capabilities_init.md)
+[**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES_INIT**](nf-netdevice-net_device_reset_diagnostics_capabilities_init.md)
 
-[**NetDeviceInitSetResetDiagnosticsCapabilitites**](../netdeivce/nf-netdevice-netdeviceinitsetresetdiagnosticscapabilitites.md)
+[**NetDeviceInitSetResetDiagnosticsCapabilitites**](nf-netdevice-netdeviceinitsetresetdiagnosticscapabilitites.md)

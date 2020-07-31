@@ -46,13 +46,13 @@ dev_langs:
 
 ## -description
 
-The **NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES_INIT** method initializes a [**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES**](../netdevice/ns-netdevice-net_device_reset_diagnostics_capabilities.md) structure.
+The **NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES_INIT** method initializes a [**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES**](ns-netdevice-net_device_reset_diagnostics_capabilities.md) structure.
 
 ## -parameters
 
 ### -param ResetDiagnosticsCapabilities
 
-A pointer to a driver-allocated [**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES**](../netdevice/ns-netdevice-net_device_reset_diagnostics_capabilities.md) structure.
+A pointer to a driver-allocated [**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES**](ns-netdevice-net_device_reset_diagnostics_capabilities.md) structure.
 
 ### -param ResetDiagnosticsGuid
 
@@ -60,13 +60,13 @@ A client driver specified global unique identifier (GUID). Developers can use th
 
 ### -param EvtNetDeviceCollectResetDiagnostics
 
-A pointer to the client driver's implementation of the [**EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS**](../netdevice/nc-netdevice-evt_net_device_collect_reset_diagnostics.md) callback that collects device-specific reset diagnostics from a hardware device.
+A pointer to the client driver's implementation of the [**EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS**](nc-netdevice-evt_net_device_collect_reset_diagnostics.md) callback that collects device-specific reset diagnostics from a hardware device.
 
 ## -remarks
 
 A client driver typically calls **NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES_INIT** in its [**EVT_WDF_DRIVER_DEVICE_ADD**](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md) callback.
 
-This method zeros out the [**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES**](../netdevice/ns-netdevice-net_device_reset_diagnostics_capabilities.md) structure and fills in its **Size** member. Then it sets the **ResetDiagnosticsGuid** member and **EvtNetDeviceCollectResetDiagnostics** member with the corresponding input parameters.
+This method zeros out the [**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES**](ns-netdevice-net_device_reset_diagnostics_capabilities.md) structure and fills in its **Size** member. Then it sets the **ResetDiagnosticsGuid** member and **EvtNetDeviceCollectResetDiagnostics** member with the corresponding input parameters.
 
 ## -see-also
 
@@ -74,6 +74,6 @@ This method zeros out the [**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES**](../net
 
 [**EVT_WDF_DRIVER_DEVICE_ADD**](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md)
 
-[**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES**](../netdevice/ns-netdevice-net_device_reset_diagnostics_capabilities.md)
+[**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES**](ns-netdevice-net_device_reset_diagnostics_capabilities.md)
 
-[**EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS**](../netdevice/nc-netdevice-evt_net_device_collect_reset_diagnostics.md)
+[**EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS**](nc-netdevice-evt_net_device_collect_reset_diagnostics.md)

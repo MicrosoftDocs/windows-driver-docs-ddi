@@ -62,7 +62,7 @@ A pointer to the data buffer that holds the reset diagnostics data. The data buf
 
 ## -remarks
 
-The only valid scenario to invoke the **NetDeviceStoreResetDiagnostics** method is in a client driver's [**EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS**](../netdevice/nc-netdevice-evt_net_device_collect_reset_diagnostics.md) callback. The client driver must call **NetDeviceStoreResetDiagnostics** at PASSIVE_LEVEL
+The only valid scenario to invoke the **NetDeviceStoreResetDiagnostics** method is in a client driver's [**EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS**](nc-netdevice-evt_net_device_collect_reset_diagnostics.md) callback. The client driver must call **NetDeviceStoreResetDiagnostics** at PASSIVE_LEVEL
 
 To learn how to correctly use the **NetDeviceStoreResetDiagnostics** method, see [Implement EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS](/windows-hardware/drivers/netcx/platform-level-device-reset/#implement-EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS).
 
@@ -72,4 +72,4 @@ To learn how to correctly use the **NetDeviceStoreResetDiagnostics** method, see
 
 [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md)
 
-[**EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS**](../netdevice/nc-netdevice-evt_net_device_collect_reset_diagnostics.md)
+[**EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS**](nc-netdevice-evt_net_device_collect_reset_diagnostics.md)

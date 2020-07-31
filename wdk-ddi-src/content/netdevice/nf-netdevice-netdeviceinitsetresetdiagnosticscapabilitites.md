@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The **NetDeviceInitSetResetDiagnosticsCapabilitites** method registers a client driver's [**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES**](../netdevice/ns-netdevice-net_device_reset_diagnostics_capabilities.md) to the NetAdapterCx framework.
+The **NetDeviceInitSetResetDiagnosticsCapabilitites** method registers a client driver's [**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES**](ns-netdevice-net_device_reset_diagnostics_capabilities.md) to the NetAdapterCx framework.
 
 ## -parameters
 
@@ -54,13 +54,13 @@ A pointer to a **WDFDEVICE_INIT** object that the client driver received in its 
 
 ### -param ResetDiagnosticsCapabilities
 
-A pointer to a client driver allocated and initialized [**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES**](../netdevice/ns-netdevice-net_device_reset_diagnostics_capabilities.md) structure.
+A pointer to a client driver allocated and initialized [**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES**](ns-netdevice-net_device_reset_diagnostics_capabilities.md) structure.
 
 ## -remarks
 
 A client driver typically calls the **NetDeviceInitSetResetDiagnosticsCapabilitites** method in its [**EVT_WDF_DRIVER_DEVICE_ADD**](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md) callback.
 
-Before calling this method, the client driver must initialize [**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES**](../netdevice/ns-netdevice-net_device_reset_diagnostics_capabilities.md) by calling the [**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES_INIT**](../netdevice/nf-netdevice-net_device_reset_diagnostics_capabilities_init.md) method.
+Before calling this method, the client driver must initialize [**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES**](ns-netdevice-net_device_reset_diagnostics_capabilities.md) by calling the [**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES_INIT**](nf-netdevice-net_device_reset_diagnostics_capabilities_init.md) method.
 
 ## -see-also
 
@@ -68,6 +68,6 @@ Before calling this method, the client driver must initialize [**NET_DEVICE_RESE
 
 [**EVT_WDF_DRIVER_DEVICE_ADD**](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md)
 
-[**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES**](../netdevice/ns-netdevice-net_device_reset_diagnostics_capabilities.md)
+[**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES**](ns-netdevice-net_device_reset_diagnostics_capabilities.md)
 
-[**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES_INIT**](../netdevice/nf-netdevice-net_device_reset_diagnostics_capabilities_init.md)
+[**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES_INIT**](nf-netdevice-net_device_reset_diagnostics_capabilities_init.md)

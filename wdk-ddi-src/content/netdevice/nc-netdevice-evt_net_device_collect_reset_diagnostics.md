@@ -58,7 +58,7 @@ The WDFDEVICE object that the client driver previously obtained with a call to [
 
 If provided, the NetAdapterCx framework invokes the **EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS** callback to collect reset diagnostics during the reset and recovery process. The framework always invokes this callback at PASSIVE_LEVEL.
 
-The **EvtNetDeviceCollectResetDiagnostics** field of the [**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES**](../netdevice/ns-netdevice-net_device_reset_diagnostics_capabilities.md) data structure refers to this callback.
+The **EvtNetDeviceCollectResetDiagnostics** field of the [**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES**](ns-netdevice-net_device_reset_diagnostics_capabilities.md) data structure refers to this callback.
 
 To learn how to correctly implement this callback and for more information about the framework's synchronization guarantee, see [Implement EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS](/windows-hardware/drivers/netcx/platform-level-device-reset/#implement-EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS).
 
@@ -68,4 +68,4 @@ To learn how to correctly implement this callback and for more information about
 
 [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md)
 
-[**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES**](../netdevice/ns-netdevice-net_device_reset_diagnostics_capabilities.md)
+[**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES**](ns-netdevice-net_device_reset_diagnostics_capabilities.md)
