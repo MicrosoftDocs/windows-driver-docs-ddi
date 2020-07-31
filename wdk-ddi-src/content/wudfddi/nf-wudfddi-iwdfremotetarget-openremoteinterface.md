@@ -10,6 +10,7 @@ keywords: ["IWDFRemoteTarget::OpenRemoteInterface"]
 ms.keywords: IWDFRemoteTarget interface,OpenRemoteInterface method, IWDFRemoteTarget.OpenRemoteInterface, IWDFRemoteTarget::OpenRemoteInterface, OpenRemoteInterface, OpenRemoteInterface method, OpenRemoteInterface method,IWDFRemoteTarget interface, UMDFIoTargetObjectRef_e8287a4e-9f63-40e6-9a85-fb881a27d292.xml, umdf.iwdfremotetarget_openremoteinterface, wdf.iwdfremotetarget_openremoteinterface, wudfddi/IWDFRemoteTarget::OpenRemoteInterface
 f1_keywords:
  - "wudfddi/IWDFRemoteTarget.OpenRemoteInterface"
+ - "IWDFRemoteTarget.OpenRemoteInterface"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFRemoteTarget.OpenRemoteInterface
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -9,6 +9,7 @@ keywords: ["D3DKMTUnlock function"]
 ms.keywords: D3DKMTUnlock, D3DKMTUnlock function [Display Devices], OpenGL_Functions_6741960d-1f19-4000-948c-aeb71330eb1e.xml, d3dkmthk/D3DKMTUnlock, display.d3dkmtunlock
 f1_keywords:
  - "d3dkmthk/D3DKMTUnlock"
+ - "D3DKMTUnlock"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -38,8 +39,6 @@ api_location:
 - API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 - D3DKMTUnlock
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

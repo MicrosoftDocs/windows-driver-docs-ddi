@@ -10,6 +10,7 @@ keywords: ["IoGetRequestorProcess function"]
 ms.keywords: IoGetRequestorProcess, IoGetRequestorProcess routine [Installable File System Drivers], ifsk.iogetrequestorprocess, ioref_5c1e0075-08db-4db9-aa0c-fa28dced1202.xml, ntifs/IoGetRequestorProcess
 f1_keywords:
  - "ntifs/IoGetRequestorProcess"
+ - "IoGetRequestorProcess"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoGetRequestorProcess
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

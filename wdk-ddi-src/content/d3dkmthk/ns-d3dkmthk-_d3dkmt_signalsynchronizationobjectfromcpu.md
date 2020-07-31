@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU structure"]
 ms.keywords: D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU, D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU structure [Display Devices], _D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU, d3dkmthk/D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU, display.d3dkmt_signalsynchronizationobjectfromcpu
 f1_keywords:
  - "d3dkmthk/D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU"
+ - "D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU

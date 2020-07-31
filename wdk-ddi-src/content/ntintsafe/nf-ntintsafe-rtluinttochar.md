@@ -10,6 +10,7 @@ keywords: ["RtlUIntToChar function"]
 ms.keywords: RtlUIntToChar, RtlUIntToChar function [Kernel-Mode Driver Architecture], kernel.rtluinttochar, ntintsafe/RtlUIntToChar
 f1_keywords:
  - "ntintsafe/RtlUIntToChar"
+ - "RtlUIntToChar"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Ntintsafe.h
 api_name:
 - RtlUIntToChar
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

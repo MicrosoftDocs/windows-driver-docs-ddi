@@ -10,6 +10,7 @@ keywords: ["WdfDeviceCreateSymbolicLink function"]
 ms.keywords: DFDeviceObjectGeneralRef_f970bbdf-21d6-497c-abc1-84456c95dc79.xml, WdfDeviceCreateSymbolicLink, WdfDeviceCreateSymbolicLink method, kmdf.wdfdevicecreatesymboliclink, wdf.wdfdevicecreatesymboliclink, wdfdevice/WdfDeviceCreateSymbolicLink
 f1_keywords:
  - "wdfdevice/WdfDeviceCreateSymbolicLink"
+ - "WdfDeviceCreateSymbolicLink"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfDeviceCreateSymbolicLink
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

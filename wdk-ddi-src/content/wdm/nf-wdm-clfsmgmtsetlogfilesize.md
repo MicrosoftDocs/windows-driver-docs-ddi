@@ -10,6 +10,7 @@ keywords: ["ClfsMgmtSetLogFileSize function"]
 ms.keywords: ClfsMgmtSetLogFileSize, ClfsMgmtSetLogFileSize routine [Kernel-Mode Driver Architecture], Clfs_management_a4f0865a-5c4b-411b-a8a5-349b49c1528b.xml, kernel.clfsmgmtsetlogfilesize, wdm/ClfsMgmtSetLogFileSize
 f1_keywords:
  - "wdm/ClfsMgmtSetLogFileSize"
+ - "ClfsMgmtSetLogFileSize"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
 - ClfsMgmtSetLogFileSize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

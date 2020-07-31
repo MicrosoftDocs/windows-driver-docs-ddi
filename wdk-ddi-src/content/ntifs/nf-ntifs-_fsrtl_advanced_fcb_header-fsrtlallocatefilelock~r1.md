@@ -10,6 +10,7 @@ keywords: ["FsRtlAllocateFileLock function"]
 ms.keywords: FsRtlAllocateFileLock, FsRtlAllocateFileLock routine [Installable File System Drivers], fsrtlref_cb42425d-add9-4c5b-bddc-54dc55448902.xml, ifsk.fsrtlallocatefilelock, ntifs/FsRtlAllocateFileLock
 f1_keywords:
  - "ntifs/FsRtlAllocateFileLock"
+ - "FsRtlAllocateFileLock"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlAllocateFileLock
-product:
-- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---

@@ -10,6 +10,7 @@ keywords: ["IDebugControl::GetEventFilterText"]
 ms.keywords: GetEventFilterText, GetEventFilterText method [Windows Debugging], GetEventFilterText method [Windows Debugging],IDebugControl interface, GetEventFilterText method [Windows Debugging],IDebugControl2 interface, GetEventFilterText method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetEventFilterText method, IDebugControl.GetEventFilterText, IDebugControl2 interface [Windows Debugging],GetEventFilterText method, IDebugControl2::GetEventFilterText, IDebugControl3 interface [Windows Debugging],GetEventFilterText method, IDebugControl3::GetEventFilterText, IDebugControl::GetEventFilterText, IDebugControl_61936aac-8fe2-4f18-86aa-cba1404d845f.xml, dbgeng/IDebugControl2::GetEventFilterText, dbgeng/IDebugControl3::GetEventFilterText, dbgeng/IDebugControl::GetEventFilterText, debugger.geteventfiltertext
 f1_keywords:
  - "dbgeng/IDebugControl.GetEventFilterText"
+ - "IDebugControl.GetEventFilterText"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -38,8 +39,6 @@ api_name:
 - IDebugControl.GetEventFilterText
 - IDebugControl2.GetEventFilterText
 - IDebugControl3.GetEventFilterText
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

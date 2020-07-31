@@ -10,6 +10,7 @@ keywords: ["_D3DHAL_DP2CLEAR structure"]
 ms.keywords: "*LPD3DHAL_DP2CLEAR, D3DHAL_DP2CLEAR, D3DHAL_DP2CLEAR structure [Display Devices], LPD3DHAL_DP2CLEAR, LPD3DHAL_DP2CLEAR structure pointer [Display Devices], _D3DHAL_DP2CLEAR, d3dhal/D3DHAL_DP2CLEAR, d3dhal/LPD3DHAL_DP2CLEAR, d3dstrct_2caf8fa1-61b4-4659-af20-a72d6b36173a.xml, display.d3dhal_dp2clear"
 f1_keywords:
  - "d3dhal/D3DHAL_DP2CLEAR"
+ - "D3DHAL_DP2CLEAR"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dhal.h
 api_name:
 - D3DHAL_DP2CLEAR
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DHAL_DP2CLEAR
 ---

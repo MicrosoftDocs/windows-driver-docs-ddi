@@ -10,6 +10,7 @@ keywords: ["KsPublishDeviceProfile function"]
 ms.keywords: KsPublishDeviceProfile, KsPublishDeviceProfile function [Streaming Media Devices], ks/KsPublishDeviceProfile, stream.kspublishdeviceprofile
 f1_keywords:
  - "ks/KsPublishDeviceProfile"
+ - "KsPublishDeviceProfile"
 req.header: ks.h
 req.include-header: Ksmedia.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ks.dll
 api_name:
 - KsPublishDeviceProfile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

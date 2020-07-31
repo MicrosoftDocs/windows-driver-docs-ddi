@@ -10,6 +10,7 @@ keywords: ["DXGKDDI_MIRACAST_QUERY_CAPS callback function"]
 ms.keywords: DXGKDDI_MIRACAST_QUERY_CAPS, DXGKDDI_MIRACAST_QUERY_CAPS callback, DxgkDdiMiracastQueryCaps, DxgkDdiMiracastQueryCaps callback function [Display Devices], display.dxgkddimiracastquerycaps, dispmprt/DxgkDdiMiracastQueryCaps
 f1_keywords:
  - "dispmprt/DxgkDdiMiracastQueryCaps"
+ - "DxgkDdiMiracastQueryCaps"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Dispmprt.h
 api_name:
 - DxgkDdiMiracastQueryCaps
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

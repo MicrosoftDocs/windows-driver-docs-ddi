@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["PFND3D12DDI_SET_ROOT_SIGNATURE callback function"]
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_SET_ROOT_SIGNATURE"
+ - "PFND3D12DDI_SET_ROOT_SIGNATURE"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -32,8 +33,6 @@ api_location:
 - d3d12umddi.h
 api_name: 
 - PFND3D12DDI_SET_ROOT_SIGNATURE
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

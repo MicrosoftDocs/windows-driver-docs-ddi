@@ -10,6 +10,7 @@ keywords: ["ZwSetInformationEnlistment function"]
 ms.keywords: NtSetInformationEnlistment, ZwSetInformationEnlistment, ZwSetInformationEnlistment routine [Kernel-Mode Driver Architecture], kernel.zwsetinformationenlistment, ktm_ref_3e37f795-0826-43df-bb96-14f1031437da.xml, wdm/NtSetInformationEnlistment, wdm/ZwSetInformationEnlistment
 f1_keywords:
  - "wdm/ZwSetInformationEnlistment"
+ - "ZwSetInformationEnlistment"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - ZwSetInformationEnlistment
 - NtSetInformationEnlistment
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

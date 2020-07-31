@@ -10,6 +10,7 @@ keywords: ["IKsAllocatorEx::KsGetProperties"]
 ms.keywords: IKsAllocatorEx interface [Streaming Media Devices],KsGetProperties method, IKsAllocatorEx.KsGetProperties, IKsAllocatorEx::KsGetProperties, KsGetProperties, KsGetProperties method [Streaming Media Devices], KsGetProperties method [Streaming Media Devices],IKsAllocatorEx interface, ksproxy/IKsAllocatorEx::KsGetProperties, stream.iksallocatorex_ksgetproperties
 f1_keywords:
  - "ksproxy/IKsAllocatorEx.KsGetProperties"
+ - "IKsAllocatorEx.KsGetProperties"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ksproxy.h
 api_name:
 - IKsAllocatorEx.KsGetProperties
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

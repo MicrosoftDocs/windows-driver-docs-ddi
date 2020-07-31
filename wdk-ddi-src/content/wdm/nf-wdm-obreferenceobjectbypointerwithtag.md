@@ -10,6 +10,7 @@ keywords: ["ObReferenceObjectByPointerWithTag function"]
 ms.keywords: ObReferenceObjectByPointerWithTag, ObReferenceObjectByPointerWithTag routine [Kernel-Mode Driver Architecture], k107_5e5e16de-36ff-4a81-9fe6-9602053ccc6b.xml, kernel.obreferenceobjectbypointerwithtag, wdm/ObReferenceObjectByPointerWithTag
 f1_keywords:
  - "wdm/ObReferenceObjectByPointerWithTag"
+ - "ObReferenceObjectByPointerWithTag"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - ObReferenceObjectByPointerWithTag
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

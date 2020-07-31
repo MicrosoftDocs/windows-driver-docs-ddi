@@ -10,6 +10,7 @@ keywords: ["IStiDevice::RawReadData"]
 ms.keywords: IStiDevice interface [Imaging Devices],RawReadData method, IStiDevice.RawReadData, IStiDevice::RawReadData, RawReadData, RawReadData method [Imaging Devices], RawReadData method [Imaging Devices],IStiDevice interface, image.istidevice_rawreaddata, sti/IStiDevice::RawReadData, stifnc_cbd37004-cf03-4a49-9422-374e01abe376.xml
 f1_keywords:
  - "sti/IStiDevice.RawReadData"
+ - "IStiDevice.RawReadData"
 req.header: sti.h
 req.include-header: Sti.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - sti.h
 api_name:
 - IStiDevice.RawReadData
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

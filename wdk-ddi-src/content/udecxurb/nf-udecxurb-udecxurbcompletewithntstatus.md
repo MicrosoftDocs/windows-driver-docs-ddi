@@ -10,6 +10,7 @@ keywords: ["UdecxUrbCompleteWithNtStatus function"]
 ms.keywords: UdecxUrbCompleteWithNtStatus, UdecxUrbCompleteWithNtStatus function [Buses], buses.udecxurbcompletewithntstatus, udecxurb/UdecxUrbCompleteWithNtStatus
 f1_keywords:
  - "udecxurb/UdecxUrbCompleteWithNtStatus"
+ - "UdecxUrbCompleteWithNtStatus"
 req.header: udecxurb.h
 req.include-header: Udecx.h
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 - Udecxstub.dll
 api_name:
 - UdecxUrbCompleteWithNtStatus
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

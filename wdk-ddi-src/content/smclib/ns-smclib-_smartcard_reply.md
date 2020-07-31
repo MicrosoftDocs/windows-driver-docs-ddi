@@ -10,6 +10,7 @@ keywords: ["_SMARTCARD_REPLY structure"]
 ms.keywords: "*PSMARTCARD_REPLY, PSMARTCARD_REPLY, PSMARTCARD_REPLY structure pointer [Smart Card Reader Devices], SMARTCARD_REPLY, SMARTCARD_REPLY structure [Smart Card Reader Devices], _SMARTCARD_REPLY, smartcrd.smartcard_reply, smclib/PSMARTCARD_REPLY, smclib/SMARTCARD_REPLY"
 f1_keywords:
  - "smclib/SMARTCARD_REPLY"
+ - "SMARTCARD_REPLY"
 req.header: smclib.h
 req.include-header: Smclib.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Smclib.h
 api_name:
 - SMARTCARD_REPLY
-product:
-- Windows
 targetos: Windows
 req.typenames: SMARTCARD_REPLY, *PSMARTCARD_REPLY
 ---

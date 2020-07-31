@@ -10,6 +10,7 @@ keywords: ["RILMSGMWIPRIORITY enumeration"]
 ms.keywords: RILMSGMWIPRIORITY, RILMSGMWIPRIORITY enumeration [Network Drivers Starting with Windows Vista], RIL_MSGMWIPRIORITY_EMERGENCY, RIL_MSGMWIPRIORITY_LOW, RIL_MSGMWIPRIORITY_MAX, RIL_MSGMWIPRIORITY_NORMAL, RIL_MSGMWIPRIORITY_URGENT, netvista.rilmsgmwipriority, ntddrilapitypes/RILMSGMWIPRIORITY, ntddrilapitypes/RIL_MSGMWIPRIORITY_EMERGENCY, ntddrilapitypes/RIL_MSGMWIPRIORITY_LOW, ntddrilapitypes/RIL_MSGMWIPRIORITY_MAX, ntddrilapitypes/RIL_MSGMWIPRIORITY_NORMAL, ntddrilapitypes/RIL_MSGMWIPRIORITY_URGENT
 f1_keywords:
  - "ntddrilapitypes/RILMSGMWIPRIORITY"
+ - "RILMSGMWIPRIORITY"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILMSGMWIPRIORITY
-product:
-- Windows
 targetos: Windows
 req.typenames: RILMSGMWIPRIORITY
 ---

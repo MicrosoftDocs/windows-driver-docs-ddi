@@ -10,6 +10,7 @@ keywords: ["IDebugSystemObjects3::GetCurrentProcessPeb"]
 ms.keywords: GetCurrentProcessPeb, GetCurrentProcessPeb method [Windows Debugging], GetCurrentProcessPeb method [Windows Debugging],IDebugSystemObjects interface, GetCurrentProcessPeb method [Windows Debugging],IDebugSystemObjects2 interface, GetCurrentProcessPeb method [Windows Debugging],IDebugSystemObjects3 interface, GetCurrentProcessPeb method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects interface [Windows Debugging],GetCurrentProcessPeb method, IDebugSystemObjects2 interface [Windows Debugging],GetCurrentProcessPeb method, IDebugSystemObjects2::GetCurrentProcessPeb, IDebugSystemObjects3 interface [Windows Debugging],GetCurrentProcessPeb method, IDebugSystemObjects3.GetCurrentProcessPeb, IDebugSystemObjects3::GetCurrentProcessPeb, IDebugSystemObjects4 interface [Windows Debugging],GetCurrentProcessPeb method, IDebugSystemObjects4::GetCurrentProcessPeb, IDebugSystemObjects::GetCurrentProcessPeb, IDebugSystemObjects_fd672d78-9254-4f24-9f10-99a91d825f2e.xml, dbgeng/IDebugSystemObjects2::GetCurrentProcessPeb, dbgeng/IDebugSystemObjects3::GetCurrentProcessPeb, dbgeng/IDebugSystemObjects4::GetCurrentProcessPeb, dbgeng/IDebugSystemObjects::GetCurrentProcessPeb, debugger.getcurrentprocesspeb
 f1_keywords:
  - "dbgeng/IDebugSystemObjects.GetCurrentProcessPeb"
+ - "IDebugSystemObjects.GetCurrentProcessPeb"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -39,8 +40,6 @@ api_name:
 - IDebugSystemObjects2.GetCurrentProcessPeb
 - IDebugSystemObjects3.GetCurrentProcessPeb
 - IDebugSystemObjects4.GetCurrentProcessPeb
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IDebugRegisters2::GetPseudoValues"]
 ms.keywords: GetPseudoValues, GetPseudoValues method [Windows Debugging], GetPseudoValues method [Windows Debugging],IDebugRegisters2 interface, IDebugRegisters2 interface [Windows Debugging],GetPseudoValues method, IDebugRegisters2.GetPseudoValues, IDebugRegisters2::GetPseudoValues, IDebugRegisters_56a9ae8d-1ef7-4b28-bcad-e9f7025aba4f.xml, dbgeng/IDebugRegisters2::GetPseudoValues, debugger.getpseudovalues
 f1_keywords:
  - "dbgeng/IDebugRegisters2.GetPseudoValues"
+ - "IDebugRegisters2.GetPseudoValues"
 req.header: dbgeng.h
 req.include-header: DbgEng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugRegisters2.GetPseudoValues
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

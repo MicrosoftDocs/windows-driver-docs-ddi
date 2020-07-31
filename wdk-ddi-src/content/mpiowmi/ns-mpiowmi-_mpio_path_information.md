@@ -10,6 +10,7 @@ keywords: ["_MPIO_PATH_INFORMATION structure"]
 ms.keywords: "*PMPIO_PATH_INFORMATION, MPIO_PATH_INFORMATION, MPIO_PATH_INFORMATION structure [Storage Devices], PMPIO_PATH_INFORMATION, PMPIO_PATH_INFORMATION structure pointer [Storage Devices], _MPIO_PATH_INFORMATION, mpiowmi/MPIO_PATH_INFORMATION, mpiowmi/PMPIO_PATH_INFORMATION, storage.mpio_path_information, structs-scsibus_2000c93b-2c86-478c-a70e-89622ca40862.xml"
 f1_keywords:
  - "mpiowmi/MPIO_PATH_INFORMATION"
+ - "MPIO_PATH_INFORMATION"
 req.header: mpiowmi.h
 req.include-header: Mpiowmi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - mpiowmi.h
 api_name:
 - MPIO_PATH_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: MPIO_PATH_INFORMATION, *PMPIO_PATH_INFORMATION
 ---

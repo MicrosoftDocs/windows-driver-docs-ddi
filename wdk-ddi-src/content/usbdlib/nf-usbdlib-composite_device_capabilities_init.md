@@ -10,6 +10,7 @@ keywords: ["COMPOSITE_DEVICE_CAPABILITIES_INIT function"]
 ms.keywords: COMPOSITE_DEVICE_CAPABILITIES_INIT, COMPOSITE_DEVICE_CAPABILITIES_INIT routine [Buses], buses.composite_driver_capabilities_init, usbdlib/COMPOSITE_DEVICE_CAPABILITIES_INIT
 f1_keywords:
  - "usbdlib/COMPOSITE_DEVICE_CAPABILITIES_INIT"
+ - "COMPOSITE_DEVICE_CAPABILITIES_INIT"
 req.header: usbdlib.h
 req.include-header: 
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Usbdex.dll
 api_name:
 - COMPOSITE_DEVICE_CAPABILITIES_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

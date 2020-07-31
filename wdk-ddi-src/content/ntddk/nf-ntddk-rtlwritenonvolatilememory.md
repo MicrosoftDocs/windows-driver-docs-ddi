@@ -10,6 +10,7 @@ keywords: ["RtlWriteNonVolatileMemory function"]
 ms.keywords: RtlWriteNonVolatileMemory, RtlWriteNonVolatileMemory routine [Installable File System Drivers], ifsk.rtlwritenonvolatilememory, ntddk/RtlWriteNonVolatileMemory
 f1_keywords:
  - "ntddk/RtlWriteNonVolatileMemory"
+ - "RtlWriteNonVolatileMemory"
 req.header: ntddk.h
 req.include-header: Winnt.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - RtlWriteNonVolatileMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

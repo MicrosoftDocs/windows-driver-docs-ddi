@@ -10,6 +10,7 @@ keywords: ["IOCTL_SERIAL_LSRMST_INSERT IOCTL"]
 ms.keywords: IOCTL_SERIAL_LSRMST_INSERT, IOCTL_SERIAL_LSRMST_INSERT control, IOCTL_SERIAL_LSRMST_INSERT control code [Serial Ports], ntddser/IOCTL_SERIAL_LSRMST_INSERT, serports.ioctl_serial_lsrmst_insert, serref_d071ffb1-f8ea-44e3-8caa-08e2c51e0198.xml
 f1_keywords:
  - "ntddser/IOCTL_SERIAL_LSRMST_INSERT"
+ - "IOCTL_SERIAL_LSRMST_INSERT"
 req.header: ntddser.h
 req.include-header: Ntddser.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddser.h
 api_name:
 - IOCTL_SERIAL_LSRMST_INSERT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

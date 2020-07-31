@@ -10,6 +10,7 @@ keywords: ["PMRX_CHANGE_BUFFERING_STATE_CALLDOWN callback function"]
 ms.keywords: MRxCompleteBufferingStateChangeRequest, MRxCompleteBufferingStateChangeRequest routine [Installable File System Drivers], PMRX_CHANGE_BUFFERING_STATE_CALLDOWN, ifsk.mrxcompletebufferingstatechangerequest, mrx/MRxCompleteBufferingStateChangeRequest, mrxref_5ac31893-1998-454a-a0c9-07d32e60d8db.xml
 f1_keywords:
  - "mrx/MRxCompleteBufferingStateChangeRequest"
+ - "MRxCompleteBufferingStateChangeRequest"
 req.header: mrx.h
 req.include-header: Mrx.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - mrx.h
 api_name:
 - MRxCompleteBufferingStateChangeRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

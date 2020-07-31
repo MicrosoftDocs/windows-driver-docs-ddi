@@ -10,6 +10,7 @@ keywords: ["EVT_UCX_USBDEVICE_HUB_INFO callback function"]
 ms.keywords: EVT_UCX_USBDEVICE_HUB_INFO, EVT_UCX_USBDEVICE_HUB_INFO callback, EvtUcxUsbDeviceHubInfo, EvtUcxUsbDeviceHubInfo callback function [Buses], PEVT_UCX_USBDEVICE_HUB_INFO, PEVT_UCX_USBDEVICE_HUB_INFO callback function pointer [Buses], buses.evt_ucx_usbdevice_hub_info, ucxusbdevice/EvtUcxUsbDeviceHubInfo
 f1_keywords:
  - "ucxusbdevice/PEVT_UCX_USBDEVICE_HUB_INFO"
+ - "PEVT_UCX_USBDEVICE_HUB_INFO"
 req.header: ucxusbdevice.h
 req.include-header: Ucxclass.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ucxusbdevice.h
 api_name:
 - PEVT_UCX_USBDEVICE_HUB_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

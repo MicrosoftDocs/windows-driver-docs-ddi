@@ -10,6 +10,7 @@ keywords: ["WDF_INTERRUPT_EXTENDED_POLICY_INIT function"]
 ms.keywords: DFInterruptObjectRef_47d18efc-03a4-47b7-a022-ba9ed3247f1f.xml, WDF_INTERRUPT_EXTENDED_POLICY_INIT, WDF_INTERRUPT_EXTENDED_POLICY_INIT function, kmdf.wdf_interrupt_extended_policy_init, wdf.wdf_interrupt_extended_policy_init, wdfinterrupt/WDF_INTERRUPT_EXTENDED_POLICY_INIT
 f1_keywords:
  - "wdfinterrupt/WDF_INTERRUPT_EXTENDED_POLICY_INIT"
+ - "WDF_INTERRUPT_EXTENDED_POLICY_INIT"
 req.header: wdfinterrupt.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - wdfinterrupt.h
 api_name:
 - WDF_INTERRUPT_EXTENDED_POLICY_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

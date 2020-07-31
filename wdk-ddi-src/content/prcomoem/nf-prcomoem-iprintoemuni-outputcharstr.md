@@ -10,6 +10,7 @@ keywords: ["IPrintOemUni::OutputCharStr"]
 ms.keywords: IPrintOemUni interface [Print Devices],OutputCharStr method, IPrintOemUni.OutputCharStr, IPrintOemUni::OutputCharStr, OutputCharStr, OutputCharStr method [Print Devices], OutputCharStr method [Print Devices],IPrintOemUni interface, prcomoem/IPrintOemUni::OutputCharStr, print.iprintoemuni_outputcharstr, print_unidrv-pscript_rendering_89b41d7b-5ceb-44a1-9b48-71751df6e40a.xml
 f1_keywords:
  - "prcomoem/IPrintOemUni.OutputCharStr"
+ - "IPrintOemUni.OutputCharStr"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - prcomoem.h
 api_name:
 - IPrintOemUni.OutputCharStr
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["RxDispatchToWorkerThread function"]
 ms.keywords: RxDispatchToWorkerThread, RxDispatchToWorkerThread routine [Installable File System Drivers], ifsk.rxdispatchtoworkerthread, rxref_4ac4f78d-fd07-4d80-a4db-8215322d6c89.xml, rxworkq/RxDispatchToWorkerThread
 f1_keywords:
  - "rxworkq/RxDispatchToWorkerThread"
+ - "RxDispatchToWorkerThread"
 req.header: rxworkq.h
 req.include-header: Rxworkq.h, Rxstruc.h, Ntifs.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - rxworkq.h
 api_name:
 - RxDispatchToWorkerThread
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

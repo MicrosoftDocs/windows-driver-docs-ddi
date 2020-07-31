@@ -8,6 +8,7 @@ ms.date: 09/30/2018
 keywords: ["RtlQueryRegistryValueWithFallback function"]
 f1_keywords:
  - "ntddk/RtlQueryRegistryValueWithFallback"
+ - "RtlQueryRegistryValueWithFallback"
 ms.keywords: RtlQueryRegistryValueWithFallback
 req.header: ntddk.h
 req.include-header: wdm.h
@@ -34,8 +35,6 @@ api_location:
 - NtosKrnl.exe
 api_name: 
 - RtlQueryRegistryValueWithFallback
-product:
-- Windows
 targetos: Windows
 
 

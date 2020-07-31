@@ -10,6 +10,7 @@ keywords: ["tagSILO_COMMAND structure"]
 ms.keywords: "*PSILO_COMMAND, PSILO_COMMAND, PSILO_COMMAND structure pointer [Storage Devices], SILO_COMMAND, SILO_COMMAND structure [Storage Devices], ehstorioctl/PSILO_COMMAND, ehstorioctl/SILO_COMMAND, storage.silo_command, structs-silo_6058ee8b-c6ff-4e84-8b20-304bb6646a4f.xml, tagSILO_COMMAND"
 f1_keywords:
  - "ehstorioctl/SILO_COMMAND"
+ - "SILO_COMMAND"
 req.header: ehstorioctl.h
 req.include-header: EhStorIoctl.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - EhStorIoctl.h
 api_name:
 - SILO_COMMAND
-product:
-- Windows
 targetos: Windows
 req.typenames: SILO_COMMAND, *PSILO_COMMAND
 ---

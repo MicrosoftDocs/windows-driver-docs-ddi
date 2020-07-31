@@ -10,6 +10,7 @@ keywords: ["RtlAbsoluteToSelfRelativeSD function"]
 ms.keywords: RtlAbsoluteToSelfRelativeSD, RtlAbsoluteToSelfRelativeSD routine [Installable File System Drivers], ifsk.rtlabsolutetoselfrelativesd, ntifs/RtlAbsoluteToSelfRelativeSD, rtlref_809e562f-be24-43d2-8357-ffd83eac421a.xml
 f1_keywords:
  - "ntifs/RtlAbsoluteToSelfRelativeSD"
+ - "RtlAbsoluteToSelfRelativeSD"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ntdll.dll
 api_name:
 - RtlAbsoluteToSelfRelativeSD
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

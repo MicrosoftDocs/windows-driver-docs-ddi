@@ -10,6 +10,7 @@ keywords: ["KSRESET enumeration"]
 ms.keywords: KSRESET, KSRESET enumeration [Streaming Media Devices], KSRESET_BEGIN, KSRESET_END, ks/KSRESET, ks/KSRESET_BEGIN, ks/KSRESET_END, stream.ksreset
 f1_keywords:
  - "ks/KSRESET"
+ - "KSRESET"
 req.header: ks.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ks.h
 api_name:
 - KSRESET
-product:
-- Windows
 targetos: Windows
 req.typenames: KSRESET
 ---

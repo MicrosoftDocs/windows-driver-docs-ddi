@@ -10,6 +10,7 @@ keywords: ["NdisUnmapFile function"]
 ms.keywords: NdisUnmapFile, NdisUnmapFile function [Network Drivers Starting with Windows Vista], ndis/NdisUnmapFile, ndis_file_ref_5be88800-5866-4969-8534-2d76953bf4de.xml, netvista.ndisunmapfile
 f1_keywords:
  - "ndis/NdisUnmapFile"
+ - "NdisUnmapFile"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisUnmapFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

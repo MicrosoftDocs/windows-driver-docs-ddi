@@ -10,6 +10,7 @@ keywords: ["_OB_PRE_OPERATION_PARAMETERS structure"]
 ms.keywords: "*POB_PRE_OPERATION_PARAMETERS, OB_PRE_OPERATION_PARAMETERS, OB_PRE_OPERATION_PARAMETERS union [Kernel-Mode Driver Architecture], POB_PRE_OPERATION_PARAMETERS, POB_PRE_OPERATION_PARAMETERS union pointer [Kernel-Mode Driver Architecture], _OB_PRE_OPERATION_PARAMETERS, kernel.ob_pre_operation_parameters, kstruct_c_328dfe5b-e8ed-4277-9003-e194abbf81ba.xml, wdm/OB_PRE_OPERATION_PARAMETERS, wdm/POB_PRE_OPERATION_PARAMETERS"
 f1_keywords:
  - "wdm/OB_PRE_OPERATION_PARAMETERS"
+ - "OB_PRE_OPERATION_PARAMETERS"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - OB_PRE_OPERATION_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: OB_PRE_OPERATION_PARAMETERS, *POB_PRE_OPERATION_PARAMETERS
 ---

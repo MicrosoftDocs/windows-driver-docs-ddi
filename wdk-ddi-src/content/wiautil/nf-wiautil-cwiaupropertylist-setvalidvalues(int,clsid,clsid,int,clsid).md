@@ -10,6 +10,7 @@ keywords: ["CWiauPropertyList::SetValidValues(INT,CLSID,CLSID,INT,CLSID)"]
 ms.keywords: CWiauPropertyList interface [Imaging Devices],SetValidValues method, CWiauPropertyList.SetValidValues, CWiauPropertyList.SetValidValues(INT,CLSID,CLSID,INT,CLSID), CWiauPropertyList::SetValidValues, CWiauPropertyList::SetValidValues(INT,CLSID*,CLSID*,INT,CLSID**), CWiauPropertyList::SetValidValues(INT,CLSID,CLSID,INT,CLSID), SetValidValues, SetValidValues method [Imaging Devices], SetValidValues method [Imaging Devices],CWiauPropertyList interface, SetValidValues(CLSID,(CWiauPropertyList), image.cwiaupropertylist_setvalidvalues_clsid__list_, wiauFncs_fb681759-0ab5-47ba-8e35-4a0a8d28e52f.xml, wiautil/CWiauPropertyList::SetValidValues
 f1_keywords:
  - "wiautil/CWiauPropertyList.SetValidValues"
+ - "CWiauPropertyList.SetValidValues"
 req.header: wiautil.h
 req.include-header: Wiautil.h, Wiamindr.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wiautil.h
 api_name:
 - CWiauPropertyList.SetValidValues
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

@@ -10,6 +10,7 @@ keywords: ["_PEP_ACPI_OBJECT_NAME_WITH_TYPE structure"]
 ms.keywords: "*PPEP_ACPI_OBJECT_NAME_WITH_TYPE, PEP_ACPI_OBJECT_NAME_WITH_TYPE, PEP_ACPI_OBJECT_NAME_WITH_TYPE structure [Kernel-Mode Driver Architecture], PPEP_ACPI_OBJECT_NAME_WITH_TYPE, PPEP_ACPI_OBJECT_NAME_WITH_TYPE structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_OBJECT_NAME_WITH_TYPE, kernel.pep_acpi_object_name_with_type, pepfx/PEP_ACPI_OBJECT_NAME_WITH_TYPE, pepfx/PPEP_ACPI_OBJECT_NAME_WITH_TYPE"
 f1_keywords:
  - "pep_x/PEP_ACPI_OBJECT_NAME_WITH_TYPE"
+ - "PEP_ACPI_OBJECT_NAME_WITH_TYPE"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - PEP_ACPI_OBJECT_NAME_WITH_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_ACPI_OBJECT_NAME_WITH_TYPE, *PPEP_ACPI_OBJECT_NAME_WITH_TYPE
 ---

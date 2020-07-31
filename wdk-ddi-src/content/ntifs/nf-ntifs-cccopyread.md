@@ -10,6 +10,7 @@ keywords: ["CcCopyRead function"]
 ms.keywords: CcCopyRead, CcCopyRead routine [Installable File System Drivers], ccref_76dde6ff-ccd7-4d90-a744-9d2c05624b00.xml, ifsk.cccopyread, ntifs/CcCopyRead
 f1_keywords:
  - "ntifs/CcCopyRead"
+ - "CcCopyRead"
 req.header: ntifs.h
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - CcCopyRead
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

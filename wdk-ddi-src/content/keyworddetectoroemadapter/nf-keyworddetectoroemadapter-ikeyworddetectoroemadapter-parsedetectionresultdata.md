@@ -10,6 +10,7 @@ keywords: ["IKeywordDetectorOemAdapter::ParseDetectionResultData"]
 ms.keywords: IKeywordDetectorOemAdapter interface [Audio Devices],ParseDetectionResultData method, IKeywordDetectorOemAdapter.ParseDetectionResultData, IKeywordDetectorOemAdapter::ParseDetectionResultData, ParseDetectionResultData, ParseDetectionResultData method [Audio Devices], ParseDetectionResultData method [Audio Devices],IKeywordDetectorOemAdapter interface, audio.ikeyworddetectoroemadapter_parsedetectionresultdata, keyworddetectoroemadapter/IKeywordDetectorOemAdapter::ParseDetectionResultData
 f1_keywords:
  - "keyworddetectoroemadapter/IKeywordDetectorOemAdapter.ParseDetectionResultData"
+ - "IKeywordDetectorOemAdapter.ParseDetectionResultData"
 req.header: keyworddetectoroemadapter.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - KeywordDetectorOemAdapter.h
 api_name:
 - IKeywordDetectorOemAdapter.ParseDetectionResultData
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

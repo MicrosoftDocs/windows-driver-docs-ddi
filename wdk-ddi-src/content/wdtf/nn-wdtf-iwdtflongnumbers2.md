@@ -10,6 +10,7 @@ keywords: ["IWDTFLongNumbers2 interface"]
 ms.keywords: IWDTFLongNumbers2, IWDTFLongNumbers2 interface [Windows Device Testing Framework], IWDTFLongNumbers2 interface [Windows Device Testing Framework],described, Microsoft.WDTF.IWDTFLongNumbers2, dtf.iwdtflongnumbers2, wdtf/IWDTFLongNumbers2
 f1_keywords:
  - "wdtf/IWDTFLongNumbers2"
+ - "IWDTFLongNumbers2"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - WDTF.Interop.metadata_dll.dll
 api_name:
 - IWDTFLongNumbers2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -7,6 +7,7 @@ ms.date: 08/14/2018
 keywords: ["IModelKeyReference::GetKeyName"]
 f1_keywords:
  - "dbgmodel/IModelKeyReference.GetKeyName"
+ - "IModelKeyReference.GetKeyName"
 ms.keywords: IModelKeyReference::GetKeyName, GetKeyName, IModelKeyReference.GetKeyName, IModelKeyReference::GetKeyName, IModelKeyReference.GetKeyName
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IModelKeyReference.GetKeyName
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

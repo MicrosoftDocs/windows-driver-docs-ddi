@@ -10,6 +10,7 @@ keywords: ["ITracing::SetTraceLevel"]
 ms.keywords: ITracing interface [Windows Device Testing Framework],SetTraceLevel method, ITracing.SetTraceLevel, ITracing::SetTraceLevel, ITracing_e998383b-984d-4f24-b684-06e81e453714.xml, SetTraceLevel, SetTraceLevel method [Windows Device Testing Framework], SetTraceLevel method [Windows Device Testing Framework],ITracing interface, dtf.itracing_settracelevel, wdtf/ITracing::SetTraceLevel
 f1_keywords:
  - "wdtf/ITracing.SetTraceLevel"
+ - "ITracing.SetTraceLevel"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wdtf.h
 api_name:
 - ITracing.SetTraceLevel
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

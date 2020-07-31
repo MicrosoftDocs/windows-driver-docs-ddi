@@ -10,6 +10,7 @@ keywords: ["KsProcessPinUpdate function"]
 ms.keywords: KsProcessPinUpdate, KsProcessPinUpdate function [Streaming Media Devices], avfunc_8f096e7d-7eb1-40c7-bcc9-762e671bb3d4.xml, ks/KsProcessPinUpdate, stream.ksprocesspinupdate
 f1_keywords:
  - "ks/KsProcessPinUpdate"
+ - "KsProcessPinUpdate"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsProcessPinUpdate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

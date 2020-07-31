@@ -8,6 +8,7 @@ ms.date: 09/30/2018
 keywords: ["_UCSI_GET_ALTERNATE_MODES_RECIPIENT enumeration"]
 f1_keywords:
  - "ucmucsispec/_UCSI_GET_ALTERNATE_MODES_RECIPIENT"
+ - "_UCSI_GET_ALTERNATE_MODES_RECIPIENT"
 ms.keywords: _UCSI_GET_ALTERNATE_MODES_RECIPIENT, UCSI_GET_ALTERNATE_MODES_RECIPIENT, 
 req.header: ucmucsispec.h
 req.include-header: UcmUcsiCx.h 
@@ -27,8 +28,6 @@ api_location:
 - ucmucsispec.h
 api_name: 
 - _UCSI_GET_ALTERNATE_MODES_RECIPIENT
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

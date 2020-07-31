@@ -10,6 +10,7 @@ keywords: ["PsDetachSiloFromCurrentThread function"]
 ms.keywords: PsDetachSiloFromCurrentThread, PsDetachSiloFromCurrentThread routine [Kernel-Mode Driver Architecture], kernel.psdetachsilofromcurrentthread, ntddk/PsDetachSiloFromCurrentThread
 f1_keywords:
  - "ntddk/PsDetachSiloFromCurrentThread"
+ - "PsDetachSiloFromCurrentThread"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - PsDetachSiloFromCurrentThread
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

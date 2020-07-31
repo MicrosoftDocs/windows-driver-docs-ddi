@@ -10,6 +10,7 @@ keywords: ["IDebugControl4::GetStoredEventInformation"]
 ms.keywords: GetStoredEventInformation, GetStoredEventInformation method [Windows Debugging], GetStoredEventInformation method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetStoredEventInformation method, IDebugControl4.GetStoredEventInformation, IDebugControl4::GetStoredEventInformation, IDebugControl_2d615fc9-52f1-4169-9265-430a1ce0f940.xml, dbgeng/IDebugControl4::GetStoredEventInformation, debugger.getstoredeventinformation
 f1_keywords:
  - "dbgeng/IDebugControl4.GetStoredEventInformation"
+ - "IDebugControl4.GetStoredEventInformation"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h, Ntddk.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugControl4.GetStoredEventInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

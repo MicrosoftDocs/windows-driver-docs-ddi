@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_OPENADAPTERFROMHDC structure"]
 ms.keywords: D3DKMT_OPENADAPTERFROMHDC, D3DKMT_OPENADAPTERFROMHDC structure [Display Devices], OpenGL_Structs_a4c2aa1b-b17c-4e81-a0d2-9776cec61112.xml, _D3DKMT_OPENADAPTERFROMHDC, d3dkmthk/D3DKMT_OPENADAPTERFROMHDC, display.d3dkmt_openadapterfromhdc
 f1_keywords:
  - "d3dkmthk/D3DKMT_OPENADAPTERFROMHDC"
+ - "D3DKMT_OPENADAPTERFROMHDC"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMT_OPENADAPTERFROMHDC
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_OPENADAPTERFROMHDC

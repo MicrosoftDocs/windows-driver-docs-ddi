@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_CHECKOCCLUSION structure"]
 ms.keywords: D3DKMT_CHECKOCCLUSION, D3DKMT_CHECKOCCLUSION structure [Display Devices], OpenGL_Structs_ec86c228-3c85-4fe9-996a-e1b3f08a0ee1.xml, _D3DKMT_CHECKOCCLUSION, d3dkmthk/D3DKMT_CHECKOCCLUSION, display.d3dkmt_checkocclusion
 f1_keywords:
  - "d3dkmthk/D3DKMT_CHECKOCCLUSION"
+ - "D3DKMT_CHECKOCCLUSION"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMT_CHECKOCCLUSION
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_CHECKOCCLUSION

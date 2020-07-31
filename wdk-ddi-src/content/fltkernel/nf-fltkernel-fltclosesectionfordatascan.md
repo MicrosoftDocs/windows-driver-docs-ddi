@@ -10,6 +10,7 @@ keywords: ["FltCloseSectionForDataScan function"]
 ms.keywords: FltCloseSectionForDataScan, FltCloseSectionForDataScan routine [Installable File System Drivers], fltkernel/FltCloseSectionForDataScan, ifsk.fltclosesectionfordatascan
 f1_keywords:
  - "fltkernel/FltCloseSectionForDataScan"
+ - "FltCloseSectionForDataScan"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - FltMgr.dll
 api_name:
 - FltCloseSectionForDataScan
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

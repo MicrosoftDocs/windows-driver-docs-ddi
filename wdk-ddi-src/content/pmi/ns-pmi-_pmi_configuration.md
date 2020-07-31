@@ -10,6 +10,7 @@ keywords: ["_PMI_CONFIGURATION structure"]
 ms.keywords: "*PPMI_CONFIGURATION, PMI_CONFIGURATION, PMI_CONFIGURATION structure [Power Metering and Budgeting Devices], PPMI_CONFIGURATION, PPMI_CONFIGURATION structure pointer [Power Metering and Budgeting Devices], PowerMeterRef_f3279ebc-cd57-40e8-8571-a7d0d6bf3edc.xml, _PMI_CONFIGURATION, pmi/PMI_CONFIGURATION, pmi/PPMI_CONFIGURATION, powermeter.pmi_configuration"
 f1_keywords:
  - "pmi/PMI_CONFIGURATION"
+ - "PMI_CONFIGURATION"
 req.header: pmi.h
 req.include-header: Pmi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pmi.h
 api_name:
 - PMI_CONFIGURATION
-product:
-- Windows
 targetos: Windows
 req.typenames: PMI_CONFIGURATION, *PPMI_CONFIGURATION
 ---

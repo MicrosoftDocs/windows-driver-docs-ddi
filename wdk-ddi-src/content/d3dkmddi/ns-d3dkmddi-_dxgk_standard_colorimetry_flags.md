@@ -9,6 +9,7 @@ keywords: ["_DXGK_STANDARD_COLORIMETRY_FLAGS structure"]
 ms.keywords: "*PDXGK_STANDARD_COLORIMETRY_FLAGS, DXGK_STANDARD_COLORIMETRY_FLAGS, DXGK_STANDARD_COLORIMETRY_FLAGS union [Display Devices], PDXGK_STANDARD_COLORIMETRY_FLAGS, PDXGK_STANDARD_COLORIMETRY_FLAGS union pointer [Display Devices], _DXGK_STANDARD_COLORIMETRY_FLAGS, d3dkmddi/DXGK_STANDARD_COLORIMETRY_FLAGS, d3dkmddi/PDXGK_STANDARD_COLORIMETRY_FLAGS, display.dxgk_standard_colorimetry_flags"
 f1_keywords:
  - "d3dkmddi/DXGK_STANDARD_COLORIMETRY_FLAGS"
+ - "DXGK_STANDARD_COLORIMETRY_FLAGS"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGK_STANDARD_COLORIMETRY_FLAGS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_STANDARD_COLORIMETRY_FLAGS, *PDXGK_STANDARD_COLORIMETRY_FLAGS

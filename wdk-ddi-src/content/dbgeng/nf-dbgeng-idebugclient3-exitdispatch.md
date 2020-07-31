@@ -10,6 +10,7 @@ keywords: ["IDebugClient3::ExitDispatch"]
 ms.keywords: ExitDispatch, ExitDispatch method [Windows Debugging], ExitDispatch method [Windows Debugging],IDebugClient interface, ExitDispatch method [Windows Debugging],IDebugClient2 interface, ExitDispatch method [Windows Debugging],IDebugClient3 interface, ExitDispatch method [Windows Debugging],IDebugClient4 interface, ExitDispatch method [Windows Debugging],IDebugClient5 interface, IDebugClient interface [Windows Debugging],ExitDispatch method, IDebugClient2 interface [Windows Debugging],ExitDispatch method, IDebugClient2::ExitDispatch, IDebugClient3 interface [Windows Debugging],ExitDispatch method, IDebugClient3.ExitDispatch, IDebugClient3::ExitDispatch, IDebugClient4 interface [Windows Debugging],ExitDispatch method, IDebugClient4::ExitDispatch, IDebugClient5 interface [Windows Debugging],ExitDispatch method, IDebugClient5::ExitDispatch, IDebugClient::ExitDispatch, IDebugClient_5c4cc320-694e-481a-814d-a77653548f7d.xml, dbgeng/IDebugClient2::ExitDispatch, dbgeng/IDebugClient3::ExitDispatch, dbgeng/IDebugClient4::ExitDispatch, dbgeng/IDebugClient5::ExitDispatch, dbgeng/IDebugClient::ExitDispatch, debugger.exitdispatch
 f1_keywords:
  - "dbgeng/IDebugClient.ExitDispatch"
+ - "IDebugClient.ExitDispatch"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -40,8 +41,6 @@ api_name:
 - IDebugClient3.ExitDispatch
 - IDebugClient4.ExitDispatch
 - IDebugClient5.ExitDispatch
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

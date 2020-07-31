@@ -10,6 +10,7 @@ keywords: ["WDF_TYPE_NAME_POINTER_TYPE macro"]
 ms.keywords: DFGenObjectRef_07b4c582-4483-4faa-862c-4b92d075289d.xml, WDF_TYPE_NAME_POINTER_TYPE, WDF_TYPE_NAME_POINTER_TYPE macro, kmdf.wdf_type_name_pointer_type, wdf.wdf_type_name_pointer_type, wdfobject/WDF_TYPE_NAME_POINTER_TYPE
 f1_keywords:
  - "wdfobject/WDF_TYPE_NAME_POINTER_TYPE"
+ - "WDF_TYPE_NAME_POINTER_TYPE"
 req.header: wdfobject.h
 req.include-header: 
 req.target-type: Windows
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WDF_TYPE_NAME_POINTER_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

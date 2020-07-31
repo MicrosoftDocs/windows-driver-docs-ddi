@@ -10,6 +10,7 @@ keywords: ["_AddConnectionToSession_IN structure"]
 ms.keywords: "*PAddConnectionToSession_IN, AddConnectionToSession_IN, AddConnectionToSession_IN structure [Storage Devices], PAddConnectionToSession_IN, PAddConnectionToSession_IN structure pointer [Storage Devices], _AddConnectionToSession_IN, iscsiop/AddConnectionToSession_IN, iscsiop/PAddConnectionToSession_IN, storage.addconnectiontosession_in, structs-iSCSI_4e238073-ca54-4da3-afcc-4b45e4da243f.xml"
 f1_keywords:
  - "iscsiop/AddConnectionToSession_IN"
+ - "AddConnectionToSession_IN"
 req.header: iscsiop.h
 req.include-header: Iscsiop.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - iscsiop.h
 api_name:
 - AddConnectionToSession_IN
-product:
-- Windows
 targetos: Windows
 req.typenames: AddConnectionToSession_IN, *PAddConnectionToSession_IN
 ---

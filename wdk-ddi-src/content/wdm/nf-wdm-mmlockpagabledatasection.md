@@ -10,6 +10,7 @@ keywords: ["MmLockPagableDataSection function"]
 ms.keywords: MmLockPagableDataSection, MmLockPagableDataSection routine [Kernel-Mode Driver Architecture], k106_05a47a6d-54f2-48d3-abba-ba3864aaa94b.xml, kernel.mmlockpagabledatasection, wdm/MmLockPagableDataSection
 f1_keywords:
  - "wdm/MmLockPagableDataSection"
+ - "MmLockPagableDataSection"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - MmLockPagableDataSection
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -78,16 +77,10 @@ Drivers can use this routine, <b>MmLockPagableSectionByHandle</b>, and <b>MmUnlo
 
 Data can be locked down if:
 
-<ul>
-<li>
-The data is typically accessed at <= APC_LEVEL, but it might need to be accessed at higher IRQL levels for short periods. 
+* The data is typically accessed at <= APC_LEVEL, but it might need to be accessed at higher IRQL levels for short periods. 
 
-</li>
-<li>
-The driver uses the data infrequently and predictably. 
+* The driver uses the data infrequently and predictably. 
 
-</li>
-</ul>
 For example, drivers for mixer devices use pageable-data sections. Because the driver uses sufficient data to make creating a pageable-data section worthwhile and the driver knows when the data is needed, such a driver uses <b>MmLockPagableDataSection</b>,  <b>MmLockPagableSectionByHandle</b> and <b>MmUnlockPagableImageSection</b> to bring a data section into system space when needed and make it available to be paged out when not needed.
 
 A single call to <b>MmLockPagableDataSection</b> causes the entire section, containing the referenced data, to be locked into system space.

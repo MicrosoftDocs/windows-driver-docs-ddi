@@ -10,6 +10,7 @@ keywords: ["ISensorClassExtension::Uninitialize"]
 ms.keywords: ISensorClassExtension interface [Sensor Devices],Uninitialize method, ISensorClassExtension.Uninitialize, ISensorClassExtension::Uninitialize, Uninitialize, Uninitialize method [Sensor Devices], Uninitialize method [Sensor Devices],ISensorClassExtension interface, sensors.isensorclassextension_uninitialize, sensorsclassextension/ISensorClassExtension::Uninitialize
 f1_keywords:
  - "sensorsclassextension/Uninitialize"
+ - "Uninitialize"
 req.header: sensorsclassextension.h
 req.include-header: 
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 - SensorsClassExtension.dll
 api_name:
 - Uninitialize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

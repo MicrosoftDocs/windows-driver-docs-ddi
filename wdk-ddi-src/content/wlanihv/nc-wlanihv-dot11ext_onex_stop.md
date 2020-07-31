@@ -10,6 +10,7 @@ keywords: ["DOT11EXT_ONEX_STOP callback"]
 ms.keywords: DOT11EXT_ONEX_STOP, Dot11ExtStopOneX, Dot11ExtStopOneX callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_fcc1f11d-938e-431e-8327-42d34fedff04.xml, netvista.dot11extstoponex, wlanihv/Dot11ExtStopOneX
 f1_keywords:
  - "wlanihv/Dot11ExtStopOneX"
+ - "Dot11ExtStopOneX"
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wlanihv.h
 api_name:
 - Dot11ExtStopOneX
-product:
-- Windows
 targetos: Windows
 req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.

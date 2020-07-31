@@ -9,6 +9,7 @@ keywords: ["PFND3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME callback function
 ms.keywords: D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName, D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName callback function [Display Devices], PFND3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME, PFND3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME callback, d3dkmthk/D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName, display.d3dkmtqueryremotevidpnsourcefromgdidisplayname
 f1_keywords:
  - "d3dkmthk/D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName"
+ - "D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -35,8 +36,6 @@ api_location:
 - D3dkmthk.h
 api_name:
 - D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

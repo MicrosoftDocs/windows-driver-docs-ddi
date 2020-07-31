@@ -10,6 +10,7 @@ keywords: ["IKsPin::KsIncrementPendingIoCount"]
 ms.keywords: IKsPin interface [Streaming Media Devices],KsIncrementPendingIoCount method, IKsPin.KsIncrementPendingIoCount, IKsPin::KsIncrementPendingIoCount, KsIncrementPendingIoCount, KsIncrementPendingIoCount method [Streaming Media Devices], KsIncrementPendingIoCount method [Streaming Media Devices],IKsPin interface, ksproxy/IKsPin::KsIncrementPendingIoCount, ksproxy_c654f701-d58e-4953-ad55-76d98096b7f0.xml, stream.ikspin_ksincrementpendingiocount
 f1_keywords:
  - "ksproxy/IKsPin.KsIncrementPendingIoCount"
+ - "IKsPin.KsIncrementPendingIoCount"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ksproxy.h
 api_name:
 - IKsPin.KsIncrementPendingIoCount
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC callback function"]
 ms.keywords: EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC, EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC callback, EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC callback function, wdf.evt_wdf_task_queue_task_execute_sync, wdfcompanion/EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC
 f1_keywords:
  - "wdfcompanion/EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC"
+ - "EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC"
 req.header: wdfcompanion.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wdfcompanion.h
 api_name:
 - EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

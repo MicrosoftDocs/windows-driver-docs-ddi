@@ -10,6 +10,7 @@ keywords: ["_WDI_CONNECTION_QUALITY_HINT enumeration"]
 ms.keywords: WDI_CONNECTION_QUALITY_AUTO_POWER_SAVE, WDI_CONNECTION_QUALITY_HIGH_CHANNEL_AVAILABILITY, WDI_CONNECTION_QUALITY_HIGH_THROUGHPUT, WDI_CONNECTION_QUALITY_HINT, WDI_CONNECTION_QUALITY_HINT enumeration [Device and Driver Installation], WDI_CONNECTION_QUALITY_LOW_LATENCY, _WDI_CONNECTION_QUALITY_HINT, devinst.wfi_connection_quality_hint, netvista.wdi_connection_quality_hint, wditypes/WDI_CONNECTION_QUALITY_AUTO_POWER_SAVE, wditypes/WDI_CONNECTION_QUALITY_HIGH_CHANNEL_AVAILABILITY, wditypes/WDI_CONNECTION_QUALITY_HIGH_THROUGHPUT, wditypes/WDI_CONNECTION_QUALITY_HINT, wditypes/WDI_CONNECTION_QUALITY_LOW_LATENCY
 f1_keywords:
  - "wditypes/WDI_CONNECTION_QUALITY_HINT"
+ - "WDI_CONNECTION_QUALITY_HINT"
 req.header: wditypes.hpp
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wditypes.hpp
 api_name:
 - WDI_CONNECTION_QUALITY_HINT
-product:
-- Windows
 targetos: Windows
 req.typenames: WDI_CONNECTION_QUALITY_HINT
 ---

@@ -10,6 +10,7 @@ keywords: ["WdfTimerStop function"]
 ms.keywords: DFTimerObjectRef_6b433db6-e7a0-4521-961d-56c3de8a97ad.xml, WdfTimerStop, WdfTimerStop method, kmdf.wdftimerstop, wdf.wdftimerstop, wdftimer/WdfTimerStop
 f1_keywords:
  - "wdftimer/WdfTimerStop"
+ - "WdfTimerStop"
 req.header: wdftimer.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfTimerStop
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

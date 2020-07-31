@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_DXGK_PHYSICAL_MEMORY_RANGE structure"]
 f1_keywords:
  - "d3dkmddi/_DXGK_PHYSICAL_MEMORY_RANGE"
+ - "_DXGK_PHYSICAL_MEMORY_RANGE"
 ms.keywords: _DXGK_PHYSICAL_MEMORY_RANGE, DXGK_PHYSICAL_MEMORY_RANGE,
 req.header: d3dkmddi.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["IPrintSchemaTicket::GetFeatureByKeyName"]
 ms.keywords: GetFeatureByKeyName, GetFeatureByKeyName method [Print Devices], GetFeatureByKeyName method [Print Devices],IPrintSchemaTicket interface, IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices],GetFeatureByKeyName method, IPrintSchemaTicket.GetFeatureByKeyName, IPrintSchemaTicket::GetFeatureByKeyName, print.iprintschematicket_getfeaturebykeyname, printerextension/IPrintSchemaTicket::GetFeatureByKeyName
 f1_keywords:
  - "printerextension/IPrintSchemaTicket.GetFeatureByKeyName"
+ - "IPrintSchemaTicket.GetFeatureByKeyName"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Printerextension.h
 api_name:
 - IPrintSchemaTicket.GetFeatureByKeyName
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

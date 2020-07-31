@@ -10,6 +10,7 @@ keywords: ["RILEXCHANGEUICCAPDURESPONSE structure"]
 ms.keywords: "*LPRILEXCHANGEUICCAPDURESPONSE, RILEXCHANGEUICCAPDURESPONSE, RILEXCHANGEUICCAPDURESPONSE structure [Network Drivers Starting with Windows Vista], netvista.rilexchangeuiccapduresponse, ntddrilapitypes/RILEXCHANGEUICCAPDURESPONSE"
 f1_keywords:
  - "rilapitypes/RILEXCHANGEUICCAPDURESPONSE"
+ - "RILEXCHANGEUICCAPDURESPONSE"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILEXCHANGEUICCAPDURESPONSE
-product:
-- Windows
 targetos: Windows
 req.typenames: RILEXCHANGEUICCAPDURESPONSE, *LPRILEXCHANGEUICCAPDURESPONSE
 ---

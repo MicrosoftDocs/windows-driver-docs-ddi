@@ -10,6 +10,7 @@ keywords: ["CcPinMappedData function"]
 ms.keywords: CcPinMappedData, CcPinMappedData routine [Installable File System Drivers], ccref_3935eee3-9906-4110-812f-ca186953cfbf.xml, ifsk.ccpinmappeddata, ntifs/CcPinMappedData
 f1_keywords:
 - "ntifs/CcPinMappedData"
+ - "CcPinMappedData"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - CcPinMappedData
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

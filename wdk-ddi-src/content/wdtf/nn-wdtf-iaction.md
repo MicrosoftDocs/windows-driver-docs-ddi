@@ -10,6 +10,7 @@ keywords: ["IAction interface"]
 ms.keywords: IAction, IAction interface [Windows Device Testing Framework], IAction interface [Windows Device Testing Framework],described, IAction_d82d1b27-acd4-43f6-b020-a9a9fa5dbe60.xml, Microsoft.WDTF.IAction, dtf.iaction, wdtf/IAction
 f1_keywords:
  - "wdtf/IAction"
+ - "IAction"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IAction
 - IAction.SetTarget
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

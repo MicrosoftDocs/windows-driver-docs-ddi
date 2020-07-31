@@ -7,6 +7,7 @@ ms.date: 09/19/2018
 keywords: ["IIterableConcept::QueryInterface"]
 f1_keywords:
  - "dbgmodel/IIterableConcept.QueryInterface"
+ - "IIterableConcept.QueryInterface"
 ms.keywords: IIterableConcept::QueryInterface, QueryInterface, IIterableConcept.QueryInterface, IIterableConcept::QueryInterface, IIterableConcept.QueryInterface
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IIterableConcept.QueryInterface
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

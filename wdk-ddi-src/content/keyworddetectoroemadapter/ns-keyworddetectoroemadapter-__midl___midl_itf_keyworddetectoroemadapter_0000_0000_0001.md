@@ -10,6 +10,7 @@ keywords: ["__MIDL___MIDL_itf_keyworddetectoroemadapter_0000_0000_0001 structure
 ms.keywords: SOUNDDETECTOR_PATTERNHEADER, SOUNDDETECTOR_PATTERNHEADER structure [Audio Devices], __MIDL___MIDL_itf_keyworddetectoroemadapter_0000_0000_0001, audio.sounddetector_patternheader, ksmedia/SOUNDDETECTOR_PATTERNHEADER
 f1_keywords:
  - "keyworddetectoroemadapter/SOUNDDETECTOR_PATTERNHEADER"
+ - "SOUNDDETECTOR_PATTERNHEADER"
 req.header: keyworddetectoroemadapter.h
 req.include-header: Keyworddetectoroemadapter.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - SOUNDDETECTOR_PATTERNHEADER
-product:
-- Windows
 targetos: Windows
 req.typenames: SOUNDDETECTOR_PATTERNHEADER
 ---

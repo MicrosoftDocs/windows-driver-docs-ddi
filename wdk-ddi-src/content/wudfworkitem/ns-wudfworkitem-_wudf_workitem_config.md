@@ -10,6 +10,7 @@ keywords: ["_WUDF_WORKITEM_CONFIG structure"]
 ms.keywords: "*PWUDF_WORKITEM_CONFIG, PWUDF_WORKITEM_CONFIG, PWUDF_WORKITEM_CONFIG structure pointer, WUDF_WORKITEM_CONFIG, WUDF_WORKITEM_CONFIG structure, _WUDF_WORKITEM_CONFIG, umdf.wudf_workitem_config, wdf.wudf_workitem_config, wudfworkitem/PWUDF_WORKITEM_CONFIG, wudfworkitem/WUDF_WORKITEM_CONFIG"
 f1_keywords:
  - "wudfworkitem/WUDF_WORKITEM_CONFIG"
+ - "WUDF_WORKITEM_CONFIG"
 req.header: wudfworkitem.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wudfworkitem.h
 api_name:
 - WUDF_WORKITEM_CONFIG
-product:
-- Windows
 targetos: Windows
 req.typenames: WUDF_WORKITEM_CONFIG, *PWUDF_WORKITEM_CONFIG
 ---

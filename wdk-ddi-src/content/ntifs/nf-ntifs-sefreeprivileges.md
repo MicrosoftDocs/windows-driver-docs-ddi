@@ -10,6 +10,7 @@ keywords: ["SeFreePrivileges function"]
 ms.keywords: SeFreePrivileges, SeFreePrivileges routine [Kernel-Mode Driver Architecture], kernel.sefreeprivileges, ntifs/SeFreePrivileges, seref_e40724d7-f170-4dbd-89a6-2cdcdd13e87d.xml
 f1_keywords:
  - "ntifs/SeFreePrivileges"
+ - "SeFreePrivileges"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - SeFreePrivileges
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

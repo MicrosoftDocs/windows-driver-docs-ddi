@@ -10,6 +10,7 @@ keywords: ["WRITE_PORT_USHORT function"]
 ms.keywords: WRITE_PORT_USHORT, WRITE_PORT_USHORT function, umdf.write_port_ushort, wdf.write_port_ushort, wudfddi_hwaccess/WRITE_PORT_USHORT
 f1_keywords:
  - "wudfddi_hwaccess/WRITE_PORT_USHORT"
+ - "WRITE_PORT_USHORT"
 req.header: wudfddi_hwaccess.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wudfddi_hwaccess.h
 api_name:
 - WRITE_PORT_USHORT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

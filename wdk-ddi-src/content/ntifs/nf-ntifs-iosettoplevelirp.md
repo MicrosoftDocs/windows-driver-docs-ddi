@@ -10,6 +10,7 @@ keywords: ["IoSetTopLevelIrp function"]
 ms.keywords: IoSetTopLevelIrp, IoSetTopLevelIrp routine [Installable File System Drivers], ifsk.iosettoplevelirp, ioref_1c046677-97df-4f46-956c-108a203f83f2.xml, ntifs/IoSetTopLevelIrp
 f1_keywords:
  - "ntifs/IoSetTopLevelIrp"
+ - "IoSetTopLevelIrp"
 req.header: ntifs.h
 req.include-header: Rx.h, Wdm.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoSetTopLevelIrp
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

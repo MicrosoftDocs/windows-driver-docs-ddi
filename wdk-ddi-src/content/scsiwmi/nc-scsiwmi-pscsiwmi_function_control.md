@@ -10,6 +10,7 @@ keywords: ["PSCSIWMI_FUNCTION_CONTROL callback function"]
 ms.keywords: HwScsiWmiFunctionControl, HwScsiWmiFunctionControl callback function [Storage Devices], PSCSIWMI_FUNCTION_CONTROL, PSCSIWMI_FUNCTION_CONTROL callback, Scsimini_42361f5c-fc45-4883-997e-afa65bc376c4.xml, scsiwmi/HwScsiWmiFunctionControl, storage.hwscsiwmifunctioncontrol
 f1_keywords:
  - "scsiwmi/HwScsiWmiFunctionControl"
+ - "HwScsiWmiFunctionControl"
 req.header: scsiwmi.h
 req.include-header: Scsiwmi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - scsiwmi.h
 api_name:
 - HwScsiWmiFunctionControl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["_DEBUG_TRANSPORT_DATA structure"]
 f1_keywords:
  - "ntddk/_DEBUG_TRANSPORT_DATA"
+ - "_DEBUG_TRANSPORT_DATA"
 ms.keywords: _DEBUG_TRANSPORT_DATA, DEBUG_TRANSPORT_DATA, *PDEBUG_TRANSPORT_DATA, 
 req.header: ntddk.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - ntddk.h
 api_name: 
 - _DEBUG_TRANSPORT_DATA
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

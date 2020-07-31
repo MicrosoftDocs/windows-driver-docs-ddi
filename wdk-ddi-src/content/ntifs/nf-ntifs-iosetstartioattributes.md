@@ -10,6 +10,7 @@ keywords: ["IoSetStartIoAttributes function"]
 ms.keywords: IoSetStartIoAttributes, IoSetStartIoAttributes routine [Kernel-Mode Driver Architecture], k104_cf8613cc-f891-45f7-816c-224b3294f8dd.xml, kernel.iosetstartioattributes, wdm/IoSetStartIoAttributes
 f1_keywords:
  - "ntifs/IoSetStartIoAttributes"
+ - "IoSetStartIoAttributes"
 req.header: ntifs.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoSetStartIoAttributes
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

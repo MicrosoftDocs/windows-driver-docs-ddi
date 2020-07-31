@@ -10,6 +10,7 @@ keywords: ["IKsAllocatorEx::KsSetProperties"]
 ms.keywords: IKsAllocatorEx interface [Streaming Media Devices],KsSetProperties method, IKsAllocatorEx.KsSetProperties, IKsAllocatorEx::KsSetProperties, KsSetProperties, KsSetProperties method [Streaming Media Devices], KsSetProperties method [Streaming Media Devices],IKsAllocatorEx interface, ksproxy/IKsAllocatorEx::KsSetProperties, stream.iksallocatorex_kssetproperties
 f1_keywords:
  - "ksproxy/IKsAllocatorEx.KsSetProperties"
+ - "IKsAllocatorEx.KsSetProperties"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ksproxy.h
 api_name:
 - IKsAllocatorEx.KsSetProperties
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["SeTokenIsAdmin function"]
 ms.keywords: SeTokenIsAdmin, SeTokenIsAdmin routine [Installable File System Drivers], ifsk.setokenisadmin, ntifs/SeTokenIsAdmin, seref_e621b2f6-c7c3-4df0-90d4-87a42080e1bd.xml
 f1_keywords:
  - "ntifs/SeTokenIsAdmin"
+ - "SeTokenIsAdmin"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - SeTokenIsAdmin
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

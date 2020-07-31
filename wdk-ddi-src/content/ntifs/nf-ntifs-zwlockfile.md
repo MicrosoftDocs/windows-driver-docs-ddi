@@ -10,6 +10,7 @@ keywords: ["ZwLockFile function"]
 ms.keywords: NtLockFile, ZwLockFile, ZwLockFile routine [Kernel-Mode Driver Architecture], k111_267331a3-5339-46ce-a0b6-d7b2e0aba68f.xml, kernel.zwlockfile, ntifs/NtLockFile, ntifs/ZwLockFile
 f1_keywords:
  - "ntifs/ZwLockFile"
+ - "ZwLockFile"
 req.header: ntifs.h
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - ZwLockFile
 - NtLockFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

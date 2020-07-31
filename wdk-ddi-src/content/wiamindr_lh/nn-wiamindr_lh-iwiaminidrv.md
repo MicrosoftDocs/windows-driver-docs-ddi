@@ -10,6 +10,7 @@ keywords: ["IWiaMiniDrv interface"]
 ms.keywords: IWiaMiniDrv, IWiaMiniDrv interface [Imaging Devices], IWiaMiniDrv interface [Imaging Devices],described, MiniDrv_8a22bfee-13f8-4efc-b31d-8dd9fabfe131.xml, image.iwiaminidrv_interface, wiamindr_lh/IWiaMiniDrv
 f1_keywords:
  - "wiamindr_lh/IWiaMiniDrv"
+ - "IWiaMiniDrv"
 req.header: wiamindr_lh.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wiamindr_lh.h
 api_name:
 - IWiaMiniDrv
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

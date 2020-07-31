@@ -10,6 +10,7 @@ keywords: ["WdfInterruptCreate function"]
 ms.keywords: DFInterruptObjectRef_44b197bb-82d6-45ff-a640-67fd1de506cc.xml, WdfInterruptCreate, WdfInterruptCreate method, kmdf.wdfinterruptcreate, wdf.wdfinterruptcreate, wdfinterrupt/WdfInterruptCreate
 f1_keywords:
  - "wdfinterrupt/WdfInterruptCreate"
+ - "WdfInterruptCreate"
 req.header: wdfinterrupt.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfInterruptCreate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

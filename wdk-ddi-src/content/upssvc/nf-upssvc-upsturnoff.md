@@ -10,6 +10,7 @@ keywords: ["UPSTurnOff function"]
 ms.keywords: UPSTurnOff, UPSTurnOff function [Battery Devices], UPS_fns_ab585909-7eee-470f-b33f-6045f839ceed.xml, battery.upsturnoff, upssvc/UPSTurnOff
 f1_keywords:
  - "upssvc/UPSTurnOff"
+ - "UPSTurnOff"
 req.header: upssvc.h
 req.include-header: Upssvc.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - upssvc.h
 api_name:
 - UPSTurnOff
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

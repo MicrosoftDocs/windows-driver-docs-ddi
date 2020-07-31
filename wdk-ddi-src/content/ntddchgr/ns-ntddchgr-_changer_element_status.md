@@ -10,6 +10,7 @@ keywords: ["_CHANGER_ELEMENT_STATUS structure"]
 ms.keywords: "*PCHANGER_ELEMENT_STATUS, CHANGER_ELEMENT_STATUS, CHANGER_ELEMENT_STATUS structure [Storage Devices], PCHANGER_ELEMENT_STATUS, PCHANGER_ELEMENT_STATUS structure pointer [Storage Devices], _CHANGER_ELEMENT_STATUS, ntddchgr/CHANGER_ELEMENT_STATUS, ntddchgr/PCHANGER_ELEMENT_STATUS, storage.changer_element_status, structs-changer_6dd054a8-1224-42f1-ab26-29b2c108ce27.xml"
 f1_keywords:
  - "ntddchgr/CHANGER_ELEMENT_STATUS"
+ - "CHANGER_ELEMENT_STATUS"
 req.header: ntddchgr.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddchgr.h
 api_name:
 - CHANGER_ELEMENT_STATUS
-product:
-- Windows
 targetos: Windows
 req.typenames: CHANGER_ELEMENT_STATUS, *PCHANGER_ELEMENT_STATUS
 ---

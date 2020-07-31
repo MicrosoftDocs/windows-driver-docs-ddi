@@ -35,8 +35,6 @@ api_location:
 - Mscms.dll
 api_name:
 - WcsGetUsePerUserProfiles
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

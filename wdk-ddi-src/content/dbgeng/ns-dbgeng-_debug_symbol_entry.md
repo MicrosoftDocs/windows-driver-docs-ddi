@@ -10,6 +10,7 @@ keywords: ["_DEBUG_SYMBOL_ENTRY structure"]
 ms.keywords: "*PDEBUG_SYMBOL_ENTRY, DEBUG_SYMBOL_ENTRY, DEBUG_SYMBOL_ENTRY structure [Windows Debugging], PDEBUG_SYMBOL_ENTRY, PDEBUG_SYMBOL_ENTRY structure pointer [Windows Debugging], Structures_5673550e-274a-429f-9a31-88e401bca68e.xml, _DEBUG_SYMBOL_ENTRY, dbgeng/DEBUG_SYMBOL_ENTRY, dbgeng/PDEBUG_SYMBOL_ENTRY, debugger.debug_symbol_entry"
 f1_keywords:
  - "dbgeng/DEBUG_SYMBOL_ENTRY"
+ - "DEBUG_SYMBOL_ENTRY"
 req.header: dbgeng.h
 req.include-header: DbgEng.h, DbgHelp.h, DbgHelp.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - DbgEng.h
 api_name:
 - DEBUG_SYMBOL_ENTRY
-product:
-- Windows
 targetos: Windows
 req.typenames: DEBUG_SYMBOL_ENTRY, *PDEBUG_SYMBOL_ENTRY
 ---

@@ -10,6 +10,7 @@ keywords: ["WDF_USB_PIPE_DIRECTION_IN function"]
 ms.keywords: DFUsbRef_e0e1b604-8973-4901-91ea-76fce4e69b7c.xml, WDF_USB_PIPE_DIRECTION_IN, WDF_USB_PIPE_DIRECTION_IN function, kmdf.wdf_usb_pipe_direction_in, wdf.wdf_usb_pipe_direction_in, wdfusb/WDF_USB_PIPE_DIRECTION_IN
 f1_keywords:
  - "wdfusb/WDF_USB_PIPE_DIRECTION_IN"
+ - "WDF_USB_PIPE_DIRECTION_IN"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - None.dll
 api_name:
 - WDF_USB_PIPE_DIRECTION_IN
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

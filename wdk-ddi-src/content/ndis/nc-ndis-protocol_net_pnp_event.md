@@ -10,6 +10,7 @@ keywords: ["PROTOCOL_NET_PNP_EVENT callback function"]
 ms.keywords: PROTOCOL_NET_PNP_EVENT, PROTOCOL_NET_PNP_EVENT callback, ProtocolNetPnPEvent, ProtocolNetPnPEvent callback function [Network Drivers Starting with Windows Vista], ndis/ProtocolNetPnPEvent, netvista.protocolnetpnpevent, protocol_functions_ref_24f290b7-d0fc-4d50-9aff-f40f4847a451.xml
 f1_keywords:
  - "ndis/ProtocolNetPnPEvent"
+ - "ProtocolNetPnPEvent"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - ProtocolNetPnPEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

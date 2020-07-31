@@ -10,6 +10,7 @@ keywords: ["IOCTL_VIDEO_SET_POINTER_ATTR IOCTL"]
 ms.keywords: IOCTL_VIDEO_SET_POINTER_ATTR, IOCTL_VIDEO_SET_POINTER_ATTR control, IOCTL_VIDEO_SET_POINTER_ATTR control code [Display Devices], Video_IOCTLs_78cd33bc-5c7d-4b6c-bfac-64e0cc33e475.xml, display.ioctl_video_set_pointer_attr, ntddvdeo/IOCTL_VIDEO_SET_POINTER_ATTR
 f1_keywords:
  - "ntddvdeo/IOCTL_VIDEO_SET_POINTER_ATTR"
+ - "IOCTL_VIDEO_SET_POINTER_ATTR"
 req.header: ntddvdeo.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddvdeo.h
 api_name:
 - IOCTL_VIDEO_SET_POINTER_ATTR
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["StorPortGetNodeAffinity function"]
 ms.keywords: StorPortGetNodeAffinity, StorPortGetNodeAffinity routine [Storage Devices], storage.storportgetnodeaffinity, storport/StorPortGetNodeAffinity, storprt_fdd62c09-d9ce-49cd-b390-c7c9a76a098f.xml
 f1_keywords:
  - "storport/StorPortGetNodeAffinity"
+ - "StorPortGetNodeAffinity"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - storport.h
 api_name:
 - StorPortGetNodeAffinity
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

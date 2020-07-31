@@ -10,6 +10,7 @@ keywords: ["AtaPortDebugPrint function"]
 ms.keywords: AtaPortDebugPrint, AtaPortDebugPrint routine [Storage Devices], atartns_57e04fb5-19ac-42fc-9bc5-32645ef61320.xml, irb/AtaPortDebugPrint, storage.ataportdebugprint
 f1_keywords:
  - "irb/AtaPortDebugPrint"
+ - "AtaPortDebugPrint"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
@@ -39,8 +40,6 @@ api_location:
 - pciidex.dll
 api_name:
 - AtaPortDebugPrint
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

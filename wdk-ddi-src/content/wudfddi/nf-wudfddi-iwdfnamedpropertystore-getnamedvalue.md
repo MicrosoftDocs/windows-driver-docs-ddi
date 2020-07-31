@@ -10,6 +10,7 @@ keywords: ["IWDFNamedPropertyStore::GetNamedValue"]
 ms.keywords: GetNamedValue, GetNamedValue method, GetNamedValue method,IWDFNamedPropertyStore interface, IWDFNamedPropertyStore interface,GetNamedValue method, IWDFNamedPropertyStore.GetNamedValue, IWDFNamedPropertyStore::GetNamedValue, UMDFPropertyStoreObjectRef_ba3dd45a-7045-4798-81c6-35cb1a743cc4.xml, umdf.iwdfnamedpropertystore_getnamedvalue, wdf.iwdfnamedpropertystore_getnamedvalue, wudfddi/IWDFNamedPropertyStore::GetNamedValue
 f1_keywords:
  - "wudfddi/IWDFNamedPropertyStore.GetNamedValue"
+ - "IWDFNamedPropertyStore.GetNamedValue"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFNamedPropertyStore.GetNamedValue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["RILUICCRECORDSTATUS structure"]
 ms.keywords: "*LPRILUICCRECORDSTATUS, RILUICCRECORDSTATUS, RILUICCRECORDSTATUS structure [Network Drivers Starting with Windows Vista], netvista.riluiccrecordstatus_2, rilapitypes/RILUICCRECORDSTATUS"
 f1_keywords:
  - "rilapitypes/RILUICCRECORDSTATUS"
+ - "RILUICCRECORDSTATUS"
 req.header: rilapitypes.h
 req.include-header:
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapitypes.h
 api_name:
 - RILUICCRECORDSTATUS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILUICCRECORDSTATUS, *LPRILUICCRECORDSTATUS
 req.product: Windows 10 or later.

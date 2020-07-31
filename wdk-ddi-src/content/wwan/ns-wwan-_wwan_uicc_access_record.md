@@ -8,6 +8,7 @@ ms.date: 04/10/2019
 keywords: ["_WWAN_UICC_ACCESS_RECORD structure"]
 f1_keywords:
  - "wwan/_WWAN_UICC_ACCESS_RECORD"
+ - "_WWAN_UICC_ACCESS_RECORD"
 ms.keywords: _WWAN_UICC_ACCESS_RECORD, WWAN_UICC_ACCESS_RECORD, *PWWAN_UICC_ACCESS_RECORD, 
 req.header: wwan.h
 req.include-header:
@@ -30,8 +31,6 @@ api_location:
 - wwan.h
 api_name:  
 - _WWAN_UICC_ACCESS_RECORD
-product:
-- Windows
 targetos: Windows
 ms.custom: 19H1
 ---

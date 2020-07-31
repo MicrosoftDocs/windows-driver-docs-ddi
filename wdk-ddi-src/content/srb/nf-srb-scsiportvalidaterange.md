@@ -10,6 +10,7 @@ keywords: ["ScsiPortValidateRange function"]
 ms.keywords: ScsiPortValidateRange, ScsiPortValidateRange routine [Storage Devices], scsiprt_a5bae9f5-7912-4607-890d-ca08fda0c19c.xml, srb/ScsiPortValidateRange, storage.scsiportvalidaterange
 f1_keywords:
  - "srb/ScsiPortValidateRange"
+ - "ScsiPortValidateRange"
 req.header: srb.h
 req.include-header: Miniport.h, Scsi.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Scsiport.dll
 api_name:
 - ScsiPortValidateRange
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

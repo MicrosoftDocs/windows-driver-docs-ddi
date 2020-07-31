@@ -10,6 +10,7 @@ keywords: ["WdfMemoryAssignBuffer function"]
 ms.keywords: DFMemoryObjectRef_c2bf3437-5c1e-44d6-97ab-6ede16f7bc53.xml, WdfMemoryAssignBuffer, WdfMemoryAssignBuffer method, kmdf.wdfmemoryassignbuffer, wdf.wdfmemoryassignbuffer, wdfmemory/WdfMemoryAssignBuffer
 f1_keywords:
  - "wdfmemory/WdfMemoryAssignBuffer"
+ - "WdfMemoryAssignBuffer"
 req.header: wdfmemory.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfMemoryAssignBuffer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

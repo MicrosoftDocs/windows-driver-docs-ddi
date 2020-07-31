@@ -10,6 +10,7 @@ keywords: ["_STOR_SPINLOCK enumeration"]
 ms.keywords: DpcLock, InterruptLock, STOR_SPINLOCK, STOR_SPINLOCK enumeration [Storage Devices], StartIoLock, _STOR_SPINLOCK, storage.stor_spinlock, storport/DpcLock, storport/InterruptLock, storport/STOR_SPINLOCK, storport/StartIoLock, structs-general_53d45f74-68b2-4839-81c1-c93a2773f0d8.xml
 f1_keywords:
  - "storport/STOR_SPINLOCK"
+ - "STOR_SPINLOCK"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - storport.h
 api_name:
 - STOR_SPINLOCK
-product:
-- Windows
 targetos: Windows
 req.typenames: STOR_SPINLOCK
 ---

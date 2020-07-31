@@ -10,6 +10,7 @@ keywords: ["PFN_WSK_SEND callback function"]
 ms.keywords: PFN_WSK_SEND, PFN_WSK_SEND callback, WskSend, WskSend callback function [Network Drivers Starting with Windows Vista], netvista.wsksend, wsk/WskSend, wskref_978af27f-fa9e-4c21-9940-1d47b3fcb997.xml
 f1_keywords:
  - "wsk/WskSend"
+ - "WskSend"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - wsk.h
 api_name:
 - WskSend
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

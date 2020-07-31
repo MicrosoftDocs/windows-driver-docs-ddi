@@ -10,6 +10,7 @@ keywords: ["RILSETCALLFORWARDINGSTATUSPARAMS structure"]
 ms.keywords: "*LPRILSETCALLFORWARDINGSTATUSPARAMS, RILSETCALLFORWARDINGSTATUSPARAMS, RILSETCALLFORWARDINGSTATUSPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetcallforwardingstatusparams, ntddrilapitypes/RILSETCALLFORWARDINGSTATUSPARAMS"
 f1_keywords:
  - "ntddrilapitypes/RILSETCALLFORWARDINGSTATUSPARAMS"
+ - "RILSETCALLFORWARDINGSTATUSPARAMS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILSETCALLFORWARDINGSTATUSPARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILSETCALLFORWARDINGSTATUSPARAMS, *LPRILSETCALLFORWARDINGSTATUSPARAMS
 ---

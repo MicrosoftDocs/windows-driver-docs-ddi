@@ -10,6 +10,7 @@ keywords: ["IOCTL_SMARTCARD_TRANSMIT IOCTL"]
 ms.keywords: IOCTL_SMARTCARD_TRANSMIT, IOCTL_SMARTCARD_TRANSMIT control, IOCTL_SMARTCARD_TRANSMIT control code [Near-Field Proximity Drivers], nfpdrivers.ioctl_smartcard_transmit, winsmcrd/IOCTL_SMARTCARD_TRANSMIT
 f1_keywords:
  - "winsmcrd/IOCTL_SMARTCARD_TRANSMIT"
+ - "IOCTL_SMARTCARD_TRANSMIT"
 req.header: winsmcrd.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - winsmcrd.h
 api_name:
 - IOCTL_SMARTCARD_TRANSMIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["SRIOV_GET_DEVICE_LOCATION callback"]
 ms.keywords: "*PSRIOV_GET_DEVICE_LOCATION, *PSRIOV_GET_DEVICE_LOCATION callback function pointer [Buses], PCI.sriov_get_device_location, SRIOV_GET_DEVICE_LOCATION, SriovGetDeviceLocation, SriovGetDeviceLocation callback function [Buses], pcivirt/SriovGetDeviceLocation"
 f1_keywords:
  - "pcivirt/*PSRIOV_GET_DEVICE_LOCATION"
+ - "*PSRIOV_GET_DEVICE_LOCATION"
 req.header: pcivirt.h
 req.include-header:
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Pcivirt.h
 api_name:
 - PSRIOV_GET_DEVICE_LOCATION
-product:
-- Windows
 targetos: Windows
 req.typenames: PARCLASS_INFORMATION, *PPARCLASS_INFORMATION
 ---

@@ -10,6 +10,7 @@ keywords: ["_LogoutFromTarget_OUT structure"]
 ms.keywords: "*PLogoutFromTarget_OUT, LogoutFromTarget_OUT, LogoutFromTarget_OUT structure [Storage Devices], PLogoutFromTarget_OUT, PLogoutFromTarget_OUT structure pointer [Storage Devices], _LogoutFromTarget_OUT, iscsiop/LogoutFromTarget_OUT, iscsiop/PLogoutFromTarget_OUT, storage.logoutfromtarget_out, structs-iSCSI_3ef612e0-305e-4015-8b77-5c2577e2b6aa.xml"
 f1_keywords:
  - "iscsiop/LogoutFromTarget_OUT"
+ - "LogoutFromTarget_OUT"
 req.header: iscsiop.h
 req.include-header: Iscsiop.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - iscsiop.h
 api_name:
 - LogoutFromTarget_OUT
-product:
-- Windows
 targetos: Windows
 req.typenames: LogoutFromTarget_OUT, *PLogoutFromTarget_OUT
 ---

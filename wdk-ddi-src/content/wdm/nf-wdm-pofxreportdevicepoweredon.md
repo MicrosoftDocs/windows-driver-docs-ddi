@@ -10,6 +10,7 @@ keywords: ["PoFxReportDevicePoweredOn function"]
 ms.keywords: PoFxReportDevicePoweredOn, PoFxReportDevicePoweredOn routine [Kernel-Mode Driver Architecture], kernel.pofxreportdevicepoweredon, wdm/PoFxReportDevicePoweredOn
 f1_keywords:
  - "wdm/PoFxReportDevicePoweredOn"
+ - "PoFxReportDevicePoweredOn"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Ntoskrnl.exe
 api_name:
 - PoFxReportDevicePoweredOn
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

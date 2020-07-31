@@ -7,6 +7,7 @@ ms.date: 08/21/2018
 keywords: ["IDataModelScriptDebug::StartDebugging"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebug.StartDebugging"
+ - "IDataModelScriptDebug.StartDebugging"
 ms.keywords: IDataModelScriptDebug::StartDebugging, StartDebugging, IDataModelScriptDebug.StartDebugging, IDataModelScriptDebug::StartDebugging, IDataModelScriptDebug.StartDebugging
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDataModelScriptDebug.StartDebugging
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

@@ -10,6 +10,7 @@ keywords: ["IOCTL_GET_PHYSICAL_DESCRIPTOR IOCTL"]
 ms.keywords: IOCTL_GET_PHYSICAL_DESCRIPTOR, IOCTL_GET_PHYSICAL_DESCRIPTOR control, IOCTL_GET_PHYSICAL_DESCRIPTOR control code [Human Input Devices], hid.ioctl_get_physical_descriptor, hidclass/IOCTL_GET_PHYSICAL_DESCRIPTOR, hidioreq_3a61c6d2-a97a-47d6-86b1-317e22775271.xml
 f1_keywords:
  - "hidclass/IOCTL_GET_PHYSICAL_DESCRIPTOR"
+ - "IOCTL_GET_PHYSICAL_DESCRIPTOR"
 req.header: hidclass.h
 req.include-header: Hidclass.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - hidclass.h
 api_name:
 - IOCTL_GET_PHYSICAL_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

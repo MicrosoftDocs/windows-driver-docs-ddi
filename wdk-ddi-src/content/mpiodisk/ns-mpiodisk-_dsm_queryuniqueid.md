@@ -10,6 +10,7 @@ keywords: ["_DSM_QueryUniqueId structure"]
 ms.keywords: "*PDSM_QueryUniqueId, DSM_QueryUniqueId, DSM_QueryUniqueId structure [Storage Devices], PDSM_QueryUniqueId, PDSM_QueryUniqueId structure pointer [Storage Devices], _DSM_QueryUniqueId, mpiodisk/DSM_QueryUniqueId, mpiodisk/PDSM_QueryUniqueId, storage.dsm_queryuniqueid, structs-scsibus_eb6e8cc6-4b6a-468f-a14c-7a11c827ef30.xml"
 f1_keywords:
  - "mpiodisk/DSM_QueryUniqueId"
+ - "DSM_QueryUniqueId"
 req.header: mpiodisk.h
 req.include-header: Mpiowmi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - mpiodisk.h
 api_name:
 - DSM_QueryUniqueId
-product:
-- Windows
 targetos: Windows
 req.typenames: DSM_QueryUniqueId, *PDSM_QueryUniqueId
 ---

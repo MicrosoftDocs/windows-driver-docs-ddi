@@ -10,6 +10,7 @@ keywords: ["FltFreeCallbackData function"]
 ms.keywords: FltApiRef_e_to_o_1ad2fa09-dd36-4178-a422-a6a1f3854182.xml, FltFreeCallbackData, FltFreeCallbackData routine [Installable File System Drivers], fltkernel/FltFreeCallbackData, ifsk.fltfreecallbackdata
 f1_keywords:
  - "fltkernel/FltFreeCallbackData"
+ - "FltFreeCallbackData"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - FltMgr.dll
 api_name:
 - FltFreeCallbackData
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

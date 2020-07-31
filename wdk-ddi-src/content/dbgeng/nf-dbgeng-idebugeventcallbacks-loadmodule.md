@@ -10,6 +10,7 @@ keywords: ["IDebugEventCallbacks::LoadModule"]
 ms.keywords: ComCallbacks_3d8f0501-0915-425e-a940-aa5f41bad734.xml, IDebugEventCallbacks interface [Windows Debugging],LoadModule method, IDebugEventCallbacks.LoadModule, IDebugEventCallbacks::LoadModule, LoadModule, LoadModule method [Windows Debugging], LoadModule method [Windows Debugging],IDebugEventCallbacks interface, dbgeng/IDebugEventCallbacks::LoadModule, debugger.idebugeventcallbacks_loadmodule
 f1_keywords:
  - "dbgeng/IDebugEventCallbacks.LoadModule"
+ - "IDebugEventCallbacks.LoadModule"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugEventCallbacks.LoadModule
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

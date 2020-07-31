@@ -10,6 +10,7 @@ keywords: ["ZwOpenKeyTransacted function"]
 ms.keywords: ZwOpenKeyTransacted, ZwOpenKeyTransacted routine [Kernel-Mode Driver Architecture], k111_e4192ee9-7dba-48d2-81be-38b33ff0b1d6.xml, kernel.zwopenkeytransacted, wdm/ZwOpenKeyTransacted
 f1_keywords:
  - "wdm/ZwOpenKeyTransacted"
+ - "ZwOpenKeyTransacted"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - ZwOpenKeyTransacted
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

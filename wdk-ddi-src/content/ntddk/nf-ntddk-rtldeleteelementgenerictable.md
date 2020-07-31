@@ -10,6 +10,7 @@ keywords: ["RtlDeleteElementGenericTable function"]
 ms.keywords: RtlDeleteElementGenericTable, RtlDeleteElementGenericTable routine [Installable File System Drivers], ifsk.rtldeleteelementgenerictable, ntddk/RtlDeleteElementGenericTable, rtlref_914df898-52aa-48cd-80ae-f57ffc5e60dd.xml
 f1_keywords:
  - "ntddk/RtlDeleteElementGenericTable"
+ - "RtlDeleteElementGenericTable"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlDeleteElementGenericTable
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

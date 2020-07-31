@@ -10,6 +10,7 @@ keywords: ["PFLUSH_ADAPTER_BUFFERS_EX callback function"]
 ms.keywords: FlushAdapterBuffersEx, FlushAdapterBuffersEx callback function [Kernel-Mode Driver Architecture], PFLUSH_ADAPTER_BUFFERS_EX, PFLUSH_ADAPTER_BUFFERS_EX callback, kernel.flushadapterbuffersex, wdm/FlushAdapterBuffersEx
 f1_keywords:
  - "wdm/FlushAdapterBuffersEx"
+ - "FlushAdapterBuffersEx"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - FlushAdapterBuffersEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

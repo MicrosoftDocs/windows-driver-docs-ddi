@@ -10,6 +10,7 @@ keywords: ["WdfRequestRetrieveOutputBuffer function"]
 ms.keywords: DFRequestObjectRef_05ab728b-3b70-4095-acca-294443797557.xml, WdfRequestRetrieveOutputBuffer, WdfRequestRetrieveOutputBuffer method, kmdf.wdfrequestretrieveoutputbuffer, wdf.wdfrequestretrieveoutputbuffer, wdfrequest/WdfRequestRetrieveOutputBuffer
 f1_keywords:
  - "wdfrequest/WdfRequestRetrieveOutputBuffer"
+ - "WdfRequestRetrieveOutputBuffer"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfRequestRetrieveOutputBuffer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

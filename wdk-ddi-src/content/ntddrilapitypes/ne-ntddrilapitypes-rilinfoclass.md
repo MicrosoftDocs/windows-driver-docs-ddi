@@ -10,6 +10,7 @@ keywords: ["RILINFOCLASS enumeration"]
 ms.keywords: RILINFOCLASS, RILINFOCLASS enumeration [Network Drivers Starting with Windows Vista], RIL_INFOCLASS_ALL, RIL_INFOCLASS_DATA, RIL_INFOCLASS_DATACIRCUITASYNC, RIL_INFOCLASS_DATACIRCUITSYNC, RIL_INFOCLASS_FAX, RIL_INFOCLASS_PACKETACCESS, RIL_INFOCLASS_PADACCESS, RIL_INFOCLASS_SMS, RIL_INFOCLASS_VOICE, netvista.rilinfoclass, ntddrilapitypes/RILINFOCLASS, ntddrilapitypes/RIL_INFOCLASS_ALL, ntddrilapitypes/RIL_INFOCLASS_DATA, ntddrilapitypes/RIL_INFOCLASS_DATACIRCUITASYNC, ntddrilapitypes/RIL_INFOCLASS_DATACIRCUITSYNC, ntddrilapitypes/RIL_INFOCLASS_FAX, ntddrilapitypes/RIL_INFOCLASS_PACKETACCESS, ntddrilapitypes/RIL_INFOCLASS_PADACCESS, ntddrilapitypes/RIL_INFOCLASS_SMS, ntddrilapitypes/RIL_INFOCLASS_VOICE
 f1_keywords:
  - "ntddrilapitypes/RILINFOCLASS"
+ - "RILINFOCLASS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILINFOCLASS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILINFOCLASS
 ---

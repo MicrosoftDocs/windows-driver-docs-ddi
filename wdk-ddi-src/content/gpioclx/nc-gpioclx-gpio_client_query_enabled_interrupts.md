@@ -10,6 +10,7 @@ keywords: ["GPIO_CLIENT_QUERY_ENABLED_INTERRUPTS callback function"]
 ms.keywords: CLIENT_QueryEnabledInterrupts, CLIENT_QueryEnabledInterrupts callback, CLIENT_QueryEnabledInterrupts callback function [Parallel Ports], GPIO.client_queryenabledinterrupts, GPIO_CLIENT_QUERY_ENABLED_INTERRUPTS, gpioclx/CLIENT_QueryEnabledInterrupts
 f1_keywords:
  - "gpioclx/CLIENT_QueryEnabledInterrupts"
+ - "CLIENT_QueryEnabledInterrupts"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Gpioclx.h
 api_name:
 - CLIENT_QueryEnabledInterrupts
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

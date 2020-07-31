@@ -10,6 +10,7 @@ keywords: ["_NET_DMA_PROVIDER_ATTRIBUTES structure"]
 ms.keywords: "*PNET_DMA_PROVIDER_ATTRIBUTES, NET_DMA_PROVIDER_ATTRIBUTES, NET_DMA_PROVIDER_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], PNET_DMA_PROVIDER_ATTRIBUTES, PNET_DMA_PROVIDER_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], _NET_DMA_PROVIDER_ATTRIBUTES, netdma/NET_DMA_PROVIDER_ATTRIBUTES, netdma/PNET_DMA_PROVIDER_ATTRIBUTES, netdma_ref_a00d6e7c-6712-49c9-9c64-d200e96074c5.xml, netvista.net_dma_provider_attributes"
 f1_keywords:
  - "netdma/NET_DMA_PROVIDER_ATTRIBUTES"
+ - "NET_DMA_PROVIDER_ATTRIBUTES"
 req.header: netdma.h
 req.include-header: Netdma.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - netdma.h
 api_name:
 - NET_DMA_PROVIDER_ATTRIBUTES
-product:
-- Windows
 targetos: Windows
 req.typenames: NET_DMA_PROVIDER_ATTRIBUTES, *PNET_DMA_PROVIDER_ATTRIBUTES
 ---

@@ -10,6 +10,7 @@ keywords: ["RILSYSTEMSELECTIONPREFSPARAMMASK enumeration"]
 ms.keywords: RILSYSTEMSELECTIONPREFSPARAMMASK, RILSYSTEMSELECTIONPREFSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_SSP_ACQUISITIONORDER, RIL_PARAM_SSP_ACQUISITIONORDERSIZE, RIL_PARAM_SSP_ALL, RIL_PARAM_SSP_MODE, RIL_PARAM_SSP_PLMNINFO, RIL_PARAM_SSP_ROAMINGMODE, RIL_PARAM_SSP_SYSTEMTYPES, netvista.rilsystemselectionprefsparammask, ntddrilapitypes/RILSYSTEMSELECTIONPREFSPARAMMASK, ntddrilapitypes/RIL_PARAM_SSP_ACQUISITIONORDER, ntddrilapitypes/RIL_PARAM_SSP_ACQUISITIONORDERSIZE, ntddrilapitypes/RIL_PARAM_SSP_ALL, ntddrilapitypes/RIL_PARAM_SSP_MODE, ntddrilapitypes/RIL_PARAM_SSP_PLMNINFO, ntddrilapitypes/RIL_PARAM_SSP_ROAMINGMODE, ntddrilapitypes/RIL_PARAM_SSP_SYSTEMTYPES
 f1_keywords:
  - "rilapitypes/RILSYSTEMSELECTIONPREFSPARAMMASK"
+ - "RILSYSTEMSELECTIONPREFSPARAMMASK"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILSYSTEMSELECTIONPREFSPARAMMASK
-product:
-- Windows
 targetos: Windows
 req.typenames: RILSYSTEMSELECTIONPREFSPARAMMASK
 ---

@@ -10,6 +10,7 @@ keywords: ["USBD_SelectInterfaceUrbAllocateAndBuild function"]
 ms.keywords: USBD_SelectInterfaceUrbAllocateAndBuild, USBD_SelectInterfaceUrbAllocateAndBuild routine [Buses], buses.usbd_selectinterfaceurballocateandbuild, usbdlib/USBD_SelectInterfaceUrbAllocateAndBuild
 f1_keywords:
  - "usbdlib/USBD_SelectInterfaceUrbAllocateAndBuild"
+ - "USBD_SelectInterfaceUrbAllocateAndBuild"
 req.header: usbdlib.h
 req.include-header: 
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Usbdex.dll
 api_name:
 - USBD_SelectInterfaceUrbAllocateAndBuild
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

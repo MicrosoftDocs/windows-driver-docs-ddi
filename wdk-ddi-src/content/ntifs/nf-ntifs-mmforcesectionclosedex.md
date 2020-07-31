@@ -8,6 +8,7 @@ ms.date: 10/19/2018
 keywords: ["MmForceSectionClosedEx function"]
 f1_keywords:
  - "ntifs/MmForceSectionClosedEx"
+ - "MmForceSectionClosedEx"
 ms.keywords: MmForceSectionClosedEx
 req.header: ntifs.h
 req.include-header:
@@ -34,8 +35,6 @@ api_location:
 - NtosKrnl.exe
 api_name: 
 - MmForceSectionClosedEx
-product:
-- Windows
 targetos: Windows
 
 ---

@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["D3DKMDT_COLORSPACE_TRANSFORM_MATRIX_V2 structure"]
 f1_keywords:
  - "d3dukmdt/D3DKMDT_COLORSPACE_TRANSFORM_MATRIX_V2"
+ - "D3DKMDT_COLORSPACE_TRANSFORM_MATRIX_V2"
 ms.keywords: D3DKMDT_COLORSPACE_TRANSFORM_MATRIX_V2, D3DKMDT_COLORSPACE_TRANSFORM_MATRIX_V2, *PD3DKMDT_COLORSPACE_TRANSFORM_MATRIX_V2, 
 req.header: d3dukmdt.h
 req.include-header:
@@ -32,8 +33,6 @@ api_location:
  - d3dukmdt.h
 api_name: 
  - D3DKMDT_COLORSPACE_TRANSFORM_MATRIX_V2
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

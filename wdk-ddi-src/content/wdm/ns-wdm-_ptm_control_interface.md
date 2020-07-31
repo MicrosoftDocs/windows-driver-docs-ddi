@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_PTM_CONTROL_INTERFACE structure"]
 f1_keywords:
  - "wdm/_PTM_CONTROL_INTERFACE"
+ - "_PTM_CONTROL_INTERFACE"
 ms.keywords: _PTM_CONTROL_INTERFACE, PTM_CONTROL_INTERFACE, *PPTM_CONTROL_INTERFACE, 
 req.header: wdm.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - wdm.h
 api_name: 
 - _PTM_CONTROL_INTERFACE
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

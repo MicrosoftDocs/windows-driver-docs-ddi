@@ -10,6 +10,7 @@ keywords: ["IDebugPlmClient3::TerminatePlmPackageWide"]
 ms.keywords: IDebugPlmClient3 interface [Windows Debugging],TerminatePlmPackageWide method, IDebugPlmClient3.TerminatePlmPackageWide, IDebugPlmClient3::TerminatePlmPackageWide, TerminatePlmPackageWide, TerminatePlmPackageWide method [Windows Debugging], TerminatePlmPackageWide method [Windows Debugging],IDebugPlmClient3 interface, dbgeng/IDebugPlmClient3::TerminatePlmPackageWide, debugger.idebugplmclient3_terminateplmpackagewide
 f1_keywords:
  - "dbgeng/IDebugPlmClient3.TerminatePlmPackageWide"
+ - "IDebugPlmClient3.TerminatePlmPackageWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugPlmClient3.TerminatePlmPackageWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

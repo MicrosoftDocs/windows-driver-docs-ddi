@@ -10,6 +10,7 @@ keywords: ["SdpAppendNodeToContainerNode function"]
 ms.keywords: SdpAppendNodeToContainerNode, SdpAppendNodeToContainerNode function [Bluetooth Devices], bltooth.sdpappendnodetocontainernode, bth_funcs_dce0f01b-3dab-48d4-8230-ad3bb0d1c210.xml, sdplib/SdpAppendNodeToContainerNode
 f1_keywords:
  - "sdplib/SdpAppendNodeToContainerNode"
+ - "SdpAppendNodeToContainerNode"
 req.header: sdplib.h
 req.include-header: BthSdpddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - sdplib.h
 api_name:
 - SdpAppendNodeToContainerNode
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

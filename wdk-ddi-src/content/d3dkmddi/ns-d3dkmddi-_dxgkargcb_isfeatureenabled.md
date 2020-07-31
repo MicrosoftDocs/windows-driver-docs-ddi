@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["_DXGKARGCB_ISFEATUREENABLED structure"]
 f1_keywords:
  - "d3dkmddi/_DXGKARGCB_ISFEATUREENABLED"
+ - "_DXGKARGCB_ISFEATUREENABLED"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: _DXGKARGCB_ISFEATUREENABLED, DXGKARGCB_ISFEATUREENABLED, *INOUT_PDXGKARGCB_ISFEATUREENABLED

@@ -10,6 +10,7 @@ keywords: ["_D3DDDIBOX structure"]
 ms.keywords: D3DDDIBOX, D3DDDIBOX structure [Display Devices], _D3DDDIBOX, d3dumddi/D3DDDIBOX, display.d3dddibox
 f1_keywords:
  - "d3dumddi/D3DDDIBOX"
+ - "D3DDDIBOX"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - D3dumddi.h
 api_name:
 - D3DDDIBOX
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDIBOX
 ---

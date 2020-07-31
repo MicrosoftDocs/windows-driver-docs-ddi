@@ -10,6 +10,7 @@ keywords: ["StorPortReadRegisterUlong64 macro"]
 ms.keywords: StorPortReadRegisterUlong64, StorPortReadRegisterUlong64 routine [Storage Devices], storage.storportreadregisterulong64, storport/StorPortReadRegisterUlong64
 f1_keywords:
  - "storport/StorPortReadRegisterUlong64"
+ - "StorPortReadRegisterUlong64"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - storport.h
 api_name:
 - StorPortReadRegisterUlong64
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

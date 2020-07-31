@@ -10,6 +10,7 @@ keywords: ["WdfDmaTransactionInitializeUsingOffset function"]
 ms.keywords: WdfDmaTransactionInitializeUsingOffset, WdfDmaTransactionInitializeUsingOffset method, kmdf.wdfdmatransactioninitializeusingoffset, wdf.wdfdmatransactioninitializeusingoffset, wdfdmatransaction/WdfDmaTransactionInitializeUsingOffset
 f1_keywords:
  - "wdfdmatransaction/WdfDmaTransactionInitializeUsingOffset"
+ - "WdfDmaTransactionInitializeUsingOffset"
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfDmaTransactionInitializeUsingOffset
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

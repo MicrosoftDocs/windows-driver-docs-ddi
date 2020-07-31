@@ -9,6 +9,7 @@ keywords: ["D3DWDDM2_2DDI_DEVICEFUNCS structure"]
 ms.keywords: D3DWDDM2_2DDI_DEVICEFUNCS, D3DWDDM2_2DDI_DEVICEFUNCS structure [Display Devices], d3d10umddi/D3DWDDM2_2DDI_DEVICEFUNCS, display.d3dwddm2_2ddi_devicefuncs
 f1_keywords:
  - "d3d10umddi/D3DWDDM2_2DDI_DEVICEFUNCS"
+ - "D3DWDDM2_2DDI_DEVICEFUNCS"
 req.header: d3d10umddi.h
 req.include-header: 
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - D3DWDDM2_2DDI_DEVICEFUNCS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DWDDM2_2DDI_DEVICEFUNCS

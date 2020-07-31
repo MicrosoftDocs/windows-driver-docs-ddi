@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["MAKE_D3DDDIHRESULT macro"]
 f1_keywords:
  - "d3dumddi/MAKE_D3DDDIHRESULT"
+ - "MAKE_D3DDDIHRESULT"
 ms.keywords: MAKE_D3DDDIHRESULT
 req.header: d3dumddi.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - d3dumddi.h
 api_name: 
 - MAKE_D3DDDIHRESULT
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

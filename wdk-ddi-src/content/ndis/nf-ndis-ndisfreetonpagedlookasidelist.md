@@ -10,6 +10,7 @@ keywords: ["NdisFreeToNPagedLookasideList macro"]
 ms.keywords: NdisFreeToNPagedLookasideList, NdisFreeToNPagedLookasideList macro [Network Drivers Starting with Windows Vista], ndis/NdisFreeToNPagedLookasideList, ndis_lookaside_ref_8c12e884-8f7b-4bcc-9631-2173003e4ef6.xml, netvista.ndisfreetonpagedlookasidelist
 f1_keywords:
  - "ndis/NdisFreeToNPagedLookasideList"
+ - "NdisFreeToNPagedLookasideList"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NdisFreeToNPagedLookasideList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

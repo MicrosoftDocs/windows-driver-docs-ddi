@@ -10,6 +10,7 @@ keywords: ["_DXVAHDDDI_SURFACE structure"]
 ms.keywords: DXVA2_Structs_8032b044-07e9-4bb7-9367-1c3283bbf145.xml, DXVAHDDDI_SURFACE, DXVAHDDDI_SURFACE structure [Display Devices], _DXVAHDDDI_SURFACE, d3dumddi/DXVAHDDDI_SURFACE, display.dxvahdddi_surface
 f1_keywords:
  - "d3dumddi/DXVAHDDDI_SURFACE"
+ - "DXVAHDDDI_SURFACE"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - DXVAHDDDI_SURFACE
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVAHDDDI_SURFACE
 ---

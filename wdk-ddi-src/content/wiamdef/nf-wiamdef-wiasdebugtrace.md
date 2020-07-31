@@ -10,6 +10,7 @@ keywords: ["wiasDebugTrace function"]
 ms.keywords: image.wiasdebugtrace, wiamdef/wiasDebugTrace, wiasDebugTrace, wiasDebugTrace function [Imaging Devices], wiasFncs_b6582555-3674-4261-a542-9a6388649bb0.xml
 f1_keywords:
  - "wiamdef/wiasDebugTrace"
+ - "wiasDebugTrace"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wiaservc.dll
 api_name:
 - wiasDebugTrace
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

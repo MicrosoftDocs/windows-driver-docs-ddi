@@ -10,6 +10,7 @@ keywords: ["RIL_CancelGetOperatorList function"]
 ms.keywords: RIL_CancelGetOperatorList, RIL_CancelGetOperatorList method [Network Drivers Starting with Windows Vista], netvista.ril_cancelgetoperatorlist, rilapi/RIL_CancelGetOperatorList
 f1_keywords:
  - "rilapi/RIL_CancelGetOperatorList"
+ - "RIL_CancelGetOperatorList"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_CancelGetOperatorList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

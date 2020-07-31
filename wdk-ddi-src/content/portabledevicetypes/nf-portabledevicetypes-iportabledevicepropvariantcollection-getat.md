@@ -10,6 +10,7 @@ keywords: ["IPortableDevicePropVariantCollection::GetAt"]
 ms.keywords: GetAt, GetAt method, GetAt method,IPortableDevicePropVariantCollection interface, IPortableDevicePropVariantCollection interface,GetAt method, IPortableDevicePropVariantCollection.GetAt, IPortableDevicePropVariantCollection::GetAt, IPortableDevicePropVariantCollectionGetAt, portabledevicetypes/IPortableDevicePropVariantCollection::GetAt, wpddk.iportabledevicepropvariantcollection_getat
 f1_keywords:
  - "portabledevicetypes/IPortableDevicePropVariantCollection.GetAt"
+ - "IPortableDevicePropVariantCollection.GetAt"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - PortableDeviceTypes.h
 api_name:
 - IPortableDevicePropVariantCollection.GetAt
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

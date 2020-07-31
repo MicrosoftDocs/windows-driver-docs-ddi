@@ -10,6 +10,7 @@ keywords: ["DXGKCB_UNMAP_MEMORY callback function"]
 ms.keywords: DXGKCB_UNMAP_MEMORY, DXGKCB_UNMAP_MEMORY callback, DpFunctions_d0ba5b02-22ab-4fad-a54a-1e402f538456.xml, DxgkCbUnmapMemory, DxgkCbUnmapMemory callback function [Display Devices], display.dxgkcbunmapmemory, dispmprt/DxgkCbUnmapMemory
 f1_keywords:
  - "dispmprt/DxgkCbUnmapMemory"
+ - "DxgkCbUnmapMemory"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dispmprt.h
 api_name:
 - DxgkCbUnmapMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IDebugSystemObjects4::GetCurrentThreadDataOffset"]
 ms.keywords: GetCurrentThreadDataOffset, GetCurrentThreadDataOffset method [Windows Debugging], GetCurrentThreadDataOffset method [Windows Debugging],IDebugSystemObjects interface, GetCurrentThreadDataOffset method [Windows Debugging],IDebugSystemObjects2 interface, GetCurrentThreadDataOffset method [Windows Debugging],IDebugSystemObjects3 interface, GetCurrentThreadDataOffset method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects interface [Windows Debugging],GetCurrentThreadDataOffset method, IDebugSystemObjects2 interface [Windows Debugging],GetCurrentThreadDataOffset method, IDebugSystemObjects2::GetCurrentThreadDataOffset, IDebugSystemObjects3 interface [Windows Debugging],GetCurrentThreadDataOffset method, IDebugSystemObjects3::GetCurrentThreadDataOffset, IDebugSystemObjects4 interface [Windows Debugging],GetCurrentThreadDataOffset method, IDebugSystemObjects4.GetCurrentThreadDataOffset, IDebugSystemObjects4::GetCurrentThreadDataOffset, IDebugSystemObjects::GetCurrentThreadDataOffset, IDebugSystemObjects_5d09a9f7-d6a3-49ed-b872-1b9ee5173d28.xml, dbgeng/IDebugSystemObjects2::GetCurrentThreadDataOffset, dbgeng/IDebugSystemObjects3::GetCurrentThreadDataOffset, dbgeng/IDebugSystemObjects4::GetCurrentThreadDataOffset, dbgeng/IDebugSystemObjects::GetCurrentThreadDataOffset, debugger.getcurrentthreaddataoffset
 f1_keywords:
  - "dbgeng/IDebugSystemObjects.GetCurrentThreadDataOffset"
+ - "IDebugSystemObjects.GetCurrentThreadDataOffset"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -39,8 +40,6 @@ api_name:
 - IDebugSystemObjects2.GetCurrentThreadDataOffset
 - IDebugSystemObjects3.GetCurrentThreadDataOffset
 - IDebugSystemObjects4.GetCurrentThreadDataOffset
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

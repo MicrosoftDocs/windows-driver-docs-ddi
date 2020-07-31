@@ -10,6 +10,7 @@ keywords: ["NdisMCreateLog function"]
 ms.keywords: NdisMCreateLog, NdisMCreateLog function [Network Drivers Starting with Windows Vista], miniport_logging_ref_e6ca8197-b4f0-4eb9-bfe4-f4b957a124c8.xml, ndis/NdisMCreateLog, netvista.ndismcreatelog
 f1_keywords:
  - "ndis/NdisMCreateLog"
+ - "NdisMCreateLog"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisMCreateLog
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

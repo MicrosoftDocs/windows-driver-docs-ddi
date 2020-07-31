@@ -10,6 +10,7 @@ keywords: ["SRIOV_GET_RESOURCE_FOR_BAR callback"]
 ms.keywords: "*PSRIOV_GET_RESOURCE_FOR_BAR, *PSRIOV_GET_RESOURCE_FOR_BAR callback function pointer [Buses], PCI.sriov_get_resource_for_bar, SRIOV_GET_RESOURCE_FOR_BAR, SriovGetResourceForBar, SriovGetResourceForBar callback function [Buses], pcivirt/SriovGetResourceForBar"
 f1_keywords:
  - "pcivirt/*PSRIOV_GET_RESOURCE_FOR_BAR"
+ - "*PSRIOV_GET_RESOURCE_FOR_BAR"
 req.header: pcivirt.h
 req.include-header:
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pcivirt.h
 api_name:
 - PSRIOV_GET_RESOURCE_FOR_BAR
-product:
-- Windows
 targetos: Windows
 req.typenames: PARCLASS_INFORMATION, *PPARCLASS_INFORMATION
 ---

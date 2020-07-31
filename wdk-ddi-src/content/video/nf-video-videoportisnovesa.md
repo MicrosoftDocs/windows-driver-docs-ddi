@@ -10,6 +10,7 @@ keywords: ["VideoPortIsNoVesa function"]
 ms.keywords: VideoPortIsNoVesa, VideoPortIsNoVesa function [Display Devices], VideoPort_Functions_b3e65276-fa78-4599-a3e1-fa097cd86e70.xml, display.videoportisnovesa, video/VideoPortIsNoVesa
 f1_keywords:
  - "video/VideoPortIsNoVesa"
+ - "VideoPortIsNoVesa"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Videoprt.sys
 api_name:
 - VideoPortIsNoVesa
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

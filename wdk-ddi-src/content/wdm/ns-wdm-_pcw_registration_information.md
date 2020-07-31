@@ -10,6 +10,7 @@ keywords: ["_PCW_REGISTRATION_INFORMATION structure"]
 ms.keywords: "*PPCW_REGISTRATION_INFORMATION, PCW_REGISTRATION_INFORMATION, PCW_REGISTRATION_INFORMATION structure [Driver Development Tools], PPCW_REGISTRATION_INFORMATION, PPCW_REGISTRATION_INFORMATION structure pointer [Driver Development Tools], _PCW_REGISTRATION_INFORMATION, devtest.pcw_registration_information, km_pcw_a740182f-4844-4a98-9493-522087a3d27c.xml, wdm/PCW_REGISTRATION_INFORMATION, wdm/PPCW_REGISTRATION_INFORMATION"
 f1_keywords:
  - "wdm/PCW_REGISTRATION_INFORMATION"
+ - "PCW_REGISTRATION_INFORMATION"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - PCW_REGISTRATION_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: PCW_REGISTRATION_INFORMATION, *PPCW_REGISTRATION_INFORMATION
 ---

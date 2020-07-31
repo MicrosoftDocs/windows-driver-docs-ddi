@@ -10,6 +10,7 @@ keywords: ["PFNKSFILTERPROCESS callback function"]
 ms.keywords: AVStrMiniFilterProcess, AVStrMiniFilterProcess routine [Streaming Media Devices], PFNKSFILTERPROCESS, avstclbk_220bff5f-a966-460b-9157-b512cfc9c336.xml, ks/AVStrMiniFilterProcess, stream.avstrminifilterprocess
 f1_keywords:
  - "ks/AVStrMiniFilterProcess"
+ - "AVStrMiniFilterProcess"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - AVStrMiniFilterProcess
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

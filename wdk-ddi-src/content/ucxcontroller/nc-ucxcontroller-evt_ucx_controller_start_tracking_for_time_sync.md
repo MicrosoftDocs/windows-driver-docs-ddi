@@ -10,6 +10,7 @@ keywords: ["EVT_UCX_CONTROLLER_START_TRACKING_FOR_TIME_SYNC callback function"]
 ms.keywords: EVT_UCX_CONTROLLER_START_TRACKING_FOR_TIME_SYNC, EVT_UCX_CONTROLLER_START_TRACKING_FOR_TIME_SYNC callback, EvUcxControllerStartTrackingForTimeSync, EvUcxControllerStartTrackingForTimeSync callback function [Buses], buses.evt_ucx_controller_start_tracking_for_time_sync, ucxcontroller/EvUcxControllerStartTrackingForTimeSync
 f1_keywords:
  - "ucxcontroller/EvUcxControllerStartTrackingForTimeSync"
+ - "EvUcxControllerStartTrackingForTimeSync"
 req.header: ucxcontroller.h
 req.include-header: Ucxclass.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ucxcontroller.h
 api_name:
 - EvUcxControllerStartTrackingForTimeSync
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

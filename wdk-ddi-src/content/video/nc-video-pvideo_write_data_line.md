@@ -10,6 +10,7 @@ keywords: ["PVIDEO_WRITE_DATA_LINE callback function"]
 ms.keywords: PVIDEO_WRITE_DATA_LINE, PVIDEO_WRITE_DATA_LINE callback, VideoMiniport_Functions_35effeac-fbe1-44b9-905f-111460800d86.xml, WriteDataLine, WriteDataLine callback function [Display Devices], display.writedataline, video/WriteDataLine
 f1_keywords:
  - "video/WriteDataLine"
+ - "WriteDataLine"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - video.h
 api_name:
 - WriteDataLine
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

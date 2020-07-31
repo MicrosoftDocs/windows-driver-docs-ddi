@@ -10,6 +10,7 @@ keywords: ["PcAddStreamResource function"]
 ms.keywords: PcAddStreamResource, PcAddStreamResource function [Audio Devices], audio.pcaddstreamresource, portcls/PcAddStreamResource
 f1_keywords:
  - "portcls/PcAddStreamResource"
+ - "PcAddStreamResource"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - NA
 api_name:
 - PcAddStreamResource
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

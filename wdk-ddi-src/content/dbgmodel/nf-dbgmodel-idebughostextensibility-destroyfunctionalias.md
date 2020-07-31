@@ -7,6 +7,7 @@ ms.date: 09/12/2018
 keywords: ["IDebugHostExtensibility::DestroyFunctionAlias"]
 f1_keywords:
  - "dbgmodel/IDebugHostExtensibility.DestroyFunctionAlias"
+ - "IDebugHostExtensibility.DestroyFunctionAlias"
 ms.keywords: IDebugHostExtensibility::DestroyFunctionAlias, DestroyFunctionAlias, IDebugHostExtensibility.DestroyFunctionAlias, IDebugHostExtensibility::DestroyFunctionAlias, IDebugHostExtensibility.DestroyFunctionAlias
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostExtensibility.DestroyFunctionAlias
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

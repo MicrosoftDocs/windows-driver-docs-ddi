@@ -10,6 +10,7 @@ keywords: ["WdfIoQueueDrainSynchronously function"]
 ms.keywords: DFQueueObjectRef_8c2d977e-f24a-49b8-bb80-e4b3d369d23a.xml, WdfIoQueueDrainSynchronously, WdfIoQueueDrainSynchronously method, kmdf.wdfioqueuedrainsynchronously, wdf.wdfioqueuedrainsynchronously, wdfio/WdfIoQueueDrainSynchronously
 f1_keywords:
  - "wdfio/WdfIoQueueDrainSynchronously"
+ - "WdfIoQueueDrainSynchronously"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfIoQueueDrainSynchronously
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

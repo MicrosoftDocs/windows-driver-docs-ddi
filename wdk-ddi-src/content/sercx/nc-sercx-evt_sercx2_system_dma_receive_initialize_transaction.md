@@ -10,6 +10,7 @@ keywords: ["EVT_SERCX2_SYSTEM_DMA_RECEIVE_INITIALIZE_TRANSACTION callback functi
 ms.keywords: 2/EvtSerCx2SystemDmaReceiveInitializeTransaction, EVT_SERCX2_SYSTEM_DMA_RECEIVE_INITIALIZE_TRANSACTION, EVT_SERCX2_SYSTEM_DMA_RECEIVE_INITIALIZE_TRANSACTION callback, EvtSerCx2SystemDmaReceiveInitializeTransaction, EvtSerCx2SystemDmaReceiveInitializeTransaction callback function [Serial Ports], serports.evtsercx2systemdmareceiveinitializetransaction
 f1_keywords:
  - "sercx/EvtSerCx2SystemDmaReceiveInitializeTransaction"
+ - "EvtSerCx2SystemDmaReceiveInitializeTransaction"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - 2.0\Sercx.h
 api_name:
 - EvtSerCx2SystemDmaReceiveInitializeTransaction
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

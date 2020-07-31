@@ -10,6 +10,7 @@ keywords: ["PDETERMINE_IEEE_MODES callback"]
 ms.keywords: PDETERMINE_IEEE_MODES, PDETERMINE_IEEE_MODES function pointer [Parallel Ports], cisspd_da5c1f0b-cec4-48a4-b460-9b09751531a5.xml, parallel/PDETERMINE_IEEE_MODES, parports.pdetermine_ieee_modes
 f1_keywords:
  - "parallel/PDETERMINE_IEEE_MODES"
+ - "PDETERMINE_IEEE_MODES"
 req.header: parallel.h
 req.include-header: Parallel.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - parallel.h
 api_name:
 - PDETERMINE_IEEE_MODES
-product:
-- Windows
 targetos: Windows
 req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ---

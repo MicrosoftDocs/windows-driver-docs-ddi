@@ -10,6 +10,7 @@ keywords: ["ZwWaitForSingleObject function"]
 ms.keywords: NtWaitForSingleObject, ZwWaitForSingleObject, ZwWaitForSingleObject routine [Kernel-Mode Driver Architecture], k111_44a7540a-fbf5-4f2e-92d1-0d23cc41a081.xml, kernel.zwwaitforsingleobject, ntifs/NtWaitForSingleObject, ntifs/ZwWaitForSingleObject
 f1_keywords:
  - "ntifs/ZwWaitForSingleObject"
+ - "ZwWaitForSingleObject"
 req.header: ntifs.h
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - ZwWaitForSingleObject
 - NtWaitForSingleObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

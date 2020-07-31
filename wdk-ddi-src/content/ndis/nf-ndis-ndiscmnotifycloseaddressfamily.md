@@ -10,6 +10,7 @@ keywords: ["NdisCmNotifyCloseAddressFamily function"]
 ms.keywords: NdisCmNotifyCloseAddressFamily, NdisCmNotifyCloseAddressFamily function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_91b51137-6a26-4b90-a83c-c06a9463bf97.xml, ndis/NdisCmNotifyCloseAddressFamily, netvista.ndiscmnotifycloseaddressfamily
 f1_keywords:
  - "ndis/NdisCmNotifyCloseAddressFamily"
+ - "NdisCmNotifyCloseAddressFamily"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisCmNotifyCloseAddressFamily
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

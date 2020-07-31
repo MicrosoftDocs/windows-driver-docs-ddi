@@ -7,6 +7,7 @@ ms.date: 08/13/2018
 keywords: ["IKeyStore::SetKey"]
 f1_keywords:
  - "dbgmodel/IKeyStore.SetKey"
+ - "IKeyStore.SetKey"
 ms.keywords: IKeyStore::SetKey, SetKey, IKeyStore.SetKey, IKeyStore::SetKey, IKeyStore.SetKey
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IKeyStore.SetKey
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

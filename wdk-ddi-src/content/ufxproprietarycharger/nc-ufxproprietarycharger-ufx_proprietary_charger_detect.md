@@ -10,6 +10,7 @@ keywords: ["UFX_PROPRIETARY_CHARGER_DETECT callback function"]
 ms.keywords: PFN_UFX_PROPRIETARY_CHARGER_DETECT, PFN_UFX_PROPRIETARY_CHARGER_DETECT callback function pointer [Buses], UFX_PROPRIETARY_CHARGER_DETECT, UFX_PROPRIETARY_CHARGER_DETECT callback, UfxProprietaryChargerDetect, UfxProprietaryChargerDetect callback function [Buses], buses.ufx_proprietary_charger_detect, ufxproprietarycharger/UfxProprietaryChargerDetect
 f1_keywords:
  - "ufxproprietarycharger/PFN_UFX_PROPRIETARY_CHARGER_DETECT"
+ - "PFN_UFX_PROPRIETARY_CHARGER_DETECT"
 req.header: ufxproprietarycharger.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ufxproprietarycharger.h
 api_name:
 - PFN_UFX_PROPRIETARY_CHARGER_DETECT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

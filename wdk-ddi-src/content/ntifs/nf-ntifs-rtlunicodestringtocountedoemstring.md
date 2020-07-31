@@ -10,6 +10,7 @@ keywords: ["RtlUnicodeStringToCountedOemString function"]
 ms.keywords: RtlUnicodeStringToCountedOemString, RtlUnicodeStringToCountedOemString routine [Installable File System Drivers], ifsk.rtlunicodestringtocountedoemstring, ntifs/RtlUnicodeStringToCountedOemString, rtlref_dbc62228-043f-43f1-bd19-464adf37b693.xml
 f1_keywords:
  - "ntifs/RtlUnicodeStringToCountedOemString"
+ - "RtlUnicodeStringToCountedOemString"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlUnicodeStringToCountedOemString
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

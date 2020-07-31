@@ -10,6 +10,7 @@ keywords: ["ExFreeToPagedLookasideList function"]
 ms.keywords: ExFreeToPagedLookasideList, ExFreeToPagedLookasideList routine [Kernel-Mode Driver Architecture], k102_2d09255c-391a-4937-a991-99d88adf4233.xml, kernel.exfreetopagedlookasidelist, wdm/ExFreeToPagedLookasideList
 f1_keywords:
  - "wdm/ExFreeToPagedLookasideList"
+ - "ExFreeToPagedLookasideList"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - ExFreeToPagedLookasideList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

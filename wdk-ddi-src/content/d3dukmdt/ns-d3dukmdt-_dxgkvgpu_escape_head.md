@@ -10,6 +10,7 @@ keywords: ["_DXGKVGPU_ESCAPE_HEAD structure"]
 ms.keywords: DXGKVGPU_ESCAPE_HEAD, DXGKVGPU_ESCAPE_HEAD , DXGKVGPU_ESCAPE_HEAD structure [Display Devices], _DXGKVGPU_ESCAPE_HEAD, d3dukmdt/DXGKVGPU_ESCAPE_HEAD, display.dxgkvgpu_escape_head_
 f1_keywords:
  - "d3dukmdt/DXGKVGPU_ESCAPE_HEAD"
+ - "DXGKVGPU_ESCAPE_HEAD"
 req.header: d3dukmdt.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dukmdt.h
 api_name:
 - DXGKVGPU_ESCAPE_HEAD
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGKVGPU_ESCAPE_HEAD
 ---

@@ -10,6 +10,7 @@ keywords: ["_D3DHAL_DP2SETDEPTHSTENCIL structure"]
 ms.keywords: "*LPD3DHAL_DP2SETDEPTHSTENCIL, D3DHAL_DP2SETDEPTHSTENCIL, D3DHAL_DP2SETDEPTHSTENCIL structure [Display Devices], LPD3DHAL_DP2SETDEPTHSTENCIL, LPD3DHAL_DP2SETDEPTHSTENCIL structure pointer [Display Devices], _D3DHAL_DP2SETDEPTHSTENCIL, d3dhal/D3DHAL_DP2SETDEPTHSTENCIL, d3dhal/LPD3DHAL_DP2SETDEPTHSTENCIL, d3dstrct_6eda96cd-64bc-4ba1-acc3-0166ccfbd401.xml, display.d3dhal_dp2setdepthstencil"
 f1_keywords:
  - "d3dhal/D3DHAL_DP2SETDEPTHSTENCIL"
+ - "D3DHAL_DP2SETDEPTHSTENCIL"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dhal.h
 api_name:
 - D3DHAL_DP2SETDEPTHSTENCIL
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DHAL_DP2SETDEPTHSTENCIL
 ---

@@ -10,6 +10,7 @@ keywords: ["IKsDeviceFunctions interface"]
 ms.keywords: IKsDeviceFunctions, IKsDeviceFunctions interface [Streaming Media Devices], IKsDeviceFunctions interface [Streaming Media Devices],described, avintfc_68e124c6-7a91-4c68-8327-e2c83b982699.xml, ks/IKsDeviceFunctions, stream.iksdevicefunctions
 f1_keywords:
  - "ks/IKsDeviceFunctions"
+ - "IKsDeviceFunctions"
 req.header: ks.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - IKsDeviceFunctions
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["ChangerSetPosition function"]
 ms.keywords: ChangerSetPosition, ChangerSetPosition function [Storage Devices], chgrmini_28455ca6-3f1f-40ac-a756-c1f026f35f87.xml, mcd/ChangerSetPosition, storage.changersetposition
 f1_keywords:
  - "mcd/ChangerSetPosition"
+ - "ChangerSetPosition"
 req.header: mcd.h
 req.include-header: Mcd.h, Ntddchgr.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - mcd.h
 api_name:
 - ChangerSetPosition
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

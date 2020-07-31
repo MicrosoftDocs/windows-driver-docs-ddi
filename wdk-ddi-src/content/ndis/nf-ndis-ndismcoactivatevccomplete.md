@@ -10,6 +10,7 @@ keywords: ["NdisMCoActivateVcComplete function"]
 ms.keywords: NdisMCoActivateVcComplete, NdisMCoActivateVcComplete function [Network Drivers Starting with Windows Vista], condis_miniport_ref_3a81c66b-8e97-4194-bf90-988ac2fd05b5.xml, ndis/NdisMCoActivateVcComplete, netvista.ndismcoactivatevccomplete
 f1_keywords:
  - "ndis/NdisMCoActivateVcComplete"
+ - "NdisMCoActivateVcComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisMCoActivateVcComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

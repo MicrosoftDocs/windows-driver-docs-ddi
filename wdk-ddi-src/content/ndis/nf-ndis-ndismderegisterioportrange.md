@@ -10,6 +10,7 @@ keywords: ["NdisMDeregisterIoPortRange function"]
 ms.keywords: NdisMDeregisterIoPortRange, NdisMDeregisterIoPortRange function [Network Drivers Starting with Windows Vista], miniport_port_io_ref_3ec72b06-3f52-46b9-b699-774a7df4a658.xml, ndis/NdisMDeregisterIoPortRange, netvista.ndismderegisterioportrange
 f1_keywords:
  - "ndis/NdisMDeregisterIoPortRange"
+ - "NdisMDeregisterIoPortRange"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisMDeregisterIoPortRange
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IPnpCallbackSelfManagedIo interface"]
 ms.keywords: IPnpCallbackSelfManagedIo, IPnpCallbackSelfManagedIo interface, IPnpCallbackSelfManagedIo interface,described, UMDFDeviceObjectRef_0f139c45-68eb-4429-ac90-675d7eddea5a.xml, umdf.ipnpcallbackselfmanagedio, wdf.ipnpcallbackselfmanagedio, wudfddi/IPnpCallbackSelfManagedIo
 f1_keywords:
  - "wudfddi/IPnpCallbackSelfManagedIo"
+ - "IPnpCallbackSelfManagedIo"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wudfddi.h
 api_name:
 - IPnpCallbackSelfManagedIo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -55,7 +54,7 @@ The <b>IPnpCallbackSelfManagedIo</b> interface is a Plug and Play (PnP) and powe
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPnpCallbackSelfManagedIo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPnpCallbackSelfManagedIo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPnpCallbackSelfManagedIo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPnpCallbackSelfManagedIo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

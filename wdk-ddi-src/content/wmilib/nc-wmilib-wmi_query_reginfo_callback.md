@@ -10,6 +10,7 @@ keywords: ["WMI_QUERY_REGINFO_CALLBACK callback function"]
 ms.keywords: DpWmiQueryReginfo, DpWmiQueryReginfo callback function [Kernel-Mode Driver Architecture], WMI_QUERY_REGINFO_CALLBACK, WMI_QUERY_REGINFO_CALLBACK callback, k903_61d9ad7d-1bdf-49d5-8a12-5bf0d6912ccc.xml, kernel.dpwmiqueryreginfo, wmilib/DpWmiQueryReginfo
 f1_keywords:
  - "wmilib/DpWmiQueryReginfo"
+ - "DpWmiQueryReginfo"
 req.header: wmilib.h
 req.include-header: Wmilib.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wmilib.h
 api_name:
 - DpWmiQueryReginfo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

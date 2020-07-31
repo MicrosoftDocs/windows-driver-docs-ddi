@@ -10,6 +10,7 @@ keywords: ["FsRtlPrepareToReuseEcp function"]
 ms.keywords: FsRtlPrepareToReuseEcp, FsRtlPrepareToReuseEcp routine [Installable File System Drivers], ifsk.fsrtlpreparetoreuseecp, ntifs/FsRtlPrepareToReuseEcp
 f1_keywords:
  - "ntifs/FsRtlPrepareToReuseEcp"
+ - "FsRtlPrepareToReuseEcp"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlPrepareToReuseEcp
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

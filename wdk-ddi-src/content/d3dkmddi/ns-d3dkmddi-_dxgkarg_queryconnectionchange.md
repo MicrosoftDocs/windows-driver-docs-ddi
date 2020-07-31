@@ -9,6 +9,7 @@ keywords: ["_DXGKARG_QUERYCONNECTIONCHANGE structure"]
 ms.keywords: "*IN_PDXGKARG_QUERYCONNECTIONCHANGE, DXGKARG_QUERYCONNECTIONCHANGE, DXGKARG_QUERYCONNECTIONCHANGE structure [Display Devices], _DXGKARG_QUERYCONNECTIONCHANGE, d3dkmddi/DXGKARG_QUERYCONNECTIONCHANGE, display.dxgkarg_queryconnectionchange"
 f1_keywords:
  - "d3dkmddi/DXGKARG_QUERYCONNECTIONCHANGE"
+ - "DXGKARG_QUERYCONNECTIONCHANGE"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGKARG_QUERYCONNECTIONCHANGE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGKARG_QUERYCONNECTIONCHANGE

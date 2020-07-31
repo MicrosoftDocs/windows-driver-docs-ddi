@@ -10,6 +10,7 @@ keywords: ["_CLIENT_DEVICE_INFORMATION structure"]
 ms.keywords: "*PCLIENT_DEVICE_INFORMATION, CLIENT_DEVICE_INFORMATION, CLIENT_DEVICE_INFORMATION structure, _CLIENT_DEVICE_INFORMATION, gpiobtn._client_device_information, hwnclx/CLIENT_DEVICE_INFORMATION"
 f1_keywords:
  - "hwnclx/CLIENT_DEVICE_INFORMATION"
+ - "CLIENT_DEVICE_INFORMATION"
 req.header: hwnclx.h
 req.include-header:
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Hwnclx.h
 api_name:
 - CLIENT_DEVICE_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: CLIENT_DEVICE_INFORMATION, *PCLIENT_DEVICE_INFORMATION
 ---

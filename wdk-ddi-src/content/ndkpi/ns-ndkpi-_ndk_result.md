@@ -10,6 +10,7 @@ keywords: ["_NDK_RESULT structure"]
 ms.keywords: NDK_RESULT, NDK_RESULT structure [Network Drivers Starting with Windows Vista], _NDK_RESULT, ndkpi/NDK_RESULT, netvista.ndk_result
 f1_keywords:
  - "ndkpi/NDK_RESULT"
+ - "NDK_RESULT"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ndkpi.h
 api_name:
 - NDK_RESULT
-product:
-- Windows
 targetos: Windows
 req.typenames: NDK_RESULT
 ---

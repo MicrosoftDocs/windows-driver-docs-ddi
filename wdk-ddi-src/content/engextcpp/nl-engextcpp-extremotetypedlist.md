@@ -10,6 +10,7 @@ keywords: ["ExtRemoteTypedList class"]
 ms.keywords: EngExtCpp_Ref_5e1242e6-5704-4b87-85e1-b02a41fc4243.xml, ExtRemoteTypedList, ExtRemoteTypedList class [Windows Debugging], ExtRemoteTypedList class [Windows Debugging],described, debugger.extremotetypedlist, engextcpp/ExtRemoteTypedList
 f1_keywords:
  - "engextcpp/ExtRemoteTypedList"
+ - "ExtRemoteTypedList"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - engextcpp.hpp
 api_name:
 - ExtRemoteTypedList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

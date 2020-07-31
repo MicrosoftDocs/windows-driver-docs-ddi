@@ -10,6 +10,7 @@ keywords: ["PAGP_COMMIT_VIRTUAL callback function"]
 ms.keywords: AgpCommitVirtual, AgpCommitVirtual callback function [Display Devices], PAGP_COMMIT_VIRTUAL, PAGP_COMMIT_VIRTUAL callback, VideoPort_Functions_74f16518-6071-45bb-a44d-80fe042814ea.xml, display.agpcommitvirtual, videoagp/AgpCommitVirtual
 f1_keywords:
  - "videoagp/AgpCommitVirtual"
+ - "AgpCommitVirtual"
 req.header: videoagp.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - videoagp.h
 api_name:
 - AgpCommitVirtual
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

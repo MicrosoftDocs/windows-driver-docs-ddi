@@ -10,6 +10,7 @@ keywords: ["NdisGetPoolFromNetBufferList function"]
 ms.keywords: NdisGetPoolFromNetBufferList, NdisGetPoolFromNetBufferList function [Network Drivers Starting with Windows Vista], ndis/NdisGetPoolFromNetBufferList, ndis_netbuf_functions_ref_c93c9420-04fb-42f7-9844-29c3b2052b82.xml, netvista.ndisgetpoolfromnetbufferlist
 f1_keywords:
  - "ndis/NdisGetPoolFromNetBufferList"
+ - "NdisGetPoolFromNetBufferList"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisGetPoolFromNetBufferList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

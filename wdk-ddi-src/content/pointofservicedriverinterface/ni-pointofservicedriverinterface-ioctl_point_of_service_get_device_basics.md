@@ -10,6 +10,7 @@ keywords: ["IOCTL_POINT_OF_SERVICE_GET_DEVICE_BASICS IOCTL"]
 ms.keywords: IOCTL_POINT_OF_SERVICE_GET_DEVICE_BASICS, IOCTL_POINT_OF_SERVICE_GET_DEVICE_BASICS control, IOCTL_POINT_OF_SERVICE_GET_DEVICE_BASICS control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_GET_DEVICE_BASICS, pos.ioctl_point_of_service_get_device_basics
 f1_keywords:
  - "pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_GET_DEVICE_BASICS"
+ - "IOCTL_POINT_OF_SERVICE_GET_DEVICE_BASICS"
 req.header: pointofservicedriverinterface.h
 req.include-header: Pointofservicedriverinterface.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pointofservicedriverinterface.h
 api_name:
 - IOCTL_POINT_OF_SERVICE_GET_DEVICE_BASICS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

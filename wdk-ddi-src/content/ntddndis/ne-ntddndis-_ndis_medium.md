@@ -10,6 +10,7 @@ keywords: ["_NDIS_MEDIUM enumeration"]
 ms.keywords: "*PNDIS_MEDIUM, NDIS_MEDIUM, NDIS_MEDIUM enumeration [Network Drivers Starting with Windows Vista], NdisMedium1394, NdisMedium802_3, NdisMedium802_5, NdisMediumArcnet878_2, NdisMediumArcnetRaw, NdisMediumAtm, NdisMediumBpc, NdisMediumCoWan, NdisMediumDix, NdisMediumFddi, NdisMediumIP, NdisMediumInfiniBand, NdisMediumIrda, NdisMediumLocalTalk, NdisMediumLoopback, NdisMediumMax, NdisMediumNative802_11, NdisMediumTunnel, NdisMediumWan, NdisMediumWirelessWan, PNDIS_MEDIUM, PNDIS_MEDIUM enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_MEDIUM, netvista.ndis_medium, ntddndis/NDIS_MEDIUM, ntddndis/NdisMedium1394, ntddndis/NdisMedium802_3, ntddndis/NdisMedium802_5, ntddndis/NdisMediumArcnet878_2, ntddndis/NdisMediumArcnetRaw, ntddndis/NdisMediumAtm, ntddndis/NdisMediumBpc, ntddndis/NdisMediumCoWan, ntddndis/NdisMediumDix, ntddndis/NdisMediumFddi, ntddndis/NdisMediumIP, ntddndis/NdisMediumInfiniBand, ntddndis/NdisMediumIrda, ntddndis/NdisMediumLocalTalk, ntddndis/NdisMediumLoopback, ntddndis/NdisMediumMax, ntddndis/NdisMediumNative802_11, ntddndis/NdisMediumTunnel, ntddndis/NdisMediumWan, ntddndis/NdisMediumWirelessWan, ntddndis/PNDIS_MEDIUM, protocol_structures_ref_3b154721-1574-4855-9028-704ce215eb91.xml"
 f1_keywords:
  - "ntddndis/NDIS_MEDIUM"
+ - "NDIS_MEDIUM"
 req.header: ntddndis.h
 req.include-header: Ntddndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddndis.h
 api_name:
 - NDIS_MEDIUM
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_MEDIUM, *PNDIS_MEDIUM
 ---

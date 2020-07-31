@@ -10,6 +10,7 @@ keywords: ["_WHEA_ERROR_SOURCE_DESCRIPTOR structure"]
 ms.keywords: "*PWHEA_ERROR_SOURCE_DESCRIPTOR, PWHEA_ERROR_SOURCE_DESCRIPTOR, PWHEA_ERROR_SOURCE_DESCRIPTOR structure pointer [WHEA Drivers and Applications], WHEA_ERROR_SOURCE_DESCRIPTOR, WHEA_ERROR_SOURCE_DESCRIPTOR structure [WHEA Drivers and Applications], _WHEA_ERROR_SOURCE_DESCRIPTOR, ntddk/PWHEA_ERROR_SOURCE_DESCRIPTOR, ntddk/WHEA_ERROR_SOURCE_DESCRIPTOR, whea.whea_error_source_descriptor, whearef_eb6a1167-cf15-4a53-b885-c3d5c4353510.xml"
 f1_keywords:
  - "ntddk/WHEA_ERROR_SOURCE_DESCRIPTOR"
+ - "WHEA_ERROR_SOURCE_DESCRIPTOR"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - WHEA_ERROR_SOURCE_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: "*PWHEA_ERROR_SOURCE_DESCRIPTOR, WHEA_ERROR_SOURCE_DESCRIPTOR"
 ms.custom: 19H1

@@ -8,6 +8,7 @@ ms.date: 10/31/2018
 keywords: ["IAdapterPnpManagement::GetSupportedRebalanceType"]
 f1_keywords:
  - "portcls/IAdapterPnpManagement.GetSupportedRebalanceType"
+ - "IAdapterPnpManagement.GetSupportedRebalanceType"
 ms.keywords: IAdapterPnpManagement::GetSupportedRebalanceType, GetSupportedRebalanceType, IAdapterPnpManagement.GetSupportedRebalanceType, IAdapterPnpManagement::GetSupportedRebalanceType, IAdapterPnpManagement.GetSupportedRebalanceType
 req.header: portcls.h
 req.include-header:

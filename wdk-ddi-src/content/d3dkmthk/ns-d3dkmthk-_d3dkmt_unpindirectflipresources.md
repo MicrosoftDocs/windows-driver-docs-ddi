@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_UNPINDIRECTFLIPRESOURCES structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_UNPINDIRECTFLIPRESOURCES"
+ - "_D3DKMT_UNPINDIRECTFLIPRESOURCES"
 ms.keywords: _D3DKMT_UNPINDIRECTFLIPRESOURCES, D3DKMT_UNPINDIRECTFLIPRESOURCES, 
 req.header: d3dkmthk.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - d3dkmthk.h
 api_name: 
 - _D3DKMT_UNPINDIRECTFLIPRESOURCES
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

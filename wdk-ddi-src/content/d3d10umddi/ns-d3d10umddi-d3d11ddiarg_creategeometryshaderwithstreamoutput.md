@@ -9,6 +9,7 @@ keywords: ["D3D11DDIARG_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT structure"]
 ms.keywords: D3D11DDIARG_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT, D3D11DDIARG_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT structure [Display Devices], UMDisplayDriver_Dx11param_Structs_6b81cccd-92f9-4135-8bcc-d523b514c45c.xml, d3d10umddi/D3D11DDIARG_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT, display.d3d11ddiarg_creategeometryshaderwithstreamoutput
 f1_keywords:
  - "d3d10umddi/D3D11DDIARG_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT"
+ - "D3D11DDIARG_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - D3D11DDIARG_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D11DDIARG_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT

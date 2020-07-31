@@ -10,6 +10,7 @@ keywords: ["IUnregisterPhysicalConnection::UnregisterPhysicalConnection"]
 ms.keywords: IUnregisterPhysicalConnection interface [Audio Devices],UnregisterPhysicalConnection method, IUnregisterPhysicalConnection.UnregisterPhysicalConnection, IUnregisterPhysicalConnection::UnregisterPhysicalConnection, UnregisterPhysicalConnection, UnregisterPhysicalConnection method [Audio Devices], UnregisterPhysicalConnection method [Audio Devices],IUnregisterPhysicalConnection interface, audio.iunregisterphysicalconnection_unregisterphysicalconnection, audmp-routines_5ecc7a84-6d2c-4514-9de8-cb1e4c60a61c.xml, portcls/IUnregisterPhysicalConnection::UnregisterPhysicalConnection
 f1_keywords:
  - "portcls/IUnregisterPhysicalConnection.UnregisterPhysicalConnection"
+ - "IUnregisterPhysicalConnection.UnregisterPhysicalConnection"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IUnregisterPhysicalConnection.UnregisterPhysicalConnection
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

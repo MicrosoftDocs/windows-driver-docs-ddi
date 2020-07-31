@@ -10,6 +10,7 @@ keywords: ["_DRIVE_LAYOUT_INFORMATION_GPT structure"]
 ms.keywords: "*PDRIVE_LAYOUT_INFORMATION_GPT, DRIVE_LAYOUT_INFORMATION_GPT, DRIVE_LAYOUT_INFORMATION_GPT structure [Storage Devices], PDRIVE_LAYOUT_INFORMATION_GPT, PDRIVE_LAYOUT_INFORMATION_GPT structure pointer [Storage Devices], _DRIVE_LAYOUT_INFORMATION_GPT, ntdddisk/DRIVE_LAYOUT_INFORMATION_GPT, ntdddisk/PDRIVE_LAYOUT_INFORMATION_GPT, storage.drive_layout_information_gpt, structs-disk_eca2e047-5de8-4960-9066-28eb0dfedb95.xml"
 f1_keywords:
  - "ntdddisk/DRIVE_LAYOUT_INFORMATION_GPT"
+ - "DRIVE_LAYOUT_INFORMATION_GPT"
 req.header: ntdddisk.h
 req.include-header: Ntddk.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntdddisk.h
 api_name:
 - DRIVE_LAYOUT_INFORMATION_GPT
-product:
-- Windows
 targetos: Windows
 req.typenames: DRIVE_LAYOUT_INFORMATION_GPT, *PDRIVE_LAYOUT_INFORMATION_GPT
 ---

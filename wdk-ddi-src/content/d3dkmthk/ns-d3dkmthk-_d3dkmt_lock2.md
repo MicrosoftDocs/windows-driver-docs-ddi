@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_LOCK2 structure"]
 ms.keywords: D3DKMT_LOCK2, D3DKMT_LOCK2 structure [Display Devices], _D3DKMT_LOCK2, d3dkmthk/D3DKMT_LOCK2, display.d3dkmt_lock2
 f1_keywords:
  - "d3dkmthk/D3DKMT_LOCK2"
+ - "D3DKMT_LOCK2"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMT_LOCK2
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_LOCK2

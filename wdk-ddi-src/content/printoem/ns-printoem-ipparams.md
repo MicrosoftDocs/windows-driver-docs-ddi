@@ -10,6 +10,7 @@ keywords: ["IPPARAMS structure"]
 ms.keywords: "*PIPPARAMS, IPPARAMS, IPPARAMS structure [Print Devices], PIPPARAMS, PIPPARAMS structure pointer [Print Devices], print.ipparams, print_unidrv-pscript_rendering_a002bc49-f3de-4147-bb33-8766672c8d0c.xml, printoem/IPPARAMS, printoem/PIPPARAMS"
 f1_keywords:
  - "printoem/IPPARAMS"
+ - "IPPARAMS"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - printoem.h
 api_name:
 - IPPARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: IPPARAMS, *PIPPARAMS
 ---

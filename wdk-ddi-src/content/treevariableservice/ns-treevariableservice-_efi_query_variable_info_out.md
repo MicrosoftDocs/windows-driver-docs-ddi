@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_EFI_QUERY_VARIABLE_INFO_OUT structure"]
 f1_keywords:
  - "treevariableservice/_EFI_QUERY_VARIABLE_INFO_OUT"
+ - "_EFI_QUERY_VARIABLE_INFO_OUT"
 ms.keywords: _EFI_QUERY_VARIABLE_INFO_OUT, EFI_QUERY_VARIABLE_INFO_OUT, *PEFI_QUERY_VARIABLE_INFO_OUT, 
 req.header: treevariableservice.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - treevariableservice.h
 api_name: 
 - _EFI_QUERY_VARIABLE_INFO_OUT
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

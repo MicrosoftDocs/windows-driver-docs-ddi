@@ -10,6 +10,7 @@ keywords: ["CcMdlWriteAbort function"]
 ms.keywords: CcMdlWriteAbort, CcMdlWriteAbort routine [Installable File System Drivers], ccref_517f25ce-d707-4611-af24-c66010b0d89e.xml, ifsk.ccmdlwriteabort, ntifs/CcMdlWriteAbort
 f1_keywords:
  - "ntifs/CcMdlWriteAbort"
+ - "CcMdlWriteAbort"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - CcMdlWriteAbort
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

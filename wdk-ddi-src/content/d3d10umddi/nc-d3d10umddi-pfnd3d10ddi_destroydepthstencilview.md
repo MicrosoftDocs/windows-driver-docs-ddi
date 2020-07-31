@@ -9,6 +9,7 @@ keywords: ["PFND3D10DDI_DESTROYDEPTHSTENCILVIEW callback function"]
 ms.keywords: DestroyDepthStencilView, DestroyDepthStencilView callback function [Display Devices], PFND3D10DDI_DESTROYDEPTHSTENCILVIEW, PFND3D10DDI_DESTROYDEPTHSTENCILVIEW callback, UserModeDisplayDriverDx10_Functions_140d9da4-c965-4f51-b16c-1c29ff6e2e94.xml, d3d10umddi/DestroyDepthStencilView, display.destroydepthstencilview
 f1_keywords:
  - "d3d10umddi/DestroyDepthStencilView"
+ - "DestroyDepthStencilView"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - DestroyDepthStencilView
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

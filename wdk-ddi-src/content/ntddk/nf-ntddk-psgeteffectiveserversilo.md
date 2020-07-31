@@ -10,6 +10,7 @@ keywords: ["PsGetEffectiveServerSilo function"]
 ms.keywords: PsGetEffectiveServerSilo, PsGetEffectiveServerSilo routine [Kernel-Mode Driver Architecture], kernel.psgeteffectiveserversilo, ntddk/PsGetEffectiveServerSilo
 f1_keywords:
  - "ntddk/PsGetEffectiveServerSilo"
+ - "PsGetEffectiveServerSilo"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - PsGetEffectiveServerSilo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

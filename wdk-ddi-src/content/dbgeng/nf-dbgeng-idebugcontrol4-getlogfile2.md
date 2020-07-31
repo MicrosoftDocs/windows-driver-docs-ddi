@@ -10,6 +10,7 @@ keywords: ["IDebugControl4::GetLogFile2"]
 ms.keywords: GetLogFile2, GetLogFile2 method [Windows Debugging], GetLogFile2 method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetLogFile2 method, IDebugControl4.GetLogFile2, IDebugControl4::GetLogFile2, IDebugControl_9822bd84-b8ee-4d36-a66f-e38567d23646.xml, dbgeng/IDebugControl4::GetLogFile2, debugger.getlogfile2
 f1_keywords:
  - "dbgeng/IDebugControl4.GetLogFile2"
+ - "IDebugControl4.GetLogFile2"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugControl4.GetLogFile2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

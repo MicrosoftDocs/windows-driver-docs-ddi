@@ -10,6 +10,7 @@ keywords: ["WdfRegistryCreateKey function"]
 ms.keywords: DFRegKeyObjectRef_400650ea-7915-45f5-bcdd-2de1a02041f0.xml, WdfRegistryCreateKey, WdfRegistryCreateKey method, kmdf.wdfregistrycreatekey, wdf.wdfregistrycreatekey, wdfregistry/WdfRegistryCreateKey
 f1_keywords:
  - "wdfregistry/WdfRegistryCreateKey"
+ - "WdfRegistryCreateKey"
 req.header: wdfregistry.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfRegistryCreateKey
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

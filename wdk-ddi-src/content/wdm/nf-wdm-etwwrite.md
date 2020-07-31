@@ -10,6 +10,7 @@ keywords: ["EtwWrite function"]
 ms.keywords: EtwWrite, EtwWrite function [Driver Development Tools], devtest.etwwrite, etw_km_af581b5c-6124-4bb0-8756-c4a0009e7a00.xml, wdm/EtwWrite
 f1_keywords:
  - "wdm/EtwWrite"
+ - "EtwWrite"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - EtwWrite
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

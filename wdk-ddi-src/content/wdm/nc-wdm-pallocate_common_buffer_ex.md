@@ -10,6 +10,7 @@ keywords: ["PALLOCATE_COMMON_BUFFER_EX callback function"]
 ms.keywords: AllocateCommonBufferEx, AllocateCommonBufferEx callback function [Kernel-Mode Driver Architecture], PALLOCATE_COMMON_BUFFER_EX, PALLOCATE_COMMON_BUFFER_EX callback, kernel.allocatecommonbufferex, wdm/AllocateCommonBufferEx
 f1_keywords:
  - "wdm/AllocateCommonBufferEx"
+ - "AllocateCommonBufferEx"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - AllocateCommonBufferEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["FltReleaseContext function"]
 ms.keywords: FltApiRef_p_to_z_1040d19b-2ecb-4229-adda-b73f5c2bc828.xml, FltReleaseContext, FltReleaseContext function [Installable File System Drivers], fltkernel/FltReleaseContext, ifsk.fltreleasecontext
 f1_keywords:
  - "fltkernel/FltReleaseContext"
+ - "FltReleaseContext"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltReleaseContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

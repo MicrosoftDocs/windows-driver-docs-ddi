@@ -10,6 +10,7 @@ keywords: ["FltPerformAsynchronousIo function"]
 ms.keywords: FltApiRef_p_to_z_ed6cd087-6139-4280-aaf3-fe6f0d5b056a.xml, FltPerformAsynchronousIo, FltPerformAsynchronousIo function [Installable File System Drivers], fltkernel/FltPerformAsynchronousIo, ifsk.fltperformasynchronousio
 f1_keywords:
  - "fltkernel/FltPerformAsynchronousIo"
+ - "FltPerformAsynchronousIo"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltPerformAsynchronousIo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

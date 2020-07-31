@@ -10,6 +10,7 @@ keywords: ["FsRtlInsertPerStreamContext function"]
 ms.keywords: FsRtlInsertPerStreamContext, FsRtlInsertPerStreamContext routine [Installable File System Drivers], fsrtlref_91ced881-cdb2-41ca-b569-992d6b43e2f4.xml, ifsk.fsrtlinsertperstreamcontext, ntifs/FsRtlInsertPerStreamContext
 f1_keywords:
  - "ntifs/FsRtlInsertPerStreamContext"
+ - "FsRtlInsertPerStreamContext"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlInsertPerStreamContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

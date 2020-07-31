@@ -10,6 +10,7 @@ keywords: ["NdisAcquireReadWriteLock function"]
 ms.keywords: NdisAcquireReadWriteLock, NdisAcquireReadWriteLock function [Network Drivers Starting with Windows Vista], ndis/NdisAcquireReadWriteLock, ndis_read_write_lock_ref_6a27c811-da37-410d-8ca6-d982832b1d09.xml, netvista.ndisacquirereadwritelock
 f1_keywords:
  - "ndis/NdisAcquireReadWriteLock"
+ - "NdisAcquireReadWriteLock"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - ndis.sys
 api_name:
 - NdisAcquireReadWriteLock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

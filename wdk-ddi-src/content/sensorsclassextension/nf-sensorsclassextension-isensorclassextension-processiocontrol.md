@@ -10,6 +10,7 @@ keywords: ["ISensorClassExtension::ProcessIoControl"]
 ms.keywords: ISensorClassExtension interface [Sensor Devices],ProcessIoControl method, ISensorClassExtension.ProcessIoControl, ISensorClassExtension::ProcessIoControl, ProcessIoControl, ProcessIoControl method [Sensor Devices], ProcessIoControl method [Sensor Devices],ISensorClassExtension interface, sensors.isensorclassextension_processiocontrol, sensorsclassextension/ISensorClassExtension::ProcessIoControl
 f1_keywords:
  - "sensorsclassextension/ProcessIoControl"
+ - "ProcessIoControl"
 req.header: sensorsclassextension.h
 req.include-header: 
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 - SensorsClassExtension.dll
 api_name:
 - ProcessIoControl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

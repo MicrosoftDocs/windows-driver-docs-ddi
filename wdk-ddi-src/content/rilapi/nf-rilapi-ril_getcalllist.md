@@ -10,6 +10,7 @@ keywords: ["RIL_GetCallList function"]
 ms.keywords: RIL_GetCallList, RIL_GetCallList method [Network Drivers Starting with Windows Vista], netvista.ril_getcalllist, rilapi/RIL_GetCallList
 f1_keywords:
  - "rilapi/RIL_GetCallList"
+ - "RIL_GetCallList"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_GetCallList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

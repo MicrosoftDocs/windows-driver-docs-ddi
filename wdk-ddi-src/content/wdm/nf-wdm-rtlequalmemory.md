@@ -10,6 +10,7 @@ keywords: ["RtlEqualMemory macro"]
 ms.keywords: RtlEqualMemory, RtlEqualMemory routine [Kernel-Mode Driver Architecture], k109_a75dfbc8-12af-4f95-9ba0-b7752b796e55.xml, kernel.rtlequalmemory, wdm/RtlEqualMemory
 f1_keywords:
  - "wdm/RtlEqualMemory"
+ - "RtlEqualMemory"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - RtlEqualMemory
 - memcmp
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

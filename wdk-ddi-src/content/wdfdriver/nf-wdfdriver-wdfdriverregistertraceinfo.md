@@ -10,6 +10,7 @@ keywords: ["WdfDriverRegisterTraceInfo function"]
 ms.keywords: DFDriverObjectRef_1cbf9cbb-1a7f-4227-9c80-5d9c9cf0bb12.xml, WdfDriverRegisterTraceInfo, WdfDriverRegisterTraceInfo method, kmdf.wdfdriverregistertraceinfo, wdf.wdfdriverregistertraceinfo, wdfdriver/WdfDriverRegisterTraceInfo
 f1_keywords:
  - "wdfdriver/WdfDriverRegisterTraceInfo"
+ - "WdfDriverRegisterTraceInfo"
 req.header: wdfdriver.h
 req.include-header: Wdf.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wdfdriver.h
 api_name:
 - WdfDriverRegisterTraceInfo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IStiDevice::RawWriteCommand"]
 ms.keywords: IStiDevice interface [Imaging Devices],RawWriteCommand method, IStiDevice.RawWriteCommand, IStiDevice::RawWriteCommand, RawWriteCommand, RawWriteCommand method [Imaging Devices], RawWriteCommand method [Imaging Devices],IStiDevice interface, image.istidevice_rawwritecommand, sti/IStiDevice::RawWriteCommand, stifnc_07c4667c-956f-4396-bc59-0bcbf21103a8.xml
 f1_keywords:
  - "sti/IStiDevice.RawWriteCommand"
+ - "IStiDevice.RawWriteCommand"
 req.header: sti.h
 req.include-header: Sti.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - sti.h
 api_name:
 - IStiDevice.RawWriteCommand
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

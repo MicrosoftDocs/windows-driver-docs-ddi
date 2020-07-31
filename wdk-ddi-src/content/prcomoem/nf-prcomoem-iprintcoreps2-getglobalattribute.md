@@ -10,6 +10,7 @@ keywords: ["IPrintCorePS2::GetGlobalAttribute"]
 ms.keywords: GetGlobalAttribute, GetGlobalAttribute method [Print Devices], GetGlobalAttribute method [Print Devices],IPrintCorePS2 interface, IPrintCorePS2 interface [Print Devices],GetGlobalAttribute method, IPrintCorePS2.GetGlobalAttribute, IPrintCorePS2::GetGlobalAttribute, prcomoem/IPrintCorePS2::GetGlobalAttribute, print.iprintcoreps2_getglobalattribute, print_unidrv-pscript_rendering_b9c86e58-8fbf-420a-81bc-a544d73b6aa7.xml
 f1_keywords:
  - "prcomoem/IPrintCorePS2.GetGlobalAttribute"
+ - "IPrintCorePS2.GetGlobalAttribute"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - prcomoem.h
 api_name:
 - IPrintCorePS2.GetGlobalAttribute
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

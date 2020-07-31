@@ -10,6 +10,7 @@ keywords: ["WDF_IO_QUEUE_DRAINED function"]
 ms.keywords: DFQueueObjectRef_ddc761b3-266a-4942-94ed-8ecca07575d1.xml, WDF_IO_QUEUE_DRAINED, WDF_IO_QUEUE_DRAINED function, kmdf.wdf_io_queue_drained, wdf.wdf_io_queue_drained, wdfio/WDF_IO_QUEUE_DRAINED
 f1_keywords:
  - "wdfio/WDF_IO_QUEUE_DRAINED"
+ - "WDF_IO_QUEUE_DRAINED"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - None.dll
 api_name:
 - WDF_IO_QUEUE_DRAINED
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

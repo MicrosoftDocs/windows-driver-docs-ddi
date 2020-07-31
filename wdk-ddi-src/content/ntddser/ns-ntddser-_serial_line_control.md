@@ -10,6 +10,7 @@ keywords: ["_SERIAL_LINE_CONTROL structure"]
 ms.keywords: "*PSERIAL_LINE_CONTROL, PSERIAL_LINE_CONTROL, PSERIAL_LINE_CONTROL structure pointer [Serial Ports], SERIAL_LINE_CONTROL, SERIAL_LINE_CONTROL structure [Serial Ports], _SERIAL_LINE_CONTROL, ntddser/PSERIAL_LINE_CONTROL, ntddser/SERIAL_LINE_CONTROL, serports.serial_line_control"
 f1_keywords:
  - "ntddser/SERIAL_LINE_CONTROL"
+ - "SERIAL_LINE_CONTROL"
 req.header: ntddser.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddser.h
 api_name:
 - SERIAL_LINE_CONTROL
-product:
-- Windows
 targetos: Windows
 req.typenames: SERIAL_LINE_CONTROL, *PSERIAL_LINE_CONTROL
 ---

@@ -10,6 +10,7 @@ keywords: ["EVT_UCX_USBDEVICE_RESET callback function"]
 ms.keywords: EVT_UCX_USBDEVICE_RESET, EVT_UCX_USBDEVICE_RESET callback, EvtUcxUsbDeviceReset, EvtUcxUsbDeviceReset callback function [Buses], PEVT_UCX_USBDEVICE_RESET, PEVT_UCX_USBDEVICE_RESET callback function pointer [Buses], buses.evt_ucx_usbdevice_reset, ucxusbdevice/EvtUcxUsbDeviceReset
 f1_keywords:
  - "ucxusbdevice/PEVT_UCX_USBDEVICE_RESET"
+ - "PEVT_UCX_USBDEVICE_RESET"
 req.header: ucxusbdevice.h
 req.include-header: Ucxclass.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ucxusbdevice.h
 api_name:
 - PEVT_UCX_USBDEVICE_RESET
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

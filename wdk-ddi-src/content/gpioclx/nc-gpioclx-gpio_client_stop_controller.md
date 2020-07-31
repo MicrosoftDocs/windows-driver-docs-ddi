@@ -10,6 +10,7 @@ keywords: ["GPIO_CLIENT_STOP_CONTROLLER callback function"]
 ms.keywords: CLIENT_StopController, CLIENT_StopController callback, CLIENT_StopController callback function [Parallel Ports], GPIO.client_stopcontroller, GPIO_CLIENT_STOP_CONTROLLER, gpioclx/CLIENT_StopController
 f1_keywords:
  - "gpioclx/CLIENT_StopController"
+ - "CLIENT_StopController"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Gpioclx.h
 api_name:
 - CLIENT_StopController
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

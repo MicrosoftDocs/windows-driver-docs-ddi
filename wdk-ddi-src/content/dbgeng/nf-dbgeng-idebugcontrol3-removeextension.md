@@ -10,6 +10,7 @@ keywords: ["IDebugControl3::RemoveExtension"]
 ms.keywords: IDebugControl interface [Windows Debugging],RemoveExtension method, IDebugControl2 interface [Windows Debugging],RemoveExtension method, IDebugControl2::RemoveExtension, IDebugControl3 interface [Windows Debugging],RemoveExtension method, IDebugControl3.RemoveExtension, IDebugControl3::RemoveExtension, IDebugControl::RemoveExtension, IDebugControl_c762281b-f49c-4837-a524-e2f04edb3b0c.xml, RemoveExtension, RemoveExtension method [Windows Debugging], RemoveExtension method [Windows Debugging],IDebugControl interface, RemoveExtension method [Windows Debugging],IDebugControl2 interface, RemoveExtension method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::RemoveExtension, dbgeng/IDebugControl3::RemoveExtension, dbgeng/IDebugControl::RemoveExtension, debugger.removeextension
 f1_keywords:
  - "dbgeng/IDebugControl.RemoveExtension"
+ - "IDebugControl.RemoveExtension"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -38,8 +39,6 @@ api_name:
 - IDebugControl.RemoveExtension
 - IDebugControl2.RemoveExtension
 - IDebugControl3.RemoveExtension
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

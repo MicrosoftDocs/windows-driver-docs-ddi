@@ -10,6 +10,7 @@ keywords: ["ExInterlockedPopEntryList function"]
 ms.keywords: ExInterlockedPopEntryList, ExInterlockedPopEntryList routine [Kernel-Mode Driver Architecture], k102_4673c5a1-a650-48c3-934f-c35c202277cc.xml, kernel.exinterlockedpopentrylist, wdm/ExInterlockedPopEntryList
 f1_keywords:
  - "wdm/ExInterlockedPopEntryList"
+ - "ExInterlockedPopEntryList"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - ExInterlockedPopEntryList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

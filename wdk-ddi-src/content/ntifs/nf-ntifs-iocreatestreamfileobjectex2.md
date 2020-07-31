@@ -10,6 +10,7 @@ keywords: ["IoCreateStreamFileObjectEx2 function"]
 ms.keywords: IoCreateStreamFileObjectEx, IoCreateStreamFileObjectEx routine [Installable File System Drivers], IoCreateStreamFileObjectEx2, ifsk.iocreatestreamfileobjectex2, ntifs/IoCreateStreamFileObjectEx
 f1_keywords:
  - "ntifs/IoCreateStreamFileObjectEx"
+ - "IoCreateStreamFileObjectEx"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoCreateStreamFileObjectEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

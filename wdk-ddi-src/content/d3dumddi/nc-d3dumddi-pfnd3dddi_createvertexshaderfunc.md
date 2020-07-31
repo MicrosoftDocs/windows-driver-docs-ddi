@@ -10,6 +10,7 @@ keywords: ["PFND3DDDI_CREATEVERTEXSHADERFUNC callback function"]
 ms.keywords: CreateVertexShaderFunc, CreateVertexShaderFunc callback function [Display Devices], PFND3DDDI_CREATEVERTEXSHADERFUNC, PFND3DDDI_CREATEVERTEXSHADERFUNC callback, UserModeDisplayDriver_Functions_bb697f1f-765f-46d9-961a-f4e8060727bc.xml, d3dumddi/CreateVertexShaderFunc, display.createvertexshaderfunc
 f1_keywords:
  - "d3dumddi/CreateVertexShaderFunc"
+ - "CreateVertexShaderFunc"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - CreateVertexShaderFunc
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

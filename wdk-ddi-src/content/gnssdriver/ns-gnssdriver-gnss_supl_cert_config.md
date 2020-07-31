@@ -10,6 +10,7 @@ keywords: ["GNSS_SUPL_CERT_CONFIG structure"]
 ms.keywords: "*PGNSS_SUPL_CERT_CONFIG, GNSS_SUPL_CERT_CONFIG, GNSS_SUPL_CERT_CONFIG structure [Sensor Devices], PGNSS_SUPL_CERT_CONFIG, PGNSS_SUPL_CERT_CONFIG structure pointer [Sensor Devices], gnss.gnss_supl_cert_config, gnssdriver/GNSS_SUPL_CERT_CONFIG, gnssdriver/PGNSS_SUPL_CERT_CONFIG"
 f1_keywords:
  - "gnssdriver/GNSS_SUPL_CERT_CONFIG"
+ - "GNSS_SUPL_CERT_CONFIG"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - gnssdriver.h
 api_name:
 - GNSS_SUPL_CERT_CONFIG
-product:
-- Windows
 targetos: Windows
 req.typenames: GNSS_SUPL_CERT_CONFIG, *PGNSS_SUPL_CERT_CONFIG
 ---

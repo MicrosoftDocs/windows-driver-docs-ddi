@@ -10,6 +10,7 @@ keywords: ["RtlClearBits function"]
 ms.keywords: RtlClearBits, RtlClearBits routine [Kernel-Mode Driver Architecture], k109_ee20da99-4d30-46dc-99c1-d3d8dfa92d08.xml, kernel.rtlclearbits, wdm/RtlClearBits
 f1_keywords:
  - "wdm/RtlClearBits"
+ - "RtlClearBits"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlClearBits
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

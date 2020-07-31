@@ -10,6 +10,7 @@ keywords: ["IoSetActivityIdThread function"]
 ms.keywords: IoSetActivityIdThread, IoSetActivityIdThread routine [Kernel-Mode Driver Architecture], kernel.iosetactivityidthread, ntddk/IoSetActivityIdThread
 f1_keywords:
  - "ntddk/IoSetActivityIdThread"
+ - "IoSetActivityIdThread"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoSetActivityIdThread
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

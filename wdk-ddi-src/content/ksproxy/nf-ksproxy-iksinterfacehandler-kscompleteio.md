@@ -10,6 +10,7 @@ keywords: ["IKsInterfaceHandler::KsCompleteIo"]
 ms.keywords: IKsInterfaceHandler interface [Streaming Media Devices],KsCompleteIo method, IKsInterfaceHandler.KsCompleteIo, IKsInterfaceHandler::KsCompleteIo, KsCompleteIo, KsCompleteIo method [Streaming Media Devices], KsCompleteIo method [Streaming Media Devices],IKsInterfaceHandler interface, ksproxy/IKsInterfaceHandler::KsCompleteIo, ksproxy_3f49ef68-7608-4348-ba18-ffd3bb0e7808.xml, stream.iksinterfacehandler_kscompleteio
 f1_keywords:
  - "ksproxy/IKsInterfaceHandler.KsCompleteIo"
+ - "IKsInterfaceHandler.KsCompleteIo"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ksproxy.h
 api_name:
 - IKsInterfaceHandler.KsCompleteIo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["_URS_CONFIG structure"]
 ms.keywords: "*PURS_CONFIG, PURS_CONFIG, PURS_CONFIG structure pointer [Buses], URS_CONFIG, URS_CONFIG structure [Buses], _URS_CONFIG, buses.urs_config, ursdevice/PURS_CONFIG, ursdevice/URS_CONFIG"
 f1_keywords:
  - "ursdevice/URS_CONFIG"
+ - "URS_CONFIG"
 req.header: ursdevice.h
 req.include-header: Urscx.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ursdevice.h
 api_name:
 - URS_CONFIG
-product:
-- Windows
 targetos: Windows
 req.typenames: URS_CONFIG, *PURS_CONFIG
 ---

@@ -10,6 +10,7 @@ keywords: ["NdisAllocateNetBufferListPool function"]
 ms.keywords: NdisAllocateNetBufferListPool, NdisAllocateNetBufferListPool function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateNetBufferListPool, ndis_netbuf_functions_ref_763044cb-dfaf-4cb5-959c-7895e3e49fb0.xml, netvista.ndisallocatenetbufferlistpool
 f1_keywords:
  - "ndis/NdisAllocateNetBufferListPool"
+ - "NdisAllocateNetBufferListPool"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - ndis.sys
 api_name:
 - NdisAllocateNetBufferListPool
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

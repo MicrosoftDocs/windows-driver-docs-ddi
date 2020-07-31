@@ -10,6 +10,7 @@ keywords: ["IoSetDeviceInterfacePropertyData function"]
 ms.keywords: IoSetDeviceInterfacePropertyData, IoSetDeviceInterfacePropertyData routine [Kernel-Mode Driver Architecture], kernel.iosetdeviceinterfacepropertydata, wdm/IoSetDeviceInterfacePropertyData
 f1_keywords:
  - "wdm/IoSetDeviceInterfacePropertyData"
+ - "IoSetDeviceInterfacePropertyData"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoSetDeviceInterfacePropertyData
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

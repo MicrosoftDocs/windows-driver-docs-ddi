@@ -10,6 +10,7 @@ keywords: ["_SendRPS_IN structure"]
 ms.keywords: "*PSendRPS_IN, PSendRPS_IN, PSendRPS_IN structure pointer [Storage Devices], SendRPS_IN, SendRPS_IN structure [Storage Devices], _SendRPS_IN, hbapiwmi/PSendRPS_IN, hbapiwmi/SendRPS_IN, storage.sendrps_in, structs-Fibre_52ab21d3-f6bf-4e1d-b5a7-3f9cd054038c.xml"
 f1_keywords:
  - "hbapiwmi/SendRPS_IN"
+ - "SendRPS_IN"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - SendRPS_IN
-product:
-- Windows
 targetos: Windows
 req.typenames: SendRPS_IN, *PSendRPS_IN
 ---

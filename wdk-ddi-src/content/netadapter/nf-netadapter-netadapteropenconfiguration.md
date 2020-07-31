@@ -8,6 +8,7 @@ ms.date: 02/06/2018
 keywords: ["NetAdapterOpenConfiguration function"]
 f1_keywords:
  - "netadapter/NetAdapterOpenConfiguration"
+ - "NetAdapterOpenConfiguration"
 ms.keywords: NetAdapterOpenConfiguration
 req.header: netadapter.h
 req.include-header: netadaptercx.h
@@ -38,8 +39,6 @@ api_location:
 api_name: 
 - NetAdapterOpenConfiguration
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetAdapterOpenConfiguration function

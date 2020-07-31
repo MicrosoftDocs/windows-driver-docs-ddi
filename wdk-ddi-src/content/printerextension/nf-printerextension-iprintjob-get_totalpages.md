@@ -10,6 +10,7 @@ keywords: ["IPrintJob::get_TotalPages"]
 ms.keywords: IPrintJob interface [Print Devices],TotalPages property, IPrintJob.TotalPages, IPrintJob.get_TotalPages, IPrintJob::TotalPages, IPrintJob::get_TotalPages, TotalPages property [Print Devices], TotalPages property [Print Devices],IPrintJob interface, get_TotalPages, print.iprintjob_totalpages, printerextension/IPrintJob::TotalPages, printerextension/IPrintJob::get_TotalPages
 f1_keywords:
  - "printerextension/IPrintJob.TotalPages"
+ - "IPrintJob.TotalPages"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IPrintJob.TotalPages
 - IPrintJob.get_TotalPages
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["_D3DHAL_DP2MULTIPLYTRANSFORM structure"]
 ms.keywords: "*LPD3DHAL_DP2MULTIPLYTRANSFORM, D3DHAL_DP2MULTIPLYTRANSFORM, D3DHAL_DP2MULTIPLYTRANSFORM structure [Display Devices], LPD3DHAL_DP2MULTIPLYTRANSFORM, LPD3DHAL_DP2MULTIPLYTRANSFORM structure pointer [Display Devices], _D3DHAL_DP2MULTIPLYTRANSFORM, d3dhal/D3DHAL_DP2MULTIPLYTRANSFORM, d3dhal/LPD3DHAL_DP2MULTIPLYTRANSFORM, d3dstrct_5091bd4f-cace-4f31-8849-8f6ee65c7ec1.xml, display.d3dhal_dp2multiplytransform"
 f1_keywords:
  - "d3dhal/D3DHAL_DP2MULTIPLYTRANSFORM"
+ - "D3DHAL_DP2MULTIPLYTRANSFORM"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dhal.h
 api_name:
 - D3DHAL_DP2MULTIPLYTRANSFORM
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DHAL_DP2MULTIPLYTRANSFORM
 ---

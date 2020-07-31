@@ -10,6 +10,7 @@ keywords: ["IDebugDataSpaces2::ReadMsr"]
 ms.keywords: IDebugDataSpaces interface [Windows Debugging],ReadMsr method, IDebugDataSpaces2 interface [Windows Debugging],ReadMsr method, IDebugDataSpaces2.ReadMsr, IDebugDataSpaces2::ReadMsr, IDebugDataSpaces3 interface [Windows Debugging],ReadMsr method, IDebugDataSpaces3::ReadMsr, IDebugDataSpaces4 interface [Windows Debugging],ReadMsr method, IDebugDataSpaces4::ReadMsr, IDebugDataSpaces::ReadMsr, IDebugDataSpaces_ad5999a9-949f-4771-b0b9-16fa1b79ac10.xml, ReadMsr, ReadMsr method [Windows Debugging], ReadMsr method [Windows Debugging],IDebugDataSpaces interface, ReadMsr method [Windows Debugging],IDebugDataSpaces2 interface, ReadMsr method [Windows Debugging],IDebugDataSpaces3 interface, ReadMsr method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces2::ReadMsr, dbgeng/IDebugDataSpaces3::ReadMsr, dbgeng/IDebugDataSpaces4::ReadMsr, dbgeng/IDebugDataSpaces::ReadMsr, debugger.readmsr2
 f1_keywords:
  - "dbgeng/IDebugDataSpaces.ReadMsr"
+ - "IDebugDataSpaces.ReadMsr"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -39,8 +40,6 @@ api_name:
 - IDebugDataSpaces2.ReadMsr
 - IDebugDataSpaces3.ReadMsr
 - IDebugDataSpaces4.ReadMsr
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

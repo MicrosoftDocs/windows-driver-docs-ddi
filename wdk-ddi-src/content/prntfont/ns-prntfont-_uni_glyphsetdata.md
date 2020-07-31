@@ -10,6 +10,7 @@ keywords: ["_UNI_GLYPHSETDATA structure"]
 ms.keywords: "*PUNI_GLYPHSETDATA, PUNI_GLYPHSETDATA, PUNI_GLYPHSETDATA structure pointer [Print Devices], UNI_GLYPHSETDATA, UNI_GLYPHSETDATA structure [Print Devices], _UNI_GLYPHSETDATA, print.uni_glyphsetdata, print_unidrv-pscript_fonts_51c5f97c-3b3c-4990-8dcb-9c7bf387b03f.xml, prntfont/PUNI_GLYPHSETDATA, prntfont/UNI_GLYPHSETDATA"
 f1_keywords:
  - "prntfont/UNI_GLYPHSETDATA"
+ - "UNI_GLYPHSETDATA"
 req.header: prntfont.h
 req.include-header: Prntfont.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - prntfont.h
 api_name:
 - UNI_GLYPHSETDATA
-product:
-- Windows
 targetos: Windows
 req.typenames: UNI_GLYPHSETDATA, *PUNI_GLYPHSETDATA
 ---

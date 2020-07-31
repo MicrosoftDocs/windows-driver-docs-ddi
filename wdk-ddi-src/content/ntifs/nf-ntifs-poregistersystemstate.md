@@ -10,6 +10,7 @@ keywords: ["PoRegisterSystemState function"]
 ms.keywords: PoRegisterSystemState, PoRegisterSystemState routine [Kernel-Mode Driver Architecture], kernel.poregistersystemstate, portn_477a2d72-00f7-45a1-b7ca-504b741c5fe0.xml, wdm/PoRegisterSystemState
 f1_keywords:
  - "ntifs/PoRegisterSystemState"
+ - "PoRegisterSystemState"
 req.header: ntifs.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - PoRegisterSystemState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

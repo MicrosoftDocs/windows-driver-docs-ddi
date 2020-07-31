@@ -10,6 +10,7 @@ keywords: ["GdiGetSpoolFileHandle function"]
 ms.keywords: GdiGetSpoolFileHandle, GdiGetSpoolFileHandle function [Print Devices], gdifnc_f7231fd8-33b0-4047-90ba-e5e2c9c37814.xml, print.gdigetspoolfilehandle, winppi/GdiGetSpoolFileHandle
 f1_keywords:
  - "winppi/GdiGetSpoolFileHandle"
+ - "GdiGetSpoolFileHandle"
 req.header: winppi.h
 req.include-header: Winppi.h
 req.target-type: Universal
@@ -38,8 +39,6 @@ api_location:
 - GDI32Full.dll
 api_name:
 - GdiGetSpoolFileHandle
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

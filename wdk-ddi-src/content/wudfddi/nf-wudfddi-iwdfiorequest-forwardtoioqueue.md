@@ -10,6 +10,7 @@ keywords: ["IWDFIoRequest::ForwardToIoQueue"]
 ms.keywords: ForwardToIoQueue, ForwardToIoQueue method, ForwardToIoQueue method,IWDFIoRequest interface, IWDFIoRequest interface,ForwardToIoQueue method, IWDFIoRequest.ForwardToIoQueue, IWDFIoRequest::ForwardToIoQueue, UMDFRequestObjectRef_ae3c7113-1fac-4742-b53b-8230bf78b61a.xml, umdf.iwdfiorequest_forwardtoioqueue, wdf.iwdfiorequest_forwardtoioqueue, wudfddi/IWDFIoRequest::ForwardToIoQueue
 f1_keywords:
  - "wudfddi/IWDFIoRequest.ForwardToIoQueue"
+ - "IWDFIoRequest.ForwardToIoQueue"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFIoRequest.ForwardToIoQueue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

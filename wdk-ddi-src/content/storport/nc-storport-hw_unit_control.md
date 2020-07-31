@@ -10,6 +10,7 @@ keywords: ["HW_UNIT_CONTROL callback function"]
 ms.keywords: HW_UNIT_CONTROL, HwStorUnitControl, HwStorUnitControl routine [Storage Devices], storage.hwstorunitcontrol, storport/HwStorUnitControl
 f1_keywords:
  - "storport/HwStorUnitControl"
+ - "HwStorUnitControl"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Storport.h
 api_name:
 - HwStorUnitControl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

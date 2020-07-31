@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["D3D12DDICAPS_QUERY_META_COMMAND_CAPS_0061 structure"]
 f1_keywords:
  - "d3d12umddi/D3D12DDICAPS_QUERY_META_COMMAND_CAPS_0061"
+ - "D3D12DDICAPS_QUERY_META_COMMAND_CAPS_0061"
 ms.keywords: D3D12DDICAPS_QUERY_META_COMMAND_CAPS_0061, D3D12DDICAPS_QUERY_META_COMMAND_CAPS_0061, 
 req.header: d3d12umddi.h
 req.include-header:
@@ -32,8 +33,6 @@ api_location:
  - d3d12umddi.h
 api_name: 
  - D3D12DDICAPS_QUERY_META_COMMAND_CAPS_0061
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

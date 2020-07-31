@@ -10,6 +10,7 @@ keywords: ["IOCTL_CDROM_READ_TOC IOCTL"]
 ms.keywords: IOCTL_CDROM_READ_TOC, IOCTL_CDROM_READ_TOC control, IOCTL_CDROM_READ_TOC control code [Storage Devices], k307_8e0f2b70-edd0-424e-abb4-a81ea9f382fe.xml, ntddcdrm/IOCTL_CDROM_READ_TOC, storage.ioctl_cdrom_read_toc
 f1_keywords:
  - "ntddcdrm/IOCTL_CDROM_READ_TOC"
+ - "IOCTL_CDROM_READ_TOC"
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddcdrm.h
 api_name:
 - IOCTL_CDROM_READ_TOC
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["_STOR_CRYPTO_CAPABILITIES_DATA structure"]
 ms.keywords: "*PSTOR_CRYPTO_CAPABILITIES_DATA, PSTOR_CRYPTO_CAPABILITIES_DATA, PSTOR_CRYPTO_CAPABILITIES_DATA structure pointer [Storage Devices], STOR_CRYPTO_CAPABILITIES_DATA, STOR_CRYPTO_CAPABILITIES_DATA structure [Storage Devices], _STOR_CRYPTO_CAPABILITIES_DATA, storage.stor_crypto_capabilities_data, storport/PSTOR_CRYPTO_CAPABILITIES_DATA, storport/STOR_CRYPTO_CAPABILITIES_DATA"
 f1_keywords:
  - "storport/STOR_CRYPTO_CAPABILITIES_DATA"
+ - "STOR_CRYPTO_CAPABILITIES_DATA"
 req.header: storport.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Storport.h
 api_name:
 - STOR_CRYPTO_CAPABILITIES_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: STOR_CRYPTO_CAPABILITIES_DATA, *PSTOR_CRYPTO_CAPABILITIES_DATA
 ---

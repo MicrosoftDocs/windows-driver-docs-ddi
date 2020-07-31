@@ -8,6 +8,7 @@ ms.date: 09/30/2018
 keywords: ["_UCSI_GET_CONNECTOR_CAPABILITY_COMMAND structure"]
 f1_keywords:
  - "ucmucsispec/_UCSI_GET_CONNECTOR_CAPABILITY_COMMAND"
+ - "_UCSI_GET_CONNECTOR_CAPABILITY_COMMAND"
 ms.keywords: _UCSI_GET_CONNECTOR_CAPABILITY_COMMAND, UCSI_GET_CONNECTOR_CAPABILITY_COMMAND, *PUCSI_GET_CONNECTOR_CAPABILITY_COMMAND, 
 req.header: ucmucsispec.h
 req.include-header: UcmUcsiCx.h 
@@ -30,8 +31,6 @@ api_location:
 - ucmucsispec.h
 api_name: 
 - _UCSI_GET_CONNECTOR_CAPABILITY_COMMAND
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

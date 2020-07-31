@@ -10,6 +10,7 @@ keywords: ["GNSS_GEOFENCE_DELETE_PARAM structure"]
 ms.keywords: "*PGNSS_GEOFENCE_DELETE_PARAM, GNSS_GEOFENCE_DELETE_PARAM, GNSS_GEOFENCE_DELETE_PARAM structure [Sensor Devices], PGNSS_GEOFENCE_DELETE_PARAM, PGNSS_GEOFENCE_DELETE_PARAM structure pointer [Sensor Devices], gnss.gnss_geofence_delete_param, gnssdriver/GNSS_GEOFENCE_DELETE_PARAM, gnssdriver/PGNSS_GEOFENCE_DELETE_PARAM"
 f1_keywords:
  - "gnssdriver/GNSS_GEOFENCE_DELETE_PARAM"
+ - "GNSS_GEOFENCE_DELETE_PARAM"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - gnssdriver.h
 api_name:
 - GNSS_GEOFENCE_DELETE_PARAM
-product:
-- Windows
 targetos: Windows
 req.typenames: GNSS_GEOFENCE_DELETE_PARAM, *PGNSS_GEOFENCE_DELETE_PARAM
 ---

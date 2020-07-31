@@ -9,6 +9,7 @@ keywords: ["PFND3D10DDI_DESTROYBLENDSTATE callback function"]
 ms.keywords: DestroyBlendState, DestroyBlendState callback function [Display Devices], PFND3D10DDI_DESTROYBLENDSTATE, PFND3D10DDI_DESTROYBLENDSTATE callback, UserModeDisplayDriverDx10_Functions_8af7f412-da7f-4326-a681-41bdfb4a97bb.xml, d3d10umddi/DestroyBlendState, display.destroyblendstate
 f1_keywords:
  - "d3d10umddi/DestroyBlendState"
+ - "DestroyBlendState"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - DestroyBlendState
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

@@ -10,6 +10,7 @@ keywords: ["tagKS_DATARANGE_IMAGE structure"]
 ms.keywords: "*PKS_DATARANGE_IMAGE, KS_DATARANGE_IMAGE, KS_DATARANGE_IMAGE structure [Streaming Media Devices], PKS_DATARANGE_IMAGE, PKS_DATARANGE_IMAGE structure pointer [Streaming Media Devices], ksmedia/KS_DATARANGE_IMAGE, ksmedia/PKS_DATARANGE_IMAGE, stream.ks_datarange_image, tagKS_DATARANGE_IMAGE"
 f1_keywords:
  - "ksmedia/KS_DATARANGE_IMAGE"
+ - "KS_DATARANGE_IMAGE"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ksmedia.h
 api_name:
 - KS_DATARANGE_IMAGE
-product:
-- Windows
 targetos: Windows
 req.typenames: KS_DATARANGE_IMAGE, *PKS_DATARANGE_IMAGE
 ---

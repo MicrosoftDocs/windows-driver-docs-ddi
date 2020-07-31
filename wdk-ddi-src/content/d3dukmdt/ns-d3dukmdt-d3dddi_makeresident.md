@@ -10,6 +10,7 @@ keywords: ["D3DDDI_MAKERESIDENT structure"]
 ms.keywords: D3DDDI_MAKERESIDENT, D3DDDI_MAKERESIDENT structure [Display Devices], d3dukmdt/D3DDDI_MAKERESIDENT, display.d3dddi_makeresident
 f1_keywords:
  - "d3dukmdt/D3DDDI_MAKERESIDENT"
+ - "D3DDDI_MAKERESIDENT"
 req.header: d3dukmdt.h
 req.include-header: D3dumddi.h, D3dkmddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dukmdt.h
 api_name:
 - D3DDDI_MAKERESIDENT
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDI_MAKERESIDENT
 ---

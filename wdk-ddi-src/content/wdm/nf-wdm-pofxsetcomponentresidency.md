@@ -10,6 +10,7 @@ keywords: ["PoFxSetComponentResidency function"]
 ms.keywords: PoFxSetComponentResidency, PoFxSetComponentResidency routine [Kernel-Mode Driver Architecture], kernel.pofxsetcomponentresidency, wdm/PoFxSetComponentResidency
 f1_keywords:
  - "wdm/PoFxSetComponentResidency"
+ - "PoFxSetComponentResidency"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Ntoskrnl.exe
 api_name:
 - PoFxSetComponentResidency
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

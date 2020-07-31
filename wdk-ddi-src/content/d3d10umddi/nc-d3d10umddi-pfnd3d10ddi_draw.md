@@ -9,6 +9,7 @@ keywords: ["PFND3D10DDI_DRAW callback function"]
 ms.keywords: Draw, Draw callback function [Display Devices], PFND3D10DDI_DRAW, PFND3D10DDI_DRAW callback, UserModeDisplayDriverDx10_Functions_aec9f82d-41e9-41bc-b8e7-c07c531caf4c.xml, d3d10umddi/Draw, display.draw
 f1_keywords:
  - "d3d10umddi/Draw"
+ - "Draw"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - Draw
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

@@ -10,6 +10,7 @@ keywords: ["WriteMsr function"]
 ms.keywords: WdbgExts_Ref_faeb78e1-24a2-4210-94f9-4e468ba69181.xml, WriteMsr, WriteMsr function [Windows Debugging], dbgeng/WriteMsr, debugger.writemsr
 f1_keywords:
  - "wdbgexts/WriteMsr"
+ - "WriteMsr"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - WriteMsr
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

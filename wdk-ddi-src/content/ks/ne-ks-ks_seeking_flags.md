@@ -10,6 +10,7 @@ keywords: ["KS_SEEKING_FLAGS enumeration"]
 ms.keywords: KS_SEEKING_AbsolutePositioning, KS_SEEKING_FLAGS, KS_SEEKING_FLAGS enumeration [Streaming Media Devices], KS_SEEKING_IncrementalPositioning, KS_SEEKING_NoPositioning, KS_SEEKING_PositioningBitsMask, KS_SEEKING_RelativePositioning, KS_SEEKING_ReturnTime, KS_SEEKING_SeekToKeyFrame, ks-struct_edea1d66-55d6-4705-ae8f-b940946b87e0.xml, ks/KS_SEEKING_AbsolutePositioning, ks/KS_SEEKING_FLAGS, ks/KS_SEEKING_IncrementalPositioning, ks/KS_SEEKING_NoPositioning, ks/KS_SEEKING_PositioningBitsMask, ks/KS_SEEKING_RelativePositioning, ks/KS_SEEKING_ReturnTime, ks/KS_SEEKING_SeekToKeyFrame, stream.ks_seeking_flags
 f1_keywords:
  - "ks/KS_SEEKING_FLAGS"
+ - "KS_SEEKING_FLAGS"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KS_SEEKING_FLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: KS_SEEKING_FLAGS
 ---

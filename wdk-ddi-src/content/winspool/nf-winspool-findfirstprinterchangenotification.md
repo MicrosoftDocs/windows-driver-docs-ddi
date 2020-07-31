@@ -10,6 +10,7 @@ keywords: ["FindFirstPrinterChangeNotification function"]
 ms.keywords: spoolfnc_cf13c78b-91e2-4d6e-b7be-fda42b3e7588.xml, print.findfirstprinterchangenotification, FindFirstPrinterChangeNotification, winspool/FindFirstPrinterChangeNotification, FindFirstPrinterChangeNotification function [Print Devices]
 f1_keywords:
  - "winspool/FindFirstPrinterChangeNotification"
+ - "FindFirstPrinterChangeNotification"
 req.header: winspool.h
 req.include-header: Winspool.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WinSpool.drv
 api_name:
 - FindFirstPrinterChangeNotification
-product:
-- Windows
 targetos: Windows
 req.typenames: BIDI_TYPE
 req.product: Windows 10 or later.

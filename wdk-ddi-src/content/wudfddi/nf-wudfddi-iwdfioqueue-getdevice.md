@@ -10,6 +10,7 @@ keywords: ["IWDFIoQueue::GetDevice"]
 ms.keywords: GetDevice, GetDevice method, GetDevice method,IWDFIoQueue interface, IWDFIoQueue interface,GetDevice method, IWDFIoQueue.GetDevice, IWDFIoQueue::GetDevice, UMDFQueueObjectRef_ecef922c-aff2-49ac-84bd-17e7e2e784a1.xml, umdf.iwdfioqueue_getdevice, wdf.iwdfioqueue_getdevice, wudfddi/IWDFIoQueue::GetDevice
 f1_keywords:
  - "wudfddi/IWDFIoQueue.GetDevice"
+ - "IWDFIoQueue.GetDevice"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFIoQueue.GetDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

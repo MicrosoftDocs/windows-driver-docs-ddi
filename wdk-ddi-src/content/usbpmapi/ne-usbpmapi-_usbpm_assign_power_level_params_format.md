@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["_USBPM_ASSIGN_POWER_LEVEL_PARAMS_FORMAT enumeration"]
 f1_keywords:
  - "usbpmapi/_USBPM_ASSIGN_POWER_LEVEL_PARAMS_FORMAT"
+ - "_USBPM_ASSIGN_POWER_LEVEL_PARAMS_FORMAT"
 ms.keywords: _USBPM_ASSIGN_POWER_LEVEL_PARAMS_FORMAT, USBPM_ASSIGN_POWER_LEVEL_PARAMS_FORMAT, *PUSBPM_ASSIGN_POWER_LEVEL_PARAMS_FORMAT, 
 tech.root: usbref
 req.header: usbpmapi.h
@@ -27,8 +28,6 @@ api_location:
 - usbpmapi.h
 api_name: 
 - _USBPM_ASSIGN_POWER_LEVEL_PARAMS_FORMAT
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

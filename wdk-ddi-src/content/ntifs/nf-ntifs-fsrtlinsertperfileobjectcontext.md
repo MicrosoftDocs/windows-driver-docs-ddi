@@ -10,6 +10,7 @@ keywords: ["FsRtlInsertPerFileObjectContext function"]
 ms.keywords: FsRtlInsertPerFileObjectContext, FsRtlInsertPerFileObjectContext function [Installable File System Drivers], fsrtlref_21a21edf-cf20-4c0b-aaef-bc75656238c4.xml, ifsk.fsrtlinsertperfileobjectcontext, ntifs/FsRtlInsertPerFileObjectContext
 f1_keywords:
  - "ntifs/FsRtlInsertPerFileObjectContext"
+ - "FsRtlInsertPerFileObjectContext"
 req.header: ntifs.h
 req.include-header: Fltkernel.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlInsertPerFileObjectContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

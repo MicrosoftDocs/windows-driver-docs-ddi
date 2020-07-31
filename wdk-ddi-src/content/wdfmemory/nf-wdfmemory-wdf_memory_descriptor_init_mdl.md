@@ -10,6 +10,7 @@ keywords: ["WDF_MEMORY_DESCRIPTOR_INIT_MDL function"]
 ms.keywords: DFMemoryObjectRef_f5eb00be-fd17-49bf-87dd-4fde1b06d65e.xml, WDF_MEMORY_DESCRIPTOR_INIT_MDL, WDF_MEMORY_DESCRIPTOR_INIT_MDL function, kmdf.wdf_memory_descriptor_init_mdl, wdf.wdf_memory_descriptor_init_mdl, wdfmemory/WDF_MEMORY_DESCRIPTOR_INIT_MDL
 f1_keywords:
  - "wdfmemory/WDF_MEMORY_DESCRIPTOR_INIT_MDL"
+ - "WDF_MEMORY_DESCRIPTOR_INIT_MDL"
 req.header: wdfmemory.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - wdfmemory.h
 api_name:
 - WDF_MEMORY_DESCRIPTOR_INIT_MDL
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -8,6 +8,7 @@ ms.date: 09/20/2018
 keywords: ["RtlCopyMemory macro"]
 f1_keywords:
  - "ntddstor/RtlCopyMemory"
+ - "RtlCopyMemory"
 ms.keywords: RtlCopyMemory
 req.header: ntddstor.h
 req.include-header:
@@ -34,8 +35,6 @@ api_location:
 - ntddstor.h
 api_name: 
 - RtlCopyMemory
-product:
-- Windows
 targetos: Windows
 
 ---

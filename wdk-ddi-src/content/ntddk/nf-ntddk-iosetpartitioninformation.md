@@ -10,6 +10,7 @@ keywords: ["IoSetPartitionInformation function"]
 ms.keywords: IoSetPartitionInformation, IoSetPartitionInformation routine [Storage Devices], ntddk/IoSetPartitionInformation, rtns-disk_58012dfd-a95d-4af6-a09d-e1a4bcb458e2.xml, storage.iosetpartitioninformation
 f1_keywords:
  - "ntddk/IoSetPartitionInformation"
+ - "IoSetPartitionInformation"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoSetPartitionInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

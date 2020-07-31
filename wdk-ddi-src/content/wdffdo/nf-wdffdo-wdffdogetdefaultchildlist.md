@@ -10,6 +10,7 @@ keywords: ["WdfFdoGetDefaultChildList function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_b91b8c48-179f-42e5-8015-67eaf1b38226.xml, WdfFdoGetDefaultChildList, WdfFdoGetDefaultChildList method, kmdf.wdffdogetdefaultchildlist, wdf.wdffdogetdefaultchildlist, wdffdo/WdfFdoGetDefaultChildList
 f1_keywords:
  - "wdffdo/WdfFdoGetDefaultChildList"
+ - "WdfFdoGetDefaultChildList"
 req.header: wdffdo.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfFdoGetDefaultChildList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["EVT_SERCX2_PIO_TRANSMIT_ENABLE_READY_NOTIFICATION callback function"
 ms.keywords: 2/EvtSerCx2PioTransmitEnableReadyNotification, EVT_SERCX2_PIO_TRANSMIT_ENABLE_READY_NOTIFICATION, EVT_SERCX2_PIO_TRANSMIT_ENABLE_READY_NOTIFICATION callback, EvtSerCx2PioTransmitEnableReadyNotification, EvtSerCx2PioTransmitEnableReadyNotification callback function [Serial Ports], serports.evtsercx2piotransmitenablereadynotification
 f1_keywords:
  - "sercx/EvtSerCx2PioTransmitEnableReadyNotification"
+ - "EvtSerCx2PioTransmitEnableReadyNotification"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - 2.0\Sercx.h
 api_name:
 - EvtSerCx2PioTransmitEnableReadyNotification
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IPrintPipelineManagerControl::FilterFinished"]
 ms.keywords: FilterFinished, FilterFinished method [Print Devices], FilterFinished method [Print Devices],IPrintPipelineManagerControl interface, IPrintPipelineManagerControl interface [Print Devices],FilterFinished method, IPrintPipelineManagerControl.FilterFinished, IPrintPipelineManagerControl::FilterFinished, filterpipeline/IPrintPipelineManagerControl::FilterFinished, filterpipeline_58038d61-195e-4144-adee-2615a62cef91.xml, print.iprintpipelinemanagercontrol_filterfinished
 f1_keywords:
  - "filterpipeline/IPrintPipelineManagerControl.FilterFinished"
+ - "IPrintPipelineManagerControl.FilterFinished"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Filterpipeline.h
 api_name:
 - IPrintPipelineManagerControl.FilterFinished
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

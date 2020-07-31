@@ -10,6 +10,7 @@ keywords: ["_BINARY_CONTAINER structure"]
 ms.keywords: "*PBINARY_CONTAINER, BINARY_CONTAINER, BINARY_CONTAINER structure [Print Devices], PBINARY_CONTAINER, PBINARY_CONTAINER structure pointer [Print Devices], _BINARY_CONTAINER, print.binary_container, spoolfnc_a034cd3e-8afb-4a15-9640-06d693fd150c.xml, winspool/BINARY_CONTAINER, winspool/PBINARY_CONTAINER"
 f1_keywords:
  - "winspool/BINARY_CONTAINER"
+ - "BINARY_CONTAINER"
 req.header: winspool.h
 req.include-header: Winspool.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - winspool.h
 api_name:
 - BINARY_CONTAINER
-product:
-- Windows
 targetos: Windows
 req.typenames: BINARY_CONTAINER, *PBINARY_CONTAINER
 ---

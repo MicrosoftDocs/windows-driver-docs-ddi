@@ -10,6 +10,7 @@ keywords: ["KsAcquireDeviceSecurityLock function"]
 ms.keywords: KsAcquireDeviceSecurityLock, KsAcquireDeviceSecurityLock function [Streaming Media Devices], ks/KsAcquireDeviceSecurityLock, ksfunc_dd097c63-acd6-4de2-b3c9-a50e55e3f3f1.xml, stream.ksacquiredevicesecuritylock
 f1_keywords:
  - "ks/KsAcquireDeviceSecurityLock"
+ - "KsAcquireDeviceSecurityLock"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsAcquireDeviceSecurityLock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

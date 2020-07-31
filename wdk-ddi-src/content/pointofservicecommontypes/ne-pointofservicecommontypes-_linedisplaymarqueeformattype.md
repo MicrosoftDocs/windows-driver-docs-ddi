@@ -10,6 +10,7 @@ keywords: ["_LineDisplayMarqueeFormatType enumeration"]
 ms.keywords: LineDisplayMarqueeFormatType, LineDisplayMarqueeFormatType enumeration, PLineDisplayMarqueeFormatType, PLineDisplayMarqueeFormatType enumeration pointer, _LineDisplayMarqueeFormatType, pointofservicecommontypes/, pointofservicecommontypes/LineDisplayMarqueeFormatType, pointofservicecommontypes/PLineDisplayMarqueeFormatType, pos.linedisplaymarqueeformattype
 f1_keywords:
  - "pointofservicecommontypes/LineDisplayMarqueeFormatType"
+ - "LineDisplayMarqueeFormatType"
 req.header: pointofservicecommontypes.h
 req.include-header: Pointofservicecommontypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pointofservicecommontypes.h
 api_name:
 - LineDisplayMarqueeFormatType
-product:
-- Windows
 targetos: Windows
 req.typenames: LineDisplayMarqueeFormatType
 ---

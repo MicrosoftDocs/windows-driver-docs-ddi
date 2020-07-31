@@ -10,6 +10,7 @@ keywords: ["EVT_UCX_ROOTHUB_INTERRUPT_TX callback function"]
 ms.keywords: EVT_UCX_ROOTHUB_INTERRUPT_TX, EVT_UCX_ROOTHUB_INTERRUPT_TX callback, EvtUcxInterruptTransferTx, EvtUcxInterruptTransferTx callback function [Buses], PEVT_UCX_ROOTHUB_INTERRUPT_TX, PEVT_UCX_ROOTHUB_INTERRUPT_TX callback function pointer [Buses], buses.evt_ucx_roothub_interrupt_tx, ucxroothub/EvtUcxInterruptTransferTx
 f1_keywords:
  - "ucxroothub/PEVT_UCX_ROOTHUB_INTERRUPT_TX"
+ - "PEVT_UCX_ROOTHUB_INTERRUPT_TX"
 req.header: ucxroothub.h
 req.include-header: Ucxclass.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ucxroothub.h
 api_name:
 - PEVT_UCX_ROOTHUB_INTERRUPT_TX
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

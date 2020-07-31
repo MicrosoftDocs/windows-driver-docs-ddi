@@ -10,6 +10,7 @@ keywords: ["VideoPortInterlockedIncrement function"]
 ms.keywords: VideoPortInterlockedIncrement, VideoPortInterlockedIncrement function [Display Devices], VideoPort_Functions_ae59ee02-e3b2-43f6-8b93-8fe6bcedf248.xml, display.videoportinterlockedincrement, video/VideoPortInterlockedIncrement
 f1_keywords:
  - "video/VideoPortInterlockedIncrement"
+ - "VideoPortInterlockedIncrement"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Videoprt.sys
 api_name:
 - VideoPortInterlockedIncrement
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

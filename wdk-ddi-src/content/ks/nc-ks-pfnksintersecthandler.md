@@ -10,6 +10,7 @@ keywords: ["PFNKSINTERSECTHANDLER callback function"]
 ms.keywords: KStrIntersectHandler, KStrIntersectHandler routine [Streaming Media Devices], PFNKSINTERSECTHANDLER, ks/KStrIntersectHandler, ksfunc_25fa087e-9d66-4479-aa4c-632a63ee6779.xml, stream.kstrintersecthandler
 f1_keywords:
  - "ks/KStrIntersectHandler"
+ - "KStrIntersectHandler"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KStrIntersectHandler
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

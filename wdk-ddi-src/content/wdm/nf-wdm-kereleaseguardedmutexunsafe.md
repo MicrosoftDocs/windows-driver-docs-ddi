@@ -10,6 +10,7 @@ keywords: ["KeReleaseGuardedMutexUnsafe function"]
 ms.keywords: KeReleaseGuardedMutexUnsafe, KeReleaseGuardedMutexUnsafe routine [Kernel-Mode Driver Architecture], k105_645b087e-53ee-4434-ae8b-2bb801d1217e.xml, kernel.kereleaseguardedmutexunsafe, wdm/KeReleaseGuardedMutexUnsafe
 f1_keywords:
  - "wdm/KeReleaseGuardedMutexUnsafe"
+ - "KeReleaseGuardedMutexUnsafe"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeReleaseGuardedMutexUnsafe
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

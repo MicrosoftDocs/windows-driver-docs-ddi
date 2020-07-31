@@ -10,6 +10,7 @@ keywords: ["ExAllocatePoolWithQuota macro"]
 ms.keywords: ExAllocatePoolWithQuota, ExAllocatePoolWithQuota routine [Kernel-Mode Driver Architecture], k102_6f0151af-8673-4fde-a4ab-744cb25d660f.xml, kernel.exallocatepoolwithquota, wdm/ExAllocatePoolWithQuota
 f1_keywords:
  - "classpnp/ExAllocatePoolWithQuota"
+ - "ExAllocatePoolWithQuota"
 req.header: classpnp.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Classpnp.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - ExAllocatePoolWithQuota
-product:
-- Windows
 targetos: Windows
 req.typenames: POWERSOURCEUPDATEEX, *PPOWERSOURCEUPDATEEX
 ---

@@ -10,6 +10,7 @@ keywords: ["FsRtlTruncateLargeMcb function"]
 ms.keywords: FsRtlTruncateLargeMcb, FsRtlTruncateLargeMcb routine [Installable File System Drivers], fsrtlref_5399ea6f-c059-44a7-84f0-01a7eba2c40a.xml, ifsk.fsrtltruncatelargemcb, ntifs/FsRtlTruncateLargeMcb
 f1_keywords:
  - "ntifs/FsRtlTruncateLargeMcb"
+ - "FsRtlTruncateLargeMcb"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlTruncateLargeMcb
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 dev_langs:

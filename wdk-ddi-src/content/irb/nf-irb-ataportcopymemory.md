@@ -10,6 +10,7 @@ keywords: ["AtaPortCopyMemory function"]
 ms.keywords: AtaPortCopyMemory, AtaPortCopyMemory routine [Storage Devices], atartns_7aa7f4e2-4c74-403e-bbdf-795973a9846b.xml, irb/AtaPortCopyMemory, storage.ataportcopymemory
 f1_keywords:
  - "irb/AtaPortCopyMemory"
+ - "AtaPortCopyMemory"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
@@ -39,8 +40,6 @@ api_location:
 - pciidex.dll
 api_name:
 - AtaPortCopyMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

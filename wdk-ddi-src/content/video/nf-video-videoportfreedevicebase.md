@@ -10,6 +10,7 @@ keywords: ["VideoPortFreeDeviceBase function"]
 ms.keywords: VideoPortFreeDeviceBase, VideoPortFreeDeviceBase function [Display Devices], VideoPort_Functions_cdbada9a-c5be-48e3-90e7-9414a055350c.xml, display.videoportfreedevicebase, video/VideoPortFreeDeviceBase
 f1_keywords:
  - "video/VideoPortFreeDeviceBase"
+ - "VideoPortFreeDeviceBase"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Videoprt.sys
 api_name:
 - VideoPortFreeDeviceBase
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

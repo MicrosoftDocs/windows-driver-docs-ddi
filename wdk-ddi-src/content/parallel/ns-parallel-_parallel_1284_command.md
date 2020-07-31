@@ -10,6 +10,7 @@ keywords: ["_PARALLEL_1284_COMMAND structure"]
 ms.keywords: "*PPARALLEL_1284_COMMAND, PARALLEL_1284_COMMAND, PARALLEL_1284_COMMAND structure [Parallel Ports], PPARALLEL_1284_COMMAND, PPARALLEL_1284_COMMAND structure pointer [Parallel Ports], _PARALLEL_1284_COMMAND, cisspd_082268fb-79fd-46df-85a7-89dd56098ed0.xml, parallel/PARALLEL_1284_COMMAND, parallel/PPARALLEL_1284_COMMAND, parports.parallel_1284_command"
 f1_keywords:
  - "parallel/PARALLEL_1284_COMMAND"
+ - "PARALLEL_1284_COMMAND"
 req.header: parallel.h
 req.include-header: Parallel.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - parallel.h
 api_name:
 - PARALLEL_1284_COMMAND
-product:
-- Windows
 targetos: Windows
 req.typenames: PARALLEL_1284_COMMAND, *PPARALLEL_1284_COMMAND
 ---

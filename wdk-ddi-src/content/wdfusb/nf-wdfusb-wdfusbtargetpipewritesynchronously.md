@@ -10,6 +10,7 @@ keywords: ["WdfUsbTargetPipeWriteSynchronously function"]
 ms.keywords: DFUsbRef_9d78fb7e-eaf6-4d86-8376-4c68a1ab6ab9.xml, WdfUsbTargetPipeWriteSynchronously, WdfUsbTargetPipeWriteSynchronously method, kmdf.wdfusbtargetpipewritesynchronously, wdf.wdfusbtargetpipewritesynchronously, wdfusb/WdfUsbTargetPipeWriteSynchronously
 f1_keywords:
  - "wdfusb/WdfUsbTargetPipeWriteSynchronously"
+ - "WdfUsbTargetPipeWriteSynchronously"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfUsbTargetPipeWriteSynchronously
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["tagKS_AMVPDIMINFO structure"]
 ms.keywords: "*PKS_AMVPDIMINFO, KS_AMVPDIMINFO, KS_AMVPDIMINFO structure [Streaming Media Devices], PKS_AMVPDIMINFO, PKS_AMVPDIMINFO structure pointer [Streaming Media Devices], dvdref_4c6b6231-a3ef-49a5-8b27-c7ba0062c53a.xml, ksmedia/KS_AMVPDIMINFO, ksmedia/PKS_AMVPDIMINFO, stream.ks_amvpdiminfo, tagKS_AMVPDIMINFO"
 f1_keywords:
  - "ksmedia/KS_AMVPDIMINFO"
+ - "KS_AMVPDIMINFO"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KS_AMVPDIMINFO
-product:
-- Windows
 targetos: Windows
 req.typenames: KS_AMVPDIMINFO, *PKS_AMVPDIMINFO
 ---

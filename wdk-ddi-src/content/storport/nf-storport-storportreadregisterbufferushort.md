@@ -10,6 +10,7 @@ keywords: ["StorPortReadRegisterBufferUshort macro"]
 ms.keywords: StorPortReadRegisterBufferUshort, StorPortReadRegisterBufferUshort routine [Storage Devices], storage.storportreadregisterbufferushort, storport/StorPortReadRegisterBufferUshort, storprt_9ba740e5-78b0-464d-903c-6bb4c22788fd.xml
 f1_keywords:
  - "storport/StorPortReadRegisterBufferUshort"
+ - "StorPortReadRegisterBufferUshort"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Storport.dll
 api_name:
 - StorPortReadRegisterBufferUshort
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

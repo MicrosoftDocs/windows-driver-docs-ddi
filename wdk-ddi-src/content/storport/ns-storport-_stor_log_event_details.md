@@ -10,6 +10,7 @@ keywords: ["_STOR_LOG_EVENT_DETAILS structure"]
 ms.keywords: "*PSTOR_LOG_EVENT_DETAILS, PSTOR_LOG_EVENT_DETAILS, PSTOR_LOG_EVENT_DETAILS structure pointer [Storage Devices], STOR_LOG_EVENT_DETAILS, STOR_LOG_EVENT_DETAILS structure [Storage Devices], _STOR_LOG_EVENT_DETAILS, storage.stor_log_event_details, storport/PSTOR_LOG_EVENT_DETAILS, storport/STOR_LOG_EVENT_DETAILS, structs-storport_ba65fe62-1b9a-4234-b9a4-b145bf549699.xml"
 f1_keywords:
  - "storport/STOR_LOG_EVENT_DETAILS"
+ - "STOR_LOG_EVENT_DETAILS"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - storport.h
 api_name:
 - STOR_LOG_EVENT_DETAILS
-product:
-- Windows
 targetos: Windows
 req.typenames: STOR_LOG_EVENT_DETAILS, *PSTOR_LOG_EVENT_DETAILS
 ---

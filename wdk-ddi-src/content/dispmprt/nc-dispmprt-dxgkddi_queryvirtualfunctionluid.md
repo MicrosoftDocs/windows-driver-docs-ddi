@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DXGKDDI_QUERYVIRTUALFUNCTIONLUID callback function"]
 f1_keywords:
  - "dispmprt/DXGKDDI_QUERYVIRTUALFUNCTIONLUID"
+ - "DXGKDDI_QUERYVIRTUALFUNCTIONLUID"
 req.header: dispmprt.h
 req.include-header:
 req.target-type:

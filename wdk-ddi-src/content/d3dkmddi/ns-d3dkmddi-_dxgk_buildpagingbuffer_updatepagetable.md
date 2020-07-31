@@ -9,6 +9,7 @@ keywords: ["_DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE structure"]
 ms.keywords: DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE, DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE structure [Display Devices], _DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE, d3dkmddi/DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE, display.dxgk_buildpagingbuffer_updatepagetable
 f1_keywords:
  - "d3dkmddi/DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE"
+ - "DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE

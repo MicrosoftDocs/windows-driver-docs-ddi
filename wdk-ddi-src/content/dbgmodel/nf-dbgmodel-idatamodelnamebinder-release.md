@@ -7,6 +7,7 @@ ms.date: 09/12/2018
 keywords: ["IDataModelNameBinder::Release"]
 f1_keywords:
  - "dbgmodel/IDataModelNameBinder.Release"
+ - "IDataModelNameBinder.Release"
 ms.keywords: IDataModelNameBinder::Release, Release, IDataModelNameBinder.Release, IDataModelNameBinder::Release, IDataModelNameBinder.Release
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDataModelNameBinder.Release
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
@@ -47,7 +46,7 @@ ms.custom: RS5
 
 Decrements the reference count for an interface on an object. 
 
-For more information, see [IUnknown::Release](https://docs.microsoft.com/windows/desktop/api/Unknwn/nf-unknwn-iunknown-release) and [Introduction to COM](https://docs.microsoft.com/cpp/atl/introduction-to-com).
+For more information, see [IUnknown::Release](https://docs.microsoft.com/windows/win32/api/unknwn/nf-unknwn-iunknown-release) and [Introduction to COM](https://docs.microsoft.com/cpp/atl/introduction-to-com).
 
 
 ## -returns

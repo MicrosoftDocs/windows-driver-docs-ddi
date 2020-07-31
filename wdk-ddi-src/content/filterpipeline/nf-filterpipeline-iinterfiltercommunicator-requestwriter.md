@@ -10,6 +10,7 @@ keywords: ["IInterFilterCommunicator::RequestWriter"]
 ms.keywords: IInterFilterCommunicator interface [Print Devices],RequestWriter method, IInterFilterCommunicator.RequestWriter, IInterFilterCommunicator::RequestWriter, RequestWriter, RequestWriter method [Print Devices], RequestWriter method [Print Devices],IInterFilterCommunicator interface, filterpipeline/IInterFilterCommunicator::RequestWriter, filterpipeline_b2f3eac2-d759-45b4-818b-4d828c5aeedc.xml, print.iinterfiltercommunicator_requestwriter
 f1_keywords:
  - "filterpipeline/IInterFilterCommunicator.RequestWriter"
+ - "IInterFilterCommunicator.RequestWriter"
 req.header: filterpipeline.h
 req.include-header: Filterpipeline.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - filterpipeline.h
 api_name:
 - IInterFilterCommunicator.RequestWriter
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["_ScsiReportLuns_IN structure"]
 ms.keywords: "*PScsiReportLuns_IN, PScsiReportLuns_IN, PScsiReportLuns_IN structure pointer [Storage Devices], ScsiReportLuns_IN, ScsiReportLuns_IN structure [Storage Devices], _ScsiReportLuns_IN, hbapiwmi/PScsiReportLuns_IN, hbapiwmi/ScsiReportLuns_IN, storage.scsireportluns_in2, structs-Fibre_29218585-2d91-40f3-bbce-fb23df1e3df9.xml"
 f1_keywords:
  - "hbapiwmi/ScsiReportLuns_IN"
+ - "ScsiReportLuns_IN"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Hbapiwmi.h
 api_name:
 - ScsiReportLuns_IN
-product:
-- Windows
 targetos: Windows
 req.typenames: ScsiReportLuns_IN, *PScsiReportLuns_IN
 ---

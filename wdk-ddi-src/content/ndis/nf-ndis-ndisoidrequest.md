@@ -10,6 +10,7 @@ keywords: ["NdisOidRequest function"]
 ms.keywords: NdisOidRequest, NdisOidRequest function [Network Drivers Starting with Windows Vista], ndis/NdisOidRequest, ndis_request_ref_d60ed5b8-bcb7-4195-8767-618ab55f090b.xml, netvista.ndisoidrequest
 f1_keywords:
  - "ndis/NdisOidRequest"
+ - "NdisOidRequest"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisOidRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["KSPIN_CINSTANCES structure"]
 ms.keywords: "*PKSPIN_CINSTANCES, KSPIN_CINSTANCES, KSPIN_CINSTANCES structure [Streaming Media Devices], PKSPIN_CINSTANCES, PKSPIN_CINSTANCES structure pointer [Streaming Media Devices], ks/KSPIN_CINSTANCES, ks/PKSPIN_CINSTANCES, stream.kspin_cinstances"
 f1_keywords:
  - "ks/KSPIN_CINSTANCES"
+ - "KSPIN_CINSTANCES"
 req.header: ks.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ks.h
 api_name:
 - KSPIN_CINSTANCES
-product:
-- Windows
 targetos: Windows
 req.typenames: KSPIN_CINSTANCES, *PKSPIN_CINSTANCES
 ---

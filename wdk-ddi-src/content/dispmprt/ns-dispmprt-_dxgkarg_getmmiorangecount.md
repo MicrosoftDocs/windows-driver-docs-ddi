@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_DXGKARG_GETMMIORANGECOUNT structure"]
 f1_keywords:
  - "dispmprt/_DXGKARG_GETMMIORANGECOUNT"
+ - "_DXGKARG_GETMMIORANGECOUNT"
 ms.keywords: _DXGKARG_GETMMIORANGECOUNT, DXGKARG_GETMMIORANGECOUNT, *PDXGKARG_GETMMIORANGECOUNT, 
 req.header: dispmprt.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - dispmprt.h
 api_name: 
 - _DXGKARG_GETMMIORANGECOUNT
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

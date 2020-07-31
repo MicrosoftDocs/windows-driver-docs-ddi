@@ -10,6 +10,7 @@ keywords: ["ObReferenceObject macro"]
 ms.keywords: ObReferenceObject, ObReferenceObject routine [Kernel-Mode Driver Architecture], ObfReferenceObject, k107_97bb0a8c-e445-484c-959a-03f1c41ab3fe.xml, kernel.obreferenceobject, wdm/ObReferenceObject, wdm/ObfReferenceObject
 f1_keywords:
  - "wdm/ObReferenceObject"
+ - "ObReferenceObject"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - ObReferenceObject
 - ObfReferenceObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

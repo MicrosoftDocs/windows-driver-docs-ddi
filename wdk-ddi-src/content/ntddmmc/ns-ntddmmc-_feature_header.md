@@ -10,6 +10,7 @@ keywords: ["_FEATURE_HEADER structure"]
 ms.keywords: "*PFEATURE_HEADER, FEATURE_HEADER, FEATURE_HEADER structure [Storage Devices], PFEATURE_HEADER, PFEATURE_HEADER structure pointer [Storage Devices], _FEATURE_HEADER, ntddmmc/FEATURE_HEADER, ntddmmc/PFEATURE_HEADER, storage.feature_header, structs-CD-ROM_41d7886f-d383-4416-8f89-b40f1bb0bc7f.xml"
 f1_keywords:
  - "ntddmmc/FEATURE_HEADER"
+ - "FEATURE_HEADER"
 req.header: ntddmmc.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddmmc.h
 api_name:
 - FEATURE_HEADER
-product:
-- Windows
 targetos: Windows
 req.typenames: FEATURE_HEADER, *PFEATURE_HEADER
 ---

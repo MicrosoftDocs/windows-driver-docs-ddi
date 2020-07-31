@@ -7,6 +7,7 @@ ms.date: 09/20/2018
 keywords: ["IDebugHostType2::GetBitField"]
 f1_keywords:
  - "dbgmodel/IDebugHostType2.GetBitField"
+ - "IDebugHostType2.GetBitField"
 ms.keywords: IDebugHostType2::GetBitField, GetBitField, IDebugHostType2.GetBitField, IDebugHostType2::GetBitField, IDebugHostType2.GetBitField
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostType2.GetBitField
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

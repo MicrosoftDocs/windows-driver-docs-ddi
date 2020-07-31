@@ -10,6 +10,7 @@ keywords: ["_T1_DATA structure"]
 ms.keywords: "*PT1_DATA, T1_DATA, T1_DATA structure [Smart Card Reader Devices], T1_DATA,*PT1_DATA, T1_DATA,*PT1_DATA structure [Smart Card Reader Devices], _T1_DATA, scstruct_d4b3fe1d-28d8-45dc-86f1-2cb75a5bec85.xml, smartcrd.t1_data, smclib/T1_DATA"
 f1_keywords:
  - "smclib/T1_DATA, *PT1_DATA"
+ - "T1_DATA, *PT1_DATA"
 req.header: smclib.h
 req.include-header: Smclib.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Smclib.h
 api_name:
 - T1_DATA, *PT1_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: T1_DATA, *PT1_DATA
 ---

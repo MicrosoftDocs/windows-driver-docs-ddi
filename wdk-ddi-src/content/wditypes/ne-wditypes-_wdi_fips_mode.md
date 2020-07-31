@@ -10,6 +10,7 @@ keywords: ["_WDI_FIPS_MODE enumeration"]
 ms.keywords: WDI_FIPS_MODE, WDI_FIPS_MODE enumeration [Network Drivers Starting with Windows Vista], WDI_FIPS_MODE_DISABLED, WDI_FIPS_MODE_ENABLED, WDI_FIPS_MODE_UNKNOWN, _WDI_FIPS_MODE, netvista.wdi_fips_mode, wditypes/WDI_FIPS_MODE, wditypes/WDI_FIPS_MODE_DISABLED, wditypes/WDI_FIPS_MODE_ENABLED, wditypes/WDI_FIPS_MODE_UNKNOWN
 f1_keywords:
  - "wditypes/WDI_FIPS_MODE"
+ - "WDI_FIPS_MODE"
 req.header: wditypes.hpp
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wditypes.hpp
 api_name:
 - WDI_FIPS_MODE
-product:
-- Windows
 targetos: Windows
 req.typenames: WDI_FIPS_MODE
 ---

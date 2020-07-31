@@ -10,6 +10,7 @@ keywords: ["IDebugControl4::OutputVaListWide"]
 ms.keywords: IDebugControl4 interface [Windows Debugging],OutputVaListWide method, IDebugControl4.OutputVaListWide, IDebugControl4::OutputVaListWide, OutputVaListWide, OutputVaListWide method [Windows Debugging], OutputVaListWide method [Windows Debugging],IDebugControl4 interface, dbgeng/IDebugControl4::OutputVaListWide, debugger.outputvalistwide
 f1_keywords:
  - "dbgeng/IDebugControl4.OutputVaListWide"
+ - "IDebugControl4.OutputVaListWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h, Stdarg.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugControl4.OutputVaListWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

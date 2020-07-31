@@ -10,6 +10,7 @@ keywords: ["WdfIoTargetWdmGetTargetFileHandle function"]
 ms.keywords: DFIOTargetRef_a3147001-4aa4-4fc2-8000-c6b1fcc4e972.xml, WdfIoTargetWdmGetTargetFileHandle, WdfIoTargetWdmGetTargetFileHandle method, kmdf.wdfiotargetwdmgettargetfilehandle, wdf.wdfiotargetwdmgettargetfilehandle, wdfiotarget/WdfIoTargetWdmGetTargetFileHandle
 f1_keywords:
  - "wdfiotarget/WdfIoTargetWdmGetTargetFileHandle"
+ - "WdfIoTargetWdmGetTargetFileHandle"
 req.header: wdfiotarget.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfIoTargetWdmGetTargetFileHandle
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

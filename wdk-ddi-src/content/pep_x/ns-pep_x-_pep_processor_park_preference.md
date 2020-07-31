@@ -10,6 +10,7 @@ keywords: ["_PEP_PROCESSOR_PARK_PREFERENCE structure"]
 ms.keywords: "*PPEP_PROCESSOR_PARK_PREFERENCE, PEP_PROCESSOR_PARK_PREFERENCE, PEP_PROCESSOR_PARK_PREFERENCE structure [Kernel-Mode Driver Architecture], PPEP_PROCESSOR_PARK_PREFERENCE, PPEP_PROCESSOR_PARK_PREFERENCE structure pointer [Kernel-Mode Driver Architecture], _PEP_PROCESSOR_PARK_PREFERENCE, kernel.pep_processor_park_preference, pepfx/PEP_PROCESSOR_PARK_PREFERENCE, pepfx/PPEP_PROCESSOR_PARK_PREFERENCE"
 f1_keywords:
  - "pep_x/PEP_PROCESSOR_PARK_PREFERENCE"
+ - "PEP_PROCESSOR_PARK_PREFERENCE"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - PEP_PROCESSOR_PARK_PREFERENCE
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_PROCESSOR_PARK_PREFERENCE, *PPEP_PROCESSOR_PARK_PREFERENCE
 ---

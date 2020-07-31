@@ -10,6 +10,7 @@ keywords: ["RtlCheckBit macro"]
 ms.keywords: RtlCheckBit, RtlCheckBit routine [Kernel-Mode Driver Architecture], k109_1f4676c1-d031-4a2c-8d74-afa9d3a0ed10.xml, kernel.rtlcheckbit, wdm/RtlCheckBit
 f1_keywords:
  - "wdm/RtlCheckBit"
+ - "RtlCheckBit"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - RtlCheckBit
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -7,6 +7,7 @@ ms.date: 09/28/2018
 keywords: ["IDebugHostMemory2::ReadPointers"]
 f1_keywords:
  - "dbgmodel/IDebugHostMemory2.ReadPointers"
+ - "IDebugHostMemory2.ReadPointers"
 ms.keywords: IDebugHostMemory2::ReadPointers, ReadPointers, IDebugHostMemory2.ReadPointers, IDebugHostMemory2::ReadPointers, IDebugHostMemory2.ReadPointers
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostMemory2.ReadPointers
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

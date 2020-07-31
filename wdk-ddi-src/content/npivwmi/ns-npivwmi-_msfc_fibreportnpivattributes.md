@@ -10,6 +10,7 @@ keywords: ["_MSFC_FibrePortNPIVAttributes structure"]
 ms.keywords: "*PMSFC_FibrePortNPIVAttributes, MSFC_FibrePortNPIVAttributes, MSFC_FibrePortNPIVAttributes structure [Storage Devices], PMSFC_FibrePortNPIVAttributes, PMSFC_FibrePortNPIVAttributes structure pointer [Storage Devices], _MSFC_FibrePortNPIVAttributes, npivwmi/MSFC_FibrePortNPIVAttributes, npivwmi/PMSFC_FibrePortNPIVAttributes, storage.msfc_fibreportnpivattributes"
 f1_keywords:
  - "npivwmi/MSFC_FibrePortNPIVAttributes"
+ - "MSFC_FibrePortNPIVAttributes"
 req.header: npivwmi.h
 req.include-header: Npivwmi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - npivwmi.h
 api_name:
 - MSFC_FibrePortNPIVAttributes
-product:
-- Windows
 targetos: Windows
 req.typenames: MSFC_FibrePortNPIVAttributes, *PMSFC_FibrePortNPIVAttributes
 ---

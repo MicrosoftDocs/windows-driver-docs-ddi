@@ -10,6 +10,7 @@ keywords: ["NDIS_TCP_OFFLOAD_RECEIVE_COMPLETE callback function"]
 ms.keywords: NDIS_TCP_OFFLOAD_RECEIVE_COMPLETE, NDIS_TCP_OFFLOAD_RECEIVE_COMPLETE callback, NdisTcpOffloadReceiveComplete, NdisTcpOffloadReceiveComplete callback function [Network Drivers Starting with Windows Vista], ndischimney/NdisTcpOffloadReceiveComplete, netvista.ndistcpoffloadreceivecomplete, tcp_chim_ndis_func_7d17cfb0-d83a-42e2-9ac8-042bf1964991.xml
 f1_keywords:
  - "ndischimney/NdisTcpOffloadReceiveComplete"
+ - "NdisTcpOffloadReceiveComplete"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - ndischimney.h
 api_name:
 - NdisTcpOffloadReceiveComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

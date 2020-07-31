@@ -10,6 +10,7 @@ keywords: ["IDebugSymbolGroup2::GetSymbolRegister"]
 ms.keywords: ComOther_9383fee9-ec27-4ccb-8768-02bd550746d7.xml, GetSymbolRegister, GetSymbolRegister method [Windows Debugging], GetSymbolRegister method [Windows Debugging],IDebugSymbolGroup2 interface, IDebugSymbolGroup2 interface [Windows Debugging],GetSymbolRegister method, IDebugSymbolGroup2.GetSymbolRegister, IDebugSymbolGroup2::GetSymbolRegister, dbgeng/IDebugSymbolGroup2::GetSymbolRegister, debugger.getsymbolregister
 f1_keywords:
  - "dbgeng/IDebugSymbolGroup2.GetSymbolRegister"
+ - "IDebugSymbolGroup2.GetSymbolRegister"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugSymbolGroup2.GetSymbolRegister
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

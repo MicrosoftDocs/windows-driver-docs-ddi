@@ -9,6 +9,7 @@ keywords: ["PFND3D10DDI_DESTROYSHADER callback function"]
 ms.keywords: DestroyShader, DestroyShader callback function [Display Devices], PFND3D10DDI_DESTROYSHADER, PFND3D10DDI_DESTROYSHADER callback, UserModeDisplayDriverDx10_Functions_798387e4-b7c1-4b03-bef7-1dad6931b432.xml, d3d10umddi/DestroyShader, display.destroyshader
 f1_keywords:
  - "d3d10umddi/DestroyShader"
+ - "DestroyShader"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - DestroyShader
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

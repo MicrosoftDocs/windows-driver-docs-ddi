@@ -10,6 +10,7 @@ keywords: ["PCAM_ALLOCATE_BW_ROUTINE callback function"]
 ms.keywords: CamAllocateBandwidth, CamAllocateBandwidth callback function [Streaming Media Devices], PCAM_ALLOCATE_BW_ROUTINE, PCAM_ALLOCATE_BW_ROUTINE callback, stream.camallocatebandwidth, usbcamdi/CamAllocateBandwidth, usbcmdpr_4e7b22dc-0f6d-4a9b-82df-61c14cae981b.xml
 f1_keywords:
  - "usbcamdi/CamAllocateBandwidth"
+ - "CamAllocateBandwidth"
 req.header: usbcamdi.h
 req.include-header: Usbcamdi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - usbcamdi.h
 api_name:
 - CamAllocateBandwidth
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["ClfsLsnCreate function"]
 ms.keywords: ClfsLsnCreate, ClfsLsnCreate routine [Kernel-Mode Driver Architecture], Clfs_5eea5630-3db0-45bb-8e16-c9e69081f972.xml, kernel.clfslsncreate, wdm/ClfsLsnCreate
 f1_keywords:
  - "wdm/ClfsLsnCreate"
+ - "ClfsLsnCreate"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
 - ClfsLsnCreate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

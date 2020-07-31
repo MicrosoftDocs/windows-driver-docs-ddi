@@ -10,6 +10,7 @@ keywords: ["WdfDeviceGetDevicePowerState function"]
 ms.keywords: DFDeviceObjectGeneralRef_40013978-2c8d-4776-b218-5f0c743e57e9.xml, WdfDeviceGetDevicePowerState, WdfDeviceGetDevicePowerState method, kmdf.wdfdevicegetdevicepowerstate, wdf.wdfdevicegetdevicepowerstate, wdfdevice/WdfDeviceGetDevicePowerState
 f1_keywords:
  - "wdfdevice/WdfDeviceGetDevicePowerState"
+ - "WdfDeviceGetDevicePowerState"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfDeviceGetDevicePowerState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

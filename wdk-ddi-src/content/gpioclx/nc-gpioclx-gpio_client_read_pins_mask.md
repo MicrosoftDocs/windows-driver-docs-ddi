@@ -10,6 +10,7 @@ keywords: ["GPIO_CLIENT_READ_PINS_MASK callback function"]
 ms.keywords: CLIENT_ReadGpioPinsUsingMask, CLIENT_ReadGpioPinsUsingMask callback, CLIENT_ReadGpioPinsUsingMask callback function [Parallel Ports], GPIO.client_readgpiopinsusingmask, GPIO_CLIENT_READ_PINS_MASK, gpioclx/CLIENT_ReadGpioPinsUsingMask
 f1_keywords:
  - "gpioclx/CLIENT_ReadGpioPinsUsingMask"
+ - "CLIENT_ReadGpioPinsUsingMask"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Gpioclx.h
 api_name:
 - CLIENT_ReadGpioPinsUsingMask
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

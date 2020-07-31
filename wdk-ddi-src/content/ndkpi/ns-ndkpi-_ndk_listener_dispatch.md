@@ -10,6 +10,7 @@ keywords: ["_NDK_LISTENER_DISPATCH structure"]
 ms.keywords: NDK_LISTENER_DISPATCH, NDK_LISTENER_DISPATCH structure [Network Drivers Starting with Windows Vista], PNDK_LISTENER_DISPATCH, PNDK_LISTENER_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], _NDK_LISTENER_DISPATCH, ndkpi/NDK_LISTENER_DISPATCH, ndkpi/PNDK_LISTENER_DISPATCH, netvista.ndk_listener_dispatch
 f1_keywords:
  - "ndkpi/NDK_LISTENER_DISPATCH"
+ - "NDK_LISTENER_DISPATCH"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ndkpi.h
 api_name:
 - NDK_LISTENER_DISPATCH
-product:
-- Windows
 targetos: Windows
 req.typenames: NDK_LISTENER_DISPATCH
 ---

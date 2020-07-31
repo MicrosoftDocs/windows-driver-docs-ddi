@@ -10,6 +10,7 @@ keywords: ["IO_DPC_ROUTINE callback function"]
 ms.keywords: DpcForIsr, DpcForIsr routine [Kernel-Mode Driver Architecture], DrvrRtns_2d3825cf-0f9b-4698-9deb-e9fe5757fb9c.xml, IO_DPC_ROUTINE, kernel.dpcforisr, wdm/DpcForIsr
 f1_keywords:
  - "wdm/DpcForIsr"
+ - "DpcForIsr"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - DpcForIsr
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

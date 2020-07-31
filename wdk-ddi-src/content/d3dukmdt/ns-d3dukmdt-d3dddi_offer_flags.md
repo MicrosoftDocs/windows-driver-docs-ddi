@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3DDDI_OFFER_FLAGS structure"]
 f1_keywords:
  - "d3dukmdt/D3DDDI_OFFER_FLAGS"
+ - "D3DDDI_OFFER_FLAGS"
 ms.keywords: D3DDDI_OFFER_FLAGS, D3DDDI_OFFER_FLAGS, 
 req.header: d3dukmdt.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - d3dukmdt.h
 api_name: 
 - D3DDDI_OFFER_FLAGS
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

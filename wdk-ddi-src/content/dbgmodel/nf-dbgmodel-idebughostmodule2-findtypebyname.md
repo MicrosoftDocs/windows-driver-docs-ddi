@@ -7,6 +7,7 @@ ms.date: 09/18/2018
 keywords: ["IDebugHostModule2::FindTypeByName"]
 f1_keywords:
  - "dbgmodel/IDebugHostModule2.FindTypeByName"
+ - "IDebugHostModule2.FindTypeByName"
 ms.keywords: IDebugHostModule2::FindTypeByName, FindTypeByName, IDebugHostModule2.FindTypeByName, IDebugHostModule2::FindTypeByName, IDebugHostModule2.FindTypeByName
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostModule2.FindTypeByName
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

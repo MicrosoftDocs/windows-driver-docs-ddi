@@ -10,6 +10,7 @@ keywords: ["_WDF_IO_QUEUE_STATE enumeration"]
 ms.keywords: "*PWDF_IO_QUEUE_STATE, WDF_IO_QUEUE_STATE, WDF_IO_QUEUE_STATE enumeration, WdfIoQueueAcceptRequests, WdfIoQueueDispatchRequests, WdfIoQueueDriverNoRequests, WdfIoQueueNoRequests, WdfIoQueuePnpHeld, _WDF_IO_QUEUE_STATE, umdf.wdf_io_queue_state, umdfstructs_b0fa52c7-c536-43d3-b9a7-f63977ccb619.xml, wdf.wdf_io_queue_state_umdf, wudfddi/WDF_IO_QUEUE_STATE, wudfddi/WdfIoQueueAcceptRequests, wudfddi/WdfIoQueueDispatchRequests, wudfddi/WdfIoQueueDriverNoRequests, wudfddi/WdfIoQueueNoRequests, wudfddi/WdfIoQueuePnpHeld"
 f1_keywords:
  - "wudfddi_types/WDF_IO_QUEUE_STATE"
+ - "WDF_IO_QUEUE_STATE"
 req.header: wudfddi_types.h
 req.include-header: Wudfddi_types.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wudfddi.h
 api_name:
 - WDF_IO_QUEUE_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_IO_QUEUE_STATE, *PWDF_IO_QUEUE_STATE
 ---

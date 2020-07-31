@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::GetSourceFileLineOffsetsWide"]
 ms.keywords: GetSourceFileLineOffsetsWide, GetSourceFileLineOffsetsWide method [Windows Debugging], GetSourceFileLineOffsetsWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSourceFileLineOffsetsWide method, IDebugSymbols3.GetSourceFileLineOffsetsWide, IDebugSymbols3::GetSourceFileLineOffsetsWide, dbgeng/IDebugSymbols3::GetSourceFileLineOffsetsWide, debugger.getsourcefilelineoffsetswide
 f1_keywords:
  - "dbgeng/IDebugSymbols3.GetSourceFileLineOffsetsWide"
+ - "IDebugSymbols3.GetSourceFileLineOffsetsWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugSymbols3.GetSourceFileLineOffsetsWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

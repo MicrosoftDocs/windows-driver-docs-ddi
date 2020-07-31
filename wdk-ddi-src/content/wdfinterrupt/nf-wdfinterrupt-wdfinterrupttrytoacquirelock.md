@@ -10,6 +10,7 @@ keywords: ["WdfInterruptTryToAcquireLock function"]
 ms.keywords: WdfInterruptTryToAcquireLock, WdfInterruptTryToAcquireLock method, kmdf.wdfinterrupttrytoacquirelock, wdf.wdfinterrupttrytoacquirelock, wdfinterrupt/WdfInterruptTryToAcquireLock
 f1_keywords:
  - "wdfinterrupt/WdfInterruptTryToAcquireLock"
+ - "WdfInterruptTryToAcquireLock"
 req.header: wdfinterrupt.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfInterruptTryToAcquireLock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

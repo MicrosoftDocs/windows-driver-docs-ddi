@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3DDDI_HDR_METADATA_HDR10PLUS structure"]
 f1_keywords:
  - "d3dukmdt/D3DDDI_HDR_METADATA_HDR10PLUS"
+ - "D3DDDI_HDR_METADATA_HDR10PLUS"
 ms.keywords: D3DDDI_HDR_METADATA_HDR10PLUS, D3DDDI_HDR_METADATA_HDR10PLUS,
 req.header: d3dukmdt.h
 req.include-header:

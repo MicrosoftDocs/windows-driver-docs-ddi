@@ -10,6 +10,7 @@ keywords: ["_SERCX_STATUS enumeration"]
 ms.keywords: "*PSERCX_STATUS, 1/SERCX_STATUS, 1/SerCxStatusCancelled, 1/SerCxStatusSuccess, 1/SerCxStatusTimeout, SERCX_STATUS, SERCX_STATUS enumeration [Serial Ports], SerCxStatusCancelled, SerCxStatusSuccess, SerCxStatusTimeout, _SERCX_STATUS, serports.sercx_status"
 f1_keywords:
  - "sercx/SERCX_STATUS"
+ - "SERCX_STATUS"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - 1.0\Sercx.h
 api_name:
 - SERCX_STATUS
-product:
-- Windows
 targetos: Windows
 req.typenames: SERCX_STATUS, *PSERCX_STATUS
 ---

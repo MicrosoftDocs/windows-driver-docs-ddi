@@ -10,6 +10,7 @@ keywords: ["_DXVA_EncryptProtocolHeader structure"]
 ms.keywords: "*LPDXVA_EncryptProtocolHeader, DXVA_EncryptProtocolHeader, DXVA_EncryptProtocolHeader structure [Display Devices], LPDXVA_EncryptProtocolHeader, LPDXVA_EncryptProtocolHeader structure pointer [Display Devices], _DXVA_EncryptProtocolHeader, display.dxva_encryptprotocolheader, dxva/DXVA_EncryptProtocolHeader, dxva/LPDXVA_EncryptProtocolHeader, dxvaref_19bd4a66-c03f-44c3-98b6-875da968fa50.xml"
 f1_keywords:
  - "dxva/DXVA_EncryptProtocolHeader"
+ - "DXVA_EncryptProtocolHeader"
 req.header: dxva.h
 req.include-header: Dxva.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dxva.h
 api_name:
 - DXVA_EncryptProtocolHeader
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVA_EncryptProtocolHeader, *LPDXVA_EncryptProtocolHeader
 ---

@@ -10,6 +10,7 @@ keywords: ["SerCxGetReadIntervalTimeout function"]
 ms.keywords: 1/SerCxGetReadIntervalTimeout, SerCxGetReadIntervalTimeout, SerCxGetReadIntervalTimeout method [Serial Ports], serports.sercxgetreadintervaltimeout
 f1_keywords:
  - "sercx/SerCxGetReadIntervalTimeout"
+ - "SerCxGetReadIntervalTimeout"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - 1.0\Sercx.h
 api_name:
 - SerCxGetReadIntervalTimeout
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

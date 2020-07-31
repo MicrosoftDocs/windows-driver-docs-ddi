@@ -10,6 +10,7 @@ keywords: ["KSEVENT_SET structure"]
 ms.keywords: "*PKSEVENT_SET, KSEVENT_SET, KSEVENT_SET structure [Streaming Media Devices], PKSEVENT_SET, PKSEVENT_SET structure pointer [Streaming Media Devices], ks-struct_f3a678ec-93b4-4b60-959a-ca750b4ac4c2.xml, ks/KSEVENT_SET, ks/PKSEVENT_SET, stream.ksevent_set"
 f1_keywords:
  - "ks/KSEVENT_SET"
+ - "KSEVENT_SET"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KSEVENT_SET
-product:
-- Windows
 targetos: Windows
 req.typenames: KSEVENT_SET, *PKSEVENT_SET
 ---

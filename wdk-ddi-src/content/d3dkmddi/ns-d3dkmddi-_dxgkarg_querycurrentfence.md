@@ -9,6 +9,7 @@ keywords: ["_DXGKARG_QUERYCURRENTFENCE structure"]
 ms.keywords: "*INOUT_PDXGKARG_QUERYCURRENTFENCE, DXGKARG_QUERYCURRENTFENCE, DXGKARG_QUERYCURRENTFENCE structure [Display Devices], DmStructs_799a15e5-b780-43c4-a0c2-d97e3c91caec.xml, _DXGKARG_QUERYCURRENTFENCE, d3dkmddi/DXGKARG_QUERYCURRENTFENCE, display.dxgkarg_querycurrentfence"
 f1_keywords:
  - "d3dkmddi/DXGKARG_QUERYCURRENTFENCE"
+ - "DXGKARG_QUERYCURRENTFENCE"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGKARG_QUERYCURRENTFENCE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGKARG_QUERYCURRENTFENCE

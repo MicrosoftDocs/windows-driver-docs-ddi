@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_DXGKARG_SETTARGETADJUSTEDCOLORIMETRY2 structure"]
 f1_keywords:
  - "dispmprt/_DXGKARG_SETTARGETADJUSTEDCOLORIMETRY2"
+ - "_DXGKARG_SETTARGETADJUSTEDCOLORIMETRY2"
 ms.keywords: _DXGKARG_SETTARGETADJUSTEDCOLORIMETRY2, DXGKARG_SETTARGETADJUSTEDCOLORIMETRY2, *PDXGKARG_SETTARGETADJUSTEDCOLORIMETRY2, 
 req.header: dispmprt.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - dispmprt.h
 api_name: 
 - _DXGKARG_SETTARGETADJUSTEDCOLORIMETRY2
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

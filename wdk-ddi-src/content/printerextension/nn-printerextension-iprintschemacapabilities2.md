@@ -10,6 +10,7 @@ keywords: ["IPrintSchemaCapabilities2 interface"]
 ms.keywords: IPrintSchemaCapabilities2, IPrintSchemaCapabilities2 interface [Print Devices], IPrintSchemaCapabilities2 interface [Print Devices],described, print.iprintschemacapabilities2, printerextension/IPrintSchemaCapabilities2
 f1_keywords:
  - "printerextension/IPrintSchemaCapabilities2"
+ - "IPrintSchemaCapabilities2"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Printerextension.h
 api_name:
 - IPrintSchemaCapabilities2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

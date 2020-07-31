@@ -10,6 +10,7 @@ keywords: ["RILMSGSERVICEINFO structure"]
 ms.keywords: "*LPRILMSGSERVICEINFO, RILMSGSERVICEINFO, RILMSGSERVICEINFO structure [Network Drivers Starting with Windows Vista], netvista.rilmsgserviceinfo, ntddrilapitypes/RILMSGSERVICEINFO"
 f1_keywords:
  - "rilapitypes/RILMSGSERVICEINFO"
+ - "RILMSGSERVICEINFO"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILMSGSERVICEINFO
-product:
-- Windows
 targetos: Windows
 req.typenames: RILMSGSERVICEINFO, *LPRILMSGSERVICEINFO
 ---

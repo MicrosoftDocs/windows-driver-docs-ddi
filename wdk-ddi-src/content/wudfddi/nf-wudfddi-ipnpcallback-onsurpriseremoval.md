@@ -10,6 +10,7 @@ keywords: ["IPnpCallback::OnSurpriseRemoval"]
 ms.keywords: IPnpCallback interface,OnSurpriseRemoval method, IPnpCallback.OnSurpriseRemoval, IPnpCallback::OnSurpriseRemoval, OnSurpriseRemoval, OnSurpriseRemoval method, OnSurpriseRemoval method,IPnpCallback interface, UMDFDeviceObjectRef_92f0661b-48a5-4d85-9bcf-f763c38b08ed.xml, umdf.ipnpcallback_onsurpriseremoval, wdf.ipnpcallback_onsurpriseremoval, wudfddi/IPnpCallback::OnSurpriseRemoval
 f1_keywords:
  - "wudfddi/IPnpCallback.OnSurpriseRemoval"
+ - "IPnpCallback.OnSurpriseRemoval"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wudfddi.h
 api_name:
 - IPnpCallback.OnSurpriseRemoval
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

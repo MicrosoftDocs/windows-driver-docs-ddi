@@ -10,6 +10,7 @@ keywords: ["KeReadStateSemaphore function"]
 ms.keywords: KeReadStateSemaphore, KeReadStateSemaphore routine [Kernel-Mode Driver Architecture], k105_cc608a62-f747-4d8c-a4f8-b6df51a4d5dd.xml, kernel.kereadstatesemaphore, wdm/KeReadStateSemaphore
 f1_keywords:
  - "wdm/KeReadStateSemaphore"
+ - "KeReadStateSemaphore"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeReadStateSemaphore
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

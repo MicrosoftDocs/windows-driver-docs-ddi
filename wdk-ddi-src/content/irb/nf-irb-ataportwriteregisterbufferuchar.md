@@ -10,6 +10,7 @@ keywords: ["AtaPortWriteRegisterBufferUchar function"]
 ms.keywords: AtaPortWriteRegisterBufferUchar, AtaPortWriteRegisterBufferUchar routine [Storage Devices], atartns_6722ff8e-9f8c-4b6a-88d1-305f892250bd.xml, irb/AtaPortWriteRegisterBufferUchar, storage.ataportwriteregisterbufferuchar
 f1_keywords:
  - "irb/AtaPortWriteRegisterBufferUchar"
+ - "AtaPortWriteRegisterBufferUchar"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
@@ -39,8 +40,6 @@ api_location:
 - pciidex.dll
 api_name:
 - AtaPortWriteRegisterBufferUchar
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

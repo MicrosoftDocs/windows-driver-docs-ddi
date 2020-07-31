@@ -8,6 +8,7 @@ ms.date: 04/13/2018
 keywords: ["NdisSetNetBufferListProtocolId macro"]
 f1_keywords:
  - "ndis/NdisSetNetBufferListProtocolId"
+ - "NdisSetNetBufferListProtocolId"
 ms.keywords: NdisSetNetBufferListProtocolId
 req.header: ndis.h
 req.include-header:
@@ -34,8 +35,6 @@ api_location:
 - ndis.h
 api_name: 
 - NdisSetNetBufferListProtocolId
-product:
-- Windows
 targetos: Windows
 
 ---

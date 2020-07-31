@@ -10,6 +10,7 @@ keywords: ["ExtRemoteTyped::ExtRemoteTyped(PCSTR,ULONG64)"]
 ms.keywords: ExtRemoteTyped, ExtRemoteTyped class [Windows Debugging],ExtRemoteTyped constructor, ExtRemoteTyped constructor [Windows Debugging], ExtRemoteTyped constructor [Windows Debugging],ExtRemoteTyped class, ExtRemoteTyped.ExtRemoteTyped, ExtRemoteTyped.ExtRemoteTyped(PCSTR,ULONG64), ExtRemoteTyped::ExtRemoteTyped, ExtRemoteTyped::ExtRemoteTyped(PCSTR,ULONG64), debugger.extremotetyped_extremotetyped_pcstr_ulong64
 f1_keywords:
  - "engextcpp/ExtRemoteTyped.ExtRemoteTyped"
+ - "ExtRemoteTyped.ExtRemoteTyped"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - engextcpp.hpp
 api_name:
 - ExtRemoteTyped.ExtRemoteTyped
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

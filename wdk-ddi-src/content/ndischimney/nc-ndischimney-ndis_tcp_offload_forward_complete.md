@@ -10,6 +10,7 @@ keywords: ["NDIS_TCP_OFFLOAD_FORWARD_COMPLETE callback function"]
 ms.keywords: NDIS_TCP_OFFLOAD_FORWARD_COMPLETE, NDIS_TCP_OFFLOAD_FORWARD_COMPLETE callback, NdisTcpOffloadForwardComplete, NdisTcpOffloadForwardComplete callback function [Network Drivers Starting with Windows Vista], ndischimney/NdisTcpOffloadForwardComplete, netvista.ndistcpoffloadforwardcomplete, tcp_chim_ndis_func_a6483879-a4ae-49e0-859f-51a66070566d.xml
 f1_keywords:
  - "ndischimney/NdisTcpOffloadForwardComplete"
+ - "NdisTcpOffloadForwardComplete"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - ndischimney.h
 api_name:
 - NdisTcpOffloadForwardComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

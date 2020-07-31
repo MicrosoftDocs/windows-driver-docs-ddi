@@ -8,6 +8,7 @@ keywords: ["GetPerformanceTime function"]
 tech.root: sensors
 f1_keywords:
  - "sensorsutils/GetPerformanceTime"
+ - "GetPerformanceTime"
 ms.keywords: GetPerformanceTime
 req.header: sensorsutils.h
 req.include-header:
@@ -34,8 +35,6 @@ api_location:
 - sensorsutils.h
 api_name: 
 - GetPerformanceTime
-product:
-- Windows
 targetos: Windows
 
 

@@ -8,6 +8,7 @@ ms.date: 08/23/2019
 keywords: ["DeviceDsmGetInputLength function"]
 f1_keywords:
  - "ntddstor/DeviceDsmGetInputLength"
+ - "DeviceDsmGetInputLength"
 ms.keywords: DeviceDsmGetInputLength
 req.header: ntddstor.h
 req.include-header:
@@ -34,8 +35,6 @@ api_location:
 - NtosKrnl.exe
 api_name: 
 - DeviceDsmGetInputLength
-product:
-- Windows
 targetos: Windows
 
 ---

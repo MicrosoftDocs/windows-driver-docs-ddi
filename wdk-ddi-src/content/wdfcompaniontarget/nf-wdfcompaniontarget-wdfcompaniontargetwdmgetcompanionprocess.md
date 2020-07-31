@@ -10,6 +10,7 @@ keywords: ["WdfCompanionTargetWdmGetCompanionProcess function"]
 ms.keywords: WdfCompanionTargetWdmGetCompanionProcess, WdfCompanionTargetWdmGetCompanionProcess method, wdf.wdfcompaniontargetwdmgetcompanionprocess, wdfcompaniontarget/WdfCompanionTargetWdmGetCompanionProcess
 f1_keywords:
  - "wdfcompaniontarget/WdfCompanionTargetWdmGetCompanionProcess"
+ - "WdfCompanionTargetWdmGetCompanionProcess"
 req.header: wdfcompaniontarget.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wdfcompaniontarget.h
 api_name:
 - WdfCompanionTargetWdmGetCompanionProcess
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

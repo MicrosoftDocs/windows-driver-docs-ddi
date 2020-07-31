@@ -10,6 +10,7 @@ keywords: ["IoRegisterShutdownNotification function"]
 ms.keywords: IoRegisterShutdownNotification, IoRegisterShutdownNotification routine [Kernel-Mode Driver Architecture], k104_dd357e39-68b4-4cc2-b7c7-34f16c74a4a0.xml, kernel.ioregistershutdownnotification, wdm/IoRegisterShutdownNotification
 f1_keywords:
  - "wdm/IoRegisterShutdownNotification"
+ - "IoRegisterShutdownNotification"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoRegisterShutdownNotification
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

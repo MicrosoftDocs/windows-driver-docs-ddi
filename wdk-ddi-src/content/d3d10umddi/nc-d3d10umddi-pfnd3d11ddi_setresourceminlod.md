@@ -9,6 +9,7 @@ keywords: ["PFND3D11DDI_SETRESOURCEMINLOD callback function"]
 ms.keywords: PFND3D11DDI_SETRESOURCEMINLOD, PFND3D11DDI_SETRESOURCEMINLOD callback, SetResourceMinLOD, SetResourceMinLOD callback function [Display Devices], UserModeDisplayDriverDx11_Functions_3c56a9a6-a13e-4377-a997-e84af3ff12ef.xml, d3d10umddi/SetResourceMinLOD, display.setresourceminlod
 f1_keywords:
  - "d3d10umddi/SetResourceMinLOD"
+ - "SetResourceMinLOD"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - SetResourceMinLOD
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

@@ -10,6 +10,7 @@ keywords: ["_KSPROCESSPIN_INDEXENTRY structure"]
 ms.keywords: "*PKSPROCESSPIN_INDEXENTRY, KSPROCESSPIN_INDEXENTRY, KSPROCESSPIN_INDEXENTRY structure [Streaming Media Devices], PKSPROCESSPIN_INDEXENTRY, PKSPROCESSPIN_INDEXENTRY structure pointer [Streaming Media Devices], _KSPROCESSPIN_INDEXENTRY, avstruct_c32acda3-bab1-4077-a834-4b44a92524db.xml, ks/KSPROCESSPIN_INDEXENTRY, ks/PKSPROCESSPIN_INDEXENTRY, stream.ksprocesspin_indexentry"
 f1_keywords:
  - "ks/KSPROCESSPIN_INDEXENTRY"
+ - "KSPROCESSPIN_INDEXENTRY"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KSPROCESSPIN_INDEXENTRY
-product:
-- Windows
 targetos: Windows
 req.typenames: KSPROCESSPIN_INDEXENTRY, *PKSPROCESSPIN_INDEXENTRY
 ---

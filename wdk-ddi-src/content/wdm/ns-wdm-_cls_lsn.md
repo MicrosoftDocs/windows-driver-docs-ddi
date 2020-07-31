@@ -10,6 +10,7 @@ keywords: ["_CLS_LSN structure"]
 ms.keywords: "*PCLFS_LSN, *PCLS_LSN, CLFS_LSN, CLS_LSN, CLS_LSN structure [Kernel-Mode Driver Architecture], PCLFS_LSN, PCLFS_LSN structure [Kernel-Mode Driver Architecture], PCLFS_LSN structure pointer [Kernel-Mode Driver Architecture], PCLS_LSN, PCLS_LSN structure pointer [Kernel-Mode Driver Architecture], PPCLFS_LSN, PPCLFS_LSN structure pointer [Kernel-Mode Driver Architecture], PPCLS_LSN, PPCLS_LSN structure pointer [Kernel-Mode Driver Architecture], _CLS_LSN, kernel.clfs_lsn, kstruct_a_25e68bfe-85ad-4716-a47f-7f248ca068e4.xml, wdm/CLS_LSN, wdm/PCLFS_LSN, wdm/PCLS_LSN, wdm/PPCLFS_LSN, wdm/PPCLS_LSN"
 f1_keywords:
  - "wdm/CLS_LSN"
+ - "CLS_LSN"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - CLS_LSN
-product:
-- Windows
 targetos: Windows
 req.typenames: CLS_LSN, *PCLS_LSN, PPCLS_LSN
 ---

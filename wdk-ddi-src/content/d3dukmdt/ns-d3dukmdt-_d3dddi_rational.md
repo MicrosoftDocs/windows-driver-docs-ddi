@@ -10,6 +10,7 @@ keywords: ["_D3DDDI_RATIONAL structure"]
 ms.keywords: D3DDDI_RATIONAL, D3DDDI_RATIONAL structure [Display Devices], DmStructs_68540737-a888-46aa-99d7-83a071f3f604.xml, _D3DDDI_RATIONAL, d3dukmdt/D3DDDI_RATIONAL, display.d3dddi_rational
 f1_keywords:
  - "d3dukmdt/D3DDDI_RATIONAL"
+ - "D3DDDI_RATIONAL"
 req.header: d3dukmdt.h
 req.include-header: D3dukmdt.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dukmdt.h
 api_name:
 - D3DDDI_RATIONAL
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDI_RATIONAL
 ---

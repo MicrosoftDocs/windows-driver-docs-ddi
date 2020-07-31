@@ -10,6 +10,7 @@ keywords: ["HalAllocateHardwareCounters function"]
 ms.keywords: HalAllocateHardwareCounters, HalAllocateHardwareCounters routine [Kernel-Mode Driver Architecture], k103_06a6696a-0b51-414e-96ea-6c7d3b70acb5.xml, kernel.halallocatehardwarecounters, ntddk/HalAllocateHardwareCounters
 f1_keywords:
  - "ntddk/HalAllocateHardwareCounters"
+ - "HalAllocateHardwareCounters"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Hal.dll
 api_name:
 - HalAllocateHardwareCounters
-product:
-- Windows
 targetos: Windows
 req.typenames:
 ms.custom: 19H1

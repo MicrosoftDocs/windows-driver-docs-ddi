@@ -10,6 +10,7 @@ keywords: ["ZwRollbackTransaction function"]
 ms.keywords: NtRollbackTransaction, ZwRollbackTransaction, ZwRollbackTransaction routine [Kernel-Mode Driver Architecture], kernel.zwrollbacktransaction, ktm_ref_c29e1cd7-ffe0-4dab-be7f-a50a1d430ae3.xml, wdm/NtRollbackTransaction, wdm/ZwRollbackTransaction
 f1_keywords:
  - "wdm/ZwRollbackTransaction"
+ - "ZwRollbackTransaction"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntifs.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - ZwRollbackTransaction
 - NtRollbackTransaction
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

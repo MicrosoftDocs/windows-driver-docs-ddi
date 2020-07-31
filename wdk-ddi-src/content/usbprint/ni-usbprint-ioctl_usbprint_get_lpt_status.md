@@ -10,6 +10,7 @@ keywords: ["IOCTL_USBPRINT_GET_LPT_STATUS IOCTL"]
 ms.keywords: IOCTL_USBPRINT_GET_LPT_STATUS, IOCTL_USBPRINT_GET_LPT_STATUS control, IOCTL_USBPRINT_GET_LPT_STATUS control code [Print Devices], print.ioctl_usbprint_get_lpt_status, usbioctl_1729d0c7-8762-426e-bdb8-aa0bf38f71ee.xml, usbprint/IOCTL_USBPRINT_GET_LPT_STATUS
 f1_keywords:
  - "usbprint/IOCTL_USBPRINT_GET_LPT_STATUS"
+ - "IOCTL_USBPRINT_GET_LPT_STATUS"
 req.header: usbprint.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - usbprint.h
 api_name:
 - IOCTL_USBPRINT_GET_LPT_STATUS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

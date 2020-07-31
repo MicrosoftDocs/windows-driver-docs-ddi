@@ -9,6 +9,7 @@ keywords: ["_DXGK_VIDPNTARGETMODESET_INTERFACE structure"]
 ms.keywords: DXGK_VIDPNTARGETMODESET_INTERFACE, DXGK_VIDPNTARGETMODESET_INTERFACE structure [Display Devices], DmStructs_f73ff16c-04e3-491b-9f0a-de50563abea4.xml, _DXGK_VIDPNTARGETMODESET_INTERFACE, d3dkmddi/DXGK_VIDPNTARGETMODESET_INTERFACE, display.dxgk_vidpntargetmodeset_interface
 f1_keywords:
  - "d3dkmddi/DXGK_VIDPNTARGETMODESET_INTERFACE"
+ - "DXGK_VIDPNTARGETMODESET_INTERFACE"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGK_VIDPNTARGETMODESET_INTERFACE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_VIDPNTARGETMODESET_INTERFACE

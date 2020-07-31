@@ -7,6 +7,7 @@ ms.date: 09/18/2018
 keywords: ["IDebugHostModule::GetVersion"]
 f1_keywords:
  - "dbgmodel/IDebugHostModule.GetVersion"
+ - "IDebugHostModule.GetVersion"
 ms.keywords: IDebugHostModule::GetVersion, GetVersion, IDebugHostModule.GetVersion, IDebugHostModule::GetVersion, IDebugHostModule.GetVersion
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostModule.GetVersion
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

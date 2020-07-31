@@ -10,6 +10,7 @@ keywords: ["IoSetShareAccess function"]
 ms.keywords: IoSetShareAccess, IoSetShareAccess routine [Kernel-Mode Driver Architecture], k104_c7e9d7db-409a-4385-963b-61b5c96c1ffa.xml, kernel.iosetshareaccess, wdm/IoSetShareAccess
 f1_keywords:
  - "wdm/IoSetShareAccess"
+ - "IoSetShareAccess"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoSetShareAccess
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

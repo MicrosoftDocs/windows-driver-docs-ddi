@@ -10,6 +10,7 @@ keywords: ["FltInsertExtraCreateParameter function"]
 ms.keywords: FltApiRef_e_to_o_70a06c18-83e1-45cc-be8c-87945a2a320e.xml, FltInsertExtraCreateParameter, FltInsertExtraCreateParameter routine [Installable File System Drivers], fltkernel/FltInsertExtraCreateParameter, ifsk.fltinsertextracreateparameter
 f1_keywords:
  - "fltkernel/FltInsertExtraCreateParameter"
+ - "FltInsertExtraCreateParameter"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltInsertExtraCreateParameter
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

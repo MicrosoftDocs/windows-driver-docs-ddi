@@ -9,6 +9,7 @@ keywords: ["D3D11_1_DDI_CHECK_DIRECT_FLIP_FLAGS enumeration"]
 ms.keywords: D3D11_1DDI_CHECK_DIRECT_FLIP_IMMEDIATE, D3D11_1_DDI_CHECK_DIRECT_FLIP_FLAGS, D3D11_1_DDI_CHECK_DIRECT_FLIP_FLAGS enumeration [Display Devices], d3d10umddi/D3D11_1DDI_CHECK_DIRECT_FLIP_IMMEDIATE, d3d10umddi/D3D11_1_DDI_CHECK_DIRECT_FLIP_FLAGS, display.d3d11_1_ddi_check_direct_flip_flags
 f1_keywords:
  - "d3d10umddi/D3D11_1_DDI_CHECK_DIRECT_FLIP_FLAGS"
+ - "D3D11_1_DDI_CHECK_DIRECT_FLIP_FLAGS"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - D3d10umddi.h
 api_name:
 - D3D11_1_DDI_CHECK_DIRECT_FLIP_FLAGS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D11_1_DDI_CHECK_DIRECT_FLIP_FLAGS

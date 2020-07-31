@@ -27,6 +27,7 @@ ms.custom: RS5
 tech.root: display
 f1_keywords:
  - "d3dumddi/PFND3DDDI_SYNCTOKENCB"
+ - "PFND3DDDI_SYNCTOKENCB"
 topic_type:
  - apiref
 api_type:

@@ -10,6 +10,7 @@ keywords: ["StorPortInterlockedRemoveHeadList function"]
 ms.keywords: StorPortInterlockedRemoveHeadList, StorPortInterlockedRemoveHeadList routine [Storage Devices], storage.storportinterlockedremoveheadlist, storport/StorPortInterlockedRemoveHeadList
 f1_keywords:
  - "storport/StorPortInterlockedRemoveHeadList"
+ - "StorPortInterlockedRemoveHeadList"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - storport.h
 api_name:
 - StorPortInterlockedRemoveHeadList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

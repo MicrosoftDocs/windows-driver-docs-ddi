@@ -10,6 +10,7 @@ keywords: ["IWDFFile2::RetrieveCountedFileName"]
 ms.keywords: IWDFFile2 interface,RetrieveCountedFileName method, IWDFFile2.RetrieveCountedFileName, IWDFFile2::RetrieveCountedFileName, RetrieveCountedFileName, RetrieveCountedFileName method, RetrieveCountedFileName method,IWDFFile2 interface, UMDFFileObjectRef_89204c8a-3847-4e03-bf8b-c660b1b2408b.xml, umdf.iwdffile2_retrievecountedfilename, wdf.iwdffile2_retrievecountedfilename, wudfddi/IWDFFile2::RetrieveCountedFileName
 f1_keywords:
  - "wudfddi/IWDFFile2.RetrieveCountedFileName"
+ - "IWDFFile2.RetrieveCountedFileName"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFFile2.RetrieveCountedFileName
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

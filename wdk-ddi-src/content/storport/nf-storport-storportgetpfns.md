@@ -10,6 +10,7 @@ keywords: ["StorPortGetPfns function"]
 ms.keywords: StorPortGetPfns, StorPortGetPfns routine [Storage Devices], storage.storportgetpfns, storport/StorPortGetPfns
 f1_keywords:
  - "storport/StorPortGetPfns"
+ - "StorPortGetPfns"
 req.header: storport.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Storport.h
 api_name:
 - StorPortGetPfns
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

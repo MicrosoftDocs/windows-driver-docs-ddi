@@ -10,6 +10,7 @@ keywords: ["RILRANGE structure"]
 ms.keywords: "*LPRILRANGE, RILRANGE, RILRANGE structure [Network Drivers Starting with Windows Vista], netvista.rilrange, ntddrilapitypes/RILRANGE"
 f1_keywords:
  - "ntddrilapitypes/RILRANGE"
+ - "RILRANGE"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILRANGE
-product:
-- Windows
 targetos: Windows
 req.typenames: RILRANGE, *LPRILRANGE
 ---

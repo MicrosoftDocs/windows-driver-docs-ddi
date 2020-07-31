@@ -10,6 +10,7 @@ keywords: ["_USBDEVICE_UPDATE structure"]
 ms.keywords: "*PUSBDEVICE_UPDATE, P_USBDEVICE_UPDATE, P_USBDEVICE_UPDATE structure pointer [Buses], USBDEVICE_UPDATE, USBDEVICE_UPDATE structure [Buses], _USBDEVICE_UPDATE, buses._usbdevice_update, ucxusbdevice/P_USBDEVICE_UPDATE, ucxusbdevice/_USBDEVICE_UPDATE"
 f1_keywords:
  - "ucxusbdevice/USBDEVICE_UPDATE"
+ - "USBDEVICE_UPDATE"
 req.header: ucxusbdevice.h
 req.include-header: Ucxclass.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ucxusbdevice.h
 api_name:
 - USBDEVICE_UPDATE
-product:
-- Windows
 targetos: Windows
 req.typenames: USBDEVICE_UPDATE, *PUSBDEVICE_UPDATE
 ---

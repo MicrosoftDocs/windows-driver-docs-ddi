@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["NdisTestNblFlag macro"]
 f1_keywords:
  - "ndis/NdisTestNblFlag"
+ - "NdisTestNblFlag"
 ms.keywords: NdisTestNblFlag
 req.header: ndis.h
 req.include-header:
@@ -34,8 +35,6 @@ api_location:
 - ndis.h
 api_name: 
 - NdisTestNblFlag
-product:
-- Windows
 targetos: Windows
 
 ---

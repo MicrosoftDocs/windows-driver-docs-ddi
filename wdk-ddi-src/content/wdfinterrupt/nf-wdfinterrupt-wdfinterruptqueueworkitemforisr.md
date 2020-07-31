@@ -10,6 +10,7 @@ keywords: ["WdfInterruptQueueWorkItemForIsr function"]
 ms.keywords: WdfInterruptQueueWorkItemForIsr, WdfInterruptQueueWorkItemForIsr method, kmdf.wdfinterruptqueueworkitemforisr, wdf.wdfinterruptqueueworkitemforisr, wdfinterrupt/WdfInterruptQueueWorkItemForIsr
 f1_keywords:
  - "wdfinterrupt/WdfInterruptQueueWorkItemForIsr"
+ - "WdfInterruptQueueWorkItemForIsr"
 req.header: wdfinterrupt.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfInterruptQueueWorkItemForIsr
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

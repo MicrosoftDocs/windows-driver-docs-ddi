@@ -10,6 +10,7 @@ keywords: ["_PEP_COORDINATED_IDLE_STATE structure"]
 ms.keywords: "*PPEP_COORDINATED_IDLE_STATE, PEP_COORDINATED_IDLE_STATE, PEP_COORDINATED_IDLE_STATE structure [Kernel-Mode Driver Architecture], PPEP_COORDINATED_IDLE_STATE, PPEP_COORDINATED_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture], _PEP_COORDINATED_IDLE_STATE, kernel.pep_coordinated_idle_state, pepfx/PEP_COORDINATED_IDLE_STATE, pepfx/PPEP_COORDINATED_IDLE_STATE"
 f1_keywords:
  - "pepfx/PEP_COORDINATED_IDLE_STATE"
+ - "PEP_COORDINATED_IDLE_STATE"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - PEP_COORDINATED_IDLE_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_COORDINATED_IDLE_STATE, *PPEP_COORDINATED_IDLE_STATE
 ---

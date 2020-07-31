@@ -10,6 +10,7 @@ keywords: ["_tagKSJACK_SINK_INFORMATION structure"]
 ms.keywords: "*PKSJACK_SINK_INFORMATION, KSJACK_SINK_INFORMATION, KSJACK_SINK_INFORMATION structure [Audio Devices], PKSJACK_SINK_INFORMATION, PKSJACK_SINK_INFORMATION structure pointer [Audio Devices], _tagKSJACK_SINK_INFORMATION, aud-prop_e9bbfa8a-d002-400c-a35d-3da0a8026cd6.xml, audio.ksjack_sink_information, ksmedia/KSJACK_SINK_INFORMATION, ksmedia/PKSJACK_SINK_INFORMATION"
 f1_keywords:
  - "ksmedia/KSJACK_SINK_INFORMATION"
+ - "KSJACK_SINK_INFORMATION"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KSJACK_SINK_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: KSJACK_SINK_INFORMATION, *PKSJACK_SINK_INFORMATION
 ---

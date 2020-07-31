@@ -10,6 +10,7 @@ keywords: ["PMAP_TRANSFER_EX callback function"]
 ms.keywords: MapTransferEx, MapTransferEx callback function [Kernel-Mode Driver Architecture], PMAP_TRANSFER_EX, PMAP_TRANSFER_EX callback, kernel.maptransferex, wdm/MapTransferEx
 f1_keywords:
  - "wdm/MapTransferEx"
+ - "MapTransferEx"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - MapTransferEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

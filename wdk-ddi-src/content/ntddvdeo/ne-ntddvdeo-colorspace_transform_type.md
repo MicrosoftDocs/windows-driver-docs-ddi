@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["COLORSPACE_TRANSFORM_TYPE enumeration"]
 f1_keywords:
  - "ntddvdeo/COLORSPACE_TRANSFORM_TYPE"
+ - "COLORSPACE_TRANSFORM_TYPE"
 ms.keywords: COLORSPACE_TRANSFORM_TYPE, COLORSPACE_TRANSFORM_TYPE, 
 req.header: ntddvdeo.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
  - ntddvdeo.h
 api_name: 
  - COLORSPACE_TRANSFORM_TYPE
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

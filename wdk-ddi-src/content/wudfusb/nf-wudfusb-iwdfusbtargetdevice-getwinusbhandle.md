@@ -10,6 +10,7 @@ keywords: ["IWDFUsbTargetDevice::GetWinUsbHandle"]
 ms.keywords: GetWinUsbHandle, GetWinUsbHandle method, GetWinUsbHandle method,IWDFUsbTargetDevice interface, IWDFUsbTargetDevice interface,GetWinUsbHandle method, IWDFUsbTargetDevice.GetWinUsbHandle, IWDFUsbTargetDevice::GetWinUsbHandle, UMDFUSBref_7568c92e-e43d-4013-ab7c-1f4834cd5c14.xml, umdf.iwdfusbtargetdevice_getwinusbhandle, wdf.iwdfusbtargetdevice_getwinusbhandle, wudfusb/IWDFUsbTargetDevice::GetWinUsbHandle
 f1_keywords:
  - "wudfusb/IWDFUsbTargetDevice.GetWinUsbHandle"
+ - "IWDFUsbTargetDevice.GetWinUsbHandle"
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFUsbTargetDevice.GetWinUsbHandle
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["RtlFindLastBackwardRunClear function"]
 ms.keywords: RtlFindLastBackwardRunClear, RtlFindLastBackwardRunClear routine [Kernel-Mode Driver Architecture], k109_b7075a86-ffa4-4a6a-98fb-60848c037253.xml, kernel.rtlfindlastbackwardrunclear, wdm/RtlFindLastBackwardRunClear
 f1_keywords:
  - "wdm/RtlFindLastBackwardRunClear"
+ - "RtlFindLastBackwardRunClear"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlFindLastBackwardRunClear
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

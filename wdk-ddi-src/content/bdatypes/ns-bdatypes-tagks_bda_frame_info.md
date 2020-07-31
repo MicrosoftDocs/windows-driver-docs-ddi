@@ -10,6 +10,7 @@ keywords: ["tagKS_BDA_FRAME_INFO structure"]
 ms.keywords: "*PKS_BDA_FRAME_INFO, KS_BDA_FRAME_INFO, KS_BDA_FRAME_INFO structure [Streaming Media Devices], PKS_BDA_FRAME_INFO, PKS_BDA_FRAME_INFO structure pointer [Streaming Media Devices], bdaref_62fe9ca5-dca5-4287-83e8-59667d70d953.xml, bdatypes/KS_BDA_FRAME_INFO, bdatypes/PKS_BDA_FRAME_INFO, stream.ks_bda_frame_info, tagKS_BDA_FRAME_INFO"
 f1_keywords:
  - "bdatypes/KS_BDA_FRAME_INFO"
+ - "KS_BDA_FRAME_INFO"
 req.header: bdatypes.h
 req.include-header: Bdamedia.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - bdatypes.h
 api_name:
 - KS_BDA_FRAME_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: KS_BDA_FRAME_INFO, *PKS_BDA_FRAME_INFO
 ---

@@ -10,6 +10,7 @@ keywords: ["RtlFreeAnsiString function"]
 ms.keywords: RtlFreeAnsiString, RtlFreeAnsiString routine [Kernel-Mode Driver Architecture], k109_0213924f-caca-4411-b5cc-d93282f01948.xml, kernel.rtlfreeansistring, wdm/RtlFreeAnsiString
 f1_keywords:
  - "wdm/RtlFreeAnsiString"
+ - "RtlFreeAnsiString"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlFreeAnsiString
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["_STORAGE_HW_FIRMWARE_ACTIVATE structure"]
 ms.keywords: "*PSTORAGE_HW_FIRMWARE_ACTIVATE, PSTORAGE_HW_FIRMWARE_ACTIVATE, PSTORAGE_HW_FIRMWARE_ACTIVATE structure pointer [Storage Devices], STORAGE_HW_FIRMWARE_ACTIVATE, STORAGE_HW_FIRMWARE_ACTIVATE structure [Storage Devices], _STORAGE_HW_FIRMWARE_ACTIVATE, ntddstor/PSTORAGE_HW_FIRMWARE_ACTIVATE, ntddstor/STORAGE_HW_FIRMWARE_ACTIVATE, storage.storage_hw_firmware_activate"
 f1_keywords:
  - "ntddstor/STORAGE_HW_FIRMWARE_ACTIVATE"
+ - "STORAGE_HW_FIRMWARE_ACTIVATE"
 req.header: ntddstor.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddstor.h
 api_name:
 - STORAGE_HW_FIRMWARE_ACTIVATE
-product:
-- Windows
 targetos: Windows
 req.typenames: STORAGE_HW_FIRMWARE_ACTIVATE, *PSTORAGE_HW_FIRMWARE_ACTIVATE
 ---

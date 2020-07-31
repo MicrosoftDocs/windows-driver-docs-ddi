@@ -10,6 +10,7 @@ keywords: ["WdfObjectDelete function"]
 ms.keywords: DFGenObjectRef_d054ae6b-e88d-46e8-ad62-2bfb23a76cd7.xml, WdfObjectDelete, WdfObjectDelete method, kmdf.wdfobjectdelete, wdf.wdfobjectdelete, wdfobject/WdfObjectDelete
 f1_keywords:
  - "wdfobject/WdfObjectDelete"
+ - "WdfObjectDelete"
 req.header: wdfobject.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfObjectDelete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

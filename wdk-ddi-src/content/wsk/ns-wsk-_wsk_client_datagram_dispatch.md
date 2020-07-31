@@ -10,6 +10,7 @@ keywords: ["_WSK_CLIENT_DATAGRAM_DISPATCH structure"]
 ms.keywords: "*PWSK_CLIENT_DATAGRAM_DISPATCH, PWSK_CLIENT_DATAGRAM_DISPATCH, PWSK_CLIENT_DATAGRAM_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], WSK_CLIENT_DATAGRAM_DISPATCH, WSK_CLIENT_DATAGRAM_DISPATCH structure [Network Drivers Starting with Windows Vista], _WSK_CLIENT_DATAGRAM_DISPATCH, netvista.wsk_client_datagram_dispatch, wsk/PWSK_CLIENT_DATAGRAM_DISPATCH, wsk/WSK_CLIENT_DATAGRAM_DISPATCH, wskref_131878e6-5665-47e1-9b84-0dcbdecb9444.xml"
 f1_keywords:
  - "wsk/WSK_CLIENT_DATAGRAM_DISPATCH"
+ - "WSK_CLIENT_DATAGRAM_DISPATCH"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wsk.h
 api_name:
 - WSK_CLIENT_DATAGRAM_DISPATCH
-product:
-- Windows
 targetos: Windows
 req.typenames: WSK_CLIENT_DATAGRAM_DISPATCH, *PWSK_CLIENT_DATAGRAM_DISPATCH
 ---

@@ -10,6 +10,7 @@ keywords: ["MINIPORT_WDI_TX_TARGET_DESC_DEINIT callback function"]
 ms.keywords: MINIPORT_WDI_TX_TARGET_DESC_DEINIT, MINIPORT_WDI_TX_TARGET_DESC_DEINIT callback, MiniportWdiTxTargetDescDeInit, MiniportWdiTxTargetDescDeInit callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTxTargetDescDeInit, netvista.miniportwditxtargetdescdeinit
 f1_keywords:
  - "dot11wdi/MiniportWdiTxTargetDescDeInit"
+ - "MiniportWdiTxTargetDescDeInit"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dot11wdi.h
 api_name:
 - MiniportWdiTxTargetDescDeInit
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

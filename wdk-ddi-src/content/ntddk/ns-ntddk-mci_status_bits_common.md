@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["MCI_STATUS_BITS_COMMON structure"]
 f1_keywords:
  - "ntddk/MCI_STATUS_BITS_COMMON"
+ - "MCI_STATUS_BITS_COMMON"
 ms.keywords: MCI_STATUS_BITS_COMMON, MCI_STATUS_BITS_COMMON, *PMCI_STATUS_BITS_COMMON, 
 req.header: ntddk.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["IWDFIoRequest::Send"]
 ms.keywords: IWDFIoRequest interface,Send method, IWDFIoRequest.Send, IWDFIoRequest::Send, Send, Send method, Send method,IWDFIoRequest interface, UMDFRequestObjectRef_f3a8e812-392d-478c-8234-8125bec14f1d.xml, umdf.iwdfiorequest_send, wdf.iwdfiorequest_send, wudfddi/IWDFIoRequest::Send
 f1_keywords:
  - "wudfddi/IWDFIoRequest.Send"
+ - "IWDFIoRequest.Send"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFIoRequest.Send
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

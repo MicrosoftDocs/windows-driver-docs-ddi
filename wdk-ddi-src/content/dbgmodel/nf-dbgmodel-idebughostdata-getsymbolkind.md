@@ -7,6 +7,7 @@ ms.date: 09/10/2018
 keywords: ["IDebugHostData::GetSymbolKind"]
 f1_keywords:
  - "dbgmodel/IDebugHostData.GetSymbolKind"
+ - "IDebugHostData.GetSymbolKind"
 ms.keywords: IDebugHostData::GetSymbolKind, GetSymbolKind, IDebugHostData.GetSymbolKind, IDebugHostData::GetSymbolKind, IDebugHostData.GetSymbolKind
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostData.GetSymbolKind
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

@@ -10,6 +10,7 @@ keywords: ["IResourceList::AddEntryFromParent"]
 ms.keywords: AddEntryFromParent, AddEntryFromParent method [Audio Devices], AddEntryFromParent method [Audio Devices],IResourceList interface, IResourceList interface [Audio Devices],AddEntryFromParent method, IResourceList.AddEntryFromParent, IResourceList::AddEntryFromParent, audio.iresourcelist_addentryfromparent, audmp-routines_428c97a0-498d-4732-a2cc-5be2af2aa64c.xml, portcls/IResourceList::AddEntryFromParent
 f1_keywords:
  - "portcls/IResourceList.AddEntryFromParent"
+ - "IResourceList.AddEntryFromParent"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IResourceList.AddEntryFromParent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

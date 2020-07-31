@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_LOCK structure"]
 ms.keywords: D3DKMT_LOCK, D3DKMT_LOCK structure [Display Devices], OpenGL_Structs_08e60652-b888-4a1e-a9c6-3dee8f0fb50d.xml, _D3DKMT_LOCK, d3dkmthk/D3DKMT_LOCK, display.d3dkmt_lock
 f1_keywords:
  - "d3dkmthk/D3DKMT_LOCK"
+ - "D3DKMT_LOCK"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMT_LOCK
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_LOCK

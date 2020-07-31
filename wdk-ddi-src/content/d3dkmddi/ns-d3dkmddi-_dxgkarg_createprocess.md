@@ -9,6 +9,7 @@ keywords: ["_DXGKARG_CREATEPROCESS structure"]
 ms.keywords: "*INOUT_PDXGKARG_CREATEPROCESS, DXGKARG_CREATEPROCESS, DXGKARG_CREATEPROCESS structure [Display Devices], _DXGKARG_CREATEPROCESS, d3dkmddi/DXGKARG_CREATEPROCESS, display.dxgkarg_createprocess"
 f1_keywords:
  - "d3dkmddi/DXGKARG_CREATEPROCESS"
+ - "DXGKARG_CREATEPROCESS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGKARG_CREATEPROCESS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGKARG_CREATEPROCESS

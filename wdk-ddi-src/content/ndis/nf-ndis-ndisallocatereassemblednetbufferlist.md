@@ -10,6 +10,7 @@ keywords: ["NdisAllocateReassembledNetBufferList function"]
 ms.keywords: NdisAllocateReassembledNetBufferList, NdisAllocateReassembledNetBufferList function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateReassembledNetBufferList, ndis_netbuf_functions_ref_20c58532-de90-4594-9bd8-5393a70c6b80.xml, netvista.ndisallocatereassemblednetbufferlist
 f1_keywords:
  - "ndis/NdisAllocateReassembledNetBufferList"
+ - "NdisAllocateReassembledNetBufferList"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisAllocateReassembledNetBufferList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

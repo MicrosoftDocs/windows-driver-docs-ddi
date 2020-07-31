@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols4::GetFieldOffset method"]
 ms.keywords: WdbgExts_Ref_22c8a9bc-dec9-4eec-95c6-b265694b4385.xml, IDebugSymbols2::GetFieldOffset, IDebugSymbols::GetFieldOffset, IDebugSymbols4::GetFieldOffset, wdbgexts/GetFieldOffset, GetFieldOffset, IDebugSymbols2, IDebugSymbols4, GetFieldOffset function [Windows Debugging], debugger.getfieldoffset, IDebugSymbols
 f1_keywords:
  - "dbgeng/GetFieldOffset"
+ - "GetFieldOffset"
 req.header: dbgeng.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wdbgexts.h
 api_name:
 - GetFieldOffset
-product:
-- Windows
 targetos: Windows
 req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---

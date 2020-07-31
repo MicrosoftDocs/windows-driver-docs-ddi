@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["WheaUnconfigureErrorSource function"]
 f1_keywords:
  - "ntddk/WheaUnconfigureErrorSource"
+ - "WheaUnconfigureErrorSource"
 ms.keywords: WheaUnconfigureErrorSource
 req.header: ntddk.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["_DXVA_MBctrl_I_HostResidDiff_1 structure"]
 ms.keywords: "*LPDXVA_MBctrl_I_HostResidDiff_1, DXVA_MBctrl_I_HostResidDiff_1, DXVA_MBctrl_I_HostResidDiff_1 structure [Display Devices], _DXVA_MBctrl_I_HostResidDiff_1, display.dxva_mbctrl_i_hostresiddiff_1, dxva/DXVA_MBctrl_I_HostResidDiff_1, dxvaref_9d7c8453-31ce-4788-908e-ac81c97d97f5.xml"
 f1_keywords:
  - "dxva/DXVA_MBctrl_I_HostResidDiff_1"
+ - "DXVA_MBctrl_I_HostResidDiff_1"
 req.header: dxva.h
 req.include-header: Dxva.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dxva.h
 api_name:
 - DXVA_MBctrl_I_HostResidDiff_1
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVA_MBctrl_I_HostResidDiff_1
 ---

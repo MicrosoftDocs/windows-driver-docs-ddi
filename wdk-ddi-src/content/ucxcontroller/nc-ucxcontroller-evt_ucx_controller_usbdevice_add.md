@@ -10,6 +10,7 @@ keywords: ["EVT_UCX_CONTROLLER_USBDEVICE_ADD callback function"]
 ms.keywords: EVT_UCX_CONTROLLER_USBDEVICE_ADD, EVT_UCX_CONTROLLER_USBDEVICE_ADD callback, EvtUcxControllerUsbDeviceAdd, EvtUcxControllerUsbDeviceAdd callback function [Buses], PEVT_UCX_CONTROLLER_USBDEVICE_ADD, PEVT_UCX_CONTROLLER_USBDEVICE_ADD callback function pointer [Buses], buses.evt_ucx_controller_usbdevice_add, ucxcontroller/EvtUcxControllerUsbDeviceAdd
 f1_keywords:
  - "ucxcontroller/PEVT_UCX_CONTROLLER_USBDEVICE_ADD"
+ - "PEVT_UCX_CONTROLLER_USBDEVICE_ADD"
 req.header: ucxcontroller.h
 req.include-header: Ucxclass.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ucxcontroller.h
 api_name:
 - PEVT_UCX_CONTROLLER_USBDEVICE_ADD
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

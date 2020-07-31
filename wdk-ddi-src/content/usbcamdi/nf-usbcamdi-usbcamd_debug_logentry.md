@@ -10,6 +10,7 @@ keywords: ["USBCAMD_Debug_LogEntry function"]
 ms.keywords: USBCAMD_Debug_LogEntry, USBCAMD_Debug_LogEntry function [Streaming Media Devices], stream.usbcamd_debug_logentry, usbcamdi/USBCAMD_Debug_LogEntry, usbcmdpr_6f6f6419-d845-4488-bd8d-70efa67357fa.xml
 f1_keywords:
  - "usbcamdi/USBCAMD_Debug_LogEntry"
+ - "USBCAMD_Debug_LogEntry"
 req.header: usbcamdi.h
 req.include-header: Usbcamdi.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - usbcamd2.dll
 api_name:
 - USBCAMD_Debug_LogEntry
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

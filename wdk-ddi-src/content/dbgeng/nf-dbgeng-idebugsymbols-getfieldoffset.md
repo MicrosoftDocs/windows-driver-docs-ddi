@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols::GetFieldOffset"]
 ms.keywords: GetFieldOffset, GetFieldOffset method [Windows Debugging], GetFieldOffset method [Windows Debugging],IDebugSymbols interface, GetFieldOffset method [Windows Debugging],IDebugSymbols2 interface, GetFieldOffset method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetFieldOffset method, IDebugSymbols.GetFieldOffset, IDebugSymbols2 interface [Windows Debugging],GetFieldOffset method, IDebugSymbols2::GetFieldOffset, IDebugSymbols3 interface [Windows Debugging],GetFieldOffset method, IDebugSymbols3::GetFieldOffset, IDebugSymbols::GetFieldOffset, IDebugSymbols_3e5be57a-3af9-4fe3-a7cc-4f31fb9b54f0.xml, dbgeng/IDebugSymbols2::GetFieldOffset, dbgeng/IDebugSymbols3::GetFieldOffset, dbgeng/IDebugSymbols::GetFieldOffset, debugger.getfieldoffset2
 f1_keywords:
  - "dbgeng/IDebugSymbols.GetFieldOffset"
+ - "IDebugSymbols.GetFieldOffset"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -38,8 +39,6 @@ api_name:
 - IDebugSymbols.GetFieldOffset
 - IDebugSymbols2.GetFieldOffset
 - IDebugSymbols3.GetFieldOffset
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["AtaPortGetDeviceBase function"]
 ms.keywords: AtaPortGetDeviceBase, AtaPortGetDeviceBase routine [Storage Devices], atartns_94ad1c8e-3a7b-4eeb-97d1-5b57284be6f3.xml, irb/AtaPortGetDeviceBase, storage.ataportgetdevicebase
 f1_keywords:
  - "irb/AtaPortGetDeviceBase"
+ - "AtaPortGetDeviceBase"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
@@ -39,8 +40,6 @@ api_location:
 - pciidex.dll
 api_name:
 - AtaPortGetDeviceBase
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

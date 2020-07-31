@@ -10,6 +10,7 @@ keywords: ["_NDIS_RSC_NBL_INFO structure"]
 ms.keywords: "*PNDIS_RSC_NBL_INFO, NDIS_RSC_NBL_INFO, NDIS_RSC_NBL_INFO union [Network Drivers Starting with Windows Vista], PNDIS_RSC_NBL_INFO, PNDIS_RSC_NBL_INFO union pointer [Network Drivers Starting with Windows Vista], _NDIS_RSC_NBL_INFO, ndis/NDIS_RSC_NBL_INFO, ndis/PNDIS_RSC_NBL_INFO, netvista.ndis_rsc_nbl_info"
 f1_keywords:
  - "ndis/NDIS_RSC_NBL_INFO"
+ - "NDIS_RSC_NBL_INFO"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NDIS_RSC_NBL_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_RSC_NBL_INFO, *PNDIS_RSC_NBL_INFO
 ---

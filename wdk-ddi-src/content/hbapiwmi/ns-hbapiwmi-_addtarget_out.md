@@ -10,6 +10,7 @@ keywords: ["_AddTarget_OUT structure"]
 ms.keywords: "*PAddTarget_OUT, AddTarget_OUT, AddTarget_OUT structure [Storage Devices], PAddTarget_OUT, PAddTarget_OUT structure pointer [Storage Devices], _AddTarget_OUT, hbapiwmi/AddTarget_OUT, hbapiwmi/PAddTarget_OUT, storage.addtarget_out, structs-Fibre_b3dd963b-2fd1-4fbe-bfe3-b363a95f1a51.xml"
 f1_keywords:
  - "hbapiwmi/AddTarget_OUT"
+ - "AddTarget_OUT"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - AddTarget_OUT
-product:
-- Windows
 targetos: Windows
 req.typenames: AddTarget_OUT, *PAddTarget_OUT
 ---

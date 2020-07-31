@@ -8,6 +8,7 @@ ms.date: 04/12/2018
 keywords: ["NET_BUFFER_LIST_CONTEXT_DATA_START macro"]
 f1_keywords:
  - "ndis/NET_BUFFER_LIST_CONTEXT_DATA_START"
+ - "NET_BUFFER_LIST_CONTEXT_DATA_START"
 ms.keywords: NET_BUFFER_LIST_CONTEXT_DATA_START
 req.header: ndis.h
 req.include-header:
@@ -34,8 +35,6 @@ api_location:
 - ndis.h
 api_name: 
 - NET_BUFFER_LIST_CONTEXT_DATA_START
-product:
-- Windows
 targetos: Windows
 
 ---

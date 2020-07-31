@@ -10,6 +10,7 @@ keywords: ["CcSetReadAheadGranularity function"]
 ms.keywords: CcSetReadAheadGranularity, CcSetReadAheadGranularity routine [Installable File System Drivers], ccref_9b995224-0e59-43c6-b827-c15d9ae6e86c.xml, ifsk.ccsetreadaheadgranularity, ntifs/CcSetReadAheadGranularity
 f1_keywords:
  - "ntifs/CcSetReadAheadGranularity"
+ - "CcSetReadAheadGranularity"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - CcSetReadAheadGranularity
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

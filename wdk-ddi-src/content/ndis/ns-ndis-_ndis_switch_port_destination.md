@@ -10,6 +10,7 @@ keywords: ["_NDIS_SWITCH_PORT_DESTINATION structure"]
 ms.keywords: "*PNDIS_SWITCH_PORT_DESTINATION, NDIS_SWITCH_PORT_DESTINATION, NDIS_SWITCH_PORT_DESTINATION structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PORT_DESTINATION, PNDIS_SWITCH_PORT_DESTINATION structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_DESTINATION, ndis/NDIS_SWITCH_PORT_DESTINATION, ndis/PNDIS_SWITCH_PORT_DESTINATION, netvista.ndis_switch_port_destination"
 f1_keywords:
  - "ndis/NDIS_SWITCH_PORT_DESTINATION"
+ - "NDIS_SWITCH_PORT_DESTINATION"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - NDIS_SWITCH_PORT_DESTINATION
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_SWITCH_PORT_DESTINATION, *PNDIS_SWITCH_PORT_DESTINATION
 ---

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_DXGK_ADAPTER_PERFDATA structure"]
 f1_keywords:
  - "d3dkmdt/_DXGK_ADAPTER_PERFDATA"
+ - "_DXGK_ADAPTER_PERFDATA"
 ms.keywords: _DXGK_ADAPTER_PERFDATA, DXGK_ADAPTER_PERFDATA,
 req.header: d3dkmdt.h
 req.include-header:

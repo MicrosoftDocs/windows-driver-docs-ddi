@@ -10,6 +10,7 @@ keywords: ["DOCKING_STATE enumeration"]
 ms.keywords: DOCKING_STATE, DOCKING_STATE enumeration [Display Devices], DmEnums_1a20e5b4-8df9-4298-8661-d7697d99e139.xml, DockStateDocked, DockStateUnDocked, DockStateUnknown, DockStateUnsupported, display.docking_state, dispmprt/DOCKING_STATE, dispmprt/DockStateDocked, dispmprt/DockStateUnDocked, dispmprt/DockStateUnknown, dispmprt/DockStateUnsupported
 f1_keywords:
  - "dispmprt/DOCKING_STATE"
+ - "DOCKING_STATE"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dispmprt.h
 api_name:
 - DOCKING_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: DOCKING_STATE
 ---

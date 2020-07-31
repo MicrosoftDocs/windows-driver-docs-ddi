@@ -10,6 +10,7 @@ keywords: ["IBidiAsyncNotifyChannel::SendNotification"]
 ms.keywords: IBidiAsyncNotifyChannel interface [Print Devices],SendNotification method, IBidiAsyncNotifyChannel.SendNotification, IBidiAsyncNotifyChannel::SendNotification, SendNotification, SendNotification method [Print Devices], SendNotification method [Print Devices],IBidiAsyncNotifyChannel interface, print.ibidiasyncnotifychannel_sendnotification, prnasntp/IBidiAsyncNotifyChannel::SendNotification
 f1_keywords:
  - "prnasntp/IBidiAsyncNotifyChannel.SendNotification"
+ - "IBidiAsyncNotifyChannel.SendNotification"
 req.header: prnasntp.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Prnasntp.h
 api_name:
 - IBidiAsyncNotifyChannel.SendNotification
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

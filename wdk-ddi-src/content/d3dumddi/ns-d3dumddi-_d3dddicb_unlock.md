@@ -10,6 +10,7 @@ keywords: ["_D3DDDICB_UNLOCK structure"]
 ms.keywords: D3DDDICB_UNLOCK, D3DDDICB_UNLOCK structure [Display Devices], D3D_param_Structs_91515cd5-00b4-4ad6-a8a5-ff216ddec171.xml, _D3DDDICB_UNLOCK, d3dumddi/D3DDDICB_UNLOCK, display.d3dddicb_unlock
 f1_keywords:
  - "d3dumddi/D3DDDICB_UNLOCK"
+ - "D3DDDICB_UNLOCK"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDICB_UNLOCK
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDICB_UNLOCK
 ---

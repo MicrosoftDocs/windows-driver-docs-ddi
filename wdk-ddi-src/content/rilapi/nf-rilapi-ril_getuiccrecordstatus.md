@@ -10,6 +10,7 @@ keywords: ["RIL_GetUiccRecordStatus function"]
 ms.keywords: RIL_GetUiccRecordStatus, RIL_GetUiccRecordStatus method [Network Drivers Starting with Windows Vista], netvista.ril_getuiccrecordstatus, rilapi/RIL_GetUiccRecordStatus
 f1_keywords:
  - "rilapi/RIL_GetUiccRecordStatus"
+ - "RIL_GetUiccRecordStatus"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_GetUiccRecordStatus
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

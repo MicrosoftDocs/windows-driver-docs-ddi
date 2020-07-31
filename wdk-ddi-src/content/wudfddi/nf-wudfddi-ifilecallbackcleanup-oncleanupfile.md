@@ -10,6 +10,7 @@ keywords: ["IFileCallbackCleanup::OnCleanupFile"]
 ms.keywords: IFileCallbackCleanup interface,OnCleanupFile method, IFileCallbackCleanup.OnCleanupFile, IFileCallbackCleanup::OnCleanupFile, OnCleanupFile, OnCleanupFile method, OnCleanupFile method,IFileCallbackCleanup interface, UMDFFileObjectRef_a264918b-dd98-40e8-b644-d39414c2351c.xml, umdf.ifilecallbackcleanup_oncleanupfile, wdf.ifilecallbackcleanup_oncleanupfile, wudfddi/IFileCallbackCleanup::OnCleanupFile
 f1_keywords:
  - "wudfddi/IFileCallbackCleanup.OnCleanupFile"
+ - "IFileCallbackCleanup.OnCleanupFile"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wudfddi.h
 api_name:
 - IFileCallbackCleanup.OnCleanupFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

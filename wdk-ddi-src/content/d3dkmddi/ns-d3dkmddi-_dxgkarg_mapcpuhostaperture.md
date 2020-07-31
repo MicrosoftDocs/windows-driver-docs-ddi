@@ -9,6 +9,7 @@ keywords: ["_DXGKARG_MAPCPUHOSTAPERTURE structure"]
 ms.keywords: DXGKARG_MAPCPUHOSTAPERTURE, DXGKARG_MAPCPUHOSTAPERTURE structure [Display Devices], _DXGKARG_MAPCPUHOSTAPERTURE, d3dkmddi/DXGKARG_MAPCPUHOSTAPERTURE, display.dxgkarg_mapcpuhostaperture
 f1_keywords:
  - "d3dkmddi/DXGKARG_MAPCPUHOSTAPERTURE"
+ - "DXGKARG_MAPCPUHOSTAPERTURE"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGKARG_MAPCPUHOSTAPERTURE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGKARG_MAPCPUHOSTAPERTURE

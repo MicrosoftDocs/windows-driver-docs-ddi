@@ -10,6 +10,7 @@ keywords: ["_HDAUDIO_BUFFER_DESCRIPTOR structure"]
 ms.keywords: "*PHDAUDIO_BUFFER_DESCRIPTOR, HDAUDIO_BUFFER_DESCRIPTOR, HDAUDIO_BUFFER_DESCRIPTOR structure [Audio Devices], PHDAUDIO_BUFFER_DESCRIPTOR, PHDAUDIO_BUFFER_DESCRIPTOR structure pointer [Audio Devices], _HDAUDIO_BUFFER_DESCRIPTOR, aud-prop2_56fe21db-3261-4f36-a5b0-ca2ae2d681d1.xml, audio.hdaudio_buffer_descriptor, hdaudio/HDAUDIO_BUFFER_DESCRIPTOR, hdaudio/PHDAUDIO_BUFFER_DESCRIPTOR"
 f1_keywords:
  - "hdaudio/HDAUDIO_BUFFER_DESCRIPTOR"
+ - "HDAUDIO_BUFFER_DESCRIPTOR"
 req.header: hdaudio.h
 req.include-header: Hdaudio.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - hdaudio.h
 api_name:
 - HDAUDIO_BUFFER_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: HDAUDIO_BUFFER_DESCRIPTOR, *PHDAUDIO_BUFFER_DESCRIPTOR
 ---

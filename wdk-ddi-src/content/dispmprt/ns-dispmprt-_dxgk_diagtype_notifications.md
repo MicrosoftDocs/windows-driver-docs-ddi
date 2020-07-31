@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_DXGK_DIAGTYPE_NOTIFICATIONS structure"]
 f1_keywords:
  - "dispmprt/_DXGK_DIAGTYPE_NOTIFICATIONS"
+ - "_DXGK_DIAGTYPE_NOTIFICATIONS"
 ms.keywords: _DXGK_DIAGTYPE_NOTIFICATIONS, DXGK_DIAGTYPE_NOTIFICATIONS,
 req.header: dispmprt.h
 req.include-header:

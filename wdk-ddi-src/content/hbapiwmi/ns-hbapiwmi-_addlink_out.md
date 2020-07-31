@@ -10,6 +10,7 @@ keywords: ["_AddLink_OUT structure"]
 ms.keywords: "*PAddLink_OUT, AddLink_OUT, AddLink_OUT structure [Storage Devices], PAddLink_OUT, PAddLink_OUT structure pointer [Storage Devices], _AddLink_OUT, hbapiwmi/AddLink_OUT, hbapiwmi/PAddLink_OUT, storage.addlink_out, structs-Fibre_5f49a86f-a59f-4572-bfa2-5bb78dfe599b.xml"
 f1_keywords:
  - "hbapiwmi/AddLink_OUT"
+ - "AddLink_OUT"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - AddLink_OUT
-product:
-- Windows
 targetos: Windows
 req.typenames: AddLink_OUT, *PAddLink_OUT
 ---

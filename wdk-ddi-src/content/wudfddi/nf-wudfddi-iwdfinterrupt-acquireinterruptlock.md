@@ -10,6 +10,7 @@ keywords: ["IWDFInterrupt::AcquireInterruptLock"]
 ms.keywords: AcquireInterruptLock, AcquireInterruptLock method, AcquireInterruptLock method,IWDFInterrupt interface, IWDFInterrupt interface,AcquireInterruptLock method, IWDFInterrupt.AcquireInterruptLock, IWDFInterrupt::AcquireInterruptLock, umdf.iwdfinterrupt_acquireinterruptlock, wdf.iwdfinterrupt_acquireinterruptlock, wudfddi/IWDFInterrupt::AcquireInterruptLock
 f1_keywords:
  - "wudfddi/IWDFInterrupt.AcquireInterruptLock"
+ - "IWDFInterrupt.AcquireInterruptLock"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFInterrupt.AcquireInterruptLock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

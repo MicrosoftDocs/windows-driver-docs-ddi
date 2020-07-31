@@ -10,6 +10,7 @@ keywords: ["KsAcquireDevice function"]
 ms.keywords: KsAcquireDevice, KsAcquireDevice function [Streaming Media Devices], avfunc_396e6da2-9423-43ae-8a2b-24655a43037b.xml, ks/KsAcquireDevice, stream.ksacquiredevice
 f1_keywords:
  - "ks/KsAcquireDevice"
+ - "KsAcquireDevice"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsAcquireDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

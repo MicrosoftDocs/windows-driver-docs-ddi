@@ -10,6 +10,7 @@ keywords: ["_SID_NAME_USE enumeration"]
 ms.keywords: "*PSID_NAME_USE, PSID_NAME_USE, PSID_NAME_USE enumeration pointer [Installable File System Drivers], SID_NAME_USE, SID_NAME_USE enumeration [Installable File System Drivers], SidTypeAlias, SidTypeComputer, SidTypeDeletedAccount, SidTypeDomain, SidTypeGroup, SidTypeInvalid, SidTypeLabel, SidTypeUnknown, SidTypeUser, SidTypeWellKnownGroup, _SID_NAME_USE, ifsk.sid_name_use, ntifs/PSID_NAME_USE, ntifs/SID_NAME_USE, ntifs/SidTypeAlias, ntifs/SidTypeComputer, ntifs/SidTypeDeletedAccount, ntifs/SidTypeDomain, ntifs/SidTypeGroup, ntifs/SidTypeInvalid, ntifs/SidTypeLabel, ntifs/SidTypeUnknown, ntifs/SidTypeUser, ntifs/SidTypeWellKnownGroup, securitystructures_7ff44465-6d8e-46f6-9bd4-b5be754dde4b.xml"
 f1_keywords:
  - "ntifs/SID_NAME_USE"
+ - "SID_NAME_USE"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - SID_NAME_USE
-product:
-- Windows
 targetos: Windows
 req.typenames: SID_NAME_USE, *PSID_NAME_USE
 ---

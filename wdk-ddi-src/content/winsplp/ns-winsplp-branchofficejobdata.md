@@ -10,6 +10,7 @@ keywords: ["BranchOfficeJobData structure"]
 ms.keywords: "*PBranchOfficeJobData, BranchOfficeJobData, BranchOfficeJobData structure [Print Devices], PBranchOfficeJobData, PBranchOfficeJobData structure pointer [Print Devices], print.branchofficejobdata, winsplp/BranchOfficeJobData, winsplp/PBranchOfficeJobData"
 f1_keywords:
  - "winsplp/BranchOfficeJobData"
+ - "BranchOfficeJobData"
 req.header: winsplp.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Winsplp.h
 api_name:
 - BranchOfficeJobData
-product:
-- Windows
 targetos: Windows
 req.typenames: BranchOfficeJobData, *PBranchOfficeJobData
 ---

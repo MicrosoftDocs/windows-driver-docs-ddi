@@ -10,6 +10,7 @@ keywords: ["ExInitializeLookasideListEx function"]
 ms.keywords: ExInitializeLookasideListEx, ExInitializeLookasideListEx routine [Kernel-Mode Driver Architecture], k102_1ceb4bd5-41cb-4f77-b435-a8bf922afbc2.xml, kernel.exinitializelookasidelistex, wdm/ExInitializeLookasideListEx
 f1_keywords:
  - "wdm/ExInitializeLookasideListEx"
+ - "ExInitializeLookasideListEx"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - ExInitializeLookasideListEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

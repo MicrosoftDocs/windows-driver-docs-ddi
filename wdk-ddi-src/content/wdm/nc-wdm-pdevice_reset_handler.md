@@ -10,6 +10,7 @@ keywords: ["PDEVICE_RESET_HANDLER callback function"]
 ms.keywords: DeviceReset, PDEVICE_RESET_HANDLER, ResetDevice, ResetDevice routine [Kernel-Mode Driver Architecture], kernel.devicereset, wdm/ResetDevice
 f1_keywords:
  - "wdm/ResetDevice"
+ - "ResetDevice"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - ResetDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

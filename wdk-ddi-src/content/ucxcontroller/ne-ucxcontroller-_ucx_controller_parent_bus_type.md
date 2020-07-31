@@ -10,6 +10,7 @@ keywords: ["_UCX_CONTROLLER_PARENT_BUS_TYPE enumeration"]
 ms.keywords: UCX_CONTROLLER_PARENT_BUS_TYPE, UCX_CONTROLLER_PARENT_BUS_TYPE enumeration [Buses], UcxControllerParentBusTypeAcpi, UcxControllerParentBusTypeCustom, UcxControllerParentBusTypePci, _UCX_CONTROLLER_PARENT_BUS_TYPE, buses.ucx_controller_parent_bus_type, ucxcontroller/UCX_CONTROLLER_PARENT_BUS_TYPE, ucxcontroller/UcxControllerParentBusTypeAcpi, ucxcontroller/UcxControllerParentBusTypeCustom, ucxcontroller/UcxControllerParentBusTypePci
 f1_keywords:
  - "ucxcontroller/UCX_CONTROLLER_PARENT_BUS_TYPE"
+ - "UCX_CONTROLLER_PARENT_BUS_TYPE"
 req.header: ucxcontroller.h
 req.include-header: Ucxclass.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ucxcontroller.h
 api_name:
 - UCX_CONTROLLER_PARENT_BUS_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: UCX_CONTROLLER_PARENT_BUS_TYPE
 ---

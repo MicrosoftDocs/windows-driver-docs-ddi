@@ -10,6 +10,7 @@ keywords: ["IDDCX_ENDPOINT_VERSION structure"]
 ms.keywords: IDDCX_ENDPOINT_VERSION, IDDCX_ENDPOINT_VERSION structure [Display Devices], display.iddcx_endpoint_version, iddcx/IDDCX_ENDPOINT_VERSION
 f1_keywords:
  - "iddcx/IDDCX_ENDPOINT_VERSION"
+ - "IDDCX_ENDPOINT_VERSION"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - iddcx.h
 api_name:
 - IDDCX_ENDPOINT_VERSION
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["__MIDL_IKeywordDetectorOemAdapter_0003 structure"]
 ms.keywords: KEYWORDSELECTOR, KEYWORDSELECTOR structure [Audio Devices], __MIDL_IKeywordDetectorOemAdapter_0003, audio.keywordselector, keyworddetectoroemadapter/KEYWORDSELECTOR
 f1_keywords:
  - "keyworddetectoroemadapter/KEYWORDSELECTOR"
+ - "KEYWORDSELECTOR"
 req.header: keyworddetectoroemadapter.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - KeywordDetectorOemAdapter.h
 api_name:
 - KEYWORDSELECTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: KEYWORDSELECTOR
 ---

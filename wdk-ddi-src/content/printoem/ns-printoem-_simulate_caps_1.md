@@ -10,6 +10,7 @@ keywords: ["_SIMULATE_CAPS_1 structure"]
 ms.keywords: "*PSIMULATE_CAPS_1, PSIMULATE_CAPS_1, PSIMULATE_CAPS_1 structure pointer [Print Devices], SIMULATE_CAPS_1, SIMULATE_CAPS_1 structure [Print Devices], _SIMULATE_CAPS_1, print.simulate_caps_1, print_interface-graphics_cb1ba0de-be04-4b11-a746-97fd3f2bc213.xml, printoem/PSIMULATE_CAPS_1, printoem/SIMULATE_CAPS_1"
 f1_keywords:
  - "printoem/SIMULATE_CAPS_1"
+ - "SIMULATE_CAPS_1"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - printoem.h
 api_name:
 - SIMULATE_CAPS_1
-product:
-- Windows
 targetos: Windows
 req.typenames: SIMULATE_CAPS_1, *PSIMULATE_CAPS_1
 ---

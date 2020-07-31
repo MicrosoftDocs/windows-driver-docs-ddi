@@ -9,6 +9,7 @@ keywords: ["_DXGKARG_FORMATHISTORYBUFFER structure"]
 ms.keywords: DXGKARG_FORMATHISTORYBUFFER, DXGKARG_FORMATHISTORYBUFFER structure [Display Devices], _DXGKARG_FORMATHISTORYBUFFER, d3dkmddi/DXGKARG_FORMATHISTORYBUFFER, display.dxgkarg_formathistorybuffer
 f1_keywords:
  - "d3dkmddi/DXGKARG_FORMATHISTORYBUFFER"
+ - "DXGKARG_FORMATHISTORYBUFFER"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - D3dkmddi.h
 api_name:
 - DXGKARG_FORMATHISTORYBUFFER
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGKARG_FORMATHISTORYBUFFER

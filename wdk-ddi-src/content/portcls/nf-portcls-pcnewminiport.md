@@ -10,6 +10,7 @@ keywords: ["PcNewMiniport function"]
 ms.keywords: PcNewMiniport, PcNewMiniport function [Audio Devices], audio.pcnewminiport, audpc-routines_d0b1d8e9-e4e0-44de-8854-a1b18eac9ff5.xml, portcls/PcNewMiniport
 f1_keywords:
  - "portcls/PcNewMiniport"
+ - "PcNewMiniport"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Portcls.dll
 api_name:
 - PcNewMiniport
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

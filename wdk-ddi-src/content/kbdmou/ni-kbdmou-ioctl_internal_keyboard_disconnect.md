@@ -10,6 +10,7 @@ keywords: ["IOCTL_INTERNAL_KEYBOARD_DISCONNECT IOCTL"]
 ms.keywords: IOCTL_INTERNAL_KEYBOARD_DISCONNECT, IOCTL_INTERNAL_KEYBOARD_DISCONNECT control, IOCTL_INTERNAL_KEYBOARD_DISCONNECT control code [Human Input Devices], hid.ioctl_internal_keyboard_disconnect, kbdmou/IOCTL_INTERNAL_KEYBOARD_DISCONNECT, kfilref_fd52cb0d-fbdd-44fb-9c71-ec829387a88b.xml
 f1_keywords:
  - "kbdmou/IOCTL_INTERNAL_KEYBOARD_DISCONNECT"
+ - "IOCTL_INTERNAL_KEYBOARD_DISCONNECT"
 req.header: kbdmou.h
 req.include-header: Kbdmou.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - kbdmou.h
 api_name:
 - IOCTL_INTERNAL_KEYBOARD_DISCONNECT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

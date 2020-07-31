@@ -10,6 +10,7 @@ keywords: ["USBD_ParseDescriptors function"]
 ms.keywords: USBD_ParseDescriptors, USBD_ParseDescriptors routine [Buses], buses.usbd_parsedescriptors, usbdlib/USBD_ParseDescriptors, usbfunc_a66c16e5-451c-4d5b-a621-4c4969200acd.xml
 f1_keywords:
  - "usbdlib/USBD_ParseDescriptors"
+ - "USBD_ParseDescriptors"
 req.header: usbdlib.h
 req.include-header: Usbdlib.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Usbd.dll
 api_name:
 - USBD_ParseDescriptors
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

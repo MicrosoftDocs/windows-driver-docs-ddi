@@ -10,6 +10,7 @@ keywords: ["_CMP_GET_PLUG_STATE structure"]
 ms.keywords: "*PCMP_GET_PLUG_STATE, 61883/CMP_GET_PLUG_STATE, 61883/PCMP_GET_PLUG_STATE, CMP_GET_PLUG_STATE, CMP_GET_PLUG_STATE structure [Buses], IEEE.cmp_get_plug_state, PCMP_GET_PLUG_STATE, PCMP_GET_PLUG_STATE structure pointer [Buses], _CMP_GET_PLUG_STATE"
 f1_keywords:
  - "61883/CMP_GET_PLUG_STATE"
+ - "CMP_GET_PLUG_STATE"
 req.header: 61883.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - 61883.h
 api_name:
 - CMP_GET_PLUG_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: CMP_GET_PLUG_STATE, *PCMP_GET_PLUG_STATE
 ---

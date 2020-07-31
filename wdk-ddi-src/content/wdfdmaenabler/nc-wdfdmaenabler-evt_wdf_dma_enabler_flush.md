@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_DMA_ENABLER_FLUSH callback function"]
 ms.keywords: DFDmaObjectRef_0a019ec3-228e-47d0-ab8c-9c07e200e229.xml, EVT_WDF_DMA_ENABLER_FLUSH, EVT_WDF_DMA_ENABLER_FLUSH callback, EvtDmaEnablerFlush, EvtDmaEnablerFlush callback function, kmdf.evtdmaenablerflush, wdf.evtdmaenablerflush, wdfdmaenabler/EvtDmaEnablerFlush
 f1_keywords:
  - "wdfdmaenabler/EvtDmaEnablerFlush"
+ - "EvtDmaEnablerFlush"
 req.header: wdfdmaenabler.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - WdfDmaEnabler.h
 api_name:
 - EvtDmaEnablerFlush
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

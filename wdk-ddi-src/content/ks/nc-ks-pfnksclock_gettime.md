@@ -10,6 +10,7 @@ keywords: ["PFNKSCLOCK_GETTIME callback function"]
 ms.keywords: KStrClockGetPhysicalTime, KStrClockGetTime, PFNKSCLOCK_GETTIME, SystemClockGetTime, SystemClockGetTime routine [Streaming Media Devices], ks/SystemClockGetTime, ksfunc_a60a332c-ffc8-4969-9e81-cccaac9b5c0a.xml, stream.kstrclockgettime
 f1_keywords:
  - "ks/SystemClockGetTime"
+ - "SystemClockGetTime"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - SystemClockGetTime
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

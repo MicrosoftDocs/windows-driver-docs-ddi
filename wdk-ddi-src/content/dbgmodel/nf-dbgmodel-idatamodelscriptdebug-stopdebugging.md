@@ -7,6 +7,7 @@ ms.date: 08/21/2018
 keywords: ["IDataModelScriptDebug::StopDebugging"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebug.StopDebugging"
+ - "IDataModelScriptDebug.StopDebugging"
 ms.keywords: IDataModelScriptDebug::StopDebugging, StopDebugging, IDataModelScriptDebug.StopDebugging, IDataModelScriptDebug::StopDebugging, IDataModelScriptDebug.StopDebugging
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDataModelScriptDebug.StopDebugging
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

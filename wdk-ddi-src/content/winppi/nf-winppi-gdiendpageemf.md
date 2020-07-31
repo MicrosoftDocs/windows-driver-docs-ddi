@@ -10,6 +10,7 @@ keywords: ["GdiEndPageEMF function"]
 ms.keywords: GdiEndPageEMF, GdiEndPageEMF function [Print Devices], gdifnc_867f18b8-1764-41a4-a7c1-e43fa72a3d27.xml, print.gdiendpageemf, winppi/GdiEndPageEMF
 f1_keywords:
  - "winppi/GdiEndPageEMF"
+ - "GdiEndPageEMF"
 req.header: winppi.h
 req.include-header: Winppi.h
 req.target-type: Universal
@@ -38,8 +39,6 @@ api_location:
 - GDI32Full.dll
 api_name:
 - GdiEndPageEMF
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

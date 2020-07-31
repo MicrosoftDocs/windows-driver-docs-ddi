@@ -10,6 +10,7 @@ keywords: ["FltQueueDeferredIoWorkItem function"]
 ms.keywords: FltApiRef_p_to_z_df42429d-485c-4c28-a9e7-b334d7ad52d7.xml, FltQueueDeferredIoWorkItem, FltQueueDeferredIoWorkItem routine [Installable File System Drivers], fltkernel/FltQueueDeferredIoWorkItem, ifsk.fltqueuedeferredioworkitem
 f1_keywords:
  - "fltkernel/FltQueueDeferredIoWorkItem"
+ - "FltQueueDeferredIoWorkItem"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltQueueDeferredIoWorkItem
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

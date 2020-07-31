@@ -10,6 +10,7 @@ keywords: ["RILDELETEADDITIONALNUMBERSTRINGPARAMS structure"]
 ms.keywords: "*LPRILDELETEADDITIONALNUMBERSTRINGPARAMS, RILDELETEADDITIONALNUMBERSTRINGPARAMS, RILDELETEADDITIONALNUMBERSTRINGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rildeleteadditionalnumberstringparams, ntddrilapitypes/RILDELETEADDITIONALNUMBERSTRINGPARAMS"
 f1_keywords:
  - "ntddrilapitypes/RILDELETEADDITIONALNUMBERSTRINGPARAMS"
+ - "RILDELETEADDITIONALNUMBERSTRINGPARAMS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILDELETEADDITIONALNUMBERSTRINGPARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILDELETEADDITIONALNUMBERSTRINGPARAMS, *LPRILDELETEADDITIONALNUMBERSTRINGPARAMS
 ---

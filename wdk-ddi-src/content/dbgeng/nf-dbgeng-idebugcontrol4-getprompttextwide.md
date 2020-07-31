@@ -10,6 +10,7 @@ keywords: ["IDebugControl4::GetPromptTextWide"]
 ms.keywords: GetPromptTextWide, GetPromptTextWide method [Windows Debugging], GetPromptTextWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetPromptTextWide method, IDebugControl4.GetPromptTextWide, IDebugControl4::GetPromptTextWide, dbgeng/IDebugControl4::GetPromptTextWide, debugger.getprompttextwide
 f1_keywords:
  - "dbgeng/IDebugControl4.GetPromptTextWide"
+ - "IDebugControl4.GetPromptTextWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugControl4.GetPromptTextWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

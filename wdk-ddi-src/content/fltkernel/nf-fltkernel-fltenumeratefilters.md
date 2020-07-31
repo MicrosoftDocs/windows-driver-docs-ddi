@@ -10,6 +10,7 @@ keywords: ["FltEnumerateFilters function"]
 ms.keywords: FltApiRef_e_to_o_04dcdecd-0910-42be-ae92-93bce56216d7.xml, FltEnumerateFilters, FltEnumerateFilters routine [Installable File System Drivers], fltkernel/FltEnumerateFilters, ifsk.fltenumeratefilters
 f1_keywords:
  - "fltkernel/FltEnumerateFilters"
+ - "FltEnumerateFilters"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - FltMgr.dll
 api_name:
 - FltEnumerateFilters
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

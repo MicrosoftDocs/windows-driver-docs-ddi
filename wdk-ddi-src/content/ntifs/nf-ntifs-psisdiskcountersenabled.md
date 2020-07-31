@@ -10,6 +10,7 @@ keywords: ["PsIsDiskCountersEnabled function"]
 ms.keywords: PsIsDiskCountersEnabled, PsIsDiskCountersEnabled routine [Installable File System Drivers], ifsk.psisdiskcountersenabled, ntifs/PsIsDiskCountersEnabled
 f1_keywords:
  - "ntifs/PsIsDiskCountersEnabled"
+ - "PsIsDiskCountersEnabled"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - PsIsDiskCountersEnabled
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

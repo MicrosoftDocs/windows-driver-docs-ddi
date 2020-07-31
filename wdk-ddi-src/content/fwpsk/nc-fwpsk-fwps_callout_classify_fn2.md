@@ -10,6 +10,7 @@ keywords: ["FWPS_CALLOUT_CLASSIFY_FN2 callback function"]
 ms.keywords: FWPS_CALLOUT_CLASSIFY_FN2, FWPS_CALLOUT_CLASSIFY_FN2 callback, classifyFn2, classifyFn2 callback function [Network Drivers Starting with Windows Vista], fwpsk/classifyFn2, netvista.classifyfn2
 f1_keywords:
  - "fwpsk/classifyFn2"
+ - "classifyFn2"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Fwpsk.h
 api_name:
 - classifyFn2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

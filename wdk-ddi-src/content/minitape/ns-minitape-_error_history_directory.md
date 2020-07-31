@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_ERROR_HISTORY_DIRECTORY structure"]
 f1_keywords:
  - "minitape/_ERROR_HISTORY_DIRECTORY"
+ - "_ERROR_HISTORY_DIRECTORY"
 ms.keywords: _ERROR_HISTORY_DIRECTORY, ERROR_HISTORY_DIRECTORY, *PERROR_HISTORY_DIRECTORY, 
 req.header: minitape.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - minitape.h
 api_name: 
 - _ERROR_HISTORY_DIRECTORY
-product:
-- Windows
 targetos: Windows
 ---
 

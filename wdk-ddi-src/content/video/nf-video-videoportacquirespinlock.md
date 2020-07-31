@@ -10,6 +10,7 @@ keywords: ["VideoPortAcquireSpinLock function"]
 ms.keywords: VideoPortAcquireSpinLock, VideoPortAcquireSpinLock function [Display Devices], VideoPort_Functions_c25b68ac-032b-4b1c-bb15-93957f2e345c.xml, display.videoportacquirespinlock, video/VideoPortAcquireSpinLock
 f1_keywords:
  - "video/VideoPortAcquireSpinLock"
+ - "VideoPortAcquireSpinLock"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Videoprt.sys
 api_name:
 - VideoPortAcquireSpinLock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

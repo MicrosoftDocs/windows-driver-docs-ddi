@@ -10,6 +10,7 @@ keywords: ["IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO IOCTL"]
 ms.keywords: IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO, IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO control, IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO control code [Buses], buses.ioctl_internal_usb_get_device_config_info, usbioctl/IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO
 f1_keywords:
  - "usbioctl/IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO"
+ - "IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO"
 req.header: usbioctl.h
 req.include-header: Usbioctl.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Usbioctl.h
 api_name:
 - IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

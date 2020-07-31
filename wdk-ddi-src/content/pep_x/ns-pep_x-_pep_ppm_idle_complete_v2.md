@@ -10,6 +10,7 @@ keywords: ["_PEP_PPM_IDLE_COMPLETE_V2 structure"]
 ms.keywords: "*PPEP_PPM_IDLE_COMPLETE_V2, PEP_PPM_IDLE_COMPLETE_V2, PEP_PPM_IDLE_COMPLETE_V2 structure [Kernel-Mode Driver Architecture], PPEP_PPM_IDLE_COMPLETE_V2, PPEP_PPM_IDLE_COMPLETE_V2 structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_IDLE_COMPLETE_V2, kernel.pep_ppm_idle_complete_v2, pepfx/PEP_PPM_IDLE_COMPLETE_V2, pepfx/PPEP_PPM_IDLE_COMPLETE_V2"
 f1_keywords:
  - "pep_x/PEP_PPM_IDLE_COMPLETE_V2"
+ - "PEP_PPM_IDLE_COMPLETE_V2"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - PEP_PPM_IDLE_COMPLETE_V2
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_PPM_IDLE_COMPLETE_V2, *PPEP_PPM_IDLE_COMPLETE_V2
 ---

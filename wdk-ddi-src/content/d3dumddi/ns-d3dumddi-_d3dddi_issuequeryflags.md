@@ -10,6 +10,7 @@ keywords: ["_D3DDDI_ISSUEQUERYFLAGS structure"]
 ms.keywords: D3DDDI_ISSUEQUERYFLAGS, D3DDDI_ISSUEQUERYFLAGS structure [Display Devices], D3D_other_Structs_794dd0b0-f24c-4e9e-befe-d79dd4efbaef.xml, _D3DDDI_ISSUEQUERYFLAGS, d3dumddi/D3DDDI_ISSUEQUERYFLAGS, display.d3dddi_issuequeryflags
 f1_keywords:
  - "d3dumddi/D3DDDI_ISSUEQUERYFLAGS"
+ - "D3DDDI_ISSUEQUERYFLAGS"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDI_ISSUEQUERYFLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDI_ISSUEQUERYFLAGS
 ---

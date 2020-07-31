@@ -10,6 +10,7 @@ keywords: ["AtaPortDeviceReady function"]
 ms.keywords: AtaPortDeviceReady, AtaPortDeviceReady routine [Storage Devices], atartns_28cebf8c-cdda-46f4-9785-184552630769.xml, irb/AtaPortDeviceReady, storage.ataportdeviceready
 f1_keywords:
  - "irb/AtaPortDeviceReady"
+ - "AtaPortDeviceReady"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - irb.h
 api_name:
 - AtaPortDeviceReady
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

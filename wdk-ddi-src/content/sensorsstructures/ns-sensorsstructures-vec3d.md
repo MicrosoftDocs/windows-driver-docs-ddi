@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["VEC3D structure"]
 f1_keywords:
  - "sensorsstructures/VEC3D"
+ - "VEC3D"
 tech.root: sensors
 ms.keywords: VEC3D, VEC3D, *PVEC3D, 
 req.header: sensorsstructures.h

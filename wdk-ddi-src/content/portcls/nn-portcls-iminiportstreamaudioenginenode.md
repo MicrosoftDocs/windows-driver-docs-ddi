@@ -10,6 +10,7 @@ keywords: ["IMiniportStreamAudioEngineNode interface"]
 ms.keywords: IMiniportStreamAudioEngineNode, IMiniportStreamAudioEngineNode interface [Audio Devices], IMiniportStreamAudioEngineNode interface [Audio Devices],described, audio.iminiportstreamaudioenginenode, portcls/IMiniportStreamAudioEngineNode
 f1_keywords:
  - "portcls/IMiniportStreamAudioEngineNode"
+ - "IMiniportStreamAudioEngineNode"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Portcls.h
 api_name:
 - IMiniportStreamAudioEngineNode
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,7 +52,7 @@ This interface allows a miniport driver to use KS properties that access the aud
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMiniportStreamAudioEngineNode</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMiniportStreamAudioEngineNode</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMiniportStreamAudioEngineNode</b> interface inherits from the <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMiniportStreamAudioEngineNode</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

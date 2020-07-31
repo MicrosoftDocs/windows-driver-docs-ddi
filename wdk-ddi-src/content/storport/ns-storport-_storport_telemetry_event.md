@@ -10,6 +10,7 @@ keywords: ["_STORPORT_TELEMETRY_EVENT structure"]
 ms.keywords: "*PSTORPORT_TELEMETRY_EVENT, PSTORPORT_TELEMETRY_EVENT, PSTORPORT_TELEMETRY_EVENT structure pointer [Storage Devices], STORPORT_TELEMETRY_EVENT, STORPORT_TELEMETRY_EVENT structure [Storage Devices], _STORPORT_TELEMETRY_EVENT, storage.storport_telemetry_event, storport/PSTORPORT_TELEMETRY_EVENT, storport/STORPORT_TELEMETRY_EVENT"
 f1_keywords:
  - "storport/STORPORT_TELEMETRY_EVENT"
+ - "STORPORT_TELEMETRY_EVENT"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - storport.h
 api_name:
 - STORPORT_TELEMETRY_EVENT
-product:
-- Windows
 targetos: Windows
 req.typenames: STORPORT_TELEMETRY_EVENT, *PSTORPORT_TELEMETRY_EVENT
 ---

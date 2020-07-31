@@ -10,6 +10,7 @@ keywords: ["_SM_SetPersistentBinding_IN structure"]
 ms.keywords: "*PSM_SetPersistentBinding_IN, PSM_SetPersistentBinding_IN, PSM_SetPersistentBinding_IN structure pointer [Storage Devices], SM_SetPersistentBinding_IN, SM_SetPersistentBinding_IN structure [Storage Devices], _SM_SetPersistentBinding_IN, hbapiwmi/PSM_SetPersistentBinding_IN, hbapiwmi/SM_SetPersistentBinding_IN, storage.sm_setpersistentbinding_in, structs-Fibre_9af25c8f-f9de-482d-8103-f372405d7771.xml"
 f1_keywords:
  - "hbapiwmi/SM_SetPersistentBinding_IN"
+ - "SM_SetPersistentBinding_IN"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - SM_SetPersistentBinding_IN
-product:
-- Windows
 targetos: Windows
 req.typenames: SM_SetPersistentBinding_IN, *PSM_SetPersistentBinding_IN
 ---

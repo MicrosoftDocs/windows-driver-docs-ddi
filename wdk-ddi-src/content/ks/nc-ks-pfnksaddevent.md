@@ -10,6 +10,7 @@ keywords: ["PFNKSADDEVENT callback function"]
 ms.keywords: AVStrMiniAddEvent, AVStrMiniAddEvent routine [Streaming Media Devices], PFNKSADDEVENT, avstclbk_31147072-c3de-4b02-9fb1-b7f67765acc4.xml, ks/AVStrMiniAddEvent, stream.avstrminiaddevent
 f1_keywords:
  - "ks/AVStrMiniAddEvent"
+ - "AVStrMiniAddEvent"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - AVStrMiniAddEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

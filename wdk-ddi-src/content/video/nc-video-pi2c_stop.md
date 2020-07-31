@@ -10,6 +10,7 @@ keywords: ["PI2C_STOP callback function"]
 ms.keywords: I2CStop, I2CStop callback function [Display Devices], PI2C_STOP, PI2C_STOP callback, VideoPort_Functions_736a5ce6-846f-4c8c-b851-b65c365bba71.xml, display.i2cstop, video/I2CStop
 f1_keywords:
  - "video/I2CStop"
+ - "I2CStop"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - video.h
 api_name:
 - I2CStop
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

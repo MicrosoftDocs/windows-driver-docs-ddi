@@ -10,6 +10,7 @@ keywords: ["_BTHX_CAPABILITIES structure"]
 ms.keywords: "*PBTHX_CAPABILITIES, BTHX_CAPABILITIES, BTHX_CAPABILITIES structure [Bluetooth Devices], PBTHX_CAPABILITIES, PBTHX_CAPABILITIES structure pointer [Bluetooth Devices], _BTHX_CAPABILITIES, bltooth.bthx_capabilities, bthxddi/BTHX_CAPABILITIES, bthxddi/PBTHX_CAPABILITIES"
 f1_keywords:
  - "bthxddi/BTHX_CAPABILITIES"
+ - "BTHX_CAPABILITIES"
 req.header: bthxddi.h
 req.include-header: BthXDDI.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - BthXDDI.h
 api_name:
 - BTHX_CAPABILITIES
-product:
-- Windows
 targetos: Windows
 req.typenames: BTHX_CAPABILITIES, *PBTHX_CAPABILITIES
 ---

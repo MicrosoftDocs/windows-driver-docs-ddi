@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["UsbPm_RetrieveHubConnectorHandles function"]
 f1_keywords:
  - "usbpmapi/UsbPm_RetrieveHubConnectorHandles"
+ - "UsbPm_RetrieveHubConnectorHandles"
 ms.keywords: UsbPm_RetrieveHubConnectorHandles
 tech.root: usbref
 req.header: usbpmapi.h
@@ -34,8 +35,6 @@ api_location:
 - UsbPmApi.lib
 api_name: 
 - UsbPm_RetrieveHubConnectorHandles
-product:
-- Windows
 targetos: Windows
 
 

@@ -10,6 +10,7 @@ keywords: ["RtlUnicodeToUTF8N function"]
 ms.keywords: RtlUnicodeToUTF8N, RtlUnicodeToUTF8N routine [Kernel-Mode Driver Architecture], k109_8c33089a-9b47-4c33-9468-56a16caea229.xml, kernel.rtlunicodetoutf8n, wdm/RtlUnicodeToUTF8N
 f1_keywords:
  - "ntifs/RtlUnicodeToUTF8N"
+ - "RtlUnicodeToUTF8N"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Wdm.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlUnicodeToUTF8N
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IServiceGroup::RequestService"]
 ms.keywords: IServiceGroup interface [Audio Devices],RequestService method, IServiceGroup.RequestService, IServiceGroup::RequestService, RequestService, RequestService method [Audio Devices], RequestService method [Audio Devices],IServiceGroup interface, audio.iservicegroup_requestservice, audmp-routines_0d318d56-28e9-4e42-84b3-1d0eb4110f71.xml, portcls/IServiceGroup::RequestService
 f1_keywords:
  - "portcls/IServiceGroup::RequestService"
+ - "IServiceGroup::RequestService"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -35,8 +36,6 @@ api_location:
 - portcls.h
 api_name:
 - IServiceGroup::RequestService
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

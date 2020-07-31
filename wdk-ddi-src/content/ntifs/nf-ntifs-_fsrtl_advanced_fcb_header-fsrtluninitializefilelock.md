@@ -10,6 +10,7 @@ keywords: ["FsRtlUninitializeFileLock function"]
 ms.keywords: FsRtlUninitializeFileLock, FsRtlUninitializeFileLock routine [Installable File System Drivers], fsrtlref_d78c3eae-751c-4440-8915-455454886201.xml, ifsk.fsrtluninitializefilelock, ntifs/FsRtlUninitializeFileLock
 f1_keywords:
  - "ntifs/FsRtlUninitializeFileLock"
+ - "FsRtlUninitializeFileLock"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlUninitializeFileLock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

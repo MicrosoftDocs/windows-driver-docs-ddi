@@ -9,6 +9,7 @@ keywords: ["PFND3D11DDI_DISPATCHINDIRECT callback function"]
 ms.keywords: DispatchIndirect, DispatchIndirect callback function [Display Devices], PFND3D11DDI_DISPATCHINDIRECT, PFND3D11DDI_DISPATCHINDIRECT callback, UserModeDisplayDriverDx11_Functions_39c7b613-66de-4dd8-8b43-d1ae2a926e77.xml, d3d10umddi/DispatchIndirect, display.dispatchindirect
 f1_keywords:
  - "d3d10umddi/DispatchIndirect"
+ - "DispatchIndirect"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - DispatchIndirect
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

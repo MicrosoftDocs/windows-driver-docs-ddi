@@ -10,6 +10,7 @@ keywords: ["_WDI_TYPE_MIC structure"]
 ms.keywords: "*PWDI_TYPE_MIC, PWDI_TYPE_MIC, PWDI_TYPE_MIC structure pointer [Network Drivers Starting with Windows Vista], WDI_TYPE_MIC, WDI_TYPE_MIC structure [Network Drivers Starting with Windows Vista], _WDI_TYPE_MIC, netvista.wdi_type_mic, wditypes/PWDI_TYPE_MIC, wditypes/WDI_TYPE_MIC"
 f1_keywords:
  - "wditypes/WDI_TYPE_MIC"
+ - "WDI_TYPE_MIC"
 req.header: wditypes.hpp
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wditypes.hpp
 api_name:
 - WDI_TYPE_MIC
-product:
-- Windows
 targetos: Windows
 req.typenames: WDI_TYPE_MIC, *PWDI_TYPE_MIC
 ---

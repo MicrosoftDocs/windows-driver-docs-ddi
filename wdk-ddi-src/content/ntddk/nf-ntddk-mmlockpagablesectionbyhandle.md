@@ -10,6 +10,7 @@ keywords: ["MmLockPagableSectionByHandle function"]
 ms.keywords: MmLockPagableSectionByHandle, MmLockPagableSectionByHandle routine [Kernel-Mode Driver Architecture], k106_9c5e1e9c-8382-4082-a3ac-5985224c8b2a.xml, kernel.mmlockpagablesectionbyhandle, ntddk/MmLockPagableSectionByHandle
 f1_keywords:
  - "ntddk/MmLockPagableSectionByHandle"
+ - "MmLockPagableSectionByHandle"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - MmLockPagableSectionByHandle
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

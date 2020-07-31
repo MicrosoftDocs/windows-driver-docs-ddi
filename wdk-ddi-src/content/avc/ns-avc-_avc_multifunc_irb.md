@@ -10,6 +10,7 @@ keywords: ["_AVC_MULTIFUNC_IRB structure"]
 ms.keywords: "*PAVC_MULTIFUNC_IRB, AVC_MULTIFUNC_IRB, AVC_MULTIFUNC_IRB structure [Streaming Media Devices], PAVC_MULTIFUNC_IRB, PAVC_MULTIFUNC_IRB structure pointer [Streaming Media Devices], _AVC_MULTIFUNC_IRB, avc/AVC_MULTIFUNC_IRB, avc/PAVC_MULTIFUNC_IRB, avcref_99cf5d79-48d7-4b86-80a7-9de22cc2f29e.xml, stream.avc_multifunc_irb"
 f1_keywords:
  - "avc/AVC_MULTIFUNC_IRB"
+ - "AVC_MULTIFUNC_IRB"
 req.header: avc.h
 req.include-header: Avc.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - avc.h
 api_name:
 - AVC_MULTIFUNC_IRB
-product:
-- Windows
 targetos: Windows
 req.typenames: AVC_MULTIFUNC_IRB, *PAVC_MULTIFUNC_IRB
 ---

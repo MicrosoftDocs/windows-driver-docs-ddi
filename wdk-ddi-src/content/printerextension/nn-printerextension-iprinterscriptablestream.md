@@ -10,6 +10,7 @@ keywords: ["IPrinterScriptableStream interface"]
 ms.keywords: IPrinterScriptableStream, IPrinterScriptableStream interface [Print Devices], IPrinterScriptableStream interface [Print Devices],described, print.iprinterscriptablestream, printerextension/IPrinterScriptableStream
 f1_keywords:
  - "printerextension/IPrinterScriptableStream"
+ - "IPrinterScriptableStream"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Printerextension.h
 api_name:
 - IPrinterScriptableStream
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

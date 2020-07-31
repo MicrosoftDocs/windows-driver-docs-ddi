@@ -10,6 +10,7 @@ keywords: ["HidP_InitializeReportForID function"]
 ms.keywords: HidP_InitializeReportForID, HidP_InitializeReportForID routine [Human Input Devices], hid.hidp_initializereportforid, hidfunc_b02350cf-7d33-4a71-9afb-4b3c07e52650.xml, hidpi/HidP_InitializeReportForID
 f1_keywords:
  - "hidpi/HidP_InitializeReportForID"
+ - "HidP_InitializeReportForID"
 req.header: hidpi.h
 req.include-header: Hidpi.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Hidparse.dll
 api_name:
 - HidP_InitializeReportForID
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

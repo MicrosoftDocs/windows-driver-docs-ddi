@@ -8,6 +8,7 @@ ms.date: 05/22/2018
 keywords: ["FN_VMB_CHANNEL_SET_INCOMING_PROCESSING_AT_PASSIVE callback function"]
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_SET_INCOMING_PROCESSING_AT_PASSIVE"
+ - "FN_VMB_CHANNEL_SET_INCOMING_PROCESSING_AT_PASSIVE"
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:
@@ -33,8 +34,6 @@ api_location:
 - vmbuskernelmodeclientlibapi.h
 api_name: 
 - FN_VMB_CHANNEL_SET_INCOMING_PROCESSING_AT_PASSIVE
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

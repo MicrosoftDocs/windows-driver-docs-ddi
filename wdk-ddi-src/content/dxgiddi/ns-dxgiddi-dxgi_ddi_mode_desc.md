@@ -10,6 +10,7 @@ keywords: ["DXGI_DDI_MODE_DESC structure"]
 ms.keywords: DXGI_DDI_MODE_DESC, DXGI_DDI_MODE_DESC structure [Display Devices], UMDisplayDriver_Dx10param_Structs_3687fd3c-7423-47bf-a376-a13b820ee787.xml, display.dxgi_ddi_mode_desc, dxgiddi/DXGI_DDI_MODE_DESC
 f1_keywords:
  - "dxgiddi/DXGI_DDI_MODE_DESC"
+ - "DXGI_DDI_MODE_DESC"
 req.header: dxgiddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dxgiddi.h
 api_name:
 - DXGI_DDI_MODE_DESC
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGI_DDI_MODE_DESC
 ---

@@ -10,6 +10,7 @@ keywords: ["GPIO_CLIENT_SAVE_BANK_HARDWARE_CONTEXT callback function"]
 ms.keywords: CLIENT_SaveBankHardwareContext, CLIENT_SaveBankHardwareContext callback, CLIENT_SaveBankHardwareContext callback function [Parallel Ports], GPIO.client_savebankhardwarecontext, GPIO_CLIENT_SAVE_BANK_HARDWARE_CONTEXT, gpioclx/CLIENT_SaveBankHardwareContext
 f1_keywords:
  - "gpioclx/CLIENT_SaveBankHardwareContext"
+ - "CLIENT_SaveBankHardwareContext"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Gpioclx.h
 api_name:
 - CLIENT_SaveBankHardwareContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

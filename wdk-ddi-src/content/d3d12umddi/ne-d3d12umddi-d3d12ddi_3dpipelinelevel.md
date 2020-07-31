@@ -25,6 +25,7 @@ targetos: Windows
 ms.custom: 19H1
 f1_keywords:
  - "d3d12umddi/D3D12DDI_3DPIPELINELEVEL"
+ - "D3D12DDI_3DPIPELINELEVEL"
 topic_type:
  - apiref
 api_type:

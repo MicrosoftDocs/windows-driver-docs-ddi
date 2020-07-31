@@ -10,6 +10,7 @@ keywords: ["_PosEventDataHeader structure"]
 ms.keywords: PosBarcodeScannerImagePreviewEventData, PosBarcodeScannerImagePreviewEventData structure, PosEventDataHeader, PosEventDataHeader structure, _PosEventDataHeader, pointofservicedriverinterface/PosBarcodeScannerImagePreviewEventData, pointofservicedriverinterface/PosEventDataHeader, pos.posbarcodescannerimageprevieweventdata
 f1_keywords:
  - "pointofservicedriverinterface/PosEventDataHeader"
+ - "PosEventDataHeader"
 req.header: pointofservicedriverinterface.h
 req.include-header: PointOfServiceDriverInterface.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - PointOfServiceDriverInterface.h
 api_name:
 - PosEventDataHeader
-product:
-- Windows
 targetos: Windows
 req.typenames: PosEventDataHeader, PosBarcodeScannerImagePreviewEventData
 ---

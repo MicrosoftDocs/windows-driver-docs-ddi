@@ -10,6 +10,7 @@ keywords: ["ExInterlockedInsertTailList function"]
 ms.keywords: ExInterlockedInsertTailList, ExInterlockedInsertTailList routine [Kernel-Mode Driver Architecture], k102_a6d47e7b-63d2-48e9-9f6a-99f733194c1b.xml, kernel.exinterlockedinserttaillist, wdm/ExInterlockedInsertTailList
 f1_keywords:
  - "wdm/ExInterlockedInsertTailList"
+ - "ExInterlockedInsertTailList"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - ExInterlockedInsertTailList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

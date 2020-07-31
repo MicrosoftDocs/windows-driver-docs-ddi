@@ -10,6 +10,7 @@ keywords: ["_TAPE_GET_POSITION structure"]
 ms.keywords: "*PTAPE_GET_POSITION, PTAPE_GET_POSITION, PTAPE_GET_POSITION structure pointer [Storage Devices], TAPE_GET_POSITION, TAPE_GET_POSITION structure [Storage Devices], _TAPE_GET_POSITION, ntddtape/PTAPE_GET_POSITION, ntddtape/TAPE_GET_POSITION, storage.tape_get_position, structs-tape_e80e5f0f-02d5-4745-a2d1-3d94e8dc9959.xml"
 f1_keywords:
  - "ntddtape/TAPE_GET_POSITION"
+ - "TAPE_GET_POSITION"
 req.header: ntddtape.h
 req.include-header: Ntddtape.h, Minitape.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddtape.h
 api_name:
 - TAPE_GET_POSITION
-product:
-- Windows
 targetos: Windows
 req.typenames: TAPE_GET_POSITION, *PTAPE_GET_POSITION
 ---

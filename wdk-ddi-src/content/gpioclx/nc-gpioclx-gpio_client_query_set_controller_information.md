@@ -10,6 +10,7 @@ keywords: ["GPIO_CLIENT_QUERY_SET_CONTROLLER_INFORMATION callback function"]
 ms.keywords: CLIENT_QuerySetControllerInformation, CLIENT_QuerySetControllerInformation callback, CLIENT_QuerySetControllerInformation callback function [Parallel Ports], GPIO.client_querysetcontrollerinformation, GPIO_CLIENT_QUERY_SET_CONTROLLER_INFORMATION, gpioclx/CLIENT_QuerySetControllerInformation
 f1_keywords:
  - "gpioclx/CLIENT_QuerySetControllerInformation"
+ - "CLIENT_QuerySetControllerInformation"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Gpioclx.h
 api_name:
 - CLIENT_QuerySetControllerInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

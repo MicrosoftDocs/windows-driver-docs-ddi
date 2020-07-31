@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DXGKDDI_COLLECTDIAGNOSTICINFO callback function"]
 f1_keywords:
  - "dispmprt/DXGKDDI_COLLECTDIAGNOSTICINFO"
+ - "DXGKDDI_COLLECTDIAGNOSTICINFO"
 req.header: dispmprt.h
 req.include-header:
 req.target-type:
@@ -35,8 +36,6 @@ api_location:
  - dispmprt.h
 api_name: 
  - DXGKDDI_COLLECTDIAGNOSTICINFO
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

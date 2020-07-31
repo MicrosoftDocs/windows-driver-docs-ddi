@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["_DMA_TRANSFER_INFO_V2 structure"]
 f1_keywords:
  - "wdm/_DMA_TRANSFER_INFO_V2"
+ - "_DMA_TRANSFER_INFO_V2"
 ms.keywords: _DMA_TRANSFER_INFO_V2, DMA_TRANSFER_INFO_V2, *PDMA_TRANSFER_INFO_V2, 
 req.header: wdm.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - wdm.h
 api_name: 
 - _DMA_TRANSFER_INFO_V2
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

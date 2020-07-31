@@ -8,6 +8,7 @@ ms.date: 04/02/2018
 keywords: ["MINIPORT_WDI_TX_SUSPECT_FRAME_LIST_ABORT callback function"]
 f1_keywords:
  - "dot11wdi/MINIPORT_WDI_TX_SUSPECT_FRAME_LIST_ABORT"
+ - "MINIPORT_WDI_TX_SUSPECT_FRAME_LIST_ABORT"
 req.header: dot11wdi.h
 req.include-header:
 req.target-type:
@@ -33,8 +34,6 @@ api_location:
 - dot11wdi.h
 api_name: 
 - MINIPORT_WDI_TX_SUSPECT_FRAME_LIST_ABORT
-product:
-- Windows
 targetos: Windows
 ---
 

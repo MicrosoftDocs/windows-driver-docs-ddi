@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["IOCTL_TR_ENUMERATE_SERVICES IOCTL"]
 f1_keywords:
  - "trustedrt/IOCTL_TR_ENUMERATE_SERVICES"
+ - "IOCTL_TR_ENUMERATE_SERVICES"
 req.header: trustedrt.h
 req.include-header:
 req.target-type:
@@ -27,8 +28,6 @@ api_location:
 - trustedrt.h
 api_name: 
 - IOCTL_TR_ENUMERATE_SERVICES
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

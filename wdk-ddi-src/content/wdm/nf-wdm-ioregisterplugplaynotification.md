@@ -10,6 +10,7 @@ keywords: ["IoRegisterPlugPlayNotification function"]
 ms.keywords: IoRegisterPlugPlayNotification, IoRegisterPlugPlayNotification routine [Kernel-Mode Driver Architecture], k104_2210e60c-f9ca-4848-8aab-7b01d2d2ffd7.xml, kernel.ioregisterplugplaynotification, wdm/IoRegisterPlugPlayNotification
 f1_keywords:
  - "wdm/IoRegisterPlugPlayNotification"
+ - "IoRegisterPlugPlayNotification"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoRegisterPlugPlayNotification
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: 19H1

@@ -10,6 +10,7 @@ keywords: ["IMiniportMidiStream::Write"]
 ms.keywords: IMiniportMidiStream interface [Audio Devices],Write method, IMiniportMidiStream.Write, IMiniportMidiStream::Write, Write, Write method [Audio Devices], Write method [Audio Devices],IMiniportMidiStream interface, audio.iminiportmidistream_write, audmp-routines_523fd287-5380-4259-ba2c-4d9adef4fe4b.xml, portcls/IMiniportMidiStream::Write
 f1_keywords:
  - "portcls/IMiniportMidiStream.Write"
+ - "IMiniportMidiStream.Write"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IMiniportMidiStream.Write
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

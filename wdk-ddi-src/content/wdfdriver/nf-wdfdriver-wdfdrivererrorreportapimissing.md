@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["WdfDriverErrorReportApiMissing function"]
 f1_keywords:
  - "wdfdriver/WdfDriverErrorReportApiMissing"
+ - "WdfDriverErrorReportApiMissing"
 ms.keywords: WdfDriverErrorReportApiMissing
 req.header: wdfdriver.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - NtosKrnl.exe
 api_name: 
 - WdfDriverErrorReportApiMissing
-product:
-- Windows
 targetos: Windows
 
 ---

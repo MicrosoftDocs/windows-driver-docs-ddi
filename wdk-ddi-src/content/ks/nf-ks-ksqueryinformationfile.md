@@ -10,6 +10,7 @@ keywords: ["KsQueryInformationFile function"]
 ms.keywords: KsQueryInformationFile, KsQueryInformationFile function [Streaming Media Devices], ks/KsQueryInformationFile, ksfunc_3d343664-3fda-4612-96d4-3fe36532c99e.xml, stream.ksqueryinformationfile
 f1_keywords:
  - "ks/KsQueryInformationFile"
+ - "KsQueryInformationFile"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsQueryInformationFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

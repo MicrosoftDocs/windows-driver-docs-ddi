@@ -10,6 +10,7 @@ keywords: ["_WSK_EVENT_CALLBACK_CONTROL structure"]
 ms.keywords: "*PWSK_EVENT_CALLBACK_CONTROL, PWSK_EVENT_CALLBACK_CONTROL, PWSK_EVENT_CALLBACK_CONTROL structure pointer [Network Drivers Starting with Windows Vista], WSK_EVENT_CALLBACK_CONTROL, WSK_EVENT_CALLBACK_CONTROL structure [Network Drivers Starting with Windows Vista], _WSK_EVENT_CALLBACK_CONTROL, netvista.wsk_event_callback_control, wsk/PWSK_EVENT_CALLBACK_CONTROL, wsk/WSK_EVENT_CALLBACK_CONTROL, wskref_22cd0a01-12fe-4e5a-a423-c3198cc5ab05.xml"
 f1_keywords:
  - "wsk/WSK_EVENT_CALLBACK_CONTROL"
+ - "WSK_EVENT_CALLBACK_CONTROL"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wsk.h
 api_name:
 - WSK_EVENT_CALLBACK_CONTROL
-product:
-- Windows
 targetos: Windows
 req.typenames: WSK_EVENT_CALLBACK_CONTROL, *PWSK_EVENT_CALLBACK_CONTROL
 ---
@@ -94,7 +93,7 @@ For more information about statically enabling certain event callback functions 
     WSK_SET_STATIC_EVENT_CALLBACKS</a>.
 
 For more information about enabling and disabling a socket's event callback functions, see 
-    <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nc-evntprov-penablecallback">Enabling and
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/enabling-and-disabling-event-callback-functions">Enabling and
     Disabling Event Callback Functions</a>.
 
 

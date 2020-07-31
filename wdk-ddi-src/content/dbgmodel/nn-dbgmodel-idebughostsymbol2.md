@@ -7,6 +7,7 @@ ms.date: 06/11/2019
 keywords: ["IDebugHostSymbol2 interface"]
 f1_keywords:
  - "dbgmodel/IDebugHostSymbol2"
+ - "IDebugHostSymbol2"
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -28,8 +29,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostSymbol2
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

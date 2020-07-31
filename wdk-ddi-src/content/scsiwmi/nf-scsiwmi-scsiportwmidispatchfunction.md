@@ -10,6 +10,7 @@ keywords: ["ScsiPortWmiDispatchFunction function"]
 ms.keywords: ScsiPortWmiDispatchFunction, ScsiPortWmiDispatchFunction routine [Storage Devices], scsiprt_03d0ec2c-b525-48d5-bcc3-cfd89fe020bd.xml, scsiwmi/ScsiPortWmiDispatchFunction, storage.scsiportwmidispatchfunction
 f1_keywords:
  - "scsiwmi/ScsiPortWmiDispatchFunction"
+ - "ScsiPortWmiDispatchFunction"
 req.header: scsiwmi.h
 req.include-header: Miniport.h, Scsi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - scsiwmi.h
 api_name:
 - ScsiPortWmiDispatchFunction
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

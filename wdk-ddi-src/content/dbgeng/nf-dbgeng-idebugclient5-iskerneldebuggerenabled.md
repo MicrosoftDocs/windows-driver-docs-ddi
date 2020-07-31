@@ -10,6 +10,7 @@ keywords: ["IDebugClient5::IsKernelDebuggerEnabled"]
 ms.keywords: IDebugClient2 interface [Windows Debugging],IsKernelDebuggerEnabled method, IDebugClient2::IsKernelDebuggerEnabled, IDebugClient3 interface [Windows Debugging],IsKernelDebuggerEnabled method, IDebugClient3::IsKernelDebuggerEnabled, IDebugClient4 interface [Windows Debugging],IsKernelDebuggerEnabled method, IDebugClient4::IsKernelDebuggerEnabled, IDebugClient5 interface [Windows Debugging],IsKernelDebuggerEnabled method, IDebugClient5.IsKernelDebuggerEnabled, IDebugClient5::IsKernelDebuggerEnabled, IDebugClient_05c5446d-28b4-4d9b-bb20-7dc1746545d6.xml, IsKernelDebuggerEnabled, IsKernelDebuggerEnabled method [Windows Debugging], IsKernelDebuggerEnabled method [Windows Debugging],IDebugClient2 interface, IsKernelDebuggerEnabled method [Windows Debugging],IDebugClient3 interface, IsKernelDebuggerEnabled method [Windows Debugging],IDebugClient4 interface, IsKernelDebuggerEnabled method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient2::IsKernelDebuggerEnabled, dbgeng/IDebugClient3::IsKernelDebuggerEnabled, dbgeng/IDebugClient4::IsKernelDebuggerEnabled, dbgeng/IDebugClient5::IsKernelDebuggerEnabled, debugger.iskerneldebuggerenabled
 f1_keywords:
  - "dbgeng/IDebugClient2.IsKernelDebuggerEnabled"
+ - "IDebugClient2.IsKernelDebuggerEnabled"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -39,8 +40,6 @@ api_name:
 - IDebugClient3.IsKernelDebuggerEnabled
 - IDebugClient4.IsKernelDebuggerEnabled
 - IDebugClient5.IsKernelDebuggerEnabled
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

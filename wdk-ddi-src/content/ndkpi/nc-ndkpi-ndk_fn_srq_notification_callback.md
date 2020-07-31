@@ -10,6 +10,7 @@ keywords: ["NDK_FN_SRQ_NOTIFICATION_CALLBACK callback function"]
 ms.keywords: NDK_FN_SRQ_NOTIFICATION_CALLBACK, NDK_FN_SRQ_NOTIFICATION_CALLBACK callback, NdkSrqNotificationCallback, NdkSrqNotificationCallback callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkSrqNotificationCallback, netvista.ndk_fn_srq_notification_callback
 f1_keywords:
  - "ndkpi/NdkSrqNotificationCallback"
+ - "NdkSrqNotificationCallback"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ndkpi.h
 api_name:
 - NdkSrqNotificationCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

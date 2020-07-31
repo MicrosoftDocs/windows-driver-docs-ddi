@@ -10,6 +10,7 @@ keywords: ["EVT_UDECX_USB_DEVICE_D0_EXIT callback function"]
 ms.keywords: EVT_UDECX_USB_DEVICE_D0_EXIT, EVT_UDECX_USB_DEVICE_D0_EXIT callback, EvtUsbDeviceLinkPowerExit, EvtUsbDeviceLinkPowerExit callback function [Buses], buses.evt_udecx_usb_device_d0_exit, udecxusbdevice/EvtUsbDeviceLinkPowerExit
 f1_keywords:
  - "udecxusbdevice/EvtUsbDeviceLinkPowerExit"
+ - "EvtUsbDeviceLinkPowerExit"
 req.header: udecxusbdevice.h
 req.include-header: Udecx.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - udecxusbdevice.h
 api_name:
 - EvtUsbDeviceLinkPowerExit
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

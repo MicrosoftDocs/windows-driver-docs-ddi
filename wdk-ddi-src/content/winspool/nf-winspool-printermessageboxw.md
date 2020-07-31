@@ -10,6 +10,7 @@ keywords: ["PrinterMessageBoxW function"]
 ms.keywords: PrinterMessageBoxW, PrinterMessageBoxW function [Print Devices], print.printermessageboxw, winspool/PrinterMessageBoxW
 f1_keywords:
  - "winspool/PrinterMessageBoxW"
+ - "PrinterMessageBoxW"
 req.header: winspool.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Winspool.h
 api_name:
 - PrinterMessageBoxW
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

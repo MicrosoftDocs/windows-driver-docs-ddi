@@ -10,6 +10,7 @@ keywords: ["RtlFindUnicodePrefix function"]
 ms.keywords: RtlFindUnicodePrefix, RtlFindUnicodePrefix routine [Installable File System Drivers], ifsk.rtlfindunicodeprefix, ntifs/RtlFindUnicodePrefix, rtlref_55dbfa12-5de6-44e0-8488-6e83abfaad84.xml
 f1_keywords:
  - "ntifs/RtlFindUnicodePrefix"
+ - "RtlFindUnicodePrefix"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlFindUnicodePrefix
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

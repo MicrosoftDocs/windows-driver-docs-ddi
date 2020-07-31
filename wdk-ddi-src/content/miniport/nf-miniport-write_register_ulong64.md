@@ -10,6 +10,7 @@ keywords: ["WRITE_REGISTER_ULONG64 function"]
 ms.keywords: WRITE_REGISTER_ULONG64, WRITE_REGISTER_ULONG64 function, umdf.write_register_ulong64, wdf.write_register_ulong64, wudfddi_hwaccess/WRITE_REGISTER_ULONG64
 f1_keywords:
  - "miniport/WRITE_REGISTER_ULONG64"
+ - "WRITE_REGISTER_ULONG64"
 req.header: miniport.h
 req.include-header: Wdm.h, Miniport.h, Wudfwdm.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wudfddi_hwaccess.h
 api_name:
 - WRITE_REGISTER_ULONG64
-product:
-- Windows
 targetos: Windows
 req.typenames: MEMORY_CACHING_TYPE
 ---

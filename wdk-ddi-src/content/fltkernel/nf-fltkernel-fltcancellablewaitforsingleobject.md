@@ -10,6 +10,7 @@ keywords: ["FltCancellableWaitForSingleObject function"]
 ms.keywords: FltApiRef_a_to_d_e71d2b38-ae04-4026-bb99-d0d99ea4ec05.xml, FltCancellableWaitForSingleObject, FltCancellableWaitForSingleObject routine [Installable File System Drivers], fltkernel/FltCancellableWaitForSingleObject, ifsk.fltcancellablewaitforsingleobject
 f1_keywords:
  - "fltkernel/FltCancellableWaitForSingleObject"
+ - "FltCancellableWaitForSingleObject"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h, Ntifs.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - wdfilter.sys
 api_name:
 - FltCancellableWaitForSingleObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

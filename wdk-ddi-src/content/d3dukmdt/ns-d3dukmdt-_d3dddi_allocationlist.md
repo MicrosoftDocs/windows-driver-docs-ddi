@@ -10,6 +10,7 @@ keywords: ["_D3DDDI_ALLOCATIONLIST structure"]
 ms.keywords: D3DDDI_ALLOCATIONLIST, D3DDDI_ALLOCATIONLIST structure [Display Devices], D3D_other_Structs_0e766b30-b39d-4107-8739-0b9290e7d489.xml, _D3DDDI_ALLOCATIONLIST, d3dukmdt/D3DDDI_ALLOCATIONLIST, display.d3dddi_allocationlist
 f1_keywords:
  - "d3dukmdt/D3DDDI_ALLOCATIONLIST"
+ - "D3DDDI_ALLOCATIONLIST"
 req.header: d3dukmdt.h
 req.include-header: D3dumddi.h, D3dkmddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dukmdt.h
 api_name:
 - D3DDDI_ALLOCATIONLIST
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDI_ALLOCATIONLIST
 ---

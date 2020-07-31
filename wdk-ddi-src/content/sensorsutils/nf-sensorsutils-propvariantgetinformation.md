@@ -8,6 +8,7 @@ keywords: ["PropVariantGetInformation function"]
 tech.root: sensors
 f1_keywords:
  - "sensorsutils/PropVariantGetInformation"
+ - "PropVariantGetInformation"
 ms.keywords: PropVariantGetInformation
 req.header: sensorsutils.h
 req.include-header:

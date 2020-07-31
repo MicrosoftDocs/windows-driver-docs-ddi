@@ -10,6 +10,7 @@ keywords: ["VideoPortSetRegistryParameters function"]
 ms.keywords: VideoPortSetRegistryParameters, VideoPortSetRegistryParameters function [Display Devices], VideoPort_Functions_a1d6dbfd-595b-4396-a1d3-9ec4fa3a6bfb.xml, display.videoportsetregistryparameters, video/VideoPortSetRegistryParameters
 f1_keywords:
  - "video/VideoPortSetRegistryParameters"
+ - "VideoPortSetRegistryParameters"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Videoprt.sys
 api_name:
 - VideoPortSetRegistryParameters
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

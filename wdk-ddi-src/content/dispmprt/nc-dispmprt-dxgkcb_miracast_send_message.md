@@ -10,6 +10,7 @@ keywords: ["DXGKCB_MIRACAST_SEND_MESSAGE callback function"]
 ms.keywords: DXGKCB_MIRACAST_SEND_MESSAGE, DXGKCB_MIRACAST_SEND_MESSAGE callback, DxgkCbMiracastSendMessage, DxgkCbMiracastSendMessage callback function [Display Devices], display.dxgkcbmiracastsendmessage, dispmprt/DxgkCbMiracastSendMessage
 f1_keywords:
  - "dispmprt/DxgkCbMiracastSendMessage"
+ - "DxgkCbMiracastSendMessage"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Dispmprt.h
 api_name:
 - DxgkCbMiracastSendMessage
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IDriverEntry interface"]
 ms.keywords: IDriverEntry, IDriverEntry interface, IDriverEntry interface,described, UMDFDriverObjectRef_83709367-02f2-433f-a20b-b98eff736657.xml, umdf.idriverentry, wdf.idriverentry, wudfddi/IDriverEntry
 f1_keywords:
  - "wudfddi/IDriverEntry"
+ - "IDriverEntry"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wudfddi.h
 api_name:
 - IDriverEntry
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -55,7 +54,7 @@ The <b>IDriverEntry</b> interface exposes the user-mode driver's main entry and 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDriverEntry</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDriverEntry</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDriverEntry</b> interface inherits from the <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDriverEntry</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

@@ -10,6 +10,7 @@ keywords: ["IoReuseIrp function"]
 ms.keywords: IoReuseIrp, IoReuseIrp routine [Kernel-Mode Driver Architecture], k104_548c8bd2-bc09-4ee6-b373-d244f1f11daa.xml, kernel.ioreuseirp, wdm/IoReuseIrp
 f1_keywords:
  - "wdm/IoReuseIrp"
+ - "IoReuseIrp"
 req.header: wdm.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoReuseIrp
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

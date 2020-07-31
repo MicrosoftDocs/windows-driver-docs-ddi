@@ -10,6 +10,7 @@ keywords: ["RILEUTRAMRL structure"]
 ms.keywords: "*LPRILEUTRAMRL, RILEUTRAMRL, RILEUTRAMRL structure [Network Drivers Starting with Windows Vista], netvista.rileutramrl, rilapitypes/RILEUTRAMRL"
 f1_keywords:
  - "ntddrilapitypes/RILEUTRAMRL"
+ - "RILEUTRAMRL"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapitypes.h
 api_name:
 - RILEUTRAMRL
-product:
-- Windows
 targetos: Windows
 req.typenames: RILEUTRAMRL, *LPRILEUTRAMRL
 ---

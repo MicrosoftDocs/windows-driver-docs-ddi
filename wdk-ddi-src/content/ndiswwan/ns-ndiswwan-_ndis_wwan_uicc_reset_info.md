@@ -10,6 +10,7 @@ keywords: ["_NDIS_WWAN_UICC_RESET_INFO structure"]
 ms.keywords: "*PNDIS_WWAN_UICC_RESET_INFO, NDIS_WWAN_UICC_RESET_INFO, NDIS_WWAN_UICC_RESET_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_UICC_RESET_INFO, PNDIS_WWAN_UICC_RESET_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_UICC_RESET_INFO, ndiswwan/NDIS_WWAN_UICC_RESET_INFO, ndiswwan/PNDIS_WWAN_UICC_RESET_INFO, netvista.ndis_wwan_uicc_reset_info"
 f1_keywords:
  - "ndiswwan/NDIS_WWAN_UICC_RESET_INFO"
+ - "NDIS_WWAN_UICC_RESET_INFO"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ndiswwan.h
 api_name:
 - NDIS_WWAN_UICC_RESET_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_UICC_RESET_INFO, *PNDIS_WWAN_UICC_RESET_INFO
 ---

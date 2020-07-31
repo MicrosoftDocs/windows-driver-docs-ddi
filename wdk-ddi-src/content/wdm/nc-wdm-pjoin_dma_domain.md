@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["PJOIN_DMA_DOMAIN callback function"]
 f1_keywords:
  - "wdm/PJOIN_DMA_DOMAIN"
+ - "PJOIN_DMA_DOMAIN"
 req.header: wdm.h
 req.include-header:
 req.target-type:
@@ -33,8 +34,6 @@ api_location:
 api_name: 
 - PJOIN_DMA_DOMAIN
 - JoinDmaDomain
-product:
-- Windows
 targetos: Windows
 ---
 

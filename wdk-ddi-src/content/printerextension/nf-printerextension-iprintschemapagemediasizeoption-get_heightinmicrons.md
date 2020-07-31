@@ -10,6 +10,7 @@ keywords: ["IPrintSchemaPageMediaSizeOption::get_HeightInMicrons"]
 ms.keywords: HeightInMicrons property [Print Devices], HeightInMicrons property [Print Devices],IPrintSchemaPageMediaSizeOption interface, IPrintSchemaPageMediaSizeOption interface [Print Devices],HeightInMicrons property, IPrintSchemaPageMediaSizeOption.HeightInMicrons, IPrintSchemaPageMediaSizeOption.get_HeightInMicrons, IPrintSchemaPageMediaSizeOption::HeightInMicrons, IPrintSchemaPageMediaSizeOption::get_HeightInMicrons, get_HeightInMicrons, print.iprintschemapagemediasizeoption_heightinmicrons, printerextension/IPrintSchemaPageMediaSizeOption::HeightInMicrons, printerextension/IPrintSchemaPageMediaSizeOption::get_HeightInMicrons
 f1_keywords:
  - "printerextension/IPrintSchemaPageMediaSizeOption.HeightInMicrons"
+ - "IPrintSchemaPageMediaSizeOption.HeightInMicrons"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IPrintSchemaPageMediaSizeOption.HeightInMicrons
 - IPrintSchemaPageMediaSizeOption.get_HeightInMicrons
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

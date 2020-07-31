@@ -7,6 +7,7 @@ ms.date: 10/02/2018
 keywords: ["_ACPI_PLD_ORIENTATION enumeration"]
 f1_keywords:
  - "acpitabl/_ACPI_PLD_ORIENTATION"
+ - "_ACPI_PLD_ORIENTATION"
 ms.keywords: _ACPI_PLD_ORIENTATION, ACPI_PLD_ORIENTATION, *PACPI_PLD_ORIENTATION, 
 req.header: acpitabl.h
 req.include-header:
@@ -26,8 +27,6 @@ api_location:
 - acpitabl.h
 api_name: 
 - _ACPI_PLD_ORIENTATION
-product:
-- Windows
 targetos: Windows
 ---
 

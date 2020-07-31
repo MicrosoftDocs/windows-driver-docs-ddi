@@ -10,6 +10,7 @@ keywords: ["RtlSubtreePredecessor function"]
 ms.keywords: RtlSubtreePredecessor, RtlSubtreePredecessor routine [Installable File System Drivers], ifsk.rtlsubtreepredecessor, ntddk/RtlSubtreePredecessor, rtlref_0d0ea0f4-2b16-4d9c-8747-78d6ddcc90d6.xml
 f1_keywords:
  - "ntddk/RtlSubtreePredecessor"
+ - "RtlSubtreePredecessor"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlSubtreePredecessor
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

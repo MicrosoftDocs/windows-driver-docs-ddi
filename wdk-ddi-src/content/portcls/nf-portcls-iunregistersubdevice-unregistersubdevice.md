@@ -10,6 +10,7 @@ keywords: ["IUnregisterSubdevice::UnregisterSubdevice"]
 ms.keywords: IUnregisterSubdevice interface [Audio Devices],UnregisterSubdevice method, IUnregisterSubdevice.UnregisterSubdevice, IUnregisterSubdevice::UnregisterSubdevice, UnregisterSubdevice, UnregisterSubdevice method [Audio Devices], UnregisterSubdevice method [Audio Devices],IUnregisterSubdevice interface, audio.iunregistersubdevice_unregistersubdevice, audmp-routines_8fb24a5e-af25-42e0-a96e-2f4728f17cde.xml, portcls/IUnregisterSubdevice::UnregisterSubdevice
 f1_keywords:
  - "portcls/IUnregisterSubdevice.UnregisterSubdevice"
+ - "IUnregisterSubdevice.UnregisterSubdevice"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IUnregisterSubdevice.UnregisterSubdevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

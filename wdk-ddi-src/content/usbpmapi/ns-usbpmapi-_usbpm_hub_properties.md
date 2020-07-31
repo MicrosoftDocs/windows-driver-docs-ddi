@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["_USBPM_HUB_PROPERTIES structure"]
 f1_keywords:
  - "usbpmapi/USBPM_HUB_PROPERTIES"
+ - "USBPM_HUB_PROPERTIES"
 tech.root: usbref
 ms.keywords: _USBPM_HUB_PROPERTIES, USBPM_HUB_PROPERTIES, *PUSBPM_HUB_PROPERTIES, 
 req.header: usbpmapi.h
@@ -30,8 +31,6 @@ api_location:
 - usbpmapi.h
 api_name: 
 - USBPM_HUB_PROPERTIES
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

@@ -10,6 +10,7 @@ keywords: ["UdecxUsbDeviceLinkPowerEntryComplete function"]
 ms.keywords: UdecxUsbDeviceLinkPowerEntryComplete, UdecxUsbDeviceLinkPowerEntryComplete function [Buses], buses.udecxusbdevicelinkpowerentrycomplete, udecxusbdevice/UdecxUsbDeviceLinkPowerEntryComplete
 f1_keywords:
  - "udecxusbdevice/UdecxUsbDeviceLinkPowerEntryComplete"
+ - "UdecxUsbDeviceLinkPowerEntryComplete"
 req.header: udecxusbdevice.h
 req.include-header: Udecx.h
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 - Udecxstub.dll
 api_name:
 - UdecxUsbDeviceLinkPowerEntryComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["_WWAN_SET_REGISTER_STATE structure"]
 ms.keywords: "*PWWAN_SET_REGISTER_STATE, PWWAN_SET_REGISTER_STATE, PWWAN_SET_REGISTER_STATE structure pointer [Network Drivers Starting with Windows Vista], WWAN_SET_REGISTER_STATE, WWAN_SET_REGISTER_STATE structure [Network Drivers Starting with Windows Vista], WwanRef_17ed9aa3-5b69-4f1a-8c7e-fa39d6146615.xml, _WWAN_SET_REGISTER_STATE, netvista.wwan_set_register_state, wwan/PWWAN_SET_REGISTER_STATE, wwan/WWAN_SET_REGISTER_STATE"
 f1_keywords:
  - "wwan/WWAN_SET_REGISTER_STATE"
+ - "WWAN_SET_REGISTER_STATE"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_SET_REGISTER_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_SET_REGISTER_STATE, *PWWAN_SET_REGISTER_STATE
 ---

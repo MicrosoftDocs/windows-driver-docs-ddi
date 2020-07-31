@@ -10,6 +10,7 @@ keywords: ["FltReissueSynchronousIo function"]
 ms.keywords: FltApiRef_p_to_z_c86041cf-780e-4754-b580-6665573bdb88.xml, FltReissueSynchronousIo, FltReissueSynchronousIo function [Installable File System Drivers], fltkernel/FltReissueSynchronousIo, ifsk.fltreissuesynchronousio
 f1_keywords:
  - "fltkernel/FltReissueSynchronousIo"
+ - "FltReissueSynchronousIo"
 req.header: fltkernel.h
 req.include-header: FltKernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltReissueSynchronousIo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

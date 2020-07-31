@@ -10,6 +10,7 @@ keywords: ["IPrintOemUni::DownloadFontHeader"]
 ms.keywords: DownloadFontHeader, DownloadFontHeader method [Print Devices], DownloadFontHeader method [Print Devices],IPrintOemUni interface, IPrintOemUni interface [Print Devices],DownloadFontHeader method, IPrintOemUni.DownloadFontHeader, IPrintOemUni::DownloadFontHeader, prcomoem/IPrintOemUni::DownloadFontHeader, print.iprintoemuni_downloadfontheader, print_unidrv-pscript_rendering_7ed24461-70a3-4446-9b3e-1fda13b0a29a.xml
 f1_keywords:
  - "prcomoem/IPrintOemUni.DownloadFontHeader"
+ - "IPrintOemUni.DownloadFontHeader"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - prcomoem.h
 api_name:
 - IPrintOemUni.DownloadFontHeader
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

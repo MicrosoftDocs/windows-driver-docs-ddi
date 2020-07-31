@@ -10,6 +10,7 @@ keywords: ["IOCTL_DISK_FORMAT_TRACKS_EX IOCTL"]
 ms.keywords: IOCTL_DISK_FORMAT_TRACKS_EX, IOCTL_DISK_FORMAT_TRACKS_EX control, IOCTL_DISK_FORMAT_TRACKS_EX control code [Storage Devices], k307_b3ebee51-e107-493e-b2dc-1457b4b39670.xml, ntdddisk/IOCTL_DISK_FORMAT_TRACKS_EX, storage.ioctl_disk_format_tracks_ex
 f1_keywords:
  - "ntdddisk/IOCTL_DISK_FORMAT_TRACKS_EX"
+ - "IOCTL_DISK_FORMAT_TRACKS_EX"
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntdddisk.h
 api_name:
 - IOCTL_DISK_FORMAT_TRACKS_EX
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

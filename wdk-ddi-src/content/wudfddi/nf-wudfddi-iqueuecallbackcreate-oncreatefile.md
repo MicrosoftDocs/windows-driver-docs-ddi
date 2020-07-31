@@ -10,6 +10,7 @@ keywords: ["IQueueCallbackCreate::OnCreateFile"]
 ms.keywords: IQueueCallbackCreate interface,OnCreateFile method, IQueueCallbackCreate.OnCreateFile, IQueueCallbackCreate::OnCreateFile, OnCreateFile, OnCreateFile method, OnCreateFile method,IQueueCallbackCreate interface, UMDFQueueObjectRef_db0b57a0-6086-4e2a-87bd-71e5a1e4f46d.xml, umdf.iqueuecallbackcreate_oncreatefile, wdf.iqueuecallbackcreate_oncreatefile, wudfddi/IQueueCallbackCreate::OnCreateFile
 f1_keywords:
  - "wudfddi/IQueueCallbackCreate.OnCreateFile"
+ - "IQueueCallbackCreate.OnCreateFile"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wudfddi.h
 api_name:
 - IQueueCallbackCreate.OnCreateFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

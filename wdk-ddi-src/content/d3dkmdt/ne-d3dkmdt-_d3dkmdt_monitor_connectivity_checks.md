@@ -10,6 +10,7 @@ keywords: ["_D3DKMDT_MONITOR_CONNECTIVITY_CHECKS enumeration"]
 ms.keywords: D3DKMDT_MCC_ENFORCE, D3DKMDT_MCC_IGNORE, D3DKMDT_MCC_UNINITIALIZED, D3DKMDT_MONITOR_CONNECTIVITY_CHECKS, D3DKMDT_MONITOR_CONNECTIVITY_CHECKS enumeration [Display Devices], DmEnums_ac54453d-cc4d-4ea7-ad10-943389a837d7.xml, _D3DKMDT_MONITOR_CONNECTIVITY_CHECKS, d3dkmdt/D3DKMDT_MCC_ENFORCE, d3dkmdt/D3DKMDT_MCC_IGNORE, d3dkmdt/D3DKMDT_MCC_UNINITIALIZED, d3dkmdt/D3DKMDT_MONITOR_CONNECTIVITY_CHECKS, display.d3dkmdt_monitor_connectivity_checks
 f1_keywords:
  - "d3dkmdt/D3DKMDT_MONITOR_CONNECTIVITY_CHECKS"
+ - "D3DKMDT_MONITOR_CONNECTIVITY_CHECKS"
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dkmdt.h
 api_name:
 - D3DKMDT_MONITOR_CONNECTIVITY_CHECKS
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DKMDT_MONITOR_CONNECTIVITY_CHECKS
 ---

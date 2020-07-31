@@ -10,6 +10,7 @@ keywords: ["MINIPORT_CHECK_FOR_HANG callback function"]
 ms.keywords: MINIPORT_CHECK_FOR_HANG, MINIPORT_CHECK_FOR_HANG callback, MiniportCheckForHangEx, MiniportCheckForHangEx callback function [Network Drivers Starting with Windows Vista], miniport_functions_ref_4dac5544-94b0-4be6-aa81-709bff9163a7.xml, ndis/MiniportCheckForHangEx, netvista.miniportcheckforhangex
 f1_keywords:
  - "ndis/MiniportCheckForHangEx"
+ - "MiniportCheckForHangEx"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - MiniportCheckForHangEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

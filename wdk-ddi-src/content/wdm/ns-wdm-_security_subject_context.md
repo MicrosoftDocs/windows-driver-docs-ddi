@@ -10,6 +10,7 @@ keywords: ["_SECURITY_SUBJECT_CONTEXT structure"]
 ms.keywords: "*PSECURITY_SUBJECT_CONTEXT, PSECURITY_SUBJECT_CONTEXT, PSECURITY_SUBJECT_CONTEXT structure pointer [Installable File System Drivers], SECURITY_SUBJECT_CONTEXT, SECURITY_SUBJECT_CONTEXT structure [Installable File System Drivers], _SECURITY_SUBJECT_CONTEXT, ifsk.security_subject_context, securitystructures_e91a762f-82dc-4319-a479-8de15bce2bfd.xml, wdm/PSECURITY_SUBJECT_CONTEXT, wdm/SECURITY_SUBJECT_CONTEXT"
 f1_keywords:
  - "wdm/SECURITY_SUBJECT_CONTEXT"
+ - "SECURITY_SUBJECT_CONTEXT"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - SECURITY_SUBJECT_CONTEXT
-product:
-- Windows
 targetos: Windows
 req.typenames: SECURITY_SUBJECT_CONTEXT, *PSECURITY_SUBJECT_CONTEXT
 ---

@@ -10,6 +10,7 @@ keywords: ["WdfDeviceGetDeviceState function"]
 ms.keywords: DFDeviceObjectGeneralRef_459b9aad-7503-4319-be67-4b713a32559e.xml, WdfDeviceGetDeviceState, WdfDeviceGetDeviceState method, kmdf.wdfdevicegetdevicestate, wdf.wdfdevicegetdevicestate, wdfdevice/WdfDeviceGetDeviceState
 f1_keywords:
  - "wdfdevice/WdfDeviceGetDeviceState"
+ - "WdfDeviceGetDeviceState"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfDeviceGetDeviceState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

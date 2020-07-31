@@ -10,6 +10,7 @@ keywords: ["IUsbTargetPipeContinuousReaderCallbackReadComplete::OnReaderCompleti
 ms.keywords: IUsbTargetPipeContinuousReaderCallbackReadComplete interface,OnReaderCompletion method, IUsbTargetPipeContinuousReaderCallbackReadComplete.OnReaderCompletion, IUsbTargetPipeContinuousReaderCallbackReadComplete::OnReaderCompletion, OnReaderCompletion, OnReaderCompletion method, OnReaderCompletion method,IUsbTargetPipeContinuousReaderCallbackReadComplete interface, UMDFUSBref_a221433f-9a32-4205-8f12-a0c891dbe8bf.xml, umdf.iusbtargetpipecontinuousreadercallbackreadcomplete_onreadercompletion, wdf.iusbtargetpipecontinuousreadercallbackreadcomplete_onreadercompletion, wudfusb/IUsbTargetPipeContinuousReaderCallbackReadComplete::OnReaderCompletion
 f1_keywords:
  - "wudfusb/IUsbTargetPipeContinuousReaderCallbackReadComplete.OnReaderCompletion"
+ - "IUsbTargetPipeContinuousReaderCallbackReadComplete.OnReaderCompletion"
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wudfusb.h
 api_name:
 - IUsbTargetPipeContinuousReaderCallbackReadComplete.OnReaderCompletion
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["PHW_REQUEST_TIMEOUT_HANDLER callback function"]
 ms.keywords: PHW_REQUEST_TIMEOUT_HANDLER, StrMiniRequestTimeout, StrMiniRequestTimeout routine [Streaming Media Devices], stream.strminirequesttimeout, strmini-routines_74b67060-d244-452f-a5a5-217fd4c65614.xml, strmini/StrMiniRequestTimeout
 f1_keywords:
  - "strmini/StrMiniRequestTimeout"
+ - "StrMiniRequestTimeout"
 req.header: strmini.h
 req.include-header: Strmini.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - strmini.h
 api_name:
 - StrMiniRequestTimeout
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

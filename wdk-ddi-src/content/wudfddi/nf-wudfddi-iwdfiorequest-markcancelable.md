@@ -10,6 +10,7 @@ keywords: ["IWDFIoRequest::MarkCancelable"]
 ms.keywords: IWDFIoRequest interface,MarkCancelable method, IWDFIoRequest.MarkCancelable, IWDFIoRequest::MarkCancelable, MarkCancelable, MarkCancelable method, MarkCancelable method,IWDFIoRequest interface, UMDFRequestObjectRef_c1304e95-724d-4ced-abc2-801b1606f43b.xml, umdf.iwdfiorequest_markcancelable, wdf.iwdfiorequest_markcancelable, wudfddi/IWDFIoRequest::MarkCancelable
 f1_keywords:
  - "wudfddi/IWDFIoRequest.MarkCancelable"
+ - "IWDFIoRequest.MarkCancelable"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFIoRequest.MarkCancelable
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

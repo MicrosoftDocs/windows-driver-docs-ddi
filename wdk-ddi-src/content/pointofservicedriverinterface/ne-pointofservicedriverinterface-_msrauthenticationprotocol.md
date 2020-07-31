@@ -10,6 +10,7 @@ keywords: ["_MsrAuthenticationProtocol enumeration"]
 ms.keywords: MsrAuthenticationProtocol, MsrAuthenticationProtocol enumeration, MsrAuthenticationProtocolType, MsrAuthenticationProtocolType enumeration, MsrAuthenticationProtocolType_ChallengeResponse, MsrAuthenticationProtocolType_None, _MsrAuthenticationProtocol, pointofservicedriverinterface/MsrAuthenticationProtocolType, pointofservicedriverinterface/MsrAuthenticationProtocolType_ChallengeResponse, pointofservicedriverinterface/MsrAuthenticationProtocolType_None, pos.msrauthenticationprotocoltype
 f1_keywords:
  - "pointofservicedriverinterface/MsrAuthenticationProtocol"
+ - "MsrAuthenticationProtocol"
 req.header: pointofservicedriverinterface.h
 req.include-header: Pointofservicedriverinterface.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pointofservicedriverinterface.h
 api_name:
 - MsrAuthenticationProtocol
-product:
-- Windows
 targetos: Windows
 req.typenames: MsrAuthenticationProtocolType
 ---

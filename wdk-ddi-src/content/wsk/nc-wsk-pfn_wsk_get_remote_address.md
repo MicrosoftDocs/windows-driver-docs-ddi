@@ -10,6 +10,7 @@ keywords: ["PFN_WSK_GET_REMOTE_ADDRESS callback function"]
 ms.keywords: PFN_WSK_GET_REMOTE_ADDRESS, PFN_WSK_GET_REMOTE_ADDRESS callback, WskGetRemoteAddress, WskGetRemoteAddress callback function [Network Drivers Starting with Windows Vista], netvista.wskgetremoteaddress, wsk/WskGetRemoteAddress, wskref_5d771d25-f0bc-4292-a3cc-96704c0a39f3.xml
 f1_keywords:
  - "wsk/WskGetRemoteAddress"
+ - "WskGetRemoteAddress"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - wsk.h
 api_name:
 - WskGetRemoteAddress
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

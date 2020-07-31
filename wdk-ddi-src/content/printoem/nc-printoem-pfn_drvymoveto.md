@@ -10,6 +10,7 @@ keywords: ["PFN_DrvYMoveTo callback function"]
 ms.keywords: DrvYMoveTo, DrvYMoveTo callback function [Print Devices], PFN_DrvYMoveTo, PFN_DrvYMoveTo callback, print.drvymoveto, print_obsoletefunctions_90e3798e-8acd-4aad-a3a2-ae8a84934a92.xml, printoem/DrvYMoveTo
 f1_keywords:
  - "printoem/DrvYMoveTo"
+ - "DrvYMoveTo"
 req.header: printoem.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - printoem.h
 api_name:
 - DrvYMoveTo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

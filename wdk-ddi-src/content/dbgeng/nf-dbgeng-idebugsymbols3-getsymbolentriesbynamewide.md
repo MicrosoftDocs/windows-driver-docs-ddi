@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::GetSymbolEntriesByNameWide"]
 ms.keywords: GetSymbolEntriesByNameWide, GetSymbolEntriesByNameWide method [Windows Debugging], GetSymbolEntriesByNameWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSymbolEntriesByNameWide method, IDebugSymbols3.GetSymbolEntriesByNameWide, IDebugSymbols3::GetSymbolEntriesByNameWide, dbgeng/IDebugSymbols3::GetSymbolEntriesByNameWide, debugger.getsymbolentriesbynamewide
 f1_keywords:
  - "dbgeng/IDebugSymbols3.GetSymbolEntriesByNameWide"
+ - "IDebugSymbols3.GetSymbolEntriesByNameWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugSymbols3.GetSymbolEntriesByNameWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

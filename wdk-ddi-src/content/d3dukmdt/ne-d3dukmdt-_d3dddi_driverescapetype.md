@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DDDI_DRIVERESCAPETYPE enumeration"]
 f1_keywords:
  - "d3dukmdt/_D3DDDI_DRIVERESCAPETYPE"
+ - "_D3DDDI_DRIVERESCAPETYPE"
 ms.keywords: _D3DDDI_DRIVERESCAPETYPE, D3DDDI_DRIVERESCAPETYPE, 
 req.header: d3dukmdt.h
 req.include-header:
@@ -26,8 +27,6 @@ api_location:
 - d3dukmdt.h
 api_name: 
 - _D3DDDI_DRIVERESCAPETYPE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

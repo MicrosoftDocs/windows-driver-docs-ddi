@@ -10,6 +10,7 @@ keywords: ["PCOMMAND_COMPLETE_FUNCTION callback function"]
 ms.keywords: CommandCompleteFunction, CommandCompleteFunction routine [Streaming Media Devices], PCOMMAND_COMPLETE_FUNCTION, stream.commandcompletefunction, usbcamdi/CommandCompleteFunction, usbcmdpr_7ac7f300-71eb-463c-8471-df736a32105e.xml
 f1_keywords:
  - "usbcamdi/CommandCompleteFunction"
+ - "CommandCompleteFunction"
 req.header: usbcamdi.h
 req.include-header: Usbcamdi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - usbcamdi.h
 api_name:
 - CommandCompleteFunction
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

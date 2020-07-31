@@ -8,6 +8,7 @@ ms.date: 09/30/2018
 keywords: ["_UCMUCSI_DEVICE_CONFIG structure"]
 f1_keywords:
  - "ucmucsidevice/UCMUCSI_DEVICE_CONFIG"
+ - "UCMUCSI_DEVICE_CONFIG"
 ms.keywords: _UCMUCSI_DEVICE_CONFIG, UCMUCSI_DEVICE_CONFIG, *PUCMUCSI_DEVICE_CONFIG, 
 req.header: ucmucsidevice.h
 req.include-header: UcmUcsiCx.h 
@@ -30,8 +31,6 @@ api_location:
 - ucmucsidevice.h
 api_name: 
 - UCMUCSI_DEVICE_CONFIG
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

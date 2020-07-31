@@ -10,6 +10,7 @@ keywords: ["RxpDereferenceAndFinalizeNetFcb function"]
 ms.keywords: RxpDereferenceAndFinalizeNetFcb, RxpDereferenceAndFinalizeNetFcb function [Installable File System Drivers], fcb/RxpDereferenceAndFinalizeNetFcb, ifsk.rxpdereferenceandfinalizenetfcb, rxref_474f30d3-858e-4179-8236-3068a2325818.xml
 f1_keywords:
  - "fcb/RxpDereferenceAndFinalizeNetFcb"
+ - "RxpDereferenceAndFinalizeNetFcb"
 req.header: fcb.h
 req.include-header: Fcb.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - fcb.h
 api_name:
 - RxpDereferenceAndFinalizeNetFcb
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

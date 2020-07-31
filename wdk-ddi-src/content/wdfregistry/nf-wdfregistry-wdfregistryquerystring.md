@@ -10,6 +10,7 @@ keywords: ["WdfRegistryQueryString function"]
 ms.keywords: DFRegKeyObjectRef_d3260d42-afdc-4858-a0b4-e2ae90327066.xml, WdfRegistryQueryString, WdfRegistryQueryString method, kmdf.wdfregistryquerystring, wdf.wdfregistryquerystring, wdfregistry/WdfRegistryQueryString
 f1_keywords:
  - "wdfregistry/WdfRegistryQueryString"
+ - "WdfRegistryQueryString"
 req.header: wdfregistry.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfRegistryQueryString
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

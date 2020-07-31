@@ -10,6 +10,7 @@ keywords: ["KeCancelTimer function"]
 ms.keywords: KeCancelTimer, KeCancelTimer routine [Kernel-Mode Driver Architecture], k105_89adf0ea-9f6b-4e21-be3a-7f75f1baec10.xml, kernel.kecanceltimer, wdm/KeCancelTimer
 f1_keywords:
  - "wdm/KeCancelTimer"
+ - "KeCancelTimer"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeCancelTimer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IWDFIoTarget2 interface"]
 ms.keywords: IWDFIoTarget2, IWDFIoTarget2 interface, IWDFIoTarget2 interface,described, UMDFIoTargetObjectRef_7639fcef-e463-4500-94a0-132b63e1e564.xml, umdf.iwdfiotarget2, wdf.iwdfiotarget2, wudfddi/IWDFIoTarget2
 f1_keywords:
  - "wudfddi/IWDFIoTarget2"
+ - "IWDFIoTarget2"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFIoTarget2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

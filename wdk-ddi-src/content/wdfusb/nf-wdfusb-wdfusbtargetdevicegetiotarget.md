@@ -10,6 +10,7 @@ keywords: ["WdfUsbTargetDeviceGetIoTarget function"]
 ms.keywords: DFUsbRef_d65932cf-8891-4687-a784-eb6f794759fd.xml, WdfUsbTargetDeviceGetIoTarget, WdfUsbTargetDeviceGetIoTarget method, kmdf.wdfusbtargetdevicegetiotarget, wdf.wdfusbtargetdevicegetiotarget, wdfusb/WdfUsbTargetDeviceGetIoTarget
 f1_keywords:
  - "wdfusb/WdfUsbTargetDeviceGetIoTarget"
+ - "WdfUsbTargetDeviceGetIoTarget"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfUsbTargetDeviceGetIoTarget
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

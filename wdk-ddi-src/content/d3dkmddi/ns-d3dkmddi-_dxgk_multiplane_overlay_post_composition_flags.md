@@ -9,6 +9,7 @@ keywords: ["_DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS structure"]
 ms.keywords: DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS, DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS, display.dxgk_multiplane_overlay_post_composition_flags
 f1_keywords:
  - "d3dkmddi/DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS"
+ - "DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS

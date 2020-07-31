@@ -10,6 +10,7 @@ keywords: ["WdfPdoRetrieveAddressDescription function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_14653cca-1eb9-44c0-bcdd-cbb450617659.xml, WdfPdoRetrieveAddressDescription, WdfPdoRetrieveAddressDescription method, kmdf.wdfpdoretrieveaddressdescription, wdf.wdfpdoretrieveaddressdescription, wdfpdo/WdfPdoRetrieveAddressDescription
 f1_keywords:
  - "wdfpdo/WdfPdoRetrieveAddressDescription"
+ - "WdfPdoRetrieveAddressDescription"
 req.header: wdfpdo.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfPdoRetrieveAddressDescription
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

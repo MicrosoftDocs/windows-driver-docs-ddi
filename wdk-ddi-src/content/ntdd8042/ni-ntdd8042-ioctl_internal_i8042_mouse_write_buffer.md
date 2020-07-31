@@ -10,6 +10,7 @@ keywords: ["IOCTL_INTERNAL_I8042_MOUSE_WRITE_BUFFER IOCTL"]
 ms.keywords: IOCTL_INTERNAL_I8042_MOUSE_WRITE_BUFFER, IOCTL_INTERNAL_I8042_MOUSE_WRITE_BUFFER control, IOCTL_INTERNAL_I8042_MOUSE_WRITE_BUFFER control code [Human Input Devices], hid.ioctl_internal_i8042_mouse_write_buffer, i8042ref_660499b1-32f5-4343-b0a2-176d03d0270c.xml, ntdd8042/IOCTL_INTERNAL_I8042_MOUSE_WRITE_BUFFER
 f1_keywords:
  - "ntdd8042/IOCTL_INTERNAL_I8042_MOUSE_WRITE_BUFFER"
+ - "IOCTL_INTERNAL_I8042_MOUSE_WRITE_BUFFER"
 req.header: ntdd8042.h
 req.include-header: Ntdd8042.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntdd8042.h
 api_name:
 - IOCTL_INTERNAL_I8042_MOUSE_WRITE_BUFFER
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

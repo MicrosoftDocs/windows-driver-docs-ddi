@@ -10,6 +10,7 @@ keywords: ["WdfUsbInterfaceGetConfiguredPipe function"]
 ms.keywords: DFUsbRef_65a97d99-39c5-4750-95e1-6c9c20c169bb.xml, WdfUsbInterfaceGetConfiguredPipe, WdfUsbInterfaceGetConfiguredPipe method, kmdf.wdfusbinterfacegetconfiguredpipe, wdf.wdfusbinterfacegetconfiguredpipe, wdfusb/WdfUsbInterfaceGetConfiguredPipe
 f1_keywords:
  - "wdfusb/WdfUsbInterfaceGetConfiguredPipe"
+ - "WdfUsbInterfaceGetConfiguredPipe"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfUsbInterfaceGetConfiguredPipe
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

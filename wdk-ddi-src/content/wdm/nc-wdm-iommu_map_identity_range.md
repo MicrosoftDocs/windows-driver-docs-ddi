@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["IOMMU_MAP_IDENTITY_RANGE callback function"]
 f1_keywords:
  - "wdm/IOMMU_MAP_IDENTITY_RANGE"
+ - "IOMMU_MAP_IDENTITY_RANGE"
 req.header: wdm.h
 req.include-header:
 req.target-type:
@@ -32,8 +33,6 @@ api_location:
 - wdm.h
 api_name: 
 - IOMMU_MAP_IDENTITY_RANGE
-product:
-- Windows
 targetos: Windows
 ---
 

@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::OutputTypedDataVirtual"]
 ms.keywords: IDebugSymbols interface [Windows Debugging],OutputTypedDataVirtual method, IDebugSymbols2 interface [Windows Debugging],OutputTypedDataVirtual method, IDebugSymbols2::OutputTypedDataVirtual, IDebugSymbols3 interface [Windows Debugging],OutputTypedDataVirtual method, IDebugSymbols3.OutputTypedDataVirtual, IDebugSymbols3::OutputTypedDataVirtual, IDebugSymbols::OutputTypedDataVirtual, IDebugSymbols_0b8c7b9b-8e0a-4166-b474-830f662be2c6.xml, OutputTypedDataVirtual, OutputTypedDataVirtual method [Windows Debugging], OutputTypedDataVirtual method [Windows Debugging],IDebugSymbols interface, OutputTypedDataVirtual method [Windows Debugging],IDebugSymbols2 interface, OutputTypedDataVirtual method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols2::OutputTypedDataVirtual, dbgeng/IDebugSymbols3::OutputTypedDataVirtual, dbgeng/IDebugSymbols::OutputTypedDataVirtual, debugger.outputtypeddatavirtual
 f1_keywords:
  - "dbgeng/IDebugSymbols.OutputTypedDataVirtual"
+ - "IDebugSymbols.OutputTypedDataVirtual"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -38,8 +39,6 @@ api_name:
 - IDebugSymbols.OutputTypedDataVirtual
 - IDebugSymbols2.OutputTypedDataVirtual
 - IDebugSymbols3.OutputTypedDataVirtual
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

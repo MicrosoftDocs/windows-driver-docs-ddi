@@ -10,6 +10,7 @@ keywords: ["NDIS_WDI_PEER_DELETE_IND callback function"]
 ms.keywords: NDIS_WDI_PEER_DELETE_IND, NDIS_WDI_PEER_DELETE_IND callback, NdisWdiPeerDeleteIndication, NdisWdiPeerDeleteIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiPeerDeleteIndication, netvista.ndiswdipeerdeleteindication
 f1_keywords:
  - "dot11wdi/NdisWdiPeerDeleteIndication"
+ - "NdisWdiPeerDeleteIndication"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dot11wdi.h
 api_name:
 - NdisWdiPeerDeleteIndication
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

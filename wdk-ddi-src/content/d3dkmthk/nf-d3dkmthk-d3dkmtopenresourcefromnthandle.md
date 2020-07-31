@@ -9,6 +9,7 @@ keywords: ["D3DKMTOpenResourceFromNtHandle function"]
 ms.keywords: D3DKMTOpenResourceFromNtHandle, D3DKMTOpenResourceFromNtHandle callback function [Display Devices], PFND3DKMT_OPENRESOURCEFROMNTHANDLE, PFND3DKMT_OPENRESOURCEFROMNTHANDLE callback, d3dkmthk/D3DKMTOpenResourceFromNtHandle, display.d3dkmtopenresourcefromnthandle
 f1_keywords:
  - "d3dkmthk/D3DKMTOpenResourceFromNtHandle"
+ - "D3DKMTOpenResourceFromNtHandle"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -35,8 +36,6 @@ api_location:
 - Gdi32.dll
 api_name:
 - D3DKMTOpenResourceFromNtHandle
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

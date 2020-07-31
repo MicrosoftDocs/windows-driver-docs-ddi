@@ -10,6 +10,7 @@ keywords: ["_KEY_VALUE_ENTRY structure"]
 ms.keywords: "*PKEY_VALUE_ENTRY, KEY_VALUE_ENTRY, KEY_VALUE_ENTRY structure [Kernel-Mode Driver Architecture], PKEY_VALUE_ENTRY, PKEY_VALUE_ENTRY structure pointer [Kernel-Mode Driver Architecture], _KEY_VALUE_ENTRY, kernel.key_value_entry, kstruct_c_750eac86-0e41-4623-8404-8c198c1ee96c.xml, wdm/KEY_VALUE_ENTRY, wdm/PKEY_VALUE_ENTRY"
 f1_keywords:
  - "wdm/KEY_VALUE_ENTRY"
+ - "KEY_VALUE_ENTRY"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - KEY_VALUE_ENTRY
-product:
-- Windows
 targetos: Windows
 req.typenames: KEY_VALUE_ENTRY, *PKEY_VALUE_ENTRY
 ---

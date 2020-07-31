@@ -10,6 +10,7 @@ keywords: ["GET_VIRTUAL_DEVICE_LOCATION callback"]
 ms.keywords: GET_VIRTUAL_DEVICE_LOCATION, GetLocation, GetLocation routine, PCI.getlocation, wdm/GetLocation
 f1_keywords:
  - "wdm/GetLocation"
+ - "GetLocation"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - GetLocation
-product:
-- Windows
 targetos: Windows
 req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.

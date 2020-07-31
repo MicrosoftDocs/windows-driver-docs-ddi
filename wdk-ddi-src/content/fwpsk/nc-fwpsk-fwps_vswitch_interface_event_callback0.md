@@ -10,6 +10,7 @@ keywords: ["FWPS_VSWITCH_INTERFACE_EVENT_CALLBACK0 callback function"]
 ms.keywords: FWPS_VSWITCH_INTERFACE_EVENT_CALLBACK0, FWPS_VSWITCH_INTERFACE_EVENT_CALLBACK0 callback, fwpsk/vSwitchInterfaceEventNotifyFn, netvista.fwps_vswitch_interface_event_callback0, vSwitchInterfaceEventNotifyFn, vSwitchInterfaceEventNotifyFn callback function [Network Drivers Starting with Windows Vista]
 f1_keywords:
  - "fwpsk/vSwitchInterfaceEventNotifyFn"
+ - "vSwitchInterfaceEventNotifyFn"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - fwpsk.h
 api_name:
 - vSwitchInterfaceEventNotifyFn
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

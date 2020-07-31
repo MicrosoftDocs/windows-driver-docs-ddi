@@ -31,6 +31,7 @@ targetos: Windows
 ms.custom: UMD DDI Min Version D3D12DDI_SUPPORTED_0021, 19H1
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_CREATESYNCHRONIZATIONOBJECT2CB"
+ - "PFND3D12DDI_CREATESYNCHRONIZATIONOBJECT2CB"
 topic_type:
  - apiref
 api_type:

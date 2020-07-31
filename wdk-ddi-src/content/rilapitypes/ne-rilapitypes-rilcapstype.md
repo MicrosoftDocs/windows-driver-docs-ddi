@@ -10,6 +10,7 @@ keywords: ["RILCAPSTYPE enumeration"]
 ms.keywords: RILCAPSTYPE, RILCAPSTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_CAPSTYPE_ARG_LARGEST, RIL_CAPSTYPE_ARG_SMALLEST, RIL_CAPSTYPE_CALLSUPPORT, RIL_CAPSTYPE_MAX, RIL_CAPSTYPE_NITZNOTIFICATION, RIL_CAPSTYPE_PBMAXREAD, RIL_CAPSTYPE_PBSTORELOCATIONS, RIL_CAPSTYPE_PERSOLOCKPWDLENGTH, RIL_CAPSTYPE_RADIOCONFIGURATIONS, RIL_CAPSTYPE_SIGNALQUALITYIMPLEMENTATION, RIL_CAPSTYPE_SMSSUPPORT, netvista.rilcapstype, ntddrilapitypes/RILCAPSTYPE, ntddrilapitypes/RIL_CAPSTYPE_ARG_LARGEST, ntddrilapitypes/RIL_CAPSTYPE_ARG_SMALLEST, ntddrilapitypes/RIL_CAPSTYPE_CALLSUPPORT, ntddrilapitypes/RIL_CAPSTYPE_MAX, ntddrilapitypes/RIL_CAPSTYPE_NITZNOTIFICATION, ntddrilapitypes/RIL_CAPSTYPE_PBMAXREAD, ntddrilapitypes/RIL_CAPSTYPE_PBSTORELOCATIONS, ntddrilapitypes/RIL_CAPSTYPE_PERSOLOCKPWDLENGTH, ntddrilapitypes/RIL_CAPSTYPE_RADIOCONFIGURATIONS, ntddrilapitypes/RIL_CAPSTYPE_SIGNALQUALITYIMPLEMENTATION, ntddrilapitypes/RIL_CAPSTYPE_SMSSUPPORT
 f1_keywords:
  - "rilapitypes/RILCAPSTYPE"
+ - "RILCAPSTYPE"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILCAPSTYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: RILCAPSTYPE
 ---

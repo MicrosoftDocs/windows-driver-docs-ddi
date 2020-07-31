@@ -10,6 +10,7 @@ keywords: ["PoFxIssueComponentPerfStateChange function"]
 ms.keywords: PO_FX_FLAG_ASYNC_ONLY, PO_FX_FLAG_BLOCKING, PoFxIssueComponentPerfStateChange, PoFxIssueComponentPerfStateChange routine [Kernel-Mode Driver Architecture], kernel.pofxissuecomponentperfstatechange, wdm/PoFxIssueComponentPerfStateChange
 f1_keywords:
  - "wdm/PoFxIssueComponentPerfStateChange"
+ - "PoFxIssueComponentPerfStateChange"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Ntoskrnl.exe
 api_name:
 - PoFxIssueComponentPerfStateChange
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

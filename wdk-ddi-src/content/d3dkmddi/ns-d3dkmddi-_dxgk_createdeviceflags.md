@@ -9,6 +9,7 @@ keywords: ["_DXGK_CREATEDEVICEFLAGS structure"]
 ms.keywords: DXGK_CREATEDEVICEFLAGS, DXGK_CREATEDEVICEFLAGS structure [Display Devices], DmStructs_f8513fe3-ce39-4555-a667-20ff383583fc.xml, _DXGK_CREATEDEVICEFLAGS, d3dkmddi/DXGK_CREATEDEVICEFLAGS, display.dxgk_createdeviceflags
 f1_keywords:
  - "d3dkmddi/DXGK_CREATEDEVICEFLAGS"
+ - "DXGK_CREATEDEVICEFLAGS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGK_CREATEDEVICEFLAGS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_CREATEDEVICEFLAGS

@@ -10,6 +10,7 @@ keywords: ["RtlNextUnicodePrefix function"]
 ms.keywords: RtlNextUnicodePrefix, RtlNextUnicodePrefix routine [Installable File System Drivers], ifsk.rtlnextunicodeprefix, ntifs/RtlNextUnicodePrefix, rtlref_75c728f8-96b0-4e46-b47a-7d30ac61872c.xml
 f1_keywords:
  - "ntifs/RtlNextUnicodePrefix"
+ - "RtlNextUnicodePrefix"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlNextUnicodePrefix
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

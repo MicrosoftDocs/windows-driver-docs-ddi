@@ -10,6 +10,7 @@ keywords: ["ExtExtension::SetArg"]
 ms.keywords: EngExtCpp_Ref_20376f38-03cf-4e1c-a4af-6b318a425ebc.xml, ExtExtension class [Windows Debugging],SetArg method, ExtExtension.SetArg, ExtExtension::SetArg, SetArg, SetArg method [Windows Debugging], SetArg method [Windows Debugging],ExtExtension class, debugger.setarg
 f1_keywords:
  - "engextcpp/ExtExtension.SetArg"
+ - "ExtExtension.SetArg"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Engextcpp.hpp
 api_name:
 - ExtExtension.SetArg
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["_PEP_PPM_QUERY_DOMAIN_INFO structure"]
 ms.keywords: "*PPEP_PPM_QUERY_DOMAIN_INFO, PEP_PPM_QUERY_DOMAIN_INFO, PEP_PPM_QUERY_DOMAIN_INFO structure [Kernel-Mode Driver Architecture], _PEP_PPM_QUERY_DOMAIN_INFO, kernel.pep_ppm_query_domain_info, pepfx/PEP_PPM_QUERY_DOMAIN_INFO"
 f1_keywords:
  - "pep_x/PEP_PPM_QUERY_DOMAIN_INFO"
+ - "PEP_PPM_QUERY_DOMAIN_INFO"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Pepfx.h
 api_name:
 - PEP_PPM_QUERY_DOMAIN_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_PPM_QUERY_DOMAIN_INFO, *PPEP_PPM_QUERY_DOMAIN_INFO
 ---

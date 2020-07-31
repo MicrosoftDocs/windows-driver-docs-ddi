@@ -9,6 +9,7 @@ keywords: ["DXGKDDI_QUERYCURRENTFENCE callback function"]
 ms.keywords: DXGKDDI_QUERYCURRENTFENCE, DXGKDDI_QUERYCURRENTFENCE callback, DmFunctions_d8fe2a82-bd21-4071-9dcf-5b3a12fe25ef.xml, DxgkDdiQueryCurrentFence, DxgkDdiQueryCurrentFence callback function [Display Devices], d3dkmddi/DxgkDdiQueryCurrentFence, display.dxgkddiquerycurrentfence
 f1_keywords:
  - "d3dkmddi/DxgkDdiQueryCurrentFence"
+ - "DxgkDdiQueryCurrentFence"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop
@@ -35,8 +36,6 @@ api_location:
 - D3dkmddi.h
 api_name:
 - DxgkDdiQueryCurrentFence
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

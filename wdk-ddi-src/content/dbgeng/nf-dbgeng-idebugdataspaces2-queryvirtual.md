@@ -10,6 +10,7 @@ keywords: ["IDebugDataSpaces2::QueryVirtual"]
 ms.keywords: IDebugDataSpaces2 interface [Windows Debugging],QueryVirtual method, IDebugDataSpaces2.QueryVirtual, IDebugDataSpaces2::QueryVirtual, IDebugDataSpaces_45524d69-d9be-4eb0-971c-3ae6bb6089b2.xml, QueryVirtual, QueryVirtual method [Windows Debugging], QueryVirtual method [Windows Debugging],IDebugDataSpaces2 interface, dbgeng/IDebugDataSpaces2::QueryVirtual, debugger.queryvirtual
 f1_keywords:
  - "dbgeng/IDebugDataSpaces2.QueryVirtual"
+ - "IDebugDataSpaces2.QueryVirtual"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugDataSpaces2.QueryVirtual
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

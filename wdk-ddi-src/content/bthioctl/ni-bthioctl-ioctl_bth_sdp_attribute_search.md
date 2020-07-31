@@ -10,6 +10,7 @@ keywords: ["IOCTL_BTH_SDP_ATTRIBUTE_SEARCH IOCTL"]
 ms.keywords: IOCTL_BTH_SDP_ATTRIBUTE_SEARCH, IOCTL_BTH_SDP_ATTRIBUTE_SEARCH control, IOCTL_BTH_SDP_ATTRIBUTE_SEARCH control code [Bluetooth Devices], bltooth.ioctl_bth_sdp_attribute_search, bth_ioctls_19f12c1a-aaf5-4751-ba53-94054d3fb725.xml, bthioctl/IOCTL_BTH_SDP_ATTRIBUTE_SEARCH
 f1_keywords:
  - "bthioctl/IOCTL_BTH_SDP_ATTRIBUTE_SEARCH"
+ - "IOCTL_BTH_SDP_ATTRIBUTE_SEARCH"
 req.header: bthioctl.h
 req.include-header: Bthioctl.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Bthioctl.h
 api_name:
 - IOCTL_BTH_SDP_ATTRIBUTE_SEARCH
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

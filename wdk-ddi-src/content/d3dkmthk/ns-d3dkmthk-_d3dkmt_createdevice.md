@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_CREATEDEVICE structure"]
 ms.keywords: D3DKMT_CREATEDEVICE, D3DKMT_CREATEDEVICE structure [Display Devices], OpenGL_Structs_ed68c4a8-21a9-4754-8909-666a581f7759.xml, _D3DKMT_CREATEDEVICE, d3dkmthk/D3DKMT_CREATEDEVICE, display.d3dkmt_createdevice
 f1_keywords:
  - "d3dkmthk/D3DKMT_CREATEDEVICE"
+ - "D3DKMT_CREATEDEVICE"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMT_CREATEDEVICE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_CREATEDEVICE

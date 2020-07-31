@@ -10,6 +10,7 @@ keywords: ["IPrintCoreUI2 interface"]
 ms.keywords: IPrintCoreUI2, IPrintCoreUI2 interface [Print Devices], IPrintCoreUI2 interface [Print Devices],described, prcomoem/IPrintCoreUI2, print.iprintcoreui2_interface, print_unidrv-pscript_ui_e96a2262-fab6-4128-b312-90fde72006e0.xml
 f1_keywords:
  - "prcomoem/IPrintCoreUI2"
+ - "IPrintCoreUI2"
 req.header: prcomoem.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - prcomoem.h
 api_name:
 - IPrintCoreUI2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -55,7 +54,7 @@ This interface inherits from the <a href="https://docs.microsoft.com/windows-har
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintCoreUI2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintCoreUI2</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintCoreUI2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintCoreUI2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

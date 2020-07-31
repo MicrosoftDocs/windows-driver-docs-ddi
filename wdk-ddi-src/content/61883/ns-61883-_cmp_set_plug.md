@@ -10,6 +10,7 @@ keywords: ["_CMP_SET_PLUG structure"]
 ms.keywords: "*PCMP_SET_PLUG, 61883/CMP_SET_PLUG, 61883/PCMP_SET_PLUG, CMP_SET_PLUG, CMP_SET_PLUG structure [Buses], IEEE.cmp_set_plug, PCMP_SET_PLUG, PCMP_SET_PLUG structure pointer [Buses], _CMP_SET_PLUG"
 f1_keywords:
  - "61883/CMP_SET_PLUG"
+ - "CMP_SET_PLUG"
 req.header: 61883.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - 61883.h
 api_name:
 - CMP_SET_PLUG
-product:
-- Windows
 targetos: Windows
 req.typenames: CMP_SET_PLUG, *PCMP_SET_PLUG
 ---

@@ -10,6 +10,7 @@ keywords: ["_DRIVER_INFO_8A structure"]
 ms.keywords: "*LPDRIVER_INFO_8A, *PDRIVER_INFO_8A, DRIVER_INFO_8, DRIVER_INFO_8 structure [Print Devices], DRIVER_INFO_8A, LPDRIVER_INFO_8, LPDRIVER_INFO_8 structure pointer [Print Devices], PDRIVER_INFO_8, PDRIVER_INFO_8 structure pointer [Print Devices], _DRIVER_INFO_8A, print.driver_info_8, print_ticket-package_dba844e8-6e97-4eaf-8de4-1003562e01d5.xml, winspool/DRIVER_INFO_8, winspool/LPDRIVER_INFO_8, winspool/PDRIVER_INFO_8"
 f1_keywords:
  - "winspool/DRIVER_INFO_8"
+ - "DRIVER_INFO_8"
 req.header: winspool.h
 req.include-header: Winspool.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - winspool.h
 api_name:
 - DRIVER_INFO_8
-product:
-- Windows
 targetos: Windows
 req.typenames: DRIVER_INFO_8A, *PDRIVER_INFO_8A, *LPDRIVER_INFO_8A
 ---
@@ -136,11 +135,11 @@ A pointer to a null-terminated string that specifies all color profiles that are
 
 ### -field pszInfPath
 
-A pointer to a null-terminated string that specifies the path of the INF file inside the driver store from which the printer driver was installed. Must be **NULL** if using the [AddPrinterDriver](https://docs.microsoft.com/windows/desktop/printdocs/addprinterdriver) or [AddPrinterDriverEx](https://docs.microsoft.com/windows/desktop/printdocs/addprinterdriverex) functions with DRIVER_INFO_8.
+A pointer to a null-terminated string that specifies the path of the INF file inside the driver store from which the printer driver was installed. Must be **NULL** if using the [AddPrinterDriver](https://docs.microsoft.com/windows/win32/printdocs/addprinterdriver) or [AddPrinterDriverEx](https://docs.microsoft.com/windows/win32/printdocs/addprinterdriverex) functions with DRIVER_INFO_8.
 
 ### -field dwPrinterDriverAttributes
 
-This member specifies printer driver related properties. Must be zero if using the [AddPrinterDriver](https://docs.microsoft.com/windows/desktop/printdocs/addprinterdriver) or [AddPrinterDriverEx](https://docs.microsoft.com/windows/desktop/printdocs/addprinterdriverex) functions with DRIVER_INFO_8. The following table shows the flags that have been defined for the *dwPrinterDriverAttributes* parameter.
+This member specifies printer driver related properties. Must be zero if using the [AddPrinterDriver](https://docs.microsoft.com/windows/win32/printdocs/addprinterdriver) or [AddPrinterDriverEx](https://docs.microsoft.com/windows/win32/printdocs/addprinterdriverex) functions with DRIVER_INFO_8. The following table shows the flags that have been defined for the *dwPrinterDriverAttributes* parameter.
 
 <table>
 <tr>
@@ -330,7 +329,7 @@ Windows Server 2012
 
 ### -field pszzCoreDriverDependencies
 
-A pointer to a null-terminated string that contains all the core printer driver dependencies for the driver package that are defined by *pszInfPath*. Must be **NULL** if using the [AddPrinterDriver](https://docs.microsoft.com/windows/desktop/printdocs/addprinterdriver) or [AddPrinterDriverEx](https://docs.microsoft.com/windows/desktop/printdocs/addprinterdriverex) functions with DRIVER_INFO_8.
+A pointer to a null-terminated string that contains all the core printer driver dependencies for the driver package that are defined by *pszInfPath*. Must be **NULL** if using the [AddPrinterDriver](https://docs.microsoft.com/windows/win32/printdocs/addprinterdriver) or [AddPrinterDriverEx](https://docs.microsoft.com/windows/win32/printdocs/addprinterdriverex) functions with DRIVER_INFO_8.
 
 ### -field ftMinInboxDriverVerDate
 

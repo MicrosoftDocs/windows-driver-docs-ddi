@@ -9,6 +9,7 @@ ms.author: windowsdriverdev
 ms.date: 03/24/2020
 f1_keywords:
  - "ntddvdeo/IOCTL_MIPI_DSI_TRANSMISSION"
+ - "IOCTL_MIPI_DSI_TRANSMISSION"
 req.header: ntddvdeo.h
 req.include-header:
 req.target-type:
@@ -29,8 +30,6 @@ api_location:
  - ntddvdeo.h
 api_name: 
  - IOCTL_MIPI_DSI_TRANSMISSION
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

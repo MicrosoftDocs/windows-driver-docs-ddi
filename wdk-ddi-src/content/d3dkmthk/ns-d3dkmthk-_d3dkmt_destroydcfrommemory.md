@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_DESTROYDCFROMMEMORY structure"]
 ms.keywords: D3DKMT_DESTROYDCFROMMEMORY, D3DKMT_DESTROYDCFROMMEMORY structure [Display Devices], OpenGL_Structs_1d3adbd5-a0cf-4650-b293-148ca3b093fb.xml, _D3DKMT_DESTROYDCFROMMEMORY, d3dkmthk/D3DKMT_DESTROYDCFROMMEMORY, display.d3dkmt_destroydcfrommemory
 f1_keywords:
  - "d3dkmthk/D3DKMT_DESTROYDCFROMMEMORY"
+ - "D3DKMT_DESTROYDCFROMMEMORY"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMT_DESTROYDCFROMMEMORY
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_DESTROYDCFROMMEMORY

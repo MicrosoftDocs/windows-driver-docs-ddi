@@ -10,6 +10,7 @@ keywords: ["IOCTL_BIOMETRIC_RESET IOCTL"]
 ms.keywords: IOCTL_BIOMETRIC_RESET, IOCTL_BIOMETRIC_RESET control, IOCTL_BIOMETRIC_RESET control code [Biometric Devices], biometric.ioctl_biometric_reset, biometric_ref_4043b840-5b38-40b2-bd80-282a28badd14.xml, winbio_ioctl/IOCTL_BIOMETRIC_RESET
 f1_keywords:
  - "winbio_ioctl/IOCTL_BIOMETRIC_RESET"
+ - "IOCTL_BIOMETRIC_RESET"
 req.header: winbio_ioctl.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Winbio_ioctl.h
 api_name:
 - IOCTL_BIOMETRIC_RESET
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

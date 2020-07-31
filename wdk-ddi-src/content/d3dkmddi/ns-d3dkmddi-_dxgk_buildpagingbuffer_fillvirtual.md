@@ -9,6 +9,7 @@ keywords: ["_DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL structure"]
 ms.keywords: DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL, DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL structure [Display Devices], _DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL, d3dkmddi/DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL, display.dxgk_buildpagingbuffer_fillvirtual
 f1_keywords:
  - "d3dkmddi/DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL"
+ - "DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL

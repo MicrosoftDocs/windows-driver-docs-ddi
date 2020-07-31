@@ -10,6 +10,7 @@ keywords: ["IPrintSchemaFeature::get_SelectedOption"]
 ms.keywords: IPrintSchemaFeature interface [Print Devices],SelectedOption property, IPrintSchemaFeature.SelectedOption, IPrintSchemaFeature.get_SelectedOption, IPrintSchemaFeature::SelectedOption, IPrintSchemaFeature::get_SelectedOption, SelectedOption property [Print Devices], SelectedOption property [Print Devices],IPrintSchemaFeature interface, get_SelectedOption, print.iprintschemafeature_selectedoption, printerextension/IPrintSchemaFeature::SelectedOption, printerextension/IPrintSchemaFeature::get_SelectedOption
 f1_keywords:
  - "printerextension/IPrintSchemaFeature.SelectedOption"
+ - "IPrintSchemaFeature.SelectedOption"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IPrintSchemaFeature.SelectedOption
 - IPrintSchemaFeature.get_SelectedOption
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

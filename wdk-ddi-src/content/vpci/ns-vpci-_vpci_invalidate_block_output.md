@@ -10,6 +10,7 @@ keywords: ["_VPCI_INVALIDATE_BLOCK_OUTPUT structure"]
 ms.keywords: "*PVPCI_INVALIDATE_BLOCK_OUTPUT, PVPCI_INVALIDATE_BLOCK_OUTPUT, PVPCI_INVALIDATE_BLOCK_OUTPUT structure pointer [Kernel-Mode Driver Architecture], VPCI_INVALIDATE_BLOCK_OUTPUT, VPCI_INVALIDATE_BLOCK_OUTPUT structure [Kernel-Mode Driver Architecture], _VPCI_INVALIDATE_BLOCK_OUTPUT, kernel.vpci_invalidate_block_output, vpci/PVPCI_INVALIDATE_BLOCK_OUTPUT, vpci/VPCI_INVALIDATE_BLOCK_OUTPUT"
 f1_keywords:
  - "vpci/VPCI_INVALIDATE_BLOCK_OUTPUT"
+ - "VPCI_INVALIDATE_BLOCK_OUTPUT"
 req.header: vpci.h
 req.include-header: Vpci.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Vpci.h
 api_name:
 - VPCI_INVALIDATE_BLOCK_OUTPUT
-product:
-- Windows
 targetos: Windows
 req.typenames: VPCI_INVALIDATE_BLOCK_OUTPUT, *PVPCI_INVALIDATE_BLOCK_OUTPUT
 ---

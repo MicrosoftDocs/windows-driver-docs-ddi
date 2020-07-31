@@ -10,6 +10,7 @@ keywords: ["_NDIS_WDI_INIT_PARAMETERS structure"]
 ms.keywords: "*PNDIS_WDI_INIT_PARAMETERS, NDIS_WDI_INIT_PARAMETERS, NDIS_WDI_INIT_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_WDI_INIT_PARAMETERS, PNDIS_WDI_INIT_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WDI_INIT_PARAMETERS, dot11wdi/NDIS_WDI_INIT_PARAMETERS, dot11wdi/PNDIS_WDI_INIT_PARAMETERS, netvista.ndis_wdi_init_parameters"
 f1_keywords:
  - "dot11wdi/NDIS_WDI_INIT_PARAMETERS"
+ - "NDIS_WDI_INIT_PARAMETERS"
 req.header: dot11wdi.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dot11wdi.h
 api_name:
 - NDIS_WDI_INIT_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_WDI_INIT_PARAMETERS, *PNDIS_WDI_INIT_PARAMETERS
 ---

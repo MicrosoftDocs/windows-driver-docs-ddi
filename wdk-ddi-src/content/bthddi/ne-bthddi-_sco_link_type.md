@@ -10,6 +10,7 @@ keywords: ["_SCO_LINK_TYPE enumeration"]
 ms.keywords: "*PSCO_LINK_TYPE, PSCO_LINK_TYPE, PSCO_LINK_TYPE enumeration pointer [Bluetooth Devices], SCO_LINK_TYPE, SCO_LINK_TYPE enumeration [Bluetooth Devices], ScoLinkType, _SCO_LINK_TYPE, bltooth.sco_link_type, bth_enums_c5b9357f-7046-4115-a8a7-add459e59f27.xml, bthddi/PSCO_LINK_TYPE, bthddi/SCO_LINK_TYPE, bthddi/ScoLinkType, bthddi/eScoLinkType, eScoLinkType"
 f1_keywords:
  - "bthddi/SCO_LINK_TYPE"
+ - "SCO_LINK_TYPE"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - bthddi.h
 api_name:
 - SCO_LINK_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: SCO_LINK_TYPE, *PSCO_LINK_TYPE
 ---

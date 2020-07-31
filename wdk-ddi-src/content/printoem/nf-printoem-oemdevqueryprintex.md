@@ -10,6 +10,7 @@ keywords: ["OEMDevQueryPrintEx function"]
 ms.keywords: OEMDevQueryPrintEx, OEMDevQueryPrintEx function [Print Devices], print.oemdevqueryprintex, print_obsoletefunctions_c58c63fe-eeae-444d-a0e2-df17b61fa1ed.xml, printoem/OEMDevQueryPrintEx
 f1_keywords:
  - "printoem/OEMDevQueryPrintEx"
+ - "OEMDevQueryPrintEx"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - printoem.h
 api_name:
 - OEMDevQueryPrintEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

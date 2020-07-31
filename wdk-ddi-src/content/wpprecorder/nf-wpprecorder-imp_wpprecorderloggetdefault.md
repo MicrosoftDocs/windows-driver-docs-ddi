@@ -10,6 +10,7 @@ keywords: ["imp_WppRecorderLogGetDefault function"]
 ms.keywords: WppRecorderLogGetDefault, devtest.wpprecorderloggetdefault, imp_WppRecorderLogGetDefault, imp_WppRecorderLogGetDefault function [Driver Development Tools], wpprecorder/imp_WppRecorderLogGetDefault
 f1_keywords:
  - "wpprecorder/imp_WppRecorderLogGetDefault"
+ - "imp_WppRecorderLogGetDefault"
 req.header: wpprecorder.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wpprecorder.h
 api_name:
 - imp_WppRecorderLogGetDefault
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

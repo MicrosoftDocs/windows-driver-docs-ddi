@@ -10,6 +10,7 @@ keywords: ["PoFxSetDeviceIdleTimeout function"]
 ms.keywords: PoFxSetDeviceIdleTimeout, PoFxSetDeviceIdleTimeout routine [Kernel-Mode Driver Architecture], kernel.pofxsetdeviceidletimeout, wdm/PoFxSetDeviceIdleTimeout
 f1_keywords:
  - "wdm/PoFxSetDeviceIdleTimeout"
+ - "PoFxSetDeviceIdleTimeout"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Ntoskrnl.exe
 api_name:
 - PoFxSetDeviceIdleTimeout
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

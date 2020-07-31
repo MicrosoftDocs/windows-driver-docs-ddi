@@ -10,6 +10,7 @@ keywords: ["ExtRemoteData::GetUlongPtr"]
 ms.keywords: EngExtCpp_Ref_22ba632d-a45b-40de-b8d7-269c917357d5.xml, ExtRemoteData class [Windows Debugging],GetUlongPtr method, ExtRemoteData.GetUlongPtr, ExtRemoteData::GetUlongPtr, GetUlongPtr, GetUlongPtr method [Windows Debugging], GetUlongPtr method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_getulongptr
 f1_keywords:
  - "engextcpp/ExtRemoteData.GetUlongPtr"
+ - "ExtRemoteData.GetUlongPtr"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - engextcpp.hpp
 api_name:
 - ExtRemoteData.GetUlongPtr
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

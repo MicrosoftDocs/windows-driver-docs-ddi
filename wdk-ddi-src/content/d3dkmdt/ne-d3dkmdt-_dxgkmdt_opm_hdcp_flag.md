@@ -10,6 +10,7 @@ keywords: ["_DXGKMDT_OPM_HDCP_FLAG enumeration"]
 ms.keywords: DXGKMDT_OPM_HDCP_FLAG, DXGKMDT_OPM_HDCP_FLAG enumeration [Display Devices], DXGKMDT_OPM_HDCP_FLAG_NONE, DXGKMDT_OPM_HDCP_FLAG_REPEATER, DmEnums_4969beac-7f4f-4bef-bd67-65599816c9ee.xml, _DXGKMDT_OPM_HDCP_FLAG, d3dkmdt/DXGKMDT_OPM_HDCP_FLAG, d3dkmdt/DXGKMDT_OPM_HDCP_FLAG_NONE, d3dkmdt/DXGKMDT_OPM_HDCP_FLAG_REPEATER, display.dxgkmdt_opm_hdcp_flag
 f1_keywords:
  - "d3dkmdt/DXGKMDT_OPM_HDCP_FLAG"
+ - "DXGKMDT_OPM_HDCP_FLAG"
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dkmdt.h
 api_name:
 - DXGKMDT_OPM_HDCP_FLAG
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGKMDT_OPM_HDCP_FLAG
 ---

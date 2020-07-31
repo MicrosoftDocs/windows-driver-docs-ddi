@@ -10,6 +10,7 @@ keywords: ["_AVC_SUBUNIT_ADDR_SPEC structure"]
 ms.keywords: "*PAVC_SUBUNIT_ADDR_SPEC, AVC_SUBUNIT_ADDR_SPEC, AVC_SUBUNIT_ADDR_SPEC structure [Streaming Media Devices], PAVC_SUBUNIT_ADDR_SPEC, PAVC_SUBUNIT_ADDR_SPEC structure pointer [Streaming Media Devices], _AVC_SUBUNIT_ADDR_SPEC, avc/AVC_SUBUNIT_ADDR_SPEC, avc/PAVC_SUBUNIT_ADDR_SPEC, avcref_56141f06-dd51-40cb-874a-ec136ec7683f.xml, stream.avc_subunit_addr_spec"
 f1_keywords:
  - "avc/AVC_SUBUNIT_ADDR_SPEC"
+ - "AVC_SUBUNIT_ADDR_SPEC"
 req.header: avc.h
 req.include-header: Avc.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - avc.h
 api_name:
 - AVC_SUBUNIT_ADDR_SPEC
-product:
-- Windows
 targetos: Windows
 req.typenames: AVC_SUBUNIT_ADDR_SPEC, *PAVC_SUBUNIT_ADDR_SPEC
 ---

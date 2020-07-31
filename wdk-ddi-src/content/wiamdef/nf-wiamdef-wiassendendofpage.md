@@ -10,6 +10,7 @@ keywords: ["wiasSendEndOfPage function"]
 ms.keywords: image.wiassendendofpage, wiamdef/wiasSendEndOfPage, wiasFncs_c8a81130-c832-40d8-8a62-619d04d8d3dc.xml, wiasSendEndOfPage, wiasSendEndOfPage function [Imaging Devices]
 f1_keywords:
  - "wiamdef/wiasSendEndOfPage"
+ - "wiasSendEndOfPage"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wiaservc.dll
 api_name:
 - wiasSendEndOfPage
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

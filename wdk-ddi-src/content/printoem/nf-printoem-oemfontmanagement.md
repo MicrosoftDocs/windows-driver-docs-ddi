@@ -10,6 +10,7 @@ keywords: ["OEMFontManagement function"]
 ms.keywords: OEMFontManagement, OEMFontManagement function [Print Devices], print.oemfontmanagement, print_unidrv-pscript_rendering_41e19fb2-9946-4911-beb2-3681bd08c08b.xml, printoem/OEMFontManagement
 f1_keywords:
  - "printoem/OEMFontManagement"
+ - "OEMFontManagement"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - printoem.h
 api_name:
 - OEMFontManagement
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

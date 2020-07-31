@@ -10,6 +10,7 @@ keywords: ["IOCTL_VIDEO_HANDLE_VIDEOPARAMETERS IOCTL"]
 ms.keywords: IOCTL_VIDEO_HANDLE_VIDEOPARAMETERS, IOCTL_VIDEO_HANDLE_VIDEOPARAMETERS control, IOCTL_VIDEO_HANDLE_VIDEOPARAMETERS control code [Display Devices], Video_IOCTLs_c94e510e-22f7-47af-8e82-f84ef2b926c6.xml, display.ioctl_video_handle_videoparameters, ntddvdeo/IOCTL_VIDEO_HANDLE_VIDEOPARAMETERS
 f1_keywords:
  - "ntddvdeo/IOCTL_VIDEO_HANDLE_VIDEOPARAMETERS"
+ - "IOCTL_VIDEO_HANDLE_VIDEOPARAMETERS"
 req.header: ntddvdeo.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddvdeo.h
 api_name:
 - IOCTL_VIDEO_HANDLE_VIDEOPARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

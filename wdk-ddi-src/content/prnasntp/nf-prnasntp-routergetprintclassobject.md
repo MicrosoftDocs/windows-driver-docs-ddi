@@ -10,6 +10,7 @@ keywords: ["RouterGetPrintClassObject function"]
 ms.keywords: RouterGetPrintClassObject, RouterGetPrintClassObject function [Print Devices], print.routergetprintclassobject, prnasntp/RouterGetPrintClassObject, spoolfnc_ffe877d1-cb3e-49f5-a5b5-5da7c5cb9148.xml
 f1_keywords:
  - "prnasntp/RouterGetPrintClassObject"
+ - "RouterGetPrintClassObject"
 req.header: prnasntp.h
 req.include-header: Prnasntp.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Spoolss.dll
 api_name:
 - RouterGetPrintClassObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

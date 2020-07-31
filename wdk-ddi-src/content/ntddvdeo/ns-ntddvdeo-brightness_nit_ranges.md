@@ -8,6 +8,7 @@ ms.date: 10/19/2018
 keywords: ["BRIGHTNESS_NIT_RANGES structure"]
 f1_keywords:
  - "ntddvdeo/BRIGHTNESS_NIT_RANGES"
+ - "BRIGHTNESS_NIT_RANGES"
 ms.keywords: BRIGHTNESS_NIT_RANGES, *PBRIGHTNESS_NIT_RANGES, BRIGHTNESS_NIT_RANGES,
 req.header: ntddvdeo.h
 req.include-header:

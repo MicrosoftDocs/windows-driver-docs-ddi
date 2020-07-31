@@ -10,6 +10,7 @@ keywords: ["FsRtlChangeBackingFileObject function"]
 ms.keywords: FsRtlChangeBackingFileObject, FsRtlChangeBackingFileObject routine [Installable File System Drivers], fsrtlref_4dd83ba3-8d9b-4c5b-a4ea-d7a0ceaaa9f2.xml, ifsk.fsrtlchangebackingfileobject, ntifs/FsRtlChangeBackingFileObject
 f1_keywords:
  - "ntifs/FsRtlChangeBackingFileObject"
+ - "FsRtlChangeBackingFileObject"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlChangeBackingFileObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

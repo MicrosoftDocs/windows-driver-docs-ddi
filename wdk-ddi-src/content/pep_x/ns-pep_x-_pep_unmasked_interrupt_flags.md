@@ -10,6 +10,7 @@ keywords: ["_PEP_UNMASKED_INTERRUPT_FLAGS structure"]
 ms.keywords: "*PPEP_UNMASKED_INTERRUPT_FLAGS, PEP_UNMASKED_INTERRUPT_FLAGS, PEP_UNMASKED_INTERRUPT_FLAGS union [Kernel-Mode Driver Architecture], _PEP_UNMASKED_INTERRUPT_FLAGS, kernel.pep_unmasked_interrupt_flags, pepfx/PEP_UNMASKED_INTERRUPT_FLAGS"
 f1_keywords:
  - "pep_x/PEP_UNMASKED_INTERRUPT_FLAGS"
+ - "PEP_UNMASKED_INTERRUPT_FLAGS"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - PEP_UNMASKED_INTERRUPT_FLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_UNMASKED_INTERRUPT_FLAGS, *PPEP_UNMASKED_INTERRUPT_FLAGS
 ---

@@ -9,6 +9,7 @@ keywords: ["D3DKMTDestroyAllocation function"]
 ms.keywords: D3DKMTDestroyAllocation, D3DKMTDestroyAllocation function [Display Devices], OpenGL_Functions_ecc5579c-3b0a-4c2c-9978-9f2591444c03.xml, d3dkmthk/D3DKMTDestroyAllocation, display.d3dkmtdestroyallocation
 f1_keywords:
  - "d3dkmthk/D3DKMTDestroyAllocation"
+ - "D3DKMTDestroyAllocation"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -38,8 +39,6 @@ api_location:
 - API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 - D3DKMTDestroyAllocation
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

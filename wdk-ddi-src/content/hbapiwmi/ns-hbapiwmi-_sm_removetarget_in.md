@@ -10,6 +10,7 @@ keywords: ["_SM_RemoveTarget_IN structure"]
 ms.keywords: "*PSM_RemoveTarget_IN, PSM_RemoveTarget_IN, PSM_RemoveTarget_IN structure pointer [Storage Devices], SM_RemoveTarget_IN, SM_RemoveTarget_IN structure [Storage Devices], _SM_RemoveTarget_IN, hbapiwmi/PSM_RemoveTarget_IN, hbapiwmi/SM_RemoveTarget_IN, storage.sm_removetarget_in, structs-Fibre_6efe773b-e240-40d4-bcf6-c6d141061ac3.xml"
 f1_keywords:
  - "hbapiwmi/SM_RemoveTarget_IN"
+ - "SM_RemoveTarget_IN"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - SM_RemoveTarget_IN
-product:
-- Windows
 targetos: Windows
 req.typenames: SM_RemoveTarget_IN, *PSM_RemoveTarget_IN
 ---

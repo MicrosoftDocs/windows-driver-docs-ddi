@@ -10,6 +10,7 @@ keywords: ["_IRB_REQ_ISOCH_ATTACH_BUFFERS structure"]
 ms.keywords: 1394/IRB_REQ_ISOCH_ATTACH_BUFFERS, IEEE.irb_req_isoch_attach_buffers, IRB_REQ_ISOCH_ATTACH_BUFFERS, IRB_REQ_ISOCH_ATTACH_BUFFERS structure [Buses], _IRB_REQ_ISOCH_ATTACH_BUFFERS
 f1_keywords:
  - "1394/IRB_REQ_ISOCH_ATTACH_BUFFERS"
+ - "IRB_REQ_ISOCH_ATTACH_BUFFERS"
 req.header: 1394.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - 1394.h
 api_name:
 - IRB_REQ_ISOCH_ATTACH_BUFFERS
-product:
-- Windows
 targetos: Windows
 req.typenames: IRB_REQ_ISOCH_ATTACH_BUFFERS
 ---

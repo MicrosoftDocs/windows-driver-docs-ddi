@@ -10,6 +10,7 @@ keywords: ["IWDFWorkItem::Flush"]
 ms.keywords: Flush, Flush method, Flush method,IWDFWorkItem interface, IWDFWorkItem interface,Flush method, IWDFWorkItem.Flush, IWDFWorkItem::Flush, umdf.iwdfworkitem_flush, wdf.iwdfworkitem_flush, wudfddi/IWDFWorkItem::Flush
 f1_keywords:
  - "wudfddi/IWDFWorkItem.Flush"
+ - "IWDFWorkItem.Flush"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFWorkItem.Flush
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

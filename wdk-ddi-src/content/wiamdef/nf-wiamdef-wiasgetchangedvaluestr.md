@@ -10,6 +10,7 @@ keywords: ["wiasGetChangedValueStr function"]
 ms.keywords: image.wiasgetchangedvaluestr, wiamdef/wiasGetChangedValueStr, wiasFncs_24524e94-fa0a-4d40-b742-6fad76707014.xml, wiasGetChangedValueStr, wiasGetChangedValueStr function [Imaging Devices]
 f1_keywords:
  - "wiamdef/wiasGetChangedValueStr"
+ - "wiasGetChangedValueStr"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wiaservc.dll
 api_name:
 - wiasGetChangedValueStr
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

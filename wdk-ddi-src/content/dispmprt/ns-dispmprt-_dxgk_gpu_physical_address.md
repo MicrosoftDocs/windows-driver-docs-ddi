@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["_DXGK_GPU_PHYSICAL_ADDRESS structure"]
 f1_keywords:
  - "dispmprt/_DXGK_GPU_PHYSICAL_ADDRESS"
+ - "_DXGK_GPU_PHYSICAL_ADDRESS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: _DXGK_GPU_PHYSICAL_ADDRESS, DXGK_GPU_PHYSICAL_ADDRESS, *PDXGK_GPU_PHYSICAL_ADDRESS, 

@@ -10,6 +10,7 @@ keywords: ["FltDeviceIoControlFile function"]
 ms.keywords: FltApiRef_a_to_d_0e8f1a72-1620-4d72-8569-7411c724e906.xml, FltDeviceIoControlFile, FltDeviceIoControlFile function [Installable File System Drivers], fltkernel/FltDeviceIoControlFile, ifsk.fltdeviceiocontrolfile
 f1_keywords:
  - "fltkernel/FltDeviceIoControlFile"
+ - "FltDeviceIoControlFile"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - FltMgr.dll
 api_name:
 - FltDeviceIoControlFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

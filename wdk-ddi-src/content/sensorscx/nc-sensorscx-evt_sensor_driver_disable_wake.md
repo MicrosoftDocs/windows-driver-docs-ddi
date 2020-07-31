@@ -10,6 +10,7 @@ keywords: ["EVT_SENSOR_DRIVER_DISABLE_WAKE callback function"]
 ms.keywords: EVT_SENSOR_DRIVER_DISABLE_WAKE, EVT_SENSOR_DRIVER_DISABLE_WAKE callback, EVT_SENSOR_DRIVER_DISABLE_WAKE callback function [Sensor Devices], sensors.evt_sensor_driver_disable_wake, sensorscx/EVT_SENSOR_DRIVER_DISABLE_WAKE
 f1_keywords:
  - "sensorscx/EVT_SENSOR_DRIVER_DISABLE_WAKE"
+ - "EVT_SENSOR_DRIVER_DISABLE_WAKE"
 req.header: sensorscx.h
 req.include-header:
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - SensorsCx.h
 api_name:
 - EVT_SENSOR_DRIVER_DISABLE_WAKE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

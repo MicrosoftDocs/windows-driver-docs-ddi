@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DFOGMODE enumeration"]
 f1_keywords:
  - "d3d9types/_D3DFOGMODE"
+ - "_D3DFOGMODE"
 ms.keywords: _D3DFOGMODE, D3DFOGMODE, 
 req.header: d3d9types.h
 req.include-header:
@@ -26,8 +27,6 @@ api_location:
 - d3d9types.h
 api_name: 
 - _D3DFOGMODE
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

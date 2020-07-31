@@ -10,6 +10,7 @@ keywords: ["NdisOffloadTcpReceive function"]
 ms.keywords: NdisOffloadTcpReceive, NdisOffloadTcpReceive function [Network Drivers Starting with Windows Vista], ndischimney/NdisOffloadTcpReceive, netvista.ndisoffloadtcpreceive, tcp_chim_ndis_func_601c3cd9-00c3-425b-a42e-c8ea8563bde3.xml
 f1_keywords:
  - "ndischimney/NdisOffloadTcpReceive"
+ - "NdisOffloadTcpReceive"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisOffloadTcpReceive
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

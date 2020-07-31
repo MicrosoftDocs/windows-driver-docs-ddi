@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["MmMapViewInSystemSpace function"]
 f1_keywords:
  - "ntddk/MmMapViewInSystemSpace"
+ - "MmMapViewInSystemSpace"
 ms.keywords: MmMapViewInSystemSpace
 req.header: ntddk.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - NfcCx.dll
 api_name: 
 - MmMapViewInSystemSpace
-product:
-- Windows
 targetos: Windows
 
 ms.custom: RS5

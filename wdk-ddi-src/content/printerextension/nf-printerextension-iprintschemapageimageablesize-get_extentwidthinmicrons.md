@@ -10,6 +10,7 @@ keywords: ["IPrintSchemaPageImageableSize::get_ExtentWidthInMicrons"]
 ms.keywords: ExtentWidthInMicrons property [Print Devices], ExtentWidthInMicrons property [Print Devices],IPrintSchemaPageImageableSize interface, IPrintSchemaPageImageableSize interface [Print Devices],ExtentWidthInMicrons property, IPrintSchemaPageImageableSize.ExtentWidthInMicrons, IPrintSchemaPageImageableSize.get_ExtentWidthInMicrons, IPrintSchemaPageImageableSize::ExtentWidthInMicrons, IPrintSchemaPageImageableSize::get_ExtentWidthInMicrons, get_ExtentWidthInMicrons, print.iprintschemapageimageablesize_extentwidthinmicrons, printerextension/IPrintSchemaPageImageableSize::ExtentWidthInMicrons, printerextension/IPrintSchemaPageImageableSize::get_ExtentWidthInMicrons
 f1_keywords:
  - "printerextension/IPrintSchemaPageImageableSize.ExtentWidthInMicrons"
+ - "IPrintSchemaPageImageableSize.ExtentWidthInMicrons"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IPrintSchemaPageImageableSize.ExtentWidthInMicrons
 - IPrintSchemaPageImageableSize.get_ExtentWidthInMicrons
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

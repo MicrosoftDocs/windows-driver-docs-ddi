@@ -10,6 +10,7 @@ keywords: ["IDebugPlmClient3::DisablePlmPackageDebugWide"]
 ms.keywords: DisablePlmPackageDebugWide, DisablePlmPackageDebugWide method [Windows Debugging], DisablePlmPackageDebugWide method [Windows Debugging],IDebugPlmClient3 interface, IDebugPlmClient3 interface [Windows Debugging],DisablePlmPackageDebugWide method, IDebugPlmClient3.DisablePlmPackageDebugWide, IDebugPlmClient3::DisablePlmPackageDebugWide, dbgeng/IDebugPlmClient3::DisablePlmPackageDebugWide, debugger.idebugplmclient3_disableplmpackagedebugwide
 f1_keywords:
  - "dbgeng/IDebugPlmClient3.DisablePlmPackageDebugWide"
+ - "IDebugPlmClient3.DisablePlmPackageDebugWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugPlmClient3.DisablePlmPackageDebugWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

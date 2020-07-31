@@ -10,6 +10,7 @@ keywords: ["tagKS_DATARANGE_VIDEO2 structure"]
 ms.keywords: "*PKS_DATARANGE_VIDEO2, KS_DATARANGE_VIDEO2, KS_DATARANGE_VIDEO2 structure [Streaming Media Devices], PKS_DATARANGE_VIDEO2, PKS_DATARANGE_VIDEO2 structure pointer [Streaming Media Devices], ksmedia/KS_DATARANGE_VIDEO2, ksmedia/PKS_DATARANGE_VIDEO2, stream.ks_datarange_video2, tagKS_DATARANGE_VIDEO2, vidcapstruct_f014ea98-b1a5-4d05-aea3-b13e7a3f5918.xml"
 f1_keywords:
  - "ksmedia/KS_DATARANGE_VIDEO2"
+ - "KS_DATARANGE_VIDEO2"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KS_DATARANGE_VIDEO2
-product:
-- Windows
 targetos: Windows
 req.typenames: KS_DATARANGE_VIDEO2, *PKS_DATARANGE_VIDEO2
 ---

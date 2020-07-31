@@ -10,6 +10,7 @@ keywords: ["RxNameCacheFinalize function"]
 ms.keywords: RxNameCacheFinalize, RxNameCacheFinalize function [Installable File System Drivers], ifsk.rxnamecachefinalize, namcache/RxNameCacheFinalize, rxref_34ec3c3b-20b2-425a-8d12-4a2d685ffb2f.xml
 f1_keywords:
  - "namcache/RxNameCacheFinalize"
+ - "RxNameCacheFinalize"
 req.header: namcache.h
 req.include-header: Namcache.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - namcache.h
 api_name:
 - RxNameCacheFinalize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IQueueCallbackDefaultIoHandler::OnDefaultIoHandler"]
 ms.keywords: IQueueCallbackDefaultIoHandler interface,OnDefaultIoHandler method, IQueueCallbackDefaultIoHandler.OnDefaultIoHandler, IQueueCallbackDefaultIoHandler::OnDefaultIoHandler, OnDefaultIoHandler, OnDefaultIoHandler method, OnDefaultIoHandler method,IQueueCallbackDefaultIoHandler interface, UMDFQueueObjectRef_21f994ea-feca-4c50-aa83-401581713c3f.xml, umdf.iqueuecallbackdefaultiohandler_ondefaultiohandler, wdf.iqueuecallbackdefaultiohandler_ondefaultiohandler, wudfddi/IQueueCallbackDefaultIoHandler::OnDefaultIoHandler
 f1_keywords:
  - "wudfddi/IQueueCallbackDefaultIoHandler.OnDefaultIoHandler"
+ - "IQueueCallbackDefaultIoHandler.OnDefaultIoHandler"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wudfddi.h
 api_name:
 - IQueueCallbackDefaultIoHandler.OnDefaultIoHandler
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

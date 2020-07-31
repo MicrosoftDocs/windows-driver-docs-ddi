@@ -10,6 +10,7 @@ keywords: ["READ_PORT_BUFFER_ULONG function"]
 ms.keywords: READ_PORT_BUFFER_ULONG, READ_PORT_BUFFER_ULONG function, umdf.read_port_buffer_ulong, wdf.read_port_buffer_ulong, wudfddi_hwaccess/READ_PORT_BUFFER_ULONG
 f1_keywords:
  - "wudfddi_hwaccess/READ_PORT_BUFFER_ULONG"
+ - "READ_PORT_BUFFER_ULONG"
 req.header: wudfddi_hwaccess.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wudfddi_hwaccess.h
 api_name:
 - READ_PORT_BUFFER_ULONG
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

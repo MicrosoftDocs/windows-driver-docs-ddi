@@ -10,6 +10,7 @@ keywords: ["_SM_SendRNID_IN structure"]
 ms.keywords: "*PSM_SendRNID_IN, PSM_SendRNID_IN, PSM_SendRNID_IN structure pointer [Storage Devices], SM_SendRNID_IN, SM_SendRNID_IN structure [Storage Devices], _SM_SendRNID_IN, hbapiwmi/PSM_SendRNID_IN, hbapiwmi/SM_SendRNID_IN, storage.sm_sendrnid_in, structs-Fibre_61452dff-7706-4a0a-838a-5220f7117668.xml"
 f1_keywords:
  - "hbapiwmi/SM_SendRNID_IN"
+ - "SM_SendRNID_IN"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - SM_SendRNID_IN
-product:
-- Windows
 targetos: Windows
 req.typenames: SM_SendRNID_IN, *PSM_SendRNID_IN
 ---

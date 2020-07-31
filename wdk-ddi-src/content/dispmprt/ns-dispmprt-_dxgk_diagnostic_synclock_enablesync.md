@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_DXGK_DIAGNOSTIC_SYNCLOCK_ENABLESYNC structure"]
 f1_keywords:
  - "dispmprt/_DXGK_DIAGNOSTIC_SYNCLOCK_ENABLESYNC"
+ - "_DXGK_DIAGNOSTIC_SYNCLOCK_ENABLESYNC"
 ms.keywords: _DXGK_DIAGNOSTIC_SYNCLOCK_ENABLESYNC, DXGK_DIAGNOSTIC_SYNCLOCK_ENABLESYNC, 
 req.header: dispmprt.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - dispmprt.h
 api_name: 
 - _DXGK_DIAGNOSTIC_SYNCLOCK_ENABLESYNC
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

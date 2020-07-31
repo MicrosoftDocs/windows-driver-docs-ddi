@@ -10,6 +10,7 @@ keywords: ["POB_POST_OPERATION_CALLBACK callback function"]
 ms.keywords: DrvrRtns_f15a2608-233d-47af-84cc-eb5692a6fe9a.xml, ObjectPostCallback, ObjectPostCallback callback function [Kernel-Mode Driver Architecture], POB_POST_OPERATION_CALLBACK, POB_POST_OPERATION_CALLBACK callback, kernel.objectpostcallback, wdm/ObjectPostCallback
 f1_keywords:
  - "wdm/ObjectPostCallback"
+ - "ObjectPostCallback"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - ObjectPostCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

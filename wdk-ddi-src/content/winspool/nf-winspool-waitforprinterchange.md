@@ -10,6 +10,7 @@ keywords: ["WaitForPrinterChange function"]
 ms.keywords: WaitForPrinterChange, WaitForPrinterChange function [Print Devices], print.waitforprinterchange, winspool/WaitForPrinterChange
 f1_keywords:
  - "winspool/WaitForPrinterChange"
+ - "WaitForPrinterChange"
 req.header: winspool.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Winspool.h
 api_name:
 - WaitForPrinterChange
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

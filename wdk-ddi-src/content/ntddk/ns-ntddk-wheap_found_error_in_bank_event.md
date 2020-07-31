@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["WHEAP_FOUND_ERROR_IN_BANK_EVENT structure"]
 f1_keywords:
  - "ntddk/WHEAP_FOUND_ERROR_IN_BANK_EVENT"
+ - "WHEAP_FOUND_ERROR_IN_BANK_EVENT"
 ms.keywords: WHEAP_FOUND_ERROR_IN_BANK_EVENT, WHEAP_FOUND_ERROR_IN_BANK_EVENT, *PWHEAP_FOUND_ERROR_IN_BANK_EVENT, 
 req.header: ntddk.h
 req.include-header:

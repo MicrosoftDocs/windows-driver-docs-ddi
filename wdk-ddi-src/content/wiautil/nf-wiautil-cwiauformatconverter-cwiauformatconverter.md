@@ -10,6 +10,7 @@ keywords: ["CWiauFormatConverter::CWiauFormatConverter"]
 ms.keywords: CWiauFormatConverter, CWiauFormatConverter interface [Imaging Devices],CWiauFormatConverter method, CWiauFormatConverter method [Imaging Devices], CWiauFormatConverter method [Imaging Devices],CWiauFormatConverter interface, CWiauFormatConverter.CWiauFormatConverter, CWiauFormatConverter::CWiauFormatConverter, image.cwiauformatconverter_cwiauformatconverter, wiauFncs_6da3d902-58a2-4507-b565-8dcb0a85cbd7.xml, wiautil/CWiauFormatConverter::CWiauFormatConverter
 f1_keywords:
  - "wiautil/CWiauFormatConverter.CWiauFormatConverter"
+ - "CWiauFormatConverter.CWiauFormatConverter"
 req.header: wiautil.h
 req.include-header: Wiautil.h, Wiamindr.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wiautil.h
 api_name:
 - CWiauFormatConverter.CWiauFormatConverter
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

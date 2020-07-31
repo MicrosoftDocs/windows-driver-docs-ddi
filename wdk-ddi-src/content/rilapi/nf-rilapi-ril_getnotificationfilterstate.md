@@ -10,6 +10,7 @@ keywords: ["RIL_GetNotificationFilterState function"]
 ms.keywords: RIL_GetNotificationFilterState, RIL_GetNotificationFilterState method [Network Drivers Starting with Windows Vista], netvista.ril_getnotificationfilterstate, rilapi/RIL_GetNotificationFilterState
 f1_keywords:
  - "rilapi/RIL_GetNotificationFilterState"
+ - "RIL_GetNotificationFilterState"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_GetNotificationFilterState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

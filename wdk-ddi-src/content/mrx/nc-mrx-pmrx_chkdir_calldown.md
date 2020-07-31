@@ -10,6 +10,7 @@ keywords: ["PMRX_CHKDIR_CALLDOWN callback function"]
 ms.keywords: MRxIsValidDirectory, MRxIsValidDirectory routine [Installable File System Drivers], PMRX_CHKDIR_CALLDOWN, ifsk.mrxisvaliddirectory, mrx/MRxIsValidDirectory, mrxref_85038658-4d92-4a54-99f1-082fbc61224d.xml
 f1_keywords:
  - "mrx/MRxIsValidDirectory"
+ - "MRxIsValidDirectory"
 req.header: mrx.h
 req.include-header: Mrx.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - mrx.h
 api_name:
 - MRxIsValidDirectory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

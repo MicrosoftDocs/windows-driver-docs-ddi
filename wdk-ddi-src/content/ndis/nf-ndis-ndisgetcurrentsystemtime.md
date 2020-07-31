@@ -10,6 +10,7 @@ keywords: ["NdisGetCurrentSystemTime macro"]
 ms.keywords: NdisGetCurrentSystemTime, NdisGetCurrentSystemTime macro [Network Drivers Starting with Windows Vista], ndis/NdisGetCurrentSystemTime, ndis_sysinfo_ref_cfd2358c-a52a-43d9-a07b-c64abb3e28b1.xml, netvista.ndisgetcurrentsystemtime
 f1_keywords:
  - "ndis/NdisGetCurrentSystemTime"
+ - "NdisGetCurrentSystemTime"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisGetCurrentSystemTime
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["_FLT_NAME_CONTROL structure"]
 ms.keywords: "*PFLT_NAME_CONTROL, FLT_NAME_CONTROL, FLT_NAME_CONTROL structure [Installable File System Drivers], FltSystemStructures_691a74ca-7671-44e3-9072-5d081c508a6c.xml, PFLT_NAME_CONTROL, PFLT_NAME_CONTROL structure pointer [Installable File System Drivers], _FLT_NAME_CONTROL, fltkernel/FLT_NAME_CONTROL, fltkernel/PFLT_NAME_CONTROL, ifsk.flt_name_control"
 f1_keywords:
  - "fltkernel/FLT_NAME_CONTROL"
+ - "FLT_NAME_CONTROL"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - fltkernel.h
 api_name:
 - FLT_NAME_CONTROL
-product:
-- Windows
 targetos: Windows
 req.typenames: FLT_NAME_CONTROL, *PFLT_NAME_CONTROL
 ---

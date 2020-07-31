@@ -10,6 +10,7 @@ keywords: ["_AVC_COMMAND_IRB structure"]
 ms.keywords: "*PAVC_COMMAND_IRB, AVC_COMMAND_IRB, AVC_COMMAND_IRB structure [Streaming Media Devices], PAVC_COMMAND_IRB, PAVC_COMMAND_IRB structure pointer [Streaming Media Devices], _AVC_COMMAND_IRB, avc/AVC_COMMAND_IRB, avc/PAVC_COMMAND_IRB, avcref_1f88c208-64b9-40d1-9048-d10b105b5569.xml, stream.avc_command_irb"
 f1_keywords:
  - "avc/AVC_COMMAND_IRB"
+ - "AVC_COMMAND_IRB"
 req.header: avc.h
 req.include-header: Avc.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - avc.h
 api_name:
 - AVC_COMMAND_IRB
-product:
-- Windows
 targetos: Windows
 req.typenames: AVC_COMMAND_IRB, *PAVC_COMMAND_IRB
 ---

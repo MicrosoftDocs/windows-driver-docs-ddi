@@ -10,6 +10,7 @@ keywords: ["PCAM_FREE_BW_ROUTINE_EX callback function"]
 ms.keywords: CamFreeBandwidthEx, CamFreeBandwidthEx routine [Streaming Media Devices], PCAM_FREE_BW_ROUTINE_EX, stream.camfreebandwidthex, usbcamdi/CamFreeBandwidthEx, usbcmdpr_bf3efd8f-3320-469c-a358-85cf2d896caf.xml
 f1_keywords:
  - "usbcamdi/CamFreeBandwidthEx"
+ - "CamFreeBandwidthEx"
 req.header: usbcamdi.h
 req.include-header: Usbcamdi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - usbcamdi.h
 api_name:
 - CamFreeBandwidthEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

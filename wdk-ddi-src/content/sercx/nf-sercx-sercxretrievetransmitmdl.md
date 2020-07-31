@@ -10,6 +10,7 @@ keywords: ["SerCxRetrieveTransmitMdl function"]
 ms.keywords: 1/SerCxRetrieveTransmitMdl, SerCxRetrieveTransmitMdl, SerCxRetrieveTransmitMdl method [Serial Ports], serports.sercxretrievetransmitmdl
 f1_keywords:
  - "sercx/SerCxRetrieveTransmitMdl"
+ - "SerCxRetrieveTransmitMdl"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - 1.0\Sercx.h
 api_name:
 - SerCxRetrieveTransmitMdl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["KeGetCurrentNodeNumber function"]
 ms.keywords: KeGetCurrentNodeNumber, KeGetCurrentNodeNumber routine [Kernel-Mode Driver Architecture], k105_08763d94-700c-4662-aebe-a8aa15a7ed4f.xml, kernel.kegetcurrentnodenumber, wdm/KeGetCurrentNodeNumber
 f1_keywords:
  - "wdm/KeGetCurrentNodeNumber"
+ - "KeGetCurrentNodeNumber"
 req.header: wdm.h
 req.include-header: Ntddk.h, Wdm.h, Ntddk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeGetCurrentNodeNumber
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

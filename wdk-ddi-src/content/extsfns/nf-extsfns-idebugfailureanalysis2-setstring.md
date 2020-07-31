@@ -10,6 +10,7 @@ keywords: ["IDebugFailureAnalysis2::SetString"]
 ms.keywords: IDebugFailureAnalysis2 interface [Windows Debugging],SetString method, IDebugFailureAnalysis2.SetString, IDebugFailureAnalysis2::SetString, SetString, SetString method [Windows Debugging], SetString method [Windows Debugging],IDebugFailureAnalysis2 interface, debugger.idebugfailureanalysis2_setstring, extsfns/IDebugFailureAnalysis2::SetString
 f1_keywords:
  - "extsfns/IDebugFailureAnalysis2.SetString"
+ - "IDebugFailureAnalysis2.SetString"
 req.header: extsfns.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - extsfns.h
 api_name:
 - IDebugFailureAnalysis2.SetString
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

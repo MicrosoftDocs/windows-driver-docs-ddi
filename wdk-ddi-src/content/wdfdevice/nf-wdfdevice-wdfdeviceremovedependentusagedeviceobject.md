@@ -10,6 +10,7 @@ keywords: ["WdfDeviceRemoveDependentUsageDeviceObject function"]
 ms.keywords: DFDeviceObjectGeneralRef_22cf19f5-c56f-430f-a6a1-d15af92eb41b.xml, WdfDeviceRemoveDependentUsageDeviceObject, WdfDeviceRemoveDependentUsageDeviceObject method, kmdf.wdfdeviceremovedependentusagedeviceobject, wdf.wdfdeviceremovedependentusagedeviceobject, wdfdevice/WdfDeviceRemoveDependentUsageDeviceObject
 f1_keywords:
  - "wdfdevice/WdfDeviceRemoveDependentUsageDeviceObject"
+ - "WdfDeviceRemoveDependentUsageDeviceObject"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfDeviceRemoveDependentUsageDeviceObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

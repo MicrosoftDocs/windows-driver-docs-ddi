@@ -7,6 +7,7 @@ ms.date: 10/02/2018
 keywords: ["_ACPI_PLD_SPATIAL_BUFFER structure"]
 f1_keywords:
  - "acpitabl/_ACPI_PLD_SPATIAL_BUFFER"
+ - "_ACPI_PLD_SPATIAL_BUFFER"
 ms.keywords: _ACPI_PLD_SPATIAL_BUFFER, ACPI_PLD_SPATIAL_BUFFER, *PACPI_PLD_SPATIAL_BUFFER, 
 req.header: acpitabl.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - acpitabl.h
 api_name: 
 - _ACPI_PLD_SPATIAL_BUFFER
-product:
-- Windows
 targetos: Windows
 ---
 

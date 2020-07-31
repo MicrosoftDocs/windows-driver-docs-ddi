@@ -10,6 +10,7 @@ keywords: ["FwpsReleaseClassifyHandle0 function"]
 ms.keywords: FwpsReleaseClassifyHandle0, FwpsReleaseClassifyHandle0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsReleaseClassifyHandle0, netvista.fwpsreleaseclassifyhandle0, wfp_ref_2_funct_3_fwps_R-Z_a488d8fc-0c0f-4580-a934-7dba9e2f98b9.xml
 f1_keywords:
  - "fwpsk/FwpsReleaseClassifyHandle0"
+ - "FwpsReleaseClassifyHandle0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - fwpkclnt.dll
 api_name:
 - FwpsReleaseClassifyHandle0
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

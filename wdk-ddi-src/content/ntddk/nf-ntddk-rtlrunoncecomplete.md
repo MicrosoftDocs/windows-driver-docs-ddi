@@ -10,6 +10,7 @@ keywords: ["RtlRunOnceComplete function"]
 ms.keywords: RtlRunOnceComplete, RtlRunOnceComplete routine [Kernel-Mode Driver Architecture], k109_00290091-7130-4217-8098-0baa7309223c.xml, kernel.rtlrunoncecomplete, ntddk/RtlRunOnceComplete
 f1_keywords:
  - "ntddk/RtlRunOnceComplete"
+ - "RtlRunOnceComplete"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlRunOnceComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

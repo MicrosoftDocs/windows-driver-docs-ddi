@@ -10,6 +10,7 @@ keywords: ["AtaPortBuildRequestSenseIrb function"]
 ms.keywords: AtaPortBuildRequestSenseIrb, AtaPortBuildRequestSenseIrb routine [Storage Devices], atartns_82b5c3cd-1956-47a0-9c05-cd18dbb2e2b6.xml, irb/AtaPortBuildRequestSenseIrb, storage.ataportbuildrequestsenseirb
 f1_keywords:
  - "irb/AtaPortBuildRequestSenseIrb"
+ - "AtaPortBuildRequestSenseIrb"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
@@ -39,8 +40,6 @@ api_location:
 - pciidex.dll
 api_name:
 - AtaPortBuildRequestSenseIrb
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

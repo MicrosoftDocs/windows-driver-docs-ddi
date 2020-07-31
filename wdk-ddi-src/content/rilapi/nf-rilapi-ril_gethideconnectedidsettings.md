@@ -10,6 +10,7 @@ keywords: ["RIL_GetHideConnectedIdSettings function"]
 ms.keywords: RIL_GetHideConnectedIdSettings, RIL_GetHideConnectedIdSettings method [Network Drivers Starting with Windows Vista], netvista.ril_gethideconnectedidsettings, rilapi/RIL_GetHideConnectedIdSettings
 f1_keywords:
  - "rilapi/RIL_GetHideConnectedIdSettings"
+ - "RIL_GetHideConnectedIdSettings"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_GetHideConnectedIdSettings
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

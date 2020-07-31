@@ -8,6 +8,7 @@ ms.date: 09/27/2019
 keywords: ["_NET_ADAPTER_TX_CAPABILITIES structure"]
 f1_keywords:
  - "netadapter/NET_ADAPTER_POWER_CAPABILITIES"
+ - "NET_ADAPTER_POWER_CAPABILITIES"
 ms.keywords: _NET_ADAPTER_TX_CAPABILITIES, NET_ADAPTER_TX_CAPABILITIES, *PNET_ADAPTER_TX_CAPABILITIES, 
 req.header: netadapter.h
 req.include-header: netadaptercx.h
@@ -30,8 +31,6 @@ apilocation:
 - netadapter.h
 apiname: 
 - _NET_ADAPTER_TX_CAPABILITIES
-product:
-- Windows
 targetos: Windows
 ---
 

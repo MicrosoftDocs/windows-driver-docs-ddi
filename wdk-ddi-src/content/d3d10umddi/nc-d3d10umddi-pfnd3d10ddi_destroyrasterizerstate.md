@@ -9,6 +9,7 @@ keywords: ["PFND3D10DDI_DESTROYRASTERIZERSTATE callback function"]
 ms.keywords: DestroyRasterizerState, DestroyRasterizerState callback function [Display Devices], PFND3D10DDI_DESTROYRASTERIZERSTATE, PFND3D10DDI_DESTROYRASTERIZERSTATE callback, UserModeDisplayDriverDx10_Functions_09ed2d7c-4191-4b5e-a18f-b42177106145.xml, d3d10umddi/DestroyRasterizerState, display.destroyrasterizerstate
 f1_keywords:
  - "d3d10umddi/DestroyRasterizerState"
+ - "DestroyRasterizerState"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - DestroyRasterizerState
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

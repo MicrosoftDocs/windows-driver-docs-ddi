@@ -10,6 +10,7 @@ keywords: ["KsStreamPointerGetIrp function"]
 ms.keywords: KsStreamPointerGetIrp, KsStreamPointerGetIrp function [Streaming Media Devices], avfunc_57ecd1af-c967-473c-b475-1d91bc42f2eb.xml, ks/KsStreamPointerGetIrp, stream.ksstreampointergetirp
 f1_keywords:
  - "ks/KsStreamPointerGetIrp"
+ - "KsStreamPointerGetIrp"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsStreamPointerGetIrp
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

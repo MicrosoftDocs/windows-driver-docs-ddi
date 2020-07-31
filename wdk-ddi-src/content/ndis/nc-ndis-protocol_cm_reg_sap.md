@@ -10,6 +10,7 @@ keywords: ["PROTOCOL_CM_REG_SAP callback function"]
 ms.keywords: PROTOCOL_CM_REG_SAP, PROTOCOL_CM_REG_SAP callback, ProtocolCmRegisterSap, ProtocolCmRegisterSap callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_aaaefdc1-4954-4911-84a4-1f82141ccca6.xml, ndis/ProtocolCmRegisterSap, netvista.protocolcmregistersap
 f1_keywords:
  - "ndis/ProtocolCmRegisterSap"
+ - "ProtocolCmRegisterSap"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - ProtocolCmRegisterSap
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

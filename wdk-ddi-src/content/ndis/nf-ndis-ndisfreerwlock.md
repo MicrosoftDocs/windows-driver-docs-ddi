@@ -10,6 +10,7 @@ keywords: ["NdisFreeRWLock function"]
 ms.keywords: NdisFreeRWLock, NdisFreeRWLock function [Network Drivers Starting with Windows Vista], ndis/NdisFreeRWLock, ndis_processor_group_ref_f711221a-f265-446e-86bc-7b5b4d17f7d9.xml, netvista.ndisfreerwlock
 f1_keywords:
  - "ndis/NdisFreeRWLock"
+ - "NdisFreeRWLock"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisFreeRWLock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

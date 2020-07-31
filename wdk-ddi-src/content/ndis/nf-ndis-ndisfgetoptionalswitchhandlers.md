@@ -10,6 +10,7 @@ keywords: ["NdisFGetOptionalSwitchHandlers function"]
 ms.keywords: NdisFGetOptionalSwitchHandlers, NdisFGetOptionalSwitchHandlers function [Network Drivers Starting with Windows Vista], ndis/NdisFGetOptionalSwitchHandlers, netvista.ndisfgetoptionalswitchhandlers
 f1_keywords:
  - "ndis/NdisFGetOptionalSwitchHandlers"
+ - "NdisFGetOptionalSwitchHandlers"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisFGetOptionalSwitchHandlers
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

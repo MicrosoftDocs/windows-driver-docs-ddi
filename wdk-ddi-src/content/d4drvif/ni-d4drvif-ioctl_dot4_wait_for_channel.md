@@ -10,6 +10,7 @@ keywords: ["IOCTL_DOT4_WAIT_FOR_CHANNEL IOCTL"]
 ms.keywords: IOCTL_DOT4_WAIT_FOR_CHANNEL, IOCTL_DOT4_WAIT_FOR_CHANNEL control, IOCTL_DOT4_WAIT_FOR_CHANNEL control code [Print Devices], d4drvif/IOCTL_DOT4_WAIT_FOR_CHANNEL, print.ioctl_ioctl_dot4_wait_for_channel
 f1_keywords:
  - "d4drvif/IOCTL_DOT4_WAIT_FOR_CHANNEL"
+ - "IOCTL_DOT4_WAIT_FOR_CHANNEL"
 req.header: d4drvif.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - D4drvif.h
 api_name:
 - IOCTL_DOT4_WAIT_FOR_CHANNEL
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

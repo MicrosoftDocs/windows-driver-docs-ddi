@@ -7,6 +7,7 @@ ms.date: 08/09/2018
 keywords: ["IModelObject::GetRawReference"]
 f1_keywords:
  - "dbgmodel/IModelObject.GetRawReference"
+ - "IModelObject.GetRawReference"
 ms.keywords: IModelObject::GetRawReference, GetRawReference, IModelObject.GetRawReference, IModelObject::GetRawReference, IModelObject.GetRawReference
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IModelObject.GetRawReference
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

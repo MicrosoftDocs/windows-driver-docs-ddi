@@ -10,6 +10,7 @@ keywords: ["_ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER structure"]
 ms.keywords: "*PACPI_DEVICE_INFORMATION_OUTPUT_BUFFER, ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER, ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER structure [ACPI Devices], PACPI_DEVICE_INFORMATION_OUTPUT_BUFFER, PACPI_DEVICE_INFORMATION_OUTPUT_BUFFER structure pointer [ACPI Devices], _ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER, acpi.acpi_device_information_output_buffer, acpi.acpi_get_device_information_output_buffer, acpiioct/ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER, acpiioct/PACPI_DEVICE_INFORMATION_OUTPUT_BUFFER"
 f1_keywords:
  - "acpiioct/ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER"
+ - "ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER"
 req.header: acpiioct.h
 req.include-header: Acpiioct.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Acpiioct.h
 api_name:
 - ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER
-product:
-- Windows
 targetos: Windows
 req.typenames: ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER, *PACPI_DEVICE_INFORMATION_OUTPUT_BUFFER
 ---

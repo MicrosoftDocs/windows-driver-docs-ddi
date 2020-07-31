@@ -10,6 +10,7 @@ keywords: ["IDmaChannel interface"]
 ms.keywords: IDmaChannel, IDmaChannel interface [Audio Devices], IDmaChannel interface [Audio Devices], described, audio.idmachannel, audmp-routines_55e2df1d-771f-4427-a48e-671d4e113d5c.xml, portcls/IDmaChannel
 f1_keywords:
  - "portcls/IDmaChannel"
+ - "IDmaChannel"
 req.header: portcls.h
 req.include-header:
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IDmaChannel
-product:
-- Windows
 targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---

@@ -7,6 +7,7 @@ ms.date: 09/28/2018
 keywords: ["IDebugHostMemory2::GetDisplayStringForLocation"]
 f1_keywords:
  - "dbgmodel/IDebugHostMemory2.GetDisplayStringForLocation"
+ - "IDebugHostMemory2.GetDisplayStringForLocation"
 ms.keywords: IDebugHostMemory2::GetDisplayStringForLocation, GetDisplayStringForLocation, IDebugHostMemory2.GetDisplayStringForLocation, IDebugHostMemory2::GetDisplayStringForLocation, IDebugHostMemory2.GetDisplayStringForLocation
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostMemory2.GetDisplayStringForLocation
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_DPC callback function"]
 ms.keywords: DFDpcObjectRef_ed441283-63f3-4ad3-84fc-05fb2404f634.xml, EVT_WDF_DPC, EVT_WDF_DPC callback, EvtDpcFunc, EvtDpcFunc callback function, kmdf.evtdpcfunc, wdf.evtdpcfunc, wdfdpc/EvtDpcFunc
 f1_keywords:
  - "wdfdpc/EvtDpcFunc"
+ - "EvtDpcFunc"
 req.header: wdfdpc.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Wdfdpc.h
 api_name:
 - EvtDpcFunc
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

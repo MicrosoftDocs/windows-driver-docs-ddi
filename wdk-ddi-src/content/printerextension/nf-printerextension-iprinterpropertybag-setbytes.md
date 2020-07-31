@@ -10,6 +10,7 @@ keywords: ["IPrinterPropertyBag::SetBytes"]
 ms.keywords: IPrinterPropertyBag interface [Print Devices],SetBytes method, IPrinterPropertyBag.SetBytes, IPrinterPropertyBag::SetBytes, SetBytes, SetBytes method [Print Devices], SetBytes method [Print Devices],IPrinterPropertyBag interface, print.iprinterpropertybag_setbytes, printerextension/IPrinterPropertyBag::SetBytes
 f1_keywords:
  - "printerextension/IPrinterPropertyBag.SetBytes"
+ - "IPrinterPropertyBag.SetBytes"
 req.header: printerextension.h
 req.include-header: Printerextension.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Printerextension.h
 api_name:
 - IPrinterPropertyBag.SetBytes
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

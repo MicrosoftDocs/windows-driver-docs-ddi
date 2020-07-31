@@ -10,6 +10,7 @@ keywords: ["UI_TYPE enumeration"]
 ms.keywords: UI_TYPE, UI_TYPE enumeration [Print Devices], kMessageBox, print.ui_type, winsplp/UI_TYPE, winsplp/kMessageBox
 f1_keywords:
  - "winsplp/UI_TYPE"
+ - "UI_TYPE"
 req.header: winsplp.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Winsplp.h
 api_name:
 - UI_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: UI_TYPE
 ---

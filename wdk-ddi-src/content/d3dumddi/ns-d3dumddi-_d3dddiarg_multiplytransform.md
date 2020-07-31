@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_MULTIPLYTRANSFORM structure"]
 ms.keywords: D3DDDIARG_MULTIPLYTRANSFORM, D3DDDIARG_MULTIPLYTRANSFORM structure [Display Devices], UMDisplayDriver_param_Structs_9bae119f-aead-46d7-8a10-18cd6e227102.xml, _D3DDDIARG_MULTIPLYTRANSFORM, d3dumddi/D3DDDIARG_MULTIPLYTRANSFORM, display.d3dddiarg_multiplytransform
 f1_keywords:
  - "d3dumddi/D3DDDIARG_MULTIPLYTRANSFORM"
+ - "D3DDDIARG_MULTIPLYTRANSFORM"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDIARG_MULTIPLYTRANSFORM
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_MULTIPLYTRANSFORM
 ---

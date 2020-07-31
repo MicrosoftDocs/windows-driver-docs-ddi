@@ -10,6 +10,7 @@ keywords: ["IPortableDeviceKeyCollection::Add"]
 ms.keywords: Add, Add method, Add method,IPortableDeviceKeyCollection interface, IPortableDeviceKeyCollection interface,Add method, IPortableDeviceKeyCollection.Add, IPortableDeviceKeyCollection::Add, IPortableDeviceKeyCollectionAdd, portabledevicetypes/IPortableDeviceKeyCollection::Add, wpddk.iportabledevicekeycollection_add
 f1_keywords:
  - "portabledevicetypes/IPortableDeviceKeyCollection.Add"
+ - "IPortableDeviceKeyCollection.Add"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - PortableDeviceTypes.h
 api_name:
 - IPortableDeviceKeyCollection.Add
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

@@ -10,6 +10,7 @@ keywords: ["IoWMIDeviceObjectToProviderId function"]
 ms.keywords: IoWMIDeviceObjectToProviderId, IoWMIDeviceObjectToProviderId routine [Kernel-Mode Driver Architecture], k104_e24ce1c2-9f90-49b5-88be-1bbf40074aee.xml, kernel.iowmideviceobjecttoproviderid, wdm/IoWMIDeviceObjectToProviderId
 f1_keywords:
  - "wdm/IoWMIDeviceObjectToProviderId"
+ - "IoWMIDeviceObjectToProviderId"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoWMIDeviceObjectToProviderId
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

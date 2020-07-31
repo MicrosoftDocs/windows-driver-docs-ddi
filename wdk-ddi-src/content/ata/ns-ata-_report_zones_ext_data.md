@@ -10,6 +10,7 @@ keywords: ["_REPORT_ZONES_EXT_DATA structure"]
 ms.keywords: "*PREPORT_ZONES_EXT_DATA, PREPORT_ZONES_EXT_DATA, PREPORT_ZONES_EXT_DATA structure pointer [Storage Devices], REPORT_ZONES_EXT_DATA, REPORT_ZONES_EXT_DATA structure [Storage Devices], _REPORT_ZONES_EXT_DATA, ata/PREPORT_ZONES_EXT_DATA, ata/REPORT_ZONES_EXT_DATA, storage.report_zones_ext_data"
 f1_keywords:
  - "ata/REPORT_ZONES_EXT_DATA"
+ - "REPORT_ZONES_EXT_DATA"
 req.header: ata.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ata.h
 api_name:
 - REPORT_ZONES_EXT_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: REPORT_ZONES_EXT_DATA, *PREPORT_ZONES_EXT_DATA
 ---

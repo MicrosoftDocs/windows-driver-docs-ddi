@@ -10,6 +10,7 @@ keywords: ["ZwSetInformationToken function"]
 ms.keywords: NtSetInformationToken, ZwSetInformationToken, ZwSetInformationToken routine [Kernel-Mode Driver Architecture], k111_1122461b-dab8-4a40-8f05-db62ca25763b.xml, kernel.zwsetinformationtoken, ntifs/NtSetInformationToken, ntifs/ZwSetInformationToken
 f1_keywords:
  - "ntifs/ZwSetInformationToken"
+ - "ZwSetInformationToken"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - ZwSetInformationToken
 - NtSetInformationToken
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

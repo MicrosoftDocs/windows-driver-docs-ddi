@@ -10,6 +10,7 @@ keywords: ["_DVINFO structure"]
 ms.keywords: "*PDVINFO, DVINFO, DVINFO structure [Streaming Media Devices], PDVINFO, PDVINFO structure pointer [Streaming Media Devices], _DVINFO, avcsref_9e5ce103-400a-4cfd-b160-5eb99906a80d.xml, avcstrm/DVINFO, avcstrm/PDVINFO, stream.dvinfo"
 f1_keywords:
  - "avcstrm/DVINFO"
+ - "DVINFO"
 req.header: avcstrm.h
 req.include-header: Avcstrm.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - avcstrm.h
 api_name:
 - DVINFO
-product:
-- Windows
 targetos: Windows
 req.typenames: DVINFO, *PDVINFO
 ---

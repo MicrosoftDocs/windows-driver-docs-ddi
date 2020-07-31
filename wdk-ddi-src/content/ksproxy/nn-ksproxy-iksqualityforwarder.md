@@ -10,6 +10,7 @@ keywords: ["IKsQualityForwarder interface"]
 ms.keywords: IKsQualityForwarder, IKsQualityForwarder interface [Streaming Media Devices], IKsQualityForwarder interface [Streaming Media Devices],described, ksproxy/IKsQualityForwarder, ksproxy_ed147fca-8a84-407c-861a-f33625d90bc7.xml, stream.iksqualityforwarder
 f1_keywords:
  - "ksproxy/IKsQualityForwarder"
+ - "IKsQualityForwarder"
 req.header: ksproxy.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ksproxy.h
 api_name:
 - IKsQualityForwarder
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["PWINDBG_CHECK_CONTROL_C callback function"]
 ms.keywords: CheckControlC, CheckControlC callback function [Windows Debugging], PWINDBG_CHECK_CONTROL_C, PWINDBG_CHECK_CONTROL_C callback, WdbgExts_Ref_532229fc-40f0-4226-92af-09ecc5387096.xml, debugger.checkcontrolc, wdbgexts/CheckControlC
 f1_keywords:
  - "wdbgexts/CheckControlC"
+ - "CheckControlC"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wdbgexts.h
 api_name:
 - CheckControlC
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

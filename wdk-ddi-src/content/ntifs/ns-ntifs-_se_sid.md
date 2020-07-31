@@ -10,6 +10,7 @@ keywords: ["_SE_SID structure"]
 ms.keywords: "*PSE_SID, PSE_SID, PSE_SID union pointer [Installable File System Drivers], SE_SID, SE_SID union [Installable File System Drivers], _SE_SID, ifsk.se_sid, ntifs/PSE_SID, ntifs/SE_SID"
 f1_keywords:
  - "ntifs/SE_SID"
+ - "SE_SID"
 req.header: ntifs.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - SE_SID
-product:
-- Windows
 targetos: Windows
 req.typenames: SE_SID, *PSE_SID
 ---

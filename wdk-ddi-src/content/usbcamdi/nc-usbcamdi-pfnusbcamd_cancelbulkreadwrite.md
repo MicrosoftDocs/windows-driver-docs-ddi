@@ -10,6 +10,7 @@ keywords: ["PFNUSBCAMD_CancelBulkReadWrite callback function"]
 ms.keywords: PFNUSBCAMD_CancelBulkReadWrite, USBCAMD_CancelBulkReadWrite, USBCAMD_CancelBulkReadWrite routine [Streaming Media Devices], stream.usbcamd_cancelbulkreadwrite, usbcamdi/USBCAMD_CancelBulkReadWrite, usbcmdpr_ba242b77-cda6-4b16-a7a1-297701108cd8.xml
 f1_keywords:
  - "usbcamdi/USBCAMD_CancelBulkReadWrite"
+ - "USBCAMD_CancelBulkReadWrite"
 req.header: usbcamdi.h
 req.include-header: Usbcamdi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - usbcamdi.h
 api_name:
 - USBCAMD_CancelBulkReadWrite
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

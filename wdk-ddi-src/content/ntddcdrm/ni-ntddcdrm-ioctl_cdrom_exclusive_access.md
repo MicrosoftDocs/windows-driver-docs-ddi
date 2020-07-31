@@ -10,6 +10,7 @@ keywords: ["IOCTL_CDROM_EXCLUSIVE_ACCESS IOCTL"]
 ms.keywords: IOCTL_CDROM_EXCLUSIVE_ACCESS, IOCTL_CDROM_EXCLUSIVE_ACCESS control, IOCTL_CDROM_EXCLUSIVE_ACCESS control code [Storage Devices], k307_d22cebb2-93c2-4eb8-9c2f-6c6c559ee020.xml, ntddcdrm/IOCTL_CDROM_EXCLUSIVE_ACCESS, storage.ioctl_cdrom_exclusive_access
 f1_keywords:
  - "ntddcdrm/IOCTL_CDROM_EXCLUSIVE_ACCESS"
+ - "IOCTL_CDROM_EXCLUSIVE_ACCESS"
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddcdrm.h
 api_name:
 - IOCTL_CDROM_EXCLUSIVE_ACCESS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

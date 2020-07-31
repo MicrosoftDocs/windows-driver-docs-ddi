@@ -10,6 +10,7 @@ keywords: ["IPrintOemPS2::GetPDEVAdjustment"]
 ms.keywords: GetPDEVAdjustment, GetPDEVAdjustment method [Print Devices], GetPDEVAdjustment method [Print Devices],IPrintOemPS2 interface, IPrintOemPS2 interface [Print Devices],GetPDEVAdjustment method, IPrintOemPS2.GetPDEVAdjustment, IPrintOemPS2::GetPDEVAdjustment, prcomoem/IPrintOemPS2::GetPDEVAdjustment, print.iprintoemps2_getpdevadjustment, print_unidrv-pscript_rendering_eca8e6af-1563-4028-9d87-fd014e1e06ee.xml
 f1_keywords:
  - "prcomoem/IPrintOemPS2.GetPDEVAdjustment"
+ - "IPrintOemPS2.GetPDEVAdjustment"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - prcomoem.h
 api_name:
 - IPrintOemPS2.GetPDEVAdjustment
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

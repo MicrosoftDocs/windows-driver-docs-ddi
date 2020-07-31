@@ -9,6 +9,7 @@ keywords: ["PFND3D11DDI_DESTROYUNORDEREDACCESSVIEW callback function"]
 ms.keywords: DestroyUnorderedAccessView, DestroyUnorderedAccessView callback function [Display Devices], PFND3D11DDI_DESTROYUNORDEREDACCESSVIEW, PFND3D11DDI_DESTROYUNORDEREDACCESSVIEW callback, UserModeDisplayDriverDx11_Functions_65ca10d0-2325-40f6-befa-8ad6ea5f0efd.xml, d3d10umddi/DestroyUnorderedAccessView, display.destroyunorderedaccessview
 f1_keywords:
  - "d3d10umddi/DestroyUnorderedAccessView"
+ - "DestroyUnorderedAccessView"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - DestroyUnorderedAccessView
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

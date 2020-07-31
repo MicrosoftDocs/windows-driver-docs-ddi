@@ -8,6 +8,7 @@ ms.date: 09/30/2018
 keywords: ["UcmUcsiDeviceInitialize function"]
 f1_keywords:
  - "ucmucsidevice/UcmUcsiDeviceInitialize"
+ - "UcmUcsiDeviceInitialize"
 ms.keywords: UcmUcsiDeviceInitialize
 req.header: ucmucsidevice.h
 req.include-header: UcmUcsiCx.h 
@@ -34,8 +35,6 @@ api_location:
 - UcmUcsiCxStub.lib
 api_name: 
 - UcmUcsiDeviceInitialize
-product:
-- Windows
 targetos: Windows
 
 

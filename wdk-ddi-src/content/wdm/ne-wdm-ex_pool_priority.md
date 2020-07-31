@@ -27,7 +27,8 @@ api_name:
  - EX_POOL_PRIORITY
 f1_keywords:
  - wdm/_EX_POOL_PRIORITY
- - wdm/EX_POOL_PRIORITY
+ - wdm//EX_POOL_PRIORITY
+ - EX_POOL_PRIORITY
 dev_langs:
  - c++
 ---

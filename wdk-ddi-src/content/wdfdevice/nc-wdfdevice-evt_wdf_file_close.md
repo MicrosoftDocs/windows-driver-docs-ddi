@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_FILE_CLOSE callback function"]
 ms.keywords: DFDeviceObjectGeneralRef_490bda33-9f36-43ab-9108-8622a3ea79b0.xml, EVT_WDF_FILE_CLOSE, EVT_WDF_FILE_CLOSE callback, EvtFileClose, EvtFileClose callback function, kmdf.evtfileclose, wdf.evtfileclose, wdfdevice/EvtFileClose
 f1_keywords:
  - "wdfdevice/EvtFileClose"
+ - "EvtFileClose"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Wdfdevice.h
 api_name:
 - EvtFileClose
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

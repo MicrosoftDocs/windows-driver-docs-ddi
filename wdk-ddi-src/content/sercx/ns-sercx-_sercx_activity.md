@@ -10,6 +10,7 @@ keywords: ["_SERCX_ACTIVITY structure"]
 ms.keywords: "*PSERCX_ACTIVITY, 1/PSERCX_ACTIVITY, 1/SERCX_ACTIVITY, PSERCX_ACTIVITY, PSERCX_ACTIVITY structure pointer [Serial Ports], SERCX_ACTIVITY, SERCX_ACTIVITY structure [Serial Ports], _SERCX_ACTIVITY, serports.sercx_activity"
 f1_keywords:
  - "sercx/SERCX_ACTIVITY"
+ - "SERCX_ACTIVITY"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - 1.0\Sercx.h
 api_name:
 - SERCX_ACTIVITY
-product:
-- Windows
 targetos: Windows
 req.typenames: SERCX_ACTIVITY, *PSERCX_ACTIVITY
 ---

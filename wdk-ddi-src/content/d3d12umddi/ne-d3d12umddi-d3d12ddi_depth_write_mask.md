@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3D12DDI_DEPTH_WRITE_MASK enumeration"]
 f1_keywords:
  - "d3d12umddi/D3D12DDI_DEPTH_WRITE_MASK"
+ - "D3D12DDI_DEPTH_WRITE_MASK"
 ms.keywords: D3D12DDI_DEPTH_WRITE_MASK, D3D12DDI_DEPTH_WRITE_MASK, 
 req.header: d3d12umddi.h
 req.include-header:
@@ -26,8 +27,6 @@ api_location:
 - d3d12umddi.h
 api_name: 
 - D3D12DDI_DEPTH_WRITE_MASK
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

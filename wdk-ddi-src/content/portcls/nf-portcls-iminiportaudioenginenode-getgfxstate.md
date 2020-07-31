@@ -10,6 +10,7 @@ keywords: ["IMiniportAudioEngineNode::GetGfxState"]
 ms.keywords: GetGfxState, GetGfxState method [Audio Devices], GetGfxState method [Audio Devices],IMiniportAudioEngineNode interface, IMiniportAudioEngineNode interface [Audio Devices],GetGfxState method, IMiniportAudioEngineNode.GetGfxState, IMiniportAudioEngineNode::GetGfxState, audio.iminiportaudioenginenode_getgfxstate, portcls/IMiniportAudioEngineNode::GetGfxState
 f1_keywords:
  - "portcls/IMiniportAudioEngineNode.GetGfxState"
+ - "IMiniportAudioEngineNode.GetGfxState"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Portcls.h
 api_name:
 - IMiniportAudioEngineNode.GetGfxState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

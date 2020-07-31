@@ -10,6 +10,7 @@ keywords: ["IDebugSystemObjects2::GetProcessIdsByIndex"]
 ms.keywords: GetProcessIdsByIndex, GetProcessIdsByIndex method [Windows Debugging], GetProcessIdsByIndex method [Windows Debugging],IDebugSystemObjects interface, GetProcessIdsByIndex method [Windows Debugging],IDebugSystemObjects2 interface, GetProcessIdsByIndex method [Windows Debugging],IDebugSystemObjects3 interface, GetProcessIdsByIndex method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects interface [Windows Debugging],GetProcessIdsByIndex method, IDebugSystemObjects2 interface [Windows Debugging],GetProcessIdsByIndex method, IDebugSystemObjects2.GetProcessIdsByIndex, IDebugSystemObjects2::GetProcessIdsByIndex, IDebugSystemObjects3 interface [Windows Debugging],GetProcessIdsByIndex method, IDebugSystemObjects3::GetProcessIdsByIndex, IDebugSystemObjects4 interface [Windows Debugging],GetProcessIdsByIndex method, IDebugSystemObjects4::GetProcessIdsByIndex, IDebugSystemObjects::GetProcessIdsByIndex, IDebugSystemObjects_45309dcc-89bd-44a1-bafa-baabd10d54b0.xml, dbgeng/IDebugSystemObjects2::GetProcessIdsByIndex, dbgeng/IDebugSystemObjects3::GetProcessIdsByIndex, dbgeng/IDebugSystemObjects4::GetProcessIdsByIndex, dbgeng/IDebugSystemObjects::GetProcessIdsByIndex, debugger.getprocessidsbyindex
 f1_keywords:
  - "dbgeng/IDebugSystemObjects.GetProcessIdsByIndex"
+ - "IDebugSystemObjects.GetProcessIdsByIndex"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -39,8 +40,6 @@ api_name:
 - IDebugSystemObjects2.GetProcessIdsByIndex
 - IDebugSystemObjects3.GetProcessIdsByIndex
 - IDebugSystemObjects4.GetProcessIdsByIndex
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["DXGKDDI_OPM_GET_CERTIFICATE callback function"]
 ms.keywords: DXGKDDI_OPM_GET_CERTIFICATE, DXGKDDI_OPM_GET_CERTIFICATE callback, Dm_Opm_functions_80d478db-b192-4d86-8938-c105bcc8a677.xml, DxgkDdiOPMGetCertificate, DxgkDdiOPMGetCertificate callback function [Display Devices], display.dxgkddiopmgetcertificate, dispmprt/DxgkDdiOPMGetCertificate
 f1_keywords:
  - "dispmprt/DxgkDdiOPMGetCertificate"
+ - "DxgkDdiOPMGetCertificate"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dispmprt.h
 api_name:
 - DxgkDdiOPMGetCertificate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

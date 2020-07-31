@@ -10,6 +10,7 @@ keywords: ["WUDF_WORKITEM_CONFIG_INIT function"]
 ms.keywords: WUDF_WORKITEM_CONFIG_INIT, WUDF_WORKITEM_CONFIG_INIT function, umdf.wudf_workitem_config_init, wdf.wudf_workitem_config_init, wudfworkitem/WUDF_WORKITEM_CONFIG_INIT
 f1_keywords:
  - "wudfworkitem/WUDF_WORKITEM_CONFIG_INIT"
+ - "WUDF_WORKITEM_CONFIG_INIT"
 req.header: wudfworkitem.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wudfworkitem.h
 api_name:
 - WUDF_WORKITEM_CONFIG_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

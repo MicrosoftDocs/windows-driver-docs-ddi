@@ -10,6 +10,7 @@ keywords: ["IoIsValidIrpStatus function"]
 ms.keywords: IoIsValidIrpStatus, IoIsValidIrpStatus routine [Kernel-Mode Driver Architecture], kernel.ioisvalidirpstatus, ntddk/IoIsValidIrpStatus
 f1_keywords:
  - "ntddk/IoIsValidIrpStatus"
+ - "IoIsValidIrpStatus"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoIsValidIrpStatus
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

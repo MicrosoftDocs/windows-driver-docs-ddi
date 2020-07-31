@@ -10,6 +10,7 @@ keywords: ["_PRINTIFI32 structure"]
 ms.keywords: "*PPRINTIFI32, PPRINTIFI32, PPRINTIFI32 structure pointer [Display Devices], PRINTIFI32, PRINTIFI32 structure [Display Devices], _PRINTIFI32, display.printifi32, grstrcts_f7643950-b91f-462a-9d13-0c46a82da7d3.xml, prntfont/PPRINTIFI32, prntfont/PRINTIFI32"
 f1_keywords:
  - "prntfont/PRINTIFI32"
+ - "PRINTIFI32"
 req.header: prntfont.h
 req.include-header: Prntfont.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - prntfont.h
 api_name:
 - PRINTIFI32
-product:
-- Windows
 targetos: Windows
 req.typenames: PRINTIFI32, *PPRINTIFI32
 req.product: Windows 10 or later.

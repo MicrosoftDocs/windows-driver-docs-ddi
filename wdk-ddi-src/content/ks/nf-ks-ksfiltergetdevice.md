@@ -10,6 +10,7 @@ keywords: ["KsFilterGetDevice function"]
 ms.keywords: KsFilterGetDevice, KsFilterGetDevice function [Streaming Media Devices], avfunc_279c1429-d19f-426c-a1e3-8507f97092ae.xml, ks/KsFilterGetDevice, stream.ksfiltergetdevice
 f1_keywords:
  - "ks/KsFilterGetDevice"
+ - "KsFilterGetDevice"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KsFilterGetDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["WRITE_PORT_BUFFER_USHORT function"]
 ms.keywords: WRITE_PORT_BUFFER_USHORT, WRITE_PORT_BUFFER_USHORT routine [Kernel-Mode Driver Architecture], k103_c8549446-4478-4c5d-82c2-55e963c81cf3.xml, kernel.write_port_buffer_ushort, wdm/WRITE_PORT_BUFFER_USHORT
 f1_keywords:
  - "wdm/WRITE_PORT_BUFFER_USHORT"
+ - "WRITE_PORT_BUFFER_USHORT"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Miniport.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Hal.dll
 api_name:
 - WRITE_PORT_BUFFER_USHORT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["FsRtlIncrementCcFastReadWait function"]
 ms.keywords: FsRtlIncrementCcFastReadWait, FsRtlIncrementCcFastReadWait routine [Installable File System Drivers], fsrtlref_487f6c6e-ec6f-4b81-a303-829e6d82d260.xml, ifsk.fsrtlincrementccfastreadwait, ntifs/FsRtlIncrementCcFastReadWait
 f1_keywords:
  - "ntifs/FsRtlIncrementCcFastReadWait"
+ - "FsRtlIncrementCcFastReadWait"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlIncrementCcFastReadWait
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

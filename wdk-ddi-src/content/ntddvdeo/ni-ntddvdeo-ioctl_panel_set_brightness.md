@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["IOCTL_PANEL_SET_BRIGHTNESS IOCTL"]
 f1_keywords:
  - "ntddvdeo/IOCTL_PANEL_SET_BRIGHTNESS"
+ - "IOCTL_PANEL_SET_BRIGHTNESS"
 req.header: ntddvdeo.h
 req.include-header:
 req.target-type:

@@ -10,6 +10,7 @@ keywords: ["IPortClsNotifications interface"]
 ms.keywords: IPortClsNotifications, IPortClsNotifications interface [Audio Devices], IPortClsNotifications interface [Audio Devices],described, audio.iportclsnotifications, portcls/IPortClsNotifications
 f1_keywords:
  - "portcls/IPortClsNotifications"
+ - "IPortClsNotifications"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IPortClsNotifications
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -60,7 +59,7 @@ The miniport audio driver will call into their port to create and send the notif
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortClsNotifications</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPortClsNotifications</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortClsNotifications</b> interface inherits from the <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPortClsNotifications</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

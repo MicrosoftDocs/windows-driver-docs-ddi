@@ -10,6 +10,7 @@ keywords: ["VideoPortFlushRegistry function"]
 ms.keywords: VideoPortFlushRegistry, VideoPortFlushRegistry function [Display Devices], VideoPort_Functions_fe7df781-6130-484d-b582-55446711fef6.xml, display.videoportflushregistry, video/VideoPortFlushRegistry
 f1_keywords:
  - "video/VideoPortFlushRegistry"
+ - "VideoPortFlushRegistry"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Videoprt.sys
 api_name:
 - VideoPortFlushRegistry
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

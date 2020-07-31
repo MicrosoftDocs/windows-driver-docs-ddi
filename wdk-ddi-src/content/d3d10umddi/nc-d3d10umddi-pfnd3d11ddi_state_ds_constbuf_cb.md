@@ -9,6 +9,7 @@ keywords: ["PFND3D11DDI_STATE_DS_CONSTBUF_CB callback function"]
 ms.keywords: PFND3D11DDI_STATE_DS_CONSTBUF_CB, PFND3D11DDI_STATE_DS_CONSTBUF_CB callback, d3d10umddi/pfnStateDsConstBufCb, d3d11state_functions_5672a801-6215-48f3-b107-82281c9e8a9d.xml, display.pfnstatedsconstbufcb, pfnStateDsConstBufCb, pfnStateDsConstBufCb callback function [Display Devices]
 f1_keywords:
  - "d3d10umddi/pfnStateDsConstBufCb"
+ - "pfnStateDsConstBufCb"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - pfnStateDsConstBufCb
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

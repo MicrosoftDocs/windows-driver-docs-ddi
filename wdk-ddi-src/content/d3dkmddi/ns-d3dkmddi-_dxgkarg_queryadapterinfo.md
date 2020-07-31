@@ -9,6 +9,7 @@ keywords: ["_DXGKARG_QUERYADAPTERINFO structure"]
 ms.keywords: DXGKARG_QUERYADAPTERINFO, DXGKARG_QUERYADAPTERINFO structure [Display Devices], DmStructs_82a38a66-d65c-4b88-be6d-974590e9472a.xml, _DXGKARG_QUERYADAPTERINFO, d3dkmddi/DXGKARG_QUERYADAPTERINFO, display.dxgkarg_queryadapterinfo
 f1_keywords:
  - "d3dkmddi/DXGKARG_QUERYADAPTERINFO"
+ - "DXGKARG_QUERYADAPTERINFO"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGKARG_QUERYADAPTERINFO
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGKARG_QUERYADAPTERINFO

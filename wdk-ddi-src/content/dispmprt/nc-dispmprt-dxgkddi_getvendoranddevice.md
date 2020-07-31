@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DXGKDDI_GETVENDORANDDEVICE callback function"]
 f1_keywords:
  - "dispmprt/DXGKDDI_GETVENDORANDDEVICE"
+ - "DXGKDDI_GETVENDORANDDEVICE"
 req.header: dispmprt.h
 req.include-header:
 req.target-type:

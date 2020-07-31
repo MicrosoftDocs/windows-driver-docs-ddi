@@ -10,6 +10,7 @@ keywords: ["PBUILD_SCATTER_GATHER_LIST callback function"]
 ms.keywords: BuildScatterGatherList, BuildScatterGatherList callback function [Kernel-Mode Driver Architecture], PBUILD_SCATTER_GATHER_LIST, PBUILD_SCATTER_GATHER_LIST callback, kdma_cea6dde1-9a1d-4ffb-ac0d-d8a2b658b666.xml, kernel.buildscattergatherlist, wdm/BuildScatterGatherList
 f1_keywords:
  - "wdm/BuildScatterGatherList"
+ - "BuildScatterGatherList"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - BuildScatterGatherList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

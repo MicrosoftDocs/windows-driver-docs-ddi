@@ -10,6 +10,7 @@ keywords: ["ScsiPortFlushDma function"]
 ms.keywords: ScsiPortFlushDma, ScsiPortFlushDma routine [Storage Devices], scsiprt_3c2fc1a8-0f37-4735-a9b8-dcec220ee5bf.xml, srb/ScsiPortFlushDma, storage.scsiportflushdma
 f1_keywords:
  - "srb/ScsiPortFlushDma"
+ - "ScsiPortFlushDma"
 req.header: srb.h
 req.include-header: Miniport.h, Scsi.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Scsiport.dll
 api_name:
 - ScsiPortFlushDma
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IPortableDeviceValues::GetUnsignedLargeIntegerValue"]
 ms.keywords: GetUnsignedLargeIntegerValue, GetUnsignedLargeIntegerValue method, GetUnsignedLargeIntegerValue method,IPortableDeviceValues interface, IPortableDeviceValues interface,GetUnsignedLargeIntegerValue method, IPortableDeviceValues.GetUnsignedLargeIntegerValue, IPortableDeviceValues::GetUnsignedLargeIntegerValue, IPortableDeviceValuesGetUnsignedLargeIntegerValue, portabledevicetypes/IPortableDeviceValues::GetUnsignedLargeIntegerValue, wpddk.iportabledevicevalues_getunsignedlargeintegervalue
 f1_keywords:
  - "portabledevicetypes/IPortableDeviceValues.GetUnsignedLargeIntegerValue"
+ - "IPortableDeviceValues.GetUnsignedLargeIntegerValue"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - PortableDeviceTypes.h
 api_name:
 - IPortableDeviceValues.GetUnsignedLargeIntegerValue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

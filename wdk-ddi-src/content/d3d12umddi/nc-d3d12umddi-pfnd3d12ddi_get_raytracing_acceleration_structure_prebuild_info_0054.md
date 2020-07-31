@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["PFND3D12DDI_GET_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO_0054 callback function"]
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_GET_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO_0054"
+ - "PFND3D12DDI_GET_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO_0054"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
@@ -32,8 +33,6 @@ api_location:
 - d3d12umddi.h
 api_name: 
 - PFND3D12DDI_GET_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO_0054
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

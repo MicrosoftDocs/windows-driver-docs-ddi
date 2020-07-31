@@ -10,6 +10,7 @@ keywords: ["WdfDmaEnablerCreate function"]
 ms.keywords: DFDmaObjectRef_f0ec3598-ae92-45b3-98af-b2ce590f996f.xml, WdfDmaEnablerCreate, WdfDmaEnablerCreate method, kmdf.wdfdmaenablercreate, wdf.wdfdmaenablercreate, wdfdmaenabler/WdfDmaEnablerCreate
 f1_keywords:
  - "wdfdmaenabler/WdfDmaEnablerCreate"
+ - "WdfDmaEnablerCreate"
 req.header: wdfdmaenabler.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfDmaEnablerCreate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

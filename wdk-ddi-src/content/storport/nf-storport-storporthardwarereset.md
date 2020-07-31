@@ -12,6 +12,7 @@ ms.keywords: StorPortHardwareReset
 req.header: storport.h
 f1_keywords:
  - "storport/StorPortHardwareReset"
+ - "StorPortHardwareReset"
 req.include-header:
 req.target-type:
 req.target-min-winverclnt: Windows 10, version 2004

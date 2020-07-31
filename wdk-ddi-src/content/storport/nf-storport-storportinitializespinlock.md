@@ -10,6 +10,7 @@ keywords: ["StorPortInitializeSpinlock function"]
 ms.keywords: StorPortInitializeSpinlock, StorPortInitializeSpinlock routine [Storage Devices], storage.storportinitializespinlock, storport/StorPortInitializeSpinlock
 f1_keywords:
  - "storport/StorPortInitializeSpinlock"
+ - "StorPortInitializeSpinlock"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - storport.h
 api_name:
 - StorPortInitializeSpinlock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -7,6 +7,7 @@ ms.date: 10/01/2018
 keywords: ["PROC_TOPOLOGY_NODE_CACHE_TYPE_DATA macro"]
 f1_keywords:
  - "acpitabl/PROC_TOPOLOGY_NODE_CACHE_TYPE_DATA"
+ - "PROC_TOPOLOGY_NODE_CACHE_TYPE_DATA"
 ms.keywords: PROC_TOPOLOGY_NODE_CACHE_TYPE_DATA
 req.header: acpitabl.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - acpitabl.h
 api_name: 
 - PROC_TOPOLOGY_NODE_CACHE_TYPE_DATA
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

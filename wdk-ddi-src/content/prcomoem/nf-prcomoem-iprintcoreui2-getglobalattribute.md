@@ -10,6 +10,7 @@ keywords: ["IPrintCoreUI2::GetGlobalAttribute"]
 ms.keywords: GetGlobalAttribute, GetGlobalAttribute method [Print Devices], GetGlobalAttribute method [Print Devices],IPrintCoreUI2 interface, IPrintCoreUI2 interface [Print Devices],GetGlobalAttribute method, IPrintCoreUI2.GetGlobalAttribute, IPrintCoreUI2::GetGlobalAttribute, prcomoem/IPrintCoreUI2::GetGlobalAttribute, print.iprintcoreui2_getglobalattribute, print_unidrv-pscript_ui_bd9fbd99-28f2-4613-a5d4-72b98fee95eb.xml
 f1_keywords:
  - "prcomoem/IPrintCoreUI2.GetGlobalAttribute"
+ - "IPrintCoreUI2.GetGlobalAttribute"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - prcomoem.h
 api_name:
 - IPrintCoreUI2.GetGlobalAttribute
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -8,6 +8,7 @@ ms.date: 06/25/2018
 keywords: ["_NDIS_WWAN_MPDP_INFO structure"]
 f1_keywords:
  - "ndiswwan/_NDIS_WWAN_MPDP_INFO"
+ - "_NDIS_WWAN_MPDP_INFO"
 ms.keywords: _NDIS_WWAN_MPDP_INFO, NDIS_WWAN_MPDP_INFO, *PNDIS_WWAN_MPDP_INFO, 
 req.header: ndiswwan.h
 req.include-header:
@@ -30,8 +31,6 @@ api_location:
 - ndiswwan.h
 api_name: 
 - _NDIS_WWAN_MPDP_INFO
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

@@ -10,6 +10,7 @@ keywords: ["_NDIS_RSS_PROFILE enumeration"]
 ms.keywords: "*PNDIS_RSS_PROFILE, NDIS_RSS_PROFILE, NDIS_RSS_PROFILE enumeration [Network Drivers Starting with Windows Vista], NdisRssProfileClosest, NdisRssProfileClosestStatic, NdisRssProfileConservative, NdisRssProfileMaximum, NdisRssProfileNuma, NdisRssProfileNumaStatic, _NDIS_RSS_PROFILE, netvista.ndis_rss_profile, ntddndis/NDIS_RSS_PROFILE, ntddndis/NdisRssProfileClosest, ntddndis/NdisRssProfileClosestStatic, ntddndis/NdisRssProfileConservative, ntddndis/NdisRssProfileMaximum, ntddndis/NdisRssProfileNuma, ntddndis/NdisRssProfileNumaStatic"
 f1_keywords:
  - "ntddndis/NDIS_RSS_PROFILE"
+ - "NDIS_RSS_PROFILE"
 req.header: ntddndis.h
 req.include-header: Ntddndis.h, Ntddndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddndis.h
 api_name:
 - NDIS_RSS_PROFILE
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_RSS_PROFILE, *PNDIS_RSS_PROFILE
 ---

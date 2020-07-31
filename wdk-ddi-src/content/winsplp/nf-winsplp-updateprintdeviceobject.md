@@ -10,6 +10,7 @@ keywords: ["UpdatePrintDeviceObject function"]
 ms.keywords: UpdatePrintDeviceObject, UpdatePrintDeviceObject function [Print Devices], print.updateprintdeviceobject, winsplp/UpdatePrintDeviceObject
 f1_keywords:
  - "winsplp/UpdatePrintDeviceObject"
+ - "UpdatePrintDeviceObject"
 req.header: winsplp.h
 req.include-header: Winspool.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WinSpool.drv
 api_name:
 - UpdatePrintDeviceObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -83,7 +82,7 @@ For example, this function can return HRESULT_FROM_WIN32(ERROR_INVALID_HANDLE), 
 
 
 
-The <a href="https://docs.microsoft.com/windows/desktop/printdocs/printer-info-2">PRINTER_INFO_2</a>  structure is a good example of the kind of properties that <b>UpdatePrintDeviceObject</b> can update.
+The <a href="https://docs.microsoft.com/windows/win32/printdocs/printer-info-2">PRINTER_INFO_2</a>  structure is a good example of the kind of properties that <b>UpdatePrintDeviceObject</b> can update.
 
 
 
@@ -97,7 +96,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/printdocs/printer-info-2
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/printer-info-2">PRINTER_INFO_2</a>
+<a href="https://docs.microsoft.com/windows/win32/printdocs/printer-info-2">PRINTER_INFO_2</a>
  
 
  

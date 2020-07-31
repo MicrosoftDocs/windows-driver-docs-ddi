@@ -10,6 +10,7 @@ keywords: ["IDebugBreakpoint2 interface"]
 ms.keywords: IDebugBreakpoint2, IDebugBreakpoint2 interface [Windows Debugging], IDebugBreakpoint2 interface [Windows Debugging],described, dbgeng/IDebugBreakpoint2, debugger.idebugbreakpoint2
 f1_keywords:
  - "dbgeng/IDebugBreakpoint2"
+ - "IDebugBreakpoint2"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugBreakpoint2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

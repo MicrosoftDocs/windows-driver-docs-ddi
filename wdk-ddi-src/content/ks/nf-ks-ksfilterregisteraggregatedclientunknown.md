@@ -10,6 +10,7 @@ keywords: ["KsFilterRegisterAggregatedClientUnknown function"]
 ms.keywords: KsFilterRegisterAggregatedClientUnknown, KsFilterRegisterAggregatedClientUnknown function [Streaming Media Devices], avfunc_c485334a-83bd-474e-abfc-ced331ca55db.xml, ks/KsFilterRegisterAggregatedClientUnknown, stream.ksfilterregisteraggregatedclientunknown
 f1_keywords:
  - "ks/KsFilterRegisterAggregatedClientUnknown"
+ - "KsFilterRegisterAggregatedClientUnknown"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KsFilterRegisterAggregatedClientUnknown
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

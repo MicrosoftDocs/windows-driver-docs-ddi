@@ -9,6 +9,7 @@ keywords: ["_DXGKARG_SETTARGETANALOGCOPYPROTECTION structure"]
 ms.keywords: DXGKARG_SETTARGETANALOGCOPYPROTECTION, DXGKARG_SETTARGETANALOGCOPYPROTECTION structure [Display Devices], _DXGKARG_SETTARGETANALOGCOPYPROTECTION, d3dkmddi/DXGKARG_SETTARGETANALOGCOPYPROTECTION, display.dxgkarg_settargetanalogcopyprotection
 f1_keywords:
  - "d3dkmddi/DXGKARG_SETTARGETANALOGCOPYPROTECTION"
+ - "DXGKARG_SETTARGETANALOGCOPYPROTECTION"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGKARG_SETTARGETANALOGCOPYPROTECTION
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGKARG_SETTARGETANALOGCOPYPROTECTION

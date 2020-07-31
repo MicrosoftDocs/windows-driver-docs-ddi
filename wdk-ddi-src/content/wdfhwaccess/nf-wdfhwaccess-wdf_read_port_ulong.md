@@ -10,6 +10,7 @@ keywords: ["WDF_READ_PORT_ULONG function"]
 ms.keywords: WDF_READ_PORT_ULONG, WDF_READ_PORT_ULONG function, wdf.wdf_read_port_ulong, wdfhwaccess/WDF_READ_PORT_ULONG
 f1_keywords:
  - "wdfhwaccess/WDF_READ_PORT_ULONG"
+ - "WDF_READ_PORT_ULONG"
 req.header: wdfhwaccess.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Wdfhwaccess.h
 api_name:
 - WDF_READ_PORT_ULONG
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

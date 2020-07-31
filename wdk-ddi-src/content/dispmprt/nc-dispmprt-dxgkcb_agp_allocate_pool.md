@@ -10,6 +10,7 @@ keywords: ["DXGKCB_AGP_ALLOCATE_POOL callback function"]
 ms.keywords: AgpAllocatePool, AgpAllocatePool callback function [Display Devices], DXGKCB_AGP_ALLOCATE_POOL, DXGKCB_AGP_ALLOCATE_POOL callback, DpFunctions_2bd4981c-c9f1-4b37-a921-9eb33d1b622b.xml, display.agpallocatepool, dispmprt/AgpAllocatePool
 f1_keywords:
  - "dispmprt/AgpAllocatePool"
+ - "AgpAllocatePool"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dispmprt.h
 api_name:
 - AgpAllocatePool
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

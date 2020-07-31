@@ -10,6 +10,7 @@ keywords: ["PoSetSystemWake function"]
 ms.keywords: PoSetSystemWake, PoSetSystemWake routine [Kernel-Mode Driver Architecture], kernel.posetsystemwake, portn_09bfa419-5a6c-4305-87ee-58a0e032d0c4.xml, wdm/PoSetSystemWake
 f1_keywords:
  - "wdm/PoSetSystemWake"
+ - "PoSetSystemWake"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - PoSetSystemWake
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

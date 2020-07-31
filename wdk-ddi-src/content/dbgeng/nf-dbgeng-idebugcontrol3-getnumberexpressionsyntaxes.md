@@ -10,6 +10,7 @@ keywords: ["IDebugControl3::GetNumberExpressionSyntaxes"]
 ms.keywords: GetNumberExpressionSyntaxes, GetNumberExpressionSyntaxes method [Windows Debugging], GetNumberExpressionSyntaxes method [Windows Debugging],IDebugControl3 interface, IDebugControl3 interface [Windows Debugging],GetNumberExpressionSyntaxes method, IDebugControl3.GetNumberExpressionSyntaxes, IDebugControl3::GetNumberExpressionSyntaxes, IDebugControl_af12dddf-1d15-4abf-8500-8beab99b69ea.xml, dbgeng/IDebugControl3::GetNumberExpressionSyntaxes, debugger.getnumberexpressionsyntaxes
 f1_keywords:
  - "dbgeng/IDebugControl3.GetNumberExpressionSyntaxes"
+ - "IDebugControl3.GetNumberExpressionSyntaxes"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugControl3.GetNumberExpressionSyntaxes
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

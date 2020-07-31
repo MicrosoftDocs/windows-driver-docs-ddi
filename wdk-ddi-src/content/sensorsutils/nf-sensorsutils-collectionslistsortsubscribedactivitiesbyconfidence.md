@@ -7,6 +7,7 @@ ms.date: 08/08/2018
 keywords: ["CollectionsListSortSubscribedActivitiesByConfidence function"]
 f1_keywords:
  - "sensorsutils/CollectionsListSortSubscribedActivitiesByConfidence"
+ - "CollectionsListSortSubscribedActivitiesByConfidence"
 tech.root: sensors
 ms.keywords: CollectionsListSortSubscribedActivitiesByConfidence
 req.header: sensorsutils.h
@@ -34,8 +35,6 @@ api_location:
 - sensorsutils.h
 api_name: 
 - CollectionsListSortSubscribedActivitiesByConfidence
-product:
-- Windows
 targetos: Windows
 
 

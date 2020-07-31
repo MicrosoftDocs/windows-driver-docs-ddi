@@ -10,6 +10,7 @@ keywords: ["PFREE_CONTIGUOUS_DMA_BUFFER callback function"]
 ms.keywords: FreeContiguousDmaBuffer, FreeContiguousDmaBuffer callback function [Audio Devices], PFREE_CONTIGUOUS_DMA_BUFFER, PFREE_CONTIGUOUS_DMA_BUFFER callback, aud-prop2_66797c8c-c8ac-443e-9515-1269a14a87a0.xml, audio.freecontiguousdmabuffer, hdaudio/FreeContiguousDmaBuffer
 f1_keywords:
  - "hdaudio/FreeContiguousDmaBuffer"
+ - "FreeContiguousDmaBuffer"
 req.header: hdaudio.h
 req.include-header: Hdaudio.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - hdaudio.h
 api_name:
 - FreeContiguousDmaBuffer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

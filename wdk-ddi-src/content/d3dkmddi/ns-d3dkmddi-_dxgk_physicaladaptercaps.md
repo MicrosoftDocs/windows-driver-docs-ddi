@@ -9,6 +9,7 @@ keywords: ["_DXGK_PHYSICALADAPTERCAPS structure"]
 ms.keywords: DXGK_PHYSICALADAPTERCAPS, DXGK_PHYSICALADAPTERCAPS structure [Display Devices], Flags.GpuMmuSupported, Flags.IoMmuSupported, Flags.MovePagingSupported, Flags.VPRPagingContextRequired, _DXGK_PHYSICALADAPTERCAPS, d3dkmddi/DXGK_PHYSICALADAPTERCAPS, display.dxgk_physicaladaptercaps
 f1_keywords:
  - "d3dkmddi/DXGK_PHYSICALADAPTERCAPS"
+ - "DXGK_PHYSICALADAPTERCAPS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGK_PHYSICALADAPTERCAPS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_PHYSICALADAPTERCAPS

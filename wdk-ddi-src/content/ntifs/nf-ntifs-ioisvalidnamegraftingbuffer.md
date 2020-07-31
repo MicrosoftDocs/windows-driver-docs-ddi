@@ -10,6 +10,7 @@ keywords: ["IoIsValidNameGraftingBuffer function"]
 ms.keywords: IoIsValidNameGraftingBuffer, IoIsValidNameGraftingBuffer function [Installable File System Drivers], ifsk.ioisvalidnamegraftingbuffer, ioref_10a2f83c-101f-47b3-beca-c708a0749d4d.xml, ntifs/IoIsValidNameGraftingBuffer
 f1_keywords:
  - "ntifs/IoIsValidNameGraftingBuffer"
+ - "IoIsValidNameGraftingBuffer"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - IoIsValidNameGraftingBuffer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

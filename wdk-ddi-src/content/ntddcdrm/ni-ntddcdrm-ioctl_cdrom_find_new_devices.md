@@ -10,6 +10,7 @@ keywords: ["IOCTL_CDROM_FIND_NEW_DEVICES IOCTL"]
 ms.keywords: IOCTL_CDROM_FIND_NEW_DEVICES, IOCTL_CDROM_FIND_NEW_DEVICES control, IOCTL_CDROM_FIND_NEW_DEVICES control code [Storage Devices], k307_80deb95c-40d4-4e22-969e-da0df49599a4.xml, ntddcdrm/IOCTL_CDROM_FIND_NEW_DEVICES, storage.ioctl_cdrom_find_new_devices
 f1_keywords:
  - "ntddcdrm/IOCTL_CDROM_FIND_NEW_DEVICES"
+ - "IOCTL_CDROM_FIND_NEW_DEVICES"
 req.header: ntddcdrm.h
 req.include-header:
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddcdrm.h
 api_name:
 - IOCTL_CDROM_FIND_NEW_DEVICES
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

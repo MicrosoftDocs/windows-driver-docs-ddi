@@ -10,6 +10,7 @@ keywords: ["_WWAN_USSD_EVENT structure"]
 ms.keywords: "*PWWAN_USSD_EVENT, PWWAN_USSD_EVENT, PWWAN_USSD_EVENT structure pointer [Network Drivers Starting with Windows Vista], WWAN_USSD_EVENT, WWAN_USSD_EVENT structure [Network Drivers Starting with Windows Vista], _WWAN_USSD_EVENT, netvista.wwan_ussd_event, wwan/PWWAN_USSD_EVENT, wwan/WWAN_USSD_EVENT"
 f1_keywords:
  - "wwan/WWAN_USSD_EVENT"
+ - "WWAN_USSD_EVENT"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_USSD_EVENT
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_USSD_EVENT, *PWWAN_USSD_EVENT
 ---

@@ -10,6 +10,7 @@ keywords: ["HidP_GetLinkCollectionNodes function"]
 ms.keywords: HidP_GetLinkCollectionNodes, HidP_GetLinkCollectionNodes routine [Human Input Devices], hid.hidp_getlinkcollectionnodes, hidfunc_cbcd531f-dc4d-4a27-96bd-bfa3589af9a7.xml, hidpi/HidP_GetLinkCollectionNodes
 f1_keywords:
  - "hidpi/HidP_GetLinkCollectionNodes"
+ - "HidP_GetLinkCollectionNodes"
 req.header: hidpi.h
 req.include-header: Hidpi.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Hidparse.dll
 api_name:
 - HidP_GetLinkCollectionNodes
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

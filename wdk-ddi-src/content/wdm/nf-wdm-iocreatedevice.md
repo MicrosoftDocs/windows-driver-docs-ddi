@@ -10,6 +10,7 @@ keywords: ["IoCreateDevice function"]
 ms.keywords: IoCreateDevice, IoCreateDevice routine [Kernel-Mode Driver Architecture], k104_1e38a631-7e65-4b4b-8d51-3150a8073511.xml, kernel.iocreatedevice, wdm/IoCreateDevice
 f1_keywords:
  - "wdm/IoCreateDevice"
+ - "IoCreateDevice"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoCreateDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

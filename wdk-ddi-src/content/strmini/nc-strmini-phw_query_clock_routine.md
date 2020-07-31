@@ -10,6 +10,7 @@ keywords: ["PHW_QUERY_CLOCK_ROUTINE callback function"]
 ms.keywords: PHW_QUERY_CLOCK_ROUTINE, StrMiniClock, StrMiniClock routine [Streaming Media Devices], stream.strminiclock, strmini-routines_d53b0cf1-3c0c-435f-bc44-732f6418ebb8.xml, strmini/StrMiniClock
 f1_keywords:
  - "strmini/StrMiniClock"
+ - "StrMiniClock"
 req.header: strmini.h
 req.include-header: Strmini.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - strmini.h
 api_name:
 - StrMiniClock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

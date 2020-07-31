@@ -10,6 +10,7 @@ keywords: ["RIL_GetAllEmergencyNumbers function"]
 ms.keywords: RIL_GetAllEmergencyNumbers, RIL_GetAllEmergencyNumbers method [Network Drivers Starting with Windows Vista], netvista.ril_getallemergencynumbers, rilapi/RIL_GetAllEmergencyNumbers
 f1_keywords:
  - "rilapi/RIL_GetAllEmergencyNumbers"
+ - "RIL_GetAllEmergencyNumbers"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_GetAllEmergencyNumbers
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IMiniport interface"]
 ms.keywords: IMiniport, IMiniport interface [Audio Devices], IMiniport interface [Audio Devices], described, audio.iminiport, audmp-routines_8ecaedd2-12d2-420f-a5e7-0f71451cf989.xml, portcls/IMiniport
 f1_keywords:
  - "portcls/IMiniport"
+ - "IMiniport"
 req.header: portcls.h
 req.include-header:
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IMiniport
-product:
-- Windows
 targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---

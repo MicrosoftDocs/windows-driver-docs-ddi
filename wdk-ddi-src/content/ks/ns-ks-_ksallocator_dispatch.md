@@ -10,6 +10,7 @@ keywords: ["_KSALLOCATOR_DISPATCH structure"]
 ms.keywords: "*PKSALLOCATOR_DISPATCH, KSALLOCATOR_DISPATCH, KSALLOCATOR_DISPATCH structure [Streaming Media Devices], PKSALLOCATOR_DISPATCH, PKSALLOCATOR_DISPATCH structure pointer [Streaming Media Devices], _KSALLOCATOR_DISPATCH, avstruct_73d2c793-a55a-45f3-af31-fc18240ca1df.xml, ks/KSALLOCATOR_DISPATCH, ks/PKSALLOCATOR_DISPATCH, stream.ksallocator_dispatch"
 f1_keywords:
  - "ks/KSALLOCATOR_DISPATCH"
+ - "KSALLOCATOR_DISPATCH"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KSALLOCATOR_DISPATCH
-product:
-- Windows
 targetos: Windows
 req.typenames: KSALLOCATOR_DISPATCH, *PKSALLOCATOR_DISPATCH
 ---

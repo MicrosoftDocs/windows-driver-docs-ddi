@@ -10,6 +10,7 @@ keywords: ["NdisFreeScatterGatherList function"]
 ms.keywords: NdisFreeScatterGatherList, NdisFreeScatterGatherList function [Network Drivers Starting with Windows Vista], ndis/NdisFreeScatterGatherList, ndis_shared_memory_ref_2376e740-d44c-4572-8731-7518d4765208.xml, netvista.ndisfreescattergatherlist
 f1_keywords:
  - "ndis/NdisFreeScatterGatherList"
+ - "NdisFreeScatterGatherList"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisFreeScatterGatherList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

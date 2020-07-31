@@ -9,6 +9,7 @@ keywords: ["D3D11DDIARG_CREATERESOURCE structure"]
 ms.keywords: D3D11DDIARG_CREATERESOURCE, D3D11DDIARG_CREATERESOURCE structure [Display Devices], UMDisplayDriver_Dx11param_Structs_86915c01-2d64-42d6-bae0-2a83ba1dda80.xml, d3d10umddi/D3D11DDIARG_CREATERESOURCE, display.d3d11ddiarg_createresource
 f1_keywords:
  - "d3d10umddi/D3D11DDIARG_CREATERESOURCE"
+ - "D3D11DDIARG_CREATERESOURCE"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - D3D11DDIARG_CREATERESOURCE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D11DDIARG_CREATERESOURCE

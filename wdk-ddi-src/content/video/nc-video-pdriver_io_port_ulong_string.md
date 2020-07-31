@@ -10,6 +10,7 @@ keywords: ["PDRIVER_IO_PORT_ULONG_STRING callback function"]
 ms.keywords: PDRIVER_IO_PORT_ULONG_STRING, PDRIVER_IO_PORT_ULONG_STRING callback, SvgaHwIoPortUlongString, SvgaHwIoPortUlongString callback function [Display Devices], VideoMiniport_Functions_107f011d-c8c7-4f9f-ac81-4d0b33caa3da.xml, display.svgahwioportulongstring, video/SvgaHwIoPortUlongString
 f1_keywords:
  - "video/SvgaHwIoPortUlongString"
+ - "SvgaHwIoPortUlongString"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - video.h
 api_name:
 - SvgaHwIoPortUlongString
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

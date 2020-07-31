@@ -10,6 +10,7 @@ keywords: ["DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO structure"]
 ms.keywords: "*PDOT11_BSS_ENTRY_PHY_SPECIFIC_INFO, DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO, DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO union [Network Drivers Starting with Windows Vista], Native_802.11_data_types_bd52a4e6-211b-4bb7-9398-22545a3a70c3.xml, PDOT11_BSS_ENTRY_PHY_SPECIFIC_INFO, PDOT11_BSS_ENTRY_PHY_SPECIFIC_INFO union pointer [Network Drivers Starting with Windows Vista], netvista.dot11_bss_entry_phy_specific_info, windot11/DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO, windot11/PDOT11_BSS_ENTRY_PHY_SPECIFIC_INFO"
 f1_keywords:
  - "windot11/DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO"
+ - "DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO"
 req.header: windot11.h
 req.include-header: Wlclient.h
 req.target-type: Windows

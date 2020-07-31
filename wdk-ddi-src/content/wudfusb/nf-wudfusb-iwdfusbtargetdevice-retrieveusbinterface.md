@@ -10,6 +10,7 @@ keywords: ["IWDFUsbTargetDevice::RetrieveUsbInterface"]
 ms.keywords: IWDFUsbTargetDevice interface,RetrieveUsbInterface method, IWDFUsbTargetDevice.RetrieveUsbInterface, IWDFUsbTargetDevice::RetrieveUsbInterface, RetrieveUsbInterface, RetrieveUsbInterface method, RetrieveUsbInterface method,IWDFUsbTargetDevice interface, UMDFUSBref_cc346a35-4508-40ac-b959-20174a1b39af.xml, umdf.iwdfusbtargetdevice_retrieveusbinterface, wdf.iwdfusbtargetdevice_retrieveusbinterface, wudfusb/IWDFUsbTargetDevice::RetrieveUsbInterface
 f1_keywords:
  - "wudfusb/IWDFUsbTargetDevice.RetrieveUsbInterface"
+ - "IWDFUsbTargetDevice.RetrieveUsbInterface"
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFUsbTargetDevice.RetrieveUsbInterface
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

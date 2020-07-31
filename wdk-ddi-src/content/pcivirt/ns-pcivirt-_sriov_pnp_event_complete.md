@@ -10,6 +10,7 @@ keywords: ["_SRIOV_PNP_EVENT_COMPLETE structure"]
 ms.keywords: "*PSRIOV_PNP_EVENT_COMPLETE, PCI.sriov_pnp_event_complete, SRIOV_PNP_EVENT_COMPLETE, SRIOV_PNP_EVENT_COMPLETE structure [Buses], _SRIOV_PNP_EVENT_COMPLETE, pcivirt/SRIOV_PNP_EVENT_COMPLETE"
 f1_keywords:
  - "pcivirt/SRIOV_PNP_EVENT_COMPLETE"
+ - "SRIOV_PNP_EVENT_COMPLETE"
 req.header: pcivirt.h
 req.include-header:
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Pcivirt.h
 api_name:
 - SRIOV_PNP_EVENT_COMPLETE
-product:
-- Windows
 targetos: Windows
 req.typenames: SRIOV_PNP_EVENT_COMPLETE, *PSRIOV_PNP_EVENT_COMPLETE
 ---

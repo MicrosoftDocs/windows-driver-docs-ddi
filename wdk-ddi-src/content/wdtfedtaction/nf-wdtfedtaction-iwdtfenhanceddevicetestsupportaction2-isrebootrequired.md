@@ -10,6 +10,7 @@ keywords: ["IWDTFEnhancedDeviceTestSupportAction2::IsRebootRequired"]
 ms.keywords: IWDTFEnhancedDeviceTestSupportAction2 interface [Windows Device Testing Framework],IsRebootRequired method, IWDTFEnhancedDeviceTestSupportAction2.IsRebootRequired, IWDTFEnhancedDeviceTestSupportAction2::IsRebootRequired, IsRebootRequired, IsRebootRequired method [Windows Device Testing Framework], IsRebootRequired method [Windows Device Testing Framework],IWDTFEnhancedDeviceTestSupportAction2 interface, Microsoft.WDTF.IWDTFEnhancedDeviceTestSupportAction2.IsRebootRequired, Microsoft::WDTF::IWDTFEnhancedDeviceTestSupportAction2::IsRebootRequired, dtf.iwdtfenhanceddevicetestsupportaction2_isrebootrequired, wdtfedtaction/IWDTFEnhancedDeviceTestSupportAction2::IsRebootRequired
 f1_keywords:
  - "wdtfedtaction/IWDTFEnhancedDeviceTestSupportAction2.IsRebootRequired"
+ - "IWDTFEnhancedDeviceTestSupportAction2.IsRebootRequired"
 req.header: wdtfedtaction.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WDTFDriverEDTAction.Interop.dll
 api_name:
 - IWDTFEnhancedDeviceTestSupportAction2.IsRebootRequired
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

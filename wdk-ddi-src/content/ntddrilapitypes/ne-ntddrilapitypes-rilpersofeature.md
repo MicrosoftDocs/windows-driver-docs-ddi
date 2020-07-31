@@ -10,6 +10,7 @@ keywords: ["RILPERSOFEATURE enumeration"]
 ms.keywords: RILPERSOFEATURE, RILPERSOFEATURE enumeration [Network Drivers Starting with Windows Vista], RIL_PERSOFEATURE_3GPP2_CORP, RIL_PERSOFEATURE_3GPP2_HRPD, RIL_PERSOFEATURE_3GPP2_NETTYPE1, RIL_PERSOFEATURE_3GPP2_NETTYPE2, RIL_PERSOFEATURE_3GPP2_SP, RIL_PERSOFEATURE_3GPP2_UIM, RIL_PERSOFEATURE_3GPP_CORP, RIL_PERSOFEATURE_3GPP_NET, RIL_PERSOFEATURE_3GPP_NETSUB, RIL_PERSOFEATURE_3GPP_SP, RIL_PERSOFEATURE_3GPP_USIM, RIL_PERSOFEATURE_ALL, netvista.rilpersofeature, ntddrilapitypes/RILPERSOFEATURE, ntddrilapitypes/RIL_PERSOFEATURE_3GPP2_CORP, ntddrilapitypes/RIL_PERSOFEATURE_3GPP2_HRPD, ntddrilapitypes/RIL_PERSOFEATURE_3GPP2_NETTYPE1, ntddrilapitypes/RIL_PERSOFEATURE_3GPP2_NETTYPE2, ntddrilapitypes/RIL_PERSOFEATURE_3GPP2_SP, ntddrilapitypes/RIL_PERSOFEATURE_3GPP2_UIM, ntddrilapitypes/RIL_PERSOFEATURE_3GPP_CORP, ntddrilapitypes/RIL_PERSOFEATURE_3GPP_NET, ntddrilapitypes/RIL_PERSOFEATURE_3GPP_NETSUB, ntddrilapitypes/RIL_PERSOFEATURE_3GPP_SP, ntddrilapitypes/RIL_PERSOFEATURE_3GPP_USIM, ntddrilapitypes/RIL_PERSOFEATURE_ALL
 f1_keywords:
  - "ntddrilapitypes/RILPERSOFEATURE"
+ - "RILPERSOFEATURE"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILPERSOFEATURE
-product:
-- Windows
 targetos: Windows
 req.typenames: RILPERSOFEATURE
 ---

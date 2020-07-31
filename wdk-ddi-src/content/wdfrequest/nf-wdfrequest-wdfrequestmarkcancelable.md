@@ -10,6 +10,7 @@ keywords: ["WdfRequestMarkCancelable function"]
 ms.keywords: DFRequestObjectRef_29a4ad0c-ce28-4f4b-b015-90b067feaeec.xml, WdfRequestMarkCancelable, WdfRequestMarkCancelable method, kmdf.wdfrequestmarkcancelable, wdf.wdfrequestmarkcancelable, wdfrequest/WdfRequestMarkCancelable
 f1_keywords:
  - "wdfrequest/WdfRequestMarkCancelable"
+ - "WdfRequestMarkCancelable"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfRequestMarkCancelable
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

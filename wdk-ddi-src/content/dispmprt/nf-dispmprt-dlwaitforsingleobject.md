@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DlWaitForSingleObject function"]
 f1_keywords:
  - "dispmprt/DlWaitForSingleObject"
+ - "DlWaitForSingleObject"
 ms.keywords: DlWaitForSingleObject
 req.header: dispmprt.h
 req.include-header:

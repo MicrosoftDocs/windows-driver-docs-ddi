@@ -10,6 +10,7 @@ keywords: ["IMiniportWaveRTStream interface"]
 ms.keywords: IMiniportWaveRTStream, IMiniportWaveRTStream interface [Audio Devices], IMiniportWaveRTStream interface [Audio Devices], described, audio.iminiportwavertstream, audmp-routines_9f8c9dbe-8e68-4b7b-b2de-b409d77f15d6.xml, portcls/IMiniportWaveRTStream
 f1_keywords:
  - "portcls/IMiniportWaveRTStream"
+ - "IMiniportWaveRTStream"
 req.header: portcls.h
 req.include-header:
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IMiniportWaveRTStream
-product:
-- Windows
 targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---

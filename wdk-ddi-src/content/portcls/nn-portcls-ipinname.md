@@ -10,6 +10,7 @@ keywords: ["IPinName interface"]
 ms.keywords: IPinName, IPinName interface [Audio Devices], IPinName interface [Audio Devices],described, audio.ipinname, audmp-routines_27ed00c6-3e56-400f-9bed-2c2c84091e74.xml, portcls/IPinName
 f1_keywords:
  - "portcls/IPinName"
+ - "IPinName"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IPinName
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["_USB_PORT_CONNECTOR_PROPERTIES structure"]
 ms.keywords: "*PUSB_PORT_CONNECTOR_PROPERTIES, PUSB_PORT_CONNECTOR_PROPERTIES, PUSB_PORT_CONNECTOR_PROPERTIES structure pointer [Buses], USB_PORT_CONNECTOR_PROPERTIES, USB_PORT_CONNECTOR_PROPERTIES structure [Buses], _USB_PORT_CONNECTOR_PROPERTIES, buses.usb_port_connector_properties, usbioctl/PUSB_PORT_CONNECTOR_PROPERTIES, usbioctl/USB_PORT_CONNECTOR_PROPERTIES"
 f1_keywords:
  - "usbioctl/USB_PORT_CONNECTOR_PROPERTIES"
+ - "USB_PORT_CONNECTOR_PROPERTIES"
 req.header: usbioctl.h
 req.include-header: Usbioctl.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Usbioctl.h
 api_name:
 - USB_PORT_CONNECTOR_PROPERTIES
-product:
-- Windows
 targetos: Windows
 req.typenames: USB_PORT_CONNECTOR_PROPERTIES, *PUSB_PORT_CONNECTOR_PROPERTIES
 ---

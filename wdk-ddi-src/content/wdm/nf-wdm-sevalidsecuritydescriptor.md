@@ -10,6 +10,7 @@ keywords: ["SeValidSecurityDescriptor function"]
 ms.keywords: SeValidSecurityDescriptor, SeValidSecurityDescriptor routine [Kernel-Mode Driver Architecture], k110_f193d746-c75f-4003-a2b3-a6b752652f9b.xml, kernel.sevalidsecuritydescriptor, wdm/SeValidSecurityDescriptor
 f1_keywords:
  - "wdm/SeValidSecurityDescriptor"
+ - "SeValidSecurityDescriptor"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - SeValidSecurityDescriptor
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

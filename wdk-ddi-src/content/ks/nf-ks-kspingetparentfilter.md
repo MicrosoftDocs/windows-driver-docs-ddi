@@ -10,6 +10,7 @@ keywords: ["KsPinGetParentFilter function"]
 ms.keywords: KsPinGetParentFilter, KsPinGetParentFilter function [Streaming Media Devices], avfunc_0a7c672c-072d-49f8-b1de-93ee1e5c8e1c.xml, ks/KsPinGetParentFilter, stream.kspingetparentfilter
 f1_keywords:
  - "ks/KsPinGetParentFilter"
+ - "KsPinGetParentFilter"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsPinGetParentFilter
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

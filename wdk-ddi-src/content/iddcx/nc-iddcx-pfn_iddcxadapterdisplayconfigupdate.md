@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["PFN_IDDCXADAPTERDISPLAYCONFIGUPDATE callback function"]
 f1_keywords:
  - "iddcx/PFN_IDDCXADAPTERDISPLAYCONFIGUPDATE"
+ - "PFN_IDDCXADAPTERDISPLAYCONFIGUPDATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 req.header: iddcx.h

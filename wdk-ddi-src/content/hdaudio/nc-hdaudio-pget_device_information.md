@@ -10,6 +10,7 @@ keywords: ["PGET_DEVICE_INFORMATION callback function"]
 ms.keywords: GetDeviceInformation, GetDeviceInformation callback function [Audio Devices], PGET_DEVICE_INFORMATION, PGET_DEVICE_INFORMATION callback, aud-prop2_9e39061d-0e06-4871-b92c-d4bd7aa98815.xml, audio.getdeviceinformation, hdaudio/GetDeviceInformation
 f1_keywords:
  - "hdaudio/GetDeviceInformation"
+ - "GetDeviceInformation"
 req.header: hdaudio.h
 req.include-header: Hdaudio.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - hdaudio.h
 api_name:
 - GetDeviceInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

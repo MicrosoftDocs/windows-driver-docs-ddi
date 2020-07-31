@@ -10,6 +10,7 @@ keywords: ["_PosBarcodeScannerDataReceivedEventData structure"]
 ms.keywords: PosBarcodeScannerDataReceivedEventData, PosBarcodeScannerDataReceivedEventData structure, _PosBarcodeScannerDataReceivedEventData, pointofservicedriverinterface/PosBarcodeScannerDataReceivedEventData, pos.posbarcodescannerdatareceivedeventdata
 f1_keywords:
  - "pointofservicedriverinterface/PosBarcodeScannerDataReceivedEventData"
+ - "PosBarcodeScannerDataReceivedEventData"
 req.header: pointofservicedriverinterface.h
 req.include-header: PointOfServiceDriverInterface.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - PointOfServiceDriverInterface.h
 api_name:
 - PosBarcodeScannerDataReceivedEventData
-product:
-- Windows
 targetos: Windows
 req.typenames: PosBarcodeScannerDataReceivedEventData
 ---

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DSHADEMODE enumeration"]
 f1_keywords:
  - "d3d9types/_D3DSHADEMODE"
+ - "_D3DSHADEMODE"
 ms.keywords: _D3DSHADEMODE, D3DSHADEMODE, 
 req.header: d3d9types.h
 req.include-header:
@@ -26,8 +27,6 @@ api_location:
 - d3d9types.h
 api_name: 
 - _D3DSHADEMODE
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

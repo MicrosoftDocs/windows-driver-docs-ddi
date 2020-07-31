@@ -10,6 +10,7 @@ keywords: ["_REQUEST_REMOTE_WAKE_NOTIFICATION structure"]
 ms.keywords: "*PREQUEST_REMOTE_WAKE_NOTIFICATION, PREQUEST_REMOTE_WAKE_NOTIFICATION, PREQUEST_REMOTE_WAKE_NOTIFICATION structure pointer [Buses], REQUEST_REMOTE_WAKE_NOTIFICATION, REQUEST_REMOTE_WAKE_NOTIFICATION structure [Buses], _REQUEST_REMOTE_WAKE_NOTIFICATION, buses.usbdevice_remote_wake_notification, usbdlib/PREQUEST_REMOTE_WAKE_NOTIFICATION, usbdlib/REQUEST_REMOTE_WAKE_NOTIFICATION"
 f1_keywords:
  - "usbdlib/REQUEST_REMOTE_WAKE_NOTIFICATION"
+ - "REQUEST_REMOTE_WAKE_NOTIFICATION"
 req.header: usbdlib.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Usbdlib.h
 api_name:
 - REQUEST_REMOTE_WAKE_NOTIFICATION
-product:
-- Windows
 targetos: Windows
 req.typenames: REQUEST_REMOTE_WAKE_NOTIFICATION, *PREQUEST_REMOTE_WAKE_NOTIFICATION
 ---

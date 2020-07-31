@@ -10,6 +10,7 @@ keywords: ["IPortableDeviceValues::GetIUnknownValue"]
 ms.keywords: GetIUnknownValue, GetIUnknownValue method, GetIUnknownValue method,IPortableDeviceValues interface, IPortableDeviceValues interface,GetIUnknownValue method, IPortableDeviceValues.GetIUnknownValue, IPortableDeviceValues::GetIUnknownValue, IPortableDeviceValuesGetIUnknownValue, portabledevicetypes/IPortableDeviceValues::GetIUnknownValue, wpddk.iportabledevicevalues_getiunknownvalue
 f1_keywords:
  - "portabledevicetypes/IPortableDeviceValues.GetIUnknownValue"
+ - "IPortableDeviceValues.GetIUnknownValue"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - PortableDeviceTypes.h
 api_name:
 - IPortableDeviceValues.GetIUnknownValue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

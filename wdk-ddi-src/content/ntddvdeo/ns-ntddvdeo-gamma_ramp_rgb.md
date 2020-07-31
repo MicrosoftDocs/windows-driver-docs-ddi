@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["GAMMA_RAMP_RGB structure"]
 f1_keywords:
  - "ntddvdeo/GAMMA_RAMP_RGB"
+ - "GAMMA_RAMP_RGB"
 ms.keywords: GAMMA_RAMP_RGB, GAMMA_RAMP_RGB, 
 req.header: ntddvdeo.h
 req.include-header:
@@ -32,8 +33,6 @@ api_location:
  - ntddvdeo.h
 api_name: 
  - GAMMA_RAMP_RGB
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

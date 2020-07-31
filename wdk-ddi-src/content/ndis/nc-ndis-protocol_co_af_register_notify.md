@@ -10,6 +10,7 @@ keywords: ["PROTOCOL_CO_AF_REGISTER_NOTIFY callback function"]
 ms.keywords: PROTOCOL_CO_AF_REGISTER_NOTIFY, PROTOCOL_CO_AF_REGISTER_NOTIFY callback, ProtocolCoAfRegisterNotify, ProtocolCoAfRegisterNotify callback function [Network Drivers Starting with Windows Vista], condis_protocol_ref_aa4ed4ae-7fa9-4f92-9103-824fbe719739.xml, ndis/ProtocolCoAfRegisterNotify, netvista.protocolcoafregisternotify
 f1_keywords:
  - "ndis/ProtocolCoAfRegisterNotify"
+ - "ProtocolCoAfRegisterNotify"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - ProtocolCoAfRegisterNotify
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

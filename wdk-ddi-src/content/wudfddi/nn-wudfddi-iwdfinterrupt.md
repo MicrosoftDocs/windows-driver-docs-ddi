@@ -10,6 +10,7 @@ keywords: ["IWDFInterrupt interface"]
 ms.keywords: IWDFInterrupt, IWDFInterrupt interface, IWDFInterrupt interface,described, umdf.iwdfinterrupt, wdf.iwdfinterrupt, wudfddi/IWDFInterrupt
 f1_keywords:
  - "wudfddi/IWDFInterrupt"
+ - "IWDFInterrupt"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFInterrupt
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

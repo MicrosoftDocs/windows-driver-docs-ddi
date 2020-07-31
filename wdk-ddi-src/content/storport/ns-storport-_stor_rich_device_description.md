@@ -10,6 +10,7 @@ keywords: ["_STOR_RICH_DEVICE_DESCRIPTION structure"]
 ms.keywords: "*PSTOR_RICH_DEVICE_DESCRIPTION, PSTOR_RICH_DEVICE_DESCRIPTION, PSTOR_RICH_DEVICE_DESCRIPTION structure pointer [Storage Devices], STOR_RICH_DEVICE_DESCRIPTION, STOR_RICH_DEVICE_DESCRIPTION structure [Storage Devices], _STOR_RICH_DEVICE_DESCRIPTION, storage.stor_rich_device_description, storport/PSTOR_RICH_DEVICE_DESCRIPTION, storport/STOR_RICH_DEVICE_DESCRIPTION"
 f1_keywords:
  - "storport/STOR_RICH_DEVICE_DESCRIPTION"
+ - "STOR_RICH_DEVICE_DESCRIPTION"
 req.header: storport.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Storport.h
 api_name:
 - STOR_RICH_DEVICE_DESCRIPTION
-product:
-- Windows
 targetos: Windows
 req.typenames: STOR_RICH_DEVICE_DESCRIPTION, *PSTOR_RICH_DEVICE_DESCRIPTION
 ---

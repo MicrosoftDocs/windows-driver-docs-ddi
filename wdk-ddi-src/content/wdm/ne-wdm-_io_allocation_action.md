@@ -10,6 +10,7 @@ keywords: ["_IO_ALLOCATION_ACTION enumeration"]
 ms.keywords: "*PIO_ALLOCATION_ACTION, DeallocateObject, DeallocateObjectKeepRegisters, IO_ALLOCATION_ACTION, IO_ALLOCATION_ACTION enumeration [Kernel-Mode Driver Architecture], KeepObject, PIO_ALLOCATION_ACTION, PIO_ALLOCATION_ACTION enumeration pointer [Kernel-Mode Driver Architecture], _IO_ALLOCATION_ACTION, kernel.io_allocation_action, sysenum_26c04e01-0e17-4f1b-93c9-b9ad8d9ca4d5.xml, wdm/DeallocateObject, wdm/DeallocateObjectKeepRegisters, wdm/IO_ALLOCATION_ACTION, wdm/KeepObject, wdm/PIO_ALLOCATION_ACTION"
 f1_keywords:
  - "wdm/IO_ALLOCATION_ACTION"
+ - "IO_ALLOCATION_ACTION"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - IO_ALLOCATION_ACTION
-product:
-- Windows
 targetos: Windows
 req.typenames: IO_ALLOCATION_ACTION, *PIO_ALLOCATION_ACTION
 ---

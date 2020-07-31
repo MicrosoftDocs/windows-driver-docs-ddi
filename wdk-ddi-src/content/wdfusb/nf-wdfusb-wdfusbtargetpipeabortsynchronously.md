@@ -10,6 +10,7 @@ keywords: ["WdfUsbTargetPipeAbortSynchronously function"]
 ms.keywords: DFUsbRef_faea6716-3bb7-4f1f-93ce-36fe26bc7875.xml, WdfUsbTargetPipeAbortSynchronously, WdfUsbTargetPipeAbortSynchronously method, kmdf.wdfusbtargetpipeabortsynchronously, wdf.wdfusbtargetpipeabortsynchronously, wdfusb/WdfUsbTargetPipeAbortSynchronously
 f1_keywords:
  - "wdfusb/WdfUsbTargetPipeAbortSynchronously"
+ - "WdfUsbTargetPipeAbortSynchronously"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfUsbTargetPipeAbortSynchronously
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

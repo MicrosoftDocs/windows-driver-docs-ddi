@@ -10,6 +10,7 @@ keywords: ["EVT_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS callback function"]
 ms.keywords: EVT_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS, EVT_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS callback, EvtUrsDeviceFilterResourceRequirements, EvtUrsDeviceFilterResourceRequirements callback function [Buses], PFN_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS, PFN_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS callback function pointer [Buses], buses.evt_urs_device_filter_resource_requirements, ursdevice/EvtUrsDeviceFilterResourceRequirements
 f1_keywords:
  - "ursdevice/PFN_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS"
+ - "PFN_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS"
 req.header: ursdevice.h
 req.include-header: Urscx.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ursdevice.h
 api_name:
 - PFN_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

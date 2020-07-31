@@ -10,6 +10,7 @@ keywords: ["IoGetDeviceNumaNode function"]
 ms.keywords: IoGetDeviceNumaNode, IoGetDeviceNumaNode routine [Kernel-Mode Driver Architecture], k104_5a8419d1-9b77-4461-bdc4-9cf5022fb508.xml, kernel.iogetdevicenumanode, wdm/IoGetDeviceNumaNode
 f1_keywords:
  - "wdm/IoGetDeviceNumaNode"
+ - "IoGetDeviceNumaNode"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoGetDeviceNumaNode
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

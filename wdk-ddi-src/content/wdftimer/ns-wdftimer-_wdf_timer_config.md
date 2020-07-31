@@ -10,6 +10,7 @@ keywords: ["_WDF_TIMER_CONFIG structure"]
 ms.keywords: "*PWDF_TIMER_CONFIG, DFTimerObjectRef_cacde276-7a83-4a7f-87e1-de043aee4725.xml, PWDF_TIMER_CONFIG, PWDF_TIMER_CONFIG structure pointer, WDF_TIMER_CONFIG, WDF_TIMER_CONFIG structure, _WDF_TIMER_CONFIG, kmdf.wdf_timer_config, wdf.wdf_timer_config, wdftimer/PWDF_TIMER_CONFIG, wdftimer/WDF_TIMER_CONFIG"
 f1_keywords:
  - "wdftimer/WDF_TIMER_CONFIG"
+ - "WDF_TIMER_CONFIG"
 req.header: wdftimer.h
 req.include-header: Wdf.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wdftimer.h
 api_name:
 - WDF_TIMER_CONFIG
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_TIMER_CONFIG, *PWDF_TIMER_CONFIG
 ---

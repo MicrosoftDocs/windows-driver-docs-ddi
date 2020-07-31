@@ -10,6 +10,7 @@ keywords: ["WdfDeviceEnqueueRequest function"]
 ms.keywords: DFDeviceObjectGeneralRef_f97fc280-163f-4931-a222-6a8ccf3251d2.xml, WdfDeviceEnqueueRequest, WdfDeviceEnqueueRequest method, kmdf.wdfdeviceenqueuerequest, wdf.wdfdeviceenqueuerequest, wdfdevice/WdfDeviceEnqueueRequest
 f1_keywords:
  - "wdfdevice/WdfDeviceEnqueueRequest"
+ - "WdfDeviceEnqueueRequest"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfDeviceEnqueueRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

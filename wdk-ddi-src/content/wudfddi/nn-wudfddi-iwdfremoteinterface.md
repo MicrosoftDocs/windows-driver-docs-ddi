@@ -10,6 +10,7 @@ keywords: ["IWDFRemoteInterface interface"]
 ms.keywords: IWDFRemoteInterface, IWDFRemoteInterface interface, IWDFRemoteInterface interface, described, wdf.iwdfremoteinterface, wudfddi/IWDFRemoteInterface
 f1_keywords:
  - "wudfddi/IWDFRemoteInterface"
+ - "IWDFRemoteInterface"
 req.header: wudfddi.h
 req.include-header:
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFRemoteInterface
-product:
-- Windows
 targetos: Windows
 req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.

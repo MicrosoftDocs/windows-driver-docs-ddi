@@ -10,6 +10,7 @@ keywords: ["_SRBEX_DATA_PNP structure"]
 ms.keywords: "*PSRBEX_DATA_PNP, PSRBEX_DATA_PNP, PSRBEX_DATA_PNP structure pointer [Storage Devices], SRBEX_DATA_PNP, SRBEX_DATA_PNP structure [Storage Devices], StorFilterResourceRequirements, StorQueryCapabilities, StorQueryResourceRequirements, StorRemoveDevice, StorStartDevice, StorStopDevice, StorSupriseRemoval, _SRBEX_DATA_PNP, storage.srbex_data_pnp, storport/PSRBEX_DATA_PNP, storport/SRBEX_DATA_PNP"
 f1_keywords:
  - "minitape/SRBEX_DATA_PNP"
+ - "SRBEX_DATA_PNP"
 req.header: minitape.h
 req.include-header: Storport.h, Srb.h, Minitape.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Storport.h
 api_name:
 - SRBEX_DATA_PNP
-product:
-- Windows
 targetos: Windows
 req.typenames: SRBEX_DATA_PNP, *PSRBEX_DATA_PNP
 ---

@@ -10,6 +10,7 @@ keywords: ["IKsAllocatorEx::KsSetAllocatorHandle"]
 ms.keywords: IKsAllocatorEx interface [Streaming Media Devices],KsSetAllocatorHandle method, IKsAllocatorEx.KsSetAllocatorHandle, IKsAllocatorEx::KsSetAllocatorHandle, KsSetAllocatorHandle, KsSetAllocatorHandle method [Streaming Media Devices], KsSetAllocatorHandle method [Streaming Media Devices],IKsAllocatorEx interface, ksproxy/IKsAllocatorEx::KsSetAllocatorHandle, stream.iksallocatorex_kssetallocatorhandle
 f1_keywords:
  - "ksproxy/IKsAllocatorEx.KsSetAllocatorHandle"
+ - "IKsAllocatorEx.KsSetAllocatorHandle"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ksproxy.h
 api_name:
 - IKsAllocatorEx.KsSetAllocatorHandle
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

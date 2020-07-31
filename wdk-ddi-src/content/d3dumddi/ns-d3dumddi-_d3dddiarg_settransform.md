@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_SETTRANSFORM structure"]
 ms.keywords: D3DDDIARG_SETTRANSFORM, D3DDDIARG_SETTRANSFORM structure [Display Devices], UMDisplayDriver_param_Structs_719de83f-0830-4b1a-aa72-e3f58553c733.xml, _D3DDDIARG_SETTRANSFORM, d3dumddi/D3DDDIARG_SETTRANSFORM, display.d3dddiarg_settransform
 f1_keywords:
  - "d3dumddi/D3DDDIARG_SETTRANSFORM"
+ - "D3DDDIARG_SETTRANSFORM"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDIARG_SETTRANSFORM
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_SETTRANSFORM
 ---

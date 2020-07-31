@@ -10,6 +10,7 @@ keywords: ["IPortableDeviceValues::GetIPortableDeviceValuesCollectionValue"]
 ms.keywords: GetIPortableDeviceValuesCollectionValue, GetIPortableDeviceValuesCollectionValue method, GetIPortableDeviceValuesCollectionValue method,IPortableDeviceValues interface, IPortableDeviceValues interface,GetIPortableDeviceValuesCollectionValue method, IPortableDeviceValues.GetIPortableDeviceValuesCollectionValue, IPortableDeviceValues::GetIPortableDeviceValuesCollectionValue, IPortableDeviceValuesGetIPortableDeviceValuesCollectionValue, portabledevicetypes/IPortableDeviceValues::GetIPortableDeviceValuesCollectionValue, wpddk.iportabledevicevalues_getiportabledevicevaluescollectionvalue
 f1_keywords:
  - "portabledevicetypes/IPortableDeviceValues.GetIPortableDeviceValuesCollectionValue"
+ - "IPortableDeviceValues.GetIPortableDeviceValuesCollectionValue"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - PortableDeviceTypes.h
 api_name:
 - IPortableDeviceValues.GetIPortableDeviceValuesCollectionValue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

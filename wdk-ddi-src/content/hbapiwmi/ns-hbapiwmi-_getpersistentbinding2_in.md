@@ -10,6 +10,7 @@ keywords: ["_GetPersistentBinding2_IN structure"]
 ms.keywords: "*PGetPersistentBinding2_IN, GetPersistentBinding2_IN, GetPersistentBinding2_IN structure [Storage Devices], PGetPersistentBinding2_IN, PGetPersistentBinding2_IN structure pointer [Storage Devices], _GetPersistentBinding2_IN, hbapiwmi/GetPersistentBinding2_IN, hbapiwmi/PGetPersistentBinding2_IN, storage.getpersistentbinding2_in, structs-Fibre_3be7645f-006d-4a32-9739-d97e632edf58.xml"
 f1_keywords:
  - "hbapiwmi/GetPersistentBinding2_IN"
+ - "GetPersistentBinding2_IN"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - GetPersistentBinding2_IN
-product:
-- Windows
 targetos: Windows
 req.typenames: GetPersistentBinding2_IN, *PGetPersistentBinding2_IN
 ---

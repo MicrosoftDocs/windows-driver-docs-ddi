@@ -10,6 +10,7 @@ keywords: ["WRITE_PORT_USHORT function"]
 ms.keywords: WRITE_PORT_USHORT, WRITE_PORT_USHORT routine [Kernel-Mode Driver Architecture], k103_28fd826b-359f-4111-91d0-426fb2d2a62b.xml, kernel.write_port_ushort, wdm/WRITE_PORT_USHORT
 f1_keywords:
  - "miniport/WRITE_PORT_USHORT"
+ - "WRITE_PORT_USHORT"
 req.header: miniport.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Ioaccess.h, Miniport.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Hal.dll
 api_name:
 - WRITE_PORT_USHORT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

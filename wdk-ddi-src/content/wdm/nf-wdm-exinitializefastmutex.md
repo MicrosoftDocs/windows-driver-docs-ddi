@@ -10,6 +10,7 @@ keywords: ["ExInitializeFastMutex function"]
 ms.keywords: ExInitializeFastMutex, ExInitializeFastMutex routine [Kernel-Mode Driver Architecture], k102_b340d108-2e1c-4fa5-9bd0-d174452b125c.xml, kernel.exinitializefastmutex, wdm/ExInitializeFastMutex
 f1_keywords:
  - "wdm/ExInitializeFastMutex"
+ - "ExInitializeFastMutex"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - ExInitializeFastMutex
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

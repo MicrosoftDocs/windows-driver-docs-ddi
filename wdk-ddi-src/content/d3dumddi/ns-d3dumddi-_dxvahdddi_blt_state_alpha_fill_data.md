@@ -10,6 +10,7 @@ keywords: ["_DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA structure"]
 ms.keywords: DXVA2_Structs_0b64fc90-1ad4-4d38-9fda-68454167b9dd.xml, DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA, DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA structure [Display Devices], _DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA, d3dumddi/DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA, display.dxvahdddi_blt_state_alpha_fill_data
 f1_keywords:
  - "d3dumddi/DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA"
+ - "DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA
 ---

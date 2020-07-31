@@ -10,6 +10,7 @@ keywords: ["MINIPORT_CO_SEND_NET_BUFFER_LISTS callback function"]
 ms.keywords: MINIPORT_CO_SEND_NET_BUFFER_LISTS, MINIPORT_CO_SEND_NET_BUFFER_LISTS callback, MiniportCoSendNetBufferLists, MiniportCoSendNetBufferLists callback function [Network Drivers Starting with Windows Vista], condis_sendrcv_ref_28cddc06-235d-4274-a783-554dec10ad84.xml, ndis/MiniportCoSendNetBufferLists, netvista.miniportcosendnetbufferlists
 f1_keywords:
  - "ndis/MiniportCoSendNetBufferLists"
+ - "MiniportCoSendNetBufferLists"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - MiniportCoSendNetBufferLists
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

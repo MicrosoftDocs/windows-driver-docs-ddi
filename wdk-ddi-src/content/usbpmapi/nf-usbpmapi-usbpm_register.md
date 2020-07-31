@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["UsbPm_Register function"]
 f1_keywords:
  - "usbpmapi/UsbPm_Register"
+ - "UsbPm_Register"
 ms.keywords: UsbPm_Register
 tech.root: usbref
 req.header: usbpmapi.h
@@ -34,8 +35,6 @@ api_location:
 - UsbPmApi.lib
 api_name: 
 - UsbPm_Register
-product:
-- Windows
 targetos: Windows
 
 

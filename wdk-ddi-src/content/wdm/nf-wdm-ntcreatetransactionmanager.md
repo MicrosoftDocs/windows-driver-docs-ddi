@@ -10,6 +10,7 @@ keywords: ["NtCreateTransactionManager function"]
 ms.keywords: NtCreateTransactionManager, ZwCreateTransactionManager, ZwCreateTransactionManager routine [Kernel-Mode Driver Architecture], kernel.zwcreatetransactionmanager, ktm_ref_56fad0b5-053d-4d65-bdb3-8c2d09fee541.xml, wdm/NtCreateTransactionManager, wdm/ZwCreateTransactionManager
 f1_keywords:
  - "wdm/ZwCreateTransactionManager"
+ - "ZwCreateTransactionManager"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntifs.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - ZwCreateTransactionManager
 - NtCreateTransactionManager
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

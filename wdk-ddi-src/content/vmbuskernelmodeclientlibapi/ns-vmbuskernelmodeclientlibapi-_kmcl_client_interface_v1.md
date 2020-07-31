@@ -1,5 +1,5 @@
 ---
-UID: NS:vmbuskernelmodeclientlibapi._KMCL_CLIENT_INTERFACE_V1
+UID: NS:vmbuskernelmodeclientlibapi._KMCL_SERVER_ONLY_METHODS_V5
 title: _KMCL_CLIENT_INTERFACE_V1 (vmbuskernelmodeclientlibapi.h)
 description: The KMCL_CLIENT_INTERFACE_V1 structure contains function pointers for client functions for the VMBus Kernel Mode Client Library (KMCL) interface.
 tech.root: netvista
@@ -8,6 +8,7 @@ ms.date: 09/13/2018
 keywords: ["_KMCL_CLIENT_INTERFACE_V1 structure"]
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/_KMCL_CLIENT_INTERFACE_V1"
+ - "_KMCL_CLIENT_INTERFACE_V1"
 ms.keywords: _KMCL_CLIENT_INTERFACE_V1, KMCL_CLIENT_INTERFACE_V1, *PKMCL_CLIENT_INTERFACE_V1, 
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
@@ -30,8 +31,6 @@ api_location:
 - vmbuskernelmodeclientlibapi.h
 api_name: 
 - _KMCL_CLIENT_INTERFACE_V1
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---
@@ -96,167 +95,167 @@ typedef struct _KMCL_CLIENT_INTERFACE_V1 {
 
 ## -struct-fields
  
-### -field _KMCL_CLIENT_INTERFACE_V1.VmbChannelAllocate
+### -field _KMCL_CLIENT_INTERFACE_V1._KMCL_CLIENT_INTERFACE_V1.VmbChannelAllocate
 
 A pointer to the [**VmbChannelAllocate**](nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_allocate.md) function.
  
-### -field _KMCL_CLIENT_INTERFACE_V1.VmbChannelCleanup
+### -field _KMCL_CLIENT_INTERFACE_V1._KMCL_CLIENT_INTERFACE_V1.VmbChannelCleanup
 
 A pointer to the [**VmbChannelCleanup**](nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_cleanup.md) function.
  
-### -field _KMCL_CLIENT_INTERFACE_V1.VmbChannelCreateGpadlFromBuffer
+### -field _KMCL_CLIENT_INTERFACE_V1._KMCL_CLIENT_INTERFACE_V1.VmbChannelCreateGpadlFromBuffer
 
 A pointer to the [**VmbChannelCreateGpadlFromBuffer**](nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_create_gpadl_from_buffer.md) function.
  
-### -field _KMCL_CLIENT_INTERFACE_V1.VmbChannelCreateGpadlFromMdl
+### -field _KMCL_CLIENT_INTERFACE_V1._KMCL_CLIENT_INTERFACE_V1.VmbChannelCreateGpadlFromMdl
 
 A pointer to the [**VmbChannelCreateGpadlFromMdl**](nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_create_gpadl_from_mdl.md) function.
  
-### -field _KMCL_CLIENT_INTERFACE_V1.VmbChannelDeleteGpadl
+### -field _KMCL_CLIENT_INTERFACE_V1._KMCL_CLIENT_INTERFACE_V1.VmbChannelDeleteGpadl
 
 A pointer to the [**VmbChannelDeleteGpadl**](nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_delete_gpadl.md) function.
  
-### -field _KMCL_CLIENT_INTERFACE_V1.VmbChannelDisable
+### -field _KMCL_CLIENT_INTERFACE_V1._KMCL_CLIENT_INTERFACE_V1.VmbChannelDisable
 
 A pointer to the [**VmbChannelDisable**](nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_disable.md) function.
  
-### -field _KMCL_CLIENT_INTERFACE_V1.VmbChannelEnable
+### -field _KMCL_CLIENT_INTERFACE_V1._KMCL_CLIENT_INTERFACE_V1.VmbChannelEnable
 
 A pointer to the [**VmbChannelEnable**](nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_enable.md) function.
  
-### -field _KMCL_CLIENT_INTERFACE_V1.VmbChannelGetInterfaceInstance
+### -field _KMCL_CLIENT_INTERFACE_V1._KMCL_CLIENT_INTERFACE_V1.VmbChannelGetInterfaceInstance
 
 A pointer to the [**VmbChannelGetInterfaceInstance**](nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_get_interface_instance.md) function.
  
-### -field _KMCL_CLIENT_INTERFACE_V1.VmbChannelGetMmioSpace
+### -field _KMCL_CLIENT_INTERFACE_V1._KMCL_CLIENT_INTERFACE_V1.VmbChannelGetMmioSpace
 
 A pointer to the [**VmbChannelGetMmioSpace**](nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_get_mmio_space.md) function.
  
-### -field _KMCL_CLIENT_INTERFACE_V1.VmbChannelGetPointer
+### -field _KMCL_CLIENT_INTERFACE_V1._KMCL_CLIENT_INTERFACE_V1.VmbChannelGetPointer
 
 A pointer to the [**VmbChannelGetPointer**](nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_get_pointer.md) function.
  
-### -field _KMCL_CLIENT_INTERFACE_V1.VmbChannelInitSetClientContextSize
+### -field _KMCL_CLIENT_INTERFACE_V1._KMCL_CLIENT_INTERFACE_V1.VmbChannelInitSetClientContextSize
 
 A pointer to the [**VmbChannelInitSetClientContextSize**](nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_init_set_client_context_size.md) function.
  
-### -field _KMCL_CLIENT_INTERFACE_V1.VmbChannelInitSetFlags
+### -field _KMCL_CLIENT_INTERFACE_V1._KMCL_CLIENT_INTERFACE_V1.VmbChannelInitSetFlags
 
 A pointer to the [**VmbChannelInitSetFlags**](nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_init_set_flags.md) function.
  
-### -field _KMCL_CLIENT_INTERFACE_V1.VmbChannelInitSetFriendlyName
+### -field _KMCL_CLIENT_INTERFACE_V1._KMCL_CLIENT_INTERFACE_V1.VmbChannelInitSetFriendlyName
 
 A pointer to the [**VmbChannelInitSetFriendlyName**](nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_init_set_friendly_name.md) function.
  
-### -field _KMCL_CLIENT_INTERFACE_V1.VmbChannelInitSetMaximumExternalData
+### -field _KMCL_CLIENT_INTERFACE_V1._KMCL_CLIENT_INTERFACE_V1.VmbChannelInitSetMaximumExternalData
 
 A pointer to the [**VmbChannelInitSetMaximumExternalData**](nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_init_set_maximum_external_data.md) function.
  
-### -field _KMCL_CLIENT_INTERFACE_V1.VmbChannelInitSetMaximumPacketSize
+### -field _KMCL_CLIENT_INTERFACE_V1._KMCL_CLIENT_INTERFACE_V1.VmbChannelInitSetMaximumPacketSize
 
 A pointer to the [**VmbChannelInitSetMaximumPacketSize**](nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_init_set_maximum_packet_size.md) function.
  
-### -field _KMCL_CLIENT_INTERFACE_V1.VmbChannelInitSetProcessPacketCallbacks
+### -field _KMCL_CLIENT_INTERFACE_V1._KMCL_CLIENT_INTERFACE_V1.VmbChannelInitSetProcessPacketCallbacks
 
 A pointer to the [**VmbChannelInitSetProcessPacketCallbacks**](nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_init_set_process_packet_callbacks.md) function.
  
-### -field _KMCL_CLIENT_INTERFACE_V1.VmbChannelInitSetStateChangeCallbacks
+### -field _KMCL_CLIENT_INTERFACE_V1._KMCL_CLIENT_INTERFACE_V1.VmbChannelInitSetStateChangeCallbacks
 
 A pointer to the [**VmbChannelInitSetStateChangeCallbacks**](nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_init_set_state_change_callbacks.md) function.
  
-### -field _KMCL_CLIENT_INTERFACE_V1.VmbChannelPacketComplete
+### -field _KMCL_CLIENT_INTERFACE_V1._KMCL_CLIENT_INTERFACE_V1.VmbChannelPacketComplete
 
 A pointer to the [**VmbChannelPacketComplete**](nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_packet_complete.md) function.
  
-### -field _KMCL_CLIENT_INTERFACE_V1.VmbChannelPacketDeferToPassive
+### -field _KMCL_CLIENT_INTERFACE_V1._KMCL_CLIENT_INTERFACE_V1.VmbChannelPacketDeferToPassive
 
 A pointer to the [**VmbChannelPacketDeferToPassive**](nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_packet_defer_to_passive.md) function.
  
-### -field _KMCL_CLIENT_INTERFACE_V1.VmbChannelPacketFail
+### -field _KMCL_CLIENT_INTERFACE_V1._KMCL_CLIENT_INTERFACE_V1.VmbChannelPacketFail
 
 A pointer to the [**VmbChannelPacketFail**](nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_packet_fail.md) function.
  
-### -field _KMCL_CLIENT_INTERFACE_V1.VmbChannelPacketGetExternalData
+### -field _KMCL_CLIENT_INTERFACE_V1._KMCL_CLIENT_INTERFACE_V1.VmbChannelPacketGetExternalData
 
 A pointer to the [**VmbChannelPacketGetExternalData**](nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_packet_get_external_data.md) function.
  
-### -field _KMCL_CLIENT_INTERFACE_V1.VmbChannelPause
+### -field _KMCL_CLIENT_INTERFACE_V1._KMCL_CLIENT_INTERFACE_V1.VmbChannelPause
 
 A pointer to the [**VmbChannelPause**](nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_pause.md) function.
  
-### -field _KMCL_CLIENT_INTERFACE_V1.VmbChannelSendSynchronousRequest
+### -field _KMCL_CLIENT_INTERFACE_V1._KMCL_CLIENT_INTERFACE_V1.VmbChannelSendSynchronousRequest
 
 A pointer to the [**VmbChannelPause**](nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_send_synchronous_request.md) function.
  
-### -field _KMCL_CLIENT_INTERFACE_V1.VmbChannelSetIncomingProcessingAtPassive
+### -field _KMCL_CLIENT_INTERFACE_V1._KMCL_CLIENT_INTERFACE_V1.VmbChannelSetIncomingProcessingAtPassive
 
 A pointer to the [**VmbChannelSetIncomingProcessingAtPassive**](nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_set_incoming_processing_at_passive.md) function.
  
-### -field _KMCL_CLIENT_INTERFACE_V1.VmbChannelSetInterruptLatency
+### -field _KMCL_CLIENT_INTERFACE_V1._KMCL_CLIENT_INTERFACE_V1.VmbChannelSetInterruptLatency
 
 A pointer to the [**VmbChannelSetInterruptLatency**](nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_set_interrupt_latency.md) function.
  
-### -field _KMCL_CLIENT_INTERFACE_V1.VmbChannelSetPointer
+### -field _KMCL_CLIENT_INTERFACE_V1._KMCL_CLIENT_INTERFACE_V1.VmbChannelSetPointer
 
 A pointer to the [**VmbChannelSetPointer**](nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_set_pointer.md) function.
  
-### -field _KMCL_CLIENT_INTERFACE_V1.VmbChannelSetTransactionQuota
+### -field _KMCL_CLIENT_INTERFACE_V1._KMCL_CLIENT_INTERFACE_V1.VmbChannelSetTransactionQuota
 
 A pointer to the [**VmbChannelSetTransactionQuota**](nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_set_transaction_quota.md) function.
  
-### -field _KMCL_CLIENT_INTERFACE_V1.VmbChannelSizeofPacket
+### -field _KMCL_CLIENT_INTERFACE_V1._KMCL_CLIENT_INTERFACE_V1.VmbChannelSizeofPacket
 
 A pointer to the [**VmbChannelSizeofPacket**](nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_sizeof_packet.md) function.
  
-### -field _KMCL_CLIENT_INTERFACE_V1.VmbChannelStart
+### -field _KMCL_CLIENT_INTERFACE_V1._KMCL_CLIENT_INTERFACE_V1.VmbChannelStart
 
 A pointer to the [**VmbChannelStart**](nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_start.md) function.
  
-### -field _KMCL_CLIENT_INTERFACE_V1.VmbClientChannelInitSetRingBufferPageCount
+### -field _KMCL_CLIENT_INTERFACE_V1._KMCL_CLIENT_INTERFACE_V1.VmbClientChannelInitSetRingBufferPageCount
 
 A pointer to the [**VmbClientChannelInitSetRingBufferPageCount**](nc-vmbuskernelmodeclientlibapi-fn_vmb_client_channel_init_set_ring_buffer_page_count.md) function.
  
-### -field _KMCL_CLIENT_INTERFACE_V1.VmbClientChannelInitSetTargetPnp
+### -field _KMCL_CLIENT_INTERFACE_V1._KMCL_CLIENT_INTERFACE_V1.VmbClientChannelInitSetTargetPnp
 
 A pointer to the [**VmbClientChannelInitSetTargetPnp**](nc-vmbuskernelmodeclientlibapi-fn_vmb_client_channel_init_set_target_pnp.md) function.
  
-### -field _KMCL_CLIENT_INTERFACE_V1.VmbPacketAllocate
+### -field _KMCL_CLIENT_INTERFACE_V1._KMCL_CLIENT_INTERFACE_V1.VmbPacketAllocate
 
 A pointer to the [**VmbPacketAllocate**](nc-vmbuskernelmodeclientlibapi-fn_vmb_packet_allocate.md) function.
 
-### -field _KMCL_CLIENT_INTERFACE_V1.VmbPacketFree
+### -field _KMCL_CLIENT_INTERFACE_V1._KMCL_CLIENT_INTERFACE_V1.VmbPacketFree
 
 A pointer to the [**VmbPacketFree**](nc-vmbuskernelmodeclientlibapi-fn_vmb_packet_free.md) function.
  
-### -field _KMCL_CLIENT_INTERFACE_V1.VmbPacketGetChannel
+### -field _KMCL_CLIENT_INTERFACE_V1._KMCL_CLIENT_INTERFACE_V1.VmbPacketGetChannel
 
 A pointer to the [**VmbPacketGetChannel**](nc-vmbuskernelmodeclientlibapi-fn_vmb_packet_get_channel.md) function.
  
-### -field _KMCL_CLIENT_INTERFACE_V1.VmbPacketGetPointer
+### -field _KMCL_CLIENT_INTERFACE_V1._KMCL_CLIENT_INTERFACE_V1.VmbPacketGetPointer
 
 A pointer to the [**VmbPacketGetPointer**](nc-vmbuskernelmodeclientlibapi-fn_vmb_packet_get_pointer.md) function.
  
-### -field _KMCL_CLIENT_INTERFACE_V1.VmbPacketInitialize
+### -field _KMCL_CLIENT_INTERFACE_V1._KMCL_CLIENT_INTERFACE_V1.VmbPacketInitialize
 
 A pointer to the [**VmbPacketInitialize**](nc-vmbuskernelmodeclientlibapi-fn_vmb_packet_initialize.md) function.
  
-### -field _KMCL_CLIENT_INTERFACE_V1.VmbPacketSend
+### -field _KMCL_CLIENT_INTERFACE_V1._KMCL_CLIENT_INTERFACE_V1.VmbPacketSend
 
 A pointer to the [**VmbPacketSend**](nc-vmbuskernelmodeclientlibapi-fn_vmb_packet_send.md) function.
  
-### -field _KMCL_CLIENT_INTERFACE_V1.VmbPacketSendWithExternalMdl
+### -field _KMCL_CLIENT_INTERFACE_V1._KMCL_CLIENT_INTERFACE_V1.VmbPacketSendWithExternalMdl
 
 A pointer to the [**VmbPacketSendWithExternalMdl**](nc-vmbuskernelmodeclientlibapi-fn_vmb_packet_send_with_external_mdl.md) function.
  
-### -field _KMCL_CLIENT_INTERFACE_V1.VmbPacketSendWithExternalPfns
+### -field _KMCL_CLIENT_INTERFACE_V1._KMCL_CLIENT_INTERFACE_V1.VmbPacketSendWithExternalPfns
 
 A pointer to the [**VmbPacketSendWithExternalPfns**](nc-vmbuskernelmodeclientlibapi-fn_vmb_packet_send_with_external_pfns.md) function.
  
-### -field _KMCL_CLIENT_INTERFACE_V1.VmbPacketSetCompletionRoutine
+### -field _KMCL_CLIENT_INTERFACE_V1._KMCL_CLIENT_INTERFACE_V1.VmbPacketSetCompletionRoutine
 
 A pointer to the [**VmbPacketSetCompletionRoutine**](nc-vmbuskernelmodeclientlibapi-fn_vmb_packet_set_completion_routine.md) function.
  
-### -field _KMCL_CLIENT_INTERFACE_V1.VmbPacketSetPointer
+### -field _KMCL_CLIENT_INTERFACE_V1._KMCL_CLIENT_INTERFACE_V1.VmbPacketSetPointer
 
 A pointer to the [**VmbPacketSetPointer**](nc-vmbuskernelmodeclientlibapi-fn_vmb_packet_set_pointer.md) function.
  

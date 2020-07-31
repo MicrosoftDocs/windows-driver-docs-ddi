@@ -10,6 +10,7 @@ keywords: ["_BDA_WMDRM_RENEWLICENSE structure"]
 ms.keywords: "*PBDA_WMDRM_RENEWLICENSE, BDA_WMDRM_RENEWLICENSE, BDA_WMDRM_RENEWLICENSE structure [Streaming Media Devices], PBDA_WMDRM_RENEWLICENSE, PBDA_WMDRM_RENEWLICENSE structure pointer [Streaming Media Devices], _BDA_WMDRM_RENEWLICENSE, bdatypes/BDA_WMDRM_RENEWLICENSE, bdatypes/PBDA_WMDRM_RENEWLICENSE, stream.bda_wmdrm_renewlicense"
 f1_keywords:
  - "bdatypes/BDA_WMDRM_RENEWLICENSE"
+ - "BDA_WMDRM_RENEWLICENSE"
 req.header: bdatypes.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Bdatypes.h
 api_name:
 - BDA_WMDRM_RENEWLICENSE
-product:
-- Windows
 targetos: Windows
 req.typenames: BDA_WMDRM_RENEWLICENSE, *PBDA_WMDRM_RENEWLICENSE
 ---

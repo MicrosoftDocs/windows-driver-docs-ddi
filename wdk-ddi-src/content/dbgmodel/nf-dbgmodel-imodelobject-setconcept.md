@@ -7,6 +7,7 @@ ms.date: 06/10/2019
 keywords: ["IModelObject::SetConcept"]
 f1_keywords:
  - "dbgmodel/IModelObject.SetConcept"
+ - "IModelObject.SetConcept"
 ms.keywords: IModelObject::SetConcept, SetConcept, IModelObject.SetConcept, IModelObject::SetConcept, IModelObject.SetConcept
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IModelObject.SetConcept
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

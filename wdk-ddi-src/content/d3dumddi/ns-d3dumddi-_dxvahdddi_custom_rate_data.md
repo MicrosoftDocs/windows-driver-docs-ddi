@@ -10,6 +10,7 @@ keywords: ["_DXVAHDDDI_CUSTOM_RATE_DATA structure"]
 ms.keywords: DXVA2_Structs_98dcb947-954a-4e8d-adea-3451814e89f9.xml, DXVAHDDDI_CUSTOM_RATE_DATA, DXVAHDDDI_CUSTOM_RATE_DATA structure [Display Devices], _DXVAHDDDI_CUSTOM_RATE_DATA, d3dumddi/DXVAHDDDI_CUSTOM_RATE_DATA, display.dxvahdddi_custom_rate_data
 f1_keywords:
  - "d3dumddi/DXVAHDDDI_CUSTOM_RATE_DATA"
+ - "DXVAHDDDI_CUSTOM_RATE_DATA"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - DXVAHDDDI_CUSTOM_RATE_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVAHDDDI_CUSTOM_RATE_DATA
 ---

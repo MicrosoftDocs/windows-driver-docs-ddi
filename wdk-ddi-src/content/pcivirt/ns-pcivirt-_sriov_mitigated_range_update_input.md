@@ -10,6 +10,7 @@ keywords: ["_SRIOV_MITIGATED_RANGE_UPDATE_INPUT structure"]
 ms.keywords: "*PSRIOV_MITIGATED_RANGE_UPDATE_INPUT, PCI.sriov_mitigated_range_update_input, SRIOV_MITIGATED_RANGE_UPDATE_INPUT, SRIOV_MITIGATED_RANGE_UPDATE_INPUT structure [Buses], _SRIOV_MITIGATED_RANGE_UPDATE_INPUT, pcivirt/SRIOV_MITIGATED_RANGE_UPDATE_INPUT"
 f1_keywords:
  - "pcivirt/SRIOV_MITIGATED_RANGE_UPDATE_INPUT"
+ - "SRIOV_MITIGATED_RANGE_UPDATE_INPUT"
 req.header: pcivirt.h
 req.include-header:
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pcivirt.h
 api_name:
 - SRIOV_MITIGATED_RANGE_UPDATE_INPUT
-product:
-- Windows
 targetos: Windows
 req.typenames: SRIOV_MITIGATED_RANGE_UPDATE_INPUT, *PSRIOV_MITIGATED_RANGE_UPDATE_INPUT
 ---

@@ -10,6 +10,7 @@ keywords: ["LAMP_INTENSITY_COLOR structure"]
 ms.keywords: LAMP_INTENSITY_COLOR, LAMP_INTENSITY_COLOR structure [Streaming Media Devices], lamp/LAMP_INTENSITY_COLOR, stream.lamp_intensity_color
 f1_keywords:
  - "lamp/LAMP_INTENSITY_COLOR"
+ - "LAMP_INTENSITY_COLOR"
 req.header: lamp.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - lamp.h
 api_name:
 - LAMP_INTENSITY_COLOR
-product:
-- Windows
 targetos: Windows
 req.typenames: LAMP_INTENSITY_COLOR
 ---

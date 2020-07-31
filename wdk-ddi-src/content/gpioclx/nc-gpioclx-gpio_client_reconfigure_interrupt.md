@@ -10,6 +10,7 @@ keywords: ["GPIO_CLIENT_RECONFIGURE_INTERRUPT callback function"]
 ms.keywords: CLIENT_ReconfigureInterrupt, CLIENT_ReconfigureInterrupt callback, CLIENT_ReconfigureInterrupt callback function [Parallel Ports], GPIO.client_reconfigureinterrupt, GPIO_CLIENT_RECONFIGURE_INTERRUPT, gpioclx/CLIENT_ReconfigureInterrupt
 f1_keywords:
  - "gpioclx/CLIENT_ReconfigureInterrupt"
+ - "CLIENT_ReconfigureInterrupt"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Gpioclx.h
 api_name:
 - CLIENT_ReconfigureInterrupt
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

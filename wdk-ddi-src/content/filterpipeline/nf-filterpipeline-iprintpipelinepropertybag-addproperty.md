@@ -10,6 +10,7 @@ keywords: ["IPrintPipelinePropertyBag::AddProperty"]
 ms.keywords: AddProperty, AddProperty method [Print Devices], AddProperty method [Print Devices],IPrintPipelinePropertyBag interface, IPrintPipelinePropertyBag interface [Print Devices],AddProperty method, IPrintPipelinePropertyBag.AddProperty, IPrintPipelinePropertyBag::AddProperty, filterpipeline/IPrintPipelinePropertyBag::AddProperty, filterpipeline_03ee8efb-3b2b-460a-9b95-e806dad5bb96.xml, print.iprintpipelinepropertybag_addproperty
 f1_keywords:
  - "filterpipeline/IPrintPipelinePropertyBag.AddProperty"
+ - "IPrintPipelinePropertyBag.AddProperty"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - filterpipeline.h
 api_name:
 - IPrintPipelinePropertyBag.AddProperty
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3DWDDM2_4DDI_VIDEO_INPUT structure"]
 f1_keywords:
  - "d3d10umddi/D3DWDDM2_4DDI_VIDEO_INPUT"
+ - "D3DWDDM2_4DDI_VIDEO_INPUT"
 ms.keywords: D3DWDDM2_4DDI_VIDEO_INPUT, D3DWDDM2_4DDI_VIDEO_INPUT,
 req.header: d3d10umddi.h
 req.include-header:

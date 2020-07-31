@@ -10,6 +10,7 @@ keywords: ["CcCoherencyFlushAndPurgeCache function"]
 ms.keywords: CcCoherencyFlushAndPurgeCache, CcCoherencyFlushAndPurgeCache routine [Installable File System Drivers], ccref_79641311-568b-472c-9950-2e46472affcf.xml, ifsk.cccoherencyflushandpurgecache, ntifs/CcCoherencyFlushAndPurgeCache
 f1_keywords:
  - "ntifs/CcCoherencyFlushAndPurgeCache"
+ - "CcCoherencyFlushAndPurgeCache"
 req.header: ntifs.h
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - CcCoherencyFlushAndPurgeCache
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

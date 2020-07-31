@@ -9,6 +9,7 @@ keywords: ["D3D10DDIARG_OPENRESOURCE structure"]
 ms.keywords: D3D10DDIARG_OPENRESOURCE, D3D10DDIARG_OPENRESOURCE structure [Display Devices], UMDisplayDriver_Dx10param_Structs_bb0f1769-190c-4500-8efa-9ed3eab771f7.xml, d3d10umddi/D3D10DDIARG_OPENRESOURCE, display.d3d10ddiarg_openresource
 f1_keywords:
  - "d3d10umddi/D3D10DDIARG_OPENRESOURCE"
+ - "D3D10DDIARG_OPENRESOURCE"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - D3D10DDIARG_OPENRESOURCE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D10DDIARG_OPENRESOURCE

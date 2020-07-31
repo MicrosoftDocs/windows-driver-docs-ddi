@@ -10,6 +10,7 @@ keywords: ["IDebugSystemObjects3::GetCurrentThreadId"]
 ms.keywords: GetCurrentThreadId, GetCurrentThreadId method [Windows Debugging], GetCurrentThreadId method [Windows Debugging],IDebugSystemObjects interface, GetCurrentThreadId method [Windows Debugging],IDebugSystemObjects2 interface, GetCurrentThreadId method [Windows Debugging],IDebugSystemObjects3 interface, GetCurrentThreadId method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects interface [Windows Debugging],GetCurrentThreadId method, IDebugSystemObjects2 interface [Windows Debugging],GetCurrentThreadId method, IDebugSystemObjects2::GetCurrentThreadId, IDebugSystemObjects3 interface [Windows Debugging],GetCurrentThreadId method, IDebugSystemObjects3.GetCurrentThreadId, IDebugSystemObjects3::GetCurrentThreadId, IDebugSystemObjects4 interface [Windows Debugging],GetCurrentThreadId method, IDebugSystemObjects4::GetCurrentThreadId, IDebugSystemObjects::GetCurrentThreadId, IDebugSystemObjects_e40e3ab8-b03d-4b1e-805b-ad8ba51ea1c5.xml, dbgeng/IDebugSystemObjects2::GetCurrentThreadId, dbgeng/IDebugSystemObjects3::GetCurrentThreadId, dbgeng/IDebugSystemObjects4::GetCurrentThreadId, dbgeng/IDebugSystemObjects::GetCurrentThreadId, debugger.getcurrentthreadid
 f1_keywords:
  - "dbgeng/IDebugSystemObjects.GetCurrentThreadId"
+ - "IDebugSystemObjects.GetCurrentThreadId"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -39,8 +40,6 @@ api_name:
 - IDebugSystemObjects2.GetCurrentThreadId
 - IDebugSystemObjects3.GetCurrentThreadId
 - IDebugSystemObjects4.GetCurrentThreadId
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

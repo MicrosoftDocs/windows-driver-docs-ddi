@@ -10,6 +10,7 @@ keywords: ["PFNKSPIN callback function"]
 ms.keywords: AVStrMiniPinConnect, AVStrMiniPinProcess, MyAVStrMiniPin, MyAVStrMiniPin routine [Streaming Media Devices], PFNKSPIN, avstclbk_9c9fb1b9-d592-41de-8190-b8b2808ea35b.xml, ks/MyAVStrMiniPin, stream.avstrminipinprocess
 f1_keywords:
  - "ks/MyAVStrMiniPin"
+ - "MyAVStrMiniPin"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - MyAVStrMiniPin
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

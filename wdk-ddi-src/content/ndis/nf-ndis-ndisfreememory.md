@@ -10,6 +10,7 @@ keywords: ["NdisFreeMemory function"]
 ms.keywords: NdisFreeMemory, NdisFreeMemory function [Network Drivers Starting with Windows Vista], ndis/NdisFreeMemory, ndis_memory_ref_a178b0d7-8966-4356-8f63-3293605a6655.xml, netvista.ndisfreememory
 f1_keywords:
  - "ndis/NdisFreeMemory"
+ - "NdisFreeMemory"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisFreeMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

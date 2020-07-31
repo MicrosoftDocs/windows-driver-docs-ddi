@@ -10,6 +10,7 @@ keywords: ["_BDCB_STATUS_UPDATE_CONTEXT structure"]
 ms.keywords: "*PBDCB_STATUS_UPDATE_CONTEXT, BDCB_STATUS_UPDATE_CONTEXT, BDCB_STATUS_UPDATE_CONTEXT structure [Kernel-Mode Driver Architecture], PBDCB_STATUS_UPDATE_CONTEXT, PBDCB_STATUS_UPDATE_CONTEXT structure pointer [Kernel-Mode Driver Architecture], _BDCB_STATUS_UPDATE_CONTEXT, kernel.bdcb_status_update_context, ntddk/BDCB_STATUS_UPDATE_CONTEXT, ntddk/PBDCB_STATUS_UPDATE_CONTEXT"
 f1_keywords:
  - "ntddk/BDCB_STATUS_UPDATE_CONTEXT"
+ - "BDCB_STATUS_UPDATE_CONTEXT"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - BDCB_STATUS_UPDATE_CONTEXT
-product:
-- Windows
 targetos: Windows
 req.typenames: BDCB_STATUS_UPDATE_CONTEXT, *PBDCB_STATUS_UPDATE_CONTEXT
 ---

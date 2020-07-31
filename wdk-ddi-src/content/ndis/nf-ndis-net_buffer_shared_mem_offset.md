@@ -8,6 +8,7 @@ ms.date: 04/13/2018
 keywords: ["NET_BUFFER_SHARED_MEM_OFFSET macro"]
 f1_keywords:
  - "ndis/NET_BUFFER_SHARED_MEM_OFFSET"
+ - "NET_BUFFER_SHARED_MEM_OFFSET"
 ms.keywords: NET_BUFFER_SHARED_MEM_OFFSET
 req.header: ndis.h
 req.include-header:
@@ -34,8 +35,6 @@ api_location:
 - ndis.h
 api_name: 
 - NET_BUFFER_SHARED_MEM_OFFSET
-product:
-- Windows
 targetos: Windows
 
 ---

@@ -10,6 +10,7 @@ keywords: ["NDK_FN_INITIALIZE_FAST_REGISTER_MR callback function"]
 ms.keywords: NDK_FN_INITIALIZE_FAST_REGISTER_MR, NDK_FN_INITIALIZE_FAST_REGISTER_MR callback, NdkInitializeFastRegisterMr, NdkInitializeFastRegisterMr callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkInitializeFastRegisterMr, netvista.ndk_fn_initialize_fast_register_mr
 f1_keywords:
  - "ndkpi/NdkInitializeFastRegisterMr"
+ - "NdkInitializeFastRegisterMr"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ndkpi.h
 api_name:
 - NdkInitializeFastRegisterMr
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

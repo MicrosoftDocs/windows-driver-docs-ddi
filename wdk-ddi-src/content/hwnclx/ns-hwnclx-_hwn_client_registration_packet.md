@@ -10,6 +10,7 @@ keywords: ["_HWN_CLIENT_REGISTRATION_PACKET structure"]
 ms.keywords: "*PHWN_CLIENT_REGISTRATION_PACKET, HWN_CLIENT_REGISTRATION_PACKET, HWN_CLIENT_REGISTRATION_PACKET structure, _HWN_CLIENT_REGISTRATION_PACKET, gpiobtn._hwn_client_registration_packet, hwnclx/HWN_CLIENT_REGISTRATION_PACKET"
 f1_keywords:
  - "hwnclx/HWN_CLIENT_REGISTRATION_PACKET"
+ - "HWN_CLIENT_REGISTRATION_PACKET"
 req.header: hwnclx.h
 req.include-header:
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Hwnclx.h
 api_name:
 - HWN_CLIENT_REGISTRATION_PACKET
-product:
-- Windows
 targetos: Windows
 req.typenames: HWN_CLIENT_REGISTRATION_PACKET, *PHWN_CLIENT_REGISTRATION_PACKET
 ---

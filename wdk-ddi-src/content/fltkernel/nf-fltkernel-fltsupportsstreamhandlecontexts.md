@@ -10,6 +10,7 @@ keywords: ["FltSupportsStreamHandleContexts function"]
 ms.keywords: FltApiRef_p_to_z_07134b31-8768-43bc-904e-9abd945a166b.xml, FltSupportsStreamHandleContexts, FltSupportsStreamHandleContexts function [Installable File System Drivers], fltkernel/FltSupportsStreamHandleContexts, ifsk.fltsupportsstreamhandlecontexts
 f1_keywords:
  - "fltkernel/FltSupportsStreamHandleContexts"
+ - "FltSupportsStreamHandleContexts"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltSupportsStreamHandleContexts
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

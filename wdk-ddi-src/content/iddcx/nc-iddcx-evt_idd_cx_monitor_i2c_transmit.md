@@ -10,6 +10,7 @@ keywords: ["EVT_IDD_CX_MONITOR_I2C_TRANSMIT callback function"]
 ms.keywords: EVT_IDD_CX_MONITOR_I2C_TRANSMIT, EVT_IDD_CX_MONITOR_I2C_TRANSMIT callback, EvtIddCxMonitorI2cTransmit, EvtIddCxMonitorI2cTransmit callback function [Display Devices], PFN_IDD_CX_MONITOR_I2C_TRANSMIT, PFN_IDD_CX_MONITOR_I2C_TRANSMIT callback function pointer [Display Devices], display.evt_idd_cx_monitor_i2c_transmit, iddcx/EvtIddCxMonitorI2cTransmit
 f1_keywords:
  - "iddcx/PFN_IDD_CX_MONITOR_I2C_TRANSMIT"
+ - "PFN_IDD_CX_MONITOR_I2C_TRANSMIT"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - iddcx.h
 api_name:
 - PFN_IDD_CX_MONITOR_I2C_TRANSMIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

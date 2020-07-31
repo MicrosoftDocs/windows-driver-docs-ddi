@@ -10,6 +10,7 @@ keywords: ["IoSetCancelRoutine function"]
 ms.keywords: IoSetCancelRoutine, IoSetCancelRoutine routine [Kernel-Mode Driver Architecture], k104_a9ac44bc-fe8a-4392-b9f8-d9a90a03fbc0.xml, kernel.iosetcancelroutine, wdm/IoSetCancelRoutine
 f1_keywords:
  - "wdm/IoSetCancelRoutine"
+ - "IoSetCancelRoutine"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoSetCancelRoutine
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

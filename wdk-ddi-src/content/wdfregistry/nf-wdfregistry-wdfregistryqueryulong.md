@@ -10,6 +10,7 @@ keywords: ["WdfRegistryQueryULong function"]
 ms.keywords: DFRegKeyObjectRef_537593c8-1f9c-4392-9228-6a0e5d89a964.xml, WdfRegistryQueryULong, WdfRegistryQueryULong method, kmdf.wdfregistryqueryulong, wdf.wdfregistryqueryulong, wdfregistry/WdfRegistryQueryULong
 f1_keywords:
  - "wdfregistry/WdfRegistryQueryULong"
+ - "WdfRegistryQueryULong"
 req.header: wdfregistry.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfRegistryQueryULong
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

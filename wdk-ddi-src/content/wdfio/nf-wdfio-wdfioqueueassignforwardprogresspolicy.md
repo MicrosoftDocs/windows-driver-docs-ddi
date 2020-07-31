@@ -10,6 +10,7 @@ keywords: ["WdfIoQueueAssignForwardProgressPolicy function"]
 ms.keywords: DFQueueObjectRef_cd40c10b-367c-403a-8002-39662120f697.xml, WdfIoQueueAssignForwardProgressPolicy, WdfIoQueueAssignForwardProgressPolicy method, kmdf.wdfioqueueassignforwardprogresspolicy, wdf.wdfioqueueassignforwardprogresspolicy, wdfio/WdfIoQueueAssignForwardProgressPolicy
 f1_keywords:
  - "wdfio/WdfIoQueueAssignForwardProgressPolicy"
+ - "WdfIoQueueAssignForwardProgressPolicy"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfIoQueueAssignForwardProgressPolicy
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

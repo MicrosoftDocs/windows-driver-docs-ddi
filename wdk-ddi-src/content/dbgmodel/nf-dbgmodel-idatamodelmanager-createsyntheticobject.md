@@ -7,6 +7,7 @@ ms.date: 07/17/2018
 keywords: ["IDataModelManager::CreateSyntheticObject"]
 f1_keywords:
  - "dbgmodel/IDataModelManager.CreateSyntheticObject"
+ - "IDataModelManager.CreateSyntheticObject"
 ms.keywords: IDataModelManager::CreateSyntheticObject, CreateSyntheticObject, IDataModelManager.CreateSyntheticObject, IDataModelManager::CreateSyntheticObject, IDataModelManager.CreateSyntheticObject
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDataModelManager.CreateSyntheticObject
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

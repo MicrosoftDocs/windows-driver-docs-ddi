@@ -10,6 +10,7 @@ keywords: ["TmSinglePhaseReject function"]
 ms.keywords: TmSinglePhaseReject, TmSinglePhaseReject routine [Kernel-Mode Driver Architecture], kernel.tmsinglephasereject, ktm_ref_16802b39-057c-4d45-9da0-3f63f4589a44.xml, wdm/TmSinglePhaseReject
 f1_keywords:
  - "wdm/TmSinglePhaseReject"
+ - "TmSinglePhaseReject"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -38,8 +39,6 @@ api_location:
 - tm.sys
 api_name:
 - TmSinglePhaseReject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

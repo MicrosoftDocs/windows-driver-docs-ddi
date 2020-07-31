@@ -10,6 +10,7 @@ keywords: ["EtwEventEnabled function"]
 ms.keywords: EtwEventEnabled, EtwEventEnabled function [Driver Development Tools], devtest.etweventenabled, etw_km_4a6453a7-cff8-4941-83fd-8184772ef161.xml, wdm/EtwEventEnabled
 f1_keywords:
  - "wdm/EtwEventEnabled"
+ - "EtwEventEnabled"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - EtwEventEnabled
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

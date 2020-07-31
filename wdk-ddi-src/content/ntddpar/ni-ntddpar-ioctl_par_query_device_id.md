@@ -10,6 +10,7 @@ keywords: ["IOCTL_PAR_QUERY_DEVICE_ID IOCTL"]
 ms.keywords: IOCTL_PAR_QUERY_DEVICE_ID, IOCTL_PAR_QUERY_DEVICE_ID control code [Parallel Ports], cisspd_29c73c7d-a6fb-4307-b766-ef8b098a1e6f.xml, ntddpar/IOCTL_PAR_QUERY_DEVICE_ID, parports.ioctl_par_query_device_id
 f1_keywords:
  - "ntddpar/IOCTL_PAR_QUERY_DEVICE_ID"
+ - "IOCTL_PAR_QUERY_DEVICE_ID"
 req.header: ntddpar.h
 req.include-header: Ntddpar.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddpar.h
 api_name:
 - IOCTL_PAR_QUERY_DEVICE_ID
-product:
-- Windows
 targetos: Windows
 req.typenames: OFFLOAD_SECURITY_ASSOCIATION, *POFFLOAD_SECURITY_ASSOCIATION
 ---

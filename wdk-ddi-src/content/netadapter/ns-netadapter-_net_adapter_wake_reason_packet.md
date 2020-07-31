@@ -10,6 +10,7 @@ ms.date: 10/25/2019
 keywords: ["NET_ADAPTER_WAKE_REASON_PACKET structure"]
 f1_keywords:
  - "netadapter/NET_ADAPTER_WAKE_REASON_PACKET"
+ - "NET_ADAPTER_WAKE_REASON_PACKET"
 ms.keywords: NET_ADAPTER_WAKE_REASON_PACKET, NET_ADAPTER_WAKE_REASON_PACKET, 
 req.header: netadapter.h
 req.include-header:

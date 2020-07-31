@@ -10,6 +10,7 @@ keywords: ["IOCTL_CDROM_RAW_READ IOCTL"]
 ms.keywords: IOCTL_CDROM_RAW_READ, IOCTL_CDROM_RAW_READ control, IOCTL_CDROM_RAW_READ control code [Storage Devices], k307_1c2f1a05-940c-40f8-a280-3a23d3bb4171.xml, ntddcdrm/IOCTL_CDROM_RAW_READ, storage.ioctl_cdrom_raw_read
 f1_keywords:
  - "ntddcdrm/IOCTL_CDROM_RAW_READ"
+ - "IOCTL_CDROM_RAW_READ"
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddcdrm.h
 api_name:
 - IOCTL_CDROM_RAW_READ
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

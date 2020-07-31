@@ -9,6 +9,7 @@ keywords: ["_DXGK_BUILDPAGINGBUFFER_TRANSFERVIRTUAL structure"]
 ms.keywords: DXGK_BUILDPAGINGBUFFER_TRANSFERVIRTUAL, DXGK_BUILDPAGINGBUFFER_TRANSFERVIRTUAL structure [Display Devices], _DXGK_BUILDPAGINGBUFFER_TRANSFERVIRTUAL, d3dkmddi/DXGK_BUILDPAGINGBUFFER_TRANSFERVIRTUAL, display.dxgk_buildpagingbuffer_transfervirtual
 f1_keywords:
  - "d3dkmddi/DXGK_BUILDPAGINGBUFFER_TRANSFERVIRTUAL"
+ - "DXGK_BUILDPAGINGBUFFER_TRANSFERVIRTUAL"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGK_BUILDPAGINGBUFFER_TRANSFERVIRTUAL
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_BUILDPAGINGBUFFER_TRANSFERVIRTUAL

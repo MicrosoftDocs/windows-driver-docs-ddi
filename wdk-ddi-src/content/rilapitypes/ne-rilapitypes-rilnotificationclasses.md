@@ -10,6 +10,7 @@ keywords: ["RILNOTIFICATIONCLASSES enumeration"]
 ms.keywords: RILNOTIFICATIONCLASSES, RILNOTIFICATIONCLASSES enumeration [Network Drivers Starting with Windows Vista], RIL_NCLASS_NOTIFICATIONS, netvista.rilnotificationclasses_2, rilapitypes/RILNOTIFICATIONCLASSES, rilapitypes/RIL_NCLASS_NOTIFICATIONS
 f1_keywords:
  - "rilapitypes/RILNOTIFICATIONCLASSES"
+ - "RILNOTIFICATIONCLASSES"
 req.header: rilapitypes.h
 req.include-header:
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapitypes.h
 api_name:
 - RILNOTIFICATIONCLASSES
-product:
-- Windows
 targetos: Windows
 req.typenames: RILNOTIFICATIONCLASSES
 req.product: Windows 10 or later.

@@ -10,6 +10,7 @@ keywords: ["RouterCreatePrintAsyncNotificationChannel function"]
 ms.keywords: RouterCreatePrintAsyncNotificationChannel, RouterCreatePrintAsyncNotificationChannel , RouterCreatePrintAsyncNotificationChannel function [Print Devices], print.routercreateprintasyncnotificationchannel, prnasntp/RouterCreatePrintAsyncNotificationChannel, spoolfnc_24cb45ed-2f72-4a13-9a40-c1197c41aae7.xml
 f1_keywords:
  - "prnasntp/RouterCreatePrintAsyncNotificationChannel"
+ - "RouterCreatePrintAsyncNotificationChannel"
 req.header: prnasntp.h
 req.include-header: Prnasntp.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Spoolss.dll
 api_name:
 - RouterCreatePrintAsyncNotificationChannel
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

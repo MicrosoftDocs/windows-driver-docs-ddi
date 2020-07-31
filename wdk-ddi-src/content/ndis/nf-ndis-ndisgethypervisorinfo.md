@@ -10,6 +10,7 @@ keywords: ["NdisGetHypervisorInfo function"]
 ms.keywords: NdisGetHypervisorInfo, NdisGetHypervisorInfo function [Network Drivers Starting with Windows Vista], ndis/NdisGetHypervisorInfo, netvista.ndisgethypervisorinfo, virtual_machine_queue_ref_afe96cc4-b307-4953-9587-65b6bec35b18.xml
 f1_keywords:
  - "ndis/NdisGetHypervisorInfo"
+ - "NdisGetHypervisorInfo"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisGetHypervisorInfo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

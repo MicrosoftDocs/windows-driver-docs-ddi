@@ -10,6 +10,7 @@ keywords: ["_PROPSHEETUI_INFO structure"]
 ms.keywords: "*PPROPSHEETUI_INFO, PPROPSHEETUI_INFO, PPROPSHEETUI_INFO structure pointer [Print Devices], PROPSHEETUI_INFO, PROPSHEETUI_INFO structure [Print Devices], _PROPSHEETUI_INFO, compstui/PPROPSHEETUI_INFO, compstui/PROPSHEETUI_INFO, cpsuifnc_0afe9ac8-ca1f-4984-acc5-04a8955b4b30.xml, print.propsheetui_info"
 f1_keywords:
  - "compstui/PROPSHEETUI_INFO"
+ - "PROPSHEETUI_INFO"
 req.header: compstui.h
 req.include-header: Compstui.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - compstui.h
 api_name:
 - PROPSHEETUI_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: PROPSHEETUI_INFO, *PPROPSHEETUI_INFO
 ---

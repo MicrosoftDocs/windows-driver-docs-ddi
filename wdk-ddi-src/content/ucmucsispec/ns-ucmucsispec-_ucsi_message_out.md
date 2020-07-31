@@ -8,6 +8,7 @@ ms.date: 09/30/2018
 keywords: ["_UCSI_MESSAGE_OUT structure"]
 f1_keywords:
  - "ucmucsispec/_UCSI_MESSAGE_OUT"
+ - "_UCSI_MESSAGE_OUT"
 ms.keywords: _UCSI_MESSAGE_OUT, UCSI_MESSAGE_OUT, *PUCSI_MESSAGE_OUT, 
 req.header: ucmucsispec.h
 req.include-header: UcmUcsiCx.h 
@@ -30,8 +31,6 @@ api_location:
 - ucmucsispec.h
 api_name: 
 - _UCSI_MESSAGE_OUT
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

@@ -10,6 +10,7 @@ keywords: ["IWDFDevice::GetDriver"]
 ms.keywords: GetDriver, GetDriver method, GetDriver method,IWDFDevice interface, IWDFDevice interface,GetDriver method, IWDFDevice.GetDriver, IWDFDevice::GetDriver, UMDFDeviceObjectRef_6c0cfbb6-1ee7-4c7b-b4ec-0b957630e094.xml, umdf.iwdfdevice_getdriver, wdf.iwdfdevice_getdriver, wudfddi/IWDFDevice::GetDriver
 f1_keywords:
  - "wudfddi/IWDFDevice.GetDriver"
+ - "IWDFDevice.GetDriver"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFDevice.GetDriver
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

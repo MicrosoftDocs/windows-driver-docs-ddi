@@ -10,6 +10,7 @@ keywords: ["PCAM_CONFIGURE_ROUTINE callback function"]
 ms.keywords: CamConfigure, CamConfigure callback function [Streaming Media Devices], PCAM_CONFIGURE_ROUTINE, PCAM_CONFIGURE_ROUTINE callback, stream.camconfigure, usbcamdi/CamConfigure, usbcmdpr_4953051b-2fb0-4dd4-ac52-67da188ce7e1.xml
 f1_keywords:
  - "usbcamdi/CamConfigure"
+ - "CamConfigure"
 req.header: usbcamdi.h
 req.include-header: Usbcamdi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - usbcamdi.h
 api_name:
 - CamConfigure
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

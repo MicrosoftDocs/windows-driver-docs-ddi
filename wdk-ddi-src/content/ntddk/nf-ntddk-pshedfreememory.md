@@ -10,6 +10,7 @@ keywords: ["PshedFreeMemory function"]
 ms.keywords: PshedFreeMemory, PshedFreeMemory function [WHEA Drivers and Applications], ntddk/PshedFreeMemory, whea.pshedfreememory, whearef_e17812c6-f817-490d-b1f7-bf5fa16d769b.xml
 f1_keywords:
  - "ntddk/PshedFreeMemory"
+ - "PshedFreeMemory"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Pshed.dll
 api_name:
 - PshedFreeMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

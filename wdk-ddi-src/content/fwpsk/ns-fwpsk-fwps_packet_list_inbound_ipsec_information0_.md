@@ -10,6 +10,7 @@ keywords: ["FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0_ structure"]
 ms.keywords: FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0, FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0 structure [Network Drivers Starting with Windows Vista], FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0_, fwpsk/FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0, netvista.fwps_packet_list_inbound_ipsec_information0, wfp_ref_3_struct_3_fwps_P-Z_3acc4a2d-78ef-418a-ab15-a9e306110baf.xml
 f1_keywords:
  - "fwpsk/FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0"
+ - "FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - fwpsk.h
 api_name:
 - FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0
-product:
-- Windows
 targetos: Windows
 req.typenames: FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0
 ---

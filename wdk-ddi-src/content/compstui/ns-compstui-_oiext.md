@@ -10,6 +10,7 @@ keywords: ["_OIEXT structure"]
 ms.keywords: "*POIEXT, OIEXT, OIEXT structure [Print Devices], POIEXT, POIEXT structure pointer [Print Devices], _OIEXT, compstui/OIEXT, compstui/POIEXT, cpsuifnc_3abbb233-5393-4e23-a206-0474cfd6d7f1.xml, print.oiext"
 f1_keywords:
  - "compstui/OIEXT"
+ - "OIEXT"
 req.header: compstui.h
 req.include-header: Compstui.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - compstui.h
 api_name:
 - OIEXT
-product:
-- Windows
 targetos: Windows
 req.typenames: OIEXT, *POIEXT
 ---

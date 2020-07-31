@@ -10,6 +10,7 @@ keywords: ["IWDFUsbTargetPipe interface"]
 ms.keywords: IWDFUsbTargetPipe, IWDFUsbTargetPipe interface, IWDFUsbTargetPipe interface,described, UMDFUSBref_985f9453-7475-4e9b-894c-5d4e7b8d3971.xml, umdf.iwdfusbtargetpipe, wdf.iwdfusbtargetpipe, wudfusb/IWDFUsbTargetPipe
 f1_keywords:
  - "wudfusb/IWDFUsbTargetPipe"
+ - "IWDFUsbTargetPipe"
 req.header: wudfusb.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFUsbTargetPipe
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

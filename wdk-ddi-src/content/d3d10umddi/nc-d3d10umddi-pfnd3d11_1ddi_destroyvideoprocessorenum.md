@@ -9,6 +9,7 @@ keywords: ["PFND3D11_1DDI_DESTROYVIDEOPROCESSORENUM callback function"]
 ms.keywords: PFND3D11_1DDI_DESTROYVIDEOPROCESSORENUM, PFND3D11_1DDI_DESTROYVIDEOPROCESSORENUM callback, d3d10umddi/pfnDestroyVideoProcessorEnum, display.destroyvideoprocessorenum, pfnDestroyVideoProcessorEnum, pfnDestroyVideoProcessorEnum callback function [Display Devices]
 f1_keywords:
  - "d3d10umddi/pfnDestroyVideoProcessorEnum"
+ - "pfnDestroyVideoProcessorEnum"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -35,8 +36,6 @@ api_location:
 - D3d10umddi.h
 api_name:
 - pfnDestroyVideoProcessorEnum
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

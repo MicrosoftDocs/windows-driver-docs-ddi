@@ -10,6 +10,7 @@ keywords: ["IWDFDriver::CreateWdfMemory"]
 ms.keywords: CreateWdfMemory, CreateWdfMemory method, CreateWdfMemory method,IWDFDriver interface, IWDFDriver interface,CreateWdfMemory method, IWDFDriver.CreateWdfMemory, IWDFDriver::CreateWdfMemory, UMDFDriverObjectRef_903775e8-0752-435b-96d9-fa1317f63289.xml, umdf.iwdfdriver_createwdfmemory, wdf.iwdfdriver_createwdfmemory, wudfddi/IWDFDriver::CreateWdfMemory
 f1_keywords:
  - "wudfddi/IWDFDriver.CreateWdfMemory"
+ - "IWDFDriver.CreateWdfMemory"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFDriver.CreateWdfMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

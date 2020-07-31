@@ -7,6 +7,7 @@ ms.date: 08/13/2018
 keywords: ["IKeyStore::GetKeyValue"]
 f1_keywords:
  - "dbgmodel/IKeyStore.GetKeyValue"
+ - "IKeyStore.GetKeyValue"
 ms.keywords: IKeyStore::GetKeyValue, GetKeyValue, IKeyStore.GetKeyValue, IKeyStore::GetKeyValue, IKeyStore.GetKeyValue
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IKeyStore.GetKeyValue
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

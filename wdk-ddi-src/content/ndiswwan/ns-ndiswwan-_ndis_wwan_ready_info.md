@@ -10,6 +10,7 @@ keywords: ["_NDIS_WWAN_READY_INFO structure"]
 ms.keywords: "*PNDIS_WWAN_READY_INFO, NDIS_WWAN_READY_INFO, NDIS_WWAN_READY_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_READY_INFO, PNDIS_WWAN_READY_INFO structure pointer [Network Drivers Starting with Windows Vista], WwanRef_6ae45c84-c13d-4142-b39a-07b3a9f57253.xml, _NDIS_WWAN_READY_INFO, ndiswwan/NDIS_WWAN_READY_INFO, ndiswwan/PNDIS_WWAN_READY_INFO, netvista.ndis_wwan_ready_info"
 f1_keywords:
  - "ndiswwan/NDIS_WWAN_READY_INFO"
+ - "NDIS_WWAN_READY_INFO"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ndiswwan.h
 api_name:
 - NDIS_WWAN_READY_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_READY_INFO, *PNDIS_WWAN_READY_INFO
 ---

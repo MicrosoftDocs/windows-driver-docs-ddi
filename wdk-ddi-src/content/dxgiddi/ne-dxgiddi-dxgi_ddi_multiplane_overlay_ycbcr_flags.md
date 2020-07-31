@@ -10,6 +10,7 @@ keywords: ["DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS enumeration"]
 ms.keywords: DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS, DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS enumeration [Display Devices], DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_BT709, DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_NOMINAL_RANGE, DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_xvYCC, display.dxgi_ddi_multiplane_overlay_ycbcr_flags, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_BT709, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_NOMINAL_RANGE, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_xvYCC
 f1_keywords:
  - "dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS"
+ - "DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS"
 req.header: dxgiddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Dxgiddi.h
 api_name:
 - DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS
 ---

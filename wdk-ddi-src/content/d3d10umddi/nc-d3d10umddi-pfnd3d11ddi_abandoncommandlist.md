@@ -9,6 +9,7 @@ keywords: ["PFND3D11DDI_ABANDONCOMMANDLIST callback function"]
 ms.keywords: AbandonCommandList, AbandonCommandList callback function [Display Devices], PFND3D11DDI_ABANDONCOMMANDLIST, PFND3D11DDI_ABANDONCOMMANDLIST callback, UserModeDisplayDriverDx11_Functions_1f9b5b27-499e-41a0-adf3-7b1c2f0021c7.xml, d3d10umddi/AbandonCommandList, display.abandoncommandlist
 f1_keywords:
  - "d3d10umddi/AbandonCommandList"
+ - "AbandonCommandList"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - AbandonCommandList
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

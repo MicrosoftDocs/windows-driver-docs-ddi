@@ -10,6 +10,7 @@ keywords: ["PsLookupThreadByThreadId function"]
 ms.keywords: PsLookupThreadByThreadId, PsLookupThreadByThreadId routine [Installable File System Drivers], ifsk.pslookupthreadbythreadid, ntifs/PsLookupThreadByThreadId, psref_36f0c499-8370-4257-849c-dc8bad2720cc.xml
 f1_keywords:
  - "ntifs/PsLookupThreadByThreadId"
+ - "PsLookupThreadByThreadId"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - PsLookupThreadByThreadId
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

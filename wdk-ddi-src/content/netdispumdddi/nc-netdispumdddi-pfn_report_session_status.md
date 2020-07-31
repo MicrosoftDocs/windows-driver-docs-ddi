@@ -10,6 +10,7 @@ keywords: ["PFN_REPORT_SESSION_STATUS callback function"]
 ms.keywords: PFN_REPORT_SESSION_STATUS, PFN_REPORT_SESSION_STATUS callback, ReportSessionStatus, ReportSessionStatus callback function [Display Devices], display.reportsessionstatus, netdispumdddi/ReportSessionStatus
 f1_keywords:
  - "netdispumdddi/ReportSessionStatus"
+ - "ReportSessionStatus"
 req.header: netdispumdddi.h
 req.include-header: Netdispumdddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Netdispumdddi.h
 api_name:
 - ReportSessionStatus
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

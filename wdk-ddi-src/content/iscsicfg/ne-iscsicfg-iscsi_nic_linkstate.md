@@ -10,6 +10,7 @@ keywords: ["ISCSI_NIC_LINKSTATE enumeration"]
 ms.keywords: "*PISCSI_NIC_LINKSTATE, ISCSI_NIC_LINKSTATE, ISCSI_NIC_LINKSTATE enumeration [Storage Devices], ISCSI_NIC_LINKSTATE_CONNECTED, ISCSI_NIC_LINKSTATE_DISCONNECTED, PISCSI_NIC_LINKSTATE, PISCSI_NIC_LINKSTATE enumeration pointer [Storage Devices], iscsicfg/ISCSI_NIC_LINKSTATE, iscsicfg/ISCSI_NIC_LINKSTATE_CONNECTED, iscsicfg/ISCSI_NIC_LINKSTATE_DISCONNECTED, iscsicfg/PISCSI_NIC_LINKSTATE, storage.iscsi_nic_linkstate, structs-iSCSI_23ddbeb6-19d4-49f2-b61f-00ea2e5ef0a8.xml"
 f1_keywords:
  - "iscsicfg/ISCSI_NIC_LINKSTATE"
+ - "ISCSI_NIC_LINKSTATE"
 req.header: iscsicfg.h
 req.include-header: Iscsicfg.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - iscsicfg.h
 api_name:
 - ISCSI_NIC_LINKSTATE
-product:
-- Windows
 targetos: Windows
 req.typenames: ISCSI_NIC_LINKSTATE, *PISCSI_NIC_LINKSTATE
 ---

@@ -10,6 +10,7 @@ keywords: ["IStiUSD::DeviceReset"]
 ms.keywords: DeviceReset, DeviceReset method [Imaging Devices], DeviceReset method [Imaging Devices],IStiUSD interface, IStiUSD interface [Imaging Devices],DeviceReset method, IStiUSD.DeviceReset, IStiUSD::DeviceReset, image.istiusd_devicereset, stifnc_94561ed6-1f7a-411e-b699-37d56165b2f7.xml, stiusd/IStiUSD::DeviceReset
 f1_keywords:
  - "stiusd/IStiUSD.DeviceReset"
+ - "IStiUSD.DeviceReset"
 req.header: stiusd.h
 req.include-header: Stiusd.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Stiusd.h
 api_name:
 - IStiUSD.DeviceReset
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

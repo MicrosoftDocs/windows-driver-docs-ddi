@@ -10,6 +10,7 @@ keywords: ["IPrintOemUI::UpdateExternalFonts"]
 ms.keywords: IPrintOemUI interface [Print Devices],UpdateExternalFonts method, IPrintOemUI.UpdateExternalFonts, IPrintOemUI::UpdateExternalFonts, UpdateExternalFonts, UpdateExternalFonts method [Print Devices], UpdateExternalFonts method [Print Devices],IPrintOemUI interface, prcomoem/IPrintOemUI::UpdateExternalFonts, print.iprintoemui_updateexternalfonts, print_unidrv-pscript_ui_e9f50923-c566-4e7f-997e-5788602d1083.xml
 f1_keywords:
  - "prcomoem/IPrintOemUI.UpdateExternalFonts"
+ - "IPrintOemUI.UpdateExternalFonts"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - prcomoem.h
 api_name:
 - IPrintOemUI.UpdateExternalFonts
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

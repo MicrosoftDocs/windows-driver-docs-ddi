@@ -10,6 +10,7 @@ keywords: ["KsGenerateEvent function"]
 ms.keywords: KsGenerateEvent, KsGenerateEvent function [Streaming Media Devices], ks/KsGenerateEvent, ksfunc_929fd3d4-2f02-4106-b8cd-25c3fb13ba05.xml, stream.ksgenerateevent
 f1_keywords:
  - "ks/KsGenerateEvent"
+ - "KsGenerateEvent"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsGenerateEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

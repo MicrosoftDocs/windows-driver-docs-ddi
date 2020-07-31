@@ -10,6 +10,7 @@ keywords: ["_D3DHAL_DP2RENDERSTATE structure"]
 ms.keywords: "*LPD3DHAL_DP2RENDERSTATE, D3DHAL_DP2RENDERSTATE, D3DHAL_DP2RENDERSTATE structure [Display Devices], LPD3DHAL_DP2RENDERSTATE, LPD3DHAL_DP2RENDERSTATE structure pointer [Display Devices], _D3DHAL_DP2RENDERSTATE, d3dhal/D3DHAL_DP2RENDERSTATE, d3dhal/LPD3DHAL_DP2RENDERSTATE, d3dstrct_4cfe9ea2-c3cc-432d-bd11-85d51ba121b5.xml, display.d3dhal_dp2renderstate"
 f1_keywords:
  - "d3dhal/D3DHAL_DP2RENDERSTATE"
+ - "D3DHAL_DP2RENDERSTATE"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dhal.h
 api_name:
 - D3DHAL_DP2RENDERSTATE
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DHAL_DP2RENDERSTATE
 ---

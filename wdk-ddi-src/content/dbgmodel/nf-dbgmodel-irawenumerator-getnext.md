@@ -7,6 +7,7 @@ ms.date: 12/21/2018
 keywords: ["IRawEnumerator::GetNext"]
 f1_keywords:
  - "dbgmodel/IRawEnumerator.GetNext"
+ - "IRawEnumerator.GetNext"
 ms.keywords: IRawEnumerator::GetNext, GetNext, IRawEnumerator.GetNext, IRawEnumerator::GetNext, IRawEnumerator.GetNext
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IRawEnumerator.GetNext
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

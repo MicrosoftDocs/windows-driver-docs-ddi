@@ -10,6 +10,7 @@ keywords: ["wiasUpdateValidFormat function"]
 ms.keywords: image.wiasupdatevalidformat, wiamdef/wiasUpdateValidFormat, wiasFncs_dfbd0aa5-1c7c-4b4f-a1da-82176b36e914.xml, wiasUpdateValidFormat, wiasUpdateValidFormat function [Imaging Devices]
 f1_keywords:
  - "wiamdef/wiasUpdateValidFormat"
+ - "wiasUpdateValidFormat"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wiaservc.dll
 api_name:
 - wiasUpdateValidFormat
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

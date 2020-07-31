@@ -10,6 +10,7 @@ keywords: ["IInterFilterCommunicator interface"]
 ms.keywords: IInterFilterCommunicator, IInterFilterCommunicator interface [Print Devices], IInterFilterCommunicator interface [Print Devices],described, filterpipeline/IInterFilterCommunicator, filterpipeline_80929d81-f333-4d23-9e46-72682784f0a2.xml, print.iinterfiltercommunicator
 f1_keywords:
  - "filterpipeline/IInterFilterCommunicator"
+ - "IInterFilterCommunicator"
 req.header: filterpipeline.h
 req.include-header: Filterpipeline.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - filterpipeline.h
 api_name:
 - IInterFilterCommunicator
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,7 +52,7 @@ The <b>IInterFilterCommunicator</b> interface is implemented in an object that r
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IInterFilterCommunicator</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInterFilterCommunicator</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IInterFilterCommunicator</b> interface inherits from the <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInterFilterCommunicator</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

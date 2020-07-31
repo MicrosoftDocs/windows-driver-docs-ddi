@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_WMI_INSTANCE_EXECUTE_METHOD callback function"]
 ms.keywords: DFWMIRef_d54dc0b0-bdef-40a7-b863-5946f4d8e5f5.xml, EVT_WDF_WMI_INSTANCE_EXECUTE_METHOD, EVT_WDF_WMI_INSTANCE_EXECUTE_METHOD callback, EvtWmiInstanceExecuteMethod, EvtWmiInstanceExecuteMethod callback function, kmdf.evtwmiinstanceexecutemethod, wdf.evtwmiinstanceexecutemethod, wdfwmi/EvtWmiInstanceExecuteMethod
 f1_keywords:
  - "wdfwmi/EvtWmiInstanceExecuteMethod"
+ - "EvtWmiInstanceExecuteMethod"
 req.header: wdfwmi.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - WdfWMI.h
 api_name:
 - EvtWmiInstanceExecuteMethod
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

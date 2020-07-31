@@ -10,6 +10,7 @@ keywords: ["IPrintSchemaParameterDefinition::get_UserInputRequired"]
 ms.keywords: IPrintSchemaParameterDefinition interface [Print Devices],UserInputRequired property, IPrintSchemaParameterDefinition.UserInputRequired, IPrintSchemaParameterDefinition.get_UserInputRequired, IPrintSchemaParameterDefinition::UserInputRequired, IPrintSchemaParameterDefinition::get_UserInputRequired, UserInputRequired property [Print Devices], UserInputRequired property [Print Devices],IPrintSchemaParameterDefinition interface, get_UserInputRequired, print._iprintschemaparameterdefinition_userinputrequired, printerextension/IPrintSchemaParameterDefinition::UserInputRequired, printerextension/IPrintSchemaParameterDefinition::get_UserInputRequired
 f1_keywords:
  - "printerextension/IPrintSchemaParameterDefinition.UserInputRequired"
+ - "IPrintSchemaParameterDefinition.UserInputRequired"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IPrintSchemaParameterDefinition.UserInputRequired
 - IPrintSchemaParameterDefinition.get_UserInputRequired
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

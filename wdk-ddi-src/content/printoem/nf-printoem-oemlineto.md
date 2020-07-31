@@ -10,6 +10,7 @@ keywords: ["OEMLineTo function"]
 ms.keywords: OEMLineTo, OEMLineTo function [Print Devices], print.oemlineto, print_unidrv-pscript_rendering_45398181-47db-43c2-8c68-000dbf9cce8d.xml, printoem/OEMLineTo
 f1_keywords:
  - "printoem/OEMLineTo"
+ - "OEMLineTo"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - printoem.h
 api_name:
 - OEMLineTo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

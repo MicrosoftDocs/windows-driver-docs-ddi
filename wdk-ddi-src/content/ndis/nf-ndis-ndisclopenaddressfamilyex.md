@@ -10,6 +10,7 @@ keywords: ["NdisClOpenAddressFamilyEx function"]
 ms.keywords: NdisClOpenAddressFamilyEx, NdisClOpenAddressFamilyEx function [Network Drivers Starting with Windows Vista], condis_client_ref_6590ccca-3e48-4f83-a7d0-66ce9b6b1eef.xml, ndis/NdisClOpenAddressFamilyEx, netvista.ndisclopenaddressfamilyex
 f1_keywords:
  - "ndis/NdisClOpenAddressFamilyEx"
+ - "NdisClOpenAddressFamilyEx"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisClOpenAddressFamilyEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

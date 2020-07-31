@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_DEVICE_PNP_STATE_CHANGE_NOTIFICATION callback function"]
 ms.keywords: DFDeviceObjectGeneralRef_484dd3d0-689b-4c81-bdc2-85d14db47499.xml, EVT_WDF_DEVICE_PNP_STATE_CHANGE_NOTIFICATION, EVT_WDF_DEVICE_PNP_STATE_CHANGE_NOTIFICATION callback, EvtDevicePnpStateChange, EvtDevicePnpStateChange callback function, kmdf.evtdevicepnpstatechange, wdf.evtdevicepnpstatechange, wdfdevice/EvtDevicePnpStateChange
 f1_keywords:
  - "wdfdevice/EvtDevicePnpStateChange"
+ - "EvtDevicePnpStateChange"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Wdfdevice.h
 api_name:
 - EvtDevicePnpStateChange
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

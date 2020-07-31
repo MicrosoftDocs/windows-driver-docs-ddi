@@ -10,6 +10,7 @@ keywords: ["IPortWaveRTStream::MapAllocatedPages"]
 ms.keywords: IPortWaveRTStream interface [Audio Devices],MapAllocatedPages method, IPortWaveRTStream.MapAllocatedPages, IPortWaveRTStream::MapAllocatedPages, MapAllocatedPages, MapAllocatedPages method [Audio Devices], MapAllocatedPages method [Audio Devices],IPortWaveRTStream interface, audio.iportwavertstream_mapallocatedpages, audmp-routines_914e2039-e45b-44c5-8b29-0bcc6da901c3.xml, portcls/IPortWaveRTStream::MapAllocatedPages
 f1_keywords:
  - "portcls/IPortWaveRTStream.MapAllocatedPages"
+ - "IPortWaveRTStream.MapAllocatedPages"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Portcls.h
 api_name:
 - IPortWaveRTStream.MapAllocatedPages
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

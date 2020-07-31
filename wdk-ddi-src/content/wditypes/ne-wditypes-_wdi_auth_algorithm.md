@@ -10,6 +10,7 @@ keywords: ["_WDI_AUTH_ALGORITHM enumeration"]
 ms.keywords: WDI_AUTH_ALGORITHM, WDI_AUTH_ALGORITHM enumeration [Device and Driver Installation], WDI_AUTH_ALGO_80211_OPEN, WDI_AUTH_ALGO_80211_SHARED_KEY, WDI_AUTH_ALGO_IHV_END, WDI_AUTH_ALGO_IHV_START, WDI_AUTH_ALGO_RSNA, WDI_AUTH_ALGO_RSNA_PSK, WDI_AUTH_ALGO_WPA, WDI_AUTH_ALGO_WPA_NONE, WDI_AUTH_ALGO_WPA_PSK, _WDI_AUTH_ALGORITHM, netvista.wdi_auth_algorithm, netvista.wifi_auth_algorithm, wditypes/WDI_AUTH_ALGORITHM, wditypes/WDI_AUTH_ALGO_80211_OPEN, wditypes/WDI_AUTH_ALGO_80211_SHARED_KEY, wditypes/WDI_AUTH_ALGO_IHV_END, wditypes/WDI_AUTH_ALGO_IHV_START, wditypes/WDI_AUTH_ALGO_RSNA, wditypes/WDI_AUTH_ALGO_RSNA_PSK, wditypes/WDI_AUTH_ALGO_WPA, wditypes/WDI_AUTH_ALGO_WPA_NONE, wditypes/WDI_AUTH_ALGO_WPA_PSK
 f1_keywords:
  - "wditypes/WDI_AUTH_ALGORITHM"
+ - "WDI_AUTH_ALGORITHM"
 req.header: wditypes.hpp
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wditypes.hpp
 api_name:
 - WDI_AUTH_ALGORITHM
-product:
-- Windows
 targetos: Windows
 req.typenames: WDI_AUTH_ALGORITHM
 ---

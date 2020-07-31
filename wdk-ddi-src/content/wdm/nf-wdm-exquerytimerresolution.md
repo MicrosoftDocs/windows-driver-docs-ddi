@@ -10,6 +10,7 @@ keywords: ["ExQueryTimerResolution function"]
 ms.keywords: ExQueryTimerResolution, ExQueryTimerResolution routine [Kernel-Mode Driver Architecture], kernel.exquerytimerresolution, wdm/ExQueryTimerResolution
 f1_keywords:
  - "wdm/ExQueryTimerResolution"
+ - "ExQueryTimerResolution"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ntoskrnl.dll
 api_name:
 - ExQueryTimerResolution
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

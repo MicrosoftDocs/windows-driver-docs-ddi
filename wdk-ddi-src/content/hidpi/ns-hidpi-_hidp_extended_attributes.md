@@ -10,6 +10,7 @@ keywords: ["_HIDP_EXTENDED_ATTRIBUTES structure"]
 ms.keywords: "*PHIDP_EXTENDED_ATTRIBUTES, HIDP_EXTENDED_ATTRIBUTES, HIDP_EXTENDED_ATTRIBUTES structure [Human Input Devices], PHIDP_EXTENDED_ATTRIBUTES, PHIDP_EXTENDED_ATTRIBUTES structure pointer [Human Input Devices], _HIDP_EXTENDED_ATTRIBUTES, hid.hidp_extended_attributes, hidpi/HIDP_EXTENDED_ATTRIBUTES, hidpi/PHIDP_EXTENDED_ATTRIBUTES, hidstrct_7f0e134c-f292-4558-b805-02861407032f.xml"
 f1_keywords:
  - "hidpi/HIDP_EXTENDED_ATTRIBUTES"
+ - "HIDP_EXTENDED_ATTRIBUTES"
 req.header: hidpi.h
 req.include-header: Hidpi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - hidpi.h
 api_name:
 - HIDP_EXTENDED_ATTRIBUTES
-product:
-- Windows
 targetos: Windows
 req.typenames: HIDP_EXTENDED_ATTRIBUTES, *PHIDP_EXTENDED_ATTRIBUTES
 ---

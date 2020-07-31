@@ -10,6 +10,7 @@ keywords: ["IDebugControl2::GetInterruptTimeout"]
 ms.keywords: GetInterruptTimeout, GetInterruptTimeout method [Windows Debugging], GetInterruptTimeout method [Windows Debugging],IDebugControl interface, GetInterruptTimeout method [Windows Debugging],IDebugControl2 interface, GetInterruptTimeout method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetInterruptTimeout method, IDebugControl2 interface [Windows Debugging],GetInterruptTimeout method, IDebugControl2.GetInterruptTimeout, IDebugControl2::GetInterruptTimeout, IDebugControl3 interface [Windows Debugging],GetInterruptTimeout method, IDebugControl3::GetInterruptTimeout, IDebugControl::GetInterruptTimeout, IDebugControl_33383d54-faba-46a1-8e14-8a3215b0d2f7.xml, dbgeng/IDebugControl2::GetInterruptTimeout, dbgeng/IDebugControl3::GetInterruptTimeout, dbgeng/IDebugControl::GetInterruptTimeout, debugger.getinterrupttimeout
 f1_keywords:
  - "dbgeng/IDebugControl.GetInterruptTimeout"
+ - "IDebugControl.GetInterruptTimeout"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -38,8 +39,6 @@ api_name:
 - IDebugControl.GetInterruptTimeout
 - IDebugControl2.GetInterruptTimeout
 - IDebugControl3.GetInterruptTimeout
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

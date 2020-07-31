@@ -10,6 +10,7 @@ keywords: ["NdisMIndicateReceiveNetBufferLists function"]
 ms.keywords: NdisMIndicateReceiveNetBufferLists, NdisMIndicateReceiveNetBufferLists function [Network Drivers Starting with Windows Vista], ndis/NdisMIndicateReceiveNetBufferLists, ndis_sendrcv_ref_3ef0c38f-53f7-44a0-adfc-443132743f50.xml, netvista.ndismindicatereceivenetbufferlists
 f1_keywords:
  - "ndis/NdisMIndicateReceiveNetBufferLists"
+ - "NdisMIndicateReceiveNetBufferLists"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisMIndicateReceiveNetBufferLists
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

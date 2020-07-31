@@ -10,6 +10,7 @@ keywords: ["IDDCX_OPM_GET_INFO_PARAMETERS structure"]
 ms.keywords: IDDCX_OPM_GET_INFO_PARAMETERS, IDDCX_OPM_GET_INFO_PARAMETERS structure [Display Devices], display.iddcx_opm_get_info_parameters, iddcx/IDDCX_OPM_GET_INFO_PARAMETERS
 f1_keywords:
  - "iddcx/IDDCX_OPM_GET_INFO_PARAMETERS"
+ - "IDDCX_OPM_GET_INFO_PARAMETERS"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - iddcx.h
 api_name:
 - IDDCX_OPM_GET_INFO_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

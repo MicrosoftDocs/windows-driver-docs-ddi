@@ -10,6 +10,7 @@ keywords: ["PALLOCATE_CAPTURE_DMA_ENGINE callback function"]
 ms.keywords: AllocateCaptureDmaEngine, AllocateCaptureDmaEngine callback function [Audio Devices], PALLOCATE_CAPTURE_DMA_ENGINE, PALLOCATE_CAPTURE_DMA_ENGINE callback, aud-prop2_0eb8fa9c-157f-4979-8db1-362ec56cd3c3.xml, audio.allocatecapturedmaengine, hdaudio/AllocateCaptureDmaEngine
 f1_keywords:
  - "hdaudio/AllocateCaptureDmaEngine"
+ - "AllocateCaptureDmaEngine"
 req.header: hdaudio.h
 req.include-header: Hdaudio.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - hdaudio.h
 api_name:
 - AllocateCaptureDmaEngine
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

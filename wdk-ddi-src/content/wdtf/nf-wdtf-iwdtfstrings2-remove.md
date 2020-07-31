@@ -10,6 +10,7 @@ keywords: ["IWDTFStrings2::Remove"]
 ms.keywords: IWDTFStrings2 interface [Windows Device Testing Framework],Remove method, IWDTFStrings2.Remove, IWDTFStrings2::Remove, Microsoft.WDTF.IWDTFStrings2.Remove, Microsoft::WDTF::IWDTFStrings2::Remove, Remove, Remove method [Windows Device Testing Framework], Remove method [Windows Device Testing Framework],IWDTFStrings2 interface, dtf.iwdtfstrings2_remove, wdtf/IWDTFStrings2::Remove
 f1_keywords:
  - "wdtf/IWDTFStrings2.Remove"
+ - "IWDTFStrings2.Remove"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WDTF.Interop.metadata_dll.dll
 api_name:
 - IWDTFStrings2.Remove
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IoIsFileOpenedExclusively macro"]
 ms.keywords: IoIsFileOpenedExclusively, IoIsFileOpenedExclusively macro [Installable File System Drivers], ifsk.ioisfileopenedexclusively, ioref_3aa5aef5-1d17-4301-b02f-8013829fea38.xml, ntifs/IoIsFileOpenedExclusively
 f1_keywords:
  - "ntifs/IoIsFileOpenedExclusively"
+ - "IoIsFileOpenedExclusively"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - IoIsFileOpenedExclusively
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

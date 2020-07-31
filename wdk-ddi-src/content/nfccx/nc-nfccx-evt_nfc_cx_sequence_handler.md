@@ -10,6 +10,7 @@ keywords: ["EVT_NFC_CX_SEQUENCE_HANDLER callback function"]
 ms.keywords: "*PFN_NFC_CX_SEQUENCE_HANDLER, EVT_NFC_CX_SEQUENCE_HANDLER, EVT_NFC_CX_SEQUENCE_HANDLER callback, EvtNfcCxSequenceHandler, EvtNfcCxSequenceHandler callback function [Near-Field Proximity Drivers], nfccx/ EvtNfcCxSequenceHandler, nfpdrivers.evtnfccxsequencehandler"
 f1_keywords:
  - "nfccx/EvtNfcCxSequenceHandler"
+ - "EvtNfcCxSequenceHandler"
 req.header: nfccx.h
 req.include-header: Ncidef.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - nfccx.h
 api_name:
 - EvtNfcCxSequenceHandler
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

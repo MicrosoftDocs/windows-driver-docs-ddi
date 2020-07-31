@@ -10,6 +10,7 @@ ms.date: 10/25/2019
 keywords: ["NetAdapterWakeSetPacketFilterCapabilities function"]
 f1_keywords:
  - "netadapter/NetAdapterWakeSetPacketFilterCapabilities"
+ - "NetAdapterWakeSetPacketFilterCapabilities"
 ms.keywords: NetAdapterWakeSetPacketFilterCapabilities
 req.header: netadapter.h
 req.include-header:

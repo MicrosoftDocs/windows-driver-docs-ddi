@@ -10,6 +10,7 @@ keywords: ["IMiniportWaveRT::GetDeviceDescription"]
 ms.keywords: GetDeviceDescription, GetDeviceDescription method [Audio Devices], GetDeviceDescription method [Audio Devices],IMiniportWaveRT interface, IMiniportWaveRT interface [Audio Devices],GetDeviceDescription method, IMiniportWaveRT.GetDeviceDescription, IMiniportWaveRT::GetDeviceDescription, audio.iminiportwavert_getdevicedescription, audmp-routines_3a5441ed-a935-42ea-84be-29f1f6b6db07.xml, portcls/IMiniportWaveRT::GetDeviceDescription
 f1_keywords:
  - "portcls/IMiniportWaveRT.GetDeviceDescription"
+ - "IMiniportWaveRT.GetDeviceDescription"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IMiniportWaveRT.GetDeviceDescription
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

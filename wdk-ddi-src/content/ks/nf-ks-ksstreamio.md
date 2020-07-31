@@ -10,6 +10,7 @@ keywords: ["KsStreamIo function"]
 ms.keywords: KsStreamIo, KsStreamIo function [Streaming Media Devices], ks/KsStreamIo, ksfunc_c2f256a3-f01a-45e1-b7de-1eed5bacde7a.xml, stream.ksstreamio
 f1_keywords:
  - "ks/KsStreamIo"
+ - "KsStreamIo"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsStreamIo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

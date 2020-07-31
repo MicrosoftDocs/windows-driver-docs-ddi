@@ -10,6 +10,7 @@ keywords: ["IKeywordDetectorOemAdapter::VerifyUserKeyword"]
 ms.keywords: IKeywordDetectorOemAdapter interface [Audio Devices],VerifyUserKeyword method, IKeywordDetectorOemAdapter.VerifyUserKeyword, IKeywordDetectorOemAdapter::VerifyUserKeyword, VerifyUserKeyword, VerifyUserKeyword method [Audio Devices], VerifyUserKeyword method [Audio Devices],IKeywordDetectorOemAdapter interface, audio.ikeyworddetectoroemadapter_verifyuserkeyword, keyworddetectoroemadapter/IKeywordDetectorOemAdapter::VerifyUserKeyword
 f1_keywords:
  - "keyworddetectoroemadapter/IKeywordDetectorOemAdapter.VerifyUserKeyword"
+ - "IKeywordDetectorOemAdapter.VerifyUserKeyword"
 req.header: keyworddetectoroemadapter.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - KeywordDetectorOemAdapter.h
 api_name:
 - IKeywordDetectorOemAdapter.VerifyUserKeyword
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

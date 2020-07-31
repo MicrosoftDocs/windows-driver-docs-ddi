@@ -10,6 +10,7 @@ keywords: ["KeTryToAcquireSpinLockAtDpcLevel function"]
 ms.keywords: KeTryToAcquireSpinLockAtDpcLevel, KeTryToAcquireSpinLockAtDpcLevel routine [Kernel-Mode Driver Architecture], k105_416ac5db-d064-4ced-8cf8-311aca8dae7f.xml, kernel.ketrytoacquirespinlockatdpclevel, wdm/KeTryToAcquireSpinLockAtDpcLevel
 f1_keywords:
  - "wdm/KeTryToAcquireSpinLockAtDpcLevel"
+ - "KeTryToAcquireSpinLockAtDpcLevel"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeTryToAcquireSpinLockAtDpcLevel
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

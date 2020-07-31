@@ -7,6 +7,7 @@ ms.date: 08/14/2018
 keywords: ["IDebugHost::GetDefaultMetadata"]
 f1_keywords:
  - "dbgmodel/IDebugHost.GetDefaultMetadata"
+ - "IDebugHost.GetDefaultMetadata"
 ms.keywords: IDebugHost::GetDefaultMetadata, GetDefaultMetadata, IDebugHost.GetDefaultMetadata, IDebugHost::GetDefaultMetadata, IDebugHost.GetDefaultMetadata
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHost.GetDefaultMetadata
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

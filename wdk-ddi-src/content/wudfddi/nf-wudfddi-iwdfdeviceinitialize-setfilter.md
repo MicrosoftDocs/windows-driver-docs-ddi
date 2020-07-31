@@ -10,6 +10,7 @@ keywords: ["IWDFDeviceInitialize::SetFilter"]
 ms.keywords: IWDFDeviceInitialize interface,SetFilter method, IWDFDeviceInitialize.SetFilter, IWDFDeviceInitialize::SetFilter, SetFilter, SetFilter method, SetFilter method,IWDFDeviceInitialize interface, UMDFDeviceObjectRef_742df830-2e67-4f03-bdfb-77cef5bc21bf.xml, umdf.iwdfdeviceinitialize_setfilter, wdf.iwdfdeviceinitialize_setfilter, wudfddi/IWDFDeviceInitialize::SetFilter
 f1_keywords:
  - "wudfddi/IWDFDeviceInitialize.SetFilter"
+ - "IWDFDeviceInitialize.SetFilter"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFDeviceInitialize.SetFilter
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IddCxSwapChainFinishedProcessingFrame function"]
 ms.keywords: IddCxSwapChainFinishedProcessingFrame, IddCxSwapChainFinishedProcessingFrame method [Display Devices], display.iddcxswapchainfinishedprocessingframe, iddcx/IddCxSwapChainFinishedProcessingFrame
 f1_keywords:
  - "iddcx/IddCxSwapChainFinishedProcessingFrame"
+ - "IddCxSwapChainFinishedProcessingFrame"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - IddCx.dll
 api_name:
 - IddCxSwapChainFinishedProcessingFrame
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

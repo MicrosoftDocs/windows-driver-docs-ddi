@@ -10,6 +10,7 @@ keywords: ["SRIOV_SET_POWER_STATE callback"]
 ms.keywords: PCI.sriov_set_power_state, SRIOV_SET_POWER_STATE, SRIOV_SET_POWER_STATE callback function [Buses], pcivirt/SRIOV_SET_POWER_STATE
 f1_keywords:
  - "pcivirt/SRIOV_SET_POWER_STATE"
+ - "SRIOV_SET_POWER_STATE"
 req.header: pcivirt.h
 req.include-header:
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Pcivirt.h
 api_name:
 - SRIOV_SET_POWER_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: PARCLASS_INFORMATION, *PPARCLASS_INFORMATION
 ---

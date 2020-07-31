@@ -10,6 +10,7 @@ keywords: ["_DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE structure"]
 ms.keywords: DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE, DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE structure [Display Devices], _DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE, d3dukmdt/DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE, display.dxgkvgpu_escape_powertransitioncomplete
 f1_keywords:
  - "d3dukmdt/DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE"
+ - "DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE"
 req.header: d3dukmdt.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dukmdt.h
 api_name:
 - DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE
 ---

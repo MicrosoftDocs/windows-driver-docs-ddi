@@ -10,6 +10,7 @@ keywords: ["SdpCreateNodeNil function"]
 ms.keywords: SdpCreateNodeNil, SdpCreateNodeNil function [Bluetooth Devices], bltooth.sdpcreatenodenil, bth_funcs_5f7d1244-67e0-436e-8658-8adcc2aa3a65.xml, sdplib/SdpCreateNodeNil
 f1_keywords:
  - "sdplib/SdpCreateNodeNil"
+ - "SdpCreateNodeNil"
 req.header: sdplib.h
 req.include-header: BthSdpddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - sdplib.h
 api_name:
 - SdpCreateNodeNil
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

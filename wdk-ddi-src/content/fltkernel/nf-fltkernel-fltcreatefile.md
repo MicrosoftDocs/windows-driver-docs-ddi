@@ -10,6 +10,7 @@ keywords: ["FltCreateFile function"]
 ms.keywords: FltApiRef_a_to_d_2059a625-6d9e-4083-9c2e-d92e76c7539a.xml, FltCreateFile, FltCreateFile function [Installable File System Drivers], fltkernel/FltCreateFile, ifsk.fltcreatefile
 f1_keywords:
  - "fltkernel/FltCreateFile"
+ - "FltCreateFile"
 req.header: fltkernel.h
 req.include-header: FltKernel.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Fltmgr.dll
 api_name:
 - FltCreateFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

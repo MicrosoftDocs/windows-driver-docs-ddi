@@ -10,6 +10,7 @@ keywords: ["_WMI_CHANGER_PROBLEM_DEVICE_ERROR structure"]
 ms.keywords: "*PWMI_CHANGER_PROBLEM_DEVICE_ERROR, PWMI_CHANGER_PROBLEM_DEVICE_ERROR, PWMI_CHANGER_PROBLEM_DEVICE_ERROR structure pointer [Storage Devices], WMI_CHANGER_PROBLEM_DEVICE_ERROR, WMI_CHANGER_PROBLEM_DEVICE_ERROR structure [Storage Devices], _WMI_CHANGER_PROBLEM_DEVICE_ERROR, storage.wmi_changer_problem_device_error, structs-changer_0d8bac8e-b24c-4ff8-948e-0dd55b5624f0.xml, wmidata/PWMI_CHANGER_PROBLEM_DEVICE_ERROR, wmidata/WMI_CHANGER_PROBLEM_DEVICE_ERROR"
 f1_keywords:
  - "wmidata/WMI_CHANGER_PROBLEM_DEVICE_ERROR"
+ - "WMI_CHANGER_PROBLEM_DEVICE_ERROR"
 req.header: wmidata.h
 req.include-header:
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wmidata.h
 api_name:
 - WMI_CHANGER_PROBLEM_DEVICE_ERROR
-product:
-- Windows
 targetos: Windows
 req.typenames: WMI_CHANGER_PROBLEM_DEVICE_ERROR, *PWMI_CHANGER_PROBLEM_DEVICE_ERROR
 req.product: Windows 10 or later.

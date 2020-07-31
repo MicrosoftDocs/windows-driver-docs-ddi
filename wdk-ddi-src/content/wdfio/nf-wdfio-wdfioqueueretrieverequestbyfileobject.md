@@ -10,6 +10,7 @@ keywords: ["WdfIoQueueRetrieveRequestByFileObject function"]
 ms.keywords: DFQueueObjectRef_52e014c4-04ca-44b2-a5a8-19185b085cdf.xml, WdfIoQueueRetrieveRequestByFileObject, WdfIoQueueRetrieveRequestByFileObject method, kmdf.wdfioqueueretrieverequestbyfileobject, wdf.wdfioqueueretrieverequestbyfileobject, wdfio/WdfIoQueueRetrieveRequestByFileObject
 f1_keywords:
  - "wdfio/WdfIoQueueRetrieveRequestByFileObject"
+ - "WdfIoQueueRetrieveRequestByFileObject"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfIoQueueRetrieveRequestByFileObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

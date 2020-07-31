@@ -10,6 +10,7 @@ keywords: ["PDEBUG_STACK_PROVIDER_ENDTHREADSTACKRECONSTRUCTION callback function
 ms.keywords: EndThreadStackReconstruction, EndThreadStackReconstruction callback function [Windows Debugging], PDEBUG_STACK_PROVIDER_ENDTHREADSTACKRECONSTRUCTION, PDEBUG_STACK_PROVIDER_ENDTHREADSTACKRECONSTRUCTION callback, dbgeng/EndThreadStackReconstruction, debugger.endthreadstackreconstruction
 f1_keywords:
  - "dbgeng/EndThreadStackReconstruction"
+ - "EndThreadStackReconstruction"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Dbgeng.h
 api_name:
 - EndThreadStackReconstruction
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

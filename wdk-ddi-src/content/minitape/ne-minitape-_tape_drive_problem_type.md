@@ -10,6 +10,7 @@ keywords: ["_TAPE_DRIVE_PROBLEM_TYPE enumeration"]
 ms.keywords: TAPE_DRIVE_PROBLEM_TYPE, TAPE_DRIVE_PROBLEM_TYPE enumeration [Storage Devices], TapeDriveCleanDriveNow, TapeDriveHardwareError, TapeDriveMediaLifeExpired, TapeDriveProblemNone, TapeDriveReadError, TapeDriveReadWarning, TapeDriveReadWriteError, TapeDriveReadWriteWarning, TapeDriveScsiConnectionError, TapeDriveSnappedTape, TapeDriveTimetoClean, TapeDriveUnsupportedMedia, TapeDriveWriteError, TapeDriveWriteWarning, _TAPE_DRIVE_PROBLEM_TYPE, ntddtape/TAPE_DRIVE_PROBLEM_TYPE, ntddtape/TapeDriveCleanDriveNow, ntddtape/TapeDriveHardwareError, ntddtape/TapeDriveMediaLifeExpired, ntddtape/TapeDriveProblemNone, ntddtape/TapeDriveReadError, ntddtape/TapeDriveReadWarning, ntddtape/TapeDriveReadWriteError, ntddtape/TapeDriveReadWriteWarning, ntddtape/TapeDriveScsiConnectionError, ntddtape/TapeDriveSnappedTape, ntddtape/TapeDriveTimetoClean, ntddtape/TapeDriveUnsupportedMedia, ntddtape/TapeDriveWriteError, ntddtape/TapeDriveWriteWarning, storage.tape_drive_problem_type, structs-tape_e5fef478-5c62-4cbf-adc1-8f0cc6eabb8e.xml
 f1_keywords:
  - "minitape/TAPE_DRIVE_PROBLEM_TYPE"
+ - "TAPE_DRIVE_PROBLEM_TYPE"
 req.header: minitape.h
 req.include-header: Minitape.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddtape.h
 api_name:
 - TAPE_DRIVE_PROBLEM_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: TAPE_DRIVE_PROBLEM_TYPE
 ---

@@ -10,6 +10,7 @@ keywords: ["_UCXUSBDEVICE_INFO structure"]
 ms.keywords: "*PUCXUSBDEVICE_INFO, P_UCXUSBDEVICE_INFO, P_UCXUSBDEVICE_INFO structure pointer [Buses], UCXUSBDEVICE_INFO, UCXUSBDEVICE_INFO structure [Buses], _UCXUSBDEVICE_INFO, buses._ucxusbdevice_info, ucxusbdevice/P_UCXUSBDEVICE_INFO, ucxusbdevice/_UCXUSBDEVICE_INFO"
 f1_keywords:
  - "ucxusbdevice/UCXUSBDEVICE_INFO"
+ - "UCXUSBDEVICE_INFO"
 req.header: ucxusbdevice.h
 req.include-header: Ucxusbdevice.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ucxusbdevice.h
 api_name:
 - UCXUSBDEVICE_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: UCXUSBDEVICE_INFO, *PUCXUSBDEVICE_INFO
 ---

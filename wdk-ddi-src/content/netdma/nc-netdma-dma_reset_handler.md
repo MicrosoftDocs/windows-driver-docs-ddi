@@ -10,6 +10,7 @@ keywords: ["DMA_RESET_HANDLER callback function"]
 ms.keywords: DMA_RESET_HANDLER, DMA_RESET_HANDLER callback, ProviderResetChannel, ProviderResetChannel callback function [Network Drivers Starting with Windows Vista], netdma/ProviderResetChannel, netdma_ref_b8d39a6d-73fa-4d8b-b7c7-3f5eb47a4fc4.xml, netvista.providerresetchannel
 f1_keywords:
  - "netdma/ProviderResetChannel"
+ - "ProviderResetChannel"
 req.header: netdma.h
 req.include-header: Netdma.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - netdma.h
 api_name:
 - ProviderResetChannel
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

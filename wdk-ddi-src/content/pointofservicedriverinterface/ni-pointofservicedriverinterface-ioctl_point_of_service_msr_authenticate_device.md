@@ -10,6 +10,7 @@ keywords: ["IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE IOCTL"]
 ms.keywords: IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE, IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE control, IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE, pos.ioctl_point_of_service_msr_authenticate_device
 f1_keywords:
  - "pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE"
+ - "IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE"
 req.header: pointofservicedriverinterface.h
 req.include-header: Pointofservicedriverinterface.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pointofservicedriverinterface.h
 api_name:
 - IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

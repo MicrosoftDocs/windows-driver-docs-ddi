@@ -10,6 +10,7 @@ keywords: ["BdaCreateFilterFactoryEx function"]
 ms.keywords: BdaCreateFilterFactoryEx, BdaCreateFilterFactoryEx function [Streaming Media Devices], bdaref_9a145859-e899-4180-ac91-63479e4e04c0.xml, bdasup/BdaCreateFilterFactoryEx, stream.bdacreatefilterfactoryex
 f1_keywords:
  - "bdasup/BdaCreateFilterFactoryEx"
+ - "BdaCreateFilterFactoryEx"
 req.header: bdasup.h
 req.include-header: Bdasup.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Bdasup.dll
 api_name:
 - BdaCreateFilterFactoryEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

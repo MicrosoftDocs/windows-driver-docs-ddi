@@ -10,6 +10,7 @@ keywords: ["__MIDL___MIDL_itf_windowssensorclassextension_0000_0000_0001 enumera
 ms.keywords: SENSOR_STATE_ACCESS_DENIED, SENSOR_STATE_ERROR, SENSOR_STATE_INITIALIZING, SENSOR_STATE_MAX, SENSOR_STATE_MIN, SENSOR_STATE_NOT_AVAILABLE, SENSOR_STATE_NO_DATA, SENSOR_STATE_READY, SensorState, SensorState enumeration [Sensor Devices], Sensor_Enums_caba27ac-659e-4b9a-a466-7a7d202c6f62.xml, __MIDL___MIDL_itf_windowssensorclassextension_0000_0000_0001, sensors.sensorstate, sensorsclassextension/SENSOR_STATE_ACCESS_DENIED, sensorsclassextension/SENSOR_STATE_ERROR, sensorsclassextension/SENSOR_STATE_INITIALIZING, sensorsclassextension/SENSOR_STATE_MAX, sensorsclassextension/SENSOR_STATE_MIN, sensorsclassextension/SENSOR_STATE_NOT_AVAILABLE, sensorsclassextension/SENSOR_STATE_NO_DATA, sensorsclassextension/SENSOR_STATE_READY, sensorsclassextension/SensorState
 f1_keywords:
  - "sensorsclassextension/SensorState"
+ - "SensorState"
 req.header: sensorsclassextension.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - SensorsClassExtension.h
 api_name:
 - SensorState
-product:
-- Windows
 targetos: Windows
 req.typenames: SensorState
 ---

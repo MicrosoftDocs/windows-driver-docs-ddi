@@ -10,6 +10,7 @@ keywords: ["_DXGK_FIRMWARE_TABLE_INTERFACE structure"]
 ms.keywords: "'ACPI', 'FIRM', 'RSMB', *PDXGK_FIRMWARE_TABLE_INTERFACE, DXGK_FIRMWARE_TABLE_INTERFACE, DXGK_FIRMWARE_TABLE_INTERFACE structure [Display Devices], PDXGK_FIRMWARE_TABLE_INTERFACE, PDXGK_FIRMWARE_TABLE_INTERFACE structure pointer [Display Devices], _DXGK_FIRMWARE_TABLE_INTERFACE, display.dxgk_firmware_table_interface, dispmprt/DXGK_FIRMWARE_TABLE_INTERFACE, dispmprt/PDXGK_FIRMWARE_TABLE_INTERFACE"
 f1_keywords:
  - "dispmprt/DXGK_FIRMWARE_TABLE_INTERFACE"
+ - "DXGK_FIRMWARE_TABLE_INTERFACE"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dispmprt.h
 api_name:
 - DXGK_FIRMWARE_TABLE_INTERFACE
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGK_FIRMWARE_TABLE_INTERFACE, *PDXGK_FIRMWARE_TABLE_INTERFACE
 ---

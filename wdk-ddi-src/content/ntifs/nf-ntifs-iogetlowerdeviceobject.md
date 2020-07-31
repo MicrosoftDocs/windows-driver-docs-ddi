@@ -10,6 +10,7 @@ keywords: ["IoGetLowerDeviceObject function"]
 ms.keywords: IoGetLowerDeviceObject, IoGetLowerDeviceObject routine [Installable File System Drivers], ifsk.iogetlowerdeviceobject, ioref_0739069f-c14d-4b35-accd-8d65954bbc3d.xml, ntifs/IoGetLowerDeviceObject
 f1_keywords:
  - "ntifs/IoGetLowerDeviceObject"
+ - "IoGetLowerDeviceObject"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoGetLowerDeviceObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

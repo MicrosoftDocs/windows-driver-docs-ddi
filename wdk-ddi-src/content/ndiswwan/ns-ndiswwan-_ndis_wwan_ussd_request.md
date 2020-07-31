@@ -10,6 +10,7 @@ keywords: ["_NDIS_WWAN_USSD_REQUEST structure"]
 ms.keywords: "*PNDIS_WWAN_USSD_REQUEST, NDIS_WWAN_USSD_REQUEST, NDIS_WWAN_USSD_REQUEST structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_USSD_REQUEST, PNDIS_WWAN_USSD_REQUEST structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_USSD_REQUEST, ndiswwan/NDIS_WWAN_USSD_REQUEST, ndiswwan/PNDIS_WWAN_USSD_REQUEST, netvista.ndis_wwan_ussd_request"
 f1_keywords:
  - "ndiswwan/NDIS_WWAN_USSD_REQUEST"
+ - "NDIS_WWAN_USSD_REQUEST"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ndiswwan.h
 api_name:
 - NDIS_WWAN_USSD_REQUEST
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_USSD_REQUEST, *PNDIS_WWAN_USSD_REQUEST
 ---

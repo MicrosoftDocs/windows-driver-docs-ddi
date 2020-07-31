@@ -10,6 +10,7 @@ keywords: ["KeQueryActiveProcessorCount function"]
 ms.keywords: KeQueryActiveProcessorCount, KeQueryActiveProcessorCount routine [Kernel-Mode Driver Architecture], k105_23574ace-ab66-43bb-976f-ca7310cece9a.xml, kernel.kequeryactiveprocessorcount, wdm/KeQueryActiveProcessorCount
 f1_keywords:
  - "wdm/KeQueryActiveProcessorCount"
+ - "KeQueryActiveProcessorCount"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeQueryActiveProcessorCount
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

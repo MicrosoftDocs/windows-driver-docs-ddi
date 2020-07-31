@@ -10,6 +10,7 @@ keywords: ["NdisInterlockedRemoveHeadList macro"]
 ms.keywords: NdisInterlockedRemoveHeadList, NdisInterlockedRemoveHeadList macro [Network Drivers Starting with Windows Vista], ndis/NdisInterlockedRemoveHeadList, ndis_interlocked_ref_5aacd492-068c-4cfe-afa6-4e0e63cf66e9.xml, netvista.ndisinterlockedremoveheadlist
 f1_keywords:
  - "ndis/NdisInterlockedRemoveHeadList"
+ - "NdisInterlockedRemoveHeadList"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisInterlockedRemoveHeadList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

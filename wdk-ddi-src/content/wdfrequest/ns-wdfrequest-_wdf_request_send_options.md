@@ -10,6 +10,7 @@ keywords: ["_WDF_REQUEST_SEND_OPTIONS structure"]
 ms.keywords: "*PWDF_REQUEST_SEND_OPTIONS, DFRequestObjectRef_3fc871af-dae6-454f-8ff8-35a8b0c5ae9a.xml, PWDF_REQUEST_SEND_OPTIONS, PWDF_REQUEST_SEND_OPTIONS structure pointer, WDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS structure, _WDF_REQUEST_SEND_OPTIONS, kmdf.wdf_request_send_options, wdf.wdf_request_send_options, wdfrequest/PWDF_REQUEST_SEND_OPTIONS, wdfrequest/WDF_REQUEST_SEND_OPTIONS"
 f1_keywords:
  - "wdfrequest/WDF_REQUEST_SEND_OPTIONS"
+ - "WDF_REQUEST_SEND_OPTIONS"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wdfrequest.h
 api_name:
 - WDF_REQUEST_SEND_OPTIONS
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_REQUEST_SEND_OPTIONS, *PWDF_REQUEST_SEND_OPTIONS
 ---

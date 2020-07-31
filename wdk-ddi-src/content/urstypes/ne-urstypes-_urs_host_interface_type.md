@@ -10,6 +10,7 @@ keywords: ["_URS_HOST_INTERFACE_TYPE enumeration"]
 ms.keywords: URS_HOST_INTERFACE_TYPE, URS_HOST_INTERFACE_TYPE enumeration [Buses], UrsHostInterfaceTypeEhci, UrsHostInterfaceTypeOther, UrsHostInterfaceTypeXhci, _URS_HOST_INTERFACE_TYPE, buses.urs_host_interface_type, urstypes/URS_HOST_INTERFACE_TYPE, urstypes/UrsHostInterfaceTypeEhci, urstypes/UrsHostInterfaceTypeOther, urstypes/UrsHostInterfaceTypeXhci
 f1_keywords:
  - "urstypes/URS_HOST_INTERFACE_TYPE"
+ - "URS_HOST_INTERFACE_TYPE"
 req.header: urstypes.h
 req.include-header: Urscx.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - urstypes.h
 api_name:
 - URS_HOST_INTERFACE_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: URS_HOST_INTERFACE_TYPE
 ---

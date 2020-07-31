@@ -10,6 +10,7 @@ keywords: ["IoCreateFile function"]
 ms.keywords: IoCreateFile, IoCreateFile routine [Kernel-Mode Driver Architecture], k104_7221dba8-910f-439a-acdf-5a6ca4fcd49a.xml, kernel.iocreatefile, wdm/IoCreateFile
 f1_keywords:
  - "wdm/IoCreateFile"
+ - "IoCreateFile"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoCreateFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

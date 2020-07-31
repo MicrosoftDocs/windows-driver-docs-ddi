@@ -10,6 +10,7 @@ keywords: ["ReadPort function"]
 ms.keywords: ReadPort, spoolfnc_f4b817ce-afeb-4d3f-b8ce-e060b8de8143.xml, ReadPort function [Print Devices], print.readport, winsplp/ReadPort
 f1_keywords:
  - "winsplp/ReadPort"
+ - "ReadPort"
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - winsplp.h
 api_name:
 - ReadPort
-product:
-- Windows
 targetos: Windows
 req.typenames: NOTIFICATION_CONFIG_FLAGS
 req.product: Windows 10 or later.

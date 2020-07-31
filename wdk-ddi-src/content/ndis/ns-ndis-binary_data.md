@@ -10,6 +10,7 @@ keywords: ["BINARY_DATA structure"]
 ms.keywords: BINARY_DATA, BINARY_DATA structure [Network Drivers Starting with Windows Vista], ndis/BINARY_DATA, ndis_configuration_ref_50fc50e5-52d2-4e25-a03b-6c581e50fef1.xml, netvista.binary_data
 f1_keywords:
  - "ndis/BINARY_DATA"
+ - "BINARY_DATA"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - BINARY_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: BINARY_DATA
 ---

@@ -10,6 +10,7 @@ keywords: ["WdfIoQueuePurgeSynchronously function"]
 ms.keywords: DFQueueObjectRef_3630b28a-48ff-4b9d-9359-9b88771e5104.xml, WdfIoQueuePurgeSynchronously, WdfIoQueuePurgeSynchronously method, kmdf.wdfioqueuepurgesynchronously, wdf.wdfioqueuepurgesynchronously, wdfio/WdfIoQueuePurgeSynchronously
 f1_keywords:
  - "wdfio/WdfIoQueuePurgeSynchronously"
+ - "WdfIoQueuePurgeSynchronously"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfIoQueuePurgeSynchronously
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

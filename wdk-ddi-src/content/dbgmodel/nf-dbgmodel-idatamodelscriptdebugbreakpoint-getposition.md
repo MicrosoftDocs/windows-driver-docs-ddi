@@ -7,6 +7,7 @@ ms.date: 09/10/2018
 keywords: ["IDataModelScriptDebugBreakpoint::GetPosition"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebugBreakpoint.GetPosition"
+ - "IDataModelScriptDebugBreakpoint.GetPosition"
 ms.keywords: IDataModelScriptDebugBreakpoint::GetPosition, GetPosition, IDataModelScriptDebugBreakpoint.GetPosition, IDataModelScriptDebugBreakpoint::GetPosition, IDataModelScriptDebugBreakpoint.GetPosition
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDataModelScriptDebugBreakpoint.GetPosition
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

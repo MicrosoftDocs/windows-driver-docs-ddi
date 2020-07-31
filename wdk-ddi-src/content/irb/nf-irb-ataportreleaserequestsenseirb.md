@@ -10,6 +10,7 @@ keywords: ["AtaPortReleaseRequestSenseIrb function"]
 ms.keywords: AtaPortReleaseRequestSenseIrb, AtaPortReleaseRequestSenseIrb routine [Storage Devices], atartns_b46ae59d-b5b8-49fb-9458-742eefacd197.xml, irb/AtaPortReleaseRequestSenseIrb, storage.ataportreleaserequestsenseirb
 f1_keywords:
  - "irb/AtaPortReleaseRequestSenseIrb"
+ - "AtaPortReleaseRequestSenseIrb"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
@@ -39,8 +40,6 @@ api_location:
 - pciidex.dll
 api_name:
 - AtaPortReleaseRequestSenseIrb
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

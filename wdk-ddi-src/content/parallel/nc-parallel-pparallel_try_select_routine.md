@@ -10,6 +10,7 @@ keywords: ["PPARALLEL_TRY_SELECT_ROUTINE callback"]
 ms.keywords: "(*PPARALLEL_TRY_SELECT_ROUTINE), (*PPARALLEL_TRY_SELECT_ROUTINE) callback function [Parallel Ports], cisspd_ec7d6b68-7fbd-493e-9787-3e2f78327bdd.xml, parallel/(*PPARALLEL_TRY_SELECT_ROUTINE), parports.pparallel_try_select_routine"
 f1_keywords:
  - "parallel/(*PPARALLEL_TRY_SELECT_ROUTINE)"
+ - "(*PPARALLEL_TRY_SELECT_ROUTINE)"
 req.header: parallel.h
 req.include-header: Parallel.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - parallel.h
 api_name:
 - (*PPARALLEL_TRY_SELECT_ROUTINE)
-product:
-- Windows
 targetos: Windows
 req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ---

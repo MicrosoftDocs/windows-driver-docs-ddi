@@ -10,6 +10,7 @@ keywords: ["RtlNumberOfClearBits function"]
 ms.keywords: RtlNumberOfClearBits, RtlNumberOfClearBits routine [Kernel-Mode Driver Architecture], k109_1b655b45-806c-4199-91e6-2ed2f4d4e570.xml, kernel.rtlnumberofclearbits, wdm/RtlNumberOfClearBits
 f1_keywords:
  - "wdm/RtlNumberOfClearBits"
+ - "RtlNumberOfClearBits"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlNumberOfClearBits
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

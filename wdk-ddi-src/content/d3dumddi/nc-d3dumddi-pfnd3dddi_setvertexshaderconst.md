@@ -10,6 +10,7 @@ keywords: ["PFND3DDDI_SETVERTEXSHADERCONST callback function"]
 ms.keywords: PFND3DDDI_SETVERTEXSHADERCONST, PFND3DDDI_SETVERTEXSHADERCONST callback, SetVertexShaderConst, SetVertexShaderConst callback function [Display Devices], UserModeDisplayDriver_Functions_473fa267-d7f2-47b7-bae8-3430d89dd632.xml, d3dumddi/SetVertexShaderConst, display.setvertexshaderconst
 f1_keywords:
  - "d3dumddi/SetVertexShaderConst"
+ - "SetVertexShaderConst"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - SetVertexShaderConst
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -7,6 +7,7 @@ ms.date: 09/19/2018
 keywords: ["IIndexableConcept::QueryInterface"]
 f1_keywords:
  - "dbgmodel/IIndexableConcept.QueryInterface"
+ - "IIndexableConcept.QueryInterface"
 ms.keywords: IIndexableConcept::QueryInterface, QueryInterface, IIndexableConcept.QueryInterface, IIndexableConcept::QueryInterface, IIndexableConcept.QueryInterface
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IIndexableConcept.QueryInterface
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

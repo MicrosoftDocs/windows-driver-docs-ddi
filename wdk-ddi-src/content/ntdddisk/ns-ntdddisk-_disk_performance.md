@@ -10,6 +10,7 @@ keywords: ["_DISK_PERFORMANCE structure"]
 ms.keywords: "*PDISK_PERFORMANCE, DISK_PERFORMANCE, DISK_PERFORMANCE structure [Storage Devices], PDISK_PERFORMANCE, PDISK_PERFORMANCE structure pointer [Storage Devices], _DISK_PERFORMANCE, ntdddisk/DISK_PERFORMANCE, ntdddisk/PDISK_PERFORMANCE, storage.disk_performance, structs-disk_64493b27-dce7-4976-9519-c7324bd09b69.xml"
 f1_keywords:
  - "ntdddisk/DISK_PERFORMANCE"
+ - "DISK_PERFORMANCE"
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntdddisk.h
 api_name:
 - DISK_PERFORMANCE
-product:
-- Windows
 targetos: Windows
 req.typenames: DISK_PERFORMANCE, *PDISK_PERFORMANCE
 ---

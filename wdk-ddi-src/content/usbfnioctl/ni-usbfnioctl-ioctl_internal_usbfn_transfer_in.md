@@ -10,6 +10,7 @@ keywords: ["IOCTL_INTERNAL_USBFN_TRANSFER_IN IOCTL"]
 ms.keywords: IOCTL_INTERNAL_USBFN_TRANSFER_IN, IOCTL_INTERNAL_USBFN_TRANSFER_IN control, IOCTL_INTERNAL_USBFN_TRANSFER_IN control code [Buses], buses._ioctl_internal_usbfn_transfer_in, usbfnioctl/IOCTL_INTERNAL_USBFN_TRANSFER_IN
 f1_keywords:
  - "usbfnioctl/IOCTL_INTERNAL_USBFN_TRANSFER_IN"
+ - "IOCTL_INTERNAL_USBFN_TRANSFER_IN"
 req.header: usbfnioctl.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - usbfnioctl.h
 api_name:
 - IOCTL_INTERNAL_USBFN_TRANSFER_IN
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

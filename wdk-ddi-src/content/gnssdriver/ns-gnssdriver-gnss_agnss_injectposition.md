@@ -10,6 +10,7 @@ keywords: ["GNSS_AGNSS_INJECTPOSITION structure"]
 ms.keywords: "*PGNSS_AGNSS_INJECTPOSITION, GNSS_AGNSS_INJECTPOSITION, GNSS_AGNSS_INJECTPOSITION structure [Sensor Devices], PGNSS_AGNSS_INJECTPOSITION, PGNSS_AGNSS_INJECTPOSITION structure pointer [Sensor Devices], gnss.gnss_agnss_injectposition, gnssdriver/GNSS_AGNSS_INJECTPOSITION, gnssdriver/PGNSS_AGNSS_INJECTPOSITION"
 f1_keywords:
  - "gnssdriver/GNSS_AGNSS_INJECTPOSITION"
+ - "GNSS_AGNSS_INJECTPOSITION"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - gnssdriver.h
 api_name:
 - GNSS_AGNSS_INJECTPOSITION
-product:
-- Windows
 targetos: Windows
 req.typenames: GNSS_AGNSS_INJECTPOSITION, *PGNSS_AGNSS_INJECTPOSITION
 ---

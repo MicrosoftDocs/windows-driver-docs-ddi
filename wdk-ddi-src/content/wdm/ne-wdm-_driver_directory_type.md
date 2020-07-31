@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_DRIVER_DIRECTORY_TYPE enumeration"]
 f1_keywords:
  - "wdm/_DRIVER_DIRECTORY_TYPE"
+ - "_DRIVER_DIRECTORY_TYPE"
 ms.keywords: _DRIVER_DIRECTORY_TYPE, DRIVER_DIRECTORY_TYPE, *PDRIVER_DIRECTORY_TYPE, 
 req.header: wdm.h
 req.include-header:
@@ -26,8 +27,6 @@ api_location:
 - wdm.h
 api_name: 
 - _DRIVER_DIRECTORY_TYPE
-product:
-- Windows
 targetos: Windows
 ---
 

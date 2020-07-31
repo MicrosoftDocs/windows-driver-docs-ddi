@@ -10,6 +10,7 @@ keywords: ["IOCTL_SCSI_MINIPORT_DSM IOCTL"]
 ms.keywords: IOCTL_SCSI_MINIPORT_DSM, IOCTL_SCSI_MINIPORT_DSM control, IOCTL_SCSI_MINIPORT_DSM control code [Storage Devices], scsi/IOCTL_SCSI_MINIPORT_DSM, storage.ioctl_scsi_miniport_dsm
 f1_keywords:
  - "storport/IOCTL_SCSI_MINIPORT_DSM"
+ - "IOCTL_SCSI_MINIPORT_DSM"
 req.header: storport.h
 req.include-header: Ntddscsi.h, Storport.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - scsi.h
 api_name:
 - IOCTL_SCSI_MINIPORT_DSM
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

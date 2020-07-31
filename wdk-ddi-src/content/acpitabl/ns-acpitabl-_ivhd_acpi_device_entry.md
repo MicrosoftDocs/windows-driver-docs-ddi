@@ -7,6 +7,7 @@ ms.date: 10/01/2018
 keywords: ["_IVHD_ACPI_DEVICE_ENTRY structure"]
 f1_keywords:
  - "acpitabl/_IVHD_ACPI_DEVICE_ENTRY"
+ - "_IVHD_ACPI_DEVICE_ENTRY"
 ms.keywords: _IVHD_ACPI_DEVICE_ENTRY, IVHD_ACPI_DEVICE_ENTRY, *PIVHD_ACPI_DEVICE_ENTRY, 
 req.header: acpitabl.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - acpitabl.h
 api_name: 
 - _IVHD_ACPI_DEVICE_ENTRY
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

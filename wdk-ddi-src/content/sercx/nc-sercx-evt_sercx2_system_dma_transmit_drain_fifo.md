@@ -10,6 +10,7 @@ keywords: ["EVT_SERCX2_SYSTEM_DMA_TRANSMIT_DRAIN_FIFO callback function"]
 ms.keywords: 2/EvtSerCx2SystemDmaTransmitDrainFifo, EVT_SERCX2_SYSTEM_DMA_TRANSMIT_DRAIN_FIFO, EVT_SERCX2_SYSTEM_DMA_TRANSMIT_DRAIN_FIFO callback, EvtSerCx2SystemDmaTransmitDrainFifo, EvtSerCx2SystemDmaTransmitDrainFifo callback function [Serial Ports], serports.evtsercx2systemdmatransmitdrainfifo
 f1_keywords:
  - "sercx/EvtSerCx2SystemDmaTransmitDrainFifo"
+ - "EvtSerCx2SystemDmaTransmitDrainFifo"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - 2.0\Sercx.h
 api_name:
 - EvtSerCx2SystemDmaTransmitDrainFifo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["OEMDisableDriver function"]
 ms.keywords: OEMDisableDriver, OEMDisableDriver function [Print Devices], print.oemdisabledriver, print_obsoletefunctions_b9594259-f9e5-43bf-b2dd-18ace2ddc25c.xml, printoem/OEMDisableDriver
 f1_keywords:
  - "printoem/OEMDisableDriver"
+ - "OEMDisableDriver"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - printoem.h
 api_name:
 - OEMDisableDriver
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["_CONTROLLER_ATTRIBUTE_FLAGS structure"]
 ms.keywords: "*PCONTROLLER_ATTRIBUTE_FLAGS, CONTROLLER_ATTRIBUTE_FLAGS, CONTROLLER_ATTRIBUTE_FLAGS structure [Parallel Ports], GPIO.controller_attribute_flags, PCONTROLLER_ATTRIBUTE_FLAGS, PCONTROLLER_ATTRIBUTE_FLAGS structure pointer [Parallel Ports], _CONTROLLER_ATTRIBUTE_FLAGS, gpioclx/CONTROLLER_ATTRIBUTE_FLAGS, gpioclx/PCONTROLLER_ATTRIBUTE_FLAGS"
 f1_keywords:
  - "gpioclx/CONTROLLER_ATTRIBUTE_FLAGS"
+ - "CONTROLLER_ATTRIBUTE_FLAGS"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Gpioclx.h
 api_name:
 - CONTROLLER_ATTRIBUTE_FLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: CONTROLLER_ATTRIBUTE_FLAGS, *PCONTROLLER_ATTRIBUTE_FLAGS
 ---

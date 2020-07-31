@@ -10,6 +10,7 @@ keywords: ["IPartFont::SetFontContent"]
 ms.keywords: IPartFont interface [Print Devices],SetFontContent method, IPartFont.SetFontContent, IPartFont::SetFontContent, SetFontContent, SetFontContent method [Print Devices], SetFontContent method [Print Devices],IPartFont interface, filterpipeline/IPartFont::SetFontContent, filterpipeline_1639cc2b-b1b6-4fa3-997b-3c98e32d2783.xml, print.ipartfont_setfontcontent
 f1_keywords:
  - "filterpipeline/IPartFont.SetFontContent"
+ - "IPartFont.SetFontContent"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - filterpipeline.h
 api_name:
 - IPartFont.SetFontContent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IDmaChannelSlave interface"]
 ms.keywords: IDmaChannelSlave, IDmaChannelSlave interface [Audio Devices], IDmaChannelSlave interface [Audio Devices], described, audio.idmachannelslave, audmp-routines_309d3b3a-de27-478d-a82f-0677e3d61bd2.xml, portcls/IDmaChannelSlave
 f1_keywords:
  - "portcls/IDmaChannelSlave"
+ - "IDmaChannelSlave"
 req.header: portcls.h
 req.include-header:
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IDmaChannelSlave
-product:
-- Windows
 targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---

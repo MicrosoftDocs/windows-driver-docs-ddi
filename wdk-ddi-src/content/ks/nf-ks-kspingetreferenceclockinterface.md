@@ -10,6 +10,7 @@ keywords: ["KsPinGetReferenceClockInterface function"]
 ms.keywords: KsPinGetReferenceClockInterface, KsPinGetReferenceClockInterface function [Streaming Media Devices], avfunc_7434698b-f441-4d80-91db-8fa5d7d10c60.xml, ks/KsPinGetReferenceClockInterface, stream.kspingetreferenceclockinterface
 f1_keywords:
  - "ks/KsPinGetReferenceClockInterface"
+ - "KsPinGetReferenceClockInterface"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsPinGetReferenceClockInterface
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

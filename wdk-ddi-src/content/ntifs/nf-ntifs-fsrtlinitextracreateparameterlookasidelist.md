@@ -10,6 +10,7 @@ keywords: ["FsRtlInitExtraCreateParameterLookasideList function"]
 ms.keywords: FsRtlInitExtraCreateParameterLookasideList, FsRtlInitExtraCreateParameterLookasideList routine [Installable File System Drivers], fsrtlref_4b4e21ec-cfcc-45b7-bcb9-74dbc7c486ac.xml, ifsk.fsrtlinitextracreateparameterlookasidelist, ntifs/FsRtlInitExtraCreateParameterLookasideList
 f1_keywords:
  - "ntifs/FsRtlInitExtraCreateParameterLookasideList"
+ - "FsRtlInitExtraCreateParameterLookasideList"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlInitExtraCreateParameterLookasideList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

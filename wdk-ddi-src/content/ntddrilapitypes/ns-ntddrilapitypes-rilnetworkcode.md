@@ -10,6 +10,7 @@ keywords: ["RILNETWORKCODE structure"]
 ms.keywords: "*LPRILNETWORKCODE, RILNETWORKCODE, RILNETWORKCODE structure [Network Drivers Starting with Windows Vista], netvista.rilnetworkcode, rilapitypes/RILNETWORKCODE"
 f1_keywords:
  - "ntddrilapitypes/RILNETWORKCODE"
+ - "RILNETWORKCODE"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapitypes.h
 api_name:
 - RILNETWORKCODE
-product:
-- Windows
 targetos: Windows
 req.typenames: RILNETWORKCODE, *LPRILNETWORKCODE
 ---

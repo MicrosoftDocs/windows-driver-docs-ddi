@@ -10,6 +10,7 @@ keywords: ["IoInvalidateDeviceState function"]
 ms.keywords: IoInvalidateDeviceState, IoInvalidateDeviceState routine [Kernel-Mode Driver Architecture], k104_05ef79e6-a7d1-4de4-aefa-5aa7d9121f04.xml, kernel.ioinvalidatedevicestate, wdm/IoInvalidateDeviceState
 f1_keywords:
  - "wdm/IoInvalidateDeviceState"
+ - "IoInvalidateDeviceState"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoInvalidateDeviceState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

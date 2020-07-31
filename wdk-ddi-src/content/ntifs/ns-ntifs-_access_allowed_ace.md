@@ -10,6 +10,7 @@ keywords: ["_ACCESS_ALLOWED_ACE structure"]
 ms.keywords: "*PACCESS_ALLOWED_ACE, ACCESS_ALLOWED_ACE, ACCESS_ALLOWED_ACE structure [Installable File System Drivers], PACCESS_ALLOWED_ACE, PACCESS_ALLOWED_ACE structure pointer [Installable File System Drivers], _ACCESS_ALLOWED_ACE, ifsk.access_allowed_ace, ntifs/ACCESS_ALLOWED_ACE, ntifs/PACCESS_ALLOWED_ACE, securitystructures_2dd3ec4a-0dc9-4268-8968-1a284b7124e6.xml"
 f1_keywords:
  - "ntifs/ACCESS_ALLOWED_ACE"
+ - "ACCESS_ALLOWED_ACE"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - ACCESS_ALLOWED_ACE
-product:
-- Windows
 targetos: Windows
 req.typenames: ACCESS_ALLOWED_ACE
 ---

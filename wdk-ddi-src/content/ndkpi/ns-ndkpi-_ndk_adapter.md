@@ -10,6 +10,7 @@ keywords: ["_NDK_ADAPTER structure"]
 ms.keywords: NDK_ADAPTER, NDK_ADAPTER structure [Network Drivers Starting with Windows Vista], PNDK_ADAPTER, PNDK_ADAPTER structure pointer [Network Drivers Starting with Windows Vista], _NDK_ADAPTER, ndkpi/NDK_ADAPTER, ndkpi/PNDK_ADAPTER, netvista.ndk_adapter
 f1_keywords:
  - "ndkpi/NDK_ADAPTER"
+ - "NDK_ADAPTER"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ndkpi.h
 api_name:
 - NDK_ADAPTER
-product:
-- Windows
 targetos: Windows
 req.typenames: NDK_ADAPTER
 ---

@@ -10,6 +10,7 @@ keywords: ["_SECURE_ELEMENT_EVENT_INFO structure"]
 ms.keywords: "*PSECURE_ELEMENT_EVENT_INFO, PSECURE_ELEMENT_EVENT_INFO, PSECURE_ELEMENT_EVENT_INFO structure pointer [Near-Field Proximity Drivers], SECURE_ELEMENT_EVENT_INFO, SECURE_ELEMENT_EVENT_INFO structure [Near-Field Proximity Drivers], _SECURE_ELEMENT_EVENT_INFO, nfcsedev/PSECURE_ELEMENT_EVENT_INFO, nfcsedev/SECURE_ELEMENT_EVENT_INFO, nfpdrivers.secure_element_event_info"
 f1_keywords:
  - "nfcsedev/SECURE_ELEMENT_EVENT_INFO"
+ - "SECURE_ELEMENT_EVENT_INFO"
 req.header: nfcsedev.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - nfcsedev.h
 api_name:
 - SECURE_ELEMENT_EVENT_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: SECURE_ELEMENT_EVENT_INFO, *PSECURE_ELEMENT_EVENT_INFO
 ---

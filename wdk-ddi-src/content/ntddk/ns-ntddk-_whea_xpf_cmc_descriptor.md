@@ -10,6 +10,7 @@ keywords: ["_WHEA_XPF_CMC_DESCRIPTOR structure"]
 ms.keywords: "*PWHEA_XPF_CMC_DESCRIPTOR, PWHEA_XPF_CMC_DESCRIPTOR, PWHEA_XPF_CMC_DESCRIPTOR structure pointer [WHEA Drivers and Applications], WHEA_XPF_CMC_DESCRIPTOR, WHEA_XPF_CMC_DESCRIPTOR structure [WHEA Drivers and Applications], _WHEA_XPF_CMC_DESCRIPTOR, ntddk/PWHEA_XPF_CMC_DESCRIPTOR, ntddk/WHEA_XPF_CMC_DESCRIPTOR, whea.whea_xpf_cmc_descriptor, whearef_a14dc817-f689-492c-8993-1a5c9869a6c6.xml"
 f1_keywords:
  - "ntddk/WHEA_XPF_CMC_DESCRIPTOR"
+ - "WHEA_XPF_CMC_DESCRIPTOR"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - WHEA_XPF_CMC_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: WHEA_XPF_CMC_DESCRIPTOR, *PWHEA_XPF_CMC_DESCRIPTOR
 ---

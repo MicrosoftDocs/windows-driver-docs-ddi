@@ -10,6 +10,7 @@ keywords: ["IServiceGroup::CancelDelayedService"]
 ms.keywords: CancelDelayedService, CancelDelayedService method [Audio Devices], CancelDelayedService method [Audio Devices],IServiceGroup interface, IServiceGroup interface [Audio Devices],CancelDelayedService method, IServiceGroup.CancelDelayedService, IServiceGroup::CancelDelayedService, audio.iservicegroup_canceldelayedservice, audmp-routines_7d31f9ff-5b00-4f74-ad2a-08f901db81ff.xml, portcls/IServiceGroup::CancelDelayedService
 f1_keywords:
  - "portcls/IServiceGroup.CancelDelayedService"
+ - "IServiceGroup.CancelDelayedService"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IServiceGroup.CancelDelayedService
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

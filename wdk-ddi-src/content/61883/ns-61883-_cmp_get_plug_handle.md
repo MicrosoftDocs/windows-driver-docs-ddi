@@ -10,6 +10,7 @@ keywords: ["_CMP_GET_PLUG_HANDLE structure"]
 ms.keywords: "*PCMP_GET_PLUG_HANDLE, 61883/CMP_GET_PLUG_HANDLE, 61883/PCMP_GET_PLUG_HANDLE, CMP_GET_PLUG_HANDLE, CMP_GET_PLUG_HANDLE structure [Buses], IEEE.cmp_get_plug_handle, PCMP_GET_PLUG_HANDLE, PCMP_GET_PLUG_HANDLE structure pointer [Buses], _CMP_GET_PLUG_HANDLE"
 f1_keywords:
  - "61883/CMP_GET_PLUG_HANDLE"
+ - "CMP_GET_PLUG_HANDLE"
 req.header: 61883.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - 61883.h
 api_name:
 - CMP_GET_PLUG_HANDLE
-product:
-- Windows
 targetos: Windows
 req.typenames: CMP_GET_PLUG_HANDLE, *PCMP_GET_PLUG_HANDLE
 ---

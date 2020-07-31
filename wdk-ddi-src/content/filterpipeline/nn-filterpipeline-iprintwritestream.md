@@ -10,6 +10,7 @@ keywords: ["IPrintWriteStream interface"]
 ms.keywords: IPrintWriteStream, IPrintWriteStream interface [Print Devices], IPrintWriteStream interface [Print Devices],described, filterpipeline/IPrintWriteStream, filterpipeline_edf6ac16-09e1-433a-8f41-50ba308dc7a7.xml, print.iprintwritestream
 f1_keywords:
  - "filterpipeline/IPrintWriteStream"
+ - "IPrintWriteStream"
 req.header: filterpipeline.h
 req.include-header: Filterpipeline.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - filterpipeline.h
 api_name:
 - IPrintWriteStream
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,7 +52,7 @@ Filters use the <code>IPrintWriteStream</code> interface to write data as a raw 
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintWriteStream</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintWriteStream</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintWriteStream</b> interface inherits from the <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintWriteStream</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

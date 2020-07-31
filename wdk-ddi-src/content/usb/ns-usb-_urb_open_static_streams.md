@@ -10,6 +10,7 @@ keywords: ["_URB_OPEN_STATIC_STREAMS structure"]
 ms.keywords: "_URB_OPEN_STATIC_STREAMS, _URB_OPEN_STATIC_STREAMS structure [Buses], buses._urb_open_basic_streams, usb/_URB_OPEN_STATIC_STREAMS"
 f1_keywords:
  - "usb/_URB_OPEN_STATIC_STREAMS"
+ - "_URB_OPEN_STATIC_STREAMS"
 req.header: usb.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Usb.h
 api_name:
 - _URB_OPEN_STATIC_STREAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

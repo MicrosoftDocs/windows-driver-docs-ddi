@@ -10,6 +10,7 @@ keywords: ["RtlFreeUnicodeString function"]
 ms.keywords: RtlFreeUnicodeString, RtlFreeUnicodeString routine [Kernel-Mode Driver Architecture], k109_c23e6c5e-d2dd-4b88-8249-5f88ad8482ad.xml, kernel.rtlfreeunicodestring, wdm/RtlFreeUnicodeString
 f1_keywords:
  - "wdm/RtlFreeUnicodeString"
+ - "RtlFreeUnicodeString"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlFreeUnicodeString
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

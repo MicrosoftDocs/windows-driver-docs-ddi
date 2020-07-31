@@ -7,6 +7,7 @@ ms.date: 07/19/2018
 keywords: ["IDataModelManager::RegisterExtensionForTypeSignature"]
 f1_keywords:
  - "dbgmodel/IDataModelManager.RegisterExtensionForTypeSignature"
+ - "IDataModelManager.RegisterExtensionForTypeSignature"
 ms.keywords: IDataModelManager::RegisterExtensionForTypeSignature, RegisterExtensionForTypeSignature, IDataModelManager.RegisterExtensionForTypeSignature, IDataModelManager::RegisterExtensionForTypeSignature, IDataModelManager.RegisterExtensionForTypeSignature
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDataModelManager.RegisterExtensionForTypeSignature
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

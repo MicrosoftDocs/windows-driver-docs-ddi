@@ -10,6 +10,7 @@ keywords: ["_BOOTDISK_INFORMATION structure"]
 ms.keywords: "*PBOOTDISK_INFORMATION, BOOTDISK_INFORMATION, BOOTDISK_INFORMATION structure [Kernel-Mode Driver Architecture], PBOOTDISK_INFORMATION, PBOOTDISK_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _BOOTDISK_INFORMATION, kernel.bootdisk_information, kstruct_a_61cd1024-0bb4-4601-a458-4bf52a2339d5.xml, wdm/BOOTDISK_INFORMATION, wdm/PBOOTDISK_INFORMATION"
 f1_keywords:
  - "wdm/BOOTDISK_INFORMATION"
+ - "BOOTDISK_INFORMATION"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - BOOTDISK_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: BOOTDISK_INFORMATION, *PBOOTDISK_INFORMATION
 ---

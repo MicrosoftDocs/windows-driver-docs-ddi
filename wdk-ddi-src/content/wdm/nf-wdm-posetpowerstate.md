@@ -10,6 +10,7 @@ keywords: ["PoSetPowerState function"]
 ms.keywords: PoSetPowerState, PoSetPowerState routine [Kernel-Mode Driver Architecture], kernel.posetpowerstate, portn_b6d6559d-e4c7-4fa8-b0f2-556b840391f9.xml, wdm/PoSetPowerState
 f1_keywords:
  - "wdm/PoSetPowerState"
+ - "PoSetPowerState"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - PoSetPowerState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

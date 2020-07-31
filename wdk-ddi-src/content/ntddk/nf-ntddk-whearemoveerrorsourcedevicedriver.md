@@ -10,6 +10,7 @@ ms.date: 04/28/2020
 keywords: ["WheaRemoveErrorSourceDeviceDriver function"]
 f1_keywords:
  - "ntddk/WheaRemoveErrorSourceDeviceDriver"
+ - "WheaRemoveErrorSourceDeviceDriver"
 ms.keywords: WheaRemoveErrorSourceDeviceDriver
 req.header: ntddk.h
 req.include-header:

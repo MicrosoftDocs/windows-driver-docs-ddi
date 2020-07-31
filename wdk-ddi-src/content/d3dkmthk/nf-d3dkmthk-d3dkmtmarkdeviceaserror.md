@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMTMarkDeviceAsError function"]
 f1_keywords:
  - "d3dkmthk/D3DKMTMarkDeviceAsError"
+ - "D3DKMTMarkDeviceAsError"
 ms.keywords: D3DKMTMarkDeviceAsError
 req.header: d3dkmthk.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - Gdi32.dll
 api_name: 
 - D3DKMTMarkDeviceAsError
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

@@ -10,6 +10,7 @@ keywords: ["IWDFDevice::SetPnpState"]
 ms.keywords: IWDFDevice interface,SetPnpState method, IWDFDevice.SetPnpState, IWDFDevice::SetPnpState, SetPnpState, SetPnpState method, SetPnpState method,IWDFDevice interface, UMDFDeviceObjectRef_1efea639-31d7-4420-8b8a-c528597ceffb.xml, umdf.iwdfdevice_setpnpstate, wdf.iwdfdevice_setpnpstate, wudfddi/IWDFDevice::SetPnpState
 f1_keywords:
  - "wudfddi/IWDFDevice.SetPnpState"
+ - "IWDFDevice.SetPnpState"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFDevice.SetPnpState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["WdfDeviceAllocAndQueryProperty function"]
 ms.keywords: DFDeviceObjectGeneralRef_d093b9da-de6b-467d-a6bd-c25d7a4145f8.xml, WdfDeviceAllocAndQueryProperty, WdfDeviceAllocAndQueryProperty method, kmdf.wdfdeviceallocandqueryproperty, wdf.wdfdeviceallocandqueryproperty, wdfdevice/WdfDeviceAllocAndQueryProperty
 f1_keywords:
  - "wdfdevice/WdfDeviceAllocAndQueryProperty"
+ - "WdfDeviceAllocAndQueryProperty"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfDeviceAllocAndQueryProperty
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

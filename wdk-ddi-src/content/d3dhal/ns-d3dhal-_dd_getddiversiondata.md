@@ -10,6 +10,7 @@ keywords: ["_DD_GETDDIVERSIONDATA structure"]
 ms.keywords: DD_GETDDIVERSIONDATA, DD_GETDDIVERSIONDATA structure [Display Devices], _DD_GETDDIVERSIONDATA, d3dhal/DD_GETDDIVERSIONDATA, d3dstrct_c15b9015-5e12-41bc-a44b-751f2a8813e9.xml, display.dd_getddiversiondata
 f1_keywords:
  - "d3dhal/DD_GETDDIVERSIONDATA"
+ - "DD_GETDDIVERSIONDATA"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dhal.h
 api_name:
 - DD_GETDDIVERSIONDATA
-product:
-- Windows
 targetos: Windows
 req.typenames: DD_GETDDIVERSIONDATA
 ---

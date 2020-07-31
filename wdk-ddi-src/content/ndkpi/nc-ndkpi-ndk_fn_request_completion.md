@@ -10,6 +10,7 @@ keywords: ["NDK_FN_REQUEST_COMPLETION callback function"]
 ms.keywords: NDK_FN_REQUEST_COMPLETION, NDK_FN_REQUEST_COMPLETION callback, NdkRequestCompletion, NdkRequestCompletion callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkRequestCompletion, netvista.ndk_fn_request_completion
 f1_keywords:
  - "ndkpi/NdkRequestCompletion"
+ - "NdkRequestCompletion"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ndkpi.h
 api_name:
 - NdkRequestCompletion
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

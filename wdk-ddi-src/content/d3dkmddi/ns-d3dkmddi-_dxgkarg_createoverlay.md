@@ -9,6 +9,7 @@ keywords: ["_DXGKARG_CREATEOVERLAY structure"]
 ms.keywords: "*INOUT_PDXGKARG_CREATEOVERLAY, DXGKARG_CREATEOVERLAY, DXGKARG_CREATEOVERLAY structure [Display Devices], DmStructs_935ab2cb-070a-4700-8ace-62c4c44c42b5.xml, _DXGKARG_CREATEOVERLAY, d3dkmddi/DXGKARG_CREATEOVERLAY, display.dxgkarg_createoverlay"
 f1_keywords:
  - "d3dkmddi/DXGKARG_CREATEOVERLAY"
+ - "DXGKARG_CREATEOVERLAY"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGKARG_CREATEOVERLAY
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGKARG_CREATEOVERLAY

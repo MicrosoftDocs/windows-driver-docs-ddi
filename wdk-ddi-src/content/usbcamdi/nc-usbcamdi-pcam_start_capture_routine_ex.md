@@ -10,6 +10,7 @@ keywords: ["PCAM_START_CAPTURE_ROUTINE_EX callback function"]
 ms.keywords: CamStartCaptureEx, CamStartCaptureEx routine [Streaming Media Devices], PCAM_START_CAPTURE_ROUTINE_EX, stream.camstartcaptureex, usbcamdi/CamStartCaptureEx, usbcmdpr_b6e64f48-1afd-40b0-adbe-dc5afb83d045.xml
 f1_keywords:
  - "usbcamdi/CamStartCaptureEx"
+ - "CamStartCaptureEx"
 req.header: usbcamdi.h
 req.include-header: Usbcamdi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - usbcamdi.h
 api_name:
 - CamStartCaptureEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

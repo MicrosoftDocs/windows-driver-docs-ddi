@@ -10,6 +10,7 @@ keywords: ["NdisClCloseAddressFamily function"]
 ms.keywords: NdisClCloseAddressFamily, NdisClCloseAddressFamily function [Network Drivers Starting with Windows Vista], condis_client_ref_6aa6db12-2ebe-444a-a239-46542dd1be4a.xml, ndis/NdisClCloseAddressFamily, netvista.ndisclcloseaddressfamily
 f1_keywords:
  - "ndis/NdisClCloseAddressFamily"
+ - "NdisClCloseAddressFamily"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisClCloseAddressFamily
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

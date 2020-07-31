@@ -10,6 +10,7 @@ keywords: ["MmMapMdl function"]
 ms.keywords: MmMapMdl, MmMapMdl function [Kernel-Mode Driver Architecture], kernel.mmmapmdl, wdm/MmMapMdl
 f1_keywords:
  - "wdm/MmMapMdl"
+ - "MmMapMdl"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - MmMapMdl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

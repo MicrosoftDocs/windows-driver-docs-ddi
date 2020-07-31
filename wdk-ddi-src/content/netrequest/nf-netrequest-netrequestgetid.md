@@ -8,6 +8,7 @@ ms.date: 02/08/2018
 keywords: ["NetRequestGetId function"]
 f1_keywords:
  - "netrequest/NetRequestGetId"
+ - "NetRequestGetId"
 ms.keywords: NetRequestGetId
 req.header: netrequest.h
 req.include-header: netadaptercx.h
@@ -37,8 +38,6 @@ api_location:
 api_name: 
 - NetRequestGetId
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetRequestGetId function

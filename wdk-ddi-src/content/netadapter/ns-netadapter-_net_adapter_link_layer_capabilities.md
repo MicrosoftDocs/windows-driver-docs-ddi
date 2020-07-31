@@ -8,6 +8,7 @@ ms.date: 09/27/2019
 keywords: ["_NET_ADAPTER_LINK_LAYER_CAPABILITIES structure"]
 f1_keywords:
  - "netadapter/NET_ADAPTER_LINK_LAYER_CAPABILITIES"
+ - "NET_ADAPTER_LINK_LAYER_CAPABILITIES"
 ms.keywords: _NET_ADAPTER_LINK_LAYER_CAPABILITIES, *PNET_ADAPTER_LINK_LAYER_CAPABILITIES, NET_ADAPTER_LINK_LAYER_CAPABILITIES, 
 req.header: netadapter.h
 req.include-header: netadaptercx.h
@@ -33,8 +34,6 @@ api_location:
 api_name: 
 - NET_ADAPTER_LINK_LAYER_CAPABILITIES
 targetos: Windows
-product:
-- Windows
 ---
 
 # _NET_ADAPTER_LINK_LAYER_CAPABILITIES structure

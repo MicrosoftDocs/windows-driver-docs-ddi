@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DlAllocatePool function"]
 f1_keywords:
  - "dispmprt/DlAllocatePool"
+ - "DlAllocatePool"
 ms.keywords: DlAllocatePool
 req.header: dispmprt.h
 req.include-header:

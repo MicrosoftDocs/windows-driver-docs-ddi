@@ -10,6 +10,7 @@ keywords: ["RILPOSITIONINFOUMTS structure"]
 ms.keywords: "*LPRILPOSITIONINFOUMTS, RILPOSITIONINFOUMTS, RILPOSITIONINFOUMTS structure [Network Drivers Starting with Windows Vista], netvista.rilpositioninfoumts, rilapitypes/RILPOSITIONINFOUMTS"
 f1_keywords:
  - "ntddrilapitypes/RILPOSITIONINFOUMTS"
+ - "RILPOSITIONINFOUMTS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapitypes.h
 api_name:
 - RILPOSITIONINFOUMTS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILPOSITIONINFOUMTS, *LPRILPOSITIONINFOUMTS
 ---

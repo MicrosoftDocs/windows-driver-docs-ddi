@@ -10,6 +10,7 @@ keywords: ["ExtRemoteList::StartHead"]
 ms.keywords: EngExtCpp_Ref_cb3b3efb-2dd6-4319-85e1-2048cfae9b7c.xml, ExtRemoteList class [Windows Debugging],StartHead method, ExtRemoteList.StartHead, ExtRemoteList::StartHead, StartHead, StartHead method [Windows Debugging], StartHead method [Windows Debugging],ExtRemoteList class, debugger.extremotelist_starthead
 f1_keywords:
  - "engextcpp/ExtRemoteList.StartHead"
+ - "ExtRemoteList.StartHead"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - engextcpp.hpp
 api_name:
 - ExtRemoteList.StartHead
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

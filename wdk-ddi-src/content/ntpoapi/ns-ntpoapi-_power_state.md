@@ -10,6 +10,7 @@ keywords: ["_POWER_STATE structure"]
 ms.keywords: "*PPOWER_STATE, POWER_STATE, POWER_STATE union [Kernel-Mode Driver Architecture], PPOWER_STATE, PPOWER_STATE union pointer [Kernel-Mode Driver Architecture], _POWER_STATE, kernel.power_state, kstruct_c_a0fca0b4-3d45-48e4-b3ee-ba473ac08347.xml, wdm/POWER_STATE, wdm/PPOWER_STATE"
 f1_keywords:
  - "ntpoapi/POWER_STATE"
+ - "POWER_STATE"
 req.header: ntpoapi.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Ntpoapi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - POWER_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: POWER_STATE, *PPOWER_STATE
 ---

@@ -10,6 +10,7 @@ keywords: ["RTL_RUN_ONCE_INIT_FN callback function"]
 ms.keywords: DrvrRtns_2bf4e129-77ac-4525-9504-4f039a503943.xml, RTL_RUN_ONCE_INIT_FN, RunOnceInitialization, RunOnceInitialization routine [Kernel-Mode Driver Architecture], kernel.runonceinitialization, ntddk/RunOnceInitialization
 f1_keywords:
  - "ntddk/RunOnceInitialization"
+ - "RunOnceInitialization"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Ntddk.h
 api_name:
 - RunOnceInitialization
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

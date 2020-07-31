@@ -10,6 +10,7 @@ keywords: ["SerCxGetRingBufferUtilization function"]
 ms.keywords: 1/SerCxGetRingBufferUtilization, SerCxGetRingBufferUtilization, SerCxGetRingBufferUtilization method [Serial Ports], serports.sercxgetringbufferutilization
 f1_keywords:
  - "sercx/SerCxGetRingBufferUtilization"
+ - "SerCxGetRingBufferUtilization"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - 1.0\Sercx.h
 api_name:
 - SerCxGetRingBufferUtilization
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

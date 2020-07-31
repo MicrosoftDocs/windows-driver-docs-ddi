@@ -9,6 +9,7 @@ keywords: ["PFND3D10DDI_STATE_OM_DEPTHSTATE_CB callback function"]
 ms.keywords: PFND3D10DDI_STATE_OM_DEPTHSTATE_CB, PFND3D10DDI_STATE_OM_DEPTHSTATE_CB callback, d3d10state_functions_85bda608-2aa7-4756-9901-4f568b87ca6b.xml, d3d10umddi/pfnStateOmDepthStateCb, display.pfnstateomdepthstatecb, pfnStateOmDepthStateCb, pfnStateOmDepthStateCb callback function [Display Devices]
 f1_keywords:
  - "d3d10umddi/pfnStateOmDepthStateCb"
+ - "pfnStateOmDepthStateCb"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - pfnStateOmDepthStateCb
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

@@ -10,6 +10,7 @@ keywords: ["UcmConnectorChargingStateChanged function"]
 ms.keywords: UcmConnectorChargingStateChanged, UcmConnectorChargingStateChanged method [Buses], buses.ucmconnectorchargingstatechanged, ucmmanager/UcmConnectorChargingStateChanged
 f1_keywords:
  - "ucmmanager/UcmConnectorChargingStateChanged"
+ - "UcmConnectorChargingStateChanged"
 req.header: ucmmanager.h
 req.include-header: Ucmcx.h
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 - UcmCxstub.dll
 api_name:
 - UcmConnectorChargingStateChanged
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

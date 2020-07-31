@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_QUERYADAPTERINFO structure"]
 ms.keywords: D3DKMT_QUERYADAPTERINFO, D3DKMT_QUERYADAPTERINFO structure [Display Devices], OpenGL_Structs_10a338e9-c5a8-44e0-9ad7-87d5a3ab742e.xml, _D3DKMT_QUERYADAPTERINFO, d3dkmthk/D3DKMT_QUERYADAPTERINFO, display.d3dkmt_queryadapterinfo
 f1_keywords:
  - "d3dkmthk/D3DKMT_QUERYADAPTERINFO"
+ - "D3DKMT_QUERYADAPTERINFO"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMT_QUERYADAPTERINFO
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_QUERYADAPTERINFO

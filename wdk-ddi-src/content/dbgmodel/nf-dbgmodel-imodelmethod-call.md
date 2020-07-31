@@ -7,6 +7,7 @@ ms.date: 08/13/2018
 keywords: ["IModelMethod::Call"]
 f1_keywords:
  - "dbgmodel/IModelMethod.Call"
+ - "IModelMethod.Call"
 ms.keywords: IModelMethod::Call, Call, IModelMethod.Call, IModelMethod::Call, IModelMethod.Call
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IModelMethod.Call
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

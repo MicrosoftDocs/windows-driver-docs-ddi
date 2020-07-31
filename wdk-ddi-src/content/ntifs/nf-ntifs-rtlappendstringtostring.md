@@ -10,6 +10,7 @@ keywords: ["RtlAppendStringToString function"]
 ms.keywords: RtlAppendStringToString, RtlAppendStringToString routine [Installable File System Drivers], ifsk.rtlappendstringtostring, ntifs/RtlAppendStringToString, rtlref_a5cf2f54-1094-44ea-8b05-0c3d08aa5abc.xml
 f1_keywords:
  - "ntifs/RtlAppendStringToString"
+ - "RtlAppendStringToString"
 req.header: ntifs.h
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlAppendStringToString
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

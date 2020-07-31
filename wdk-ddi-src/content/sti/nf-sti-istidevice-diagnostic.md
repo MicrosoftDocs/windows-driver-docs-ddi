@@ -10,6 +10,7 @@ keywords: ["IStiDevice::Diagnostic"]
 ms.keywords: Diagnostic, Diagnostic method [Imaging Devices], Diagnostic method [Imaging Devices],IStiDevice interface, IStiDevice interface [Imaging Devices],Diagnostic method, IStiDevice.Diagnostic, IStiDevice::Diagnostic, image.istidevice_diagnostic, sti/IStiDevice::Diagnostic, stifnc_68471629-529f-48c5-bcaf-8be60f5f50c0.xml
 f1_keywords:
  - "sti/IStiDevice.Diagnostic"
+ - "IStiDevice.Diagnostic"
 req.header: sti.h
 req.include-header: Sti.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - sti.h
 api_name:
 - IStiDevice.Diagnostic
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

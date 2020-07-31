@@ -10,6 +10,7 @@ keywords: ["GPIO_CLX_ProcessAddDevicePostDeviceCreate function"]
 ms.keywords: GPIO.gpio_clx_processadddevicepostdevicecreate, GPIO_CLX_ProcessAddDevicePostDeviceCreate, GPIO_CLX_ProcessAddDevicePostDeviceCreate method [Parallel Ports], gpioclx/GPIO_CLX_ProcessAddDevicePostDeviceCreate
 f1_keywords:
  - "gpioclx/GPIO_CLX_ProcessAddDevicePostDeviceCreate"
+ - "GPIO_CLX_ProcessAddDevicePostDeviceCreate"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Msgpioclxstub.dll
 api_name:
 - GPIO_CLX_ProcessAddDevicePostDeviceCreate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

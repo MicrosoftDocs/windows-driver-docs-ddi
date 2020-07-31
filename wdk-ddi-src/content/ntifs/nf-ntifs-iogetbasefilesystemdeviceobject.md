@@ -10,6 +10,7 @@ keywords: ["IoGetBaseFileSystemDeviceObject function"]
 ms.keywords: IoGetBaseFileSystemDeviceObject, IoGetBaseFileSystemDeviceObject function [Installable File System Drivers], ifsk.iogetbasefilesystemdeviceobject, ioref_008b0d20-a816-4f24-9439-ffe97ac8dc04.xml, ntifs/IoGetBaseFileSystemDeviceObject
 f1_keywords:
  - "ntifs/IoGetBaseFileSystemDeviceObject"
+ - "IoGetBaseFileSystemDeviceObject"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - IoGetBaseFileSystemDeviceObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

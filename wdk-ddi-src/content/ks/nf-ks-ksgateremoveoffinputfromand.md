@@ -10,6 +10,7 @@ keywords: ["KsGateRemoveOffInputFromAnd function"]
 ms.keywords: KsGateRemoveOffInputFromAnd, KsGateRemoveOffInputFromAnd function [Streaming Media Devices], avfunc_604705b6-08f8-4048-8b29-f89b645f971a.xml, ks/KsGateRemoveOffInputFromAnd, stream.ksgateremoveoffinputfromand
 f1_keywords:
  - "ks/KsGateRemoveOffInputFromAnd"
+ - "KsGateRemoveOffInputFromAnd"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KsGateRemoveOffInputFromAnd
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

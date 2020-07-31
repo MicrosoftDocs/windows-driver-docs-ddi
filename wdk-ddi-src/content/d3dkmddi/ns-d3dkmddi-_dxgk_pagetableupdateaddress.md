@@ -9,6 +9,7 @@ keywords: ["_DXGK_PAGETABLEUPDATEADDRESS structure"]
 ms.keywords: DXGK_PAGETABLEUPDATEADDRESS, DXGK_PAGETABLEUPDATEADDRESS structure [Display Devices], _DXGK_PAGETABLEUPDATEADDRESS, d3dkmddi/DXGK_PAGETABLEUPDATEADDRESS, display.dxgk_pagetableupdateaddress
 f1_keywords:
  - "d3dkmddi/DXGK_PAGETABLEUPDATEADDRESS"
+ - "DXGK_PAGETABLEUPDATEADDRESS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGK_PAGETABLEUPDATEADDRESS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_PAGETABLEUPDATEADDRESS

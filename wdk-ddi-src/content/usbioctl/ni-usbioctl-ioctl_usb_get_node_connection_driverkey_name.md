@@ -10,6 +10,7 @@ keywords: ["IOCTL_USB_GET_NODE_CONNECTION_DRIVERKEY_NAME IOCTL"]
 ms.keywords: IOCTL_USB_GET_NODE_CONNECTION_DRIVERKEY_NAME, IOCTL_USB_GET_NODE_CONNECTION_DRIVERKEY_NAME control, IOCTL_USB_GET_NODE_CONNECTION_DRIVERKEY_NAME control code [Buses], buses.ioctl_usb_get_node_connection_driverkey_name, usbioctl/IOCTL_USB_GET_NODE_CONNECTION_DRIVERKEY_NAME, usbirp_cdc9e1be-96fd-41d4-a0d3-1303b0b4fb1d.xml
 f1_keywords:
  - "usbioctl/IOCTL_USB_GET_NODE_CONNECTION_DRIVERKEY_NAME"
+ - "IOCTL_USB_GET_NODE_CONNECTION_DRIVERKEY_NAME"
 req.header: usbioctl.h
 req.include-header: Usbioctl.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Usbioctl.h
 api_name:
 - IOCTL_USB_GET_NODE_CONNECTION_DRIVERKEY_NAME
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

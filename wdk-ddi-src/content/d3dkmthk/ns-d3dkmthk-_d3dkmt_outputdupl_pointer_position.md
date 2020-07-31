@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_OUTPUTDUPL_POINTER_POSITION structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_OUTPUTDUPL_POINTER_POSITION"
+ - "_D3DKMT_OUTPUTDUPL_POINTER_POSITION"
 ms.keywords: _D3DKMT_OUTPUTDUPL_POINTER_POSITION, D3DKMT_OUTPUTDUPL_POINTER_POSITION, 
 req.header: d3dkmthk.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - d3dkmthk.h
 api_name: 
 - _D3DKMT_OUTPUTDUPL_POINTER_POSITION
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

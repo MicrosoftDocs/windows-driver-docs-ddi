@@ -10,6 +10,7 @@ keywords: ["PFREE_ADAPTER_CHANNEL callback function"]
 ms.keywords: FreeAdapterChannel, FreeAdapterChannel callback function [Kernel-Mode Driver Architecture], PFREE_ADAPTER_CHANNEL, PFREE_ADAPTER_CHANNEL callback, kdma_f48025a6-96a2-4bdd-8b48-6c939bdf738b.xml, kernel.freeadapterchannel, wdm/FreeAdapterChannel
 f1_keywords:
  - "wdm/FreeAdapterChannel"
+ - "FreeAdapterChannel"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - FreeAdapterChannel
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

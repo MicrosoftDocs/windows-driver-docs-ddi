@@ -10,6 +10,7 @@ keywords: ["ObDereferenceObject macro"]
 ms.keywords: ObDereferenceObject, ObDereferenceObject routine [Kernel-Mode Driver Architecture], k107_bc67abd9-66b2-4cd7-81c0-48ad0fa6c87d.xml, kernel.obdereferenceobject, wdm/ObDereferenceObject
 f1_keywords:
  - "wdm/ObDereferenceObject"
+ - "ObDereferenceObject"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - ObDereferenceObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

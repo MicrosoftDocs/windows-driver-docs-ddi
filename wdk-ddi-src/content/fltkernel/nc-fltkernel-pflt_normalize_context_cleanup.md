@@ -10,6 +10,7 @@ keywords: ["PFLT_NORMALIZE_CONTEXT_CLEANUP callback function"]
 ms.keywords: FltCallbacks_3391a3bd-55a2-4f87-b116-78c2e4f93b88.xml, NormalizeContextCleanupCallback, NormalizeContextCleanupCallback routine [Installable File System Drivers], PFLT_NORMALIZE_CONTEXT_CLEANUP, fltkernel/NormalizeContextCleanupCallback, ifsk.pflt_normalize_context_cleanup
 f1_keywords:
  - "fltkernel/NormalizeContextCleanupCallback"
+ - "NormalizeContextCleanupCallback"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - fltkernel.h
 api_name:
 - NormalizeContextCleanupCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

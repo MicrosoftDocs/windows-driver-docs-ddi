@@ -10,6 +10,7 @@ keywords: ["_CHANGER_MOVE_MEDIUM structure"]
 ms.keywords: "*PCHANGER_MOVE_MEDIUM, CHANGER_MOVE_MEDIUM, CHANGER_MOVE_MEDIUM structure [Storage Devices], PCHANGER_MOVE_MEDIUM, PCHANGER_MOVE_MEDIUM structure pointer [Storage Devices], _CHANGER_MOVE_MEDIUM, ntddchgr/CHANGER_MOVE_MEDIUM, ntddchgr/PCHANGER_MOVE_MEDIUM, storage.changer_move_medium, structs-changer_866dd781-90cd-41be-84ce-61c16d31a369.xml"
 f1_keywords:
  - "ntddchgr/CHANGER_MOVE_MEDIUM"
+ - "CHANGER_MOVE_MEDIUM"
 req.header: ntddchgr.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddchgr.h
 api_name:
 - CHANGER_MOVE_MEDIUM
-product:
-- Windows
 targetos: Windows
 req.typenames: CHANGER_MOVE_MEDIUM, *PCHANGER_MOVE_MEDIUM
 ---

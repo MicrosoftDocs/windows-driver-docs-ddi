@@ -10,6 +10,7 @@ keywords: ["NDK_FN_CREATE_CQ callback function"]
 ms.keywords: NDK_FN_CREATE_CQ, NDK_FN_CREATE_CQ callback, NdkCreateCq, NdkCreateCq callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreateCq, netvista.ndk_fn_create_cq
 f1_keywords:
  - "ndkpi/NdkCreateCq"
+ - "NdkCreateCq"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ndkpi.h
 api_name:
 - NdkCreateCq
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

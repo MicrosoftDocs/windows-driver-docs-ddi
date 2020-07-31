@@ -10,6 +10,7 @@ keywords: ["_DXVA_COPPSetSignalingCmdData structure"]
 ms.keywords: DXVA_COPPSetSignalingCmdData, DXVA_COPPSetSignalingCmdData structure [Display Devices], _DXVA_COPPSetSignalingCmdData, display.dxva_coppsetsignalingcmddata, dxva/DXVA_COPPSetSignalingCmdData, dxvaref_2fd69b63-8cfc-427f-9616-4de12bd1a848.xml
 f1_keywords:
  - "dxva/DXVA_COPPSetSignalingCmdData"
+ - "DXVA_COPPSetSignalingCmdData"
 req.header: dxva.h
 req.include-header: Dxva.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dxva.h
 api_name:
 - DXVA_COPPSetSignalingCmdData
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVA_COPPSetSignalingCmdData
 ---

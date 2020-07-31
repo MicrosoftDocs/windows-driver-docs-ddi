@@ -8,6 +8,7 @@ ms.date: 04/13/2018
 keywords: ["NET_BUFFER_LIST_SET_HASH_FUNCTION function"]
 f1_keywords:
  - "ndis/NET_BUFFER_LIST_SET_HASH_FUNCTION"
+ - "NET_BUFFER_LIST_SET_HASH_FUNCTION"
 ms.keywords: NET_BUFFER_LIST_SET_HASH_FUNCTION
 req.header: ndis.h
 req.include-header:
@@ -34,8 +35,6 @@ api_location:
 - NtosKrnl.exe
 api_name: 
 - NET_BUFFER_LIST_SET_HASH_FUNCTION
-product:
-- Windows
 targetos: Windows
 
 ---

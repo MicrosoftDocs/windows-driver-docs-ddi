@@ -10,6 +10,7 @@ keywords: ["FwpsAcquireClassifyHandle0 function"]
 ms.keywords: FwpsAcquireClassifyHandle0, FwpsAcquireClassifyHandle0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsAcquireClassifyHandle0, netvista.fwpsacquireclassifyhandle0, wfp_ref_2_funct_3_fwps_A-B_c0b568dd-f546-4bab-a012-14f4d2a8d846.xml
 f1_keywords:
  - "fwpsk/FwpsAcquireClassifyHandle0"
+ - "FwpsAcquireClassifyHandle0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - fwpkclnt.dll
 api_name:
 - FwpsAcquireClassifyHandle0
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

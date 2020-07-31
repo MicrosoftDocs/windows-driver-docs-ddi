@@ -7,6 +7,7 @@ ms.date: 09/19/2018
 keywords: ["IDynamicConceptProviderConcept::SetConcept"]
 f1_keywords:
  - "dbgmodel/IDynamicConceptProviderConcept.SetConcept"
+ - "IDynamicConceptProviderConcept.SetConcept"
 ms.keywords: IDynamicConceptProviderConcept::SetConcept, SetConcept, IDynamicConceptProviderConcept.SetConcept, IDynamicConceptProviderConcept::SetConcept, IDynamicConceptProviderConcept.SetConcept
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDynamicConceptProviderConcept.SetConcept
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

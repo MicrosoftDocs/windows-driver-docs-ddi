@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["COLORSPACE_TRANSFORM_SET_INPUT structure"]
 f1_keywords:
  - "ntddvdeo/COLORSPACE_TRANSFORM_SET_INPUT"
+ - "COLORSPACE_TRANSFORM_SET_INPUT"
 ms.keywords: COLORSPACE_TRANSFORM_SET_INPUT, COLORSPACE_TRANSFORM_SET_INPUT, *PCOLORSPACE_TRANSFORM_SET_INPUT, 
 req.header: ntddvdeo.h
 req.include-header:
@@ -32,8 +33,6 @@ api_location:
  - ntddvdeo.h
 api_name: 
  - COLORSPACE_TRANSFORM_SET_INPUT
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

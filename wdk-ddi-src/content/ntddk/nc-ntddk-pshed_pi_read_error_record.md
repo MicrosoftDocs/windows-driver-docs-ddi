@@ -10,6 +10,7 @@ keywords: ["PSHED_PI_READ_ERROR_RECORD callback function"]
 ms.keywords: PSHED_PI_READ_ERROR_RECORD, PSHED_PI_READ_ERROR_RECORD callback, ReadErrorRecord, ReadErrorRecord callback function [WHEA Drivers and Applications], ntddk/ReadErrorRecord, whea.readerrorrecord, whearef_ec353a58-1ca7-4356-8651-52802d855582.xml
 f1_keywords:
  - "ntddk/ReadErrorRecord"
+ - "ReadErrorRecord"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Ntddk.h
 api_name:
 - ReadErrorRecord
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

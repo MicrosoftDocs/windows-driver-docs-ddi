@@ -10,6 +10,7 @@ keywords: ["IWiaMiniDrv::drvInitItemProperties"]
 ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvInitItemProperties method, IWiaMiniDrv.drvInitItemProperties, IWiaMiniDrv::drvInitItemProperties, MiniDrv_88720847-db1d-475a-b8c4-62fdb376953a.xml, drvInitItemProperties, drvInitItemProperties method [Imaging Devices], drvInitItemProperties method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvinititemproperties, wiamindr_lh/IWiaMiniDrv::drvInitItemProperties
 f1_keywords:
  - "wiamindr_lh/IWiaMiniDrv.drvInitItemProperties"
+ - "IWiaMiniDrv.drvInitItemProperties"
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wiamindr_lh.h
 api_name:
 - IWiaMiniDrv.drvInitItemProperties
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

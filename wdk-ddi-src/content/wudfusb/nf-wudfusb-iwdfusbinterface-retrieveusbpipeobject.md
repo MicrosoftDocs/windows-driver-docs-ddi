@@ -10,6 +10,7 @@ keywords: ["IWDFUsbInterface::RetrieveUsbPipeObject"]
 ms.keywords: IWDFUsbInterface interface,RetrieveUsbPipeObject method, IWDFUsbInterface.RetrieveUsbPipeObject, IWDFUsbInterface::RetrieveUsbPipeObject, RetrieveUsbPipeObject, RetrieveUsbPipeObject method, RetrieveUsbPipeObject method,IWDFUsbInterface interface, UMDFUSBref_84f2ac72-965e-4fd4-a127-f153a5fc54f7.xml, umdf.iwdfusbinterface_retrieveusbpipeobject, wdf.iwdfusbinterface_retrieveusbpipeobject, wudfusb/IWDFUsbInterface::RetrieveUsbPipeObject
 f1_keywords:
  - "wudfusb/IWDFUsbInterface.RetrieveUsbPipeObject"
+ - "IWDFUsbInterface.RetrieveUsbPipeObject"
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFUsbInterface.RetrieveUsbPipeObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

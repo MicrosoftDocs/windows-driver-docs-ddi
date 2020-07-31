@@ -10,6 +10,7 @@ keywords: ["IDebugClient5::PushOutputLinePrefixWide"]
 ms.keywords: IDebugClient5 interface [Windows Debugging],PushOutputLinePrefixWide method, IDebugClient5.PushOutputLinePrefixWide, IDebugClient5::PushOutputLinePrefixWide, PushOutputLinePrefixWide, PushOutputLinePrefixWide method [Windows Debugging], PushOutputLinePrefixWide method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient5::PushOutputLinePrefixWide, debugger.idebugclient5_pushoutputlineprefixwide
 f1_keywords:
  - "dbgeng/IDebugClient5.PushOutputLinePrefixWide"
+ - "IDebugClient5.PushOutputLinePrefixWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugClient5.PushOutputLinePrefixWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

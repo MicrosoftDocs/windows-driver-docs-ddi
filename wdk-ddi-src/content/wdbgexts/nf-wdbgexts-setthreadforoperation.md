@@ -10,6 +10,7 @@ keywords: ["SetThreadForOperation function"]
 ms.keywords: SetThreadForOperation, SetThreadForOperation function [Windows Debugging], WdbgExts_Ref_62cb59e2-5a16-4bee-936c-6eeaa5126fbc.xml, debugger.setthreadforoperation, wdbgexts/SetThreadForOperation
 f1_keywords:
  - "wdbgexts/SetThreadForOperation"
+ - "SetThreadForOperation"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wdbgexts.h
 api_name:
 - SetThreadForOperation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

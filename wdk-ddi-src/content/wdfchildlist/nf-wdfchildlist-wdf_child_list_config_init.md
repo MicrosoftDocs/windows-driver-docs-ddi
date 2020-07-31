@@ -10,6 +10,7 @@ keywords: ["WDF_CHILD_LIST_CONFIG_INIT function"]
 ms.keywords: DFDeviceObjectChildListRef_b5fea12e-3e5b-4ec7-8e9d-0e385047cbdc.xml, WDF_CHILD_LIST_CONFIG_INIT, WDF_CHILD_LIST_CONFIG_INIT function, kmdf.wdf_child_list_config_init, wdf.wdf_child_list_config_init, wdfchildlist/WDF_CHILD_LIST_CONFIG_INIT
 f1_keywords:
  - "wdfchildlist/WDF_CHILD_LIST_CONFIG_INIT"
+ - "WDF_CHILD_LIST_CONFIG_INIT"
 req.header: wdfchildlist.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - wdfchildlist.h
 api_name:
 - WDF_CHILD_LIST_CONFIG_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IKsReferenceClock::GetTime"]
 ms.keywords: GetTime, GetTime method [Streaming Media Devices], GetTime method [Streaming Media Devices],IKsReferenceClock interface, IKsReferenceClock interface [Streaming Media Devices],GetTime method, IKsReferenceClock.GetTime, IKsReferenceClock::GetTime, avintfc_54820682-eb28-4344-91d3-ee30ef2f7bd6.xml, ks/IKsReferenceClock::GetTime, stream.iksreferenceclock_gettime
 f1_keywords:
  - "ks/IKsReferenceClock.GetTime"
+ - "IKsReferenceClock.GetTime"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - IKsReferenceClock.GetTime
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

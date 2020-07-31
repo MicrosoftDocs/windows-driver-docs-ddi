@@ -10,6 +10,7 @@ keywords: ["IOCTL_STORAGE_CHECK_VERIFY2 IOCTL"]
 ms.keywords: IOCTL_STORAGE_CHECK_VERIFY2, IOCTL_STORAGE_CHECK_VERIFY2 control, IOCTL_STORAGE_CHECK_VERIFY2 control code [Storage Devices], k307_81e9c9dd-6905-4d07-9da0-f54997bc8640.xml, ntddstor/IOCTL_STORAGE_CHECK_VERIFY2, storage.ioctl_storage_check_verify2
 f1_keywords:
  - "ntddstor/IOCTL_STORAGE_CHECK_VERIFY2"
+ - "IOCTL_STORAGE_CHECK_VERIFY2"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddstor.h
 api_name:
 - IOCTL_STORAGE_CHECK_VERIFY2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

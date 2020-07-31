@@ -10,6 +10,7 @@ keywords: ["RIL_Deinitialize function"]
 ms.keywords: RIL_Deinitialize, RIL_Deinitialize method [Network Drivers Starting with Windows Vista], netvista.ril_deinitialize, rilapi/RIL_Deinitialize
 f1_keywords:
  - "rilapi/RIL_Deinitialize"
+ - "RIL_Deinitialize"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_Deinitialize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

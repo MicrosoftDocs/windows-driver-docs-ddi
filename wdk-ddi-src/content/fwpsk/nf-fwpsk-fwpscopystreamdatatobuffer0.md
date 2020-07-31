@@ -10,6 +10,7 @@ keywords: ["FwpsCopyStreamDataToBuffer0 function"]
 ms.keywords: FwpsCopyStreamDataToBuffer0, FwpsCopyStreamDataToBuffer0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsCopyStreamDataToBuffer0, netvista.fwpscopystreamdatatobuffer0, wfp_ref_2_funct_3_fwps_C_dc46f99c-31e7-4e45-8f0b-fc3d0a96989e.xml
 f1_keywords:
  - "fwpsk/FwpsCopyStreamDataToBuffer0"
+ - "FwpsCopyStreamDataToBuffer0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - fwpkclnt.dll
 api_name:
 - FwpsCopyStreamDataToBuffer0
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

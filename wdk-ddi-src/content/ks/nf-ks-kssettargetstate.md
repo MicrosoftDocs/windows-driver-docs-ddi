@@ -10,6 +10,7 @@ keywords: ["KsSetTargetState function"]
 ms.keywords: KsSetTargetState, KsSetTargetState function [Streaming Media Devices], ks/KsSetTargetState, ksfunc_7e05a5c0-2c82-4b20-a199-3955c61c6e40.xml, stream.kssettargetstate
 f1_keywords:
  - "ks/KsSetTargetState"
+ - "KsSetTargetState"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsSetTargetState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

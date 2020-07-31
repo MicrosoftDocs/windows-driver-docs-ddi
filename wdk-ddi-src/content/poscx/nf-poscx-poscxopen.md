@@ -10,6 +10,7 @@ keywords: ["PosCxOpen function"]
 ms.keywords: PosCxOpen, PosCxOpen function, pos.poscxopen, poscx/PosCxOpen
 f1_keywords:
  - "poscx/PosCxOpen"
+ - "PosCxOpen"
 req.header: poscx.h
 req.include-header: Poscx.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - poscx.h
 api_name:
 - PosCxOpen
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 req.product: Windows 10 or later.

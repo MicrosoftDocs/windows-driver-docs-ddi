@@ -10,6 +10,7 @@ keywords: ["ClfsDeleteLogFile function"]
 ms.keywords: ClfsDeleteLogFile, ClfsDeleteLogFile routine [Kernel-Mode Driver Architecture], Clfs_0b23f7ac-c175-4eaf-b6c9-9b23b6ebe7e3.xml, kernel.clfsdeletelogfile, wdm/ClfsDeleteLogFile
 f1_keywords:
  - "wdm/ClfsDeleteLogFile"
+ - "ClfsDeleteLogFile"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
 - ClfsDeleteLogFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["KsCreateDefaultClock function"]
 ms.keywords: KsCreateDefaultClock, KsCreateDefaultClock function [Streaming Media Devices], ks/KsCreateDefaultClock, ksfunc_eb8617e1-d6e0-434d-bace-cec6b2b1cce1.xml, stream.kscreatedefaultclock
 f1_keywords:
  - "ks/KsCreateDefaultClock"
+ - "KsCreateDefaultClock"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsCreateDefaultClock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

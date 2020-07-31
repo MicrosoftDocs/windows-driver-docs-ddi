@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_GETCAPS structure"]
 ms.keywords: D3DDDIARG_GETCAPS, D3DDDIARG_GETCAPS structure [Display Devices], UMDisplayDriver_param_Structs_05260c15-4f63-4a85-b9c8-db53ed8135cd.xml, _D3DDDIARG_GETCAPS, d3dumddi/D3DDDIARG_GETCAPS, display.d3dddiarg_getcaps
 f1_keywords:
  - "d3dumddi/D3DDDIARG_GETCAPS"
+ - "D3DDDIARG_GETCAPS"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDIARG_GETCAPS
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_GETCAPS
 ---

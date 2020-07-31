@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_ADAPTERINFO structure"]
 ms.keywords: D3DKMT_ADAPTERINFO, D3DKMT_ADAPTERINFO structure [Display Devices], _D3DKMT_ADAPTERINFO, d3dkmthk/D3DKMT_ADAPTERINFO, display.d3dkmt_adapterinfo
 f1_keywords:
  - "d3dkmthk/D3DKMT_ADAPTERINFO"
+ - "D3DKMT_ADAPTERINFO"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - D3dkmthk.h
 api_name:
 - D3DKMT_ADAPTERINFO
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_ADAPTERINFO

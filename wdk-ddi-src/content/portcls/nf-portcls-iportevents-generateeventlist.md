@@ -10,6 +10,7 @@ keywords: ["IPortEvents::GenerateEventList"]
 ms.keywords: GenerateEventList, GenerateEventList method [Audio Devices], GenerateEventList method [Audio Devices],IPortEvents interface, IPortEvents interface [Audio Devices],GenerateEventList method, IPortEvents.GenerateEventList, IPortEvents::GenerateEventList, audio.iportevents_generateeventlist, audmp-routines_cc4243f5-90e9-471f-b8f0-aaf0945bddf5.xml, portcls/IPortEvents::GenerateEventList
 f1_keywords:
  - "portcls/IPortEvents.GenerateEventList"
+ - "IPortEvents.GenerateEventList"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IPortEvents.GenerateEventList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

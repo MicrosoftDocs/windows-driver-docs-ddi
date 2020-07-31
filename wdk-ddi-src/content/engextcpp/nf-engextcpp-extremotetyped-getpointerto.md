@@ -10,6 +10,7 @@ keywords: ["ExtRemoteTyped::GetPointerTo"]
 ms.keywords: EngExtCpp_Ref_fe04e8e3-888e-4d96-9a24-4bec51f71f16.xml, ExtRemoteTyped interface [Windows Debugging],GetPointerTo method, ExtRemoteTyped.GetPointerTo, ExtRemoteTyped::GetPointerTo, GetPointerTo, GetPointerTo method [Windows Debugging], GetPointerTo method [Windows Debugging],ExtRemoteTyped interface, debugger.extremotetyped_getpointerto
 f1_keywords:
  - "engextcpp/ExtRemoteTyped.GetPointerTo"
+ - "ExtRemoteTyped.GetPointerTo"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - engextcpp.hpp
 api_name:
 - ExtRemoteTyped.GetPointerTo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["ISensorDriver::OnProcessWpdMessage"]
 ms.keywords: ISensorDriver interface [Sensor Devices],OnProcessWpdMessage method, ISensorDriver.OnProcessWpdMessage, ISensorDriver::OnProcessWpdMessage, OnProcessWpdMessage, OnProcessWpdMessage method [Sensor Devices], OnProcessWpdMessage method [Sensor Devices],ISensorDriver interface, sensors.isensordriver_onprocesswpdmessage, sensorsclassextension/ISensorDriver::OnProcessWpdMessage
 f1_keywords:
  - "sensorsclassextension/OnProcessWpdMessage"
+ - "OnProcessWpdMessage"
 req.header: sensorsclassextension.h
 req.include-header: 
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 - SensorsClassExtension.dll
 api_name:
 - OnProcessWpdMessage
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

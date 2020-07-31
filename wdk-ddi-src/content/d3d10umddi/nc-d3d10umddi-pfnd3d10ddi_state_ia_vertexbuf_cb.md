@@ -9,6 +9,7 @@ keywords: ["PFND3D10DDI_STATE_IA_VERTEXBUF_CB callback function"]
 ms.keywords: PFND3D10DDI_STATE_IA_VERTEXBUF_CB, PFND3D10DDI_STATE_IA_VERTEXBUF_CB callback, d3d10state_functions_b08135a0-2a61-4823-9153-bf89ea24e0fa.xml, d3d10umddi/pfnStateIaVertexBufCb, display.pfnstateiavertexbufcb, pfnStateIaVertexBufCb, pfnStateIaVertexBufCb callback function [Display Devices]
 f1_keywords:
  - "d3d10umddi/pfnStateIaVertexBufCb"
+ - "pfnStateIaVertexBufCb"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - pfnStateIaVertexBufCb
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

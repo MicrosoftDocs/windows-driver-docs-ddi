@@ -7,6 +7,7 @@ ms.date: 09/21/2018
 keywords: ["IDataModelConcept::GetName"]
 f1_keywords:
  - "dbgmodel/IDataModelConcept.GetName"
+ - "IDataModelConcept.GetName"
 ms.keywords: IDataModelConcept::GetName, GetName, IDataModelConcept.GetName, IDataModelConcept::GetName, IDataModelConcept.GetName
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDataModelConcept.GetName
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

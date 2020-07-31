@@ -10,6 +10,7 @@ keywords: ["IPrintPipelinePropertyBag::DeleteProperty"]
 ms.keywords: DeleteProperty, DeleteProperty method [Print Devices], DeleteProperty method [Print Devices],IPrintPipelinePropertyBag interface, IPrintPipelinePropertyBag interface [Print Devices],DeleteProperty method, IPrintPipelinePropertyBag.DeleteProperty, IPrintPipelinePropertyBag::DeleteProperty, filterpipeline/IPrintPipelinePropertyBag::DeleteProperty, filterpipeline_816db2e4-811c-467f-a7c3-65d2e35c0107.xml, print.iprintpipelinepropertybag_deleteproperty
 f1_keywords:
  - "filterpipeline/IPrintPipelinePropertyBag.DeleteProperty"
+ - "IPrintPipelinePropertyBag.DeleteProperty"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - filterpipeline.h
 api_name:
 - IPrintPipelinePropertyBag.DeleteProperty
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

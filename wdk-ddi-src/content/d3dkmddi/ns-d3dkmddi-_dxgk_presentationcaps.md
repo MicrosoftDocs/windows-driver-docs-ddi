@@ -9,6 +9,7 @@ keywords: ["_DXGK_PRESENTATIONCAPS structure"]
 ms.keywords: DXGK_PRESENTATIONCAPS, DXGK_PRESENTATIONCAPS structure [Display Devices], DmStructs_67f7af73-6eaa-4ac8-ad04-1633bc1504af.xml, _DXGK_PRESENTATIONCAPS, d3dkmddi/DXGK_PRESENTATIONCAPS, display.dxgk_presentationcaps
 f1_keywords:
  - "d3dkmddi/DXGK_PRESENTATIONCAPS"
+ - "DXGK_PRESENTATIONCAPS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGK_PRESENTATIONCAPS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_PRESENTATIONCAPS

@@ -10,6 +10,7 @@ keywords: ["DXGKDDI_DPC_ROUTINE callback function"]
 ms.keywords: DXGKDDI_DPC_ROUTINE, DXGKDDI_DPC_ROUTINE callback, DmFunctions_12213354-74a5-40a5-a061-fa47d5a8cb03.xml, DxgkDdiDpcRoutine, DxgkDdiDpcRoutine callback function [Display Devices], display.dxgkddidpcroutine, dispmprt/DxgkDdiDpcRoutine
 f1_keywords:
  - "dispmprt/DxgkDdiDpcRoutine"
+ - "DxgkDdiDpcRoutine"
 req.header: dispmprt.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dispmprt.h
 api_name:
 - DxgkDdiDpcRoutine
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

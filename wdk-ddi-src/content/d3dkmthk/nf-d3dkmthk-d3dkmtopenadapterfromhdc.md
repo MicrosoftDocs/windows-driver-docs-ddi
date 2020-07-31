@@ -9,6 +9,7 @@ keywords: ["D3DKMTOpenAdapterFromHdc function"]
 ms.keywords: D3DKMTOpenAdapterFromHdc, D3DKMTOpenAdapterFromHdc function [Display Devices], OpenGL_Functions_f12cc225-0315-4dfa-ae28-52657ea0f030.xml, d3dkmthk/D3DKMTOpenAdapterFromHdc, display.d3dkmtopenadapterfromhdc
 f1_keywords:
  - "d3dkmthk/D3DKMTOpenAdapterFromHdc"
+ - "D3DKMTOpenAdapterFromHdc"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -38,8 +39,6 @@ api_location:
 - API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 - D3DKMTOpenAdapterFromHdc
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

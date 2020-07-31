@@ -10,6 +10,7 @@ keywords: ["USBD_AssignUrbToIoStackLocation function"]
 ms.keywords: USBD_AssignUrbToIoStackLocation, USBD_AssignUrbToIoStackLocation routine [Buses], buses.usbd_assignurbtostacklocation, usbdlib/USBD_AssignUrbToIoStackLocation
 f1_keywords:
  - "usbdlib/USBD_AssignUrbToIoStackLocation"
+ - "USBD_AssignUrbToIoStackLocation"
 req.header: usbdlib.h
 req.include-header: 
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Usbdex.dll
 api_name:
 - USBD_AssignUrbToIoStackLocation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

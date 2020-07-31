@@ -10,6 +10,7 @@ keywords: ["IDDCX_FRAME_STATISTICS_STEP structure"]
 ms.keywords: IDDCX_FRAME_STATISTICS_STEP, IDDCX_FRAME_STATISTICS_STEP structure, IDDCX_FRAME_STATISTICS_STEP structure [Display Devices], IDDCX_FRAME_STATISTICS_STEP structure pointer [Display Devices], IDDCX_FRAME_STATISTICS_STEP structure structure [Display Devices], display.iddcx_frame_statistics_step, iddcx/IDDCX_FRAME_STATISTICS_STEP
 f1_keywords:
  - "iddcx/IDDCX_FRAME_STATISTICS_STEP"
+ - "IDDCX_FRAME_STATISTICS_STEP"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - iddcx.h
 api_name:
 - IDDCX_FRAME_STATISTICS_STEP
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

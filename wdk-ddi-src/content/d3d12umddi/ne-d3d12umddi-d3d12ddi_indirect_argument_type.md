@@ -25,6 +25,7 @@ targetos: Windows
 ms.custom: 19H1
 f1_keywords:
  - "d3d12umddi/D3D12DDI_INDIRECT_ARGUMENT_TYPE"
+ - "D3D12DDI_INDIRECT_ARGUMENT_TYPE"
 topic_type:
  - apiref
 api_type:

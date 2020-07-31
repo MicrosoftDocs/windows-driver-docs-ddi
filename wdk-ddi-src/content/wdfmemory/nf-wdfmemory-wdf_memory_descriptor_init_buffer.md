@@ -10,6 +10,7 @@ keywords: ["WDF_MEMORY_DESCRIPTOR_INIT_BUFFER function"]
 ms.keywords: DFMemoryObjectRef_706a9ee6-c0f1-4cb4-a887-cbb535d94d17.xml, WDF_MEMORY_DESCRIPTOR_INIT_BUFFER, WDF_MEMORY_DESCRIPTOR_INIT_BUFFER function, kmdf.wdf_memory_descriptor_init_buffer, wdf.wdf_memory_descriptor_init_buffer, wdfmemory/WDF_MEMORY_DESCRIPTOR_INIT_BUFFER
 f1_keywords:
  - "wdfmemory/WDF_MEMORY_DESCRIPTOR_INIT_BUFFER"
+ - "WDF_MEMORY_DESCRIPTOR_INIT_BUFFER"
 req.header: wdfmemory.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - wdfmemory.h
 api_name:
 - WDF_MEMORY_DESCRIPTOR_INIT_BUFFER
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

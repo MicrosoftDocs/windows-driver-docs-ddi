@@ -10,6 +10,7 @@ keywords: ["KeReadStateMutex function"]
 ms.keywords: KeReadStateMutex, KeReadStateMutex routine [Kernel-Mode Driver Architecture], k105_37175048-e4ee-4b79-93f3-013195192b4c.xml, kernel.kereadstatemutex, wdm/KeReadStateMutex
 f1_keywords:
  - "wdm/KeReadStateMutex"
+ - "KeReadStateMutex"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeReadStateMutex
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

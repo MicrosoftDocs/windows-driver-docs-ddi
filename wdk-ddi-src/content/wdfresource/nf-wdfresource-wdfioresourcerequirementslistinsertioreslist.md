@@ -10,6 +10,7 @@ keywords: ["WdfIoResourceRequirementsListInsertIoResList function"]
 ms.keywords: DFResourceObjectRef_193f75e1-39a1-4a93-947b-550e7ad99494.xml, WdfIoResourceRequirementsListInsertIoResList, WdfIoResourceRequirementsListInsertIoResList method, kmdf.wdfioresourcerequirementslistinsertioreslist, wdf.wdfioresourcerequirementslistinsertioreslist, wdfresource/WdfIoResourceRequirementsListInsertIoResList
 f1_keywords:
  - "wdfresource/WdfIoResourceRequirementsListInsertIoResList"
+ - "WdfIoResourceRequirementsListInsertIoResList"
 req.header: wdfresource.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfIoResourceRequirementsListInsertIoResList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

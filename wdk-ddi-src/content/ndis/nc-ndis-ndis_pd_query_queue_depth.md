@@ -10,6 +10,7 @@ keywords: ["NDIS_PD_QUERY_QUEUE_DEPTH callback function"]
 ms.keywords: "NDIS_PD_QUERY_QUEUE_DEPTH_HANDLER, NDIS_PD_QUERY_QUEUE_DEPTH_HANDLER callback function pointer [Network Drivers Starting with Windows Vista], NDIS_PD_QUERY_QUEUE_DEPTH, NDIS_PD_QUERY_QUEUE_DEPTH callback, PDQueryQueueDepth, PDQueryQueueDepth callback function [Network Drivers Starting with Windows Vista], ndis/PDQueryQueueDepth, netvista.pdqueryqueuedepth"
 f1_keywords:
  - "ndis/NDIS_PD_QUERY_QUEUE_DEPTH_HANDLER"
+ - "NDIS_PD_QUERY_QUEUE_DEPTH_HANDLER"
 req.header: ndis.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - NDIS_PD_QUERY_QUEUE_DEPTH_HANDLER
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

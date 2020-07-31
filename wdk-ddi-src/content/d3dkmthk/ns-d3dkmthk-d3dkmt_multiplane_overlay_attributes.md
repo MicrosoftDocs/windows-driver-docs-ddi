@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMT_MULTIPLANE_OVERLAY_ATTRIBUTES structure"]
 f1_keywords:
  - "d3dkmthk/D3DKMT_MULTIPLANE_OVERLAY_ATTRIBUTES"
+ - "D3DKMT_MULTIPLANE_OVERLAY_ATTRIBUTES"
 ms.keywords: D3DKMT_MULTIPLANE_OVERLAY_ATTRIBUTES, D3DKMT_MULTIPLANE_OVERLAY_ATTRIBUTES, 
 req.header: d3dkmthk.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - d3dkmthk.h
 api_name: 
 - D3DKMT_MULTIPLANE_OVERLAY_ATTRIBUTES
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

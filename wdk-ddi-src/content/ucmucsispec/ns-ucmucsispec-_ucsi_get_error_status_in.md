@@ -8,6 +8,7 @@ ms.date: 09/30/2018
 keywords: ["_UCSI_GET_ERROR_STATUS_IN structure"]
 f1_keywords:
  - "ucmucsispec/_UCSI_GET_ERROR_STATUS_IN"
+ - "_UCSI_GET_ERROR_STATUS_IN"
 ms.keywords: _UCSI_GET_ERROR_STATUS_IN, UCSI_GET_ERROR_STATUS_IN, *PUCSI_GET_ERROR_STATUS_IN, 
 req.header: ucmucsispec.h
 req.include-header: UcmUcsiCx.h 
@@ -30,8 +31,6 @@ api_location:
 - ucmucsispec.h
 api_name: 
 - _UCSI_GET_ERROR_STATUS_IN
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

@@ -10,6 +10,7 @@ keywords: ["RtlNumberGenericTableElementsAvl function"]
 ms.keywords: RtlNumberGenericTableElementsAvl, RtlNumberGenericTableElementsAvl routine [Installable File System Drivers], ifsk.rtlnumbergenerictableelementsavl, ntddk/RtlNumberGenericTableElementsAvl
 f1_keywords:
  - "ntddk/RtlNumberGenericTableElementsAvl"
+ - "RtlNumberGenericTableElementsAvl"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlNumberGenericTableElementsAvl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

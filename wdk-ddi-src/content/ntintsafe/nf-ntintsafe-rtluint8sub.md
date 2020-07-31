@@ -10,6 +10,7 @@ keywords: ["RtlUInt8Sub function"]
 ms.keywords: RtlUInt8Sub, RtlUInt8Sub function [Kernel-Mode Driver Architecture], kernel.rtluint8sub, ntintsafe/RtlUInt8Sub
 f1_keywords:
  - "ntintsafe/RtlUInt8Sub"
+ - "RtlUInt8Sub"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Ntintsafe.h
 api_name:
 - RtlUInt8Sub
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

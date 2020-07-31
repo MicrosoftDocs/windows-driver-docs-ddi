@@ -10,6 +10,7 @@ keywords: ["KeQueryPerformanceCounter function"]
 ms.keywords: KeQueryPerformanceCounter, KeQueryPerformanceCounter routine [Kernel-Mode Driver Architecture], k105_39f70923-56fe-42b1-bec3-fe23ae62904d.xml, kernel.kequeryperformancecounter, wdm/KeQueryPerformanceCounter
 f1_keywords:
  - "ntifs/KeQueryPerformanceCounter"
+ - "KeQueryPerformanceCounter"
 req.header: ntifs.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Hal.dll
 api_name:
 - KeQueryPerformanceCounter
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

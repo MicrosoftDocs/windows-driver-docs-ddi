@@ -10,6 +10,7 @@ keywords: ["AtaPortStallExecution function"]
 ms.keywords: AtaPortStallExecution, AtaPortStallExecution function [Storage Devices], atartns_3a78519d-4ee5-4a4a-9564-1d2bbd256300.xml, irb/AtaPortStallExecution, storage.ataportstallexecution
 f1_keywords:
  - "irb/AtaPortStallExecution"
+ - "AtaPortStallExecution"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
@@ -39,8 +40,6 @@ api_location:
 - pciidex.dll
 api_name:
 - AtaPortStallExecution
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

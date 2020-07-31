@@ -10,6 +10,7 @@ keywords: ["PMRX_FORCECLOSED_CALLDOWN callback function"]
 ms.keywords: MRxForceClosed, MRxForceClosed routine [Installable File System Drivers], PMRX_FORCECLOSED_CALLDOWN, ifsk.mrxforceclosed, mrx/MRxForceClosed, mrxref_4ebb7c98-0f0f-402e-b6f7-53e75c5cac54.xml
 f1_keywords:
  - "mrx/MRxForceClosed"
+ - "MRxForceClosed"
 req.header: mrx.h
 req.include-header: Mrx.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - mrx.h
 api_name:
 - MRxForceClosed
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

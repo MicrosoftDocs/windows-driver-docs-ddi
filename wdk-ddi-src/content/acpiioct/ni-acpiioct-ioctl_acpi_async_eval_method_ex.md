@@ -10,6 +10,7 @@ keywords: ["IOCTL_ACPI_ASYNC_EVAL_METHOD_EX IOCTL"]
 ms.keywords: IOCTL_ACPI_ASYNC_EVAL_METHOD_EX, IOCTL_ACPI_ASYNC_EVAL_METHOD_EX control, IOCTL_ACPI_ASYNC_EVAL_METHOD_EX control code [ACPI Devices], acpi-meth-eval-ref_d6847663-52f2-4ae0-9ee5-defba8aed0cf.xml, acpi.ioctl_acpi_async_eval_method_ex, acpiioct/IOCTL_ACPI_ASYNC_EVAL_METHOD_EX
 f1_keywords:
  - "acpiioct/IOCTL_ACPI_ASYNC_EVAL_METHOD_EX"
+ - "IOCTL_ACPI_ASYNC_EVAL_METHOD_EX"
 req.header: acpiioct.h
 req.include-header: Acpiioct.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Acpiioct.h
 api_name:
 - IOCTL_ACPI_ASYNC_EVAL_METHOD_EX
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

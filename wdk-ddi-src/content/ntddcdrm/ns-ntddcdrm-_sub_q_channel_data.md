@@ -10,6 +10,7 @@ keywords: ["_SUB_Q_CHANNEL_DATA structure"]
 ms.keywords: "*PSUB_Q_CHANNEL_DATA, PSUB_Q_CHANNEL_DATA, PSUB_Q_CHANNEL_DATA union pointer [Storage Devices], SUB_Q_CHANNEL_DATA, SUB_Q_CHANNEL_DATA union [Storage Devices], _SUB_Q_CHANNEL_DATA, ntddcdrm/PSUB_Q_CHANNEL_DATA, ntddcdrm/SUB_Q_CHANNEL_DATA, storage.sub_q_channel_data, structs-CD-ROM_f35761c8-b362-48eb-9cfa-6ee5e7232411.xml"
 f1_keywords:
  - "ntddcdrm/SUB_Q_CHANNEL_DATA"
+ - "SUB_Q_CHANNEL_DATA"
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddcdrm.h
 api_name:
 - SUB_Q_CHANNEL_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: SUB_Q_CHANNEL_DATA, *PSUB_Q_CHANNEL_DATA
 ---

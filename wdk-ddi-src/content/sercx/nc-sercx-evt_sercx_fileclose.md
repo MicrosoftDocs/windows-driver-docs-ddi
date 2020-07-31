@@ -10,6 +10,7 @@ keywords: ["EVT_SERCX_FILECLOSE callback function"]
 ms.keywords: 1/EvtSerCxFileClose, EVT_SERCX_FILECLOSE, EVT_SERCX_FILECLOSE callback, EvtSerCxFileClose, EvtSerCxFileClose callback function [Serial Ports], serports.evtsercxfileclose
 f1_keywords:
  - "sercx/EvtSerCxFileClose"
+ - "EvtSerCxFileClose"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - 1.0\Sercx.h
 api_name:
 - EvtSerCxFileClose
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

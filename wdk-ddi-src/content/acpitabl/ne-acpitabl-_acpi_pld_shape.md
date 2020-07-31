@@ -7,6 +7,7 @@ ms.date: 10/02/2018
 keywords: ["_ACPI_PLD_SHAPE enumeration"]
 f1_keywords:
  - "acpitabl/_ACPI_PLD_SHAPE"
+ - "_ACPI_PLD_SHAPE"
 ms.keywords: _ACPI_PLD_SHAPE, ACPI_PLD_SHAPE, *PACPI_PLD_SHAPE, AcpiPldShape
 req.header: acpitabl.h
 req.include-header:
@@ -26,8 +27,6 @@ api_location:
 - acpitabl.h
 api_name: 
 - _ACPI_PLD_SHAPE
-product:
-- Windows
 targetos: Windows
 ---
 

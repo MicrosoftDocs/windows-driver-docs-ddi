@@ -10,6 +10,7 @@ keywords: ["VideoPortUnmapMemory function"]
 ms.keywords: VideoPortUnmapMemory, VideoPortUnmapMemory function [Display Devices], VideoPort_Functions_394a66fa-47cd-4e0e-8467-3c3562d27822.xml, display.videoportunmapmemory, video/VideoPortUnmapMemory
 f1_keywords:
  - "video/VideoPortUnmapMemory"
+ - "VideoPortUnmapMemory"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Videoprt.sys
 api_name:
 - VideoPortUnmapMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["RtlTimeFieldsToTime function"]
 ms.keywords: RtlTimeFieldsToTime, RtlTimeFieldsToTime routine [Kernel-Mode Driver Architecture], k109_9b5d67de-92c3-4fb7-bcd7-4e045ae9ada4.xml, kernel.rtltimefieldstotime, wdm/RtlTimeFieldsToTime
 f1_keywords:
  - "wdm/RtlTimeFieldsToTime"
+ - "RtlTimeFieldsToTime"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlTimeFieldsToTime
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

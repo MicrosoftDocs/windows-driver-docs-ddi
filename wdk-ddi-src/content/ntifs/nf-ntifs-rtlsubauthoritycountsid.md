@@ -10,6 +10,7 @@ keywords: ["RtlSubAuthorityCountSid function"]
 ms.keywords: RtlSubAuthorityCountSid, RtlSubAuthorityCountSid function [Installable File System Drivers], ifsk.rtlsubauthoritycountsid, ntifs/RtlSubAuthorityCountSid, rtlref_a90cc5aa-161f-466b-975f-16ec42b70539.xml
 f1_keywords:
  - "ntifs/RtlSubAuthorityCountSid"
+ - "RtlSubAuthorityCountSid"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - RtlSubAuthorityCountSid
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -9,6 +9,7 @@ keywords: ["_DXGK_MULTIPLANE_OVERLAY_PLANE structure"]
 ms.keywords: DXGK_MULTIPLANE_OVERLAY_PLANE, DXGK_MULTIPLANE_OVERLAY_PLANE structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_PLANE, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_PLANE, display.dxgk_multiplane_overlay_plane
 f1_keywords:
  - "d3dkmddi/DXGK_MULTIPLANE_OVERLAY_PLANE"
+ - "DXGK_MULTIPLANE_OVERLAY_PLANE"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - D3dkmddi.h
 api_name:
 - DXGK_MULTIPLANE_OVERLAY_PLANE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_MULTIPLANE_OVERLAY_PLANE

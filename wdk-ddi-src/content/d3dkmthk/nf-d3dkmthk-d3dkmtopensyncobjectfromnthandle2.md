@@ -9,6 +9,7 @@ keywords: ["D3DKMTOpenSyncObjectFromNtHandle2 function"]
 ms.keywords: D3DKMTOpenSyncObjectFromNtHandle2, D3DKMTOpenSyncObjectFromNtHandle2 function [Display Devices], d3dkmthk/D3DKMTOpenSyncObjectFromNtHandle2, display.d3dkmtopensyncobjectfromnthandle2
 f1_keywords:
  - "d3dkmthk/D3DKMTOpenSyncObjectFromNtHandle2"
+ - "D3DKMTOpenSyncObjectFromNtHandle2"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 - D3DKMTOpenSyncObjectFromNtHandle2
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

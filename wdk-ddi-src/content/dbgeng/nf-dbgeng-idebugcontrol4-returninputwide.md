@@ -10,6 +10,7 @@ keywords: ["IDebugControl4::ReturnInputWide"]
 ms.keywords: IDebugControl4 interface [Windows Debugging],ReturnInputWide method, IDebugControl4.ReturnInputWide, IDebugControl4::ReturnInputWide, ReturnInputWide, ReturnInputWide method [Windows Debugging], ReturnInputWide method [Windows Debugging],IDebugControl4 interface, dbgeng/IDebugControl4::ReturnInputWide, debugger.returninputwide
 f1_keywords:
  - "dbgeng/IDebugControl4.ReturnInputWide"
+ - "IDebugControl4.ReturnInputWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugControl4.ReturnInputWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

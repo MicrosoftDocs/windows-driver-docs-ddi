@@ -10,6 +10,7 @@ keywords: ["ExtRemoteList::HasNode"]
 ms.keywords: EngExtCpp_Ref_c97c7662-0bbc-4458-9b69-34805fe8c451.xml, ExtRemoteList class [Windows Debugging],HasNode method, ExtRemoteList.HasNode, ExtRemoteList::HasNode, HasNode, HasNode method [Windows Debugging], HasNode method [Windows Debugging],ExtRemoteList class, debugger.extremotelist_hasnode
 f1_keywords:
  - "engextcpp/ExtRemoteList.HasNode"
+ - "ExtRemoteList.HasNode"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - engextcpp.hpp
 api_name:
 - ExtRemoteList.HasNode
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["WdfPdoInitAddCompatibleID function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_2578889b-85d3-4706-8907-817328ce8ad5.xml, WdfPdoInitAddCompatibleID, WdfPdoInitAddCompatibleID method, kmdf.wdfpdoinitaddcompatibleid, wdf.wdfpdoinitaddcompatibleid, wdfpdo/WdfPdoInitAddCompatibleID
 f1_keywords:
  - "wdfpdo/WdfPdoInitAddCompatibleID"
+ - "WdfPdoInitAddCompatibleID"
 req.header: wdfpdo.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfPdoInitAddCompatibleID
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

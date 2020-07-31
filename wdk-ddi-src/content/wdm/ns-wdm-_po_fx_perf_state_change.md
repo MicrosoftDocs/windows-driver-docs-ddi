@@ -10,6 +10,7 @@ keywords: ["_PO_FX_PERF_STATE_CHANGE structure"]
 ms.keywords: "*PPO_FX_PERF_STATE_CHANGE, PO_FX_PERF_STATE_CHANGE, PO_FX_PERF_STATE_CHANGE structure [Kernel-Mode Driver Architecture], PPO_FX_PERF_STATE_CHANGE, PPO_FX_PERF_STATE_CHANGE structure pointer [Kernel-Mode Driver Architecture], _PO_FX_PERF_STATE_CHANGE, kernel.po_fx_perf_state_change, wdm/PO_FX_PERF_STATE_CHANGE, wdm/PPO_FX_PERF_STATE_CHANGE"
 f1_keywords:
  - "wdm/PO_FX_PERF_STATE_CHANGE"
+ - "PO_FX_PERF_STATE_CHANGE"
 req.header: wdm.h
 req.include-header: Wudfwdm.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - PO_FX_PERF_STATE_CHANGE
-product:
-- Windows
 targetos: Windows
 req.typenames: PO_FX_PERF_STATE_CHANGE, *PPO_FX_PERF_STATE_CHANGE
 ---

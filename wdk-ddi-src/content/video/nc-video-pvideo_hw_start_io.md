@@ -10,6 +10,7 @@ keywords: ["PVIDEO_HW_START_IO callback function"]
 ms.keywords: HwVidStartIO, HwVidStartIO callback function [Display Devices], PVIDEO_HW_START_IO, PVIDEO_HW_START_IO callback, VideoMiniport_Functions_5dd4317e-f80d-4f93-86b5-b7c83aca2546.xml, display.hwvidstartio, video/HwVidStartIO
 f1_keywords:
  - "video/HwVidStartIO"
+ - "HwVidStartIO"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - video.h
 api_name:
 - HwVidStartIO
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

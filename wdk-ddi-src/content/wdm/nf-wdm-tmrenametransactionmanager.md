@@ -10,6 +10,7 @@ keywords: ["TmRenameTransactionManager function"]
 ms.keywords: TmRenameTransactionManager, TmRenameTransactionManager , TmRenameTransactionManager routine [Kernel-Mode Driver Architecture], kernel.tmrenametransactionmanager_, wdm/TmRenameTransactionManager
 f1_keywords:
  - "wdm/TmRenameTransactionManager"
+ - "TmRenameTransactionManager"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal
@@ -38,8 +39,6 @@ api_location:
 - tm.sys
 api_name:
 - TmRenameTransactionManager
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

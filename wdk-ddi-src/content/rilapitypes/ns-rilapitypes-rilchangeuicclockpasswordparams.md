@@ -10,6 +10,7 @@ keywords: ["RILCHANGEUICCLOCKPASSWORDPARAMS structure"]
 ms.keywords: "*LPRILCHANGEUICCLOCKPASSWORDPARAMS, RILCHANGEUICCLOCKPASSWORDPARAMS, RILCHANGEUICCLOCKPASSWORDPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilchangeuicclockpasswordparams, ntddrilapitypes/RILCHANGEUICCLOCKPASSWORDPARAMS"
 f1_keywords:
  - "rilapitypes/RILCHANGEUICCLOCKPASSWORDPARAMS"
+ - "RILCHANGEUICCLOCKPASSWORDPARAMS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILCHANGEUICCLOCKPASSWORDPARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILCHANGEUICCLOCKPASSWORDPARAMS, *LPRILCHANGEUICCLOCKPASSWORDPARAMS
 ---

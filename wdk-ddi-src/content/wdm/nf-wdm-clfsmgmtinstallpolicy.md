@@ -10,6 +10,7 @@ keywords: ["ClfsMgmtInstallPolicy function"]
 ms.keywords: ClfsMgmtInstallPolicy, ClfsMgmtInstallPolicy routine [Kernel-Mode Driver Architecture], Clfs_management_44c8b983-a3bb-4fe3-9022-3e669ba5af2b.xml, kernel.clfsmgmtinstallpolicy, wdm/ClfsMgmtInstallPolicy
 f1_keywords:
  - "wdm/ClfsMgmtInstallPolicy"
+ - "ClfsMgmtInstallPolicy"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
 - ClfsMgmtInstallPolicy
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

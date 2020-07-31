@@ -10,6 +10,7 @@ keywords: ["_CHANGER_READ_ELEMENT_STATUS structure"]
 ms.keywords: "*PCHANGER_READ_ELEMENT_STATUS, CHANGER_READ_ELEMENT_STATUS, CHANGER_READ_ELEMENT_STATUS structure [Storage Devices], PCHANGER_READ_ELEMENT_STATUS, PCHANGER_READ_ELEMENT_STATUS structure pointer [Storage Devices], _CHANGER_READ_ELEMENT_STATUS, ntddchgr/CHANGER_READ_ELEMENT_STATUS, ntddchgr/PCHANGER_READ_ELEMENT_STATUS, storage.changer_read_element_status, structs-changer_bbb217cb-b38d-4d81-941f-ac1d78d0c584.xml"
 f1_keywords:
  - "ntddchgr/CHANGER_READ_ELEMENT_STATUS"
+ - "CHANGER_READ_ELEMENT_STATUS"
 req.header: ntddchgr.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddchgr.h
 api_name:
 - CHANGER_READ_ELEMENT_STATUS
-product:
-- Windows
 targetos: Windows
 req.typenames: CHANGER_READ_ELEMENT_STATUS, *PCHANGER_READ_ELEMENT_STATUS
 ---

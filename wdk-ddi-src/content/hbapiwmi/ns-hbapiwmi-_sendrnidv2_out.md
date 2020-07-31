@@ -10,6 +10,7 @@ keywords: ["_SendRNIDV2_OUT structure"]
 ms.keywords: "*PSendRNIDV2_OUT, PSendRNIDV2_OUT, PSendRNIDV2_OUT structure pointer [Storage Devices], SendRNIDV2_OUT, SendRNIDV2_OUT structure [Storage Devices], _SendRNIDV2_OUT, hbapiwmi/PSendRNIDV2_OUT, hbapiwmi/SendRNIDV2_OUT, storage.sendrnidv2_out, structs-Fibre_78855dda-228d-432f-8189-8be83df6d2ea.xml"
 f1_keywords:
  - "hbapiwmi/SendRNIDV2_OUT"
+ - "SendRNIDV2_OUT"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - SendRNIDV2_OUT
-product:
-- Windows
 targetos: Windows
 req.typenames: SendRNIDV2_OUT, *PSendRNIDV2_OUT
 ---

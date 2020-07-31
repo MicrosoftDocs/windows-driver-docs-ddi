@@ -10,6 +10,7 @@ keywords: ["RILEMERGENCYNUMBERPARAMMASK enumeration"]
 ms.keywords: RILEMERGENCYNUMBERPARAMMASK, RILEMERGENCYNUMBERPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_ENUM_ALL, RIL_PARAM_ENUM_CATEGORY, RIL_PARAM_ENUM_NUMBER, RIL_PARAM_ENUM_UICC, netvista.rilemergencynumberparammask, ntddrilapitypes/RILEMERGENCYNUMBERPARAMMASK, ntddrilapitypes/RIL_PARAM_ENUM_ALL, ntddrilapitypes/RIL_PARAM_ENUM_CATEGORY, ntddrilapitypes/RIL_PARAM_ENUM_NUMBER, ntddrilapitypes/RIL_PARAM_ENUM_UICC
 f1_keywords:
  - "rilapitypes/RILEMERGENCYNUMBERPARAMMASK"
+ - "RILEMERGENCYNUMBERPARAMMASK"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILEMERGENCYNUMBERPARAMMASK
-product:
-- Windows
 targetos: Windows
 req.typenames: RILEMERGENCYNUMBERPARAMMASK
 ---

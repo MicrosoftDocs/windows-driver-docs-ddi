@@ -10,6 +10,7 @@ keywords: ["_DOT11_PEER_INFO_LIST structure"]
 ms.keywords: "*PDOT11_PEER_INFO_LIST, DOT11_PEER_INFO_LIST, DOT11_PEER_INFO_LIST structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_c969625e-444f-4741-a284-6bd77253c8b9.xml, PDOT11_PEER_INFO_LIST, PDOT11_PEER_INFO_LIST structure pointer [Network Drivers Starting with Windows Vista], _DOT11_PEER_INFO_LIST, netvista.dot11_peer_info_list, windot11/DOT11_PEER_INFO_LIST, windot11/PDOT11_PEER_INFO_LIST"
 f1_keywords:
  - "windot11/DOT11_PEER_INFO_LIST"
+ - "DOT11_PEER_INFO_LIST"
 req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows

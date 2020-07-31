@@ -10,6 +10,7 @@ keywords: ["RtlRealPredecessor function"]
 ms.keywords: RtlRealPredecessor, RtlRealPredecessor routine [Installable File System Drivers], ifsk.rtlrealpredecessor, ntddk/RtlRealPredecessor, rtlref_1c872dd0-50cb-48ff-a7e4-e3c88b3b087f.xml
 f1_keywords:
  - "ntddk/RtlRealPredecessor"
+ - "RtlRealPredecessor"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlRealPredecessor
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["KsMoveIrpsOnCancelableQueue function"]
 ms.keywords: KsMoveIrpsOnCancelableQueue, KsMoveIrpsOnCancelableQueue function [Streaming Media Devices], ks/KsMoveIrpsOnCancelableQueue, ksfunc_e01b21f7-96b7-4a6c-b6cb-3667d7b6b4dc.xml, stream.ksmoveirpsoncancelablequeue
 f1_keywords:
  - "ks/KsMoveIrpsOnCancelableQueue"
+ - "KsMoveIrpsOnCancelableQueue"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsMoveIrpsOnCancelableQueue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["OEMQueryFontData function"]
 ms.keywords: OEMQueryFontData, OEMQueryFontData function [Print Devices], print.oemqueryfontdata, print_unidrv-pscript_rendering_5044e745-e2bf-4047-a8d8-371fc21c33fa.xml, printoem/OEMQueryFontData
 f1_keywords:
  - "printoem/OEMQueryFontData"
+ - "OEMQueryFontData"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - printoem.h
 api_name:
 - OEMQueryFontData
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

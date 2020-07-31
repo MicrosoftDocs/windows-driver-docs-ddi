@@ -10,6 +10,7 @@ keywords: ["_SM_AddPort_OUT structure"]
 ms.keywords: "*PSM_AddPort_OUT, PSM_AddPort_OUT, PSM_AddPort_OUT structure pointer [Storage Devices], SM_AddPort_OUT, SM_AddPort_OUT structure [Storage Devices], _SM_AddPort_OUT, hbapiwmi/PSM_AddPort_OUT, hbapiwmi/SM_AddPort_OUT, storage.sm_addport_out, structs-Fibre_fb9ac678-11bb-4392-ab1e-6a10c5e92de9.xml"
 f1_keywords:
  - "hbapiwmi/SM_AddPort_OUT"
+ - "SM_AddPort_OUT"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - SM_AddPort_OUT
-product:
-- Windows
 targetos: Windows
 req.typenames: SM_AddPort_OUT, *PSM_AddPort_OUT
 ---

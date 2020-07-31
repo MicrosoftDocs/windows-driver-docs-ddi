@@ -7,6 +7,7 @@ ms.date: 08/21/2018
 keywords: ["IDataModelScriptTemplateEnumerator::QueryInterface"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptTemplateEnumerator.QueryInterface"
+ - "IDataModelScriptTemplateEnumerator.QueryInterface"
 ms.keywords: IDataModelScriptTemplateEnumerator::QueryInterface, QueryInterface, IDataModelScriptTemplateEnumerator.QueryInterface, IDataModelScriptTemplateEnumerator::QueryInterface, IDataModelScriptTemplateEnumerator.QueryInterface
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDataModelScriptTemplateEnumerator.QueryInterface
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

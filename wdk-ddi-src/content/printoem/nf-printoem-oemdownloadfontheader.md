@@ -10,6 +10,7 @@ keywords: ["OEMDownloadFontHeader function"]
 ms.keywords: OEMDownloadFontHeader, OEMDownloadFontHeader function [Print Devices], print.oemdownloadfontheader, print_obsoletefunctions_733001dd-14a7-43a6-b386-5be4b514ae0b.xml, printoem/OEMDownloadFontHeader
 f1_keywords:
  - "printoem/OEMDownloadFontHeader"
+ - "OEMDownloadFontHeader"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - printoem.h
 api_name:
 - OEMDownloadFontHeader
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

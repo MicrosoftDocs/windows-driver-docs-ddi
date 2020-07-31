@@ -10,6 +10,7 @@ keywords: ["_DXVA_VideoSample structure"]
 ms.keywords: "*LPDXVA_VideoSample, DXVA_VideoSample, DXVA_VideoSample structure [Display Devices], LPDXVA_VideoSample, LPDXVA_VideoSample structure pointer [Display Devices], _DXVA_VideoSample, display.dxva_videosample, dxva/DXVA_VideoSample, dxva/LPDXVA_VideoSample, dxvaref_08c56205-0793-4556-bb9a-e682eb6ca354.xml"
 f1_keywords:
  - "dxva/DXVA_VideoSample"
+ - "DXVA_VideoSample"
 req.header: dxva.h
 req.include-header: Dxva.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dxva.h
 api_name:
 - DXVA_VideoSample
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVA_VideoSample, *LPDXVA_VideoSample
 ---

@@ -10,6 +10,7 @@ keywords: ["_NDIS_NDK_CONNECTIONS structure"]
 ms.keywords: NDIS_NDK_CONNECTIONS, NDIS_NDK_CONNECTIONS structure [Network Drivers Starting with Windows Vista], PNDIS_NDK_CONNECTIONS, PNDIS_NDK_CONNECTIONS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NDK_CONNECTIONS, netvista.ndis_ndk_connections, ntddndis/NDIS_NDK_CONNECTIONS, ntddndis/PNDIS_NDK_CONNECTIONS
 f1_keywords:
  - "ntddndis/NDIS_NDK_CONNECTIONS"
+ - "NDIS_NDK_CONNECTIONS"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddndis.h
 api_name:
 - NDIS_NDK_CONNECTIONS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_NDK_CONNECTIONS
 ---

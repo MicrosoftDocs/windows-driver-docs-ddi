@@ -10,6 +10,7 @@ keywords: ["HidP_SetUsages function"]
 ms.keywords: HidP_SetUsages, HidP_SetUsages routine [Human Input Devices], hid.hidp_setusages, hidfunc_4d0213bb-2715-446b-bdaf-f82be3cbc11b.xml, hidpi/HidP_SetUsages
 f1_keywords:
  - "hidpi/HidP_SetUsages"
+ - "HidP_SetUsages"
 req.header: hidpi.h
 req.include-header: Hidpi.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Hidparse.dll
 api_name:
 - HidP_SetUsages
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

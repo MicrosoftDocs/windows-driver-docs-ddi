@@ -10,6 +10,7 @@ keywords: ["_DD_GETD3DQUERYCOUNTDATA structure"]
 ms.keywords: DD_GETD3DQUERYCOUNTDATA, DD_GETD3DQUERYCOUNTDATA structure [Display Devices], _DD_GETD3DQUERYCOUNTDATA, d3dhal/DD_GETD3DQUERYCOUNTDATA, d3dstrct_d97e6eb4-0ecd-4459-9256-eee9bb36bb78.xml, display.dd_getd3dquerycountdata
 f1_keywords:
  - "d3dhal/DD_GETD3DQUERYCOUNTDATA"
+ - "DD_GETD3DQUERYCOUNTDATA"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dhal.h
 api_name:
 - DD_GETD3DQUERYCOUNTDATA
-product:
-- Windows
 targetos: Windows
 req.typenames: DD_GETD3DQUERYCOUNTDATA
 ---

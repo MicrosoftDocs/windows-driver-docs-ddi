@@ -10,6 +10,7 @@ keywords: ["RILPOSITIONINFOLTE structure"]
 ms.keywords: "*LPRILPOSITIONINFOLTE, RILPOSITIONINFOLTE, RILPOSITIONINFOLTE structure [Network Drivers Starting with Windows Vista], netvista.rilpositioninfolte_2, rilapitypes/RILPOSITIONINFOLTE"
 f1_keywords:
  - "rilapitypes/RILPOSITIONINFOLTE"
+ - "RILPOSITIONINFOLTE"
 req.header: rilapitypes.h
 req.include-header:
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapitypes.h
 api_name:
 - RILPOSITIONINFOLTE
-product:
-- Windows
 targetos: Windows
 req.typenames: RILPOSITIONINFOLTE, *LPRILPOSITIONINFOLTE
 req.product: Windows 10 or later.

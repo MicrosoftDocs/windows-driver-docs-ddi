@@ -8,6 +8,7 @@ ms.date: 10/19/2018
 keywords: ["StorPortAllocateDmaMemory function"]
 f1_keywords:
  - "storport/StorPortAllocateDmaMemory"
+ - "StorPortAllocateDmaMemory"
 ms.keywords: StorPortAllocateDmaMemory
 req.header: storport.h
 req.include-header:
@@ -34,8 +35,6 @@ api_location:
 - NtosKrnl.exe
 api_name: 
 - StorPortAllocateDmaMemory
-product:
-- Windows
 targetos: Windows
 
 ---

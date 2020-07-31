@@ -10,6 +10,7 @@ keywords: ["RtlUpcaseUnicodeChar function"]
 ms.keywords: RtlUpcaseUnicodeChar, RtlUpcaseUnicodeChar routine [Kernel-Mode Driver Architecture], k109_81806669-d742-4cb9-b4dd-d7e40fef171a.xml, kernel.rtlupcaseunicodechar, wdm/RtlUpcaseUnicodeChar
 f1_keywords:
  - "wdm/RtlUpcaseUnicodeChar"
+ - "RtlUpcaseUnicodeChar"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ntdll.dll
 api_name:
 - RtlUpcaseUnicodeChar
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

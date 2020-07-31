@@ -10,6 +10,7 @@ keywords: ["RtlNtStatusToDosErrorNoTeb function"]
 ms.keywords: RtlNtStatusToDosError, RtlNtStatusToDosError routine [Installable File System Drivers], RtlNtStatusToDosErrorNoTeb, ifsk.rtlntstatustodoserrornoteb, ntifs/RtlNtStatusToDosError, rtlref_161ea08b-d596-4a3c-ab9b-b66f757e4415.xml
 f1_keywords:
  - "ntifs/RtlNtStatusToDosError"
+ - "RtlNtStatusToDosError"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlNtStatusToDosError
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

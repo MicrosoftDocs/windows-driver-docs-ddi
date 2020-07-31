@@ -10,6 +10,7 @@ keywords: ["_WDI_ROAM_TRIGGER enumeration"]
 ms.keywords: WDI_ROAM_TRIGGER, WDI_ROAM_TRIGGER enumeration [Network Drivers Starting with Windows Vista], WDI_ROAM_TRIGGER_CRITICAL_BSS_TRANSITION_REQUEST, WDI_ROAM_TRIGGER_OTHER, _WDI_ROAM_TRIGGER, netvista.wdi_roam_trigger, wditypes/WDI_ROAM_TRIGGER, wditypes/WDI_ROAM_TRIGGER_CRITICAL_BSS_TRANSITION_REQUEST, wditypes/WDI_ROAM_TRIGGER_OTHER
 f1_keywords:
  - "wditypes/WDI_ROAM_TRIGGER"
+ - "WDI_ROAM_TRIGGER"
 req.header: wditypes.hpp
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wditypes.hpp
 api_name:
 - WDI_ROAM_TRIGGER
-product:
-- Windows
 targetos: Windows
 req.typenames: WDI_ROAM_TRIGGER
 ---

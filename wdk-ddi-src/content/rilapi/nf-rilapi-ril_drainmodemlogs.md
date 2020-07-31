@@ -10,6 +10,7 @@ keywords: ["RIL_DrainModemLogs function"]
 ms.keywords: RIL_DrainModemLogs, RIL_DrainModemLogs method [Network Drivers Starting with Windows Vista], netvista.ril_drainmodemlogs, rilapi/RIL_DrainModemLogs
 f1_keywords:
  - "rilapi/RIL_DrainModemLogs"
+ - "RIL_DrainModemLogs"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_DrainModemLogs
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

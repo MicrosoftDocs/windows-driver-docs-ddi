@@ -10,6 +10,7 @@ keywords: ["_LINK_SHARE_ACCESS structure"]
 ms.keywords: "*PLINK_SHARE_ACCESS, LINK_SHARE_ACCESS, LINK_SHARE_ACCESS structure [Kernel-Mode Driver Architecture], PLINK_SHARE_ACCESS, PLINK_SHARE_ACCESS structure pointer [Kernel-Mode Driver Architecture], _LINK_SHARE_ACCESS, kernel.link_share_access, wdm/LINK_SHARE_ACCESS, wdm/PLINK_SHARE_ACCESS"
 f1_keywords:
  - "wdm/LINK_SHARE_ACCESS"
+ - "LINK_SHARE_ACCESS"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - LINK_SHARE_ACCESS
-product:
-- Windows
 targetos: Windows
 req.typenames: LINK_SHARE_ACCESS, *PLINK_SHARE_ACCESS
 ---

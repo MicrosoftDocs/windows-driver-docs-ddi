@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["__MIDL_IGPUPMitigationDevice_0003 enumeration"]
 f1_keywords:
  - "igpupvdev/__MIDL_IGPUPMitigationDevice_0003"
+ - "__MIDL_IGPUPMitigationDevice_0003"
 ms.keywords: __MIDL_IGPUPMitigationDevice_0003, GPUP_SAVE_RESTORE_PAUSE_STATE,
 req.header: igpupvdev.h
 req.include-header:
@@ -26,8 +27,6 @@ api_location:
 - igpupvdev.h
 api_name:
 - __MIDL_IGPUPMitigationDevice_0003
-product:
-- Windows
 targetos: Windows
 ---
 

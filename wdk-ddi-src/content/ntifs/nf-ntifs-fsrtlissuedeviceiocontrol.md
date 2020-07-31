@@ -10,6 +10,7 @@ keywords: ["FsRtlIssueDeviceIoControl function"]
 ms.keywords: FsRtlIssueDeviceIoControl, FsRtlIssueDeviceIoControl routine [Installable File System Drivers], ifsk.fsrtlissuedeviceiocontrol, ntifs/FsRtlIssueDeviceIoControl
 f1_keywords:
  - "ntifs/FsRtlIssueDeviceIoControl"
+ - "FsRtlIssueDeviceIoControl"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ntoskrnl.dll
 api_name:
 - FsRtlIssueDeviceIoControl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

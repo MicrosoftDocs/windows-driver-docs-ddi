@@ -10,6 +10,7 @@ keywords: ["wiasPrintDebugHResult function"]
 ms.keywords: image.wiasprintdebughresult, wiamdef/wiasPrintDebugHResult, wiasFncs_932e688a-da37-4a53-91ff-f0c0abca4f98.xml, wiasPrintDebugHResult, wiasPrintDebugHResult function [Imaging Devices]
 f1_keywords:
  - "wiamdef/wiasPrintDebugHResult"
+ - "wiasPrintDebugHResult"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wiaservc.dll
 api_name:
 - wiasPrintDebugHResult
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

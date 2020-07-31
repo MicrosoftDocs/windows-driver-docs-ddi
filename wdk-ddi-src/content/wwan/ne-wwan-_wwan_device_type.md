@@ -10,6 +10,7 @@ keywords: ["_WWAN_DEVICE_TYPE enumeration"]
 ms.keywords: "*PWWAN_DEVICE_TYPE, PWWAN_DEVICE_TYPE, PWWAN_DEVICE_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_DEVICE_TYPE, WWAN_DEVICE_TYPE enumeration [Network Drivers Starting with Windows Vista], WwanDeviceTypeEmbedded, WwanDeviceTypeMax, WwanDeviceTypeRemote, WwanDeviceTypeRemovable, WwanDeviceTypeUnknown, WwanRef_7a7adc94-ea69-4327-b9b6-467a1c784979.xml, _WWAN_DEVICE_TYPE, netvista.wwan_device_type, wwan/PWWAN_DEVICE_TYPE, wwan/WWAN_DEVICE_TYPE, wwan/WwanDeviceTypeEmbedded, wwan/WwanDeviceTypeMax, wwan/WwanDeviceTypeRemote, wwan/WwanDeviceTypeRemovable, wwan/WwanDeviceTypeUnknown"
 f1_keywords:
  - "wwan/WWAN_DEVICE_TYPE"
+ - "WWAN_DEVICE_TYPE"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_DEVICE_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_DEVICE_TYPE, *PWWAN_DEVICE_TYPE
 ---

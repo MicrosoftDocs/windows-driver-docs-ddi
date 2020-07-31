@@ -10,6 +10,7 @@ keywords: ["FltOplockBreakH function"]
 ms.keywords: FltApiRef_e_to_o_55fd17fd-a64a-4837-a000-0d51685e5a18.xml, FltOplockBreakH, FltOplockBreakH routine [Installable File System Drivers], fltkernel/FltOplockBreakH, ifsk.fltoplockbreakh
 f1_keywords:
  - "fltkernel/FltOplockBreakH"
+ - "FltOplockBreakH"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltOplockBreakH
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

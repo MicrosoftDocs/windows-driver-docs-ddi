@@ -8,6 +8,7 @@ ms.date: 04/13/2018
 keywords: ["NET_BUFFER_LIST_RECEIVE_QUEUE_ID macro"]
 f1_keywords:
  - "ndis/NET_BUFFER_LIST_RECEIVE_QUEUE_ID"
+ - "NET_BUFFER_LIST_RECEIVE_QUEUE_ID"
 ms.keywords: NET_BUFFER_LIST_RECEIVE_QUEUE_ID
 req.header: ndis.h
 req.include-header:
@@ -34,8 +35,6 @@ api_location:
 - ndis.h
 api_name: 
 - NET_BUFFER_LIST_RECEIVE_QUEUE_ID
-product:
-- Windows
 targetos: Windows
 
 ---

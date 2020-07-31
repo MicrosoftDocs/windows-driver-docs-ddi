@@ -10,6 +10,7 @@ keywords: ["IBidiSpl::UnbindDevice"]
 ms.keywords: IBidiSpl interface [Print Devices],UnbindDevice method, IBidiSpl.UnbindDevice, IBidiSpl::UnbindDevice, UnbindDevice, UnbindDevice method [Print Devices], UnbindDevice method [Print Devices],IBidiSpl interface, _win32_IBidiSpl_UnbindDevice, bidispl/IBidiSpl::UnbindDevice, gdi.ibidispl_ibidispl__unbinddevice, print.ibidispl_ibidispl__unbinddevice
 f1_keywords:
  - "bidispl/IBidiSpl.UnbindDevice"
+ - "IBidiSpl.UnbindDevice"
 req.header: bidispl.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - bidispl.dll
 api_name:
 - IBidiSpl.UnbindDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["PoUnregisterPowerSettingCallback function"]
 ms.keywords: PoUnregisterPowerSettingCallback, PoUnregisterPowerSettingCallback routine [Kernel-Mode Driver Architecture], kernel.pounregisterpowersettingcallback, portn_52c569d1-68d0-48a4-88e7-c2ffb27aa530.xml, wdm/PoUnregisterPowerSettingCallback
 f1_keywords:
  - "wdm/PoUnregisterPowerSettingCallback"
+ - "PoUnregisterPowerSettingCallback"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - PoUnregisterPowerSettingCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

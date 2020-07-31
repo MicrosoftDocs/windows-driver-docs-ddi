@@ -10,6 +10,7 @@ keywords: ["RtlGetVersion function"]
 ms.keywords: RtlGetVersion, RtlGetVersion routine [Kernel-Mode Driver Architecture], k109_7e44c42c-d5c6-4727-b529-7e55b308fddd.xml, kernel.rtlgetversion, wdm/RtlGetVersion
 f1_keywords:
  - "wdm/RtlGetVersion"
+ - "RtlGetVersion"
 req.header: wdm.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlGetVersion
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

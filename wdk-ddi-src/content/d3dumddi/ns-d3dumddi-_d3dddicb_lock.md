@@ -10,6 +10,7 @@ keywords: ["_D3DDDICB_LOCK structure"]
 ms.keywords: D3DDDICB_LOCK, D3DDDICB_LOCK structure [Display Devices], D3D_param_Structs_84ac7e9c-e228-4ace-9e1b-74af8c52af85.xml, _D3DDDICB_LOCK, d3dumddi/D3DDDICB_LOCK, display.d3dddicb_lock
 f1_keywords:
  - "d3dumddi/D3DDDICB_LOCK"
+ - "D3DDDICB_LOCK"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDICB_LOCK
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDICB_LOCK
 ---

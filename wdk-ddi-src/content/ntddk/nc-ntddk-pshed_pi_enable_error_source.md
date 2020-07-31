@@ -10,6 +10,7 @@ keywords: ["PSHED_PI_ENABLE_ERROR_SOURCE callback function"]
 ms.keywords: EnableErrorSource, EnableErrorSource callback function [WHEA Drivers and Applications], PSHED_PI_ENABLE_ERROR_SOURCE, PSHED_PI_ENABLE_ERROR_SOURCE callback, ntddk/EnableErrorSource, whea.enableerrorsource, whearef_d2fcd602-03f5-466c-bd90-abd81f15ec38.xml
 f1_keywords:
  - "ntddk/EnableErrorSource"
+ - "EnableErrorSource"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Ntddk.h
 api_name:
 - EnableErrorSource
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

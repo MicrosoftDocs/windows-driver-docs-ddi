@@ -10,6 +10,7 @@ keywords: ["PMRX_GET_CONNECTION_ID callback function"]
 ms.keywords: MRxGetConnectionId, MRxGetConnectionId routine [Installable File System Drivers], PMRX_GET_CONNECTION_ID, ifsk.mrxgetconnectionid, mrx/MRxGetConnectionId, mrxref_14943242-5da1-4404-bc5b-b86c2a88b347.xml
 f1_keywords:
  - "mrx/MRxGetConnectionId"
+ - "MRxGetConnectionId"
 req.header: mrx.h
 req.include-header: Mrx.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - mrx.h
 api_name:
 - MRxGetConnectionId
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

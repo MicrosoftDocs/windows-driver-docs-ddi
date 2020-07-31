@@ -10,6 +10,7 @@ keywords: ["RILCALLERIDSETTINGSPARAMMASK enumeration"]
 ms.keywords: RILCALLERIDSETTINGSPARAMMASK, RILCALLERIDSETTINGSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CIDS_ALL, RIL_PARAM_CIDS_PROVISIONING, RIL_PARAM_CIDS_STATUS, netvista.rilcalleridsettingsparammask, ntddrilapitypes/RILCALLERIDSETTINGSPARAMMASK, ntddrilapitypes/RIL_PARAM_CIDS_ALL, ntddrilapitypes/RIL_PARAM_CIDS_PROVISIONING, ntddrilapitypes/RIL_PARAM_CIDS_STATUS
 f1_keywords:
  - "rilapitypes/RILCALLERIDSETTINGSPARAMMASK"
+ - "RILCALLERIDSETTINGSPARAMMASK"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILCALLERIDSETTINGSPARAMMASK
-product:
-- Windows
 targetos: Windows
 req.typenames: RILCALLERIDSETTINGSPARAMMASK
 ---

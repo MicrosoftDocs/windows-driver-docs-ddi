@@ -10,6 +10,7 @@ keywords: ["NtCreateResourceManager function"]
 ms.keywords: NtCreateResourceManager, ZwCreateResourceManager, ZwCreateResourceManager routine [Kernel-Mode Driver Architecture], kernel.zwcreateresourcemanager, ktm_ref_9cb25714-3d40-48b3-8f24-a4a4fb10c4d1.xml, wdm/NtCreateResourceManager, wdm/ZwCreateResourceManager
 f1_keywords:
  - "wdm/ZwCreateResourceManager"
+ - "ZwCreateResourceManager"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - ZwCreateResourceManager
 - NtCreateResourceManager
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["WUDF_INTERRUPT_ISR callback function"]
 ms.keywords: OnInterruptIsr, OnInterruptIsr callback function, WUDF_INTERRUPT_ISR, WUDF_INTERRUPT_ISR callback, umdf.oninterruptisr, wdf.oninterruptisr, wudfinterrupt/OnInterruptIsr
 f1_keywords:
  - "wudfinterrupt/OnInterruptIsr"
+ - "OnInterruptIsr"
 req.header: wudfinterrupt.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wudfinterrupt.h
 api_name:
 - OnInterruptIsr
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

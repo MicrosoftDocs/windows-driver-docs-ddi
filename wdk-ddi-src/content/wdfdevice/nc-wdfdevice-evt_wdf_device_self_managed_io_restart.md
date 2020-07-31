@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_DEVICE_SELF_MANAGED_IO_RESTART callback function"]
 ms.keywords: DFDeviceObjectGeneralRef_31761962-577a-4a53-8b55-226801f42960.xml, EVT_WDF_DEVICE_SELF_MANAGED_IO_RESTART, EVT_WDF_DEVICE_SELF_MANAGED_IO_RESTART callback, EvtDeviceSelfManagedIoRestart, EvtDeviceSelfManagedIoRestart callback function, kmdf.evtdeviceselfmanagediorestart, wdf.evtdeviceselfmanagediorestart, wdfdevice/EvtDeviceSelfManagedIoRestart
 f1_keywords:
  - "wdfdevice/EvtDeviceSelfManagedIoRestart"
+ - "EvtDeviceSelfManagedIoRestart"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Wdfdevice.h
 api_name:
 - EvtDeviceSelfManagedIoRestart
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

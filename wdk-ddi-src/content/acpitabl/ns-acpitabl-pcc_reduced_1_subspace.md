@@ -33,10 +33,9 @@ api_name:
 f1_keywords:
 - acpitabl/_PCC_REDUCED_1_SUBSPACE
 - acpitabl/PCC_REDUCED_1_SUBSPACE
+- PCC_REDUCED_1_SUBSPACE
 dev_langs:
 - c++
-product:
-- Windows
 targetos: Windows
 ---
 

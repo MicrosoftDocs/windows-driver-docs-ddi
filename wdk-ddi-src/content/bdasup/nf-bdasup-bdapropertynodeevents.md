@@ -10,6 +10,7 @@ keywords: ["BdaPropertyNodeEvents function"]
 ms.keywords: BdaPropertyNodeEvents, BdaPropertyNodeEvents function [Streaming Media Devices], bdaref_2c17ed4f-8a4c-41bc-b543-9b2e5b82834b.xml, bdasup/BdaPropertyNodeEvents, stream.bdapropertynodeevents
 f1_keywords:
  - "bdasup/BdaPropertyNodeEvents"
+ - "BdaPropertyNodeEvents"
 req.header: bdasup.h
 req.include-header: Bdasup.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Bdasup.dll
 api_name:
 - BdaPropertyNodeEvents
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["DUMP_UNLOAD callback function"]
 ms.keywords: Dump_Unload, Dump_Unload routine [Storage Devices], PDUMP_UNLOAD, filter_rtns_01414353-4ca7-409e-a360-a7ad69a57b40.xml, ntdddump/Dump_Unload, storage.dump_unload
 f1_keywords:
  - "ntdddump/Dump_Unload"
+ - "Dump_Unload"
 req.header: ntdddump.h
 req.include-header: Ntdddump.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ntdddump.h
 api_name:
 - Dump_Unload
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

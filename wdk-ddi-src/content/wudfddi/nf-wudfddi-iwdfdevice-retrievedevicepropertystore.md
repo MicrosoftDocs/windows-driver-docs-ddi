@@ -10,6 +10,7 @@ keywords: ["IWDFDevice::RetrieveDevicePropertyStore"]
 ms.keywords: IWDFDevice interface,RetrieveDevicePropertyStore method, IWDFDevice.RetrieveDevicePropertyStore, IWDFDevice::RetrieveDevicePropertyStore, RetrieveDevicePropertyStore, RetrieveDevicePropertyStore method, RetrieveDevicePropertyStore method,IWDFDevice interface, UMDFDeviceObjectRef_daa1a135-2ca7-4d59-92b0-b44c917af73d.xml, umdf.iwdfdevice_retrievedevicepropertystore, wdf.iwdfdevice_retrievedevicepropertystore, wudfddi/IWDFDevice::RetrieveDevicePropertyStore
 f1_keywords:
  - "wudfddi/IWDFDevice.RetrieveDevicePropertyStore"
+ - "IWDFDevice.RetrieveDevicePropertyStore"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFDevice.RetrieveDevicePropertyStore
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

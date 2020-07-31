@@ -10,6 +10,7 @@ keywords: ["IoGetFunctionCodeFromCtlCode macro"]
 ms.keywords: IoGetFunctionCodeFromCtlCode, IoGetFunctionCodeFromCtlCode function [Kernel-Mode Driver Architecture], k104_211d730a-0df4-45f4-af58-25d2609c7696.xml, kernel.iogetfunctioncodefromctlcode, wdm/IoGetFunctionCodeFromCtlCode
 f1_keywords:
  - "wdm/IoGetFunctionCodeFromCtlCode"
+ - "IoGetFunctionCodeFromCtlCode"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - IoGetFunctionCodeFromCtlCode
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

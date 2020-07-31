@@ -9,6 +9,7 @@ keywords: ["D3DKMTSetGammaRamp function"]
 ms.keywords: D3DKMTSetGammaRamp, D3DKMTSetGammaRamp function [Display Devices], OpenGL_Functions_4d684cea-8528-489d-bc35-b70a5f05a57b.xml, d3dkmthk/D3DKMTSetGammaRamp, display.d3dkmtsetgammaramp
 f1_keywords:
  - "d3dkmthk/D3DKMTSetGammaRamp"
+ - "D3DKMTSetGammaRamp"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -38,8 +39,6 @@ api_location:
 - API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 - D3DKMTSetGammaRamp
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

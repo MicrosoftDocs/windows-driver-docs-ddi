@@ -9,6 +9,7 @@ keywords: ["_DXGK_GDIARG_BITBLT structure"]
 ms.keywords: DXGK_GDIARG_BITBLT, DXGK_GDIARG_BITBLT structure [Display Devices], DmStructs_717d3dc5-03a2-4814-b351-6ea7fb270f26.xml, _DXGK_GDIARG_BITBLT, d3dkmddi/DXGK_GDIARG_BITBLT, display.dxgk_gdiarg_bitblt
 f1_keywords:
  - "d3dkmddi/DXGK_GDIARG_BITBLT"
+ - "DXGK_GDIARG_BITBLT"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGK_GDIARG_BITBLT
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_GDIARG_BITBLT

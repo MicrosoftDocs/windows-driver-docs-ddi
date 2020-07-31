@@ -10,6 +10,7 @@ keywords: ["_STI_WIA_DEVICE_INFORMATIONW structure"]
 ms.keywords: "*PSTI_WIA_DEVICE_INFORMATIONW, PSTI_WIA_DEVICE_INFORMATION, PSTI_WIA_DEVICE_INFORMATION structure pointer [Imaging Devices], STI_WIA_DEVICE_INFORMATION, STI_WIA_DEVICE_INFORMATION structure [Imaging Devices], STI_WIA_DEVICE_INFORMATIONW, _STI_WIA_DEVICE_INFORMATIONW, image.sti_wia_device_information, sti/PSTI_WIA_DEVICE_INFORMATION, sti/STI_WIA_DEVICE_INFORMATION, stifnc_5b853150-0ce1-4ba1-bf9c-2071c6a993bc.xml"
 f1_keywords:
  - "sti/STI_WIA_DEVICE_INFORMATION"
+ - "STI_WIA_DEVICE_INFORMATION"
 req.header: sti.h
 req.include-header: Sti.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - sti.h
 api_name:
 - STI_WIA_DEVICE_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
 ---

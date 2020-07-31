@@ -9,6 +9,7 @@ keywords: ["_DXGK_GDIARG_STRETCHBLT structure"]
 ms.keywords: BLACKONWHITE, DXGK_GDIARG_STRETCHBLT, DXGK_GDIARG_STRETCHBLT structure [Display Devices], DmStructs_9c8014aa-fdad-474d-a1a1-182020850e17.xml, WHITEONBLACK, _DXGK_GDIARG_STRETCHBLT, d3dkmddi/DXGK_GDIARG_STRETCHBLT, display.dxgk_gdiarg_stretchblt
 f1_keywords:
  - "d3dkmddi/DXGK_GDIARG_STRETCHBLT"
+ - "DXGK_GDIARG_STRETCHBLT"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGK_GDIARG_STRETCHBLT
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_GDIARG_STRETCHBLT

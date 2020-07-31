@@ -9,6 +9,7 @@ keywords: ["_DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY structure"]
 ms.keywords: DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY, DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY structure [Display Devices], _DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY, d3dkmddi/DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY, display.dxgk_buildpagingbuffer_notifyresidency
 f1_keywords:
  - "d3dkmddi/DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY"
+ - "DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY

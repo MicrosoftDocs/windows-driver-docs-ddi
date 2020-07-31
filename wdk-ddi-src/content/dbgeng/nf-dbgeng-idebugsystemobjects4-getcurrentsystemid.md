@@ -10,6 +10,7 @@ keywords: ["IDebugSystemObjects4::GetCurrentSystemId"]
 ms.keywords: GetCurrentSystemId, GetCurrentSystemId method [Windows Debugging], GetCurrentSystemId method [Windows Debugging],IDebugSystemObjects3 interface, GetCurrentSystemId method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects3 interface [Windows Debugging],GetCurrentSystemId method, IDebugSystemObjects3::GetCurrentSystemId, IDebugSystemObjects4 interface [Windows Debugging],GetCurrentSystemId method, IDebugSystemObjects4.GetCurrentSystemId, IDebugSystemObjects4::GetCurrentSystemId, IDebugSystemObjects_02c8ff30-b552-465a-9be3-4e0526e1d6e1.xml, dbgeng/IDebugSystemObjects3::GetCurrentSystemId, dbgeng/IDebugSystemObjects4::GetCurrentSystemId, debugger.getcurrentsystemid
 f1_keywords:
  - "dbgeng/IDebugSystemObjects3.GetCurrentSystemId"
+ - "IDebugSystemObjects3.GetCurrentSystemId"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IDebugSystemObjects3.GetCurrentSystemId
 - IDebugSystemObjects4.GetCurrentSystemId
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

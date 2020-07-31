@@ -10,6 +10,7 @@ keywords: ["IWDFIoRequest2::StopAcknowledge"]
 ms.keywords: IWDFIoRequest2 interface,StopAcknowledge method, IWDFIoRequest2.StopAcknowledge, IWDFIoRequest2::StopAcknowledge, StopAcknowledge, StopAcknowledge method, StopAcknowledge method,IWDFIoRequest2 interface, UMDFRequestObjectRef_9a125e95-f59a-4338-a7af-cb7f99289eb7.xml, umdf.iwdfiorequest2_stopacknowledge, wdf.iwdfiorequest2_stopacknowledge, wudfddi/IWDFIoRequest2::StopAcknowledge
 f1_keywords:
  - "wudfddi/IWDFIoRequest2.StopAcknowledge"
+ - "IWDFIoRequest2.StopAcknowledge"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFIoRequest2.StopAcknowledge
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -8,6 +8,7 @@ ms.date: 09/30/2018
 keywords: ["_UCSI_USB_OPERATION_MODE enumeration"]
 f1_keywords:
  - "ucmucsispec/_UCSI_USB_OPERATION_MODE"
+ - "_UCSI_USB_OPERATION_MODE"
 ms.keywords: _UCSI_USB_OPERATION_MODE, UCSI_USB_OPERATION_MODE, 
 req.header: ucmucsispec.h
 req.include-header: UcmUcsiCx.h 
@@ -27,8 +28,6 @@ api_location:
 - ucmucsispec.h
 api_name: 
 - _UCSI_USB_OPERATION_MODE
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

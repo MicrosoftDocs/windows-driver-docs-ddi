@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_POSCXFUNCENUM enumeration"]
 f1_keywords:
  - "poscxfuncenum/_POSCXFUNCENUM"
+ - "_POSCXFUNCENUM"
 ms.keywords: _POSCXFUNCENUM, POSCXFUNCENUM, 
 req.header: poscxfuncenum.h
 req.include-header:
@@ -26,8 +27,6 @@ api_location:
 - poscxfuncenum.h
 api_name: 
 - _POSCXFUNCENUM
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

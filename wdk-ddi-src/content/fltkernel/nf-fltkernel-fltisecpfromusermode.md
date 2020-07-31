@@ -10,6 +10,7 @@ keywords: ["FltIsEcpFromUserMode function"]
 ms.keywords: FltApiRef_e_to_o_ea63cca7-3efb-4b45-b075-7efbc8138f88.xml, FltIsEcpFromUserMode, FltIsEcpFromUserMode routine [Installable File System Drivers], fltkernel/FltIsEcpFromUserMode, ifsk.fltisecpfromusermode
 f1_keywords:
  - "fltkernel/FltIsEcpFromUserMode"
+ - "FltIsEcpFromUserMode"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - FltMgr.sys
 api_name:
 - FltIsEcpFromUserMode
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

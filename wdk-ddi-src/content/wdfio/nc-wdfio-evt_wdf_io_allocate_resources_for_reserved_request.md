@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_IO_ALLOCATE_RESOURCES_FOR_RESERVED_REQUEST callback function
 ms.keywords: DFQueueObjectRef_7fafb899-1038-409b-af8e-f45776b18abe.xml, EVT_WDF_IO_ALLOCATE_RESOURCES_FOR_RESERVED_REQUEST, EVT_WDF_IO_ALLOCATE_RESOURCES_FOR_RESERVED_REQUEST callback, EvtIoAllocateResourcesForReservedRequest, EvtIoAllocateResourcesForReservedRequest callback function, kmdf.evtioallocateresourcesforreservedrequest, wdf.evtioallocateresourcesforreservedrequest, wdfio/EvtIoAllocateResourcesForReservedRequest
 f1_keywords:
  - "wdfio/EvtIoAllocateResourcesForReservedRequest"
+ - "EvtIoAllocateResourcesForReservedRequest"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Wdfio.h
 api_name:
 - EvtIoAllocateResourcesForReservedRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

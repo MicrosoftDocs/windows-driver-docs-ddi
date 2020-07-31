@@ -10,6 +10,7 @@ keywords: ["SeMarkLogonSessionForTerminationNotification function"]
 ms.keywords: SeMarkLogonSessionForTerminationNotification, SeMarkLogonSessionForTerminationNotification routine [Installable File System Drivers], ifsk.semarklogonsessionforterminationnotification, ntifs/SeMarkLogonSessionForTerminationNotification, seref_417d6aa1-b506-463d-9506-3a3651873c4a.xml
 f1_keywords:
  - "ntifs/SeMarkLogonSessionForTerminationNotification"
+ - "SeMarkLogonSessionForTerminationNotification"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - SeMarkLogonSessionForTerminationNotification
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

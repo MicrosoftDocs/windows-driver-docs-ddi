@@ -10,6 +10,7 @@ keywords: ["IWDFInterrupt::GetDevice"]
 ms.keywords: GetDevice, GetDevice method, GetDevice method,IWDFInterrupt interface, IWDFInterrupt interface,GetDevice method, IWDFInterrupt.GetDevice, IWDFInterrupt::GetDevice, umdf.iwdfinterrupt_getdevice, wdf.iwdfinterrupt_getdevice, wudfddi/IWDFInterrupt::GetDevice
 f1_keywords:
  - "wudfddi/IWDFInterrupt.GetDevice"
+ - "IWDFInterrupt.GetDevice"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFInterrupt.GetDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

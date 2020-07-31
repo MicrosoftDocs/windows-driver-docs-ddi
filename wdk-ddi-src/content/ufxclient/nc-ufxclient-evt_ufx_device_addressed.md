@@ -10,6 +10,7 @@ keywords: ["EVT_UFX_DEVICE_ADDRESSED callback function"]
 ms.keywords: EVT_UFX_DEVICE_ADDRESSED, EVT_UFX_DEVICE_ADDRESSED callback, EvtUfxDeviceAddressed, EvtUfxDeviceAddressed callback function [Buses], PFN_UFX_DEVICE_ADDRESSED, PFN_UFX_DEVICE_ADDRESSED callback function pointer [Buses], buses.evt_ufx_device_addressed, ufxclient/EvtUfxDeviceAddressed
 f1_keywords:
  - "ufxclient/PFN_UFX_DEVICE_ADDRESSED"
+ - "PFN_UFX_DEVICE_ADDRESSED"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ufxclient.h
 api_name:
 - PFN_UFX_DEVICE_ADDRESSED
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

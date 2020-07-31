@@ -10,6 +10,7 @@ keywords: ["_STOR_REQUEST_INFO_V1 structure"]
 ms.keywords: "*PSTOR_REQUEST_INFO_V1, PSTOR_REQUEST_INFO_V1, PSTOR_REQUEST_INFO_V1 structure pointer [Storage Devices], REQUEST_INFO_NO_CACHE_FLAG, REQUEST_INFO_PAGING_IO_FLAG, REQUEST_INFO_SEQUENTIAL_IO_FLAG, REQUEST_INFO_TEMPORARY_FLAG, REQUEST_INFO_WRITE_THROUGH_FLAG, STOR_REQUEST_INFO_V1, STOR_REQUEST_INFO_V1 structure [Storage Devices], StorIoPriorityCritical, StorIoPriorityHigh, StorIoPriorityLow, StorIoPriorityNormal, StorIoPriorityVeryLow, _STOR_REQUEST_INFO_V1, _STOR_REQUEST_INFO_V1 structure [Storage Devices], storage.stor_request_info, storport/PSTOR_REQUEST_INFO_V1, storport/_STOR_REQUEST_INFO_V1"
 f1_keywords:
  - "storport/STOR_REQUEST_INFO_V1"
+ - "STOR_REQUEST_INFO_V1"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Storport.h
 api_name:
 - STOR_REQUEST_INFO_V1
-product:
-- Windows
 targetos: Windows
 req.typenames: STOR_REQUEST_INFO_V1, *PSTOR_REQUEST_INFO_V1
 ---

@@ -10,6 +10,7 @@ keywords: ["IDARG_OUT_GETDIRTYRECTS structure"]
 ms.keywords: IDARG_OUT_GETDIRTYRECTS, IDARG_OUT_GETDIRTYRECTS structure [Display Devices], display.idarg_out_getdirtyrects, iddcx/IDARG_OUT_GETDIRTYRECTS
 f1_keywords:
  - "iddcx/IDARG_OUT_GETDIRTYRECTS"
+ - "IDARG_OUT_GETDIRTYRECTS"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - iddcx.h
 api_name:
 - IDARG_OUT_GETDIRTYRECTS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

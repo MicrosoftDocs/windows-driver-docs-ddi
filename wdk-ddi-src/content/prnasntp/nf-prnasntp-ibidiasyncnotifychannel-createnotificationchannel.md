@@ -10,6 +10,7 @@ keywords: ["IBidiAsyncNotifyChannel::CreateNotificationChannel"]
 ms.keywords: CreateNotificationChannel, CreateNotificationChannel method [Print Devices], CreateNotificationChannel method [Print Devices],IBidiAsyncNotifyChannel interface, IBidiAsyncNotifyChannel interface [Print Devices],CreateNotificationChannel method, IBidiAsyncNotifyChannel.CreateNotificationChannel, IBidiAsyncNotifyChannel::CreateNotificationChannel, print.ibidiasyncnotifychannel_createnotificationchannel, prnasntp/IBidiAsyncNotifyChannel::CreateNotificationChannel
 f1_keywords:
  - "prnasntp/IBidiAsyncNotifyChannel.CreateNotificationChannel"
+ - "IBidiAsyncNotifyChannel.CreateNotificationChannel"
 req.header: prnasntp.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Prnasntp.h
 api_name:
 - IBidiAsyncNotifyChannel.CreateNotificationChannel
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

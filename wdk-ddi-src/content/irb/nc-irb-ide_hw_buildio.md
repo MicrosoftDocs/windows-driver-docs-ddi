@@ -10,6 +10,7 @@ keywords: ["IDE_HW_BUILDIO callback function"]
 ms.keywords: IDE_HW_BUILDIO, IdeHwBuildIo, IdeHwBuildIo routine [Storage Devices], atartns_9111d60c-e0e1-4c5c-aacf-2af56fcf7338.xml, irb/IdeHwBuildIo, storage.idehwbuildio
 f1_keywords:
  - "irb/IdeHwBuildIo"
+ - "IdeHwBuildIo"
 req.header: irb.h
 req.include-header: Irb.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - irb.h
 api_name:
 - IdeHwBuildIo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

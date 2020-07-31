@@ -10,6 +10,7 @@ keywords: ["IWDFUsbTargetPipe::RetrievePipePolicy"]
 ms.keywords: IWDFUsbTargetPipe interface,RetrievePipePolicy method, IWDFUsbTargetPipe.RetrievePipePolicy, IWDFUsbTargetPipe::RetrievePipePolicy, RetrievePipePolicy, RetrievePipePolicy method, RetrievePipePolicy method,IWDFUsbTargetPipe interface, UMDFUSBref_97c7b2db-213f-4cdd-8901-547af39b087e.xml, umdf.iwdfusbtargetpipe_retrievepipepolicy, wdf.iwdfusbtargetpipe_retrievepipepolicy, wudfusb/IWDFUsbTargetPipe::RetrievePipePolicy
 f1_keywords:
  - "wudfusb/IWDFUsbTargetPipe.RetrievePipePolicy"
+ - "IWDFUsbTargetPipe.RetrievePipePolicy"
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFUsbTargetPipe.RetrievePipePolicy
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["MINIPORT_WDI_TAL_TXRX_ADD_PORT callback function"]
 ms.keywords: MINIPORT_WDI_TAL_TXRX_ADD_PORT, MINIPORT_WDI_TAL_TXRX_ADD_PORT callback, MiniportWdiTalTxRxAddPort, MiniportWdiTalTxRxAddPort callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTalTxRxAddPort, netvista.miniportwditaltxrxaddport
 f1_keywords:
  - "dot11wdi/MiniportWdiTalTxRxAddPort"
+ - "MiniportWdiTalTxRxAddPort"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dot11wdi.h
 api_name:
 - MiniportWdiTalTxRxAddPort
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["ScsiPortMoveMemory function"]
 ms.keywords: ScsiPortMoveMemory, ScsiPortMoveMemory routine [Storage Devices], scsiprt_88a58a03-0663-4aad-b048-2a2d3641e94e.xml, srb/ScsiPortMoveMemory, storage.scsiportmovememory
 f1_keywords:
  - "srb/ScsiPortMoveMemory"
+ - "ScsiPortMoveMemory"
 req.header: srb.h
 req.include-header: 
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - storport.dll
 api_name:
 - ScsiPortMoveMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

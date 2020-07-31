@@ -10,6 +10,7 @@ keywords: ["EVT_SERCX_RECEIVE_CANCEL callback function"]
 ms.keywords: 1/EvtSerCxReceiveCancel, EVT_SERCX_RECEIVE_CANCEL, EVT_SERCX_RECEIVE_CANCEL callback, EvtSerCxReceiveCancel, EvtSerCxReceiveCancel callback function [Serial Ports], serports.evtsercxreceivecancel
 f1_keywords:
  - "sercx/EvtSerCxReceiveCancel"
+ - "EvtSerCxReceiveCancel"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - 1.0\Sercx.h
 api_name:
 - EvtSerCxReceiveCancel
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

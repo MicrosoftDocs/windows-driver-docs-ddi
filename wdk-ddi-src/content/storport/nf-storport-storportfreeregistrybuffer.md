@@ -10,6 +10,7 @@ keywords: ["StorPortFreeRegistryBuffer function"]
 ms.keywords: StorPortFreeRegistryBuffer, StorPortFreeRegistryBuffer routine [Storage Devices], storage.storportfreeregistrybuffer, storport/StorPortFreeRegistryBuffer, storprt_a81ec7f6-e78c-4bf0-9289-2a833623664d.xml
 f1_keywords:
  - "storport/StorPortFreeRegistryBuffer"
+ - "StorPortFreeRegistryBuffer"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Storport.dll
 api_name:
 - StorPortFreeRegistryBuffer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

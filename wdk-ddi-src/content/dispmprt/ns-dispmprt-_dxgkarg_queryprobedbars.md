@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["_DXGKARG_QUERYPROBEDBARS structure"]
 f1_keywords:
  - "dispmprt/_DXGKARG_QUERYPROBEDBARS"
+ - "_DXGKARG_QUERYPROBEDBARS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: _DXGKARG_QUERYPROBEDBARS, DXGKARG_QUERYPROBEDBARS, *PDXGKARG_QUERYPROBEDBARS, 

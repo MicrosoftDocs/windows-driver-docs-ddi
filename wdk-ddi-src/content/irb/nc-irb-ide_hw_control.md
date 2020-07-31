@@ -10,6 +10,7 @@ keywords: ["IDE_HW_CONTROL callback function"]
 ms.keywords: IDE_HW_CONTROL, IdeHwControl, IdeHwControl routine [Storage Devices], atartns_9c868c08-5470-4940-9067-0aa8a796b191.xml, irb/IdeHwControl, storage.idehwcontrol
 f1_keywords:
  - "irb/IdeHwControl"
+ - "IdeHwControl"
 req.header: irb.h
 req.include-header: Irb.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - irb.h
 api_name:
 - IdeHwControl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

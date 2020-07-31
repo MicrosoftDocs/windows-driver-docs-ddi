@@ -10,6 +10,7 @@ keywords: ["_WDF_INTERRUPT_INFO structure"]
 ms.keywords: "*PWDF_INTERRUPT_INFO, PWDF_INTERRUPT_INFO, PWDF_INTERRUPT_INFO structure pointer, WDF_INTERRUPT_INFO, WDF_INTERRUPT_INFO structure, _WDF_INTERRUPT_INFO, umdf.wdf_interrupt_info, wdf.wdf_interrupt_info_umdf, wudfinterrupt/PWDF_INTERRUPT_INFO, wudfinterrupt/WDF_INTERRUPT_INFO"
 f1_keywords:
  - "wudfinterrupt/WDF_INTERRUPT_INFO"
+ - "WDF_INTERRUPT_INFO"
 req.header: wudfinterrupt.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wudfinterrupt.h
 api_name:
 - WDF_INTERRUPT_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_INTERRUPT_INFO, *PWDF_INTERRUPT_INFO
 ---

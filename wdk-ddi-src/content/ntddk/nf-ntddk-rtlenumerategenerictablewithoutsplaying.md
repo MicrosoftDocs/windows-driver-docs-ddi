@@ -10,6 +10,7 @@ keywords: ["RtlEnumerateGenericTableWithoutSplaying function"]
 ms.keywords: RtlEnumerateGenericTableWithoutSplaying, RtlEnumerateGenericTableWithoutSplaying routine [Installable File System Drivers], ifsk.rtlenumerategenerictablewithoutsplaying, ntddk/RtlEnumerateGenericTableWithoutSplaying, rtlref_83b2461b-003b-4aee-be45-afb325b15219.xml
 f1_keywords:
  - "ntddk/RtlEnumerateGenericTableWithoutSplaying"
+ - "RtlEnumerateGenericTableWithoutSplaying"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlEnumerateGenericTableWithoutSplaying
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

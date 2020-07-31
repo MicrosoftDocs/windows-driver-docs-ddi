@@ -10,6 +10,7 @@ keywords: ["NdisOpenConfigurationKeyByIndex function"]
 ms.keywords: NdisOpenConfigurationKeyByIndex, NdisOpenConfigurationKeyByIndex function [Network Drivers Starting with Windows Vista], ndis/NdisOpenConfigurationKeyByIndex, ndis_configuration_ref_71c37932-c758-475c-9c84-c176c6c40cf8.xml, netvista.ndisopenconfigurationkeybyindex
 f1_keywords:
  - "ndis/NdisOpenConfigurationKeyByIndex"
+ - "NdisOpenConfigurationKeyByIndex"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisOpenConfigurationKeyByIndex
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -154,7 +153,7 @@ After a driver has consumed and, possibly, modified the configuration informatio
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_string">ANSI_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-string">ANSI_STRING</a>
 
 
 

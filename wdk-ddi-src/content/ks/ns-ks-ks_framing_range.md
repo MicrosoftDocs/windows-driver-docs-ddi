@@ -10,6 +10,7 @@ keywords: ["KS_FRAMING_RANGE structure"]
 ms.keywords: "*PKS_FRAMING_RANGE, KS_FRAMING_RANGE, KS_FRAMING_RANGE structure [Streaming Media Devices], PKS_FRAMING_RANGE, PKS_FRAMING_RANGE structure pointer [Streaming Media Devices], ks-struct_a489de91-e530-4185-9344-0ab4fe426cc8.xml, ks/KS_FRAMING_RANGE, ks/PKS_FRAMING_RANGE, stream.ks_framing_range"
 f1_keywords:
  - "ks/KS_FRAMING_RANGE"
+ - "KS_FRAMING_RANGE"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KS_FRAMING_RANGE
-product:
-- Windows
 targetos: Windows
 req.typenames: KS_FRAMING_RANGE, *PKS_FRAMING_RANGE
 ---

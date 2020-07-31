@@ -10,6 +10,7 @@ keywords: ["_TARGET_DEVICE_REMOVAL_NOTIFICATION structure"]
 ms.keywords: "*PTARGET_DEVICE_REMOVAL_NOTIFICATION, PTARGET_DEVICE_REMOVAL_NOTIFICATION, PTARGET_DEVICE_REMOVAL_NOTIFICATION structure pointer [Kernel-Mode Driver Architecture], TARGET_DEVICE_REMOVAL_NOTIFICATION, TARGET_DEVICE_REMOVAL_NOTIFICATION structure [Kernel-Mode Driver Architecture], _TARGET_DEVICE_REMOVAL_NOTIFICATION, kernel.target_device_removal_notification, kstruct_d_9b46ee83-c40a-435c-a544-456672ebca33.xml, wdm/PTARGET_DEVICE_REMOVAL_NOTIFICATION, wdm/TARGET_DEVICE_REMOVAL_NOTIFICATION"
 f1_keywords:
  - "wdm/TARGET_DEVICE_REMOVAL_NOTIFICATION"
+ - "TARGET_DEVICE_REMOVAL_NOTIFICATION"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - TARGET_DEVICE_REMOVAL_NOTIFICATION
-product:
-- Windows
 targetos: Windows
 req.typenames: TARGET_DEVICE_REMOVAL_NOTIFICATION, *PTARGET_DEVICE_REMOVAL_NOTIFICATION
 ---

@@ -31,7 +31,8 @@ api_name:
  - NPEM_CONTROL_INTERFACE
 f1_keywords:
  - wdm/_NPEM_CONTROL_INTERFACE
- - wdm/NPEM_CONTROL_INTERFACE
+ - wdm//NPEM_CONTROL_INTERFACE
+ - NPEM_CONTROL_INTERFACE
 dev_langs:
  - c++
 ---

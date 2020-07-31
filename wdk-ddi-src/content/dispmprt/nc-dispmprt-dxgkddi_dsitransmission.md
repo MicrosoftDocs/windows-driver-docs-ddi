@@ -34,7 +34,8 @@ api_location:
 api_name:
  - DXGKDDI_DSITRANSMISSION
 f1_keywords:
- - dispmprt/DXGKDDI_DSITRANSMISSION
+ - dispmprt//DXGKDDI_DSITRANSMISSION
+ - DXGKDDI_DSITRANSMISSION
 dev_langs:
  - c++
 ---

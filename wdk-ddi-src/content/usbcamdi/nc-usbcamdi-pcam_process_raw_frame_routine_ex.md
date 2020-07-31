@@ -10,6 +10,7 @@ keywords: ["PCAM_PROCESS_RAW_FRAME_ROUTINE_EX callback function"]
 ms.keywords: CamProcessRawVideoFrameEx, CamProcessRawVideoFrameEx routine [Streaming Media Devices], PCAM_PROCESS_RAW_FRAME_ROUTINE_EX, stream.camprocessrawvideoframeex, usbcamdi/CamProcessRawVideoFrameEx, usbcmdpr_7ca6e89a-089c-4cf0-83e3-6324357a8566.xml
 f1_keywords:
  - "usbcamdi/CamProcessRawVideoFrameEx"
+ - "CamProcessRawVideoFrameEx"
 req.header: usbcamdi.h
 req.include-header: Usbcamdi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - usbcamdi.h
 api_name:
 - CamProcessRawVideoFrameEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

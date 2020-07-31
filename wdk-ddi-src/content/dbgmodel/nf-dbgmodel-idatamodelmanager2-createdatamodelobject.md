@@ -7,6 +7,7 @@ ms.date: 06/10/2019
 keywords: ["IDataModelManager2::CreateDataModelObject"]
 f1_keywords:
  - "dbgmodel/IDataModelManager2.CreateDataModelObject"
+ - "IDataModelManager2.CreateDataModelObject"
 ms.keywords: IDataModelManager2::CreateDataModelObject, CreateDataModelObject, IDataModelManager2.CreateDataModelObject, IDataModelManager2::CreateDataModelObject, IDataModelManager2.CreateDataModelObject
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDataModelManager2.CreateDataModelObject
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

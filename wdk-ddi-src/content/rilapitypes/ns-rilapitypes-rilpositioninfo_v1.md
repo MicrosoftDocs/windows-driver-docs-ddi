@@ -10,6 +10,7 @@ keywords: ["RILPOSITIONINFO_V1 structure"]
 ms.keywords: "*LPRILPOSITIONINFO_V1, RILPOSITIONINFO_V1, RILPOSITIONINFO_V1 structure [Network Drivers Starting with Windows Vista], netvista.rilpositioninfo_v1_2, ntddrilapitypes/RILPOSITIONINFO_V1"
 f1_keywords:
  - "rilapitypes/RILPOSITIONINFO_V1"
+ - "RILPOSITIONINFO_V1"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILPOSITIONINFO_V1
-product:
-- Windows
 targetos: Windows
 req.typenames: RILPOSITIONINFO_V1, *LPRILPOSITIONINFO_V1
 ---

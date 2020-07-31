@@ -10,6 +10,7 @@ keywords: ["RxInferFileType function"]
 ms.keywords: RxInferFileType, RxInferFileType function [Installable File System Drivers], fcb/RxInferFileType, ifsk.rxinferfiletype, rxref_e020604c-fa08-40f3-895d-425347c73307.xml
 f1_keywords:
  - "fcb/RxInferFileType"
+ - "RxInferFileType"
 req.header: fcb.h
 req.include-header: Rxcontx.h, Nodetype.h, Mrxfcb.h, Fcb.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - fcb.h
 api_name:
 - RxInferFileType
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

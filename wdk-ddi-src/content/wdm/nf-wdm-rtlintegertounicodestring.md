@@ -10,6 +10,7 @@ keywords: ["RtlIntegerToUnicodeString function"]
 ms.keywords: RtlIntegerToUnicodeString, RtlIntegerToUnicodeString routine [Kernel-Mode Driver Architecture], k109_2ed50455-f426-4072-be25-cab15c4c79cc.xml, kernel.rtlintegertounicodestring, wdm/RtlIntegerToUnicodeString
 f1_keywords:
  - "wdm/RtlIntegerToUnicodeString"
+ - "RtlIntegerToUnicodeString"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ntdll.dll
 api_name:
 - RtlIntegerToUnicodeString
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

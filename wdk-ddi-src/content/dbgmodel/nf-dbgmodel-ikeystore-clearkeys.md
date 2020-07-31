@@ -7,6 +7,7 @@ ms.date: 08/13/2018
 keywords: ["IKeyStore::ClearKeys"]
 f1_keywords:
  - "dbgmodel/IKeyStore.ClearKeys"
+ - "IKeyStore.ClearKeys"
 ms.keywords: IKeyStore::ClearKeys, ClearKeys, IKeyStore.ClearKeys, IKeyStore::ClearKeys, IKeyStore.ClearKeys
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IKeyStore.ClearKeys
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

@@ -9,6 +9,7 @@ keywords: ["PFND3D10DDI_STATE_PS_SAMPLER_CB callback function"]
 ms.keywords: PFND3D10DDI_STATE_PS_SAMPLER_CB, PFND3D10DDI_STATE_PS_SAMPLER_CB callback, d3d10state_functions_2e14a132-dd8b-4a78-905e-b2d74d9e669d.xml, d3d10umddi/pfnStatePsSamplerCb, display.pfnstatepssamplercb, pfnStatePsSamplerCb, pfnStatePsSamplerCb callback function [Display Devices]
 f1_keywords:
  - "d3d10umddi/pfnStatePsSamplerCb"
+ - "pfnStatePsSamplerCb"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - pfnStatePsSamplerCb
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

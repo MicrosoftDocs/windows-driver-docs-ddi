@@ -9,6 +9,7 @@ keywords: ["PFND3D10DDI_STATE_OM_BLENDSTATE_CB callback function"]
 ms.keywords: PFND3D10DDI_STATE_OM_BLENDSTATE_CB, PFND3D10DDI_STATE_OM_BLENDSTATE_CB callback, d3d10state_functions_18da32ca-c230-4119-a721-cbb8511a8b7c.xml, d3d10umddi/pfnStateOmBlendStateCb, display.pfnstateomblendstatecb, pfnStateOmBlendStateCb, pfnStateOmBlendStateCb callback function [Display Devices]
 f1_keywords:
  - "d3d10umddi/pfnStateOmBlendStateCb"
+ - "pfnStateOmBlendStateCb"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - pfnStateOmBlendStateCb
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

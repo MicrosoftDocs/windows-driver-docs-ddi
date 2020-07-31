@@ -10,6 +10,7 @@ keywords: ["EVT_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE callback function"]
 ms.keywords: EVT_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE, EVT_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE callback, EvtUfxDeviceSuperSpeedPowerFeature, EvtUfxDeviceSuperSpeedPowerFeature callback function [Buses], PFN_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE, PFN_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE callback function pointer [Buses], buses.evt_ufx_device_super_speed_power_feature, ufxclient/EvtUfxDeviceSuperSpeedPowerFeature
 f1_keywords:
  - "ufxclient/PFN_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE"
+ - "PFN_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ufxclient.h
 api_name:
 - PFN_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

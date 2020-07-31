@@ -10,6 +10,7 @@ keywords: ["IDebugClient5::SetKernelConnectionOptions"]
 ms.keywords: IDebugClient interface [Windows Debugging],SetKernelConnectionOptions method, IDebugClient2 interface [Windows Debugging],SetKernelConnectionOptions method, IDebugClient2::SetKernelConnectionOptions, IDebugClient3 interface [Windows Debugging],SetKernelConnectionOptions method, IDebugClient3::SetKernelConnectionOptions, IDebugClient4 interface [Windows Debugging],SetKernelConnectionOptions method, IDebugClient4::SetKernelConnectionOptions, IDebugClient5 interface [Windows Debugging],SetKernelConnectionOptions method, IDebugClient5.SetKernelConnectionOptions, IDebugClient5::SetKernelConnectionOptions, IDebugClient::SetKernelConnectionOptions, IDebugClient_b7b26913-d776-41b9-b94a-d5fa685e5fa9.xml, SetKernelConnectionOptions, SetKernelConnectionOptions method [Windows Debugging], SetKernelConnectionOptions method [Windows Debugging],IDebugClient interface, SetKernelConnectionOptions method [Windows Debugging],IDebugClient2 interface, SetKernelConnectionOptions method [Windows Debugging],IDebugClient3 interface, SetKernelConnectionOptions method [Windows Debugging],IDebugClient4 interface, SetKernelConnectionOptions method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient2::SetKernelConnectionOptions, dbgeng/IDebugClient3::SetKernelConnectionOptions, dbgeng/IDebugClient4::SetKernelConnectionOptions, dbgeng/IDebugClient5::SetKernelConnectionOptions, dbgeng/IDebugClient::SetKernelConnectionOptions, debugger.setkernelconnectionoptions
 f1_keywords:
  - "dbgeng/IDebugClient.SetKernelConnectionOptions"
+ - "IDebugClient.SetKernelConnectionOptions"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -40,8 +41,6 @@ api_name:
 - IDebugClient3.SetKernelConnectionOptions
 - IDebugClient4.SetKernelConnectionOptions
 - IDebugClient5.SetKernelConnectionOptions
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

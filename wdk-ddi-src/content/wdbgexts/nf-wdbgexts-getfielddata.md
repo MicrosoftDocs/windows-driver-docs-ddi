@@ -10,6 +10,7 @@ keywords: ["GetFieldData function"]
 ms.keywords: GetFieldData, GetFieldData function [Windows Debugging], WdbgExts_Ref_898dacb4-308c-4a8f-99e2-030adf2b0eae.xml, debugger.getfielddata, wdbgexts/GetFieldData
 f1_keywords:
  - "wdbgexts/GetFieldData"
+ - "GetFieldData"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wdbgexts.h
 api_name:
 - GetFieldData
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["RILPHONEBOOKADDITIONALNUMBERPARAMMASK enumeration"]
 ms.keywords: RILPHONEBOOKADDITIONALNUMBERPARAMMASK, RILPHONEBOOKADDITIONALNUMBERPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_PBAN_ALL, RIL_PARAM_PBAN_NUMID, netvista.rilphonebookadditionalnumberparammask, ntddrilapitypes/RILPHONEBOOKADDITIONALNUMBERPARAMMASK, ntddrilapitypes/RIL_PARAM_PBAN_ALL, ntddrilapitypes/RIL_PARAM_PBAN_NUMID
 f1_keywords:
  - "rilapitypes/RILPHONEBOOKADDITIONALNUMBERPARAMMASK"
+ - "RILPHONEBOOKADDITIONALNUMBERPARAMMASK"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILPHONEBOOKADDITIONALNUMBERPARAMMASK
-product:
-- Windows
 targetos: Windows
 req.typenames: RILPHONEBOOKADDITIONALNUMBERPARAMMASK
 ---

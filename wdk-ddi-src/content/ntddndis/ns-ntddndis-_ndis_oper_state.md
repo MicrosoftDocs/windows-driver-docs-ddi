@@ -10,6 +10,7 @@ keywords: ["_NDIS_OPER_STATE structure"]
 ms.keywords: "*PNDIS_OPER_STATE, NDIS_OPER_STATE, NDIS_OPER_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_OPER_STATE, PNDIS_OPER_STATE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_OPER_STATE, ndis_status_ref_d5bb44f8-a279-4806-b81b-87e109078a82.xml, netvista.ndis_oper_state, ntddndis/NDIS_OPER_STATE, ntddndis/PNDIS_OPER_STATE"
 f1_keywords:
  - "ntddndis/NDIS_OPER_STATE"
+ - "NDIS_OPER_STATE"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddndis.h
 api_name:
 - NDIS_OPER_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_OPER_STATE, *PNDIS_OPER_STATE
 ---

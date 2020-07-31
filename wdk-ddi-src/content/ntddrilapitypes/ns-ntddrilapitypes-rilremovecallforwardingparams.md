@@ -10,6 +10,7 @@ keywords: ["RILREMOVECALLFORWARDINGPARAMS structure"]
 ms.keywords: "*LPRILREMOVECALLFORWARDINGPARAMS, RILREMOVECALLFORWARDINGPARAMS, RILREMOVECALLFORWARDINGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilremovecallforwardingparams, ntddrilapitypes/RILREMOVECALLFORWARDINGPARAMS"
 f1_keywords:
  - "ntddrilapitypes/RILREMOVECALLFORWARDINGPARAMS"
+ - "RILREMOVECALLFORWARDINGPARAMS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILREMOVECALLFORWARDINGPARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILREMOVECALLFORWARDINGPARAMS, *LPRILREMOVECALLFORWARDINGPARAMS
 ---

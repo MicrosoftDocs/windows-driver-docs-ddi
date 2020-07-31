@@ -10,6 +10,7 @@ keywords: ["KsPinHandshake function"]
 ms.keywords: KsPinHandshake, KsPinHandshake function [Streaming Media Devices], avfunc_a7b6afa8-acb0-4847-9e86-136100c4dd48.xml, ks/KsPinHandshake, stream.kspinhandshake
 f1_keywords:
  - "ks/KsPinHandshake"
+ - "KsPinHandshake"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KsPinHandshake
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

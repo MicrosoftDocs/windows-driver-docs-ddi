@@ -10,6 +10,7 @@ keywords: ["IOCTL_ATA_PASS_THROUGH IOCTL"]
 ms.keywords: IOCTL_ATA_PASS_THROUGH, IOCTL_ATA_PASS_THROUGH control, IOCTL_ATA_PASS_THROUGH control code [Storage Devices], k307_e93738e1-b773-452b-8776-854f9c616967.xml, ntddscsi/IOCTL_ATA_PASS_THROUGH, storage.ioctl_ata_pass_through
 f1_keywords:
  - "ntddscsi/IOCTL_ATA_PASS_THROUGH"
+ - "IOCTL_ATA_PASS_THROUGH"
 req.header: ntddscsi.h
 req.include-header: Ntddscsi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddscsi.h
 api_name:
 - IOCTL_ATA_PASS_THROUGH
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

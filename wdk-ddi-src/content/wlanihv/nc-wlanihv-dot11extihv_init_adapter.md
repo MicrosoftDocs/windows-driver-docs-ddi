@@ -10,6 +10,7 @@ keywords: ["DOT11EXTIHV_INIT_ADAPTER callback"]
 ms.keywords: DOT11EXTIHV_INIT_ADAPTER, Dot11ExtIhvInitAdapter, Dot11ExtIhvInitAdapter callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_c2fbb863-6b05-4444-90f1-37f375db9b9e.xml, netvista.dot11extihvinitadapter, wlanihv/Dot11ExtIhvInitAdapter
 f1_keywords:
  - "wlanihv/Dot11ExtIhvInitAdapter"
+ - "Dot11ExtIhvInitAdapter"
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wlanihv.h
 api_name:
 - Dot11ExtIhvInitAdapter
-product:
-- Windows
 targetos: Windows
 req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.

@@ -10,6 +10,7 @@ keywords: ["IDebugClient3::AttachKernel"]
 ms.keywords: AttachKernel, AttachKernel method [Windows Debugging], AttachKernel method [Windows Debugging],IDebugClient interface, AttachKernel method [Windows Debugging],IDebugClient2 interface, AttachKernel method [Windows Debugging],IDebugClient3 interface, AttachKernel method [Windows Debugging],IDebugClient4 interface, AttachKernel method [Windows Debugging],IDebugClient5 interface, IDebugClient interface [Windows Debugging],AttachKernel method, IDebugClient2 interface [Windows Debugging],AttachKernel method, IDebugClient2::AttachKernel, IDebugClient3 interface [Windows Debugging],AttachKernel method, IDebugClient3.AttachKernel, IDebugClient3::AttachKernel, IDebugClient4 interface [Windows Debugging],AttachKernel method, IDebugClient4::AttachKernel, IDebugClient5 interface [Windows Debugging],AttachKernel method, IDebugClient5::AttachKernel, IDebugClient::AttachKernel, IDebugClient_9008538b-3492-4952-a18f-b1dd346e887e.xml, dbgeng/IDebugClient2::AttachKernel, dbgeng/IDebugClient3::AttachKernel, dbgeng/IDebugClient4::AttachKernel, dbgeng/IDebugClient5::AttachKernel, dbgeng/IDebugClient::AttachKernel, debugger.attachkernel
 f1_keywords:
  - "dbgeng/IDebugClient.AttachKernel"
+ - "IDebugClient.AttachKernel"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -40,8 +41,6 @@ api_name:
 - IDebugClient3.AttachKernel
 - IDebugClient4.AttachKernel
 - IDebugClient5.AttachKernel
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

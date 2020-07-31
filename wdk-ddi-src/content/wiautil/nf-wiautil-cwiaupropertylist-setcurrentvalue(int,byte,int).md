@@ -10,6 +10,7 @@ keywords: ["CWiauPropertyList::SetCurrentValue(INT,BYTE,INT)"]
 ms.keywords: CWiauPropertyList interface [Imaging Devices],SetCurrentValue method, CWiauPropertyList.SetCurrentValue, CWiauPropertyList.SetCurrentValue(INT,BYTE,INT), CWiauPropertyList::SetCurrentValue, CWiauPropertyList::SetCurrentValue(INT  ,BYTE  *,INT  ), CWiauPropertyList::SetCurrentValue(INT,BYTE,INT), SetCurrentValue, SetCurrentValue method [Imaging Devices], SetCurrentValue method [Imaging Devices],CWiauPropertyList interface, image.cwiaupropertylist_setcurrentvalue_byte__, wiauFncs_b79d2982-a76b-4675-a342-32a2751bac26.xml, wiautil/CWiauPropertyList::SetCurrentValue
 f1_keywords:
  - "wiautil/CWiauPropertyList.SetCurrentValue"
+ - "CWiauPropertyList.SetCurrentValue"
 req.header: wiautil.h
 req.include-header: Wiautil.h, Wiamindr.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wiautil.h
 api_name:
 - CWiauPropertyList.SetCurrentValue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

@@ -10,6 +10,7 @@ keywords: ["IStiDeviceControl interface"]
 ms.keywords: IStiDeviceControl, IStiDeviceControl interface [Imaging Devices], IStiDeviceControl interface [Imaging Devices],described, image.istidevicecontrol_interface_methods, stifnc_532906f7-46b9-4874-8099-6be551e77711.xml, stiusd/IStiDeviceControl
 f1_keywords:
  - "stiusd/IStiDeviceControl"
+ - "IStiDeviceControl"
 req.header: stiusd.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - stiusd.h
 api_name:
 - IStiDeviceControl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

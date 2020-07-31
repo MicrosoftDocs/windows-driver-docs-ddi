@@ -10,6 +10,7 @@ keywords: ["_SM_GetLUNStatistics_IN structure"]
 ms.keywords: "*PSM_GetLUNStatistics_IN, PSM_GetLUNStatistics_IN, PSM_GetLUNStatistics_IN structure pointer [Storage Devices], SM_GetLUNStatistics_IN, SM_GetLUNStatistics_IN structure [Storage Devices], _SM_GetLUNStatistics_IN, hbapiwmi/PSM_GetLUNStatistics_IN, hbapiwmi/SM_GetLUNStatistics_IN, storage.sm_getlunstatistics_in, structs-Fibre_537f91a2-0183-4e6d-a3ef-22474349e6e7.xml"
 f1_keywords:
  - "hbapiwmi/SM_GetLUNStatistics_IN"
+ - "SM_GetLUNStatistics_IN"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - SM_GetLUNStatistics_IN
-product:
-- Windows
 targetos: Windows
 req.typenames: SM_GetLUNStatistics_IN, *PSM_GetLUNStatistics_IN
 ---

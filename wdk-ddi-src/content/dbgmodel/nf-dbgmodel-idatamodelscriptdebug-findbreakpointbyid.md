@@ -7,6 +7,7 @@ ms.date: 08/21/2018
 keywords: ["IDataModelScriptDebug::FindBreakpointById"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebug.FindBreakpointById"
+ - "IDataModelScriptDebug.FindBreakpointById"
 ms.keywords: IDataModelScriptDebug::FindBreakpointById, FindBreakpointById, IDataModelScriptDebug.FindBreakpointById, IDataModelScriptDebug::FindBreakpointById, IDataModelScriptDebug.FindBreakpointById
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDataModelScriptDebug.FindBreakpointById
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

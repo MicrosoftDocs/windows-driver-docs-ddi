@@ -10,6 +10,7 @@ keywords: ["PDEBUG_STACK_PROVIDER_BEGINTHREADSTACKRECONSTRUCTION callback functi
 ms.keywords: BeginThreadStackReconstruction, BeginThreadStackReconstruction callback function [Windows Debugging], PDEBUG_STACK_PROVIDER_BEGINTHREADSTACKRECONSTRUCTION, PDEBUG_STACK_PROVIDER_BEGINTHREADSTACKRECONSTRUCTION callback, dbgeng/BeginThreadStackReconstruction, debugger.beginthreadstackreconstruction
 f1_keywords:
  - "dbgeng/BeginThreadStackReconstruction"
+ - "BeginThreadStackReconstruction"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Dbgeng.h
 api_name:
 - BeginThreadStackReconstruction
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

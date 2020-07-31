@@ -10,6 +10,7 @@ keywords: ["_ENDPOINTS_CONFIGURE_FAILURE_FLAGS structure"]
 ms.keywords: ENDPOINTS_CONFIGURE_FAILURE_FLAGS, ENDPOINTS_CONFIGURE_FAILURE_FLAGS structure [Buses], P_ENDPOINTS_CONFIGURE_FAILURE_FLAGS, P_ENDPOINTS_CONFIGURE_FAILURE_FLAGS structure pointer [Buses], _ENDPOINTS_CONFIGURE_FAILURE_FLAGS, buses._endpoints_configure_failure_flags, ucxendpoint/P_ENDPOINTS_CONFIGURE_FAILURE_FLAGS, ucxendpoint/_ENDPOINTS_CONFIGURE_FAILURE_FLAGS
 f1_keywords:
  - "ucxendpoint/ENDPOINTS_CONFIGURE_FAILURE_FLAGS"
+ - "ENDPOINTS_CONFIGURE_FAILURE_FLAGS"
 req.header: ucxendpoint.h
 req.include-header: Ucxclass.h, Ucxendpoint.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ucxendpoint.h
 api_name:
 - ENDPOINTS_CONFIGURE_FAILURE_FLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: ENDPOINTS_CONFIGURE_FAILURE_FLAGS
 ---

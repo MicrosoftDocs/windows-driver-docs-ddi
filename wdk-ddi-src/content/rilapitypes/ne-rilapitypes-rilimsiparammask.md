@@ -10,6 +10,7 @@ keywords: ["RILIMSIPARAMMASK enumeration"]
 ms.keywords: RILIMSIPARAMMASK, RILIMSIPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_IMSI_ALL, RIL_PARAM_IMSI_MCC, RIL_PARAM_IMSI_MNC, netvista.rilimsiparammask_2, rilapitypes/RILIMSIPARAMMASK, rilapitypes/RIL_PARAM_IMSI_ALL, rilapitypes/RIL_PARAM_IMSI_MCC, rilapitypes/RIL_PARAM_IMSI_MNC
 f1_keywords:
  - "rilapitypes/RILIMSIPARAMMASK"
+ - "RILIMSIPARAMMASK"
 req.header: rilapitypes.h
 req.include-header:
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapitypes.h
 api_name:
 - RILIMSIPARAMMASK
-product:
-- Windows
 targetos: Windows
 req.typenames: RILIMSIPARAMMASK
 req.product: Windows 10 or later.

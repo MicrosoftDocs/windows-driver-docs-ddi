@@ -10,6 +10,7 @@ keywords: ["IDE_TRANSFER_MODE_SELECT callback function"]
 ms.keywords: AtaControllerTransferModeSelect, AtaControllerTransferModeSelect routine [Storage Devices], IDE_TRANSFER_MODE_SELECT, atartns_c4d206b0-4a6a-49ce-b729-97c8b01e4089.xml, irb/AtaControllerTransferModeSelect, storage.atacontrollertransfermodeselect
 f1_keywords:
  - "irb/AtaControllerTransferModeSelect"
+ - "AtaControllerTransferModeSelect"
 req.header: irb.h
 req.include-header: Irb.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - irb.h
 api_name:
 - AtaControllerTransferModeSelect
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["RIL_GetPersoDeactivationState function"]
 ms.keywords: RIL_GetPersoDeactivationState, RIL_GetPersoDeactivationState method [Network Drivers Starting with Windows Vista], netvista.ril_getpersodeactivationstate, rilapi/RIL_GetPersoDeactivationState
 f1_keywords:
  - "rilapi/RIL_GetPersoDeactivationState"
+ - "RIL_GetPersoDeactivationState"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_GetPersoDeactivationState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

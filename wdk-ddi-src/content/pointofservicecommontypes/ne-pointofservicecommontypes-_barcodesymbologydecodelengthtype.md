@@ -10,6 +10,7 @@ keywords: ["_BarcodeSymbologyDecodeLengthType enumeration"]
 ms.keywords: BarcodeSymbologyDecodeLengthType, BarcodeSymbologyDecodeLengthType enumeration, DecodeLengthType_AnyLength, DecodeLengthType_Discrete, DecodeLengthType_Range, _BarcodeSymbologyDecodeLengthType, pointofservicecommontypes/BarcodeSymbologyDecodeLengthType, pointofservicecommontypes/DecodeLengthType_AnyLength, pointofservicecommontypes/DecodeLengthType_Discrete, pointofservicecommontypes/DecodeLengthType_Range, pos.barcodesymbologydecodelengthtype
 f1_keywords:
  - "pointofservicecommontypes/BarcodeSymbologyDecodeLengthType"
+ - "BarcodeSymbologyDecodeLengthType"
 req.header: pointofservicecommontypes.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pointofservicecommontypes.h
 api_name:
 - BarcodeSymbologyDecodeLengthType
-product:
-- Windows
 targetos: Windows
 req.typenames: BarcodeSymbologyDecodeLengthType
 ---

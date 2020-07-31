@@ -10,6 +10,7 @@ keywords: ["_HDAUDIO_CODEC_RESPONSE structure"]
 ms.keywords: "*PHDAUDIO_CODEC_RESPONSE, HDAUDIO_CODEC_RESPONSE, HDAUDIO_CODEC_RESPONSE structure [Audio Devices], PHDAUDIO_CODEC_RESPONSE, PHDAUDIO_CODEC_RESPONSE structure pointer [Audio Devices], _HDAUDIO_CODEC_RESPONSE, aud-prop2_2cf51d01-4493-439c-9a5f-30b86d76502b.xml, audio.hdaudio_codec_response, hdaudio/HDAUDIO_CODEC_RESPONSE, hdaudio/PHDAUDIO_CODEC_RESPONSE"
 f1_keywords:
  - "hdaudio/HDAUDIO_CODEC_RESPONSE"
+ - "HDAUDIO_CODEC_RESPONSE"
 req.header: hdaudio.h
 req.include-header: Hdaudio.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - hdaudio.h
 api_name:
 - HDAUDIO_CODEC_RESPONSE
-product:
-- Windows
 targetos: Windows
 req.typenames: HDAUDIO_CODEC_RESPONSE, *PHDAUDIO_CODEC_RESPONSE
 ---

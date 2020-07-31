@@ -10,6 +10,7 @@ keywords: ["RtlUShortMult function"]
 ms.keywords: RtlUShortMult, RtlUShortMult function [Kernel-Mode Driver Architecture], kernel.rtlushortmult, ntintsafe/RtlUShortMult
 f1_keywords:
  - "ntintsafe/RtlUShortMult"
+ - "RtlUShortMult"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Ntintsafe.h
 api_name:
 - RtlUShortMult
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

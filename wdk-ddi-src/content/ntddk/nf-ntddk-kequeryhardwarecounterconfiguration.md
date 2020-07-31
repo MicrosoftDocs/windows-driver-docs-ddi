@@ -10,6 +10,7 @@ keywords: ["KeQueryHardwareCounterConfiguration function"]
 ms.keywords: KeQueryHardwareCounterConfiguration, KeQueryHardwareCounterConfiguration routine [Kernel-Mode Driver Architecture], k105_442c5acf-84a3-4078-b401-ca8cb8069c6e.xml, kernel.kequeryhardwarecounterconfiguration, ntddk/KeQueryHardwareCounterConfiguration
 f1_keywords:
  - "ntddk/KeQueryHardwareCounterConfiguration"
+ - "KeQueryHardwareCounterConfiguration"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeQueryHardwareCounterConfiguration
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

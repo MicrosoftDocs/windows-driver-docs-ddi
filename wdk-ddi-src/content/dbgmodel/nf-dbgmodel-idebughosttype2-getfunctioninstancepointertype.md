@@ -7,6 +7,7 @@ ms.date: 10/04/2018
 keywords: ["IDebugHostType2::GetFunctionInstancePointerType"]
 f1_keywords:
  - "dbgmodel/IDebugHostType2.GetFunctionInstancePointerType"
+ - "IDebugHostType2.GetFunctionInstancePointerType"
 ms.keywords: IDebugHostType2::GetFunctionInstancePointerType, GetFunctionInstancePointerType, IDebugHostType2.GetFunctionInstancePointerType, IDebugHostType2::GetFunctionInstancePointerType, IDebugHostType2.GetFunctionInstancePointerType
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostType2.GetFunctionInstancePointerType
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

@@ -10,6 +10,7 @@ keywords: ["RtlUIntToInt8 function"]
 ms.keywords: RtlUIntToInt8, RtlUIntToInt8 function [Kernel-Mode Driver Architecture], kernel.rtluinttoint8, ntintsafe/RtlUIntToInt8
 f1_keywords:
  - "ntintsafe/RtlUIntToInt8"
+ - "RtlUIntToInt8"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Ntintsafe.h
 api_name:
 - RtlUIntToInt8
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

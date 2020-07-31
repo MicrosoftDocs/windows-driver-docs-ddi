@@ -10,6 +10,7 @@ keywords: ["PFNKSCANCELTIMER callback function"]
 ms.keywords: KStrCancelTimer, KStrCancelTimer routine [Streaming Media Devices], PFNKSCANCELTIMER, ks/KStrCancelTimer, ksfunc_10ed86a1-d424-45d1-a420-3e4ce3a95a05.xml, stream.kstrcanceltimer
 f1_keywords:
  - "ks/KStrCancelTimer"
+ - "KStrCancelTimer"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KStrCancelTimer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

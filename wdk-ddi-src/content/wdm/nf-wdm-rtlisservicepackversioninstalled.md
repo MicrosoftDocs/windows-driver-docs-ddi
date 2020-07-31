@@ -10,6 +10,7 @@ keywords: ["RtlIsServicePackVersionInstalled function"]
 ms.keywords: RtlIsServicePackVersionInstalled, RtlIsServicePackVersionInstalled routine [Kernel-Mode Driver Architecture], k109_1552acd9-7036-45d2-bd1c-57b7a2154ecb.xml, kernel.rtlisservicepackversioninstalled, wdm/RtlIsServicePackVersionInstalled
 f1_keywords:
  - "wdm/RtlIsServicePackVersionInstalled"
+ - "RtlIsServicePackVersionInstalled"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Rtlver.dll
 api_name:
 - RtlIsServicePackVersionInstalled
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

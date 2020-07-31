@@ -10,6 +10,7 @@ keywords: ["VideoPortWriteRegisterUshort function"]
 ms.keywords: VideoPortWriteRegisterUshort, VideoPortWriteRegisterUshort function [Display Devices], VideoPort_Functions_b7adcb2e-bf7a-4ce3-bcd9-f11c24982b48.xml, display.videoportwriteregisterushort, video/VideoPortWriteRegisterUshort
 f1_keywords:
  - "video/VideoPortWriteRegisterUshort"
+ - "VideoPortWriteRegisterUshort"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Videoprt.sys
 api_name:
 - VideoPortWriteRegisterUshort
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

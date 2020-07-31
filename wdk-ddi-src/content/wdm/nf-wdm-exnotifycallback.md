@@ -10,6 +10,7 @@ keywords: ["ExNotifyCallback function"]
 ms.keywords: ExNotifyCallback, ExNotifyCallback routine [Kernel-Mode Driver Architecture], k102_befd9baa-99b3-427b-a0c3-4287e5563482.xml, kernel.exnotifycallback, wdm/ExNotifyCallback
 f1_keywords:
  - "wdm/ExNotifyCallback"
+ - "ExNotifyCallback"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - ExNotifyCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

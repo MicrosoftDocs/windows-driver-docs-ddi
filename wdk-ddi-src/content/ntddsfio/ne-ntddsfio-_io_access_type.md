@@ -10,6 +10,7 @@ keywords: ["_IO_ACCESS_TYPE enumeration"]
 ms.keywords: IO_ACCESS_TYPE, IO_ACCESS_TYPE enumeration [Kernel-Mode Driver Architecture], ModifyAccess, ReadAccess, WriteAccess, _IO_ACCESS_TYPE, kernel.io_access_type, wdm/IO_ACCESS_TYPE, wdm/ModifyAccess, wdm/ReadAccess, wdm/WriteAccess
 f1_keywords:
  - "ntddsfio/IO_ACCESS_TYPE"
+ - "IO_ACCESS_TYPE"
 req.header: ntddsfio.h
 req.include-header: Ntddsfio.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - IO_ACCESS_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: IO_ACCESS_TYPE
 ---

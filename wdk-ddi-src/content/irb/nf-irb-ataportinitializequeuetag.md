@@ -10,6 +10,7 @@ keywords: ["AtaPortInitializeQueueTag function"]
 ms.keywords: AtaPortInitializeQueueTag, AtaPortInitializeQueueTag routine [Storage Devices], atartns_2dd092e5-f635-4da7-8444-ffef8e5c75db.xml, irb/AtaPortInitializeQueueTag, storage.ataportinitializequeuetag
 f1_keywords:
  - "irb/AtaPortInitializeQueueTag"
+ - "AtaPortInitializeQueueTag"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
@@ -39,8 +40,6 @@ api_location:
 - pciidex.dll
 api_name:
 - AtaPortInitializeQueueTag
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

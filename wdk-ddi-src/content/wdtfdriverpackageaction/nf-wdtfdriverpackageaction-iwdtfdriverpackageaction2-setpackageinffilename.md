@@ -10,6 +10,7 @@ keywords: ["IWDTFDriverPackageAction2::SetPackageInfFileName"]
 ms.keywords: IWDTFDriverPackageAction2 interface [Windows Device Testing Framework],SetPackageInfFileName method, IWDTFDriverPackageAction2.SetPackageInfFileName, IWDTFDriverPackageAction2::SetPackageInfFileName, Microsoft.WDTF.IWDTFDriverPackageAction2.SetPackageInfFileName, Microsoft::WDTF::IWDTFDriverPackageAction2::SetPackageInfFileName, SetPackageInfFileName, SetPackageInfFileName method [Windows Device Testing Framework], SetPackageInfFileName method [Windows Device Testing Framework],IWDTFDriverPackageAction2 interface, dtf.iwdtfdriverpackageaction2_setpackageinffilename, wdtfdriverpackageaction/IWDTFDriverPackageAction2::SetPackageInfFileName
 f1_keywords:
  - "wdtfdriverpackageaction/IWDTFDriverPackageAction2.SetPackageInfFileName"
+ - "IWDTFDriverPackageAction2.SetPackageInfFileName"
 req.header: wdtfdriverpackageaction.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WDTFDriverPackageAction.Interop.dll
 api_name:
 - IWDTFDriverPackageAction2.SetPackageInfFileName
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

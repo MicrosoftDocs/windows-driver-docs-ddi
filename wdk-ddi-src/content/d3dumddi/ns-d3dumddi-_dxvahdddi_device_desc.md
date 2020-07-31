@@ -10,6 +10,7 @@ keywords: ["_DXVAHDDDI_DEVICE_DESC structure"]
 ms.keywords: DXVA2_Structs_ed3bcbea-9cf3-4a81-9134-e667e8121924.xml, DXVAHDDDI_DEVICE_DESC, DXVAHDDDI_DEVICE_DESC structure [Display Devices], _DXVAHDDDI_DEVICE_DESC, d3dumddi/DXVAHDDDI_DEVICE_DESC, display.dxvahdddi_device_desc
 f1_keywords:
  - "d3dumddi/DXVAHDDDI_DEVICE_DESC"
+ - "DXVAHDDDI_DEVICE_DESC"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - DXVAHDDDI_DEVICE_DESC
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVAHDDDI_DEVICE_DESC
 ---

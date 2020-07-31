@@ -10,6 +10,7 @@ keywords: ["_NFC_CX_LLCP_CONFIG structure"]
 ms.keywords: "*PNFC_CX_LLCP_CONFIG, NFC_CX_LLCP_CONFIG, NFC_CX_LLCP_CONFIG structure [Near-Field Proximity Drivers], PNFC_CX_LLCP_CONFIG, PNFC_CX_LLCP_CONFIG structure pointer [Near-Field Proximity Drivers], _NFC_CX_LLCP_CONFIG, nfccx/NFC_CX_LLCP_CONFIG, nfccx/PNFC_CX_LLCP_CONFIG, nfpdrivers.nfc_cx_llcp_config"
 f1_keywords:
  - "nfccx/NFC_CX_LLCP_CONFIG"
+ - "NFC_CX_LLCP_CONFIG"
 req.header: nfccx.h
 req.include-header: Ncidef.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - nfccx.h
 api_name:
 - NFC_CX_LLCP_CONFIG
-product:
-- Windows
 targetos: Windows
 req.typenames: NFC_CX_LLCP_CONFIG, *PNFC_CX_LLCP_CONFIG
 ---

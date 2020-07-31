@@ -10,6 +10,7 @@ keywords: ["WdfCollectionRemoveItem function"]
 ms.keywords: DFCollectionObjectRef_a037497e-b219-41c1-8d65-29cf8be17989.xml, WdfCollectionRemoveItem, WdfCollectionRemoveItem method, kmdf.wdfcollectionremoveitem, wdf.wdfcollectionremoveitem, wdfcollection/WdfCollectionRemoveItem
 f1_keywords:
  - "wdfcollection/WdfCollectionRemoveItem"
+ - "WdfCollectionRemoveItem"
 req.header: wdfcollection.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfCollectionRemoveItem
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

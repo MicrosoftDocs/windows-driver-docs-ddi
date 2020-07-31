@@ -10,6 +10,7 @@ keywords: ["PsMakeSiloContextPermanent function"]
 ms.keywords: PsMakeSiloContextPermanent, PsMakeSiloContextPermanent routine [Kernel-Mode Driver Architecture], kernel.psmakesilocontextpermanent, ntddk/PsMakeSiloContextPermanent
 f1_keywords:
  - "ntddk/PsMakeSiloContextPermanent"
+ - "PsMakeSiloContextPermanent"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - PsMakeSiloContextPermanent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

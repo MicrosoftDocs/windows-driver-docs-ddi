@@ -10,6 +10,7 @@ keywords: ["IWDFRemoteTarget::GetState"]
 ms.keywords: GetState, GetState method, GetState method,IWDFRemoteTarget interface, IWDFRemoteTarget interface,GetState method, IWDFRemoteTarget.GetState, IWDFRemoteTarget::GetState, UMDFIoTargetObjectRef_34bf0f92-927a-4733-9897-5aa146998136.xml, umdf.iwdfremotetarget_getstate, wdf.iwdfremotetarget_getstate, wudfddi/IWDFRemoteTarget::GetState
 f1_keywords:
  - "wudfddi/IWDFRemoteTarget.GetState"
+ - "IWDFRemoteTarget.GetState"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFRemoteTarget.GetState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

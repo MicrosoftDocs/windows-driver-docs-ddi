@@ -10,6 +10,7 @@ keywords: ["_USBD_INTERFACE_LIST_ENTRY structure"]
 ms.keywords: "*PUSBD_INTERFACE_LIST_ENTRY, PUSBD_INTERFACE_LIST_ENTRY, PUSBD_INTERFACE_LIST_ENTRY structure pointer [Buses], USBD_INTERFACE_LIST_ENTRY, USBD_INTERFACE_LIST_ENTRY structure [Buses], _USBD_INTERFACE_LIST_ENTRY, buses.usbd_interface_list_entry, usbdlib/PUSBD_INTERFACE_LIST_ENTRY, usbdlib/USBD_INTERFACE_LIST_ENTRY, usbstrct_f42a04be-c6c2-44c6-ae18-725929020420.xml"
 f1_keywords:
  - "usbdlib/USBD_INTERFACE_LIST_ENTRY"
+ - "USBD_INTERFACE_LIST_ENTRY"
 req.header: usbdlib.h
 req.include-header: Usbdlib.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - usbdlib.h
 api_name:
 - USBD_INTERFACE_LIST_ENTRY
-product:
-- Windows
 targetos: Windows
 req.typenames: USBD_INTERFACE_LIST_ENTRY, *PUSBD_INTERFACE_LIST_ENTRY
 ---

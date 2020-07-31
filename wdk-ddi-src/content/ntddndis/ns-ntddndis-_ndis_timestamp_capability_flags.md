@@ -8,6 +8,7 @@ ms.date: 08/08/2018
 keywords: ["_NDIS_TIMESTAMP_CAPABILITY_FLAGS structure"]
 f1_keywords:
  - "ntddndis/_NDIS_TIMESTAMP_CAPABILITY_FLAGS"
+ - "_NDIS_TIMESTAMP_CAPABILITY_FLAGS"
 ms.keywords: _NDIS_TIMESTAMP_CAPABILITY_FLAGS, NDIS_TIMESTAMP_CAPABILITY_FLAGS, *PNDIS_TIMESTAMP_CAPABILITY_FLAGS, 
 req.header: ntddndis.h
 req.include-header: ndis.h
@@ -30,8 +31,6 @@ api_location:
 - ntddndis.h
 api_name: 
 - _NDIS_TIMESTAMP_CAPABILITY_FLAGS
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

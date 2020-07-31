@@ -10,6 +10,7 @@ keywords: ["OEMPlgBlt function"]
 ms.keywords: OEMPlgBlt, OEMPlgBlt function [Print Devices], print.oemplgblt, print_unidrv-pscript_rendering_b0052697-f944-4969-94c3-efc74838d571.xml, printoem/OEMPlgBlt
 f1_keywords:
  - "printoem/OEMPlgBlt"
+ - "OEMPlgBlt"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - printoem.h
 api_name:
 - OEMPlgBlt
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

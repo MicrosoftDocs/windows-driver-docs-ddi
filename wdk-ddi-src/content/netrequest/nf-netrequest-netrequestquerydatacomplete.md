@@ -8,6 +8,7 @@ ms.date: 02/08/2018
 keywords: ["NetRequestQueryDataComplete function"]
 f1_keywords:
  - "netrequest/NetRequestQueryDataComplete"
+ - "NetRequestQueryDataComplete"
 ms.keywords: NetRequestQueryDataComplete
 req.header: netrequest.h
 req.include-header: netadaptercx.h
@@ -37,8 +38,6 @@ api_location:
 api_name: 
 - NetRequestQueryDataComplete
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetRequestQueryDataComplete function

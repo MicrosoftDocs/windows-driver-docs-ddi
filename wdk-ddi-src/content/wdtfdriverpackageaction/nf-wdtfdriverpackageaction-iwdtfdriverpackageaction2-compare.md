@@ -10,6 +10,7 @@ keywords: ["IWDTFDriverPackageAction2::Compare"]
 ms.keywords: Compare, Compare method [Windows Device Testing Framework], Compare method [Windows Device Testing Framework],IWDTFDriverPackageAction2 interface, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework],Compare method, IWDTFDriverPackageAction2.Compare, IWDTFDriverPackageAction2::Compare, Microsoft.WDTF.IWDTFDriverPackageAction2.Compare, Microsoft::WDTF::IWDTFDriverPackageAction2::Compare, dtf.iwdtfdriverpackageaction2_compare, wdtfdriverpackageaction/IWDTFDriverPackageAction2::Compare
 f1_keywords:
  - "wdtfdriverpackageaction/IWDTFDriverPackageAction2.Compare"
+ - "IWDTFDriverPackageAction2.Compare"
 req.header: wdtfdriverpackageaction.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WDTFDriverPackageAction.Interop.dll
 api_name:
 - IWDTFDriverPackageAction2.Compare
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

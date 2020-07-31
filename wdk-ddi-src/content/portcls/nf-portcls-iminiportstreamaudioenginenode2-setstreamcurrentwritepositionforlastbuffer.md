@@ -10,6 +10,7 @@ keywords: ["IMiniportStreamAudioEngineNode2::SetStreamCurrentWritePositionForLas
 ms.keywords: IMiniportStreamAudioEngineNode2 interface [Audio Devices],SetStreamCurrentWritePositionForLastBuffer method, IMiniportStreamAudioEngineNode2.SetStreamCurrentWritePositionForLastBuffer, IMiniportStreamAudioEngineNode2::SetStreamCurrentWritePositionForLastBuffer, SetStreamCurrentWritePositionForLastBuffer, SetStreamCurrentWritePositionForLastBuffer method [Audio Devices], SetStreamCurrentWritePositionForLastBuffer method [Audio Devices],IMiniportStreamAudioEngineNode2 interface, audio.iminiportstreamaudioenginenode2_setstreamcurrentwritepositionforlastbuffer, portcls/IMiniportStreamAudioEngineNode2::SetStreamCurrentWritePositionForLastBuffer
 f1_keywords:
  - "portcls/IMiniportStreamAudioEngineNode2.SetStreamCurrentWritePositionForLastBuffer"
+ - "IMiniportStreamAudioEngineNode2.SetStreamCurrentWritePositionForLastBuffer"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Portcls.h
 api_name:
 - IMiniportStreamAudioEngineNode2.SetStreamCurrentWritePositionForLastBuffer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IPrintCoreUI2::WhyConstrained"]
 ms.keywords: IPrintCoreUI2 interface [Print Devices],WhyConstrained method, IPrintCoreUI2.WhyConstrained, IPrintCoreUI2::WhyConstrained, WhyConstrained, WhyConstrained method [Print Devices], WhyConstrained method [Print Devices],IPrintCoreUI2 interface, prcomoem/IPrintCoreUI2::WhyConstrained, print.iprintcoreui2_whyconstrained, print_unidrv-pscript_ui_4ab02889-5bb1-412e-8bc3-2b0f5bb63088.xml
 f1_keywords:
  - "prcomoem/IPrintCoreUI2.WhyConstrained"
+ - "IPrintCoreUI2.WhyConstrained"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - prcomoem.h
 api_name:
 - IPrintCoreUI2.WhyConstrained
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

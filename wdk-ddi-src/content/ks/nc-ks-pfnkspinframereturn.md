@@ -10,6 +10,7 @@ keywords: ["PFNKSPINFRAMERETURN callback function"]
 ms.keywords: AVStrMiniFrameReturn, AVStrMiniFrameReturn routine [Streaming Media Devices], PFNKSPINFRAMERETURN, avstclbk_e7edb74a-8c38-4e7d-9978-849e5d88c153.xml, ks/AVStrMiniFrameReturn, stream.avstrminiframereturn
 f1_keywords:
  - "ks/AVStrMiniFrameReturn"
+ - "AVStrMiniFrameReturn"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - AVStrMiniFrameReturn
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

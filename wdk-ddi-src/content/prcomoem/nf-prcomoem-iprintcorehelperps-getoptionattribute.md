@@ -10,6 +10,7 @@ keywords: ["IPrintCoreHelperPS::GetOptionAttribute"]
 ms.keywords: GetOptionAttribute, GetOptionAttribute method [Print Devices], GetOptionAttribute method [Print Devices],IPrintCoreHelperPS interface, IPrintCoreHelperPS interface [Print Devices],GetOptionAttribute method, IPrintCoreHelperPS.GetOptionAttribute, IPrintCoreHelperPS::GetOptionAttribute, prcomoem/IPrintCoreHelperPS::GetOptionAttribute, print.iprintcorehelperps_getoptionattribute, print_unidrv-pscript_allplugins_9c895bf8-2a17-4a3a-b97d-e747f5996318.xml
 f1_keywords:
  - "prcomoem/IPrintCoreHelperPS.GetOptionAttribute"
+ - "IPrintCoreHelperPS.GetOptionAttribute"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - prcomoem.h
 api_name:
 - IPrintCoreHelperPS.GetOptionAttribute
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

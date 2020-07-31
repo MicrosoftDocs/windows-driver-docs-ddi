@@ -10,6 +10,7 @@ keywords: ["_DISK_PARTITION_INFO structure"]
 ms.keywords: "*PDISK_PARTITION_INFO, DISK_PARTITION_INFO, DISK_PARTITION_INFO structure [Storage Devices], PDISK_PARTITION_INFO, PDISK_PARTITION_INFO structure pointer [Storage Devices], _DISK_PARTITION_INFO, ntdddisk/DISK_PARTITION_INFO, ntdddisk/PDISK_PARTITION_INFO, storage.disk_partition_info, structs-disk_307cbbb9-2940-4a87-b6b7-04e588811b8e.xml"
 f1_keywords:
  - "ntdddisk/DISK_PARTITION_INFO"
+ - "DISK_PARTITION_INFO"
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntdddisk.h
 api_name:
 - DISK_PARTITION_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: DISK_PARTITION_INFO, *PDISK_PARTITION_INFO
 ---

@@ -7,6 +7,7 @@ ms.date: 08/07/2018
 keywords: ["CollectionsListDeserializeFromBuffer function"]
 f1_keywords:
  - "sensorsutils/CollectionsListDeserializeFromBuffer"
+ - "CollectionsListDeserializeFromBuffer"
 tech.root: sensors
 ms.keywords: CollectionsListDeserializeFromBuffer
 req.header: sensorsutils.h
@@ -34,8 +35,6 @@ api_location:
 - sensorsutils.h
 api_name: 
 - CollectionsListDeserializeFromBuffer
-product:
-- Windows
 targetos: Windows
 
 

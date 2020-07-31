@@ -10,6 +10,7 @@ keywords: ["NdisAllocateTimerObject function"]
 ms.keywords: NdisAllocateTimerObject, NdisAllocateTimerObject function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateTimerObject, ndis_timer_ref_38e524b5-9210-4c60-b9ea-66fc23593dad.xml, netvista.ndisallocatetimerobject
 f1_keywords:
  - "ndis/NdisAllocateTimerObject"
+ - "NdisAllocateTimerObject"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisAllocateTimerObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

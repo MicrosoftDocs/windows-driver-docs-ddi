@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_DXGK_NODEMETADATA_FLAGS structure"]
 f1_keywords:
  - "d3dkmdt/_DXGK_NODEMETADATA_FLAGS"
+ - "_DXGK_NODEMETADATA_FLAGS"
 ms.keywords: _DXGK_NODEMETADATA_FLAGS, DXGK_NODEMETADATA_FLAGS, 
 req.header: d3dkmdt.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - d3dkmdt.h
 api_name: 
 - _DXGK_NODEMETADATA_FLAGS
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

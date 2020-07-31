@@ -10,6 +10,7 @@ keywords: ["IOCTL_STORAGE_RESERVE IOCTL"]
 ms.keywords: IOCTL_STORAGE_RESERVE, IOCTL_STORAGE_RESERVE control, IOCTL_STORAGE_RESERVE control code [Storage Devices], k307_3cb0baa4-c551-44a1-8728-c0053ab04e79.xml, ntddstor/IOCTL_STORAGE_RESERVE, storage.ioctl_storage_reserve
 f1_keywords:
  - "ntddstor/IOCTL_STORAGE_RESERVE"
+ - "IOCTL_STORAGE_RESERVE"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddstor.h
 api_name:
 - IOCTL_STORAGE_RESERVE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

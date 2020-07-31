@@ -10,6 +10,7 @@ keywords: ["PcCompletePendingPropertyRequest function"]
 ms.keywords: PcCompletePendingPropertyRequest, PcCompletePendingPropertyRequest function [Audio Devices], audio.pccompletependingpropertyrequest, audpc-routines_934503ea-325f-4e57-ba45-e8834a64cefa.xml, portcls/PcCompletePendingPropertyRequest
 f1_keywords:
  - "portcls/PcCompletePendingPropertyRequest"
+ - "PcCompletePendingPropertyRequest"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Portcls.dll
 api_name:
 - PcCompletePendingPropertyRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

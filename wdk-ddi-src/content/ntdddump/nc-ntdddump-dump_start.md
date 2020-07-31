@@ -10,6 +10,7 @@ keywords: ["DUMP_START callback function"]
 ms.keywords: Dump_Start, Dump_Start routine [Storage Devices], PDUMP_START, filter_rtns_071f1e6c-9471-47ef-bf40-6429a798b792.xml, ntdddump/Dump_Start, storage.dump_start
 f1_keywords:
  - "ntdddump/Dump_Start"
+ - "Dump_Start"
 req.header: ntdddump.h
 req.include-header: Ntdddump.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ntdddump.h
 api_name:
 - Dump_Start
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["RILRADIOSTATEGROUP structure"]
 ms.keywords: "*LPRILRADIOSTATEGROUP, RILRADIOSTATEGROUP, RILRADIOSTATEGROUP structure [Network Drivers Starting with Windows Vista], netvista.rilradiostategroup, ntddrilapitypes/RILRADIOSTATEGROUP"
 f1_keywords:
  - "ntddrilapitypes/RILRADIOSTATEGROUP"
+ - "RILRADIOSTATEGROUP"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILRADIOSTATEGROUP
-product:
-- Windows
 targetos: Windows
 req.typenames: RILRADIOSTATEGROUP, *LPRILRADIOSTATEGROUP
 ---

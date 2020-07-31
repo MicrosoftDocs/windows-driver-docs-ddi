@@ -8,6 +8,7 @@ ms.date: 09/30/2018
 keywords: ["UcmUcsiPpmStop function"]
 f1_keywords:
  - "ucmucsippm/UcmUcsiPpmStop"
+ - "UcmUcsiPpmStop"
 ms.keywords: UcmUcsiPpmStop
 req.header: ucmucsippm.h
 req.include-header: UcmUcsiCx.h
@@ -34,8 +35,6 @@ api_location:
 - UcmUcsiCxStub.lib
 api_name: 
 - UcmUcsiPpmStop
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

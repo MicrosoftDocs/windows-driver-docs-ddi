@@ -10,6 +10,7 @@ keywords: ["PI2C_READ callback function"]
 ms.keywords: I2CRead, I2CRead callback function [Display Devices], PI2C_READ, PI2C_READ callback, VideoPort_Functions_cb73b3b1-1646-43ef-ac61-5a14c9a53b9b.xml, display.i2cread, video/I2CRead
 f1_keywords:
  - "video/I2CRead"
+ - "I2CRead"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - video.h
 api_name:
 - I2CRead
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

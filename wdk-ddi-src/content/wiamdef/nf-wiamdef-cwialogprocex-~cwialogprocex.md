@@ -10,6 +10,7 @@ keywords: ["CWiaLogProcEx::~CWiaLogProcEx"]
 ms.keywords: CWiaLogProcEx interface [Imaging Devices],~CWiaLogProcEx method, CWiaLogProcEx.~CWiaLogProcEx, CWiaLogProcEx::~CWiaLogProcEx, image.cwialogprocex__cwialogprocex, wiamdef/CWiaLogProcEx::~CWiaLogProcEx, ~CWiaLogProcEx, ~CWiaLogProcEx method [Imaging Devices], ~CWiaLogProcEx method [Imaging Devices],CWiaLogProcEx interface
 f1_keywords:
  - "wiamdef/CWiaLogProcEx.~CWiaLogProcEx"
+ - "CWiaLogProcEx.~CWiaLogProcEx"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wiamdef.h
 api_name:
 - CWiaLogProcEx.~CWiaLogProcEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

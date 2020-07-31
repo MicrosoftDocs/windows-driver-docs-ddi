@@ -10,6 +10,7 @@ keywords: ["DebugConnectWide function"]
 ms.keywords: DebugConnectWide, DebugConnectWide function [Windows Debugging], dbgeng/DebugConnectWide, debugger.debugconnectwide
 f1_keywords:
  - "dbgeng/DebugConnectWide"
+ - "DebugConnectWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.dll
 api_name:
 - DebugConnectWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

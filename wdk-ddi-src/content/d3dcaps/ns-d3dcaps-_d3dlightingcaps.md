@@ -10,6 +10,7 @@ keywords: ["_D3DLIGHTINGCAPS structure"]
 ms.keywords: "*LPD3DLIGHTINGCAPS, D3DLIGHTINGCAPS, D3DLIGHTINGCAPS structure [Display Devices], LPD3DLIGHTINGCAPS, LPD3DLIGHTINGCAPS structure pointer [Display Devices], _D3DLIGHTINGCAPS, d3dcaps/D3DLIGHTINGCAPS, d3dcaps/LPD3DLIGHTINGCAPS, d3dstrct_98470d9f-b4ed-49ee-9c0f-34c991916de3.xml, display.d3dlightingcaps"
 f1_keywords:
  - "d3dcaps/D3DLIGHTINGCAPS"
+ - "D3DLIGHTINGCAPS"
 req.header: d3dcaps.h
 req.include-header: D3dcaps.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dcaps.h
 api_name:
 - D3DLIGHTINGCAPS
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DLIGHTINGCAPS, *LPD3DLIGHTINGCAPS
 ---

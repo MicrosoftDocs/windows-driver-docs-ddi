@@ -10,6 +10,7 @@ keywords: ["_SendTargets_OUT structure"]
 ms.keywords: "*PSendTargets_OUT, PSendTargets_OUT, PSendTargets_OUT structure pointer [Storage Devices], SendTargets_OUT, SendTargets_OUT structure [Storage Devices], _SendTargets_OUT, iscsiop/PSendTargets_OUT, iscsiop/SendTargets_OUT, storage.sendtargets_out, structs-iSCSI_c54a2d75-d780-4605-bdaf-5953f7ce5008.xml"
 f1_keywords:
  - "iscsiop/SendTargets_OUT"
+ - "SendTargets_OUT"
 req.header: iscsiop.h
 req.include-header: Iscsiop.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - iscsiop.h
 api_name:
 - SendTargets_OUT
-product:
-- Windows
 targetos: Windows
 req.typenames: SendTargets_OUT, *PSendTargets_OUT
 ---

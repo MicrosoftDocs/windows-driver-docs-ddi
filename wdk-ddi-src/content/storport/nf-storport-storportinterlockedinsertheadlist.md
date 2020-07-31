@@ -10,6 +10,7 @@ keywords: ["StorPortInterlockedInsertHeadList function"]
 ms.keywords: StorPortInterlockedInsertHeadList, StorPortInterlockedInsertHeadList routine [Storage Devices], storage.storportinterlockedinsertheadlist, storport/StorPortInterlockedInsertHeadList
 f1_keywords:
  - "storport/StorPortInterlockedInsertHeadList"
+ - "StorPortInterlockedInsertHeadList"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - storport.h
 api_name:
 - StorPortInterlockedInsertHeadList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

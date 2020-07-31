@@ -10,6 +10,7 @@ keywords: ["_WDF_POWER_FRAMEWORK_SETTINGS structure"]
 ms.keywords: "*PWDF_POWER_FRAMEWORK_SETTINGS, PWDF_POWER_FRAMEWORK_SETTINGS, PWDF_POWER_FRAMEWORK_SETTINGS structure pointer, WDF_POWER_FRAMEWORK_SETTINGS, WDF_POWER_FRAMEWORK_SETTINGS structure, _WDF_POWER_FRAMEWORK_SETTINGS, kmdf.wdf_power_framework_settings, wdf.wdf_power_framework_settings, wdfdevice/PWDF_POWER_FRAMEWORK_SETTINGS, wdfdevice/WDF_POWER_FRAMEWORK_SETTINGS"
 f1_keywords:
  - "wdfdevice/WDF_POWER_FRAMEWORK_SETTINGS"
+ - "WDF_POWER_FRAMEWORK_SETTINGS"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wdfdevice.h
 api_name:
 - WDF_POWER_FRAMEWORK_SETTINGS
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_POWER_FRAMEWORK_SETTINGS, *PWDF_POWER_FRAMEWORK_SETTINGS
 ---

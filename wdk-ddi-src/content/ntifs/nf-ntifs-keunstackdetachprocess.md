@@ -10,6 +10,7 @@ keywords: ["KeUnstackDetachProcess function"]
 ms.keywords: KeUnstackDetachProcess, KeUnstackDetachProcess routine [Installable File System Drivers], ifsk.keunstackdetachprocess, keref_47d45f58-d264-4633-8808-2172646df566.xml, ntifs/KeUnstackDetachProcess
 f1_keywords:
  - "ntifs/KeUnstackDetachProcess"
+ - "KeUnstackDetachProcess"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeUnstackDetachProcess
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["MINIPORT_WDI_RX_RESTART callback function"]
 ms.keywords: MINIPORT_WDI_RX_RESTART, MINIPORT_WDI_RX_RESTART callback, MiniportWdiRxRestart, MiniportWdiRxRestart callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiRxRestart, netvista.miniportwdirxrestart
 f1_keywords:
  - "dot11wdi/MiniportWdiRxRestart"
+ - "MiniportWdiRxRestart"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dot11wdi.h
 api_name:
 - MiniportWdiRxRestart
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

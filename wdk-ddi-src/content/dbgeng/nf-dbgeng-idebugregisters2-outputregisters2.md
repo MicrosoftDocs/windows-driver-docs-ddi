@@ -10,6 +10,7 @@ keywords: ["IDebugRegisters2::OutputRegisters2"]
 ms.keywords: IDebugRegisters2 interface [Windows Debugging],OutputRegisters2 method, IDebugRegisters2.OutputRegisters2, IDebugRegisters2::OutputRegisters2, IDebugRegisters_ecc2b40a-622b-4f1f-867b-2eb6b575559d.xml, OutputRegisters2, OutputRegisters2 method [Windows Debugging], OutputRegisters2 method [Windows Debugging],IDebugRegisters2 interface, dbgeng/IDebugRegisters2::OutputRegisters2, debugger.outputregisters2
 f1_keywords:
  - "dbgeng/IDebugRegisters2.OutputRegisters2"
+ - "IDebugRegisters2.OutputRegisters2"
 req.header: dbgeng.h
 req.include-header: DbgEng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugRegisters2.OutputRegisters2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_IO_QUEUE_IO_DEVICE_CONTROL callback function"]
 ms.keywords: DFQueueObjectRef_90eafb20-dd9c-49ca-b435-fdee9b13e4e1.xml, EVT_WDF_IO_QUEUE_IO_DEVICE_CONTROL, EVT_WDF_IO_QUEUE_IO_DEVICE_CONTROL callback, EvtIoDeviceControl, EvtIoDeviceControl callback function, kmdf.evtiodevicecontrol, wdf.evtiodevicecontrol, wdfio/EvtIoDeviceControl
 f1_keywords:
  - "wdfio/EvtIoDeviceControl"
+ - "EvtIoDeviceControl"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Wdfio.h
 api_name:
 - EvtIoDeviceControl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

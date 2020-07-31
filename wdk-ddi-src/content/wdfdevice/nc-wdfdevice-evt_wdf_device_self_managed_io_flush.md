@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_DEVICE_SELF_MANAGED_IO_FLUSH callback function"]
 ms.keywords: DFDeviceObjectGeneralRef_d464c7ae-10fa-4838-b152-9bbaeaac76de.xml, EVT_WDF_DEVICE_SELF_MANAGED_IO_FLUSH, EVT_WDF_DEVICE_SELF_MANAGED_IO_FLUSH callback, EvtDeviceSelfManagedIoFlush, EvtDeviceSelfManagedIoFlush callback function, kmdf.evtdeviceselfmanagedioflush, wdf.evtdeviceselfmanagedioflush, wdfdevice/EvtDeviceSelfManagedIoFlush
 f1_keywords:
  - "wdfdevice/EvtDeviceSelfManagedIoFlush"
+ - "EvtDeviceSelfManagedIoFlush"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Wdfdevice.h
 api_name:
 - EvtDeviceSelfManagedIoFlush
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

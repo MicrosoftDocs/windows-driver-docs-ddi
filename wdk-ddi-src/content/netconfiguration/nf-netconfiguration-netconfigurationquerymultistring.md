@@ -8,6 +8,7 @@ ms.date: 02/07/2018
 keywords: ["NetConfigurationQueryMultiString function"]
 f1_keywords:
  - "netconfiguration/NetConfigurationQueryMultiString"
+ - "NetConfigurationQueryMultiString"
 ms.keywords: NetConfigurationQueryMultiString
 req.header: netconfiguration.h
 req.include-header: netadaptercx.h
@@ -37,8 +38,6 @@ api_location:
 api_name: 
 - NetConfigurationQueryMultiString
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetConfigurationQueryMultiString function

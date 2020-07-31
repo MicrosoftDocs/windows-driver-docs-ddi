@@ -10,6 +10,7 @@ keywords: ["IKsPin::KsPeekAllocator"]
 ms.keywords: IKsPin interface [Streaming Media Devices],KsPeekAllocator method, IKsPin.KsPeekAllocator, IKsPin::KsPeekAllocator, KsPeekAllocator, KsPeekAllocator method [Streaming Media Devices], KsPeekAllocator method [Streaming Media Devices],IKsPin interface, ksproxy/IKsPin::KsPeekAllocator, ksproxy_46ab9e52-a477-4fca-bddc-af1848484f84.xml, stream.ikspin_kspeekallocator
 f1_keywords:
  - "ksproxy/IKsPin.KsPeekAllocator"
+ - "IKsPin.KsPeekAllocator"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ksproxy.h
 api_name:
 - IKsPin.KsPeekAllocator
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

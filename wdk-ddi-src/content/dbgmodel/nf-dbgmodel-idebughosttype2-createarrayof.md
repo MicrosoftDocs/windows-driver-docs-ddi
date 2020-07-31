@@ -7,6 +7,7 @@ ms.date: 09/20/2018
 keywords: ["IDebugHostType2::CreateArrayOf"]
 f1_keywords:
  - "dbgmodel/IDebugHostType2.CreateArrayOf"
+ - "IDebugHostType2.CreateArrayOf"
 ms.keywords: IDebugHostType2::CreateArrayOf, CreateArrayOf, IDebugHostType2.CreateArrayOf, IDebugHostType2::CreateArrayOf, IDebugHostType2.CreateArrayOf
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostType2.CreateArrayOf
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

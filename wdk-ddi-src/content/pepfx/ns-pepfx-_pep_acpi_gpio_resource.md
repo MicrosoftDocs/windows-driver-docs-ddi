@@ -10,6 +10,7 @@ keywords: ["_PEP_ACPI_GPIO_RESOURCE structure"]
 ms.keywords: "*PPEP_ACPI_GPIO_RESOURCE, PEP_ACPI_GPIO_RESOURCE, PEP_ACPI_GPIO_RESOURCE structure [Kernel-Mode Driver Architecture], PPEP_ACPI_GPIO_RESOURCE, PPEP_ACPI_GPIO_RESOURCE structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_GPIO_RESOURCE, kernel.pep_acpi_gpio_resource, pepfx/PEP_ACPI_GPIO_RESOURCE, pepfx/PPEP_ACPI_GPIO_RESOURCE"
 f1_keywords:
  - "pepfx/PEP_ACPI_GPIO_RESOURCE"
+ - "PEP_ACPI_GPIO_RESOURCE"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - PEP_ACPI_GPIO_RESOURCE
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_ACPI_GPIO_RESOURCE, *PPEP_ACPI_GPIO_RESOURCE
 ---

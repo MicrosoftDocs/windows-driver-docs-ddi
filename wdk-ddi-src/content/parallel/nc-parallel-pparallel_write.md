@@ -10,6 +10,7 @@ keywords: ["PPARALLEL_WRITE callback"]
 ms.keywords: PPARALLEL_WRITE, PPARALLEL_WRITE function pointer [Parallel Ports], cisspd_c9bcb3ed-ca6a-44d7-8952-f96f76490262.xml, parallel/PPARALLEL_WRITE, parports.pparallel_write
 f1_keywords:
  - "parallel/PPARALLEL_WRITE"
+ - "PPARALLEL_WRITE"
 req.header: parallel.h
 req.include-header: Parallel.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - parallel.h
 api_name:
 - PPARALLEL_WRITE
-product:
-- Windows
 targetos: Windows
 req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ---

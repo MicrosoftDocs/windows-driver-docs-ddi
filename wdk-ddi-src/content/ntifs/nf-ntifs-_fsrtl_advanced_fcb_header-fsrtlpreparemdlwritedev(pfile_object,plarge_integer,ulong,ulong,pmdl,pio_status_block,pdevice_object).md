@@ -10,6 +10,7 @@ keywords: ["FsRtlPrepareMdlWriteDev function"]
 ms.keywords: FsRtlPrepareMdlWriteDev, FsRtlPrepareMdlWriteDev routine [Installable File System Drivers], fltkernel/FsRtlPrepareMdlWriteDev, ifsk.fltfastiopreparemdlwrite
 f1_keywords:
  - "ntifs/FsRtlPrepareMdlWriteDev"
+ - "FsRtlPrepareMdlWriteDev"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlPrepareMdlWriteDev
-product:
-- Windows
 targetos: Windows
 req.typenames: VOLUME_READ_PLEX_INPUT, *PVOLUME_READ_PLEX_INPUT
 dev_langs:

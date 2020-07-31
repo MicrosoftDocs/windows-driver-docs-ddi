@@ -8,6 +8,7 @@ ms.date: 10/19/2018
 keywords: ["FsRtlUninitializeBaseMcb function"]
 f1_keywords:
  - "ntifs/FsRtlUninitializeBaseMcb"
+ - "FsRtlUninitializeBaseMcb"
 ms.keywords: FsRtlUninitializeBaseMcb
 req.header: ntifs.h
 req.include-header:
@@ -34,8 +35,6 @@ api_location:
 - NtosKrnl.exe
 api_name: 
 - FsRtlUninitializeBaseMcb
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

@@ -10,6 +10,7 @@ keywords: ["IOCTL_MOUNTMGR_VOLUME_MOUNT_POINT_DELETED IOCTL"]
 ms.keywords: IOCTL_MOUNTMGR_VOLUME_MOUNT_POINT_DELETED, IOCTL_MOUNTMGR_VOLUME_MOUNT_POINT_DELETED control, IOCTL_MOUNTMGR_VOLUME_MOUNT_POINT_DELETED control code [Storage Devices], k307_fce8de67-6c3d-4e89-8259-a7058c968c62.xml, mountmgr/IOCTL_MOUNTMGR_VOLUME_MOUNT_POINT_DELETED, storage.ioctl_mountmgr_volume_mount_point_deleted
 f1_keywords:
  - "mountmgr/IOCTL_MOUNTMGR_VOLUME_MOUNT_POINT_DELETED"
+ - "IOCTL_MOUNTMGR_VOLUME_MOUNT_POINT_DELETED"
 req.header: mountmgr.h
 req.include-header: Mountmgr.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Mountmgr.h
 api_name:
 - IOCTL_MOUNTMGR_VOLUME_MOUNT_POINT_DELETED
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

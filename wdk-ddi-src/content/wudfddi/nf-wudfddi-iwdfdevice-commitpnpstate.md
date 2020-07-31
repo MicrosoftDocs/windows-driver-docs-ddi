@@ -10,6 +10,7 @@ keywords: ["IWDFDevice::CommitPnpState"]
 ms.keywords: CommitPnpState, CommitPnpState method, CommitPnpState method,IWDFDevice interface, IWDFDevice interface,CommitPnpState method, IWDFDevice.CommitPnpState, IWDFDevice::CommitPnpState, UMDFDeviceObjectRef_51342f9e-fc5f-4100-8c5c-bc58d7569529.xml, umdf.iwdfdevice_commitpnpstate, wdf.iwdfdevice_commitpnpstate, wudfddi/IWDFDevice::CommitPnpState
 f1_keywords:
  - "wudfddi/IWDFDevice.CommitPnpState"
+ - "IWDFDevice.CommitPnpState"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFDevice.CommitPnpState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

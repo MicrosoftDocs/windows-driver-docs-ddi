@@ -9,6 +9,7 @@ keywords: ["D3DKMTCreateAllocation function"]
 ms.keywords: D3DKMTCreateAllocation, D3DKMTCreateAllocation callback function [Display Devices], OpenGL_Functions_dfd80d2b-c3c7-4aca-833c-153090153b96.xml, PFND3DKMT_CREATEALLOCATION, PFND3DKMT_CREATEALLOCATION callback, d3dkmthk/D3DKMTCreateAllocation, display.d3dkmtcreateallocation
 f1_keywords:
  - "d3dkmthk/D3DKMTCreateAllocation"
+ - "D3DKMTCreateAllocation"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -35,8 +36,6 @@ api_location:
 - Gdi32.dll
 api_name:
 - D3DKMTCreateAllocation
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

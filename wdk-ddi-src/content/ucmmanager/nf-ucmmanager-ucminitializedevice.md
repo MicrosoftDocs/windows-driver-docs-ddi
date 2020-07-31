@@ -10,6 +10,7 @@ keywords: ["UcmInitializeDevice function"]
 ms.keywords: UcmInitializeDevice, UcmInitializeDevice method [Buses], buses.ucminitializedevice, ucmmanager/UcmInitializeDevice
 f1_keywords:
  - "ucmmanager/UcmInitializeDevice"
+ - "UcmInitializeDevice"
 req.header: ucmmanager.h
 req.include-header: Ucmcx.h
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 - UcmCxstub.dll
 api_name:
 - UcmInitializeDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

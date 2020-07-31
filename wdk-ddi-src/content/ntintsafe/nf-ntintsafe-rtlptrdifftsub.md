@@ -10,6 +10,7 @@ keywords: ["RtlPtrdiffTSub function"]
 ms.keywords: RtlPtrdiffTSub, RtlPtrdiffTSub function [Kernel-Mode Driver Architecture], kernel.rtlptrdifftsub, ntintsafe/RtlPtrdiffTSub
 f1_keywords:
  - "ntintsafe/RtlPtrdiffTSub"
+ - "RtlPtrdiffTSub"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Ntintsafe.h
 api_name:
 - RtlPtrdiffTSub
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

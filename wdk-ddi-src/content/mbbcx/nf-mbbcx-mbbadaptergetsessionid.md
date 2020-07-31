@@ -8,6 +8,7 @@ ms.date: 06/29/2018
 keywords: ["MbbAdapterGetSessionId function"]
 f1_keywords:
  - "mbbcx/MbbAdapterGetSessionId"
+ - "MbbAdapterGetSessionId"
 ms.keywords: MbbAdapterGetSessionId
 req.header: mbbcx.h
 req.include-header:
@@ -34,8 +35,6 @@ api_location:
 - mbbcxstub.lib
 api_name: 
 - MbbAdapterGetSessionId
-product:
-- Windows
 targetos: Windows
 
 

@@ -10,6 +10,7 @@ keywords: ["IMasterClock::GetTime"]
 ms.keywords: GetTime, GetTime method [Audio Devices], GetTime method [Audio Devices],IMasterClock interface, IMasterClock interface [Audio Devices],GetTime method, IMasterClock.GetTime, IMasterClock::GetTime, audio.imasterclock_gettime, audmp-routines_08af6e05-c432-4560-91fb-f17687291fc0.xml, dmusicks/IMasterClock::GetTime
 f1_keywords:
  - "dmusicks/IMasterClock.GetTime"
+ - "IMasterClock.GetTime"
 req.header: dmusicks.h
 req.include-header: Dmusicks.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dmusicks.h
 api_name:
 - IMasterClock.GetTime
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

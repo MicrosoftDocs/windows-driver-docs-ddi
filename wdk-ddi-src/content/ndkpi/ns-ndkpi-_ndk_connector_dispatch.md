@@ -10,6 +10,7 @@ keywords: ["_NDK_CONNECTOR_DISPATCH structure"]
 ms.keywords: NDK_CONNECTOR_DISPATCH, NDK_CONNECTOR_DISPATCH structure [Network Drivers Starting with Windows Vista], PNDK_CONNECTOR_DISPATCH, PNDK_CONNECTOR_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], _NDK_CONNECTOR_DISPATCH, ndkpi/NDK_CONNECTOR_DISPATCH, ndkpi/PNDK_CONNECTOR_DISPATCH, netvista.ndk_connector_dispatch
 f1_keywords:
  - "ndkpi/NDK_CONNECTOR_DISPATCH"
+ - "NDK_CONNECTOR_DISPATCH"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ndkpi.h
 api_name:
 - NDK_CONNECTOR_DISPATCH
-product:
-- Windows
 targetos: Windows
 req.typenames: NDK_CONNECTOR_DISPATCH
 ---

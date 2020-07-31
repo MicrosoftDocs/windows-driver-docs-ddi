@@ -10,6 +10,7 @@ keywords: ["IDebugSystemObjects2::SetImplicitThreadDataOffset"]
 ms.keywords: IDebugSystemObjects2 interface [Windows Debugging],SetImplicitThreadDataOffset method, IDebugSystemObjects2.SetImplicitThreadDataOffset, IDebugSystemObjects2::SetImplicitThreadDataOffset, IDebugSystemObjects3 interface [Windows Debugging],SetImplicitThreadDataOffset method, IDebugSystemObjects3::SetImplicitThreadDataOffset, IDebugSystemObjects4 interface [Windows Debugging],SetImplicitThreadDataOffset method, IDebugSystemObjects4::SetImplicitThreadDataOffset, IDebugSystemObjects_d78e5ee9-b18c-47a0-9987-41923aaa1aaf.xml, SetImplicitThreadDataOffset, SetImplicitThreadDataOffset method [Windows Debugging], SetImplicitThreadDataOffset method [Windows Debugging],IDebugSystemObjects2 interface, SetImplicitThreadDataOffset method [Windows Debugging],IDebugSystemObjects3 interface, SetImplicitThreadDataOffset method [Windows Debugging],IDebugSystemObjects4 interface, dbgeng/IDebugSystemObjects2::SetImplicitThreadDataOffset, dbgeng/IDebugSystemObjects3::SetImplicitThreadDataOffset, dbgeng/IDebugSystemObjects4::SetImplicitThreadDataOffset, debugger.setimplicitthreaddataoffset
 f1_keywords:
  - "dbgeng/IDebugSystemObjects2.SetImplicitThreadDataOffset"
+ - "IDebugSystemObjects2.SetImplicitThreadDataOffset"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -38,8 +39,6 @@ api_name:
 - IDebugSystemObjects2.SetImplicitThreadDataOffset
 - IDebugSystemObjects3.SetImplicitThreadDataOffset
 - IDebugSystemObjects4.SetImplicitThreadDataOffset
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

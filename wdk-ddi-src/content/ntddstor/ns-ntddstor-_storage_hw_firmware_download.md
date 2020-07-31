@@ -10,6 +10,7 @@ keywords: ["_STORAGE_HW_FIRMWARE_DOWNLOAD structure"]
 ms.keywords: "*PSTORAGE_HW_FIRMWARE_DOWNLOAD, PSTORAGE_HW_FIRMWARE_DOWNLOAD, PSTORAGE_HW_FIRMWARE_DOWNLOAD structure pointer [Storage Devices], STORAGE_HW_FIRMWARE_DOWNLOAD, STORAGE_HW_FIRMWARE_DOWNLOAD structure [Storage Devices], _STORAGE_HW_FIRMWARE_DOWNLOAD, ntddstor/PSTORAGE_HW_FIRMWARE_DOWNLOAD, ntddstor/STORAGE_HW_FIRMWARE_DOWNLOAD, storage.storage_hw_firmware_download"
 f1_keywords:
  - "ntddstor/STORAGE_HW_FIRMWARE_DOWNLOAD"
+ - "STORAGE_HW_FIRMWARE_DOWNLOAD"
 req.header: ntddstor.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddstor.h
 api_name:
 - STORAGE_HW_FIRMWARE_DOWNLOAD
-product:
-- Windows
 targetos: Windows
 req.typenames: STORAGE_HW_FIRMWARE_DOWNLOAD, *PSTORAGE_HW_FIRMWARE_DOWNLOAD
 ---

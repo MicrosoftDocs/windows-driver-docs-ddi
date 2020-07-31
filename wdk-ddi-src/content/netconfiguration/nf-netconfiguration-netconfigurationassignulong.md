@@ -8,6 +8,7 @@ ms.date: 02/07/2018
 keywords: ["NetConfigurationAssignUlong function"]
 f1_keywords:
  - "netconfiguration/NetConfigurationAssignUlong"
+ - "NetConfigurationAssignUlong"
 ms.keywords: NetConfigurationAssignUlong
 req.header: netconfiguration.h
 req.include-header: netadaptercx.h
@@ -37,8 +38,6 @@ api_location:
 api_name: 
 - NetConfigurationAssignUlong
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetConfigurationAssignUlong function

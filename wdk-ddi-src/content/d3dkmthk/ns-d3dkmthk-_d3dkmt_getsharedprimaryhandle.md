@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_GETSHAREDPRIMARYHANDLE structure"]
 ms.keywords: D3DKMT_GETSHAREDPRIMARYHANDLE, D3DKMT_GETSHAREDPRIMARYHANDLE structure [Display Devices], OpenGL_Structs_322563d8-5546-4b10-bd74-101f3ffb633a.xml, _D3DKMT_GETSHAREDPRIMARYHANDLE, d3dkmthk/D3DKMT_GETSHAREDPRIMARYHANDLE, display.d3dkmt_getsharedprimaryhandle
 f1_keywords:
  - "d3dkmthk/D3DKMT_GETSHAREDPRIMARYHANDLE"
+ - "D3DKMT_GETSHAREDPRIMARYHANDLE"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMT_GETSHAREDPRIMARYHANDLE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_GETSHAREDPRIMARYHANDLE

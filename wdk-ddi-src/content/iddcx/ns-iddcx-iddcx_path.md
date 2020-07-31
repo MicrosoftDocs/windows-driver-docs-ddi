@@ -10,6 +10,7 @@ keywords: ["IDDCX_PATH structure"]
 ms.keywords: IDDCX_PATH, IDDCX_PATH structure, IDDCX_PATH structure [Display Devices], IDDCX_PATH structure pointer [Display Devices], IDDCX_PATH structure structure [Display Devices], display.iddcx_path, iddcx/IDDCX_PATH
 f1_keywords:
  - "iddcx/IDDCX_PATH"
+ - "IDDCX_PATH"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - iddcx.h
 api_name:
 - IDDCX_PATH
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

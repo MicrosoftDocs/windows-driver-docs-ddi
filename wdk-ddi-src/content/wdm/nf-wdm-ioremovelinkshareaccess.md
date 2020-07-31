@@ -10,6 +10,7 @@ keywords: ["IoRemoveLinkShareAccess function"]
 ms.keywords: IoRemoveLinkShareAccess, IoRemoveLinkShareAccess function [Kernel-Mode Driver Architecture], kernel.ioremovelinkshareaccess, wdm/IoRemoveLinkShareAccess
 f1_keywords:
  - "wdm/IoRemoveLinkShareAccess"
+ - "IoRemoveLinkShareAccess"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoRemoveLinkShareAccess
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: 19H1

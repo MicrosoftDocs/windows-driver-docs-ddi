@@ -10,6 +10,7 @@ keywords: ["PVIDEO_READ_CLOCK_LINE callback function"]
 ms.keywords: PVIDEO_READ_CLOCK_LINE, PVIDEO_READ_CLOCK_LINE callback, ReadClockLine, ReadClockLine callback function [Display Devices], VideoMiniport_Functions_5e7bcadb-43ea-4a1b-81b7-666cabd66aa0.xml, display.readclockline, video/ReadClockLine
 f1_keywords:
  - "video/ReadClockLine"
+ - "ReadClockLine"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - video.h
 api_name:
 - ReadClockLine
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

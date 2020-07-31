@@ -10,6 +10,7 @@ keywords: ["RtlAnsiStringToUnicodeString function"]
 ms.keywords: RtlAnsiStringToUnicodeString, RtlAnsiStringToUnicodeString function [Kernel-Mode Driver Architecture], k109_d27ee285-6d32-4ecb-994b-ba8a47f1e588.xml, kernel.rtlansistringtounicodestring, wdm/RtlAnsiStringToUnicodeString
 f1_keywords:
  - "wdm/RtlAnsiStringToUnicodeString"
+ - "RtlAnsiStringToUnicodeString"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlAnsiStringToUnicodeString
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -153,7 +152,7 @@ The second byte of a two-byte character code is a value that is valid only as th
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_string">ANSI_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-string">ANSI_STRING</a>
 
 
 

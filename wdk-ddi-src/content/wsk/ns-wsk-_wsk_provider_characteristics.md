@@ -10,6 +10,7 @@ keywords: ["_WSK_PROVIDER_CHARACTERISTICS structure"]
 ms.keywords: "*PWSK_PROVIDER_CHARACTERISTICS, PWSK_PROVIDER_CHARACTERISTICS, PWSK_PROVIDER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], WSK_PROVIDER_CHARACTERISTICS, WSK_PROVIDER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], _WSK_PROVIDER_CHARACTERISTICS, netvista.wsk_provider_characteristics, wsk/PWSK_PROVIDER_CHARACTERISTICS, wsk/WSK_PROVIDER_CHARACTERISTICS, wskref_f552c7d1-89a7-4cb6-aa7c-5f5ddb906deb.xml"
 f1_keywords:
  - "wsk/WSK_PROVIDER_CHARACTERISTICS"
+ - "WSK_PROVIDER_CHARACTERISTICS"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wsk.h
 api_name:
 - WSK_PROVIDER_CHARACTERISTICS
-product:
-- Windows
 targetos: Windows
 req.typenames: WSK_PROVIDER_CHARACTERISTICS, *PWSK_PROVIDER_CHARACTERISTICS
 ---

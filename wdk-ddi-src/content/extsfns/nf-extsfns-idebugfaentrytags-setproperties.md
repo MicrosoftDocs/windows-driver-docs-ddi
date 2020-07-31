@@ -10,6 +10,7 @@ keywords: ["IDebugFAEntryTags::SetProperties"]
 ms.keywords: IDebugFAEntryTags interface [Windows Debugging],SetProperties method, IDebugFAEntryTags.SetProperties, IDebugFAEntryTags::SetProperties, SetProperties, SetProperties method [Windows Debugging], SetProperties method [Windows Debugging],IDebugFAEntryTags interface, debugger.idebugfaentrytags_setproperties, extsfns/IDebugFAEntryTags::SetProperties
 f1_keywords:
  - "extsfns/IDebugFAEntryTags.SetProperties"
+ - "IDebugFAEntryTags.SetProperties"
 req.header: extsfns.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - extsfns.h
 api_name:
 - IDebugFAEntryTags.SetProperties
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

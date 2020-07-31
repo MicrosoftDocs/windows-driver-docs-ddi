@@ -10,6 +10,7 @@ keywords: ["KeSetSystemAffinityThreadEx function"]
 ms.keywords: KeSetSystemAffinityThreadEx, KeSetSystemAffinityThreadEx routine [Kernel-Mode Driver Architecture], k105_7718d4aa-a4f5-44ff-9663-c5f91810644f.xml, kernel.kesetsystemaffinitythreadex, wdm/KeSetSystemAffinityThreadEx
 f1_keywords:
  - "wdm/KeSetSystemAffinityThreadEx"
+ - "KeSetSystemAffinityThreadEx"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeSetSystemAffinityThreadEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

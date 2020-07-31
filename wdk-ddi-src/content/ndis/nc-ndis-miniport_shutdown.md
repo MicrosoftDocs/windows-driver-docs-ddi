@@ -10,6 +10,7 @@ keywords: ["MINIPORT_SHUTDOWN callback function"]
 ms.keywords: MINIPORT_SHUTDOWN, MINIPORT_SHUTDOWN callback, MiniportShutdownEx, MiniportShutdownEx callback function [Network Drivers Starting with Windows Vista], miniport_functions_ref_1ef84db9-b4af-4e59-9bb8-6f467a0866d5.xml, ndis/MiniportShutdownEx, netvista.miniportshutdownex
 f1_keywords:
  - "ndis/MiniportShutdownEx"
+ - "MiniportShutdownEx"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - MiniportShutdownEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

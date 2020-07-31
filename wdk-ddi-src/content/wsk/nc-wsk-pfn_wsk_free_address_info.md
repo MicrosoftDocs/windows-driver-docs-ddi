@@ -10,6 +10,7 @@ keywords: ["PFN_WSK_FREE_ADDRESS_INFO callback function"]
 ms.keywords: PFN_WSK_FREE_ADDRESS_INFO, PFN_WSK_FREE_ADDRESS_INFO callback, WskFreeAddressInfo, WskFreeAddressInfo callback function [Network Drivers Starting with Windows Vista], netvista.wskfreeaddressinfo, wsk/WskFreeAddressInfo, wskref_dff141b0-8164-439d-9ad7-69a4d2207f31.xml
 f1_keywords:
  - "wsk/WskFreeAddressInfo"
+ - "WskFreeAddressInfo"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - wsk.h
 api_name:
 - WskFreeAddressInfo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

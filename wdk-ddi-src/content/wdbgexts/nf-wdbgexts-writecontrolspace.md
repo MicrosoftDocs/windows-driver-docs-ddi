@@ -10,6 +10,7 @@ keywords: ["WriteControlSpace function"]
 ms.keywords: WdbgExts_Ref_ee59dfdc-d138-4f1b-8f5c-fb9e1d47bef2.xml, WriteControlSpace, WriteControlSpace function [Windows Debugging], debugger.writecontrolspace, wdbgexts/WriteControlSpace
 f1_keywords:
  - "wdbgexts/WriteControlSpace"
+ - "WriteControlSpace"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wdbgexts.h
 api_name:
 - WriteControlSpace
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

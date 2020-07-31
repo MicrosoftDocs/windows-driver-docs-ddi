@@ -10,6 +10,7 @@ keywords: ["WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_SETTING function"]
 ms.keywords: DFUsbRef_9f764089-ac6f-404a-8196-170547e40495.xml, WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_SETTING, WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_SETTING function, kmdf.wdf_usb_interface_select_setting_params_init_setting, wdf.wdf_usb_interface_select_setting_params_init_setting, wdfusb/WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_SETTING
 f1_keywords:
  - "wdfusb/WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_SETTING"
+ - "WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_SETTING"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - wdfusb.h
 api_name:
 - WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_SETTING
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

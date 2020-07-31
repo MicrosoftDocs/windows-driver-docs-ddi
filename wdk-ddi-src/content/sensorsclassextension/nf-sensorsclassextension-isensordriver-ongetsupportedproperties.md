@@ -10,6 +10,7 @@ keywords: ["ISensorDriver::OnGetSupportedProperties"]
 ms.keywords: ISensorDriver interface [Sensor Devices],OnGetSupportedProperties method, ISensorDriver.OnGetSupportedProperties, ISensorDriver::OnGetSupportedProperties, OnGetSupportedProperties, OnGetSupportedProperties method [Sensor Devices], OnGetSupportedProperties method [Sensor Devices],ISensorDriver interface, sensors.isensordriver_ongetsupportedproperties, sensorsclassextension/ISensorDriver::OnGetSupportedProperties
 f1_keywords:
  - "sensorsclassextension/OnGetSupportedProperties"
+ - "OnGetSupportedProperties"
 req.header: sensorsclassextension.h
 req.include-header: 
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 - SensorsClassExtension.dll
 api_name:
 - OnGetSupportedProperties
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

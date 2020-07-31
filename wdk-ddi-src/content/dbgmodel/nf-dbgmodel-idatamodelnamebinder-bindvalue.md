@@ -7,6 +7,7 @@ ms.date: 09/12/2018
 keywords: ["IDataModelNameBinder::BindValue"]
 f1_keywords:
  - "dbgmodel/IDataModelNameBinder.BindValue"
+ - "IDataModelNameBinder.BindValue"
 ms.keywords: IDataModelNameBinder::BindValue, BindValue, IDataModelNameBinder.BindValue, IDataModelNameBinder::BindValue, IDataModelNameBinder.BindValue
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDataModelNameBinder.BindValue
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

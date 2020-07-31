@@ -10,6 +10,7 @@ keywords: ["PFNBTH_ALLOCATE_BRB callback function"]
 ms.keywords: BthAllocateBrb, BthAllocateBrb callback function [Bluetooth Devices], PFNBTH_ALLOCATE_BRB, PFNBTH_ALLOCATE_BRB callback, bltooth.bthallocatebrb, bth_funcs_db0aa96f-62de-40f5-bcce-2aa7e930af3d.xml, bthddi/BthAllocateBrb
 f1_keywords:
  - "bthddi/BthAllocateBrb"
+ - "BthAllocateBrb"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - bthddi.h
 api_name:
 - BthAllocateBrb
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IPrintOemUni::CommandCallback"]
 ms.keywords: CommandCallback, CommandCallback method [Print Devices], CommandCallback method [Print Devices],IPrintOemUni interface, IPrintOemUni interface [Print Devices],CommandCallback method, IPrintOemUni.CommandCallback, IPrintOemUni::CommandCallback, prcomoem/IPrintOemUni::CommandCallback, print.iprintoemuni_commandcallback, print_unidrv-pscript_rendering_edbed499-5cc1-48dc-92cd-dbe70d8560aa.xml
 f1_keywords:
  - "prcomoem/IPrintOemUni.CommandCallback"
+ - "IPrintOemUni.CommandCallback"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - prcomoem.h
 api_name:
 - IPrintOemUni.CommandCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

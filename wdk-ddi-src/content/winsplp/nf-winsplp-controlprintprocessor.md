@@ -10,6 +10,7 @@ keywords: ["ControlPrintProcessor function"]
 ms.keywords: ControlPrintProcessor, ControlPrintProcessor function [Print Devices], print.controlprintprocessor, spoolfnc_203120f1-7819-448e-9813-3aa2b24bfd7f.xml, winsplp/ControlPrintProcessor
 f1_keywords:
  - "winsplp/ControlPrintProcessor"
+ - "ControlPrintProcessor"
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Nwprint.dll
 api_name:
 - ControlPrintProcessor
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

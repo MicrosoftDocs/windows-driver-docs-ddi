@@ -10,6 +10,7 @@ keywords: ["FltCloseCommunicationPort function"]
 ms.keywords: FltApiRef_a_to_d_d55f3e54-9c1c-4fd0-92e6-1e950c2a4637.xml, FltCloseCommunicationPort, FltCloseCommunicationPort function [Installable File System Drivers], fltkernel/FltCloseCommunicationPort, ifsk.fltclosecommunicationport
 f1_keywords:
  - "fltkernel/FltCloseCommunicationPort"
+ - "FltCloseCommunicationPort"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltCloseCommunicationPort
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["PROTOCOL_CM_NOTIFY_CLOSE_AF_COMPLETE callback function"]
 ms.keywords: PROTOCOL_CM_NOTIFY_CLOSE_AF_COMPLETE, PROTOCOL_CM_NOTIFY_CLOSE_AF_COMPLETE callback, ProtocolCmNotifyCloseAfComplete, ProtocolCmNotifyCloseAfComplete callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_f10e7b00-20f8-4bb0-a4c0-94855572fc08.xml, ndis/ProtocolCmNotifyCloseAfComplete, netvista.protocolcmnotifycloseafcomplete
 f1_keywords:
  - "ndis/ProtocolCmNotifyCloseAfComplete"
+ - "ProtocolCmNotifyCloseAfComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - ProtocolCmNotifyCloseAfComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

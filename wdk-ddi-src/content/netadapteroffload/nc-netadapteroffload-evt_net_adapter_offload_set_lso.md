@@ -8,6 +8,7 @@ ms.date: 01/17/2019
 keywords: ["EVT_NET_ADAPTER_OFFLOAD_SET_LSO callback function"]
 f1_keywords:
  - "netadapteroffload/EVT_NET_ADAPTER_OFFLOAD_SET_LSO"
+ - "EVT_NET_ADAPTER_OFFLOAD_SET_LSO"
 req.header: netadapteroffload.h
 req.include-header:
 req.target-type: Universal
@@ -33,8 +34,6 @@ api_location:
 - netadapteroffload.h
 api_name: 
 - EVT_NET_ADAPTER_OFFLOAD_SET_LSO
-product:
-- Windows
 targetos: Windows
 ms.custom: 19H1
 ---

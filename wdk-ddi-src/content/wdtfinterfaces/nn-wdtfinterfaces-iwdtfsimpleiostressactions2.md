@@ -10,6 +10,7 @@ keywords: ["IWDTFSimpleIOStressActions2 interface"]
 ms.keywords: IWDTFSimpleIOStressActions2, IWDTFSimpleIOStressActions2 interface [Windows Device Testing Framework], IWDTFSimpleIOStressActions2 interface [Windows Device Testing Framework], described, dtf.iwdtfsimpleiostressactions2, wdtfinterfaces/IWDTFSimpleIOStressActions2
 f1_keywords:
  - "wdtfinterfaces/IWDTFSimpleIOStressActions2"
+ - "IWDTFSimpleIOStressActions2"
 req.header: wdtfinterfaces.h
 req.include-header:
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wdtfinterfaces.h
 api_name:
 - IWDTFSimpleIOStressActions2
-product:
-- Windows
 targetos: Windows
 req.typenames: TTraceLevel
 req.product: Windows 10 or later.

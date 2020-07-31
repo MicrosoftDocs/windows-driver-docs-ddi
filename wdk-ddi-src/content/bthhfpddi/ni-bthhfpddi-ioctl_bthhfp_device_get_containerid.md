@@ -10,6 +10,7 @@ keywords: ["IOCTL_BTHHFP_DEVICE_GET_CONTAINERID IOCTL"]
 ms.keywords: IOCTL_BTHHFP_DEVICE_GET_CONTAINERID, IOCTL_BTHHFP_DEVICE_GET_CONTAINERID control, IOCTL_BTHHFP_DEVICE_GET_CONTAINERID control code [Audio Devices], audio.ioctl_bthhfp_device_get_containerid, bthhfpddi/IOCTL_BTHHFP_DEVICE_GET_CONTAINERID
 f1_keywords:
  - "bthhfpddi/IOCTL_BTHHFP_DEVICE_GET_CONTAINERID"
+ - "IOCTL_BTHHFP_DEVICE_GET_CONTAINERID"
 req.header: bthhfpddi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Bthhfpddi.h
 api_name:
 - IOCTL_BTHHFP_DEVICE_GET_CONTAINERID
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

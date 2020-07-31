@@ -10,6 +10,7 @@ keywords: ["IDebugControl4::GetExtensionFunctionWide"]
 ms.keywords: GetExtensionFunctionWide, GetExtensionFunctionWide method [Windows Debugging], GetExtensionFunctionWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetExtensionFunctionWide method, IDebugControl4.GetExtensionFunctionWide, IDebugControl4::GetExtensionFunctionWide, dbgeng/IDebugControl4::GetExtensionFunctionWide, debugger.getextensionfunctionwide
 f1_keywords:
  - "dbgeng/IDebugControl4.GetExtensionFunctionWide"
+ - "IDebugControl4.GetExtensionFunctionWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugControl4.GetExtensionFunctionWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -9,6 +9,7 @@ keywords: ["D3DKMTPresent function"]
 ms.keywords: D3DKMTPresent, D3DKMTPresent function [Display Devices], OpenGL_Functions_2a9f80c6-84c7-41bb-be78-02640430226d.xml, d3dkmthk/D3DKMTPresent, display.d3dkmtpresent
 f1_keywords:
  - "d3dkmthk/D3DKMTPresent"
+ - "D3DKMTPresent"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -38,8 +39,6 @@ api_location:
 - API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 - D3DKMTPresent
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["SET_ACTIVE_COLOR_PROFILE_NAME structure"]
 f1_keywords:
  - "ntddvdeo/SET_ACTIVE_COLOR_PROFILE_NAME"
+ - "SET_ACTIVE_COLOR_PROFILE_NAME"
 ms.keywords: SET_ACTIVE_COLOR_PROFILE_NAME, SET_ACTIVE_COLOR_PROFILE_NAME, *PSET_ACTIVE_COLOR_PROFILE_NAME, 
 req.header: ntddvdeo.h
 req.include-header:
@@ -32,8 +33,6 @@ api_location:
  - ntddvdeo.h
 api_name: 
  - SET_ACTIVE_COLOR_PROFILE_NAME
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

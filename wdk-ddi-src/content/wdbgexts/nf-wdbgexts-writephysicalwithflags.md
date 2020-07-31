@@ -10,6 +10,7 @@ keywords: ["WritePhysicalWithFlags function"]
 ms.keywords: WdbgExts_Ref_7ef1e63e-87e2-4bf3-a432-78639684a18c.xml, WritePhysicalWithFlags, WritePhysicalWithFlags function [Windows Debugging], debugger.writephysicalwithflags, wdbgexts/WritePhysicalWithFlags
 f1_keywords:
  - "wdbgexts/WritePhysicalWithFlags"
+ - "WritePhysicalWithFlags"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wdbgexts.h
 api_name:
 - WritePhysicalWithFlags
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

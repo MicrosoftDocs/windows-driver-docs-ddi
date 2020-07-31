@@ -10,6 +10,7 @@ keywords: ["_KBUGCHECK_DUMP_IO structure"]
 ms.keywords: "*PKBUGCHECK_DUMP_IO, KBUGCHECK_DUMP_IO, KBUGCHECK_DUMP_IO structure [Kernel-Mode Driver Architecture], PKBUGCHECK_DUMP_IO, PKBUGCHECK_DUMP_IO structure pointer [Kernel-Mode Driver Architecture], _KBUGCHECK_DUMP_IO, kernel.kbugcheck_dump_io, kstruct_c_a6201416-346e-4100-882c-329dd3ae1843.xml, wdm/KBUGCHECK_DUMP_IO, wdm/PKBUGCHECK_DUMP_IO"
 f1_keywords:
  - "wdm/KBUGCHECK_DUMP_IO"
+ - "KBUGCHECK_DUMP_IO"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - KBUGCHECK_DUMP_IO
-product:
-- Windows
 targetos: Windows
 req.typenames: KBUGCHECK_DUMP_IO, *PKBUGCHECK_DUMP_IO
 ---

@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_SETINDICES structure"]
 ms.keywords: D3DDDIARG_SETINDICES, D3DDDIARG_SETINDICES structure [Display Devices], UMDisplayDriver_param_Structs_68458ee2-76c8-41c5-b610-47ef40874c1e.xml, _D3DDDIARG_SETINDICES, d3dumddi/D3DDDIARG_SETINDICES, display.d3dddiarg_setindices
 f1_keywords:
  - "d3dumddi/D3DDDIARG_SETINDICES"
+ - "D3DDDIARG_SETINDICES"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDIARG_SETINDICES
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_SETINDICES
 ---

@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_DEVICE_D0_EXIT callback function"]
 ms.keywords: DFDeviceObjectGeneralRef_f2327720-a8e1-4e92-acb2-72378c3c5fb1.xml, EVT_WDF_DEVICE_D0_EXIT, EVT_WDF_DEVICE_D0_EXIT callback, EvtDeviceD0Exit, EvtDeviceD0Exit callback function, kmdf.evtdeviced0exit, wdf.evtdeviced0exit, wdfdevice/EvtDeviceD0Exit
 f1_keywords:
  - "wdfdevice/EvtDeviceD0Exit"
+ - "EvtDeviceD0Exit"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Wdfdevice.h
 api_name:
 - EvtDeviceD0Exit
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IoIsFileOriginRemote function"]
 ms.keywords: IoIsFileOriginRemote, IoIsFileOriginRemote routine [Installable File System Drivers], ifsk.ioisfileoriginremote, ioref_04dab537-9cd7-44be-9592-0682c0bfbd7e.xml, ntddk/IoIsFileOriginRemote
 f1_keywords:
  - "ntddk/IoIsFileOriginRemote"
+ - "IoIsFileOriginRemote"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoIsFileOriginRemote
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IKsPropertySet::QuerySupported"]
 ms.keywords: IKsPropertySet interface [Streaming Media Devices],QuerySupported method, IKsPropertySet.QuerySupported, IKsPropertySet::QuerySupported, QuerySupported, QuerySupported method [Streaming Media Devices], QuerySupported method [Streaming Media Devices],IKsPropertySet interface, ksproxy/IKsPropertySet::QuerySupported, ksproxy_d89c460f-dbd5-452e-ab26-44a88dc1fc59.xml, stream.ikspropertyset_querysupported
 f1_keywords:
  - "ksproxy/IKsPropertySet.QuerySupported"
+ - "IKsPropertySet.QuerySupported"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h, Ksproxy.h, Dsound.h, Ksproxy.h, Ksproxy.h, Dsound.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ksproxy.h
 api_name:
 - IKsPropertySet.QuerySupported
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

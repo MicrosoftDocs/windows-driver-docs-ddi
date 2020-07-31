@@ -7,6 +7,7 @@ ms.date: 10/01/2018
 keywords: ["_PROC_TOPOLOGY_NODE structure"]
 f1_keywords:
  - "acpitabl/_PROC_TOPOLOGY_NODE"
+ - "_PROC_TOPOLOGY_NODE"
 ms.keywords: _PROC_TOPOLOGY_NODE, PROC_TOPOLOGY_NODE, *PPROC_TOPOLOGY_NODE, 
 req.header: acpitabl.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - acpitabl.h
 api_name: 
 - _PROC_TOPOLOGY_NODE
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

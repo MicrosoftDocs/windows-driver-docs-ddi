@@ -10,6 +10,7 @@ keywords: ["MINIPORT_PROCESS_SG_LIST callback function"]
 ms.keywords: MINIPORT_PROCESS_SG_LIST, MINIPORT_PROCESS_SG_LIST callback, MiniportProcessSGList, MiniportProcessSGList callback function [Network Drivers Starting with Windows Vista], ndis/MiniportProcessSGList, ndis_sgdma_ref_e9dec598-19ce-4d50-98e3-508ffbb444bc.xml, netvista.miniportprocesssglist
 f1_keywords:
  - "ndis/MiniportProcessSGList"
+ - "MiniportProcessSGList"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - MiniportProcessSGList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

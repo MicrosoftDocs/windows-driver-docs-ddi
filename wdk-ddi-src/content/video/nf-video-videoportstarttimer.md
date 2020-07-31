@@ -10,6 +10,7 @@ keywords: ["VideoPortStartTimer function"]
 ms.keywords: VideoPortStartTimer, VideoPortStartTimer function [Display Devices], VideoPort_Functions_1efc50e1-c79e-4ee2-acdf-35cdea97a3b9.xml, display.videoportstarttimer, video/VideoPortStartTimer
 f1_keywords:
  - "video/VideoPortStartTimer"
+ - "VideoPortStartTimer"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Videoprt.sys
 api_name:
 - VideoPortStartTimer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

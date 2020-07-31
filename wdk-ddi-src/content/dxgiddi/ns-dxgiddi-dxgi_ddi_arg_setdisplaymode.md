@@ -10,6 +10,7 @@ keywords: ["DXGI_DDI_ARG_SETDISPLAYMODE structure"]
 ms.keywords: DXGI_DDI_ARG_SETDISPLAYMODE, DXGI_DDI_ARG_SETDISPLAYMODE structure [Display Devices], UMDisplayDriver_Dx10param_Structs_b8b2ebc4-123c-42bd-abd5-3bf1bff47ee0.xml, display.dxgi_ddi_arg_setdisplaymode, dxgiddi/DXGI_DDI_ARG_SETDISPLAYMODE
 f1_keywords:
  - "dxgiddi/DXGI_DDI_ARG_SETDISPLAYMODE"
+ - "DXGI_DDI_ARG_SETDISPLAYMODE"
 req.header: dxgiddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dxgiddi.h
 api_name:
 - DXGI_DDI_ARG_SETDISPLAYMODE
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGI_DDI_ARG_SETDISPLAYMODE
 ---

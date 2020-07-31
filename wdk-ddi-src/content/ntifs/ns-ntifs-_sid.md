@@ -10,6 +10,7 @@ keywords: ["_SID structure"]
 ms.keywords: "*PISID, PSID, PSID structure pointer [Installable File System Drivers], SID, SID structure [Installable File System Drivers], _SID, ifsk.sid, ntifs/PSID, ntifs/SID, securitystructures_748be9da-f428-42cd-a1f8-eca090e2b3aa.xml"
 f1_keywords:
  - "ntifs/SID"
+ - "SID"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - SID
-product:
-- Windows
 targetos: Windows
 req.typenames: SID, *PISID
 ---

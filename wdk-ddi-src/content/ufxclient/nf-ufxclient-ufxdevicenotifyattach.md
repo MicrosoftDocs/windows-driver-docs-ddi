@@ -10,6 +10,7 @@ keywords: ["UfxDeviceNotifyAttach function"]
 ms.keywords: UfxDeviceNotifyAttach, UfxDeviceNotifyAttach method [Buses], buses.ufxdevicenotifyattach, ufxclient/UfxDeviceNotifyAttach
 f1_keywords:
  - "ufxclient/UfxDeviceNotifyAttach"
+ - "UfxDeviceNotifyAttach"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ufxclient.h
 api_name:
 - UfxDeviceNotifyAttach
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["RILUICCAPPINFO structure"]
 ms.keywords: "*LPRILUICCAPPINFO, RILUICCAPPINFO, RILUICCAPPINFO structure [Network Drivers Starting with Windows Vista], netvista.riluiccappinfo, ntddrilapitypes/RILUICCAPPINFO"
 f1_keywords:
  - "rilapitypes/RILUICCAPPINFO"
+ - "RILUICCAPPINFO"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILUICCAPPINFO
-product:
-- Windows
 targetos: Windows
 req.typenames: RILUICCAPPINFO, *LPRILUICCAPPINFO
 ---

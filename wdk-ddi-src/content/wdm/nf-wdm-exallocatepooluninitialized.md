@@ -28,13 +28,14 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - DllExport
 api_location:
  - wdm.h
 api_name:
  - ExAllocatePoolUninitialized
 f1_keywords:
- - wdm/ExAllocatePoolUninitialized
+ - wdm//ExAllocatePoolUninitialized
+ - ExAllocatePoolUninitialized
 dev_langs:
  - c++
 ---

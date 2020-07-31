@@ -10,6 +10,7 @@ keywords: ["_POINTER_SEARCH_PHYSICAL structure"]
 ms.keywords: "*PPOINTER_SEARCH_PHYSICAL, POINTER_SEARCH_PHYSICAL, POINTER_SEARCH_PHYSICAL structure [Windows Debugging], PPOINTER_SEARCH_PHYSICAL, PPOINTER_SEARCH_PHYSICAL structure pointer [Windows Debugging], WdbgExts_Ref_ce742570-c023-4e34-a8e2-aef530e61c04.xml, _POINTER_SEARCH_PHYSICAL, debugger.ig_pointer_search_physical, wdbgexts/POINTER_SEARCH_PHYSICAL, wdbgexts/PPOINTER_SEARCH_PHYSICAL"
 f1_keywords:
  - "wdbgexts/POINTER_SEARCH_PHYSICAL"
+ - "POINTER_SEARCH_PHYSICAL"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wdbgexts.h
 api_name:
 - POINTER_SEARCH_PHYSICAL
-product:
-- Windows
 targetos: Windows
 req.typenames: POINTER_SEARCH_PHYSICAL, *PPOINTER_SEARCH_PHYSICAL
 ---

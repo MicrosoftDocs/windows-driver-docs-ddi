@@ -10,6 +10,7 @@ keywords: ["MmFreeContiguousMemorySpecifyCache function"]
 ms.keywords: MmFreeContiguousMemorySpecifyCache, MmFreeContiguousMemorySpecifyCache routine [Kernel-Mode Driver Architecture], k106_256e3525-d48d-4045-872c-2e2fd6302525.xml, kernel.mmfreecontiguousmemoryspecifycache, wdm/MmFreeContiguousMemorySpecifyCache
 f1_keywords:
  - "wdm/MmFreeContiguousMemorySpecifyCache"
+ - "MmFreeContiguousMemorySpecifyCache"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - MmFreeContiguousMemorySpecifyCache
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

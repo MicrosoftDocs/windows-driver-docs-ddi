@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["IOCTL_PANEL_QUERY_BRIGHTNESS_CAPS IOCTL"]
 f1_keywords:
  - "ntddvdeo/IOCTL_PANEL_QUERY_BRIGHTNESS_CAPS"
+ - "IOCTL_PANEL_QUERY_BRIGHTNESS_CAPS"
 req.header: ntddvdeo.h
 req.include-header:
 req.target-type:

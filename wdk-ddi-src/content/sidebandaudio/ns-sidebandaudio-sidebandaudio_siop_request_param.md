@@ -7,6 +7,7 @@ ms.date: 09/07/2018
 keywords: ["SIDEBANDAUDIO_SIOP_REQUEST_PARAM structure"]
 f1_keywords:
  - "sidebandaudio/SIDEBANDAUDIO_SIOP_REQUEST_PARAM"
+ - "SIDEBANDAUDIO_SIOP_REQUEST_PARAM"
 ms.keywords: SIDEBANDAUDIO_SIOP_REQUEST_PARAM, SIDEBANDAUDIO_SIOP_REQUEST_PARAM, *PSIDEBANDAUDIO_SIOP_REQUEST_PARAM, 
 req.header: sidebandaudio.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - sidebandaudio.h
 api_name: 
 - SIDEBANDAUDIO_SIOP_REQUEST_PARAM
-product:
-- Windows
 targetos: Windows
 tech.root: audio
 ms.custom: RS5

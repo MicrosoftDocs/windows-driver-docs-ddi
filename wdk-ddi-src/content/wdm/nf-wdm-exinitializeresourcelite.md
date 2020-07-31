@@ -10,6 +10,7 @@ keywords: ["ExInitializeResourceLite function"]
 ms.keywords: ExInitializeResourceLite, ExInitializeResourceLite routine [Kernel-Mode Driver Architecture], k102_3264d595-09fb-4165-8147-4f805fb55557.xml, kernel.exinitializeresourcelite, wdm/ExInitializeResourceLite
 f1_keywords:
  - "wdm/ExInitializeResourceLite"
+ - "ExInitializeResourceLite"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - ExInitializeResourceLite
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

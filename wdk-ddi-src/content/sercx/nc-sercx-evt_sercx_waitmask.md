@@ -10,6 +10,7 @@ keywords: ["EVT_SERCX_WAITMASK callback function"]
 ms.keywords: 1/EvtSerCxWaitmask, EVT_SERCX_WAITMASK, EVT_SERCX_WAITMASK callback, EvtSerCxWaitmask, EvtSerCxWaitmask callback function [Serial Ports], serports.evtsercxwaitmask
 f1_keywords:
  - "sercx/EvtSerCxWaitmask"
+ - "EvtSerCxWaitmask"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - 1.0\Sercx.h
 api_name:
 - EvtSerCxWaitmask
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

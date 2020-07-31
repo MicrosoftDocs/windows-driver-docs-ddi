@@ -10,6 +10,7 @@ keywords: ["_KSFILTERFACTORY structure"]
 ms.keywords: "*PKSFILTERFACTORY, KSFILTERFACTORY, KSFILTERFACTORY structure [Streaming Media Devices], PKSFILTERFACTORY, PKSFILTERFACTORY structure pointer [Streaming Media Devices], _KSFILTERFACTORY, avstruct_def7ad6b-4cda-4677-abbc-3f8a458fbc87.xml, ks/KSFILTERFACTORY, ks/PKSFILTERFACTORY, stream.ksfilterfactory"
 f1_keywords:
  - "ks/KSFILTERFACTORY"
+ - "KSFILTERFACTORY"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KSFILTERFACTORY
-product:
-- Windows
 targetos: Windows
 req.typenames: KSFILTERFACTORY, *PKSFILTERFACTORY
 ---

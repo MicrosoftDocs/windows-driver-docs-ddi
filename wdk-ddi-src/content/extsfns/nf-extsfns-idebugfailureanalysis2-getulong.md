@@ -10,6 +10,7 @@ keywords: ["IDebugFailureAnalysis2::GetUlong"]
 ms.keywords: GetUlong, GetUlong method [Windows Debugging], GetUlong method [Windows Debugging],IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging],GetUlong method, IDebugFailureAnalysis2.GetUlong, IDebugFailureAnalysis2::GetUlong, debugger.idebugfailureanalysis2_getstring, extsfns/IDebugFailureAnalysis2::GetUlong
 f1_keywords:
  - "extsfns/IDebugFailureAnalysis2.GetUlong"
+ - "IDebugFailureAnalysis2.GetUlong"
 req.header: extsfns.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - extsfns.h
 api_name:
 - IDebugFailureAnalysis2.GetUlong
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

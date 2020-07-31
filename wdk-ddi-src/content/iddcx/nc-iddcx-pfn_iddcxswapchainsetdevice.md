@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["PFN_IDDCXSWAPCHAINSETDEVICE callback function"]
 f1_keywords:
  - "iddcx/PFN_IDDCXSWAPCHAINSETDEVICE"
+ - "PFN_IDDCXSWAPCHAINSETDEVICE"
 req.header: iddcx.h
 req.include-header:
 req.target-type:

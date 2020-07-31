@@ -10,6 +10,7 @@ keywords: ["IKsControl::KsProperty"]
 ms.keywords: IKsControl interface [Streaming Media Devices],KsProperty method, IKsControl.KsProperty, IKsControl::KsProperty, KsProperty, KsProperty method [Streaming Media Devices], KsProperty method [Streaming Media Devices],IKsControl interface, ksproxy/IKsControl::KsProperty, ksproxy_463b7e97-4356-4d2e-b005-6f81219bda64.xml, stream.ikscontrol_ksproperty
 f1_keywords:
  - "ksproxy/IKsControl.KsProperty"
+ - "IKsControl.KsProperty"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: DesktopMobile
@@ -36,8 +37,6 @@ api_location:
 - ksproxy.h
 api_name:
 - IKsControl.KsProperty
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

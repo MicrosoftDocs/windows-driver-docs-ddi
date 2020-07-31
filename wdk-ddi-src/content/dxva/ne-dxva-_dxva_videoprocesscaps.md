@@ -10,6 +10,7 @@ keywords: ["_DXVA_VideoProcessCaps enumeration"]
 ms.keywords: DXVA_VideoProcessCaps, DXVA_VideoProcessCaps enumeration [Display Devices], DXVA_VideoProcess_AlphaBlend, DXVA_VideoProcess_AlphaBlendExtended, DXVA_VideoProcess_None, DXVA_VideoProcess_StretchX, DXVA_VideoProcess_StretchY, DXVA_VideoProcess_SubRects, DXVA_VideoProcess_SubStreams, DXVA_VideoProcess_SubStreamsExtended, DXVA_VideoProcess_YUV2RGB, DXVA_VideoProcess_YUV2RGBExtended, _DXVA_VideoProcessCaps, display.dxva_videoprocesscaps, dxva/DXVA_VideoProcessCaps, dxva/DXVA_VideoProcess_AlphaBlend, dxva/DXVA_VideoProcess_AlphaBlendExtended, dxva/DXVA_VideoProcess_None, dxva/DXVA_VideoProcess_StretchX, dxva/DXVA_VideoProcess_StretchY, dxva/DXVA_VideoProcess_SubRects, dxva/DXVA_VideoProcess_SubStreams, dxva/DXVA_VideoProcess_SubStreamsExtended, dxva/DXVA_VideoProcess_YUV2RGB, dxva/DXVA_VideoProcess_YUV2RGBExtended, dxvaref_4298738a-dc13-47b4-bb3d-84e90661542b.xml
 f1_keywords:
  - "dxva/DXVA_VideoProcessCaps"
+ - "DXVA_VideoProcessCaps"
 req.header: dxva.h
 req.include-header: Dxva.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dxva.h
 api_name:
 - DXVA_VideoProcessCaps
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVA_VideoProcessCaps
 ---

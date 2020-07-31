@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["_NET_RX_FRAGMENT_BUFFER_ALLOCATION_MODE enumeration"]
 f1_keywords:
  - "netadapter/NET_PACKET_FILTER_TYPES_FLAGS"
+ - "NET_PACKET_FILTER_TYPES_FLAGS"
 ms.keywords: _NET_RX_FRAGMENT_BUFFER_ALLOCATION_MODE, NET_RX_FRAGMENT_BUFFER_ALLOCATION_MODE, 
 req.header: netadapter.h
 req.include-header:
@@ -27,8 +28,6 @@ apilocation:
 - netadapter.h
 apiname: 
 - _NET_RX_FRAGMENT_BUFFER_ALLOCATION_MODE
-product:
-- Windows
 targetos: Windows
 ---
 

@@ -10,6 +10,7 @@ keywords: ["WdfPdoAddEjectionRelationsPhysicalDevice function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_c13c9c42-f704-4042-b70d-952ddb8a27b8.xml, WdfPdoAddEjectionRelationsPhysicalDevice, WdfPdoAddEjectionRelationsPhysicalDevice method, kmdf.wdfpdoaddejectionrelationsphysicaldevice, wdf.wdfpdoaddejectionrelationsphysicaldevice, wdfpdo/WdfPdoAddEjectionRelationsPhysicalDevice
 f1_keywords:
  - "wdfpdo/WdfPdoAddEjectionRelationsPhysicalDevice"
+ - "WdfPdoAddEjectionRelationsPhysicalDevice"
 req.header: wdfpdo.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfPdoAddEjectionRelationsPhysicalDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

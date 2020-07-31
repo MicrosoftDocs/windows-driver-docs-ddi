@@ -10,6 +10,7 @@ keywords: ["PoUnregisterSystemState function"]
 ms.keywords: PoUnregisterSystemState, PoUnregisterSystemState routine [Kernel-Mode Driver Architecture], kernel.pounregistersystemstate, portn_b6118bd0-5fe1-4e75-8c17-e81d1f26814c.xml, wdm/PoUnregisterSystemState
 f1_keywords:
  - "ntifs/PoUnregisterSystemState"
+ - "PoUnregisterSystemState"
 req.header: ntifs.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - PoUnregisterSystemState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

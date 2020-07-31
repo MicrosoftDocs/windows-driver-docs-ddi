@@ -7,6 +7,7 @@ ms.date: 09/20/2018
 keywords: ["IDebugHostType2::CreatePointerTo"]
 f1_keywords:
  - "dbgmodel/IDebugHostType2.CreatePointerTo"
+ - "IDebugHostType2.CreatePointerTo"
 ms.keywords: IDebugHostType2::CreatePointerTo, CreatePointerTo, IDebugHostType2.CreatePointerTo, IDebugHostType2::CreatePointerTo, IDebugHostType2.CreatePointerTo
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostType2.CreatePointerTo
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

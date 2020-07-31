@@ -10,6 +10,7 @@ keywords: ["IDebugControl4::AssembleWide"]
 ms.keywords: AssembleWide, AssembleWide method [Windows Debugging], AssembleWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],AssembleWide method, IDebugControl4.AssembleWide, IDebugControl4::AssembleWide, dbgeng/IDebugControl4::AssembleWide, debugger.assemblewide
 f1_keywords:
  - "dbgeng/IDebugControl4.AssembleWide"
+ - "IDebugControl4.AssembleWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Dbgeng.h
 api_name:
 - IDebugControl4.AssembleWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

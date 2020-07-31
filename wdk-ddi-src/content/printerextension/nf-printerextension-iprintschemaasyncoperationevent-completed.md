@@ -10,6 +10,7 @@ keywords: ["IPrintSchemaAsyncOperationEvent::Completed"]
 ms.keywords: Completed, Completed method [Print Devices], Completed method [Print Devices],IPrintSchemaAsyncOperationEvent interface, IPrintSchemaAsyncOperationEvent interface [Print Devices],Completed method, IPrintSchemaAsyncOperationEvent.Completed, IPrintSchemaAsyncOperationEvent::Completed, print.iprintschemaasyncoperationevent_completed, printerextension/IPrintSchemaAsyncOperationEvent::Completed
 f1_keywords:
  - "printerextension/IPrintSchemaAsyncOperationEvent.Completed"
+ - "IPrintSchemaAsyncOperationEvent.Completed"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Printerextension.h
 api_name:
 - IPrintSchemaAsyncOperationEvent.Completed
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

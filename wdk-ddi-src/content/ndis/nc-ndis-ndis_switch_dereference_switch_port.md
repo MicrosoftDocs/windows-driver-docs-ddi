@@ -10,6 +10,7 @@ keywords: ["NDIS_SWITCH_DEREFERENCE_SWITCH_PORT callback function"]
 ms.keywords: DereferenceSwitchPort, DereferenceSwitchPort callback function [Network Drivers Starting with Windows Vista], NDIS_SWITCH_DEREFERENCE_SWITCH_PORT, NDIS_SWITCH_DEREFERENCE_SWITCH_PORT callback, ndis/DereferenceSwitchPort, netvista.DereferenceSwitchPort
 f1_keywords:
  - "ndis/DereferenceSwitchPort"
+ - "DereferenceSwitchPort"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - DereferenceSwitchPort
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

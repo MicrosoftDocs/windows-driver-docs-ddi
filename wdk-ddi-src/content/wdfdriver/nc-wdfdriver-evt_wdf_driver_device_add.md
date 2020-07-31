@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_DRIVER_DEVICE_ADD callback function"]
 ms.keywords: DFDriverObjectRef_9b5ff898-9b1b-4eb6-87f7-42bee5deab18.xml, EVT_WDF_DRIVER_DEVICE_ADD, EVT_WDF_DRIVER_DEVICE_ADD callback, EvtDriverDeviceAdd, EvtDriverDeviceAdd callback function, kmdf.evtdriverdeviceadd, wdf.evtdriverdeviceadd, wdfdriver/EvtDriverDeviceAdd
 f1_keywords:
  - "wdfdriver/EvtDriverDeviceAdd"
+ - "EvtDriverDeviceAdd"
 req.header: wdfdriver.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Wdfdriver.h
 api_name:
 - EvtDriverDeviceAdd
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

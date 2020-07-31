@@ -10,6 +10,7 @@ keywords: ["RtlRemoveUnicodePrefix function"]
 ms.keywords: RtlRemoveUnicodePrefix, RtlRemoveUnicodePrefix routine [Installable File System Drivers], ifsk.rtlremoveunicodeprefix, ntifs/RtlRemoveUnicodePrefix, rtlref_a6eb361a-f00b-4377-913c-8494c49d4064.xml
 f1_keywords:
  - "ntifs/RtlRemoveUnicodePrefix"
+ - "RtlRemoveUnicodePrefix"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlRemoveUnicodePrefix
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

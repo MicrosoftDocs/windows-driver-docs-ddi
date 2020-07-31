@@ -10,6 +10,7 @@ keywords: ["FsRtlDeregisterUncProvider function"]
 ms.keywords: FsRtlDeregisterUncProvider, FsRtlDeregisterUncProvider routine [Installable File System Drivers], fsrtlref_d1eb1778-7643-44df-8f68-edc995b22246.xml, ifsk.fsrtlderegisteruncprovider, ntifs/FsRtlDeregisterUncProvider
 f1_keywords:
  - "ntifs/FsRtlDeregisterUncProvider"
+ - "FsRtlDeregisterUncProvider"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlDeregisterUncProvider
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

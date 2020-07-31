@@ -10,6 +10,7 @@ keywords: ["_SECURE_ELEMENT_AID_ROUTING_INFO structure"]
 ms.keywords: "*PSECURE_ELEMENT_AID_ROUTING_INFO, P_SECURE_ELEMENT_AID_ROUTING_INFO, P_SECURE_ELEMENT_AID_ROUTING_INFO structure pointer [Near-Field Proximity Drivers], SECURE_ELEMENT_AID_ROUTING_INFO, SECURE_ELEMENT_AID_ROUTING_INFO structure [Near-Field Proximity Drivers], _SECURE_ELEMENT_AID_ROUTING_INFO, nfcsedev/P_SECURE_ELEMENT_AID_ROUTING_INFO, nfcsedev/_SECURE_ELEMENT_AID_ROUTING_INFO, nfpdrivers._secure_element_aid_routing_info"
 f1_keywords:
  - "nfcsedev/SECURE_ELEMENT_AID_ROUTING_INFO"
+ - "SECURE_ELEMENT_AID_ROUTING_INFO"
 req.header: nfcsedev.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - nfcsedev.h
 api_name:
 - SECURE_ELEMENT_AID_ROUTING_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: SECURE_ELEMENT_AID_ROUTING_INFO, *PSECURE_ELEMENT_AID_ROUTING_INFO
 ---

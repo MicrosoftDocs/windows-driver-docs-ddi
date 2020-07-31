@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_CLEAR structure"]
 ms.keywords: D3DDDIARG_CLEAR, D3DDDIARG_CLEAR structure [Display Devices], UMDisplayDriver_param_Structs_64efff84-8fe3-40d4-b823-27e4a235fd86.xml, _D3DDDIARG_CLEAR, d3dumddi/D3DDDIARG_CLEAR, display.d3dddiarg_clear
 f1_keywords:
  - "d3dumddi/D3DDDIARG_CLEAR"
+ - "D3DDDIARG_CLEAR"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDIARG_CLEAR
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_CLEAR
 ---

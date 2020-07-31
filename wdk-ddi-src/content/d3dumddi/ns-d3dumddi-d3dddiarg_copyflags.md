@@ -10,6 +10,7 @@ keywords: ["D3DDDIARG_COPYFLAGS structure"]
 ms.keywords: D3DDDIARG_COPYFLAGS, D3DDDIARG_COPYFLAGS structure [Display Devices], d3dumddi/D3DDDIARG_COPYFLAGS, display.d3dddiarg_copyflags
 f1_keywords:
  - "d3dumddi/D3DDDIARG_COPYFLAGS"
+ - "D3DDDIARG_COPYFLAGS"
 req.header: d3dumddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - D3dumddi.h
 api_name:
 - D3DDDIARG_COPYFLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_COPYFLAGS
 ---

@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DXGKARGCB_SAVEMEMORYFORHOTUPDATE structure"]
 f1_keywords:
  - "d3dkmddi/DXGKARGCB_SAVEMEMORYFORHOTUPDATE"
+ - "DXGKARGCB_SAVEMEMORYFORHOTUPDATE"
 ms.keywords: DXGKARGCB_SAVEMEMORYFORHOTUPDATE, DXGKARGCB_SAVEMEMORYFORHOTUPDATE, 
 req.header: d3dkmddi.h
 req.include-header:
@@ -32,8 +33,6 @@ api_location:
  - d3dkmddi.h
 api_name: 
  - DXGKARGCB_SAVEMEMORYFORHOTUPDATE
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

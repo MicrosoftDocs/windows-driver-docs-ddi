@@ -10,6 +10,7 @@ keywords: ["IoCsqInsertIrpEx function"]
 ms.keywords: IoCsqInsertIrpEx, IoCsqInsertIrpEx routine [Kernel-Mode Driver Architecture], k104_5a30f95f-f46d-4f45-a261-a740f33c5327.xml, kernel.iocsqinsertirpex, wdm/IoCsqInsertIrpEx
 f1_keywords:
  - "wdm/IoCsqInsertIrpEx"
+ - "IoCsqInsertIrpEx"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoCsqInsertIrpEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["KsAddItemToObjectBag function"]
 ms.keywords: KsAddItemToObjectBag, KsAddItemToObjectBag function [Streaming Media Devices], avfunc_c7496331-05a5-4336-9c62-144e2db6e218.xml, ks/KsAddItemToObjectBag, stream.ksadditemtoobjectbag
 f1_keywords:
  - "ks/KsAddItemToObjectBag"
+ - "KsAddItemToObjectBag"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsAddItemToObjectBag
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

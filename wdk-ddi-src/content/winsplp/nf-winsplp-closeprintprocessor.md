@@ -10,6 +10,7 @@ keywords: ["ClosePrintProcessor function"]
 ms.keywords: ClosePrintProcessor, ClosePrintProcessor function [Print Devices], print.closeprintprocessor, spoolfnc_f2e791a0-bfae-463c-a7ac-0e9f941ebe51.xml, winsplp/ClosePrintProcessor
 f1_keywords:
  - "winsplp/ClosePrintProcessor"
+ - "ClosePrintProcessor"
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Nwprint.dll
 api_name:
 - ClosePrintProcessor
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

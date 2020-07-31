@@ -10,6 +10,7 @@ keywords: ["CWiauPropertyList::SetCurrentValue(INT,PSYSTEMTIME)"]
 ms.keywords: CWiauPropertyList interface [Imaging Devices],SetCurrentValue method, CWiauPropertyList.SetCurrentValue, CWiauPropertyList.SetCurrentValue(INT,PSYSTEMTIME), CWiauPropertyList::SetCurrentValue, CWiauPropertyList::SetCurrentValue(INT,PSYSTEMTIME  ), CWiauPropertyList::SetCurrentValue(INT,PSYSTEMTIME), SetCurrentValue, SetCurrentValue method [Imaging Devices], SetCurrentValue method [Imaging Devices],CWiauPropertyList interface, image.cwiaupropertylist_setcurrentvalue_systemtime_, wiauFncs_dafa3146-7ba7-4782-9e6f-95a80d97452e.xml, wiautil/CWiauPropertyList::SetCurrentValue
 f1_keywords:
  - "wiautil/CWiauPropertyList.SetCurrentValue"
+ - "CWiauPropertyList.SetCurrentValue"
 req.header: wiautil.h
 req.include-header: Wiautil.h, Wiamindr.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wiautil.h
 api_name:
 - CWiauPropertyList.SetCurrentValue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

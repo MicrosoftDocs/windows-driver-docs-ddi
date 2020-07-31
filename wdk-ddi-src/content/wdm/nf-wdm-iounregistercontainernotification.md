@@ -10,6 +10,7 @@ keywords: ["IoUnregisterContainerNotification function"]
 ms.keywords: IoUnregisterContainerNotification, IoUnregisterContainerNotification routine [Kernel-Mode Driver Architecture], k104_92c44631-4032-4538-bc1b-6463c3ae3c76.xml, kernel.iounregistercontainernotification, wdm/IoUnregisterContainerNotification
 f1_keywords:
  - "wdm/IoUnregisterContainerNotification"
+ - "IoUnregisterContainerNotification"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoUnregisterContainerNotification
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

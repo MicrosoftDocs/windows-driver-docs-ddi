@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["*PFN_SENSORSCXDEVICEGETSENSORLIST callback function"]
 f1_keywords:
  - "sensorscx/*PFN_SENSORSCXDEVICEGETSENSORLIST"
+ - "*PFN_SENSORSCXDEVICEGETSENSORLIST"
 req.header: sensorscx.h
 req.include-header:
 req.target-type:
@@ -32,8 +33,6 @@ api_location:
 - sensorscx.h
 api_name: 
 - PFN_SENSORSCXDEVICEGETSENSORLIST
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

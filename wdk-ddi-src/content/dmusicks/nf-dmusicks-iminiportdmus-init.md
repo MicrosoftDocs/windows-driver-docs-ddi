@@ -10,6 +10,7 @@ keywords: ["IMiniportDMus::Init"]
 ms.keywords: IMiniportDMus interface [Audio Devices],Init method, IMiniportDMus.Init, IMiniportDMus::Init, Init, Init method [Audio Devices], Init method [Audio Devices],IMiniportDMus interface, audio.iminiportdmus_init, audmp-routines_016b2aed-13f3-4d9a-86c0-fbdbcbf55341.xml, dmusicks/IMiniportDMus::Init
 f1_keywords:
  - "dmusicks/IMiniportDMus.Init"
+ - "IMiniportDMus.Init"
 req.header: dmusicks.h
 req.include-header: Dmusicks.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dmusicks.h
 api_name:
 - IMiniportDMus.Init
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -36,8 +36,6 @@ api_location:
 -   Mscms.dll
 api_name:
 -   WcsOpenColorProfile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

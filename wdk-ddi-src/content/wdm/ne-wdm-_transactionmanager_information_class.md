@@ -10,6 +10,7 @@ keywords: ["_TRANSACTIONMANAGER_INFORMATION_CLASS enumeration"]
 ms.keywords: TRANSACTIONMANAGER_INFORMATION_CLASS, TRANSACTIONMANAGER_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], TransactionManagerBasicInformation, TransactionManagerLogInformation, TransactionManagerLogPathInformation, TransactionManagerRecoveryInformation, _TRANSACTIONMANAGER_INFORMATION_CLASS, kernel.transactionmanager_information_class, ktm_ref_55fd8dd4-e88d-40df-9091-1aecc4de38a7.xml, wdm/TRANSACTIONMANAGER_INFORMATION_CLASS, wdm/TransactionManagerBasicInformation, wdm/TransactionManagerLogInformation, wdm/TransactionManagerLogPathInformation, wdm/TransactionManagerRecoveryInformation
 f1_keywords:
  - "wdm/TRANSACTIONMANAGER_INFORMATION_CLASS"
+ - "TRANSACTIONMANAGER_INFORMATION_CLASS"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - TRANSACTIONMANAGER_INFORMATION_CLASS
-product:
-- Windows
 targetos: Windows
 req.typenames: TRANSACTIONMANAGER_INFORMATION_CLASS
 ---

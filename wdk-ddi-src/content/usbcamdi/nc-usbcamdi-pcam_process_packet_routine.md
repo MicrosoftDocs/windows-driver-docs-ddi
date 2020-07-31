@@ -10,6 +10,7 @@ keywords: ["PCAM_PROCESS_PACKET_ROUTINE callback function"]
 ms.keywords: CamProcessUSBPacket, CamProcessUSBPacket callback function [Streaming Media Devices], PCAM_PROCESS_PACKET_ROUTINE, PCAM_PROCESS_PACKET_ROUTINE callback, stream.camprocessusbpacket, usbcamdi/CamProcessUSBPacket, usbcmdpr_7eeca66e-b106-4cb0-b0c3-d7d07d82d841.xml
 f1_keywords:
  - "usbcamdi/CamProcessUSBPacket"
+ - "CamProcessUSBPacket"
 req.header: usbcamdi.h
 req.include-header: Usbcamdi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - usbcamdi.h
 api_name:
 - CamProcessUSBPacket
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

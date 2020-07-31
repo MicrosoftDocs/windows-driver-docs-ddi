@@ -10,6 +10,7 @@ keywords: ["WdfRequestWdmGetIrp function"]
 ms.keywords: DFRequestObjectRef_2f8bba17-817e-4edb-98f2-bd56eb3e34ac.xml, WdfRequestWdmGetIrp, WdfRequestWdmGetIrp method, kmdf.wdfrequestwdmgetirp, wdf.wdfrequestwdmgetirp, wdfrequest/WdfRequestWdmGetIrp
 f1_keywords:
  - "wdfrequest/WdfRequestWdmGetIrp"
+ - "WdfRequestWdmGetIrp"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfRequestWdmGetIrp
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

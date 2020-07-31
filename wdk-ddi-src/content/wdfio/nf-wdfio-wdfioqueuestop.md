@@ -10,6 +10,7 @@ keywords: ["WdfIoQueueStop function"]
 ms.keywords: DFQueueObjectRef_c1ac397c-5601-4976-9c42-41b118d429c1.xml, WdfIoQueueStop, WdfIoQueueStop method, kmdf.wdfioqueuestop, wdf.wdfioqueuestop, wdfio/WdfIoQueueStop
 f1_keywords:
  - "wdfio/WdfIoQueueStop"
+ - "WdfIoQueueStop"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfIoQueueStop
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

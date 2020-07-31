@@ -8,6 +8,7 @@ ms.date: 04/10/2019
 keywords: ["_NDIS_WWAN_UICC_RESPONSE structure"]
 f1_keywords:
  - "ndiswwan/_NDIS_WWAN_UICC_RESPONSE"
+ - "_NDIS_WWAN_UICC_RESPONSE"
 ms.keywords: _NDIS_WWAN_UICC_RESPONSE, NDIS_WWAN_UICC_RESPONSE, *PNDIS_WWAN_UICC_RESPONSE, 
 req.header: ndiswwan.h
 req.include-header:
@@ -30,8 +31,6 @@ api_location:
 - ndiswwan.h
 api_name: 
 - _NDIS_WWAN_UICC_RESPONSE
-product:
-- Windows
 targetos: Windows
 ms.custom: 19H1
 ---

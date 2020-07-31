@@ -10,6 +10,7 @@ keywords: ["KoCreateInstance function"]
 ms.keywords: KoCreateInstance, KoCreateInstance function [Streaming Media Devices], kcom/KoCreateInstance, ksfunc_57c8ab23-3163-4ef8-a381-bd81ce01d18e.xml, stream.kocreateinstance
 f1_keywords:
  - "kcom/KoCreateInstance"
+ - "KoCreateInstance"
 req.header: kcom.h
 req.include-header: Kcom.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KoCreateInstance
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

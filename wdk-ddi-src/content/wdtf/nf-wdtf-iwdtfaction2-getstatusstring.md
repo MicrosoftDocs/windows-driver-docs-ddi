@@ -10,6 +10,7 @@ keywords: ["IWDTFAction2::GetStatusString"]
 ms.keywords: GetStatusString, GetStatusString method [Windows Device Testing Framework], GetStatusString method [Windows Device Testing Framework],IWDTFAction2 interface, IWDTFAction2 interface [Windows Device Testing Framework],GetStatusString method, IWDTFAction2.GetStatusString, IWDTFAction2::GetStatusString, Microsoft.WDTF.IWDTFAction2.GetStatusString, Microsoft::WDTF::IWDTFAction2::GetStatusString, dtf.iwdtfaction2_getstatusstring, wdtf/IWDTFAction2::GetStatusString
 f1_keywords:
  - "wdtf/IWDTFAction2.GetStatusString"
+ - "IWDTFAction2.GetStatusString"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WDTF.Interop.metadata_dll.dll
 api_name:
 - IWDTFAction2.GetStatusString
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

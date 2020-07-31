@@ -8,6 +8,7 @@ ms.date: 09/30/2018
 keywords: ["_STORAGE_RESERVE_ID enumeration"]
 f1_keywords:
  - "ntifs/_STORAGE_RESERVE_ID"
+ - "_STORAGE_RESERVE_ID"
 ms.keywords: _STORAGE_RESERVE_ID, STORAGE_RESERVE_ID, *PSTORAGE_RESERVE_ID, 
 req.header: ntifs.h
 req.include-header:
@@ -27,8 +28,6 @@ api_location:
 - ntifs.h
 api_name: 
 - _STORAGE_RESERVE_ID
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

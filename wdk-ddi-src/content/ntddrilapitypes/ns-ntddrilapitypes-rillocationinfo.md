@@ -10,6 +10,7 @@ keywords: ["RILLOCATIONINFO structure"]
 ms.keywords: "*LPRILLOCATIONINFO, RILLOCATIONINFO, RILLOCATIONINFO structure [Network Drivers Starting with Windows Vista], netvista.rillocationinfo, ntddrilapitypes/RILLOCATIONINFO"
 f1_keywords:
  - "ntddrilapitypes/RILLOCATIONINFO"
+ - "RILLOCATIONINFO"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILLOCATIONINFO
-product:
-- Windows
 targetos: Windows
 req.typenames: RILLOCATIONINFO, *LPRILLOCATIONINFO
 ---

@@ -10,6 +10,7 @@ keywords: ["PFNDRMADDCONTENTHANDLERS callback function"]
 ms.keywords: DRMAddContentHandlers, DRMAddContentHandlers callback function [Audio Devices], PFNDRMADDCONTENTHANDLERS, PFNDRMADDCONTENTHANDLERS callback, PfnDRMAddContentHandlers, PfnDRMAddContentHandlers callback function [Audio Devices], audio.pfndrmaddcontenthandlers, drmk/PfnDRMAddContentHandlers
 f1_keywords:
  - "drmk/DRMAddContentHandlers"
+ - "DRMAddContentHandlers"
 req.header: drmk.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Drmk.h
 api_name:
 - DRMAddContentHandlers
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

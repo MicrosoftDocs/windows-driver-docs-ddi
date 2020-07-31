@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["_DXGKARG_SETVIRTUALGPUVMBUS structure"]
 f1_keywords:
  - "dispmprt/_DXGKARG_SETVIRTUALGPUVMBUS"
+ - "_DXGKARG_SETVIRTUALGPUVMBUS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: _DXGKARG_SETVIRTUALGPUVMBUS, DXGKARG_SETVIRTUALGPUVMBUS, *PDXGKARG_SETVIRTUALGPUVMBUS, 

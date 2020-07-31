@@ -10,6 +10,7 @@ keywords: ["IWDFIoRequest2 interface"]
 ms.keywords: IWDFIoRequest2, IWDFIoRequest2 interface, IWDFIoRequest2 interface,described, UMDFRequestObjectRef_0aa42362-60ac-4be7-8101-6395a709f420.xml, umdf.iwdfiorequest2, wdf.iwdfiorequest2, wudfddi/IWDFIoRequest2
 f1_keywords:
  - "wudfddi/IWDFIoRequest2"
+ - "IWDFIoRequest2"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFIoRequest2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

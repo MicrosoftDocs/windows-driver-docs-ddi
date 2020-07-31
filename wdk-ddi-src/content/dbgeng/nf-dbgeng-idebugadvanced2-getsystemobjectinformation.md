@@ -10,6 +10,7 @@ keywords: ["IDebugAdvanced2::GetSystemObjectInformation"]
 ms.keywords: GetSystemObjectInformation, GetSystemObjectInformation method [Windows Debugging], GetSystemObjectInformation method [Windows Debugging],IDebugAdvanced2 interface, GetSystemObjectInformation method [Windows Debugging],IDebugAdvanced3 interface, IDebugAdvanced2 interface [Windows Debugging],GetSystemObjectInformation method, IDebugAdvanced2.GetSystemObjectInformation, IDebugAdvanced2::GetSystemObjectInformation, IDebugAdvanced3 interface [Windows Debugging],GetSystemObjectInformation method, IDebugAdvanced3::GetSystemObjectInformation, IDebugAdvanced_a1f6b5cc-0b56-417f-b515-45c999499ba7.xml, dbgeng/IDebugAdvanced2::GetSystemObjectInformation, dbgeng/IDebugAdvanced3::GetSystemObjectInformation, debugger.getsystemobjectinformation
 f1_keywords:
  - "dbgeng/IDebugAdvanced2.GetSystemObjectInformation"
+ - "IDebugAdvanced2.GetSystemObjectInformation"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IDebugAdvanced2.GetSystemObjectInformation
 - IDebugAdvanced3.GetSystemObjectInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

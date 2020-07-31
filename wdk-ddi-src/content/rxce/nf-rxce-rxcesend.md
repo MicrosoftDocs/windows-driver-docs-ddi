@@ -10,6 +10,7 @@ keywords: ["RxCeSend function"]
 ms.keywords: RxCeSend, RxCeSend function [Installable File System Drivers], ifsk.rxcesend, rxce/RxCeSend, rxref_07c5b21c-253c-4032-a5e8-61c4e71450fb.xml
 f1_keywords:
  - "rxce/RxCeSend"
+ - "RxCeSend"
 req.header: rxce.h
 req.include-header: Rxce.h, Tdi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - rxce.h
 api_name:
 - RxCeSend
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["FPGA_CONTROL_LINK callback function"]
 f1_keywords:
  - "wdm/FPGA_CONTROL_LINK"
+ - "FPGA_CONTROL_LINK"
 req.header: wdm.h
 req.include-header:
 req.target-type:
@@ -32,8 +33,6 @@ api_location:
 - wdm.h
 api_name: 
 - FPGA_CONTROL_LINK
-product:
-- Windows
 targetos: Windows
 ---
 

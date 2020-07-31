@@ -10,6 +10,7 @@ keywords: ["HidP_UnsetUsages function"]
 ms.keywords: HidP_UnsetUsages, HidP_UnsetUsages routine [Human Input Devices], hid.hidp_unsetusages, hidfunc_7ffa6677-1a45-4e19-8001-116fbeacf097.xml, hidpi/HidP_UnsetUsages
 f1_keywords:
  - "hidpi/HidP_UnsetUsages"
+ - "HidP_UnsetUsages"
 req.header: hidpi.h
 req.include-header: Hidpi.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Hidparse.dll
 api_name:
 - HidP_UnsetUsages
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

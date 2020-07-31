@@ -9,6 +9,7 @@ keywords: ["_DXGK_BUILDPAGINGBUFFER_FLUSHTLB structure"]
 ms.keywords: DXGK_BUILDPAGINGBUFFER_FLUSHTLB, DXGK_BUILDPAGINGBUFFER_FLUSHTLB structure [Display Devices], _DXGK_BUILDPAGINGBUFFER_FLUSHTLB, d3dkmddi/DXGK_BUILDPAGINGBUFFER_FLUSHTLB, display.dxgk_buildpagingbuffer_flushtlb
 f1_keywords:
  - "d3dkmddi/DXGK_BUILDPAGINGBUFFER_FLUSHTLB"
+ - "DXGK_BUILDPAGINGBUFFER_FLUSHTLB"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGK_BUILDPAGINGBUFFER_FLUSHTLB
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_BUILDPAGINGBUFFER_FLUSHTLB

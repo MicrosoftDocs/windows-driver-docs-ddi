@@ -8,6 +8,7 @@ ms.date: 09/30/2018
 keywords: ["UCMUCSI_CONNECTOR_INFO_INIT function"]
 f1_keywords:
  - "ucmucsippm/UCMUCSI_CONNECTOR_INFO_INIT"
+ - "UCMUCSI_CONNECTOR_INFO_INIT"
 ms.keywords: UCMUCSI_CONNECTOR_INFO_INIT
 req.header: ucmucsippm.h
 req.include-header: UcmUcsiCx.h
@@ -34,8 +35,6 @@ api_location:
 - ucmucsippm.h
 api_name: 
 - UCMUCSI_CONNECTOR_INFO_INIT
-product:
-- Windows
 targetos: Windows
 
 

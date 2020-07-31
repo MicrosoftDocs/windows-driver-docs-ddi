@@ -10,6 +10,7 @@ keywords: ["IOCTL_USB_HCD_ENABLE_PORT IOCTL"]
 ms.keywords: IOCTL_USB_HCD_ENABLE_PORT, IOCTL_USB_HCD_ENABLE_PORT control, IOCTL_USB_HCD_ENABLE_PORT control code [Buses], buses.ioctl_usb_hcd_enable_port, usbioctl/IOCTL_USB_HCD_ENABLE_PORT, usbirp_fc5909f4-17b5-455c-b635-5c53b9de816e.xml
 f1_keywords:
  - "usbioctl/IOCTL_USB_HCD_ENABLE_PORT"
+ - "IOCTL_USB_HCD_ENABLE_PORT"
 req.header: usbioctl.h
 req.include-header: Usbioctl.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - usbioctl.h
 api_name:
 - IOCTL_USB_HCD_ENABLE_PORT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

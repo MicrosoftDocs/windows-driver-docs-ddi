@@ -10,6 +10,7 @@ keywords: ["RILGSMKIND enumeration"]
 ms.keywords: RILGSMKIND, RILGSMKIND enumeration [Network Drivers Starting with Windows Vista], RIL_GSMKIND_EDGE, RIL_GSMKIND_GPRS, RIL_GSMKIND_MAX, netvista.rilgsmkind, ntddrilapitypes/RILGSMKIND, ntddrilapitypes/RIL_GSMKIND_EDGE, ntddrilapitypes/RIL_GSMKIND_GPRS, ntddrilapitypes/RIL_GSMKIND_MAX
 f1_keywords:
  - "rilapitypes/RILGSMKIND"
+ - "RILGSMKIND"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILGSMKIND
-product:
-- Windows
 targetos: Windows
 req.typenames: RILGSMKIND
 ---

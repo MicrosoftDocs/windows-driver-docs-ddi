@@ -8,6 +8,7 @@ tech.root: ifsk
 keywords: ["_FILE_STAT_INFORMATION structure"]
 f1_keywords:
  - "ntifs/_FILE_STAT_INFORMATION"
+ - "_FILE_STAT_INFORMATION"
 ms.keywords: _FILE_STAT_INFORMATION, FILE_STAT_INFORMATION, *PFILE_STAT_INFORMATION, 
 req.header: ntifs.h
 req.include-header:
@@ -30,8 +31,6 @@ api_location:
 - ntifs.h
 api_name: 
 - _FILE_STAT_INFORMATION
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

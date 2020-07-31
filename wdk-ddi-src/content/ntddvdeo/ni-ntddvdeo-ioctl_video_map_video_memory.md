@@ -10,6 +10,7 @@ keywords: ["IOCTL_VIDEO_MAP_VIDEO_MEMORY IOCTL"]
 ms.keywords: IOCTL_VIDEO_MAP_VIDEO_MEMORY, IOCTL_VIDEO_MAP_VIDEO_MEMORY control, IOCTL_VIDEO_MAP_VIDEO_MEMORY control code [Display Devices], Video_IOCTLs_8a343fc8-9ebe-4079-a175-94d39222adee.xml, display.ioctl_video_map_video_memory, ntddvdeo/IOCTL_VIDEO_MAP_VIDEO_MEMORY
 f1_keywords:
  - "ntddvdeo/IOCTL_VIDEO_MAP_VIDEO_MEMORY"
+ - "IOCTL_VIDEO_MAP_VIDEO_MEMORY"
 req.header: ntddvdeo.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddvdeo.h
 api_name:
 - IOCTL_VIDEO_MAP_VIDEO_MEMORY
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

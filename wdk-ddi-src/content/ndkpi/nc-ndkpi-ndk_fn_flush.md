@@ -10,6 +10,7 @@ keywords: ["NDK_FN_FLUSH callback function"]
 ms.keywords: NDK_FN_FLUSH, NDK_FN_FLUSH callback, NdkFlush, NdkFlush callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkFlush, netvista.ndk_fn_flush
 f1_keywords:
  - "ndkpi/NdkFlush"
+ - "NdkFlush"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ndkpi.h
 api_name:
 - NdkFlush
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

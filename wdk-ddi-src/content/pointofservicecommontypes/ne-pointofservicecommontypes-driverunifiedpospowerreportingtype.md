@@ -10,6 +10,7 @@ keywords: ["DriverUnifiedPosPowerReportingType enumeration"]
 ms.keywords: Advanced, DriverUnifiedPosPowerReportingType, DriverUnifiedPosPowerReportingType enumeration, Standard, UnknownPowerReportingType, pointofservicecommontypes/Advanced, pointofservicecommontypes/DriverUnifiedPosPowerReportingType, pointofservicecommontypes/Standard, pointofservicecommontypes/UnknownPowerReportingType, pos.unifiedpospowerreportingtype
 f1_keywords:
  - "pointofservicecommontypes/DriverUnifiedPosPowerReportingType"
+ - "DriverUnifiedPosPowerReportingType"
 req.header: pointofservicecommontypes.h
 req.include-header: Pointofservicecommontypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pointofservicecommontypes.h
 api_name:
 - DriverUnifiedPosPowerReportingType
-product:
-- Windows
 targetos: Windows
 req.typenames: DriverUnifiedPosPowerReportingType
 ---

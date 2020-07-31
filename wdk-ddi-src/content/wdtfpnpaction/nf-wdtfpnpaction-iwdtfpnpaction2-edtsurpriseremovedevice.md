@@ -10,6 +10,7 @@ keywords: ["IWDTFPNPAction2::EDTSurpriseRemoveDevice"]
 ms.keywords: EDTSurpriseRemoveDevice, EDTSurpriseRemoveDevice method [Windows Device Testing Framework], EDTSurpriseRemoveDevice method [Windows Device Testing Framework],IWDTFPNPAction2 interface, IWDTFPNPAction2 interface [Windows Device Testing Framework],EDTSurpriseRemoveDevice method, IWDTFPNPAction2.EDTSurpriseRemoveDevice, IWDTFPNPAction2::EDTSurpriseRemoveDevice, Microsoft.WDTF.IWDTFPNPAction2.EDTSurpriseRemoveDevice, Microsoft::WDTF::IWDTFPNPAction2::EDTSurpriseRemoveDevice, dtf.iwdtfpnpaction2_edtsurpriseremovedevice, wdtfpnpaction/IWDTFPNPAction2::EDTSurpriseRemoveDevice
 f1_keywords:
  - "wdtfpnpaction/IWDTFPNPAction2.EDTSurpriseRemoveDevice"
+ - "IWDTFPNPAction2.EDTSurpriseRemoveDevice"
 req.header: wdtfpnpaction.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WDTFDriverPNPAction.Interop.dll
 api_name:
 - IWDTFPNPAction2.EDTSurpriseRemoveDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

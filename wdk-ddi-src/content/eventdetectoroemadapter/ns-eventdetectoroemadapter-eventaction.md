@@ -10,6 +10,7 @@ ms.date: 04/10/2019
 keywords: ["EVENTACTION structure"]
 f1_keywords:
  - "eventdetectoroemadapter/EVENTACTION"
+ - "EVENTACTION"
 ms.keywords: EVENTACTION, EVENTACTION, 
 req.header: eventdetectoroemadapter.h
 req.include-header:

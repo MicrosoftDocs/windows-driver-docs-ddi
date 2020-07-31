@@ -10,6 +10,7 @@ keywords: ["TmInitializeTransactionManager function"]
 ms.keywords: TmInitializeTransactionManager, TmInitializeTransactionManager , TmInitializeTransactionManager routine [Kernel-Mode Driver Architecture], kernel.tminitializetransactionmanager_, wdm/TmInitializeTransactionManager
 f1_keywords:
  - "wdm/TmInitializeTransactionManager"
+ - "TmInitializeTransactionManager"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal
@@ -38,8 +39,6 @@ api_location:
 - tm.sys
 api_name:
 - TmInitializeTransactionManager
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

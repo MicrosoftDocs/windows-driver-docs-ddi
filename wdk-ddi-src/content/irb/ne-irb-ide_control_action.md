@@ -10,6 +10,7 @@ keywords: ["IDE_CONTROL_ACTION enumeration"]
 ms.keywords: IDE_CONTROL_ACTION, IDE_CONTROL_ACTION enumeration [Storage Devices], IdePowerDown, IdePowerUp, IdeStart, IdeStop, IdeVendorDefined, irb/IDE_CONTROL_ACTION, irb/IdePowerDown, irb/IdePowerUp, irb/IdeStart, irb/IdeStop, irb/IdeVendorDefined, storage.ide_control_action, structs-ATA_f5df2197-3199-4b3f-ba0a-7a92cd75e3ac.xml
 f1_keywords:
  - "irb/IDE_CONTROL_ACTION"
+ - "IDE_CONTROL_ACTION"
 req.header: irb.h
 req.include-header: Irb.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - irb.h
 api_name:
 - IDE_CONTROL_ACTION
-product:
-- Windows
 targetos: Windows
 req.typenames: IDE_CONTROL_ACTION
 ---

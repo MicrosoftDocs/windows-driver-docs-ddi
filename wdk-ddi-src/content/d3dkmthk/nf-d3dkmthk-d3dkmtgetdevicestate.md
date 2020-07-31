@@ -9,6 +9,7 @@ keywords: ["D3DKMTGetDeviceState function"]
 ms.keywords: D3DKMTGetDeviceState, D3DKMTGetDeviceState function [Display Devices], OpenGL_Functions_396da637-bbc6-478c-8ec9-534d82691c45.xml, d3dkmthk/D3DKMTGetDeviceState, display.d3dkmtgetdevicestate
 f1_keywords:
  - "d3dkmthk/D3DKMTGetDeviceState"
+ - "D3DKMTGetDeviceState"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -38,8 +39,6 @@ api_location:
 - API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 - D3DKMTGetDeviceState
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

@@ -7,6 +7,7 @@ ms.date: 09/21/2018
 keywords: ["IComparableConcept::QueryInterface"]
 f1_keywords:
  - "dbgmodel/IComparableConcept.QueryInterface"
+ - "IComparableConcept.QueryInterface"
 ms.keywords: IComparableConcept::QueryInterface, QueryInterface, IComparableConcept.QueryInterface, IComparableConcept::QueryInterface, IComparableConcept.QueryInterface
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IComparableConcept.QueryInterface
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

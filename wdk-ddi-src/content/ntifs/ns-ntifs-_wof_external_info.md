@@ -10,6 +10,7 @@ keywords: ["_WOF_EXTERNAL_INFO structure"]
 ms.keywords: "*PWOF_EXTERNAL_INFO, PWOF_EXTERNAL_INFO, PWOF_EXTERNAL_INFO structure pointer [Installable File System Drivers], WOF_EXTERNAL_INFO, WOF_EXTERNAL_INFO structure [Installable File System Drivers], _WOF_EXTERNAL_INFO, ifsk.wof_external_info, ntifs/PWOF_EXTERNAL_INFO, ntifs/WOF_EXTERNAL_INFO"
 f1_keywords:
  - "ntifs/WOF_EXTERNAL_INFO"
+ - "WOF_EXTERNAL_INFO"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - WOF_EXTERNAL_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: WOF_EXTERNAL_INFO, *PWOF_EXTERNAL_INFO
 ---

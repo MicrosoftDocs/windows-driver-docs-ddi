@@ -10,6 +10,7 @@ keywords: ["VideoPortPutDmaAdapter function"]
 ms.keywords: VideoPortPutDmaAdapter, VideoPortPutDmaAdapter function [Display Devices], VideoPort_Functions_3de2fb91-53a9-4a1d-9dcd-91e3c0d645ab.xml, display.videoportputdmaadapter, video/VideoPortPutDmaAdapter
 f1_keywords:
  - "video/VideoPortPutDmaAdapter"
+ - "VideoPortPutDmaAdapter"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Videoprt.sys
 api_name:
 - VideoPortPutDmaAdapter
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

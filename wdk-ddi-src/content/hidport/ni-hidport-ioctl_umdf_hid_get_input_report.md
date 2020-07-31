@@ -10,6 +10,7 @@ keywords: ["IOCTL_UMDF_HID_GET_INPUT_REPORT IOCTL"]
 ms.keywords: IOCTL_UMDF_HID_GET_INPUT_REPORT, IOCTL_UMDF_HID_GET_INPUT_REPORT control, IOCTL_UMDF_HID_GET_INPUT_REPORT control code, hid.ioctl_umdf_hid_get_input_report, hidport/IOCTL_UMDF_HID_GET_INPUT_REPORT, umdf.ioctl_umdf_hid_get_input_report
 f1_keywords:
  - "hidport/IOCTL_UMDF_HID_GET_INPUT_REPORT"
+ - "IOCTL_UMDF_HID_GET_INPUT_REPORT"
 req.header: hidport.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Hidport.h
 api_name:
 - IOCTL_UMDF_HID_GET_INPUT_REPORT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

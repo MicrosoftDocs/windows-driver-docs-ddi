@@ -10,6 +10,7 @@ keywords: ["IPortClsPnp::UnregisterAdapterPnpManagement"]
 ms.keywords: IPortClsPnp interface [Audio Devices],UnregisterAdapterPnpManagement method, IPortClsPnp.UnregisterAdapterPnpManagement, IPortClsPnp::UnregisterAdapterPnpManagement, UnregisterAdapterPnpManagement, UnregisterAdapterPnpManagement method [Audio Devices], UnregisterAdapterPnpManagement method [Audio Devices],IPortClsPnp interface, audio.iportclspnp_unregisteradapterpnpmanagement, portcls/IPortClsPnp::UnregisterAdapterPnpManagement
 f1_keywords:
  - "portcls/IPortClsPnp.UnregisterAdapterPnpManagement"
+ - "IPortClsPnp.UnregisterAdapterPnpManagement"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IPortClsPnp.UnregisterAdapterPnpManagement
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["PcRegisterPhysicalConnection function"]
 ms.keywords: PcRegisterPhysicalConnection, PcRegisterPhysicalConnection function [Audio Devices], audio.pcregisterphysicalconnection, audpc-routines_d806f159-7b56-428c-8780-f95d3c5f3b14.xml, portcls/PcRegisterPhysicalConnection
 f1_keywords:
  - "portcls/PcRegisterPhysicalConnection"
+ - "PcRegisterPhysicalConnection"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Portcls.dll
 api_name:
 - PcRegisterPhysicalConnection
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

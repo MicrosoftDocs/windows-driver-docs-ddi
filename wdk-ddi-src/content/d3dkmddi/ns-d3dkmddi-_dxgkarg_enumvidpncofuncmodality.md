@@ -9,6 +9,7 @@ keywords: ["_DXGKARG_ENUMVIDPNCOFUNCMODALITY structure"]
 ms.keywords: DXGKARG_ENUMVIDPNCOFUNCMODALITY, DXGKARG_ENUMVIDPNCOFUNCMODALITY structure [Display Devices], DmStructs_7b6ad975-cf77-450d-9190-f74711cafe71.xml, _DXGKARG_ENUMVIDPNCOFUNCMODALITY, d3dkmddi/DXGKARG_ENUMVIDPNCOFUNCMODALITY, display.dxgkarg_enumvidpncofuncmodality
 f1_keywords:
  - "d3dkmddi/DXGKARG_ENUMVIDPNCOFUNCMODALITY"
+ - "DXGKARG_ENUMVIDPNCOFUNCMODALITY"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGKARG_ENUMVIDPNCOFUNCMODALITY
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGKARG_ENUMVIDPNCOFUNCMODALITY

@@ -10,6 +10,7 @@ keywords: ["RxReleaseFcbResourceInMRx function"]
 ms.keywords: RxReleaseFcbResourceInMRx, RxReleaseFcbResourceInMRx function [Installable File System Drivers], ifsk.rxreleasefcbresourceinmrx, mrxfcb/RxReleaseFcbResourceInMRx, rxref_b433f8ba-7bdd-4fd2-baba-346e886a23dc.xml
 f1_keywords:
  - "mrxfcb/RxReleaseFcbResourceInMRx"
+ - "RxReleaseFcbResourceInMRx"
 req.header: mrxfcb.h
 req.include-header: Mrxfcb.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - mrxfcb.h
 api_name:
 - RxReleaseFcbResourceInMRx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

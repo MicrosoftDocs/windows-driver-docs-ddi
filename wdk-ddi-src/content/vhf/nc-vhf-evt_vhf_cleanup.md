@@ -10,6 +10,7 @@ keywords: ["EVT_VHF_CLEANUP callback function"]
 ms.keywords: EVT_VHF_CLEANUP, EVT_VHF_CLEANUP callback, EvtVhfCleanup, EvtVhfCleanup callback function [Human Input Devices], hid.evtvhfcleanup, vhf/EvtVhfCleanup
 f1_keywords:
  - "vhf/EvtVhfCleanup"
+ - "EvtVhfCleanup"
 req.header: vhf.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - vhf.h
 api_name:
 - EvtVhfCleanup
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

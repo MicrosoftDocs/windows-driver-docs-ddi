@@ -10,6 +10,7 @@ keywords: ["UMDEtwLogMapAllocation function"]
 ms.keywords: UMDEtwLogMapAllocation, UMDEtwLogMapAllocation function [Display Devices], display.umdetwlogmapallocation, umdprovider/UMDEtwLogMapAllocation
 f1_keywords:
  - "umdprovider/UMDEtwLogMapAllocation"
+ - "UMDEtwLogMapAllocation"
 req.header: umdprovider.h
 req.include-header: Umdprovider.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - umdprovider.h
 api_name:
 - UMDEtwLogMapAllocation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

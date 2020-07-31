@@ -10,6 +10,7 @@ keywords: ["WdfLookasideListCreate function"]
 ms.keywords: DFMemoryObjectRef_f5146f3e-a9ae-459c-9361-37a4f33edd67.xml, WdfLookasideListCreate, WdfLookasideListCreate method, kmdf.wdflookasidelistcreate, wdf.wdflookasidelistcreate, wdfmemory/WdfLookasideListCreate
 f1_keywords:
  - "wdfmemory/WdfLookasideListCreate"
+ - "WdfLookasideListCreate"
 req.header: wdfmemory.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfLookasideListCreate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

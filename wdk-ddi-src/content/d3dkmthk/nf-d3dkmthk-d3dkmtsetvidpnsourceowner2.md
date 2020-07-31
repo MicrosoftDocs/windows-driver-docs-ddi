@@ -9,6 +9,7 @@ keywords: ["D3DKMTSetVidPnSourceOwner2 function"]
 ms.keywords: D3DKMTSetVidPnSourceOwner2, D3DKMTSetVidPnSourceOwner2 method [Display Devices], d3dkmthk/D3DKMTSetVidPnSourceOwner2, display.d3dkmtsetvidpnsourceowner2
 f1_keywords:
  - "d3dkmthk/D3DKMTSetVidPnSourceOwner2"
+ - "D3DKMTSetVidPnSourceOwner2"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - Gdi32.dll
 api_name:
 - D3DKMTSetVidPnSourceOwner2
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

@@ -10,6 +10,7 @@ keywords: ["IOCTL_NFP_GET_NEXT_SUBSCRIBED_MESSAGE IOCTL"]
 ms.keywords: IOCTL_NFP_GET_NEXT_SUBSCRIBED_MESSAGE, IOCTL_NFP_GET_NEXT_SUBSCRIBED_MESSAGE control, IOCTL_NFP_GET_NEXT_SUBSCRIBED_MESSAGE control code [Near-Field Proximity Drivers], nfpdev/IOCTL_NFP_GET_NEXT_SUBSCRIBED_MESSAGE, nfpdrivers.ioctl_nfp_get_next_subscribed_message
 f1_keywords:
  - "nfpdev/IOCTL_NFP_GET_NEXT_SUBSCRIBED_MESSAGE"
+ - "IOCTL_NFP_GET_NEXT_SUBSCRIBED_MESSAGE"
 req.header: nfpdev.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - nfpdev.h
 api_name:
 - IOCTL_NFP_GET_NEXT_SUBSCRIBED_MESSAGE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

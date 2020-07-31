@@ -10,6 +10,7 @@ keywords: ["IoRegisterFsRegistrationChange function"]
 ms.keywords: IoRegisterFsRegistrationChange, IoRegisterFsRegistrationChange routine [Installable File System Drivers], ifsk.ioregisterfsregistrationchange, ioref_6b4dc0bd-0821-4016-8eb7-c448c0247785.xml, ntifs/IoRegisterFsRegistrationChange
 f1_keywords:
  - "ntifs/IoRegisterFsRegistrationChange"
+ - "IoRegisterFsRegistrationChange"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoRegisterFsRegistrationChange
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

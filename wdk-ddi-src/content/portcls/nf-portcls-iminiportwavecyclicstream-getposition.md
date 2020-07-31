@@ -10,6 +10,7 @@ keywords: ["IMiniportWaveCyclicStream::GetPosition"]
 ms.keywords: GetPosition, GetPosition method [Audio Devices], GetPosition method [Audio Devices],IMiniportWaveCyclicStream interface, IMiniportWaveCyclicStream interface [Audio Devices],GetPosition method, IMiniportWaveCyclicStream.GetPosition, IMiniportWaveCyclicStream::GetPosition, audio.iminiportwavecyclicstream_getposition, audmp-routines_016da0e2-bc56-4c06-9755-a13b75d6c5c9.xml, portcls/IMiniportWaveCyclicStream::GetPosition
 f1_keywords:
  - "portcls/IMiniportWaveCyclicStream.GetPosition"
+ - "IMiniportWaveCyclicStream.GetPosition"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IMiniportWaveCyclicStream.GetPosition
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

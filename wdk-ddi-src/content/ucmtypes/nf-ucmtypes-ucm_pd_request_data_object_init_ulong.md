@@ -10,6 +10,7 @@ keywords: ["UCM_PD_REQUEST_DATA_OBJECT_INIT_ULONG function"]
 ms.keywords: UCM_PD_REQUEST_DATA_OBJECT_INIT_ULONG, UCM_PD_REQUEST_DATA_OBJECT_INIT_ULONG function [Buses], buses.ucm_pd_request_data_object_init_ulong, ucmtypes/UCM_PD_REQUEST_DATA_OBJECT_INIT_ULONG
 f1_keywords:
  - "ucmtypes/UCM_PD_REQUEST_DATA_OBJECT_INIT_ULONG"
+ - "UCM_PD_REQUEST_DATA_OBJECT_INIT_ULONG"
 req.header: ucmtypes.h
 req.include-header: Ucmcx.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ucmtypes.h
 api_name:
 - UCM_PD_REQUEST_DATA_OBJECT_INIT_ULONG
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["_BDA_TUNER_DIAGNOSTICS structure"]
 ms.keywords: "*PBDA_TUNER_DIAGNOSTICS, BDA_TUNER_DIAGNOSTICS, BDA_TUNER_DIAGNOSTICS structure [Streaming Media Devices], PBDA_TUNER_DIAGNOSTICS, PBDA_TUNER_DIAGNOSTICS structure pointer [Streaming Media Devices], _BDA_TUNER_DIAGNOSTICS, bdatypes/BDA_TUNER_DIAGNOSTICS, bdatypes/PBDA_TUNER_DIAGNOSTICS, stream.bda_tuner_diagnostics"
 f1_keywords:
  - "bdatypes/BDA_TUNER_DIAGNOSTICS"
+ - "BDA_TUNER_DIAGNOSTICS"
 req.header: bdatypes.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Bdatypes.h
 api_name:
 - BDA_TUNER_DIAGNOSTICS
-product:
-- Windows
 targetos: Windows
 req.typenames: BDA_TUNER_DIAGNOSTICS, *PBDA_TUNER_DIAGNOSTICS
 ---

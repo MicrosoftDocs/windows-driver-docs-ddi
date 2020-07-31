@@ -10,6 +10,7 @@ keywords: ["KSPROPERTY_GENERAL enumeration"]
 ms.keywords: KSPROPERTY_GENERAL, KSPROPERTY_GENERAL enumeration [Streaming Media Devices], KSPROPERTY_GENERAL_COMPONENTID, ks/KSPROPERTY_GENERAL, ks/KSPROPERTY_GENERAL_COMPONENTID, stream.ksproperty_general
 f1_keywords:
  - "ks/KSPROPERTY_GENERAL"
+ - "KSPROPERTY_GENERAL"
 req.header: ks.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ks.h
 api_name:
 - KSPROPERTY_GENERAL
-product:
-- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_GENERAL
 ---

@@ -10,6 +10,7 @@ keywords: ["SRIOV_WRITE_CONFIG callback"]
 ms.keywords: "*PSRIOV_WRITE_CONFIG, *PSRIOV_WRITE_CONFIG callback function pointer [Buses], PCI.sriov_write_config, SRIOV_WRITE_CONFIG, SriovWriteConfig, SriovWriteConfig callback function [Buses], pcivirt/SriovWriteConfig"
 f1_keywords:
  - "pcivirt/*PSRIOV_WRITE_CONFIG"
+ - "*PSRIOV_WRITE_CONFIG"
 req.header: pcivirt.h
 req.include-header:
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Pcivirt.h
 api_name:
 - PSRIOV_WRITE_CONFIG
-product:
-- Windows
 targetos: Windows
 req.typenames: PARCLASS_INFORMATION, *PPARCLASS_INFORMATION
 ---

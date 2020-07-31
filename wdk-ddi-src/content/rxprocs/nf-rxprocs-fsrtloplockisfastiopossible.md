@@ -10,6 +10,7 @@ keywords: ["FsRtlOplockIsFastIoPossible macro"]
 ms.keywords: FsRtlOplockIsFastIoPossible, FsRtlOplockIsFastIoPossible function [Installable File System Drivers], fsrtlref_94131dc4-e2ee-4ec0-92b9-39cd8a7d6e41.xml, ifsk.fsrtloplockisfastiopossible, rxprocs/FsRtlOplockIsFastIoPossible
 f1_keywords:
  - "rxprocs/FsRtlOplockIsFastIoPossible"
+ - "FsRtlOplockIsFastIoPossible"
 req.header: rxprocs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlOplockIsFastIoPossible
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

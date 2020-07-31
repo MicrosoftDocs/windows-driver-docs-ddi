@@ -29,6 +29,7 @@ targetos: Windows
 req.typenames: 
 f1_keywords:
  - "d3dumddi/pfnSetDisplayModeCb"
+ - "pfnSetDisplayModeCb"
 topic_type:
  - APIRef
  - kbSyntax

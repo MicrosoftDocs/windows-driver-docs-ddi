@@ -10,6 +10,7 @@ keywords: ["VideoPortQueryServices function"]
 ms.keywords: VideoPortQueryServices, VideoPortQueryServices function [Display Devices], VideoPort_Functions_4f9cc677-4c65-4577-a289-92b8fb01c787.xml, display.videoportqueryservices, video/VideoPortQueryServices
 f1_keywords:
  - "video/VideoPortQueryServices"
+ - "VideoPortQueryServices"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Videoprt.sys
 api_name:
 - VideoPortQueryServices
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

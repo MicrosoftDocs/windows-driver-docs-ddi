@@ -10,6 +10,7 @@ keywords: ["IWDFUsbTargetPipe::Flush"]
 ms.keywords: Flush, Flush method, Flush method,IWDFUsbTargetPipe interface, IWDFUsbTargetPipe interface,Flush method, IWDFUsbTargetPipe.Flush, IWDFUsbTargetPipe::Flush, UMDFUSBref_5a569ab8-ccbd-47cc-93a6-8e61f366e6ee.xml, umdf.iwdfusbtargetpipe_flush, wdf.iwdfusbtargetpipe_flush, wudfusb/IWDFUsbTargetPipe::Flush
 f1_keywords:
  - "wudfusb/IWDFUsbTargetPipe.Flush"
+ - "IWDFUsbTargetPipe.Flush"
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFUsbTargetPipe.Flush
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

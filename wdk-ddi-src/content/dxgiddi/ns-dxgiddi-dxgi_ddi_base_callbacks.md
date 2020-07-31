@@ -10,6 +10,7 @@ keywords: ["DXGI_DDI_BASE_CALLBACKS structure"]
 ms.keywords: DXGI_DDI_BASE_CALLBACKS, DXGI_DDI_BASE_CALLBACKS structure [Display Devices], UMDisplayDriver_Dx10param_Structs_6622df62-429f-438b-aa1a-61fd7fb8df65.xml, display.dxgi_ddi_base_callbacks, dxgiddi/DXGI_DDI_BASE_CALLBACKS
 f1_keywords:
  - "dxgiddi/DXGI_DDI_BASE_CALLBACKS"
+ - "DXGI_DDI_BASE_CALLBACKS"
 req.header: dxgiddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

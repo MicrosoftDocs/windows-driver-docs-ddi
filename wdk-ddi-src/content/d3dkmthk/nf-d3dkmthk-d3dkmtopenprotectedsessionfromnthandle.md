@@ -9,6 +9,7 @@ keywords: ["D3DKMTOpenProtectedSessionFromNtHandle function"]
 ms.keywords: D3DKMTOpenProtectedSessionFromNtHandle, D3DKMTOpenProtectedSessionFromNtHandle method [Display Devices], d3dkmthk/D3DKMTOpenProtectedSessionFromNtHandle, display.d3dkmtopenprotectedsessionfromnthandle
 f1_keywords:
  - "d3dkmthk/D3DKMTOpenProtectedSessionFromNtHandle"
+ - "D3DKMTOpenProtectedSessionFromNtHandle"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - Gdi32.dll
 api_name:
 - D3DKMTOpenProtectedSessionFromNtHandle
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

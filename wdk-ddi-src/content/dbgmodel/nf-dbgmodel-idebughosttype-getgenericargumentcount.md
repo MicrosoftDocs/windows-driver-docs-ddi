@@ -7,6 +7,7 @@ ms.date: 09/11/2018
 keywords: ["IDebugHostType::GetGenericArgumentCount"]
 f1_keywords:
  - "dbgmodel/IDebugHostType.GetGenericArgumentCount"
+ - "IDebugHostType.GetGenericArgumentCount"
 ms.keywords: IDebugHostType::GetGenericArgumentCount, GetGenericArgumentCount, IDebugHostType.GetGenericArgumentCount, IDebugHostType::GetGenericArgumentCount, IDebugHostType.GetGenericArgumentCount
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostType.GetGenericArgumentCount
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

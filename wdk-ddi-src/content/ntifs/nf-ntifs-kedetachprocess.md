@@ -10,6 +10,7 @@ keywords: ["KeDetachProcess function"]
 ms.keywords: KeDetachProcess, KeDetachProcess function [Installable File System Drivers], ifsk.kedetachprocess, keref_0038ac90-7d97-45db-9a0d-028238af943d.xml, ntifs/KeDetachProcess
 f1_keywords:
  - "ntifs/KeDetachProcess"
+ - "KeDetachProcess"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - KeDetachProcess
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

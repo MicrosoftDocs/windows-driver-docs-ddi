@@ -8,6 +8,7 @@ ms.date: 03/24/2020
 ms.topic: enum
 f1_keywords:
  - "ntifs/_OPLOCK_NOTIFY_REASON"
+ - "_OPLOCK_NOTIFY_REASON"
 ms.keywords: _OPLOCK_NOTIFY_REASON, OPLOCK_NOTIFY_REASON, 
 req.header: ntifs.h
 req.include-header:
@@ -27,8 +28,6 @@ api_location:
 - ntifs.h
 api_name: 
 - _OPLOCK_NOTIFY_REASON
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

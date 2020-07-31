@@ -10,6 +10,7 @@ keywords: ["D3DDDIARG_PRESENTMULTIPLANEOVERLAY structure"]
 ms.keywords: D3DDDIARG_PRESENTMULTIPLANEOVERLAY, D3DDDIARG_PRESENTMULTIPLANEOVERLAY structure [Display Devices], d3dumddi/D3DDDIARG_PRESENTMULTIPLANEOVERLAY, display.d3dddiarg_presentmultiplaneoverlay
 f1_keywords:
  - "d3dumddi/D3DDDIARG_PRESENTMULTIPLANEOVERLAY"
+ - "D3DDDIARG_PRESENTMULTIPLANEOVERLAY"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - D3dumddi.h
 api_name:
 - D3DDDIARG_PRESENTMULTIPLANEOVERLAY
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_PRESENTMULTIPLANEOVERLAY
 ---

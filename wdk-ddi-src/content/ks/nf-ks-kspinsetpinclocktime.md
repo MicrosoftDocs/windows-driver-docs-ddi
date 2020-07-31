@@ -10,6 +10,7 @@ keywords: ["KsPinSetPinClockTime function"]
 ms.keywords: KsPinSetPinClockTime, KsPinSetPinClockTime function [Streaming Media Devices], avfunc_8f1c1b04-c5eb-4aa1-9cdf-84b86da388e9.xml, ks/KsPinSetPinClockTime, stream.kspinsetpinclocktime
 f1_keywords:
  - "ks/KsPinSetPinClockTime"
+ - "KsPinSetPinClockTime"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsPinSetPinClockTime
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

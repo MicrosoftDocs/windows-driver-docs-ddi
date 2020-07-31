@@ -10,6 +10,7 @@ keywords: ["SerCxGetActivity function"]
 ms.keywords: 1/SerCxGetActivity, SerCxGetActivity, SerCxGetActivity method [Serial Ports], serports.sercxgetactivity
 f1_keywords:
  - "sercx/SerCxGetActivity"
+ - "SerCxGetActivity"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - 1.0\Sercx.h
 api_name:
 - SerCxGetActivity
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

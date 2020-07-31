@@ -10,6 +10,7 @@ keywords: ["_DXGK_TIMED_OPERATION structure"]
 ms.keywords: "*PDXGK_TIMED_OPERATION, DXGK_TIMED_OPERATION, DXGK_TIMED_OPERATION structure [Display Devices], DmStructs_1d58055e-2e81-4a42-b596-390752f0db84.xml, PDXGK_TIMED_OPERATION, PDXGK_TIMED_OPERATION structure pointer [Display Devices], _DXGK_TIMED_OPERATION, display.dxgk_timed_operation, dispmprt/DXGK_TIMED_OPERATION, dispmprt/PDXGK_TIMED_OPERATION"
 f1_keywords:
  - "dispmprt/DXGK_TIMED_OPERATION"
+ - "DXGK_TIMED_OPERATION"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dispmprt.h
 api_name:
 - DXGK_TIMED_OPERATION
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGK_TIMED_OPERATION, *PDXGK_TIMED_OPERATION
 ---

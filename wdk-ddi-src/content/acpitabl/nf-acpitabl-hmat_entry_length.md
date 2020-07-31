@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["HMAT_ENTRY_LENGTH macro"]
 f1_keywords:
  - "acpitabl/HMAT_ENTRY_LENGTH"
+ - "HMAT_ENTRY_LENGTH"
 ms.keywords: HMAT_ENTRY_LENGTH
 req.header: acpitabl.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - acpitabl.h
 api_name: 
 - HMAT_ENTRY_LENGTH
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

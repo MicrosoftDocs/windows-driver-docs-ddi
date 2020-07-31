@@ -10,6 +10,7 @@ keywords: ["IPrinterExtensionEventArgs::get_SourceApplication"]
 ms.keywords: IPrinterExtensionEventArgs interface [Print Devices],SourceApplication property, IPrinterExtensionEventArgs.SourceApplication, IPrinterExtensionEventArgs.get_SourceApplication, IPrinterExtensionEventArgs::SourceApplication, IPrinterExtensionEventArgs::get_SourceApplication, SourceApplication property [Print Devices], SourceApplication property [Print Devices],IPrinterExtensionEventArgs interface, get_SourceApplication, print.iprinterextensioneventargs_sourceapplication, printerextension/IPrinterExtensionEventArgs::SourceApplication, printerextension/IPrinterExtensionEventArgs::get_SourceApplication
 f1_keywords:
  - "printerextension/IPrinterExtensionEventArgs.SourceApplication"
+ - "IPrinterExtensionEventArgs.SourceApplication"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IPrinterExtensionEventArgs.SourceApplication
 - IPrinterExtensionEventArgs.get_SourceApplication
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

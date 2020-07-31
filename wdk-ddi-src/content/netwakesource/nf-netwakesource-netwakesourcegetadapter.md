@@ -10,6 +10,7 @@ ms.date: 10/07/2019
 keywords: ["NetWakeSourceGetAdapter function"]
 f1_keywords:
  - "netwakesource/NetWakeSourceGetAdapter"
+ - "NetWakeSourceGetAdapter"
 ms.keywords: NetWakeSourceGetAdapter
 req.header: netwakesource.h
 req.include-header:

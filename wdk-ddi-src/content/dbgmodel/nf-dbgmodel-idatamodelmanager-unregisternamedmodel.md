@@ -7,6 +7,7 @@ ms.date: 07/19/2018
 keywords: ["IDataModelManager::UnregisterNamedModel"]
 f1_keywords:
  - "dbgmodel/IDataModelManager.UnregisterNamedModel"
+ - "IDataModelManager.UnregisterNamedModel"
 ms.keywords: IDataModelManager::UnregisterNamedModel, UnregisterNamedModel, IDataModelManager.UnregisterNamedModel, IDataModelManager::UnregisterNamedModel, IDataModelManager.UnregisterNamedModel
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDataModelManager.UnregisterNamedModel
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

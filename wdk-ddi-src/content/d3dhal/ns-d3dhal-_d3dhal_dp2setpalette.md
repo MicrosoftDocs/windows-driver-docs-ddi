@@ -10,6 +10,7 @@ keywords: ["_D3DHAL_DP2SETPALETTE structure"]
 ms.keywords: "*LPD3DHAL_DP2SETPALETTE, D3DHAL_DP2SETPALETTE, D3DHAL_DP2SETPALETTE structure [Display Devices], LPD3DHAL_DP2SETPALETTE, LPD3DHAL_DP2SETPALETTE structure pointer [Display Devices], _D3DHAL_DP2SETPALETTE, d3dhal/D3DHAL_DP2SETPALETTE, d3dhal/LPD3DHAL_DP2SETPALETTE, d3dstrct_da8023c8-d0a5-4793-a433-6f8860f0f11f.xml, display.d3dhal_dp2setpalette"
 f1_keywords:
  - "d3dhal/D3DHAL_DP2SETPALETTE"
+ - "D3DHAL_DP2SETPALETTE"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dhal.h
 api_name:
 - D3DHAL_DP2SETPALETTE
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DHAL_DP2SETPALETTE
 ---

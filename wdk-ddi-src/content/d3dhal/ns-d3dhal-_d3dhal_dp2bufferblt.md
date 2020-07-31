@@ -10,6 +10,7 @@ keywords: ["_D3DHAL_DP2BUFFERBLT structure"]
 ms.keywords: "*LPD3DHAL_DP2BUFFERBLT, D3DHAL_DP2BUFFERBLT, D3DHAL_DP2BUFFERBLT structure [Display Devices], LPD3DHAL_DP2BUFFERBLT, LPD3DHAL_DP2BUFFERBLT structure pointer [Display Devices], _D3DHAL_DP2BUFFERBLT, d3dhal/D3DHAL_DP2BUFFERBLT, d3dhal/LPD3DHAL_DP2BUFFERBLT, d3dstrct_a8101d2a-8883-434e-8577-90e18bc3f2e0.xml, display.d3dhal_dp2bufferblt"
 f1_keywords:
  - "d3dhal/D3DHAL_DP2BUFFERBLT"
+ - "D3DHAL_DP2BUFFERBLT"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dhal.h
 api_name:
 - D3DHAL_DP2BUFFERBLT
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DHAL_DP2BUFFERBLT
 ---

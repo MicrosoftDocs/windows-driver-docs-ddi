@@ -8,6 +8,7 @@ ms.date: 03/07/2018
 keywords: ["_NET_ADAPTER_RECEIVE_SCALING_ENCAPSULATION_TYPE enumeration"]
 f1_keywords:
  - "netreceivescaling/_NET_ADAPTER_RECEIVE_SCALING_ENCAPSULATION_TYPE"
+ - "_NET_ADAPTER_RECEIVE_SCALING_ENCAPSULATION_TYPE"
 ms.keywords: _NET_ADAPTER_RECEIVE_SCALING_ENCAPSULATION_TYPE, NET_ADAPTER_RECEIVE_SCALING_ENCAPSULATION_TYPE, 
 req.header: netreceivescaling.h
 req.include-header:
@@ -27,8 +28,6 @@ api_location:
 - netreceivescaling.h
 api_name: 
 - _NET_ADAPTER_RECEIVE_SCALING_ENCAPSULATION_TYPE
-product:
-- Windows
 targetos: Windows
 ---
 

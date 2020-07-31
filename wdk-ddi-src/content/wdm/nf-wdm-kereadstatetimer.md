@@ -10,6 +10,7 @@ keywords: ["KeReadStateTimer function"]
 ms.keywords: KeReadStateTimer, KeReadStateTimer routine [Kernel-Mode Driver Architecture], k105_8e101501-f419-40ff-91cd-a8aee0ffcbc8.xml, kernel.kereadstatetimer, wdm/KeReadStateTimer
 f1_keywords:
  - "wdm/KeReadStateTimer"
+ - "KeReadStateTimer"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeReadStateTimer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

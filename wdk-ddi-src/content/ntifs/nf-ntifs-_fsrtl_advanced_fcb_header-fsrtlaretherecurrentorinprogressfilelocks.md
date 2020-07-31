@@ -10,6 +10,7 @@ keywords: ["FsRtlAreThereCurrentOrInProgressFileLocks function"]
 ms.keywords: FsRtlAreThereCurrentOrInProgressFileLocks, FsRtlAreThereCurrentOrInProgressFileLocks routine [Installable File System Drivers], fsrtlref_66517730-628e-4aa4-b3c0-b5c0e0fd4d7d.xml, ifsk.fsrtlaretherecurrentorinprogressfilelocks, ntifs/FsRtlAreThereCurrentOrInProgressFileLocks
 f1_keywords:
  - "ntifs/FsRtlAreThereCurrentOrInProgressFileLocks"
+ - "FsRtlAreThereCurrentOrInProgressFileLocks"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlAreThereCurrentOrInProgressFileLocks
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

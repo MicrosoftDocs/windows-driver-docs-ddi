@@ -10,6 +10,7 @@ keywords: ["_ENUM_PDO_RESULTS structure"]
 ms.keywords: "*PENUM_PDO_RESULTS, ENUM_PDO_RESULTS, ENUM_PDO_RESULTS structure [Storage Devices], PENUM_PDO_RESULTS, PENUM_PDO_RESULTS structure pointer [Storage Devices], _ENUM_PDO_RESULTS, ehstorioctl/ENUM_PDO_RESULTS, ehstorioctl/PENUM_PDO_RESULTS, storage.enum_pdo_results, structs-silo_45277a1e-1ca6-4bce-a952-b26860796f51.xml"
 f1_keywords:
  - "ehstorioctl/ENUM_PDO_RESULTS"
+ - "ENUM_PDO_RESULTS"
 req.header: ehstorioctl.h
 req.include-header: EhStorIoctl.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - EhStorIoctl.h
 api_name:
 - ENUM_PDO_RESULTS
-product:
-- Windows
 targetos: Windows
 req.typenames: ENUM_PDO_RESULTS, *PENUM_PDO_RESULTS
 ---

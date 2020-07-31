@@ -10,6 +10,7 @@ keywords: ["RtlGetEnabledExtendedFeatures function"]
 ms.keywords: RtlGetEnabledExtendedFeatures, RtlGetEnabledExtendedFeatures routine [Kernel-Mode Driver Architecture], XSTATE_MASK_GSSE, XSTATE_MASK_LEGACY, XSTATE_MASK_LEGACY_FLOATING_POINT, XSTATE_MASK_LEGACY_SSE, k109_94843b2d-9abe-4b82-a781-dd2863ddc9c1.xml, kernel.rtlgetenabledextendedfeatures, wdm/RtlGetEnabledExtendedFeatures
 f1_keywords:
  - "ntddk/RtlGetEnabledExtendedFeatures"
+ - "RtlGetEnabledExtendedFeatures"
 req.header: ntddk.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -40,8 +41,6 @@ api_location:
 - API-MS-Win-Core-XState-L1-1-2.dll
 api_name:
 - RtlGetEnabledExtendedFeatures
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

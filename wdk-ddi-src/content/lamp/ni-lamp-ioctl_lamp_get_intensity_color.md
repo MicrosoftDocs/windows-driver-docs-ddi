@@ -10,6 +10,7 @@ keywords: ["IOCTL_LAMP_GET_INTENSITY_COLOR IOCTL"]
 ms.keywords: IOCTL_LAMP_GET_INTENSITY_COLOR, IOCTL_LAMP_GET_INTENSITY_COLOR control, IOCTL_LAMP_GET_INTENSITY_COLOR control code [Streaming Media Devices], lamp/IOCTL_LAMP_GET_INTENSITY_COLOR, stream.ioctl_lamp_get_intensity_color
 f1_keywords:
  - "lamp/IOCTL_LAMP_GET_INTENSITY_COLOR"
+ - "IOCTL_LAMP_GET_INTENSITY_COLOR"
 req.header: lamp.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - lamp.h
 api_name:
 - IOCTL_LAMP_GET_INTENSITY_COLOR
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

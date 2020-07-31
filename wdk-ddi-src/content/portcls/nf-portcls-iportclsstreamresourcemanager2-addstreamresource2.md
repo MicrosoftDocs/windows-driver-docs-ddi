@@ -10,6 +10,7 @@ keywords: ["IPortClsStreamResourceManager2::AddStreamResource2"]
 ms.keywords: AddStreamResource2, AddStreamResource2 method [Audio Devices], AddStreamResource2 method [Audio Devices],IPortClsStreamResourceManager2 interface, IPortClsStreamResourceManager2 interface [Audio Devices],AddStreamResource2 method, IPortClsStreamResourceManager2.AddStreamResource2, IPortClsStreamResourceManager2::AddStreamResource2, audio.iportclsstreamresourcemanager2_addstreamresource2, portcls/IPortClsStreamResourceManager2::AddStreamResource2
 f1_keywords:
  - "portcls/IPortClsStreamResourceManager2.AddStreamResource2"
+ - "IPortClsStreamResourceManager2.AddStreamResource2"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Portcls.dll
 api_name:
 - IPortClsStreamResourceManager2.AddStreamResource2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

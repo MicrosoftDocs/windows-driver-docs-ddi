@@ -9,6 +9,7 @@ keywords: ["PFND3D11_1DDI_GETVIDEODECODERCONFIGCOUNT callback function"]
 ms.keywords: PFND3D11_1DDI_GETVIDEODECODERCONFIGCOUNT, PFND3D11_1DDI_GETVIDEODECODERCONFIGCOUNT callback, d3d10umddi/pfnGetVideoDecoderConfigCount, display.getvideodecoderconfigcount, pfnGetVideoDecoderConfigCount, pfnGetVideoDecoderConfigCount callback function [Display Devices]
 f1_keywords:
  - "d3d10umddi/pfnGetVideoDecoderConfigCount"
+ - "pfnGetVideoDecoderConfigCount"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -35,8 +36,6 @@ api_location:
 - D3d10umddi.h
 api_name:
 - pfnGetVideoDecoderConfigCount
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

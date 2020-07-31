@@ -10,6 +10,7 @@ keywords: ["ClfsReadPreviousRestartArea function"]
 ms.keywords: ClfsReadPreviousRestartArea, ClfsReadPreviousRestartArea routine [Kernel-Mode Driver Architecture], Clfs_884a8a2f-adbf-415b-968e-2f82c3f5d7fa.xml, kernel.clfsreadpreviousrestartarea, wdm/ClfsReadPreviousRestartArea
 f1_keywords:
  - "wdm/ClfsReadPreviousRestartArea"
+ - "ClfsReadPreviousRestartArea"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
 - ClfsReadPreviousRestartArea
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

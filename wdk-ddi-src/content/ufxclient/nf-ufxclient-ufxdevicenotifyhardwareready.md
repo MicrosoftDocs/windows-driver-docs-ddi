@@ -10,6 +10,7 @@ keywords: ["UfxDeviceNotifyHardwareReady function"]
 ms.keywords: UfxDeviceNotifyHardwareReady, UfxDeviceNotifyHardwareReady method [Buses], buses.ufxdevicenotifyhardwareready, ufxclient/UfxDeviceNotifyHardwareReady
 f1_keywords:
  - "ufxclient/UfxDeviceNotifyHardwareReady"
+ - "UfxDeviceNotifyHardwareReady"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ufxclient.h
 api_name:
 - UfxDeviceNotifyHardwareReady
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

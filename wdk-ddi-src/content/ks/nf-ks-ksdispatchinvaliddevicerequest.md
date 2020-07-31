@@ -10,6 +10,7 @@ keywords: ["KsDispatchInvalidDeviceRequest function"]
 ms.keywords: KsDispatchInvalidDeviceRequest, KsDispatchInvalidDeviceRequest function [Streaming Media Devices], ks/KsDispatchInvalidDeviceRequest, ksfunc_9be97c86-7505-4192-8a61-8280fca7ba0c.xml, stream.ksdispatchinvaliddevicerequest
 f1_keywords:
  - "ks/KsDispatchInvalidDeviceRequest"
+ - "KsDispatchInvalidDeviceRequest"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsDispatchInvalidDeviceRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

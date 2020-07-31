@@ -10,6 +10,7 @@ keywords: ["FwpmCalloutDeleteById0 function"]
 ms.keywords: FwpmCalloutDeleteById0, FwpmCalloutDeleteById0 function [Network Drivers Starting with Windows Vista], fwpmk/FwpmCalloutDeleteById0, netvista.fwpmcalloutdeletebyid0, wfp_ref_2_funct_2_fwpm_466376ac-f7a1-417e-9de8-9c3a7ff31404.xml
 f1_keywords:
  - "fwpmk/FwpmCalloutDeleteById0"
+ - "FwpmCalloutDeleteById0"
 req.header: fwpmk.h
 req.include-header: Fwpmk.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - fwpkclnt.dll
 api_name:
 - FwpmCalloutDeleteById0
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

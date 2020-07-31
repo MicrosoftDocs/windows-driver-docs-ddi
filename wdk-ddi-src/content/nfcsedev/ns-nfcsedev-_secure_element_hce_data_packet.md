@@ -10,6 +10,7 @@ keywords: ["_SECURE_ELEMENT_HCE_DATA_PACKET structure"]
 ms.keywords: "*PSECURE_ELEMENT_HCE_DATA_PACKET, PSECURE_ELEMENT_HCE_DATA_PACKET, PSECURE_ELEMENT_HCE_DATA_PACKET structure pointer [Near-Field Proximity Drivers], SECURE_ELEMENT_HCE_DATA_PACKET, SECURE_ELEMENT_HCE_DATA_PACKET structure [Near-Field Proximity Drivers], _SECURE_ELEMENT_HCE_DATA_PACKET, nfcsedev/PSECURE_ELEMENT_HCE_DATA_PACKET, nfcsedev/_SECURE_ELEMENT_HCE_DATA_PACKET, nfpdrivers._secure_element_hce_data_packet"
 f1_keywords:
  - "nfcsedev/SECURE_ELEMENT_HCE_DATA_PACKET"
+ - "SECURE_ELEMENT_HCE_DATA_PACKET"
 req.header: nfcsedev.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - nfcsedev.h
 api_name:
 - SECURE_ELEMENT_HCE_DATA_PACKET
-product:
-- Windows
 targetos: Windows
 req.typenames: SECURE_ELEMENT_HCE_DATA_PACKET, *PSECURE_ELEMENT_HCE_DATA_PACKET
 ---

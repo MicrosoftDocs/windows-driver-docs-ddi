@@ -10,6 +10,7 @@ keywords: ["PosCxClose function"]
 ms.keywords: PosCxClose, PosCxClose function, pos.poscxclose, poscx/PosCxClose
 f1_keywords:
  - "poscx/PosCxClose"
+ - "PosCxClose"
 req.header: poscx.h
 req.include-header: Poscx.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - poscx.h
 api_name:
 - PosCxClose
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 req.product: Windows 10 or later.

@@ -10,6 +10,7 @@ keywords: ["IoRegisterFsRegistrationChangeEx function"]
 ms.keywords: IoRegisterFsRegistrationChangeEx, IoRegisterFsRegistrationChangeEx routine [Installable File System Drivers], ifsk.ioregisterfsregistrationchangeex, ioref_330f3a93-4d81-4a6b-9733-521558d255a6.xml, ntifs/IoRegisterFsRegistrationChangeEx
 f1_keywords:
  - "ntifs/IoRegisterFsRegistrationChangeEx"
+ - "IoRegisterFsRegistrationChangeEx"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - IoRegisterFsRegistrationChangeEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

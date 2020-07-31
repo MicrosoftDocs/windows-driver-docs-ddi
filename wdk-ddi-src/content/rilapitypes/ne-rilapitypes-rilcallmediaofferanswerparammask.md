@@ -10,6 +10,7 @@ keywords: ["RILCALLMEDIAOFFERANSWERPARAMMASK enumeration"]
 ms.keywords: RILCALLMEDIAOFFERANSWERPARAMMASK, RILCALLMEDIAOFFERANSWERPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CMOA_ACTION, RIL_PARAM_CMOA_ALL, RIL_PARAM_CMOA_CHANGE, RIL_PARAM_CMOA_NEW_STATE, RIL_PARAM_CMOA_OLD_STATE, netvista.rilcallmediaofferanswerparammask, ntddrilapitypes/RILCALLMEDIAOFFERANSWERPARAMMASK, ntddrilapitypes/RIL_PARAM_CMOA_ACTION, ntddrilapitypes/RIL_PARAM_CMOA_ALL, ntddrilapitypes/RIL_PARAM_CMOA_CHANGE, ntddrilapitypes/RIL_PARAM_CMOA_NEW_STATE, ntddrilapitypes/RIL_PARAM_CMOA_OLD_STATE
 f1_keywords:
  - "rilapitypes/RILCALLMEDIAOFFERANSWERPARAMMASK"
+ - "RILCALLMEDIAOFFERANSWERPARAMMASK"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILCALLMEDIAOFFERANSWERPARAMMASK
-product:
-- Windows
 targetos: Windows
 req.typenames: RILCALLMEDIAOFFERANSWERPARAMMASK
 ---

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["TAG function"]
 f1_keywords:
  - "bdatypes/TAG"
+ - "TAG"
 ms.keywords: TAG
 req.header: bdatypes.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - bdatypes.h
 api_name: 
 - TAG
-product:
-- Windows
 targetos: Windows
 
 

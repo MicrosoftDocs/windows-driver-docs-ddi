@@ -10,6 +10,7 @@ keywords: ["IBidiSpl2::BindDevice"]
 ms.keywords: BIDI_ACCESS_ADMINISTRATOR, BIDI_ACCESS_USER, BindDevice, BindDevice method [Print Devices], BindDevice method [Print Devices],IBidiSpl2 interface, IBidiSpl2 interface [Print Devices],BindDevice method, IBidiSpl2.BindDevice, IBidiSpl2::BindDevice, _win32_IBidiSpl2_BindDevice, bidispl/IBidiSpl2::BindDevice, gdi.ibidispl2_ibidispl2__binddevice, print.ibidispl2_ibidispl2__binddevice
 f1_keywords:
  - "bidispl/IBidiSpl2.BindDevice"
+ - "IBidiSpl2.BindDevice"
 req.header: bidispl.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - bidispl.dll
 api_name:
 - IBidiSpl2.BindDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

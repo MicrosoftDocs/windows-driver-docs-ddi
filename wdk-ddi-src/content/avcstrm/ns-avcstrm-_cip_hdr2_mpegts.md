@@ -10,6 +10,7 @@ keywords: ["_CIP_HDR2_MPEGTS structure"]
 ms.keywords: "*PCIP_HDR2_MPEGTS, CIP_HDR2_MPEGTS, CIP_HDR2_MPEGTS structure [Streaming Media Devices], PCIP_HDR2_MPEGTS, PCIP_HDR2_MPEGTS structure pointer [Streaming Media Devices], _CIP_HDR2_MPEGTS, avcsref_80577192-cbb5-401a-a840-5970841111ab.xml, avcstrm/CIP_HDR2_MPEGTS, avcstrm/PCIP_HDR2_MPEGTS, stream.cip_hdr2_mpegts"
 f1_keywords:
  - "avcstrm/CIP_HDR2_MPEGTS"
+ - "CIP_HDR2_MPEGTS"
 req.header: avcstrm.h
 req.include-header: Avcstrm.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - avcstrm.h
 api_name:
 - CIP_HDR2_MPEGTS
-product:
-- Windows
 targetos: Windows
 req.typenames: CIP_HDR2_MPEGTS, *PCIP_HDR2_MPEGTS
 ---

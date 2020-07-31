@@ -10,6 +10,7 @@ keywords: ["WDF_POWER_FRAMEWORK_SETTINGS_INIT function"]
 ms.keywords: WDF_POWER_FRAMEWORK_SETTINGS_INIT, WDF_POWER_FRAMEWORK_SETTINGS_INIT function, kmdf.wdf_power_framework_settings_init, wdf.wdf_power_framework_settings_init, wdfdevice/WDF_POWER_FRAMEWORK_SETTINGS_INIT
 f1_keywords:
  - "wdfdevice/WDF_POWER_FRAMEWORK_SETTINGS_INIT"
+ - "WDF_POWER_FRAMEWORK_SETTINGS_INIT"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - wdfdevice.h
 api_name:
 - WDF_POWER_FRAMEWORK_SETTINGS_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

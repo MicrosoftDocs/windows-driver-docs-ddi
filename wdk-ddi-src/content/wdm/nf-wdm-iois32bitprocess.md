@@ -10,6 +10,7 @@ keywords: ["IoIs32bitProcess function"]
 ms.keywords: IoIs32bitProcess, IoIs32bitProcess routine [Kernel-Mode Driver Architecture], k104_8380b2cb-114a-41bc-a32e-8fb60b18c133.xml, kernel.iois32bitprocess, wdm/IoIs32bitProcess
 f1_keywords:
  - "wdm/IoIs32bitProcess"
+ - "IoIs32bitProcess"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoIs32bitProcess
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

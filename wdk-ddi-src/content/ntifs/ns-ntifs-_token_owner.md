@@ -10,6 +10,7 @@ keywords: ["_TOKEN_OWNER structure"]
 ms.keywords: "*PTOKEN_OWNER, PTOKEN_OWNER, PTOKEN_OWNER structure pointer [Installable File System Drivers], TOKEN_OWNER, TOKEN_OWNER structure [Installable File System Drivers], _TOKEN_OWNER, ifsk.token_owner, ntifs/PTOKEN_OWNER, ntifs/TOKEN_OWNER, securitystructures_1be454bb-1b55-4fe5-bdbb-85bfcf9dc9c8.xml"
 f1_keywords:
  - "ntifs/TOKEN_OWNER"
+ - "TOKEN_OWNER"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - TOKEN_OWNER
-product:
-- Windows
 targetos: Windows
 req.typenames: TOKEN_OWNER, *PTOKEN_OWNER
 ---

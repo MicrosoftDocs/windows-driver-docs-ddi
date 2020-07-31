@@ -10,6 +10,7 @@ keywords: ["IStiDeviceControl::RawDeviceControl"]
 ms.keywords: IStiDeviceControl interface [Imaging Devices],RawDeviceControl method, IStiDeviceControl.RawDeviceControl, IStiDeviceControl::RawDeviceControl, RawDeviceControl, RawDeviceControl method [Imaging Devices], RawDeviceControl method [Imaging Devices],IStiDeviceControl interface, image.istidevicecontrol_rawdevicecontrol, stiusd/IStiDeviceControl::RawDeviceControl
 f1_keywords:
  - "stiusd/IStiDeviceControl.RawDeviceControl"
+ - "IStiDeviceControl.RawDeviceControl"
 req.header: stiusd.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Stiusd.h
 api_name:
 - IStiDeviceControl.RawDeviceControl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

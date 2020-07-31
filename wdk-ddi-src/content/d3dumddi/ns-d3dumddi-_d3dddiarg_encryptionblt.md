@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_ENCRYPTIONBLT structure"]
 ms.keywords: D3DDDIARG_ENCRYPTIONBLT, D3DDDIARG_ENCRYPTIONBLT structure [Display Devices], UMDisplayDriver_param_Structs_b76b39b2-87b0-453d-b6c5-e59b38249684.xml, _D3DDDIARG_ENCRYPTIONBLT, d3dumddi/D3DDDIARG_ENCRYPTIONBLT, display.d3dddiarg_encryptionblt
 f1_keywords:
  - "d3dumddi/D3DDDIARG_ENCRYPTIONBLT"
+ - "D3DDDIARG_ENCRYPTIONBLT"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDIARG_ENCRYPTIONBLT
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_ENCRYPTIONBLT
 ---

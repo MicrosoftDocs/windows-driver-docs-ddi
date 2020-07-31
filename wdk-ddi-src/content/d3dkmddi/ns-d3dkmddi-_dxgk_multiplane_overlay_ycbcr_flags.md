@@ -9,6 +9,7 @@ keywords: ["_DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS structure"]
 ms.keywords: DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS, DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS, display.dxgk_multiplane_overlay_ycbcr_flags
 f1_keywords:
  - "d3dkmddi/DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS"
+ - "DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - D3dkmddi.h
 api_name:
 - DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS

@@ -10,6 +10,7 @@ keywords: ["HW_TRACING_ENABLED callback function"]
 ms.keywords: HW_TRACING_ENABLED, HwStorTracingEnabled, HwStorTracingEnabled routine [Storage Devices], storage.hwstortracingenabled, storport/HwStorTracingEnabled
 f1_keywords:
  - "storport/HwStorTracingEnabled"
+ - "HwStorTracingEnabled"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Storport.h
 api_name:
 - HwStorTracingEnabled
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

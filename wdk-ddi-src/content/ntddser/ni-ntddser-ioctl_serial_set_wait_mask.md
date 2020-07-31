@@ -10,6 +10,7 @@ keywords: ["IOCTL_SERIAL_SET_WAIT_MASK IOCTL"]
 ms.keywords: IOCTL_SERIAL_SET_WAIT_MASK, IOCTL_SERIAL_SET_WAIT_MASK control, IOCTL_SERIAL_SET_WAIT_MASK control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_WAIT_MASK, serports.ioctl_serial_set_wait_mask, serref_8aa3f08e-f48b-44b2-91aa-849890097cef.xml
 f1_keywords:
  - "ntddser/IOCTL_SERIAL_SET_WAIT_MASK"
+ - "IOCTL_SERIAL_SET_WAIT_MASK"
 req.header: ntddser.h
 req.include-header: Ntddser.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddser.h
 api_name:
 - IOCTL_SERIAL_SET_WAIT_MASK
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

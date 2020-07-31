@@ -10,6 +10,7 @@ keywords: ["_D3DDDI_OPENRESOURCEFLAGS structure"]
 ms.keywords: D3DDDI_OPENRESOURCEFLAGS, D3DDDI_OPENRESOURCEFLAGS structure [Display Devices], D3D_other_Structs_918a41c9-09de-4916-a0d6-fd69f7c431c2.xml, _D3DDDI_OPENRESOURCEFLAGS, d3dumddi/D3DDDI_OPENRESOURCEFLAGS, display.d3dddi_openresourceflags
 f1_keywords:
  - "d3dumddi/D3DDDI_OPENRESOURCEFLAGS"
+ - "D3DDDI_OPENRESOURCEFLAGS"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDI_OPENRESOURCEFLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDI_OPENRESOURCEFLAGS
 ---

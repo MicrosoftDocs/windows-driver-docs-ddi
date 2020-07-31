@@ -7,6 +7,7 @@ ms.date: 07/20/2018
 keywords: ["IModelObject::EnumerateKeys"]
 f1_keywords:
  - "dbgmodel/IModelObject.EnumerateKeys"
+ - "IModelObject.EnumerateKeys"
 ms.keywords: IModelObject::EnumerateKeys, EnumerateKeys, IModelObject.EnumerateKeys, IModelObject::EnumerateKeys, IModelObject.EnumerateKeys
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IModelObject.EnumerateKeys
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

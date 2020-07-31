@@ -10,6 +10,7 @@ ms.date: 11/06/2019
 keywords: ["NET_POWER_OFFLOAD_LIST_INIT function"]
 f1_keywords:
  - "netpoweroffloadlist/NET_POWER_OFFLOAD_NS_PARAMETERS"
+ - "NET_POWER_OFFLOAD_NS_PARAMETERS"
 ms.keywords: NET_POWER_OFFLOAD_LIST_INIT
 req.header: netpoweroffloadlist.h
 req.include-header:

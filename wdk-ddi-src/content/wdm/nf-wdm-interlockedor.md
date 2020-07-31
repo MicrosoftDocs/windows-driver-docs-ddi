@@ -10,6 +10,7 @@ keywords: ["InterlockedOr function"]
 ms.keywords: InterlockedOr, InterlockedOr routine [Kernel-Mode Driver Architecture], k102_05d8ca48-ab6f-46ae-b026-cb2aaf6f37aa.xml, kernel.interlockedor, wdm/InterlockedOr
 f1_keywords:
  - "wdm/InterlockedOr"
+ - "InterlockedOr"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Miniport.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - InterlockedOr
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["InitializeMonitorEx function"]
 ms.keywords: InitializeMonitorEx, InitializeMonitorEx function [Print Devices], print.initializemonitorex, spoolfnc_ffa71296-8b2a-48b3-a2c7-9765b9d7aed1.xml, winsplp/InitializeMonitorEx
 f1_keywords:
  - "winsplp/InitializeMonitorEx"
+ - "InitializeMonitorEx"
 req.header: winsplp.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - winsplp.h
 api_name:
 - InitializeMonitorEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

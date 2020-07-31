@@ -10,6 +10,7 @@ keywords: ["ISensorDriver::OnClientSubscribeToEvents"]
 ms.keywords: ISensorDriver interface [Sensor Devices],OnClientSubscribeToEvents method, ISensorDriver.OnClientSubscribeToEvents, ISensorDriver::OnClientSubscribeToEvents, OnClientSubscribeToEvents, OnClientSubscribeToEvents method [Sensor Devices], OnClientSubscribeToEvents method [Sensor Devices],ISensorDriver interface, sensors.isensordriver_onclientsubscribetoevents, sensorsclassextension/ISensorDriver::OnClientSubscribeToEvents
 f1_keywords:
  - "sensorsclassextension/OnClientSubscribeToEvents"
+ - "OnClientSubscribeToEvents"
 req.header: sensorsclassextension.h
 req.include-header: 
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 - SensorsClassExtension.dll
 api_name:
 - OnClientSubscribeToEvents
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

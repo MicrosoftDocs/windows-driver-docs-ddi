@@ -10,6 +10,7 @@ keywords: ["DXGKDDI_RESET_DEVICE callback function"]
 ms.keywords: DXGKDDI_RESET_DEVICE, DXGKDDI_RESET_DEVICE callback, DmFunctions_70e9fe99-65be-47a5-bb9a-fac4e10d3ae9.xml, DxgkDdiResetDevice, DxgkDdiResetDevice callback function [Display Devices], display.dxgkddiresetdevice, dispmprt/DxgkDdiResetDevice
 f1_keywords:
  - "dispmprt/DxgkDdiResetDevice"
+ - "DxgkDdiResetDevice"
 req.header: dispmprt.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dispmprt.h
 api_name:
 - DxgkDdiResetDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

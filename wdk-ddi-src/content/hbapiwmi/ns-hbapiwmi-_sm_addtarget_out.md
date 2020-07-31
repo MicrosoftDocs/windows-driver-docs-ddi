@@ -10,6 +10,7 @@ keywords: ["_SM_AddTarget_OUT structure"]
 ms.keywords: "*PSM_AddTarget_OUT, PSM_AddTarget_OUT, PSM_AddTarget_OUT structure pointer [Storage Devices], SM_AddTarget_OUT, SM_AddTarget_OUT structure [Storage Devices], _SM_AddTarget_OUT, hbapiwmi/PSM_AddTarget_OUT, hbapiwmi/SM_AddTarget_OUT, storage.sm_addtarget_out, structs-Fibre_8a6bbd22-c27f-4b75-a11a-93fafd51d2a9.xml"
 f1_keywords:
  - "hbapiwmi/SM_AddTarget_OUT"
+ - "SM_AddTarget_OUT"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - SM_AddTarget_OUT
-product:
-- Windows
 targetos: Windows
 req.typenames: SM_AddTarget_OUT, *PSM_AddTarget_OUT
 ---

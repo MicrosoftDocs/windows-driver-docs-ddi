@@ -10,6 +10,7 @@ keywords: ["PFNUSBCAMD_SetIsoPipeState callback function"]
 ms.keywords: PFNUSBCAMD_SetIsoPipeState, USBCAMD_SetIsoPipeState, USBCAMD_SetIsoPipeState routine [Streaming Media Devices], stream.usbcamd_setisopipestate, usbcamdi/USBCAMD_SetIsoPipeState, usbcmdpr_6643c631-6892-4955-8a1f-ae152fd155e4.xml
 f1_keywords:
  - "usbcamdi/USBCAMD_SetIsoPipeState"
+ - "USBCAMD_SetIsoPipeState"
 req.header: usbcamdi.h
 req.include-header: Usbcamdi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - usbcamdi.h
 api_name:
 - USBCAMD_SetIsoPipeState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

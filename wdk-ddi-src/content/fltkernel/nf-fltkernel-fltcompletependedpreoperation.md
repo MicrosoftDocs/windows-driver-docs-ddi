@@ -10,6 +10,7 @@ keywords: ["FltCompletePendedPreOperation function"]
 ms.keywords: FLT_PREOP_COMPLETE, FLT_PREOP_SUCCESS_NO_CALLBACK, FLT_PREOP_SUCCESS_WITH_CALLBACK, FltApiRef_a_to_d_170adc13-ea3d-4346-99b2-85d5c1c464b8.xml, FltCompletePendedPreOperation, FltCompletePendedPreOperation routine [Installable File System Drivers], fltkernel/FltCompletePendedPreOperation, ifsk.fltcompletependedpreoperation
 f1_keywords:
  - "fltkernel/FltCompletePendedPreOperation"
+ - "FltCompletePendedPreOperation"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - FltMgr.dll
 api_name:
 - FltCompletePendedPreOperation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

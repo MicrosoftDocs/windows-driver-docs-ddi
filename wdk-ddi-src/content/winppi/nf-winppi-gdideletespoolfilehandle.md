@@ -10,6 +10,7 @@ keywords: ["GdiDeleteSpoolFileHandle function"]
 ms.keywords: GdiDeleteSpoolFileHandle, GdiDeleteSpoolFileHandle function [Print Devices], gdifnc_76c1c0cf-2a48-44eb-9b48-1d0a5bf4548b.xml, print.gdideletespoolfilehandle, winppi/GdiDeleteSpoolFileHandle
 f1_keywords:
  - "winppi/GdiDeleteSpoolFileHandle"
+ - "GdiDeleteSpoolFileHandle"
 req.header: winppi.h
 req.include-header: Winppi.h
 req.target-type: Universal
@@ -38,8 +39,6 @@ api_location:
 - GDI32Full.dll
 api_name:
 - GdiDeleteSpoolFileHandle
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

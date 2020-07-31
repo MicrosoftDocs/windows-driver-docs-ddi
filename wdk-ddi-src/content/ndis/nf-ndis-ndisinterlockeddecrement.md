@@ -10,6 +10,7 @@ keywords: ["NdisInterlockedDecrement macro"]
 ms.keywords: NdisInterlockedDecrement, NdisInterlockedDecrement macro [Network Drivers Starting with Windows Vista], ndis/NdisInterlockedDecrement, ndis_interlocked_ref_bbf1ad9d-0f18-4746-9fa3-b2b2c4101a41.xml, netvista.ndisinterlockeddecrement
 f1_keywords:
  - "ndis/NdisInterlockedDecrement"
+ - "NdisInterlockedDecrement"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisInterlockedDecrement
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

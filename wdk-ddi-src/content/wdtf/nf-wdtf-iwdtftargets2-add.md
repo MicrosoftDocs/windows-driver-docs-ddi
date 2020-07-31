@@ -10,6 +10,7 @@ keywords: ["IWDTFTargets2::Add"]
 ms.keywords: Add, Add method [Windows Device Testing Framework], Add method [Windows Device Testing Framework],IWDTFTargets2 interface, IWDTFTargets2 interface [Windows Device Testing Framework],Add method, IWDTFTargets2.Add, IWDTFTargets2::Add, Microsoft.WDTF.IWDTFTargets2.Add, Microsoft::WDTF::IWDTFTargets2::Add, dtf.iwdtftargets2_add, wdtf/IWDTFTargets2::Add
 f1_keywords:
  - "wdtf/IWDTFTargets2.Add"
+ - "IWDTFTargets2.Add"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WDTF.Interop.metadata_dll.dll
 api_name:
 - IWDTFTargets2.Add
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

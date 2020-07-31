@@ -10,6 +10,7 @@ keywords: ["RILSMSREADYSTATE enumeration"]
 ms.keywords: RILSMSREADYSTATE, RILSMSREADYSTATE enumeration [Network Drivers Starting with Windows Vista], RIL_SMSREADYSTATE_ALL, RIL_SMSREADY_SERVICEREADY_3GPP2, RIL_SMSREADY_UICCREADY, netvista.rilsmsreadystate, ntddrilapitypes/RILSMSREADYSTATE, ntddrilapitypes/RIL_SMSREADYSTATE_ALL, ntddrilapitypes/RIL_SMSREADY_SERVICEREADY_3GPP2, ntddrilapitypes/RIL_SMSREADY_UICCREADY
 f1_keywords:
  - "ntddrilapitypes/RILSMSREADYSTATE"
+ - "RILSMSREADYSTATE"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILSMSREADYSTATE
-product:
-- Windows
 targetos: Windows
 req.typenames: RILSMSREADYSTATE
 ---

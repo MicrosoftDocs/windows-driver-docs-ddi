@@ -10,6 +10,7 @@ keywords: ["_USB_DEVICE_PORT_PATH structure"]
 ms.keywords: "*PUSB_DEVICE_PORT_PATH, P_USB_DEVICE_PORT_PATH, P_USB_DEVICE_PORT_PATH structure pointer [Buses], USB_DEVICE_PORT_PATH, USB_DEVICE_PORT_PATH structure [Buses], _USB_DEVICE_PORT_PATH, buses._usb_device_port_path, ucxusbdevice/P_USB_DEVICE_PORT_PATH, ucxusbdevice/_USB_DEVICE_PORT_PATH"
 f1_keywords:
  - "ucxusbdevice/USB_DEVICE_PORT_PATH"
+ - "USB_DEVICE_PORT_PATH"
 req.header: ucxusbdevice.h
 req.include-header: Ucxclass.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ucxusbdevice.h
 api_name:
 - USB_DEVICE_PORT_PATH
-product:
-- Windows
 targetos: Windows
 req.typenames: USB_DEVICE_PORT_PATH, *PUSB_DEVICE_PORT_PATH
 ---

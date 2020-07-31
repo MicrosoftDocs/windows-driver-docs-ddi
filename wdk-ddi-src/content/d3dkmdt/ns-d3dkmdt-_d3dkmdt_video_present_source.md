@@ -10,6 +10,7 @@ keywords: ["_D3DKMDT_VIDEO_PRESENT_SOURCE structure"]
 ms.keywords: D3DKMDT_VIDEO_PRESENT_SOURCE, D3DKMDT_VIDEO_PRESENT_SOURCE structure [Display Devices], DmStructs_16a61d68-9479-420e-b936-a1a0506ce8c3.xml, _D3DKMDT_VIDEO_PRESENT_SOURCE, d3dkmdt/D3DKMDT_VIDEO_PRESENT_SOURCE, display.d3dkmdt_video_present_source
 f1_keywords:
  - "d3dkmdt/D3DKMDT_VIDEO_PRESENT_SOURCE"
+ - "D3DKMDT_VIDEO_PRESENT_SOURCE"
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dkmdt.h
 api_name:
 - D3DKMDT_VIDEO_PRESENT_SOURCE
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DKMDT_VIDEO_PRESENT_SOURCE
 ---

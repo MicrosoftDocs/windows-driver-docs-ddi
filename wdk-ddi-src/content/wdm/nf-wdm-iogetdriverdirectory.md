@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["IoGetDriverDirectory function"]
 f1_keywords:
  - "wdm/IoGetDriverDirectory"
+ - "IoGetDriverDirectory"
 ms.keywords: IoGetDriverDirectory
 req.header: wdm.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - NtosKrnl.exe
 api_name: 
 - IoGetDriverDirectory
-product:
-- Windows
 targetos: Windows
 
 ---

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_INLINE_CRYPTO_PROGRAM_KEY_OUT structure"]
 f1_keywords:
  - "treeinlinecryptoservice/_INLINE_CRYPTO_PROGRAM_KEY_OUT"
+ - "_INLINE_CRYPTO_PROGRAM_KEY_OUT"
 ms.keywords: _INLINE_CRYPTO_PROGRAM_KEY_OUT, INLINE_CRYPTO_PROGRAM_KEY_OUT, *PINLINE_CRYPTO_PROGRAM_KEY_OUT, 
 req.header: treeinlinecryptoservice.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - treeinlinecryptoservice.h
 api_name: 
 - _INLINE_CRYPTO_PROGRAM_KEY_OUT
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

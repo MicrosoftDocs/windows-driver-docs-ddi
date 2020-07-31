@@ -10,6 +10,7 @@ keywords: ["_MSiSCSI_HBAInformation structure"]
 ms.keywords: "*PMSiSCSI_HBAInformation, MSiSCSI_HBAInformation, MSiSCSI_HBAInformation structure [Storage Devices], PMSiSCSI_HBAInformation, PMSiSCSI_HBAInformation structure pointer [Storage Devices], _MSiSCSI_HBAInformation, iscsimgt/MSiSCSI_HBAInformation, iscsimgt/PMSiSCSI_HBAInformation, storage.msiscsi_hbainformation, structs-iSCSI_f6de2645-3ba4-444e-97a8-3115eb109a95.xml"
 f1_keywords:
  - "iscsimgt/MSiSCSI_HBAInformation"
+ - "MSiSCSI_HBAInformation"
 req.header: iscsimgt.h
 req.include-header: Iscsimgt.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - iscsimgt.h
 api_name:
 - MSiSCSI_HBAInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: MSiSCSI_HBAInformation, *PMSiSCSI_HBAInformation
 ---

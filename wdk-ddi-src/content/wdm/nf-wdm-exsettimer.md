@@ -10,6 +10,7 @@ keywords: ["ExSetTimer function"]
 ms.keywords: ExSetTimer, ExSetTimer routine [Kernel-Mode Driver Architecture], kernel.exsettimer, wdm/ExSetTimer
 f1_keywords:
  - "wdm/ExSetTimer"
+ - "ExSetTimer"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ntoskrnl.dll
 api_name:
 - ExSetTimer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

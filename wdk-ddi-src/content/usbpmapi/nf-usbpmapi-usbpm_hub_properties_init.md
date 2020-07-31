@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["USBPM_HUB_PROPERTIES_INIT function"]
 f1_keywords:
  - "usbpmapi/USBPM_HUB_PROPERTIES_INIT"
+ - "USBPM_HUB_PROPERTIES_INIT"
 ms.keywords: USBPM_HUB_PROPERTIES_INIT
 tech.root: usbref
 req.header: usbpmapi.h
@@ -34,8 +35,6 @@ api_location:
 - usbpmapi.h
 api_name: 
 - USBPM_HUB_PROPERTIES_INIT
-product:
-- Windows
 targetos: Windows
 
 

@@ -10,6 +10,7 @@ keywords: ["_HFP_BYPASS_CODEC_ID_V1 structure"]
 ms.keywords: "*PHFP_BYPASS_CODEC_ID_V1, HFP_BYPASS_CODEC_ID_V1, HFP_BYPASS_CODEC_ID_V1 structure [Audio Devices], PHFP_BYPASS_CODEC_ID_V1, PHFP_BYPASS_CODEC_ID_V1 structure pointer [Audio Devices], _HFP_BYPASS_CODEC_ID_V1, audio.hfp_bypass_codec_id_v1, bthhfpddi/HFP_BYPASS_CODEC_ID_V1, bthhfpddi/PHFP_BYPASS_CODEC_ID_V1"
 f1_keywords:
  - "bthhfpddi/HFP_BYPASS_CODEC_ID_V1"
+ - "HFP_BYPASS_CODEC_ID_V1"
 req.header: bthhfpddi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Bthhfpddi.h
 api_name:
 - HFP_BYPASS_CODEC_ID_V1
-product:
-- Windows
 targetos: Windows
 req.typenames: HFP_BYPASS_CODEC_ID_V1, *PHFP_BYPASS_CODEC_ID_V1
 ---

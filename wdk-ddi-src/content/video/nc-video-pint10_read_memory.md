@@ -10,6 +10,7 @@ keywords: ["PINT10_READ_MEMORY callback function"]
 ms.keywords: Int10ReadMemory, Int10ReadMemory callback function [Display Devices], PINT10_READ_MEMORY, PINT10_READ_MEMORY callback, VideoPort_Functions_fab5815b-1478-4d19-823f-05fd1de02b0c.xml, display.int10readmemory, video/Int10ReadMemory
 f1_keywords:
  - "video/Int10ReadMemory"
+ - "Int10ReadMemory"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - video.h
 api_name:
 - Int10ReadMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

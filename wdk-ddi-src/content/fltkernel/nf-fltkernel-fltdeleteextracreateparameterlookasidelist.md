@@ -10,6 +10,7 @@ keywords: ["FltDeleteExtraCreateParameterLookasideList function"]
 ms.keywords: FltApiRef_a_to_d_ac849af2-706e-4eac-be0b-1c3c905ccdfe.xml, FltDeleteExtraCreateParameterLookasideList, FltDeleteExtraCreateParameterLookasideList routine [Installable File System Drivers], fltkernel/FltDeleteExtraCreateParameterLookasideList, ifsk.fltdeleteextracreateparameterlookasidelist
 f1_keywords:
  - "fltkernel/FltDeleteExtraCreateParameterLookasideList"
+ - "FltDeleteExtraCreateParameterLookasideList"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - FltMgr.dll
 api_name:
 - FltDeleteExtraCreateParameterLookasideList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

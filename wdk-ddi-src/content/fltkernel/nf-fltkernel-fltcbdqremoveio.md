@@ -10,6 +10,7 @@ keywords: ["FltCbdqRemoveIo function"]
 ms.keywords: FltApiRef_a_to_d_3d737d8a-141a-4a15-9b78-45a215f9fd25.xml, FltCbdqRemoveIo, FltCbdqRemoveIo function [Installable File System Drivers], fltkernel/FltCbdqRemoveIo, ifsk.fltcbdqremoveio
 f1_keywords:
  - "fltkernel/FltCbdqRemoveIo"
+ - "FltCbdqRemoveIo"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fltkernel.h
 api_name:
 - FltCbdqRemoveIo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

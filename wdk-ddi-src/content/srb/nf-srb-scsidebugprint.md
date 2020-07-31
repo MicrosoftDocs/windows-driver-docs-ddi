@@ -10,6 +10,7 @@ keywords: ["ScsiDebugPrint function"]
 ms.keywords: ScsiDebugPrint, ScsiDebugPrint routine [Storage Devices], scsiprt_ef011e55-85be-4ec8-8ba3-3838417bcd15.xml, srb/ScsiDebugPrint, storage.scsidebugprint
 f1_keywords:
  - "srb/ScsiDebugPrint"
+ - "ScsiDebugPrint"
 req.header: srb.h
 req.include-header: Miniport.h, Scsi.h, Minitape.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Scsiport.dll
 api_name:
 - ScsiDebugPrint
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

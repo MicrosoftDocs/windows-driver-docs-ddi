@@ -10,6 +10,7 @@ keywords: ["IOCTL_VIDEO_QUERY_CURSOR_ATTR IOCTL"]
 ms.keywords: IOCTL_VIDEO_QUERY_CURSOR_ATTR, IOCTL_VIDEO_QUERY_CURSOR_ATTR control, IOCTL_VIDEO_QUERY_CURSOR_ATTR control code [Display Devices], Video_IOCTLs_5c88c1de-006e-4141-9dcd-59d03d51755f.xml, display.ioctl_video_query_cursor_attr, ntddvdeo/IOCTL_VIDEO_QUERY_CURSOR_ATTR
 f1_keywords:
  - "ntddvdeo/IOCTL_VIDEO_QUERY_CURSOR_ATTR"
+ - "IOCTL_VIDEO_QUERY_CURSOR_ATTR"
 req.header: ntddvdeo.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddvdeo.h
 api_name:
 - IOCTL_VIDEO_QUERY_CURSOR_ATTR
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

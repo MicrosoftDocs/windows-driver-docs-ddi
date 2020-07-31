@@ -10,6 +10,7 @@ keywords: ["_UMDF_IO_TARGET_OPEN_PARAMS structure"]
 ms.keywords: "*PUMDF_IO_TARGET_OPEN_PARAMS, PUMDF_IO_TARGET_OPEN_PARAMS, PUMDF_IO_TARGET_OPEN_PARAMS structure pointer, UMDF_IO_TARGET_OPEN_PARAMS, UMDF_IO_TARGET_OPEN_PARAMS structure, _UMDF_IO_TARGET_OPEN_PARAMS, umdf.umdf_io_target_open_params, umdfstructs_ac731d61-3f97-4c2c-a9af-0a2a58774766.xml, wdf.umdf_io_target_open_params, wudfddi/PUMDF_IO_TARGET_OPEN_PARAMS, wudfddi/UMDF_IO_TARGET_OPEN_PARAMS"
 f1_keywords:
  - "wudfddi/UMDF_IO_TARGET_OPEN_PARAMS"
+ - "UMDF_IO_TARGET_OPEN_PARAMS"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wudfddi.h
 api_name:
 - UMDF_IO_TARGET_OPEN_PARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: UMDF_IO_TARGET_OPEN_PARAMS, *PUMDF_IO_TARGET_OPEN_PARAMS
 ---

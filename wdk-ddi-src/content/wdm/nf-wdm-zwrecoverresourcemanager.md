@@ -10,6 +10,7 @@ keywords: ["ZwRecoverResourceManager function"]
 ms.keywords: NtRecoverResourceManager, ZwRecoverResourceManager, ZwRecoverResourceManager routine [Kernel-Mode Driver Architecture], kernel.zwrecoverresourcemanager, ktm_ref_88d3ee88-7520-4942-95cc-38e53ab14044.xml, wdm/NtRecoverResourceManager, wdm/ZwRecoverResourceManager
 f1_keywords:
  - "wdm/ZwRecoverResourceManager"
+ - "ZwRecoverResourceManager"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntifs.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - ZwRecoverResourceManager
 - NtRecoverResourceManager
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

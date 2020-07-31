@@ -10,6 +10,7 @@ keywords: ["IPrintSchemaCapabilities2::GetParameterDefinition"]
 ms.keywords: GetParameterDefinition, GetParameterDefinition method [Print Devices], GetParameterDefinition method [Print Devices],IPrintSchemaCapabilities2 interface, IPrintSchemaCapabilities2 interface [Print Devices],GetParameterDefinition method, IPrintSchemaCapabilities2.GetParameterDefinition, IPrintSchemaCapabilities2::GetParameterDefinition, print.iprintschemacapabilities2_getparameterdefinition, printerextension/IPrintSchemaCapabilities2::GetParameterDefinition
 f1_keywords:
  - "printerextension/IPrintSchemaCapabilities2.GetParameterDefinition"
+ - "IPrintSchemaCapabilities2.GetParameterDefinition"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Printerextension.h
 api_name:
 - IPrintSchemaCapabilities2.GetParameterDefinition
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

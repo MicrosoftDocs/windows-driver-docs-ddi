@@ -7,6 +7,7 @@ ms.date: 07/20/2018
 keywords: ["IModelObject interface"]
 f1_keywords:
  - "dbgmodel/IModelObject"
+ - "IModelObject"
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -28,8 +29,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IModelObject
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

@@ -8,6 +8,7 @@ ms.date: 09/20/2018
 keywords: ["RtlZeroMemory macro"]
 f1_keywords:
  - "ntddstor/RtlZeroMemory"
+ - "RtlZeroMemory"
 ms.keywords: RtlZeroMemory
 req.header: ntddstor.h
 req.include-header:
@@ -34,8 +35,6 @@ api_location:
 - ntddstor.h
 api_name: 
 - RtlZeroMemory
-product:
-- Windows
 targetos: Windows
 
 ---

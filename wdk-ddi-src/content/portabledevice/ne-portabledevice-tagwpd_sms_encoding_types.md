@@ -10,6 +10,7 @@ keywords: ["tagWPD_SMS_ENCODING_TYPES enumeration"]
 ms.keywords: SMS_ENCODING_7_BIT, SMS_ENCODING_8_BIT, SMS_ENCODING_UTF_16, WPD_SMS_ENCODING_TYPES, WPD_SMS_ENCODING_TYPES enumeration, enumeration, portabledevice/SMS_ENCODING_7_BIT, portabledevice/SMS_ENCODING_8_BIT, portabledevice/SMS_ENCODING_UTF_16, portabledevice/WPD_SMS_ENCODING_TYPES, tagWPD_SMS_ENCODING_TYPES, wpddk.wpd_sms_encoding_types
 f1_keywords:
  - "portabledevice/WPD_SMS_ENCODING_TYPES"
+ - "WPD_SMS_ENCODING_TYPES"
 req.header: portabledevice.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - PortableDevice.h
 api_name:
 - WPD_SMS_ENCODING_TYPES
-product:
-- Windows
 targetos: Windows
 req.typenames: WPD_SMS_ENCODING_TYPES
 ms.custom: RS5

@@ -10,6 +10,7 @@ ms.date: 09/23/2019
 keywords: ["NET_PACKET_LSO structure"]
 f1_keywords:
  - "lsotypes/_NET_PACKET_LSO"
+ - "_NET_PACKET_LSO"
 ms.keywords: NET_PACKET_LSO, NET_PACKET_LSO, 
 req.header: lsotypes.h
 req.include-header:

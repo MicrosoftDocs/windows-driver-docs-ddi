@@ -8,6 +8,7 @@ ms.date: 08/21/2018
 keywords: ["_WWAN_NETWORK_BLACKLIST_INFO structure"]
 f1_keywords:
  - "wwan/_WWAN_NETWORK_BLACKLIST_INFO"
+ - "_WWAN_NETWORK_BLACKLIST_INFO"
 ms.keywords: _WWAN_NETWORK_BLACKLIST_INFO, WWAN_NETWORK_BLACKLIST_INFO, *PWWAN_NETWORK_BLACKLIST_INFO, 
 req.header: wwan.h
 req.include-header:

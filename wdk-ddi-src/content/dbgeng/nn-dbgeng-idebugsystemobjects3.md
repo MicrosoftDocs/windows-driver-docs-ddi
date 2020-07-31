@@ -10,6 +10,7 @@ keywords: ["IDebugSystemObjects3 interface"]
 ms.keywords: IDebugSystemObjects3, IDebugSystemObjects3 interface [Windows Debugging], IDebugSystemObjects3 interface [Windows Debugging],described, dbgeng/IDebugSystemObjects3, debugger.idebugsystemobjects3
 f1_keywords:
  - "dbgeng/IDebugSystemObjects3"
+ - "IDebugSystemObjects3"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -39,8 +40,6 @@ api_name:
 - IDebugSystemObjects3.GetCurrentSystemServer
 - IDebugSystemObjects3.GetSystemByServer
 - IDebugSystemObjects3.GetCurrentSystemServerName
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

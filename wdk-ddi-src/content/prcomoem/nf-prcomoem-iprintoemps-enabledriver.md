@@ -10,6 +10,7 @@ keywords: ["IPrintOemPS::EnableDriver"]
 ms.keywords: EnableDriver, EnableDriver method [Print Devices], EnableDriver method [Print Devices],IPrintOemPS interface, IPrintOemPS interface [Print Devices],EnableDriver method, IPrintOemPS.EnableDriver, IPrintOemPS::EnableDriver, prcomoem/IPrintOemPS::EnableDriver, print.iprintoemps_enabledriver, print_unidrv-pscript_rendering_2e2fe90b-66ce-4f39-adfa-ebb187700aac.xml
 f1_keywords:
  - "prcomoem/IPrintOemPS.EnableDriver"
+ - "IPrintOemPS.EnableDriver"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Prcomoem.h
 api_name:
 - IPrintOemPS.EnableDriver
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

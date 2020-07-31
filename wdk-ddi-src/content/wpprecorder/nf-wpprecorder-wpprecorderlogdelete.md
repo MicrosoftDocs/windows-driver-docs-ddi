@@ -10,6 +10,7 @@ keywords: ["WppRecorderLogDelete macro"]
 ms.keywords: WppRecorderLogDelete, devtest.wpprecorderlogdelete, imp_WppRecorderLogDelete, imp_WppRecorderLogDelete function [Driver Development Tools], wpprecorder/imp_WppRecorderLogDelete
 f1_keywords:
  - "wpprecorder/imp_WppRecorderLogDelete"
+ - "imp_WppRecorderLogDelete"
 req.header: wpprecorder.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wpprecorder.h
 api_name:
 - imp_WppRecorderLogDelete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

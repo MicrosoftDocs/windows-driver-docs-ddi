@@ -7,6 +7,7 @@ ms.date: 09/26/2018
 keywords: ["IEquatableConcept::AreObjectsEqual"]
 f1_keywords:
  - "dbgmodel/IEquatableConcept.AreObjectsEqual"
+ - "IEquatableConcept.AreObjectsEqual"
 ms.keywords: IEquatableConcept::AreObjectsEqual, AreObjectsEqual, IEquatableConcept.AreObjectsEqual, IEquatableConcept::AreObjectsEqual, IEquatableConcept.AreObjectsEqual
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IEquatableConcept.AreObjectsEqual
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

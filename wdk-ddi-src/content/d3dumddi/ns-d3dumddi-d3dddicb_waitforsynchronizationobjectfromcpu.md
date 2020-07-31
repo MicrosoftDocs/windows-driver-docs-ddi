@@ -10,6 +10,7 @@ keywords: ["D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMCPU structure"]
 ms.keywords: D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMCPU, D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMCPU structure [Display Devices], WaitAny, d3dumddi/D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMCPU, display.d3dddicb_waitforsynchronizationobjectfromcpu
 f1_keywords:
  - "d3dumddi/D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMCPU"
+ - "D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMCPU"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMCPU
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMCPU
 ---

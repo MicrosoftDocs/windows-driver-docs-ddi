@@ -10,6 +10,7 @@ keywords: ["KSEVENT_STREAMALLOCATOR enumeration"]
 ms.keywords: KSEVENT_STREAMALLOCATOR, KSEVENT_STREAMALLOCATOR enumeration [Streaming Media Devices], KSEVENT_STREAMALLOCATOR_FREEFRAME, KSEVENT_STREAMALLOCATOR_INTERNAL_FREEFRAME, ks/KSEVENT_STREAMALLOCATOR, ks/KSEVENT_STREAMALLOCATOR_FREEFRAME, ks/KSEVENT_STREAMALLOCATOR_INTERNAL_FREEFRAME, stream.ksevent_streamallocator
 f1_keywords:
  - "ks/KSEVENT_STREAMALLOCATOR"
+ - "KSEVENT_STREAMALLOCATOR"
 req.header: ks.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ks.h
 api_name:
 - KSEVENT_STREAMALLOCATOR
-product:
-- Windows
 targetos: Windows
 req.typenames: KSEVENT_STREAMALLOCATOR
 ---

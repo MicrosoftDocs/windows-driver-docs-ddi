@@ -8,6 +8,7 @@ ms.date: 10/19/2018
 keywords: ["_PO_SPR_ACTIVE_SESSION_DATA structure"]
 f1_keywords:
  - "ntpoapi/_PO_SPR_ACTIVE_SESSION_DATA"
+ - "_PO_SPR_ACTIVE_SESSION_DATA"
 ms.keywords: _PO_SPR_ACTIVE_SESSION_DATA, *PPO_SPR_ACTIVE_SESSION_DATA, PO_SPR_ACTIVE_SESSION_DATA, 
 req.header: ntpoapi.h
 req.include-header:
@@ -30,8 +31,6 @@ api_location:
 - ntpoapi.h
 api_name: 
 - _PO_SPR_ACTIVE_SESSION_DATA
-product:
-- Windows
 targetos: Windows
 ---
 

@@ -9,6 +9,7 @@ keywords: ["PFND3D10DDI_DESTROYRESOURCE callback function"]
 ms.keywords: DestroyResource, DestroyResource callback function [Display Devices], PFND3D10DDI_DESTROYRESOURCE, PFND3D10DDI_DESTROYRESOURCE callback, UserModeDisplayDriverDx10_Functions_59a8abb1-fb74-49b0-a6b8-c0e867f9d7d6.xml, d3d10umddi/DestroyResource, display.destroyresource_d3d10_
 f1_keywords:
  - "d3d10umddi/DestroyResource"
+ - "DestroyResource"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - DestroyResource
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

@@ -10,6 +10,7 @@ keywords: ["MINIPORT_ISR callback function"]
 ms.keywords: MINIPORT_ISR, MINIPORT_ISR callback, MiniportInterrupt, MiniportInterrupt callback function [Network Drivers Starting with Windows Vista], ndis/MiniportInterrupt, ndis_interrupts_miniport_functions_ref_1de81c1c-10f4-4b41-81bf-495192b65f02.xml, netvista.miniportinterrupt
 f1_keywords:
  - "ndis/MiniportInterrupt"
+ - "MiniportInterrupt"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - MiniportInterrupt
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

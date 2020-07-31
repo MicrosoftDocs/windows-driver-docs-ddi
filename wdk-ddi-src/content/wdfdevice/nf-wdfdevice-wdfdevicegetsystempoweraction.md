@@ -10,6 +10,7 @@ keywords: ["WdfDeviceGetSystemPowerAction function"]
 ms.keywords: DFDeviceObjectGeneralRef_605cddb8-470b-4d71-8a6e-295e060ea3e3.xml, WdfDeviceGetSystemPowerAction, WdfDeviceGetSystemPowerAction method, kmdf.wdfdevicegetsystempoweraction, wdf.wdfdevicegetsystempoweraction, wdfdevice/WdfDeviceGetSystemPowerAction
 f1_keywords:
  - "wdfdevice/WdfDeviceGetSystemPowerAction"
+ - "WdfDeviceGetSystemPowerAction"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfDeviceGetSystemPowerAction
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -82,7 +81,11 @@ A bug check occurs if the driver supplies an invalid object handle.
 Starting in WDF version 1.31, **WdfDeviceGetSystemPowerAction** has been updated to more accurately report system power action when the device is the power policy owner. Drivers need to be recompiled with KMDF or UMDF 1.31 or later to get the following new behavior:
 
 * If the device enters or exits D0 due to S0 Idle (see [**WdfDeviceAssignS0IdleSettings**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceassigns0idlesettings)) while an unrelated system power transition is in progress, **WdfDeviceGetSystemPowerAction** might return **PowerActionSleep**. This is fixed in version 1.31 and now it returns **PowerActionNone**.
-* When the system wakes up from Hybrid Sleep (sleep with a hibernation file), before v31, **WdfDeviceGetSystemPowerAction** returned **PowerActionHibernate**. This is fixed in version 1.31 and now it returns **PowerActionSleep**. 
+* When the system wakes up from Hybrid Sleep (sleep with a hibernation file), before version 1.31, **WdfDeviceGetSystemPowerAction** always returned **PowerActionHibernate**. This is fixed in version 1.31 and now it returns:
+
+   - **PowerActionSleep** if it wakes without power loss, which means the system remained in S3
+   - **PowerActionHibernate** if it wakes after power loss, which means the system resumed from the hibernation file
+
 
 The <b>WdfDeviceGetSystemPowerAction</b> method enables a driver to determine whether a device's power transition is occurring because the device is idle (or waking up), or because the entire computer is entering (or leaving) a low-power state. 
 

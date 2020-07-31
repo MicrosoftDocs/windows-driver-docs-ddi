@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["ILOGENTRY macro"]
 f1_keywords:
  - "usbcamdi/ILOGENTRY"
+ - "ILOGENTRY"
 ms.keywords: ILOGENTRY
 req.header: usbcamdi.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - usbcamdi.h
 api_name: 
 - ILOGENTRY
-product:
-- Windows
 targetos: Windows
 
 

@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["PO_INTERNAL_WAKE_SOURCE_TYPE enumeration"]
 f1_keywords:
  - "ntpoapi/PO_INTERNAL_WAKE_SOURCE_TYPE"
+ - "PO_INTERNAL_WAKE_SOURCE_TYPE"
 ms.keywords: PO_INTERNAL_WAKE_SOURCE_TYPE, PO_INTERNAL_WAKE_SOURCE_TYPE, *PPO_INTERNAL_WAKE_SOURCE_TYPE, 
 req.header: ntpoapi.h
 req.include-header:

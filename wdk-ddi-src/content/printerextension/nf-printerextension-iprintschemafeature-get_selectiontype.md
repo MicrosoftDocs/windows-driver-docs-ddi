@@ -10,6 +10,7 @@ keywords: ["IPrintSchemaFeature::get_SelectionType"]
 ms.keywords: IPrintSchemaFeature interface [Print Devices],SelectionType property, IPrintSchemaFeature.SelectionType, IPrintSchemaFeature.get_SelectionType, IPrintSchemaFeature::SelectionType, IPrintSchemaFeature::get_SelectionType, SelectionType property [Print Devices], SelectionType property [Print Devices],IPrintSchemaFeature interface, get_SelectionType, print.iprintschemafeature_selectiontype, printerextension/IPrintSchemaFeature::SelectionType, printerextension/IPrintSchemaFeature::get_SelectionType
 f1_keywords:
  - "printerextension/IPrintSchemaFeature.SelectionType"
+ - "IPrintSchemaFeature.SelectionType"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IPrintSchemaFeature.SelectionType
 - IPrintSchemaFeature.get_SelectionType
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

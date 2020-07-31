@@ -10,6 +10,7 @@ keywords: ["CcPrepareMdlWrite function"]
 ms.keywords: CcPrepareMdlWrite, CcPrepareMdlWrite routine [Installable File System Drivers], ccref_2523ff15-d200-4f45-bc05-aab30afadc15.xml, ifsk.ccpreparemdlwrite, ntifs/CcPrepareMdlWrite
 f1_keywords:
  - "ntifs/CcPrepareMdlWrite"
+ - "CcPrepareMdlWrite"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - CcPrepareMdlWrite
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["_PEP_PREPARE_DEVICE structure"]
 ms.keywords: "*PPEP_PREPARE_DEVICE, PEP_PREPARE_DEVICE, PEP_PREPARE_DEVICE structure [Kernel-Mode Driver Architecture], PPEP_PREPARE_DEVICE, PPEP_PREPARE_DEVICE structure pointer [Kernel-Mode Driver Architecture], _PEP_PREPARE_DEVICE, kernel.pep_prepare_device, pepfx/PEP_PREPARE_DEVICE, pepfx/PPEP_PREPARE_DEVICE"
 f1_keywords:
  - "pep_x/PEP_PREPARE_DEVICE"
+ - "PEP_PREPARE_DEVICE"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - PEP_PREPARE_DEVICE
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_PREPARE_DEVICE, *PPEP_PREPARE_DEVICE
 ---

@@ -10,6 +10,7 @@ keywords: ["IDARG_IN_SETUP_HWCURSOR structure"]
 ms.keywords: IDARG_IN_SETUP_HWCURSOR, IDARG_IN_SETUP_HWCURSOR structure [Display Devices], display.idarg_in_setup_hwcursor, iddcx/IDARG_IN_SETUP_HWCURSOR
 f1_keywords:
  - "iddcx/IDARG_IN_SETUP_HWCURSOR"
+ - "IDARG_IN_SETUP_HWCURSOR"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - iddcx.h
 api_name:
 - IDARG_IN_SETUP_HWCURSOR
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

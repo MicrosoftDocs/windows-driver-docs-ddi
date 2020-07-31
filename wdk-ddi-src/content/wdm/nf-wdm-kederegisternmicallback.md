@@ -10,6 +10,7 @@ keywords: ["KeDeregisterNmiCallback function"]
 ms.keywords: KeDeregisterNmiCallback, KeDeregisterNmiCallback routine [Kernel-Mode Driver Architecture], k105_407e4af5-fb93-4a7e-bacd-cc1d08935815.xml, kernel.kederegisternmicallback, wdm/KeDeregisterNmiCallback
 f1_keywords:
  - "wdm/KeDeregisterNmiCallback"
+ - "KeDeregisterNmiCallback"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeDeregisterNmiCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

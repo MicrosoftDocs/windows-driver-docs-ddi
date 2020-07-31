@@ -10,6 +10,7 @@ keywords: ["KeRestoreExtendedProcessorState function"]
 ms.keywords: KeRestoreExtendedProcessorState, KeRestoreExtendedProcessorState routine [Kernel-Mode Driver Architecture], k105_35142457-ddfe-4773-b4ed-d2d84d5c74d0.xml, kernel.kerestoreextendedprocessorstate, wdm/KeRestoreExtendedProcessorState
 f1_keywords:
  - "wdm/KeRestoreExtendedProcessorState"
+ - "KeRestoreExtendedProcessorState"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeRestoreExtendedProcessorState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

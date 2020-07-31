@@ -10,6 +10,7 @@ keywords: ["ClfsLsnEqual function"]
 ms.keywords: ClfsLsnEqual, ClfsLsnEqual routine [Kernel-Mode Driver Architecture], Clfs_09dba2f1-3508-488d-b663-8ba0806b9d31.xml, kernel.clfslsnequal, wdm/ClfsLsnEqual
 f1_keywords:
  - "wdm/ClfsLsnEqual"
+ - "ClfsLsnEqual"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
 - ClfsLsnEqual
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DDDIGPUVIRTUALADDRESS_RESERVATION_TYPE enumeration"]
 f1_keywords:
  - "d3dukmdt/_D3DDDIGPUVIRTUALADDRESS_RESERVATION_TYPE"
+ - "_D3DDDIGPUVIRTUALADDRESS_RESERVATION_TYPE"
 ms.keywords: _D3DDDIGPUVIRTUALADDRESS_RESERVATION_TYPE, D3DDDIGPUVIRTUALADDRESS_RESERVATION_TYPE, 
 req.header: d3dukmdt.h
 req.include-header:
@@ -26,8 +27,6 @@ api_location:
 - d3dukmdt.h
 api_name: 
 - _D3DDDIGPUVIRTUALADDRESS_RESERVATION_TYPE
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

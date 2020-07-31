@@ -10,6 +10,7 @@ keywords: ["ChangerAdditionalExtensionSize function"]
 ms.keywords: ChangerAdditionalExtensionSize, ChangerAdditionalExtensionSize function [Storage Devices], chgrmini_22c1f2f6-d441-4208-b104-46711c4204cd.xml, mcd/ChangerAdditionalExtensionSize, storage.changeradditionalextensionsize
 f1_keywords:
  - "mcd/ChangerAdditionalExtensionSize"
+ - "ChangerAdditionalExtensionSize"
 req.header: mcd.h
 req.include-header: Mcd.h, Ntddchgr.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - mcd.h
 api_name:
 - ChangerAdditionalExtensionSize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["KSRTAUDIO_HWREGISTER structure"]
 ms.keywords: "*PKSRTAUDIO_HWREGISTER, KSRTAUDIO_HWREGISTER, KSRTAUDIO_HWREGISTER structure [Audio Devices], PKSRTAUDIO_HWREGISTER, PKSRTAUDIO_HWREGISTER structure pointer [Audio Devices], aud-prop_f94f5b72-e081-48ee-96b9-4649201743d5.xml, audio.ksrtaudio_hwregister, ksmedia/KSRTAUDIO_HWREGISTER, ksmedia/PKSRTAUDIO_HWREGISTER"
 f1_keywords:
  - "ksmedia/KSRTAUDIO_HWREGISTER"
+ - "KSRTAUDIO_HWREGISTER"
 req.header: ksmedia.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KSRTAUDIO_HWREGISTER
-product:
-- Windows
 targetos: Windows
 req.typenames: KSRTAUDIO_HWREGISTER, *PKSRTAUDIO_HWREGISTER
 ---

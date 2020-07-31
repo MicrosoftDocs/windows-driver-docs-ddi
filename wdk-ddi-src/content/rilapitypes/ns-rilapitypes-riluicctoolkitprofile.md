@@ -10,6 +10,7 @@ keywords: ["RILUICCTOOLKITPROFILE structure"]
 ms.keywords: "*LPRILUICCTOOLKITPROFILE, RILUICCTOOLKITPROFILE, RILUICCTOOLKITPROFILE structure [Network Drivers Starting with Windows Vista], netvista.riluicctoolkitprofile, ntddrilapitypes/RILUICCTOOLKITPROFILE"
 f1_keywords:
  - "rilapitypes/RILUICCTOOLKITPROFILE"
+ - "RILUICCTOOLKITPROFILE"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILUICCTOOLKITPROFILE
-product:
-- Windows
 targetos: Windows
 req.typenames: RILUICCTOOLKITPROFILE, *LPRILUICCTOOLKITPROFILE
 ---

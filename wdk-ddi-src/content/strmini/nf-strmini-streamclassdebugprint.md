@@ -10,6 +10,7 @@ keywords: ["StreamClassDebugPrint function"]
 ms.keywords: StreamClassDebugPrint, StreamClassDebugPrint routine [Streaming Media Devices], strclass-routines_858a2dd4-ee74-44de-9293-05bd804c315d.xml, stream.streamclassdebugprint, strmini/StreamClassDebugPrint
 f1_keywords:
  - "strmini/StreamClassDebugPrint"
+ - "StreamClassDebugPrint"
 req.header: strmini.h
 req.include-header: Strmini.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Stream.dll
 api_name:
 - StreamClassDebugPrint
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

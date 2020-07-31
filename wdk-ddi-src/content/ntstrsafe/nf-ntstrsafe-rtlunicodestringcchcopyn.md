@@ -10,6 +10,7 @@ keywords: ["RtlUnicodeStringCchCopyN function"]
 ms.keywords: RtlUnicodeStringCchCopyN, RtlUnicodeStringCchCopyN function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcchcopyn, ntstrsafe/RtlUnicodeStringCchCopyN, safestrings_3a628b71-7686-45ef-8217-6501cd3c3eed.xml
 f1_keywords:
  - "ntstrsafe/RtlUnicodeStringCchCopyN"
+ - "RtlUnicodeStringCchCopyN"
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Ntstrsafe.dll
 api_name:
 - RtlUnicodeStringCchCopyN
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

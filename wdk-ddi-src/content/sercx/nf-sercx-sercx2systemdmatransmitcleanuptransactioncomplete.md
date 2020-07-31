@@ -10,6 +10,7 @@ keywords: ["SerCx2SystemDmaTransmitCleanupTransactionComplete function"]
 ms.keywords: 2/SerCx2SystemDmaTransmitCleanupTransactionComplete, SerCx2SystemDmaTransmitCleanupTransactionComplete, SerCx2SystemDmaTransmitCleanupTransactionComplete method [Serial Ports], serports.sercx2systemdmatransmitcleanuptransactioncomplete
 f1_keywords:
  - "sercx/SerCx2SystemDmaTransmitCleanupTransactionComplete"
+ - "SerCx2SystemDmaTransmitCleanupTransactionComplete"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - 2.0\Sercx.h
 api_name:
 - SerCx2SystemDmaTransmitCleanupTransactionComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

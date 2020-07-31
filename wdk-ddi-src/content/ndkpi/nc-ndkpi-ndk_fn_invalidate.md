@@ -10,6 +10,7 @@ keywords: ["NDK_FN_INVALIDATE callback function"]
 ms.keywords: NDK_FN_INVALIDATE, NDK_FN_INVALIDATE callback, NDK_OP_FLAG_DEFER, NDK_OP_FLAG_READ_FENCE, NDK_OP_FLAG_SILENT_SUCCESS, NdkInvalidate, NdkInvalidate callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkInvalidate, netvista.ndk_fn_invalidate
 f1_keywords:
  - "ndkpi/NdkInvalidate"
+ - "NdkInvalidate"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ndkpi.h
 api_name:
 - NdkInvalidate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

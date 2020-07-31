@@ -10,6 +10,7 @@ keywords: ["RIL_GetAllAdditionalNumberStrings function"]
 ms.keywords: RIL_GetAllAdditionalNumberStrings, RIL_GetAllAdditionalNumberStrings method [Network Drivers Starting with Windows Vista], netvista.ril_getalladditionalnumberstrings, rilapi/RIL_GetAllAdditionalNumberStrings
 f1_keywords:
  - "rilapi/RIL_GetAllAdditionalNumberStrings"
+ - "RIL_GetAllAdditionalNumberStrings"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_GetAllAdditionalNumberStrings
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

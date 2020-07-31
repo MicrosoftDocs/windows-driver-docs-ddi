@@ -10,6 +10,7 @@ keywords: ["FltCommitComplete function"]
 ms.keywords: FltApiRef_a_to_d_fc4b72a5-52df-47f9-b119-68ccb02b14bc.xml, FltCommitComplete, FltCommitComplete routine [Installable File System Drivers], fltkernel/FltCommitComplete, ifsk.fltcommitcomplete
 f1_keywords:
  - "fltkernel/FltCommitComplete"
+ - "FltCommitComplete"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Fltmgr.dll
 api_name:
 - FltCommitComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

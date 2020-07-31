@@ -9,6 +9,7 @@ keywords: ["D3D11_1DDI_AUTHENTICATED_CONFIGURE_INITIALIZE structure"]
 ms.keywords: D3D11_1DDI_AUTHENTICATED_CONFIGURE_INITIALIZE, D3D11_1DDI_AUTHENTICATED_CONFIGURE_INITIALIZE structure [Display Devices], D3D11_DDI_AUTHENTICATED_CONFIGURE_INITIALIZE, D3D11_DDI_AUTHENTICATED_CONFIGURE_INITIALIZE structure [Display Devices], d3d10umddi/D3D11_1DDI_AUTHENTICATED_CONFIGURE_INITIALIZE, display.d3d11_1ddi_authenticated_configure_initialize
 f1_keywords:
  - "d3d10umddi/D3D11_DDI_AUTHENTICATED_CONFIGURE_INITIALIZE"
+ - "D3D11_DDI_AUTHENTICATED_CONFIGURE_INITIALIZE"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - D3d10umddi.h
 api_name:
 - D3D11_DDI_AUTHENTICATED_CONFIGURE_INITIALIZE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D11_DDI_AUTHENTICATED_CONFIGURE_INITIALIZE

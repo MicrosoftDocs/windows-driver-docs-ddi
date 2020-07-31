@@ -10,6 +10,7 @@ keywords: ["RIL_RadioStateGetPasswordRetryCount function"]
 ms.keywords: RIL_RadioStateGetPasswordRetryCount, RIL_RadioStateGetPasswordRetryCount method [Network Drivers Starting with Windows Vista], netvista.ril_radiostategetpasswordretrycount, rilapi/RIL_RadioStateGetPasswordRetryCount
 f1_keywords:
  - "rilapi/RIL_RadioStateGetPasswordRetryCount"
+ - "RIL_RadioStateGetPasswordRetryCount"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_RadioStateGetPasswordRetryCount
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

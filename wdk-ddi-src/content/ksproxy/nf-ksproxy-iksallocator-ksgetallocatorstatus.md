@@ -10,6 +10,7 @@ keywords: ["IKsAllocator::KsGetAllocatorStatus"]
 ms.keywords: IKsAllocator interface [Streaming Media Devices],KsGetAllocatorStatus method, IKsAllocator.KsGetAllocatorStatus, IKsAllocator::KsGetAllocatorStatus, KsGetAllocatorStatus, KsGetAllocatorStatus method [Streaming Media Devices], KsGetAllocatorStatus method [Streaming Media Devices],IKsAllocator interface, ksproxy/IKsAllocator::KsGetAllocatorStatus, stream.iksallocator_ksgetallocatorstatus
 f1_keywords:
  - "ksproxy/IKsAllocator.KsGetAllocatorStatus"
+ - "IKsAllocator.KsGetAllocatorStatus"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ksproxy.h
 api_name:
 - IKsAllocator.KsGetAllocatorStatus
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

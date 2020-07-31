@@ -10,6 +10,7 @@ keywords: ["_NDK_SHARED_ENDPOINT structure"]
 ms.keywords: NDK_SHARED_ENDPOINT, NDK_SHARED_ENDPOINT structure [Network Drivers Starting with Windows Vista], PNDK_SHARED_ENDPOINT, PNDK_SHARED_ENDPOINT structure pointer [Network Drivers Starting with Windows Vista], _NDK_SHARED_ENDPOINT, ndkpi/NDK_SHARED_ENDPOINT, ndkpi/PNDK_SHARED_ENDPOINT, netvista.ndk_shared_endpoint
 f1_keywords:
  - "ndkpi/NDK_SHARED_ENDPOINT"
+ - "NDK_SHARED_ENDPOINT"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ndkpi.h
 api_name:
 - NDK_SHARED_ENDPOINT
-product:
-- Windows
 targetos: Windows
 req.typenames: NDK_SHARED_ENDPOINT
 ---

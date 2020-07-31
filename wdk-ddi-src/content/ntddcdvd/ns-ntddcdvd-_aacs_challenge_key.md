@@ -10,6 +10,7 @@ keywords: ["_AACS_CHALLENGE_KEY structure"]
 ms.keywords: "*PAACS_CHALLENGE_KEY, AACS_CHALLENGE_KEY, AACS_CHALLENGE_KEY structure [Storage Devices], PAACS_CHALLENGE_KEY, PAACS_CHALLENGE_KEY structure pointer [Storage Devices], _AACS_CHALLENGE_KEY, ntddcdvd/AACS_CHALLENGE_KEY, ntddcdvd/PAACS_CHALLENGE_KEY, storage.aacs_challenge_key, structs-DVD_7a8e1eeb-73f5-4d10-83c6-13bac3130c91.xml"
 f1_keywords:
  - "ntddcdvd/AACS_CHALLENGE_KEY"
+ - "AACS_CHALLENGE_KEY"
 req.header: ntddcdvd.h
 req.include-header: Ntddcdvd.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddcdvd.h
 api_name:
 - AACS_CHALLENGE_KEY
-product:
-- Windows
 targetos: Windows
 req.typenames: AACS_CHALLENGE_KEY, *PAACS_CHALLENGE_KEY
 ---

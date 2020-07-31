@@ -10,6 +10,7 @@ keywords: ["IWDFIoRequest::CancelSentRequest"]
 ms.keywords: CancelSentRequest, CancelSentRequest method, CancelSentRequest method,IWDFIoRequest interface, IWDFIoRequest interface,CancelSentRequest method, IWDFIoRequest.CancelSentRequest, IWDFIoRequest::CancelSentRequest, UMDFRequestObjectRef_cf439791-044b-4cd8-8a1c-eafc7b266897.xml, umdf.iwdfiorequest_cancelsentrequest, wdf.iwdfiorequest_cancelsentrequest, wudfddi/IWDFIoRequest::CancelSentRequest
 f1_keywords:
  - "wudfddi/IWDFIoRequest.CancelSentRequest"
+ - "IWDFIoRequest.CancelSentRequest"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFIoRequest.CancelSentRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

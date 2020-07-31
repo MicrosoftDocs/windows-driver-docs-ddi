@@ -10,6 +10,7 @@ keywords: ["GNSS_SATELLITEINFO structure"]
 ms.keywords: "*PGNSS_SATELLITEINFO, GNSS_SATELLITEINFO, GNSS_SATELLITEINFO structure [Sensor Devices], PGNSS_SATELLITEINFO, PGNSS_SATELLITEINFO structure pointer [Sensor Devices], gnss.gnss_satelliteinfo, gnssdriver/GNSS_SATELLITEINFO, gnssdriver/PGNSS_SATELLITEINFO"
 f1_keywords:
  - "gnssdriver/GNSS_SATELLITEINFO"
+ - "GNSS_SATELLITEINFO"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - gnssdriver.h
 api_name:
 - GNSS_SATELLITEINFO
-product:
-- Windows
 targetos: Windows
 req.typenames: GNSS_SATELLITEINFO, *PGNSS_SATELLITEINFO
 ---

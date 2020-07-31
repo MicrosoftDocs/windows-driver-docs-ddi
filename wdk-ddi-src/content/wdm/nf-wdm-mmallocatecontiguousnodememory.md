@@ -10,6 +10,7 @@ keywords: ["MmAllocateContiguousNodeMemory function"]
 ms.keywords: MmAllocateContiguousNodeMemory, MmAllocateContiguousNodeMemory routine [Kernel-Mode Driver Architecture], kernel.mmallocatecontiguousnodememory, wdm/MmAllocateContiguousNodeMemory
 f1_keywords:
  - "wdm/MmAllocateContiguousNodeMemory"
+ - "MmAllocateContiguousNodeMemory"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - MmAllocateContiguousNodeMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

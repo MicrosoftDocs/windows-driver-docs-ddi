@@ -10,6 +10,7 @@ keywords: ["SeSetSecurityDescriptorInfoEx function"]
 ms.keywords: SeSetSecurityDescriptorInfoEx, SeSetSecurityDescriptorInfoEx routine [Installable File System Drivers], ifsk.sesetsecuritydescriptorinfoex, ntifs/SeSetSecurityDescriptorInfoEx, seref_d3965072-a36e-478c-9c57-5614920d69c8.xml
 f1_keywords:
  - "ntifs/SeSetSecurityDescriptorInfoEx"
+ - "SeSetSecurityDescriptorInfoEx"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - SeSetSecurityDescriptorInfoEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

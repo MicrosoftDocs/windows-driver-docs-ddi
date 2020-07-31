@@ -7,6 +7,7 @@ ms.date: 08/20/2018
 keywords: ["IDataModelScript::Release"]
 f1_keywords:
  - "dbgmodel/IDataModelScript.Release"
+ - "IDataModelScript.Release"
 ms.keywords: IDataModelScript::Release, Release, IDataModelScript.Release, IDataModelScript::Release, IDataModelScript.Release
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDataModelScript.Release
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
@@ -47,7 +46,7 @@ ms.custom: RS5
 
 Decrements the reference count for an interface on an object. 
 
-For more information, see [IUnknown::Release](https://docs.microsoft.com/windows/desktop/api/Unknwn/nf-unknwn-iunknown-release) and [Introduction to COM](https://docs.microsoft.com/cpp/atl/introduction-to-com).
+For more information, see [IUnknown::Release](https://docs.microsoft.com/windows/win32/api/unknwn/nf-unknwn-iunknown-release) and [Introduction to COM](https://docs.microsoft.com/cpp/atl/introduction-to-com).
 
 
 ## -returns

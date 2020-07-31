@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["TRFUNC callback function"]
 f1_keywords:
  - "trustedruntimeclx/TRFUNC"
+ - "TRFUNC"
 req.header: trustedruntimeclx.h
 req.include-header:
 req.target-type:
@@ -32,8 +33,6 @@ api_location:
 - trustedruntimeclx.h
 api_name: 
 - TRFUNC
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

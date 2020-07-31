@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_BUFFERBLT structure"]
 ms.keywords: D3DDDIARG_BUFFERBLT, D3DDDIARG_BUFFERBLT structure [Display Devices], UMDisplayDriver_param_Structs_08885ff3-963c-4067-bddc-696b9cc96e1b.xml, _D3DDDIARG_BUFFERBLT, d3dumddi/D3DDDIARG_BUFFERBLT, display.d3dddiarg_bufferblt
 f1_keywords:
  - "d3dumddi/D3DDDIARG_BUFFERBLT"
+ - "D3DDDIARG_BUFFERBLT"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDIARG_BUFFERBLT
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_BUFFERBLT
 ---

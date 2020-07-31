@@ -32,7 +32,8 @@ api_name:
  - DXGK_MIPI_DSI_INTERFACE
 f1_keywords:
  - dispmprt/_DXGK_MIPI_DSI_INTERFACE
- - dispmprt/DXGK_MIPI_DSI_INTERFACE
+ - dispmprt//DXGK_MIPI_DSI_INTERFACE
+ - DXGK_MIPI_DSI_INTERFACE
 dev_langs:
  - c++
 ---

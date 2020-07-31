@@ -10,6 +10,7 @@ keywords: ["FwpsAleEndpointCreateEnumHandle0 function"]
 ms.keywords: FwpsAleEndpointCreateEnumHandle0, FwpsAleEndpointCreateEnumHandle0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsAleEndpointCreateEnumHandle0, netvista.fwpsaleendpointcreateenumhandle0, wfp_ref_2_funct_3_fwps_A-B_dfe65638-187e-4966-b8dc-20fac02ea7cb.xml
 f1_keywords:
  - "fwpsk/FwpsAleEndpointCreateEnumHandle0"
+ - "FwpsAleEndpointCreateEnumHandle0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - fwpkclnt.dll
 api_name:
 - FwpsAleEndpointCreateEnumHandle0
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -7,6 +7,7 @@ ms.date: 08/08/2018
 keywords: ["CollectionsListGetFillableCount function"]
 f1_keywords:
  - "sensorsutils/CollectionsListGetFillableCount"
+ - "CollectionsListGetFillableCount"
 tech.root: sensors
 ms.keywords: CollectionsListGetFillableCount
 req.header: sensorsutils.h
@@ -34,8 +35,6 @@ api_location:
 - sensorsutils.h
 api_name: 
 - CollectionsListGetFillableCount
-product:
-- Windows
 targetos: Windows
 
 

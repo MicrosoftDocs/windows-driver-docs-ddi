@@ -10,6 +10,7 @@ keywords: ["DXGKDDI_OPM_CONFIGURE_PROTECTED_OUTPUT callback function"]
 ms.keywords: DXGKDDI_OPM_CONFIGURE_PROTECTED_OUTPUT, DXGKDDI_OPM_CONFIGURE_PROTECTED_OUTPUT callback, Dm_Opm_functions_4e8394b3-68b4-4747-a375-a767edbccc2c.xml, DxgkDdiOPMConfigureProtectedOutput, DxgkDdiOPMConfigureProtectedOutput callback function [Display Devices], display.dxgkddiopmconfigureprotectedoutput, dispmprt/DxgkDdiOPMConfigureProtectedOutput
 f1_keywords:
  - "dispmprt/DxgkDdiOPMConfigureProtectedOutput"
+ - "DxgkDdiOPMConfigureProtectedOutput"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dispmprt.h
 api_name:
 - DxgkDdiOPMConfigureProtectedOutput
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["FltGetActivityIdCallbackData function"]
 ms.keywords: FltGetActivityIdCallbackData, FltGetActivityIdCallbackData routine [Installable File System Drivers], fltkernel/FltGetActivityIdCallbackData, ifsk.fltgetactivityidcallbackdata
 f1_keywords:
  - "fltkernel/FltGetActivityIdCallbackData"
+ - "FltGetActivityIdCallbackData"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltGetActivityIdCallbackData
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

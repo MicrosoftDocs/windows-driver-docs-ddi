@@ -10,6 +10,7 @@ keywords: ["IoWMIRegistrationControl function"]
 ms.keywords: IoWMIRegistrationControl, IoWMIRegistrationControl routine [Kernel-Mode Driver Architecture], k104_69efd10b-fb1a-4d66-939d-6ade4185605d.xml, kernel.iowmiregistrationcontrol, wdm/IoWMIRegistrationControl
 f1_keywords:
  - "wdm/IoWMIRegistrationControl"
+ - "IoWMIRegistrationControl"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoWMIRegistrationControl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["DMA_CHANNELS_CPU_AFFINITY_HANDLER callback function"]
 ms.keywords: DMA_CHANNELS_CPU_AFFINITY_HANDLER, DMA_CHANNELS_CPU_AFFINITY_HANDLER callback, ProviderSetDmaChannelCpuAffinity, ProviderSetDmaChannelCpuAffinity callback function [Network Drivers Starting with Windows Vista], netdma/ProviderSetDmaChannelCpuAffinity, netdma_ref_bda3a4d0-7039-4f29-b75c-1e7e4a8f2131.xml, netvista.providersetdmachannelcpuaffinity
 f1_keywords:
  - "netdma/ProviderSetDmaChannelCpuAffinity"
+ - "ProviderSetDmaChannelCpuAffinity"
 req.header: netdma.h
 req.include-header: Netdma.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - netdma.h
 api_name:
 - ProviderSetDmaChannelCpuAffinity
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

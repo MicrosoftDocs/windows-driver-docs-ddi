@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["PFND3DWDDM2_1DDI_VIDEOPROCESSORSETOUTPUTHDRMETADATA callback function"]
 f1_keywords:
  - "d3d10umddi/PFND3DWDDM2_1DDI_VIDEOPROCESSORSETOUTPUTHDRMETADATA"
+ - "PFND3DWDDM2_1DDI_VIDEOPROCESSORSETOUTPUTHDRMETADATA"
 req.header: d3d10umddi.h
 req.include-header:
 req.target-type:
@@ -32,8 +33,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - PFND3DWDDM2_1DDI_VIDEOPROCESSORSETOUTPUTHDRMETADATA
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

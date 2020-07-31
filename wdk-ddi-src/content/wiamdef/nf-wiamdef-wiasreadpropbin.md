@@ -10,6 +10,7 @@ keywords: ["wiasReadPropBin function"]
 ms.keywords: image.wiasreadpropbin, wiamdef/wiasReadPropBin, wiasFncs_484baa0a-a423-4f4d-a33c-d155a8f4974c.xml, wiasReadPropBin, wiasReadPropBin function [Imaging Devices]
 f1_keywords:
  - "wiamdef/wiasReadPropBin"
+ - "wiasReadPropBin"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wiaservc.dll
 api_name:
 - wiasReadPropBin
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

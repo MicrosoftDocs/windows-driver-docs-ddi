@@ -10,6 +10,7 @@ keywords: ["ClfsSetArchiveTail function"]
 ms.keywords: ClfsSetArchiveTail, ClfsSetArchiveTail routine [Kernel-Mode Driver Architecture], Clfs_f5685e7e-3098-461d-aff1-807011c36526.xml, kernel.clfssetarchivetail, wdm/ClfsSetArchiveTail
 f1_keywords:
  - "wdm/ClfsSetArchiveTail"
+ - "ClfsSetArchiveTail"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
 - ClfsSetArchiveTail
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

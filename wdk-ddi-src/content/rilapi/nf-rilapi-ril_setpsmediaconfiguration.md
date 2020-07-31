@@ -10,6 +10,7 @@ keywords: ["RIL_SetPSMediaConfiguration function"]
 ms.keywords: RIL_SetPSMediaConfiguration, RIL_SetPSMediaConfiguration method [Network Drivers Starting with Windows Vista], netvista.ril_setpsmediaconfiguration, rilapi/RIL_SetPSMediaConfiguration
 f1_keywords:
  - "rilapi/RIL_SetPSMediaConfiguration"
+ - "RIL_SetPSMediaConfiguration"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_SetPSMediaConfiguration
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

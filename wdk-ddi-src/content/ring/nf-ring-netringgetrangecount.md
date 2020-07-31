@@ -8,6 +8,7 @@ ms.date: 01/31/2019
 keywords: ["NetRingGetRangeCount function"]
 f1_keywords:
  - "ring/RILWRITEPHONEBOOKENTRYPARAMS"
+ - "RILWRITEPHONEBOOKENTRYPARAMS"
 ms.keywords: NetRingGetRangeCount
 req.header: ring.h
 req.include-header: netadaptercx.h
@@ -37,8 +38,6 @@ apilocation:
 apiname: 
 - NetRingGetRangeCount
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetRingGetRangeCount function

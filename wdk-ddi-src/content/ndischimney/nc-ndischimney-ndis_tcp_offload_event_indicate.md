@@ -10,6 +10,7 @@ keywords: ["NDIS_TCP_OFFLOAD_EVENT_INDICATE callback function"]
 ms.keywords: NDIS_TCP_OFFLOAD_EVENT_INDICATE, NDIS_TCP_OFFLOAD_EVENT_INDICATE callback, NdisTcpOffloadEventHandler, NdisTcpOffloadEventHandler callback function [Network Drivers Starting with Windows Vista], ndischimney/NdisTcpOffloadEventHandler, netvista.ndistcpoffloadeventhandler, tcp_chim_ndis_func_24cca7c4-aa36-4ff3-8896-93bd0b8517af.xml
 f1_keywords:
  - "ndischimney/NdisTcpOffloadEventHandler"
+ - "NdisTcpOffloadEventHandler"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - ndischimney.h
 api_name:
 - NdisTcpOffloadEventHandler
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

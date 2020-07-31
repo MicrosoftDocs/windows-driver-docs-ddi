@@ -8,6 +8,7 @@ ms.date: 10/19/2018
 keywords: ["_NVME_RESERVED_QUEUES_CREATE_RESPONSE structure"]
 f1_keywords:
  - "ntddstor/_NVME_RESERVED_QUEUES_CREATE_RESPONSE"
+ - "_NVME_RESERVED_QUEUES_CREATE_RESPONSE"
 ms.keywords: _NVME_RESERVED_QUEUES_CREATE_RESPONSE, NVME_RESERVED_QUEUES_CREATE_RESPONSE, *PNVME_RESERVED_QUEUES_CREATE_RESPONSE, 
 req.header: ntddstor.h
 req.include-header:
@@ -30,8 +31,6 @@ api_location:
 - ntddstor.h
 api_name: 
 - _NVME_RESERVED_QUEUES_CREATE_RESPONSE
-product:
-- Windows
 targetos: Windows
 ---
 

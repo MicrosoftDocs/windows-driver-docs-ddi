@@ -10,6 +10,7 @@ keywords: ["InterlockedXor function"]
 ms.keywords: InterlockedXor, InterlockedXor routine [Kernel-Mode Driver Architecture], k102_7b4b6df0-2179-4a6a-941d-5aaa95609cd8.xml, kernel.interlockedxor, wdm/InterlockedXor
 f1_keywords:
  - "wdm/InterlockedXor"
+ - "InterlockedXor"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Miniport.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - InterlockedXor
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

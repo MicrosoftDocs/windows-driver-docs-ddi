@@ -10,6 +10,7 @@ keywords: ["IWDFObject::RetrieveContext"]
 ms.keywords: IWDFObject interface,RetrieveContext method, IWDFObject.RetrieveContext, IWDFObject::RetrieveContext, RetrieveContext, RetrieveContext method, RetrieveContext method,IWDFObject interface, UMDFBaseObjectRef_e12f4a9b-d71b-4fc1-96df-0244b7513f32.xml, umdf.iwdfobject_retrievecontext, wdf.iwdfobject_retrievecontext, wudfddi/IWDFObject::RetrieveContext
 f1_keywords:
  - "wudfddi/IWDFObject.RetrieveContext"
+ - "IWDFObject.RetrieveContext"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFObject.RetrieveContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

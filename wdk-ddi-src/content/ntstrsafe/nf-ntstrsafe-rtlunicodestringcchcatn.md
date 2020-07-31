@@ -10,6 +10,7 @@ keywords: ["RtlUnicodeStringCchCatN function"]
 ms.keywords: RtlUnicodeStringCchCatN, RtlUnicodeStringCchCatN function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcchcatn, ntstrsafe/RtlUnicodeStringCchCatN, safestrings_3958e107-6da7-4bf5-a592-097ddb52c1b2.xml
 f1_keywords:
  - "ntstrsafe/RtlUnicodeStringCchCatN"
+ - "RtlUnicodeStringCchCatN"
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Ntstrsafe.dll
 api_name:
 - RtlUnicodeStringCchCatN
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

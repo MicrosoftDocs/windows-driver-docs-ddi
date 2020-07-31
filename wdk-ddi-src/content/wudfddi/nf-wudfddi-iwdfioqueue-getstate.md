@@ -10,6 +10,7 @@ keywords: ["IWDFIoQueue::GetState"]
 ms.keywords: GetState, GetState method, GetState method,IWDFIoQueue interface, IWDFIoQueue interface,GetState method, IWDFIoQueue.GetState, IWDFIoQueue::GetState, UMDFQueueObjectRef_81051128-228b-476a-b27f-5c542558d8a8.xml, umdf.iwdfioqueue_getstate, wdf.iwdfioqueue_getstate, wudfddi/IWDFIoQueue::GetState
 f1_keywords:
  - "wudfddi/IWDFIoQueue.GetState"
+ - "IWDFIoQueue.GetState"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFIoQueue.GetState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

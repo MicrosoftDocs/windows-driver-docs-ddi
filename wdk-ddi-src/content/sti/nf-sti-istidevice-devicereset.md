@@ -10,6 +10,7 @@ keywords: ["IStiDevice::DeviceReset"]
 ms.keywords: DeviceReset, DeviceReset method [Imaging Devices], DeviceReset method [Imaging Devices],IStiDevice interface, IStiDevice interface [Imaging Devices],DeviceReset method, IStiDevice.DeviceReset, IStiDevice::DeviceReset, image.istidevice_devicereset, sti/IStiDevice::DeviceReset, stifnc_ef289b1a-3123-4e1e-b643-688a10e69e36.xml
 f1_keywords:
  - "sti/IStiDevice.DeviceReset"
+ - "IStiDevice.DeviceReset"
 req.header: sti.h
 req.include-header: Sti.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Sti.h
 api_name:
 - IStiDevice.DeviceReset
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

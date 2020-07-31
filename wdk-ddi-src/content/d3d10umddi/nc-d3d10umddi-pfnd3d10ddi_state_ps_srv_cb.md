@@ -9,6 +9,7 @@ keywords: ["PFND3D10DDI_STATE_PS_SRV_CB callback function"]
 ms.keywords: PFND3D10DDI_STATE_PS_SRV_CB, PFND3D10DDI_STATE_PS_SRV_CB callback, d3d10state_functions_39451a84-f247-4325-bcc0-b9ee23c2cfe3.xml, d3d10umddi/pfnStatePsSrvCb, display.pfnstatepssrvcb, pfnStatePsSrvCb, pfnStatePsSrvCb callback function [Display Devices]
 f1_keywords:
  - "d3d10umddi/pfnStatePsSrvCb"
+ - "pfnStatePsSrvCb"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - pfnStatePsSrvCb
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

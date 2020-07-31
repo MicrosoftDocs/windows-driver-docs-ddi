@@ -10,6 +10,7 @@ keywords: ["IQueueCallbackWrite::OnWrite"]
 ms.keywords: IQueueCallbackWrite interface,OnWrite method, IQueueCallbackWrite.OnWrite, IQueueCallbackWrite::OnWrite, OnWrite, OnWrite method, OnWrite method,IQueueCallbackWrite interface, UMDFQueueObjectRef_77d33d9d-856e-4b3b-818d-37b0ad6889a7.xml, umdf.iqueuecallbackwrite_onwrite, wdf.iqueuecallbackwrite_onwrite, wudfddi/IQueueCallbackWrite::OnWrite
 f1_keywords:
  - "wudfddi/IQueueCallbackWrite.OnWrite"
+ - "IQueueCallbackWrite.OnWrite"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wudfddi.h
 api_name:
 - IQueueCallbackWrite.OnWrite
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -31,7 +31,8 @@ api_name:
  - WHEAP_PLUGIN_PFA_EVENT
 f1_keywords:
  - ntddk/_WHEAP_PLUGIN_PFA_EVENT
- - ntddk/WHEAP_PLUGIN_PFA_EVENT
+ - ntddk//WHEAP_PLUGIN_PFA_EVENT
+ - WHEAP_PLUGIN_PFA_EVENT
 dev_langs:
  - c++
 ---

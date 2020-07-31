@@ -8,6 +8,7 @@ ms.date: 08/20/2018
 keywords: ["_WWAN_SAR_WIFI_HARDWARE_INTEGRATION enumeration"]
 f1_keywords:
  - "wwan/_WWAN_SAR_WIFI_HARDWARE_INTEGRATION"
+ - "_WWAN_SAR_WIFI_HARDWARE_INTEGRATION"
 ms.keywords: _WWAN_SAR_WIFI_HARDWARE_INTEGRATION, WWAN_SAR_WIFI_HARDWARE_INTEGRATION, *PWWAN_SAR_WIFI_HARDWARE_INTEGRATION, 
 req.header: wwan.h
 req.include-header:
@@ -27,8 +28,6 @@ api_location:
 - wwan.h
 api_name: 
 - _WWAN_SAR_WIFI_HARDWARE_INTEGRATION
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

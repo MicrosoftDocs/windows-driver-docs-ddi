@@ -10,6 +10,7 @@ keywords: ["NdisMSetVirtualFunctionBusData function"]
 ms.keywords: NdisMSetVirtualFunctionBusData, NdisMSetVirtualFunctionBusData function [Network Drivers Starting with Windows Vista], ndis/NdisMSetVirtualFunctionBusData, netvista.ndismsetvirtualfunctionbusdata
 f1_keywords:
  - "ndis/NdisMSetVirtualFunctionBusData"
+ - "NdisMSetVirtualFunctionBusData"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisMSetVirtualFunctionBusData
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

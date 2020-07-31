@@ -10,6 +10,7 @@ keywords: ["IDebugControl5::GetBreakpointByGuid"]
 ms.keywords: GetBreakpointByGuid, GetBreakpointByGuid method [Windows Debugging], GetBreakpointByGuid method [Windows Debugging],IDebugControl5 interface, IDebugControl5 interface [Windows Debugging],GetBreakpointByGuid method, IDebugControl5.GetBreakpointByGuid, IDebugControl5::GetBreakpointByGuid, dbgeng/IDebugControl5::GetBreakpointByGuid, debugger.idebugcontrol5_getbreakpointbyguid
 f1_keywords:
  - "dbgeng/IDebugControl5.GetBreakpointByGuid"
+ - "IDebugControl5.GetBreakpointByGuid"
 req.header: dbgeng.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugControl5.GetBreakpointByGuid
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["HW_RESET_BUS callback function"]
 ms.keywords: HW_RESET_BUS, HwStorResetBus, HwStorResetBus routine [Storage Devices], storage.hwstorresetbus, stormini_b3051379-4caa-4502-9492-a21672cfbf0d.xml, storport/HwStorResetBus
 f1_keywords:
  - "storport/HwStorResetBus"
+ - "HwStorResetBus"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Storport.h
 api_name:
 - HwStorResetBus
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

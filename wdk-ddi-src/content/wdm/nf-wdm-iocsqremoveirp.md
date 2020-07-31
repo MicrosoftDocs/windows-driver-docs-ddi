@@ -10,6 +10,7 @@ keywords: ["IoCsqRemoveIrp function"]
 ms.keywords: IoCsqRemoveIrp, IoCsqRemoveIrp routine [Kernel-Mode Driver Architecture], k104_9a940115-fcbd-4e46-b7a5-10dc7fad7bda.xml, kernel.iocsqremoveirp, wdm/IoCsqRemoveIrp
 f1_keywords:
  - "wdm/IoCsqRemoveIrp"
+ - "IoCsqRemoveIrp"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoCsqRemoveIrp
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

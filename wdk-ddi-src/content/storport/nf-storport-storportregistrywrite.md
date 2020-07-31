@@ -10,6 +10,7 @@ keywords: ["StorPortRegistryWrite function"]
 ms.keywords: StorPortRegistryWrite, StorPortRegistryWrite routine [Storage Devices], storage.storportregistrywrite, storport/StorPortRegistryWrite, storprt_dda4d4a4-d312-4076-8b72-842517a701c5.xml
 f1_keywords:
  - "storport/StorPortRegistryWrite"
+ - "StorPortRegistryWrite"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Storport.dll
 api_name:
 - StorPortRegistryWrite
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

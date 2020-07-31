@@ -10,6 +10,7 @@ keywords: ["IKeywordDetectorOemAdapter interface"]
 ms.keywords: IKeywordDetectorOemAdapter, IKeywordDetectorOemAdapter interface [Audio Devices], IKeywordDetectorOemAdapter interface [Audio Devices],described, audio.ikeyworddetectoroemadapter, keyworddetectoroemadapter/IKeywordDetectorOemAdapter
 f1_keywords:
  - "keyworddetectoroemadapter/IKeywordDetectorOemAdapter"
+ - "IKeywordDetectorOemAdapter"
 req.header: keyworddetectoroemadapter.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - keyworddetectoroemadapter.h
 api_name:
 - IKeywordDetectorOemAdapter
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

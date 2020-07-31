@@ -10,6 +10,7 @@ keywords: ["DOT11EXT_SET_EXCLUDE_UNENCRYPTED callback"]
 ms.keywords: DOT11EXT_SET_EXCLUDE_UNENCRYPTED, Dot11ExtSetExcludeUnencrypted, Dot11ExtSetExcludeUnencrypted callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_aa6f594d-e5b7-4ba0-9ad8-deb42f6c23ad.xml, netvista.dot11extsetexcludeunencrypted, wlanihv/Dot11ExtSetExcludeUnencrypted
 f1_keywords:
  - "wlanihv/Dot11ExtSetExcludeUnencrypted"
+ - "Dot11ExtSetExcludeUnencrypted"
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wlanihv.h
 api_name:
 - Dot11ExtSetExcludeUnencrypted
-product:
-- Windows
 targetos: Windows
 req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.

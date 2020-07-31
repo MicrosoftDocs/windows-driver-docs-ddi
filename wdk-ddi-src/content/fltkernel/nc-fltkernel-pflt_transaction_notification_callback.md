@@ -10,6 +10,7 @@ keywords: ["PFLT_TRANSACTION_NOTIFICATION_CALLBACK callback function"]
 ms.keywords: FltCallbacks_e4045561-4dc3-44eb-b5c6-086e767f9c22.xml, PFLT_TRANSACTION_NOTIFICATION_CALLBACK, TransactionNotificationCallback, TransactionNotificationCallback routine [Installable File System Drivers], fltkernel/TransactionNotificationCallback, ifsk.pflt_transaction_notification_callback
 f1_keywords:
  - "fltkernel/TransactionNotificationCallback"
+ - "TransactionNotificationCallback"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - fltkernel.h
 api_name:
 - TransactionNotificationCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

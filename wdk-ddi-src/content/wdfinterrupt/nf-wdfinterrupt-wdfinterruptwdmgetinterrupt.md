@@ -10,6 +10,7 @@ keywords: ["WdfInterruptWdmGetInterrupt function"]
 ms.keywords: DFInterruptObjectRef_72a56280-07d3-43c1-99f9-68dc3323fe86.xml, WdfInterruptWdmGetInterrupt, WdfInterruptWdmGetInterrupt method, kmdf.wdfinterruptwdmgetinterrupt, wdf.wdfinterruptwdmgetinterrupt, wdfinterrupt/WdfInterruptWdmGetInterrupt
 f1_keywords:
  - "wdfinterrupt/WdfInterruptWdmGetInterrupt"
+ - "WdfInterruptWdmGetInterrupt"
 req.header: wdfinterrupt.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfInterruptWdmGetInterrupt
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

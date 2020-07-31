@@ -10,6 +10,7 @@ keywords: ["EVT_UFX_DEVICE_HOST_DISCONNECT callback function"]
 ms.keywords: EVT_UFX_DEVICE_HOST_DISCONNECT, EVT_UFX_DEVICE_HOST_DISCONNECT callback, EvtUfxDeviceHostDisconnect, EvtUfxDeviceHostDisconnect callback function [Buses], PFN_UFX_DEVICE_HOST_DISCONNECT, PFN_UFX_DEVICE_HOST_DISCONNECT callback function pointer [Buses], buses.evt_ufx_device_host_disconnect, ufxclient/EvtUfxDeviceHostDisconnect
 f1_keywords:
  - "ufxclient/PFN_UFX_DEVICE_HOST_DISCONNECT"
+ - "PFN_UFX_DEVICE_HOST_DISCONNECT"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ufxclient.h
 api_name:
 - PFN_UFX_DEVICE_HOST_DISCONNECT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

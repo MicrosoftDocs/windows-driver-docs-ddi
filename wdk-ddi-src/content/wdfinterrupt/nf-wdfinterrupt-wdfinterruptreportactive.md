@@ -10,6 +10,7 @@ keywords: ["WdfInterruptReportActive function"]
 ms.keywords: WdfInterruptReportActive, WdfInterruptReportActive method, kmdf._wdfinterruptreportactive, kmdf.wdfinterruptreportactive, wdf.wdfinterruptreportactive, wdfinterrupt/WdfInterruptReportActive
 f1_keywords:
  - "wdfinterrupt/WdfInterruptReportActive"
+ - "WdfInterruptReportActive"
 req.header: wdfinterrupt.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfInterruptReportActive
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

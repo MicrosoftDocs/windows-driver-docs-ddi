@@ -10,6 +10,7 @@ keywords: ["IPrinterScriptablePropertyBag::GetBytes"]
 ms.keywords: GetBytes, GetBytes method [Print Devices], GetBytes method [Print Devices],IPrinterScriptablePropertyBag interface, IPrinterScriptablePropertyBag interface [Print Devices],GetBytes method, IPrinterScriptablePropertyBag.GetBytes, IPrinterScriptablePropertyBag::GetBytes, print.iprinterscriptablepropertybag_getbytes, printerextension/IPrinterScriptablePropertyBag::GetBytes
 f1_keywords:
  - "printerextension/IPrinterScriptablePropertyBag.GetBytes"
+ - "IPrinterScriptablePropertyBag.GetBytes"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Printerextension.h
 api_name:
 - IPrinterScriptablePropertyBag.GetBytes
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

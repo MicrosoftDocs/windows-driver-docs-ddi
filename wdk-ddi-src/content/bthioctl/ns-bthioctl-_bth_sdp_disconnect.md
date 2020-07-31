@@ -10,6 +10,7 @@ keywords: ["_BTH_SDP_DISCONNECT structure"]
 ms.keywords: "*PBTH_SDP_DISCONNECT, BTH_SDP_DISCONNECT, BTH_SDP_DISCONNECT structure [Bluetooth Devices], PBTH_SDP_DISCONNECT, PBTH_SDP_DISCONNECT structure pointer [Bluetooth Devices], _BTH_SDP_DISCONNECT, bltooth.bth_sdp_disconnect, bth_structs_049df802-3bad-49b0-b80e-f3b0a1579b72.xml, bthioctl/BTH_SDP_DISCONNECT, bthioctl/PBTH_SDP_DISCONNECT"
 f1_keywords:
  - "bthioctl/BTH_SDP_DISCONNECT"
+ - "BTH_SDP_DISCONNECT"
 req.header: bthioctl.h
 req.include-header: Bthioctl.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - bthioctl.h
 api_name:
 - BTH_SDP_DISCONNECT
-product:
-- Windows
 targetos: Windows
 req.typenames: BTH_SDP_DISCONNECT, *PBTH_SDP_DISCONNECT
 ---

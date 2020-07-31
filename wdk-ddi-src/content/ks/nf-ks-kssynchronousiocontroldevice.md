@@ -10,6 +10,7 @@ keywords: ["KsSynchronousIoControlDevice function"]
 ms.keywords: KsSynchronousIoControlDevice, KsSynchronousIoControlDevice function [Streaming Media Devices], ks/KsSynchronousIoControlDevice, ksfunc_b3bba8f7-d9fb-4372-bfff-f39b4d925561.xml, stream.kssynchronousiocontroldevice
 f1_keywords:
  - "ks/KsSynchronousIoControlDevice"
+ - "KsSynchronousIoControlDevice"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsSynchronousIoControlDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

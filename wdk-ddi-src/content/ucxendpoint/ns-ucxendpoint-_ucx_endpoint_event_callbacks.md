@@ -10,6 +10,7 @@ keywords: ["_UCX_ENDPOINT_EVENT_CALLBACKS structure"]
 ms.keywords: "*PUCX_ENDPOINT_EVENT_CALLBACKS, P_UCX_ENDPOINT_EVENT_CALLBACKS, P_UCX_ENDPOINT_EVENT_CALLBACKS structure pointer [Buses], UCX_ENDPOINT_EVENT_CALLBACKS, UCX_ENDPOINT_EVENT_CALLBACKS structure [Buses], _UCX_ENDPOINT_EVENT_CALLBACKS, buses._ucx_endpoint_event_callbacks, ucxendpoint/P_UCX_ENDPOINT_EVENT_CALLBACKS, ucxendpoint/_UCX_ENDPOINT_EVENT_CALLBACKS"
 f1_keywords:
  - "ucxendpoint/UCX_ENDPOINT_EVENT_CALLBACKS"
+ - "UCX_ENDPOINT_EVENT_CALLBACKS"
 req.header: ucxendpoint.h
 req.include-header: Ucxclass.h, Ucxendpoint.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ucxendpoint.h
 api_name:
 - UCX_ENDPOINT_EVENT_CALLBACKS
-product:
-- Windows
 targetos: Windows
 req.typenames: UCX_ENDPOINT_EVENT_CALLBACKS, *PUCX_ENDPOINT_EVENT_CALLBACKS
 ---

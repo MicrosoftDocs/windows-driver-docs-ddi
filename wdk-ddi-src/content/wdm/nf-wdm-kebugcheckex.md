@@ -10,6 +10,7 @@ keywords: ["KeBugCheckEx function"]
 ms.keywords: KeBugCheckEx, KeBugCheckEx routine [Kernel-Mode Driver Architecture], k105_17af10bb-b21d-408e-bf73-421ce705d117.xml, kernel.kebugcheckex, wdm/KeBugCheckEx
 f1_keywords:
  - "wdm/KeBugCheckEx"
+ - "KeBugCheckEx"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeBugCheckEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

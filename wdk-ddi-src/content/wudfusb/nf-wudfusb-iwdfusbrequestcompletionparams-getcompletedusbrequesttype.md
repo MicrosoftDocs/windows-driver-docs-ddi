@@ -10,6 +10,7 @@ keywords: ["IWDFUsbRequestCompletionParams::GetCompletedUsbRequestType"]
 ms.keywords: GetCompletedUsbRequestType, GetCompletedUsbRequestType method, GetCompletedUsbRequestType method,IWDFUsbRequestCompletionParams interface, IWDFUsbRequestCompletionParams interface,GetCompletedUsbRequestType method, IWDFUsbRequestCompletionParams.GetCompletedUsbRequestType, IWDFUsbRequestCompletionParams::GetCompletedUsbRequestType, UMDFRequestObjectRef_9b863f1d-1684-4d87-a7a0-41747dba6aff.xml, umdf.iwdfusbrequestcompletionparams_getcompletedusbrequesttype, wdf.iwdfusbrequestcompletionparams_getcompletedusbrequesttype, wudfusb/IWDFUsbRequestCompletionParams::GetCompletedUsbRequestType
 f1_keywords:
  - "wudfusb/IWDFUsbRequestCompletionParams.GetCompletedUsbRequestType"
+ - "IWDFUsbRequestCompletionParams.GetCompletedUsbRequestType"
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFUsbRequestCompletionParams.GetCompletedUsbRequestType
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

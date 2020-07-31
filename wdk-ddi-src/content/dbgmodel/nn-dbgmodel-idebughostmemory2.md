@@ -7,6 +7,7 @@ ms.date: 06/11/2019
 keywords: ["IDebugHostMemory2 interface"]
 f1_keywords:
  - "dbgmodel/IDebugHostMemory2"
+ - "IDebugHostMemory2"
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -28,8 +29,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostMemory2
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

@@ -10,6 +10,7 @@ keywords: ["DrmGetContentRights function"]
 ms.keywords: DrmGetContentRights, DrmGetContentRights function [Audio Devices], aud-prop2_9f836831-bb65-45d1-8701-4aaa77999b81.xml, audio.drmgetcontentrights, drmk/DrmGetContentRights
 f1_keywords:
  - "drmk/DrmGetContentRights"
+ - "DrmGetContentRights"
 req.header: drmk.h
 req.include-header: Drmk.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Drmk.dll
 api_name:
 - DrmGetContentRights
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

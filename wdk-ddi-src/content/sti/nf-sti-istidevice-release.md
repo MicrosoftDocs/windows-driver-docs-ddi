@@ -10,6 +10,7 @@ keywords: ["IStiDevice::Release"]
 ms.keywords: IStiDevice interface [Imaging Devices],Release method, IStiDevice.Release, IStiDevice::Release, Release, Release method [Imaging Devices], Release method [Imaging Devices],IStiDevice interface, image.istidevice_release, sti/IStiDevice::Release, stifnc_70352bce-ba09-45c1-97a8-add180942d05.xml
 f1_keywords:
  - "sti/IStiDevice.Release"
+ - "IStiDevice.Release"
 req.header: sti.h
 req.include-header: Sti.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Sti.h
 api_name:
 - IStiDevice.Release
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

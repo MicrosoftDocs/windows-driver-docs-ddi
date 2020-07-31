@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_CREATEBUNDLEOBJECT structure"]
 ms.keywords: D3DKMT_CREATEBUNDLEOBJECT, D3DKMT_CREATEBUNDLEOBJECT structure [Display Devices], _D3DKMT_CREATEBUNDLEOBJECT, d3dkmthk/D3DKMT_CREATEBUNDLEOBJECT, display.d3dkmt-createbundleobject
 f1_keywords:
  - "d3dkmthk/D3DKMT_CREATEBUNDLEOBJECT"
+ - "D3DKMT_CREATEBUNDLEOBJECT"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMT_CREATEBUNDLEOBJECT
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_CREATEBUNDLEOBJECT

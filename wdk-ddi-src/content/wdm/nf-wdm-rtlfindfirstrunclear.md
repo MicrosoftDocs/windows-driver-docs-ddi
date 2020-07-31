@@ -10,6 +10,7 @@ keywords: ["RtlFindFirstRunClear function"]
 ms.keywords: RtlFindFirstRunClear, RtlFindFirstRunClear routine [Kernel-Mode Driver Architecture], k109_9ccc7e63-f136-4625-83c1-bf38a534307e.xml, kernel.rtlfindfirstrunclear, wdm/RtlFindFirstRunClear
 f1_keywords:
  - "wdm/RtlFindFirstRunClear"
+ - "RtlFindFirstRunClear"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlFindFirstRunClear
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

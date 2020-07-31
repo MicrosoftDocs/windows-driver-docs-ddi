@@ -9,6 +9,7 @@ keywords: ["PFND3DKMT_OFFERALLOCATIONS callback function"]
 ms.keywords: D3DKMTOfferAllocations, D3DKMTOfferAllocations callback function [Display Devices], PFND3DKMT_OFFERALLOCATIONS, PFND3DKMT_OFFERALLOCATIONS callback, d3dkmthk/D3DKMTOfferAllocations, display.d3dkmtofferallocations
 f1_keywords:
  - "d3dkmthk/D3DKMTOfferAllocations"
+ - "D3DKMTOfferAllocations"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -35,8 +36,6 @@ api_location:
 - D3dkmthk.h
 api_name:
 - D3DKMTOfferAllocations
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

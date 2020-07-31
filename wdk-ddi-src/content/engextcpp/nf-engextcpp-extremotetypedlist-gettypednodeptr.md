@@ -10,6 +10,7 @@ keywords: ["ExtRemoteTypedList::GetTypedNodePtr"]
 ms.keywords: EngExtCpp_Ref_f007b7c1-89b0-43fa-95e3-792a3272b56d.xml, ExtRemoteTypedList class [Windows Debugging],GetTypedNodePtr method, ExtRemoteTypedList.GetTypedNodePtr, ExtRemoteTypedList::GetTypedNodePtr, GetTypedNodePtr, GetTypedNodePtr method [Windows Debugging], GetTypedNodePtr method [Windows Debugging],ExtRemoteTypedList class, debugger.extremotetypedlist_gettypednodeptr
 f1_keywords:
  - "engextcpp/ExtRemoteTypedList.GetTypedNodePtr"
+ - "ExtRemoteTypedList.GetTypedNodePtr"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - engextcpp.hpp
 api_name:
 - ExtRemoteTypedList.GetTypedNodePtr
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

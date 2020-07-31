@@ -10,6 +10,7 @@ keywords: ["ExtExtension::SetUnnamedArg"]
 ms.keywords: EngExtCpp_Ref_662530e0-caca-43f0-8b46-b21c8a1f00da.xml, ExtExtension class [Windows Debugging],SetUnnamedArg method, ExtExtension.SetUnnamedArg, ExtExtension::SetUnnamedArg, SetUnnamedArg, SetUnnamedArg method [Windows Debugging], SetUnnamedArg method [Windows Debugging],ExtExtension class, debugger.setunnamedarg
 f1_keywords:
  - "engextcpp/ExtExtension.SetUnnamedArg"
+ - "ExtExtension.SetUnnamedArg"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Engextcpp.hpp
 api_name:
 - ExtExtension.SetUnnamedArg
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

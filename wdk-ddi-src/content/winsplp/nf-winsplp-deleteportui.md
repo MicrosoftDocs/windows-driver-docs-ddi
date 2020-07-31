@@ -10,6 +10,7 @@ keywords: ["DeletePortUI function"]
 ms.keywords: DeletePortUI, pfnDeletePortUI, pfnDeletePortUI function [Print Devices], print.deleteportui, spoolfnc_9b9b8660-cc30-49ea-aea1-163eef7ab973.xml, winsplp/pfnDeletePortUI
 f1_keywords:
  - "winsplp/pfnDeletePortUI"
+ - "pfnDeletePortUI"
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - winsplp.h
 api_name:
 - pfnDeletePortUI
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

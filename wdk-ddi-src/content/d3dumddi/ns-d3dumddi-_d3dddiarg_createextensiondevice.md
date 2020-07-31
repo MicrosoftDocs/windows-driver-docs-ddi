@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_CREATEEXTENSIONDEVICE structure"]
 ms.keywords: D3DDDIARG_CREATEEXTENSIONDEVICE, D3DDDIARG_CREATEEXTENSIONDEVICE structure [Display Devices], UMDisplayDriver_param_Structs_edb27385-af11-4750-aa90-854e21ee11a0.xml, _D3DDDIARG_CREATEEXTENSIONDEVICE, d3dumddi/D3DDDIARG_CREATEEXTENSIONDEVICE, display.d3dddiarg_createextensiondevice
 f1_keywords:
  - "d3dumddi/D3DDDIARG_CREATEEXTENSIONDEVICE"
+ - "D3DDDIARG_CREATEEXTENSIONDEVICE"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDIARG_CREATEEXTENSIONDEVICE
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_CREATEEXTENSIONDEVICE
 ---

@@ -10,6 +10,7 @@ keywords: ["PFNPROPSHEETUI callback function"]
 ms.keywords: PFNPROPSHEETUI, PFNPROPSHEETUI callback, PFNPROPSHEETUI callback function [Print Devices], compstui/PFNPROPSHEETUI, cpsuifnc_a30dfbce-634a-4eb9-b86c-fdd14d8333fd.xml, print.pfnpropsheetui
 f1_keywords:
  - "compstui/PFNPROPSHEETUI"
+ - "PFNPROPSHEETUI"
 req.header: compstui.h
 req.include-header: Compstui.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - compstui.h
 api_name:
 - PFNPROPSHEETUI
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

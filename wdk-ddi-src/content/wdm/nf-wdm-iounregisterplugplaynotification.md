@@ -10,6 +10,7 @@ keywords: ["IoUnregisterPlugPlayNotification function"]
 ms.keywords: IoUnregisterPlugPlayNotification, IoUnregisterPlugPlayNotification routine [Kernel-Mode Driver Architecture], k104_7235d17c-b6f8-406a-b896-36478354ca73.xml, kernel.iounregisterplugplaynotification, wdm/IoUnregisterPlugPlayNotification
 f1_keywords:
  - "wdm/IoUnregisterPlugPlayNotification"
+ - "IoUnregisterPlugPlayNotification"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoUnregisterPlugPlayNotification
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

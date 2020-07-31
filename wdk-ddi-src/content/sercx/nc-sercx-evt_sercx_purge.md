@@ -10,6 +10,7 @@ keywords: ["EVT_SERCX_PURGE callback function"]
 ms.keywords: 1/EvtSerCxPurge, EVT_SERCX_PURGE, EVT_SERCX_PURGE callback, EvtSerCxPurge, EvtSerCxPurge callback function [Serial Ports], serports.evtsercxpurge
 f1_keywords:
  - "sercx/EvtSerCxPurge"
+ - "EvtSerCxPurge"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - 1.0\Sercx.h
 api_name:
 - EvtSerCxPurge
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

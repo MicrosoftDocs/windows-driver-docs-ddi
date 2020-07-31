@@ -10,6 +10,7 @@ keywords: ["KsRecalculateStackDepth function"]
 ms.keywords: KsRecalculateStackDepth, KsRecalculateStackDepth , KsRecalculateStackDepth function [Streaming Media Devices], ks/KsRecalculateStackDepth, ksfunc_745f6176-dc53-467f-885e-028da49b81a1.xml, stream.ksrecalculatestackdepth
 f1_keywords:
  - "ks/KsRecalculateStackDepth"
+ - "KsRecalculateStackDepth"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsRecalculateStackDepth
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

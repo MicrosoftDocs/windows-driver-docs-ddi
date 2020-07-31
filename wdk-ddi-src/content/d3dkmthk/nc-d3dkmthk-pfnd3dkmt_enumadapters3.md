@@ -7,6 +7,7 @@ ms.date: 03/24/2020
 keywords: ["PFND3DKMT_ENUMADAPTERS3 callback function"]
 f1_keywords:
  - "d3dkmthk/PFND3DKMT_ENUMADAPTERS3"
+ - "PFND3DKMT_ENUMADAPTERS3"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -32,8 +33,6 @@ api_location:
 - d3dkmthk.h
 api_name: 
 - PFND3DKMT_ENUMADAPTERS3
-product:
-- Windows
 targetos: Windows
 ms.custom:
 dev_langs:

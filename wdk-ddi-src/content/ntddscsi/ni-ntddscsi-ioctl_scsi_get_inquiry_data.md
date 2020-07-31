@@ -10,6 +10,7 @@ keywords: ["IOCTL_SCSI_GET_INQUIRY_DATA IOCTL"]
 ms.keywords: IOCTL_SCSI_GET_INQUIRY_DATA, IOCTL_SCSI_GET_INQUIRY_DATA control, IOCTL_SCSI_GET_INQUIRY_DATA control code [Storage Devices], k307_7565e2a4-7599-4c7e-8da1-24349978627e.xml, ntddscsi/IOCTL_SCSI_GET_INQUIRY_DATA, storage.ioctl_scsi_get_inquiry_data
 f1_keywords:
  - "ntddscsi/IOCTL_SCSI_GET_INQUIRY_DATA"
+ - "IOCTL_SCSI_GET_INQUIRY_DATA"
 req.header: ntddscsi.h
 req.include-header: Ntddscsi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddscsi.h
 api_name:
 - IOCTL_SCSI_GET_INQUIRY_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

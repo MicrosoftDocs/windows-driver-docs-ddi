@@ -10,6 +10,7 @@ keywords: ["NdisMMapIoSpace function"]
 ms.keywords: NdisMMapIoSpace, NdisMMapIoSpace function [Network Drivers Starting with Windows Vista], miniport_memory_mapped_ref_b346fbc3-62d5-447e-82af-329afbafdb73.xml, ndis/NdisMMapIoSpace, netvista.ndismmapiospace
 f1_keywords:
  - "ndis/NdisMMapIoSpace"
+ - "NdisMMapIoSpace"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisMMapIoSpace
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

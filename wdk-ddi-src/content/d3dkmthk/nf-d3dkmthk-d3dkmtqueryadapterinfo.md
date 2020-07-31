@@ -9,6 +9,7 @@ keywords: ["D3DKMTQueryAdapterInfo function"]
 ms.keywords: D3DKMTQueryAdapterInfo, D3DKMTQueryAdapterInfo function [Display Devices], OpenGL_Functions_124c9878-58d2-414b-8b3c-392748ca5361.xml, d3dkmthk/D3DKMTQueryAdapterInfo, display.d3dkmtqueryadapterinfo
 f1_keywords:
  - "d3dkmthk/D3DKMTQueryAdapterInfo"
+ - "D3DKMTQueryAdapterInfo"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -38,8 +39,6 @@ api_location:
 - API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 - D3DKMTQueryAdapterInfo
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

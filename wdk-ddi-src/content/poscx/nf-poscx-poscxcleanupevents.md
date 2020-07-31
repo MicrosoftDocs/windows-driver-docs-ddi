@@ -10,6 +10,7 @@ keywords: ["PosCxCleanupEvents function"]
 ms.keywords: PosCxCleanupEvents, PosCxCleanupEvents function, pos.poscxcleanupevents, poscx/PosCxCleanupEvents
 f1_keywords:
  - "poscx/PosCxCleanupEvents"
+ - "PosCxCleanupEvents"
 req.header: poscx.h
 req.include-header: Poscx.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - poscx.h
 api_name:
 - PosCxCleanupEvents
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 req.product: Windows 10 or later.

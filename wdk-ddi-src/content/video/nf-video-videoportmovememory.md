@@ -10,6 +10,7 @@ keywords: ["VideoPortMoveMemory function"]
 ms.keywords: VideoPortMoveMemory, VideoPortMoveMemory function [Display Devices], VideoPort_Functions_ab574585-85be-48ea-9713-25867812699a.xml, display.videoportmovememory, video/VideoPortMoveMemory
 f1_keywords:
  - "video/VideoPortMoveMemory"
+ - "VideoPortMoveMemory"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Videoprt.sys
 api_name:
 - VideoPortMoveMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["_WWAN_ACE_STATE enumeration"]
 ms.keywords: "*PWWAN_ACE_STATE, WWAN_ACE_STATE, WWAN_ACE_STATE enumeration [Network Drivers Starting with Windows Vista], WwanAutoOff, WwanAutoOn, WwanManualOff, WwanManualOn, _WWAN_ACE_STATE, netvista.wwan_ace_state, wwan/WWAN_ACE_STATE, wwan/WwanAutoOff, wwan/WwanAutoOn, wwan/WwanManualOff, wwan/WwanManualOn"
 f1_keywords:
  - "wwan/WWAN_ACE_STATE"
+ - "WWAN_ACE_STATE"
 req.header: wwan.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_ACE_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_ACE_STATE, *PWWAN_ACE_STATE
 ---

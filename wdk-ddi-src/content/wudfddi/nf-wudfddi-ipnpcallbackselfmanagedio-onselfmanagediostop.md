@@ -10,6 +10,7 @@ keywords: ["IPnpCallbackSelfManagedIo::OnSelfManagedIoStop"]
 ms.keywords: IPnpCallbackSelfManagedIo interface,OnSelfManagedIoStop method, IPnpCallbackSelfManagedIo.OnSelfManagedIoStop, IPnpCallbackSelfManagedIo::OnSelfManagedIoStop, OnSelfManagedIoStop, OnSelfManagedIoStop method, OnSelfManagedIoStop method,IPnpCallbackSelfManagedIo interface, UMDFDeviceObjectRef_d9eba21f-f9a7-48d2-a8e7-f71a735246bc.xml, umdf.ipnpcallbackselfmanagedio_onselfmanagediostop, wdf.ipnpcallbackselfmanagedio_onselfmanagediostop, wudfddi/IPnpCallbackSelfManagedIo::OnSelfManagedIoStop
 f1_keywords:
  - "wudfddi/IPnpCallbackSelfManagedIo.OnSelfManagedIoStop"
+ - "IPnpCallbackSelfManagedIo.OnSelfManagedIoStop"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wudfddi.h
 api_name:
 - IPnpCallbackSelfManagedIo.OnSelfManagedIoStop
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

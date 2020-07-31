@@ -10,6 +10,7 @@ keywords: ["RtlFindClearBitsAndSet function"]
 ms.keywords: RtlFindClearBitsAndSet, RtlFindClearBitsAndSet routine [Kernel-Mode Driver Architecture], k109_187055d4-54ce-4ede-878a-fd97079e6fdd.xml, kernel.rtlfindclearbitsandset, wdm/RtlFindClearBitsAndSet
 f1_keywords:
  - "wdm/RtlFindClearBitsAndSet"
+ - "RtlFindClearBitsAndSet"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlFindClearBitsAndSet
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

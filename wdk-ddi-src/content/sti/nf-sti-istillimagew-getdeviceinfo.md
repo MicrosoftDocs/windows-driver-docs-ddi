@@ -10,6 +10,7 @@ keywords: ["IStillImageW::GetDeviceInfo"]
 ms.keywords: GetDeviceInfo, GetDeviceInfo method [Imaging Devices], GetDeviceInfo method [Imaging Devices],IStillImageW interface, IStillImageW interface [Imaging Devices],GetDeviceInfo method, IStillImageW.GetDeviceInfo, IStillImageW::GetDeviceInfo, image.istillimage_getdeviceinfo, sti/IStillImageW::GetDeviceInfo, stifnc_a6d46551-9c0a-41f2-a5ed-ca5bc4d1b8c1.xml
 f1_keywords:
  - "sti/IStillImageW.GetDeviceInfo"
+ - "IStillImageW.GetDeviceInfo"
 req.header: sti.h
 req.include-header: Sti.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - sti.h
 api_name:
 - IStillImageW.GetDeviceInfo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

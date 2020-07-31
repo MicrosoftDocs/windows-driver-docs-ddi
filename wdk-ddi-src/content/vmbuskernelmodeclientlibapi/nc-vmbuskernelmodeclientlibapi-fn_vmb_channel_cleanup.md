@@ -8,6 +8,7 @@ ms.date: 05/21/2018
 keywords: ["FN_VMB_CHANNEL_CLEANUP callback function"]
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_CLEANUP"
+ - "FN_VMB_CHANNEL_CLEANUP"
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:
@@ -33,8 +34,6 @@ api_location:
 - vmbuskernelmodeclientlibapi.h
 api_name: 
 - FN_VMB_CHANNEL_CLEANUP
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

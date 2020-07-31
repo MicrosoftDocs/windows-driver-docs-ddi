@@ -10,6 +10,7 @@ keywords: ["IoCompleteRequest macro"]
 ms.keywords: IoCompleteRequest, IoCompleteRequest routine [Kernel-Mode Driver Architecture], k104_79ea2b93-3ce8-46eb-990b-ca3e56d3e3a8.xml, kernel.iocompleterequest, wdm/IoCompleteRequest
 f1_keywords:
  - "wdm/IoCompleteRequest"
+ - "IoCompleteRequest"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoCompleteRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

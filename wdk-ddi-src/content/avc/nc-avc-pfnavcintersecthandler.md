@@ -10,6 +10,7 @@ keywords: ["PFNAVCINTERSECTHANDLER callback"]
 ms.keywords: PFNAVCINTERSECTHANDLER, PFNAVCINTERSECTHANDLER function pointer [Streaming Media Devices], avc/PFNAVCINTERSECTHANDLER, avcref_6aa55400-08b6-4a96-af38-23e69fed1621.xml, stream.av_c_intersect_handler
 f1_keywords:
  - "avc/PFNAVCINTERSECTHANDLER"
+ - "PFNAVCINTERSECTHANDLER"
 req.header: avc.h
 req.include-header: Avc.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - avc.h
 api_name:
 - PFNAVCINTERSECTHANDLER
-product:
-- Windows
 targetos: Windows
 req.typenames: KBUGCHECK_DATA, *PKBUGCHECK_DATA
 ---

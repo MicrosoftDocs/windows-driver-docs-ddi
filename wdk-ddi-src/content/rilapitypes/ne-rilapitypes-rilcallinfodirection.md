@@ -10,6 +10,7 @@ keywords: ["RILCALLINFODIRECTION enumeration"]
 ms.keywords: RILCALLINFODIRECTION, RILCALLINFODIRECTION enumeration [Network Drivers Starting with Windows Vista], RIL_CALLDIR_MAX, RIL_CALLDIR_OUTGOING, netvista.rilcallinfodirection, ntddrilapitypes/RILCALLINFODIRECTION, ntddrilapitypes/RIL_CALLDIR_MAX, ntddrilapitypes/RIL_CALLDIR_OUTGOING
 f1_keywords:
  - "rilapitypes/RILCALLINFODIRECTION"
+ - "RILCALLINFODIRECTION"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILCALLINFODIRECTION
-product:
-- Windows
 targetos: Windows
 req.typenames: RILCALLINFODIRECTION
 ---

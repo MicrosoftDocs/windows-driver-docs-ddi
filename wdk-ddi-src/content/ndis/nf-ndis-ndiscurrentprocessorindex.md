@@ -10,6 +10,7 @@ keywords: ["NdisCurrentProcessorIndex function"]
 ms.keywords: NdisCurrentProcessorIndex, NdisCurrentProcessorIndex function [Network Drivers Starting with Windows Vista], ndis/NdisCurrentProcessorIndex, ndis_processor_group_ref_c19efe7e-be4a-4093-bd50-80d3c0588dc6.xml, netvista.ndiscurrentprocessorindex
 f1_keywords:
  - "ndis/NdisCurrentProcessorIndex"
+ - "NdisCurrentProcessorIndex"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisCurrentProcessorIndex
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

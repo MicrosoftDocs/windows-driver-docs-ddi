@@ -10,6 +10,7 @@ keywords: ["NdisInterlockedAddUlong macro"]
 ms.keywords: NdisInterlockedAddUlong, NdisInterlockedAddUlong macro [Network Drivers Starting with Windows Vista], ndis/NdisInterlockedAddUlong, ndis_interlocked_ref_0b4862c9-6897-4b73-ab23-5cd2ede3e82a.xml, netvista.ndisinterlockedaddulong
 f1_keywords:
  - "ndis/NdisInterlockedAddUlong"
+ - "NdisInterlockedAddUlong"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisInterlockedAddUlong
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

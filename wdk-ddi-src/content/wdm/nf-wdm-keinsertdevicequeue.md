@@ -10,6 +10,7 @@ keywords: ["KeInsertDeviceQueue function"]
 ms.keywords: KeInsertDeviceQueue, KeInsertDeviceQueue routine [Kernel-Mode Driver Architecture], k105_a527fbb6-bb60-4051-9983-e960d9406abe.xml, kernel.keinsertdevicequeue, wdm/KeInsertDeviceQueue
 f1_keywords:
  - "wdm/KeInsertDeviceQueue"
+ - "KeInsertDeviceQueue"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeInsertDeviceQueue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

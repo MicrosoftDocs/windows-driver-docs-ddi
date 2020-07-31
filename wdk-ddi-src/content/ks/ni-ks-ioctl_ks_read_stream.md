@@ -10,6 +10,7 @@ keywords: ["IOCTL_KS_READ_STREAM IOCTL"]
 ms.keywords: IOCTL_KS_READ_STREAM, IOCTL_KS_READ_STREAM control, IOCTL_KS_READ_STREAM control code [Streaming Media Devices], ks-ioctl_677f9dd3-bd4b-4c15-8ee1-67ede429c958.xml, ks/IOCTL_KS_READ_STREAM, stream.ioctl_ks_read_stream
 f1_keywords:
  - "ks/IOCTL_KS_READ_STREAM"
+ - "IOCTL_KS_READ_STREAM"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - IOCTL_KS_READ_STREAM
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

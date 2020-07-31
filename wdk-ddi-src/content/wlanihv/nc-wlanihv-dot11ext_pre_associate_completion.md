@@ -10,6 +10,7 @@ keywords: ["DOT11EXT_PRE_ASSOCIATE_COMPLETION callback"]
 ms.keywords: DOT11EXT_PRE_ASSOCIATE_COMPLETION, Dot11ExtPreAssociateCompletion, Dot11ExtPreAssociateCompletion callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_aca82f29-a84e-48e3-b239-754b5b49d99c.xml, netvista.dot11extpreassociatecompletion, wlanihv/Dot11ExtPreAssociateCompletion
 f1_keywords:
  - "wlanihv/Dot11ExtPreAssociateCompletion"
+ - "Dot11ExtPreAssociateCompletion"
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wlanihv.h
 api_name:
 - Dot11ExtPreAssociateCompletion
-product:
-- Windows
 targetos: Windows
 req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.

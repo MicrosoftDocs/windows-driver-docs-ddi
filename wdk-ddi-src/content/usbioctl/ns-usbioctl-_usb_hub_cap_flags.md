@@ -10,6 +10,7 @@ keywords: ["_USB_HUB_CAP_FLAGS structure"]
 ms.keywords: "*PUSB_HUB_CAP_FLAGS, PUSB_HUB_CAP_FLAGS, PUSB_HUB_CAP_FLAGS union pointer [Buses], USB_HUB_CAP_FLAGS, USB_HUB_CAP_FLAGS union [Buses], _USB_HUB_CAP_FLAGS, buses.usb_hub_cap_flags, usbioctl/PUSB_HUB_CAP_FLAGS, usbioctl/USB_HUB_CAP_FLAGS, usbstrct_0c0ca119-db83-4486-9b65-f16c70716c14.xml"
 f1_keywords:
  - "usbioctl/USB_HUB_CAP_FLAGS"
+ - "USB_HUB_CAP_FLAGS"
 req.header: usbioctl.h
 req.include-header: Usbioctl.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - usbioctl.h
 api_name:
 - USB_HUB_CAP_FLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: USB_HUB_CAP_FLAGS, *PUSB_HUB_CAP_FLAGS
 ---

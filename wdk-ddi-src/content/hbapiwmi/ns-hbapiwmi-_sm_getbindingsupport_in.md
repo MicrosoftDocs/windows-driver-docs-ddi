@@ -10,6 +10,7 @@ keywords: ["_SM_GetBindingSupport_IN structure"]
 ms.keywords: "*PSM_GetBindingSupport_IN, PSM_GetBindingSupport_IN, PSM_GetBindingSupport_IN structure pointer [Storage Devices], SM_GetBindingSupport_IN, SM_GetBindingSupport_IN structure [Storage Devices], _SM_GetBindingSupport_IN, hbapiwmi/PSM_GetBindingSupport_IN, hbapiwmi/SM_GetBindingSupport_IN, storage.sm_getbindingsupport_in, structs-Fibre_f13c3a99-7626-4dda-b0f2-8505b7aff3b5.xml"
 f1_keywords:
  - "hbapiwmi/SM_GetBindingSupport_IN"
+ - "SM_GetBindingSupport_IN"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - SM_GetBindingSupport_IN
-product:
-- Windows
 targetos: Windows
 req.typenames: SM_GetBindingSupport_IN, *PSM_GetBindingSupport_IN
 ---

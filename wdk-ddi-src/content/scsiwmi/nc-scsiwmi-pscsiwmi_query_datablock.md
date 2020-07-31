@@ -10,6 +10,7 @@ keywords: ["PSCSIWMI_QUERY_DATABLOCK callback function"]
 ms.keywords: HwScsiWmiQueryDataBlock, HwScsiWmiQueryDataBlock callback function [Storage Devices], PSCSIWMI_QUERY_DATABLOCK, PSCSIWMI_QUERY_DATABLOCK callback, Scsimini_1405dcfc-840b-4cc6-bd4c-63d071aa993e.xml, scsiwmi/HwScsiWmiQueryDataBlock, storage.hwscsiwmiquerydatablock
 f1_keywords:
  - "scsiwmi/HwScsiWmiQueryDataBlock"
+ - "HwScsiWmiQueryDataBlock"
 req.header: scsiwmi.h
 req.include-header: Scsiwmi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - scsiwmi.h
 api_name:
 - HwScsiWmiQueryDataBlock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

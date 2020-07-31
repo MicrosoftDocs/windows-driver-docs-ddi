@@ -10,6 +10,7 @@ keywords: ["WDF_DEVICE_PROPERTY_DATA_INIT function"]
 ms.keywords: WDF_DEVICE_PROPERTY_DATA_INIT, WDF_DEVICE_PROPERTY_DATA_INIT function, wdf.wdf_device_property_data_init, wdfdevice/WDF_DEVICE_PROPERTY_DATA_INIT
 f1_keywords:
  - "wdfdevice/WDF_DEVICE_PROPERTY_DATA_INIT"
+ - "WDF_DEVICE_PROPERTY_DATA_INIT"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - wdfdevice.h
 api_name:
 - WDF_DEVICE_PROPERTY_DATA_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

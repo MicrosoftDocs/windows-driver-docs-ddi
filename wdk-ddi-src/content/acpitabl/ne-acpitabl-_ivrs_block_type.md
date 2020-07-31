@@ -7,6 +7,7 @@ ms.date: 10/01/2018
 keywords: ["_IVRS_BLOCK_TYPE enumeration"]
 f1_keywords:
  - "acpitabl/_IVRS_BLOCK_TYPE"
+ - "_IVRS_BLOCK_TYPE"
 ms.keywords: _IVRS_BLOCK_TYPE, IVRS_BLOCK_TYPE, 
 req.header: acpitabl.h
 req.include-header:
@@ -26,8 +27,6 @@ api_location:
 - acpitabl.h
 api_name: 
 - _IVRS_BLOCK_TYPE
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

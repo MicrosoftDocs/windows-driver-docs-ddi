@@ -7,6 +7,7 @@ ms.date: 09/10/2018
 keywords: ["IDataModelScriptDebugClient::NotifyDebugEvent"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebugClient.NotifyDebugEvent"
+ - "IDataModelScriptDebugClient.NotifyDebugEvent"
 ms.keywords: IDataModelScriptDebugClient::NotifyDebugEvent, NotifyDebugEvent, IDataModelScriptDebugClient.NotifyDebugEvent, IDataModelScriptDebugClient::NotifyDebugEvent, IDataModelScriptDebugClient.NotifyDebugEvent
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDataModelScriptDebugClient.NotifyDebugEvent
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

@@ -7,6 +7,7 @@ ms.date: 11/21/2018
 keywords: ["D3DKMTEnumAdapters2 function"]
 f1_keywords:
  - "d3dkmthk/D3DKMTEnumAdapters2"
+ - "D3DKMTEnumAdapters2"
 ms.keywords: D3DKMTEnumAdapters2
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
@@ -33,8 +34,6 @@ api_location:
 - Gdi32.dll
 api_name: 
 - D3DKMTEnumAdapters2
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMTEnumAdapters2

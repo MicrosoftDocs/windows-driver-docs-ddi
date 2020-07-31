@@ -10,6 +10,7 @@ keywords: ["PFN_REGISTER_DATARATE_NOTIFICATIONS callback function"]
 ms.keywords: PFN_REGISTER_DATARATE_NOTIFICATIONS, PFN_REGISTER_DATARATE_NOTIFICATIONS callback, RegisterForDataRateNotifications, RegisterForDataRateNotifications callback function [Display Devices], display.registerfordataratenotifications, netdispumdddi/RegisterForDataRateNotifications
 f1_keywords:
  - "netdispumdddi/RegisterForDataRateNotifications"
+ - "RegisterForDataRateNotifications"
 req.header: netdispumdddi.h
 req.include-header: Netdispumdddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Netdispumdddi.h
 api_name:
 - RegisterForDataRateNotifications
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["MmGetMaximumFileSectionSize function"]
 ms.keywords: MmGetMaximumFileSectionSize, MmGetMaximumFileSectionSize routine [Installable File System Drivers], ifsk.mmgetmaximumfilesectionsize, ntifs/MmGetMaximumFileSectionSize
 f1_keywords:
  - "ntifs/MmGetMaximumFileSectionSize"
+ - "MmGetMaximumFileSectionSize"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - MmGetMaximumFileSectionSize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_FILE_CLEANUP callback function"]
 ms.keywords: DFDeviceObjectGeneralRef_e784bb8d-f1f3-48ac-94c5-d88f2517efd1.xml, EVT_WDF_FILE_CLEANUP, EVT_WDF_FILE_CLEANUP callback, EvtFileCleanup, EvtFileCleanup callback function, kmdf.evtfilecleanup, wdf.evtfilecleanup, wdfdevice/EvtFileCleanup
 f1_keywords:
  - "wdfdevice/EvtFileCleanup"
+ - "EvtFileCleanup"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Wdfdevice.h
 api_name:
 - EvtFileCleanup
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

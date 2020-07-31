@@ -10,6 +10,7 @@ keywords: ["_FORMAT_PARAMETERS structure"]
 ms.keywords: "*PFORMAT_PARAMETERS, FORMAT_PARAMETERS, FORMAT_PARAMETERS structure [Storage Devices], PFORMAT_PARAMETERS, PFORMAT_PARAMETERS structure pointer [Storage Devices], _FORMAT_PARAMETERS, ntdddisk/FORMAT_PARAMETERS, ntdddisk/PFORMAT_PARAMETERS, storage.format_parameters, structs-disk_063eb997-3411-4101-9cde-4417647eb53f.xml"
 f1_keywords:
  - "ntdddisk/FORMAT_PARAMETERS"
+ - "FORMAT_PARAMETERS"
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntdddisk.h
 api_name:
 - FORMAT_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: FORMAT_PARAMETERS, *PFORMAT_PARAMETERS
 ---

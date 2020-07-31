@@ -10,6 +10,7 @@ keywords: ["IWDTFSystemAction2::put_SleepWakeTimeInSeconds"]
 ms.keywords: IWDTFSystemAction2 interface [Windows Device Testing Framework],SleepWakeTimeInSeconds property, IWDTFSystemAction2.SleepWakeTimeInSeconds, IWDTFSystemAction2.put_SleepWakeTimeInSeconds, IWDTFSystemAction2::SleepWakeTimeInSeconds, IWDTFSystemAction2::get_SleepWakeTimeInSeconds, IWDTFSystemAction2::put_SleepWakeTimeInSeconds, Microsoft.WDTF.IWDTFSystemAction2.SleepWakeTimeInSeconds, Microsoft::WDTF::IWDTFSystemAction2::SleepWakeTimeInSeconds, SleepWakeTimeInSeconds property [Windows Device Testing Framework], SleepWakeTimeInSeconds property [Windows Device Testing Framework],IWDTFSystemAction2 interface, dtf.iwdtfsystemaction2_sleepwaketimeinseconds, put_SleepWakeTimeInSeconds, wdtfsystemaction/IWDTFSystemAction2::SleepWakeTimeInSeconds, wdtfsystemaction/IWDTFSystemAction2::get_SleepWakeTimeInSeconds, wdtfsystemaction/IWDTFSystemAction2::put_SleepWakeTimeInSeconds
 f1_keywords:
  - "wdtfsystemaction/IWDTFSystemAction2.SleepWakeTimeInSeconds"
+ - "IWDTFSystemAction2.SleepWakeTimeInSeconds"
 req.header: wdtfsystemaction.h
 req.include-header: 
 req.target-type: Windows
@@ -38,8 +39,6 @@ api_name:
 - IWDTFSystemAction2.SleepWakeTimeInSeconds
 - IWDTFSystemAction2.get_SleepWakeTimeInSeconds
 - IWDTFSystemAction2.put_SleepWakeTimeInSeconds
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

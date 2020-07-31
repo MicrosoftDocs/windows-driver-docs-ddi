@@ -10,6 +10,7 @@ keywords: ["POFXCALLBACKENUMERATEUNMASKEDINTERRUPTS callback function"]
 ms.keywords: EnumerateUnmaskedInterrupts, EnumerateUnmaskedInterrupts routine [Kernel-Mode Driver Architecture], EnumerateUnmaskedInterruptsext, POFXCALLBACKENUMERATEUNMASKEDINTERRUPTS, kernel.enumerateunmaskedinterrupts, pepfx/EnumerateUnmaskedInterrupts
 f1_keywords:
  - "pepfx/EnumerateUnmaskedInterrupts"
+ - "EnumerateUnmaskedInterrupts"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - EnumerateUnmaskedInterrupts
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IDebugAdvanced2::GetSymbolInformation"]
 ms.keywords: GetSymbolInformation, GetSymbolInformation method [Windows Debugging], GetSymbolInformation method [Windows Debugging],IDebugAdvanced2 interface, GetSymbolInformation method [Windows Debugging],IDebugAdvanced3 interface, IDebugAdvanced2 interface [Windows Debugging],GetSymbolInformation method, IDebugAdvanced2.GetSymbolInformation, IDebugAdvanced2::GetSymbolInformation, IDebugAdvanced3 interface [Windows Debugging],GetSymbolInformation method, IDebugAdvanced3::GetSymbolInformation, IDebugAdvanced_353e07f5-e506-4d5f-8c64-d3f500ff283f.xml, dbgeng/IDebugAdvanced2::GetSymbolInformation, dbgeng/IDebugAdvanced3::GetSymbolInformation, debugger.getsymbolinformation
 f1_keywords:
  - "dbgeng/IDebugAdvanced2.GetSymbolInformation"
+ - "IDebugAdvanced2.GetSymbolInformation"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IDebugAdvanced2.GetSymbolInformation
 - IDebugAdvanced3.GetSymbolInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

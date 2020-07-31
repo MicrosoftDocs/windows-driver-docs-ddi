@@ -10,6 +10,7 @@ keywords: ["IOCTL_SRIOV_ATTACH IOCTL"]
 ms.keywords: IOCTL_SRIOV_ATTACH, IOCTL_SRIOV_ATTACH control code [Buses], PCI.ioctl-sriov-attach, pcivirt/IOCTL_SRIOV_ATTACH
 f1_keywords:
  - "pcivirt/IOCTL_SRIOV_ATTACH"
+ - "IOCTL_SRIOV_ATTACH"
 req.header: pcivirt.h
 req.include-header:
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Pcivirt.h
 api_name:
 - IOCTL_SRIOV_ATTACH
-product:
-- Windows
 targetos: Windows
 req.typenames: SRIOV_PF_EVENT, *PSRIOV_PF_EVENT
 ---

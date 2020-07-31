@@ -10,6 +10,7 @@ keywords: ["KeResetEvent function"]
 ms.keywords: KeResetEvent, KeResetEvent routine [Kernel-Mode Driver Architecture], k105_d2a27b37-56af-46a4-8a48-da507261f77a.xml, kernel.keresetevent, wdm/KeResetEvent
 f1_keywords:
  - "wdm/KeResetEvent"
+ - "KeResetEvent"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeResetEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

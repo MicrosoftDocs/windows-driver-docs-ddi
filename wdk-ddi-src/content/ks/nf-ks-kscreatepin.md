@@ -10,6 +10,7 @@ keywords: ["KsCreatePin function"]
 ms.keywords: KsCreatePin, KsCreatePin function [Streaming Media Devices], ks/KsCreatePin, ksfunc_f49fab36-1309-4eec-addb-4eba94583692.xml, stream.kscreatepin
 f1_keywords:
  - "ks/KsCreatePin"
+ - "KsCreatePin"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -38,8 +39,6 @@ api_location:
 - ksuser.dll
 api_name:
 - KsCreatePin
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

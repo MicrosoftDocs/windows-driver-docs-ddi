@@ -10,6 +10,7 @@ keywords: ["IStiDevice::GetCapabilities"]
 ms.keywords: GetCapabilities, GetCapabilities method [Imaging Devices], GetCapabilities method [Imaging Devices],IStiDevice interface, IStiDevice interface [Imaging Devices],GetCapabilities method, IStiDevice.GetCapabilities, IStiDevice::GetCapabilities, image.istidevice_getcapabilities, sti/IStiDevice::GetCapabilities, stifnc_00882aa7-e8cd-4218-9d05-b9d1f56a6652.xml
 f1_keywords:
  - "sti/IStiDevice.GetCapabilities"
+ - "IStiDevice.GetCapabilities"
 req.header: sti.h
 req.include-header: Sti.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - sti.h
 api_name:
 - IStiDevice.GetCapabilities
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

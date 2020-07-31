@@ -10,6 +10,7 @@ keywords: ["_WSK_TDI_MAP structure"]
 ms.keywords: "*PWSK_TDI_MAP, PWSK_TDI_MAP, PWSK_TDI_MAP structure pointer [Network Drivers Starting with Windows Vista], WSK_TDI_MAP, WSK_TDI_MAP structure [Network Drivers Starting with Windows Vista], _WSK_TDI_MAP, netvista.wsk_tdi_map, wsk/PWSK_TDI_MAP, wsk/WSK_TDI_MAP, wskref_7be2eb13-c9b8-4fc8-bc00-b3d168353ed0.xml"
 f1_keywords:
  - "wsk/WSK_TDI_MAP"
+ - "WSK_TDI_MAP"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wsk.h
 api_name:
 - WSK_TDI_MAP
-product:
-- Windows
 targetos: Windows
 req.typenames: WSK_TDI_MAP, *PWSK_TDI_MAP
 ---

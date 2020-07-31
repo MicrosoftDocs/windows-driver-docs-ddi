@@ -10,6 +10,7 @@ keywords: ["MmSizeOfMdl function"]
 ms.keywords: MmSizeOfMdl, MmSizeOfMdl routine [Kernel-Mode Driver Architecture], k106_7cddc848-8b01-4a6a-b5b1-977f2386fc21.xml, kernel.mmsizeofmdl, wdm/MmSizeOfMdl
 f1_keywords:
  - "wdm/MmSizeOfMdl"
+ - "MmSizeOfMdl"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - MmSizeOfMdl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

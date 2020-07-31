@@ -10,6 +10,7 @@ keywords: ["RtlNumberOfSetBits function"]
 ms.keywords: RtlNumberOfSetBits, RtlNumberOfSetBits routine [Kernel-Mode Driver Architecture], k109_b8b2c3f8-3ec3-4690-90bb-e5b120b5b062.xml, kernel.rtlnumberofsetbits, wdm/RtlNumberOfSetBits
 f1_keywords:
  - "wdm/RtlNumberOfSetBits"
+ - "RtlNumberOfSetBits"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ntdll.dll
 api_name:
 - RtlNumberOfSetBits
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

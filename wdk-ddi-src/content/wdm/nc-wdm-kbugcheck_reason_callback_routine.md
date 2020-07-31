@@ -10,6 +10,7 @@ keywords: ["KBUGCHECK_REASON_CALLBACK_ROUTINE callback function"]
 ms.keywords: BugCheckAddPagesCallback, BugCheckDumpIoCallback, BugCheckSecondaryDumpDataCallback, DrvrRtns_337f5b60-9ed5-4a1b-a215-1d3b1e3abb1e.xml, KBUGCHECK_REASON_CALLBACK_ROUTINE, KBUGCHECK_REASON_CALLBACK_ROUTINE callback, MyBugCheckCallback, MyBugCheckCallback callback function [Kernel-Mode Driver Architecture], kernel.bugcheckaddpagescallback, wdm/MyBugCheckCallback
 f1_keywords:
  - "wdm/MyBugCheckCallback"
+ - "MyBugCheckCallback"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - MyBugCheckCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -81,6 +80,8 @@ Specifies the size, in bytes, of the buffer that the <i>ReasonSpecificData</i> p
 ## -remarks
 
 For information about how to implement this callback routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
+
+For sample code that shows how to write data to the crash dump file, see [DMF_CrashDump](https://github.com/Microsoft/DMF/blob/master/Dmf/Modules.Library/Dmf_CrashDump.md).
 
 ## -see-also
 

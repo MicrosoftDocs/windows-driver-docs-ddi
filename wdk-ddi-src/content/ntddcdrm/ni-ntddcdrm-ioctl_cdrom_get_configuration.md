@@ -10,6 +10,7 @@ keywords: ["IOCTL_CDROM_GET_CONFIGURATION IOCTL"]
 ms.keywords: IOCTL_CDROM_GET_CONFIGURATION, IOCTL_CDROM_GET_CONFIGURATION control, IOCTL_CDROM_GET_CONFIGURATION control code [Storage Devices], k307_355fe40f-4056-4bd7-8e79-8824c38589f6.xml, ntddcdrm/IOCTL_CDROM_GET_CONFIGURATION, storage.ioctl_cdrom_get_configuration
 f1_keywords:
  - "ntddcdrm/IOCTL_CDROM_GET_CONFIGURATION"
+ - "IOCTL_CDROM_GET_CONFIGURATION"
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddcdrm.h
 api_name:
 - IOCTL_CDROM_GET_CONFIGURATION
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

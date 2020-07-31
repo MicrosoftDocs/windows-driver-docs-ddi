@@ -10,6 +10,7 @@ keywords: ["RILEXCHANGEUICCAPDURESPONSEPARAMMASK enumeration"]
 ms.keywords: RILEXCHANGEUICCAPDURESPONSEPARAMMASK, RILEXCHANGEUICCAPDURESPONSEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_EUAR_ALL, RIL_PARAM_EUAR_RESPONSEAPDU, netvista.rilexchangeuiccapduresponseparammask, ntddrilapitypes/RILEXCHANGEUICCAPDURESPONSEPARAMMASK, ntddrilapitypes/RIL_PARAM_EUAR_ALL, ntddrilapitypes/RIL_PARAM_EUAR_RESPONSEAPDU
 f1_keywords:
  - "rilapitypes/RILEXCHANGEUICCAPDURESPONSEPARAMMASK"
+ - "RILEXCHANGEUICCAPDURESPONSEPARAMMASK"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILEXCHANGEUICCAPDURESPONSEPARAMMASK
-product:
-- Windows
 targetos: Windows
 req.typenames: RILEXCHANGEUICCAPDURESPONSEPARAMMASK
 ---

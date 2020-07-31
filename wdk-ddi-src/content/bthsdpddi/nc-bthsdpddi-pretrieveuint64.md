@@ -10,6 +10,7 @@ keywords: ["PRETRIEVEUINT64 callback function"]
 ms.keywords: PRETRIEVEUINT64, PRETRIEVEUINT64 callback, SdpRetrieveUint64, SdpRetrieveUint64 callback function [Bluetooth Devices], bltooth.sdpretrieveuint64, bth_funcs_1c4d2098-38e4-488f-bb47-d2923a3c1dfc.xml, sdplib/SdpRetrieveUint64
 f1_keywords:
  - "bthsdpddi/SdpRetrieveUint128"
+ - "SdpRetrieveUint128"
 req.header: bthsdpddi.h
 req.include-header: BthSdpddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - sdplib.h
 api_name:
 - SdpRetrieveUint128
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

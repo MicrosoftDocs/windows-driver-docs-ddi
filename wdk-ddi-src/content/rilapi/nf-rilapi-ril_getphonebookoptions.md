@@ -10,6 +10,7 @@ keywords: ["RIL_GetPhonebookOptions function"]
 ms.keywords: RIL_GetPhonebookOptions, RIL_GetPhonebookOptions method [Network Drivers Starting with Windows Vista], netvista.ril_getphonebookoptions, rilapi/RIL_GetPhonebookOptions
 f1_keywords:
  - "rilapi/RIL_GetPhonebookOptions"
+ - "RIL_GetPhonebookOptions"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_GetPhonebookOptions
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_DXGK_MMIORANGEINFO structure"]
 f1_keywords:
  - "dispmprt/_DXGK_MMIORANGEINFO"
+ - "_DXGK_MMIORANGEINFO"
 ms.keywords: _DXGK_MMIORANGEINFO, DXGK_MMIORANGEINFO, *PDXGK_MMIORANGEINFO, 
 req.header: dispmprt.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - dispmprt.h
 api_name: 
 - _DXGK_MMIORANGEINFO
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

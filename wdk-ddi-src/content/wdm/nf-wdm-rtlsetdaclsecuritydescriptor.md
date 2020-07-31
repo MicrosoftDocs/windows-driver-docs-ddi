@@ -10,6 +10,7 @@ keywords: ["RtlSetDaclSecurityDescriptor function"]
 ms.keywords: RtlSetDaclSecurityDescriptor, RtlSetDaclSecurityDescriptor routine [Kernel-Mode Driver Architecture], k109_b2723172-ac75-4ada-b421-ae144d10d560.xml, kernel.rtlsetdaclsecuritydescriptor, wdm/RtlSetDaclSecurityDescriptor
 f1_keywords:
  - "wdm/RtlSetDaclSecurityDescriptor"
+ - "RtlSetDaclSecurityDescriptor"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ntdll.dll
 api_name:
 - RtlSetDaclSecurityDescriptor
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

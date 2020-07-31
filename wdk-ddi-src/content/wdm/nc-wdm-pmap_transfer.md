@@ -10,6 +10,7 @@ keywords: ["PMAP_TRANSFER callback function"]
 ms.keywords: MapTransfer, MapTransfer callback function [Kernel-Mode Driver Architecture], PMAP_TRANSFER, PMAP_TRANSFER callback, kdma_4bc30c1d-1d83-424f-9c58-cd92c5e9d331.xml, kernel.maptransfer, wdm/MapTransfer
 f1_keywords:
  - "wdm/MapTransfer"
+ - "MapTransfer"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - MapTransfer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

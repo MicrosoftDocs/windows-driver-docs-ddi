@@ -7,6 +7,7 @@ ms.date: 09/07/2018
 keywords: ["IDebugHostType::GetArrayDimensions"]
 f1_keywords:
  - "dbgmodel/IDebugHostType.GetArrayDimensions"
+ - "IDebugHostType.GetArrayDimensions"
 ms.keywords: IDebugHostType::GetArrayDimensions, GetArrayDimensions, IDebugHostType.GetArrayDimensions, IDebugHostType::GetArrayDimensions, IDebugHostType.GetArrayDimensions
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostType.GetArrayDimensions
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

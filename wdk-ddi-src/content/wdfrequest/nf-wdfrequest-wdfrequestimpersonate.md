@@ -10,6 +10,7 @@ keywords: ["WdfRequestImpersonate function"]
 ms.keywords: WdfRequestImpersonate, WdfRequestImpersonate method, wdf.wdfrequestimpersonate, wdfrequest/WdfRequestImpersonate
 f1_keywords:
  - "wdfrequest/WdfRequestImpersonate"
+ - "WdfRequestImpersonate"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - WUDFx02000.dll
 api_name:
 - WdfRequestImpersonate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

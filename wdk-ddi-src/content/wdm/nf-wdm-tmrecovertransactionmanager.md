@@ -10,6 +10,7 @@ keywords: ["TmRecoverTransactionManager function"]
 ms.keywords: TmRecoverTransactionManager, TmRecoverTransactionManager routine [Kernel-Mode Driver Architecture], kernel.tmrecovertransactionmanager, ktm_ref_1917a36a-c7bd-4a00-b054-bb710b7c0e93.xml, wdm/TmRecoverTransactionManager
 f1_keywords:
  - "wdm/TmRecoverTransactionManager"
+ - "TmRecoverTransactionManager"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -38,8 +39,6 @@ api_location:
 - tm.sys
 api_name:
 - TmRecoverTransactionManager
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

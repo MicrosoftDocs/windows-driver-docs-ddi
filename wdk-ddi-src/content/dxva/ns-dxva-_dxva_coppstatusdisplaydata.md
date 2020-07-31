@@ -10,6 +10,7 @@ keywords: ["_DXVA_COPPStatusDisplayData structure"]
 ms.keywords: DXVA_COPPStatusDisplayData, DXVA_COPPStatusDisplayData structure [Display Devices], _DXVA_COPPStatusDisplayData, display.dxva_coppstatusdisplaydata, dxva/DXVA_COPPStatusDisplayData, dxvaref_93230a15-ba58-4da6-8577-eb1f2bf8528e.xml
 f1_keywords:
  - "dxva/DXVA_COPPStatusDisplayData"
+ - "DXVA_COPPStatusDisplayData"
 req.header: dxva.h
 req.include-header: Dxva.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dxva.h
 api_name:
 - DXVA_COPPStatusDisplayData
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVA_COPPStatusDisplayData
 ---

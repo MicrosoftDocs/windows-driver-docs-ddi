@@ -10,6 +10,7 @@ keywords: ["BdaCommitChanges function"]
 ms.keywords: BdaCommitChanges, BdaCommitChanges function [Streaming Media Devices], bdaref_41fbbc81-4461-47a2-ba7a-725b696329f3.xml, bdasup/BdaCommitChanges, stream.bdacommitchanges
 f1_keywords:
  - "bdasup/BdaCommitChanges"
+ - "BdaCommitChanges"
 req.header: bdasup.h
 req.include-header: Bdasup.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Bdasup.dll
 api_name:
 - BdaCommitChanges
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

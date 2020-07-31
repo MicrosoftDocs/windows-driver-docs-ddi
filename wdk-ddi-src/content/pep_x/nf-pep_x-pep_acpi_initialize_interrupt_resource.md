@@ -10,6 +10,7 @@ keywords: ["PEP_ACPI_INITIALIZE_INTERRUPT_RESOURCE function"]
 ms.keywords: PEP_ACPI_INITIALIZE_INTERRUPT_RESOURCE, PEP_ACPI_INITIALIZE_INTERRUPT_RESOURCE function [Kernel-Mode Driver Architecture], kernel.pep_acpi_initialize_interrupt_resource, pepfx/PEP_ACPI_INITIALIZE_INTERRUPT_RESOURCE
 f1_keywords:
  - "pep_x/PEP_ACPI_INITIALIZE_INTERRUPT_RESOURCE"
+ - "PEP_ACPI_INITIALIZE_INTERRUPT_RESOURCE"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - PEP_ACPI_INITIALIZE_INTERRUPT_RESOURCE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

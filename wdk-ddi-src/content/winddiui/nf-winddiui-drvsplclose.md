@@ -10,6 +10,7 @@ keywords: ["DrvSplClose function"]
 ms.keywords: DrvSplClose, DrvSplClose function [Print Devices], print.drvsplclose, print_interface-graphics_e43f66ed-0e5e-4a27-ad52-0faebe549ac5.xml, winddiui/DrvSplClose
 f1_keywords:
  - "winddiui/DrvSplClose"
+ - "DrvSplClose"
 req.header: winddiui.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - winddiui.h
 api_name:
 - DrvSplClose
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

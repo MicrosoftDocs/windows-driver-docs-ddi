@@ -7,6 +7,7 @@ ms.date: 08/14/2018
 keywords: ["IModelKeyReference::SetKeyValue"]
 f1_keywords:
  - "dbgmodel/IModelKeyReference.SetKeyValue"
+ - "IModelKeyReference.SetKeyValue"
 ms.keywords: IModelKeyReference::SetKeyValue, SetKeyValue, IModelKeyReference.SetKeyValue, IModelKeyReference::SetKeyValue, IModelKeyReference.SetKeyValue
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IModelKeyReference.SetKeyValue
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

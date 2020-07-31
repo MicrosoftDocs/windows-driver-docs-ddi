@@ -10,6 +10,7 @@ keywords: ["IDDCX_METADATA structure"]
 ms.keywords: IDDCX_METADATA, IDDCX_METADATA structure, IDDCX_METADATA structure [Display Devices], IDDCX_METADATA structure pointer [Display Devices], IDDCX_METADATA structure structure [Display Devices], display.iddcx_metadata, iddcx/IDDCX_METADATA
 f1_keywords:
  - "iddcx/IDDCX_METADATA"
+ - "IDDCX_METADATA"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - iddcx.h
 api_name:
 - IDDCX_METADATA
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

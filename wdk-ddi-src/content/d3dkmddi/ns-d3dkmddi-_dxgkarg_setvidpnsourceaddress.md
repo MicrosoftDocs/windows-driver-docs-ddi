@@ -9,6 +9,7 @@ keywords: ["_DXGKARG_SETVIDPNSOURCEADDRESS structure"]
 ms.keywords: DXGKARG_SETVIDPNSOURCEADDRESS, DXGKARG_SETVIDPNSOURCEADDRESS structure [Display Devices], DmStructs_f179199a-3747-4086-8e77-5434a3e287a1.xml, _DXGKARG_SETVIDPNSOURCEADDRESS, d3dkmddi/DXGKARG_SETVIDPNSOURCEADDRESS, display.dxgkarg_setvidpnsourceaddress
 f1_keywords:
  - "d3dkmddi/DXGKARG_SETVIDPNSOURCEADDRESS"
+ - "DXGKARG_SETVIDPNSOURCEADDRESS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGKARG_SETVIDPNSOURCEADDRESS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGKARG_SETVIDPNSOURCEADDRESS

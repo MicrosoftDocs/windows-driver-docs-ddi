@@ -10,6 +10,7 @@ keywords: ["_DXGK_DEBUG_REPORT_INTERFACE structure"]
 ms.keywords: "*PDXGK_DEBUG_REPORT_INTERFACE, DXGK_DEBUG_REPORT_INTERFACE, DXGK_DEBUG_REPORT_INTERFACE structure [Display Devices], DmStructs_b6b70526-c889-47d8-bfb7-7f961cbcef38.xml, PDXGK_DEBUG_REPORT_INTERFACE, PDXGK_DEBUG_REPORT_INTERFACE structure pointer [Display Devices], _DXGK_DEBUG_REPORT_INTERFACE, display.dxgk_debug_report_interface, dispmprt/DXGK_DEBUG_REPORT_INTERFACE, dispmprt/PDXGK_DEBUG_REPORT_INTERFACE"
 f1_keywords:
  - "dispmprt/DXGK_DEBUG_REPORT_INTERFACE"
+ - "DXGK_DEBUG_REPORT_INTERFACE"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dispmprt.h
 api_name:
 - DXGK_DEBUG_REPORT_INTERFACE
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGK_DEBUG_REPORT_INTERFACE, *PDXGK_DEBUG_REPORT_INTERFACE
 ---

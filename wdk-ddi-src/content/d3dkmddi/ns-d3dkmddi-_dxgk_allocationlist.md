@@ -9,6 +9,7 @@ keywords: ["_DXGK_ALLOCATIONLIST structure"]
 ms.keywords: DXGK_ALLOCATIONLIST, DXGK_ALLOCATIONLIST structure [Display Devices], DmStructs_ed92f9cf-ad3f-4566-89ff-31d6b162f755.xml, _DXGK_ALLOCATIONLIST, d3dkmddi/DXGK_ALLOCATIONLIST, display.dxgk_allocationlist
 f1_keywords:
  - "d3dkmddi/DXGK_ALLOCATIONLIST"
+ - "DXGK_ALLOCATIONLIST"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGK_ALLOCATIONLIST
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_ALLOCATIONLIST

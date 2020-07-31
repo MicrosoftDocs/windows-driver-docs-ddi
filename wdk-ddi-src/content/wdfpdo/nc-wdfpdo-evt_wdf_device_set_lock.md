@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_DEVICE_SET_LOCK callback function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_932fbb3b-df8b-49ca-9b86-3d98b6fdd39f.xml, EVT_WDF_DEVICE_SET_LOCK, EVT_WDF_DEVICE_SET_LOCK callback, EvtDeviceSetLock, EvtDeviceSetLock callback function, kmdf.evtdevicesetlock, wdf.evtdevicesetlock, wdfpdo/EvtDeviceSetLock
 f1_keywords:
  - "wdfpdo/EvtDeviceSetLock"
+ - "EvtDeviceSetLock"
 req.header: wdfpdo.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Wdfpdo.h
 api_name:
 - EvtDeviceSetLock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

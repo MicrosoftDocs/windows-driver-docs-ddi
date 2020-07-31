@@ -7,6 +7,7 @@ ms.date: 10/01/2018
 keywords: ["_ACPI_PDTT structure"]
 f1_keywords:
  - "acpitabl/_ACPI_PDTT"
+ - "_ACPI_PDTT"
 ms.keywords: _ACPI_PDTT, ACPI_PDTT, *PACPI_PDTT, 
 req.header: acpitabl.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - acpitabl.h
 api_name: 
 - _ACPI_PDTT
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["NdisClearNblFlag macro"]
 f1_keywords:
  - "ndis/NdisClearNblFlag"
+ - "NdisClearNblFlag"
 ms.keywords: NdisClearNblFlag
 req.header: ndis.h
 req.include-header:
@@ -34,8 +35,6 @@ api_location:
 - ndis.h
 api_name: 
 - NdisClearNblFlag
-product:
-- Windows
 targetos: Windows
 
 ---

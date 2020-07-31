@@ -9,6 +9,7 @@ keywords: ["D3D11DDIARG_CREATECOMMANDLIST structure"]
 ms.keywords: D3D11DDIARG_CREATECOMMANDLIST, D3D11DDIARG_CREATECOMMANDLIST structure [Display Devices], UMDisplayDriver_Dx11param_Structs_fc1a42ad-2d14-44de-abf1-480810b8d080.xml, d3d10umddi/D3D11DDIARG_CREATECOMMANDLIST, display.d3d11ddiarg_createcommandlist
 f1_keywords:
  - "d3d10umddi/D3D11DDIARG_CREATECOMMANDLIST"
+ - "D3D11DDIARG_CREATECOMMANDLIST"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - D3D11DDIARG_CREATECOMMANDLIST
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D11DDIARG_CREATECOMMANDLIST

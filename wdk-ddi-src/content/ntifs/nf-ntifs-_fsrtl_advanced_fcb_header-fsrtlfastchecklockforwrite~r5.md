@@ -10,6 +10,7 @@ keywords: ["FsRtlFastCheckLockForWrite function"]
 ms.keywords: FsRtlFastCheckLockForWrite, FsRtlFastCheckLockForWrite routine [Installable File System Drivers], fsrtlref_1f8feaa8-cc2d-47fb-af4a-00ef0efb4190.xml, ifsk.fsrtlfastchecklockforwrite, ntifs/FsRtlFastCheckLockForWrite
 f1_keywords:
  - "ntifs/FsRtlFastCheckLockForWrite"
+ - "FsRtlFastCheckLockForWrite"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlFastCheckLockForWrite
-product:
-- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---

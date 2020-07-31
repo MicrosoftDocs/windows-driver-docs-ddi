@@ -10,6 +10,7 @@ keywords: ["NDIS_WDI_ALLOCATE_WDI_FRAME_METADATA callback function"]
 ms.keywords: NDIS_WDI_ALLOCATE_WDI_FRAME_METADATA, NDIS_WDI_ALLOCATE_WDI_FRAME_METADATA callback, NdisWdiAllocateWiFiFrameMetaData, NdisWdiAllocateWiFiFrameMetaData callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiAllocateWiFiFrameMetaData, netvista.ndiswdiallocatewdiframemetadata
 f1_keywords:
  - "dot11wdi/NdisWdiAllocateWiFiFrameMetaData"
+ - "NdisWdiAllocateWiFiFrameMetaData"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dot11wdi.h
 api_name:
 - NdisWdiAllocateWiFiFrameMetaData
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IOCTL_BTHHFP_DEVICE_GET_KSNODETYPES IOCTL"]
 ms.keywords: IOCTL_BTHHFP_DEVICE_GET_KSNODETYPES, IOCTL_BTHHFP_DEVICE_GET_KSNODETYPES control, IOCTL_BTHHFP_DEVICE_GET_KSNODETYPES control code [Audio Devices], audio.ioctl_bthhfp_device_get_ksnodetypes, bthhfpddi/IOCTL_BTHHFP_DEVICE_GET_KSNODETYPES
 f1_keywords:
  - "bthhfpddi/IOCTL_BTHHFP_DEVICE_GET_KSNODETYPES"
+ - "IOCTL_BTHHFP_DEVICE_GET_KSNODETYPES"
 req.header: bthhfpddi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Bthhfpddi.h
 api_name:
 - IOCTL_BTHHFP_DEVICE_GET_KSNODETYPES
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

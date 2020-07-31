@@ -10,6 +10,7 @@ keywords: ["CcUnpinDataForThread function"]
 ms.keywords: CcUnpinDataForThread, CcUnpinDataForThread routine [Installable File System Drivers], ccref_71102887-ef3b-44b1-8b1f-e2b07dea3392.xml, ifsk.ccunpindataforthread, ntifs/CcUnpinDataForThread
 f1_keywords:
  - "ntifs/CcUnpinDataForThread"
+ - "CcUnpinDataForThread"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - CcUnpinDataForThread
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

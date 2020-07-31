@@ -10,6 +10,7 @@ keywords: ["IStiUSD::GetStatus"]
 ms.keywords: GetStatus, GetStatus method [Imaging Devices], GetStatus method [Imaging Devices],IStiUSD interface, IStiUSD interface [Imaging Devices],GetStatus method, IStiUSD.GetStatus, IStiUSD::GetStatus, image.istiusd_getstatus, stifnc_78892dba-6e94-4455-8616-f5c3afd9256e.xml, stiusd/IStiUSD::GetStatus
 f1_keywords:
  - "stiusd/IStiUSD.GetStatus"
+ - "IStiUSD.GetStatus"
 req.header: stiusd.h
 req.include-header: Stiusd.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - stiusd.h
 api_name:
 - IStiUSD.GetStatus
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

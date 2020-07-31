@@ -10,6 +10,7 @@ keywords: ["RtlULongPtrSub function"]
 ms.keywords: RtlULongPtrSub, RtlULongPtrSub function [Kernel-Mode Driver Architecture], kernel.rtlulongptrsub, ntintsafe/RtlULongPtrSub
 f1_keywords:
  - "ntintsafe/RtlULongPtrSub"
+ - "RtlULongPtrSub"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Ntintsafe.h
 api_name:
 - RtlULongPtrSub
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

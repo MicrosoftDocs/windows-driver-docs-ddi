@@ -10,6 +10,7 @@ keywords: ["KsGetNextSibling function"]
 ms.keywords: KsGetNextSibling, KsGetNextSibling function [Streaming Media Devices], avfunc_0fedfc95-34c0-44d9-bed4-fff6bf6bd467.xml, ks/KsGetNextSibling, stream.ksgetnextsibling
 f1_keywords:
  - "ks/KsGetNextSibling"
+ - "KsGetNextSibling"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsGetNextSibling
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

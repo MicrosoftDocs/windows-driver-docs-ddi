@@ -10,6 +10,7 @@ keywords: ["IDebugBreakpoint2::GetParameters"]
 ms.keywords: ComOther_1e2f7a47-0f38-492a-a8b2-9eaa124a2f20.xml, GetParameters, GetParameters method [Windows Debugging], GetParameters method [Windows Debugging],IDebugBreakpoint interface, GetParameters method [Windows Debugging],IDebugBreakpoint2 interface, IDebugBreakpoint interface [Windows Debugging],GetParameters method, IDebugBreakpoint2 interface [Windows Debugging],GetParameters method, IDebugBreakpoint2.GetParameters, IDebugBreakpoint2::GetParameters, IDebugBreakpoint::GetParameters, dbgeng/IDebugBreakpoint2::GetParameters, dbgeng/IDebugBreakpoint::GetParameters, debugger.getparameters
 f1_keywords:
  - "dbgeng/IDebugBreakpoint.GetParameters"
+ - "IDebugBreakpoint.GetParameters"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IDebugBreakpoint.GetParameters
 - IDebugBreakpoint2.GetParameters
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

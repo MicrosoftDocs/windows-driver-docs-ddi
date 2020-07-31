@@ -10,6 +10,7 @@ keywords: ["IDebugControl::GetActualProcessorType"]
 ms.keywords: GetActualProcessorType, GetActualProcessorType method [Windows Debugging], GetActualProcessorType method [Windows Debugging],IDebugControl interface, GetActualProcessorType method [Windows Debugging],IDebugControl2 interface, GetActualProcessorType method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetActualProcessorType method, IDebugControl.GetActualProcessorType, IDebugControl2 interface [Windows Debugging],GetActualProcessorType method, IDebugControl2::GetActualProcessorType, IDebugControl3 interface [Windows Debugging],GetActualProcessorType method, IDebugControl3::GetActualProcessorType, IDebugControl::GetActualProcessorType, IDebugControl_5511971f-2155-4ba3-b0f3-9bcd91b29555.xml, dbgeng/IDebugControl2::GetActualProcessorType, dbgeng/IDebugControl3::GetActualProcessorType, dbgeng/IDebugControl::GetActualProcessorType, debugger.getactualprocessortype
 f1_keywords:
  - "dbgeng/IDebugControl.GetActualProcessorType"
+ - "IDebugControl.GetActualProcessorType"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -38,8 +39,6 @@ api_name:
 - IDebugControl.GetActualProcessorType
 - IDebugControl2.GetActualProcessorType
 - IDebugControl3.GetActualProcessorType
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

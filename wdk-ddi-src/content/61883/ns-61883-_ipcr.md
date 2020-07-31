@@ -10,6 +10,7 @@ keywords: ["_IPCR structure"]
 ms.keywords: "*PIPCR, 61883/IPCR, 61883/PIPCR, 61883_structures_e7226c37-f3b1-4e57-977a-6fb25c853f19.xml, IEEE.ipcr, IPCR, IPCR structure [Buses], PIPCR, PIPCR structure pointer [Buses], _IPCR"
 f1_keywords:
  - "61883/IPCR"
+ - "IPCR"
 req.header: 61883.h
 req.include-header: 61883.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - 61883.h
 api_name:
 - IPCR
-product:
-- Windows
 targetos: Windows
 req.typenames: IPCR, *PIPCR
 ---

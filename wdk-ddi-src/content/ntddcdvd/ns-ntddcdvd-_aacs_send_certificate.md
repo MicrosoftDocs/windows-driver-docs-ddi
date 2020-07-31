@@ -10,6 +10,7 @@ keywords: ["_AACS_SEND_CERTIFICATE structure"]
 ms.keywords: "*PAACS_SEND_CERTIFICATE, AACS_SEND_CERTIFICATE, AACS_SEND_CERTIFICATE structure [Storage Devices], PAACS_SEND_CERTIFICATE, PAACS_SEND_CERTIFICATE structure pointer [Storage Devices], _AACS_SEND_CERTIFICATE, ntddcdvd/AACS_SEND_CERTIFICATE, ntddcdvd/PAACS_SEND_CERTIFICATE, storage.aacs_send_certificate, structs-DVD_0f4e9fce-96a6-4064-bbb2-4c7077dad635.xml"
 f1_keywords:
  - "ntddcdvd/AACS_SEND_CERTIFICATE"
+ - "AACS_SEND_CERTIFICATE"
 req.header: ntddcdvd.h
 req.include-header: Ntddcdvd.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddcdvd.h
 api_name:
 - AACS_SEND_CERTIFICATE
-product:
-- Windows
 targetos: Windows
 req.typenames: AACS_SEND_CERTIFICATE, *PAACS_SEND_CERTIFICATE
 ---

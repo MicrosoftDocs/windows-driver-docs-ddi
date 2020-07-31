@@ -10,6 +10,7 @@ keywords: ["VideoPortVerifyAccessRanges function"]
 ms.keywords: VideoPortVerifyAccessRanges, VideoPortVerifyAccessRanges function [Display Devices], VideoPort_Functions_be1c2439-0fde-4d2e-a892-9a64e19f9970.xml, display.videoportverifyaccessranges, video/VideoPortVerifyAccessRanges
 f1_keywords:
  - "video/VideoPortVerifyAccessRanges"
+ - "VideoPortVerifyAccessRanges"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Videoprt.sys
 api_name:
 - VideoPortVerifyAccessRanges
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

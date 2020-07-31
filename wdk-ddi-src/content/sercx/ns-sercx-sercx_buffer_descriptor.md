@@ -10,6 +10,7 @@ keywords: ["SERCX_BUFFER_DESCRIPTOR structure"]
 ms.keywords: "*PSERCX_BUFFER_DESCRIPTOR, 1/PSERCX_BUFFER_DESCRIPTOR, 1/SERCX_BUFFER_DESCRIPTOR, PSERCX_BUFFER_DESCRIPTOR, PSERCX_BUFFER_DESCRIPTOR structure pointer [Serial Ports], SERCX_BUFFER_DESCRIPTOR, SERCX_BUFFER_DESCRIPTOR structure [Serial Ports], serports.sercx_buffer_descriptor"
 f1_keywords:
  - "sercx/SERCX_BUFFER_DESCRIPTOR"
+ - "SERCX_BUFFER_DESCRIPTOR"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - 1.0\Sercx.h
 api_name:
 - SERCX_BUFFER_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: SERCX_BUFFER_DESCRIPTOR, *PSERCX_BUFFER_DESCRIPTOR
 ---

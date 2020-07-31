@@ -9,6 +9,7 @@ keywords: ["_DXGK_INHERITED_TIMING_INFO structure"]
 ms.keywords: "*PDXGK_INHERITED_TIMING_INFO, DXGK_INHERITED_TIMING_INFO, DXGK_INHERITED_TIMING_INFO structure [Display Devices], PDXGK_INHERITED_TIMING_INFO, PDXGK_INHERITED_TIMING_INFO structure pointer [Display Devices], _DXGK_INHERITED_TIMING_INFO, d3dkmddi/DXGK_INHERITED_TIMING_INFO, d3dkmddi/PDXGK_INHERITED_TIMING_INFO, display.dxgk_inherited_timing_info"
 f1_keywords:
  - "d3dkmddi/DXGK_INHERITED_TIMING_INFO"
+ - "DXGK_INHERITED_TIMING_INFO"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGK_INHERITED_TIMING_INFO
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_INHERITED_TIMING_INFO, *PDXGK_INHERITED_TIMING_INFO

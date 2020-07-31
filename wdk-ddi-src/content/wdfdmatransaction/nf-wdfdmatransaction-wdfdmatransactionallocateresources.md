@@ -10,6 +10,7 @@ keywords: ["WdfDmaTransactionAllocateResources function"]
 ms.keywords: WdfDmaTransactionAllocateResources, WdfDmaTransactionAllocateResources method, kmdf.wdfdmatransactionallocateresources, wdf.wdfdmatransactionallocateresources, wdfdmatransaction/WdfDmaTransactionAllocateResources
 f1_keywords:
  - "wdfdmatransaction/WdfDmaTransactionAllocateResources"
+ - "WdfDmaTransactionAllocateResources"
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfDmaTransactionAllocateResources
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

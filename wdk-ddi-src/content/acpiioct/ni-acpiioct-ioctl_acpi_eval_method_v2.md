@@ -10,6 +10,7 @@ keywords: ["IOCTL_ACPI_EVAL_METHOD_V2 IOCTL"]
 ms.keywords: IOCTL_ACPI_EVAL_METHOD_V2, IOCTL_ACPI_EVAL_METHOD_V2 control, IOCTL_ACPI_EVAL_METHOD_V2 control code [ACPI Devices], acpi.ioctl_acpi_eval_method_v2, acpiioct/IOCTL_ACPI_EVAL_METHOD_V2
 f1_keywords:
  - "acpiioct/IOCTL_ACPI_EVAL_METHOD_V2"
+ - "IOCTL_ACPI_EVAL_METHOD_V2"
 req.header: acpiioct.h
 req.include-header: Acpiioct.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Acpiioct.h
 api_name:
 - IOCTL_ACPI_EVAL_METHOD_V2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

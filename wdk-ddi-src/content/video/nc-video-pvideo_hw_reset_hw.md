@@ -10,6 +10,7 @@ keywords: ["PVIDEO_HW_RESET_HW callback function"]
 ms.keywords: HwVidResetHw, HwVidResetHw callback function [Display Devices], PVIDEO_HW_RESET_HW, PVIDEO_HW_RESET_HW callback, VideoMiniport_Functions_783bcc9a-8af3-4cfb-8121-a2bbeb0e64f1.xml, display.hwvidresethw, video/HwVidResetHw
 f1_keywords:
  - "video/HwVidResetHw"
+ - "HwVidResetHw"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - video.h
 api_name:
 - HwVidResetHw
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

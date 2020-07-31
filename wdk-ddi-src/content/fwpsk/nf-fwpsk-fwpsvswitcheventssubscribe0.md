@@ -10,6 +10,7 @@ keywords: ["FwpsvSwitchEventsSubscribe0 function"]
 ms.keywords: FwpsvSwitchEventsSubscribe0, FwpsvSwitchEventsSubscribe0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsvSwitchEventsSubscribe0, netvista.fwpsvswitcheventssubscribe0
 f1_keywords:
  - "fwpsk/FwpsvSwitchEventsSubscribe0"
+ - "FwpsvSwitchEventsSubscribe0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - fwpkclnt.dll
 api_name:
 - FwpsvSwitchEventsSubscribe0
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

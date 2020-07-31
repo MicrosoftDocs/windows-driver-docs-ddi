@@ -10,6 +10,7 @@ keywords: ["StorPortGetGroupAffinity function"]
 ms.keywords: StorPortGetGroupAffinity, StorPortGetGroupAffinity routine [Storage Devices], storage.storportgetgroupaffinity, storport/StorPortGetGroupAffinity, storprt_9fdfdc84-3e8f-4227-9799-4ccf08f802df.xml
 f1_keywords:
  - "storport/StorPortGetGroupAffinity"
+ - "StorPortGetGroupAffinity"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - storport.h
 api_name:
 - StorPortGetGroupAffinity
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

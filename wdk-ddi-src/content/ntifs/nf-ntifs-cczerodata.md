@@ -10,6 +10,7 @@ keywords: ["CcZeroData function"]
 ms.keywords: CcZeroData, CcZeroData routine [Installable File System Drivers], ccref_af6df6fe-6fa3-41e9-b3af-2530ca6a2c85.xml, ifsk.cczerodata, ntifs/CcZeroData
 f1_keywords:
  - "ntifs/CcZeroData"
+ - "CcZeroData"
 req.header: ntifs.h
 req.include-header: Fltkernel.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - CcZeroData
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

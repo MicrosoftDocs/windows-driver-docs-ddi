@@ -10,6 +10,7 @@ keywords: ["WDF_OBJECT_ATTRIBUTES_INIT function"]
 ms.keywords: DFGenObjectRef_2d1e5e34-5637-4301-807c-ad525d4cb34b.xml, WDF_OBJECT_ATTRIBUTES_INIT, WDF_OBJECT_ATTRIBUTES_INIT function, kmdf.wdf_object_attributes_init, wdf.wdf_object_attributes_init, wdfobject/WDF_OBJECT_ATTRIBUTES_INIT
 f1_keywords:
  - "wdfobject/WDF_OBJECT_ATTRIBUTES_INIT"
+ - "WDF_OBJECT_ATTRIBUTES_INIT"
 req.header: wdfobject.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - wdfobject.h
 api_name:
 - WDF_OBJECT_ATTRIBUTES_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

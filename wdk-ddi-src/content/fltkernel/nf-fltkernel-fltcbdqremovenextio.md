@@ -10,6 +10,7 @@ keywords: ["FltCbdqRemoveNextIo function"]
 ms.keywords: FltApiRef_a_to_d_fec6e01e-c699-45cf-b9fb-c4dea9b2e462.xml, FltCbdqRemoveNextIo, FltCbdqRemoveNextIo function [Installable File System Drivers], fltkernel/FltCbdqRemoveNextIo, ifsk.fltcbdqremovenextio
 f1_keywords:
  - "fltkernel/FltCbdqRemoveNextIo"
+ - "FltCbdqRemoveNextIo"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fltkernel.h
 api_name:
 - FltCbdqRemoveNextIo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

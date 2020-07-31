@@ -10,6 +10,7 @@ keywords: ["IoReadPartitionTableEx function"]
 ms.keywords: IoReadPartitionTableEx, IoReadPartitionTableEx routine [Storage Devices], ntddk/IoReadPartitionTableEx, rtns-disk_eb4e14e1-14a3-441a-b8ff-9ce68c1b3992.xml, storage.ioreadpartitiontableex
 f1_keywords:
  - "ntddk/IoReadPartitionTableEx"
+ - "IoReadPartitionTableEx"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoReadPartitionTableEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

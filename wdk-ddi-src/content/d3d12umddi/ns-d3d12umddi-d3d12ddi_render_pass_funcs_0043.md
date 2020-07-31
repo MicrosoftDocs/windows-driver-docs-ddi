@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3D12DDI_RENDER_PASS_FUNCS_0043 structure"]
 f1_keywords:
  - "d3d12umddi/D3D12DDI_RENDER_PASS_FUNCS_0043"
+ - "D3D12DDI_RENDER_PASS_FUNCS_0043"
 ms.keywords: D3D12DDI_RENDER_PASS_FUNCS_0043, D3D12DDI_RENDER_PASS_FUNCS_0043, 
 req.header: d3d12umddi.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - d3d12umddi.h
 api_name: 
 - D3D12DDI_RENDER_PASS_FUNCS_0043
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

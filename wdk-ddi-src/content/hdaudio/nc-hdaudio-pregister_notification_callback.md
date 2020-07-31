@@ -10,6 +10,7 @@ ms.date: 04/29/2019
 keywords: ["PREGISTER_NOTIFICATION_CALLBACK callback function"]
 f1_keywords:
  - "hdaudio/PREGISTER_NOTIFICATION_CALLBACK"
+ - "PREGISTER_NOTIFICATION_CALLBACK"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 req.header: hdaudio.h

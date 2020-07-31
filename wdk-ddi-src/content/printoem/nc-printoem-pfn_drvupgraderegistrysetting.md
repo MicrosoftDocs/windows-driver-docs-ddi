@@ -10,6 +10,7 @@ keywords: ["PFN_DrvUpgradeRegistrySetting callback function"]
 ms.keywords: DrvUpgradeRegistrySetting, DrvUpgradeRegistrySetting callback function [Print Devices], PFN_DrvUpgradeRegistrySetting, PFN_DrvUpgradeRegistrySetting callback, print.drvupgraderegistrysetting, print_obsoletefunctions_089531d9-0bcb-4fed-84c4-59a3be1ed82e.xml, printoem/DrvUpgradeRegistrySetting
 f1_keywords:
  - "printoem/DrvUpgradeRegistrySetting"
+ - "DrvUpgradeRegistrySetting"
 req.header: printoem.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - printoem.h
 api_name:
 - DrvUpgradeRegistrySetting
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

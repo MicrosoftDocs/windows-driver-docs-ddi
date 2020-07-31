@@ -10,6 +10,7 @@ keywords: ["KeAcquireSpinLock macro"]
 ms.keywords: KeAcquireSpinLock, KeAcquireSpinLock routine [Kernel-Mode Driver Architecture], k105_387b61b6-b20f-4f17-be47-74c9ed3ac8a1.xml, kernel.keacquirespinlock, wdm/KeAcquireSpinLock
 f1_keywords:
  - "wdm/KeAcquireSpinLock"
+ - "KeAcquireSpinLock"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Hal.dll
 api_name:
 - KeAcquireSpinLock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

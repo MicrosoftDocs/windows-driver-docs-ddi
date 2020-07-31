@@ -28,18 +28,22 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - DllExport
 api_location:
  - wdm.h
 api_name:
  - ExAllocatePoolZero
 f1_keywords:
- - wdm/ExAllocatePoolZero
+ - wdm//ExAllocatePoolZero
+ - ExAllocatePoolZero
 dev_langs:
  - c++
 ---
 
 ## -description
+
+> [!WARNING]
+> Microsoft is aware of an issue with **ExAllocatePoolZero** that can lead to an allocation not getting zeroed on Windows 10, version 1909. We recommend not using **ExAllocatePoolZero** for drivers targeting Windows 10, version 1909. This warning will be removed when the issue is fixed.
 
 This routine is a wrapper for and a recommended replacement option for [**ExAllocatePoolWithTag**](nf-wdm-exallocatepoolwithtag.md).
 

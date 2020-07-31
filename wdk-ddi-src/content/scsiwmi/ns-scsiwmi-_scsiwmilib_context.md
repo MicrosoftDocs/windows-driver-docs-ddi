@@ -10,6 +10,7 @@ keywords: ["_SCSIWMILIB_CONTEXT structure"]
 ms.keywords: "*PSCSI_WMILIB_CONTEXT, PSCSI_WMILIB_CONTEXT, PSCSI_WMILIB_CONTEXT structure pointer [Storage Devices], SCSI_WMILIB_CONTEXT, SCSI_WMILIB_CONTEXT structure [Storage Devices], _SCSIWMILIB_CONTEXT, scsiwmi/PSCSI_WMILIB_CONTEXT, scsiwmi/SCSI_WMILIB_CONTEXT, storage.scsi_wmilib_context, structs-scsibus_725dbb64-2d39-493d-b1bf-e056ca31244f.xml"
 f1_keywords:
  - "scsiwmi/SCSI_WMILIB_CONTEXT"
+ - "SCSI_WMILIB_CONTEXT"
 req.header: scsiwmi.h
 req.include-header: Scsiwmi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - scsiwmi.h
 api_name:
 - SCSI_WMILIB_CONTEXT
-product:
-- Windows
 targetos: Windows
 req.typenames: SCSI_WMILIB_CONTEXT, *PSCSI_WMILIB_CONTEXT
 ---

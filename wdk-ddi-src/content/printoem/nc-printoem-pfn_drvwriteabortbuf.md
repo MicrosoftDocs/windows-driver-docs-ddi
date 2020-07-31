@@ -10,6 +10,7 @@ keywords: ["PFN_DrvWriteAbortBuf callback function"]
 ms.keywords: DrvWriteAbortBuf, DrvWriteAbortBuf callback function [Print Devices], PFN_DrvWriteAbortBuf, PFN_DrvWriteAbortBuf callback, print.drvwriteabortbuf, print_obsoletefunctions_016b6fea-c0ac-47ad-8834-5681e2f4de3d.xml, printoem/DrvWriteAbortBuf
 f1_keywords:
  - "printoem/DrvWriteAbortBuf"
+ - "DrvWriteAbortBuf"
 req.header: printoem.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - printoem.h
 api_name:
 - DrvWriteAbortBuf
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

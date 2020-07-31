@@ -10,6 +10,7 @@ keywords: ["PcRegisterAdapterPowerManagement function"]
 ms.keywords: PcRegisterAdapterPowerManagement, PcRegisterAdapterPowerManagement function [Audio Devices], audio.pcregisteradapterpowermanagement, audpc-routines_524bed01-a6ba-492c-9e18-7495de15be46.xml, portcls/PcRegisterAdapterPowerManagement
 f1_keywords:
  - "portcls/PcRegisterAdapterPowerManagement"
+ - "PcRegisterAdapterPowerManagement"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Portcls.dll
 api_name:
 - PcRegisterAdapterPowerManagement
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -59,7 +58,7 @@ The <b>PcRegisterAdapterPowerManagement</b> function registers the adapter's pow
 
 ### -param Unknown
 
-<p>Pointer to an adapter driver object's <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown"><b>IUnknown</b></a> interface. The PortCls system driver queries this object for its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iadapterpowermanagement">IAdapterPowerManagement</a> interface.</p>
+<p>Pointer to an adapter driver object's <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown"><b>IUnknown</b></a> interface. The PortCls system driver queries this object for its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iadapterpowermanagement">IAdapterPowerManagement</a> interface.</p>
 
 
 ### -param pvContext1 [in]

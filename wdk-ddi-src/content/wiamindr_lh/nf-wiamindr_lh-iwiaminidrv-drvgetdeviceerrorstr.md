@@ -10,6 +10,7 @@ keywords: ["IWiaMiniDrv::drvGetDeviceErrorStr"]
 ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvGetDeviceErrorStr method, IWiaMiniDrv.drvGetDeviceErrorStr, IWiaMiniDrv::drvGetDeviceErrorStr, MiniDrv_d5a72b62-8987-4d0a-921e-8a7f4d915d12.xml, drvGetDeviceErrorStr, drvGetDeviceErrorStr method [Imaging Devices], drvGetDeviceErrorStr method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvgetdeviceerrorstr, wiamindr_lh/IWiaMiniDrv::drvGetDeviceErrorStr
 f1_keywords:
  - "wiamindr_lh/IWiaMiniDrv.drvGetDeviceErrorStr"
+ - "IWiaMiniDrv.drvGetDeviceErrorStr"
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wiamindr_lh.h
 api_name:
 - IWiaMiniDrv.drvGetDeviceErrorStr
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

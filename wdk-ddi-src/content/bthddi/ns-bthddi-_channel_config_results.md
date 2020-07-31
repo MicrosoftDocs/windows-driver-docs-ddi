@@ -10,6 +10,7 @@ keywords: ["_CHANNEL_CONFIG_RESULTS structure"]
 ms.keywords: "*PCHANNEL_CONFIG_RESULTS, CHANNEL_CONFIG_RESULTS, CHANNEL_CONFIG_RESULTS structure [Bluetooth Devices], PCHANNEL_CONFIG_RESULTS, PCHANNEL_CONFIG_RESULTS structure pointer [Bluetooth Devices], _CHANNEL_CONFIG_RESULTS, bltooth.channel_config_results, bth_structs_9c4ea05f-7bee-473c-a311-e68f49c3013a.xml, bthddi/CHANNEL_CONFIG_RESULTS, bthddi/PCHANNEL_CONFIG_RESULTS"
 f1_keywords:
  - "bthddi/CHANNEL_CONFIG_RESULTS"
+ - "CHANNEL_CONFIG_RESULTS"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - bthddi.h
 api_name:
 - CHANNEL_CONFIG_RESULTS
-product:
-- Windows
 targetos: Windows
 req.typenames: CHANNEL_CONFIG_RESULTS, *PCHANNEL_CONFIG_RESULTS
 ---

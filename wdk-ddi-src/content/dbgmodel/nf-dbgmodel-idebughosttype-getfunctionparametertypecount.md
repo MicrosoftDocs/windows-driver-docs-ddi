@@ -7,6 +7,7 @@ ms.date: 08/22/2018
 keywords: ["IDebugHostType::GetFunctionParameterTypeCount"]
 f1_keywords:
  - "dbgmodel/IDebugHostType.GetFunctionParameterTypeCount"
+ - "IDebugHostType.GetFunctionParameterTypeCount"
 ms.keywords: IDebugHostType::GetFunctionParameterTypeCount, GetFunctionParameterTypeCount, IDebugHostType.GetFunctionParameterTypeCount, IDebugHostType::GetFunctionParameterTypeCount, IDebugHostType.GetFunctionParameterTypeCount
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostType.GetFunctionParameterTypeCount
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

@@ -10,6 +10,7 @@ keywords: ["_BRB_SCO_OPEN_CHANNEL structure"]
 ms.keywords: "_BRB_SCO_OPEN_CHANNEL, _BRB_SCO_OPEN_CHANNEL structure [Bluetooth Devices], bltooth._brb_sco_open_channel, bth_structs_f852010d-7117-48fe-bd65-f4e4f17e8706.xml, bthddi/_BRB_SCO_OPEN_CHANNEL"
 f1_keywords:
  - "bthddi/_BRB_SCO_OPEN_CHANNEL"
+ - "_BRB_SCO_OPEN_CHANNEL"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - bthddi.h
 api_name:
 - _BRB_SCO_OPEN_CHANNEL
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

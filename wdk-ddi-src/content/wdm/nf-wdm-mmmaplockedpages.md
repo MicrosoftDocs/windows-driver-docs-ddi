@@ -10,6 +10,7 @@ keywords: ["MmMapLockedPages function"]
 ms.keywords: MmMapLockedPages, MmMapLockedPages routine [Kernel-Mode Driver Architecture], k106_009bdc6a-6bbc-4a7f-927e-ea5c6de8fa95.xml, kernel.mmmaplockedpages, wdm/MmMapLockedPages
 f1_keywords:
  - "wdm/MmMapLockedPages"
+ - "MmMapLockedPages"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - MmMapLockedPages
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

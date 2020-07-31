@@ -10,6 +10,7 @@ keywords: ["NdisAnsiStringToUnicodeString macro"]
 ms.keywords: NdisAnsiStringToUnicodeString, NdisAnsiStringToUnicodeString macro [Network Drivers Starting with Windows Vista], ndis/NdisAnsiStringToUnicodeString, ndis_string_ref_e56d613a-b145-4f9e-bb96-3e4d8ad33538.xml, netvista.ndisansistringtounicodestring
 f1_keywords:
  - "ndis/NdisAnsiStringToUnicodeString"
+ - "NdisAnsiStringToUnicodeString"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisAnsiStringToUnicodeString
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -86,7 +85,7 @@ The caller must allocate storage for both the source and destination strings and
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_string">ANSI_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-string">ANSI_STRING</a>
 
 
 

@@ -10,6 +10,7 @@ keywords: ["NdisFreeTimerObject function"]
 ms.keywords: NdisFreeTimerObject, NdisFreeTimerObject function [Network Drivers Starting with Windows Vista], ndis/NdisFreeTimerObject, ndis_timer_ref_0f4b2edb-47fb-481c-a1e9-6940d15cb354.xml, netvista.ndisfreetimerobject
 f1_keywords:
  - "ndis/NdisFreeTimerObject"
+ - "NdisFreeTimerObject"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisFreeTimerObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

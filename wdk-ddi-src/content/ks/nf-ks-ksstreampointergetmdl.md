@@ -10,6 +10,7 @@ keywords: ["KsStreamPointerGetMdl function"]
 ms.keywords: KsStreamPointerGetMdl, KsStreamPointerGetMdl function [Streaming Media Devices], avfunc_94dcd1e0-4882-4703-b69a-9ca8b21d30a0.xml, ks/KsStreamPointerGetMdl, stream.ksstreampointergetmdl
 f1_keywords:
  - "ks/KsStreamPointerGetMdl"
+ - "KsStreamPointerGetMdl"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsStreamPointerGetMdl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["DrvSplWritePrinter function"]
 ms.keywords: DrvSplWritePrinter, DrvSplWritePrinter function [Print Devices], print.drvsplwriteprinter, print_interface-graphics_a59ea0df-c5d8-4a84-8b57-21dfa4f382c4.xml, winddiui/DrvSplWritePrinter
 f1_keywords:
  - "winddiui/DrvSplWritePrinter"
+ - "DrvSplWritePrinter"
 req.header: winddiui.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - winddiui.h
 api_name:
 - DrvSplWritePrinter
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

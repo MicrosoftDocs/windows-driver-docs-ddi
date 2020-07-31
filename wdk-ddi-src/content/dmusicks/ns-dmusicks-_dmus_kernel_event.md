@@ -10,6 +10,7 @@ keywords: ["_DMUS_KERNEL_EVENT structure"]
 ms.keywords: "*PDMUS_KERNEL_EVENT, DMUS_KERNEL_EVENT, DMUS_KERNEL_EVENT structure [Audio Devices], PDMUS_KERNEL_EVENT, PDMUS_KERNEL_EVENT structure pointer [Audio Devices], _DMUS_KERNEL_EVENT, aud-prop_b0db54b3-fff3-46f2-abd7-beb4fe189f8f.xml, audio.dmus_kernel_event, dmusicks/DMUS_KERNEL_EVENT, dmusicks/PDMUS_KERNEL_EVENT"
 f1_keywords:
  - "dmusicks/DMUS_KERNEL_EVENT"
+ - "DMUS_KERNEL_EVENT"
 req.header: dmusicks.h
 req.include-header: Dmusicks.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dmusicks.h
 api_name:
 - DMUS_KERNEL_EVENT
-product:
-- Windows
 targetos: Windows
 req.typenames: DMUS_KERNEL_EVENT, *PDMUS_KERNEL_EVENT
 ---

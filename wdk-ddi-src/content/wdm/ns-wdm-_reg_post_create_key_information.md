@@ -10,6 +10,7 @@ keywords: ["_REG_POST_CREATE_KEY_INFORMATION structure"]
 ms.keywords: "*PREG_POST_CREATE_KEY_INFORMATION, *PREG_POST_OPEN_KEY_INFORMATION, PREG_POST_CREATE_KEY_INFORMATION, PREG_POST_CREATE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_POST_CREATE_KEY_INFORMATION, REG_POST_CREATE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], REG_POST_OPEN_KEY_INFORMATION, REG_POST_OPEN_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], _REG_POST_CREATE_KEY_INFORMATION, kernel.reg_post_create_key_information, kstruct_d_31e99ef7-d3dc-425d-9cc4-2735c50dd7dc.xml, wdm/PREG_POST_CREATE_KEY_INFORMATION, wdm/REG_POST_CREATE_KEY_INFORMATION, wdm/REG_POST_OPEN_KEY_INFORMATION"
 f1_keywords:
  - "wdm/REG_POST_CREATE_KEY_INFORMATION"
+ - "REG_POST_CREATE_KEY_INFORMATION"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - REG_POST_CREATE_KEY_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: REG_POST_CREATE_KEY_INFORMATION, REG_POST_OPEN_KEY_INFORMATION, *PREG_POST_CREATE_KEY_INFORMATION, *PREG_POST_OPEN_KEY_INFORMATION
 ---

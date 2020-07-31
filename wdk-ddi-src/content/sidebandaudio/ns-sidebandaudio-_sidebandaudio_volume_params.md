@@ -7,6 +7,7 @@ ms.date: 10/05/2018
 keywords: ["_SIDEBANDAUDIO_VOLUME_PARAMS structure"]
 f1_keywords:
  - "sidebandaudio/_SIDEBANDAUDIO_VOLUME_PARAMS"
+ - "_SIDEBANDAUDIO_VOLUME_PARAMS"
 ms.keywords: _SIDEBANDAUDIO_VOLUME_PARAMS, SIDEBANDAUDIO_VOLUME_PARAMS, *PSIDEBANDAUDIO_VOLUME_PARAMS, 
 req.header: sidebandaudio.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - sidebandaudio.h
 api_name: 
 - _SIDEBANDAUDIO_VOLUME_PARAMS
-product:
-- Windows
 targetos: Windows
 tech.root: audio
 ms.custom: RS5

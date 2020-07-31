@@ -10,6 +10,7 @@ keywords: ["_DEVICEPROPERTYHEADER structure"]
 ms.keywords: "*PDEVICEPROPERTYHEADER, DEVICEPROPERTYHEADER, DEVICEPROPERTYHEADER structure [Print Devices], PDEVICEPROPERTYHEADER, PDEVICEPROPERTYHEADER structure pointer [Print Devices], _DEVICEPROPERTYHEADER, print.devicepropertyheader, print_interface-graphics_7dc4be04-e0ab-43bb-8e6d-f500cc7cf51c.xml, winddiui/DEVICEPROPERTYHEADER, winddiui/PDEVICEPROPERTYHEADER"
 f1_keywords:
  - "winddiui/DEVICEPROPERTYHEADER"
+ - "DEVICEPROPERTYHEADER"
 req.header: winddiui.h
 req.include-header: Winddiui.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - winddiui.h
 api_name:
 - DEVICEPROPERTYHEADER
-product:
-- Windows
 targetos: Windows
 req.typenames: DEVICEPROPERTYHEADER, *PDEVICEPROPERTYHEADER
 ---

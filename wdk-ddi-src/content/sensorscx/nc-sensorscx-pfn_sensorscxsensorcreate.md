@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["*PFN_SENSORSCXSENSORCREATE callback function"]
 f1_keywords:
  - "sensorscx/*PFN_SENSORSCXSENSORCREATE"
+ - "*PFN_SENSORSCXSENSORCREATE"
 req.header: sensorscx.h
 req.include-header:
 req.target-type:
@@ -32,8 +33,6 @@ api_location:
 - sensorscx.h
 api_name: 
 - PFN_SENSORSCXSENSORCREATE
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

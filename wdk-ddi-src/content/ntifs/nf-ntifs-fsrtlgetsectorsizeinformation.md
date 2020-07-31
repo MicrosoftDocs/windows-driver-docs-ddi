@@ -10,6 +10,7 @@ keywords: ["FsRtlGetSectorSizeInformation function"]
 ms.keywords: FsRtlGetSectorSizeInformation, FsRtlGetSectorSizeInformation routine [Installable File System Drivers], ifsk.fsrtlgetsectorsizeinformation, ntifs/FsRtlGetSectorSizeInformation
 f1_keywords:
  - "ntifs/FsRtlGetSectorSizeInformation"
+ - "FsRtlGetSectorSizeInformation"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlGetSectorSizeInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

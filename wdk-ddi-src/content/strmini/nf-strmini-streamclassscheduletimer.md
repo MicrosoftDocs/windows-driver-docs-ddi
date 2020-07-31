@@ -10,6 +10,7 @@ keywords: ["StreamClassScheduleTimer function"]
 ms.keywords: StreamClassScheduleTimer, StreamClassScheduleTimer routine [Streaming Media Devices], strclass-routines_73f92fc4-e9bf-40af-8dff-9c2e740dba20.xml, stream.streamclassscheduletimer, strmini/StreamClassScheduleTimer
 f1_keywords:
  - "strmini/StreamClassScheduleTimer"
+ - "StreamClassScheduleTimer"
 req.header: strmini.h
 req.include-header: Strmini.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Stream.dll
 api_name:
 - StreamClassScheduleTimer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

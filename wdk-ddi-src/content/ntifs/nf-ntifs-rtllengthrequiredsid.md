@@ -10,6 +10,7 @@ keywords: ["RtlLengthRequiredSid function"]
 ms.keywords: RtlLengthRequiredSid, RtlLengthRequiredSid routine [Installable File System Drivers], ifsk.rtllengthrequiredsid, ntifs/RtlLengthRequiredSid, rtlref_78e8a660-8510-40bc-b221-747538423488.xml
 f1_keywords:
  - "ntifs/RtlLengthRequiredSid"
+ - "RtlLengthRequiredSid"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ntdll.dll
 api_name:
 - RtlLengthRequiredSid
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

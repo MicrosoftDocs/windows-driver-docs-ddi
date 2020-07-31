@@ -10,6 +10,7 @@ keywords: ["IDebugBreakpoint2::GetOffsetExpressionWide"]
 ms.keywords: GetOffsetExpressionWide, GetOffsetExpressionWide method [Windows Debugging], GetOffsetExpressionWide method [Windows Debugging],IDebugBreakpoint2 interface, IDebugBreakpoint2 interface [Windows Debugging],GetOffsetExpressionWide method, IDebugBreakpoint2.GetOffsetExpressionWide, IDebugBreakpoint2::GetOffsetExpressionWide, dbgeng/IDebugBreakpoint2::GetOffsetExpressionWide, debugger.getoffsetexpressionwide
 f1_keywords:
  - "dbgeng/IDebugBreakpoint2.GetOffsetExpressionWide"
+ - "IDebugBreakpoint2.GetOffsetExpressionWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugBreakpoint2.GetOffsetExpressionWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

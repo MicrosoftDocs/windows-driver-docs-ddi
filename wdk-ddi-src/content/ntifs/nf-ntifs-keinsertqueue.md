@@ -10,6 +10,7 @@ keywords: ["KeInsertQueue function"]
 ms.keywords: KeInsertQueue, KeInsertQueue routine [Installable File System Drivers], ifsk.keinsertqueue, keref_0e1ad47f-c38b-40e8-8629-8d970d5e1a72.xml, ntifs/KeInsertQueue
 f1_keywords:
  - "ntifs/KeInsertQueue"
+ - "KeInsertQueue"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeInsertQueue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

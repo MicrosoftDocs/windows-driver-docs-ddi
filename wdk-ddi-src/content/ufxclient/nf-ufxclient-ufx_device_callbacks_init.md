@@ -10,6 +10,7 @@ keywords: ["UFX_DEVICE_CALLBACKS_INIT function"]
 ms.keywords: UFX_DEVICE_CALLBACKS_INIT, UFX_DEVICE_CALLBACKS_INIT function [Buses], buses.ufx_device_callbacks_init, ufxclient/UFX_DEVICE_CALLBACKS_INIT
 f1_keywords:
  - "ufxclient/UFX_DEVICE_CALLBACKS_INIT"
+ - "UFX_DEVICE_CALLBACKS_INIT"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ufxclient.h
 api_name:
 - UFX_DEVICE_CALLBACKS_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

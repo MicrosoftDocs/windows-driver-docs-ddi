@@ -10,6 +10,7 @@ keywords: ["KeReleaseQueuedSpinLock function"]
 ms.keywords: KeReleaseQueuedSpinLock, KeReleaseQueuedSpinLock function [Installable File System Drivers], ifsk.kereleasequeuedspinlock, keref_8815930f-e691-4759-ac40-3ebbe95e9116.xml, ntifs/KeReleaseQueuedSpinLock
 f1_keywords:
  - "ntifs/KeReleaseQueuedSpinLock"
+ - "KeReleaseQueuedSpinLock"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - KeReleaseQueuedSpinLock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

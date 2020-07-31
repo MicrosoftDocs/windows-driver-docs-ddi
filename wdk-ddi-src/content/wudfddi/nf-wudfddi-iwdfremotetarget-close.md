@@ -10,6 +10,7 @@ keywords: ["IWDFRemoteTarget::Close"]
 ms.keywords: Close, Close method, Close method,IWDFRemoteTarget interface, IWDFRemoteTarget interface,Close method, IWDFRemoteTarget.Close, IWDFRemoteTarget::Close, UMDFIoTargetObjectRef_1e5aba5f-fd82-4d59-abb6-915e8a49ad22.xml, umdf.iwdfremotetarget_close, wdf.iwdfremotetarget_close, wudfddi/IWDFRemoteTarget::Close
 f1_keywords:
  - "wudfddi/IWDFRemoteTarget.Close"
+ - "IWDFRemoteTarget.Close"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFRemoteTarget.Close
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

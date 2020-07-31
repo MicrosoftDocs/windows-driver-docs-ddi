@@ -10,6 +10,7 @@ keywords: ["_PCMCIA_CONTROLLER_CLASS enumeration"]
 ms.keywords: "*PPCMCIA_CONTROLLER_CLASS, PCMCIA.pcmcia_controller_class, PCMCIA_CONTROLLER_CLASS, PCMCIA_CONTROLLER_CLASS enumeration [Buses], PPCMCIA_CONTROLLER_CLASS, PPCMCIA_CONTROLLER_CLASS enumeration pointer [Buses], PcmciaCardBusCompatible, PcmciaCirrusLogic, PcmciaDatabook, PcmciaDatabookCB, PcmciaElcController, PcmciaIntelCompatible, PcmciaInvalidControllerClass, PcmciaNEC, PcmciaNEC_98, PcmciaO2Micro, PcmciaOpti, PcmciaPciPcmciaBridge, PcmciaRicoh, PcmciaTI, PcmciaTopic, PcmciaTrid, _PCMCIA_CONTROLLER_CLASS, memcdref_a3d708d3-6fa4-4edd-af5d-1513c8da5a9b.xml, ntddpcm/PCMCIA_CONTROLLER_CLASS, ntddpcm/PPCMCIA_CONTROLLER_CLASS, ntddpcm/PcmciaCardBusCompatible, ntddpcm/PcmciaCirrusLogic, ntddpcm/PcmciaDatabook, ntddpcm/PcmciaDatabookCB, ntddpcm/PcmciaElcController, ntddpcm/PcmciaIntelCompatible, ntddpcm/PcmciaInvalidControllerClass, ntddpcm/PcmciaNEC, ntddpcm/PcmciaNEC_98, ntddpcm/PcmciaO2Micro, ntddpcm/PcmciaOpti, ntddpcm/PcmciaPciPcmciaBridge, ntddpcm/PcmciaRicoh, ntddpcm/PcmciaTI, ntddpcm/PcmciaTopic, ntddpcm/PcmciaTrid"
 f1_keywords:
  - "ntddpcm/PCMCIA_CONTROLLER_CLASS"
+ - "PCMCIA_CONTROLLER_CLASS"
 req.header: ntddpcm.h
 req.include-header: Ntddpcm.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddpcm.h
 api_name:
 - PCMCIA_CONTROLLER_CLASS
-product:
-- Windows
 targetos: Windows
 req.typenames: PCMCIA_CONTROLLER_CLASS, *PPCMCIA_CONTROLLER_CLASS
 ---

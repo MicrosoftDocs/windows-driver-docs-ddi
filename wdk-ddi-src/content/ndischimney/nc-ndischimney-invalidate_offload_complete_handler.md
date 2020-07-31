@@ -10,6 +10,7 @@ keywords: ["INVALIDATE_OFFLOAD_COMPLETE_HANDLER callback function"]
 ms.keywords: INVALIDATE_OFFLOAD_COMPLETE_HANDLER, INVALIDATE_OFFLOAD_COMPLETE_HANDLER callback, ProtocolInvalidateOffloadComplete, ProtocolInvalidateOffloadComplete callback function [Network Drivers Starting with Windows Vista], ndischimney/ProtocolInvalidateOffloadComplete, netvista.protocolinvalidateoffloadcomplete, tcp_chim_protocol_func_af2a329a-730b-4ccb-afc6-702e88a763f2.xml
 f1_keywords:
  - "ndischimney/ProtocolInvalidateOffloadComplete"
+ - "ProtocolInvalidateOffloadComplete"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ndischimney.h
 api_name:
 - ProtocolInvalidateOffloadComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

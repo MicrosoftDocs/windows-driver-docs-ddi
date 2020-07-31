@@ -10,6 +10,7 @@ keywords: ["SerCx2SystemDmaTransmitInitializeTransactionComplete function"]
 ms.keywords: 2/SerCx2SystemDmaTransmitInitializeTransactionComplete, SerCx2SystemDmaTransmitInitializeTransactionComplete, SerCx2SystemDmaTransmitInitializeTransactionComplete method [Serial Ports], serports.sercx2systemdmatransmitinitializetransactioncomplete
 f1_keywords:
  - "sercx/SerCx2SystemDmaTransmitInitializeTransactionComplete"
+ - "SerCx2SystemDmaTransmitInitializeTransactionComplete"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - 2.0\Sercx.h
 api_name:
 - SerCx2SystemDmaTransmitInitializeTransactionComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

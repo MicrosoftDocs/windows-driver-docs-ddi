@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_INTERRUPT_WORKITEM callback function"]
 ms.keywords: EVT_WDF_INTERRUPT_WORKITEM, EVT_WDF_INTERRUPT_WORKITEM callback, EvtInterruptWorkItem, EvtInterruptWorkItem callback function, kmdf.evtinterruptworkitem, wdf.evtinterruptworkitem, wdfinterrupt/EvtInterruptWorkItem
 f1_keywords:
  - "wdfinterrupt/EvtInterruptWorkItem"
+ - "EvtInterruptWorkItem"
 req.header: wdfinterrupt.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Wdfinterrupt.h
 api_name:
 - EvtInterruptWorkItem
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

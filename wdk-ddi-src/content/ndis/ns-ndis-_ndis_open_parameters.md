@@ -10,6 +10,7 @@ keywords: ["_NDIS_OPEN_PARAMETERS structure"]
 ms.keywords: "*PNDIS_OPEN_PARAMETERS, NDIS_OPEN_PARAMETERS, NDIS_OPEN_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_OPEN_PARAMETERS, PNDIS_OPEN_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_OPEN_PARAMETERS, ndis/NDIS_OPEN_PARAMETERS, ndis/PNDIS_OPEN_PARAMETERS, netvista.ndis_open_parameters, protocol_structures_ref_6de65643-050b-43b6-875f-13c493b3d9de.xml"
 f1_keywords:
  - "ndis/NDIS_OPEN_PARAMETERS"
+ - "NDIS_OPEN_PARAMETERS"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NDIS_OPEN_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_OPEN_PARAMETERS, *PNDIS_OPEN_PARAMETERS
 ---

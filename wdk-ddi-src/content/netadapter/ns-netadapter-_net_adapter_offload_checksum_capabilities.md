@@ -8,6 +8,7 @@ ms.date: 01/18/2019
 keywords: ["_NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES structure"]
 f1_keywords:
  - "netadapter/_NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES"
+ - "_NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES"
 ms.keywords: _NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES, NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES, *PNET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES, 
 req.header: netadapter.h
 req.include-header:
@@ -30,8 +31,6 @@ api_location:
 - netadapter.h
 api_name: 
 - _NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES
-product:
-- Windows
 targetos: Windows
 ms.custom: 19H1
 ---

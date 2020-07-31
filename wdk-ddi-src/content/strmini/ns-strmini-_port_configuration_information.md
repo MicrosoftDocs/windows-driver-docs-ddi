@@ -10,6 +10,7 @@ keywords: ["_PORT_CONFIGURATION_INFORMATION structure"]
 ms.keywords: "*PPORT_CONFIGURATION_INFORMATION, PORT_CONFIGURATION_INFORMATION, PORT_CONFIGURATION_INFORMATION structure [Streaming Media Devices], PPORT_CONFIGURATION_INFORMATION, PPORT_CONFIGURATION_INFORMATION structure pointer [Streaming Media Devices], _PORT_CONFIGURATION_INFORMATION, _PORT_CONFIGURATION_INFORMATION structure [Streaming Media Devices], strclass-struct_5cfaddef-5c60-406e-b938-697f36b6c8e1.xml, stream.port_configuration_information, strmini/PORT_CONFIGURATION_INFORMATION, strmini/PPORT_CONFIGURATION_INFORMATION"
 f1_keywords:
  - "strmini/PORT_CONFIGURATION_INFORMATION"
+ - "PORT_CONFIGURATION_INFORMATION"
 req.header: strmini.h
 req.include-header: Strmini.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - strmini.h
 api_name:
 - PORT_CONFIGURATION_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: PORT_CONFIGURATION_INFORMATION, *PPORT_CONFIGURATION_INFORMATION
 ---

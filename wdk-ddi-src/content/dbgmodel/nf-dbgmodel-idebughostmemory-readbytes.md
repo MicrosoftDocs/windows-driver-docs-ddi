@@ -7,6 +7,7 @@ ms.date: 09/28/2018
 keywords: ["IDebugHostMemory::ReadBytes"]
 f1_keywords:
  - "dbgmodel/IDebugHostMemory.ReadBytes"
+ - "IDebugHostMemory.ReadBytes"
 ms.keywords: IDebugHostMemory::ReadBytes, ReadBytes, IDebugHostMemory.ReadBytes, IDebugHostMemory::ReadBytes, IDebugHostMemory.ReadBytes
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostMemory.ReadBytes
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

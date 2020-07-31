@@ -29,6 +29,7 @@ tech.root: display
 req.typenames: 
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_CREATE_PROTECTED_SESSION_CB_0030"
+ - "PFND3D12DDI_CREATE_PROTECTED_SESSION_CB_0030"
 topic_type:
  - APIRef
  - kbSyntax

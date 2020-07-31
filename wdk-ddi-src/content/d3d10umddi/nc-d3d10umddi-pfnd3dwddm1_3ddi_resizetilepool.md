@@ -9,6 +9,7 @@ keywords: ["PFND3DWDDM1_3DDI_RESIZETILEPOOL callback function"]
 ms.keywords: PFND3DWDDM1_3DDI_RESIZETILEPOOL, PFND3DWDDM1_3DDI_RESIZETILEPOOL callback, ResizeTilePool, ResizeTilePool callback function [Display Devices], d3d10umddi/ResizeTilePool, display.resizetilepool
 f1_keywords:
  - "d3d10umddi/ResizeTilePool"
+ - "ResizeTilePool"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -35,8 +36,6 @@ api_location:
 - D3d10umddi.h
 api_name:
 - ResizeTilePool
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

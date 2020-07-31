@@ -9,6 +9,7 @@ keywords: ["DXGKCB_CREATECONTEXTALLOCATION callback function"]
 ms.keywords: DXGKCB_CREATECONTEXTALLOCATION, DXGKCB_CREATECONTEXTALLOCATION callback, DxgkCbCreateContextAllocation, DxgkCbCreateContextAllocation callback function [Display Devices], d3dkmddi/DxgkCbCreateContextAllocation, display.dxgkcbcreatecontextallocation
 f1_keywords:
  - "d3dkmddi/DxgkCbCreateContextAllocation"
+ - "DxgkCbCreateContextAllocation"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop
@@ -35,8 +36,6 @@ api_location:
 - D3dkmddi.h
 api_name:
 - DxgkCbCreateContextAllocation
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

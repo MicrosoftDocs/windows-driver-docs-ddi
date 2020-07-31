@@ -10,6 +10,7 @@ keywords: ["_KEY_CACHED_INFORMATION structure"]
 ms.keywords: "*PKEY_CACHED_INFORMATION, KEY_CACHED_INFORMATION, KEY_CACHED_INFORMATION structure [Kernel-Mode Driver Architecture], PKEY_CACHED_INFORMATION, PKEY_CACHED_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _KEY_CACHED_INFORMATION, kernel.key_cached_information, kstruct_c_72dd8fcc-4983-49e0-af00-57b8fbbf3964.xml, ntddk/KEY_CACHED_INFORMATION, ntddk/PKEY_CACHED_INFORMATION"
 f1_keywords:
  - "ntddk/KEY_CACHED_INFORMATION"
+ - "KEY_CACHED_INFORMATION"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddk.h
 api_name:
 - KEY_CACHED_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: KEY_CACHED_INFORMATION, *PKEY_CACHED_INFORMATION
 ---

@@ -8,6 +8,7 @@ ms.date: 08/23/2019
 keywords: ["DeviceDsmParameterBlock function"]
 f1_keywords:
  - "ntddstor/DeviceDsmParameterBlock"
+ - "DeviceDsmParameterBlock"
 ms.keywords: DeviceDsmParameterBlock
 req.header: ntddstor.h
 req.include-header:
@@ -34,8 +35,6 @@ api_location:
 - NtosKrnl.exe
 api_name: 
 - DeviceDsmParameterBlock
-product:
-- Windows
 targetos: Windows
 
 ---

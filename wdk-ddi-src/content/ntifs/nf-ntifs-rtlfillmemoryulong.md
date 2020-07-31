@@ -10,6 +10,7 @@ keywords: ["RtlFillMemoryUlong function"]
 ms.keywords: RtlFillMemoryUlong, RtlFillMemoryUlong routine [Installable File System Drivers], ifsk.rtlfillmemoryulong, ntifs/RtlFillMemoryUlong, rtlref_11aa35b5-f5b5-459c-9996-e7dcb7741dd8.xml
 f1_keywords:
  - "ntifs/RtlFillMemoryUlong"
+ - "RtlFillMemoryUlong"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlFillMemoryUlong
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

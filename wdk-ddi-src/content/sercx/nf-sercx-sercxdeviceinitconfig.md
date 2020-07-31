@@ -10,6 +10,7 @@ keywords: ["SerCxDeviceInitConfig function"]
 ms.keywords: 1/SerCxDeviceInitConfig, SerCxDeviceInitConfig, SerCxDeviceInitConfig method [Serial Ports], serports.sercxdeviceinitconfig
 f1_keywords:
  - "sercx/SerCxDeviceInitConfig"
+ - "SerCxDeviceInitConfig"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - 1.0\Sercx.h
 api_name:
 - SerCxDeviceInitConfig
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

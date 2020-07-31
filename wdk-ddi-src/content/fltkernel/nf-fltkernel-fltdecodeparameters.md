@@ -10,6 +10,7 @@ keywords: ["FltDecodeParameters function"]
 ms.keywords: FltApiRef_a_to_d_0e793d86-f756-4885-8b23-5f74cd50b144.xml, FltDecodeParameters, FltDecodeParameters routine [Installable File System Drivers], fltkernel/FltDecodeParameters, ifsk.fltdecodeparameters
 f1_keywords:
  - "fltkernel/FltDecodeParameters"
+ - "FltDecodeParameters"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - FltMgr.dll
 api_name:
 - FltDecodeParameters
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

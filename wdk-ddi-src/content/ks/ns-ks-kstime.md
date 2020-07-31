@@ -10,6 +10,7 @@ keywords: ["KSTIME structure"]
 ms.keywords: "*PKSTIME, KSTIME, KSTIME structure [Streaming Media Devices], PKSTIME, PKSTIME structure pointer [Streaming Media Devices], ks-struct_9db70ddb-ae2c-464b-a481-6927adef449c.xml, ks/KSTIME, ks/PKSTIME, stream.kstime"
 f1_keywords:
  - "ks/KSTIME"
+ - "KSTIME"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KSTIME
-product:
-- Windows
 targetos: Windows
 req.typenames: KSTIME, *PKSTIME
 ---

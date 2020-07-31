@@ -9,6 +9,7 @@ keywords: ["D3DKMTUpdateOverlay function"]
 ms.keywords: D3DKMTUpdateOverlay, D3DKMTUpdateOverlay function [Display Devices], OpenGL_Functions_bddc75da-dc62-43cf-8ee7-ec9958198669.xml, d3dkmthk/D3DKMTUpdateOverlay, display.d3dkmtupdateoverlay
 f1_keywords:
  - "d3dkmthk/D3DKMTUpdateOverlay"
+ - "D3DKMTUpdateOverlay"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -38,8 +39,6 @@ api_location:
 - API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 - D3DKMTUpdateOverlay
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

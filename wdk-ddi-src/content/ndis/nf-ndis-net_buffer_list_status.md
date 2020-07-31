@@ -8,6 +8,7 @@ ms.date: 04/13/2018
 keywords: ["NET_BUFFER_LIST_STATUS macro"]
 f1_keywords:
  - "ndis/NET_BUFFER_LIST_STATUS"
+ - "NET_BUFFER_LIST_STATUS"
 ms.keywords: NET_BUFFER_LIST_STATUS
 req.header: ndis.h
 req.include-header:
@@ -34,8 +35,6 @@ api_location:
 - ndis.h
 api_name: 
 - NET_BUFFER_LIST_STATUS
-product:
-- Windows
 targetos: Windows
 
 ---

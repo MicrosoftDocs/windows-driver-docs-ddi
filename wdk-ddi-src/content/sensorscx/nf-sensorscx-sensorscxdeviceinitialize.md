@@ -10,6 +10,7 @@ keywords: ["SensorsCxDeviceInitialize function"]
 ms.keywords: SensorsCxDeviceInitialize, SensorsCxDeviceInitialize function [Sensor Devices], sensors.sensorscxdeviceinitialize, sensorscx/SensorsCxDeviceInitialize
 f1_keywords:
  - "sensorscx/SensorsCxDeviceInitialize"
+ - "SensorsCxDeviceInitialize"
 req.header: sensorscx.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - SensorsCx.h
 api_name:
 - SensorsCxDeviceInitialize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

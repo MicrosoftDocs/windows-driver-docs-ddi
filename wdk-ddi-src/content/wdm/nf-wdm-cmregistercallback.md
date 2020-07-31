@@ -10,6 +10,7 @@ keywords: ["CmRegisterCallback function"]
 ms.keywords: CmRegisterCallback, CmRegisterCallback routine [Kernel-Mode Driver Architecture], ConfigMgrRef_ec214e13-1342-48b5-9a31-8c6c9da57cd6.xml, kernel.cmregistercallback, wdm/CmRegisterCallback
 f1_keywords:
  - "wdm/CmRegisterCallback"
+ - "CmRegisterCallback"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - CmRegisterCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

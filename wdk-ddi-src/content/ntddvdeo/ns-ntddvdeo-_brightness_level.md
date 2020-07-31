@@ -8,6 +8,7 @@ ms.date: 08/03/2018
 keywords: ["_BRIGHTNESS_LEVEL structure"]
 f1_keywords:
  - "ntddvdeo/_BRIGHTNESS_LEVEL"
+ - "_BRIGHTNESS_LEVEL"
 ms.keywords: _BRIGHTNESS_LEVEL, *PBRIGHTNESS_LEVEL, BRIGHTNESS_LEVEL,
 req.header: ntddvdeo.h
 req.include-header:

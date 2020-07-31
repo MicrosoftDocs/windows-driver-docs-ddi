@@ -10,6 +10,7 @@ keywords: ["__MIDL_IKeywordDetectorOemAdapter_0002 enumeration"]
 ms.keywords: KEYWORDID, KEYWORDID enumeration [Audio Devices], KwInvalid, KwSelection, KwVoiceAssistant, __MIDL_IKeywordDetectorOemAdapter_0002, audio.keywordid, keyworddetectoroemadapter/ KwSelection, keyworddetectoroemadapter/ KwVoiceAssistant, keyworddetectoroemadapter/KEYWORDID, keyworddetectoroemadapter/KwInvalid
 f1_keywords:
  - "keyworddetectoroemadapter/KEYWORDID"
+ - "KEYWORDID"
 req.header: keyworddetectoroemadapter.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - KeywordDetectorOemAdapter.h
 api_name:
 - KEYWORDID
-product:
-- Windows
 targetos: Windows
 req.typenames: KEYWORDID
 ---

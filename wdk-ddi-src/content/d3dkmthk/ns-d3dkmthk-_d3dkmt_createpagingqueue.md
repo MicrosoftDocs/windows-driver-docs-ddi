@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_CREATEPAGINGQUEUE structure"]
 ms.keywords: D3DKMT_CREATEPAGINGQUEUE, D3DKMT_CREATEPAGINGQUEUE structure [Display Devices], _D3DKMT_CREATEPAGINGQUEUE, d3dkmthk/D3DKMT_CREATEPAGINGQUEUE, display.d3dkmt_createpagingqueue
 f1_keywords:
  - "d3dkmthk/D3DKMT_CREATEPAGINGQUEUE"
+ - "D3DKMT_CREATEPAGINGQUEUE"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMT_CREATEPAGINGQUEUE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_CREATEPAGINGQUEUE

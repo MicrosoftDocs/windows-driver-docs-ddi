@@ -10,6 +10,7 @@ keywords: ["ZwTerminateProcess function"]
 ms.keywords: NtTerminateProcess, ZwTerminateProcess, ZwTerminateProcess routine [Kernel-Mode Driver Architecture], k111_72c76674-5372-4662-9097-53d850d49afe.xml, kernel.zwterminateprocess, ntddk/NtTerminateProcess, ntddk/ZwTerminateProcess
 f1_keywords:
  - "ntddk/ZwTerminateProcess"
+ - "ZwTerminateProcess"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - ZwTerminateProcess
 - NtTerminateProcess
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

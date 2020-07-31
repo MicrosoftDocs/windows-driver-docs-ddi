@@ -10,6 +10,7 @@ keywords: ["IMiniportWaveRTOutputStream::SetWritePacket"]
 ms.keywords: IMiniportWaveRTOutputStream interface [Audio Devices],SetWritePacket method, IMiniportWaveRTOutputStream.SetWritePacket, IMiniportWaveRTOutputStream::SetWritePacket, SetWritePacket, SetWritePacket method [Audio Devices], SetWritePacket method [Audio Devices],IMiniportWaveRTOutputStream interface, audio.iminiportwavertoutputstream_setwritepacket, portcls/IMiniportWaveRTOutputStream::SetWritePacket
 f1_keywords:
  - "portcls/IMiniportWaveRTOutputStream.SetWritePacket"
+ - "IMiniportWaveRTOutputStream.SetWritePacket"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IMiniportWaveRTOutputStream.SetWritePacket
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

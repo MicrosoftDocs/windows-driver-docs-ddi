@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_UPDATEPALETTE structure"]
 ms.keywords: D3DDDIARG_UPDATEPALETTE, D3DDDIARG_UPDATEPALETTE structure [Display Devices], UMDisplayDriver_param_Structs_abbbfa0f-d2f6-4985-a189-56e4592c1c1e.xml, _D3DDDIARG_UPDATEPALETTE, d3dumddi/D3DDDIARG_UPDATEPALETTE, display.d3dddiarg_updatepalette
 f1_keywords:
  - "d3dumddi/D3DDDIARG_UPDATEPALETTE"
+ - "D3DDDIARG_UPDATEPALETTE"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDIARG_UPDATEPALETTE
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_UPDATEPALETTE
 ---

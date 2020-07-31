@@ -10,6 +10,7 @@ keywords: ["PEP_PROCESSOR_IDLE_TYPE enumeration"]
 ms.keywords: "*PPEP_PROCESSOR_IDLE_TYPE, PEP_PROCESSOR_IDLE_TYPE, PEP_PROCESSOR_IDLE_TYPE enumeration [Kernel-Mode Driver Architecture], PepIdleTypeMax, PepIdleTypePlatform, PepIdleTypeProcessor, kernel.pep_processor_idle_type, pep_x/PEP_PROCESSOR_IDLE_TYPE, pep_x/PepIdleTypeMax, pep_x/PepIdleTypePlatform, pep_x/PepIdleTypeProcessor"
 f1_keywords:
  - "pep_x/PEP_PROCESSOR_IDLE_TYPE"
+ - "PEP_PROCESSOR_IDLE_TYPE"
 req.header: pep_x.h
 req.include-header: Pepfx.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pep_x.h
 api_name:
 - PEP_PROCESSOR_IDLE_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_PROCESSOR_IDLE_TYPE, *PPEP_PROCESSOR_IDLE_TYPE
 ---

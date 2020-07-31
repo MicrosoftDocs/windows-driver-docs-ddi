@@ -10,6 +10,7 @@ keywords: ["IDebugSymbolGroup2::RemoveSymbolByNameWide"]
 ms.keywords: IDebugSymbolGroup2 interface [Windows Debugging],RemoveSymbolByNameWide method, IDebugSymbolGroup2.RemoveSymbolByNameWide, IDebugSymbolGroup2::RemoveSymbolByNameWide, RemoveSymbolByNameWide, RemoveSymbolByNameWide method [Windows Debugging], RemoveSymbolByNameWide method [Windows Debugging],IDebugSymbolGroup2 interface, dbgeng/IDebugSymbolGroup2::RemoveSymbolByNameWide, debugger.removesymbolbynamewide
 f1_keywords:
  - "dbgeng/IDebugSymbolGroup2.RemoveSymbolByNameWide"
+ - "IDebugSymbolGroup2.RemoveSymbolByNameWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugSymbolGroup2.RemoveSymbolByNameWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

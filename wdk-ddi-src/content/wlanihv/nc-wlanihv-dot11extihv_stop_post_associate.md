@@ -10,6 +10,7 @@ keywords: ["DOT11EXTIHV_STOP_POST_ASSOCIATE callback"]
 ms.keywords: DOT11EXTIHV_STOP_POST_ASSOCIATE, Dot11ExtIhvStopPostAssociate, Dot11ExtIhvStopPostAssociate callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_674652ff-a01d-493b-9b11-bff378f25f2a.xml, netvista.dot11extihvstoppostassociate, wlanihv/Dot11ExtIhvStopPostAssociate
 f1_keywords:
  - "wlanihv/Dot11ExtIhvStopPostAssociate"
+ - "Dot11ExtIhvStopPostAssociate"
 req.header: wlanihv.h
 req.include-header: Wlanihv.h, Windot11.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wlanihv.h
 api_name:
 - Dot11ExtIhvStopPostAssociate
-product:
-- Windows
 targetos: Windows
 req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.

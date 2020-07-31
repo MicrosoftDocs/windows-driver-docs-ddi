@@ -10,6 +10,7 @@ keywords: ["StorPortGetDeviceBase function"]
 ms.keywords: StorPortGetDeviceBase, StorPortGetDeviceBase routine [Storage Devices], storage.storportgetdevicebase, storport/StorPortGetDeviceBase, storprt_8be3e3d9-dae5-49cb-aa44-31d3be745045.xml
 f1_keywords:
  - "storport/StorPortGetDeviceBase"
+ - "StorPortGetDeviceBase"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Storport.dll
 api_name:
 - StorPortGetDeviceBase
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

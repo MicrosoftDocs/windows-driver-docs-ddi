@@ -9,6 +9,7 @@ keywords: ["D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL structure"]
 ms.keywords: D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL, D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL structure [Display Devices], d3d10umddi/D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL, display.d3d11_1ddiarg_createauthenticatedchannel
 f1_keywords:
  - "d3d10umddi/D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL"
+ - "D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - D3d10umddi.h
 api_name:
 - D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL

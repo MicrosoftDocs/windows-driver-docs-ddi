@@ -10,6 +10,7 @@ keywords: ["IPnpCallbackHardware::OnPrepareHardware"]
 ms.keywords: IPnpCallbackHardware interface,OnPrepareHardware method, IPnpCallbackHardware.OnPrepareHardware, IPnpCallbackHardware::OnPrepareHardware, OnPrepareHardware, OnPrepareHardware method, OnPrepareHardware method,IPnpCallbackHardware interface, UMDFDeviceObjectRef_3b9db069-02f0-4d3e-855d-835bb1bb6d2d.xml, umdf.ipnpcallbackhardware_onpreparehardware, wdf.ipnpcallbackhardware_onpreparehardware, wudfddi/IPnpCallbackHardware::OnPrepareHardware
 f1_keywords:
  - "wudfddi/IPnpCallbackHardware.OnPrepareHardware"
+ - "IPnpCallbackHardware.OnPrepareHardware"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wudfddi.h
 api_name:
 - IPnpCallbackHardware.OnPrepareHardware
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

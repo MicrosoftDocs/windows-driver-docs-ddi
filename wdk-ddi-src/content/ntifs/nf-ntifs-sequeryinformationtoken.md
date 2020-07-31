@@ -10,6 +10,7 @@ keywords: ["SeQueryInformationToken function"]
 ms.keywords: SeQueryInformationToken, SeQueryInformationToken routine [Installable File System Drivers], ifsk.sequeryinformationtoken, ntifs/SeQueryInformationToken, seref_80e09bda-ef06-4a25-ab50-d405f5539759.xml
 f1_keywords:
  - "ntifs/SeQueryInformationToken"
+ - "SeQueryInformationToken"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - SeQueryInformationToken
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

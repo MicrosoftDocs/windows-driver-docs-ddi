@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["*PFN_SENSORSCXSTATECHANGE callback function"]
 f1_keywords:
  - "sensorscx/*PFN_SENSORSCXSTATECHANGE"
+ - "*PFN_SENSORSCXSTATECHANGE"
 req.header: sensorscx.h
 req.include-header:
 req.target-type:
@@ -32,8 +33,6 @@ api_location:
 - sensorscx.h
 api_name: 
 - PFN_SENSORSCXSTATECHANGE
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

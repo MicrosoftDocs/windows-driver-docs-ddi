@@ -9,6 +9,7 @@ keywords: ["D3DKMTOpenAdapterFromGdiDisplayName function"]
 ms.keywords: D3DKMTOpenAdapterFromGdiDisplayName, D3DKMTOpenAdapterFromGdiDisplayName function [Display Devices], OpenGL_Functions_74419d9d-cd33-4fed-8103-3be487c3c7a1.xml, d3dkmthk/D3DKMTOpenAdapterFromGdiDisplayName, display.d3dkmtopenadapterfromgdidisplayname
 f1_keywords:
  - "d3dkmthk/D3DKMTOpenAdapterFromGdiDisplayName"
+ - "D3DKMTOpenAdapterFromGdiDisplayName"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -38,8 +39,6 @@ api_location:
 - API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 - D3DKMTOpenAdapterFromGdiDisplayName
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

@@ -10,6 +10,7 @@ keywords: ["_SM_AddPort_IN structure"]
 ms.keywords: "*PSM_AddPort_IN, PSM_AddPort_IN, PSM_AddPort_IN structure pointer [Storage Devices], SM_AddPort_IN, SM_AddPort_IN structure [Storage Devices], _SM_AddPort_IN, hbapiwmi/PSM_AddPort_IN, hbapiwmi/SM_AddPort_IN, storage.sm_addport_in, structs-Fibre_c9c9fceb-e4ec-414c-98f8-e9867b69add5.xml"
 f1_keywords:
  - "hbapiwmi/SM_AddPort_IN"
+ - "SM_AddPort_IN"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - SM_AddPort_IN
-product:
-- Windows
 targetos: Windows
 req.typenames: SM_AddPort_IN, *PSM_AddPort_IN
 ---

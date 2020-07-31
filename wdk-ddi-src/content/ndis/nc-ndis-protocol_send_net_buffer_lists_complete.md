@@ -10,6 +10,7 @@ keywords: ["PROTOCOL_SEND_NET_BUFFER_LISTS_COMPLETE callback function"]
 ms.keywords: PROTOCOL_SEND_NET_BUFFER_LISTS_COMPLETE, PROTOCOL_SEND_NET_BUFFER_LISTS_COMPLETE callback, ProtocolSendNetBufferListsComplete, ProtocolSendNetBufferListsComplete callback function [Network Drivers Starting with Windows Vista], ndis/ProtocolSendNetBufferListsComplete, ndis_sendrcv_ref_1e393909-0442-45d4-ae57-7ec0f51671a4.xml, netvista.protocolsendnetbufferlistscomplete
 f1_keywords:
  - "ndis/ProtocolSendNetBufferListsComplete"
+ - "ProtocolSendNetBufferListsComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - ProtocolSendNetBufferListsComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

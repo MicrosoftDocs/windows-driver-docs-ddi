@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DZBUFFERTYPE enumeration"]
 f1_keywords:
  - "d3d9types/_D3DZBUFFERTYPE"
+ - "_D3DZBUFFERTYPE"
 ms.keywords: _D3DZBUFFERTYPE, D3DZBUFFERTYPE, 
 req.header: d3d9types.h
 req.include-header:
@@ -26,8 +27,6 @@ api_location:
 - d3d9types.h
 api_name: 
 - _D3DZBUFFERTYPE
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

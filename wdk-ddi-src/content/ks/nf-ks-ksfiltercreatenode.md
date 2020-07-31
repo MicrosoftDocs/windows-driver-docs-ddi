@@ -10,6 +10,7 @@ keywords: ["KsFilterCreateNode function"]
 ms.keywords: KsFilterCreateNode, KsFilterCreateNode function [Streaming Media Devices], avfunc_9adc2406-964c-4f26-a155-67f37cceb0b4.xml, ks/KsFilterCreateNode, stream.ksfiltercreatenode
 f1_keywords:
  - "ks/KsFilterCreateNode"
+ - "KsFilterCreateNode"
 req.header: ks.h
 req.include-header: 
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsFilterCreateNode
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

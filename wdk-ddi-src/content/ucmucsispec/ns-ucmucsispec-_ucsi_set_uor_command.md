@@ -8,6 +8,7 @@ ms.date: 09/30/2018
 keywords: ["_UCSI_SET_UOR_COMMAND structure"]
 f1_keywords:
  - "ucmucsispec/_UCSI_SET_UOR_COMMAND"
+ - "_UCSI_SET_UOR_COMMAND"
 ms.keywords: _UCSI_SET_UOR_COMMAND, UCSI_SET_UOR_COMMAND, *PUCSI_SET_UOR_COMMAND, 
 req.header: ucmucsispec.h
 req.include-header: UcmUcsiCx.h 
@@ -30,8 +31,6 @@ api_location:
 - ucmucsispec.h
 api_name: 
 - _UCSI_SET_UOR_COMMAND
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

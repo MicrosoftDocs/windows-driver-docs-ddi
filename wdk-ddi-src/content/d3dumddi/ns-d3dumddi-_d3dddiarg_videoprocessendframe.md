@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_VIDEOPROCESSENDFRAME structure"]
 ms.keywords: D3DDDIARG_VIDEOPROCESSENDFRAME, D3DDDIARG_VIDEOPROCESSENDFRAME structure [Display Devices], UMDisplayDriver_param_Structs_16fccea8-3a26-4470-bf7d-a94b04f01797.xml, _D3DDDIARG_VIDEOPROCESSENDFRAME, d3dumddi/D3DDDIARG_VIDEOPROCESSENDFRAME, display.d3dddiarg_videoprocessendframe
 f1_keywords:
  - "d3dumddi/D3DDDIARG_VIDEOPROCESSENDFRAME"
+ - "D3DDDIARG_VIDEOPROCESSENDFRAME"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDIARG_VIDEOPROCESSENDFRAME
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_VIDEOPROCESSENDFRAME
 ---

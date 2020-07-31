@@ -10,6 +10,7 @@ keywords: ["KeInitializeDpc function"]
 ms.keywords: KeInitializeDpc, KeInitializeDpc routine [Kernel-Mode Driver Architecture], k105_069c115c-3a05-442e-8fc4-56dcb635a473.xml, kernel.keinitializedpc, wdm/KeInitializeDpc
 f1_keywords:
  - "wdm/KeInitializeDpc"
+ - "KeInitializeDpc"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeInitializeDpc
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

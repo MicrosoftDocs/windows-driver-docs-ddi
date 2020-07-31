@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["PALLOCATE_DOMAIN_COMMON_BUFFER callback function"]
 f1_keywords:
  - "wdm/PALLOCATE_DOMAIN_COMMON_BUFFER"
+ - "PALLOCATE_DOMAIN_COMMON_BUFFER"
 req.header: wdm.h
 req.include-header:
 req.target-type:
@@ -33,8 +34,6 @@ api_location:
 api_name: 
 - PALLOCATE_DOMAIN_COMMON_BUFFER
 - AllocateDomainCommonBuffer
-product:
-- Windows
 targetos: Windows
 ---
 

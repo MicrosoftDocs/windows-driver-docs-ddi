@@ -10,6 +10,7 @@ keywords: ["IDebugControl3::GetDumpFormatFlags"]
 ms.keywords: GetDumpFormatFlags, GetDumpFormatFlags method [Windows Debugging], GetDumpFormatFlags method [Windows Debugging],IDebugControl2 interface, GetDumpFormatFlags method [Windows Debugging],IDebugControl3 interface, IDebugControl2 interface [Windows Debugging],GetDumpFormatFlags method, IDebugControl2::GetDumpFormatFlags, IDebugControl3 interface [Windows Debugging],GetDumpFormatFlags method, IDebugControl3.GetDumpFormatFlags, IDebugControl3::GetDumpFormatFlags, IDebugControl_fc8bec39-ffc3-46bd-9d18-954f0420906f.xml, dbgeng/IDebugControl2::GetDumpFormatFlags, dbgeng/IDebugControl3::GetDumpFormatFlags, debugger.getdumpformatflags
 f1_keywords:
  - "dbgeng/IDebugControl2.GetDumpFormatFlags"
+ - "IDebugControl2.GetDumpFormatFlags"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IDebugControl2.GetDumpFormatFlags
 - IDebugControl3.GetDumpFormatFlags
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

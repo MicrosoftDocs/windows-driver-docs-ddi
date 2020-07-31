@@ -10,6 +10,7 @@ keywords: ["PFN_WSK_SEND_BACKLOG_EVENT callback function"]
 ms.keywords: PFN_WSK_SEND_BACKLOG_EVENT, PFN_WSK_SEND_BACKLOG_EVENT callback, WskSendBacklogEvent, WskSendBacklogEvent callback function [Network Drivers Starting with Windows Vista], netvista.wsksendbacklogevent, wsk/WskSendBacklogEvent, wskref_9b34fa29-9c3a-4aa2-8ceb-3f637c4902cd.xml
 f1_keywords:
  - "wsk/WskSendBacklogEvent"
+ - "WskSendBacklogEvent"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wsk.h
 api_name:
 - WskSendBacklogEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -115,7 +114,7 @@ The WSK subsystem calls a WSK application's
     connection-oriented socket only if the event callback function was previously enabled with the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/so-wsk-event-callback">SO_WSK_EVENT_CALLBACK</a> socket option.
     For more information about enabling a socket's event callback functions, see 
-    <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nc-evntprov-penablecallback">Enabling and
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/enabling-and-disabling-event-callback-functions">Enabling and
     Disabling Event Callback Functions</a>.
 
 The ideal send backlog size for a connection-oriented socket is the optimal amount of send data that

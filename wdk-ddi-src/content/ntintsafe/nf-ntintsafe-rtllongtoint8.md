@@ -10,6 +10,7 @@ keywords: ["RtlLongToInt8 function"]
 ms.keywords: RtlLongToInt8, RtlLongToInt8 function [Kernel-Mode Driver Architecture], kernel.rtllongtoint8, ntintsafe/RtlLongToInt8
 f1_keywords:
  - "ntintsafe/RtlLongToInt8"
+ - "RtlLongToInt8"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Ntintsafe.h
 api_name:
 - RtlLongToInt8
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

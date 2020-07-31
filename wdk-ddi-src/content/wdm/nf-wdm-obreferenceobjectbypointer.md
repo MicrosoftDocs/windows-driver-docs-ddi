@@ -10,6 +10,7 @@ keywords: ["ObReferenceObjectByPointer function"]
 ms.keywords: ObReferenceObjectByPointer, ObReferenceObjectByPointer routine [Kernel-Mode Driver Architecture], k107_2846f148-4ad5-472a-aa74-4f03c5251aee.xml, kernel.obreferenceobjectbypointer, wdm/ObReferenceObjectByPointer
 f1_keywords:
  - "wdm/ObReferenceObjectByPointer"
+ - "ObReferenceObjectByPointer"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - ObReferenceObjectByPointer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["_FLT_RELATED_OBJECTS structure"]
 ms.keywords: "*PFLT_RELATED_OBJECTS, FLT_RELATED_OBJECTS, FLT_RELATED_OBJECTS structure [Installable File System Drivers], FltSystemStructures_24fcdf06-9d2e-41bf-89f8-08cb37782089.xml, PFLT_RELATED_OBJECTS, PFLT_RELATED_OBJECTS structure pointer [Installable File System Drivers], _FLT_RELATED_OBJECTS, fltkernel/FLT_RELATED_OBJECTS, fltkernel/PFLT_RELATED_OBJECTS, ifsk.flt_related_objects"
 f1_keywords:
  - "fltkernel/FLT_RELATED_OBJECTS"
+ - "FLT_RELATED_OBJECTS"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - fltkernel.h
 api_name:
 - FLT_RELATED_OBJECTS
-product:
-- Windows
 targetos: Windows
 req.typenames: FLT_RELATED_OBJECTS, *PFLT_RELATED_OBJECTS
 ---

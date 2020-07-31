@@ -10,6 +10,7 @@ keywords: ["PGET_DMA_TRANSFER_INFO callback function"]
 ms.keywords: GetDmaTransferInfo, GetDmaTransferInfo callback function [Kernel-Mode Driver Architecture], PGET_DMA_TRANSFER_INFO, PGET_DMA_TRANSFER_INFO callback, kernel.getdmatransferinfo, wdm/GetDmaTransferInfo
 f1_keywords:
  - "wdm/GetDmaTransferInfo"
+ - "GetDmaTransferInfo"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - GetDmaTransferInfo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

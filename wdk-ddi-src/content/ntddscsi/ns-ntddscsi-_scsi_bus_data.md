@@ -10,6 +10,7 @@ keywords: ["_SCSI_BUS_DATA structure"]
 ms.keywords: "*PSCSI_BUS_DATA, PSCSI_BUS_DATA, PSCSI_BUS_DATA structure pointer [Storage Devices], SCSI_BUS_DATA, SCSI_BUS_DATA structure [Storage Devices], _SCSI_BUS_DATA, ntddscsi/PSCSI_BUS_DATA, ntddscsi/SCSI_BUS_DATA, storage.scsi_bus_data, structs-scsibus_8a0f86c6-4011-4c11-90e8-bf3c28a147dc.xml"
 f1_keywords:
  - "ntddscsi/SCSI_BUS_DATA"
+ - "SCSI_BUS_DATA"
 req.header: ntddscsi.h
 req.include-header: Ntddscsi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddscsi.h
 api_name:
 - SCSI_BUS_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: SCSI_BUS_DATA, *PSCSI_BUS_DATA
 ---

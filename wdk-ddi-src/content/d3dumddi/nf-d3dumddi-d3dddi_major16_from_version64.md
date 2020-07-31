@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3DDDI_MAJOR16_FROM_VERSION64 macro"]
 f1_keywords:
  - "d3dumddi/D3DDDI_MAJOR16_FROM_VERSION64"
+ - "D3DDDI_MAJOR16_FROM_VERSION64"
 ms.keywords: D3DDDI_MAJOR16_FROM_VERSION64
 req.header: d3dumddi.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - d3dumddi.h
 api_name: 
 - D3DDDI_MAJOR16_FROM_VERSION64
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

@@ -10,6 +10,7 @@ keywords: ["PMINIPORT_QUERY_DEVICE_ROUTINE callback function"]
 ms.keywords: HwVidQueryDeviceCallback, HwVidQueryDeviceCallback callback function [Display Devices], PMINIPORT_QUERY_DEVICE_ROUTINE, PMINIPORT_QUERY_DEVICE_ROUTINE callback, VideoMiniport_Functions_9da236b0-f97f-410d-a0e7-c65499d7db8b.xml, display.hwvidquerydevicecallback, video/HwVidQueryDeviceCallback
 f1_keywords:
  - "video/HwVidQueryDeviceCallback"
+ - "HwVidQueryDeviceCallback"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - video.h
 api_name:
 - HwVidQueryDeviceCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["StorPortInitializePoFxPower function"]
 ms.keywords: StorPortInitializePoFxPower, StorPortInitializePoFxPower routine [Storage Devices], storage.storportinitializepofxpower, storport/StorPortInitializePoFxPower
 f1_keywords:
  - "storport/StorPortInitializePoFxPower"
+ - "StorPortInitializePoFxPower"
 req.header: storport.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - storport.h
 api_name:
 - StorPortInitializePoFxPower
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

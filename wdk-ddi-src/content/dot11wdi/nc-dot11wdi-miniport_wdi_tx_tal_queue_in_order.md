@@ -10,6 +10,7 @@ keywords: ["MINIPORT_WDI_TX_TAL_QUEUE_IN_ORDER callback function"]
 ms.keywords: MINIPORT_WDI_TX_TAL_QUEUE_IN_ORDER, MINIPORT_WDI_TX_TAL_QUEUE_IN_ORDER callback, MiniportWdiTxTalQueueInOrder, MiniportWdiTxTalQueueInOrder callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTxTalQueueInOrder, netvista.miniportwditxtalqueueinorder
 f1_keywords:
  - "dot11wdi/MiniportWdiTxTalQueueInOrder"
+ - "MiniportWdiTxTalQueueInOrder"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dot11wdi.h
 api_name:
 - MiniportWdiTxTalQueueInOrder
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

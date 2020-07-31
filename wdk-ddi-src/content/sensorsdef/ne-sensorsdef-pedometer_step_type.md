@@ -10,6 +10,7 @@ keywords: ["PEDOMETER_STEP_TYPE enumeration"]
 ms.keywords: PEDOMETER_STEP_TYPE, PEDOMETER_STEP_TYPE enumeration [Sensor Devices], PedometerStepType_Force_Dword, PedometerStepType_Max, PedometerStepType_Running, PedometerStepType_Unknown, PedometerStepType_Walking, sensors.pedometer_step_type, sensorsdef/PEDOMETER_STEP_TYPE, sensorsdef/PedometerStepType_Force_Dword, sensorsdef/PedometerStepType_Max, sensorsdef/PedometerStepType_Running, sensorsdef/PedometerStepType_Unknown, sensorsdef/PedometerStepType_Walking
 f1_keywords:
  - "sensorsdef/PEDOMETER_STEP_TYPE"
+ - "PEDOMETER_STEP_TYPE"
 req.header: sensorsdef.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Sensorsdef.h
 api_name:
 - PEDOMETER_STEP_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: PEDOMETER_STEP_TYPE
 ---

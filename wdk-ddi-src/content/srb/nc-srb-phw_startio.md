@@ -10,6 +10,7 @@ keywords: ["PHW_STARTIO callback"]
 ms.keywords: "(*PHW_STARTIO), (*PHW_STARTIO) callback function [Storage Devices], ide_minikr_16fd699a-4cb9-4741-9e50-3fa8177f49f2.xml, srb/(*PHW_STARTIO), storage.phw_startio"
 f1_keywords:
  - "srb/(*PHW_STARTIO)"
+ - "(*PHW_STARTIO)"
 req.header: srb.h
 req.include-header: Storport.h, Srb.h, Storport.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - srb.h
 api_name:
 - (*PHW_STARTIO)
-product:
-- Windows
 targetos: Windows
 req.typenames: SPB_CONTROLLER_CONFIG, *PSPB_CONTROLLER_CONFIG
 req.product: Windows 10 or later.

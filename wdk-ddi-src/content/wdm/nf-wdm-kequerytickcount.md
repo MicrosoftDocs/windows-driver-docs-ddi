@@ -10,6 +10,7 @@ keywords: ["KeQueryTickCount macro"]
 ms.keywords: KeQueryTickCount, KeQueryTickCount routine [Kernel-Mode Driver Architecture], k105_a6a22896-6f3e-4e58-b443-4a06ff67b0ce.xml, kernel.kequerytickcount, wdm/KeQueryTickCount
 f1_keywords:
  - "wdm/KeQueryTickCount"
+ - "KeQueryTickCount"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeQueryTickCount
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

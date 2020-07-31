@@ -10,6 +10,7 @@ keywords: ["_KEY_FULL_INFORMATION structure"]
 ms.keywords: "*PKEY_FULL_INFORMATION, KEY_FULL_INFORMATION, KEY_FULL_INFORMATION structure [Kernel-Mode Driver Architecture], PKEY_FULL_INFORMATION, PKEY_FULL_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _KEY_FULL_INFORMATION, kernel.key_full_information, kstruct_c_1b9700b5-eedf-4f0f-8b73-bf4b9cfa0ccd.xml, wdm/KEY_FULL_INFORMATION, wdm/PKEY_FULL_INFORMATION"
 f1_keywords:
  - "wdm/KEY_FULL_INFORMATION"
+ - "KEY_FULL_INFORMATION"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - KEY_FULL_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: KEY_FULL_INFORMATION, *PKEY_FULL_INFORMATION
 ---

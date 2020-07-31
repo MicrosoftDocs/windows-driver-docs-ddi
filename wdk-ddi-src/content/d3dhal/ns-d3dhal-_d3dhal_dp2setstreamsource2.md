@@ -10,6 +10,7 @@ keywords: ["_D3DHAL_DP2SETSTREAMSOURCE2 structure"]
 ms.keywords: "*LPD3DHAL_DP2SETSTREAMSOURCE2, D3DHAL_DP2SETSTREAMSOURCE2, D3DHAL_DP2SETSTREAMSOURCE2 structure [Display Devices], LPD3DHAL_DP2SETSTREAMSOURCE2, LPD3DHAL_DP2SETSTREAMSOURCE2 structure pointer [Display Devices], _D3DHAL_DP2SETSTREAMSOURCE2, d3dhal/D3DHAL_DP2SETSTREAMSOURCE2, d3dhal/LPD3DHAL_DP2SETSTREAMSOURCE2, d3dstrct_81c5d4ff-bd3e-4f52-a062-c30755da9416.xml, display.d3dhal_dp2setstreamsource2"
 f1_keywords:
  - "d3dhal/D3DHAL_DP2SETSTREAMSOURCE2"
+ - "D3DHAL_DP2SETSTREAMSOURCE2"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dhal.h
 api_name:
 - D3DHAL_DP2SETSTREAMSOURCE2
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DHAL_DP2SETSTREAMSOURCE2
 ---

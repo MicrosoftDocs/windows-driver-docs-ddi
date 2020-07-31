@@ -10,6 +10,7 @@ keywords: ["PROTOCOL_CL_INCOMING_DROP_PARTY callback function"]
 ms.keywords: PROTOCOL_CL_INCOMING_DROP_PARTY, PROTOCOL_CL_INCOMING_DROP_PARTY callback, ProtocolClIncomingDropParty, ProtocolClIncomingDropParty callback function [Network Drivers Starting with Windows Vista], condis_client_ref_ac4b9f43-23f6-4300-8110-1589cecffe21.xml, ndis/ProtocolClIncomingDropParty, netvista.protocolclincomingdropparty
 f1_keywords:
  - "ndis/ProtocolClIncomingDropParty"
+ - "ProtocolClIncomingDropParty"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - ProtocolClIncomingDropParty
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

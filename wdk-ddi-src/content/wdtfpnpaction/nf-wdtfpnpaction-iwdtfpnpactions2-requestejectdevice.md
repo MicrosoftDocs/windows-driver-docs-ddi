@@ -10,6 +10,7 @@ keywords: ["IWDTFPNPActions2::RequestEjectDevice"]
 ms.keywords: IWDTFPNPActions2 interface [Windows Device Testing Framework],RequestEjectDevice method, IWDTFPNPActions2.RequestEjectDevice, IWDTFPNPActions2::RequestEjectDevice, RequestEjectDevice, RequestEjectDevice method [Windows Device Testing Framework], RequestEjectDevice method [Windows Device Testing Framework],IWDTFPNPActions2 interface, dtf.iwdtfpnpactions2_requestejectdevice, wdtfpnpaction/IWDTFPNPActions2::RequestEjectDevice
 f1_keywords:
  - "wdtfpnpaction/IWDTFPNPActions2.RequestEjectDevice"
+ - "IWDTFPNPActions2.RequestEjectDevice"
 req.header: wdtfpnpaction.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wdtfpnpaction.h
 api_name:
 - IWDTFPNPActions2.RequestEjectDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

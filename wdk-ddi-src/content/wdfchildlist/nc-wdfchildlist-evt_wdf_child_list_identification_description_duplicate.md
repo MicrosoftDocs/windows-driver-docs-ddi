@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_CHILD_LIST_IDENTIFICATION_DESCRIPTION_DUPLICATE callback fun
 ms.keywords: DFDeviceObjectChildListRef_3ee2ef4e-8131-454a-b821-19eb5de4c8f9.xml, EVT_WDF_CHILD_LIST_IDENTIFICATION_DESCRIPTION_DUPLICATE, EVT_WDF_CHILD_LIST_IDENTIFICATION_DESCRIPTION_DUPLICATE callback, EvtChildListIdentificationDescriptionDuplicate, EvtChildListIdentificationDescriptionDuplicate callback function, kmdf.evtchildlistidentificationdescriptionduplicate, wdf.evtchildlistidentificationdescriptionduplicate, wdfchildlist/EvtChildListIdentificationDescriptionDuplicate
 f1_keywords:
  - "wdfchildlist/EvtChildListIdentificationDescriptionDuplicate"
+ - "EvtChildListIdentificationDescriptionDuplicate"
 req.header: wdfchildlist.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - WdfChildlist.h
 api_name:
 - EvtChildListIdentificationDescriptionDuplicate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

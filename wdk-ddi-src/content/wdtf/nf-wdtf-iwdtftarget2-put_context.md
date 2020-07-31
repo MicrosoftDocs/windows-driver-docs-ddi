@@ -10,6 +10,7 @@ keywords: ["IWDTFTarget2::put_Context"]
 ms.keywords: Context property [Windows Device Testing Framework], Context property [Windows Device Testing Framework],IWDTFTarget2 interface, IWDTFTarget2 interface [Windows Device Testing Framework],Context property, IWDTFTarget2.Context, IWDTFTarget2.put_Context, IWDTFTarget2::Context, IWDTFTarget2::get_Context, IWDTFTarget2::put_Context, Microsoft.WDTF.IWDTFTarget2.Context, Microsoft::WDTF::IWDTFTarget2::Context, dtf.iwdtftarget2_context, ntddk/IWDTFTarget2::Context, ntddk/IWDTFTarget2::get_Context, ntddk/IWDTFTarget2::put_Context, put_Context
 f1_keywords:
  - "wdtf/IWDTFTarget2.Context"
+ - "IWDTFTarget2.Context"
 req.header: wdtf.h
 req.include-header: WDTF.h
 req.target-type: Windows
@@ -38,8 +39,6 @@ api_name:
 - IWDTFTarget2.Context
 - IWDTFTarget2.get_Context
 - IWDTFTarget2.put_Context
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

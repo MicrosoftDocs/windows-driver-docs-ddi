@@ -10,6 +10,7 @@ keywords: ["RILSUPSERVICEDATA structure"]
 ms.keywords: "*LPRILSUPSERVICEDATA, RILSUPSERVICEDATA, RILSUPSERVICEDATA structure [Network Drivers Starting with Windows Vista], netvista.rilsupservicedata, ntddrilapitypes/RILSUPSERVICEDATA"
 f1_keywords:
  - "ntddrilapitypes/RILSUPSERVICEDATA"
+ - "RILSUPSERVICEDATA"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILSUPSERVICEDATA
-product:
-- Windows
 targetos: Windows
 req.typenames: RILSUPSERVICEDATA, *LPRILSUPSERVICEDATA
 ---

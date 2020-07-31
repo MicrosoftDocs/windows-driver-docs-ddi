@@ -10,6 +10,7 @@ keywords: ["NdisSetEvent function"]
 ms.keywords: NdisSetEvent, NdisSetEvent function [Network Drivers Starting with Windows Vista], ndis/NdisSetEvent, ndis_event_ref_3abf6ebc-6dcf-4b3e-8e39-2902b9b00adf.xml, netvista.ndissetevent
 f1_keywords:
  - "ndis/NdisSetEvent"
+ - "NdisSetEvent"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisSetEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

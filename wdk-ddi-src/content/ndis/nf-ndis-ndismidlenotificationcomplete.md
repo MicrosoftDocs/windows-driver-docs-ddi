@@ -10,6 +10,7 @@ keywords: ["NdisMIdleNotificationComplete function"]
 ms.keywords: NdisMIdleNotificationComplete, NdisMIdleNotificationComplete function [Network Drivers Starting with Windows Vista], ndis/NdisMIdleNotificationComplete, netvista.ndismidlenotificationcomplete
 f1_keywords:
  - "ndis/NdisMIdleNotificationComplete"
+ - "NdisMIdleNotificationComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisMIdleNotificationComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

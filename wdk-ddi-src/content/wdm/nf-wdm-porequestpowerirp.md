@@ -10,6 +10,7 @@ keywords: ["PoRequestPowerIrp function"]
 ms.keywords: PoRequestPowerIrp, PoRequestPowerIrp routine [Kernel-Mode Driver Architecture], kernel.porequestpowerirp, portn_d417d88c-2f6d-4af9-b7de-455dfcc1b9df.xml, wdm/PoRequestPowerIrp
 f1_keywords:
  - "wdm/PoRequestPowerIrp"
+ - "PoRequestPowerIrp"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - PoRequestPowerIrp
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

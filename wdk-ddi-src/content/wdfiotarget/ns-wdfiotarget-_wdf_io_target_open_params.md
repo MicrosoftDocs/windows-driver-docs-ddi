@@ -10,6 +10,7 @@ keywords: ["_WDF_IO_TARGET_OPEN_PARAMS structure"]
 ms.keywords: "*PWDF_IO_TARGET_OPEN_PARAMS, DFIOTargetRef_6363f7be-6768-4c90-88c4-88c5fdea0019.xml, PWDF_IO_TARGET_OPEN_PARAMS, PWDF_IO_TARGET_OPEN_PARAMS structure pointer, WDF_IO_TARGET_OPEN_PARAMS, WDF_IO_TARGET_OPEN_PARAMS structure, _WDF_IO_TARGET_OPEN_PARAMS, kmdf.wdf_io_target_open_params, wdf.wdf_io_target_open_params, wdfiotarget/PWDF_IO_TARGET_OPEN_PARAMS, wdfiotarget/WDF_IO_TARGET_OPEN_PARAMS"
 f1_keywords:
  - "wdfiotarget/WDF_IO_TARGET_OPEN_PARAMS"
+ - "WDF_IO_TARGET_OPEN_PARAMS"
 req.header: wdfiotarget.h
 req.include-header: Wdf.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wdfiotarget.h
 api_name:
 - WDF_IO_TARGET_OPEN_PARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_IO_TARGET_OPEN_PARAMS, *PWDF_IO_TARGET_OPEN_PARAMS
 ---

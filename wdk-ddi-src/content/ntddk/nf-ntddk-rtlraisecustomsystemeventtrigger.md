@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["RtlRaiseCustomSystemEventTrigger function"]
 f1_keywords:
  - "ntddk/RtlRaiseCustomSystemEventTrigger"
+ - "RtlRaiseCustomSystemEventTrigger"
 ms.keywords: RtlRaiseCustomSystemEventTrigger
 req.header: ntddk.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - NtosKrnl.exe
 api_name: 
 - RtlRaiseCustomSystemEventTrigger
-product:
-- Windows
 targetos: Windows
 
 ---

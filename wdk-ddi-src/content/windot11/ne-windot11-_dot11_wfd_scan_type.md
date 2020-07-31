@@ -10,6 +10,7 @@ keywords: ["_DOT11_WFD_SCAN_TYPE enumeration"]
 ms.keywords: "*PDOT11_WFD_SCAN_TYPE, DOT11_WFD_SCAN_TYPE, DOT11_WFD_SCAN_TYPE enumeration [Network Drivers Starting with Windows Vista], _DOT11_WFD_SCAN_TYPE, dot11_wfd_scan_type_active, dot11_wfd_scan_type_auto, dot11_wfd_scan_type_passive, netvista.dot11_wfd_scan_type, windot11/DOT11_WFD_SCAN_TYPE, windot11/dot11_wfd_scan_type_active, windot11/dot11_wfd_scan_type_auto, windot11/dot11_wfd_scan_type_passive"
 f1_keywords:
  - "windot11/DOT11_WFD_SCAN_TYPE"
+ - "DOT11_WFD_SCAN_TYPE"
 req.header: windot11.h
 req.include-header:
 req.target-type: Windows

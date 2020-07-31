@@ -10,6 +10,7 @@ keywords: ["IDebugSymbolGroup2::OutputSymbols"]
 ms.keywords: ComOther_47d8529f-4fdf-4a79-ae80-61e483c897f2.xml, IDebugSymbolGroup interface [Windows Debugging],OutputSymbols method, IDebugSymbolGroup2 interface [Windows Debugging],OutputSymbols method, IDebugSymbolGroup2.OutputSymbols, IDebugSymbolGroup2::OutputSymbols, IDebugSymbolGroup::OutputSymbols, OutputSymbols, OutputSymbols method [Windows Debugging], OutputSymbols method [Windows Debugging],IDebugSymbolGroup interface, OutputSymbols method [Windows Debugging],IDebugSymbolGroup2 interface, dbgeng/IDebugSymbolGroup2::OutputSymbols, dbgeng/IDebugSymbolGroup::OutputSymbols, debugger.outputsymbols
 f1_keywords:
  - "dbgeng/IDebugSymbolGroup.OutputSymbols"
+ - "IDebugSymbolGroup.OutputSymbols"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IDebugSymbolGroup.OutputSymbols
 - IDebugSymbolGroup2.OutputSymbols
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

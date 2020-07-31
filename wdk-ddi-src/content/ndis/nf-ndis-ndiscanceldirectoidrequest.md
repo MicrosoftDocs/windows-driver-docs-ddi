@@ -10,6 +10,7 @@ keywords: ["NdisCancelDirectOidRequest function"]
 ms.keywords: NdisCancelDirectOidRequest, NdisCancelDirectOidRequest function [Network Drivers Starting with Windows Vista], ndis/NdisCancelDirectOidRequest, ndis_request_direct_ref_71cb0f66-b7f7-49b5-b006-ca50eff45bcb.xml, netvista.ndiscanceldirectoidrequest
 f1_keywords:
  - "ndis/NdisCancelDirectOidRequest"
+ - "NdisCancelDirectOidRequest"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisCancelDirectOidRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

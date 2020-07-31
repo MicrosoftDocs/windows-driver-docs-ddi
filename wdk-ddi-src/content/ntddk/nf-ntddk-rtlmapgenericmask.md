@@ -10,6 +10,7 @@ keywords: ["RtlMapGenericMask function"]
 ms.keywords: RtlMapGenericMask, RtlMapGenericMask routine [Kernel-Mode Driver Architecture], k109_f0e498a8-0b75-4fb8-a9c6-3f1ce3eb71f3.xml, kernel.rtlmapgenericmask, ntddk/RtlMapGenericMask
 f1_keywords:
  - "ntddk/RtlMapGenericMask"
+ - "RtlMapGenericMask"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlMapGenericMask
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

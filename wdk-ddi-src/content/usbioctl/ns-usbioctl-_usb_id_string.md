@@ -10,6 +10,7 @@ keywords: ["_USB_ID_STRING structure"]
 ms.keywords: "*PUSB_ID_STRING, PUSB_ID_STRING, PUSB_ID_STRING structure pointer [Buses], USB_ID_STRING, USB_ID_STRING structure [Buses], _USB_ID_STRING, buses.usb_id_string, usbioctl/PUSB_ID_STRING, usbioctl/USB_ID_STRING"
 f1_keywords:
  - "usbioctl/USB_ID_STRING"
+ - "USB_ID_STRING"
 req.header: usbioctl.h
 req.include-header: Usbioctl.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - usbioctl.h
 api_name:
 - USB_ID_STRING
-product:
-- Windows
 targetos: Windows
 req.typenames: USB_ID_STRING, *PUSB_ID_STRING
 ---

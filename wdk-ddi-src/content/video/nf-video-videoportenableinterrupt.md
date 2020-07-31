@@ -10,6 +10,7 @@ keywords: ["VideoPortEnableInterrupt function"]
 ms.keywords: VideoPortEnableInterrupt, VideoPortEnableInterrupt function [Display Devices], VideoPort_Functions_63966cab-5451-4fa0-ae8f-635fae20aabd.xml, display.videoportenableinterrupt, video/VideoPortEnableInterrupt
 f1_keywords:
  - "video/VideoPortEnableInterrupt"
+ - "VideoPortEnableInterrupt"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Videoprt.sys
 api_name:
 - VideoPortEnableInterrupt
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

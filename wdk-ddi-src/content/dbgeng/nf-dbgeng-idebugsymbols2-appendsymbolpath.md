@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols2::AppendSymbolPath"]
 ms.keywords: AppendSymbolPath, AppendSymbolPath method [Windows Debugging], AppendSymbolPath method [Windows Debugging],IDebugSymbols interface, AppendSymbolPath method [Windows Debugging],IDebugSymbols2 interface, AppendSymbolPath method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],AppendSymbolPath method, IDebugSymbols2 interface [Windows Debugging],AppendSymbolPath method, IDebugSymbols2.AppendSymbolPath, IDebugSymbols2::AppendSymbolPath, IDebugSymbols3 interface [Windows Debugging],AppendSymbolPath method, IDebugSymbols3::AppendSymbolPath, IDebugSymbols::AppendSymbolPath, IDebugSymbols_cc73a8f6-3cf1-40a1-8cb5-712eeca0b883.xml, dbgeng/IDebugSymbols2::AppendSymbolPath, dbgeng/IDebugSymbols3::AppendSymbolPath, dbgeng/IDebugSymbols::AppendSymbolPath, debugger.appendsymbolpath
 f1_keywords:
  - "dbgeng/IDebugSymbols.AppendSymbolPath"
+ - "IDebugSymbols.AppendSymbolPath"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -38,8 +39,6 @@ api_name:
 - IDebugSymbols.AppendSymbolPath
 - IDebugSymbols2.AppendSymbolPath
 - IDebugSymbols3.AppendSymbolPath
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_REQUEST_COMPLETION_ROUTINE callback function"]
 ms.keywords: CompletionRoutine, CompletionRoutine callback function, DFRequestObjectRef_5eed5273-6939-4a56-846a-ee80c92c005a.xml, EVT_WDF_REQUEST_COMPLETION_ROUTINE, EVT_WDF_REQUEST_COMPLETION_ROUTINE callback, kmdf.completionroutine, wdf.completionroutine, wdfrequest/CompletionRoutine
 f1_keywords:
  - "wdfrequest/CompletionRoutine"
+ - "CompletionRoutine"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Wdfrequest.h
 api_name:
 - CompletionRoutine
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

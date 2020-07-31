@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["USBCAMD_CamControlFlags enumeration"]
 f1_keywords:
  - "usbcamdi/USBCAMD_CamControlFlags"
+ - "USBCAMD_CamControlFlags"
 ms.keywords: USBCAMD_CamControlFlags, USBCAMD_CamControlFlags, 
 req.header: usbcamdi.h
 req.include-header:
@@ -26,8 +27,6 @@ api_location:
 - usbcamdi.h
 api_name: 
 - USBCAMD_CamControlFlags
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

@@ -10,6 +10,7 @@ keywords: ["KSEVENT_DEVICE enumeration"]
 ms.keywords: KSEVENT_DEVICE, KSEVENT_DEVICE enumeration [Streaming Media Devices], KSEVENT_DEVICE_LOST, KSEVENT_DEVICE_PREEMPTED, ks/KSEVENT_DEVICE, ks/KSEVENT_DEVICE_LOST, ks/KSEVENT_DEVICE_PREEMPTED, stream.ksevent_device
 f1_keywords:
  - "ks/KSEVENT_DEVICE"
+ - "KSEVENT_DEVICE"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ks.h
 api_name:
 - KSEVENT_DEVICE
-product:
-- Windows
 targetos: Windows
 req.typenames: KSEVENT_DEVICE
 ---

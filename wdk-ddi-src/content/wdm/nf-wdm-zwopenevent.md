@@ -10,6 +10,7 @@ keywords: ["ZwOpenEvent function"]
 ms.keywords: NtOpenEvent, ZwOpenEvent, ZwOpenEvent routine [Kernel-Mode Driver Architecture], k111_b2349294-0e16-43ef-95cb-eecd213374b6.xml, kernel.zwopenevent, wdm/NtOpenEvent, wdm/ZwOpenEvent
 f1_keywords:
  - "wdm/ZwOpenEvent"
+ - "ZwOpenEvent"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - ZwOpenEvent
 - NtOpenEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["ExtExtension::GetRawArgStr"]
 ms.keywords: EngExtCpp_Ref_1072b281-ece3-4641-93e8-60866c1e3ef4.xml, ExtExtension class [Windows Debugging],GetRawArgStr method, ExtExtension.GetRawArgStr, ExtExtension::GetRawArgStr, GetRawArgStr, GetRawArgStr method [Windows Debugging], GetRawArgStr method [Windows Debugging],ExtExtension class, debugger.getrawargstr
 f1_keywords:
  - "engextcpp/ExtExtension.GetRawArgStr"
+ - "ExtExtension.GetRawArgStr"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - engextcpp.hpp
 api_name:
 - ExtExtension.GetRawArgStr
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["ExCancelTimer function"]
 ms.keywords: ExCancelTimer, ExCancelTimer routine [Kernel-Mode Driver Architecture], kernel.excanceltimer, wdm/ExCancelTimer
 f1_keywords:
  - "wdm/ExCancelTimer"
+ - "ExCancelTimer"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ntoskrnl.dll
 api_name:
 - ExCancelTimer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

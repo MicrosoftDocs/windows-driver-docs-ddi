@@ -10,6 +10,7 @@ keywords: ["IPartDiscardControl::GetDiscardProperties"]
 ms.keywords: GetDiscardProperties, GetDiscardProperties method [Print Devices], GetDiscardProperties method [Print Devices],IPartDiscardControl interface, IPartDiscardControl interface [Print Devices],GetDiscardProperties method, IPartDiscardControl.GetDiscardProperties, IPartDiscardControl::GetDiscardProperties, filterpipeline/IPartDiscardControl::GetDiscardProperties, filterpipeline_ffa81b25-78c6-4193-a253-cc1d5d51aafe.xml, print.ipartdiscardcontrol_getdiscardproperties
 f1_keywords:
  - "filterpipeline/IPartDiscardControl.GetDiscardProperties"
+ - "IPartDiscardControl.GetDiscardProperties"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - filterpipeline.h
 api_name:
 - IPartDiscardControl.GetDiscardProperties
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

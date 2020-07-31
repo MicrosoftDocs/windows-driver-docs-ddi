@@ -10,6 +10,7 @@ keywords: ["AppendTailList function"]
 ms.keywords: AppendTailList, AppendTailList routine [Kernel-Mode Driver Architecture], kernel.appendtaillist, wdm/AppendTailList
 f1_keywords:
  - "wdm/AppendTailList"
+ - "AppendTailList"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - AppendTailList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

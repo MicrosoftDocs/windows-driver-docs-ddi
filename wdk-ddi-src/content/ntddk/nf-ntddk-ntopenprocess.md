@@ -10,6 +10,7 @@ keywords: ["NtOpenProcess function"]
 ms.keywords: NtOpenProcess, ZwOpenProcess, ZwOpenProcess routine [Kernel-Mode Driver Architecture], k111_cf01d6cd-b10e-46b6-9b78-984aac1ef96d.xml, kernel.zwopenprocess, ntddk/NtOpenProcess, ntddk/ZwOpenProcess
 f1_keywords:
  - "ntddk/ZwOpenProcess"
+ - "ZwOpenProcess"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - ZwOpenProcess
 - NtOpenProcess
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -140,7 +139,8 @@ The requested access rights cannot be granted.
 
 ## -remarks
 
-
+As is the case with kernel handles opened by other system service calls such as **ZwCreateKey** and **ZwCreateFile**,
+the caller is responsible for calling [**ZwClose**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose) to close the handle when it is no longer required.
 
 In Windows Vista and later versions of Windows, the <i>ClientId</i> parameter must point to a client ID that identifies the thread whose process is to be opened. In addition, the <b>ObjectName</b> field of the structure pointed to by <i>ObjectAttributes</i> must be set to <b>NULL</b>.
 

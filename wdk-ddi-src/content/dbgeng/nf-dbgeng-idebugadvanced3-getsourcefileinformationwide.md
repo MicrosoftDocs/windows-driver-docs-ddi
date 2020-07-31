@@ -10,6 +10,7 @@ keywords: ["IDebugAdvanced3::GetSourceFileInformationWide"]
 ms.keywords: GetSourceFileInformationWide, GetSourceFileInformationWide method [Windows Debugging], GetSourceFileInformationWide method [Windows Debugging],IDebugAdvanced3 interface, IDebugAdvanced3 interface [Windows Debugging],GetSourceFileInformationWide method, IDebugAdvanced3.GetSourceFileInformationWide, IDebugAdvanced3::GetSourceFileInformationWide, dbgeng/IDebugAdvanced3::GetSourceFileInformationWide, debugger.getsourcefileinformationwide
 f1_keywords:
  - "dbgeng/IDebugAdvanced3.GetSourceFileInformationWide"
+ - "IDebugAdvanced3.GetSourceFileInformationWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugAdvanced3.GetSourceFileInformationWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

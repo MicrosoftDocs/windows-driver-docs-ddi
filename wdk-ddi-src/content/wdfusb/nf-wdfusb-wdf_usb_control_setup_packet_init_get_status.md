@@ -10,6 +10,7 @@ keywords: ["WDF_USB_CONTROL_SETUP_PACKET_INIT_GET_STATUS function"]
 ms.keywords: DFUsbRef_b1eaf694-27f6-4767-9e7f-f9af5c0fd605.xml, WDF_USB_CONTROL_SETUP_PACKET_INIT_GET_STATUS, WDF_USB_CONTROL_SETUP_PACKET_INIT_GET_STATUS function, kmdf.wdf_usb_control_setup_packet_init_get_status, wdf.wdf_usb_control_setup_packet_init_get_status, wdfusb/WDF_USB_CONTROL_SETUP_PACKET_INIT_GET_STATUS
 f1_keywords:
  - "wdfusb/WDF_USB_CONTROL_SETUP_PACKET_INIT_GET_STATUS"
+ - "WDF_USB_CONTROL_SETUP_PACKET_INIT_GET_STATUS"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - wdfusb.h
 api_name:
 - WDF_USB_CONTROL_SETUP_PACKET_INIT_GET_STATUS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

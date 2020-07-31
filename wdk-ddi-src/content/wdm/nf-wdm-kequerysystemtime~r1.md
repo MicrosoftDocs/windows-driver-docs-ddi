@@ -10,6 +10,7 @@ keywords: ["KeQuerySystemTime function"]
 ms.keywords: KeQuerySystemTime, KeQuerySystemTime routine [Kernel-Mode Driver Architecture], k105_0eaf1b30-c365-45ac-828c-fbcc7cd71ff3.xml, kernel.kequerysystemtime, wdm/KeQuerySystemTime
 f1_keywords:
  - "wdm/KeQuerySystemTime"
+ - "KeQuerySystemTime"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeQuerySystemTime
-product:
-- Windows
 targetos: Windows
 req.typenames:
 ms.custom: RS5

@@ -7,6 +7,7 @@ ms.date: 09/11/2018
 keywords: ["IDataModelManager2::GetModelForTypeSignature"]
 f1_keywords:
  - "dbgmodel/IDataModelManager2.GetModelForTypeSignature"
+ - "IDataModelManager2.GetModelForTypeSignature"
 ms.keywords: IDataModelManager2::GetModelForTypeSignature, GetModelForTypeSignature, IDataModelManager2.GetModelForTypeSignature, IDataModelManager2::GetModelForTypeSignature, IDataModelManager2.GetModelForTypeSignature
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDataModelManager2.GetModelForTypeSignature
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

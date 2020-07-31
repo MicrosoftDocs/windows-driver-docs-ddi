@@ -10,6 +10,7 @@ keywords: ["KeReleaseInStackQueuedSpinLockFromDpcLevel function"]
 ms.keywords: KeReleaseInStackQueuedSpinLockFromDpcLevel, KeReleaseInStackQueuedSpinLockFromDpcLevel routine [Kernel-Mode Driver Architecture], k105_76a65a2a-d5b2-4066-90e9-4539c5e39930.xml, kernel.kereleaseinstackqueuedspinlockfromdpclevel, wdm/KeReleaseInStackQueuedSpinLockFromDpcLevel
 f1_keywords:
  - "wdm/KeReleaseInStackQueuedSpinLockFromDpcLevel"
+ - "KeReleaseInStackQueuedSpinLockFromDpcLevel"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeReleaseInStackQueuedSpinLockFromDpcLevel
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

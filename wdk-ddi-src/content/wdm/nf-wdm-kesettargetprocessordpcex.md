@@ -10,6 +10,7 @@ keywords: ["KeSetTargetProcessorDpcEx function"]
 ms.keywords: KeSetTargetProcessorDpcEx, KeSetTargetProcessorDpcEx routine [Kernel-Mode Driver Architecture], k105_86dff32b-f370-4233-a3ec-d8fb3cc5b4cc.xml, kernel.kesettargetprocessordpcex, wdm/KeSetTargetProcessorDpcEx
 f1_keywords:
  - "wdm/KeSetTargetProcessorDpcEx"
+ - "KeSetTargetProcessorDpcEx"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeSetTargetProcessorDpcEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

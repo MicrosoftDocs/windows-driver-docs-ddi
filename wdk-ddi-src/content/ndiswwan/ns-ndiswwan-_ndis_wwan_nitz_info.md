@@ -8,6 +8,7 @@ ms.date: 04/11/2019
 keywords: ["_NDIS_WWAN_NITZ_INFO structure"]
 f1_keywords:
  - "ndiswwan/_NDIS_WWAN_NITZ_INFO"
+ - "_NDIS_WWAN_NITZ_INFO"
 ms.keywords: _NDIS_WWAN_NITZ_INFO, NDIS_WWAN_NITZ_INFO, *PNDIS_WWAN_NITZ_INFO, 
 req.header: ndiswwan.h
 req.include-header:
@@ -30,8 +31,6 @@ api_location:
 - ndiswwan.h
 api_name: 
 - _NDIS_WWAN_NITZ_INFO
-product:
-- Windows
 targetos: Windows
 ms.custom: 19H1
 ---

@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["UsbPm_RetrieveConnectorProperties function"]
 f1_keywords:
  - "usbpmapi/UsbPm_RetrieveConnectorProperties"
+ - "UsbPm_RetrieveConnectorProperties"
 ms.keywords: UsbPm_RetrieveConnectorProperties
 tech.root: usbref
 req.header: usbpmapi.h
@@ -34,8 +35,6 @@ api_location:
 - UsbPmApi.lib
 api_name: 
 - UsbPm_RetrieveConnectorProperties
-product:
-- Windows
 targetos: Windows
 
 

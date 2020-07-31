@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["IOCTL_INTERNAL_GRAPHICSPOWER_REGISTER IOCTL"]
 f1_keywords:
  - "d3dkmthk/IOCTL_INTERNAL_GRAPHICSPOWER_REGISTER"
+ - "IOCTL_INTERNAL_GRAPHICSPOWER_REGISTER"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -27,8 +28,6 @@ api_location:
 - d3dkmthk.h
 api_name: 
 - IOCTL_INTERNAL_GRAPHICSPOWER_REGISTER
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

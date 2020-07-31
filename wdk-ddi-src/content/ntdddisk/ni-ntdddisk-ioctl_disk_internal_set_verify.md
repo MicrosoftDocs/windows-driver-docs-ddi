@@ -10,6 +10,7 @@ keywords: ["IOCTL_DISK_INTERNAL_SET_VERIFY IOCTL"]
 ms.keywords: IOCTL_DISK_INTERNAL_SET_VERIFY, IOCTL_DISK_INTERNAL_SET_VERIFY control, IOCTL_DISK_INTERNAL_SET_VERIFY control code [Storage Devices], k307_d97d4ec3-63c0-4041-9953-8727b1b82e66.xml, ntdddisk/IOCTL_DISK_INTERNAL_SET_VERIFY, storage.ioctl_disk_internal_set_verify
 f1_keywords:
  - "ntdddisk/IOCTL_DISK_INTERNAL_SET_VERIFY"
+ - "IOCTL_DISK_INTERNAL_SET_VERIFY"
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntdddisk.h
 api_name:
 - IOCTL_DISK_INTERNAL_SET_VERIFY
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

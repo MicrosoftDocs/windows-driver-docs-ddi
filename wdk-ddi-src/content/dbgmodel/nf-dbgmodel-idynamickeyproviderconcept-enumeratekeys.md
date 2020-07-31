@@ -7,6 +7,7 @@ ms.date: 09/19/2018
 keywords: ["IDynamicKeyProviderConcept::EnumerateKeys"]
 f1_keywords:
  - "dbgmodel/IDynamicKeyProviderConcept.EnumerateKeys"
+ - "IDynamicKeyProviderConcept.EnumerateKeys"
 ms.keywords: IDynamicKeyProviderConcept::EnumerateKeys, EnumerateKeys, IDynamicKeyProviderConcept.EnumerateKeys, IDynamicKeyProviderConcept::EnumerateKeys, IDynamicKeyProviderConcept.EnumerateKeys
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDynamicKeyProviderConcept.EnumerateKeys
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

@@ -10,6 +10,7 @@ keywords: ["IXpsRasterizer::SetMinimalLineWidth"]
 ms.keywords: IXpsRasterizer interface [Print Devices],SetMinimalLineWidth method, IXpsRasterizer.SetMinimalLineWidth, IXpsRasterizer::SetMinimalLineWidth, SetMinimalLineWidth, SetMinimalLineWidth method [Print Devices], SetMinimalLineWidth method [Print Devices],IXpsRasterizer interface, print.ixpsrasterizer_setminimallinewidth, print_xpsrast_2208b605-31bd-4ab9-8bd5-6941a921ff7a.xml, xpsrassvc/IXpsRasterizer::SetMinimalLineWidth
 f1_keywords:
  - "xpsrassvc/IXpsRasterizer.SetMinimalLineWidth"
+ - "IXpsRasterizer.SetMinimalLineWidth"
 req.header: xpsrassvc.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - xpsrassvc.h
 api_name:
 - IXpsRasterizer.SetMinimalLineWidth
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -84,7 +83,7 @@ This method is supported in Windows 7 and later. It is not supported in versions
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmap">IWICBitmap</a>
+<a href="https://docs.microsoft.com/windows/win32/api/wincodec/nn-wincodec-iwicbitmap">IWICBitmap</a>
 
 
 

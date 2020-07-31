@@ -10,6 +10,7 @@ keywords: ["WDF_REQUEST_REUSE_PARAMS_INIT function"]
 ms.keywords: DFRequestObjectRef_e43a091a-a926-4705-8241-0620b6ef3096.xml, WDF_REQUEST_REUSE_PARAMS_INIT, WDF_REQUEST_REUSE_PARAMS_INIT function, kmdf.wdf_request_reuse_params_init, wdf.wdf_request_reuse_params_init, wdfrequest/WDF_REQUEST_REUSE_PARAMS_INIT
 f1_keywords:
  - "wdfrequest/WDF_REQUEST_REUSE_PARAMS_INIT"
+ - "WDF_REQUEST_REUSE_PARAMS_INIT"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - wdfrequest.h
 api_name:
 - WDF_REQUEST_REUSE_PARAMS_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

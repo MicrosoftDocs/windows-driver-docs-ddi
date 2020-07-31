@@ -10,6 +10,7 @@ keywords: ["_FILE_COMPLETION_INFORMATION structure"]
 ms.keywords: "*PFILE_COMPLETION_INFORMATION, FILE_COMPLETION_INFORMATION, FILE_COMPLETION_INFORMATION structure [Installable File System Drivers], PFILE_COMPLETION_INFORMATION, PFILE_COMPLETION_INFORMATION structure pointer [Installable File System Drivers], _FILE_COMPLETION_INFORMATION, ifsk.file_completion_information, ntifs/FILE_COMPLETION_INFORMATION, ntifs/PFILE_COMPLETION_INFORMATION"
 f1_keywords:
  - "ntifs/FILE_COMPLETION_INFORMATION"
+ - "FILE_COMPLETION_INFORMATION"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - FILE_COMPLETION_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: FILE_COMPLETION_INFORMATION, *PFILE_COMPLETION_INFORMATION
 ---

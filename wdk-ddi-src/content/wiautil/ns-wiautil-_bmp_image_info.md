@@ -10,6 +10,7 @@ keywords: ["_BMP_IMAGE_INFO structure"]
 ms.keywords: "*PBMP_IMAGE_INFO, BMP_IMAGE_INFO, BMP_IMAGE_INFO structure [Imaging Devices], PBMP_IMAGE_INFO, PBMP_IMAGE_INFO structure pointer [Imaging Devices], _BMP_IMAGE_INFO, image.bmp_image_info, wiauFncs_b4043c8e-769f-4ab1-9d62-c96dd5d7b487.xml, wiautil/BMP_IMAGE_INFO, wiautil/PBMP_IMAGE_INFO"
 f1_keywords:
  - "wiautil/BMP_IMAGE_INFO"
+ - "BMP_IMAGE_INFO"
 req.header: wiautil.h
 req.include-header: Wiautil.h, Wiamindr.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wiautil.h
 api_name:
 - BMP_IMAGE_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
 ---

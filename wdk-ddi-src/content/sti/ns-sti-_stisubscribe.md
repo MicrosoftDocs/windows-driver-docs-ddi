@@ -10,6 +10,7 @@ keywords: ["_STISUBSCRIBE structure"]
 ms.keywords: "*LPSTISUBSCRIBE, LPSTISUBSCRIBE, LPSTISUBSCRIBE structure pointer [Imaging Devices], STISUBSCRIBE, STISUBSCRIBE structure [Imaging Devices], _STISUBSCRIBE, image.stisubscribe, sti/LPSTISUBSCRIBE, sti/STISUBSCRIBE, stifnc_6043f7d6-98b6-483f-b868-f18492af5f92.xml"
 f1_keywords:
  - "sti/STISUBSCRIBE"
+ - "STISUBSCRIBE"
 req.header: sti.h
 req.include-header: Sti.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - sti.h
 api_name:
 - STISUBSCRIBE
-product:
-- Windows
 targetos: Windows
 req.typenames: STISUBSCRIBE, *LPSTISUBSCRIBE
 ---

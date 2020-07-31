@@ -10,6 +10,7 @@ keywords: ["RESTORE_WC_MEMORY callback function"]
 ms.keywords: RESTORE_WC_MEMORY, RESTORE_WC_MEMORY callback, VideoPortRestoreWCMemory, VideoPortRestoreWCMemory callback function [Display Devices], VideoPort_Functions_88c8ebcc-40d1-4883-9e99-eac1aab0c6c7.xml, display.videoportrestorewcmemory, video/VideoPortRestoreWCMemory
 f1_keywords:
  - "video/VideoPortRestoreWCMemory"
+ - "VideoPortRestoreWCMemory"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - video.h
 api_name:
 - VideoPortRestoreWCMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

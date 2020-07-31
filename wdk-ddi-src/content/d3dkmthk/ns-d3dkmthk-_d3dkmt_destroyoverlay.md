@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_DESTROYOVERLAY structure"]
 ms.keywords: D3DKMT_DESTROYOVERLAY, D3DKMT_DESTROYOVERLAY structure [Display Devices], OpenGL_Structs_57b46d39-5b2c-4d58-9daa-e1460168fe55.xml, _D3DKMT_DESTROYOVERLAY, d3dkmthk/D3DKMT_DESTROYOVERLAY, display.d3dkmt_destroyoverlay
 f1_keywords:
  - "d3dkmthk/D3DKMT_DESTROYOVERLAY"
+ - "D3DKMT_DESTROYOVERLAY"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMT_DESTROYOVERLAY
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_DESTROYOVERLAY

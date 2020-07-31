@@ -9,6 +9,7 @@ keywords: ["D3D11DDIARG_TEX2D_UNORDEREDACCESSVIEW structure"]
 ms.keywords: D3D11DDIARG_TEX2D_UNORDEREDACCESSVIEW, D3D11DDIARG_TEX2D_UNORDEREDACCESSVIEW structure [Display Devices], UMDisplayDriver_Dx11param_Structs_ca281413-3ae7-472c-acd6-76c8ef97b713.xml, d3d10umddi/D3D11DDIARG_TEX2D_UNORDEREDACCESSVIEW, display.d3d11ddiarg_tex2d_unorderedaccessview
 f1_keywords:
  - "d3d10umddi/D3D11DDIARG_TEX2D_UNORDEREDACCESSVIEW"
+ - "D3D11DDIARG_TEX2D_UNORDEREDACCESSVIEW"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - D3D11DDIARG_TEX2D_UNORDEREDACCESSVIEW
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D11DDIARG_TEX2D_UNORDEREDACCESSVIEW

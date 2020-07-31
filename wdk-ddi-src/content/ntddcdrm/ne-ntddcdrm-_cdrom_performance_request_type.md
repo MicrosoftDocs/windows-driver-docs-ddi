@@ -10,6 +10,7 @@ keywords: ["_CDROM_PERFORMANCE_REQUEST_TYPE enumeration"]
 ms.keywords: "*PCDROM_PERFORMANCE_REQUEST_TYPE, CDROM_PERFORMANCE_REQUEST_TYPE, CDROM_PERFORMANCE_REQUEST_TYPE enumeration [Storage Devices], CdromPerformanceRequest, CdromWriteSpeedRequest, PCDROM_PERFORMANCE_REQUEST_TYPE, PCDROM_PERFORMANCE_REQUEST_TYPE enumeration pointer [Storage Devices], _CDROM_PERFORMANCE_REQUEST_TYPE, ntddcdrm/ CdromWriteSpeedRequest, ntddcdrm/CDROM_PERFORMANCE_REQUEST_TYPE, ntddcdrm/CdromPerformanceRequest, ntddcdrm/PCDROM_PERFORMANCE_REQUEST_TYPE, storage.cdrom_performance_request_type"
 f1_keywords:
  - "ntddcdrm/CDROM_PERFORMANCE_REQUEST_TYPE"
+ - "CDROM_PERFORMANCE_REQUEST_TYPE"
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddcdrm.h
 api_name:
 - CDROM_PERFORMANCE_REQUEST_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: CDROM_PERFORMANCE_REQUEST_TYPE, *PCDROM_PERFORMANCE_REQUEST_TYPE
 ---

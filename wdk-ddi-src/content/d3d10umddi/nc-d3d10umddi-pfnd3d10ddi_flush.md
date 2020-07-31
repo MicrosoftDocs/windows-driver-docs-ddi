@@ -9,6 +9,7 @@ keywords: ["PFND3D10DDI_FLUSH callback function"]
 ms.keywords: Flush, Flush callback function [Display Devices], PFND3D10DDI_FLUSH, PFND3D10DDI_FLUSH callback, UserModeDisplayDriverDx10_Functions_35acd3a9-af32-4a8f-b2d6-a4b12f3aebc4.xml, d3d10umddi/Flush, display.flush_d3d10_
 f1_keywords:
  - "d3d10umddi/Flush"
+ - "Flush"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - Flush
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

@@ -10,6 +10,7 @@ keywords: ["_URB_CONTROL_GET_INTERFACE_REQUEST structure"]
 ms.keywords: "_URB_CONTROL_GET_INTERFACE_REQUEST, _URB_CONTROL_GET_INTERFACE_REQUEST structure [Buses], buses._urb_control_get_interface_request, usb/_URB_CONTROL_GET_INTERFACE_REQUEST, usbstrct_b0ec613c-60c0-4043-9506-5c0ede728380.xml"
 f1_keywords:
  - "usb/_URB_CONTROL_GET_INTERFACE_REQUEST"
+ - "_URB_CONTROL_GET_INTERFACE_REQUEST"
 req.header: usb.h
 req.include-header: Usb.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - usb.h
 api_name:
 - _URB_CONTROL_GET_INTERFACE_REQUEST
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

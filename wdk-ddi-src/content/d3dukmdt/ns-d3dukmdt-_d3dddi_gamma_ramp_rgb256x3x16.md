@@ -10,6 +10,7 @@ keywords: ["_D3DDDI_GAMMA_RAMP_RGB256x3x16 structure"]
 ms.keywords: D3DDDI_GAMMA_RAMP_RGB256x3x16, D3DDDI_GAMMA_RAMP_RGB256x3x16 structure [Display Devices], DmStructs_803b0bbe-a2a2-4e61-82da-11db95413949.xml, _D3DDDI_GAMMA_RAMP_RGB256x3x16, d3dukmdt/D3DDDI_GAMMA_RAMP_RGB256x3x16, display.d3dddi_gamma_ramp_rgb256x3x16
 f1_keywords:
  - "d3dukmdt/D3DDDI_GAMMA_RAMP_RGB256x3x16"
+ - "D3DDDI_GAMMA_RAMP_RGB256x3x16"
 req.header: d3dukmdt.h
 req.include-header: D3dukmdt.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dukmdt.h
 api_name:
 - D3DDDI_GAMMA_RAMP_RGB256x3x16
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDI_GAMMA_RAMP_RGB256x3x16
 ---

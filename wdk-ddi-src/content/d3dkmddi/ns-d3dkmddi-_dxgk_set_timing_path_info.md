@@ -9,6 +9,7 @@ keywords: ["_DXGK_SET_TIMING_PATH_INFO structure"]
 ms.keywords: DXGK_SET_TIMING_PATH_INFO, DXGK_SET_TIMING_PATH_INFO structure [Display Devices], PDXGK_SET_TIMING_PATH_INFO, PDXGK_SET_TIMING_PATH_INFO structure pointer [Display Devices], _DXGK_SET_TIMING_PATH_INFO, d3dkmddi/DXGK_SET_TIMING_PATH_INFO, d3dkmddi/PDXGK_SET_TIMING_PATH_INFO, display.dxgk_set_timing_path_info
 f1_keywords:
  - "d3dkmddi/DXGK_SET_TIMING_PATH_INFO"
+ - "DXGK_SET_TIMING_PATH_INFO"
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGK_SET_TIMING_PATH_INFO
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_SET_TIMING_PATH_INFO

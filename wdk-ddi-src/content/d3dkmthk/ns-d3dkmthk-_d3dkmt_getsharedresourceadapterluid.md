@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_GETSHAREDRESOURCEADAPTERLUID structure"]
 ms.keywords: D3DKMT_GETSHAREDRESOURCEADAPTERLUID, D3DKMT_GETSHAREDRESOURCEADAPTERLUID structure [Display Devices], _D3DKMT_GETSHAREDRESOURCEADAPTERLUID, d3dkmthk/D3DKMT_GETSHAREDRESOURCEADAPTERLUID, display.d3dkmt_getsharedresourceadapterluid
 f1_keywords:
  - "d3dkmthk/D3DKMT_GETSHAREDRESOURCEADAPTERLUID"
+ - "D3DKMT_GETSHAREDRESOURCEADAPTERLUID"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - D3dkmthk.h
 api_name:
 - D3DKMT_GETSHAREDRESOURCEADAPTERLUID
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_GETSHAREDRESOURCEADAPTERLUID

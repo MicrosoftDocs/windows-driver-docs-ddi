@@ -10,6 +10,7 @@ keywords: ["ZwQueryInformationToken function"]
 ms.keywords: NtQueryInformationToken, ZwQueryInformationToken, ZwQueryInformationToken routine [Kernel-Mode Driver Architecture], k111_2f945a17-f3b4-423a-90fa-6f02d240d42d.xml, kernel.zwqueryinformationtoken, ntifs/NtQueryInformationToken, ntifs/ZwQueryInformationToken
 f1_keywords:
  - "ntifs/ZwQueryInformationToken"
+ - "ZwQueryInformationToken"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - ZwQueryInformationToken
 - NtQueryInformationToken
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

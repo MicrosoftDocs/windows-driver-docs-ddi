@@ -10,6 +10,7 @@ keywords: ["ScsiPortNotification function"]
 ms.keywords: ScsiPortNotification, ScsiPortNotification routine [Storage Devices], scsiprt_0e410e4a-e7bb-448b-9d4d-c2a5db63fe02.xml, srb/ScsiPortNotification, storage.scsiportnotification
 f1_keywords:
  - "srb/ScsiPortNotification"
+ - "ScsiPortNotification"
 req.header: srb.h
 req.include-header: Miniport.h, Scsi.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - storport.dll
 api_name:
 - ScsiPortNotification
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

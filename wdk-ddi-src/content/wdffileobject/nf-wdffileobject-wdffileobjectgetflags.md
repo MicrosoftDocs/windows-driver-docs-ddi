@@ -10,6 +10,7 @@ keywords: ["WdfFileObjectGetFlags function"]
 ms.keywords: DFFileObjectRef_5f2f8f12-9a16-4fb5-88ae-ee726a278cc5.xml, WdfFileObjectGetFlags, WdfFileObjectGetFlags method, kmdf.wdffileobjectgetflags, wdf.wdffileobjectgetflags, wdffileobject/WdfFileObjectGetFlags
 f1_keywords:
  - "wdffileobject/WdfFileObjectGetFlags"
+ - "WdfFileObjectGetFlags"
 req.header: wdffileobject.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfFileObjectGetFlags
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

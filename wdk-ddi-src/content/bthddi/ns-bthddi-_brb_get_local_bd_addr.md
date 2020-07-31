@@ -10,6 +10,7 @@ keywords: ["_BRB_GET_LOCAL_BD_ADDR structure"]
 ms.keywords: "_BRB_GET_LOCAL_BD_ADDR, _BRB_GET_LOCAL_BD_ADDR structure [Bluetooth Devices], bltooth._brb_get_local_bd_addr, bth_structs_eede3474-96b3-4865-a700-70f7e444a4c3.xml, bthddi/_BRB_GET_LOCAL_BD_ADDR"
 f1_keywords:
  - "bthddi/_BRB_GET_LOCAL_BD_ADDR"
+ - "_BRB_GET_LOCAL_BD_ADDR"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - bthddi.h
 api_name:
 - _BRB_GET_LOCAL_BD_ADDR
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

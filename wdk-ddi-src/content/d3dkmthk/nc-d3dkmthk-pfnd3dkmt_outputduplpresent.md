@@ -9,6 +9,7 @@ keywords: ["PFND3DKMT_OUTPUTDUPLPRESENT callback function"]
 ms.keywords: D3DKMTOutputDuplPresent, D3DKMTOutputDuplPresent callback function [Display Devices], PFND3DKMT_OUTPUTDUPLPRESENT, PFND3DKMT_OUTPUTDUPLPRESENT callback, d3dkmthk/D3DKMTOutputDuplPresent, display.d3dkmtoutputduplpresent
 f1_keywords:
  - "d3dkmthk/D3DKMTOutputDuplPresent"
+ - "D3DKMTOutputDuplPresent"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -35,8 +36,6 @@ api_location:
 - D3dkmthk.h
 api_name:
 - D3DKMTOutputDuplPresent
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

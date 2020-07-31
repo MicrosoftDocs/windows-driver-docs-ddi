@@ -10,6 +10,7 @@ keywords: ["MINIPORT_ALLOCATE_SHARED_MEM_COMPLETE callback function"]
 ms.keywords: MINIPORT_ALLOCATE_SHARED_MEM_COMPLETE, MINIPORT_ALLOCATE_SHARED_MEM_COMPLETE callback, MiniportSharedMemoryAllocateComplete, MiniportSharedMemoryAllocateComplete callback function [Network Drivers Starting with Windows Vista], ndis/MiniportSharedMemoryAllocateComplete, ndis_sgdma_ref_0099c752-42ac-4b2d-9787-98deca358cfc.xml, netvista.miniportsharedmemoryallocatecomplete
 f1_keywords:
  - "ndis/MiniportSharedMemoryAllocateComplete"
+ - "MiniportSharedMemoryAllocateComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - MiniportSharedMemoryAllocateComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

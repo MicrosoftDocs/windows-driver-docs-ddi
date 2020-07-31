@@ -10,6 +10,7 @@ keywords: ["_WDF_TRI_STATE enumeration"]
 ms.keywords: "*PWDF_TRI_STATE, DFGenObjectRef_83855649-9d84-4f8c-9685-5e5321209b4d.xml, PWDF_TRI_STATE, PWDF_TRI_STATE enumeration pointer, WDF_TRI_STATE, WDF_TRI_STATE enumeration, WdfFalse, WdfTrue, WdfUseDefault, _WDF_TRI_STATE, kmdf.wdf_tri_state, wdf.wdf_tri_state, wdftypes/PWDF_TRI_STATE, wdftypes/WDF_TRI_STATE, wdftypes/WdfFalse, wdftypes/WdfTrue, wdftypes/WdfUseDefault, wudfddi_types/PWDF_TRI_STATE, wudfddi_types/WDF_TRI_STATE, wudfddi_types/WdfFalse, wudfddi_types/WdfTrue, wudfddi_types/WdfUseDefault"
 f1_keywords:
  - "wudfddi_types/WDF_TRI_STATE"
+ - "WDF_TRI_STATE"
 req.header: wudfddi_types.h
 req.include-header: Wdf.h
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 - wudfddi_types.h
 api_name:
 - WDF_TRI_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_TRI_STATE, *PWDF_TRI_STATE
 ---

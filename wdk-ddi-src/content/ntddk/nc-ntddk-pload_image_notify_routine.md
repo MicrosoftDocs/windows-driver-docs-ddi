@@ -10,6 +10,7 @@ keywords: ["PLOAD_IMAGE_NOTIFY_ROUTINE callback function"]
 ms.keywords: PLOAD_IMAGE_NOTIFY_ROUTINE, PLOAD_IMAGE_NOTIFY_ROUTINE callback, SetLoadImageNotifyRoutine, SetLoadImageNotifyRoutine callback function [Kernel-Mode Driver Architecture], kernel.pload_image_notify_routine, ntddk/SetLoadImageNotifyRoutine
 f1_keywords:
  - "ntddk/SetLoadImageNotifyRoutine"
+ - "SetLoadImageNotifyRoutine"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Ntddk.h
 api_name:
 - SetLoadImageNotifyRoutine
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

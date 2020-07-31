@@ -10,6 +10,7 @@ keywords: ["FltAllocatePoolAlignedWithTag function"]
 ms.keywords: FltAllocatePoolAlignedWithTag, FltAllocatePoolAlignedWithTag function [Installable File System Drivers], FltApiRef_a_to_d_b617aed0-5103-4a1e-aa0d-86247d99e803.xml, fltkernel/FltAllocatePoolAlignedWithTag, ifsk.fltallocatepoolalignedwithtag
 f1_keywords:
  - "fltkernel/FltAllocatePoolAlignedWithTag"
+ - "FltAllocatePoolAlignedWithTag"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - FltMgr.dll
 api_name:
 - FltAllocatePoolAlignedWithTag
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

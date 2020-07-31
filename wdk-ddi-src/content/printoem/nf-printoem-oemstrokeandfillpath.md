@@ -10,6 +10,7 @@ keywords: ["OEMStrokeAndFillPath function"]
 ms.keywords: OEMStrokeAndFillPath, OEMStrokeAndFillPath function [Print Devices], print.oemstrokeandfillpath, print_unidrv-pscript_rendering_e370d4e7-4593-46c7-87dd-93c963400290.xml, printoem/OEMStrokeAndFillPath
 f1_keywords:
  - "printoem/OEMStrokeAndFillPath"
+ - "OEMStrokeAndFillPath"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - printoem.h
 api_name:
 - OEMStrokeAndFillPath
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

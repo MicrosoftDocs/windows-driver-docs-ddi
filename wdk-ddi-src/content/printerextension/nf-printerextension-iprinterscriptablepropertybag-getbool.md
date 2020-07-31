@@ -10,6 +10,7 @@ keywords: ["IPrinterScriptablePropertyBag::GetBool"]
 ms.keywords: GetBool, GetBool method [Print Devices], GetBool method [Print Devices],IPrinterScriptablePropertyBag interface, IPrinterScriptablePropertyBag interface [Print Devices],GetBool method, IPrinterScriptablePropertyBag.GetBool, IPrinterScriptablePropertyBag::GetBool, print.iprinterscriptablepropertybag_getbool, printerextension/IPrinterScriptablePropertyBag::GetBool
 f1_keywords:
  - "printerextension/IPrinterScriptablePropertyBag.GetBool"
+ - "IPrinterScriptablePropertyBag.GetBool"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Printerextension.h
 api_name:
 - IPrinterScriptablePropertyBag.GetBool
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -7,6 +7,7 @@ ms.date: 09/10/2018
 keywords: ["IDataModelScriptDebugStackFrame::GetTransition"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebugStackFrame.GetTransition"
+ - "IDataModelScriptDebugStackFrame.GetTransition"
 ms.keywords: IDataModelScriptDebugStackFrame::GetTransition, GetTransition, IDataModelScriptDebugStackFrame.GetTransition, IDataModelScriptDebugStackFrame::GetTransition, IDataModelScriptDebugStackFrame.GetTransition
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDataModelScriptDebugStackFrame.GetTransition
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

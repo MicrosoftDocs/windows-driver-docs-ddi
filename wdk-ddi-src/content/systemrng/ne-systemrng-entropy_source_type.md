@@ -9,6 +9,7 @@ ms.date: 10/19/2018
 keywords: ["ENTROPY_SOURCE_TYPE enumeration"]
 f1_keywords:
  - "systemrng/ENTROPY_SOURCE_TYPE"
+ - "ENTROPY_SOURCE_TYPE"
 ms.keywords: ENTROPY_SOURCE_TYPE, ENTROPY_SOURCE_TYPE, 
 req.header: systemrng.h
 req.include-header:
@@ -28,8 +29,6 @@ api_location:
 - systemrng.h
 api_name: 
 - ENTROPY_SOURCE_TYPE
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_STATE_LOCATION_TYPE enumeration"]
 f1_keywords:
  - "ntddk/_STATE_LOCATION_TYPE"
+ - "_STATE_LOCATION_TYPE"
 ms.keywords: _STATE_LOCATION_TYPE, STATE_LOCATION_TYPE, 
 req.header: ntddk.h
 req.include-header:
@@ -26,8 +27,6 @@ api_location:
 - ntddk.h
 api_name: 
 - _STATE_LOCATION_TYPE
-product:
-- Windows
 targetos: Windows
 ---
 

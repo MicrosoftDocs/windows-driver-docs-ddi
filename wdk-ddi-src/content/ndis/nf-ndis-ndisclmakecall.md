@@ -10,6 +10,7 @@ keywords: ["NdisClMakeCall function"]
 ms.keywords: NdisClMakeCall, NdisClMakeCall function [Network Drivers Starting with Windows Vista], condis_client_ref_bd9f0a4a-c8f7-418e-aa80-e97fad7e4ab1.xml, ndis/NdisClMakeCall, netvista.ndisclmakecall
 f1_keywords:
  - "ndis/NdisClMakeCall"
+ - "NdisClMakeCall"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisClMakeCall
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

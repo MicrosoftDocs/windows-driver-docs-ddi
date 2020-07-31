@@ -10,6 +10,7 @@ keywords: ["IWDTFSimpleIOEx2::PerformIO"]
 ms.keywords: IWDTFSimpleIOEx2 interface [Windows Device Testing Framework],PerformIO method, IWDTFSimpleIOEx2.PerformIO, IWDTFSimpleIOEx2::PerformIO, Microsoft.WDTF.IWDTFSimpleIOEx2.PerformIO, Microsoft::WDTF::IWDTFSimpleIOEx2::PerformIO, PerformIO, PerformIO method [Windows Device Testing Framework], PerformIO method [Windows Device Testing Framework],IWDTFSimpleIOEx2 interface, dtf.iwdtfsimpleioex2_performio, wdtfinterfaces/IWDTFSimpleIOEx2::PerformIO
 f1_keywords:
  - "wdtfinterfaces/IWDTFSimpleIOEx2.PerformIO"
+ - "IWDTFSimpleIOEx2.PerformIO"
 req.header: wdtfinterfaces.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WDTFInterfaces.Interop.dll
 api_name:
 - IWDTFSimpleIOEx2.PerformIO
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

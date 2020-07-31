@@ -10,6 +10,7 @@ keywords: ["ExtRemoteData::SetFloat method"]
 ms.keywords: ExtRemoteData class [Windows Debugging], described, ExtRemoteData::SetChar, EngExtCpp_Ref_e84c03ce-1156-481b-a429-f0a918797565.xml, SetFloat, Clear, debugger.extremotedata, ExtRemoteData class [Windows Debugging], SetDouble, ExtRemoteData::SetData, ExtRemoteData, engextcpp/ExtRemoteData, ExtRemoteData::SetFloat, ExtRemoteData::SetDouble, SetChar, ExtRemoteData::SetBoolean, ExtRemoteData::Clear, SetData, SetBoolean
 f1_keywords:
  - "engextcpp/ExtRemoteData"
+ - "ExtRemoteData"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - engextcpp.hpp
 api_name:
 - ExtRemoteData
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVA_VideoSample32
 ---

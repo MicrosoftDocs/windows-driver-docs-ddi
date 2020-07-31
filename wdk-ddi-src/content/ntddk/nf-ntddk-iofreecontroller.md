@@ -10,6 +10,7 @@ keywords: ["IoFreeController function"]
 ms.keywords: IoFreeController, IoFreeController routine [Kernel-Mode Driver Architecture], k104_42ed98f0-34b1-45d9-981e-e3e62411ad70.xml, kernel.iofreecontroller, ntddk/IoFreeController
 f1_keywords:
  - "ntddk/IoFreeController"
+ - "IoFreeController"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoFreeController
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

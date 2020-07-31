@@ -10,6 +10,7 @@ keywords: ["RILSUPSVCINFO structure"]
 ms.keywords: "*LPRILSUPSVCINFO, RILSUPSVCINFO, RILSUPSVCINFO structure [Network Drivers Starting with Windows Vista], netvista.rilsupsvcinfo, ntddrilapitypes/RILSUPSVCINFO"
 f1_keywords:
  - "rilapitypes/RILSUPSVCINFO"
+ - "RILSUPSVCINFO"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILSUPSVCINFO
-product:
-- Windows
 targetos: Windows
 req.typenames: RILSUPSVCINFO, *LPRILSUPSVCINFO
 ---

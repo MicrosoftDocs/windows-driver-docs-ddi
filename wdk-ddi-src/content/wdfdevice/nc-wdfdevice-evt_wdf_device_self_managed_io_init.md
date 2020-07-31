@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_DEVICE_SELF_MANAGED_IO_INIT callback function"]
 ms.keywords: DFDeviceObjectGeneralRef_7c67b851-b6d0-450d-bdc9-2a32aa384a36.xml, EVT_WDF_DEVICE_SELF_MANAGED_IO_INIT, EVT_WDF_DEVICE_SELF_MANAGED_IO_INIT callback, EvtDeviceSelfManagedIoInit, EvtDeviceSelfManagedIoInit callback function, kmdf.evtdeviceselfmanagedioinit, wdf.evtdeviceselfmanagedioinit, wdfdevice/EvtDeviceSelfManagedIoInit
 f1_keywords:
  - "wdfdevice/EvtDeviceSelfManagedIoInit"
+ - "EvtDeviceSelfManagedIoInit"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Wdfdevice.h
 api_name:
 - EvtDeviceSelfManagedIoInit
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

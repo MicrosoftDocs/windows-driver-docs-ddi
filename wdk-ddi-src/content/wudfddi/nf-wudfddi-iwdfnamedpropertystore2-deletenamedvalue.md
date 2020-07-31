@@ -10,6 +10,7 @@ keywords: ["IWDFNamedPropertyStore2::DeleteNamedValue"]
 ms.keywords: DeleteNamedValue, DeleteNamedValue method, DeleteNamedValue method,IWDFNamedPropertyStore2 interface, IWDFNamedPropertyStore2 interface,DeleteNamedValue method, IWDFNamedPropertyStore2.DeleteNamedValue, IWDFNamedPropertyStore2::DeleteNamedValue, UMDFPropertyStoreObjectRef_9363c14f-0ff0-4c2f-910a-916b3cb9d664.xml, umdf.iwdfnamedpropertystore2_deletenamedvalue, wdf.iwdfnamedpropertystore2_deletenamedvalue, wudfddi/IWDFNamedPropertyStore2::DeleteNamedValue
 f1_keywords:
  - "wudfddi/IWDFNamedPropertyStore2.DeleteNamedValue"
+ - "IWDFNamedPropertyStore2.DeleteNamedValue"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFNamedPropertyStore2.DeleteNamedValue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

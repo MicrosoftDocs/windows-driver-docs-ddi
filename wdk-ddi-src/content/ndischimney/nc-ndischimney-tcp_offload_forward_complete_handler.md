@@ -10,6 +10,7 @@ keywords: ["TCP_OFFLOAD_FORWARD_COMPLETE_HANDLER callback function"]
 ms.keywords: ProtocolTcpOffloadForwardComplete, ProtocolTcpOffloadForwardComplete callback function [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_FORWARD_COMPLETE_HANDLER, TCP_OFFLOAD_FORWARD_COMPLETE_HANDLER callback, ndischimney/ProtocolTcpOffloadForwardComplete, netvista.protocoltcpoffloadforwardcomplete, tcp_chim_protocol_func_18981e3f-fec9-483d-b60e-54017ebd57d1.xml
 f1_keywords:
  - "ndischimney/ProtocolTcpOffloadForwardComplete"
+ - "ProtocolTcpOffloadForwardComplete"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ndischimney.h
 api_name:
 - ProtocolTcpOffloadForwardComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

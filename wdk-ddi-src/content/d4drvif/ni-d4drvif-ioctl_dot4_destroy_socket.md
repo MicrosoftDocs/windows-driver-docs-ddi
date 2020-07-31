@@ -10,6 +10,7 @@ keywords: ["IOCTL_DOT4_DESTROY_SOCKET IOCTL"]
 ms.keywords: IOCTL_DOT4_DESTROY_SOCKET, IOCTL_DOT4_DESTROY_SOCKET control, IOCTL_DOT4_DESTROY_SOCKET control code [Print Devices], d4drvif/IOCTL_DOT4_DESTROY_SOCKET, print.ioctl_ioctl_dot4_destroy_socket
 f1_keywords:
  - "d4drvif/IOCTL_DOT4_DESTROY_SOCKET"
+ - "IOCTL_DOT4_DESTROY_SOCKET"
 req.header: d4drvif.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - D4drvif.h
 api_name:
 - IOCTL_DOT4_DESTROY_SOCKET
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

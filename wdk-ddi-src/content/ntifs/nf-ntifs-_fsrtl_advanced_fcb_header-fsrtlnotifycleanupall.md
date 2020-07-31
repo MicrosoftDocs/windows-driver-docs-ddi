@@ -10,6 +10,7 @@ keywords: ["FsRtlNotifyCleanupAll function"]
 ms.keywords: FsRtlNotifyCleanupAll, FsRtlNotifyCleanupAll routine [Installable File System Drivers], fsrtlref_f0eea2f1-9bc9-41e1-843c-a69b3e63f452.xml, ifsk.fsrtlnotifycleanupall, ntifs/FsRtlNotifyCleanupAll
 f1_keywords:
  - "ntifs/FsRtlNotifyCleanupAll"
+ - "FsRtlNotifyCleanupAll"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlNotifyCleanupAll
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 dev_langs:

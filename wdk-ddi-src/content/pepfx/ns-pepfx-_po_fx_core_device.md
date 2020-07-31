@@ -10,6 +10,7 @@ keywords: ["_PO_FX_CORE_DEVICE structure"]
 ms.keywords: "*PPO_FX_CORE_DEVICE, PO_FX_CORE_DEVICE, PO_FX_CORE_DEVICE structure [Kernel-Mode Driver Architecture], PPO_FX_CORE_DEVICE, PPO_FX_CORE_DEVICE structure pointer [Kernel-Mode Driver Architecture], _PO_FX_CORE_DEVICE, kernel.po_fx_core_device, pepfx/PO_FX_CORE_DEVICE, pepfx/PPO_FX_CORE_DEVICE"
 f1_keywords:
  - "pepfx/PO_FX_CORE_DEVICE"
+ - "PO_FX_CORE_DEVICE"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - PO_FX_CORE_DEVICE
-product:
-- Windows
 targetos: Windows
 req.typenames: PO_FX_CORE_DEVICE, *PPO_FX_CORE_DEVICE
 ---

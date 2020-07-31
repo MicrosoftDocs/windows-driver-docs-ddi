@@ -10,6 +10,7 @@ keywords: ["IWiaDrvItem::GetFullItemName"]
 ms.keywords: DrvItem_1b166476-d17a-4953-9c73-6e3d7c9cd0f9.xml, GetFullItemName, GetFullItemName method [Imaging Devices], GetFullItemName method [Imaging Devices],IWiaDrvItem interface, IWiaDrvItem interface [Imaging Devices],GetFullItemName method, IWiaDrvItem.GetFullItemName, IWiaDrvItem::GetFullItemName, image.iwiadrvitem_getfullitemname, wiamindr_lh/IWiaDrvItem::GetFullItemName
 f1_keywords:
  - "wiamindr_lh/IWiaDrvItem.GetFullItemName"
+ - "IWiaDrvItem.GetFullItemName"
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wiamindr_lh.h
 api_name:
 - IWiaDrvItem.GetFullItemName
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

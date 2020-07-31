@@ -10,6 +10,7 @@ keywords: ["KsCreateClock2 function"]
 ms.keywords: KsCreateClock2, KsCreateClock2 function [Streaming Media Devices], ks/KsCreateClock2, stream.kscreateclock2
 f1_keywords:
  - "ks/KsCreateClock2"
+ - "KsCreateClock2"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Ks.h
 api_name:
 - KsCreateClock2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

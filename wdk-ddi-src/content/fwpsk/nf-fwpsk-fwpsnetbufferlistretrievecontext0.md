@@ -10,6 +10,7 @@ keywords: ["FwpsNetBufferListRetrieveContext0 function"]
 ms.keywords: FwpsNetBufferListRetrieveContext0, FwpsNetBufferListRetrieveContext0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsNetBufferListRetrieveContext0, netvista.fwpsnetbufferlistretrievecontext0, wfp_ref_2_funct_3_fwps_J-Q_63312511-d342-4705-86d9-844c59f42fe3.xml
 f1_keywords:
  - "fwpsk/FwpsNetBufferListRetrieveContext0"
+ - "FwpsNetBufferListRetrieveContext0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - fwpkclnt.dll
 api_name:
 - FwpsNetBufferListRetrieveContext0
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

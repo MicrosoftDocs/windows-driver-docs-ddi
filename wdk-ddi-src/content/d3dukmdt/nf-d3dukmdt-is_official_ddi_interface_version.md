@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["IS_OFFICIAL_DDI_INTERFACE_VERSION macro"]
 f1_keywords:
  - "d3dukmdt/IS_OFFICIAL_DDI_INTERFACE_VERSION"
+ - "IS_OFFICIAL_DDI_INTERFACE_VERSION"
 ms.keywords: IS_OFFICIAL_DDI_INTERFACE_VERSION
 req.header: d3dukmdt.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - d3dukmdt.h
 api_name: 
 - IS_OFFICIAL_DDI_INTERFACE_VERSION
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

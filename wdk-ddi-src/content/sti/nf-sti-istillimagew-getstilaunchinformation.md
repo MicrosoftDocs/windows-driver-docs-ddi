@@ -10,6 +10,7 @@ keywords: ["IStillImageW::GetSTILaunchInformation"]
 ms.keywords: GetSTILaunchInformation, GetSTILaunchInformation method [Imaging Devices], GetSTILaunchInformation method [Imaging Devices],IStillImageW interface, IStillImageW interface [Imaging Devices],GetSTILaunchInformation method, IStillImageW.GetSTILaunchInformation, IStillImageW::GetSTILaunchInformation, image.istillimage_getstilaunchinformation, sti/IStillImageW::GetSTILaunchInformation, stifnc_b73269ec-512a-4d07-a43a-8c72a28a751b.xml
 f1_keywords:
  - "sti/IStillImageW.GetSTILaunchInformation"
+ - "IStillImageW.GetSTILaunchInformation"
 req.header: sti.h
 req.include-header: Sti.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - sti.h
 api_name:
 - IStillImageW.GetSTILaunchInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

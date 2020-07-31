@@ -10,6 +10,7 @@ keywords: ["PcAddAdapterDevice function"]
 ms.keywords: PcAddAdapterDevice, PcAddAdapterDevice function [Audio Devices], audio.pcaddadapterdevice, audpc-routines_5b2b0ba0-67b7-4c8d-bd47-b7e664500637.xml, portcls/PcAddAdapterDevice
 f1_keywords:
  - "portcls/PcAddAdapterDevice"
+ - "PcAddAdapterDevice"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Portcls.dll
 api_name:
 - PcAddAdapterDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_DXGKARG_SETTRACKEDWORKLOADPOWERLEVEL structure"]
 f1_keywords:
  - "d3dkmddi/_DXGKARG_SETTRACKEDWORKLOADPOWERLEVEL"
+ - "_DXGKARG_SETTRACKEDWORKLOADPOWERLEVEL"
 ms.keywords: _DXGKARG_SETTRACKEDWORKLOADPOWERLEVEL, DXGKARG_SETTRACKEDWORKLOADPOWERLEVEL, *INOUT_PDXGKARG_SETTRACKEDWORKLOADPOWERLEVEL
 req.header: d3dkmddi.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - d3dkmddi.h
 api_name: 
 - _DXGKARG_SETTRACKEDWORKLOADPOWERLEVEL
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

@@ -10,6 +10,7 @@ keywords: ["RtlDrainNonVolatileFlush function"]
 ms.keywords: RtlDrainNonVolatileFlush, RtlDrainNonVolatileFlush routine [Installable File System Drivers], ifsk.rtldrainnonvolatileflush, ntddk/RtlDrainNonVolatileFlush
 f1_keywords:
  - "ntddk/RtlDrainNonVolatileFlush"
+ - "RtlDrainNonVolatileFlush"
 req.header: ntddk.h
 req.include-header: Winnt.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - RtlDrainNonVolatileFlush
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

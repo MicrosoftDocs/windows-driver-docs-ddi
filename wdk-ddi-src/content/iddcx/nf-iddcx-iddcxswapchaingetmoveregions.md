@@ -10,6 +10,7 @@ keywords: ["IddCxSwapChainGetMoveRegions function"]
 ms.keywords: IddCxSwapChainGetMoveRegions, IddCxSwapChainGetMoveRegions method [Display Devices], display.iddcxswapchaingetmoveregions, iddcx/IddCxSwapChainGetMoveRegions
 f1_keywords:
  - "iddcx/IddCxSwapChainGetMoveRegions"
+ - "IddCxSwapChainGetMoveRegions"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - IddCx.dll
 api_name:
 - IddCxSwapChainGetMoveRegions
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

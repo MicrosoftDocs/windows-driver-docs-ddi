@@ -10,6 +10,7 @@ keywords: ["RILSETSYSTEMSELECTIONPREFSFLAG enumeration"]
 ms.keywords: RILSETSYSTEMSELECTIONPREFSFLAG, RILSETSYSTEMSELECTIONPREFSFLAG enumeration [Network Drivers Starting with Windows Vista], RIL_SSSPFLAG_ALL, RIL_SSSPFLAG_APPLYIMMEDIATELY, RIL_SSSPFLAG_ENFORCESCAN, netvista.rilsetsystemselectionprefsflag, ntddrilapitypes/RILSETSYSTEMSELECTIONPREFSFLAG, ntddrilapitypes/RIL_SSSPFLAG_ALL, ntddrilapitypes/RIL_SSSPFLAG_APPLYIMMEDIATELY, ntddrilapitypes/RIL_SSSPFLAG_ENFORCESCAN
 f1_keywords:
  - "ntddrilapitypes/RILSETSYSTEMSELECTIONPREFSFLAG"
+ - "RILSETSYSTEMSELECTIONPREFSFLAG"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILSETSYSTEMSELECTIONPREFSFLAG
-product:
-- Windows
 targetos: Windows
 req.typenames: RILSETSYSTEMSELECTIONPREFSFLAG
 ---

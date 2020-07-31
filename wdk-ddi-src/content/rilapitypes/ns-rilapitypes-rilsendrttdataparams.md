@@ -10,6 +10,7 @@ keywords: ["RILSENDRTTDATAPARAMS structure"]
 ms.keywords: "*LPRILSENDRTTDATAPARAMS, RILSENDRTTDATAPARAMS, RILSENDRTTDATAPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsendrttdataparams, ntddrilapitypes/RILSENDRTTDATAPARAMS"
 f1_keywords:
  - "rilapitypes/RILSENDRTTDATAPARAMS"
+ - "RILSENDRTTDATAPARAMS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILSENDRTTDATAPARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILSENDRTTDATAPARAMS, *LPRILSENDRTTDATAPARAMS
 ---

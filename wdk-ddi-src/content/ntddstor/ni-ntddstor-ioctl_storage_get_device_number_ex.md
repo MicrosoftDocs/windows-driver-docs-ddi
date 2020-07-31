@@ -10,6 +10,7 @@ keywords: ["IOCTL_STORAGE_GET_DEVICE_NUMBER_EX IOCTL"]
 ms.keywords: IOCTL_STORAGE_GET_DEVICE_NUMBER_EX, IOCTL_STORAGE_GET_DEVICE_NUMBER_EX control, IOCTL_STORAGE_GET_DEVICE_NUMBER_EX control code [Storage Devices], ntddstor/IOCTL_STORAGE_GET_DEVICE_NUMBER_EX
 f1_keywords:
  - "ntddstor/IOCTL_STORAGE_GET_DEVICE_NUMBER_EX"
+ - "IOCTL_STORAGE_GET_DEVICE_NUMBER_EX"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddstor.h
 api_name:
 - IOCTL_STORAGE_GET_DEVICE_NUMBER_EX
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

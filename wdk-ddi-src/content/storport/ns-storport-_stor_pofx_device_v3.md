@@ -10,6 +10,7 @@ keywords: ["_STOR_POFX_DEVICE_V3 structure"]
 ms.keywords: "*PSTOR_POFX_DEVICE_V3, PSTOR_POFX_DEVICE_V3, PSTOR_POFX_DEVICE_V3 structure pointer [Storage Devices], STOR_POFX_DEVICE_FLAG_ADAPTIVE_D3_IDLE_TIMEOUT, STOR_POFX_DEVICE_FLAG_ENABLE_D3_COLD, STOR_POFX_DEVICE_FLAG_IDLE_TIMEOUT, STOR_POFX_DEVICE_FLAG_NO_D0, STOR_POFX_DEVICE_FLAG_NO_D3, STOR_POFX_DEVICE_FLAG_NO_DUMP_ACTIVE, STOR_POFX_DEVICE_FLAG_NO_UNIT_REGISTRATION, STOR_POFX_DEVICE_V3, STOR_POFX_DEVICE_V3 structure [Storage Devices], _STOR_POFX_DEVICE_V3, storage.stor_pofx_device_v3, storport/PSTOR_POFX_DEVICE_V3, storport/STOR_POFX_DEVICE_V2"
 f1_keywords:
  - "storport/STOR_POFX_DEVICE_V3"
+ - "STOR_POFX_DEVICE_V3"
 req.header: storport.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - storport.h
 api_name:
 - STOR_POFX_DEVICE_V3
-product:
-- Windows
 targetos: Windows
 req.typenames: STOR_POFX_DEVICE_V3, *PSTOR_POFX_DEVICE_V3
 ---

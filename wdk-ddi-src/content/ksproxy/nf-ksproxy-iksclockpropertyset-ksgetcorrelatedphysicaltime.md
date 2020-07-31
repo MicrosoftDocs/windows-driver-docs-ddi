@@ -10,6 +10,7 @@ keywords: ["IKsClockPropertySet::KsGetCorrelatedPhysicalTime"]
 ms.keywords: IKsClockPropertySet interface [Streaming Media Devices],KsGetCorrelatedPhysicalTime method, IKsClockPropertySet.KsGetCorrelatedPhysicalTime, IKsClockPropertySet::KsGetCorrelatedPhysicalTime, KsGetCorrelatedPhysicalTime, KsGetCorrelatedPhysicalTime method [Streaming Media Devices], KsGetCorrelatedPhysicalTime method [Streaming Media Devices],IKsClockPropertySet interface, ksproxy/IKsClockPropertySet::KsGetCorrelatedPhysicalTime, ksproxy_bab50759-78be-43b2-8346-2e1c88529899.xml, stream.iksclockpropertyset_ksgetcorrelatedphysicaltime
 f1_keywords:
  - "ksproxy/IKsClockPropertySet.KsGetCorrelatedPhysicalTime"
+ - "IKsClockPropertySet.KsGetCorrelatedPhysicalTime"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ksproxy.h
 api_name:
 - IKsClockPropertySet.KsGetCorrelatedPhysicalTime
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

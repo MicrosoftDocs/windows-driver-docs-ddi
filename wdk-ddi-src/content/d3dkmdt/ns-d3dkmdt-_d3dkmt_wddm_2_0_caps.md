@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_WDDM_2_0_CAPS structure"]
 f1_keywords:
  - "d3dkmdt/_D3DKMT_WDDM_2_0_CAPS"
+ - "_D3DKMT_WDDM_2_0_CAPS"
 ms.keywords: _D3DKMT_WDDM_2_0_CAPS, D3DKMT_WDDM_2_0_CAPS,
 req.header: d3dkmdt.h
 req.include-header:

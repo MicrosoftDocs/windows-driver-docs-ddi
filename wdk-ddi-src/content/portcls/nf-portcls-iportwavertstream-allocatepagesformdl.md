@@ -10,6 +10,7 @@ keywords: ["IPortWaveRTStream::AllocatePagesForMdl"]
 ms.keywords: AllocatePagesForMdl, AllocatePagesForMdl method [Audio Devices], AllocatePagesForMdl method [Audio Devices],IPortWaveRTStream interface, IPortWaveRTStream interface [Audio Devices],AllocatePagesForMdl method, IPortWaveRTStream.AllocatePagesForMdl, IPortWaveRTStream::AllocatePagesForMdl, audio.iportwavertstream_allocatepagesformdl, audmp-routines_2722e5c2-7fd2-4b72-acbf-474313bca229.xml, portcls/IPortWaveRTStream::AllocatePagesForMdl
 f1_keywords:
  - "portcls/IPortWaveRTStream.AllocatePagesForMdl"
+ - "IPortWaveRTStream.AllocatePagesForMdl"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Portcls.h
 api_name:
 - IPortWaveRTStream.AllocatePagesForMdl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

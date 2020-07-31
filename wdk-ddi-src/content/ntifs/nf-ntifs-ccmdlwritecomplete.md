@@ -10,6 +10,7 @@ keywords: ["CcMdlWriteComplete function"]
 ms.keywords: CcMdlWriteComplete, CcMdlWriteComplete routine [Installable File System Drivers], ccref_fe5a4900-c0bc-4100-b3e9-e2b7d780a9d2.xml, ifsk.ccmdlwritecomplete, ntifs/CcMdlWriteComplete
 f1_keywords:
  - "ntifs/CcMdlWriteComplete"
+ - "CcMdlWriteComplete"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - CcMdlWriteComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

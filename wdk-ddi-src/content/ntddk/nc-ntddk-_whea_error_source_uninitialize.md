@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["_WHEA_ERROR_SOURCE_UNINITIALIZE callback function"]
 f1_keywords:
  - "ntddk/_WHEA_ERROR_SOURCE_UNINITIALIZE"
+ - "_WHEA_ERROR_SOURCE_UNINITIALIZE"
 req.header: ntddk.h
 req.include-header:
 req.target-type:

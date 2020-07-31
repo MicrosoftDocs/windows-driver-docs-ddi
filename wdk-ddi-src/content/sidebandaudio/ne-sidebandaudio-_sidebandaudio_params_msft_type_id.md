@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_SIDEBANDAUDIO_PARAMS_MSFT_TYPE_ID enumeration"]
 f1_keywords:
  - "sidebandaudio/_SIDEBANDAUDIO_PARAMS_MSFT_TYPE_ID"
+ - "_SIDEBANDAUDIO_PARAMS_MSFT_TYPE_ID"
 ms.keywords: _SIDEBANDAUDIO_PARAMS_MSFT_TYPE_ID, SIDEBANDAUDIO_PARAMS_MSFT_TYPE_ID, 
 req.header: sidebandaudio.h
 req.include-header:
@@ -26,8 +27,6 @@ api_location:
 - sidebandaudio.h
 api_name: 
 - _SIDEBANDAUDIO_PARAMS_MSFT_TYPE_ID
-product:
-- Windows
 targetos: Windows
 tech.root: audio
 ms.custom: RS5

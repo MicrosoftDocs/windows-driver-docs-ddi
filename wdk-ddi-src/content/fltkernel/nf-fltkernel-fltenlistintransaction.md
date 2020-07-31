@@ -10,6 +10,7 @@ keywords: ["FltEnlistInTransaction function"]
 ms.keywords: FltApiRef_e_to_o_85856df2-46c0-457b-bc10-2e6a8d32f5bb.xml, FltEnlistInTransaction, FltEnlistInTransaction routine [Installable File System Drivers], fltkernel/FltEnlistInTransaction, ifsk.fltenlistintransaction
 f1_keywords:
  - "fltkernel/FltEnlistInTransaction"
+ - "FltEnlistInTransaction"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - FltMgr.sys
 api_name:
 - FltEnlistInTransaction
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -9,6 +9,7 @@ keywords: ["D3DKMTSharedPrimaryLockNotification function"]
 ms.keywords: D3DKMTSharedPrimaryLockNotification, D3DKMTSharedPrimaryLockNotification function [Display Devices], OpenGL_Functions_a6696797-0a53-4687-8a70-4878b550fa03.xml, d3dkmthk/D3DKMTSharedPrimaryLockNotification, display.d3dkmtsharedprimarylocknotification
 f1_keywords:
  - "d3dkmthk/D3DKMTSharedPrimaryLockNotification"
+ - "D3DKMTSharedPrimaryLockNotification"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -38,8 +39,6 @@ api_location:
 - API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 - D3DKMTSharedPrimaryLockNotification
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

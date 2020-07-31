@@ -29,6 +29,7 @@ tech.root: display
 req.typenames: 
 f1_keywords:
  - "d3dkmthk/D3DKMTCloseAdapter"
+ - "D3DKMTCloseAdapter"
 topic_type:
  - APIRef
  - kbSyntax

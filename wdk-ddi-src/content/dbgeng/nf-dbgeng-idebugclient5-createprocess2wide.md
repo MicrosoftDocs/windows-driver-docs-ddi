@@ -10,6 +10,7 @@ keywords: ["IDebugClient5::CreateProcess2Wide"]
 ms.keywords: CreateProcess2Wide, CreateProcess2Wide method [Windows Debugging], CreateProcess2Wide method [Windows Debugging],IDebugClient5 interface, IDebugClient5 interface [Windows Debugging],CreateProcess2Wide method, IDebugClient5.CreateProcess2Wide, IDebugClient5::CreateProcess2Wide, dbgeng/IDebugClient5::CreateProcess2Wide, debugger.createprocess2wide
 f1_keywords:
  - "dbgeng/IDebugClient5.CreateProcess2Wide"
+ - "IDebugClient5.CreateProcess2Wide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugClient5.CreateProcess2Wide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

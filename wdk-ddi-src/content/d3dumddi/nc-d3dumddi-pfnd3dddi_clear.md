@@ -10,6 +10,7 @@ keywords: ["PFND3DDDI_CLEAR callback function"]
 ms.keywords: Clear, Clear callback function [Display Devices], PFND3DDDI_CLEAR, PFND3DDDI_CLEAR callback, UserModeDisplayDriver_Functions_fc47f935-b69f-4e51-be36-73f0b89f44cf.xml, d3dumddi/Clear, display.clear
 f1_keywords:
  - "d3dumddi/Clear"
+ - "Clear"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - Clear
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

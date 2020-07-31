@@ -10,6 +10,7 @@ keywords: ["_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS structure"]
 ms.keywords: "*PWWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS, PWWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS, PWWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS structure pointer [Network Drivers Starting with Windows Vista], WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS, WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS structure [Network Drivers Starting with Windows Vista], _WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS, netvista.wwan_device_service_supported_commands, wwan/PWWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS, wwan/WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS"
 f1_keywords:
  - "wwan/WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS"
+ - "WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS, *PWWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS
 ---

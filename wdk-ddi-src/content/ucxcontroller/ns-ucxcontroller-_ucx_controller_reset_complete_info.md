@@ -10,6 +10,7 @@ keywords: ["_UCX_CONTROLLER_RESET_COMPLETE_INFO structure"]
 ms.keywords: "*PUCX_CONTROLLER_RESET_COMPLETE_INFO, P_UCX_CONTROLLER_RESET_COMPLETE_INFO, P_UCX_CONTROLLER_RESET_COMPLETE_INFO structure pointer [Buses], UCX_CONTROLLER_RESET_COMPLETE_INFO, UCX_CONTROLLER_RESET_COMPLETE_INFO structure [Buses], _UCX_CONTROLLER_RESET_COMPLETE_INFO, buses._ucx_controller_reset_complete_info, ucxcontroller/P_UCX_CONTROLLER_RESET_COMPLETE_INFO, ucxcontroller/_UCX_CONTROLLER_RESET_COMPLETE_INFO"
 f1_keywords:
  - "ucxcontroller/UCX_CONTROLLER_RESET_COMPLETE_INFO"
+ - "UCX_CONTROLLER_RESET_COMPLETE_INFO"
 req.header: ucxcontroller.h
 req.include-header: Ucxclass.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ucxcontroller.h
 api_name:
 - UCX_CONTROLLER_RESET_COMPLETE_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: UCX_CONTROLLER_RESET_COMPLETE_INFO, *PUCX_CONTROLLER_RESET_COMPLETE_INFO
 ---

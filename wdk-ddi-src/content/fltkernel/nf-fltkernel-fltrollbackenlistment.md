@@ -10,6 +10,7 @@ keywords: ["FltRollbackEnlistment function"]
 ms.keywords: FltApiRef_p_to_z_f59e0c07-d415-440b-aec8-89c330679e0d.xml, FltRollbackEnlistment, FltRollbackEnlistment routine [Installable File System Drivers], fltkernel/FltRollbackEnlistment, ifsk.fltrollbackenlistment
 f1_keywords:
  - "fltkernel/FltRollbackEnlistment"
+ - "FltRollbackEnlistment"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltRollbackEnlistment
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

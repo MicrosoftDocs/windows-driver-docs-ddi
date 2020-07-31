@@ -10,6 +10,7 @@ keywords: ["IPrinterScriptablePropertyBag::GetWriteStream"]
 ms.keywords: GetWriteStream, GetWriteStream method [Print Devices], GetWriteStream method [Print Devices],IPrinterScriptablePropertyBag interface, IPrinterScriptablePropertyBag interface [Print Devices],GetWriteStream method, IPrinterScriptablePropertyBag.GetWriteStream, IPrinterScriptablePropertyBag::GetWriteStream, print.iprinterscriptablepropertybag_getwritestream, printerextension/IPrinterScriptablePropertyBag::GetWriteStream
 f1_keywords:
  - "printerextension/IPrinterScriptablePropertyBag.GetWriteStream"
+ - "IPrinterScriptablePropertyBag.GetWriteStream"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Printerextension.h
 api_name:
 - IPrinterScriptablePropertyBag.GetWriteStream
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

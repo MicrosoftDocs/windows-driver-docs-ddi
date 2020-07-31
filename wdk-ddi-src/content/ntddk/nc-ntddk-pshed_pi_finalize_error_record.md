@@ -10,6 +10,7 @@ keywords: ["PSHED_PI_FINALIZE_ERROR_RECORD callback function"]
 ms.keywords: FinalizeErrorRecord, FinalizeErrorRecord callback function [WHEA Drivers and Applications], PSHED_PI_FINALIZE_ERROR_RECORD, PSHED_PI_FINALIZE_ERROR_RECORD callback, ntddk/FinalizeErrorRecord, whea.finalizeerrorrecord, whearef_fac1a23e-6b56-4b04-8930-e5f12f5c84a8.xml
 f1_keywords:
  - "ntddk/FinalizeErrorRecord"
+ - "FinalizeErrorRecord"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Ntddk.h
 api_name:
 - FinalizeErrorRecord
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -9,6 +9,7 @@ keywords: ["PFND3DKMT_SETVIDPNSOURCEOWNER1 callback function"]
 ms.keywords: D3DKMTSetVidPnSourceOwner1, D3DKMTSetVidPnSourceOwner1 callback function [Display Devices], PFND3DKMT_SETVIDPNSOURCEOWNER1, PFND3DKMT_SETVIDPNSOURCEOWNER1 callback, d3dkmthk/D3DKMTSetVidPnSourceOwner1, display.d3dkmtsetvidpnsourceowner1
 f1_keywords:
  - "d3dkmthk/D3DKMTSetVidPnSourceOwner1"
+ - "D3DKMTSetVidPnSourceOwner1"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -35,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMTSetVidPnSourceOwner1
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

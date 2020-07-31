@@ -10,6 +10,7 @@ keywords: ["NtSetQuotaInformationFile function"]
 ms.keywords: NtSetQuotaInformationFile, ZwSetQuotaInformationFile, ZwSetQuotaInformationFile routine [Kernel-Mode Driver Architecture], k111_87b6e79e-ecd9-47ff-8f0c-7502fc82b8af.xml, kernel.zwsetquotainformationfile, ntifs/NtSetQuotaInformationFile, ntifs/ZwSetQuotaInformationFile
 f1_keywords:
  - "ntifs/ZwSetQuotaInformationFile"
+ - "ZwSetQuotaInformationFile"
 req.header: ntifs.h
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - ZwSetQuotaInformationFile
 - NtSetQuotaInformationFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["NdisCompleteUnbindAdapterEx function"]
 ms.keywords: NdisCompleteUnbindAdapterEx, NdisCompleteUnbindAdapterEx function [Network Drivers Starting with Windows Vista], ndis/NdisCompleteUnbindAdapterEx, netvista.ndiscompleteunbindadapterex, protocol_ndis_functions_ref_3d1252b7-d653-4bd6-a105-b998ffed694c.xml
 f1_keywords:
  - "ndis/NdisCompleteUnbindAdapterEx"
+ - "NdisCompleteUnbindAdapterEx"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisCompleteUnbindAdapterEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

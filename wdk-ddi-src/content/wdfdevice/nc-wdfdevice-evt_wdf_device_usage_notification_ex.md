@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_DEVICE_USAGE_NOTIFICATION_EX callback function"]
 ms.keywords: EVT_WDF_DEVICE_USAGE_NOTIFICATION_EX, EVT_WDF_DEVICE_USAGE_NOTIFICATION_EX callback, EvtDeviceUsageNotificationEx, EvtDeviceUsageNotificationEx callback function, kmdf.evtdeviceusagenotificationex, wdf.evtdeviceusagenotificationex, wdfdevice/EvtDeviceUsageNotificationEx
 f1_keywords:
  - "wdfdevice/EvtDeviceUsageNotificationEx"
+ - "EvtDeviceUsageNotificationEx"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Wdfdevice.h
 api_name:
 - EvtDeviceUsageNotificationEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

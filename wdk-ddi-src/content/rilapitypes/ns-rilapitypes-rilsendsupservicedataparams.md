@@ -10,6 +10,7 @@ keywords: ["RILSENDSUPSERVICEDATAPARAMS structure"]
 ms.keywords: "*LPRILSENDSUPSERVICEDATAPARAMS, RILSENDSUPSERVICEDATAPARAMS, RILSENDSUPSERVICEDATAPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsendsupservicedataparams, ntddrilapitypes/RILSENDSUPSERVICEDATAPARAMS"
 f1_keywords:
  - "rilapitypes/RILSENDSUPSERVICEDATAPARAMS"
+ - "RILSENDSUPSERVICEDATAPARAMS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILSENDSUPSERVICEDATAPARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILSENDSUPSERVICEDATAPARAMS, *LPRILSENDSUPSERVICEDATAPARAMS
 ---

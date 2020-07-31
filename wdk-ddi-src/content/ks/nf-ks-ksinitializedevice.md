@@ -10,6 +10,7 @@ keywords: ["KsInitializeDevice function"]
 ms.keywords: KsInitializeDevice, KsInitializeDevice function [Streaming Media Devices], avfunc_dfdb87f8-ade9-4ba6-87a3-440e9abb80b4.xml, ks/KsInitializeDevice, stream.ksinitializedevice
 f1_keywords:
  - "ks/KsInitializeDevice"
+ - "KsInitializeDevice"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsInitializeDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

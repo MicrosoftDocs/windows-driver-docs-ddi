@@ -9,6 +9,7 @@ keywords: ["PFND3D10DDI_RESOURCEREADAFTERWRITEHAZARD callback function"]
 ms.keywords: PFND3D10DDI_RESOURCEREADAFTERWRITEHAZARD, PFND3D10DDI_RESOURCEREADAFTERWRITEHAZARD callback, ResourceReadAfterWriteHazard, ResourceReadAfterWriteHazard callback function [Display Devices], UserModeDisplayDriverDx10_Functions_6a240dd4-86e0-4876-b4c3-8dd2d3f086e8.xml, d3d10umddi/ResourceReadAfterWriteHazard, display.resourcereadafterwritehazard
 f1_keywords:
  - "d3d10umddi/ResourceReadAfterWriteHazard"
+ - "ResourceReadAfterWriteHazard"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - ResourceReadAfterWriteHazard
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

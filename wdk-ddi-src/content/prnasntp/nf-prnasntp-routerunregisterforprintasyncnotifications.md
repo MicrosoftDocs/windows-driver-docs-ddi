@@ -10,6 +10,7 @@ keywords: ["RouterUnregisterForPrintAsyncNotifications function"]
 ms.keywords: RouterUnregisterForPrintAsyncNotifications, RouterUnregisterForPrintAsyncNotifications function [Print Devices], print.routerunregisterforprintasyncnotifications, prnasntp/RouterUnregisterForPrintAsyncNotifications, spoolfnc_3c629be8-f1d8-43fb-b225-582e4bb76c51.xml
 f1_keywords:
  - "prnasntp/RouterUnregisterForPrintAsyncNotifications"
+ - "RouterUnregisterForPrintAsyncNotifications"
 req.header: prnasntp.h
 req.include-header: Prnasntp.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Spoolss.dll
 api_name:
 - RouterUnregisterForPrintAsyncNotifications
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

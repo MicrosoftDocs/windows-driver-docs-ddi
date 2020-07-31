@@ -10,6 +10,7 @@ keywords: ["RtlCmDecodeMemIoResource function"]
 ms.keywords: RtlCmDecodeMemIoResource, RtlCmDecodeMemIoResource routine [Kernel-Mode Driver Architecture], k109_da737a74-2fce-4731-b24d-9014272991f1.xml, kernel.rtlcmdecodememioresource, wdm/RtlCmDecodeMemIoResource
 f1_keywords:
  - "wdm/RtlCmDecodeMemIoResource"
+ - "RtlCmDecodeMemIoResource"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlCmDecodeMemIoResource
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["IDARG_OUT_MONITORGETPHYSICALSIZE structure"]
 f1_keywords:
  - "iddcx/IDARG_OUT_MONITORGETPHYSICALSIZE"
+ - "IDARG_OUT_MONITORGETPHYSICALSIZE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: IDARG_OUT_MONITORGETPHYSICALSIZE, , 

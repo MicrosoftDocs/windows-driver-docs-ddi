@@ -9,6 +9,7 @@ keywords: ["_DXGK_QUERYPAGETABLELEVELDESCIN structure"]
 ms.keywords: DXGK_QUERYPAGETABLELEVELDESCIN, DXGK_QUERYPAGETABLELEVELDESCIN structure [Display Devices], _DXGK_QUERYPAGETABLELEVELDESCIN, d3dkmddi/DXGK_QUERYPAGETABLELEVELDESCIN, display.dxgk_querypagetableleveldescin
 f1_keywords:
  - "d3dkmddi/DXGK_QUERYPAGETABLELEVELDESCIN"
+ - "DXGK_QUERYPAGETABLELEVELDESCIN"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGK_QUERYPAGETABLELEVELDESCIN
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_QUERYPAGETABLELEVELDESCIN

@@ -10,6 +10,7 @@ keywords: ["_WDI_CIPHER_ALGORITHM enumeration"]
 ms.keywords: WDI_CIPHER_ALGORITHM, WDI_CIPHER_ALGORITHM enumeration [Device and Driver Installation], WDI_CIPHER_ALGO_BIP, WDI_CIPHER_ALGO_CCMP, WDI_CIPHER_ALGO_GCMP, WDI_CIPHER_ALGO_IHV_END, WDI_CIPHER_ALGO_IHV_START, WDI_CIPHER_ALGO_NONE, WDI_CIPHER_ALGO_RSN_USE_GROUP, WDI_CIPHER_ALGO_TKIP, WDI_CIPHER_ALGO_WEP, WDI_CIPHER_ALGO_WEP104, WDI_CIPHER_ALGO_WEP40, WDI_CIPHER_ALGO_WPA_USE_GROUP, _WDI_CIPHER_ALGORITHM, netvista.wdi_cipher_algorithm, netvista.wifi_cipher_algorithm, wditypes/WDI_CIPHER_ALGORITHM, wditypes/WDI_CIPHER_ALGO_BIP, wditypes/WDI_CIPHER_ALGO_CCMP, wditypes/WDI_CIPHER_ALGO_GCMP, wditypes/WDI_CIPHER_ALGO_IHV_END, wditypes/WDI_CIPHER_ALGO_IHV_START, wditypes/WDI_CIPHER_ALGO_NONE, wditypes/WDI_CIPHER_ALGO_RSN_USE_GROUP, wditypes/WDI_CIPHER_ALGO_TKIP, wditypes/WDI_CIPHER_ALGO_WEP, wditypes/WDI_CIPHER_ALGO_WEP104, wditypes/WDI_CIPHER_ALGO_WEP40, wditypes/WDI_CIPHER_ALGO_WPA_USE_GROUP
 f1_keywords:
  - "wditypes/WDI_CIPHER_ALGORITHM"
+ - "WDI_CIPHER_ALGORITHM"
 req.header: wditypes.hpp
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wditypes.hpp
 api_name:
 - WDI_CIPHER_ALGORITHM
-product:
-- Windows
 targetos: Windows
 req.typenames: WDI_CIPHER_ALGORITHM
 ---

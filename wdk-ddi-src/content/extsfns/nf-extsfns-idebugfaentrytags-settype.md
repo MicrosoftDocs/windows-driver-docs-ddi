@@ -10,6 +10,7 @@ keywords: ["IDebugFAEntryTags::SetType"]
 ms.keywords: IDebugFAEntryTags interface [Windows Debugging],SetType method, IDebugFAEntryTags.SetType, IDebugFAEntryTags::SetType, SetType, SetType method [Windows Debugging], SetType method [Windows Debugging],IDebugFAEntryTags interface, debugger.idebugfaentrytags_settype, extsfns/IDebugFAEntryTags::SetType
 f1_keywords:
  - "extsfns/IDebugFAEntryTags.SetType"
+ - "IDebugFAEntryTags.SetType"
 req.header: extsfns.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - extsfns.h
 api_name:
 - IDebugFAEntryTags.SetType
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

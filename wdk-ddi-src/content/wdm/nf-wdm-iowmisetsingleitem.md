@@ -10,6 +10,7 @@ keywords: ["IoWMISetSingleItem function"]
 ms.keywords: IoWMISetSingleItem, IoWMISetSingleItem routine [Kernel-Mode Driver Architecture], k104_cc50cf7d-a35a-42d6-86e2-4fb6a6183323.xml, kernel.iowmisetsingleitem, wdm/IoWMISetSingleItem
 f1_keywords:
  - "wdm/IoWMISetSingleItem"
+ - "IoWMISetSingleItem"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoWMISetSingleItem
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

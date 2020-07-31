@@ -10,6 +10,7 @@ keywords: ["IDebugDataSpaces3::ReadIo"]
 ms.keywords: IDebugDataSpaces interface [Windows Debugging],ReadIo method, IDebugDataSpaces2 interface [Windows Debugging],ReadIo method, IDebugDataSpaces2::ReadIo, IDebugDataSpaces3 interface [Windows Debugging],ReadIo method, IDebugDataSpaces3.ReadIo, IDebugDataSpaces3::ReadIo, IDebugDataSpaces4 interface [Windows Debugging],ReadIo method, IDebugDataSpaces4::ReadIo, IDebugDataSpaces::ReadIo, IDebugDataSpaces_a6189a47-dc48-44cf-aadd-61769085ebc5.xml, ReadIo, ReadIo method [Windows Debugging], ReadIo method [Windows Debugging],IDebugDataSpaces interface, ReadIo method [Windows Debugging],IDebugDataSpaces2 interface, ReadIo method [Windows Debugging],IDebugDataSpaces3 interface, ReadIo method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces2::ReadIo, dbgeng/IDebugDataSpaces3::ReadIo, dbgeng/IDebugDataSpaces4::ReadIo, dbgeng/IDebugDataSpaces::ReadIo, debugger.readio
 f1_keywords:
  - "dbgeng/IDebugDataSpaces.ReadIo"
+ - "IDebugDataSpaces.ReadIo"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -39,8 +40,6 @@ api_name:
 - IDebugDataSpaces2.ReadIo
 - IDebugDataSpaces3.ReadIo
 - IDebugDataSpaces4.ReadIo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

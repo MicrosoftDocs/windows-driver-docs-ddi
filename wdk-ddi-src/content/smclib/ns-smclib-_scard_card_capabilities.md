@@ -10,6 +10,7 @@ keywords: ["_SCARD_CARD_CAPABILITIES structure"]
 ms.keywords: "*PSCARD_CARD_CAPABILITIES, PSCARD_CARD_CAPABILITIES, PSCARD_CARD_CAPABILITIES structure pointer [Smart Card Reader Devices], SCARD_CARD_CAPABILITIES, SCARD_CARD_CAPABILITIES structure [Smart Card Reader Devices], _SCARD_CARD_CAPABILITIES, scstruct_b60c574d-a6db-4d15-a974-dc15ba375b5b.xml, smartcrd.scard_card_capabilities, smclib/PSCARD_CARD_CAPABILITIES, smclib/SCARD_CARD_CAPABILITIES"
 f1_keywords:
  - "smclib/SCARD_CARD_CAPABILITIES"
+ - "SCARD_CARD_CAPABILITIES"
 req.header: smclib.h
 req.include-header: Smclib.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - smclib.h
 api_name:
 - SCARD_CARD_CAPABILITIES
-product:
-- Windows
 targetos: Windows
 req.typenames: SCARD_CARD_CAPABILITIES, *PSCARD_CARD_CAPABILITIES
 ---

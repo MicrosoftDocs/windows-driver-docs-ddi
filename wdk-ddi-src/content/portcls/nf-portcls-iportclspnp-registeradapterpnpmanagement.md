@@ -10,6 +10,7 @@ keywords: ["IPortClsPnp::RegisterAdapterPnpManagement"]
 ms.keywords: IPortClsPnp interface [Audio Devices],RegisterAdapterPnpManagement method, IPortClsPnp.RegisterAdapterPnpManagement, IPortClsPnp::RegisterAdapterPnpManagement, RegisterAdapterPnpManagement, RegisterAdapterPnpManagement method [Audio Devices], RegisterAdapterPnpManagement method [Audio Devices],IPortClsPnp interface, audio.iportclspnp_registeradapterpnpmanagement, portcls/IPortClsPnp::RegisterAdapterPnpManagement
 f1_keywords:
  - "portcls/IPortClsPnp.RegisterAdapterPnpManagement"
+ - "IPortClsPnp.RegisterAdapterPnpManagement"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IPortClsPnp.RegisterAdapterPnpManagement
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

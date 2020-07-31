@@ -10,6 +10,7 @@ keywords: ["_SRIOV_DEVICE_INTERFACE_STANDARD_2 structure"]
 ms.keywords: "*PSRIOV_DEVICE_INTERFACE_STANDARD_2, PCI.sriov_device_interface_standard_2, SRIOV_DEVICE_INTERFACE_STANDARD_2, SRIOV_DEVICE_INTERFACE_STANDARD_2 structure [Buses], _SRIOV_DEVICE_INTERFACE_STANDARD_2, pcivirt/SRIOV_DEVICE_INTERFACE_STANDARD_2"
 f1_keywords:
  - "pcivirt/SRIOV_DEVICE_INTERFACE_STANDARD_2"
+ - "SRIOV_DEVICE_INTERFACE_STANDARD_2"
 req.header: pcivirt.h
 req.include-header:
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Pcivirt.h
 api_name:
 - SRIOV_DEVICE_INTERFACE_STANDARD_2
-product:
-- Windows
 targetos: Windows
 req.typenames: SRIOV_DEVICE_INTERFACE_STANDARD_2, *PSRIOV_DEVICE_INTERFACE_STANDARD_2
 ---

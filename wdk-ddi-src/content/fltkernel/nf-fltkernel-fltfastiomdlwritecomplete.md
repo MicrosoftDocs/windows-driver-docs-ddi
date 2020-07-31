@@ -10,6 +10,7 @@ keywords: ["FltFastIoMdlWriteComplete function"]
 ms.keywords: FltFastIoMdlWriteComplete, FsRtlMdlWriteCompleteDev, FsRtlMdlWriteCompleteDev routine [Installable File System Drivers], fltkernel/FsRtlMdlWriteCompleteDev, ifsk.fltfastiomdlwritecomplete
 f1_keywords:
  - "fltkernel/FsRtlMdlWriteCompleteDev"
+ - "FsRtlMdlWriteCompleteDev"
 req.header: fltkernel.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlMdlWriteCompleteDev
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

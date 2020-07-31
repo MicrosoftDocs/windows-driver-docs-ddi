@@ -10,6 +10,7 @@ keywords: ["GET_D3COLD_LAST_TRANSITION_STATUS callback function"]
 ms.keywords: GET_D3COLD_LAST_TRANSITION_STATUS, GetLastTransitionStatus, GetLastTransitionStatus routine [Kernel-Mode Driver Architecture], kernel.getlasttransitionstatus, wdm/GetLastTransitionStatus
 f1_keywords:
  - "wdm/GetLastTransitionStatus"
+ - "GetLastTransitionStatus"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - GetLastTransitionStatus
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

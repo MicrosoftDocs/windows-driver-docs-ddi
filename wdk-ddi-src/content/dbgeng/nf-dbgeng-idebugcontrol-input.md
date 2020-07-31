@@ -10,6 +10,7 @@ keywords: ["IDebugControl::Input"]
 ms.keywords: IDebugControl interface [Windows Debugging],Input method, IDebugControl.Input, IDebugControl::Input, IDebugControl_10615761-d032-439f-955b-220def3835a9.xml, Input, Input method [Windows Debugging], Input method [Windows Debugging],IDebugControl interface, dbgeng/IDebugControl::Input, debugger.input
 f1_keywords:
  - "dbgeng/IDebugControl.Input"
+ - "IDebugControl.Input"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Dbgeng.h
 api_name:
 - IDebugControl.Input
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

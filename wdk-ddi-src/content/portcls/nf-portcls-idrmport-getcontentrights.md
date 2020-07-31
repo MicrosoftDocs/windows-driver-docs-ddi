@@ -8,6 +8,7 @@ ms.date: 02/20/2019
 keywords: ["IDrmPort::GetContentRights"]
 f1_keywords:
  - "portcls/IDrmPort.GetContentRights"
+ - "IDrmPort.GetContentRights"
 ms.keywords: IDrmPort::GetContentRights, GetContentRights, IDrmPort.GetContentRights, IDrmPort::GetContentRights, IDrmPort.GetContentRights
 req.header: portcls.h
 req.include-header:

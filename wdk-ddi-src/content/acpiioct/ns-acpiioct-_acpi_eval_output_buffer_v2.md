@@ -10,6 +10,7 @@ keywords: ["_ACPI_EVAL_OUTPUT_BUFFER_V2 structure"]
 ms.keywords: "*PACPI_EVAL_OUTPUT_BUFFER_V2, ACPI_EVAL_OUTPUT_BUFFER_V2, ACPI_EVAL_OUTPUT_BUFFER_V2 structure [ACPI Devices], _ACPI_EVAL_OUTPUT_BUFFER_V2, acpi.acpi_eval_output_buffer_v2, acpiioct/ACPI_EVAL_OUTPUT_BUFFER_V2"
 f1_keywords:
  - "acpiioct/ACPI_EVAL_OUTPUT_BUFFER_V2"
+ - "ACPI_EVAL_OUTPUT_BUFFER_V2"
 req.header: acpiioct.h
 req.include-header: Acpiioct.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Acpiioct.h
 api_name:
 - ACPI_EVAL_OUTPUT_BUFFER_V2
-product:
-- Windows
 targetos: Windows
 req.typenames: ACPI_EVAL_OUTPUT_BUFFER_V2
 ---

@@ -10,6 +10,7 @@ keywords: ["TmCreateEnlistment function"]
 ms.keywords: TmCreateEnlistment, TmCreateEnlistment routine [Kernel-Mode Driver Architecture], kernel.tmcreateenlistment, ktm_ref_79bc27ad-3c37-4396-9c9d-5bc429299db4.xml, wdm/TmCreateEnlistment
 f1_keywords:
  - "wdm/TmCreateEnlistment"
+ - "TmCreateEnlistment"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -38,8 +39,6 @@ api_location:
 - tm.sys
 api_name:
 - TmCreateEnlistment
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

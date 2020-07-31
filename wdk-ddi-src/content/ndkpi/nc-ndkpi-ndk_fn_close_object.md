@@ -10,6 +10,7 @@ keywords: ["NDK_FN_CLOSE_OBJECT callback function"]
 ms.keywords: NDK_FN_CLOSE_OBJECT, NDK_FN_CLOSE_OBJECT callback, NdkCloseObject, NdkCloseObject callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCloseObject, netvista.ndk_fn_close_object
 f1_keywords:
  - "ndkpi/NdkCloseObject"
+ - "NdkCloseObject"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ndkpi.h
 api_name:
 - NdkCloseObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

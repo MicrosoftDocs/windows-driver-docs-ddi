@@ -10,6 +10,7 @@ keywords: ["IStiUSD::GetLastError"]
 ms.keywords: GetLastError, GetLastError method [Imaging Devices], GetLastError method [Imaging Devices],IStiUSD interface, IStiUSD interface [Imaging Devices],GetLastError method, IStiUSD.GetLastError, IStiUSD::GetLastError, image.istiusd_getlasterror, stifnc_fad89b49-ff86-4a75-bae4-0aae22d9f5d6.xml, stiusd/IStiUSD::GetLastError
 f1_keywords:
  - "stiusd/IStiUSD.GetLastError"
+ - "IStiUSD.GetLastError"
 req.header: stiusd.h
 req.include-header: Stiusd.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - stiusd.h
 api_name:
 - IStiUSD.GetLastError
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

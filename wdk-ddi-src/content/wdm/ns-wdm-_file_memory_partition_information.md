@@ -10,6 +10,7 @@ keywords: ["_FILE_MEMORY_PARTITION_INFORMATION structure"]
 ms.keywords: "*PFILE_MEMORY_PARTITION_INFORMATION, FILE_MEMORY_PARTITION_INFORMATION, FILE_MEMORY_PARTITION_INFORMATION structure [Kernel-Mode Driver Architecture], _FILE_MEMORY_PARTITION_INFORMATION, ifsk._file_memory_partition_information, wdm/FILE_MEMORY_PARTITION_INFORMATION"
 f1_keywords:
  - "wdm/FILE_MEMORY_PARTITION_INFORMATION"
+ - "FILE_MEMORY_PARTITION_INFORMATION"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - FILE_MEMORY_PARTITION_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: FILE_MEMORY_PARTITION_INFORMATION, *PFILE_MEMORY_PARTITION_INFORMATION
 ---

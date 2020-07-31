@@ -7,6 +7,7 @@ ms.date: 07/20/2018
 keywords: ["IDataModelManager::CreateMetadataStore"]
 f1_keywords:
  - "dbgmodel/IDataModelManager.CreateMetadataStore"
+ - "IDataModelManager.CreateMetadataStore"
 ms.keywords: IDataModelManager::CreateMetadataStore, CreateMetadataStore, IDataModelManager.CreateMetadataStore, IDataModelManager::CreateMetadataStore, IDataModelManager.CreateMetadataStore
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDataModelManager.CreateMetadataStore
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

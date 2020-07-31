@@ -9,6 +9,7 @@ keywords: ["PFND3D10DDI_CALCPRIVATESHADERRESOURCEVIEWSIZE callback function"]
 ms.keywords: CalcPrivateShaderResourceViewSize, CalcPrivateShaderResourceViewSize callback function [Display Devices], PFND3D10DDI_CALCPRIVATESHADERRESOURCEVIEWSIZE, PFND3D10DDI_CALCPRIVATESHADERRESOURCEVIEWSIZE callback, UserModeDisplayDriverDx10_Functions_57360213-38f5-45aa-aadb-0bcdb674aec1.xml, d3d10umddi/CalcPrivateShaderResourceViewSize, display.calcprivateshaderresourceviewsize
 f1_keywords:
  - "d3d10umddi/CalcPrivateShaderResourceViewSize"
+ - "CalcPrivateShaderResourceViewSize"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - CalcPrivateShaderResourceViewSize
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

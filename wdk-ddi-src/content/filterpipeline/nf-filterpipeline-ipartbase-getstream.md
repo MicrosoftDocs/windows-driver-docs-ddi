@@ -10,6 +10,7 @@ keywords: ["IPartBase::GetStream"]
 ms.keywords: GetStream, GetStream method [Print Devices], GetStream method [Print Devices],IPartBase interface, IPartBase interface [Print Devices],GetStream method, IPartBase.GetStream, IPartBase::GetStream, filterpipeline/IPartBase::GetStream, filterpipeline_22f13e92-765e-41b8-8404-26aae5a50d02.xml, print.ipartbase_getstream
 f1_keywords:
  - "filterpipeline/IPartBase.GetStream"
+ - "IPartBase.GetStream"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - filterpipeline.h
 api_name:
 - IPartBase.GetStream
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

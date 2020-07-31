@@ -8,6 +8,7 @@ ms.date: 07/16/2018
 keywords: ["_NET_PACKET_QUEUE_CONFIG structure"]
 f1_keywords:
  - "netpacketqueue/_NET_PACKET_QUEUE_CONFIG"
+ - "_NET_PACKET_QUEUE_CONFIG"
 ms.keywords: _NET_PACKET_QUEUE_CONFIG, NET_PACKET_QUEUE_CONFIG, *PNET_PACKET_QUEUE_CONFIG, 
 req.header: netpacketqueue.h
 req.include-header:
@@ -30,8 +31,6 @@ api_location:
 - netpacketqueue.h
 api_name: 
 - _NET_PACKET_QUEUE_CONFIG
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

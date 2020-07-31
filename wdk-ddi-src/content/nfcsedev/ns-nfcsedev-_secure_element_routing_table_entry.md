@@ -10,6 +10,7 @@ keywords: ["_SECURE_ELEMENT_ROUTING_TABLE_ENTRY structure"]
 ms.keywords: "*PSECURE_ELEMENT_ROUTING_TABLE_ENTRY, P_SECURE_ELEMENT_ROUTING_TABLE_ENTRY, P_SECURE_ELEMENT_ROUTING_TABLE_ENTRY structure pointer [Near-Field Proximity Drivers], SECURE_ELEMENT_ROUTING_TABLE_ENTRY, SECURE_ELEMENT_ROUTING_TABLE_ENTRY structure [Near-Field Proximity Drivers], _SECURE_ELEMENT_ROUTING_TABLE_ENTRY, nfcsedev/P_SECURE_ELEMENT_ROUTING_TABLE_ENTRY, nfcsedev/_SECURE_ELEMENT_ROUTING_TABLE_ENTRY, nfpdrivers._secure_element_routing_table_entry"
 f1_keywords:
  - "nfcsedev/SECURE_ELEMENT_ROUTING_TABLE_ENTRY"
+ - "SECURE_ELEMENT_ROUTING_TABLE_ENTRY"
 req.header: nfcsedev.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - nfcsedev.h
 api_name:
 - SECURE_ELEMENT_ROUTING_TABLE_ENTRY
-product:
-- Windows
 targetos: Windows
 req.typenames: SECURE_ELEMENT_ROUTING_TABLE_ENTRY, *PSECURE_ELEMENT_ROUTING_TABLE_ENTRY
 ---

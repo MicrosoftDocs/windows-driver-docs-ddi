@@ -32,7 +32,8 @@ api_name:
  - DXGK_DSI_CAPS
 f1_keywords:
  - dispmprt/_DXGK_DSI_CAPS
- - dispmprt/DXGK_DSI_CAPS
+ - dispmprt//DXGK_DSI_CAPS
+ - DXGK_DSI_CAPS
 dev_langs:
  - c++
 ---

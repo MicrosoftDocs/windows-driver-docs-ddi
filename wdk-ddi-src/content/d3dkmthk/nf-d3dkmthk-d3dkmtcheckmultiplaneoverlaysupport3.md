@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMTCheckMultiPlaneOverlaySupport3 function"]
 f1_keywords:
  - "d3dkmthk/D3DKMTCheckMultiPlaneOverlaySupport3"
+ - "D3DKMTCheckMultiPlaneOverlaySupport3"
 ms.keywords: D3DKMTCheckMultiPlaneOverlaySupport3
 req.header: d3dkmthk.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - Gdi32.dll
 api_name: 
 - D3DKMTCheckMultiPlaneOverlaySupport3
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

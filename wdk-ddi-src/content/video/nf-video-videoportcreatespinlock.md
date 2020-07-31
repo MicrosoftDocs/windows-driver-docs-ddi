@@ -10,6 +10,7 @@ keywords: ["VideoPortCreateSpinLock function"]
 ms.keywords: VideoPortCreateSpinLock, VideoPortCreateSpinLock function [Display Devices], VideoPort_Functions_64ab2562-155d-4cec-8612-42aca51d909b.xml, display.videoportcreatespinlock, video/VideoPortCreateSpinLock
 f1_keywords:
  - "video/VideoPortCreateSpinLock"
+ - "VideoPortCreateSpinLock"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Videoprt.sys
 api_name:
 - VideoPortCreateSpinLock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["RxReassociateMid function"]
 ms.keywords: RxReassociateMid, RxReassociateMid function [Installable File System Drivers], ifsk.rxreassociatemid, midatlax/RxReassociateMid, rxref_0fbfcaf6-383a-48ed-81b1-eed7521df3e7.xml
 f1_keywords:
  - "midatlax/RxReassociateMid"
+ - "RxReassociateMid"
 req.header: midatlax.h
 req.include-header: Midatlax.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - midatlax.h
 api_name:
 - RxReassociateMid
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

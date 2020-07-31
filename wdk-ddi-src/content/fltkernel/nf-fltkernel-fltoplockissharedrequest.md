@@ -10,6 +10,7 @@ keywords: ["FltOplockIsSharedRequest function"]
 ms.keywords: FltApiRef_e_to_o_93f74880-eb0d-4040-82a0-e0cb4bfb2cba.xml, FltOplockIsSharedRequest, FltOplockIsSharedRequest routine [Installable File System Drivers], fltkernel/FltOplockIsSharedRequest, ifsk.fltoplockissharedrequest
 f1_keywords:
  - "fltkernel/FltOplockIsSharedRequest"
+ - "FltOplockIsSharedRequest"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltOplockIsSharedRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

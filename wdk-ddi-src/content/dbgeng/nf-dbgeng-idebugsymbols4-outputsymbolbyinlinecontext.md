@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols4::OutputSymbolByInlineContext"]
 ms.keywords: IDebugSymbols4 interface [Windows Debugging],OutputSymbolByInlineContext method, IDebugSymbols4.OutputSymbolByInlineContext, IDebugSymbols4::OutputSymbolByInlineContext, OutputSymbolByInlineContext, OutputSymbolByInlineContext method [Windows Debugging], OutputSymbolByInlineContext method [Windows Debugging],IDebugSymbols4 interface, dbgeng/IDebugSymbols4::OutputSymbolByInlineContext, debugger.idebugsymbols4_outputsymbolbyinlinecontext
 f1_keywords:
  - "dbgeng/IDebugSymbols4.OutputSymbolByInlineContext"
+ - "IDebugSymbols4.OutputSymbolByInlineContext"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Dbgeng.h
 api_name:
 - IDebugSymbols4.OutputSymbolByInlineContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

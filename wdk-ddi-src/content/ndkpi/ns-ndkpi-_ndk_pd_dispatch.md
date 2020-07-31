@@ -10,6 +10,7 @@ keywords: ["_NDK_PD_DISPATCH structure"]
 ms.keywords: NDK_PD_DISPATCH, NDK_PD_DISPATCH structure [Network Drivers Starting with Windows Vista], _NDK_PD_DISPATCH, ndkpi/NDK_PD_DISPATCH, netvista.ndk_pd_dispatch
 f1_keywords:
  - "ndkpi/NDK_PD_DISPATCH"
+ - "NDK_PD_DISPATCH"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ndkpi.h
 api_name:
 - NDK_PD_DISPATCH
-product:
-- Windows
 targetos: Windows
 req.typenames: NDK_PD_DISPATCH
 ---

@@ -8,6 +8,7 @@ ms.date: 04/10/2019
 keywords: ["_WWAN_UICC_ACCESS_BINARY structure"]
 f1_keywords:
  - "wwan/_WWAN_UICC_ACCESS_BINARY"
+ - "_WWAN_UICC_ACCESS_BINARY"
 ms.keywords: _WWAN_UICC_ACCESS_BINARY, WWAN_UICC_ACCESS_BINARY, *PWWAN_UICC_ACCESS_BINARY, 
 req.header: wwan.h
 req.include-header:
@@ -30,8 +31,6 @@ api_location:
 - wwan.h
 api_name: 
 - _WWAN_UICC_ACCESS_BINARY
-product:
-- Windows
 targetos: Windows
 ms.custom: 19H1
 ---

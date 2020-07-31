@@ -10,6 +10,7 @@ keywords: ["WdfDeviceInitSetPowerPageable function"]
 ms.keywords: DFDeviceObjectGeneralRef_704347eb-35c6-4735-bd2a-e6a988ff2896.xml, WdfDeviceInitSetPowerPageable, WdfDeviceInitSetPowerPageable method, kmdf.wdfdeviceinitsetpowerpageable, wdf.wdfdeviceinitsetpowerpageable, wdfdevice/WdfDeviceInitSetPowerPageable
 f1_keywords:
  - "wdfdevice/WdfDeviceInitSetPowerPageable"
+ - "WdfDeviceInitSetPowerPageable"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfDeviceInitSetPowerPageable
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

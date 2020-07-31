@@ -10,6 +10,7 @@ keywords: ["_IMAGE_POLICY_ENTRY structure"]
 ms.keywords: IMAGE_POLICY_ENTRY, IMAGE_POLICY_ENTRY structure [Kernel-Mode Driver Architecture], _IMAGE_POLICY_ENTRY, kernel._image_policy_entry, wdm/IMAGE_POLICY_ENTRY
 f1_keywords:
  - "wdm/IMAGE_POLICY_ENTRY"
+ - "IMAGE_POLICY_ENTRY"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - IMAGE_POLICY_ENTRY
-product:
-- Windows
 targetos: Windows
 req.typenames: IMAGE_POLICY_ENTRY
 ---

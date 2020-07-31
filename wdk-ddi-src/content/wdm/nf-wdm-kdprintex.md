@@ -10,6 +10,7 @@ keywords: ["KdPrintEx macro"]
 ms.keywords: DebugFns_375418aa-5241-4b2c-9369-c930c3ca1ca6.xml, KdPrintEx, KdPrintEx function [Driver Development Tools], devtest.kdprintex, wdm/KdPrintEx
 f1_keywords:
  - "wdm/KdPrintEx"
+ - "KdPrintEx"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KdPrintEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

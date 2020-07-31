@@ -10,6 +10,7 @@ keywords: ["StorPortSetPowerSettingNotificationGuids function"]
 ms.keywords: Adaptive Setting, HIPM/DIPM Setting, StorPortSetPowerSettingNotificationGuids, StorPortSetPowerSettingNotificationGuids routine [Storage Devices], storage.storportsetpowersettingnotificationguids, storport/StorPortSetPowerSettingNotificationGuids
 f1_keywords:
  - "storport/StorPortSetPowerSettingNotificationGuids"
+ - "StorPortSetPowerSettingNotificationGuids"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - storport.h
 api_name:
 - StorPortSetPowerSettingNotificationGuids
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

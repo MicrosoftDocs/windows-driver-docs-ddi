@@ -10,6 +10,7 @@ keywords: ["WdfCommonBufferGetAlignedVirtualAddress function"]
 ms.keywords: DFCommonBufferObjectRef_469df6c0-51ef-480a-93fe-dee452eaf216.xml, WdfCommonBufferGetAlignedVirtualAddress, WdfCommonBufferGetAlignedVirtualAddress method, kmdf.wdfcommonbuffergetalignedvirtualaddress, wdf.wdfcommonbuffergetalignedvirtualaddress, wdfcommonbuffer/WdfCommonBufferGetAlignedVirtualAddress
 f1_keywords:
  - "wdfcommonbuffer/WdfCommonBufferGetAlignedVirtualAddress"
+ - "WdfCommonBufferGetAlignedVirtualAddress"
 req.header: wdfcommonbuffer.h
 req.include-header: WdfCommonBuffer.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfCommonBufferGetAlignedVirtualAddress
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["AXIS enumeration"]
 f1_keywords:
  - "sensorsstructures/AXIS"
+ - "AXIS"
 ms.keywords: AXIS, AXIS, *PAXIS, 
 tech.root: sensors
 req.header: sensorsstructures.h

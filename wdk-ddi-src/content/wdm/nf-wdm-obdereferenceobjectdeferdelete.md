@@ -10,6 +10,7 @@ keywords: ["ObDereferenceObjectDeferDelete function"]
 ms.keywords: ObDereferenceObjectDeferDelete, ObDereferenceObjectDeferDelete routine [Kernel-Mode Driver Architecture], k107_d20a8bd1-feff-4c48-8c6f-ccf8a119281b.xml, kernel.obdereferenceobjectdeferdelete, wdm/ObDereferenceObjectDeferDelete
 f1_keywords:
  - "wdm/ObDereferenceObjectDeferDelete"
+ - "ObDereferenceObjectDeferDelete"
 req.header: wdm.h
 req.include-header: Fltkernel.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - ObDereferenceObjectDeferDelete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

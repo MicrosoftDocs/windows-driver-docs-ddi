@@ -10,6 +10,7 @@ keywords: ["_URS_ROLE enumeration"]
 ms.keywords: "*PURS_ROLE, URS_ROLE, URS_ROLE enumeration [Buses], URS_ROLE,*PURS_ROLE, URS_ROLE,*PURS_ROLE enumeration [Buses], UrsRoleFunction, UrsRoleHost, UrsRoleNone, _URS_ROLE, buses.urs_role, urstypes/URS_ROLE, urstypes/UrsRoleFunction, urstypes/UrsRoleHost, urstypes/UrsRoleNone"
 f1_keywords:
  - "urstypes/URS_ROLE, *PURS_ROLE"
+ - "URS_ROLE, *PURS_ROLE"
 req.header: urstypes.h
 req.include-header: Urstypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Urstypes.h
 api_name:
 - URS_ROLE, *PURS_ROLE
-product:
-- Windows
 targetos: Windows
 req.typenames: URS_ROLE, *PURS_ROLE
 ---

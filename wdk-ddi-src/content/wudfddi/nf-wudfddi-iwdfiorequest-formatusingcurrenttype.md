@@ -10,6 +10,7 @@ keywords: ["IWDFIoRequest::FormatUsingCurrentType"]
 ms.keywords: FormatUsingCurrentType, FormatUsingCurrentType method, FormatUsingCurrentType method,IWDFIoRequest interface, IWDFIoRequest interface,FormatUsingCurrentType method, IWDFIoRequest.FormatUsingCurrentType, IWDFIoRequest::FormatUsingCurrentType, UMDFRequestObjectRef_e16e60fe-557d-413c-a483-6bbe602986dc.xml, umdf.iwdfiorequest_formatusingcurrenttype, wdf.iwdfiorequest_formatusingcurrenttype, wudfddi/IWDFIoRequest::FormatUsingCurrentType
 f1_keywords:
  - "wudfddi/IWDFIoRequest.FormatUsingCurrentType"
+ - "IWDFIoRequest.FormatUsingCurrentType"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFIoRequest.FormatUsingCurrentType
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

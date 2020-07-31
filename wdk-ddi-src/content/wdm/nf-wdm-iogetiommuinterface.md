@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["IoGetIommuInterface function"]
 f1_keywords:
  - "wdm/IoGetIommuInterface"
+ - "IoGetIommuInterface"
 ms.keywords: IoGetIommuInterface
 req.header: wdm.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - NtosKrnl.exe
 api_name: 
 - IoGetIommuInterface
-product:
-- Windows
 targetos: Windows
 
 ---

@@ -9,6 +9,7 @@ keywords: ["D3DKMTOpenNtHandleFromName function"]
 ms.keywords: D3DKMTOpenNtHandleFromName, D3DKMTOpenNtHandleFromName callback function [Display Devices], PFND3DKMT_OPENNTHANDLEFROMNAME, PFND3DKMT_OPENNTHANDLEFROMNAME callback, d3dkmthk/D3DKMTOpenNtHandleFromName, display.d3dkmtopennthandlefromname
 f1_keywords:
  - "d3dkmthk/D3DKMTOpenNtHandleFromName"
+ - "D3DKMTOpenNtHandleFromName"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -35,8 +36,6 @@ api_location:
 - Gdi32.dll
 api_name:
 - D3DKMTOpenNtHandleFromName
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

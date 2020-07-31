@@ -10,6 +10,7 @@ keywords: ["DOT11EXTIHV_PROCESS_SESSION_CHANGE callback"]
 ms.keywords: DOT11EXTIHV_PROCESS_SESSION_CHANGE, Dot11ExtIhvProcessSessionChange, Dot11ExtIhvProcessSessionChange callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_158881c6-a8ae-4155-a2e6-549a47c3fce1.xml, netvista.dot11extihvprocesssessionchange, wlanihv/Dot11ExtIhvProcessSessionChange
 f1_keywords:
  - "wlanihv/Dot11ExtIhvProcessSessionChange"
+ - "Dot11ExtIhvProcessSessionChange"
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wlanihv.h
 api_name:
 - Dot11ExtIhvProcessSessionChange
-product:
-- Windows
 targetos: Windows
 req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.

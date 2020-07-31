@@ -10,6 +10,7 @@ keywords: ["_CDROM_EXCLUSIVE_ACCESS structure"]
 ms.keywords: "*PCDROM_EXCLUSIVE_ACCESS, CDROM_EXCLUSIVE_ACCESS, CDROM_EXCLUSIVE_ACCESS structure [Storage Devices], PCDROM_EXCLUSIVE_ACCESS, PCDROM_EXCLUSIVE_ACCESS structure pointer [Storage Devices], _CDROM_EXCLUSIVE_ACCESS, ntddcdrm/CDROM_EXCLUSIVE_ACCESS, ntddcdrm/PCDROM_EXCLUSIVE_ACCESS, storage.cdrom_exclusive_access, structs-CD-ROM_f9104134-3d0a-44fd-9a2d-9dd4e8a3636d.xml"
 f1_keywords:
  - "ntddcdrm/CDROM_EXCLUSIVE_ACCESS"
+ - "CDROM_EXCLUSIVE_ACCESS"
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddcdrm.h
 api_name:
 - CDROM_EXCLUSIVE_ACCESS
-product:
-- Windows
 targetos: Windows
 req.typenames: CDROM_EXCLUSIVE_ACCESS, *PCDROM_EXCLUSIVE_ACCESS
 ---

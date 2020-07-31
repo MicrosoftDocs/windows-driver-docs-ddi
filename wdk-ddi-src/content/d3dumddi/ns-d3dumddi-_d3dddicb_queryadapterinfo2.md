@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DDDICB_QUERYADAPTERINFO2 structure"]
 f1_keywords:
  - "d3dumddi/_D3DDDICB_QUERYADAPTERINFO2"
+ - "_D3DDDICB_QUERYADAPTERINFO2"
 ms.keywords: _D3DDDICB_QUERYADAPTERINFO2, D3DDDICB_QUERYADAPTERINFO2,
 req.header: d3dumddi.h
 req.include-header:

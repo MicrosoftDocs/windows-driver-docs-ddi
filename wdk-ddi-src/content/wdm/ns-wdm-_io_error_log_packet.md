@@ -10,6 +10,7 @@ keywords: ["_IO_ERROR_LOG_PACKET structure"]
 ms.keywords: "*PIO_ERROR_LOG_PACKET, IO_ERROR_LOG_PACKET, IO_ERROR_LOG_PACKET structure [Kernel-Mode Driver Architecture], PIO_ERROR_LOG_PACKET, PIO_ERROR_LOG_PACKET structure pointer [Kernel-Mode Driver Architecture], _IO_ERROR_LOG_PACKET, kernel.io_error_log_packet, kstruct_b_04c24dbc-a479-437c-adc2-b29294596564.xml, wdm/IO_ERROR_LOG_PACKET, wdm/PIO_ERROR_LOG_PACKET"
 f1_keywords:
  - "wdm/IO_ERROR_LOG_PACKET"
+ - "IO_ERROR_LOG_PACKET"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - IO_ERROR_LOG_PACKET
-product:
-- Windows
 targetos: Windows
 req.typenames: IO_ERROR_LOG_PACKET, *PIO_ERROR_LOG_PACKET
 ---

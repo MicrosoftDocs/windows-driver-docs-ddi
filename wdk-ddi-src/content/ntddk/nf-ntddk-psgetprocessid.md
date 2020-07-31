@@ -10,6 +10,7 @@ keywords: ["PsGetProcessId function"]
 ms.keywords: PsGetProcessId, PsGetProcessId routine [Kernel-Mode Driver Architecture], k108_b0733011-4102-4e10-83e3-e7e9d7172d08.xml, kernel.psgetprocessid, ntddk/PsGetProcessId
 f1_keywords:
  - "ntddk/PsGetProcessId"
+ - "PsGetProcessId"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - PsGetProcessId
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

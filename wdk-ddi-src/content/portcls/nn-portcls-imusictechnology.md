@@ -10,6 +10,7 @@ keywords: ["IMusicTechnology interface"]
 ms.keywords: IMusicTechnology, IMusicTechnology interface [Audio Devices], IMusicTechnology interface [Audio Devices],described, audio.imusictechnology, audmp-routines_9300aa03-6606-46a0-ad5b-b0d776c46ed1.xml, portcls/IMusicTechnology
 f1_keywords:
  - "portcls/IMusicTechnology"
+ - "IMusicTechnology"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IMusicTechnology
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

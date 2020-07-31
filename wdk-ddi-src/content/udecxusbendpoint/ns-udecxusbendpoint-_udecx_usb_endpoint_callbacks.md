@@ -10,6 +10,7 @@ keywords: ["_UDECX_USB_ENDPOINT_CALLBACKS structure"]
 ms.keywords: "*PUDECX_USB_ENDPOINT_CALLBACKS, PUDECX_USB_ENDPOINT_CALLBACKS, PUDECX_USB_ENDPOINT_CALLBACKS structure pointer [Buses], UDECX_USB_ENDPOINT_CALLBACKS, UDECX_USB_ENDPOINT_CALLBACKS structure [Buses], _UDECX_USB_ENDPOINT_CALLBACKS, buses.udecx_usb_endpoint_callbacks, udecxusbendpoint/PUDECX_USB_ENDPOINT_CALLBACKS, udecxusbendpoint/UDECX_USB_ENDPOINT_CALLBACKS"
 f1_keywords:
  - "udecxusbendpoint/UDECX_USB_ENDPOINT_CALLBACKS"
+ - "UDECX_USB_ENDPOINT_CALLBACKS"
 req.header: udecxusbendpoint.h
 req.include-header: Udecx.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - udecxusbendpoint.h
 api_name:
 - UDECX_USB_ENDPOINT_CALLBACKS
-product:
-- Windows
 targetos: Windows
 req.typenames: UDECX_USB_ENDPOINT_CALLBACKS, *PUDECX_USB_ENDPOINT_CALLBACKS
 ---

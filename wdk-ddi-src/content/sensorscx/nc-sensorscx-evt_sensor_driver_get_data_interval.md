@@ -10,6 +10,7 @@ keywords: ["EVT_SENSOR_DRIVER_GET_DATA_INTERVAL callback function"]
 ms.keywords: EVT_SENSOR_DRIVER_GET_DATA_INTERVAL, EVT_SENSOR_DRIVER_GET_DATA_INTERVAL callback, EvtSensorGetDataInterval, EvtSensorGetDataInterval callback function [Sensor Devices], sensors.evtsensorgetdatainterval, sensorscx/EvtSensorGetDataInterval
 f1_keywords:
  - "sensorscx/EvtSensorGetDataInterval"
+ - "EvtSensorGetDataInterval"
 req.header: sensorscx.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - SensorsCx.h
 api_name:
 - EvtSensorGetDataInterval
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

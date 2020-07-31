@@ -10,6 +10,7 @@ keywords: ["IPrintOemUI::FontInstallerDlgProc"]
 ms.keywords: FontInstallerDlgProc, FontInstallerDlgProc method [Print Devices], FontInstallerDlgProc method [Print Devices],IPrintOemUI interface, IPrintOemUI interface [Print Devices],FontInstallerDlgProc method, IPrintOemUI.FontInstallerDlgProc, IPrintOemUI::FontInstallerDlgProc, prcomoem/IPrintOemUI::FontInstallerDlgProc, print.iprintoemui_fontinstallerdlgproc, print_unidrv-pscript_ui_f5a028b9-eb7b-4d07-81e8-d7aadc5b8ceb.xml
 f1_keywords:
  - "prcomoem/IPrintOemUI.FontInstallerDlgProc"
+ - "IPrintOemUI.FontInstallerDlgProc"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - prcomoem.h
 api_name:
 - IPrintOemUI.FontInstallerDlgProc
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

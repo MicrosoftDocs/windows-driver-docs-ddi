@@ -8,6 +8,7 @@ ms.date: 06/29/2018
 keywords: ["MbbRequestGetBuffer function"]
 f1_keywords:
  - "mbbcx/MbbRequestGetBuffer"
+ - "MbbRequestGetBuffer"
 ms.keywords: MbbRequestGetBuffer
 req.header: mbbcx.h
 req.include-header:
@@ -34,8 +35,6 @@ api_location:
 - mbbcxstub.lib
 api_name: 
 - MbbRequestGetBuffer
-product:
-- Windows
 targetos: Windows
 
 

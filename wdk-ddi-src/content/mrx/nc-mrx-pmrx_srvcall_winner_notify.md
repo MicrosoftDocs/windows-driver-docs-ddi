@@ -10,6 +10,7 @@ keywords: ["PMRX_SRVCALL_WINNER_NOTIFY callback function"]
 ms.keywords: MRxSrvCallWinnerNotify, MRxSrvCallWinnerNotify routine [Installable File System Drivers], PMRX_SRVCALL_WINNER_NOTIFY, ifsk.mrxsrvcallwinnernotify, mrx/MRxSrvCallWinnerNotify, mrxref_32054fb8-84ca-407a-ab65-90feee16041d.xml
 f1_keywords:
  - "mrx/MRxSrvCallWinnerNotify"
+ - "MRxSrvCallWinnerNotify"
 req.header: mrx.h
 req.include-header: Mrx.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - mrx.h
 api_name:
 - MRxSrvCallWinnerNotify
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

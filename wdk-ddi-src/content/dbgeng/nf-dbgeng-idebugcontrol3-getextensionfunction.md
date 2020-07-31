@@ -10,6 +10,7 @@ keywords: ["IDebugControl3::GetExtensionFunction"]
 ms.keywords: GetExtensionFunction, GetExtensionFunction method [Windows Debugging], GetExtensionFunction method [Windows Debugging],IDebugControl interface, GetExtensionFunction method [Windows Debugging],IDebugControl2 interface, GetExtensionFunction method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetExtensionFunction method, IDebugControl2 interface [Windows Debugging],GetExtensionFunction method, IDebugControl2::GetExtensionFunction, IDebugControl3 interface [Windows Debugging],GetExtensionFunction method, IDebugControl3.GetExtensionFunction, IDebugControl3::GetExtensionFunction, IDebugControl::GetExtensionFunction, IDebugControl_9f227e3a-ee1e-44d0-9675-ec773e3391e5.xml, dbgeng/IDebugControl2::GetExtensionFunction, dbgeng/IDebugControl3::GetExtensionFunction, dbgeng/IDebugControl::GetExtensionFunction, debugger.getextensionfunction
 f1_keywords:
  - "dbgeng/IDebugControl.GetExtensionFunction"
+ - "IDebugControl.GetExtensionFunction"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -38,8 +39,6 @@ api_name:
 - IDebugControl.GetExtensionFunction
 - IDebugControl2.GetExtensionFunction
 - IDebugControl3.GetExtensionFunction
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

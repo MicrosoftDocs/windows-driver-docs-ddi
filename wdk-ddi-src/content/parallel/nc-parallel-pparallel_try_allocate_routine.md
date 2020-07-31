@@ -10,6 +10,7 @@ keywords: ["PPARALLEL_TRY_ALLOCATE_ROUTINE callback"]
 ms.keywords: PPARALLEL_TRY_ALLOCATE_ROUTINE, ParallelTryAllocateRoutine, ParallelTryAllocateRoutine callback function [Parallel Ports], cisspd_737cb583-bcc9-46e9-915b-e073da2c11bf.xml, parallel/ParallelTryAllocateRoutine, parports.parallel_try_allocate_routine__isr_
 f1_keywords:
  - "parallel/ParallelTryAllocateRoutine"
+ - "ParallelTryAllocateRoutine"
 req.header: parallel.h
 req.include-header: Parallel.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - parallel.h
 api_name:
 - ParallelTryAllocateRoutine
-product:
-- Windows
 targetos: Windows
 req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ---

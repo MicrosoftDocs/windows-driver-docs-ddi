@@ -7,6 +7,7 @@ ms.date: 10/04/2018
 keywords: ["IDebugHostType2::IsGeneric"]
 f1_keywords:
  - "dbgmodel/IDebugHostType2.IsGeneric"
+ - "IDebugHostType2.IsGeneric"
 ms.keywords: IDebugHostType2::IsGeneric, IsGeneric, IDebugHostType2.IsGeneric, IDebugHostType2::IsGeneric, IDebugHostType2.IsGeneric
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostType2.IsGeneric
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

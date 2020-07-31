@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["COLORSPACE_TRANSFORM_TARGET_CAPS structure"]
 f1_keywords:
  - "ntddvdeo/COLORSPACE_TRANSFORM_TARGET_CAPS"
+ - "COLORSPACE_TRANSFORM_TARGET_CAPS"
 ms.keywords: COLORSPACE_TRANSFORM_TARGET_CAPS, COLORSPACE_TRANSFORM_TARGET_CAPS, *PCOLORSPACE_TRANSFORM_TARGET_CAPS, 
 req.header: ntddvdeo.h
 req.include-header:
@@ -32,8 +33,6 @@ api_location:
  - ntddvdeo.h
 api_name: 
  - COLORSPACE_TRANSFORM_TARGET_CAPS
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

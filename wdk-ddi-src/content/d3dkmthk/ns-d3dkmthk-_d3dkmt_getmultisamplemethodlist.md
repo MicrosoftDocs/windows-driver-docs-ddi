@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_GETMULTISAMPLEMETHODLIST structure"]
 ms.keywords: D3DKMT_GETMULTISAMPLEMETHODLIST, D3DKMT_GETMULTISAMPLEMETHODLIST structure [Display Devices], OpenGL_Structs_ccb62d63-4a70-4fb4-b6db-d8a5e585b222.xml, _D3DKMT_GETMULTISAMPLEMETHODLIST, d3dkmthk/D3DKMT_GETMULTISAMPLEMETHODLIST, display.d3dkmt_getmultisamplemethodlist
 f1_keywords:
  - "d3dkmthk/D3DKMT_GETMULTISAMPLEMETHODLIST"
+ - "D3DKMT_GETMULTISAMPLEMETHODLIST"
 req.header: d3dkmthk.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMT_GETMULTISAMPLEMETHODLIST
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_GETMULTISAMPLEMETHODLIST

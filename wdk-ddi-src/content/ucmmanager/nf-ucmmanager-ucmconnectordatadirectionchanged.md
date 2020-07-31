@@ -10,6 +10,7 @@ keywords: ["UcmConnectorDataDirectionChanged function"]
 ms.keywords: UcmConnectorDataDirectionChanged, UcmConnectorDataDirectionChanged method [Buses], buses.ucmconnectordatadirectionchanged, ucmmanager/UcmConnectorDataDirectionChanged
 f1_keywords:
  - "ucmmanager/UcmConnectorDataDirectionChanged"
+ - "UcmConnectorDataDirectionChanged"
 req.header: ucmmanager.h
 req.include-header: Ucmcx.h
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 - UcmCxstub.dll
 api_name:
 - UcmConnectorDataDirectionChanged
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

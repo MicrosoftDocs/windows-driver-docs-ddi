@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3D12DDI_DRIVER_MATCHING_IDENTIFIER_STATUS enumeration"]
 f1_keywords:
  - "d3d12umddi/D3D12DDI_DRIVER_MATCHING_IDENTIFIER_STATUS"
+ - "D3D12DDI_DRIVER_MATCHING_IDENTIFIER_STATUS"
 ms.keywords: D3D12DDI_DRIVER_MATCHING_IDENTIFIER_STATUS, D3D12DDI_DRIVER_MATCHING_IDENTIFIER_STATUS, 
 req.header: d3d12umddi.h
 req.include-header:
@@ -26,8 +27,6 @@ api_location:
 - d3d12umddi.h
 api_name: 
 - D3D12DDI_DRIVER_MATCHING_IDENTIFIER_STATUS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

@@ -10,6 +10,7 @@ keywords: ["_WIA_PROPERTY_INFO structure"]
 ms.keywords: "*PWIA_PROPERTY_INFO, PWIA_PROPERTY_INFO, PWIA_PROPERTY_INFO structure pointer [Imaging Devices], WIA_PROPERTY_INFO, WIA_PROPERTY_INFO structure [Imaging Devices], _WIA_PROPERTY_INFO, image.wia_property_info, wiamindr_lh/PWIA_PROPERTY_INFO, wiamindr_lh/WIA_PROPERTY_INFO, wiastrct_6e0091b3-43a3-473b-88e4-ec41533a5b0e.xml"
 f1_keywords:
  - "wiamindr_lh/WIA_PROPERTY_INFO"
+ - "WIA_PROPERTY_INFO"
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wiamindr_lh.h
 api_name:
 - WIA_PROPERTY_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: WIA_PROPERTY_INFO, *PWIA_PROPERTY_INFO
 ---

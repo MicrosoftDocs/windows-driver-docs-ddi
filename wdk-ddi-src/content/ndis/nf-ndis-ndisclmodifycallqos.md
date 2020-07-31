@@ -10,6 +10,7 @@ keywords: ["NdisClModifyCallQoS function"]
 ms.keywords: NdisClModifyCallQoS, NdisClModifyCallQoS function [Network Drivers Starting with Windows Vista], condis_client_ref_55b0158f-e91e-4be8-818b-ade726db0f61.xml, ndis/NdisClModifyCallQoS, netvista.ndisclmodifycallqos
 f1_keywords:
  - "ndis/NdisClModifyCallQoS"
+ - "NdisClModifyCallQoS"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisClModifyCallQoS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

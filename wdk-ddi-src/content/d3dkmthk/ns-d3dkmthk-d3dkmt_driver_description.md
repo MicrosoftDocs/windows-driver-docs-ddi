@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["D3DKMT_DRIVER_DESCRIPTION structure"]
 f1_keywords:
  - "d3dkmthk/D3DKMT_DRIVER_DESCRIPTION"
+ - "D3DKMT_DRIVER_DESCRIPTION"
 ms.keywords: D3DKMT_DRIVER_DESCRIPTION, D3DKMT_DRIVER_DESCRIPTION, 
 req.header: d3dkmthk.h
 req.include-header:
@@ -32,8 +33,6 @@ api_location:
  - d3dkmthk.h
 api_name: 
  - D3DKMT_DRIVER_DESCRIPTION
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

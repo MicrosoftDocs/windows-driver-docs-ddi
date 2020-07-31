@@ -10,6 +10,7 @@ keywords: ["_D3DKMDT_TEXT_RENDERING_FORMAT enumeration"]
 ms.keywords: D3DKMDT_TEXT_RENDERING_FORMAT, D3DKMDT_TEXT_RENDERING_FORMAT enumeration [Display Devices], D3DKMDT_TRF_UNINITIALIZED, DmEnums_f7f70f44-9d28-46c2-8c8f-35d13dc3a459.xml, _D3DKMDT_TEXT_RENDERING_FORMAT, d3dkmdt/D3DKMDT_TEXT_RENDERING_FORMAT, d3dkmdt/D3DKMDT_TRF_UNINITIALIZED, display.d3dkmdt_text_rendering_format
 f1_keywords:
  - "d3dkmdt/D3DKMDT_TEXT_RENDERING_FORMAT"
+ - "D3DKMDT_TEXT_RENDERING_FORMAT"
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dkmdt.h
 api_name:
 - D3DKMDT_TEXT_RENDERING_FORMAT
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DKMDT_TEXT_RENDERING_FORMAT
 ---

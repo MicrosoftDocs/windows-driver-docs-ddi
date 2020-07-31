@@ -10,6 +10,7 @@ keywords: ["FwpsFlowAbort0 function"]
 ms.keywords: FwpsFlowAbort0, FwpsFlowAbort0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsFlowAbort0, netvista.fwpsflowabort0
 f1_keywords:
  - "fwpsk/FwpsFlowAbort0"
+ - "FwpsFlowAbort0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - fwpkclnt.dll
 api_name:
 - FwpsFlowAbort0
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

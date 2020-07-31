@@ -10,6 +10,7 @@ keywords: ["IOCTL_CHANGER_GET_PARAMETERS IOCTL"]
 ms.keywords: IOCTL_CHANGER_GET_PARAMETERS, IOCTL_CHANGER_GET_PARAMETERS control, IOCTL_CHANGER_GET_PARAMETERS control code [Storage Devices], k307_e3288dd0-4585-40de-aa5a-499c596aa75b.xml, ntddchgr/IOCTL_CHANGER_GET_PARAMETERS, storage.ioctl_changer_get_parameters
 f1_keywords:
  - "ntddchgr/IOCTL_CHANGER_GET_PARAMETERS"
+ - "IOCTL_CHANGER_GET_PARAMETERS"
 req.header: ntddchgr.h
 req.include-header: Ntddchgr.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddchgr.h
 api_name:
 - IOCTL_CHANGER_GET_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

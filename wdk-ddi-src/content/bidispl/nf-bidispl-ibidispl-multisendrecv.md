@@ -10,6 +10,7 @@ keywords: ["IBidiSpl::MultiSendRecv"]
 ms.keywords: IBidiSpl interface [Print Devices],MultiSendRecv method, IBidiSpl.MultiSendRecv, IBidiSpl::MultiSendRecv, MultiSendRecv, MultiSendRecv method [Print Devices], MultiSendRecv method [Print Devices],IBidiSpl interface, _win32_IBidiSpl_MultiSendRecv, bidispl/IBidiSpl::MultiSendRecv, gdi.ibidispl_ibidispl__multisendrecv, print.ibidispl_ibidispl__multisendrecv
 f1_keywords:
  - "bidispl/IBidiSpl.MultiSendRecv"
+ - "IBidiSpl.MultiSendRecv"
 req.header: bidispl.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - bidispl.dll
 api_name:
 - IBidiSpl.MultiSendRecv
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

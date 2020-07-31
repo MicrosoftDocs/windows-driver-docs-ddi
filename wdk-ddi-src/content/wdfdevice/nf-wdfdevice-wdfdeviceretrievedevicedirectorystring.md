@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["WdfDeviceRetrieveDeviceDirectoryString function"]
 f1_keywords:
  - "wdfdevice/WdfDeviceRetrieveDeviceDirectoryString"
+ - "WdfDeviceRetrieveDeviceDirectoryString"
 ms.keywords: WdfDeviceRetrieveDeviceDirectoryString
 req.header: wdfdevice.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - NtosKrnl.exe
 api_name: 
 - WdfDeviceRetrieveDeviceDirectoryString
-product:
-- Windows
 targetos: Windows
 
 ---

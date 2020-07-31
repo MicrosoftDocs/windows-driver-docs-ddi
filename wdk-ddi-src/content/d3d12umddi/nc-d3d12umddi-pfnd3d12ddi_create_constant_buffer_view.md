@@ -27,6 +27,7 @@ tech.root: display
 ms.custom: RS5
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_CREATE_CONSTANT_BUFFER_VIEW"
+ - "PFND3D12DDI_CREATE_CONSTANT_BUFFER_VIEW"
 topic_type:
  - apiref
 api_type:

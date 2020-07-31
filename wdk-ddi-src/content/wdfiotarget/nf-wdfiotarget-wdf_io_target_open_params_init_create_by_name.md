@@ -10,6 +10,7 @@ keywords: ["WDF_IO_TARGET_OPEN_PARAMS_INIT_CREATE_BY_NAME function"]
 ms.keywords: DFIOTargetRef_5ae50d6e-6e3b-484a-afe9-6198860180b7.xml, WDF_IO_TARGET_OPEN_PARAMS_INIT_CREATE_BY_NAME, WDF_IO_TARGET_OPEN_PARAMS_INIT_CREATE_BY_NAME function, kmdf.wdf_io_target_open_params_init_create_by_name, wdf.wdf_io_target_open_params_init_create_by_name, wdfiotarget/WDF_IO_TARGET_OPEN_PARAMS_INIT_CREATE_BY_NAME
 f1_keywords:
  - "wdfiotarget/WDF_IO_TARGET_OPEN_PARAMS_INIT_CREATE_BY_NAME"
+ - "WDF_IO_TARGET_OPEN_PARAMS_INIT_CREATE_BY_NAME"
 req.header: wdfiotarget.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - wdfiotarget.h
 api_name:
 - WDF_IO_TARGET_OPEN_PARAMS_INIT_CREATE_BY_NAME
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

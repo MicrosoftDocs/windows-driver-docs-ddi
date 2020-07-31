@@ -7,6 +7,7 @@ ms.date: 08/21/2018
 keywords: ["IDataModelScriptDebug::GetDebugState"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebug.GetDebugState"
+ - "IDataModelScriptDebug.GetDebugState"
 ms.keywords: IDataModelScriptDebug::GetDebugState, GetDebugState, IDataModelScriptDebug.GetDebugState, IDataModelScriptDebug::GetDebugState, IDataModelScriptDebug.GetDebugState
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDataModelScriptDebug.GetDebugState
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

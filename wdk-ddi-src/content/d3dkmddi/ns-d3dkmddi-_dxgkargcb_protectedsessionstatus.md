@@ -9,6 +9,7 @@ keywords: ["_DXGKARGCB_PROTECTEDSESSIONSTATUS structure"]
 ms.keywords: DXGKARGCB_PROTECTEDSESSIONSTATUS, DXGKARGCB_PROTECTEDSESSIONSTATUS structure [Display Devices], _DXGKARGCB_PROTECTEDSESSIONSTATUS, d3dkmddi/DXGKARGCB_PROTECTEDSESSIONSTATUS, display.dxgkargcb_protectedsessionstatus
 f1_keywords:
  - "d3dkmddi/DXGKARGCB_PROTECTEDSESSIONSTATUS"
+ - "DXGKARGCB_PROTECTEDSESSIONSTATUS"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGKARGCB_PROTECTEDSESSIONSTATUS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGKARGCB_PROTECTEDSESSIONSTATUS

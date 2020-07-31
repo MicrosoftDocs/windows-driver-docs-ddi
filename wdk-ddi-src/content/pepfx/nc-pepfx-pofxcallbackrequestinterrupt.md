@@ -10,6 +10,7 @@ keywords: ["POFXCALLBACKREQUESTINTERRUPT callback function"]
 ms.keywords: POFXCALLBACKREQUESTINTERRUPT, RequestInterrupt, RequestInterrupt routine [Kernel-Mode Driver Architecture], kernel.requestinterrupt, pepfx/RequestInterrupt
 f1_keywords:
  - "pepfx/RequestInterrupt"
+ - "RequestInterrupt"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - RequestInterrupt
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

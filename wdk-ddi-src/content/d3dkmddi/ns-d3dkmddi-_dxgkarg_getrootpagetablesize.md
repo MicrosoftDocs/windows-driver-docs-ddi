@@ -9,6 +9,7 @@ keywords: ["_DXGKARG_GETROOTPAGETABLESIZE structure"]
 ms.keywords: "*INOUT_PDXGKARG_GETROOTPAGETABLESIZE, DXGKARG_GETROOTPAGETABLESIZE, DXGKARG_GETROOTPAGETABLESIZE structure [Display Devices], _DXGKARG_GETROOTPAGETABLESIZE, d3dkmddi/DXGKARG_GETROOTPAGETABLESIZE, display.dxgkarg_getrootpagetablesize"
 f1_keywords:
  - "d3dkmddi/DXGKARG_GETROOTPAGETABLESIZE"
+ - "DXGKARG_GETROOTPAGETABLESIZE"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGKARG_GETROOTPAGETABLESIZE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGKARG_GETROOTPAGETABLESIZE

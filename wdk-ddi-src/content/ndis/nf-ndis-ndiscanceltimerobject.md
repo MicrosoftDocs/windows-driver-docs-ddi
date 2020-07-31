@@ -10,6 +10,7 @@ keywords: ["NdisCancelTimerObject function"]
 ms.keywords: NdisCancelTimerObject, NdisCancelTimerObject function [Network Drivers Starting with Windows Vista], ndis/NdisCancelTimerObject, ndis_timer_ref_39b68ae4-4fd7-4609-aebc-e2be21bead04.xml, netvista.ndiscanceltimerobject
 f1_keywords:
  - "ndis/NdisCancelTimerObject"
+ - "NdisCancelTimerObject"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisCancelTimerObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

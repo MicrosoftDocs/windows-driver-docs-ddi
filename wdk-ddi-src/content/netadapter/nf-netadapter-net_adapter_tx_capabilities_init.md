@@ -8,6 +8,7 @@ ms.date: 09/27/2019
 keywords: ["NET_ADAPTER_TX_CAPABILITIES_INIT function"]
 f1_keywords:
  - "netadapter/NET_ADAPTER_TX_CAPABILITIES_INIT"
+ - "NET_ADAPTER_TX_CAPABILITIES_INIT"
 ms.keywords: NET_ADAPTER_TX_CAPABILITIES_INIT
 req.header: netadapter.h
 req.include-header: netadaptercx.h
@@ -34,8 +35,6 @@ api_location:
 - NtosKrnl.exe
 api_name: 
 - NET_ADAPTER_TX_CAPABILITIES_INIT
-product:
-- Windows
 targetos: Windows
 
 ---

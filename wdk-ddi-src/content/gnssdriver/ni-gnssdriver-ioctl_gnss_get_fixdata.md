@@ -10,6 +10,7 @@ keywords: ["IOCTL_GNSS_GET_FIXDATA IOCTL"]
 ms.keywords: IOCTL_GNSS_GET_FIXDATA, IOCTL_GNSS_GET_FIXDATA control, IOCTL_GNSS_GET_FIXDATA control code [Sensor Devices], gnss.ioctl_gnss_get_fixdata, gnssdriver/IOCTL_GNSS_GET_FIXDATA
 f1_keywords:
  - "gnssdriver/IOCTL_GNSS_GET_FIXDATA"
+ - "IOCTL_GNSS_GET_FIXDATA"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - gnssdriver.h
 api_name:
 - IOCTL_GNSS_GET_FIXDATA
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

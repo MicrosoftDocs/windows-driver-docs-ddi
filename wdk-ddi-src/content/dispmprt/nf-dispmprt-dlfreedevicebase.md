@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DlFreeDeviceBase function"]
 f1_keywords:
  - "dispmprt/DlFreeDeviceBase"
+ - "DlFreeDeviceBase"
 ms.keywords: DlFreeDeviceBase
 req.header: dispmprt.h
 req.include-header:

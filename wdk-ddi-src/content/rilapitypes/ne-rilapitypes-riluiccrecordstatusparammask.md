@@ -10,6 +10,7 @@ keywords: ["RILUICCRECORDSTATUSPARAMMASK enumeration"]
 ms.keywords: RILUICCRECORDSTATUSPARAMMASK, RILUICCRECORDSTATUSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_URS_ALL, RIL_PARAM_URS_FILELOCKSTATUS, RIL_PARAM_URS_ITEMCOUNT, RIL_PARAM_URS_SIZE, netvista.riluiccrecordstatusparammask_2, rilapitypes/RILUICCRECORDSTATUSPARAMMASK, rilapitypes/RIL_PARAM_URS_ALL, rilapitypes/RIL_PARAM_URS_FILELOCKSTATUS, rilapitypes/RIL_PARAM_URS_ITEMCOUNT, rilapitypes/RIL_PARAM_URS_SIZE
 f1_keywords:
  - "rilapitypes/RILUICCRECORDSTATUSPARAMMASK"
+ - "RILUICCRECORDSTATUSPARAMMASK"
 req.header: rilapitypes.h
 req.include-header:
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapitypes.h
 api_name:
 - RILUICCRECORDSTATUSPARAMMASK
-product:
-- Windows
 targetos: Windows
 req.typenames: RILUICCRECORDSTATUSPARAMMASK
 req.product: Windows 10 or later.

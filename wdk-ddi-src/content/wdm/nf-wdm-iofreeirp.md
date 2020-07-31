@@ -10,6 +10,7 @@ keywords: ["IoFreeIrp function"]
 ms.keywords: IoFreeIrp, IoFreeIrp routine [Kernel-Mode Driver Architecture], k104_fc262cc4-a482-4a92-9f8e-1e5765c9b1d4.xml, kernel.iofreeirp, wdm/IoFreeIrp
 f1_keywords:
  - "wdm/IoFreeIrp"
+ - "IoFreeIrp"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoFreeIrp
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

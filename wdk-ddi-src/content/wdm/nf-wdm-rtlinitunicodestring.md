@@ -10,6 +10,7 @@ keywords: ["RtlInitUnicodeString function"]
 ms.keywords: RtlInitUnicodeString, RtlInitUnicodeString routine [Kernel-Mode Driver Architecture], k109_10e59fa9-6f57-45db-bc11-520660f43b13.xml, kernel.rtlinitunicodestring, wdm/RtlInitUnicodeString
 f1_keywords:
  - "wdm/RtlInitUnicodeString"
+ - "RtlInitUnicodeString"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlInitUnicodeString
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["_SYSTEM_AUDIT_ACE structure"]
 ms.keywords: "*PSYSTEM_AUDIT_ACE, PSYSTEM_AUDIT_ACE, PSYSTEM_AUDIT_ACE structure pointer [Installable File System Drivers], SYSTEM_AUDIT_ACE, SYSTEM_AUDIT_ACE structure [Installable File System Drivers], _SYSTEM_AUDIT_ACE, ifsk.system_audit_ace, ntifs/PSYSTEM_AUDIT_ACE, ntifs/SYSTEM_AUDIT_ACE, securitystructures_f47f7528-0214-4efc-9ec8-0f799d643299.xml"
 f1_keywords:
  - "ntifs/SYSTEM_AUDIT_ACE"
+ - "SYSTEM_AUDIT_ACE"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - SYSTEM_AUDIT_ACE
-product:
-- Windows
 targetos: Windows
 req.typenames: SYSTEM_AUDIT_ACE
 ---

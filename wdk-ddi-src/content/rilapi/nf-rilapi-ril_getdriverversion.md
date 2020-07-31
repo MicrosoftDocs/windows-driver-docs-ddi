@@ -10,6 +10,7 @@ keywords: ["RIL_GetDriverVersion function"]
 ms.keywords: RIL_GetDriverVersion, RIL_GetDriverVersion method [Network Drivers Starting with Windows Vista], netvista.ril_getdriverversion, rilapi/RIL_GetDriverVersion
 f1_keywords:
  - "rilapi/RIL_GetDriverVersion"
+ - "RIL_GetDriverVersion"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_GetDriverVersion
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

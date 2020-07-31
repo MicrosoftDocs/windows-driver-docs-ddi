@@ -10,6 +10,7 @@ keywords: ["_PCW_DATA structure"]
 ms.keywords: "*PPCW_DATA, PCW_DATA, PCW_DATA structure [Driver Development Tools], PPCW_DATA, PPCW_DATA structure pointer [Driver Development Tools], _PCW_DATA, devtest.pcw_data, km_pcw_69759b50-4312-4997-ba43-4ce30941d502.xml, wdm/PCW_DATA, wdm/PPCW_DATA"
 f1_keywords:
  - "wdm/PCW_DATA"
+ - "PCW_DATA"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - PCW_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: PCW_DATA, *PPCW_DATA
 ---

@@ -10,6 +10,7 @@ keywords: ["_BDA_CAS_CLOSE_MMIDIALOG structure"]
 ms.keywords: "*PBDA_CAS_CLOSE_MMIDIALOG, BDA_CAS_CLOSE_MMIDIALOG, BDA_CAS_CLOSE_MMIDIALOG structure [Streaming Media Devices], PBDA_CAS_CLOSE_MMIDIALOG, PBDA_CAS_CLOSE_MMIDIALOG structure pointer [Streaming Media Devices], _BDA_CAS_CLOSE_MMIDIALOG, bdatypes/BDA_CAS_CLOSE_MMIDIALOG, bdatypes/PBDA_CAS_CLOSE_MMIDIALOG, stream.bda_cas_close_mmidialog"
 f1_keywords:
  - "bdatypes/BDA_CAS_CLOSE_MMIDIALOG"
+ - "BDA_CAS_CLOSE_MMIDIALOG"
 req.header: bdatypes.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Bdatypes.h
 api_name:
 - BDA_CAS_CLOSE_MMIDIALOG
-product:
-- Windows
 targetos: Windows
 req.typenames: BDA_CAS_CLOSE_MMIDIALOG, *PBDA_CAS_CLOSE_MMIDIALOG
 ---

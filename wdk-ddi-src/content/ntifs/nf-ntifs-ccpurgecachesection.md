@@ -10,6 +10,7 @@ keywords: ["CcPurgeCacheSection function"]
 ms.keywords: CcPurgeCacheSection, CcPurgeCacheSection routine [Installable File System Drivers], ccref_587b0f92-f80a-42f2-b3bb-dae27208b796.xml, ifsk.ccpurgecachesection, ntifs/CcPurgeCacheSection
 f1_keywords:
  - "ntifs/CcPurgeCacheSection"
+ - "CcPurgeCacheSection"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - CcPurgeCacheSection
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

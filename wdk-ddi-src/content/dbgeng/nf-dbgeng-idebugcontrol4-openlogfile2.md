@@ -10,6 +10,7 @@ keywords: ["IDebugControl4::OpenLogFile2"]
 ms.keywords: IDebugControl4 interface [Windows Debugging],OpenLogFile2 method, IDebugControl4.OpenLogFile2, IDebugControl4::OpenLogFile2, IDebugControl_93e0a810-9b23-43c2-b714-99a39c398f1e.xml, OpenLogFile2, OpenLogFile2 method [Windows Debugging], OpenLogFile2 method [Windows Debugging],IDebugControl4 interface, dbgeng/IDebugControl4::OpenLogFile2, debugger.openlogfile2
 f1_keywords:
  - "dbgeng/IDebugControl4.OpenLogFile2"
+ - "IDebugControl4.OpenLogFile2"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugControl4.OpenLogFile2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ ms.date: 03/05/2019
 keywords: ["WheaReportHwErrorDeviceDriver function"]
 f1_keywords:
  - "ntddk/WheaReportHwErrorDeviceDriver"
+ - "WheaReportHwErrorDeviceDriver"
 ms.keywords: WheaReportHwErrorDeviceDriver
 req.header: ntddk.h
 req.include-header:

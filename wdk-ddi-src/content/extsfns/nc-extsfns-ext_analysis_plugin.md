@@ -10,6 +10,7 @@ keywords: ["EXT_ANALYSIS_PLUGIN callback function"]
 ms.keywords: EXT_ANALYSIS_PLUGIN, EXT_ANALYSIS_PLUGIN callback, _EFN_Analyze, _EFN_Analyze callback function [Windows Debugging], debugger._efn_analyze, extsfns/_EFN_Analyze
 f1_keywords:
  - "extsfns/_EFN_Analyze"
+ - "_EFN_Analyze"
 req.header: extsfns.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - extsfns.h
 api_name:
 - _EFN_Analyze
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

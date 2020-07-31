@@ -10,6 +10,7 @@ keywords: ["EVT_UCX_CONTROLLER_RESET callback function"]
 ms.keywords: EVT_UCX_CONTROLLER_RESET, EVT_UCX_CONTROLLER_RESET callback, EvtUcxControllerReset, EvtUcxControllerReset callback function [Buses], PEVT_UCX_CONTROLLER_RESET, PEVT_UCX_CONTROLLER_RESET callback function pointer [Buses], buses.evt_ucx_controller_reset, ucxcontroller/EvtUcxControllerReset
 f1_keywords:
  - "ucxcontroller/PEVT_UCX_CONTROLLER_RESET"
+ - "PEVT_UCX_CONTROLLER_RESET"
 req.header: ucxcontroller.h
 req.include-header: Ucxclass.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ucxcontroller.h
 api_name:
 - PEVT_UCX_CONTROLLER_RESET
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

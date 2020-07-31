@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["EVT_SENSOR_DRIVER_CLEAR_SENSOR_HISTORY callback function"]
 f1_keywords:
  - "sensorscx/EVT_SENSOR_DRIVER_CLEAR_SENSOR_HISTORY"
+ - "EVT_SENSOR_DRIVER_CLEAR_SENSOR_HISTORY"
 req.header: sensorscx.h
 req.include-header:
 req.target-type:
@@ -32,8 +33,6 @@ api_location:
 - sensorscx.h
 api_name: 
 - EVT_SENSOR_DRIVER_CLEAR_SENSOR_HISTORY
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

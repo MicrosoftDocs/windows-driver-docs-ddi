@@ -10,6 +10,7 @@ keywords: ["FltSetQuotaInformationFile function"]
 ms.keywords: FltSetQuotaInformationFile, FltSetQuotaInformationFile function [Installable File System Drivers], fltkernel/FltSetQuotaInformationFile, ifsk.fltsetquotainformationfile
 f1_keywords:
  - "fltkernel/FltSetQuotaInformationFile"
+ - "FltSetQuotaInformationFile"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltSetQuotaInformationFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -7,6 +7,7 @@ ms.date: 09/10/2018
 keywords: ["IDataModelScriptDebugStackFrame::GetPosition"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebugStackFrame.GetPosition"
+ - "IDataModelScriptDebugStackFrame.GetPosition"
 ms.keywords: IDataModelScriptDebugStackFrame::GetPosition, GetPosition, IDataModelScriptDebugStackFrame.GetPosition, IDataModelScriptDebugStackFrame::GetPosition, IDataModelScriptDebugStackFrame.GetPosition
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDataModelScriptDebugStackFrame.GetPosition
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

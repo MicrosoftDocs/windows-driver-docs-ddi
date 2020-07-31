@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["D3D12DDI_QUERY_VIDEO_MEMORY_INFO_0054 structure"]
 f1_keywords:
  - "d3d12umddi/D3D12DDI_QUERY_VIDEO_MEMORY_INFO_0054"
+ - "D3D12DDI_QUERY_VIDEO_MEMORY_INFO_0054"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: D3D12DDI_QUERY_VIDEO_MEMORY_INFO_0054, D3D12DDI_QUERY_VIDEO_MEMORY_INFO_0054, 

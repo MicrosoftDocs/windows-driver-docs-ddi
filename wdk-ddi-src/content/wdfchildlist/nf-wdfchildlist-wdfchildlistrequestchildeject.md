@@ -10,6 +10,7 @@ keywords: ["WdfChildListRequestChildEject function"]
 ms.keywords: DFDeviceObjectChildListRef_52991ad9-29ef-4ab8-b746-168fcc0b8e99.xml, WdfChildListRequestChildEject, WdfChildListRequestChildEject method, kmdf.wdfchildlistrequestchildeject, wdf.wdfchildlistrequestchildeject, wdfchildlist/WdfChildListRequestChildEject
 f1_keywords:
  - "wdfchildlist/WdfChildListRequestChildEject"
+ - "WdfChildListRequestChildEject"
 req.header: wdfchildlist.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfChildListRequestChildEject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

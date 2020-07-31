@@ -10,6 +10,7 @@ keywords: ["IPartDiscardControl interface"]
 ms.keywords: IPartDiscardControl, IPartDiscardControl interface [Print Devices], IPartDiscardControl interface [Print Devices],described, filterpipeline/IPartDiscardControl, filterpipeline_c29b91d3-ecf6-4697-bf5f-5b536cfb7071.xml, print.ipartdiscardcontrol
 f1_keywords:
  - "filterpipeline/IPartDiscardControl"
+ - "IPartDiscardControl"
 req.header: filterpipeline.h
 req.include-header: Filterpipeline.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - filterpipeline.h
 api_name:
 - IPartDiscardControl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -55,7 +54,7 @@ Filters can also create discard controls. To create a discard control, the filte
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPartDiscardControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPartDiscardControl</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPartDiscardControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPartDiscardControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

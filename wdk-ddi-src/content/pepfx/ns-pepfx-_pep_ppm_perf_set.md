@@ -10,6 +10,7 @@ keywords: ["_PEP_PPM_PERF_SET structure"]
 ms.keywords: "*PPEP_PPM_PERF_SET, PEP_PPM_PERF_SET, PEP_PPM_PERF_SET structure [Kernel-Mode Driver Architecture], PPEP_PPM_PERF_SET, PPEP_PPM_PERF_SET structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_PERF_SET, kernel.pep_ppm_perf_set, pepfx/PEP_PPM_PERF_SET, pepfx/PPEP_PPM_PERF_SET"
 f1_keywords:
  - "pepfx/PEP_PPM_PERF_SET"
+ - "PEP_PPM_PERF_SET"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - PEP_PPM_PERF_SET
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_PPM_PERF_SET, *PPEP_PPM_PERF_SET
 ---

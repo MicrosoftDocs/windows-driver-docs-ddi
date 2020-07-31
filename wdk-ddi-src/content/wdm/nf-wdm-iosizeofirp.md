@@ -10,6 +10,7 @@ keywords: ["IoSizeOfIrp macro"]
 ms.keywords: IoSizeOfIrp, IoSizeOfIrp routine [Kernel-Mode Driver Architecture], k104_7c08c9ff-7731-462e-acb8-3793f85a84c2.xml, kernel.iosizeofirp, wdm/IoSizeOfIrp
 f1_keywords:
  - "wdm/IoSizeOfIrp"
+ - "IoSizeOfIrp"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - IoSizeOfIrp
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

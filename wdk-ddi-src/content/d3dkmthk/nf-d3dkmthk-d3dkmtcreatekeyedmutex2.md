@@ -9,6 +9,7 @@ keywords: ["D3DKMTCreateKeyedMutex2 function"]
 ms.keywords: D3DKMTCreateKeyedMutex2, D3DKMTCreateKeyedMutex2 callback function [Display Devices], PFND3DKMT_CREATEKEYEDMUTEX2, PFND3DKMT_CREATEKEYEDMUTEX2 callback, d3dkmthk/D3DKMTCreateKeyedMutex2, display.d3dkmtcreatekeyedmutex2
 f1_keywords:
  - "d3dkmthk/D3DKMTCreateKeyedMutex2"
+ - "D3DKMTCreateKeyedMutex2"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -35,8 +36,6 @@ api_location:
 - Gdi32.dll
 api_name:
 - D3DKMTCreateKeyedMutex2
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

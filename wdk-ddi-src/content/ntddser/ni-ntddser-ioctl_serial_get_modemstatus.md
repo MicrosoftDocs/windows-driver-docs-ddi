@@ -10,6 +10,7 @@ keywords: ["IOCTL_SERIAL_GET_MODEMSTATUS IOCTL"]
 ms.keywords: IOCTL_SERIAL_GET_MODEMSTATUS, IOCTL_SERIAL_GET_MODEMSTATUS control, IOCTL_SERIAL_GET_MODEMSTATUS control code [Serial Ports], ntddser/IOCTL_SERIAL_GET_MODEMSTATUS, serports.ioctl_serial_get_modemstatus, serref_6948e4a9-43c8-4ebe-9a0c-c47a2d3f1a7a.xml
 f1_keywords:
  - "ntddser/IOCTL_SERIAL_GET_MODEMSTATUS"
+ - "IOCTL_SERIAL_GET_MODEMSTATUS"
 req.header: ntddser.h
 req.include-header: Ntddser.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddser.h
 api_name:
 - IOCTL_SERIAL_GET_MODEMSTATUS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

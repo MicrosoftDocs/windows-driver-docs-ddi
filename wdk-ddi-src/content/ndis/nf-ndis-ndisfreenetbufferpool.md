@@ -10,6 +10,7 @@ keywords: ["NdisFreeNetBufferPool function"]
 ms.keywords: NdisFreeNetBufferPool, NdisFreeNetBufferPool function [Network Drivers Starting with Windows Vista], ndis/NdisFreeNetBufferPool, ndis_netbuf_functions_ref_8fcb5f46-efc3-4059-9774-cbdf14c5500a.xml, netvista.ndisfreenetbufferpool
 f1_keywords:
  - "ndis/NdisFreeNetBufferPool"
+ - "NdisFreeNetBufferPool"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisFreeNetBufferPool
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

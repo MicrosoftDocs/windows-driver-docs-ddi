@@ -10,6 +10,7 @@ keywords: ["WdfFdoInitQueryPropertyEx function"]
 ms.keywords: WdfFdoInitQueryPropertyEx, WdfFdoInitQueryPropertyEx method, wdf.wdffdoinitquerypropertyex, wdffdo/WdfFdoInitQueryPropertyEx
 f1_keywords:
  - "wdffdo/WdfFdoInitQueryPropertyEx"
+ - "WdfFdoInitQueryPropertyEx"
 req.header: wdffdo.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfFdoInitQueryPropertyEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

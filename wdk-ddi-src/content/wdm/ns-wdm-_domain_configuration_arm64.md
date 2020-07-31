@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_DOMAIN_CONFIGURATION_ARM64 structure"]
 f1_keywords:
  - "wdm/_DOMAIN_CONFIGURATION_ARM64"
+ - "_DOMAIN_CONFIGURATION_ARM64"
 ms.keywords: _DOMAIN_CONFIGURATION_ARM64, *PDOMAIN_CONFIGURATION_ARM64, DOMAIN_CONFIGURATION_ARM64, 
 req.header: wdm.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - wdm.h
 api_name: 
 - _DOMAIN_CONFIGURATION_ARM64
-product:
-- Windows
 targetos: Windows
 ---
 

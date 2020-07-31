@@ -10,6 +10,7 @@ keywords: ["ObQueryObjectAuditingByHandle function"]
 ms.keywords: ObQueryObjectAuditingByHandle, ObQueryObjectAuditingByHandle function [Installable File System Drivers], ifsk.obqueryobjectauditingbyhandle, ntifs/ObQueryObjectAuditingByHandle, obref_1fb6339d-82a7-4c0f-bcaf-001886ebd898.xml
 f1_keywords:
  - "ntifs/ObQueryObjectAuditingByHandle"
+ - "ObQueryObjectAuditingByHandle"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - ObQueryObjectAuditingByHandle
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

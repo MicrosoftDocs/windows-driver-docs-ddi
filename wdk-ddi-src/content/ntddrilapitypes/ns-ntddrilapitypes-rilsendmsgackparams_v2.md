@@ -10,6 +10,7 @@ keywords: ["RILSENDMSGACKPARAMS_V2 structure"]
 ms.keywords: "*LPRILSENDMSGACKPARAMS, RILSENDMSGACKPARAMS, RILSENDMSGACKPARAMS_V2, RILSENDMSGACKPARAMS_V2 structure [Network Drivers Starting with Windows Vista], netvista.rilsendmsgackparams_v2, ntddrilapitypes/RILSENDMSGACKPARAMS_V2"
 f1_keywords:
  - "ntddrilapitypes/RILSENDMSGACKPARAMS_V2"
+ - "RILSENDMSGACKPARAMS_V2"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILSENDMSGACKPARAMS_V2
-product:
-- Windows
 targetos: Windows
 req.typenames: RILSENDMSGACKPARAMS_V2, RILSENDMSGACKPARAMS, *LPRILSENDMSGACKPARAMS
 ---

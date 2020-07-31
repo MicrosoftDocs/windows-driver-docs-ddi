@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["UdecxWdfDeviceNeedsReset function"]
 f1_keywords:
  - "udecxwdfdevice/UdecxWdfDeviceNeedsReset"
+ - "UdecxWdfDeviceNeedsReset"
 ms.keywords: UdecxWdfDeviceNeedsReset
 req.header: udecxwdfdevice.h
 req.include-header: Udecx.h
@@ -33,8 +34,6 @@ api_location:
 - Udecxstub.lib
 api_name: 
 - UdecxWdfDeviceNeedsReset
-product:
-- Windows
 targetos: Windows
 
 

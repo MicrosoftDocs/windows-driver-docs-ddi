@@ -10,6 +10,7 @@ keywords: ["FltInitializePushLock function"]
 ms.keywords: FltApiRef_e_to_o_348be4fc-280f-4dc3-b5fb-ada1aa037d09.xml, FltInitializePushLock, FltInitializePushLock routine [Installable File System Drivers], fltkernel/FltInitializePushLock, ifsk.fltinitializepushlock
 f1_keywords:
  - "fltkernel/FltInitializePushLock"
+ - "FltInitializePushLock"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltInitializePushLock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

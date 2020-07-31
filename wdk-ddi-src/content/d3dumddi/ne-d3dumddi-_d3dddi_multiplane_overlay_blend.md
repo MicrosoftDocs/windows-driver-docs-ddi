@@ -10,6 +10,7 @@ keywords: ["_D3DDDI_MULTIPLANE_OVERLAY_BLEND enumeration"]
 ms.keywords: D3DDDI_MULTIPLANE_OVERLAY_BLEND, D3DDDI_MULTIPLANE_OVERLAY_BLEND enumeration [Display Devices], D3DDDI_MULTIPLANE_OVERLAY_BLEND_ALPHABLEND, D3DDDI_MULTIPLANE_OVERLAY_BLEND_OPAQUE, _D3DDDI_MULTIPLANE_OVERLAY_BLEND, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_BLEND, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_BLEND_ALPHABLEND, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_BLEND_OPAQUE, display.d3dddi_multiplane_overlay_blend
 f1_keywords:
  - "d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_BLEND"
+ - "D3DDDI_MULTIPLANE_OVERLAY_BLEND"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - D3dumddi.h
 api_name:
 - D3DDDI_MULTIPLANE_OVERLAY_BLEND
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDI_MULTIPLANE_OVERLAY_BLEND
 ---

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_PAYMENT_SERVICE_OUT structure"]
 f1_keywords:
  - "treepaymentservice/_PAYMENT_SERVICE_OUT"
+ - "_PAYMENT_SERVICE_OUT"
 ms.keywords: _PAYMENT_SERVICE_OUT, PAYMENT_SERVICE_OUT, *PPAYMENT_SERVICE_OUT, 
 req.header: treepaymentservice.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - treepaymentservice.h
 api_name: 
 - _PAYMENT_SERVICE_OUT
-product:
-- Windows
 targetos: Windows
 ---
 

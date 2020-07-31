@@ -10,6 +10,7 @@ keywords: ["KsAddEvent function"]
 ms.keywords: KsAddEvent, KsAddEvent function [Streaming Media Devices], avfunc_20b264e1-c7ad-4b24-bff3-996b9d478a44.xml, ks/KsAddEvent, stream.ksaddevent
 f1_keywords:
  - "ks/KsAddEvent"
+ - "KsAddEvent"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsAddEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

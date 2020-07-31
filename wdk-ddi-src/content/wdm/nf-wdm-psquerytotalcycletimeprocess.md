@@ -10,6 +10,7 @@ keywords: ["PsQueryTotalCycleTimeProcess function"]
 ms.keywords: PsQueryTotalCycleTimeProcess, PsQueryTotalCycleTimeProcess routine [Kernel-Mode Driver Architecture], kernel.psquerytotalcycletimeprocess, wdm/PsQueryTotalCycleTimeProcess
 f1_keywords:
  - "wdm/PsQueryTotalCycleTimeProcess"
+ - "PsQueryTotalCycleTimeProcess"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ntoskrnl.dll
 api_name:
 - PsQueryTotalCycleTimeProcess
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

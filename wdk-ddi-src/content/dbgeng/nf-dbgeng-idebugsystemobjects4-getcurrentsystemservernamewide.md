@@ -10,6 +10,7 @@ keywords: ["IDebugSystemObjects4::GetCurrentSystemServerNameWide"]
 ms.keywords: GetCurrentSystemServerNameWide, GetCurrentSystemServerNameWide method [Windows Debugging], GetCurrentSystemServerNameWide method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects4 interface [Windows Debugging],GetCurrentSystemServerNameWide method, IDebugSystemObjects4.GetCurrentSystemServerNameWide, IDebugSystemObjects4::GetCurrentSystemServerNameWide, dbgeng/IDebugSystemObjects4::GetCurrentSystemServerNameWide, debugger.idebugsystemobjects4_getcurrentsystemservernamewide
 f1_keywords:
  - "dbgeng/IDebugSystemObjects4.GetCurrentSystemServerNameWide"
+ - "IDebugSystemObjects4.GetCurrentSystemServerNameWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Dbgeng.h
 api_name:
 - IDebugSystemObjects4.GetCurrentSystemServerNameWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols::ResetScope"]
 ms.keywords: IDebugSymbols interface [Windows Debugging],ResetScope method, IDebugSymbols.ResetScope, IDebugSymbols2 interface [Windows Debugging],ResetScope method, IDebugSymbols2::ResetScope, IDebugSymbols3 interface [Windows Debugging],ResetScope method, IDebugSymbols3::ResetScope, IDebugSymbols::ResetScope, IDebugSymbols_e3d0b307-57e7-4bc1-83f6-3352dd33a7aa.xml, ResetScope, ResetScope method [Windows Debugging], ResetScope method [Windows Debugging],IDebugSymbols interface, ResetScope method [Windows Debugging],IDebugSymbols2 interface, ResetScope method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols2::ResetScope, dbgeng/IDebugSymbols3::ResetScope, dbgeng/IDebugSymbols::ResetScope, debugger.resetscope
 f1_keywords:
  - "dbgeng/IDebugSymbols.ResetScope"
+ - "IDebugSymbols.ResetScope"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -38,8 +39,6 @@ api_name:
 - IDebugSymbols.ResetScope
 - IDebugSymbols2.ResetScope
 - IDebugSymbols3.ResetScope
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

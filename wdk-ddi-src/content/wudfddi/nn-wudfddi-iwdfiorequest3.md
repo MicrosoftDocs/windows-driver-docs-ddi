@@ -10,6 +10,7 @@ keywords: ["IWDFIoRequest3 interface"]
 ms.keywords: IWDFIoRequest3, IWDFIoRequest3 interface, IWDFIoRequest3 interface,described, umdf.iwdfiorequest3, wdf.iwdfiorequest3, wudfddi/IWDFIoRequest3
 f1_keywords:
  - "wudfddi/IWDFIoRequest3"
+ - "IWDFIoRequest3"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFIoRequest3
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

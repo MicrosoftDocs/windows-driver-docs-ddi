@@ -10,6 +10,7 @@ keywords: ["IoSetMasterIrpStatus function"]
 ms.keywords: IoSetMasterIrpStatus, IoSetMasterIrpStatus routine [Kernel-Mode Driver Architecture], kernel.iosetmasterirpstatus, ntddk/IoSetMasterIrpStatus
 f1_keywords:
  - "ntddk/IoSetMasterIrpStatus"
+ - "IoSetMasterIrpStatus"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoSetMasterIrpStatus
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

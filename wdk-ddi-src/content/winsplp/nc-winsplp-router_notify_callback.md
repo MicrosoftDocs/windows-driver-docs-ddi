@@ -10,6 +10,7 @@ keywords: ["ROUTER_NOTIFY_CALLBACK callback function"]
 ms.keywords: ROUTER_NOTIFY_CALLBACK, ROUTER_NOTIFY_CALLBACK callback, ROUTER_NOTIFY_CALLBACK callback function [Print Devices], print.router_notify_callback, winsplp/ROUTER_NOTIFY_CALLBACK
 f1_keywords:
  - "winsplp/ROUTER_NOTIFY_CALLBACK"
+ - "ROUTER_NOTIFY_CALLBACK"
 req.header: winsplp.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Winsplp.h
 api_name:
 - ROUTER_NOTIFY_CALLBACK
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

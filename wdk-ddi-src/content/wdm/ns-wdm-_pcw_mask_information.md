@@ -10,6 +10,7 @@ keywords: ["_PCW_MASK_INFORMATION structure"]
 ms.keywords: "*PPCW_MASK_INFORMATION, PCW_MASK_INFORMATION, PCW_MASK_INFORMATION structure [Driver Development Tools], PPCW_MASK_INFORMATION, PPCW_MASK_INFORMATION structure pointer [Driver Development Tools], _PCW_MASK_INFORMATION, devtest.pcw_mask_information, km_pcw_44887cd4-4c18-4c6e-9168-5e89f37e970a.xml, wdm/PCW_MASK_INFORMATION, wdm/PPCW_MASK_INFORMATION"
 f1_keywords:
  - "wdm/PCW_MASK_INFORMATION"
+ - "PCW_MASK_INFORMATION"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - PCW_MASK_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: PCW_MASK_INFORMATION, *PPCW_MASK_INFORMATION
 ---

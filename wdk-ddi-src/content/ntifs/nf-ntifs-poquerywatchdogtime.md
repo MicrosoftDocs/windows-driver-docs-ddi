@@ -10,6 +10,7 @@ keywords: ["PoQueryWatchdogTime function"]
 ms.keywords: PoQueryWatchdogTime, PoQueryWatchdogTime routine [Kernel-Mode Driver Architecture], kernel.poquerywatchdogtime, portn_1fe369ed-f8f0-4459-943f-a624764c279b.xml, wdm/PoQueryWatchdogTime
 f1_keywords:
  - "ntifs/PoQueryWatchdogTime"
+ - "PoQueryWatchdogTime"
 req.header: ntifs.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - PoQueryWatchdogTime
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

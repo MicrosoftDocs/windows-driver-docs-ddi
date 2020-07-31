@@ -10,6 +10,7 @@ keywords: ["IDebugControl2::GetNumberProcessors"]
 ms.keywords: GetNumberProcessors, GetNumberProcessors method [Windows Debugging], GetNumberProcessors method [Windows Debugging],IDebugControl interface, GetNumberProcessors method [Windows Debugging],IDebugControl2 interface, GetNumberProcessors method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetNumberProcessors method, IDebugControl2 interface [Windows Debugging],GetNumberProcessors method, IDebugControl2.GetNumberProcessors, IDebugControl2::GetNumberProcessors, IDebugControl3 interface [Windows Debugging],GetNumberProcessors method, IDebugControl3::GetNumberProcessors, IDebugControl::GetNumberProcessors, IDebugControl_0ddf74be-971f-4bd8-bdfd-4ceedfbbdc0f.xml, dbgeng/IDebugControl2::GetNumberProcessors, dbgeng/IDebugControl3::GetNumberProcessors, dbgeng/IDebugControl::GetNumberProcessors, debugger.getnumberprocessors
 f1_keywords:
  - "dbgeng/IDebugControl.GetNumberProcessors"
+ - "IDebugControl.GetNumberProcessors"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -38,8 +39,6 @@ api_name:
 - IDebugControl.GetNumberProcessors
 - IDebugControl2.GetNumberProcessors
 - IDebugControl3.GetNumberProcessors
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

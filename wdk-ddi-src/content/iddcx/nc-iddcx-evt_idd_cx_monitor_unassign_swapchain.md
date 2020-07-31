@@ -10,6 +10,7 @@ keywords: ["EVT_IDD_CX_MONITOR_UNASSIGN_SWAPCHAIN callback function"]
 ms.keywords: EVT_IDD_CX_MONITOR_UNASSIGN_SWAPCHAIN, EVT_IDD_CX_MONITOR_UNASSIGN_SWAPCHAIN callback, EvtIddCxMonitorUnassignSwapchain, EvtIddCxMonitorUnassignSwapchain callback function [Display Devices], PFN_IDD_CX_MONITOR_UNASSIGN_SWAPCHAIN, PFN_IDD_CX_MONITOR_UNASSIGN_SWAPCHAIN callback function pointer [Display Devices], display.evt_idd_cx_monitor_unassign_swapchain, iddcx/EvtIddCxMonitorUnassignSwapchain
 f1_keywords:
  - "iddcx/PFN_IDD_CX_MONITOR_UNASSIGN_SWAPCHAIN"
+ - "PFN_IDD_CX_MONITOR_UNASSIGN_SWAPCHAIN"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - iddcx.h
 api_name:
 - PFN_IDD_CX_MONITOR_UNASSIGN_SWAPCHAIN
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

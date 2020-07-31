@@ -10,6 +10,7 @@ keywords: ["NdisMRegisterDmaChannel function"]
 ms.keywords: NdisMRegisterDmaChannel, NdisMRegisterDmaChannel function [Network Drivers Starting with Windows Vista], dma_ref_c0361623-95c8-4218-b848-8da949f22033.xml, ndis/NdisMRegisterDmaChannel, netvista.ndismregisterdmachannel
 f1_keywords:
  - "ndis/NdisMRegisterDmaChannel"
+ - "NdisMRegisterDmaChannel"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisMRegisterDmaChannel
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

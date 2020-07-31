@@ -10,6 +10,7 @@ keywords: ["USBD_QueryBusTime function"]
 ms.keywords: USBD_QueryBusTime, USBD_QueryBusTime routine [Buses], buses.usbd_querybustime, usbdlib/USBD_QueryBusTime, usbfunc_2911ce15-3106-4c66-95c8-52ff57318131.xml
 f1_keywords:
  - "usbdlib/USBD_QueryBusTime"
+ - "USBD_QueryBusTime"
 req.header: usbdlib.h
 req.include-header: 
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Usbd.dll
 api_name:
 - USBD_QueryBusTime
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

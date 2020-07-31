@@ -10,6 +10,7 @@ keywords: ["IWDTFAction2::EnableObjectErrorLogging"]
 ms.keywords: EnableObjectErrorLogging, EnableObjectErrorLogging method [Windows Device Testing Framework], EnableObjectErrorLogging method [Windows Device Testing Framework],IWDTFAction2 interface, IWDTFAction2 interface [Windows Device Testing Framework],EnableObjectErrorLogging method, IWDTFAction2.EnableObjectErrorLogging, IWDTFAction2::EnableObjectErrorLogging, Microsoft.WDTF.IWDTFAction2.EnableObjectErrorLogging, Microsoft::WDTF::IWDTFAction2::EnableObjectErrorLogging, dtf.iwdtfaction2_enableobjecterrorlogging, wdtf/IWDTFAction2::EnableObjectErrorLogging
 f1_keywords:
  - "wdtf/IWDTFAction2.EnableObjectErrorLogging"
+ - "IWDTFAction2.EnableObjectErrorLogging"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WDTF.Interop.metadata_dll.dll
 api_name:
 - IWDTFAction2.EnableObjectErrorLogging
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

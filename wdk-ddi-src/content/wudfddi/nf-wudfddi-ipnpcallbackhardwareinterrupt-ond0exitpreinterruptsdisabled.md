@@ -10,6 +10,7 @@ keywords: ["IPnpCallbackHardwareInterrupt::OnD0ExitPreInterruptsDisabled"]
 ms.keywords: IPnpCallbackHardwareInterrupt interface,OnD0ExitPreInterruptsDisabled method, IPnpCallbackHardwareInterrupt.OnD0ExitPreInterruptsDisabled, IPnpCallbackHardwareInterrupt::OnD0ExitPreInterruptsDisabled, OnD0ExitPreInterruptsDisabled, OnD0ExitPreInterruptsDisabled method, OnD0ExitPreInterruptsDisabled method,IPnpCallbackHardwareInterrupt interface, umdf.ipnpcallbackhardwareinterrupt_ond0exitpreinterruptsdisabled, wdf.ipnpcallbackhardwareinterrupt_ond0exitpreinterruptsdisabled, wudfddi/IPnpCallbackHardwareInterrupt::OnD0ExitPreInterruptsDisabled
 f1_keywords:
  - "wudfddi/IPnpCallbackHardwareInterrupt.OnD0ExitPreInterruptsDisabled"
+ - "IPnpCallbackHardwareInterrupt.OnD0ExitPreInterruptsDisabled"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wudfddi.h
 api_name:
 - IPnpCallbackHardwareInterrupt.OnD0ExitPreInterruptsDisabled
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

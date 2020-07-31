@@ -10,6 +10,7 @@ keywords: ["RtlInsertElementGenericTable function"]
 ms.keywords: RtlInsertElementGenericTable, RtlInsertElementGenericTable routine [Installable File System Drivers], ifsk.rtlinsertelementgenerictable, ntddk/RtlInsertElementGenericTable, rtlref_62ab1129-906f-4ef7-b0d1-bec4bf6fce62.xml
 f1_keywords:
  - "ntddk/RtlInsertElementGenericTable"
+ - "RtlInsertElementGenericTable"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlInsertElementGenericTable
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["_PARALLEL_INTERRUPT_SERVICE_ROUTINE structure"]
 ms.keywords: "*PPARALLEL_INTERRUPT_SERVICE_ROUTINE, PARALLEL_INTERRUPT_SERVICE_ROUTINE, PARALLEL_INTERRUPT_SERVICE_ROUTINE structure [Parallel Ports], PPARALLEL_INTERRUPT_SERVICE_ROUTINE, PPARALLEL_INTERRUPT_SERVICE_ROUTINE structure pointer [Parallel Ports], _PARALLEL_INTERRUPT_SERVICE_ROUTINE, cisspd_db43e8c1-06d8-4a00-8f66-896987a45b83.xml, parallel/PARALLEL_INTERRUPT_SERVICE_ROUTINE, parallel/PPARALLEL_INTERRUPT_SERVICE_ROUTINE, parports.parallel_interrupt_service_routine"
 f1_keywords:
  - "parallel/PARALLEL_INTERRUPT_SERVICE_ROUTINE"
+ - "PARALLEL_INTERRUPT_SERVICE_ROUTINE"
 req.header: parallel.h
 req.include-header: Parallel.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - parallel.h
 api_name:
 - PARALLEL_INTERRUPT_SERVICE_ROUTINE
-product:
-- Windows
 targetos: Windows
 req.typenames: PARALLEL_INTERRUPT_SERVICE_ROUTINE, *PPARALLEL_INTERRUPT_SERVICE_ROUTINE
 ---

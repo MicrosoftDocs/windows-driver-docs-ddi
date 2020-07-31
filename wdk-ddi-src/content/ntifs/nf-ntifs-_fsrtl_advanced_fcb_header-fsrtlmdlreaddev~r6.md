@@ -10,6 +10,7 @@ keywords: ["FsRtlMdlReadDev function"]
 ms.keywords: FsRtlMdlReadDev, FsRtlMdlReadDev routine [Installable File System Drivers], fltkernel/FsRtlMdlReadDev, ifsk.fltfastiomdlread
 f1_keywords:
  - "ntifs/FsRtlMdlReadDev"
+ - "FsRtlMdlReadDev"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlMdlReadDev
-product:
-- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---

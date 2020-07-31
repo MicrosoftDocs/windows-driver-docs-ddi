@@ -10,6 +10,7 @@ keywords: ["CcGetFlushedValidData function"]
 ms.keywords: CcGetFlushedValidData, CcGetFlushedValidData routine [Installable File System Drivers], ccref_021f04d4-537c-49a3-bfac-8eeea908c100.xml, ifsk.ccgetflushedvaliddata, ntifs/CcGetFlushedValidData
 f1_keywords:
  - "ntifs/CcGetFlushedValidData"
+ - "CcGetFlushedValidData"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - CcGetFlushedValidData
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

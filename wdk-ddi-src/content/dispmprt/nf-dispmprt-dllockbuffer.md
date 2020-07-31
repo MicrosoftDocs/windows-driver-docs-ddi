@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DlLockBuffer function"]
 f1_keywords:
  - "dispmprt/DlLockBuffer"
+ - "DlLockBuffer"
 ms.keywords: DlLockBuffer
 req.header: dispmprt.h
 req.include-header:

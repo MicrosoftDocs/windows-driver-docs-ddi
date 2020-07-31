@@ -10,6 +10,7 @@ keywords: ["EVT_UFX_DEVICE_PORT_CHANGE callback function"]
 ms.keywords: EVT_UFX_DEVICE_PORT_CHANGE, EVT_UFX_DEVICE_PORT_CHANGE callback, EvtUfxDevicePortChange, EvtUfxDevicePortChange callback function [Buses], PFN_UFX_DEVICE_PORT_CHANGE, PFN_UFX_DEVICE_PORT_CHANGE callback function pointer [Buses], buses.evt_ufx_device_port_change, ufxclient/EvtUfxDevicePortChange
 f1_keywords:
  - "ufxclient/PFN_UFX_DEVICE_PORT_CHANGE"
+ - "PFN_UFX_DEVICE_PORT_CHANGE"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ufxclient.h
 api_name:
 - PFN_UFX_DEVICE_PORT_CHANGE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

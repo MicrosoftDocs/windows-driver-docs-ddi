@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["EVT_IDD_CX_MONITOR_GET_PHYSICAL_SIZE callback function"]
 f1_keywords:
  - "iddcx/EVT_IDD_CX_MONITOR_GET_PHYSICAL_SIZE"
+ - "EVT_IDD_CX_MONITOR_GET_PHYSICAL_SIZE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 req.header: iddcx.h

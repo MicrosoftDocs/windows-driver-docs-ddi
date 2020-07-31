@@ -10,6 +10,7 @@ keywords: ["WDF_READ_PORT_UCHAR function"]
 ms.keywords: WDF_READ_PORT_UCHAR, WDF_READ_PORT_UCHAR function, wdf.wdf_read_port_uchar, wdfhwaccess/WDF_READ_PORT_UCHAR
 f1_keywords:
  - "wdfhwaccess/WDF_READ_PORT_UCHAR"
+ - "WDF_READ_PORT_UCHAR"
 req.header: wdfhwaccess.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Wdfhwaccess.h
 api_name:
 - WDF_READ_PORT_UCHAR
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

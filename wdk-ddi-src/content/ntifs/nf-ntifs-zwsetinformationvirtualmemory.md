@@ -10,6 +10,7 @@ keywords: ["ZwSetInformationVirtualMemory function"]
 ms.keywords: ZwSetInformationVirtualMemory, ZwSetInformationVirtualMemory routine [Kernel-Mode Driver Architecture], kernel.zwsetinformationvirtualmemory, ntifs/ZwSetInformationVirtualMemory
 f1_keywords:
  - "ntifs/ZwSetInformationVirtualMemory"
+ - "ZwSetInformationVirtualMemory"
 req.header: ntifs.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - ZwSetInformationVirtualMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

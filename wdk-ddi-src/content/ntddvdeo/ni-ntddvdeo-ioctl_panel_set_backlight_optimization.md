@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["IOCTL_PANEL_SET_BACKLIGHT_OPTIMIZATION IOCTL"]
 f1_keywords:
  - "ntddvdeo/IOCTL_PANEL_SET_BACKLIGHT_OPTIMIZATION"
+ - "IOCTL_PANEL_SET_BACKLIGHT_OPTIMIZATION"
 req.header: ntddvdeo.h
 req.include-header:
 req.target-type:

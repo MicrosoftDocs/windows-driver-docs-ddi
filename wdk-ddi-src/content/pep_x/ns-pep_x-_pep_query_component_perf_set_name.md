@@ -10,6 +10,7 @@ keywords: ["_PEP_QUERY_COMPONENT_PERF_SET_NAME structure"]
 ms.keywords: "*PPEP_QUERY_COMPONENT_PERF_SET_NAME, PEP_QUERY_COMPONENT_PERF_SET_NAME, PEP_QUERY_COMPONENT_PERF_SET_NAME structure [Kernel-Mode Driver Architecture], PPEP_QUERY_COMPONENT_PERF_SET_NAME, PPEP_QUERY_COMPONENT_PERF_SET_NAME structure pointer [Kernel-Mode Driver Architecture], _PEP_QUERY_COMPONENT_PERF_SET_NAME, kernel.pep_query_component_perf_set_name, pepfx/PEP_QUERY_COMPONENT_PERF_SET_NAME, pepfx/PPEP_QUERY_COMPONENT_PERF_SET_NAME"
 f1_keywords:
  - "pep_x/PEP_QUERY_COMPONENT_PERF_SET_NAME"
+ - "PEP_QUERY_COMPONENT_PERF_SET_NAME"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - PEP_QUERY_COMPONENT_PERF_SET_NAME
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_QUERY_COMPONENT_PERF_SET_NAME, *PPEP_QUERY_COMPONENT_PERF_SET_NAME
 ---

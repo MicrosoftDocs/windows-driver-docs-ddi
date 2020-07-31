@@ -10,6 +10,7 @@ keywords: ["DMA_COMPLETION_STATUS enumeration"]
 ms.keywords: DMA_COMPLETION_STATUS, DMA_COMPLETION_STATUS enumeration [Kernel-Mode Driver Architecture], DmaAborted, DmaCancelled, DmaComplete, DmaError, kernel.dma_completion_status, wdm/DMA_COMPLETION_STATUS, wdm/DmaAborted, wdm/DmaCancelled, wdm/DmaComplete, wdm/DmaError
 f1_keywords:
  - "wdm/DMA_COMPLETION_STATUS"
+ - "DMA_COMPLETION_STATUS"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - DMA_COMPLETION_STATUS
-product:
-- Windows
 targetos: Windows
 req.typenames: DMA_COMPLETION_STATUS
 ---

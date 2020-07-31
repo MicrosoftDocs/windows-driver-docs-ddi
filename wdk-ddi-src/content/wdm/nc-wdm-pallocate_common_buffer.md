@@ -10,6 +10,7 @@ keywords: ["PALLOCATE_COMMON_BUFFER callback function"]
 ms.keywords: AllocateCommonBuffer, AllocateCommonBuffer callback function [Kernel-Mode Driver Architecture], PALLOCATE_COMMON_BUFFER, PALLOCATE_COMMON_BUFFER callback, kdma_0e4a27db-db3e-48db-81c2-d83a342a0cbc.xml, kernel.allocatecommonbuffer, wdm/AllocateCommonBuffer
 f1_keywords:
  - "wdm/AllocateCommonBuffer"
+ - "AllocateCommonBuffer"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - AllocateCommonBuffer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

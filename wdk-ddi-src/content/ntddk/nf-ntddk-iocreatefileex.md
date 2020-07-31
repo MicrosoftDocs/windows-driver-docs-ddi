@@ -10,6 +10,7 @@ keywords: ["IoCreateFileEx function"]
 ms.keywords: IoCreateFileEx, IoCreateFileEx routine [Installable File System Drivers], ifsk.iocreatefileex, ioref_7e2e6fcc-6ec5-4329-a855-c9f4a06b5434.xml, ntddk/IoCreateFileEx
 f1_keywords:
  - "ntddk/IoCreateFileEx"
+ - "IoCreateFileEx"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h, FltKernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoCreateFileEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

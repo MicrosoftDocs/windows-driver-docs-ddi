@@ -10,6 +10,7 @@ keywords: ["IDebugControl::GetWindbgExtensionApis64"]
 ms.keywords: GetWindbgExtensionApis64, GetWindbgExtensionApis64 method [Windows Debugging], GetWindbgExtensionApis64 method [Windows Debugging],IDebugControl interface, GetWindbgExtensionApis64 method [Windows Debugging],IDebugControl2 interface, GetWindbgExtensionApis64 method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetWindbgExtensionApis64 method, IDebugControl.GetWindbgExtensionApis64, IDebugControl2 interface [Windows Debugging],GetWindbgExtensionApis64 method, IDebugControl2::GetWindbgExtensionApis64, IDebugControl3 interface [Windows Debugging],GetWindbgExtensionApis64 method, IDebugControl3::GetWindbgExtensionApis64, IDebugControl::GetWindbgExtensionApis64, IDebugControl_51215e32-dcd3-440f-92ee-6ff82ae1c8e6.xml, dbgeng/IDebugControl2::GetWindbgExtensionApis64, dbgeng/IDebugControl3::GetWindbgExtensionApis64, dbgeng/IDebugControl::GetWindbgExtensionApis64, debugger.getwindbgextensionapis64
 f1_keywords:
  - "dbgeng/IDebugControl.GetWindbgExtensionApis64"
+ - "IDebugControl.GetWindbgExtensionApis64"
 req.header: dbgeng.h
 req.include-header: Wdbgexts.h, Dbgeng.h, Wdbgexts.h
 req.target-type: Desktop
@@ -38,8 +39,6 @@ api_name:
 - IDebugControl.GetWindbgExtensionApis64
 - IDebugControl2.GetWindbgExtensionApis64
 - IDebugControl3.GetWindbgExtensionApis64
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

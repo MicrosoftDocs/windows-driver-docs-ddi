@@ -10,6 +10,7 @@ keywords: ["_SECURE_ELEMENT_ROUTING_TYPE enumeration"]
 ms.keywords: "*PSECURE_ELEMENT_ROUTING_TYPE, RoutingTypeAid, RoutingTypeProtocol, RoutingTypeTech, SECURE_ELEMENT_ROUTING_TYPE, _SECURE_ELEMENT_ROUTING_TYPE, _SECURE_ELEMENT_ROUTING_TYPE enumeration [Near-Field Proximity Drivers], nfcsedev/RoutingTypeAid, nfcsedev/RoutingTypeProtocol, nfcsedev/RoutingTypeTech, nfcsedev/_SECURE_ELEMENT_ROUTING_TYPE, nfpdrivers._secure_element_routing_type"
 f1_keywords:
  - "nfcsedev/SECURE_ELEMENT_ROUTING_TYPE"
+ - "SECURE_ELEMENT_ROUTING_TYPE"
 req.header: nfcsedev.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - nfcsedev.h
 api_name:
 - SECURE_ELEMENT_ROUTING_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: SECURE_ELEMENT_ROUTING_TYPE, *PSECURE_ELEMENT_ROUTING_TYPE
 ---

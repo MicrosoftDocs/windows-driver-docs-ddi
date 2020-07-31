@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_VALIDATETEXTURESTAGESTATE structure"]
 ms.keywords: D3DDDIARG_VALIDATETEXTURESTAGESTATE, D3DDDIARG_VALIDATETEXTURESTAGESTATE structure [Display Devices], UMDisplayDriver_param_Structs_dde6cce2-f21e-4a16-8238-6956d9a465f5.xml, _D3DDDIARG_VALIDATETEXTURESTAGESTATE, d3dumddi/D3DDDIARG_VALIDATETEXTURESTAGESTATE, display.d3dddiarg_validatetexturestagestate
 f1_keywords:
  - "d3dumddi/D3DDDIARG_VALIDATETEXTURESTAGESTATE"
+ - "D3DDDIARG_VALIDATETEXTURESTAGESTATE"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDIARG_VALIDATETEXTURESTAGESTATE
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_VALIDATETEXTURESTAGESTATE
 ---

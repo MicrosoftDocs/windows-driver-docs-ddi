@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_DXGK_KERNEL_SUBMISSION_TYPE enumeration"]
 f1_keywords:
  - "d3dkmddi/_DXGK_KERNEL_SUBMISSION_TYPE"
+ - "_DXGK_KERNEL_SUBMISSION_TYPE"
 ms.keywords: _DXGK_KERNEL_SUBMISSION_TYPE, DXGK_KERNEL_SUBMISSION_TYPE, 
 req.header: d3dkmddi.h
 req.include-header:
@@ -26,8 +27,6 @@ api_location:
 - d3dkmddi.h
 api_name: 
 - _DXGK_KERNEL_SUBMISSION_TYPE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

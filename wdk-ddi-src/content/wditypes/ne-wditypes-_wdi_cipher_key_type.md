@@ -10,6 +10,7 @@ keywords: ["_WDI_CIPHER_KEY_TYPE enumeration"]
 ms.keywords: WDI_CIPHER_KEY_TYPE, WDI_CIPHER_KEY_TYPE enumeration [Device and Driver Installation], WDI_CIPHER_KEY_TYPE_GROUP_KEY, WDI_CIPHER_KEY_TYPE_IGTK, WDI_CIPHER_KEY_TYPE_PAIRWISE_KEY, _WDI_CIPHER_KEY_TYPE, netvista.wdi_cipher_key_type, netvista.wifi_cipher_key_type, wditypes/WDI_CIPHER_KEY_TYPE, wditypes/WDI_CIPHER_KEY_TYPE_GROUP_KEY, wditypes/WDI_CIPHER_KEY_TYPE_IGTK, wditypes/WDI_CIPHER_KEY_TYPE_PAIRWISE_KEY
 f1_keywords:
  - "wditypes/WDI_CIPHER_KEY_TYPE"
+ - "WDI_CIPHER_KEY_TYPE"
 req.header: wditypes.hpp
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wditypes.hpp
 api_name:
 - WDI_CIPHER_KEY_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: WDI_CIPHER_KEY_TYPE
 ---

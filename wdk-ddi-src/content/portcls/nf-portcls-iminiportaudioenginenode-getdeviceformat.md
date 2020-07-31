@@ -10,6 +10,7 @@ keywords: ["IMiniportAudioEngineNode::GetDeviceFormat"]
 ms.keywords: GetDeviceFormat, GetDeviceFormat method [Audio Devices], GetDeviceFormat method [Audio Devices],IMiniportAudioEngineNode interface, IMiniportAudioEngineNode interface [Audio Devices],GetDeviceFormat method, IMiniportAudioEngineNode.GetDeviceFormat, IMiniportAudioEngineNode::GetDeviceFormat, audio.iminiportaudioenginenode_getdeviceformat, portcls/IMiniportAudioEngineNode::GetDeviceFormat
 f1_keywords:
  - "portcls/IMiniportAudioEngineNode.GetDeviceFormat"
+ - "IMiniportAudioEngineNode.GetDeviceFormat"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Portcls.h
 api_name:
 - IMiniportAudioEngineNode.GetDeviceFormat
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["MINIPORT_RESTART callback function"]
 ms.keywords: MINIPORT_RESTART, MINIPORT_RESTART callback, MiniportRestart, MiniportRestart callback function [Network Drivers Starting with Windows Vista], miniport_functions_ref_3ab5d6bf-6192-4c9b-af88-a5dd0efe4d37.xml, ndis/MiniportRestart, netvista.miniportrestart
 f1_keywords:
  - "ndis/MiniportRestart"
+ - "MiniportRestart"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - MiniportRestart
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

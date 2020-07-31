@@ -10,6 +10,7 @@ keywords: ["WmiCompleteRequest function"]
 ms.keywords: WmiCompleteRequest, WmiCompleteRequest routine [Kernel-Mode Driver Architecture], k902_08bc200c-67e2-4806-b744-621f31ec6af3.xml, kernel.wmicompleterequest, wmilib/WmiCompleteRequest
 f1_keywords:
  - "wmilib/WmiCompleteRequest"
+ - "WmiCompleteRequest"
 req.header: wmilib.h
 req.include-header: Wmilib.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wmilib.dll
 api_name:
 - WmiCompleteRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

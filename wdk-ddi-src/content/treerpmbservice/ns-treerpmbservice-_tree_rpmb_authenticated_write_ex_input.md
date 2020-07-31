@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_TREE_RPMB_AUTHENTICATED_WRITE_EX_INPUT structure"]
 f1_keywords:
  - "treerpmbservice/_TREE_RPMB_AUTHENTICATED_WRITE_EX_INPUT"
+ - "_TREE_RPMB_AUTHENTICATED_WRITE_EX_INPUT"
 ms.keywords: _TREE_RPMB_AUTHENTICATED_WRITE_EX_INPUT, TREE_RPMB_AUTHENTICATED_WRITE_EX_INPUT, *PTREE_RPMB_AUTHENTICATED_WRITE_EX_INPUT, 
 req.header: treerpmbservice.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - treerpmbservice.h
 api_name: 
 - _TREE_RPMB_AUTHENTICATED_WRITE_EX_INPUT
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

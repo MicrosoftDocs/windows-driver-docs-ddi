@@ -10,6 +10,7 @@ keywords: ["_WINBIO_DATA structure"]
 ms.keywords: "*PWINBIO_DATA, PWINBIO_DATA, PWINBIO_DATA structure pointer [Biometric Devices], WINBIO_DATA, WINBIO_DATA structure [Biometric Devices], _WINBIO_DATA, biometric.winbio_data, biometric_ref_1d08ec8c-d73e-462f-a2f3-dce508bc159f.xml, winbio_ioctl/PWINBIO_DATA, winbio_ioctl/WINBIO_DATA"
 f1_keywords:
  - "winbio_ioctl/WINBIO_DATA"
+ - "WINBIO_DATA"
 req.header: winbio_ioctl.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - winbio_ioctl.h
 api_name:
 - WINBIO_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: WINBIO_DATA, *PWINBIO_DATA
 ---

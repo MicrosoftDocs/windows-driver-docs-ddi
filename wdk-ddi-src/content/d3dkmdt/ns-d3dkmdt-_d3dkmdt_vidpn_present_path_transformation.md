@@ -10,6 +10,7 @@ keywords: ["_D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION structure"]
 ms.keywords: D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION, D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION structure [Display Devices], DmStructs_3c1dd0fd-471f-48e0-9df5-003f98237ac2.xml, _D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION, d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION, display.d3dkmdt_vidpn_present_path_transformation
 f1_keywords:
  - "d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION"
+ - "D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION"
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dkmdt.h
 api_name:
 - D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION
 ---

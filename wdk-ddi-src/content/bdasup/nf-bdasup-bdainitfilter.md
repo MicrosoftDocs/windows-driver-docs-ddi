@@ -10,6 +10,7 @@ keywords: ["BdaInitFilter function"]
 ms.keywords: BdaInitFilter, BdaInitFilter function [Streaming Media Devices], bdaref_9ad4e7ef-1880-4233-83c5-4d066c8f26e5.xml, bdasup/BdaInitFilter, stream.bdainitfilter
 f1_keywords:
  - "bdasup/BdaInitFilter"
+ - "BdaInitFilter"
 req.header: bdasup.h
 req.include-header: Bdasup.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Bdasup.dll
 api_name:
 - BdaInitFilter
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

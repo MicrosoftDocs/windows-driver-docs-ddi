@@ -10,6 +10,7 @@ keywords: ["IPrinterScriptContext interface"]
 ms.keywords: IPrinterScriptContext, IPrinterScriptContext interface [Print Devices], IPrinterScriptContext interface [Print Devices],described, print.iprinterscriptcontext, printerextension/IPrinterScriptContext
 f1_keywords:
  - "printerextension/IPrinterScriptContext"
+ - "IPrinterScriptContext"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Printerextension.h
 api_name:
 - IPrinterScriptContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

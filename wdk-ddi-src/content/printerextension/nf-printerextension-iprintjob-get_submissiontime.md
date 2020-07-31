@@ -10,6 +10,7 @@ keywords: ["IPrintJob::get_SubmissionTime"]
 ms.keywords: IPrintJob interface [Print Devices],SubmissionTime property, IPrintJob.SubmissionTime, IPrintJob.get_SubmissionTime, IPrintJob::SubmissionTime, IPrintJob::get_SubmissionTime, SubmissionTime property [Print Devices], SubmissionTime property [Print Devices],IPrintJob interface, get_SubmissionTime, print.iprintjob_submissiontime, printerextension/IPrintJob::SubmissionTime, printerextension/IPrintJob::get_SubmissionTime
 f1_keywords:
  - "printerextension/IPrintJob.SubmissionTime"
+ - "IPrintJob.SubmissionTime"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IPrintJob.SubmissionTime
 - IPrintJob.get_SubmissionTime
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

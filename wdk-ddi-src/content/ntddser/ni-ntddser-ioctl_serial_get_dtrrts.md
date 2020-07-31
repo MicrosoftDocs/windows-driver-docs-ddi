@@ -10,6 +10,7 @@ keywords: ["IOCTL_SERIAL_GET_DTRRTS IOCTL"]
 ms.keywords: IOCTL_SERIAL_GET_DTRRTS, IOCTL_SERIAL_GET_DTRRTS control, IOCTL_SERIAL_GET_DTRRTS control code [Serial Ports], ntddser/IOCTL_SERIAL_GET_DTRRTS, serports.ioctl_serial_get_dtrrts, serref_7c57fa0a-a5a3-41cd-bea3-b4685b39daad.xml
 f1_keywords:
  - "ntddser/IOCTL_SERIAL_GET_DTRRTS"
+ - "IOCTL_SERIAL_GET_DTRRTS"
 req.header: ntddser.h
 req.include-header: Ntddser.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddser.h
 api_name:
 - IOCTL_SERIAL_GET_DTRRTS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

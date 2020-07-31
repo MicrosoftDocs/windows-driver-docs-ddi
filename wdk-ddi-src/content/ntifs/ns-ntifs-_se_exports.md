@@ -10,6 +10,7 @@ keywords: ["_SE_EXPORTS structure"]
 ms.keywords: "*PSE_EXPORTS, PSE_EXPORTS, PSE_EXPORTS structure pointer [Installable File System Drivers], SE_EXPORTS, SE_EXPORTS structure [Installable File System Drivers], SeExports, SeExports structure [Installable File System Drivers], _SE_EXPORTS, ifsk.seexports, ntifs/PSE_EXPORTS, ntifs/SeExports, securitystructures_39c83c22-bf3d-4755-ac4c-6bd31f8829d3.xml"
 f1_keywords:
  - "ntifs/SE_EXPORTS"
+ - "SE_EXPORTS"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - SE_EXPORTS
-product:
-- Windows
 targetos: Windows
 req.typenames: SE_EXPORTS, *PSE_EXPORTS
 ---

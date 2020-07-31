@@ -8,6 +8,7 @@ ms.date: 08/20/2018
 keywords: ["_NDIS_WWAN_SET_SAR_CONFIG structure"]
 f1_keywords:
  - "ndiswwan/_NDIS_WWAN_SET_SAR_CONFIG"
+ - "_NDIS_WWAN_SET_SAR_CONFIG"
 ms.keywords: _NDIS_WWAN_SET_SAR_CONFIG, NDIS_WWAN_SET_SAR_CONFIG, *PNDIS_WWAN_SET_SAR_CONFIG, 
 req.header: ndiswwan.h
 req.include-header:
@@ -30,8 +31,6 @@ api_location:
 - ndiswwan.h
 api_name: 
 - _NDIS_WWAN_SET_SAR_CONFIG
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

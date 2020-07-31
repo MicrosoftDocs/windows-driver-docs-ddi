@@ -9,6 +9,7 @@ keywords: ["_DXGK_VIDMMCAPS structure"]
 ms.keywords: DXGK_VIDMMCAPS, DXGK_VIDMMCAPS structure [Display Devices], DmStructs_0ec3e7bb-c14e-41b8-a148-7f77153972e8.xml, _DXGK_VIDMMCAPS, d3dkmddi/DXGK_VIDMMCAPS, display.dxgk_vidmmcaps
 f1_keywords:
  - "d3dkmddi/DXGK_VIDMMCAPS"
+ - "DXGK_VIDMMCAPS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGK_VIDMMCAPS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_VIDMMCAPS

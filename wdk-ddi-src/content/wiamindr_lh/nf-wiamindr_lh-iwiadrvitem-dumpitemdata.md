@@ -10,6 +10,7 @@ keywords: ["IWiaDrvItem::DumpItemData"]
 ms.keywords: DrvItem_fae1b45f-719d-4bce-92fd-d43844178800.xml, DumpItemData, DumpItemData method [Imaging Devices], DumpItemData method [Imaging Devices],IWiaDrvItem interface, IWiaDrvItem interface [Imaging Devices],DumpItemData method, IWiaDrvItem.DumpItemData, IWiaDrvItem::DumpItemData, image.iwiadrvitem_dumpitemdata, wiamindr_lh/IWiaDrvItem::DumpItemData
 f1_keywords:
  - "wiamindr_lh/IWiaDrvItem.DumpItemData"
+ - "IWiaDrvItem.DumpItemData"
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wiamindr_lh.h
 api_name:
 - IWiaDrvItem.DumpItemData
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_OPENKEYEDMUTEX structure"]
 ms.keywords: D3DKMT_OPENKEYEDMUTEX, D3DKMT_OPENKEYEDMUTEX structure [Display Devices], OpenGL_Structs_78a96126-b992-431f-9e91-c08c61694732.xml, _D3DKMT_OPENKEYEDMUTEX, d3dkmthk/D3DKMT_OPENKEYEDMUTEX, display.d3dkmt_openkeyedmutex
 f1_keywords:
  - "d3dkmthk/D3DKMT_OPENKEYEDMUTEX"
+ - "D3DKMT_OPENKEYEDMUTEX"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMT_OPENKEYEDMUTEX
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_OPENKEYEDMUTEX

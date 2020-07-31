@@ -9,6 +9,7 @@ keywords: ["_DXGKARG_SETTIMINGSFROMVIDPN structure"]
 ms.keywords: "*IN_OUT_PDXGKARG_SETTIMINGSFROMVIDPN, DXGKARG_SETTIMINGSFROMVIDPN, DXGKARG_SETTIMINGSFROMVIDPN structure [Display Devices], PDXGKARG_SETTIMINGSFROMVIDPN, PDXGKARG_SETTIMINGSFROMVIDPN structure pointer [Display Devices], _DXGKARG_SETTIMINGSFROMVIDPN, d3dkmddi/DXGKARG_SETTIMINGSFROMVIDPN, d3dkmddi/PDXGKARG_SETTIMINGSFROMVIDPN, display.dxgkarg_settimingsfromvidpn"
 f1_keywords:
  - "d3dkmddi/DXGKARG_SETTIMINGSFROMVIDPN"
+ - "DXGKARG_SETTIMINGSFROMVIDPN"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGKARG_SETTIMINGSFROMVIDPN
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGKARG_SETTIMINGSFROMVIDPN

@@ -10,6 +10,7 @@ keywords: ["_SES_CONFIGURATION_DIAGNOSTIC_PAGE structure"]
 ms.keywords: "*PSES_CONFIGURATION_DIAGNOSTIC_PAGE, PSES_CONFIGURATION_DIAGNOSTIC_PAGE, PSES_CONFIGURATION_DIAGNOSTIC_PAGE structure pointer [Storage Devices], SES_CONFIGURATION_DIAGNOSTIC_PAGE, SES_CONFIGURATION_DIAGNOSTIC_PAGE structure [Storage Devices], _SES_CONFIGURATION_DIAGNOSTIC_PAGE, scsi/PSES_CONFIGURATION_DIAGNOSTIC_PAGE, scsi/SES_CONFIGURATION_DIAGNOSTIC_PAGE, storage.ses_configuration_diagnostic_page"
 f1_keywords:
  - "storport/SES_CONFIGURATION_DIAGNOSTIC_PAGE"
+ - "SES_CONFIGURATION_DIAGNOSTIC_PAGE"
 req.header: storport.h
 req.include-header: Minitape.h, Storport.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - scsi.h
 api_name:
 - SES_CONFIGURATION_DIAGNOSTIC_PAGE
-product:
-- Windows
 targetos: Windows
 req.typenames: SES_CONFIGURATION_DIAGNOSTIC_PAGE, *PSES_CONFIGURATION_DIAGNOSTIC_PAGE
 ---

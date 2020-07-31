@@ -10,6 +10,7 @@ keywords: ["RILSYSTEMTIME structure"]
 ms.keywords: "*LPRILSYSTEMTIME, RILSYSTEMTIME, RILSYSTEMTIME structure [Network Drivers Starting with Windows Vista], netvista.rilsystemtime, ntddrilapitypes/RILSYSTEMTIME"
 f1_keywords:
  - "ntddrilapitypes/RILSYSTEMTIME"
+ - "RILSYSTEMTIME"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILSYSTEMTIME
-product:
-- Windows
 targetos: Windows
 req.typenames: RILSYSTEMTIME, *LPRILSYSTEMTIME
 ---

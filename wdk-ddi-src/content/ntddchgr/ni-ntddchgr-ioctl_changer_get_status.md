@@ -10,6 +10,7 @@ keywords: ["IOCTL_CHANGER_GET_STATUS IOCTL"]
 ms.keywords: IOCTL_CHANGER_GET_STATUS, IOCTL_CHANGER_GET_STATUS control, IOCTL_CHANGER_GET_STATUS control code [Storage Devices], k307_81e37b47-2d26-466d-9ddc-cc681398d607.xml, ntddchgr/IOCTL_CHANGER_GET_STATUS, storage.ioctl_changer_get_status
 f1_keywords:
  - "ntddchgr/IOCTL_CHANGER_GET_STATUS"
+ - "IOCTL_CHANGER_GET_STATUS"
 req.header: ntddchgr.h
 req.include-header: Ntddchgr.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddchgr.h
 api_name:
 - IOCTL_CHANGER_GET_STATUS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

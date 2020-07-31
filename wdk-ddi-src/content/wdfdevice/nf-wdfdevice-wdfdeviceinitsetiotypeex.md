@@ -10,6 +10,7 @@ keywords: ["WdfDeviceInitSetIoTypeEx function"]
 ms.keywords: WdfDeviceInitSetIoTypeEx, WdfDeviceInitSetIoTypeEx method, wdf.wdfdeviceinitassigniotype, wdf.wdfdeviceinitsetiotypeex, wdfdevice/WdfDeviceInitSetIoTypeEx
 f1_keywords:
  - "wdfdevice/WdfDeviceInitSetIoTypeEx"
+ - "WdfDeviceInitSetIoTypeEx"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfDeviceInitSetIoTypeEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

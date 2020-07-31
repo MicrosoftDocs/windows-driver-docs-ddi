@@ -10,6 +10,7 @@ keywords: ["_D3DDDI_DEVICEFUNCS structure"]
 ms.keywords: D3DDDI_DEVICEFUNCS, D3DDDI_DEVICEFUNCS structure [Display Devices], D3D_other_Structs_108deb18-33e2-4a62-9d10-777352fbdd27.xml, _D3DDDI_DEVICEFUNCS, d3dumddi/D3DDDI_DEVICEFUNCS, display.d3dddi_devicefuncs
 f1_keywords:
  - "d3dumddi/D3DDDI_DEVICEFUNCS"
+ - "D3DDDI_DEVICEFUNCS"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDI_DEVICEFUNCS
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDI_DEVICEFUNCS
 ---

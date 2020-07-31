@@ -10,6 +10,7 @@ keywords: ["PMRX_CHKFCB_CALLDOWN callback function"]
 ms.keywords: MRxAreFilesAliased, MRxAreFilesAliased routine [Installable File System Drivers], PMRX_CHKFCB_CALLDOWN, ifsk.mrxarefilesaliased, mrx/MRxAreFilesAliased, mrxref_5d6e6988-84d7-43ac-860e-4f184686a9e6.xml
 f1_keywords:
  - "mrx/MRxAreFilesAliased"
+ - "MRxAreFilesAliased"
 req.header: mrx.h
 req.include-header: Mrx.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - mrx.h
 api_name:
 - MRxAreFilesAliased
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

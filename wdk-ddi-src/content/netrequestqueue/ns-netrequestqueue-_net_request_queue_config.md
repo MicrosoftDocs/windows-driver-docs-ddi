@@ -8,6 +8,7 @@ ms.date: 02/09/2018
 keywords: ["_NET_REQUEST_QUEUE_CONFIG structure"]
 f1_keywords:
  - "netrequestqueue/NET_REQUEST_QUEUE_CONFIG"
+ - "NET_REQUEST_QUEUE_CONFIG"
 ms.keywords: _NET_REQUEST_QUEUE_CONFIG, *PNET_REQUEST_QUEUE_CONFIG, NET_REQUEST_QUEUE_CONFIG, 
 req.header: netrequestqueue.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 api_name: 
 - NET_REQUEST_QUEUE_CONFIG
 targetos: Windows
-product:
-- Windows
 ---
 
 # _NET_REQUEST_QUEUE_CONFIG structure

@@ -10,6 +10,7 @@ keywords: ["_PRINT_FEATURE_OPTION structure"]
 ms.keywords: PRINT_FEATURE_OPTION, PRINT_FEATURE_OPTION structure [Print Devices], _PRINT_FEATURE_OPTION, prcomoem/PRINT_FEATURE_OPTION, print.print_feature_option, print_unidrv-pscript_ui_2f776943-da30-40c4-909a-56472768c8df.xml
 f1_keywords:
  - "prcomoem/PRINT_FEATURE_OPTION"
+ - "PRINT_FEATURE_OPTION"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - prcomoem.h
 api_name:
 - PRINT_FEATURE_OPTION
-product:
-- Windows
 targetos: Windows
 req.typenames: PRINT_FEATURE_OPTION
 ---

@@ -10,6 +10,7 @@ keywords: ["IOCTL_CDROM_GET_INQUIRY_DATA IOCTL"]
 ms.keywords: IOCTL_CDROM_GET_INQUIRY_DATA, IOCTL_CDROM_GET_INQUIRY_DATA control, IOCTL_CDROM_GET_INQUIRY_DATA control code [Storage Devices], k307_9b073c58-022f-47c3-aeba-716277accce5.xml, ntddcdrm/IOCTL_CDROM_GET_INQUIRY_DATA, storage.ioctl_cdrom_get_inquiry_data
 f1_keywords:
  - "ntddcdrm/IOCTL_CDROM_GET_INQUIRY_DATA"
+ - "IOCTL_CDROM_GET_INQUIRY_DATA"
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddcdrm.h
 api_name:
 - IOCTL_CDROM_GET_INQUIRY_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

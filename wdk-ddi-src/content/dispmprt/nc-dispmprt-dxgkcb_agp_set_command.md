@@ -10,6 +10,7 @@ keywords: ["DXGKCB_AGP_SET_COMMAND callback function"]
 ms.keywords: AgpSetCommand, AgpSetCommand callback function [Display Devices], DXGKCB_AGP_SET_COMMAND, DXGKCB_AGP_SET_COMMAND callback, DpFunctions_7b0574a7-3c70-41e5-b7e7-908a86c2bccd.xml, display.agpsetcommand, dispmprt/AgpSetCommand
 f1_keywords:
  - "dispmprt/AgpSetCommand"
+ - "AgpSetCommand"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dispmprt.h
 api_name:
 - AgpSetCommand
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

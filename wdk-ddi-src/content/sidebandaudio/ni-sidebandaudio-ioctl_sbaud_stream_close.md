@@ -7,6 +7,7 @@ ms.date: 10/05/2018
 keywords: ["IOCTL_SBAUD_STREAM_CLOSE IOCTL"]
 f1_keywords:
  - "sidebandaudio/IOCTL_SBAUD_STREAM_CLOSE"
+ - "IOCTL_SBAUD_STREAM_CLOSE"
 req.header: sidebandaudio.h
 req.include-header:
 req.target-type:
@@ -27,8 +28,6 @@ api_location:
 - sidebandaudio.h
 api_name: 
 - IOCTL_SBAUD_STREAM_CLOSE
-product:
-- Windows
 targetos: Windows
 tech.root: audio
 ms.custom: RS5

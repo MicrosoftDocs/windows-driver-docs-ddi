@@ -10,6 +10,7 @@ keywords: ["PsGetSiloMonitorContextSlot function"]
 ms.keywords: PsGetSiloMonitorContextSlot, PsGetSiloMonitorContextSlot routine [Kernel-Mode Driver Architecture], kernel.psgetsilomonitorcontextslot, ntddk/PsGetSiloMonitorContextSlot
 f1_keywords:
  - "ntddk/PsGetSiloMonitorContextSlot"
+ - "PsGetSiloMonitorContextSlot"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - PsGetSiloMonitorContextSlot
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

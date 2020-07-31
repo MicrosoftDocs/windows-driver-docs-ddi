@@ -10,6 +10,7 @@ keywords: ["_WINBIO_VERSION structure"]
 ms.keywords: "*PWINBIO_VERSION, PWINBIO_VERSION, PWINBIO_VERSION structure pointer [Biometric Devices], WINBIO_VERSION, WINBIO_VERSION structure [Biometric Devices], _WINBIO_VERSION, biometric.winbio_version, biometric_ref_2f55229e-601f-422c-b35c-0fb58605b273.xml, winbio_types/PWINBIO_VERSION, winbio_types/WINBIO_VERSION"
 f1_keywords:
  - "winbio_types/WINBIO_VERSION"
+ - "WINBIO_VERSION"
 req.header: winbio_types.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - winbio_types.h
 api_name:
 - WINBIO_VERSION
-product:
-- Windows
 targetos: Windows
 req.typenames: WINBIO_VERSION, *PWINBIO_VERSION
 ---

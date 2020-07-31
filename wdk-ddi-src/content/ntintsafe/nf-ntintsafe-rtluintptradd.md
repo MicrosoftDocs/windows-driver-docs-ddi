@@ -10,6 +10,7 @@ keywords: ["RtlUIntPtrAdd function"]
 ms.keywords: RtlUIntPtrAdd, RtlUIntPtrAdd function [Kernel-Mode Driver Architecture], kernel.rtluintptradd, ntintsafe/RtlUIntPtrAdd
 f1_keywords:
  - "ntintsafe/RtlUIntPtrAdd"
+ - "RtlUIntPtrAdd"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Ntintsafe.h
 api_name:
 - RtlUIntPtrAdd
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

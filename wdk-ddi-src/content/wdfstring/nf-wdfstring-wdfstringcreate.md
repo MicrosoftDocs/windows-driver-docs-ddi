@@ -10,6 +10,7 @@ keywords: ["WdfStringCreate function"]
 ms.keywords: DFStringObjectRef_1c460976-7e49-45c8-9fdb-c6651048d387.xml, WdfStringCreate, WdfStringCreate method, kmdf.wdfstringcreate, wdf.wdfstringcreate, wdfstring/WdfStringCreate
 f1_keywords:
  - "wdfstring/WdfStringCreate"
+ - "WdfStringCreate"
 req.header: wdfstring.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfStringCreate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

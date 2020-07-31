@@ -10,6 +10,7 @@ keywords: ["RevertToPrinterSelf function"]
 ms.keywords: RevertToPrinterSelf, RevertToPrinterSelf function [Print Devices], print.reverttoprinterself, spoolfnc_4cf3c4c1-39bf-4ef6-b578-b9ff0955cbe5.xml, winsplp/RevertToPrinterSelf
 f1_keywords:
  - "winsplp/RevertToPrinterSelf"
+ - "RevertToPrinterSelf"
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Spoolss.dll
 api_name:
 - RevertToPrinterSelf
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

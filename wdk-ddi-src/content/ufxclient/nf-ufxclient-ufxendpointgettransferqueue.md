@@ -10,6 +10,7 @@ keywords: ["UfxEndpointGetTransferQueue function"]
 ms.keywords: UfxEndpointGetTransferQueue, UfxEndpointGetTransferQueue method [Buses], buses.ufxendpointgettransferqueue, ufxclient/UfxEndpointGetTransferQueue
 f1_keywords:
  - "ufxclient/UfxEndpointGetTransferQueue"
+ - "UfxEndpointGetTransferQueue"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ufxclient.h
 api_name:
 - UfxEndpointGetTransferQueue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

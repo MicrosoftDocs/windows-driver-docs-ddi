@@ -9,6 +9,7 @@ keywords: ["D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1 structure"]
 ms.keywords: D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1, D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1 structure [Display Devices], d3d10umddi/D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1, display.d3dwddm1_3ddi_d3d11_options_data1
 f1_keywords:
  - "d3d10umddi/D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1"
+ - "D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1"
 req.header: d3d10umddi.h
 req.include-header: 
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1

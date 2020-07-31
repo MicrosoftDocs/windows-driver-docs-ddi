@@ -10,6 +10,7 @@ keywords: ["RIL_GetUiccToolkitProfile function"]
 ms.keywords: RIL_GetUiccToolkitProfile, RIL_GetUiccToolkitProfile method [Network Drivers Starting with Windows Vista], netvista.ril_getuicctoolkitprofile, rilapi/RIL_GetUiccToolkitProfile
 f1_keywords:
  - "rilapi/RIL_GetUiccToolkitProfile"
+ - "RIL_GetUiccToolkitProfile"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_GetUiccToolkitProfile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

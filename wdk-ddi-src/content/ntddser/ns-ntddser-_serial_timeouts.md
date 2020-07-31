@@ -10,6 +10,7 @@ keywords: ["_SERIAL_TIMEOUTS structure"]
 ms.keywords: "*PSERIAL_TIMEOUTS, PSERIAL_TIMEOUTS, PSERIAL_TIMEOUTS structure pointer [Serial Ports], SERIAL_TIMEOUTS, SERIAL_TIMEOUTS structure [Serial Ports], _SERIAL_TIMEOUTS, ntddser/PSERIAL_TIMEOUTS, ntddser/SERIAL_TIMEOUTS, serports.serial_timeouts"
 f1_keywords:
  - "ntddser/SERIAL_TIMEOUTS"
+ - "SERIAL_TIMEOUTS"
 req.header: ntddser.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddser.h
 api_name:
 - SERIAL_TIMEOUTS
-product:
-- Windows
 targetos: Windows
 req.typenames: SERIAL_TIMEOUTS, *PSERIAL_TIMEOUTS
 ---

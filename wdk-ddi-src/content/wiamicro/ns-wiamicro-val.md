@@ -10,6 +10,7 @@ keywords: ["VAL structure"]
 ms.keywords: "*PVAL, MicroDrv_397b66fc-2f8e-434e-88ac-24b5cdd415d5.xml, PVAL, PVAL structure pointer [Imaging Devices], VAL, VAL structure [Imaging Devices], image.val, wiamicro/PVAL, wiamicro/VAL"
 f1_keywords:
  - "wiamicro/VAL"
+ - "VAL"
 req.header: wiamicro.h
 req.include-header: Wiamicro.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wiamicro.h
 api_name:
 - VAL
-product:
-- Windows
 targetos: Windows
 req.typenames: VAL, *PVAL
 ---

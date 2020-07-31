@@ -10,6 +10,7 @@ keywords: ["_KBUGCHECK_DATA structure"]
 ms.keywords: "*PKBUGCHECK_DATA, KBUGCHECK_DATA, KBUGCHECK_DATA structure [Kernel-Mode Driver Architecture], PKBUGCHECK_DATA, PKBUGCHECK_DATA structure pointer [Kernel-Mode Driver Architecture], _KBUGCHECK_DATA, aux_klib/KBUGCHECK_DATA, aux_klib/PKBUGCHECK_DATA, aux_klib_ced3c2df-3d09-45d8-8ae8-049d2bc46160.xml, kernel.kbugcheck_data"
 f1_keywords:
  - "aux_klib/KBUGCHECK_DATA"
+ - "KBUGCHECK_DATA"
 req.header: aux_klib.h
 req.include-header: Aux_klib.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - aux_klib.h
 api_name:
 - KBUGCHECK_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: KBUGCHECK_DATA, *PKBUGCHECK_DATA
 ---

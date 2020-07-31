@@ -10,6 +10,7 @@ keywords: ["KsMergeAutomationTables function"]
 ms.keywords: KsMergeAutomationTables, KsMergeAutomationTables function [Streaming Media Devices], avfunc_7e2146e2-0458-48ee-815a-8ea478187e07.xml, ks/KsMergeAutomationTables, stream.ksmergeautomationtables
 f1_keywords:
  - "ks/KsMergeAutomationTables"
+ - "KsMergeAutomationTables"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsMergeAutomationTables
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

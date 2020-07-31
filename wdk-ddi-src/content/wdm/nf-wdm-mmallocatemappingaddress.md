@@ -10,6 +10,7 @@ keywords: ["MmAllocateMappingAddress function"]
 ms.keywords: MmAllocateMappingAddress, MmAllocateMappingAddress routine [Kernel-Mode Driver Architecture], k106_3ef2863e-218c-4546-a934-152cbd0133e9.xml, kernel.mmallocatemappingaddress, wdm/MmAllocateMappingAddress
 f1_keywords:
  - "wdm/MmAllocateMappingAddress"
+ - "MmAllocateMappingAddress"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - MmAllocateMappingAddress
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

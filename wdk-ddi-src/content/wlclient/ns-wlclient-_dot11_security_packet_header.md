@@ -10,6 +10,7 @@ keywords: ["_DOT11_SECURITY_PACKET_HEADER structure"]
 ms.keywords: "*PDOT11_SECURITY_PACKET_HEADER, DOT11_SECURITY_PACKET_HEADER, DOT11_SECURITY_PACKET_HEADER structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_b694e370-23cc-4a3c-bb9f-deda406dd5c6.xml, PDOT11_SECURITY_PACKET_HEADER, PDOT11_SECURITY_PACKET_HEADER structure pointer [Network Drivers Starting with Windows Vista], _DOT11_SECURITY_PACKET_HEADER, netvista.dot11_security_packet_header, wlclient/DOT11_SECURITY_PACKET_HEADER, wlclient/PDOT11_SECURITY_PACKET_HEADER"
 f1_keywords:
  - "wlclient/DOT11_SECURITY_PACKET_HEADER"
+ - "DOT11_SECURITY_PACKET_HEADER"
 req.header: wlclient.h
 req.include-header: Wlanihv.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wlclient.h
 api_name:
 - DOT11_SECURITY_PACKET_HEADER
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT11_SECURITY_PACKET_HEADER, *PDOT11_SECURITY_PACKET_HEADER
 req.product: Windows 10 or later.

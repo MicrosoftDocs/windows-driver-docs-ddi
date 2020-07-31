@@ -10,6 +10,7 @@ keywords: ["ExtExtension::GetUnnamedArgStr"]
 ms.keywords: EngExtCpp_Ref_68f021ae-574a-4bc5-bea2-545f59b8ea74.xml, ExtExtension class [Windows Debugging],GetUnnamedArgStr method, ExtExtension.GetUnnamedArgStr, ExtExtension::GetUnnamedArgStr, GetUnnamedArgStr, GetUnnamedArgStr method [Windows Debugging], GetUnnamedArgStr method [Windows Debugging],ExtExtension class, debugger.getunnamedargstr
 f1_keywords:
  - "engextcpp/ExtExtension.GetUnnamedArgStr"
+ - "ExtExtension.GetUnnamedArgStr"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Engextcpp.hpp
 api_name:
 - ExtExtension.GetUnnamedArgStr
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

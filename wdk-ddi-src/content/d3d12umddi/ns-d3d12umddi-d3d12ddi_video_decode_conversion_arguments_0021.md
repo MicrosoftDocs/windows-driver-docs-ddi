@@ -9,6 +9,7 @@ keywords: ["D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0021 structure"]
 ms.keywords: D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0021, D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0021 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0021, display.d3d12ddi_video_decode_conversion_arguments
 f1_keywords:
  - "d3d12umddi/D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0021"
+ - "D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0021"
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - D3d12umddi.h
 api_name:
 - D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0021
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0021

@@ -10,6 +10,7 @@ keywords: ["FsRtlTeardownPerStreamContexts function"]
 ms.keywords: FsRtlTeardownPerStreamContexts, FsRtlTeardownPerStreamContexts routine [Installable File System Drivers], fsrtlref_15f597e3-b397-497b-9839-a61b6cf27745.xml, ifsk.fsrtlteardownperstreamcontexts, ntifs/FsRtlTeardownPerStreamContexts
 f1_keywords:
  - "ntifs/FsRtlTeardownPerStreamContexts"
+ - "FsRtlTeardownPerStreamContexts"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlTeardownPerStreamContexts
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["_USBC_FUNCTION_DESCRIPTOR structure"]
 ms.keywords: "*PUSBC_FUNCTION_DESCRIPTOR, PUSBC_FUNCTION_DESCRIPTOR, PUSBC_FUNCTION_DESCRIPTOR structure pointer [Buses], USBC_FUNCTION_DESCRIPTOR, USBC_FUNCTION_DESCRIPTOR structure [Buses], _USBC_FUNCTION_DESCRIPTOR, buses.usbc_function_descriptor, usbbusif/PUSBC_FUNCTION_DESCRIPTOR, usbbusif/USBC_FUNCTION_DESCRIPTOR, usbstrct_29623b3f-9def-4eb6-8735-eb695560ce27.xml"
 f1_keywords:
  - "usbbusif/USBC_FUNCTION_DESCRIPTOR"
+ - "USBC_FUNCTION_DESCRIPTOR"
 req.header: usbbusif.h
 req.include-header: Usbbusif.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - usbbusif.h
 api_name:
 - USBC_FUNCTION_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: USBC_FUNCTION_DESCRIPTOR, *PUSBC_FUNCTION_DESCRIPTOR
 ---

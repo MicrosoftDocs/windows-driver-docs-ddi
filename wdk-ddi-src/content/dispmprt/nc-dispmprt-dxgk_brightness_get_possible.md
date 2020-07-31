@@ -10,6 +10,7 @@ keywords: ["DXGK_BRIGHTNESS_GET_POSSIBLE callback function"]
 ms.keywords: DXGK_BRIGHTNESS_GET_POSSIBLE, DXGK_BRIGHTNESS_GET_POSSIBLE callback, DmFunctions_b14a6b62-e156-4548-9a0d-0a256cf84069.xml, DxgkDdiGetPossibleBrightness, DxgkDdiGetPossibleBrightness callback function [Display Devices], display.dxgkddigetpossiblebrightness, dispmprt/DxgkDdiGetPossibleBrightness
 f1_keywords:
  - "dispmprt/DxgkDdiGetPossibleBrightness"
+ - "DxgkDdiGetPossibleBrightness"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dispmprt.h
 api_name:
 - DxgkDdiGetPossibleBrightness
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

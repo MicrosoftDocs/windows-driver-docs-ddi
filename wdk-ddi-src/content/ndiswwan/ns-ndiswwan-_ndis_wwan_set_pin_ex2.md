@@ -8,6 +8,7 @@ ms.date: 04/10/2019
 keywords: ["_NDIS_WWAN_SET_PIN_EX2 structure"]
 f1_keywords:
  - "ndiswwan/_NDIS_WWAN_SET_PIN_EX2"
+ - "_NDIS_WWAN_SET_PIN_EX2"
 ms.keywords: _NDIS_WWAN_SET_PIN_EX2, NDIS_WWAN_SET_PIN_EX2, *PNDIS_WWAN_SET_PIN_EX2, 
 req.header: ndiswwan.h
 req.include-header:
@@ -30,8 +31,6 @@ api_location:
 - ndiswwan.h
 api_name: 
 - _NDIS_WWAN_SET_PIN_EX2
-product:
-- Windows
 targetos: Windows
 ms.custom: 19H1
 ---

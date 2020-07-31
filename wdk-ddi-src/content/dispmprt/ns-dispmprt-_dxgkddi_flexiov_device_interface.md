@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_DXGKDDI_FLEXIOV_DEVICE_INTERFACE structure"]
 f1_keywords:
  - "dispmprt/_DXGKDDI_FLEXIOV_DEVICE_INTERFACE"
+ - "_DXGKDDI_FLEXIOV_DEVICE_INTERFACE"
 ms.keywords: _DXGKDDI_FLEXIOV_DEVICE_INTERFACE, DXGKDDI_FLEXIOV_DEVICE_INTERFACE, *PDXGKDDI_FLEXIOV_DEVICE_INTERFACE, 
 req.header: dispmprt.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - dispmprt.h
 api_name: 
 - _DXGKDDI_FLEXIOV_DEVICE_INTERFACE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

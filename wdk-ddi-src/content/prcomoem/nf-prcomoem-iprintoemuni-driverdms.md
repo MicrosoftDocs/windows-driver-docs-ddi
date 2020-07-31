@@ -10,6 +10,7 @@ keywords: ["IPrintOemUni::DriverDMS"]
 ms.keywords: DriverDMS, DriverDMS method [Print Devices], DriverDMS method [Print Devices],IPrintOemUni interface, IPrintOemUni interface [Print Devices],DriverDMS method, IPrintOemUni.DriverDMS, IPrintOemUni::DriverDMS, prcomoem/IPrintOemUni::DriverDMS, print.iprintoemuni_driverdms, print_unidrv-pscript_rendering_fe76a6eb-0c5d-4e12-868b-c2e53df011e8.xml
 f1_keywords:
  - "prcomoem/IPrintOemUni.DriverDMS"
+ - "IPrintOemUni.DriverDMS"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - prcomoem.h
 api_name:
 - IPrintOemUni.DriverDMS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

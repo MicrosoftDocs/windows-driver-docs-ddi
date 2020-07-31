@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["NDIS_RAISE_IRQL_TO_DISPATCH macro"]
 f1_keywords:
  - "ndis/NDIS_RAISE_IRQL_TO_DISPATCH"
+ - "NDIS_RAISE_IRQL_TO_DISPATCH"
 ms.keywords: NDIS_RAISE_IRQL_TO_DISPATCH
 req.header: ndis.h
 req.include-header:
@@ -34,8 +35,6 @@ api_location:
 - ndis.h
 api_name: 
 - NDIS_RAISE_IRQL_TO_DISPATCH
-product:
-- Windows
 targetos: Windows
 
 ---

@@ -10,6 +10,7 @@ keywords: ["RtlInitString function"]
 ms.keywords: RtlInitString, RtlInitString routine [Kernel-Mode Driver Architecture], k109_c0bd87a9-811c-4312-b2b4-e82bdbfa5b8c.xml, kernel.rtlinitstring, wdm/RtlInitString
 f1_keywords:
  - "wdm/RtlInitString"
+ - "RtlInitString"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlInitString
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -58,7 +57,7 @@ The <b>RtlInitString</b> routine initializes a counted string of 8-bit character
 
 ### -param DestinationString [out]
 
-A pointer to the <b>STRING</b> structure to be initialized. The Ntdef.h header file defines this structure to be identical to the <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_string">ANSI_STRING</a> structure.
+A pointer to the <b>STRING</b> structure to be initialized. The Ntdef.h header file defines this structure to be identical to the <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-string">ANSI_STRING</a> structure.
 
 
 ### -param SourceString [in, optional]
@@ -117,7 +116,7 @@ You can use <b>RTL_CONSTANT_STRING</b> to initialize global variables.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_string">ANSI_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-string">ANSI_STRING</a>
  
 
  

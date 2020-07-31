@@ -10,6 +10,7 @@ keywords: ["IPrintCoreUI2::DrvGetDriverSetting"]
 ms.keywords: DrvGetDriverSetting, DrvGetDriverSetting method [Print Devices], DrvGetDriverSetting method [Print Devices],IPrintCoreUI2 interface, IPrintCoreUI2 interface [Print Devices],DrvGetDriverSetting method, IPrintCoreUI2.DrvGetDriverSetting, IPrintCoreUI2::DrvGetDriverSetting, prcomoem/IPrintCoreUI2::DrvGetDriverSetting, print.iprintcoreui2_drvgetdriversetting, print_unidrv-pscript_ui_cb699f2f-d919-4aec-8787-d466a5e8461c.xml
 f1_keywords:
  - "prcomoem/IPrintCoreUI2.DrvGetDriverSetting"
+ - "IPrintCoreUI2.DrvGetDriverSetting"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Prcomoem.h
 api_name:
 - IPrintCoreUI2.DrvGetDriverSetting
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

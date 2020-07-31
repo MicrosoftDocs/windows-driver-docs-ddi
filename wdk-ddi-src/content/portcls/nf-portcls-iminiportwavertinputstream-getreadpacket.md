@@ -10,6 +10,7 @@ keywords: ["IMiniportWaveRTInputStream::GetReadPacket"]
 ms.keywords: GetReadPacket, GetReadPacket method [Audio Devices], GetReadPacket method [Audio Devices],IMiniportWaveRTInputStream interface, IMiniportWaveRTInputStream interface [Audio Devices],GetReadPacket method, IMiniportWaveRTInputStream.GetReadPacket, IMiniportWaveRTInputStream::GetReadPacket, audio.iminiportwavertinputstream_getreadpacket, portcls/IMiniportWaveRTInputStream::GetReadPacket
 f1_keywords:
  - "portcls/IMiniportWaveRTInputStream.GetReadPacket"
+ - "IMiniportWaveRTInputStream.GetReadPacket"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IMiniportWaveRTInputStream.GetReadPacket
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

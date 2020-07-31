@@ -10,6 +10,7 @@ keywords: ["ExAllocatePoolWithQuotaTag function"]
 ms.keywords: ExAllocatePoolWithQuotaTag, ExAllocatePoolWithQuotaTag routine [Kernel-Mode Driver Architecture], k102_70106c3b-0d33-4fa7-be6a-2ac42cf3cbfe.xml, kernel.exallocatepoolwithquotatag, wdm/ExAllocatePoolWithQuotaTag
 f1_keywords:
  - "wdm/ExAllocatePoolWithQuotaTag"
+ - "ExAllocatePoolWithQuotaTag"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - ExAllocatePoolWithQuotaTag
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

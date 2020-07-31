@@ -10,6 +10,7 @@ keywords: ["IOCTL_ACPI_RELEASE_GLOBAL_LOCK IOCTL"]
 ms.keywords: IOCTL_ACPI_RELEASE_GLOBAL_LOCK, IOCTL_ACPI_RELEASE_GLOBAL_LOCK control, IOCTL_ACPI_RELEASE_GLOBAL_LOCK control code [ACPI Devices], acpi-meth-eval-ref_0b38285c-f188-4984-b214-86f9c3677c8d.xml, acpi.ioctl_acpi_release_global_lock, acpiioct/IOCTL_ACPI_RELEASE_GLOBAL_LOCK
 f1_keywords:
  - "acpiioct/IOCTL_ACPI_RELEASE_GLOBAL_LOCK"
+ - "IOCTL_ACPI_RELEASE_GLOBAL_LOCK"
 req.header: acpiioct.h
 req.include-header: Acpiioct.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Acpiioct.h
 api_name:
 - IOCTL_ACPI_RELEASE_GLOBAL_LOCK
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

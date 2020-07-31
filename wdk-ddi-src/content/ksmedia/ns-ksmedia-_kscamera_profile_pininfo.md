@@ -10,6 +10,7 @@ keywords: ["_KSCAMERA_PROFILE_PININFO structure"]
 ms.keywords: "*PKSCAMERA_PROFILE_PININFO, KSCAMERA_PROFILE_PININFO, KSCAMERA_PROFILE_PININFO structure [Streaming Media Devices], PKSCAMERA_PROFILE_PININFO, PKSCAMERA_PROFILE_PININFO structure pointer [Streaming Media Devices], _KSCAMERA_PROFILE_PININFO, ksmedia/KSCAMERA_PROFILE_PININFO, ksmedia/PKSCAMERA_PROFILE_PININFO, stream.kscamera_profile_pininfo"
 f1_keywords:
  - "ksmedia/KSCAMERA_PROFILE_PININFO"
+ - "KSCAMERA_PROFILE_PININFO"
 req.header: ksmedia.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ksmedia.h
 api_name:
 - KSCAMERA_PROFILE_PININFO
-product:
-- Windows
 targetos: Windows
 req.typenames: KSCAMERA_PROFILE_PININFO, *PKSCAMERA_PROFILE_PININFO
 ---

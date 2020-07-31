@@ -10,6 +10,7 @@ keywords: ["WdfDeviceGetCharacteristics function"]
 ms.keywords: DFDeviceObjectGeneralRef_b6e7566f-59b1-46ee-ab3d-45fa7316336e.xml, WdfDeviceGetCharacteristics, WdfDeviceGetCharacteristics method, kmdf.wdfdevicegetcharacteristics, wdf.wdfdevicegetcharacteristics, wdfdevice/WdfDeviceGetCharacteristics
 f1_keywords:
  - "wdfdevice/WdfDeviceGetCharacteristics"
+ - "WdfDeviceGetCharacteristics"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfDeviceGetCharacteristics
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ ms.date: 11/07/2019
 keywords: ["NetAdapterOffloadSetRscCapabilities function"]
 f1_keywords:
  - "netadapteroffload/NetAdapterOffloadSetRscCapabilities"
+ - "NetAdapterOffloadSetRscCapabilities"
 ms.keywords: NetAdapterOffloadSetRscCapabilities
 req.header: netadapteroffload.h
 req.include-header:

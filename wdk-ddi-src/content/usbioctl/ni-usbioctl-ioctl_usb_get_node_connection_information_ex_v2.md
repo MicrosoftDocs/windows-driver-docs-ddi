@@ -10,6 +10,7 @@ keywords: ["IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2 IOCTL"]
 ms.keywords: IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2, IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2 control, IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2 control code [Buses], buses.ioctl_usb_get_node_connection_information_ex_v2, usbioctl/IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2
 f1_keywords:
  - "usbioctl/IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2"
+ - "IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2"
 req.header: usbioctl.h
 req.include-header: Usbioctl.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Usbioctl.h
 api_name:
 - IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

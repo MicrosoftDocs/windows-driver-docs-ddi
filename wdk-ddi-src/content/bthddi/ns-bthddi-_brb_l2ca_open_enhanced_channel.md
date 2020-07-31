@@ -10,6 +10,7 @@ keywords: ["_BRB_L2CA_OPEN_ENHANCED_CHANNEL structure"]
 ms.keywords: BRB_L2CA_OPEN_ENHANCED_CHANNEL, BRB_L2CA_OPEN_ENHANCED_CHANNEL structure [Bluetooth Devices], PBRB_L2CA_OPEN_ENHANCED_CHANNEL, PBRB_L2CA_OPEN_ENHANCED_CHANNEL structure pointer [Bluetooth Devices], _BRB_L2CA_OPEN_ENHANCED_CHANNEL, _BRB_L2CA_OPEN_ENHANCED_CHANNEL structure [Bluetooth Devices], bltooth._brb_l2ca_open_enhanced_channel, bltooth.brb_l2ca_open_enhanced_channel, bthddi/PBRB_L2CA_OPEN_ENHANCED_CHANNEL, bthddi/_BRB_L2CA_OPEN_ENHANCED_CHANNEL
 f1_keywords:
  - "bthddi/BRB_L2CA_OPEN_ENHANCED_CHANNEL"
+ - "BRB_L2CA_OPEN_ENHANCED_CHANNEL"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Bthddi.h
 api_name:
 - BRB_L2CA_OPEN_ENHANCED_CHANNEL
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

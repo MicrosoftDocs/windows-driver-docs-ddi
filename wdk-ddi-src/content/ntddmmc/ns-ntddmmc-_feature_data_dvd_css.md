@@ -10,6 +10,7 @@ keywords: ["_FEATURE_DATA_DVD_CSS structure"]
 ms.keywords: "*PFEATURE_DATA_DVD_CSS, FEATURE_DATA_DVD_CSS, FEATURE_DATA_DVD_CSS structure [Storage Devices], PFEATURE_DATA_DVD_CSS, PFEATURE_DATA_DVD_CSS structure pointer [Storage Devices], _FEATURE_DATA_DVD_CSS, ntddmmc/FEATURE_DATA_DVD_CSS, ntddmmc/PFEATURE_DATA_DVD_CSS, storage.feature_data_dvd_css, structs-CD-ROM_1508ce84-fa86-423e-a6c1-4059bf0cb54c.xml"
 f1_keywords:
  - "ntddmmc/FEATURE_DATA_DVD_CSS"
+ - "FEATURE_DATA_DVD_CSS"
 req.header: ntddmmc.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddmmc.h
 api_name:
 - FEATURE_DATA_DVD_CSS
-product:
-- Windows
 targetos: Windows
 req.typenames: FEATURE_DATA_DVD_CSS, *PFEATURE_DATA_DVD_CSS
 ---

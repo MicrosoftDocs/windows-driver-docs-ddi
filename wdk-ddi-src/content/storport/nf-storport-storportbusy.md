@@ -10,6 +10,7 @@ keywords: ["StorPortBusy function"]
 ms.keywords: StorPortBusy, StorPortBusy routine [Storage Devices], storage.storportbusy, storport/StorPortBusy, storprt_b4765f8e-c48f-4920-bd1a-1ff9dbdd8656.xml
 f1_keywords:
  - "storport/StorPortBusy"
+ - "StorPortBusy"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Storport.dll
 api_name:
 - StorPortBusy
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

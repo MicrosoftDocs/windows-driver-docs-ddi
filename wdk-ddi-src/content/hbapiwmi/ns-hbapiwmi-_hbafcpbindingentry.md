@@ -10,6 +10,7 @@ keywords: ["_HBAFCPBindingEntry structure"]
 ms.keywords: "*PHBAFCPBindingEntry, HBAFCPBindingEntry, HBAFCPBindingEntry structure [Storage Devices], PHBAFCPBindingEntry, PHBAFCPBindingEntry structure pointer [Storage Devices], _HBAFCPBindingEntry, hbapiwmi/HBAFCPBindingEntry, hbapiwmi/PHBAFCPBindingEntry, storage.hbafcpbindingentry, structs-Fibre_1b8c019a-3cec-4aa3-b43c-8f52168c7a03.xml"
 f1_keywords:
  - "hbapiwmi/HBAFCPBindingEntry"
+ - "HBAFCPBindingEntry"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h, Hbaapi.h, Hbaapi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Hbapiwmi.h
 api_name:
 - HBAFCPBindingEntry
-product:
-- Windows
 targetos: Windows
 req.typenames: HBAFCPBindingEntry, *PHBAFCPBindingEntry
 ---

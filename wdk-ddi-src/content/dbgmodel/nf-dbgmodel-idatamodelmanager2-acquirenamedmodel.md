@@ -7,6 +7,7 @@ ms.date: 10/03/2018
 keywords: ["IDataModelManager2::AcquireNamedModel"]
 f1_keywords:
  - "dbgmodel/IDataModelManager2.AcquireNamedModel"
+ - "IDataModelManager2.AcquireNamedModel"
 ms.keywords: IDataModelManager2::AcquireNamedModel, AcquireNamedModel, IDataModelManager2.AcquireNamedModel, IDataModelManager2::AcquireNamedModel, IDataModelManager2.AcquireNamedModel
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDataModelManager2.AcquireNamedModel
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

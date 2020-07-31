@@ -10,6 +10,7 @@ keywords: ["FltCheckLockForReadAccess function"]
 ms.keywords: FltApiRef_a_to_d_24bd7e02-fdc4-44a3-8d1a-1bb164d26769.xml, FltCheckLockForReadAccess, FltCheckLockForReadAccess routine [Installable File System Drivers], fltkernel/FltCheckLockForReadAccess, ifsk.fltchecklockforreadaccess
 f1_keywords:
  - "fltkernel/FltCheckLockForReadAccess"
+ - "FltCheckLockForReadAccess"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - FltMgr.dll
 api_name:
 - FltCheckLockForReadAccess
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

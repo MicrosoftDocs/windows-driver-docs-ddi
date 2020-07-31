@@ -8,6 +8,7 @@ ms.date: 04/12/2018
 keywords: ["NET_BUFFER_DATA_PHYSICAL_ADDRESS macro"]
 f1_keywords:
  - "ndis/NET_BUFFER_DATA_PHYSICAL_ADDRESS"
+ - "NET_BUFFER_DATA_PHYSICAL_ADDRESS"
 ms.keywords: NET_BUFFER_DATA_PHYSICAL_ADDRESS
 req.header: ndis.h
 req.include-header:
@@ -34,8 +35,6 @@ api_location:
 - ndis.h
 api_name: 
 - NET_BUFFER_DATA_PHYSICAL_ADDRESS
-product:
-- Windows
 targetos: Windows
 
 ---

@@ -10,6 +10,7 @@ keywords: ["_ISCSI_Persistent_Login structure"]
 ms.keywords: "*PISCSI_Persistent_Login, ISCSI_Persistent_Login, ISCSI_Persistent_Login structure [Storage Devices], PISCSI_Persistent_Login, PISCSI_Persistent_Login structure pointer [Storage Devices], _ISCSI_Persistent_Login, iscsiop/ISCSI_Persistent_Login, iscsiop/PISCSI_Persistent_Login, storage.iscsi_persistent_login, structs-iSCSI_86b54cb5-df75-47c0-8dc4-337a5f46bea0.xml"
 f1_keywords:
  - "iscsiop/ISCSI_Persistent_Login"
+ - "ISCSI_Persistent_Login"
 req.header: iscsiop.h
 req.include-header: Iscsiop.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - iscsiop.h
 api_name:
 - ISCSI_Persistent_Login
-product:
-- Windows
 targetos: Windows
 req.typenames: ISCSI_Persistent_Login, *PISCSI_Persistent_Login
 ---

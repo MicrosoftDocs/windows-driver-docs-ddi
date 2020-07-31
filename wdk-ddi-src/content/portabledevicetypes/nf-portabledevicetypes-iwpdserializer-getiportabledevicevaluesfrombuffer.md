@@ -10,6 +10,7 @@ keywords: ["IWpdSerializer::GetIPortableDeviceValuesFromBuffer"]
 ms.keywords: GetIPortableDeviceValuesFromBuffer, GetIPortableDeviceValuesFromBuffer method, GetIPortableDeviceValuesFromBuffer method,IWpdSerializer interface, IWpdSerializer interface,GetIPortableDeviceValuesFromBuffer method, IWpdSerializer.GetIPortableDeviceValuesFromBuffer, IWpdSerializer::GetIPortableDeviceValuesFromBuffer, IWpdSerializerGetIPortableDeviceValuesFromBuffer, portabledevicetypes/IWpdSerializer::GetIPortableDeviceValuesFromBuffer, wpddk.iwpdserializer_getiportabledevicevaluesfrombuffer
 f1_keywords:
  - "portabledevicetypes/IWpdSerializer.GetIPortableDeviceValuesFromBuffer"
+ - "IWpdSerializer.GetIPortableDeviceValuesFromBuffer"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - PortableDeviceTypes.h
 api_name:
 - IWpdSerializer.GetIPortableDeviceValuesFromBuffer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

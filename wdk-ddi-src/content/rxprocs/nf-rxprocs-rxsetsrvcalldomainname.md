@@ -10,6 +10,7 @@ keywords: ["RxSetSrvCallDomainName function"]
 ms.keywords: RxSetSrvCallDomainName, RxSetSrvCallDomainName function [Installable File System Drivers], ifsk.rxsetsrvcalldomainname, rxprocs/RxSetSrvCallDomainName, rxref_f6d23374-7565-4922-8f1c-222886e3a90c.xml
 f1_keywords:
  - "rxprocs/RxSetSrvCallDomainName"
+ - "RxSetSrvCallDomainName"
 req.header: rxprocs.h
 req.include-header: Mrxfcb.h, Rxprocs.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - rxprocs.h
 api_name:
 - RxSetSrvCallDomainName
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

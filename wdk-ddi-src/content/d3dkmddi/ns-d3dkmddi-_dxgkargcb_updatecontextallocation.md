@@ -9,6 +9,7 @@ keywords: ["_DXGKARGCB_UPDATECONTEXTALLOCATION structure"]
 ms.keywords: DXGKARGCB_UPDATECONTEXTALLOCATION, DXGKARGCB_UPDATECONTEXTALLOCATION structure [Display Devices], _DXGKARGCB_UPDATECONTEXTALLOCATION, d3dkmddi/DXGKARGCB_UPDATECONTEXTALLOCATION, display.dxgkargcb_updatecontextallocation
 f1_keywords:
  - "d3dkmddi/DXGKARGCB_UPDATECONTEXTALLOCATION"
+ - "DXGKARGCB_UPDATECONTEXTALLOCATION"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGKARGCB_UPDATECONTEXTALLOCATION
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGKARGCB_UPDATECONTEXTALLOCATION

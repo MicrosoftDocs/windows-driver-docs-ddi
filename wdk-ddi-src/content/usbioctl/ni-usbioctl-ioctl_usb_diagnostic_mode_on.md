@@ -10,6 +10,7 @@ keywords: ["IOCTL_USB_DIAGNOSTIC_MODE_ON IOCTL"]
 ms.keywords: IOCTL_USB_DIAGNOSTIC_MODE_ON, IOCTL_USB_DIAGNOSTIC_MODE_ON control, IOCTL_USB_DIAGNOSTIC_MODE_ON control code [Buses], buses.ioctl_usb_diagnostic_mode_on, usbioctl/IOCTL_USB_DIAGNOSTIC_MODE_ON, usbirp_c1493559-ce0a-4b79-8c7b-5fff2f3c83b3.xml
 f1_keywords:
  - "usbioctl/IOCTL_USB_DIAGNOSTIC_MODE_ON"
+ - "IOCTL_USB_DIAGNOSTIC_MODE_ON"
 req.header: usbioctl.h
 req.include-header: Usbioctl.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Usbioctl.h
 api_name:
 - IOCTL_USB_DIAGNOSTIC_MODE_ON
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

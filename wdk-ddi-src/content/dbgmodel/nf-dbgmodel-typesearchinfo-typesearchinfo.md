@@ -7,6 +7,7 @@ ms.date: 10/02/2018
 keywords: ["TypeSearchInfo function"]
 f1_keywords:
  - "dbgmodel/TypeSearchInfo"
+ - "TypeSearchInfo"
 ms.keywords: TypeSearchInfo
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - TypeSearchInfo
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

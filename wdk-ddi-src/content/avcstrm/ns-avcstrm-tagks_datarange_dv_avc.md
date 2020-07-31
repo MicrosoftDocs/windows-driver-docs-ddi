@@ -10,6 +10,7 @@ keywords: ["tagKS_DATARANGE_DV_AVC structure"]
 ms.keywords: "*PKS_DATARANGE_DV_AVC, KS_DATARANGE_DV_AVC, KS_DATARANGE_DV_AVC structure [Streaming Media Devices], PKS_DATARANGE_DV_AVC, PKS_DATARANGE_DV_AVC structure pointer [Streaming Media Devices], avcsref_e5ebf0ed-91f2-415a-a6b1-346cfebf16b5.xml, avcstrm/KS_DATARANGE_DV_AVC, avcstrm/PKS_DATARANGE_DV_AVC, stream.ks_datarange_dv_avc, tagKS_DATARANGE_DV_AVC"
 f1_keywords:
  - "avcstrm/KS_DATARANGE_DV_AVC"
+ - "KS_DATARANGE_DV_AVC"
 req.header: avcstrm.h
 req.include-header: Avcstrm.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - avcstrm.h
 api_name:
 - KS_DATARANGE_DV_AVC
-product:
-- Windows
 targetos: Windows
 req.typenames: KS_DATARANGE_DV_AVC, *PKS_DATARANGE_DV_AVC
 ---

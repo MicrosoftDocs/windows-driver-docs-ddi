@@ -10,6 +10,7 @@ keywords: ["CallRouterFindFirstPrinterChangeNotification function"]
 ms.keywords: CallRouterFindFirstPrinterChangeNotification, CallRouterFindFirstPrinterChangeNotification function [Print Devices], print.callrouterfindfirstprinterchangenotification, winsplp/CallRouterFindFirstPrinterChangeNotification
 f1_keywords:
  - "winsplp/CallRouterFindFirstPrinterChangeNotification"
+ - "CallRouterFindFirstPrinterChangeNotification"
 req.header: winsplp.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Winsplp.h
 api_name:
 - CallRouterFindFirstPrinterChangeNotification
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

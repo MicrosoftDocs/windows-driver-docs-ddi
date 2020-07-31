@@ -10,6 +10,7 @@ keywords: ["RILGETDRIVERVERSIONPARAMS structure"]
 ms.keywords: "*LPRILGETDRIVERVERSIONPARAMS, RILGETDRIVERVERSIONPARAMS, RILGETDRIVERVERSIONPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilgetdriverversionparams, ntddrilapitypes/RILGETDRIVERVERSIONPARAMS"
 f1_keywords:
  - "rilapitypes/RILGETDRIVERVERSIONPARAMS"
+ - "RILGETDRIVERVERSIONPARAMS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILGETDRIVERVERSIONPARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILGETDRIVERVERSIONPARAMS, *LPRILGETDRIVERVERSIONPARAMS
 ---

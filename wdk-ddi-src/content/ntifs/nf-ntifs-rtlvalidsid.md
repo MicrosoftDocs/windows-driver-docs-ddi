@@ -10,6 +10,7 @@ keywords: ["RtlValidSid function"]
 ms.keywords: RtlValidSid, RtlValidSid routine [Installable File System Drivers], ifsk.rtlvalidsid, ntifs/RtlValidSid, rtlref_8d79344c-bb78-433f-be34-84e314b232a0.xml
 f1_keywords:
  - "ntifs/RtlValidSid"
+ - "RtlValidSid"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ntdll.dll
 api_name:
 - RtlValidSid
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

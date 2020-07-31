@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3COLD_REQUEST_AUX_POWER callback function"]
 f1_keywords:
  - "wdm/D3COLD_REQUEST_AUX_POWER"
+ - "D3COLD_REQUEST_AUX_POWER"
 req.header: wdm.h
 req.include-header:
 req.target-type:
@@ -32,8 +33,6 @@ api_location:
 - wdm.h
 api_name: 
 - D3COLD_REQUEST_AUX_POWER
-product:
-- Windows
 targetos: Windows
 ---
 

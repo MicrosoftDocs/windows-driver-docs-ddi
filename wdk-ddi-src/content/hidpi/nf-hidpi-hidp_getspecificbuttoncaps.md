@@ -10,6 +10,7 @@ keywords: ["HidP_GetSpecificButtonCaps function"]
 ms.keywords: HidP_GetSpecificButtonCaps, HidP_GetSpecificButtonCaps routine [Human Input Devices], hid.hidp_getspecificbuttoncaps, hidfunc_dd31da1d-fb42-4ac9-a15e-4c6585785c20.xml, hidpi/HidP_GetSpecificButtonCaps
 f1_keywords:
  - "hidpi/HidP_GetSpecificButtonCaps"
+ - "HidP_GetSpecificButtonCaps"
 req.header: hidpi.h
 req.include-header: Hidpi.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Hidparse.dll
 api_name:
 - HidP_GetSpecificButtonCaps
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

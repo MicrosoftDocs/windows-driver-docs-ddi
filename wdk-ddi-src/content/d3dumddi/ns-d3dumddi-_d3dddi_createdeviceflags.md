@@ -10,6 +10,7 @@ keywords: ["_D3DDDI_CREATEDEVICEFLAGS structure"]
 ms.keywords: D3DDDI_CREATEDEVICEFLAGS, D3DDDI_CREATEDEVICEFLAGS structure [Display Devices], D3D_other_Structs_45151acf-e91a-454b-be32-b7b7aaa619e9.xml, _D3DDDI_CREATEDEVICEFLAGS, d3dumddi/D3DDDI_CREATEDEVICEFLAGS, display.d3dddi_createdeviceflags
 f1_keywords:
  - "d3dumddi/D3DDDI_CREATEDEVICEFLAGS"
+ - "D3DDDI_CREATEDEVICEFLAGS"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h, D3dkmddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDI_CREATEDEVICEFLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDI_CREATEDEVICEFLAGS
 ---

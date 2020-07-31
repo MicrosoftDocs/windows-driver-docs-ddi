@@ -10,6 +10,7 @@ keywords: ["PFND3DDDI_DRAWTRIPATCH callback function"]
 ms.keywords: DrawTriPatch, DrawTriPatch callback function [Display Devices], PFND3DDDI_DRAWTRIPATCH, PFND3DDDI_DRAWTRIPATCH callback, UserModeDisplayDriver_Functions_a4fb7bb1-ec56-45a9-9cca-5be7bd9f4746.xml, d3dumddi/DrawTriPatch, display.drawtripatch
 f1_keywords:
  - "d3dumddi/DrawTriPatch"
+ - "DrawTriPatch"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - DrawTriPatch
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

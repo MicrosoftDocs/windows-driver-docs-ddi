@@ -10,6 +10,7 @@ keywords: ["KsPinSubmitFrameMdl function"]
 ms.keywords: KsPinSubmitFrameMdl, KsPinSubmitFrameMdl function [Streaming Media Devices], avfunc_456aa5db-b749-4b95-8448-f024dbc2030b.xml, ks/KsPinSubmitFrameMdl, stream.kspinsubmitframemdl
 f1_keywords:
  - "ks/KsPinSubmitFrameMdl"
+ - "KsPinSubmitFrameMdl"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsPinSubmitFrameMdl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

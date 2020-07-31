@@ -10,6 +10,7 @@ keywords: ["IDebugBreakpoint2::SetCommandWide"]
 ms.keywords: IDebugBreakpoint2 interface [Windows Debugging],SetCommandWide method, IDebugBreakpoint2.SetCommandWide, IDebugBreakpoint2::SetCommandWide, SetCommandWide, SetCommandWide method [Windows Debugging], SetCommandWide method [Windows Debugging],IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint2::SetCommandWide, debugger.setcommandwide
 f1_keywords:
  - "dbgeng/IDebugBreakpoint2.SetCommandWide"
+ - "IDebugBreakpoint2.SetCommandWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugBreakpoint2.SetCommandWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["NdisSetPhysicalAddressLow macro"]
 ms.keywords: NdisSetPhysicalAddressLow, NdisSetPhysicalAddressLow macro [Network Drivers Starting with Windows Vista], miniport_memory_shared_ref_b21e2206-bd6c-47b6-b518-31bcad459bbb.xml, ndis/NdisSetPhysicalAddressLow, netvista.ndissetphysicaladdresslow
 f1_keywords:
  - "ndis/NdisSetPhysicalAddressLow"
+ - "NdisSetPhysicalAddressLow"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NdisSetPhysicalAddressLow
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

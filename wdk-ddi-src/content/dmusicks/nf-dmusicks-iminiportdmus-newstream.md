@@ -10,6 +10,7 @@ keywords: ["IMiniportDMus::NewStream"]
 ms.keywords: IMiniportDMus interface [Audio Devices],NewStream method, IMiniportDMus.NewStream, IMiniportDMus::NewStream, NewStream, NewStream method [Audio Devices], NewStream method [Audio Devices],IMiniportDMus interface, audio.iminiportdmus_newstream, audmp-routines_a6630d1b-4a9d-4d4e-973a-09d541d7db70.xml, dmusicks/IMiniportDMus::NewStream
 f1_keywords:
  - "dmusicks/IMiniportDMus.NewStream"
+ - "IMiniportDMus.NewStream"
 req.header: dmusicks.h
 req.include-header: Dmusicks.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dmusicks.h
 api_name:
 - IMiniportDMus.NewStream
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

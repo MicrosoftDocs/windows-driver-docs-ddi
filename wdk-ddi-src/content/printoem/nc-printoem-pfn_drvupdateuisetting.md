@@ -10,6 +10,7 @@ keywords: ["PFN_DrvUpdateUISetting callback function"]
 ms.keywords: DrvUpdateUISetting, DrvUpdateUISetting callback function [Print Devices], PFN_DrvUpdateUISetting, PFN_DrvUpdateUISetting callback, print.drvupdateuisetting, print_obsoletefunctions_8982b302-4efb-4a54-a3ae-a27c2dd0baa9.xml, printoem/DrvUpdateUISetting
 f1_keywords:
  - "printoem/DrvUpdateUISetting"
+ - "DrvUpdateUISetting"
 req.header: printoem.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - printoem.h
 api_name:
 - DrvUpdateUISetting
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

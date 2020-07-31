@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["IOCTL_COLORSPACE_TRANSFORM_SET IOCTL"]
 f1_keywords:
  - "ntddvdeo/IOCTL_COLORSPACE_TRANSFORM_SET"
+ - "IOCTL_COLORSPACE_TRANSFORM_SET"
 req.header: ntddvdeo.h
 req.include-header:
 req.target-type:
@@ -30,8 +31,6 @@ api_location:
  - ntddvdeo.h
 api_name: 
  - IOCTL_COLORSPACE_TRANSFORM_SET
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

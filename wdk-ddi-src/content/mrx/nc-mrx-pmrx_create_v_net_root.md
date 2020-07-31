@@ -10,6 +10,7 @@ keywords: ["PMRX_CREATE_V_NET_ROOT callback function"]
 ms.keywords: MRxCreateVNetRoot, MRxCreateVNetRoot routine [Installable File System Drivers], PMRX_CREATE_V_NET_ROOT, ifsk.mrxcreatevnetroot, mrx/MRxCreateVNetRoot, mrxref_8d77acec-f7a5-40c6-8543-421c5c1f79f5.xml
 f1_keywords:
  - "mrx/MRxCreateVNetRoot"
+ - "MRxCreateVNetRoot"
 req.header: mrx.h
 req.include-header: Mrx.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - mrx.h
 api_name:
 - MRxCreateVNetRoot
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

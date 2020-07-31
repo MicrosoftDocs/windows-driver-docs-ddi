@@ -10,6 +10,7 @@ keywords: ["UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS_INIT function"]
 ms.keywords: UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS_INIT, UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS_INIT function [Buses], buses.ucx_default_endpoint_event_callbacks_init, ucxendpoint/UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS_INIT
 f1_keywords:
  - "ucxendpoint/UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS_INIT"
+ - "UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS_INIT"
 req.header: ucxendpoint.h
 req.include-header: Ucxclass.h, Ucxendpoint.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ucxendpoint.h
 api_name:
 - UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

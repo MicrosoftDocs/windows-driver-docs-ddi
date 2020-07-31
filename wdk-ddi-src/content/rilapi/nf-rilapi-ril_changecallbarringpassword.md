@@ -10,6 +10,7 @@ keywords: ["RIL_ChangeCallBarringPassword function"]
 ms.keywords: RIL_ChangeCallBarringPassword, RIL_ChangeCallBarringPassword method [Network Drivers Starting with Windows Vista], netvista.ril_changecallbarringpassword, rilapi/RIL_ChangeCallBarringPassword
 f1_keywords:
  - "rilapi/RIL_ChangeCallBarringPassword"
+ - "RIL_ChangeCallBarringPassword"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_ChangeCallBarringPassword
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

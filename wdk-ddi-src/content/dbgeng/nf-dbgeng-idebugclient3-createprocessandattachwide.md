@@ -10,6 +10,7 @@ keywords: ["IDebugClient3::CreateProcessAndAttachWide"]
 ms.keywords: CreateProcessAndAttachWide, CreateProcessAndAttachWide method [Windows Debugging], CreateProcessAndAttachWide method [Windows Debugging],IDebugClient3 interface, CreateProcessAndAttachWide method [Windows Debugging],IDebugClient4 interface, CreateProcessAndAttachWide method [Windows Debugging],IDebugClient5 interface, IDebugClient3 interface [Windows Debugging],CreateProcessAndAttachWide method, IDebugClient3.CreateProcessAndAttachWide, IDebugClient3::CreateProcessAndAttachWide, IDebugClient4 interface [Windows Debugging],CreateProcessAndAttachWide method, IDebugClient4::CreateProcessAndAttachWide, IDebugClient5 interface [Windows Debugging],CreateProcessAndAttachWide method, IDebugClient5::CreateProcessAndAttachWide, dbgeng/IDebugClient3::CreateProcessAndAttachWide, dbgeng/IDebugClient4::CreateProcessAndAttachWide, dbgeng/IDebugClient5::CreateProcessAndAttachWide, debugger.createprocessandattachwide
 f1_keywords:
  - "dbgeng/IDebugClient3.CreateProcessAndAttachWide"
+ - "IDebugClient3.CreateProcessAndAttachWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -38,8 +39,6 @@ api_name:
 - IDebugClient3.CreateProcessAndAttachWide
 - IDebugClient4.CreateProcessAndAttachWide
 - IDebugClient5.CreateProcessAndAttachWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

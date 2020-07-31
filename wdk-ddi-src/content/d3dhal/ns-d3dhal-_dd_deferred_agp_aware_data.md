@@ -10,6 +10,7 @@ keywords: ["_DD_DEFERRED_AGP_AWARE_DATA structure"]
 ms.keywords: DD_DEFERRED_AGP_AWARE_DATA, DD_DEFERRED_AGP_AWARE_DATA structure [Display Devices], _DD_DEFERRED_AGP_AWARE_DATA, d3dhal/DD_DEFERRED_AGP_AWARE_DATA, d3dstrct_f07b3180-3442-4c3f-974b-eaf58a3a03df.xml, display.dd_deferred_agp_aware_data
 f1_keywords:
  - "d3dhal/DD_DEFERRED_AGP_AWARE_DATA"
+ - "DD_DEFERRED_AGP_AWARE_DATA"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dhal.h
 api_name:
 - DD_DEFERRED_AGP_AWARE_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: DD_DEFERRED_AGP_AWARE_DATA
 ---

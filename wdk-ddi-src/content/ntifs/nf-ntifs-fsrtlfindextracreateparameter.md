@@ -10,6 +10,7 @@ keywords: ["FsRtlFindExtraCreateParameter function"]
 ms.keywords: FsRtlFindExtraCreateParameter, FsRtlFindExtraCreateParameter routine [Installable File System Drivers], fsrtlref_3536c7a7-2d3c-4aa5-9a91-5579a8108655.xml, ifsk.fsrtlfindextracreateparameter, ntifs/FsRtlFindExtraCreateParameter
 f1_keywords:
  - "ntifs/FsRtlFindExtraCreateParameter"
+ - "FsRtlFindExtraCreateParameter"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlFindExtraCreateParameter
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

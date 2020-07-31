@@ -8,6 +8,7 @@ ms.date: 10/19/2018
 keywords: ["UART_INITIALIZE_PORT callback function"]
 f1_keywords:
  - "uart/UART_INITIALIZE_PORT"
+ - "UART_INITIALIZE_PORT"
 req.header: uart.h
 req.include-header:
 req.target-type:
@@ -33,8 +34,6 @@ api_location:
 - uart.h
 api_name:
 - UART_INITIALIZE_PORT
-product:
-- Windows
 targetos: Windows
 ---
 

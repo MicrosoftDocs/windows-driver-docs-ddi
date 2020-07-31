@@ -10,6 +10,7 @@ keywords: ["WdfIoResourceListGetCount function"]
 ms.keywords: DFResourceObjectRef_19542c4c-aed9-412b-83c7-38209836a679.xml, WdfIoResourceListGetCount, WdfIoResourceListGetCount method, kmdf.wdfioresourcelistgetcount, wdf.wdfioresourcelistgetcount, wdfresource/WdfIoResourceListGetCount
 f1_keywords:
  - "wdfresource/WdfIoResourceListGetCount"
+ - "WdfIoResourceListGetCount"
 req.header: wdfresource.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfIoResourceListGetCount
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

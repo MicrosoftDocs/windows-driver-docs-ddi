@@ -10,6 +10,7 @@ keywords: ["_BDA_BUFFER structure"]
 ms.keywords: "*PBDA_BUFFER, BDA_BUFFER, BDA_BUFFER structure [Streaming Media Devices], PBDA_BUFFER, PBDA_BUFFER structure pointer [Streaming Media Devices], _BDA_BUFFER, bdatypes/BDA_BUFFER, bdatypes/PBDA_BUFFER, stream.bda_buffer"
 f1_keywords:
  - "bdatypes/BDA_BUFFER"
+ - "BDA_BUFFER"
 req.header: bdatypes.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Bdatypes.h
 api_name:
 - BDA_BUFFER
-product:
-- Windows
 targetos: Windows
 req.typenames: BDA_BUFFER, *PBDA_BUFFER
 ---

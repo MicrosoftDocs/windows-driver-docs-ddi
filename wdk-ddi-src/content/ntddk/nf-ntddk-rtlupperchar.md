@@ -10,6 +10,7 @@ keywords: ["RtlUpperChar function"]
 ms.keywords: RtlUpperChar, RtlUpperChar routine [Kernel-Mode Driver Architecture], k109_c1a13e9a-f863-4bcd-ae89-daee0c3d3a4b.xml, kernel.rtlupperchar, ntddk/RtlUpperChar
 f1_keywords:
  - "ntddk/RtlUpperChar"
+ - "RtlUpperChar"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlUpperChar
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

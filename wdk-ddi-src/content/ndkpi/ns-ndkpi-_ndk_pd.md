@@ -10,6 +10,7 @@ keywords: ["_NDK_PD structure"]
 ms.keywords: NDK_PD, NDK_PD structure [Network Drivers Starting with Windows Vista], PNDK_PD, PNDK_PD structure pointer [Network Drivers Starting with Windows Vista], _NDK_PD, ndkpi/NDK_PD, ndkpi/PNDK_PD, netvista.ndk_pd
 f1_keywords:
  - "ndkpi/NDK_PD"
+ - "NDK_PD"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ndkpi.h
 api_name:
 - NDK_PD
-product:
-- Windows
 targetos: Windows
 req.typenames: NDK_PD
 ---

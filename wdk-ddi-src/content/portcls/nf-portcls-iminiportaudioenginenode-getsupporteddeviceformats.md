@@ -10,6 +10,7 @@ keywords: ["IMiniportAudioEngineNode::GetSupportedDeviceFormats"]
 ms.keywords: GetSupportedDeviceFormats, GetSupportedDeviceFormats method [Audio Devices], GetSupportedDeviceFormats method [Audio Devices],IMiniportAudioEngineNode interface, IMiniportAudioEngineNode interface [Audio Devices],GetSupportedDeviceFormats method, IMiniportAudioEngineNode.GetSupportedDeviceFormats, IMiniportAudioEngineNode::GetSupportedDeviceFormats, audio.iminiportaudioenginenode_getsupporteddeviceformats, portcls/IMiniportAudioEngineNode::GetSupportedDeviceFormats
 f1_keywords:
  - "portcls/IMiniportAudioEngineNode.GetSupportedDeviceFormats"
+ - "IMiniportAudioEngineNode.GetSupportedDeviceFormats"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Portcls.h
 api_name:
 - IMiniportAudioEngineNode.GetSupportedDeviceFormats
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

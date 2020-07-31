@@ -10,6 +10,7 @@ keywords: ["IDebugClient5::SetQuitLockStringWide"]
 ms.keywords: IDebugClient5 interface [Windows Debugging],SetQuitLockStringWide method, IDebugClient5.SetQuitLockStringWide, IDebugClient5::SetQuitLockStringWide, SetQuitLockStringWide, SetQuitLockStringWide method [Windows Debugging], SetQuitLockStringWide method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient5::SetQuitLockStringWide, debugger.idebugclient5_setquitlockstringwide
 f1_keywords:
  - "dbgeng/IDebugClient5.SetQuitLockStringWide"
+ - "IDebugClient5.SetQuitLockStringWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugClient5.SetQuitLockStringWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

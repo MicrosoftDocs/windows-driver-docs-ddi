@@ -10,6 +10,7 @@ keywords: ["RILMSGBCGENERALWARNINGTYPE enumeration"]
 ms.keywords: RILMSGBCGENERALWARNINGTYPE, RILMSGBCGENERALWARNINGTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_WARNINGTYPE_EARTHQUAKETSUNAMI, RIL_WARNINGTYPE_MAX, RIL_WARNINGTYPE_OTHER, RIL_WARNINGTYPE_RESERVED, RIL_WARNINGTYPE_TEST, RIL_WARNINGTYPE_TSUNAMI, netvista.rilmsgbcgeneralwarningtype, ntddrilapitypes/RILMSGBCGENERALWARNINGTYPE, ntddrilapitypes/RIL_WARNINGTYPE_EARTHQUAKETSUNAMI, ntddrilapitypes/RIL_WARNINGTYPE_MAX, ntddrilapitypes/RIL_WARNINGTYPE_OTHER, ntddrilapitypes/RIL_WARNINGTYPE_RESERVED, ntddrilapitypes/RIL_WARNINGTYPE_TEST, ntddrilapitypes/RIL_WARNINGTYPE_TSUNAMI
 f1_keywords:
  - "ntddrilapitypes/RILMSGBCGENERALWARNINGTYPE"
+ - "RILMSGBCGENERALWARNINGTYPE"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILMSGBCGENERALWARNINGTYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: RILMSGBCGENERALWARNINGTYPE
 ---

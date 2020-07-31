@@ -10,6 +10,7 @@ keywords: ["IPrinterScriptableStream::Seek"]
 ms.keywords: IPrinterScriptableStream interface [Print Devices],Seek method, IPrinterScriptableStream.Seek, IPrinterScriptableStream::Seek, Seek, Seek method [Print Devices], Seek method [Print Devices],IPrinterScriptableStream interface, print.iprinterscriptablestream__seek, printerextension/IPrinterScriptableStream::Seek
 f1_keywords:
  - "printerextension/IPrinterScriptableStream.Seek"
+ - "IPrinterScriptableStream.Seek"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Printerextension.h
 api_name:
 - IPrinterScriptableStream.Seek
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

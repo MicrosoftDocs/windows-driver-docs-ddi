@@ -28,7 +28,8 @@ api_name:
  - DXGK_DIAG_DISPLAY_LINK_STATE
 f1_keywords:
  - dispmprt/_DXGK_DIAG_DISPLAY_LINK_STATE
- - dispmprt/DXGK_DIAG_DISPLAY_LINK_STATE
+ - dispmprt//DXGK_DIAG_DISPLAY_LINK_STATE
+ - DXGK_DIAG_DISPLAY_LINK_STATE
 dev_langs:
  - c++
 ---

@@ -10,6 +10,7 @@ keywords: ["BdaMethodCreatePin function"]
 ms.keywords: BdaMethodCreatePin, BdaMethodCreatePin function [Streaming Media Devices], bdaref_492b1847-e4b7-4dfd-a8b1-c6c17fc6aff8.xml, bdasup/BdaMethodCreatePin, stream.bdamethodcreatepin
 f1_keywords:
  - "bdasup/BdaMethodCreatePin"
+ - "BdaMethodCreatePin"
 req.header: bdasup.h
 req.include-header: Bdasup.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Bdasup.dll
 api_name:
 - BdaMethodCreatePin
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

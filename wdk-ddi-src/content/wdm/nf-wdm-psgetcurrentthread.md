@@ -10,6 +10,7 @@ keywords: ["PsGetCurrentThread function"]
 ms.keywords: ExGetCurrentResourceThread, PsGetCurrentThread, PsGetCurrentThread routine [Kernel-Mode Driver Architecture], k108_75fb6f47-8a13-4f2c-9b94-a8b7125bbcb6.xml, kernel.psgetcurrentthread, wdm/PsGetCurrentThread
 f1_keywords:
  - "wdm/PsGetCurrentThread"
+ - "PsGetCurrentThread"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - PsGetCurrentThread
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

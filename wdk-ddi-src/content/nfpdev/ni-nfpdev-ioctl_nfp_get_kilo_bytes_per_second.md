@@ -10,6 +10,7 @@ keywords: ["IOCTL_NFP_GET_KILO_BYTES_PER_SECOND IOCTL"]
 ms.keywords: IOCTL_NFP_GET_KILO_BYTES_PER_SECOND, IOCTL_NFP_GET_KILO_BYTES_PER_SECOND control, IOCTL_NFP_GET_KILO_BYTES_PER_SECOND control code [Near-Field Proximity Drivers], _IOCTL_NFP_GET_KILO_BYTES_PER_SECOND, nfpdev/IOCTL_NFP_GET_KILO_BYTES_PER_SECOND, nfpdrivers.ioctl_nfp_get_kilo_bytes_per_second
 f1_keywords:
  - "nfpdev/IOCTL_NFP_GET_KILO_BYTES_PER_SECOND"
+ - "IOCTL_NFP_GET_KILO_BYTES_PER_SECOND"
 req.header: nfpdev.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - nfpdev.h
 api_name:
 - IOCTL_NFP_GET_KILO_BYTES_PER_SECOND
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

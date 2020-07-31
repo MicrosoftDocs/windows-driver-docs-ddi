@@ -10,6 +10,7 @@ keywords: ["tagWPD_PARAMETER_USAGE_TYPES enumeration"]
 ms.keywords: WPD_PARAMETER_USAGE_IN, WPD_PARAMETER_USAGE_INOUT, WPD_PARAMETER_USAGE_OUT, WPD_PARAMETER_USAGE_RETURN, WPD_PARAMETER_USAGE_TYPES, WPD_PARAMETER_USAGE_TYPES enumeration, portabledevice/WPD_PARAMETER_USAGE_IN, portabledevice/WPD_PARAMETER_USAGE_INOUT, portabledevice/WPD_PARAMETER_USAGE_OUT, portabledevice/WPD_PARAMETER_USAGE_RETURN, portabledevice/WPD_PARAMETER_USAGE_TYPES, tagWPD_PARAMETER_USAGE_TYPES, wpddk.wpd_parameter_usage_types
 f1_keywords:
  - "portabledevice/WPD_PARAMETER_USAGE_TYPES"
+ - "WPD_PARAMETER_USAGE_TYPES"
 req.header: portabledevice.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - PortableDevice.h
 api_name:
 - WPD_PARAMETER_USAGE_TYPES
-product:
-- Windows
 targetos: Windows
 req.typenames: WPD_PARAMETER_USAGE_TYPES
 ms.custom: RS5

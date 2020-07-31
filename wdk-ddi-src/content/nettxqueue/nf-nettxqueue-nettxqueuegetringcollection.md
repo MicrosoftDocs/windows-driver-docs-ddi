@@ -8,6 +8,7 @@ ms.date: 01/31/2019
 keywords: ["NetTxQueueGetRingCollection function"]
 f1_keywords:
  - "nettxqueue/NetTxQueueCreate"
+ - "NetTxQueueCreate"
 ms.keywords: NetTxQueueGetRingCollection
 req.header: nettxqueue.h
 req.include-header: netadaptercx.h
@@ -34,8 +35,6 @@ apilocation:
 - NtosKrnl.exe
 apiname: 
 - NetTxQueueGetRingCollection
-product:
-- Windows
 targetos: Windows
 
 ---

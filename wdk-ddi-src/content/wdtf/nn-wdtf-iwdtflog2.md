@@ -10,6 +10,7 @@ keywords: ["IWDTFLOG2 interface"]
 ms.keywords: IWDTFLOG2, IWDTFLOG2 interface [Windows Device Testing Framework], IWDTFLOG2 interface [Windows Device Testing Framework],described, Microsoft.WDTF.IWDTFLOG2, dtf.iwdtflog2, wdtf/IWDTFLOG2
 f1_keywords:
  - "wdtf/IWDTFLOG2"
+ - "IWDTFLOG2"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - WDTF.Interop.metadata_dll.dll
 api_name:
 - IWDTFLOG2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

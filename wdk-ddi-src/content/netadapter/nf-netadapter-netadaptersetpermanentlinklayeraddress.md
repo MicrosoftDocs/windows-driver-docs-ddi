@@ -8,6 +8,7 @@ ms.date: 02/06/2018
 keywords: ["NetAdapterSetPermanentLinkLayerAddress function"]
 f1_keywords:
  - "netadapter/NetAdapterSetPermanentLinkLayerAddress"
+ - "NetAdapterSetPermanentLinkLayerAddress"
 ms.keywords: NetAdapterSetPermanentLinkLayerAddress
 req.header: netadapter.h
 req.include-header: netadaptercx.h
@@ -38,8 +39,6 @@ api_location:
 api_name: 
 - NetAdapterSetPermanentLinkLayerAddress
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetAdapterSetPermanentLinkLayerAddress function

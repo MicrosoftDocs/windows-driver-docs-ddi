@@ -10,6 +10,7 @@ keywords: ["WdfPdoInitAddHardwareID function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_f06f24ea-f0f8-4ce7-8b70-725de7b5c970.xml, WdfPdoInitAddHardwareID, WdfPdoInitAddHardwareID method, kmdf.wdfpdoinitaddhardwareid, wdf.wdfpdoinitaddhardwareid, wdfpdo/WdfPdoInitAddHardwareID
 f1_keywords:
  - "wdfpdo/WdfPdoInitAddHardwareID"
+ - "WdfPdoInitAddHardwareID"
 req.header: wdfpdo.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfPdoInitAddHardwareID
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

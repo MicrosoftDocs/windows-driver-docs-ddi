@@ -10,6 +10,7 @@ keywords: ["EVT_SERCX2_SYSTEM_DMA_RECEIVE_CONFIGURE_DMA_CHANNEL callback functio
 ms.keywords: 2/EvtSerCx2SystemDmaReceiveConfigureDmaChannel, EVT_SERCX2_SYSTEM_DMA_RECEIVE_CONFIGURE_DMA_CHANNEL, EVT_SERCX2_SYSTEM_DMA_RECEIVE_CONFIGURE_DMA_CHANNEL callback, EvtSerCx2SystemDmaReceiveConfigureDmaChannel, EvtSerCx2SystemDmaReceiveConfigureDmaChannel callback function [Serial Ports], serports.evtsercx2systemdmareceiveconfiguredmachannel
 f1_keywords:
  - "sercx/EvtSerCx2SystemDmaReceiveConfigureDmaChannel"
+ - "EvtSerCx2SystemDmaReceiveConfigureDmaChannel"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - 2.0\Sercx.h
 api_name:
 - EvtSerCx2SystemDmaReceiveConfigureDmaChannel
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

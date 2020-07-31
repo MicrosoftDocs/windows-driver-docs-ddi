@@ -10,6 +10,7 @@ keywords: ["IPrintSchemaParameterDefinition::get_UnitType"]
 ms.keywords: IPrintSchemaParameterDefinition interface [Print Devices],UnitType property, IPrintSchemaParameterDefinition.UnitType, IPrintSchemaParameterDefinition.get_UnitType, IPrintSchemaParameterDefinition::UnitType, IPrintSchemaParameterDefinition::get_UnitType, UnitType property [Print Devices], UnitType property [Print Devices],IPrintSchemaParameterDefinition interface, get_UnitType, print._iprintschemaparameterdefinition_unittype, printerextension/IPrintSchemaParameterDefinition::UnitType, printerextension/IPrintSchemaParameterDefinition::get_UnitType
 f1_keywords:
  - "printerextension/IPrintSchemaParameterDefinition.UnitType"
+ - "IPrintSchemaParameterDefinition.UnitType"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IPrintSchemaParameterDefinition.UnitType
 - IPrintSchemaParameterDefinition.get_UnitType
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

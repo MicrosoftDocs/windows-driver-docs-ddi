@@ -10,6 +10,7 @@ keywords: ["IPositionNotify interface"]
 ms.keywords: IPositionNotify, IPositionNotify interface [Audio Devices], IPositionNotify interface [Audio Devices],described, audio.ipositionnotify, dmusicks/IPositionNotify
 f1_keywords:
  - "dmusicks/IPositionNotify"
+ - "IPositionNotify"
 req.header: dmusicks.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dmusicks.h
 api_name:
 - IPositionNotify
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

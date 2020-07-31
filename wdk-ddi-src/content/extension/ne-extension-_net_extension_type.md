@@ -10,6 +10,7 @@ ms.date: 09/23/2019
 keywords: ["NET_EXTENSION_TYPE enumeration"]
 f1_keywords:
  - "extension/-_NET_EXTENSION_GET_TYPE"
+ - "-_NET_EXTENSION_GET_TYPE"
 ms.keywords: NET_EXTENSION_TYPE, NET_EXTENSION_TYPE, 
 req.header: extension.h
 req.include-header:

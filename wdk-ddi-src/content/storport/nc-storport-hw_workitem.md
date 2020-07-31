@@ -10,6 +10,7 @@ keywords: ["HW_WORKITEM callback function"]
 ms.keywords: HW_WORKITEM, HwStorWorkItem, HwStorWorkItem routine [Storage Devices], storage.hwstorworkitem, storport/HwStorWorkItem
 f1_keywords:
  - "storport/HwStorWorkItem"
+ - "HwStorWorkItem"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - storport.h
 api_name:
 - HwStorWorkItem
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

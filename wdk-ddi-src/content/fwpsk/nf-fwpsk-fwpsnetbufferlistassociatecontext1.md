@@ -10,6 +10,7 @@ keywords: ["FwpsNetBufferListAssociateContext1 function"]
 ms.keywords: FwpsNetBufferListAssociateContext1, FwpsNetBufferListAssociateContext1 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsNetBufferListAssociateContext1, netvista.fwpsnetbufferlistassociatecontext1
 f1_keywords:
  - "fwpsk/FwpsNetBufferListAssociateContext1"
+ - "FwpsNetBufferListAssociateContext1"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - fwpkclnt.dll
 api_name:
 - FwpsNetBufferListAssociateContext1
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

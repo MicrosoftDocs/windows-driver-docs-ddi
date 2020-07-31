@@ -10,6 +10,7 @@ keywords: ["NdisMSleep function"]
 ms.keywords: NdisMSleep, NdisMSleep function [Network Drivers Starting with Windows Vista], ndis/NdisMSleep, ndis_delay_ref_81af917a-626a-493f-97ed-c4ce48999b12.xml, netvista.ndismsleep
 f1_keywords:
  - "ndis/NdisMSleep"
+ - "NdisMSleep"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisMSleep
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

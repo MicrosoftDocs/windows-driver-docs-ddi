@@ -10,6 +10,7 @@ keywords: ["NdisMCmDispatchIncomingCall macro"]
 ms.keywords: NdisMCmDispatchIncomingCall, NdisMCmDispatchIncomingCall macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_1133faf8-d5a6-4800-8738-94b11bc1d51f.xml, ndis/NdisMCmDispatchIncomingCall, netvista.ndismcmdispatchincomingcall
 f1_keywords:
  - "ndis/NdisMCmDispatchIncomingCall"
+ - "NdisMCmDispatchIncomingCall"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NdisMCmDispatchIncomingCall
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

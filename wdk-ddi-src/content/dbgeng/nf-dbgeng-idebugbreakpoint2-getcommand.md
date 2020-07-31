@@ -10,6 +10,7 @@ keywords: ["IDebugBreakpoint2::GetCommand"]
 ms.keywords: ComOther_4bb08d44-5a99-4177-b8a4-8926f1e45dcf.xml, GetCommand, GetCommand method [Windows Debugging], GetCommand method [Windows Debugging],IDebugBreakpoint interface, GetCommand method [Windows Debugging],IDebugBreakpoint2 interface, IDebugBreakpoint interface [Windows Debugging],GetCommand method, IDebugBreakpoint2 interface [Windows Debugging],GetCommand method, IDebugBreakpoint2.GetCommand, IDebugBreakpoint2::GetCommand, IDebugBreakpoint::GetCommand, dbgeng/IDebugBreakpoint2::GetCommand, dbgeng/IDebugBreakpoint::GetCommand, debugger.getcommand
 f1_keywords:
  - "dbgeng/IDebugBreakpoint.GetCommand"
+ - "IDebugBreakpoint.GetCommand"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IDebugBreakpoint.GetCommand
 - IDebugBreakpoint2.GetCommand
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_DXGK_HARDWARERESERVEDRANGES structure"]
 f1_keywords:
  - "d3dkmddi/_DXGK_HARDWARERESERVEDRANGES"
+ - "_DXGK_HARDWARERESERVEDRANGES"
 ms.keywords: _DXGK_HARDWARERESERVEDRANGES, DXGK_HARDWARERESERVEDRANGES,
 req.header: d3dkmddi.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["PROTOCOL_CL_DEREGISTER_SAP_COMPLETE callback function"]
 ms.keywords: PROTOCOL_CL_DEREGISTER_SAP_COMPLETE, PROTOCOL_CL_DEREGISTER_SAP_COMPLETE callback, ProtocolClDeregisterSapComplete, ProtocolClDeregisterSapComplete callback function [Network Drivers Starting with Windows Vista], condis_client_ref_7f2820e8-9dcb-494c-80f6-eac5aa96d869.xml, ndis/ProtocolClDeregisterSapComplete, netvista.protocolclderegistersapcomplete
 f1_keywords:
  - "ndis/ProtocolClDeregisterSapComplete"
+ - "ProtocolClDeregisterSapComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - ProtocolClDeregisterSapComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IOCTL_INTERNAL_USBFN_CONTROL_STATUS_HANDSHAKE_OUT IOCTL"]
 ms.keywords: IOCTL_INTERNAL_USBFN_CONTROL_STATUS_HANDSHAKE_OUT, IOCTL_INTERNAL_USBFN_CONTROL_STATUS_HANDSHAKE_OUT control, IOCTL_INTERNAL_USBFN_CONTROL_STATUS_HANDSHAKE_OUT control code [Buses], buses.ioctl_internal_usbfn_control_status_handshake_out, usbfnioctl/IOCTL_INTERNAL_USBFN_CONTROL_STATUS_HANDSHAKE_OUT
 f1_keywords:
  - "usbfnioctl/IOCTL_INTERNAL_USBFN_CONTROL_STATUS_HANDSHAKE_OUT"
+ - "IOCTL_INTERNAL_USBFN_CONTROL_STATUS_HANDSHAKE_OUT"
 req.header: usbfnioctl.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - usbfnioctl.h
 api_name:
 - IOCTL_INTERNAL_USBFN_CONTROL_STATUS_HANDSHAKE_OUT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

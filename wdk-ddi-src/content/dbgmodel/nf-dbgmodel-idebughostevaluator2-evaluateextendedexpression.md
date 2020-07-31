@@ -7,6 +7,7 @@ ms.date: 09/12/2018
 keywords: ["IDebugHostEvaluator2::EvaluateExtendedExpression"]
 f1_keywords:
  - "dbgmodel/IDebugHostEvaluator2.EvaluateExtendedExpression"
+ - "IDebugHostEvaluator2.EvaluateExtendedExpression"
 ms.keywords: IDebugHostEvaluator2::EvaluateExtendedExpression, EvaluateExtendedExpression, IDebugHostEvaluator2.EvaluateExtendedExpression, IDebugHostEvaluator2::EvaluateExtendedExpression, IDebugHostEvaluator2.EvaluateExtendedExpression
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostEvaluator2.EvaluateExtendedExpression
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

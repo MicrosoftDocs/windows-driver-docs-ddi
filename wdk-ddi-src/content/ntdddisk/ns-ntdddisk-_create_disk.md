@@ -10,6 +10,7 @@ keywords: ["_CREATE_DISK structure"]
 ms.keywords: "*PCREATE_DISK, CREATE_DISK, CREATE_DISK structure [Storage Devices], PCREATE_DISK, PCREATE_DISK structure pointer [Storage Devices], _CREATE_DISK, ntdddisk/CREATE_DISK, ntdddisk/PCREATE_DISK, storage.create_disk, structs-disk_568deb80-fbd8-4c86-9646-a49355ab0d52.xml"
 f1_keywords:
  - "ntdddisk/CREATE_DISK"
+ - "CREATE_DISK"
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntdddisk.h
 api_name:
 - CREATE_DISK
-product:
-- Windows
 targetos: Windows
 req.typenames: CREATE_DISK, *PCREATE_DISK
 ---

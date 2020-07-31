@@ -10,6 +10,7 @@ keywords: ["KeConvertAuxiliaryCounterToPerformanceCounter function"]
 ms.keywords: KeConvertAuxiliaryCounterToPerformanceCounter, KeConvertAuxiliaryCounterToPerformanceCounter routine [Kernel-Mode Driver Architecture], kernel.keconvertauxiliarycountertoperformancecounter, wdm/KeConvertAuxiliaryCounterToPerformanceCounter
 f1_keywords:
  - "wdm/KeConvertAuxiliaryCounterToPerformanceCounter"
+ - "KeConvertAuxiliaryCounterToPerformanceCounter"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Hal.dll
 api_name:
 - KeConvertAuxiliaryCounterToPerformanceCounter
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

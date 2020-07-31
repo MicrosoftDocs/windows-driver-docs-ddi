@@ -10,6 +10,7 @@ keywords: ["WdfSpinLockCreate function"]
 ms.keywords: DFSynchroRef_6e5f9884-82a8-4c1e-a039-9e01f4f3d0f1.xml, WdfSpinLockCreate, WdfSpinLockCreate method, kmdf.wdfspinlockcreate, wdf.wdfspinlockcreate, wdfsync/WdfSpinLockCreate
 f1_keywords:
  - "wdfsync/WdfSpinLockCreate"
+ - "WdfSpinLockCreate"
 req.header: wdfsync.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfSpinLockCreate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

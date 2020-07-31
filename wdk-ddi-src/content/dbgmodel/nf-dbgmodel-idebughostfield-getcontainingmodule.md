@@ -7,6 +7,7 @@ ms.date: 09/12/2018
 keywords: ["IDebugHostField::GetContainingModule"]
 f1_keywords:
  - "dbgmodel/IDebugHostField.GetContainingModule"
+ - "IDebugHostField.GetContainingModule"
 ms.keywords: IDebugHostField::GetContainingModule, GetContainingModule, IDebugHostField.GetContainingModule, IDebugHostField::GetContainingModule, IDebugHostField.GetContainingModule
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostField.GetContainingModule
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

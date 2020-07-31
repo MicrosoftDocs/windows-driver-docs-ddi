@@ -10,6 +10,7 @@ keywords: ["IPortClsPower::RegisterAdapterPowerManagement"]
 ms.keywords: IPortClsPower interface [Audio Devices],RegisterAdapterPowerManagement method, IPortClsPower.RegisterAdapterPowerManagement, IPortClsPower::RegisterAdapterPowerManagement, RegisterAdapterPowerManagement, RegisterAdapterPowerManagement method [Audio Devices], RegisterAdapterPowerManagement method [Audio Devices],IPortClsPower interface, audio.iportclspower_registeradapterpowermanagement, audmp-routines_9c179fd9-d332-478d-a114-469dc1c746fc.xml, portcls/IPortClsPower::RegisterAdapterPowerManagement
 f1_keywords:
  - "portcls/IPortClsPower.RegisterAdapterPowerManagement"
+ - "IPortClsPower.RegisterAdapterPowerManagement"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IPortClsPower.RegisterAdapterPowerManagement
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

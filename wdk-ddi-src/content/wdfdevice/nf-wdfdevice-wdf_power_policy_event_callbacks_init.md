@@ -10,6 +10,7 @@ keywords: ["WDF_POWER_POLICY_EVENT_CALLBACKS_INIT function"]
 ms.keywords: DFDeviceObjectGeneralRef_46bebe7b-91e3-4ad3-b535-233d6c40622e.xml, WDF_POWER_POLICY_EVENT_CALLBACKS_INIT, WDF_POWER_POLICY_EVENT_CALLBACKS_INIT function, kmdf.wdf_power_policy_event_callbacks_init, wdf.wdf_power_policy_event_callbacks_init, wdfdevice/WDF_POWER_POLICY_EVENT_CALLBACKS_INIT
 f1_keywords:
  - "wdfdevice/WDF_POWER_POLICY_EVENT_CALLBACKS_INIT"
+ - "WDF_POWER_POLICY_EVENT_CALLBACKS_INIT"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - wdfdevice.h
 api_name:
 - WDF_POWER_POLICY_EVENT_CALLBACKS_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

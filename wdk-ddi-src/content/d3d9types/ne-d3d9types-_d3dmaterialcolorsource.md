@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DMATERIALCOLORSOURCE enumeration"]
 f1_keywords:
  - "d3d9types/_D3DMATERIALCOLORSOURCE"
+ - "_D3DMATERIALCOLORSOURCE"
 ms.keywords: _D3DMATERIALCOLORSOURCE, D3DMATERIALCOLORSOURCE, 
 req.header: d3d9types.h
 req.include-header:
@@ -26,8 +27,6 @@ api_location:
 - d3d9types.h
 api_name: 
 - _D3DMATERIALCOLORSOURCE
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

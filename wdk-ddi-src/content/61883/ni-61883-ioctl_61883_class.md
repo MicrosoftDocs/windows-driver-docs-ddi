@@ -10,6 +10,7 @@ keywords: ["IOCTL_61883_CLASS IOCTL"]
 ms.keywords: 61883/IOCTL_61883_CLASS, 61883_requests_a47ccc46-e231-4e3e-8a71-97e4a79143e4.xml, IEEE.ioctl_61883_class, IOCTL_61883_CLASS, IOCTL_61883_CLASS control, IOCTL_61883_CLASS control code [Buses]
 f1_keywords:
  - "61883/IOCTL_61883_CLASS"
+ - "IOCTL_61883_CLASS"
 req.header: 61883.h
 req.include-header: 61883.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - 61883.h
 api_name:
 - IOCTL_61883_CLASS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

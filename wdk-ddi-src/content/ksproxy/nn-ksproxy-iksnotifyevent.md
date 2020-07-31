@@ -10,6 +10,7 @@ keywords: ["IKsNotifyEvent interface"]
 ms.keywords: IKsNotifyEvent, IKsNotifyEvent interface [Streaming Media Devices], IKsNotifyEvent interface [Streaming Media Devices],described, ksproxy/IKsNotifyEvent, ksproxy_1ef13fd1-5ccb-410c-8b0e-4942d9ba790e.xml, stream.iksnotifyevent
 f1_keywords:
  - "ksproxy/IKsNotifyEvent"
+ - "IKsNotifyEvent"
 req.header: ksproxy.h
 req.include-header: 
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 - Ksproxy.dll
 api_name:
 - IKsNotifyEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -58,7 +57,7 @@ The IID for this interface is IID_IKsNotifyEvent
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IKsNotifyEvent</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsNotifyEvent</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IKsNotifyEvent</b> interface inherits from the <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsNotifyEvent</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

@@ -10,6 +10,7 @@ keywords: ["PsFreeSiloContextSlot function"]
 ms.keywords: PsFreeSiloContextSlot, PsFreeSiloContextSlot routine [Kernel-Mode Driver Architecture], kernel.psfreesilocontextslot, ntddk/PsFreeSiloContextSlot
 f1_keywords:
  - "ntddk/PsFreeSiloContextSlot"
+ - "PsFreeSiloContextSlot"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - PsFreeSiloContextSlot
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

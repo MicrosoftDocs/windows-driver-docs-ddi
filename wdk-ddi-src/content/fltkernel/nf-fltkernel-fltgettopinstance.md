@@ -10,6 +10,7 @@ keywords: ["FltGetTopInstance function"]
 ms.keywords: FltApiRef_e_to_o_3f4205c4-12aa-43d4-b67f-258665d81164.xml, FltGetTopInstance, FltGetTopInstance routine [Installable File System Drivers], fltkernel/FltGetTopInstance, ifsk.fltgettopinstance
 f1_keywords:
  - "fltkernel/FltGetTopInstance"
+ - "FltGetTopInstance"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltGetTopInstance
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

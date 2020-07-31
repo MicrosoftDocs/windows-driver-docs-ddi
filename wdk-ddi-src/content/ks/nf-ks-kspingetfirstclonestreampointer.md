@@ -10,6 +10,7 @@ keywords: ["KsPinGetFirstCloneStreamPointer function"]
 ms.keywords: KsPinGetFirstCloneStreamPointer, KsPinGetFirstCloneStreamPointer function [Streaming Media Devices], avfunc_2a3d17ef-c1b8-4b22-af1e-7f9bb01c1183.xml, ks/KsPinGetFirstCloneStreamPointer, stream.kspingetfirstclonestreampointer
 f1_keywords:
  - "ks/KsPinGetFirstCloneStreamPointer"
+ - "KsPinGetFirstCloneStreamPointer"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsPinGetFirstCloneStreamPointer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IDebugControl2::SetCodeLevel"]
 ms.keywords: IDebugControl interface [Windows Debugging],SetCodeLevel method, IDebugControl2 interface [Windows Debugging],SetCodeLevel method, IDebugControl2.SetCodeLevel, IDebugControl2::SetCodeLevel, IDebugControl3 interface [Windows Debugging],SetCodeLevel method, IDebugControl3::SetCodeLevel, IDebugControl::SetCodeLevel, IDebugControl_40aa5eed-ef3f-4ec4-84eb-0cfec638bc4a.xml, SetCodeLevel, SetCodeLevel method [Windows Debugging], SetCodeLevel method [Windows Debugging],IDebugControl interface, SetCodeLevel method [Windows Debugging],IDebugControl2 interface, SetCodeLevel method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::SetCodeLevel, dbgeng/IDebugControl3::SetCodeLevel, dbgeng/IDebugControl::SetCodeLevel, debugger.setcodelevel
 f1_keywords:
  - "dbgeng/IDebugControl.SetCodeLevel"
+ - "IDebugControl.SetCodeLevel"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -38,8 +39,6 @@ api_name:
 - IDebugControl.SetCodeLevel
 - IDebugControl2.SetCodeLevel
 - IDebugControl3.SetCodeLevel
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

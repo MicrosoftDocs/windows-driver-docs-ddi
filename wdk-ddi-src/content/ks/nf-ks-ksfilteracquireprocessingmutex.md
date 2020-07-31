@@ -10,6 +10,7 @@ keywords: ["KsFilterAcquireProcessingMutex function"]
 ms.keywords: KsFilterAcquireProcessingMutex, KsFilterAcquireProcessingMutex function [Streaming Media Devices], avfunc_9c0c5db4-4bac-45a6-a61f-94bdcce07fd8.xml, ks/KsFilterAcquireProcessingMutex, stream.ksfilteracquireprocessingmutex
 f1_keywords:
  - "ks/KsFilterAcquireProcessingMutex"
+ - "KsFilterAcquireProcessingMutex"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsFilterAcquireProcessingMutex
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

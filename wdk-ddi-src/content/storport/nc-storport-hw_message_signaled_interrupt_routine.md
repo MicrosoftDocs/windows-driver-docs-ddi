@@ -10,6 +10,7 @@ keywords: ["HW_MESSAGE_SIGNALED_INTERRUPT_ROUTINE callback function"]
 ms.keywords: HW_MESSAGE_SIGNALED_INTERRUPT_ROUTINE, HwMSInterruptRoutine, HwMSInterruptRoutine routine [Storage Devices], storage.hwmsinterruptroutine, stormini_153bf378-505e-413b-90b2-24af3fd9d502.xml, storport/HwMSInterruptRoutine
 f1_keywords:
  - "storport/HwMSInterruptRoutine"
+ - "HwMSInterruptRoutine"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Storport.h
 api_name:
 - HwMSInterruptRoutine
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

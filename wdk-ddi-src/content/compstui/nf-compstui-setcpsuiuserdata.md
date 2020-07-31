@@ -10,6 +10,7 @@ keywords: ["SetCPSUIUserData function"]
 ms.keywords: SetCPSUIUserData, SetCPSUIUserData function [Print Devices], compstui/SetCPSUIUserData, cpsuifnc_d2f38387-ece5-4894-86d5-0ef66f62a72c.xml, print.setcpsuiuserdata
 f1_keywords:
  - "compstui/SetCPSUIUserData"
+ - "SetCPSUIUserData"
 req.header: compstui.h
 req.include-header: Compstui.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Compstui.dll
 api_name:
 - SetCPSUIUserData
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

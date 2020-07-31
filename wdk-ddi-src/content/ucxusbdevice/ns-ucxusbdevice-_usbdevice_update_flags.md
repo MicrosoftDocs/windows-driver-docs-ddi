@@ -10,6 +10,7 @@ keywords: ["_USBDEVICE_UPDATE_FLAGS structure"]
 ms.keywords: P_USBDEVICE_UPDATE_FLAGS, P_USBDEVICE_UPDATE_FLAGS structure pointer [Buses], USBDEVICE_UPDATE_FLAGS, USBDEVICE_UPDATE_FLAGS structure [Buses], _USBDEVICE_UPDATE_FLAGS, buses._usbdevice_update_flags, ucxusbdevice/P_USBDEVICE_UPDATE_FLAGS, ucxusbdevice/_USBDEVICE_UPDATE_FLAGS
 f1_keywords:
  - "ucxusbdevice/USBDEVICE_UPDATE_FLAGS"
+ - "USBDEVICE_UPDATE_FLAGS"
 req.header: ucxusbdevice.h
 req.include-header: Ucxclass.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ucxusbdevice.h
 api_name:
 - USBDEVICE_UPDATE_FLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: USBDEVICE_UPDATE_FLAGS
 ---

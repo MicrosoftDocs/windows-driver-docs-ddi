@@ -10,6 +10,7 @@ keywords: ["IOCTL_GPIO_WRITE_PINS IOCTL"]
 ms.keywords: GPIO.ioctl_gpio_write_pins, IOCTL_GPIO_WRITE_PINS, IOCTL_GPIO_WRITE_PINS control, IOCTL_GPIO_WRITE_PINS control code [Parallel Ports], gpio/IOCTL_GPIO_WRITE_PINS
 f1_keywords:
  - "gpio/IOCTL_GPIO_WRITE_PINS"
+ - "IOCTL_GPIO_WRITE_PINS"
 req.header: gpio.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Gpio.h
 api_name:
 - IOCTL_GPIO_WRITE_PINS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

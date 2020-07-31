@@ -10,6 +10,7 @@ keywords: ["RILCALLINFOMULTIPARTY enumeration"]
 ms.keywords: RILCALLINFOMULTIPARTY, RILCALLINFOMULTIPARTY enumeration [Network Drivers Starting with Windows Vista], RIL_CALL_MAX, RIL_CALL_MULTIPARTY, netvista.rilcallinfomultiparty, ntddrilapitypes/RILCALLINFOMULTIPARTY, ntddrilapitypes/RIL_CALL_MAX, ntddrilapitypes/RIL_CALL_MULTIPARTY
 f1_keywords:
  - "rilapitypes/RILCALLINFOMULTIPARTY"
+ - "RILCALLINFOMULTIPARTY"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILCALLINFOMULTIPARTY
-product:
-- Windows
 targetos: Windows
 req.typenames: RILCALLINFOMULTIPARTY
 ---

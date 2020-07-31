@@ -8,6 +8,7 @@ ms.date: 10/31/2018
 keywords: ["IDmaChannel::SystemAddress"]
 f1_keywords:
  - "portcls/IDmaChannel.SystemAddress"
+ - "IDmaChannel.SystemAddress"
 ms.keywords: IDmaChannel::SystemAddress, SystemAddress, IDmaChannel.SystemAddress, IDmaChannel::SystemAddress, IDmaChannel.SystemAddress
 req.header: portcls.h
 req.include-header:

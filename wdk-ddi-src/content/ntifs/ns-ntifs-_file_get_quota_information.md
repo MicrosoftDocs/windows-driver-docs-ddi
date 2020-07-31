@@ -10,6 +10,7 @@ keywords: ["_FILE_GET_QUOTA_INFORMATION structure"]
 ms.keywords: "*PFILE_GET_QUOTA_INFORMATION, FILE_GET_QUOTA_INFORMATION, FILE_GET_QUOTA_INFORMATION structure [Installable File System Drivers], PFILE_GET_QUOTA_INFORMATION, PFILE_GET_QUOTA_INFORMATION structure pointer [Installable File System Drivers], _FILE_GET_QUOTA_INFORMATION, fileinformationstructures_e64ee968-bf98-422e-9bed-837b984fbc33.xml, ifsk.file_get_quota_information, ntifs/FILE_GET_QUOTA_INFORMATION, ntifs/PFILE_GET_QUOTA_INFORMATION"
 f1_keywords:
  - "ntifs/FILE_GET_QUOTA_INFORMATION"
+ - "FILE_GET_QUOTA_INFORMATION"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - FILE_GET_QUOTA_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: FILE_GET_QUOTA_INFORMATION, *PFILE_GET_QUOTA_INFORMATION
 ---

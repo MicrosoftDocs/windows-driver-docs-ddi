@@ -10,6 +10,7 @@ keywords: ["IPrintAsyncNotifyRegistration::RegisterForNotifications"]
 ms.keywords: IPrintAsyncNotifyRegistration interface [Print Devices],RegisterForNotifications method, IPrintAsyncNotifyRegistration.RegisterForNotifications, IPrintAsyncNotifyRegistration::RegisterForNotifications, RegisterForNotifications, RegisterForNotifications method [Print Devices], RegisterForNotifications method [Print Devices],IPrintAsyncNotifyRegistration interface, print.iprintasyncnotifyregistration_registerfornotifications, prnasntp/IPrintAsyncNotifyRegistration::RegisterForNotifications
 f1_keywords:
  - "prnasntp/IPrintAsyncNotifyRegistration.RegisterForNotifications"
+ - "IPrintAsyncNotifyRegistration.RegisterForNotifications"
 req.header: prnasntp.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Prnasntp.h
 api_name:
 - IPrintAsyncNotifyRegistration.RegisterForNotifications
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

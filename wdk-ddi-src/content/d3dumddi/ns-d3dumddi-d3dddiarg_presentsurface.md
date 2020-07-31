@@ -10,6 +10,7 @@ keywords: ["D3DDDIARG_PRESENTSURFACE structure"]
 ms.keywords: D3DDDIARG_PRESENTSURFACE, D3DDDIARG_PRESENTSURFACE structure [Display Devices], d3dumddi/D3DDDIARG_PRESENTSURFACE, display.d3dddiarg_presentsurface
 f1_keywords:
  - "d3dumddi/D3DDDIARG_PRESENTSURFACE"
+ - "D3DDDIARG_PRESENTSURFACE"
 req.header: d3dumddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDIARG_PRESENTSURFACE
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_PRESENTSURFACE
 ---

@@ -10,6 +10,7 @@ keywords: ["IDebugEventCallbacks::ExitProcess"]
 ms.keywords: ComCallbacks_bcacc47e-294c-4dfa-a38e-2b57f534d415.xml, ExitProcess, ExitProcess method [Windows Debugging], ExitProcess method [Windows Debugging],IDebugEventCallbacks interface, IDebugEventCallbacks interface [Windows Debugging],ExitProcess method, IDebugEventCallbacks.ExitProcess, IDebugEventCallbacks::ExitProcess, dbgeng/IDebugEventCallbacks::ExitProcess, debugger.idebugeventcallbacks_exitprocess
 f1_keywords:
  - "dbgeng/IDebugEventCallbacks.ExitProcess"
+ - "IDebugEventCallbacks.ExitProcess"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugEventCallbacks.ExitProcess
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

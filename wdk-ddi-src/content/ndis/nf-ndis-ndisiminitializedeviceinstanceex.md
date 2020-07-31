@@ -10,6 +10,7 @@ keywords: ["NdisIMInitializeDeviceInstanceEx function"]
 ms.keywords: NdisIMInitializeDeviceInstanceEx, NdisIMInitializeDeviceInstanceEx function [Network Drivers Starting with Windows Vista], intermediate_ref_37fbd7e8-287e-49dc-8de5-6b438a305804.xml, ndis/NdisIMInitializeDeviceInstanceEx, netvista.ndisiminitializedeviceinstanceex
 f1_keywords:
  - "ndis/NdisIMInitializeDeviceInstanceEx"
+ - "NdisIMInitializeDeviceInstanceEx"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisIMInitializeDeviceInstanceEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

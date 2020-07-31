@@ -8,6 +8,7 @@ tech.root: ifsk
 keywords: ["_RTL_SEGMENT_HEAP_MEMORY_SOURCE structure"]
 f1_keywords:
  - "ntifs/_RTL_SEGMENT_HEAP_MEMORY_SOURCE"
+ - "_RTL_SEGMENT_HEAP_MEMORY_SOURCE"
 ms.keywords: _RTL_SEGMENT_HEAP_MEMORY_SOURCE, RTL_SEGMENT_HEAP_MEMORY_SOURCE, *PRTL_SEGMENT_HEAP_MEMORY_SOURCE, 
 req.header: ntifs.h
 req.include-header:
@@ -30,8 +31,6 @@ api_location:
 - ntifs.h
 api_name: 
 - _RTL_SEGMENT_HEAP_MEMORY_SOURCE
-product:
-- Windows
 targetos: Windows
 ---
 

@@ -10,6 +10,7 @@ keywords: ["IoWMIAllocateInstanceIds function"]
 ms.keywords: IoWMIAllocateInstanceIds, IoWMIAllocateInstanceIds routine [Kernel-Mode Driver Architecture], k104_52b2c9a6-e9c2-4c9f-b6f1-43ec8c72056a.xml, kernel.iowmiallocateinstanceids, wdm/IoWMIAllocateInstanceIds
 f1_keywords:
  - "wdm/IoWMIAllocateInstanceIds"
+ - "IoWMIAllocateInstanceIds"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoWMIAllocateInstanceIds
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

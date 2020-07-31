@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["PO_FX_DEVICE_V3 structure"]
 f1_keywords:
  - "wdm/PO_FX_DEVICE_V3"
+ - "PO_FX_DEVICE_V3"
 ms.keywords: PO_FX_DEVICE_V3, PO_FX_DEVICE_V3, *PPO_FX_DEVICE_V3, *PPO_FX_DEVICE, PO_FX_DEVICE
 req.header: wdm.h
 req.include-header:

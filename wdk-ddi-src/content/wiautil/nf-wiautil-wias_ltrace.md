@@ -10,6 +10,7 @@ keywords: ["WIAS_LTRACE macro"]
 ms.keywords: IWiaLog_bb7ae826-5b43-47c1-bf94-bd491d8b91a7.xml, WIAS_LTRACE, WIAS_LTRACE macro [Imaging Devices], image.wias_ltrace, wiamdef/WIAS_LTRACE
 f1_keywords:
  - "wiautil/WIAS_LTRACE"
+ - "WIAS_LTRACE"
 req.header: wiautil.h
 req.include-header: Wiautil.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wiamdef.h
 api_name:
 - WIAS_LTRACE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

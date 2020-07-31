@@ -10,6 +10,7 @@ keywords: ["PFNDRMCREATECONTENTMIXED callback function"]
 ms.keywords: DRMCreateContentMixed, DRMCreateContentMixed callback function [Audio Devices], PFNDRMCREATECONTENTMIXED, PFNDRMCREATECONTENTMIXED callback, PfnDRMCreateContentMixed, PfnDRMCreateContentMixed callback function [Audio Devices], audio.pfndrmcreatecontentmixed, drmk/PfnDRMCreateContentMixed
 f1_keywords:
  - "drmk/DRMCreateContentMixed"
+ - "DRMCreateContentMixed"
 req.header: drmk.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Drmk.h
 api_name:
 - DRMCreateContentMixed
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

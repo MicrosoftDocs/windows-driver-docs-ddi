@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["PFND3DKMT_SETSTEREOENABLED callback function"]
 f1_keywords:
  - "d3dkmthk/PFND3DKMT_SETSTEREOENABLED"
+ - "PFND3DKMT_SETSTEREOENABLED"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 api_name: 
 - PFND3DKMT_SETSTEREOENABLED
 - D3DKMTSetStereoEnabled
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

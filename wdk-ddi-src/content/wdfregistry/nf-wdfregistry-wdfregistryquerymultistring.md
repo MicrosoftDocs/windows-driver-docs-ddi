@@ -10,6 +10,7 @@ keywords: ["WdfRegistryQueryMultiString function"]
 ms.keywords: DFRegKeyObjectRef_9610d27f-df2e-41f9-9376-4f5819e8ce66.xml, WdfRegistryQueryMultiString, WdfRegistryQueryMultiString method, kmdf.wdfregistryquerymultistring, wdf.wdfregistryquerymultistring, wdfregistry/WdfRegistryQueryMultiString
 f1_keywords:
  - "wdfregistry/WdfRegistryQueryMultiString"
+ - "WdfRegistryQueryMultiString"
 req.header: wdfregistry.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfRegistryQueryMultiString
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

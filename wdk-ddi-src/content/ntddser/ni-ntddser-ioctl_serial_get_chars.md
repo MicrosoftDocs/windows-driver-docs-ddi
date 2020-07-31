@@ -10,6 +10,7 @@ keywords: ["IOCTL_SERIAL_GET_CHARS IOCTL"]
 ms.keywords: IOCTL_SERIAL_GET_CHARS, IOCTL_SERIAL_GET_CHARS control, IOCTL_SERIAL_GET_CHARS control code [Serial Ports], ntddser/IOCTL_SERIAL_GET_CHARS, serports.ioctl_serial_get_chars, serref_103c18cc-6260-4a9d-8f2f-01ef8b82aebe.xml
 f1_keywords:
  - "ntddser/IOCTL_SERIAL_GET_CHARS"
+ - "IOCTL_SERIAL_GET_CHARS"
 req.header: ntddser.h
 req.include-header: Ntddser.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddser.h
 api_name:
 - IOCTL_SERIAL_GET_CHARS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

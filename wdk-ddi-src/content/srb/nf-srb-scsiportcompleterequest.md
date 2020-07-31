@@ -10,6 +10,7 @@ keywords: ["ScsiPortCompleteRequest function"]
 ms.keywords: ScsiPortCompleteRequest, ScsiPortCompleteRequest routine [Storage Devices], scsiprt_be6690c0-6cfa-4a71-9877-176ed2c742e8.xml, srb/ScsiPortCompleteRequest, storage.scsiportcompleterequest
 f1_keywords:
  - "srb/ScsiPortCompleteRequest"
+ - "ScsiPortCompleteRequest"
 req.header: srb.h
 req.include-header: Miniport.h, Scsi.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Scsiport.dll
 api_name:
 - ScsiPortCompleteRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["NDIS_SWITCH_ADD_NET_BUFFER_LIST_DESTINATION callback function"]
 ms.keywords: AddNetBufferListDestination, AddNetBufferListDestination callback function [Network Drivers Starting with Windows Vista], NDIS_SWITCH_ADD_NET_BUFFER_LIST_DESTINATION, NDIS_SWITCH_ADD_NET_BUFFER_LIST_DESTINATION callback, ndis/AddNetBufferListDestination, netvista.AddNetBufferListDestination
 f1_keywords:
  - "ndis/AddNetBufferListDestination"
+ - "AddNetBufferListDestination"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - AddNetBufferListDestination
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

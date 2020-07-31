@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::SetSymbolPathWide"]
 ms.keywords: IDebugSymbols3 interface [Windows Debugging],SetSymbolPathWide method, IDebugSymbols3.SetSymbolPathWide, IDebugSymbols3::SetSymbolPathWide, SetSymbolPathWide, SetSymbolPathWide method [Windows Debugging], SetSymbolPathWide method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols3::SetSymbolPathWide, debugger.setsymbolpathwide
 f1_keywords:
  - "dbgeng/IDebugSymbols3.SetSymbolPathWide"
+ - "IDebugSymbols3.SetSymbolPathWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugSymbols3.SetSymbolPathWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

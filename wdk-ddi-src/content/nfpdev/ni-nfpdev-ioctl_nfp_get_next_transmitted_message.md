@@ -10,6 +10,7 @@ keywords: ["IOCTL_NFP_GET_NEXT_TRANSMITTED_MESSAGE IOCTL"]
 ms.keywords: IOCTL_NFP_GET_NEXT_TRANSMITTED_MESSAGE, IOCTL_NFP_GET_NEXT_TRANSMITTED_MESSAGE control, IOCTL_NFP_GET_NEXT_TRANSMITTED_MESSAGE control code [Near-Field Proximity Drivers], _IOCTL_NFP_GET_NEXT_TRANSMITTED_MESSAGE, nfpdev/IOCTL_NFP_GET_NEXT_TRANSMITTED_MESSAGE, nfpdrivers.ioctl_nfp_get_next_transmitted_message
 f1_keywords:
  - "nfpdev/IOCTL_NFP_GET_NEXT_TRANSMITTED_MESSAGE"
+ - "IOCTL_NFP_GET_NEXT_TRANSMITTED_MESSAGE"
 req.header: nfpdev.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - nfpdev.h
 api_name:
 - IOCTL_NFP_GET_NEXT_TRANSMITTED_MESSAGE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

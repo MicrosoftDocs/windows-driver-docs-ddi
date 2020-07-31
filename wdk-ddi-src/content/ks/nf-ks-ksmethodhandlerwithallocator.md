@@ -10,6 +10,7 @@ keywords: ["KsMethodHandlerWithAllocator function"]
 ms.keywords: KsMethodHandlerWithAllocator, KsMethodHandlerWithAllocator function [Streaming Media Devices], ks/KsMethodHandlerWithAllocator, ksfunc_b8089a49-086b-4695-bebd-6fc3817ed7e0.xml, stream.ksmethodhandlerwithallocator
 f1_keywords:
  - "ks/KsMethodHandlerWithAllocator"
+ - "KsMethodHandlerWithAllocator"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsMethodHandlerWithAllocator
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

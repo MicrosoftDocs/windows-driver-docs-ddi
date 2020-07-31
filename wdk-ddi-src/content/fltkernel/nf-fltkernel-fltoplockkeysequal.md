@@ -10,6 +10,7 @@ keywords: ["FltOplockKeysEqual function"]
 ms.keywords: FltApiRef_e_to_o_66634abf-9f0a-44b1-a4e4-85ef958b05f5.xml, FltOplockKeysEqual, FltOplockKeysEqual routine [Installable File System Drivers], fltkernel/FltOplockKeysEqual, ifsk.fltoplockkeysequal
 f1_keywords:
  - "fltkernel/FltOplockKeysEqual"
+ - "FltOplockKeysEqual"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltOplockKeysEqual
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

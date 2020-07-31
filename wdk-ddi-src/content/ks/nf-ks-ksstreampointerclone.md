@@ -10,6 +10,7 @@ keywords: ["KsStreamPointerClone function"]
 ms.keywords: KsStreamPointerClone, KsStreamPointerClone function [Streaming Media Devices], avfunc_29a7da58-5321-4c19-83df-c9deab062e78.xml, ks/KsStreamPointerClone, stream.ksstreampointerclone
 f1_keywords:
  - "ks/KsStreamPointerClone"
+ - "KsStreamPointerClone"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsStreamPointerClone
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

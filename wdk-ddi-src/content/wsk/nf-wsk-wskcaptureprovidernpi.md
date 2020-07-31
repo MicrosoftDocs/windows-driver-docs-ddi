@@ -10,6 +10,7 @@ keywords: ["WskCaptureProviderNPI function"]
 ms.keywords: WskCaptureProviderNPI, WskCaptureProviderNPI function [Network Drivers Starting with Windows Vista], netvista.wskcaptureprovidernpi, wsk/WskCaptureProviderNPI, wskref_571be642-7c1c-471d-bf35-73bd6b271cbe.xml
 f1_keywords:
  - "wsk/WskCaptureProviderNPI"
+ - "WskCaptureProviderNPI"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Netio.dll
 api_name:
 - WskCaptureProviderNPI
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

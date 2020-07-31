@@ -34,7 +34,8 @@ api_location:
 api_name:
  - DXGKDDI_GETDPADDRESS
 f1_keywords:
- - dispmprt/DXGKDDI_GETDPADDRESS
+ - dispmprt//DXGKDDI_GETDPADDRESS
+ - DXGKDDI_GETDPADDRESS
 dev_langs:
  - c++
 ---

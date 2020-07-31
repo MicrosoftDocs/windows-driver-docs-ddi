@@ -10,6 +10,7 @@ keywords: ["_DXVAHDDDI_BLT_STATE_BACKGROUND_COLOR_DATA structure"]
 ms.keywords: DXVA2_Structs_d4f86ea1-cbdd-48ab-84ca-1bc64ba4c8db.xml, DXVAHDDDI_BLT_STATE_BACKGROUND_COLOR_DATA, DXVAHDDDI_BLT_STATE_BACKGROUND_COLOR_DATA structure [Display Devices], _DXVAHDDDI_BLT_STATE_BACKGROUND_COLOR_DATA, d3dumddi/DXVAHDDDI_BLT_STATE_BACKGROUND_COLOR_DATA, display.dxvahdddi_blt_state_background_color_data
 f1_keywords:
  - "d3dumddi/DXVAHDDDI_BLT_STATE_BACKGROUND_COLOR_DATA"
+ - "DXVAHDDDI_BLT_STATE_BACKGROUND_COLOR_DATA"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - DXVAHDDDI_BLT_STATE_BACKGROUND_COLOR_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVAHDDDI_BLT_STATE_BACKGROUND_COLOR_DATA
 ---

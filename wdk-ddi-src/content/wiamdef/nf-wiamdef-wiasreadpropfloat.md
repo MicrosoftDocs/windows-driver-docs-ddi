@@ -10,6 +10,7 @@ keywords: ["wiasReadPropFloat function"]
 ms.keywords: image.wiasreadpropfloat, wiamdef/wiasReadPropFloat, wiasFncs_9b143e96-64a5-4de3-b40d-c542bc440dc0.xml, wiasReadPropFloat, wiasReadPropFloat function [Imaging Devices]
 f1_keywords:
  - "wiamdef/wiasReadPropFloat"
+ - "wiasReadPropFloat"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wiaservc.dll
 api_name:
 - wiasReadPropFloat
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

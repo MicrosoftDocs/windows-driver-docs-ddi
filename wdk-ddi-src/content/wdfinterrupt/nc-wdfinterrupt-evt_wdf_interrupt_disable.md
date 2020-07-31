@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_INTERRUPT_DISABLE callback function"]
 ms.keywords: DFInterruptObjectRef_4dfbc961-e1c4-494e-9e6d-d657fd5d59d9.xml, EVT_WDF_INTERRUPT_DISABLE, EVT_WDF_INTERRUPT_DISABLE callback, EvtInterruptDisable, EvtInterruptDisable callback function, kmdf.evtinterruptdisable, wdf.evtinterruptdisable, wdfinterrupt/EvtInterruptDisable
 f1_keywords:
  - "wdfinterrupt/EvtInterruptDisable"
+ - "EvtInterruptDisable"
 req.header: wdfinterrupt.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Wdfinterrupt.h
 api_name:
 - EvtInterruptDisable
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

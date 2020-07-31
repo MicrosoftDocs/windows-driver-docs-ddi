@@ -10,6 +10,7 @@ keywords: ["EVT_SERCX2_APPLY_CONFIG callback function"]
 ms.keywords: 2/EvtSerCx2ApplyConfig, EVT_SERCX2_APPLY_CONFIG, EVT_SERCX2_APPLY_CONFIG callback, EvtSerCx2ApplyConfig, EvtSerCx2ApplyConfig callback function [Serial Ports], serports.evtsercx2applyconfig
 f1_keywords:
  - "sercx/EvtSerCx2ApplyConfig"
+ - "EvtSerCx2ApplyConfig"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - 2.0\Sercx.h
 api_name:
 - EvtSerCx2ApplyConfig
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

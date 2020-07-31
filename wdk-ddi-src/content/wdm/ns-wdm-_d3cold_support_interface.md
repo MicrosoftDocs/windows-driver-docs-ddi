@@ -10,6 +10,7 @@ keywords: ["_D3COLD_SUPPORT_INTERFACE structure"]
 ms.keywords: "*PD3COLD_SUPPORT_INTERFACE, D3COLD_SUPPORT_INTERFACE, D3COLD_SUPPORT_INTERFACE structure [Kernel-Mode Driver Architecture], PD3COLD_SUPPORT_INTERFACE, PD3COLD_SUPPORT_INTERFACE structure pointer [Kernel-Mode Driver Architecture], _D3COLD_SUPPORT_INTERFACE, kernel.d3cold_support_interface, wdm/D3COLD_SUPPORT_INTERFACE, wdm/PD3COLD_SUPPORT_INTERFACE"
 f1_keywords:
  - "wdm/D3COLD_SUPPORT_INTERFACE"
+ - "D3COLD_SUPPORT_INTERFACE"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - D3COLD_SUPPORT_INTERFACE
-product:
-- Windows
 targetos: Windows
 req.typenames: D3COLD_SUPPORT_INTERFACE, *PD3COLD_SUPPORT_INTERFACE
 ---

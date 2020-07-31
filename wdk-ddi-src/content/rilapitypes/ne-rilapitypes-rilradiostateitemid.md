@@ -10,6 +10,7 @@ keywords: ["RILRADIOSTATEITEMID enumeration"]
 ms.keywords: RILRADIOSTATEITEMID, RILRADIOSTATEITEMID enumeration [Network Drivers Starting with Windows Vista], netvista.rilradiostateitemid, ntddrilapitypes/RILRADIOSTATEITEMID
 f1_keywords:
  - "rilapitypes/RILRADIOSTATEITEMID"
+ - "RILRADIOSTATEITEMID"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILRADIOSTATEITEMID
-product:
-- Windows
 targetos: Windows
 req.typenames: RILRADIOSTATEITEMID
 ---

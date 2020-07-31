@@ -8,6 +8,7 @@ ms.date: 01/30/2019
 keywords: ["NetPacketGetExtension function"]
 f1_keywords:
  - "packet/RegisterOpRegionHandler"
+ - "RegisterOpRegionHandler"
 ms.keywords: NetPacketGetExtension
 req.header: packet.h
 req.include-header: netadaptercx.h
@@ -34,8 +35,6 @@ apilocation:
 - NtosKrnl.exe
 apiname: 
 - NetPacketGetExtension
-product:
-- Windows
 targetos: Windows
 
 ---

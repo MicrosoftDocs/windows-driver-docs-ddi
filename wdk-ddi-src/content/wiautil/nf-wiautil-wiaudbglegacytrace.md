@@ -10,6 +10,7 @@ keywords: ["wiauDbgLegacyTrace function"]
 ms.keywords: image.wiaudbglegacytrace, wiauDbgLegacyTrace, wiauDbgLegacyTrace function [Imaging Devices], wiauFncs_a780f296-5780-4589-9aa6-1e61ebec013e.xml, wiautil/wiauDbgLegacyTrace
 f1_keywords:
  - "wiautil/wiauDbgLegacyTrace"
+ - "wiauDbgLegacyTrace"
 req.header: wiautil.h
 req.include-header: Wiautil.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wiautil.h
 api_name:
 - wiauDbgLegacyTrace
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

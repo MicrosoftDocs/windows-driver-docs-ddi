@@ -10,6 +10,7 @@ keywords: ["FsRtlDeleteTunnelCache function"]
 ms.keywords: FsRtlDeleteTunnelCache, FsRtlDeleteTunnelCache routine [Installable File System Drivers], fsrtlref_b5481e27-6ade-4057-8d63-3af814f9b80e.xml, ifsk.fsrtldeletetunnelcache, ntifs/FsRtlDeleteTunnelCache
 f1_keywords:
  - "ntifs/FsRtlDeleteTunnelCache"
+ - "FsRtlDeleteTunnelCache"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlDeleteTunnelCache
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

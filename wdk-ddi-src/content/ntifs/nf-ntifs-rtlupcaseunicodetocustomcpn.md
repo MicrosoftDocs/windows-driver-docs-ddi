@@ -10,6 +10,7 @@ keywords: ["RtlUpcaseUnicodeToCustomCPN function"]
 ms.keywords: RtlUpcaseUnicodeToCustomCPN, RtlUpcaseUnicodeToCustomCPN function [Installable File System Drivers], ifsk.rtlupcaseunicodetocustomcpn, ntifs/RtlUpcaseUnicodeToCustomCPN, rtlref_d60b8055-e672-4cc6-be0f-f9a23a202368.xml
 f1_keywords:
  - "ntifs/RtlUpcaseUnicodeToCustomCPN"
+ - "RtlUpcaseUnicodeToCustomCPN"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - RtlUpcaseUnicodeToCustomCPN
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

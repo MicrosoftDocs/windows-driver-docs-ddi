@@ -10,6 +10,7 @@ keywords: ["ZwOpenFile function"]
 ms.keywords: NtOpenFile, ZwOpenFile, ZwOpenFile routine [Kernel-Mode Driver Architecture], k111_efde7b0f-a00d-47c8-8a34-ae22fb909718.xml, kernel.zwopenfile, wdm/NtOpenFile, wdm/ZwOpenFile
 f1_keywords:
  - "wdm/ZwOpenFile"
+ - "ZwOpenFile"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - ZwOpenFile
 - NtOpenFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

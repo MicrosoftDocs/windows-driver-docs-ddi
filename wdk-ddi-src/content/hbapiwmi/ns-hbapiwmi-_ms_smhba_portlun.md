@@ -10,6 +10,7 @@ keywords: ["_MS_SMHBA_PORTLUN structure"]
 ms.keywords: "*PMS_SMHBA_PORTLUN, MS_SMHBA_PORTLUN, MS_SMHBA_PORTLUN structure [Storage Devices], PMS_SMHBA_PORTLUN, PMS_SMHBA_PORTLUN structure pointer [Storage Devices], _MS_SMHBA_PORTLUN, hbapiwmi/MS_SMHBA_PORTLUN, hbapiwmi/PMS_SMHBA_PORTLUN, storage.ms_smhba_portlun, structs-Fibre_a0363ae3-80ce-4efd-8409-826d1810190c.xml"
 f1_keywords:
  - "hbapiwmi/MS_SMHBA_PORTLUN"
+ - "MS_SMHBA_PORTLUN"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - MS_SMHBA_PORTLUN
-product:
-- Windows
 targetos: Windows
 req.typenames: MS_SMHBA_PORTLUN, *PMS_SMHBA_PORTLUN
 ---

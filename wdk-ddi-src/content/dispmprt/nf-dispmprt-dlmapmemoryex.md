@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DlMapMemoryEx function"]
 f1_keywords:
  - "dispmprt/DlMapMemoryEx"
+ - "DlMapMemoryEx"
 ms.keywords: DlMapMemoryEx
 req.header: dispmprt.h
 req.include-header:

@@ -10,6 +10,7 @@ ms.date: 09/26/2019
 keywords: ["NetExtensionGetFragmentVirtualAddress function"]
 f1_keywords:
  - "virtualaddress/NetExtensionGetFragmentVirtualAddress"
+ - "NetExtensionGetFragmentVirtualAddress"
 ms.keywords: NetExtensionGetFragmentVirtualAddress
 req.header: virtualaddress.h
 req.include-header:

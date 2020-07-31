@@ -10,6 +10,7 @@ keywords: ["IAllocatorMXF::GetBufferSize"]
 ms.keywords: GetBufferSize, GetBufferSize method [Audio Devices], GetBufferSize method [Audio Devices],IAllocatorMXF interface, IAllocatorMXF interface [Audio Devices],GetBufferSize method, IAllocatorMXF.GetBufferSize, IAllocatorMXF::GetBufferSize, audio.iallocatormxf_getbuffersize, audmp-routines_5eb7fc90-4f40-4796-9c7c-2086689f1593.xml, dmusicks/IAllocatorMXF::GetBufferSize
 f1_keywords:
  - "dmusicks/IAllocatorMXF.GetBufferSize"
+ - "IAllocatorMXF.GetBufferSize"
 req.header: dmusicks.h
 req.include-header: Dmusicks.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dmusicks.h
 api_name:
 - IAllocatorMXF.GetBufferSize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

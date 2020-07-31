@@ -10,6 +10,7 @@ keywords: ["_IDE_ACCESS_RANGE structure"]
 ms.keywords: "*PIDE_ACCESS_RANGE, IDE_ACCESS_RANGE, IDE_ACCESS_RANGE structure [Storage Devices], PIDE_ACCESS_RANGE, PIDE_ACCESS_RANGE structure pointer [Storage Devices], _IDE_ACCESS_RANGE, irb/IDE_ACCESS_RANGE, irb/PIDE_ACCESS_RANGE, storage.ide_access_range, structs-ATA_6c50e733-2896-4052-a867-ae2c9d119ff2.xml"
 f1_keywords:
  - "irb/IDE_ACCESS_RANGE"
+ - "IDE_ACCESS_RANGE"
 req.header: irb.h
 req.include-header: Irb.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - irb.h
 api_name:
 - IDE_ACCESS_RANGE
-product:
-- Windows
 targetos: Windows
 req.typenames: IDE_ACCESS_RANGE, *PIDE_ACCESS_RANGE
 ---

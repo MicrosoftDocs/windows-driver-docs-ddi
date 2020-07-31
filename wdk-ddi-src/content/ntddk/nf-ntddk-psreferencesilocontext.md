@@ -10,6 +10,7 @@ keywords: ["PsReferenceSiloContext function"]
 ms.keywords: PsReferenceSiloContext, PsReferenceSiloContext routine [Kernel-Mode Driver Architecture], kernel.psreferencesilocontext, ntddk/PsReferenceSiloContext
 f1_keywords:
  - "ntddk/PsReferenceSiloContext"
+ - "PsReferenceSiloContext"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - PsReferenceSiloContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

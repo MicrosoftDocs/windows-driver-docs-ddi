@@ -10,6 +10,7 @@ keywords: ["NdisMRegisterWdiMiniportDriver function"]
 ms.keywords: NdisMRegisterWdiMiniportDriver, NdisMRegisterWdiMiniportDriver function [Network Drivers Starting with Windows Vista], dot11wdi/NdisMRegisterWdiMiniportDriver, netvista.ndismregisterwdiminiportdriver
 f1_keywords:
  - "dot11wdi/NdisMRegisterWdiMiniportDriver"
+ - "NdisMRegisterWdiMiniportDriver"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisMRegisterWdiMiniportDriver
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

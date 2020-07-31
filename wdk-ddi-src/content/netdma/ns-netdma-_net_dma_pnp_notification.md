@@ -10,6 +10,7 @@ keywords: ["_NET_DMA_PNP_NOTIFICATION structure"]
 ms.keywords: "*PNET_DMA_PNP_NOTIFICATION, NET_DMA_PNP_NOTIFICATION, NET_DMA_PNP_NOTIFICATION structure [Network Drivers Starting with Windows Vista], PNET_DMA_PNP_NOTIFICATION, PNET_DMA_PNP_NOTIFICATION structure pointer [Network Drivers Starting with Windows Vista], _NET_DMA_PNP_NOTIFICATION, netdma/NET_DMA_PNP_NOTIFICATION, netdma/PNET_DMA_PNP_NOTIFICATION, netdma_ref_276d7903-f1d8-4fd4-91f0-dda490f8da02.xml, netvista.net_dma_pnp_notification"
 f1_keywords:
  - "netdma/NET_DMA_PNP_NOTIFICATION"
+ - "NET_DMA_PNP_NOTIFICATION"
 req.header: netdma.h
 req.include-header: Netdma.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - netdma.h
 api_name:
 - NET_DMA_PNP_NOTIFICATION
-product:
-- Windows
 targetos: Windows
 req.typenames: NET_DMA_PNP_NOTIFICATION, *PNET_DMA_PNP_NOTIFICATION
 ---

@@ -10,6 +10,7 @@ keywords: ["IoQueueWorkItem function"]
 ms.keywords: IoQueueWorkItem, IoQueueWorkItem routine [Kernel-Mode Driver Architecture], k104_6f5cb4e5-75d1-433a-864e-19de914aa2e7.xml, kernel.ioqueueworkitem, wdm/IoQueueWorkItem
 f1_keywords:
  - "wdm/IoQueueWorkItem"
+ - "IoQueueWorkItem"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoQueueWorkItem
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

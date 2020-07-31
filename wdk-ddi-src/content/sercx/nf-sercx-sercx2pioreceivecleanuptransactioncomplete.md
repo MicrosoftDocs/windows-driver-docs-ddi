@@ -10,6 +10,7 @@ keywords: ["SerCx2PioReceiveCleanupTransactionComplete function"]
 ms.keywords: 2/SerCx2PioReceiveCleanupTransactionComplete, SerCx2PioReceiveCleanupTransactionComplete, SerCx2PioReceiveCleanupTransactionComplete method [Serial Ports], serports.sercx2pioreceivecleanuptransactioncomplete
 f1_keywords:
  - "sercx/SerCx2PioReceiveCleanupTransactionComplete"
+ - "SerCx2PioReceiveCleanupTransactionComplete"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - 2.0\Sercx.h
 api_name:
 - SerCx2PioReceiveCleanupTransactionComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

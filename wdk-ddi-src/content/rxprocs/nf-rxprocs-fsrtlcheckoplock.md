@@ -10,6 +10,7 @@ keywords: ["FsRtlCheckOplock macro"]
 ms.keywords: FsRtlCheckOplock, FsRtlCheckOplock routine [Installable File System Drivers], fsrtlref_c11dbb80-c7a8-437d-bb6b-661edcf2f24a.xml, ifsk.fsrtlcheckoplock, rxprocs/FsRtlCheckOplock
 f1_keywords:
  - "rxprocs/FsRtlCheckOplock"
+ - "FsRtlCheckOplock"
 req.header: rxprocs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlCheckOplock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

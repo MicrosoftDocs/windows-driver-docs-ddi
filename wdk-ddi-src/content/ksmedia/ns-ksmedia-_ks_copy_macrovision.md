@@ -10,6 +10,7 @@ keywords: ["_KS_COPY_MACROVISION structure"]
 ms.keywords: "*PKS_COPY_MACROVISION, KS_COPY_MACROVISION, KS_COPY_MACROVISION structure [Streaming Media Devices], PKS_COPY_MACROVISION, PKS_COPY_MACROVISION structure pointer [Streaming Media Devices], _KS_COPY_MACROVISION, dvdref_42184498-7ac6-48d2-9f26-5bf69ececabb.xml, ksmedia/KS_COPY_MACROVISION, ksmedia/PKS_COPY_MACROVISION, stream.ks_copy_macrovision"
 f1_keywords:
  - "ksmedia/KS_COPY_MACROVISION"
+ - "KS_COPY_MACROVISION"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KS_COPY_MACROVISION
-product:
-- Windows
 targetos: Windows
 req.typenames: KS_COPY_MACROVISION, *PKS_COPY_MACROVISION
 ---

@@ -10,6 +10,7 @@ keywords: ["_NDIS_PM_CAPABILITIES structure"]
 ms.keywords: "*PNDIS_PM_CAPABILITIES, NDIS_PM_CAPABILITIES, NDIS_PM_CAPABILITIES structure [Network Drivers Starting with Windows Vista], PNDIS_PM_CAPABILITIES, PNDIS_PM_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PM_CAPABILITIES, miniport_power_management_ref_e70356b9-5c5a-4b38-b413-553a772da8b6.xml, netvista.ndis_pm_capabilities, ntddndis/NDIS_PM_CAPABILITIES, ntddndis/PNDIS_PM_CAPABILITIES"
 f1_keywords:
  - "ntddndis/NDIS_PM_CAPABILITIES"
+ - "NDIS_PM_CAPABILITIES"
 req.header: ntddndis.h
 req.include-header: Ntddndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddndis.h
 api_name:
 - NDIS_PM_CAPABILITIES
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_PM_CAPABILITIES, *PNDIS_PM_CAPABILITIES
 ---

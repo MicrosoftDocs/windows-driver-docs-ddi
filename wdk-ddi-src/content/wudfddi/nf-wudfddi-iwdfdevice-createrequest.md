@@ -10,6 +10,7 @@ keywords: ["IWDFDevice::CreateRequest"]
 ms.keywords: CreateRequest, CreateRequest method, CreateRequest method,IWDFDevice interface, IWDFDevice interface,CreateRequest method, IWDFDevice.CreateRequest, IWDFDevice::CreateRequest, UMDFDeviceObjectRef_9eb18b05-e5fc-48cf-907b-ed7d188eac4b.xml, umdf.iwdfdevice_createrequest, wdf.iwdfdevice_createrequest, wudfddi/IWDFDevice::CreateRequest
 f1_keywords:
  - "wudfddi/IWDFDevice.CreateRequest"
+ - "IWDFDevice.CreateRequest"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFDevice.CreateRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

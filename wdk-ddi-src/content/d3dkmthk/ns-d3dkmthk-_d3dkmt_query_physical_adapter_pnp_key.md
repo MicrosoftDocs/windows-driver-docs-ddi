@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY structure"]
 ms.keywords: D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY, D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY structure [Display Devices], _D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY, d3dkmthk/D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY, display.d3dkmt_query_physical_adapter_pnp_key
 f1_keywords:
  - "d3dkmthk/D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY"
+ - "D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY

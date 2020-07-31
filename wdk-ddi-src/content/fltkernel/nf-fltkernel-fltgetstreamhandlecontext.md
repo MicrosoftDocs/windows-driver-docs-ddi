@@ -10,6 +10,7 @@ keywords: ["FltGetStreamHandleContext function"]
 ms.keywords: FltApiRef_e_to_o_4a329c48-3a48-47bc-b998-3aaee454fbef.xml, FltGetStreamHandleContext, FltGetStreamHandleContext routine [Installable File System Drivers], fltkernel/FltGetStreamHandleContext, ifsk.fltgetstreamhandlecontext
 f1_keywords:
  - "fltkernel/FltGetStreamHandleContext"
+ - "FltGetStreamHandleContext"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltGetStreamHandleContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IOCTL_VIDEO_FREE_PUBLIC_ACCESS_RANGES IOCTL"]
 ms.keywords: IOCTL_VIDEO_FREE_PUBLIC_ACCESS_RANGES, IOCTL_VIDEO_FREE_PUBLIC_ACCESS_RANGES control, IOCTL_VIDEO_FREE_PUBLIC_ACCESS_RANGES control code [Display Devices], Video_IOCTLs_8b60ca4e-5d15-4fa1-8257-805d90276262.xml, display.ioctl_video_free_public_access_ranges, ntddvdeo/IOCTL_VIDEO_FREE_PUBLIC_ACCESS_RANGES
 f1_keywords:
  - "ntddvdeo/IOCTL_VIDEO_FREE_PUBLIC_ACCESS_RANGES"
+ - "IOCTL_VIDEO_FREE_PUBLIC_ACCESS_RANGES"
 req.header: ntddvdeo.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddvdeo.h
 api_name:
 - IOCTL_VIDEO_FREE_PUBLIC_ACCESS_RANGES
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

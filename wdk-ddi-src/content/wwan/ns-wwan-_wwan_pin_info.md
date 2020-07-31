@@ -10,6 +10,7 @@ keywords: ["_WWAN_PIN_INFO structure"]
 ms.keywords: "*PWWAN_PIN_INFO, PWWAN_PIN_INFO, PWWAN_PIN_INFO structure pointer [Network Drivers Starting with Windows Vista], WWAN_PIN_INFO, WWAN_PIN_INFO structure [Network Drivers Starting with Windows Vista], WwanRef_aae7d248-25b1-465b-9314-66a16aca4993.xml, _WWAN_PIN_INFO, netvista.wwan_pin_info, wwan/PWWAN_PIN_INFO, wwan/WWAN_PIN_INFO"
 f1_keywords:
  - "wwan/WWAN_PIN_INFO"
+ - "WWAN_PIN_INFO"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_PIN_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_PIN_INFO, *PWWAN_PIN_INFO
 ---

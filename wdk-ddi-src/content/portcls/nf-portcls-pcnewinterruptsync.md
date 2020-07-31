@@ -10,6 +10,7 @@ keywords: ["PcNewInterruptSync function"]
 ms.keywords: PcNewInterruptSync, PcNewInterruptSync function [Audio Devices], audio.pcnewinterruptsync, audpc-routines_97a60c6f-2dc1-48db-982a-996b5ab8d741.xml, portcls/PcNewInterruptSync
 f1_keywords:
  - "portcls/PcNewInterruptSync"
+ - "PcNewInterruptSync"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Portcls.dll
 api_name:
 - PcNewInterruptSync
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -64,7 +63,7 @@ Output pointer for the interrupt-synchronization object created by this function
 
 ### -param OuterUnknown [in, optional]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of an object that needs to aggregate the object. Unless aggregation is required, set this parameter to <b>NULL</b>.
+Pointer to the <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of an object that needs to aggregate the object. Unless aggregation is required, set this parameter to <b>NULL</b>.
 
 
 ### -param ResourceList [in]

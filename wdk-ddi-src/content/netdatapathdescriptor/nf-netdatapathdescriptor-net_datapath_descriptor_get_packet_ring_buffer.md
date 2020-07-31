@@ -8,6 +8,7 @@ ms.date: 02/27/2018
 keywords: ["NET_DATAPATH_DESCRIPTOR_GET_PACKET_RING_BUFFER macro"]
 f1_keywords:
  - "netdatapathdescriptor/NET_DATAPATH_DESCRIPTOR_GET_PACKET_RING_BUFFER"
+ - "NET_DATAPATH_DESCRIPTOR_GET_PACKET_RING_BUFFER"
 ms.keywords: NET_DATAPATH_DESCRIPTOR_GET_PACKET_RING_BUFFER
 req.header: netdatapathdescriptor.h
 req.include-header: netadaptercx.h
@@ -34,8 +35,6 @@ api_location:
 - netdatapathdescriptor.h
 api_name: 
 - NET_DATAPATH_DESCRIPTOR_GET_PACKET_RING_BUFFER
-product:
-- Windows
 targetos: Windows
 
 ---

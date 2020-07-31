@@ -10,6 +10,7 @@ keywords: ["IPrintOemUI::CommonUIProp"]
 ms.keywords: CommonUIProp, CommonUIProp method [Print Devices], CommonUIProp method [Print Devices],IPrintOemUI interface, IPrintOemUI interface [Print Devices],CommonUIProp method, IPrintOemUI.CommonUIProp, IPrintOemUI::CommonUIProp, prcomoem/IPrintOemUI::CommonUIProp, print.iprintoemui_commonuiprop, print_unidrv-pscript_ui_dd201198-0df4-479d-9c48-0fa934fb0b56.xml
 f1_keywords:
  - "prcomoem/IPrintOemUI.CommonUIProp"
+ - "IPrintOemUI.CommonUIProp"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - prcomoem.h
 api_name:
 - IPrintOemUI.CommonUIProp
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

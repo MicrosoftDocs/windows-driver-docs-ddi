@@ -7,6 +7,7 @@ ms.date: 07/19/2018
 keywords: ["IDataModelManager::RegisterNamedModel"]
 f1_keywords:
  - "dbgmodel/IDataModelManager.RegisterNamedModel"
+ - "IDataModelManager.RegisterNamedModel"
 ms.keywords: IDataModelManager::RegisterNamedModel, RegisterNamedModel, IDataModelManager.RegisterNamedModel, IDataModelManager::RegisterNamedModel, IDataModelManager.RegisterNamedModel
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDataModelManager.RegisterNamedModel
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

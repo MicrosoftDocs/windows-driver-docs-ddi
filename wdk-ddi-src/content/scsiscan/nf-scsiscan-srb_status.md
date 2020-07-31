@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["SRB_STATUS macro"]
 f1_keywords:
  - "scsiscan/SRB_STATUS"
+ - "SRB_STATUS"
 ms.keywords: SRB_STATUS
 req.header: scsiscan.h
 req.include-header:

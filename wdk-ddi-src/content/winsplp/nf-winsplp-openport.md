@@ -10,6 +10,7 @@ keywords: ["OpenPort function"]
 ms.keywords: spoolfnc_94948c6d-fab4-44ce-9650-72464d5e3fdf.xml, pfnOpenPort, print.openport, OpenPort, pfnOpenPort function [Print Devices], winsplp/pfnOpenPort
 f1_keywords:
  - "winsplp/pfnOpenPort"
+ - "pfnOpenPort"
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Winsplp.h
 api_name:
 - pfnOpenPort
-product:
-- Windows
 targetos: Windows
 req.typenames: NOTIFICATION_CONFIG_FLAGS
 req.product: Windows 10 or later.

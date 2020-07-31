@@ -10,6 +10,7 @@ keywords: ["IOCTL_VPCI_WRITE_BLOCK IOCTL"]
 ms.keywords: IOCTL_VPCI_WRITE_BLOCK, IOCTL_VPCI_WRITE_BLOCK control code, PCI.ioctl_vpci_write_block, vpci/IOCTL_VPCI_WRITE_BLOCK
 f1_keywords:
  - "vpci/IOCTL_VPCI_WRITE_BLOCK"
+ - "IOCTL_VPCI_WRITE_BLOCK"
 req.header: vpci.h
 req.include-header: Wdm.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Vpci.h
 api_name:
 - IOCTL_VPCI_WRITE_BLOCK
-product:
-- Windows
 targetos: Windows
 req.typenames: VMB_CHANNEL_STATE_CHANGE_CALLBACKS, *PVMB_CHANNEL_STATE_CHANGE_CALLBACKS
 req.product: Windows 10 or later.

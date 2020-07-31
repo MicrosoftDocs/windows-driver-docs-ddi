@@ -10,6 +10,7 @@ keywords: ["_DXGI_DDI_ARG_CHECKMULTIPLANEOVERLAYSUPPORT structure"]
 ms.keywords: DXGI_DDI_ARG_CHECKMULTIPLANEOVERLAYSUPPORT, DXGI_DDI_ARG_CHECKMULTIPLANEOVERLAYSUPPORT structure [Display Devices], _DXGI_DDI_ARG_CHECKMULTIPLANEOVERLAYSUPPORT, display.dxgi_ddi_arg_checkmultiplaneoverlaysupport, dxgiddi/DXGI_DDI_ARG_CHECKMULTIPLANEOVERLAYSUPPORT
 f1_keywords:
  - "dxgiddi/DXGI_DDI_ARG_CHECKMULTIPLANEOVERLAYSUPPORT"
+ - "DXGI_DDI_ARG_CHECKMULTIPLANEOVERLAYSUPPORT"
 req.header: dxgiddi.h
 req.include-header: Dxgiddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Dxgiddi.h
 api_name:
 - DXGI_DDI_ARG_CHECKMULTIPLANEOVERLAYSUPPORT
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGI_DDI_ARG_CHECKMULTIPLANEOVERLAYSUPPORT
 ---

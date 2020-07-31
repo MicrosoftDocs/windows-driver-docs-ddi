@@ -7,6 +7,7 @@ ms.date: 10/04/2018
 keywords: ["IDebugHostType2::GetSize"]
 f1_keywords:
  - "dbgmodel/IDebugHostType2.GetSize"
+ - "IDebugHostType2.GetSize"
 ms.keywords: IDebugHostType2::GetSize, GetSize, IDebugHostType2.GetSize, IDebugHostType2::GetSize, IDebugHostType2.GetSize
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostType2.GetSize
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

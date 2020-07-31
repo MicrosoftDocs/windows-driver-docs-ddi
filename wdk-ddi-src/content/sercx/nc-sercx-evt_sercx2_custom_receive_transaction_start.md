@@ -10,6 +10,7 @@ keywords: ["EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_START callback function"]
 ms.keywords: 2/EvtSerCx2CustomReceiveTransactionStart, EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_START, EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_START callback, EvtSerCx2CustomReceiveTransactionStart, EvtSerCx2CustomReceiveTransactionStart callback function [Serial Ports], serports.evtsercx2customreceivetransactionstart
 f1_keywords:
  - "sercx/EvtSerCx2CustomReceiveTransactionStart"
+ - "EvtSerCx2CustomReceiveTransactionStart"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - 2.0\Sercx.h
 api_name:
 - EvtSerCx2CustomReceiveTransactionStart
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

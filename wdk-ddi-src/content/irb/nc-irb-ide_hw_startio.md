@@ -10,6 +10,7 @@ keywords: ["IDE_HW_STARTIO callback function"]
 ms.keywords: IDE_HW_STARTIO, IdeHwStartIo, IdeHwStartIo routine [Storage Devices], atartns_5be92425-7e5b-4a9b-9673-baea4aace64a.xml, irb/IdeHwStartIo, storage.idehwstartio
 f1_keywords:
  - "irb/IdeHwStartIo"
+ - "IdeHwStartIo"
 req.header: irb.h
 req.include-header: Irb.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - irb.h
 api_name:
 - IdeHwStartIo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

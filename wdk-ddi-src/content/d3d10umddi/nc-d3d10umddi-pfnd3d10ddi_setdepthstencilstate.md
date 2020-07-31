@@ -9,6 +9,7 @@ keywords: ["PFND3D10DDI_SETDEPTHSTENCILSTATE callback function"]
 ms.keywords: PFND3D10DDI_SETDEPTHSTENCILSTATE, PFND3D10DDI_SETDEPTHSTENCILSTATE callback, SetDepthStencilState, SetDepthStencilState callback function [Display Devices], UserModeDisplayDriverDx10_Functions_850fde8e-3bb5-4943-94ba-d98298599c19.xml, d3d10umddi/SetDepthStencilState, display.setdepthstencilstate
 f1_keywords:
  - "d3d10umddi/SetDepthStencilState"
+ - "SetDepthStencilState"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - SetDepthStencilState
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

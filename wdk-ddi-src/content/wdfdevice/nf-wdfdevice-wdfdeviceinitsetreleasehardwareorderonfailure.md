@@ -10,6 +10,7 @@ keywords: ["WdfDeviceInitSetReleaseHardwareOrderOnFailure function"]
 ms.keywords: WdfDeviceInitSetReleaseHardwareOrderOnFailure, WdfDeviceInitSetReleaseHardwareOrderOnFailure method, kmdf.wdfdeviceinitsetreleasehardwareorderonfailure, wdf.wdfdeviceinitsetreleasehardwareorderonfailure, wdfdevice/WdfDeviceInitSetReleaseHardwareOrderOnFailure
 f1_keywords:
  - "wdfdevice/WdfDeviceInitSetReleaseHardwareOrderOnFailure"
+ - "WdfDeviceInitSetReleaseHardwareOrderOnFailure"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfDeviceInitSetReleaseHardwareOrderOnFailure
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IOCTL_VIDEO_QUERY_POINTER_CAPABILITIES IOCTL"]
 ms.keywords: IOCTL_VIDEO_QUERY_POINTER_CAPABILITIES, IOCTL_VIDEO_QUERY_POINTER_CAPABILITIES control, IOCTL_VIDEO_QUERY_POINTER_CAPABILITIES control code [Display Devices], Video_IOCTLs_42064dfd-73fb-4afc-aa3b-4e1ec4829e99.xml, display.ioctl_video_query_pointer_capabilities, ntddvdeo/IOCTL_VIDEO_QUERY_POINTER_CAPABILITIES
 f1_keywords:
  - "ntddvdeo/IOCTL_VIDEO_QUERY_POINTER_CAPABILITIES"
+ - "IOCTL_VIDEO_QUERY_POINTER_CAPABILITIES"
 req.header: ntddvdeo.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddvdeo.h
 api_name:
 - IOCTL_VIDEO_QUERY_POINTER_CAPABILITIES
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

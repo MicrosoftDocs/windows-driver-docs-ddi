@@ -10,6 +10,7 @@ keywords: ["VideoPortQueryPerformanceCounter function"]
 ms.keywords: VideoPortQueryPerformanceCounter, VideoPortQueryPerformanceCounter function [Display Devices], VideoPort_Functions_cd442a17-45fb-493b-b725-8bfbd12ed398.xml, display.videoportqueryperformancecounter, video/VideoPortQueryPerformanceCounter
 f1_keywords:
  - "video/VideoPortQueryPerformanceCounter"
+ - "VideoPortQueryPerformanceCounter"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Videoprt.sys
 api_name:
 - VideoPortQueryPerformanceCounter
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["RILSETEXECUTORFOCUSPARAMS structure"]
 ms.keywords: "*LPRILSETEXECUTORFOCUSPARAMS, RILSETEXECUTORFOCUSPARAMS, RILSETEXECUTORFOCUSPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetexecutorfocusparams, ntddrilapitypes/RILSETEXECUTORFOCUSPARAMS"
 f1_keywords:
  - "ntddrilapitypes/RILSETEXECUTORFOCUSPARAMS"
+ - "RILSETEXECUTORFOCUSPARAMS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILSETEXECUTORFOCUSPARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILSETEXECUTORFOCUSPARAMS, *LPRILSETEXECUTORFOCUSPARAMS
 ---

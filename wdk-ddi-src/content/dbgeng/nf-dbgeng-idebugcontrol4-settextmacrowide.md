@@ -10,6 +10,7 @@ keywords: ["IDebugControl4::SetTextMacroWide"]
 ms.keywords: IDebugControl4 interface [Windows Debugging],SetTextMacroWide method, IDebugControl4.SetTextMacroWide, IDebugControl4::SetTextMacroWide, SetTextMacroWide, SetTextMacroWide method [Windows Debugging], SetTextMacroWide method [Windows Debugging],IDebugControl4 interface, dbgeng/IDebugControl4::SetTextMacroWide, debugger.settextmacrowide
 f1_keywords:
  - "dbgeng/IDebugControl4.SetTextMacroWide"
+ - "IDebugControl4.SetTextMacroWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugControl4.SetTextMacroWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

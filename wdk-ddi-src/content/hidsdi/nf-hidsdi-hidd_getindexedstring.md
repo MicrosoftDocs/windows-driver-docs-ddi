@@ -10,6 +10,7 @@ keywords: ["HidD_GetIndexedString function"]
 ms.keywords: HidD_GetIndexedString, HidD_GetIndexedString routine [Human Input Devices], hid.hidd_getindexedstring, hidfunc_49698b0b-18d1-41aa-b64c-185307fb2100.xml, hidsdi/HidD_GetIndexedString
 f1_keywords:
  - "hidsdi/HidD_GetIndexedString"
+ - "HidD_GetIndexedString"
 req.header: hidsdi.h
 req.include-header: Hidsdi.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Hid.dll
 api_name:
 - HidD_GetIndexedString
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

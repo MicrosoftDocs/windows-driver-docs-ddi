@@ -10,6 +10,7 @@ keywords: ["IOCTL_PAR_GET_DEFAULT_MODES IOCTL"]
 ms.keywords: IOCTL_PAR_GET_DEFAULT_MODES, IOCTL_PAR_GET_DEFAULT_MODES control code [Parallel Ports], cisspd_29dfce16-6dea-4bff-928d-6ab83099595c.xml, ntddpar/IOCTL_PAR_GET_DEFAULT_MODES, parports.ioctl_par_get_default_modes
 f1_keywords:
  - "ntddpar/IOCTL_PAR_GET_DEFAULT_MODES"
+ - "IOCTL_PAR_GET_DEFAULT_MODES"
 req.header: ntddpar.h
 req.include-header: Ntddpar.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddpar.h
 api_name:
 - IOCTL_PAR_GET_DEFAULT_MODES
-product:
-- Windows
 targetos: Windows
 req.typenames: OFFLOAD_SECURITY_ASSOCIATION, *POFFLOAD_SECURITY_ASSOCIATION
 ---

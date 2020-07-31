@@ -34,7 +34,8 @@ api_location:
 api_name:
  - ExAllocatePool3
 f1_keywords:
- - wdm/ExAllocatePool3
+ - wdm//ExAllocatePool3
+ - ExAllocatePool3
 dev_langs:
  - c++
 ---

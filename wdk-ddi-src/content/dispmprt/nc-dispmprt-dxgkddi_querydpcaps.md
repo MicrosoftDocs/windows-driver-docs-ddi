@@ -34,7 +34,8 @@ api_location:
 api_name:
  - DXGKDDI_QUERYDPCAPS
 f1_keywords:
- - dispmprt/DXGKDDI_QUERYDPCAPS
+ - dispmprt//DXGKDDI_QUERYDPCAPS
+ - DXGKDDI_QUERYDPCAPS
 dev_langs:
  - c++
 ---

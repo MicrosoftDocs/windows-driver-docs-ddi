@@ -10,6 +10,7 @@ keywords: ["PcForwardContentToDeviceObject function"]
 ms.keywords: PcForwardContentToDeviceObject, PcForwardContentToDeviceObject function [Audio Devices], audio.pcforwardcontenttodeviceobject, audpc-routines_1dec7e58-07b2-41ce-82d3-5f0670bbc273.xml, portcls/PcForwardContentToDeviceObject
 f1_keywords:
  - "portcls/PcForwardContentToDeviceObject"
+ - "PcForwardContentToDeviceObject"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Portcls.dll
 api_name:
 - PcForwardContentToDeviceObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_WAITFORVERTICALBLANKEVENT2 structure"]
 ms.keywords: D3DKMT_WAITFORVERTICALBLANKEVENT2, D3DKMT_WAITFORVERTICALBLANKEVENT2 structure [Display Devices], _D3DKMT_WAITFORVERTICALBLANKEVENT2, d3dkmthk/D3DKMT_WAITFORVERTICALBLANKEVENT2, display.d3dkmt_waitforverticalblankevent2
 f1_keywords:
  - "d3dkmthk/D3DKMT_WAITFORVERTICALBLANKEVENT2"
+ - "D3DKMT_WAITFORVERTICALBLANKEVENT2"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - D3dkmthk.h
 api_name:
 - D3DKMT_WAITFORVERTICALBLANKEVENT2
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_WAITFORVERTICALBLANKEVENT2

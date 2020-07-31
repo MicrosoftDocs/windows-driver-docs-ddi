@@ -10,6 +10,7 @@ keywords: ["_HIDP_LINK_COLLECTION_NODE structure"]
 ms.keywords: "*PHIDP_LINK_COLLECTION_NODE, HIDP_LINK_COLLECTION_NODE, HIDP_LINK_COLLECTION_NODE structure [Human Input Devices], PHIDP_LINK_COLLECTION_NODE, PHIDP_LINK_COLLECTION_NODE structure pointer [Human Input Devices], _HIDP_LINK_COLLECTION_NODE, hid.hidp_link_collection_node, hidpi/HIDP_LINK_COLLECTION_NODE, hidpi/PHIDP_LINK_COLLECTION_NODE, hidstrct_8d1c79e1-c19d-4896-9572-cae49a06304a.xml"
 f1_keywords:
  - "hidpi/HIDP_LINK_COLLECTION_NODE"
+ - "HIDP_LINK_COLLECTION_NODE"
 req.header: hidpi.h
 req.include-header: Hidpi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - hidpi.h
 api_name:
 - HIDP_LINK_COLLECTION_NODE
-product:
-- Windows
 targetos: Windows
 req.typenames: HIDP_LINK_COLLECTION_NODE, *PHIDP_LINK_COLLECTION_NODE
 ---

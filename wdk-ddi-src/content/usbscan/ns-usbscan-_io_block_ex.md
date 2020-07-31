@@ -10,6 +10,7 @@ keywords: ["_IO_BLOCK_EX structure"]
 ms.keywords: "*PIO_BLOCK_EX, IO_BLOCK_EX, IO_BLOCK_EX structure [Imaging Devices], PIO_BLOCK_EX, PIO_BLOCK_EX structure pointer [Imaging Devices], _IO_BLOCK_EX, image.io_block_ex, stifnc_6b21356d-4f1a-4b8d-a54e-767f46e5b1b3.xml, usbscan/IO_BLOCK_EX, usbscan/PIO_BLOCK_EX"
 f1_keywords:
  - "usbscan/IO_BLOCK_EX"
+ - "IO_BLOCK_EX"
 req.header: usbscan.h
 req.include-header: Usbscan.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - usbscan.h
 api_name:
 - IO_BLOCK_EX
-product:
-- Windows
 targetos: Windows
 req.typenames: IO_BLOCK_EX, *PIO_BLOCK_EX
 ---

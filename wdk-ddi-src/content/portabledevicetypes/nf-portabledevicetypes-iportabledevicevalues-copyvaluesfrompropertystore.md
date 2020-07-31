@@ -10,6 +10,7 @@ keywords: ["IPortableDeviceValues::CopyValuesFromPropertyStore"]
 ms.keywords: CopyValuesFromPropertyStore, CopyValuesFromPropertyStore method, CopyValuesFromPropertyStore method,IPortableDeviceValues interface, IPortableDeviceValues interface,CopyValuesFromPropertyStore method, IPortableDeviceValues.CopyValuesFromPropertyStore, IPortableDeviceValues::CopyValuesFromPropertyStore, IPortableDeviceValuesCopyValuesFromPropertyStore, portabledevicetypes/IPortableDeviceValues::CopyValuesFromPropertyStore, wpddk.iportabledevicevalues_copyvaluesfrompropertystore
 f1_keywords:
  - "portabledevicetypes/IPortableDeviceValues.CopyValuesFromPropertyStore"
+ - "IPortableDeviceValues.CopyValuesFromPropertyStore"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - PortableDeviceTypes.h
 api_name:
 - IPortableDeviceValues.CopyValuesFromPropertyStore
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

@@ -10,6 +10,7 @@ keywords: ["IMiniportAudioEngineNode::GetDeviceChannelPeakMeter"]
 ms.keywords: GetDeviceChannelPeakMeter, GetDeviceChannelPeakMeter method [Audio Devices], GetDeviceChannelPeakMeter method [Audio Devices],IMiniportAudioEngineNode interface, IMiniportAudioEngineNode interface [Audio Devices],GetDeviceChannelPeakMeter method, IMiniportAudioEngineNode.GetDeviceChannelPeakMeter, IMiniportAudioEngineNode::GetDeviceChannelPeakMeter, audio.iminiportaudioenginenode_getdevicechannelpeakmeter, portcls/IMiniportAudioEngineNode::GetDeviceChannelPeakMeter
 f1_keywords:
  - "portcls/IMiniportAudioEngineNode.GetDeviceChannelPeakMeter"
+ - "IMiniportAudioEngineNode.GetDeviceChannelPeakMeter"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Portcls.h
 api_name:
 - IMiniportAudioEngineNode.GetDeviceChannelPeakMeter
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["_PEP_PPM_ENTER_SYSTEM_STATE structure"]
 ms.keywords: "*PPEP_PPM_ENTER_SYSTEM_STATE, PEP_PPM_ENTER_SYSTEM_STATE, PEP_PPM_ENTER_SYSTEM_STATE structure [Kernel-Mode Driver Architecture], PPEP_PPM_ENTER_SYSTEM_STATE, PPEP_PPM_ENTER_SYSTEM_STATE structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_ENTER_SYSTEM_STATE, kernel.pep_ppm_enter_system_state, pepfx/PEP_PPM_ENTER_SYSTEM_STATE, pepfx/PPEP_PPM_ENTER_SYSTEM_STATE"
 f1_keywords:
  - "pepfx/PEP_PPM_ENTER_SYSTEM_STATE"
+ - "PEP_PPM_ENTER_SYSTEM_STATE"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Pepfx.h
 api_name:
 - PEP_PPM_ENTER_SYSTEM_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_PPM_ENTER_SYSTEM_STATE, *PPEP_PPM_ENTER_SYSTEM_STATE
 ---

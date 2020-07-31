@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_ADAPTER_VERIFIER_VIDMM_TRIM_INTERVAL structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_ADAPTER_VERIFIER_VIDMM_TRIM_INTERVAL"
+ - "_D3DKMT_ADAPTER_VERIFIER_VIDMM_TRIM_INTERVAL"
 ms.keywords: _D3DKMT_ADAPTER_VERIFIER_VIDMM_TRIM_INTERVAL, D3DKMT_ADAPTER_VERIFIER_VIDMM_TRIM_INTERVAL, 
 req.header: d3dkmthk.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - d3dkmthk.h
 api_name: 
 - _D3DKMT_ADAPTER_VERIFIER_VIDMM_TRIM_INTERVAL
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

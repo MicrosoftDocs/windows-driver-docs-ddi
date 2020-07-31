@@ -10,6 +10,7 @@ keywords: ["FsRtlNotifyFilterReportChange function"]
 ms.keywords: FsRtlNotifyFilterReportChange, FsRtlNotifyFilterReportChange function [Installable File System Drivers], fsrtlref_c4a79c57-aa80-40f3-9882-76ed887c99cb.xml, ifsk.fsrtlnotifyfilterreportchange, ntifs/FsRtlNotifyFilterReportChange
 f1_keywords:
  - "ntifs/FsRtlNotifyFilterReportChange"
+ - "FsRtlNotifyFilterReportChange"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlNotifyFilterReportChange
-product:
-- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---

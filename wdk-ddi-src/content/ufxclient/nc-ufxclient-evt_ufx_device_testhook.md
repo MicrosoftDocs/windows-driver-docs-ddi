@@ -10,6 +10,7 @@ keywords: ["EVT_UFX_DEVICE_TESTHOOK callback function"]
 ms.keywords: EVT_UFX_DEVICE_TESTHOOK, EVT_UFX_DEVICE_TESTHOOK callback, EvtUfxDeviceTesthook, EvtUfxDeviceTesthook callback function [Buses], buses.evt_ufx_device_testhook, ufxclient/EvtUfxDeviceTesthook
 f1_keywords:
  - "ufxclient/EVT_UFX_DEVICE_TESTHOOK callback"
+ - "EVT_UFX_DEVICE_TESTHOOK callback"
 req.header: ufxclient.h
 req.include-header: Ufxclient.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - Ufxclient.h
 api_name:
 - EVT_UFX_DEVICE_TESTHOOK callback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

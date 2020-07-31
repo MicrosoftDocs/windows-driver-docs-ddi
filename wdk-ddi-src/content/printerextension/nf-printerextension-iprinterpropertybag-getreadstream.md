@@ -10,6 +10,7 @@ keywords: ["IPrinterPropertyBag::GetReadStream"]
 ms.keywords: GetReadStream, GetReadStream method [Print Devices], GetReadStream method [Print Devices],IPrinterPropertyBag interface, IPrinterPropertyBag interface [Print Devices],GetReadStream method, IPrinterPropertyBag.GetReadStream, IPrinterPropertyBag::GetReadStream, print.iprinterpropertybag_getreadstream, printerextension/IPrinterPropertyBag::GetReadStream
 f1_keywords:
  - "printerextension/IPrinterPropertyBag.GetReadStream"
+ - "IPrinterPropertyBag.GetReadStream"
 req.header: printerextension.h
 req.include-header: Printerextension.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Printerextension.h
 api_name:
 - IPrinterPropertyBag.GetReadStream
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["WdfRequestChangeTarget function"]
 ms.keywords: DFRequestObjectRef_3d1f75eb-de12-4a8e-8cb8-d5ebe941e70f.xml, WdfRequestChangeTarget, WdfRequestChangeTarget method, kmdf.wdfrequestchangetarget, wdf.wdfrequestchangetarget, wdfrequest/WdfRequestChangeTarget
 f1_keywords:
  - "wdfrequest/WdfRequestChangeTarget"
+ - "WdfRequestChangeTarget"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfRequestChangeTarget
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

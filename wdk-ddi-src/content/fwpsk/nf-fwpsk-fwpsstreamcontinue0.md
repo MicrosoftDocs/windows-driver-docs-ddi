@@ -10,6 +10,7 @@ keywords: ["FwpsStreamContinue0 function"]
 ms.keywords: FwpsStreamContinue0, FwpsStreamContinue0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsStreamContinue0, netvista.fwpsstreamcontinue0, wfp_ref_2_funct_3_fwps_R-Z_c2e0bb3b-854a-4e88-9378-e78e48cb19f2.xml
 f1_keywords:
  - "fwpsk/FwpsStreamContinue0"
+ - "FwpsStreamContinue0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Fwpkclnt.dll
 api_name:
 - FwpsStreamContinue0
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

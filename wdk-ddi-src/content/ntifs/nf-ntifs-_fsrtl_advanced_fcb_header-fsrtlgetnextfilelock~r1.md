@@ -10,6 +10,7 @@ keywords: ["FsRtlGetNextFileLock function"]
 ms.keywords: FsRtlGetNextFileLock, FsRtlGetNextFileLock routine [Installable File System Drivers], fsrtlref_d34dc7b6-7bdd-47a8-a35e-302c621bf93d.xml, ifsk.fsrtlgetnextfilelock, ntifs/FsRtlGetNextFileLock
 f1_keywords:
  - "ntifs/FsRtlGetNextFileLock"
+ - "FsRtlGetNextFileLock"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlGetNextFileLock
-product:
-- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---

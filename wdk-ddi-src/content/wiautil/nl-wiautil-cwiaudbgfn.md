@@ -10,6 +10,7 @@ keywords: ["CWiauDbgFn class"]
 ms.keywords: CWiauDbgFn, CWiauDbgFn class [Imaging Devices], CWiauDbgFn class [Imaging Devices],described, image.cwiaudbgfn_class, wiauFncs_485ebf85-0a5f-4bac-b9bf-6f91f5f1aedd.xml, wiautil/CWiauDbgFn
 f1_keywords:
  - "wiautil/CWiauDbgFn"
+ - "CWiauDbgFn"
 req.header: wiautil.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wiautil.h
 api_name:
 - CWiauDbgFn
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -8,6 +8,7 @@ ms.date: 04/12/2018
 keywords: ["NET_BUFFER_DATA_LENGTH macro"]
 f1_keywords:
  - "ndis/NET_BUFFER_DATA_LENGTH"
+ - "NET_BUFFER_DATA_LENGTH"
 ms.keywords: NET_BUFFER_DATA_LENGTH
 req.header: ndis.h
 req.include-header:
@@ -34,8 +35,6 @@ api_location:
 - ndis.h
 api_name: 
 - NET_BUFFER_DATA_LENGTH
-product:
-- Windows
 targetos: Windows
 
 ---

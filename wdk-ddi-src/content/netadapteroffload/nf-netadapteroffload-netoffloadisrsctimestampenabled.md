@@ -10,6 +10,7 @@ ms.date: 11/07/2019
 keywords: ["NetOffloadIsRscTimestampEnabled function"]
 f1_keywords:
  - "netadapteroffload/NetOffloadIsRscTimestampEnabled"
+ - "NetOffloadIsRscTimestampEnabled"
 ms.keywords: NetOffloadIsRscTimestampEnabled
 req.header: netadapteroffload.h
 req.include-header:

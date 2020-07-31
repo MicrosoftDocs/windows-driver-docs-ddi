@@ -10,6 +10,7 @@ keywords: ["IPrintOemUni::Compression"]
 ms.keywords: Compression, Compression method [Print Devices], Compression method [Print Devices],IPrintOemUni interface, IPrintOemUni interface [Print Devices],Compression method, IPrintOemUni.Compression, IPrintOemUni::Compression, prcomoem/IPrintOemUni::Compression, print.iprintoemuni_compression, print_unidrv-pscript_rendering_47704483-1ab7-46a6-8a1e-07559fc6bde2.xml
 f1_keywords:
  - "prcomoem/IPrintOemUni.Compression"
+ - "IPrintOemUni.Compression"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - prcomoem.h
 api_name:
 - IPrintOemUni.Compression
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

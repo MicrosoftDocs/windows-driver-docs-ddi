@@ -10,6 +10,7 @@ keywords: ["EXT_COMMAND_METHOD macro"]
 ms.keywords: EXT_COMMAND_METHOD, EXT_COMMAND_METHOD function [Windows Debugging], EngExtCpp_Ref_a4a0b264-50e1-457b-a962-ca691509ea36.xml, debugger.ext_command_method, engextcpp/EXT_COMMAND_METHOD
 f1_keywords:
  - "engextcpp/EXT_COMMAND_METHOD"
+ - "EXT_COMMAND_METHOD"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - engextcpp.hpp
 api_name:
 - EXT_COMMAND_METHOD
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

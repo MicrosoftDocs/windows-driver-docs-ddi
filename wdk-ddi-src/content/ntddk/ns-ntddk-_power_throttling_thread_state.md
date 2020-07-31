@@ -10,6 +10,7 @@ keywords: ["_POWER_THROTTLING_THREAD_STATE structure"]
 ms.keywords: "*PPOWER_THROTTLING_THREAD_STATE, POWER_THROTTLING_THREAD_STATE, POWER_THROTTLING_THREAD_STATE structure [Kernel-Mode Driver Architecture], _POWER_THROTTLING_THREAD_STATE, kernel.power_throttling_thread_state, ntddk/POWER_THROTTLING_THREAD_STATE"
 f1_keywords:
  - "ntddk/POWER_THROTTLING_THREAD_STATE"
+ - "POWER_THROTTLING_THREAD_STATE"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddk.h
 api_name:
 - POWER_THROTTLING_THREAD_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: POWER_THROTTLING_THREAD_STATE, *PPOWER_THROTTLING_THREAD_STATE
 ---

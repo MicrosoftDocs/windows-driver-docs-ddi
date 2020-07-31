@@ -10,6 +10,7 @@ keywords: ["IddCxAdapterUpdateMaxDisplayPipelineRate function"]
 ms.keywords: IddCxAdapterUpdateMaxDisplayPipelineRate, IddCxAdapterUpdateMaxDisplayPipelineRate method [Display Devices], display.iddcxadapterupdatemaxdisplaypipelinerate, iddcx/IddCxAdapterUpdateMaxDisplayPipelineRate
 f1_keywords:
  - "iddcx/IddCxAdapterUpdateMaxDisplayPipelineRate"
+ - "IddCxAdapterUpdateMaxDisplayPipelineRate"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - IddCx.dll
 api_name:
 - IddCxAdapterUpdateMaxDisplayPipelineRate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

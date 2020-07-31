@@ -10,6 +10,7 @@ keywords: ["WdfRequestGetEffectiveIoType function"]
 ms.keywords: WdfRequestGetEffectiveIoType, WdfRequestGetEffectiveIoType method, wdf.wdfrequestgeteffectiveiotype, wdfrequest/WdfRequestGetEffectiveIoType
 f1_keywords:
  - "wdfrequest/WdfRequestGetEffectiveIoType"
+ - "WdfRequestGetEffectiveIoType"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - WUDFx02000.dll
 api_name:
 - WdfRequestGetEffectiveIoType
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["PoEndDeviceBusy function"]
 ms.keywords: PoEndDeviceBusy, PoEndDeviceBusy routine [Kernel-Mode Driver Architecture], kernel.poenddevicebusy, portn_edd72e85-e155-4a0c-9d6a-836ad448bb61.xml, wdm/PoEndDeviceBusy
 f1_keywords:
  - "wdm/PoEndDeviceBusy"
+ - "PoEndDeviceBusy"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - PoEndDeviceBusy
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

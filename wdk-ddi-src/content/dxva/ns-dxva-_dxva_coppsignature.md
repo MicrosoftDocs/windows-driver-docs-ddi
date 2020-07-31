@@ -10,6 +10,7 @@ keywords: ["_DXVA_COPPSignature structure"]
 ms.keywords: "*LPDXVA_COPPSignature, DXVA_COPPSignature, DXVA_COPPSignature structure [Display Devices], LPDXVA_COPPSignature, LPDXVA_COPPSignature structure pointer [Display Devices], _DXVA_COPPSignature, display.dxva_coppsignature, dxva/DXVA_COPPSignature, dxva/LPDXVA_COPPSignature, dxvaref_9194eb73-7b7e-4d28-b589-08ddd24eaf0c.xml"
 f1_keywords:
  - "dxva/DXVA_COPPSignature"
+ - "DXVA_COPPSignature"
 req.header: dxva.h
 req.include-header: Dxva.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dxva.h
 api_name:
 - DXVA_COPPSignature
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVA_COPPSignature, *LPDXVA_COPPSignature
 ---

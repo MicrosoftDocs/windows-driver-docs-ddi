@@ -7,6 +7,7 @@ ms.date: 06/10/2019
 keywords: ["IModelObject::GetTypeInfo"]
 f1_keywords:
  - "dbgmodel/IModelObject.GetTypeInfo"
+ - "IModelObject.GetTypeInfo"
 ms.keywords: IModelObject::GetTypeInfo, GetTypeInfo, IModelObject.GetTypeInfo, IModelObject::GetTypeInfo, IModelObject.GetTypeInfo
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IModelObject.GetTypeInfo
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

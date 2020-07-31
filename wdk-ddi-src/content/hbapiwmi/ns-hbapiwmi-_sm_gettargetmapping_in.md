@@ -10,6 +10,7 @@ keywords: ["_SM_GetTargetMapping_IN structure"]
 ms.keywords: "*PSM_GetTargetMapping_IN, PSM_GetTargetMapping_IN, PSM_GetTargetMapping_IN structure pointer [Storage Devices], SM_GetTargetMapping_IN, SM_GetTargetMapping_IN structure [Storage Devices], _SM_GetTargetMapping_IN, hbapiwmi/PSM_GetTargetMapping_IN, hbapiwmi/SM_GetTargetMapping_IN, storage.sm_gettargetmapping_in, structs-Fibre_0109f5f0-dd0c-4a30-8b0a-aa33a54b5a61.xml"
 f1_keywords:
  - "hbapiwmi/SM_GetTargetMapping_IN"
+ - "SM_GetTargetMapping_IN"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - SM_GetTargetMapping_IN
-product:
-- Windows
 targetos: Windows
 req.typenames: SM_GetTargetMapping_IN, *PSM_GetTargetMapping_IN
 ---

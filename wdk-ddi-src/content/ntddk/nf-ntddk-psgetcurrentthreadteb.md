@@ -10,6 +10,7 @@ keywords: ["PsGetCurrentThreadTeb function"]
 ms.keywords: PsGetCurrentThreadTeb, PsGetCurrentThreadTeb routine [Kernel-Mode Driver Architecture], kernel.psgetcurrentthreadteb, ntddk/PsGetCurrentThreadTeb
 f1_keywords:
  - "ntddk/PsGetCurrentThreadTeb"
+ - "PsGetCurrentThreadTeb"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - PsGetCurrentThreadTeb
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

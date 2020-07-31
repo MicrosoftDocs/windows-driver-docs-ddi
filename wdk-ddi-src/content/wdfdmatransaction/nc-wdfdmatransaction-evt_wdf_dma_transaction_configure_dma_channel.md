@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_DMA_TRANSACTION_CONFIGURE_DMA_CHANNEL callback function"]
 ms.keywords: EVT_WDF_DMA_TRANSACTION_CONFIGURE_DMA_CHANNEL, EVT_WDF_DMA_TRANSACTION_CONFIGURE_DMA_CHANNEL callback, EvtDmaTransactionConfigureDmaChannel, EvtDmaTransactionConfigureDmaChannel callback function, kmdf.evtdmatransactionconfiguredmachannel, wdf.evtdmatransactionconfiguredmachannel, wdfdmatransaction/EvtDmaTransactionConfigureDmaChannel
 f1_keywords:
  - "wdfdmatransaction/EvtDmaTransactionConfigureDmaChannel"
+ - "EvtDmaTransactionConfigureDmaChannel"
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - WdfDmaTransaction.h
 api_name:
 - EvtDmaTransactionConfigureDmaChannel
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

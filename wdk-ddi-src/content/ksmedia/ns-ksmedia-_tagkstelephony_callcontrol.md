@@ -10,6 +10,7 @@ keywords: ["_tagKSTELEPHONY_CALLCONTROL structure"]
 ms.keywords: "*PKSTELEPHONY_CALLCONTROL, KSTELEPHONY_CALLCONTROL, KSTELEPHONY_CALLCONTROL structure [Audio Devices], PKSTELEPHONY_CALLCONTROL, PKSTELEPHONY_CALLCONTROL structure pointer [Audio Devices], _tagKSTELEPHONY_CALLCONTROL, audio.kstelephony_callcontrol, ksmedia/KSTELEPHONY_CALLCONTROL, ksmedia/PKSTELEPHONY_CALLCONTROL"
 f1_keywords:
  - "ksmedia/KSTELEPHONY_CALLCONTROL"
+ - "KSTELEPHONY_CALLCONTROL"
 req.header: ksmedia.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KSTELEPHONY_CALLCONTROL
-product:
-- Windows
 targetos: Windows
 req.typenames: KSTELEPHONY_CALLCONTROL, *PKSTELEPHONY_CALLCONTROL
 ---

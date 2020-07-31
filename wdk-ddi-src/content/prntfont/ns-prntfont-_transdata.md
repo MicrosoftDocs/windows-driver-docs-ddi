@@ -10,6 +10,7 @@ keywords: ["_TRANSDATA structure"]
 ms.keywords: "*PTRANSDATA, PTRANSDATA, PTRANSDATA structure pointer [Print Devices], TRANSDATA, TRANSDATA structure [Print Devices], _TRANSDATA, print.transdata, print_unidrv-pscript_fonts_e41871c1-fc38-460e-b9e7-1df0564933e1.xml, prntfont/PTRANSDATA, prntfont/TRANSDATA"
 f1_keywords:
  - "prntfont/TRANSDATA"
+ - "TRANSDATA"
 req.header: prntfont.h
 req.include-header: Prntfont.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - prntfont.h
 api_name:
 - TRANSDATA
-product:
-- Windows
 targetos: Windows
 req.typenames: TRANSDATA, *PTRANSDATA
 ---

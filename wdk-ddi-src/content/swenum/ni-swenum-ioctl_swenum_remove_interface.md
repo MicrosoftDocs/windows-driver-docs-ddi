@@ -10,6 +10,7 @@ keywords: ["IOCTL_SWENUM_REMOVE_INTERFACE IOCTL"]
 ms.keywords: IOCTL_SWENUM_REMOVE_INTERFACE, IOCTL_SWENUM_REMOVE_INTERFACE control, IOCTL_SWENUM_REMOVE_INTERFACE control code [Streaming Media Devices], stream.ioctl_swenum_remove_interface, swenum/IOCTL_SWENUM_REMOVE_INTERFACE
 f1_keywords:
  - "swenum/IOCTL_SWENUM_REMOVE_INTERFACE"
+ - "IOCTL_SWENUM_REMOVE_INTERFACE"
 req.header: swenum.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - swenum.h
 api_name:
 - IOCTL_SWENUM_REMOVE_INTERFACE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

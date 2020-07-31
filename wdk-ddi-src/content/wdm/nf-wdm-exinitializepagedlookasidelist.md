@@ -10,6 +10,7 @@ keywords: ["ExInitializePagedLookasideList function"]
 ms.keywords: ExInitializePagedLookasideList, ExInitializePagedLookasideList routine [Kernel-Mode Driver Architecture], k102_7044b56d-db76-4021-8d76-b4f157e2d783.xml, kernel.exinitializepagedlookasidelist, wdm/ExInitializePagedLookasideList
 f1_keywords:
  - "wdm/ExInitializePagedLookasideList"
+ - "ExInitializePagedLookasideList"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - ExInitializePagedLookasideList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

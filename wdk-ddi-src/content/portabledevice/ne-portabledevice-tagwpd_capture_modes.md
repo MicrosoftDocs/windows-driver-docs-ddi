@@ -10,6 +10,7 @@ keywords: ["tagWPD_CAPTURE_MODES enumeration"]
 ms.keywords: WPD_CAPTURE_MODES, WPD_CAPTURE_MODES enumeration, WPD_CAPTURE_MODE_BURST, WPD_CAPTURE_MODE_NORMAL, WPD_CAPTURE_MODE_TIMELAPSE, WPD_CAPTURE_MODE_UNDEFINED, enumeration, portabledevice/WPD_CAPTURE_MODES, portabledevice/WPD_CAPTURE_MODE_BURST, portabledevice/WPD_CAPTURE_MODE_NORMAL, portabledevice/WPD_CAPTURE_MODE_TIMELAPSE, portabledevice/WPD_CAPTURE_MODE_UNDEFINED, tagWPD_CAPTURE_MODES, wpddk.wpd_capture_modes
 f1_keywords:
  - "portabledevice/WPD_CAPTURE_MODES"
+ - "WPD_CAPTURE_MODES"
 req.header: portabledevice.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - PortableDevice.h
 api_name:
 - WPD_CAPTURE_MODES
-product:
-- Windows
 targetos: Windows
 req.typenames: WPD_CAPTURE_MODES
 ms.custom: RS5

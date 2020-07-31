@@ -10,6 +10,7 @@ keywords: ["ExtRemoteData::GetPtr"]
 ms.keywords: EngExtCpp_Ref_6aea2145-72ce-4bdc-afb2-1fa360e643da.xml, ExtRemoteData class [Windows Debugging],GetPtr method, ExtRemoteData.GetPtr, ExtRemoteData::GetPtr, GetPtr, GetPtr method [Windows Debugging], GetPtr method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_getptr
 f1_keywords:
  - "engextcpp/ExtRemoteData.GetPtr"
+ - "ExtRemoteData.GetPtr"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - engextcpp.hpp
 api_name:
 - ExtRemoteData.GetPtr
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

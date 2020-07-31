@@ -10,6 +10,7 @@ keywords: ["_LineDisplayGlyphDefinitionData structure"]
 ms.keywords: LineDisplayGlyphDefinitionData, LineDisplayGlyphDefinitionData structure, _LineDisplayGlyphDefinitionData, pointofservicedriverinterface/LineDisplayGlyphDefinitionData, pos.linedisplayglyphdefinitiondata
 f1_keywords:
  - "pointofservicedriverinterface/LineDisplayGlyphDefinitionData"
+ - "LineDisplayGlyphDefinitionData"
 req.header: pointofservicedriverinterface.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pointofservicedriverinterface.h
 api_name:
 - LineDisplayGlyphDefinitionData
-product:
-- Windows
 targetos: Windows
 req.typenames: LineDisplayGlyphDefinitionData
 ---

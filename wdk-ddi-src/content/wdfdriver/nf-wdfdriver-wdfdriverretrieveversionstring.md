@@ -10,6 +10,7 @@ keywords: ["WdfDriverRetrieveVersionString function"]
 ms.keywords: DFDriverObjectRef_42298067-6221-4d0c-af6b-8579f95d2047.xml, WdfDriverRetrieveVersionString, WdfDriverRetrieveVersionString method, kmdf.wdfdriverretrieveversionstring, wdf.wdfdriverretrieveversionstring, wdfdriver/WdfDriverRetrieveVersionString
 f1_keywords:
  - "wdfdriver/WdfDriverRetrieveVersionString"
+ - "WdfDriverRetrieveVersionString"
 req.header: wdfdriver.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfDriverRetrieveVersionString
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

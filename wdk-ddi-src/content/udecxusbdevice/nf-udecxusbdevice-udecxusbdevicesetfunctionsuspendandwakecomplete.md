@@ -10,6 +10,7 @@ keywords: ["UdecxUsbDeviceSetFunctionSuspendAndWakeComplete function"]
 ms.keywords: UdecxUsbDeviceSetFunctionSuspendAndWakeComplete, UdecxUsbDeviceSetFunctionSuspendAndWakeComplete function [Buses], buses.udecxusbdevicesetfunctionsuspendandwakecomplete, udecxusbdevice/UdecxUsbDeviceSetFunctionSuspendAndWakeComplete
 f1_keywords:
  - "udecxusbdevice/UdecxUsbDeviceSetFunctionSuspendAndWakeComplete"
+ - "UdecxUsbDeviceSetFunctionSuspendAndWakeComplete"
 req.header: udecxusbdevice.h
 req.include-header: Udecx.h
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 - Udecxstub.dll
 api_name:
 - UdecxUsbDeviceSetFunctionSuspendAndWakeComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_PRESENT_RGNS structure"]
 ms.keywords: D3DKMT_PRESENT_RGNS, D3DKMT_PRESENT_RGNS structure [Display Devices], _D3DKMT_PRESENT_RGNS, d3dkmthk/D3DKMT_PRESENT_RGNS, display.d3dkmt_present_rgns
 f1_keywords:
  - "d3dkmthk/D3DKMT_PRESENT_RGNS"
+ - "D3DKMT_PRESENT_RGNS"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - D3dkmthk.h
 api_name:
 - D3DKMT_PRESENT_RGNS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_PRESENT_RGNS

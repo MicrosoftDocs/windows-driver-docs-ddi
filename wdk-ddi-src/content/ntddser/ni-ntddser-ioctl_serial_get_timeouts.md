@@ -10,6 +10,7 @@ keywords: ["IOCTL_SERIAL_GET_TIMEOUTS IOCTL"]
 ms.keywords: IOCTL_SERIAL_GET_TIMEOUTS, IOCTL_SERIAL_GET_TIMEOUTS control, IOCTL_SERIAL_GET_TIMEOUTS control code [Serial Ports], ntddser/IOCTL_SERIAL_GET_TIMEOUTS, serports.ioctl_serial_get_timeouts, serref_7e3bc962-fbe3-4474-bf7b-1fc035a39a29.xml
 f1_keywords:
  - "ntddser/IOCTL_SERIAL_GET_TIMEOUTS"
+ - "IOCTL_SERIAL_GET_TIMEOUTS"
 req.header: ntddser.h
 req.include-header: Ntddser.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddser.h
 api_name:
 - IOCTL_SERIAL_GET_TIMEOUTS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

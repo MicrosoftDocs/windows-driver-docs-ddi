@@ -10,6 +10,7 @@ keywords: ["_STORAGE_CRYPTO_CAPABILITY structure"]
 ms.keywords: "*PSTORAGE_CRYPTO_CAPABILITY, PSTORAGE_CRYPTO_CAPABILITY, PSTORAGE_CRYPTO_CAPABILITY structure pointer [Storage Devices], STORAGE_CRYPTO_CAPABILITY, STORAGE_CRYPTO_CAPABILITY structure [Storage Devices], _STORAGE_CRYPTO_CAPABILITY, ntddstor/PSTORAGE_CRYPTO_CAPABILITY, ntddstor/STORAGE_CRYPTO_CAPABILITY, storage.storage_crypto_capability"
 f1_keywords:
  - "ntddstor/STORAGE_CRYPTO_CAPABILITY"
+ - "STORAGE_CRYPTO_CAPABILITY"
 req.header: ntddstor.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddstor.h
 api_name:
 - STORAGE_CRYPTO_CAPABILITY
-product:
-- Windows
 targetos: Windows
 req.typenames: STORAGE_CRYPTO_CAPABILITY, *PSTORAGE_CRYPTO_CAPABILITY
 ---

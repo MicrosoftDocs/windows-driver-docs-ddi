@@ -7,6 +7,7 @@ ms.date: 08/14/2018
 keywords: ["IDebugHostBaseClass::GetOffset"]
 f1_keywords:
  - "dbgmodel/IDebugHostBaseClass.GetOffset"
+ - "IDebugHostBaseClass.GetOffset"
 ms.keywords: IDebugHostBaseClass::GetOffset, GetOffset, IDebugHostBaseClass.GetOffset, IDebugHostBaseClass::GetOffset, IDebugHostBaseClass.GetOffset
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostBaseClass.GetOffset
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

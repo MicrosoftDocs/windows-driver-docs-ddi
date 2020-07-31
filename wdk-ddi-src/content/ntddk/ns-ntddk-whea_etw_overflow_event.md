@@ -31,7 +31,8 @@ api_name:
  - WHEA_ETW_OVERFLOW_EVENT
 f1_keywords:
  - ntddk/_WHEA_ETW_OVERFLOW_EVENT
- - ntddk/WHEA_ETW_OVERFLOW_EVENT
+ - ntddk//WHEA_ETW_OVERFLOW_EVENT
+ - WHEA_ETW_OVERFLOW_EVENT
 dev_langs:
  - c++
 ---

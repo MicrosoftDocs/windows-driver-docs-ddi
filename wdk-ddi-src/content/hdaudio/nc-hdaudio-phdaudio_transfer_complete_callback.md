@@ -10,6 +10,7 @@ keywords: ["PHDAUDIO_TRANSFER_COMPLETE_CALLBACK callback function"]
 ms.keywords: HDAudioTransferCompleteCallback, HDAudioTransferCompleteCallback callback function [Audio Devices], PHDAUDIO_TRANSFER_COMPLETE_CALLBACK, PHDAUDIO_TRANSFER_COMPLETE_CALLBACK callback, audio.phdaudio_transfer_complete_callback, hdaudio/HDAudioTransferCompleteCallback
 f1_keywords:
  - "hdaudio/HDAudioTransferCompleteCallback"
+ - "HDAudioTransferCompleteCallback"
 req.header: hdaudio.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Hdaudio.h
 api_name:
 - HDAudioTransferCompleteCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

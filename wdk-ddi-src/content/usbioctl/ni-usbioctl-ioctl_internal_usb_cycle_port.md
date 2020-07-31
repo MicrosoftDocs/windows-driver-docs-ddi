@@ -10,6 +10,7 @@ keywords: ["IOCTL_INTERNAL_USB_CYCLE_PORT IOCTL"]
 ms.keywords: IOCTL_INTERNAL_USB_CYCLE_PORT, IOCTL_INTERNAL_USB_CYCLE_PORT control, IOCTL_INTERNAL_USB_CYCLE_PORT control code [Buses], buses.ioctl_internal_usb_cycle_port, usbioctl/IOCTL_INTERNAL_USB_CYCLE_PORT, usbirp_0f04d439-7813-4da8-9279-a4d113871687.xml
 f1_keywords:
  - "usbioctl/IOCTL_INTERNAL_USB_CYCLE_PORT"
+ - "IOCTL_INTERNAL_USB_CYCLE_PORT"
 req.header: usbioctl.h
 req.include-header: Usbioctl.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Usbioctl.h
 api_name:
 - IOCTL_INTERNAL_USB_CYCLE_PORT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

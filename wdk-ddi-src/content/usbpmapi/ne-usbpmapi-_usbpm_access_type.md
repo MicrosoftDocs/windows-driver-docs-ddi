@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["_USBPM_ACCESS_TYPE enumeration"]
 f1_keywords:
  - "usbpmapi/USBPM_ACCESS_TYPE"
+ - "USBPM_ACCESS_TYPE"
 ms.keywords: _USBPM_ACCESS_TYPE, USBPM_ACCESS_TYPE, *PUSBPM_ACCESS_TYPE, 
 tech.root: usbref
 req.header: usbpmapi.h
@@ -27,8 +28,6 @@ api_location:
 - usbpmapi.h
 api_name: 
 - USBPM_ACCESS_TYPE
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

@@ -10,6 +10,7 @@ keywords: ["GPIO_CLX_ReleaseInterruptLock function"]
 ms.keywords: GPIO.gpio_clx_releaseinterruptlock, GPIO_CLX_ReleaseInterruptLock, GPIO_CLX_ReleaseInterruptLock method [Parallel Ports], gpioclx/GPIO_CLX_ReleaseInterruptLock
 f1_keywords:
  - "gpioclx/GPIO_CLX_ReleaseInterruptLock"
+ - "GPIO_CLX_ReleaseInterruptLock"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Msgpioclxstub.dll
 api_name:
 - GPIO_CLX_ReleaseInterruptLock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

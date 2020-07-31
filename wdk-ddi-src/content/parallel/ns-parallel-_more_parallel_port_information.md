@@ -10,6 +10,7 @@ keywords: ["_MORE_PARALLEL_PORT_INFORMATION structure"]
 ms.keywords: "*PMORE_PARALLEL_PORT_INFORMATION, MORE_PARALLEL_PORT_INFORMATION, MORE_PARALLEL_PORT_INFORMATION structure [Parallel Ports], PMORE_PARALLEL_PORT_INFORMATION, PMORE_PARALLEL_PORT_INFORMATION structure pointer [Parallel Ports], _MORE_PARALLEL_PORT_INFORMATION, cisspd_0a671b2f-443c-4373-aeb0-8bf59c1d836b.xml, parallel/MORE_PARALLEL_PORT_INFORMATION, parallel/PMORE_PARALLEL_PORT_INFORMATION, parports.more_parallel_port_information"
 f1_keywords:
  - "parallel/MORE_PARALLEL_PORT_INFORMATION"
+ - "MORE_PARALLEL_PORT_INFORMATION"
 req.header: parallel.h
 req.include-header: Parallel.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - parallel.h
 api_name:
 - MORE_PARALLEL_PORT_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: MORE_PARALLEL_PORT_INFORMATION, *PMORE_PARALLEL_PORT_INFORMATION
 ---

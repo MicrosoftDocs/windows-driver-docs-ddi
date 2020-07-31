@@ -7,6 +7,7 @@ ms.date: 09/13/2018
 keywords: ["_KMCL_SERVER_ONLY_METHODS structure"]
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/_KMCL_SERVER_ONLY_METHODS"
+ - "_KMCL_SERVER_ONLY_METHODS"
 ms.keywords: _KMCL_SERVER_ONLY_METHODS, KMCL_SERVER_ONLY_METHODS, 
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:

@@ -9,6 +9,7 @@ keywords: ["_DXGKARG_PATCH structure"]
 ms.keywords: DXGKARG_PATCH, DXGKARG_PATCH structure [Display Devices], DmStructs_1fd78713-859f-4584-a696-e89976b58ab7.xml, _DXGKARG_PATCH, d3dkmddi/DXGKARG_PATCH, display.dxgkarg_patch
 f1_keywords:
  - "d3dkmddi/DXGKARG_PATCH"
+ - "DXGKARG_PATCH"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGKARG_PATCH
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGKARG_PATCH

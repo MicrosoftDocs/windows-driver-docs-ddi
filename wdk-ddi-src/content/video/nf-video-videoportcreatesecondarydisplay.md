@@ -10,6 +10,7 @@ keywords: ["VideoPortCreateSecondaryDisplay function"]
 ms.keywords: VideoPortCreateSecondaryDisplay, VideoPortCreateSecondaryDisplay function [Display Devices], VideoPort_Functions_eda677fc-91b7-47d3-8407-615d5fbfcb3a.xml, display.videoportcreatesecondarydisplay, video/VideoPortCreateSecondaryDisplay
 f1_keywords:
  - "video/VideoPortCreateSecondaryDisplay"
+ - "VideoPortCreateSecondaryDisplay"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Videoprt.sys
 api_name:
 - VideoPortCreateSecondaryDisplay
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

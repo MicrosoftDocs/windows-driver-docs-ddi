@@ -10,6 +10,7 @@ keywords: ["FltGetRequestorProcessIdEx function"]
 ms.keywords: FltApiRef_e_to_o_ec80528f-12a7-4d31-9bd8-92050a16bd85.xml, FltGetRequestorProcessIdEx, FltGetRequestorProcessIdEx routine [Installable File System Drivers], fltkernel/FltGetRequestorProcessIdEx, ifsk.fltgetrequestorprocessidex
 f1_keywords:
  - "fltkernel/FltGetRequestorProcessIdEx"
+ - "FltGetRequestorProcessIdEx"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltGetRequestorProcessIdEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

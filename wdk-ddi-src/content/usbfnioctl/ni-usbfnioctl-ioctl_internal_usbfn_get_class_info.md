@@ -10,6 +10,7 @@ keywords: ["IOCTL_INTERNAL_USBFN_GET_CLASS_INFO IOCTL"]
 ms.keywords: IOCTL_INTERNAL_USBFN_GET_CLASS_INFO, IOCTL_INTERNAL_USBFN_GET_CLASS_INFO control, IOCTL_INTERNAL_USBFN_GET_CLASS_INFO control code [Buses], buses.ioctl_internal_usbfn_get_class_info, usbfnioctl/IOCTL_INTERNAL_USBFN_GET_CLASS_INFO
 f1_keywords:
  - "usbfnioctl/IOCTL_INTERNAL_USBFN_GET_CLASS_INFO"
+ - "IOCTL_INTERNAL_USBFN_GET_CLASS_INFO"
 req.header: usbfnioctl.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - usbfnioctl.h
 api_name:
 - IOCTL_INTERNAL_USBFN_GET_CLASS_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

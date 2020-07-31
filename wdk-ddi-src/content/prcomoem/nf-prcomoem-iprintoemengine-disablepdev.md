@@ -10,6 +10,7 @@ keywords: ["IPrintOemEngine::DisablePDEV"]
 ms.keywords: DisablePDEV, DisablePDEV method [Print Devices], DisablePDEV method [Print Devices],IPrintOemEngine interface, IPrintOemEngine interface [Print Devices],DisablePDEV method, IPrintOemEngine.DisablePDEV, IPrintOemEngine::DisablePDEV, prcomoem/IPrintOemEngine::DisablePDEV, print.iprintoemengine_disablepdev
 f1_keywords:
  - "prcomoem/IPrintOemEngine.DisablePDEV"
+ - "IPrintOemEngine.DisablePDEV"
 req.header: prcomoem.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Prcomoem.h
 api_name:
 - IPrintOemEngine.DisablePDEV
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IOCTL_DISK_IS_CLUSTERED IOCTL"]
 ms.keywords: IOCTL_DISK_IS_CLUSTERED, IOCTL_DISK_IS_CLUSTERED control, IOCTL_DISK_IS_CLUSTERED control code [Storage Devices], k307_a812ef4f-f10c-4d75-aaf8-a3ad4d41703e.xml, ntdddisk/IOCTL_DISK_IS_CLUSTERED, storage.ioctl_disk_is_clustered
 f1_keywords:
  - "ntdddisk/IOCTL_DISK_IS_CLUSTERED"
+ - "IOCTL_DISK_IS_CLUSTERED"
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntdddisk.h
 api_name:
 - IOCTL_DISK_IS_CLUSTERED
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

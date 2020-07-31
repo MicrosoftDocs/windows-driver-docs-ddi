@@ -10,6 +10,7 @@ keywords: ["GPIO_CLIENT_START_CONTROLLER callback function"]
 ms.keywords: CLIENT_StartController, CLIENT_StartController callback, CLIENT_StartController callback function [Parallel Ports], GPIO.client_startcontroller, GPIO_CLIENT_START_CONTROLLER, gpioclx/CLIENT_StartController
 f1_keywords:
  - "gpioclx/CLIENT_StartController"
+ - "CLIENT_StartController"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Gpioclx.h
 api_name:
 - CLIENT_StartController
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

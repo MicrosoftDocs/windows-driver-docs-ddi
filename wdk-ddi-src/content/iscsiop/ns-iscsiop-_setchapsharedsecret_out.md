@@ -10,6 +10,7 @@ keywords: ["_SetCHAPSharedSecret_OUT structure"]
 ms.keywords: "*PSetCHAPSharedSecret_OUT, PSetCHAPSharedSecret_OUT, PSetCHAPSharedSecret_OUT structure pointer [Storage Devices], SetCHAPSharedSecret_OUT, SetCHAPSharedSecret_OUT structure [Storage Devices], _SetCHAPSharedSecret_OUT, iscsiop/PSetCHAPSharedSecret_OUT, iscsiop/SetCHAPSharedSecret_OUT, storage.setchapsharedsecret_out, structs-iSCSI_f11f03d2-424a-4537-9cbd-f4fd3ca0e59d.xml"
 f1_keywords:
  - "iscsiop/SetCHAPSharedSecret_OUT"
+ - "SetCHAPSharedSecret_OUT"
 req.header: iscsiop.h
 req.include-header: Iscsiop.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - iscsiop.h
 api_name:
 - SetCHAPSharedSecret_OUT
-product:
-- Windows
 targetos: Windows
 req.typenames: SetCHAPSharedSecret_OUT, *PSetCHAPSharedSecret_OUT
 ---

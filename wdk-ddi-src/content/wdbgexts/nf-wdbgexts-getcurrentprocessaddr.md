@@ -10,6 +10,7 @@ keywords: ["GetCurrentProcessAddr function"]
 ms.keywords: GetCurrentProcessAddr, GetCurrentProcessAddr function [Windows Debugging], WdbgExts_Ref_cf956b74-b0e4-43fa-911f-289b01dbf8c8.xml, debugger.getcurrentprocessaddr, wdbgexts/GetCurrentProcessAddr
 f1_keywords:
  - "wdbgexts/GetCurrentProcessAddr"
+ - "GetCurrentProcessAddr"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wdbgexts.h
 api_name:
 - GetCurrentProcessAddr
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

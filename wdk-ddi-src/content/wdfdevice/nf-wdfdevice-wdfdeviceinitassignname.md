@@ -10,6 +10,7 @@ keywords: ["WdfDeviceInitAssignName function"]
 ms.keywords: DFDeviceObjectGeneralRef_1acdbff1-2eb9-425c-91c8-aaa51f585d56.xml, WdfDeviceInitAssignName, WdfDeviceInitAssignName method, kmdf.wdfdeviceinitassignname, wdf.wdfdeviceinitassignname, wdfdevice/WdfDeviceInitAssignName
 f1_keywords:
  - "wdfdevice/WdfDeviceInitAssignName"
+ - "WdfDeviceInitAssignName"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfDeviceInitAssignName
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IWDTFDriverSetupSystemAction2::ClearTriageLogs"]
 ms.keywords: ClearTriageLogs, ClearTriageLogs method [Windows Device Testing Framework], ClearTriageLogs method [Windows Device Testing Framework],IWDTFDriverSetupSystemAction2 interface, IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework],ClearTriageLogs method, IWDTFDriverSetupSystemAction2.ClearTriageLogs, IWDTFDriverSetupSystemAction2::ClearTriageLogs, Microsoft.WDTF.IWDTFDriverSetupSystemAction2.ClearTriageLogs, Microsoft::WDTF::IWDTFDriverSetupSystemAction2::ClearTriageLogs, dtf.iwdtfdriversetupsystemaction2_cleartriagelogs, wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2::ClearTriageLogs
 f1_keywords:
  - "wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2.ClearTriageLogs"
+ - "IWDTFDriverSetupSystemAction2.ClearTriageLogs"
 req.header: wdtfdriversetupsystemaction.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WDTFDriverSetupSystemAction.Interop.dll
 api_name:
 - IWDTFDriverSetupSystemAction2.ClearTriageLogs
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

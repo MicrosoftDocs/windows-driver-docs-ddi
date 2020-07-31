@@ -10,6 +10,7 @@ keywords: ["IOCTL_DISK_GET_DRIVE_GEOMETRY_EX IOCTL"]
 ms.keywords: IOCTL_DISK_GET_DRIVE_GEOMETRY_EX, IOCTL_DISK_GET_DRIVE_GEOMETRY_EX control, IOCTL_DISK_GET_DRIVE_GEOMETRY_EX control code [Storage Devices], k307_d20497cd-63a3-4e07-9920-b051d68841db.xml, ntdddisk/IOCTL_DISK_GET_DRIVE_GEOMETRY_EX, storage.ioctl_disk_get_drive_geometry_ex
 f1_keywords:
  - "ntdddisk/IOCTL_DISK_GET_DRIVE_GEOMETRY_EX"
+ - "IOCTL_DISK_GET_DRIVE_GEOMETRY_EX"
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntdddisk.h
 api_name:
 - IOCTL_DISK_GET_DRIVE_GEOMETRY_EX
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

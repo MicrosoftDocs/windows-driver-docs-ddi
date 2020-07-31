@@ -10,6 +10,7 @@ keywords: ["UPSStop function"]
 ms.keywords: UPSStop, UPSStop function [Battery Devices], UPS_fns_60f920b5-6225-4569-a60a-dfb1c6b2538c.xml, battery.upsstop, upssvc/UPSStop
 f1_keywords:
  - "upssvc/UPSStop"
+ - "UPSStop"
 req.header: upssvc.h
 req.include-header: Upssvc.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Upssvc.h
 api_name:
 - UPSStop
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

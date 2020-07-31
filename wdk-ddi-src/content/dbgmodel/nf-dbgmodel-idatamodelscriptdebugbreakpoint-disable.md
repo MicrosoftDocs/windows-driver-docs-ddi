@@ -7,6 +7,7 @@ ms.date: 12/10/2018
 keywords: ["IDataModelScriptDebugBreakpoint::Disable"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebugBreakpoint.Disable"
+ - "IDataModelScriptDebugBreakpoint.Disable"
 ms.keywords: IDataModelScriptDebugBreakpoint::Disable, Disable, IDataModelScriptDebugBreakpoint.Disable, IDataModelScriptDebugBreakpoint::Disable, IDataModelScriptDebugBreakpoint.Disable
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDataModelScriptDebugBreakpoint.Disable
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

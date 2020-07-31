@@ -10,6 +10,7 @@ keywords: ["IMiniportAudioEngineNode::GetMixFormat"]
 ms.keywords: GetMixFormat, GetMixFormat method [Audio Devices], GetMixFormat method [Audio Devices],IMiniportAudioEngineNode interface, IMiniportAudioEngineNode interface [Audio Devices],GetMixFormat method, IMiniportAudioEngineNode.GetMixFormat, IMiniportAudioEngineNode::GetMixFormat, audio.iminiportaudioenginenode_getmixformat, portcls/IMiniportAudioEngineNode::GetMixFormat
 f1_keywords:
  - "portcls/IMiniportAudioEngineNode.GetMixFormat"
+ - "IMiniportAudioEngineNode.GetMixFormat"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Portcls.h
 api_name:
 - IMiniportAudioEngineNode.GetMixFormat
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

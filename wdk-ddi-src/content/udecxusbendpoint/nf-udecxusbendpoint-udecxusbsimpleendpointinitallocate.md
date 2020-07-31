@@ -10,6 +10,7 @@ keywords: ["UdecxUsbSimpleEndpointInitAllocate function"]
 ms.keywords: UdecxUsbSimpleEndpointInitAllocate, UdecxUsbSimpleEndpointInitAllocate function [Buses], buses.udecxusbsimpleendpointinitallocate, udecxusbendpoint/UdecxUsbSimpleEndpointInitAllocate
 f1_keywords:
  - "udecxusbendpoint/UdecxUsbSimpleEndpointInitAllocate"
+ - "UdecxUsbSimpleEndpointInitAllocate"
 req.header: udecxusbendpoint.h
 req.include-header: Udecx.h
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 - Udecxstub.dll
 api_name:
 - UdecxUsbSimpleEndpointInitAllocate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

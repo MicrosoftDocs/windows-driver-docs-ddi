@@ -8,6 +8,7 @@ ms.date: 07/19/2018
 keywords: ["NetDeviceOpenConfiguration function"]
 f1_keywords:
  - "netdevice/NetDeviceOpenConfiguration"
+ - "NetDeviceOpenConfiguration"
 ms.keywords: NetDeviceOpenConfiguration
 req.header: netdevice.h
 req.include-header: netadaptercxstub.lib
@@ -34,8 +35,6 @@ api_location:
 - netadaptercxstub.lib
 api_name: 
 - NetDeviceOpenConfiguration
-product:
-- Windows
 targetos: Windows
 
 

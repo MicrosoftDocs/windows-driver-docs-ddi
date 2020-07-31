@@ -10,6 +10,7 @@ keywords: ["_NDIS_SWITCH_PROPERTY_CUSTOM structure"]
 ms.keywords: "*PNDIS_SWITCH_PROPERTY_CUSTOM, NDIS_SWITCH_PROPERTY_CUSTOM, NDIS_SWITCH_PROPERTY_CUSTOM structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PROPERTY_CUSTOM, PNDIS_SWITCH_PROPERTY_CUSTOM structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PROPERTY_CUSTOM, netvista.ndis_switch_property_custom, ntddndis/NDIS_SWITCH_PROPERTY_CUSTOM, ntddndis/PNDIS_SWITCH_PROPERTY_CUSTOM"
 f1_keywords:
  - "ntddndis/NDIS_SWITCH_PROPERTY_CUSTOM"
+ - "NDIS_SWITCH_PROPERTY_CUSTOM"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddndis.h
 api_name:
 - NDIS_SWITCH_PROPERTY_CUSTOM
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_SWITCH_PROPERTY_CUSTOM, *PNDIS_SWITCH_PROPERTY_CUSTOM
 ---

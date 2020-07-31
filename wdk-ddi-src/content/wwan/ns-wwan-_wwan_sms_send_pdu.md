@@ -10,6 +10,7 @@ keywords: ["_WWAN_SMS_SEND_PDU structure"]
 ms.keywords: "*PWWAN_SMS_SEND_PDU, PWWAN_SMS_SEND_PDU, PWWAN_SMS_SEND_PDU structure pointer [Network Drivers Starting with Windows Vista], WWAN_SMS_SEND_PDU, WWAN_SMS_SEND_PDU structure [Network Drivers Starting with Windows Vista], WwanRef_5994a030-78ea-42c2-913a-1b2a9fcc2ea4.xml, _WWAN_SMS_SEND_PDU, netvista.wwan_sms_send_pdu, wwan/PWWAN_SMS_SEND_PDU, wwan/WWAN_SMS_SEND_PDU"
 f1_keywords:
  - "wwan/WWAN_SMS_SEND_PDU"
+ - "WWAN_SMS_SEND_PDU"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_SMS_SEND_PDU
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_SMS_SEND_PDU, *PWWAN_SMS_SEND_PDU
 ---

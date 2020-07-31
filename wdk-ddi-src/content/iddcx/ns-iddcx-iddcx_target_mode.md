@@ -10,6 +10,7 @@ keywords: ["IDDCX_TARGET_MODE structure"]
 ms.keywords: IDDCX_TARGET_MODE, IDDCX_TARGET_MODE structure [Display Devices], display.iddcx_target_mode, iddcx/IDDCX_TARGET_MODE
 f1_keywords:
  - "iddcx/IDDCX_TARGET_MODE"
+ - "IDDCX_TARGET_MODE"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - iddcx.h
 api_name:
 - IDDCX_TARGET_MODE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

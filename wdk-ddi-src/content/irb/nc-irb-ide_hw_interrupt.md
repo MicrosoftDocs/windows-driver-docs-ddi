@@ -10,6 +10,7 @@ keywords: ["IDE_HW_INTERRUPT callback function"]
 ms.keywords: IDE_HW_INTERRUPT, IdeHwInterrupt, IdeHwInterrupt routine [Storage Devices], atartns_6568f61d-e6f7-4d16-98ed-72c13aac0fe7.xml, irb/IdeHwInterrupt, storage.idehwinterrupt
 f1_keywords:
  - "irb/IdeHwInterrupt"
+ - "IdeHwInterrupt"
 req.header: irb.h
 req.include-header: Irb.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - irb.h
 api_name:
 - IdeHwInterrupt
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

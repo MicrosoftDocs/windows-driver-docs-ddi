@@ -10,6 +10,7 @@ keywords: ["IOCTL_CHANGER_QUERY_VOLUME_TAGS IOCTL"]
 ms.keywords: IOCTL_CHANGER_QUERY_VOLUME_TAGS, IOCTL_CHANGER_QUERY_VOLUME_TAGS control, IOCTL_CHANGER_QUERY_VOLUME_TAGS control code [Storage Devices], k307_c43d8b06-0f12-4543-8a7c-bcd8a752b342.xml, ntddchgr/IOCTL_CHANGER_QUERY_VOLUME_TAGS, storage.ioctl_changer_query_volume_tags
 f1_keywords:
  - "ntddchgr/IOCTL_CHANGER_QUERY_VOLUME_TAGS"
+ - "IOCTL_CHANGER_QUERY_VOLUME_TAGS"
 req.header: ntddchgr.h
 req.include-header: Ntddchgr.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddchgr.h
 api_name:
 - IOCTL_CHANGER_QUERY_VOLUME_TAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

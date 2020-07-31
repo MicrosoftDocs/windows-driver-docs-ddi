@@ -10,6 +10,7 @@ keywords: ["SdBusOpenInterface function"]
 ms.keywords: SD.sdbusopeninterface, SdBusOpenInterface, SdBusOpenInterface function [Buses], ntddsd/SdBusOpenInterface, sd-rtns_44707c61-dadc-4151-b06a-8df3def56ab9.xml
 f1_keywords:
  - "ntddsd/SdBusOpenInterface"
+ - "SdBusOpenInterface"
 req.header: ntddsd.h
 req.include-header: Ntddsd.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ntddsd.h
 api_name:
 - SdBusOpenInterface
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

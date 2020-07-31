@@ -10,6 +10,7 @@ keywords: ["VideoPortCheckForDeviceExistence function"]
 ms.keywords: VideoPortCheckForDeviceExistence, VideoPortCheckForDeviceExistence function [Display Devices], VideoPort_Functions_3cb7198b-a2fe-423c-b0f3-11a154d087af.xml, display.videoportcheckfordeviceexistence, video/VideoPortCheckForDeviceExistence
 f1_keywords:
  - "video/VideoPortCheckForDeviceExistence"
+ - "VideoPortCheckForDeviceExistence"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Videoprt.sys
 api_name:
 - VideoPortCheckForDeviceExistence
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

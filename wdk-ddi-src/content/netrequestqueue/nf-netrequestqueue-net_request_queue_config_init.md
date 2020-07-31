@@ -8,6 +8,7 @@ ms.date: 02/09/2018
 keywords: ["NET_REQUEST_QUEUE_CONFIG_INIT function"]
 f1_keywords:
  - "netrequestqueue/NET_REQUEST_QUEUE_CONFIG_INIT"
+ - "NET_REQUEST_QUEUE_CONFIG_INIT"
 ms.keywords: NET_REQUEST_QUEUE_CONFIG_INIT
 req.header: netrequestqueue.h
 req.include-header:
@@ -37,8 +38,6 @@ api_location:
 api_name: 
 - NET_REQUEST_QUEUE_CONFIG_INIT
 targetos: Windows
-product:
-- Windows
 ---
 
 # NET_REQUEST_QUEUE_CONFIG_INIT function

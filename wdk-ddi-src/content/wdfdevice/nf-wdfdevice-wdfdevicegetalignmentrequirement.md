@@ -10,6 +10,7 @@ keywords: ["WdfDeviceGetAlignmentRequirement function"]
 ms.keywords: DFDeviceObjectGeneralRef_c7135427-9887-44e5-8380-28ebef4174a9.xml, WdfDeviceGetAlignmentRequirement, WdfDeviceGetAlignmentRequirement method, kmdf.wdfdevicegetalignmentrequirement, wdf.wdfdevicegetalignmentrequirement, wdfdevice/WdfDeviceGetAlignmentRequirement
 f1_keywords:
  - "wdfdevice/WdfDeviceGetAlignmentRequirement"
+ - "WdfDeviceGetAlignmentRequirement"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfDeviceGetAlignmentRequirement
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

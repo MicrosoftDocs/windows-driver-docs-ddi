@@ -10,6 +10,7 @@ keywords: ["HidD_GetManufacturerString function"]
 ms.keywords: HidD_GetManufacturerString, HidD_GetManufacturerString routine [Human Input Devices], hid.hidd_getmanufacturerstring, hidfunc_c0e9df6e-0aab-49ac-9a72-196a9b3ceec5.xml, hidsdi/HidD_GetManufacturerString
 f1_keywords:
  - "hidsdi/HidD_GetManufacturerString"
+ - "HidD_GetManufacturerString"
 req.header: hidsdi.h
 req.include-header: Hidsdi.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Hid.dll
 api_name:
 - HidD_GetManufacturerString
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

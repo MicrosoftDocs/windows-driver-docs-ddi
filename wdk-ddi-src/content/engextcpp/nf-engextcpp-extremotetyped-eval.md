@@ -10,6 +10,7 @@ keywords: ["ExtRemoteTyped::Eval"]
 ms.keywords: EngExtCpp_Ref_84c338f5-8b46-4c8b-80f0-f1f02f3b691e.xml, Eval, Eval method [Windows Debugging], Eval method [Windows Debugging],ExtRemoteTyped interface, ExtRemoteTyped interface [Windows Debugging],Eval method, ExtRemoteTyped.Eval, ExtRemoteTyped::Eval, debugger.extremotetyped_eval
 f1_keywords:
  - "engextcpp/ExtRemoteTyped.Eval"
+ - "ExtRemoteTyped.Eval"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - engextcpp.hpp
 api_name:
 - ExtRemoteTyped.Eval
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

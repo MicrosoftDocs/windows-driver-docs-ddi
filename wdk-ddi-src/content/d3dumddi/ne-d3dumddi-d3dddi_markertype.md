@@ -10,6 +10,7 @@ keywords: ["D3DDDI_MARKERTYPE enumeration"]
 ms.keywords: D3DDDIMT_NONE, D3DDDIMT_PROFILE, D3DDDI_MARKERTYPE, D3DDDI_MARKERTYPE enumeration [Display Devices], d3dumddi/D3DDDIMT_NONE, d3dumddi/D3DDDIMT_PROFILE, d3dumddi/D3DDDI_MARKERTYPE, display.d3dddi_markertype
 f1_keywords:
  - "d3dumddi/D3DDDI_MARKERTYPE"
+ - "D3DDDI_MARKERTYPE"
 req.header: d3dumddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - D3dumddi.h
 api_name:
 - D3DDDI_MARKERTYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDI_MARKERTYPE
 ---

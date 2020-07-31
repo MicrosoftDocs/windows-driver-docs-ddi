@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["COLORSPACE_TRANSFORM_MATRIX_CAP structure"]
 f1_keywords:
  - "ntddvdeo/COLORSPACE_TRANSFORM_MATRIX_CAP"
+ - "COLORSPACE_TRANSFORM_MATRIX_CAP"
 ms.keywords: COLORSPACE_TRANSFORM_MATRIX_CAP, COLORSPACE_TRANSFORM_MATRIX_CAP, *PCOLORSPACE_TRANSFORM_MATRIX_CAP
 req.header: ntddvdeo.h
 req.include-header:
@@ -32,8 +33,6 @@ api_location:
  - ntddvdeo.h
 api_name: 
  - COLORSPACE_TRANSFORM_MATRIX_CAP
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

@@ -10,6 +10,7 @@ keywords: ["PAGP_SET_RATE callback function"]
 ms.keywords: AgpSetRate, AgpSetRate callback function [Display Devices], PAGP_SET_RATE, PAGP_SET_RATE callback, VideoPort_Functions_4dfdb762-5156-4a06-9dd8-1766bbe3dbe4.xml, display.agpsetrate, videoagp/AgpSetRate
 f1_keywords:
  - "videoagp/AgpSetRate"
+ - "AgpSetRate"
 req.header: videoagp.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - videoagp.h
 api_name:
 - AgpSetRate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

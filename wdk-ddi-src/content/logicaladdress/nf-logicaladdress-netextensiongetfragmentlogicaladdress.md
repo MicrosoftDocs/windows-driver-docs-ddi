@@ -10,6 +10,7 @@ ms.date: 09/26/2019
 keywords: ["NetExtensionGetFragmentLogicalAddress function"]
 f1_keywords:
  - "logicaladdress/NetExtensionGetFragmentLogicalAddress"
+ - "NetExtensionGetFragmentLogicalAddress"
 ms.keywords: NetExtensionGetFragmentLogicalAddress
 req.header: logicaladdress.h
 req.include-header:

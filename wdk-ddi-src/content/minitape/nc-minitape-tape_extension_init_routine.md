@@ -10,6 +10,7 @@ keywords: ["TAPE_EXTENSION_INIT_ROUTINE callback function"]
 ms.keywords: "(*TAPE_EXTENSION_INIT_ROUTINE), (*TAPE_EXTENSION_INIT_ROUTINE) routine [Storage Devices], TAPE_EXTENSION_INIT_ROUTINE, minitape/(*TAPE_EXTENSION_INIT_ROUTINE), storage.tapeminiextensioninit, tapemini_858bcb61-472e-45c4-8438-060eb61f1c4a.xml"
 f1_keywords:
  - "minitape/(*TAPE_EXTENSION_INIT_ROUTINE)"
+ - "(*TAPE_EXTENSION_INIT_ROUTINE)"
 req.header: minitape.h
 req.include-header: Minitape.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - minitape.h
 api_name:
 - (*TAPE_EXTENSION_INIT_ROUTINE)
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

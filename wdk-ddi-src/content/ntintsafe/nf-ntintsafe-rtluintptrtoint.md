@@ -10,6 +10,7 @@ keywords: ["RtlUIntPtrToInt function"]
 ms.keywords: RtlUIntPtrToInt, RtlUIntPtrToInt function [Kernel-Mode Driver Architecture], kernel.rtluintptrtoint, ntintsafe/RtlUIntPtrToInt
 f1_keywords:
  - "ntintsafe/RtlUIntPtrToInt"
+ - "RtlUIntPtrToInt"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Ntintsafe.h
 api_name:
 - RtlUIntPtrToInt
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

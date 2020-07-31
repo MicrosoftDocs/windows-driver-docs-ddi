@@ -10,6 +10,7 @@ keywords: ["_VIDEO_SHARE_MEMORY_INFORMATION structure"]
 ms.keywords: "*PVIDEO_SHARE_MEMORY_INFORMATION, PVIDEO_SHARE_MEMORY_INFORMATION, PVIDEO_SHARE_MEMORY_INFORMATION structure pointer [Display Devices], VIDEO_SHARE_MEMORY_INFORMATION, VIDEO_SHARE_MEMORY_INFORMATION structure [Display Devices], Video_Structs_bed1b1c4-1ee2-4f6b-862e-d6dd85d11e35.xml, _VIDEO_SHARE_MEMORY_INFORMATION, display.video_share_memory_information, ntddvdeo/PVIDEO_SHARE_MEMORY_INFORMATION, ntddvdeo/VIDEO_SHARE_MEMORY_INFORMATION"
 f1_keywords:
  - "ntddvdeo/VIDEO_SHARE_MEMORY_INFORMATION"
+ - "VIDEO_SHARE_MEMORY_INFORMATION"
 req.header: ntddvdeo.h
 req.include-header: Ntddvdeo.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddvdeo.h
 api_name:
 - VIDEO_SHARE_MEMORY_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: VIDEO_SHARE_MEMORY_INFORMATION, *PVIDEO_SHARE_MEMORY_INFORMATION
 ---

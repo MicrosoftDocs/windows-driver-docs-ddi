@@ -7,6 +7,7 @@ ms.date: 09/10/2018
 keywords: ["IDebugHostConstant::GetName"]
 f1_keywords:
  - "dbgmodel/IDebugHostConstant.GetName"
+ - "IDebugHostConstant.GetName"
 ms.keywords: IDebugHostConstant::GetName, GetName, IDebugHostConstant.GetName, IDebugHostConstant::GetName, IDebugHostConstant.GetName
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostConstant.GetName
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

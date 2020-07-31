@@ -10,6 +10,7 @@ keywords: ["_HIDP_BUTTON_CAPS structure"]
 ms.keywords: "*PHIDP_BUTTON_CAPS, HIDP_BUTTON_CAPS, HIDP_BUTTON_CAPS structure [Human Input Devices], PHIDP_BUTTON_CAPS, PHIDP_BUTTON_CAPS structure pointer [Human Input Devices], _HIDP_BUTTON_CAPS, hid.hidp_button_caps, hidpi/HIDP_BUTTON_CAPS, hidpi/PHIDP_BUTTON_CAPS, hidstrct_0fa7f0ef-afc7-482a-bcf0-c8c78c3d18f7.xml"
 f1_keywords:
  - "hidpi/HIDP_BUTTON_CAPS"
+ - "HIDP_BUTTON_CAPS"
 req.header: hidpi.h
 req.include-header: Hidpi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - hidpi.h
 api_name:
 - HIDP_BUTTON_CAPS
-product:
-- Windows
 targetos: Windows
 req.typenames: HIDP_BUTTON_CAPS, *PHIDP_BUTTON_CAPS
 ---

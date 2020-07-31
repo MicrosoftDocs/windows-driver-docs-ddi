@@ -10,6 +10,7 @@ keywords: ["KsCreatePin2 function"]
 ms.keywords: KsCreatePin2, KsCreatePin2 function [Streaming Media Devices], ks/KsCreatePin2, stream.kscreatepin2
 f1_keywords:
  - "ks/KsCreatePin2"
+ - "KsCreatePin2"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Ks.h
 api_name:
 - KsCreatePin2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

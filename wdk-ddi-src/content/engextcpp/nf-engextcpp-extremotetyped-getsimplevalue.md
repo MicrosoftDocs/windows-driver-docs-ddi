@@ -10,6 +10,7 @@ keywords: ["ExtRemoteTyped::GetSimpleValue method"]
 ms.keywords: ExtRemoteTyped class [Windows Debugging], described, ExtRemoteTyped::Copy, Copy, ErtIoctl, ExtRemoteTyped, ExtRemoteTyped::GetSimpleValue, engextcpp/ExtRemoteTyped, GetSimpleValue, debugger.extremotetyped, ExtRemoteTyped class [Windows Debugging], Clear, EngExtCpp_Ref_04970dac-e759-4a04-a1e0-8dab752c1418.xml, ExtRemoteTyped::ErtIoctl, ExtRemoteTyped::Clear
 f1_keywords:
  - "engextcpp/ExtRemoteTyped"
+ - "ExtRemoteTyped"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - engextcpp.hpp
 api_name:
 - ExtRemoteTyped
-product:
-- Windows
 targetos: Windows
 req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---

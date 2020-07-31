@@ -10,6 +10,7 @@ keywords: ["RILUICCRESPONSE structure"]
 ms.keywords: "*LPRILUICCRESPONSE, RILUICCRESPONSE, RILUICCRESPONSE structure [Network Drivers Starting with Windows Vista], netvista.riluiccresponse, ntddrilapitypes/RILUICCRESPONSE"
 f1_keywords:
  - "rilapitypes/RILUICCRESPONSE"
+ - "RILUICCRESPONSE"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILUICCRESPONSE
-product:
-- Windows
 targetos: Windows
 req.typenames: RILUICCRESPONSE, *LPRILUICCRESPONSE
 ---

@@ -10,6 +10,7 @@ keywords: ["StreamClassQueryMasterClockSync function"]
 ms.keywords: StreamClassQueryMasterClockSync, StreamClassQueryMasterClockSync routine [Streaming Media Devices], strclass-routines_32944030-bbcb-4f21-98cd-09c77ad3cd53.xml, stream.streamclassquerymasterclocksync, strmini/StreamClassQueryMasterClockSync
 f1_keywords:
  - "strmini/StreamClassQueryMasterClockSync"
+ - "StreamClassQueryMasterClockSync"
 req.header: strmini.h
 req.include-header: Strmini.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Stream.dll
 api_name:
 - StreamClassQueryMasterClockSync
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

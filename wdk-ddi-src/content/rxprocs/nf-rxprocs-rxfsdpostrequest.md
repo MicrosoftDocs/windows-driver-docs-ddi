@@ -10,6 +10,7 @@ keywords: ["RxFsdPostRequest function"]
 ms.keywords: RxFsdPostRequest, RxFsdPostRequest function [Installable File System Drivers], ifsk.rxfsdpostrequest, rxprocs/RxFsdPostRequest, rxref_ceb83e58-1e5a-49d0-b281-50cd5067e09f.xml
 f1_keywords:
  - "rxprocs/RxFsdPostRequest"
+ - "RxFsdPostRequest"
 req.header: rxprocs.h
 req.include-header: Rxprocs.h, Rxcontx.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - rxprocs.h
 api_name:
 - RxFsdPostRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

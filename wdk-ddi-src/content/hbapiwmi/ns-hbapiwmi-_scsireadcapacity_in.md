@@ -10,6 +10,7 @@ keywords: ["_ScsiReadCapacity_IN structure"]
 ms.keywords: "*PScsiReadCapacity_IN, PScsiReadCapacity_IN, PScsiReadCapacity_IN structure pointer [Storage Devices], ScsiReadCapacity_IN, ScsiReadCapacity_IN structure [Storage Devices], _ScsiReadCapacity_IN, hbapiwmi/PScsiReadCapacity_IN, hbapiwmi/ScsiReadCapacity_IN, storage.scsireadcapacity_in2, structs-Fibre_235165a1-b938-461a-9e4d-f555eae34119.xml"
 f1_keywords:
  - "hbapiwmi/ScsiReadCapacity_IN"
+ - "ScsiReadCapacity_IN"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Hbapiwmi.h
 api_name:
 - ScsiReadCapacity_IN
-product:
-- Windows
 targetos: Windows
 req.typenames: ScsiReadCapacity_IN, *PScsiReadCapacity_IN
 ---

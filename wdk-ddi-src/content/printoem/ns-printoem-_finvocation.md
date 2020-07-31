@@ -10,6 +10,7 @@ keywords: ["_FINVOCATION structure"]
 ms.keywords: "*PFINVOCATION, FINVOCATION, FINVOCATION structure [Print Devices], PFINVOCATION, PFINVOCATION structure pointer [Print Devices], _FINVOCATION, print.finvocation, print_unidrv-pscript_rendering_9937cdea-eacb-457c-af51-d8963ffd59e9.xml, printoem/FINVOCATION, printoem/PFINVOCATION"
 f1_keywords:
  - "printoem/FINVOCATION"
+ - "FINVOCATION"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - printoem.h
 api_name:
 - FINVOCATION
-product:
-- Windows
 targetos: Windows
 req.typenames: FINVOCATION, *PFINVOCATION
 ---

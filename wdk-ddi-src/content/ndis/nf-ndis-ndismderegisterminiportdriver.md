@@ -10,6 +10,7 @@ keywords: ["NdisMDeregisterMiniportDriver function"]
 ms.keywords: NdisMDeregisterMiniportDriver, NdisMDeregisterMiniportDriver function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_bd8d7bcd-098a-4367-82d2-6a35753a4a3b.xml, ndis/NdisMDeregisterMiniportDriver, netvista.ndismderegisterminiportdriver
 f1_keywords:
  - "ndis/NdisMDeregisterMiniportDriver"
+ - "NdisMDeregisterMiniportDriver"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisMDeregisterMiniportDriver
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

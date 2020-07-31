@@ -10,6 +10,7 @@ keywords: ["_UCM_CHARGING_STATE enumeration"]
 ms.keywords: "*PUCM_CHARGING_STATE, UCM_CHARGING_STATE, UCM_CHARGING_STATE enumeration [Buses], UcmChargingStateInvalid, UcmChargingStateNominalCharging, UcmChargingStateNotCharging, UcmChargingStateSlowCharging, UcmChargingStateTrickleCharging, _UCM_CHARGING_STATE, buses.ucm_charging_state, ucmtypes/ UcmChargingStateTrickleCharging, ucmtypes/UCM_CHARGING_STATE, ucmtypes/UcmChargingStateInvalid, ucmtypes/UcmChargingStateNominalCharging, ucmtypes/UcmChargingStateNotCharging, ucmtypes/UcmChargingStateSlowCharging"
 f1_keywords:
  - "ucmtypes/UCM_CHARGING_STATE"
+ - "UCM_CHARGING_STATE"
 req.header: ucmtypes.h
 req.include-header: Ucmcx.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ucmtypes.h
 api_name:
 - UCM_CHARGING_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: UCM_CHARGING_STATE, *PUCM_CHARGING_STATE
 ---

@@ -10,6 +10,7 @@ keywords: ["KSPROPERTY_TUNER_MODE_CAPS_S structure"]
 ms.keywords: "*PKSPROPERTY_TUNER_MODE_CAPS_S, KSPROPERTY_TUNER_MODE_CAPS_S, KSPROPERTY_TUNER_MODE_CAPS_S structure [Streaming Media Devices], PKSPROPERTY_TUNER_MODE_CAPS_S, PKSPROPERTY_TUNER_MODE_CAPS_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_TUNER_MODE_CAPS_S, ksmedia/PKSPROPERTY_TUNER_MODE_CAPS_S, stream.ksproperty_tuner_mode_caps_s, vidcapstruct_d80882b8-2962-48c3-b2e9-393deec31ccc.xml"
 f1_keywords:
  - "ksmedia/KSPROPERTY_TUNER_MODE_CAPS_S"
+ - "KSPROPERTY_TUNER_MODE_CAPS_S"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KSPROPERTY_TUNER_MODE_CAPS_S
-product:
-- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_TUNER_MODE_CAPS_S, *PKSPROPERTY_TUNER_MODE_CAPS_S
 ---

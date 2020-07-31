@@ -10,6 +10,7 @@ keywords: ["_WDF_IO_TARGET_PURGE_IO_ACTION enumeration"]
 ms.keywords: WDF_IO_TARGET_PURGE_IO_ACTION, WDF_IO_TARGET_PURGE_IO_ACTION enumeration, WdfIoTargetPurgeIo, WdfIoTargetPurgeIoAndWait, WdfIoTargetPurgeIoUndefined, _WDF_IO_TARGET_PURGE_IO_ACTION, kmdf.wdf_io_target_purge_io_action, wdf.wdf_io_target_purge_io_action, wdfiotarget/WDF_IO_TARGET_PURGE_IO_ACTION, wdfiotarget/WdfIoTargetPurgeIo, wdfiotarget/WdfIoTargetPurgeIoAndWait, wdfiotarget/WdfIoTargetPurgeIoUndefined
 f1_keywords:
  - "wdfiotarget/WDF_IO_TARGET_PURGE_IO_ACTION"
+ - "WDF_IO_TARGET_PURGE_IO_ACTION"
 req.header: wdfiotarget.h
 req.include-header: Wdf.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wdfiotarget.h
 api_name:
 - WDF_IO_TARGET_PURGE_IO_ACTION
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_IO_TARGET_PURGE_IO_ACTION
 ---

@@ -8,6 +8,7 @@ ms.date: 02/05/2018
 keywords: ["NET_ADAPTER_LINK_LAYER_ADDRESS_INIT function"]
 f1_keywords:
  - "netadapter/NET_ADAPTER_LINK_LAYER_ADDRESS_INIT"
+ - "NET_ADAPTER_LINK_LAYER_ADDRESS_INIT"
 ms.keywords: NET_ADAPTER_LINK_LAYER_ADDRESS_INIT
 req.header: netadapter.h
 req.include-header: netadaptercx.h
@@ -38,8 +39,6 @@ api_location:
 api_name: 
 - NET_ADAPTER_LINK_LAYER_ADDRESS_INIT
 targetos: Windows
-product:
-- Windows
 ---
 
 # NET_ADAPTER_LINK_LAYER_ADDRESS_INIT function

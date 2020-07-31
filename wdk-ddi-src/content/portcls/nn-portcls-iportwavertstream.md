@@ -10,6 +10,7 @@ keywords: ["IPortWaveRTStream interface"]
 ms.keywords: IPortWaveRTStream, IPortWaveRTStream interface [Audio Devices], IPortWaveRTStream interface [Audio Devices],described, audio.iportwavertstream, audmp-routines_485f04fa-bdd1-4b92-bb3b-4f8653393811.xml, portcls/IPortWaveRTStream
 f1_keywords:
  - "portcls/IPortWaveRTStream"
+ - "IPortWaveRTStream"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IPortWaveRTStream
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -59,7 +58,7 @@ The methods in the <code>IPortWaveRTStream</code> interface are based on, and ar
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortWaveRTStream</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPortWaveRTStream</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortWaveRTStream</b> interface inherits from the <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPortWaveRTStream</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

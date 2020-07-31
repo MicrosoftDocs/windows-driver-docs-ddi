@@ -10,6 +10,7 @@ keywords: ["StorPortFreePool function"]
 ms.keywords: StorPortFreePool, StorPortFreePool routine [Storage Devices], storage.storportfreepool, storport/StorPortFreePool, storprt_a4fd5e23-3c56-4bf3-9751-21f90028d704.xml
 f1_keywords:
  - "storport/StorPortFreePool"
+ - "StorPortFreePool"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - storport.h
 api_name:
 - StorPortFreePool
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

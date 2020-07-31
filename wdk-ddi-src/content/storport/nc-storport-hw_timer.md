@@ -10,6 +10,7 @@ keywords: ["HW_TIMER callback function"]
 ms.keywords: HW_TIMER, HwStorTimer, HwStorTimer routine [Storage Devices], storage.hwstortimer, stormini_6127daf5-8672-4bf4-9241-b67bed14b8f8.xml, storport/HwStorTimer
 f1_keywords:
  - "storport/HwStorTimer"
+ - "HwStorTimer"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Storport.h
 api_name:
 - HwStorTimer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

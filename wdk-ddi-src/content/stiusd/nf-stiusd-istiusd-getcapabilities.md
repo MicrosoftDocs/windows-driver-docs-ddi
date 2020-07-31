@@ -10,6 +10,7 @@ keywords: ["IStiUSD::GetCapabilities"]
 ms.keywords: GetCapabilities, GetCapabilities method [Imaging Devices], GetCapabilities method [Imaging Devices],IStiUSD interface, IStiUSD interface [Imaging Devices],GetCapabilities method, IStiUSD.GetCapabilities, IStiUSD::GetCapabilities, image.istiusd_getcapabilities, stifnc_e0343c50-7695-417f-9742-1acd66f2791f.xml, stiusd/IStiUSD::GetCapabilities
 f1_keywords:
  - "stiusd/IStiUSD.GetCapabilities"
+ - "IStiUSD.GetCapabilities"
 req.header: stiusd.h
 req.include-header: Stiusd.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - stiusd.h
 api_name:
 - IStiUSD.GetCapabilities
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

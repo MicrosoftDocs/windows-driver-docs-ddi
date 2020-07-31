@@ -10,6 +10,7 @@ keywords: ["_WDI_WNM_ACTION enumeration"]
 ms.keywords: WDI_WNM_ACTION, WDI_WNM_ACTION enumeration [Network Drivers Starting with Windows Vista], WDI_WNM_ACTION_BSS_TRANSITION_MANAGEMENT_QUERY, WDI_WNM_ACTION_BSS_TRANSITION_MANAGEMENT_REQUEST, WDI_WNM_ACTION_BSS_TRANSITION_MANAGEMENT_RESPONSE, _WDI_WNM_ACTION, netvista.wdi_wnm_action, wditypes/WDI_WNM_ACTION, wditypes/WDI_WNM_ACTION_BSS_TRANSITION_MANAGEMENT_QUERY, wditypes/WDI_WNM_ACTION_BSS_TRANSITION_MANAGEMENT_REQUEST, wditypes/WDI_WNM_ACTION_BSS_TRANSITION_MANAGEMENT_RESPONSE
 f1_keywords:
  - "wditypes/WDI_WNM_ACTION"
+ - "WDI_WNM_ACTION"
 req.header: wditypes.hpp
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wditypes.hpp
 api_name:
 - WDI_WNM_ACTION
-product:
-- Windows
 targetos: Windows
 req.typenames: WDI_WNM_ACTION
 ---

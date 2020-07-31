@@ -10,6 +10,7 @@ keywords: ["IWDFUsbInterface::SelectSetting"]
 ms.keywords: IWDFUsbInterface interface,SelectSetting method, IWDFUsbInterface.SelectSetting, IWDFUsbInterface::SelectSetting, SelectSetting, SelectSetting method, SelectSetting method,IWDFUsbInterface interface, UMDFUSBref_2de47773-a511-42e2-b6bb-289cc5fbebb6.xml, umdf.iwdfusbinterface_selectsetting, wdf.iwdfusbinterface_selectsetting, wudfusb/IWDFUsbInterface::SelectSetting
 f1_keywords:
  - "wudfusb/IWDFUsbInterface.SelectSetting"
+ - "IWDFUsbInterface.SelectSetting"
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFUsbInterface.SelectSetting
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

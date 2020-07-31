@@ -10,6 +10,7 @@ keywords: ["IDebugPlmClient3::EnablePlmPackageDebugWide"]
 ms.keywords: EnablePlmPackageDebugWide, EnablePlmPackageDebugWide method [Windows Debugging], EnablePlmPackageDebugWide method [Windows Debugging],IDebugPlmClient3 interface, IDebugPlmClient3 interface [Windows Debugging],EnablePlmPackageDebugWide method, IDebugPlmClient3.EnablePlmPackageDebugWide, IDebugPlmClient3::EnablePlmPackageDebugWide, dbgeng/IDebugPlmClient3::EnablePlmPackageDebugWide, debugger.idebugplmclient3_enableplmpackagedebugwide
 f1_keywords:
  - "dbgeng/IDebugPlmClient3.EnablePlmPackageDebugWide"
+ - "IDebugPlmClient3.EnablePlmPackageDebugWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugPlmClient3.EnablePlmPackageDebugWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

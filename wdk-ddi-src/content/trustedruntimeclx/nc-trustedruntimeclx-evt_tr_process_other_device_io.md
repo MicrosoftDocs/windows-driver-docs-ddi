@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["EVT_TR_PROCESS_OTHER_DEVICE_IO callback function"]
 f1_keywords:
  - "trustedruntimeclx/EVT_TR_PROCESS_OTHER_DEVICE_IO"
+ - "EVT_TR_PROCESS_OTHER_DEVICE_IO"
 req.header: trustedruntimeclx.h
 req.include-header:
 req.target-type:
@@ -32,8 +33,6 @@ api_location:
 - trustedruntimeclx.h
 api_name: 
 - EVT_TR_PROCESS_OTHER_DEVICE_IO
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

@@ -10,6 +10,7 @@ keywords: ["IPowerPolicyCallbackWakeFromSx::OnWakeFromSxTriggered"]
 ms.keywords: IPowerPolicyCallbackWakeFromSx interface,OnWakeFromSxTriggered method, IPowerPolicyCallbackWakeFromSx.OnWakeFromSxTriggered, IPowerPolicyCallbackWakeFromSx::OnWakeFromSxTriggered, OnWakeFromSxTriggered, OnWakeFromSxTriggered method, OnWakeFromSxTriggered method,IPowerPolicyCallbackWakeFromSx interface, UMDFDeviceObjectRef_a92e7dc1-2f1e-4da5-ae71-f57160aa22a0.xml, umdf.ipowerpolicycallbackwakefromsx_onwakefromsxtriggered, wdf.ipowerpolicycallbackwakefromsx_onwakefromsxtriggered, wudfddi/IPowerPolicyCallbackWakeFromSx::OnWakeFromSxTriggered
 f1_keywords:
  - "wudfddi/IPowerPolicyCallbackWakeFromSx.OnWakeFromSxTriggered"
+ - "IPowerPolicyCallbackWakeFromSx.OnWakeFromSxTriggered"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wudfddi.h
 api_name:
 - IPowerPolicyCallbackWakeFromSx.OnWakeFromSxTriggered
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

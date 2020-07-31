@@ -10,6 +10,7 @@ keywords: ["RtlGetDaclSecurityDescriptor function"]
 ms.keywords: RtlGetDaclSecurityDescriptor, RtlGetDaclSecurityDescriptor routine [Installable File System Drivers], ifsk.rtlgetdaclsecuritydescriptor, ntifs/RtlGetDaclSecurityDescriptor, rtlref_c851a07b-d480-47a7-b0f7-a3f21161dfaa.xml
 f1_keywords:
  - "ntifs/RtlGetDaclSecurityDescriptor"
+ - "RtlGetDaclSecurityDescriptor"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlGetDaclSecurityDescriptor
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

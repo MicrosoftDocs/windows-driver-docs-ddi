@@ -10,6 +10,7 @@ keywords: ["IWDTFDriverSetupSystemAction2::RemoveDriverPackage"]
 ms.keywords: IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework],RemoveDriverPackage method, IWDTFDriverSetupSystemAction2.RemoveDriverPackage, IWDTFDriverSetupSystemAction2::RemoveDriverPackage, Microsoft.WDTF.IWDTFDriverSetupSystemAction2.RemoveDriverPackage, Microsoft::WDTF::IWDTFDriverSetupSystemAction2::RemoveDriverPackage, RemoveDriverPackage, RemoveDriverPackage method [Windows Device Testing Framework], RemoveDriverPackage method [Windows Device Testing Framework],IWDTFDriverSetupSystemAction2 interface, dtf.iwdtfdriversetupsystemaction2_removedriverpackage, wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2::RemoveDriverPackage
 f1_keywords:
  - "wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2.RemoveDriverPackage"
+ - "IWDTFDriverSetupSystemAction2.RemoveDriverPackage"
 req.header: wdtfdriversetupsystemaction.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WDTFDriverSetupSystemAction.Interop.dll
 api_name:
 - IWDTFDriverSetupSystemAction2.RemoveDriverPackage
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

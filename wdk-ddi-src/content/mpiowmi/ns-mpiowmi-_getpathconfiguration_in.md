@@ -10,6 +10,7 @@ keywords: ["_GetPathConfiguration_IN structure"]
 ms.keywords: "*PGetPathConfiguration_IN, GetPathConfiguration_IN, GetPathConfiguration_IN structure [Storage Devices], PGetPathConfiguration_IN, PGetPathConfiguration_IN structure pointer [Storage Devices], _GetPathConfiguration_IN, mpiowmi/GetPathConfiguration_IN, mpiowmi/PGetPathConfiguration_IN, storage.getpathconfiguration_in, structs-scsibus_28444162-ae96-47fb-8857-562d52191bfe.xml"
 f1_keywords:
  - "mpiowmi/GetPathConfiguration_IN"
+ - "GetPathConfiguration_IN"
 req.header: mpiowmi.h
 req.include-header: Mpiowmi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - mpiowmi.h
 api_name:
 - GetPathConfiguration_IN
-product:
-- Windows
 targetos: Windows
 req.typenames: GetPathConfiguration_IN, *PGetPathConfiguration_IN
 ---

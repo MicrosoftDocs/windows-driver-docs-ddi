@@ -10,6 +10,7 @@ keywords: ["_SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT structure"]
 ms.keywords: "PSET_DAX_ALLOC_ALIGNMENT_HINT_INPUT, *PSET_DAX_ALLOC_ALIGNMENT_HINT_INPUT, PSET_DAX_ALLOC_ALIGNMENT_HINT_INPUT structure pointer [Installable File System Drivers], SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT, SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT structure [Installable File System Drivers], _SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT, ifsk.set_dax_alloc_alignment_hint_input, ntifs/PSET_DAX_ALLOC_ALIGNMENT_HINT_INPUT, ntifs/SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT"
 f1_keywords:
  - "ntifs/SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT"
+ - "SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntifs.h
 api_name:
 - SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT
-product:
-- Windows
 targetos: Windows
 req.typenames: SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT, *PSET_DAX_ALLOC_ALIGNMENT_HINT_INPUT
 ---

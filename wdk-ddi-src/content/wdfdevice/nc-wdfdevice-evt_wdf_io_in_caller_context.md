@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_IO_IN_CALLER_CONTEXT callback function"]
 ms.keywords: DFDeviceObjectGeneralRef_027a6221-e735-4a5c-a378-d9d9236f21ae.xml, EVT_WDF_IO_IN_CALLER_CONTEXT, EVT_WDF_IO_IN_CALLER_CONTEXT callback, EvtIoInCallerContext, EvtIoInCallerContext callback function, kmdf.evtioincallercontext, wdf.evtioincallercontext, wdfdevice/EvtIoInCallerContext
 f1_keywords:
  - "wdfdevice/EvtIoInCallerContext"
+ - "EvtIoInCallerContext"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Wdfdevice.h
 api_name:
 - EvtIoInCallerContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

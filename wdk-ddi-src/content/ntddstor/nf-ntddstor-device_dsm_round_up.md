@@ -8,6 +8,7 @@ ms.date: 08/23/2019
 keywords: ["DEVICE_DSM_ROUND_UP macro"]
 f1_keywords:
  - "ntddstor/DEVICE_DSM_ROUND_UP"
+ - "DEVICE_DSM_ROUND_UP"
 ms.keywords: DEVICE_DSM_ROUND_UP
 req.header: ntddstor.h
 req.include-header:
@@ -34,8 +35,6 @@ api_location:
 - ntddstor.h
 api_name: 
 - DEVICE_DSM_ROUND_UP
-product:
-- Windows
 targetos: Windows
 
 ---

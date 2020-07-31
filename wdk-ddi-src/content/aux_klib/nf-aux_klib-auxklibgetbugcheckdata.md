@@ -10,6 +10,7 @@ keywords: ["AuxKlibGetBugCheckData function"]
 ms.keywords: AuxKlibGetBugCheckData, AuxKlibGetBugCheckData routine [Kernel-Mode Driver Architecture], aux_klib/AuxKlibGetBugCheckData, aux_klib_3cb977df-feb6-4b52-afa1-b5e3038fc287.xml, kernel.auxklibgetbugcheckdata
 f1_keywords:
  - "aux_klib/AuxKlibGetBugCheckData"
+ - "AuxKlibGetBugCheckData"
 req.header: aux_klib.h
 req.include-header: Aux_klib.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Aux_Klib.dll
 api_name:
 - AuxKlibGetBugCheckData
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

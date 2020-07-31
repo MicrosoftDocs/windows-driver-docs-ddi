@@ -10,6 +10,7 @@ keywords: ["IAction::SetTarget"]
 ms.keywords: IAction interface [Windows Device Testing Framework],SetTarget method, IAction.SetTarget, IAction::SetTarget, IAction_6b35121b-1750-475f-8c37-5edf9c0b8585.xml, Microsoft.WDTF.IAction.SetTarget, Microsoft::WDTF::IAction::SetTarget, SetTarget, SetTarget method [Windows Device Testing Framework], SetTarget method [Windows Device Testing Framework],IAction interface, dtf.iaction_settarget, wdtf/IAction::SetTarget
 f1_keywords:
  - "wdtf/IAction.SetTarget"
+ - "IAction.SetTarget"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WDTF.Interop.metadata_dll.dll
 api_name:
 - IAction.SetTarget
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

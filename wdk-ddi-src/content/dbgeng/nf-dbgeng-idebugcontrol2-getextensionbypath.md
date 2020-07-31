@@ -10,6 +10,7 @@ keywords: ["IDebugControl2::GetExtensionByPath"]
 ms.keywords: GetExtensionByPath, GetExtensionByPath method [Windows Debugging], GetExtensionByPath method [Windows Debugging],IDebugControl interface, GetExtensionByPath method [Windows Debugging],IDebugControl2 interface, GetExtensionByPath method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetExtensionByPath method, IDebugControl2 interface [Windows Debugging],GetExtensionByPath method, IDebugControl2.GetExtensionByPath, IDebugControl2::GetExtensionByPath, IDebugControl3 interface [Windows Debugging],GetExtensionByPath method, IDebugControl3::GetExtensionByPath, IDebugControl::GetExtensionByPath, IDebugControl_821ee348-ddb2-4464-93cd-b6a58e267795.xml, dbgeng/IDebugControl2::GetExtensionByPath, dbgeng/IDebugControl3::GetExtensionByPath, dbgeng/IDebugControl::GetExtensionByPath, debugger.getextensionbypath
 f1_keywords:
  - "dbgeng/IDebugControl.GetExtensionByPath"
+ - "IDebugControl.GetExtensionByPath"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -38,8 +39,6 @@ api_name:
 - IDebugControl.GetExtensionByPath
 - IDebugControl2.GetExtensionByPath
 - IDebugControl3.GetExtensionByPath
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

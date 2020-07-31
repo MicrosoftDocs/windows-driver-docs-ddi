@@ -10,6 +10,7 @@ keywords: ["KSAC3_ROOM_TYPE structure"]
 ms.keywords: "*PKSAC3_ROOM_TYPE, KSAC3_ROOM_TYPE, KSAC3_ROOM_TYPE structure [Audio Devices], PKSAC3_ROOM_TYPE, PKSAC3_ROOM_TYPE structure pointer [Audio Devices], aud-prop_cfc30aae-0335-42d9-bd6d-7888fed060af.xml, audio.ksac3_room_type, ksmedia/KSAC3_ROOM_TYPE, ksmedia/PKSAC3_ROOM_TYPE"
 f1_keywords:
  - "ksmedia/KSAC3_ROOM_TYPE"
+ - "KSAC3_ROOM_TYPE"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KSAC3_ROOM_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: KSAC3_ROOM_TYPE, *PKSAC3_ROOM_TYPE
 ---

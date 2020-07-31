@@ -10,6 +10,7 @@ keywords: ["IDebugSymbolGroup2::GetSymbolTypeNameWide"]
 ms.keywords: GetSymbolTypeNameWide, GetSymbolTypeNameWide method [Windows Debugging], GetSymbolTypeNameWide method [Windows Debugging],IDebugSymbolGroup2 interface, IDebugSymbolGroup2 interface [Windows Debugging],GetSymbolTypeNameWide method, IDebugSymbolGroup2.GetSymbolTypeNameWide, IDebugSymbolGroup2::GetSymbolTypeNameWide, dbgeng/IDebugSymbolGroup2::GetSymbolTypeNameWide, debugger.getsymboltypenamewide
 f1_keywords:
  - "dbgeng/IDebugSymbolGroup2.GetSymbolTypeNameWide"
+ - "IDebugSymbolGroup2.GetSymbolTypeNameWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugSymbolGroup2.GetSymbolTypeNameWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

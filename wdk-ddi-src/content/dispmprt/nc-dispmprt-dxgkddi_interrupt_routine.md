@@ -10,6 +10,7 @@ keywords: ["DXGKDDI_INTERRUPT_ROUTINE callback function"]
 ms.keywords: DXGKDDI_INTERRUPT_ROUTINE, DXGKDDI_INTERRUPT_ROUTINE callback, DmFunctions_5341cc5a-0dd5-4493-ab02-0aa66d910ec0.xml, DxgkDdiInterruptRoutine, DxgkDdiInterruptRoutine callback function [Display Devices], display.dxgkddiinterruptroutine, dispmprt/DxgkDdiInterruptRoutine
 f1_keywords:
  - "dispmprt/DxgkDdiInterruptRoutine"
+ - "DxgkDdiInterruptRoutine"
 req.header: dispmprt.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dispmprt.h
 api_name:
 - DxgkDdiInterruptRoutine
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

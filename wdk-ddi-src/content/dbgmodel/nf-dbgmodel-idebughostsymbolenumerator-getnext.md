@@ -7,6 +7,7 @@ ms.date: 12/21/2018
 keywords: ["IDebugHostSymbolEnumerator::GetNext"]
 f1_keywords:
  - "dbgmodel/IDebugHostSymbolEnumerator.GetNext"
+ - "IDebugHostSymbolEnumerator.GetNext"
 ms.keywords: IDebugHostSymbolEnumerator::GetNext, GetNext, IDebugHostSymbolEnumerator.GetNext, IDebugHostSymbolEnumerator::GetNext, IDebugHostSymbolEnumerator.GetNext
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostSymbolEnumerator.GetNext
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

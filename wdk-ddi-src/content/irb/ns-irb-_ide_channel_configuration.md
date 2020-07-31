@@ -10,6 +10,7 @@ keywords: ["_IDE_CHANNEL_CONFIGURATION structure"]
 ms.keywords: "*PIDE_CHANNEL_CONFIGURATION, IDE_CHANNEL_CONFIGURATION, IDE_CHANNEL_CONFIGURATION structure [Storage Devices], PIDE_CHANNEL_CONFIGURATION, PIDE_CHANNEL_CONFIGURATION structure pointer [Storage Devices], _IDE_CHANNEL_CONFIGURATION, irb/IDE_CHANNEL_CONFIGURATION, irb/PIDE_CHANNEL_CONFIGURATION, storage.ide_channel_configuration, structs-ATA_79456267-9b2d-4f9a-beff-e44915bda026.xml"
 f1_keywords:
  - "irb/IDE_CHANNEL_CONFIGURATION"
+ - "IDE_CHANNEL_CONFIGURATION"
 req.header: irb.h
 req.include-header: Irb.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - irb.h
 api_name:
 - IDE_CHANNEL_CONFIGURATION
-product:
-- Windows
 targetos: Windows
 req.typenames: IDE_CHANNEL_CONFIGURATION, *PIDE_CHANNEL_CONFIGURATION
 ---

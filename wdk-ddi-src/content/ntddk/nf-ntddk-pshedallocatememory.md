@@ -10,6 +10,7 @@ keywords: ["PshedAllocateMemory function"]
 ms.keywords: PshedAllocateMemory, PshedAllocateMemory function [WHEA Drivers and Applications], ntddk/PshedAllocateMemory, whea.pshedallocatememory, whearef_e18a3aba-ca99-4b65-92de-1c6b8c740e31.xml
 f1_keywords:
  - "ntddk/PshedAllocateMemory"
+ - "PshedAllocateMemory"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Pshed.dll
 api_name:
 - PshedAllocateMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

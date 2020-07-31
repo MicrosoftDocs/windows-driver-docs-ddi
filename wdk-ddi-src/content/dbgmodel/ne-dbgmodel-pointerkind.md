@@ -7,6 +7,7 @@ ms.date: 07/16/2018
 keywords: ["PointerKind enumeration"]
 f1_keywords:
  - "dbgmodel/PointerKind"
+ - "PointerKind"
 ms.keywords: PointerKind, , 
 req.header: dbgmodel.h
 req.include-header:
@@ -26,8 +27,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - PointerKind
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

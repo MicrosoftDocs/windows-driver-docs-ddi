@@ -10,6 +10,7 @@ keywords: ["WdmlibIoConnectInterruptEx function"]
 ms.keywords: IoConnectInterruptEx, WdmlibIoConnectInterruptEx, WdmlibIoConnectInterruptEx function [Kernel-Mode Driver Architecture], iointex/IoConnectInterruptEx, iointex/WdmlibIoConnectInterruptEx, kernel.wdmlibioconnectinterruptex
 f1_keywords:
  - "iointex/WdmlibIoConnectInterruptEx"
+ - "WdmlibIoConnectInterruptEx"
 req.header: iointex.h
 req.include-header: Iointex.h, Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - WdmlibIoConnectInterruptEx
 - IoConnectInterruptEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

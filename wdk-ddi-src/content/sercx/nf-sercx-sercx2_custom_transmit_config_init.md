@@ -10,6 +10,7 @@ keywords: ["SERCX2_CUSTOM_TRANSMIT_CONFIG_INIT function"]
 ms.keywords: 2/SERCX2_CUSTOM_TRANSMIT_CONFIG_INIT, SERCX2_CUSTOM_TRANSMIT_CONFIG_INIT, SERCX2_CUSTOM_TRANSMIT_CONFIG_INIT function [Serial Ports], serports.sercx2_custom_transmit_config_init
 f1_keywords:
  - "sercx/SERCX2_CUSTOM_TRANSMIT_CONFIG_INIT"
+ - "SERCX2_CUSTOM_TRANSMIT_CONFIG_INIT"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - 2.0\Sercx.h
 api_name:
 - SERCX2_CUSTOM_TRANSMIT_CONFIG_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

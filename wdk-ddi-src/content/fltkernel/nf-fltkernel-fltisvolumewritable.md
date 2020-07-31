@@ -10,6 +10,7 @@ keywords: ["FltIsVolumeWritable function"]
 ms.keywords: FltApiRef_e_to_o_8b8316b0-5943-425e-a978-a2999629f93c.xml, FltIsVolumeWritable, FltIsVolumeWritable routine [Installable File System Drivers], fltkernel/FltIsVolumeWritable, ifsk.fltisvolumewritable
 f1_keywords:
  - "fltkernel/FltIsVolumeWritable"
+ - "FltIsVolumeWritable"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltIsVolumeWritable
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

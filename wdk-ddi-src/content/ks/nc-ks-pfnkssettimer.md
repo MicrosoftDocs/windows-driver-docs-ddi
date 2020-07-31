@@ -10,6 +10,7 @@ keywords: ["PFNKSSETTIMER callback function"]
 ms.keywords: KStrSetTimer, KStrSetTimer routine [Streaming Media Devices], PFNKSSETTIMER, ks/KStrSetTimer, ksfunc_a1a590b8-ea16-45bd-8517-45e4bfc46ad3.xml, stream.kstrsettimer
 f1_keywords:
  - "ks/KStrSetTimer"
+ - "KStrSetTimer"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KStrSetTimer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

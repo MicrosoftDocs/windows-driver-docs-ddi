@@ -10,6 +10,7 @@ keywords: ["_BUS_INTERFACE_STANDARD structure"]
 ms.keywords: "*PBUS_INTERFACE_STANDARD, BUS_INTERFACE_STANDARD, BUS_INTERFACE_STANDARD structure [Kernel-Mode Driver Architecture], PBUS_INTERFACE_STANDARD, PBUS_INTERFACE_STANDARD structure pointer [Kernel-Mode Driver Architecture], _BUS_INTERFACE_STANDARD, drvr_interface_fbfd342b-15f3-485b-98e4-513beb7db0f5.xml, kernel.bus_interface_standard, wdm/BUS_INTERFACE_STANDARD, wdm/PBUS_INTERFACE_STANDARD"
 f1_keywords:
  - "wdm/BUS_INTERFACE_STANDARD"
+ - "BUS_INTERFACE_STANDARD"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - BUS_INTERFACE_STANDARD
-product:
-- Windows
 targetos: Windows
 req.typenames: BUS_INTERFACE_STANDARD, *PBUS_INTERFACE_STANDARD
 ---

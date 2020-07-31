@@ -10,6 +10,7 @@ keywords: ["PFLT_NORMALIZE_NAME_COMPONENT_EX callback function"]
 ms.keywords: FltCallbacks_d5ac42d8-4a17-49c0-b46f-f0c055ded4f3.xml, NormalizeNameComponentExCallback, NormalizeNameComponentExCallback routine [Installable File System Drivers], PFLT_NORMALIZE_NAME_COMPONENT_EX, fltkernel/NormalizeNameComponentExCallback, ifsk.pflt_normalize_name_component_ex
 f1_keywords:
  - "fltkernel/NormalizeNameComponentExCallback"
+ - "NormalizeNameComponentExCallback"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - fltkernel.h
 api_name:
 - NormalizeNameComponentExCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["NdisSetOptionalHandlers function"]
 ms.keywords: NdisSetOptionalHandlers, NdisSetOptionalHandlers function [Network Drivers Starting with Windows Vista], ndis/NdisSetOptionalHandlers, ndis_configuration_ref_343cba4f-9651-4f42-b0a9-0a85475cb6bf.xml, netvista.ndissetoptionalhandlers
 f1_keywords:
  - "ndis/NdisSetOptionalHandlers"
+ - "NdisSetOptionalHandlers"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisSetOptionalHandlers
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

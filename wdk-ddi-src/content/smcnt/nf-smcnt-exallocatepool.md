@@ -10,6 +10,7 @@ keywords: ["ExAllocatePool macro"]
 ms.keywords: ExAllocatePool, ExAllocatePool routine [Kernel-Mode Driver Architecture], k102_02ff5510-3d96-4a15-a0da-5da56e14b1b8.xml, kernel.exallocatepool, wdm/ExAllocatePool
 f1_keywords:
  - "smcnt/ExAllocatePool"
+ - "ExAllocatePool"
 req.header: smcnt.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Classpnp.h, Smcnt.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - ExAllocatePool
-product:
-- Windows
 targetos: Windows
 req.typenames: VENDOR_ATTR, *PVENDOR_ATTR
 req.product: Windows 10 or later.

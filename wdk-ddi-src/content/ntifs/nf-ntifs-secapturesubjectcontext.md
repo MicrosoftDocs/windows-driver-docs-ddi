@@ -10,6 +10,7 @@ keywords: ["SeCaptureSubjectContext function"]
 ms.keywords: SeCaptureSubjectContext, SeCaptureSubjectContext routine [Installable File System Drivers], ifsk.secapturesubjectcontext, ntifs/SeCaptureSubjectContext, seref_192d13d7-4841-4c3e-831f-c12fe3cde04f.xml
 f1_keywords:
  - "ntifs/SeCaptureSubjectContext"
+ - "SeCaptureSubjectContext"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Wdm.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - SeCaptureSubjectContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

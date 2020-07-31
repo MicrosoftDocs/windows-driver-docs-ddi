@@ -10,6 +10,7 @@ keywords: ["FsRtlProcessFileLock function"]
 ms.keywords: FsRtlProcessFileLock, FsRtlProcessFileLock routine [Installable File System Drivers], fsrtlref_93a3a663-fe0b-45c2-ab32-af4fe94b9697.xml, ifsk.fsrtlprocessfilelock, ntifs/FsRtlProcessFileLock
 f1_keywords:
  - "ntifs/FsRtlProcessFileLock"
+ - "FsRtlProcessFileLock"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlProcessFileLock
-product:
-- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---

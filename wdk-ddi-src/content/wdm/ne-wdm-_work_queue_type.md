@@ -10,6 +10,7 @@ keywords: ["_WORK_QUEUE_TYPE enumeration"]
 ms.keywords: BackgroundWorkQueue, CriticalWorkQueue, CustomPriorityWorkQueue, DelayedWorkQueue, HyperCriticalWorkQueue, MaximumWorkQueue, NormalWorkQueue, RealTimeWorkQueue, SuperCriticalWorkQueue, WORK_QUEUE_TYPE, WORK_QUEUE_TYPE enumeration [Kernel-Mode Driver Architecture], _WORK_QUEUE_TYPE, kernel.work_queue_type, sysenum_5bc5bb84-a8c7-46af-982e-37b8ec51723f.xml, wdm/BackgroundWorkQueue, wdm/CriticalWorkQueue, wdm/CustomPriorityWorkQueue, wdm/DelayedWorkQueue, wdm/HyperCriticalWorkQueue, wdm/MaximumWorkQueue, wdm/NormalWorkQueue, wdm/RealTimeWorkQueue, wdm/SuperCriticalWorkQueue, wdm/WORK_QUEUE_TYPE
 f1_keywords:
  - "wdm/WORK_QUEUE_TYPE"
+ - "WORK_QUEUE_TYPE"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - WORK_QUEUE_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 ---

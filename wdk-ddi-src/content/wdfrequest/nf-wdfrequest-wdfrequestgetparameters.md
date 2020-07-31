@@ -10,6 +10,7 @@ keywords: ["WdfRequestGetParameters function"]
 ms.keywords: DFRequestObjectRef_f3d44f7e-60b9-4a64-b5b8-a68ab5240376.xml, WdfRequestGetParameters, WdfRequestGetParameters method, kmdf.wdfrequestgetparameters, wdf.wdfrequestgetparameters, wdfrequest/WdfRequestGetParameters
 f1_keywords:
  - "wdfrequest/WdfRequestGetParameters"
+ - "WdfRequestGetParameters"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfRequestGetParameters
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

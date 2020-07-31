@@ -10,6 +10,7 @@ keywords: ["RxDereference function"]
 ms.keywords: RxDereference, RxDereference function [Installable File System Drivers], ifsk.rxdereference, rxprocs/RxDereference, rxref_90cd9c96-1fcf-4214-b14f-5065c1e52260.xml
 f1_keywords:
  - "rxprocs/RxDereference"
+ - "RxDereference"
 req.header: rxprocs.h
 req.include-header: Rxprocs.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - rxprocs.h
 api_name:
 - RxDereference
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

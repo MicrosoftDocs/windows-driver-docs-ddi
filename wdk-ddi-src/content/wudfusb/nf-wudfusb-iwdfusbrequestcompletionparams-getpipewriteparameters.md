@@ -10,6 +10,7 @@ keywords: ["IWDFUsbRequestCompletionParams::GetPipeWriteParameters"]
 ms.keywords: GetPipeWriteParameters, GetPipeWriteParameters method, GetPipeWriteParameters method,IWDFUsbRequestCompletionParams interface, IWDFUsbRequestCompletionParams interface,GetPipeWriteParameters method, IWDFUsbRequestCompletionParams.GetPipeWriteParameters, IWDFUsbRequestCompletionParams::GetPipeWriteParameters, UMDFRequestObjectRef_430256d1-89c8-4ef7-9385-8ae29d848f57.xml, umdf.iwdfusbrequestcompletionparams_getpipewriteparameters, wdf.iwdfusbrequestcompletionparams_getpipewriteparameters, wudfusb/IWDFUsbRequestCompletionParams::GetPipeWriteParameters
 f1_keywords:
  - "wudfusb/IWDFUsbRequestCompletionParams.GetPipeWriteParameters"
+ - "IWDFUsbRequestCompletionParams.GetPipeWriteParameters"
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFUsbRequestCompletionParams.GetPipeWriteParameters
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

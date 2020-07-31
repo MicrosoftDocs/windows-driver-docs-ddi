@@ -10,6 +10,7 @@ keywords: ["DxgkInitializeDisplayOnlyDriver function"]
 ms.keywords: DxgkInitializeDisplayOnlyDriver, DxgkInitializeDisplayOnlyDriver function [Display Devices], display.dxgkinitializedisplayonlydriver, dispmprt/DxgkInitializeDisplayOnlyDriver
 f1_keywords:
  - "dispmprt/DxgkInitializeDisplayOnlyDriver"
+ - "DxgkInitializeDisplayOnlyDriver"
 req.header: dispmprt.h
 req.include-header: 
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Displib.dll
 api_name:
 - DxgkInitializeDisplayOnlyDriver
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

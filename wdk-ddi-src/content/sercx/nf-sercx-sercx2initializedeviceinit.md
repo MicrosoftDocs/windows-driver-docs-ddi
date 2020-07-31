@@ -10,6 +10,7 @@ keywords: ["SerCx2InitializeDeviceInit function"]
 ms.keywords: 2/SerCx2InitializeDeviceInit, SerCx2InitializeDeviceInit, SerCx2InitializeDeviceInit method [Serial Ports], serports.sercx2initializedeviceinit
 f1_keywords:
  - "sercx/SerCx2InitializeDeviceInit"
+ - "SerCx2InitializeDeviceInit"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - 2.0\Sercx.h
 api_name:
 - SerCx2InitializeDeviceInit
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

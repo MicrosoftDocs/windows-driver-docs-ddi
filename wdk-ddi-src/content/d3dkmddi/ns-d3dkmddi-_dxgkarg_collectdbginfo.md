@@ -9,6 +9,7 @@ keywords: ["_DXGKARG_COLLECTDBGINFO structure"]
 ms.keywords: DXGKARG_COLLECTDBGINFO, DXGKARG_COLLECTDBGINFO structure [Display Devices], DmStructs_c3c19a4c-8536-474b-bca4-8b5af32fc4c8.xml, VIDEO_ENGINE_TIMEOUT_DETECTED, VIDEO_TDR_TIMEOUT_DETECTED, _DXGKARG_COLLECTDBGINFO, d3dkmddi/DXGKARG_COLLECTDBGINFO, display.dxgkarg_collectdbginfo
 f1_keywords:
  - "d3dkmddi/DXGKARG_COLLECTDBGINFO"
+ - "DXGKARG_COLLECTDBGINFO"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGKARG_COLLECTDBGINFO
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGKARG_COLLECTDBGINFO

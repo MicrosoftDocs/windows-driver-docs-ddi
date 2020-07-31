@@ -10,6 +10,7 @@ keywords: ["IPrinterPropertyBag::SetBool"]
 ms.keywords: IPrinterPropertyBag interface [Print Devices],SetBool method, IPrinterPropertyBag.SetBool, IPrinterPropertyBag::SetBool, SetBool, SetBool method [Print Devices], SetBool method [Print Devices],IPrinterPropertyBag interface, print.iprinterpropertybag_setbool, printerextension/IPrinterPropertyBag::SetBool
 f1_keywords:
  - "printerextension/IPrinterPropertyBag.SetBool"
+ - "IPrinterPropertyBag.SetBool"
 req.header: printerextension.h
 req.include-header: Printerextension.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Printerextension.h
 api_name:
 - IPrinterPropertyBag.SetBool
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

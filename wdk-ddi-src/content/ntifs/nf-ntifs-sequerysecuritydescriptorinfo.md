@@ -10,6 +10,7 @@ keywords: ["SeQuerySecurityDescriptorInfo function"]
 ms.keywords: SeQuerySecurityDescriptorInfo, SeQuerySecurityDescriptorInfo routine [Installable File System Drivers], ifsk.sequerysecuritydescriptorinfo, ntifs/SeQuerySecurityDescriptorInfo, seref_c8ecba25-bc67-4314-a262-3dbae1407205.xml
 f1_keywords:
  - "ntifs/SeQuerySecurityDescriptorInfo"
+ - "SeQuerySecurityDescriptorInfo"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - SeQuerySecurityDescriptorInfo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

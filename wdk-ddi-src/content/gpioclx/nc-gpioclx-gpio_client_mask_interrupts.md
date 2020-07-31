@@ -10,6 +10,7 @@ keywords: ["GPIO_CLIENT_MASK_INTERRUPTS callback function"]
 ms.keywords: CLIENT_MaskInterrupts, CLIENT_MaskInterrupts callback, CLIENT_MaskInterrupts callback function [Parallel Ports], GPIO.client_maskinterrupts, GPIO_CLIENT_MASK_INTERRUPTS, gpioclx/CLIENT_MaskInterrupts
 f1_keywords:
  - "gpioclx/CLIENT_MaskInterrupts"
+ - "CLIENT_MaskInterrupts"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Gpioclx.h
 api_name:
 - CLIENT_MaskInterrupts
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

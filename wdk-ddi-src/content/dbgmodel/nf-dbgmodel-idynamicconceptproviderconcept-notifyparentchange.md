@@ -7,6 +7,7 @@ ms.date: 09/19/2018
 keywords: ["IDynamicConceptProviderConcept::NotifyParentChange"]
 f1_keywords:
  - "dbgmodel/IDynamicConceptProviderConcept.NotifyParentChange"
+ - "IDynamicConceptProviderConcept.NotifyParentChange"
 ms.keywords: IDynamicConceptProviderConcept::NotifyParentChange, NotifyParentChange, IDynamicConceptProviderConcept.NotifyParentChange, IDynamicConceptProviderConcept::NotifyParentChange, IDynamicConceptProviderConcept.NotifyParentChange
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDynamicConceptProviderConcept.NotifyParentChange
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

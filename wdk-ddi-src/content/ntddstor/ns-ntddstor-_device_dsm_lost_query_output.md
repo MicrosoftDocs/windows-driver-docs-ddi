@@ -8,6 +8,7 @@ ms.date: 08/23/2019
 keywords: ["_DEVICE_DSM_LOST_QUERY_OUTPUT structure"]
 f1_keywords:
  - "ntddstor/_DEVICE_DSM_LOST_QUERY_OUTPUT"
+ - "_DEVICE_DSM_LOST_QUERY_OUTPUT"
 ms.keywords: _DEVICE_DSM_LOST_QUERY_OUTPUT, DEVICE_DSM_LOST_QUERY_OUTPUT, *PDEVICE_DSM_LOST_QUERY_OUTPUT, 
 req.header: ntddstor.h
 req.include-header:
@@ -30,8 +31,6 @@ api_location:
 - ntddstor.h
 api_name: 
 - _DEVICE_DSM_LOST_QUERY_OUTPUT
-product:
-- Windows
 targetos: Windows
 ---
 

@@ -10,6 +10,7 @@ keywords: ["_PEP_COMPONENT_V2 structure"]
 ms.keywords: "*PPEP_COMPONENT, *PPEP_COMPONENT_V2, PEP_COMPONENT, PEP_COMPONENT_V2, PEP_COMPONENT_V2 structure [Kernel-Mode Driver Architecture], PPEP_COMPONENT_V2, PPEP_COMPONENT_V2 structure pointer [Kernel-Mode Driver Architecture], _PEP_COMPONENT_V2, kernel.pep_component_v2, pepfx/PEP_COMPONENT_V2, pepfx/PPEP_COMPONENT_V2"
 f1_keywords:
  - "pep_x/PEP_COMPONENT_V2"
+ - "PEP_COMPONENT_V2"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - PEP_COMPONENT_V2
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_COMPONENT_V2, *PPEP_COMPONENT_V2
 ---

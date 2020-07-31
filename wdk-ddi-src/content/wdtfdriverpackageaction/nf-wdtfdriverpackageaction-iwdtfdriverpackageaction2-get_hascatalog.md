@@ -10,6 +10,7 @@ keywords: ["IWDTFDriverPackageAction2::get_HasCatalog"]
 ms.keywords: HasCatalog property [Windows Device Testing Framework], HasCatalog property [Windows Device Testing Framework],IWDTFDriverPackageAction2 interface, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework],HasCatalog property, IWDTFDriverPackageAction2.HasCatalog, IWDTFDriverPackageAction2.get_HasCatalog, IWDTFDriverPackageAction2::HasCatalog, IWDTFDriverPackageAction2::get_HasCatalog, Microsoft.WDTF.IWDTFDriverPackageAction2.HasCatalog, Microsoft::WDTF::IWDTFDriverPackageAction2::HasCatalog, dtf.iwdtfdriverpackageaction2_hascatalog, get_HasCatalog, wdtfdriverpackageaction/IWDTFDriverPackageAction2::HasCatalog, wdtfdriverpackageaction/IWDTFDriverPackageAction2::get_HasCatalog
 f1_keywords:
  - "wdtfdriverpackageaction/IWDTFDriverPackageAction2.HasCatalog"
+ - "IWDTFDriverPackageAction2.HasCatalog"
 req.header: wdtfdriverpackageaction.h
 req.include-header: 
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IWDTFDriverPackageAction2.HasCatalog
 - IWDTFDriverPackageAction2.get_HasCatalog
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

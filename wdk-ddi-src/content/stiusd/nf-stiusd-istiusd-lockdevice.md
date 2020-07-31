@@ -10,6 +10,7 @@ keywords: ["IStiUSD::LockDevice"]
 ms.keywords: IStiUSD interface [Imaging Devices],LockDevice method, IStiUSD.LockDevice, IStiUSD::LockDevice, LockDevice, LockDevice method [Imaging Devices], LockDevice method [Imaging Devices],IStiUSD interface, image.istiusd_lockdevice, stifnc_147be8d0-9e2a-4ade-99ce-36c7f3a8adeb.xml, stiusd/IStiUSD::LockDevice
 f1_keywords:
  - "stiusd/IStiUSD.LockDevice"
+ - "IStiUSD.LockDevice"
 req.header: stiusd.h
 req.include-header: Stiusd.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Stiusd.h
 api_name:
 - IStiUSD.LockDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

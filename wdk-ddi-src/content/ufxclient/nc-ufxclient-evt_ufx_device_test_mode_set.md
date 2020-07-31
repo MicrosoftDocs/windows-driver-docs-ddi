@@ -10,6 +10,7 @@ keywords: ["EVT_UFX_DEVICE_TEST_MODE_SET callback function"]
 ms.keywords: EVT_UFX_DEVICE_TEST_MODE_SET, EVT_UFX_DEVICE_TEST_MODE_SET callback, EvtUfxDeviceTestModeSet, EvtUfxDeviceTestModeSet callback function [Buses], PFN_UFX_DEVICE_TEST_MODE_SET, PFN_UFX_DEVICE_TEST_MODE_SET callback function pointer [Buses], buses.evt_ufx_device_test_mode_set, ufxclient/EvtUfxDeviceTestModeSet
 f1_keywords:
  - "ufxclient/PFN_UFX_DEVICE_TEST_MODE_SET"
+ - "PFN_UFX_DEVICE_TEST_MODE_SET"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ufxclient.h
 api_name:
 - PFN_UFX_DEVICE_TEST_MODE_SET
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

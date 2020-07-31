@@ -8,6 +8,7 @@ ms.date: 05/22/2018
 keywords: ["_NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2 structure"]
 f1_keywords:
  - "ntddndis/_NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2"
+ - "_NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2"
 ms.keywords: _NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2, NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2, *PNDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2, 
 req.header: ntddndis.h
 req.include-header: ndis.h
@@ -30,8 +31,6 @@ api_location:
 - ntddndis.h
 api_name: 
 - _NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

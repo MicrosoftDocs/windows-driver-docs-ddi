@@ -10,6 +10,7 @@ keywords: ["PWINDBG_GET_THREAD_CONTEXT_ROUTINE callback function"]
 ms.keywords: GetContext, GetContext callback function [Windows Debugging], PWINDBG_GET_THREAD_CONTEXT_ROUTINE, PWINDBG_GET_THREAD_CONTEXT_ROUTINE callback, WdbgExts_Ref_52639fac-abbf-4abc-a01f-361d14e49fd0.xml, debugger.getcontext, wdbgexts/GetContext
 f1_keywords:
  - "wdbgexts/GetContext"
+ - "GetContext"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wdbgexts.h
 api_name:
 - GetContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

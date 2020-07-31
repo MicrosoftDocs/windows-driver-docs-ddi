@@ -10,6 +10,7 @@ keywords: ["_DXVADDI_EXTENDEDFORMAT structure"]
 ms.keywords: DXVA2_Structs_31dd9223-b889-4db9-acc0-520c8f16410a.xml, DXVADDI_EXTENDEDFORMAT, DXVADDI_EXTENDEDFORMAT structure [Display Devices], _DXVADDI_EXTENDEDFORMAT, d3dumddi/DXVADDI_EXTENDEDFORMAT, display.dxvaddi_extendedformat
 f1_keywords:
  - "d3dumddi/DXVADDI_EXTENDEDFORMAT"
+ - "DXVADDI_EXTENDEDFORMAT"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - DXVADDI_EXTENDEDFORMAT
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVADDI_EXTENDEDFORMAT
 ---

@@ -10,6 +10,7 @@ keywords: ["NDIS_WDI_RX_INORDER_DATA_IND callback function"]
 ms.keywords: NDIS_WDI_RX_INORDER_DATA_IND, NDIS_WDI_RX_INORDER_DATA_IND callback, NdisWdiRxInorderDataIndication, NdisWdiRxInorderDataIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiRxInorderDataIndication, netvista.ndiswdirxinorderdataindication
 f1_keywords:
  - "dot11wdi/NdisWdiRxInorderDataIndication"
+ - "NdisWdiRxInorderDataIndication"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dot11wdi.h
 api_name:
 - NdisWdiRxInorderDataIndication
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

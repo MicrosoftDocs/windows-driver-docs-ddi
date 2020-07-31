@@ -10,6 +10,7 @@ keywords: ["IWDFDevice2::AssignSxWakeSettings"]
 ms.keywords: AssignSxWakeSettings, AssignSxWakeSettings method, AssignSxWakeSettings method,IWDFDevice2 interface, IWDFDevice2 interface,AssignSxWakeSettings method, IWDFDevice2.AssignSxWakeSettings, IWDFDevice2::AssignSxWakeSettings, UMDFDeviceObjectRef_7e411333-6c21-4ed6-af60-b78f3a32bd65.xml, umdf.iwdfdevice2_assignsxwakesettings, wdf.iwdfdevice2_assignsxwakesettings, wudfddi/IWDFDevice2::AssignSxWakeSettings
 f1_keywords:
  - "wudfddi/IWDFDevice2.AssignSxWakeSettings"
+ - "IWDFDevice2.AssignSxWakeSettings"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFDevice2.AssignSxWakeSettings
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

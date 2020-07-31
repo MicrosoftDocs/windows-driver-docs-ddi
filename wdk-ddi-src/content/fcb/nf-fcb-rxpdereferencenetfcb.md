@@ -10,6 +10,7 @@ keywords: ["RxpDereferenceNetFcb function"]
 ms.keywords: RxpDereferenceNetFcb, RxpDereferenceNetFcb function [Installable File System Drivers], fcb/RxpDereferenceNetFcb, ifsk.rxpdereferencenetfcb, rxref_5b67e32d-12f2-4c52-9099-16505e00233f.xml
 f1_keywords:
  - "fcb/RxpDereferenceNetFcb"
+ - "RxpDereferenceNetFcb"
 req.header: fcb.h
 req.include-header: Fcb.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - fcb.h
 api_name:
 - RxpDereferenceNetFcb
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

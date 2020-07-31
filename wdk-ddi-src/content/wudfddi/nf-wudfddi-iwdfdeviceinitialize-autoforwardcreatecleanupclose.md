@@ -10,6 +10,7 @@ keywords: ["IWDFDeviceInitialize::AutoForwardCreateCleanupClose"]
 ms.keywords: AutoForwardCreateCleanupClose, AutoForwardCreateCleanupClose method, AutoForwardCreateCleanupClose method,IWDFDeviceInitialize interface, IWDFDeviceInitialize interface,AutoForwardCreateCleanupClose method, IWDFDeviceInitialize.AutoForwardCreateCleanupClose, IWDFDeviceInitialize::AutoForwardCreateCleanupClose, UMDFDeviceObjectRef_6f68d9cd-cfb9-49ae-94b8-a230e4dc0762.xml, umdf.iwdfdeviceinitialize_autoforwardcreatecleanupclose, wdf.iwdfdeviceinitialize_autoforwardcreatecleanupclose, wudfddi/IWDFDeviceInitialize::AutoForwardCreateCleanupClose
 f1_keywords:
  - "wudfddi/IWDFDeviceInitialize.AutoForwardCreateCleanupClose"
+ - "IWDFDeviceInitialize.AutoForwardCreateCleanupClose"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFDeviceInitialize.AutoForwardCreateCleanupClose
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

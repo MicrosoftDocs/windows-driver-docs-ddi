@@ -10,6 +10,7 @@ keywords: ["KSALLOCATORMODE enumeration"]
 ms.keywords: KSALLOCATORMODE, KSALLOCATORMODE enumeration [Streaming Media Devices], KsAllocatorMode_Kernel, KsAllocatorMode_User, ksproxy/KSALLOCATORMODE, ksproxy/KsAllocatorMode_Kernel, ksproxy/KsAllocatorMode_User, stream.ksallocatormode
 f1_keywords:
  - "ksproxy/KSALLOCATORMODE"
+ - "KSALLOCATORMODE"
 req.header: ksproxy.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ksproxy.h
 api_name:
 - KSALLOCATORMODE
-product:
-- Windows
 targetos: Windows
 req.typenames: KSALLOCATORMODE
 ---

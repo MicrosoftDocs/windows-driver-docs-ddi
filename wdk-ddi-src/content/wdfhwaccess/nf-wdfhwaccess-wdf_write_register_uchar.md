@@ -10,6 +10,7 @@ keywords: ["WDF_WRITE_REGISTER_UCHAR function"]
 ms.keywords: WDF_WRITE_REGISTER_UCHAR, WDF_WRITE_REGISTER_UCHAR function, wdf.wdf_write_register_uchar, wdfhwaccess/WDF_WRITE_REGISTER_UCHAR
 f1_keywords:
  - "wdfhwaccess/WDF_WRITE_REGISTER_UCHAR"
+ - "WDF_WRITE_REGISTER_UCHAR"
 req.header: wdfhwaccess.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Wdfhwaccess.h
 api_name:
 - WDF_WRITE_REGISTER_UCHAR
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

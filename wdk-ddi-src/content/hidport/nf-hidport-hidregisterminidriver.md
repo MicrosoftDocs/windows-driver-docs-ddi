@@ -10,6 +10,7 @@ keywords: ["HidRegisterMinidriver function"]
 ms.keywords: HidRegisterMinidriver, HidRegisterMinidriver routine [Human Input Devices], hid.hidregisterminidriver, hidfunc_83ef5fb3-46fc-427e-a9de-8aa554ef26b6.xml, hidport/HidRegisterMinidriver
 f1_keywords:
  - "hidport/HidRegisterMinidriver"
+ - "HidRegisterMinidriver"
 req.header: hidport.h
 req.include-header: Hidport.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Hid.dll
 api_name:
 - HidRegisterMinidriver
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

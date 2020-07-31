@@ -9,6 +9,7 @@ keywords: ["_DXGK_MULTIPLANEOVERLAYCAPS structure"]
 ms.keywords: DXGK_MULTIPLANEOVERLAYCAPS, DXGK_MULTIPLANEOVERLAYCAPS structure [Display Devices], _DXGK_MULTIPLANEOVERLAYCAPS, d3dkmddi/DXGK_MULTIPLANEOVERLAYCAPS, display.dxgk_multiplaneoverlaycaps
 f1_keywords:
  - "d3dkmddi/DXGK_MULTIPLANEOVERLAYCAPS"
+ - "DXGK_MULTIPLANEOVERLAYCAPS"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGK_MULTIPLANEOVERLAYCAPS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_MULTIPLANEOVERLAYCAPS

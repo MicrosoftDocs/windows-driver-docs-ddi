@@ -10,6 +10,7 @@ keywords: ["_IRB_REQ_ISOCH_FREE_RESOURCES structure"]
 ms.keywords: 1394/IRB_REQ_ISOCH_FREE_RESOURCES, IEEE.irb_req_isoch_free_resources, IRB_REQ_ISOCH_FREE_RESOURCES, IRB_REQ_ISOCH_FREE_RESOURCES structure [Buses], _IRB_REQ_ISOCH_FREE_RESOURCES
 f1_keywords:
  - "1394/IRB_REQ_ISOCH_FREE_RESOURCES"
+ - "IRB_REQ_ISOCH_FREE_RESOURCES"
 req.header: 1394.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - 1394.h
 api_name:
 - IRB_REQ_ISOCH_FREE_RESOURCES
-product:
-- Windows
 targetos: Windows
 req.typenames: IRB_REQ_ISOCH_FREE_RESOURCES
 ---

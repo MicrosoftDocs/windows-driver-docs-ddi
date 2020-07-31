@@ -10,6 +10,7 @@ keywords: ["_SET_UNIT_INFO structure"]
 ms.keywords: "*PSET_UNIT_INFO, 61883/PSET_UNIT_INFO, 61883/SET_UNIT_INFO, IEEE.set_unit_info, PSET_UNIT_INFO, PSET_UNIT_INFO structure pointer [Buses], SET_UNIT_INFO, SET_UNIT_INFO structure [Buses], _SET_UNIT_INFO"
 f1_keywords:
  - "61883/SET_UNIT_INFO"
+ - "SET_UNIT_INFO"
 req.header: 61883.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - 61883.h
 api_name:
 - SET_UNIT_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: SET_UNIT_INFO, *PSET_UNIT_INFO
 ---

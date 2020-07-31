@@ -10,6 +10,7 @@ keywords: ["IMiniportWavePciStream::GetAllocatorFraming"]
 ms.keywords: GetAllocatorFraming, GetAllocatorFraming method [Audio Devices], GetAllocatorFraming method [Audio Devices],IMiniportWavePciStream interface, IMiniportWavePciStream interface [Audio Devices],GetAllocatorFraming method, IMiniportWavePciStream.GetAllocatorFraming, IMiniportWavePciStream::GetAllocatorFraming, audio.iminiportwavepcistream_getallocatorframing, audmp-routines_aef1d53f-2db6-4372-90fa-fb501c199e41.xml, portcls/IMiniportWavePciStream::GetAllocatorFraming
 f1_keywords:
  - "portcls/IMiniportWavePciStream.GetAllocatorFraming"
+ - "IMiniportWavePciStream.GetAllocatorFraming"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IMiniportWavePciStream.GetAllocatorFraming
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

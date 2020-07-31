@@ -10,6 +10,7 @@ keywords: ["MmQuerySystemSize function"]
 ms.keywords: MmQuerySystemSize, MmQuerySystemSize routine [Kernel-Mode Driver Architecture], k106_9456af05-c1ea-43b0-a342-bc88a8de874b.xml, kernel.mmquerysystemsize, wdm/MmQuerySystemSize
 f1_keywords:
  - "wdm/MmQuerySystemSize"
+ - "MmQuerySystemSize"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - MmQuerySystemSize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

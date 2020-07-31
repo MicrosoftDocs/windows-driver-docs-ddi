@@ -10,6 +10,7 @@ keywords: ["_DEBUG_MODULE_AND_ID structure"]
 ms.keywords: "*PDEBUG_MODULE_AND_ID, DEBUG_MODULE_AND_ID, DEBUG_MODULE_AND_ID structure [Windows Debugging], PDEBUG_MODULE_AND_ID, PDEBUG_MODULE_AND_ID structure pointer [Windows Debugging], Structures_d53c2a34-f855-45a0-918b-0a8dfb936828.xml, _DEBUG_MODULE_AND_ID, dbgeng/DEBUG_MODULE_AND_ID, dbgeng/PDEBUG_MODULE_AND_ID, debugger.debug_module_and_id"
 f1_keywords:
  - "dbgeng/DEBUG_MODULE_AND_ID"
+ - "DEBUG_MODULE_AND_ID"
 req.header: dbgeng.h
 req.include-header: DbgEng.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - DbgEng.h
 api_name:
 - DEBUG_MODULE_AND_ID
-product:
-- Windows
 targetos: Windows
 req.typenames: DEBUG_MODULE_AND_ID, *PDEBUG_MODULE_AND_ID
 ---

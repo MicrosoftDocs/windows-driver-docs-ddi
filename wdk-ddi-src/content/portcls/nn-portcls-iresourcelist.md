@@ -10,6 +10,7 @@ keywords: ["IResourceList interface"]
 ms.keywords: IResourceList, IResourceList interface [Audio Devices], IResourceList interface [Audio Devices],described, audio.iresourcelist, audmp-routines_beb718b9-c62d-46b8-9147-c9e4aa7faa28.xml, portcls/IResourceList
 f1_keywords:
  - "portcls/IResourceList"
+ - "IResourceList"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IResourceList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

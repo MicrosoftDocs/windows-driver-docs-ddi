@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DlEnumerateChildren function"]
 f1_keywords:
  - "dispmprt/DlEnumerateChildren"
+ - "DlEnumerateChildren"
 ms.keywords: DlEnumerateChildren
 req.header: dispmprt.h
 req.include-header:

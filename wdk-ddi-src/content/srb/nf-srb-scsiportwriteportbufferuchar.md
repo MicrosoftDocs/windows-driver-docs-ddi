@@ -10,6 +10,7 @@ keywords: ["ScsiPortWritePortBufferUchar function"]
 ms.keywords: ScsiPortWritePortBufferUchar, ScsiPortWritePortBufferUchar routine [Storage Devices], scsiprt_19277863-04fb-4f72-85f5-9bc877bd83c1.xml, srb/ScsiPortWritePortBufferUchar, storage.scsiportwriteportbufferuchar
 f1_keywords:
  - "srb/ScsiPortWritePortBufferUchar"
+ - "ScsiPortWritePortBufferUchar"
 req.header: srb.h
 req.include-header: Miniport.h, Scsi.h, Storport.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Scsiport.dll
 api_name:
 - ScsiPortWritePortBufferUchar
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

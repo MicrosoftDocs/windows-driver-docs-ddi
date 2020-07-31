@@ -10,6 +10,7 @@ ms.date: 09/30/2019
 keywords: ["NET_POWER_OFFLOAD_ARP_PARAMETERS structure"]
 f1_keywords:
  - "netpoweroffload/NET_POWER_OFFLOAD_ARP_PARAMETERS"
+ - "NET_POWER_OFFLOAD_ARP_PARAMETERS"
 ms.keywords: NET_POWER_OFFLOAD_ARP_PARAMETERS, NET_POWER_OFFLOAD_ARP_PARAMETERS, 
 req.header: netpoweroffload.h
 req.include-header:

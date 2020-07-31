@@ -10,6 +10,7 @@ keywords: ["tagKS_DATARANGE_H264_VIDEO structure"]
 ms.keywords: "*PKS_DATARANGE_H264_VIDEO, KS_DATARANGE_H264_VIDEO, KS_DATARANGE_H264_VIDEO structure [Streaming Media Devices], PKS_DATARANGE_H264_VIDEO, PKS_DATARANGE_H264_VIDEO structure pointer [Streaming Media Devices], ksmedia/KS_DATARANGE_H264_VIDEO, ksmedia/PKS_DATARANGE_H264_VIDEO, stream.ks_datarange_h264_video, tagKS_DATARANGE_H264_VIDEO"
 f1_keywords:
  - "ksmedia/KS_DATARANGE_H264_VIDEO"
+ - "KS_DATARANGE_H264_VIDEO"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ksmedia.h
 api_name:
 - KS_DATARANGE_H264_VIDEO
-product:
-- Windows
 targetos: Windows
 req.typenames: KS_DATARANGE_H264_VIDEO, *PKS_DATARANGE_H264_VIDEO
 ---

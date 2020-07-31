@@ -10,6 +10,7 @@ keywords: ["IOCTL_STORAGE_BREAK_RESERVATION IOCTL"]
 ms.keywords: IOCTL_STORAGE_BREAK_RESERVATION, IOCTL_STORAGE_BREAK_RESERVATION control, IOCTL_STORAGE_BREAK_RESERVATION control code [Storage Devices], k307_c8e206c8-a186-4bd4-a68e-899c8ca652a4.xml, ntddstor/IOCTL_STORAGE_BREAK_RESERVATION, storage.ioctl_storage_break_reservation
 f1_keywords:
  - "ntddstor/IOCTL_STORAGE_BREAK_RESERVATION"
+ - "IOCTL_STORAGE_BREAK_RESERVATION"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddstor.h
 api_name:
 - IOCTL_STORAGE_BREAK_RESERVATION
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

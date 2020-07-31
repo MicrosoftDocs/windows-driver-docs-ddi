@@ -10,6 +10,7 @@ keywords: ["RILREADMSGPARAMS structure"]
 ms.keywords: "*LPRILREADMSGPARAMS, RILREADMSGPARAMS, RILREADMSGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilreadmsgparams, ntddrilapitypes/RILREADMSGPARAMS"
 f1_keywords:
  - "ntddrilapitypes/RILREADMSGPARAMS"
+ - "RILREADMSGPARAMS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILREADMSGPARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILREADMSGPARAMS, *LPRILREADMSGPARAMS
 ---

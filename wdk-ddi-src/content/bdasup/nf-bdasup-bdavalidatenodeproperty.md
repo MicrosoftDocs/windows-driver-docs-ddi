@@ -10,6 +10,7 @@ keywords: ["BdaValidateNodeProperty function"]
 ms.keywords: BdaValidateNodeProperty, BdaValidateNodeProperty function [Streaming Media Devices], bdaref_a6f1ec2f-9e23-4cbb-a3dc-fab0d2c5ca1c.xml, bdasup/BdaValidateNodeProperty, stream.bdavalidatenodeproperty
 f1_keywords:
  - "bdasup/BdaValidateNodeProperty"
+ - "BdaValidateNodeProperty"
 req.header: bdasup.h
 req.include-header: Bdasup.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Bdasup.dll
 api_name:
 - BdaValidateNodeProperty
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

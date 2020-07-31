@@ -10,6 +10,7 @@ keywords: ["NdisQueryNetBufferPhysicalCount function"]
 ms.keywords: NdisQueryNetBufferPhysicalCount, NdisQueryNetBufferPhysicalCount function [Network Drivers Starting with Windows Vista], ndis/NdisQueryNetBufferPhysicalCount, ndis_netbuf_functions_ref_d041f487-3273-402e-8726-d9a252b1dd45.xml, netvista.ndisquerynetbufferphysicalcount
 f1_keywords:
  - "ndis/NdisQueryNetBufferPhysicalCount"
+ - "NdisQueryNetBufferPhysicalCount"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisQueryNetBufferPhysicalCount
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

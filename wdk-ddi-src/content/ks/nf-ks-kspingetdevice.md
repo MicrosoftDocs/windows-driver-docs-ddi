@@ -10,6 +10,7 @@ keywords: ["KsPinGetDevice function"]
 ms.keywords: KsPinGetDevice, KsPinGetDevice function [Streaming Media Devices], avfunc_09495aa3-2bed-4093-a989-2ae444f1c372.xml, ks/KsPinGetDevice, stream.kspingetdevice
 f1_keywords:
  - "ks/KsPinGetDevice"
+ - "KsPinGetDevice"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KsPinGetDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

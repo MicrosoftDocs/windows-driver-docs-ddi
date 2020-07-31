@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_DXGKARGCB_INVALIDATEHWCONTEXT structure"]
 f1_keywords:
  - "d3dkmddi/_DXGKARGCB_INVALIDATEHWCONTEXT"
+ - "_DXGKARGCB_INVALIDATEHWCONTEXT"
 ms.keywords: _DXGKARGCB_INVALIDATEHWCONTEXT, DXGKARGCB_INVALIDATEHWCONTEXT,
 req.header: d3dkmddi.h
 req.include-header:

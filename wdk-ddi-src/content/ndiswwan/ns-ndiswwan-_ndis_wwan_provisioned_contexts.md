@@ -10,6 +10,7 @@ keywords: ["_NDIS_WWAN_PROVISIONED_CONTEXTS structure"]
 ms.keywords: "*PNDIS_WWAN_PROVISIONED_CONTEXTS, NDIS_WWAN_PROVISIONED_CONTEXTS, NDIS_WWAN_PROVISIONED_CONTEXTS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_PROVISIONED_CONTEXTS, PNDIS_WWAN_PROVISIONED_CONTEXTS structure pointer [Network Drivers Starting with Windows Vista], WwanRef_ad7bfe2b-eb11-45f9-a49d-a602df06b97f.xml, _NDIS_WWAN_PROVISIONED_CONTEXTS, ndiswwan/NDIS_WWAN_PROVISIONED_CONTEXTS, ndiswwan/PNDIS_WWAN_PROVISIONED_CONTEXTS, netvista.ndis_wwan_provisioned_contexts"
 f1_keywords:
  - "ndiswwan/NDIS_WWAN_PROVISIONED_CONTEXTS"
+ - "NDIS_WWAN_PROVISIONED_CONTEXTS"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ndiswwan.h
 api_name:
 - NDIS_WWAN_PROVISIONED_CONTEXTS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_PROVISIONED_CONTEXTS, *PNDIS_WWAN_PROVISIONED_CONTEXTS
 ---

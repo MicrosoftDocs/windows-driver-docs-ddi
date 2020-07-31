@@ -10,6 +10,7 @@ keywords: ["UfxEndpointCreate function"]
 ms.keywords: UfxEndpointCreate, UfxEndpointCreate method [Buses], buses.ufxendpointcreate, ufxclient/UfxEndpointCreate
 f1_keywords:
  - "ufxclient/UfxEndpointCreate"
+ - "UfxEndpointCreate"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ufxclient.h
 api_name:
 - UfxEndpointCreate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

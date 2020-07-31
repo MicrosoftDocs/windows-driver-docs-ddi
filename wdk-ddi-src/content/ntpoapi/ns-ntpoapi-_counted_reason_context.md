@@ -10,6 +10,7 @@ keywords: ["_COUNTED_REASON_CONTEXT structure"]
 ms.keywords: "*PCOUNTED_REASON_CONTEXT, COUNTED_REASON_CONTEXT, COUNTED_REASON_CONTEXT structure [Kernel-Mode Driver Architecture], PCOUNTED_REASON_CONTEXT, PCOUNTED_REASON_CONTEXT structure pointer [Kernel-Mode Driver Architecture], _COUNTED_REASON_CONTEXT, kernel.counted_reason_context, kstruct_a_52baf683-dfd2-4004-abed-e9ae6221c342.xml, wdm/COUNTED_REASON_CONTEXT, wdm/PCOUNTED_REASON_CONTEXT"
 f1_keywords:
  - "ntpoapi/COUNTED_REASON_CONTEXT"
+ - "COUNTED_REASON_CONTEXT"
 req.header: ntpoapi.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Ntpoapi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - COUNTED_REASON_CONTEXT
-product:
-- Windows
 targetos: Windows
 req.typenames: COUNTED_REASON_CONTEXT, *PCOUNTED_REASON_CONTEXT
 ---

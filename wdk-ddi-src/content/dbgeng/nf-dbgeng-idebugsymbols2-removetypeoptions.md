@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols2::RemoveTypeOptions"]
 ms.keywords: IDebugSymbols2 interface [Windows Debugging],RemoveTypeOptions method, IDebugSymbols2.RemoveTypeOptions, IDebugSymbols2::RemoveTypeOptions, IDebugSymbols3 interface [Windows Debugging],RemoveTypeOptions method, IDebugSymbols3::RemoveTypeOptions, IDebugSymbols_e5b88999-5c49-49cc-a3b8-2dea953b4fc1.xml, RemoveTypeOptions, RemoveTypeOptions method [Windows Debugging], RemoveTypeOptions method [Windows Debugging],IDebugSymbols2 interface, RemoveTypeOptions method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols2::RemoveTypeOptions, dbgeng/IDebugSymbols3::RemoveTypeOptions, debugger.removetypeoptions
 f1_keywords:
  - "dbgeng/IDebugSymbols2.RemoveTypeOptions"
+ - "IDebugSymbols2.RemoveTypeOptions"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IDebugSymbols2.RemoveTypeOptions
 - IDebugSymbols3.RemoveTypeOptions
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -7,6 +7,7 @@ ms.date: 10/02/2018
 keywords: ["_ACPI_PLD_JOINT_TYPE enumeration"]
 f1_keywords:
  - "acpitabl/_ACPI_PLD_JOINT_TYPE"
+ - "_ACPI_PLD_JOINT_TYPE"
 ms.keywords: _ACPI_PLD_JOINT_TYPE, ACPI_PLD_JOINT_TYPE, *PACPI_PLD_JOINT_TYPE, 
 req.header: acpitabl.h
 req.include-header:
@@ -26,8 +27,6 @@ api_location:
 - acpitabl.h
 api_name: 
 - _ACPI_PLD_JOINT_TYPE
-product:
-- Windows
 targetos: Windows
 ---
 

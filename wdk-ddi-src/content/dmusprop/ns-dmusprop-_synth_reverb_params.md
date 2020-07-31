@@ -10,6 +10,7 @@ keywords: ["_SYNTH_REVERB_PARAMS structure"]
 ms.keywords: "*PSYNTH_REVERB_PARAMS, PSYNTH_REVERB_PARAMS, PSYNTH_REVERB_PARAMS structure pointer [Audio Devices], SYNTH_REVERB_PARAMS, SYNTH_REVERB_PARAMS structure [Audio Devices], _SYNTH_REVERB_PARAMS, audio.synth_reverb_params, dmusprop/PSYNTH_REVERB_PARAMS, dmusprop/SYNTH_REVERB_PARAMS"
 f1_keywords:
  - "dmusprop/SYNTH_REVERB_PARAMS"
+ - "SYNTH_REVERB_PARAMS"
 req.header: dmusprop.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Dmusprop.h
 api_name:
 - SYNTH_REVERB_PARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: SYNTH_REVERB_PARAMS, *PSYNTH_REVERB_PARAMS
 ---

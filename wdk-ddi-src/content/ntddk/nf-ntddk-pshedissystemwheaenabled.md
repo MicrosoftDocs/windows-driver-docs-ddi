@@ -10,6 +10,7 @@ keywords: ["PshedIsSystemWheaEnabled function"]
 ms.keywords: PshedIsSystemWheaEnabled, PshedIsSystemWheaEnabled function [WHEA Drivers and Applications], ntddk/PshedIsSystemWheaEnabled, whea.pshedissystemwheaenabled, whearef_492a4370-81bf-411b-bd87-2408f4551b18.xml
 f1_keywords:
  - "ntddk/PshedIsSystemWheaEnabled"
+ - "PshedIsSystemWheaEnabled"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Pshed.dll
 api_name:
 - PshedIsSystemWheaEnabled
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

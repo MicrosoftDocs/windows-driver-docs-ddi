@@ -10,6 +10,7 @@ keywords: ["RtlFreeNonVolatileToken function"]
 ms.keywords: RtlFreeNonVolatileToken, RtlFreeNonVolatileToken routine [Installable File System Drivers], ifsk.rtlfreenonvolatiletoken, ntddk/RtlFreeNonVolatileToken
 f1_keywords:
  - "ntddk/RtlFreeNonVolatileToken"
+ - "RtlFreeNonVolatileToken"
 req.header: ntddk.h
 req.include-header: Winnt.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - RtlFreeNonVolatileToken
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

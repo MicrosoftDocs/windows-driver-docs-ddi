@@ -10,6 +10,7 @@ keywords: ["_WSK_DATAGRAM_INDICATION structure"]
 ms.keywords: "*PWSK_DATAGRAM_INDICATION, PWSK_DATAGRAM_INDICATION, PWSK_DATAGRAM_INDICATION structure pointer [Network Drivers Starting with Windows Vista], WSK_DATAGRAM_INDICATION, WSK_DATAGRAM_INDICATION structure [Network Drivers Starting with Windows Vista], _WSK_DATAGRAM_INDICATION, netvista.wsk_datagram_indication, wsk/PWSK_DATAGRAM_INDICATION, wsk/WSK_DATAGRAM_INDICATION, wskref_1e0fb168-6e03-4b73-8bb4-e3bce0c94b02.xml"
 f1_keywords:
  - "wsk/WSK_DATAGRAM_INDICATION"
+ - "WSK_DATAGRAM_INDICATION"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wsk.h
 api_name:
 - WSK_DATAGRAM_INDICATION
-product:
-- Windows
 targetos: Windows
 req.typenames: WSK_DATAGRAM_INDICATION, *PWSK_DATAGRAM_INDICATION
 ---

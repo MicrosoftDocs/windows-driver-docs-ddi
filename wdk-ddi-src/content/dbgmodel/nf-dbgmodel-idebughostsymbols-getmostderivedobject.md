@@ -7,6 +7,7 @@ ms.date: 08/22/2018
 keywords: ["IDebugHostSymbols::GetMostDerivedObject"]
 f1_keywords:
  - "dbgmodel/IDebugHostSymbols.GetMostDerivedObject"
+ - "IDebugHostSymbols.GetMostDerivedObject"
 ms.keywords: IDebugHostSymbols::GetMostDerivedObject, GetMostDerivedObject, IDebugHostSymbols.GetMostDerivedObject, IDebugHostSymbols::GetMostDerivedObject, IDebugHostSymbols.GetMostDerivedObject
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostSymbols.GetMostDerivedObject
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

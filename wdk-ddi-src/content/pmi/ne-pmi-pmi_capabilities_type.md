@@ -10,6 +10,7 @@ keywords: ["PMI_CAPABILITIES_TYPE enumeration"]
 ms.keywords: PMI_CAPABILITIES_TYPE, PMI_CAPABILITIES_TYPE enumeration [Power Metering and Budgeting Devices], PmiCapabilitiesMax, PmiMeteredHardware, PmiReportedCapabilities, PowerMeterRef_4b81a5dd-357b-4a02-acc6-3a0538cbeffb.xml, pmi/PMI_CAPABILITIES_TYPE, pmi/PmiCapabilitiesMax, pmi/PmiMeteredHardware, pmi/PmiReportedCapabilities, powermeter.pmi_capabilities_type
 f1_keywords:
  - "pmi/PMI_CAPABILITIES_TYPE"
+ - "PMI_CAPABILITIES_TYPE"
 req.header: pmi.h
 req.include-header: Pmi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pmi.h
 api_name:
 - PMI_CAPABILITIES_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: PMI_CAPABILITIES_TYPE
 ---

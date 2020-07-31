@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMTCreateOutputDupl function"]
 f1_keywords:
  - "d3dkmthk/D3DKMTCreateOutputDupl"
+ - "D3DKMTCreateOutputDupl"
 ms.keywords: D3DKMTCreateOutputDupl
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
@@ -36,8 +37,6 @@ api_location:
 - API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name: 
 - D3DKMTCreateOutputDupl
-product:
-- Windows
 targetos: Windows
 tech.root: display
 ---

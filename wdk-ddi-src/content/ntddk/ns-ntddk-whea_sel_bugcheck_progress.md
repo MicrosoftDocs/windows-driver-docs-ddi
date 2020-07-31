@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["WHEA_SEL_BUGCHECK_PROGRESS structure"]
 f1_keywords:
  - "ntddk/WHEA_SEL_BUGCHECK_PROGRESS"
+ - "WHEA_SEL_BUGCHECK_PROGRESS"
 ms.keywords: WHEA_SEL_BUGCHECK_PROGRESS, WHEA_SEL_BUGCHECK_PROGRESS, *PWHEA_SEL_BUGCHECK_PROGRESS, 
 req.header: ntddk.h
 req.include-header:

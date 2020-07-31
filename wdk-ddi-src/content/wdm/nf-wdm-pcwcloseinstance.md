@@ -10,6 +10,7 @@ keywords: ["PcwCloseInstance function"]
 ms.keywords: PcwCloseInstance, PcwCloseInstance function [Driver Development Tools], devtest.pcwcloseinstance, km_pcw_f30288bf-ff25-46fd-b058-74294fc03278.xml, wdm/PcwCloseInstance
 f1_keywords:
  - "wdm/PcwCloseInstance"
+ - "PcwCloseInstance"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - PcwCloseInstance
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

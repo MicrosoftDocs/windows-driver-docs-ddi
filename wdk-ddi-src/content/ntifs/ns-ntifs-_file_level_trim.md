@@ -10,6 +10,7 @@ keywords: ["_FILE_LEVEL_TRIM structure"]
 ms.keywords: "*PFILE_LEVEL_TRIM, FILE_LEVEL_TRIM, FILE_LEVEL_TRIM structure [Installable File System Drivers], PFILE_LEVEL_TRIM, PFILE_LEVEL_TRIM structure pointer [Installable File System Drivers], _FILE_LEVEL_TRIM, ifsk.file_level_trim, ntifs/FILE_LEVEL_TRIM, ntifs/PFILE_LEVEL_TRIM"
 f1_keywords:
  - "ntifs/FILE_LEVEL_TRIM"
+ - "FILE_LEVEL_TRIM"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - FILE_LEVEL_TRIM
-product:
-- Windows
 targetos: Windows
 req.typenames: FILE_LEVEL_TRIM, *PFILE_LEVEL_TRIM
 ---

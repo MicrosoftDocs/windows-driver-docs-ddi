@@ -10,6 +10,7 @@ keywords: ["IDebugControl2::OutputVersionInformation"]
 ms.keywords: IDebugControl interface [Windows Debugging],OutputVersionInformation method, IDebugControl2 interface [Windows Debugging],OutputVersionInformation method, IDebugControl2.OutputVersionInformation, IDebugControl2::OutputVersionInformation, IDebugControl3 interface [Windows Debugging],OutputVersionInformation method, IDebugControl3::OutputVersionInformation, IDebugControl::OutputVersionInformation, IDebugControl_ea568b24-944d-4ed8-abd6-24b7c7771a1e.xml, OutputVersionInformation, OutputVersionInformation method [Windows Debugging], OutputVersionInformation method [Windows Debugging],IDebugControl interface, OutputVersionInformation method [Windows Debugging],IDebugControl2 interface, OutputVersionInformation method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::OutputVersionInformation, dbgeng/IDebugControl3::OutputVersionInformation, dbgeng/IDebugControl::OutputVersionInformation, debugger.outputversioninformation
 f1_keywords:
  - "dbgeng/IDebugControl.OutputVersionInformation"
+ - "IDebugControl.OutputVersionInformation"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -38,8 +39,6 @@ api_name:
 - IDebugControl.OutputVersionInformation
 - IDebugControl2.OutputVersionInformation
 - IDebugControl3.OutputVersionInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

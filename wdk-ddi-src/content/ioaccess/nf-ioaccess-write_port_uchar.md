@@ -10,6 +10,7 @@ keywords: ["WRITE_PORT_UCHAR function"]
 ms.keywords: WRITE_PORT_UCHAR, WRITE_PORT_UCHAR routine [Kernel-Mode Driver Architecture], k103_1495098b-03fb-4677-ac5a-2a1de9223f8b.xml, kernel.write_port_uchar, wdm/WRITE_PORT_UCHAR
 f1_keywords:
  - "ioaccess/WRITE_PORT_UCHAR"
+ - "WRITE_PORT_UCHAR"
 req.header: ioaccess.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Ioaccess.h, Miniport.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Hal.dll
 api_name:
 - WRITE_PORT_UCHAR
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

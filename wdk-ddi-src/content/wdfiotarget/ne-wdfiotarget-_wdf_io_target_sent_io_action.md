@@ -10,6 +10,7 @@ keywords: ["_WDF_IO_TARGET_SENT_IO_ACTION enumeration"]
 ms.keywords: DFIOTargetRef_f9150c63-6b0b-4050-b4ae-fd5ebbda4e0d.xml, WDF_IO_TARGET_SENT_IO_ACTION, WDF_IO_TARGET_SENT_IO_ACTION enumeration, WdfIoTargetCancelSentIo, WdfIoTargetLeaveSentIoPending, WdfIoTargetSentIoUndefined, WdfIoTargetWaitForSentIoToComplete, _WDF_IO_TARGET_SENT_IO_ACTION, kmdf.wdf_io_target_sent_io_action, wdf.wdf_io_target_sent_io_action, wdfiotarget/WDF_IO_TARGET_SENT_IO_ACTION, wdfiotarget/WdfIoTargetCancelSentIo, wdfiotarget/WdfIoTargetLeaveSentIoPending, wdfiotarget/WdfIoTargetSentIoUndefined, wdfiotarget/WdfIoTargetWaitForSentIoToComplete
 f1_keywords:
  - "wdfiotarget/WDF_IO_TARGET_SENT_IO_ACTION"
+ - "WDF_IO_TARGET_SENT_IO_ACTION"
 req.header: wdfiotarget.h
 req.include-header: Wdf.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wdfiotarget.h
 api_name:
 - WDF_IO_TARGET_SENT_IO_ACTION
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_IO_TARGET_SENT_IO_ACTION
 ---

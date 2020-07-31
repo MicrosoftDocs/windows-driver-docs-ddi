@@ -10,6 +10,7 @@ keywords: ["NtCreateEnlistment function"]
 ms.keywords: NtCreateEnlistment, ZwCreateEnlistment, ZwCreateEnlistment routine [Kernel-Mode Driver Architecture], kernel.zwcreateenlistment, ktm_ref_30b47803-67b7-4a88-9f87-0dbee055f580.xml, wdm/NtCreateEnlistment, wdm/ZwCreateEnlistment
 f1_keywords:
  - "wdm/ZwCreateEnlistment"
+ - "ZwCreateEnlistment"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - ZwCreateEnlistment
 - NtCreateEnlistment
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IPrintOemPS::DisableDriver"]
 ms.keywords: DisableDriver, DisableDriver method [Print Devices], DisableDriver method [Print Devices],IPrintOemPS interface, IPrintOemPS interface [Print Devices],DisableDriver method, IPrintOemPS.DisableDriver, IPrintOemPS::DisableDriver, prcomoem/IPrintOemPS::DisableDriver, print.iprintoemps_disabledriver, print_unidrv-pscript_rendering_f8c7413c-104b-4509-9909-89e97acc0069.xml
 f1_keywords:
  - "prcomoem/IPrintOemPS.DisableDriver"
+ - "IPrintOemPS.DisableDriver"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Prcomoem.h
 api_name:
 - IPrintOemPS.DisableDriver
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

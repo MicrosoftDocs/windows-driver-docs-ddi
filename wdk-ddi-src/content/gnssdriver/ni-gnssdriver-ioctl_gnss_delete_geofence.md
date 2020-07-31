@@ -10,6 +10,7 @@ keywords: ["IOCTL_GNSS_DELETE_GEOFENCE IOCTL"]
 ms.keywords: IOCTL_GNSS_DELETE_GEOFENCE, IOCTL_GNSS_DELETE_GEOFENCE control, IOCTL_GNSS_DELETE_GEOFENCE control code [Sensor Devices], gnss.ioctl_gnss_delete_geofence, gnssdriver/IOCTL_GNSS_DELETE_GEOFENCE
 f1_keywords:
  - "gnssdriver/IOCTL_GNSS_DELETE_GEOFENCE"
+ - "IOCTL_GNSS_DELETE_GEOFENCE"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - gnssdriver.h
 api_name:
 - IOCTL_GNSS_DELETE_GEOFENCE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

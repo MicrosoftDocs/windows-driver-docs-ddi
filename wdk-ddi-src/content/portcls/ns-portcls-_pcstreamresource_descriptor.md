@@ -10,6 +10,7 @@ keywords: ["_PCSTREAMRESOURCE_DESCRIPTOR structure"]
 ms.keywords: "*PPCSTREAMRESOURCE_DESCRIPTOR, PCSTREAMRESOURCE_DESCRIPTOR, PCSTREAMRESOURCE_DESCRIPTOR structure [Audio Devices], PPCSTREAMRESOURCE_DESCRIPTOR, PPCSTREAMRESOURCE_DESCRIPTOR structure pointer [Audio Devices], _PCSTREAMRESOURCE_DESCRIPTOR, audio.pcstreamresource_descriptor, portcls/PCSTREAMRESOURCE_DESCRIPTOR, portcls/PPCSTREAMRESOURCE_DESCRIPTOR"
 f1_keywords:
  - "portcls/PCSTREAMRESOURCE_DESCRIPTOR"
+ - "PCSTREAMRESOURCE_DESCRIPTOR"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Portcls.h
 api_name:
 - PCSTREAMRESOURCE_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: PCSTREAMRESOURCE_DESCRIPTOR, *PPCSTREAMRESOURCE_DESCRIPTOR
 ---

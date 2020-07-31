@@ -10,6 +10,7 @@ keywords: ["WdfIoTargetPurge function"]
 ms.keywords: WdfIoTargetPurge, WdfIoTargetPurge method, kmdf.wdfiotargetpurge, wdf.wdfiotargetpurge, wdfiotarget/WdfIoTargetPurge
 f1_keywords:
  - "wdfiotarget/WdfIoTargetPurge"
+ - "WdfIoTargetPurge"
 req.header: wdfiotarget.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfIoTargetPurge
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

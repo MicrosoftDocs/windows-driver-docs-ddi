@@ -10,6 +10,7 @@ keywords: ["_SM_SendRPL_IN structure"]
 ms.keywords: "*PSM_SendRPL_IN, PSM_SendRPL_IN, PSM_SendRPL_IN structure pointer [Storage Devices], SM_SendRPL_IN, SM_SendRPL_IN structure [Storage Devices], _SM_SendRPL_IN, hbapiwmi/PSM_SendRPL_IN, hbapiwmi/SM_SendRPL_IN, storage.sm_sendrpl_in, structs-Fibre_54275ca2-35b3-43f4-a62d-63c296b14663.xml"
 f1_keywords:
  - "hbapiwmi/SM_SendRPL_IN"
+ - "SM_SendRPL_IN"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - SM_SendRPL_IN
-product:
-- Windows
 targetos: Windows
 req.typenames: SM_SendRPL_IN, *PSM_SendRPL_IN
 ---

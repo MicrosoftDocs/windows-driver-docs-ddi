@@ -10,6 +10,7 @@ keywords: ["TmRequestOutcomeEnlistment function"]
 ms.keywords: TmRequestOutcomeEnlistment, TmRequestOutcomeEnlistment routine [Kernel-Mode Driver Architecture], kernel.tmrequestoutcomeenlistment, ktm_ref_9be6bea7-eae4-4621-8155-f8a06285bb97.xml, wdm/TmRequestOutcomeEnlistment
 f1_keywords:
  - "wdm/TmRequestOutcomeEnlistment"
+ - "TmRequestOutcomeEnlistment"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -38,8 +39,6 @@ api_location:
 - tm.sys
 api_name:
 - TmRequestOutcomeEnlistment
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

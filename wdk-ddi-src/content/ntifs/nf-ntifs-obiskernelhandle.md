@@ -10,6 +10,7 @@ keywords: ["ObIsKernelHandle function"]
 ms.keywords: ObIsKernelHandle, ObIsKernelHandle routine [Installable File System Drivers], ifsk.obiskernelhandle, ntifs/ObIsKernelHandle, obref_e80e117f-6001-4c6d-980c-413e538f3bb2.xml
 f1_keywords:
  - "ntifs/ObIsKernelHandle"
+ - "ObIsKernelHandle"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h, FltKernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - ObIsKernelHandle
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

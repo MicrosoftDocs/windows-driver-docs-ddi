@@ -10,6 +10,7 @@ keywords: ["IDARG_OUT_MONITORCREATE structure"]
 ms.keywords: IDARG_OUT_MONITORCREATE, IDARG_OUT_MONITORCREATE structure [Display Devices], display.idarg_out_monitorcreate, iddcx/IDARG_OUT_MONITORCREATE
 f1_keywords:
  - "iddcx/IDARG_OUT_MONITORCREATE"
+ - "IDARG_OUT_MONITORCREATE"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - iddcx.h
 api_name:
 - IDARG_OUT_MONITORCREATE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

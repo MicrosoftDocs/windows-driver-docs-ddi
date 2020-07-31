@@ -10,6 +10,7 @@ keywords: ["WDF_READ_PORT_USHORT function"]
 ms.keywords: WDF_READ_PORT_USHORT, WDF_READ_PORT_USHORT function, wdf.wdf_read_port_ushort, wdfhwaccess/WDF_READ_PORT_USHORT
 f1_keywords:
  - "wdfhwaccess/WDF_READ_PORT_USHORT"
+ - "WDF_READ_PORT_USHORT"
 req.header: wdfhwaccess.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Wdfhwaccess.h
 api_name:
 - WDF_READ_PORT_USHORT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

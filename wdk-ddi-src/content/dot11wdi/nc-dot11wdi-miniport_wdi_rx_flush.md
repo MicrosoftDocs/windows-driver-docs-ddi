@@ -10,6 +10,7 @@ keywords: ["MINIPORT_WDI_RX_FLUSH callback function"]
 ms.keywords: MINIPORT_WDI_RX_FLUSH, MINIPORT_WDI_RX_FLUSH callback, MiniportWdiRxFlush, MiniportWdiRxFlush callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiRxFlush, netvista.miniportwdirxflush
 f1_keywords:
  - "dot11wdi/MiniportWdiRxFlush"
+ - "MiniportWdiRxFlush"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dot11wdi.h
 api_name:
 - MiniportWdiRxFlush
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

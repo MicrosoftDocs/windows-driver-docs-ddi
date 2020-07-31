@@ -10,6 +10,7 @@ keywords: ["USBD_IsInterfaceVersionSupported function"]
 ms.keywords: USBD_IsInterfaceVersionSupported, USBD_IsInterfaceVersionSupported routine [Buses], buses.usbd_isusbdinterfaceversionsupported, usbdlib/USBD_IsInterfaceVersionSupported
 f1_keywords:
  - "usbdlib/USBD_IsInterfaceVersionSupported"
+ - "USBD_IsInterfaceVersionSupported"
 req.header: usbdlib.h
 req.include-header: 
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Usbdex.dll
 api_name:
 - USBD_IsInterfaceVersionSupported
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

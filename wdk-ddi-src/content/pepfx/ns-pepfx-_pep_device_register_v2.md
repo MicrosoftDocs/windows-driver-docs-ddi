@@ -10,6 +10,7 @@ keywords: ["_PEP_DEVICE_REGISTER_V2 structure"]
 ms.keywords: "*PPEP_DEVICE_REGISTER, *PPEP_DEVICE_REGISTER_V2, PEP_DEVICE_REGISTER, PEP_DEVICE_REGISTER_V2, PEP_DEVICE_REGISTER_V2 structure [Kernel-Mode Driver Architecture], PPEP_DEVICE_REGISTER_V2, PPEP_DEVICE_REGISTER_V2 structure pointer [Kernel-Mode Driver Architecture], _PEP_DEVICE_REGISTER_V2, kernel.pep_device_register_v2, pepfx/PEP_DEVICE_REGISTER_V2, pepfx/PPEP_DEVICE_REGISTER_V2"
 f1_keywords:
  - "pepfx/PEP_DEVICE_REGISTER_V2"
+ - "PEP_DEVICE_REGISTER_V2"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - pepfx.h
 api_name:
 - PEP_DEVICE_REGISTER_V2
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_DEVICE_REGISTER_V2, *PPEP_DEVICE_REGISTER_V2
 ---

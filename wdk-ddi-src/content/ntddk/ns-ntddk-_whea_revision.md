@@ -10,6 +10,7 @@ keywords: ["_WHEA_REVISION structure"]
 ms.keywords: "*PWHEA_REVISION, PWHEA_REVISION, PWHEA_REVISION union pointer [WHEA Drivers and Applications], WHEA_REVISION, WHEA_REVISION union [WHEA Drivers and Applications], _WHEA_REVISION, ntddk/PWHEA_REVISION, ntddk/WHEA_REVISION, whea.whea_revision, whearef_0572aecb-765a-4118-8df0-7b34922e79d9.xml"
 f1_keywords:
  - "ntddk/WHEA_REVISION"
+ - "WHEA_REVISION"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - WHEA_REVISION
-product:
-- Windows
 targetos: Windows
 req.typenames: WHEA_REVISION, *PWHEA_REVISION
 ---

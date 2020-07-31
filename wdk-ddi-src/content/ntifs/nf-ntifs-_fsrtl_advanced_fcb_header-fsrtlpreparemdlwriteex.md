@@ -10,6 +10,7 @@ keywords: ["FsRtlPrepareMdlWriteEx function"]
 ms.keywords: FsRtlPrepareMdlWriteEx, FsRtlPrepareMdlWriteEx routine [Installable File System Drivers], ifsk.fsrtlpreparemdlwriteex, ntifs/FsRtlPrepareMdlWriteEx
 f1_keywords:
  - "ntifs/FsRtlPrepareMdlWriteEx"
+ - "FsRtlPrepareMdlWriteEx"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlPrepareMdlWriteEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 dev_langs:

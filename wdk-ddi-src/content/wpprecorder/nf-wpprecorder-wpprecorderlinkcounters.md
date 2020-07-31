@@ -10,6 +10,7 @@ keywords: ["WppRecorderLinkCounters macro"]
 ms.keywords: WppRecorderLinkCounters, devtest.wpprecorderlinkcounters, imp_WppRecorderLinkCounters, imp_WppRecorderLinkCounters function [Driver Development Tools], wpprecorder/imp_WppRecorderLinkCounters
 f1_keywords:
  - "wpprecorder/imp_WppRecorderLinkCounters"
+ - "imp_WppRecorderLinkCounters"
 req.header: wpprecorder.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wpprecorder.h
 api_name:
 - imp_WppRecorderLinkCounters
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

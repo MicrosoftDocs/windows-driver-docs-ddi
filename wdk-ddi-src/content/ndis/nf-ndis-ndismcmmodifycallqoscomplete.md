@@ -10,6 +10,7 @@ keywords: ["NdisMCmModifyCallQoSComplete macro"]
 ms.keywords: NdisMCmModifyCallQoSComplete, NdisMCmModifyCallQoSComplete macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_4b742f65-7e96-4e8b-aa3d-64f9c90aa4be.xml, ndis/NdisMCmModifyCallQoSComplete, netvista.ndismcmmodifycallqoscomplete
 f1_keywords:
  - "ndis/NdisMCmModifyCallQoSComplete"
+ - "NdisMCmModifyCallQoSComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NdisMCmModifyCallQoSComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["PoFxCompleteIdleCondition function"]
 ms.keywords: PoFxCompleteIdleCondition, PoFxCompleteIdleCondition routine [Kernel-Mode Driver Architecture], kernel.pofxcompleteidlecondition, wdm/PoFxCompleteIdleCondition
 f1_keywords:
  - "wdm/PoFxCompleteIdleCondition"
+ - "PoFxCompleteIdleCondition"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Ntoskrnl.exe
 api_name:
 - PoFxCompleteIdleCondition
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

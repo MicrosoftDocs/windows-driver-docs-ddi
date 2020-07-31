@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_GETPRESENTHISTORY structure"]
 ms.keywords: D3DKMT_GETPRESENTHISTORY, D3DKMT_GETPRESENTHISTORY structure [Display Devices], OpenGL_Structs_966946a8-3611-4c25-a57f-1fc99c2004d0.xml, _D3DKMT_GETPRESENTHISTORY, d3dkmthk/D3DKMT_GETPRESENTHISTORY, display.d3dkmt_getpresenthistory
 f1_keywords:
  - "d3dkmthk/D3DKMT_GETPRESENTHISTORY"
+ - "D3DKMT_GETPRESENTHISTORY"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMT_GETPRESENTHISTORY
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_GETPRESENTHISTORY

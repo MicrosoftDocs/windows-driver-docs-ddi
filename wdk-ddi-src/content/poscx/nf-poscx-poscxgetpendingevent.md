@@ -10,6 +10,7 @@ keywords: ["PosCxGetPendingEvent function"]
 ms.keywords: PosCxGetPendingEvent, PosCxGetPendingEvent function, pos.poscxgetpendingevent, poscx/PosCxGetPendingEvent
 f1_keywords:
  - "poscx/PosCxGetPendingEvent"
+ - "PosCxGetPendingEvent"
 req.header: poscx.h
 req.include-header: Poscx.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - poscx.h
 api_name:
 - PosCxGetPendingEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 req.product: Windows 10 or later.

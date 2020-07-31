@@ -10,6 +10,7 @@ keywords: ["RIL_GetMsgServiceOptions function"]
 ms.keywords: RIL_GetMsgServiceOptions, RIL_GetMsgServiceOptions method [Network Drivers Starting with Windows Vista], netvista.ril_getmsgserviceoptions, rilapi/RIL_GetMsgServiceOptions
 f1_keywords:
  - "rilapi/RIL_GetMsgServiceOptions"
+ - "RIL_GetMsgServiceOptions"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_GetMsgServiceOptions
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

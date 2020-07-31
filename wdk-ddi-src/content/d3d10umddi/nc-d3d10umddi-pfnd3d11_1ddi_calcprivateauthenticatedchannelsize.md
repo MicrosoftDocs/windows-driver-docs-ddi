@@ -9,6 +9,7 @@ keywords: ["PFND3D11_1DDI_CALCPRIVATEAUTHENTICATEDCHANNELSIZE callback function"
 ms.keywords: CalcPrivateAuthenticatedChannelSize, CalcPrivateAuthenticatedChannelSize callback function [Display Devices], PFND3D11_1DDI_CALCPRIVATEAUTHENTICATEDCHANNELSIZE, PFND3D11_1DDI_CALCPRIVATEAUTHENTICATEDCHANNELSIZE callback, d3d10umddi/CalcPrivateAuthenticatedChannelSize, display.calcprivateauthenticatedchannelsize
 f1_keywords:
  - "d3d10umddi/CalcPrivateAuthenticatedChannelSize"
+ - "CalcPrivateAuthenticatedChannelSize"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -35,8 +36,6 @@ api_location:
 - D3d10umddi.h
 api_name:
 - CalcPrivateAuthenticatedChannelSize
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

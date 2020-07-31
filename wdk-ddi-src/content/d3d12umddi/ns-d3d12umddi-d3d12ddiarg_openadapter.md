@@ -9,6 +9,7 @@ keywords: ["D3D12DDIARG_OPENADAPTER structure"]
 ms.keywords: D3D12DDIARG_OPENADAPTER, D3D12DDIARG_OPENADAPTER structure [Display Devices], d3d12umddi/D3D12DDIARG_OPENADAPTER, display.d3d12ddiarg_openadapter
 f1_keywords:
  - "d3d12umddi/D3D12DDIARG_OPENADAPTER"
+ - "D3D12DDIARG_OPENADAPTER"
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3d12umddi.h
 api_name:
 - D3D12DDIARG_OPENADAPTER
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D12DDIARG_OPENADAPTER

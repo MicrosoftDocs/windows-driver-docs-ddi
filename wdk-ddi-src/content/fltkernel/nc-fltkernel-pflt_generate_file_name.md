@@ -10,6 +10,7 @@ keywords: ["PFLT_GENERATE_FILE_NAME callback function"]
 ms.keywords: FltCallbacks_0075602c-1093-445c-a949-ea282cf736e7.xml, GenerateFileNameCallback, GenerateFileNameCallback routine [Installable File System Drivers], PFLT_GENERATE_FILE_NAME, fltkernel/GenerateFileNameCallback, ifsk.pflt_generate_file_name
 f1_keywords:
  - "fltkernel/GenerateFileNameCallback"
+ - "GenerateFileNameCallback"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - fltkernel.h
 api_name:
 - GenerateFileNameCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

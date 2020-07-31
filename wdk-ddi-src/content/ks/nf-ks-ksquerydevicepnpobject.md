@@ -10,6 +10,7 @@ keywords: ["KsQueryDevicePnpObject function"]
 ms.keywords: KsQueryDevicePnpObject, KsQueryDevicePnpObject function [Streaming Media Devices], ks/KsQueryDevicePnpObject, ksfunc_dd821abc-bd3b-45e9-a1de-1f9fd201db8e.xml, stream.ksquerydevicepnpobject
 f1_keywords:
  - "ks/KsQueryDevicePnpObject"
+ - "KsQueryDevicePnpObject"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsQueryDevicePnpObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

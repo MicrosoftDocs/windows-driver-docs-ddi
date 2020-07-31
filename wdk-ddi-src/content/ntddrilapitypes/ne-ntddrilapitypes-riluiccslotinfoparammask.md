@@ -10,6 +10,7 @@ keywords: ["RILUICCSLOTINFOPARAMMASK enumeration"]
 ms.keywords: RILUICCSLOTINFOPARAMMASK, RILUICCSLOTINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_SLOTINFO_ALL, RIL_PARAM_SLOTINFO_SLOTSTATE, netvista.riluiccslotinfoparammask, ntddrilapitypes/RILUICCSLOTINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_SLOTINFO_ALL, ntddrilapitypes/RIL_PARAM_SLOTINFO_SLOTSTATE
 f1_keywords:
  - "ntddrilapitypes/RILUICCSLOTINFOPARAMMASK"
+ - "RILUICCSLOTINFOPARAMMASK"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILUICCSLOTINFOPARAMMASK
-product:
-- Windows
 targetos: Windows
 req.typenames: RILUICCSLOTINFOPARAMMASK
 ---

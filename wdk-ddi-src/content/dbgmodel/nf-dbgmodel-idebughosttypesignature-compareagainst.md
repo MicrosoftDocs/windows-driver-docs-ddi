@@ -7,6 +7,7 @@ ms.date: 09/10/2018
 keywords: ["IDebugHostTypeSignature::CompareAgainst"]
 f1_keywords:
  - "dbgmodel/IDebugHostTypeSignature.CompareAgainst"
+ - "IDebugHostTypeSignature.CompareAgainst"
 ms.keywords: IDebugHostTypeSignature::CompareAgainst, CompareAgainst, IDebugHostTypeSignature.CompareAgainst, IDebugHostTypeSignature::CompareAgainst, IDebugHostTypeSignature.CompareAgainst
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostTypeSignature.CompareAgainst
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

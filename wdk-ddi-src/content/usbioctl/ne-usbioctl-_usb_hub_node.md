@@ -10,6 +10,7 @@ keywords: ["_USB_HUB_NODE enumeration"]
 ms.keywords: USB_HUB_NODE, USB_HUB_NODE enumeration [Buses], UsbHub, UsbMIParent, _USB_HUB_NODE, buses.usb_hub_node, usbioctl/USB_HUB_NODE, usbioctl/UsbHub, usbioctl/UsbMIParent, usbstrct_9dadc1ba-6775-48d3-8ebf-fa42ad6992bf.xml
 f1_keywords:
  - "usbioctl/USB_HUB_NODE"
+ - "USB_HUB_NODE"
 req.header: usbioctl.h
 req.include-header: Usbioctl.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - usbioctl.h
 api_name:
 - USB_HUB_NODE
-product:
-- Windows
 targetos: Windows
 req.typenames: USB_HUB_NODE
 ---

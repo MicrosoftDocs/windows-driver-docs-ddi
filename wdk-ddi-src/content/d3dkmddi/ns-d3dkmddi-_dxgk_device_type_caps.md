@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_DXGK_DEVICE_TYPE_CAPS structure"]
 f1_keywords:
  - "d3dkmddi/_DXGK_DEVICE_TYPE_CAPS"
+ - "_DXGK_DEVICE_TYPE_CAPS"
 ms.keywords: _DXGK_DEVICE_TYPE_CAPS, DXGK_DEVICE_TYPE_CAPS, 
 req.header: d3dkmddi.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - d3dkmddi.h
 api_name: 
 - _DXGK_DEVICE_TYPE_CAPS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

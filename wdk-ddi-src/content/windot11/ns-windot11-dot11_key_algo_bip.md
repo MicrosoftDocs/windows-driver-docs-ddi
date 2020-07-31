@@ -10,6 +10,7 @@ keywords: ["DOT11_KEY_ALGO_BIP structure"]
 ms.keywords: "*PDOT11_KEY_ALGO_BIP, DOT11_KEY_ALGO_BIP, DOT11_KEY_ALGO_BIP structure [Network Drivers Starting with Windows Vista], PDOT11_KEY_ALGO_BIP, PDOT11_KEY_ALGO_BIP structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_key_algo_bip, windot11/DOT11_KEY_ALGO_BIP, windot11/PDOT11_KEY_ALGO_BIP"
 f1_keywords:
  - "windot11/DOT11_KEY_ALGO_BIP"
+ - "DOT11_KEY_ALGO_BIP"
 req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows

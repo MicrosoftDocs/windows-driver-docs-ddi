@@ -10,6 +10,7 @@ keywords: ["_MPIO_EventEntry structure"]
 ms.keywords: "*PMPIO_EventEntry, MPIO_EventEntry, MPIO_EventEntry structure [Storage Devices], PMPIO_EventEntry, PMPIO_EventEntry structure pointer [Storage Devices], _MPIO_EventEntry, mpiowmi/MPIO_EventEntry, mpiowmi/PMPIO_EventEntry, storage.mpio_evententry, structs-scsibus_93008bb2-e885-4f2f-b46a-7393794a9e6e.xml"
 f1_keywords:
  - "mpiowmi/MPIO_EventEntry"
+ - "MPIO_EventEntry"
 req.header: mpiowmi.h
 req.include-header: Mpiowmi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - mpiowmi.h
 api_name:
 - MPIO_EventEntry
-product:
-- Windows
 targetos: Windows
 req.typenames: MPIO_EventEntry, *PMPIO_EventEntry
 ---

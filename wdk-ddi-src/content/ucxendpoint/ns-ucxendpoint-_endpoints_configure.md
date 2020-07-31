@@ -10,6 +10,7 @@ keywords: ["_ENDPOINTS_CONFIGURE structure"]
 ms.keywords: "*PENDPOINTS_CONFIGURE, ENDPOINTS_CONFIGURE, ENDPOINTS_CONFIGURE structure [Buses], P_ENDPOINTS_CONFIGURE, P_ENDPOINTS_CONFIGURE structure pointer [Buses], _ENDPOINTS_CONFIGURE, buses._endpoints_configure, ucxendpoint/P_ENDPOINTS_CONFIGURE, ucxendpoint/_ENDPOINTS_CONFIGURE"
 f1_keywords:
  - "ucxendpoint/ENDPOINTS_CONFIGURE"
+ - "ENDPOINTS_CONFIGURE"
 req.header: ucxendpoint.h
 req.include-header: Ucxclass.h, Ucxendpoint.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ucxendpoint.h
 api_name:
 - ENDPOINTS_CONFIGURE
-product:
-- Windows
 targetos: Windows
 req.typenames: ENDPOINTS_CONFIGURE, *PENDPOINTS_CONFIGURE
 ---

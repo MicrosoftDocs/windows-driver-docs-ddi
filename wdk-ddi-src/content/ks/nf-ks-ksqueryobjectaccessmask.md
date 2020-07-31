@@ -10,6 +10,7 @@ keywords: ["KsQueryObjectAccessMask function"]
 ms.keywords: KsQueryObjectAccessMask, KsQueryObjectAccessMask function [Streaming Media Devices], ks/KsQueryObjectAccessMask, ksfunc_f79d4971-874e-4efd-ab73-d88cdd573991.xml, stream.ksqueryobjectaccessmask
 f1_keywords:
  - "ks/KsQueryObjectAccessMask"
+ - "KsQueryObjectAccessMask"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsQueryObjectAccessMask
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

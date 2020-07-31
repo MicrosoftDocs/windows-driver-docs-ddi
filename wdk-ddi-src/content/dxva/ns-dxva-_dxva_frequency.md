@@ -10,6 +10,7 @@ keywords: ["_DXVA_Frequency structure"]
 ms.keywords: DXVA_Frequency, DXVA_Frequency structure [Display Devices], _DXVA_Frequency, display.dxva_frequency, dxva/DXVA_Frequency, dxvaref_a36a3edd-8f65-4d6d-85d0-360e0f03e978.xml
 f1_keywords:
  - "dxva/DXVA_Frequency"
+ - "DXVA_Frequency"
 req.header: dxva.h
 req.include-header: Dxva.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dxva.h
 api_name:
 - DXVA_Frequency
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVA_Frequency
 ---

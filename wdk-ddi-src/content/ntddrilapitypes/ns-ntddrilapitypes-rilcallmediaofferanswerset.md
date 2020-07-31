@@ -10,6 +10,7 @@ keywords: ["RILCALLMEDIAOFFERANSWERSET structure"]
 ms.keywords: "*LPRILCALLMEDIAOFFERANSWERSET, RILCALLMEDIAOFFERANSWERSET, RILCALLMEDIAOFFERANSWERSET structure [Network Drivers Starting with Windows Vista], netvista.rilcallmediaofferanswerset, ntddrilapitypes/RILCALLMEDIAOFFERANSWERSET"
 f1_keywords:
  - "ntddrilapitypes/RILCALLMEDIAOFFERANSWERSET"
+ - "RILCALLMEDIAOFFERANSWERSET"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILCALLMEDIAOFFERANSWERSET
-product:
-- Windows
 targetos: Windows
 req.typenames: RILCALLMEDIAOFFERANSWERSET, *LPRILCALLMEDIAOFFERANSWERSET
 ---

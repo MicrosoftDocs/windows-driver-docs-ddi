@@ -10,6 +10,7 @@ keywords: ["PCMCIA_MODIFY_MEMORY_WINDOW callback function"]
 ms.keywords: ModifyMemoryWindow, ModifyMemoryWindow callback function [Buses], PCMCIA.pcmcia_modify_memory_window, PCMCIA_MODIFY_MEMORY_WINDOW, PCMCIA_MODIFY_MEMORY_WINDOW callback, memcdref_fdb376f2-4f80-4a35-ab23-f007bdc05cad.xml, ntddpcm/ModifyMemoryWindow
 f1_keywords:
  - "ntddpcm/ModifyMemoryWindow"
+ - "ModifyMemoryWindow"
 req.header: ntddpcm.h
 req.include-header: Ntddpcm.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ntddpcm.h
 api_name:
 - ModifyMemoryWindow
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["SerCxCompleteWait function"]
 ms.keywords: 1/SerCxCompleteWait, SerCxCompleteWait, SerCxCompleteWait method [Serial Ports], serports.sercxcompletewait
 f1_keywords:
  - "sercx/SerCxCompleteWait"
+ - "SerCxCompleteWait"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - 1.0\Sercx.h
 api_name:
 - SerCxCompleteWait
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

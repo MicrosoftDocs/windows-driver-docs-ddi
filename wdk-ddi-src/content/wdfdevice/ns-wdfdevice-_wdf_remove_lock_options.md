@@ -10,6 +10,7 @@ keywords: ["_WDF_REMOVE_LOCK_OPTIONS structure"]
 ms.keywords: "*PWDF_REMOVE_LOCK_OPTIONS, PWDF_REMOVE_LOCK_OPTIONS, PWDF_REMOVE_LOCK_OPTIONS structure pointer, WDF_REMOVE_LOCK_OPTIONS, WDF_REMOVE_LOCK_OPTIONS structure, _WDF_REMOVE_LOCK_OPTIONS, kmdf.wdf_remove_lock_options, wdf.wdf_remove_lock_options, wdfdevice/PWDF_REMOVE_LOCK_OPTIONS, wdfdevice/WDF_REMOVE_LOCK_OPTIONS"
 f1_keywords:
  - "wdfdevice/WDF_REMOVE_LOCK_OPTIONS"
+ - "WDF_REMOVE_LOCK_OPTIONS"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wdfdevice.h
 api_name:
 - WDF_REMOVE_LOCK_OPTIONS
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_REMOVE_LOCK_OPTIONS, *PWDF_REMOVE_LOCK_OPTIONS
 ---

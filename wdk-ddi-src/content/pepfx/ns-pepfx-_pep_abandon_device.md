@@ -10,6 +10,7 @@ keywords: ["_PEP_ABANDON_DEVICE structure"]
 ms.keywords: "*PPEP_ABANDON_DEVICE, PEP_ABANDON_DEVICE, PEP_ABANDON_DEVICE structure [Kernel-Mode Driver Architecture], PPEP_ABANDON_DEVICE, PPEP_ABANDON_DEVICE structure pointer [Kernel-Mode Driver Architecture], _PEP_ABANDON_DEVICE, kernel.pep_abandon_device, pepfx/PEP_ABANDON_DEVICE, pepfx/PPEP_ABANDON_DEVICE"
 f1_keywords:
  - "pepfx/PEP_ABANDON_DEVICE"
+ - "PEP_ABANDON_DEVICE"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - PEP_ABANDON_DEVICE
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_ABANDON_DEVICE, *PPEP_ABANDON_DEVICE
 ---

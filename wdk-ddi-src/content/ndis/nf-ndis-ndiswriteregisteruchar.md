@@ -10,6 +10,7 @@ keywords: ["NdisWriteRegisterUchar macro"]
 ms.keywords: NdisWriteRegisterUchar, NdisWriteRegisterUchar macro [Network Drivers Starting with Windows Vista], miniport_register_ref_60f684ba-a2ca-4fa8-8a80-9e805fb5c453.xml, ndis/NdisWriteRegisterUchar, netvista.ndiswriteregisteruchar
 f1_keywords:
  - "ndis/NdisWriteRegisterUchar"
+ - "NdisWriteRegisterUchar"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NdisWriteRegisterUchar
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

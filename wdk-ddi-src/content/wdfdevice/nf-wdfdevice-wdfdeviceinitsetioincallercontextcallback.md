@@ -10,6 +10,7 @@ keywords: ["WdfDeviceInitSetIoInCallerContextCallback function"]
 ms.keywords: DFDeviceObjectGeneralRef_6ef62fc4-094a-4fe7-8ecb-7205566aef77.xml, WdfDeviceInitSetIoInCallerContextCallback, WdfDeviceInitSetIoInCallerContextCallback method, kmdf.wdfdeviceinitsetioincallercontextcallback, wdf.wdfdeviceinitsetioincallercontextcallback, wdfdevice/WdfDeviceInitSetIoInCallerContextCallback
 f1_keywords:
  - "wdfdevice/WdfDeviceInitSetIoInCallerContextCallback"
+ - "WdfDeviceInitSetIoInCallerContextCallback"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfDeviceInitSetIoInCallerContextCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

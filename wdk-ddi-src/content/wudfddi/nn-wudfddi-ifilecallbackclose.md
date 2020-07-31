@@ -10,6 +10,7 @@ keywords: ["IFileCallbackClose interface"]
 ms.keywords: IFileCallbackClose, IFileCallbackClose interface, IFileCallbackClose interface,described, UMDFFileObjectRef_52a9bb2c-0bf7-49db-80f0-7df5f4f131f6.xml, umdf.ifilecallbackclose, wdf.ifilecallbackclose, wudfddi/IFileCallbackClose
 f1_keywords:
  - "wudfddi/IFileCallbackClose"
+ - "IFileCallbackClose"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wudfddi.h
 api_name:
 - IFileCallbackClose
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -57,7 +56,7 @@ A driver registers the <b>IFileCallbackClose</b> interface when it calls the <a 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFileCallbackClose</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFileCallbackClose</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFileCallbackClose</b> interface inherits from the <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFileCallbackClose</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

@@ -10,6 +10,7 @@ keywords: ["IOCTL_AACS_GENERATE_BINDING_NONCE IOCTL"]
 ms.keywords: IOCTL_AACS_GENERATE_BINDING_NONCE, IOCTL_AACS_GENERATE_BINDING_NONCE control, IOCTL_AACS_GENERATE_BINDING_NONCE control code [Storage Devices], k307_ff2a829d-24b6-4d74-92e4-18c342689db7.xml, ntddcdvd/IOCTL_AACS_GENERATE_BINDING_NONCE, storage.ioctl_aacs_generate_binding_nonce
 f1_keywords:
  - "ntddcdvd/IOCTL_AACS_GENERATE_BINDING_NONCE"
+ - "IOCTL_AACS_GENERATE_BINDING_NONCE"
 req.header: ntddcdvd.h
 req.include-header: Ntddcdvd.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddcdvd.h
 api_name:
 - IOCTL_AACS_GENERATE_BINDING_NONCE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["RILMSGBCGENERAL structure"]
 ms.keywords: "*LPRILMSGBCGENERAL, RILMSGBCGENERAL, RILMSGBCGENERAL structure [Network Drivers Starting with Windows Vista], netvista.rilmsgbcgeneral, ntddrilapitypes/RILMSGBCGENERAL"
 f1_keywords:
  - "rilapitypes/RILMSGBCGENERAL"
+ - "RILMSGBCGENERAL"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILMSGBCGENERAL
-product:
-- Windows
 targetos: Windows
 req.typenames: RILMSGBCGENERAL, *LPRILMSGBCGENERAL
 ---

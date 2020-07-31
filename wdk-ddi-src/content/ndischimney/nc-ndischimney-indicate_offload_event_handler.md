@@ -10,6 +10,7 @@ keywords: ["INDICATE_OFFLOAD_EVENT_HANDLER callback function"]
 ms.keywords: INDICATE_OFFLOAD_EVENT_HANDLER, INDICATE_OFFLOAD_EVENT_HANDLER callback, ProtocolIndicateOffloadEvent, ProtocolIndicateOffloadEvent callback function [Network Drivers Starting with Windows Vista], ndischimney/ProtocolIndicateOffloadEvent, netvista.protocolindicateoffloadevent, tcp_chim_protocol_func_cc94798f-b74a-45d5-b78f-383698003486.xml
 f1_keywords:
  - "ndischimney/ProtocolIndicateOffloadEvent"
+ - "ProtocolIndicateOffloadEvent"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ndischimney.h
 api_name:
 - ProtocolIndicateOffloadEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

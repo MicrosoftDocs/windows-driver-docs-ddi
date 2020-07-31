@@ -10,6 +10,7 @@ keywords: ["VideoPortGetVersion function"]
 ms.keywords: VideoPortGetVersion, VideoPortGetVersion function [Display Devices], VideoPort_Functions_b616e0f2-430a-43ca-a43f-44cdcaec757f.xml, display.videoportgetversion, video/VideoPortGetVersion
 f1_keywords:
  - "video/VideoPortGetVersion"
+ - "VideoPortGetVersion"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Videoprt.sys
 api_name:
 - VideoPortGetVersion
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

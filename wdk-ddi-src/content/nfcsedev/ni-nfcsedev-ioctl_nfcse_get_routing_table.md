@@ -10,6 +10,7 @@ keywords: ["IOCTL_NFCSE_GET_ROUTING_TABLE IOCTL"]
 ms.keywords: IOCTL_NFCSE_GET_ROUTING_TABLE, IOCTL_NFCSE_GET_ROUTING_TABLE control, IOCTL_NFCSE_GET_ROUTING_TABLE control code [Near-Field Proximity Drivers], nfcsedev/IOCTL_NFCSE_GET_ROUTING_TABLE, nfpdrivers.ioctl_nfcse_get_routing_table
 f1_keywords:
  - "nfcsedev/IOCTL_NFCSE_GET_ROUTING_TABLE"
+ - "IOCTL_NFCSE_GET_ROUTING_TABLE"
 req.header: nfcsedev.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - nfcsedev.h
 api_name:
 - IOCTL_NFCSE_GET_ROUTING_TABLE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

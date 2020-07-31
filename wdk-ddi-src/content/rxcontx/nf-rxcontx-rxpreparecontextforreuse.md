@@ -10,6 +10,7 @@ keywords: ["RxPrepareContextForReuse function"]
 ms.keywords: RxPrepareContextForReuse, RxPrepareContextForReuse function [Installable File System Drivers], ifsk.rxpreparecontextforreuse, rxcontx/RxPrepareContextForReuse, rxref_34eae0cd-faff-47e7-8313-aca1361edc68.xml
 f1_keywords:
  - "rxcontx/RxPrepareContextForReuse"
+ - "RxPrepareContextForReuse"
 req.header: rxcontx.h
 req.include-header: Rxprocs.h  rxcontx.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - rxcontx.h
 api_name:
 - RxPrepareContextForReuse
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

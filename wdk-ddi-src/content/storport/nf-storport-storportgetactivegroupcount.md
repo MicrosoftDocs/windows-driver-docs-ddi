@@ -10,6 +10,7 @@ keywords: ["StorPortGetActiveGroupCount function"]
 ms.keywords: StorPortGetActiveGroupCount, StorPortGetActiveGroupCount routine [Storage Devices], storage.storportgetactivegroupcount, storport/StorPortGetActiveGroupCount, storprt_d26e001f-a43e-4d7e-9278-9ba48a74574a.xml
 f1_keywords:
  - "storport/StorPortGetActiveGroupCount"
+ - "StorPortGetActiveGroupCount"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - storport.h
 api_name:
 - StorPortGetActiveGroupCount
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

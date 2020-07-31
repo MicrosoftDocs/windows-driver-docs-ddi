@@ -10,6 +10,7 @@ keywords: ["IPrintSchemaTicket::CommitAsync"]
 ms.keywords: CommitAsync, CommitAsync method [Print Devices], CommitAsync method [Print Devices],IPrintSchemaTicket interface, IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices],CommitAsync method, IPrintSchemaTicket.CommitAsync, IPrintSchemaTicket::CommitAsync, print.iprintschematicket_commitasync, printerextension/IPrintSchemaTicket::CommitAsync
 f1_keywords:
  - "printerextension/IPrintSchemaTicket.CommitAsync"
+ - "IPrintSchemaTicket.CommitAsync"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - printerextension.h
 api_name:
 - IPrintSchemaTicket.CommitAsync
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

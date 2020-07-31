@@ -10,6 +10,7 @@ keywords: ["IDebugSystemObjects3::GetEventProcess"]
 ms.keywords: GetEventProcess, GetEventProcess method [Windows Debugging], GetEventProcess method [Windows Debugging],IDebugSystemObjects interface, GetEventProcess method [Windows Debugging],IDebugSystemObjects2 interface, GetEventProcess method [Windows Debugging],IDebugSystemObjects3 interface, GetEventProcess method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects interface [Windows Debugging],GetEventProcess method, IDebugSystemObjects2 interface [Windows Debugging],GetEventProcess method, IDebugSystemObjects2::GetEventProcess, IDebugSystemObjects3 interface [Windows Debugging],GetEventProcess method, IDebugSystemObjects3.GetEventProcess, IDebugSystemObjects3::GetEventProcess, IDebugSystemObjects4 interface [Windows Debugging],GetEventProcess method, IDebugSystemObjects4::GetEventProcess, IDebugSystemObjects::GetEventProcess, IDebugSystemObjects_04f445d4-e407-4e0c-bd1b-9570ed4f0433.xml, dbgeng/IDebugSystemObjects2::GetEventProcess, dbgeng/IDebugSystemObjects3::GetEventProcess, dbgeng/IDebugSystemObjects4::GetEventProcess, dbgeng/IDebugSystemObjects::GetEventProcess, debugger.geteventprocess
 f1_keywords:
  - "dbgeng/IDebugSystemObjects.GetEventProcess"
+ - "IDebugSystemObjects.GetEventProcess"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -39,8 +40,6 @@ api_name:
 - IDebugSystemObjects2.GetEventProcess
 - IDebugSystemObjects3.GetEventProcess
 - IDebugSystemObjects4.GetEventProcess
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

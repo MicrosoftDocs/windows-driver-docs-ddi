@@ -10,6 +10,7 @@ keywords: ["_PARENT_HUB_FLAGS structure"]
 ms.keywords: "*PPARENT_HUB_FLAGS, PARENT_HUB_FLAGS, PARENT_HUB_FLAGS union [Buses], _PARENT_HUB_FLAGS, buses._parent_hub_flags, ucxroothub/_PARENT_HUB_FLAGS"
 f1_keywords:
  - "ucxroothub/PARENT_HUB_FLAGS"
+ - "PARENT_HUB_FLAGS"
 req.header: ucxroothub.h
 req.include-header: Ucxclass.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ucxroothub.h
 api_name:
 - PARENT_HUB_FLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: PARENT_HUB_FLAGS, *PPARENT_HUB_FLAGS
 ---

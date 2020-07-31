@@ -10,6 +10,7 @@ keywords: ["ExtRemoteTyped::Copy"]
 ms.keywords: Copy, Copy method [Windows Debugging], Copy method [Windows Debugging],ExtRemoteTyped class, ExtRemoteTyped class [Windows Debugging],Copy method, ExtRemoteTyped.Copy, ExtRemoteTyped.Copy(const DEBUG_TYPED_DATA*), ExtRemoteTyped::Copy, debugger.extremotetyped_copy_debug_typed_data
 f1_keywords:
  - "engextcpp/ExtRemoteTyped.Copy"
+ - "ExtRemoteTyped.Copy"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - engextcpp.hpp
 api_name:
 - ExtRemoteTyped.Copy
-product:
-- Windows
 targetos: Windows
 req.typenames:
 ---

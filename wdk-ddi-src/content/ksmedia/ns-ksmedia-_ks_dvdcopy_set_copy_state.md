@@ -10,6 +10,7 @@ keywords: ["_KS_DVDCOPY_SET_COPY_STATE structure"]
 ms.keywords: "*PKS_DVDCOPY_SET_COPY_STATE, KS_DVDCOPY_SET_COPY_STATE, KS_DVDCOPY_SET_COPY_STATE structure [Streaming Media Devices], PKS_DVDCOPY_SET_COPY_STATE, PKS_DVDCOPY_SET_COPY_STATE structure pointer [Streaming Media Devices], _KS_DVDCOPY_SET_COPY_STATE, dvdref_215efe26-9ca5-4f3b-836f-86a682cd88f8.xml, ksmedia/KS_DVDCOPY_SET_COPY_STATE, ksmedia/PKS_DVDCOPY_SET_COPY_STATE, stream.ks_dvdcopy_set_copy_state"
 f1_keywords:
  - "ksmedia/KS_DVDCOPY_SET_COPY_STATE"
+ - "KS_DVDCOPY_SET_COPY_STATE"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KS_DVDCOPY_SET_COPY_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: KS_DVDCOPY_SET_COPY_STATE, *PKS_DVDCOPY_SET_COPY_STATE
 ---

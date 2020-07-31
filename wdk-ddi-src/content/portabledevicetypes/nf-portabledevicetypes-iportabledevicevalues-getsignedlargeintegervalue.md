@@ -10,6 +10,7 @@ keywords: ["IPortableDeviceValues::GetSignedLargeIntegerValue"]
 ms.keywords: GetSignedLargeIntegerValue, GetSignedLargeIntegerValue method, GetSignedLargeIntegerValue method,IPortableDeviceValues interface, IPortableDeviceValues interface,GetSignedLargeIntegerValue method, IPortableDeviceValues.GetSignedLargeIntegerValue, IPortableDeviceValues::GetSignedLargeIntegerValue, IPortableDeviceValuesGetSignedLargeIntegerValue, portabledevicetypes/IPortableDeviceValues::GetSignedLargeIntegerValue, wpddk.iportabledevicevalues_getsignedlargeintegervalue
 f1_keywords:
  - "portabledevicetypes/IPortableDeviceValues.GetSignedLargeIntegerValue"
+ - "IPortableDeviceValues.GetSignedLargeIntegerValue"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - PortableDeviceTypes.h
 api_name:
 - IPortableDeviceValues.GetSignedLargeIntegerValue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

@@ -10,6 +10,7 @@ keywords: ["_CMP_DISCONNECT structure"]
 ms.keywords: "*PCMP_DISCONNECT, 61883/CMP_DISCONNECT, 61883/PCMP_DISCONNECT, CMP_DISCONNECT, CMP_DISCONNECT structure [Buses], IEEE.cmp_disconnect, PCMP_DISCONNECT, PCMP_DISCONNECT structure pointer [Buses], _CMP_DISCONNECT"
 f1_keywords:
  - "61883/CMP_DISCONNECT"
+ - "CMP_DISCONNECT"
 req.header: 61883.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - 61883.h
 api_name:
 - CMP_DISCONNECT
-product:
-- Windows
 targetos: Windows
 req.typenames: CMP_DISCONNECT, *PCMP_DISCONNECT
 ---

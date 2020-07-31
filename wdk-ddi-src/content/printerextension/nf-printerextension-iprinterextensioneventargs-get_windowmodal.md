@@ -10,6 +10,7 @@ keywords: ["IPrinterExtensionEventArgs::get_WindowModal"]
 ms.keywords: IPrinterExtensionEventArgs interface [Print Devices],WindowModal property, IPrinterExtensionEventArgs.WindowModal, IPrinterExtensionEventArgs.get_WindowModal, IPrinterExtensionEventArgs::WindowModal, IPrinterExtensionEventArgs::get_WindowModal, WindowModal property [Print Devices], WindowModal property [Print Devices],IPrinterExtensionEventArgs interface, get_WindowModal, print.iprinterextensioneventargs_windowmodal, printerextension/IPrinterExtensionEventArgs::WindowModal, printerextension/IPrinterExtensionEventArgs::get_WindowModal
 f1_keywords:
  - "printerextension/IPrinterExtensionEventArgs.WindowModal"
+ - "IPrinterExtensionEventArgs.WindowModal"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IPrinterExtensionEventArgs.WindowModal
 - IPrinterExtensionEventArgs.get_WindowModal
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

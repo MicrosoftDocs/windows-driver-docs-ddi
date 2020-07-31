@@ -10,6 +10,7 @@ keywords: ["UCMTCPCI_PORT_CONTROLLER_CONFIG_INIT function"]
 ms.keywords: UCMTCPCI_PORT_CONTROLLER_CONFIG_INIT, UCMTCPCI_PORT_CONTROLLER_CONFIG_INIT method [Buses], buses.ucmtcpci_port_controller_config_init, ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_CONFIG_INIT
 f1_keywords:
  - "ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_CONFIG_INIT"
+ - "UCMTCPCI_PORT_CONTROLLER_CONFIG_INIT"
 req.header: ucmtcpciportcontroller.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ucmtcpciportcontroller.h
 api_name:
 - UCMTCPCI_PORT_CONTROLLER_CONFIG_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

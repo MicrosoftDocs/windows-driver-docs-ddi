@@ -8,6 +8,7 @@ ms.date: 09/30/2018
 keywords: ["_FILE_DESIRED_STORAGE_CLASS_INFORMATION structure"]
 f1_keywords:
  - "ntifs/_FILE_DESIRED_STORAGE_CLASS_INFORMATION"
+ - "_FILE_DESIRED_STORAGE_CLASS_INFORMATION"
 ms.keywords: _FILE_DESIRED_STORAGE_CLASS_INFORMATION, FILE_DESIRED_STORAGE_CLASS_INFORMATION, *PFILE_DESIRED_STORAGE_CLASS_INFORMATION, 
 req.header: ntifs.h
 req.include-header:
@@ -30,8 +31,6 @@ api_location:
 - ntifs.h
 api_name: 
 - _FILE_DESIRED_STORAGE_CLASS_INFORMATION
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

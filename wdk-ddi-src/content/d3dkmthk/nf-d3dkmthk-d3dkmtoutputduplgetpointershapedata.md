@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMTOutputDuplGetPointerShapeData function"]
 f1_keywords:
  - "d3dkmthk/D3DKMTOutputDuplGetPointerShapeData"
+ - "D3DKMTOutputDuplGetPointerShapeData"
 ms.keywords: D3DKMTOutputDuplGetPointerShapeData
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
@@ -36,8 +37,6 @@ api_location:
 - API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name: 
 - D3DKMTOutputDuplGetPointerShapeData
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

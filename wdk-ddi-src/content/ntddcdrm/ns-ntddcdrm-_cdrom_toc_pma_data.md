@@ -10,6 +10,7 @@ keywords: ["_CDROM_TOC_PMA_DATA structure"]
 ms.keywords: "*PCDROM_TOC_PMA_DATA, CDROM_TOC_PMA_DATA, CDROM_TOC_PMA_DATA structure [Storage Devices], PCDROM_TOC_PMA_DATA, PCDROM_TOC_PMA_DATA structure pointer [Storage Devices], _CDROM_TOC_PMA_DATA, ntddcdrm/CDROM_TOC_PMA_DATA, ntddcdrm/PCDROM_TOC_PMA_DATA, storage.cdrom_toc_pma_data, structs-CD-ROM_45c0bdd5-ef51-4314-b46a-9ea66eb0b290.xml"
 f1_keywords:
  - "ntddcdrm/CDROM_TOC_PMA_DATA"
+ - "CDROM_TOC_PMA_DATA"
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddcdrm.h
 api_name:
 - CDROM_TOC_PMA_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: CDROM_TOC_PMA_DATA, *PCDROM_TOC_PMA_DATA
 ---

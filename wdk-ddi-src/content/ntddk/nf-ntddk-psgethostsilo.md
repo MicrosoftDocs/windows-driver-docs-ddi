@@ -10,6 +10,7 @@ keywords: ["PsGetHostSilo function"]
 ms.keywords: PsGetHostSilo, PsGetHostSilo routine [Kernel-Mode Driver Architecture], kernel.psgethostsilo, ntddk/PsGetHostSilo
 f1_keywords:
  - "ntddk/PsGetHostSilo"
+ - "PsGetHostSilo"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - PsGetHostSilo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

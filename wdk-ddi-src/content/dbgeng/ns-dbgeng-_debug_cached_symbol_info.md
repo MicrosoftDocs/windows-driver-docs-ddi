@@ -10,6 +10,7 @@ keywords: ["_DEBUG_CACHED_SYMBOL_INFO structure"]
 ms.keywords: "*PDEBUG_CACHED_SYMBOL_INFO, DEBUG_CACHED_SYMBOL_INFO, DEBUG_CACHED_SYMBOL_INFO structure [Windows Debugging], PDEBUG_CACHED_SYMBOL_INFO, PDEBUG_CACHED_SYMBOL_INFO structure pointer [Windows Debugging], _DEBUG_CACHED_SYMBOL_INFO, dbgeng/DEBUG_CACHED_SYMBOL_INFO, dbgeng/PDEBUG_CACHED_SYMBOL_INFO, debugger.debug_cached_symbol_info"
 f1_keywords:
  - "dbgeng/DEBUG_CACHED_SYMBOL_INFO"
+ - "DEBUG_CACHED_SYMBOL_INFO"
 req.header: dbgeng.h
 req.include-header: DbgEng.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - DbgEng.h
 api_name:
 - DEBUG_CACHED_SYMBOL_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: DEBUG_CACHED_SYMBOL_INFO, *PDEBUG_CACHED_SYMBOL_INFO
 ---

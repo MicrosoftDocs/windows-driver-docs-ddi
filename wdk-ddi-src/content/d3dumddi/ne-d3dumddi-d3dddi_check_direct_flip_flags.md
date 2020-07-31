@@ -10,6 +10,7 @@ keywords: ["D3DDDI_CHECK_DIRECT_FLIP_FLAGS enumeration"]
 ms.keywords: D3DDDI_CHECKDIRECTFLIP_IMMEDIATE, D3DDDI_CHECK_DIRECT_FLIP_FLAGS, D3DDDI_CHECK_DIRECT_FLIP_FLAGS enumeration [Display Devices], d3dumddi/D3DDDI_CHECKDIRECTFLIP_IMMEDIATE, d3dumddi/D3DDDI_CHECK_DIRECT_FLIP_FLAGS, display.d3dddi_check_direct_flip_flags
 f1_keywords:
  - "d3dumddi/D3DDDI_CHECK_DIRECT_FLIP_FLAGS"
+ - "D3DDDI_CHECK_DIRECT_FLIP_FLAGS"
 req.header: d3dumddi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - D3dumddi.h
 api_name:
 - D3DDDI_CHECK_DIRECT_FLIP_FLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDI_CHECK_DIRECT_FLIP_FLAGS
 ---

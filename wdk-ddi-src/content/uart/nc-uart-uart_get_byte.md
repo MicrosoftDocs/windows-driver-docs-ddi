@@ -8,6 +8,7 @@ ms.date: 10/19/2018
 keywords: ["UART_GET_BYTE callback function"]
 f1_keywords:
  - "uart/UART_GET_BYTE"
+ - "UART_GET_BYTE"
 req.header: uart.h
 req.include-header:
 req.target-type:
@@ -33,8 +34,6 @@ api_location:
 - uart.h
 api_name:
 - UART_GET_BYTE
-product:
-- Windows
 targetos: Windows
 ---
 

@@ -10,6 +10,7 @@ keywords: ["IDebugControl4::SetTextReplacementWide"]
 ms.keywords: IDebugControl4 interface [Windows Debugging],SetTextReplacementWide method, IDebugControl4.SetTextReplacementWide, IDebugControl4::SetTextReplacementWide, SetTextReplacementWide, SetTextReplacementWide method [Windows Debugging], SetTextReplacementWide method [Windows Debugging],IDebugControl4 interface, dbgeng/IDebugControl4::SetTextReplacementWide, debugger.settextreplacementwide
 f1_keywords:
  - "dbgeng/IDebugControl4.SetTextReplacementWide"
+ - "IDebugControl4.SetTextReplacementWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugControl4.SetTextReplacementWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

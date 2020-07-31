@@ -10,6 +10,7 @@ keywords: ["_DXGKVGPU_ESCAPE_READ_VGPU_TYPE structure"]
 ms.keywords: DXGKVGPU_ESCAPE_READ_VGPU_TYPE, DXGKVGPU_ESCAPE_READ_VGPU_TYPE structure [Display Devices], _DXGKVGPU_ESCAPE_READ_VGPU_TYPE, d3dukmdt/DXGKVGPU_ESCAPE_READ_VGPU_TYPE, display.dxgkvgpu_escape_read_vgpu_type
 f1_keywords:
  - "d3dukmdt/DXGKVGPU_ESCAPE_READ_VGPU_TYPE"
+ - "DXGKVGPU_ESCAPE_READ_VGPU_TYPE"
 req.header: d3dukmdt.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dukmdt.h
 api_name:
 - DXGKVGPU_ESCAPE_READ_VGPU_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGKVGPU_ESCAPE_READ_VGPU_TYPE
 ---

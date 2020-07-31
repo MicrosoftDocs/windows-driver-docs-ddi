@@ -10,6 +10,7 @@ keywords: ["RIL_GetUiccLockState function"]
 ms.keywords: RIL_GetUiccLockState, RIL_GetUiccLockState method [Network Drivers Starting with Windows Vista], netvista.ril_getuicclockstate, rilapi/RIL_GetUiccLockState
 f1_keywords:
  - "rilapi/RIL_GetUiccLockState"
+ - "RIL_GetUiccLockState"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_GetUiccLockState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

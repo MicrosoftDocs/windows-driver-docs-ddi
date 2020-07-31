@@ -9,6 +9,7 @@ keywords: ["D3D11DDI_CORELAYER_DEVICECALLBACKS structure"]
 ms.keywords: D3D11DDI_CORELAYER_DEVICECALLBACKS, D3D11DDI_CORELAYER_DEVICECALLBACKS structure [Display Devices], UMDisplayDriver_Dx11param_Structs_182fd279-98be-4418-b7ca-658d038cb39a.xml, d3d10umddi/D3D11DDI_CORELAYER_DEVICECALLBACKS, display.d3d11ddi_corelayer_devicecallbacks
 f1_keywords:
  - "d3d10umddi/D3D11DDI_CORELAYER_DEVICECALLBACKS"
+ - "D3D11DDI_CORELAYER_DEVICECALLBACKS"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - D3D11DDI_CORELAYER_DEVICECALLBACKS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D11DDI_CORELAYER_DEVICECALLBACKS

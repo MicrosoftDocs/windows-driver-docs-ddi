@@ -10,6 +10,7 @@ keywords: ["StorPortGetDataInBufferMdl function"]
 ms.keywords: StorPortGetDataInBufferMdl, StorPortGetDataInBufferMdl routine [Storage Devices], storage.storportgetdatainbuffermdl, storport/StorPortGetDataInBufferMdl
 f1_keywords:
  - "storport/StorPortGetDataInBufferMdl"
+ - "StorPortGetDataInBufferMdl"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Storport.dll
 api_name:
 - StorPortGetDataInBufferMdl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

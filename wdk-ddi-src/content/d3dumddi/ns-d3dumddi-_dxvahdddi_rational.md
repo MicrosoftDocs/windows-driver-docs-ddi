@@ -10,6 +10,7 @@ keywords: ["_DXVAHDDDI_RATIONAL structure"]
 ms.keywords: DXVA2_Structs_9e1313ee-e48b-4e3d-9f13-40af1babef82.xml, DXVAHDDDI_RATIONAL, DXVAHDDDI_RATIONAL structure [Display Devices], _DXVAHDDDI_RATIONAL, d3dumddi/DXVAHDDDI_RATIONAL, display.dxvahdddi_rational
 f1_keywords:
  - "d3dumddi/DXVAHDDDI_RATIONAL"
+ - "DXVAHDDDI_RATIONAL"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - DXVAHDDDI_RATIONAL
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVAHDDDI_RATIONAL
 ---

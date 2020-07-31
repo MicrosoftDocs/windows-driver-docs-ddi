@@ -8,6 +8,7 @@ keywords: ["InitPropVariantFromCLSIDArray function"]
 tech.root: sensors
 f1_keywords:
  - "sensorsutils/InitPropVariantFromCLSIDArray"
+ - "InitPropVariantFromCLSIDArray"
 ms.keywords: InitPropVariantFromCLSIDArray
 req.header: sensorsutils.h
 req.include-header:
@@ -34,8 +35,6 @@ api_location:
 - sensorsutils.h
 api_name: 
 - InitPropVariantFromCLSIDArray
-product:
-- Windows
 targetos: Windows
 
 

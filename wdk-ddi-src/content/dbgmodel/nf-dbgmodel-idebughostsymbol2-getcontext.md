@@ -7,6 +7,7 @@ ms.date: 09/20/2018
 keywords: ["IDebugHostSymbol2::GetContext"]
 f1_keywords:
  - "dbgmodel/IDebugHostSymbol2.GetContext"
+ - "IDebugHostSymbol2.GetContext"
 ms.keywords: IDebugHostSymbol2::GetContext, GetContext, IDebugHostSymbol2.GetContext, IDebugHostSymbol2::GetContext, IDebugHostSymbol2.GetContext
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostSymbol2.GetContext
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

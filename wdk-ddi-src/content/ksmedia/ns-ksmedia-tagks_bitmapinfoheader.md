@@ -10,6 +10,7 @@ keywords: ["tagKS_BITMAPINFOHEADER structure"]
 ms.keywords: "*PKS_BITMAPINFOHEADER, KS_BITMAPINFOHEADER, KS_BITMAPINFOHEADER structure [Streaming Media Devices], PKS_BITMAPINFOHEADER, PKS_BITMAPINFOHEADER structure pointer [Streaming Media Devices], ksmedia/KS_BITMAPINFOHEADER, ksmedia/PKS_BITMAPINFOHEADER, stream.ks_bitmapinfoheader, tagKS_BITMAPINFOHEADER, vidcapstruct_14e65a26-c943-4fad-949a-87aaf584e50c.xml"
 f1_keywords:
  - "ksmedia/KS_BITMAPINFOHEADER"
+ - "KS_BITMAPINFOHEADER"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KS_BITMAPINFOHEADER
-product:
-- Windows
 targetos: Windows
 req.typenames: KS_BITMAPINFOHEADER, *PKS_BITMAPINFOHEADER
 ---

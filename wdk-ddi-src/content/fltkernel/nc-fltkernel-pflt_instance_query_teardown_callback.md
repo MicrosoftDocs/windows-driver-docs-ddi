@@ -10,6 +10,7 @@ keywords: ["PFLT_INSTANCE_QUERY_TEARDOWN_CALLBACK callback function"]
 ms.keywords: FltCallbacks_2ef837ae-a56a-4e66-a8d3-1f049f7bad45.xml, InstanceQueryTeardownCallback, InstanceQueryTeardownCallback routine [Installable File System Drivers], PFLT_INSTANCE_QUERY_TEARDOWN_CALLBACK, fltkernel/InstanceQueryTeardownCallback, ifsk.pflt_instance_query_teardown_callback
 f1_keywords:
  - "fltkernel/InstanceQueryTeardownCallback"
+ - "InstanceQueryTeardownCallback"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - fltkernel.h
 api_name:
 - InstanceQueryTeardownCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -102,13 +101,13 @@ When a minifilter driver registers itself by calling <a href="https://docs.micro
 
 To register the <i>InstanceQueryTeardownCallback</i> routine, the minifilter driver stores the address of a routine of type <i>PFLT_INSTANCE_QUERY_TEARDOWN_CALLBACK</i> in the <i>InstanceQueryTeardownCallback</i> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_registration">FLT_REGISTRATION</a> structure that the minifilter driver passes as the <i>Registration</i> parameter of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltregisterfilter">FltRegisterFilter</a>. 
 
-The filter manager calls this routine to allow the minifilter driver to respond to a manual detach request. Such a request is received when a user-mode application calls <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterdetach">FilterDetach</a> or a kernel-mode component calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdetachvolume">FltDetachVolume</a>. 
+The filter manager calls this routine to allow the minifilter driver to respond to a manual detach request. Such a request is received when a user-mode application calls <a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filterdetach">FilterDetach</a> or a kernel-mode component calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdetachvolume">FltDetachVolume</a>. 
 
 This routine is not called for automatic or mandatory detach requests, for example, when the minifilter driver is unloaded or a volume is dismounted. 
 
 If this routine returns an error or warning <b>NTSTATUS</b> code, such as <b>STATUS_FLT_DO_NOT_DETACH</b>, the minifilter driver instance is not detached from the volume. Otherwise, the instance is detached. 
 
-If a minifilter driver does not define an <i>InstanceQueryTeardownCallback</i> routine, its instances cannot be detached manually by calling <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterdetach">FilterDetach</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdetachvolume">FltDetachVolume</a>. 
+If a minifilter driver does not define an <i>InstanceQueryTeardownCallback</i> routine, its instances cannot be detached manually by calling <a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filterdetach">FilterDetach</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdetachvolume">FltDetachVolume</a>. 
 
 
 
@@ -126,7 +125,7 @@ If a minifilter driver does not define an <i>InstanceQueryTeardownCallback</i> r
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterdetach">FilterDetach</a>
+<a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filterdetach">FilterDetach</a>
 
 
 

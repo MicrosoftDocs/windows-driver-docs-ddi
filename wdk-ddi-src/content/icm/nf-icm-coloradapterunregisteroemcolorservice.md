@@ -32,8 +32,6 @@ api_location:
 -   NtosKrnl.exe
 api_name:
 -   ColorAdapterUnregisterOEMColorService
-product:
-- Windows
 targetos: Windows
 
 ---

@@ -10,6 +10,7 @@ keywords: ["_FILTER_FULL_INFORMATION structure"]
 ms.keywords: "*PFILTER_FULL_INFORMATION, FILTER_FULL_INFORMATION, FILTER_FULL_INFORMATION structure [Installable File System Drivers], FltSystemStructures_e72c2545-4938-4a3e-b3c8-95fd7f46239a.xml, PFILTER_FULL_INFORMATION, PFILTER_FULL_INFORMATION structure pointer [Installable File System Drivers], _FILTER_FULL_INFORMATION, fltuserstructures/FILTER_FULL_INFORMATION, fltuserstructures/PFILTER_FULL_INFORMATION, ifsk.filter_full_information"
 f1_keywords:
  - "fltuserstructures/FILTER_FULL_INFORMATION"
+ - "FILTER_FULL_INFORMATION"
 req.header: fltuserstructures.h
 req.include-header: FltUser.h, FltKernel.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - fltuserstructures.h
 api_name:
 - FILTER_FULL_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: FILTER_FULL_INFORMATION, *PFILTER_FULL_INFORMATION
 ---

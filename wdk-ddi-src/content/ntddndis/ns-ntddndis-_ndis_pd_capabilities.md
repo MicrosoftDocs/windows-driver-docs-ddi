@@ -10,6 +10,7 @@ keywords: ["_NDIS_PD_CAPABILITIES structure"]
 ms.keywords: NDIS_PD_CAPABILITIES, NDIS_PD_CAPABILITIES structure [Network Drivers Starting with Windows Vista], _NDIS_PD_CAPABILITIES, netvista.ndis_pd_capabilities, ntddndis/NDIS_PD_CAPABILITIES
 f1_keywords:
  - "ntddndis/NDIS_PD_CAPABILITIES"
+ - "NDIS_PD_CAPABILITIES"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddndis.h
 api_name:
 - NDIS_PD_CAPABILITIES
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_PD_CAPABILITIES
 ---

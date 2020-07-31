@@ -10,6 +10,7 @@ keywords: ["IDDCX_OPM_REQUESTED_INFORMATION structure"]
 ms.keywords: IDDCX_OPM_REQUESTED_INFORMATION, IDDCX_OPM_REQUESTED_INFORMATION structure [Display Devices], display.iddcx_opm_requested_information, iddcx/IDDCX_OPM_REQUESTED_INFORMATION
 f1_keywords:
  - "iddcx/IDDCX_OPM_REQUESTED_INFORMATION"
+ - "IDDCX_OPM_REQUESTED_INFORMATION"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - iddcx.h
 api_name:
 - IDDCX_OPM_REQUESTED_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

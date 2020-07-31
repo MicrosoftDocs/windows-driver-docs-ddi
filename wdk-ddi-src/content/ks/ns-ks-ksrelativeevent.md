@@ -10,6 +10,7 @@ keywords: ["KSRELATIVEEVENT structure"]
 ms.keywords: KSRELATIVEEVENT, KSRELATIVEEVENT , KSRELATIVEEVENT structure [Streaming Media Devices], ks-struct_d79f6a15-6e44-4d81-b4f1-c113cbc2ee79.xml, ks/KSRELATIVEEVENT, stream.ksrelativeevent
 f1_keywords:
  - "ks/KSRELATIVEEVENT"
+ - "KSRELATIVEEVENT"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KSRELATIVEEVENT
-product:
-- Windows
 targetos: Windows
 req.typenames: KSRELATIVEEVENT
 ---

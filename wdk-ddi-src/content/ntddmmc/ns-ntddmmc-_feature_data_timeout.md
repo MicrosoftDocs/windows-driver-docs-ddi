@@ -10,6 +10,7 @@ keywords: ["_FEATURE_DATA_TIMEOUT structure"]
 ms.keywords: "*PFEATURE_DATA_TIMEOUT, FEATURE_DATA_TIMEOUT, FEATURE_DATA_TIMEOUT structure [Storage Devices], PFEATURE_DATA_TIMEOUT, PFEATURE_DATA_TIMEOUT structure pointer [Storage Devices], _FEATURE_DATA_TIMEOUT, ntddmmc/FEATURE_DATA_TIMEOUT, ntddmmc/PFEATURE_DATA_TIMEOUT, storage.feature_data_timeout, structs-CD-ROM_2de49c50-b26e-42c0-b637-40f752b59891.xml"
 f1_keywords:
  - "ntddmmc/FEATURE_DATA_TIMEOUT"
+ - "FEATURE_DATA_TIMEOUT"
 req.header: ntddmmc.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddmmc.h
 api_name:
 - FEATURE_DATA_TIMEOUT
-product:
-- Windows
 targetos: Windows
 req.typenames: FEATURE_DATA_TIMEOUT, *PFEATURE_DATA_TIMEOUT
 ---

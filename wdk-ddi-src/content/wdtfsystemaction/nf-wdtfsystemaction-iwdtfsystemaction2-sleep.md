@@ -10,6 +10,7 @@ keywords: ["IWDTFSystemAction2::Sleep"]
 ms.keywords: IWDTFSystemAction2 interface [Windows Device Testing Framework],Sleep method, IWDTFSystemAction2.Sleep, IWDTFSystemAction2::Sleep, Microsoft.WDTF.IWDTFSystemAction2.Sleep, Microsoft::WDTF::IWDTFSystemAction2::Sleep, Sleep, Sleep method [Windows Device Testing Framework], Sleep method [Windows Device Testing Framework],IWDTFSystemAction2 interface, dtf.iwdtfsystemaction2_sleep, wdtfsystemaction/IWDTFSystemAction2::Sleep
 f1_keywords:
  - "wdtfsystemaction/IWDTFSystemAction2.Sleep"
+ - "IWDTFSystemAction2.Sleep"
 req.header: wdtfsystemaction.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WDTFSystemAction.Interop.dll
 api_name:
 - IWDTFSystemAction2.Sleep
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

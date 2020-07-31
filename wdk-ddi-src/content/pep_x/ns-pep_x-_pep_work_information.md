@@ -10,6 +10,7 @@ keywords: ["_PEP_WORK_INFORMATION structure"]
 ms.keywords: "*PPEP_WORK_INFORMATION, PEP_WORK_INFORMATION, PEP_WORK_INFORMATION structure [Kernel-Mode Driver Architecture], PPEP_WORK_INFORMATION, PPEP_WORK_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _PEP_WORK_INFORMATION, kernel.pep_work_information, pepfx/PEP_WORK_INFORMATION, pepfx/PPEP_WORK_INFORMATION"
 f1_keywords:
  - "pep_x/PEP_WORK_INFORMATION"
+ - "PEP_WORK_INFORMATION"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - PEP_WORK_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_WORK_INFORMATION, *PPEP_WORK_INFORMATION
 ---

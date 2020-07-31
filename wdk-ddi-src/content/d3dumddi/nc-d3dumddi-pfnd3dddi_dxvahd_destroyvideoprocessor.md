@@ -10,6 +10,7 @@ keywords: ["PFND3DDDI_DXVAHD_DESTROYVIDEOPROCESSOR callback function"]
 ms.keywords: DestroyVideoProcessor, DestroyVideoProcessor callback function [Display Devices], PFND3DDDI_DXVAHD_DESTROYVIDEOPROCESSOR, PFND3DDDI_DXVAHD_DESTROYVIDEOPROCESSOR callback, UserModeDisplayDriver_Functions_e55b46ab-1325-4bb7-bf22-9f3cb19bff71.xml, d3dumddi/DestroyVideoProcessor, display.destroyvideoprocessor
 f1_keywords:
  - "d3dumddi/DestroyVideoProcessor"
+ - "DestroyVideoProcessor"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - DestroyVideoProcessor
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

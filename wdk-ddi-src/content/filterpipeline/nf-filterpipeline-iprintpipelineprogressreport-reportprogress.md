@@ -10,6 +10,7 @@ keywords: ["IPrintPipelineProgressReport::ReportProgress"]
 ms.keywords: IPrintPipelineProgressReport interface [Print Devices],ReportProgress method, IPrintPipelineProgressReport.ReportProgress, IPrintPipelineProgressReport::ReportProgress, ReportProgress, ReportProgress method [Print Devices], ReportProgress method [Print Devices],IPrintPipelineProgressReport interface, filterpipeline/IPrintPipelineProgressReport::ReportProgress, filterpipeline_3f4798ee-db6e-42ab-9eb8-fb016920fd08.xml, print.iprintpipelineprogressreport_reportprogress
 f1_keywords:
  - "filterpipeline/IPrintPipelineProgressReport.ReportProgress"
+ - "IPrintPipelineProgressReport.ReportProgress"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - filterpipeline.h
 api_name:
 - IPrintPipelineProgressReport.ReportProgress
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["RILUICCSLOTSTATE enumeration"]
 ms.keywords: RILUICCSLOTSTATE, RILUICCSLOTSTATE enumeration [Network Drivers Starting with Windows Vista], RIL_UICCSLOT_ACTIVE, RIL_UICCSLOT_EMPTY, RIL_UICCSLOT_ERROR, RIL_UICCSLOT_NOT_READY, RIL_UICCSLOT_OFF, RIL_UICCSLOT_OFF_EMPTY, netvista.riluiccslotstate, rilapitypes/RILUICCSLOTSTATE, rilapitypes/RIL_UICCSLOT_ACTIVE, rilapitypes/RIL_UICCSLOT_EMPTY, rilapitypes/RIL_UICCSLOT_ERROR, rilapitypes/RIL_UICCSLOT_NOT_READY, rilapitypes/RIL_UICCSLOT_OFF, rilapitypes/RIL_UICCSLOT_OFF_EMPTY
 f1_keywords:
  - "ntddrilapitypes/RILUICCSLOTSTATE"
+ - "RILUICCSLOTSTATE"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapitypes.h
 api_name:
 - RILUICCSLOTSTATE
-product:
-- Windows
 targetos: Windows
 req.typenames: RILUICCSLOTSTATE
 ---

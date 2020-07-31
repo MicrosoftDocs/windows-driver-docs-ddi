@@ -10,6 +10,7 @@ keywords: ["ProbeForWrite function"]
 ms.keywords: ProbeForWrite, ProbeForWrite routine [Kernel-Mode Driver Architecture], k102_62889c29-62cb-43c2-ac19-e8b933783443.xml, kernel.probeforwrite, wdm/ProbeForWrite
 f1_keywords:
  - "wdm/ProbeForWrite"
+ - "ProbeForWrite"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - ProbeForWrite
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

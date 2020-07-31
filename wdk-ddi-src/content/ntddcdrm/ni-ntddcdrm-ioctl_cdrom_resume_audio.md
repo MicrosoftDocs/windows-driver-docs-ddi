@@ -10,6 +10,7 @@ keywords: ["IOCTL_CDROM_RESUME_AUDIO IOCTL"]
 ms.keywords: IOCTL_CDROM_RESUME_AUDIO, IOCTL_CDROM_RESUME_AUDIO control, IOCTL_CDROM_RESUME_AUDIO control code [Storage Devices], k307_64959ad0-32bd-4b0d-b1a0-2983efcd74fa.xml, ntddcdrm/IOCTL_CDROM_RESUME_AUDIO, storage.ioctl_cdrom_resume_audio
 f1_keywords:
  - "ntddcdrm/IOCTL_CDROM_RESUME_AUDIO"
+ - "IOCTL_CDROM_RESUME_AUDIO"
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddcdrm.h
 api_name:
 - IOCTL_CDROM_RESUME_AUDIO
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["StorPortInterlockedPushEntrySList function"]
 ms.keywords: StorPortInterlockedPushEntrySList, StorPortInterlockedPushEntrySList routine [Storage Devices], storage.storportinterlockedpushentryslist, storport/StorPortInterlockedPushEntrySList
 f1_keywords:
  - "storport/StorPortInterlockedPushEntrySList"
+ - "StorPortInterlockedPushEntrySList"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - storport.h
 api_name:
 - StorPortInterlockedPushEntrySList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

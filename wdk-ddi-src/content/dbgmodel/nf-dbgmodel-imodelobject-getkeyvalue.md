@@ -7,6 +7,7 @@ ms.date: 08/09/2018
 keywords: ["IModelObject::GetKeyValue"]
 f1_keywords:
  - "dbgmodel/IModelObject.GetKeyValue"
+ - "IModelObject.GetKeyValue"
 ms.keywords: IModelObject::GetKeyValue, GetKeyValue, IModelObject.GetKeyValue, IModelObject::GetKeyValue, IModelObject.GetKeyValue
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IModelObject.GetKeyValue
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

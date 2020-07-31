@@ -10,6 +10,7 @@ keywords: ["NdisCmActivateVc function"]
 ms.keywords: NdisCmActivateVc, NdisCmActivateVc function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_425eba15-2cda-4e36-b88d-59978501ecbf.xml, ndis/NdisCmActivateVc, netvista.ndiscmactivatevc
 f1_keywords:
  - "ndis/NdisCmActivateVc"
+ - "NdisCmActivateVc"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisCmActivateVc
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

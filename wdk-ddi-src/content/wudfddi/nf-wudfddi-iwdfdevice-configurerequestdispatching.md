@@ -10,6 +10,7 @@ keywords: ["IWDFDevice::ConfigureRequestDispatching"]
 ms.keywords: ConfigureRequestDispatching, ConfigureRequestDispatching method, ConfigureRequestDispatching method,IWDFDevice interface, IWDFDevice interface,ConfigureRequestDispatching method, IWDFDevice.ConfigureRequestDispatching, IWDFDevice::ConfigureRequestDispatching, UMDFDeviceObjectRef_1fbf31c6-856c-45d2-aa86-3b36372821c8.xml, umdf.iwdfdevice_configurerequestdispatching, wdf.iwdfdevice_configurerequestdispatching, wudfddi/IWDFDevice::ConfigureRequestDispatching
 f1_keywords:
  - "wudfddi/IWDFDevice.ConfigureRequestDispatching"
+ - "IWDFDevice.ConfigureRequestDispatching"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFDevice.ConfigureRequestDispatching
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

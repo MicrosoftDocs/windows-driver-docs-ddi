@@ -8,6 +8,7 @@ ms.date: 09/30/2018
 keywords: ["_UCSI_CONTROL structure"]
 f1_keywords:
  - "ucmucsispec/_UCSI_CONTROL"
+ - "_UCSI_CONTROL"
 ms.keywords: _UCSI_CONTROL, UCSI_CONTROL, *PUCSI_CONTROL, 
 req.header: ucmucsispec.h
 req.include-header: UcmUcsiCx.h 
@@ -30,8 +31,6 @@ api_location:
 - ucmucsispec.h
 api_name: 
 - _UCSI_CONTROL
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

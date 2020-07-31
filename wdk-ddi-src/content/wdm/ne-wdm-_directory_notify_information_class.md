@@ -10,6 +10,7 @@ keywords: ["_DIRECTORY_NOTIFY_INFORMATION_CLASS enumeration"]
 ms.keywords: "*PDIRECTORY_NOTIFY_INFORMATION_CLASS, DIRECTORY_NOTIFY_INFORMATION_CLASS, DIRECTORY_NOTIFY_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], DirectoryNotifyExtendedInformation, DirectoryNotifyInformation, _DIRECTORY_NOTIFY_INFORMATION_CLASS, ifsk._directory_notify_information_class, wdm/DIRECTORY_NOTIFY_INFORMATION_CLASS, wdm/DirectoryNotifyExtendedInformation, wdm/DirectoryNotifyInformation"
 f1_keywords:
  - "wdm/DIRECTORY_NOTIFY_INFORMATION_CLASS"
+ - "DIRECTORY_NOTIFY_INFORMATION_CLASS"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - DIRECTORY_NOTIFY_INFORMATION_CLASS
-product:
-- Windows
 targetos: Windows
 req.typenames: DIRECTORY_NOTIFY_INFORMATION_CLASS, *PDIRECTORY_NOTIFY_INFORMATION_CLASS
 ---

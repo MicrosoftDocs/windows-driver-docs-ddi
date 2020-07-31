@@ -10,6 +10,7 @@ keywords: ["_POWERSOURCEUPDATE structure"]
 ms.keywords: "*PPOWERSOURCEUPDATE, POWERSOURCEUPDATE, POWERSOURCEUPDATE structure [Battery Devices], _POWERSOURCEUPDATE, battery.powersourceupdate, charging/BATTERY_INFORMATION"
 f1_keywords:
  - "charging/BATTERY_INFORMATION"
+ - "BATTERY_INFORMATION"
 req.header: charging.h
 req.include-header: Charging.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Charging.h
 api_name:
 - BATTERY_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: POWERSOURCEUPDATE, *PPOWERSOURCEUPDATE
 ---

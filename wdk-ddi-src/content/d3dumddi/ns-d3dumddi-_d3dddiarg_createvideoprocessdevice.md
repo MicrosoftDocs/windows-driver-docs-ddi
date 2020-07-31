@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_CREATEVIDEOPROCESSDEVICE structure"]
 ms.keywords: D3DDDIARG_CREATEVIDEOPROCESSDEVICE, D3DDDIARG_CREATEVIDEOPROCESSDEVICE structure [Display Devices], UMDisplayDriver_param_Structs_b8b0d8fa-b750-440d-afa4-556ffb33074a.xml, _D3DDDIARG_CREATEVIDEOPROCESSDEVICE, d3dumddi/D3DDDIARG_CREATEVIDEOPROCESSDEVICE, display.d3dddiarg_createvideoprocessdevice
 f1_keywords:
  - "d3dumddi/D3DDDIARG_CREATEVIDEOPROCESSDEVICE"
+ - "D3DDDIARG_CREATEVIDEOPROCESSDEVICE"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDIARG_CREATEVIDEOPROCESSDEVICE
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_CREATEVIDEOPROCESSDEVICE
 ---

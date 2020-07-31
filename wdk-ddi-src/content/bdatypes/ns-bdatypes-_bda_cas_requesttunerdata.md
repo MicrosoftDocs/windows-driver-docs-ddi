@@ -10,6 +10,7 @@ keywords: ["_BDA_CAS_REQUESTTUNERDATA structure"]
 ms.keywords: "*PBDA_CAS_REQUESTTUNERDATA, BDA_CAS_REQUESTTUNERDATA, BDA_CAS_REQUESTTUNERDATA structure [Streaming Media Devices], PBDA_CAS_REQUESTTUNERDATA, PBDA_CAS_REQUESTTUNERDATA structure pointer [Streaming Media Devices], _BDA_CAS_REQUESTTUNERDATA, bdatypes/BDA_CAS_REQUESTTUNERDATA, bdatypes/PBDA_CAS_REQUESTTUNERDATA, stream.bda_cas_requesttunerdata"
 f1_keywords:
  - "bdatypes/BDA_CAS_REQUESTTUNERDATA"
+ - "BDA_CAS_REQUESTTUNERDATA"
 req.header: bdatypes.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Bdatypes.h
 api_name:
 - BDA_CAS_REQUESTTUNERDATA
-product:
-- Windows
 targetos: Windows
 req.typenames: BDA_CAS_REQUESTTUNERDATA, *PBDA_CAS_REQUESTTUNERDATA
 ---

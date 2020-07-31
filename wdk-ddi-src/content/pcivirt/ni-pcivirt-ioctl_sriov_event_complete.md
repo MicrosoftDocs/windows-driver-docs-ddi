@@ -10,6 +10,7 @@ keywords: ["IOCTL_SRIOV_EVENT_COMPLETE IOCTL"]
 ms.keywords: IOCTL_SRIOV_EVENT_COMPLETE, IOCTL_SRIOV_EVENT_COMPLETE control code [Buses], PCI.ioctl-sriov-event-complete, pcivirt/IOCTL_SRIOV_EVENT_COMPLETE
 f1_keywords:
  - "pcivirt/IOCTL_SRIOV_EVENT_COMPLETE"
+ - "IOCTL_SRIOV_EVENT_COMPLETE"
 req.header: pcivirt.h
 req.include-header:
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Pcivirt.h
 api_name:
 - IOCTL_SRIOV_EVENT_COMPLETE
-product:
-- Windows
 targetos: Windows
 req.typenames: SRIOV_PF_EVENT, *PSRIOV_PF_EVENT
 ---

@@ -9,6 +9,7 @@ keywords: ["PFND3DWDDM2_2DDI_SET_SHADERCACHE_SESSION callback function"]
 ms.keywords: PFND3DWDDM2_2DDI_SET_SHADERCACHE_SESSION, PFND3DWDDM2_2DDI_SET_SHADERCACHE_SESSION callback, d3d10umddi/pfnSetShaderCacheSession, display.pfnd3dwddm2_2ddi_set_shadercache_session, pfnSetShaderCacheSession, pfnSetShaderCacheSession callback function [Display Devices]
 f1_keywords:
  - "d3d10umddi/pfnSetShaderCacheSession"
+ - "pfnSetShaderCacheSession"
 req.header: d3d10umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - pfnSetShaderCacheSession
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

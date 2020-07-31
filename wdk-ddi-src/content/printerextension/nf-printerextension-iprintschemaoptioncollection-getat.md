@@ -10,6 +10,7 @@ keywords: ["IPrintSchemaOptionCollection::GetAt"]
 ms.keywords: GetAt, GetAt method [Print Devices], GetAt method [Print Devices],IPrintSchemaOptionCollection interface, IPrintSchemaOptionCollection interface [Print Devices],GetAt method, IPrintSchemaOptionCollection.GetAt, IPrintSchemaOptionCollection::GetAt, print.iprintschemaoptioncollection_getat, printerextension/IPrintSchemaOptionCollection::GetAt
 f1_keywords:
  - "printerextension/IPrintSchemaOptionCollection.GetAt"
+ - "IPrintSchemaOptionCollection.GetAt"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Printerextension.h
 api_name:
 - IPrintSchemaOptionCollection.GetAt
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

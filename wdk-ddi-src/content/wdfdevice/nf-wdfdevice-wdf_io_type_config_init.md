@@ -10,6 +10,7 @@ keywords: ["WDF_IO_TYPE_CONFIG_INIT function"]
 ms.keywords: WDF_IO_TYPE_CONFIG_INIT, WDF_IO_TYPE_CONFIG_INIT function, wdf.wdf_io_type_config_init, wdfdevice/WDF_IO_TYPE_CONFIG_INIT
 f1_keywords:
  - "wdfdevice/WDF_IO_TYPE_CONFIG_INIT"
+ - "WDF_IO_TYPE_CONFIG_INIT"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - wdfdevice.h
 api_name:
 - WDF_IO_TYPE_CONFIG_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

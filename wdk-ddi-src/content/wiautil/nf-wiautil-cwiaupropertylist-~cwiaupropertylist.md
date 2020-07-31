@@ -10,6 +10,7 @@ keywords: ["CWiauPropertyList::~CWiauPropertyList"]
 ms.keywords: CWiauPropertyList interface [Imaging Devices],~CWiauPropertyList method, CWiauPropertyList.~CWiauPropertyList, CWiauPropertyList::~CWiauPropertyList, image.cwiaupropertylist__cwiaupropertylist, wiauFncs_9b543f56-a533-4f51-8266-cd710b8192a5.xml, wiautil/CWiauPropertyList::~CWiauPropertyList, ~CWiauPropertyList, ~CWiauPropertyList method [Imaging Devices], ~CWiauPropertyList method [Imaging Devices],CWiauPropertyList interface
 f1_keywords:
  - "wiautil/CWiauPropertyList.~CWiauPropertyList"
+ - "CWiauPropertyList.~CWiauPropertyList"
 req.header: wiautil.h
 req.include-header: Wiautil.h, Wiamindr.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wiautil.h
 api_name:
 - CWiauPropertyList.~CWiauPropertyList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

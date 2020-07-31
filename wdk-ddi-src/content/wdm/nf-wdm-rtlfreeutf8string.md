@@ -28,10 +28,10 @@ req.assembly:
 req.type-library: 
 topic_type: 
 - apiref
-api_type: 
-- 
+api_type:
+- DllExport
 api_location: 
-- 
+- wdm.h
 api_name: 
 - RtlFreeUTF8String
 product: 

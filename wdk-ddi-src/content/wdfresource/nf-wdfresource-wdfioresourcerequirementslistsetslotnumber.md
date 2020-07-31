@@ -10,6 +10,7 @@ keywords: ["WdfIoResourceRequirementsListSetSlotNumber function"]
 ms.keywords: DFResourceObjectRef_a4c6729c-ba18-49e0-8e8c-94c70c5c9e8a.xml, WdfIoResourceRequirementsListSetSlotNumber, WdfIoResourceRequirementsListSetSlotNumber method, kmdf.wdfioresourcerequirementslistsetslotnumber, wdf.wdfioresourcerequirementslistsetslotnumber, wdfresource/WdfIoResourceRequirementsListSetSlotNumber
 f1_keywords:
  - "wdfresource/WdfIoResourceRequirementsListSetSlotNumber"
+ - "WdfIoResourceRequirementsListSetSlotNumber"
 req.header: wdfresource.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfIoResourceRequirementsListSetSlotNumber
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -9,6 +9,7 @@ keywords: ["D3D12DDI_PREDICATION_OP enumeration"]
 ms.keywords: D3D12DDI_PREDICATION_OP, D3D12DDI_PREDICATION_OP enumeration [Display Devices], D3D12DDI_PREDICATION_OP_EQUAL_ZERO, D3D12DDI_PREDICATION_OP_NOT_EQUAL_ZERO, d3d12umddi/D3D12DDI_PREDICATION_OP, d3d12umddi/D3D12DDI_PREDICATION_OP_EQUAL_ZERO, d3d12umddi/D3D12DDI_PREDICATION_OP_NOT_EQUAL_ZERO, display.d3d12ddi_predication_op
 f1_keywords:
  - "d3d12umddi/D3D12DDI_PREDICATION_OP"
+ - "D3D12DDI_PREDICATION_OP"
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - D3d12umddi.h
 api_name:
 - D3D12DDI_PREDICATION_OP
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D12DDI_PREDICATION_OP

@@ -10,6 +10,7 @@ keywords: ["_WWAN_VOICE_CALL_STATE enumeration"]
 ms.keywords: "*PWWAN_VOICE_CALL_STATE, PWWAN_VOICE_CALL_STATE, PWWAN_VOICE_CALL_STATE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_VOICE_CALL_STATE, WWAN_VOICE_CALL_STATE enumeration [Network Drivers Starting with Windows Vista], WwanRef_65c4ae25-c50f-4527-95fd-043730c736e4.xml, WwanVoiceCallStateHangUp, WwanVoiceCallStateInProgress, WwanVoiceCallStateMaximum, WwanVoiceCallStateNone, _WWAN_VOICE_CALL_STATE, netvista.wwan_voice_call_state, wwan/PWWAN_VOICE_CALL_STATE, wwan/WWAN_VOICE_CALL_STATE, wwan/WwanVoiceCallStateHangUp, wwan/WwanVoiceCallStateInProgress, wwan/WwanVoiceCallStateMaximum, wwan/WwanVoiceCallStateNone"
 f1_keywords:
  - "wwan/WWAN_VOICE_CALL_STATE"
+ - "WWAN_VOICE_CALL_STATE"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_VOICE_CALL_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_VOICE_CALL_STATE, *PWWAN_VOICE_CALL_STATE
 ---

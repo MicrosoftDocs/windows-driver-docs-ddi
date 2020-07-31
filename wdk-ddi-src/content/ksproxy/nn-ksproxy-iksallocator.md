@@ -10,6 +10,7 @@ keywords: ["IKsAllocator interface"]
 ms.keywords: IKsAllocator, IKsAllocator interface [Streaming Media Devices], IKsAllocator interface [Streaming Media Devices],described, ksproxy/IKsAllocator, ksproxy_f3288ae8-cea3-4892-9b5b-f03e2c5ec8c4.xml, stream.iksallocator
 f1_keywords:
  - "ksproxy/IKsAllocator"
+ - "IKsAllocator"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 - Ksproxy.dll
 api_name:
 - IKsAllocator
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -54,7 +53,7 @@ The<b>IKsAllocator</b> interface provides methods that control and query an allo
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IKsAllocator</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsAllocator</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IKsAllocator</b> interface inherits from the <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsAllocator</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

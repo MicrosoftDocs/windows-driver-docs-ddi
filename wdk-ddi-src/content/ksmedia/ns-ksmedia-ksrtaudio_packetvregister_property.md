@@ -7,6 +7,7 @@ ms.date: 09/28/2018
 keywords: ["KSRTAUDIO_PACKETVREGISTER_PROPERTY structure"]
 f1_keywords:
  - "ksmedia/KSRTAUDIO_PACKETVREGISTER_PROPERTY"
+ - "KSRTAUDIO_PACKETVREGISTER_PROPERTY"
 ms.keywords: KSRTAUDIO_PACKETVREGISTER_PROPERTY, KSRTAUDIO_PACKETVREGISTER_PROPERTY, *PKSRTAUDIO_PACKETVREGISTER_PROPERTY, 
 req.header: ksmedia.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - ksmedia.h
 api_name: 
 - KSRTAUDIO_PACKETVREGISTER_PROPERTY
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

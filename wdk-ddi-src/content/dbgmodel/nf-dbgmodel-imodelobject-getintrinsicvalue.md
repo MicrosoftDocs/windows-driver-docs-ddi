@@ -7,6 +7,7 @@ ms.date: 08/09/2018
 keywords: ["IModelObject::GetIntrinsicValue"]
 f1_keywords:
  - "dbgmodel/IModelObject.GetIntrinsicValue"
+ - "IModelObject.GetIntrinsicValue"
 ms.keywords: IModelObject::GetIntrinsicValue, GetIntrinsicValue, IModelObject.GetIntrinsicValue, IModelObject::GetIntrinsicValue, IModelObject.GetIntrinsicValue
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IModelObject.GetIntrinsicValue
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

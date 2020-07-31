@@ -10,6 +10,7 @@ keywords: ["IWiaMiniDrv::drvUnInitializeWia"]
 ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvUnInitializeWia method, IWiaMiniDrv.drvUnInitializeWia, IWiaMiniDrv::drvUnInitializeWia, MiniDrv_2a06b98b-7b47-46d8-b158-8e6ff6bac6b9.xml, drvUnInitializeWia, drvUnInitializeWia method [Imaging Devices], drvUnInitializeWia method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvuninitializewia, wiamindr_lh/IWiaMiniDrv::drvUnInitializeWia
 f1_keywords:
  - "wiamindr_lh/IWiaMiniDrv.drvUnInitializeWia"
+ - "IWiaMiniDrv.drvUnInitializeWia"
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wiamindr_lh.h
 api_name:
 - IWiaMiniDrv.drvUnInitializeWia
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

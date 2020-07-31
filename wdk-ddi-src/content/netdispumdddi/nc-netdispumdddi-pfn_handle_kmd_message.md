@@ -10,6 +10,7 @@ keywords: ["PFN_HANDLE_KMD_MESSAGE callback function"]
 ms.keywords: HandleKernelModeMessage, HandleKernelModeMessage callback function [Display Devices], PFN_HANDLE_KMD_MESSAGE, PFN_HANDLE_KMD_MESSAGE callback, display.handlekernelmodemessage, netdispumdddi/HandleKernelModeMessage
 f1_keywords:
  - "netdispumdddi/HandleKernelModeMessage"
+ - "HandleKernelModeMessage"
 req.header: netdispumdddi.h
 req.include-header: Netdispumdddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Netdispumdddi.h
 api_name:
 - HandleKernelModeMessage
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["StorPortReady function"]
 ms.keywords: StorPortReady, StorPortReady routine [Storage Devices], storage.storportready, storport/StorPortReady, storprt_6938d8e3-03f8-4f40-a867-07b64d91a6a2.xml
 f1_keywords:
  - "storport/StorPortReady"
+ - "StorPortReady"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Storport.dll
 api_name:
 - StorPortReady
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

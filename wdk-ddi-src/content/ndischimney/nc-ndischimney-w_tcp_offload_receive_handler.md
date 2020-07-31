@@ -10,6 +10,7 @@ keywords: ["W_TCP_OFFLOAD_RECEIVE_HANDLER callback function"]
 ms.keywords: MiniportTcpOffloadReceive, MiniportTcpOffloadReceive callback function [Network Drivers Starting with Windows Vista], W_TCP_OFFLOAD_RECEIVE_HANDLER, W_TCP_OFFLOAD_RECEIVE_HANDLER callback, ndischimney/MiniportTcpOffloadReceive, netvista.miniporttcpoffloadreceive, tcp_chim_miniport_func_01f5e6c6-4764-41f3-935a-a08754732ea3.xml
 f1_keywords:
  - "ndischimney/MiniportTcpOffloadReceive"
+ - "MiniportTcpOffloadReceive"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ndischimney.h
 api_name:
 - MiniportTcpOffloadReceive
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

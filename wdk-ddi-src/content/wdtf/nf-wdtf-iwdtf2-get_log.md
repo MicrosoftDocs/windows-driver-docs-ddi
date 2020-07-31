@@ -10,6 +10,7 @@ keywords: ["IWDTF2::get_Log"]
 ms.keywords: IWDTF2 interface [Windows Device Testing Framework],Log property, IWDTF2.Log, IWDTF2.get_Log, IWDTF2::Log, IWDTF2::get_Log, Log property [Windows Device Testing Framework], Log property [Windows Device Testing Framework],IWDTF2 interface, Microsoft.WDTF.IWDTF2.Log, Microsoft::WDTF::IWDTF2::Log, dtf.iwdtf2_log, get_Log, wdtf/IWDTF2::Log, wdtf/IWDTF2::get_Log
 f1_keywords:
  - "wdtf/IWDTF2.Log"
+ - "IWDTF2.Log"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IWDTF2.Log
 - IWDTF2.get_Log
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

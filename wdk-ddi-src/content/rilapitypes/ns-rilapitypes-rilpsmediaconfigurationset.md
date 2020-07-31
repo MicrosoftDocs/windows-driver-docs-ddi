@@ -10,6 +10,7 @@ keywords: ["RILPSMEDIACONFIGURATIONSET structure"]
 ms.keywords: "*LPRILPSMEDIACONFIGURATIONSET, RILPSMEDIACONFIGURATIONSET, RILPSMEDIACONFIGURATIONSET structure [Network Drivers Starting with Windows Vista], netvista.rilpsmediaconfigurationset, ntddrilapitypes/RILPSMEDIACONFIGURATIONSET"
 f1_keywords:
  - "rilapitypes/RILPSMEDIACONFIGURATIONSET"
+ - "RILPSMEDIACONFIGURATIONSET"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILPSMEDIACONFIGURATIONSET
-product:
-- Windows
 targetos: Windows
 req.typenames: RILPSMEDIACONFIGURATIONSET, *LPRILPSMEDIACONFIGURATIONSET
 ---

@@ -10,6 +10,7 @@ keywords: ["EVT_URS_SET_ROLE callback function"]
 ms.keywords: EVT_URS_SET_ROLE, EVT_URS_SET_ROLE callback, EvtUrsSetRole, EvtUrsSetRole callback function [Buses], PFN_URS_SET_ROLE, PFN_URS_SET_ROLE callback function pointer [Buses], buses.evt_urs_set_role, ursdevice/EvtUrsSetRole
 f1_keywords:
  - "ursdevice/PFN_URS_SET_ROLE"
+ - "PFN_URS_SET_ROLE"
 req.header: ursdevice.h
 req.include-header: Urscx.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ursdevice.h
 api_name:
 - PFN_URS_SET_ROLE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

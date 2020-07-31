@@ -10,6 +10,7 @@ keywords: ["RIL_GetCallBarringStatus function"]
 ms.keywords: RIL_GetCallBarringStatus, RIL_GetCallBarringStatus method [Network Drivers Starting with Windows Vista], netvista.ril_getcallbarringstatus, rilapi/RIL_GetCallBarringStatus
 f1_keywords:
  - "rilapi/RIL_GetCallBarringStatus"
+ - "RIL_GetCallBarringStatus"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_GetCallBarringStatus
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

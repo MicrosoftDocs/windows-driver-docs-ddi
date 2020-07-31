@@ -10,6 +10,7 @@ keywords: ["IDebugControl4 interface"]
 ms.keywords: IDebugControl4, IDebugControl4 interface [Windows Debugging], IDebugControl4 interface [Windows Debugging],described, dbgeng/IDebugControl4, debugger.idebugcontrol4
 f1_keywords:
  - "dbgeng/IDebugControl4"
+ - "IDebugControl4"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -39,8 +40,6 @@ api_name:
 - IDebugControl4.GetManagedStatus
 - IDebugControl4.GetManagedStatusWide
 - IDebugControl4.ResetManagedStatus
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

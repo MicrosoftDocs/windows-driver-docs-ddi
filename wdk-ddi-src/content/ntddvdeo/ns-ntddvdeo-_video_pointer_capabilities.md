@@ -10,6 +10,7 @@ keywords: ["_VIDEO_POINTER_CAPABILITIES structure"]
 ms.keywords: "*PVIDEO_POINTER_CAPABILITIES, PVIDEO_POINTER_CAPABILITIES, PVIDEO_POINTER_CAPABILITIES structure pointer [Display Devices], VIDEO_POINTER_CAPABILITIES, VIDEO_POINTER_CAPABILITIES structure [Display Devices], Video_Structs_03a35602-adfd-4485-a155-866b578fa807.xml, _VIDEO_POINTER_CAPABILITIES, display.video_pointer_capabilities, ntddvdeo/PVIDEO_POINTER_CAPABILITIES, ntddvdeo/VIDEO_POINTER_CAPABILITIES"
 f1_keywords:
  - "ntddvdeo/VIDEO_POINTER_CAPABILITIES"
+ - "VIDEO_POINTER_CAPABILITIES"
 req.header: ntddvdeo.h
 req.include-header: Ntddvdeo.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddvdeo.h
 api_name:
 - VIDEO_POINTER_CAPABILITIES
-product:
-- Windows
 targetos: Windows
 req.typenames: VIDEO_POINTER_CAPABILITIES, *PVIDEO_POINTER_CAPABILITIES
 ---

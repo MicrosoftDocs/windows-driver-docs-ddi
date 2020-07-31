@@ -9,6 +9,7 @@ keywords: ["PDXGK_SET_SHARED_POWER_COMPONENT_STATE callback function"]
 ms.keywords: PDXGK_SET_SHARED_POWER_COMPONENT_STATE, PDXGK_SET_SHARED_POWER_COMPONENT_STATE callback, PDXGK_SET_SHARED_POWER_COMPONENT_STATE callback function [Display Devices], d3dkmthk/PDXGK_SET_SHARED_POWER_COMPONENT_STATE, display.pdxgk_set_shared_power_component_state
 f1_keywords:
  - "d3dkmthk/PDXGK_SET_SHARED_POWER_COMPONENT_STATE"
+ - "PDXGK_SET_SHARED_POWER_COMPONENT_STATE"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - PDXGK_SET_SHARED_POWER_COMPONENT_STATE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames:

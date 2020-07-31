@@ -10,6 +10,7 @@ keywords: ["PcNewDmaChannel function"]
 ms.keywords: PcNewDmaChannel, PcNewDmaChannel function [Audio Devices], audio.pcnewdmachannel, audpc-routines_51deae73-e4dd-4b39-ae73-77cf31f8ec06.xml, portcls/PcNewDmaChannel
 f1_keywords:
  - "portcls/PcNewDmaChannel"
+ - "PcNewDmaChannel"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Portcls.dll
 api_name:
 - PcNewDmaChannel
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -64,7 +63,7 @@ Output pointer for the DMA-channel object created by this function. This paramet
 
 ### -param OuterUnknown [in, optional]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of an object that needs to aggregate the object. Unless aggregation is required, set this parameter to <b>NULL</b>.
+Pointer to the <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of an object that needs to aggregate the object. Unless aggregation is required, set this parameter to <b>NULL</b>.
 
 
 ### -param PoolType [in]

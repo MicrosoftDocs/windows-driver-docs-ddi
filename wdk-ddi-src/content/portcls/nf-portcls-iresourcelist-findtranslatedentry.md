@@ -10,6 +10,7 @@ keywords: ["IResourceList::FindTranslatedEntry"]
 ms.keywords: FindTranslatedEntry, FindTranslatedEntry method [Audio Devices], FindTranslatedEntry method [Audio Devices],IResourceList interface, IResourceList interface [Audio Devices],FindTranslatedEntry method, IResourceList.FindTranslatedEntry, IResourceList::FindTranslatedEntry, audio.iresourcelist_findtranslatedentry, audmp-routines_a4100c1c-8955-46bb-a9cc-8cee22609598.xml, portcls/IResourceList::FindTranslatedEntry
 f1_keywords:
  - "portcls/IResourceList.FindTranslatedEntry"
+ - "IResourceList.FindTranslatedEntry"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IResourceList.FindTranslatedEntry
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

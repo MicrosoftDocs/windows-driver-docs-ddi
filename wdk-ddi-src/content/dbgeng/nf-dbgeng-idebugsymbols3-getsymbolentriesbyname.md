@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::GetSymbolEntriesByName"]
 ms.keywords: GetSymbolEntriesByName, GetSymbolEntriesByName method [Windows Debugging], GetSymbolEntriesByName method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSymbolEntriesByName method, IDebugSymbols3.GetSymbolEntriesByName, IDebugSymbols3::GetSymbolEntriesByName, IDebugSymbols_4c157d74-d5e8-43d5-87f9-5ad089adb4a0.xml, dbgeng/IDebugSymbols3::GetSymbolEntriesByName, debugger.getsymbolentriesbyname
 f1_keywords:
  - "dbgeng/IDebugSymbols3.GetSymbolEntriesByName"
+ - "IDebugSymbols3.GetSymbolEntriesByName"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugSymbols3.GetSymbolEntriesByName
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

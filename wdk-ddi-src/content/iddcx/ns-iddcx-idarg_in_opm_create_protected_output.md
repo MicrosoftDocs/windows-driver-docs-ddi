@@ -10,6 +10,7 @@ keywords: ["IDARG_IN_OPM_CREATE_PROTECTED_OUTPUT structure"]
 ms.keywords: IDARG_IN_OPM_CREATE_PROTECTED_OUTPUT, IDARG_IN_OPM_CREATE_PROTECTED_OUTPUT structure [Display Devices], display.idarg_in_opm_create_protected_output, iddcx/IDARG_IN_OPM_CREATE_PROTECTED_OUTPUT
 f1_keywords:
  - "iddcx/IDARG_IN_OPM_CREATE_PROTECTED_OUTPUT"
+ - "IDARG_IN_OPM_CREATE_PROTECTED_OUTPUT"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - iddcx.h
 api_name:
 - IDARG_IN_OPM_CREATE_PROTECTED_OUTPUT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

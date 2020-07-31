@@ -10,6 +10,7 @@ keywords: ["WRITE_REGISTER_BUFFER_UCHAR function"]
 ms.keywords: WRITE_REGISTER_BUFFER_UCHAR, WRITE_REGISTER_BUFFER_UCHAR routine [Kernel-Mode Driver Architecture], k103_29b68153-db95-4017-ab96-d05e6c984503.xml, kernel.write_register_buffer_uchar, wdm/WRITE_REGISTER_BUFFER_UCHAR
 f1_keywords:
  - "wdm/WRITE_REGISTER_BUFFER_UCHAR"
+ - "WRITE_REGISTER_BUFFER_UCHAR"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Miniport.h, Wudfwdm.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - WRITE_REGISTER_BUFFER_UCHAR
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

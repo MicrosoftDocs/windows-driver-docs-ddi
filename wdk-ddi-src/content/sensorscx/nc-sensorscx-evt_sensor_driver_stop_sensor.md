@@ -10,6 +10,7 @@ keywords: ["EVT_SENSOR_DRIVER_STOP_SENSOR callback function"]
 ms.keywords: EVT_SENSOR_DRIVER_STOP_SENSOR, EVT_SENSOR_DRIVER_STOP_SENSOR callback, EvtSensorStop, EvtSensorStop callback function [Sensor Devices], sensors.evtsensorstop, sensorscx/EvtSensorStop
 f1_keywords:
  - "sensorscx/EvtSensorStop"
+ - "EvtSensorStop"
 req.header: sensorscx.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - SensorsCx.h
 api_name:
 - EvtSensorStop
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

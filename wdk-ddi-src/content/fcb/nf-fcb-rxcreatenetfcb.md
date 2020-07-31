@@ -10,6 +10,7 @@ keywords: ["RxCreateNetFcb function"]
 ms.keywords: RxCreateNetFCB, RxCreateNetFcb, RxCreateNetFcb function [Installable File System Drivers], fcb/RxCreateNetFcb, ifsk.rxcreatenetfcb, rxref_d5f0cde4-daba-475d-9a63-b56047cc24e2.xml
 f1_keywords:
  - "fcb/RxCreateNetFcb"
+ - "RxCreateNetFcb"
 req.header: fcb.h
 req.include-header: Rxcontx.h, Mrxfcb.h, Fcb.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - fcb.h
 api_name:
 - RxCreateNetFcb
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

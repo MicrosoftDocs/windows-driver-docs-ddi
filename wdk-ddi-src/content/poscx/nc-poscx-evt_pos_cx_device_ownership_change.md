@@ -10,6 +10,7 @@ keywords: ["EVT_POS_CX_DEVICE_OWNERSHIP_CHANGE callback function"]
 ms.keywords: EVT_POS_CX_DEVICE_OWNERSHIP_CHANGE, EVT_POS_CX_DEVICE_OWNERSHIP_CHANGE callback, EvtPosCxDeviceOwnershipChange, EvtPosCxDeviceOwnershipChange callback function, pos.evt_pos_cx_device_ownership_change, poscx/EvtPosCxDeviceOwnershipChange
 f1_keywords:
  - "poscx/EvtPosCxDeviceOwnershipChange"
+ - "EvtPosCxDeviceOwnershipChange"
 req.header: poscx.h
 req.include-header: Poscx.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - poscx.h
 api_name:
 - EvtPosCxDeviceOwnershipChange
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 req.product: Windows 10 or later.

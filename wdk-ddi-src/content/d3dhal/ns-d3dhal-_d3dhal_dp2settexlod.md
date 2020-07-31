@@ -10,6 +10,7 @@ keywords: ["_D3DHAL_DP2SETTEXLOD structure"]
 ms.keywords: "*LPD3DHAL_DP2SETTEXLOD, D3DHAL_DP2SETTEXLOD, D3DHAL_DP2SETTEXLOD structure [Display Devices], _D3DHAL_DP2SETTEXLOD, d3dhal/D3DHAL_DP2SETTEXLOD, d3dstrct_8b7c348f-b058-4cd8-ac49-788765e4fa15.xml, display.d3dhal_dp2settexlod"
 f1_keywords:
  - "d3dhal/D3DHAL_DP2SETTEXLOD"
+ - "D3DHAL_DP2SETTEXLOD"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dhal.h
 api_name:
 - D3DHAL_DP2SETTEXLOD
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DHAL_DP2SETTEXLOD
 ---

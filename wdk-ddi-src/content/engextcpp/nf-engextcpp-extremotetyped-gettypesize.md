@@ -10,6 +10,7 @@ keywords: ["ExtRemoteTyped::GetTypeSize"]
 ms.keywords: EngExtCpp_Ref_a0708ab0-c6c3-441a-958d-7f26fad32869.xml, ExtRemoteTyped interface [Windows Debugging],GetTypeSize method, ExtRemoteTyped.GetTypeSize, ExtRemoteTyped::GetTypeSize, GetTypeSize, GetTypeSize method [Windows Debugging], GetTypeSize method [Windows Debugging],ExtRemoteTyped interface, debugger.extremotetyped_gettypesize
 f1_keywords:
  - "engextcpp/ExtRemoteTyped.GetTypeSize"
+ - "ExtRemoteTyped.GetTypeSize"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - engextcpp.hpp
 api_name:
 - ExtRemoteTyped.GetTypeSize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

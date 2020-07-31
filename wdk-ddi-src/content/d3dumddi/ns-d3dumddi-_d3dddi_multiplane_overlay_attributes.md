@@ -10,6 +10,7 @@ keywords: ["_D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES structure"]
 ms.keywords: D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES, D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES structure [Display Devices], _D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES, display.d3dddi_multiplane_overlay_attributes
 f1_keywords:
  - "d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES"
+ - "D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - D3dumddi.h
 api_name:
 - D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES
 ---

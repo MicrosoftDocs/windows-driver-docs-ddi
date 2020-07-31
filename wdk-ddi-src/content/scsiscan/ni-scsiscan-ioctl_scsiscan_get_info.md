@@ -10,6 +10,7 @@ keywords: ["IOCTL_SCSISCAN_GET_INFO IOCTL"]
 ms.keywords: IOCTL_SCSISCAN_GET_INFO, IOCTL_SCSISCAN_GET_INFO control, IOCTL_SCSISCAN_GET_INFO control code [Imaging Devices], image.ioctl_scsiscan_get_info, scsiscan/IOCTL_SCSISCAN_GET_INFO, stifnc_5897897c-6c10-42cd-9301-d5b5f54675fd.xml
 f1_keywords:
  - "scsiscan/IOCTL_SCSISCAN_GET_INFO"
+ - "IOCTL_SCSISCAN_GET_INFO"
 req.header: scsiscan.h
 req.include-header: Scsiscan.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - scsiscan.h
 api_name:
 - IOCTL_SCSISCAN_GET_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

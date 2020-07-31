@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_ESCAPE structure"]
 ms.keywords: D3DKMT_ESCAPE, D3DKMT_ESCAPE structure [Display Devices], OpenGL_Structs_b17fc4f1-d9cc-4ebe-a29a-66f9a93b9462.xml, _D3DKMT_ESCAPE, d3dkmthk/D3DKMT_ESCAPE, display.d3dkmt_escape
 f1_keywords:
  - "d3dkmthk/D3DKMT_ESCAPE"
+ - "D3DKMT_ESCAPE"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMT_ESCAPE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_ESCAPE

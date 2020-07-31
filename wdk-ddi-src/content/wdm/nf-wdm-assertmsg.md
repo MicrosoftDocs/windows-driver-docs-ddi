@@ -10,6 +10,7 @@ keywords: ["ASSERTMSG macro"]
 ms.keywords: ASSERTMSG, ASSERTMSG function [Driver Development Tools], DebugFns_998b520e-90e6-440f-94d4-55ff0b6e102f.xml, devtest.assertmsg, ntddk/ASSERTMSG
 f1_keywords:
  - "wdm/ASSERTMSG"
+ - "ASSERTMSG"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - ASSERTMSG
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

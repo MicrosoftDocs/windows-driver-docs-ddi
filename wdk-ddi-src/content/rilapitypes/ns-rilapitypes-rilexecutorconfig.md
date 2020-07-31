@@ -10,6 +10,7 @@ keywords: ["RILEXECUTORCONFIG structure"]
 ms.keywords: "*LPRILEXECUTORCONFIG, RILEXECUTORCONFIG, RILEXECUTORCONFIG structure [Network Drivers Starting with Windows Vista], netvista.rilexecutorconfig, ntddrilapitypes/RILEXECUTORCONFIG"
 f1_keywords:
  - "rilapitypes/RILEXECUTORCONFIG"
+ - "RILEXECUTORCONFIG"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILEXECUTORCONFIG
-product:
-- Windows
 targetos: Windows
 req.typenames: RILEXECUTORCONFIG, *LPRILEXECUTORCONFIG
 ---

@@ -10,6 +10,7 @@ keywords: ["RouterFreeBidiMem function"]
 ms.keywords: RouterFreeBidiMem, RouterFreeBidiMem function [Print Devices], print.routerfreebidimem, spoolfnc_cc4cfcb8-c020-4112-9774-a2961e8a4ba2.xml, winsplp/RouterFreeBidiMem
 f1_keywords:
  - "winsplp/RouterFreeBidiMem"
+ - "RouterFreeBidiMem"
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Spoolss.dll
 api_name:
 - RouterFreeBidiMem
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

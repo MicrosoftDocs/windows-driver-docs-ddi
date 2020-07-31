@@ -10,6 +10,7 @@ keywords: ["KsValidateConnectRequest function"]
 ms.keywords: KsValidateConnectRequest, KsValidateConnectRequest function [Streaming Media Devices], ks/KsValidateConnectRequest, ksfunc_2df36f34-31c9-48f2-859c-1829b60fbae7.xml, stream.ksvalidateconnectrequest
 f1_keywords:
  - "ks/KsValidateConnectRequest"
+ - "KsValidateConnectRequest"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsValidateConnectRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

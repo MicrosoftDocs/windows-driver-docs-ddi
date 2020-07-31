@@ -7,6 +7,7 @@ ms.date: 09/06/2018
 keywords: ["_SIDEBANDAUDIO_EP_USB_TRANSPORT_RESOURCE_TYPE enumeration"]
 f1_keywords:
  - "usbsidebandaudio/_SIDEBANDAUDIO_EP_USB_TRANSPORT_RESOURCE_TYPE"
+ - "_SIDEBANDAUDIO_EP_USB_TRANSPORT_RESOURCE_TYPE"
 ms.keywords: _SIDEBANDAUDIO_EP_USB_TRANSPORT_RESOURCE_TYPE, SIDEBANDAUDIO_EP_USB_TRANSPORT_RESOURCE_TYPE, 
 req.header: usbsidebandaudio.h
 req.include-header: usbsidebandaudio.h
@@ -26,8 +27,6 @@ api_location:
 - usbsidebandaudio.h
 api_name: 
 - _SIDEBANDAUDIO_EP_USB_TRANSPORT_RESOURCE_TYPE
-product:
-- Windows
 targetos: Windows
 tech.root: audio
 ms.custom: RS5

@@ -10,6 +10,7 @@ keywords: ["RILRFSTATEPARAMMASK enumeration"]
 ms.keywords: RILRFSTATEPARAMMASK, RILRFSTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_RFSTATE_ALL, RIL_PARAM_RFSTATE_RFDATA, RIL_PARAM_RFSTATE_RFDATASIZE, RIL_PARAM_RFSTATE_RFSTATE, netvista.rilrfstateparammask, ntddrilapitypes/RILRFSTATEPARAMMASK, ntddrilapitypes/RIL_PARAM_RFSTATE_ALL, ntddrilapitypes/RIL_PARAM_RFSTATE_RFDATA, ntddrilapitypes/RIL_PARAM_RFSTATE_RFDATASIZE, ntddrilapitypes/RIL_PARAM_RFSTATE_RFSTATE
 f1_keywords:
  - "ntddrilapitypes/RILRFSTATEPARAMMASK"
+ - "RILRFSTATEPARAMMASK"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILRFSTATEPARAMMASK
-product:
-- Windows
 targetos: Windows
 req.typenames: RILRFSTATEPARAMMASK
 ---

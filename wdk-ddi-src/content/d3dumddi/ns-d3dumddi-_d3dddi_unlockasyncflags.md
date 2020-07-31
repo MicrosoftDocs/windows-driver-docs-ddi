@@ -10,6 +10,7 @@ keywords: ["_D3DDDI_UNLOCKASYNCFLAGS structure"]
 ms.keywords: D3DDDI_UNLOCKASYNCFLAGS, D3DDDI_UNLOCKASYNCFLAGS structure [Display Devices], D3D_other_Structs_d42c29f4-23e8-4b5c-8710-2e4153c857bf.xml, _D3DDDI_UNLOCKASYNCFLAGS, d3dumddi/D3DDDI_UNLOCKASYNCFLAGS, display.d3dddi_unlockasyncflags
 f1_keywords:
  - "d3dumddi/D3DDDI_UNLOCKASYNCFLAGS"
+ - "D3DDDI_UNLOCKASYNCFLAGS"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDI_UNLOCKASYNCFLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDI_UNLOCKASYNCFLAGS
 ---

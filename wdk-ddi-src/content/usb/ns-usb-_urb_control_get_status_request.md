@@ -10,6 +10,7 @@ keywords: ["_URB_CONTROL_GET_STATUS_REQUEST structure"]
 ms.keywords: "_URB_CONTROL_GET_STATUS_REQUEST, _URB_CONTROL_GET_STATUS_REQUEST structure [Buses], buses._urb_control_get_status_request, usb/_URB_CONTROL_GET_STATUS_REQUEST, usbstrct_b91864c5-b19a-492d-a5dc-1fabdf4c37f9.xml"
 f1_keywords:
  - "usb/_URB_CONTROL_GET_STATUS_REQUEST"
+ - "_URB_CONTROL_GET_STATUS_REQUEST"
 req.header: usb.h
 req.include-header: Usb.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - usb.h
 api_name:
 - _URB_CONTROL_GET_STATUS_REQUEST
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

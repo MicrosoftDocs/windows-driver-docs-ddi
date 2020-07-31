@@ -10,6 +10,7 @@ keywords: ["ExtRemoteData class"]
 ms.keywords: EngExtCpp_Ref_e84c03ce-1156-481b-a429-f0a918797565.xml, ExtRemoteData, ExtRemoteData class [Windows Debugging], ExtRemoteData class [Windows Debugging],described, debugger.extremotedata, engextcpp/ExtRemoteData
 f1_keywords:
  - "engextcpp/ExtRemoteData"
+ - "ExtRemoteData"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - engextcpp.hpp
 api_name:
 - ExtRemoteData
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

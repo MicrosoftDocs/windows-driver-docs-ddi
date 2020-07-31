@@ -10,6 +10,7 @@ keywords: ["_REG_QUERY_KEY_NAME structure"]
 ms.keywords: "*PREG_QUERY_KEY_NAME, PREG_QUERY_KEY_NAME, PREG_QUERY_KEY_NAME structure pointer [Kernel-Mode Driver Architecture], REG_QUERY_KEY_NAME, REG_QUERY_KEY_NAME structure [Kernel-Mode Driver Architecture], _REG_QUERY_KEY_NAME, kernel.reg_query_key_name, wdm/PREG_QUERY_KEY_NAME, wdm/REG_QUERY_KEY_NAME"
 f1_keywords:
  - "wdm/REG_QUERY_KEY_NAME"
+ - "REG_QUERY_KEY_NAME"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - REG_QUERY_KEY_NAME
-product:
-- Windows
 targetos: Windows
 req.typenames: REG_QUERY_KEY_NAME, *PREG_QUERY_KEY_NAME
 ---

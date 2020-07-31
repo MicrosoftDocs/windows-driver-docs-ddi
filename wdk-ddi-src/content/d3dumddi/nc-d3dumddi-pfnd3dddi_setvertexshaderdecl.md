@@ -29,6 +29,7 @@ targetos: Windows
 req.typenames: 
 f1_keywords:
  - "d3dumddi/SetVertexShaderDecl"
+ - "SetVertexShaderDecl"
 topic_type:
  - APIRef
  - kbSyntax

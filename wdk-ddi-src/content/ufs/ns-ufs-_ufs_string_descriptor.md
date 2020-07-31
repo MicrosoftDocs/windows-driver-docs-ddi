@@ -10,6 +10,7 @@ keywords: ["_UFS_STRING_DESCRIPTOR structure"]
 ms.keywords: "*PUFS_STRING_DESCRIPTOR, PUFS_STRING_DESCRIPTOR, PUFS_STRING_DESCRIPTOR structure pointer [Storage Devices], UFS_STRING_DESCRIPTOR, UFS_STRING_DESCRIPTOR structure [Storage Devices], _UFS_STRING_DESCRIPTOR, storage.ufs_string_descriptor, ufs/PUFS_STRING_DESCRIPTOR, ufs/UFS_STRING_DESCRIPTOR"
 f1_keywords:
  - "ufs/UFS_STRING_DESCRIPTOR"
+ - "UFS_STRING_DESCRIPTOR"
 req.header: ufs.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ufs.h
 api_name:
 - UFS_STRING_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: UFS_STRING_DESCRIPTOR, *PUFS_STRING_DESCRIPTOR
 ---

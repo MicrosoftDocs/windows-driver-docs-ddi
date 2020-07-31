@@ -10,6 +10,7 @@ keywords: ["_BTHX_HCI_READ_WRITE_CONTEXT structure"]
 ms.keywords: "*PBTHX_HCI_READ_WRITE_CONTEXT, BTHX_HCI_READ_WRITE_CONTEXT, BTHX_HCI_READ_WRITE_CONTEXT structure [Bluetooth Devices], PBTHX_HCI_READ_WRITE_CONTEXT, PBTHX_HCI_READ_WRITE_CONTEXT structure pointer [Bluetooth Devices], _BTHX_HCI_READ_WRITE_CONTEXT, bltooth.bthx_hci_read_write_context, bthxddi/BTHX_HCI_READ_WRITE_CONTEXT, bthxddi/PBTHX_HCI_READ_WRITE_CONTEXT"
 f1_keywords:
  - "bthxddi/BTHX_HCI_READ_WRITE_CONTEXT"
+ - "BTHX_HCI_READ_WRITE_CONTEXT"
 req.header: bthxddi.h
 req.include-header: BthXDDI.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - BthXDDI.h
 api_name:
 - BTHX_HCI_READ_WRITE_CONTEXT
-product:
-- Windows
 targetos: Windows
 req.typenames: BTHX_HCI_READ_WRITE_CONTEXT, *PBTHX_HCI_READ_WRITE_CONTEXT
 ---

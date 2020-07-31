@@ -10,6 +10,7 @@ keywords: ["POFXCALLBACKUPDATEPROCESSORIDLESTATE callback function"]
 ms.keywords: POFXCALLBACKUPDATEPROCESSORIDLESTATE, UpdateProcessorIdleState, UpdateProcessorIdleState routine [Kernel-Mode Driver Architecture], kernel.updateprocessoridlestate, pepfx/UpdateProcessorIdleState
 f1_keywords:
  - "pep_x/UpdateProcessorIdleState"
+ - "UpdateProcessorIdleState"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - UpdateProcessorIdleState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

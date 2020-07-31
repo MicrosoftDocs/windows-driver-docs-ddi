@@ -10,6 +10,7 @@ keywords: ["_FLT_IO_PARAMETER_BLOCK structure"]
 ms.keywords: "*PFLT_IO_PARAMETER_BLOCK, FLT_IO_PARAMETER_BLOCK, FLT_IO_PARAMETER_BLOCK structure [Installable File System Drivers], FltSystemStructures_8abf39e5-b9d1-4c44-8137-80ee1b35c0a3.xml, PFLT_IO_PARAMETER_BLOCK, PFLT_IO_PARAMETER_BLOCK structure pointer [Installable File System Drivers], _FLT_IO_PARAMETER_BLOCK, fltkernel/FLT_IO_PARAMETER_BLOCK, fltkernel/PFLT_IO_PARAMETER_BLOCK, ifsk.flt_io_parameter_block"
 f1_keywords:
  - "fltkernel/FLT_IO_PARAMETER_BLOCK"
+ - "FLT_IO_PARAMETER_BLOCK"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - fltkernel.h
 api_name:
 - FLT_IO_PARAMETER_BLOCK
-product:
-- Windows
 targetos: Windows
 req.typenames: FLT_IO_PARAMETER_BLOCK, *PFLT_IO_PARAMETER_BLOCK
 ---

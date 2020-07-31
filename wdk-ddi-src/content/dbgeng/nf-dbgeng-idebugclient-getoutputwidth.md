@@ -10,6 +10,7 @@ keywords: ["IDebugClient::GetOutputWidth"]
 ms.keywords: GetOutputWidth, GetOutputWidth method [Windows Debugging], GetOutputWidth method [Windows Debugging],IDebugClient interface, IDebugClient interface [Windows Debugging],GetOutputWidth method, IDebugClient.GetOutputWidth, IDebugClient::GetOutputWidth, dbgeng/IDebugClient::GetOutputWidth, debugger.idebugclient_getoutputwidth
 f1_keywords:
  - "dbgeng/IDebugClient.GetOutputWidth"
+ - "IDebugClient.GetOutputWidth"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugClient.GetOutputWidth
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

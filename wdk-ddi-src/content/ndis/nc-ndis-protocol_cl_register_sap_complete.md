@@ -10,6 +10,7 @@ keywords: ["PROTOCOL_CL_REGISTER_SAP_COMPLETE callback function"]
 ms.keywords: PROTOCOL_CL_REGISTER_SAP_COMPLETE, PROTOCOL_CL_REGISTER_SAP_COMPLETE callback, ProtocolClRegisterSapComplete, ProtocolClRegisterSapComplete callback function [Network Drivers Starting with Windows Vista], condis_client_ref_6f2cf710-53e9-43ce-8b9a-46ec76d1146d.xml, ndis/ProtocolClRegisterSapComplete, netvista.protocolclregistersapcomplete
 f1_keywords:
  - "ndis/ProtocolClRegisterSapComplete"
+ - "ProtocolClRegisterSapComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - ProtocolClRegisterSapComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

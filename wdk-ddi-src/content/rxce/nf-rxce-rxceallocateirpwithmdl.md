@@ -10,6 +10,7 @@ keywords: ["RxCeAllocateIrpWithMDL function"]
 ms.keywords: RxCeAllocateIrpWithMDL, RxCeAllocateIrpWithMDL function [Installable File System Drivers], ifsk.rxceallocateirpwithmdl, rxce/RxCeAllocateIrpWithMDL, rxref_8cb4dfd0-5789-4359-ad9f-bd1a9d460eb3.xml
 f1_keywords:
  - "rxce/RxCeAllocateIrpWithMDL"
+ - "RxCeAllocateIrpWithMDL"
 req.header: rxce.h
 req.include-header: Rxce.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - rxce.h
 api_name:
 - RxCeAllocateIrpWithMDL
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

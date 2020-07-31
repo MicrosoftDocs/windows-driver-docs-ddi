@@ -9,6 +9,7 @@ keywords: ["D3D11_1DDI_VIDEO_USAGE enumeration"]
 ms.keywords: D3D11_1DDI_VIDEO_USAGE, D3D11_1DDI_VIDEO_USAGE enumeration [Display Devices], D3D11_1DDI_VIDEO_USAGE_OPTIMAL_QUALITY, D3D11_1DDI_VIDEO_USAGE_OPTIMAL_SPEED, D3D11_1DDI_VIDEO_USAGE_PLAYBACK_NORMAL, d3d10umddi/D3D11_1DDI_VIDEO_USAGE, d3d10umddi/D3D11_1DDI_VIDEO_USAGE_OPTIMAL_QUALITY, d3d10umddi/D3D11_1DDI_VIDEO_USAGE_OPTIMAL_SPEED, d3d10umddi/D3D11_1DDI_VIDEO_USAGE_PLAYBACK_NORMAL, display.d3d11_1ddi_video_usage
 f1_keywords:
  - "d3d10umddi/D3D11_1DDI_VIDEO_USAGE"
+ - "D3D11_1DDI_VIDEO_USAGE"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - D3d10umddi.h
 api_name:
 - D3D11_1DDI_VIDEO_USAGE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D11_1DDI_VIDEO_USAGE

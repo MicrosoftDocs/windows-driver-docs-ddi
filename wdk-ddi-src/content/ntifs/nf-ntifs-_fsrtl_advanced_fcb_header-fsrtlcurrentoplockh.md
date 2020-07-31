@@ -10,6 +10,7 @@ keywords: ["FsRtlCurrentOplockH function"]
 ms.keywords: FsRtlCurrentOplockH, FsRtlCurrentOplockH function [Installable File System Drivers], fsrtlref_4997ca62-379d-45d8-bc22-32efd2076692.xml, ifsk.fsrtlcurrentoplockh, ntifs/FsRtlCurrentOplockH
 f1_keywords:
  - "ntifs/FsRtlCurrentOplockH"
+ - "FsRtlCurrentOplockH"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlCurrentOplockH
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

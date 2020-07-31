@@ -10,6 +10,7 @@ keywords: ["_ACPI_EVAL_INPUT_BUFFER_V1 structure"]
 ms.keywords: "*PACPI_EVAL_INPUT_BUFFER, *PACPI_EVAL_INPUT_BUFFER_V1, ACPI_EVAL_INPUT_BUFFER, ACPI_EVAL_INPUT_BUFFER_V1, ACPI_EVAL_INPUT_BUFFER_V1 structure [ACPI Devices], PACPI_EVAL_INPUT_BUFFER_V1, PACPI_EVAL_INPUT_BUFFER_V1 structure pointer [ACPI Devices], _ACPI_EVAL_INPUT_BUFFER_V1, acpi-meth-eval-ref_fda162bd-f908-46bf-a5a9-66daeb6b6aaf.xml, acpi.acpi_eval_input_buffer, acpiioct/ACPI_EVAL_INPUT_BUFFER_V1, acpiioct/PACPI_EVAL_INPUT_BUFFER_V1"
 f1_keywords:
  - "acpiioct/ACPI_EVAL_INPUT_BUFFER_V1"
+ - "ACPI_EVAL_INPUT_BUFFER_V1"
 req.header: acpiioct.h
 req.include-header: Acpiioct.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Acpiioct.h
 api_name:
 - ACPI_EVAL_INPUT_BUFFER_V1
-product:
-- Windows
 targetos: Windows
 req.typenames: ACPI_EVAL_INPUT_BUFFER_V1, *PACPI_EVAL_INPUT_BUFFER_V1, ACPI_EVAL_INPUT_BUFFER, *PACPI_EVAL_INPUT_BUFFER
 ---

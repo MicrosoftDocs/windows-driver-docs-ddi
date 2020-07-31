@@ -10,6 +10,7 @@ keywords: ["StorPortStallExecution function"]
 ms.keywords: StorPortStallExecution, StorPortStallExecution routine [Storage Devices], storage.storportstallexecution, storport/StorPortStallExecution, storprt_8cddf62f-d26d-4dd8-85f5-5bf35f74c1de.xml
 f1_keywords:
  - "storport/StorPortStallExecution"
+ - "StorPortStallExecution"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Storport.dll
 api_name:
 - StorPortStallExecution
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

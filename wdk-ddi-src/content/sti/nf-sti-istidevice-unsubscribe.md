@@ -10,6 +10,7 @@ keywords: ["IStiDevice::UnSubscribe"]
 ms.keywords: IStiDevice interface [Imaging Devices],UnSubscribe method, IStiDevice.UnSubscribe, IStiDevice::UnSubscribe, UnSubscribe, UnSubscribe method [Imaging Devices], UnSubscribe method [Imaging Devices],IStiDevice interface, image.istidevice_unsubscribe, sti/IStiDevice::UnSubscribe, stifnc_8144319d-d1da-40cd-ad1d-6b65c28155be.xml
 f1_keywords:
  - "sti/IStiDevice.UnSubscribe"
+ - "IStiDevice.UnSubscribe"
 req.header: sti.h
 req.include-header: Sti.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Sti.h
 api_name:
 - IStiDevice.UnSubscribe
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

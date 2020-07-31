@@ -10,6 +10,7 @@ keywords: ["IoWMISetSingleInstance function"]
 ms.keywords: IoWMISetSingleInstance, IoWMISetSingleInstance routine [Kernel-Mode Driver Architecture], k104_35479ad6-0f12-4d8b-b375-faa271cf65fd.xml, kernel.iowmisetsingleinstance, wdm/IoWMISetSingleInstance
 f1_keywords:
  - "wdm/IoWMISetSingleInstance"
+ - "IoWMISetSingleInstance"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoWMISetSingleInstance
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

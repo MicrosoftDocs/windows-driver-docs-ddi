@@ -10,6 +10,7 @@ keywords: ["SdpFindAttributeInTree function"]
 ms.keywords: SdpFindAttributeInTree, SdpFindAttributeInTree function [Bluetooth Devices], bltooth.sdpfindattributeintree, bth_funcs_8daefa96-6201-462a-9c91-485c5f9eaa98.xml, sdplib/SdpFindAttributeInTree
 f1_keywords:
  - "sdplib/SdpFindAttributeInTree"
+ - "SdpFindAttributeInTree"
 req.header: sdplib.h
 req.include-header: BthSdpddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - sdplib.h
 api_name:
 - SdpFindAttributeInTree
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

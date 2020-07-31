@@ -10,6 +10,7 @@ keywords: ["NdisCoDeleteVc function"]
 ms.keywords: NdisCoDeleteVc, NdisCoDeleteVc function [Network Drivers Starting with Windows Vista], condis_protocol_ref_19f96afa-aa63-44e4-817a-8b701c6d12c6.xml, ndis/NdisCoDeleteVc, netvista.ndiscodeletevc
 f1_keywords:
  - "ndis/NdisCoDeleteVc"
+ - "NdisCoDeleteVc"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisCoDeleteVc
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

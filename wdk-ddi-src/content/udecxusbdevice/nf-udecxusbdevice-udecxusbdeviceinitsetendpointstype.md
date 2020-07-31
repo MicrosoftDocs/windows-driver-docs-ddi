@@ -10,6 +10,7 @@ keywords: ["UdecxUsbDeviceInitSetEndpointsType function"]
 ms.keywords: UdecxUsbDeviceInitSetEndpointsType, UdecxUsbDeviceInitSetEndpointsType function [Buses], buses.udecxusbdeviceinitsetendpointstype, udecxusbdevice/UdecxUsbDeviceInitSetEndpointsType
 f1_keywords:
  - "udecxusbdevice/UdecxUsbDeviceInitSetEndpointsType"
+ - "UdecxUsbDeviceInitSetEndpointsType"
 req.header: udecxusbdevice.h
 req.include-header: Udecx.h
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 - Udecxstub.dll
 api_name:
 - UdecxUsbDeviceInitSetEndpointsType
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

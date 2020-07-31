@@ -10,6 +10,7 @@ keywords: ["DrvSplStartDoc function"]
 ms.keywords: DrvSplStartDoc, DrvSplStartDoc function [Print Devices], print.drvsplstartdoc, print_interface-graphics_c37a0824-d460-4d62-b029-55ec4bc842d2.xml, winddiui/DrvSplStartDoc
 f1_keywords:
  - "winddiui/DrvSplStartDoc"
+ - "DrvSplStartDoc"
 req.header: winddiui.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - winddiui.h
 api_name:
 - DrvSplStartDoc
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["StorPortSetUnitAttributes function"]
 ms.keywords: StorPortSetUnitAttributes, StorPortSetUnitAttributes routine [Storage Devices], storage.storportsetunitattributes, storport/StorPortSetUnitAttributes
 f1_keywords:
  - "storport/StorPortSetUnitAttributes"
+ - "StorPortSetUnitAttributes"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Storport.h
 api_name:
 - StorPortSetUnitAttributes
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

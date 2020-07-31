@@ -10,6 +10,7 @@ keywords: ["RxLowIoCompletion function"]
 ms.keywords: RxLowIoCompletion, RxLowIoCompletion routine [Installable File System Drivers], ifsk.rxlowiocompletion, lowio/RxLowIoCompletion, rxref_9a8f198a-0177-42f5-9039-3f5d6a3fa14d.xml
 f1_keywords:
  - "lowio/RxLowIoCompletion"
+ - "RxLowIoCompletion"
 req.header: lowio.h
 req.include-header: Lowio.h, Rxcontx.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - lowio.h
 api_name:
 - RxLowIoCompletion
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

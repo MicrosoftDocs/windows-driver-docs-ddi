@@ -10,6 +10,7 @@ ms.date: 03/07/2019
 keywords: ["STORAGE_PROPERTY_SET structure"]
 f1_keywords:
  - "ntddstor/STORAGE_PROPERTY_SET"
+ - "STORAGE_PROPERTY_SET"
 ms.keywords: STORAGE_PROPERTY_SET, STORAGE_PROPERTY_SET, *PSTORAGE_PROPERTY_SET, 
 req.header: ntddstor.h
 req.include-header:

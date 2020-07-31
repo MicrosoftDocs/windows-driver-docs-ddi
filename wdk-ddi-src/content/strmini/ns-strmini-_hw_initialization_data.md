@@ -10,6 +10,7 @@ keywords: ["_HW_INITIALIZATION_DATA structure"]
 ms.keywords: "*PHW_INITIALIZATION_DATA, HW_INITIALIZATION_DATA, HW_INITIALIZATION_DATA structure [Streaming Media Devices], PHW_INITIALIZATION_DATA, PHW_INITIALIZATION_DATA structure pointer [Streaming Media Devices], _HW_INITIALIZATION_DATA, _HW_INITIALIZATION_DATA structure [Streaming Media Devices], strclass-struct_7c987d6a-732c-4de9-b98a-b68873458c41.xml, stream.hw_initialization_data, strmini/HW_INITIALIZATION_DATA, strmini/PHW_INITIALIZATION_DATA"
 f1_keywords:
  - "strmini/HW_INITIALIZATION_DATA"
+ - "HW_INITIALIZATION_DATA"
 req.header: strmini.h
 req.include-header: Strmini.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - strmini.h
 api_name:
 - HW_INITIALIZATION_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: HW_INITIALIZATION_DATA, *PHW_INITIALIZATION_DATA
 ---

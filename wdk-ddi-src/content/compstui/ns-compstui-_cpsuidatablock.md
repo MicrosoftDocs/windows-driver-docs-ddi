@@ -10,6 +10,7 @@ keywords: ["_CPSUIDATABLOCK structure"]
 ms.keywords: "*PCPSUIDATABLOCK, CPSUIDATABLOCK, CPSUIDATABLOCK structure [Print Devices], PCPSUIDATABLOCK, PCPSUIDATABLOCK structure pointer [Print Devices], _CPSUIDATABLOCK, compstui/CPSUIDATABLOCK, compstui/PCPSUIDATABLOCK, cpsuifnc_c9e406f5-1d6a-403d-a286-89cf199a09d2.xml, print.cpsuidatablock"
 f1_keywords:
  - "compstui/CPSUIDATABLOCK"
+ - "CPSUIDATABLOCK"
 req.header: compstui.h
 req.include-header: Compstui.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - compstui.h
 api_name:
 - CPSUIDATABLOCK
-product:
-- Windows
 targetos: Windows
 req.typenames: CPSUIDATABLOCK, *PCPSUIDATABLOCK
 ---

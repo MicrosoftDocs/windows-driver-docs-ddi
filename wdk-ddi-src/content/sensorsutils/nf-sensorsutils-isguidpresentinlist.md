@@ -8,6 +8,7 @@ keywords: ["IsGUIDPresentInList function"]
 tech.root: sensors
 f1_keywords:
  - "sensorsutils/IsGUIDPresentInList"
+ - "IsGUIDPresentInList"
 ms.keywords: IsGUIDPresentInList
 req.header: sensorsutils.h
 req.include-header:

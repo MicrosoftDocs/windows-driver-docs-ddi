@@ -10,6 +10,7 @@ keywords: ["_DEVICE_RESET_TYPE enumeration"]
 ms.keywords: DEVICE_RESET_TYPE, DEVICE_RESET_TYPE enumeration [Kernel-Mode Driver Architecture], FunctionLevelDeviceReset, PlatformLevelDeviceReset, _DEVICE_RESET_TYPE, kernel.device_reset_type, wdm/DEVICE_RESET_TYPE, wdm/FunctionLevelDeviceReset, wdm/PlatformLevelDeviceReset
 f1_keywords:
  - "wdm/DEVICE_RESET_TYPE"
+ - "DEVICE_RESET_TYPE"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - DEVICE_RESET_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: DEVICE_RESET_TYPE
 ---

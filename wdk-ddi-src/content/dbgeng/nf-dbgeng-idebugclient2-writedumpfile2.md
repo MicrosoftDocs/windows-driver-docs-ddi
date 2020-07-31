@@ -10,6 +10,7 @@ keywords: ["IDebugClient2::WriteDumpFile2"]
 ms.keywords: IDebugClient2 interface [Windows Debugging],WriteDumpFile2 method, IDebugClient2.WriteDumpFile2, IDebugClient2::WriteDumpFile2, IDebugClient3 interface [Windows Debugging],WriteDumpFile2 method, IDebugClient3::WriteDumpFile2, IDebugClient4 interface [Windows Debugging],WriteDumpFile2 method, IDebugClient4::WriteDumpFile2, IDebugClient5 interface [Windows Debugging],WriteDumpFile2 method, IDebugClient5::WriteDumpFile2, IDebugClient_6ce4aeba-f7a6-4872-9ff2-baf3b3165471.xml, WriteDumpFile2, WriteDumpFile2 method [Windows Debugging], WriteDumpFile2 method [Windows Debugging],IDebugClient2 interface, WriteDumpFile2 method [Windows Debugging],IDebugClient3 interface, WriteDumpFile2 method [Windows Debugging],IDebugClient4 interface, WriteDumpFile2 method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient2::WriteDumpFile2, dbgeng/IDebugClient3::WriteDumpFile2, dbgeng/IDebugClient4::WriteDumpFile2, dbgeng/IDebugClient5::WriteDumpFile2, debugger.writedumpfile2
 f1_keywords:
  - "dbgeng/IDebugClient2.WriteDumpFile2"
+ - "IDebugClient2.WriteDumpFile2"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -39,8 +40,6 @@ api_name:
 - IDebugClient3.WriteDumpFile2
 - IDebugClient4.WriteDumpFile2
 - IDebugClient5.WriteDumpFile2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

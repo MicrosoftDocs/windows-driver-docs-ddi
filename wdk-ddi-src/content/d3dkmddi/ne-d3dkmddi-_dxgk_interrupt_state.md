@@ -9,6 +9,7 @@ keywords: ["_DXGK_INTERRUPT_STATE enumeration"]
 ms.keywords: DXGK_INTERRUPT_DISABLE, DXGK_INTERRUPT_ENABLE, DXGK_INTERRUPT_STATE, DXGK_INTERRUPT_STATE enumeration [Display Devices], _DXGK_INTERRUPT_STATE, d3dkmddi/DXGK_INTERRUPT_DISABLE, d3dkmddi/DXGK_INTERRUPT_ENABLE, d3dkmddi/DXGK_INTERRUPT_STATE, display.dxgk_interrupt_state
 f1_keywords:
  - "d3dkmddi/DXGK_INTERRUPT_STATE"
+ - "DXGK_INTERRUPT_STATE"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGK_INTERRUPT_STATE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_INTERRUPT_STATE

@@ -10,6 +10,7 @@ keywords: ["WmiTraceMessageVa function"]
 ms.keywords: WmiTraceMessageVa, WmiTraceMessageVa routine [Kernel-Mode Driver Architecture], k902_c9c7dd80-d7a8-4b53-bcf1-f64c822e9e6d.xml, kernel.wmitracemessageva, wdm/WmiTraceMessageVa
 f1_keywords:
  - "wdm/WmiTraceMessageVa"
+ - "WmiTraceMessageVa"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - WmiTraceMessageVa
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

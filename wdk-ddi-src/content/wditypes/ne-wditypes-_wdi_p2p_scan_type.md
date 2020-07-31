@@ -10,6 +10,7 @@ keywords: ["_WDI_P2P_SCAN_TYPE enumeration"]
 ms.keywords: WDI_P2P_SCAN_TYPE, WDI_P2P_SCAN_TYPE enumeration [Device and Driver Installation], WDI_P2P_SCAN_TYPE_ACTIVE, WDI_P2P_SCAN_TYPE_AUTO, WDI_P2P_SCAN_TYPE_PASSIVE, _WDI_P2P_SCAN_TYPE, netvista.wdi_p2p_scan_type, netvista.wifi_p2p_scan_type, wditypes/WDI_P2P_SCAN_TYPE, wditypes/WDI_P2P_SCAN_TYPE_ACTIVE, wditypes/WDI_P2P_SCAN_TYPE_AUTO, wditypes/WDI_P2P_SCAN_TYPE_PASSIVE
 f1_keywords:
  - "wditypes/WDI_P2P_SCAN_TYPE"
+ - "WDI_P2P_SCAN_TYPE"
 req.header: wditypes.hpp
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wditypes.hpp
 api_name:
 - WDI_P2P_SCAN_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: WDI_P2P_SCAN_TYPE
 ---

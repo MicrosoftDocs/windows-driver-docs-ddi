@@ -10,6 +10,7 @@ keywords: ["FltIsEcpAcknowledged function"]
 ms.keywords: FltApiRef_e_to_o_a5a70461-2108-4e8f-a01b-0fec773f6010.xml, FltIsEcpAcknowledged, FltIsEcpAcknowledged routine [Installable File System Drivers], fltkernel/FltIsEcpAcknowledged, ifsk.fltisecpacknowledged
 f1_keywords:
  - "fltkernel/FltIsEcpAcknowledged"
+ - "FltIsEcpAcknowledged"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - FltMgr.sys
 api_name:
 - FltIsEcpAcknowledged
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

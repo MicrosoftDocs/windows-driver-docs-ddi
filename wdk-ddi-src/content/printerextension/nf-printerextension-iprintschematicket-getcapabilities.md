@@ -10,6 +10,7 @@ keywords: ["IPrintSchemaTicket::GetCapabilities"]
 ms.keywords: GetCapabilities, GetCapabilities method [Print Devices], GetCapabilities method [Print Devices],IPrintSchemaTicket interface, IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices],GetCapabilities method, IPrintSchemaTicket.GetCapabilities, IPrintSchemaTicket::GetCapabilities, print.iprintschematicket_getcapabilities, printerextension/IPrintSchemaTicket::GetCapabilities
 f1_keywords:
  - "printerextension/IPrintSchemaTicket.GetCapabilities"
+ - "IPrintSchemaTicket.GetCapabilities"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - printerextension.h
 api_name:
 - IPrintSchemaTicket.GetCapabilities
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["RILMESSAGEFLAGS enumeration"]
 ms.keywords: RILMESSAGEFLAGS, RILMESSAGEFLAGS enumeration [Network Drivers Starting with Windows Vista], RIL_MSGFLAG_ALL, RIL_MSGFLAG_CAUSEDBYCOMMAND, RIL_MSGFLAG_HEADER, RIL_MSGFLAG_MORETOSEND, RIL_MSGFLAG_REJECTDUPS, RIL_MSGFLAG_REPLYPATH, RIL_MSGFLAG_STATUSREPORTREQUESTED, RIL_MSGFLAG_STATUSREPORTRETURNED, netvista.rilmessageflags, ntddrilapitypes/RILMESSAGEFLAGS, ntddrilapitypes/RIL_MSGFLAG_ALL, ntddrilapitypes/RIL_MSGFLAG_CAUSEDBYCOMMAND, ntddrilapitypes/RIL_MSGFLAG_HEADER, ntddrilapitypes/RIL_MSGFLAG_MORETOSEND, ntddrilapitypes/RIL_MSGFLAG_REJECTDUPS, ntddrilapitypes/RIL_MSGFLAG_REPLYPATH, ntddrilapitypes/RIL_MSGFLAG_STATUSREPORTREQUESTED, ntddrilapitypes/RIL_MSGFLAG_STATUSREPORTRETURNED
 f1_keywords:
  - "rilapitypes/RILMESSAGEFLAGS"
+ - "RILMESSAGEFLAGS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILMESSAGEFLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILMESSAGEFLAGS
 ---

@@ -10,6 +10,7 @@ keywords: ["_SET_BAND_SECURITY_PARAMETERS structure"]
 ms.keywords: "*PSET_BAND_SECURITY_PARAMETERS, PSET_BAND_SECURITY_PARAMETERS, PSET_BAND_SECURITY_PARAMETERS structure pointer [Storage Devices], SETBANDSEC_AUTHKEY_CACHING_ENABLED, SET_BAND_SECURITY_PARAMETERS, SET_BAND_SECURITY_PARAMETERS structure [Storage Devices], _SET_BAND_SECURITY_PARAMETERS, ehstorbandmgmt/PSET_BAND_SECURITY_PARAMETERS, ehstorbandmgmt/SET_BAND_SECURITY_PARAMETERS, storage.set_band_security_parameters"
 f1_keywords:
  - "ehstorbandmgmt/SET_BAND_SECURITY_PARAMETERS"
+ - "SET_BAND_SECURITY_PARAMETERS"
 req.header: ehstorbandmgmt.h
 req.include-header: EhStorBandMgmt.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - EhStorBandMgmt.h
 api_name:
 - SET_BAND_SECURITY_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: SET_BAND_SECURITY_PARAMETERS, *PSET_BAND_SECURITY_PARAMETERS
 ---

@@ -10,6 +10,7 @@ keywords: ["_SETRESULT_INFO structure"]
 ms.keywords: "*PSETRESULT_INFO, PSETRESULT_INFO, PSETRESULT_INFO structure pointer [Print Devices], SETRESULT_INFO, SETRESULT_INFO structure [Print Devices], _SETRESULT_INFO, compstui/PSETRESULT_INFO, compstui/SETRESULT_INFO, cpsuifnc_df5b07fc-1a38-4ae2-a994-2862d9791b10.xml, print.setresult_info"
 f1_keywords:
  - "compstui/SETRESULT_INFO"
+ - "SETRESULT_INFO"
 req.header: compstui.h
 req.include-header: Compstui.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - compstui.h
 api_name:
 - SETRESULT_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---

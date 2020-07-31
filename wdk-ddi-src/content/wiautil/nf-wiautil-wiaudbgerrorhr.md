@@ -10,6 +10,7 @@ keywords: ["wiauDbgErrorHr function"]
 ms.keywords: image.wiaudbgerrorhr, wiauDbgErrorHr, wiauDbgErrorHr function [Imaging Devices], wiauFncs_1400188e-53d1-481c-a470-8a2247b7f34f.xml, wiautil/wiauDbgErrorHr
 f1_keywords:
  - "wiautil/wiauDbgErrorHr"
+ - "wiauDbgErrorHr"
 req.header: wiautil.h
 req.include-header: Wiautil.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wiautil.h
 api_name:
 - wiauDbgErrorHr
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

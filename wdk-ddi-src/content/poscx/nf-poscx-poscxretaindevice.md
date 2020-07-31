@@ -10,6 +10,7 @@ keywords: ["PosCxRetainDevice function"]
 ms.keywords: PosCxRetainDevice, PosCxRetainDevice function, pos.poscxretaindevice, poscx/PosCxRetainDevice
 f1_keywords:
  - "poscx/PosCxRetainDevice"
+ - "PosCxRetainDevice"
 req.header: poscx.h
 req.include-header: Poscx.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - poscx.h
 api_name:
 - PosCxRetainDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 req.product: Windows 10 or later.

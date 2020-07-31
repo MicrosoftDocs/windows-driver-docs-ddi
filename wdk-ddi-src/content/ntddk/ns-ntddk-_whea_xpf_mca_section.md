@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_WHEA_XPF_MCA_SECTION structure"]
 f1_keywords:
  - "ntddk/_WHEA_XPF_MCA_SECTION"
+ - "_WHEA_XPF_MCA_SECTION"
 ms.keywords: _WHEA_XPF_MCA_SECTION, WHEA_XPF_MCA_SECTION, *PWHEA_XPF_MCA_SECTION, 
 req.header: ntddk.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - ntddk.h
 api_name: 
 - _WHEA_XPF_MCA_SECTION
-product:
-- Windows
 targetos: Windows
 ---
 

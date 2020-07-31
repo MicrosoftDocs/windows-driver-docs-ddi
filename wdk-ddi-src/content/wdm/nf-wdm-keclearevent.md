@@ -10,6 +10,7 @@ keywords: ["KeClearEvent function"]
 ms.keywords: KeClearEvent, KeClearEvent routine [Kernel-Mode Driver Architecture], k105_1ea5c68a-0b59-48ec-911b-058b6a3e586b.xml, kernel.keclearevent, wdm/KeClearEvent
 f1_keywords:
  - "wdm/KeClearEvent"
+ - "KeClearEvent"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeClearEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

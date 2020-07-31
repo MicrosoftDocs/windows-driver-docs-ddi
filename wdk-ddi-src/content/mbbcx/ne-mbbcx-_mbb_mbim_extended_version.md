@@ -8,6 +8,7 @@ ms.date: 09/27/2019
 keywords: ["_MBB_MBIM_EXTENDED_VERSION enumeration"]
 f1_keywords:
  - "mbbcx/-	_MBB_MBIM_EXTENDED_VERSION"
+ - "-	_MBB_MBIM_EXTENDED_VERSION"
 ms.keywords: _MBB_MBIM_EXTENDED_VERSION, MBB_MBIM_EXTENDED_VERSION, 
 req.header: mbbcx.h
 req.include-header:
@@ -27,8 +28,6 @@ api_location:
 - mbbcx.h
 api_name: 
 - _MBB_MBIM_EXTENDED_VERSION
-product:
-- Windows
 targetos: Windows
 ms.custom: 19H1
 ---

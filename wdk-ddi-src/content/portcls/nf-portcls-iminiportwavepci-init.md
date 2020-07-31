@@ -10,6 +10,7 @@ keywords: ["IMiniportWavePci::Init"]
 ms.keywords: IMiniportWavePci interface [Audio Devices],Init method, IMiniportWavePci.Init, IMiniportWavePci::Init, Init, Init method [Audio Devices], Init method [Audio Devices],IMiniportWavePci interface, audio.iminiportwavepci_init, audmp-routines_fd2d7813-ebe8-4cf3-8a6c-4ebfccca5826.xml, portcls/IMiniportWavePci::Init
 f1_keywords:
  - "portcls/IMiniportWavePci.Init"
+ - "IMiniportWavePci.Init"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IMiniportWavePci.Init
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

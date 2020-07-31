@@ -10,6 +10,7 @@ keywords: ["RILMSGOUTSUBMIT structure"]
 ms.keywords: "*LPRILMSGOUTSUBMIT, RILMSGOUTSUBMIT, RILMSGOUTSUBMIT structure [Network Drivers Starting with Windows Vista], netvista.rilmsgoutsubmit, ntddrilapitypes/RILMSGOUTSUBMIT"
 f1_keywords:
  - "ntddrilapitypes/RILMSGOUTSUBMIT"
+ - "RILMSGOUTSUBMIT"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILMSGOUTSUBMIT
-product:
-- Windows
 targetos: Windows
 req.typenames: RILMSGOUTSUBMIT, *LPRILMSGOUTSUBMIT
 ---

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["WELL_KNOWN_SID_TYPE enumeration"]
 f1_keywords:
  - "ntddk/WELL_KNOWN_SID_TYPE"
+ - "WELL_KNOWN_SID_TYPE"
 ms.keywords: WELL_KNOWN_SID_TYPE, WELL_KNOWN_SID_TYPE 
 req.header: ntddk.h
 req.include-header:
@@ -26,8 +27,6 @@ api_location:
 - ntddk.h
 api_name: 
 - WELL_KNOWN_SID_TYPE
-product:
-- Windows
 targetos: Windows
 ---
 

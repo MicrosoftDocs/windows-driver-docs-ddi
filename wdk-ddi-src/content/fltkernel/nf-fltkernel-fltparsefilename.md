@@ -10,6 +10,7 @@ keywords: ["FltParseFileName function"]
 ms.keywords: FltApiRef_p_to_z_57a4d7c0-f653-4c91-a16b-1de79ef56342.xml, FltParseFileName, FltParseFileName function [Installable File System Drivers], fltkernel/FltParseFileName, ifsk.fltparsefilename
 f1_keywords:
  - "fltkernel/FltParseFileName"
+ - "FltParseFileName"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltParseFileName
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

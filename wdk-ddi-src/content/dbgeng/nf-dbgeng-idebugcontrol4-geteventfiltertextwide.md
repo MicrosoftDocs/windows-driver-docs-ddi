@@ -10,6 +10,7 @@ keywords: ["IDebugControl4::GetEventFilterTextWide"]
 ms.keywords: GetEventFilterTextWide, GetEventFilterTextWide method [Windows Debugging], GetEventFilterTextWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetEventFilterTextWide method, IDebugControl4.GetEventFilterTextWide, IDebugControl4::GetEventFilterTextWide, dbgeng/IDebugControl4::GetEventFilterTextWide, debugger.geteventfiltertextwide
 f1_keywords:
  - "dbgeng/IDebugControl4.GetEventFilterTextWide"
+ - "IDebugControl4.GetEventFilterTextWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugControl4.GetEventFilterTextWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

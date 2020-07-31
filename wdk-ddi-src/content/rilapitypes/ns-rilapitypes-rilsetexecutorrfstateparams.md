@@ -10,6 +10,7 @@ keywords: ["RILSETEXECUTORRFSTATEPARAMS structure"]
 ms.keywords: "*LPRILSETEXECUTORRFSTATEPARAMS, RILSETEXECUTORRFSTATEPARAMS, RILSETEXECUTORRFSTATEPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetexecutorrfstateparams, ntddrilapitypes/RILSETEXECUTORRFSTATEPARAMS"
 f1_keywords:
  - "rilapitypes/RILSETEXECUTORRFSTATEPARAMS"
+ - "RILSETEXECUTORRFSTATEPARAMS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILSETEXECUTORRFSTATEPARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILSETEXECUTORRFSTATEPARAMS, *LPRILSETEXECUTORRFSTATEPARAMS
 ---

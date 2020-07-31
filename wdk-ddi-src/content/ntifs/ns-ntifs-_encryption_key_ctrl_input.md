@@ -8,6 +8,7 @@ ms.date: 10/19/2018
 keywords: ["_ENCRYPTION_KEY_CTRL_INPUT structure"]
 f1_keywords:
  - "ntifs/_ENCRYPTION_KEY_CTRL_INPUT"
+ - "_ENCRYPTION_KEY_CTRL_INPUT"
 ms.keywords: _ENCRYPTION_KEY_CTRL_INPUT, ENCRYPTION_KEY_CTRL_INPUT, *PENCRYPTION_KEY_CTRL_INPUT, 
 req.header: ntifs.h
 req.include-header:
@@ -30,8 +31,6 @@ api_location:
 - ntifs.h
 api_name: 
 - _ENCRYPTION_KEY_CTRL_INPUT
-product:
-- Windows
 targetos: Windows
 ---
 

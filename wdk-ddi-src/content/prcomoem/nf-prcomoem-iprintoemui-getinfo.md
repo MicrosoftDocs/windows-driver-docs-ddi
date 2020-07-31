@@ -10,6 +10,7 @@ keywords: ["IPrintOemUI::GetInfo"]
 ms.keywords: GetInfo, GetInfo method [Print Devices], GetInfo method [Print Devices],IPrintOemUI interface, IPrintOemUI interface [Print Devices],GetInfo method, IPrintOemUI.GetInfo, IPrintOemUI::GetInfo, prcomoem/IPrintOemUI::GetInfo, print.iprintoemui_getinfo, print_unidrv-pscript_ui_8ec47e58-ddf5-4445-85d9-475cfbe0e51b.xml
 f1_keywords:
  - "prcomoem/IPrintOemUI.GetInfo"
+ - "IPrintOemUI.GetInfo"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Prcomoem.h
 api_name:
 - IPrintOemUI.GetInfo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

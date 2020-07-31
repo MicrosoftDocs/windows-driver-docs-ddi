@@ -10,6 +10,7 @@ keywords: ["IPortableDeviceValues::GetBoolValue"]
 ms.keywords: GetBoolValue, GetBoolValue method, GetBoolValue method,IPortableDeviceValues interface, IPortableDeviceValues interface,GetBoolValue method, IPortableDeviceValues.GetBoolValue, IPortableDeviceValues::GetBoolValue, IPortableDeviceValuesGetBoolValue, portabledevicetypes/IPortableDeviceValues::GetBoolValue, wpddk.iportabledevicevalues_getboolvalue
 f1_keywords:
  - "portabledevicetypes/IPortableDeviceValues.GetBoolValue"
+ - "IPortableDeviceValues.GetBoolValue"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - PortableDeviceTypes.h
 api_name:
 - IPortableDeviceValues.GetBoolValue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

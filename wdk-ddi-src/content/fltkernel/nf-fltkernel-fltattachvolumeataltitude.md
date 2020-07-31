@@ -10,6 +10,7 @@ keywords: ["FltAttachVolumeAtAltitude function"]
 ms.keywords: FltApiRef_a_to_d_5a0e9e03-7d81-4894-9430-fed1c32181b6.xml, FltAttachVolumeAtAltitude, FltAttachVolumeAtAltitude routine [Installable File System Drivers], fltkernel/FltAttachVolumeAtAltitude, ifsk.fltattachvolumeataltitude
 f1_keywords:
  - "fltkernel/FltAttachVolumeAtAltitude"
+ - "FltAttachVolumeAtAltitude"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - FltMgr.dll
 api_name:
 - FltAttachVolumeAtAltitude
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -171,7 +170,7 @@ The UNICODE_STRING structure that <i>Altitude</i> points to did not contain a va
 
 A minifilter driver should only use <b>FltAttachVolumeAtAltitude</b> for debugging. It should not call this routine in a retail version of the minifilter driver. 
 
-<b>FltAttachVolumeAtAltitude</b> is the kernel equivalent of the Win32 <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterattachataltitude">FilterAttachAtAltitude</a> function. 
+<b>FltAttachVolumeAtAltitude</b> is the kernel equivalent of the Win32 <a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filterattachataltitude">FilterAttachAtAltitude</a> function. 
 
 The term "altitude" refers to the position that an instance occupies (or should occupy) in the minifilter driver instance stack for a volume. The higher the altitude, the farther the instance is from the base file system in the stack. Only one instance can be attached at a given altitude on a given volume. 
 
@@ -197,7 +196,7 @@ To detach a minifilter driver instance from a volume, call <a href="https://docs
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterattachataltitude">FilterAttachAtAltitude</a>
+<a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filterattachataltitude">FilterAttachAtAltitude</a>
 
 
 

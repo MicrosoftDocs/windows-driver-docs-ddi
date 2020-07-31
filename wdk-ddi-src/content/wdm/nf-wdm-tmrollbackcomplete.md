@@ -10,6 +10,7 @@ keywords: ["TmRollbackComplete function"]
 ms.keywords: TmRollbackComplete, TmRollbackComplete routine [Kernel-Mode Driver Architecture], kernel.tmrollbackcomplete, ktm_ref_57ef03c4-5d49-4871-a1ef-c6083c9680a8.xml, wdm/TmRollbackComplete
 f1_keywords:
  - "wdm/TmRollbackComplete"
+ - "TmRollbackComplete"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -38,8 +39,6 @@ api_location:
 - tm.sys
 api_name:
 - TmRollbackComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

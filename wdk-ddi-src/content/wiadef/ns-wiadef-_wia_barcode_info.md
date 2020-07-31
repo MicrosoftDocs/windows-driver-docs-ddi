@@ -10,6 +10,7 @@ keywords: ["_WIA_BARCODE_INFO structure"]
 ms.keywords: WIA_BARCODE_INFO, WIA_BARCODE_INFO structure [Imaging Devices], _WIA_BARCODE_INFO, image.wia_barcode_info, wiadef/WIA_BARCODE_INFO
 f1_keywords:
  - "wiadef/WIA_BARCODE_INFO"
+ - "WIA_BARCODE_INFO"
 req.header: wiadef.h
 req.include-header: Wiadef.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wiadef.h
 api_name:
 - WIA_BARCODE_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: WIA_BARCODE_INFO
 ---

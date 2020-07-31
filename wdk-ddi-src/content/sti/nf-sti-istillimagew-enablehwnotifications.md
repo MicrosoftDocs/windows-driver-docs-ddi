@@ -10,6 +10,7 @@ keywords: ["IStillImageW::EnableHwNotifications"]
 ms.keywords: EnableHwNotifications, EnableHwNotifications method [Imaging Devices], EnableHwNotifications method [Imaging Devices],IStillImageW interface, IStillImageW interface [Imaging Devices],EnableHwNotifications method, IStillImageW.EnableHwNotifications, IStillImageW::EnableHwNotifications, image.istillimage_enablehwnotifications, sti/IStillImageW::EnableHwNotifications, stifnc_50df840a-7fa2-4235-864f-dee8ce5ce849.xml
 f1_keywords:
  - "sti/IStillImageW.EnableHwNotifications"
+ - "IStillImageW.EnableHwNotifications"
 req.header: sti.h
 req.include-header: Sti.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - sti.h
 api_name:
 - IStillImageW.EnableHwNotifications
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

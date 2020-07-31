@@ -10,6 +10,7 @@ keywords: ["KSSTREAMALLOCATOR_STATUS structure"]
 ms.keywords: "*PKSSTREAMALLOCATOR_STATUS, KSSTREAMALLOCATOR_STATUS, KSSTREAMALLOCATOR_STATUS structure [Streaming Media Devices], PKSSTREAMALLOCATOR_STATUS, PKSSTREAMALLOCATOR_STATUS structure pointer [Streaming Media Devices], ks-struct_e9071d70-ee9c-4ef9-828e-81d9abf6cc68.xml, ks/KSSTREAMALLOCATOR_STATUS, ks/PKSSTREAMALLOCATOR_STATUS, stream.ksstreamallocator_status"
 f1_keywords:
  - "ks/KSSTREAMALLOCATOR_STATUS"
+ - "KSSTREAMALLOCATOR_STATUS"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KSSTREAMALLOCATOR_STATUS
-product:
-- Windows
 targetos: Windows
 req.typenames: KSSTREAMALLOCATOR_STATUS, *PKSSTREAMALLOCATOR_STATUS
 ---

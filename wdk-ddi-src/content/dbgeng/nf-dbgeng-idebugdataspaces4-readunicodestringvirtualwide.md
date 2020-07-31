@@ -10,6 +10,7 @@ keywords: ["IDebugDataSpaces4::ReadUnicodeStringVirtualWide"]
 ms.keywords: IDebugDataSpaces4 interface [Windows Debugging],ReadUnicodeStringVirtualWide method, IDebugDataSpaces4.ReadUnicodeStringVirtualWide, IDebugDataSpaces4::ReadUnicodeStringVirtualWide, IDebugDataSpaces_c722fa7f-bbd2-4e0c-bd83-c59d2442ae26.xml, ReadUnicodeStringVirtualWide, ReadUnicodeStringVirtualWide method [Windows Debugging], ReadUnicodeStringVirtualWide method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces4::ReadUnicodeStringVirtualWide, debugger.readunicodestringvirtualwide
 f1_keywords:
  - "dbgeng/IDebugDataSpaces4.ReadUnicodeStringVirtualWide"
+ - "IDebugDataSpaces4.ReadUnicodeStringVirtualWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugDataSpaces4.ReadUnicodeStringVirtualWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

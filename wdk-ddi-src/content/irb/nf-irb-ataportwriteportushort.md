@@ -10,6 +10,7 @@ keywords: ["AtaPortWritePortUshort function"]
 ms.keywords: AtaPortWritePortUshort, AtaPortWritePortUshort routine [Storage Devices], atartns_1766efcd-f235-43ae-8fbe-ab56a858a7ee.xml, irb/AtaPortWritePortUshort, storage.ataportwriteportushort
 f1_keywords:
  - "irb/AtaPortWritePortUshort"
+ - "AtaPortWritePortUshort"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
@@ -39,8 +40,6 @@ api_location:
 - pciidex.dll
 api_name:
 - AtaPortWritePortUshort
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

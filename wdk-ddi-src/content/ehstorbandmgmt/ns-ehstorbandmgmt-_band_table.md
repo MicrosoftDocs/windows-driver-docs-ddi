@@ -10,6 +10,7 @@ keywords: ["_BAND_TABLE structure"]
 ms.keywords: "*PBAND_TABLE, BAND_TABLE, BAND_TABLE structure [Storage Devices], PBAND_TABLE, PBAND_TABLE structure pointer [Storage Devices], _BAND_TABLE, ehstorbandmgmt/BAND_TABLE, ehstorbandmgmt/PBAND_TABLE, storage.band_table"
 f1_keywords:
  - "ehstorbandmgmt/BAND_TABLE"
+ - "BAND_TABLE"
 req.header: ehstorbandmgmt.h
 req.include-header: EhStorBandMgmt.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - EhStorBandMgmt.h
 api_name:
 - BAND_TABLE
-product:
-- Windows
 targetos: Windows
 req.typenames: BAND_TABLE, *PBAND_TABLE
 ---

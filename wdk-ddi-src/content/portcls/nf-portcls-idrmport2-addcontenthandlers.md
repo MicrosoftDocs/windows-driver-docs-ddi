@@ -10,6 +10,7 @@ keywords: ["IDrmPort2::AddContentHandlers"]
 ms.keywords: AddContentHandlers, AddContentHandlers method [Audio Devices], AddContentHandlers method [Audio Devices],IDrmPort2 interface, IDrmPort2 interface [Audio Devices],AddContentHandlers method, IDrmPort2.AddContentHandlers, IDrmPort2::AddContentHandlers, audio.idrmport2_addcontenthandlers, audmp-routines_f2bbb2e7-eed1-4ffd-93d9-050dcb6b0b60.xml, portcls/IDrmPort2::AddContentHandlers
 f1_keywords:
  - "portcls/IDrmPort2.AddContentHandlers"
+ - "IDrmPort2.AddContentHandlers"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IDrmPort2.AddContentHandlers
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

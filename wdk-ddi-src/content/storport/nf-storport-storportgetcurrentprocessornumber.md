@@ -10,6 +10,7 @@ keywords: ["StorPortGetCurrentProcessorNumber function"]
 ms.keywords: StorPortGetCurrentProcessorNumber, StorPortGetCurrentProcessorNumber routine [Storage Devices], storage.storportgetcurrentprocessornumber, storport/StorPortGetCurrentProcessorNumber, storprt_ac4d7e8b-eeb7-4b10-9c9e-cfe9acfddb24.xml
 f1_keywords:
  - "storport/StorPortGetCurrentProcessorNumber"
+ - "StorPortGetCurrentProcessorNumber"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - storport.h
 api_name:
 - StorPortGetCurrentProcessorNumber
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

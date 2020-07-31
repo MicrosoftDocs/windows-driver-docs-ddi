@@ -10,6 +10,7 @@ keywords: ["IAllocatorMXF::GetBuffer"]
 ms.keywords: GetBuffer, GetBuffer method [Audio Devices], GetBuffer method [Audio Devices],IAllocatorMXF interface, IAllocatorMXF interface [Audio Devices],GetBuffer method, IAllocatorMXF.GetBuffer, IAllocatorMXF::GetBuffer, audio.iallocatormxf_getbuffer, audmp-routines_5abb78f4-de92-4342-877f-e7f1c15f8d8e.xml, dmusicks/IAllocatorMXF::GetBuffer
 f1_keywords:
  - "dmusicks/IAllocatorMXF.GetBuffer"
+ - "IAllocatorMXF.GetBuffer"
 req.header: dmusicks.h
 req.include-header: Dmusicks.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dmusicks.h
 api_name:
 - IAllocatorMXF.GetBuffer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

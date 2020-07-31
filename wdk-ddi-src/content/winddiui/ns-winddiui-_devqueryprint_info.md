@@ -10,6 +10,7 @@ keywords: ["_DEVQUERYPRINT_INFO structure"]
 ms.keywords: "*PDEVQUERYPRINT_INFO, DEVQUERYPRINT_INFO, DEVQUERYPRINT_INFO structure [Print Devices], PDEVQUERYPRINT_INFO, PDEVQUERYPRINT_INFO structure pointer [Print Devices], _DEVQUERYPRINT_INFO, print.devqueryprint_info, print_interface-graphics_f968cd94-5290-4aab-908b-c0c01d3038a6.xml, winddiui/DEVQUERYPRINT_INFO, winddiui/PDEVQUERYPRINT_INFO"
 f1_keywords:
  - "winddiui/DEVQUERYPRINT_INFO"
+ - "DEVQUERYPRINT_INFO"
 req.header: winddiui.h
 req.include-header: Winddiui.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - winddiui.h
 api_name:
 - DEVQUERYPRINT_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: DEVQUERYPRINT_INFO, *PDEVQUERYPRINT_INFO
 ---

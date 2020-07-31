@@ -7,6 +7,7 @@ ms.date: 09/18/2018
 keywords: ["IDebugHostModule::FindSymbolByRVA"]
 f1_keywords:
  - "dbgmodel/IDebugHostModule.FindSymbolByRVA"
+ - "IDebugHostModule.FindSymbolByRVA"
 ms.keywords: IDebugHostModule::FindSymbolByRVA, FindSymbolByRVA, IDebugHostModule.FindSymbolByRVA, IDebugHostModule::FindSymbolByRVA, IDebugHostModule.FindSymbolByRVA
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostModule.FindSymbolByRVA
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

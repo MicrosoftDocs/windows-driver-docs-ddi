@@ -10,6 +10,7 @@ keywords: ["MmProtectMdlSystemAddress function"]
 ms.keywords: MmProtectMdlSystemAddress, MmProtectMdlSystemAddress routine [Kernel-Mode Driver Architecture], k106_b2a56ec8-cfee-4547-b1c2-6f817ecbfaad.xml, kernel.mmprotectmdlsystemaddress, wdm/MmProtectMdlSystemAddress
 f1_keywords:
  - "wdm/MmProtectMdlSystemAddress"
+ - "MmProtectMdlSystemAddress"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - MmProtectMdlSystemAddress
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

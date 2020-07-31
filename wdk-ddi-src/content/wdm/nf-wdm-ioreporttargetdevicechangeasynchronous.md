@@ -10,6 +10,7 @@ keywords: ["IoReportTargetDeviceChangeAsynchronous function"]
 ms.keywords: IoReportTargetDeviceChangeAsynchronous, IoReportTargetDeviceChangeAsynchronous routine [Kernel-Mode Driver Architecture], k104_b66839d5-f3b6-4f30-bf24-7b4ee869e733.xml, kernel.ioreporttargetdevicechangeasynchronous, wdm/IoReportTargetDeviceChangeAsynchronous
 f1_keywords:
  - "wdm/IoReportTargetDeviceChangeAsynchronous"
+ - "IoReportTargetDeviceChangeAsynchronous"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoReportTargetDeviceChangeAsynchronous
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["RIL_ReadPhonebookEntries function"]
 ms.keywords: RIL_ReadPhonebookEntries, RIL_ReadPhonebookEntries method [Network Drivers Starting with Windows Vista], netvista.ril_readphonebookentries, rilapi/RIL_ReadPhonebookEntries
 f1_keywords:
  - "rilapi/RIL_ReadPhonebookEntries"
+ - "RIL_ReadPhonebookEntries"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_ReadPhonebookEntries
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

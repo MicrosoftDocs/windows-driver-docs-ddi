@@ -9,6 +9,7 @@ keywords: ["D3D10_2DDIARG_GETCAPS structure"]
 ms.keywords: D3D10_2DDIARG_GETCAPS, D3D10_2DDIARG_GETCAPS structure [Display Devices], UMDisplayDriver_Dx11param_Structs_0d9c80db-e29f-4e2f-b697-bcf87f29034c.xml, d3d10umddi/D3D10_2DDIARG_GETCAPS, display.d3d10_2ddiarg_getcaps
 f1_keywords:
  - "d3d10umddi/D3D10_2DDIARG_GETCAPS"
+ - "D3D10_2DDIARG_GETCAPS"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - D3D10_2DDIARG_GETCAPS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D10_2DDIARG_GETCAPS

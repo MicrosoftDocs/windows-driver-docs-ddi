@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_FAULT_INFORMATION_ARCH enumeration"]
 f1_keywords:
  - "wdm/_FAULT_INFORMATION_ARCH"
+ - "_FAULT_INFORMATION_ARCH"
 ms.keywords: _FAULT_INFORMATION_ARCH, *PFAULT_INFORMATION_ARCH, FAULT_INFORMATION_ARCH, 
 req.header: wdm.h
 req.include-header:
@@ -26,8 +27,6 @@ api_location:
 - wdm.h
 api_name: 
 - _FAULT_INFORMATION_ARCH
-product:
-- Windows
 targetos: Windows
 ---
 

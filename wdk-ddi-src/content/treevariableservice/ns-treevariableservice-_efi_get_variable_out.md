@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_EFI_GET_VARIABLE_OUT structure"]
 f1_keywords:
  - "treevariableservice/_EFI_GET_VARIABLE_OUT"
+ - "_EFI_GET_VARIABLE_OUT"
 ms.keywords: _EFI_GET_VARIABLE_OUT, EFI_GET_VARIABLE_OUT, *PEFI_GET_VARIABLE_OUT, 
 req.header: treevariableservice.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - treevariableservice.h
 api_name: 
 - _EFI_GET_VARIABLE_OUT
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

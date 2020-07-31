@@ -10,6 +10,7 @@ keywords: ["PFN_MIRACAST_IO_CONTROL callback function"]
 ms.keywords: MiracastIoControl, MiracastIoControl callback function [Display Devices], PFN_MIRACAST_IO_CONTROL, PFN_MIRACAST_IO_CONTROL callback, display.miracastiocontrol, netdispumdddi/MiracastIoControl
 f1_keywords:
  - "netdispumdddi/MiracastIoControl"
+ - "MiracastIoControl"
 req.header: netdispumdddi.h
 req.include-header: Netdispumdddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Netdispumdddi.h
 api_name:
 - MiracastIoControl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

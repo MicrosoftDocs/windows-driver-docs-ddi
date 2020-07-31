@@ -10,6 +10,7 @@ keywords: ["RtlSplay function"]
 ms.keywords: RtlSplay, RtlSplay routine [Installable File System Drivers], ifsk.rtlsplay, ntddk/RtlSplay, rtlref_e44a955e-57eb-46f9-be07-9f658b8fd6db.xml
 f1_keywords:
  - "ntddk/RtlSplay"
+ - "RtlSplay"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlSplay
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

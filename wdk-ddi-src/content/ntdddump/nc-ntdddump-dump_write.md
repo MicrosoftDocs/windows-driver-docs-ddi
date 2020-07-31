@@ -10,6 +10,7 @@ keywords: ["DUMP_WRITE callback function"]
 ms.keywords: Dump_Write, Dump_Write routine [Storage Devices], PDUMP_WRITE, filter_rtns_acfeabaa-fc01-494a-b344-c47d1fccd1ee.xml, ntdddump/Dump_Write, storage.dump_write
 f1_keywords:
  - "ntdddump/Dump_Write"
+ - "Dump_Write"
 req.header: ntdddump.h
 req.include-header: Ntdddump.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ntdddump.h
 api_name:
 - Dump_Write
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

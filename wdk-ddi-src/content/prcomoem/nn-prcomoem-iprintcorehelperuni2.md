@@ -10,6 +10,7 @@ keywords: ["IPrintCoreHelperUni2 interface"]
 ms.keywords: IPrintCoreHelperUni2, IPrintCoreHelperUni2 interface [Print Devices], IPrintCoreHelperUni2 interface [Print Devices],described, prcomoem/IPrintCoreHelperUni2, print.iprintcorehelperuni2_interface
 f1_keywords:
  - "prcomoem/IPrintCoreHelperUni2"
+ - "IPrintCoreHelperUni2"
 req.header: prcomoem.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - prcomoem.h
 api_name:
 - IPrintCoreHelperUni2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,7 +52,7 @@ The IPrintCoreHelperUni2 interface derives from the <a href="https://docs.micros
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintCoreHelperUni2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintCoreHelperUni2</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintCoreHelperUni2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintCoreHelperUni2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

@@ -8,6 +8,7 @@ ms.date: 08/22/2018
 keywords: ["_WWAN_CONTEXT_ENABLE enumeration"]
 f1_keywords:
  - "wwan/_WWAN_CONTEXT_ENABLE"
+ - "_WWAN_CONTEXT_ENABLE"
 ms.keywords: _WWAN_CONTEXT_ENABLE, WWAN_CONTEXT_ENABLE, *PWWAN_CONTEXT_ENABLE, 
 req.header: wwan.h
 req.include-header:

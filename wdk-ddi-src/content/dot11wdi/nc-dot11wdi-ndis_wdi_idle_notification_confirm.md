@@ -10,6 +10,7 @@ keywords: ["NDIS_WDI_IDLE_NOTIFICATION_CONFIRM callback function"]
 ms.keywords: NDIS_WDI_IDLE_NOTIFICATION_CONFIRM, NDIS_WDI_IDLE_NOTIFICATION_CONFIRM callback, NdisWdiIdleNotificationConfirm, NdisWdiIdleNotificationConfirm callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiIdleNotificationConfirm, netvista.ndiswdiidlenotificationconfirm
 f1_keywords:
  - "dot11wdi/NdisWdiIdleNotificationConfirm"
+ - "NdisWdiIdleNotificationConfirm"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dot11wdi.h
 api_name:
 - NdisWdiIdleNotificationConfirm
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

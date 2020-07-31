@@ -10,6 +10,7 @@ keywords: ["EVT_IDD_CX_MONITOR_SET_GAMMA_RAMP callback function"]
 ms.keywords: EVT_IDD_CX_MONITOR_SET_GAMMA_RAMP, EVT_IDD_CX_MONITOR_SET_GAMMA_RAMP callback, EvtIddCxMonitorSetGammaRamp, EvtIddCxMonitorSetGammaRamp callback function [Display Devices], PFN_IDD_CX_MONITOR_SET_GAMMA_RAMP, PFN_IDD_CX_MONITOR_SET_GAMMA_RAMP callback function pointer [Display Devices], display.evt_idd_cx_monitor_set_gamma_ramp, iddcx/EvtIddCxMonitorSetGammaRamp
 f1_keywords:
  - "iddcx/PFN_IDD_CX_MONITOR_SET_GAMMA_RAMP"
+ - "PFN_IDD_CX_MONITOR_SET_GAMMA_RAMP"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - iddcx.h
 api_name:
 - PFN_IDD_CX_MONITOR_SET_GAMMA_RAMP
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

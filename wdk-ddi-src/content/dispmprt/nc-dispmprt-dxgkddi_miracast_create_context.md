@@ -10,6 +10,7 @@ keywords: ["DXGKDDI_MIRACAST_CREATE_CONTEXT callback function"]
 ms.keywords: DXGKDDI_MIRACAST_CREATE_CONTEXT, DXGKDDI_MIRACAST_CREATE_CONTEXT callback, DxgkDdiMiracastCreateContext, DxgkDdiMiracastCreateContext callback function [Display Devices], display.dxgkddimiracastcreatecontext, dispmprt/DxgkDdiMiracastCreateContext
 f1_keywords:
  - "dispmprt/DxgkDdiMiracastCreateContext"
+ - "DxgkDdiMiracastCreateContext"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Dispmprt.h
 api_name:
 - DxgkDdiMiracastCreateContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

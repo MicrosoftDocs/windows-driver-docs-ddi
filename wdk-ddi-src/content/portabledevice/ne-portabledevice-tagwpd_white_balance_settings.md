@@ -10,6 +10,7 @@ keywords: ["tagWPD_WHITE_BALANCE_SETTINGS enumeration"]
 ms.keywords: WPD_WHITE_BALANCE_AUTOMATIC, WPD_WHITE_BALANCE_DAYLIGHT, WPD_WHITE_BALANCE_FLASH, WPD_WHITE_BALANCE_MANUAL, WPD_WHITE_BALANCE_ONE_PUSH_AUTOMATIC, WPD_WHITE_BALANCE_SETTINGS, WPD_WHITE_BALANCE_SETTINGS enumeration, WPD_WHITE_BALANCE_TUNGSTEN, WPD_WHITE_BALANCE_UNDEFINED, enumeration, portabledevice/WPD_WHITE_BALANCE_AUTOMATIC, portabledevice/WPD_WHITE_BALANCE_DAYLIGHT, portabledevice/WPD_WHITE_BALANCE_FLASH, portabledevice/WPD_WHITE_BALANCE_MANUAL, portabledevice/WPD_WHITE_BALANCE_ONE_PUSH_AUTOMATIC, portabledevice/WPD_WHITE_BALANCE_SETTINGS, portabledevice/WPD_WHITE_BALANCE_TUNGSTEN, portabledevice/WPD_WHITE_BALANCE_UNDEFINED, tagWPD_WHITE_BALANCE_SETTINGS, wpddk.wpd_white_balance_settings
 f1_keywords:
  - "portabledevice/WPD_WHITE_BALANCE_SETTINGS"
+ - "WPD_WHITE_BALANCE_SETTINGS"
 req.header: portabledevice.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - PortableDevice.h
 api_name:
 - WPD_WHITE_BALANCE_SETTINGS
-product:
-- Windows
 targetos: Windows
 req.typenames: WPD_WHITE_BALANCE_SETTINGS
 ms.custom: RS5

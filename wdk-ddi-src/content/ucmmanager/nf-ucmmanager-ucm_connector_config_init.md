@@ -10,6 +10,7 @@ keywords: ["UCM_CONNECTOR_CONFIG_INIT function"]
 ms.keywords: UCM_CONNECTOR_CONFIG_INIT, UCM_CONNECTOR_CONFIG_INIT function [Buses], buses.ucm_connector_config_init, ucmmanager/UCM_CONNECTOR_CONFIG_INIT
 f1_keywords:
  - "ucmmanager/UCM_CONNECTOR_CONFIG_INIT"
+ - "UCM_CONNECTOR_CONFIG_INIT"
 req.header: ucmmanager.h
 req.include-header: Ucmcx.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ucmmanager.h
 api_name:
 - UCM_CONNECTOR_CONFIG_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

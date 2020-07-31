@@ -10,6 +10,7 @@ keywords: ["VideoPortEnumerateChildren function"]
 ms.keywords: VideoPortEnumerateChildren, VideoPortEnumerateChildren function [Display Devices], VideoPort_Functions_8bc790f2-319f-41a6-9bf7-02a8605d2cc1.xml, display.videoportenumeratechildren, video/VideoPortEnumerateChildren
 f1_keywords:
  - "video/VideoPortEnumerateChildren"
+ - "VideoPortEnumerateChildren"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Videoprt.sys
 api_name:
 - VideoPortEnumerateChildren
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

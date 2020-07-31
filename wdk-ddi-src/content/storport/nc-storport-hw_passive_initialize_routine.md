@@ -10,6 +10,7 @@ keywords: ["HW_PASSIVE_INITIALIZE_ROUTINE callback function"]
 ms.keywords: HW_PASSIVE_INITIALIZE_ROUTINE, HwStorPassiveInitializeRoutine, HwStorPassiveInitializeRoutine routine [Storage Devices], storage.hwstorpassiveinitializeroutine, stormini_e2404f14-1cdc-44d7-bd58-97acfa57bc36.xml, storport/HwStorPassiveInitializeRoutine
 f1_keywords:
  - "storport/HwStorPassiveInitializeRoutine"
+ - "HwStorPassiveInitializeRoutine"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Storport.h
 api_name:
 - HwStorPassiveInitializeRoutine
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

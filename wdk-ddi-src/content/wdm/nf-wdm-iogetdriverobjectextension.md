@@ -10,6 +10,7 @@ keywords: ["IoGetDriverObjectExtension function"]
 ms.keywords: IoGetDriverObjectExtension, IoGetDriverObjectExtension routine [Kernel-Mode Driver Architecture], k104_37d4bd5d-6090-49b8-ab45-c898871f22e8.xml, kernel.iogetdriverobjectextension, wdm/IoGetDriverObjectExtension
 f1_keywords:
  - "wdm/IoGetDriverObjectExtension"
+ - "IoGetDriverObjectExtension"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoGetDriverObjectExtension
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

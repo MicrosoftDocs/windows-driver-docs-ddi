@@ -10,6 +10,7 @@ keywords: ["IPrintOemUI2::HideStandardUI"]
 ms.keywords: HideStandardUI, HideStandardUI method [Print Devices], HideStandardUI method [Print Devices],IPrintOemUI2 interface, IPrintOemUI2 interface [Print Devices],HideStandardUI method, IPrintOemUI2.HideStandardUI, IPrintOemUI2::HideStandardUI, prcomoem/IPrintOemUI2::HideStandardUI, print.iprintoemui2_hidestandardui, print_unidrv-pscript_ui_27b169d4-4e08-496c-b9d1-1b73dc27995b.xml
 f1_keywords:
  - "prcomoem/IPrintOemUI2.HideStandardUI"
+ - "IPrintOemUI2.HideStandardUI"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - prcomoem.h
 api_name:
 - IPrintOemUI2.HideStandardUI
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

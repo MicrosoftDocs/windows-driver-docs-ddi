@@ -10,6 +10,7 @@ keywords: ["VideoPortWritePortUlong function"]
 ms.keywords: VideoPortWritePortUlong, VideoPortWritePortUlong function [Display Devices], VideoPort_Functions_83cb0bbd-0dba-4cd6-b9f5-b8b0091371cd.xml, display.videoportwriteportulong, video/VideoPortWritePortUlong
 f1_keywords:
  - "video/VideoPortWritePortUlong"
+ - "VideoPortWritePortUlong"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Videoprt.sys
 api_name:
 - VideoPortWritePortUlong
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

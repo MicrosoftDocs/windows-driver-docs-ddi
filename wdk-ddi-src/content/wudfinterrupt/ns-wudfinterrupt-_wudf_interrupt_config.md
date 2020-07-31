@@ -10,6 +10,7 @@ keywords: ["_WUDF_INTERRUPT_CONFIG structure"]
 ms.keywords: "*PWUDF_INTERRUPT_CONFIG, PWUDF_INTERRUPT_CONFIG, PWUDF_INTERRUPT_CONFIG structure pointer, WUDF_INTERRUPT_CONFIG, WUDF_INTERRUPT_CONFIG structure, _WUDF_INTERRUPT_CONFIG, umdf.wudf_interrupt_config, wdf.wudf_interrupt_config, wudfinterrupt/PWUDF_INTERRUPT_CONFIG, wudfinterrupt/WUDF_INTERRUPT_CONFIG"
 f1_keywords:
  - "wudfinterrupt/WUDF_INTERRUPT_CONFIG"
+ - "WUDF_INTERRUPT_CONFIG"
 req.header: wudfinterrupt.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wudfinterrupt.h
 api_name:
 - WUDF_INTERRUPT_CONFIG
-product:
-- Windows
 targetos: Windows
 req.typenames: WUDF_INTERRUPT_CONFIG, *PWUDF_INTERRUPT_CONFIG
 ---

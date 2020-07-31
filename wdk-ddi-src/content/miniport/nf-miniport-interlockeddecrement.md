@@ -10,6 +10,7 @@ keywords: ["InterlockedDecrement function"]
 ms.keywords: InterlockedDecrement, InterlockedDecrement routine [Kernel-Mode Driver Architecture], k102_cc85e517-f056-413e-a095-671867632613.xml, kernel.interlockeddecrement, wdm/InterlockedDecrement
 f1_keywords:
  - "miniport/InterlockedDecrement"
+ - "InterlockedDecrement"
 req.header: miniport.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Miniport.h
 req.target-type: Universal
@@ -41,8 +42,6 @@ api_location:
 - MinKernelBase.dll
 api_name:
 - InterlockedDecrement
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

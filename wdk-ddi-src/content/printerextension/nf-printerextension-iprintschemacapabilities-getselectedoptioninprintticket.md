@@ -10,6 +10,7 @@ keywords: ["IPrintSchemaCapabilities::GetSelectedOptionInPrintTicket"]
 ms.keywords: GetSelectedOptionInPrintTicket, GetSelectedOptionInPrintTicket method [Print Devices], GetSelectedOptionInPrintTicket method [Print Devices],IPrintSchemaCapabilities interface, IPrintSchemaCapabilities, IPrintSchemaCapabilities interface [Print Devices],GetSelectedOptionInPrintTicket method, IPrintSchemaCapabilities.GetSelectedOptionInPrintTicket, IPrintSchemaCapabilities::GetSelectedOptionInPrintTicket, print.iprintschemacapabilities_getselectedoptioninprintticket, printerextension/IPrintSchemaCapabilities::GetSelectedOptionInPrintTicket
 f1_keywords:
  - "printerextension/IPrintSchemaCapabilities.GetSelectedOptionInPrintTicket"
+ - "IPrintSchemaCapabilities.GetSelectedOptionInPrintTicket"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Printerextension.h
 api_name:
 - IPrintSchemaCapabilities.GetSelectedOptionInPrintTicket
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

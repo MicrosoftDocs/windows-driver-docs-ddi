@@ -10,6 +10,7 @@ keywords: ["IDebugBreakpoint3::GetGuid"]
 ms.keywords: GetGuid, GetGuid method [Windows Debugging], GetGuid method [Windows Debugging],IDebugBreakpoint3 interface, IDebugBreakpoint3 interface [Windows Debugging],GetGuid method, IDebugBreakpoint3.GetGuid, IDebugBreakpoint3::GetGuid, dbgeng/IDebugBreakpoint3::GetGuid, debugger.idebugbreakpoint3_getguid
 f1_keywords:
  - "dbgeng/IDebugBreakpoint3.GetGuid"
+ - "IDebugBreakpoint3.GetGuid"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugBreakpoint3.GetGuid
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

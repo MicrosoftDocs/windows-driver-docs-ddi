@@ -10,6 +10,7 @@ keywords: ["IDebugControl3::GetLastEventInformation"]
 ms.keywords: GetLastEventInformation, GetLastEventInformation method [Windows Debugging], GetLastEventInformation method [Windows Debugging],IDebugControl interface, GetLastEventInformation method [Windows Debugging],IDebugControl2 interface, GetLastEventInformation method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetLastEventInformation method, IDebugControl2 interface [Windows Debugging],GetLastEventInformation method, IDebugControl2::GetLastEventInformation, IDebugControl3 interface [Windows Debugging],GetLastEventInformation method, IDebugControl3.GetLastEventInformation, IDebugControl3::GetLastEventInformation, IDebugControl::GetLastEventInformation, IDebugControl_4016bdce-0386-4c6f-9039-9a4046f3805b.xml, dbgeng/IDebugControl2::GetLastEventInformation, dbgeng/IDebugControl3::GetLastEventInformation, dbgeng/IDebugControl::GetLastEventInformation, debugger.getlasteventinformation
 f1_keywords:
  - "dbgeng/IDebugControl.GetLastEventInformation"
+ - "IDebugControl.GetLastEventInformation"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -38,8 +39,6 @@ api_name:
 - IDebugControl.GetLastEventInformation
 - IDebugControl2.GetLastEventInformation
 - IDebugControl3.GetLastEventInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["PIPE_ALLOCATOR_PLACE enumeration"]
 ms.keywords: "*PPIPE_ALLOCATOR_PLACE, PIPE_ALLOCATOR_PLACE, PIPE_ALLOCATOR_PLACE enumeration [Streaming Media Devices], Pipe_Allocator_FirstPin, Pipe_Allocator_LastPin, Pipe_Allocator_MiddlePin, Pipe_Allocator_None, ksproxy/PIPE_ALLOCATOR_PLACE, ksproxy/Pipe_Allocator_FirstPin, ksproxy/Pipe_Allocator_LastPin, ksproxy/Pipe_Allocator_MiddlePin, ksproxy/Pipe_Allocator_None, stream.pipe_allocator_place"
 f1_keywords:
  - "ksproxy/PIPE_ALLOCATOR_PLACE"
+ - "PIPE_ALLOCATOR_PLACE"
 req.header: ksproxy.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ksproxy.h
 api_name:
 - PIPE_ALLOCATOR_PLACE
-product:
-- Windows
 targetos: Windows
 req.typenames: PIPE_ALLOCATOR_PLACE
 ---

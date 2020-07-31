@@ -10,6 +10,7 @@ keywords: ["_CLS_SCAN_CONTEXT structure"]
 ms.keywords: "*PCLFS_SCAN_CONTEXT, *PCLS_SCAN_CONTEXT, CLFS_SCAN_CONTEXT, CLFS_SCAN_CONTEXT structure [Kernel-Mode Driver Architecture], CLS_SCAN_CONTEXT, CLS_SCAN_CONTEXT structure [Kernel-Mode Driver Architecture], PCLFS_SCAN_CONTEXT, PCLFS_SCAN_CONTEXT structure pointer [Kernel-Mode Driver Architecture], PCLS_SCAN_CONTEXT, PCLS_SCAN_CONTEXT structure pointer [Kernel-Mode Driver Architecture], PPCLFS_SCAN_CONTEXT, PPCLFS_SCAN_CONTEXT structure pointer [Kernel-Mode Driver Architecture], PPCLS_SCAN_CONTEXT, PPCLS_SCAN_CONTEXT structure pointer [Kernel-Mode Driver Architecture], _CLS_SCAN_CONTEXT, kernel.clfs_scan_context, kstruct_a_286b1bd0-bd24-472c-be28-406269b7a687.xml, wdm/CLFS_SCAN_CONTEXT, wdm/CLS_SCAN_CONTEXT, wdm/PCLFS_SCAN_CONTEXT, wdm/PCLS_SCAN_CONTEXT, wdm/PPCLFS_SCAN_CONTEXT, wdm/PPCLS_SCAN_CONTEXT"
 f1_keywords:
  - "wdm/CLS_SCAN_CONTEXT"
+ - "CLS_SCAN_CONTEXT"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - CLS_SCAN_CONTEXT
-product:
-- Windows
 targetos: Windows
 req.typenames: CLS_SCAN_CONTEXT, *PCLS_SCAN_CONTEXT, PPCLS_SCAN_CONTEXT
 ---

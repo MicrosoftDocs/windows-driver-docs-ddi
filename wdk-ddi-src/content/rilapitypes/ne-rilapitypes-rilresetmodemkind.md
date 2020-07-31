@@ -10,6 +10,7 @@ keywords: ["RILRESETMODEMKIND enumeration"]
 ms.keywords: RILRESETMODEMKIND, RILRESETMODEMKIND enumeration [Network Drivers Starting with Windows Vista], RIL_RESETMODEMKIND_ABRUPT, RIL_RESETMODEMKIND_MAX, netvista.rilresetmodemkind, ntddrilapitypes/RILRESETMODEMKIND, ntddrilapitypes/RIL_RESETMODEMKIND_ABRUPT, ntddrilapitypes/RIL_RESETMODEMKIND_MAX
 f1_keywords:
  - "rilapitypes/RILRESETMODEMKIND"
+ - "RILRESETMODEMKIND"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILRESETMODEMKIND
-product:
-- Windows
 targetos: Windows
 req.typenames: RILRESETMODEMKIND
 ---

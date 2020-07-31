@@ -10,6 +10,7 @@ keywords: ["RtlCopyUnicodeString function"]
 ms.keywords: RtlCopyUnicodeString, RtlCopyUnicodeString routine [Kernel-Mode Driver Architecture], k109_5d0b341c-a440-4137-bdc3-77e0da0db58c.xml, kernel.rtlcopyunicodestring, wdm/RtlCopyUnicodeString
 f1_keywords:
  - "wdm/RtlCopyUnicodeString"
+ - "RtlCopyUnicodeString"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ntdll.dll
 api_name:
 - RtlCopyUnicodeString
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

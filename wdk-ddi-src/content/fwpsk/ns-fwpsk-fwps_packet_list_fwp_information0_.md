@@ -10,6 +10,7 @@ keywords: ["FWPS_PACKET_LIST_FWP_INFORMATION0_ structure"]
 ms.keywords: FWPS_PACKET_LIST_FWP_INFORMATION0, FWPS_PACKET_LIST_FWP_INFORMATION0 structure [Network Drivers Starting with Windows Vista], FWPS_PACKET_LIST_FWP_INFORMATION0_, fwpsk/FWPS_PACKET_LIST_FWP_INFORMATION0, netvista.fwps_packet_list_fwp_information0, wfp_ref_3_struct_3_fwps_P-Z_ae770ad6-5c74-4954-98ca-ffb23f8dcc7c.xml
 f1_keywords:
  - "fwpsk/FWPS_PACKET_LIST_FWP_INFORMATION0"
+ - "FWPS_PACKET_LIST_FWP_INFORMATION0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - fwpsk.h
 api_name:
 - FWPS_PACKET_LIST_FWP_INFORMATION0
-product:
-- Windows
 targetos: Windows
 req.typenames: FWPS_PACKET_LIST_FWP_INFORMATION0
 ---

@@ -10,6 +10,7 @@ keywords: ["RILSUBSCRIBERINFOPARAMMASK enumeration"]
 ms.keywords: RILSUBSCRIBERINFOPARAMMASK, RILSUBSCRIBERINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_SI_ADDRESS, RIL_PARAM_SI_ALL, RIL_PARAM_SI_DESCRIPTION, RIL_PARAM_SI_SERVICE, netvista.rilsubscriberinfoparammask, rilapitypes/RILSUBSCRIBERINFOPARAMMASK, rilapitypes/RIL_PARAM_SI_ADDRESS, rilapitypes/RIL_PARAM_SI_ALL, rilapitypes/RIL_PARAM_SI_DESCRIPTION, rilapitypes/RIL_PARAM_SI_SERVICE
 f1_keywords:
  - "ntddrilapitypes/RILSUBSCRIBERINFOPARAMMASK"
+ - "RILSUBSCRIBERINFOPARAMMASK"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapitypes.h
 api_name:
 - RILSUBSCRIBERINFOPARAMMASK
-product:
-- Windows
 targetos: Windows
 req.typenames: RILSUBSCRIBERINFOPARAMMASK
 ---

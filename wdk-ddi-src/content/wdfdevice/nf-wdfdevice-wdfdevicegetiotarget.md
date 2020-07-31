@@ -10,6 +10,7 @@ keywords: ["WdfDeviceGetIoTarget function"]
 ms.keywords: DFDeviceObjectGeneralRef_df48e631-f54d-4985-bc74-05c220b735f5.xml, WdfDeviceGetIoTarget, WdfDeviceGetIoTarget method, kmdf.wdfdevicegetiotarget, wdf.wdfdevicegetiotarget, wdfdevice/WdfDeviceGetIoTarget
 f1_keywords:
  - "wdfdevice/WdfDeviceGetIoTarget"
+ - "WdfDeviceGetIoTarget"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfDeviceGetIoTarget
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

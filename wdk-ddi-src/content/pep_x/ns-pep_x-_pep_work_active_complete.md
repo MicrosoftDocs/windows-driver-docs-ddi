@@ -10,6 +10,7 @@ keywords: ["_PEP_WORK_ACTIVE_COMPLETE structure"]
 ms.keywords: "*PPEP_WORK_ACTIVE_COMPLETE, PEP_WORK_ACTIVE_COMPLETE, PEP_WORK_ACTIVE_COMPLETE structure [Kernel-Mode Driver Architecture], PPEP_WORK_ACTIVE_COMPLETE, PPEP_WORK_ACTIVE_COMPLETE structure pointer [Kernel-Mode Driver Architecture], _PEP_WORK_ACTIVE_COMPLETE, kernel.pep_work_active_complete, pep_x/PEP_WORK_ACTIVE_COMPLETE, pep_x/PPEP_WORK_ACTIVE_COMPLETE"
 f1_keywords:
  - "pep_x/PEP_WORK_ACTIVE_COMPLETE"
+ - "PEP_WORK_ACTIVE_COMPLETE"
 req.header: pep_x.h
 req.include-header: Pepfx.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pep_x.h
 api_name:
 - PEP_WORK_ACTIVE_COMPLETE
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_WORK_ACTIVE_COMPLETE, *PPEP_WORK_ACTIVE_COMPLETE
 ---

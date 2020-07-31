@@ -9,6 +9,7 @@ keywords: ["DXGKCB_HARDWARECONTENTPROTECTIONTEARDOWN callback function"]
 ms.keywords: DXGKCB_HARDWARECONTENTPROTECTIONTEARDOWN, DXGKCB_HARDWARECONTENTPROTECTIONTEARDOWN callback, DxgkCbHardwareContentProtectionTeardown, DxgkCbHardwareContentProtectionTeardown callback function [Display Devices], d3dkmddi/DxgkCbHardwareContentProtectionTeardown, display.dxgkcbhardwarecontentprotectionteardown
 f1_keywords:
  - "d3dkmddi/DxgkCbHardwareContentProtectionTeardown"
+ - "DxgkCbHardwareContentProtectionTeardown"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DxgkCbHardwareContentProtectionTeardown
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

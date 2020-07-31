@@ -10,6 +10,7 @@ keywords: ["_SID_AND_ATTRIBUTES structure"]
 ms.keywords: "*PSID_AND_ATTRIBUTES, PSID_AND_ATTRIBUTES, PSID_AND_ATTRIBUTES structure pointer [Installable File System Drivers], SID_AND_ATTRIBUTES, SID_AND_ATTRIBUTES structure [Installable File System Drivers], _SID_AND_ATTRIBUTES, ifsk.sid_and_attributes, ntifs/PSID_AND_ATTRIBUTES, ntifs/SID_AND_ATTRIBUTES, securitystructures_b0075789-13b6-4324-965b-33a162bff18b.xml"
 f1_keywords:
  - "ntifs/SID_AND_ATTRIBUTES"
+ - "SID_AND_ATTRIBUTES"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - SID_AND_ATTRIBUTES
-product:
-- Windows
 targetos: Windows
 req.typenames: SID_AND_ATTRIBUTES, *PSID_AND_ATTRIBUTES
 ---

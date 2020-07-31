@@ -10,6 +10,7 @@ keywords: ["_NDIS_WWAN_DEVICE_CAPS structure"]
 ms.keywords: "*PNDIS_WWAN_DEVICE_CAPS, NDIS_WWAN_DEVICE_CAPS, NDIS_WWAN_DEVICE_CAPS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_DEVICE_CAPS, PNDIS_WWAN_DEVICE_CAPS structure pointer [Network Drivers Starting with Windows Vista], WwanRef_fb40a6ef-20ae-4623-91e6-b69196e6e518.xml, _NDIS_WWAN_DEVICE_CAPS, ndiswwan/NDIS_WWAN_DEVICE_CAPS, ndiswwan/PNDIS_WWAN_DEVICE_CAPS, netvista.ndis_wwan_device_caps"
 f1_keywords:
  - "ndiswwan/NDIS_WWAN_DEVICE_CAPS"
+ - "NDIS_WWAN_DEVICE_CAPS"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ndiswwan.h
 api_name:
 - NDIS_WWAN_DEVICE_CAPS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_DEVICE_CAPS, *PNDIS_WWAN_DEVICE_CAPS
 ---

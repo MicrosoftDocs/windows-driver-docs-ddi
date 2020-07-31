@@ -10,6 +10,7 @@ keywords: ["_LineDisplaySizeInPixelsType structure"]
 ms.keywords: LineDisplaySizeInPixelsType, LineDisplaySizeInPixelsType structure, PLineDisplaySizeInPixelsType, PLineDisplaySizeInPixelsType structure pointer, _LineDisplaySizeInPixelsType, pointofservicecommontypes/LineDisplaySizeInPixelsType, pointofservicecommontypes/PLineDisplaySizeInPixelsType, pos.linedisplaysizeinpixelstype
 f1_keywords:
  - "pointofservicecommontypes/LineDisplaySizeInPixelsType"
+ - "LineDisplaySizeInPixelsType"
 req.header: pointofservicecommontypes.h
 req.include-header: Pointofservicecommontypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pointofservicecommontypes.h
 api_name:
 - LineDisplaySizeInPixelsType
-product:
-- Windows
 targetos: Windows
 req.typenames: LineDisplaySizeInPixelsType
 ---

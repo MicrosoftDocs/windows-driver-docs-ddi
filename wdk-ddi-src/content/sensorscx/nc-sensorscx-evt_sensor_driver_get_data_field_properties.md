@@ -10,6 +10,7 @@ keywords: ["EVT_SENSOR_DRIVER_GET_DATA_FIELD_PROPERTIES callback function"]
 ms.keywords: EVT_SENSOR_DRIVER_GET_DATA_FIELD_PROPERTIES, EVT_SENSOR_DRIVER_GET_DATA_FIELD_PROPERTIES callback, EvtSensorGetDataFieldProperties, EvtSensorGetDataFieldProperties callback function [Sensor Devices], sensors.evtsensorgetdatafieldproperties, sensorscx/EvtSensorGetDataFieldProperties
 f1_keywords:
  - "sensorscx/EvtSensorGetDataFieldProperties"
+ - "EvtSensorGetDataFieldProperties"
 req.header: sensorscx.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - SensorsCx.h
 api_name:
 - EvtSensorGetDataFieldProperties
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

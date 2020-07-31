@@ -10,6 +10,7 @@ keywords: ["PUSB_BUSIFFN_GETUSBDI_VERSION callback function"]
 ms.keywords: GetUSBDIVersion, GetUSBDIVersion callback function [Buses], PUSB_BUSIFFN_GETUSBDI_VERSION, USB_BUSIFFN_GETUSBDI_VERSION, USB_BUSIFFN_GETUSBDI_VERSION callback, buses.getusbdiversion, usbbusif/GetUSBDIVersion, usbinterKR_48f5b2a5-9cd8-46c2-abf9-313469817541.xml
 f1_keywords:
  - "usbbusif/GetUSBDIVersion"
+ - "GetUSBDIVersion"
 req.header: usbbusif.h
 req.include-header: Usbbusif.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - usbbusif.h
 api_name:
 - GetUSBDIVersion
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

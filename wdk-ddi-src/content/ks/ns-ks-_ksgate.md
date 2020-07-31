@@ -10,6 +10,7 @@ keywords: ["_KSGATE structure"]
 ms.keywords: "*PKSGATE, KSGATE, KSGATE structure [Streaming Media Devices], PKSGATE, PKSGATE structure pointer [Streaming Media Devices], _KSGATE, avstruct_b232aae6-2b0a-44f9-beaf-29fe4b7f8b86.xml, ks/KSGATE, ks/PKSGATE, stream.ksgate"
 f1_keywords:
  - "ks/KSGATE"
+ - "KSGATE"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KSGATE
-product:
-- Windows
 targetos: Windows
 req.typenames: KSGATE, *PKSGATE
 ---

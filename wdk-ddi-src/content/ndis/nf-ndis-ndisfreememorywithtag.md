@@ -10,6 +10,7 @@ keywords: ["NdisFreeMemoryWithTag function"]
 ms.keywords: NdisFreeMemoryWithTag, NdisFreeMemoryWithTag function [Network Drivers Starting with Windows Vista], ndis/NdisFreeMemoryWithTag, ndis_shared_memory_ref_2a68decc-2cef-4606-9679-c29c0e5362a2.xml, netvista.ndisfreememorywithtag
 f1_keywords:
  - "ndis/NdisFreeMemoryWithTag"
+ - "NdisFreeMemoryWithTag"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisFreeMemoryWithTag
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

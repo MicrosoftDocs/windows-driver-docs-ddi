@@ -10,6 +10,7 @@ keywords: ["_WWAN_PROVIDER structure"]
 ms.keywords: "*PWWAN_PROVIDER, PWWAN_PROVIDER, PWWAN_PROVIDER structure pointer [Network Drivers Starting with Windows Vista], WWAN_PROVIDER, WWAN_PROVIDER structure [Network Drivers Starting with Windows Vista], WwanRef_a76aa69a-8c66-40a4-bda0-5ce66cc57790.xml, _WWAN_PROVIDER, netvista.wwan_provider, wwan/PWWAN_PROVIDER, wwan/WWAN_PROVIDER"
 f1_keywords:
  - "wwan/WWAN_PROVIDER"
+ - "WWAN_PROVIDER"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_PROVIDER
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_PROVIDER, *PWWAN_PROVIDER
 ---

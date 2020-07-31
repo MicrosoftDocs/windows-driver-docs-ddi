@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["*PFN_TRSECUREDEVICECALLOSSSERVICE callback function"]
 f1_keywords:
  - "trustedruntimeclx/*PFN_TRSECUREDEVICECALLOSSSERVICE"
+ - "*PFN_TRSECUREDEVICECALLOSSSERVICE"
 req.header: trustedruntimeclx.h
 req.include-header:
 req.target-type:
@@ -32,8 +33,6 @@ api_location:
 - trustedruntimeclx.h
 api_name: 
 - PFN_TRSECUREDEVICECALLOSSSERVICE
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

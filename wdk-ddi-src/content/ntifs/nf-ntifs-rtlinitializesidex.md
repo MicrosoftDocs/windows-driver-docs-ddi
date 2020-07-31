@@ -10,6 +10,7 @@ keywords: ["RtlInitializeSidEx function"]
 ms.keywords: RtlInitializeSidEx, RtlInitializeSidEx routine [Installable File System Drivers], ifsk.rtlinitializesidex, ntifs/RtlInitializeSidEx
 f1_keywords:
  - "ntifs/RtlInitializeSidEx"
+ - "RtlInitializeSidEx"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlInitializeSidEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

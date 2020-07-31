@@ -10,6 +10,7 @@ keywords: ["HidD_GetNumInputBuffers function"]
 ms.keywords: HidD_GetNumInputBuffers, HidD_GetNumInputBuffers routine [Human Input Devices], hid.hidd_getnuminputbuffers, hidfunc_addf7040-0b62-45bc-8b43-1aa0157924e8.xml, hidsdi/HidD_GetNumInputBuffers
 f1_keywords:
  - "hidsdi/HidD_GetNumInputBuffers"
+ - "HidD_GetNumInputBuffers"
 req.header: hidsdi.h
 req.include-header: Hidsdi.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Hid.dll
 api_name:
 - HidD_GetNumInputBuffers
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["SensorsCxStateChange function"]
 ms.keywords: SensorsCxStateChange, SensorsCxStateChange function [Sensor Devices], sensors.sensorscxstatechange, sensorscx/SensorsCxStateChange
 f1_keywords:
  - "sensorscx/SensorsCxStateChange"
+ - "SensorsCxStateChange"
 req.header: sensorscx.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - SensorsCx.h
 api_name:
 - SensorsCxStateChange
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

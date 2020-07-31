@@ -10,6 +10,7 @@ keywords: ["W_UPDATE_OFFLOAD_HANDLER callback function"]
 ms.keywords: MiniportUpdateOffload, MiniportUpdateOffload callback function [Network Drivers Starting with Windows Vista], W_UPDATE_OFFLOAD_HANDLER, W_UPDATE_OFFLOAD_HANDLER callback, ndischimney/MiniportUpdateOffload, netvista.miniportupdateoffload, tcp_chim_miniport_func_e6dbcab7-ff44-46c0-ae03-729ea479d13c.xml
 f1_keywords:
  - "ndischimney/MiniportUpdateOffload"
+ - "MiniportUpdateOffload"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ndischimney.h
 api_name:
 - MiniportUpdateOffload
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

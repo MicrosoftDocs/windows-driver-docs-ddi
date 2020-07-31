@@ -10,6 +10,7 @@ keywords: ["_WDBGEXTS_THREAD_OS_INFO structure"]
 ms.keywords: "*PWDBGEXTS_THREAD_OS_INFO, PWDBGEXTS_THREAD_OS_INFO, PWDBGEXTS_THREAD_OS_INFO structure pointer [Windows Debugging], WDBGEXTS_THREAD_OS_INFO, WDBGEXTS_THREAD_OS_INFO structure [Windows Debugging], WdbgExts_Ref_dfcc01ec-d4f4-4eba-adb5-d729f951f502.xml, _WDBGEXTS_THREAD_OS_INFO, debugger.ig_get_thread_os_info, wdbgexts/PWDBGEXTS_THREAD_OS_INFO, wdbgexts/WDBGEXTS_THREAD_OS_INFO"
 f1_keywords:
  - "wdbgexts/WDBGEXTS_THREAD_OS_INFO"
+ - "WDBGEXTS_THREAD_OS_INFO"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wdbgexts.h
 api_name:
 - WDBGEXTS_THREAD_OS_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: WDBGEXTS_THREAD_OS_INFO, *PWDBGEXTS_THREAD_OS_INFO
 ---

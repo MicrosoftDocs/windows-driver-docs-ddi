@@ -10,6 +10,7 @@ keywords: ["IDebugControl5::GetContextStackTraceEx"]
 ms.keywords: GetContextStackTraceEx, GetContextStackTraceEx method [Windows Debugging], GetContextStackTraceEx method [Windows Debugging],IDebugControl5 interface, IDebugControl5 interface [Windows Debugging],GetContextStackTraceEx method, IDebugControl5.GetContextStackTraceEx, IDebugControl5::GetContextStackTraceEx, dbgeng/IDebugControl5::GetContextStackTraceEx, debugger.idebugcontrol5_getcontextstacktraceex
 f1_keywords:
  - "dbgeng/IDebugControl5.GetContextStackTraceEx"
+ - "IDebugControl5.GetContextStackTraceEx"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h, Ntddk.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugControl5.GetContextStackTraceEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["NdisIfFreeNetLuidIndex function"]
 ms.keywords: NdisIfFreeNetLuidIndex, NdisIfFreeNetLuidIndex function [Network Drivers Starting with Windows Vista], ndis/NdisIfFreeNetLuidIndex, net_if_functions_ref_040908da-c299-4265-9639-f2e65776f26b.xml, netvista.ndisiffreenetluidindex
 f1_keywords:
  - "ndis/NdisIfFreeNetLuidIndex"
+ - "NdisIfFreeNetLuidIndex"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisIfFreeNetLuidIndex
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

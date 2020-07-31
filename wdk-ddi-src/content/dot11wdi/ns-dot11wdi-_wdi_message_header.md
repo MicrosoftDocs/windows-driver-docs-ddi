@@ -10,6 +10,7 @@ keywords: ["_WDI_MESSAGE_HEADER structure"]
 ms.keywords: "*PWDI_MESSAGE_HEADER, PWDI_MESSAGE_HEADER, PWDI_MESSAGE_HEADER structure pointer [Network Drivers Starting with Windows Vista], WDI_MESSAGE_HEADER, WDI_MESSAGE_HEADER structure [Network Drivers Starting with Windows Vista], _WDI_MESSAGE_HEADER, dot11wdi/PWDI_MESSAGE_HEADER, dot11wdi/WDI_MESSAGE_HEADER, netvista.wdi_message_header"
 f1_keywords:
  - "dot11wdi/WDI_MESSAGE_HEADER"
+ - "WDI_MESSAGE_HEADER"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dot11wdi.h
 api_name:
 - WDI_MESSAGE_HEADER
-product:
-- Windows
 targetos: Windows
 req.typenames: WDI_MESSAGE_HEADER, *PWDI_MESSAGE_HEADER
 ---

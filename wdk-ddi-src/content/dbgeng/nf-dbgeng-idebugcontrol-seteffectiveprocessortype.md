@@ -10,6 +10,7 @@ keywords: ["IDebugControl::SetEffectiveProcessorType"]
 ms.keywords: IDebugControl interface [Windows Debugging],SetEffectiveProcessorType method, IDebugControl.SetEffectiveProcessorType, IDebugControl2 interface [Windows Debugging],SetEffectiveProcessorType method, IDebugControl2::SetEffectiveProcessorType, IDebugControl3 interface [Windows Debugging],SetEffectiveProcessorType method, IDebugControl3::SetEffectiveProcessorType, IDebugControl::SetEffectiveProcessorType, IDebugControl_284f54f4-897e-4329-b588-5eae0c638179.xml, SetEffectiveProcessorType, SetEffectiveProcessorType method [Windows Debugging], SetEffectiveProcessorType method [Windows Debugging],IDebugControl interface, SetEffectiveProcessorType method [Windows Debugging],IDebugControl2 interface, SetEffectiveProcessorType method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::SetEffectiveProcessorType, dbgeng/IDebugControl3::SetEffectiveProcessorType, dbgeng/IDebugControl::SetEffectiveProcessorType, debugger.seteffectiveprocessortype
 f1_keywords:
  - "dbgeng/IDebugControl.SetEffectiveProcessorType"
+ - "IDebugControl.SetEffectiveProcessorType"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -38,8 +39,6 @@ api_name:
 - IDebugControl.SetEffectiveProcessorType
 - IDebugControl2.SetEffectiveProcessorType
 - IDebugControl3.SetEffectiveProcessorType
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["CMP_PLUG_LOCATION enumeration"]
 ms.keywords: 61883/CMP_PLUG_LOCATION, 61883/CMP_PlugLocal, 61883/CMP_PlugRemote, CMP_PLUG_LOCATION, CMP_PLUG_LOCATION enumeration [Buses], CMP_PlugLocal, CMP_PlugRemote, IEEE.cmp_plug_location
 f1_keywords:
  - "61883/CMP_PLUG_LOCATION"
+ - "CMP_PLUG_LOCATION"
 req.header: 61883.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - 61883.h
 api_name:
 - CMP_PLUG_LOCATION
-product:
-- Windows
 targetos: Windows
 req.typenames: CMP_PLUG_LOCATION
 ---

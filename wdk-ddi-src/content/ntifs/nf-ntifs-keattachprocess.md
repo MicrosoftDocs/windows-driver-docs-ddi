@@ -10,6 +10,7 @@ keywords: ["KeAttachProcess function"]
 ms.keywords: KeAttachProcess, KeAttachProcess function [Installable File System Drivers], ifsk.keattachprocess, keref_ee648ca5-3597-4caf-9a8c-5e6cc4543964.xml, ntifs/KeAttachProcess
 f1_keywords:
  - "ntifs/KeAttachProcess"
+ - "KeAttachProcess"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - KeAttachProcess
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["RIL_SetEquipmentState function"]
 ms.keywords: RIL_SetEquipmentState, RIL_SetEquipmentState method [Network Drivers Starting with Windows Vista], netvista.ril_setequipmentstate, rilapi/RIL_SetEquipmentState
 f1_keywords:
  - "rilapi/RIL_SetEquipmentState"
+ - "RIL_SetEquipmentState"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_SetEquipmentState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

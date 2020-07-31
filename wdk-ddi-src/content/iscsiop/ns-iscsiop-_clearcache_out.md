@@ -10,6 +10,7 @@ keywords: ["_ClearCache_OUT structure"]
 ms.keywords: "*PClearCache_OUT, ClearCache_OUT, ClearCache_OUT structure [Storage Devices], PClearCache_OUT, PClearCache_OUT structure pointer [Storage Devices], _ClearCache_OUT, iscsiop/ClearCache_OUT, iscsiop/PClearCache_OUT, storage.clearcache_out, structs-iSCSI_e96c134a-dfb1-474a-b730-1fb6e8d8f86f.xml"
 f1_keywords:
  - "iscsiop/ClearCache_OUT"
+ - "ClearCache_OUT"
 req.header: iscsiop.h
 req.include-header: Iscsiop.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - iscsiop.h
 api_name:
 - ClearCache_OUT
-product:
-- Windows
 targetos: Windows
 req.typenames: ClearCache_OUT, *PClearCache_OUT
 ---

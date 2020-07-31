@@ -10,6 +10,7 @@ keywords: ["D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2 structure"]
 ms.keywords: D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2, D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2 structure [Display Devices], d3dumddi/D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2, display.d3dddicb_signalsynchronizationobjectfromgpu2
 f1_keywords:
  - "d3dumddi/D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2"
+ - "D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2
 ---

@@ -10,6 +10,7 @@ keywords: ["IPortableDeviceValues::SetErrorValue"]
 ms.keywords: IPortableDeviceValues interface,SetErrorValue method, IPortableDeviceValues.SetErrorValue, IPortableDeviceValues::SetErrorValue, IPortableDeviceValuesSetErrorValue, SetErrorValue, SetErrorValue method, SetErrorValue method,IPortableDeviceValues interface, portabledevicetypes/IPortableDeviceValues::SetErrorValue, wpddk.iportabledevicevalues_seterrorvalue
 f1_keywords:
  - "portabledevicetypes/IPortableDeviceValues.SetErrorValue"
+ - "IPortableDeviceValues.SetErrorValue"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - PortableDeviceTypes.h
 api_name:
 - IPortableDeviceValues.SetErrorValue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

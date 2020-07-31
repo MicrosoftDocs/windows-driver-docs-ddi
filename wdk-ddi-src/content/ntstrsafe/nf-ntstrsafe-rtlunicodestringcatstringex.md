@@ -10,6 +10,7 @@ keywords: ["RtlUnicodeStringCatStringEx function"]
 ms.keywords: RtlUnicodeStringCatStringEx, RtlUnicodeStringCatStringEx function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcatstringex, ntstrsafe/RtlUnicodeStringCatStringEx, safestrings_7ca374c5-13a0-4fe6-ab53-7770bc8ef9c3.xml
 f1_keywords:
  - "ntstrsafe/RtlUnicodeStringCatStringEx"
+ - "RtlUnicodeStringCatStringEx"
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Ntstrsafe.dll
 api_name:
 - RtlUnicodeStringCatStringEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IDebugBreakpoint::GetFlags"]
 ms.keywords: ComOther_5898a703-87fb-4d47-9d06-026783243e10.xml, GetFlags, GetFlags method [Windows Debugging], GetFlags method [Windows Debugging],IDebugBreakpoint interface, GetFlags method [Windows Debugging],IDebugBreakpoint2 interface, IDebugBreakpoint interface [Windows Debugging],GetFlags method, IDebugBreakpoint.GetFlags, IDebugBreakpoint2 interface [Windows Debugging],GetFlags method, IDebugBreakpoint2::GetFlags, IDebugBreakpoint::GetFlags, dbgeng/IDebugBreakpoint2::GetFlags, dbgeng/IDebugBreakpoint::GetFlags, debugger.getflags
 f1_keywords:
  - "dbgeng/IDebugBreakpoint.GetFlags"
+ - "IDebugBreakpoint.GetFlags"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IDebugBreakpoint.GetFlags
 - IDebugBreakpoint2.GetFlags
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

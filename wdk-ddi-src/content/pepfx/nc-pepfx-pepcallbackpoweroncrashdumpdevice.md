@@ -10,6 +10,7 @@ keywords: ["PEPCALLBACKPOWERONCRASHDUMPDEVICE callback function"]
 ms.keywords: PEPCALLBACKPOWERONCRASHDUMPDEVICE, PowerOnDumpDeviceCallback, PowerOnDumpDeviceCallback routine [Kernel-Mode Driver Architecture], kernel.powerondumpdevicecallback, pepfx/PowerOnDumpDeviceCallback
 f1_keywords:
  - "pepfx/PowerOnDumpDeviceCallback"
+ - "PowerOnDumpDeviceCallback"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - PowerOnDumpDeviceCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

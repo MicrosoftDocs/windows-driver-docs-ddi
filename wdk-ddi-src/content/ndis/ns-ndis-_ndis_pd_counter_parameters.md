@@ -10,6 +10,7 @@ keywords: ["_NDIS_PD_COUNTER_PARAMETERS structure"]
 ms.keywords: NDIS_PD_COUNTER_PARAMETERS, NDIS_PD_COUNTER_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_PD_COUNTER_PARAMETERS, PNDIS_PD_COUNTER_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PD_COUNTER_PARAMETERS, ndis/NDIS_PD_COUNTER_PARAMETERS, ndis/PNDIS_PD_COUNTER_PARAMETERS, netvista.ndis_pd_counter_parameters
 f1_keywords:
  - "ndis/NDIS_PD_COUNTER_PARAMETERS"
+ - "NDIS_PD_COUNTER_PARAMETERS"
 req.header: ndis.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - NDIS_PD_COUNTER_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_PD_COUNTER_PARAMETERS
 ---

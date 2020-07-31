@@ -10,6 +10,7 @@ keywords: ["PcGetPhysicalDeviceObject function"]
 ms.keywords: PcGetPhysicalDeviceObject, PcGetPhysicalDeviceObject function [Audio Devices], audio.pcgetphysicaldeviceobject, portcls/PcGetPhysicalDeviceObject
 f1_keywords:
  - "portcls/PcGetPhysicalDeviceObject"
+ - "PcGetPhysicalDeviceObject"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Portcls.dll
 api_name:
 - PcGetPhysicalDeviceObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

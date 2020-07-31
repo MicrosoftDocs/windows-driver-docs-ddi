@@ -10,6 +10,7 @@ keywords: ["RIL_ResetModem_V2 function"]
 ms.keywords: RIL_ResetModem_V2, RIL_ResetModem_V2 method [Network Drivers Starting with Windows Vista], netvista.ril_resetmodem_v2, rilapi/RIL_ResetModem_V2
 f1_keywords:
  - "rilapi/RIL_ResetModem_V2"
+ - "RIL_ResetModem_V2"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_ResetModem_V2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IKsPinPipe::KsGetConnectedPin"]
 ms.keywords: IKsPinPipe interface [Streaming Media Devices],KsGetConnectedPin method, IKsPinPipe.KsGetConnectedPin, IKsPinPipe::KsGetConnectedPin, KsGetConnectedPin, KsGetConnectedPin method [Streaming Media Devices], KsGetConnectedPin method [Streaming Media Devices],IKsPinPipe interface, ksproxy/IKsPinPipe::KsGetConnectedPin, stream.ikspinpipe_ksgetconnectedpin
 f1_keywords:
  - "ksproxy/IKsPinPipe.KsGetConnectedPin"
+ - "IKsPinPipe.KsGetConnectedPin"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ksproxy.h
 api_name:
 - IKsPinPipe.KsGetConnectedPin
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

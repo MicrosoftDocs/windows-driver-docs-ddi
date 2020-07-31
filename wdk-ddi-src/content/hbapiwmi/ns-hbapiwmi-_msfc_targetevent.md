@@ -10,6 +10,7 @@ keywords: ["_MSFC_TargetEvent structure"]
 ms.keywords: "*PMSFC_TargetEvent, MSFC_TargetEvent, MSFC_TargetEvent structure [Storage Devices], PMSFC_TargetEvent, PMSFC_TargetEvent structure pointer [Storage Devices], _MSFC_TargetEvent, hbapiwmi/MSFC_TargetEvent, hbapiwmi/PMSFC_TargetEvent, storage.msfc_targetevent, structs-Fibre_3f8b9bd0-29b2-43f3-85ae-47324d168956.xml"
 f1_keywords:
  - "hbapiwmi/MSFC_TargetEvent"
+ - "MSFC_TargetEvent"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - MSFC_TargetEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: MSFC_TargetEvent, *PMSFC_TargetEvent
 ---

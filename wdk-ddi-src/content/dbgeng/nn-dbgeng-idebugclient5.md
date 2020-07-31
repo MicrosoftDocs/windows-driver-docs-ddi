@@ -10,6 +10,7 @@ keywords: ["IDebugClient5 interface"]
 ms.keywords: IDebugClient5, IDebugClient5 interface [Windows Debugging], IDebugClient5 interface [Windows Debugging],described, dbgeng/IDebugClient5, debugger.idebugclient5
 f1_keywords:
  - "dbgeng/IDebugClient5"
+ - "IDebugClient5"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -45,8 +46,6 @@ api_name:
 - IDebugClient5.SetQuitLockString
 - IDebugClient5.GetQuitLockStringWide
 - IDebugClient5.SetQuitLockStringWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

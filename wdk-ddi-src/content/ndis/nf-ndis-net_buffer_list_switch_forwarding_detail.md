@@ -8,6 +8,7 @@ ms.date: 04/13/2018
 keywords: ["NET_BUFFER_LIST_SWITCH_FORWARDING_DETAIL macro"]
 f1_keywords:
  - "ndis/NET_BUFFER_LIST_SWITCH_FORWARDING_DETAIL"
+ - "NET_BUFFER_LIST_SWITCH_FORWARDING_DETAIL"
 ms.keywords: NET_BUFFER_LIST_SWITCH_FORWARDING_DETAIL
 req.header: ndis.h
 req.include-header:
@@ -34,8 +35,6 @@ api_location:
 - ndis.h
 api_name: 
 - NET_BUFFER_LIST_SWITCH_FORWARDING_DETAIL
-product:
-- Windows
 targetos: Windows
 
 ---

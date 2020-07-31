@@ -10,6 +10,7 @@ keywords: ["ClfsGetIoStatistics function"]
 ms.keywords: ClfsGetIoStatistics, ClfsGetIoStatistics routine [Kernel-Mode Driver Architecture], Clfs_af9b22c3-0845-4687-9a76-b6872d2b138d.xml, kernel.clfsgetiostatistics, wdm/ClfsGetIoStatistics
 f1_keywords:
  - "wdm/ClfsGetIoStatistics"
+ - "ClfsGetIoStatistics"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
 - ClfsGetIoStatistics
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

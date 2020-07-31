@@ -10,6 +10,7 @@ keywords: ["IWDTFAction2::get_Target"]
 ms.keywords: IWDTFAction2 interface [Windows Device Testing Framework],Target property, IWDTFAction2.Target, IWDTFAction2.get_Target, IWDTFAction2::Target, IWDTFAction2::get_Target, Microsoft.WDTF.IWDTFAction2.Target, Microsoft::WDTF::IWDTFAction2::Target, Target property [Windows Device Testing Framework], Target property [Windows Device Testing Framework],IWDTFAction2 interface, dtf.iwdtfaction2_target, get_Target, wdtf/IWDTFAction2::Target, wdtf/IWDTFAction2::get_Target
 f1_keywords:
  - "wdtf/IWDTFAction2.Target"
+ - "IWDTFAction2.Target"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IWDTFAction2.Target
 - IWDTFAction2.get_Target
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

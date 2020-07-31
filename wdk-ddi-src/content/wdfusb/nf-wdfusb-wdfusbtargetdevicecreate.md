@@ -10,6 +10,7 @@ keywords: ["WdfUsbTargetDeviceCreate function"]
 ms.keywords: DFUsbRef_be9c210e-6cf0-4e0b-a5d5-f0b02d7a2141.xml, WdfUsbTargetDeviceCreate, WdfUsbTargetDeviceCreate method, kmdf.wdfusbtargetdevicecreate, wdf.wdfusbtargetdevicecreate, wdfusb/WdfUsbTargetDeviceCreate
 f1_keywords:
  - "wdfusb/WdfUsbTargetDeviceCreate"
+ - "WdfUsbTargetDeviceCreate"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfUsbTargetDeviceCreate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

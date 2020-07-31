@@ -10,6 +10,7 @@ keywords: ["WdfCollectionCreate function"]
 ms.keywords: DFCollectionObjectRef_0c567e7a-209b-4ac2-a721-0c2ee4122aaa.xml, WdfCollectionCreate, WdfCollectionCreate method, kmdf.wdfcollectioncreate, wdf.wdfcollectioncreate, wdfcollection/WdfCollectionCreate
 f1_keywords:
  - "wdfcollection/WdfCollectionCreate"
+ - "WdfCollectionCreate"
 req.header: wdfcollection.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfCollectionCreate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

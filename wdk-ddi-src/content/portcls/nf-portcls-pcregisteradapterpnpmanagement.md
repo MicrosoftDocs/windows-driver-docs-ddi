@@ -10,6 +10,7 @@ keywords: ["PcRegisterAdapterPnpManagement function"]
 ms.keywords: PcRegisterAdapterPnPManagement, PcRegisterAdapterPnPManagement function [Audio Devices], PcRegisterAdapterPnpManagement, audio.pcregisteradapterpnpmanagement, portcls/PcRegisterAdapterPnPManagement
 f1_keywords:
  - "portcls/PcRegisterAdapterPnPManagement"
+ - "PcRegisterAdapterPnPManagement"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Portcls.dll
 api_name:
 - PcRegisterAdapterPnPManagement
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -59,7 +58,7 @@ The  PcRegisterAdapterPnpManagement function registers the adapter's PnP-managem
 
 ### -param Unknown
 
-<p>Pointer to an adapter driver object's <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown"><b>IUnknown</b></a> interface. The PortCls system driver queries this object for its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iadapterpnpmanagement">IAdapterPnpManagement</a> interface.</p>
+<p>Pointer to an adapter driver object's <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown"><b>IUnknown</b></a> interface. The PortCls system driver queries this object for its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iadapterpnpmanagement">IAdapterPnpManagement</a> interface.</p>
 
 
 ### -param DeviceObject [in]

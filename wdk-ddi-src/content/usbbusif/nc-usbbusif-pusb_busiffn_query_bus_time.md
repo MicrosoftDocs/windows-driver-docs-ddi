@@ -10,6 +10,7 @@ keywords: ["PUSB_BUSIFFN_QUERY_BUS_TIME callback function"]
 ms.keywords: PUSB_BUSIFFN_QUERY_BUS_TIME, QueryBusTime, QueryBusTime callback function [Buses], USB_BUSIFFN_QUERY_BUS_TIME, USB_BUSIFFN_QUERY_BUS_TIME callback, buses.querybustime, usbbusif/QueryBusTime, usbinterKR_857e67cf-8b61-43e3-b07f-25968e2672d4.xml
 f1_keywords:
  - "usbbusif/QueryBusTime"
+ - "QueryBusTime"
 req.header: usbbusif.h
 req.include-header: Usbbusif.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - usbbusif.h
 api_name:
 - QueryBusTime
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

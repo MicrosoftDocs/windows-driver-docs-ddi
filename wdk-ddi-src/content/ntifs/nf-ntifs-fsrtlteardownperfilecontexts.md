@@ -10,6 +10,7 @@ keywords: ["FsRtlTeardownPerFileContexts function"]
 ms.keywords: FsRtlTeardownPerFileContexts, FsRtlTeardownPerFileContexts routine [Installable File System Drivers], fsrtlref_3bd1af9f-ebc1-4cf8-9c7d-415f4bc64eb4.xml, ifsk.fsrtlteardownperfilecontexts, ntifs/FsRtlTeardownPerFileContexts
 f1_keywords:
  - "ntifs/FsRtlTeardownPerFileContexts"
+ - "FsRtlTeardownPerFileContexts"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlTeardownPerFileContexts
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

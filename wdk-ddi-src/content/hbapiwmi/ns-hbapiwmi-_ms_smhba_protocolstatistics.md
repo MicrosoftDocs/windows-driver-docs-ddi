@@ -10,6 +10,7 @@ keywords: ["_MS_SMHBA_PROTOCOLSTATISTICS structure"]
 ms.keywords: "*PMS_SMHBA_PROTOCOLSTATISTICS, MS_SMHBA_PROTOCOLSTATISTICS, MS_SMHBA_PROTOCOLSTATISTICS structure [Storage Devices], PMS_SMHBA_PROTOCOLSTATISTICS, PMS_SMHBA_PROTOCOLSTATISTICS structure pointer [Storage Devices], _MS_SMHBA_PROTOCOLSTATISTICS, hbapiwmi/MS_SMHBA_PROTOCOLSTATISTICS, hbapiwmi/PMS_SMHBA_PROTOCOLSTATISTICS, storage.ms_smhba_protocolstatistics, structs-Fibre_c49fbe22-4575-4738-810b-c9b53d5cc40c.xml"
 f1_keywords:
  - "hbapiwmi/MS_SMHBA_PROTOCOLSTATISTICS"
+ - "MS_SMHBA_PROTOCOLSTATISTICS"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - MS_SMHBA_PROTOCOLSTATISTICS
-product:
-- Windows
 targetos: Windows
 req.typenames: MS_SMHBA_PROTOCOLSTATISTICS, *PMS_SMHBA_PROTOCOLSTATISTICS
 ---

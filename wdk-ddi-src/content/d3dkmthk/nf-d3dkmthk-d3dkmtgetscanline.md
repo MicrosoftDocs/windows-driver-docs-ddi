@@ -9,6 +9,7 @@ keywords: ["D3DKMTGetScanLine function"]
 ms.keywords: D3DKMTGetScanLine, D3DKMTGetScanLine function [Display Devices], OpenGL_Functions_3a2d269d-0867-42fb-9268-86c560531de4.xml, d3dkmthk/D3DKMTGetScanLine, display.d3dkmtgetscanline
 f1_keywords:
  - "d3dkmthk/D3DKMTGetScanLine"
+ - "D3DKMTGetScanLine"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -38,8 +39,6 @@ api_location:
 - API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 - D3DKMTGetScanLine
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

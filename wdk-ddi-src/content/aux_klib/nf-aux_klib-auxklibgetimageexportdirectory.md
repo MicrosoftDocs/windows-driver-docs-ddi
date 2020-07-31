@@ -10,6 +10,7 @@ keywords: ["AuxKlibGetImageExportDirectory function"]
 ms.keywords: AuxKlibGetImageExportDirectory, AuxKlibGetImageExportDirectory routine [Kernel-Mode Driver Architecture], aux_klib/AuxKlibGetImageExportDirectory, aux_klib_266e4e59-eaf6-47a4-a5d0-27fc55426273.xml, kernel.auxklibgetimageexportdirectory
 f1_keywords:
  - "aux_klib/AuxKlibGetImageExportDirectory"
+ - "AuxKlibGetImageExportDirectory"
 req.header: aux_klib.h
 req.include-header: Aux_klib.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Aux_Klib.dll
 api_name:
 - AuxKlibGetImageExportDirectory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

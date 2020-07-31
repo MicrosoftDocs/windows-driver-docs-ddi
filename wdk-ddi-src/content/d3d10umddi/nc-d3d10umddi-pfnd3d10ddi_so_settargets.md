@@ -9,6 +9,7 @@ keywords: ["PFND3D10DDI_SO_SETTARGETS callback function"]
 ms.keywords: PFND3D10DDI_SO_SETTARGETS, PFND3D10DDI_SO_SETTARGETS callback, SoSetTargets, SoSetTargets callback function [Display Devices], UserModeDisplayDriverDx10_Functions_02cc8776-273f-4442-93da-34c2df9746ee.xml, d3d10umddi/SoSetTargets, display.sosettargets
 f1_keywords:
  - "d3d10umddi/SoSetTargets"
+ - "SoSetTargets"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - SoSetTargets
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

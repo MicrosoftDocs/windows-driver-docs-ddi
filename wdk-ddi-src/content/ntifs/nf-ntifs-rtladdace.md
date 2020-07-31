@@ -10,6 +10,7 @@ keywords: ["RtlAddAce function"]
 ms.keywords: RtlAddAce, RtlAddAce routine [Installable File System Drivers], ifsk.rtladdace, ntifs/RtlAddAce, rtlref_798d31d8-c233-4154-981d-a84cfdd95045.xml
 f1_keywords:
  - "ntifs/RtlAddAce"
+ - "RtlAddAce"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ntdll.dll
 api_name:
 - RtlAddAce
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

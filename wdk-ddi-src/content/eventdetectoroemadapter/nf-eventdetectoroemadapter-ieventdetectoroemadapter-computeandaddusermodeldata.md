@@ -10,6 +10,7 @@ ms.date: 02/25/2019
 keywords: ["IEventDetectorOemAdapter::ComputeAndAddUserModelData"]
 f1_keywords:
  - "eventdetectoroemadapter/IEventDetectorOemAdapter.ComputeAndAddUserModelData"
+ - "IEventDetectorOemAdapter.ComputeAndAddUserModelData"
 ms.keywords: IEventDetectorOemAdapter::ComputeAndAddUserModelData, ComputeAndAddUserModelData, IEventDetectorOemAdapter.ComputeAndAddUserModelData, IEventDetectorOemAdapter::ComputeAndAddUserModelData, IEventDetectorOemAdapter.ComputeAndAddUserModelData
 req.header: eventdetectoroemadapter.h
 req.include-header:

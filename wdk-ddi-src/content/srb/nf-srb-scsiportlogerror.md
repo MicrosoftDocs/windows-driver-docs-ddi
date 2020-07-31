@@ -10,6 +10,7 @@ keywords: ["ScsiPortLogError function"]
 ms.keywords: ScsiPortLogError, ScsiPortLogError routine [Storage Devices], scsiprt_5d3ec5ab-07f8-47d1-ab0c-363639c1e8aa.xml, srb/ScsiPortLogError, storage.scsiportlogerror
 f1_keywords:
  - "srb/ScsiPortLogError"
+ - "ScsiPortLogError"
 req.header: srb.h
 req.include-header: Miniport.h, Scsi.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Scsiport.dll
 api_name:
 - ScsiPortLogError
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

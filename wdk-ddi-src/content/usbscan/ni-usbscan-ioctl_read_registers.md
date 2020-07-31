@@ -10,6 +10,7 @@ keywords: ["IOCTL_READ_REGISTERS IOCTL"]
 ms.keywords: IOCTL_READ_REGISTERS, IOCTL_READ_REGISTERS control, IOCTL_READ_REGISTERS control code [Imaging Devices], image.ioctl_read_registers, stifnc_68af86d1-7d3b-4d2c-a5af-983f0339d71f.xml, usbscan/IOCTL_READ_REGISTERS
 f1_keywords:
  - "usbscan/IOCTL_READ_REGISTERS"
+ - "IOCTL_READ_REGISTERS"
 req.header: usbscan.h
 req.include-header: Usbscan.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Usbscan.h
 api_name:
 - IOCTL_READ_REGISTERS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

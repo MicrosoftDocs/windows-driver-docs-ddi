@@ -10,6 +10,7 @@ keywords: ["PcGetTimeInterval function"]
 ms.keywords: PcGetTimeInterval, PcGetTimeInterval function [Audio Devices], audio.pcgettimeinterval, audpc-routines_a68c0cf5-01b7-4e01-a719-f0bdea2d367f.xml, portcls/PcGetTimeInterval
 f1_keywords:
  - "portcls/PcGetTimeInterval"
+ - "PcGetTimeInterval"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Portcls.dll
 api_name:
 - PcGetTimeInterval
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

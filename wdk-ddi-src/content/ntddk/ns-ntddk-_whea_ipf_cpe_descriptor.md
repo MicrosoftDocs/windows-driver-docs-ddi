@@ -10,6 +10,7 @@ keywords: ["_WHEA_IPF_CPE_DESCRIPTOR structure"]
 ms.keywords: "*PWHEA_IPF_CPE_DESCRIPTOR, PWHEA_IPF_CPE_DESCRIPTOR, PWHEA_IPF_CPE_DESCRIPTOR structure pointer [WHEA Drivers and Applications], WHEA_IPF_CPE_DESCRIPTOR, WHEA_IPF_CPE_DESCRIPTOR structure [WHEA Drivers and Applications], _WHEA_IPF_CPE_DESCRIPTOR, ntddk/PWHEA_IPF_CPE_DESCRIPTOR, ntddk/WHEA_IPF_CPE_DESCRIPTOR, whea.whea_ipf_cpe_descriptor, whearef_b64c919f-4854-4506-b14a-ec31b0a3e67e.xml"
 f1_keywords:
  - "ntddk/WHEA_IPF_CPE_DESCRIPTOR"
+ - "WHEA_IPF_CPE_DESCRIPTOR"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - WHEA_IPF_CPE_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: WHEA_IPF_CPE_DESCRIPTOR, *PWHEA_IPF_CPE_DESCRIPTOR
 ---

@@ -10,6 +10,7 @@ keywords: ["KsStreamPointerAdvanceOffsetsAndUnlock function"]
 ms.keywords: KsStreamPointerAdvanceOffsetsAndUnlock, KsStreamPointerAdvanceOffsetsAndUnlock function [Streaming Media Devices], avfunc_5f1d19bb-e367-4df3-9423-0263bda1cd54.xml, ks/KsStreamPointerAdvanceOffsetsAndUnlock, stream.ksstreampointeradvanceoffsetsandunlock
 f1_keywords:
  - "ks/KsStreamPointerAdvanceOffsetsAndUnlock"
+ - "KsStreamPointerAdvanceOffsetsAndUnlock"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsStreamPointerAdvanceOffsetsAndUnlock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

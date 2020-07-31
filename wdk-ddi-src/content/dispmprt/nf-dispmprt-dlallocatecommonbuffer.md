@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DlAllocateCommonBuffer function"]
 f1_keywords:
  - "dispmprt/DlAllocateCommonBuffer"
+ - "DlAllocateCommonBuffer"
 ms.keywords: DlAllocateCommonBuffer
 req.header: dispmprt.h
 req.include-header:

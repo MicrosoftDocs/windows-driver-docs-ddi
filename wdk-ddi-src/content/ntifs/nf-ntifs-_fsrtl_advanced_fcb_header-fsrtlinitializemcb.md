@@ -10,6 +10,7 @@ keywords: ["FsRtlInitializeMcb function"]
 ms.keywords: FsRtlInitializeMcb, FsRtlInitializeMcb function [Installable File System Drivers], fsrtlref_cce0e584-5fd6-4fc8-8a61-b6bef61207dd.xml, ifsk.fsrtlinitializemcb, ntifs/FsRtlInitializeMcb
 f1_keywords:
  - "ntifs/FsRtlInitializeMcb"
+ - "FsRtlInitializeMcb"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - FsRtlInitializeMcb
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 dev_langs:

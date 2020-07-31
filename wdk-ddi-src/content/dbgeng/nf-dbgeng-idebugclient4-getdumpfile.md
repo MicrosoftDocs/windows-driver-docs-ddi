@@ -10,6 +10,7 @@ keywords: ["IDebugClient4::GetDumpFile"]
 ms.keywords: GetDumpFile, GetDumpFile method [Windows Debugging], GetDumpFile method [Windows Debugging],IDebugClient4 interface, GetDumpFile method [Windows Debugging],IDebugClient5 interface, IDebugClient4 interface [Windows Debugging],GetDumpFile method, IDebugClient4.GetDumpFile, IDebugClient4::GetDumpFile, IDebugClient5 interface [Windows Debugging],GetDumpFile method, IDebugClient5::GetDumpFile, IDebugClient_f4f1540c-116c-4e74-ad19-10beb0ac2739.xml, dbgeng/IDebugClient4::GetDumpFile, dbgeng/IDebugClient5::GetDumpFile, debugger.getdumpfile
 f1_keywords:
  - "dbgeng/IDebugClient4.GetDumpFile"
+ - "IDebugClient4.GetDumpFile"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IDebugClient4.GetDumpFile
 - IDebugClient5.GetDumpFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

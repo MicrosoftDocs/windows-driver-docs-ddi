@@ -10,6 +10,7 @@ keywords: ["FILTER_ATTACH callback function"]
 ms.keywords: FILTER_ATTACH, FILTER_ATTACH callback, FilterAttach, FilterAttach callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_1e3f64d6-a779-4732-824a-87af6a7adc25.xml, ndis/FilterAttach, netvista.filterattach
 f1_keywords:
  - "ndis/FilterAttach"
+ - "FilterAttach"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - FilterAttach
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

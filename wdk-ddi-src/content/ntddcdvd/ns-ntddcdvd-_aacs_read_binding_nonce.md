@@ -10,6 +10,7 @@ keywords: ["_AACS_READ_BINDING_NONCE structure"]
 ms.keywords: "*PAACS_READ_BINDING_NONCE, AACS_READ_BINDING_NONCE, AACS_READ_BINDING_NONCE structure [Storage Devices], PAACS_READ_BINDING_NONCE, PAACS_READ_BINDING_NONCE structure pointer [Storage Devices], _AACS_READ_BINDING_NONCE, ntddcdvd/AACS_READ_BINDING_NONCE, ntddcdvd/PAACS_READ_BINDING_NONCE, storage.aacs_read_binding_nonce, structs-DVD_bc4b150f-5fa2-4c8d-b8fa-d3c3bf1c8639.xml"
 f1_keywords:
  - "ntddcdvd/AACS_READ_BINDING_NONCE"
+ - "AACS_READ_BINDING_NONCE"
 req.header: ntddcdvd.h
 req.include-header: Ntddcdvd.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddcdvd.h
 api_name:
 - AACS_READ_BINDING_NONCE
-product:
-- Windows
 targetos: Windows
 req.typenames: AACS_READ_BINDING_NONCE, *PAACS_READ_BINDING_NONCE
 ---

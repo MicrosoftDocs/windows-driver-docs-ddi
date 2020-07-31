@@ -10,6 +10,7 @@ keywords: ["_IMAGE_POLICY_ENTRY_TYPE enumeration"]
 ms.keywords: IMAGE_POLICY_ENTRY_TYPE, IMAGE_POLICY_ENTRY_TYPE enumeration [Kernel-Mode Driver Architecture], ImagePolicyEntryTypeAnsiString, ImagePolicyEntryTypeBool, ImagePolicyEntryTypeInt16, ImagePolicyEntryTypeInt32, ImagePolicyEntryTypeInt64, ImagePolicyEntryTypeInt8, ImagePolicyEntryTypeMaximum, ImagePolicyEntryTypeUInt16, ImagePolicyEntryTypeUInt32, ImagePolicyEntryTypeUInt64, ImagePolicyEntryTypeUInt8, ImagePolicyEntryTypeUnicodeString, _IMAGE_POLICY_ENTRY_TYPE, kernel._image_policy_entry_type, wdm/IMAGE_POLICY_ENTRY_TYPE, wdm/ImagePolicyEntryTypeAnsiString, wdm/ImagePolicyEntryTypeBool, wdm/ImagePolicyEntryTypeInt16, wdm/ImagePolicyEntryTypeInt32, wdm/ImagePolicyEntryTypeInt64, wdm/ImagePolicyEntryTypeInt8, wdm/ImagePolicyEntryTypeMaximum, wdm/ImagePolicyEntryTypeUInt16, wdm/ImagePolicyEntryTypeUInt32, wdm/ImagePolicyEntryTypeUInt64, wdm/ImagePolicyEntryTypeUInt8, wdm/ImagePolicyEntryTypeUnicodeString
 f1_keywords:
  - "wdm/IMAGE_POLICY_ENTRY_TYPE"
+ - "IMAGE_POLICY_ENTRY_TYPE"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - IMAGE_POLICY_ENTRY_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: IMAGE_POLICY_ENTRY_TYPE
 ---

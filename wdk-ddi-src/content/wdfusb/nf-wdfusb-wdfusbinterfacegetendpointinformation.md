@@ -10,6 +10,7 @@ keywords: ["WdfUsbInterfaceGetEndpointInformation function"]
 ms.keywords: DFUsbRef_fff1d755-32af-48d1-b9d6-faa8b118fa8d.xml, WdfUsbInterfaceGetEndpointInformation, WdfUsbInterfaceGetEndpointInformation method, kmdf.wdfusbinterfacegetendpointinformation, wdf.wdfusbinterfacegetendpointinformation, wdfusb/WdfUsbInterfaceGetEndpointInformation
 f1_keywords:
  - "wdfusb/WdfUsbInterfaceGetEndpointInformation"
+ - "WdfUsbInterfaceGetEndpointInformation"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfUsbInterfaceGetEndpointInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

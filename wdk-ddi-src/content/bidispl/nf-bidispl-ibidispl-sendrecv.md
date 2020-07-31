@@ -10,6 +10,7 @@ keywords: ["IBidiSpl::SendRecv"]
 ms.keywords: IBidiSpl interface [Print Devices],SendRecv method, IBidiSpl.SendRecv, IBidiSpl::SendRecv, SendRecv, SendRecv method [Print Devices], SendRecv method [Print Devices],IBidiSpl interface, _win32_IBidiSpl_SendRecv, bidispl/IBidiSpl::SendRecv, gdi.ibidispl_ibidispl__sendrecv, print.ibidispl_ibidispl__sendrecv
 f1_keywords:
  - "bidispl/IBidiSpl.SendRecv"
+ - "IBidiSpl.SendRecv"
 req.header: bidispl.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - bidispl.dll
 api_name:
 - IBidiSpl.SendRecv
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

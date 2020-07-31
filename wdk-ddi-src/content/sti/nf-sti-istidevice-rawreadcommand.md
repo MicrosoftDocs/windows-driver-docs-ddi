@@ -10,6 +10,7 @@ keywords: ["IStiDevice::RawReadCommand"]
 ms.keywords: IStiDevice interface [Imaging Devices],RawReadCommand method, IStiDevice.RawReadCommand, IStiDevice::RawReadCommand, RawReadCommand, RawReadCommand method [Imaging Devices], RawReadCommand method [Imaging Devices],IStiDevice interface, image.istidevice_rawreadcommand, sti/IStiDevice::RawReadCommand, stifnc_cdfe25e7-b5c4-4ed0-b8f5-363c83f1bbba.xml
 f1_keywords:
  - "sti/IStiDevice.RawReadCommand"
+ - "IStiDevice.RawReadCommand"
 req.header: sti.h
 req.include-header: Sti.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - sti.h
 api_name:
 - IStiDevice.RawReadCommand
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

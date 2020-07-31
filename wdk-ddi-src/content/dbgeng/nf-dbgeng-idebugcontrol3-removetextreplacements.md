@@ -10,6 +10,7 @@ keywords: ["IDebugControl3::RemoveTextReplacements"]
 ms.keywords: IDebugControl2 interface [Windows Debugging],RemoveTextReplacements method, IDebugControl2::RemoveTextReplacements, IDebugControl3 interface [Windows Debugging],RemoveTextReplacements method, IDebugControl3.RemoveTextReplacements, IDebugControl3::RemoveTextReplacements, IDebugControl_ba950bc7-3ed5-4e2e-913d-c743e1190482.xml, RemoveTextReplacements, RemoveTextReplacements method [Windows Debugging], RemoveTextReplacements method [Windows Debugging],IDebugControl2 interface, RemoveTextReplacements method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::RemoveTextReplacements, dbgeng/IDebugControl3::RemoveTextReplacements, debugger.removetextreplacements
 f1_keywords:
  - "dbgeng/IDebugControl2.RemoveTextReplacements"
+ - "IDebugControl2.RemoveTextReplacements"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IDebugControl2.RemoveTextReplacements
 - IDebugControl3.RemoveTextReplacements
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

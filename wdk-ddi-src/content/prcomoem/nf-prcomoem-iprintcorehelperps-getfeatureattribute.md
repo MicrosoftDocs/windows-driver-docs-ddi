@@ -10,6 +10,7 @@ keywords: ["IPrintCoreHelperPS::GetFeatureAttribute"]
 ms.keywords: GetFeatureAttribute, GetFeatureAttribute method [Print Devices], GetFeatureAttribute method [Print Devices],IPrintCoreHelperPS interface, IPrintCoreHelperPS interface [Print Devices],GetFeatureAttribute method, IPrintCoreHelperPS.GetFeatureAttribute, IPrintCoreHelperPS::GetFeatureAttribute, prcomoem/IPrintCoreHelperPS::GetFeatureAttribute, print.iprintcorehelperps_getfeatureattribute, print_unidrv-pscript_allplugins_19fb9a4e-5314-486b-a1cc-0b9c4bcc690a.xml
 f1_keywords:
  - "prcomoem/IPrintCoreHelperPS.GetFeatureAttribute"
+ - "IPrintCoreHelperPS.GetFeatureAttribute"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - prcomoem.h
 api_name:
 - IPrintCoreHelperPS.GetFeatureAttribute
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

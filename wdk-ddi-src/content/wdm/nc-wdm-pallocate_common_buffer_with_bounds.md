@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["PALLOCATE_COMMON_BUFFER_WITH_BOUNDS callback function"]
 f1_keywords:
  - "wdm/PALLOCATE_COMMON_BUFFER_WITH_BOUNDS"
+ - "PALLOCATE_COMMON_BUFFER_WITH_BOUNDS"
 req.header: wdm.h
 req.include-header:
 req.target-type: Desktop
@@ -33,8 +34,6 @@ api_location:
 api_name: 
 - PALLOCATE_COMMON_BUFFER_WITH_BOUNDS
 - AllocateCommonBufferWithBounds 
-product:
-- Windows
 targetos: Windows
 ---
 

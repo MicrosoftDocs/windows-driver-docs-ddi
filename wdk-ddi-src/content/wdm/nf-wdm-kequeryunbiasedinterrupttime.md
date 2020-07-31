@@ -10,6 +10,7 @@ keywords: ["KeQueryUnbiasedInterruptTime function"]
 ms.keywords: KeQueryUnbiasedInterruptTime, KeQueryUnbiasedInterruptTime routine [Kernel-Mode Driver Architecture], k105_34119e3c-6e9a-4e27-9d0e-3d9eb579df46.xml, kernel.kequeryunbiasedinterrupttime, wdm/KeQueryUnbiasedInterruptTime
 f1_keywords:
  - "wdm/KeQueryUnbiasedInterruptTime"
+ - "KeQueryUnbiasedInterruptTime"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeQueryUnbiasedInterruptTime
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

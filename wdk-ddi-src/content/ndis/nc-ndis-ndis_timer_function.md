@@ -10,6 +10,7 @@ keywords: ["NDIS_TIMER_FUNCTION callback function"]
 ms.keywords: NDIS_TIMER_FUNCTION, NDIS_TIMER_FUNCTION callback, NdisTimerFunction, NdisTimerFunction callback function [Network Drivers Starting with Windows Vista], ndis/NdisTimerFunction, ndis_timer_ref_9040f7c2-905a-457d-a7c3-07253e2fb3da.xml, netvista.nettimercallback
 f1_keywords:
  - "ndis/NdisTimerFunction"
+ - "NdisTimerFunction"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - NdisTimerFunction
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

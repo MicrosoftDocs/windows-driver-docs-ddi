@@ -10,6 +10,7 @@ keywords: ["IWDFUsbTargetDevice::RetrieveDeviceInformation"]
 ms.keywords: IWDFUsbTargetDevice interface,RetrieveDeviceInformation method, IWDFUsbTargetDevice.RetrieveDeviceInformation, IWDFUsbTargetDevice::RetrieveDeviceInformation, RetrieveDeviceInformation, RetrieveDeviceInformation method, RetrieveDeviceInformation method,IWDFUsbTargetDevice interface, UMDFUSBref_3323b24f-da0c-4208-8f88-88d7198e805c.xml, umdf.iwdfusbtargetdevice_retrievedeviceinformation, wdf.iwdfusbtargetdevice_retrievedeviceinformation, wudfusb/IWDFUsbTargetDevice::RetrieveDeviceInformation
 f1_keywords:
  - "wudfusb/IWDFUsbTargetDevice.RetrieveDeviceInformation"
+ - "IWDFUsbTargetDevice.RetrieveDeviceInformation"
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFUsbTargetDevice.RetrieveDeviceInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

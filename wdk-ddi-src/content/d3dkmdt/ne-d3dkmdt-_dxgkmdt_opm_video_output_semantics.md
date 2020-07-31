@@ -10,6 +10,7 @@ keywords: ["_DXGKMDT_OPM_VIDEO_OUTPUT_SEMANTICS enumeration"]
 ms.keywords: DXGKMDT_OPM_VIDEO_OUTPUT_SEMANTICS, DXGKMDT_OPM_VIDEO_OUTPUT_SEMANTICS enumeration [Display Devices], DXGKMDT_OPM_VOS_COPP_SEMANTICS, DXGKMDT_OPM_VOS_OPM_SEMANTICS, DmEnums_246674bf-9e12-47c0-ab28-54c09d25fc43.xml, _DXGKMDT_OPM_VIDEO_OUTPUT_SEMANTICS, d3dkmdt/DXGKMDT_OPM_VIDEO_OUTPUT_SEMANTICS, d3dkmdt/DXGKMDT_OPM_VOS_COPP_SEMANTICS, d3dkmdt/DXGKMDT_OPM_VOS_OPM_SEMANTICS, display.dxgkmdt_opm_video_output_semantics
 f1_keywords:
  - "d3dkmdt/DXGKMDT_OPM_VIDEO_OUTPUT_SEMANTICS"
+ - "DXGKMDT_OPM_VIDEO_OUTPUT_SEMANTICS"
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dkmdt.h
 api_name:
 - DXGKMDT_OPM_VIDEO_OUTPUT_SEMANTICS
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGKMDT_OPM_VIDEO_OUTPUT_SEMANTICS
 ---

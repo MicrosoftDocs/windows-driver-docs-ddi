@@ -10,6 +10,7 @@ keywords: ["GNSS_CHIPSETINFO structure"]
 ms.keywords: "*PGNSS_CHIPSETINFO, GNSS_CHIPSETINFO, GNSS_CHIPSETINFO structure [Sensor Devices], PGNSS_CHIPSETINFO, PGNSS_CHIPSETINFO structure pointer [Sensor Devices], gnss.gnss_chipsetinfo, gnssdriver/GNSS_CHIPSETINFO, gnssdriver/PGNSS_CHIPSETINFO"
 f1_keywords:
  - "gnssdriver/GNSS_CHIPSETINFO"
+ - "GNSS_CHIPSETINFO"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - gnssdriver.h
 api_name:
 - GNSS_CHIPSETINFO
-product:
-- Windows
 targetos: Windows
 req.typenames: GNSS_CHIPSETINFO, *PGNSS_CHIPSETINFO
 ---

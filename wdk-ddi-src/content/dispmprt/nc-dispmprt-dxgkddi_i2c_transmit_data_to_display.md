@@ -10,6 +10,7 @@ keywords: ["DXGKDDI_I2C_TRANSMIT_DATA_TO_DISPLAY callback function"]
 ms.keywords: DXGKDDI_I2C_TRANSMIT_DATA_TO_DISPLAY, DXGKDDI_I2C_TRANSMIT_DATA_TO_DISPLAY callback, DmFunctions_6152910a-6f9c-4686-b025-2508bbfdf257.xml, DxgkDdiI2CTransmitDataToDisplay, DxgkDdiI2CTransmitDataToDisplay callback function [Display Devices], display.dxgkddii2ctransmitdatatodisplay, dispmprt/DxgkDdiI2CTransmitDataToDisplay
 f1_keywords:
  - "dispmprt/DxgkDdiI2CTransmitDataToDisplay"
+ - "DxgkDdiI2CTransmitDataToDisplay"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dispmprt.h
 api_name:
 - DxgkDdiI2CTransmitDataToDisplay
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

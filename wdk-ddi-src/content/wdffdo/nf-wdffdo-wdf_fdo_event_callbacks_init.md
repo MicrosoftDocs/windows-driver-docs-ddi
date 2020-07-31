@@ -10,6 +10,7 @@ keywords: ["WDF_FDO_EVENT_CALLBACKS_INIT function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_fdf4f567-cbdd-4fb4-a752-344f6a298bbf.xml, WDF_FDO_EVENT_CALLBACKS_INIT, WDF_FDO_EVENT_CALLBACKS_INIT function, kmdf.wdf_fdo_event_callbacks_init, wdf.wdf_fdo_event_callbacks_init, wdffdo/WDF_FDO_EVENT_CALLBACKS_INIT
 f1_keywords:
  - "wdffdo/WDF_FDO_EVENT_CALLBACKS_INIT"
+ - "WDF_FDO_EVENT_CALLBACKS_INIT"
 req.header: wdffdo.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - wdffdo.h
 api_name:
 - WDF_FDO_EVENT_CALLBACKS_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

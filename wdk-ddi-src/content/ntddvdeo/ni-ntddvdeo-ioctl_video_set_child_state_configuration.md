@@ -10,6 +10,7 @@ keywords: ["IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION IOCTL"]
 ms.keywords: IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION, IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION control, IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION control code [Display Devices], Video_IOCTLs_bd76ef78-623a-4f72-b0fd-1ac70b211a98.xml, display.ioctl_video_set_child_state_configuration, ntddvdeo/IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION
 f1_keywords:
  - "ntddvdeo/IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION"
+ - "IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION"
 req.header: ntddvdeo.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddvdeo.h
 api_name:
 - IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

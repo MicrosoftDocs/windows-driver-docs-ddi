@@ -10,6 +10,7 @@ keywords: ["FltGetTransactionContext function"]
 ms.keywords: FltApiRef_e_to_o_11458006-a870-473b-9d1b-ab7a97af09b3.xml, FltGetTransactionContext, FltGetTransactionContext routine [Installable File System Drivers], fltkernel/FltGetTransactionContext, ifsk.fltgettransactioncontext
 f1_keywords:
  - "fltkernel/FltGetTransactionContext"
+ - "FltGetTransactionContext"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - FltMgr.sys
 api_name:
 - FltGetTransactionContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

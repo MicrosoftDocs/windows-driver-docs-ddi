@@ -10,6 +10,7 @@ keywords: ["FsRtlAllocatePoolWithTag macro"]
 ms.keywords: FsRtlAllocatePoolWithTag, FsRtlAllocatePoolWithTag routine [Installable File System Drivers], fsrtlref_1137174c-fe54-4575-98a6-64a569f91b96.xml, ifsk.fsrtlallocatepoolwithtag, ntifs/FsRtlAllocatePoolWithTag
 f1_keywords:
  - "ntifs/FsRtlAllocatePoolWithTag"
+ - "FsRtlAllocatePoolWithTag"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlAllocatePoolWithTag
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

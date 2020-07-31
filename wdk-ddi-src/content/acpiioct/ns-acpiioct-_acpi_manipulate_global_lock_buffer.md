@@ -10,6 +10,7 @@ keywords: ["_ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER structure"]
 ms.keywords: "*PACPI_MANIPULATE_GLOBAL_LOCK_BUFFER, ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER, ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER structure [ACPI Devices], PACPI_MANIPULATE_GLOBAL_LOCK_BUFFER, PACPI_MANIPULATE_GLOBAL_LOCK_BUFFER structure pointer [ACPI Devices], _ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER, acpi.acpi_manipulate_global_lock_buffer, acpiioct/ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER, acpiioct/PACPI_MANIPULATE_GLOBAL_LOCK_BUFFER"
 f1_keywords:
  - "acpiioct/ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER"
+ - "ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER"
 req.header: acpiioct.h
 req.include-header: Acpiioct.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Acpiioct.h
 api_name:
 - ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER
-product:
-- Windows
 targetos: Windows
 req.typenames: ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER, *PACPI_MANIPULATE_GLOBAL_LOCK_BUFFER
 ---

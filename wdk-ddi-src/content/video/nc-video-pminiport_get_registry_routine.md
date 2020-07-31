@@ -10,6 +10,7 @@ keywords: ["PMINIPORT_GET_REGISTRY_ROUTINE callback function"]
 ms.keywords: HwVidQueryNamedValueCallback, HwVidQueryNamedValueCallback callback function [Display Devices], PMINIPORT_GET_REGISTRY_ROUTINE, PMINIPORT_GET_REGISTRY_ROUTINE callback, VideoMiniport_Functions_4e6a63e7-cf5f-4cb6-9e9a-10286e40d762.xml, display.hwvidquerynamedvaluecallback, video/HwVidQueryNamedValueCallback
 f1_keywords:
  - "video/HwVidQueryNamedValueCallback"
+ - "HwVidQueryNamedValueCallback"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - video.h
 api_name:
 - HwVidQueryNamedValueCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

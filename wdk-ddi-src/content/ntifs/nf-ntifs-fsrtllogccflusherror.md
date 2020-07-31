@@ -10,6 +10,7 @@ keywords: ["FsRtlLogCcFlushError function"]
 ms.keywords: FsRtlLogCcFlushError, FsRtlLogCcFlushError routine [Installable File System Drivers], fsrtlref_5e72d84c-d788-4b6d-b5fe-3e9b06b0e074.xml, ifsk.fsrtllogccflusherror, ntifs/FsRtlLogCcFlushError
 f1_keywords:
  - "ntifs/FsRtlLogCcFlushError"
+ - "FsRtlLogCcFlushError"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlLogCcFlushError
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

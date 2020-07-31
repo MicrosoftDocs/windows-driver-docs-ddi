@@ -10,6 +10,7 @@ keywords: ["_DXGKMDT_OPM_GET_INFO_PARAMETERS structure"]
 ms.keywords: "*PDXGKMDT_OPM_GET_INFO_PARAMETERS, DXGKMDT_OPM_GET_INFO_PARAMETERS, DXGKMDT_OPM_GET_INFO_PARAMETERS structure [Display Devices], DmStructs_e6abe7a0-8285-4f66-97a3-d2c04c70bcd3.xml, PDXGKMDT_OPM_GET_INFO_PARAMETERS, PDXGKMDT_OPM_GET_INFO_PARAMETERS structure pointer [Display Devices], _DXGKMDT_OPM_GET_INFO_PARAMETERS, d3dkmdt/DXGKMDT_OPM_GET_INFO_PARAMETERS, d3dkmdt/PDXGKMDT_OPM_GET_INFO_PARAMETERS, display.dxgkmdt_opm_get_info_parameters"
 f1_keywords:
  - "d3dkmdt/DXGKMDT_OPM_GET_INFO_PARAMETERS"
+ - "DXGKMDT_OPM_GET_INFO_PARAMETERS"
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dkmdt.h
 api_name:
 - DXGKMDT_OPM_GET_INFO_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGKMDT_OPM_GET_INFO_PARAMETERS, *PDXGKMDT_OPM_GET_INFO_PARAMETERS
 ---

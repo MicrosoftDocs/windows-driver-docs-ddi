@@ -10,6 +10,7 @@ keywords: ["KSPIN_DATAFLOW enumeration"]
 ms.keywords: "*PKSPIN_DATAFLOW, KSPIN_DATAFLOW, KSPIN_DATAFLOW enumeration [Streaming Media Devices], KSPIN_DATAFLOW_IN, KSPIN_DATAFLOW_OUT, PKSPIN_DATAFLOW, PKSPIN_DATAFLOW enumeration pointer [Streaming Media Devices], ks-struct_2161b89b-ba7c-440a-9006-c3445b392b89.xml, ks/KSPIN_DATAFLOW, ks/KSPIN_DATAFLOW_IN, ks/KSPIN_DATAFLOW_OUT, ks/PKSPIN_DATAFLOW, stream.kspin_dataflow"
 f1_keywords:
  - "ks/KSPIN_DATAFLOW"
+ - "KSPIN_DATAFLOW"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KSPIN_DATAFLOW
-product:
-- Windows
 targetos: Windows
 req.typenames: KSPIN_DATAFLOW, *PKSPIN_DATAFLOW
 ---

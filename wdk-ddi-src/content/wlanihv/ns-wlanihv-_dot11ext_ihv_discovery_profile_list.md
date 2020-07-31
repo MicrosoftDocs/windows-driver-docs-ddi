@@ -10,6 +10,7 @@ keywords: ["_DOT11EXT_IHV_DISCOVERY_PROFILE_LIST structure"]
 ms.keywords: "*PDOT11EXT_IHV_DISCOVERY_PROFILE_LIST, DOT11EXT_IHV_DISCOVERY_PROFILE_LIST, DOT11EXT_IHV_DISCOVERY_PROFILE_LIST structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_824a6794-5502-459a-9a47-409d51a6871a.xml, PDOT11EXT_IHV_DISCOVERY_PROFILE_LIST, PDOT11EXT_IHV_DISCOVERY_PROFILE_LIST structure pointer [Network Drivers Starting with Windows Vista], _DOT11EXT_IHV_DISCOVERY_PROFILE_LIST, netvista.dot11ext_ihv_discovery_profile_list, wlanihv/DOT11EXT_IHV_DISCOVERY_PROFILE_LIST, wlanihv/PDOT11EXT_IHV_DISCOVERY_PROFILE_LIST"
 f1_keywords:
  - "wlanihv/DOT11EXT_IHV_DISCOVERY_PROFILE_LIST"
+ - "DOT11EXT_IHV_DISCOVERY_PROFILE_LIST"
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wlanihv.h
 api_name:
 - DOT11EXT_IHV_DISCOVERY_PROFILE_LIST
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT11EXT_IHV_DISCOVERY_PROFILE_LIST, *PDOT11EXT_IHV_DISCOVERY_PROFILE_LIST
 req.product: Windows 10 or later.

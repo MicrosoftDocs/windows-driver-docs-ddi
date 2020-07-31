@@ -10,6 +10,7 @@ keywords: ["VideoPortInitialize function"]
 ms.keywords: VideoPortInitialize, VideoPortInitialize function [Display Devices], VideoPort_Functions_215d2fe2-98a9-4504-96cb-492370e349c8.xml, display.videoportinitialize, video/VideoPortInitialize
 f1_keywords:
  - "video/VideoPortInitialize"
+ - "VideoPortInitialize"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Videoprt.sys
 api_name:
 - VideoPortInitialize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

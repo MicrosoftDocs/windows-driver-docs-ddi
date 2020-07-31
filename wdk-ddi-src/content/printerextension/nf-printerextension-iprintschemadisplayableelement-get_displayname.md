@@ -10,6 +10,7 @@ keywords: ["IPrintSchemaDisplayableElement::get_DisplayName"]
 ms.keywords: DisplayName property [Print Devices], DisplayName property [Print Devices],IPrintSchemaDisplayableElement interface, IPrintSchemaDisplayableElement interface [Print Devices],DisplayName property, IPrintSchemaDisplayableElement.DisplayName, IPrintSchemaDisplayableElement.get_DisplayName, IPrintSchemaDisplayableElement::DisplayName, IPrintSchemaDisplayableElement::get_DisplayName, get_DisplayName, print.iprintschemadisplayableelement_displayname, printerextension/IPrintSchemaDisplayableElement::DisplayName, printerextension/IPrintSchemaDisplayableElement::get_DisplayName
 f1_keywords:
  - "printerextension/IPrintSchemaDisplayableElement.DisplayName"
+ - "IPrintSchemaDisplayableElement.DisplayName"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IPrintSchemaDisplayableElement.DisplayName
 - IPrintSchemaDisplayableElement.get_DisplayName
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

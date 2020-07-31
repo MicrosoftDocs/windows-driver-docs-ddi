@@ -10,6 +10,7 @@ keywords: ["KeLeaveCriticalRegion function"]
 ms.keywords: KeLeaveCriticalRegion, KeLeaveCriticalRegion routine [Kernel-Mode Driver Architecture], k105_f9344044-a57f-4ee4-800c-a03edcc27196.xml, kernel.keleavecriticalregion, wdm/KeLeaveCriticalRegion
 f1_keywords:
  - "wdm/KeLeaveCriticalRegion"
+ - "KeLeaveCriticalRegion"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeLeaveCriticalRegion
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

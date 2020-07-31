@@ -10,6 +10,7 @@ keywords: ["IOCTL_STORAGE_DEVICE_POWER_CAP IOCTL"]
 ms.keywords: IOCTL_STORAGE_DEVICE_POWER_CAP, IOCTL_STORAGE_DEVICE_POWER_CAP control, IOCTL_STORAGE_DEVICE_POWER_CAP control code [Storage Devices], ntddstor/IOCTL_STORAGE_DEVICE_POWER_CAP, storage.ioctl_storage_device_power_cap
 f1_keywords:
  - "ntddstor/IOCTL_STORAGE_DEVICE_POWER_CAP"
+ - "IOCTL_STORAGE_DEVICE_POWER_CAP"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddstor.h
 api_name:
 - IOCTL_STORAGE_DEVICE_POWER_CAP
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

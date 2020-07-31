@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_DXGKARG_BEGINEXCLUSIVEACCESS structure"]
 f1_keywords:
  - "d3dkmddi/_DXGKARG_BEGINEXCLUSIVEACCESS"
+ - "_DXGKARG_BEGINEXCLUSIVEACCESS"
 ms.keywords: _DXGKARG_BEGINEXCLUSIVEACCESS, DXGKARG_BEGINEXCLUSIVEACCESS, *IN_PDXGKARG_BEGINEXCLUSIVEACCESS
 req.header: d3dkmddi.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - _DXGKARG_BEGINEXCLUSIVEACCESS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

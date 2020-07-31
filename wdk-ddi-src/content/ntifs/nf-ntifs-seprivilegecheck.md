@@ -10,6 +10,7 @@ keywords: ["SePrivilegeCheck function"]
 ms.keywords: SePrivilegeCheck, SePrivilegeCheck routine [Installable File System Drivers], ifsk.seprivilegecheck, ntifs/SePrivilegeCheck, seref_45aa3a8c-26b9-4bb9-968a-5f7d4a12ca3a.xml
 f1_keywords:
  - "ntifs/SePrivilegeCheck"
+ - "SePrivilegeCheck"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - SePrivilegeCheck
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

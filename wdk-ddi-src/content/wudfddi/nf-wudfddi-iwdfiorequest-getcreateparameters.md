@@ -10,6 +10,7 @@ keywords: ["IWDFIoRequest::GetCreateParameters"]
 ms.keywords: GetCreateParameters, GetCreateParameters method, GetCreateParameters method,IWDFIoRequest interface, IWDFIoRequest interface,GetCreateParameters method, IWDFIoRequest.GetCreateParameters, IWDFIoRequest::GetCreateParameters, UMDFRequestObjectRef_ac352dd9-a9e0-4741-abfe-92482dd25112.xml, umdf.iwdfiorequest_getcreateparameters, wdf.iwdfiorequest_getcreateparameters, wudfddi/IWDFIoRequest::GetCreateParameters
 f1_keywords:
  - "wudfddi/IWDFIoRequest.GetCreateParameters"
+ - "IWDFIoRequest.GetCreateParameters"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFIoRequest.GetCreateParameters
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

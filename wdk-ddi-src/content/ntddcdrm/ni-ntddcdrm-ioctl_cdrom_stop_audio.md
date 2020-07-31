@@ -10,6 +10,7 @@ keywords: ["IOCTL_CDROM_STOP_AUDIO IOCTL"]
 ms.keywords: IOCTL_CDROM_STOP_AUDIO, IOCTL_CDROM_STOP_AUDIO control, IOCTL_CDROM_STOP_AUDIO control code [Storage Devices], k307_f800aa8a-b12c-4373-9e6a-0b2a12182540.xml, ntddcdrm/IOCTL_CDROM_STOP_AUDIO, storage.ioctl_cdrom_stop_audio
 f1_keywords:
  - "ntddcdrm/IOCTL_CDROM_STOP_AUDIO"
+ - "IOCTL_CDROM_STOP_AUDIO"
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddcdrm.h
 api_name:
 - IOCTL_CDROM_STOP_AUDIO
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

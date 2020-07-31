@@ -10,6 +10,7 @@ keywords: ["IOCTL_WAIT_ON_DEVICE_EVENT IOCTL"]
 ms.keywords: IOCTL_WAIT_ON_DEVICE_EVENT, IOCTL_WAIT_ON_DEVICE_EVENT control, IOCTL_WAIT_ON_DEVICE_EVENT control code [Imaging Devices], image.ioctl_wait_on_device_event, stifnc_ef4b6e5f-ed60-4354-adae-443e1a27b215.xml, usbscan/IOCTL_WAIT_ON_DEVICE_EVENT
 f1_keywords:
  - "usbscan/IOCTL_WAIT_ON_DEVICE_EVENT"
+ - "IOCTL_WAIT_ON_DEVICE_EVENT"
 req.header: usbscan.h
 req.include-header: Usbscan.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Usbscan.h
 api_name:
 - IOCTL_WAIT_ON_DEVICE_EVENT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

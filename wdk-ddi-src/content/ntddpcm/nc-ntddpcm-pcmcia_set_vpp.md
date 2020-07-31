@@ -10,6 +10,7 @@ keywords: ["PCMCIA_SET_VPP callback function"]
 ms.keywords: PCMCIA.pcmcia_set_vpp, PCMCIA_SET_VPP, PCMCIA_SET_VPP callback, SetVpp, SetVpp callback function [Buses], memcdref_fe05cf85-9e4b-4267-9214-b8809e42cd5a.xml, ntddpcm/SetVpp
 f1_keywords:
  - "ntddpcm/SetVpp"
+ - "SetVpp"
 req.header: ntddpcm.h
 req.include-header: Ntddpcm.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ntddpcm.h
 api_name:
 - SetVpp
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

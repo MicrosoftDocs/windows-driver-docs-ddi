@@ -10,6 +10,7 @@ keywords: ["RILDEVSPECIFICREQUEST structure"]
 ms.keywords: "*LPRILDEVSPECIFICREQUEST, LPRILDEVSPECIFICREQUEST, LPRILDEVSPECIFICREQUEST structure pointer [Network Drivers Starting with Windows Vista], RILDEVSPECIFICREQUEST, RILDEVSPECIFICREQUEST structure [Network Drivers Starting with Windows Vista], netvista.rildevspecificrequest, oemrilapitypes/LPRILDEVSPECIFICREQUEST, oemrilapitypes/RILDEVSPECIFICREQUEST"
 f1_keywords:
  - "oemrilapitypes/RILDEVSPECIFICREQUEST"
+ - "RILDEVSPECIFICREQUEST"
 req.header: oemrilapitypes.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - oemrilapitypes.h
 api_name:
 - RILDEVSPECIFICREQUEST
-product:
-- Windows
 targetos: Windows
 req.typenames: RILDEVSPECIFICREQUEST, *LPRILDEVSPECIFICREQUEST
 ---

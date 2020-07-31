@@ -34,7 +34,8 @@ api_location:
 api_name:
  - DXGKDDI_DPI2CIOTRANSMISSION
 f1_keywords:
- - dispmprt/DXGKDDI_DPI2CIOTRANSMISSION
+ - dispmprt//DXGKDDI_DPI2CIOTRANSMISSION
+ - DXGKDDI_DPI2CIOTRANSMISSION
 dev_langs:
  - c++
 ---

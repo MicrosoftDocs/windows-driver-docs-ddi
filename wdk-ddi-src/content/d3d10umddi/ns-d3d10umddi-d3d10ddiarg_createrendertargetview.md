@@ -9,6 +9,7 @@ keywords: ["D3D10DDIARG_CREATERENDERTARGETVIEW structure"]
 ms.keywords: D3D10DDIARG_CREATERENDERTARGETVIEW, D3D10DDIARG_CREATERENDERTARGETVIEW structure [Display Devices], UMDisplayDriver_Dx10param_Structs_615cce2f-8ea4-4adc-9d7a-907414217ffc.xml, d3d10umddi/D3D10DDIARG_CREATERENDERTARGETVIEW, display.d3d10ddiarg_createrendertargetview
 f1_keywords:
  - "d3d10umddi/D3D10DDIARG_CREATERENDERTARGETVIEW"
+ - "D3D10DDIARG_CREATERENDERTARGETVIEW"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - D3D10DDIARG_CREATERENDERTARGETVIEW
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D10DDIARG_CREATERENDERTARGETVIEW

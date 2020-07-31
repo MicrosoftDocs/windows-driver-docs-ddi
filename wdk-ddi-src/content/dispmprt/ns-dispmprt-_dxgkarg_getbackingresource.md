@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_DXGKARG_GETBACKINGRESOURCE structure"]
 f1_keywords:
  - "dispmprt/_DXGKARG_GETBACKINGRESOURCE"
+ - "_DXGKARG_GETBACKINGRESOURCE"
 ms.keywords: _DXGKARG_GETBACKINGRESOURCE, DXGKARG_GETBACKINGRESOURCE, *PDXGKARG_GETBACKINGRESOURCE, 
 req.header: dispmprt.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - dispmprt.h
 api_name: 
 - _DXGKARG_GETBACKINGRESOURCE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

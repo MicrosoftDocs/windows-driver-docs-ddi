@@ -9,6 +9,7 @@ keywords: ["_DXGKARG_SETTARGETGAMMA structure"]
 ms.keywords: DXGKARG_SETTARGETGAMMA, DXGKARG_SETTARGETGAMMA structure [Display Devices], PDXGKARG_SETTARGETGAMMA, PDXGKARG_SETTARGETGAMMA structure pointer [Display Devices], _DXGKARG_SETTARGETGAMMA, d3dkmddi/DXGKARG_SETTARGETGAMMA, d3dkmddi/PDXGKARG_SETTARGETGAMMA, display.dxgkarg_settargetgamma
 f1_keywords:
  - "d3dkmddi/DXGKARG_SETTARGETGAMMA"
+ - "DXGKARG_SETTARGETGAMMA"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGKARG_SETTARGETGAMMA
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGKARG_SETTARGETGAMMA

@@ -10,6 +10,7 @@ keywords: ["WdfRequestForwardToParentDeviceIoQueue function"]
 ms.keywords: DFRequestObjectRef_0bfa4a8a-7b79-4256-84df-5bdabfff234b.xml, WdfRequestForwardToParentDeviceIoQueue, WdfRequestForwardToParentDeviceIoQueue method, kmdf.wdfrequestforwardtoparentdeviceioqueue, wdf.wdfrequestforwardtoparentdeviceioqueue, wdfrequest/WdfRequestForwardToParentDeviceIoQueue
 f1_keywords:
  - "wdfrequest/WdfRequestForwardToParentDeviceIoQueue"
+ - "WdfRequestForwardToParentDeviceIoQueue"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfRequestForwardToParentDeviceIoQueue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

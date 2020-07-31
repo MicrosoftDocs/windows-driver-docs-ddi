@@ -10,6 +10,7 @@ keywords: ["WdfDmaTransactionSetSingleTransferRequirement function"]
 ms.keywords: WdfDmaTransactionSetSingleTransferRequirement, WdfDmaTransactionSetSingleTransferRequirement method, wdf.wdfdmatransactionsetsingletransferrequirement, wdfdmatransaction/WdfDmaTransactionSetSingleTransferRequirement
 f1_keywords:
  - "wdfdmatransaction/WdfDmaTransactionSetSingleTransferRequirement"
+ - "WdfDmaTransactionSetSingleTransferRequirement"
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfDmaTransactionSetSingleTransferRequirement
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

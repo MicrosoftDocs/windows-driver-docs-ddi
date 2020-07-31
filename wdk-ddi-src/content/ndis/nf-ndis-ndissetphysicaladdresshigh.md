@@ -10,6 +10,7 @@ keywords: ["NdisSetPhysicalAddressHigh macro"]
 ms.keywords: NdisSetPhysicalAddressHigh, NdisSetPhysicalAddressHigh macro [Network Drivers Starting with Windows Vista], miniport_memory_shared_ref_4644a620-5ec7-449e-9886-ddee46d9ff2a.xml, ndis/NdisSetPhysicalAddressHigh, netvista.ndissetphysicaladdresshigh
 f1_keywords:
  - "ndis/NdisSetPhysicalAddressHigh"
+ - "NdisSetPhysicalAddressHigh"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NdisSetPhysicalAddressHigh
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -7,6 +7,7 @@ ms.date: 09/10/2018
 keywords: ["IDataModelScriptDebugStackFrame::IsTransitionPoint"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebugStackFrame.IsTransitionPoint"
+ - "IDataModelScriptDebugStackFrame.IsTransitionPoint"
 ms.keywords: IDataModelScriptDebugStackFrame::IsTransitionPoint, IsTransitionPoint, IDataModelScriptDebugStackFrame.IsTransitionPoint, IDataModelScriptDebugStackFrame::IsTransitionPoint, IDataModelScriptDebugStackFrame.IsTransitionPoint
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDataModelScriptDebugStackFrame.IsTransitionPoint
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

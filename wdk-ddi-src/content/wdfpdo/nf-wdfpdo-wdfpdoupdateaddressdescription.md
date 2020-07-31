@@ -10,6 +10,7 @@ keywords: ["WdfPdoUpdateAddressDescription function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_be344160-571e-4c5b-971d-a7ab78f6c292.xml, WdfPdoUpdateAddressDescription, WdfPdoUpdateAddressDescription method, kmdf.wdfpdoupdateaddressdescription, wdf.wdfpdoupdateaddressdescription, wdfpdo/WdfPdoUpdateAddressDescription
 f1_keywords:
  - "wdfpdo/WdfPdoUpdateAddressDescription"
+ - "WdfPdoUpdateAddressDescription"
 req.header: wdfpdo.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfPdoUpdateAddressDescription
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

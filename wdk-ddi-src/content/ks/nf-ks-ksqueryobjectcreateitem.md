@@ -10,6 +10,7 @@ keywords: ["KsQueryObjectCreateItem function"]
 ms.keywords: KsQueryObjectCreateItem, KsQueryObjectCreateItem function [Streaming Media Devices], ks/KsQueryObjectCreateItem, ksfunc_57cde673-cd08-4018-b01e-45214058b435.xml, stream.ksqueryobjectcreateitem
 f1_keywords:
  - "ks/KsQueryObjectCreateItem"
+ - "KsQueryObjectCreateItem"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsQueryObjectCreateItem
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

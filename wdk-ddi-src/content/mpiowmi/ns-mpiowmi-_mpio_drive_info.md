@@ -10,6 +10,7 @@ keywords: ["_MPIO_DRIVE_INFO structure"]
 ms.keywords: "*PMPIO_DRIVE_INFO, MPIO_DRIVE_INFO, MPIO_DRIVE_INFO structure [Storage Devices], PMPIO_DRIVE_INFO, PMPIO_DRIVE_INFO structure pointer [Storage Devices], _MPIO_DRIVE_INFO, mpiowmi/MPIO_DRIVE_INFO, mpiowmi/PMPIO_DRIVE_INFO, storage.mpio_drive_info, structs-scsibus_307e7c06-15cc-4d25-9cd6-115370e20036.xml"
 f1_keywords:
  - "mpiowmi/MPIO_DRIVE_INFO"
+ - "MPIO_DRIVE_INFO"
 req.header: mpiowmi.h
 req.include-header: Mpiowmi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - mpiowmi.h
 api_name:
 - MPIO_DRIVE_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: MPIO_DRIVE_INFO, *PMPIO_DRIVE_INFO
 ---

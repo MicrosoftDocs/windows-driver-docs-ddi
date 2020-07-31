@@ -10,6 +10,7 @@ keywords: ["IKsControl interface"]
 ms.keywords: IKsControl, IKsControl interface [Streaming Media Devices], IKsControl interface [Streaming Media Devices],described, avintfc_fc0ad706-c416-40f7-b213-5467fcebeb72.xml, ks/IKsControl, stream.ikscontrol8
 f1_keywords:
  - "ks/IKsControl"
+ - "IKsControl"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ks.h
 api_name:
 - IKsControl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: 19H1
@@ -53,7 +52,7 @@ See the [IKsControl (ksproxy.h)](https://docs.microsoft.com/windows-hardware/dri
 
 ## -inheritance
 
-The **IKsControl** interface inherits from the [IUnknown](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface.
+The **IKsControl** interface inherits from the [IUnknown](https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown) interface.
 
 ## -remarks
 

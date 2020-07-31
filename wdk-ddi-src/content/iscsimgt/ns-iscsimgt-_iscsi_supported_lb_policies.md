@@ -10,6 +10,7 @@ keywords: ["_ISCSI_Supported_LB_Policies structure"]
 ms.keywords: "*PISCSI_Supported_LB_Policies, ISCSI_Supported_LB_Policies, ISCSI_Supported_LB_Policies structure [Storage Devices], PISCSI_Supported_LB_Policies, PISCSI_Supported_LB_Policies structure pointer [Storage Devices], _ISCSI_Supported_LB_Policies, iscsimgt/ISCSI_Supported_LB_Policies, iscsimgt/PISCSI_Supported_LB_Policies, storage.iscsi_supported_lb_policies, structs-iSCSI_4ea7817e-3ec1-46cf-a492-ac327f5d3912.xml"
 f1_keywords:
  - "iscsimgt/ISCSI_Supported_LB_Policies"
+ - "ISCSI_Supported_LB_Policies"
 req.header: iscsimgt.h
 req.include-header: Iscsimgt.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - iscsimgt.h
 api_name:
 - ISCSI_Supported_LB_Policies
-product:
-- Windows
 targetos: Windows
 req.typenames: ISCSI_Supported_LB_Policies, *PISCSI_Supported_LB_Policies
 ---

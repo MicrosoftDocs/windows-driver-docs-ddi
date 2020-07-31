@@ -10,6 +10,7 @@ keywords: ["IoGetAttachedDevice function"]
 ms.keywords: IoGetAttachedDevice, IoGetAttachedDevice routine [Installable File System Drivers], ifsk.iogetattacheddevice, ioref_5a77f51f-2bea-4991-bf10-965e6b72e9ab.xml, ntifs/IoGetAttachedDevice
 f1_keywords:
  - "ntifs/IoGetAttachedDevice"
+ - "IoGetAttachedDevice"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoGetAttachedDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

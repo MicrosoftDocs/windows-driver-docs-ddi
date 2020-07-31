@@ -8,6 +8,7 @@ ms.date: 06/29/2018
 keywords: ["MbbRequestCompleteWithInformation function"]
 f1_keywords:
  - "mbbcx/MbbRequestCompleteWithInformation"
+ - "MbbRequestCompleteWithInformation"
 ms.keywords: MbbRequestCompleteWithInformation
 req.header: mbbcx.h
 req.include-header:
@@ -34,8 +35,6 @@ api_location:
 - mbbcxstub.lib
 api_name: 
 - MbbRequestCompleteWithInformation
-product:
-- Windows
 targetos: Windows
 
 

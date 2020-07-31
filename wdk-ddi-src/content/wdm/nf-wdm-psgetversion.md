@@ -10,6 +10,7 @@ keywords: ["PsGetVersion function"]
 ms.keywords: PsGetVersion, PsGetVersion function [Kernel-Mode Driver Architecture], k108_3c73c1e7-3f02-4598-adae-43c378dcfb08.xml, kernel.psgetversion, wdm/PsGetVersion
 f1_keywords:
  - "wdm/PsGetVersion"
+ - "PsGetVersion"
 req.header: wdm.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - PsGetVersion
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

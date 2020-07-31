@@ -10,6 +10,7 @@ keywords: ["IDebugControl3::SetExpressionSyntaxByName"]
 ms.keywords: IDebugControl3 interface [Windows Debugging],SetExpressionSyntaxByName method, IDebugControl3.SetExpressionSyntaxByName, IDebugControl3::SetExpressionSyntaxByName, IDebugControl_88ebbf3c-a6f7-41d1-84e8-291a8db101c2.xml, SetExpressionSyntaxByName, SetExpressionSyntaxByName method [Windows Debugging], SetExpressionSyntaxByName method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl3::SetExpressionSyntaxByName, debugger.setexpressionsyntaxbyname
 f1_keywords:
  - "dbgeng/IDebugControl3.SetExpressionSyntaxByName"
+ - "IDebugControl3.SetExpressionSyntaxByName"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugControl3.SetExpressionSyntaxByName
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

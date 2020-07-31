@@ -10,6 +10,7 @@ keywords: ["wiasIsPropChanged function"]
 ms.keywords: image.wiasispropchanged, wiamdef/wiasIsPropChanged, wiasFncs_11e49124-0147-4140-ba56-879ae3fcbf46.xml, wiasIsPropChanged, wiasIsPropChanged function [Imaging Devices]
 f1_keywords:
  - "wiamdef/wiasIsPropChanged"
+ - "wiasIsPropChanged"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wiaservc.dll
 api_name:
 - wiasIsPropChanged
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

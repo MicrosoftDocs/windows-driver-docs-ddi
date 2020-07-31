@@ -7,6 +7,7 @@ ms.date: 09/10/2018
 keywords: ["IDataModelScriptDebugStackFrame::Evaluate"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebugStackFrame.Evaluate"
+ - "IDataModelScriptDebugStackFrame.Evaluate"
 ms.keywords: IDataModelScriptDebugStackFrame::Evaluate, Evaluate, IDataModelScriptDebugStackFrame.Evaluate, IDataModelScriptDebugStackFrame::Evaluate, IDataModelScriptDebugStackFrame.Evaluate
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDataModelScriptDebugStackFrame.Evaluate
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

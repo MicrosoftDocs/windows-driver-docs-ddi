@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_DEVICE_SHUTDOWN_NOTIFICATION callback function"]
 ms.keywords: DFDeviceObjectControllerDevObjRef_d7dab025-aa6d-4f66-a0cb-3784b3bc7b1c.xml, EVT_WDF_DEVICE_SHUTDOWN_NOTIFICATION, EVT_WDF_DEVICE_SHUTDOWN_NOTIFICATION callback, EvtDeviceShutdownNotification, EvtDeviceShutdownNotification callback function, kmdf.evtdeviceshutdownnotification, wdf.evtdeviceshutdownnotification, wdfcontrol/EvtDeviceShutdownNotification
 f1_keywords:
  - "wdfcontrol/EvtDeviceShutdownNotification"
+ - "EvtDeviceShutdownNotification"
 req.header: wdfcontrol.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - WdfControl.h
 api_name:
 - EvtDeviceShutdownNotification
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

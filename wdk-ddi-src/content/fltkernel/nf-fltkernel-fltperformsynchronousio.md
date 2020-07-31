@@ -10,6 +10,7 @@ keywords: ["FltPerformSynchronousIo function"]
 ms.keywords: FltApiRef_p_to_z_02aeeeab-6a33-4336-aaa4-810bd70850bc.xml, FltPerformSynchronousIo, FltPerformSynchronousIo routine [Installable File System Drivers], fltkernel/FltPerformSynchronousIo, ifsk.fltperformsynchronousio
 f1_keywords:
  - "fltkernel/FltPerformSynchronousIo"
+ - "FltPerformSynchronousIo"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltPerformSynchronousIo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

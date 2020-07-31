@@ -10,6 +10,7 @@ keywords: ["RILTDSCDMAMRL structure"]
 ms.keywords: "*LPRILTDSCDMAMRL, RILTDSCDMAMRL, RILTDSCDMAMRL structure [Network Drivers Starting with Windows Vista], netvista.riltdscdmamrl, rilapitypes/RILTDSCDMAMRL"
 f1_keywords:
  - "ntddrilapitypes/RILTDSCDMAMRL"
+ - "RILTDSCDMAMRL"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapitypes.h
 api_name:
 - RILTDSCDMAMRL
-product:
-- Windows
 targetos: Windows
 req.typenames: RILTDSCDMAMRL, *LPRILTDSCDMAMRL
 ---

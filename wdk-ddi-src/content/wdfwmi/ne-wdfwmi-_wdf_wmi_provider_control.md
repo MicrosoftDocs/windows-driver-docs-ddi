@@ -10,6 +10,7 @@ keywords: ["_WDF_WMI_PROVIDER_CONTROL enumeration"]
 ms.keywords: DFWMIRef_a78e583c-59b7-4af3-a07f-8b774916f664.xml, WDF_WMI_PROVIDER_CONTROL, WDF_WMI_PROVIDER_CONTROL enumeration, WdfWmiControlInvalid, WdfWmiEventControl, WdfWmiInstanceControl, _WDF_WMI_PROVIDER_CONTROL, kmdf.wdf_wmi_provider_control, wdf.wdf_wmi_provider_control, wdfwmi/WDF_WMI_PROVIDER_CONTROL, wdfwmi/WdfWmiControlInvalid, wdfwmi/WdfWmiEventControl, wdfwmi/WdfWmiInstanceControl
 f1_keywords:
  - "wdfwmi/WDF_WMI_PROVIDER_CONTROL"
+ - "WDF_WMI_PROVIDER_CONTROL"
 req.header: wdfwmi.h
 req.include-header: Wdf.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wdfwmi.h
 api_name:
 - WDF_WMI_PROVIDER_CONTROL
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_WMI_PROVIDER_CONTROL
 ---

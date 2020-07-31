@@ -10,6 +10,7 @@ keywords: ["IDebugSymbolGroup::GetSymbolParameters"]
 ms.keywords: ComOther_f81a6f5a-df93-4ae2-9694-88a25d6d67a8.xml, GetSymbolParameters, GetSymbolParameters method [Windows Debugging], GetSymbolParameters method [Windows Debugging],IDebugSymbolGroup interface, GetSymbolParameters method [Windows Debugging],IDebugSymbolGroup2 interface, IDebugSymbolGroup interface [Windows Debugging],GetSymbolParameters method, IDebugSymbolGroup.GetSymbolParameters, IDebugSymbolGroup2 interface [Windows Debugging],GetSymbolParameters method, IDebugSymbolGroup2::GetSymbolParameters, IDebugSymbolGroup::GetSymbolParameters, dbgeng/IDebugSymbolGroup2::GetSymbolParameters, dbgeng/IDebugSymbolGroup::GetSymbolParameters, debugger.getsymbolparameters
 f1_keywords:
  - "dbgeng/IDebugSymbolGroup.GetSymbolParameters"
+ - "IDebugSymbolGroup.GetSymbolParameters"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IDebugSymbolGroup.GetSymbolParameters
 - IDebugSymbolGroup2.GetSymbolParameters
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

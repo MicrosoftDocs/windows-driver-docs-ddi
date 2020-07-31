@@ -10,6 +10,7 @@ keywords: ["MINIPORT_SYNCHRONOUS_OID_REQUEST function"]
 ms.keywords: MINIPORT_SYNCHRONOUS_OID_REQUEST, MiniportSynchronousOidRequest, MiniportSynchronousOidRequest function [Network Drivers Starting with Windows Vista], ndis/MiniportSynchronousOidRequest, netvista.miniport_synchronous_oid_request
 f1_keywords:
  - "ndis/MiniportSynchronousOidRequest"
+ - "MiniportSynchronousOidRequest"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - MiniportSynchronousOidRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

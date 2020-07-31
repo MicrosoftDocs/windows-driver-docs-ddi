@@ -10,6 +10,7 @@ keywords: ["PsCreateSystemThread function"]
 ms.keywords: PsCreateSystemThread, PsCreateSystemThread routine [Kernel-Mode Driver Architecture], k108_858fe76b-471d-42c9-8844-c14ae33bd235.xml, kernel.pscreatesystemthread, wdm/PsCreateSystemThread
 f1_keywords:
  - "wdm/PsCreateSystemThread"
+ - "PsCreateSystemThread"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - PsCreateSystemThread
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

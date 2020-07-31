@@ -10,6 +10,7 @@ keywords: ["IPrinterQueue::SendBidiQuery"]
 ms.keywords: IPrinterQueue, IPrinterQueue interface [Print Devices],SendBidiQuery method, IPrinterQueue.SendBidiQuery, IPrinterQueue::SendBidiQuery, SendBidiQuery, SendBidiQuery method [Print Devices], SendBidiQuery method [Print Devices],IPrinterQueue interface, print.iprinterqueue_sendbidiquery, printerextension/IPrinterQueue::SendBidiQuery
 f1_keywords:
  - "printerextension/IPrinterQueue.SendBidiQuery"
+ - "IPrinterQueue.SendBidiQuery"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Printerextension.h
 api_name:
 - IPrinterQueue.SendBidiQuery
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["UcxEndpointCreate function"]
 ms.keywords: UcxEndpointCreate, UcxEndpointCreate method [Buses], buses._ucxendpointcreate, ucxendpoint/UcxEndpointCreate
 f1_keywords:
  - "ucxendpoint/UcxEndpointCreate"
+ - "UcxEndpointCreate"
 req.header: ucxendpoint.h
 req.include-header: Ucxclass.h, Ucxendpoint.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ucxendpoint.h
 api_name:
 - UcxEndpointCreate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

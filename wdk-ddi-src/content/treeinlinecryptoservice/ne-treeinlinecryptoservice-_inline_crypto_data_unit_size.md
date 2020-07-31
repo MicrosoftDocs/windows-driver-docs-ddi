@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_INLINE_CRYPTO_DATA_UNIT_SIZE enumeration"]
 f1_keywords:
  - "treeinlinecryptoservice/_INLINE_CRYPTO_DATA_UNIT_SIZE"
+ - "_INLINE_CRYPTO_DATA_UNIT_SIZE"
 ms.keywords: _INLINE_CRYPTO_DATA_UNIT_SIZE, INLINE_CRYPTO_DATA_UNIT_SIZE, *PINLINE_CRYPTO_DATA_UNIT_SIZE, 
 req.header: treeinlinecryptoservice.h
 req.include-header:
@@ -26,8 +27,6 @@ api_location:
 - treeinlinecryptoservice.h
 api_name: 
 - _INLINE_CRYPTO_DATA_UNIT_SIZE
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

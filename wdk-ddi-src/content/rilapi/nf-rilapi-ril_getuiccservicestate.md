@@ -10,6 +10,7 @@ keywords: ["RIL_GetUiccServiceState function"]
 ms.keywords: RIL_GetUiccServiceState, RIL_GetUiccServiceState method [Network Drivers Starting with Windows Vista], netvista.ril_getuiccservicestate, rilapi/RIL_GetUiccServiceState
 f1_keywords:
  - "rilapi/RIL_GetUiccServiceState"
+ - "RIL_GetUiccServiceState"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_GetUiccServiceState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

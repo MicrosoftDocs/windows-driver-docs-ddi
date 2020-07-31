@@ -10,6 +10,7 @@ keywords: ["KdRefreshDebuggerNotPresent function"]
 ms.keywords: DebugFns_77b08eed-2f06-4ede-b02f-f1a7a5ab9ba5.xml, KdRefreshDebuggerNotPresent, KdRefreshDebuggerNotPresent function [Driver Development Tools], devtest.kdrefreshdebuggernotpresent, ntddk/KdRefreshDebuggerNotPresent
 f1_keywords:
  - "wdm/KdRefreshDebuggerNotPresent"
+ - "KdRefreshDebuggerNotPresent"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KdRefreshDebuggerNotPresent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

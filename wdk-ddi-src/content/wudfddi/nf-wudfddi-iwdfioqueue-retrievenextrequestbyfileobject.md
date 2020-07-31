@@ -10,6 +10,7 @@ keywords: ["IWDFIoQueue::RetrieveNextRequestByFileObject"]
 ms.keywords: IWDFIoQueue interface,RetrieveNextRequestByFileObject method, IWDFIoQueue.RetrieveNextRequestByFileObject, IWDFIoQueue::RetrieveNextRequestByFileObject, RetrieveNextRequestByFileObject, RetrieveNextRequestByFileObject method, RetrieveNextRequestByFileObject method,IWDFIoQueue interface, UMDFQueueObjectRef_15af6c6e-0a40-41bd-9b76-fb7c206bc937.xml, umdf.iwdfioqueue_retrievenextrequestbyfileobject, wdf.iwdfioqueue_retrievenextrequestbyfileobject, wudfddi/IWDFIoQueue::RetrieveNextRequestByFileObject
 f1_keywords:
  - "wudfddi/IWDFIoQueue.RetrieveNextRequestByFileObject"
+ - "IWDFIoQueue.RetrieveNextRequestByFileObject"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFIoQueue.RetrieveNextRequestByFileObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

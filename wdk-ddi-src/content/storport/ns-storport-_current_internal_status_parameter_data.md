@@ -8,6 +8,7 @@ ms.date: 10/19/2018
 keywords: ["_CURRENT_INTERNAL_STATUS_PARAMETER_DATA structure"]
 f1_keywords:
  - "storport/_CURRENT_INTERNAL_STATUS_PARAMETER_DATA"
+ - "_CURRENT_INTERNAL_STATUS_PARAMETER_DATA"
 ms.keywords: _CURRENT_INTERNAL_STATUS_PARAMETER_DATA, CURRENT_INTERNAL_STATUS_PARAMETER_DATA, *PCURRENT_INTERNAL_STATUS_PARAMETER_DATA, 
 req.header: storport.h
 req.include-header:
@@ -30,8 +31,6 @@ api_location:
 - storport.h
 api_name: 
 - _CURRENT_INTERNAL_STATUS_PARAMETER_DATA
-product:
-- Windows
 targetos: Windows
 ---
 

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_SAVED_INTERNAL_STATUS_PARAMETER_DATA structure"]
 f1_keywords:
  - "scsi/_SAVED_INTERNAL_STATUS_PARAMETER_DATA"
+ - "_SAVED_INTERNAL_STATUS_PARAMETER_DATA"
 ms.keywords: _SAVED_INTERNAL_STATUS_PARAMETER_DATA, SAVED_INTERNAL_STATUS_PARAMETER_DATA, *PSAVED_INTERNAL_STATUS_PARAMETER_DATA, 
 req.header: scsi.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - scsi.h
 api_name: 
 - _SAVED_INTERNAL_STATUS_PARAMETER_DATA
-product:
-- Windows
 targetos: Windows
 ---
 

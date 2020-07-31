@@ -35,8 +35,6 @@ api_location:
 -   Mscms.dll
 api_name:
 -   WcsGetDefaultColorProfileSize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IPrintJob::get_Status method"]
 ms.keywords: IPrintJob, IPrintJob interface [Print Devices], Status property, IPrintJob.Status, IPrintJob::get_Status, Status property [Print Devices], Status property [Print Devices], IPrintJob interface, get_Status, get_Status,IPrintJob.get_Status, print.iprintjob_status, printerextension/IPrintJob::Status, printerextension/IPrintJob::get_Status
 f1_keywords:
  - "printerextension/IPrintJob.Status"
+ - "IPrintJob.Status"
 req.header: printerextension.h
 req.include-header:
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IPrintJob.Status
 - IPrintJob.get_Status
-product:
-- Windows
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
 req.product: Windows 10 or later.

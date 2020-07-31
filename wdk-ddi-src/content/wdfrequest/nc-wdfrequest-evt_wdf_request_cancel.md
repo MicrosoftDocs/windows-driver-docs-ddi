@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_REQUEST_CANCEL callback function"]
 ms.keywords: DFRequestObjectRef_fe2e3eee-9f6a-4fd8-afa7-23eb740ccd01.xml, EVT_WDF_REQUEST_CANCEL, EVT_WDF_REQUEST_CANCEL callback, EvtRequestCancel, EvtRequestCancel callback function, kmdf.evtrequestcancel, wdf.evtrequestcancel, wdfrequest/EvtRequestCancel
 f1_keywords:
  - "wdfrequest/EvtRequestCancel"
+ - "EvtRequestCancel"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Wdfrequest.h
 api_name:
 - EvtRequestCancel
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

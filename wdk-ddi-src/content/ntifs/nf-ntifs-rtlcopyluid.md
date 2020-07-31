@@ -10,6 +10,7 @@ keywords: ["RtlCopyLuid function"]
 ms.keywords: RtlCopyLuid, RtlCopyLuid routine [Installable File System Drivers], ifsk.rtlcopyluid, ntifs/RtlCopyLuid, rtlref_467829b7-3661-490d-b5ed-1a0d543db2d7.xml
 f1_keywords:
  - "ntifs/RtlCopyLuid"
+ - "RtlCopyLuid"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlCopyLuid
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

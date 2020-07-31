@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_SETCONVOLUTIONKERNELMONO structure"]
 ms.keywords: D3DDDIARG_SETCONVOLUTIONKERNELMONO, D3DDDIARG_SETCONVOLUTIONKERNELMONO structure [Display Devices], UMDisplayDriver_param_Structs_57045815-ecbd-4b5f-a94d-5bbf189449f2.xml, _D3DDDIARG_SETCONVOLUTIONKERNELMONO, d3dumddi/D3DDDIARG_SETCONVOLUTIONKERNELMONO, display.d3dddiarg_setconvolutionkernelmono
 f1_keywords:
  - "d3dumddi/D3DDDIARG_SETCONVOLUTIONKERNELMONO"
+ - "D3DDDIARG_SETCONVOLUTIONKERNELMONO"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDIARG_SETCONVOLUTIONKERNELMONO
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_SETCONVOLUTIONKERNELMONO
 ---

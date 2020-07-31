@@ -8,6 +8,7 @@ ms.date: 08/23/2019
 keywords: ["DeviceDsmGetOutputLength function"]
 f1_keywords:
  - "ntddstor/DeviceDsmGetOutputLength"
+ - "DeviceDsmGetOutputLength"
 ms.keywords: DeviceDsmGetOutputLength
 req.header: ntddstor.h
 req.include-header:
@@ -34,8 +35,6 @@ api_location:
 - NtosKrnl.exe
 api_name: 
 - DeviceDsmGetOutputLength
-product:
-- Windows
 targetos: Windows
 
 ---

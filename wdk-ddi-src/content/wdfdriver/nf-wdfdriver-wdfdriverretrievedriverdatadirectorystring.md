@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["WdfDriverRetrieveDriverDataDirectoryString function"]
 f1_keywords:
  - "wdfdriver/WdfDriverRetrieveDriverDataDirectoryString"
+ - "WdfDriverRetrieveDriverDataDirectoryString"
 ms.keywords: WdfDriverRetrieveDriverDataDirectoryString
 req.header: wdfdriver.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - NtosKrnl.exe
 api_name: 
 - WdfDriverRetrieveDriverDataDirectoryString
-product:
-- Windows
 targetos: Windows
 
 

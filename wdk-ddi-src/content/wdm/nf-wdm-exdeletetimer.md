@@ -10,6 +10,7 @@ keywords: ["ExDeleteTimer function"]
 ms.keywords: ExDeleteTimer, ExDeleteTimer routine [Kernel-Mode Driver Architecture], kernel.exdeletetimer, wdm/ExDeleteTimer
 f1_keywords:
  - "wdm/ExDeleteTimer"
+ - "ExDeleteTimer"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ntoskrnl.dll
 api_name:
 - ExDeleteTimer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

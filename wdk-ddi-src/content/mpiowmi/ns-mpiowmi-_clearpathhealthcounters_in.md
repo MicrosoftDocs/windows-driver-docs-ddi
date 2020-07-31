@@ -10,6 +10,7 @@ keywords: ["_ClearPathHealthCounters_IN structure"]
 ms.keywords: "*PClearPathHealthCounters_IN, ClearPathHealthCounters_IN, ClearPathHealthCounters_IN structure [Storage Devices], PClearPathHealthCounters_IN, PClearPathHealthCounters_IN structure pointer [Storage Devices], _ClearPathHealthCounters_IN, mpiowmi/ClearPathHealthCounters_IN, mpiowmi/PClearPathHealthCounters_IN, storage.clearpathhealthcounters_in, structs-scsibus_c1039fbb-d682-4fe8-a1ee-8fe7f7a0d1fc.xml"
 f1_keywords:
  - "mpiowmi/ClearPathHealthCounters_IN"
+ - "ClearPathHealthCounters_IN"
 req.header: mpiowmi.h
 req.include-header: Mpiowmi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - mpiowmi.h
 api_name:
 - ClearPathHealthCounters_IN
-product:
-- Windows
 targetos: Windows
 req.typenames: ClearPathHealthCounters_IN, *PClearPathHealthCounters_IN
 ---

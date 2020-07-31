@@ -10,6 +10,7 @@ keywords: ["_FEATURE_DATA_PROFILE_LIST_EX structure"]
 ms.keywords: "*PFEATURE_DATA_PROFILE_LIST_EX, FEATURE_DATA_PROFILE_LIST_EX, FEATURE_DATA_PROFILE_LIST_EX structure [Storage Devices], PFEATURE_DATA_PROFILE_LIST_EX, PFEATURE_DATA_PROFILE_LIST_EX structure pointer [Storage Devices], _FEATURE_DATA_PROFILE_LIST_EX, ntddmmc/FEATURE_DATA_PROFILE_LIST_EX, ntddmmc/PFEATURE_DATA_PROFILE_LIST_EX, storage.feature_data_profile_list_ex, structs-CD-ROM_4834760d-aeb7-44eb-a8a7-4c961ff8aa4c.xml"
 f1_keywords:
  - "ntddmmc/FEATURE_DATA_PROFILE_LIST_EX"
+ - "FEATURE_DATA_PROFILE_LIST_EX"
 req.header: ntddmmc.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddmmc.h
 api_name:
 - FEATURE_DATA_PROFILE_LIST_EX
-product:
-- Windows
 targetos: Windows
 req.typenames: FEATURE_DATA_PROFILE_LIST_EX, *PFEATURE_DATA_PROFILE_LIST_EX
 ---

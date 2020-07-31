@@ -10,6 +10,7 @@ keywords: ["SpbRequestCaptureIoOtherTransferList function"]
 ms.keywords: SPB.spbrequestcaptureioothertransferlist, SpbRequestCaptureIoOtherTransferList, SpbRequestCaptureIoOtherTransferList method [Buses], spbcx/SpbRequestCaptureIoOtherTransferList
 f1_keywords:
  - "spbcx/SpbRequestCaptureIoOtherTransferList"
+ - "SpbRequestCaptureIoOtherTransferList"
 req.header: spbcx.h
 req.include-header: 
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - spbcxstubs.dll
 api_name:
 - SpbRequestCaptureIoOtherTransferList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

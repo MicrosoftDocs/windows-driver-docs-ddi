@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::GetScopeSymbolGroup2"]
 ms.keywords: GetScopeSymbolGroup2, GetScopeSymbolGroup2 method [Windows Debugging], GetScopeSymbolGroup2 method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetScopeSymbolGroup2 method, IDebugSymbols3.GetScopeSymbolGroup2, IDebugSymbols3::GetScopeSymbolGroup2, dbgeng/IDebugSymbols3::GetScopeSymbolGroup2, debugger.getscopesymbolgroup2
 f1_keywords:
  - "dbgeng/IDebugSymbols3.GetScopeSymbolGroup2"
+ - "IDebugSymbols3.GetScopeSymbolGroup2"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugSymbols3.GetScopeSymbolGroup2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

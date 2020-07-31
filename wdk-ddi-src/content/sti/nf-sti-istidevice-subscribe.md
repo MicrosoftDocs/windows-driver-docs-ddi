@@ -10,6 +10,7 @@ keywords: ["IStiDevice::Subscribe"]
 ms.keywords: IStiDevice interface [Imaging Devices],Subscribe method, IStiDevice.Subscribe, IStiDevice::Subscribe, Subscribe, Subscribe method [Imaging Devices], Subscribe method [Imaging Devices],IStiDevice interface, image.istidevice_subscribe, sti/IStiDevice::Subscribe, stifnc_2c707880-5ace-4a2e-813e-1ee304cea41f.xml
 f1_keywords:
  - "sti/IStiDevice.Subscribe"
+ - "IStiDevice.Subscribe"
 req.header: sti.h
 req.include-header: Sti.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - sti.h
 api_name:
 - IStiDevice.Subscribe
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

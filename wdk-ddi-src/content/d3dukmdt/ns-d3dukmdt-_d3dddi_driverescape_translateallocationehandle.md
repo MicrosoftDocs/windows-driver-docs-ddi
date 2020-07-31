@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DDDI_DRIVERESCAPE_TRANSLATEALLOCATIONEHANDLE structure"]
 f1_keywords:
  - "d3dukmdt/_D3DDDI_DRIVERESCAPE_TRANSLATEALLOCATIONEHANDLE"
+ - "_D3DDDI_DRIVERESCAPE_TRANSLATEALLOCATIONEHANDLE"
 ms.keywords: _D3DDDI_DRIVERESCAPE_TRANSLATEALLOCATIONEHANDLE, D3DDDI_DRIVERESCAPE_TRANSLATEALLOCATIONEHANDLE, 
 req.header: d3dukmdt.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - d3dukmdt.h
 api_name: 
 - _D3DDDI_DRIVERESCAPE_TRANSLATEALLOCATIONEHANDLE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

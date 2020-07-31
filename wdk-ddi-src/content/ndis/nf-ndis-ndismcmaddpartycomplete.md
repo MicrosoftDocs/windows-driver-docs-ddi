@@ -10,6 +10,7 @@ keywords: ["NdisMCmAddPartyComplete macro"]
 ms.keywords: NdisMCmAddPartyComplete, NdisMCmAddPartyComplete macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_929fb1d1-4d15-4d2d-be4b-a6845674f7e6.xml, ndis/NdisMCmAddPartyComplete, netvista.ndismcmaddpartycomplete
 f1_keywords:
  - "ndis/NdisMCmAddPartyComplete"
+ - "NdisMCmAddPartyComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NdisMCmAddPartyComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

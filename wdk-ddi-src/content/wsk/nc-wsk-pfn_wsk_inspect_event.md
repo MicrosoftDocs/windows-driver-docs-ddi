@@ -10,6 +10,7 @@ keywords: ["PFN_WSK_INSPECT_EVENT callback function"]
 ms.keywords: PFN_WSK_INSPECT_EVENT, PFN_WSK_INSPECT_EVENT callback, WskInspectEvent, WskInspectEvent callback function [Network Drivers Starting with Windows Vista], netvista.wskinspectevent, wsk/WskInspectEvent, wskref_096ba538-90c2-454b-9334-d6241425945e.xml
 f1_keywords:
  - "wsk/WskInspectEvent"
+ - "WskInspectEvent"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wsk.h
 api_name:
 - WskInspectEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

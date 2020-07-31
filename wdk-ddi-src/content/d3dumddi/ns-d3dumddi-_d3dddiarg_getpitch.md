@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_GETPITCH structure"]
 ms.keywords: D3DDDIARG_GETPITCH, D3DDDIARG_GETPITCH structure [Display Devices], UMDisplayDriver_param_Structs_02e95329-8eba-41a3-ae4e-d8830b47ada6.xml, _D3DDDIARG_GETPITCH, d3dumddi/D3DDDIARG_GETPITCH, display.d3dddiarg_getpitch
 f1_keywords:
  - "d3dumddi/D3DDDIARG_GETPITCH"
+ - "D3DDDIARG_GETPITCH"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDIARG_GETPITCH
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_GETPITCH
 ---

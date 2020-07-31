@@ -10,6 +10,7 @@ keywords: ["IWDTFDeviceDepot2::Query"]
 ms.keywords: IWDTFDeviceDepot2 interface [Windows Device Testing Framework],Query method, IWDTFDeviceDepot2.Query, IWDTFDeviceDepot2::Query, Microsoft.WDTF.IWDTFDeviceDepot2.Query, Microsoft::WDTF::IWDTFDeviceDepot2::Query, Query, Query method [Windows Device Testing Framework], Query method [Windows Device Testing Framework],IWDTFDeviceDepot2 interface, dtf.iwdtfdevicedepot2_query, wdtf/IWDTFDeviceDepot2::Query
 f1_keywords:
  - "wdtf/IWDTFDeviceDepot2.Query"
+ - "IWDTFDeviceDepot2.Query"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WDTF.Interop.metadata_dll.dll
 api_name:
 - IWDTFDeviceDepot2.Query
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

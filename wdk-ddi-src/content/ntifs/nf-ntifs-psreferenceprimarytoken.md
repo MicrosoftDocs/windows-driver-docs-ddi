@@ -10,6 +10,7 @@ keywords: ["PsReferencePrimaryToken function"]
 ms.keywords: PsReferencePrimaryToken, PsReferencePrimaryToken routine [Installable File System Drivers], ifsk.psreferenceprimarytoken, ntifs/PsReferencePrimaryToken, psref_021aea60-1707-4817-9169-95a3dc79adb6.xml
 f1_keywords:
  - "ntifs/PsReferencePrimaryToken"
+ - "PsReferencePrimaryToken"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - PsReferencePrimaryToken
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

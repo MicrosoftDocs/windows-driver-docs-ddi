@@ -8,6 +8,7 @@ ms.date: 06/29/2018
 keywords: ["MbbDeviceSendDeviceServiceSessionDataComplete function"]
 f1_keywords:
  - "mbbcx/MbbDeviceSendDeviceServiceSessionDataComplete"
+ - "MbbDeviceSendDeviceServiceSessionDataComplete"
 ms.keywords: MbbDeviceSendDeviceServiceSessionDataComplete
 req.header: mbbcx.h
 req.include-header:
@@ -34,8 +35,6 @@ api_location:
 - mbbcxstub.lib
 api_name: 
 - MbbDeviceSendDeviceServiceSessionDataComplete
-product:
-- Windows
 targetos: Windows
 
 

@@ -10,6 +10,7 @@ keywords: ["RILSENDUICCTOOLKITENVELOPEPARAMS structure"]
 ms.keywords: "*LPRILSENDUICCTOOLKITENVELOPEPARAMS, RILSENDUICCTOOLKITENVELOPEPARAMS, RILSENDUICCTOOLKITENVELOPEPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsenduicctoolkitenvelopeparams, ntddrilapitypes/RILSENDUICCTOOLKITENVELOPEPARAMS"
 f1_keywords:
  - "ntddrilapitypes/RILSENDUICCTOOLKITENVELOPEPARAMS"
+ - "RILSENDUICCTOOLKITENVELOPEPARAMS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILSENDUICCTOOLKITENVELOPEPARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILSENDUICCTOOLKITENVELOPEPARAMS, *LPRILSENDUICCTOOLKITENVELOPEPARAMS
 ---

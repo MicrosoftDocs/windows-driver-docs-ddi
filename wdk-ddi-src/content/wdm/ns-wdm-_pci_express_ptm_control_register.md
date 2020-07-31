@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_PCI_EXPRESS_PTM_CONTROL_REGISTER structure"]
 f1_keywords:
  - "wdm/_PCI_EXPRESS_PTM_CONTROL_REGISTER"
+ - "_PCI_EXPRESS_PTM_CONTROL_REGISTER"
 ms.keywords: _PCI_EXPRESS_PTM_CONTROL_REGISTER, PCI_EXPRESS_PTM_CONTROL_REGISTER, *PPCI_EXPRESS_PTM_CONTROL_REGISTER, 
 req.header: wdm.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - wdm.h
 api_name: 
 - _PCI_EXPRESS_PTM_CONTROL_REGISTER
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

@@ -10,6 +10,7 @@ keywords: ["PCI_X_CAPABILITY structure"]
 ms.keywords: "*PPCI_X_CAPABILITY, PCI.pci_x_capability, PCI_X_CAPABILITY, PCI_X_CAPABILITY structure [Buses], PPCI_X_CAPABILITY, PPCI_X_CAPABILITY structure pointer [Buses], pci_struct_171a6a86-48fe-4955-8f12-43df82659f7a.xml, wdm/PCI_X_CAPABILITY, wdm/PPCI_X_CAPABILITY"
 f1_keywords:
  - "wdm/PCI_X_CAPABILITY"
+ - "PCI_X_CAPABILITY"
 req.header: wdm.h
 req.include-header: Wdm.h, Miniport.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - PCI_X_CAPABILITY
-product:
-- Windows
 targetos: Windows
 req.typenames: PCI_X_CAPABILITY, *PPCI_X_CAPABILITY
 req.product: Windows 10 or later.

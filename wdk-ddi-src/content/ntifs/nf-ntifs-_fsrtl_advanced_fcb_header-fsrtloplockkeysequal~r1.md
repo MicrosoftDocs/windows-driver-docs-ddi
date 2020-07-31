@@ -10,6 +10,7 @@ keywords: ["FsRtlOplockKeysEqual function"]
 ms.keywords: FsRtlOplockKeysEqual, FsRtlOplockKeysEqual routine [Installable File System Drivers], fsrtlref_ee1323ee-1f65-4323-8648-f613d1ac04c5.xml, ifsk.fsrtloplockkeysequal, ntifs/FsRtlOplockKeysEqual
 f1_keywords:
  - "ntifs/FsRtlOplockKeysEqual"
+ - "FsRtlOplockKeysEqual"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlOplockKeysEqual
-product:
-- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---

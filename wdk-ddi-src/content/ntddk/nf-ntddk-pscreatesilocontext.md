@@ -10,6 +10,7 @@ keywords: ["PsCreateSiloContext function"]
 ms.keywords: PsCreateSiloContext, PsCreateSiloContext routine [Kernel-Mode Driver Architecture], kernel.pscreatesilocontext, ntddk/PsCreateSiloContext
 f1_keywords:
  - "ntddk/PsCreateSiloContext"
+ - "PsCreateSiloContext"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - PsCreateSiloContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

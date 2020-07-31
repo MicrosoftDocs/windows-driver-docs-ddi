@@ -10,6 +10,7 @@ keywords: ["PEP_PROCESSOR_IDLE_CANCEL_CODE enumeration"]
 ms.keywords: "*PPEP_PROCESSOR_IDLE_CANCEL_CODE, PEP_PROCESSOR_IDLE_CANCEL_CODE, PEP_PROCESSOR_IDLE_CANCEL_CODE enumeration [Kernel-Mode Driver Architecture], PepIdleCancelDependencyCheckFailed, PepIdleCancelMax, PepIdleCancelNoCState, PepIdleCancelWorkPending, kernel.pep_processor_idle_cancel_code, pep_x/PEP_PROCESSOR_IDLE_CANCEL_CODE, pep_x/PepIdleCancelDependencyCheckFailed, pep_x/PepIdleCancelMax, pep_x/PepIdleCancelNoCState, pep_x/PepIdleCancelWorkPending"
 f1_keywords:
  - "pep_x/PEP_PROCESSOR_IDLE_CANCEL_CODE"
+ - "PEP_PROCESSOR_IDLE_CANCEL_CODE"
 req.header: pep_x.h
 req.include-header: Pepfx.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pep_x.h
 api_name:
 - PEP_PROCESSOR_IDLE_CANCEL_CODE
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_PROCESSOR_IDLE_CANCEL_CODE, *PPEP_PROCESSOR_IDLE_CANCEL_CODE
 ---

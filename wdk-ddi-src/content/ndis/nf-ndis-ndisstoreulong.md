@@ -10,6 +10,7 @@ keywords: ["NdisStoreUlong macro"]
 ms.keywords: NdisStoreUlong, NdisStoreUlong macro [Network Drivers Starting with Windows Vista], ndis/NdisStoreUlong, ndis_memory_ref_99349378-c2ab-4f96-82a3-7d76b15aaca3.xml, netvista.ndisstoreulong
 f1_keywords:
  - "ndis/NdisStoreUlong"
+ - "NdisStoreUlong"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NdisStoreUlong
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

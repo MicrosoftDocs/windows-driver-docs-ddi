@@ -10,6 +10,7 @@ keywords: ["_EXTPUSH structure"]
 ms.keywords: "*PEXTPUSH, EXTPUSH, EXTPUSH structure [Print Devices], PEXTPUSH, PEXTPUSH structure pointer [Print Devices], _EXTPUSH, compstui/EXTPUSH, compstui/PEXTPUSH, cpsuifnc_d8f5e9ba-ef61-4adb-959f-1d0ebf456dad.xml, print.extpush"
 f1_keywords:
  - "compstui/EXTPUSH"
+ - "EXTPUSH"
 req.header: compstui.h
 req.include-header: Compstui.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - compstui.h
 api_name:
 - EXTPUSH
-product:
-- Windows
 targetos: Windows
 req.typenames: EXTPUSH, *PEXTPUSH
 ---

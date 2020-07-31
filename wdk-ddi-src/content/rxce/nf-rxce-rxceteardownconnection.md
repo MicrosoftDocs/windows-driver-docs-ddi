@@ -10,6 +10,7 @@ keywords: ["RxCeTearDownConnection function"]
 ms.keywords: RxCeTearDownConnection, RxCeTearDownConnection function [Installable File System Drivers], ifsk.rxceteardownconnection, rxce/RxCeTearDownConnection, rxref_bf951adb-b63e-49f6-8325-f67adb2cdbf0.xml
 f1_keywords:
  - "rxce/RxCeTearDownConnection"
+ - "RxCeTearDownConnection"
 req.header: rxce.h
 req.include-header: Rxce.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - rxce.h
 api_name:
 - RxCeTearDownConnection
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

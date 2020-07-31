@@ -10,6 +10,7 @@ keywords: ["IMiniportAudioEngineNode::GetDeviceChannelCount"]
 ms.keywords: GetDeviceChannelCount, GetDeviceChannelCount method [Audio Devices], GetDeviceChannelCount method [Audio Devices],IMiniportAudioEngineNode interface, IMiniportAudioEngineNode interface [Audio Devices],GetDeviceChannelCount method, IMiniportAudioEngineNode.GetDeviceChannelCount, IMiniportAudioEngineNode::GetDeviceChannelCount, audio.iminiportaudioenginenode_getdevicechannelcount, portcls/IMiniportAudioEngineNode::GetDeviceChannelCount
 f1_keywords:
  - "portcls/IMiniportAudioEngineNode.GetDeviceChannelCount"
+ - "IMiniportAudioEngineNode.GetDeviceChannelCount"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Portcls.h
 api_name:
 - IMiniportAudioEngineNode.GetDeviceChannelCount
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

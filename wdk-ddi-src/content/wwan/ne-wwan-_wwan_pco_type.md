@@ -10,6 +10,7 @@ keywords: ["_WWAN_PCO_TYPE enumeration"]
 ms.keywords: "*PWWAN_PCO_TYPE, WWAN_PCO_TYPE, WWAN_PCO_TYPE enumeration [Network Drivers Starting with Windows Vista], WwanPcoTypeComplete, WwanPcoTypePartial, _WWAN_PCO_TYPE, netvista.wwan_pco_type, wwan/WWAN_PCO_TYPE, wwan/WwanPcoTypeComplete, wwan/WwanPcoTypePartial"
 f1_keywords:
  - "wwan/WWAN_PCO_TYPE"
+ - "WWAN_PCO_TYPE"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_PCO_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_PCO_TYPE, *PWWAN_PCO_TYPE
 ---

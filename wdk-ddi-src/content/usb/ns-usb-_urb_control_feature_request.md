@@ -10,6 +10,7 @@ keywords: ["_URB_CONTROL_FEATURE_REQUEST structure"]
 ms.keywords: "_URB_CONTROL_FEATURE_REQUEST, _URB_CONTROL_FEATURE_REQUEST structure [Buses], buses._urb_control_feature_request, usb/_URB_CONTROL_FEATURE_REQUEST, usbstrct_0552c436-5e4b-4573-b9ea-1f098de7dedd.xml"
 f1_keywords:
  - "usb/_URB_CONTROL_FEATURE_REQUEST"
+ - "_URB_CONTROL_FEATURE_REQUEST"
 req.header: usb.h
 req.include-header: Usb.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - usb.h
 api_name:
 - _URB_CONTROL_FEATURE_REQUEST
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["KeGetProcessorIndexFromNumber function"]
 ms.keywords: KeGetProcessorIndexFromNumber, KeGetProcessorIndexFromNumber routine [Kernel-Mode Driver Architecture], k105_57b362f6-81dc-4630-a940-0d91577bf886.xml, kernel.kegetprocessorindexfromnumber, wdm/KeGetProcessorIndexFromNumber
 f1_keywords:
  - "ntifs/KeGetProcessorIndexFromNumber"
+ - "KeGetProcessorIndexFromNumber"
 req.header: ntifs.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeGetProcessorIndexFromNumber
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

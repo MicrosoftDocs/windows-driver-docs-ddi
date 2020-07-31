@@ -10,6 +10,7 @@ keywords: ["IDebugControl2::GetRadix"]
 ms.keywords: GetRadix, GetRadix method [Windows Debugging], GetRadix method [Windows Debugging],IDebugControl interface, GetRadix method [Windows Debugging],IDebugControl2 interface, GetRadix method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetRadix method, IDebugControl2 interface [Windows Debugging],GetRadix method, IDebugControl2.GetRadix, IDebugControl2::GetRadix, IDebugControl3 interface [Windows Debugging],GetRadix method, IDebugControl3::GetRadix, IDebugControl::GetRadix, IDebugControl_3f4cb732-868a-4944-bcd9-dd1f221824df.xml, dbgeng/IDebugControl2::GetRadix, dbgeng/IDebugControl3::GetRadix, dbgeng/IDebugControl::GetRadix, debugger.getradix
 f1_keywords:
  - "dbgeng/IDebugControl.GetRadix"
+ - "IDebugControl.GetRadix"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -38,8 +39,6 @@ api_name:
 - IDebugControl.GetRadix
 - IDebugControl2.GetRadix
 - IDebugControl3.GetRadix
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

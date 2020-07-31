@@ -10,6 +10,7 @@ keywords: ["WdfIoTargetFormatRequestForInternalIoctlOthers function"]
 ms.keywords: DFIOTargetRef_bf839577-4858-4b98-adf3-cee7e8f01bd5.xml, WdfIoTargetFormatRequestForInternalIoctlOthers, WdfIoTargetFormatRequestForInternalIoctlOthers method, kmdf.wdfiotargetformatrequestforinternalioctlothers, wdf.wdfiotargetformatrequestforinternalioctlothers, wdfiotarget/WdfIoTargetFormatRequestForInternalIoctlOthers
 f1_keywords:
  - "wdfiotarget/WdfIoTargetFormatRequestForInternalIoctlOthers"
+ - "WdfIoTargetFormatRequestForInternalIoctlOthers"
 req.header: wdfiotarget.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfIoTargetFormatRequestForInternalIoctlOthers
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

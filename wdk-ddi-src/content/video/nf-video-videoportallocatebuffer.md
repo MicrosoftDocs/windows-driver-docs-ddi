@@ -10,6 +10,7 @@ keywords: ["VideoPortAllocateBuffer function"]
 ms.keywords: VideoPortAllocateBuffer, VideoPortAllocateBuffer function [Display Devices], VideoPort_Functions_6e90fb68-96c2-4163-87dd-0891d2e25254.xml, display.videoportallocatebuffer, video/VideoPortAllocateBuffer
 f1_keywords:
  - "video/VideoPortAllocateBuffer"
+ - "VideoPortAllocateBuffer"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Videoprt.sys
 api_name:
 - VideoPortAllocateBuffer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

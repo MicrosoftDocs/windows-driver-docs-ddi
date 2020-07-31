@@ -32,7 +32,8 @@ api_name:
  - DXGK_DP_INTERFACE
 f1_keywords:
  - dispmprt/_DXGK_DP_INTERFACE
- - dispmprt/DXGK_DP_INTERFACE
+ - dispmprt//DXGK_DP_INTERFACE
+ - DXGK_DP_INTERFACE
 dev_langs:
  - c++
 ---

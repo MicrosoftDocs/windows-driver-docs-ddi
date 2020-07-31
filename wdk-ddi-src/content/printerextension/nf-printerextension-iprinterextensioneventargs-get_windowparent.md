@@ -10,6 +10,7 @@ keywords: ["IPrinterExtensionEventArgs::get_WindowParent"]
 ms.keywords: IPrinterExtensionEventArgs interface [Print Devices],WindowParent property, IPrinterExtensionEventArgs.WindowParent, IPrinterExtensionEventArgs.get_WindowParent, IPrinterExtensionEventArgs::WindowParent, IPrinterExtensionEventArgs::get_WindowParent, WindowParent property [Print Devices], WindowParent property [Print Devices],IPrinterExtensionEventArgs interface, get_WindowParent, print.iprinterextensioneventargs_windowparent, printerextension/IPrinterExtensionEventArgs::WindowParent, printerextension/IPrinterExtensionEventArgs::get_WindowParent
 f1_keywords:
  - "printerextension/IPrinterExtensionEventArgs.WindowParent"
+ - "IPrinterExtensionEventArgs.WindowParent"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IPrinterExtensionEventArgs.WindowParent
 - IPrinterExtensionEventArgs.get_WindowParent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

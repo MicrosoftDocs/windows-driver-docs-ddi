@@ -10,6 +10,7 @@ keywords: ["IOCTL_KS_ENABLE_EVENT IOCTL"]
 ms.keywords: IOCTL_KS_ENABLE_EVENT, IOCTL_KS_ENABLE_EVENT control, IOCTL_KS_ENABLE_EVENT control code [Streaming Media Devices], ks-ioctl_7cc1eab4-2a30-4998-8f7d-122150800c9a.xml, ks/IOCTL_KS_ENABLE_EVENT, stream.ioctl_ks_enable_event
 f1_keywords:
  - "ks/IOCTL_KS_ENABLE_EVENT"
+ - "IOCTL_KS_ENABLE_EVENT"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - IOCTL_KS_ENABLE_EVENT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

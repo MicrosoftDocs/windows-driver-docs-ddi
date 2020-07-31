@@ -10,6 +10,7 @@ keywords: ["IXpsDocument::SetThumbnail"]
 ms.keywords: IXpsDocument interface [Print Devices],SetThumbnail method, IXpsDocument.SetThumbnail, IXpsDocument::SetThumbnail, SetThumbnail, SetThumbnail method [Print Devices], SetThumbnail method [Print Devices],IXpsDocument interface, filterpipeline/IXpsDocument::SetThumbnail, filterpipeline_ee7609e5-4e6f-4619-aa3f-dfa217d5eabc.xml, print.ixpsdocument_setthumbnail
 f1_keywords:
  - "filterpipeline/IXpsDocument.SetThumbnail"
+ - "IXpsDocument.SetThumbnail"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - filterpipeline.h
 api_name:
 - IXpsDocument.SetThumbnail
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

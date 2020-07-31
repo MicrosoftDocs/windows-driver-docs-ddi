@@ -7,6 +7,7 @@ ms.date: 07/16/2018
 keywords: ["LanguageKind enumeration"]
 f1_keywords:
  - "dbgmodel/LanguageKind"
+ - "LanguageKind"
 ms.keywords: LanguageKind, , 
 req.header: dbgmodel.h
 req.include-header:
@@ -26,8 +27,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - LanguageKind
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

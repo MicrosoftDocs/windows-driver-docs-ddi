@@ -8,6 +8,7 @@ ms.date: 04/13/2018
 keywords: ["NET_BUFFER_MINIPORT_RESERVED macro"]
 f1_keywords:
  - "ndis/NET_BUFFER_MINIPORT_RESERVED"
+ - "NET_BUFFER_MINIPORT_RESERVED"
 ms.keywords: NET_BUFFER_MINIPORT_RESERVED
 req.header: ndis.h
 req.include-header:
@@ -34,8 +35,6 @@ api_location:
 - ndis.h
 api_name: 
 - NET_BUFFER_MINIPORT_RESERVED
-product:
-- Windows
 targetos: Windows
 
 ---

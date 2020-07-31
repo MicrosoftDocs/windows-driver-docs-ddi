@@ -10,6 +10,7 @@ keywords: ["tagDEVCAPS structure"]
 ms.keywords: "*PDEVCAPS, DEVCAPS, DEVCAPS structure [Streaming Media Devices], PDEVCAPS, PDEVCAPS structure pointer [Streaming Media Devices], ksmedia/DEVCAPS, ksmedia/PDEVCAPS, stream.devcaps, tagDEVCAPS, vidcapstruct_61cce92e-4f74-48ff-ae84-72579136a64f.xml"
 f1_keywords:
  - "ksmedia/DEVCAPS"
+ - "DEVCAPS"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - DEVCAPS
-product:
-- Windows
 targetos: Windows
 req.typenames: DEVCAPS, *PDEVCAPS
 ---

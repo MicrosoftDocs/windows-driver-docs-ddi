@@ -10,6 +10,7 @@ keywords: ["RILSIGNALQUALITYPARAMMASK enumeration"]
 ms.keywords: RILSIGNALQUALITYPARAMMASK, RILSIGNALQUALITYPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_SQ_ALL, RIL_PARAM_SQ_NUMSIGNALBARS, RIL_PARAM_SQ_SIGNALSTRENGTH, RIL_PARAM_SQ_SNR, RIL_PARAM_SQ_SYSTEMTYPE, netvista.rilsignalqualityparammask, ntddrilapitypes/RILSIGNALQUALITYPARAMMASK, ntddrilapitypes/RIL_PARAM_SQ_ALL, ntddrilapitypes/RIL_PARAM_SQ_NUMSIGNALBARS, ntddrilapitypes/RIL_PARAM_SQ_SIGNALSTRENGTH, ntddrilapitypes/RIL_PARAM_SQ_SNR, ntddrilapitypes/RIL_PARAM_SQ_SYSTEMTYPE
 f1_keywords:
  - "rilapitypes/RILSIGNALQUALITYPARAMMASK"
+ - "RILSIGNALQUALITYPARAMMASK"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILSIGNALQUALITYPARAMMASK
-product:
-- Windows
 targetos: Windows
 req.typenames: RILSIGNALQUALITYPARAMMASK
 ---

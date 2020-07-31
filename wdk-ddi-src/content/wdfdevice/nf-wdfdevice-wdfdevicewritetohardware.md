@@ -10,6 +10,7 @@ keywords: ["WdfDeviceWriteToHardware function"]
 ms.keywords: PFN_WDFDEVICEWRITETOHARDWARE, WdfDeviceWriteToHardware, WdfDeviceWriteToHardware method, wdf.wdfdevicewritetohardware, wdfdevice/WdfDeviceWriteToHardware, wdfhwaccess/WdfDeviceWriteToHardware
 f1_keywords:
  - "wdfdevice/WdfDeviceWriteToHardware"
+ - "WdfDeviceWriteToHardware"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfDeviceWriteToHardware
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

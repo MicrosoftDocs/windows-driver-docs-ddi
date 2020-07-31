@@ -10,6 +10,7 @@ keywords: ["_D3DKMDT_MONITOR_SOURCE_MODE structure"]
 ms.keywords: D3DKMDT_MONITOR_SOURCE_MODE, D3DKMDT_MONITOR_SOURCE_MODE structure [Display Devices], DmStructs_165795ef-f70e-4f50-a35f-c6009c547be2.xml, _D3DKMDT_MONITOR_SOURCE_MODE, d3dkmdt/D3DKMDT_MONITOR_SOURCE_MODE, display.d3dkmdt_monitor_source_mode
 f1_keywords:
  - "d3dkmdt/D3DKMDT_MONITOR_SOURCE_MODE"
+ - "D3DKMDT_MONITOR_SOURCE_MODE"
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dkmdt.h
 api_name:
 - D3DKMDT_MONITOR_SOURCE_MODE
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DKMDT_MONITOR_SOURCE_MODE
 ---

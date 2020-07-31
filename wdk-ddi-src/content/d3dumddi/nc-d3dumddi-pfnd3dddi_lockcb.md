@@ -29,6 +29,7 @@ targetos: Windows
 req.typenames: 
 f1_keywords:
  - "d3dumddi/pfnLockCb"
+ - "pfnLockCb"
 topic_type:
  - APIRef
  - kbSyntax

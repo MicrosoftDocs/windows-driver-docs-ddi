@@ -10,6 +10,7 @@ keywords: ["GdiGetDC function"]
 ms.keywords: GdiGetDC, GdiGetDC function [Print Devices], gdifnc_4129439c-9cb6-46d3-8659-d12438841bb5.xml, print.gdigetdc, winppi/GdiGetDC
 f1_keywords:
  - "winppi/GdiGetDC"
+ - "GdiGetDC"
 req.header: winppi.h
 req.include-header: Winppi.h
 req.target-type: Universal
@@ -38,8 +39,6 @@ api_location:
 - GDI32Full.dll
 api_name:
 - GdiGetDC
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

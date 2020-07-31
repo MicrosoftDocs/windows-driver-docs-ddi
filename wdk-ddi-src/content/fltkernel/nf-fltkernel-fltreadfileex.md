@@ -10,6 +10,7 @@ keywords: ["FltReadFileEx function"]
 ms.keywords: FltReadFileEx, FltReadFileEx function [Installable File System Drivers], fltkernel/FltReadFileEx, ifsk.fltreadfileex
 f1_keywords:
  - "fltkernel/FltReadFileEx"
+ - "FltReadFileEx"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltReadFileEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -9,6 +9,7 @@ keywords: ["DXGKCB_POWERRUNTIMECONTROLREQUEST callback function"]
 ms.keywords: DXGKCB_POWERRUNTIMECONTROLREQUEST, DXGKCB_POWERRUNTIMECONTROLREQUEST callback, DxgkCbPowerRuntimeControlRequest, DxgkCbPowerRuntimeControlRequest callback function [Display Devices], PDXGKCB_POWERRUNTIMECONTROLREQUEST, d3dkmddi/DxgkCbPowerRuntimeControlRequest, display.dxgkcbpowerruntimecontrolrequest
 f1_keywords:
  - "d3dkmddi/DxgkCbPowerRuntimeControlRequest"
+ - "DxgkCbPowerRuntimeControlRequest"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop
@@ -35,8 +36,6 @@ api_location:
 - D3dkmddi.h
 api_name:
 - DxgkCbPowerRuntimeControlRequest
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

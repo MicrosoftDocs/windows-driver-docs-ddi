@@ -10,6 +10,7 @@ keywords: ["IOCTL_CDROM_PLAY_AUDIO_MSF IOCTL"]
 ms.keywords: IOCTL_CDROM_PLAY_AUDIO_MSF, IOCTL_CDROM_PLAY_AUDIO_MSF control, IOCTL_CDROM_PLAY_AUDIO_MSF control code [Storage Devices], k307_dce77286-4efa-4b8b-bb78-2c771bd75727.xml, ntddcdrm/IOCTL_CDROM_PLAY_AUDIO_MSF, storage.ioctl_cdrom_play_audio_msf
 f1_keywords:
  - "ntddcdrm/IOCTL_CDROM_PLAY_AUDIO_MSF"
+ - "IOCTL_CDROM_PLAY_AUDIO_MSF"
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddcdrm.h
 api_name:
 - IOCTL_CDROM_PLAY_AUDIO_MSF
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

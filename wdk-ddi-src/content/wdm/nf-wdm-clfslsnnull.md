@@ -10,6 +10,7 @@ keywords: ["ClfsLsnNull function"]
 ms.keywords: ClfsLsnNull, ClfsLsnNull routine [Kernel-Mode Driver Architecture], Clfs_26a9c0db-2336-4151-9de0-81a58ed9e2f0.xml, kernel.clfslsnnull, wdm/ClfsLsnNull
 f1_keywords:
  - "wdm/ClfsLsnNull"
+ - "ClfsLsnNull"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
 - ClfsLsnNull
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

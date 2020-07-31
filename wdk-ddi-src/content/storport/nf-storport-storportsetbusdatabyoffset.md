@@ -10,6 +10,7 @@ keywords: ["StorPortSetBusDataByOffset function"]
 ms.keywords: StorPortSetBusDataByOffset, StorPortSetBusDataByOffset routine [Storage Devices], storage.storportsetbusdatabyoffset, storport/StorPortSetBusDataByOffset, storprt_ebb2afc1-b190-4674-8ee7-bd61953565ab.xml
 f1_keywords:
  - "storport/StorPortSetBusDataByOffset"
+ - "StorPortSetBusDataByOffset"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Storport.dll
 api_name:
 - StorPortSetBusDataByOffset
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

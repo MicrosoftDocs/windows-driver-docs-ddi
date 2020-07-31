@@ -10,6 +10,7 @@ keywords: ["DRIVER_INITIALIZE callback function"]
 ms.keywords: DRIVER_INITIALIZE, DriverEntry, DriverEntry routine [Kernel-Mode Driver Architecture], DrvrRtns_dc503a23-7c31-421d-ac7b-ff6f4651e44e.xml, kernel.driverentry, wdm/DriverEntry
 f1_keywords:
  - "wdm/DriverEntry"
+ - "DriverEntry"
 req.header: wdm.h
 req.include-header: Mcd.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - DriverEntry
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

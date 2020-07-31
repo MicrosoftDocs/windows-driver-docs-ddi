@@ -10,6 +10,7 @@ keywords: ["_PDEV_HOSTFONT_ENABLED structure"]
 ms.keywords: PDEV_HOSTFONT_ENABLED, PDEV_HOSTFONT_ENABLED structure [Print Devices], _PDEV_HOSTFONT_ENABLED, print.pdev_hostfont_enabled, print_unidrv-pscript_rendering_81f0441f-4e35-493b-92a9-1836977f9c55.xml, printoem/PDEV_HOSTFONT_ENABLED
 f1_keywords:
  - "printoem/PDEV_HOSTFONT_ENABLED"
+ - "PDEV_HOSTFONT_ENABLED"
 req.header: printoem.h
 req.include-header: Prcomoem.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - printoem.h
 api_name:
 - PDEV_HOSTFONT_ENABLED
-product:
-- Windows
 targetos: Windows
 req.typenames: PDEV_HOSTFONT_ENABLED
 ---

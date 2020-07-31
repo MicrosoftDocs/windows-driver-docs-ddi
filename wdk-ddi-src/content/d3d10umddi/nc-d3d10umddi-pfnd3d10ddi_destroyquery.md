@@ -9,6 +9,7 @@ keywords: ["PFND3D10DDI_DESTROYQUERY callback function"]
 ms.keywords: DestroyQuery, DestroyQuery callback function [Display Devices], PFND3D10DDI_DESTROYQUERY, PFND3D10DDI_DESTROYQUERY callback, UserModeDisplayDriverDx10_Functions_9c0fdf87-a47b-45b5-9ec9-5c307d412c9c.xml, d3d10umddi/DestroyQuery, display.destroyquery_d3d10_
 f1_keywords:
  - "d3d10umddi/DestroyQuery"
+ - "DestroyQuery"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - DestroyQuery
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

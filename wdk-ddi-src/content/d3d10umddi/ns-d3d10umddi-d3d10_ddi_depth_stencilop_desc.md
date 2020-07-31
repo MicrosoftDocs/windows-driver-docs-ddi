@@ -9,6 +9,7 @@ keywords: ["D3D10_DDI_DEPTH_STENCILOP_DESC structure"]
 ms.keywords: D3D10_DDI_DEPTH_STENCILOP_DESC, D3D10_DDI_DEPTH_STENCILOP_DESC structure [Display Devices], UMDisplayDriver_Dx10param_Structs_606e4f10-c713-4aae-b1d1-4a3c9ffde205.xml, d3d10umddi/D3D10_DDI_DEPTH_STENCILOP_DESC, display.d3d10_ddi_depth_stencilop_desc
 f1_keywords:
  - "d3d10umddi/D3D10_DDI_DEPTH_STENCILOP_DESC"
+ - "D3D10_DDI_DEPTH_STENCILOP_DESC"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - D3D10_DDI_DEPTH_STENCILOP_DESC
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D10_DDI_DEPTH_STENCILOP_DESC

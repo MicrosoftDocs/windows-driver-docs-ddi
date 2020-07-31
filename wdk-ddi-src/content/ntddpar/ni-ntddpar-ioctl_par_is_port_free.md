@@ -10,6 +10,7 @@ keywords: ["IOCTL_PAR_IS_PORT_FREE IOCTL"]
 ms.keywords: IOCTL_PAR_IS_PORT_FREE, IOCTL_PAR_IS_PORT_FREE control code [Parallel Ports], cisspd_3f8c9a8d-225c-48cc-b504-235c79037f99.xml, ntddpar/IOCTL_PAR_IS_PORT_FREE, parports.ioctl_par_is_port_free
 f1_keywords:
  - "ntddpar/IOCTL_PAR_IS_PORT_FREE"
+ - "IOCTL_PAR_IS_PORT_FREE"
 req.header: ntddpar.h
 req.include-header: Ntddpar.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddpar.h
 api_name:
 - IOCTL_PAR_IS_PORT_FREE
-product:
-- Windows
 targetos: Windows
 req.typenames: OFFLOAD_SECURITY_ASSOCIATION, *POFFLOAD_SECURITY_ASSOCIATION
 ---

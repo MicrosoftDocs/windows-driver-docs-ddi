@@ -10,6 +10,7 @@ keywords: ["_WDF_PNP_STATE enumeration"]
 ms.keywords: WDF_PNP_STATE, WDF_PNP_STATE enumeration, WdfPnpStateDisabled, WdfPnpStateDontDisplayInUI, WdfPnpStateFailed, WdfPnpStateInvalid, WdfPnpStateMaximum, WdfPnpStateNotDisableable, WdfPnpStateRemoved, WdfPnpStateResourcesChanged, _WDF_PNP_STATE, umdf.wdf_pnp_state, umdfstructs_5964ab34-28fb-410b-a863-1adc9e8eed03.xml, wdf.wdf_pnp_state, wudfddi_types/WDF_PNP_STATE, wudfddi_types/WdfPnpStateDisabled, wudfddi_types/WdfPnpStateDontDisplayInUI, wudfddi_types/WdfPnpStateFailed, wudfddi_types/WdfPnpStateInvalid, wudfddi_types/WdfPnpStateMaximum, wudfddi_types/WdfPnpStateNotDisableable, wudfddi_types/WdfPnpStateRemoved, wudfddi_types/WdfPnpStateResourcesChanged
 f1_keywords:
  - "wudfddi_types/WDF_PNP_STATE"
+ - "WDF_PNP_STATE"
 req.header: wudfddi_types.h
 req.include-header: Wudfddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wudfddi_types.h
 api_name:
 - WDF_PNP_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_PNP_STATE
 ---

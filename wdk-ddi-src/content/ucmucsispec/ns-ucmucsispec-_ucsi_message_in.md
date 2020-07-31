@@ -8,6 +8,7 @@ ms.date: 09/30/2018
 keywords: ["_UCSI_MESSAGE_IN structure"]
 f1_keywords:
  - "ucmucsispec/_UCSI_MESSAGE_IN"
+ - "_UCSI_MESSAGE_IN"
 ms.keywords: _UCSI_MESSAGE_IN, UCSI_MESSAGE_IN, *PUCSI_MESSAGE_IN, 
 req.header: ucmucsispec.h
 req.include-header: UcmUcsiCx.h 
@@ -30,8 +31,6 @@ api_location:
 - ucmucsispec.h
 api_name: 
 - _UCSI_MESSAGE_IN
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

@@ -10,6 +10,7 @@ keywords: ["NDIS_WDI_TX_SEND_COMPLETE_IND callback function"]
 ms.keywords: NDIS_WDI_TX_SEND_COMPLETE_IND, NDIS_WDI_TX_SEND_COMPLETE_IND callback, NdisWdiTxSendCompleteIndication, NdisWdiTxSendCompleteIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxSendCompleteIndication, netvista.ndiswditxsendcompleteindication
 f1_keywords:
  - "dot11wdi/NdisWdiTxSendCompleteIndication"
+ - "NdisWdiTxSendCompleteIndication"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dot11wdi.h
 api_name:
 - NdisWdiTxSendCompleteIndication
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

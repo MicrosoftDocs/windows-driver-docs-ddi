@@ -10,6 +10,7 @@ keywords: ["BdaStartChanges function"]
 ms.keywords: BdaStartChanges, BdaStartChanges function [Streaming Media Devices], bdaref_16498957-566e-405d-b573-3a2eb75a6bcb.xml, bdasup/BdaStartChanges, stream.bdastartchanges
 f1_keywords:
  - "bdasup/BdaStartChanges"
+ - "BdaStartChanges"
 req.header: bdasup.h
 req.include-header: Bdasup.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Bdasup.dll
 api_name:
 - BdaStartChanges
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

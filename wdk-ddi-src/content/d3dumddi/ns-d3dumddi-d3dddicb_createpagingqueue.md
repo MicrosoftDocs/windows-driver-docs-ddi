@@ -10,6 +10,7 @@ keywords: ["D3DDDICB_CREATEPAGINGQUEUE structure"]
 ms.keywords: D3DDDICB_CREATEPAGINGQUEUE, D3DDDICB_CREATEPAGINGQUEUE structure [Display Devices], d3dumddi/D3DDDICB_CREATEPAGINGQUEUE, display.d3dddicb_createpagingqueue
 f1_keywords:
  - "d3dumddi/D3DDDICB_CREATEPAGINGQUEUE"
+ - "D3DDDICB_CREATEPAGINGQUEUE"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDICB_CREATEPAGINGQUEUE
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDICB_CREATEPAGINGQUEUE
 ---

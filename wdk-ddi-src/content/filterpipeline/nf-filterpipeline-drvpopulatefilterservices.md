@@ -10,6 +10,7 @@ keywords: ["DrvPopulateFilterServices function"]
 ms.keywords: DrvPopulateFilterServices, DrvPopulateFilterServices function [Print Devices], filterpipeline/DrvPopulateFilterServices, print.drvpopulatefilterservices
 f1_keywords:
  - "filterpipeline/DrvPopulateFilterServices"
+ - "DrvPopulateFilterServices"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Filterpipeline.h
 api_name:
 - DrvPopulateFilterServices
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

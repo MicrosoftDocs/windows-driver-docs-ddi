@@ -10,6 +10,7 @@ keywords: ["_DXVA_COPPStatusInput structure"]
 ms.keywords: "*LPDXVA_COPPStatusInput, DXVA_COPPStatusInput, DXVA_COPPStatusInput structure [Display Devices], LPDXVA_COPPStatusInput, LPDXVA_COPPStatusInput structure pointer [Display Devices], _DXVA_COPPStatusInput, display.dxva_coppstatusinput, dxva/DXVA_COPPStatusInput, dxva/LPDXVA_COPPStatusInput, dxvaref_d6441478-0fb0-4643-97ec-dbd1ecd90e92.xml"
 f1_keywords:
  - "dxva/DXVA_COPPStatusInput"
+ - "DXVA_COPPStatusInput"
 req.header: dxva.h
 req.include-header: Dxva.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dxva.h
 api_name:
 - DXVA_COPPStatusInput
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVA_COPPStatusInput, *LPDXVA_COPPStatusInput
 ---

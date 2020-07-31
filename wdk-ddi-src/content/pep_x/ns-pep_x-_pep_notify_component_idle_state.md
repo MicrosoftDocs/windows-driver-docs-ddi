@@ -10,6 +10,7 @@ keywords: ["_PEP_NOTIFY_COMPONENT_IDLE_STATE structure"]
 ms.keywords: "*PPEP_NOTIFY_COMPONENT_IDLE_STATE, PEP_NOTIFY_COMPONENT_IDLE_STATE, PEP_NOTIFY_COMPONENT_IDLE_STATE structure [Kernel-Mode Driver Architecture], PPEP_NOTIFY_COMPONENT_IDLE_STATE, PPEP_NOTIFY_COMPONENT_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture], _PEP_NOTIFY_COMPONENT_IDLE_STATE, kernel.pep_notify_component_idle_state, pepfx/PEP_NOTIFY_COMPONENT_IDLE_STATE, pepfx/PPEP_NOTIFY_COMPONENT_IDLE_STATE"
 f1_keywords:
  - "pep_x/PEP_NOTIFY_COMPONENT_IDLE_STATE"
+ - "PEP_NOTIFY_COMPONENT_IDLE_STATE"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - PEP_NOTIFY_COMPONENT_IDLE_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_NOTIFY_COMPONENT_IDLE_STATE, *PPEP_NOTIFY_COMPONENT_IDLE_STATE
 ---

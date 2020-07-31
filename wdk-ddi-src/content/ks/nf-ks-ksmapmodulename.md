@@ -10,6 +10,7 @@ keywords: ["KsMapModuleName function"]
 ms.keywords: KsMapModuleName, KsMapModuleName function [Streaming Media Devices], ks/KsMapModuleName, ksfunc_76aec7fa-5e31-46d7-b94d-d7bccac7c3cd.xml, stream.ksmapmodulename
 f1_keywords:
  - "ks/KsMapModuleName"
+ - "KsMapModuleName"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsMapModuleName
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

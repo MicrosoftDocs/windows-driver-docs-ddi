@@ -7,6 +7,7 @@ ms.date: 08/20/2018
 keywords: ["IDataModelScriptClient::ReportError"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptClient.ReportError"
+ - "IDataModelScriptClient.ReportError"
 ms.keywords: IDataModelScriptClient::ReportError, ReportError, IDataModelScriptClient.ReportError, IDataModelScriptClient::ReportError, IDataModelScriptClient.ReportError
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDataModelScriptClient.ReportError
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

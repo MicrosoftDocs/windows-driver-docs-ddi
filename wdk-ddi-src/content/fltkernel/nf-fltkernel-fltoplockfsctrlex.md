@@ -10,6 +10,7 @@ keywords: ["FltOplockFsctrlEx function"]
 ms.keywords: FltApiRef_e_to_o_fbf1fd08-c50d-41f9-8d13-5bd8f1265625.xml, FltOplockFsctrlEx, FltOplockFsctrlEx routine [Installable File System Drivers], fltkernel/FltOplockFsctrlEx, ifsk.fltoplockfsctrlex
 f1_keywords:
  - "fltkernel/FltOplockFsctrlEx"
+ - "FltOplockFsctrlEx"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltOplockFsctrlEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

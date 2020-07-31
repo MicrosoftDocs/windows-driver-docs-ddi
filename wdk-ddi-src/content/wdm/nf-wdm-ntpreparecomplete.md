@@ -10,6 +10,7 @@ keywords: ["NtPrepareComplete function"]
 ms.keywords: NtPrepareComplete, ZwPrepareComplete, ZwPrepareComplete routine [Kernel-Mode Driver Architecture], kernel.zwpreparecomplete, ktm_ref_2690208e-0252-4e3f-84c6-29750139da00.xml, wdm/NtPrepareComplete, wdm/ZwPrepareComplete
 f1_keywords:
  - "wdm/ZwPrepareComplete"
+ - "ZwPrepareComplete"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntifs.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - ZwPrepareComplete
 - NtPrepareComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

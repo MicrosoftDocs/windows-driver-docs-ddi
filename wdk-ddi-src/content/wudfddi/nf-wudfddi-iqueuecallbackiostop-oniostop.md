@@ -10,6 +10,7 @@ keywords: ["IQueueCallbackIoStop::OnIoStop"]
 ms.keywords: IQueueCallbackIoStop interface,OnIoStop method, IQueueCallbackIoStop.OnIoStop, IQueueCallbackIoStop::OnIoStop, OnIoStop, OnIoStop method, OnIoStop method,IQueueCallbackIoStop interface, UMDFQueueObjectRef_5de69aa4-be79-45c4-9ee4-1628741ca249.xml, umdf.iqueuecallbackiostop_oniostop, wdf.iqueuecallbackiostop_oniostop, wudfddi/IQueueCallbackIoStop::OnIoStop
 f1_keywords:
  - "wudfddi/IQueueCallbackIoStop.OnIoStop"
+ - "IQueueCallbackIoStop.OnIoStop"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wudfddi.h
 api_name:
 - IQueueCallbackIoStop.OnIoStop
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

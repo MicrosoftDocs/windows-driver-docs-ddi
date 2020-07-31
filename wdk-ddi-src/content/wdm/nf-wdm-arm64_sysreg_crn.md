@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["ARM64_SYSREG_CRN macro"]
 f1_keywords:
  - "wdm/ARM64_SYSREG_CRN"
+ - "ARM64_SYSREG_CRN"
 ms.keywords: ARM64_SYSREG_CRN
 req.header: wdm.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - wdm.h
 api_name: 
 - ARM64_SYSREG_CRN
-product:
-- Windows
 targetos: Windows
 
 ---

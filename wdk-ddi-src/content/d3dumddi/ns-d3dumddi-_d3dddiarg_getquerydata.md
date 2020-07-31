@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_GETQUERYDATA structure"]
 ms.keywords: D3DDDIARG_GETQUERYDATA, D3DDDIARG_GETQUERYDATA structure [Display Devices], UMDisplayDriver_param_Structs_7f9fefc5-6bce-4a76-9841-d91a40710d4a.xml, _D3DDDIARG_GETQUERYDATA, d3dumddi/D3DDDIARG_GETQUERYDATA, display.d3dddiarg_getquerydata
 f1_keywords:
  - "d3dumddi/D3DDDIARG_GETQUERYDATA"
+ - "D3DDDIARG_GETQUERYDATA"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDIARG_GETQUERYDATA
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_GETQUERYDATA
 ---

@@ -10,6 +10,7 @@ keywords: ["_DISK_GROW_PARTITION structure"]
 ms.keywords: "*PDISK_GROW_PARTITION, DISK_GROW_PARTITION, DISK_GROW_PARTITION structure [Storage Devices], PDISK_GROW_PARTITION, PDISK_GROW_PARTITION structure pointer [Storage Devices], _DISK_GROW_PARTITION, ntdddisk/DISK_GROW_PARTITION, ntdddisk/PDISK_GROW_PARTITION, storage.disk_grow_partition, structs-disk_cc7d52cd-b0b6-4e5c-a323-6d513f37e602.xml"
 f1_keywords:
  - "ntdddisk/DISK_GROW_PARTITION"
+ - "DISK_GROW_PARTITION"
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntdddisk.h
 api_name:
 - DISK_GROW_PARTITION
-product:
-- Windows
 targetos: Windows
 req.typenames: DISK_GROW_PARTITION, *PDISK_GROW_PARTITION
 ---

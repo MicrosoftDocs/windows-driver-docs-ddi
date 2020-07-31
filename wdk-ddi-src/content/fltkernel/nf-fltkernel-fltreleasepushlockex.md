@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["FltReleasePushLockEx function"]
 f1_keywords:
  - "fltkernel/FltReleasePushLockEx"
+ - "FltReleasePushLockEx"
 ms.keywords: FltReleasePushLockEx
 req.header: fltkernel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - FltMgr.sys
 api_name: 
 - FltReleasePushLockEx
-product:
-- Windows
 targetos: Windows
 dev_langs:
 - c++

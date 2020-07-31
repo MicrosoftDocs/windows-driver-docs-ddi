@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["TrSecureDeviceLogMessage function"]
 f1_keywords:
  - "trustedruntimeclx/TrSecureDeviceLogMessage"
+ - "TrSecureDeviceLogMessage"
 ms.keywords: TrSecureDeviceLogMessage
 req.header: trustedruntimeclx.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - trustedruntimeclx.h
 api_name: 
 - TrSecureDeviceLogMessage
-product:
-- Windows
 targetos: Windows
 
 

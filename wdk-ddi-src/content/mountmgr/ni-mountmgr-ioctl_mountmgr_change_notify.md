@@ -10,6 +10,7 @@ keywords: ["IOCTL_MOUNTMGR_CHANGE_NOTIFY IOCTL"]
 ms.keywords: IOCTL_MOUNTMGR_CHANGE_NOTIFY, IOCTL_MOUNTMGR_CHANGE_NOTIFY control, IOCTL_MOUNTMGR_CHANGE_NOTIFY control code [Storage Devices], k307_009033eb-e845-4967-9ef1-30f11bfa3253.xml, mountmgr/IOCTL_MOUNTMGR_CHANGE_NOTIFY, storage.ioctl_mountmgr_change_notify
 f1_keywords:
  - "mountmgr/IOCTL_MOUNTMGR_CHANGE_NOTIFY"
+ - "IOCTL_MOUNTMGR_CHANGE_NOTIFY"
 req.header: mountmgr.h
 req.include-header: Mountmgr.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Mountmgr.h
 api_name:
 - IOCTL_MOUNTMGR_CHANGE_NOTIFY
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

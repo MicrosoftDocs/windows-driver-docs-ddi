@@ -10,6 +10,7 @@ keywords: ["IOCTL_DISK_RESET_SNAPSHOT_INFO IOCTL"]
 ms.keywords: IOCTL_DISK_RESET_SNAPSHOT_INFO, IOCTL_DISK_RESET_SNAPSHOT_INFO control, IOCTL_DISK_RESET_SNAPSHOT_INFO control code [Storage Devices], k307_3c2ed554-3774-467f-80a0-5017439a0aad.xml, ntdddisk/IOCTL_DISK_RESET_SNAPSHOT_INFO, storage.ioctl_disk_reset_snapshot_info
 f1_keywords:
  - "ntdddisk/IOCTL_DISK_RESET_SNAPSHOT_INFO"
+ - "IOCTL_DISK_RESET_SNAPSHOT_INFO"
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntdddisk.h
 api_name:
 - IOCTL_DISK_RESET_SNAPSHOT_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

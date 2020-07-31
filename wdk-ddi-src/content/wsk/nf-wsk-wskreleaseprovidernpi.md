@@ -10,6 +10,7 @@ keywords: ["WskReleaseProviderNPI function"]
 ms.keywords: WskReleaseProviderNPI, WskReleaseProviderNPI function [Network Drivers Starting with Windows Vista], netvista.wskreleaseprovidernpi, wsk/WskReleaseProviderNPI, wskref_1ed7116e-c3a0-41dd-9d19-aa2f44eae257.xml
 f1_keywords:
  - "wsk/WskReleaseProviderNPI"
+ - "WskReleaseProviderNPI"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Netio.dll
 api_name:
 - WskReleaseProviderNPI
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

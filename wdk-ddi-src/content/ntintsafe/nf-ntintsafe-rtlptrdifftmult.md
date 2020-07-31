@@ -10,6 +10,7 @@ keywords: ["RtlPtrdiffTMult function"]
 ms.keywords: RtlPtrdiffTMult, RtlPtrdiffTMult function [Kernel-Mode Driver Architecture], kernel.rtlptrdifftmult, ntintsafe/RtlPtrdiffTMult
 f1_keywords:
  - "ntintsafe/RtlPtrdiffTMult"
+ - "RtlPtrdiffTMult"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Ntintsafe.h
 api_name:
 - RtlPtrdiffTMult
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

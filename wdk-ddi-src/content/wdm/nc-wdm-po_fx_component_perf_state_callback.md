@@ -10,6 +10,7 @@ keywords: ["PO_FX_COMPONENT_PERF_STATE_CALLBACK callback function"]
 ms.keywords: ComponentPerfStateCallback, ComponentPerfStateCallback routine [Kernel-Mode Driver Architecture], PO_FX_COMPONENT_PERF_STATE_CALLBACK, kernel.componentperfstatecallback, wdm/ComponentPerfStateCallback
 f1_keywords:
  - "wdm/ComponentPerfStateCallback"
+ - "ComponentPerfStateCallback"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - ComponentPerfStateCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

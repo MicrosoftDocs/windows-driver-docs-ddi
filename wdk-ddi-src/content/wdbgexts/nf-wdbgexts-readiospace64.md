@@ -10,6 +10,7 @@ keywords: ["ReadIoSpace64 function"]
 ms.keywords: ReadIoSpace64, ReadIoSpace64 function [Windows Debugging], WdbgExts_Ref_5e2a7cc2-0dc4-4970-9d6a-c9a2c5130577.xml, debugger.readiospace64, wdbgexts/ReadIoSpace64
 f1_keywords:
  - "wdbgexts/ReadIoSpace64"
+ - "ReadIoSpace64"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wdbgexts.h
 api_name:
 - ReadIoSpace64
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

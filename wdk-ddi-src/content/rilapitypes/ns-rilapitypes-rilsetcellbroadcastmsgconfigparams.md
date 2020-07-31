@@ -10,6 +10,7 @@ keywords: ["RILSETCELLBROADCASTMSGCONFIGPARAMS structure"]
 ms.keywords: "*LPRILSETCELLBROADCASTMSGCONFIGPARAMS, RILSETCELLBROADCASTMSGCONFIGPARAMS, RILSETCELLBROADCASTMSGCONFIGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetcellbroadcastmsgconfigparams, ntddrilapitypes/RILSETCELLBROADCASTMSGCONFIGPARAMS"
 f1_keywords:
  - "rilapitypes/RILSETCELLBROADCASTMSGCONFIGPARAMS"
+ - "RILSETCELLBROADCASTMSGCONFIGPARAMS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILSETCELLBROADCASTMSGCONFIGPARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILSETCELLBROADCASTMSGCONFIGPARAMS, *LPRILSETCELLBROADCASTMSGCONFIGPARAMS
 ---

@@ -10,6 +10,7 @@ keywords: ["WRITE_REGISTER_BUFFER_ULONG function"]
 ms.keywords: WRITE_REGISTER_BUFFER_ULONG, WRITE_REGISTER_BUFFER_ULONG function, umdf.write_register_buffer_ulong, wdf.write_register_buffer_ulong, wudfddi_hwaccess/WRITE_REGISTER_BUFFER_ULONG
 f1_keywords:
  - "wudfddi_hwaccess/WRITE_REGISTER_BUFFER_ULONG"
+ - "WRITE_REGISTER_BUFFER_ULONG"
 req.header: wudfddi_hwaccess.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wudfddi_hwaccess.h
 api_name:
 - WRITE_REGISTER_BUFFER_ULONG
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

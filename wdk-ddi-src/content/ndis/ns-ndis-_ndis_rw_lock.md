@@ -10,6 +10,7 @@ keywords: ["_NDIS_RW_LOCK structure"]
 ms.keywords: "*PNDIS_RW_LOCK, NDIS_RW_LOCK, NDIS_RW_LOCK structure [Network Drivers Starting with Windows Vista], PNDIS_RW_LOCK, PNDIS_RW_LOCK structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RW_LOCK, ndis/NDIS_RW_LOCK, ndis/PNDIS_RW_LOCK, ndis_processor_group_ref_4680aefb-5db5-4e48-aec2-a7c6769892aa.xml, netvista.ndis_rw_lock"
 f1_keywords:
  - "ndis/NDIS_RW_LOCK"
+ - "NDIS_RW_LOCK"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NDIS_RW_LOCK
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_RW_LOCK, *PNDIS_RW_LOCK
 ---

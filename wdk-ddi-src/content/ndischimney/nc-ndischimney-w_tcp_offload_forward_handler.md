@@ -10,6 +10,7 @@ keywords: ["W_TCP_OFFLOAD_FORWARD_HANDLER callback function"]
 ms.keywords: MiniportTcpOffloadForward, MiniportTcpOffloadForward callback function [Network Drivers Starting with Windows Vista], W_TCP_OFFLOAD_FORWARD_HANDLER, W_TCP_OFFLOAD_FORWARD_HANDLER callback, ndischimney/MiniportTcpOffloadForward, netvista.miniporttcpoffloadforward, tcp_chim_miniport_func_18a2b561-13cd-4337-8ff4-fcd3bfc34b3b.xml
 f1_keywords:
  - "ndischimney/MiniportTcpOffloadForward"
+ - "MiniportTcpOffloadForward"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ndischimney.h
 api_name:
 - MiniportTcpOffloadForward
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

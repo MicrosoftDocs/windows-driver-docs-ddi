@@ -10,6 +10,7 @@ keywords: ["_D3DHAL_DP2SETPRIORITY structure"]
 ms.keywords: "*LPD3DHAL_DP2SETPRIORITY, D3DHAL_DP2SETPRIORITY, D3DHAL_DP2SETPRIORITY structure [Display Devices], LPD3DHAL_DP2SETPRIORITY, LPD3DHAL_DP2SETPRIORITY structure pointer [Display Devices], _D3DHAL_DP2SETPRIORITY, d3dhal/D3DHAL_DP2SETPRIORITY, d3dhal/LPD3DHAL_DP2SETPRIORITY, d3dstrct_e6462000-a8f1-4181-ba23-4cda08b1edce.xml, display.d3dhal_dp2setpriority"
 f1_keywords:
  - "d3dhal/D3DHAL_DP2SETPRIORITY"
+ - "D3DHAL_DP2SETPRIORITY"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dhal.h
 api_name:
 - D3DHAL_DP2SETPRIORITY
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DHAL_DP2SETPRIORITY
 ---

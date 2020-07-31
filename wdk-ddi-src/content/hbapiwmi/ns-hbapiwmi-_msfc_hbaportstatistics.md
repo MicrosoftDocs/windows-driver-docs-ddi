@@ -10,6 +10,7 @@ keywords: ["_MSFC_HBAPortStatistics structure"]
 ms.keywords: "*PMSFC_HBAPortStatistics, MSFC_HBAPortStatistics, MSFC_HBAPortStatistics structure [Storage Devices], PMSFC_HBAPortStatistics, PMSFC_HBAPortStatistics structure pointer [Storage Devices], _MSFC_HBAPortStatistics, hbapiwmi/MSFC_HBAPortStatistics, hbapiwmi/PMSFC_HBAPortStatistics, storage.msfc_hbaportstatistics, structs-Fibre_93c56324-f8c5-4d43-815a-40ca9d44350d.xml"
 f1_keywords:
  - "hbapiwmi/MSFC_HBAPortStatistics"
+ - "MSFC_HBAPortStatistics"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - MSFC_HBAPortStatistics
-product:
-- Windows
 targetos: Windows
 req.typenames: MSFC_HBAPortStatistics, *PMSFC_HBAPortStatistics
 ---

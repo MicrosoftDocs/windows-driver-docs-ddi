@@ -10,6 +10,7 @@ keywords: ["KsDispatchSpecificMethod function"]
 ms.keywords: KsDispatchSpecificMethod, KsDispatchSpecificMethod function [Streaming Media Devices], ks/KsDispatchSpecificMethod, ksfunc_9304d127-8930-4e0e-b39f-aefc10e54131.xml, stream.ksdispatchspecificmethod
 f1_keywords:
  - "ks/KsDispatchSpecificMethod"
+ - "KsDispatchSpecificMethod"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsDispatchSpecificMethod
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

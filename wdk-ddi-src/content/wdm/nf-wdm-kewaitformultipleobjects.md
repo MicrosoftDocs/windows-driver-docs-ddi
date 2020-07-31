@@ -10,6 +10,7 @@ keywords: ["KeWaitForMultipleObjects function"]
 ms.keywords: KeWaitForMultipleObjects, KeWaitForMultipleObjects routine [Kernel-Mode Driver Architecture], k105_03342f87-b6a7-4e26-a7e8-5a8157026c4a.xml, kernel.kewaitformultipleobjects, wdm/KeWaitForMultipleObjects
 f1_keywords:
  - "wdm/KeWaitForMultipleObjects"
+ - "KeWaitForMultipleObjects"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeWaitForMultipleObjects
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -121,56 +120,15 @@ A pointer to a caller-allocated <b>KWAIT_BLOCK</b> array. If <i>Count</i> <= THR
 
 <b>KeWaitForMultipleObjects</b> can return one of the following:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The caller specified <b>WaitAll</b> for the <i>WaitType</i> parameter and all dispatcher objects in the <i>Object</i> array have been set to the signaled state.
+|Return code|Description|
+|--- |--- |
+|**STATUS_SUCCESS**|The caller specified **WaitAll** for the _WaitType_ parameter and all dispatcher objects in the _Object_ array have been set to the signaled state.|
+|**STATUS_ALERTED**|The wait was interrupted to deliver an alert to the calling thread.|
+|**STATUS_USER_APC**|The wait was interrupted to deliver a user asynchronous procedure call (APC) to the calling thread.|
+|**STATUS_TIMEOUT**|A time-out occurred before the specified set of wait conditions was met. This value can be returned when an explicit time-out value of zero is specified, but the specified set of wait conditions cannot be met immediately.|
+|**STATUS_WAIT_0** through **STATUS_WAIT_63**|The caller specified **WaitAny** for _WaitType_ and one of the dispatcher objects in the _Object_ array has been set to the signaled state. The lower six bits of the return value encode the zero-based index of the object that satisfied the wait.|
+|**STATUS_ABANDONED_WAIT_0** through **STATUS_ABANDONED_WAIT_63**|The caller attempted to wait for a mutex that has been abandoned. The lower six bits of the return value encode the zero-based index of the mutex in the _Object_ array.|
 
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_ALERTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The wait was interrupted to deliver an alert to the calling thread.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_USER_APC</b></dt>
-</dl>
-</td>
-<td width="60%">
-The wait was interrupted to deliver a user asynchronous procedure call (APC) to the calling thread.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_TIMEOUT</b></dt>
-</dl>
-</td>
-<td width="60%">
-A time-out occurred before the specified set of wait conditions was met. This value can be returned when an explicit time-out value of zero is specified, but the specified set of wait conditions cannot be met immediately.
-
-</td>
-</tr>
-</table>
  
 
 Note that the NT_SUCCESS macro recognizes all of these status values as "success" values.

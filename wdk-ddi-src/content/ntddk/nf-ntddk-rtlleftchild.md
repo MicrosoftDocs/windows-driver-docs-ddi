@@ -10,6 +10,7 @@ keywords: ["RtlLeftChild macro"]
 ms.keywords: RtlLeftChild, RtlLeftChild routine [Installable File System Drivers], ifsk.rtlleftchild, ntddk/RtlLeftChild, rtlref_f2bfae7c-de1d-4d7c-84b5-947a0cfdb16f.xml
 f1_keywords:
  - "ntddk/RtlLeftChild"
+ - "RtlLeftChild"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - RtlLeftChild
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

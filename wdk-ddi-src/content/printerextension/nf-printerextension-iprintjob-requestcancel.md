@@ -10,6 +10,7 @@ keywords: ["IPrintJob::RequestCancel"]
 ms.keywords: IPrintJob interface [Print Devices],RequestCancel method, IPrintJob.RequestCancel, IPrintJob::RequestCancel, RequestCancel, RequestCancel method [Print Devices], RequestCancel method [Print Devices],IPrintJob interface, print.iprintjob_requestcancel, printerextension/IPrintJob::RequestCancel
 f1_keywords:
  - "printerextension/IPrintJob.RequestCancel"
+ - "IPrintJob.RequestCancel"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Printerextension.h
 api_name:
 - IPrintJob.RequestCancel
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

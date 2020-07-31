@@ -10,6 +10,7 @@ keywords: ["_D3DKMDT_2DREGION structure"]
 ms.keywords: D3DKMDT_2DOFFSET, D3DKMDT_2DREGION, D3DKMDT_2DREGION structure [Display Devices], DmStructs_8f1640ee-c790-4617-a1fe-913510b2cfad.xml, _D3DKMDT_2DREGION, d3dkmdt/D3DKMDT_2DREGION, display.d3dkmdt_2dregion
 f1_keywords:
  - "d3dkmdt/D3DKMDT_2DREGION"
+ - "D3DKMDT_2DREGION"
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dkmdt.h
 api_name:
 - D3DKMDT_2DREGION
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DKMDT_2DREGION
 ---

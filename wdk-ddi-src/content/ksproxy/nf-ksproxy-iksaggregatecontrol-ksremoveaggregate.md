@@ -10,6 +10,7 @@ keywords: ["IKsAggregateControl::KsRemoveAggregate"]
 ms.keywords: IKsAggregateControl interface [Streaming Media Devices],KsRemoveAggregate method, IKsAggregateControl.KsRemoveAggregate, IKsAggregateControl::KsRemoveAggregate, KsRemoveAggregate, KsRemoveAggregate method [Streaming Media Devices], KsRemoveAggregate method [Streaming Media Devices],IKsAggregateControl interface, ksproxy/IKsAggregateControl::KsRemoveAggregate, ksproxy_8498ef2d-5e1e-4f04-b311-2552bd713032.xml, stream.iksaggregatecontrol_ksremoveaggregate
 f1_keywords:
  - "ksproxy/IKsAggregateControl.KsRemoveAggregate"
+ - "IKsAggregateControl.KsRemoveAggregate"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ksproxy.h
 api_name:
 - IKsAggregateControl.KsRemoveAggregate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

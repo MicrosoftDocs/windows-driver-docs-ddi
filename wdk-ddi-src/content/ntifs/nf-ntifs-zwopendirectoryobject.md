@@ -10,6 +10,7 @@ keywords: ["ZwOpenDirectoryObject function"]
 ms.keywords: NtCreateDirectoryObject, ZwOpenDirectoryObject, ZwOpenDirectoryObject routine [Kernel-Mode Driver Architecture], k111_a3aca9ff-bf76-4cd0-a15d-565201c1e132.xml, kernel.zwopendirectoryobject, ntifs/NtCreateDirectoryObject, ntifs/ZwOpenDirectoryObject
 f1_keywords:
  - "ntifs/ZwOpenDirectoryObject"
+ - "ZwOpenDirectoryObject"
 req.header: ntifs.h
 req.include-header: Ntdef.h, Ntifs.h, Fltkernel.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - ZwOpenDirectoryObject
 - NtCreateDirectoryObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

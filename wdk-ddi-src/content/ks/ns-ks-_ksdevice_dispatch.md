@@ -10,6 +10,7 @@ keywords: ["_KSDEVICE_DISPATCH structure"]
 ms.keywords: "*PKSDEVICE_DISPATCH, KSDEVICE_DISPATCH, KSDEVICE_DISPATCH structure [Streaming Media Devices], PKSDEVICE_DISPATCH, PKSDEVICE_DISPATCH structure pointer [Streaming Media Devices], _KSDEVICE_DISPATCH, avstruct_7ceb03b7-6973-46bd-ad3e-32fdce7f4f11.xml, ks/KSDEVICE_DISPATCH, ks/PKSDEVICE_DISPATCH, stream.ksdevice_dispatch"
 f1_keywords:
  - "ks/KSDEVICE_DISPATCH"
+ - "KSDEVICE_DISPATCH"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KSDEVICE_DISPATCH
-product:
-- Windows
 targetos: Windows
 req.typenames: KSDEVICE_DISPATCH, *PKSDEVICE_DISPATCH
 ---

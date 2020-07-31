@@ -10,6 +10,7 @@ keywords: ["wiasSetItemPropNames function"]
 ms.keywords: image.wiassetitempropnames, wiamdef/wiasSetItemPropNames, wiasFncs_e8f17c14-47a7-42bc-ad85-cdd52ecbab79.xml, wiasSetItemPropNames, wiasSetItemPropNames function [Imaging Devices]
 f1_keywords:
  - "wiamdef/wiasSetItemPropNames"
+ - "wiasSetItemPropNames"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wiaservc.dll
 api_name:
 - wiasSetItemPropNames
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

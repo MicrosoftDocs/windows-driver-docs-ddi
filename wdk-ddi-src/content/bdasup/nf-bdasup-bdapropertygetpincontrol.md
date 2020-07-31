@@ -10,6 +10,7 @@ keywords: ["BdaPropertyGetPinControl function"]
 ms.keywords: BdaPropertyGetPinControl, BdaPropertyGetPinControl function [Streaming Media Devices], bdaref_f2db3de1-bfa0-4ad9-a537-6cc46f972984.xml, bdasup/BdaPropertyGetPinControl, stream.bdapropertygetpincontrol
 f1_keywords:
  - "bdasup/BdaPropertyGetPinControl"
+ - "BdaPropertyGetPinControl"
 req.header: bdasup.h
 req.include-header: Bdasup.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Bdasup.dll
 api_name:
 - BdaPropertyGetPinControl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

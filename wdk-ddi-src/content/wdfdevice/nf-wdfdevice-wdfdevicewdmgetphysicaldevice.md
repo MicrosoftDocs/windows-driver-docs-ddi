@@ -10,6 +10,7 @@ keywords: ["WdfDeviceWdmGetPhysicalDevice function"]
 ms.keywords: DFDeviceObjectGeneralRef_07f321bf-b857-4b36-81c0-452dc8acfc9a.xml, WdfDeviceWdmGetPhysicalDevice, WdfDeviceWdmGetPhysicalDevice method, kmdf.wdfdevicewdmgetphysicaldevice, wdf.wdfdevicewdmgetphysicaldevice, wdfdevice/WdfDeviceWdmGetPhysicalDevice
 f1_keywords:
  - "wdfdevice/WdfDeviceWdmGetPhysicalDevice"
+ - "WdfDeviceWdmGetPhysicalDevice"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfDeviceWdmGetPhysicalDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

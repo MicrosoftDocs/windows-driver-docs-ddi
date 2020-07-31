@@ -10,6 +10,7 @@ keywords: ["EVT_UCX_DEFAULT_ENDPOINT_UPDATE callback function"]
 ms.keywords: EVT_UCX_DEFAULT_ENDPOINT_UPDATE, EVT_UCX_DEFAULT_ENDPOINT_UPDATE callback, EvtUcxDefaultEndpointUpdate, EvtUcxDefaultEndpointUpdate callback function [Buses], PEVT_UCX_DEFAULT_ENDPOINT_UPDATE, PEVT_UCX_DEFAULT_ENDPOINT_UPDATE callback function pointer [Buses], buses.evt_ucx_default_endpoint_update, ucxendpoint/EvtUcxDefaultEndpointUpdate
 f1_keywords:
  - "ucxendpoint/PEVT_UCX_DEFAULT_ENDPOINT_UPDATE"
+ - "PEVT_UCX_DEFAULT_ENDPOINT_UPDATE"
 req.header: ucxendpoint.h
 req.include-header: Ucxclass.h, Ucxendpoint.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ucxendpoint.h
 api_name:
 - PEVT_UCX_DEFAULT_ENDPOINT_UPDATE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

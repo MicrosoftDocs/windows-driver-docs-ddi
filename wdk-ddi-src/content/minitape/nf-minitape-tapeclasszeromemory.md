@@ -10,6 +10,7 @@ keywords: ["TapeClassZeroMemory function"]
 ms.keywords: TapeClassZeroMemory, TapeClassZeroMemory routine [Storage Devices], minitape/TapeClassZeroMemory, storage.tapeclasszeromemory, tapeclas_f48cbbef-af5f-4d1b-b79e-0982d4d09bde.xml
 f1_keywords:
  - "minitape/TapeClassZeroMemory"
+ - "TapeClassZeroMemory"
 req.header: minitape.h
 req.include-header: Minitape.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Tape.dll
 api_name:
 - TapeClassZeroMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["SILO_MONITOR_CREATE_CALLBACK callback function"]
 ms.keywords: CreateCallback, CreateCallback callback function [Kernel-Mode Driver Architecture], SILO_MONITOR_CREATE_CALLBACK, SILO_MONITOR_CREATE_CALLBACK callback, kernel.silo_monitor_create_callback, ntddk/CreateCallback
 f1_keywords:
  - "ntddk/CreateCallback"
+ - "CreateCallback"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - CreateCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

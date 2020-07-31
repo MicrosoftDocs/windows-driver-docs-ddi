@@ -10,6 +10,7 @@ keywords: ["GNSS_BREADCRUMB_LIST structure"]
 ms.keywords: "*PGNSS_BREADCRUMB_LIST, GNSS_BREADCRUMB_LIST, GNSS_BREADCRUMB_LIST structure [Sensor Devices], PGNSS_BREADCRUMB_LIST, PGNSS_BREADCRUMB_LIST structure pointer [Sensor Devices], gnss.gnss_breadcrumb_list, gnssdriver/GNSS_BREADCRUMB_LIST, gnssdriver/PGNSS_BREADCRUMB_LIST"
 f1_keywords:
  - "gnssdriver/GNSS_BREADCRUMB_LIST"
+ - "GNSS_BREADCRUMB_LIST"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - gnssdriver.h
 api_name:
 - GNSS_BREADCRUMB_LIST
-product:
-- Windows
 targetos: Windows
 req.typenames: GNSS_BREADCRUMB_LIST, *PGNSS_BREADCRUMB_LIST
 ---

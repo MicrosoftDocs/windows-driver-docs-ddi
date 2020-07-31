@@ -10,6 +10,7 @@ keywords: ["PFREE_DMA_BUFFER callback function"]
 ms.keywords: FreeDmaBuffer, FreeDmaBuffer callback function [Audio Devices], PFREE_DMA_BUFFER, PFREE_DMA_BUFFER callback, aud-prop2_22e95124-bf77-40d9-9ad7-4edc394818df.xml, audio.freedmabuffer, hdaudio/FreeDmaBuffer
 f1_keywords:
  - "hdaudio/FreeDmaBuffer"
+ - "FreeDmaBuffer"
 req.header: hdaudio.h
 req.include-header: Hdaudio.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - hdaudio.h
 api_name:
 - FreeDmaBuffer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

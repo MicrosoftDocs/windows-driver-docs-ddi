@@ -10,6 +10,7 @@ keywords: ["ConvertDevModeToPrintTicket function"]
 ms.keywords: ConvertDevModeToPrintTicket, ConvertDevModeToPrintTicket method [Print Devices], ConvertDevModeToPrintTicket method [Print Devices], IPrintOemPrintTicketProvider interface, IPrintOemPrintTicketProvider interface [Print Devices], ConvertDevModeToPrintTicket method, IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket, prdrvcom/IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket, print.iprintoemprintticketprovider_convertdevmodetoprintticket, print_ticket-package_4605321f-640a-438b-a4cc-6e34ef5521b1.xml
 f1_keywords:
  - "prdrvcom/IPrintOemPrintTicketProvider.ConvertDevModeToPrintTicket"
+ - "IPrintOemPrintTicketProvider.ConvertDevModeToPrintTicket"
 req.header: prdrvcom.h
 req.include-header: Prdrvcom.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - prdrvcom.h
 api_name:
 - IPrintOemPrintTicketProvider.ConvertDevModeToPrintTicket
-product:
-- Windows
 targetos: Windows
 req.typenames: SHIMOPTS, *PSHIMOPTS
 req.product: Windows 10 or later.

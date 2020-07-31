@@ -10,6 +10,7 @@ keywords: ["RIL_GetUiccServiceLock function"]
 ms.keywords: RIL_GetUiccServiceLock, RIL_GetUiccServiceLock method [Network Drivers Starting with Windows Vista], netvista.ril_getuiccservicelock, rilapi/RIL_GetUiccServiceLock
 f1_keywords:
  - "rilapi/RIL_GetUiccServiceLock"
+ - "RIL_GetUiccServiceLock"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_GetUiccServiceLock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["RxForceFinalizeAllVNetRoots function"]
 ms.keywords: RxForceFinalizeAllVNetRoots, RxForceFinalizeAllVNetRoots function [Installable File System Drivers], ifsk.rxforcefinalizeallvnetroots, rxprocs/RxForceFinalizeAllVNetRoots, rxref_4202642f-d7a8-4649-8395-4f2e423ca062.xml
 f1_keywords:
  - "rxprocs/RxForceFinalizeAllVNetRoots"
+ - "RxForceFinalizeAllVNetRoots"
 req.header: rxprocs.h
 req.include-header: Rxprocs.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - rxprocs.h
 api_name:
 - RxForceFinalizeAllVNetRoots
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

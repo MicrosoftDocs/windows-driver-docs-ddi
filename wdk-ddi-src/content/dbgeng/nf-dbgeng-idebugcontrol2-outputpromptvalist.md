@@ -10,6 +10,7 @@ keywords: ["IDebugControl2::OutputPromptVaList"]
 ms.keywords: IDebugControl interface [Windows Debugging],OutputPromptVaList method, IDebugControl2 interface [Windows Debugging],OutputPromptVaList method, IDebugControl2.OutputPromptVaList, IDebugControl2::OutputPromptVaList, IDebugControl3 interface [Windows Debugging],OutputPromptVaList method, IDebugControl3::OutputPromptVaList, IDebugControl::OutputPromptVaList, IDebugControl_fc743964-a97c-45d2-8167-0e7401c7a546.xml, OutputPromptVaList, OutputPromptVaList method [Windows Debugging], OutputPromptVaList method [Windows Debugging],IDebugControl interface, OutputPromptVaList method [Windows Debugging],IDebugControl2 interface, OutputPromptVaList method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::OutputPromptVaList, dbgeng/IDebugControl3::OutputPromptVaList, dbgeng/IDebugControl::OutputPromptVaList, debugger.outputpromptvalist
 f1_keywords:
  - "dbgeng/IDebugControl.OutputPromptVaList"
+ - "IDebugControl.OutputPromptVaList"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h, Stdarg.h
 req.target-type: Desktop
@@ -38,8 +39,6 @@ api_name:
 - IDebugControl.OutputPromptVaList
 - IDebugControl2.OutputPromptVaList
 - IDebugControl3.OutputPromptVaList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

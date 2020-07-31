@@ -10,6 +10,7 @@ keywords: ["PCALCULATE_SCATTER_GATHER_LIST_SIZE callback function"]
 ms.keywords: CalculateScatterGatherList, CalculateScatterGatherList callback function [Kernel-Mode Driver Architecture], PCALCULATE_SCATTER_GATHER_LIST_SIZE, PCALCULATE_SCATTER_GATHER_LIST_SIZE callback, kdma_f2e8ba68-4b5d-4a3c-9e81-1bf84cc7cc48.xml, kernel.calculatescattergatherlist, wdm/CalculateScatterGatherList
 f1_keywords:
  - "wdm/CalculateScatterGatherList"
+ - "CalculateScatterGatherList"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - CalculateScatterGatherList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

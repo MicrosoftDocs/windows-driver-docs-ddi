@@ -7,6 +7,7 @@ ms.date: 09/28/2018
 keywords: ["GetOffset function"]
 f1_keywords:
  - "dbgmodel/GetOffset"
+ - "GetOffset"
 ms.keywords: GetOffset
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - GetOffset
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

@@ -10,6 +10,7 @@ keywords: ["PFN_DrvWriteSpoolBuf callback function"]
 ms.keywords: DrvWriteSpoolBuf, DrvWriteSpoolBuf callback function [Print Devices], PFN_DrvWriteSpoolBuf, PFN_DrvWriteSpoolBuf callback, print.drvwritespoolbuf, print_obsoletefunctions_06e6fe98-5851-4c2e-863a-5afe735321fb.xml, printoem/DrvWriteSpoolBuf
 f1_keywords:
  - "printoem/DrvWriteSpoolBuf"
+ - "DrvWriteSpoolBuf"
 req.header: printoem.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - printoem.h
 api_name:
 - DrvWriteSpoolBuf
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

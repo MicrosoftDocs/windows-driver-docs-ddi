@@ -10,6 +10,7 @@ keywords: ["_FEATURE_DATA_CD_MASTERING structure"]
 ms.keywords: "*PFEATURE_DATA_CD_MASTERING, FEATURE_DATA_CD_MASTERING, FEATURE_DATA_CD_MASTERING structure [Storage Devices], PFEATURE_DATA_CD_MASTERING, PFEATURE_DATA_CD_MASTERING structure pointer [Storage Devices], _FEATURE_DATA_CD_MASTERING, ntddmmc/FEATURE_DATA_CD_MASTERING, ntddmmc/PFEATURE_DATA_CD_MASTERING, storage.feature_data_cd_mastering, structs-CD-ROM_f803f10f-2ef7-4e3b-9c16-1ed2f3c5b2a5.xml"
 f1_keywords:
  - "ntddmmc/FEATURE_DATA_CD_MASTERING"
+ - "FEATURE_DATA_CD_MASTERING"
 req.header: ntddmmc.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddmmc.h
 api_name:
 - FEATURE_DATA_CD_MASTERING
-product:
-- Windows
 targetos: Windows
 req.typenames: FEATURE_DATA_CD_MASTERING, *PFEATURE_DATA_CD_MASTERING
 ---

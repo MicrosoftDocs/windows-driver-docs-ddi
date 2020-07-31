@@ -10,6 +10,7 @@ keywords: ["ITracer interface"]
 ms.keywords: ITracer, ITracer interface [Windows Device Testing Framework], ITracer interface [Windows Device Testing Framework],described, ITracer_dcaa8d23-ed67-4084-b214-0e2506076e77.xml, dtf.itracer, wdtf/ITracer
 f1_keywords:
  - "wdtf/ITracer"
+ - "ITracer"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - WDTF.tlb
 api_name:
 - ITracer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

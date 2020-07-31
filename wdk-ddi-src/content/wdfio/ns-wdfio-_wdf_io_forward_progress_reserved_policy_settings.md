@@ -10,6 +10,7 @@ keywords: ["_WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY_SETTINGS structure"]
 ms.keywords: DFQueueObjectRef_47fb2461-dada-4f4e-aba8-91759b3092ea.xml, WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY_SETTINGS, WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY_SETTINGS structure, _WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY_SETTINGS, kmdf.wdf_io_forward_progress_reserved_policy_settings, wdf.wdf_io_forward_progress_reserved_policy_settings, wdfio/WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY_SETTINGS
 f1_keywords:
  - "wdfio/WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY_SETTINGS"
+ - "WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY_SETTINGS"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wdfio.h
 api_name:
 - WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY_SETTINGS
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY_SETTINGS
 ---

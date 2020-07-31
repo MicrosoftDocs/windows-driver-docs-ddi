@@ -10,6 +10,7 @@ keywords: ["IoRegisterDeviceInterface function"]
 ms.keywords: IoRegisterDeviceInterface, IoRegisterDeviceInterface routine [Kernel-Mode Driver Architecture], k104_4916c641-8510-425d-953f-68ed7a3f8976.xml, kernel.ioregisterdeviceinterface, wdm/IoRegisterDeviceInterface
 f1_keywords:
  - "wdm/IoRegisterDeviceInterface"
+ - "IoRegisterDeviceInterface"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoRegisterDeviceInterface
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

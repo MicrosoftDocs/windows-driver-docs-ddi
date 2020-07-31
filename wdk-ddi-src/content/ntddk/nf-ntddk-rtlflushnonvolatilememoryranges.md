@@ -10,6 +10,7 @@ keywords: ["RtlFlushNonVolatileMemoryRanges function"]
 ms.keywords: RtlFlushNonVolatileMemoryRanges, RtlFlushNonVolatileMemoryRanges routine [Installable File System Drivers], ifsk.rtlflushnonvolatilememoryranges, ntddk/RtlFlushNonVolatileMemoryRanges
 f1_keywords:
  - "ntddk/RtlFlushNonVolatileMemoryRanges"
+ - "RtlFlushNonVolatileMemoryRanges"
 req.header: ntddk.h
 req.include-header: Winnt.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - RtlFlushNonVolatileMemoryRanges
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

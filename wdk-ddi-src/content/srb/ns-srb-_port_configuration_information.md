@@ -10,6 +10,7 @@ keywords: ["_PORT_CONFIGURATION_INFORMATION structure"]
 ms.keywords: "*PPORT_CONFIGURATION_INFORMATION, PORT_CONFIGURATION_INFORMATION, PORT_CONFIGURATION_INFORMATION structure [Storage Devices], PPORT_CONFIGURATION_INFORMATION, PPORT_CONFIGURATION_INFORMATION structure pointer [Storage Devices], _PORT_CONFIGURATION_INFORMATION, _PORT_CONFIGURATION_INFORMATION structure [Storage Devices], srb/PPORT_CONFIGURATION_INFORMATION, srb/_PORT_CONFIGURATION_INFORMATION, storage.port_configuration_information__scsi_, structs-scsiport_1a472219-5839-443c-a3a1-26c9708b3b18.xml"
 f1_keywords:
  - "srb/PORT_CONFIGURATION_INFORMATION"
+ - "PORT_CONFIGURATION_INFORMATION"
 req.header: srb.h
 req.include-header: Srb.h, Storport.h, Strmini.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - srb.h
 api_name:
 - PORT_CONFIGURATION_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: PORT_CONFIGURATION_INFORMATION, *PPORT_CONFIGURATION_INFORMATION
 ---

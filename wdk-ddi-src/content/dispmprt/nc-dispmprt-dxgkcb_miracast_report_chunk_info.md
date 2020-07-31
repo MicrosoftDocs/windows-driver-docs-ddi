@@ -10,6 +10,7 @@ keywords: ["DXGKCB_MIRACAST_REPORT_CHUNK_INFO callback function"]
 ms.keywords: DXGKCB_MIRACAST_REPORT_CHUNK_INFO, DXGKCB_MIRACAST_REPORT_CHUNK_INFO callback, DxgkCbReportChunkInfo, DxgkCbReportChunkInfo callback function [Display Devices], display.dxgkcbreportchunkinfo, dispmprt/DxgkCbReportChunkInfo
 f1_keywords:
  - "dispmprt/DxgkCbReportChunkInfo"
+ - "DxgkCbReportChunkInfo"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Dispmprt.h
 api_name:
 - DxgkCbReportChunkInfo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

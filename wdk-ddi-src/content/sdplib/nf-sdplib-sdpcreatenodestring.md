@@ -10,6 +10,7 @@ keywords: ["SdpCreateNodeString function"]
 ms.keywords: SdpCreateNodeString, SdpCreateNodeString function [Bluetooth Devices], bltooth.sdpcreatenodestring, bth_funcs_509682f2-c3c7-4e27-aa1f-2a6bfaf351c1.xml, sdplib/SdpCreateNodeString
 f1_keywords:
  - "sdplib/SdpCreateNodeString"
+ - "SdpCreateNodeString"
 req.header: sdplib.h
 req.include-header: BthSdpddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - sdplib.h
 api_name:
 - SdpCreateNodeString
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

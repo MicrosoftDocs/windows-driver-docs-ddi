@@ -10,6 +10,7 @@ keywords: ["VideoPortClearEvent function"]
 ms.keywords: VideoPortClearEvent, VideoPortClearEvent function [Display Devices], VideoPort_Functions_4b6d9a3c-ee76-4c45-888f-4ef37f802e6b.xml, display.videoportclearevent, video/VideoPortClearEvent
 f1_keywords:
  - "video/VideoPortClearEvent"
+ - "VideoPortClearEvent"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Videoprt.sys
 api_name:
 - VideoPortClearEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

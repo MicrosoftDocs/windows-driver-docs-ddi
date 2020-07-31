@@ -7,6 +7,7 @@ ms.date: 09/10/2018
 keywords: ["IDataModelScriptHostContext::GetNamespaceObject"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptHostContext.GetNamespaceObject"
+ - "IDataModelScriptHostContext.GetNamespaceObject"
 ms.keywords: IDataModelScriptHostContext::GetNamespaceObject, GetNamespaceObject, IDataModelScriptHostContext.GetNamespaceObject, IDataModelScriptHostContext::GetNamespaceObject, IDataModelScriptHostContext.GetNamespaceObject
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDataModelScriptHostContext.GetNamespaceObject
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

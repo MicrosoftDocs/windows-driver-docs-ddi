@@ -10,6 +10,7 @@ keywords: ["_DXVAHDDDI_STREAM_STATE_LUMA_KEY_DATA structure"]
 ms.keywords: DXVA2_Structs_a76427d8-e062-4fae-9350-f68d162effef.xml, DXVAHDDDI_STREAM_STATE_LUMA_KEY_DATA, DXVAHDDDI_STREAM_STATE_LUMA_KEY_DATA structure [Display Devices], _DXVAHDDDI_STREAM_STATE_LUMA_KEY_DATA, d3dumddi/DXVAHDDDI_STREAM_STATE_LUMA_KEY_DATA, display.dxvahdddi_stream_state_luma_key_data
 f1_keywords:
  - "d3dumddi/DXVAHDDDI_STREAM_STATE_LUMA_KEY_DATA"
+ - "DXVAHDDDI_STREAM_STATE_LUMA_KEY_DATA"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - DXVAHDDDI_STREAM_STATE_LUMA_KEY_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVAHDDDI_STREAM_STATE_LUMA_KEY_DATA
 ---

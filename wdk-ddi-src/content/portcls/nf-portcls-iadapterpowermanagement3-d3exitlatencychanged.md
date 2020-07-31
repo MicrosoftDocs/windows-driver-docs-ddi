@@ -10,6 +10,7 @@ keywords: ["IAdapterPowerManagement3::D3ExitLatencyChanged"]
 ms.keywords: D3ExitLatencyChanged, D3ExitLatencyChanged method [Audio Devices], D3ExitLatencyChanged method [Audio Devices],IAdapterPowerManagement3 interface, IAdapterPowerManagement3 interface [Audio Devices],D3ExitLatencyChanged method, IAdapterPowerManagement3.D3ExitLatencyChanged, IAdapterPowerManagement3::D3ExitLatencyChanged, audio.iadapterpowermanagement3_d3exitlatencychanged, portcls/IAdapterPowerManagement3::D3ExitLatencyChanged
 f1_keywords:
  - "portcls/IAdapterPowerManagement3.D3ExitLatencyChanged"
+ - "IAdapterPowerManagement3.D3ExitLatencyChanged"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Portcls.h
 api_name:
 - IAdapterPowerManagement3.D3ExitLatencyChanged
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

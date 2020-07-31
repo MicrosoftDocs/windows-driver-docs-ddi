@@ -10,6 +10,7 @@ keywords: ["EVT_UDECX_USB_DEVICE_D0_ENTRY callback function"]
 ms.keywords: EVT_UDECX_USB_DEVICE_D0_ENTRY, EVT_UDECX_USB_DEVICE_D0_ENTRY callback, EvtUsbDeviceLinkPowerEntry, EvtUsbDeviceLinkPowerEntry callback function [Buses], buses.evt_udecx_usb_device_d0_entry, udecxusbdevice/EvtUsbDeviceLinkPowerEntry
 f1_keywords:
  - "udecxusbdevice/EvtUsbDeviceLinkPowerEntry"
+ - "EvtUsbDeviceLinkPowerEntry"
 req.header: udecxusbdevice.h
 req.include-header: Udecx.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - udecxusbdevice.h
 api_name:
 - EvtUsbDeviceLinkPowerEntry
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

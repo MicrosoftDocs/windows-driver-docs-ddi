@@ -10,6 +10,7 @@ keywords: ["SerCx2CustomReceiveTransactionCleanupComplete function"]
 ms.keywords: 2/SerCx2CustomReceiveTransactionCleanupComplete, SerCx2CustomReceiveTransactionCleanupComplete, SerCx2CustomReceiveTransactionCleanupComplete method [Serial Ports], serports.sercx2customreceivetransactioncleanupcomplete
 f1_keywords:
  - "sercx/SerCx2CustomReceiveTransactionCleanupComplete"
+ - "SerCx2CustomReceiveTransactionCleanupComplete"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - 2.0\Sercx.h
 api_name:
 - SerCx2CustomReceiveTransactionCleanupComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

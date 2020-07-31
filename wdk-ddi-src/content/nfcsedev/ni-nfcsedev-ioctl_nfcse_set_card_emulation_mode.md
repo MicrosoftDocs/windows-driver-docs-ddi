@@ -10,6 +10,7 @@ keywords: ["IOCTL_NFCSE_SET_CARD_EMULATION_MODE IOCTL"]
 ms.keywords: IOCTL_NFCSE_SET_CARD_EMULATION_MODE, IOCTL_NFCSE_SET_CARD_EMULATION_MODE control, IOCTL_NFCSE_SET_CARD_EMULATION_MODE control code [Near-Field Proximity Drivers], nfcsedev/IOCTL_NFCSE_SET_CARD_EMULATION_MODE, nfpdrivers.ioctl_nfcse_set_card_emulation_mode
 f1_keywords:
  - "nfcsedev/IOCTL_NFCSE_SET_CARD_EMULATION_MODE"
+ - "IOCTL_NFCSE_SET_CARD_EMULATION_MODE"
 req.header: nfcsedev.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - nfcsedev.h
 api_name:
 - IOCTL_NFCSE_SET_CARD_EMULATION_MODE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["NdisIfAddIfStackEntry function"]
 ms.keywords: NdisIfAddIfStackEntry, NdisIfAddIfStackEntry function [Network Drivers Starting with Windows Vista], ndis/NdisIfAddIfStackEntry, net_if_functions_ref_3e652431-fb28-4382-957a-3c532951e847.xml, netvista.ndisifaddifstackentry
 f1_keywords:
  - "ndis/NdisIfAddIfStackEntry"
+ - "NdisIfAddIfStackEntry"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisIfAddIfStackEntry
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

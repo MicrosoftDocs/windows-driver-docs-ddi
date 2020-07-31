@@ -10,6 +10,7 @@ keywords: ["KeRegisterProcessorChangeCallback function"]
 ms.keywords: KeRegisterProcessorChangeCallback, KeRegisterProcessorChangeCallback routine [Kernel-Mode Driver Architecture], k105_794d8039-ab35-46e9-8a0d-a38c034f0263.xml, kernel.keregisterprocessorchangecallback, wdm/KeRegisterProcessorChangeCallback
 f1_keywords:
  - "wdm/KeRegisterProcessorChangeCallback"
+ - "KeRegisterProcessorChangeCallback"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeRegisterProcessorChangeCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

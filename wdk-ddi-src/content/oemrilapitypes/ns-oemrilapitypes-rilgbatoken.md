@@ -10,6 +10,7 @@ keywords: ["RILGBATOKEN structure"]
 ms.keywords: "*LPRILGBATOKEN, LPRILGBATOKEN, LPRILGBATOKEN structure pointer [Network Drivers Starting with Windows Vista], RILGBATOKEN, RILGBATOKEN structure [Network Drivers Starting with Windows Vista], netvista.rilgbatoken, oemrilapitypes/LPRILGBATOKEN, oemrilapitypes/RILGBATOKEN"
 f1_keywords:
  - "oemrilapitypes/RILGBATOKEN"
+ - "RILGBATOKEN"
 req.header: oemrilapitypes.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - oemrilapitypes.h
 api_name:
 - RILGBATOKEN
-product:
-- Windows
 targetos: Windows
 req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ---

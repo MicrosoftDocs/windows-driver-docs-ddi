@@ -10,6 +10,7 @@ keywords: ["DXGKDDI_EXCHANGEPRESTARTINFO callback function"]
 ms.keywords: DXGKDDI_EXCHANGEPRESTARTINFO, DXGKDDI_EXCHANGEPRESTARTINFO callback, DXGKDDI_EXCHANGEPRESTARTINFO callback function [Display Devices], display.dxgkddi_exchangeprestartinfo, dispmprt/DXGKDDI_EXCHANGEPRESTARTINFO
 f1_keywords:
  - "dispmprt/DXGKDDI_EXCHANGEPRESTARTINFO"
+ - "DXGKDDI_EXCHANGEPRESTARTINFO"
 req.header: dispmprt.h
 req.include-header:
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dispmprt.h
 api_name:
 - DXGKDDI_EXCHANGEPRESTARTINFO
-product:
-- Windows
 targetos: Windows
 req.typenames:
 ---

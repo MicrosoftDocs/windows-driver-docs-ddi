@@ -8,6 +8,7 @@ ms.date: 02/06/2019
 keywords: ["_NET_RING_COLLECTION structure"]
 f1_keywords:
  - "ringcollection/RILWRITEPHONEBOOKENTRYPARAMS"
+ - "RILWRITEPHONEBOOKENTRYPARAMS"
 ms.keywords: _NET_RING_COLLECTION, NET_RING_COLLECTION, *PNET_RING_COLLECTION, 
 req.header: ringcollection.h
 req.include-header:
@@ -33,8 +34,6 @@ apilocation:
 apiname: 
 - NET_RING_COLLECTION
 targetos: Windows
-product:
-- Windows
 ---
 
 # _NET_RING_COLLECTION structure

@@ -10,6 +10,7 @@ keywords: ["OEMStartDoc function"]
 ms.keywords: OEMStartDoc, OEMStartDoc function [Print Devices], print.oemstartdoc, print_unidrv-pscript_rendering_728069a7-4d66-4a83-a1e2-949557157d71.xml, printoem/OEMStartDoc
 f1_keywords:
  - "printoem/OEMStartDoc"
+ - "OEMStartDoc"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - printoem.h
 api_name:
 - OEMStartDoc
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

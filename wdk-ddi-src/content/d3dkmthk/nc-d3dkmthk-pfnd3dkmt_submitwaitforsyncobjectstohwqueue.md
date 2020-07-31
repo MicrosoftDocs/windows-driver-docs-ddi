@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["PFND3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE callback function"]
 f1_keywords:
  - "d3dkmthk/PFND3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE"
+ - "PFND3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

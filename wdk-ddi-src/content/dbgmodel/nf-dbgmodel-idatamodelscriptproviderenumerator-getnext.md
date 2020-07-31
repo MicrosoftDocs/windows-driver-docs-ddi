@@ -7,6 +7,7 @@ ms.date: 10/05/2018
 keywords: ["IDataModelScriptProviderEnumerator::GetNext"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptProviderEnumerator.GetNext"
+ - "IDataModelScriptProviderEnumerator.GetNext"
 ms.keywords: IDataModelScriptProviderEnumerator::GetNext, GetNext, IDataModelScriptProviderEnumerator.GetNext, IDataModelScriptProviderEnumerator::GetNext, IDataModelScriptProviderEnumerator.GetNext
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDataModelScriptProviderEnumerator.GetNext
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

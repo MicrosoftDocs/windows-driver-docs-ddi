@@ -10,6 +10,7 @@ keywords: ["KeEnterGuardedRegion function"]
 ms.keywords: KeEnterGuardedRegion, KeEnterGuardedRegion routine [Kernel-Mode Driver Architecture], k105_0f632d64-85dc-4c0f-8a26-8b4710673ab5.xml, kernel.keenterguardedregion, wdm/KeEnterGuardedRegion
 f1_keywords:
  - "wdm/KeEnterGuardedRegion"
+ - "KeEnterGuardedRegion"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeEnterGuardedRegion
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

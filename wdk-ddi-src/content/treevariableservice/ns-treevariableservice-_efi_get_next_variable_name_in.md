@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_EFI_GET_NEXT_VARIABLE_NAME_IN structure"]
 f1_keywords:
  - "treevariableservice/_EFI_GET_NEXT_VARIABLE_NAME_IN"
+ - "_EFI_GET_NEXT_VARIABLE_NAME_IN"
 ms.keywords: _EFI_GET_NEXT_VARIABLE_NAME_IN, EFI_GET_NEXT_VARIABLE_NAME_IN, *PEFI_GET_NEXT_VARIABLE_NAME_IN, 
 req.header: treevariableservice.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - treevariableservice.h
 api_name: 
 - _EFI_GET_NEXT_VARIABLE_NAME_IN
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

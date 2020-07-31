@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["ExAcquirePushLockExclusive macro"]
 f1_keywords:
  - "wdm/ExAcquirePushLockExclusive"
+ - "ExAcquirePushLockExclusive"
 ms.keywords: ExAcquirePushLockExclusive
 req.header: wdm.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - wdm.h
 api_name: 
 - ExAcquirePushLockExclusive
-product:
-- Windows
 targetos: Windows
 
 

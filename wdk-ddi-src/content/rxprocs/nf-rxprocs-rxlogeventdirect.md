@@ -10,6 +10,7 @@ keywords: ["RxLogEventDirect function"]
 ms.keywords: RxLogEventDirect, RxLogEventDirect routine [Installable File System Drivers], ifsk.rxlogeventdirect, rxprocs/RxLogEventDirect, rxref_654ffecc-ea49-44b8-b454-9f66e9519ddd.xml
 f1_keywords:
  - "rxprocs/RxLogEventDirect"
+ - "RxLogEventDirect"
 req.header: rxprocs.h
 req.include-header: Rxprocs.h, Rxstruc.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - rxprocs.h
 api_name:
 - RxLogEventDirect
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

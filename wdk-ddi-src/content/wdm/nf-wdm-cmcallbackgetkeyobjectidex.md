@@ -10,6 +10,7 @@ keywords: ["CmCallbackGetKeyObjectIDEx function"]
 ms.keywords: CmCallbackGetKeyObjectIDEx, CmCallbackGetKeyObjectIDEx routine [Kernel-Mode Driver Architecture], kernel.cmcallbackgetkeyobjectidex, wdm/CmCallbackGetKeyObjectIDEx
 f1_keywords:
  - "wdm/CmCallbackGetKeyObjectIDEx"
+ - "CmCallbackGetKeyObjectIDEx"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - CmCallbackGetKeyObjectIDEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

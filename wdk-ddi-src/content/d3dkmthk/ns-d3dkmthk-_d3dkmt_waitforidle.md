@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_WAITFORIDLE structure"]
 ms.keywords: D3DKMT_WAITFORIDLE, D3DKMT_WAITFORIDLE structure [Display Devices], OpenGL_Structs_99c47b61-1104-476f-bf7e-312d7cd0ec02.xml, _D3DKMT_WAITFORIDLE, d3dkmthk/D3DKMT_WAITFORIDLE, display.d3dkmt_waitforidle
 f1_keywords:
  - "d3dkmthk/D3DKMT_WAITFORIDLE"
+ - "D3DKMT_WAITFORIDLE"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMT_WAITFORIDLE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_WAITFORIDLE

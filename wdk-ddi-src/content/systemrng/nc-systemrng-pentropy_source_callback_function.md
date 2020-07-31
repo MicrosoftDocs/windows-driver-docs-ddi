@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["PENTROPY_SOURCE_CALLBACK_FUNCTION callback function"]
 f1_keywords:
  - "systemrng/PENTROPY_SOURCE_CALLBACK_FUNCTION"
+ - "PENTROPY_SOURCE_CALLBACK_FUNCTION"
 req.header: systemrng.h
 req.include-header:
 req.target-type:
@@ -32,8 +33,6 @@ api_location:
 - systemrng.h
 api_name: 
 - PENTROPY_SOURCE_CALLBACK_FUNCTION
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

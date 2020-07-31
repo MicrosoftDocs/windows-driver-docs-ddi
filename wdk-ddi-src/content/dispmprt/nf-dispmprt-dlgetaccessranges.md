@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DlGetAccessRanges function"]
 f1_keywords:
  - "dispmprt/DlGetAccessRanges"
+ - "DlGetAccessRanges"
 ms.keywords: DlGetAccessRanges
 req.header: dispmprt.h
 req.include-header:

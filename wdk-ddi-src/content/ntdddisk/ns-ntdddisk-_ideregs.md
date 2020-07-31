@@ -10,6 +10,7 @@ keywords: ["_IDEREGS structure"]
 ms.keywords: "*LPIDEREGS, *PIDEREGS, IDEREGS, IDEREGS structure [Storage Devices], LPIDEREGS, LPIDEREGS structure pointer [Storage Devices], PIDEREGS, PIDEREGS structure pointer [Storage Devices], _IDEREGS, ntdddisk/IDEREGS, ntdddisk/LPIDEREGS, ntdddisk/PIDEREGS, storage.ideregs, structs-IDE_aeab294c-9363-4207-bbcb-d9d442ab5c92.xml"
 f1_keywords:
  - "ntdddisk/IDEREGS"
+ - "IDEREGS"
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntdddisk.h
 api_name:
 - IDEREGS
-product:
-- Windows
 targetos: Windows
 req.typenames: IDEREGS, *PIDEREGS, *LPIDEREGS
 ---

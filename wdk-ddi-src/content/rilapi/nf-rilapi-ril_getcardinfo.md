@@ -10,6 +10,7 @@ keywords: ["RIL_GetCardInfo function"]
 ms.keywords: RIL_GetCardInfo, RIL_GetCardInfo method [Network Drivers Starting with Windows Vista], netvista.ril_getcardinfo, rilapi/RIL_GetCardInfo
 f1_keywords:
  - "rilapi/RIL_GetCardInfo"
+ - "RIL_GetCardInfo"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_GetCardInfo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

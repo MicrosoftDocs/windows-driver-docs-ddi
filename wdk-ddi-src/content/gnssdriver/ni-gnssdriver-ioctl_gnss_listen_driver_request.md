@@ -10,6 +10,7 @@ keywords: ["IOCTL_GNSS_LISTEN_DRIVER_REQUEST IOCTL"]
 ms.keywords: IOCTL_GNSS_LISTEN_DRIVER_REQUEST, IOCTL_GNSS_LISTEN_DRIVER_REQUEST control, IOCTL_GNSS_LISTEN_DRIVER_REQUEST control code [Sensor Devices], gnss.ioctl_gnss_listen_driver_request, gnssdriver/IOCTL_GNSS_LISTEN_DRIVER_REQUEST
 f1_keywords:
  - "gnssdriver/IOCTL_GNSS_LISTEN_DRIVER_REQUEST"
+ - "IOCTL_GNSS_LISTEN_DRIVER_REQUEST"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - gnssdriver.h
 api_name:
 - IOCTL_GNSS_LISTEN_DRIVER_REQUEST
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

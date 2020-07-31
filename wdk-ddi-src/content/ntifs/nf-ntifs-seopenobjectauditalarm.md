@@ -10,6 +10,7 @@ keywords: ["SeOpenObjectAuditAlarm function"]
 ms.keywords: SeOpenObjectAuditAlarm, SeOpenObjectAuditAlarm routine [Installable File System Drivers], ifsk.seopenobjectauditalarm, ntifs/SeOpenObjectAuditAlarm, seref_87dbea09-cd36-40c2-8241-16c8180f1945.xml
 f1_keywords:
  - "ntifs/SeOpenObjectAuditAlarm"
+ - "SeOpenObjectAuditAlarm"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - SeOpenObjectAuditAlarm
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["__RAW_READ_INFO structure"]
 ms.keywords: "*PRAW_READ_INFO, PRAW_READ_INFO, PRAW_READ_INFO structure pointer [Storage Devices], RAW_READ_INFO, RAW_READ_INFO structure [Storage Devices], __RAW_READ_INFO, ntddcdrm/PRAW_READ_INFO, ntddcdrm/RAW_READ_INFO, storage.raw_read_info, structs-CD-ROM_4414d6ab-7048-4977-b373-58d1240f5262.xml"
 f1_keywords:
  - "ntddcdrm/RAW_READ_INFO"
+ - "RAW_READ_INFO"
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddcdrm.h
 api_name:
 - RAW_READ_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: RAW_READ_INFO, *PRAW_READ_INFO
 ---

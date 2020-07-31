@@ -10,6 +10,7 @@ ms.date: 03/12/2019
 keywords: ["IoRemoveLinkShareAccessEx function"]
 f1_keywords:
  - "wdm/IoRemoveLinkShareAccessEx"
+ - "IoRemoveLinkShareAccessEx"
 ms.keywords: IoRemoveLinkShareAccessEx, IoRemoveLinkShareAccessEx function [Kernel-Mode Driver Architecture], kernel.IoRemoveLinkShareAccessEx, wdm/IoRemoveLinkShareAccessEx
 req.header: wdm.h
 req.include-header:

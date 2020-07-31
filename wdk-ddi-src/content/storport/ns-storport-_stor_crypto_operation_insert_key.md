@@ -10,6 +10,7 @@ keywords: ["_STOR_CRYPTO_OPERATION_INSERT_KEY structure"]
 ms.keywords: "*PSTOR_CRYPTO_OPERATION_INSERT_KEY, PSTOR_CRYPTO_OPERATION_INSERT_KEY, PSTOR_CRYPTO_OPERATION_INSERT_KEY structure pointer [Storage Devices], STOR_CRYPTO_OPERATION_INSERT_KEY, STOR_CRYPTO_OPERATION_INSERT_KEY structure [Storage Devices], _STOR_CRYPTO_OPERATION_INSERT_KEY, storage.stor_crypto_operation_insert_key, storport/PSTOR_CRYPTO_OPERATION_INSERT_KEY, storport/STOR_CRYPTO_OPERATION_INSERT_KEY"
 f1_keywords:
  - "storport/STOR_CRYPTO_OPERATION_INSERT_KEY"
+ - "STOR_CRYPTO_OPERATION_INSERT_KEY"
 req.header: storport.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Storport.h
 api_name:
 - STOR_CRYPTO_OPERATION_INSERT_KEY
-product:
-- Windows
 targetos: Windows
 req.typenames: STOR_CRYPTO_OPERATION_INSERT_KEY, *PSTOR_CRYPTO_OPERATION_INSERT_KEY
 ---

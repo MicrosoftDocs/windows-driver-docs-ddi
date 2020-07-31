@@ -9,6 +9,7 @@ keywords: ["_DXGK_CONTEXTINFO structure"]
 ms.keywords: DXGK_CONTEXTINFO, DXGK_CONTEXTINFO structure [Display Devices], DmStructs_e95e533c-2156-4384-9e7e-718e7d61c458.xml, _DXGK_CONTEXTINFO, d3dkmddi/DXGK_CONTEXTINFO, display.dxgk_contextinfo
 f1_keywords:
  - "d3dkmddi/DXGK_CONTEXTINFO"
+ - "DXGK_CONTEXTINFO"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGK_CONTEXTINFO
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_CONTEXTINFO

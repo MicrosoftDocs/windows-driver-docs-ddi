@@ -27,6 +27,7 @@ tech.root: display
 ms.custom: RS5
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_ESTIMATE_MOTION_0053"
+ - "PFND3D12DDI_ESTIMATE_MOTION_0053"
 topic_type:
  - apiref
 api_type:

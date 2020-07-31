@@ -10,6 +10,7 @@ keywords: ["RILUICCLOCKSTATE structure"]
 ms.keywords: "*LPRILUICCLOCKSTATE, RILUICCLOCKSTATE, RILUICCLOCKSTATE structure [Network Drivers Starting with Windows Vista], netvista.riluicclockstate, rilapitypes/RILUICCLOCKSTATE"
 f1_keywords:
  - "ntddrilapitypes/RILUICCLOCKSTATE"
+ - "RILUICCLOCKSTATE"
 req.header: ntddrilapitypes.h
 req.include-header: Ntddrilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapitypes.h
 api_name:
 - RILUICCLOCKSTATE
-product:
-- Windows
 targetos: Windows
 req.typenames: RILUICCLOCKSTATE, *LPRILUICCLOCKSTATE
 ---

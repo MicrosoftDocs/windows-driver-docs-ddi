@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["_FAULT_INFORMATION_ARM64_TYPE enumeration"]
 f1_keywords:
  - "wdm/_FAULT_INFORMATION_ARM64_TYPE"
+ - "_FAULT_INFORMATION_ARM64_TYPE"
 ms.keywords: _FAULT_INFORMATION_ARM64_TYPE, FAULT_INFORMATION_ARM64_TYPE, *PFAULT_INFORMATION_ARM64_TYPE, 
 req.header: wdm.h
 req.include-header:
@@ -26,8 +27,6 @@ api_location:
 - wdm.h
 api_name: 
 - _FAULT_INFORMATION_ARM64_TYPE
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

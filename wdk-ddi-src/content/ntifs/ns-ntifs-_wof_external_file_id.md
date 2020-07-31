@@ -10,6 +10,7 @@ keywords: ["_WOF_EXTERNAL_FILE_ID structure"]
 ms.keywords: "*PWOF_EXTERNAL_FILE_ID, PWOF_EXTERNAL_FILE_ID, PWOF_EXTERNAL_FILE_ID structure pointer [Installable File System Drivers], WOF_EXTERNAL_FILE_ID, WOF_EXTERNAL_FILE_ID structure [Installable File System Drivers], _WOF_EXTERNAL_FILE_ID, ifsk.wof_external_file_id, ntifs/PWOF_EXTERNAL_FILE_ID, ntifs/WOF_EXTERNAL_FILE_ID"
 f1_keywords:
  - "ntifs/WOF_EXTERNAL_FILE_ID"
+ - "WOF_EXTERNAL_FILE_ID"
 req.header: ntifs.h
 req.include-header: Windows.h, WinIoCtl.h, Ntifs.h, Windows.h, WinIoCtl.h, Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - WOF_EXTERNAL_FILE_ID
-product:
-- Windows
 targetos: Windows
 req.typenames: WOF_EXTERNAL_FILE_ID, *PWOF_EXTERNAL_FILE_ID
 ---

@@ -10,6 +10,7 @@ keywords: ["DebugBaseEventCallbacks class"]
 ms.keywords: DebugBaseEventCallbacks, DebugBaseEventCallbacks class [Windows Debugging], DebugBaseEventCallbacks class [Windows Debugging],described, dbgeng/DebugBaseEventCallbacks, debugger.debugbaseeventcallbacks
 f1_keywords:
  - "dbgeng/DebugBaseEventCallbacks"
+ - "DebugBaseEventCallbacks"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - DebugBaseEventCallbacks
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

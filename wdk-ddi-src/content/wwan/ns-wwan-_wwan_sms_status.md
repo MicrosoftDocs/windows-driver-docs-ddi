@@ -10,6 +10,7 @@ keywords: ["_WWAN_SMS_STATUS structure"]
 ms.keywords: "*PWWAN_SMS_STATUS, PWWAN_SMS_STATUS, PWWAN_SMS_STATUS structure pointer [Network Drivers Starting with Windows Vista], WWAN_SMS_STATUS, WWAN_SMS_STATUS structure [Network Drivers Starting with Windows Vista], WwanRef_5468242f-eb44-4ece-92a2-02524eb0d196.xml, _WWAN_SMS_STATUS, netvista.wwan_sms_status, wwan/PWWAN_SMS_STATUS, wwan/WWAN_SMS_STATUS"
 f1_keywords:
  - "wwan/WWAN_SMS_STATUS"
+ - "WWAN_SMS_STATUS"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_SMS_STATUS
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_SMS_STATUS, *PWWAN_SMS_STATUS
 ---

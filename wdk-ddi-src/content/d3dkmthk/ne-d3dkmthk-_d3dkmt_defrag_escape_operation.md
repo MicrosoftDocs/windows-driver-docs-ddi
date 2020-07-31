@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_DEFRAG_ESCAPE_OPERATION enumeration"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_DEFRAG_ESCAPE_OPERATION"
+ - "_D3DKMT_DEFRAG_ESCAPE_OPERATION"
 ms.keywords: _D3DKMT_DEFRAG_ESCAPE_OPERATION, D3DKMT_DEFRAG_ESCAPE_OPERATION, 
 req.header: d3dkmthk.h
 req.include-header:
@@ -26,8 +27,6 @@ api_location:
 - d3dkmthk.h
 api_name: 
 - _D3DKMT_DEFRAG_ESCAPE_OPERATION
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

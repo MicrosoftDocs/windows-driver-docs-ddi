@@ -7,6 +7,7 @@ ms.date: 08/14/2018
 keywords: ["IModelKeyReference::AddRef"]
 f1_keywords:
  - "dbgmodel/IModelKeyReference.AddRef"
+ - "IModelKeyReference.AddRef"
 ms.keywords: IModelKeyReference::AddRef, AddRef, IModelKeyReference.AddRef, IModelKeyReference::AddRef, IModelKeyReference.AddRef
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IModelKeyReference.AddRef
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
@@ -47,7 +46,7 @@ ms.custom: RS5
 
 Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object. 
 
-For more information, see [IUnknown::AddRef](https://docs.microsoft.com/windows/desktop/api/Unknwn/nf-unknwn-iunknown-addref) and [Introduction to COM](https://docs.microsoft.com/cpp/atl/introduction-to-com).
+For more information, see [IUnknown::AddRef](https://docs.microsoft.com/windows/win32/api/unknwn/nf-unknwn-iunknown-addref) and [Introduction to COM](https://docs.microsoft.com/cpp/atl/introduction-to-com).
 
 
 ## -returns

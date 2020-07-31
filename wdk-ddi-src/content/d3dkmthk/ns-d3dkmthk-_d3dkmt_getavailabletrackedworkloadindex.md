@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_GETAVAILABLETRACKEDWORKLOADINDEX structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_GETAVAILABLETRACKEDWORKLOADINDEX"
+ - "_D3DKMT_GETAVAILABLETRACKEDWORKLOADINDEX"
 ms.keywords: _D3DKMT_GETAVAILABLETRACKEDWORKLOADINDEX, D3DKMT_GETAVAILABLETRACKEDWORKLOADINDEX, 
 req.header: d3dkmthk.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - d3dkmthk.h
 api_name: 
 - _D3DKMT_GETAVAILABLETRACKEDWORKLOADINDEX
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

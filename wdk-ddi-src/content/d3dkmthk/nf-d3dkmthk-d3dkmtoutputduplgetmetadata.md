@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMTOutputDuplGetMetaData function"]
 f1_keywords:
  - "d3dkmthk/D3DKMTOutputDuplGetMetaData"
+ - "D3DKMTOutputDuplGetMetaData"
 ms.keywords: D3DKMTOutputDuplGetMetaData
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
@@ -36,8 +37,6 @@ api_location:
 - API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name: 
 - D3DKMTOutputDuplGetMetaData
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

@@ -10,6 +10,7 @@ keywords: ["WIAS_HRESULT macro"]
 ms.keywords: IWiaLog_3b27b46f-be2e-4fdb-ba65-32fe41c71142.xml, WIAS_HRESULT, WIAS_HRESULT macro [Imaging Devices], image.wias_hresult, wiamdef/WIAS_HRESULT
 f1_keywords:
  - "wiautil/WIAS_HRESULT"
+ - "WIAS_HRESULT"
 req.header: wiautil.h
 req.include-header: Wiautil.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wiamdef.h
 api_name:
 - WIAS_HRESULT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IoOpenDeviceRegistryKey function"]
 ms.keywords: IoOpenDeviceRegistryKey, IoOpenDeviceRegistryKey routine [Kernel-Mode Driver Architecture], k104_7b6ab819-56e3-4d4a-956a-51e4a83300f0.xml, kernel.ioopendeviceregistrykey, wdm/IoOpenDeviceRegistryKey
 f1_keywords:
  - "wdm/IoOpenDeviceRegistryKey"
+ - "IoOpenDeviceRegistryKey"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoOpenDeviceRegistryKey
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

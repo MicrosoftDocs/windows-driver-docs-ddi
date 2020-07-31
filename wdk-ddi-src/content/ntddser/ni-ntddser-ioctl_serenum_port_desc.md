@@ -10,6 +10,7 @@ keywords: ["IOCTL_SERENUM_PORT_DESC IOCTL"]
 ms.keywords: IOCTL_SERENUM_PORT_DESC, IOCTL_SERENUM_PORT_DESC control, IOCTL_SERENUM_PORT_DESC control code [Serial Ports], ntddser/IOCTL_SERENUM_PORT_DESC, senumref_2afa4ab9-ceac-4477-9ac6-10f572444e61.xml, serports.ioctl_serenum_port_desc
 f1_keywords:
  - "ntddser/IOCTL_SERENUM_PORT_DESC"
+ - "IOCTL_SERENUM_PORT_DESC"
 req.header: ntddser.h
 req.include-header: Ntddser.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddser.h
 api_name:
 - IOCTL_SERENUM_PORT_DESC
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -7,6 +7,7 @@ ms.date: 09/07/2018
 keywords: ["_SIDEBANDAUDIO_STREAM_STATUS_PARAMS structure"]
 f1_keywords:
  - "sidebandaudio/_SIDEBANDAUDIO_STREAM_STATUS_PARAMS"
+ - "_SIDEBANDAUDIO_STREAM_STATUS_PARAMS"
 ms.keywords: _SIDEBANDAUDIO_STREAM_STATUS_PARAMS, SIDEBANDAUDIO_STREAM_STATUS_PARAMS, *PSIDEBANDAUDIO_STREAM_STATUS_PARAMS, 
 req.header: sidebandaudio.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - sidebandaudio.h
 api_name: 
 - _SIDEBANDAUDIO_STREAM_STATUS_PARAMS
-product:
-- Windows
 targetos: Windows
 tech.root: audio
 ms.custom: RS5

@@ -10,6 +10,7 @@ keywords: ["_WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS enumeration"]
 ms.keywords: IdleTimeoutDefaultConstant, WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS, WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS enumeration, _WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS, wdf.wdf_power_policy_idle_timeout_constants, wdfdevice/IdleTimeoutDefaultConstant, wdfdevice/WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS, wudfddi_types/IdleTimeoutDefaultConstant, wudfddi_types/WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS
 f1_keywords:
  - "wdfdevice/WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS"
+ - "WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 - wudfddi_types.h
 api_name:
 - WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS
 ---

@@ -10,6 +10,7 @@ keywords: ["WdfUsbTargetDeviceSelectConfig function"]
 ms.keywords: DFUsbRef_9f390705-2077-43ca-a1b9-0be087c86619.xml, WdfUsbTargetDeviceSelectConfig, WdfUsbTargetDeviceSelectConfig method, kmdf.wdfusbtargetdeviceselectconfig, wdf.wdfusbtargetdeviceselectconfig, wdfusb/WdfUsbTargetDeviceSelectConfig
 f1_keywords:
  - "wdfusb/WdfUsbTargetDeviceSelectConfig"
+ - "WdfUsbTargetDeviceSelectConfig"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfUsbTargetDeviceSelectConfig
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

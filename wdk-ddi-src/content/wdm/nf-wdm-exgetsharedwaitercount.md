@@ -10,6 +10,7 @@ keywords: ["ExGetSharedWaiterCount function"]
 ms.keywords: ExGetSharedWaiterCount, ExGetSharedWaiterCount routine [Kernel-Mode Driver Architecture], k102_af7dac19-3c9f-43d9-bcd3-c4a5e05ca8e5.xml, kernel.exgetsharedwaitercount, wdm/ExGetSharedWaiterCount
 f1_keywords:
  - "wdm/ExGetSharedWaiterCount"
+ - "ExGetSharedWaiterCount"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - ExGetSharedWaiterCount
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

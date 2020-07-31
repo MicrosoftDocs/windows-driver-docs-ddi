@@ -10,6 +10,7 @@ keywords: ["_STORAGE_DEVICE_NUMBER structure"]
 ms.keywords: "*PSTORAGE_DEVICE_NUMBER, PSTORAGE_DEVICE_NUMBER, PSTORAGE_DEVICE_NUMBER structure pointer [Storage Devices], STORAGE_DEVICE_NUMBER, STORAGE_DEVICE_NUMBER structure [Storage Devices], _STORAGE_DEVICE_NUMBER, ntddstor/PSTORAGE_DEVICE_NUMBER, ntddstor/STORAGE_DEVICE_NUMBER, storage.storage_device_number, structs-general_e5b6df4e-787c-415b-82ed-14dffa34a95e.xml"
 f1_keywords:
  - "ntddstor/STORAGE_DEVICE_NUMBER"
+ - "STORAGE_DEVICE_NUMBER"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddstor.h
 api_name:
 - STORAGE_DEVICE_NUMBER
-product:
-- Windows
 targetos: Windows
 req.typenames: STORAGE_DEVICE_NUMBER, *PSTORAGE_DEVICE_NUMBER
 ---

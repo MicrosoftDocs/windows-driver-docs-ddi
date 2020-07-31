@@ -10,6 +10,7 @@ keywords: ["IDebugRegisters::GetValue"]
 ms.keywords: GetValue, GetValue method [Windows Debugging], GetValue method [Windows Debugging],IDebugRegisters interface, GetValue method [Windows Debugging],IDebugRegisters2 interface, IDebugRegisters interface [Windows Debugging],GetValue method, IDebugRegisters.GetValue, IDebugRegisters2 interface [Windows Debugging],GetValue method, IDebugRegisters2::GetValue, IDebugRegisters::GetValue, IDebugRegisters_f3e89ca1-7516-476e-8c85-560d8f28f0a8.xml, dbgeng/IDebugRegisters2::GetValue, dbgeng/IDebugRegisters::GetValue, debugger.getvalue
 f1_keywords:
  - "dbgeng/IDebugRegisters.GetValue"
+ - "IDebugRegisters.GetValue"
 req.header: dbgeng.h
 req.include-header: DbgEng.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IDebugRegisters.GetValue
 - IDebugRegisters2.GetValue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

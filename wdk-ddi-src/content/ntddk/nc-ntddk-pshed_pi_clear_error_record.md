@@ -10,6 +10,7 @@ keywords: ["PSHED_PI_CLEAR_ERROR_RECORD callback function"]
 ms.keywords: ClearErrorRecord, ClearErrorRecord callback function [WHEA Drivers and Applications], PSHED_PI_CLEAR_ERROR_RECORD, PSHED_PI_CLEAR_ERROR_RECORD callback, ntddk/ClearErrorRecord, whea.clearerrorrecord, whearef_1644b60c-c232-4cca-805b-d6a061425f61.xml
 f1_keywords:
  - "ntddk/ClearErrorRecord"
+ - "ClearErrorRecord"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Ntddk.h
 api_name:
 - ClearErrorRecord
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["RouterAllocBidiMem function"]
 ms.keywords: RouterAllocBidiMem, RouterAllocBidiMem function [Print Devices], print.routerallocbidimem, spoolfnc_ed433d21-ccfa-4061-9fbd-3bf333e12b31.xml, winsplp/RouterAllocBidiMem
 f1_keywords:
  - "winsplp/RouterAllocBidiMem"
+ - "RouterAllocBidiMem"
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Spoolss.dll
 api_name:
 - RouterAllocBidiMem
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

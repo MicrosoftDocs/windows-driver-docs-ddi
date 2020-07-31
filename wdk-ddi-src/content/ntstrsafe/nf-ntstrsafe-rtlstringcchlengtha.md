@@ -10,6 +10,7 @@ keywords: ["RtlStringCchLengthA function"]
 ms.keywords: RtlStringCchLength, RtlStringCchLengthA, RtlStringCchLengthW, RtlStringCchLengthW function [Kernel-Mode Driver Architecture], kernel.rtlstringcchlength, ntstrsafe/RtlStringCchLengthA, ntstrsafe/RtlStringCchLengthW, safestrings_530fb488-be05-467f-a8c5-22016fb49325.xml
 f1_keywords:
  - "ntstrsafe/RtlStringCchLengthW"
+ - "RtlStringCchLengthW"
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop
@@ -39,8 +40,6 @@ api_name:
 - RtlStringCchLengthW
 - RtlStringCchLengthA
 - RtlStringCchLengthW
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IOCTL_MOUNTMGR_CHECK_UNPROCESSED_VOLUMES IOCTL"]
 ms.keywords: IOCTL_MOUNTMGR_CHECK_UNPROCESSED_VOLUMES, IOCTL_MOUNTMGR_CHECK_UNPROCESSED_VOLUMES control, IOCTL_MOUNTMGR_CHECK_UNPROCESSED_VOLUMES control code [Storage Devices], k307_eb4defdf-c3d0-41b6-8bd4-3ef1dbd3f795.xml, mountmgr/IOCTL_MOUNTMGR_CHECK_UNPROCESSED_VOLUMES, storage.ioctl_mountmgr_check_unprocessed_volumes
 f1_keywords:
  - "mountmgr/IOCTL_MOUNTMGR_CHECK_UNPROCESSED_VOLUMES"
+ - "IOCTL_MOUNTMGR_CHECK_UNPROCESSED_VOLUMES"
 req.header: mountmgr.h
 req.include-header: Mountmgr.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Mountmgr.h
 api_name:
 - IOCTL_MOUNTMGR_CHECK_UNPROCESSED_VOLUMES
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

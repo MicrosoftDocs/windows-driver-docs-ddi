@@ -10,6 +10,7 @@ keywords: ["KSIDEFAULTCLOCK structure"]
 ms.keywords: "*PKSIDEFAULTCLOCK, KSIDEFAULTCLOCK, KSIDEFAULTCLOCK structure [Streaming Media Devices], PKSIDEFAULTCLOCK, PKSIDEFAULTCLOCK structure pointer [Streaming Media Devices], ksi/KSIDEFAULTCLOCK, ksi/PKSIDEFAULTCLOCK, stream.ksidefaultclock"
 f1_keywords:
  - "ksi/KSIDEFAULTCLOCK"
+ - "KSIDEFAULTCLOCK"
 req.header: ksi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ksi.h
 api_name:
 - KSIDEFAULTCLOCK
-product:
-- Windows
 targetos: Windows
 req.typenames: KSIDEFAULTCLOCK, *PKSIDEFAULTCLOCK
 ---

@@ -10,6 +10,7 @@ keywords: ["SRIOV_QUERY_PROBED_BARS callback"]
 ms.keywords: "*PSRIOV_QUERY_PROBED_BARS, *PSRIOV_QUERY_PROBED_BARS callback function pointer [Buses], PCI.sriov_query_probed_bars, SRIOV_QUERY_PROBED_BARS, SriovQueryProbedBars, SriovQueryProbedBars callback function [Buses], pcivirt/SriovQueryProbedBars"
 f1_keywords:
  - "pcivirt/*PSRIOV_QUERY_PROBED_BARS"
+ - "*PSRIOV_QUERY_PROBED_BARS"
 req.header: pcivirt.h
 req.include-header:
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Pcivirt.h
 api_name:
 - PSRIOV_QUERY_PROBED_BARS
-product:
-- Windows
 targetos: Windows
 req.typenames: PARCLASS_INFORMATION, *PPARCLASS_INFORMATION
 ---

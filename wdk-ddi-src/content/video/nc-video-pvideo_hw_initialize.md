@@ -10,6 +10,7 @@ keywords: ["PVIDEO_HW_INITIALIZE callback function"]
 ms.keywords: HwVidInitialize, HwVidInitialize callback function [Display Devices], PVIDEO_HW_INITIALIZE, PVIDEO_HW_INITIALIZE callback, VideoMiniport_Functions_7c9d848d-8129-45cc-91f0-7f66f536e7a6.xml, display.hwvidinitialize, video/HwVidInitialize
 f1_keywords:
  - "video/HwVidInitialize"
+ - "HwVidInitialize"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - video.h
 api_name:
 - HwVidInitialize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -8,6 +8,7 @@ ms.date: 07/13/2018
 keywords: ["EVT_NET_ADAPTER_RECEIVE_SCALING_ENABLE callback function"]
 f1_keywords:
  - "netreceivescaling/EVT_NET_ADAPTER_RECEIVE_SCALING_ENABLE"
+ - "EVT_NET_ADAPTER_RECEIVE_SCALING_ENABLE"
 req.header: netreceivescaling.h
 req.include-header:
 req.target-type: Universal
@@ -33,8 +34,6 @@ api_location:
 - netreceivescaling.h
 api_name: 
 - EVT_NET_ADAPTER_RECEIVE_SCALING_ENABLE
-product:
-- Windows
 targetos: Windows
 ---
 

@@ -10,6 +10,7 @@ keywords: ["HidP_GetCollectionDescription function"]
 ms.keywords: HidP_GetCollectionDescription, HidP_GetCollectionDescription function [Human Input Devices], hid.hidp_getcollectiondescription, hidpddi/HidP_GetCollectionDescription
 f1_keywords:
  - "hidpddi/HidP_GetCollectionDescription"
+ - "HidP_GetCollectionDescription"
 req.header: hidpddi.h
 req.include-header: Hidpddi.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Hidparse.dll
 api_name:
 - HidP_GetCollectionDescription
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

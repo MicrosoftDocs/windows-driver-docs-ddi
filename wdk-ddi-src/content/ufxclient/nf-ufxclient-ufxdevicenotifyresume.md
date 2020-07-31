@@ -10,6 +10,7 @@ keywords: ["UfxDeviceNotifyResume function"]
 ms.keywords: UfxDeviceNotifyResume, UfxDeviceNotifyResume method [Buses], buses.ufxdevicenotifyresume, ufxclient/UfxDeviceNotifyResume
 f1_keywords:
  - "ufxclient/UfxDeviceNotifyResume"
+ - "UfxDeviceNotifyResume"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ufxclient.h
 api_name:
 - UfxDeviceNotifyResume
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

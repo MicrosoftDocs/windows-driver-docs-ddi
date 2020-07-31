@@ -10,6 +10,7 @@ keywords: ["ExInitializeRundownProtection function"]
 ms.keywords: ExInitializeRundownProtection, ExInitializeRundownProtection routine [Kernel-Mode Driver Architecture], kernel.exinitializerundownprotection, wdm/ExInitializeRundownProtection
 f1_keywords:
  - "wdm/ExInitializeRundownProtection"
+ - "ExInitializeRundownProtection"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - ExInitializeRundownProtection
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

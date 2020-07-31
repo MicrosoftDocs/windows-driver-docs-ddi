@@ -10,6 +10,7 @@ keywords: ["WdfUsbTargetPipeGetType function"]
 ms.keywords: DFUsbRef_de8bc76f-0be3-46bb-a959-b3115e91b472.xml, WdfUsbTargetPipeGetType, WdfUsbTargetPipeGetType method, kmdf.wdfusbtargetpipegettype, wdf.wdfusbtargetpipegettype, wdfusb/WdfUsbTargetPipeGetType
 f1_keywords:
  - "wdfusb/WdfUsbTargetPipeGetType"
+ - "WdfUsbTargetPipeGetType"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfUsbTargetPipeGetType
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

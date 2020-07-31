@@ -7,6 +7,7 @@ ms.date: 08/14/2018
 keywords: ["IDebugHost::GetCurrentContext"]
 f1_keywords:
  - "dbgmodel/IDebugHost.GetCurrentContext"
+ - "IDebugHost.GetCurrentContext"
 ms.keywords: IDebugHost::GetCurrentContext, GetCurrentContext, IDebugHost.GetCurrentContext, IDebugHost::GetCurrentContext, IDebugHost.GetCurrentContext
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHost.GetCurrentContext
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

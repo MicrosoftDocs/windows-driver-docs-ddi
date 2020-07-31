@@ -9,6 +9,7 @@ keywords: ["D3DKMTSetVidPnSourceOwner function"]
 ms.keywords: D3DKMTSetVidPnSourceOwner, D3DKMTSetVidPnSourceOwner function [Display Devices], OpenGL_Functions_3c0b89d9-b3d6-4668-a227-3bc7d0ed2f2f.xml, d3dkmthk/D3DKMTSetVidPnSourceOwner, display.d3dkmtsetvidpnsourceowner
 f1_keywords:
  - "d3dkmthk/D3DKMTSetVidPnSourceOwner"
+ - "D3DKMTSetVidPnSourceOwner"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -38,8 +39,6 @@ api_location:
 - API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 - D3DKMTSetVidPnSourceOwner
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

@@ -10,6 +10,7 @@ keywords: ["KSPIN_MDL_CACHING_NOTIFICATION32 structure"]
 ms.keywords: "*PKSPIN_MDL_CACHING_NOTIFICATION32, KSPIN_MDL_CACHING_NOTIFICATION32, KSPIN_MDL_CACHING_NOTIFICATION32 structure [Streaming Media Devices], PKSPIN_MDL_CACHING_NOTIFICATION32, PKSPIN_MDL_CACHING_NOTIFICATION32 structure pointer [Streaming Media Devices], ks/KSPIN_MDL_CACHING_NOTIFICATION32, ks/PKSPIN_MDL_CACHING_NOTIFICATION32, stream.kspin_mdl_caching_notification32"
 f1_keywords:
  - "ks/KSPIN_MDL_CACHING_NOTIFICATION32"
+ - "KSPIN_MDL_CACHING_NOTIFICATION32"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KSPIN_MDL_CACHING_NOTIFICATION32
-product:
-- Windows
 targetos: Windows
 req.typenames: KSPIN_MDL_CACHING_NOTIFICATION32, *PKSPIN_MDL_CACHING_NOTIFICATION32
 ---

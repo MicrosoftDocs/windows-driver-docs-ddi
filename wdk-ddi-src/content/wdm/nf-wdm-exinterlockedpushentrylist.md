@@ -10,6 +10,7 @@ keywords: ["ExInterlockedPushEntryList function"]
 ms.keywords: ExInterlockedPushEntryList, ExInterlockedPushEntryList routine [Kernel-Mode Driver Architecture], k102_dbf9c23d-8c9a-47e6-a923-cdb4d247148c.xml, kernel.exinterlockedpushentrylist, wdm/ExInterlockedPushEntryList
 f1_keywords:
  - "wdm/ExInterlockedPushEntryList"
+ - "ExInterlockedPushEntryList"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - ExInterlockedPushEntryList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IRegistryKey::NewSubKey"]
 ms.keywords: IRegistryKey interface [Audio Devices],NewSubKey method, IRegistryKey.NewSubKey, IRegistryKey::NewSubKey, NewSubKey, NewSubKey method [Audio Devices], NewSubKey method [Audio Devices],IRegistryKey interface, audio.iregistrykey_newsubkey, audmp-routines_8a9e8a73-551d-46d4-90a8-f24183c38d8d.xml, portcls/IRegistryKey::NewSubKey
 f1_keywords:
  - "portcls/IRegistryKey.NewSubKey"
+ - "IRegistryKey.NewSubKey"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IRegistryKey.NewSubKey
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

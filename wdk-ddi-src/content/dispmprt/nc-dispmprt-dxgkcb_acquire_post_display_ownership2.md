@@ -10,6 +10,7 @@ keywords: ["DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP2 callback function"]
 ms.keywords: DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP2, DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP2 callback, DxgkcbAcquirePostDisplayOwnership2, DxgkcbAcquirePostDisplayOwnership2 callback function [Display Devices], callback function pointer [Display Devices], display.dxgkcb_acquire_post_display_ownership2, dispmprt/DxgkcbAcquirePostDisplayOwnership2
 f1_keywords:
  - "dispmprt/DxgkcbAcquirePostDisplayOwnership2"
+ - "DxgkcbAcquirePostDisplayOwnership2"
 req.header: dispmprt.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dispmprt.h
 api_name:
 - DxgkcbAcquirePostDisplayOwnership2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

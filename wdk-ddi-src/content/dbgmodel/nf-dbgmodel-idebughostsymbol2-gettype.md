@@ -7,6 +7,7 @@ ms.date: 09/21/2018
 keywords: ["IDebugHostSymbol2::GetType"]
 f1_keywords:
  - "dbgmodel/IDebugHostSymbol2.GetType"
+ - "IDebugHostSymbol2.GetType"
 ms.keywords: IDebugHostSymbol2::GetType, GetType, IDebugHostSymbol2.GetType, IDebugHostSymbol2::GetType, IDebugHostSymbol2.GetType
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostSymbol2.GetType
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

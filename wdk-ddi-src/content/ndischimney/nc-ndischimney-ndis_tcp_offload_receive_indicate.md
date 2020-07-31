@@ -10,6 +10,7 @@ keywords: ["NDIS_TCP_OFFLOAD_RECEIVE_INDICATE callback function"]
 ms.keywords: NDIS_TCP_OFFLOAD_RECEIVE_INDICATE, NDIS_TCP_OFFLOAD_RECEIVE_INDICATE callback, NdisTcpOffloadReceiveHandler, NdisTcpOffloadReceiveHandler callback function [Network Drivers Starting with Windows Vista], ndischimney/NdisTcpOffloadReceiveHandler, netvista.ndistcpoffloadreceivehandler, tcp_chim_ndis_func_c79b9638-b69d-49de-b33b-95c0136a45f8.xml
 f1_keywords:
  - "ndischimney/NdisTcpOffloadReceiveHandler"
+ - "NdisTcpOffloadReceiveHandler"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - ndischimney.h
 api_name:
 - NdisTcpOffloadReceiveHandler
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

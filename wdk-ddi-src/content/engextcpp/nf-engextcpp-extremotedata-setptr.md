@@ -10,6 +10,7 @@ keywords: ["ExtRemoteData::SetPtr method"]
 ms.keywords: ExtRemoteData::SetChar, SetLong64, ExtRemoteData::SetPtr, ExtRemoteData::SetData, SetLongPtr, SetBoolean, SetLong, ExtRemoteData::SetFloat, SetDouble, ExtRemoteData, ExtRemoteData::SetLong64, SetChar, ExtRemoteData::SetBoolean, ExtRemoteData::SetLong, ExtRemoteData class [Windows Debugging], described, EngExtCpp_Ref_e84c03ce-1156-481b-a429-f0a918797565.xml, Clear, ExtRemoteData::SetLongPtr, SetPtr, SetFloat, debugger.extremotedata, ExtRemoteData class [Windows Debugging], engextcpp/ExtRemoteData, ExtRemoteData::SetDouble, ExtRemoteData::Clear, SetData
 f1_keywords:
  - "engextcpp/ExtRemoteData"
+ - "ExtRemoteData"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - engextcpp.hpp
 api_name:
 - ExtRemoteData
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVA_VideoSample32
 ---

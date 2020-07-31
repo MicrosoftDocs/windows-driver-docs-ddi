@@ -10,6 +10,7 @@ keywords: ["HidD_GetPhysicalDescriptor function"]
 ms.keywords: HidD_GetPhysicalDescriptor, HidD_GetPhysicalDescriptor routine [Human Input Devices], hid.hidd_getphysicaldescriptor, hidfunc_e9532fa2-49f8-41ec-9e23-19416b889b47.xml, hidsdi/HidD_GetPhysicalDescriptor
 f1_keywords:
  - "hidsdi/HidD_GetPhysicalDescriptor"
+ - "HidD_GetPhysicalDescriptor"
 req.header: hidsdi.h
 req.include-header: Hidsdi.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Hid.dll
 api_name:
 - HidD_GetPhysicalDescriptor
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

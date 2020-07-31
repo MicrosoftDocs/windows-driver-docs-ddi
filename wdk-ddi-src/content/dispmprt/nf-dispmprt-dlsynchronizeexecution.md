@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DlSynchronizeExecution function"]
 f1_keywords:
  - "dispmprt/DlSynchronizeExecution"
+ - "DlSynchronizeExecution"
 ms.keywords: DlSynchronizeExecution
 req.header: dispmprt.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["IOCTL_SMARTCARD_SWALLOW IOCTL"]
 ms.keywords: IOCTL_SMARTCARD_SWALLOW, IOCTL_SMARTCARD_SWALLOW control, IOCTL_SMARTCARD_SWALLOW control code [Smart Card Reader Devices], scioctls_71a14048-5e68-45c7-ad72-03c6350b9072.xml, smartcrd.ioctl_smartcard_swallow, winsmcrd/IOCTL_SMARTCARD_SWALLOW
 f1_keywords:
  - "winsmcrd/IOCTL_SMARTCARD_SWALLOW"
+ - "IOCTL_SMARTCARD_SWALLOW"
 req.header: winsmcrd.h
 req.include-header: Winsmcrd.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Winsmcrd.h
 api_name:
 - IOCTL_SMARTCARD_SWALLOW
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

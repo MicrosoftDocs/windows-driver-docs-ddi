@@ -10,6 +10,7 @@ keywords: ["PCANCEL_ADAPTER_CHANNEL callback function"]
 ms.keywords: CancelAdapterChannel, CancelAdapterChannel callback function [Kernel-Mode Driver Architecture], PCANCEL_ADAPTER_CHANNEL, PCANCEL_ADAPTER_CHANNEL callback, kernel.canceladapterchannel, wdm/CancelAdapterChannel
 f1_keywords:
  - "wdm/CancelAdapterChannel"
+ - "CancelAdapterChannel"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - CancelAdapterChannel
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

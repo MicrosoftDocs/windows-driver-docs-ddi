@@ -10,6 +10,7 @@ keywords: ["_KsEdit function"]
 ms.keywords: "_KsEdit, _KsEdit function [Streaming Media Devices], avfunc_1e902412-8322-4155-9fdb-dfc0fa1b6b37.xml, ks/_KsEdit, stream._ksedit"
 f1_keywords:
  - "ks/_KsEdit"
+ - "_KsEdit"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - _KsEdit
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

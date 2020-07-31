@@ -10,6 +10,7 @@ keywords: ["IOCTL_INTERNAL_CAD_POWER_SOURCE_UPDATE IOCTL"]
 ms.keywords: IOCTL_INTERNAL_CAD_POWER_SOURCE_UPDATE, IOCTL_INTERNAL_CAD_POWER_SOURCE_UPDATE control, IOCTL_INTERNAL_CAD_POWER_SOURCE_UPDATE control code [Battery Devices], battery.ioctl_internal_cad_power_source_update, charging/IOCTL_INTERNAL_CAD_POWER_SOURCE_UPDATE
 f1_keywords:
  - "charging/IOCTL_INTERNAL_CAD_POWER_SOURCE_UPDATE"
+ - "IOCTL_INTERNAL_CAD_POWER_SOURCE_UPDATE"
 req.header: charging.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - charging.h
 api_name:
 - IOCTL_INTERNAL_CAD_POWER_SOURCE_UPDATE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

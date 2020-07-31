@@ -10,6 +10,7 @@ keywords: ["IDebugAdvanced2::GetSourceFileInformation"]
 ms.keywords: GetSourceFileInformation, GetSourceFileInformation method [Windows Debugging], GetSourceFileInformation method [Windows Debugging],IDebugAdvanced2 interface, GetSourceFileInformation method [Windows Debugging],IDebugAdvanced3 interface, IDebugAdvanced2 interface [Windows Debugging],GetSourceFileInformation method, IDebugAdvanced2.GetSourceFileInformation, IDebugAdvanced2::GetSourceFileInformation, IDebugAdvanced3 interface [Windows Debugging],GetSourceFileInformation method, IDebugAdvanced3::GetSourceFileInformation, IDebugAdvanced_2f76d1fd-36fe-48c1-a131-eb4722d2af95.xml, dbgeng/IDebugAdvanced2::GetSourceFileInformation, dbgeng/IDebugAdvanced3::GetSourceFileInformation, debugger.getsourcefileinformation
 f1_keywords:
  - "dbgeng/IDebugAdvanced2.GetSourceFileInformation"
+ - "IDebugAdvanced2.GetSourceFileInformation"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IDebugAdvanced2.GetSourceFileInformation
 - IDebugAdvanced3.GetSourceFileInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

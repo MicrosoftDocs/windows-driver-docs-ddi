@@ -10,6 +10,7 @@ keywords: ["KsFilterAcquireControl function"]
 ms.keywords: KsFilterAcquireControl, KsFilterAcquireControl function [Streaming Media Devices], avfunc_63930ae0-491f-4916-a24f-7de5c8fa1ad3.xml, ks/KsFilterAcquireControl, stream.ksfilteracquirecontrol
 f1_keywords:
  - "ks/KsFilterAcquireControl"
+ - "KsFilterAcquireControl"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KsFilterAcquireControl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

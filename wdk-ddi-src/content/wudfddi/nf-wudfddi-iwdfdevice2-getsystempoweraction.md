@@ -10,6 +10,7 @@ keywords: ["IWDFDevice2::GetSystemPowerAction"]
 ms.keywords: GetSystemPowerAction, GetSystemPowerAction method, GetSystemPowerAction method,IWDFDevice2 interface, IWDFDevice2 interface,GetSystemPowerAction method, IWDFDevice2.GetSystemPowerAction, IWDFDevice2::GetSystemPowerAction, UMDFDeviceObjectRef_a0135e99-c33a-4480-afb3-189d6a89b5d2.xml, umdf.iwdfdevice2_getsystempoweraction, wdf.iwdfdevice2_getsystempoweraction, wudfddi/IWDFDevice2::GetSystemPowerAction
 f1_keywords:
  - "wudfddi/IWDFDevice2.GetSystemPowerAction"
+ - "IWDFDevice2.GetSystemPowerAction"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFDevice2.GetSystemPowerAction
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

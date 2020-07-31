@@ -10,6 +10,7 @@ keywords: ["CmSetCallbackObjectContext function"]
 ms.keywords: CmSetCallbackObjectContext, CmSetCallbackObjectContext routine [Kernel-Mode Driver Architecture], ConfigMgrRef_86ecc2b5-c790-4414-973d-6d26475b211d.xml, kernel.cmsetcallbackobjectcontext, wdm/CmSetCallbackObjectContext
 f1_keywords:
  - "wdm/CmSetCallbackObjectContext"
+ - "CmSetCallbackObjectContext"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - CmSetCallbackObjectContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

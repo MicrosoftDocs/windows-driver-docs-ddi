@@ -9,6 +9,7 @@ keywords: ["_DXGKARG_QUERYDEPENDENTENGINEGROUP structure"]
 ms.keywords: "*INOUT_DXGKARG_QUERYDEPENDENTENGINEGROUP, DXGKARG_QUERYDEPENDENTENGINEGROUP, DXGKARG_QUERYDEPENDENTENGINEGROUP structure [Display Devices], _DXGKARG_QUERYDEPENDENTENGINEGROUP, d3dkmddi/DXGKARG_QUERYDEPENDENTENGINEGROUP, display.dxgkarg_querydependentenginegroup"
 f1_keywords:
  - "d3dkmddi/DXGKARG_QUERYDEPENDENTENGINEGROUP"
+ - "DXGKARG_QUERYDEPENDENTENGINEGROUP"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - D3dkmddi.h
 api_name:
 - DXGKARG_QUERYDEPENDENTENGINEGROUP
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGKARG_QUERYDEPENDENTENGINEGROUP

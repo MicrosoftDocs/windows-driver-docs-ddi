@@ -10,6 +10,7 @@ keywords: ["WdfFdoQueryForInterface function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_949fcc50-3604-4970-9516-666da06e3c9e.xml, WdfFdoQueryForInterface, WdfFdoQueryForInterface method, kmdf.wdffdoqueryforinterface, wdf.wdffdoqueryforinterface, wdffdo/WdfFdoQueryForInterface
 f1_keywords:
  - "wdffdo/WdfFdoQueryForInterface"
+ - "WdfFdoQueryForInterface"
 req.header: wdffdo.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfFdoQueryForInterface
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

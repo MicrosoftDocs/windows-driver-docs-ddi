@@ -10,6 +10,7 @@ keywords: ["RtlStringCbCopyNExW function"]
 ms.keywords: RtlStringCbCopyNEx, RtlStringCbCopyNExA, RtlStringCbCopyNExW, RtlStringCbCopyNExW function [Kernel-Mode Driver Architecture], STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, kernel.rtlstringcbcopynex, ntstrsafe/RtlStringCbCopyNExA, ntstrsafe/RtlStringCbCopyNExW, safestrings_868bd7e8-88d5-4c41-ba40-ca7934ff86c8.xml
 f1_keywords:
  - "ntstrsafe/RtlStringCbCopyNExW"
+ - "RtlStringCbCopyNExW"
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop
@@ -39,8 +40,6 @@ api_name:
 - RtlStringCbCopyNExW
 - RtlStringCbCopyNExA
 - RtlStringCbCopyNExW
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

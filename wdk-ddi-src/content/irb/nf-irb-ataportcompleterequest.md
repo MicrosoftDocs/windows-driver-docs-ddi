@@ -10,6 +10,7 @@ keywords: ["AtaPortCompleteRequest function"]
 ms.keywords: AtaPortCompleteRequest, AtaPortCompleteRequest routine [Storage Devices], atartns_6ed3a9ca-b9b8-4d2f-a2f2-5a57db2071f8.xml, irb/AtaPortCompleteRequest, storage.ataportcompleterequest
 f1_keywords:
  - "irb/AtaPortCompleteRequest"
+ - "AtaPortCompleteRequest"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
@@ -39,8 +40,6 @@ api_location:
 - pciidex.dll
 api_name:
 - AtaPortCompleteRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

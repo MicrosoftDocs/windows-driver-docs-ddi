@@ -10,6 +10,7 @@ keywords: ["GETDEVICEINFORESPONSE structure"]
 ms.keywords: "*LPGETDEVICEINFORESPONSE, GETDEVICEINFORESPONSE, GETDEVICEINFORESPONSE structure [Network Drivers Starting with Windows Vista], netvista.getdeviceinforesponse, ntddrilapitypes/GETDEVICEINFORESPONSE"
 f1_keywords:
  - "ntddrilapitypes/GETDEVICEINFORESPONSE"
+ - "GETDEVICEINFORESPONSE"
 req.header: ntddrilapitypes.h
 req.include-header: Ntddrilapitypes.h, Rilapitypes.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - GETDEVICEINFORESPONSE
-product:
-- Windows
 targetos: Windows
 req.typenames: GETDEVICEINFORESPONSE, *LPGETDEVICEINFORESPONSE
 ---

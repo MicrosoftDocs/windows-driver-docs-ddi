@@ -10,6 +10,7 @@ keywords: ["_STREAM_PROPERTY_DESCRIPTOR structure"]
 ms.keywords: "*PSTREAM_PROPERTY_DESCRIPTOR, PSTREAM_PROPERTY_DESCRIPTOR, PSTREAM_PROPERTY_DESCRIPTOR structure pointer [Streaming Media Devices], STREAM_PROPERTY_DESCRIPTOR, STREAM_PROPERTY_DESCRIPTOR structure [Streaming Media Devices], _STREAM_PROPERTY_DESCRIPTOR, strclass-struct_5cf57d2b-c4ea-41fb-b3b3-4b6f67c2ecca.xml, stream.stream_property_descriptor, strmini/PSTREAM_PROPERTY_DESCRIPTOR, strmini/STREAM_PROPERTY_DESCRIPTOR"
 f1_keywords:
  - "strmini/STREAM_PROPERTY_DESCRIPTOR"
+ - "STREAM_PROPERTY_DESCRIPTOR"
 req.header: strmini.h
 req.include-header: Strmini.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - strmini.h
 api_name:
 - STREAM_PROPERTY_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: STREAM_PROPERTY_DESCRIPTOR, *PSTREAM_PROPERTY_DESCRIPTOR
 ---

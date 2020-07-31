@@ -10,6 +10,7 @@ keywords: ["_DXGKMDT_DPCP_PROTECTION_LEVEL enumeration"]
 ms.keywords: DXGKMDT_DPCP_PROTECTION_LEVEL, DXGKMDT_OPM_DPCP_FORCE_ULONG, DXGKMDT_OPM_DPCP_OFF, DXGKMDT_OPM_DPCP_ON, DXGKMDT_OPM_DPCP_PROTECTION_LEVEL, DXGKMDT_OPM_DPCP_PROTECTION_LEVEL enumeration [Display Devices], DmEnums_22bd45fa-ebe4-468e-8036-f3679619f51a.xml, _DXGKMDT_DPCP_PROTECTION_LEVEL, _DXGKMDT_DPCP_PROTECTION_LEVEL enumeration [Display Devices], d3dkmdt/DXGKMDT_OPM_DPCP_FORCE_ULONG, d3dkmdt/DXGKMDT_OPM_DPCP_OFF, d3dkmdt/DXGKMDT_OPM_DPCP_ON, d3dkmdt/_DXGKMDT_DPCP_PROTECTION_LEVEL, display.dxgkmdt_opm_dpcp_protection_level
 f1_keywords:
  - "d3dkmdt/DXGKMDT_OPM_DPCP_PROTECTION_LEVEL"
+ - "DXGKMDT_OPM_DPCP_PROTECTION_LEVEL"
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dkmdt.h
 api_name:
 - DXGKMDT_OPM_DPCP_PROTECTION_LEVEL
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGKMDT_OPM_DPCP_PROTECTION_LEVEL
 ---

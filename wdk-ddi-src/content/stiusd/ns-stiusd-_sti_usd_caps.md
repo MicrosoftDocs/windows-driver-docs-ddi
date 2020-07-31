@@ -10,6 +10,7 @@ keywords: ["_STI_USD_CAPS structure"]
 ms.keywords: "*PSTI_USD_CAPS, PSTI_USD_CAPS, PSTI_USD_CAPS structure pointer [Imaging Devices], STI_USD_CAPS, STI_USD_CAPS structure [Imaging Devices], _STI_USD_CAPS, image.sti_usd_caps, stifnc_4f136561-e3a7-467d-b8be-a60db8534126.xml, stiusd/PSTI_USD_CAPS, stiusd/STI_USD_CAPS"
 f1_keywords:
  - "stiusd/STI_USD_CAPS"
+ - "STI_USD_CAPS"
 req.header: stiusd.h
 req.include-header: Stiusd.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - stiusd.h
 api_name:
 - STI_USD_CAPS
-product:
-- Windows
 targetos: Windows
 req.typenames: STI_USD_CAPS, *PSTI_USD_CAPS
 ---

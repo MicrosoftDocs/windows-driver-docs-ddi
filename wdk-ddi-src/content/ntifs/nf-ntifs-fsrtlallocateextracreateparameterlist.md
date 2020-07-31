@@ -10,6 +10,7 @@ keywords: ["FsRtlAllocateExtraCreateParameterList function"]
 ms.keywords: FsRtlAllocateExtraCreateParameterList, FsRtlAllocateExtraCreateParameterList routine [Installable File System Drivers], fsrtlref_2d552d23-4312-4203-91fb-c6cf6fb39681.xml, ifsk.fsrtlallocateextracreateparameterlist, ntifs/FsRtlAllocateExtraCreateParameterList
 f1_keywords:
  - "ntifs/FsRtlAllocateExtraCreateParameterList"
+ - "FsRtlAllocateExtraCreateParameterList"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlAllocateExtraCreateParameterList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

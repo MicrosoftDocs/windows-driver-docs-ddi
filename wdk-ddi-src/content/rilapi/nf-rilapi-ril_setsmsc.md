@@ -10,6 +10,7 @@ keywords: ["RIL_SetSMSC function"]
 ms.keywords: RIL_SetSMSC, RIL_SetSMSC method [Network Drivers Starting with Windows Vista], netvista.ril_setsmsc, rilapi/RIL_SetSMSC
 f1_keywords:
  - "rilapi/RIL_SetSMSC"
+ - "RIL_SetSMSC"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_SetSMSC
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["SRIOV_QUERY_VF_LUID callback"]
 ms.keywords: "*PSRIOV_QUERY_VF_LUID, *PSRIOV_QUERY_VF_LUID callback function pointer [Buses], PCI.sriov_query_vf_luid, SRIOV_QUERY_VF_LUID, SriovQueryVfLuid, SriovQueryVfLuid callback function [Buses], pcivirt/SriovQueryVfLuid"
 f1_keywords:
  - "pcivirt/*PSRIOV_QUERY_VF_LUID"
+ - "*PSRIOV_QUERY_VF_LUID"
 req.header: pcivirt.h
 req.include-header:
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pcivirt.h
 api_name:
 - PSRIOV_QUERY_VF_LUID
-product:
-- Windows
 targetos: Windows
 req.typenames: PARCLASS_INFORMATION, *PPARCLASS_INFORMATION
 ---

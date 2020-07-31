@@ -10,6 +10,7 @@ keywords: ["WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_EXAMINE_INIT function"]
 ms.keywords: DFQueueObjectRef_bd2ff7de-f07f-4557-9051-d22f23a0530c.xml, WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_EXAMINE_INIT, WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_EXAMINE_INIT function, kmdf.wdf_io_queue_forward_progress_policy_examine_init, wdf.wdf_io_queue_forward_progress_policy_examine_init, wdfio/WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_EXAMINE_INIT
 f1_keywords:
  - "wdfio/WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_EXAMINE_INIT"
+ - "WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_EXAMINE_INIT"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - wdfio.h
 api_name:
 - WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_EXAMINE_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

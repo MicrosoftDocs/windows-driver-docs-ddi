@@ -10,6 +10,7 @@ keywords: ["IStiUSD::UnLockDevice"]
 ms.keywords: IStiUSD interface [Imaging Devices],UnLockDevice method, IStiUSD.UnLockDevice, IStiUSD::UnLockDevice, UnLockDevice, UnLockDevice method [Imaging Devices], UnLockDevice method [Imaging Devices],IStiUSD interface, image.istiusd_unlockdevice, stifnc_8c11e0a0-68ec-4556-ae40-6bed6b5b4831.xml, stiusd/IStiUSD::UnLockDevice
 f1_keywords:
  - "stiusd/IStiUSD.UnLockDevice"
+ - "IStiUSD.UnLockDevice"
 req.header: stiusd.h
 req.include-header: Stiusd.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Stiusd.h
 api_name:
 - IStiUSD.UnLockDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

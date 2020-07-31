@@ -10,6 +10,7 @@ keywords: ["RIL_SetCallForwardingStatus function"]
 ms.keywords: RIL_SetCallForwardingStatus, RIL_SetCallForwardingStatus method [Network Drivers Starting with Windows Vista], netvista.ril_setcallforwardingstatus, rilapi/RIL_SetCallForwardingStatus
 f1_keywords:
  - "rilapi/RIL_SetCallForwardingStatus"
+ - "RIL_SetCallForwardingStatus"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_SetCallForwardingStatus
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

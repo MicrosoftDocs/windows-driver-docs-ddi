@@ -10,6 +10,7 @@ keywords: ["IWDFDeviceInitialize2 interface"]
 ms.keywords: IWDFDeviceInitialize2, IWDFDeviceInitialize2 interface, IWDFDeviceInitialize2 interface,described, UMDFDeviceObjectRef_0a7dcdea-43e7-4a0a-b55c-34d18eca65e8.xml, umdf.iwdfdeviceinitialize2, wdf.iwdfdeviceinitialize2, wudfddi/IWDFDeviceInitialize2
 f1_keywords:
  - "wudfddi/IWDFDeviceInitialize2"
+ - "IWDFDeviceInitialize2"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFDeviceInitialize2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

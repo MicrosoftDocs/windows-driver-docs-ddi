@@ -10,6 +10,7 @@ keywords: ["ENABLE_VIRTUALIZATION callback"]
 ms.keywords: ENABLE_VIRTUALIZATION, EnableVirtualization, EnableVirtualization routine, PCI.enablevirtualization, wdm/EnableVirtualization
 f1_keywords:
  - "wdm/EnableVirtualization"
+ - "EnableVirtualization"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - EnableVirtualization
-product:
-- Windows
 targetos: Windows
 req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.

@@ -10,6 +10,7 @@ keywords: ["_KSSTREAM_POINTER structure"]
 ms.keywords: "*PKSSTREAM_POINTER, KSSTREAM_POINTER, KSSTREAM_POINTER structure [Streaming Media Devices], PKSSTREAM_POINTER, PKSSTREAM_POINTER structure pointer [Streaming Media Devices], _KSSTREAM_POINTER, avstruct_1856dc7a-3351-4a87-97a5-85b06d12ab30.xml, ks/KSSTREAM_POINTER, ks/PKSSTREAM_POINTER, stream.ksstream_pointer"
 f1_keywords:
  - "ks/KSSTREAM_POINTER"
+ - "KSSTREAM_POINTER"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KSSTREAM_POINTER
-product:
-- Windows
 targetos: Windows
 req.typenames: KSSTREAM_POINTER, *PKSSTREAM_POINTER
 ---

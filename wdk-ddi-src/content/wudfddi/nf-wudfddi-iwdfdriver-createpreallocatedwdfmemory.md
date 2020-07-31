@@ -10,6 +10,7 @@ keywords: ["IWDFDriver::CreatePreallocatedWdfMemory"]
 ms.keywords: CreatePreallocatedWdfMemory, CreatePreallocatedWdfMemory method, CreatePreallocatedWdfMemory method,IWDFDriver interface, IWDFDriver interface,CreatePreallocatedWdfMemory method, IWDFDriver.CreatePreallocatedWdfMemory, IWDFDriver::CreatePreallocatedWdfMemory, UMDFDriverObjectRef_273a5206-8415-4251-88e8-6f20c29f50e2.xml, umdf.iwdfdriver_createpreallocatedwdfmemory, wdf.iwdfdriver_createpreallocatedwdfmemory, wudfddi/IWDFDriver::CreatePreallocatedWdfMemory
 f1_keywords:
  - "wudfddi/IWDFDriver.CreatePreallocatedWdfMemory"
+ - "IWDFDriver.CreatePreallocatedWdfMemory"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFDriver.CreatePreallocatedWdfMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

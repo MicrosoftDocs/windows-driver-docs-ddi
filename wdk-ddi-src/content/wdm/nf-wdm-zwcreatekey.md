@@ -10,6 +10,7 @@ keywords: ["ZwCreateKey function"]
 ms.keywords: NtCreateKey, ZwCreateKey, ZwCreateKey routine [Kernel-Mode Driver Architecture], k111_1ab9fba3-0c39-45b8-9a79-d33ad73c0642.xml, kernel.zwcreatekey, wdm/NtCreateKey, wdm/ZwCreateKey
 f1_keywords:
  - "wdm/ZwCreateKey"
+ - "ZwCreateKey"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - ZwCreateKey
 - NtCreateKey
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -157,7 +156,7 @@ KEY_WRITE
 
 </td>
 <td>
-STANDARD_RIGHTS_WRITE, KEY_SET_VALUE, and KEY_CREATE_SUBKEY
+STANDARD_RIGHTS_WRITE, KEY_SET_VALUE, and KEY_CREATE_SUB_KEY
 
 </td>
 </tr>

@@ -10,6 +10,7 @@ keywords: ["WdfDriverOpenParametersRegistryKey function"]
 ms.keywords: DFDriverObjectRef_c79992f7-2a85-4c1b-859d-9bfdf441a9c4.xml, WdfDriverOpenParametersRegistryKey, WdfDriverOpenParametersRegistryKey method, kmdf.wdfdriveropenparametersregistrykey, wdf.wdfdriveropenparametersregistrykey, wdfdriver/WdfDriverOpenParametersRegistryKey
 f1_keywords:
  - "wdfdriver/WdfDriverOpenParametersRegistryKey"
+ - "WdfDriverOpenParametersRegistryKey"
 req.header: wdfdriver.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfDriverOpenParametersRegistryKey
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

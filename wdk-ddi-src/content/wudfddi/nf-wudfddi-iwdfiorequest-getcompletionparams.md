@@ -10,6 +10,7 @@ keywords: ["IWDFIoRequest::GetCompletionParams"]
 ms.keywords: GetCompletionParams, GetCompletionParams method, GetCompletionParams method,IWDFIoRequest interface, IWDFIoRequest interface,GetCompletionParams method, IWDFIoRequest.GetCompletionParams, IWDFIoRequest::GetCompletionParams, UMDFRequestObjectRef_dbfb5f9c-c1ad-425d-9bcb-627cc961d00d.xml, umdf.iwdfiorequest_getcompletionparams, wdf.iwdfiorequest_getcompletionparams, wudfddi/IWDFIoRequest::GetCompletionParams
 f1_keywords:
  - "wudfddi/IWDFIoRequest.GetCompletionParams"
+ - "IWDFIoRequest.GetCompletionParams"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFIoRequest.GetCompletionParams
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

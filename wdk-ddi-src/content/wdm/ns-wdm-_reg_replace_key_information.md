@@ -10,6 +10,7 @@ keywords: ["_REG_REPLACE_KEY_INFORMATION structure"]
 ms.keywords: "*PREG_REPLACE_KEY_INFORMATION, PREG_REPLACE_KEY_INFORMATION, PREG_REPLACE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_REPLACE_KEY_INFORMATION, REG_REPLACE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], _REG_REPLACE_KEY_INFORMATION, kernel.reg_replace_key_information, kstruct_d_29e33c32-67fc-48e0-a976-9830278009bc.xml, wdm/PREG_REPLACE_KEY_INFORMATION, wdm/REG_REPLACE_KEY_INFORMATION"
 f1_keywords:
  - "wdm/REG_REPLACE_KEY_INFORMATION"
+ - "REG_REPLACE_KEY_INFORMATION"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - REG_REPLACE_KEY_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: REG_REPLACE_KEY_INFORMATION, *PREG_REPLACE_KEY_INFORMATION
 ---

@@ -10,6 +10,7 @@ keywords: ["GET_VIRTUAL_FUNCTION_PROBED_BARS callback"]
 ms.keywords: GET_VIRTUAL_FUNCTION_PROBED_BARS, GetVirtualFunctionProbedBars, GetVirtualFunctionProbedBars routine, PCI.getvirtualfunctionprobedbars, wdm/GetVirtualFunctionProbedBars
 f1_keywords:
  - "wdm/GetVirtualFunctionProbedBars"
+ - "GetVirtualFunctionProbedBars"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - GetVirtualFunctionProbedBars
-product:
-- Windows
 targetos: Windows
 req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.

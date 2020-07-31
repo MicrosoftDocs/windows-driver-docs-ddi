@@ -10,6 +10,7 @@ keywords: ["_BIDI_DATA structure"]
 ms.keywords: "*LPBIDI_DATA, *PBIDI_DATA, BIDI_DATA, BIDI_DATA structure [Print Devices], LPBIDI_DATA, LPBIDI_DATA structure pointer [Print Devices], PBIDI_DATA, PBIDI_DATA structure pointer [Print Devices], _BIDI_DATA, print.bidi_data, spoolfnc_6e6c0bc2-88f6-43ab-8183-42ee1a91e593.xml, winspool/BIDI_DATA, winspool/LPBIDI_DATA, winspool/PBIDI_DATA"
 f1_keywords:
  - "winspool/BIDI_DATA"
+ - "BIDI_DATA"
 req.header: winspool.h
 req.include-header: Winspool.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - winspool.h
 api_name:
 - BIDI_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: BIDI_DATA, *PBIDI_DATA, *LPBIDI_DATA
 ---

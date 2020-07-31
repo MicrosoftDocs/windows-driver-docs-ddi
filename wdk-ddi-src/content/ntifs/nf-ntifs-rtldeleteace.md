@@ -10,6 +10,7 @@ keywords: ["RtlDeleteAce function"]
 ms.keywords: RtlDeleteAce, RtlDeleteAce routine [Installable File System Drivers], ifsk.rtldeleteace, ntifs/RtlDeleteAce, rtlref_68fe46f1-318a-48c6-9004-c338f52f41a5.xml
 f1_keywords:
  - "ntifs/RtlDeleteAce"
+ - "RtlDeleteAce"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlDeleteAce
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

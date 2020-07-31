@@ -10,6 +10,7 @@ keywords: ["RILCALLMODIFICATIONINFO structure"]
 ms.keywords: "*LPRILCALLMODIFICATIONINFO, RILCALLMODIFICATIONINFO, RILCALLMODIFICATIONINFO structure [Network Drivers Starting with Windows Vista], netvista.rilcallmodificationinfo, ntddrilapitypes/RILCALLMODIFICATIONINFO"
 f1_keywords:
  - "ntddrilapitypes/RILCALLMODIFICATIONINFO"
+ - "RILCALLMODIFICATIONINFO"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILCALLMODIFICATIONINFO
-product:
-- Windows
 targetos: Windows
 req.typenames: RILCALLMODIFICATIONINFO, *LPRILCALLMODIFICATIONINFO
 ---

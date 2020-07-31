@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_DXGK_VALIDATESUBMITCOMMANDFLAGS structure"]
 f1_keywords:
  - "d3dkmddi/_DXGK_VALIDATESUBMITCOMMANDFLAGS"
+ - "_DXGK_VALIDATESUBMITCOMMANDFLAGS"
 ms.keywords: _DXGK_VALIDATESUBMITCOMMANDFLAGS, DXGK_VALIDATESUBMITCOMMANDFLAGS, 
 req.header: d3dkmddi.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - d3dkmddi.h
 api_name: 
 - _DXGK_VALIDATESUBMITCOMMANDFLAGS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

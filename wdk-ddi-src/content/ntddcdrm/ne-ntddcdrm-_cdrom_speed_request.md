@@ -10,6 +10,7 @@ keywords: ["_CDROM_SPEED_REQUEST enumeration"]
 ms.keywords: "*PCDROM_SPEED_REQUEST, CDROM_SPEED_REQUEST, CDROM_SPEED_REQUEST enumeration [Storage Devices], CdromSetSpeed, CdromSetStreaming, PCDROM_SPEED_REQUEST, PCDROM_SPEED_REQUEST enumeration pointer [Storage Devices], _CDROM_SPEED_REQUEST, ntddcdrm/CDROM_SPEED_REQUEST, ntddcdrm/CdromSetSpeed, ntddcdrm/CdromSetStreaming, ntddcdrm/PCDROM_SPEED_REQUEST, storage.cdrom_speed_request, structs-CD-ROM_6feeaa4e-8500-4ca8-9d0f-3e29a858eb94.xml"
 f1_keywords:
  - "ntddcdrm/CDROM_SPEED_REQUEST"
+ - "CDROM_SPEED_REQUEST"
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddcdrm.h
 api_name:
 - CDROM_SPEED_REQUEST
-product:
-- Windows
 targetos: Windows
 req.typenames: CDROM_SPEED_REQUEST, *PCDROM_SPEED_REQUEST
 ---

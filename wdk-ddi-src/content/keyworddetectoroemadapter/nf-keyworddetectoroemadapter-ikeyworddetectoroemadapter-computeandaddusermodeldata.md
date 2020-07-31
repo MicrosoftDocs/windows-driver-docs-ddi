@@ -10,6 +10,7 @@ keywords: ["IKeywordDetectorOemAdapter::ComputeAndAddUserModelData"]
 ms.keywords: ComputeAndAddUserModelData, ComputeAndAddUserModelData method [Audio Devices], ComputeAndAddUserModelData method [Audio Devices],IKeywordDetectorOemAdapter interface, IKeywordDetectorOemAdapter interface [Audio Devices],ComputeAndAddUserModelData method, IKeywordDetectorOemAdapter.ComputeAndAddUserModelData, IKeywordDetectorOemAdapter::ComputeAndAddUserModelData, audio.ikeyworddetectoroemadapter_computeandaddusermodeldata, keyworddetectoroemadapter/IKeywordDetectorOemAdapter::ComputeAndAddUserModelData
 f1_keywords:
  - "keyworddetectoroemadapter/IKeywordDetectorOemAdapter.ComputeAndAddUserModelData"
+ - "IKeywordDetectorOemAdapter.ComputeAndAddUserModelData"
 req.header: keyworddetectoroemadapter.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - KeywordDetectorOemAdapter.h
 api_name:
 - IKeywordDetectorOemAdapter.ComputeAndAddUserModelData
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

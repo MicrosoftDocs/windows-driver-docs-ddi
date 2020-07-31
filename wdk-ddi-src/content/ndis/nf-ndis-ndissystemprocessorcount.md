@@ -10,6 +10,7 @@ keywords: ["NdisSystemProcessorCount function"]
 ms.keywords: NdisSystemProcessorCount, NdisSystemProcessorCount function [Network Drivers Starting with Windows Vista], ndis/NdisSystemProcessorCount, ndis_sysinfo_ref_2bec0b11-bc24-4c8d-9e78-ff94c7f1645f.xml, netvista.ndissystemprocessorcount
 f1_keywords:
  - "ndis/NdisSystemProcessorCount"
+ - "NdisSystemProcessorCount"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisSystemProcessorCount
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

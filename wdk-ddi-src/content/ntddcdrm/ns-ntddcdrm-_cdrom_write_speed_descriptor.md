@@ -10,6 +10,7 @@ keywords: ["_CDROM_WRITE_SPEED_DESCRIPTOR structure"]
 ms.keywords: "*PCDROM_WRITE_SPEED_DESCRIPTOR, CDROM_WRITE_SPEED_DESCRIPTOR, CDROM_WRITE_SPEED_DESCRIPTOR structure [Storage Devices], PCDROM_WRITE_SPEED_DESCRIPTOR, PCDROM_WRITE_SPEED_DESCRIPTOR structure pointer [Storage Devices], _CDROM_WRITE_SPEED_DESCRIPTOR, ntddcdrm/CDROM_WRITE_SPEED_DESCRIPTOR, ntddcdrm/PCDROM_WRITE_SPEED_DESCRIPTOR, storage.cdrom_write_speed_descriptor"
 f1_keywords:
  - "ntddcdrm/CDROM_WRITE_SPEED_DESCRIPTOR"
+ - "CDROM_WRITE_SPEED_DESCRIPTOR"
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddcdrm.h
 api_name:
 - CDROM_WRITE_SPEED_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: CDROM_WRITE_SPEED_DESCRIPTOR, *PCDROM_WRITE_SPEED_DESCRIPTOR
 ---

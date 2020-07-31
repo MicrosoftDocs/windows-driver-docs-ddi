@@ -10,6 +10,7 @@ keywords: ["IOCTL_SCSI_MINIPORT_HYBRID IOCTL"]
 ms.keywords: IOCTL_SCSI_MINIPORT_HYBRID, IOCTL_SCSI_MINIPORT_HYBRID control, IOCTL_SCSI_MINIPORT_HYBRID control code [Storage Devices], ntddscsi/IOCTL_SCSI_MINIPORT_HYBRID, storage.ioctl_scsi_miniport_hybrid
 f1_keywords:
  - "ntddscsi/IOCTL_SCSI_MINIPORT_HYBRID"
+ - "IOCTL_SCSI_MINIPORT_HYBRID"
 req.header: ntddscsi.h
 req.include-header: Ntddscsi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddscsi.h
 api_name:
 - IOCTL_SCSI_MINIPORT_HYBRID
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

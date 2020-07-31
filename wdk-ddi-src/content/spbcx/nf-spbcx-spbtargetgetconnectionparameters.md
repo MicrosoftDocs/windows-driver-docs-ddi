@@ -10,6 +10,7 @@ keywords: ["SpbTargetGetConnectionParameters function"]
 ms.keywords: SPB.spbtargetgetconnectionparameters, SpbTargetGetConnectionParameters, SpbTargetGetConnectionParameters method [Buses], spbcx/SpbTargetGetConnectionParameters
 f1_keywords:
  - "spbcx/SpbTargetGetConnectionParameters"
+ - "SpbTargetGetConnectionParameters"
 req.header: spbcx.h
 req.include-header: 
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - spbcxstubs.dll
 api_name:
 - SpbTargetGetConnectionParameters
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

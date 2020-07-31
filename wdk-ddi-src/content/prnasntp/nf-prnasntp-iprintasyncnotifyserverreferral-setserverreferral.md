@@ -10,6 +10,7 @@ keywords: ["IPrintAsyncNotifyServerReferral::SetServerReferral"]
 ms.keywords: IPrintAsyncNotifyServerReferral interface [Print Devices],SetServerReferral method, IPrintAsyncNotifyServerReferral.SetServerReferral, IPrintAsyncNotifyServerReferral::SetServerReferral, SetServerReferral, SetServerReferral method [Print Devices], SetServerReferral method [Print Devices],IPrintAsyncNotifyServerReferral interface, print.iprintasyncnotifyserverreferral_setserverreferral, prnasntp/IPrintAsyncNotifyServerReferral::SetServerReferral
 f1_keywords:
  - "prnasntp/IPrintAsyncNotifyServerReferral.SetServerReferral"
+ - "IPrintAsyncNotifyServerReferral.SetServerReferral"
 req.header: prnasntp.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Prnasntp.h
 api_name:
 - IPrintAsyncNotifyServerReferral.SetServerReferral
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

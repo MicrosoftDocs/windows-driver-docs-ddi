@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["KMUTANT structure"]
 f1_keywords:
  - "wdm/KMUTANT"
+ - "KMUTANT"
 ms.keywords: KMUTANT, KMUTANT, *PKMUTANT, *PRKMUTANT, KMUTEX, *PKMUTEX, *PRKMUTEX, 
 req.header: wdm.h
 req.include-header:

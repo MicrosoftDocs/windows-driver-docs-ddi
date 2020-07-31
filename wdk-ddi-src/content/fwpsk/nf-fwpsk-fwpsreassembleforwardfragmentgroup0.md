@@ -10,6 +10,7 @@ keywords: ["FwpsReassembleForwardFragmentGroup0 function"]
 ms.keywords: FwpsReassembleForwardFragmentGroup0, FwpsReassembleForwardFragmentGroup0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsReassembleForwardFragmentGroup0, netvista.fwpsreassembleforwardfragmentgroup0, wfp_ref_2_funct_3_fwps_R-Z_354e1536-de02-474d-b99f-b5d81875aecd.xml
 f1_keywords:
  - "fwpsk/FwpsReassembleForwardFragmentGroup0"
+ - "FwpsReassembleForwardFragmentGroup0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - fwpkclnt.dll
 api_name:
 - FwpsReassembleForwardFragmentGroup0
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

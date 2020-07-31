@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::GetSymbolTypeIdWide"]
 ms.keywords: GetSymbolTypeIdWide, GetSymbolTypeIdWide method [Windows Debugging], GetSymbolTypeIdWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSymbolTypeIdWide method, IDebugSymbols3.GetSymbolTypeIdWide, IDebugSymbols3::GetSymbolTypeIdWide, dbgeng/IDebugSymbols3::GetSymbolTypeIdWide, debugger.getsymboltypeidwide
 f1_keywords:
  - "dbgeng/IDebugSymbols3.GetSymbolTypeIdWide"
+ - "IDebugSymbols3.GetSymbolTypeIdWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugSymbols3.GetSymbolTypeIdWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

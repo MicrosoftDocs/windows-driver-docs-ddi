@@ -10,6 +10,7 @@ keywords: ["HalFreeHardwareCounters function"]
 ms.keywords: ",  , C, F, H, HalFreeHardwareCounters, HalFreeHardwareCounters routine [Kernel-Mode Driver Architecture], a, d, e, k103_7516fb8d-7064-4f4a-bbef-a979809bf011.xml, kernel.halfreehardwarecounters, l, n, ntddk/HalFreeHardwareCounters, o, r, s, t, u, w"
 f1_keywords:
  - "ntddk/HalFreeHardwareCounters"
+ - "HalFreeHardwareCounters"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Hal.dll
 api_name:
 - HalFreeHardwareCounters
-product:
-- Windows
 targetos: Windows
 req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ms.custom: 19H1

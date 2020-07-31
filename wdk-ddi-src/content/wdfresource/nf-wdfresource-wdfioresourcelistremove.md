@@ -10,6 +10,7 @@ keywords: ["WdfIoResourceListRemove function"]
 ms.keywords: DFResourceObjectRef_c8550890-69b9-493b-83d5-8a160eb85b8a.xml, WdfIoResourceListRemove, WdfIoResourceListRemove method, kmdf.wdfioresourcelistremove, wdf.wdfioresourcelistremove, wdfresource/WdfIoResourceListRemove
 f1_keywords:
  - "wdfresource/WdfIoResourceListRemove"
+ - "WdfIoResourceListRemove"
 req.header: wdfresource.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfIoResourceListRemove
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

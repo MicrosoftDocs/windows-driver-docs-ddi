@@ -10,6 +10,7 @@ keywords: ["_MSiSCSI_RADIUSConfig structure"]
 ms.keywords: "*PMSiSCSI_RADIUSConfig, MSiSCSI_RADIUSConfig, MSiSCSI_RADIUSConfig structure [Storage Devices], PMSiSCSI_RADIUSConfig, PMSiSCSI_RADIUSConfig structure pointer [Storage Devices], _MSiSCSI_RADIUSConfig, iscsicfg/MSiSCSI_RADIUSConfig, iscsicfg/PMSiSCSI_RADIUSConfig, storage.msiscsi_radiusconfig, structs-iSCSI_9f8461c3-b370-4aed-a5a5-58f9dd276944.xml"
 f1_keywords:
  - "iscsicfg/MSiSCSI_RADIUSConfig"
+ - "MSiSCSI_RADIUSConfig"
 req.header: iscsicfg.h
 req.include-header: Iscsicfg.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - iscsicfg.h
 api_name:
 - MSiSCSI_RADIUSConfig
-product:
-- Windows
 targetos: Windows
 req.typenames: MSiSCSI_RADIUSConfig, *PMSiSCSI_RADIUSConfig
 ---

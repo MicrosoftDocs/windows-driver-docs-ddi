@@ -10,6 +10,7 @@ keywords: ["_TXN_PARAMETER_BLOCK structure"]
 ms.keywords: "*PTXN_PARAMETER_BLOCK, PTXN_PARAMETER_BLOCK, PTXN_PARAMETER_BLOCK structure pointer [Installable File System Drivers], TXN_PARAMETER_BLOCK, TXN_PARAMETER_BLOCK structure [Installable File System Drivers], _TXN_PARAMETER_BLOCK, fileinformationstructures_fd9a870c-f8bf-4a9d-8f7c-1dfbdcbab7aa.xml, ifsk.txn_parameter_block, ntddk/PTXN_PARAMETER_BLOCK, ntddk/_TXN_PARAMETER_BLOCK"
 f1_keywords:
  - "ntddk/TXN_PARAMETER_BLOCK"
+ - "TXN_PARAMETER_BLOCK"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h, FltKernel.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddk.h
 api_name:
 - TXN_PARAMETER_BLOCK
-product:
-- Windows
 targetos: Windows
 req.typenames: TXN_PARAMETER_BLOCK, *PTXN_PARAMETER_BLOCK
 ---

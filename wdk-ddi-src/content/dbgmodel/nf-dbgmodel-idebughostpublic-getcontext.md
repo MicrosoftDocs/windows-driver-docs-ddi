@@ -7,6 +7,7 @@ ms.date: 09/18/2018
 keywords: ["IDebugHostPublic::GetContext"]
 f1_keywords:
  - "dbgmodel/IDebugHostPublic.GetContext"
+ - "IDebugHostPublic.GetContext"
 ms.keywords: IDebugHostPublic::GetContext, GetContext, IDebugHostPublic.GetContext, IDebugHostPublic::GetContext, IDebugHostPublic.GetContext
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostPublic.GetContext
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

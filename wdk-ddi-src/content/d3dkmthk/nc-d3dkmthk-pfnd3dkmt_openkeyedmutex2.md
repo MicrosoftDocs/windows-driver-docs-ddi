@@ -9,6 +9,7 @@ keywords: ["PFND3DKMT_OPENKEYEDMUTEX2 callback function"]
 ms.keywords: D3DKMTOpenKeyedMutex2, D3DKMTOpenKeyedMutex2 callback function [Display Devices], PFND3DKMT_OPENKEYEDMUTEX2, PFND3DKMT_OPENKEYEDMUTEX2 callback, d3dkmthk/D3DKMTOpenKeyedMutex2, display.d3dkmtopenkeyedmutex2
 f1_keywords:
  - "d3dkmthk/D3DKMTOpenKeyedMutex2"
+ - "D3DKMTOpenKeyedMutex2"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -35,8 +36,6 @@ api_location:
 - D3dkmthk.h
 api_name:
 - D3DKMTOpenKeyedMutex2
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

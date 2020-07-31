@@ -10,6 +10,7 @@ keywords: ["_USBFN_NOTIFICATION structure"]
 ms.keywords: "*PUSBFN_NOTIFICATION, PUSBFN_NOTIFICATION, PUSBFN_NOTIFICATION structure pointer [Buses], USBFN_NOTIFICATION, USBFN_NOTIFICATION structure [Buses], _USBFN_NOTIFICATION, buses.usbfn_notification, usbfnbase/PUSBFN_NOTIFICATION, usbfnbase/USBFN_NOTIFICATION"
 f1_keywords:
  - "usbfnbase/USBFN_NOTIFICATION"
+ - "USBFN_NOTIFICATION"
 req.header: usbfnbase.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - usbfnbase.h
 api_name:
 - USBFN_NOTIFICATION
-product:
-- Windows
 targetos: Windows
 req.typenames: USBFN_NOTIFICATION, *PUSBFN_NOTIFICATION
 ---

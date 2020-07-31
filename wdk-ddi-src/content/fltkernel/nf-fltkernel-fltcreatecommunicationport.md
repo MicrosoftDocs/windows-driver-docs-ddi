@@ -10,6 +10,7 @@ keywords: ["FltCreateCommunicationPort function"]
 ms.keywords: FltApiRef_a_to_d_77aa523f-3374-41e7-9b9f-ed0d9e5b3094.xml, FltCreateCommunicationPort, FltCreateCommunicationPort function [Installable File System Drivers], fltkernel/FltCreateCommunicationPort, ifsk.fltcreatecommunicationport
 f1_keywords:
  - "fltkernel/FltCreateCommunicationPort"
+ - "FltCreateCommunicationPort"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltCreateCommunicationPort
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -215,7 +214,7 @@ Pointer to information that uniquely identifies this client port. This informati
 
 ### -param MessageNotifyCallback [in, optional]
 
-Pointer to a caller-supplied callback routine. The Filter Manager calls this routine, at IRQL = PASSIVE_LEVEL, whenever a user-mode application calls <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtersendmessage">FilterSendMessage</a> to send a message to the minifilter driver through the client port. This parameter is optional and can be <b>NULL</b>. If it is <b>NULL</b>, any request made from user mode to send data to the port will receive an error. 
+Pointer to a caller-supplied callback routine. The Filter Manager calls this routine, at IRQL = PASSIVE_LEVEL, whenever a user-mode application calls <a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filtersendmessage">FilterSendMessage</a> to send a message to the minifilter driver through the client port. This parameter is optional and can be <b>NULL</b>. If it is <b>NULL</b>, any request made from user mode to send data to the port will receive an error. 
 
 This routine is declared as follows: 
 
@@ -349,7 +348,7 @@ A minifilter driver communication port with the same name already exists. Port n
 
 A minifilter driver calls <b>FltCreateCommunicationPort</b> to create a communication server port object. 
 
-After the server port has been created, a user-mode application can connect to the port by calling <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterconnectcommunicationport">FilterConnectCommunicationPort</a>. When connected, the user-mode application can send and receive messages by calling user-mode messaging functions such as <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtersendmessage">FilterSendMessage</a>, <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtergetmessage">FilterGetMessage</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterreplymessage">FilterReplyMessage</a>. 
+After the server port has been created, a user-mode application can connect to the port by calling <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterconnectcommunicationport">FilterConnectCommunicationPort</a>. When connected, the user-mode application can send and receive messages by calling user-mode messaging functions such as <a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filtersendmessage">FilterSendMessage</a>, <a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filtergetmessage">FilterGetMessage</a>, and <a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filterreplymessage">FilterReplyMessage</a>. 
 
 Callers must set the OBJ_KERNEL_HANDLE <b>Attributes</b> flag for the <i>ObjectAttributes</i> parameter of <b>FltCreateCommunicationPort</b>. Setting this flag prevents the minifilter driver communication server port handle from being used by a user-mode process in whose context a caller of <b>FltCreateCommunicationPort</b> might be running. If this flag is not set, <b>FltCreateCommunicationPort</b> returns STATUS_INVALID_PARAMETER. 
 
@@ -367,15 +366,15 @@ Any server port that is created by <b>FltCreateCommunicationPort</b> must eventu
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtergetmessage">FilterGetMessage</a>
+<a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filtergetmessage">FilterGetMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterreplymessage">FilterReplyMessage</a>
+<a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filterreplymessage">FilterReplyMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtersendmessage">FilterSendMessage</a>
+<a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filtersendmessage">FilterSendMessage</a>
 
 
 

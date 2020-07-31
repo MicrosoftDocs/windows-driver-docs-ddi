@@ -10,6 +10,7 @@ keywords: ["UFS_UNIT_CONFIG_DESCRIPTOR structure"]
 ms.keywords: "*PUFS_UNIT_CONFIG_DESCRIPTOR, PUFS_UNIT_CONFIG_DESCRIPTOR, PUFS_UNIT_CONFIG_DESCRIPTOR structure pointer [Storage Devices], UFS_UNIT_CONFIG_DESCRIPTOR, UFS_UNIT_CONFIG_DESCRIPTOR structure [Storage Devices], storage.ufs_unit_config_descriptor, ufs/PUFS_UNIT_CONFIG_DESCRIPTOR, ufs/UFS_UNIT_CONFIG_DESCRIPTOR"
 f1_keywords:
  - "ufs/UFS_UNIT_CONFIG_DESCRIPTOR"
+ - "UFS_UNIT_CONFIG_DESCRIPTOR"
 req.header: ufs.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ufs.h
 api_name:
 - UFS_UNIT_CONFIG_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: UFS_UNIT_CONFIG_DESCRIPTOR, *PUFS_UNIT_CONFIG_DESCRIPTOR
 ---

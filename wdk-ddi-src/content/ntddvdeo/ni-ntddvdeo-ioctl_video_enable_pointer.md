@@ -10,6 +10,7 @@ keywords: ["IOCTL_VIDEO_ENABLE_POINTER IOCTL"]
 ms.keywords: IOCTL_VIDEO_ENABLE_POINTER, IOCTL_VIDEO_ENABLE_POINTER control, IOCTL_VIDEO_ENABLE_POINTER control code [Display Devices], Video_IOCTLs_89a9a8cc-bfd6-4969-bb8f-26d72cbaa807.xml, display.ioctl_video_enable_pointer, ntddvdeo/IOCTL_VIDEO_ENABLE_POINTER
 f1_keywords:
  - "ntddvdeo/IOCTL_VIDEO_ENABLE_POINTER"
+ - "IOCTL_VIDEO_ENABLE_POINTER"
 req.header: ntddvdeo.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddvdeo.h
 api_name:
 - IOCTL_VIDEO_ENABLE_POINTER
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

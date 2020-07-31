@@ -10,6 +10,7 @@ keywords: ["_NFC_CX_HARDWARE_EVENT structure"]
 ms.keywords: "*PNFC_CX_HARDWARE_EVENT, NFC_CX_HARDWARE_EVENT, NFC_CX_HARDWARE_EVENT structure [Near-Field Proximity Drivers], PNFC_CX_HARDWARE_EVENT, PNFC_CX_HARDWARE_EVENT structure pointer [Near-Field Proximity Drivers], _NFC_CX_HARDWARE_EVENT, nfccx/NFC_CX_HARDWARE_EVENT, nfccx/PNFC_CX_HARDWARE_EVENT, nfpdrivers.nfc_cx_hardware_event"
 f1_keywords:
  - "nfccx/NFC_CX_HARDWARE_EVENT"
+ - "NFC_CX_HARDWARE_EVENT"
 req.header: nfccx.h
 req.include-header: Ncidef.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - nfccx.h
 api_name:
 - NFC_CX_HARDWARE_EVENT
-product:
-- Windows
 targetos: Windows
 req.typenames: NFC_CX_HARDWARE_EVENT, *PNFC_CX_HARDWARE_EVENT
 ---

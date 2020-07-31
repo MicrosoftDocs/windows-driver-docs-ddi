@@ -10,6 +10,7 @@ keywords: ["NDIS_SWITCH_FREE_NET_BUFFER_LIST_FORWARDING_CONTEXT callback functio
 ms.keywords: FreeNetBufferListForwardingContext, FreeNetBufferListForwardingContext callback function [Network Drivers Starting with Windows Vista], NDIS_SWITCH_FREE_NET_BUFFER_LIST_FORWARDING_CONTEXT, NDIS_SWITCH_FREE_NET_BUFFER_LIST_FORWARDING_CONTEXT callback, ndis/FreeNetBufferListForwardingContext, netvista.FreeNetBufferListForwardingContext
 f1_keywords:
  - "ndis/FreeNetBufferListForwardingContext"
+ - "FreeNetBufferListForwardingContext"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - FreeNetBufferListForwardingContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

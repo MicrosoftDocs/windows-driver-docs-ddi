@@ -10,6 +10,7 @@ keywords: ["IWiaMiniDrv::drvWriteItemProperties"]
 ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvWriteItemProperties method, IWiaMiniDrv.drvWriteItemProperties, IWiaMiniDrv::drvWriteItemProperties, MiniDrv_9296f23a-679c-48e0-b594-ece8a1030e50.xml, drvWriteItemProperties, drvWriteItemProperties method [Imaging Devices], drvWriteItemProperties method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvwriteitemproperties, wiamindr_lh/IWiaMiniDrv::drvWriteItemProperties
 f1_keywords:
  - "wiamindr_lh/IWiaMiniDrv.drvWriteItemProperties"
+ - "IWiaMiniDrv.drvWriteItemProperties"
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wiamindr_lh.h
 api_name:
 - IWiaMiniDrv.drvWriteItemProperties
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

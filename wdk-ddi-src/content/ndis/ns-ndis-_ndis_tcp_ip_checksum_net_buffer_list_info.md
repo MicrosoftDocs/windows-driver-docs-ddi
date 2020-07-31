@@ -10,6 +10,7 @@ keywords: ["_NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO structure"]
 ms.keywords: "*PNDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO, NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO, NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO, PNDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO, ndis/NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO, ndis/PNDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO, netvista.ndis_tcp_ip_checksum_net_buffer_list_info, tcpip_offload_ref_2ce657f6-a894-420b-bcb0-310819237c5b.xml"
 f1_keywords:
  - "ndis/NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO"
+ - "NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO, *PNDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO
 ---

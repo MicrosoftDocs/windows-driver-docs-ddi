@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols::EndSymbolMatch"]
 ms.keywords: EndSymbolMatch, EndSymbolMatch method [Windows Debugging], EndSymbolMatch method [Windows Debugging],IDebugSymbols interface, EndSymbolMatch method [Windows Debugging],IDebugSymbols2 interface, EndSymbolMatch method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],EndSymbolMatch method, IDebugSymbols.EndSymbolMatch, IDebugSymbols2 interface [Windows Debugging],EndSymbolMatch method, IDebugSymbols2::EndSymbolMatch, IDebugSymbols3 interface [Windows Debugging],EndSymbolMatch method, IDebugSymbols3::EndSymbolMatch, IDebugSymbols::EndSymbolMatch, IDebugSymbols_1661cc8a-ad5c-4cd3-83fe-f829bd07e453.xml, dbgeng/IDebugSymbols2::EndSymbolMatch, dbgeng/IDebugSymbols3::EndSymbolMatch, dbgeng/IDebugSymbols::EndSymbolMatch, debugger.endsymbolmatch
 f1_keywords:
  - "dbgeng/IDebugSymbols.EndSymbolMatch"
+ - "IDebugSymbols.EndSymbolMatch"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -38,8 +39,6 @@ api_name:
 - IDebugSymbols.EndSymbolMatch
 - IDebugSymbols2.EndSymbolMatch
 - IDebugSymbols3.EndSymbolMatch
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

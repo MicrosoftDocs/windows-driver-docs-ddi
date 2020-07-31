@@ -10,6 +10,7 @@ keywords: ["PSHED_PI_RETRIEVE_ERROR_INFO callback function"]
 ms.keywords: PSHED_PI_RETRIEVE_ERROR_INFO, PSHED_PI_RETRIEVE_ERROR_INFO callback, RetrieveErrorInfo, RetrieveErrorInfo callback function [WHEA Drivers and Applications], ntddk/RetrieveErrorInfo, whea.retrieveerrorinfo, whearef_f231db3f-6108-4229-895f-7e0281b5b3b8.xml
 f1_keywords:
  - "ntddk/RetrieveErrorInfo"
+ - "RetrieveErrorInfo"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Ntddk.h
 api_name:
 - RetrieveErrorInfo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["PROTOCOL_CL_ADD_PARTY_COMPLETE callback function"]
 ms.keywords: PROTOCOL_CL_ADD_PARTY_COMPLETE, PROTOCOL_CL_ADD_PARTY_COMPLETE callback, ProtocolClAddPartyComplete, ProtocolClAddPartyComplete callback function [Network Drivers Starting with Windows Vista], condis_client_ref_9c69b521-649f-4c2b-b665-e79cd8c07e48.xml, ndis/ProtocolClAddPartyComplete, netvista.protocolcladdpartycomplete
 f1_keywords:
  - "ndis/ProtocolClAddPartyComplete"
+ - "ProtocolClAddPartyComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - ProtocolClAddPartyComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

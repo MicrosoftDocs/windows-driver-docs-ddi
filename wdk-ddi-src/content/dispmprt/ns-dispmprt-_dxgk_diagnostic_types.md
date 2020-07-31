@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_DXGK_DIAGNOSTIC_TYPES structure"]
 f1_keywords:
  - "dispmprt/_DXGK_DIAGNOSTIC_TYPES"
+ - "_DXGK_DIAGNOSTIC_TYPES"
 ms.keywords: _DXGK_DIAGNOSTIC_TYPES, DXGK_DIAGNOSTIC_TYPES,
 req.header: dispmprt.h
 req.include-header:

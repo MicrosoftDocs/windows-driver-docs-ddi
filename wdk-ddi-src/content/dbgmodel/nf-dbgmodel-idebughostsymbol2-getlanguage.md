@@ -7,6 +7,7 @@ ms.date: 09/28/2018
 keywords: ["IDebugHostSymbol2::GetLanguage"]
 f1_keywords:
  - "dbgmodel/IDebugHostSymbol2.GetLanguage"
+ - "IDebugHostSymbol2.GetLanguage"
 ms.keywords: IDebugHostSymbol2::GetLanguage, GetLanguage, IDebugHostSymbol2.GetLanguage, IDebugHostSymbol2::GetLanguage, IDebugHostSymbol2.GetLanguage
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostSymbol2.GetLanguage
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

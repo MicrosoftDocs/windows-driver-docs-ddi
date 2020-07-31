@@ -10,6 +10,7 @@ keywords: ["IKsPin::KsPropagateAcquire"]
 ms.keywords: IKsPin interface [Streaming Media Devices],KsPropagateAcquire method, IKsPin.KsPropagateAcquire, IKsPin::KsPropagateAcquire, KsPropagateAcquire, KsPropagateAcquire method [Streaming Media Devices], KsPropagateAcquire method [Streaming Media Devices],IKsPin interface, ksproxy/IKsPin::KsPropagateAcquire, ksproxy_c3ce0cef-0366-4233-afa5-723f9d3bb4e9.xml, stream.ikspin_kspropagateacquire
 f1_keywords:
  - "ksproxy/IKsPin.KsPropagateAcquire"
+ - "IKsPin.KsPropagateAcquire"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ksproxy.h
 api_name:
 - IKsPin.KsPropagateAcquire
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

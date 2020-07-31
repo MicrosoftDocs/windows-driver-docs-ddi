@@ -10,6 +10,7 @@ keywords: ["_SM_SendCTPassThru_OUT structure"]
 ms.keywords: "*PSM_SendCTPassThru_OUT, PSM_SendCTPassThru_OUT, PSM_SendCTPassThru_OUT structure pointer [Storage Devices], SM_SendCTPassThru_OUT, SM_SendCTPassThru_OUT structure [Storage Devices], _SM_SendCTPassThru_OUT, hbapiwmi/PSM_SendCTPassThru_OUT, hbapiwmi/SM_SendCTPassThru_OUT, storage.sm_sendctpassthru_out, structs-Fibre_a3193f45-e459-49a2-a0ab-71bbde4ea1ef.xml"
 f1_keywords:
  - "hbapiwmi/SM_SendCTPassThru_OUT"
+ - "SM_SendCTPassThru_OUT"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - SM_SendCTPassThru_OUT
-product:
-- Windows
 targetos: Windows
 req.typenames: SM_SendCTPassThru_OUT, *PSM_SendCTPassThru_OUT
 ---

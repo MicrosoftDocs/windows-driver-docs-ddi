@@ -10,6 +10,7 @@ keywords: ["KeQueryMaximumProcessorCountEx function"]
 ms.keywords: KeQueryMaximumProcessorCountEx, KeQueryMaximumProcessorCountEx routine [Kernel-Mode Driver Architecture], k105_594dbccc-80ed-4d33-a8ed-a6df6bfdfc09.xml, kernel.kequerymaximumprocessorcountex, wdm/KeQueryMaximumProcessorCountEx
 f1_keywords:
  - "ntddk/KeQueryMaximumProcessorCountEx"
+ - "KeQueryMaximumProcessorCountEx"
 req.header: ntddk.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeQueryMaximumProcessorCountEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

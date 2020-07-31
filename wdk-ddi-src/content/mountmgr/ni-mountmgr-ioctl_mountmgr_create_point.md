@@ -10,6 +10,7 @@ keywords: ["IOCTL_MOUNTMGR_CREATE_POINT IOCTL"]
 ms.keywords: IOCTL_MOUNTMGR_CREATE_POINT, IOCTL_MOUNTMGR_CREATE_POINT control, IOCTL_MOUNTMGR_CREATE_POINT control code [Storage Devices], k307_c1159db5-2699-4bac-9fe9-67ceda477ddb.xml, mountmgr/IOCTL_MOUNTMGR_CREATE_POINT, storage.ioctl_mountmgr_create_point
 f1_keywords:
  - "mountmgr/IOCTL_MOUNTMGR_CREATE_POINT"
+ - "IOCTL_MOUNTMGR_CREATE_POINT"
 req.header: mountmgr.h
 req.include-header: Mountmgr.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Mountmgr.h
 api_name:
 - IOCTL_MOUNTMGR_CREATE_POINT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

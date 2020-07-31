@@ -10,6 +10,7 @@ keywords: ["RILREMOTEPARTYINFO structure"]
 ms.keywords: "*LPRILREMOTEPARTYINFO, RILREMOTEPARTYINFO, RILREMOTEPARTYINFO structure [Network Drivers Starting with Windows Vista], netvista.rilremotepartyinfo, ntddrilapitypes/RILREMOTEPARTYINFO"
 f1_keywords:
  - "ntddrilapitypes/RILREMOTEPARTYINFO"
+ - "RILREMOTEPARTYINFO"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILREMOTEPARTYINFO
-product:
-- Windows
 targetos: Windows
 req.typenames: RILREMOTEPARTYINFO, *LPRILREMOTEPARTYINFO
 ---

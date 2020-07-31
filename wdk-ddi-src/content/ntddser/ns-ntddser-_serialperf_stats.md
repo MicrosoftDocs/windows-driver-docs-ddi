@@ -10,6 +10,7 @@ keywords: ["_SERIALPERF_STATS structure"]
 ms.keywords: "*PSERIALPERF_STATS, PSERIALPERF_STATS, PSERIALPERF_STATS structure pointer [Serial Ports], SERIALPERF_STATS, SERIALPERF_STATS structure [Serial Ports], _SERIALPERF_STATS, ntddser/PSERIALPERF_STATS, ntddser/SERIALPERF_STATS, serports.serialperf_stats"
 f1_keywords:
  - "ntddser/SERIALPERF_STATS"
+ - "SERIALPERF_STATS"
 req.header: ntddser.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddser.h
 api_name:
 - SERIALPERF_STATS
-product:
-- Windows
 targetos: Windows
 req.typenames: SERIALPERF_STATS, *PSERIALPERF_STATS
 ---

@@ -10,6 +10,7 @@ keywords: ["_SET_BAND_LOCATION_PARAMETERS structure"]
 ms.keywords: "*PSET_BAND_LOCATION_PARAMETERS, PSET_BAND_LOCATION_PARAMETERS, PSET_BAND_LOCATION_PARAMETERS structure pointer [Storage Devices], SET_BAND_LOCATION_PARAMETERS, SET_BAND_LOCATION_PARAMETERS structure [Storage Devices], _SET_BAND_LOCATION_PARAMETERS, ehstorbandmgmt/PSET_BAND_LOCATION_PARAMETERS, ehstorbandmgmt/SET_BAND_LOCATION_PARAMETERS, storage.set_band_location_parameters"
 f1_keywords:
  - "ehstorbandmgmt/SET_BAND_LOCATION_PARAMETERS"
+ - "SET_BAND_LOCATION_PARAMETERS"
 req.header: ehstorbandmgmt.h
 req.include-header: EhStorBandMgmt.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - EhStorBandMgmt.h
 api_name:
 - SET_BAND_LOCATION_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: SET_BAND_LOCATION_PARAMETERS, *PSET_BAND_LOCATION_PARAMETERS
 ---

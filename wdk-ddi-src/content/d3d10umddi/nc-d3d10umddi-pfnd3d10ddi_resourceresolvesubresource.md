@@ -9,6 +9,7 @@ keywords: ["PFND3D10DDI_RESOURCERESOLVESUBRESOURCE callback function"]
 ms.keywords: PFND3D10DDI_RESOURCERESOLVESUBRESOURCE, PFND3D10DDI_RESOURCERESOLVESUBRESOURCE callback, ResourceResolveSubresource, ResourceResolveSubresource callback function [Display Devices], UserModeDisplayDriverDx10_Functions_bddd44ef-1872-4285-9b04-fdd509e84527.xml, d3d10umddi/ResourceResolveSubresource, display.resourceresolvesubresource
 f1_keywords:
  - "d3d10umddi/ResourceResolveSubresource"
+ - "ResourceResolveSubresource"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - ResourceResolveSubresource
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

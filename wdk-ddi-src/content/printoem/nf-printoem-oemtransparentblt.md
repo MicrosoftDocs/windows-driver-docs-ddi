@@ -10,6 +10,7 @@ keywords: ["OEMTransparentBlt function"]
 ms.keywords: OEMTransparentBlt, OEMTransparentBlt function [Print Devices], print.oemtransparentblt, print_unidrv-pscript_rendering_a02993f9-58d7-4a42-ad7b-be61bd6b265d.xml, printoem/OEMTransparentBlt
 f1_keywords:
  - "printoem/OEMTransparentBlt"
+ - "OEMTransparentBlt"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - printoem.h
 api_name:
 - OEMTransparentBlt
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["_DXVAHDDDI_STREAM_STATE_PALETTE_DATA structure"]
 ms.keywords: DXVA2_Structs_4b156a58-d13f-4ffc-8ad0-3bdbb5dc7386.xml, DXVAHDDDI_STREAM_STATE_PALETTE_DATA, DXVAHDDDI_STREAM_STATE_PALETTE_DATA structure [Display Devices], _DXVAHDDDI_STREAM_STATE_PALETTE_DATA, d3dumddi/DXVAHDDDI_STREAM_STATE_PALETTE_DATA, display.dxvahdddi_stream_state_palette_data
 f1_keywords:
  - "d3dumddi/DXVAHDDDI_STREAM_STATE_PALETTE_DATA"
+ - "DXVAHDDDI_STREAM_STATE_PALETTE_DATA"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - DXVAHDDDI_STREAM_STATE_PALETTE_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVAHDDDI_STREAM_STATE_PALETTE_DATA
 ---

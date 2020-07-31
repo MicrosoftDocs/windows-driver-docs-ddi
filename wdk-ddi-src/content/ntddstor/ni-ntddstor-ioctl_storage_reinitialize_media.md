@@ -10,6 +10,7 @@ keywords: ["IOCTL_STORAGE_REINITIALIZE_MEDIA IOCTL"]
 ms.keywords: IOCTL_STORAGE_REINITIALIZE_MEDIA, IOCTL_STORAGE_REINITIALIZE_MEDIA control, IOCTL_STORAGE_REINITIALIZE_MEDIA control code [Storage Devices], ntddstor/IOCTL_STORAGE_REINITIALIZE_MEDIA, storage.ioctl_storage_reinitialize_media
 f1_keywords:
  - "ntddstor/IOCTL_STORAGE_REINITIALIZE_MEDIA"
+ - "IOCTL_STORAGE_REINITIALIZE_MEDIA"
 req.header: ntddstor.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddstor.h
 api_name:
 - IOCTL_STORAGE_REINITIALIZE_MEDIA
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

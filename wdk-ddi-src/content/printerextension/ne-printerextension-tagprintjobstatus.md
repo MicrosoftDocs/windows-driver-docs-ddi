@@ -10,6 +10,7 @@ keywords: ["tagPrintJobStatus enumeration"]
 ms.keywords: PrintJobStatus, PrintJobStatus enumeration [Print Devices], PrintJobStatus_BlockedDeviceQueue, PrintJobStatus_Complete, PrintJobStatus_Deleted, PrintJobStatus_Deleting, PrintJobStatus_Error, PrintJobStatus_Offline, PrintJobStatus_PaperOut, PrintJobStatus_Paused, PrintJobStatus_Printed, PrintJobStatus_Printing, PrintJobStatus_Restarted, PrintJobStatus_Retained, PrintJobStatus_Spooling, PrintJobStatus_UserIntervention, print.printjobstatus, printerextension/PrintJobStatus, printerextension/PrintJobStatus_BlockedDeviceQueue, printerextension/PrintJobStatus_Complete, printerextension/PrintJobStatus_Deleted, printerextension/PrintJobStatus_Deleting, printerextension/PrintJobStatus_Error, printerextension/PrintJobStatus_Offline, printerextension/PrintJobStatus_PaperOut, printerextension/PrintJobStatus_Paused, printerextension/PrintJobStatus_Printed, printerextension/PrintJobStatus_Printing, printerextension/PrintJobStatus_Restarted, printerextension/PrintJobStatus_Retained, printerextension/PrintJobStatus_Spooling, printerextension/PrintJobStatus_UserIntervention, tagPrintJobStatus
 f1_keywords:
  - "printerextension/PrintJobStatus"
+ - "PrintJobStatus"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Printerextension.h
 api_name:
 - PrintJobStatus
-product:
-- Windows
 targetos: Windows
 req.typenames: PrintJobStatus
 ---
@@ -50,7 +49,7 @@ req.typenames: PrintJobStatus
 
 This enumeration is a one-to-one mapping to the spooler flags suppled in the JOB_INFO_X structures.
 
-For example, <a href="https://docs.microsoft.com/windows/desktop/printdocs/job-info-1">JOB_INFO_1</a> has the same set of status flags as shown in the following list.
+For example, <a href="https://docs.microsoft.com/windows/win32/printdocs/job-info-1">JOB_INFO_1</a> has the same set of status flags as shown in the following list.
 
 
 ## -enum-fields
@@ -148,7 +147,7 @@ It is possible for a job to have multiple  flag values specified simultaneously.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/job-info-1">JOB_INFO_1</a>
+<a href="https://docs.microsoft.com/windows/win32/printdocs/job-info-1">JOB_INFO_1</a>
  
 
  

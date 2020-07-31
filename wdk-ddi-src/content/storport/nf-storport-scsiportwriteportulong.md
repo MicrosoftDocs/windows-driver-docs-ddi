@@ -10,6 +10,7 @@ keywords: ["ScsiPortWritePortUlong macro"]
 ms.keywords: ScsiPortWritePortUlong, ScsiPortWritePortUlong routine [Storage Devices], scsiprt_9a25b2e5-13e4-40f8-8475-dba34ad7ee3c.xml, srb/ScsiPortWritePortUlong, storage.scsiportwriteportulong
 f1_keywords:
  - "storport/ScsiPortWritePortUlong"
+ - "ScsiPortWritePortUlong"
 req.header: storport.h
 req.include-header: Miniport.h, Scsi.h, Storport.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Scsiport.dll
 api_name:
 - ScsiPortWritePortUlong
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

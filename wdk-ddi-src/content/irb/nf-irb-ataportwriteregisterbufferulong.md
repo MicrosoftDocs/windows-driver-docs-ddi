@@ -10,6 +10,7 @@ keywords: ["AtaPortWriteRegisterBufferUlong function"]
 ms.keywords: AtaPortWriteRegisterBufferUlong, AtaPortWriteRegisterBufferUlong routine [Storage Devices], atartns_678d25ba-ba41-4a94-b689-5f19a89ace7f.xml, irb/AtaPortWriteRegisterBufferUlong, storage.ataportwriteregisterbufferulong
 f1_keywords:
  - "irb/AtaPortWriteRegisterBufferUlong"
+ - "AtaPortWriteRegisterBufferUlong"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
@@ -39,8 +40,6 @@ api_location:
 - pciidex.dll
 api_name:
 - AtaPortWriteRegisterBufferUlong
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

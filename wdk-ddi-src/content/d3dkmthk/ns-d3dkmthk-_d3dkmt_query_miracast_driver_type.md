@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_QUERY_MIRACAST_DRIVER_TYPE structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_QUERY_MIRACAST_DRIVER_TYPE"
+ - "_D3DKMT_QUERY_MIRACAST_DRIVER_TYPE"
 ms.keywords: _D3DKMT_QUERY_MIRACAST_DRIVER_TYPE, D3DKMT_QUERY_MIRACAST_DRIVER_TYPE, 
 req.header: d3dkmthk.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - d3dkmthk.h
 api_name: 
 - _D3DKMT_QUERY_MIRACAST_DRIVER_TYPE
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

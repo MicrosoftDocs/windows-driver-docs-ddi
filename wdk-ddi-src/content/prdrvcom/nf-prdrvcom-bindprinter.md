@@ -10,6 +10,7 @@ keywords: ["BindPrinter function"]
 ms.keywords: BindPrinter, BindPrinter method [Print Devices], BindPrinter method [Print Devices], IPrintOemPrintTicketProvider interface, IPrintOemPrintTicketProvider interface [Print Devices], BindPrinter method, IPrintOemPrintTicketProvider::BindPrinter, prdrvcom/IPrintOemPrintTicketProvider::BindPrinter, print.iprintoemprintticketprovider_bindprinter, print_ticket-package_14890643-fabb-4e03-8d1e-08a6ff7f1c9c.xml
 f1_keywords:
  - "prdrvcom/IPrintOemPrintTicketProvider.BindPrinter"
+ - "IPrintOemPrintTicketProvider.BindPrinter"
 req.header: prdrvcom.h
 req.include-header: Prdrvcom.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - prdrvcom.h
 api_name:
 - IPrintOemPrintTicketProvider.BindPrinter
-product:
-- Windows
 targetos: Windows
 req.typenames: SHIMOPTS, *PSHIMOPTS
 req.product: Windows 10 or later.

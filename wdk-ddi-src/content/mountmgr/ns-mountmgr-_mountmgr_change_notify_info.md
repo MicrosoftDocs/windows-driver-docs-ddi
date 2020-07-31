@@ -10,6 +10,7 @@ keywords: ["_MOUNTMGR_CHANGE_NOTIFY_INFO structure"]
 ms.keywords: "*PMOUNTMGR_CHANGE_NOTIFY_INFO, MOUNTMGR_CHANGE_NOTIFY_INFO, MOUNTMGR_CHANGE_NOTIFY_INFO structure [Storage Devices], PMOUNTMGR_CHANGE_NOTIFY_INFO, PMOUNTMGR_CHANGE_NOTIFY_INFO structure pointer [Storage Devices], _MOUNTMGR_CHANGE_NOTIFY_INFO, mountmgr/MOUNTMGR_CHANGE_NOTIFY_INFO, mountmgr/PMOUNTMGR_CHANGE_NOTIFY_INFO, storage.mountmgr_change_notify_info, structs-mntmgr_4d6cf8d3-c3cd-4ff5-8ff0-7fac5946d6a5.xml"
 f1_keywords:
  - "mountmgr/MOUNTMGR_CHANGE_NOTIFY_INFO"
+ - "MOUNTMGR_CHANGE_NOTIFY_INFO"
 req.header: mountmgr.h
 req.include-header: Mountmgr.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - mountmgr.h
 api_name:
 - MOUNTMGR_CHANGE_NOTIFY_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: MOUNTMGR_CHANGE_NOTIFY_INFO, *PMOUNTMGR_CHANGE_NOTIFY_INFO
 ---

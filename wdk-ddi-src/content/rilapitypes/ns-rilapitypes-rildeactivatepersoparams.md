@@ -10,6 +10,7 @@ keywords: ["RILDEACTIVATEPERSOPARAMS structure"]
 ms.keywords: "*LPRILDEACTIVATEPERSOPARAMS, RILDEACTIVATEPERSOPARAMS, RILDEACTIVATEPERSOPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rildeactivatepersoparams, ntddrilapitypes/RILDEACTIVATEPERSOPARAMS"
 f1_keywords:
  - "rilapitypes/RILDEACTIVATEPERSOPARAMS"
+ - "RILDEACTIVATEPERSOPARAMS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILDEACTIVATEPERSOPARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILDEACTIVATEPERSOPARAMS, *LPRILDEACTIVATEPERSOPARAMS
 ---

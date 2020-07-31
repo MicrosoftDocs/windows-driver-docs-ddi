@@ -10,6 +10,7 @@ keywords: ["IDebugControl2::GetWindbgExtensionApis32"]
 ms.keywords: GetWindbgExtensionApis32, GetWindbgExtensionApis32 method [Windows Debugging], GetWindbgExtensionApis32 method [Windows Debugging],IDebugControl interface, GetWindbgExtensionApis32 method [Windows Debugging],IDebugControl2 interface, GetWindbgExtensionApis32 method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetWindbgExtensionApis32 method, IDebugControl2 interface [Windows Debugging],GetWindbgExtensionApis32 method, IDebugControl2.GetWindbgExtensionApis32, IDebugControl2::GetWindbgExtensionApis32, IDebugControl3 interface [Windows Debugging],GetWindbgExtensionApis32 method, IDebugControl3::GetWindbgExtensionApis32, IDebugControl::GetWindbgExtensionApis32, dbgeng/IDebugControl2::GetWindbgExtensionApis32, dbgeng/IDebugControl3::GetWindbgExtensionApis32, dbgeng/IDebugControl::GetWindbgExtensionApis32, debugger.idebugcontrol_getwindbgextensionapis32
 f1_keywords:
  - "dbgeng/IDebugControl.GetWindbgExtensionApis32"
+ - "IDebugControl.GetWindbgExtensionApis32"
 req.header: dbgeng.h
 req.include-header: 
 req.target-type: Windows
@@ -38,8 +39,6 @@ api_name:
 - IDebugControl.GetWindbgExtensionApis32
 - IDebugControl2.GetWindbgExtensionApis32
 - IDebugControl3.GetWindbgExtensionApis32
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

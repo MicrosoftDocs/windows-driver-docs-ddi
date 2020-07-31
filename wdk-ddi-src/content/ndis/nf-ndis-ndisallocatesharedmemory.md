@@ -10,6 +10,7 @@ keywords: ["NdisAllocateSharedMemory function"]
 ms.keywords: NdisAllocateSharedMemory, NdisAllocateSharedMemory function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateSharedMemory, ndis_shared_memory_ref_252ce78e-6920-4825-9537-c1ddd2f9f900.xml, netvista.ndisallocatesharedmemory
 f1_keywords:
  - "ndis/NdisAllocateSharedMemory"
+ - "NdisAllocateSharedMemory"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisAllocateSharedMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

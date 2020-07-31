@@ -10,6 +10,7 @@ keywords: ["IPrintCoreUI2::GetFeatureAttribute"]
 ms.keywords: GetFeatureAttribute, GetFeatureAttribute method [Print Devices], GetFeatureAttribute method [Print Devices],IPrintCoreUI2 interface, IPrintCoreUI2 interface [Print Devices],GetFeatureAttribute method, IPrintCoreUI2.GetFeatureAttribute, IPrintCoreUI2::GetFeatureAttribute, prcomoem/IPrintCoreUI2::GetFeatureAttribute, print.iprintcoreui2_getfeatureattribute, print_unidrv-pscript_ui_47513174-ac2c-4c61-9847-35244e31c486.xml
 f1_keywords:
  - "prcomoem/IPrintCoreUI2.GetFeatureAttribute"
+ - "IPrintCoreUI2.GetFeatureAttribute"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - prcomoem.h
 api_name:
 - IPrintCoreUI2.GetFeatureAttribute
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IoQueryFileInformation function"]
 ms.keywords: IoQueryFileInformation, IoQueryFileInformation function [Installable File System Drivers], ifsk.ioqueryfileinformation, ioref_7dc69c37-bd12-4857-ae49-69d0d29d8e72.xml, ntifs/IoQueryFileInformation
 f1_keywords:
  - "ntifs/IoQueryFileInformation"
+ - "IoQueryFileInformation"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - IoQueryFileInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

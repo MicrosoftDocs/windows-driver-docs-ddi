@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["PFND3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT2 callback function"]
 f1_keywords:
  - "d3dkmthk/PFND3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT2"
+ - "PFND3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT2"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -32,8 +33,6 @@ api_location:
 - d3dkmthk.h
 api_name: 
 - PFND3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT2
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

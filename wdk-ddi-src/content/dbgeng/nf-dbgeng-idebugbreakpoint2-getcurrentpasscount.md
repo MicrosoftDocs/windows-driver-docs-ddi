@@ -10,6 +10,7 @@ keywords: ["IDebugBreakpoint2::GetCurrentPassCount"]
 ms.keywords: ComOther_b9308489-679e-4ced-bd73-84cbeaadc669.xml, GetCurrentPassCount, GetCurrentPassCount method [Windows Debugging], GetCurrentPassCount method [Windows Debugging],IDebugBreakpoint interface, GetCurrentPassCount method [Windows Debugging],IDebugBreakpoint2 interface, IDebugBreakpoint interface [Windows Debugging],GetCurrentPassCount method, IDebugBreakpoint2 interface [Windows Debugging],GetCurrentPassCount method, IDebugBreakpoint2.GetCurrentPassCount, IDebugBreakpoint2::GetCurrentPassCount, IDebugBreakpoint::GetCurrentPassCount, dbgeng/IDebugBreakpoint2::GetCurrentPassCount, dbgeng/IDebugBreakpoint::GetCurrentPassCount, debugger.getcurrentpasscount
 f1_keywords:
  - "dbgeng/IDebugBreakpoint.GetCurrentPassCount"
+ - "IDebugBreakpoint.GetCurrentPassCount"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IDebugBreakpoint.GetCurrentPassCount
 - IDebugBreakpoint2.GetCurrentPassCount
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

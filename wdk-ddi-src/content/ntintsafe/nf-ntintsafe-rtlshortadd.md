@@ -10,6 +10,7 @@ keywords: ["RtlShortAdd function"]
 ms.keywords: RtlShortAdd, RtlShortAdd function [Kernel-Mode Driver Architecture], kernel.rtlshortadd, ntintsafe/RtlShortAdd
 f1_keywords:
  - "ntintsafe/RtlShortAdd"
+ - "RtlShortAdd"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Ntintsafe.h
 api_name:
 - RtlShortAdd
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

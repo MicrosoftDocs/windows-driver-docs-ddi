@@ -10,6 +10,7 @@ keywords: ["_STACK_SRC_INFO structure"]
 ms.keywords: "*PSTACK_SRC_INFO, PSTACK_SRC_INFO, PSTACK_SRC_INFO structure pointer [Windows Debugging], STACK_SRC_INFO, STACK_SRC_INFO structure [Windows Debugging], _STACK_SRC_INFO, dbgeng/PSTACK_SRC_INFO, dbgeng/STACK_SRC_INFO, debugger.stack_src_info"
 f1_keywords:
  - "dbgeng/STACK_SRC_INFO"
+ - "STACK_SRC_INFO"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - STACK_SRC_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: STACK_SRC_INFO, *PSTACK_SRC_INFO
 ---

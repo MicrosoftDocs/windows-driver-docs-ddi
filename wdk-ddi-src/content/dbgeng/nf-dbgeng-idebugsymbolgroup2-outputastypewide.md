@@ -10,6 +10,7 @@ keywords: ["IDebugSymbolGroup2::OutputAsTypeWide"]
 ms.keywords: IDebugSymbolGroup2 interface [Windows Debugging],OutputAsTypeWide method, IDebugSymbolGroup2.OutputAsTypeWide, IDebugSymbolGroup2::OutputAsTypeWide, OutputAsTypeWide, OutputAsTypeWide method [Windows Debugging], OutputAsTypeWide method [Windows Debugging],IDebugSymbolGroup2 interface, dbgeng/IDebugSymbolGroup2::OutputAsTypeWide, debugger.outputastypewide
 f1_keywords:
  - "dbgeng/IDebugSymbolGroup2.OutputAsTypeWide"
+ - "IDebugSymbolGroup2.OutputAsTypeWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugSymbolGroup2.OutputAsTypeWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

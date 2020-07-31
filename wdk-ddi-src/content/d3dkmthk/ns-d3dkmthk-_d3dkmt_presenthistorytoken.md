@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_PRESENTHISTORYTOKEN structure"]
 ms.keywords: D3DKMT_PRESENTHISTORYTOKEN, D3DKMT_PRESENTHISTORYTOKEN structure [Display Devices], OpenGL_Structs_6a454620-8217-4119-bbdd-4caa83169e27.xml, _D3DKMT_PRESENTHISTORYTOKEN, d3dkmthk/D3DKMT_PRESENTHISTORYTOKEN, display.d3dkmt_presenthistorytoken
 f1_keywords:
  - "d3dkmthk/D3DKMT_PRESENTHISTORYTOKEN"
+ - "D3DKMT_PRESENTHISTORYTOKEN"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMT_PRESENTHISTORYTOKEN
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_PRESENTHISTORYTOKEN

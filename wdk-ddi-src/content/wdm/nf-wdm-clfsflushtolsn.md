@@ -10,6 +10,7 @@ keywords: ["ClfsFlushToLsn function"]
 ms.keywords: ClfsFlushToLsn, ClfsFlushToLsn routine [Kernel-Mode Driver Architecture], Clfs_80676b51-aa14-42bf-92ae-d11cf0a694b5.xml, kernel.clfsflushtolsn, wdm/ClfsFlushToLsn
 f1_keywords:
  - "wdm/ClfsFlushToLsn"
+ - "ClfsFlushToLsn"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
 - ClfsFlushToLsn
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["ISensorClassExtension::Initialize"]
 ms.keywords: ISensorClassExtension interface [Sensor Devices],Initialize method, ISensorClassExtension.Initialize, ISensorClassExtension::Initialize, Initialize, Initialize method [Sensor Devices], Initialize method [Sensor Devices],ISensorClassExtension interface, sensors.isensorclassextension_initialize, sensorsclassextension/ISensorClassExtension::Initialize
 f1_keywords:
  - "sensorsclassextension/Initialize"
+ - "Initialize"
 req.header: sensorsclassextension.h
 req.include-header: 
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 - SensorsClassExtension.dll
 api_name:
 - Initialize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["WRITE_REGISTER_BUFFER_UCHAR function"]
 ms.keywords: WRITE_REGISTER_BUFFER_UCHAR, WRITE_REGISTER_BUFFER_UCHAR function, umdf.write_register_buffer_uchar, wdf.write_register_buffer_uchar, wudfddi_hwaccess/WRITE_REGISTER_BUFFER_UCHAR
 f1_keywords:
  - "wudfddi_hwaccess/WRITE_REGISTER_BUFFER_UCHAR"
+ - "WRITE_REGISTER_BUFFER_UCHAR"
 req.header: wudfddi_hwaccess.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wudfddi_hwaccess.h
 api_name:
 - WRITE_REGISTER_BUFFER_UCHAR
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

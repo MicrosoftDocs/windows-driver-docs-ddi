@@ -10,6 +10,7 @@ keywords: ["IOCTL_PAR_QUERY_DEVICE_ID_SIZE IOCTL"]
 ms.keywords: IOCTL_PAR_QUERY_DEVICE_ID_SIZE, IOCTL_PAR_QUERY_DEVICE_ID_SIZE control code [Parallel Ports], cisspd_a1c3f5cd-d1bc-40e5-a1e0-dc4306107826.xml, ntddpar/IOCTL_PAR_QUERY_DEVICE_ID_SIZE, parports.ioctl_par_query_device_id_size
 f1_keywords:
  - "ntddpar/IOCTL_PAR_QUERY_DEVICE_ID_SIZE"
+ - "IOCTL_PAR_QUERY_DEVICE_ID_SIZE"
 req.header: ntddpar.h
 req.include-header: Ntddpar.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddpar.h
 api_name:
 - IOCTL_PAR_QUERY_DEVICE_ID_SIZE
-product:
-- Windows
 targetos: Windows
 req.typenames: OFFLOAD_SECURITY_ASSOCIATION, *POFFLOAD_SECURITY_ASSOCIATION
 ---

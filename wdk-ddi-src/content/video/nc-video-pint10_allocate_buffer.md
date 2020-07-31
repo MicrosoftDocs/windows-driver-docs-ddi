@@ -10,6 +10,7 @@ keywords: ["PINT10_ALLOCATE_BUFFER callback function"]
 ms.keywords: Int10AllocateBuffer, Int10AllocateBuffer callback function [Display Devices], PINT10_ALLOCATE_BUFFER, PINT10_ALLOCATE_BUFFER callback, VideoPort_Functions_9e19d07d-46a9-46ee-97db-6548202ff14f.xml, display.int10allocatebuffer, video/Int10AllocateBuffer
 f1_keywords:
  - "video/Int10AllocateBuffer"
+ - "Int10AllocateBuffer"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - video.h
 api_name:
 - Int10AllocateBuffer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

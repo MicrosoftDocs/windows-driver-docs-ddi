@@ -10,6 +10,7 @@ keywords: ["_BdaLockType enumeration"]
 ms.keywords: BDA_LockType, BDA_LockType enumeration [Streaming Media Devices], Bda_LockType_Complete, Bda_LockType_DecoderDemod, Bda_LockType_None, Bda_LockType_PLL, _BdaLockType, bdamedia/BDA_LockType, bdamedia/Bda_LockType_Complete, bdamedia/Bda_LockType_DecoderDemod, bdamedia/Bda_LockType_None, bdamedia/Bda_LockType_PLL, bdaref_46e4b273-15bc-47bc-a14b-2a6be1cc3c0f.xml, stream.bda_locktype
 f1_keywords:
  - "bdamedia/BDA_LockType"
+ - "BDA_LockType"
 req.header: bdamedia.h
 req.include-header: Bdamedia.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - bdamedia.h
 api_name:
 - BDA_LockType
-product:
-- Windows
 targetos: Windows
 req.typenames: BDA_LockType
 ---

@@ -10,6 +10,7 @@ keywords: ["KeInitializeThreadedDpc function"]
 ms.keywords: KeInitializeThreadedDpc, KeInitializeThreadedDpc routine [Kernel-Mode Driver Architecture], k105_b5df057f-6d75-4a06-ac5f-d99340bdbb21.xml, kernel.keinitializethreadeddpc, wdm/KeInitializeThreadedDpc
 f1_keywords:
  - "wdm/KeInitializeThreadedDpc"
+ - "KeInitializeThreadedDpc"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeInitializeThreadedDpc
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

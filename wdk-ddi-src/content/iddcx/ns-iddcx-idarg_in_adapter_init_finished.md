@@ -10,6 +10,7 @@ keywords: ["IDARG_IN_ADAPTER_INIT_FINISHED structure"]
 ms.keywords: IDARG_IN_ADAPTER_INIT_FINISHED, IDARG_IN_ADAPTER_INIT_FINISHED structure [Display Devices], display.idarg_in_adapter_init_finished, iddcx/IDARG_IN_ADAPTER_INIT_FINISHED
 f1_keywords:
  - "iddcx/IDARG_IN_ADAPTER_INIT_FINISHED"
+ - "IDARG_IN_ADAPTER_INIT_FINISHED"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - iddcx.h
 api_name:
 - IDARG_IN_ADAPTER_INIT_FINISHED
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

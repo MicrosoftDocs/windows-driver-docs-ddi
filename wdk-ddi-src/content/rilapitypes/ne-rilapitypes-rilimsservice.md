@@ -10,6 +10,7 @@ keywords: ["RILIMSSERVICE enumeration"]
 ms.keywords: RILIMSSERVICE, RILIMSSERVICE enumeration [Network Drivers Starting with Windows Vista], RIL_IMS_SERVICE_ALL, RIL_IMS_SERVICE_CUSTOM, RIL_IMS_SERVICE_E_VOICE, RIL_IMS_SERVICE_RCS, RIL_IMS_SERVICE_SUPSVC, RIL_IMS_SERVICE_USSD, RIL_IMS_SERVICE_VIDEO, RIL_IMS_SERVICE_VOICE, netvista.rilimsservice_2, rilapitypes/RILIMSSERVICE, rilapitypes/RIL_IMS_SERVICE_ALL, rilapitypes/RIL_IMS_SERVICE_CUSTOM, rilapitypes/RIL_IMS_SERVICE_E_VOICE, rilapitypes/RIL_IMS_SERVICE_RCS, rilapitypes/RIL_IMS_SERVICE_SUPSVC, rilapitypes/RIL_IMS_SERVICE_USSD, rilapitypes/RIL_IMS_SERVICE_VIDEO, rilapitypes/RIL_IMS_SERVICE_VOICE
 f1_keywords:
  - "rilapitypes/RILIMSSERVICE"
+ - "RILIMSSERVICE"
 req.header: rilapitypes.h
 req.include-header:
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapitypes.h
 api_name:
 - RILIMSSERVICE
-product:
-- Windows
 targetos: Windows
 req.typenames: RILIMSSERVICE
 req.product: Windows 10 or later.

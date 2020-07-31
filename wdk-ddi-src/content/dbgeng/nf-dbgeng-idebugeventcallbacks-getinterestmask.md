@@ -10,6 +10,7 @@ keywords: ["IDebugEventCallbacks::GetInterestMask"]
 ms.keywords: ComCallbacks_564e7fce-ee9a-404e-9ae4-06805cb0b677.xml, GetInterestMask, GetInterestMask method [Windows Debugging], GetInterestMask method [Windows Debugging],IDebugEventCallbacks interface, IDebugEventCallbacks interface [Windows Debugging],GetInterestMask method, IDebugEventCallbacks.GetInterestMask, IDebugEventCallbacks::GetInterestMask, dbgeng/IDebugEventCallbacks::GetInterestMask, debugger.idebugeventcallbacks_getinterestmask
 f1_keywords:
  - "dbgeng/IDebugEventCallbacks.GetInterestMask"
+ - "IDebugEventCallbacks.GetInterestMask"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugEventCallbacks.GetInterestMask
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

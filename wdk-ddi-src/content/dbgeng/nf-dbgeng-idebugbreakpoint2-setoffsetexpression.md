@@ -10,6 +10,7 @@ keywords: ["IDebugBreakpoint2::SetOffsetExpression"]
 ms.keywords: ComOther_d34036ae-b160-4b24-86d0-ebd2bd8408ea.xml, IDebugBreakpoint interface [Windows Debugging],SetOffsetExpression method, IDebugBreakpoint2 interface [Windows Debugging],SetOffsetExpression method, IDebugBreakpoint2.SetOffsetExpression, IDebugBreakpoint2::SetOffsetExpression, IDebugBreakpoint::SetOffsetExpression, SetOffsetExpression, SetOffsetExpression method [Windows Debugging], SetOffsetExpression method [Windows Debugging],IDebugBreakpoint interface, SetOffsetExpression method [Windows Debugging],IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint2::SetOffsetExpression, dbgeng/IDebugBreakpoint::SetOffsetExpression, debugger.setoffsetexpression
 f1_keywords:
  - "dbgeng/IDebugBreakpoint.SetOffsetExpression"
+ - "IDebugBreakpoint.SetOffsetExpression"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IDebugBreakpoint.SetOffsetExpression
 - IDebugBreakpoint2.SetOffsetExpression
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

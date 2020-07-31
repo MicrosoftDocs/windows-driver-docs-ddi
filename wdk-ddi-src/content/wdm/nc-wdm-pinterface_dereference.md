@@ -10,6 +10,7 @@ keywords: ["PINTERFACE_DEREFERENCE callback function"]
 ms.keywords: InterfaceDereference, InterfaceDereference routine [Kernel-Mode Driver Architecture], PINTERFACE_DEREFERENCE, drvr_interface_96e41fd1-22ff-48d9-85ae-94b735ba67bf.xml, kernel.interfacedereference, wdm/InterfaceDereference
 f1_keywords:
  - "wdm/InterfaceDereference"
+ - "InterfaceDereference"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Miniport.h, Wudfwdm.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - InterfaceDereference
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

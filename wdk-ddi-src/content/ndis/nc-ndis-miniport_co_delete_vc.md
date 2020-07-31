@@ -10,6 +10,7 @@ keywords: ["MINIPORT_CO_DELETE_VC callback function"]
 ms.keywords: MINIPORT_CO_DELETE_VC, MINIPORT_CO_DELETE_VC callback, MiniportCoDeleteVc, MiniportCoDeleteVc callback function [Network Drivers Starting with Windows Vista], condis_miniport_ref_4a19285a-9595-4ea0-bf86-ec69474a9716.xml, ndis/MiniportCoDeleteVc, netvista.miniportcodeletevc
 f1_keywords:
  - "ndis/MiniportCoDeleteVc"
+ - "MiniportCoDeleteVc"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - MiniportCoDeleteVc
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

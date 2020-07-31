@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["DEVICE_USAGE_NOTIFICATION_TYPE enumeration"]
 f1_keywords:
  - "wdm/DEVICE_USAGE_NOTIFICATION_TYPE"
+ - "DEVICE_USAGE_NOTIFICATION_TYPE"
 ms.keywords: DEVICE_USAGE_NOTIFICATION_TYPE, DEVICE_USAGE_NOTIFICATION_TYPE, 
 req.header: wdm.h
 req.include-header:

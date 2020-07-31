@@ -10,6 +10,7 @@ keywords: ["wiasGetItemType function"]
 ms.keywords: image.wiasgetitemtype, wiamdef/wiasGetItemType, wiasFncs_634f945c-e60b-4668-b1a7-19b398a86e7c.xml, wiasGetItemType, wiasGetItemType function [Imaging Devices]
 f1_keywords:
  - "wiamdef/wiasGetItemType"
+ - "wiasGetItemType"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wiaservc.dll
 api_name:
 - wiasGetItemType
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

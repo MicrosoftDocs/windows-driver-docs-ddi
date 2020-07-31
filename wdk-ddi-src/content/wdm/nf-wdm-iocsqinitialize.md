@@ -10,6 +10,7 @@ keywords: ["IoCsqInitialize function"]
 ms.keywords: IoCsqInitialize, IoCsqInitialize routine [Kernel-Mode Driver Architecture], k104_08afe4e8-f68d-4490-86ec-a558b2090a82.xml, kernel.iocsqinitialize, wdm/IoCsqInitialize
 f1_keywords:
  - "wdm/IoCsqInitialize"
+ - "IoCsqInitialize"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoCsqInitialize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

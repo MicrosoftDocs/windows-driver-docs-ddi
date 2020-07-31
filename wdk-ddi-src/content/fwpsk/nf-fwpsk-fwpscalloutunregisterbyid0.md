@@ -10,6 +10,7 @@ keywords: ["FwpsCalloutUnregisterById0 function"]
 ms.keywords: FwpsCalloutUnregisterById0, FwpsCalloutUnregisterById0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsCalloutUnregisterById0, netvista.fwpscalloutunregisterbyid0, wfp_ref_2_funct_3_fwps_C_7bfae7f1-e5f2-4361-bbc0-6c5fef63a267.xml
 f1_keywords:
  - "fwpsk/FwpsCalloutUnregisterById0"
+ - "FwpsCalloutUnregisterById0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - fwpkclnt.dll
 api_name:
 - FwpsCalloutUnregisterById0
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

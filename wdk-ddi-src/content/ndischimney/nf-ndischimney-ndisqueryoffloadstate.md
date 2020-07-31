@@ -10,6 +10,7 @@ keywords: ["NdisQueryOffloadState function"]
 ms.keywords: NdisQueryOffloadState, NdisQueryOffloadState function [Network Drivers Starting with Windows Vista], ndis/NdisQueryOffloadState, netvista.ndisqueryoffload, tcp_chim_ndis_func_9075e6da-2950-4643-b626-36b4a9ce5a33.xml
 f1_keywords:
  - "ndischimney/NdisQueryOffloadState"
+ - "NdisQueryOffloadState"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NdisQueryOffloadState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

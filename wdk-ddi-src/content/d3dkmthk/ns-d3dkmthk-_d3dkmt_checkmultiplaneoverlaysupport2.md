@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT2 structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT2"
+ - "_D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT2"
 ms.keywords: _D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT2, D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT2, 
 req.header: d3dkmthk.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - d3dkmthk.h
 api_name: 
 - _D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT2
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

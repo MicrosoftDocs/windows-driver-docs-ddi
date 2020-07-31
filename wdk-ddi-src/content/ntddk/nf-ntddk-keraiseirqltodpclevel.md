@@ -10,6 +10,7 @@ keywords: ["KeRaiseIrqlToDpcLevel function"]
 ms.keywords: KeRaiseIrqlToDpcLevel, KeRaiseIrqlToDpcLevel routine [Kernel-Mode Driver Architecture], k105_64c33a5b-8efa-4d97-9569-2ea68a227d17.xml, kernel.keraiseirqltodpclevel, wdm/KeRaiseIrqlToDpcLevel
 f1_keywords:
  - "ntddk/KeRaiseIrqlToDpcLevel"
+ - "KeRaiseIrqlToDpcLevel"
 req.header: ntddk.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Hal.dll
 api_name:
 - KeRaiseIrqlToDpcLevel
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

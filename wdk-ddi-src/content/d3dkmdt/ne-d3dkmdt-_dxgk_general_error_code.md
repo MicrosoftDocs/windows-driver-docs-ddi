@@ -10,6 +10,7 @@ keywords: ["_DXGK_GENERAL_ERROR_CODE enumeration"]
 ms.keywords: DXGK_GENERAL_ERROR_CODE, DXGK_GENERAL_ERROR_CODE enumeration [Display Devices], DXGK_GENERAL_ERROR_INVALID_INSTRUCTION, DXGK_GENERAL_ERROR_PAGE_FAULT, _DXGK_GENERAL_ERROR_CODE, d3dkmdt/DXGK_GENERAL_ERROR_CODE, d3dkmdt/DXGK_GENERAL_ERROR_INVALID_INSTRUCTION, d3dkmdt/DXGK_GENERAL_ERROR_PAGE_FAULT, display.dxgk_general_error_code
 f1_keywords:
  - "d3dkmdt/DXGK_GENERAL_ERROR_CODE"
+ - "DXGK_GENERAL_ERROR_CODE"
 req.header: d3dkmdt.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - D3dkmdt.h
 api_name:
 - DXGK_GENERAL_ERROR_CODE
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGK_GENERAL_ERROR_CODE
 ---

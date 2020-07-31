@@ -10,6 +10,7 @@ keywords: ["ExtRemoteData::GetDouble"]
 ms.keywords: EngExtCpp_Ref_8776e6fd-9e13-4502-a445-da65a8fcfe41.xml, ExtRemoteData class [Windows Debugging],GetDouble method, ExtRemoteData.GetDouble, ExtRemoteData::GetDouble, GetDouble, GetDouble method [Windows Debugging], GetDouble method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_getdouble
 f1_keywords:
  - "engextcpp/ExtRemoteData.GetDouble"
+ - "ExtRemoteData.GetDouble"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - engextcpp.hpp
 api_name:
 - ExtRemoteData.GetDouble
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

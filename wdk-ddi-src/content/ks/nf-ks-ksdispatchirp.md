@@ -10,6 +10,7 @@ keywords: ["KsDispatchIrp function"]
 ms.keywords: KsDispatchIrp, KsDispatchIrp routine [Streaming Media Devices], ks/KsDispatchIrp, ksfunc_ed03b195-fcb3-41ca-9794-c9b9f04ce8c9.xml, stream.ksdispatchirp
 f1_keywords:
  - "ks/KsDispatchIrp"
+ - "KsDispatchIrp"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsDispatchIrp
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

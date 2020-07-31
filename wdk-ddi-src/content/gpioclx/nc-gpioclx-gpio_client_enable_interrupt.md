@@ -10,6 +10,7 @@ keywords: ["GPIO_CLIENT_ENABLE_INTERRUPT callback function"]
 ms.keywords: CLIENT_EnableInterrupt, CLIENT_EnableInterrupt callback, CLIENT_EnableInterrupt callback function [Parallel Ports], GPIO.client_enableinterrupt, GPIO_CLIENT_ENABLE_INTERRUPT, gpioclx/CLIENT_EnableInterrupt
 f1_keywords:
  - "gpioclx/CLIENT_EnableInterrupt"
+ - "CLIENT_EnableInterrupt"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Gpioclx.h
 api_name:
 - CLIENT_EnableInterrupt
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

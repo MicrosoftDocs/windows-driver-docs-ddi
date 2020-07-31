@@ -10,6 +10,7 @@ keywords: ["FsRtlCheckLockForReadAccess function"]
 ms.keywords: FsRtlCheckLockForReadAccess, FsRtlCheckLockForReadAccess routine [Installable File System Drivers], fsrtlref_6ec3721a-c748-40c2-8469-336a56fd9eb6.xml, ifsk.fsrtlchecklockforreadaccess, ntifs/FsRtlCheckLockForReadAccess
 f1_keywords:
  - "ntifs/FsRtlCheckLockForReadAccess"
+ - "FsRtlCheckLockForReadAccess"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlCheckLockForReadAccess
-product:
-- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---

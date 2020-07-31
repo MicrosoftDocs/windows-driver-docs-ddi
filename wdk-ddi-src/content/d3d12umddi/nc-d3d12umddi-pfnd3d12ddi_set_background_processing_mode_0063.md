@@ -29,6 +29,7 @@ targetos: Windows
 ms.custom: D3D12 Release 6, Build rev 3., 19H1
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_SET_BACKGROUND_PROCESSING_MODE_0063"
+ - "PFND3D12DDI_SET_BACKGROUND_PROCESSING_MODE_0063"
 topic_type:
  - apiref
 api_type:

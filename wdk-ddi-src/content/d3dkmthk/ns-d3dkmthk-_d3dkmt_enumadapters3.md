@@ -7,6 +7,7 @@ ms.date: 03/24/2020
 keywords: ["_D3DKMT_ENUMADAPTERS3 structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_ENUMADAPTERS3"
+ - "_D3DKMT_ENUMADAPTERS3"
 ms.keywords: _D3DKMT_ENUMADAPTERS3, D3DKMT_ENUMADAPTERS3, 
 req.header: d3dkmthk.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - d3dkmthk.h
 api_name: 
 - _D3DKMT_ENUMADAPTERS3
-product:
-- Windows
 targetos: Windows
 ms.custom:
 dev_langs:

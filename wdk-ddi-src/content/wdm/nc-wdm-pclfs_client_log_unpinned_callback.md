@@ -10,6 +10,7 @@ keywords: ["PCLFS_CLIENT_LOG_UNPINNED_CALLBACK callback function"]
 ms.keywords: ClfsLogUnpinnedCallback, ClfsLogUnpinnedCallback callback function [Kernel-Mode Driver Architecture], Clfs_management_e82832a3-b4b9-48c7-a706-9d489a55f728.xml, PCLFS_CLIENT_LOG_UNPINNED_CALLBACK, PCLFS_CLIENT_LOG_UNPINNED_CALLBACK callback, kernel.clfslogunpinnedcallback, wdm/ClfsLogUnpinnedCallback
 f1_keywords:
  - "wdm/ClfsLogUnpinnedCallback"
+ - "ClfsLogUnpinnedCallback"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - ClfsLogUnpinnedCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

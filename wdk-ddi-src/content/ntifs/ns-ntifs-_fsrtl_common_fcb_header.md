@@ -10,6 +10,7 @@ keywords: ["_FSRTL_COMMON_FCB_HEADER structure"]
 ms.keywords: "*PFSRTL_COMMON_FCB_HEADER, FSRTL_COMMON_FCB_HEADER, FSRTL_COMMON_FCB_HEADER structure [Installable File System Drivers], PFSRTL_COMMON_FCB_HEADER, PFSRTL_COMMON_FCB_HEADER structure pointer [Installable File System Drivers], _FSRTL_COMMON_FCB_HEADER, contextstructures_775f0b4a-8043-4125-85b4-530a79ed76ba.xml, ifsk.fsrtl_common_fcb_header, ntifs/FSRTL_COMMON_FCB_HEADER, ntifs/PFSRTL_COMMON_FCB_HEADER"
 f1_keywords:
  - "ntifs/FSRTL_COMMON_FCB_HEADER"
+ - "FSRTL_COMMON_FCB_HEADER"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - FSRTL_COMMON_FCB_HEADER
-product:
-- Windows
 targetos: Windows
 req.typenames: FSRTL_COMMON_FCB_HEADER
 ---

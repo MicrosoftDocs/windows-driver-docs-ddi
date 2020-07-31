@@ -10,6 +10,7 @@ keywords: ["EVT_VHF_READY_FOR_NEXT_READ_REPORT callback function"]
 ms.keywords: EVT_VHF_READY_FOR_NEXT_READ_REPORT, EVT_VHF_READY_FOR_NEXT_READ_REPORT callback, EvtVhfReadyForNextReadReport, EvtVhfReadyForNextReadReport callback function [Human Input Devices], hid.evtvhfreadyfornextreadreport, vhf/EvtVhfReadyForNextReadReport
 f1_keywords:
  - "vhf/EvtVhfReadyForNextReadReport"
+ - "EvtVhfReadyForNextReadReport"
 req.header: vhf.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - vhf.h
 api_name:
 - EvtVhfReadyForNextReadReport
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

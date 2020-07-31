@@ -10,6 +10,7 @@ keywords: ["IOCTL_IEEE1284_NEGOTIATE IOCTL"]
 ms.keywords: IOCTL_IEEE1284_NEGOTIATE, IOCTL_IEEE1284_NEGOTIATE control code [Parallel Ports], cisspd_7d757685-3a5b-47cf-bba9-e7051956ae78.xml, ntddpar/IOCTL_IEEE1284_NEGOTIATE, parports.ioctl_ieee1284_negotiate
 f1_keywords:
  - "ntddpar/IOCTL_IEEE1284_NEGOTIATE"
+ - "IOCTL_IEEE1284_NEGOTIATE"
 req.header: ntddpar.h
 req.include-header: Ntddpar.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddpar.h
 api_name:
 - IOCTL_IEEE1284_NEGOTIATE
-product:
-- Windows
 targetos: Windows
 req.typenames: OFFLOAD_SECURITY_ASSOCIATION, *POFFLOAD_SECURITY_ASSOCIATION
 ---

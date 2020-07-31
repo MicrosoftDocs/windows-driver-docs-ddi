@@ -10,6 +10,7 @@ keywords: ["IOCTL_BIOMETRIC_UPDATE_FIRMWARE IOCTL"]
 ms.keywords: IOCTL_BIOMETRIC_UPDATE_FIRMWARE, IOCTL_BIOMETRIC_UPDATE_FIRMWARE control, IOCTL_BIOMETRIC_UPDATE_FIRMWARE control code [Biometric Devices], biometric.ioctl_biometric_update_firmware, biometric_ref_b94fa4b7-e1db-4cac-8c06-ff490ca39fd5.xml, winbio_ioctl/IOCTL_BIOMETRIC_UPDATE_FIRMWARE
 f1_keywords:
  - "winbio_ioctl/IOCTL_BIOMETRIC_UPDATE_FIRMWARE"
+ - "IOCTL_BIOMETRIC_UPDATE_FIRMWARE"
 req.header: winbio_ioctl.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Winbio_ioctl.h
 api_name:
 - IOCTL_BIOMETRIC_UPDATE_FIRMWARE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

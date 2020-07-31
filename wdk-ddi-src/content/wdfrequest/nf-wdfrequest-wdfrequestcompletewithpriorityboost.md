@@ -10,6 +10,7 @@ keywords: ["WdfRequestCompleteWithPriorityBoost function"]
 ms.keywords: DFRequestObjectRef_a396672f-9267-489a-af15-44b4b01831b2.xml, WdfRequestCompleteWithPriorityBoost, WdfRequestCompleteWithPriorityBoost method, kmdf.wdfrequestcompletewithpriorityboost, wdf.wdfrequestcompletewithpriorityboost, wdfrequest/WdfRequestCompleteWithPriorityBoost
 f1_keywords:
  - "wdfrequest/WdfRequestCompleteWithPriorityBoost"
+ - "WdfRequestCompleteWithPriorityBoost"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfRequestCompleteWithPriorityBoost
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

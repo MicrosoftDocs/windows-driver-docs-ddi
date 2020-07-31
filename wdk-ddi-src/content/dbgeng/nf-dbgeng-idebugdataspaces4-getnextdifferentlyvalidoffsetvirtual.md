@@ -10,6 +10,7 @@ keywords: ["IDebugDataSpaces4::GetNextDifferentlyValidOffsetVirtual"]
 ms.keywords: GetNextDifferentlyValidOffsetVirtual, GetNextDifferentlyValidOffsetVirtual method [Windows Debugging], GetNextDifferentlyValidOffsetVirtual method [Windows Debugging],IDebugDataSpaces4 interface, IDebugDataSpaces4 interface [Windows Debugging],GetNextDifferentlyValidOffsetVirtual method, IDebugDataSpaces4.GetNextDifferentlyValidOffsetVirtual, IDebugDataSpaces4::GetNextDifferentlyValidOffsetVirtual, IDebugDataSpaces_9308b61e-2e9a-4e17-a918-8af4c1b132b8.xml, dbgeng/IDebugDataSpaces4::GetNextDifferentlyValidOffsetVirtual, debugger.getnextdifferentlyvalidoffsetvirtual
 f1_keywords:
  - "dbgeng/IDebugDataSpaces4.GetNextDifferentlyValidOffsetVirtual"
+ - "IDebugDataSpaces4.GetNextDifferentlyValidOffsetVirtual"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugDataSpaces4.GetNextDifferentlyValidOffsetVirtual
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

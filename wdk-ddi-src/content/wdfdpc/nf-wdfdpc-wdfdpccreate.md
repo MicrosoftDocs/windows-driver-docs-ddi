@@ -10,6 +10,7 @@ keywords: ["WdfDpcCreate function"]
 ms.keywords: DFDpcObjectRef_865403a4-b5c1-4113-b3b1-1929285bb82d.xml, WdfDpcCreate, WdfDpcCreate method, kmdf.wdfdpccreate, wdf.wdfdpccreate, wdfdpc/WdfDpcCreate
 f1_keywords:
  - "wdfdpc/WdfDpcCreate"
+ - "WdfDpcCreate"
 req.header: wdfdpc.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfDpcCreate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["RtlLookupElementGenericTableAvl function"]
 ms.keywords: RtlLookupElementGenericTableAvl, RtlLookupElementGenericTableAvl routine [Installable File System Drivers], ifsk.rtllookupelementgenerictableavl, ntddk/RtlLookupElementGenericTableAvl
 f1_keywords:
  - "ntddk/RtlLookupElementGenericTableAvl"
+ - "RtlLookupElementGenericTableAvl"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlLookupElementGenericTableAvl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

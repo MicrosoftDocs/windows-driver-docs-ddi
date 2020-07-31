@@ -10,6 +10,7 @@ keywords: ["IWDTFPNPActions2::EDTTryStopDevice"]
 ms.keywords: EDTTryStopDevice, EDTTryStopDevice method [Windows Device Testing Framework], EDTTryStopDevice method [Windows Device Testing Framework],IWDTFPNPActions2 interface, IWDTFPNPActions2 interface [Windows Device Testing Framework],EDTTryStopDevice method, IWDTFPNPActions2.EDTTryStopDevice, IWDTFPNPActions2::EDTTryStopDevice, dtf.iwdtfpnpactions2_edttrystopdevice, wdtfpnpaction/IWDTFPNPActions2::EDTTryStopDevice
 f1_keywords:
  - "wdtfpnpaction/IWDTFPNPActions2.EDTTryStopDevice"
+ - "IWDTFPNPActions2.EDTTryStopDevice"
 req.header: wdtfpnpaction.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wdtfpnpaction.h
 api_name:
 - IWDTFPNPActions2.EDTTryStopDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

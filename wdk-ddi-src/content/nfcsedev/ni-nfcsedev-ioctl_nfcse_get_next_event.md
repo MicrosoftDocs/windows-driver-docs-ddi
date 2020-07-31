@@ -10,6 +10,7 @@ keywords: ["IOCTL_NFCSE_GET_NEXT_EVENT IOCTL"]
 ms.keywords: IOCTL_NFCSE_GET_NEXT_EVENT, IOCTL_NFCSE_GET_NEXT_EVENT control, IOCTL_NFCSE_GET_NEXT_EVENT control code [Near-Field Proximity Drivers], _IOCTL_NFCSE_GET_NEXT_EVENT, nfcsedev/IOCTL_NFCSE_GET_NEXT_EVENT, nfpdrivers.ioctl_nfcse_get_next_event
 f1_keywords:
  - "nfcsedev/IOCTL_NFCSE_GET_NEXT_EVENT"
+ - "IOCTL_NFCSE_GET_NEXT_EVENT"
 req.header: nfcsedev.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - nfcsedev.h
 api_name:
 - IOCTL_NFCSE_GET_NEXT_EVENT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

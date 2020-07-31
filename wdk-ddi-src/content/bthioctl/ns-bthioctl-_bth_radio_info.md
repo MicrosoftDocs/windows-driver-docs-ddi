@@ -10,6 +10,7 @@ keywords: ["_BTH_RADIO_INFO structure"]
 ms.keywords: "*PBTH_RADIO_INFO, BTH_RADIO_INFO, BTH_RADIO_INFO structure [Bluetooth Devices], PBTH_RADIO_INFO, PBTH_RADIO_INFO structure pointer [Bluetooth Devices], _BTH_RADIO_INFO, bltooth.bth_radio_info, bth_structs_5fa8e736-47a7-4ba5-bd40-f375ac6db8af.xml, bthioctl/BTH_RADIO_INFO, bthioctl/PBTH_RADIO_INFO"
 f1_keywords:
  - "bthioctl/BTH_RADIO_INFO"
+ - "BTH_RADIO_INFO"
 req.header: bthioctl.h
 req.include-header: Bthioctl.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - bthioctl.h
 api_name:
 - BTH_RADIO_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: BTH_RADIO_INFO, *PBTH_RADIO_INFO
 ---

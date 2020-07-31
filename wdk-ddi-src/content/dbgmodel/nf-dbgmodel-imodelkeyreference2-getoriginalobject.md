@@ -7,6 +7,7 @@ ms.date: 08/14/2018
 keywords: ["IModelKeyReference2::GetOriginalObject"]
 f1_keywords:
  - "dbgmodel/IModelKeyReference2.GetOriginalObject"
+ - "IModelKeyReference2.GetOriginalObject"
 ms.keywords: IModelKeyReference2::GetOriginalObject, GetOriginalObject, IModelKeyReference2.GetOriginalObject, IModelKeyReference2::GetOriginalObject, IModelKeyReference2.GetOriginalObject
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IModelKeyReference2.GetOriginalObject
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

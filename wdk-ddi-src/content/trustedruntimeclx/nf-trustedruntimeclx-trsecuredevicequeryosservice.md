@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["TrSecureDeviceQueryOSService function"]
 f1_keywords:
  - "trustedruntimeclx/TrSecureDeviceQueryOSService"
+ - "TrSecureDeviceQueryOSService"
 ms.keywords: TrSecureDeviceQueryOSService
 req.header: trustedruntimeclx.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - trustedruntimeclx.h
 api_name: 
 - TrSecureDeviceQueryOSService
-product:
-- Windows
 targetos: Windows
 
 

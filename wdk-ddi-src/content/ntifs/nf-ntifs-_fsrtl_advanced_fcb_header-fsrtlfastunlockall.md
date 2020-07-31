@@ -10,6 +10,7 @@ keywords: ["FsRtlFastUnlockAll function"]
 ms.keywords: FsRtlFastUnlockAll, FsRtlFastUnlockAll routine [Installable File System Drivers], fsrtlref_713fc415-f52e-4e0f-8806-02f44fb9b3f4.xml, ifsk.fsrtlfastunlockall, ntifs/FsRtlFastUnlockAll
 f1_keywords:
  - "ntifs/FsRtlFastUnlockAll"
+ - "FsRtlFastUnlockAll"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlFastUnlockAll
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 dev_langs:

@@ -10,6 +10,7 @@ keywords: ["_WDF_PROPERTY_STORE_ROOT_CLASS enumeration"]
 ms.keywords: WDF_PROPERTY_STORE_ROOT_CLASS, WDF_PROPERTY_STORE_ROOT_CLASS enumeration, WdfPropertyStoreRootClassDeviceInterfaceKey, WdfPropertyStoreRootClassHardwareKey, WdfPropertyStoreRootClassLegacyHardwareKey, WdfPropertyStoreRootClassSoftwareKey, _WDF_PROPERTY_STORE_ROOT_CLASS, umdf.wdf_property_store_root_class, umdfstructs_4dbaed0a-3a72-4a4c-877e-83176cce54d6.xml, wdf.wdf_property_store_root_class, wudfddi_types/WDF_PROPERTY_STORE_ROOT_CLASS, wudfddi_types/WdfPropertyStoreRootClassDeviceInterfaceKey, wudfddi_types/WdfPropertyStoreRootClassHardwareKey, wudfddi_types/WdfPropertyStoreRootClassLegacyHardwareKey, wudfddi_types/WdfPropertyStoreRootClassSoftwareKey
 f1_keywords:
  - "wudfddi_types/WDF_PROPERTY_STORE_ROOT_CLASS"
+ - "WDF_PROPERTY_STORE_ROOT_CLASS"
 req.header: wudfddi_types.h
 req.include-header: Wudfddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wudfddi_types.h
 api_name:
 - WDF_PROPERTY_STORE_ROOT_CLASS
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_PROPERTY_STORE_ROOT_CLASS
 ---

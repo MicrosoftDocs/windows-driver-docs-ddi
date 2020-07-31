@@ -10,6 +10,7 @@ keywords: ["RILSUBSCRIBERINFO structure"]
 ms.keywords: "*LPRILSUBSCRIBERINFO, RILSUBSCRIBERINFO, RILSUBSCRIBERINFO structure [Network Drivers Starting with Windows Vista], netvista.rilsubscriberinfo, rilapitypes/RILSUBSCRIBERINFO"
 f1_keywords:
  - "ntddrilapitypes/RILSUBSCRIBERINFO"
+ - "RILSUBSCRIBERINFO"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapitypes.h
 api_name:
 - RILSUBSCRIBERINFO
-product:
-- Windows
 targetos: Windows
 req.typenames: RILSUBSCRIBERINFO, *LPRILSUBSCRIBERINFO
 ---

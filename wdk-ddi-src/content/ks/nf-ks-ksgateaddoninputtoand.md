@@ -10,6 +10,7 @@ keywords: ["KsGateAddOnInputToAnd function"]
 ms.keywords: KsGateAddOnInputToAnd, KsGateAddOnInputToAnd function [Streaming Media Devices], avfunc_a7d04c8d-b1d7-46a8-bd34-2ec9de4f2196.xml, ks/KsGateAddOnInputToAnd, stream.ksgateaddoninputtoand
 f1_keywords:
  - "ks/KsGateAddOnInputToAnd"
+ - "KsGateAddOnInputToAnd"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KsGateAddOnInputToAnd
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

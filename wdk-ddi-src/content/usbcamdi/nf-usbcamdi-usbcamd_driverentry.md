@@ -10,6 +10,7 @@ keywords: ["USBCAMD_DriverEntry function"]
 ms.keywords: USBCAMD_DriverEntry, USBCAMD_DriverEntry function [Streaming Media Devices], stream.usbcamd_driverentry, usbcamdi/USBCAMD_DriverEntry, usbcmdpr_3aeb66f4-1729-400c-af6d-6e1290c9fe3b.xml
 f1_keywords:
  - "usbcamdi/USBCAMD_DriverEntry"
+ - "USBCAMD_DriverEntry"
 req.header: usbcamdi.h
 req.include-header: Usbcamdi.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - usbcamd2.dll
 api_name:
 - USBCAMD_DriverEntry
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

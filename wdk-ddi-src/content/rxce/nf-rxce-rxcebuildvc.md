@@ -10,6 +10,7 @@ keywords: ["RxCeBuildVC function"]
 ms.keywords: RxCeBuildVC, RxCeBuildVC function [Installable File System Drivers], ifsk.rxcebuildvc, rxce/RxCeBuildVC, rxref_4f4f58c7-5970-4a86-883e-359e92bddaa3.xml
 f1_keywords:
  - "rxce/RxCeBuildVC"
+ - "RxCeBuildVC"
 req.header: rxce.h
 req.include-header: Rxce.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - rxce.h
 api_name:
 - RxCeBuildVC
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["PHDAUDIO_BDL_ISR callback function"]
 ms.keywords: HDAudioBdlIsr, HDAudioBdlIsr callback function [Audio Devices], PHDAUDIO_BDL_ISR, PHDAUDIO_BDL_ISR callback, audio.phdaudio_bdl_isr, hdaudio/HDAudioBdlIsr
 f1_keywords:
  - "hdaudio/HDAudioBdlIsr"
+ - "HDAudioBdlIsr"
 req.header: hdaudio.h
 req.include-header: Hdaudio.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - hdaudio.h
 api_name:
 - HDAudioBdlIsr
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["WHEA_PMEM_PAGE_RANGE structure"]
 f1_keywords:
  - "ntddk/WHEA_PMEM_PAGE_RANGE"
+ - "WHEA_PMEM_PAGE_RANGE"
 ms.keywords: WHEA_PMEM_PAGE_RANGE, WHEA_PMEM_PAGE_RANGE, *PWHEA_PMEM_PAGE_RANGE, 
 req.header: ntddk.h
 req.include-header:

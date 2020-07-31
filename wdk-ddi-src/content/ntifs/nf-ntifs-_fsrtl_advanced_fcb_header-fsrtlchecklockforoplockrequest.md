@@ -10,6 +10,7 @@ keywords: ["FsRtlCheckLockForOplockRequest function"]
 ms.keywords: FsRtlCheckLockForOplockRequest, FsRtlCheckLockForOplockRequest routine [Installable File System Drivers], ifsk.fsrtlchecklockforoplockrequest, ntifs/FsRtlCheckLockForOplockRequest
 f1_keywords:
  - "ntifs/FsRtlCheckLockForOplockRequest"
+ - "FsRtlCheckLockForOplockRequest"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlCheckLockForOplockRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 dev_langs:

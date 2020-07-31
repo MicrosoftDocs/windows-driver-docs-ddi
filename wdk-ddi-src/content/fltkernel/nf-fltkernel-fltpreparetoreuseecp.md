@@ -10,6 +10,7 @@ keywords: ["FltPrepareToReuseEcp function"]
 ms.keywords: FltPrepareToReuseEcp, FltPrepareToReuseEcp routine [Installable File System Drivers], fltkernel/FltPrepareToReuseEcp, ifsk.fltpreparetoreuseecp
 f1_keywords:
  - "fltkernel/FltPrepareToReuseEcp"
+ - "FltPrepareToReuseEcp"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltPrepareToReuseEcp
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

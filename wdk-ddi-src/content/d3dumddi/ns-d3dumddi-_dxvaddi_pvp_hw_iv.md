@@ -10,6 +10,7 @@ keywords: ["_DXVADDI_PVP_HW_IV structure"]
 ms.keywords: DXVA2_Structs_c4bb4df0-ed9d-494e-84ff-fcd8e68aac36.xml, DXVADDI_PVP_HW_IV, DXVADDI_PVP_HW_IV structure [Display Devices], _DXVADDI_PVP_HW_IV, d3dumddi/DXVADDI_PVP_HW_IV, display.dxvaddi_pvp_hw_iv
 f1_keywords:
  - "d3dumddi/DXVADDI_PVP_HW_IV"
+ - "DXVADDI_PVP_HW_IV"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - DXVADDI_PVP_HW_IV
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVADDI_PVP_HW_IV
 ---

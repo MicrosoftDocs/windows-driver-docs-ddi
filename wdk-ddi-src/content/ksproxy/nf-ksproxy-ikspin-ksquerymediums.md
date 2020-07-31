@@ -10,6 +10,7 @@ keywords: ["IKsPin::KsQueryMediums"]
 ms.keywords: IKsPin interface [Streaming Media Devices],KsQueryMediums method, IKsPin.KsQueryMediums, IKsPin::KsQueryMediums, KsQueryMediums, KsQueryMediums method [Streaming Media Devices], KsQueryMediums method [Streaming Media Devices],IKsPin interface, ksproxy/IKsPin::KsQueryMediums, ksproxy_88debe31-2dd5-41bc-80c0-164b28dc586f.xml, stream.ikspin_ksquerymediums
 f1_keywords:
  - "ksproxy/IKsPin.KsQueryMediums"
+ - "IKsPin.KsQueryMediums"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ksproxy.h
 api_name:
 - IKsPin.KsQueryMediums
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IDebugClient::SetOutputMask"]
 ms.keywords: IDebugClient interface [Windows Debugging],SetOutputMask method, IDebugClient.SetOutputMask, IDebugClient2 interface [Windows Debugging],SetOutputMask method, IDebugClient2::SetOutputMask, IDebugClient3 interface [Windows Debugging],SetOutputMask method, IDebugClient3::SetOutputMask, IDebugClient4 interface [Windows Debugging],SetOutputMask method, IDebugClient4::SetOutputMask, IDebugClient5 interface [Windows Debugging],SetOutputMask method, IDebugClient5::SetOutputMask, IDebugClient::SetOutputMask, IDebugClient_85242101-702d-4c9a-b71a-5eddd76a4fa6.xml, SetOutputMask, SetOutputMask method [Windows Debugging], SetOutputMask method [Windows Debugging],IDebugClient interface, SetOutputMask method [Windows Debugging],IDebugClient2 interface, SetOutputMask method [Windows Debugging],IDebugClient3 interface, SetOutputMask method [Windows Debugging],IDebugClient4 interface, SetOutputMask method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient2::SetOutputMask, dbgeng/IDebugClient3::SetOutputMask, dbgeng/IDebugClient4::SetOutputMask, dbgeng/IDebugClient5::SetOutputMask, dbgeng/IDebugClient::SetOutputMask, debugger.setoutputmask
 f1_keywords:
  - "dbgeng/IDebugClient.SetOutputMask"
+ - "IDebugClient.SetOutputMask"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -40,8 +41,6 @@ api_name:
 - IDebugClient3.SetOutputMask
 - IDebugClient4.SetOutputMask
 - IDebugClient5.SetOutputMask
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

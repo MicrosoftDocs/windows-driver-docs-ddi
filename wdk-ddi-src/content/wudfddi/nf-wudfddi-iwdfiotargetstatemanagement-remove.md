@@ -10,6 +10,7 @@ keywords: ["IWDFIoTargetStateManagement::Remove"]
 ms.keywords: IWDFIoTargetStateManagement interface,Remove method, IWDFIoTargetStateManagement.Remove, IWDFIoTargetStateManagement::Remove, Remove, Remove method, Remove method,IWDFIoTargetStateManagement interface, UMDFIoTargetObjectRef_aad5b1f1-14c0-442f-a289-be006b20816e.xml, umdf.iwdfiotargetstatemanagement_remove, wdf.iwdfiotargetstatemanagement_remove, wudfddi/IWDFIoTargetStateManagement::Remove
 f1_keywords:
  - "wudfddi/IWDFIoTargetStateManagement.Remove"
+ - "IWDFIoTargetStateManagement.Remove"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFIoTargetStateManagement.Remove
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ ms.date: 10/11/2019
 keywords: ["NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS_INIT function"]
 f1_keywords:
  - "netdevice/NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS_INIT"
+ - "NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS_INIT"
 ms.keywords: NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS_INIT
 req.header: netdevice.h
 req.include-header:

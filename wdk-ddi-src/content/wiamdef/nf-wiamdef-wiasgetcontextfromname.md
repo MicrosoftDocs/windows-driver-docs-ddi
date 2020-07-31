@@ -10,6 +10,7 @@ keywords: ["wiasGetContextFromName function"]
 ms.keywords: image.wiasgetcontextfromname, wiamdef/wiasGetContextFromName, wiasFncs_ba1c88a2-aadc-4c2f-bb5f-88433d1e1760.xml, wiasGetContextFromName, wiasGetContextFromName function [Imaging Devices]
 f1_keywords:
  - "wiamdef/wiasGetContextFromName"
+ - "wiasGetContextFromName"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wiaservc.dll
 api_name:
 - wiasGetContextFromName
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

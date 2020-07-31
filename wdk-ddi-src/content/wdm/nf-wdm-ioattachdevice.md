@@ -10,6 +10,7 @@ keywords: ["IoAttachDevice function"]
 ms.keywords: IoAttachDevice, IoAttachDevice routine [Kernel-Mode Driver Architecture], k104_a4f21237-9d2c-4336-9956-5e24da79f4b2.xml, kernel.ioattachdevice, wdm/IoAttachDevice
 f1_keywords:
  - "wdm/IoAttachDevice"
+ - "IoAttachDevice"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoAttachDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

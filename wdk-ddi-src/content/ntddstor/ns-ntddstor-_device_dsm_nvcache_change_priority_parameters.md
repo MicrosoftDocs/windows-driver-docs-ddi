@@ -6,6 +6,7 @@ description: The DEVICE_DSM_NVCACHE_CHANGE_PRIORITY_PARAMETERS structure contain
 tech.root: storage
 f1_keywords:
  - "ntddstor/DEVICE_DSM_NVACHE_CHANGE_PRIORITY_PARAMETERS"
+ - "DEVICE_DSM_NVACHE_CHANGE_PRIORITY_PARAMETERS"
 ms.assetid: 97a840df-0648-416e-a4b3-e3e4e57018ab
 ms.author: windowsdriverdev
 ms.date: 08/23/2019

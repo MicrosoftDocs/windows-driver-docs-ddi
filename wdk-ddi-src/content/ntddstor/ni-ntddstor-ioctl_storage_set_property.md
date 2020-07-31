@@ -8,6 +8,7 @@ ms.date: 07/12/2019
 keywords: ["IOCTL_STORAGE_SET_PROPERTY IOCTL"]
 f1_keywords:
  - "ntddstor/IOCTL_STORAGE_SET_PROPERTY"
+ - "IOCTL_STORAGE_SET_PROPERTY"
 req.header: ntddstor.h
 req.include-header:
 req.target-type:
@@ -28,8 +29,6 @@ api_location:
 - ntddstor.h
 api_name: 
 - IOCTL_STORAGE_SET_PROPERTY
-product:
-- Windows
 targetos: Windows
 ms.custom: 19H1
 ---

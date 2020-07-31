@@ -10,6 +10,7 @@ keywords: ["IMiniportAudioEngineNode::SetDeviceChannelMute"]
 ms.keywords: IMiniportAudioEngineNode interface [Audio Devices],SetDeviceChannelMute method, IMiniportAudioEngineNode.SetDeviceChannelMute, IMiniportAudioEngineNode::SetDeviceChannelMute, SetDeviceChannelMute, SetDeviceChannelMute method [Audio Devices], SetDeviceChannelMute method [Audio Devices],IMiniportAudioEngineNode interface, audio.iminiportaudioenginenode_setdevicechannelmute, portcls/IMiniportAudioEngineNode::SetDeviceChannelMute
 f1_keywords:
  - "portcls/IMiniportAudioEngineNode.SetDeviceChannelMute"
+ - "IMiniportAudioEngineNode.SetDeviceChannelMute"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Portcls.h
 api_name:
 - IMiniportAudioEngineNode.SetDeviceChannelMute
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

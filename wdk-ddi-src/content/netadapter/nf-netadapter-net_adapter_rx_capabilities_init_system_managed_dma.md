@@ -8,6 +8,7 @@ ms.date: 02/14/2018
 keywords: ["NET_ADAPTER_RX_CAPABILITIES_INIT_SYSTEM_MANAGED_DMA function"]
 f1_keywords:
  - "netadapter/NET_ADAPTER_RX_CAPABILITIES_INIT_SYSTEM_MANAGED_DMA"
+ - "NET_ADAPTER_RX_CAPABILITIES_INIT_SYSTEM_MANAGED_DMA"
 ms.keywords: NET_ADAPTER_RX_CAPABILITIES_INIT_SYSTEM_MANAGED_DMA
 req.header: netadapter.h
 req.include-header: netadaptercx.h
@@ -34,8 +35,6 @@ api_location:
 - NtosKrnl.exe
 api_name: 
 - NET_ADAPTER_RX_CAPABILITIES_INIT_SYSTEM_MANAGED_DMA
-product:
-- Windows
 targetos: Windows
 ---
 

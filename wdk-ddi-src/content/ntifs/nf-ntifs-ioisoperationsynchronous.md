@@ -10,6 +10,7 @@ keywords: ["IoIsOperationSynchronous function"]
 ms.keywords: IoIsOperationSynchronous, IoIsOperationSynchronous routine [Installable File System Drivers], ifsk.ioisoperationsynchronous, ioref_259181c2-f6d9-4fe6-8d4b-594e7cf8db09.xml, ntifs/IoIsOperationSynchronous
 f1_keywords:
  - "ntifs/IoIsOperationSynchronous"
+ - "IoIsOperationSynchronous"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoIsOperationSynchronous
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

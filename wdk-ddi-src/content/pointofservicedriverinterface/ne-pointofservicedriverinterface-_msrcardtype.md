@@ -10,6 +10,7 @@ keywords: ["_MsrCardType enumeration"]
 ms.keywords: MsrCardType, MsrCardType enumeration, MsrCardType_Aamva, MsrCardType_Bank, MsrCardType_ExtendedBase, MsrCardType_Unknown, _MsrCardType, pointofservicedriverinterface/MsrCardType, pointofservicedriverinterface/MsrCardType_Aamva, pointofservicedriverinterface/MsrCardType_Bank, pointofservicedriverinterface/MsrCardType_ExtendedBase, pointofservicedriverinterface/MsrCardType_Unknown, pos.msrcardtype
 f1_keywords:
  - "pointofservicedriverinterface/MsrCardType"
+ - "MsrCardType"
 req.header: pointofservicedriverinterface.h
 req.include-header: Pointofservicedriverinterface.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pointofservicedriverinterface.h
 api_name:
 - MsrCardType
-product:
-- Windows
 targetos: Windows
 req.typenames: MsrCardType
 ---

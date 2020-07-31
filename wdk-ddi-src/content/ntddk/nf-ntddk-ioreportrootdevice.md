@@ -10,6 +10,7 @@ keywords: ["IoReportRootDevice function"]
 ms.keywords: IoReportRootDevice, IoReportRootDevice routine [Kernel-Mode Driver Architecture], kernel.ioreportrootdevice, ntddk/IoReportRootDevice
 f1_keywords:
  - "ntddk/IoReportRootDevice"
+ - "IoReportRootDevice"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoReportRootDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

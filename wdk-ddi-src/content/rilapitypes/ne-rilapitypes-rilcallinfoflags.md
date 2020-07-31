@@ -10,6 +10,7 @@ keywords: ["RILCALLINFOFLAGS enumeration"]
 ms.keywords: RILCALLINFOFLAGS, RILCALLINFOFLAGS enumeration [Network Drivers Starting with Windows Vista], RILCALLINFO_FLAG_ALIENCALL, RILCALLINFO_FLAG_EMERGENCYCALL, netvista.rilcallinfoflags, ntddrilapitypes/RILCALLINFOFLAGS, ntddrilapitypes/RILCALLINFO_FLAG_ALIENCALL, ntddrilapitypes/RILCALLINFO_FLAG_EMERGENCYCALL
 f1_keywords:
  - "rilapitypes/RILCALLINFOFLAGS"
+ - "RILCALLINFOFLAGS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILCALLINFOFLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILCALLINFOFLAGS
 ---

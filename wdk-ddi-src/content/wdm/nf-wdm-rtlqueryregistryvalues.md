@@ -10,6 +10,7 @@ keywords: ["RtlQueryRegistryValues function"]
 ms.keywords: RtlQueryRegistryValues, RtlQueryRegistryValues routine [Kernel-Mode Driver Architecture], k109_5a8cb907-8c49-4a88-9494-ff137cf6507d.xml, kernel.rtlqueryregistryvalues, wdm/RtlQueryRegistryValues
 f1_keywords:
  - "wdm/RtlQueryRegistryValues"
+ - "RtlQueryRegistryValues"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Ntoskrnl.exe
 api_name:
 - RtlQueryRegistryValues
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

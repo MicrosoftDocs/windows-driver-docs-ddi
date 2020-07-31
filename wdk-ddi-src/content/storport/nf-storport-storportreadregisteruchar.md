@@ -10,6 +10,7 @@ keywords: ["StorPortReadRegisterUchar macro"]
 ms.keywords: StorPortReadRegisterUchar, StorPortReadRegisterUchar routine [Storage Devices], storage.storportreadregisteruchar, storport/StorPortReadRegisterUchar, storprt_9f2898e2-6b5e-45ae-9162-57c58a3471f7.xml
 f1_keywords:
  - "storport/StorPortReadRegisterUchar"
+ - "StorPortReadRegisterUchar"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Storport.dll
 api_name:
 - StorPortReadRegisterUchar
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

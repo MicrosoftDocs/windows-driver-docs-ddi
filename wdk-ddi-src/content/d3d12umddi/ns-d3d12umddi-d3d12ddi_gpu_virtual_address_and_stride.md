@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3D12DDI_GPU_VIRTUAL_ADDRESS_AND_STRIDE structure"]
 f1_keywords:
  - "d3d12umddi/D3D12DDI_GPU_VIRTUAL_ADDRESS_AND_STRIDE"
+ - "D3D12DDI_GPU_VIRTUAL_ADDRESS_AND_STRIDE"
 ms.keywords: D3D12DDI_GPU_VIRTUAL_ADDRESS_AND_STRIDE, D3D12DDI_GPU_VIRTUAL_ADDRESS_AND_STRIDE, 
 req.header: d3d12umddi.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - d3d12umddi.h
 api_name: 
 - D3D12DDI_GPU_VIRTUAL_ADDRESS_AND_STRIDE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

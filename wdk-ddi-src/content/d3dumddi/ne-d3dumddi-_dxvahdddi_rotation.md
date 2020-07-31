@@ -10,6 +10,7 @@ keywords: ["_DXVAHDDDI_ROTATION enumeration"]
 ms.keywords: DXVAHDDDI_ROTATION, DXVAHDDDI_ROTATION enumeration [Display Devices], DXVAHDDDI_ROTATION_180, DXVAHDDDI_ROTATION_270, DXVAHDDDI_ROTATION_90, DXVAHDDDI_ROTATION_IDENTITY, _DXVAHDDDI_ROTATION, d3dumddi/DXVAHDDDI_ROTATION, d3dumddi/DXVAHDDDI_ROTATION_180, d3dumddi/DXVAHDDDI_ROTATION_270, d3dumddi/DXVAHDDDI_ROTATION_90, d3dumddi/DXVAHDDDI_ROTATION_IDENTITY, display.dxvahdddi_rotation
 f1_keywords:
  - "d3dumddi/DXVAHDDDI_ROTATION"
+ - "DXVAHDDDI_ROTATION"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - D3dumddi.h
 api_name:
 - DXVAHDDDI_ROTATION
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVAHDDDI_ROTATION
 ---

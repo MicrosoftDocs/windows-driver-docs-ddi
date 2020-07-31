@@ -10,6 +10,7 @@ keywords: ["tagDEVICEDIALOGDATA2 structure"]
 ms.keywords: "*LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, DEVICEDIALOGDATA2 structure [Imaging Devices], LPDEVICEDIALOGDATA2, LPDEVICEDIALOGDATA2 structure pointer [Imaging Devices], PDEVICEDIALOGDATA2, PDEVICEDIALOGDATA2 structure pointer [Imaging Devices], UIExt_1afa7fd2-14a9-4997-81e7-0f00bbc55dd9.xml, image.devicedialogdata2, tagDEVICEDIALOGDATA2, wiadevd/DEVICEDIALOGDATA2, wiadevd/LPDEVICEDIALOGDATA2, wiadevd/PDEVICEDIALOGDATA2"
 f1_keywords:
  - "wiadevd/DEVICEDIALOGDATA2"
+ - "DEVICEDIALOGDATA2"
 req.header: wiadevd.h
 req.include-header: Wiadevd.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wiadevd.h
 api_name:
 - DEVICEDIALOGDATA2
-product:
-- Windows
 targetos: Windows
 req.typenames: DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2
 ---

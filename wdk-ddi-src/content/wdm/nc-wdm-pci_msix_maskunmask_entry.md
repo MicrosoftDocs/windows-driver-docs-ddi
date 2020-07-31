@@ -10,6 +10,7 @@ keywords: ["PCI_MSIX_MASKUNMASK_ENTRY callback function"]
 ms.keywords: MaskTableEntry, MaskTableEntry routine [Kernel-Mode Driver Architecture], PCI_MSIX_MASKUNMASK_ENTRY, drvr_interface_c4246cdd-8a44-423e-b145-fae6e1e96716.xml, kernel.masktableentry, kernel.msixmasktableentry, wdm/MaskTableEntry
 f1_keywords:
  - "wdm/MaskTableEntry"
+ - "MaskTableEntry"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - MaskTableEntry
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

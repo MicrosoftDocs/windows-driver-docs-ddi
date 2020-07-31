@@ -10,6 +10,7 @@ keywords: ["PI8042_MOUSE_ISR callback function"]
 ms.keywords: MouseIsr, MouseIsr callback function [Human Input Devices], PI8042_MOUSE_ISR, PI8042_MOUSE_ISR callback, hid.pi8042_mouse_isr, i8042ref_f077c4e7-f77b-4f47-a0a7-a7007e4f2475.xml, ntdd8042/MouseIsr
 f1_keywords:
  - "ntdd8042/MouseIsr"
+ - "MouseIsr"
 req.header: ntdd8042.h
 req.include-header: Ntdd8042.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ntdd8042.h
 api_name:
 - MouseIsr
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

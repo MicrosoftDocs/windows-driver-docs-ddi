@@ -10,6 +10,7 @@ keywords: ["IXpsRasterizer interface"]
 ms.keywords: IXpsRasterizer, IXpsRasterizer interface [Print Devices], IXpsRasterizer interface [Print Devices],described, print.ixpsrasterizer_interface, print_xpsrast_e8c45bd1-2f79-4e4f-b6c4-034c703ff173.xml, xpsrassvc/IXpsRasterizer
 f1_keywords:
  - "xpsrassvc/IXpsRasterizer"
+ - "IXpsRasterizer"
 req.header: xpsrassvc.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - xpsrassvc.h
 api_name:
 - IXpsRasterizer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

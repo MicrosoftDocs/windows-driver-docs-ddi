@@ -10,6 +10,7 @@ ms.date: 09/26/2019
 keywords: ["NET_FRAGMENT_LOGICAL_ADDRESS structure"]
 f1_keywords:
  - "logicaladdresstypes/NET_FRAGMENT_LOGICAL_ADDRESS"
+ - "NET_FRAGMENT_LOGICAL_ADDRESS"
 ms.keywords: NET_FRAGMENT_LOGICAL_ADDRESS, NET_FRAGMENT_LOGICAL_ADDRESS, 
 req.header: logicaladdresstypes.h
 req.include-header:

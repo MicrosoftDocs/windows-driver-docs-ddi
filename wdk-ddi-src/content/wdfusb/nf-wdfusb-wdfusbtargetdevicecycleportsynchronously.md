@@ -10,6 +10,7 @@ keywords: ["WdfUsbTargetDeviceCyclePortSynchronously function"]
 ms.keywords: DFUsbRef_9ef45eea-9dd8-4423-add8-0906374ff620.xml, WdfUsbTargetDeviceCyclePortSynchronously, WdfUsbTargetDeviceCyclePortSynchronously method, kmdf.wdfusbtargetdevicecycleportsynchronously, wdf.wdfusbtargetdevicecycleportsynchronously, wdfusb/WdfUsbTargetDeviceCyclePortSynchronously
 f1_keywords:
  - "wdfusb/WdfUsbTargetDeviceCyclePortSynchronously"
+ - "WdfUsbTargetDeviceCyclePortSynchronously"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfUsbTargetDeviceCyclePortSynchronously
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

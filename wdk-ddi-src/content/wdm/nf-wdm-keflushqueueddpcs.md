@@ -10,6 +10,7 @@ keywords: ["KeFlushQueuedDpcs function"]
 ms.keywords: KeFlushQueuedDpcs, KeFlushQueuedDpcs routine [Kernel-Mode Driver Architecture], k105_6aaf8f1a-0fa7-422a-b390-ba0f92558a65.xml, kernel.keflushqueueddpcs, wdm/KeFlushQueuedDpcs
 f1_keywords:
  - "wdm/KeFlushQueuedDpcs"
+ - "KeFlushQueuedDpcs"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeFlushQueuedDpcs
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

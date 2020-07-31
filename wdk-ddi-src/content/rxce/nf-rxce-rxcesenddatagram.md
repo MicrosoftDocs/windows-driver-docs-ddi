@@ -10,6 +10,7 @@ keywords: ["RxCeSendDatagram function"]
 ms.keywords: RxCeSendDatagram, RxCeSendDatagram function [Installable File System Drivers], ifsk.rxcesenddatagram, rxce/RxCeSendDatagram, rxref_dc97dbe7-c676-4b1f-8aee-7dbc7cfbc5e3.xml
 f1_keywords:
  - "rxce/RxCeSendDatagram"
+ - "RxCeSendDatagram"
 req.header: rxce.h
 req.include-header: Rxce.h, Tdi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - rxce.h
 api_name:
 - RxCeSendDatagram
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

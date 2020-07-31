@@ -10,6 +10,7 @@ keywords: ["_POWER_STATE_TYPE enumeration"]
 ms.keywords: "*PPOWER_STATE_TYPE, DevicePowerState, POWER_STATE_TYPE, POWER_STATE_TYPE enumeration [Kernel-Mode Driver Architecture], PPOWER_STATE_TYPE, PPOWER_STATE_TYPE enumeration pointer [Kernel-Mode Driver Architecture], SystemPowerState, _POWER_STATE_TYPE, kernel.power_state_type, sysenum_bdfdaea1-ec64-4b74-96d0-95641797ebb4.xml, wdm/DevicePowerState, wdm/POWER_STATE_TYPE, wdm/PPOWER_STATE_TYPE, wdm/SystemPowerState"
 f1_keywords:
  - "ntpoapi/POWER_STATE_TYPE"
+ - "POWER_STATE_TYPE"
 req.header: ntpoapi.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Ntpoapi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - POWER_STATE_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: POWER_STATE_TYPE, *PPOWER_STATE_TYPE
 ---

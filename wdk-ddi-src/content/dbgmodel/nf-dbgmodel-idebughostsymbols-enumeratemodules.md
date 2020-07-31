@@ -7,6 +7,7 @@ ms.date: 08/22/2018
 keywords: ["IDebugHostSymbols::EnumerateModules"]
 f1_keywords:
  - "dbgmodel/IDebugHostSymbols.EnumerateModules"
+ - "IDebugHostSymbols.EnumerateModules"
 ms.keywords: IDebugHostSymbols::EnumerateModules, EnumerateModules, IDebugHostSymbols.EnumerateModules, IDebugHostSymbols::EnumerateModules, IDebugHostSymbols.EnumerateModules
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostSymbols.EnumerateModules
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

@@ -10,6 +10,7 @@ keywords: ["_OPTITEM structure"]
 ms.keywords: "*POPTITEM, OPTITEM, OPTITEM structure [Print Devices], POPTITEM, POPTITEM structure pointer [Print Devices], _OPTITEM, compstui/OPTITEM, compstui/POPTITEM, cpsuifnc_0d0609c0-cb09-4428-b083-8db736570309.xml, print.optitem"
 f1_keywords:
  - "compstui/OPTITEM"
+ - "OPTITEM"
 req.header: compstui.h
 req.include-header: Compstui.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - compstui.h
 api_name:
 - OPTITEM
-product:
-- Windows
 targetos: Windows
 req.typenames: OPTITEM, *POPTITEM
 ---

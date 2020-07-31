@@ -10,6 +10,7 @@ keywords: ["KSPROPERTY_SERIAL structure"]
 ms.keywords: "*PKSPROPERTY_SERIAL, KSPROPERTY_SERIAL, KSPROPERTY_SERIAL structure [Streaming Media Devices], PKSPROPERTY_SERIAL, PKSPROPERTY_SERIAL structure pointer [Streaming Media Devices], ks-struct_1d2733c1-6b2a-48e2-ae94-d108a011754e.xml, ks/KSPROPERTY_SERIAL, ks/PKSPROPERTY_SERIAL, stream.ksproperty_serial"
 f1_keywords:
  - "ks/KSPROPERTY_SERIAL"
+ - "KSPROPERTY_SERIAL"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KSPROPERTY_SERIAL
-product:
-- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_SERIAL, *PKSPROPERTY_SERIAL
 ---

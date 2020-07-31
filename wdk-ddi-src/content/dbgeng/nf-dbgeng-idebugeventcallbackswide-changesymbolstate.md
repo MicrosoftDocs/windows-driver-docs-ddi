@@ -10,6 +10,7 @@ keywords: ["IDebugEventCallbacksWide::ChangeSymbolState"]
 ms.keywords: ChangeSymbolState, ChangeSymbolState method [Windows Debugging], ChangeSymbolState method [Windows Debugging],IDebugEventCallbacksWide interface, IDebugEventCallbacksWide interface [Windows Debugging],ChangeSymbolState method, IDebugEventCallbacksWide.ChangeSymbolState, IDebugEventCallbacksWide::ChangeSymbolState, dbgeng/IDebugEventCallbacksWide::ChangeSymbolState, debugger.idebugeventcallbackswide_changesymbolstate
 f1_keywords:
  - "dbgeng/IDebugEventCallbacksWide.ChangeSymbolState"
+ - "IDebugEventCallbacksWide.ChangeSymbolState"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugEventCallbacksWide.ChangeSymbolState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

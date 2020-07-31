@@ -10,6 +10,7 @@ keywords: ["RIL_SetPreferredOperatorList function"]
 ms.keywords: RIL_SetPreferredOperatorList, RIL_SetPreferredOperatorList method [Network Drivers Starting with Windows Vista], netvista.ril_setpreferredoperatorlist, rilapi/RIL_SetPreferredOperatorList
 f1_keywords:
  - "rilapi/RIL_SetPreferredOperatorList"
+ - "RIL_SetPreferredOperatorList"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_SetPreferredOperatorList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

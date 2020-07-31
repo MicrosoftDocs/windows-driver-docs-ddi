@@ -10,6 +10,7 @@ keywords: ["IoRequestDpc function"]
 ms.keywords: IoRequestDpc, IoRequestDpc routine [Kernel-Mode Driver Architecture], k104_37f449eb-de3d-4932-b845-388c73c55d01.xml, kernel.iorequestdpc, wdm/IoRequestDpc
 f1_keywords:
  - "wdm/IoRequestDpc"
+ - "IoRequestDpc"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - IoRequestDpc
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

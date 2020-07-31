@@ -10,6 +10,7 @@ keywords: ["wiauPropInPropSpec function"]
 ms.keywords: image.wiaupropinpropspec, wiauFncs_8f694518-d3a5-4636-aae5-046ae519ce0e.xml, wiauPropInPropSpec, wiauPropInPropSpec function [Imaging Devices], wiautil/wiauPropInPropSpec
 f1_keywords:
  - "wiautil/wiauPropInPropSpec"
+ - "wiauPropInPropSpec"
 req.header: wiautil.h
 req.include-header: Wiautil.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wiautil.h
 api_name:
 - wiauPropInPropSpec
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

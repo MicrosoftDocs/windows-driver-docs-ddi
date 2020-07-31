@@ -10,6 +10,7 @@ keywords: ["UFS_RPMB_UNIT_DESCRIPTOR structure"]
 ms.keywords: "*PUFS_RPMB_UNIT_DESCRIPTOR, PUFS_RPMB_UNIT_DESCRIPTOR, PUFS_RPMB_UNIT_DESCRIPTOR structure pointer [Storage Devices], UFS_RPMB_UNIT_DESCRIPTOR, UFS_RPMB_UNIT_DESCRIPTOR structure [Storage Devices], storage.ufs_rpmb_unit_descriptor, ufs/PUFS_RPMB_UNIT_DESCRIPTOR, ufs/UFS_RPMB_UNIT_DESCRIPTOR"
 f1_keywords:
  - "ufs/UFS_RPMB_UNIT_DESCRIPTOR"
+ - "UFS_RPMB_UNIT_DESCRIPTOR"
 req.header: ufs.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ufs.h
 api_name:
 - UFS_RPMB_UNIT_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: UFS_RPMB_UNIT_DESCRIPTOR, *PUFS_RPMB_UNIT_DESCRIPTOR
 ---

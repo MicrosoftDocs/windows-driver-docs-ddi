@@ -10,6 +10,7 @@ keywords: ["KSEVENT_CAMERACONTROL enumeration"]
 ms.keywords: KSEVENT_CAMERACONTROL, KSEVENT_CAMERACONTROL enumeration [Streaming Media Devices], KSEVENT_CAMERACONTROL_FOCUS, KSEVENT_CAMERACONTROL_ZOOM, ksmedia/KSEVENT_CAMERACONTROL, ksmedia/KSEVENT_CAMERACONTROL_FOCUS, ksmedia/KSEVENT_CAMERACONTROL_ZOOM, stream.ksevent_cameracontrol
 f1_keywords:
  - "ksmedia/KSEVENT_CAMERACONTROL"
+ - "KSEVENT_CAMERACONTROL"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ksmedia.h
 api_name:
 - KSEVENT_CAMERACONTROL
-product:
-- Windows
 targetos: Windows
 req.typenames: KSEVENT_CAMERACONTROL
 ---

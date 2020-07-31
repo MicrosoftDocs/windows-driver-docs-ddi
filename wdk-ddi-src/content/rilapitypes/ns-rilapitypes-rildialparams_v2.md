@@ -10,6 +10,7 @@ keywords: ["RILDIALPARAMS_V2 structure"]
 ms.keywords: "*LPRILDIALPARAMS, *LPRILDIALPARAMS_V2, RILDIALPARAMS, RILDIALPARAMS_V2, RILDIALPARAMS_V2 structure [Network Drivers Starting with Windows Vista], netvista.rildialparams_v2, ntddrilapitypes/RILDIALPARAMS_V2"
 f1_keywords:
  - "rilapitypes/RILDIALPARAMS_V2"
+ - "RILDIALPARAMS_V2"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILDIALPARAMS_V2
-product:
-- Windows
 targetos: Windows
 req.typenames: RILDIALPARAMS_V2, *LPRILDIALPARAMS_V2, RILDIALPARAMS, *LPRILDIALPARAMS
 ---

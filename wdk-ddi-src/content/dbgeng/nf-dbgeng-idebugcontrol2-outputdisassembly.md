@@ -10,6 +10,7 @@ keywords: ["IDebugControl2::OutputDisassembly"]
 ms.keywords: IDebugControl interface [Windows Debugging],OutputDisassembly method, IDebugControl2 interface [Windows Debugging],OutputDisassembly method, IDebugControl2.OutputDisassembly, IDebugControl2::OutputDisassembly, IDebugControl3 interface [Windows Debugging],OutputDisassembly method, IDebugControl3::OutputDisassembly, IDebugControl::OutputDisassembly, IDebugControl_9f2641b6-ca40-4f1f-85e6-911bb0ab82f8.xml, OutputDisassembly, OutputDisassembly method [Windows Debugging], OutputDisassembly method [Windows Debugging],IDebugControl interface, OutputDisassembly method [Windows Debugging],IDebugControl2 interface, OutputDisassembly method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::OutputDisassembly, dbgeng/IDebugControl3::OutputDisassembly, dbgeng/IDebugControl::OutputDisassembly, debugger.outputdisassembly
 f1_keywords:
  - "dbgeng/IDebugControl.OutputDisassembly"
+ - "IDebugControl.OutputDisassembly"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -38,8 +39,6 @@ api_name:
 - IDebugControl.OutputDisassembly
 - IDebugControl2.OutputDisassembly
 - IDebugControl3.OutputDisassembly
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

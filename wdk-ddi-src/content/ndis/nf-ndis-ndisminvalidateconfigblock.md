@@ -10,6 +10,7 @@ keywords: ["NdisMInvalidateConfigBlock function"]
 ms.keywords: NdisMInvalidateConfigBlock, NdisMInvalidateConfigBlock function [Network Drivers Starting with Windows Vista], ndis/NdisMInvalidateConfigBlock, netvista.ndisminvalidateconfigblock
 f1_keywords:
  - "ndis/NdisMInvalidateConfigBlock"
+ - "NdisMInvalidateConfigBlock"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisMInvalidateConfigBlock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

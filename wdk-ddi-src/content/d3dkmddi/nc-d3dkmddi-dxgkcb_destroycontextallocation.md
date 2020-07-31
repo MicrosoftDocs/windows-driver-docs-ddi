@@ -9,6 +9,7 @@ keywords: ["DXGKCB_DESTROYCONTEXTALLOCATION callback function"]
 ms.keywords: DXGKCB_DESTROYCONTEXTALLOCATION, DXGKCB_DESTROYCONTEXTALLOCATION callback, DxgkCbDestroyContextAllocation, DxgkCbDestroyContextAllocation callback function [Display Devices], d3dkmddi/DxgkCbDestroyContextAllocation, display.dxgkcbdestroycontextallocation
 f1_keywords:
  - "d3dkmddi/DxgkCbDestroyContextAllocation"
+ - "DxgkCbDestroyContextAllocation"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop
@@ -35,8 +36,6 @@ api_location:
 - D3dkmddi.h
 api_name:
 - DxgkCbDestroyContextAllocation
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

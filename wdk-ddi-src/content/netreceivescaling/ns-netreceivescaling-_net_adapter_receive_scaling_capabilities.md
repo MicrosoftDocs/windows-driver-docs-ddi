@@ -8,6 +8,7 @@ ms.date: 07/13/2018
 keywords: ["_NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES structure"]
 f1_keywords:
  - "netreceivescaling/_NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES"
+ - "_NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES"
 ms.keywords: _NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES, NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES, 
 req.header: netreceivescaling.h
 req.include-header:
@@ -30,8 +31,6 @@ api_location:
 - netreceivescaling.h
 api_name: 
 - _NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES
-product:
-- Windows
 targetos: Windows
 ---
 

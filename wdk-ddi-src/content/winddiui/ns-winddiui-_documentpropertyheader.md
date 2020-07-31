@@ -10,6 +10,7 @@ keywords: ["_DOCUMENTPROPERTYHEADER structure"]
 ms.keywords: "*PDOCUMENTPROPERTYHEADER, DOCUMENTPROPERTYHEADER, DOCUMENTPROPERTYHEADER structure [Print Devices], PDOCUMENTPROPERTYHEADER, PDOCUMENTPROPERTYHEADER structure pointer [Print Devices], _DOCUMENTPROPERTYHEADER, print.documentpropertyheader, print_interface-graphics_d12da62c-2384-4bc3-a83d-ed948460d718.xml, winddiui/DOCUMENTPROPERTYHEADER, winddiui/PDOCUMENTPROPERTYHEADER"
 f1_keywords:
  - "winddiui/DOCUMENTPROPERTYHEADER"
+ - "DOCUMENTPROPERTYHEADER"
 req.header: winddiui.h
 req.include-header: Winddiui.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - winddiui.h
 api_name:
 - DOCUMENTPROPERTYHEADER
-product:
-- Windows
 targetos: Windows
 req.typenames: DOCUMENTPROPERTYHEADER, *PDOCUMENTPROPERTYHEADER
 ---

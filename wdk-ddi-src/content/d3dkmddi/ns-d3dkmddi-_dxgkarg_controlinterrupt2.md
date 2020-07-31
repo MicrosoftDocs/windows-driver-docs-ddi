@@ -8,6 +8,7 @@ ms.date: 03/24/2020
 ms.keywords: DXGKARG_CONTROLINTERRUPT2, DXGKARG_CONTROLINTERRUPT2 structure [Display Devices], DXGKARG_CONTROLINTTERUPT2, DXGKARG_CONTROLINTTERUPT2 structure [Display Devices], _DXGKARG_CONTROLINTERRUPT2, d3dkmddi/DXGKARG_CONTROLINTERRUPT2, display.dxgkarg_controlinterrupt2
 f1_keywords:
  - "d3dkmddi/DXGKARG_CONTROLINTTERUPT2"
+ - "DXGKARG_CONTROLINTTERUPT2"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -34,8 +35,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGKARG_CONTROLINTTERUPT2
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGKARG_CONTROLINTERRUPT2

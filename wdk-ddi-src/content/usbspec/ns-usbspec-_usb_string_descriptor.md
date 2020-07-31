@@ -10,6 +10,7 @@ keywords: ["_USB_STRING_DESCRIPTOR structure"]
 ms.keywords: "*PUSB_STRING_DESCRIPTOR, PUSB_STRING_DESCRIPTOR, PUSB_STRING_DESCRIPTOR structure pointer [Buses], USB_STRING_DESCRIPTOR, USB_STRING_DESCRIPTOR structure [Buses], _USB_STRING_DESCRIPTOR, buses.usb_string_descriptor, usbspec/PUSB_STRING_DESCRIPTOR, usbspec/USB_STRING_DESCRIPTOR, usbstrct_b0740c7e-9042-4426-be26-20b8620a0e7e.xml"
 f1_keywords:
  - "usbspec/USB_STRING_DESCRIPTOR"
+ - "USB_STRING_DESCRIPTOR"
 req.header: usbspec.h
 req.include-header: Usbioctl.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - usbspec.h
 api_name:
 - USB_STRING_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: USB_STRING_DESCRIPTOR, *PUSB_STRING_DESCRIPTOR
 ---

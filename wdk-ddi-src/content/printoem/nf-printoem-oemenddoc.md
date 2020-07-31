@@ -10,6 +10,7 @@ keywords: ["OEMEndDoc function"]
 ms.keywords: OEMEndDoc, OEMEndDoc function [Print Devices], print.oemenddoc, print_unidrv-pscript_rendering_1b17db2b-0ea4-4acb-9130-bbc7fe3a0b4a.xml, printoem/OEMEndDoc
 f1_keywords:
  - "printoem/OEMEndDoc"
+ - "OEMEndDoc"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - printoem.h
 api_name:
 - OEMEndDoc
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

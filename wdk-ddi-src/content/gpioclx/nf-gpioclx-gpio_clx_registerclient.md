@@ -10,6 +10,7 @@ keywords: ["GPIO_CLX_RegisterClient function"]
 ms.keywords: GPIO.gpio_clx_registerclient, GPIO_CLX_RegisterClient, GPIO_CLX_RegisterClient method [Parallel Ports], gpioclx/GPIO_CLX_RegisterClient
 f1_keywords:
  - "gpioclx/GPIO_CLX_RegisterClient"
+ - "GPIO_CLX_RegisterClient"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Msgpioclxstub.dll
 api_name:
 - GPIO_CLX_RegisterClient
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

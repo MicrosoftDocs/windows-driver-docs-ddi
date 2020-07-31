@@ -10,6 +10,7 @@ keywords: ["ChangerGetProductData function"]
 ms.keywords: ChangerGetProductData, ChangerGetProductData function [Storage Devices], chgrmini_05ad3aaa-8975-44ee-ad09-149f288d8eef.xml, mcd/ChangerGetProductData, storage.changergetproductdata
 f1_keywords:
  - "mcd/ChangerGetProductData"
+ - "ChangerGetProductData"
 req.header: mcd.h
 req.include-header: Mcd.h, Ntddchgr.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - mcd.h
 api_name:
 - ChangerGetProductData
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

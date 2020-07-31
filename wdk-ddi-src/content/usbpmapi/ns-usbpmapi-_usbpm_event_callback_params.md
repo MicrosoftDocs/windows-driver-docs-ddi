@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["_USBPM_EVENT_CALLBACK_PARAMS structure"]
 f1_keywords:
  - "usbpmapi/_USBPM_EVENT_CALLBACK_PARAMS"
+ - "_USBPM_EVENT_CALLBACK_PARAMS"
 tech.root: usbref
 ms.keywords: _USBPM_EVENT_CALLBACK_PARAMS, USBPM_EVENT_CALLBACK_PARAMS, *PUSBPM_EVENT_CALLBACK_PARAMS, 
 req.header: usbpmapi.h
@@ -30,8 +31,6 @@ api_location:
 - usbpmapi.h
 api_name: 
 - _USBPM_EVENT_CALLBACK_PARAMS
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

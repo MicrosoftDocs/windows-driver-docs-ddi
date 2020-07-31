@@ -10,6 +10,7 @@ keywords: ["DXGKDDI_DISPATCH_IO_REQUEST callback function"]
 ms.keywords: DXGKDDI_DISPATCH_IO_REQUEST, DXGKDDI_DISPATCH_IO_REQUEST callback, DmFunctions_17ebc963-6659-4f1b-bd5a-f804c04be8b5.xml, DxgkDdiDispatchIoRequest, DxgkDdiDispatchIoRequest callback function [Display Devices], display.dxgkddidispatchiorequest, dispmprt/DxgkDdiDispatchIoRequest
 f1_keywords:
  - "dispmprt/DxgkDdiDispatchIoRequest"
+ - "DxgkDdiDispatchIoRequest"
 req.header: dispmprt.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dispmprt.h
 api_name:
 - DxgkDdiDispatchIoRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

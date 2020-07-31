@@ -10,6 +10,7 @@ keywords: ["IPrintOemPS2::WritePrinter"]
 ms.keywords: IPrintOemPS2 interface [Print Devices],WritePrinter method, IPrintOemPS2.WritePrinter, IPrintOemPS2::WritePrinter, WritePrinter, WritePrinter method [Print Devices], WritePrinter method [Print Devices],IPrintOemPS2 interface, prcomoem/IPrintOemPS2::WritePrinter, print.iprintoemps2_writeprinter, print_unidrv-pscript_rendering_ea50360f-7f20-443b-9b10-a64f44238666.xml
 f1_keywords:
  - "prcomoem/IPrintOemPS2.WritePrinter"
+ - "IPrintOemPS2.WritePrinter"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - prcomoem.h
 api_name:
 - IPrintOemPS2.WritePrinter
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

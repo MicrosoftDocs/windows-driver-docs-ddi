@@ -10,6 +10,7 @@ keywords: ["IOCTL_CDROM_GET_VOLUME IOCTL"]
 ms.keywords: IOCTL_CDROM_GET_VOLUME, IOCTL_CDROM_GET_VOLUME control, IOCTL_CDROM_GET_VOLUME control code [Storage Devices], k307_40300286-1334-4229-a798-2bfef8866ca7.xml, ntddcdrm/IOCTL_CDROM_GET_VOLUME, storage.ioctl_cdrom_get_volume
 f1_keywords:
  - "ntddcdrm/IOCTL_CDROM_GET_VOLUME"
+ - "IOCTL_CDROM_GET_VOLUME"
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddcdrm.h
 api_name:
 - IOCTL_CDROM_GET_VOLUME
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["MmUnsecureVirtualMemory function"]
 ms.keywords: MmUnsecureVirtualMemory, MmUnsecureVirtualMemory routine [Kernel-Mode Driver Architecture], k106_0bfc6e9e-a4e9-4868-b1fb-da6714146dbf.xml, kernel.mmunsecurevirtualmemory, ntddk/MmUnsecureVirtualMemory
 f1_keywords:
  - "ntddk/MmUnsecureVirtualMemory"
+ - "MmUnsecureVirtualMemory"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - MmUnsecureVirtualMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

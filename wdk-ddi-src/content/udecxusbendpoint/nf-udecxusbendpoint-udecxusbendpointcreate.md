@@ -10,6 +10,7 @@ keywords: ["UdecxUsbEndpointCreate function"]
 ms.keywords: UdecxUsbEndpointCreate, UdecxUsbEndpointCreate function [Buses], buses.udecxusbendpointcreate, udecxusbendpoint/UdecxUsbEndpointCreate
 f1_keywords:
  - "udecxusbendpoint/UdecxUsbEndpointCreate"
+ - "UdecxUsbEndpointCreate"
 req.header: udecxusbendpoint.h
 req.include-header: Udecx.h
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 - Udecxstub.dll
 api_name:
 - UdecxUsbEndpointCreate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

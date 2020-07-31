@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2 structure"]
 ms.keywords: D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2, D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2 structure [Display Devices], OpenGL_Structs_ac490d8c-5ab9-4a1f-8908-5c2e7786b65b.xml, _D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2, d3dkmthk/D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2, display.d3dkmt_signalsynchronizationobject2
 f1_keywords:
  - "d3dkmthk/D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2"
+ - "D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2

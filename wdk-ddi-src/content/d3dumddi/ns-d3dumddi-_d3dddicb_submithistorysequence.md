@@ -10,6 +10,7 @@ keywords: ["_D3DDDICB_SUBMITCOMMAND structure"]
 ms.keywords: D3DDDICB_SUBMITCOMMAND, D3DDDICB_SUBMITCOMMAND structure [Display Devices], _D3DDDICB_SUBMITCOMMAND, d3dumddi/D3DDDICB_SUBMITCOMMAND, display.d3dddicb_submitcommand
 f1_keywords:
  - "d3dumddi/D3DDDICB_SUBMITCOMMAND"
+ - "D3DDDICB_SUBMITCOMMAND"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDICB_SUBMITCOMMAND
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDICB_SUBMITCOMMAND
 ---

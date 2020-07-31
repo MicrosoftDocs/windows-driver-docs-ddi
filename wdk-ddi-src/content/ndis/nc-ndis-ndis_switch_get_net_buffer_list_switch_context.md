@@ -10,6 +10,7 @@ keywords: ["NDIS_SWITCH_GET_NET_BUFFER_LIST_SWITCH_CONTEXT callback function"]
 ms.keywords: GetNetBufferListSwitchContext, GetNetBufferListSwitchContext callback function [Network Drivers Starting with Windows Vista], NDIS_SWITCH_GET_NET_BUFFER_LIST_SWITCH_CONTEXT, NDIS_SWITCH_GET_NET_BUFFER_LIST_SWITCH_CONTEXT callback, ndis/GetNetBufferListSwitchContext, netvista.getnetbufferlistswitchcontext
 f1_keywords:
  - "ndis/GetNetBufferListSwitchContext"
+ - "GetNetBufferListSwitchContext"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - GetNetBufferListSwitchContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

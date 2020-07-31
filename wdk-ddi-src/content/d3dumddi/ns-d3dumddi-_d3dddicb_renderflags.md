@@ -10,6 +10,7 @@ keywords: ["_D3DDDICB_RENDERFLAGS structure"]
 ms.keywords: D3DDDICB_RENDERFLAGS, D3DDDICB_RENDERFLAGS structure [Display Devices], D3D_other_Structs_559cfa58-5c9b-470e-aa4b-6c145045ed82.xml, _D3DDDICB_RENDERFLAGS, d3dumddi/D3DDDICB_RENDERFLAGS, display.d3dddicb_renderflags
 f1_keywords:
  - "d3dumddi/D3DDDICB_RENDERFLAGS"
+ - "D3DDDICB_RENDERFLAGS"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDICB_RENDERFLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDICB_RENDERFLAGS
 ---

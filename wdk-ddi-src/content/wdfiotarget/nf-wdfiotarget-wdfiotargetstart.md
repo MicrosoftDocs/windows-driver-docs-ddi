@@ -10,6 +10,7 @@ keywords: ["WdfIoTargetStart function"]
 ms.keywords: DFIOTargetRef_40667bdf-5de8-4728-9c55-4a88f7a51704.xml, WdfIoTargetStart, WdfIoTargetStart method, kmdf.wdfiotargetstart, wdf.wdfiotargetstart, wdfiotarget/WdfIoTargetStart
 f1_keywords:
  - "wdfiotarget/WdfIoTargetStart"
+ - "WdfIoTargetStart"
 req.header: wdfiotarget.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfIoTargetStart
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

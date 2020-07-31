@@ -10,6 +10,7 @@ keywords: ["RILCALLFORWARDINGSETTINGSREASON enumeration"]
 ms.keywords: RILCALLFORWARDINGSETTINGSREASON, RILCALLFORWARDINGSETTINGSREASON enumeration [Network Drivers Starting with Windows Vista], RIL_FWDREASON_ALLCONDITIONAL, RIL_FWDREASON_ALLFORWARDING, RIL_FWDREASON_MAX, RIL_FWDREASON_MOBILEBUSY, RIL_FWDREASON_NOREPLY, RIL_FWDREASON_UNREACHABLE, netvista.rilcallforwardingsettingsreason, ntddrilapitypes/RILCALLFORWARDINGSETTINGSREASON, ntddrilapitypes/RIL_FWDREASON_ALLCONDITIONAL, ntddrilapitypes/RIL_FWDREASON_ALLFORWARDING, ntddrilapitypes/RIL_FWDREASON_MAX, ntddrilapitypes/RIL_FWDREASON_MOBILEBUSY, ntddrilapitypes/RIL_FWDREASON_NOREPLY, ntddrilapitypes/RIL_FWDREASON_UNREACHABLE
 f1_keywords:
  - "ntddrilapitypes/RILCALLFORWARDINGSETTINGSREASON"
+ - "RILCALLFORWARDINGSETTINGSREASON"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILCALLFORWARDINGSETTINGSREASON
-product:
-- Windows
 targetos: Windows
 req.typenames: RILCALLFORWARDINGSETTINGSREASON
 ---

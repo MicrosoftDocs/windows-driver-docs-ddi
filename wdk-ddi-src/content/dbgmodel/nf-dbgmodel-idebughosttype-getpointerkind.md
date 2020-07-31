@@ -7,6 +7,7 @@ ms.date: 08/22/2018
 keywords: ["IDebugHostType::GetPointerKind"]
 f1_keywords:
  - "dbgmodel/IDebugHostType.GetPointerKind"
+ - "IDebugHostType.GetPointerKind"
 ms.keywords: IDebugHostType::GetPointerKind, GetPointerKind, IDebugHostType.GetPointerKind, IDebugHostType::GetPointerKind, IDebugHostType.GetPointerKind
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostType.GetPointerKind
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

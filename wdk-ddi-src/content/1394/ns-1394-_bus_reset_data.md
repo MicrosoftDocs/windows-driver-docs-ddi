@@ -10,6 +10,7 @@ keywords: ["_BUS_RESET_DATA structure"]
 ms.keywords: "*PBUS_RESET_DATA, 1394/BUS_RESET_DATA, 1394/PBUS_RESET_DATA, BUS_RESET_DATA, BUS_RESET_DATA structure [Buses], IEEE.bus_reset_data, PBUS_RESET_DATA, PBUS_RESET_DATA structure pointer [Buses], _BUS_RESET_DATA"
 f1_keywords:
  - "1394/BUS_RESET_DATA"
+ - "BUS_RESET_DATA"
 req.header: 1394.h
 req.include-header: 1394.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - 1394.h
 api_name:
 - BUS_RESET_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: BUS_RESET_DATA, *PBUS_RESET_DATA
 ---

@@ -10,6 +10,7 @@ keywords: ["UdecxUrbRetrieveControlSetupPacket function"]
 ms.keywords: UdecxUrbRetrieveControlSetupPacket, UdecxUrbRetrieveControlSetupPacket function [Buses], buses.udecxurbretrievecontrolsetuppacket, udecxurb/UdecxUrbRetrieveControlSetupPacket
 f1_keywords:
  - "udecxurb/UdecxUrbRetrieveControlSetupPacket"
+ - "UdecxUrbRetrieveControlSetupPacket"
 req.header: udecxurb.h
 req.include-header: Udecx.h
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 - Udecxstub.dll
 api_name:
 - UdecxUrbRetrieveControlSetupPacket
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -7,6 +7,7 @@ ms.date: 09/06/2018
 keywords: ["_SIDEBANDAUDIO_ENDPOINT_CAPABILITIES structure"]
 f1_keywords:
  - "sidebandaudio/_SIDEBANDAUDIO_ENDPOINT_CAPABILITIES"
+ - "_SIDEBANDAUDIO_ENDPOINT_CAPABILITIES"
 ms.keywords: _SIDEBANDAUDIO_ENDPOINT_CAPABILITIES, SIDEBANDAUDIO_ENDPOINT_CAPABILITIES, 
 req.header: sidebandaudio.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - sidebandaudio.h
 api_name: 
 - _SIDEBANDAUDIO_ENDPOINT_CAPABILITIES
-product:
-- Windows
 targetos: Windows
 tech.root: audio
 ms.custom: RS5

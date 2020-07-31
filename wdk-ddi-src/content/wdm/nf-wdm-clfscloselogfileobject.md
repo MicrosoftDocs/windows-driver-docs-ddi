@@ -10,6 +10,7 @@ keywords: ["ClfsCloseLogFileObject function"]
 ms.keywords: ClfsCloseLogFileObject, ClfsCloseLogFileObject routine [Kernel-Mode Driver Architecture], Clfs_836288b2-fd9b-4855-acfd-ad12d7e25b19.xml, kernel.clfscloselogfileobject, wdm/ClfsCloseLogFileObject
 f1_keywords:
  - "wdm/ClfsCloseLogFileObject"
+ - "ClfsCloseLogFileObject"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
 - ClfsCloseLogFileObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

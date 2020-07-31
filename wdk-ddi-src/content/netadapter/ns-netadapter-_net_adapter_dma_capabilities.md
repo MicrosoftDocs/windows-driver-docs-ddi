@@ -8,6 +8,7 @@ ms.date: 07/11/2018
 keywords: ["_NET_ADAPTER_DMA_CAPABILITIES structure"]
 f1_keywords:
  - "netadapter/_NET_ADAPTER_DMA_CAPABILITIES"
+ - "_NET_ADAPTER_DMA_CAPABILITIES"
 ms.keywords: _NET_ADAPTER_DMA_CAPABILITIES, *PNET_ADAPTER_DMA_CAPABILITIES, NET_ADAPTER_DMA_CAPABILITIES, 
 req.header: netadapter.h
 req.include-header: netadaptercx.h
@@ -30,8 +31,6 @@ api_location:
 - netadapter.h
 api_name: 
 - _NET_ADAPTER_DMA_CAPABILITIES
-product:
-- Windows
 targetos: Windows
 ---
 

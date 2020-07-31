@@ -10,6 +10,7 @@ keywords: ["_KSMPEGVID_RECT structure"]
 ms.keywords: "*PKSMPEGVID_RECT, KSMPEGVID_RECT, KSMPEGVID_RECT structure [Streaming Media Devices], PKSMPEGVID_RECT, PKSMPEGVID_RECT structure pointer [Streaming Media Devices], _KSMPEGVID_RECT, ksmedia/KSMPEGVID_RECT, ksmedia/PKSMPEGVID_RECT, stream.ksmpegvid_rect, vidcapstruct_ceaab9c9-ac63-4248-9365-fd9694a0b440.xml"
 f1_keywords:
  - "ksmedia/KSMPEGVID_RECT"
+ - "KSMPEGVID_RECT"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KSMPEGVID_RECT
-product:
-- Windows
 targetos: Windows
 req.typenames: KSMPEGVID_RECT, *PKSMPEGVID_RECT
 ---

@@ -10,6 +10,7 @@ keywords: ["_DRVPROCS structure"]
 ms.keywords: "*PDRVPROCS, DRVPROCS, DRVPROCS structure [Print Devices], PDRVPROCS, PDRVPROCS structure pointer [Print Devices], _DRVPROCS, print.drvprocs, print_unidrv-pscript_rendering_63cf2b11-04c8-43f3-951b-5755764059f9.xml, printoem/DRVPROCS, printoem/PDRVPROCS"
 f1_keywords:
  - "printoem/DRVPROCS"
+ - "DRVPROCS"
 req.header: printoem.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - printoem.h
 api_name:
 - DRVPROCS
-product:
-- Windows
 targetos: Windows
 req.typenames: DRVPROCS, *PDRVPROCS
 ---

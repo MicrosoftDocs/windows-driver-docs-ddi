@@ -10,6 +10,7 @@ keywords: ["IPrinterExtensionContext::get_PrinterQueue"]
 ms.keywords: IPrinterExtensionContext interface [Print Devices],PrinterQueue property, IPrinterExtensionContext.PrinterQueue, IPrinterExtensionContext.get_PrinterQueue, IPrinterExtensionContext::PrinterQueue, IPrinterExtensionContext::get_PrinterQueue, PrinterQueue property [Print Devices], PrinterQueue property [Print Devices],IPrinterExtensionContext interface, get_PrinterQueue, print.iprinterextensioncontext_printerqueue, printerextension/IPrinterExtensionContext::PrinterQueue, printerextension/IPrinterExtensionContext::get_PrinterQueue
 f1_keywords:
  - "printerextension/IPrinterExtensionContext.PrinterQueue"
+ - "IPrinterExtensionContext.PrinterQueue"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IPrinterExtensionContext.PrinterQueue
 - IPrinterExtensionContext.get_PrinterQueue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

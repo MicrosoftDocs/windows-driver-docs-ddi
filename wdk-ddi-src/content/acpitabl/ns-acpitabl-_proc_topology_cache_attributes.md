@@ -7,6 +7,7 @@ ms.date: 10/01/2018
 keywords: ["_PROC_TOPOLOGY_CACHE_ATTRIBUTES structure"]
 f1_keywords:
  - "acpitabl/_PROC_TOPOLOGY_CACHE_ATTRIBUTES"
+ - "_PROC_TOPOLOGY_CACHE_ATTRIBUTES"
 ms.keywords: _PROC_TOPOLOGY_CACHE_ATTRIBUTES, PROC_TOPOLOGY_CACHE_ATTRIBUTES, *PPROC_TOPOLOGY_CACHE_ATTRIBUTES, 
 req.header: acpitabl.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - acpitabl.h
 api_name: 
 - _PROC_TOPOLOGY_CACHE_ATTRIBUTES
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

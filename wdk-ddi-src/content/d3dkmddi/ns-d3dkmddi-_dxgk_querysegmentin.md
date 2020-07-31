@@ -9,6 +9,7 @@ keywords: ["_DXGK_QUERYSEGMENTIN structure"]
 ms.keywords: DXGK_QUERYSEGMENTIN, DXGK_QUERYSEGMENTIN structure [Display Devices], DmStructs_d47cf13d-48ec-49fd-b80c-4df1501db329.xml, _DXGK_QUERYSEGMENTIN, d3dkmddi/DXGK_QUERYSEGMENTIN, display.dxgk_querysegmentin
 f1_keywords:
  - "d3dkmddi/DXGK_QUERYSEGMENTIN"
+ - "DXGK_QUERYSEGMENTIN"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGK_QUERYSEGMENTIN
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_QUERYSEGMENTIN

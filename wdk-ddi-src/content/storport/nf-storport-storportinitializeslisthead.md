@@ -10,6 +10,7 @@ keywords: ["StorPortInitializeSListHead function"]
 ms.keywords: StorPortInitializeSListHead, StorPortInitializeSListHead routine [Storage Devices], storage.storportinitializeslisthead, storport/StorPortInitializeSListHead
 f1_keywords:
  - "storport/StorPortInitializeSListHead"
+ - "StorPortInitializeSListHead"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - storport.h
 api_name:
 - StorPortInitializeSListHead
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

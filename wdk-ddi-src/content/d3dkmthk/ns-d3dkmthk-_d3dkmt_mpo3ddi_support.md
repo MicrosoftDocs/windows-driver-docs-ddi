@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_MPO3DDI_SUPPORT structure"]
 ms.keywords: D3DKMT_MPO3DDI_SUPPORT, D3DKMT_MPO3DDI_SUPPORT structure [Display Devices], _D3DKMT_MPO3DDI_SUPPORT, d3dkmthk/D3DKMT_MPO3DDI_SUPPORT, display.d3dkmt_mpo3ddi_support
 f1_keywords:
  - "d3dkmthk/D3DKMT_MPO3DDI_SUPPORT"
+ - "D3DKMT_MPO3DDI_SUPPORT"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMT_MPO3DDI_SUPPORT
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_MPO3DDI_SUPPORT

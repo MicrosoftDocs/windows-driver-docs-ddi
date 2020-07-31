@@ -10,6 +10,7 @@ keywords: ["IDebugControl4::GetExpressionSyntaxNamesWide"]
 ms.keywords: GetExpressionSyntaxNamesWide, GetExpressionSyntaxNamesWide method [Windows Debugging], GetExpressionSyntaxNamesWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetExpressionSyntaxNamesWide method, IDebugControl4.GetExpressionSyntaxNamesWide, IDebugControl4::GetExpressionSyntaxNamesWide, dbgeng/IDebugControl4::GetExpressionSyntaxNamesWide, debugger.getexpressionsyntaxnameswide
 f1_keywords:
  - "dbgeng/IDebugControl4.GetExpressionSyntaxNamesWide"
+ - "IDebugControl4.GetExpressionSyntaxNamesWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugControl4.GetExpressionSyntaxNamesWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

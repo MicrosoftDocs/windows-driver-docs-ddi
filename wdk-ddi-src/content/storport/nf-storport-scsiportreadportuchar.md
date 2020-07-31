@@ -10,6 +10,7 @@ keywords: ["ScsiPortReadPortUchar macro"]
 ms.keywords: ScsiPortReadPortUchar, ScsiPortReadPortUchar routine [Storage Devices], scsiprt_bdc335c6-bee2-47f6-ad8e-61bece6f7c15.xml, srb/ScsiPortReadPortUchar, storage.scsiportreadportuchar
 f1_keywords:
  - "storport/ScsiPortReadPortUchar"
+ - "ScsiPortReadPortUchar"
 req.header: storport.h
 req.include-header: Miniport.h, Scsi.h, Storport.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Scsiport.dll
 api_name:
 - ScsiPortReadPortUchar
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

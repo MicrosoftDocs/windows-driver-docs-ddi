@@ -10,6 +10,7 @@ keywords: ["IOCTL_MOUNTDEV_LINK_CREATED IOCTL"]
 ms.keywords: IOCTL_MOUNTDEV_LINK_CREATED, IOCTL_MOUNTDEV_LINK_CREATED control, IOCTL_MOUNTDEV_LINK_CREATED control code [Storage Devices], k307_b93a8e67-8e02-4d7d-aac2-a11f3d4297c2.xml, mountdev/IOCTL_MOUNTDEV_LINK_CREATED, storage.ioctl_mountdev_link_created
 f1_keywords:
  - "mountdev/IOCTL_MOUNTDEV_LINK_CREATED"
+ - "IOCTL_MOUNTDEV_LINK_CREATED"
 req.header: mountdev.h
 req.include-header: Mountmgr.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - mountdev.h
 api_name:
 - IOCTL_MOUNTDEV_LINK_CREATED
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

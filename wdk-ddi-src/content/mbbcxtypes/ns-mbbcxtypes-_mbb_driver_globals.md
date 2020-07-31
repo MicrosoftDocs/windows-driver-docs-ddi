@@ -8,6 +8,7 @@ ms.date: 07/02/2018
 keywords: ["_MBB_DRIVER_GLOBALS structure"]
 f1_keywords:
  - "mbbcxtypes/_MBB_DRIVER_GLOBALS"
+ - "_MBB_DRIVER_GLOBALS"
 ms.keywords: _MBB_DRIVER_GLOBALS, MBB_DRIVER_GLOBALS, *PMBB_DRIVER_GLOBALS, 
 req.header: mbbcxtypes.h
 req.include-header:
@@ -30,8 +31,6 @@ api_location:
 - mbbcxtypes.h
 api_name: 
 - _MBB_DRIVER_GLOBALS
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

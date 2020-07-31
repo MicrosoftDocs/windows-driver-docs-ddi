@@ -10,6 +10,7 @@ keywords: ["_RemovePersistentEntry_IN structure"]
 ms.keywords: "*PRemovePersistentEntry_IN, PRemovePersistentEntry_IN, PRemovePersistentEntry_IN structure pointer [Storage Devices], RemovePersistentEntry_IN, RemovePersistentEntry_IN structure [Storage Devices], _RemovePersistentEntry_IN, hbapiwmi/PRemovePersistentEntry_IN, hbapiwmi/RemovePersistentEntry_IN, storage.removepersistententry_in, structs-Fibre_e5e794c3-e43c-4218-af52-3f2d8a96c256.xml"
 f1_keywords:
  - "hbapiwmi/RemovePersistentEntry_IN"
+ - "RemovePersistentEntry_IN"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - RemovePersistentEntry_IN
-product:
-- Windows
 targetos: Windows
 req.typenames: RemovePersistentEntry_IN, *PRemovePersistentEntry_IN
 ---

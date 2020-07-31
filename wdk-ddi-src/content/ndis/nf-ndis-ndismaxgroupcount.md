@@ -10,6 +10,7 @@ keywords: ["NdisMaxGroupCount function"]
 ms.keywords: NdisMaxGroupCount, NdisMaxGroupCount function [Network Drivers Starting with Windows Vista], ndis/NdisMaxGroupCount, ndis_processor_group_ref_5744be61-71b7-4abc-ad66-30b26558c0ac.xml, netvista.ndismaxgroupcount
 f1_keywords:
  - "ndis/NdisMaxGroupCount"
+ - "NdisMaxGroupCount"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisMaxGroupCount
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

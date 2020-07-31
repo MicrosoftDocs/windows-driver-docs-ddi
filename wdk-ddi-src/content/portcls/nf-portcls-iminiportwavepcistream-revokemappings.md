@@ -10,6 +10,7 @@ keywords: ["IMiniportWavePciStream::RevokeMappings"]
 ms.keywords: IMiniportWavePciStream interface [Audio Devices],RevokeMappings method, IMiniportWavePciStream.RevokeMappings, IMiniportWavePciStream::RevokeMappings, RevokeMappings, RevokeMappings method [Audio Devices], RevokeMappings method [Audio Devices],IMiniportWavePciStream interface, audio.iminiportwavepcistream_revokemappings, audmp-routines_f995bc15-917a-416d-9066-3d5667866973.xml, portcls/IMiniportWavePciStream::RevokeMappings
 f1_keywords:
  - "portcls/IMiniportWavePciStream.RevokeMappings"
+ - "IMiniportWavePciStream.RevokeMappings"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IMiniportWavePciStream.RevokeMappings
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

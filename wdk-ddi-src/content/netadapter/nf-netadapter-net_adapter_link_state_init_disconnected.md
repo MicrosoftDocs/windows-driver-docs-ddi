@@ -8,6 +8,7 @@ ms.date: 02/05/2018
 keywords: ["NET_ADAPTER_LINK_STATE_INIT_DISCONNECTED function"]
 f1_keywords:
  - "netadapter/NET_ADAPTER_LINK_STATE_INIT_DISCONNECTED"
+ - "NET_ADAPTER_LINK_STATE_INIT_DISCONNECTED"
 ms.keywords: NET_ADAPTER_LINK_STATE_INIT_DISCONNECTED
 req.header: netadapter.h
 req.include-header:
@@ -38,8 +39,6 @@ api_location:
 api_name: 
 - NET_ADAPTER_LINK_STATE_INIT_DISCONNECTED
 targetos: Windows
-product:
-- Windows
 ---
 
 # NET_ADAPTER_LINK_STATE_INIT_DISCONNECTED function

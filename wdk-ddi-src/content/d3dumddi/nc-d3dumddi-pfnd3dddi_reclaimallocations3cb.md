@@ -29,6 +29,7 @@ targetos: Windows
 req.typenames: 
 f1_keywords:
  - "d3dumddi/pfnReclaimAllocations3Cb"
+ - "pfnReclaimAllocations3Cb"
 topic_type:
  - APIRef
  - kbSyntax

@@ -10,6 +10,7 @@ keywords: ["KsFreeObjectHeader function"]
 ms.keywords: KsFreeObjectHeader, KsFreeObjectHeader function [Streaming Media Devices], ks/KsFreeObjectHeader, ksfunc_11097907-6879-43bb-879b-b74eb13d6109.xml, stream.ksfreeobjectheader
 f1_keywords:
  - "ks/KsFreeObjectHeader"
+ - "KsFreeObjectHeader"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsFreeObjectHeader
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

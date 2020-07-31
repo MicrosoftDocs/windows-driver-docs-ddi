@@ -10,6 +10,7 @@ keywords: ["FltGetIoPriorityHintFromCallbackData function"]
 ms.keywords: FltApiRef_e_to_o_ce313b29-9c88-47f7-9a7f-a4ad9945ade1.xml, FltGetIoPriorityHintFromCallbackData, FltGetIoPriorityHintFromCallbackData routine [Installable File System Drivers], fltkernel/FltGetIoPriorityHintFromCallbackData, ifsk.fltgetiopriorityhintfromcallbackdata
 f1_keywords:
  - "fltkernel/FltGetIoPriorityHintFromCallbackData"
+ - "FltGetIoPriorityHintFromCallbackData"
 req.header: fltkernel.h
 req.include-header: FltKernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltGetIoPriorityHintFromCallbackData
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

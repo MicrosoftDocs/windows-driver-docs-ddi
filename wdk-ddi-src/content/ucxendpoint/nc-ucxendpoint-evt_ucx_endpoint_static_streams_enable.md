@@ -10,6 +10,7 @@ keywords: ["EVT_UCX_ENDPOINT_STATIC_STREAMS_ENABLE callback function"]
 ms.keywords: EVT_UCX_ENDPOINT_STATIC_STREAMS_ENABLE, EVT_UCX_ENDPOINT_STATIC_STREAMS_ENABLE callback, EvtUcxEndpointStaticStreamsEnable, EvtUcxEndpointStaticStreamsEnable callback function [Buses], PFN_UCM_CONNECTOR_GET_OPERATING_MODE, PFN_UCM_CONNECTOR_GET_OPERATING_MODE callback function pointer [Buses], buses.evt_ucx_endpoint_static_streams_enable, ucxendpoint/EvtUcxEndpointStaticStreamsEnable
 f1_keywords:
  - "ucxendpoint/PFN_UCM_CONNECTOR_GET_OPERATING_MODE"
+ - "PFN_UCM_CONNECTOR_GET_OPERATING_MODE"
 req.header: ucxendpoint.h
 req.include-header: Ucxclass.h, Ucxendpoint.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ucxendpoint.h
 api_name:
 - PFN_UCM_CONNECTOR_GET_OPERATING_MODE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

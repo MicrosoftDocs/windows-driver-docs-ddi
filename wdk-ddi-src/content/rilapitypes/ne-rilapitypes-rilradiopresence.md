@@ -10,6 +10,7 @@ keywords: ["RILRADIOPRESENCE enumeration"]
 ms.keywords: RILRADIOPRESENCE, RILRADIOPRESENCE enumeration [Network Drivers Starting with Windows Vista], RIL_RADIOPRESENCE_MAX, RIL_RADIOPRESENCE_PRESENT, netvista.rilradiopresence, ntddrilapitypes/RILRADIOPRESENCE, ntddrilapitypes/RIL_RADIOPRESENCE_MAX, ntddrilapitypes/RIL_RADIOPRESENCE_PRESENT
 f1_keywords:
  - "rilapitypes/RILRADIOPRESENCE"
+ - "RILRADIOPRESENCE"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILRADIOPRESENCE
-product:
-- Windows
 targetos: Windows
 req.typenames: RILRADIOPRESENCE
 ---

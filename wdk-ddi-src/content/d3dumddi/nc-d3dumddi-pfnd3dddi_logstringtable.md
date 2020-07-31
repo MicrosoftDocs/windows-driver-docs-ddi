@@ -10,6 +10,7 @@ keywords: ["PFND3DDDI_LOGSTRINGTABLE callback function"]
 ms.keywords: LogMarkerStringTable, LogMarkerStringTable callback function [Display Devices], PFND3DDDI_LOGSTRINGTABLE, PFND3DDDI_LOGSTRINGTABLE callback, d3dumddi/LogMarkerStringTable, display.logmarkerstringtable
 f1_keywords:
  - "d3dumddi/LogMarkerStringTable"
+ - "LogMarkerStringTable"
 req.header: d3dumddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - D3dumddi.h
 api_name:
 - LogMarkerStringTable
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

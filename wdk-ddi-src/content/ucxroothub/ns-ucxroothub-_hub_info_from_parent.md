@@ -10,6 +10,7 @@ keywords: ["_HUB_INFO_FROM_PARENT structure"]
 ms.keywords: "*PHUB_INFO_FROM_PARENT, HUB_INFO_FROM_PARENT, HUB_INFO_FROM_PARENT structure [Buses], P_HUB_INFO_FROM_PARENT, P_HUB_INFO_FROM_PARENT structure pointer [Buses], _HUB_INFO_FROM_PARENT, buses._hub_info_from_parent, ucxroothub/P_HUB_INFO_FROM_PARENT, ucxroothub/_HUB_INFO_FROM_PARENT"
 f1_keywords:
  - "ucxroothub/HUB_INFO_FROM_PARENT"
+ - "HUB_INFO_FROM_PARENT"
 req.header: ucxroothub.h
 req.include-header: Ucxclass.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ucxroothub.h
 api_name:
 - HUB_INFO_FROM_PARENT
-product:
-- Windows
 targetos: Windows
 req.typenames: HUB_INFO_FROM_PARENT, *PHUB_INFO_FROM_PARENT
 ---

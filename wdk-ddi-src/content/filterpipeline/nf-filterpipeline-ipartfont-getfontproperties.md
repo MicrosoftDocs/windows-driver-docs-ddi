@@ -10,6 +10,7 @@ keywords: ["IPartFont::GetFontProperties"]
 ms.keywords: GetFontProperties, GetFontProperties method [Print Devices], GetFontProperties method [Print Devices],IPartFont interface, IPartFont interface [Print Devices],GetFontProperties method, IPartFont.GetFontProperties, IPartFont::GetFontProperties, filterpipeline/IPartFont::GetFontProperties, filterpipeline_a84d2506-3e75-4dc9-ad3e-ef481bd2fd20.xml, print.ipartfont_getfontproperties
 f1_keywords:
  - "filterpipeline/IPartFont.GetFontProperties"
+ - "IPartFont.GetFontProperties"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - filterpipeline.h
 api_name:
 - IPartFont.GetFontProperties
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -7,6 +7,7 @@ ms.date: 07/20/2018
 keywords: ["IModelObject::ClearKeys"]
 f1_keywords:
  - "dbgmodel/IModelObject.ClearKeys"
+ - "IModelObject.ClearKeys"
 ms.keywords: IModelObject::ClearKeys, ClearKeys, IModelObject.ClearKeys, IModelObject::ClearKeys, IModelObject.ClearKeys
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IModelObject.ClearKeys
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

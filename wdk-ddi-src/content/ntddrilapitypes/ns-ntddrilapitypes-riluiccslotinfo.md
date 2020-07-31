@@ -10,6 +10,7 @@ keywords: ["RILUICCSLOTINFO structure"]
 ms.keywords: "*LPRILUICCSLOTINFO, RILUICCSLOTINFO, RILUICCSLOTINFO structure [Network Drivers Starting with Windows Vista], netvista.riluiccslotinfo, ntddrilapitypes/RILUICCSLOTINFO"
 f1_keywords:
  - "ntddrilapitypes/RILUICCSLOTINFO"
+ - "RILUICCSLOTINFO"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILUICCSLOTINFO
-product:
-- Windows
 targetos: Windows
 req.typenames: RILUICCSLOTINFO, *LPRILUICCSLOTINFO
 ---

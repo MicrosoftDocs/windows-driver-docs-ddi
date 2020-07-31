@@ -10,6 +10,7 @@ keywords: ["_WDF_IO_TYPE_CONFIG structure"]
 ms.keywords: "*PWDF_IO_TYPE_CONFIG, PWDF_IO_TYPE_CONFIG, PWDF_IO_TYPE_CONFIG structure pointer, WDF_IO_TYPE_CONFIG, WDF_IO_TYPE_CONFIG structure, _WDF_IO_TYPE_CONFIG, wdf.wdf_io_type_config, wdfdevice/PWDF_IO_TYPE_CONFIG, wdfdevice/WDF_IO_TYPE_CONFIG"
 f1_keywords:
  - "wdfdevice/WDF_IO_TYPE_CONFIG"
+ - "WDF_IO_TYPE_CONFIG"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wdfdevice.h
 api_name:
 - WDF_IO_TYPE_CONFIG
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_IO_TYPE_CONFIG, *PWDF_IO_TYPE_CONFIG
 ---

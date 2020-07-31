@@ -10,6 +10,7 @@ keywords: ["HwNProcessAddDevicePostDeviceCreate function"]
 ms.keywords: HwNProcessAddDevicePostDeviceCreate, HwNProcessAddDevicePostDeviceCreate function, gpiobtn.hwnprocessadddevicepostdevicecreate, hwnclx/HwNProcessAddDevicePostDeviceCreate
 f1_keywords:
  - "hwnclx/HwNProcessAddDevicePostDeviceCreate"
+ - "HwNProcessAddDevicePostDeviceCreate"
 req.header: hwnclx.h
 req.include-header:
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 - Mshwnclxstub.dll
 api_name:
 - HwNProcessAddDevicePostDeviceCreate
-product:
-- Windows
 targetos: Windows
 req.typenames: HWN_CLX_EXPORT_INDEX, *PHWN_CLX_EXPORT_INDEX
 ---

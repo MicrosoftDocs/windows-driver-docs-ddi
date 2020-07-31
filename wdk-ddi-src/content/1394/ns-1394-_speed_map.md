@@ -10,6 +10,7 @@ keywords: ["_SPEED_MAP structure"]
 ms.keywords: "*PSPEED_MAP, 1394/PSPEED_MAP, 1394/SPEED_MAP, 1394stct_0df32f88-2279-4df2-a7f3-856ddfdacb56.xml, IEEE.speed_map, PSPEED_MAP, PSPEED_MAP structure pointer [Buses], SPEED_MAP, SPEED_MAP structure [Buses], _SPEED_MAP"
 f1_keywords:
  - "1394/SPEED_MAP"
+ - "SPEED_MAP"
 req.header: 1394.h
 req.include-header: 1394.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - 1394.h
 api_name:
 - SPEED_MAP
-product:
-- Windows
 targetos: Windows
 req.typenames: SPEED_MAP, *PSPEED_MAP
 ---

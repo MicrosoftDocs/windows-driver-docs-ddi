@@ -10,6 +10,7 @@ keywords: ["MINIPORT_HALT callback function"]
 ms.keywords: MINIPORT_HALT, MINIPORT_HALT callback, MiniportHaltEx, MiniportHaltEx callback function [Network Drivers Starting with Windows Vista], miniport_functions_ref_aa826b59-f204-43ea-81b6-f1bab84a7a23.xml, ndis/MiniportHaltEx, netvista.miniporthaltex
 f1_keywords:
  - "ndis/MiniportHaltEx"
+ - "MiniportHaltEx"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - MiniportHaltEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

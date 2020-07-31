@@ -10,6 +10,7 @@ keywords: ["ExtRemoteTypedList::ExtRemoteTypedList(ULONG64,PCSTR,PCSTR,ULONG64,U
 ms.keywords: ExtRemoteTypedList, ExtRemoteTypedList class [Windows Debugging],ExtRemoteTypedList constructor, ExtRemoteTypedList constructor [Windows Debugging], ExtRemoteTypedList constructor [Windows Debugging],ExtRemoteTypedList class, ExtRemoteTypedList.ExtRemoteTypedList, ExtRemoteTypedList.ExtRemoteTypedList(ULONG64,PCSTR,PCSTR,ULONG64,ULONG,PULONG64,bool), ExtRemoteTypedList::ExtRemoteTypedList, ExtRemoteTypedList::ExtRemoteTypedList(ULONG64,PCSTR,PCSTR,ULONG64,ULONG,PULONG64,bool), debugger.extremotetypedlist_extremotetypedlist_ulong64
 f1_keywords:
  - "engextcpp/ExtRemoteTypedList.ExtRemoteTypedList"
+ - "ExtRemoteTypedList.ExtRemoteTypedList"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - engextcpp.hpp
 api_name:
 - ExtRemoteTypedList.ExtRemoteTypedList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

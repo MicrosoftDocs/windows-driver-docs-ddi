@@ -10,6 +10,7 @@ keywords: ["ISensorDriver::OnSetProperties"]
 ms.keywords: ISensorDriver interface [Sensor Devices],OnSetProperties method, ISensorDriver.OnSetProperties, ISensorDriver::OnSetProperties, OnSetProperties, OnSetProperties method [Sensor Devices], OnSetProperties method [Sensor Devices],ISensorDriver interface, Sensor_IFaces_1b27ccef-2b50-4942-b8fa-9126e2624b27.xml, sensors.isensordriver_onsetproperties, sensorsclassextension/ISensorDriver::OnSetProperties
 f1_keywords:
  - "sensorsclassextension/ISensorDriver.OnSetProperties"
+ - "ISensorDriver.OnSetProperties"
 req.header: sensorsclassextension.h
 req.include-header: 
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - SensorsClassExtension.dll
 api_name:
 - ISensorDriver.OnSetProperties
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

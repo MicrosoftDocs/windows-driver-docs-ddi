@@ -10,6 +10,7 @@ keywords: ["RILSETSLOTPOWERPARAMS structure"]
 ms.keywords: "*LPRILSETSLOTPOWERPARAMS, RILSETSLOTPOWERPARAMS, RILSETSLOTPOWERPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetslotpowerparams, ntddrilapitypes/RILSETSLOTPOWERPARAMS"
 f1_keywords:
  - "rilapitypes/RILSETSLOTPOWERPARAMS"
+ - "RILSETSLOTPOWERPARAMS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILSETSLOTPOWERPARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILSETSLOTPOWERPARAMS, *LPRILSETSLOTPOWERPARAMS
 ---

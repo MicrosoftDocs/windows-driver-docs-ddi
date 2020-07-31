@@ -10,6 +10,7 @@ keywords: ["FsRtlCheckUpperOplock function"]
 ms.keywords: FsRtlCheckUpperOplock, FsRtlCheckUpperOplock routine [Installable File System Drivers], OPLOCK_LEVEL_CACHE_HANDLE, OPLOCK_LEVEL_CACHE_READ, OPLOCK_LEVEL_CACHE_WRITE, ifsk.fsrtlcheckupperoplock, ntifs/FsRtlCheckUpperOplock
 f1_keywords:
  - "ntifs/FsRtlCheckUpperOplock"
+ - "FsRtlCheckUpperOplock"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlCheckUpperOplock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 dev_langs:

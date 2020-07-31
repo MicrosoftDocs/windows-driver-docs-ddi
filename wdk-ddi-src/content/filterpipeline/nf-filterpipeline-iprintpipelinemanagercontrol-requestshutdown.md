@@ -10,6 +10,7 @@ keywords: ["IPrintPipelineManagerControl::RequestShutdown"]
 ms.keywords: IPrintPipelineManagerControl interface [Print Devices],RequestShutdown method, IPrintPipelineManagerControl.RequestShutdown, IPrintPipelineManagerControl::RequestShutdown, RequestShutdown, RequestShutdown method [Print Devices], RequestShutdown method [Print Devices],IPrintPipelineManagerControl interface, filterpipeline/IPrintPipelineManagerControl::RequestShutdown, filterpipeline_b16337ab-92e1-4e5e-be84-bddf89bff0a1.xml, print.iprintpipelinemanagercontrol_requestshutdown
 f1_keywords:
  - "filterpipeline/IPrintPipelineManagerControl.RequestShutdown"
+ - "IPrintPipelineManagerControl.RequestShutdown"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - filterpipeline.h
 api_name:
 - IPrintPipelineManagerControl.RequestShutdown
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

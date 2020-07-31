@@ -10,6 +10,7 @@ keywords: ["TmGetTransactionId function"]
 ms.keywords: TmGetTransactionId, TmGetTransactionId routine [Kernel-Mode Driver Architecture], kernel.tmgettransactionid, ktm_ref_cbb12580-5399-4d81-ab6c-9d0235208681.xml, wdm/TmGetTransactionId
 f1_keywords:
  - "wdm/TmGetTransactionId"
+ - "TmGetTransactionId"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -38,8 +39,6 @@ api_location:
 - tm.sys
 api_name:
 - TmGetTransactionId
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

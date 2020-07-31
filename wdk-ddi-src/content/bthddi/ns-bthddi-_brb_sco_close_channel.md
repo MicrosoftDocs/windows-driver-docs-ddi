@@ -10,6 +10,7 @@ keywords: ["_BRB_SCO_CLOSE_CHANNEL structure"]
 ms.keywords: "_BRB_SCO_CLOSE_CHANNEL, _BRB_SCO_CLOSE_CHANNEL structure [Bluetooth Devices], bltooth._brb_sco_close_channel, bth_structs_d031efa4-0a68-47c0-8344-e95c677661c9.xml, bthddi/_BRB_SCO_CLOSE_CHANNEL"
 f1_keywords:
  - "bthddi/_BRB_SCO_CLOSE_CHANNEL"
+ - "_BRB_SCO_CLOSE_CHANNEL"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - bthddi.h
 api_name:
 - _BRB_SCO_CLOSE_CHANNEL
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IDebugControl3::GetSystemErrorControl"]
 ms.keywords: GetSystemErrorControl, GetSystemErrorControl method [Windows Debugging], GetSystemErrorControl method [Windows Debugging],IDebugControl interface, GetSystemErrorControl method [Windows Debugging],IDebugControl2 interface, GetSystemErrorControl method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetSystemErrorControl method, IDebugControl2 interface [Windows Debugging],GetSystemErrorControl method, IDebugControl2::GetSystemErrorControl, IDebugControl3 interface [Windows Debugging],GetSystemErrorControl method, IDebugControl3.GetSystemErrorControl, IDebugControl3::GetSystemErrorControl, IDebugControl::GetSystemErrorControl, IDebugControl_94595f9e-7e73-4291-a904-49f1a8fbbaa8.xml, dbgeng/IDebugControl2::GetSystemErrorControl, dbgeng/IDebugControl3::GetSystemErrorControl, dbgeng/IDebugControl::GetSystemErrorControl, debugger.getsystemerrorcontrol
 f1_keywords:
  - "dbgeng/IDebugControl.GetSystemErrorControl"
+ - "IDebugControl.GetSystemErrorControl"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -38,8 +39,6 @@ api_name:
 - IDebugControl.GetSystemErrorControl
 - IDebugControl2.GetSystemErrorControl
 - IDebugControl3.GetSystemErrorControl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

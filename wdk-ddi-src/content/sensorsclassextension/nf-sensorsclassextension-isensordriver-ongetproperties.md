@@ -10,6 +10,7 @@ keywords: ["ISensorDriver::OnGetProperties"]
 ms.keywords: ISensorDriver interface [Sensor Devices],OnGetProperties method, ISensorDriver.OnGetProperties, ISensorDriver::OnGetProperties, OnGetProperties, OnGetProperties method [Sensor Devices], OnGetProperties method [Sensor Devices],ISensorDriver interface, sensors.isensordriver_ongetproperties, sensorsclassextension/ISensorDriver::OnGetProperties
 f1_keywords:
  - "sensorsclassextension/OnGetProperties"
+ - "OnGetProperties"
 req.header: sensorsclassextension.h
 req.include-header: 
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 - SensorsClassExtension.dll
 api_name:
 - OnGetProperties
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

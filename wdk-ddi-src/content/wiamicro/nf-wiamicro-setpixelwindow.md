@@ -10,6 +10,7 @@ keywords: ["SetPixelWindow function"]
 ms.keywords: MicroDrv_45542a77-e61e-49ba-a9f3-df7d8dd57402.xml, SetPixelWindow, SetPixelWindow function [Imaging Devices], image.setpixelwindow, wiamicro/SetPixelWindow
 f1_keywords:
  - "wiamicro/SetPixelWindow"
+ - "SetPixelWindow"
 req.header: wiamicro.h
 req.include-header: Wiamicro.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wiamicro.h
 api_name:
 - SetPixelWindow
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

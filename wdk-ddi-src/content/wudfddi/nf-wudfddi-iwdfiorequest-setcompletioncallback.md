@@ -10,6 +10,7 @@ keywords: ["IWDFIoRequest::SetCompletionCallback"]
 ms.keywords: IWDFIoRequest interface,SetCompletionCallback method, IWDFIoRequest.SetCompletionCallback, IWDFIoRequest::SetCompletionCallback, SetCompletionCallback, SetCompletionCallback method, SetCompletionCallback method,IWDFIoRequest interface, UMDFRequestObjectRef_81bdbb22-6221-472d-b2de-a1cc0b9b0c11.xml, umdf.iwdfiorequest_setcompletioncallback, wdf.iwdfiorequest_setcompletioncallback, wudfddi/IWDFIoRequest::SetCompletionCallback
 f1_keywords:
  - "wudfddi/IWDFIoRequest.SetCompletionCallback"
+ - "IWDFIoRequest.SetCompletionCallback"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFIoRequest.SetCompletionCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

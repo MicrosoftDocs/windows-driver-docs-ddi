@@ -9,6 +9,7 @@ keywords: ["PFND3D10DDI_SETINPUTLAYOUT callback function"]
 ms.keywords: IaSetInputLayout, IaSetInputLayout callback function [Display Devices], PFND3D10DDI_SETINPUTLAYOUT, PFND3D10DDI_SETINPUTLAYOUT callback, UserModeDisplayDriverDx10_Functions_fbd365d3-26a5-49a8-b89c-c094d8e873d9.xml, d3d10umddi/IaSetInputLayout, display.iasetinputlayout
 f1_keywords:
  - "d3d10umddi/IaSetInputLayout"
+ - "IaSetInputLayout"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - IaSetInputLayout
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

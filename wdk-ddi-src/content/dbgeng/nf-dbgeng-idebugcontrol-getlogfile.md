@@ -10,6 +10,7 @@ keywords: ["IDebugControl::GetLogFile"]
 ms.keywords: GetLogFile, GetLogFile method [Windows Debugging], GetLogFile method [Windows Debugging],IDebugControl interface, GetLogFile method [Windows Debugging],IDebugControl2 interface, GetLogFile method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetLogFile method, IDebugControl.GetLogFile, IDebugControl2 interface [Windows Debugging],GetLogFile method, IDebugControl2::GetLogFile, IDebugControl3 interface [Windows Debugging],GetLogFile method, IDebugControl3::GetLogFile, IDebugControl::GetLogFile, IDebugControl_cad2fa56-b2ca-4a26-822e-193acf602913.xml, dbgeng/IDebugControl2::GetLogFile, dbgeng/IDebugControl3::GetLogFile, dbgeng/IDebugControl::GetLogFile, debugger.getlogfile
 f1_keywords:
  - "dbgeng/IDebugControl.GetLogFile"
+ - "IDebugControl.GetLogFile"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -38,8 +39,6 @@ api_name:
 - IDebugControl.GetLogFile
 - IDebugControl2.GetLogFile
 - IDebugControl3.GetLogFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

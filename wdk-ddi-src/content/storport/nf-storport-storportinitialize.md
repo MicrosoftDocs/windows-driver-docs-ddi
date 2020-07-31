@@ -10,6 +10,7 @@ keywords: ["StorPortInitialize function"]
 ms.keywords: StorPortInitialize, StorPortInitialize routine [Storage Devices], storage.storportinitialize, storport/StorPortInitialize, storprt_c60ad9af-507c-42e1-9f8a-04e3378bc37b.xml
 f1_keywords:
  - "storport/StorPortInitialize"
+ - "StorPortInitialize"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Storport.dll
 api_name:
 - StorPortInitialize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

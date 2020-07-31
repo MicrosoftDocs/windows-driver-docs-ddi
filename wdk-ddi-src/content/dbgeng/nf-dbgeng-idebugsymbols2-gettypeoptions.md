@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols2::GetTypeOptions"]
 ms.keywords: GetTypeOptions, GetTypeOptions method [Windows Debugging], GetTypeOptions method [Windows Debugging],IDebugSymbols2 interface, GetTypeOptions method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols2 interface [Windows Debugging],GetTypeOptions method, IDebugSymbols2.GetTypeOptions, IDebugSymbols2::GetTypeOptions, IDebugSymbols3 interface [Windows Debugging],GetTypeOptions method, IDebugSymbols3::GetTypeOptions, IDebugSymbols_ea8a630e-a7a9-40eb-9127-76fd876bf253.xml, dbgeng/IDebugSymbols2::GetTypeOptions, dbgeng/IDebugSymbols3::GetTypeOptions, debugger.gettypeoptions
 f1_keywords:
  - "dbgeng/IDebugSymbols2.GetTypeOptions"
+ - "IDebugSymbols2.GetTypeOptions"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IDebugSymbols2.GetTypeOptions
 - IDebugSymbols3.GetTypeOptions
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -8,6 +8,7 @@ ms.date: 09/30/2018
 keywords: ["_PCI_FPB_MEM_HIGH_VECTOR_CONTROL2_REGISTER structure"]
 f1_keywords:
  - "ntddk/_PCI_FPB_MEM_HIGH_VECTOR_CONTROL2_REGISTER"
+ - "_PCI_FPB_MEM_HIGH_VECTOR_CONTROL2_REGISTER"
 ms.keywords: _PCI_FPB_MEM_HIGH_VECTOR_CONTROL2_REGISTER, PCI_FPB_MEM_HIGH_VECTOR_CONTROL2_REGISTER, *PPCI_FPB_MEM_HIGH_VECTOR_CONTROL2_REGISTER, 
 req.header: ntddk.h
 req.include-header:
@@ -30,8 +31,6 @@ api_location:
 - ntddk.h
 api_name: 
 - _PCI_FPB_MEM_HIGH_VECTOR_CONTROL2_REGISTER
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

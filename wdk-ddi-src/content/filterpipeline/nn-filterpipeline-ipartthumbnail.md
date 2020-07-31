@@ -10,6 +10,7 @@ keywords: ["IPartThumbnail interface"]
 ms.keywords: IPartThumbnail, IPartThumbnail interface [Print Devices], IPartThumbnail interface [Print Devices],described, filterpipeline/IPartThumbnail, filterpipeline_56710e0f-b3df-44e6-85a5-bd155284531f.xml, print.ipartthumbnail
 f1_keywords:
  - "filterpipeline/IPartThumbnail"
+ - "IPartThumbnail"
 req.header: filterpipeline.h
 req.include-header: Filterpipeline.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - filterpipeline.h
 api_name:
 - IPartThumbnail
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

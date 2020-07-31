@@ -10,6 +10,7 @@ keywords: ["_DXVAHDDDI_COLOR_RGBA structure"]
 ms.keywords: DXVA2_Structs_ecf8ab79-edb1-42c8-b873-39cc1f7a1ef8.xml, DXVAHDDDI_COLOR_RGBA, DXVAHDDDI_COLOR_RGBA structure [Display Devices], _DXVAHDDDI_COLOR_RGBA, d3dumddi/DXVAHDDDI_COLOR_RGBA, display.dxvahdddi_color_rgba
 f1_keywords:
  - "d3dumddi/DXVAHDDDI_COLOR_RGBA"
+ - "DXVAHDDDI_COLOR_RGBA"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - DXVAHDDDI_COLOR_RGBA
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVAHDDDI_COLOR_RGBA
 ---

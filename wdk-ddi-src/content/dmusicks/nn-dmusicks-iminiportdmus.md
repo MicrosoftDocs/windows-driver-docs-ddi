@@ -10,6 +10,7 @@ keywords: ["IMiniportDMus interface"]
 ms.keywords: IMiniportDMus, IMiniportDMus interface [Audio Devices], IMiniportDMus interface [Audio Devices],described, audio.iminiportdmus, audmp-routines_b123c50b-e4b9-4f19-a2c4-b33fb335bec6.xml, dmusicks/IMiniportDMus
 f1_keywords:
  - "dmusicks/IMiniportDMus"
+ - "IMiniportDMus"
 req.header: dmusicks.h
 req.include-header: Dmusicks.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dmusicks.h
 api_name:
 - IMiniportDMus
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -57,7 +56,7 @@ The <code>IMiniportDMus</code> interface provides methods for initializing the m
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMiniportDMus</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMiniportDMus</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMiniportDMus</b> interface inherits from the <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMiniportDMus</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

@@ -10,6 +10,7 @@ keywords: ["FltGetIoPriorityHint function"]
 ms.keywords: FltApiRef_e_to_o_55aba7ac-700d-4cca-9ad1-abf80293041d.xml, FltGetIoPriorityHint, FltGetIoPriorityHint routine [Installable File System Drivers], fltkernel/FltGetIoPriorityHint, ifsk.fltgetiopriorityhint
 f1_keywords:
  - "fltkernel/FltGetIoPriorityHint"
+ - "FltGetIoPriorityHint"
 req.header: fltkernel.h
 req.include-header: FltKernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltGetIoPriorityHint
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

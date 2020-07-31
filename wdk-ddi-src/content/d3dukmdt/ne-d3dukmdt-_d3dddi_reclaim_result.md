@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DDDI_RECLAIM_RESULT enumeration"]
 f1_keywords:
  - "d3dukmdt/_D3DDDI_RECLAIM_RESULT"
+ - "_D3DDDI_RECLAIM_RESULT"
 ms.keywords: _D3DDDI_RECLAIM_RESULT, D3DDDI_RECLAIM_RESULT, 
 req.header: d3dukmdt.h
 req.include-header:
@@ -26,8 +27,6 @@ api_location:
 - d3dukmdt.h
 api_name: 
 - _D3DDDI_RECLAIM_RESULT
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

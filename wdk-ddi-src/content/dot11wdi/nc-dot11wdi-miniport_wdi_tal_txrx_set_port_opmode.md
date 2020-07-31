@@ -10,6 +10,7 @@ keywords: ["MINIPORT_WDI_TAL_TXRX_SET_PORT_OPMODE callback function"]
 ms.keywords: MINIPORT_WDI_TAL_TXRX_SET_PORT_OPMODE, MINIPORT_WDI_TAL_TXRX_SET_PORT_OPMODE callback, MiniportWdiTalTxRxSetPortOpMode, MiniportWdiTalTxRxSetPortOpMode callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTalTxRxSetPortOpMode, netvista.miniportwditaltxrxsetportopmode
 f1_keywords:
  - "dot11wdi/MiniportWdiTalTxRxSetPortOpMode"
+ - "MiniportWdiTalTxRxSetPortOpMode"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dot11wdi.h
 api_name:
 - MiniportWdiTalTxRxSetPortOpMode
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

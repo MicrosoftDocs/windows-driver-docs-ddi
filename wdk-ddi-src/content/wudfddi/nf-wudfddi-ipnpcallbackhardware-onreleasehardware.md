@@ -10,6 +10,7 @@ keywords: ["IPnpCallbackHardware::OnReleaseHardware"]
 ms.keywords: IPnpCallbackHardware interface,OnReleaseHardware method, IPnpCallbackHardware.OnReleaseHardware, IPnpCallbackHardware::OnReleaseHardware, OnReleaseHardware, OnReleaseHardware method, OnReleaseHardware method,IPnpCallbackHardware interface, UMDFDeviceObjectRef_d8966916-01c2-4e3d-b69b-d97ac06fe48a.xml, umdf.ipnpcallbackhardware_onreleasehardware, wdf.ipnpcallbackhardware_onreleasehardware, wudfddi/IPnpCallbackHardware::OnReleaseHardware
 f1_keywords:
  - "wudfddi/IPnpCallbackHardware.OnReleaseHardware"
+ - "IPnpCallbackHardware.OnReleaseHardware"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wudfddi.h
 api_name:
 - IPnpCallbackHardware.OnReleaseHardware
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

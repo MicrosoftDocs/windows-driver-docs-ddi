@@ -10,6 +10,7 @@ keywords: ["operator= function"]
 ms.keywords: ExtRemoteTyped class [Windows Debugging], operator= method, debugger.extremotetyped_operatorequals_debug_typed_data, operator=, operator= method [Windows Debugging], operator= method [Windows Debugging], ExtRemoteTyped class
 f1_keywords:
  - "wextestclass/ExtRemoteTyped.operator="
+ - "ExtRemoteTyped.operator="
 req.header: wextestclass.h
 req.include-header: Engextcpp.hpp, Wexlogtrace.h, Wextestclass.h, Wextestclass.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - arrayofelements.hpp
 api_name:
 - ExtRemoteTyped.operator=
-product:
-- Windows
 targetos: Windows
 req.typenames: TTraceLevel
 req.product: Windows 10 or later.

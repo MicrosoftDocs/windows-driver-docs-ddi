@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_SETFSEBLOCK structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_SETFSEBLOCK"
+ - "_D3DKMT_SETFSEBLOCK"
 ms.keywords: _D3DKMT_SETFSEBLOCK, D3DKMT_SETFSEBLOCK, 
 req.header: d3dkmthk.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - d3dkmthk.h
 api_name: 
 - _D3DKMT_SETFSEBLOCK
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_QUERYRESOURCERESIDENCY structure"]
 ms.keywords: D3DDDIARG_QUERYRESOURCERESIDENCY, D3DDDIARG_QUERYRESOURCERESIDENCY structure [Display Devices], UMDisplayDriver_param_Structs_46a460d2-e511-43fd-9906-b9a47762f9a7.xml, _D3DDDIARG_QUERYRESOURCERESIDENCY, d3dumddi/D3DDDIARG_QUERYRESOURCERESIDENCY, display.d3dddiarg_queryresourceresidency
 f1_keywords:
  - "d3dumddi/D3DDDIARG_QUERYRESOURCERESIDENCY"
+ - "D3DDDIARG_QUERYRESOURCERESIDENCY"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDIARG_QUERYRESOURCERESIDENCY
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_QUERYRESOURCERESIDENCY
 ---

@@ -10,6 +10,7 @@ keywords: ["IPortEvents::AddEventToEventList"]
 ms.keywords: AddEventToEventList, AddEventToEventList method [Audio Devices], AddEventToEventList method [Audio Devices],IPortEvents interface, IPortEvents interface [Audio Devices],AddEventToEventList method, IPortEvents.AddEventToEventList, IPortEvents::AddEventToEventList, audio.iportevents_addeventtoeventlist, audmp-routines_13ea6aa7-0f65-43d4-b80c-4aa46102c43e.xml, portcls/IPortEvents::AddEventToEventList
 f1_keywords:
  - "portcls/IPortEvents.AddEventToEventList"
+ - "IPortEvents.AddEventToEventList"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IPortEvents.AddEventToEventList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

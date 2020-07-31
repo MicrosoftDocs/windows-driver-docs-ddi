@@ -7,6 +7,7 @@ ms.date: 07/16/2018
 keywords: ["ArrayDimension structure"]
 f1_keywords:
  - "dbgmodel/ArrayDimension"
+ - "ArrayDimension"
 ms.keywords: ArrayDimension, , 
 req.header: dbgmodel.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - ArrayDimension
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

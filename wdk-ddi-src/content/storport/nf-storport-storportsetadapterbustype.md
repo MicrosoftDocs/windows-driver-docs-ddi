@@ -10,6 +10,7 @@ keywords: ["StorPortSetAdapterBusType function"]
 ms.keywords: StorPortSetAdapterBusType, StorPortSetAdapterBusType routine [Storage Devices], storage.storportsetadapterbustype, storport/StorPortSetAdapterBusType
 f1_keywords:
  - "storport/StorPortSetAdapterBusType"
+ - "StorPortSetAdapterBusType"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Storport.dll
 api_name:
 - StorPortSetAdapterBusType
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

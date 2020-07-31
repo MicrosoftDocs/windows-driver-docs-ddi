@@ -10,6 +10,7 @@ keywords: ["KdBreakPointWithStatus macro"]
 ms.keywords: DebugFns_f34fa39a-d436-44db-97ff-3ccdd50384d8.xml, KdBreakPointWithStatus, KdBreakPointWithStatus function [Driver Development Tools], devtest.kdbreakpointwithstatus, ntddk/KdBreakPointWithStatus
 f1_keywords:
  - "wdm/KdBreakPointWithStatus"
+ - "KdBreakPointWithStatus"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - KdBreakPointWithStatus
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["UdecxUsbDeviceSignalFunctionWake function"]
 ms.keywords: UdecxUsbDeviceSignalFunctionWake, UdecxUsbDeviceSignalFunctionWake function [Buses], buses.udecxusbdevicesignalfunctionwake, udecxusbdevice/UdecxUsbDeviceSignalFunctionWake
 f1_keywords:
  - "udecxusbdevice/UdecxUsbDeviceSignalFunctionWake"
+ - "UdecxUsbDeviceSignalFunctionWake"
 req.header: udecxusbdevice.h
 req.include-header: Udecx.h
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 - Udecxstub.dll
 api_name:
 - UdecxUsbDeviceSignalFunctionWake
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

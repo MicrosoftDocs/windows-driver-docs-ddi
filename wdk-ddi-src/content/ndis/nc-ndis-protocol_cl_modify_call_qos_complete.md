@@ -10,6 +10,7 @@ keywords: ["PROTOCOL_CL_MODIFY_CALL_QOS_COMPLETE callback function"]
 ms.keywords: PROTOCOL_CL_MODIFY_CALL_QOS_COMPLETE, PROTOCOL_CL_MODIFY_CALL_QOS_COMPLETE callback, ProtocolClModifyCallQoSComplete, ProtocolClModifyCallQoSComplete callback function [Network Drivers Starting with Windows Vista], condis_client_ref_19bed505-8cde-44c3-bee1-dd5cc7a26526.xml, ndis/ProtocolClModifyCallQoSComplete, netvista.protocolclmodifycallqoscomplete
 f1_keywords:
  - "ndis/ProtocolClModifyCallQoSComplete"
+ - "ProtocolClModifyCallQoSComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - ProtocolClModifyCallQoSComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

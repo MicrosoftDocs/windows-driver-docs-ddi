@@ -10,6 +10,7 @@ ms.date: 12/19/2018
 keywords: ["_HDAUDIO_BUS_INTERFACE_V3 structure"]
 f1_keywords:
  - "hdaudio/_HDAUDIO_BUS_INTERFACE_V3"
+ - "_HDAUDIO_BUS_INTERFACE_V3"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: _HDAUDIO_BUS_INTERFACE_V3, HDAUDIO_BUS_INTERFACE_V3, *PHDAUDIO_BUS_INTERFACE_V3, 

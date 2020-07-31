@@ -10,6 +10,7 @@ keywords: ["ClfsLsnGreater function"]
 ms.keywords: ClfsLsnGreater, ClfsLsnGreater routine [Kernel-Mode Driver Architecture], Clfs_e258803f-9e95-4601-9b4e-2d775836864b.xml, kernel.clfslsngreater, wdm/ClfsLsnGreater
 f1_keywords:
  - "wdm/ClfsLsnGreater"
+ - "ClfsLsnGreater"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
 - ClfsLsnGreater
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

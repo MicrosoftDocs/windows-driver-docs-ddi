@@ -10,6 +10,7 @@ keywords: ["IOCTL_INTERNAL_PARALLEL_CLEAR_CHIP_MODE IOCTL"]
 ms.keywords: IOCTL_INTERNAL_PARALLEL_CLEAR_CHIP_MODE, IOCTL_INTERNAL_PARALLEL_CLEAR_CHIP_MODE control code [Parallel Ports], cisspd_912d58fe-f6f8-40c5-b4fe-e8237ea64c04.xml, parallel/IOCTL_INTERNAL_PARALLEL_CLEAR_CHIP_MODE, parports.ioctl_internal_parallel_clear_chip_mode
 f1_keywords:
  - "parallel/IOCTL_INTERNAL_PARALLEL_CLEAR_CHIP_MODE"
+ - "IOCTL_INTERNAL_PARALLEL_CLEAR_CHIP_MODE"
 req.header: parallel.h
 req.include-header: Parallel.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - parallel.h
 api_name:
 - IOCTL_INTERNAL_PARALLEL_CLEAR_CHIP_MODE
-product:
-- Windows
 targetos: Windows
 req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ---

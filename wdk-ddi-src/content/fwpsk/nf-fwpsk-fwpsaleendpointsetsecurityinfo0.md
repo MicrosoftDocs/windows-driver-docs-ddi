@@ -10,6 +10,7 @@ keywords: ["FwpsAleEndpointSetSecurityInfo0 function"]
 ms.keywords: FwpsAleEndpointSetSecurityInfo0, FwpsAleEndpointSetSecurityInfo0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsAleEndpointSetSecurityInfo0, netvista.fwpsaleendpointsetsecurityinfo0, wfp_ref_2_funct_3_fwps_A-B_7999c73b-ee7d-4a54-b279-8a691a99d94d.xml
 f1_keywords:
  - "fwpsk/FwpsAleEndpointSetSecurityInfo0"
+ - "FwpsAleEndpointSetSecurityInfo0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - fwpkclnt.dll
 api_name:
 - FwpsAleEndpointSetSecurityInfo0
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

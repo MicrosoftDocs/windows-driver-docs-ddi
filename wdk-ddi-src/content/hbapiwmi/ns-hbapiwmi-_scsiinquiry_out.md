@@ -10,6 +10,7 @@ keywords: ["_ScsiInquiry_OUT structure"]
 ms.keywords: "*PScsiInquiry_OUT, PScsiInquiry_OUT, PScsiInquiry_OUT structure pointer [Storage Devices], ScsiInquiry_OUT, ScsiInquiry_OUT structure [Storage Devices], _ScsiInquiry_OUT, hbapiwmi/PScsiInquiry_OUT, hbapiwmi/ScsiInquiry_OUT, storage.scsiinquiry_out2, structs-Fibre_2c7df8b3-a571-4e88-b4db-202d2bd39ce8.xml"
 f1_keywords:
  - "hbapiwmi/ScsiInquiry_OUT"
+ - "ScsiInquiry_OUT"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Hbapiwmi.h
 api_name:
 - ScsiInquiry_OUT
-product:
-- Windows
 targetos: Windows
 req.typenames: ScsiInquiry_OUT, *PScsiInquiry_OUT
 ---

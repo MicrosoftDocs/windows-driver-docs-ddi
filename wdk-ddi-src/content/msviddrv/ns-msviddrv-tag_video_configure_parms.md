@@ -10,6 +10,7 @@ keywords: ["tag_video_configure_parms structure"]
 ms.keywords: "*LPVIDEOCONFIGPARMS, LPVIDEOCONFIGPARMS, LPVIDEOCONFIGPARMS structure pointer [Streaming Media Devices], VIDEOCONFIGPARMS, VIDEOCONFIGPARMS structure [Streaming Media Devices], msviddrv/LPVIDEOCONFIGPARMS, msviddrv/VIDEOCONFIGPARMS, stream.videoconfigparms, tag_video_configure_parms"
 f1_keywords:
  - "msviddrv/VIDEOCONFIGPARMS"
+ - "VIDEOCONFIGPARMS"
 req.header: msviddrv.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Msviddrv.h
 api_name:
 - VIDEOCONFIGPARMS
-product:
-- Windows
 targetos: Windows
 req.typenames: VIDEOCONFIGPARMS, *LPVIDEOCONFIGPARMS
 ---

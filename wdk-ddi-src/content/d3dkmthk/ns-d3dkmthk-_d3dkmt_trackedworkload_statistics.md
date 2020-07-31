@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_TRACKEDWORKLOAD_STATISTICS structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_TRACKEDWORKLOAD_STATISTICS"
+ - "_D3DKMT_TRACKEDWORKLOAD_STATISTICS"
 ms.keywords: _D3DKMT_TRACKEDWORKLOAD_STATISTICS, D3DKMT_TRACKEDWORKLOAD_STATISTICS, 
 req.header: d3dkmthk.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - d3dkmthk.h
 api_name: 
 - _D3DKMT_TRACKEDWORKLOAD_STATISTICS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

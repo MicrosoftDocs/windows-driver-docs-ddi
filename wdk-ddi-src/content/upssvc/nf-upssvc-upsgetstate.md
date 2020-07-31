@@ -10,6 +10,7 @@ keywords: ["UPSGetState function"]
 ms.keywords: UPSGetState, UPSGetState function [Battery Devices], UPS_fns_27023786-6c6e-43fe-96cb-0f298fec5ff1.xml, battery.upsgetstate, upssvc/UPSGetState
 f1_keywords:
  - "upssvc/UPSGetState"
+ - "UPSGetState"
 req.header: upssvc.h
 req.include-header: Upssvc.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Upssvc.h
 api_name:
 - UPSGetState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

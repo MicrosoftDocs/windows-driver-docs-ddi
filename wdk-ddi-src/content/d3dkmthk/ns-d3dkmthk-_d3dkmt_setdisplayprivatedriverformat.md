@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT structure"]
 ms.keywords: D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT, D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT structure [Display Devices], OpenGL_Structs_c5440fbe-47f2-43eb-ae09-e9295bfa4bad.xml, _D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT, d3dkmthk/D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT, display.d3dkmt_setdisplayprivatedriverformat
 f1_keywords:
  - "d3dkmthk/D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT"
+ - "D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT

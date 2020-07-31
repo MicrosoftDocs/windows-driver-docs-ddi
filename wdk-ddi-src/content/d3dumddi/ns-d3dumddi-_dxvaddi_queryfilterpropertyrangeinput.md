@@ -10,6 +10,7 @@ keywords: ["_DXVADDI_QUERYFILTERPROPERTYRANGEINPUT structure"]
 ms.keywords: DXVA2_Structs_28a2aed9-57a1-4bd6-b8dc-c09bb9e821b0.xml, DXVADDI_QUERYFILTERPROPERTYRANGEINPUT, DXVADDI_QUERYFILTERPROPERTYRANGEINPUT structure [Display Devices], _DXVADDI_QUERYFILTERPROPERTYRANGEINPUT, d3dumddi/DXVADDI_QUERYFILTERPROPERTYRANGEINPUT, display.dxvaddi_queryfilterpropertyrangeinput
 f1_keywords:
  - "d3dumddi/DXVADDI_QUERYFILTERPROPERTYRANGEINPUT"
+ - "DXVADDI_QUERYFILTERPROPERTYRANGEINPUT"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - DXVADDI_QUERYFILTERPROPERTYRANGEINPUT
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVADDI_QUERYFILTERPROPERTYRANGEINPUT
 ---

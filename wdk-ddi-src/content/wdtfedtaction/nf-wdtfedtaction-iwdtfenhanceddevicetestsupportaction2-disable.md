@@ -10,6 +10,7 @@ keywords: ["IWDTFEnhancedDeviceTestSupportAction2::Disable"]
 ms.keywords: Disable, Disable method [Windows Device Testing Framework], Disable method [Windows Device Testing Framework],IWDTFEnhancedDeviceTestSupportAction2 interface, IWDTFEnhancedDeviceTestSupportAction2 interface [Windows Device Testing Framework],Disable method, IWDTFEnhancedDeviceTestSupportAction2.Disable, IWDTFEnhancedDeviceTestSupportAction2::Disable, Microsoft.WDTF.IWDTFEnhancedDeviceTestSupportAction2.Disable, Microsoft::WDTF::IWDTFEnhancedDeviceTestSupportAction2::Disable, dtf.iwdtfenhanceddevicetestsupportaction2_disable, wdtfedtaction/IWDTFEnhancedDeviceTestSupportAction2::Disable
 f1_keywords:
  - "wdtfedtaction/IWDTFEnhancedDeviceTestSupportAction2.Disable"
+ - "IWDTFEnhancedDeviceTestSupportAction2.Disable"
 req.header: wdtfedtaction.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WDTFDriverEDTAction.Interop.dll
 api_name:
 - IWDTFEnhancedDeviceTestSupportAction2.Disable
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

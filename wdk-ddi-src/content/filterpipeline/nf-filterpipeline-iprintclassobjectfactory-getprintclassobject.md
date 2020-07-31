@@ -10,6 +10,7 @@ keywords: ["IPrintClassObjectFactory::GetPrintClassObject"]
 ms.keywords: GetPrintClassObject, GetPrintClassObject method [Print Devices], GetPrintClassObject method [Print Devices],IPrintClassObjectFactory interface, IPrintClassObjectFactory interface [Print Devices],GetPrintClassObject method, IPrintClassObjectFactory.GetPrintClassObject, IPrintClassObjectFactory::GetPrintClassObject, filterpipeline/IPrintClassObjectFactory::GetPrintClassObject, filterpipeline_18eaede9-1064-4387-a30b-2fc2e245e0ca.xml, print.iprintclassobjectfactory_getprintclassobject
 f1_keywords:
  - "filterpipeline/IPrintClassObjectFactory.GetPrintClassObject"
+ - "IPrintClassObjectFactory.GetPrintClassObject"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - filterpipeline.h
 api_name:
 - IPrintClassObjectFactory.GetPrintClassObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

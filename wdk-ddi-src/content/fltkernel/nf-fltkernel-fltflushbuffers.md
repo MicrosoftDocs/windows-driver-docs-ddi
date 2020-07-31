@@ -10,6 +10,7 @@ keywords: ["FltFlushBuffers function"]
 ms.keywords: FltApiRef_e_to_o_cd194ce5-6afd-49f2-84c5-aa93ede9309a.xml, FltFlushBuffers, FltFlushBuffers routine [Installable File System Drivers], fltkernel/FltFlushBuffers, ifsk.fltflushbuffers
 f1_keywords:
  - "fltkernel/FltFlushBuffers"
+ - "FltFlushBuffers"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - FltMgr.dll
 api_name:
 - FltFlushBuffers
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 dev_langs:

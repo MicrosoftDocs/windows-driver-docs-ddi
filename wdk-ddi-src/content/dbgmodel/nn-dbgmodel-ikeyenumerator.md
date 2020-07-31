@@ -7,6 +7,7 @@ ms.date: 07/16/2018
 keywords: ["IKeyEnumerator interface"]
 f1_keywords:
  - "dbgmodel/IKeyEnumerator"
+ - "IKeyEnumerator"
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -28,8 +29,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IKeyEnumerator
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

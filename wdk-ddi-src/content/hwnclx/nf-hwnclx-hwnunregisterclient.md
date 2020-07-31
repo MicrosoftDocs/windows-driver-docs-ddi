@@ -10,6 +10,7 @@ keywords: ["HwNUnregisterClient function"]
 ms.keywords: HwNUnregisterClient, HwNUnregisterClient function, gpiobtn.hwnunregisterclient, hwnclx/HwNUnregisterClient
 f1_keywords:
  - "hwnclx/HwNUnregisterClient"
+ - "HwNUnregisterClient"
 req.header: hwnclx.h
 req.include-header:
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 - Mshwnclxstub.dll
 api_name:
 - HwNUnregisterClient
-product:
-- Windows
 targetos: Windows
 req.typenames: HWN_CLX_EXPORT_INDEX, *PHWN_CLX_EXPORT_INDEX
 ---

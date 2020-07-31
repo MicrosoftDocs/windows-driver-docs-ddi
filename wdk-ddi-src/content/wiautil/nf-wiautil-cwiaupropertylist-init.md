@@ -10,6 +10,7 @@ keywords: ["CWiauPropertyList::Init"]
 ms.keywords: CWiauPropertyList interface [Imaging Devices],Init method, CWiauPropertyList.Init, CWiauPropertyList::Init, Init, Init method [Imaging Devices], Init method [Imaging Devices],CWiauPropertyList interface, image.cwiaupropertylist_init, wiauFncs_4bc30663-6fd6-45b7-a18f-1adc766489be.xml, wiautil/CWiauPropertyList::Init
 f1_keywords:
  - "wiautil/CWiauPropertyList.Init"
+ - "CWiauPropertyList.Init"
 req.header: wiautil.h
 req.include-header: Wiautil.h, Wiamindr.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wiautil.h
 api_name:
 - CWiauPropertyList.Init
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

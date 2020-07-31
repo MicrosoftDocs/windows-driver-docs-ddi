@@ -10,6 +10,7 @@ keywords: ["IWiaTransferCallback interface"]
 ms.keywords: IWiaTransferCallback, IWiaTransferCallback interface [Imaging Devices], IWiaTransferCallback interface [Imaging Devices],described, IWiaTransfercallback_ae8874d9-135f-4627-bbec-51cebd6c3d69.xml, image.iwiatransfercallback_interface, wia_lh/IWiaTransferCallback
 f1_keywords:
  - "wia_lh/IWiaTransferCallback"
+ - "IWiaTransferCallback"
 req.header: wia_lh.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wia_lh.h
 api_name:
 - IWiaTransferCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

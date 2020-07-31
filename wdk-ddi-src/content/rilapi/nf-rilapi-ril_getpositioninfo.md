@@ -10,6 +10,7 @@ keywords: ["RIL_GetPositionInfo function"]
 ms.keywords: RIL_GetPositionInfo, RIL_GetPositionInfo method [Network Drivers Starting with Windows Vista], netvista.ril_getpositioninfo, rilapi/RIL_GetPositionInfo
 f1_keywords:
  - "rilapi/RIL_GetPositionInfo"
+ - "RIL_GetPositionInfo"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_GetPositionInfo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

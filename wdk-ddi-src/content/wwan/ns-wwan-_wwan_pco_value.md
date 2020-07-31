@@ -10,6 +10,7 @@ keywords: ["_WWAN_PCO_VALUE structure"]
 ms.keywords: "*PWWAN_PCO_VALUE, PWWAN_PCO_VALUE, PWWAN_PCO_VALUE structure pointer [Network Drivers Starting with Windows Vista], WWAN_PCO_VALUE, WWAN_PCO_VALUE structure [Network Drivers Starting with Windows Vista], _WWAN_PCO_VALUE, netvista.wwan_pco_value, wwan/PWWAN_PCO_VALUE, wwan/WWAN_PCO_VALUE"
 f1_keywords:
  - "wwan/WWAN_PCO_VALUE"
+ - "WWAN_PCO_VALUE"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_PCO_VALUE
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_PCO_VALUE, *PWWAN_PCO_VALUE
 ---

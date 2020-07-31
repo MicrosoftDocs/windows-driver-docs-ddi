@@ -10,6 +10,7 @@ keywords: ["IOCTL_ACPI_GET_DEVICE_SPECIFIC_DATA IOCTL"]
 ms.keywords: IOCTL_ACPI_GET_DEVICE_SPECIFIC_DATA, IOCTL_ACPI_GET_DEVICE_SPECIFIC_DATA control, IOCTL_ACPI_GET_DEVICE_SPECIFIC_DATA control code [ACPI Devices], acpi.ioctl_acpi_get_device_specific_data, acpiioct/IOCTL_ACPI_GET_DEVICE_SPECIFIC_DATA
 f1_keywords:
  - "acpiioct/IOCTL_ACPI_GET_DEVICE_SPECIFIC_DATA"
+ - "IOCTL_ACPI_GET_DEVICE_SPECIFIC_DATA"
 req.header: acpiioct.h
 req.include-header: Acpiioct.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Acpiioct.h
 api_name:
 - IOCTL_ACPI_GET_DEVICE_SPECIFIC_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

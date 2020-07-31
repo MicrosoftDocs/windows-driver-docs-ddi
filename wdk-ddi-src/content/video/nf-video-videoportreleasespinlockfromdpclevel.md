@@ -10,6 +10,7 @@ keywords: ["VideoPortReleaseSpinLockFromDpcLevel function"]
 ms.keywords: VideoPortReleaseSpinLockFromDpcLevel, VideoPortReleaseSpinLockFromDpcLevel function [Display Devices], VideoPort_Functions_2c3a3aa1-4ef4-4b7f-8cdf-b658a1128c35.xml, display.videoportreleasespinlockfromdpclevel, video/VideoPortReleaseSpinLockFromDpcLevel
 f1_keywords:
  - "video/VideoPortReleaseSpinLockFromDpcLevel"
+ - "VideoPortReleaseSpinLockFromDpcLevel"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Videoprt.sys
 api_name:
 - VideoPortReleaseSpinLockFromDpcLevel
-product:
-- Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.

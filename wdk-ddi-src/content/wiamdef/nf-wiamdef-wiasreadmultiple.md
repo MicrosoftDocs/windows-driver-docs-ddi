@@ -10,6 +10,7 @@ keywords: ["wiasReadMultiple function"]
 ms.keywords: image.wiasreadmultiple, wiamdef/wiasReadMultiple, wiasFncs_c6d42143-4cd8-4f9a-bbf4-aec0ce2c0615.xml, wiasReadMultiple, wiasReadMultiple function [Imaging Devices]
 f1_keywords:
  - "wiamdef/wiasReadMultiple"
+ - "wiasReadMultiple"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wiaservc.dll
 api_name:
 - wiasReadMultiple
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["WdfUsbTargetPipeIsInEndpoint function"]
 ms.keywords: DFUsbRef_55ca68a2-c334-47b9-9716-68a492987897.xml, WdfUsbTargetPipeIsInEndpoint, WdfUsbTargetPipeIsInEndpoint method, kmdf.wdfusbtargetpipeisinendpoint, wdf.wdfusbtargetpipeisinendpoint, wdfusb/WdfUsbTargetPipeIsInEndpoint
 f1_keywords:
  - "wdfusb/WdfUsbTargetPipeIsInEndpoint"
+ - "WdfUsbTargetPipeIsInEndpoint"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfUsbTargetPipeIsInEndpoint
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

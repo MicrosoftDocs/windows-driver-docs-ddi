@@ -8,6 +8,7 @@ keywords: ["IsCollectionListSame function"]
 tech.root: sensors
 f1_keywords:
  - "sensorsutils/IsCollectionListSame"
+ - "IsCollectionListSame"
 ms.keywords: IsCollectionListSame
 req.header: sensorsutils.h
 req.include-header:

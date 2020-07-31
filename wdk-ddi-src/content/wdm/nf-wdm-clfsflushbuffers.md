@@ -10,6 +10,7 @@ keywords: ["ClfsFlushBuffers function"]
 ms.keywords: ClfsFlushBuffers, ClfsFlushBuffers routine [Kernel-Mode Driver Architecture], Clfs_3c04240c-0914-472f-9b4b-97a00221e092.xml, kernel.clfsflushbuffers, wdm/ClfsFlushBuffers
 f1_keywords:
  - "wdm/ClfsFlushBuffers"
+ - "ClfsFlushBuffers"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
 - ClfsFlushBuffers
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

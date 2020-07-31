@@ -10,6 +10,7 @@ keywords: ["_IMAGE_POLICY_METADATA structure"]
 ms.keywords: IMAGE_POLICY_METADATA, IMAGE_POLICY_METADATA structure [Kernel-Mode Driver Architecture], _IMAGE_POLICY_METADATA, kernel._image_policy_metadata, wdm/IMAGE_POLICY_METADATA
 f1_keywords:
  - "wdm/IMAGE_POLICY_METADATA"
+ - "IMAGE_POLICY_METADATA"
 req.header: wdm.h
 req.include-header: Wdm.h, Wdm.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - IMAGE_POLICY_METADATA
-product:
-- Windows
 targetos: Windows
 req.typenames: IMAGE_POLICY_METADATA
 ---

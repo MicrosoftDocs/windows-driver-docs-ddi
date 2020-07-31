@@ -10,6 +10,7 @@ keywords: ["KSSOUNDDETECTORPROPERTY structure"]
 ms.keywords: "*PKSSOUNDDETECTORPROPERTY, KSSOUNDDETECTORPROPERTY, KSSOUNDDETECTORPROPERTYstructure [Audio Devices], PKSSOUNDDETECTORPROPERTY, PKSSOUNDDETECTORPROPERTYstructure pointer [Audio Devices], audio.KSSOUNDDETECTORPROPERTY, ksmedia/KSSOUNDDETECTORPROPERTY, ksmedia/PKSSOUNDDETECTORPROPERTY"
 f1_keywords:
  - "ksmedia/KSSOUNDDETECTORPROPERTY"
+ - "KSSOUNDDETECTORPROPERTY"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KSSOUNDDETECTORPROPERTY
-product:
-- Windows
 targetos: Windows
 req.typenames: KSSOUNDDETECTORPROPERTY, *PKSSOUNDDETECTORPROPERTY
 ---

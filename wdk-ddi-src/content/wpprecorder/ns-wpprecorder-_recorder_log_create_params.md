@@ -10,6 +10,7 @@ keywords: ["_RECORDER_LOG_CREATE_PARAMS structure"]
 ms.keywords: "*PRECORDER_LOG_CREATE_PARAMS, PRECORDER_LOG_CREATE_PARAMS, PRECORDER_LOG_CREATE_PARAMS structure pointer [Driver Development Tools], RECORDER_LOG_CREATE_PARAMS, RECORDER_LOG_CREATE_PARAMS structure [Driver Development Tools], _RECORDER_LOG_CREATE_PARAMS, devtest.recorder_log_create_params, wpprecorder/PRECORDER_LOG_CREATE_PARAMS, wpprecorder/RECORDER_LOG_CREATE_PARAMS"
 f1_keywords:
  - "wpprecorder/RECORDER_LOG_CREATE_PARAMS"
+ - "RECORDER_LOG_CREATE_PARAMS"
 req.header: wpprecorder.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wpprecorder.h
 api_name:
 - RECORDER_LOG_CREATE_PARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: RECORDER_LOG_CREATE_PARAMS, *PRECORDER_LOG_CREATE_PARAMS
 ---

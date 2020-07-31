@@ -10,6 +10,7 @@ keywords: ["IPartResourceDictionary interface"]
 ms.keywords: IPartResourceDictionary, IPartResourceDictionary interface [Print Devices], IPartResourceDictionary interface [Print Devices], described, filterpipeline/IPartResourceDictionary, filterpipeline_dd33e272-fbff-4e32-bc38-7c72987ce935.xml, print.ipartresourcedictionary
 f1_keywords:
  - "filterpipeline/IPartResourceDictionary"
+ - "IPartResourceDictionary"
 req.header: filterpipeline.h
 req.include-header: Filterpipeline.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - filterpipeline.h
 api_name:
 - IPartResourceDictionary
-product:
-- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---

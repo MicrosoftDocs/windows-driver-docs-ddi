@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_IO_WDM_IRP_FOR_FORWARD_PROGRESS callback function"]
 ms.keywords: DFQueueObjectRef_479581ba-4ffd-4aae-b4f0-c246daf38842.xml, EVT_WDF_IO_WDM_IRP_FOR_FORWARD_PROGRESS, EVT_WDF_IO_WDM_IRP_FOR_FORWARD_PROGRESS callback, EvtIoWdmIrpForForwardProgress, EvtIoWdmIrpForForwardProgress callback function, kmdf.evtiowdmirpforforwardprogress, wdf.evtiowdmirpforforwardprogress, wdfio/EvtIoWdmIrpForForwardProgress
 f1_keywords:
  - "wdfio/EvtIoWdmIrpForForwardProgress"
+ - "EvtIoWdmIrpForForwardProgress"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Wdfio.h
 api_name:
 - EvtIoWdmIrpForForwardProgress
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

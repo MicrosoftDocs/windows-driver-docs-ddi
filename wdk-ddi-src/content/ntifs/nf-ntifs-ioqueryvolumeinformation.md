@@ -10,6 +10,7 @@ keywords: ["IoQueryVolumeInformation function"]
 ms.keywords: IoQueryVolumeInformation, IoQueryVolumeInformation function [Installable File System Drivers], ifsk.ioqueryvolumeinformation, ioref_c048e59e-2f1e-4327-9f7f-b18e9a8e5724.xml, ntifs/IoQueryVolumeInformation
 f1_keywords:
  - "ntifs/IoQueryVolumeInformation"
+ - "IoQueryVolumeInformation"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - IoQueryVolumeInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

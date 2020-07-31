@@ -7,6 +7,7 @@ ms.date: 07/16/2018
 keywords: ["IDataModelManager::Close"]
 f1_keywords:
  - "dbgmodel/IDataModelManager.Close"
+ - "IDataModelManager.Close"
 ms.keywords: IDataModelManager::Close, Close, IDataModelManager.Close, IDataModelManager::Close, IDataModelManager.Close
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDataModelManager.Close
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

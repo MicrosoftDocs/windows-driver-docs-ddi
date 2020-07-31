@@ -10,6 +10,7 @@ ms.date: 10/22/2019
 keywords: ["NetAdapterPowerOffloadSetArpCapabilities function"]
 f1_keywords:
  - "netadapter/NetAdapterPowerOffloadSetArpCapabilities"
+ - "NetAdapterPowerOffloadSetArpCapabilities"
 ms.keywords: NetAdapterPowerOffloadSetArpCapabilities
 req.header: netadapter.h
 req.include-header:

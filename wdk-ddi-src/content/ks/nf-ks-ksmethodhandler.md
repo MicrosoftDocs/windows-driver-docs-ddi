@@ -10,6 +10,7 @@ keywords: ["KsMethodHandler function"]
 ms.keywords: KsMethodHandler, KsMethodHandler function [Streaming Media Devices], ks/KsMethodHandler, ksfunc_1f1959ed-e370-4ebb-9932-435c448a944b.xml, stream.ksmethodhandler
 f1_keywords:
  - "ks/KsMethodHandler"
+ - "KsMethodHandler"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsMethodHandler
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -9,6 +9,7 @@ keywords: ["D3DKMTCreateOverlay function"]
 ms.keywords: D3DKMTCreateOverlay, D3DKMTCreateOverlay function [Display Devices], OpenGL_Functions_3848b4de-9ed0-4e4f-87aa-677bdbbaa7e0.xml, d3dkmthk/D3DKMTCreateOverlay, display.d3dkmtcreateoverlay
 f1_keywords:
  - "d3dkmthk/D3DKMTCreateOverlay"
+ - "D3DKMTCreateOverlay"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -38,8 +39,6 @@ api_location:
 - API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 - D3DKMTCreateOverlay
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

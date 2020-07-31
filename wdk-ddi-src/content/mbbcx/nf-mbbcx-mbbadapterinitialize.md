@@ -8,6 +8,7 @@ ms.date: 06/29/2018
 keywords: ["MbbAdapterInitialize function"]
 f1_keywords:
  - "mbbcx/MbbAdapterInitialize"
+ - "MbbAdapterInitialize"
 ms.keywords: MbbAdapterInitialize
 req.header: mbbcx.h
 req.include-header:
@@ -34,8 +35,6 @@ api_location:
 - mbbcxstub.lib
 api_name: 
 - MbbAdapterInitialize
-product:
-- Windows
 targetos: Windows
 
 

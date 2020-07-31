@@ -7,6 +7,7 @@ ms.date: 06/10/2019
 keywords: ["IDebugHostSymbol2::EnumerateChildrenEx"]
 f1_keywords:
  - "dbgmodel/IDebugHostSymbol2.EnumerateChildrenEx"
+ - "IDebugHostSymbol2.EnumerateChildrenEx"
 ms.keywords: IDebugHostSymbol2::EnumerateChildrenEx, EnumerateChildrenEx, IDebugHostSymbol2.EnumerateChildrenEx, IDebugHostSymbol2::EnumerateChildrenEx, IDebugHostSymbol2.EnumerateChildrenEx
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostSymbol2.EnumerateChildrenEx
-product:
-- Windows
 targetos: Windows
 
 

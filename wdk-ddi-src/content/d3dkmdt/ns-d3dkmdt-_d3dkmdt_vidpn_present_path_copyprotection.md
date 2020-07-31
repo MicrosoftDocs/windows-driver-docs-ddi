@@ -10,6 +10,7 @@ keywords: ["_D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION structure"]
 ms.keywords: D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION, D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION structure [Display Devices], DmStructs_512b61d6-627d-4423-93ba-0f28ac340e51.xml, _D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION, d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION, display.d3dkmdt_vidpn_present_path_copyprotection
 f1_keywords:
  - "d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION"
+ - "D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION"
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dkmdt.h
 api_name:
 - D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION
 ---

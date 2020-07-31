@@ -8,6 +8,7 @@ ms.date: 04/11/2019
 keywords: ["_NDIS_WWAN_SET_MODEM_LOGGING_CONFIG structure"]
 f1_keywords:
  - "ndiswwan/_NDIS_WWAN_SET_MODEM_LOGGING_CONFIG"
+ - "_NDIS_WWAN_SET_MODEM_LOGGING_CONFIG"
 ms.keywords: _NDIS_WWAN_SET_MODEM_LOGGING_CONFIG, NDIS_WWAN_SET_MODEM_LOGGING_CONFIG, *PNDIS_WWAN_SET_MODEM_LOGGING_CONFIG, 
 req.header: ndiswwan.h
 req.include-header:
@@ -30,8 +31,6 @@ api_location:
 - ndiswwan.h
 api_name: 
 - _NDIS_WWAN_SET_MODEM_LOGGING_CONFIG
-product:
-- Windows
 targetos: Windows
 ms.custom: 19H1
 ---

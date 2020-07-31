@@ -10,6 +10,7 @@ keywords: ["_STOR_CRYPTO_OPERATION_TYPE enumeration"]
 ms.keywords: "*PSTOR_CRYPTO_OPERATION_TYPE, PSTOR_CRYPTO_OPERATION_TYPE, PSTOR_CRYPTO_OPERATION_TYPE enumeration pointer [Storage Devices], STOR_CRYPTO_OPERATION_TYPE, STOR_CRYPTO_OPERATION_TYPE enumeration [Storage Devices], _STOR_CRYPTO_OPERATION_TYPE, storage.stor_crypto_operation_type, storport/, storport/PSTOR_CRYPTO_OPERATION_TYPE, storport/STOR_CRYPTO_OPERATION_TYPE"
 f1_keywords:
  - "storport/STOR_CRYPTO_OPERATION_TYPE"
+ - "STOR_CRYPTO_OPERATION_TYPE"
 req.header: storport.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Storport.h
 api_name:
 - STOR_CRYPTO_OPERATION_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: STOR_CRYPTO_OPERATION_TYPE, *PSTOR_CRYPTO_OPERATION_TYPE
 ---

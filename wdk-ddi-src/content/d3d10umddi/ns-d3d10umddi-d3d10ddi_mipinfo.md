@@ -9,6 +9,7 @@ keywords: ["D3D10DDI_MIPINFO structure"]
 ms.keywords: D3D10DDI_MIPINFO, D3D10DDI_MIPINFO structure [Display Devices], UMDisplayDriver_Dx10param_Structs_67768e5f-a18d-4bd9-a1be-96587f267c36.xml, d3d10umddi/D3D10DDI_MIPINFO, display.d3d10ddi_mipinfo
 f1_keywords:
  - "d3d10umddi/D3D10DDI_MIPINFO"
+ - "D3D10DDI_MIPINFO"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - D3D10DDI_MIPINFO
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D10DDI_MIPINFO

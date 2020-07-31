@@ -10,6 +10,7 @@ keywords: ["PUNREGISTER_EVENT_CALLBACK callback function"]
 ms.keywords: PUNREGISTER_EVENT_CALLBACK, PUNREGISTER_EVENT_CALLBACK callback, UnregisterEventCallback, UnregisterEventCallback callback function [Audio Devices], aud-prop2_9d6c50d7-56ac-4364-9a1e-74ea0d934046.xml, audio.unregistereventcallback, hdaudio/UnregisterEventCallback
 f1_keywords:
  - "hdaudio/UnregisterEventCallback"
+ - "UnregisterEventCallback"
 req.header: hdaudio.h
 req.include-header: Hdaudio.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - hdaudio.h
 api_name:
 - UnregisterEventCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["ScsiPortWmiSetInstanceName function"]
 ms.keywords: ScsiPortWmiSetInstanceName, ScsiPortWmiSetInstanceName routine [Storage Devices], scsiprt_a6ff8339-8734-4635-a17e-c3ad7bb524c3.xml, scsiwmi/ScsiPortWmiSetInstanceName, storage.scsiportwmisetinstancename
 f1_keywords:
  - "scsiwmi/ScsiPortWmiSetInstanceName"
+ - "ScsiPortWmiSetInstanceName"
 req.header: scsiwmi.h
 req.include-header: Miniport.h, Scsi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - scsiwmi.h
 api_name:
 - ScsiPortWmiSetInstanceName
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

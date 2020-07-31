@@ -10,6 +10,7 @@ keywords: ["WdfRequestIsReserved function"]
 ms.keywords: DFRequestObjectRef_286c4c9a-cbec-48f1-9d78-516cbaab2d45.xml, WdfRequestIsReserved, WdfRequestIsReserved method, kmdf.wdfrequestisreserved, wdf.wdfrequestisreserved, wdfrequest/WdfRequestIsReserved
 f1_keywords:
  - "wdfrequest/WdfRequestIsReserved"
+ - "WdfRequestIsReserved"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfRequestIsReserved
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["ExReinitializeResourceLite function"]
 ms.keywords: ExReinitializeResourceLite, ExReinitializeResourceLite routine [Kernel-Mode Driver Architecture], k102_dc743b18-db19-4536-a862-e313e201d4d8.xml, kernel.exreinitializeresourcelite, wdm/ExReinitializeResourceLite
 f1_keywords:
  - "wdm/ExReinitializeResourceLite"
+ - "ExReinitializeResourceLite"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - ExReinitializeResourceLite
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

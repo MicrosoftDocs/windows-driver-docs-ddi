@@ -10,6 +10,7 @@ keywords: ["GNSS_NI_REQUEST_TYPE enumeration"]
 ms.keywords: GNSS_NI_REQUEST_TYPE, GNSS_NI_REQUEST_TYPE enumeration [Sensor Devices], GNSS_NI_Request_AreaTrigger, GNSS_NI_Request_SingleShot, gnss.gnss_ni_request_type, gnssdriver/GNSS_NI_REQUEST_TYPE, gnssdriver/GNSS_NI_Request_AreaTrigger, gnssdriver/GNSS_NI_Request_SingleShot
 f1_keywords:
  - "gnssdriver/GNSS_NI_REQUEST_TYPE"
+ - "GNSS_NI_REQUEST_TYPE"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - gnssdriver.h
 api_name:
 - GNSS_NI_REQUEST_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: GNSS_NI_REQUEST_TYPE
 ---

@@ -10,6 +10,7 @@ keywords: ["KeStackAttachProcess function"]
 ms.keywords: KeStackAttachProcess, KeStackAttachProcess routine [Installable File System Drivers], ifsk.kestackattachprocess, keref_de4fc228-753f-4077-8372-e5330c96d317.xml, ntifs/KeStackAttachProcess
 f1_keywords:
  - "ntifs/KeStackAttachProcess"
+ - "KeStackAttachProcess"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeStackAttachProcess
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

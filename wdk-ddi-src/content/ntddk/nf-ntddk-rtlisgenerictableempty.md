@@ -10,6 +10,7 @@ keywords: ["RtlIsGenericTableEmpty function"]
 ms.keywords: RtlIsGenericTableEmpty, RtlIsGenericTableEmpty routine [Installable File System Drivers], ifsk.rtlisgenerictableempty, ntddk/RtlIsGenericTableEmpty, rtlref_07ea645e-b497-445c-a872-34947a2f7e54.xml
 f1_keywords:
  - "ntddk/RtlIsGenericTableEmpty"
+ - "RtlIsGenericTableEmpty"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlIsGenericTableEmpty
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

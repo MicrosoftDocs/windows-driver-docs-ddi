@@ -10,6 +10,7 @@ keywords: ["IPrintSchemaElement interface"]
 ms.keywords: IPrintSchemaElement, IPrintSchemaElement interface [Print Devices], IPrintSchemaElement interface [Print Devices],described, print.iprintschemaelement_interface, printerextension/IPrintSchemaElement
 f1_keywords:
  - "printerextension/IPrintSchemaElement"
+ - "IPrintSchemaElement"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Printerextension.h
 api_name:
 - IPrintSchemaElement
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

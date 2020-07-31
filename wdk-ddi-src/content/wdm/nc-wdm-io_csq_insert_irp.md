@@ -10,6 +10,7 @@ keywords: ["IO_CSQ_INSERT_IRP callback function"]
 ms.keywords: CsqInsertIrp, CsqInsertIrp routine [Kernel-Mode Driver Architecture], DrvrRtns_84a81857-afd6-491c-829f-34063a5b1958.xml, IO_CSQ_INSERT_IRP, kernel.csqinsertirp, wdm/CsqInsertIrp
 f1_keywords:
  - "wdm/CsqInsertIrp"
+ - "CsqInsertIrp"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - CsqInsertIrp
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

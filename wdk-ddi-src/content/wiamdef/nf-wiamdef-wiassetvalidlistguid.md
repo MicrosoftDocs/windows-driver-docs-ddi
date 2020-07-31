@@ -10,6 +10,7 @@ keywords: ["wiasSetValidListGuid function"]
 ms.keywords: image.wiassetvalidlistguid, wiamdef/wiasSetValidListGuid, wiasFncs_eade05c7-20bd-480d-aa50-0216575ce856.xml, wiasSetValidListGuid, wiasSetValidListGuid function [Imaging Devices]
 f1_keywords:
  - "wiamdef/wiasSetValidListGuid"
+ - "wiasSetValidListGuid"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wiaservc.dll
 api_name:
 - wiasSetValidListGuid
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

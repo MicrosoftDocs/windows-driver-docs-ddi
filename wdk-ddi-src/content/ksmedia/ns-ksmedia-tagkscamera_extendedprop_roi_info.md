@@ -10,6 +10,7 @@ keywords: ["tagKSCAMERA_EXTENDEDPROP_ROI_INFO structure"]
 ms.keywords: "*PKSCAMERA_EXTENDEDPROP_ROI_INFO, KSCAMERA_EXTENDEDPROP_ROI_INFO, KSCAMERA_EXTENDEDPROP_ROI_INFO structure [Streaming Media Devices], PKSCAMERA_EXTENDEDPROP_ROI_INFO, PKSCAMERA_EXTENDEDPROP_ROI_INFO structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_EXTENDEDPROP_ROI_INFO, ksmedia/PKSCAMERA_EXTENDEDPROP_ROI_INFO, stream.kscamera_extendedprop_roi_info, tagKSCAMERA_EXTENDEDPROP_ROI_INFO"
 f1_keywords:
  - "ksmedia/KSCAMERA_EXTENDEDPROP_ROI_INFO"
+ - "KSCAMERA_EXTENDEDPROP_ROI_INFO"
 req.header: ksmedia.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ksmedia.h
 api_name:
 - KSCAMERA_EXTENDEDPROP_ROI_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: KSCAMERA_EXTENDEDPROP_ROI_INFO, *PKSCAMERA_EXTENDEDPROP_ROI_INFO
 ---

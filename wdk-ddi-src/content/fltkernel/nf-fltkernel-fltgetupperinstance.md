@@ -10,6 +10,7 @@ keywords: ["FltGetUpperInstance function"]
 ms.keywords: FltApiRef_e_to_o_7629f1a6-0a5e-46a2-8423-bd7466548a2f.xml, FltGetUpperInstance, FltGetUpperInstance routine [Installable File System Drivers], fltkernel/FltGetUpperInstance, ifsk.fltgetupperinstance
 f1_keywords:
  - "fltkernel/FltGetUpperInstance"
+ - "FltGetUpperInstance"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltGetUpperInstance
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

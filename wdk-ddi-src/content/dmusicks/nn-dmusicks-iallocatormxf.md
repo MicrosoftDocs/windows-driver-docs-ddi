@@ -10,6 +10,7 @@ keywords: ["IAllocatorMXF interface"]
 ms.keywords: IAllocatorMXF, IAllocatorMXF interface [Audio Devices], IAllocatorMXF interface [Audio Devices],described, audio.iallocatormxf, audmp-routines_3ab3f61f-aa26-4a37-b1ff-68c1b0ae97c4.xml, dmusicks/IAllocatorMXF
 f1_keywords:
  - "dmusicks/IAllocatorMXF"
+ - "IAllocatorMXF"
 req.header: dmusicks.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dmusicks.h
 api_name:
 - IAllocatorMXF
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -57,7 +56,7 @@ The allocator also abstracts the allocation of the additional memory that is nee
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAllocatorMXF</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAllocatorMXF</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAllocatorMXF</b> interface inherits from the <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAllocatorMXF</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

@@ -10,6 +10,7 @@ keywords: ["IPortClsRuntimePower::RegisterPowerControlCallback"]
 ms.keywords: IPortClsRuntimePower interface [Audio Devices],RegisterPowerControlCallback method, IPortClsRuntimePower.RegisterPowerControlCallback, IPortClsRuntimePower::RegisterPowerControlCallback, RegisterPowerControlCallback, RegisterPowerControlCallback method [Audio Devices], RegisterPowerControlCallback method [Audio Devices],IPortClsRuntimePower interface, audio.iportclsruntimepower_registerpowercontrolcallback, portcls/IPortClsRuntimePower::RegisterPowerControlCallback
 f1_keywords:
  - "portcls/IPortClsRuntimePower.RegisterPowerControlCallback"
+ - "IPortClsRuntimePower.RegisterPowerControlCallback"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Portcls.h
 api_name:
 - IPortClsRuntimePower.RegisterPowerControlCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

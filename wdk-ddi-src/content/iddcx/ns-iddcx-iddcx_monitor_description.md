@@ -10,6 +10,7 @@ keywords: ["IDDCX_MONITOR_DESCRIPTION structure"]
 ms.keywords: IDDCX_MONITOR_DESCRIPTION, IDDCX_MONITOR_DESCRIPTION structure [Display Devices], display.iddcx_monitor_description, iddcx/IDDCX_MONITOR_DESCRIPTION
 f1_keywords:
  - "iddcx/IDDCX_MONITOR_DESCRIPTION"
+ - "IDDCX_MONITOR_DESCRIPTION"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - iddcx.h
 api_name:
 - IDDCX_MONITOR_DESCRIPTION
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

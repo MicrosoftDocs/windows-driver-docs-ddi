@@ -10,6 +10,7 @@ keywords: ["CcFastCopyRead function"]
 ms.keywords: CcFastCopyRead, CcFastCopyRead routine [Installable File System Drivers], ccref_7198ef60-5199-4597-9809-ddacc59e6223.xml, ifsk.ccfastcopyread, ntifs/CcFastCopyRead
 f1_keywords:
  - "ntifs/CcFastCopyRead"
+ - "CcFastCopyRead"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - CcFastCopyRead
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

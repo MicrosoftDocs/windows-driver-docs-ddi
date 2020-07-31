@@ -10,6 +10,7 @@ keywords: ["IStillImageW::RegisterLaunchApplication"]
 ms.keywords: IStillImageW interface [Imaging Devices],RegisterLaunchApplication method, IStillImageW.RegisterLaunchApplication, IStillImageW::RegisterLaunchApplication, RegisterLaunchApplication, RegisterLaunchApplication method [Imaging Devices], RegisterLaunchApplication method [Imaging Devices],IStillImageW interface, image.istillimage_registerlaunchapplication, sti/IStillImageW::RegisterLaunchApplication, stifnc_606c7e24-38e2-450e-a9d5-3d7018ccf9b9.xml
 f1_keywords:
  - "sti/IStillImageW.RegisterLaunchApplication"
+ - "IStillImageW.RegisterLaunchApplication"
 req.header: sti.h
 req.include-header: Sti.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - sti.h
 api_name:
 - IStillImageW.RegisterLaunchApplication
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

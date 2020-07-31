@@ -10,6 +10,7 @@ keywords: ["MmAllocateNodePagesForMdlEx function"]
 ms.keywords: MmAllocateNodePagesForMdlEx, MmAllocateNodePagesForMdlEx routine [Kernel-Mode Driver Architecture], kernel.mmallocatenodepagesformdlex, wdm/MmAllocateNodePagesForMdlEx
 f1_keywords:
  - "wdm/MmAllocateNodePagesForMdlEx"
+ - "MmAllocateNodePagesForMdlEx"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - MmAllocateNodePagesForMdlEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

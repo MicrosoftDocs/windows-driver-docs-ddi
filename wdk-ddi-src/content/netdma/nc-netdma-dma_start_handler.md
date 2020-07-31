@@ -10,6 +10,7 @@ keywords: ["DMA_START_HANDLER callback function"]
 ms.keywords: DMA_START_HANDLER, DMA_START_HANDLER callback, ProviderStartDma, ProviderStartDma callback function [Network Drivers Starting with Windows Vista], netdma/ProviderStartDma, netdma_ref_76be9ff2-b865-4516-ad7b-ab3951133f41.xml, netvista.providerstartdma
 f1_keywords:
  - "netdma/ProviderStartDma"
+ - "ProviderStartDma"
 req.header: netdma.h
 req.include-header: Netdma.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - netdma.h
 api_name:
 - ProviderStartDma
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

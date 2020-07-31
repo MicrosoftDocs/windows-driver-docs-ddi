@@ -10,6 +10,7 @@ keywords: ["IDebugAdvanced2::Request"]
 ms.keywords: IDebugAdvanced2 interface [Windows Debugging],Request method, IDebugAdvanced2.Request, IDebugAdvanced2::Request, IDebugAdvanced3 interface [Windows Debugging],Request method, IDebugAdvanced3::Request, IDebugAdvanced_8fbf249e-5550-42c0-b16d-d42aaa4de660.xml, Request, Request method [Windows Debugging], Request method [Windows Debugging],IDebugAdvanced2 interface, Request method [Windows Debugging],IDebugAdvanced3 interface, dbgeng/IDebugAdvanced2::Request, dbgeng/IDebugAdvanced3::Request, debugger.request
 f1_keywords:
  - "dbgeng/IDebugAdvanced2.Request"
+ - "IDebugAdvanced2.Request"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IDebugAdvanced2.Request
 - IDebugAdvanced3.Request
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

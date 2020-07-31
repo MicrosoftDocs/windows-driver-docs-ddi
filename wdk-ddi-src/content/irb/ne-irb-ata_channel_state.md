@@ -10,6 +10,7 @@ keywords: ["ATA_CHANNEL_STATE enumeration"]
 ms.keywords: ATA_CHANNEL_STATE, ATA_CHANNEL_STATE enumeration [Storage Devices], ChannelStateDisabled, ChannelStateEnabled, ChannelStateUnKnown, irb/ATA_CHANNEL_STATE, irb/ChannelStateDisabled, irb/ChannelStateEnabled, irb/ChannelStateUnKnown, storage.ata_channel_state, structs-ATA_317e3cc4-5b93-4942-9256-9418f692a8e2.xml
 f1_keywords:
  - "irb/ATA_CHANNEL_STATE"
+ - "ATA_CHANNEL_STATE"
 req.header: irb.h
 req.include-header: Irb.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - irb.h
 api_name:
 - ATA_CHANNEL_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: ATA_CHANNEL_STATE
 ---

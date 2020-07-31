@@ -10,6 +10,7 @@ keywords: ["RouterFreeBidiResponseContainer function"]
 ms.keywords: RouterFreeBidiResponseContainer, RouterFreeBidiResponseContainer function [Print Devices], print.routerfreebidiresponsecontainer, spoolfnc_065c8a3a-5790-45f5-bf79-3af94fdd0571.xml, winsplp/RouterFreeBidiResponseContainer
 f1_keywords:
  - "winsplp/RouterFreeBidiResponseContainer"
+ - "RouterFreeBidiResponseContainer"
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WinSpool.drv
 api_name:
 - RouterFreeBidiResponseContainer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

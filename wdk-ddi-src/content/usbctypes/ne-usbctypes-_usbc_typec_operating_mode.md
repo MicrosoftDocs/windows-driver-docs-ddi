@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["_USBC_TYPEC_OPERATING_MODE enumeration"]
 f1_keywords:
  - "usbctypes/_USBC_TYPEC_OPERATING_MODE"
+ - "_USBC_TYPEC_OPERATING_MODE"
 ms.keywords: _USBC_TYPEC_OPERATING_MODE, USBC_TYPEC_OPERATING_MODE, 
 req.header: usbctypes.h
 req.include-header: usbctypes.h
@@ -26,8 +27,6 @@ api_location:
 - usbctypes.h
 api_name: 
 - _USBC_TYPEC_OPERATING_MODE
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

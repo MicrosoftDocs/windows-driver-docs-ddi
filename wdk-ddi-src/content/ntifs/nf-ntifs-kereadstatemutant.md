@@ -10,6 +10,7 @@ keywords: ["KeReadStateMutant function"]
 ms.keywords: KeReadStateMutant, KeReadStateMutant function [Installable File System Drivers], ifsk.kereadstatemutant, keref_71f98f36-f8ae-4ea9-9a54-8fb34694b18c.xml, ntifs/KeReadStateMutant
 f1_keywords:
  - "ntifs/KeReadStateMutant"
+ - "KeReadStateMutant"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - KeReadStateMutant
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

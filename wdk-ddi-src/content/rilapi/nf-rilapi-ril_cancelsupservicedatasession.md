@@ -10,6 +10,7 @@ keywords: ["RIL_CancelSupServiceDataSession function"]
 ms.keywords: RIL_CancelSupServiceDataSession, RIL_CancelSupServiceDataSession method [Network Drivers Starting with Windows Vista], netvista.ril_cancelsupservicedatasession, rilapi/RIL_CancelSupServiceDataSession
 f1_keywords:
  - "rilapi/RIL_CancelSupServiceDataSession"
+ - "RIL_CancelSupServiceDataSession"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_CancelSupServiceDataSession
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

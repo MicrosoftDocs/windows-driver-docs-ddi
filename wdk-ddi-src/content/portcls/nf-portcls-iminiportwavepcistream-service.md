@@ -10,6 +10,7 @@ keywords: ["IMiniportWavePciStream::Service"]
 ms.keywords: IMiniportWavePciStream interface [Audio Devices],Service method, IMiniportWavePciStream.Service, IMiniportWavePciStream::Service, Service, Service method [Audio Devices], Service method [Audio Devices],IMiniportWavePciStream interface, audio.iminiportwavepcistream_service, audmp-routines_c723ca89-3315-43a2-b93b-86c5bce87910.xml, portcls/IMiniportWavePciStream::Service
 f1_keywords:
  - "portcls/IMiniportWavePciStream.Service"
+ - "IMiniportWavePciStream.Service"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IMiniportWavePciStream.Service
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

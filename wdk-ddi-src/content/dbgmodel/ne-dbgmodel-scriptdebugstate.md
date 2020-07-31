@@ -7,6 +7,7 @@ ms.date: 07/16/2018
 keywords: ["ScriptDebugState enumeration"]
 f1_keywords:
  - "dbgmodel/ScriptDebugState"
+ - "ScriptDebugState"
 ms.keywords: ScriptDebugState, , 
 req.header: dbgmodel.h
 req.include-header:
@@ -26,8 +27,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - ScriptDebugState
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

@@ -10,6 +10,7 @@ keywords: ["RtlIncrementCorrelationVector function"]
 ms.keywords: RtlIncrementCorrelationVector, RtlIncrementCorrelationVector function [Kernel-Mode Driver Architecture], kernel.rtlincrementcorrelationvector, ntddk/RtlIncrementCorrelationVector
 f1_keywords:
  - "ntddk/RtlIncrementCorrelationVector"
+ - "RtlIncrementCorrelationVector"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlIncrementCorrelationVector
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

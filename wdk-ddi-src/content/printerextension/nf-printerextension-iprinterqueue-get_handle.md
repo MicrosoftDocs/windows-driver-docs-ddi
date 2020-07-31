@@ -10,6 +10,7 @@ keywords: ["IPrinterQueue::get_Handle"]
 ms.keywords: Handle property [Print Devices], Handle property [Print Devices],IPrinterQueue interface, IPrinterQueue interface [Print Devices],Handle property, IPrinterQueue.Handle, IPrinterQueue.get_Handle, IPrinterQueue::Handle, IPrinterQueue::get_Handle, get_Handle, print.iprinterqueue_handle, printerextension/IPrinterQueue::Handle, printerextension/IPrinterQueue::get_Handle
 f1_keywords:
  - "printerextension/IPrinterQueue.Handle"
+ - "IPrinterQueue.Handle"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IPrinterQueue.Handle
 - IPrinterQueue.get_Handle
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -8,6 +8,7 @@ tech.root: ifsk
 keywords: ["_FILE_CASE_SENSITIVE_INFORMATION structure"]
 f1_keywords:
  - "ntifs/_FILE_CASE_SENSITIVE_INFORMATION"
+ - "_FILE_CASE_SENSITIVE_INFORMATION"
 ms.keywords: _FILE_CASE_SENSITIVE_INFORMATION, FILE_CASE_SENSITIVE_INFORMATION, *PFILE_CASE_SENSITIVE_INFORMATION, 
 req.header: ntifs.h
 req.include-header:
@@ -30,8 +31,6 @@ api_location:
 - ntifs.h
 api_name: 
 - _FILE_CASE_SENSITIVE_INFORMATION
-product:
-- Windows
 targetos: Windows
 ---
 

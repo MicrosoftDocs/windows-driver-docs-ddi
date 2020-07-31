@@ -10,6 +10,7 @@ keywords: ["FwpsFreeCloneNetBufferList0 function"]
 ms.keywords: FwpsFreeCloneNetBufferList0, FwpsFreeCloneNetBufferList0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsFreeCloneNetBufferList0, netvista.fwpsfreeclonenetbufferlist0, wfp_ref_2_funct_3_fwps_D-H_23efae1d-62cd-4559-b332-08ff843c3ab6.xml
 f1_keywords:
  - "fwpsk/FwpsFreeCloneNetBufferList0"
+ - "FwpsFreeCloneNetBufferList0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - fwpkclnt.dll
 api_name:
 - FwpsFreeCloneNetBufferList0
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

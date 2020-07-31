@@ -10,6 +10,7 @@ keywords: ["ExInterlockedRemoveHeadList function"]
 ms.keywords: ExInterlockedRemoveHeadList, ExInterlockedRemoveHeadList routine [Kernel-Mode Driver Architecture], k102_6ab2420a-7522-4445-9a6e-c8a603f5cff8.xml, kernel.exinterlockedremoveheadlist, wdm/ExInterlockedRemoveHeadList
 f1_keywords:
  - "wdm/ExInterlockedRemoveHeadList"
+ - "ExInterlockedRemoveHeadList"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - ExInterlockedRemoveHeadList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

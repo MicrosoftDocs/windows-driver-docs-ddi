@@ -10,6 +10,7 @@ keywords: ["_FILE_STREAM_INFORMATION structure"]
 ms.keywords: "*PFILE_STREAM_INFORMATION, FILE_STREAM_INFORMATION, FILE_STREAM_INFORMATION structure [Installable File System Drivers], PFILE_STREAM_INFORMATION, PFILE_STREAM_INFORMATION structure pointer [Installable File System Drivers], _FILE_STREAM_INFORMATION, fileinformationstructures_da535f6c-5769-4564-a2e7-e5a7ff952119.xml, ifsk.file_stream_information, ntifs/FILE_STREAM_INFORMATION, ntifs/PFILE_STREAM_INFORMATION"
 f1_keywords:
  - "ntifs/FILE_STREAM_INFORMATION"
+ - "FILE_STREAM_INFORMATION"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - FILE_STREAM_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: FILE_STREAM_INFORMATION, *PFILE_STREAM_INFORMATION
 ---

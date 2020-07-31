@@ -10,6 +10,7 @@ keywords: ["RtlInsertElementGenericTableFullAvl function"]
 ms.keywords: RtlInsertElementGenericTableFullAvl, RtlInsertElementGenericTableFullAvl routine [Installable File System Drivers], ifsk.rtlinsertelementgenerictablefullavl, ntddk/RtlInsertElementGenericTableFullAvl, rtlref_425ca8ff-1fa8-4bdf-84ea-a8935cf0df59.xml
 f1_keywords:
  - "ntddk/RtlInsertElementGenericTableFullAvl"
+ - "RtlInsertElementGenericTableFullAvl"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlInsertElementGenericTableFullAvl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

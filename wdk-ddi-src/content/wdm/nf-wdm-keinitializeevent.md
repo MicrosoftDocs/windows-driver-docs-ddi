@@ -10,6 +10,7 @@ keywords: ["KeInitializeEvent function"]
 ms.keywords: KeInitializeEvent, KeInitializeEvent routine [Kernel-Mode Driver Architecture], k105_cc0b9273-d817-4853-b8ee-2337f53585f1.xml, kernel.keinitializeevent, wdm/KeInitializeEvent
 f1_keywords:
  - "wdm/KeInitializeEvent"
+ - "KeInitializeEvent"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeInitializeEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

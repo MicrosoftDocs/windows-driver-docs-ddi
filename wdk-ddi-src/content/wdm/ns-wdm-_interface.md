@@ -10,6 +10,7 @@ keywords: ["_INTERFACE structure"]
 ms.keywords: "*PINTERFACE, INTERFACE, INTERFACE structure [Kernel-Mode Driver Architecture], PINTERFACE, PINTERFACE structure pointer [Kernel-Mode Driver Architecture], _INTERFACE, kernel.interface, kstruct_b_667d57fa-a959-4904-a15e-af4d4f44988e.xml, wdm/INTERFACE, wdm/PINTERFACE"
 f1_keywords:
  - "wdm/INTERFACE"
+ - "INTERFACE"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Miniport.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - INTERFACE
-product:
-- Windows
 targetos: Windows
 req.typenames: INTERFACE, *PINTERFACE
 ---

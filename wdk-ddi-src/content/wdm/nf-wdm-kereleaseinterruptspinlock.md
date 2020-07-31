@@ -10,6 +10,7 @@ keywords: ["KeReleaseInterruptSpinLock function"]
 ms.keywords: KeReleaseInterruptSpinLock, KeReleaseInterruptSpinLock routine [Kernel-Mode Driver Architecture], k105_673f3ed1-bb95-413b-b56b-e9fdea636e8f.xml, kernel.kereleaseinterruptspinlock, wdm/KeReleaseInterruptSpinLock
 f1_keywords:
  - "wdm/KeReleaseInterruptSpinLock"
+ - "KeReleaseInterruptSpinLock"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeReleaseInterruptSpinLock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

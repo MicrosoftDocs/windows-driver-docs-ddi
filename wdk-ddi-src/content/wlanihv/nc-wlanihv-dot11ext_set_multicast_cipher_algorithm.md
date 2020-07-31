@@ -10,6 +10,7 @@ keywords: ["DOT11EXT_SET_MULTICAST_CIPHER_ALGORITHM callback"]
 ms.keywords: DOT11EXT_SET_MULTICAST_CIPHER_ALGORITHM, Dot11ExtSetMulticastCipherAlgorithm, Dot11ExtSetMulticastCipherAlgorithm callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_67af4c54-7246-4d6e-a82f-35a7b23c8200.xml, netvista.dot11extsetmulticastcipheralgorithm, wlanihv/Dot11ExtSetMulticastCipherAlgorithm
 f1_keywords:
  - "wlanihv/Dot11ExtSetMulticastCipherAlgorithm"
+ - "Dot11ExtSetMulticastCipherAlgorithm"
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wlanihv.h
 api_name:
 - Dot11ExtSetMulticastCipherAlgorithm
-product:
-- Windows
 targetos: Windows
 req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.

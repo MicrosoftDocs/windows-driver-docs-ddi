@@ -10,6 +10,7 @@ keywords: ["RxSetMinirdrCancelRoutine function"]
 ms.keywords: RxSetMinirdrCancelRoutine, RxSetMinirdrCancelRoutine routine [Installable File System Drivers], ifsk.rxsetminirdrcancelroutine, rxcontx/RxSetMinirdrCancelRoutine, rxref_5883f8a0-cc54-4efe-bb98-13239c78abff.xml
 f1_keywords:
  - "rxcontx/RxSetMinirdrCancelRoutine"
+ - "RxSetMinirdrCancelRoutine"
 req.header: rxcontx.h
 req.include-header: Mrx.h, Rxcontx.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - rxcontx.h
 api_name:
 - RxSetMinirdrCancelRoutine
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

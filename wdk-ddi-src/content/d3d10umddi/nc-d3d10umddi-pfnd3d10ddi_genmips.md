@@ -9,6 +9,7 @@ keywords: ["PFND3D10DDI_GENMIPS callback function"]
 ms.keywords: GenMips, GenMips callback function [Display Devices], PFND3D10DDI_GENMIPS, PFND3D10DDI_GENMIPS callback, UserModeDisplayDriverDx10_Functions_56ecca1c-6b70-4ed8-9831-aec5fa5416cf.xml, d3d10umddi/GenMips, display.genmips
 f1_keywords:
  - "d3d10umddi/GenMips"
+ - "GenMips"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - GenMips
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

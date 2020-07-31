@@ -10,6 +10,7 @@ keywords: ["WdfDmaTransactionInitialize function"]
 ms.keywords: DFDmaObjectRef_d7f9d480-a08b-4d5e-a4a2-bfc2de6b4d34.xml, WdfDmaTransactionInitialize, WdfDmaTransactionInitialize method, kmdf.wdfdmatransactioninitialize, wdf.wdfdmatransactioninitialize, wdfdmatransaction/WdfDmaTransactionInitialize
 f1_keywords:
  - "wdfdmatransaction/WdfDmaTransactionInitialize"
+ - "WdfDmaTransactionInitialize"
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfDmaTransactionInitialize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

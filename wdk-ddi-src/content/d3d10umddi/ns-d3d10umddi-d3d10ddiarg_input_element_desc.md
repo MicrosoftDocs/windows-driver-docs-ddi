@@ -9,6 +9,7 @@ keywords: ["D3D10DDIARG_INPUT_ELEMENT_DESC structure"]
 ms.keywords: D3D10DDIARG_INPUT_ELEMENT_DESC, D3D10DDIARG_INPUT_ELEMENT_DESC structure [Display Devices], UMDisplayDriver_Dx10param_Structs_c640f88f-3031-4412-a9bc-a8058cf8dab0.xml, d3d10umddi/D3D10DDIARG_INPUT_ELEMENT_DESC, display.d3d10ddiarg_input_element_desc
 f1_keywords:
  - "d3d10umddi/D3D10DDIARG_INPUT_ELEMENT_DESC"
+ - "D3D10DDIARG_INPUT_ELEMENT_DESC"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - D3D10DDIARG_INPUT_ELEMENT_DESC
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D10DDIARG_INPUT_ELEMENT_DESC

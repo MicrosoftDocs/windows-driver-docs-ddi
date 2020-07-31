@@ -10,6 +10,7 @@ keywords: ["IXpsPartIterator::Next"]
 ms.keywords: IXpsPartIterator interface [Print Devices],Next method, IXpsPartIterator.Next, IXpsPartIterator::Next, Next, Next method [Print Devices], Next method [Print Devices],IXpsPartIterator interface, filterpipeline/IXpsPartIterator::Next, filterpipeline_1e70f932-105f-4d9f-ace3-78f687f446c6.xml, print.ixpspartiterator_next
 f1_keywords:
  - "filterpipeline/IXpsPartIterator.Next"
+ - "IXpsPartIterator.Next"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Filterpipeline.h
 api_name:
 - IXpsPartIterator.Next
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

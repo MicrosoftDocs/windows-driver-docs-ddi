@@ -10,6 +10,7 @@ keywords: ["wiasWritePageBufToFile function"]
 ms.keywords: image.wiaswritepagebuftofile, wiamdef/wiasWritePageBufToFile, wiasFncs_1d5b96b4-4737-481a-ae6a-e1ec4e8affef.xml, wiasWritePageBufToFile, wiasWritePageBufToFile function [Imaging Devices]
 f1_keywords:
  - "wiamdef/wiasWritePageBufToFile"
+ - "wiasWritePageBufToFile"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wiaservc.dll
 api_name:
 - wiasWritePageBufToFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

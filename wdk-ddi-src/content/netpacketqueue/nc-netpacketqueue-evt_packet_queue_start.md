@@ -8,6 +8,7 @@ ms.date: 07/17/2018
 keywords: ["EVT_PACKET_QUEUE_START callback function"]
 f1_keywords:
  - "netpacketqueue/EVT_PACKET_QUEUE_START"
+ - "EVT_PACKET_QUEUE_START"
 req.header: netpacketqueue.h
 req.include-header:
 req.target-type: Universal
@@ -33,8 +34,6 @@ api_location:
 - netpacketqueue.h
 api_name: 
 - EVT_PACKET_QUEUE_START
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

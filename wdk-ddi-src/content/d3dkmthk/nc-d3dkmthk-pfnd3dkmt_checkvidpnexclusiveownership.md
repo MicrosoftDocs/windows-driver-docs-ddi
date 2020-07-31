@@ -9,6 +9,7 @@ keywords: ["PFND3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP callback function"]
 ms.keywords: D3DKMTCheckVidPnExclusiveOwnership, D3DKMTCheckVidPnExclusiveOwnership callback function [Display Devices], OpenGL_Functions_edc90d51-f7e4-4bb5-be24-1a32b9fb4461.xml, PFND3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP, PFND3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP callback, d3dkmthk/D3DKMTCheckVidPnExclusiveOwnership, display.d3dkmtcheckvidpnexclusiveownership
 f1_keywords:
  - "d3dkmthk/D3DKMTCheckVidPnExclusiveOwnership"
+ - "D3DKMTCheckVidPnExclusiveOwnership"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -35,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMTCheckVidPnExclusiveOwnership
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

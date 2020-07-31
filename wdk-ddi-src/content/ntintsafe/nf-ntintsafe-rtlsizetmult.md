@@ -10,6 +10,7 @@ keywords: ["RtlSizeTMult function"]
 ms.keywords: RtlSizeTMult, RtlSizeTMult function [Kernel-Mode Driver Architecture], kernel.rtlsizetmult, ntintsafe/RtlSizeTMult
 f1_keywords:
  - "ntintsafe/RtlSizeTMult"
+ - "RtlSizeTMult"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Ntintsafe.h
 api_name:
 - RtlSizeTMult
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

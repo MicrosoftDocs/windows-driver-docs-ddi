@@ -8,6 +8,7 @@ ms.date: 01/17/2019
 keywords: ["NetAdapterOffloadSetLsoCapabilities function"]
 f1_keywords:
  - "netadapteroffload/NetAdapterOffloadSetLsoCapabilities"
+ - "NetAdapterOffloadSetLsoCapabilities"
 ms.keywords: NetAdapterOffloadSetLsoCapabilities
 req.header: netadapter.h
 req.include-header:
@@ -34,8 +35,6 @@ api_location:
 - netadaptercxstub.lib
 api_name: 
 - NetAdapterOffloadSetLsoCapabilities
-product:
-- Windows
 targetos: Windows
 ms.custom: 19H1
 ---

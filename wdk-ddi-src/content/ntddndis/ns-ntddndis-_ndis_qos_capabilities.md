@@ -10,6 +10,7 @@ keywords: ["_NDIS_QOS_CAPABILITIES structure"]
 ms.keywords: NDIS_QOS_CAPABILITIES, NDIS_QOS_CAPABILITIES structure [Network Drivers Starting with Windows Vista], PNDIS_QOS_CAPABILITIES, PNDIS_QOS_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_QOS_CAPABILITIES, netvista.ndis_qos_capabilities, ntddndis/NDIS_QOS_CAPABILITIES, ntddndis/PNDIS_QOS_CAPABILITIES
 f1_keywords:
  - "ntddndis/NDIS_QOS_CAPABILITIES"
+ - "NDIS_QOS_CAPABILITIES"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddndis.h
 api_name:
 - NDIS_QOS_CAPABILITIES
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_QOS_CAPABILITIES, PNDIS_QOS_CAPABILITIES
 ---

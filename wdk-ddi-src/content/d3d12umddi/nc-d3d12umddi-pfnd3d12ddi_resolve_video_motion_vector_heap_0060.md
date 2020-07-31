@@ -31,6 +31,7 @@ targetos: Windows
 ms.custom: UMD DDI Min Version D3D12DDI_SUPPORTED_0043, 19H1
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_RESOLVE_VIDEO_MOTION_VECTOR_HEAP_0060"
+ - "PFND3D12DDI_RESOLVE_VIDEO_MOTION_VECTOR_HEAP_0060"
 topic_type:
  - apiref
 api_type:

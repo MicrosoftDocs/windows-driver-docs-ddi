@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_CREATEKEYEDMUTEX structure"]
 ms.keywords: D3DKMT_CREATEKEYEDMUTEX, D3DKMT_CREATEKEYEDMUTEX structure [Display Devices], OpenGL_Structs_6ab1fe5f-9963-46ab-946d-689d74c70d11.xml, _D3DKMT_CREATEKEYEDMUTEX, d3dkmthk/D3DKMT_CREATEKEYEDMUTEX, display.d3dkmt_createkeyedmutex
 f1_keywords:
  - "d3dkmthk/D3DKMT_CREATEKEYEDMUTEX"
+ - "D3DKMT_CREATEKEYEDMUTEX"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMT_CREATEKEYEDMUTEX
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_CREATEKEYEDMUTEX

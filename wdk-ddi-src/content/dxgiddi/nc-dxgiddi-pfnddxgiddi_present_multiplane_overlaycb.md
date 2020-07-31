@@ -10,6 +10,7 @@ keywords: ["PFNDDXGIDDI_PRESENT_MULTIPLANE_OVERLAYCB callback function"]
 ms.keywords: PFNDDXGIDDI_PRESENT_MULTIPLANE_OVERLAYCB, PFNDDXGIDDI_PRESENT_MULTIPLANE_OVERLAYCB callback, display.pfnpresentmultiplaneoverlay__dxgi_, dxgiddi/pfnPresentMultiPlaneOverlayCb, pfnPresentMultiPlaneOverlayCb, pfnPresentMultiPlaneOverlayCb callback function [Display Devices]
 f1_keywords:
  - "dxgiddi/pfnPresentMultiPlaneOverlayCb"
+ - "pfnPresentMultiPlaneOverlayCb"
 req.header: dxgiddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Dxgiddi.h
 api_name:
 - pfnPresentMultiPlaneOverlayCb
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

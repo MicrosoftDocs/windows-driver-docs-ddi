@@ -10,6 +10,7 @@ keywords: ["PFNDRMGETCONTENTRIGHTS callback function"]
 ms.keywords: DRMGetContentRights, DRMGetContentRights callback function [Audio Devices], PFNDRMGETCONTENTRIGHTS, PFNDRMGETCONTENTRIGHTS callback, PfnDRMGetContentRights, PfnDRMGetContentRights callback function [Audio Devices], audio.pfndrmgetcontentrights, drmk/PfnDRMGetContentRights
 f1_keywords:
  - "drmk/DRMGetContentRights"
+ - "DRMGetContentRights"
 req.header: drmk.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Drmk.h
 api_name:
 - DRMGetContentRights
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["NdisCompleteBindAdapterEx function"]
 ms.keywords: NdisCompleteBindAdapterEx, NdisCompleteBindAdapterEx function [Network Drivers Starting with Windows Vista], ndis/NdisCompleteBindAdapterEx, netvista.ndiscompletebindadapterex, protocol_ndis_functions_ref_11cc35a5-fa39-4922-a00d-c4ccb634ea88.xml
 f1_keywords:
  - "ndis/NdisCompleteBindAdapterEx"
+ - "NdisCompleteBindAdapterEx"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisCompleteBindAdapterEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

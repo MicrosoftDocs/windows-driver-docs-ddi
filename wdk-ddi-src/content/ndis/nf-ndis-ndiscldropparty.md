@@ -10,6 +10,7 @@ keywords: ["NdisClDropParty function"]
 ms.keywords: NdisClDropParty, NdisClDropParty function [Network Drivers Starting with Windows Vista], condis_client_ref_a86ff56b-e523-4d1b-a3ef-60ec953514c6.xml, ndis/NdisClDropParty, netvista.ndiscldropparty
 f1_keywords:
  - "ndis/NdisClDropParty"
+ - "NdisClDropParty"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisClDropParty
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

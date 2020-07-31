@@ -10,6 +10,7 @@ keywords: ["IWiaImageFilter::FilterPreviewImage"]
 ms.keywords: FilterPreviewImage, FilterPreviewImage method [Imaging Devices], FilterPreviewImage method [Imaging Devices],IWiaImageFilter interface, IWiaErrorHandler_22a9ad6b-b9f4-49e5-9c62-2d32fbaf3d02.xml, IWiaImageFilter interface [Imaging Devices],FilterPreviewImage method, IWiaImageFilter.FilterPreviewImage, IWiaImageFilter::FilterPreviewImage, image.iwiaimagefilter_filterpreviewimage, wia_lh/IWiaImageFilter::FilterPreviewImage
 f1_keywords:
  - "wia_lh/IWiaImageFilter.FilterPreviewImage"
+ - "IWiaImageFilter.FilterPreviewImage"
 req.header: wia_lh.h
 req.include-header: Wia_lh.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wia_lh.h
 api_name:
 - IWiaImageFilter.FilterPreviewImage
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

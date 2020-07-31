@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_OFFERRESOURCES structure"]
 ms.keywords: D3DDDIARG_OFFERRESOURCES, D3DDDIARG_OFFERRESOURCES structure [Display Devices], _D3DDDIARG_OFFERRESOURCES, d3dumddi/D3DDDIARG_OFFERRESOURCES, display.d3dddiarg_offerresources
 f1_keywords:
  - "d3dumddi/D3DDDIARG_OFFERRESOURCES"
+ - "D3DDDIARG_OFFERRESOURCES"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - D3dumddi.h
 api_name:
 - D3DDDIARG_OFFERRESOURCES
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_OFFERRESOURCES
 ---

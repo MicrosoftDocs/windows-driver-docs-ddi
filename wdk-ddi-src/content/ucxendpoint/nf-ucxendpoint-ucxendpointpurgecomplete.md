@@ -10,6 +10,7 @@ keywords: ["UcxEndpointPurgeComplete function"]
 ms.keywords: UcxEndpointPurgeComplete, UcxEndpointPurgeComplete method [Buses], buses._ucxendpointpurgecomplete, ucxendpoint/UcxEndpointPurgeComplete
 f1_keywords:
  - "ucxendpoint/UcxEndpointPurgeComplete"
+ - "UcxEndpointPurgeComplete"
 req.header: ucxendpoint.h
 req.include-header: Ucxclass.h, Ucxendpoint.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ucxendpoint.h
 api_name:
 - UcxEndpointPurgeComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

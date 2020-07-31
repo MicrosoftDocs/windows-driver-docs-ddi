@@ -7,6 +7,7 @@ ms.date: 09/21/2018
 keywords: ["IModelPropertyAccessor::QueryInterface"]
 f1_keywords:
  - "dbgmodel/IModelPropertyAccessor.QueryInterface"
+ - "IModelPropertyAccessor.QueryInterface"
 ms.keywords: IModelPropertyAccessor::QueryInterface, QueryInterface, IModelPropertyAccessor.QueryInterface, IModelPropertyAccessor::QueryInterface, IModelPropertyAccessor.QueryInterface
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IModelPropertyAccessor.QueryInterface
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

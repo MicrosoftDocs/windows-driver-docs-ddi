@@ -8,6 +8,7 @@ ms.date: 07/02/2018
 keywords: ["EVT_MBB_DEVICE_SEND_MBIM_FRAGMENT callback function"]
 f1_keywords:
  - "mbbcx/EVT_MBB_DEVICE_SEND_MBIM_FRAGMENT"
+ - "EVT_MBB_DEVICE_SEND_MBIM_FRAGMENT"
 req.header: mbbcx.h
 req.include-header:
 req.target-type: Universal
@@ -33,8 +34,6 @@ api_location:
 - mbbcx.h
 api_name: 
 - EVT_MBB_DEVICE_SEND_MBIM_FRAGMENT
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

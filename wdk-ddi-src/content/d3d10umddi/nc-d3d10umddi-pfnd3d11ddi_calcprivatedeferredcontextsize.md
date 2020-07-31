@@ -29,6 +29,7 @@ tech.root: display
 req.typenames: 
 f1_keywords:
  - "d3d10umddi/CalcPrivateDeferredContextSize"
+ - "CalcPrivateDeferredContextSize"
 topic_type:
  - APIRef
  - kbSyntax

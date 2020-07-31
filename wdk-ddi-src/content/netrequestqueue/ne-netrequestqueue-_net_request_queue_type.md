@@ -8,6 +8,7 @@ ms.date: 02/09/2018
 keywords: ["_NET_REQUEST_QUEUE_TYPE enumeration"]
 f1_keywords:
  - "netrequestqueue/NET_REQUEST_QUEUE_TYPE"
+ - "NET_REQUEST_QUEUE_TYPE"
 ms.keywords: _NET_REQUEST_QUEUE_TYPE, NET_REQUEST_QUEUE_TYPE, 
 req.header: netrequestqueue.h
 req.include-header:
@@ -30,8 +31,6 @@ api_location:
 api_name: 
 - NET_REQUEST_QUEUE_TYPE
 targetos: Windows
-product:
-- Windows
 ---
 
 # _NET_REQUEST_QUEUE_TYPE enumeration

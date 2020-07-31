@@ -10,6 +10,7 @@ keywords: ["KsGateCaptureThreshold function"]
 ms.keywords: KsGateCaptureThreshold, KsGateCaptureThreshold function [Streaming Media Devices], avfunc_9fd4ddfc-f715-45da-936e-9527b8ec4a25.xml, ks/KsGateCaptureThreshold, stream.ksgatecapturethreshold
 f1_keywords:
  - "ks/KsGateCaptureThreshold"
+ - "KsGateCaptureThreshold"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KsGateCaptureThreshold
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

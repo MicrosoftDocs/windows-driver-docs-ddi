@@ -8,6 +8,7 @@ tech.root: ifsk
 keywords: ["_FILE_STORAGE_RESERVE_ID_INFORMATION structure"]
 f1_keywords:
  - "ntifs/_FILE_STORAGE_RESERVE_ID_INFORMATION"
+ - "_FILE_STORAGE_RESERVE_ID_INFORMATION"
 ms.keywords: _FILE_STORAGE_RESERVE_ID_INFORMATION, FILE_STORAGE_RESERVE_ID_INFORMATION, *PFILE_STORAGE_RESERVE_ID_INFORMATION, 
 req.header: ntifs.h
 req.include-header:
@@ -30,8 +31,6 @@ api_location:
 - ntifs.h
 api_name: 
 - _FILE_STORAGE_RESERVE_ID_INFORMATION
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

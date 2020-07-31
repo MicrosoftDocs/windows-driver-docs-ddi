@@ -10,6 +10,7 @@ keywords: ["StorPortGetRequestCryptoInfo function"]
 ms.keywords: StorPortGetRequestCryptoInfo, StorPortGetRequestCryptoInfo routine [Storage Devices], storage.storportgetrequestcryptoinfo, storport/StorPortGetRequestCryptoInfo
 f1_keywords:
  - "storport/StorPortGetRequestCryptoInfo"
+ - "StorPortGetRequestCryptoInfo"
 req.header: storport.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Storport.h
 api_name:
 - StorPortGetRequestCryptoInfo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

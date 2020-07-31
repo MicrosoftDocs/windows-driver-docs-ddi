@@ -10,6 +10,7 @@ keywords: ["PcNewRegistryKey function"]
 ms.keywords: PcNewRegistryKey, PcNewRegistryKey function [Audio Devices], audio.pcnewregistrykey, audpc-routines_67ac1fc2-b40b-4176-8a86-0f4d6eb15e6a.xml, portcls/PcNewRegistryKey
 f1_keywords:
  - "portcls/PcNewRegistryKey"
+ - "PcNewRegistryKey"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Portcls.dll
 api_name:
 - PcNewRegistryKey
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -64,7 +63,7 @@ Output pointer to the registry-key object created by this function. This paramet
 
 ### -param OuterUnknown [in, optional]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of an object that needs to aggregate the <i>OutRegistryKey</i> object. Unless aggregation is required, set this parameter to <b>NULL</b>.
+Pointer to the <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of an object that needs to aggregate the <i>OutRegistryKey</i> object. Unless aggregation is required, set this parameter to <b>NULL</b>.
 
 
 ### -param RegistryKeyType [in]

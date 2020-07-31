@@ -10,6 +10,7 @@ keywords: ["WdfUsbTargetDeviceRetrieveCurrentFrameNumber function"]
 ms.keywords: DFUsbRef_9dd2f1ce-06f7-43a2-8e65-931c03f69c6e.xml, WdfUsbTargetDeviceRetrieveCurrentFrameNumber, WdfUsbTargetDeviceRetrieveCurrentFrameNumber method, kmdf.wdfusbtargetdeviceretrievecurrentframenumber, wdf.wdfusbtargetdeviceretrievecurrentframenumber, wdfusb/WdfUsbTargetDeviceRetrieveCurrentFrameNumber
 f1_keywords:
  - "wdfusb/WdfUsbTargetDeviceRetrieveCurrentFrameNumber"
+ - "WdfUsbTargetDeviceRetrieveCurrentFrameNumber"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfUsbTargetDeviceRetrieveCurrentFrameNumber
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

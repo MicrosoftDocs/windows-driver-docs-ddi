@@ -10,6 +10,7 @@ keywords: ["_NDIS_QOS_CLASSIFICATION_ELEMENT structure"]
 ms.keywords: NDIS_QOS_CLASSIFICATION_ELEMENT, NDIS_QOS_CLASSIFICATION_ELEMENT structure [Network Drivers Starting with Windows Vista], PNDIS_QOS_CLASSIFICATION_ELEMENT, PNDIS_QOS_CLASSIFICATION_ELEMENT structure pointer [Network Drivers Starting with Windows Vista], _NDIS_QOS_CLASSIFICATION_ELEMENT, netvista.ndis_qos_classification_element, ntddndis/NDIS_QOS_CLASSIFICATION_ELEMENT, ntddndis/PNDIS_QOS_CLASSIFICATION_ELEMENT
 f1_keywords:
  - "ntddndis/NDIS_QOS_CLASSIFICATION_ELEMENT"
+ - "NDIS_QOS_CLASSIFICATION_ELEMENT"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddndis.h
 api_name:
 - NDIS_QOS_CLASSIFICATION_ELEMENT
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_QOS_CLASSIFICATION_ELEMENT, PNDIS_QOS_CLASSIFICATION_ELEMENT
 ---

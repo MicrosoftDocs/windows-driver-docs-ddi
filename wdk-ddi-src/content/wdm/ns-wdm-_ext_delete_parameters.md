@@ -10,6 +10,7 @@ keywords: ["_EXT_DELETE_PARAMETERS structure"]
 ms.keywords: "*PEXT_DELETE_PARAMETERS, EXT_DELETE_PARAMETERS, EXT_DELETE_PARAMETERS structure [Kernel-Mode Driver Architecture], PEXT_DELETE_PARAMETERS, PEXT_DELETE_PARAMETERS structure pointer [Kernel-Mode Driver Architecture], _EXT_DELETE_PARAMETERS, kernel.ext_delete_parameters, wdm/EXT_DELETE_PARAMETERS, wdm/PEXT_DELETE_PARAMETERS"
 f1_keywords:
  - "wdm/EXT_DELETE_PARAMETERS"
+ - "EXT_DELETE_PARAMETERS"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - EXT_DELETE_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: EXT_DELETE_PARAMETERS, *PEXT_DELETE_PARAMETERS
 ---

@@ -10,6 +10,7 @@ keywords: ["IOCTL_SCSI_PASS_THROUGH_DIRECT IOCTL"]
 ms.keywords: IOCTL_SCSI_PASS_THROUGH_DIRECT, IOCTL_SCSI_PASS_THROUGH_DIRECT control, IOCTL_SCSI_PASS_THROUGH_DIRECT control code [Storage Devices], k307_4d0f0379-41c5-45c5-98b4-1a222349b4e1.xml, ntddscsi/IOCTL_SCSI_PASS_THROUGH_DIRECT, storage.ioctl_scsi_pass_through_direct
 f1_keywords:
  - "ntddscsi/IOCTL_SCSI_PASS_THROUGH_DIRECT"
+ - "IOCTL_SCSI_PASS_THROUGH_DIRECT"
 req.header: ntddscsi.h
 req.include-header: Ntddscsi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddscsi.h
 api_name:
 - IOCTL_SCSI_PASS_THROUGH_DIRECT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

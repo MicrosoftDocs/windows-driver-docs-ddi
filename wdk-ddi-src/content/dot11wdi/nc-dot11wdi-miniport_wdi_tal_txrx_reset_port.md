@@ -10,6 +10,7 @@ keywords: ["MINIPORT_WDI_TAL_TXRX_RESET_PORT callback function"]
 ms.keywords: MINIPORT_WDI_TAL_TXRX_RESET_PORT, MINIPORT_WDI_TAL_TXRX_RESET_PORT callback, MiniportWdiTalTxRxResetPort, MiniportWdiTalTxRxResetPort callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTalTxRxResetPort, netvista.miniportwditaltxrxresetport
 f1_keywords:
  - "dot11wdi/MiniportWdiTalTxRxResetPort"
+ - "MiniportWdiTalTxRxResetPort"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dot11wdi.h
 api_name:
 - MiniportWdiTalTxRxResetPort
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

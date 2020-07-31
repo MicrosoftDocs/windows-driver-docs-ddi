@@ -10,6 +10,7 @@ keywords: ["ObReferenceObjectByHandle function"]
 ms.keywords: ObReferenceObjectByHandle, ObReferenceObjectByHandle routine [Kernel-Mode Driver Architecture], k107_97ce2cea-8f20-4b30-996c-9ea268951aef.xml, kernel.obreferenceobjectbyhandle, wdm/ObReferenceObjectByHandle
 f1_keywords:
  - "wdm/ObReferenceObjectByHandle"
+ - "ObReferenceObjectByHandle"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - ObReferenceObjectByHandle
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

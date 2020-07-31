@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_DXGK_TRACKEDWORKLOAD_STATE_FLAGS structure"]
 f1_keywords:
  - "d3dkmddi/_DXGK_TRACKEDWORKLOAD_STATE_FLAGS"
+ - "_DXGK_TRACKEDWORKLOAD_STATE_FLAGS"
 ms.keywords: _DXGK_TRACKEDWORKLOAD_STATE_FLAGS, DXGK_TRACKEDWORKLOAD_STATE_FLAGS, 
 req.header: d3dkmddi.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - d3dkmddi.h
 api_name: 
 - _DXGK_TRACKEDWORKLOAD_STATE_FLAGS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

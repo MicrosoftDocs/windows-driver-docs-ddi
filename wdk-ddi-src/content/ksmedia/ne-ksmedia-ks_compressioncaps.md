@@ -10,6 +10,7 @@ keywords: ["KS_CompressionCaps enumeration"]
 ms.keywords: KS_CompressionCaps, KS_CompressionCaps enumeration [Streaming Media Devices], KS_CompressionCaps_CanBFrame, KS_CompressionCaps_CanCrunch, KS_CompressionCaps_CanKeyFrame, KS_CompressionCaps_CanQuality, KS_CompressionCaps_CanWindow, ksmedia/KS_CompressionCaps, ksmedia/KS_CompressionCaps_CanBFrame, ksmedia/KS_CompressionCaps_CanCrunch, ksmedia/KS_CompressionCaps_CanKeyFrame, ksmedia/KS_CompressionCaps_CanQuality, ksmedia/KS_CompressionCaps_CanWindow, stream.ks_compressioncaps, vidcapstruct_77c66492-8105-4cf2-a303-7819d83adbb4.xml
 f1_keywords:
  - "ksmedia/KS_CompressionCaps"
+ - "KS_CompressionCaps"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KS_CompressionCaps
-product:
-- Windows
 targetos: Windows
 req.typenames: KS_CompressionCaps
 ---

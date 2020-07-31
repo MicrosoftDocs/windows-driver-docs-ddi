@@ -10,6 +10,7 @@ keywords: ["KsAllocateDefaultClockEx function"]
 ms.keywords: KsAllocateDefaultClockEx, KsAllocateDefaultClockEx function [Streaming Media Devices], ks/KsAllocateDefaultClockEx, ksfunc_bace76db-468b-4d8e-bbc4-5a64f238308f.xml, stream.ksallocatedefaultclockex
 f1_keywords:
  - "ks/KsAllocateDefaultClockEx"
+ - "KsAllocateDefaultClockEx"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsAllocateDefaultClockEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

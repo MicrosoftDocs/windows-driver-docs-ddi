@@ -10,6 +10,7 @@ keywords: ["KSWAVE_COMPATCAPS structure"]
 ms.keywords: "*PKSWAVE_COMPATCAPS, KSWAVE_COMPATCAPS, KSWAVE_COMPATCAPS structure [Streaming Media Devices], PKSWAVE_COMPATCAPS, PKSWAVE_COMPATCAPS structure pointer [Streaming Media Devices], dvdref_496e945d-fb6d-47da-8668-4cb8f1b265e6.xml, ksmedia/KSWAVE_COMPATCAPS, ksmedia/PKSWAVE_COMPATCAPS, stream.kswave_compatcaps"
 f1_keywords:
  - "ksmedia/KSWAVE_COMPATCAPS"
+ - "KSWAVE_COMPATCAPS"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KSWAVE_COMPATCAPS
-product:
-- Windows
 targetos: Windows
 req.typenames: KSWAVE_COMPATCAPS, *PKSWAVE_COMPATCAPS
 ---

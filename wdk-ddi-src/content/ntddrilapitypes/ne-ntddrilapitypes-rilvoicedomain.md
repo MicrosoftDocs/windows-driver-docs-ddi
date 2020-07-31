@@ -10,6 +10,7 @@ keywords: ["RILVOICEDOMAIN enumeration"]
 ms.keywords: RILVOICEDOMAIN, RILVOICEDOMAIN enumeration [Network Drivers Starting with Windows Vista], RIL_VOICE_DOMAIN_3GPP, RIL_VOICE_DOMAIN_3GPP2, RIL_VOICE_DOMAIN_IMS, RIL_VOICE_DOMAIN_MAX, netvista.rilvoicedomain, ntddrilapitypes/RILVOICEDOMAIN, ntddrilapitypes/RIL_VOICE_DOMAIN_3GPP, ntddrilapitypes/RIL_VOICE_DOMAIN_3GPP2, ntddrilapitypes/RIL_VOICE_DOMAIN_IMS, ntddrilapitypes/RIL_VOICE_DOMAIN_MAX
 f1_keywords:
  - "ntddrilapitypes/RILVOICEDOMAIN"
+ - "RILVOICEDOMAIN"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILVOICEDOMAIN
-product:
-- Windows
 targetos: Windows
 req.typenames: RILVOICEDOMAIN
 ---

@@ -10,6 +10,7 @@ keywords: ["PoFxRegisterComponentPerfStates function"]
 ms.keywords: PO_FX_FLAG_PERF_PEP_OPTIONAL, PO_FX_FLAG_PERF_QUERY_ON_ALL_IDLE_STATES, PO_FX_FLAG_PERF_QUERY_ON_F0, PoFxRegisterComponentPerfStates, PoFxRegisterComponentPerfStates routine [Kernel-Mode Driver Architecture], kernel.pofxregistercomponentperfstates, wdm/PoFxRegisterComponentPerfStates
 f1_keywords:
  - "wdm/PoFxRegisterComponentPerfStates"
+ - "PoFxRegisterComponentPerfStates"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Ntoskrnl.exe
 api_name:
 - PoFxRegisterComponentPerfStates
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

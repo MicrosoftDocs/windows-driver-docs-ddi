@@ -8,6 +8,7 @@ ms.date: 09/30/2018
 keywords: ["UcmUcsiPpmSetUcsiCommandRequestQueue function"]
 f1_keywords:
  - "ucmucsippm/UcmUcsiPpmSetUcsiCommandRequestQueue"
+ - "UcmUcsiPpmSetUcsiCommandRequestQueue"
 ms.keywords: UcmUcsiPpmSetUcsiCommandRequestQueue
 req.header: Ucmucsippm.h
 req.include-header: UcmUcsiCx.h
@@ -34,8 +35,6 @@ api_location:
 - UcmUcsiCxStub.lib
 api_name: 
 - UcmUcsiPpmSetUcsiCommandRequestQueue
-product:
-- Windows
 targetos: Windows
 
 

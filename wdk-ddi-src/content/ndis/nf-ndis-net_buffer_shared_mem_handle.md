@@ -8,6 +8,7 @@ ms.date: 04/13/2018
 keywords: ["NET_BUFFER_SHARED_MEM_HANDLE macro"]
 f1_keywords:
  - "ndis/NET_BUFFER_SHARED_MEM_HANDLE"
+ - "NET_BUFFER_SHARED_MEM_HANDLE"
 ms.keywords: NET_BUFFER_SHARED_MEM_HANDLE
 req.header: ndis.h
 req.include-header:
@@ -34,8 +35,6 @@ api_location:
 - ndis.h
 api_name: 
 - NET_BUFFER_SHARED_MEM_HANDLE
-product:
-- Windows
 targetos: Windows
 
 ---

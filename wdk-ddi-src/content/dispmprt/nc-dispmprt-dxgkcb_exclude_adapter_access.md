@@ -10,6 +10,7 @@ keywords: ["DXGKCB_EXCLUDE_ADAPTER_ACCESS callback function"]
 ms.keywords: DXGKCB_EXCLUDE_ADAPTER_ACCESS, DXGKCB_EXCLUDE_ADAPTER_ACCESS callback, DpFunctions_8ad0a347-3d2f-429c-9b1f-67f000dbfc03.xml, DxgkCbExcludeAdapterAccess, DxgkCbExcludeAdapterAccess callback function [Display Devices], display.dxgkcbexcludeadapteraccess, dispmprt/DxgkCbExcludeAdapterAccess
 f1_keywords:
  - "dispmprt/DxgkCbExcludeAdapterAccess"
+ - "DxgkCbExcludeAdapterAccess"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dispmprt.h
 api_name:
 - DxgkCbExcludeAdapterAccess
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

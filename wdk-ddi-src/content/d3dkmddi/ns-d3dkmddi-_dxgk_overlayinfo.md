@@ -9,6 +9,7 @@ keywords: ["_DXGK_OVERLAYINFO structure"]
 ms.keywords: DXGK_OVERLAYINFO, DXGK_OVERLAYINFO structure [Display Devices], DmStructs_232178f2-9a25-40aa-8604-0414128c1a91.xml, _DXGK_OVERLAYINFO, d3dkmddi/DXGK_OVERLAYINFO, display.dxgk_overlayinfo
 f1_keywords:
  - "d3dkmddi/DXGK_OVERLAYINFO"
+ - "DXGK_OVERLAYINFO"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGK_OVERLAYINFO
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_OVERLAYINFO

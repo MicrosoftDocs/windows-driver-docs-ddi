@@ -10,6 +10,7 @@ keywords: ["EVT_UCX_CONTROLLER_SET_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION
 ms.keywords: "*PFN_UCX_CONTROLLER_SET_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION, *PFN_UCX_CONTROLLER_SET_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION callback function pointer [Buses], EVT_UCX_CONTROLLER_SET_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION, EVT_UCX_CONTROLLER_SET_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION callback, EvUcxControllerSetTransportCharacteristicsChangeNotification, EvUcxControllerSetTransportCharacteristicsChangeNotification callback function [Buses], buses.evt_ucx_controller_set_transport_characteristics_change_notification, ucxcontroller/EvUcxControllerSetTransportCharacteristicsChangeNotification"
 f1_keywords:
  - "ucxcontroller/*PFN_UCX_CONTROLLER_SET_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION"
+ - "*PFN_UCX_CONTROLLER_SET_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION"
 req.header: ucxcontroller.h
 req.include-header: Ucxclass.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - UcxController.h
 api_name:
 - PFN_UCX_CONTROLLER_SET_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

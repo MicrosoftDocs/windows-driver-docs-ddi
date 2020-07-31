@@ -10,6 +10,7 @@ keywords: ["KeDeregisterBugCheckReasonCallback function"]
 ms.keywords: KeDeregisterBugCheckReasonCallback, KeDeregisterBugCheckReasonCallback routine [Kernel-Mode Driver Architecture], k105_f767309b-2c8a-4460-a43f-06aec0f7d401.xml, kernel.kederegisterbugcheckreasoncallback, wdm/KeDeregisterBugCheckReasonCallback
 f1_keywords:
  - "wdm/KeDeregisterBugCheckReasonCallback"
+ - "KeDeregisterBugCheckReasonCallback"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeDeregisterBugCheckReasonCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

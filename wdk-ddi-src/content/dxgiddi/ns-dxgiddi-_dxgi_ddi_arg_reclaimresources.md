@@ -10,6 +10,7 @@ keywords: ["_DXGI_DDI_ARG_RECLAIMRESOURCES structure"]
 ms.keywords: DXGI_DDI_ARG_RECLAIMRESOURCES, DXGI_DDI_ARG_RECLAIMRESOURCES structure [Display Devices], _DXGI_DDI_ARG_RECLAIMRESOURCES, display.dxgi_ddi_arg_reclaimresources, dxgiddi/DXGI_DDI_ARG_RECLAIMRESOURCES
 f1_keywords:
  - "dxgiddi/DXGI_DDI_ARG_RECLAIMRESOURCES"
+ - "DXGI_DDI_ARG_RECLAIMRESOURCES"
 req.header: dxgiddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Dxgiddi.h
 api_name:
 - DXGI_DDI_ARG_RECLAIMRESOURCES
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGI_DDI_ARG_RECLAIMRESOURCES
 ---

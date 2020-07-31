@@ -10,6 +10,7 @@ keywords: ["IWiaDrvItem::UnlinkItemTree"]
 ms.keywords: DrvItem_70e5eaf0-4115-4207-9ea2-53ca8c210795.xml, IWiaDrvItem interface [Imaging Devices],UnlinkItemTree method, IWiaDrvItem.UnlinkItemTree, IWiaDrvItem::UnlinkItemTree, UnlinkItemTree, UnlinkItemTree method [Imaging Devices], UnlinkItemTree method [Imaging Devices],IWiaDrvItem interface, image.iwiadrvitem_unlinkitemtree, wiamindr_lh/IWiaDrvItem::UnlinkItemTree
 f1_keywords:
  - "wiamindr_lh/IWiaDrvItem.UnlinkItemTree"
+ - "IWiaDrvItem.UnlinkItemTree"
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wiamindr_lh.h
 api_name:
 - IWiaDrvItem.UnlinkItemTree
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

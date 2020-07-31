@@ -10,6 +10,7 @@ keywords: ["MINIPORT_WDI_RX_PPDU_RSSI callback function"]
 ms.keywords: MINIPORT_WDI_RX_PPDU_RSSI, MINIPORT_WDI_RX_PPDU_RSSI callback, MiniportWdiRxPpduRssi, MiniportWdiRxPpduRssi callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiRxPpduRssi, netvista.miniportwdirxppdurssi
 f1_keywords:
  - "dot11wdi/MiniportWdiRxPpduRssi"
+ - "MiniportWdiRxPpduRssi"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dot11wdi.h
 api_name:
 - MiniportWdiRxPpduRssi
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

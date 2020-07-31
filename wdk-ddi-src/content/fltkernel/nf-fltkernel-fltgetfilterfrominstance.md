@@ -10,6 +10,7 @@ keywords: ["FltGetFilterFromInstance function"]
 ms.keywords: FltApiRef_e_to_o_d03cf921-2e64-49de-9929-39650fd7d03d.xml, FltGetFilterFromInstance, FltGetFilterFromInstance routine [Installable File System Drivers], fltkernel/FltGetFilterFromInstance, ifsk.fltgetfilterfrominstance
 f1_keywords:
  - "fltkernel/FltGetFilterFromInstance"
+ - "FltGetFilterFromInstance"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltGetFilterFromInstance
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

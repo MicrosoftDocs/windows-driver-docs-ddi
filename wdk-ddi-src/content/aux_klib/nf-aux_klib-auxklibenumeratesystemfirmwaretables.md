@@ -10,6 +10,7 @@ keywords: ["AuxKlibEnumerateSystemFirmwareTables function"]
 ms.keywords: AuxKlibEnumerateSystemFirmwareTables, AuxKlibEnumerateSystemFirmwareTables routine [Kernel-Mode Driver Architecture], aux_klib/AuxKlibEnumerateSystemFirmwareTables, kernel.auxklibenumeratesystemfirmwaretables
 f1_keywords:
  - "aux_klib/AuxKlibEnumerateSystemFirmwareTables"
+ - "AuxKlibEnumerateSystemFirmwareTables"
 req.header: aux_klib.h
 req.include-header: Aux_klib.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Aux_Klib.dll
 api_name:
 - AuxKlibEnumerateSystemFirmwareTables
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

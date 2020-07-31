@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["DXGKDDI_UPDATEMONITORLINKINFO callback function"]
 f1_keywords:
  - "d3dkmddi/DXGKDDI_UPDATEMONITORLINKINFO"
+ - "DXGKDDI_UPDATEMONITORLINKINFO"
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type:

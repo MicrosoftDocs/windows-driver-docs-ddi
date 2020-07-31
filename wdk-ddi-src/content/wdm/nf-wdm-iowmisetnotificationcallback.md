@@ -10,6 +10,7 @@ keywords: ["IoWMISetNotificationCallback function"]
 ms.keywords: IoWMISetNotificationCallback, IoWMISetNotificationCallback routine [Kernel-Mode Driver Architecture], k104_8ee391bd-0abe-4901-b0dc-6266d0c8f5c4.xml, kernel.iowmisetnotificationcallback, wdm/IoWMISetNotificationCallback
 f1_keywords:
  - "wdm/IoWMISetNotificationCallback"
+ - "IoWMISetNotificationCallback"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoWMISetNotificationCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

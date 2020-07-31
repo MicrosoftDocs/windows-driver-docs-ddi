@@ -10,6 +10,7 @@ keywords: ["WdfDeviceConfigureWdmIrpDispatchCallback function"]
 ms.keywords: WdfDeviceConfigureWdmIrpDispatchCallback, WdfDeviceConfigureWdmIrpDispatchCallback method, kmdf.wdfdeviceconfigurewdmirpdispatchcallback, wdf.wdfdeviceconfigurewdmirpdispatchcallback, wdfdevice/WdfDeviceConfigureWdmIrpDispatchCallback
 f1_keywords:
  - "wdfdevice/WdfDeviceConfigureWdmIrpDispatchCallback"
+ - "WdfDeviceConfigureWdmIrpDispatchCallback"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfDeviceConfigureWdmIrpDispatchCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

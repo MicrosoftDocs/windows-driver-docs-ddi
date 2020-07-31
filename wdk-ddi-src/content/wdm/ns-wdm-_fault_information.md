@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_FAULT_INFORMATION structure"]
 f1_keywords:
  - "wdm/_FAULT_INFORMATION"
+ - "_FAULT_INFORMATION"
 ms.keywords: _FAULT_INFORMATION, *PFAULT_INFORMATION, FAULT_INFORMATION, 
 req.header: wdm.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - wdm.h
 api_name: 
 - _FAULT_INFORMATION
-product:
-- Windows
 targetos: Windows
 ---
 

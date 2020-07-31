@@ -10,6 +10,7 @@ keywords: ["_FILE_FS_OBJECTID_INFORMATION structure"]
 ms.keywords: "*PFILE_FS_OBJECTID_INFORMATION, FILE_FS_OBJECTID_INFORMATION, FILE_FS_OBJECTID_INFORMATION structure [Installable File System Drivers], PFILE_FS_OBJECTID_INFORMATION, PFILE_FS_OBJECTID_INFORMATION structure pointer [Installable File System Drivers], _FILE_FS_OBJECTID_INFORMATION, fileinformationstructures_6a17f2c2-0aae-44a7-a65c-02c1ed2a9ed4.xml, ifsk.file_fs_objectid_information, ntddk/FILE_FS_OBJECTID_INFORMATION, ntddk/PFILE_FS_OBJECTID_INFORMATION"
 f1_keywords:
  - "ntddk/FILE_FS_OBJECTID_INFORMATION"
+ - "FILE_FS_OBJECTID_INFORMATION"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - FILE_FS_OBJECTID_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: FILE_FS_OBJECTID_INFORMATION, *PFILE_FS_OBJECTID_INFORMATION
 ---

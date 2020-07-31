@@ -10,6 +10,7 @@ keywords: ["PFLT_CONTEXT_ALLOCATE_CALLBACK callback function"]
 ms.keywords: ContextAllocateCallback, ContextAllocateCallback routine [Installable File System Drivers], FltCallbacks_bbb085f4-6850-424b-9885-01549171458b.xml, PFLT_CONTEXT_ALLOCATE_CALLBACK, fltkernel/ContextAllocateCallback, ifsk.pflt_context_allocate_callback
 f1_keywords:
  - "fltkernel/ContextAllocateCallback"
+ - "ContextAllocateCallback"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - fltkernel.h
 api_name:
 - ContextAllocateCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

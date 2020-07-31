@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["_NET_MEMORY_MAPPING_REQUIREMENT enumeration"]
 f1_keywords:
  - "netadapter/_NET_MEMORY_MAPPING_REQUIREMENT"
+ - "_NET_MEMORY_MAPPING_REQUIREMENT"
 ms.keywords: _NET_MEMORY_MAPPING_REQUIREMENT, NET_MEMORY_MAPPING_REQUIREMENT, *PNET_MEMORY_MAPPING_REQUIREMENT, 
 req.header: netadapter.h
 req.include-header:
@@ -27,8 +28,6 @@ api_location:
 - netadapter.h
 api_name: 
 - _NET_MEMORY_MAPPING_REQUIREMENT
-product:
-- Windows
 targetos: Windows
 ---
 

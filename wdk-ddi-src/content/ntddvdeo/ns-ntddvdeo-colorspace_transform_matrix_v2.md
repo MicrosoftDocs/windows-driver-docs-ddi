@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["COLORSPACE_TRANSFORM_MATRIX_V2 structure"]
 f1_keywords:
  - "ntddvdeo/COLORSPACE_TRANSFORM_MATRIX_V2"
+ - "COLORSPACE_TRANSFORM_MATRIX_V2"
 ms.keywords: COLORSPACE_TRANSFORM_MATRIX_V2, COLORSPACE_TRANSFORM_MATRIX_V2, *PCOLORSPACE_TRANSFORM_MATRIX_V2, 
 req.header: ntddvdeo.h
 req.include-header:
@@ -32,8 +33,6 @@ api_location:
  - ntddvdeo.h
 api_name: 
  - COLORSPACE_TRANSFORM_MATRIX_V2
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

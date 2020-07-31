@@ -10,6 +10,7 @@ keywords: ["StorPortIsDeviceOperationAllowed function"]
 ms.keywords: STORPORT_DEVICEOPERATION_SECURE_REPROVISION_GUID, StorPortIsDeviceOperationAllowed, StorPortIsDeviceOperationAllowed routine [Storage Devices], storage.storportisdeviceoperationallowed, storport/StorPortIsDeviceOperationAllowed
 f1_keywords:
  - "storport/StorPortIsDeviceOperationAllowed"
+ - "StorPortIsDeviceOperationAllowed"
 req.header: storport.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - storport.h
 api_name:
 - StorPortIsDeviceOperationAllowed
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

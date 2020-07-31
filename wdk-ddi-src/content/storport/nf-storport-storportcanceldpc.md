@@ -10,6 +10,7 @@ ms.date: 03/19/2019
 keywords: ["StorPortCancelDpc function"]
 f1_keywords:
  - "storport/StorPortCancelDpc"
+ - "StorPortCancelDpc"
 ms.keywords: StorPortCancelDpc
 req.header: storport.h
 req.include-header:
@@ -36,8 +37,6 @@ api_location:
 - storport.h
 api_name: 
 - StorPortCancelDpc
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

@@ -10,6 +10,7 @@ keywords: ["_D3DDDI_SYNCHRONIZATIONOBJECTINFO2 structure"]
 ms.keywords: D3DDDI_SYNCHRONIZATIONOBJECTINFO2, D3DDDI_SYNCHRONIZATIONOBJECTINFO2 structure [Display Devices], D3D_other_Structs_0efa3a96-3e04-4232-bf7a-53c3f038d6ec.xml, _D3DDDI_SYNCHRONIZATIONOBJECTINFO2, d3dukmdt/D3DDDI_SYNCHRONIZATIONOBJECTINFO2, display.d3dddi_synchronizationobjectinfo2
 f1_keywords:
  - "d3dukmdt/D3DDDI_SYNCHRONIZATIONOBJECTINFO2"
+ - "D3DDDI_SYNCHRONIZATIONOBJECTINFO2"
 req.header: d3dukmdt.h
 req.include-header: D3dumddi.h, D3dkmddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dukmdt.h
 api_name:
 - D3DDDI_SYNCHRONIZATIONOBJECTINFO2
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDI_SYNCHRONIZATIONOBJECTINFO2
 ---

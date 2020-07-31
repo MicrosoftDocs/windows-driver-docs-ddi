@@ -7,6 +7,7 @@ ms.date: 09/12/2018
 keywords: ["IDebugHostField::GetName"]
 f1_keywords:
  - "dbgmodel/IDebugHostField.GetName"
+ - "IDebugHostField.GetName"
 ms.keywords: IDebugHostField::GetName, GetName, IDebugHostField.GetName, IDebugHostField::GetName, IDebugHostField.GetName
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostField.GetName
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

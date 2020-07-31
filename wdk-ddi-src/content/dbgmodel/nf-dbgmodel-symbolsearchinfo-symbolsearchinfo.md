@@ -7,6 +7,7 @@ ms.date: 10/04/2018
 keywords: ["SymbolSearchInfo function"]
 f1_keywords:
  - "dbgmodel/SymbolSearchInfo"
+ - "SymbolSearchInfo"
 ms.keywords: SymbolSearchInfo
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - SymbolSearchInfo
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

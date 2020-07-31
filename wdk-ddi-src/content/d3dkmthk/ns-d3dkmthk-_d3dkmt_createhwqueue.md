@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_CREATEHWQUEUE structure"]
 ms.keywords: D3DKMT_CREATEHWQUEUE, D3DKMT_CREATEHWQUEUE structure [Display Devices], _D3DKMT_CREATEHWQUEUE, d3dkmthk/D3DKMT_CREATEHWQUEUE, display.d3dkmt_createhwqueue
 f1_keywords:
  - "d3dkmthk/D3DKMT_CREATEHWQUEUE"
+ - "D3DKMT_CREATEHWQUEUE"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMT_CREATEHWQUEUE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_CREATEHWQUEUE

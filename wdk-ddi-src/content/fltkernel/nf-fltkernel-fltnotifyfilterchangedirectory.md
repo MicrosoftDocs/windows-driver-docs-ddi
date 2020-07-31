@@ -10,6 +10,7 @@ keywords: ["FltNotifyFilterChangeDirectory function"]
 ms.keywords: FltApiRef_e_to_o_855490c1-8b4e-4973-9a96-808b50c20740.xml, FltNotifyFilterChangeDirectory, FltNotifyFilterChangeDirectory routine [Installable File System Drivers], fltkernel/FltNotifyFilterChangeDirectory, ifsk.fltnotifyfilterchangedirectory
 f1_keywords:
  - "fltkernel/FltNotifyFilterChangeDirectory"
+ - "FltNotifyFilterChangeDirectory"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltNotifyFilterChangeDirectory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

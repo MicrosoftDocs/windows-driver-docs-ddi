@@ -10,6 +10,7 @@ keywords: ["IPrinterBidiSetRequestCallback::Completed"]
 ms.keywords: Completed, Completed method [Print Devices], Completed method [Print Devices],IPrinterBidiSetRequestCallback interface, IPrinterBidiSetRequestCallback interface [Print Devices],Completed method, IPrinterBidiSetRequestCallback.Completed, IPrinterBidiSetRequestCallback::Completed, print.iprinterbidisetrequestcallback_completed, printerextension/IPrinterBidiSetRequestCallback::Completed
 f1_keywords:
  - "printerextension/IPrinterBidiSetRequestCallback.Completed"
+ - "IPrinterBidiSetRequestCallback.Completed"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Printerextension.h
 api_name:
 - IPrinterBidiSetRequestCallback.Completed
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

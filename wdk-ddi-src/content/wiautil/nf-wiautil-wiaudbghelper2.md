@@ -10,6 +10,7 @@ keywords: ["wiauDbgHelper2 function"]
 ms.keywords: image.wiaudbghelper2, wiauDbgHelper2, wiauDbgHelper2 function [Imaging Devices], wiauFncs_6ccf146a-ec2e-4ca4-827a-dec2f8ea629d.xml, wiautil/wiauDbgHelper2
 f1_keywords:
  - "wiautil/wiauDbgHelper2"
+ - "wiauDbgHelper2"
 req.header: wiautil.h
 req.include-header: Wiautil.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wiautil.h
 api_name:
 - wiauDbgHelper2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

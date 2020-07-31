@@ -10,6 +10,7 @@ keywords: ["IPrintOemUni::ResetPDEV"]
 ms.keywords: IPrintOemUni interface [Print Devices],ResetPDEV method, IPrintOemUni.ResetPDEV, IPrintOemUni::ResetPDEV, ResetPDEV, ResetPDEV method [Print Devices], ResetPDEV method [Print Devices],IPrintOemUni interface, prcomoem/IPrintOemUni::ResetPDEV, print.iprintoemuni_resetpdev, print_unidrv-pscript_rendering_7b938048-0e07-4e06-8f74-ed13f188d210.xml
 f1_keywords:
  - "prcomoem/IPrintOemUni.ResetPDEV"
+ - "IPrintOemUni.ResetPDEV"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Prcomoem.h
 api_name:
 - IPrintOemUni.ResetPDEV
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

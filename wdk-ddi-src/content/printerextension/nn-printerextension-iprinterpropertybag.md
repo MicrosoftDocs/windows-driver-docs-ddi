@@ -10,6 +10,7 @@ keywords: ["IPrinterPropertyBag interface"]
 ms.keywords: IPrinterPropertyBag, IPrinterPropertyBag interface [Print Devices], IPrinterPropertyBag interface [Print Devices],described, print.iprinterpropertybag_interface, printerextension/IPrinterPropertyBag
 f1_keywords:
  - "printerextension/IPrinterPropertyBag"
+ - "IPrinterPropertyBag"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Printerextension.h
 api_name:
 - IPrinterPropertyBag
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

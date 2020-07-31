@@ -10,6 +10,7 @@ keywords: ["WdfCollectionGetCount function"]
 ms.keywords: DFCollectionObjectRef_835a8d24-fd48-4de9-83bc-62a8b5a3a93b.xml, WdfCollectionGetCount, WdfCollectionGetCount method, kmdf.wdfcollectiongetcount, wdf.wdfcollectiongetcount, wdfcollection/WdfCollectionGetCount
 f1_keywords:
  - "wdfcollection/WdfCollectionGetCount"
+ - "WdfCollectionGetCount"
 req.header: wdfcollection.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfCollectionGetCount
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

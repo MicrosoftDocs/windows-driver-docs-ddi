@@ -10,6 +10,7 @@ keywords: ["_WWAN_LTE_MRL structure"]
 ms.keywords: "*PWWAN_LTE_MRL, PWWAN_LTE_MRL, PWWAN_LTE_MRL structure pointer [Network Drivers Starting with Windows Vista], WWAN_LTE_MRL, WWAN_LTE_MRL structure [Network Drivers Starting with Windows Vista], _WWAN_LTE_MRL, netvista.wwan_lte_mrl, wwan/PWWAN_LTE_MRL, wwan/WWAN_LTE_MRL"
 f1_keywords:
  - "wwan/WWAN_LTE_MRL"
+ - "WWAN_LTE_MRL"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_LTE_MRL
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_LTE_MRL, *PWWAN_LTE_MRL
 ---

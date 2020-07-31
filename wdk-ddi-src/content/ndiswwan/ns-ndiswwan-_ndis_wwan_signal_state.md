@@ -10,6 +10,7 @@ keywords: ["_NDIS_WWAN_SIGNAL_STATE structure"]
 ms.keywords: "*PNDIS_WWAN_SIGNAL_STATE, NDIS_WWAN_SIGNAL_STATE, NDIS_WWAN_SIGNAL_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SIGNAL_STATE, PNDIS_WWAN_SIGNAL_STATE structure pointer [Network Drivers Starting with Windows Vista], WwanRef_92027d1b-0311-4d61-b8cf-04518ee2863b.xml, _NDIS_WWAN_SIGNAL_STATE, ndiswwan/NDIS_WWAN_SIGNAL_STATE, ndiswwan/PNDIS_WWAN_SIGNAL_STATE, netvista.ndis_wwan_signal_state"
 f1_keywords:
  - "ndiswwan/NDIS_WWAN_SIGNAL_STATE"
+ - "NDIS_WWAN_SIGNAL_STATE"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ndiswwan.h
 api_name:
 - NDIS_WWAN_SIGNAL_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_SIGNAL_STATE, *PNDIS_WWAN_SIGNAL_STATE
 ---

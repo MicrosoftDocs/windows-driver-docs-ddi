@@ -9,6 +9,7 @@ keywords: ["D3DKMTRender function"]
 ms.keywords: D3DKMTRender, D3DKMTRender function [Display Devices], OpenGL_Functions_d24fbe14-3271-47f8-9268-8946b599b32a.xml, d3dkmthk/D3DKMTRender, display.d3dkmtrender
 f1_keywords:
  - "d3dkmthk/D3DKMTRender"
+ - "D3DKMTRender"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -38,8 +39,6 @@ api_location:
 - API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 - D3DKMTRender
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

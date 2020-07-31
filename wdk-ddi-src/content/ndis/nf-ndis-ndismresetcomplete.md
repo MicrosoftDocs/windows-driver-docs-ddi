@@ -10,6 +10,7 @@ keywords: ["NdisMResetComplete macro"]
 ms.keywords: NdisMResetComplete, NdisMResetComplete function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_cea3e0dd-c6cb-49a7-86e3-68b779a355d2.xml, ndis/NdisMResetComplete, netvista.ndismresetcomplete
 f1_keywords:
  - "ndis/NdisMResetComplete"
+ - "NdisMResetComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisMResetComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

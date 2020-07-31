@@ -10,6 +10,7 @@ keywords: ["PFNGETINFO callback function"]
 ms.keywords: PFNGETINFO, UNIFONTOBJ_GetInfo, UNIFONTOBJ_GetInfo routine [Print Devices], print.unifontobj_getinfo, print_unidrv-pscript_rendering_7dc55246-beaa-4058-87a3-5438db3368c4.xml, printoem/UNIFONTOBJ_GetInfo
 f1_keywords:
  - "printoem/UNIFONTOBJ_GetInfo"
+ - "UNIFONTOBJ_GetInfo"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - printoem.h
 api_name:
 - UNIFONTOBJ_GetInfo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -7,6 +7,7 @@ ms.date: 08/09/2018
 keywords: ["IModelObject::GetContext"]
 f1_keywords:
  - "dbgmodel/IModelObject.GetContext"
+ - "IModelObject.GetContext"
 ms.keywords: IModelObject::GetContext, GetContext, IModelObject.GetContext, IModelObject::GetContext, IModelObject.GetContext
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IModelObject.GetContext
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

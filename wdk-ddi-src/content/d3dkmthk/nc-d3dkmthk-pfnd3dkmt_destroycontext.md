@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["PFND3DKMT_DESTROYCONTEXT callback function"]
 f1_keywords:
  - "d3dkmthk/PFND3DKMT_DESTROYCONTEXT"
+ - "PFND3DKMT_DESTROYCONTEXT"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -32,8 +33,6 @@ api_location:
 - d3dkmthk.h
 api_name: 
 - PFND3DKMT_DESTROYCONTEXT
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

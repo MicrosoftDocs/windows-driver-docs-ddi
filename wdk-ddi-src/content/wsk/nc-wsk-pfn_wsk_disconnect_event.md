@@ -10,6 +10,7 @@ keywords: ["PFN_WSK_DISCONNECT_EVENT callback function"]
 ms.keywords: PFN_WSK_DISCONNECT_EVENT, PFN_WSK_DISCONNECT_EVENT callback, WskDisconnectEvent, WskDisconnectEvent callback function [Network Drivers Starting with Windows Vista], netvista.wskdisconnectevent, wsk/WskDisconnectEvent, wskref_ec112b8d-f939-456f-9766-e181c7836e2c.xml
 f1_keywords:
  - "wsk/WskDisconnectEvent"
+ - "WskDisconnectEvent"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wsk.h
 api_name:
 - WskDisconnectEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -133,7 +132,7 @@ The WSK subsystem calls a WSK application's
     remote application only if the event callback function was previously enabled with the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/so-wsk-event-callback">SO_WSK_EVENT_CALLBACK</a> socket option.
     For more information about enabling a socket's event callback functions, see 
-    <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nc-evntprov-penablecallback">Enabling and
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/enabling-and-disabling-event-callback-functions">Enabling and
     Disabling Event Callback Functions</a>.
 
 If the remote application performed a graceful disconnect of the socket, no further data will be

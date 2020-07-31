@@ -10,6 +10,7 @@ keywords: ["_WDF_EXECUTION_LEVEL enumeration"]
 ms.keywords: DFGenObjectRef_f9a9ae20-9dba-4c23-910b-04c60e1f9539.xml, WDF_EXECUTION_LEVEL, WDF_EXECUTION_LEVEL enumeration, WdfExecutionLevelDispatch, WdfExecutionLevelInheritFromParent, WdfExecutionLevelInvalid, WdfExecutionLevelPassive, _WDF_EXECUTION_LEVEL, kmdf.wdf_execution_level, wdf.wdf_execution_level, wdfobject/WDF_EXECUTION_LEVEL, wdfobject/WdfExecutionLevelDispatch, wdfobject/WdfExecutionLevelInheritFromParent, wdfobject/WdfExecutionLevelInvalid, wdfobject/WdfExecutionLevelPassive
 f1_keywords:
  - "wdfobject/WDF_EXECUTION_LEVEL"
+ - "WDF_EXECUTION_LEVEL"
 req.header: wdfobject.h
 req.include-header: Wdf.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wdfobject.h
 api_name:
 - WDF_EXECUTION_LEVEL
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_EXECUTION_LEVEL
 ---

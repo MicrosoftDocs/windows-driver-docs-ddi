@@ -10,6 +10,7 @@ keywords: ["_BDA_TUNER_TUNERSTATE structure"]
 ms.keywords: "*PBDA_TUNER_TUNERSTATE, BDA_TUNER_TUNERSTATE, BDA_TUNER_TUNERSTATE structure [Streaming Media Devices], PBDA_TUNER_TUNERSTATE, PBDA_TUNER_TUNERSTATE structure pointer [Streaming Media Devices], _BDA_TUNER_TUNERSTATE, bdatypes/BDA_TUNER_TUNERSTATE, bdatypes/PBDA_TUNER_TUNERSTATE, stream.bda_tuner_tunerstate"
 f1_keywords:
  - "bdatypes/BDA_TUNER_TUNERSTATE"
+ - "BDA_TUNER_TUNERSTATE"
 req.header: bdatypes.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Bdatypes.h
 api_name:
 - BDA_TUNER_TUNERSTATE
-product:
-- Windows
 targetos: Windows
 req.typenames: BDA_TUNER_TUNERSTATE, *PBDA_TUNER_TUNERSTATE
 ---

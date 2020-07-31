@@ -10,6 +10,7 @@ keywords: ["OEMImageProcessing function"]
 ms.keywords: OEMImageProcessing, OEMImageProcessing function [Print Devices], print.oemimageprocessing, print_obsoletefunctions_c65011ae-a69c-4cbe-88a8-13847401c7df.xml, printoem/OEMImageProcessing
 f1_keywords:
  - "printoem/OEMImageProcessing"
+ - "OEMImageProcessing"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - printoem.h
 api_name:
 - OEMImageProcessing
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

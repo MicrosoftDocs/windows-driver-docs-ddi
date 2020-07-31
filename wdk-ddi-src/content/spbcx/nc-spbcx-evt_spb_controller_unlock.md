@@ -10,6 +10,7 @@ keywords: ["EVT_SPB_CONTROLLER_UNLOCK callback function"]
 ms.keywords: EVT_SPB_CONTROLLER_UNLOCK, EVT_SPB_CONTROLLER_UNLOCK callback, EvtSpbControllerUnlock, EvtSpbControllerUnlock callback function [Buses], SPB.evtspbcontrollerunlock, spbcx/EvtSpbControllerUnlock
 f1_keywords:
  - "spbcx/EvtSpbControllerUnlock"
+ - "EvtSpbControllerUnlock"
 req.header: spbcx.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Spbcx.h
 api_name:
 - EvtSpbControllerUnlock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

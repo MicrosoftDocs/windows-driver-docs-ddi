@@ -10,6 +10,7 @@ keywords: ["PHW_RESET_BUS callback"]
 ms.keywords: "(*PHW_RESET_BUS), (*PHW_RESET_BUS) callback function [Storage Devices], ide_minikr_6cda3e23-0fa6-48dd-a0c0-3d47287eb829.xml, srb/(*PHW_RESET_BUS), storage.phw_reset_bus"
 f1_keywords:
  - "srb/(*PHW_RESET_BUS)"
+ - "(*PHW_RESET_BUS)"
 req.header: srb.h
 req.include-header: Storport.h, Srb.h, Storport.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - srb.h
 api_name:
 - (*PHW_RESET_BUS)
-product:
-- Windows
 targetos: Windows
 req.typenames: SPB_CONTROLLER_CONFIG, *PSPB_CONTROLLER_CONFIG
 req.product: Windows 10 or later.

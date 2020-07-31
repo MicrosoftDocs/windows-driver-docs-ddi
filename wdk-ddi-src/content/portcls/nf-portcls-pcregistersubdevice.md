@@ -10,6 +10,7 @@ keywords: ["PcRegisterSubdevice function"]
 ms.keywords: PcRegisterSubdevice, PcRegisterSubdevice function [Audio Devices], audio.pcregistersubdevice, audpc-routines_ba884bcc-8193-4434-9747-d2bce0156eb8.xml, portcls/PcRegisterSubdevice
 f1_keywords:
  - "portcls/PcRegisterSubdevice"
+ - "PcRegisterSubdevice"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Portcls.dll
 api_name:
 - PcRegisterSubdevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -7,6 +7,7 @@ ms.date: 09/28/2018
 keywords: ["IDebugHostMemory2::LinearizeLocation"]
 f1_keywords:
  - "dbgmodel/IDebugHostMemory2.LinearizeLocation"
+ - "IDebugHostMemory2.LinearizeLocation"
 ms.keywords: IDebugHostMemory2::LinearizeLocation, LinearizeLocation, IDebugHostMemory2.LinearizeLocation, IDebugHostMemory2::LinearizeLocation, IDebugHostMemory2.LinearizeLocation
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostMemory2.LinearizeLocation
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

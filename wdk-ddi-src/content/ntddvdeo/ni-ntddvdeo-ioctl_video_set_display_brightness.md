@@ -10,6 +10,7 @@ keywords: ["IOCTL_VIDEO_SET_DISPLAY_BRIGHTNESS IOCTL"]
 ms.keywords: IOCTL_VIDEO_SET_DISPLAY_BRIGHTNESS, IOCTL_VIDEO_SET_DISPLAY_BRIGHTNESS control, IOCTL_VIDEO_SET_DISPLAY_BRIGHTNESS control code [Display Devices], Video_IOCTLs_3dc31eac-247b-400e-8202-c0708086326c.xml, display.ioctl_video_set_display_brightness, ntddvdeo/IOCTL_VIDEO_SET_DISPLAY_BRIGHTNESS
 f1_keywords:
  - "ntddvdeo/IOCTL_VIDEO_SET_DISPLAY_BRIGHTNESS"
+ - "IOCTL_VIDEO_SET_DISPLAY_BRIGHTNESS"
 req.header: ntddvdeo.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddvdeo.h
 api_name:
 - IOCTL_VIDEO_SET_DISPLAY_BRIGHTNESS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

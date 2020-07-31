@@ -10,6 +10,7 @@ keywords: ["RILEMERGENCYMODECONTROLPARAMS structure"]
 ms.keywords: "*LPRILEMERGENCYMODECONTROLPARAMS, RILEMERGENCYMODECONTROLPARAMS, RILEMERGENCYMODECONTROLPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilemergencymodecontrolparams, ntddrilapitypes/RILEMERGENCYMODECONTROLPARAMS"
 f1_keywords:
  - "ntddrilapitypes/RILEMERGENCYMODECONTROLPARAMS"
+ - "RILEMERGENCYMODECONTROLPARAMS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILEMERGENCYMODECONTROLPARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILEMERGENCYMODECONTROLPARAMS, *LPRILEMERGENCYMODECONTROLPARAMS
 ---

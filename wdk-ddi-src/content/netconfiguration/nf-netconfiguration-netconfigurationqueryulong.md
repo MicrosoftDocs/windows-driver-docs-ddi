@@ -8,6 +8,7 @@ ms.date: 02/07/2018
 keywords: ["NetConfigurationQueryUlong function"]
 f1_keywords:
  - "netconfiguration/NetConfigurationQueryUlong"
+ - "NetConfigurationQueryUlong"
 ms.keywords: NetConfigurationQueryUlong
 req.header: netconfiguration.h
 req.include-header: netadaptercx.h
@@ -37,8 +38,6 @@ api_location:
 api_name: 
 - NetConfigurationQueryUlong
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetConfigurationQueryUlong function

@@ -10,6 +10,7 @@ keywords: ["WDF_IO_QUEUE_IDLE function"]
 ms.keywords: DFQueueObjectRef_f836bf9d-8d2c-48db-92cd-fbcef2a0faf6.xml, WDF_IO_QUEUE_IDLE, WDF_IO_QUEUE_IDLE function, kmdf.wdf_io_queue_idle, wdf.wdf_io_queue_idle, wdfio/WDF_IO_QUEUE_IDLE
 f1_keywords:
  - "wdfio/WDF_IO_QUEUE_IDLE"
+ - "WDF_IO_QUEUE_IDLE"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - None.dll
 api_name:
 - WDF_IO_QUEUE_IDLE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

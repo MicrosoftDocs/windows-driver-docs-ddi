@@ -10,6 +10,7 @@ keywords: ["PoFxIdleComponent function"]
 ms.keywords: PoFxIdleComponent, PoFxIdleComponent routine [Kernel-Mode Driver Architecture], kernel.pofxidlecomponent, wdm/PoFxIdleComponent
 f1_keywords:
  - "wdm/PoFxIdleComponent"
+ - "PoFxIdleComponent"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Ntoskrnl.exe
 api_name:
 - PoFxIdleComponent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

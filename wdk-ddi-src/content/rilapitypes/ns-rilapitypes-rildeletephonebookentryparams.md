@@ -10,6 +10,7 @@ keywords: ["RILDELETEPHONEBOOKENTRYPARAMS structure"]
 ms.keywords: "*LPRILDELETEPHONEBOOKENTRYPARAMS, RILDELETEPHONEBOOKENTRYPARAMS, RILDELETEPHONEBOOKENTRYPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rildeletephonebookentryparams, ntddrilapitypes/RILDELETEPHONEBOOKENTRYPARAMS"
 f1_keywords:
  - "rilapitypes/RILDELETEPHONEBOOKENTRYPARAMS"
+ - "RILDELETEPHONEBOOKENTRYPARAMS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILDELETEPHONEBOOKENTRYPARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILDELETEPHONEBOOKENTRYPARAMS, *LPRILDELETEPHONEBOOKENTRYPARAMS
 ---

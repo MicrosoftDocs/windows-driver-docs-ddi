@@ -10,6 +10,7 @@ keywords: ["URS_CONFIG_INIT function"]
 ms.keywords: URS_CONFIG_INIT, URS_CONFIG_INIT function [Buses], buses.urs_config_init, ursdevice/URS_CONFIG_INIT
 f1_keywords:
  - "ursdevice/URS_CONFIG_INIT"
+ - "URS_CONFIG_INIT"
 req.header: ursdevice.h
 req.include-header: Urscx.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ursdevice.h
 api_name:
 - URS_CONFIG_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

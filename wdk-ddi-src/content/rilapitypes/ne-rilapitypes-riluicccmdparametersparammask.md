@@ -10,6 +10,7 @@ keywords: ["RILUICCCMDPARAMETERSPARAMMASK enumeration"]
 ms.keywords: RILUICCCMDPARAMETERSPARAMMASK, RILUICCCMDPARAMETERSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_SCP_ALL, RIL_PARAM_SCP_PARAM1, RIL_PARAM_SCP_PARAM2, RIL_PARAM_SCP_PARAM3, netvista.riluicccmdparametersparammask, ntddrilapitypes/RILUICCCMDPARAMETERSPARAMMASK, ntddrilapitypes/RIL_PARAM_SCP_ALL, ntddrilapitypes/RIL_PARAM_SCP_PARAM1, ntddrilapitypes/RIL_PARAM_SCP_PARAM2, ntddrilapitypes/RIL_PARAM_SCP_PARAM3
 f1_keywords:
  - "rilapitypes/RILUICCCMDPARAMETERSPARAMMASK"
+ - "RILUICCCMDPARAMETERSPARAMMASK"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILUICCCMDPARAMETERSPARAMMASK
-product:
-- Windows
 targetos: Windows
 req.typenames: RILUICCCMDPARAMETERSPARAMMASK
 ---

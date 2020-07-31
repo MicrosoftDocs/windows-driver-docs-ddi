@@ -10,6 +10,7 @@ keywords: ["IOCTL_EHSTOR_BANDMGMT_ACTIVATE IOCTL"]
 ms.keywords: IOCTL_EHSTOR_BANDMGMT_ACTIVATE, IOCTL_EHSTOR_BANDMGMT_ACTIVATE control, IOCTL_EHSTOR_BANDMGMT_ACTIVATE control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_ACTIVATE, storage.ioctl_ehstor_bandmgmt_activate
 f1_keywords:
  - "ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_ACTIVATE"
+ - "IOCTL_EHSTOR_BANDMGMT_ACTIVATE"
 req.header: ehstorbandmgmt.h
 req.include-header: EhStorBandMgmt.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - EhStorBandMgmt.h
 api_name:
 - IOCTL_EHSTOR_BANDMGMT_ACTIVATE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -8,6 +8,7 @@ ms.date: 02/01/2019
 keywords: ["NetRequestQueueCreate function"]
 f1_keywords:
  - "netrequestqueue/NET_REQUEST_QUEUE_TYPE"
+ - "NET_REQUEST_QUEUE_TYPE"
 ms.keywords: NetRequestQueueCreate
 req.header: netrequestqueue.h
 req.include-header: netadaptercx.h
@@ -37,8 +38,6 @@ apilocation:
 apiname: 
 - NetRequestQueueCreate
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetRequestQueueCreate function

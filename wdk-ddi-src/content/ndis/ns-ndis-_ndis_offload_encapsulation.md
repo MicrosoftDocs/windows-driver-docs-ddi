@@ -10,6 +10,7 @@ keywords: ["_NDIS_OFFLOAD_ENCAPSULATION structure"]
 ms.keywords: "*PNDIS_OFFLOAD_ENCAPSULATION, NDIS_ENCAPSULATION_IEEE_802_3, NDIS_ENCAPSULATION_IEEE_LLC_SNAP_ROUTED, NDIS_OFFLOAD_ENCAPSULATION, NDIS_OFFLOAD_ENCAPSULATION structure [Network Drivers Starting with Windows Vista], PNDIS_OFFLOAD_ENCAPSULATION, PNDIS_OFFLOAD_ENCAPSULATION structure pointer [Network Drivers Starting with Windows Vista], _NDIS_OFFLOAD_ENCAPSULATION, ndis/NDIS_OFFLOAD_ENCAPSULATION, ndis/PNDIS_OFFLOAD_ENCAPSULATION, netvista.ndis_offload_encapsulation, tcpip_offload_ref_d3154816-5813-4616-b17f-b76362d9a58f.xml"
 f1_keywords:
  - "ndis/NDIS_OFFLOAD_ENCAPSULATION"
+ - "NDIS_OFFLOAD_ENCAPSULATION"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NDIS_OFFLOAD_ENCAPSULATION
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_OFFLOAD_ENCAPSULATION, *PNDIS_OFFLOAD_ENCAPSULATION
 ---

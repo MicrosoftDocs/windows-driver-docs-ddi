@@ -10,6 +10,7 @@ keywords: ["IDebugControl2::GetInterrupt"]
 ms.keywords: GetInterrupt, GetInterrupt method [Windows Debugging], GetInterrupt method [Windows Debugging],IDebugControl interface, GetInterrupt method [Windows Debugging],IDebugControl2 interface, GetInterrupt method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetInterrupt method, IDebugControl2 interface [Windows Debugging],GetInterrupt method, IDebugControl2.GetInterrupt, IDebugControl2::GetInterrupt, IDebugControl3 interface [Windows Debugging],GetInterrupt method, IDebugControl3::GetInterrupt, IDebugControl::GetInterrupt, IDebugControl_059bd637-c75b-4b52-a382-c645cb4b25b9.xml, dbgeng/IDebugControl2::GetInterrupt, dbgeng/IDebugControl3::GetInterrupt, dbgeng/IDebugControl::GetInterrupt, debugger.getinterrupt
 f1_keywords:
  - "dbgeng/IDebugControl.GetInterrupt"
+ - "IDebugControl.GetInterrupt"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -38,8 +39,6 @@ api_name:
 - IDebugControl.GetInterrupt
 - IDebugControl2.GetInterrupt
 - IDebugControl3.GetInterrupt
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

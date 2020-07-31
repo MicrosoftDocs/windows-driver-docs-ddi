@@ -10,6 +10,7 @@ keywords: ["IDebugClient3::AttachProcess"]
 ms.keywords: AttachProcess, AttachProcess method [Windows Debugging], AttachProcess method [Windows Debugging],IDebugClient interface, AttachProcess method [Windows Debugging],IDebugClient2 interface, AttachProcess method [Windows Debugging],IDebugClient3 interface, AttachProcess method [Windows Debugging],IDebugClient4 interface, AttachProcess method [Windows Debugging],IDebugClient5 interface, IDebugClient interface [Windows Debugging],AttachProcess method, IDebugClient2 interface [Windows Debugging],AttachProcess method, IDebugClient2::AttachProcess, IDebugClient3 interface [Windows Debugging],AttachProcess method, IDebugClient3.AttachProcess, IDebugClient3::AttachProcess, IDebugClient4 interface [Windows Debugging],AttachProcess method, IDebugClient4::AttachProcess, IDebugClient5 interface [Windows Debugging],AttachProcess method, IDebugClient5::AttachProcess, IDebugClient::AttachProcess, IDebugClient_032236c1-3072-4226-919b-3f6f95635a20.xml, dbgeng/IDebugClient2::AttachProcess, dbgeng/IDebugClient3::AttachProcess, dbgeng/IDebugClient4::AttachProcess, dbgeng/IDebugClient5::AttachProcess, dbgeng/IDebugClient::AttachProcess, debugger.attachprocess
 f1_keywords:
  - "dbgeng/IDebugClient.AttachProcess"
+ - "IDebugClient.AttachProcess"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -40,8 +41,6 @@ api_name:
 - IDebugClient3.AttachProcess
 - IDebugClient4.AttachProcess
 - IDebugClient5.AttachProcess
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["WdfDeviceConfigureRequestDispatching function"]
 ms.keywords: DFDeviceObjectGeneralRef_d1874c0c-e889-4225-8bbf-e8292edcb716.xml, WdfDeviceConfigureRequestDispatching, WdfDeviceConfigureRequestDispatching method, kmdf.wdfdeviceconfigurerequestdispatching, wdf.wdfdeviceconfigurerequestdispatching, wdfdevice/WdfDeviceConfigureRequestDispatching
 f1_keywords:
  - "wdfdevice/WdfDeviceConfigureRequestDispatching"
+ - "WdfDeviceConfigureRequestDispatching"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfDeviceConfigureRequestDispatching
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

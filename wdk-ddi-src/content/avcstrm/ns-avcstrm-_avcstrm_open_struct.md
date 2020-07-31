@@ -10,6 +10,7 @@ keywords: ["_AVCSTRM_OPEN_STRUCT structure"]
 ms.keywords: "*PAVCSTRM_OPEN_STRUCT, AVCSTRM_OPEN_STRUCT, AVCSTRM_OPEN_STRUCT structure [Streaming Media Devices], PAVCSTRM_OPEN_STRUCT, PAVCSTRM_OPEN_STRUCT structure pointer [Streaming Media Devices], _AVCSTRM_OPEN_STRUCT, avcsref_6ed25af3-808f-4b20-88c8-e7d2cca25494.xml, avcstrm/AVCSTRM_OPEN_STRUCT, avcstrm/PAVCSTRM_OPEN_STRUCT, stream.avcstrm_open_struct"
 f1_keywords:
  - "avcstrm/AVCSTRM_OPEN_STRUCT"
+ - "AVCSTRM_OPEN_STRUCT"
 req.header: avcstrm.h
 req.include-header: Avcstrm.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - avcstrm.h
 api_name:
 - AVCSTRM_OPEN_STRUCT
-product:
-- Windows
 targetos: Windows
 req.typenames: AVCSTRM_OPEN_STRUCT, *PAVCSTRM_OPEN_STRUCT
 ---

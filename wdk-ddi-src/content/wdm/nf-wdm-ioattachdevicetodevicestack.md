@@ -10,6 +10,7 @@ keywords: ["IoAttachDeviceToDeviceStack function"]
 ms.keywords: IoAttachDeviceToDeviceStack, IoAttachDeviceToDeviceStack routine [Kernel-Mode Driver Architecture], k104_18c6aeef-4362-49f9-88a3-6d2a970eb0d7.xml, kernel.ioattachdevicetodevicestack, wdm/IoAttachDeviceToDeviceStack
 f1_keywords:
  - "wdm/IoAttachDeviceToDeviceStack"
+ - "IoAttachDeviceToDeviceStack"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoAttachDeviceToDeviceStack
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

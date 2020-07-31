@@ -10,6 +10,7 @@ keywords: ["CcSetAdditionalCacheAttributes function"]
 ms.keywords: CcSetAdditionalCacheAttributes, CcSetAdditionalCacheAttributes routine [Installable File System Drivers], ccref_a9722d17-3140-4bcd-abd9-46d31fa13174.xml, ifsk.ccsetadditionalcacheattributes, ntifs/CcSetAdditionalCacheAttributes
 f1_keywords:
  - "ntifs/CcSetAdditionalCacheAttributes"
+ - "CcSetAdditionalCacheAttributes"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - CcSetAdditionalCacheAttributes
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

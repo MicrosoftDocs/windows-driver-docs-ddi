@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["IOMMU_FLUSH_DOMAIN callback function"]
 f1_keywords:
  - "wdm/IOMMU_FLUSH_DOMAIN"
+ - "IOMMU_FLUSH_DOMAIN"
 req.header: wdm.h
 req.include-header:
 req.target-type:
@@ -32,8 +33,6 @@ api_location:
 - wdm.h
 api_name: 
 - IOMMU_FLUSH_DOMAIN
-product:
-- Windows
 targetos: Windows
 ---
 

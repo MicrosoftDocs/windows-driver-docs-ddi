@@ -10,6 +10,7 @@ keywords: ["AtaPortRegistryControllerKeyRead function"]
 ms.keywords: AtaPortRegistryControllerKeyRead, AtaPortRegistryControllerKeyRead routine [Storage Devices], atartns_eea8e60c-8cbd-4632-b5a4-17639f02f4d8.xml, irb/AtaPortRegistryControllerKeyRead, storage.ataportregistrycontrollerkeyread
 f1_keywords:
  - "irb/AtaPortRegistryControllerKeyRead"
+ - "AtaPortRegistryControllerKeyRead"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - irb.h
 api_name:
 - AtaPortRegistryControllerKeyRead
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

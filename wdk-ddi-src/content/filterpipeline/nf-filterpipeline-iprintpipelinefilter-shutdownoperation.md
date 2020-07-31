@@ -10,6 +10,7 @@ keywords: ["IPrintPipelineFilter::ShutdownOperation"]
 ms.keywords: IPrintPipelineFilter interface [Print Devices],ShutdownOperation method, IPrintPipelineFilter.ShutdownOperation, IPrintPipelineFilter::ShutdownOperation, ShutdownOperation, ShutdownOperation method [Print Devices], ShutdownOperation method [Print Devices],IPrintPipelineFilter interface, filterpipeline/IPrintPipelineFilter::ShutdownOperation, filterpipeline_5635f15b-3779-42ef-8b8d-3afeab1bab17.xml, print.iprintpipelinefilter_shutdownoperation
 f1_keywords:
  - "filterpipeline/IPrintPipelineFilter.ShutdownOperation"
+ - "IPrintPipelineFilter.ShutdownOperation"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Filterpipeline.h
 api_name:
 - IPrintPipelineFilter.ShutdownOperation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["POFXCALLBACKPROCESSORHALT callback function"]
 ms.keywords: POFXCALLBACKPROCESSORHALT, ProcessorHalt, ProcessorHalt routine [Kernel-Mode Driver Architecture], kernel.processorhalt, pepfx/ProcessorHalt
 f1_keywords:
  - "pep_x/ProcessorHalt"
+ - "ProcessorHalt"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - ProcessorHalt
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

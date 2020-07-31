@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["PFLUSH_DMA_BUFFER callback function"]
 f1_keywords:
  - "wdm/PFLUSH_DMA_BUFFER"
+ - "PFLUSH_DMA_BUFFER"
 req.header: wdm.h
 req.include-header:
 req.target-type:
@@ -33,8 +34,6 @@ api_location:
 api_name: 
 - PFLUSH_DMA_BUFFER
 - FlushDmaBuffer
-product:
-- Windows
 targetos: Windows
 ---
 

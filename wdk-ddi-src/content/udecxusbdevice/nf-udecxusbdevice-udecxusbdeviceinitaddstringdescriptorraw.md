@@ -10,6 +10,7 @@ keywords: ["UdecxUsbDeviceInitAddStringDescriptorRaw function"]
 ms.keywords: UdecxUsbDeviceInitAddStringDescriptorRaw, UdecxUsbDeviceInitAddStringDescriptorRaw function [Buses], buses.udecxusbdeviceinitaddstringdescriptorraw, udecxusbdevice/UdecxUsbDeviceInitAddStringDescriptorRaw
 f1_keywords:
  - "udecxusbdevice/UdecxUsbDeviceInitAddStringDescriptorRaw"
+ - "UdecxUsbDeviceInitAddStringDescriptorRaw"
 req.header: udecxusbdevice.h
 req.include-header: Udecx.h
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 - Udecxstub.dll
 api_name:
 - UdecxUsbDeviceInitAddStringDescriptorRaw
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

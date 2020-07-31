@@ -10,6 +10,7 @@ keywords: ["_SendTargets_IN structure"]
 ms.keywords: "*PSendTargets_IN, PSendTargets_IN, PSendTargets_IN structure pointer [Storage Devices], SendTargets_IN, SendTargets_IN structure [Storage Devices], _SendTargets_IN, iscsiop/PSendTargets_IN, iscsiop/SendTargets_IN, storage.sendtargets_in, structs-iSCSI_448fb50f-6420-43ca-be0e-b3dd110cd48b.xml"
 f1_keywords:
  - "iscsiop/SendTargets_IN"
+ - "SendTargets_IN"
 req.header: iscsiop.h
 req.include-header: Iscsiop.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - iscsiop.h
 api_name:
 - SendTargets_IN
-product:
-- Windows
 targetos: Windows
 req.typenames: SendTargets_IN, *PSendTargets_IN
 ---

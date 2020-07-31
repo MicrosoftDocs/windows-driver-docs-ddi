@@ -10,6 +10,7 @@ keywords: ["FsRtlNotifyInitializeSync function"]
 ms.keywords: FsRtlNotifyInitializeSync, FsRtlNotifyInitializeSync routine [Installable File System Drivers], fsrtlref_3a247139-1c76-4947-8e6f-a5beeae504cd.xml, ifsk.fsrtlnotifyinitializesync, ntifs/FsRtlNotifyInitializeSync
 f1_keywords:
  - "ntifs/FsRtlNotifyInitializeSync"
+ - "FsRtlNotifyInitializeSync"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlNotifyInitializeSync
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

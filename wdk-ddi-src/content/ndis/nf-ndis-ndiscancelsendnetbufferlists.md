@@ -10,6 +10,7 @@ keywords: ["NdisCancelSendNetBufferLists function"]
 ms.keywords: NdisCancelSendNetBufferLists, NdisCancelSendNetBufferLists function [Network Drivers Starting with Windows Vista], ndis/NdisCancelSendNetBufferLists, ndis_sendrcv_ref_f4aca438-863f-44fa-9503-8ac339010360.xml, netvista.ndiscancelsendnetbufferlists
 f1_keywords:
  - "ndis/NdisCancelSendNetBufferLists"
+ - "NdisCancelSendNetBufferLists"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisCancelSendNetBufferLists
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IoCreateFileSpecifyDeviceObjectHint function"]
 ms.keywords: IoCreateFileSpecifyDeviceObjectHint, IoCreateFileSpecifyDeviceObjectHint routine [Installable File System Drivers], ifsk.iocreatefilespecifydeviceobjecthint, ioref_729440cd-ded3-40cf-a0c9-c10f523cd774.xml, ntddk/IoCreateFileSpecifyDeviceObjectHint
 f1_keywords:
  - "ntddk/IoCreateFileSpecifyDeviceObjectHint"
+ - "IoCreateFileSpecifyDeviceObjectHint"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h, FltKernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoCreateFileSpecifyDeviceObjectHint
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

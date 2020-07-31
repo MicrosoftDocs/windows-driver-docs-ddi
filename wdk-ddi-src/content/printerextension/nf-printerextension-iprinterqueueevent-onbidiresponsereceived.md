@@ -10,6 +10,7 @@ keywords: ["IPrinterQueueEvent::OnBidiResponseReceived"]
 ms.keywords: IPrinterQueueEvent interface [Print Devices],OnBidiResponseReceived method, IPrinterQueueEvent.OnBidiResponseReceived, IPrinterQueueEvent::OnBidiResponseReceived, OnBidiResponseReceived, OnBidiResponseReceived method [Print Devices], OnBidiResponseReceived method [Print Devices],IPrinterQueueEvent interface, print.iprinterqueueevent_onbidiresponsereceived, printerextension/IPrinterQueueEvent::OnBidiResponseReceived
 f1_keywords:
  - "printerextension/IPrinterQueueEvent.OnBidiResponseReceived"
+ - "IPrinterQueueEvent.OnBidiResponseReceived"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Printerextension.h
 api_name:
 - IPrinterQueueEvent.OnBidiResponseReceived
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

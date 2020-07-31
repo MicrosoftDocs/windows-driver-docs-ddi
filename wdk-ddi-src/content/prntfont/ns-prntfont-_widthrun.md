@@ -10,6 +10,7 @@ keywords: ["_WIDTHRUN structure"]
 ms.keywords: "*PWIDTHRUN, PWIDTHRUN, PWIDTHRUN structure pointer [Print Devices], WIDTHRUN, WIDTHRUN structure [Print Devices], _WIDTHRUN, print.widthrun, print_unidrv-pscript_fonts_68b08066-7503-4496-bfab-001aba659926.xml, prntfont/PWIDTHRUN, prntfont/WIDTHRUN"
 f1_keywords:
  - "prntfont/WIDTHRUN"
+ - "WIDTHRUN"
 req.header: prntfont.h
 req.include-header: Prntfont.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - prntfont.h
 api_name:
 - WIDTHRUN
-product:
-- Windows
 targetos: Windows
 req.typenames: WIDTHRUN, *PWIDTHRUN
 ---

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3DDDI_VERSION64_FROM32 macro"]
 f1_keywords:
  - "d3dumddi/D3DDDI_VERSION64_FROM32"
+ - "D3DDDI_VERSION64_FROM32"
 ms.keywords: D3DDDI_VERSION64_FROM32
 req.header: d3dumddi.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - d3dumddi.h
 api_name: 
 - D3DDDI_VERSION64_FROM32
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

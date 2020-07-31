@@ -10,6 +10,7 @@ keywords: ["IWiaSegmentationFilter interface"]
 ms.keywords: IWiaSegmentationFilter, IWiaSegmentationFilter interface [Imaging Devices], IWiaSegmentationFilter interface [Imaging Devices],described, image.iwiasegmentationfilter_interface, iwiasegmentationfilter_24576c71-3e48-4152-bbd2-d3722d07a283.xml, wia_lh/IWiaSegmentationFilter
 f1_keywords:
  - "wia_lh/IWiaSegmentationFilter"
+ - "IWiaSegmentationFilter"
 req.header: wia_lh.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wia_lh.h
 api_name:
 - IWiaSegmentationFilter
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

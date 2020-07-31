@@ -10,6 +10,7 @@ keywords: ["ZwUnloadDriver function"]
 ms.keywords: NtUnloadDriver, ZwUnloadDriver, ZwUnloadDriver routine [Kernel-Mode Driver Architecture], k111_72ac4415-d46c-4ea2-9d6c-d66903082808.xml, kernel.zwunloaddriver, wdm/NtUnloadDriver, wdm/ZwUnloadDriver
 f1_keywords:
  - "wdm/ZwUnloadDriver"
+ - "ZwUnloadDriver"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - ZwUnloadDriver
 - NtUnloadDriver
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

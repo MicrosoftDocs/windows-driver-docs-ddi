@@ -7,6 +7,7 @@ ms.date: 08/08/2018
 keywords: ["IModelObject::EnumerateRawReferences"]
 f1_keywords:
  - "dbgmodel/IModelObject.EnumerateRawReferences"
+ - "IModelObject.EnumerateRawReferences"
 ms.keywords: IModelObject::EnumerateRawReferences, EnumerateRawReferences, IModelObject.EnumerateRawReferences, IModelObject::EnumerateRawReferences, IModelObject.EnumerateRawReferences
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IModelObject.EnumerateRawReferences
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

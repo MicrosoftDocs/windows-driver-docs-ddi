@@ -10,6 +10,7 @@ keywords: ["CcCopyReadEx function"]
 ms.keywords: CcCopyReadEx, CcCopyReadEx routine [Installable File System Drivers], ifsk.cccopyreadex, ntifs/CcCopyReadEx
 f1_keywords:
  - "ntifs/CcCopyReadEx"
+ - "CcCopyReadEx"
 req.header: ntifs.h
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - CcCopyReadEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

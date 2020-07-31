@@ -10,6 +10,7 @@ keywords: ["IoCancelIrp function"]
 ms.keywords: IoCancelIrp, IoCancelIrp routine [Kernel-Mode Driver Architecture], k104_b43eae94-7d4e-4649-b56c-498285b5033f.xml, kernel.iocancelirp, wdm/IoCancelIrp
 f1_keywords:
  - "wdm/IoCancelIrp"
+ - "IoCancelIrp"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoCancelIrp
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

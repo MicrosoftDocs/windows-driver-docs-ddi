@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["D3DKMDT_COLORSPACE_TRANSFORM_STAGE_CONTROL enumeration"]
 f1_keywords:
  - "d3dukmdt/D3DKMDT_COLORSPACE_TRANSFORM_STAGE_CONTROL"
+ - "D3DKMDT_COLORSPACE_TRANSFORM_STAGE_CONTROL"
 ms.keywords: D3DKMDT_COLORSPACE_TRANSFORM_STAGE_CONTROL, D3DKMDT_COLORSPACE_TRANSFORM_STAGE_CONTROL, *PD3DKMDT_COLORSPACE_TRANSFORM_STAGE_CONTROL, 
 req.header: d3dukmdt.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
  - d3dukmdt.h
 api_name: 
  - D3DKMDT_COLORSPACE_TRANSFORM_STAGE_CONTROL
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

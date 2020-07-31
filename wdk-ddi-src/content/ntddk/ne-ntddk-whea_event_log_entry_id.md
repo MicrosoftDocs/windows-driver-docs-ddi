@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["WHEA_EVENT_LOG_ENTRY_ID enumeration"]
 f1_keywords:
  - "ntddk/WHEA_EVENT_LOG_ENTRY_ID"
+ - "WHEA_EVENT_LOG_ENTRY_ID"
 ms.keywords: WHEA_EVENT_LOG_ENTRY_ID, WHEA_EVENT_LOG_ENTRY_ID, *PWHEA_EVENT_LOG_ENTRY_ID, 
 req.header: ntddk.h
 req.include-header:

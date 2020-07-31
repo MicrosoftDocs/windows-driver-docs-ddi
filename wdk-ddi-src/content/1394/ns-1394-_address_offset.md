@@ -10,6 +10,7 @@ keywords: ["_ADDRESS_OFFSET structure"]
 ms.keywords: "*PADDRESS_OFFSET, 1394/ADDRESS_OFFSET, 1394/PADDRESS_OFFSET, 1394stct_7b2efd3c-fcd3-4a01-8ece-8a70975787b1.xml, ADDRESS_OFFSET, ADDRESS_OFFSET structure [Buses], IEEE.address_offset, PADDRESS_OFFSET, PADDRESS_OFFSET structure pointer [Buses], _ADDRESS_OFFSET"
 f1_keywords:
  - "1394/ADDRESS_OFFSET"
+ - "ADDRESS_OFFSET"
 req.header: 1394.h
 req.include-header: 1394.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - 1394.h
 api_name:
 - ADDRESS_OFFSET
-product:
-- Windows
 targetos: Windows
 req.typenames: ADDRESS_OFFSET, *PADDRESS_OFFSET
 ---

@@ -10,6 +10,7 @@ keywords: ["StorPortReadPortBufferUlong macro"]
 ms.keywords: StorPortReadPortBufferUlong, StorPortReadPortBufferUlong routine [Storage Devices], storage.storportreadportbufferulong, storport/StorPortReadPortBufferUlong, storprt_175251c9-5c08-4f49-9b3d-a7376c04a0a7.xml
 f1_keywords:
  - "storport/StorPortReadPortBufferUlong"
+ - "StorPortReadPortBufferUlong"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Storport.dll
 api_name:
 - StorPortReadPortBufferUlong
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

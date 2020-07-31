@@ -10,6 +10,7 @@ keywords: ["VideoPortMapDmaMemory function"]
 ms.keywords: VideoPortMapDmaMemory, VideoPortMapDmaMemory function [Display Devices], VideoPort_Functions_f2a97e55-d165-4884-a121-52e98f8f46cd.xml, display.videoportmapdmamemory, video/VideoPortMapDmaMemory
 f1_keywords:
  - "video/VideoPortMapDmaMemory"
+ - "VideoPortMapDmaMemory"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Videoprt.sys
 api_name:
 - VideoPortMapDmaMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

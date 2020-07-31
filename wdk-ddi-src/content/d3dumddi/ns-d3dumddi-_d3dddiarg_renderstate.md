@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_RENDERSTATE structure"]
 ms.keywords: D3DDDIARG_RENDERSTATE, D3DDDIARG_RENDERSTATE structure [Display Devices], UMDisplayDriver_param_Structs_4d558ee2-a265-4973-90d4-917170d01ef3.xml, _D3DDDIARG_RENDERSTATE, d3dumddi/D3DDDIARG_RENDERSTATE, display.d3dddiarg_renderstate
 f1_keywords:
  - "d3dumddi/D3DDDIARG_RENDERSTATE"
+ - "D3DDDIARG_RENDERSTATE"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDIARG_RENDERSTATE
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_RENDERSTATE
 ---

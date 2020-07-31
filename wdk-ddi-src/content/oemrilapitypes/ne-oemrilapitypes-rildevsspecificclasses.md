@@ -10,6 +10,7 @@ keywords: ["RILDEVSSPECIFICCLASSES enumeration"]
 ms.keywords: RILDEVSSPECIFICCLASSES, RILDEVSSPECIFICCLASSES enumeration [Network Drivers Starting with Windows Vista], RIL_DSCLASS_OEM_GBA, netvista.rildevsspecificclasses, oemrilapitypes/RILDEVSSPECIFICCLASSES, oemrilapitypes/RIL_DSCLASS_OEM_GBA
 f1_keywords:
  - "oemrilapitypes/RILDEVSSPECIFICCLASSES"
+ - "RILDEVSSPECIFICCLASSES"
 req.header: oemrilapitypes.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - oemrilapitypes.h
 api_name:
 - RILDEVSSPECIFICCLASSES
-product:
-- Windows
 targetos: Windows
 req.typenames: RILDEVSSPECIFICCLASSES
 ---

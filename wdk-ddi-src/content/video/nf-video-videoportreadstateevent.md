@@ -10,6 +10,7 @@ keywords: ["VideoPortReadStateEvent function"]
 ms.keywords: VideoPortReadStateEvent, VideoPortReadStateEvent function [Display Devices], VideoPort_Functions_8cd6da91-d349-4ef7-b61c-2e9a22c5f25e.xml, display.videoportreadstateevent, video/VideoPortReadStateEvent
 f1_keywords:
  - "video/VideoPortReadStateEvent"
+ - "VideoPortReadStateEvent"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Videoprt.sys
 api_name:
 - VideoPortReadStateEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

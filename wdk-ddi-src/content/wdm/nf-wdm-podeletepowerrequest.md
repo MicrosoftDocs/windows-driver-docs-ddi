@@ -10,6 +10,7 @@ keywords: ["PoDeletePowerRequest function"]
 ms.keywords: PoDeletePowerRequest, PoDeletePowerRequest routine [Kernel-Mode Driver Architecture], kernel.podeletepowerrequest, portn_a0e21464-039d-4619-b9d5-f67bf2d7273b.xml, wdm/PoDeletePowerRequest
 f1_keywords:
  - "wdm/PoDeletePowerRequest"
+ - "PoDeletePowerRequest"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - PoDeletePowerRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

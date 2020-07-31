@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DXGK_KSR_MEMORY_RANGE structure"]
 f1_keywords:
  - "d3dkmddi/DXGK_KSR_MEMORY_RANGE"
+ - "DXGK_KSR_MEMORY_RANGE"
 ms.keywords: DXGK_KSR_MEMORY_RANGE, DXGK_KSR_MEMORY_RANGE, *PDXGK_KSR_MEMORY_RANGE, 
 req.header: d3dkmddi.h
 req.include-header:
@@ -32,8 +33,6 @@ api_location:
  - d3dkmddi.h
 api_name: 
  - DXGK_KSR_MEMORY_RANGE
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

@@ -10,6 +10,7 @@ keywords: ["EVT_UCX_ROOTHUB_GET_20PORT_INFO callback function"]
 ms.keywords: EVT_UCX_ROOTHUB_GET_20PORT_INFO, EVT_UCX_ROOTHUB_GET_20PORT_INFO callback, EvtUcxRootHubGet20PortInfo, EvtUcxRootHubGet20PortInfo callback function [Buses], PEVT_UCX_ROOTHUB_GET_20PORT_INFO, PEVT_UCX_ROOTHUB_GET_20PORT_INFO callback function pointer [Buses], buses.evt_ucx_roothub_get_20port_info, ucxroothub/EvtUcxRootHubGet20PortInfo
 f1_keywords:
  - "ucxroothub/PEVT_UCX_ROOTHUB_GET_20PORT_INFO"
+ - "PEVT_UCX_ROOTHUB_GET_20PORT_INFO"
 req.header: ucxroothub.h
 req.include-header: Ucxclass.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ucxroothub.h
 api_name:
 - PEVT_UCX_ROOTHUB_GET_20PORT_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

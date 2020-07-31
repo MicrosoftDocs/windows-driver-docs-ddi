@@ -10,6 +10,7 @@ keywords: ["WdfDeviceInitRegisterPnpStateChangeCallback function"]
 ms.keywords: DFDeviceObjectGeneralRef_51127783-092b-409d-85ad-e502760b62e7.xml, WdfDeviceInitRegisterPnpStateChangeCallback, WdfDeviceInitRegisterPnpStateChangeCallback method, kmdf.wdfdeviceinitregisterpnpstatechangecallback, wdf.wdfdeviceinitregisterpnpstatechangecallback, wdfdevice/WdfDeviceInitRegisterPnpStateChangeCallback
 f1_keywords:
  - "wdfdevice/WdfDeviceInitRegisterPnpStateChangeCallback"
+ - "WdfDeviceInitRegisterPnpStateChangeCallback"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfDeviceInitRegisterPnpStateChangeCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

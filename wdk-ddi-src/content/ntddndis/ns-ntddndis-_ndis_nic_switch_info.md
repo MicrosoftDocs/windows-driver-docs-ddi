@@ -10,6 +10,7 @@ keywords: ["_NDIS_NIC_SWITCH_INFO structure"]
 ms.keywords: "*PNDIS_NIC_SWITCH_INFO, NDIS_NIC_SWITCH_INFO, NDIS_NIC_SWITCH_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_NIC_SWITCH_INFO, PNDIS_NIC_SWITCH_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NIC_SWITCH_INFO, netvista.ndis_nic_switch_info, ntddndis/NDIS_NIC_SWITCH_INFO, ntddndis/PNDIS_NIC_SWITCH_INFO"
 f1_keywords:
  - "ntddndis/NDIS_NIC_SWITCH_INFO"
+ - "NDIS_NIC_SWITCH_INFO"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddndis.h
 api_name:
 - NDIS_NIC_SWITCH_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_NIC_SWITCH_INFO, *PNDIS_NIC_SWITCH_INFO
 ---

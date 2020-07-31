@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU structure"]
 ms.keywords: D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU, D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU structure [Display Devices], _D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU, d3dkmthk/D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU, display.d3dkmt_waitforsynchronizationobjectfromgpu
 f1_keywords:
  - "d3dkmthk/D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU"
+ - "D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - D3dkmthk.h
 api_name:
 - D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU

@@ -10,6 +10,7 @@ keywords: ["UcmConnectorTypeCDetach function"]
 ms.keywords: UcmConnectorTypeCDetach, UcmConnectorTypeCDetach method [Buses], buses.ucmconnectortypecdetach, ucmmanager/UcmConnectorTypeCDetach
 f1_keywords:
  - "ucmmanager/UcmConnectorTypeCDetach"
+ - "UcmConnectorTypeCDetach"
 req.header: ucmmanager.h
 req.include-header: Ucmcx.h
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 - UcmCxstub.dll
 api_name:
 - UcmConnectorTypeCDetach
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

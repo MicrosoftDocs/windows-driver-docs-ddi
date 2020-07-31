@@ -10,6 +10,7 @@ keywords: ["ExDeleteResourceLite function"]
 ms.keywords: ExDeleteResourceLite, ExDeleteResourceLite routine [Kernel-Mode Driver Architecture], k102_92907ac3-1391-4ede-8ffa-71a211c7634e.xml, kernel.exdeleteresourcelite, wdm/ExDeleteResourceLite
 f1_keywords:
  - "wdm/ExDeleteResourceLite"
+ - "ExDeleteResourceLite"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - ExDeleteResourceLite
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

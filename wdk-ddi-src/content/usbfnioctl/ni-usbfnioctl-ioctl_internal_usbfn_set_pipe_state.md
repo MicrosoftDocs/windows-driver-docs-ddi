@@ -10,6 +10,7 @@ keywords: ["IOCTL_INTERNAL_USBFN_SET_PIPE_STATE IOCTL"]
 ms.keywords: IOCTL_INTERNAL_USBFN_SET_PIPE_STATE, IOCTL_INTERNAL_USBFN_SET_PIPE_STATE control, IOCTL_INTERNAL_USBFN_SET_PIPE_STATE control code [Buses], buses.ioctl_internal_usbfn_set_pipe_state, usbfnioctl/IOCTL_INTERNAL_USBFN_SET_PIPE_STATE
 f1_keywords:
  - "usbfnioctl/IOCTL_INTERNAL_USBFN_SET_PIPE_STATE"
+ - "IOCTL_INTERNAL_USBFN_SET_PIPE_STATE"
 req.header: usbfnioctl.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - usbfnioctl.h
 api_name:
 - IOCTL_INTERNAL_USBFN_SET_PIPE_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

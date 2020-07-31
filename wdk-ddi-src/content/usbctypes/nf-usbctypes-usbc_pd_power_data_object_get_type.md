@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["USBC_PD_POWER_DATA_OBJECT_GET_TYPE function"]
 f1_keywords:
  - "usbctypes/USBC_PD_POWER_DATA_OBJECT_GET_TYPE"
+ - "USBC_PD_POWER_DATA_OBJECT_GET_TYPE"
 ms.keywords: USBC_PD_POWER_DATA_OBJECT_GET_TYPE
 req.header: usbctypes.h
 req.include-header: usbctypes.h
@@ -33,8 +34,6 @@ api_location:
 - usbctypes.h
 api_name: 
 - USBC_PD_POWER_DATA_OBJECT_GET_TYPE
-product:
-- Windows
 targetos: Windows
 
 

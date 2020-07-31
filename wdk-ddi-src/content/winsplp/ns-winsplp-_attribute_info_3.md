@@ -10,6 +10,7 @@ keywords: ["_ATTRIBUTE_INFO_3 structure"]
 ms.keywords: "*PATTRIBUTE_INFO_3, ATTRIBUTE_INFO_3, ATTRIBUTE_INFO_3 structure [Print Devices], PATTRIBUTE_INFO_3, PATTRIBUTE_INFO_3 structure pointer [Print Devices], _ATTRIBUTE_INFO_3, print.attribute_info_3, print_interface-graphics_473dca69-31fc-410d-a9d6-cfa5241f2c5b.xml, winddiui/ATTRIBUTE_INFO_3, winddiui/PATTRIBUTE_INFO_3"
 f1_keywords:
  - "winsplp/ATTRIBUTE_INFO_3"
+ - "ATTRIBUTE_INFO_3"
 req.header: winsplp.h
 req.include-header: Winddiui.h, Winsplp.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - winddiui.h
 api_name:
 - ATTRIBUTE_INFO_3
-product:
-- Windows
 targetos: Windows
 req.typenames: ATTRIBUTE_INFO_3, *PATTRIBUTE_INFO_3
 ---

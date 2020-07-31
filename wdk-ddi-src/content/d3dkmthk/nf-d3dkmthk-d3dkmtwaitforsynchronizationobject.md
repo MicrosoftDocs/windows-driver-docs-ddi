@@ -9,6 +9,7 @@ keywords: ["D3DKMTWaitForSynchronizationObject function"]
 ms.keywords: D3DKMTWaitForSynchronizationObject, D3DKMTWaitForSynchronizationObject function [Display Devices], OpenGL_Functions_bdec46cd-1e3b-427f-8c65-df2d31171bc5.xml, d3dkmthk/D3DKMTWaitForSynchronizationObject, display.d3dkmtwaitforsynchronizationobject
 f1_keywords:
  - "d3dkmthk/D3DKMTWaitForSynchronizationObject"
+ - "D3DKMTWaitForSynchronizationObject"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -38,8 +39,6 @@ api_location:
 - API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 - D3DKMTWaitForSynchronizationObject
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

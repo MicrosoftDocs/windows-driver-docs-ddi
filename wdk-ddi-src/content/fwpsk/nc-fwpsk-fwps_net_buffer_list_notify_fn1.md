@@ -10,6 +10,7 @@ keywords: ["FWPS_NET_BUFFER_LIST_NOTIFY_FN1 callback function"]
 ms.keywords: FWPS_NET_BUFFER_LIST_NOTIFY_FN1, FWPS_NET_BUFFER_LIST_NOTIFY_FN1 callback, FwpsNetBufferListNotifyFN1, FwpsNetBufferListNotifyFN1 callback function [Network Drivers Starting with Windows Vista], fwpsk/FwpsNetBufferListNotifyFN1, netvista.fwps_net_buffer_list_notify_fn1
 f1_keywords:
  - "fwpsk/FwpsNetBufferListNotifyFN1"
+ - "FwpsNetBufferListNotifyFN1"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - fwpsk.h
 api_name:
 - FwpsNetBufferListNotifyFN1
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

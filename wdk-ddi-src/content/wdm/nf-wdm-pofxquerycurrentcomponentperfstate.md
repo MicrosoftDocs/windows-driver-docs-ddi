@@ -10,6 +10,7 @@ keywords: ["PoFxQueryCurrentComponentPerfState function"]
 ms.keywords: PoFxQueryCurrentComponentPerfState, PoFxQueryCurrentComponentPerfState routine [Kernel-Mode Driver Architecture], kernel.pofxquerycurrentcomponentperfstate, wdm/PoFxQueryCurrentComponentPerfState
 f1_keywords:
  - "wdm/PoFxQueryCurrentComponentPerfState"
+ - "PoFxQueryCurrentComponentPerfState"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Ntoskrnl.exe
 api_name:
 - PoFxQueryCurrentComponentPerfState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["_DXVADDI_QUERYEXTENSIONCAPSINPUT structure"]
 ms.keywords: DXVA2_Structs_82433e94-79b3-4398-a38e-7f7a99cc09be.xml, DXVADDI_QUERYEXTENSIONCAPSINPUT, DXVADDI_QUERYEXTENSIONCAPSINPUT structure [Display Devices], _DXVADDI_QUERYEXTENSIONCAPSINPUT, d3dumddi/DXVADDI_QUERYEXTENSIONCAPSINPUT, display.dxvaddi_queryextensioncapsinput
 f1_keywords:
  - "d3dumddi/DXVADDI_QUERYEXTENSIONCAPSINPUT"
+ - "DXVADDI_QUERYEXTENSIONCAPSINPUT"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - DXVADDI_QUERYEXTENSIONCAPSINPUT
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVADDI_QUERYEXTENSIONCAPSINPUT
 ---

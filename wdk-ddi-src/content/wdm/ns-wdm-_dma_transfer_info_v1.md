@@ -10,6 +10,7 @@ keywords: ["_DMA_TRANSFER_INFO_V1 structure"]
 ms.keywords: "*PDMA_TRANSFER_INFO_V1, DMA_ TRANSFER _INFO_V1, DMA_ TRANSFER _INFO_V1 structure [Kernel-Mode Driver Architecture], DMA_TRANSFER_INFO_V1, DMA_TRANSFER_INFO_V1 structure [Kernel-Mode Driver Architecture], PDMA_ TRANSFER _INFO_V1, PDMA_ TRANSFER _INFO_V1 structure pointer [Kernel-Mode Driver Architecture], _DMA_TRANSFER_INFO_V1, kernel.dma_transfer_info_v1, wdm/ DMA_ TRANSFER _INFO_V1, wdm/PDMA_ TRANSFER _INFO_V1"
 f1_keywords:
  - "wdm/DMA_ TRANSFER _INFO_V1"
+ - "DMA_ TRANSFER _INFO_V1"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - DMA_ TRANSFER _INFO_V1
-product:
-- Windows
 targetos: Windows
 req.typenames: DMA_TRANSFER_INFO_V1, *PDMA_TRANSFER_INFO_V1
 ---

@@ -10,6 +10,7 @@ keywords: ["tagKS_DATARANGE_VIDEO structure"]
 ms.keywords: "*PKS_DATARANGE_VIDEO, KS_DATARANGE_VIDEO, KS_DATARANGE_VIDEO structure [Streaming Media Devices], PKS_DATARANGE_VIDEO, PKS_DATARANGE_VIDEO structure pointer [Streaming Media Devices], ksmedia/KS_DATARANGE_VIDEO, ksmedia/PKS_DATARANGE_VIDEO, stream.ks_datarange_video, tagKS_DATARANGE_VIDEO, vidcapstruct_1ea64e7e-bfcd-444c-a6e9-914f20fb2172.xml"
 f1_keywords:
  - "ksmedia/KS_DATARANGE_VIDEO"
+ - "KS_DATARANGE_VIDEO"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KS_DATARANGE_VIDEO
-product:
-- Windows
 targetos: Windows
 req.typenames: KS_DATARANGE_VIDEO, *PKS_DATARANGE_VIDEO
 ---

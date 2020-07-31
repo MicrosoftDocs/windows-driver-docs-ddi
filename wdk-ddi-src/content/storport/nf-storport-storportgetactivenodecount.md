@@ -10,6 +10,7 @@ keywords: ["StorPortGetActiveNodeCount function"]
 ms.keywords: StorPortGetActiveNodeCount, StorPortGetActiveNodeCount routine [Storage Devices], storage.storportgetactivenodecount, storport/StorPortGetActiveNodeCount, storprt_311f0ad3-ee9a-47a1-9175-71fd0f01e03d.xml
 f1_keywords:
  - "storport/StorPortGetActiveNodeCount"
+ - "StorPortGetActiveNodeCount"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - storport.h
 api_name:
 - StorPortGetActiveNodeCount
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

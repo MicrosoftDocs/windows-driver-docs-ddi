@@ -10,6 +10,7 @@ keywords: ["KsInitializeDriver function"]
 ms.keywords: KsInitializeDriver, KsInitializeDriver function [Streaming Media Devices], avfunc_2a16bc8c-a92a-4792-8007-29735a19f806.xml, ks/KsInitializeDriver, stream.ksinitializedriver
 f1_keywords:
  - "ks/KsInitializeDriver"
+ - "KsInitializeDriver"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsInitializeDriver
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

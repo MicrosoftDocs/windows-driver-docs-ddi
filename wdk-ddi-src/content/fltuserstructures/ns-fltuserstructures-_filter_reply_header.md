@@ -10,6 +10,7 @@ keywords: ["_FILTER_REPLY_HEADER structure"]
 ms.keywords: "*PFILTER_REPLY_HEADER, FILTER_REPLY_HEADER, FILTER_REPLY_HEADER structure [Installable File System Drivers], FltSystemStructures_93e9fad2-e89d-40af-8614-c09a51f07e7b.xml, PFILTER_REPLY_HEADER, PFILTER_REPLY_HEADER structure pointer [Installable File System Drivers], _FILTER_REPLY_HEADER, fltuserstructures/FILTER_REPLY_HEADER, fltuserstructures/PFILTER_REPLY_HEADER, ifsk.filter_reply_header"
 f1_keywords:
  - "fltuserstructures/FILTER_REPLY_HEADER"
+ - "FILTER_REPLY_HEADER"
 req.header: fltuserstructures.h
 req.include-header: FltUser.h, Fltkernel.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - fltuserstructures.h
 api_name:
 - FILTER_REPLY_HEADER
-product:
-- Windows
 targetos: Windows
 req.typenames: FILTER_REPLY_HEADER, *PFILTER_REPLY_HEADER
 ---
@@ -84,7 +83,7 @@ This structure is allocated by a user-mode application. It is a container for a 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterreplymessage">FilterReplyMessage</a>
+<a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filterreplymessage">FilterReplyMessage</a>
  
 
  

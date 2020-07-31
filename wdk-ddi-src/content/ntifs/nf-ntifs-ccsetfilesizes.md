@@ -10,6 +10,7 @@ keywords: ["CcSetFileSizes function"]
 ms.keywords: CcSetFileSizes, CcSetFileSizes routine [Installable File System Drivers], ccref_2d554d89-6378-4a7c-8984-cb54b9e9e01c.xml, ifsk.ccsetfilesizes, ntifs/CcSetFileSizes
 f1_keywords:
  - "ntifs/CcSetFileSizes"
+ - "CcSetFileSizes"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - CcSetFileSizes
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["KsGetNodeIdFromIrp function"]
 ms.keywords: KsGetNodeIdFromIrp, KsGetNodeIdFromIrp function [Streaming Media Devices], avfunc_dbc2812f-8011-40e6-8847-f7c3fc35b4b5.xml, ks/KsGetNodeIdFromIrp, stream.ksgetnodeidfromirp
 f1_keywords:
  - "ks/KsGetNodeIdFromIrp"
+ - "KsGetNodeIdFromIrp"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsGetNodeIdFromIrp
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

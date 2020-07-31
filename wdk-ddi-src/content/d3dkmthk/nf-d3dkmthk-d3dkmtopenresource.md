@@ -9,6 +9,7 @@ keywords: ["D3DKMTOpenResource function"]
 ms.keywords: D3DKMTOpenResource, D3DKMTOpenResource function [Display Devices], OpenGL_Functions_ba035fe1-7970-45fc-a1c3-adddf285abd1.xml, d3dkmthk/D3DKMTOpenResource, display.d3dkmtopenresource
 f1_keywords:
  - "d3dkmthk/D3DKMTOpenResource"
+ - "D3DKMTOpenResource"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -38,8 +39,6 @@ api_location:
 - API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 - D3DKMTOpenResource
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

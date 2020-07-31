@@ -10,6 +10,7 @@ keywords: ["VideoPortSetBytesUsed function"]
 ms.keywords: VideoPortSetBytesUsed, VideoPortSetBytesUsed function [Display Devices], VideoPort_Functions_5a8a1a59-b9a8-4b5b-b6d8-7139ddb9b474.xml, display.videoportsetbytesused, video/VideoPortSetBytesUsed
 f1_keywords:
  - "video/VideoPortSetBytesUsed"
+ - "VideoPortSetBytesUsed"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Videoprt.sys
 api_name:
 - VideoPortSetBytesUsed
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

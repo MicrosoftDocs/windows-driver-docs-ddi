@@ -10,6 +10,7 @@ keywords: ["IFixedPage interface"]
 ms.keywords: IFixedPage, IFixedPage interface [Print Devices], IFixedPage interface [Print Devices],described, filterpipeline/IFixedPage, filterpipeline_4070fd54-c1df-432a-b586-a93854bf7aee.xml, print.ifixedpage
 f1_keywords:
  - "filterpipeline/IFixedPage"
+ - "IFixedPage"
 req.header: filterpipeline.h
 req.include-header: Filterpipeline.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - filterpipeline.h
 api_name:
 - IFixedPage
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

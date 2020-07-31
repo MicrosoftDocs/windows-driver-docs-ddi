@@ -10,6 +10,7 @@ keywords: ["RILPOSITIONINFOTDSCDMA structure"]
 ms.keywords: "*LPRILPOSITIONINFOTDSCDMA, RILPOSITIONINFOTDSCDMA, RILPOSITIONINFOTDSCDMA structure [Network Drivers Starting with Windows Vista], netvista.rilpositioninfotdscdma_2, rilapitypes/RILPOSITIONINFOTDSCDMA"
 f1_keywords:
  - "rilapitypes/RILPOSITIONINFOTDSCDMA"
+ - "RILPOSITIONINFOTDSCDMA"
 req.header: rilapitypes.h
 req.include-header:
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapitypes.h
 api_name:
 - RILPOSITIONINFOTDSCDMA
-product:
-- Windows
 targetos: Windows
 req.typenames: RILPOSITIONINFOTDSCDMA, *LPRILPOSITIONINFOTDSCDMA
 req.product: Windows 10 or later.

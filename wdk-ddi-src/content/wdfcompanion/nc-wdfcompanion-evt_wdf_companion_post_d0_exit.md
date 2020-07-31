@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_COMPANION_POST_D0_EXIT callback function"]
 ms.keywords: EVT_WDF_COMPANION_POST_D0_EXIT, EVT_WDF_COMPANION_POST_D0_EXIT callback, EVT_WDF_COMPANION_POST_D0_EXIT callback function, wdf.evt_wdf_companion_post_d0_exit, wdfcompanion/EVT_WDF_COMPANION_POST_D0_EXIT
 f1_keywords:
  - "wdfcompanion/EVT_WDF_COMPANION_POST_D0_EXIT"
+ - "EVT_WDF_COMPANION_POST_D0_EXIT"
 req.header: wdfcompanion.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wdfcompanion.h
 api_name:
 - EVT_WDF_COMPANION_POST_D0_EXIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

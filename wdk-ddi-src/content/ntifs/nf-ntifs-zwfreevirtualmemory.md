@@ -10,6 +10,7 @@ keywords: ["ZwFreeVirtualMemory function"]
 ms.keywords: NtFreeVirtualMemory, ZwFreeVirtualMemory, ZwFreeVirtualMemory routine [Kernel-Mode Driver Architecture], k111_c7ea9516-a020-4840-aa18-7f98470cc142.xml, kernel.zwfreevirtualmemory, ntifs/NtFreeVirtualMemory, ntifs/ZwFreeVirtualMemory
 f1_keywords:
  - "ntifs/ZwFreeVirtualMemory"
+ - "ZwFreeVirtualMemory"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - ZwFreeVirtualMemory
 - NtFreeVirtualMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IPortableDeviceValuesCollection::Clear"]
 ms.keywords: Clear, Clear method, Clear method,IPortableDeviceValuesCollection interface, IPortableDeviceValuesCollection interface,Clear method, IPortableDeviceValuesCollection.Clear, IPortableDeviceValuesCollection::Clear, IPortableDeviceValuesCollectionClear, portabledevicetypes/IPortableDeviceValuesCollection::Clear, wpddk.iportabledevicevaluescollection_clear
 f1_keywords:
  - "portabledevicetypes/IPortableDeviceValuesCollection.Clear"
+ - "IPortableDeviceValuesCollection.Clear"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - PortableDeviceTypes.h
 api_name:
 - IPortableDeviceValuesCollection.Clear
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

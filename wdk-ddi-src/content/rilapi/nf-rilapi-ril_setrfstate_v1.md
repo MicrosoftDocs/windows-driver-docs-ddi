@@ -10,6 +10,7 @@ keywords: ["RIL_SetRFState_V1 function"]
 ms.keywords: RIL_SetRFState_V1, RIL_SetRFState_V1 method [Network Drivers Starting with Windows Vista], netvista.ril_setrfstate_v1, rilapi/RIL_SetRFState_V1
 f1_keywords:
  - "rilapi/RIL_SetRFState_V1"
+ - "RIL_SetRFState_V1"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_SetRFState_V1
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

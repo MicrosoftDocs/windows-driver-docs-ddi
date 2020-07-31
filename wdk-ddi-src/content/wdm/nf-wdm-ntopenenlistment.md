@@ -10,6 +10,7 @@ keywords: ["NtOpenEnlistment function"]
 ms.keywords: NtOpenEnlistment, ZwOpenEnlistment, ZwOpenEnlistment routine [Kernel-Mode Driver Architecture], kernel.zwopenenlistment, ktm_ref_cc7719f5-a9a2-42be-9961-01f910f864bc.xml, wdm/NtOpenEnlistment, wdm/ZwOpenEnlistment
 f1_keywords:
  - "wdm/ZwOpenEnlistment"
+ - "ZwOpenEnlistment"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntifs.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - ZwOpenEnlistment
 - NtOpenEnlistment
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

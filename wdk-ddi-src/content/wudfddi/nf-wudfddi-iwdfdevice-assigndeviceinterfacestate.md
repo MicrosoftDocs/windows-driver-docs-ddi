@@ -10,6 +10,7 @@ keywords: ["IWDFDevice::AssignDeviceInterfaceState"]
 ms.keywords: AssignDeviceInterfaceState, AssignDeviceInterfaceState method, AssignDeviceInterfaceState method,IWDFDevice interface, IWDFDevice interface,AssignDeviceInterfaceState method, IWDFDevice.AssignDeviceInterfaceState, IWDFDevice::AssignDeviceInterfaceState, UMDFDeviceObjectRef_d3c15e61-9df6-4b55-a479-375486383064.xml, umdf.iwdfdevice_assigndeviceinterfacestate, wdf.iwdfdevice_assigndeviceinterfacestate, wudfddi/IWDFDevice::AssignDeviceInterfaceState
 f1_keywords:
  - "wudfddi/IWDFDevice.AssignDeviceInterfaceState"
+ - "IWDFDevice.AssignDeviceInterfaceState"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFDevice.AssignDeviceInterfaceState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

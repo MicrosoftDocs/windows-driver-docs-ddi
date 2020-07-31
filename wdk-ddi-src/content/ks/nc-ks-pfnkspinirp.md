@@ -10,6 +10,7 @@ keywords: ["PFNKSPINIRP callback function"]
 ms.keywords: AVStrMiniPinCreate, AVStrMiniPinCreate routine [Streaming Media Devices], PFNKSPINIRP, avstclbk_0feeeb85-88fe-43d7-83e4-399b0c26aa53.xml, ks/AVStrMiniPinCreate, stream.avstrminipincreate
 f1_keywords:
  - "ks/AVStrMiniPinCreate"
+ - "AVStrMiniPinCreate"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - AVStrMiniPinCreate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

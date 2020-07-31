@@ -10,6 +10,7 @@ keywords: ["IoRegisterBootDriverCallback function"]
 ms.keywords: IoRegisterBootDriverCallback, IoRegisterBootDriverCallback routine [Kernel-Mode Driver Architecture], kernel.ioregisterbootdrivercallback, ntddk/IoRegisterBootDriverCallback
 f1_keywords:
  - "ntddk/IoRegisterBootDriverCallback"
+ - "IoRegisterBootDriverCallback"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoRegisterBootDriverCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["RtlGetElementGenericTableAvl function"]
 ms.keywords: RtlGetElementGenericTableAvl, RtlGetElementGenericTableAvl routine [Installable File System Drivers], ifsk.rtlgetelementgenerictableavl, ntddk/RtlGetElementGenericTableAvl, rtlref_c94e774b-baba-4be7-be6d-09b01544612b.xml
 f1_keywords:
  - "ntddk/RtlGetElementGenericTableAvl"
+ - "RtlGetElementGenericTableAvl"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlGetElementGenericTableAvl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

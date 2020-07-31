@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["UsbPm_Deregister function"]
 f1_keywords:
  - "usbpmapi/UsbPm_Deregister"
+ - "UsbPm_Deregister"
 ms.keywords: UsbPm_Deregister
 tech.root: usbref
 req.header: usbpmapi.h
@@ -34,8 +35,6 @@ api_location:
 - UsbPmApi.lib
 api_name: 
 - UsbPm_Deregister
-product:
-- Windows
 targetos: Windows
 
 

@@ -10,6 +10,7 @@ keywords: ["EVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE callback function"]
 ms.keywords: EVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE, EVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE callback, EvtUcxEndpointStaticStreamsDisable, EvtUcxEndpointStaticStreamsDisable callback function [Buses], PEVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE, PEVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE callback function pointer [Buses], buses.evt_ucx_endpoint_static_streams_disable, ucxendpoint/EvtUcxEndpointStaticStreamsDisable
 f1_keywords:
  - "ucxendpoint/PEVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE"
+ - "PEVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE"
 req.header: ucxendpoint.h
 req.include-header: Ucxclass.h, Ucxendpoint.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ucxendpoint.h
 api_name:
 - PEVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

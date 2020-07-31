@@ -9,6 +9,7 @@ keywords: ["D3D10_DDI_QUERY_DATA_TIMESTAMP_DISJOINT structure"]
 ms.keywords: D3D10_DDI_QUERY_DATA_TIMESTAMP_DISJOINT, D3D10_DDI_QUERY_DATA_TIMESTAMP_DISJOINT structure [Display Devices], UMDisplayDriver_Dx10param_Structs_1dbd9e05-9c61-4753-902c-245471e71e36.xml, d3d10umddi/D3D10_DDI_QUERY_DATA_TIMESTAMP_DISJOINT, display.d3d10_ddi_query_data_timestamp_disjoint
 f1_keywords:
  - "d3d10umddi/D3D10_DDI_QUERY_DATA_TIMESTAMP_DISJOINT"
+ - "D3D10_DDI_QUERY_DATA_TIMESTAMP_DISJOINT"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - D3D10_DDI_QUERY_DATA_TIMESTAMP_DISJOINT
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D10_DDI_QUERY_DATA_TIMESTAMP_DISJOINT

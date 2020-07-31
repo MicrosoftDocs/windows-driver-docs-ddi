@@ -10,6 +10,7 @@ keywords: ["NdisInitiateOffload function"]
 ms.keywords: NdisInitiateOffload, NdisInitiateOffload function [Network Drivers Starting with Windows Vista], ndischimney/NdisInitiateOffload, netvista.ndisinitiateoffload, tcp_chim_ndis_func_c93e8055-91b1-42d4-a227-6b21086c6e7b.xml
 f1_keywords:
  - "ndischimney/NdisInitiateOffload"
+ - "NdisInitiateOffload"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisInitiateOffload
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

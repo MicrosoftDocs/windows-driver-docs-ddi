@@ -10,6 +10,7 @@ keywords: ["FltWriteFile function"]
 ms.keywords: FltApiRef_p_to_z_8d4d2b16-fa86-4084-8dad-879d4908f2fe.xml, FltWriteFile, FltWriteFile function [Installable File System Drivers], fltkernel/FltWriteFile, ifsk.fltwritefile
 f1_keywords:
  - "fltkernel/FltWriteFile"
+ - "FltWriteFile"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltWriteFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

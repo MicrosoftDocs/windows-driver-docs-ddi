@@ -10,6 +10,7 @@ keywords: ["_MPIO_PATH_HEALTH_CLASS structure"]
 ms.keywords: "*PMPIO_PATH_HEALTH_CLASS, MPIO_PATH_HEALTH_CLASS, MPIO_PATH_HEALTH_CLASS structure [Storage Devices], PMPIO_PATH_HEALTH_CLASS, PMPIO_PATH_HEALTH_CLASS structure pointer [Storage Devices], _MPIO_PATH_HEALTH_CLASS, mpiowmi/MPIO_PATH_HEALTH_CLASS, mpiowmi/PMPIO_PATH_HEALTH_CLASS, storage.mpio_path_health_class, structs-scsibus_ffbf044f-24cd-4e04-8a26-bfa5f2542189.xml"
 f1_keywords:
  - "mpiowmi/MPIO_PATH_HEALTH_CLASS"
+ - "MPIO_PATH_HEALTH_CLASS"
 req.header: mpiowmi.h
 req.include-header: Mpiowmi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - mpiowmi.h
 api_name:
 - MPIO_PATH_HEALTH_CLASS
-product:
-- Windows
 targetos: Windows
 req.typenames: MPIO_PATH_HEALTH_CLASS, *PMPIO_PATH_HEALTH_CLASS
 ---

@@ -26,7 +26,8 @@ api_location:
 api_name:
  - POOL_EXTENDED_PARAMETER_TYPE
 f1_keywords:
- - wdm/POOL_EXTENDED_PARAMETER_TYPE
+ - wdm//POOL_EXTENDED_PARAMETER_TYPE
+ - POOL_EXTENDED_PARAMETER_TYPE
 dev_langs:
  - c++
 ---

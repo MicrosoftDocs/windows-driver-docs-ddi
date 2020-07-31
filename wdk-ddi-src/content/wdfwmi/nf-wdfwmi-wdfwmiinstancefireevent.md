@@ -10,6 +10,7 @@ keywords: ["WdfWmiInstanceFireEvent function"]
 ms.keywords: DFWMIRef_1062330c-9a9b-4bd3-a039-e1373c07ceee.xml, WdfWmiInstanceFireEvent, WdfWmiInstanceFireEvent method, kmdf.wdfwmiinstancefireevent, wdf.wdfwmiinstancefireevent, wdfwmi/WdfWmiInstanceFireEvent
 f1_keywords:
  - "wdfwmi/WdfWmiInstanceFireEvent"
+ - "WdfWmiInstanceFireEvent"
 req.header: wdfwmi.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfWmiInstanceFireEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

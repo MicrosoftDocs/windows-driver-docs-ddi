@@ -10,6 +10,7 @@ keywords: ["KsDeleteFilterFactory macro"]
 ms.keywords: KsDeleteFilterFactory, KsDeleteFilterFactory function [Streaming Media Devices], avfunc_60aeaa09-5563-47ea-a117-4b65a468b058.xml, ks/KsDeleteFilterFactory, stream.ksdeletefilterfactory
 f1_keywords:
  - "ks/KsDeleteFilterFactory"
+ - "KsDeleteFilterFactory"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Ks.h
 api_name:
 - KsDeleteFilterFactory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

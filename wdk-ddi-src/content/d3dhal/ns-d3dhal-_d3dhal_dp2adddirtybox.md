@@ -10,6 +10,7 @@ keywords: ["_D3DHAL_DP2ADDDIRTYBOX structure"]
 ms.keywords: "*LPD3DHAL_DP2ADDDIRTYBOX, D3DHAL_DP2ADDDIRTYBOX, D3DHAL_DP2ADDDIRTYBOX structure [Display Devices], LPD3DHAL_DP2ADDDIRTYBOX, LPD3DHAL_DP2ADDDIRTYBOX structure pointer [Display Devices], _D3DHAL_DP2ADDDIRTYBOX, d3dhal/D3DHAL_DP2ADDDIRTYBOX, d3dhal/LPD3DHAL_DP2ADDDIRTYBOX, d3dstrct_ae7da3ce-63e0-4854-ad22-12b2669baba2.xml, display.d3dhal_dp2adddirtybox"
 f1_keywords:
  - "d3dhal/D3DHAL_DP2ADDDIRTYBOX"
+ - "D3DHAL_DP2ADDDIRTYBOX"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dhal.h
 api_name:
 - D3DHAL_DP2ADDDIRTYBOX
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DHAL_DP2ADDDIRTYBOX
 ---

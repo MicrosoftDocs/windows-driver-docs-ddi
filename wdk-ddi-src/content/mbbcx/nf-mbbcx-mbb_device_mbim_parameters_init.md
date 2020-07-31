@@ -8,6 +8,7 @@ ms.date: 02/06/2019
 keywords: ["MBB_DEVICE_MBIM_PARAMETERS_INIT function"]
 f1_keywords:
  - "mbbcx/-	MBB_DEVICE_MBIM_PARAMETERS_INIT"
+ - "-	MBB_DEVICE_MBIM_PARAMETERS_INIT"
 ms.keywords: MBB_DEVICE_MBIM_PARAMETERS_INIT
 req.header: mbbcx.h
 req.include-header:
@@ -34,8 +35,6 @@ api_location:
 - mbbcxstub.lib
 api_name: 
 - MBB_DEVICE_MBIM_PARAMETERS_INIT
-product:
-- Windows
 targetos: Windows
 ms.custom: 19H1
 ---

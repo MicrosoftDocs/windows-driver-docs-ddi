@@ -10,6 +10,7 @@ keywords: ["imp_WppRecorderGetCounterHandle function"]
 ms.keywords: WppRecorderGetCounterHandle, devtest.wpprecordergetcounterhandle, imp_WppRecorderGetCounterHandle, imp_WppRecorderGetCounterHandle function [Driver Development Tools], wpprecorder/imp_WppRecorderGetCounterHandle
 f1_keywords:
  - "wpprecorder/imp_WppRecorderGetCounterHandle"
+ - "imp_WppRecorderGetCounterHandle"
 req.header: wpprecorder.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wpprecorder.h
 api_name:
 - imp_WppRecorderGetCounterHandle
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

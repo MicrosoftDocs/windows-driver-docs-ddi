@@ -10,6 +10,7 @@ keywords: ["IPrintCorePS2::DrvWriteSpoolBuf"]
 ms.keywords: DrvWriteSpoolBuf, DrvWriteSpoolBuf method [Print Devices], DrvWriteSpoolBuf method [Print Devices],IPrintCorePS2 interface, IPrintCorePS2 interface [Print Devices],DrvWriteSpoolBuf method, IPrintCorePS2.DrvWriteSpoolBuf, IPrintCorePS2::DrvWriteSpoolBuf, prcomoem/IPrintCorePS2::DrvWriteSpoolBuf, print.iprintcoreps2_drvwritespoolbuf, print_unidrv-pscript_rendering_56d81faa-5b82-4d07-beb1-9a8a82fc7409.xml
 f1_keywords:
  - "prcomoem/IPrintCorePS2.DrvWriteSpoolBuf"
+ - "IPrintCorePS2.DrvWriteSpoolBuf"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - prcomoem.h
 api_name:
 - IPrintCorePS2.DrvWriteSpoolBuf
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

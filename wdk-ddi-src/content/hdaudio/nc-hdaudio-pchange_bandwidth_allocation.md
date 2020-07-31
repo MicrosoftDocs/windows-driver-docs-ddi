@@ -10,6 +10,7 @@ keywords: ["PCHANGE_BANDWIDTH_ALLOCATION callback function"]
 ms.keywords: ChangeBandwidthAllocation, ChangeBandwidthAllocation callback function [Audio Devices], PCHANGE_BANDWIDTH_ALLOCATION, PCHANGE_BANDWIDTH_ALLOCATION callback, aud-prop2_3d85fecb-4617-404b-951b-7457f9e650cc.xml, audio.changebandwidthallocation, hdaudio/ChangeBandwidthAllocation
 f1_keywords:
  - "hdaudio/ChangeBandwidthAllocation"
+ - "ChangeBandwidthAllocation"
 req.header: hdaudio.h
 req.include-header: Hdaudio.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - hdaudio.h
 api_name:
 - ChangeBandwidthAllocation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

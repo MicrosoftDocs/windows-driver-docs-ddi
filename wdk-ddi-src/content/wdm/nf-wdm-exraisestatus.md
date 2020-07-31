@@ -10,6 +10,7 @@ keywords: ["ExRaiseStatus function"]
 ms.keywords: ExRaiseStatus, ExRaiseStatus routine [Kernel-Mode Driver Architecture], k102_b188a166-f1f1-49bd-8195-aa72f86ca177.xml, kernel.exraisestatus, wdm/ExRaiseStatus
 f1_keywords:
  - "wdm/ExRaiseStatus"
+ - "ExRaiseStatus"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - ExRaiseStatus
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IKsPin interface"]
 ms.keywords: IKsPin, IKsPin interface [Streaming Media Devices], IKsPin interface [Streaming Media Devices],described, ksproxy/IKsPin, ksproxy_9a020f8a-1271-47ea-816f-1132e44b6f45.xml, stream.ikspin
 f1_keywords:
  - "ksproxy/IKsPin"
+ - "IKsPin"
 req.header: ksproxy.h
 req.include-header: 
 req.target-type: Windows
@@ -39,8 +40,6 @@ api_name:
 - IKsPin.KsReceiveAllocator
 - IKsPin.KsRenegotiateAllocator
 - IKsPin.KsQualityNotify
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -58,7 +57,7 @@ The IID for this interface is IID_IKsPin.
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IKsPin</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsPin</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IKsPin</b> interface inherits from the <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsPin</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

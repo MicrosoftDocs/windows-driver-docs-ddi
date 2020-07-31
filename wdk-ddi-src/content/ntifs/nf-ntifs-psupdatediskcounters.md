@@ -10,6 +10,7 @@ keywords: ["PsUpdateDiskCounters function"]
 ms.keywords: PsUpdateDiskCounters, PsUpdateDiskCounters routine [Installable File System Drivers], ifsk.psupdatediskcounters, ntifs/PsUpdateDiskCounters
 f1_keywords:
  - "ntifs/PsUpdateDiskCounters"
+ - "PsUpdateDiskCounters"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - PsUpdateDiskCounters
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

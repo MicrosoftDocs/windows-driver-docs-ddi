@@ -10,6 +10,7 @@ keywords: ["KsNullDriverUnload function"]
 ms.keywords: KsNullDriverUnload, KsNullDriverUnload function [Streaming Media Devices], ks/KsNullDriverUnload, ksfunc_449d73af-488d-4c4b-b5cb-f706fd48beab.xml, stream.ksnulldriverunload
 f1_keywords:
  - "ks/KsNullDriverUnload"
+ - "KsNullDriverUnload"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsNullDriverUnload
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

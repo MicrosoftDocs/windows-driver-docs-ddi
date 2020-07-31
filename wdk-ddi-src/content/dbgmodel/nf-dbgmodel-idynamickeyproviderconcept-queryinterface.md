@@ -7,6 +7,7 @@ ms.date: 09/19/2018
 keywords: ["IDynamicKeyProviderConcept::QueryInterface"]
 f1_keywords:
  - "dbgmodel/IDynamicKeyProviderConcept.QueryInterface"
+ - "IDynamicKeyProviderConcept.QueryInterface"
 ms.keywords: IDynamicKeyProviderConcept::QueryInterface, QueryInterface, IDynamicKeyProviderConcept.QueryInterface, IDynamicKeyProviderConcept::QueryInterface, IDynamicKeyProviderConcept.QueryInterface
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDynamicKeyProviderConcept.QueryInterface
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

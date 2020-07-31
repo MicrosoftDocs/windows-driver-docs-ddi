@@ -7,6 +7,7 @@ ms.date: 09/18/2018
 keywords: ["IDebugHostPublic::GetLocationKind"]
 f1_keywords:
  - "dbgmodel/IDebugHostPublic.GetLocationKind"
+ - "IDebugHostPublic.GetLocationKind"
 ms.keywords: IDebugHostPublic::GetLocationKind, GetLocationKind, IDebugHostPublic.GetLocationKind, IDebugHostPublic::GetLocationKind, IDebugHostPublic.GetLocationKind
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostPublic.GetLocationKind
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

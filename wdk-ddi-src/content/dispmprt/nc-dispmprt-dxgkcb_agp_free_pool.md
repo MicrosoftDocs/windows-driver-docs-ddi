@@ -10,6 +10,7 @@ keywords: ["DXGKCB_AGP_FREE_POOL callback function"]
 ms.keywords: AgpFreePool, AgpFreePool callback function [Display Devices], DXGKCB_AGP_FREE_POOL, DXGKCB_AGP_FREE_POOL callback, DpFunctions_ffe16de5-aa04-4f4b-bae5-de5b25682f65.xml, display.agpfreepool, dispmprt/AgpFreePool
 f1_keywords:
  - "dispmprt/AgpFreePool"
+ - "AgpFreePool"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dispmprt.h
 api_name:
 - AgpFreePool
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["FltFreeDeferredIoWorkItem function"]
 ms.keywords: FltApiRef_e_to_o_677ca3fc-8c9e-4e3e-8ed4-00a25779913d.xml, FltFreeDeferredIoWorkItem, FltFreeDeferredIoWorkItem routine [Installable File System Drivers], fltkernel/FltFreeDeferredIoWorkItem, ifsk.fltfreedeferredioworkitem
 f1_keywords:
  - "fltkernel/FltFreeDeferredIoWorkItem"
+ - "FltFreeDeferredIoWorkItem"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - FltMgr.dll
 api_name:
 - FltFreeDeferredIoWorkItem
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

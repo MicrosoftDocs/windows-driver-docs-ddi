@@ -10,6 +10,7 @@ keywords: ["IOCTL_WRITE_REGISTERS IOCTL"]
 ms.keywords: IOCTL_WRITE_REGISTERS, IOCTL_WRITE_REGISTERS control, IOCTL_WRITE_REGISTERS control code [Imaging Devices], image.ioctl_write_registers, stifnc_e994c3b6-35b9-4b5f-aaba-72fedeb9e08f.xml, usbscan/IOCTL_WRITE_REGISTERS
 f1_keywords:
  - "usbscan/IOCTL_WRITE_REGISTERS"
+ - "IOCTL_WRITE_REGISTERS"
 req.header: usbscan.h
 req.include-header: Usbscan.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Usbscan.h
 api_name:
 - IOCTL_WRITE_REGISTERS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

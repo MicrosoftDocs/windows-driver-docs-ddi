@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["DXGKDDI_SUSPENDCONTEXT callback function"]
 f1_keywords:
  - "d3dkmddi/DXGKDDI_SUSPENDCONTEXT"
+ - "DXGKDDI_SUSPENDCONTEXT"
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type:
@@ -32,8 +33,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGKDDI_SUSPENDCONTEXT
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

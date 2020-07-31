@@ -10,6 +10,7 @@ keywords: ["_VOLUME_LOGICAL_OFFSET structure"]
 ms.keywords: "*PVOLUME_LOGICAL_OFFSET, PVOLUME_LOGICAL_OFFSET, PVOLUME_LOGICAL_OFFSET structure pointer [Storage Devices], VOLUME_LOGICAL_OFFSET, VOLUME_LOGICAL_OFFSET structure [Storage Devices], _VOLUME_LOGICAL_OFFSET, ntddvol/PVOLUME_LOGICAL_OFFSET, ntddvol/VOLUME_LOGICAL_OFFSET, storage.volume_logical_offset, structs-volumemgr_97756e49-7151-4d3a-abbe-aa90a472c284.xml"
 f1_keywords:
  - "ntddvol/VOLUME_LOGICAL_OFFSET"
+ - "VOLUME_LOGICAL_OFFSET"
 req.header: ntddvol.h
 req.include-header: Ntddvol.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddvol.h
 api_name:
 - VOLUME_LOGICAL_OFFSET
-product:
-- Windows
 targetos: Windows
 req.typenames: VOLUME_LOGICAL_OFFSET, *PVOLUME_LOGICAL_OFFSET
 ---

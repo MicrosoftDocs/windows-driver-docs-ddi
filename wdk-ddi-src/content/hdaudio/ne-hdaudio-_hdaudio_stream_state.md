@@ -10,6 +10,7 @@ keywords: ["_HDAUDIO_STREAM_STATE enumeration"]
 ms.keywords: "*PHDAUDIO_STREAM_STATE, HDAUDIO_STREAM_STATE, HDAUDIO_STREAM_STATE enumeration [Audio Devices], PHDAUDIO_STREAM_STATE, PHDAUDIO_STREAM_STATE enumeration pointer [Audio Devices], PauseState, ResetState, RunState, StopState, _HDAUDIO_STREAM_STATE, audio.hdaudio_stream_state, hdaudio/HDAUDIO_STREAM_STATE, hdaudio/PHDAUDIO_STREAM_STATE, hdaudio/PauseState, hdaudio/ResetState, hdaudio/RunState, hdaudio/StopState"
 f1_keywords:
  - "hdaudio/HDAUDIO_STREAM_STATE"
+ - "HDAUDIO_STREAM_STATE"
 req.header: hdaudio.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Hdaudio.h
 api_name:
 - HDAUDIO_STREAM_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: HDAUDIO_STREAM_STATE, *PHDAUDIO_STREAM_STATE
 ---

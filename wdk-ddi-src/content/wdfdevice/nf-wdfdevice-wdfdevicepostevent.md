@@ -10,6 +10,7 @@ keywords: ["WdfDevicePostEvent function"]
 ms.keywords: WdfDevicePostEvent, WdfDevicePostEvent function, wdf.wdfdevicepostevent, wdfdevice/WdfDevicePostEvent
 f1_keywords:
  - "wdfdevice/WdfDevicePostEvent"
+ - "WdfDevicePostEvent"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - WUDFx02000.dll
 api_name:
 - WdfDevicePostEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

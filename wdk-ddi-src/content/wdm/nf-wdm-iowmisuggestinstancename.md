@@ -10,6 +10,7 @@ keywords: ["IoWMISuggestInstanceName function"]
 ms.keywords: IoWMISuggestInstanceName, IoWMISuggestInstanceName routine [Kernel-Mode Driver Architecture], k104_dc84cc9c-d6ca-40d2-93af-f54a149be7d1.xml, kernel.iowmisuggestinstancename, wdm/IoWMISuggestInstanceName
 f1_keywords:
  - "wdm/IoWMISuggestInstanceName"
+ - "IoWMISuggestInstanceName"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoWMISuggestInstanceName
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IPortableDeviceValues::SetIPortableDeviceValuesValue"]
 ms.keywords: IPortableDeviceValues interface,SetIPortableDeviceValuesValue method, IPortableDeviceValues.SetIPortableDeviceValuesValue, IPortableDeviceValues::SetIPortableDeviceValuesValue, IPortableDeviceValuesSetIPortableDeviceValuesValue, SetIPortableDeviceValuesValue, SetIPortableDeviceValuesValue method, SetIPortableDeviceValuesValue method,IPortableDeviceValues interface, portabledevicetypes/IPortableDeviceValues::SetIPortableDeviceValuesValue, wpddk.iportabledevicevalues_setiportabledevicevaluesvalue
 f1_keywords:
  - "portabledevicetypes/IPortableDeviceValues.SetIPortableDeviceValuesValue"
+ - "IPortableDeviceValues.SetIPortableDeviceValuesValue"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - PortableDeviceTypes.h
 api_name:
 - IPortableDeviceValues.SetIPortableDeviceValuesValue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

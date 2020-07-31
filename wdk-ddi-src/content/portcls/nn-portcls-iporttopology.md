@@ -10,6 +10,7 @@ keywords: ["IPortTopology interface"]
 ms.keywords: IPortTopology, IPortTopology interface [Audio Devices], IPortTopology interface [Audio Devices], described, audio.iporttopology, audmp-routines_88974b5c-4520-41ed-b0c7-75cceff72e0f.xml, portcls/IPortTopology
 f1_keywords:
  - "portcls/IPortTopology"
+ - "IPortTopology"
 req.header: portcls.h
 req.include-header:
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IPortTopology
-product:
-- Windows
 targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---

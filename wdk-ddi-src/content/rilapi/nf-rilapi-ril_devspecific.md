@@ -10,6 +10,7 @@ keywords: ["RIL_DevSpecific function"]
 ms.keywords: RIL_DevSpecific, RIL_DevSpecific method [Network Drivers Starting with Windows Vista], netvista.ril_devspecific, rilapi/RIL_DevSpecific
 f1_keywords:
  - "rilapi/RIL_DevSpecific"
+ - "RIL_DevSpecific"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_DevSpecific
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

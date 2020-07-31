@@ -10,6 +10,7 @@ keywords: ["KsSetPowerDispatch function"]
 ms.keywords: KsSetPowerDispatch, KsSetPowerDispatch routine [Streaming Media Devices], ks/KsSetPowerDispatch, ksfunc_b561e4ba-dadd-4e9c-a8e3-1d9b182cdd4f.xml, stream.kssetpowerdispatch
 f1_keywords:
  - "ks/KsSetPowerDispatch"
+ - "KsSetPowerDispatch"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsSetPowerDispatch
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

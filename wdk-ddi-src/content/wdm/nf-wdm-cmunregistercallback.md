@@ -10,6 +10,7 @@ keywords: ["CmUnRegisterCallback function"]
 ms.keywords: CmUnRegisterCallback, CmUnRegisterCallback routine [Kernel-Mode Driver Architecture], ConfigMgrRef_13cbc14e-4652-4a3d-a87e-f6eef883f912.xml, kernel.cmunregistercallback, wdm/CmUnRegisterCallback
 f1_keywords:
  - "wdm/CmUnRegisterCallback"
+ - "CmUnRegisterCallback"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - CmUnRegisterCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

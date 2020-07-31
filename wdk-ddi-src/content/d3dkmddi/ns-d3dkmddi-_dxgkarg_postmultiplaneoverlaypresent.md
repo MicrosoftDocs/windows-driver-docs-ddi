@@ -10,6 +10,7 @@ keywords: ["_DXGKARG_POSTMULTIPLANEOVERLAYPRESENT structure"]
 ms.keywords: DXGKARG_POSTMULTIPLANEOVERLAYPRESENT, DXGKARG_POSTMULTIPLANEOVERLAYPRESENT structure [Display Devices], _DXGKARG_POSTMULTIPLANEOVERLAYPRESENT, d3dkmddi/DXGKARG_POSTMULTIPLANEOVERLAYPRESENT, display.dxgkarg_postmultiplaneoverlaypresent
 f1_keywords:
  - "d3dkmddi/DXGKARG_POSTMULTIPLANEOVERLAYPRESENT"
+ - "DXGKARG_POSTMULTIPLANEOVERLAYPRESENT"
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGKARG_POSTMULTIPLANEOVERLAYPRESENT
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGKARG_POSTMULTIPLANEOVERLAYPRESENT

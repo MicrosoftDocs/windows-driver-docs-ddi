@@ -10,6 +10,7 @@ keywords: ["SerCx2SystemDmaTransmitDrainFifoComplete function"]
 ms.keywords: 2/SerCx2SystemDmaTransmitDrainFifoComplete, SerCx2SystemDmaTransmitDrainFifoComplete, SerCx2SystemDmaTransmitDrainFifoComplete method [Serial Ports], serports.sercx2systemdmatransmitdrainfifocomplete
 f1_keywords:
  - "sercx/SerCx2SystemDmaTransmitDrainFifoComplete"
+ - "SerCx2SystemDmaTransmitDrainFifoComplete"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - 2.0\Sercx.h
 api_name:
 - SerCx2SystemDmaTransmitDrainFifoComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

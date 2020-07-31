@@ -10,6 +10,7 @@ keywords: ["PMRX_FINALIZE_SRVCALL_CALLDOWN callback function"]
 ms.keywords: MRxFinalizeSrvCall, MRxFinalizeSrvCall routine [Installable File System Drivers], PMRX_FINALIZE_SRVCALL_CALLDOWN, ifsk.mrxfinalizesrvcall, mrx/MRxFinalizeSrvCall, mrxref_7f2d4c59-1668-4c73-adc4-bdb6fac34d38.xml
 f1_keywords:
  - "mrx/MRxFinalizeSrvCall"
+ - "MRxFinalizeSrvCall"
 req.header: mrx.h
 req.include-header: Mrx.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - mrx.h
 api_name:
 - MRxFinalizeSrvCall
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

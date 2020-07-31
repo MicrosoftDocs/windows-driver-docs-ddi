@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS structure"]
 ms.keywords: D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS, D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS structure [Display Devices], OpenGL_Structs_1ffd61bb-ba0b-4ee5-95af-d8c7e38c0b15.xml, _D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS, d3dkmthk/D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS, display.d3dkmt_flipmodel_presenthistorytokenflags
 f1_keywords:
  - "d3dkmthk/D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS"
+ - "D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS

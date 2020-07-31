@@ -10,6 +10,7 @@ keywords: ["WdfDeviceRemoveRemovalRelationsPhysicalDevice function"]
 ms.keywords: DFDeviceObjectGeneralRef_aad4d605-26bb-468f-a608-426a1e570037.xml, WdfDeviceRemoveRemovalRelationsPhysicalDevice, WdfDeviceRemoveRemovalRelationsPhysicalDevice method, kmdf.wdfdeviceremoveremovalrelationsphysicaldevice, wdf.wdfdeviceremoveremovalrelationsphysicaldevice, wdfdevice/WdfDeviceRemoveRemovalRelationsPhysicalDevice
 f1_keywords:
  - "wdfdevice/WdfDeviceRemoveRemovalRelationsPhysicalDevice"
+ - "WdfDeviceRemoveRemovalRelationsPhysicalDevice"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfDeviceRemoveRemovalRelationsPhysicalDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

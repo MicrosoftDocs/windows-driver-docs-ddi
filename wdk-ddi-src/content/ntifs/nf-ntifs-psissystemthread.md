@@ -10,6 +10,7 @@ keywords: ["PsIsSystemThread function"]
 ms.keywords: PsIsSystemThread, PsIsSystemThread routine [Kernel-Mode Driver Architecture], k108_eacaf1ad-4ab8-49a6-9d43-3aba7821e110.xml, kernel.psissystemthread, ntifs/PsIsSystemThread
 f1_keywords:
  - "ntifs/PsIsSystemThread"
+ - "PsIsSystemThread"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - PsIsSystemThread
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

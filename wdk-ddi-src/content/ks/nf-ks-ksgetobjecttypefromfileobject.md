@@ -10,6 +10,7 @@ keywords: ["KsGetObjectTypeFromFileObject function"]
 ms.keywords: KsGetObjectTypeFromFileObject, KsGetObjectTypeFromFileObject function [Streaming Media Devices], avfunc_51a9a4d6-1481-45f9-918e-582907e8513c.xml, ks/KsGetObjectTypeFromFileObject, stream.ksgetobjecttypefromfileobject
 f1_keywords:
  - "ks/KsGetObjectTypeFromFileObject"
+ - "KsGetObjectTypeFromFileObject"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsGetObjectTypeFromFileObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

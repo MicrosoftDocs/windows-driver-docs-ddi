@@ -10,6 +10,7 @@ keywords: ["FILTER_RECEIVE_NET_BUFFER_LISTS callback function"]
 ms.keywords: FILTER_RECEIVE_NET_BUFFER_LISTS, FILTER_RECEIVE_NET_BUFFER_LISTS callback, FilterReceiveNetBufferLists, FilterReceiveNetBufferLists callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_c78036bd-cb6a-4898-b8b3-2d8585c7cfde.xml, ndis/FilterReceiveNetBufferLists, netvista.filterreceivenetbufferlists
 f1_keywords:
  - "ndis/FilterReceiveNetBufferLists"
+ - "FilterReceiveNetBufferLists"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - FilterReceiveNetBufferLists
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

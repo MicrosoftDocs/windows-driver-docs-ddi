@@ -10,6 +10,7 @@ keywords: ["IMiniportWaveCyclic interface"]
 ms.keywords: IMiniportWaveCyclic, IMiniportWaveCyclic interface [Audio Devices], IMiniportWaveCyclic interface [Audio Devices],described, audio.iminiportwavecyclic, audmp-routines_e9dda3e8-2545-4734-bf66-e08ff0c4a1e0.xml, portcls/IMiniportWaveCyclic
 f1_keywords:
  - "portcls/IMiniportWaveCyclic"
+ - "IMiniportWaveCyclic"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IMiniportWaveCyclic
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

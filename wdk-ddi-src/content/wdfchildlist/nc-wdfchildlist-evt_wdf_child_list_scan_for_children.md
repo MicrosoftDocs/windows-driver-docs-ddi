@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_CHILD_LIST_SCAN_FOR_CHILDREN callback function"]
 ms.keywords: DFDeviceObjectChildListRef_fa95ef9d-6bb7-4eb0-8535-06853fa1759c.xml, EVT_WDF_CHILD_LIST_SCAN_FOR_CHILDREN, EVT_WDF_CHILD_LIST_SCAN_FOR_CHILDREN callback, EvtChildListScanForChildren, EvtChildListScanForChildren callback function, kmdf.evtchildlistscanforchildren, wdf.evtchildlistscanforchildren, wdfchildlist/EvtChildListScanForChildren
 f1_keywords:
  - "wdfchildlist/EvtChildListScanForChildren"
+ - "EvtChildListScanForChildren"
 req.header: wdfchildlist.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - WdfChildlist.h
 api_name:
 - EvtChildListScanForChildren
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

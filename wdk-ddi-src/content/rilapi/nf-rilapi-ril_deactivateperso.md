@@ -10,6 +10,7 @@ keywords: ["RIL_DeactivatePerso function"]
 ms.keywords: RIL_DeactivatePerso, RIL_DeactivatePerso method [Network Drivers Starting with Windows Vista], netvista.ril_deactivateperso, rilapi/RIL_DeactivatePerso
 f1_keywords:
  - "rilapi/RIL_DeactivatePerso"
+ - "RIL_DeactivatePerso"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_DeactivatePerso
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

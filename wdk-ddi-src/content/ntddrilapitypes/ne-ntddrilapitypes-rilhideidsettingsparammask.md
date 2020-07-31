@@ -10,6 +10,7 @@ keywords: ["RILHIDEIDSETTINGSPARAMMASK enumeration"]
 ms.keywords: RILHIDEIDSETTINGSPARAMMASK, RILHIDEIDSETTINGSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_HIDS_ALL, RIL_PARAM_HIDS_PROVISIONING, RIL_PARAM_HIDS_STATUS, netvista.rilhideidsettingsparammask, ntddrilapitypes/RILHIDEIDSETTINGSPARAMMASK, ntddrilapitypes/RIL_PARAM_HIDS_ALL, ntddrilapitypes/RIL_PARAM_HIDS_PROVISIONING, ntddrilapitypes/RIL_PARAM_HIDS_STATUS
 f1_keywords:
  - "ntddrilapitypes/RILHIDEIDSETTINGSPARAMMASK"
+ - "RILHIDEIDSETTINGSPARAMMASK"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILHIDEIDSETTINGSPARAMMASK
-product:
-- Windows
 targetos: Windows
 req.typenames: RILHIDEIDSETTINGSPARAMMASK
 ---

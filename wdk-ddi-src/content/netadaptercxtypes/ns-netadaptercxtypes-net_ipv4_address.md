@@ -10,6 +10,7 @@ ms.date:
 keywords: ["NET_IPV4_ADDRESS structure"]
 f1_keywords:
  - "netadaptercxtypes/NET_IPV4_ADDRESS"
+ - "NET_IPV4_ADDRESS"
 ms.keywords: NET_IPV4_ADDRESS, NET_IPV4_ADDRESS, 
 req.header: netadaptercxtypes.h
 req.include-header:

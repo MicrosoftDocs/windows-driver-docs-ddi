@@ -10,6 +10,7 @@ keywords: ["IoGetInitiatorProcess function"]
 ms.keywords: IoGetInitiatorProcess, IoGetInitiatorProcess function [Kernel-Mode Driver Architecture], kernel.iogetinitiatorprocess, ntddk/IoGetInitiatorProcess
 f1_keywords:
  - "ntddk/IoGetInitiatorProcess"
+ - "IoGetInitiatorProcess"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoGetInitiatorProcess
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

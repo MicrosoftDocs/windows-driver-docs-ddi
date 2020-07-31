@@ -10,6 +10,7 @@ keywords: ["WDF_DEVICE_STATE_INIT function"]
 ms.keywords: DFDeviceObjectGeneralRef_702c7f79-a50f-4115-ba93-82388ccbf063.xml, WDF_DEVICE_STATE_INIT, WDF_DEVICE_STATE_INIT function, kmdf.wdf_device_state_init, wdf.wdf_device_state_init, wdfdevice/WDF_DEVICE_STATE_INIT
 f1_keywords:
  - "wdfdevice/WDF_DEVICE_STATE_INIT"
+ - "WDF_DEVICE_STATE_INIT"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - wdfdevice.h
 api_name:
 - WDF_DEVICE_STATE_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

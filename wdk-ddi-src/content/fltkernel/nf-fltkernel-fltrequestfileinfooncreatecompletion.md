@@ -10,6 +10,7 @@ ms.date: 01/11/2019
 keywords: ["FltRequestFileInfoOnCreateCompletion function"]
 f1_keywords:
  - "fltkernel/FltRequestFileInfoOnCreateCompletion"
+ - "FltRequestFileInfoOnCreateCompletion"
 ms.keywords: FltRequestFileInfoOnCreateCompletion, FltRetrieveFileInfoOnCreateCompletion, FltRetrieveFileInfoOnCreateCompletionEx
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

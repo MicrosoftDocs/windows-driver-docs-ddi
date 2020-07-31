@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_DXGK_DISPLAY_DRIVERCAPS_EXTENSION structure"]
 f1_keywords:
  - "d3dkmddi/_DXGK_DISPLAY_DRIVERCAPS_EXTENSION"
+ - "_DXGK_DISPLAY_DRIVERCAPS_EXTENSION"
 ms.keywords: _DXGK_DISPLAY_DRIVERCAPS_EXTENSION, DXGK_DISPLAY_DRIVERCAPS_EXTENSION, 
 req.header: d3dkmddi.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - d3dkmddi.h
 api_name: 
 - _DXGK_DISPLAY_DRIVERCAPS_EXTENSION
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

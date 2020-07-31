@@ -10,6 +10,7 @@ keywords: ["SerCxRetrieveReceiveMdl function"]
 ms.keywords: 1/SerCxRetrieveReceiveMdl, SerCxRetrieveReceiveMdl, SerCxRetrieveReceiveMdl method [Serial Ports], serports.sercxretrievereceivemdl
 f1_keywords:
  - "sercx/SerCxRetrieveReceiveMdl"
+ - "SerCxRetrieveReceiveMdl"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - 1.0\Sercx.h
 api_name:
 - SerCxRetrieveReceiveMdl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

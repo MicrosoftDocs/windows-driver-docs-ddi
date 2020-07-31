@@ -10,6 +10,7 @@ keywords: ["GNSS_NI_RESPONSE structure"]
 ms.keywords: "*PGNSS_NI_RESPONSE, GNSS_NI_RESPONSE, GNSS_NI_RESPONSE structure [Sensor Devices], PGNSS_NI_RESPONSE, PGNSS_NI_RESPONSE structure pointer [Sensor Devices], gnss.gnss_ni_response, gnssdriver/GNSS_NI_RESPONSE, gnssdriver/PGNSS_NI_RESPONSE"
 f1_keywords:
  - "gnssdriver/GNSS_NI_RESPONSE"
+ - "GNSS_NI_RESPONSE"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - gnssdriver.h
 api_name:
 - GNSS_NI_RESPONSE
-product:
-- Windows
 targetos: Windows
 req.typenames: GNSS_NI_RESPONSE, *PGNSS_NI_RESPONSE
 ---

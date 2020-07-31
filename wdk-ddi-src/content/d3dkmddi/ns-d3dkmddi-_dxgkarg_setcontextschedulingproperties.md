@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_DXGKARG_SETCONTEXTSCHEDULINGPROPERTIES structure"]
 f1_keywords:
  - "d3dkmddi/_DXGKARG_SETCONTEXTSCHEDULINGPROPERTIES"
+ - "_DXGKARG_SETCONTEXTSCHEDULINGPROPERTIES"
 ms.keywords: _DXGKARG_SETCONTEXTSCHEDULINGPROPERTIES, DXGKARG_SETCONTEXTSCHEDULINGPROPERTIES,
 req.header: d3dkmddi.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - _DXGKARG_SETCONTEXTSCHEDULINGPROPERTIES
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

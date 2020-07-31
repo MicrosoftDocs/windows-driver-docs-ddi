@@ -10,6 +10,7 @@ keywords: ["SeTokenSetNoChildProcessRestricted function"]
 ms.keywords: SeTokenSetNoChildProcessRestricted, SeTokenSetNoChildProcessRestricted function [Installable File System Drivers], ifsk.setokensetnochildprocessrestricted, ntifs/SeTokenSetNoChildProcessRestricted
 f1_keywords:
  - "ntifs/SeTokenSetNoChildProcessRestricted"
+ - "SeTokenSetNoChildProcessRestricted"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - SeTokenSetNoChildProcessRestricted
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

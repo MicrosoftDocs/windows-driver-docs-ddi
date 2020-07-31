@@ -10,6 +10,7 @@ keywords: ["ExReleaseRundownProtectionEx function"]
 ms.keywords: ExReleaseRundownProtectionEx, ExReleaseRundownProtectionEx routine [Kernel-Mode Driver Architecture], kernel.exreleaserundownprotectionex, wdm/ExReleaseRundownProtectionEx
 f1_keywords:
  - "wdm/ExReleaseRundownProtectionEx"
+ - "ExReleaseRundownProtectionEx"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - ExReleaseRundownProtectionEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

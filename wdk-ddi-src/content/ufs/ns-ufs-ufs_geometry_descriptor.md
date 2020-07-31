@@ -10,6 +10,7 @@ keywords: ["UFS_GEOMETRY_DESCRIPTOR structure"]
 ms.keywords: "*PUFS_GEOMETRY_DESCRIPTOR, PUFS_GEOMETRY_DESCRIPTOR, PUFS_GEOMETRY_DESCRIPTOR structure pointer [Storage Devices], UFS_GEOMETRY_DESCRIPTOR, UFS_GEOMETRY_DESCRIPTOR structure [Storage Devices], storage.ufs_geometry_descriptor, ufs/PUFS_GEOMETRY_DESCRIPTOR, ufs/UFS_GEOMETRY_DESCRIPTOR"
 f1_keywords:
  - "ufs/UFS_GEOMETRY_DESCRIPTOR"
+ - "UFS_GEOMETRY_DESCRIPTOR"
 req.header: ufs.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ufs.h
 api_name:
 - UFS_GEOMETRY_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: UFS_GEOMETRY_DESCRIPTOR, *PUFS_GEOMETRY_DESCRIPTOR
 ---

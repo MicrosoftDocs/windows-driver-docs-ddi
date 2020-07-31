@@ -10,6 +10,7 @@ keywords: ["DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY callback function"]
 ms.keywords: DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY, DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY callback, DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY callback function [Display Devices], display.dxgkddi_settargetadjustedcolorimetry, dispmprt/DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY
 f1_keywords:
  - "dispmprt/DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY"
+ - "DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY"
 req.header: dispmprt.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dispmprt.h
 api_name:
 - DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["tagWPD_SECTION_DATA_UNITS_VALUES enumeration"]
 ms.keywords: WPD_SECTION_DATA_UNITS_BYTES, WPD_SECTION_DATA_UNITS_MILLISECONDS, WPD_SECTION_DATA_UNITS_VALUES, WPD_SECTION_DATA_UNITS_VALUES enumeration, enumeration, portabledevice/WPD_SECTION_DATA_UNITS_BYTES, portabledevice/WPD_SECTION_DATA_UNITS_MILLISECONDS, portabledevice/WPD_SECTION_DATA_UNITS_VALUES, tagWPD_SECTION_DATA_UNITS_VALUES, wpddk.wpd_section_data_units_values
 f1_keywords:
  - "portabledevice/WPD_SECTION_DATA_UNITS_VALUES"
+ - "WPD_SECTION_DATA_UNITS_VALUES"
 req.header: portabledevice.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - PortableDevice.h
 api_name:
 - WPD_SECTION_DATA_UNITS_VALUES
-product:
-- Windows
 targetos: Windows
 req.typenames: WPD_SECTION_DATA_UNITS_VALUES
 ms.custom: RS5

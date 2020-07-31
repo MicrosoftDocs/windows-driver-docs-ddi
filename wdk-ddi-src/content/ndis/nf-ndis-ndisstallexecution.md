@@ -10,6 +10,7 @@ keywords: ["NdisStallExecution macro"]
 ms.keywords: NdisStallExecution, NdisStallExecution macro [Network Drivers Starting with Windows Vista], ndis/NdisStallExecution, ndis_delay_ref_de9bdd45-0bed-44cc-bdce-3ecd81842010.xml, netvista.ndisstallexecution
 f1_keywords:
  - "ndis/NdisStallExecution"
+ - "NdisStallExecution"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NdisStallExecution
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

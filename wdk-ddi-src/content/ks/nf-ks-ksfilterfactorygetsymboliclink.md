@@ -10,6 +10,7 @@ keywords: ["KsFilterFactoryGetSymbolicLink function"]
 ms.keywords: KsFilterFactoryGetSymbolicLink, KsFilterFactoryGetSymbolicLink function [Streaming Media Devices], avfunc_066ba440-b7d8-4c75-99bd-7b7cb38e4d70.xml, ks/KsFilterFactoryGetSymbolicLink, stream.ksfilterfactorygetsymboliclink
 f1_keywords:
  - "ks/KsFilterFactoryGetSymbolicLink"
+ - "KsFilterFactoryGetSymbolicLink"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsFilterFactoryGetSymbolicLink
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

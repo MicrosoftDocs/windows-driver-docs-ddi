@@ -10,6 +10,7 @@ keywords: ["DOT11_PHY_ATTRIBUTES structure"]
 ms.keywords: "*PDOT11_PHY_ATTRIBUTES, DOT11_PHY_ATTRIBUTES, DOT11_PHY_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_76ba44f0-4597-4397-b686-1f70e5e27eec.xml, PDOT11_PHY_ATTRIBUTES, PDOT11_PHY_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_phy_attributes, windot11/DOT11_PHY_ATTRIBUTES, windot11/PDOT11_PHY_ATTRIBUTES"
 f1_keywords:
  - "windot11/DOT11_PHY_ATTRIBUTES"
+ - "DOT11_PHY_ATTRIBUTES"
 req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows

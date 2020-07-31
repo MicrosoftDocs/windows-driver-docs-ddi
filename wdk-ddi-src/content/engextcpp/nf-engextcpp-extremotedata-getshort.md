@@ -10,6 +10,7 @@ keywords: ["ExtRemoteData::GetShort"]
 ms.keywords: EngExtCpp_Ref_c2fffdd2-e899-4f87-bd00-415bafa3b84f.xml, ExtRemoteData class [Windows Debugging],GetShort method, ExtRemoteData.GetShort, ExtRemoteData::GetShort, GetShort, GetShort method [Windows Debugging], GetShort method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_getshort
 f1_keywords:
  - "engextcpp/ExtRemoteData.GetShort"
+ - "ExtRemoteData.GetShort"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - engextcpp.hpp
 api_name:
 - ExtRemoteData.GetShort
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

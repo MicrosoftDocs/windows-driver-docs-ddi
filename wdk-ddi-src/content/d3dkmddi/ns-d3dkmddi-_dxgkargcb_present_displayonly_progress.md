@@ -9,6 +9,7 @@ keywords: ["_DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS structure"]
 ms.keywords: DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS, DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS structure [Display Devices], _DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS, d3dkmddi/DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS, display.dxgkargcb_present_displayonly_progress
 f1_keywords:
  - "d3dkmddi/DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS"
+ - "DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - D3dkmddi.h
 api_name:
 - DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS

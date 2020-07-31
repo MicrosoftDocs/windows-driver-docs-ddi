@@ -10,6 +10,7 @@ keywords: ["KsGateTurnInputOff function"]
 ms.keywords: KsGateTurnInputOff, KsGateTurnInputOff function [Streaming Media Devices], avfunc_ba116904-80e2-4288-a8d1-d03c0194ef51.xml, ks/KsGateTurnInputOff, stream.ksgateturninputoff
 f1_keywords:
  - "ks/KsGateTurnInputOff"
+ - "KsGateTurnInputOff"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KsGateTurnInputOff
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_WMI_INSTANCE_SET_INSTANCE callback function"]
 ms.keywords: DFWMIRef_28837d36-7a7e-4468-adbc-826bf4c75ef0.xml, EVT_WDF_WMI_INSTANCE_SET_INSTANCE, EVT_WDF_WMI_INSTANCE_SET_INSTANCE callback, EvtWmiInstanceSetInstance, EvtWmiInstanceSetInstance callback function, kmdf.evtwmiinstancesetinstance, wdf.evtwmiinstancesetinstance, wdfwmi/EvtWmiInstanceSetInstance
 f1_keywords:
  - "wdfwmi/EvtWmiInstanceSetInstance"
+ - "EvtWmiInstanceSetInstance"
 req.header: wdfwmi.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - WdfWMI.h
 api_name:
 - EvtWmiInstanceSetInstance
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IDebugSystemObjects4::GetTotalNumberThreadsAndProcesses"]
 ms.keywords: GetTotalNumberThreadsAndProcesses, GetTotalNumberThreadsAndProcesses method [Windows Debugging], GetTotalNumberThreadsAndProcesses method [Windows Debugging],IDebugSystemObjects3 interface, GetTotalNumberThreadsAndProcesses method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects3 interface [Windows Debugging],GetTotalNumberThreadsAndProcesses method, IDebugSystemObjects3::GetTotalNumberThreadsAndProcesses, IDebugSystemObjects4 interface [Windows Debugging],GetTotalNumberThreadsAndProcesses method, IDebugSystemObjects4.GetTotalNumberThreadsAndProcesses, IDebugSystemObjects4::GetTotalNumberThreadsAndProcesses, IDebugSystemObjects_503ce0cc-8781-4a45-aa59-727b41aaf23b.xml, dbgeng/IDebugSystemObjects3::GetTotalNumberThreadsAndProcesses, dbgeng/IDebugSystemObjects4::GetTotalNumberThreadsAndProcesses, debugger.gettotalnumberthreadsandprocesses
 f1_keywords:
  - "dbgeng/IDebugSystemObjects3.GetTotalNumberThreadsAndProcesses"
+ - "IDebugSystemObjects3.GetTotalNumberThreadsAndProcesses"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IDebugSystemObjects3.GetTotalNumberThreadsAndProcesses
 - IDebugSystemObjects4.GetTotalNumberThreadsAndProcesses
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

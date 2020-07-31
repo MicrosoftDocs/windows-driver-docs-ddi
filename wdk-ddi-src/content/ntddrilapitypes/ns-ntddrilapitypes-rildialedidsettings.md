@@ -10,6 +10,7 @@ keywords: ["RILDIALEDIDSETTINGS structure"]
 ms.keywords: "*LPRILDIALEDIDSETTINGS, RILDIALEDIDSETTINGS, RILDIALEDIDSETTINGS structure [Network Drivers Starting with Windows Vista], netvista.rildialedidsettings, ntddrilapitypes/RILDIALEDIDSETTINGS"
 f1_keywords:
  - "ntddrilapitypes/RILDIALEDIDSETTINGS"
+ - "RILDIALEDIDSETTINGS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILDIALEDIDSETTINGS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILDIALEDIDSETTINGS, *LPRILDIALEDIDSETTINGS
 ---

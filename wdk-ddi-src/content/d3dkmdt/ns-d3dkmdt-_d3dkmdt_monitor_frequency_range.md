@@ -29,6 +29,7 @@ targetos: Windows
 req.typenames: D3DKMDT_MONITOR_FREQUENCY_RANGE
 f1_keywords:
  - "d3dkmdt/D3DKMDT_MONITOR_FREQUENCY_RANGE"
+ - "D3DKMDT_MONITOR_FREQUENCY_RANGE"
 topic_type:
  - APIRef
  - kbSyntax

@@ -10,6 +10,7 @@ keywords: ["IWDFMemory::SetBuffer"]
 ms.keywords: IWDFMemory interface,SetBuffer method, IWDFMemory.SetBuffer, IWDFMemory::SetBuffer, SetBuffer, SetBuffer method, SetBuffer method,IWDFMemory interface, UMDFMemoryObjectRef_34339a6a-7426-46fc-8df9-7f5281b03308.xml, umdf.iwdfmemory_setbuffer, wdf.iwdfmemory_setbuffer, wudfddi/IWDFMemory::SetBuffer
 f1_keywords:
  - "wudfddi/IWDFMemory.SetBuffer"
+ - "IWDFMemory.SetBuffer"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFMemory.SetBuffer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

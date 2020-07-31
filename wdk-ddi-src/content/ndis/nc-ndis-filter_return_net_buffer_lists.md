@@ -10,6 +10,7 @@ keywords: ["FILTER_RETURN_NET_BUFFER_LISTS callback function"]
 ms.keywords: FILTER_RETURN_NET_BUFFER_LISTS, FILTER_RETURN_NET_BUFFER_LISTS callback, FilterReturnNetBufferLists, FilterReturnNetBufferLists callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_a4a0c4ae-790b-43f9-a209-06538a7bbab6.xml, ndis/FilterReturnNetBufferLists, netvista.filterreturnnetbufferlists
 f1_keywords:
  - "ndis/FilterReturnNetBufferLists"
+ - "FilterReturnNetBufferLists"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - FilterReturnNetBufferLists
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

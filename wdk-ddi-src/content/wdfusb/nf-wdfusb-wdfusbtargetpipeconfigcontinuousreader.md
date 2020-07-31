@@ -10,6 +10,7 @@ keywords: ["WdfUsbTargetPipeConfigContinuousReader function"]
 ms.keywords: DFUsbRef_80432bbe-cb71-4bd1-9c0b-a71ea1f5c809.xml, WdfUsbTargetPipeConfigContinuousReader, WdfUsbTargetPipeConfigContinuousReader method, kmdf.wdfusbtargetpipeconfigcontinuousreader, wdf.wdfusbtargetpipeconfigcontinuousreader, wdfusb/WdfUsbTargetPipeConfigContinuousReader
 f1_keywords:
  - "wdfusb/WdfUsbTargetPipeConfigContinuousReader"
+ - "WdfUsbTargetPipeConfigContinuousReader"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfUsbTargetPipeConfigContinuousReader
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

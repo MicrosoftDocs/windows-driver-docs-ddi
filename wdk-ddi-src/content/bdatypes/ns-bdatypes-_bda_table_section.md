@@ -10,6 +10,7 @@ keywords: ["_BDA_TABLE_SECTION structure"]
 ms.keywords: "*PBDA_TABLE_SECTION, BDA_TABLE_SECTION, BDA_TABLE_SECTION structure [Streaming Media Devices], PBDA_TABLE_SECTION, PBDA_TABLE_SECTION structure pointer [Streaming Media Devices], _BDA_TABLE_SECTION, bdaref_cf9fff4a-3ab2-4cf1-9db8-fccd36661cad.xml, bdatypes/BDA_TABLE_SECTION, bdatypes/PBDA_TABLE_SECTION, stream.bda_table_section"
 f1_keywords:
  - "bdatypes/BDA_TABLE_SECTION"
+ - "BDA_TABLE_SECTION"
 req.header: bdatypes.h
 req.include-header: Bdatypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - bdatypes.h
 api_name:
 - BDA_TABLE_SECTION
-product:
-- Windows
 targetos: Windows
 req.typenames: BDA_TABLE_SECTION, *PBDA_TABLE_SECTION
 ---

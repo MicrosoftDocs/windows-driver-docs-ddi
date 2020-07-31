@@ -10,6 +10,7 @@ keywords: ["IOCTL_SERIAL_SET_BAUD_RATE IOCTL"]
 ms.keywords: IOCTL_SERIAL_SET_BAUD_RATE, IOCTL_SERIAL_SET_BAUD_RATE control, IOCTL_SERIAL_SET_BAUD_RATE control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_BAUD_RATE, serports.ioctl_serial_set_baud_rate, serref_e71e6ea2-4cac-440d-abc2-40fba2990518.xml
 f1_keywords:
  - "ntddser/IOCTL_SERIAL_SET_BAUD_RATE"
+ - "IOCTL_SERIAL_SET_BAUD_RATE"
 req.header: ntddser.h
 req.include-header: Ntddser.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddser.h
 api_name:
 - IOCTL_SERIAL_SET_BAUD_RATE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

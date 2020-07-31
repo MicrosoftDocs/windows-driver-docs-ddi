@@ -10,6 +10,7 @@ keywords: ["PO_FX_POWER_CONTROL_CALLBACK callback function"]
 ms.keywords: PO_FX_POWER_CONTROL_CALLBACK, PowerControlCallback, PowerControlCallback routine [Kernel-Mode Driver Architecture], kernel.powercontrolcallback, wdm/PowerControlCallback
 f1_keywords:
  - "wdm/PowerControlCallback"
+ - "PowerControlCallback"
 req.header: wdm.h
 req.include-header: Wudfwdm.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - PowerControlCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

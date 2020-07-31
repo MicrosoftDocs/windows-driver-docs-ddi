@@ -10,6 +10,7 @@ keywords: ["FltCheckOplockEx function"]
 ms.keywords: FltApiRef_a_to_d_3fd997bf-bfdb-4fdd-b6a2-3ade62e0368e.xml, FltCheckOplockEx, FltCheckOplockEx routine [Installable File System Drivers], fltkernel/FltCheckOplockEx, ifsk.fltcheckoplockex
 f1_keywords:
  - "fltkernel/FltCheckOplockEx"
+ - "FltCheckOplockEx"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - FltMgr.dll
 api_name:
 - FltCheckOplockEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

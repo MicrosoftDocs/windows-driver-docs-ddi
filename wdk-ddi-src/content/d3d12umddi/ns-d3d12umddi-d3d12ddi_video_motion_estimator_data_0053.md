@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3D12DDI_VIDEO_MOTION_ESTIMATOR_DATA_0053 structure"]
 f1_keywords:
  - "d3d12umddi/D3D12DDI_VIDEO_MOTION_ESTIMATOR_DATA_0053"
+ - "D3D12DDI_VIDEO_MOTION_ESTIMATOR_DATA_0053"
 ms.keywords: D3D12DDI_VIDEO_MOTION_ESTIMATOR_DATA_0053, D3D12DDI_VIDEO_MOTION_ESTIMATOR_DATA_0053, 
 req.header: d3d12umddi.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - d3d12umddi.h
 api_name: 
 - D3D12DDI_VIDEO_MOTION_ESTIMATOR_DATA_0053
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

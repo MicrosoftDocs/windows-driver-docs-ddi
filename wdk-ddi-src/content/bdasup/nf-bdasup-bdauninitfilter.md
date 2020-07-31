@@ -10,6 +10,7 @@ keywords: ["BdaUninitFilter function"]
 ms.keywords: BdaUninitFilter, BdaUninitFilter function [Streaming Media Devices], bdaref_68d86dcd-9a84-4c5f-acf5-8174ab3ba6d8.xml, bdasup/BdaUninitFilter, stream.bdauninitfilter
 f1_keywords:
  - "bdasup/BdaUninitFilter"
+ - "BdaUninitFilter"
 req.header: bdasup.h
 req.include-header: Bdasup.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Bdasup.dll
 api_name:
 - BdaUninitFilter
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

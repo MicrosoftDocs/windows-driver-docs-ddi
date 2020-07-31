@@ -9,6 +9,7 @@ keywords: ["D3DKMTSetMonitorColorSpaceTransform function"]
 ms.keywords: D3DKMTSetMonitorColorSpaceTransform, D3DKMTSetMonitorColorSpaceTransform method [Display Devices], d3dkmthk/D3DKMTSetMonitorColorSpaceTransform, display.d3dkmtsetmonitorcolorspacetransform
 f1_keywords:
  - "d3dkmthk/D3DKMTSetMonitorColorSpaceTransform"
+ - "D3DKMTSetMonitorColorSpaceTransform"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - Gdi32.dll
 api_name:
 - D3DKMTSetMonitorColorSpaceTransform
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

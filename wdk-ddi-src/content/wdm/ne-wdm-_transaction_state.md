@@ -10,6 +10,7 @@ keywords: ["_TRANSACTION_STATE enumeration"]
 ms.keywords: TRANSACTION_STATE, TRANSACTION_STATE enumeration [Kernel-Mode Driver Architecture], TransactionStateCommittedNotify, TransactionStateIndoubt, TransactionStateNormal, _TRANSACTION_STATE, kernel.transaction_state, ktm_ref_051131c5-e3a5-430e-afca-053fcb68f746.xml, wdm/TRANSACTION_STATE, wdm/TransactionStateCommittedNotify, wdm/TransactionStateIndoubt, wdm/TransactionStateNormal
 f1_keywords:
  - "wdm/TRANSACTION_STATE"
+ - "TRANSACTION_STATE"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - TRANSACTION_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: TRANSACTION_STATE
 ---

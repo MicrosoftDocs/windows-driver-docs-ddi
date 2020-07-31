@@ -10,6 +10,7 @@ keywords: ["KsQueueWorkItem function"]
 ms.keywords: KsQueueWorkItem, KsQueueWorkItem function [Streaming Media Devices], ks/KsQueueWorkItem, ksfunc_abb711a0-0862-4d91-b2e1-3af290f1112f.xml, stream.ksqueueworkitem
 f1_keywords:
  - "ks/KsQueueWorkItem"
+ - "KsQueueWorkItem"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsQueueWorkItem
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

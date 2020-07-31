@@ -10,6 +10,7 @@ keywords: ["HWN_CLIENT_GET_STATE callback"]
 ms.keywords: "*PHWN_CLIENT_GET_STATE, *PHWN_CLIENT_GET_STATE callback function pointer, HWN_CLIENT_GET_STATE, HwnClientGetState, HwnClientGetState callback function, gpiobtn.hwn_client_get_state, hwnclx/HwnClientGetState"
 f1_keywords:
  - "hwnclx/*PHWN_CLIENT_GET_STATE"
+ - "*PHWN_CLIENT_GET_STATE"
 req.header: hwnclx.h
 req.include-header:
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Hwnclx.h
 api_name:
 - PHWN_CLIENT_GET_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: HPMI_QUERY_CAPABILITIES_RESPONSE, *PHPMI_QUERY_CAPABILITIES_RESPONSE
 ---

@@ -10,6 +10,7 @@ keywords: ["IMiniportMidiStream::SetState"]
 ms.keywords: IMiniportMidiStream interface [Audio Devices],SetState method, IMiniportMidiStream.SetState, IMiniportMidiStream::SetState, SetState, SetState method [Audio Devices], SetState method [Audio Devices],IMiniportMidiStream interface, audio.iminiportmidistream_setstate, audmp-routines_23f064df-faef-4c45-a58e-c5e3e1d7d7a5.xml, portcls/IMiniportMidiStream::SetState
 f1_keywords:
  - "portcls/IMiniportMidiStream.SetState"
+ - "IMiniportMidiStream.SetState"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IMiniportMidiStream.SetState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

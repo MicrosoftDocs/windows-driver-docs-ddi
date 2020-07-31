@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["_HAL_SET_INFORMATION_CLASS enumeration"]
 f1_keywords:
  - "ntddk/_HAL_SET_INFORMATION_CLASS"
+ - "_HAL_SET_INFORMATION_CLASS"
 ms.keywords: _HAL_SET_INFORMATION_CLASS, *PHAL_SET_INFORMATION_CLASS, HAL_SET_INFORMATION_CLASS, 
 req.header: ntddk.h
 req.include-header:
@@ -26,8 +27,6 @@ api_location:
 - ntddk.h
 api_name: 
 - _HAL_SET_INFORMATION_CLASS
-product:
-- Windows
 targetos: Windows
 ---
 

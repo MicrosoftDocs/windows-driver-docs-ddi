@@ -10,6 +10,7 @@ keywords: ["CcGetDirtyPages function"]
 ms.keywords: CcGetDirtyPages, CcGetDirtyPages routine [Installable File System Drivers], ccref_cbefaf71-3c21-445f-ac63-d96bbb47ec16.xml, ifsk.ccgetdirtypages, ntifs/CcGetDirtyPages
 f1_keywords:
  - "ntifs/CcGetDirtyPages"
+ - "CcGetDirtyPages"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - CcGetDirtyPages
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

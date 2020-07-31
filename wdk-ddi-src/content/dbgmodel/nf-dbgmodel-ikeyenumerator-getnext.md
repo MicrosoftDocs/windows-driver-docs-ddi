@@ -7,6 +7,7 @@ ms.date: 12/21/2018
 keywords: ["IKeyEnumerator::GetNext"]
 f1_keywords:
  - "dbgmodel/IKeyEnumerator.GetNext"
+ - "IKeyEnumerator.GetNext"
 ms.keywords: IKeyEnumerator::GetNext, GetNext, IKeyEnumerator.GetNext, IKeyEnumerator::GetNext, IKeyEnumerator.GetNext
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IKeyEnumerator.GetNext
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

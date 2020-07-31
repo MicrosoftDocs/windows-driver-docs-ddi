@@ -10,6 +10,7 @@ keywords: ["VideoPortRegisterBugcheckCallback function"]
 ms.keywords: VideoPortRegisterBugcheckCallback, VideoPortRegisterBugcheckCallback function [Display Devices], VideoPort_Functions_ba500792-836e-4181-983c-506bf5608a1c.xml, display.videoportregisterbugcheckcallback, video/VideoPortRegisterBugcheckCallback
 f1_keywords:
  - "video/VideoPortRegisterBugcheckCallback"
+ - "VideoPortRegisterBugcheckCallback"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Videoprt.sys
 api_name:
 - VideoPortRegisterBugcheckCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

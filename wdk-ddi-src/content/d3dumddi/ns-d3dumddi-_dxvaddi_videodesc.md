@@ -10,6 +10,7 @@ keywords: ["_DXVADDI_VIDEODESC structure"]
 ms.keywords: DXVA2_Structs_7e8c3d70-50a3-48f7-bc5e-4280a599e43d.xml, DXVADDI_VIDEODESC, DXVADDI_VIDEODESC structure [Display Devices], _DXVADDI_VIDEODESC, d3dumddi/DXVADDI_VIDEODESC, display.dxvaddi_videodesc
 f1_keywords:
  - "d3dumddi/DXVADDI_VIDEODESC"
+ - "DXVADDI_VIDEODESC"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - DXVADDI_VIDEODESC
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVADDI_VIDEODESC
 ---

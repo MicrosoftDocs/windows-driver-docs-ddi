@@ -10,6 +10,7 @@ keywords: ["ZwEnumerateKey function"]
 ms.keywords: NtEnumerateKey, ZwEnumerateKey, ZwEnumerateKey routine [Kernel-Mode Driver Architecture], k111_a41e7865-8cac-4dd8-83fb-ca04485feb48.xml, kernel.zwenumeratekey, wdm/NtEnumerateKey, wdm/ZwEnumerateKey
 f1_keywords:
  - "wdm/ZwEnumerateKey"
+ - "ZwEnumerateKey"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - ZwEnumerateKey
 - NtEnumerateKey
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

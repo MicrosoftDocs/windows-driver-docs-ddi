@@ -10,6 +10,7 @@ keywords: ["StorPortValidateRange function"]
 ms.keywords: StorPortValidateRange, StorPortValidateRange routine [Storage Devices], storage.storportvalidaterange, storport/StorPortValidateRange, storprt_7d3583a5-211d-414e-880d-31c04145d3ab.xml
 f1_keywords:
  - "storport/StorPortValidateRange"
+ - "StorPortValidateRange"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Storport.dll
 api_name:
 - StorPortValidateRange
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

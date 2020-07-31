@@ -8,6 +8,7 @@ ms.date: 04/09/2019
 keywords: ["_WWAN_UICC_FILE_TYPE enumeration"]
 f1_keywords:
  - "wwan/_WWAN_UICC_FILE_TYPE"
+ - "_WWAN_UICC_FILE_TYPE"
 ms.keywords: _WWAN_UICC_FILE_TYPE, WWAN_UICC_FILE_TYPE, *PWWAN_UICC_FILE_TYPE, 
 req.header: wwan.h
 req.include-header:
@@ -27,8 +28,6 @@ api_location:
 - wwan.h
 api_name: 
 - _WWAN_UICC_FILE_TYPE
-product:
-- Windows
 targetos: Windows
 ms.custom: 19H1
 ---

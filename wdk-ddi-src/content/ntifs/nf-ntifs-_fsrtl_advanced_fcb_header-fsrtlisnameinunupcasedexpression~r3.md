@@ -8,6 +8,7 @@ ms.date: 10/19/2018
 keywords: ["FsRtlIsNameInUnUpcasedExpression function"]
 f1_keywords:
  - "ntifs/FsRtlIsNameInUnUpcasedExpression"
+ - "FsRtlIsNameInUnUpcasedExpression"
 ms.keywords: FsRtlIsNameInUnUpcasedExpression
 req.header: ntifs.h
 req.include-header:
@@ -34,8 +35,6 @@ api_location:
 - NtosKrnl.exe
 api_name: 
 - FsRtlIsNameInUnUpcasedExpression
-product:
-- Windows
 targetos: Windows
 
 ---

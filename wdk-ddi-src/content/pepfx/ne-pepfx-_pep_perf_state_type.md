@@ -10,6 +10,7 @@ keywords: ["_PEP_PERF_STATE_TYPE enumeration"]
 ms.keywords: "*PPEP_PERF_STATE_TYPE, PEP_PERF_STATE_TYPE, PEP_PERF_STATE_TYPE enumeration [Kernel-Mode Driver Architecture], PepPerfStateTypeDiscrete, PepPerfStateTypeMax, PepPerfStateTypeRange, _PEP_PERF_STATE_TYPE, kernel.pep_perf_state_type, pepfx/PEP_PERF_STATE_TYPE, pepfx/PepPerfStateTypeDiscrete, pepfx/PepPerfStateTypeMax, pepfx/PepPerfStateTypeRange"
 f1_keywords:
  - "pepfx/PEP_PERF_STATE_TYPE"
+ - "PEP_PERF_STATE_TYPE"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - PEP_PERF_STATE_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_PERF_STATE_TYPE, *PPEP_PERF_STATE_TYPE
 ---

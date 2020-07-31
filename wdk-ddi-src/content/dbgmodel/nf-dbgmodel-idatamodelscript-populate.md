@@ -7,6 +7,7 @@ ms.date: 08/20/2018
 keywords: ["IDataModelScript::Populate"]
 f1_keywords:
  - "dbgmodel/IDataModelScript.Populate"
+ - "IDataModelScript.Populate"
 ms.keywords: IDataModelScript::Populate, Populate, IDataModelScript.Populate, IDataModelScript::Populate, IDataModelScript.Populate
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDataModelScript.Populate
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

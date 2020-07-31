@@ -10,6 +10,7 @@ keywords: ["NdisGetDeviceReservedExtension function"]
 ms.keywords: NdisGetDeviceReservedExtension, NdisGetDeviceReservedExtension function [Network Drivers Starting with Windows Vista], ndis/NdisGetDeviceReservedExtension, ndis_devices_ref_75d6a378-f525-46bb-9a2b-becf6abaa768.xml, netvista.ndisgetdevicereservedextension
 f1_keywords:
  - "ndis/NdisGetDeviceReservedExtension"
+ - "NdisGetDeviceReservedExtension"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisGetDeviceReservedExtension
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

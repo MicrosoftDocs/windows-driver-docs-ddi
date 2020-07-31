@@ -10,6 +10,7 @@ keywords: ["FILTER_DETACH callback function"]
 ms.keywords: FILTER_DETACH, FILTER_DETACH callback, FilterDetach, FilterDetach callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_dec15a06-93c1-4da8-9dc6-b66be9c6f8eb.xml, ndis/FilterDetach, netvista.filterdetach
 f1_keywords:
  - "ndis/FilterDetach"
+ - "FilterDetach"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - FilterDetach
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

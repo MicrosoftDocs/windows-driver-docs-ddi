@@ -10,6 +10,7 @@ keywords: ["IPrintOemDriverUni::DrvYMoveTo"]
 ms.keywords: DrvYMoveTo, DrvYMoveTo method [Print Devices], DrvYMoveTo method [Print Devices],IPrintOemDriverUni interface, IPrintOemDriverUni interface [Print Devices],DrvYMoveTo method, IPrintOemDriverUni.DrvYMoveTo, IPrintOemDriverUni::DrvYMoveTo, prcomoem/IPrintOemDriverUni::DrvYMoveTo, print.iprintoemdriveruni_drvymoveto, print_unidrv-pscript_rendering_ebfa0991-ad14-4303-9702-2b19962da5e6.xml
 f1_keywords:
  - "prcomoem/IPrintOemDriverUni.DrvYMoveTo"
+ - "IPrintOemDriverUni.DrvYMoveTo"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - prcomoem.h
 api_name:
 - IPrintOemDriverUni.DrvYMoveTo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

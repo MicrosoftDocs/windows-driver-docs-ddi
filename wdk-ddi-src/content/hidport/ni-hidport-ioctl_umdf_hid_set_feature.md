@@ -10,6 +10,7 @@ keywords: ["IOCTL_UMDF_HID_SET_FEATURE IOCTL"]
 ms.keywords: IOCTL_UMDF_HID_SET_FEATURE, IOCTL_UMDF_HID_SET_FEATURE control, IOCTL_UMDF_HID_SET_FEATURE control code, hid.ioctl_umdf_hid_set_feature, hidport/IOCTL_UMDF_HID_SET_FEATURE, umdf.ioctl_umdf_hid_set_feature
 f1_keywords:
  - "hidport/IOCTL_UMDF_HID_SET_FEATURE"
+ - "IOCTL_UMDF_HID_SET_FEATURE"
 req.header: hidport.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Hidport.h
 api_name:
 - IOCTL_UMDF_HID_SET_FEATURE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

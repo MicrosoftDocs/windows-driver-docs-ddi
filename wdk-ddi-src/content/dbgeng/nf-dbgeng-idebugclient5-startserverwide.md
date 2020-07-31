@@ -10,6 +10,7 @@ keywords: ["IDebugClient5::StartServerWide"]
 ms.keywords: IDebugClient5 interface [Windows Debugging],StartServerWide method, IDebugClient5.StartServerWide, IDebugClient5::StartServerWide, StartServerWide, StartServerWide method [Windows Debugging], StartServerWide method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient5::StartServerWide, debugger.startserverwide
 f1_keywords:
  - "dbgeng/IDebugClient5.StartServerWide"
+ - "IDebugClient5.StartServerWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugClient5.StartServerWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

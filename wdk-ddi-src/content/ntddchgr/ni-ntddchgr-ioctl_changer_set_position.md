@@ -10,6 +10,7 @@ keywords: ["IOCTL_CHANGER_SET_POSITION IOCTL"]
 ms.keywords: IOCTL_CHANGER_SET_POSITION, IOCTL_CHANGER_SET_POSITION control, IOCTL_CHANGER_SET_POSITION control code [Storage Devices], k307_f4580e0a-0f44-4c7f-9d89-81fe6db548c6.xml, ntddchgr/IOCTL_CHANGER_SET_POSITION, storage.ioctl_changer_set_position
 f1_keywords:
  - "ntddchgr/IOCTL_CHANGER_SET_POSITION"
+ - "IOCTL_CHANGER_SET_POSITION"
 req.header: ntddchgr.h
 req.include-header: Ntddchgr.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddchgr.h
 api_name:
 - IOCTL_CHANGER_SET_POSITION
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

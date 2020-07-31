@@ -10,6 +10,7 @@ keywords: ["FreePrintPropertyValue function"]
 ms.keywords: FreePrintPropertyValue, FreePrintPropertyValue function [Print Devices], print.freeprintpropertyvalue, winspool/FreePrintPropertyValue
 f1_keywords:
  - "winspool/FreePrintPropertyValue"
+ - "FreePrintPropertyValue"
 req.header: winspool.h
 req.include-header: Winspool.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - WinSpool.drv
 api_name:
 - FreePrintPropertyValue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

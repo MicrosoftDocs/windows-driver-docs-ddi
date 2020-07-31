@@ -10,6 +10,7 @@ keywords: ["KsTerminateDevice function"]
 ms.keywords: KsTerminateDevice, KsTerminateDevice function [Streaming Media Devices], avfunc_42f55ca4-ed73-4ea2-9f33-462d9d13e3e3.xml, ks/KsTerminateDevice, stream.ksterminatedevice
 f1_keywords:
  - "ks/KsTerminateDevice"
+ - "KsTerminateDevice"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsTerminateDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

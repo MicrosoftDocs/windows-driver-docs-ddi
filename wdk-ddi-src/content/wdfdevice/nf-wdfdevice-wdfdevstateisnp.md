@@ -10,6 +10,7 @@ keywords: ["WdfDevStateIsNP function"]
 ms.keywords: DFDeviceObjectGeneralRef_ed6dd7ac-b5e3-49b2-a4d8-08e4e9377321.xml, WdfDevStateIsNP, WdfDevStateIsNP method, kmdf.wdfdevstateisnp, wdf.wdfdevstateisnp, wdfdevice/WdfDevStateIsNP
 f1_keywords:
  - "wdfdevice/WdfDevStateIsNP"
+ - "WdfDevStateIsNP"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfDevStateIsNP
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

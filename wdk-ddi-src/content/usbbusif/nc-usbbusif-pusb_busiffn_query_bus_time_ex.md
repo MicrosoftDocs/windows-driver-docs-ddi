@@ -10,6 +10,7 @@ keywords: ["PUSB_BUSIFFN_QUERY_BUS_TIME_EX callback function"]
 ms.keywords: PUSB_BUSIFFN_QUERY_BUS_TIME_EX, QueryBusTimeEx, QueryBusTimeEx callback function [Buses], USB_BUSIFFN_QUERY_BUS_TIME_EX, USB_BUSIFFN_QUERY_BUS_TIME_EX callback, buses.querybustimeex, usbbusif/QueryBusTimeEx
 f1_keywords:
  - "usbbusif/QueryBusTimeEx"
+ - "QueryBusTimeEx"
 req.header: usbbusif.h
 req.include-header: Usbbusif.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - usbbusif.h
 api_name:
 - QueryBusTimeEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["IOCTL_LAMP_BASE IOCTL"]
 f1_keywords:
  - "lamp/IOCTL_LAMP_BASE"
+ - "IOCTL_LAMP_BASE"
 req.header: lamp.h
 req.include-header:
 req.target-type:

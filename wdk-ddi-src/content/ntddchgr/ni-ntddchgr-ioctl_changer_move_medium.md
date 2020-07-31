@@ -10,6 +10,7 @@ keywords: ["IOCTL_CHANGER_MOVE_MEDIUM IOCTL"]
 ms.keywords: IOCTL_CHANGER_MOVE_MEDIUM, IOCTL_CHANGER_MOVE_MEDIUM control, IOCTL_CHANGER_MOVE_MEDIUM control code [Storage Devices], k307_4d55c834-2f72-433b-8e75-015908324d87.xml, ntddchgr/IOCTL_CHANGER_MOVE_MEDIUM, storage.ioctl_changer_move_medium
 f1_keywords:
  - "ntddchgr/IOCTL_CHANGER_MOVE_MEDIUM"
+ - "IOCTL_CHANGER_MOVE_MEDIUM"
 req.header: ntddchgr.h
 req.include-header: Ntddchgr.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddchgr.h
 api_name:
 - IOCTL_CHANGER_MOVE_MEDIUM
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

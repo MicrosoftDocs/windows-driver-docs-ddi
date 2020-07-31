@@ -10,6 +10,7 @@ keywords: ["_NET_BUFFER structure"]
 ms.keywords: "*PNET_BUFFER, NET_BUFFER, NET_BUFFER structure [Network Drivers Starting with Windows Vista], PNET_BUFFER, PNET_BUFFER structure pointer [Network Drivers Starting with Windows Vista], _NET_BUFFER, ndis/NET_BUFFER, ndis/PNET_BUFFER, ndis_netbuf_structures_ref_e07734b2-9135-48a5-b3d4-f6e252a52c45.xml, netvista.net_buffer"
 f1_keywords:
  - "ndis/NET_BUFFER"
+ - "NET_BUFFER"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NET_BUFFER
-product:
-- Windows
 targetos: Windows
 req.typenames: NET_BUFFER, *PNET_BUFFER
 ---

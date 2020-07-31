@@ -10,6 +10,7 @@ keywords: ["_AVC_PEER_DO_LOCATOR structure"]
 ms.keywords: "*PAVC_PEER_DO_LOCATOR, AVC_PEER_DO_LOCATOR, AVC_PEER_DO_LOCATOR structure [Streaming Media Devices], PAVC_PEER_DO_LOCATOR, PAVC_PEER_DO_LOCATOR structure pointer [Streaming Media Devices], _AVC_PEER_DO_LOCATOR, avc/AVC_PEER_DO_LOCATOR, avc/PAVC_PEER_DO_LOCATOR, avcref_6e8543dc-a712-4031-8f48-cf789d320551.xml, stream.avc_peer_do_locator"
 f1_keywords:
  - "avc/AVC_PEER_DO_LOCATOR"
+ - "AVC_PEER_DO_LOCATOR"
 req.header: avc.h
 req.include-header: Avc.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - avc.h
 api_name:
 - AVC_PEER_DO_LOCATOR
-product:
-- Windows
 targetos: Windows
 req.typenames: AVC_PEER_DO_LOCATOR, *PAVC_PEER_DO_LOCATOR
 ---

@@ -8,6 +8,7 @@ ms.date: 11/02/2018
 keywords: ["NetConfigurationQueryBinary function"]
 f1_keywords:
  - "netconfiguration/NetConfigurationQueryBinary"
+ - "NetConfigurationQueryBinary"
 ms.keywords: NetConfigurationQueryBinary
 req.header: netconfiguration.h
 req.include-header: netadaptercx.h
@@ -37,8 +38,6 @@ api_location:
 api_name: 
 - NetConfigurationQueryBinary
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetConfigurationQueryBinary function

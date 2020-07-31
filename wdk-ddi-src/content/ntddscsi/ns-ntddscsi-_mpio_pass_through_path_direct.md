@@ -10,6 +10,7 @@ keywords: ["_MPIO_PASS_THROUGH_PATH_DIRECT structure"]
 ms.keywords: "*PMPIO_PASS_THROUGH_PATH_DIRECT, MPIO_PASS_THROUGH_PATH_DIRECT, MPIO_PASS_THROUGH_PATH_DIRECT structure [Storage Devices], PMPIO_PASS_THROUGH_PATH_DIRECT, PMPIO_PASS_THROUGH_PATH_DIRECT structure pointer [Storage Devices], _MPIO_PASS_THROUGH_PATH_DIRECT, ntddscsi/MPIO_PASS_THROUGH_PATH_DIRECT, ntddscsi/PMPIO_PASS_THROUGH_PATH_DIRECT, storage.mpio_pass_through_path_direct, structs-scsibus_54825e13-2114-46d8-ab0f-84feb86b8f5c.xml"
 f1_keywords:
  - "ntddscsi/MPIO_PASS_THROUGH_PATH_DIRECT"
+ - "MPIO_PASS_THROUGH_PATH_DIRECT"
 req.header: ntddscsi.h
 req.include-header: Ntddscsi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddscsi.h
 api_name:
 - MPIO_PASS_THROUGH_PATH_DIRECT
-product:
-- Windows
 targetos: Windows
 req.typenames: MPIO_PASS_THROUGH_PATH_DIRECT, *PMPIO_PASS_THROUGH_PATH_DIRECT
 ---

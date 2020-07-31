@@ -10,6 +10,7 @@ keywords: ["ClfsQueryLogFileInformation function"]
 ms.keywords: ClfsQueryLogFileInformation, ClfsQueryLogFileInformation routine [Kernel-Mode Driver Architecture], Clfs_ff89b511-dc33-4407-b967-170b82cb70c3.xml, kernel.clfsquerylogfileinformation, wdm/ClfsQueryLogFileInformation
 f1_keywords:
  - "wdm/ClfsQueryLogFileInformation"
+ - "ClfsQueryLogFileInformation"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
 - ClfsQueryLogFileInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

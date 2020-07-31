@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_SETQUEUEDLIMIT structure"]
 ms.keywords: D3DKMT_SETQUEUEDLIMIT, D3DKMT_SETQUEUEDLIMIT structure [Display Devices], OpenGL_Structs_3c7f7e33-f71a-4547-89ee-7dba69917a4f.xml, _D3DKMT_SETQUEUEDLIMIT, d3dkmthk/D3DKMT_SETQUEUEDLIMIT, display.d3dkmt_setqueuedlimit
 f1_keywords:
  - "d3dkmthk/D3DKMT_SETQUEUEDLIMIT"
+ - "D3DKMT_SETQUEUEDLIMIT"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMT_SETQUEUEDLIMIT
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_SETQUEUEDLIMIT

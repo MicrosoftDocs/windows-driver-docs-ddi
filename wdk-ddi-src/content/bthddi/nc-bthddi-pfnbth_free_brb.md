@@ -10,6 +10,7 @@ keywords: ["PFNBTH_FREE_BRB callback function"]
 ms.keywords: BthFreeBrb, BthFreeBrb callback function [Bluetooth Devices], PFNBTH_FREE_BRB, PFNBTH_FREE_BRB callback, bltooth.bthfreebrb, bth_funcs_434cd24f-2604-4526-ac74-14a151365658.xml, bthddi/BthFreeBrb
 f1_keywords:
  - "bthddi/BthFreeBrb"
+ - "BthFreeBrb"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - bthddi.h
 api_name:
 - BthFreeBrb
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

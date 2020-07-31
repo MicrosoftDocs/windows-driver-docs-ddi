@@ -10,6 +10,7 @@ keywords: ["_BAND_LOCATION_INFO structure"]
 ms.keywords: "*PBAND_LOCATION_INFO, BAND_LOCATION_INFO, BAND_LOCATION_INFO structure [Storage Devices], PBAND_LOCATION_INFO, PBAND_LOCATION_INFO structure pointer [Storage Devices], _BAND_LOCATION_INFO, ehstorbandmgmt/BAND_LOCATION_INFO, ehstorbandmgmt/PBAND_LOCATION_INFO, storage.band_location_info"
 f1_keywords:
  - "ehstorbandmgmt/BAND_LOCATION_INFO"
+ - "BAND_LOCATION_INFO"
 req.header: ehstorbandmgmt.h
 req.include-header: EhStorBandMgmt.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - EhStorBandMgmt.h
 api_name:
 - BAND_LOCATION_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: BAND_LOCATION_INFO, *PBAND_LOCATION_INFO
 ---

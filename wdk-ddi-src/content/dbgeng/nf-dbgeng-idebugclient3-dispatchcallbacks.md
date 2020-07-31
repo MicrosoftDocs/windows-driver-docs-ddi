@@ -10,6 +10,7 @@ keywords: ["IDebugClient3::DispatchCallbacks"]
 ms.keywords: DispatchCallbacks, DispatchCallbacks method [Windows Debugging], DispatchCallbacks method [Windows Debugging],IDebugClient interface, DispatchCallbacks method [Windows Debugging],IDebugClient2 interface, DispatchCallbacks method [Windows Debugging],IDebugClient3 interface, DispatchCallbacks method [Windows Debugging],IDebugClient4 interface, DispatchCallbacks method [Windows Debugging],IDebugClient5 interface, IDebugClient interface [Windows Debugging],DispatchCallbacks method, IDebugClient2 interface [Windows Debugging],DispatchCallbacks method, IDebugClient2::DispatchCallbacks, IDebugClient3 interface [Windows Debugging],DispatchCallbacks method, IDebugClient3.DispatchCallbacks, IDebugClient3::DispatchCallbacks, IDebugClient4 interface [Windows Debugging],DispatchCallbacks method, IDebugClient4::DispatchCallbacks, IDebugClient5 interface [Windows Debugging],DispatchCallbacks method, IDebugClient5::DispatchCallbacks, IDebugClient::DispatchCallbacks, IDebugClient_faf284c2-ca0f-4e00-bd74-08817338a808.xml, dbgeng/IDebugClient2::DispatchCallbacks, dbgeng/IDebugClient3::DispatchCallbacks, dbgeng/IDebugClient4::DispatchCallbacks, dbgeng/IDebugClient5::DispatchCallbacks, dbgeng/IDebugClient::DispatchCallbacks, debugger.dispatchcallbacks
 f1_keywords:
  - "dbgeng/IDebugClient.DispatchCallbacks"
+ - "IDebugClient.DispatchCallbacks"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h, Winbase.h
 req.target-type: Desktop
@@ -40,8 +41,6 @@ api_name:
 - IDebugClient3.DispatchCallbacks
 - IDebugClient4.DispatchCallbacks
 - IDebugClient5.DispatchCallbacks
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

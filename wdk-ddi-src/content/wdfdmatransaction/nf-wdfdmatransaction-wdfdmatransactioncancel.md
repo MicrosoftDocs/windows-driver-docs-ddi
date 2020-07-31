@@ -10,6 +10,7 @@ keywords: ["WdfDmaTransactionCancel function"]
 ms.keywords: WdfDmaTransactionCancel, WdfDmaTransactionCancel method, kmdf.wdfdmatransactioncancel, wdf.wdfdmatransactioncancel, wdfdmatransaction/WdfDmaTransactionCancel
 f1_keywords:
  - "wdfdmatransaction/WdfDmaTransactionCancel"
+ - "WdfDmaTransactionCancel"
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfDmaTransactionCancel
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

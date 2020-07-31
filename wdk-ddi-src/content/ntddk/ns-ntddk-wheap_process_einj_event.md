@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["WHEAP_PROCESS_EINJ_EVENT structure"]
 f1_keywords:
  - "ntddk/WHEAP_PROCESS_EINJ_EVENT"
+ - "WHEAP_PROCESS_EINJ_EVENT"
 ms.keywords: WHEAP_PROCESS_EINJ_EVENT, WHEAP_PROCESS_EINJ_EVENT, *PWHEAP_PROCESS_EINJ_EVENT, 
 req.header: ntddk.h
 req.include-header:

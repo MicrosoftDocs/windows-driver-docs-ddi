@@ -7,6 +7,7 @@ ms.date: 09/12/2018
 keywords: ["IDataModelNameBinder::EnumerateReferences"]
 f1_keywords:
  - "dbgmodel/IDataModelNameBinder.EnumerateReferences"
+ - "IDataModelNameBinder.EnumerateReferences"
 ms.keywords: IDataModelNameBinder::EnumerateReferences, EnumerateReferences, IDataModelNameBinder.EnumerateReferences, IDataModelNameBinder::EnumerateReferences, IDataModelNameBinder.EnumerateReferences
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDataModelNameBinder.EnumerateReferences
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

@@ -10,6 +10,7 @@ keywords: ["InitializePrintProvidor function"]
 ms.keywords: InitializePrintProvidor, InitializePrintProvidor function [Print Devices], print.initializeprintprovidor, spoolfnc_b67588a9-bccb-4181-8fd0-cbdc1b7af7c5.xml, winsplp/InitializePrintProvidor
 f1_keywords:
  - "winsplp/InitializePrintProvidor"
+ - "InitializePrintProvidor"
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - winsplp.h
 api_name:
 - InitializePrintProvidor
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

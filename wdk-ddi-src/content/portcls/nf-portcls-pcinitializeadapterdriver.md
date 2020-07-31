@@ -10,6 +10,7 @@ keywords: ["PcInitializeAdapterDriver function"]
 ms.keywords: PcInitializeAdapterDriver, PcInitializeAdapterDriver function [Audio Devices], audio.pcinitializeadapterdriver, audpc-routines_57c7e54d-ab27-4752-b13b-9d7de107322c.xml, portcls/PcInitializeAdapterDriver
 f1_keywords:
  - "portcls/PcInitializeAdapterDriver"
+ - "PcInitializeAdapterDriver"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Portcls.dll
 api_name:
 - PcInitializeAdapterDriver
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["PcUnregisterAdapterPnpManagement function"]
 ms.keywords: PcUnregisterAdapterPnpManagement, PcUnregisterAdapterPnpManagement function [Audio Devices], audio.pcunregisteradapterpnpmanagement, portcls/PcUnregisterAdapterPnpManagement
 f1_keywords:
  - "portcls/PcUnregisterAdapterPnpManagement"
+ - "PcUnregisterAdapterPnpManagement"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Portcls.dll
 api_name:
 - PcUnregisterAdapterPnpManagement
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

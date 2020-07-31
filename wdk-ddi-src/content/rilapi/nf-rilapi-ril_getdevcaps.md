@@ -10,6 +10,7 @@ keywords: ["RIL_GetDevCaps function"]
 ms.keywords: RIL_GetDevCaps, RIL_GetDevCaps method [Network Drivers Starting with Windows Vista], netvista.ril_getdevcaps, rilapi/RIL_GetDevCaps
 f1_keywords:
  - "rilapi/RIL_GetDevCaps"
+ - "RIL_GetDevCaps"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_GetDevCaps
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

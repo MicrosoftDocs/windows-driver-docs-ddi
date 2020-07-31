@@ -10,6 +10,7 @@ keywords: ["BLOCK_DEVICE_TOKEN_DESCRIPTOR structure"]
 ms.keywords: "*PBLOCK_DEVICE_TOKEN_DESCRIPTOR, BLOCK_DEVICE_TOKEN_DESCRIPTOR, BLOCK_DEVICE_TOKEN_DESCRIPTOR structure [Storage Devices], PBLOCK_DEVICE_TOKEN_DESCRIPTOR, PBLOCK_DEVICE_TOKEN_DESCRIPTOR structure pointer [Storage Devices], scsi/BLOCK_DEVICE_TOKEN_DESCRIPTOR, scsi/PBLOCK_DEVICE_TOKEN_DESCRIPTOR, storage.block_device_token_descriptor"
 f1_keywords:
  - "storport/BLOCK_DEVICE_TOKEN_DESCRIPTOR"
+ - "BLOCK_DEVICE_TOKEN_DESCRIPTOR"
 req.header: storport.h
 req.include-header: Scsi.h, Minitape.h, Storport.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - scsi.h
 api_name:
 - BLOCK_DEVICE_TOKEN_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: BLOCK_DEVICE_TOKEN_DESCRIPTOR, *PBLOCK_DEVICE_TOKEN_DESCRIPTOR
 ---

@@ -10,6 +10,7 @@ keywords: ["_STOR_ADDR_BTL8 structure"]
 ms.keywords: "*PSTOR_ADDR_BTL8, PSTOR_ADDR_BTL8, PSTOR_ADDR_BTL8 structure pointer [Storage Devices], STOR_ADDR_BTL8, STOR_ADDR_BTL8 structure [Storage Devices], _STOR_ADDR_BTL8, storage.stor_addr_btl8, storport/PSTOR_ADDR_BTL8, storport/STOR_ADDR_BTL8"
 f1_keywords:
  - "minitape/STOR_ADDR_BTL8"
+ - "STOR_ADDR_BTL8"
 req.header: minitape.h
 req.include-header: Storport.h, Scsi.h, Minitape.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Storport.h
 api_name:
 - STOR_ADDR_BTL8
-product:
-- Windows
 targetos: Windows
 req.typenames: STOR_ADDR_BTL8, *PSTOR_ADDR_BTL8
 ---

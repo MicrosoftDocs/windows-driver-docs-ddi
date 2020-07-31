@@ -10,6 +10,7 @@ keywords: ["IoReportResourceForDetection function"]
 ms.keywords: IoReportResourceForDetection, IoReportResourceForDetection routine [Kernel-Mode Driver Architecture], k104_e2a8d386-d1bb-4bf5-aa30-d3a905e91174.xml, kernel.ioreportresourcefordetection, ntddk/IoReportResourceForDetection
 f1_keywords:
  - "ntddk/IoReportResourceForDetection"
+ - "IoReportResourceForDetection"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoReportResourceForDetection
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

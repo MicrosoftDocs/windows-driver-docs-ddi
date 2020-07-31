@@ -8,6 +8,7 @@ ms.date: 07/13/2018
 keywords: ["_NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES structure"]
 f1_keywords:
  - "netreceivescaling/_NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES"
+ - "_NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES"
 ms.keywords: _NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES, NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES, *PNET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES, 
 req.header: netreceivescaling.h
 req.include-header:
@@ -30,8 +31,6 @@ api_location:
 - netreceivescaling.h
 api_name: 
 - _NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES
-product:
-- Windows
 targetos: Windows
 ---
 

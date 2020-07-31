@@ -10,6 +10,7 @@ keywords: ["KSAC3_DOWNMIX structure"]
 ms.keywords: "*PKSAC3_DOWNMIX, KSAC3_DOWNMIX, KSAC3_DOWNMIX structure [Audio Devices], PKSAC3_DOWNMIX, PKSAC3_DOWNMIX structure pointer [Audio Devices], aud-prop_24e957af-1fba-467d-93f6-3b7ca211238e.xml, audio.ksac3_downmix, ksmedia/KSAC3_DOWNMIX, ksmedia/PKSAC3_DOWNMIX"
 f1_keywords:
  - "ksmedia/KSAC3_DOWNMIX"
+ - "KSAC3_DOWNMIX"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KSAC3_DOWNMIX
-product:
-- Windows
 targetos: Windows
 req.typenames: KSAC3_DOWNMIX, *PKSAC3_DOWNMIX
 ---

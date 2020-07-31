@@ -10,6 +10,7 @@ keywords: ["NdisInterlockedPushEntrySList macro"]
 ms.keywords: NdisInterlockedPushEntrySList, NdisInterlockedPushEntrySList macro [Network Drivers Starting with Windows Vista], ndis/NdisInterlockedPushEntrySList, ndis_interlocked_ref_ee1513c8-bb1a-4f3e-981b-7c448b3d1e41.xml, netvista.ndisinterlockedpushentryslist
 f1_keywords:
  - "ndis/NdisInterlockedPushEntrySList"
+ - "NdisInterlockedPushEntrySList"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NdisInterlockedPushEntrySList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

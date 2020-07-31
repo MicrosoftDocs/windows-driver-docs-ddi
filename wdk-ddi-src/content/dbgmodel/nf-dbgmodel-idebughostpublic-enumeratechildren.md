@@ -7,6 +7,7 @@ ms.date: 09/21/2018
 keywords: ["IDebugHostPublic::EnumerateChildren"]
 f1_keywords:
  - "dbgmodel/IDebugHostPublic.EnumerateChildren"
+ - "IDebugHostPublic.EnumerateChildren"
 ms.keywords: IDebugHostPublic::EnumerateChildren, EnumerateChildren, IDebugHostPublic.EnumerateChildren, IDebugHostPublic::EnumerateChildren, IDebugHostPublic.EnumerateChildren
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostPublic.EnumerateChildren
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

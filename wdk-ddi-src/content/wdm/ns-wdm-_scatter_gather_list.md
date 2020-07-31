@@ -10,6 +10,7 @@ keywords: ["_SCATTER_GATHER_LIST structure"]
 ms.keywords: "*PSCATTER_GATHER_LIST, PSCATTER_GATHER_LIST, PSCATTER_GATHER_LIST structure pointer [Kernel-Mode Driver Architecture], SCATTER_GATHER_LIST, SCATTER_GATHER_LIST structure [Kernel-Mode Driver Architecture], _SCATTER_GATHER_LIST, kernel.scatter_gather_list, kstruct_d_b8c13069-6d90-4fcf-8582-c57bf11509ea.xml, wdm/PSCATTER_GATHER_LIST, wdm/SCATTER_GATHER_LIST"
 f1_keywords:
  - "wdm/SCATTER_GATHER_LIST"
+ - "SCATTER_GATHER_LIST"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - SCATTER_GATHER_LIST
-product:
-- Windows
 targetos: Windows
 req.typenames: SCATTER_GATHER_LIST, *PSCATTER_GATHER_LIST
 ---

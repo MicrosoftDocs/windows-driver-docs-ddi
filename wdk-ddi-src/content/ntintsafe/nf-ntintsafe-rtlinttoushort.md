@@ -10,6 +10,7 @@ keywords: ["RtlIntToUShort function"]
 ms.keywords: RtlIntToUShort, RtlIntToUShort function [Kernel-Mode Driver Architecture], kernel.rtlinttoushort, ntintsafe/RtlIntToUShort
 f1_keywords:
  - "ntintsafe/RtlIntToUShort"
+ - "RtlIntToUShort"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Ntintsafe.h
 api_name:
 - RtlIntToUShort
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

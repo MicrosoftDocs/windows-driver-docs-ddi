@@ -10,6 +10,7 @@ keywords: ["FltAllocateGenericWorkItem function"]
 ms.keywords: FltAllocateGenericWorkItem, FltAllocateGenericWorkItem function [Installable File System Drivers], FltApiRef_a_to_d_06bae00e-f41d-4cc9-8664-94e06d004458.xml, fltkernel/FltAllocateGenericWorkItem, ifsk.fltallocategenericworkitem
 f1_keywords:
  - "fltkernel/FltAllocateGenericWorkItem"
+ - "FltAllocateGenericWorkItem"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltAllocateGenericWorkItem
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

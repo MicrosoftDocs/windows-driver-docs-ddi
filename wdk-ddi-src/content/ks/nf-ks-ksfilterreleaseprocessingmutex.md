@@ -10,6 +10,7 @@ keywords: ["KsFilterReleaseProcessingMutex function"]
 ms.keywords: KsFilterReleaseProcessingMutex, KsFilterReleaseProcessingMutex function [Streaming Media Devices], avfunc_35026563-e7aa-4305-a4fc-2558c1b21aa7.xml, ks/KsFilterReleaseProcessingMutex, stream.ksfilterreleaseprocessingmutex
 f1_keywords:
  - "ks/KsFilterReleaseProcessingMutex"
+ - "KsFilterReleaseProcessingMutex"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsFilterReleaseProcessingMutex
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

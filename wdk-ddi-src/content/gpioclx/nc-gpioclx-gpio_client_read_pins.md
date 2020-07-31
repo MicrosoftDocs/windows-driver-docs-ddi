@@ -10,6 +10,7 @@ keywords: ["GPIO_CLIENT_READ_PINS callback function"]
 ms.keywords: CLIENT_ReadGpioPins, CLIENT_ReadGpioPins callback, CLIENT_ReadGpioPins callback function [Parallel Ports], GPIO.client_readgpiopins, GPIO_CLIENT_READ_PINS, gpioclx/CLIENT_ReadGpioPins
 f1_keywords:
  - "gpioclx/CLIENT_ReadGpioPins"
+ - "CLIENT_ReadGpioPins"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Gpioclx.h
 api_name:
 - CLIENT_ReadGpioPins
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

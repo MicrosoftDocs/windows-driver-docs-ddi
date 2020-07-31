@@ -10,6 +10,7 @@ keywords: ["IKsControl::KsEvent"]
 ms.keywords: IKsControl interface [Streaming Media Devices],KsEvent method, IKsControl.KsEvent, IKsControl::KsEvent, KsEvent, KsEvent method [Streaming Media Devices], KsEvent method [Streaming Media Devices],IKsControl interface, ksproxy/IKsControl::KsEvent, ksproxy_d7ef7fda-b615-4aa9-8528-aa66de81da5b.xml, stream.ikscontrol_ksevent
 f1_keywords:
  - "ksproxy/IKsControl.KsEvent"
+ - "IKsControl.KsEvent"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: DesktopMobile
@@ -36,8 +37,6 @@ api_location:
 - ksproxy.h
 api_name:
 - IKsControl.KsEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

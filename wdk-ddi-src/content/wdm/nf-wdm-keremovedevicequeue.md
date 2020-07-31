@@ -10,6 +10,7 @@ keywords: ["KeRemoveDeviceQueue function"]
 ms.keywords: KeRemoveDeviceQueue, KeRemoveDeviceQueue routine [Kernel-Mode Driver Architecture], k105_3e26b41e-7e9c-4fc9-8496-f107f3450dd7.xml, kernel.keremovedevicequeue, wdm/KeRemoveDeviceQueue
 f1_keywords:
  - "wdm/KeRemoveDeviceQueue"
+ - "KeRemoveDeviceQueue"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeRemoveDeviceQueue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

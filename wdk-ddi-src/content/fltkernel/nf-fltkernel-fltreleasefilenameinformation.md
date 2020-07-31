@@ -10,6 +10,7 @@ keywords: ["FltReleaseFileNameInformation function"]
 ms.keywords: FltApiRef_p_to_z_c5266e1d-ab6a-406d-a319-2e9cc2f1acb4.xml, FltReleaseFileNameInformation, FltReleaseFileNameInformation function [Installable File System Drivers], fltkernel/FltReleaseFileNameInformation, ifsk.fltreleasefilenameinformation
 f1_keywords:
  - "fltkernel/FltReleaseFileNameInformation"
+ - "FltReleaseFileNameInformation"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltReleaseFileNameInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

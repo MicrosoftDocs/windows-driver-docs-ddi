@@ -10,6 +10,7 @@ keywords: ["D3DDDIARG_UPDATESUBRESOURCEUP structure"]
 ms.keywords: D3DDDIARG_UPDATESUBRESOURCEUP, D3DDDIARG_UPDATESUBRESOURCEUP structure [Display Devices], d3dumddi/D3DDDIARG_UPDATESUBRESOURCEUP, display.d3dddiarg_updatesubresourceup
 f1_keywords:
  - "d3dumddi/D3DDDIARG_UPDATESUBRESOURCEUP"
+ - "D3DDDIARG_UPDATESUBRESOURCEUP"
 req.header: d3dumddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - D3dumddi.h
 api_name:
 - D3DDDIARG_UPDATESUBRESOURCEUP
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_UPDATESUBRESOURCEUP
 ---

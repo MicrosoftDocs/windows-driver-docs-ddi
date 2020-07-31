@@ -10,6 +10,7 @@ keywords: ["tagKS_VBIINFOHEADER structure"]
 ms.keywords: "*PKS_VBIINFOHEADER, KS_VBIINFOHEADER, KS_VBIINFOHEADER structure [Streaming Media Devices], PKS_VBIINFOHEADER, PKS_VBIINFOHEADER structure pointer [Streaming Media Devices], ksmedia/KS_VBIINFOHEADER, ksmedia/PKS_VBIINFOHEADER, stream.ks_vbiinfoheader, tagKS_VBIINFOHEADER, vidcapstruct_2a637c59-2852-4b59-9d92-f51c9892df85.xml"
 f1_keywords:
  - "ksmedia/KS_VBIINFOHEADER"
+ - "KS_VBIINFOHEADER"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KS_VBIINFOHEADER
-product:
-- Windows
 targetos: Windows
 req.typenames: KS_VBIINFOHEADER, *PKS_VBIINFOHEADER
 ---

@@ -10,6 +10,7 @@ keywords: ["_RemoveiSNSServer_IN structure"]
 ms.keywords: "*PRemoveiSNSServer_IN, PRemoveiSNSServer_IN, PRemoveiSNSServer_IN structure pointer [Storage Devices], RemoveiSNSServer_IN, RemoveiSNSServer_IN structure [Storage Devices], _RemoveiSNSServer_IN, iscsiop/PRemoveiSNSServer_IN, iscsiop/RemoveiSNSServer_IN, storage.removeisnsserver_in, structs-iSCSI_b79fe0e4-386c-4b5c-9b43-ef8fdb7f4b6a.xml"
 f1_keywords:
  - "iscsiop/RemoveiSNSServer_IN"
+ - "RemoveiSNSServer_IN"
 req.header: iscsiop.h
 req.include-header: Iscsiop.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - iscsiop.h
 api_name:
 - RemoveiSNSServer_IN
-product:
-- Windows
 targetos: Windows
 req.typenames: RemoveiSNSServer_IN, *PRemoveiSNSServer_IN
 ---

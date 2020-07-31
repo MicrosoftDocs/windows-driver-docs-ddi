@@ -10,6 +10,7 @@ keywords: ["ProvidorFindClosePrinterChangeNotification function"]
 ms.keywords: ProvidorFindClosePrinterChangeNotification, ProvidorFindClosePrinterChangeNotification function [Print Devices], print.providorfindcloseprinterchangenotification, winsplp/ProvidorFindClosePrinterChangeNotification
 f1_keywords:
  - "winsplp/ProvidorFindClosePrinterChangeNotification"
+ - "ProvidorFindClosePrinterChangeNotification"
 req.header: winsplp.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Winsplp.h
 api_name:
 - ProvidorFindClosePrinterChangeNotification
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

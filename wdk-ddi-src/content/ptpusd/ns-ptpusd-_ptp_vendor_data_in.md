@@ -10,6 +10,7 @@ keywords: ["_PTP_VENDOR_DATA_IN structure"]
 ms.keywords: "*PPTP_VENDOR_DATA_IN, PPTP_VENDOR_DATA_IN, PPTP_VENDOR_DATA_IN structure pointer [Imaging Devices], PTP_VENDOR_DATA_IN, PTP_VENDOR_DATA_IN structure [Imaging Devices], _PTP_VENDOR_DATA_IN, image.ptp_vendor_data_in, ptpusd/PPTP_VENDOR_DATA_IN, ptpusd/PTP_VENDOR_DATA_IN, wiastrct_b0ebb671-78d9-4224-8bde-893fb0afc9f8.xml"
 f1_keywords:
  - "ptpusd/PTP_VENDOR_DATA_IN"
+ - "PTP_VENDOR_DATA_IN"
 req.header: ptpusd.h
 req.include-header: Ptpusd.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ptpusd.h
 api_name:
 - PTP_VENDOR_DATA_IN
-product:
-- Windows
 targetos: Windows
 req.typenames: PTP_VENDOR_DATA_IN, *PPTP_VENDOR_DATA_IN
 ---

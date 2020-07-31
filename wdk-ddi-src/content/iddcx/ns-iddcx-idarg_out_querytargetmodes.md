@@ -10,6 +10,7 @@ keywords: ["IDARG_OUT_QUERYTARGETMODES structure"]
 ms.keywords: IDARG_OUT_QUERYTARGETMODES, IDARG_OUT_QUERYTARGETMODES structure [Display Devices], display.idarg_out_querytargetmodes, iddcx/IDARG_OUT_QUERYTARGETMODES
 f1_keywords:
  - "iddcx/IDARG_OUT_QUERYTARGETMODES"
+ - "IDARG_OUT_QUERYTARGETMODES"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - iddcx.h
 api_name:
 - IDARG_OUT_QUERYTARGETMODES
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IoInitializePriorityInfo function"]
 ms.keywords: IoInitializePriorityInfo, IoInitializePriorityInfo routine [Installable File System Drivers], ifsk.ioinitializepriorityinfo, ioref_65eef333-11a8-4603-9b64-dc317f3d4e7b.xml, ntifs/IoInitializePriorityInfo
 f1_keywords:
  - "ntifs/IoInitializePriorityInfo"
+ - "IoInitializePriorityInfo"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - IoInitializePriorityInfo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

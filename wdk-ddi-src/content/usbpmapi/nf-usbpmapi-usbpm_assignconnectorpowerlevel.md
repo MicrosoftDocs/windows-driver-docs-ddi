@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["UsbPm_AssignConnectorPowerLevel function"]
 f1_keywords:
  - "usbpmapi/UsbPm_AssignConnectorPowerLevel"
+ - "UsbPm_AssignConnectorPowerLevel"
 ms.keywords: UsbPm_AssignConnectorPowerLevel
 tech.root: usbref
 req.header: usbpmapi.h
@@ -34,8 +35,6 @@ api_location:
 - UsbPmApi.lib
 api_name: 
 - UsbPm_AssignConnectorPowerLevel
-product:
-- Windows
 targetos: Windows
 
 

@@ -10,6 +10,7 @@ keywords: ["NdisGetSystemUpTimeEx function"]
 ms.keywords: NdisGetSystemUpTimeEx, NdisGetSystemUpTimeEx function [Network Drivers Starting with Windows Vista], ndis/NdisGetSystemUpTimeEx, ndis_timer_ref_d487ece6-5ab0-4386-bd6e-1eaecbabf903.xml, netvista.ndisgetsystemuptimeex
 f1_keywords:
  - "ndis/NdisGetSystemUpTimeEx"
+ - "NdisGetSystemUpTimeEx"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisGetSystemUpTimeEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

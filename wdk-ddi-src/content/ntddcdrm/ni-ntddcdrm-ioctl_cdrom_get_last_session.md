@@ -10,6 +10,7 @@ keywords: ["IOCTL_CDROM_GET_LAST_SESSION IOCTL"]
 ms.keywords: IOCTL_CDROM_GET_LAST_SESSION, IOCTL_CDROM_GET_LAST_SESSION control, IOCTL_CDROM_GET_LAST_SESSION control code [Storage Devices], k307_f2597708-18cf-4f97-87f8-2d1c2e9a75ea.xml, ntddcdrm/IOCTL_CDROM_GET_LAST_SESSION, storage.ioctl_cdrom_get_last_session
 f1_keywords:
  - "ntddcdrm/IOCTL_CDROM_GET_LAST_SESSION"
+ - "IOCTL_CDROM_GET_LAST_SESSION"
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddcdrm.h
 api_name:
 - IOCTL_CDROM_GET_LAST_SESSION
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

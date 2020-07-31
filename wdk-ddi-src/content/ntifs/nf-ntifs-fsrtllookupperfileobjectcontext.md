@@ -10,6 +10,7 @@ keywords: ["FsRtlLookupPerFileObjectContext function"]
 ms.keywords: FsRtlLookupPerFileObjectContext, FsRtlLookupPerFileObjectContext function [Installable File System Drivers], fsrtlref_1b9542db-9037-400a-97e2-1bcfddcd1957.xml, ifsk.fsrtllookupperfileobjectcontext, ntifs/FsRtlLookupPerFileObjectContext
 f1_keywords:
  - "ntifs/FsRtlLookupPerFileObjectContext"
+ - "FsRtlLookupPerFileObjectContext"
 req.header: ntifs.h
 req.include-header: Fltkernel.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlLookupPerFileObjectContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

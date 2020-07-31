@@ -10,6 +10,7 @@ keywords: ["RxPostToWorkerThread function"]
 ms.keywords: RxPostToWorkerThread, RxPostToWorkerThread routine [Installable File System Drivers], ifsk.rxposttoworkerthread, rxref_19387eca-2666-41c0-a93d-2133d3ca03ee.xml, rxworkq/RxPostToWorkerThread
 f1_keywords:
  - "rxworkq/RxPostToWorkerThread"
+ - "RxPostToWorkerThread"
 req.header: rxworkq.h
 req.include-header: Rxworkq.h, Rxstruc.h, Ntifs.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - rxworkq.h
 api_name:
 - RxPostToWorkerThread
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

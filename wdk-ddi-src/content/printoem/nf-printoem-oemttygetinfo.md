@@ -10,6 +10,7 @@ keywords: ["OEMTTYGetInfo function"]
 ms.keywords: OEMTTYGetInfo, OEMTTYGetInfo function [Print Devices], print.oemttygetinfo, print_obsoletefunctions_7da21ed3-626e-454f-9357-0ab0a0640a27.xml, printoem/OEMTTYGetInfo
 f1_keywords:
  - "printoem/OEMTTYGetInfo"
+ - "OEMTTYGetInfo"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - printoem.h
 api_name:
 - OEMTTYGetInfo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

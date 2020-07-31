@@ -10,6 +10,7 @@ keywords: ["IRegistryKey::DeleteKey"]
 ms.keywords: DeleteKey, DeleteKey method [Audio Devices], DeleteKey method [Audio Devices],IRegistryKey interface, IRegistryKey interface [Audio Devices],DeleteKey method, IRegistryKey.DeleteKey, IRegistryKey::DeleteKey, audio.iregistrykey_deletekey, audmp-routines_b5556b44-0bf4-47d2-8bbd-65d12c393341.xml, portcls/IRegistryKey::DeleteKey
 f1_keywords:
  - "portcls/IRegistryKey.DeleteKey"
+ - "IRegistryKey.DeleteKey"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IRegistryKey.DeleteKey
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

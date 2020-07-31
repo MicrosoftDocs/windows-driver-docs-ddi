@@ -10,6 +10,7 @@ keywords: ["KefReleaseSpinLockFromDpcLevel function"]
 ms.keywords: KeReleaseSpinLockFromDpcLevel, KeReleaseSpinLockFromDpcLevel routine [Kernel-Mode Driver Architecture], KefReleaseSpinLockFromDpcLevel, k105_ed15a49d-6903-4f9f-914c-668242701b1e.xml, kernel.kereleasespinlockfromdpclevel, wdm/KeReleaseSpinLockFromDpcLevel, wdm/KefReleaseSpinLockFromDpcLevel
 f1_keywords:
  - "wdm/KeReleaseSpinLockFromDpcLevel"
+ - "KeReleaseSpinLockFromDpcLevel"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - KeReleaseSpinLockFromDpcLevel
 - KefReleaseSpinLockFromDpcLevel
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

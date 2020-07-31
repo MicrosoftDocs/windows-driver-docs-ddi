@@ -10,6 +10,7 @@ keywords: ["DXGKDDI_QUERY_CHILD_RELATIONS callback function"]
 ms.keywords: DXGKDDI_QUERY_CHILD_RELATIONS, DXGKDDI_QUERY_CHILD_RELATIONS callback, DmFunctions_783a9c6c-f6ac-4949-87f0-674dae768d36.xml, DxgkDdiQueryChildRelations, DxgkDdiQueryChildRelations callback function [Display Devices], display.dxgkddiquerychildrelations, dispmprt/DxgkDdiQueryChildRelations
 f1_keywords:
  - "dispmprt/DxgkDdiQueryChildRelations"
+ - "DxgkDdiQueryChildRelations"
 req.header: dispmprt.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dispmprt.h
 api_name:
 - DxgkDdiQueryChildRelations
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

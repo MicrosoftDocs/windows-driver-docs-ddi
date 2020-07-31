@@ -10,6 +10,7 @@ keywords: ["FwpsAleEndpointDestroyEnumHandle0 function"]
 ms.keywords: FwpsAleEndpointDestroyEnumHandle0, FwpsAleEndpointDestroyEnumHandle0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsAleEndpointDestroyEnumHandle0, netvista.fwpsaleendpointdestroyenumhandle0, wfp_ref_2_funct_3_fwps_A-B_3230abaf-8185-43b4-b46f-b1c1688ede2d.xml
 f1_keywords:
  - "fwpsk/FwpsAleEndpointDestroyEnumHandle0"
+ - "FwpsAleEndpointDestroyEnumHandle0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - fwpkclnt.dll
 api_name:
 - FwpsAleEndpointDestroyEnumHandle0
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

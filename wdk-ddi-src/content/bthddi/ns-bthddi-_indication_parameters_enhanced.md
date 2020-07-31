@@ -10,6 +10,7 @@ keywords: ["_INDICATION_PARAMETERS_ENHANCED structure"]
 ms.keywords: "*PINDICATION_PARAMETERS_ENHANCED, INDICATION_PARAMETERS_ENHANCED, INDICATION_PARAMETERS_ENHANCED structure [Bluetooth Devices], PINDICATION_PARAMETERS_ENHANCED, PINDICATION_PARAMETERS_ENHANCED structure pointer [Bluetooth Devices], _INDICATION_PARAMETERS_ENHANCED, bltooth.indication_parameters_enhanced, bthddi/INDICATION_PARAMETERS_ENHANCED, bthddi/PINDICATION_PARAMETERS_ENHANCED"
 f1_keywords:
  - "bthddi/INDICATION_PARAMETERS_ENHANCED"
+ - "INDICATION_PARAMETERS_ENHANCED"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Bthddi.h
 api_name:
 - INDICATION_PARAMETERS_ENHANCED
-product:
-- Windows
 targetos: Windows
 req.typenames: "*PINDICATION_PARAMETERS_ENHANCED, INDICATION_PARAMETERS_ENHANCED"
 ---

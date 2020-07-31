@@ -10,6 +10,7 @@ keywords: ["RILEXECUTORFOCUSSTATEPARAMMASK enumeration"]
 ms.keywords: RILEXECUTORFOCUSSTATEPARAMMASK, RILEXECUTORFOCUSSTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_EXECUTORFOCUSSTATE_ALL, RIL_PARAM_EXECUTORFOCUSSTATE_STATE, netvista.rilexecutorfocusstateparammask, ntddrilapitypes/RILEXECUTORFOCUSSTATEPARAMMASK, ntddrilapitypes/RIL_PARAM_EXECUTORFOCUSSTATE_ALL, ntddrilapitypes/RIL_PARAM_EXECUTORFOCUSSTATE_STATE
 f1_keywords:
  - "rilapitypes/RILEXECUTORFOCUSSTATEPARAMMASK"
+ - "RILEXECUTORFOCUSSTATEPARAMMASK"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILEXECUTORFOCUSSTATEPARAMMASK
-product:
-- Windows
 targetos: Windows
 req.typenames: RILEXECUTORFOCUSSTATEPARAMMASK
 ---

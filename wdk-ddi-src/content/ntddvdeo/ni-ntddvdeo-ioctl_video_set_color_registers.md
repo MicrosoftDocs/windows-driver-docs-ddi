@@ -10,6 +10,7 @@ keywords: ["IOCTL_VIDEO_SET_COLOR_REGISTERS IOCTL"]
 ms.keywords: IOCTL_VIDEO_SET_COLOR_REGISTERS, IOCTL_VIDEO_SET_COLOR_REGISTERS control, IOCTL_VIDEO_SET_COLOR_REGISTERS control code [Display Devices], Video_IOCTLs_29dd4eb9-3c05-4b2f-8572-66b7c599fef1.xml, display.ioctl_video_set_color_registers, ntddvdeo/IOCTL_VIDEO_SET_COLOR_REGISTERS
 f1_keywords:
  - "ntddvdeo/IOCTL_VIDEO_SET_COLOR_REGISTERS"
+ - "IOCTL_VIDEO_SET_COLOR_REGISTERS"
 req.header: ntddvdeo.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddvdeo.h
 api_name:
 - IOCTL_VIDEO_SET_COLOR_REGISTERS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

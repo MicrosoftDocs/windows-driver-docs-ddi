@@ -10,6 +10,7 @@ keywords: ["IDebugControl2::GetTextReplacement"]
 ms.keywords: GetTextReplacement, GetTextReplacement method [Windows Debugging], GetTextReplacement method [Windows Debugging],IDebugControl2 interface, GetTextReplacement method [Windows Debugging],IDebugControl3 interface, IDebugControl2 interface [Windows Debugging],GetTextReplacement method, IDebugControl2.GetTextReplacement, IDebugControl2::GetTextReplacement, IDebugControl3 interface [Windows Debugging],GetTextReplacement method, IDebugControl3::GetTextReplacement, IDebugControl_d21af006-aa5b-4faf-abba-3f28f338b6bd.xml, dbgeng/IDebugControl2::GetTextReplacement, dbgeng/IDebugControl3::GetTextReplacement, debugger.gettextreplacement
 f1_keywords:
  - "dbgeng/IDebugControl2.GetTextReplacement"
+ - "IDebugControl2.GetTextReplacement"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IDebugControl2.GetTextReplacement
 - IDebugControl3.GetTextReplacement
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

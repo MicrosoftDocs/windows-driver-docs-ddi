@@ -10,6 +10,7 @@ keywords: ["IDebugSystemObjects3::GetNumberSystems"]
 ms.keywords: GetNumberSystems, GetNumberSystems method [Windows Debugging], GetNumberSystems method [Windows Debugging],IDebugSystemObjects3 interface, GetNumberSystems method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects3 interface [Windows Debugging],GetNumberSystems method, IDebugSystemObjects3.GetNumberSystems, IDebugSystemObjects3::GetNumberSystems, IDebugSystemObjects4 interface [Windows Debugging],GetNumberSystems method, IDebugSystemObjects4::GetNumberSystems, IDebugSystemObjects_821c2f0e-0863-4300-b26e-93e86ad9f0dd.xml, dbgeng/IDebugSystemObjects3::GetNumberSystems, dbgeng/IDebugSystemObjects4::GetNumberSystems, debugger.getnumbersystems
 f1_keywords:
  - "dbgeng/IDebugSystemObjects3.GetNumberSystems"
+ - "IDebugSystemObjects3.GetNumberSystems"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IDebugSystemObjects3.GetNumberSystems
 - IDebugSystemObjects4.GetNumberSystems
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

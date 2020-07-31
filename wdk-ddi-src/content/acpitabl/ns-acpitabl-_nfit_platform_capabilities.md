@@ -7,6 +7,7 @@ ms.date: 10/02/2018
 keywords: ["_NFIT_PLATFORM_CAPABILITIES structure"]
 f1_keywords:
  - "acpitabl/_NFIT_PLATFORM_CAPABILITIES"
+ - "_NFIT_PLATFORM_CAPABILITIES"
 ms.keywords: _NFIT_PLATFORM_CAPABILITIES, NFIT_PLATFORM_CAPABILITIES, *PNFIT_PLATFORM_CAPABILITIES, 
 req.header: acpitabl.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - acpitabl.h
 api_name: 
 - _NFIT_PLATFORM_CAPABILITIES
-product:
-- Windows
 targetos: Windows
 ---
 

@@ -10,6 +10,7 @@ keywords: ["_HIDP_DATA structure"]
 ms.keywords: "*PHIDP_DATA, HIDP_DATA, HIDP_DATA structure [Human Input Devices], PHIDP_DATA, PHIDP_DATA structure pointer [Human Input Devices], _HIDP_DATA, hid.hidp_data, hidpi/HIDP_DATA, hidpi/PHIDP_DATA, hidstrct_690e0e92-9de7-44e0-8550-4f84d7bb768e.xml"
 f1_keywords:
  - "hidpi/HIDP_DATA"
+ - "HIDP_DATA"
 req.header: hidpi.h
 req.include-header: Hidpi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - hidpi.h
 api_name:
 - HIDP_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: HIDP_DATA, *PHIDP_DATA
 ---

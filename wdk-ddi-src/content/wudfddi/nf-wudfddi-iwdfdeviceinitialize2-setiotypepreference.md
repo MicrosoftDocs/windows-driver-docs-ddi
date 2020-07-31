@@ -10,6 +10,7 @@ keywords: ["IWDFDeviceInitialize2::SetIoTypePreference"]
 ms.keywords: IWDFDeviceInitialize2 interface,SetIoTypePreference method, IWDFDeviceInitialize2.SetIoTypePreference, IWDFDeviceInitialize2::SetIoTypePreference, SetIoTypePreference, SetIoTypePreference method, SetIoTypePreference method,IWDFDeviceInitialize2 interface, UMDFDeviceObjectRef_33317875-3e52-47fc-9d6b-0e886f802dde.xml, umdf.iwdfdeviceinitialize2_setiotypepreference, wdf.iwdfdeviceinitialize2_setiotypepreference, wudfddi/IWDFDeviceInitialize2::SetIoTypePreference
 f1_keywords:
  - "wudfddi/IWDFDeviceInitialize2.SetIoTypePreference"
+ - "IWDFDeviceInitialize2.SetIoTypePreference"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFDeviceInitialize2.SetIoTypePreference
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

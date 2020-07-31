@@ -10,6 +10,7 @@ keywords: ["_D3DHAL_GLOBALDRIVERDATA structure"]
 ms.keywords: "*LPD3DHAL_GLOBALDRIVERDATA, D3DHAL_GLOBALDRIVERDATA, D3DHAL_GLOBALDRIVERDATA structure [Display Devices], LPD3DHAL_GLOBALDRIVERDATA, LPD3DHAL_GLOBALDRIVERDATA structure pointer [Display Devices], _D3DHAL_GLOBALDRIVERDATA, d3dhal/D3DHAL_GLOBALDRIVERDATA, d3dhal/LPD3DHAL_GLOBALDRIVERDATA, d3dstrct_95940eeb-e317-455f-bd8c-0e7d1937197e.xml, display.d3dhal_globaldriverdata"
 f1_keywords:
  - "d3dhal/D3DHAL_GLOBALDRIVERDATA"
+ - "D3DHAL_GLOBALDRIVERDATA"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dhal.h
 api_name:
 - D3DHAL_GLOBALDRIVERDATA
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DHAL_GLOBALDRIVERDATA
 ---

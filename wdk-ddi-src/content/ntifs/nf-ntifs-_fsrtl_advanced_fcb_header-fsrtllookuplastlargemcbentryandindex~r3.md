@@ -10,6 +10,7 @@ keywords: ["FsRtlLookupLastLargeMcbEntryAndIndex function"]
 ms.keywords: FsRtlLookupLastLargeMcbEntryAndIndex, FsRtlLookupLastLargeMcbEntryAndIndex routine [Installable File System Drivers], fsrtlref_d7148458-8a3c-4633-8be3-578623ba4d01.xml, ifsk.fsrtllookuplastlargemcbentryandindex, ntifs/FsRtlLookupLastLargeMcbEntryAndIndex
 f1_keywords:
  - "ntifs/FsRtlLookupLastLargeMcbEntryAndIndex"
+ - "FsRtlLookupLastLargeMcbEntryAndIndex"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlLookupLastLargeMcbEntryAndIndex
-product:
-- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---

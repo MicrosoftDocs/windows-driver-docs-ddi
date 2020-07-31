@@ -10,6 +10,7 @@ keywords: ["KsFilterGetFirstChildPin function"]
 ms.keywords: KsFilterGetFirstChildPin, KsFilterGetFirstChildPin function [Streaming Media Devices], avfunc_303477ee-598b-4b5b-baae-1e520c154e99.xml, ks/KsFilterGetFirstChildPin, stream.ksfiltergetfirstchildpin
 f1_keywords:
  - "ks/KsFilterGetFirstChildPin"
+ - "KsFilterGetFirstChildPin"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsFilterGetFirstChildPin
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

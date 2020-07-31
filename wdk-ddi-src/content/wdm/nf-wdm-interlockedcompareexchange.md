@@ -10,6 +10,7 @@ keywords: ["InterlockedCompareExchange function"]
 ms.keywords: InterlockedCompareExchange, InterlockedCompareExchange routine [Kernel-Mode Driver Architecture], k102_d40d8288-4c0d-43ed-af9f-3f9afabe1455.xml, kernel.interlockedcompareexchange, wdm/InterlockedCompareExchange
 f1_keywords:
  - "wdm/InterlockedCompareExchange"
+ - "InterlockedCompareExchange"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Miniport.h
 req.target-type: Universal
@@ -41,8 +42,6 @@ api_location:
 - MinKernelBase.dll
 api_name:
 - InterlockedCompareExchange
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

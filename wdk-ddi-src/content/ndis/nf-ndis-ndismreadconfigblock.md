@@ -10,6 +10,7 @@ keywords: ["NdisMReadConfigBlock function"]
 ms.keywords: NdisMReadConfigBlock, NdisMReadConfigBlock function [Network Drivers Starting with Windows Vista], ndis/NdisMReadConfigBlock, netvista.ndismreadconfigblock
 f1_keywords:
  - "ndis/NdisMReadConfigBlock"
+ - "NdisMReadConfigBlock"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisMReadConfigBlock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

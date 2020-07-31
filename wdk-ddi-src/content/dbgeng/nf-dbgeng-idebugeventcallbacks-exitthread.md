@@ -10,6 +10,7 @@ keywords: ["IDebugEventCallbacks::ExitThread"]
 ms.keywords: ComCallbacks_554f76a8-5f15-4bcc-b3ec-070ecc836ba9.xml, ExitThread, ExitThread method [Windows Debugging], ExitThread method [Windows Debugging],IDebugEventCallbacks interface, IDebugEventCallbacks interface [Windows Debugging],ExitThread method, IDebugEventCallbacks.ExitThread, IDebugEventCallbacks::ExitThread, dbgeng/IDebugEventCallbacks::ExitThread, debugger.idebugeventcallbacks_exitthread
 f1_keywords:
  - "dbgeng/IDebugEventCallbacks.ExitThread"
+ - "IDebugEventCallbacks.ExitThread"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugEventCallbacks.ExitThread
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

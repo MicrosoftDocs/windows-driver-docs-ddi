@@ -10,6 +10,7 @@ keywords: ["_PHY_CONFIGURATION_PACKET structure"]
 ms.keywords: "*PPHY_CONFIGURATION_PACKET, 1394/PHY_CONFIGURATION_PACKET, 1394/PPHY_CONFIGURATION_PACKET, 1394stct_1d0c74cf-13c7-455d-b51e-5e2f4f2a5c5a.xml, IEEE.phy_configuration_packet, PHY_CONFIGURATION_PACKET, PHY_CONFIGURATION_PACKET structure [Buses], PPHY_CONFIGURATION_PACKET, PPHY_CONFIGURATION_PACKET structure pointer [Buses], _PHY_CONFIGURATION_PACKET"
 f1_keywords:
  - "1394/PHY_CONFIGURATION_PACKET"
+ - "PHY_CONFIGURATION_PACKET"
 req.header: 1394.h
 req.include-header: 1394.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - 1394.h
 api_name:
 - PHY_CONFIGURATION_PACKET
-product:
-- Windows
 targetos: Windows
 req.typenames: PHY_CONFIGURATION_PACKET, *PPHY_CONFIGURATION_PACKET
 ---

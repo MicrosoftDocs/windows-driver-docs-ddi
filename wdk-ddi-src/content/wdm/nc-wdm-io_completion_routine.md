@@ -10,6 +10,7 @@ keywords: ["IO_COMPLETION_ROUTINE callback function"]
 ms.keywords: DrvrRtns_aa2b6363-e3c1-4243-87d8-8a1bb575974b.xml, IO_COMPLETION_ROUTINE, IoCompletion, IoCompletion routine [Kernel-Mode Driver Architecture], kernel.iocompletion, wdm/IoCompletion
 f1_keywords:
  - "wdm/IoCompletion"
+ - "IoCompletion"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - IoCompletion
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

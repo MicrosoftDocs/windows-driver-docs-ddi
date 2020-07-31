@@ -10,6 +10,7 @@ keywords: ["PsRevertToSelf function"]
 ms.keywords: PsRevertToSelf, PsRevertToSelf routine [Installable File System Drivers], ifsk.psreverttoself, ntifs/PsRevertToSelf, psref_da555465-d8ee-4ae6-af44-cf0af7633458.xml
 f1_keywords:
  - "ntifs/PsRevertToSelf"
+ - "PsRevertToSelf"
 req.header: ntifs.h
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - PsRevertToSelf
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

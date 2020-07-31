@@ -10,6 +10,7 @@ ms.date: 02/14/2019
 keywords: ["WDI_SAE_STATUS enumeration"]
 f1_keywords:
  - "wditypes/WDI_SAE_STATUS"
+ - "WDI_SAE_STATUS"
 ms.keywords: WDI_SAE_STATUS, WDI_SAE_STATUS, 
 req.header: wditypes.hpp
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
  - wditypes.hpp
 api_name: 
  - WDI_SAE_STATUS
-product:
-- Windows
 targetos: Windows
 ---
 

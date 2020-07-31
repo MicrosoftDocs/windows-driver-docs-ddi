@@ -10,6 +10,7 @@ keywords: ["_MOUNTMGR_MOUNT_POINT structure"]
 ms.keywords: "*PMOUNTMGR_MOUNT_POINT, MOUNTMGR_MOUNT_POINT, MOUNTMGR_MOUNT_POINT structure [Storage Devices], PMOUNTMGR_MOUNT_POINT, PMOUNTMGR_MOUNT_POINT structure pointer [Storage Devices], _MOUNTMGR_MOUNT_POINT, mountmgr/MOUNTMGR_MOUNT_POINT, mountmgr/PMOUNTMGR_MOUNT_POINT, storage.mountmgr_mount_point, structs-mntmgr_88136173-0786-4d4e-80b7-77f523e8d125.xml"
 f1_keywords:
  - "mountmgr/MOUNTMGR_MOUNT_POINT"
+ - "MOUNTMGR_MOUNT_POINT"
 req.header: mountmgr.h
 req.include-header: Mountmgr.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - mountmgr.h
 api_name:
 - MOUNTMGR_MOUNT_POINT
-product:
-- Windows
 targetos: Windows
 req.typenames: MOUNTMGR_MOUNT_POINT, *PMOUNTMGR_MOUNT_POINT
 ---

@@ -10,6 +10,7 @@ keywords: ["WdfRequestGetUserModeDriverInitiatedIo function"]
 ms.keywords: WdfRequestGetUserModeDriverInitiatedIo, WdfRequestGetUserModeDriverInitiatedIo method, wdf.wdfrequestgetusermodeinitiatedio, wdfrequest/WdfRequestGetUserModeDriverInitiatedIo
 f1_keywords:
  - "wdfrequest/WdfRequestGetUserModeDriverInitiatedIo"
+ - "WdfRequestGetUserModeDriverInitiatedIo"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - WUDFx02000.dll
 api_name:
 - WdfRequestGetUserModeDriverInitiatedIo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

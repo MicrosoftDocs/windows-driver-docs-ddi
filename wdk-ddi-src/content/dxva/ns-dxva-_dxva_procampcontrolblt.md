@@ -10,6 +10,7 @@ keywords: ["_DXVA_ProcAmpControlBlt structure"]
 ms.keywords: DXVA_ProcAmpControlBlt, DXVA_ProcAmpControlBlt structure [Display Devices], _DXVA_ProcAmpControlBlt, display.dxva_procampcontrolblt, dxva/DXVA_ProcAmpControlBlt, dxvaref_aaac59e6-334e-49a3-a599-facef11960e3.xml
 f1_keywords:
  - "dxva/DXVA_ProcAmpControlBlt"
+ - "DXVA_ProcAmpControlBlt"
 req.header: dxva.h
 req.include-header: Dxva.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dxva.h
 api_name:
 - DXVA_ProcAmpControlBlt
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVA_ProcAmpControlBlt
 ---

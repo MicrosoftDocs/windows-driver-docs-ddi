@@ -10,6 +10,7 @@ keywords: ["DOT11EXT_NIC_SPECIFIC_EXTENSION callback"]
 ms.keywords: DOT11EXT_NIC_SPECIFIC_EXTENSION, Dot11ExtNicSpecificExtension, Dot11ExtNicSpecificExtension callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_cab7d3ba-3192-4fb5-8827-f0c4b77bcb20.xml, netvista.dot11extnicspecificextension, wlanihv/Dot11ExtNicSpecificExtension
 f1_keywords:
  - "wlanihv/Dot11ExtNicSpecificExtension"
+ - "Dot11ExtNicSpecificExtension"
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wlanihv.h
 api_name:
 - Dot11ExtNicSpecificExtension
-product:
-- Windows
 targetos: Windows
 req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.

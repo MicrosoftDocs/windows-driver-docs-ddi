@@ -10,6 +10,7 @@ keywords: ["_DXVADDI_VIDEOPROCESSBLTFLAGS structure"]
 ms.keywords: DXVA2_Structs_8c40b10b-d3f4-420b-986a-455b20b01288.xml, DXVADDI_VIDEOPROCESSBLTFLAGS, DXVADDI_VIDEOPROCESSBLTFLAGS structure [Display Devices], _DXVADDI_VIDEOPROCESSBLTFLAGS, d3dumddi/DXVADDI_VIDEOPROCESSBLTFLAGS, display.dxvaddi_videoprocessbltflags
 f1_keywords:
  - "d3dumddi/DXVADDI_VIDEOPROCESSBLTFLAGS"
+ - "DXVADDI_VIDEOPROCESSBLTFLAGS"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - DXVADDI_VIDEOPROCESSBLTFLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVADDI_VIDEOPROCESSBLTFLAGS
 ---

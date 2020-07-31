@@ -10,6 +10,7 @@ keywords: ["ZwRollforwardTransactionManager function"]
 ms.keywords: NtRollforwardTransactionManager, ZwRollforwardTransactionManager, ZwRollforwardTransactionManager routine [Kernel-Mode Driver Architecture], kernel.zwrollforwardtransactionmanager, ktm_ref_79b2cde2-5fd0-431f-a776-f4cd6fda1e45.xml, wdm/NtRollforwardTransactionManager, wdm/ZwRollforwardTransactionManager
 f1_keywords:
  - "wdm/ZwRollforwardTransactionManager"
+ - "ZwRollforwardTransactionManager"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - ZwRollforwardTransactionManager
 - NtRollforwardTransactionManager
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

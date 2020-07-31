@@ -10,6 +10,7 @@ keywords: ["IXpsDocumentConsumer::GetNewEmptyPart"]
 ms.keywords: GetNewEmptyPart, GetNewEmptyPart method [Print Devices], GetNewEmptyPart method [Print Devices],IXpsDocumentConsumer interface, IXpsDocumentConsumer interface [Print Devices],GetNewEmptyPart method, IXpsDocumentConsumer.GetNewEmptyPart, IXpsDocumentConsumer::GetNewEmptyPart, filterpipeline/IXpsDocumentConsumer::GetNewEmptyPart, filterpipeline_c4770528-f57a-4197-b60b-5b780d5e7752.xml, print.ixpsdocumentconsumer_getnewemptypart
 f1_keywords:
  - "filterpipeline/IXpsDocumentConsumer.GetNewEmptyPart"
+ - "IXpsDocumentConsumer.GetNewEmptyPart"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - filterpipeline.h
 api_name:
 - IXpsDocumentConsumer.GetNewEmptyPart
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

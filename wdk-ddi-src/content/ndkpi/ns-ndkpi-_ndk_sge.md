@@ -10,6 +10,7 @@ keywords: ["_NDK_SGE structure"]
 ms.keywords: NDK_SGE, NDK_SGE structure [Network Drivers Starting with Windows Vista], _NDK_SGE, ndkpi/NDK_SGE, netvista.ndk_sge
 f1_keywords:
  - "ndkpi/NDK_SGE"
+ - "NDK_SGE"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ndkpi.h
 api_name:
 - NDK_SGE
-product:
-- Windows
 targetos: Windows
 req.typenames: NDK_SGE
 ---

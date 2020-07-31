@@ -10,6 +10,7 @@ keywords: ["_NDIS_QOS_PARAMETERS structure"]
 ms.keywords: NDIS_QOS_PARAMETERS, NDIS_QOS_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_QOS_PARAMETERS, PNDIS_QOS_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_QOS_PARAMETERS, netvista.ndis_qos_parameters, ntddndis/NDIS_QOS_PARAMETERS, ntddndis/PNDIS_QOS_PARAMETERS
 f1_keywords:
  - "ntddndis/NDIS_QOS_PARAMETERS"
+ - "NDIS_QOS_PARAMETERS"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddndis.h
 api_name:
 - NDIS_QOS_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_QOS_PARAMETERS, PNDIS_QOS_PARAMETERS
 ---

@@ -10,6 +10,7 @@ keywords: ["NdisFreeString macro"]
 ms.keywords: NdisFreeString, NdisFreeString macro [Network Drivers Starting with Windows Vista], ndis/NdisFreeString, ndis_string_ref_fbe6ac9f-c6a6-457e-a427-71e9739f3809.xml, netvista.ndisfreestring
 f1_keywords:
  - "ndis/NdisFreeString"
+ - "NdisFreeString"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NdisFreeString
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -90,7 +89,7 @@ An NDIS driver typically calls the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_string">ANSI_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-string">ANSI_STRING</a>
 
 
 

@@ -10,6 +10,7 @@ keywords: ["MmAllocateMdlForIoSpace function"]
 ms.keywords: MmAllocateMdlForIoSpace, MmAllocateMdlForIoSpace routine [Kernel-Mode Driver Architecture], kernel.mmallocatemdlforiospace, wdm/MmAllocateMdlForIoSpace
 f1_keywords:
  - "wdm/MmAllocateMdlForIoSpace"
+ - "MmAllocateMdlForIoSpace"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - MmAllocateMdlForIoSpace
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["_STOR_ADDRESS structure"]
 ms.keywords: "*PSTOR_ADDRESS, PSTOR_ADDRESS, PSTOR_ADDRESS structure pointer [Storage Devices], STOR_ADDRESS, STOR_ADDRESS structure [Storage Devices], STOR_ADDRESS_TYPE_BTL8, STOR_ADDRESS_TYPE_UNKNOWN, _STOR_ADDRESS, storage.stor_address, storport/PSTOR_ADDRESS, storport/STOR_ADDRESS"
 f1_keywords:
  - "minitape/STOR_ADDRESS"
+ - "STOR_ADDRESS"
 req.header: minitape.h
 req.include-header: Storport.h, Scsi.h, Minitape.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Storport.h
 api_name:
 - STOR_ADDRESS
-product:
-- Windows
 targetos: Windows
 req.typenames: STOR_ADDRESS, *PSTOR_ADDRESS
 ---

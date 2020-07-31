@@ -10,6 +10,7 @@ keywords: ["_WWAN_MODEM_CONFIG_STATUS structure"]
 ms.keywords: "*PWWAN_MODEM_CONFIG_STATUS, PWWAN_MODEM_CONFIG_STATUS, PWWAN_MODEM_CONFIG_STATUS structure pointer [Network Drivers Starting with Windows Vista], WWAN_MODEM_CONFIG_STATUS, WWAN_MODEM_CONFIG_STATUS structure [Network Drivers Starting with Windows Vista], _WWAN_MODEM_CONFIG_STATUS, netvista.wwan_modem_config_status, wwan/PWWAN_MODEM_CONFIG_STATUS, wwan/WWAN_MODEM_CONFIG_STATUS"
 f1_keywords:
  - "wwan/WWAN_MODEM_CONFIG_STATUS"
+ - "WWAN_MODEM_CONFIG_STATUS"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_MODEM_CONFIG_STATUS
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_MODEM_CONFIG_STATUS, *PWWAN_MODEM_CONFIG_STATUS
 ---

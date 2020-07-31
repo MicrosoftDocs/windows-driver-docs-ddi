@@ -10,6 +10,7 @@ keywords: ["SeAuditingFileEvents function"]
 ms.keywords: SeAuditingFileEvents, SeAuditingFileEvents routine [Installable File System Drivers], ifsk.seauditingfileevents, ntifs/SeAuditingFileEvents, seref_b4b8468e-cfb2-4685-9811-2b2733e9fb36.xml
 f1_keywords:
  - "ntifs/SeAuditingFileEvents"
+ - "SeAuditingFileEvents"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - SeAuditingFileEvents
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

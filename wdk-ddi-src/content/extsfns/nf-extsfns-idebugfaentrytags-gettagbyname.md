@@ -10,6 +10,7 @@ keywords: ["IDebugFAEntryTags::GetTagByName"]
 ms.keywords: GetTagByName, GetTagByName method [Windows Debugging], GetTagByName method [Windows Debugging],IDebugFAEntryTags interface, IDebugFAEntryTags interface [Windows Debugging],GetTagByName method, IDebugFAEntryTags.GetTagByName, IDebugFAEntryTags::GetTagByName, debugger.idebugfaentrytags_gettagbyname, extsfns/IDebugFAEntryTags::GetTagByName
 f1_keywords:
  - "extsfns/IDebugFAEntryTags.GetTagByName"
+ - "IDebugFAEntryTags.GetTagByName"
 req.header: extsfns.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - extsfns.h
 api_name:
 - IDebugFAEntryTags.GetTagByName
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

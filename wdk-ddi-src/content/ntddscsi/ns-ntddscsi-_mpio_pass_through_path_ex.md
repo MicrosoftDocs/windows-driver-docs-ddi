@@ -10,6 +10,7 @@ keywords: ["_MPIO_PASS_THROUGH_PATH_EX structure"]
 ms.keywords: "*PMPIO_PASS_THROUGH_PATH_EX, MPIO_PASS_THROUGH_PATH_EX, MPIO_PASS_THROUGH_PATH_EX structure [Storage Devices], PMPIO_PASS_THROUGH_PATH_EX, PMPIO_PASS_THROUGH_PATH_EX structure pointer [Storage Devices], _MPIO_PASS_THROUGH_PATH_EX, ntddscsi/MPIO_PASS_THROUGH_PATH_EX, ntddscsi/PMPIO_PASS_THROUGH_PATH_EX, storage.mpio_pass_through_path_ex"
 f1_keywords:
  - "ntddscsi/MPIO_PASS_THROUGH_PATH_EX"
+ - "MPIO_PASS_THROUGH_PATH_EX"
 req.header: ntddscsi.h
 req.include-header: Ntddscsi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddscsi.h
 api_name:
 - MPIO_PASS_THROUGH_PATH_EX
-product:
-- Windows
 targetos: Windows
 req.typenames: MPIO_PASS_THROUGH_PATH_EX, *PMPIO_PASS_THROUGH_PATH_EX
 ---

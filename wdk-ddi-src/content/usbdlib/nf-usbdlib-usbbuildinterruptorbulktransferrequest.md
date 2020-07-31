@@ -10,6 +10,7 @@ keywords: ["UsbBuildInterruptOrBulkTransferRequest macro"]
 ms.keywords: UsbBuildInterruptOrBulkTransferRequest, UsbBuildInterruptOrBulkTransferRequest routine [Buses], buses.usbbuildinterruptorbulktransferrequest, usbdlib/UsbBuildInterruptOrBulkTransferRequest, usbfunc_ecc1d157-942d-4d0e-9c07-9fef00cd5faf.xml
 f1_keywords:
  - "usbdlib/UsbBuildInterruptOrBulkTransferRequest"
+ - "UsbBuildInterruptOrBulkTransferRequest"
 req.header: usbdlib.h
 req.include-header: Usbdlib.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - usbdlib.h
 api_name:
 - UsbBuildInterruptOrBulkTransferRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

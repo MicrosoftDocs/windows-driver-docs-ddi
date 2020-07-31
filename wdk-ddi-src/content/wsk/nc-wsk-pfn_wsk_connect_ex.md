@@ -10,6 +10,7 @@ keywords: ["PFN_WSK_CONNECT_EX callback function"]
 ms.keywords: PFN_WSK_CONNECT_EX, PFN_WSK_CONNECT_EX callback, WskConnectEx, WskConnectEx callback function [Network Drivers Starting with Windows Vista], netvista.wskconnectex, wsk/WskConnectEx
 f1_keywords:
  - "wsk/WskConnectEx"
+ - "WskConnectEx"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - wsk.h
 api_name:
 - WskConnectEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

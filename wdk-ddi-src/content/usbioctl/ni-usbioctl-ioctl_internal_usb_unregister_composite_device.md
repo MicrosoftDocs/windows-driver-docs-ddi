@@ -10,6 +10,7 @@ keywords: ["IOCTL_INTERNAL_USB_UNREGISTER_COMPOSITE_DEVICE IOCTL"]
 ms.keywords: IOCTL_INTERNAL_USB_UNREGISTER_COMPOSITE_DEVICE, IOCTL_INTERNAL_USB_UNREGISTER_COMPOSITE_DEVICE control, IOCTL_INTERNAL_USB_UNREGISTER_COMPOSITE_DEVICE control code [Buses], buses.ioctl_internal_usb_unregister_composite_driver, usbioctl/IOCTL_INTERNAL_USB_UNREGISTER_COMPOSITE_DEVICE
 f1_keywords:
  - "usbioctl/IOCTL_INTERNAL_USB_UNREGISTER_COMPOSITE_DEVICE"
+ - "IOCTL_INTERNAL_USB_UNREGISTER_COMPOSITE_DEVICE"
 req.header: usbioctl.h
 req.include-header: Usbioctl.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Usbioctl.h
 api_name:
 - IOCTL_INTERNAL_USB_UNREGISTER_COMPOSITE_DEVICE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

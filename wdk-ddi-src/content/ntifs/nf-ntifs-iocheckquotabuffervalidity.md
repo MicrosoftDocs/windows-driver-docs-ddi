@@ -10,6 +10,7 @@ keywords: ["IoCheckQuotaBufferValidity function"]
 ms.keywords: IoCheckQuotaBufferValidity, IoCheckQuotaBufferValidity routine [Installable File System Drivers], ifsk.iocheckquotabuffervalidity, ioref_b4dc2b93-aaf1-450b-8240-b92792182057.xml, ntifs/IoCheckQuotaBufferValidity
 f1_keywords:
  - "ntifs/IoCheckQuotaBufferValidity"
+ - "IoCheckQuotaBufferValidity"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoCheckQuotaBufferValidity
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

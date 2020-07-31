@@ -10,6 +10,7 @@ keywords: ["KsDisableEvent function"]
 ms.keywords: KsDisableEvent, KsDisableEvent function [Streaming Media Devices], ks/KsDisableEvent, ksfunc_e430d502-c847-43ee-bdea-d53200f45e53.xml, stream.ksdisableevent
 f1_keywords:
  - "ks/KsDisableEvent"
+ - "KsDisableEvent"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsDisableEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

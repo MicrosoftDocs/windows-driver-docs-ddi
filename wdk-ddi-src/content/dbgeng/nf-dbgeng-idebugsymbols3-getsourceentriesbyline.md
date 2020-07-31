@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::GetSourceEntriesByLine"]
 ms.keywords: GetSourceEntriesByLine, GetSourceEntriesByLine method [Windows Debugging], GetSourceEntriesByLine method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSourceEntriesByLine method, IDebugSymbols3.GetSourceEntriesByLine, IDebugSymbols3::GetSourceEntriesByLine, IDebugSymbols_b750f895-6583-49a6-be03-c373f89808a7.xml, dbgeng/IDebugSymbols3::GetSourceEntriesByLine, debugger.getsourceentriesbyline
 f1_keywords:
  - "dbgeng/IDebugSymbols3.GetSourceEntriesByLine"
+ - "IDebugSymbols3.GetSourceEntriesByLine"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugSymbols3.GetSourceEntriesByLine
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

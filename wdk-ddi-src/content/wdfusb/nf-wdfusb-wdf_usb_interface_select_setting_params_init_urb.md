@@ -10,6 +10,7 @@ keywords: ["WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_URB function"]
 ms.keywords: DFUsbRef_90777ed2-7cfd-422f-ba5b-423fd051e142.xml, WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_URB, WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_URB function, kmdf.wdf_usb_interface_select_setting_params_init_urb, wdf.wdf_usb_interface_select_setting_params_init_urb, wdfusb/WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_URB
 f1_keywords:
  - "wdfusb/WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_URB"
+ - "WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_URB"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - wdfusb.h
 api_name:
 - WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_URB
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

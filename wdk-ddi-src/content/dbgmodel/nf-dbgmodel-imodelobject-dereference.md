@@ -7,6 +7,7 @@ ms.date: 07/20/2018
 keywords: ["IModelObject::Dereference"]
 f1_keywords:
  - "dbgmodel/IModelObject.Dereference"
+ - "IModelObject.Dereference"
 ms.keywords: IModelObject::Dereference, Dereference, IModelObject.Dereference, IModelObject::Dereference, IModelObject.Dereference
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IModelObject.Dereference
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

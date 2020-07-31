@@ -10,6 +10,7 @@ keywords: ["RIL_GetRFState function"]
 ms.keywords: RIL_GetRFState, RIL_GetRFState method [Network Drivers Starting with Windows Vista], netvista.ril_getrfstate, rilapi/RIL_GetRFState
 f1_keywords:
  - "rilapi/RIL_GetRFState"
+ - "RIL_GetRFState"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_GetRFState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["ZwQueryFullAttributesFile function"]
 ms.keywords: NtQueryFullAttributesFile, ZwQueryFullAttributesFile, ZwQueryFullAttributesFile routine [Kernel-Mode Driver Architecture], k111_58eefadc-2aff-4252-82a6-6f0c9ab43a19.xml, kernel.zwqueryfullattributesfile, wdm/NtQueryFullAttributesFile, wdm/ZwQueryFullAttributesFile
 f1_keywords:
  - "wdm/ZwQueryFullAttributesFile"
+ - "ZwQueryFullAttributesFile"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - ZwQueryFullAttributesFile
 - NtQueryFullAttributesFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMTGetResourcePresentPrivateDriverData function"]
 f1_keywords:
  - "d3dkmthk/D3DKMTGetResourcePresentPrivateDriverData"
+ - "D3DKMTGetResourcePresentPrivateDriverData"
 ms.keywords: D3DKMTGetResourcePresentPrivateDriverData
 req.header: d3dkmthk.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - Gdi32.dll
 api_name: 
 - D3DKMTGetResourcePresentPrivateDriverData
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

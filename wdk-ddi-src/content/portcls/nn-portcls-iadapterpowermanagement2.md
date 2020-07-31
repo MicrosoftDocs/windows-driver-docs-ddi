@@ -10,6 +10,7 @@ keywords: ["IAdapterPowerManagement2 interface"]
 ms.keywords: IAdapterPowerManagement2, IAdapterPowerManagement2 interface [Audio Devices], IAdapterPowerManagement2 interface [Audio Devices],described, audio.iadapterpowermanagement2, audmp-routines_c7d21546-b88c-46e6-9612-6244155058b0.xml, portcls/IAdapterPowerManagement2
 f1_keywords:
  - "portcls/IAdapterPowerManagement2"
+ - "IAdapterPowerManagement2"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IAdapterPowerManagement2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

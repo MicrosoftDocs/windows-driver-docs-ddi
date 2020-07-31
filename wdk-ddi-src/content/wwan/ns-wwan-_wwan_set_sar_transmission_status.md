@@ -8,6 +8,7 @@ ms.date: 08/20/2018
 keywords: ["_WWAN_SET_SAR_TRANSMISSION_STATUS structure"]
 f1_keywords:
  - "wwan/_WWAN_SET_SAR_TRANSMISSION_STATUS"
+ - "_WWAN_SET_SAR_TRANSMISSION_STATUS"
 ms.keywords: _WWAN_SET_SAR_TRANSMISSION_STATUS, WWAN_SET_SAR_TRANSMISSION_STATUS, *PWWAN_SET_SAR_TRANSMISSION_STATUS, 
 req.header: wwan.h
 req.include-header:
@@ -30,8 +31,6 @@ api_location:
 - wwan.h
 api_name: 
 - _WWAN_SET_SAR_TRANSMISSION_STATUS
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

@@ -10,6 +10,7 @@ keywords: ["RILEMERGENCYNUMBER structure"]
 ms.keywords: "*LPRILEMERGENCYNUMBER, RILEMERGENCYNUMBER, RILEMERGENCYNUMBER structure [Network Drivers Starting with Windows Vista], netvista.rilemergencynumber, ntddrilapitypes/RILEMERGENCYNUMBER"
 f1_keywords:
  - "rilapitypes/RILEMERGENCYNUMBER"
+ - "RILEMERGENCYNUMBER"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILEMERGENCYNUMBER
-product:
-- Windows
 targetos: Windows
 req.typenames: RILEMERGENCYNUMBER, *LPRILEMERGENCYNUMBER
 ---

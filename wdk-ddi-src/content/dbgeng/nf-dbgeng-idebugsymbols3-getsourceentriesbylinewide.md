@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::GetSourceEntriesByLineWide"]
 ms.keywords: GetSourceEntriesByLineWide, GetSourceEntriesByLineWide method [Windows Debugging], GetSourceEntriesByLineWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSourceEntriesByLineWide method, IDebugSymbols3.GetSourceEntriesByLineWide, IDebugSymbols3::GetSourceEntriesByLineWide, dbgeng/IDebugSymbols3::GetSourceEntriesByLineWide, debugger.getsourceentriesbylinewide
 f1_keywords:
  - "dbgeng/IDebugSymbols3.GetSourceEntriesByLineWide"
+ - "IDebugSymbols3.GetSourceEntriesByLineWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugSymbols3.GetSourceEntriesByLineWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

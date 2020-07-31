@@ -10,6 +10,7 @@ keywords: ["StorPortGetLogicalProcessorRelationship function"]
 ms.keywords: StorPortGetLogicalProcessorRelationship, StorPortGetLogicalProcessorRelationship routine [Storage Devices], storage.storportgetlogicalprocessorrelationship, storport/StorPortGetLogicalProcessorRelationship, storprt_65b00469-41a4-446b-aaa5-fee877aaff3c.xml
 f1_keywords:
  - "storport/StorPortGetLogicalProcessorRelationship"
+ - "StorPortGetLogicalProcessorRelationship"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - storport.h
 api_name:
 - StorPortGetLogicalProcessorRelationship
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

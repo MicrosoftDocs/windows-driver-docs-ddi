@@ -10,6 +10,7 @@ keywords: ["IWDTFTarget2::GetValueLongNumbers"]
 ms.keywords: GetValueLongNumbers, GetValueLongNumbers method [Windows Device Testing Framework], GetValueLongNumbers method [Windows Device Testing Framework],IWDTFTarget2 interface, IWDTFTarget2 interface [Windows Device Testing Framework],GetValueLongNumbers method, IWDTFTarget2.GetValueLongNumbers, IWDTFTarget2::GetValueLongNumbers, Microsoft.WDTF.IWDTFTarget2.GetValueLongNumbers, Microsoft::WDTF::IWDTFTarget2::GetValueLongNumbers, dtf.iwdtftarget2_getvaluelongnumbers, wdtf/IWDTFTarget2::GetValueLongNumbers
 f1_keywords:
  - "wdtf/IWDTFTarget2.GetValueLongNumbers"
+ - "IWDTFTarget2.GetValueLongNumbers"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WDTF.Interop.metadata_dll.dll
 api_name:
 - IWDTFTarget2.GetValueLongNumbers
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

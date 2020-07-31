@@ -7,6 +7,7 @@ ms.date: 09/11/2018
 keywords: ["IDataModelManager2::GetModelForType"]
 f1_keywords:
  - "dbgmodel/IDataModelManager2.GetModelForType"
+ - "IDataModelManager2.GetModelForType"
 ms.keywords: IDataModelManager2::GetModelForType, GetModelForType, IDataModelManager2.GetModelForType, IDataModelManager2::GetModelForType, IDataModelManager2.GetModelForType
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDataModelManager2.GetModelForType
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

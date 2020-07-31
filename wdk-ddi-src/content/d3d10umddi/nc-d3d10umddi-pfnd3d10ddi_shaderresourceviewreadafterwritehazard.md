@@ -9,6 +9,7 @@ keywords: ["PFND3D10DDI_SHADERRESOURCEVIEWREADAFTERWRITEHAZARD callback function
 ms.keywords: PFND3D10DDI_SHADERRESOURCEVIEWREADAFTERWRITEHAZARD, PFND3D10DDI_SHADERRESOURCEVIEWREADAFTERWRITEHAZARD callback, ShaderResourceViewReadAfterWriteHazard, ShaderResourceViewReadAfterWriteHazard callback function [Display Devices], UserModeDisplayDriverDx10_Functions_fa240239-13b6-43b1-a5c7-137d3d793e0c.xml, d3d10umddi/ShaderResourceViewReadAfterWriteHazard, display.shaderresourceviewreadafterwritehazard
 f1_keywords:
  - "d3d10umddi/ShaderResourceViewReadAfterWriteHazard"
+ - "ShaderResourceViewReadAfterWriteHazard"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - ShaderResourceViewReadAfterWriteHazard
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

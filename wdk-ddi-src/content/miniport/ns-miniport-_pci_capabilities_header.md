@@ -10,6 +10,7 @@ keywords: ["_PCI_CAPABILITIES_HEADER structure"]
 ms.keywords: "*PPCI_CAPABILITIES_HEADER, PCI.pci_capabilities_header, PCI_CAPABILITIES_HEADER, PCI_CAPABILITIES_HEADER structure [Buses], PPCI_CAPABILITIES_HEADER, PPCI_CAPABILITIES_HEADER structure pointer [Buses], _PCI_CAPABILITIES_HEADER, pci_struct_4e7e5552-8a1b-4081-9197-df863319b01d.xml, wdm/PCI_CAPABILITIES_HEADER, wdm/PPCI_CAPABILITIES_HEADER"
 f1_keywords:
  - "miniport/PCI_CAPABILITIES_HEADER"
+ - "PCI_CAPABILITIES_HEADER"
 req.header: miniport.h
 req.include-header: Wdm.h, Miniport.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - PCI_CAPABILITIES_HEADER
-product:
-- Windows
 targetos: Windows
 req.typenames: PCI_CAPABILITIES_HEADER, *PPCI_CAPABILITIES_HEADER
 ---

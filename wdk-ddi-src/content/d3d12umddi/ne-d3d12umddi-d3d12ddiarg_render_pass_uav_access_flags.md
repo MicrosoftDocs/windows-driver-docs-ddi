@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3D12DDIARG_RENDER_PASS_UAV_ACCESS_FLAGS enumeration"]
 f1_keywords:
  - "d3d12umddi/D3D12DDIARG_RENDER_PASS_UAV_ACCESS_FLAGS"
+ - "D3D12DDIARG_RENDER_PASS_UAV_ACCESS_FLAGS"
 ms.keywords: D3D12DDIARG_RENDER_PASS_UAV_ACCESS_FLAGS, D3D12DDIARG_RENDER_PASS_UAV_ACCESS_FLAGS, 
 req.header: d3d12umddi.h
 req.include-header:
@@ -26,8 +27,6 @@ api_location:
 - d3d12umddi.h
 api_name: 
 - D3D12DDIARG_RENDER_PASS_UAV_ACCESS_FLAGS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

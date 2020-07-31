@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_DXGK_SCHEDULING_PRIORITY_BAND enumeration"]
 f1_keywords:
  - "d3dkmddi/_DXGK_SCHEDULING_PRIORITY_BAND"
+ - "_DXGK_SCHEDULING_PRIORITY_BAND"
 ms.keywords: _DXGK_SCHEDULING_PRIORITY_BAND, DXGK_SCHEDULING_PRIORITY_BAND,
 req.header: d3dkmddi.h
 req.include-header:
@@ -26,8 +27,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - _DXGK_SCHEDULING_PRIORITY_BAND
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

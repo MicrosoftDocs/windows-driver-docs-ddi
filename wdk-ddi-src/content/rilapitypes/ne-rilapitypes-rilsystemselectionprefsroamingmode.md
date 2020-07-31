@@ -10,6 +10,7 @@ keywords: ["RILSYSTEMSELECTIONPREFSROAMINGMODE enumeration"]
 ms.keywords: RILSYSTEMSELECTIONPREFSROAMINGMODE, RILSYSTEMSELECTIONPREFSROAMINGMODE enumeration [Network Drivers Starting with Windows Vista], RIL_ROAMMODE_AUTOMATIC, RIL_ROAMMODE_DOMESTIC, RIL_ROAMMODE_MAX, netvista.rilsystemselectionprefsroamingmode, ntddrilapitypes/RILSYSTEMSELECTIONPREFSROAMINGMODE, ntddrilapitypes/RIL_ROAMMODE_AUTOMATIC, ntddrilapitypes/RIL_ROAMMODE_DOMESTIC, ntddrilapitypes/RIL_ROAMMODE_MAX
 f1_keywords:
  - "rilapitypes/RILSYSTEMSELECTIONPREFSROAMINGMODE"
+ - "RILSYSTEMSELECTIONPREFSROAMINGMODE"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILSYSTEMSELECTIONPREFSROAMINGMODE
-product:
-- Windows
 targetos: Windows
 req.typenames: RILSYSTEMSELECTIONPREFSROAMINGMODE
 ---

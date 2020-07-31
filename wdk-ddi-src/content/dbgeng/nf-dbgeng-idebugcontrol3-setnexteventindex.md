@@ -10,6 +10,7 @@ keywords: ["IDebugControl3::SetNextEventIndex"]
 ms.keywords: IDebugControl3 interface [Windows Debugging],SetNextEventIndex method, IDebugControl3.SetNextEventIndex, IDebugControl3::SetNextEventIndex, IDebugControl_9a902b9c-c621-4d71-bae7-d3fd288b1cd8.xml, SetNextEventIndex, SetNextEventIndex method [Windows Debugging], SetNextEventIndex method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl3::SetNextEventIndex, debugger.setnexteventindex
 f1_keywords:
  - "dbgeng/IDebugControl3.SetNextEventIndex"
+ - "IDebugControl3.SetNextEventIndex"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugControl3.SetNextEventIndex
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

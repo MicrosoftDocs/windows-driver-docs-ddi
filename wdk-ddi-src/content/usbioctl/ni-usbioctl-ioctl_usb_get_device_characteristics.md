@@ -10,6 +10,7 @@ keywords: ["IOCTL_USB_GET_DEVICE_CHARACTERISTICS IOCTL"]
 ms.keywords: IOCTL_USB_GET_DEVICE_CHARACTERISTICS, IOCTL_USB_GET_DEVICE_CHARACTERISTICS control, IOCTL_USB_GET_DEVICE_CHARACTERISTICS control code [Buses], buses._ioctl_usb_get_device_characteristics, usbioctl/ IOCTL_USB_GET_DEVICE_CHARACTERISTICS
 f1_keywords:
  - "usbioctl/IOCTL_USB_GET_DEVICE_CHARACTERISTICS"
+ - "IOCTL_USB_GET_DEVICE_CHARACTERISTICS"
 req.header: usbioctl.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Usbioctl.h
 api_name:
 - IOCTL_USB_GET_DEVICE_CHARACTERISTICS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

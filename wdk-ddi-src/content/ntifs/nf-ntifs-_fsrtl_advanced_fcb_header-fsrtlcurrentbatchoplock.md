@@ -10,6 +10,7 @@ keywords: ["FsRtlCurrentBatchOplock function"]
 ms.keywords: FsRtlCurrentBatchOplock, FsRtlCurrentBatchOplock function [Installable File System Drivers], fsrtlref_d5d16133-2531-4e50-85b7-381740d45d9a.xml, ifsk.fsrtlcurrentbatchoplock, ntifs/FsRtlCurrentBatchOplock
 f1_keywords:
  - "ntifs/FsRtlCurrentBatchOplock"
+ - "FsRtlCurrentBatchOplock"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlCurrentBatchOplock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

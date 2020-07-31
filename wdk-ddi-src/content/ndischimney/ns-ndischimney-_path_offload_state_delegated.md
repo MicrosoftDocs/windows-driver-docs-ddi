@@ -10,6 +10,7 @@ keywords: ["_PATH_OFFLOAD_STATE_DELEGATED structure"]
 ms.keywords: "*PPATH_OFFLOAD_STATE_DELEGATED, PATH_OFFLOAD_STATE_DELEGATED, PATH_OFFLOAD_STATE_DELEGATED structure [Network Drivers Starting with Windows Vista], PPATH_OFFLOAD_STATE_DELEGATED, PPATH_OFFLOAD_STATE_DELEGATED structure pointer [Network Drivers Starting with Windows Vista], _PATH_OFFLOAD_STATE_DELEGATED, ndischimney/PATH_OFFLOAD_STATE_DELEGATED, ndischimney/PPATH_OFFLOAD_STATE_DELEGATED, netvista.path_offload_state_delegated, tcp_chim_struct_63dab32f-c9a5-428f-94e1-7b534d83fd50.xml"
 f1_keywords:
  - "ndischimney/PATH_OFFLOAD_STATE_DELEGATED"
+ - "PATH_OFFLOAD_STATE_DELEGATED"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ndischimney.h
 api_name:
 - PATH_OFFLOAD_STATE_DELEGATED
-product:
-- Windows
 targetos: Windows
 req.typenames: PATH_OFFLOAD_STATE_DELEGATED, *PPATH_OFFLOAD_STATE_DELEGATED
 ---

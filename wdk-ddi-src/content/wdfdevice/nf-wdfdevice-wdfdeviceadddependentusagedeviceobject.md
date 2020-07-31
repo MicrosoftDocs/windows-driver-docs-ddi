@@ -10,6 +10,7 @@ keywords: ["WdfDeviceAddDependentUsageDeviceObject function"]
 ms.keywords: DFDeviceObjectGeneralRef_b31f8226-abd2-49a0-af66-ace2d05a6f17.xml, WdfDeviceAddDependentUsageDeviceObject, WdfDeviceAddDependentUsageDeviceObject method, kmdf.wdfdeviceadddependentusagedeviceobject, wdf.wdfdeviceadddependentusagedeviceobject, wdfdevice/WdfDeviceAddDependentUsageDeviceObject
 f1_keywords:
  - "wdfdevice/WdfDeviceAddDependentUsageDeviceObject"
+ - "WdfDeviceAddDependentUsageDeviceObject"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfDeviceAddDependentUsageDeviceObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["FwpsInjectMacSendAsync0 function"]
 ms.keywords: FwpsInjectMacSendAsync0, FwpsInjectMacSendAsync0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsInjectMacSendAsync0, netvista.fwpsinjectmacsendasync0
 f1_keywords:
  - "fwpsk/FwpsInjectMacSendAsync0"
+ - "FwpsInjectMacSendAsync0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - fwpkclnt.dll
 api_name:
 - FwpsInjectMacSendAsync0
-product:
-- Windows
 targetos: Windows
 req.typenames:
 ---

@@ -10,6 +10,7 @@ keywords: ["RILPHONEBOOKINFO structure"]
 ms.keywords: "*LPRILPHONEBOOKINFO, RILPHONEBOOKINFO, RILPHONEBOOKINFO structure [Network Drivers Starting with Windows Vista], netvista.rilphonebookinfo, ntddrilapitypes/RILPHONEBOOKINFO"
 f1_keywords:
  - "ntddrilapitypes/RILPHONEBOOKINFO"
+ - "RILPHONEBOOKINFO"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILPHONEBOOKINFO
-product:
-- Windows
 targetos: Windows
 req.typenames: RILPHONEBOOKINFO, *LPRILPHONEBOOKINFO
 ---

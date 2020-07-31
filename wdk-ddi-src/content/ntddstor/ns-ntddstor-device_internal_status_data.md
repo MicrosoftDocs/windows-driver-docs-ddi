@@ -10,6 +10,7 @@ ms.date: 11/30/2019
 ms.topic: struct
 f1_keywords:
  - "ntddstor/DEVICE_INTERNAL_STATUS_DATA"
+ - "DEVICE_INTERNAL_STATUS_DATA"
 ms.keywords: DEVICE_INTERNAL_STATUS_DATA, DEVICE_INTERNAL_STATUS_DATA, *PDEVICE_INTERNAL_STATUS_DATA, 
 req.header: ntddstor.h
 req.include-header:

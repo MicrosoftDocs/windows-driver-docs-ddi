@@ -10,6 +10,7 @@ keywords: ["tagWPD_COLOR_CORRECTED_STATUS_VALUES enumeration"]
 ms.keywords: WPD_COLOR_CORRECTED_STATUS_CORRECTED, WPD_COLOR_CORRECTED_STATUS_NOT_CORRECTED, WPD_COLOR_CORRECTED_STATUS_SHOULD_NOT_BE_CORRECTED, WPD_COLOR_CORRECTED_STATUS_VALUES, WPD_COLOR_CORRECTED_STATUS_VALUES enumeration, enumeration, portabledevice/WPD_COLOR_CORRECTED_STATUS_CORRECTED, portabledevice/WPD_COLOR_CORRECTED_STATUS_NOT_CORRECTED, portabledevice/WPD_COLOR_CORRECTED_STATUS_SHOULD_NOT_BE_CORRECTED, portabledevice/WPD_COLOR_CORRECTED_STATUS_VALUES, tagWPD_COLOR_CORRECTED_STATUS_VALUES, wpddk.wpd_color_corrected_status_values
 f1_keywords:
  - "portabledevice/WPD_COLOR_CORRECTED_STATUS_VALUES"
+ - "WPD_COLOR_CORRECTED_STATUS_VALUES"
 req.header: portabledevice.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - PortableDevice.h
 api_name:
 - WPD_COLOR_CORRECTED_STATUS_VALUES
-product:
-- Windows
 targetos: Windows
 req.typenames: WPD_COLOR_CORRECTED_STATUS_VALUES
 ms.custom: RS5

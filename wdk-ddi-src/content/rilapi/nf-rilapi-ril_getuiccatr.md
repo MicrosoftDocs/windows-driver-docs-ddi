@@ -10,6 +10,7 @@ keywords: ["RIL_GetUiccATR function"]
 ms.keywords: RIL_GetUiccATR, RIL_GetUiccATR method [Network Drivers Starting with Windows Vista], netvista.ril_getuiccatr, rilapi/RIL_GetUiccATR
 f1_keywords:
  - "rilapi/RIL_GetUiccATR"
+ - "RIL_GetUiccATR"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_GetUiccATR
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IPrintOemUni::TTYGetInfo"]
 ms.keywords: IPrintOemUni interface [Print Devices],TTYGetInfo method, IPrintOemUni.TTYGetInfo, IPrintOemUni::TTYGetInfo, TTYGetInfo, TTYGetInfo method [Print Devices], TTYGetInfo method [Print Devices],IPrintOemUni interface, prcomoem/IPrintOemUni::TTYGetInfo, print.iprintoemuni_ttygetinfo, print_unidrv-pscript_rendering_d98708b3-8e01-4037-a545-aee0e32a46c6.xml
 f1_keywords:
  - "prcomoem/IPrintOemUni.TTYGetInfo"
+ - "IPrintOemUni.TTYGetInfo"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - prcomoem.h
 api_name:
 - IPrintOemUni.TTYGetInfo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

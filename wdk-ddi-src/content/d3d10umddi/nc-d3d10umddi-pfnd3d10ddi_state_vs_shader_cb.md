@@ -9,6 +9,7 @@ keywords: ["PFND3D10DDI_STATE_VS_SHADER_CB callback function"]
 ms.keywords: PFND3D10DDI_STATE_VS_SHADER_CB, PFND3D10DDI_STATE_VS_SHADER_CB callback, d3d10state_functions_e9873351-ceaf-4cc2-9f92-7b3708d803bd.xml, d3d10umddi/pfnStateVsShaderCb, display.pfnstatevsshadercb, pfnStateVsShaderCb, pfnStateVsShaderCb callback function [Display Devices]
 f1_keywords:
  - "d3d10umddi/pfnStateVsShaderCb"
+ - "pfnStateVsShaderCb"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - pfnStateVsShaderCb
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

@@ -9,6 +9,7 @@ keywords: ["D3D11DDIARG_BUFFER_RENDERTARGETVIEW structure"]
 ms.keywords: D3D11DDIARG_BUFFER_RENDERTARGETVIEW, D3D11DDIARG_BUFFER_RENDERTARGETVIEW structure [Display Devices], UMDisplayDriver_Dx11param_Structs_1e10bcbc-ad5c-47b4-a36d-d1d471e38a7e.xml, d3d10umddi/D3D11DDIARG_BUFFER_RENDERTARGETVIEW, display.d3d11ddiarg_buffer_rendertargetview
 f1_keywords:
  - "d3d10umddi/D3D11DDIARG_BUFFER_RENDERTARGETVIEW"
+ - "D3D11DDIARG_BUFFER_RENDERTARGETVIEW"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - D3D11DDIARG_BUFFER_RENDERTARGETVIEW
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D11DDIARG_BUFFER_RENDERTARGETVIEW

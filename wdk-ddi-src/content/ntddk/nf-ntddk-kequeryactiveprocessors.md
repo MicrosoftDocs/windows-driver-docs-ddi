@@ -10,6 +10,7 @@ keywords: ["KeQueryActiveProcessors function"]
 ms.keywords: KeQueryActiveProcessors, KeQueryActiveProcessors routine [Kernel-Mode Driver Architecture], k105_963f6993-c875-4939-89ce-7abf2e7a9c22.xml, kernel.kequeryactiveprocessors, wdm/KeQueryActiveProcessors
 f1_keywords:
  - "ntddk/KeQueryActiveProcessors"
+ - "KeQueryActiveProcessors"
 req.header: ntddk.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeQueryActiveProcessors
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

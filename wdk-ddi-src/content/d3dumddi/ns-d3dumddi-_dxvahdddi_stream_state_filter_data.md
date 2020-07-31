@@ -10,6 +10,7 @@ keywords: ["_DXVAHDDDI_STREAM_STATE_FILTER_DATA structure"]
 ms.keywords: DXVA2_Structs_e20d3d19-75a9-4539-888f-4c3c73cc02c8.xml, DXVAHDDDI_STREAM_STATE_FILTER_DATA, DXVAHDDDI_STREAM_STATE_FILTER_DATA structure [Display Devices], _DXVAHDDDI_STREAM_STATE_FILTER_DATA, d3dumddi/DXVAHDDDI_STREAM_STATE_FILTER_DATA, display.dxvahdddi_stream_state_filter_data
 f1_keywords:
  - "d3dumddi/DXVAHDDDI_STREAM_STATE_FILTER_DATA"
+ - "DXVAHDDDI_STREAM_STATE_FILTER_DATA"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - DXVAHDDDI_STREAM_STATE_FILTER_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVAHDDDI_STREAM_STATE_FILTER_DATA
 ---

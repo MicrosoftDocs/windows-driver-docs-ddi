@@ -10,6 +10,7 @@ keywords: ["_CDROM_SEEK_AUDIO_MSF structure"]
 ms.keywords: "*PCDROM_SEEK_AUDIO_MSF, CDROM_SEEK_AUDIO_MSF, CDROM_SEEK_AUDIO_MSF structure [Storage Devices], PCDROM_SEEK_AUDIO_MSF, PCDROM_SEEK_AUDIO_MSF structure pointer [Storage Devices], _CDROM_SEEK_AUDIO_MSF, ntddcdrm/CDROM_SEEK_AUDIO_MSF, ntddcdrm/PCDROM_SEEK_AUDIO_MSF, storage.cdrom_seek_audio_msf, structs-CD-ROM_1e8a9382-37c6-4473-831e-3547774a5b9d.xml"
 f1_keywords:
  - "ntddcdrm/CDROM_SEEK_AUDIO_MSF"
+ - "CDROM_SEEK_AUDIO_MSF"
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddcdrm.h
 api_name:
 - CDROM_SEEK_AUDIO_MSF
-product:
-- Windows
 targetos: Windows
 req.typenames: CDROM_SEEK_AUDIO_MSF, *PCDROM_SEEK_AUDIO_MSF
 ---

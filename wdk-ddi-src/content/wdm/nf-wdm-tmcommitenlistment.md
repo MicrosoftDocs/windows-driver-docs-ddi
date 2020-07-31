@@ -10,6 +10,7 @@ keywords: ["TmCommitEnlistment function"]
 ms.keywords: TmCommitEnlistment, TmCommitEnlistment routine [Kernel-Mode Driver Architecture], kernel.tmcommitenlistment, ktm_ref_c34bfdb9-5d62-448c-a82f-a8df21f05371.xml, wdm/TmCommitEnlistment
 f1_keywords:
  - "wdm/TmCommitEnlistment"
+ - "TmCommitEnlistment"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -38,8 +39,6 @@ api_location:
 - tm.sys
 api_name:
 - TmCommitEnlistment
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

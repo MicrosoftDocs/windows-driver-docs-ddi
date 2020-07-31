@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_RESERVE_DMA callback function"]
 ms.keywords: EVT_WDF_RESERVE_DMA, EVT_WDF_RESERVE_DMA callback, EvtReserveDma, EvtReserveDma callback function, kmdf.evtreservedma, wdf.evtreservedma, wdfdmatransaction/EvtReserveDma
 f1_keywords:
  - "wdfdmatransaction/EvtReserveDma"
+ - "EvtReserveDma"
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - WdfDmaTransaction.h
 api_name:
 - EvtReserveDma
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

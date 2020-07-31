@@ -10,6 +10,7 @@ keywords: ["_DXVADDI_AYUVSAMPLE8 structure"]
 ms.keywords: DXVA2_Structs_0bf70816-64a3-44cb-864a-ad94d3c9fce9.xml, DXVADDI_AYUVSAMPLE8, DXVADDI_AYUVSAMPLE8 structure [Display Devices], _DXVADDI_AYUVSAMPLE8, d3dumddi/DXVADDI_AYUVSAMPLE8, display.dxvaddi_ayuvsample8
 f1_keywords:
  - "d3dumddi/DXVADDI_AYUVSAMPLE8"
+ - "DXVADDI_AYUVSAMPLE8"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - DXVADDI_AYUVSAMPLE8
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVADDI_AYUVSAMPLE8
 ---

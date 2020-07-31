@@ -8,6 +8,7 @@ ms.date: 09/10/2018
 keywords: ["_PHYSICAL_ELEMENT_STATUS structure"]
 f1_keywords:
  - "ntddstor/_PHYSICAL_ELEMENT_STATUS"
+ - "_PHYSICAL_ELEMENT_STATUS"
 ms.keywords: _PHYSICAL_ELEMENT_STATUS, PHYSICAL_ELEMENT_STATUS, *PPHYSICAL_ELEMENT_STATUS, 
 req.header: ntddstor.h
 req.include-header:
@@ -30,8 +31,6 @@ api_location:
 - ntddstor.h
 api_name: 
 - _PHYSICAL_ELEMENT_STATUS
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

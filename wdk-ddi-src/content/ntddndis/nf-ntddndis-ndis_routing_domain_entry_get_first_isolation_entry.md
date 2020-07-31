@@ -8,6 +8,7 @@ ms.date: 04/17/2018
 keywords: ["NDIS_ROUTING_DOMAIN_ENTRY_GET_FIRST_ISOLATION_ENTRY macro"]
 f1_keywords:
  - "ntddndis/NDIS_ROUTING_DOMAIN_ENTRY_GET_FIRST_ISOLATION_ENTRY"
+ - "NDIS_ROUTING_DOMAIN_ENTRY_GET_FIRST_ISOLATION_ENTRY"
 ms.keywords: NDIS_ROUTING_DOMAIN_ENTRY_GET_FIRST_ISOLATION_ENTRY
 req.header: ntddndis.h
 req.include-header: ndis.h
@@ -34,8 +35,6 @@ api_location:
 - ntddndis.h
 api_name: 
 - NDIS_ROUTING_DOMAIN_ENTRY_GET_FIRST_ISOLATION_ENTRY
-product:
-- Windows
 targetos: Windows
 
 ---

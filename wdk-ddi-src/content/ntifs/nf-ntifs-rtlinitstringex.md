@@ -10,6 +10,7 @@ keywords: ["RtlInitStringEx function"]
 ms.keywords: RtlInitString, RtlInitString routine [Kernel-Mode Driver Architecture], RtlInitStringEx, kernel.rtl_init_string_ex, wdm/RtlInitString
 f1_keywords:
  - "ntifs/RtlInitString"
+ - "RtlInitString"
 req.header: ntifs.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlInitString
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -58,7 +57,7 @@ The <b>RtlInitStringEx</b> routine initializes a counted string of 8-bit charact
 
 ### -param DestinationString [out]
 
-A pointer to the <b>STRING</b> structure to be initialized. The Ntdef.h header file defines this structure to be identical to the <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_string">ANSI_STRING</a> structure.
+A pointer to the <b>STRING</b> structure to be initialized. The Ntdef.h header file defines this structure to be identical to the <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-string">ANSI_STRING</a> structure.
 
 
 ### -param SourceString [in, optional]
@@ -95,7 +94,7 @@ Callers of <b>RtlInitStringEx</b> can be running at IRQL <= DISPATCH_LEVEL if th
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_string">ANSI_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-string">ANSI_STRING</a>
  
 
  

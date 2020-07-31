@@ -10,6 +10,7 @@ keywords: ["IBidiRequest::SetSchema"]
 ms.keywords: IBidiRequest interface [Print Devices],SetSchema method, IBidiRequest.SetSchema, IBidiRequest::SetSchema, SetSchema, SetSchema method [Print Devices], SetSchema method [Print Devices],IBidiRequest interface, _win32_IBidiRequest_SetSchema, bidispl/IBidiRequest::SetSchema, gdi.ibidirequest_ibidirequest__setschema, print.ibidirequest_ibidirequest__setschema
 f1_keywords:
  - "bidispl/IBidiRequest.SetSchema"
+ - "IBidiRequest.SetSchema"
 req.header: bidispl.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - bidispl.dll
 api_name:
 - IBidiRequest.SetSchema
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

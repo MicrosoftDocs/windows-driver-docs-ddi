@@ -10,6 +10,7 @@ keywords: ["ExGetFirmwareType function"]
 ms.keywords: ExGetFirmwareType, ExGetFirmwareType function [Kernel-Mode Driver Architecture], kernel.exgetfirmwaretype, wdm/ExGetFirmwareType
 f1_keywords:
  - "wdm/ExGetFirmwareType"
+ - "ExGetFirmwareType"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - ExGetFirmwareType
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

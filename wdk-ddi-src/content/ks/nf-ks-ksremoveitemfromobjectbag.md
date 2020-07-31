@@ -10,6 +10,7 @@ keywords: ["KsRemoveItemFromObjectBag function"]
 ms.keywords: KsRemoveItemFromObjectBag, KsRemoveItemFromObjectBag function [Streaming Media Devices], avfunc_dbc6f0e3-7e24-4147-99d2-28e64a6a1ff9.xml, ks/KsRemoveItemFromObjectBag, stream.ksremoveitemfromobjectbag
 f1_keywords:
  - "ks/KsRemoveItemFromObjectBag"
+ - "KsRemoveItemFromObjectBag"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsRemoveItemFromObjectBag
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

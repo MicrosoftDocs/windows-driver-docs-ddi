@@ -10,6 +10,7 @@ keywords: ["WdfObjectReferenceActual function"]
 ms.keywords: DFGenObjectRef_f1251726-c87f-4faa-9a96-0b7e49da2f2c.xml, WdfObjectReferenceActual, WdfObjectReferenceActual method, kmdf.wdfobjectreferenceactual, wdf.wdfobjectreferenceactual, wdfobject/WdfObjectReferenceActual
 f1_keywords:
  - "wdfobject/WdfObjectReferenceActual"
+ - "WdfObjectReferenceActual"
 req.header: wdfobject.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfObjectReferenceActual
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

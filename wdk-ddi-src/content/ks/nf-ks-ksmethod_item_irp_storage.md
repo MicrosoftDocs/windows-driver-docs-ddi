@@ -10,6 +10,7 @@ keywords: ["KSMETHOD_ITEM_IRP_STORAGE macro"]
 ms.keywords: KSMETHOD_ITEM_IRP_STORAGE, KSMETHOD_ITEM_IRP_STORAGE macro [Streaming Media Devices], ks/KSMETHOD_ITEM_IRP_STORAGE, ksfunc_f9a51af4-aa4e-432d-99e3-03052e99b902.xml, stream.ksmethod_item_irp_storage
 f1_keywords:
  - "ks/KSMETHOD_ITEM_IRP_STORAGE"
+ - "KSMETHOD_ITEM_IRP_STORAGE"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KSMETHOD_ITEM_IRP_STORAGE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: 19H1

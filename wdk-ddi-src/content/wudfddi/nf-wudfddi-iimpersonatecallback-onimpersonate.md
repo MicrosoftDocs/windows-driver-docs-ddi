@@ -10,6 +10,7 @@ keywords: ["IImpersonateCallback::OnImpersonate"]
 ms.keywords: IImpersonateCallback interface,OnImpersonate method, IImpersonateCallback.OnImpersonate, IImpersonateCallback::OnImpersonate, OnImpersonate, OnImpersonate method, OnImpersonate method,IImpersonateCallback interface, UMDFRequestObjectRef_e3752371-61b0-44ba-af86-0cf244e27894.xml, umdf.iimpersonatecallback_onimpersonate, wdf.iimpersonatecallback_onimpersonate, wudfddi/IImpersonateCallback::OnImpersonate
 f1_keywords:
  - "wudfddi/IImpersonateCallback.OnImpersonate"
+ - "IImpersonateCallback.OnImpersonate"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wudfddi.h
 api_name:
 - IImpersonateCallback.OnImpersonate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

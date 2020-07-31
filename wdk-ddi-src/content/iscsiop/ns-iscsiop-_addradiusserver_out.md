@@ -10,6 +10,7 @@ keywords: ["_AddRADIUSServer_OUT structure"]
 ms.keywords: "*PAddRADIUSServer_OUT, AddRADIUSServer_OUT, AddRADIUSServer_OUT structure [Storage Devices], PAddRADIUSServer_OUT, PAddRADIUSServer_OUT structure pointer [Storage Devices], _AddRADIUSServer_OUT, iscsiop/AddRADIUSServer_OUT, iscsiop/PAddRADIUSServer_OUT, storage.addradiusserver_out, structs-iSCSI_4dd737cb-21a3-4f49-acbe-d40b5b172f3f.xml"
 f1_keywords:
  - "iscsiop/AddRADIUSServer_OUT"
+ - "AddRADIUSServer_OUT"
 req.header: iscsiop.h
 req.include-header: Iscsiop.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - iscsiop.h
 api_name:
 - AddRADIUSServer_OUT
-product:
-- Windows
 targetos: Windows
 req.typenames: AddRADIUSServer_OUT, *PAddRADIUSServer_OUT
 ---

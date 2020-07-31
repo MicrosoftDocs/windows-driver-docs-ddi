@@ -10,6 +10,7 @@ keywords: ["IDDCX_ENDPOINT_DIAGNOSTIC_INFO structure"]
 ms.keywords: IDDCX_ENDPOINT_DIAGNOSTIC_INFO, IDDCX_ENDPOINT_DIAGNOSTIC_INFO structure [Display Devices], display.iddcx_endpoint_diagnostic_info, iddcx/IDDCX_ENDPOINT_DIAGNOSTIC_INFO
 f1_keywords:
  - "iddcx/IDDCX_ENDPOINT_DIAGNOSTIC_INFO"
+ - "IDDCX_ENDPOINT_DIAGNOSTIC_INFO"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - iddcx.h
 api_name:
 - IDDCX_ENDPOINT_DIAGNOSTIC_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

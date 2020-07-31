@@ -10,6 +10,7 @@ keywords: ["NDIS_SWITCH_GROW_NET_BUFFER_LIST_DESTINATIONS callback function"]
 ms.keywords: GrowNetBufferListDestinations, GrowNetBufferListDestinations callback function [Network Drivers Starting with Windows Vista], NDIS_SWITCH_GROW_NET_BUFFER_LIST_DESTINATIONS, NDIS_SWITCH_GROW_NET_BUFFER_LIST_DESTINATIONS callback, ndis/GrowNetBufferListDestinations, netvista.grownetbufferlistdestinations
 f1_keywords:
  - "ndis/GrowNetBufferListDestinations"
+ - "GrowNetBufferListDestinations"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - GrowNetBufferListDestinations
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

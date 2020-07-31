@@ -8,6 +8,7 @@ ms.date: 04/13/2018
 keywords: ["NET_BUFFER_LIST_SET_HASH_VALUE macro"]
 f1_keywords:
  - "ndis/NET_BUFFER_LIST_SET_HASH_VALUE"
+ - "NET_BUFFER_LIST_SET_HASH_VALUE"
 ms.keywords: NET_BUFFER_LIST_SET_HASH_VALUE
 req.header: ndis.h
 req.include-header:
@@ -34,8 +35,6 @@ api_location:
 - ndis.h
 api_name: 
 - NET_BUFFER_LIST_SET_HASH_VALUE
-product:
-- Windows
 targetos: Windows
 
 ---

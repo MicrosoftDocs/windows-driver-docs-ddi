@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["PsGetThreadServerSilo function"]
 f1_keywords:
  - "ntddk/PsGetThreadServerSilo"
+ - "PsGetThreadServerSilo"
 ms.keywords: PsGetThreadServerSilo
 req.header: ntddk.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - Ntoskrnl.exe
 api_name: 
 - PsGetThreadServerSilo
-product:
-- Windows
 targetos: Windows
 
 

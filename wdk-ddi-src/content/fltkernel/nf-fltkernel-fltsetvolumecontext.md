@@ -10,6 +10,7 @@ keywords: ["FltSetVolumeContext function"]
 ms.keywords: FltApiRef_p_to_z_889de924-a441-479f-9818-da016dd3feb3.xml, FltSetVolumeContext, FltSetVolumeContext function [Installable File System Drivers], fltkernel/FltSetVolumeContext, ifsk.fltsetvolumecontext
 f1_keywords:
  - "fltkernel/FltSetVolumeContext"
+ - "FltSetVolumeContext"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltSetVolumeContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

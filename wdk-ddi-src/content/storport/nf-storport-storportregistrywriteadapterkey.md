@@ -10,6 +10,7 @@ keywords: ["StorPortRegistryWriteAdapterKey function"]
 ms.keywords: StorPortRegistryReadAdapterKey, StorPortRegistryWriteAdapterKey, StorPortRegistryWriteAdapterKey routine [Storage Devices], storage.storportregistryreadadapterkey, storport/StorPortRegistryWriteAdapterKey
 f1_keywords:
  - "storport/StorPortRegistryWriteAdapterKey"
+ - "StorPortRegistryWriteAdapterKey"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Storport.dll
 api_name:
 - StorPortRegistryWriteAdapterKey
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["CcFlushCache function"]
 ms.keywords: CcFlushCache, CcFlushCache routine [Installable File System Drivers], ccref_089656c6-a12e-4e74-a72d-7f0182f3c3dd.xml, ifsk.ccflushcache, ntifs/CcFlushCache
 f1_keywords:
  - "ntifs/CcFlushCache"
+ - "CcFlushCache"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - CcFlushCache
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

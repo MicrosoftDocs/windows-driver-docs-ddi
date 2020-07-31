@@ -10,6 +10,7 @@ keywords: ["OPEN_NDK_ADAPTER_HANDLER callback function"]
 ms.keywords: OPEN_NDK_ADAPTER_HANDLER, OPEN_NDK_ADAPTER_HANDLER callback, OpenNdkAdapterHandler, OpenNdkAdapterHandler callback function [Network Drivers Starting with Windows Vista], ndisndk/OpenNdkAdapterHandler, netvista.open_ndk_adapter_handler
 f1_keywords:
  - "ndisndk/OpenNdkAdapterHandler"
+ - "OpenNdkAdapterHandler"
 req.header: ndisndk.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ndisndk.h
 api_name:
 - OpenNdkAdapterHandler
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

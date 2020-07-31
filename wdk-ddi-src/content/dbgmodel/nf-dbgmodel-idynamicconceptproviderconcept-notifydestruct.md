@@ -7,6 +7,7 @@ ms.date: 09/19/2018
 keywords: ["IDynamicConceptProviderConcept::NotifyDestruct"]
 f1_keywords:
  - "dbgmodel/IDynamicConceptProviderConcept.NotifyDestruct"
+ - "IDynamicConceptProviderConcept.NotifyDestruct"
 ms.keywords: IDynamicConceptProviderConcept::NotifyDestruct, NotifyDestruct, IDynamicConceptProviderConcept.NotifyDestruct, IDynamicConceptProviderConcept::NotifyDestruct, IDynamicConceptProviderConcept.NotifyDestruct
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDynamicConceptProviderConcept.NotifyDestruct
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

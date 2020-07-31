@@ -9,6 +9,7 @@ keywords: ["_DXGKARG_GETSCANLINE structure"]
 ms.keywords: "*INOUT_PDXGKARG_GETSCANLINE, DXGKARG_GETSCANLINE, DXGKARG_GETSCANLINE structure [Display Devices], DmStructs_9e2cdcde-c2ca-4474-9c96-ee66a80f0295.xml, _DXGKARG_GETSCANLINE, d3dkmddi/DXGKARG_GETSCANLINE, display.dxgkarg_getscanline"
 f1_keywords:
  - "d3dkmddi/DXGKARG_GETSCANLINE"
+ - "DXGKARG_GETSCANLINE"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGKARG_GETSCANLINE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGKARG_GETSCANLINE

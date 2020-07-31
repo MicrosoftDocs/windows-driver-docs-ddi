@@ -10,6 +10,7 @@ keywords: ["UfxDeviceIoControl function"]
 ms.keywords: UfxDeviceIoControl, UfxDeviceIoControl method [Buses], buses.ufxdeviceiocontrol, ufxclient/UfxDeviceIoControl
 f1_keywords:
  - "ufxclient/UfxDeviceIoControl"
+ - "UfxDeviceIoControl"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ufxclient.h
 api_name:
 - UfxDeviceIoControl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

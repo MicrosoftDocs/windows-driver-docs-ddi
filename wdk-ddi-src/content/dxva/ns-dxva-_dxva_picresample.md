@@ -10,6 +10,7 @@ keywords: ["_DXVA_PicResample structure"]
 ms.keywords: "*LPDXVA_PicResample, DXVA_PicResample, DXVA_PicResample structure [Display Devices], LPDXVA_PicResample, LPDXVA_PicResample structure pointer [Display Devices], _DXVA_PicResample, display.dxva_picresample, dxva/DXVA_PicResample, dxva/LPDXVA_PicResample, dxvaref_523256d7-10ef-4750-a065-bd4bb02c1fbe.xml"
 f1_keywords:
  - "dxva/DXVA_PicResample"
+ - "DXVA_PicResample"
 req.header: dxva.h
 req.include-header: Dxva.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dxva.h
 api_name:
 - DXVA_PicResample
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVA_PicResample, *LPDXVA_PicResample
 ---

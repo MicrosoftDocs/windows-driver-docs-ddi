@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::CreateSymbolGroup2"]
 ms.keywords: CreateSymbolGroup2, CreateSymbolGroup2 method [Windows Debugging], CreateSymbolGroup2 method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],CreateSymbolGroup2 method, IDebugSymbols3.CreateSymbolGroup2, IDebugSymbols3::CreateSymbolGroup2, dbgeng/IDebugSymbols3::CreateSymbolGroup2, debugger.createsymbolgroup2
 f1_keywords:
  - "dbgeng/IDebugSymbols3.CreateSymbolGroup2"
+ - "IDebugSymbols3.CreateSymbolGroup2"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Dbgeng.h
 api_name:
 - IDebugSymbols3.CreateSymbolGroup2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

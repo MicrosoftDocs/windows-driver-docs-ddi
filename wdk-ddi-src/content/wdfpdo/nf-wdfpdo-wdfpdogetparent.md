@@ -10,6 +10,7 @@ keywords: ["WdfPdoGetParent function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_19cc338e-2040-4e60-8e6f-7be6dbb33c13.xml, WdfPdoGetParent, WdfPdoGetParent method, kmdf.wdfpdogetparent, wdf.wdfpdogetparent, wdfpdo/WdfPdoGetParent
 f1_keywords:
  - "wdfpdo/WdfPdoGetParent"
+ - "WdfPdoGetParent"
 req.header: wdfpdo.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfPdoGetParent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

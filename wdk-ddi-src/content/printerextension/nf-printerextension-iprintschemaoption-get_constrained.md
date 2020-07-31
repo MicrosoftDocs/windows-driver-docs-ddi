@@ -10,6 +10,7 @@ keywords: ["IPrintSchemaOption::get_Constrained"]
 ms.keywords: Constrained property [Print Devices], Constrained property [Print Devices],IPrintSchemaOption interface, IPrintSchemaOption interface [Print Devices],Constrained property, IPrintSchemaOption.Constrained, IPrintSchemaOption.get_Constrained, IPrintSchemaOption::Constrained, IPrintSchemaOption::get_Constrained, get_Constrained, print.iprintschemaoption_constrained, printerextension/IPrintSchemaOption::Constrained, printerextension/IPrintSchemaOption::get_Constrained
 f1_keywords:
  - "printerextension/IPrintSchemaOption.Constrained"
+ - "IPrintSchemaOption.Constrained"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IPrintSchemaOption.Constrained
 - IPrintSchemaOption.get_Constrained
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

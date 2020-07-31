@@ -10,6 +10,7 @@ keywords: ["_BRB structure"]
 ms.keywords: "*PBRB, BRB, BRB structure [Bluetooth Devices], PBRB, PBRB structure pointer [Bluetooth Devices], _BRB, bltooth.brb, bth_structs_7ccc2ad1-dd10-4ae9-be41-fa79229b32aa.xml, bthddi/BRB, bthddi/PBRB"
 f1_keywords:
  - "bthddi/BRB"
+ - "BRB"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - bthddi.h
 api_name:
 - BRB
-product:
-- Windows
 targetos: Windows
 req.typenames: BRB, *PBRB
 ---

@@ -10,6 +10,7 @@ keywords: ["WdfDeviceInitSetCompanionEventCallbacks function"]
 ms.keywords: WdfDeviceInitSetCompanionEventCallbacks, WdfDeviceInitSetCompanionEventCallbacks method, wdf.wdfdeviceinitsetcompanioneventcallbacks, wdfcompanion/WdfDeviceInitSetCompanionEventCallbacks
 f1_keywords:
  - "wdfcompanion/WdfDeviceInitSetCompanionEventCallbacks"
+ - "WdfDeviceInitSetCompanionEventCallbacks"
 req.header: wdfcompanion.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wdfcompanion.h
 api_name:
 - WdfDeviceInitSetCompanionEventCallbacks
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

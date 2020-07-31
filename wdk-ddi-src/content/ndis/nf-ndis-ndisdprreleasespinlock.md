@@ -10,6 +10,7 @@ keywords: ["NdisDprReleaseSpinLock macro"]
 ms.keywords: NdisDprReleaseSpinLock, NdisDprReleaseSpinLock macro [Network Drivers Starting with Windows Vista], ndis/NdisDprReleaseSpinLock, ndis_spin_lock_ref_7f9e73b2-9284-4a8c-895e-209a7685fa94.xml, netvista.ndisdprreleasespinlock
 f1_keywords:
  - "ndis/NdisDprReleaseSpinLock"
+ - "NdisDprReleaseSpinLock"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisDprReleaseSpinLock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

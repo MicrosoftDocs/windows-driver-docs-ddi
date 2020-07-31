@@ -10,6 +10,7 @@ keywords: ["WDF_IO_QUEUE_READY function"]
 ms.keywords: DFQueueObjectRef_d5c37eea-044b-41b6-9c0a-f910fef04d00.xml, WDF_IO_QUEUE_READY, WDF_IO_QUEUE_READY function, kmdf.wdf_io_queue_ready, wdf.wdf_io_queue_ready, wdfio/WDF_IO_QUEUE_READY
 f1_keywords:
  - "wdfio/WDF_IO_QUEUE_READY"
+ - "WDF_IO_QUEUE_READY"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - None.dll
 api_name:
 - WDF_IO_QUEUE_READY
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

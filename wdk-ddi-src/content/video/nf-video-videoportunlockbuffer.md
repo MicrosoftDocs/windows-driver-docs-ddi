@@ -10,6 +10,7 @@ keywords: ["VideoPortUnlockBuffer function"]
 ms.keywords: VideoPortUnlockBuffer, VideoPortUnlockBuffer function [Display Devices], VideoPort_Functions_2cb5a81f-1956-4431-bf54-7ee6e3d79eab.xml, display.videoportunlockbuffer, video/VideoPortUnlockBuffer
 f1_keywords:
  - "video/VideoPortUnlockBuffer"
+ - "VideoPortUnlockBuffer"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Videoprt.sys
 api_name:
 - VideoPortUnlockBuffer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

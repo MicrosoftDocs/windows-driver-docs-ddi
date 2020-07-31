@@ -10,6 +10,7 @@ keywords: ["IWDFIoRequest2::GetStatus"]
 ms.keywords: GetStatus, GetStatus method, GetStatus method,IWDFIoRequest2 interface, IWDFIoRequest2 interface,GetStatus method, IWDFIoRequest2.GetStatus, IWDFIoRequest2::GetStatus, UMDFRequestObjectRef_c2efd103-5295-494f-8938-95cf0d76fc3e.xml, umdf.iwdfiorequest2_getstatus, wdf.iwdfiorequest2_getstatus, wudfddi/IWDFIoRequest2::GetStatus
 f1_keywords:
  - "wudfddi/IWDFIoRequest2.GetStatus"
+ - "IWDFIoRequest2.GetStatus"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFIoRequest2.GetStatus
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

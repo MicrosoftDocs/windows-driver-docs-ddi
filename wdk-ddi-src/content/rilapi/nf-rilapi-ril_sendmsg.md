@@ -10,6 +10,7 @@ keywords: ["RIL_SendMsg function"]
 ms.keywords: RIL_SendMsg, RIL_SendMsg method [Network Drivers Starting with Windows Vista], netvista.ril_sendmsg, rilapi/RIL_SendMsg
 f1_keywords:
  - "rilapi/RIL_SendMsg"
+ - "RIL_SendMsg"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_SendMsg
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

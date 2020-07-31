@@ -10,6 +10,7 @@ keywords: ["CWiauFormatConverter::Init"]
 ms.keywords: CWiauFormatConverter interface [Imaging Devices],Init method, CWiauFormatConverter.Init, CWiauFormatConverter::Init, Init, Init method [Imaging Devices], Init method [Imaging Devices],CWiauFormatConverter interface, image.cwiauformatconverter_init, wiauFncs_d762c597-47d1-446a-b76d-7993ba32f571.xml, wiautil/CWiauFormatConverter::Init
 f1_keywords:
  - "wiautil/CWiauFormatConverter.Init"
+ - "CWiauFormatConverter.Init"
 req.header: wiautil.h
 req.include-header: Wiautil.h, Wiamindr.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wiautil.h
 api_name:
 - CWiauFormatConverter.Init
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

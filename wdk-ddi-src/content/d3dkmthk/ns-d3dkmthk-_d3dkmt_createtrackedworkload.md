@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_CREATETRACKEDWORKLOAD structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_CREATETRACKEDWORKLOAD"
+ - "_D3DKMT_CREATETRACKEDWORKLOAD"
 ms.keywords: _D3DKMT_CREATETRACKEDWORKLOAD, D3DKMT_CREATETRACKEDWORKLOAD, 
 req.header: d3dkmthk.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - d3dkmthk.h
 api_name: 
 - _D3DKMT_CREATETRACKEDWORKLOAD
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

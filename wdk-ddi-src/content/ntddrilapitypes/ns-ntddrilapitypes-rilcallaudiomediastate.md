@@ -10,6 +10,7 @@ keywords: ["RILCALLAUDIOMEDIASTATE structure"]
 ms.keywords: "*LPRILCALLAUDIOMEDIASTATE, RILCALLAUDIOMEDIASTATE, RILCALLAUDIOMEDIASTATE structure [Network Drivers Starting with Windows Vista], netvista.rilcallaudiomediastate, ntddrilapitypes/RILCALLAUDIOMEDIASTATE"
 f1_keywords:
  - "ntddrilapitypes/RILCALLAUDIOMEDIASTATE"
+ - "RILCALLAUDIOMEDIASTATE"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILCALLAUDIOMEDIASTATE
-product:
-- Windows
 targetos: Windows
 req.typenames: RILCALLAUDIOMEDIASTATE, *LPRILCALLAUDIOMEDIASTATE
 ---

@@ -10,6 +10,7 @@ keywords: ["WdfUsbTargetPipeSendUrbSynchronously function"]
 ms.keywords: DFUsbRef_3e797ee4-f454-4520-b4a0-84565515622f.xml, WdfUsbTargetPipeSendUrbSynchronously, WdfUsbTargetPipeSendUrbSynchronously method, kmdf.wdfusbtargetpipesendurbsynchronously, wdf.wdfusbtargetpipesendurbsynchronously, wdfusb/WdfUsbTargetPipeSendUrbSynchronously
 f1_keywords:
  - "wdfusb/WdfUsbTargetPipeSendUrbSynchronously"
+ - "WdfUsbTargetPipeSendUrbSynchronously"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfUsbTargetPipeSendUrbSynchronously
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

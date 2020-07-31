@@ -10,6 +10,7 @@ keywords: ["IDebugDataSpaces4::StartEnumTagged"]
 ms.keywords: IDebugDataSpaces3 interface [Windows Debugging],StartEnumTagged method, IDebugDataSpaces3::StartEnumTagged, IDebugDataSpaces4 interface [Windows Debugging],StartEnumTagged method, IDebugDataSpaces4.StartEnumTagged, IDebugDataSpaces4::StartEnumTagged, IDebugDataSpaces_bc6f5148-04e1-4912-8ca2-8c095519af8f.xml, StartEnumTagged, StartEnumTagged method [Windows Debugging], StartEnumTagged method [Windows Debugging],IDebugDataSpaces3 interface, StartEnumTagged method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces3::StartEnumTagged, dbgeng/IDebugDataSpaces4::StartEnumTagged, debugger.startenumtagged
 f1_keywords:
  - "dbgeng/IDebugDataSpaces3.StartEnumTagged"
+ - "IDebugDataSpaces3.StartEnumTagged"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IDebugDataSpaces3.StartEnumTagged
 - IDebugDataSpaces4.StartEnumTagged
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

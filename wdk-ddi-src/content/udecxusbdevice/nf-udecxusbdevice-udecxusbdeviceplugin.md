@@ -10,6 +10,7 @@ keywords: ["UdecxUsbDevicePlugIn function"]
 ms.keywords: UdecxUsbDevicePlugIn, UdecxUsbDevicePlugIn function [Buses], buses.udecxusbdeviceplugin, udecxusbdevice/UdecxUsbDevicePlugIn
 f1_keywords:
  - "udecxusbdevice/UdecxUsbDevicePlugIn"
+ - "UdecxUsbDevicePlugIn"
 req.header: udecxusbdevice.h
 req.include-header: Udecx.h
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 - Udecxstub.dll
 api_name:
 - UdecxUsbDevicePlugIn
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

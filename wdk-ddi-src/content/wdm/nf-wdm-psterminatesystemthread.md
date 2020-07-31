@@ -10,6 +10,7 @@ keywords: ["PsTerminateSystemThread function"]
 ms.keywords: PsTerminateSystemThread, PsTerminateSystemThread routine [Kernel-Mode Driver Architecture], k108_a8e19a60-578c-42a6-b77a-cf6c4098c815.xml, kernel.psterminatesystemthread, wdm/PsTerminateSystemThread
 f1_keywords:
  - "wdm/PsTerminateSystemThread"
+ - "PsTerminateSystemThread"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - PsTerminateSystemThread
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

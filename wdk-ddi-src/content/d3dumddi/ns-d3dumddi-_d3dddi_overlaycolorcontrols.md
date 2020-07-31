@@ -10,6 +10,7 @@ keywords: ["_D3DDDI_OVERLAYCOLORCONTROLS structure"]
 ms.keywords: D3DDDI_OVERLAYCOLORCONTROLS, D3DDDI_OVERLAYCOLORCONTROLS structure [Display Devices], D3D_other_Structs_276dd56c-35ba-4ee4-97d7-adb8dfd59c7f.xml, _D3DDDI_OVERLAYCOLORCONTROLS, d3dumddi/D3DDDI_OVERLAYCOLORCONTROLS, display.d3dddi_overlaycolorcontrols
 f1_keywords:
  - "d3dumddi/D3DDDI_OVERLAYCOLORCONTROLS"
+ - "D3DDDI_OVERLAYCOLORCONTROLS"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDI_OVERLAYCOLORCONTROLS
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDI_OVERLAYCOLORCONTROLS
 ---

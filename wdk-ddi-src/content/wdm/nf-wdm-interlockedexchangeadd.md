@@ -10,6 +10,7 @@ keywords: ["InterlockedExchangeAdd function"]
 ms.keywords: InterlockedExchangeAdd, InterlockedExchangeAdd routine [Kernel-Mode Driver Architecture], k102_ed690604-0379-476d-b838-4820f47b850a.xml, kernel.interlockedexchangeadd, wdm/InterlockedExchangeAdd
 f1_keywords:
  - "wdm/InterlockedExchangeAdd"
+ - "InterlockedExchangeAdd"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Miniport.h
 req.target-type: Universal
@@ -41,8 +42,6 @@ api_location:
 - MinKernelBase.dll
 api_name:
 - InterlockedExchangeAdd
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["WdfIoQueueRetrieveNextRequest function"]
 ms.keywords: DFQueueObjectRef_93fbecf2-1bfa-426c-9739-153d79d0ac27.xml, WdfIoQueueRetrieveNextRequest, WdfIoQueueRetrieveNextRequest method, kmdf.wdfioqueueretrievenextrequest, wdf.wdfioqueueretrievenextrequest, wdfio/WdfIoQueueRetrieveNextRequest
 f1_keywords:
  - "wdfio/WdfIoQueueRetrieveNextRequest"
+ - "WdfIoQueueRetrieveNextRequest"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfIoQueueRetrieveNextRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

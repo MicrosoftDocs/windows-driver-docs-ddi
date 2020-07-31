@@ -10,6 +10,7 @@ keywords: ["_SECURE_ELEMENT_TYPE enumeration"]
 ms.keywords: "*PSECURE_ELEMENT_TYPE, DeviceHost, External, Integrated, SECURE_ELEMENT_TYPE, SECURE_ELEMENT_TYPE,*PSECURE_ELEMENT_TYPE, SECURE_ELEMENT_TYPE,*PSECURE_ELEMENT_TYPE enumeration [Near-Field Proximity Drivers], _SECURE_ELEMENT_TYPE, _SECURE_ELEMENT_TYPE enumeration [Near-Field Proximity Drivers], nfcsedev/DeviceHost, nfcsedev/External, nfcsedev/Integrated, nfcsedev/_SECURE_ELEMENT_TYPE, nfpdrivers._secure_element_type"
 f1_keywords:
  - "nfcsedev/SECURE_ELEMENT_TYPE, *PSECURE_ELEMENT_TYPE"
+ - "SECURE_ELEMENT_TYPE, *PSECURE_ELEMENT_TYPE"
 req.header: nfcsedev.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - nfcsedev.h
 api_name:
 - SECURE_ELEMENT_TYPE, *PSECURE_ELEMENT_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: SECURE_ELEMENT_TYPE, *PSECURE_ELEMENT_TYPE
 ---

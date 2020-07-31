@@ -10,6 +10,7 @@ keywords: ["IoDeassignArcName macro"]
 ms.keywords: IoDeassignArcName, IoDeassignArcName routine [Kernel-Mode Driver Architecture], k104_859767ed-5969-41db-a454-b7808a1ef131.xml, kernel.iodeassignarcname, ntddk/IoDeassignArcName
 f1_keywords:
  - "ntddk/IoDeassignArcName"
+ - "IoDeassignArcName"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoDeassignArcName
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

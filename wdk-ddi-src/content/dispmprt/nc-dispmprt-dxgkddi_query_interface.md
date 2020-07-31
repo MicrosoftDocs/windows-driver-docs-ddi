@@ -10,6 +10,7 @@ keywords: ["DXGKDDI_QUERY_INTERFACE callback function"]
 ms.keywords: DXGKDDI_QUERY_INTERFACE, DXGKDDI_QUERY_INTERFACE callback, DmFunctions_1c8cdcd5-60e2-4d76-ba70-6af3f96f1740.xml, DxgkDdiQueryInterface, DxgkDdiQueryInterface callback function [Display Devices], display.dxgkddiqueryinterface, dispmprt/DxgkDdiQueryInterface
 f1_keywords:
  - "dispmprt/DxgkDdiQueryInterface"
+ - "DxgkDdiQueryInterface"
 req.header: dispmprt.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dispmprt.h
 api_name:
 - DxgkDdiQueryInterface
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

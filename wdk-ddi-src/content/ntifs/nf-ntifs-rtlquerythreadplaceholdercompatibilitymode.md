@@ -10,6 +10,7 @@ keywords: ["RtlQueryThreadPlaceholderCompatibilityMode function"]
 ms.keywords: RtlQueryThreadPlaceholderCompatibilityMode, RtlQueryThreadPlaceholderCompatibilityMode routine [Installable File System Drivers], ifsk.rtlquerythreadplaceholdercompatibilitymode, ntifs/RtlQueryThreadPlaceholderCompatibilityMode
 f1_keywords:
  - "ntifs/RtlQueryThreadPlaceholderCompatibilityMode"
+ - "RtlQueryThreadPlaceholderCompatibilityMode"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntifs.h
 api_name:
 - RtlQueryThreadPlaceholderCompatibilityMode
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

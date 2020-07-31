@@ -10,6 +10,7 @@ keywords: ["EVT_SPB_CONTROLLER_SEQUENCE callback function"]
 ms.keywords: EVT_SPB_CONTROLLER_SEQUENCE, EVT_SPB_CONTROLLER_SEQUENCE callback, EvtSpbControllerIoSequence, EvtSpbControllerIoSequence callback function [Buses], SPB.evtspbcontrolleriosequence, spbcx/EvtSpbControllerIoSequence
 f1_keywords:
  - "spbcx/EvtSpbControllerIoSequence"
+ - "EvtSpbControllerIoSequence"
 req.header: spbcx.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Spbcx.h
 api_name:
 - EvtSpbControllerIoSequence
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

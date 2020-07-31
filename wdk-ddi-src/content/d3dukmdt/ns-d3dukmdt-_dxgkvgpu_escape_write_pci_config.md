@@ -10,6 +10,7 @@ keywords: ["_DXGKVGPU_ESCAPE_WRITE_PCI_CONFIG structure"]
 ms.keywords: DXGKVGPU_ESCAPE_WRITE_PCI_CONFIG, DXGKVGPU_ESCAPE_WRITE_PCI_CONFIG structure [Display Devices], _DXGKVGPU_ESCAPE_WRITE_PCI_CONFIG, d3dukmdt/DXGKVGPU_ESCAPE_WRITE_PCI_CONFIG, display.dxgkvgpu_escape_write_pci_config
 f1_keywords:
  - "d3dukmdt/DXGKVGPU_ESCAPE_WRITE_PCI_CONFIG"
+ - "DXGKVGPU_ESCAPE_WRITE_PCI_CONFIG"
 req.header: d3dukmdt.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dukmdt.h
 api_name:
 - DXGKVGPU_ESCAPE_WRITE_PCI_CONFIG
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGKVGPU_ESCAPE_WRITE_PCI_CONFIG
 ---

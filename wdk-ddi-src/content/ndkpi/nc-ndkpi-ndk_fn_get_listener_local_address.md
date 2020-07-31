@@ -10,6 +10,7 @@ keywords: ["NDK_FN_GET_LISTENER_LOCAL_ADDRESS callback function"]
 ms.keywords: NDK_FN_GET_LISTENER_LOCAL_ADDRESS, NDK_FN_GET_LISTENER_LOCAL_ADDRESS callback, NdkGetListenerLocalAddress, NdkGetListenerLocalAddress callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkGetListenerLocalAddress, netvista.ndk_fn_get_listener_local_address
 f1_keywords:
  - "ndkpi/NdkGetListenerLocalAddress"
+ - "NdkGetListenerLocalAddress"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ndkpi.h
 api_name:
 - NdkGetListenerLocalAddress
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["MINIPORT_WDI_ADAPTER_HANG_DIAGNOSE callback function"]
 ms.keywords: MINIPORT_WDI_ADAPTER_HANG_DIAGNOSE, MINIPORT_WDI_ADAPTER_HANG_DIAGNOSE callback, MiniportWdiAdapterHangDiagnose, MiniportWdiAdapterHangDiagnose callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiAdapterHangDiagnose, netvista.miniportwdiadapterhangdiagnose
 f1_keywords:
  - "dot11wdi/MiniportWdiAdapterHangDiagnose"
+ - "MiniportWdiAdapterHangDiagnose"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dot11wdi.h
 api_name:
 - MiniportWdiAdapterHangDiagnose
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

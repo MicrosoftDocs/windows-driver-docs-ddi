@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["EVT_TR_CREATE_SECURE_DEVICE_CONTEXT callback function"]
 f1_keywords:
  - "trustedruntimeclx/EVT_TR_CREATE_SECURE_DEVICE_CONTEXT"
+ - "EVT_TR_CREATE_SECURE_DEVICE_CONTEXT"
 req.header: trustedruntimeclx.h
 req.include-header:
 req.target-type:
@@ -32,8 +33,6 @@ api_location:
 - trustedruntimeclx.h
 api_name: 
 - EVT_TR_CREATE_SECURE_DEVICE_CONTEXT
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

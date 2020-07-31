@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["DXGKCB_ACQUIREHANDLEDATA callback function"]
 f1_keywords:
  - "d3dkmddi/DXGKCB_ACQUIREHANDLEDATA"
+ - "DXGKCB_ACQUIREHANDLEDATA"
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type:
@@ -32,8 +33,6 @@ api_location:
 - d3dkmddi.h
 api_name: 
 - DXGKCB_ACQUIREHANDLEDATA
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

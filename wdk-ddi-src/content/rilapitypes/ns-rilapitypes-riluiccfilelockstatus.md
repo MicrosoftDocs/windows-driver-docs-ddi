@@ -10,6 +10,7 @@ keywords: ["RILUICCFILELOCKSTATUS structure"]
 ms.keywords: "*LPRILUICCFILELOCKSTATUS, RILUICCFILELOCKSTATUS, RILUICCFILELOCKSTATUS structure [Network Drivers Starting with Windows Vista], netvista.riluiccfilelockstatus_2, rilapitypes/RILUICCFILELOCKSTATUS"
 f1_keywords:
  - "rilapitypes/RILUICCFILELOCKSTATUS"
+ - "RILUICCFILELOCKSTATUS"
 req.header: rilapitypes.h
 req.include-header:
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapitypes.h
 api_name:
 - RILUICCFILELOCKSTATUS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILUICCFILELOCKSTATUS, *LPRILUICCFILELOCKSTATUS
 req.product: Windows 10 or later.

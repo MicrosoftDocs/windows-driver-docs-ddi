@@ -10,6 +10,7 @@ ms.date: 02/25/2019
 keywords: ["IEventDetectorOemAdapter::BuildArmingPatternData"]
 f1_keywords:
  - "eventdetectoroemadapter/IEventDetectorOemAdapter.BuildArmingPatternData"
+ - "IEventDetectorOemAdapter.BuildArmingPatternData"
 ms.keywords: IEventDetectorOemAdapter::BuildArmingPatternData, BuildArmingPatternData, IEventDetectorOemAdapter.BuildArmingPatternData, IEventDetectorOemAdapter::BuildArmingPatternData, IEventDetectorOemAdapter.BuildArmingPatternData
 req.header: eventdetectoroemadapter.h
 req.include-header:

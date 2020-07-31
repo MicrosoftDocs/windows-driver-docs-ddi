@@ -10,6 +10,7 @@ keywords: ["IWDFDevice3::MapIoSpace"]
 ms.keywords: IWDFDevice3 interface,MapIoSpace method, IWDFDevice3.MapIoSpace, IWDFDevice3::\_MapIoSpace, IWDFDevice3::MapIoSpace, MapIoSpace, MapIoSpace method, MapIoSpace method,IWDFDevice3 interface, umdf.iwdfdevice3_mapiospace, wdf.iwdfdevice3_mapiospace, wudfddi/IWDFDevice3::\_MapIoSpace
 f1_keywords:
  - "wudfddi/IWDFDevice3.MapIoSpace"
+ - "IWDFDevice3.MapIoSpace"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFDevice3.MapIoSpace
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

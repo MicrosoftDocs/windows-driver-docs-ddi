@@ -10,6 +10,7 @@ keywords: ["UdecxUsbDeviceInitAddStringDescriptor function"]
 ms.keywords: UdecxUsbDeviceInitAddStringDescriptor, UdecxUsbDeviceInitAddStringDescriptor function [Buses], buses.udecxusbdeviceinitaddstringdescriptor, udecxusbdevice/UdecxUsbDeviceInitAddStringDescriptor
 f1_keywords:
  - "udecxusbdevice/UdecxUsbDeviceInitAddStringDescriptor"
+ - "UdecxUsbDeviceInitAddStringDescriptor"
 req.header: udecxusbdevice.h
 req.include-header: Udecx.h
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 - Udecxstub.dll
 api_name:
 - UdecxUsbDeviceInitAddStringDescriptor
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

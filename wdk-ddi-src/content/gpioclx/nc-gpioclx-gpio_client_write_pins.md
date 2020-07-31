@@ -10,6 +10,7 @@ keywords: ["GPIO_CLIENT_WRITE_PINS callback function"]
 ms.keywords: CLIENT_WriteGpioPins, CLIENT_WriteGpioPins callback, CLIENT_WriteGpioPins callback function [Parallel Ports], GPIO.client_writegpiopins, GPIO_CLIENT_WRITE_PINS, gpioclx/CLIENT_WriteGpioPins
 f1_keywords:
  - "gpioclx/CLIENT_WriteGpioPins"
+ - "CLIENT_WriteGpioPins"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Gpioclx.h
 api_name:
 - CLIENT_WriteGpioPins
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

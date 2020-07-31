@@ -10,6 +10,7 @@ keywords: ["NdisClIncomingCallComplete function"]
 ms.keywords: NdisClIncomingCallComplete, NdisClIncomingCallComplete function [Network Drivers Starting with Windows Vista], condis_client_ref_93263dd6-f55a-4923-8173-b3617f40353a.xml, ndis/NdisClIncomingCallComplete, netvista.ndisclincomingcallcomplete
 f1_keywords:
  - "ndis/NdisClIncomingCallComplete"
+ - "NdisClIncomingCallComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisClIncomingCallComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

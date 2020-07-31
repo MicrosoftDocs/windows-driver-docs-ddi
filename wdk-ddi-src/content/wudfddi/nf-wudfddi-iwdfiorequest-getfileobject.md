@@ -10,6 +10,7 @@ keywords: ["IWDFIoRequest::GetFileObject"]
 ms.keywords: GetFileObject, GetFileObject method, GetFileObject method,IWDFIoRequest interface, IWDFIoRequest interface,GetFileObject method, IWDFIoRequest.GetFileObject, IWDFIoRequest::GetFileObject, UMDFRequestObjectRef_50a8506d-039a-448a-8459-30e89ac1021c.xml, umdf.iwdfiorequest_getfileobject, wdf.iwdfiorequest_getfileobject, wudfddi/IWDFIoRequest::GetFileObject
 f1_keywords:
  - "wudfddi/IWDFIoRequest.GetFileObject"
+ - "IWDFIoRequest.GetFileObject"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFIoRequest.GetFileObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

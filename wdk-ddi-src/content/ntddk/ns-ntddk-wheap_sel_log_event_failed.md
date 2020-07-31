@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["WHEAP_SEL_LOG_EVENT_FAILED structure"]
 f1_keywords:
  - "ntddk/WHEAP_SEL_LOG_EVENT_FAILED"
+ - "WHEAP_SEL_LOG_EVENT_FAILED"
 ms.keywords: WHEAP_SEL_LOG_EVENT_FAILED, WHEAP_SEL_LOG_EVENT_FAILED, *PWHEAP_SEL_LOG_EVENT_FAILED, 
 req.header: ntddk.h
 req.include-header:

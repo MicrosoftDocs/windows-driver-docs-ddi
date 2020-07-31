@@ -10,6 +10,7 @@ keywords: ["StreamClassAbortOutstandingRequests function"]
 ms.keywords: StreamClassAbortOutstandingRequests, StreamClassAbortOutstandingRequests routine [Streaming Media Devices], strclass-routines_f0bb32ce-019d-4c2f-90f6-cf6d54e2fb08.xml, stream.streamclassabortoutstandingrequests, strmini/StreamClassAbortOutstandingRequests
 f1_keywords:
  - "strmini/StreamClassAbortOutstandingRequests"
+ - "StreamClassAbortOutstandingRequests"
 req.header: strmini.h
 req.include-header: Strmini.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Stream.dll
 api_name:
 - StreamClassAbortOutstandingRequests
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

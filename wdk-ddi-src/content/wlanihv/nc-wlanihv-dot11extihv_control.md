@@ -10,6 +10,7 @@ keywords: ["DOT11EXTIHV_CONTROL callback"]
 ms.keywords: DOT11EXTIHV_CONTROL, Dot11ExtIhvControl, Dot11ExtIhvControl callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_49f041a3-e60a-4d60-92e2-9c12a4c1db5d.xml, netvista.dot11extihvcontrol, wlanihv/Dot11ExtIhvControl
 f1_keywords:
  - "wlanihv/Dot11ExtIhvControl"
+ - "Dot11ExtIhvControl"
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wlanihv.h
 api_name:
 - Dot11ExtIhvControl
-product:
-- Windows
 targetos: Windows
 req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.

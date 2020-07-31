@@ -10,6 +10,7 @@ keywords: ["StorPortInvokeAcpiMethod function"]
 ms.keywords: StorPortInvokeAcpiMethod, StorPortInvokeAcpiMethod routine [Storage Devices], storage.storportinvokeacpimethod, storport/StorPortInvokeAcpiMethod
 f1_keywords:
  - "storport/StorPortInvokeAcpiMethod"
+ - "StorPortInvokeAcpiMethod"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - storport.h
 api_name:
 - StorPortInvokeAcpiMethod
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["NtGetNotificationResourceManager function"]
 ms.keywords: NtGetNotificationResourceManager, ZwGetNotificationResourceManager, ZwGetNotificationResourceManager routine [Kernel-Mode Driver Architecture], kernel.zwgetnotificationresourcemanager, ktm_ref_c0a3b128-d49c-4080-ae12-0081ab5a27e9.xml, wdm/NtGetNotificationResourceManager, wdm/ZwGetNotificationResourceManager
 f1_keywords:
  - "wdm/ZwGetNotificationResourceManager"
+ - "ZwGetNotificationResourceManager"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntifs.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - ZwGetNotificationResourceManager
 - NtGetNotificationResourceManager
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

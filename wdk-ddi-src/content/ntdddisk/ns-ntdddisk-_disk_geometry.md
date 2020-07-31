@@ -10,6 +10,7 @@ keywords: ["_DISK_GEOMETRY structure"]
 ms.keywords: "*PDISK_GEOMETRY, DISK_GEOMETRY, DISK_GEOMETRY structure [Storage Devices], PDISK_GEOMETRY, PDISK_GEOMETRY structure pointer [Storage Devices], _DISK_GEOMETRY, ntdddisk/DISK_GEOMETRY, ntdddisk/PDISK_GEOMETRY, storage.disk_geometry, structs-disk_3ad908b7-8f42-4a06-914e-92b631cc1a56.xml"
 f1_keywords:
  - "ntdddisk/DISK_GEOMETRY"
+ - "DISK_GEOMETRY"
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h, Ntddk.h, Ntdddisk.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntdddisk.h
 api_name:
 - DISK_GEOMETRY
-product:
-- Windows
 targetos: Windows
 req.typenames: DISK_GEOMETRY, *PDISK_GEOMETRY
 ---

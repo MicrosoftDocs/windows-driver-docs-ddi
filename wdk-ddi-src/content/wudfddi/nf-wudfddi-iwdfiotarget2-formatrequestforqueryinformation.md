@@ -10,6 +10,7 @@ keywords: ["IWDFIoTarget2::FormatRequestForQueryInformation"]
 ms.keywords: FormatRequestForQueryInformation, FormatRequestForQueryInformation method, FormatRequestForQueryInformation method,IWDFIoTarget2 interface, IWDFIoTarget2 interface,FormatRequestForQueryInformation method, IWDFIoTarget2.FormatRequestForQueryInformation, IWDFIoTarget2::FormatRequestForQueryInformation, UMDFIoTargetObjectRef_8057f7bc-65c3-491b-9aa3-a5fc9e790524.xml, umdf.iwdfiotarget2_formatrequestforqueryinformation, wdf.iwdfiotarget2_formatrequestforqueryinformation, wudfddi/IWDFIoTarget2::FormatRequestForQueryInformation
 f1_keywords:
  - "wudfddi/IWDFIoTarget2.FormatRequestForQueryInformation"
+ - "IWDFIoTarget2.FormatRequestForQueryInformation"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFIoTarget2.FormatRequestForQueryInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

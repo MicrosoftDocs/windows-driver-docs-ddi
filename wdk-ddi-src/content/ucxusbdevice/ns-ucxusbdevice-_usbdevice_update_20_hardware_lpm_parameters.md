@@ -10,6 +10,7 @@ keywords: ["_USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS structure"]
 ms.keywords: P_USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS, P_USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS structure pointer [Buses], USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS, USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS structure [Buses], _USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS, buses._usbdevice_update_20_hardware_lpm_parameters, ucxusbdevice/P_USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS, ucxusbdevice/_USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS
 f1_keywords:
  - "ucxusbdevice/USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS"
+ - "USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS"
 req.header: ucxusbdevice.h
 req.include-header: Ucxclass.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ucxusbdevice.h
 api_name:
 - USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS
 ---

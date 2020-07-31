@@ -10,6 +10,7 @@ keywords: ["PFLT_POST_OPERATION_CALLBACK callback"]
 ms.keywords: FltCallbacks_a3bdb676-d994-4bef-9b35-c233b12c5c9c.xml, PFLT_POST_OPERATION_CALLBACK, PFLT_POST_OPERATION_CALLBACK function pointer [Installable File System Drivers], fltkernel/PFLT_POST_OPERATION_CALLBACK, ifsk.pflt_post_operation_callback
 f1_keywords:
  - "fltkernel/PFLT_POST_OPERATION_CALLBACK"
+ - "PFLT_POST_OPERATION_CALLBACK"
 req.header: fltkernel.h
 req.include-header: FltKernel.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - fltkernel.h
 api_name:
 - PFLT_POST_OPERATION_CALLBACK
-product:
-- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---

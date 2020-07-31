@@ -10,6 +10,7 @@ keywords: ["RtlCustomCPToUnicodeN function"]
 ms.keywords: RtlCustomCPToUnicodeN, RtlCustomCPToUnicodeN function [Installable File System Drivers], ifsk.rtlcustomcptounicoden, ntifs/RtlCustomCPToUnicodeN, rtlref_9b39575d-4ba4-49fa-9281-2858d3e2631d.xml
 f1_keywords:
  - "ntifs/RtlCustomCPToUnicodeN"
+ - "RtlCustomCPToUnicodeN"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - RtlCustomCPToUnicodeN
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

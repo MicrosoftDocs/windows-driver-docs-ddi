@@ -10,6 +10,7 @@ keywords: ["DrvDevicePropertySheets function"]
 ms.keywords: DrvDevicePropertySheets, DrvDevicePropertySheets function [Print Devices], print.drvdevicepropertysheets, print_interface-graphics_f7a16b0a-c0f3-48c8-83a0-ce44a80ff546.xml, winddiui/DrvDevicePropertySheets
 f1_keywords:
  - "winddiui/DrvDevicePropertySheets"
+ - "DrvDevicePropertySheets"
 req.header: winddiui.h
 req.include-header: Winddiui.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - winddiui.h
 api_name:
 - DrvDevicePropertySheets
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

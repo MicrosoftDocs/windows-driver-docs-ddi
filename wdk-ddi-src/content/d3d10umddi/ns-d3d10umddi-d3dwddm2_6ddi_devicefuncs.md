@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["D3DWDDM2_6DDI_DEVICEFUNCS structure"]
 f1_keywords:
  - "d3d10umddi/D3DWDDM2_6DDI_DEVICEFUNCS"
+ - "D3DWDDM2_6DDI_DEVICEFUNCS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: D3DWDDM2_6DDI_DEVICEFUNCS, D3DWDDM2_6DDI_DEVICEFUNCS, 

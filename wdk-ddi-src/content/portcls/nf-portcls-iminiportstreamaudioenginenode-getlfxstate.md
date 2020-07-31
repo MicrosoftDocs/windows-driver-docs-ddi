@@ -10,6 +10,7 @@ keywords: ["IMiniportStreamAudioEngineNode::GetLfxState"]
 ms.keywords: GetLfxState, GetLfxState method [Audio Devices], GetLfxState method [Audio Devices],IMiniportStreamAudioEngineNode interface, IMiniportStreamAudioEngineNode interface [Audio Devices],GetLfxState method, IMiniportStreamAudioEngineNode.GetLfxState, IMiniportStreamAudioEngineNode::GetLfxState, audio.iminiportstreamaudioenginenode_getlfxstate, portcls/IMiniportStreamAudioEngineNode::GetLfxState
 f1_keywords:
  - "portcls/IMiniportStreamAudioEngineNode.GetLfxState"
+ - "IMiniportStreamAudioEngineNode.GetLfxState"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Portcls.h
 api_name:
 - IMiniportStreamAudioEngineNode.GetLfxState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

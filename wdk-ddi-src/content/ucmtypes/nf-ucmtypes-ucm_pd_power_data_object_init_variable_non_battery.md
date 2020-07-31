@@ -10,6 +10,7 @@ keywords: ["UCM_PD_POWER_DATA_OBJECT_INIT_VARIABLE_NON_BATTERY function"]
 ms.keywords: UCM_PD_POWER_DATA_OBJECT_INIT_VARIABLE_NON_BATTERY, UCM_PD_POWER_DATA_OBJECT_INIT_VARIABLE_NON_BATTERY function [Buses], buses.ucm_pd_power_data_object_init_variable_non_battery, ucmtypes/UCM_PD_POWER_DATA_OBJECT_INIT_VARIABLE_NON_BATTERY
 f1_keywords:
  - "ucmtypes/UCM_PD_POWER_DATA_OBJECT_INIT_VARIABLE_NON_BATTERY"
+ - "UCM_PD_POWER_DATA_OBJECT_INIT_VARIABLE_NON_BATTERY"
 req.header: ucmtypes.h
 req.include-header: Ucmcx.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ucmtypes.h
 api_name:
 - UCM_PD_POWER_DATA_OBJECT_INIT_VARIABLE_NON_BATTERY
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IOCTL_INTERNAL_PARCLASS_DISCONNECT IOCTL"]
 ms.keywords: IOCTL_INTERNAL_PARCLASS_DISCONNECT, IOCTL_INTERNAL_PARCLASS_DISCONNECT control code [Parallel Ports], cisspd_6459be75-4a0e-4a38-9bc4-b862766951fb.xml, parallel/IOCTL_INTERNAL_PARCLASS_DISCONNECT, parports.ioctl_internal_parclass_disconnect
 f1_keywords:
  - "parallel/IOCTL_INTERNAL_PARCLASS_DISCONNECT"
+ - "IOCTL_INTERNAL_PARCLASS_DISCONNECT"
 req.header: parallel.h
 req.include-header: Parallel.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - parallel.h
 api_name:
 - IOCTL_INTERNAL_PARCLASS_DISCONNECT
-product:
-- Windows
 targetos: Windows
 req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ---

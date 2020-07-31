@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_SETDISPLAYMODE_FLAGS structure"]
 ms.keywords: D3DKMT_SETDISPLAYMODE_FLAGS, D3DKMT_SETDISPLAYMODE_FLAGS structure [Display Devices], OpenGL_Structs_28412793-06ae-4e0d-9461-8e7cbcea8779.xml, _D3DKMT_SETDISPLAYMODE_FLAGS, d3dkmthk/D3DKMT_SETDISPLAYMODE_FLAGS, display.d3dkmt_setdisplaymode_flags
 f1_keywords:
  - "d3dkmthk/D3DKMT_SETDISPLAYMODE_FLAGS"
+ - "D3DKMT_SETDISPLAYMODE_FLAGS"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMT_SETDISPLAYMODE_FLAGS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_SETDISPLAYMODE_FLAGS

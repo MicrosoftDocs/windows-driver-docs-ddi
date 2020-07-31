@@ -10,6 +10,7 @@ keywords: ["_DSM_PARAMETERS structure"]
 ms.keywords: "*PDSM_PARAMETERS, DSM_PARAMETERS, DSM_PARAMETERS structure [Storage Devices], PDSM_PARAMETERS, PDSM_PARAMETERS structure pointer [Storage Devices], _DSM_PARAMETERS, mpiowmi/DSM_PARAMETERS, mpiowmi/PDSM_PARAMETERS, storage.dsm_parameters, structs-scsibus_e2e8b9f3-6452-4244-b9df-7301ce461764.xml"
 f1_keywords:
  - "mpiowmi/DSM_PARAMETERS"
+ - "DSM_PARAMETERS"
 req.header: mpiowmi.h
 req.include-header: Mpiowmi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - mpiowmi.h
 api_name:
 - DSM_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: DSM_PARAMETERS, *PDSM_PARAMETERS
 ---

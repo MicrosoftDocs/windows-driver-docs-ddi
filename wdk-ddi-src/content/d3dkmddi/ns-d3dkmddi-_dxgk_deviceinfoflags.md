@@ -9,6 +9,7 @@ keywords: ["_DXGK_DEVICEINFOFLAGS structure"]
 ms.keywords: DXGK_DEVICEINFOFLAGS, DXGK_DEVICEINFOFLAGS structure [Display Devices], DmStructs_69e769da-b68e-4df6-94dd-95e11bc88b0c.xml, _DXGK_DEVICEINFOFLAGS, d3dkmddi/DXGK_DEVICEINFOFLAGS, display.dxgk_deviceinfoflags
 f1_keywords:
  - "d3dkmddi/DXGK_DEVICEINFOFLAGS"
+ - "DXGK_DEVICEINFOFLAGS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGK_DEVICEINFOFLAGS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_DEVICEINFOFLAGS

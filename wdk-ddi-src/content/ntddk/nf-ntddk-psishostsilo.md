@@ -10,6 +10,7 @@ keywords: ["PsIsHostSilo function"]
 ms.keywords: PsIsHostSilo, PsIsHostSilo routine [Kernel-Mode Driver Architecture], kernel.psishostsilo, ntddk/PsIsHostSilo
 f1_keywords:
  - "ntddk/PsIsHostSilo"
+ - "PsIsHostSilo"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - PsIsHostSilo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

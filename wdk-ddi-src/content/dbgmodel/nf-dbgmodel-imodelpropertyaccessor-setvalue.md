@@ -7,6 +7,7 @@ ms.date: 08/13/2018
 keywords: ["IModelPropertyAccessor::SetValue"]
 f1_keywords:
  - "dbgmodel/IModelPropertyAccessor.SetValue"
+ - "IModelPropertyAccessor.SetValue"
 ms.keywords: IModelPropertyAccessor::SetValue, SetValue, IModelPropertyAccessor.SetValue, IModelPropertyAccessor::SetValue, IModelPropertyAccessor.SetValue
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IModelPropertyAccessor.SetValue
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

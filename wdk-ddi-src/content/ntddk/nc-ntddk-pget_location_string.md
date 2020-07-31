@@ -10,6 +10,7 @@ keywords: ["PGET_LOCATION_STRING callback function"]
 ms.keywords: PGET_LOCATION_STRING, PnpGetLocationString, PnpGetLocationString routine [Kernel-Mode Driver Architecture], drvr_interface_86bd2a9c-408f-430f-9ab7-5c368600de1e.xml, kernel.pnpgetlocationstring, ntddk/PnpGetLocationString
 f1_keywords:
  - "ntddk/PnpGetLocationString"
+ - "PnpGetLocationString"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Ntddk.h
 api_name:
 - PnpGetLocationString
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

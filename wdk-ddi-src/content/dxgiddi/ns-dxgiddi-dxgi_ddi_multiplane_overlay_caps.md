@@ -10,6 +10,7 @@ keywords: ["DXGI_DDI_MULTIPLANE_OVERLAY_CAPS structure"]
 ms.keywords: DXGI_DDI_MULTIPLANE_OVERLAY_CAPS, DXGI_DDI_MULTIPLANE_OVERLAY_CAPS structure [Display Devices], display.dxgi_ddi_multiplane_overlay_caps, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_CAPS
 f1_keywords:
  - "dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_CAPS"
+ - "DXGI_DDI_MULTIPLANE_OVERLAY_CAPS"
 req.header: dxgiddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Dxgiddi.h
 api_name:
 - DXGI_DDI_MULTIPLANE_OVERLAY_CAPS
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGI_DDI_MULTIPLANE_OVERLAY_CAPS
 ---

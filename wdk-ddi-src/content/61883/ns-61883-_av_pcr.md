@@ -10,6 +10,7 @@ keywords: ["_AV_PCR structure"]
 ms.keywords: "*PAV_PCR, 61883/AV_PCR, 61883/PAV_PCR, 61883_structures_d8602c71-aca5-427d-a8bf-d1da914ebacc.xml, AV_PCR, AV_PCR structure [Buses], IEEE.av_pcr, PAV_PCR, PAV_PCR structure pointer [Buses], _AV_PCR"
 f1_keywords:
  - "61883/AV_PCR"
+ - "AV_PCR"
 req.header: 61883.h
 req.include-header: 61883.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - 61883.h
 api_name:
 - AV_PCR
-product:
-- Windows
 targetos: Windows
 req.typenames: AV_PCR, *PAV_PCR
 ---

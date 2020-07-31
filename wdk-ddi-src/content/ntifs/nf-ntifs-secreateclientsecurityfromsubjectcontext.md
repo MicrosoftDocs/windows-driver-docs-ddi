@@ -10,6 +10,7 @@ keywords: ["SeCreateClientSecurityFromSubjectContext function"]
 ms.keywords: SeCreateClientSecurityFromSubjectContext, SeCreateClientSecurityFromSubjectContext routine [Installable File System Drivers], ifsk.secreateclientsecurityfromsubjectcontext, ntifs/SeCreateClientSecurityFromSubjectContext, seref_fac27935-a941-48f6-a27b-7ca56bd1f9e2.xml
 f1_keywords:
  - "ntifs/SeCreateClientSecurityFromSubjectContext"
+ - "SeCreateClientSecurityFromSubjectContext"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - SeCreateClientSecurityFromSubjectContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

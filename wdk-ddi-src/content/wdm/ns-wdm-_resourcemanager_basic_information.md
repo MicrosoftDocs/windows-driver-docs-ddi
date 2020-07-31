@@ -10,6 +10,7 @@ keywords: ["_RESOURCEMANAGER_BASIC_INFORMATION structure"]
 ms.keywords: "*PRESOURCEMANAGER_BASIC_INFORMATION, PRESOURCEMANAGER_BASIC_INFORMATION, PRESOURCEMANAGER_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], RESOURCEMANAGER_BASIC_INFORMATION, RESOURCEMANAGER_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], _RESOURCEMANAGER_BASIC_INFORMATION, kernel.resourcemanager_basic_information, ktm_ref_bcc9f19b-2cd4-45da-b5df-1f28e832d48e.xml, wdm/PRESOURCEMANAGER_BASIC_INFORMATION, wdm/RESOURCEMANAGER_BASIC_INFORMATION"
 f1_keywords:
  - "wdm/RESOURCEMANAGER_BASIC_INFORMATION"
+ - "RESOURCEMANAGER_BASIC_INFORMATION"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - RESOURCEMANAGER_BASIC_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: RESOURCEMANAGER_BASIC_INFORMATION, *PRESOURCEMANAGER_BASIC_INFORMATION
 ---

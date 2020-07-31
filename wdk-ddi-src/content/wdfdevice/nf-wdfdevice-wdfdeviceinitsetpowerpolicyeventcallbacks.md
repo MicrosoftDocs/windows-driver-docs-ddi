@@ -10,6 +10,7 @@ keywords: ["WdfDeviceInitSetPowerPolicyEventCallbacks function"]
 ms.keywords: DFDeviceObjectGeneralRef_7a73b769-9408-4349-b269-53dff2261d3d.xml, WdfDeviceInitSetPowerPolicyEventCallbacks, WdfDeviceInitSetPowerPolicyEventCallbacks method, kmdf.wdfdeviceinitsetpowerpolicyeventcallbacks, wdf.wdfdeviceinitsetpowerpolicyeventcallbacks, wdfdevice/WdfDeviceInitSetPowerPolicyEventCallbacks
 f1_keywords:
  - "wdfdevice/WdfDeviceInitSetPowerPolicyEventCallbacks"
+ - "WdfDeviceInitSetPowerPolicyEventCallbacks"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfDeviceInitSetPowerPolicyEventCallbacks
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

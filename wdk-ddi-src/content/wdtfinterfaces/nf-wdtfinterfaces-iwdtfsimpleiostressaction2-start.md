@@ -10,6 +10,7 @@ keywords: ["IWDTFSimpleIOStressAction2::Start"]
 ms.keywords: IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework],Start method, IWDTFSimpleIOStressAction2.Start, IWDTFSimpleIOStressAction2::Start, Microsoft.WDTF.IWDTFSimpleIOStressAction2.Start, Microsoft::WDTF::IWDTFSimpleIOStressAction2::Start, Start, Start method [Windows Device Testing Framework], Start method [Windows Device Testing Framework],IWDTFSimpleIOStressAction2 interface, dtf.iwdtfsimpleiostressaction2_start, wdtfinterfaces/IWDTFSimpleIOStressAction2::Start
 f1_keywords:
  - "wdtfinterfaces/IWDTFSimpleIOStressAction2.Start"
+ - "IWDTFSimpleIOStressAction2.Start"
 req.header: wdtfinterfaces.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WDTFInterfaces.Interop.dll
 api_name:
 - IWDTFSimpleIOStressAction2.Start
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

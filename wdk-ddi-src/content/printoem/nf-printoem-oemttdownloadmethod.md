@@ -10,6 +10,7 @@ keywords: ["OEMTTDownloadMethod function"]
 ms.keywords: OEMTTDownloadMethod, OEMTTDownloadMethod function [Print Devices], print.oemttdownloadmethod, print_obsoletefunctions_cae8b020-17a2-4345-8d48-3138eeba2a1d.xml, printoem/OEMTTDownloadMethod
 f1_keywords:
  - "printoem/OEMTTDownloadMethod"
+ - "OEMTTDownloadMethod"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - printoem.h
 api_name:
 - OEMTTDownloadMethod
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

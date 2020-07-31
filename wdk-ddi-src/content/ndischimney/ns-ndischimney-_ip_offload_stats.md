@@ -10,6 +10,7 @@ keywords: ["_IP_OFFLOAD_STATS structure"]
 ms.keywords: "*PIP_OFFLOAD_STATS, IP_OFFLOAD_STATS, IP_OFFLOAD_STATS structure [Network Drivers Starting with Windows Vista], PIP_OFFLOAD_STATS, PIP_OFFLOAD_STATS structure pointer [Network Drivers Starting with Windows Vista], _IP_OFFLOAD_STATS, ndischimney/IP_OFFLOAD_STATS, ndischimney/PIP_OFFLOAD_STATS, netvista.ip_offload_stats, tcp_chim_struct_292881aa-1c15-4b1a-abd9-927d3b3b8f7b.xml"
 f1_keywords:
  - "ndischimney/IP_OFFLOAD_STATS"
+ - "IP_OFFLOAD_STATS"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ndischimney.h
 api_name:
 - IP_OFFLOAD_STATS
-product:
-- Windows
 targetos: Windows
 req.typenames: IP_OFFLOAD_STATS, *PIP_OFFLOAD_STATS
 ---

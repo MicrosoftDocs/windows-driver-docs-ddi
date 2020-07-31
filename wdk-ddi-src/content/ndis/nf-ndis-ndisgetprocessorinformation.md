@@ -10,6 +10,7 @@ keywords: ["NdisGetProcessorInformation function"]
 ms.keywords: NdisGetProcessorInformation, NdisGetProcessorInformation function [Network Drivers Starting with Windows Vista], ndis/NdisGetProcessorInformation, ndis_sysinfo_ref_1479e4eb-4467-48da-bab6-1f60993f5ef2.xml, netvista.ndisgetprocessorinformation
 f1_keywords:
  - "ndis/NdisGetProcessorInformation"
+ - "NdisGetProcessorInformation"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisGetProcessorInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["_DXVAHDDDI_CONTENT_DESC structure"]
 ms.keywords: DXVA2_Structs_8b90044d-bce5-49b0-b6ff-be34ab09a62e.xml, DXVAHDDDI_CONTENT_DESC, DXVAHDDDI_CONTENT_DESC structure [Display Devices], _DXVAHDDDI_CONTENT_DESC, d3dumddi/DXVAHDDDI_CONTENT_DESC, display.dxvahdddi_content_desc
 f1_keywords:
  - "d3dumddi/DXVAHDDDI_CONTENT_DESC"
+ - "DXVAHDDDI_CONTENT_DESC"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - DXVAHDDDI_CONTENT_DESC
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVAHDDDI_CONTENT_DESC
 ---

@@ -10,6 +10,7 @@ keywords: ["NdisGroupActiveProcessorMask function"]
 ms.keywords: NdisGroupActiveProcessorMask, NdisGroupActiveProcessorMask function [Network Drivers Starting with Windows Vista], ndis/NdisGroupActiveProcessorMask, ndis_processor_group_ref_36161079-d4a1-44ad-b7c8-1bc565efda8e.xml, netvista.ndisgroupactiveprocessormask
 f1_keywords:
  - "ndis/NdisGroupActiveProcessorMask"
+ - "NdisGroupActiveProcessorMask"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisGroupActiveProcessorMask
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

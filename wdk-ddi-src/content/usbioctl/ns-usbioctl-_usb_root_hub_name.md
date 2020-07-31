@@ -10,6 +10,7 @@ keywords: ["_USB_ROOT_HUB_NAME structure"]
 ms.keywords: "*PUSB_ROOT_HUB_NAME, PUSB_ROOT_HUB_NAME, PUSB_ROOT_HUB_NAME structure pointer [Buses], USB_ROOT_HUB_NAME, USB_ROOT_HUB_NAME structure [Buses], _USB_ROOT_HUB_NAME, buses.usb_root_hub_name, usbioctl/PUSB_ROOT_HUB_NAME, usbioctl/USB_ROOT_HUB_NAME, usbstrct_a285af0b-6144-46a0-bfbf-640b3073047a.xml"
 f1_keywords:
  - "usbioctl/USB_ROOT_HUB_NAME"
+ - "USB_ROOT_HUB_NAME"
 req.header: usbioctl.h
 req.include-header: Usbioctl.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - usbioctl.h
 api_name:
 - USB_ROOT_HUB_NAME
-product:
-- Windows
 targetos: Windows
 req.typenames: USB_ROOT_HUB_NAME, *PUSB_ROOT_HUB_NAME
 ---

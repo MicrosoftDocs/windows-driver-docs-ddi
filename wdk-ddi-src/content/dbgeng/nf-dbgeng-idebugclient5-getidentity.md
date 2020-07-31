@@ -10,6 +10,7 @@ keywords: ["IDebugClient5::GetIdentity"]
 ms.keywords: GetIdentity, GetIdentity method [Windows Debugging], GetIdentity method [Windows Debugging],IDebugClient interface, GetIdentity method [Windows Debugging],IDebugClient2 interface, GetIdentity method [Windows Debugging],IDebugClient3 interface, GetIdentity method [Windows Debugging],IDebugClient4 interface, GetIdentity method [Windows Debugging],IDebugClient5 interface, IDebugClient interface [Windows Debugging],GetIdentity method, IDebugClient2 interface [Windows Debugging],GetIdentity method, IDebugClient2::GetIdentity, IDebugClient3 interface [Windows Debugging],GetIdentity method, IDebugClient3::GetIdentity, IDebugClient4 interface [Windows Debugging],GetIdentity method, IDebugClient4::GetIdentity, IDebugClient5 interface [Windows Debugging],GetIdentity method, IDebugClient5.GetIdentity, IDebugClient5::GetIdentity, IDebugClient::GetIdentity, IDebugClient_7c54bffa-5190-49f5-919d-16bfb851ae36.xml, dbgeng/IDebugClient2::GetIdentity, dbgeng/IDebugClient3::GetIdentity, dbgeng/IDebugClient4::GetIdentity, dbgeng/IDebugClient5::GetIdentity, dbgeng/IDebugClient::GetIdentity, debugger.getidentity
 f1_keywords:
  - "dbgeng/IDebugClient.GetIdentity"
+ - "IDebugClient.GetIdentity"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -40,8 +41,6 @@ api_name:
 - IDebugClient3.GetIdentity
 - IDebugClient4.GetIdentity
 - IDebugClient5.GetIdentity
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

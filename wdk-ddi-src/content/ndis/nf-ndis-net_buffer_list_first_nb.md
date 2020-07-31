@@ -8,6 +8,7 @@ ms.date: 04/12/2018
 keywords: ["NET_BUFFER_LIST_FIRST_NB macro"]
 f1_keywords:
  - "ndis/NET_BUFFER_LIST_FIRST_NB"
+ - "NET_BUFFER_LIST_FIRST_NB"
 ms.keywords: NET_BUFFER_LIST_FIRST_NB
 req.header: ndis.h
 req.include-header:
@@ -34,8 +35,6 @@ api_location:
 - ndis.h
 api_name: 
 - NET_BUFFER_LIST_FIRST_NB
-product:
-- Windows
 targetos: Windows
 
 ---

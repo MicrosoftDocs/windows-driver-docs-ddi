@@ -10,6 +10,7 @@ keywords: ["KeGetCurrentProcessorNumberEx function"]
 ms.keywords: KeGetCurrentProcessorNumberEx, KeGetCurrentProcessorNumberEx routine [Kernel-Mode Driver Architecture], k105_3eea6705-7267-452a-88c2-1597c6f19828.xml, kernel.kegetcurrentprocessornumberex, wdm/KeGetCurrentProcessorNumberEx
 f1_keywords:
  - "ntddk/KeGetCurrentProcessorNumberEx"
+ - "KeGetCurrentProcessorNumberEx"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Wdm.h, Ntddk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeGetCurrentProcessorNumberEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["_D3DDDICB_OFFERALLOCATIONS structure"]
 ms.keywords: D3DDDICB_OFFERALLOCATIONS, D3DDDICB_OFFERALLOCATIONS structure [Display Devices], _D3DDDICB_OFFERALLOCATIONS, d3dumddi/D3DDDICB_OFFERALLOCATIONS, display.d3dddicb_offerallocations
 f1_keywords:
  - "d3dumddi/D3DDDICB_OFFERALLOCATIONS"
+ - "D3DDDICB_OFFERALLOCATIONS"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - D3dumddi.h
 api_name:
 - D3DDDICB_OFFERALLOCATIONS
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDICB_OFFERALLOCATIONS
 ---

@@ -10,6 +10,7 @@ keywords: ["RILALPHAIDENTIFIERPARAMMASK enumeration"]
 ms.keywords: RILALPHAIDENTIFIERPARAMMASK, RILALPHAIDENTIFIERPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_AI_ALL, RIL_PARAM_AI_REASON, netvista.rilalphaidentifierparammask, ntddrilapitypes/RILALPHAIDENTIFIERPARAMMASK, ntddrilapitypes/RIL_PARAM_AI_ALL, ntddrilapitypes/RIL_PARAM_AI_REASON
 f1_keywords:
  - "ntddrilapitypes/RILALPHAIDENTIFIERPARAMMASK"
+ - "RILALPHAIDENTIFIERPARAMMASK"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILALPHAIDENTIFIERPARAMMASK
-product:
-- Windows
 targetos: Windows
 req.typenames: RILALPHAIDENTIFIERPARAMMASK
 ---

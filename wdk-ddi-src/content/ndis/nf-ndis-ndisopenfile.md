@@ -10,6 +10,7 @@ keywords: ["NdisOpenFile function"]
 ms.keywords: NdisOpenFile, NdisOpenFile function [Network Drivers Starting with Windows Vista], ndis/NdisOpenFile, ndis_file_ref_0931368e-111b-4b25-a42d-12d0cc5d9d44.xml, netvista.ndisopenfile
 f1_keywords:
  - "ndis/NdisOpenFile"
+ - "NdisOpenFile"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisOpenFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IWiaLog interface"]
 ms.keywords: IWiaLog, IWiaLog interface [Imaging Devices], IWiaLog interface [Imaging Devices],described, IWiaLog_0284e394-6bc5-40b8-8174-0041bfc0d5dd.xml, image.iwialog_interface, wia_lh/IWiaLog
 f1_keywords:
  - "wia_lh/IWiaLog"
+ - "IWiaLog"
 req.header: wia_lh.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wia_lh.h
 api_name:
 - IWiaLog
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["OEMEnableDriver function"]
 ms.keywords: OEMEnableDriver, OEMEnableDriver function [Print Devices], print.oemenabledriver, print_obsoletefunctions_4fe2a5f6-e5ad-4e35-b3d5-668e0cf96ee3.xml, printoem/OEMEnableDriver
 f1_keywords:
  - "printoem/OEMEnableDriver"
+ - "OEMEnableDriver"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - printoem.h
 api_name:
 - OEMEnableDriver
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

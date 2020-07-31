@@ -10,6 +10,7 @@ keywords: ["IWDFDevice2::AssignS0IdleSettings"]
 ms.keywords: AssignS0IdleSettings, AssignS0IdleSettings method, AssignS0IdleSettings method,IWDFDevice2 interface, IWDFDevice2 interface,AssignS0IdleSettings method, IWDFDevice2.AssignS0IdleSettings, IWDFDevice2::AssignS0IdleSettings, UMDFDeviceObjectRef_337ed405-40bd-4162-ad50-3ee59e4e6c73.xml, umdf.iwdfdevice2_assigns0idlesettings, wdf.iwdfdevice2_assigns0idlesettings, wudfddi/IWDFDevice2::AssignS0IdleSettings
 f1_keywords:
  - "wudfddi/IWDFDevice2.AssignS0IdleSettings"
+ - "IWDFDevice2.AssignS0IdleSettings"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFDevice2.AssignS0IdleSettings
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

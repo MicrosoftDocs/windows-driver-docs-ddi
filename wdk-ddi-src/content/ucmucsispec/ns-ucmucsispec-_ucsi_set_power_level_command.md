@@ -8,6 +8,7 @@ ms.date: 09/30/2018
 keywords: ["_UCSI_SET_POWER_LEVEL_COMMAND structure"]
 f1_keywords:
  - "ucmucsispec/_UCSI_SET_POWER_LEVEL_COMMAND"
+ - "_UCSI_SET_POWER_LEVEL_COMMAND"
 ms.keywords: _UCSI_SET_POWER_LEVEL_COMMAND, UCSI_SET_POWER_LEVEL_COMMAND, *PUCSI_SET_POWER_LEVEL_COMMAND, 
 req.header: ucmucsispec.h
 req.include-header: UcmUcsiCx.h 
@@ -30,8 +31,6 @@ api_location:
 - ucmucsispec.h
 api_name: 
 - _UCSI_SET_POWER_LEVEL_COMMAND
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

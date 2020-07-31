@@ -10,6 +10,7 @@ keywords: ["RtlInt64ToUnicodeString function"]
 ms.keywords: RtlInt64ToUnicodeString, RtlInt64ToUnicodeString routine [Kernel-Mode Driver Architecture], k109_b6248e50-c6e8-4c61-a9f0-83fb434bd69c.xml, kernel.rtlint64tounicodestring, wdm/RtlInt64ToUnicodeString
 f1_keywords:
  - "wdm/RtlInt64ToUnicodeString"
+ - "RtlInt64ToUnicodeString"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlInt64ToUnicodeString
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

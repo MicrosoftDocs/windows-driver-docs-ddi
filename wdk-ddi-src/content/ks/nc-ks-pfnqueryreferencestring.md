@@ -10,6 +10,7 @@ keywords: ["PFNQUERYREFERENCESTRING callback function"]
 ms.keywords: KStrQueryReferenceString, KStrQueryReferenceString routine [Streaming Media Devices], PFNQUERYREFERENCESTRING, ks/KStrQueryReferenceString, ksfunc_ce750f42-efeb-4861-b451-ef0f8be40f9a.xml, stream.kstrqueryreferencestring
 f1_keywords:
  - "ks/KStrQueryReferenceString"
+ - "KStrQueryReferenceString"
 req.header: ks.h
 req.include-header: Ks.h, Swenum.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KStrQueryReferenceString
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

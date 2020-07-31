@@ -10,6 +10,7 @@ keywords: ["NdisMCmCloseAddressFamilyComplete macro"]
 ms.keywords: NdisMCmCloseAddressFamilyComplete, NdisMCmCloseAddressFamilyComplete macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_beab4fb5-32b1-4188-9e6a-47f286386919.xml, ndis/NdisMCmCloseAddressFamilyComplete, netvista.ndismcmcloseaddressfamilycomplete
 f1_keywords:
  - "ndis/NdisMCmCloseAddressFamilyComplete"
+ - "NdisMCmCloseAddressFamilyComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NdisMCmCloseAddressFamilyComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

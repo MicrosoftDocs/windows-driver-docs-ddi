@@ -10,6 +10,7 @@ keywords: ["_FILTER_EXTENSION structure"]
 ms.keywords: "*PFILTER_EXTENSION, FILTER_EXTENSION, FILTER_EXTENSION structure [Storage Devices], PFILTER_EXTENSION, PFILTER_EXTENSION structure pointer [Storage Devices], _FILTER_EXTENSION, ntdddump/FILTER_EXTENSION, ntdddump/PFILTER_EXTENSION, storage.filter_extension, structs-filter_c9e640bb-9678-4e2f-9341-0d26b36e65e6.xml"
 f1_keywords:
  - "ntdddump/FILTER_EXTENSION"
+ - "FILTER_EXTENSION"
 req.header: ntdddump.h
 req.include-header: Ntdddump.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntdddump.h
 api_name:
 - FILTER_EXTENSION
-product:
-- Windows
 targetos: Windows
 req.typenames: FILTER_EXTENSION, *PFILTER_EXTENSION
 ---

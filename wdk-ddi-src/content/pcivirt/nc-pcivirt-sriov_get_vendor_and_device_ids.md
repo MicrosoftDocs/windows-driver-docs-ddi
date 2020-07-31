@@ -10,6 +10,7 @@ keywords: ["SRIOV_GET_VENDOR_AND_DEVICE_IDS callback"]
 ms.keywords: "*PSRIOV_GET_VENDOR_AND_DEVICE_IDS, *PSRIOV_GET_VENDOR_AND_DEVICE_IDS callback function pointer [Buses], PCI.sriov_get_vendor_and_device_ids, SRIOV_GET_VENDOR_AND_DEVICE_IDS, SriovGetVendorAndDeviceIds, SriovGetVendorAndDeviceIds callback function [Buses], pcivirt/SriovGetVendorAndDeviceIds"
 f1_keywords:
  - "pcivirt/*PSRIOV_GET_VENDOR_AND_DEVICE_IDS"
+ - "*PSRIOV_GET_VENDOR_AND_DEVICE_IDS"
 req.header: pcivirt.h
 req.include-header:
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Pcivirt.h
 api_name:
 - PSRIOV_GET_VENDOR_AND_DEVICE_IDS
-product:
-- Windows
 targetos: Windows
 req.typenames: PARCLASS_INFORMATION, *PPARCLASS_INFORMATION
 ---

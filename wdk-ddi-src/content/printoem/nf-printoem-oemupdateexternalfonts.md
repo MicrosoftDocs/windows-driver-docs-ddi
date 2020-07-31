@@ -10,6 +10,7 @@ keywords: ["OEMUpdateExternalFonts function"]
 ms.keywords: OEMUpdateExternalFonts, OEMUpdateExternalFonts function [Print Devices], print.oemupdateexternalfonts, print_obsoletefunctions_f42779e4-8a2d-45eb-801c-67e7e69cb96a.xml, printoem/OEMUpdateExternalFonts
 f1_keywords:
  - "printoem/OEMUpdateExternalFonts"
+ - "OEMUpdateExternalFonts"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - printoem.h
 api_name:
 - OEMUpdateExternalFonts
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

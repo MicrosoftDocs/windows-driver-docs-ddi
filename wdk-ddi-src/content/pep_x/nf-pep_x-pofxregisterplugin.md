@@ -10,6 +10,7 @@ keywords: ["PoFxRegisterPlugin function"]
 ms.keywords: PoFxRegisterPlugin, PoFxRegisterPlugin routine [Kernel-Mode Driver Architecture], kernel.pofxregisterplugin, pepfx/PoFxRegisterPlugin
 f1_keywords:
  - "pep_x/PoFxRegisterPlugin"
+ - "PoFxRegisterPlugin"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 - ntoskrnl.dll
 api_name:
 - PoFxRegisterPlugin
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

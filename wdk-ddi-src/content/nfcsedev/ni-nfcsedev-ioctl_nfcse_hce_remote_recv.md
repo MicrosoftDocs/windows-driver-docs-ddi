@@ -10,6 +10,7 @@ keywords: ["IOCTL_NFCSE_HCE_REMOTE_RECV IOCTL"]
 ms.keywords: IOCTL_NFCSE_HCE_REMOTE_RECV, IOCTL_NFCSE_HCE_REMOTE_RECV control, IOCTL_NFCSE_HCE_REMOTE_RECV control code [Near-Field Proximity Drivers], nfcsedev/IOCTL_NFCSE_HCE_REMOTE_RECV, nfpdrivers.ioctl_nfcse_hce_remote_recv
 f1_keywords:
  - "nfcsedev/IOCTL_NFCSE_HCE_REMOTE_RECV"
+ - "IOCTL_NFCSE_HCE_REMOTE_RECV"
 req.header: nfcsedev.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - nfcsedev.h
 api_name:
 - IOCTL_NFCSE_HCE_REMOTE_RECV
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["_DEVICE_FAULT_CONFIGURATION structure"]
 f1_keywords:
  - "wdm/_DEVICE_FAULT_CONFIGURATION"
+ - "_DEVICE_FAULT_CONFIGURATION"
 ms.keywords: _DEVICE_FAULT_CONFIGURATION, DEVICE_FAULT_CONFIGURATION, *PDEVICE_FAULT_CONFIGURATION, 
 req.header: wdm.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - wdm.h
 api_name: 
 - _DEVICE_FAULT_CONFIGURATION
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

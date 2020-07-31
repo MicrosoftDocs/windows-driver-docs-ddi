@@ -10,6 +10,7 @@ keywords: ["_MEMORY_INFORMATION_CLASS enumeration"]
 ms.keywords: MEMORY_INFORMATION_CLASS, MEMORY_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], MemoryBasicInformation, _MEMORY_INFORMATION_CLASS, kernel.memory_information_class, ntifs/MEMORY_INFORMATION_CLASS, ntifs/MemoryBasicInformation
 f1_keywords:
  - "ntifs/MEMORY_INFORMATION_CLASS"
+ - "MEMORY_INFORMATION_CLASS"
 req.header: ntifs.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - MEMORY_INFORMATION_CLASS
-product:
-- Windows
 targetos: Windows
 req.typenames: MEMORY_INFORMATION_CLASS
 ---

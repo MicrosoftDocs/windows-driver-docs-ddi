@@ -10,6 +10,7 @@ keywords: ["RtlRunOnceInitialize function"]
 ms.keywords: RtlRunOnceInitialize, RtlRunOnceInitialize routine [Kernel-Mode Driver Architecture], k109_7d98d21e-b6f2-4ccd-b447-0c1d612eed5b.xml, kernel.rtlrunonceinitialize, ntddk/RtlRunOnceInitialize
 f1_keywords:
  - "ntddk/RtlRunOnceInitialize"
+ - "RtlRunOnceInitialize"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlRunOnceInitialize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

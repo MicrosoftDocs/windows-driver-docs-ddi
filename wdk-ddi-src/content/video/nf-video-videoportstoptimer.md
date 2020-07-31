@@ -10,6 +10,7 @@ keywords: ["VideoPortStopTimer function"]
 ms.keywords: VideoPortStopTimer, VideoPortStopTimer function [Display Devices], VideoPort_Functions_335cb68f-85a0-4e57-9e91-65df281f68a4.xml, display.videoportstoptimer, video/VideoPortStopTimer
 f1_keywords:
  - "video/VideoPortStopTimer"
+ - "VideoPortStopTimer"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Videoprt.sys
 api_name:
 - VideoPortStopTimer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

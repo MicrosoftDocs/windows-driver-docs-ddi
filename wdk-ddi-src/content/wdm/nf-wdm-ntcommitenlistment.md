@@ -10,6 +10,7 @@ keywords: ["NtCommitEnlistment function"]
 ms.keywords: NtCommitEnlistment, ZwCommitEnlistment, ZwCommitEnlistment routine [Kernel-Mode Driver Architecture], kernel.zwcommitenlistment, ktm_ref_b99f9962-ce40-4324-9482-b8202d96425d.xml, wdm/NtCommitEnlistment, wdm/ZwCommitEnlistment
 f1_keywords:
  - "wdm/ZwCommitEnlistment"
+ - "ZwCommitEnlistment"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntifs.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - ZwCommitEnlistment
 - NtCommitEnlistment
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

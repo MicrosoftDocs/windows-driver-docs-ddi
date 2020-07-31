@@ -9,6 +9,7 @@ keywords: ["PFND3DWDDM2_2DDI_CALCPRIVATE_SHADERCACHE_SESSION_SIZE callback funct
 ms.keywords: PFND3DWDDM2_2DDI_CALCPRIVATE_SHADERCACHE_SESSION_SIZE, PFND3DWDDM2_2DDI_CALCPRIVATE_SHADERCACHE_SESSION_SIZE callback, d3d10umddi/pfnCalcPrivateShaderCacheSessionSize, display.pfnd3dwddm2_2ddi_calcprivate_shadercache_session_size, pfnCalcPrivateShaderCacheSessionSize, pfnCalcPrivateShaderCacheSessionSize callback function [Display Devices]
 f1_keywords:
  - "d3d10umddi/pfnCalcPrivateShaderCacheSessionSize"
+ - "pfnCalcPrivateShaderCacheSessionSize"
 req.header: d3d10umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - pfnCalcPrivateShaderCacheSessionSize
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

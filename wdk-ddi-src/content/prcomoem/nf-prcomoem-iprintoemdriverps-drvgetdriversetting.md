@@ -10,6 +10,7 @@ keywords: ["IPrintOemDriverPS::DrvGetDriverSetting"]
 ms.keywords: DrvGetDriverSetting, DrvGetDriverSetting method [Print Devices], DrvGetDriverSetting method [Print Devices],IPrintOemDriverPS interface, IPrintOemDriverPS interface [Print Devices],DrvGetDriverSetting method, IPrintOemDriverPS.DrvGetDriverSetting, IPrintOemDriverPS::DrvGetDriverSetting, prcomoem/IPrintOemDriverPS::DrvGetDriverSetting, print.iprintoemdriverps_drvgetdriversetting, print_unidrv-pscript_rendering_eb83bce7-ee89-4a4b-a72d-214d2d8054ee.xml
 f1_keywords:
  - "prcomoem/IPrintOemDriverPS.DrvGetDriverSetting"
+ - "IPrintOemDriverPS.DrvGetDriverSetting"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - prcomoem.h
 api_name:
 - IPrintOemDriverPS.DrvGetDriverSetting
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

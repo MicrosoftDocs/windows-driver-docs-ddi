@@ -10,6 +10,7 @@ keywords: ["NdisMCmMakeCallComplete macro"]
 ms.keywords: NdisMCmMakeCallComplete, NdisMCmMakeCallComplete macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_685b4f14-92ef-4c46-a11f-19b34d59734c.xml, ndis/NdisMCmMakeCallComplete, netvista.ndismcmmakecallcomplete
 f1_keywords:
  - "ndis/NdisMCmMakeCallComplete"
+ - "NdisMCmMakeCallComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NdisMCmMakeCallComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

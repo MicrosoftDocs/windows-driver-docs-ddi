@@ -10,6 +10,7 @@ keywords: ["NDIS_WDI_FREE_WDI_FRAME_METADATA callback function"]
 ms.keywords: NDIS_WDI_FREE_WDI_FRAME_METADATA, NDIS_WDI_FREE_WDI_FRAME_METADATA callback, NdisWdiFreeWiFiFrameMetaData, NdisWdiFreeWiFiFrameMetaData callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiFreeWiFiFrameMetaData, netvista.ndiswdifreewdiframemetadata
 f1_keywords:
  - "dot11wdi/NdisWdiFreeWiFiFrameMetaData"
+ - "NdisWdiFreeWiFiFrameMetaData"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dot11wdi.h
 api_name:
 - NdisWdiFreeWiFiFrameMetaData
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

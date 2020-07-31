@@ -10,6 +10,7 @@ keywords: ["tagKS_VIDEOINFOHEADER2 structure"]
 ms.keywords: "*PKS_VIDEOINFOHEADER2, KS_VIDEOINFOHEADER2, KS_VIDEOINFOHEADER2 structure [Streaming Media Devices], PKS_VIDEOINFOHEADER2, PKS_VIDEOINFOHEADER2 structure pointer [Streaming Media Devices], ksmedia/KS_VIDEOINFOHEADER2, ksmedia/PKS_VIDEOINFOHEADER2, stream.ks_videoinfoheader2, tagKS_VIDEOINFOHEADER2, vidcapstruct_c789f606-9b19-42b0-8492-3b945141c274.xml"
 f1_keywords:
  - "ksmedia/KS_VIDEOINFOHEADER2"
+ - "KS_VIDEOINFOHEADER2"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KS_VIDEOINFOHEADER2
-product:
-- Windows
 targetos: Windows
 req.typenames: KS_VIDEOINFOHEADER2, *PKS_VIDEOINFOHEADER2
 ---

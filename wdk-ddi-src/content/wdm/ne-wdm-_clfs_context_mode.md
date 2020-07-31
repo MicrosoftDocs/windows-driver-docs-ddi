@@ -10,6 +10,7 @@ keywords: ["_CLFS_CONTEXT_MODE enumeration"]
 ms.keywords: "*PCLFS_CONTEXT_MODE, CLFS_CONTEXT_MODE, CLFS_CONTEXT_MODE enumeration [Kernel-Mode Driver Architecture], ClfsContextForward, ClfsContextNone, ClfsContextPrevious, ClfsContextUndoNext, PCLFS_CONTEXT_MODE, PCLFS_CONTEXT_MODE enumeration pointer [Kernel-Mode Driver Architecture], PPCLFS_CONTEXT_MODE, PPCLFS_CONTEXT_MODE enumeration pointer [Kernel-Mode Driver Architecture], _CLFS_CONTEXT_MODE, kernel.clfs_context_mode, sysenum_b51a934c-9174-4607-8da9-22c7ecf56730.xml, wdm/CLFS_CONTEXT_MODE, wdm/ClfsContextForward, wdm/ClfsContextNone, wdm/ClfsContextPrevious, wdm/ClfsContextUndoNext, wdm/PCLFS_CONTEXT_MODE, wdm/PPCLFS_CONTEXT_MODE"
 f1_keywords:
  - "wdm/CLFS_CONTEXT_MODE"
+ - "CLFS_CONTEXT_MODE"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - CLFS_CONTEXT_MODE
-product:
-- Windows
 targetos: Windows
 req.typenames: CLFS_CONTEXT_MODE, *PCLFS_CONTEXT_MODE, PPCLFS_CONTEXT_MODE
 ---

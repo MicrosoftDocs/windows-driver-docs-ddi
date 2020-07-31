@@ -10,6 +10,7 @@ keywords: ["FltGetRequestorProcess function"]
 ms.keywords: FltApiRef_e_to_o_9705ecf7-4e60-4b9a-b07e-4e24227aff1d.xml, FltGetRequestorProcess, FltGetRequestorProcess routine [Installable File System Drivers], fltkernel/FltGetRequestorProcess, ifsk.fltgetrequestorprocess
 f1_keywords:
  - "fltkernel/FltGetRequestorProcess"
+ - "FltGetRequestorProcess"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltGetRequestorProcess
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

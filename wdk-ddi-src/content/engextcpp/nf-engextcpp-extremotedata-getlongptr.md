@@ -10,6 +10,7 @@ keywords: ["ExtRemoteData::GetLongPtr"]
 ms.keywords: EngExtCpp_Ref_3160f5ef-8983-40b4-a7f8-95a1a40d67ac.xml, ExtRemoteData class [Windows Debugging],GetLongPtr method, ExtRemoteData.GetLongPtr, ExtRemoteData::GetLongPtr, GetLongPtr, GetLongPtr method [Windows Debugging], GetLongPtr method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_getlongptr
 f1_keywords:
  - "engextcpp/ExtRemoteData.GetLongPtr"
+ - "ExtRemoteData.GetLongPtr"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - engextcpp.hpp
 api_name:
 - ExtRemoteData.GetLongPtr
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

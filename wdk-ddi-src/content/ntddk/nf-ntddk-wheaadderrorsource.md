@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["WheaAddErrorSource function"]
 f1_keywords:
  - "ntddk/WheaAddErrorSource"
+ - "WheaAddErrorSource"
 ms.keywords: WheaAddErrorSource
 req.header: ntddk.h
 req.include-header:

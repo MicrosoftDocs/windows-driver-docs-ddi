@@ -10,6 +10,7 @@ keywords: ["IWDTFSystemAction2::IsRestartedWithContext"]
 ms.keywords: IWDTFSystemAction2 interface [Windows Device Testing Framework],IsRestartedWithContext method, IWDTFSystemAction2.IsRestartedWithContext, IWDTFSystemAction2::IsRestartedWithContext, IsRestartedWithContext, IsRestartedWithContext method [Windows Device Testing Framework], IsRestartedWithContext method [Windows Device Testing Framework],IWDTFSystemAction2 interface, Microsoft.WDTF.IWDTFSystemAction2.IsRestartedWithContext, Microsoft::WDTF::IWDTFSystemAction2::IsRestartedWithContext, dtf.iwdtfsystemaction2_isrestartedwithcontext, wdtfsystemaction/IWDTFSystemAction2::IsRestartedWithContext
 f1_keywords:
  - "wdtfsystemaction/IWDTFSystemAction2.IsRestartedWithContext"
+ - "IWDTFSystemAction2.IsRestartedWithContext"
 req.header: wdtfsystemaction.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - WDTFSystemAction.Interop.dll
 api_name:
 - IWDTFSystemAction2.IsRestartedWithContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

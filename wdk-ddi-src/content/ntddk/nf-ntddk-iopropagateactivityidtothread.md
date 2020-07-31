@@ -10,6 +10,7 @@ keywords: ["IoPropagateActivityIdToThread function"]
 ms.keywords: IoPropagateActivityIdToThread, IoPropagateActivityIdToThread routine [Kernel-Mode Driver Architecture], kernel.iopropagateactivityidtothread, ntddk/IoPropagateActivityIdToThread
 f1_keywords:
  - "ntddk/IoPropagateActivityIdToThread"
+ - "IoPropagateActivityIdToThread"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoPropagateActivityIdToThread
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

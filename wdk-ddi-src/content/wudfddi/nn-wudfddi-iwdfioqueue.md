@@ -10,6 +10,7 @@ keywords: ["IWDFIoQueue interface"]
 ms.keywords: IWDFIoQueue, IWDFIoQueue interface, IWDFIoQueue interface,described, UMDFQueueObjectRef_57878b3d-0771-425d-b8ca-3e4713c96fcc.xml, umdf.iwdfioqueue, wdf.iwdfioqueue, wudfddi/IWDFIoQueue
 f1_keywords:
  - "wudfddi/IWDFIoQueue"
+ - "IWDFIoQueue"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFIoQueue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

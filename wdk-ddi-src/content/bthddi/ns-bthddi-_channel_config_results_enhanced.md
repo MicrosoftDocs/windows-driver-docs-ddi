@@ -10,6 +10,7 @@ keywords: ["_CHANNEL_CONFIG_RESULTS_ENHANCED structure"]
 ms.keywords: "*PCHANNEL_CONFIG_RESULTS_ENHANCED, CHANNEL_CONFIG_RESULTS_ENHANCED, CHANNEL_CONFIG_RESULTS_ENHANCED structure [Bluetooth Devices], PCHANNEL_CONFIG_RESULTS_ENHANCED, PCHANNEL_CONFIG_RESULTS_ENHANCED structure pointer [Bluetooth Devices], _CHANNEL_CONFIG_RESULTS_ENHANCED, bltooth.channel_config_results_enhanced, bthddi/CHANNEL_CONFIG_RESULTS_ENHANCED, bthddi/PCHANNEL_CONFIG_RESULTS_ENHANCED"
 f1_keywords:
  - "bthddi/CHANNEL_CONFIG_RESULTS_ENHANCED"
+ - "CHANNEL_CONFIG_RESULTS_ENHANCED"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Bthddi.h
 api_name:
 - CHANNEL_CONFIG_RESULTS_ENHANCED
-product:
-- Windows
 targetos: Windows
 req.typenames: CHANNEL_CONFIG_RESULTS_ENHANCED, *PCHANNEL_CONFIG_RESULTS_ENHANCED
 ---

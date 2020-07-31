@@ -10,6 +10,7 @@ keywords: ["_CMP_NOTIFY_INFO structure"]
 ms.keywords: "*PCMP_NOTIFY_INFO, 61883/CMP_NOTIFY_INFO, 61883/PCMP_NOTIFY_INFO, CMP_NOTIFY_INFO, CMP_NOTIFY_INFO structure [Buses], IEEE.cmp_notify_info, PCMP_NOTIFY_INFO, PCMP_NOTIFY_INFO structure pointer [Buses], _CMP_NOTIFY_INFO"
 f1_keywords:
  - "61883/CMP_NOTIFY_INFO"
+ - "CMP_NOTIFY_INFO"
 req.header: 61883.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - 61883.h
 api_name:
 - CMP_NOTIFY_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: CMP_NOTIFY_INFO, *PCMP_NOTIFY_INFO
 ---

@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_UMD_DRIVER_VERSION structure"]
 ms.keywords: D3DKMT_UMD_DRIVER_VERSION, D3DKMT_UMD_DRIVER_VERSION structure [Display Devices], _D3DKMT_UMD_DRIVER_VERSION, d3dkmthk/D3DKMT_UMD_DRIVER_VERSION, display.d3dkmt_umd_driver_version
 f1_keywords:
  - "d3dkmthk/D3DKMT_UMD_DRIVER_VERSION"
+ - "D3DKMT_UMD_DRIVER_VERSION"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - D3dkmthk.h
 api_name:
 - D3DKMT_UMD_DRIVER_VERSION
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_UMD_DRIVER_VERSION

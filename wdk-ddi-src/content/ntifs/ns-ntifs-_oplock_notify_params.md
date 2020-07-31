@@ -10,6 +10,7 @@ ms.keywords: "*POPLOCK_NOTIFY_PARAMS, OPLOCK_NOTIFY_PARAMS, OPLOCK_NOTIFY_PARAMS
 ms.topic: struct
 f1_keywords:
  - "ntifs/OPLOCK_NOTIFY_PARAMS"
+ - "OPLOCK_NOTIFY_PARAMS"
 req.header: ntifs.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - OPLOCK_NOTIFY_PARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: OPLOCK_NOTIFY_PARAMS, *POPLOCK_NOTIFY_PARAMS
 ---

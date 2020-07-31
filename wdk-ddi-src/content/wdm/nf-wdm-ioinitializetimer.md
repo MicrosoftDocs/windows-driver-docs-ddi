@@ -10,6 +10,7 @@ keywords: ["IoInitializeTimer function"]
 ms.keywords: IoInitializeTimer, IoInitializeTimer routine [Kernel-Mode Driver Architecture], k104_28bd2888-4ec7-4de8-b2ea-f006a8f39209.xml, kernel.ioinitializetimer, wdm/IoInitializeTimer
 f1_keywords:
  - "wdm/IoInitializeTimer"
+ - "IoInitializeTimer"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoInitializeTimer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

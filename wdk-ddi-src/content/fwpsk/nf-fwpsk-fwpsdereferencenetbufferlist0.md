@@ -10,6 +10,7 @@ keywords: ["FwpsDereferenceNetBufferList0 function"]
 ms.keywords: FwpsDereferenceNetBufferList0, FwpsDereferenceNetBufferList0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsDereferenceNetBufferList0, netvista.fwpsdereferencenetbufferlist0, wfp_ref_2_funct_3_fwps_D-H_c55180f3-4575-4279-8481-99b17215fc11.xml
 f1_keywords:
  - "fwpsk/FwpsDereferenceNetBufferList0"
+ - "FwpsDereferenceNetBufferList0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - fwpkclnt.dll
 api_name:
 - FwpsDereferenceNetBufferList0
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

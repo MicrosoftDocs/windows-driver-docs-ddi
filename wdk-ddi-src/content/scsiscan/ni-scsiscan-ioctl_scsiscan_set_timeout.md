@@ -10,6 +10,7 @@ keywords: ["IOCTL_SCSISCAN_SET_TIMEOUT IOCTL"]
 ms.keywords: IOCTL_SCSISCAN_SET_TIMEOUT, IOCTL_SCSISCAN_SET_TIMEOUT control, IOCTL_SCSISCAN_SET_TIMEOUT control code [Imaging Devices], image.ioctl_scsiscan_set_timeout, scsiscan/IOCTL_SCSISCAN_SET_TIMEOUT, stifnc_2b449c8c-c9b5-4f5a-be93-7efc1d8610bc.xml
 f1_keywords:
  - "scsiscan/IOCTL_SCSISCAN_SET_TIMEOUT"
+ - "IOCTL_SCSISCAN_SET_TIMEOUT"
 req.header: scsiscan.h
 req.include-header: Scsiscan.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - scsiscan.h
 api_name:
 - IOCTL_SCSISCAN_SET_TIMEOUT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

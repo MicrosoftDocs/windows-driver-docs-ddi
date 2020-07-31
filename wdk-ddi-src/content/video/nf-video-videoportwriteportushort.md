@@ -10,6 +10,7 @@ keywords: ["VideoPortWritePortUshort function"]
 ms.keywords: VideoPortWritePortUshort, VideoPortWritePortUshort function [Display Devices], VideoPort_Functions_919dd8ab-f319-4071-b375-b269823adb31.xml, display.videoportwriteportushort, video/VideoPortWritePortUshort
 f1_keywords:
  - "video/VideoPortWritePortUshort"
+ - "VideoPortWritePortUshort"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Videoprt.sys
 api_name:
 - VideoPortWritePortUshort
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

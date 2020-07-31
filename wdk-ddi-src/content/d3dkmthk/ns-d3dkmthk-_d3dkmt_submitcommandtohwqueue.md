@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_SUBMITCOMMANDTOHWQUEUE structure"]
 ms.keywords: D3DKMT_SUBMITCOMMANDTOHWQUEUE, D3DKMT_SUBMITCOMMANDTOHWQUEUE structure [Display Devices], _D3DKMT_SUBMITCOMMANDTOHWQUEUE, d3dkmthk/D3DKMT_SUBMITCOMMANDTOHWQUEUE, display.d3dkmt_submitcommandtohwqueue
 f1_keywords:
  - "d3dkmthk/D3DKMT_SUBMITCOMMANDTOHWQUEUE"
+ - "D3DKMT_SUBMITCOMMANDTOHWQUEUE"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMT_SUBMITCOMMANDTOHWQUEUE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_SUBMITCOMMANDTOHWQUEUE

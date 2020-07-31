@@ -10,6 +10,7 @@ keywords: ["IDebugFailureAnalysis2::SetExtensionCommand"]
 ms.keywords: IDebugFailureAnalysis2 interface [Windows Debugging],SetExtensionCommand method, IDebugFailureAnalysis2.SetExtensionCommand, IDebugFailureAnalysis2::SetExtensionCommand, SetExtensionCommand, SetExtensionCommand method [Windows Debugging], SetExtensionCommand method [Windows Debugging],IDebugFailureAnalysis2 interface, debugger.idebugfailureanalysis2_setextensioncommand, extsfns/IDebugFailureAnalysis2::SetExtensionCommand
 f1_keywords:
  - "extsfns/IDebugFailureAnalysis2.SetExtensionCommand"
+ - "IDebugFailureAnalysis2.SetExtensionCommand"
 req.header: extsfns.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - extsfns.h
 api_name:
 - IDebugFailureAnalysis2.SetExtensionCommand
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

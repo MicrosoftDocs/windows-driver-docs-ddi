@@ -10,6 +10,7 @@ keywords: ["PcRegisterPhysicalConnectionFromExternal function"]
 ms.keywords: PcRegisterPhysicalConnectionFromExternal, PcRegisterPhysicalConnectionFromExternal function [Audio Devices], audio.pcregisterphysicalconnectionfromexternal, audpc-routines_ad19ffe2-ec64-4b2b-b036-cc84a986adfe.xml, portcls/PcRegisterPhysicalConnectionFromExternal
 f1_keywords:
  - "portcls/PcRegisterPhysicalConnectionFromExternal"
+ - "PcRegisterPhysicalConnectionFromExternal"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Portcls.dll
 api_name:
 - PcRegisterPhysicalConnectionFromExternal
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

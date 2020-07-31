@@ -10,6 +10,7 @@ keywords: ["IoSetShareAccessEx function"]
 ms.keywords: IoSetShareAccessEx, IoSetShareAccessEx routine [Kernel-Mode Driver Architecture], kernel.iosetshareaccessex, wdm/IoSetShareAccessEx
 f1_keywords:
  - "wdm/IoSetShareAccessEx"
+ - "IoSetShareAccessEx"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ntoskrnl.dll
 api_name:
 - IoSetShareAccessEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

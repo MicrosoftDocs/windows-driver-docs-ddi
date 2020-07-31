@@ -10,6 +10,7 @@ keywords: ["WritePointer function"]
 ms.keywords: WdbgExts_Ref_ab18dbae-3a69-43a1-97dd-d0711e4db54e.xml, WritePointer, WritePointer function [Windows Debugging], debugger.writepointer, wdbgexts/WritePointer
 f1_keywords:
  - "wdbgexts/WritePointer"
+ - "WritePointer"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wdbgexts.h
 api_name:
 - WritePointer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

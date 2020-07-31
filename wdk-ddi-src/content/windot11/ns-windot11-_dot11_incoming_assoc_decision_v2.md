@@ -10,6 +10,7 @@ keywords: ["_DOT11_INCOMING_ASSOC_DECISION_V2 structure"]
 ms.keywords: "*PDOT11_INCOMING_ASSOC_DECISION_V2, DOT11_INCOMING_ASSOC_DECISION_V2, DOT11_INCOMING_ASSOC_DECISION_V2 structure [Network Drivers Starting with Windows Vista], PDOT11_INCOMING_ASSOC_DECISION_V2, PDOT11_INCOMING_ASSOC_DECISION_V2 structure pointer [Network Drivers Starting with Windows Vista], _DOT11_INCOMING_ASSOC_DECISION_V2, netvista.dot11_incoming_assoc_decision_v2, windot11/DOT11_INCOMING_ASSOC_DECISION_V2, windot11/PDOT11_INCOMING_ASSOC_DECISION_V2"
 f1_keywords:
  - "windot11/DOT11_INCOMING_ASSOC_DECISION_V2"
+ - "DOT11_INCOMING_ASSOC_DECISION_V2"
 req.header: windot11.h
 req.include-header: Windot11.h
 req.target-type: Windows

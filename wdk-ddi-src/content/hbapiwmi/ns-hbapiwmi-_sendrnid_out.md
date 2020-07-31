@@ -10,6 +10,7 @@ keywords: ["_SendRNID_OUT structure"]
 ms.keywords: "*PSendRNID_OUT, PSendRNID_OUT, PSendRNID_OUT structure pointer [Storage Devices], SendRNID_OUT, SendRNID_OUT structure [Storage Devices], _SendRNID_OUT, hbapiwmi/PSendRNID_OUT, hbapiwmi/SendRNID_OUT, storage.sendrnid_out, structs-Fibre_fb365ea2-b9ff-4108-af6c-48c2d812eac3.xml"
 f1_keywords:
  - "hbapiwmi/SendRNID_OUT"
+ - "SendRNID_OUT"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - SendRNID_OUT
-product:
-- Windows
 targetos: Windows
 req.typenames: SendRNID_OUT, *PSendRNID_OUT
 ---

@@ -10,6 +10,7 @@ keywords: ["IDebugOutputCallbacks2::Output"]
 ms.keywords: IDebugOutputCallbacks2 interface [Windows Debugging],Output method, IDebugOutputCallbacks2.Output, IDebugOutputCallbacks2::Output, Output, Output method [Windows Debugging], Output method [Windows Debugging],IDebugOutputCallbacks2 interface, dbgeng/IDebugOutputCallbacks2::Output, debugger.idebugoutputcallbacks2_output
 f1_keywords:
  - "dbgeng/IDebugOutputCallbacks2.Output"
+ - "IDebugOutputCallbacks2.Output"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugOutputCallbacks2.Output
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

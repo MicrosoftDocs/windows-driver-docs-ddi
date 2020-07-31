@@ -10,6 +10,7 @@ keywords: ["ExInitializeWorkItem function"]
 ms.keywords: ExInitializeWorkItem, ExInitializeWorkItem routine [Installable File System Drivers], exref_815c9796-c2e5-4362-926a-2fb509f3a1ae.xml, ifsk.exinitializeworkitem, wdm/ExInitializeWorkItem
 f1_keywords:
  - "wdm/ExInitializeWorkItem"
+ - "ExInitializeWorkItem"
 req.header: wdm.h
 req.include-header: FltKernel.h, Ntifs.h, Ntddk.h, Wdm.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - ExInitializeWorkItem
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

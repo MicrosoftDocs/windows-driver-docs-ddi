@@ -10,6 +10,7 @@ keywords: ["IWDFDevice2::CreateSymbolicLinkWithReferenceString"]
 ms.keywords: CreateSymbolicLinkWithReferenceString, CreateSymbolicLinkWithReferenceString method, CreateSymbolicLinkWithReferenceString method,IWDFDevice2 interface, IWDFDevice2 interface,CreateSymbolicLinkWithReferenceString method, IWDFDevice2.CreateSymbolicLinkWithReferenceString, IWDFDevice2::CreateSymbolicLinkWithReferenceString, UMDFDeviceObjectRef_40f806fa-5db7-48db-b3c7-0f338947887e.xml, umdf.iwdfdevice2_createsymboliclinkwithreferencestring, wdf.iwdfdevice2_createsymboliclinkwithreferencestring, wudfddi/IWDFDevice2::CreateSymbolicLinkWithReferenceString
 f1_keywords:
  - "wudfddi/IWDFDevice2.CreateSymbolicLinkWithReferenceString"
+ - "IWDFDevice2.CreateSymbolicLinkWithReferenceString"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFDevice2.CreateSymbolicLinkWithReferenceString
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

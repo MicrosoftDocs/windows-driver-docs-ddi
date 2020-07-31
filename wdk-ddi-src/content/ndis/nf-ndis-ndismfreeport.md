@@ -10,6 +10,7 @@ keywords: ["NdisMFreePort function"]
 ms.keywords: NdisMFreePort, NdisMFreePort function [Network Drivers Starting with Windows Vista], ndis/NdisMFreePort, ndis_ports_ref_b5b73dda-9bc0-4d7d-a265-d50d1436c8f4.xml, netvista.ndismfreeport
 f1_keywords:
  - "ndis/NdisMFreePort"
+ - "NdisMFreePort"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisMFreePort
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_DESTROYKEYEDMUTEX structure"]
 ms.keywords: D3DKMT_DESTROYKEYEDMUTEX, D3DKMT_DESTROYKEYEDMUTEX structure [Display Devices], OpenGL_Structs_4eb8a9cb-d2b1-445b-b545-5ec0a017a61c.xml, _D3DKMT_DESTROYKEYEDMUTEX, d3dkmthk/D3DKMT_DESTROYKEYEDMUTEX, display.d3dkmt_destroykeyedmutex
 f1_keywords:
  - "d3dkmthk/D3DKMT_DESTROYKEYEDMUTEX"
+ - "D3DKMT_DESTROYKEYEDMUTEX"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMT_DESTROYKEYEDMUTEX
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_DESTROYKEYEDMUTEX

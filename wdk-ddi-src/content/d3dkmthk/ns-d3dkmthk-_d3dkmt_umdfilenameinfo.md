@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_UMDFILENAMEINFO structure"]
 ms.keywords: D3DKMT_UMDFILENAMEINFO, D3DKMT_UMDFILENAMEINFO structure [Display Devices], OpenGL_Structs_631f8c52-0978-4f26-bd6b-08348676795b.xml, _D3DKMT_UMDFILENAMEINFO, d3dkmthk/D3DKMT_UMDFILENAMEINFO, display.d3dkmt_umdfilenameinfo
 f1_keywords:
  - "d3dkmthk/D3DKMT_UMDFILENAMEINFO"
+ - "D3DKMT_UMDFILENAMEINFO"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMT_UMDFILENAMEINFO
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_UMDFILENAMEINFO

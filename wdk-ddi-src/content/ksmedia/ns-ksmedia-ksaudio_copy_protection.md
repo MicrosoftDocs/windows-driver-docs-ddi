@@ -10,6 +10,7 @@ keywords: ["KSAUDIO_COPY_PROTECTION structure"]
 ms.keywords: "*PKSAUDIO_COPY_PROTECTION, KSAUDIO_COPY_PROTECTION, KSAUDIO_COPY_PROTECTION structure [Audio Devices], PKSAUDIO_COPY_PROTECTION, PKSAUDIO_COPY_PROTECTION structure pointer [Audio Devices], aud-prop_94eac763-0c97-406d-b255-686ac82f908c.xml, audio.ksaudio_copy_protection, ksmedia/KSAUDIO_COPY_PROTECTION, ksmedia/PKSAUDIO_COPY_PROTECTION"
 f1_keywords:
  - "ksmedia/KSAUDIO_COPY_PROTECTION"
+ - "KSAUDIO_COPY_PROTECTION"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KSAUDIO_COPY_PROTECTION
-product:
-- Windows
 targetos: Windows
 req.typenames: KSAUDIO_COPY_PROTECTION, *PKSAUDIO_COPY_PROTECTION
 ---

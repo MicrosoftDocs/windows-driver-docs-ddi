@@ -10,6 +10,7 @@ keywords: ["IWDTFSimpleIOStressAction2::ContinueAsync"]
 ms.keywords: ContinueAsync, ContinueAsync method [Windows Device Testing Framework], ContinueAsync method [Windows Device Testing Framework],IWDTFSimpleIOStressAction2 interface, IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework],ContinueAsync method, IWDTFSimpleIOStressAction2.ContinueAsync, IWDTFSimpleIOStressAction2::ContinueAsync, Microsoft.WDTF.IWDTFSimpleIOStressAction2.ContinueAsync, Microsoft::WDTF::IWDTFSimpleIOStressAction2::ContinueAsync, dtf.iwdtfsimpleiostressaction2_continueasync, wdtfinterfaces/IWDTFSimpleIOStressAction2::ContinueAsync
 f1_keywords:
  - "wdtfinterfaces/IWDTFSimpleIOStressAction2.ContinueAsync"
+ - "IWDTFSimpleIOStressAction2.ContinueAsync"
 req.header: wdtfinterfaces.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WDTFInterfaces.Interop.dll
 api_name:
 - IWDTFSimpleIOStressAction2.ContinueAsync
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

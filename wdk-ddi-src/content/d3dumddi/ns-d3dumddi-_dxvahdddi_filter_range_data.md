@@ -10,6 +10,7 @@ keywords: ["_DXVAHDDDI_FILTER_RANGE_DATA structure"]
 ms.keywords: DXVA2_Structs_6fe6de36-4bbb-4409-817e-52e6598363e6.xml, DXVAHDDDI_FILTER_RANGE_DATA, DXVAHDDDI_FILTER_RANGE_DATA structure [Display Devices], _DXVAHDDDI_FILTER_RANGE_DATA, d3dumddi/DXVAHDDDI_FILTER_RANGE_DATA, display.dxvahdddi_filter_range_data
 f1_keywords:
  - "d3dumddi/DXVAHDDDI_FILTER_RANGE_DATA"
+ - "DXVAHDDDI_FILTER_RANGE_DATA"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - DXVAHDDDI_FILTER_RANGE_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVAHDDDI_FILTER_RANGE_DATA
 ---

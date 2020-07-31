@@ -10,6 +10,7 @@ keywords: ["IoGetActivityIdIrp function"]
 ms.keywords: IoGetActivityIdIrp, IoGetActivityIdIrp routine [Kernel-Mode Driver Architecture], kernel.iogetactivityidirp, ntddk/IoGetActivityIdIrp
 f1_keywords:
  - "ntddk/IoGetActivityIdIrp"
+ - "IoGetActivityIdIrp"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoGetActivityIdIrp
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

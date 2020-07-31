@@ -7,6 +7,7 @@ ms.date: 10/05/2018
 keywords: ["IDebugHostSymbols::FindModuleByName"]
 f1_keywords:
  - "dbgmodel/IDebugHostSymbols.FindModuleByName"
+ - "IDebugHostSymbols.FindModuleByName"
 ms.keywords: IDebugHostSymbols::FindModuleByName, FindModuleByName, IDebugHostSymbols.FindModuleByName, IDebugHostSymbols::FindModuleByName, IDebugHostSymbols.FindModuleByName
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostSymbols.FindModuleByName
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

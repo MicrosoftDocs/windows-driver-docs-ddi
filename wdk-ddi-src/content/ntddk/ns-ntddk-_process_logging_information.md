@@ -8,6 +8,7 @@ ms.date: 09/30/2018
 keywords: ["_PROCESS_LOGGING_INFORMATION structure"]
 f1_keywords:
  - "ntddk/_PROCESS_LOGGING_INFORMATION"
+ - "_PROCESS_LOGGING_INFORMATION"
 ms.keywords: _PROCESS_LOGGING_INFORMATION, PROCESS_LOGGING_INFORMATION, *PPROCESS_LOGGING_INFORMATION, 
 req.header: ntddk.h
 req.include-header:
@@ -30,8 +31,6 @@ api_location:
 - ntddk.h
 api_name: 
 - _PROCESS_LOGGING_INFORMATION
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

@@ -10,6 +10,7 @@ keywords: ["IOCTL_ACPI_ENUM_CHILDREN IOCTL"]
 ms.keywords: IOCTL_ACPI_ENUM_CHILDREN, IOCTL_ACPI_ENUM_CHILDREN control, IOCTL_ACPI_ENUM_CHILDREN control code [ACPI Devices], acpi-meth-eval-ref_243e3f53-71b8-4090-bcf1-48b0c5634b5e.xml, acpi.ioctl_acpi_enum_children, acpiioct/IOCTL_ACPI_ENUM_CHILDREN
 f1_keywords:
  - "acpiioct/IOCTL_ACPI_ENUM_CHILDREN"
+ - "IOCTL_ACPI_ENUM_CHILDREN"
 req.header: acpiioct.h
 req.include-header: Acpiioct.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Acpiioct.h
 api_name:
 - IOCTL_ACPI_ENUM_CHILDREN
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

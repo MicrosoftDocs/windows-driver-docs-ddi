@@ -10,6 +10,7 @@ keywords: ["ObReferenceObjectWithTag macro"]
 ms.keywords: ObReferenceObjectWithTag, ObReferenceObjectWithTag routine [Kernel-Mode Driver Architecture], k107_a35c78fa-edf5-4a93-908b-baf16718b095.xml, kernel.obreferenceobjectwithtag, wdm/ObReferenceObjectWithTag
 f1_keywords:
  - "wdm/ObReferenceObjectWithTag"
+ - "ObReferenceObjectWithTag"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - ObReferenceObjectWithTag
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

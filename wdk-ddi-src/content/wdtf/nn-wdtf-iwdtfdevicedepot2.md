@@ -10,6 +10,7 @@ keywords: ["IWDTFDeviceDepot2 interface"]
 ms.keywords: IWDTFDeviceDepot2, IWDTFDeviceDepot2 interface [Windows Device Testing Framework], IWDTFDeviceDepot2 interface [Windows Device Testing Framework],described, Microsoft.WDTF.IWDTFDeviceDepot2, dtf.iwdtfdevicedepot2, wdtf/IWDTFDeviceDepot2
 f1_keywords:
  - "wdtf/IWDTFDeviceDepot2"
+ - "IWDTFDeviceDepot2"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - WDTF.Interop.metadata_dll.dll
 api_name:
 - IWDTFDeviceDepot2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["MEM_EXTENDED_PARAMETER_TYPE enumeration"]
 f1_keywords:
  - "wdm/MEM_EXTENDED_PARAMETER_TYPE"
+ - "MEM_EXTENDED_PARAMETER_TYPE"
 ms.keywords: MEM_EXTENDED_PARAMETER_TYPE, MEM_EXTENDED_PARAMETER_TYPE, *PMEM_EXTENDED_PARAMETER_TYPE, 
 req.header: wdm.h
 req.include-header:
@@ -26,8 +27,6 @@ api_location:
 - wdm.h
 api_name: 
 - MEM_EXTENDED_PARAMETER_TYPE
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

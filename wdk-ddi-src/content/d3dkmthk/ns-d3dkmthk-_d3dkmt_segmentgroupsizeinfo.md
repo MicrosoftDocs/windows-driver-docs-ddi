@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_SEGMENTGROUPSIZEINFO structure"]
 ms.keywords: D3DKMT_SEGMENTGROUPSIZEINFO, D3DKMT_SEGMENTGROUPSIZEINFO structure [Display Devices], _D3DKMT_SEGMENTGROUPSIZEINFO, d3dkmthk/D3DKMT_SEGMENTGROUPSIZEINFO, display.d3dkmt_segmentgroupsizeinfo
 f1_keywords:
  - "d3dkmthk/D3DKMT_SEGMENTGROUPSIZEINFO"
+ - "D3DKMT_SEGMENTGROUPSIZEINFO"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMT_SEGMENTGROUPSIZEINFO
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_SEGMENTGROUPSIZEINFO

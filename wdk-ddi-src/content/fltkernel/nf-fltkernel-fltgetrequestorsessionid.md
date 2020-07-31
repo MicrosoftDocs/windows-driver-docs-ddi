@@ -10,6 +10,7 @@ keywords: ["FltGetRequestorSessionId function"]
 ms.keywords: FltGetRequestorSessionId, FltGetRequestorSessionId routine [Installable File System Drivers], fltkernel/FltGetRequestorSessionId, ifsk.fltgetrequestorsessionid
 f1_keywords:
  - "fltkernel/FltGetRequestorSessionId"
+ - "FltGetRequestorSessionId"
 req.header: fltkernel.h
 req.include-header: FltKernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltGetRequestorSessionId
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

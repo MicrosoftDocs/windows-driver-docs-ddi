@@ -10,6 +10,7 @@ keywords: ["EVT_SERCX2_PIO_RECEIVE_CANCEL_READY_NOTIFICATION callback function"]
 ms.keywords: 2/EvtSerCx2PioReceiveCancelReadyNotification, EVT_SERCX2_PIO_RECEIVE_CANCEL_READY_NOTIFICATION, EVT_SERCX2_PIO_RECEIVE_CANCEL_READY_NOTIFICATION callback, EvtSerCx2PioReceiveCancelReadyNotification, EvtSerCx2PioReceiveCancelReadyNotification callback function [Serial Ports], serports.evtsercx2pioreceivecancelreadynotification
 f1_keywords:
  - "sercx/EvtSerCx2PioReceiveCancelReadyNotification"
+ - "EvtSerCx2PioReceiveCancelReadyNotification"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - 2.0\Sercx.h
 api_name:
 - EvtSerCx2PioReceiveCancelReadyNotification
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

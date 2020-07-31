@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["_IRQL_requires_DXGK_ macro"]
 f1_keywords:
  - "dispmprt/_IRQL_requires_DXGK_"
+ - "_IRQL_requires_DXGK_"
 ms.keywords: _IRQL_requires_DXGK_
 req.header: dispmprt.h
 req.include-header:

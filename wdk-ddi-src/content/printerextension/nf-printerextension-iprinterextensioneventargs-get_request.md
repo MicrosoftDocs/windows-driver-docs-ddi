@@ -10,6 +10,7 @@ keywords: ["IPrinterExtensionEventArgs::get_Request"]
 ms.keywords: IPrinterExtensionEventArgs interface [Print Devices],Request property, IPrinterExtensionEventArgs.Request, IPrinterExtensionEventArgs.get_Request, IPrinterExtensionEventArgs::Request, IPrinterExtensionEventArgs::get_Request, Request property [Print Devices], Request property [Print Devices],IPrinterExtensionEventArgs interface, get_Request, print.iprinterextensioneventargs_request, printerextension/IPrinterExtensionEventArgs::Request, printerextension/IPrinterExtensionEventArgs::get_Request
 f1_keywords:
  - "printerextension/IPrinterExtensionEventArgs.Request"
+ - "IPrinterExtensionEventArgs.Request"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IPrinterExtensionEventArgs.Request
 - IPrinterExtensionEventArgs.get_Request
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

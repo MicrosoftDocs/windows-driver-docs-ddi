@@ -10,6 +10,7 @@ keywords: ["_KSDEVICE_PROFILE_INFO structure"]
 ms.keywords: "*PKSDEVICE_PROFILE_INFO, KSDEVICE_PROFILE_INFO, KSDEVICE_PROFILE_INFO structure [Streaming Media Devices], PKSDEVICE_PROFILE_INFO, PKSDEVICE_PROFILE_INFO structure pointer [Streaming Media Devices], _KSDEVICE_PROFILE_INFO, ksmedia/KSDEVICE_PROFILE_INFO, ksmedia/PKSDEVICE_PROFILE_INFO, stream.ksdevice_profile_info"
 f1_keywords:
  - "ksmedia/KSDEVICE_PROFILE_INFO"
+ - "KSDEVICE_PROFILE_INFO"
 req.header: ksmedia.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KSDEVICE_PROFILE_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: KSDEVICE_PROFILE_INFO, *PKSDEVICE_PROFILE_INFO
 ---

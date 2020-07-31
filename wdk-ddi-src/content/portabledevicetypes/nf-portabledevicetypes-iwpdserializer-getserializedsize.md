@@ -10,6 +10,7 @@ keywords: ["IWpdSerializer::GetSerializedSize"]
 ms.keywords: GetSerializedSize, GetSerializedSize method, GetSerializedSize method,IWpdSerializer interface, IWpdSerializer interface,GetSerializedSize method, IWpdSerializer.GetSerializedSize, IWpdSerializer::GetSerializedSize, IWpdSerializerGetSerializedSize, portabledevicetypes/IWpdSerializer::GetSerializedSize, wpddk.iwpdserializer_getserializedsize
 f1_keywords:
  - "portabledevicetypes/IWpdSerializer.GetSerializedSize"
+ - "IWpdSerializer.GetSerializedSize"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - PortableDeviceTypes.h
 api_name:
 - IWpdSerializer.GetSerializedSize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

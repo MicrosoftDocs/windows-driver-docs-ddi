@@ -10,6 +10,7 @@ keywords: ["_DISK_GEOMETRY_EX structure"]
 ms.keywords: "*PDISK_GEOMETRY_EX, DISK_GEOMETRY_EX, DISK_GEOMETRY_EX structure [Storage Devices], PDISK_GEOMETRY_EX, PDISK_GEOMETRY_EX structure pointer [Storage Devices], _DISK_GEOMETRY_EX, ntdddisk/DISK_GEOMETRY_EX, ntdddisk/PDISK_GEOMETRY_EX, storage.disk_geometry_ex, structs-disk_58b543a6-c9ee-4acf-9012-6572e9e9e627.xml"
 f1_keywords:
  - "ntdddisk/DISK_GEOMETRY_EX"
+ - "DISK_GEOMETRY_EX"
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h, Ntddk.h, Ntdddisk.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntdddisk.h
 api_name:
 - DISK_GEOMETRY_EX
-product:
-- Windows
 targetos: Windows
 req.typenames: DISK_GEOMETRY_EX, *PDISK_GEOMETRY_EX
 ---

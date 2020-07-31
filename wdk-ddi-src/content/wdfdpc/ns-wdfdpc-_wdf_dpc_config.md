@@ -10,6 +10,7 @@ keywords: ["_WDF_DPC_CONFIG structure"]
 ms.keywords: "*PWDF_DPC_CONFIG, DFDpcObjectRef_797caee0-a119-4bae-837b-461e74022868.xml, PWDF_DPC_CONFIG, PWDF_DPC_CONFIG structure pointer, WDF_DPC_CONFIG, WDF_DPC_CONFIG structure, _WDF_DPC_CONFIG, kmdf.wdf_dpc_config, wdf.wdf_dpc_config, wdfdpc/PWDF_DPC_CONFIG, wdfdpc/WDF_DPC_CONFIG"
 f1_keywords:
  - "wdfdpc/WDF_DPC_CONFIG"
+ - "WDF_DPC_CONFIG"
 req.header: wdfdpc.h
 req.include-header: Wdf.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wdfdpc.h
 api_name:
 - WDF_DPC_CONFIG
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_DPC_CONFIG, *PWDF_DPC_CONFIG
 ---

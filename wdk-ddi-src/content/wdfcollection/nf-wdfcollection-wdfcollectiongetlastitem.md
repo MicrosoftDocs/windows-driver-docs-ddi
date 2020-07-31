@@ -10,6 +10,7 @@ keywords: ["WdfCollectionGetLastItem function"]
 ms.keywords: DFCollectionObjectRef_1c6d4bbf-6d37-4b27-8421-df1ce61888ef.xml, WdfCollectionGetLastItem, WdfCollectionGetLastItem method, kmdf.wdfcollectiongetlastitem, wdf.wdfcollectiongetlastitem, wdfcollection/WdfCollectionGetLastItem
 f1_keywords:
  - "wdfcollection/WdfCollectionGetLastItem"
+ - "WdfCollectionGetLastItem"
 req.header: wdfcollection.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfCollectionGetLastItem
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_QUERYCLOCKCALIBRATION structure"]
 f1_keywords:
  - "d3dkmdt/_D3DKMT_QUERYCLOCKCALIBRATION"
+ - "_D3DKMT_QUERYCLOCKCALIBRATION"
 ms.keywords: _D3DKMT_QUERYCLOCKCALIBRATION, D3DKMT_QUERYCLOCKCALIBRATION, 
 req.header: d3dkmdt.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - d3dkmdt.h
 api_name: 
 - _D3DKMT_QUERYCLOCKCALIBRATION
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

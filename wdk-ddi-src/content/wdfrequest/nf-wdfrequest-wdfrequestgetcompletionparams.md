@@ -10,6 +10,7 @@ keywords: ["WdfRequestGetCompletionParams function"]
 ms.keywords: DFRequestObjectRef_032fe29a-4000-4d97-92fb-50462d2c1bea.xml, WdfRequestGetCompletionParams, WdfRequestGetCompletionParams method, kmdf.wdfrequestgetcompletionparams, wdf.wdfrequestgetcompletionparams, wdfrequest/WdfRequestGetCompletionParams
 f1_keywords:
  - "wdfrequest/WdfRequestGetCompletionParams"
+ - "WdfRequestGetCompletionParams"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfRequestGetCompletionParams
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

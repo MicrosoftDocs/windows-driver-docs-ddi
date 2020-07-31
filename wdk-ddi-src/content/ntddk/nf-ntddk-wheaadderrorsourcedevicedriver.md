@@ -10,6 +10,7 @@ ms.date: 04/01/2020
 keywords: ["WheaAddErrorSourceDeviceDriver function"]
 f1_keywords:
  - "ntddk/WheaAddErrorSourceDeviceDriver"
+ - "WheaAddErrorSourceDeviceDriver"
 ms.keywords: WheaAddErrorSourceDeviceDriver
 req.header: ntddk.h
 req.include-header:

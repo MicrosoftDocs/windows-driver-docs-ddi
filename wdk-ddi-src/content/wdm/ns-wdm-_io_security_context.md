@@ -10,6 +10,7 @@ keywords: ["_IO_SECURITY_CONTEXT structure"]
 ms.keywords: "*PIO_SECURITY_CONTEXT, IO_SECURITY_CONTEXT, IO_SECURITY_CONTEXT structure [Kernel-Mode Driver Architecture], PIO_SECURITY_CONTEXT, PIO_SECURITY_CONTEXT structure pointer [Kernel-Mode Driver Architecture], _IO_SECURITY_CONTEXT, kernel.io_security_context, kstruct_b_2c3ede84-cdd5-4e78-99b9-5ff642463f85.xml, wdm/IO_SECURITY_CONTEXT, wdm/PIO_SECURITY_CONTEXT"
 f1_keywords:
  - "wdm/IO_SECURITY_CONTEXT"
+ - "IO_SECURITY_CONTEXT"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - IO_SECURITY_CONTEXT
-product:
-- Windows
 targetos: Windows
 req.typenames: IO_SECURITY_CONTEXT, *PIO_SECURITY_CONTEXT
 ---

@@ -10,6 +10,7 @@ keywords: ["IWDFUsbTargetDevice interface"]
 ms.keywords: IWDFUsbTargetDevice, IWDFUsbTargetDevice interface, IWDFUsbTargetDevice interface,described, UMDFUSBref_4ff51830-55c1-4e2c-b095-8ca88bd2e56f.xml, umdf.iwdfusbtargetdevice, wdf.iwdfusbtargetdevice, wudfusb/IWDFUsbTargetDevice
 f1_keywords:
  - "wudfusb/IWDFUsbTargetDevice"
+ - "IWDFUsbTargetDevice"
 req.header: wudfusb.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFUsbTargetDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

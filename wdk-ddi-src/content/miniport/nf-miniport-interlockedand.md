@@ -10,6 +10,7 @@ keywords: ["InterlockedAnd function"]
 ms.keywords: InterlockedAnd, InterlockedAnd function [Kernel-Mode Driver Architecture], k102_839df216-b391-436b-9e33-d60dfbb5dbe9.xml, kernel.interlockedand, wdm/InterlockedAnd
 f1_keywords:
  - "miniport/InterlockedAnd"
+ - "InterlockedAnd"
 req.header: miniport.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Miniport.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - InterlockedAnd
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -8,6 +8,7 @@ ms.date: 09/30/2018
 keywords: ["_UCMUCSI_PPM_IOCTL enumeration"]
 f1_keywords:
  - "ucmucsippmrequests/_UCMUCSI_PPM_IOCTL"
+ - "_UCMUCSI_PPM_IOCTL"
 ms.keywords: _UCMUCSI_PPM_IOCTL, UCMUCSI_PPM_IOCTL, 
 req.header: ucmucsippmrequests.h
 req.include-header: UcmUcsiCx.h
@@ -27,8 +28,6 @@ api_location:
 - ucmucsippmrequests.h
 api_name: 
 - _UCMUCSI_PPM_IOCTL
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

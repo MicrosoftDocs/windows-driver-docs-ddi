@@ -10,6 +10,7 @@ keywords: ["WdfCollectionAdd function"]
 ms.keywords: DFCollectionObjectRef_76895387-58f4-46fc-b5d0-244408fe57b9.xml, WdfCollectionAdd, WdfCollectionAdd method, kmdf.wdfcollectionadd, wdf.wdfcollectionadd, wdfcollection/WdfCollectionAdd
 f1_keywords:
  - "wdfcollection/WdfCollectionAdd"
+ - "WdfCollectionAdd"
 req.header: wdfcollection.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfCollectionAdd
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

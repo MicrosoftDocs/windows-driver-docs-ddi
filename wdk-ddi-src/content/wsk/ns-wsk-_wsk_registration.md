@@ -10,6 +10,7 @@ keywords: ["_WSK_REGISTRATION structure"]
 ms.keywords: "*PWSK_REGISTRATION, PWSK_REGISTRATION, PWSK_REGISTRATION structure pointer [Network Drivers Starting with Windows Vista], WSK_REGISTRATION, WSK_REGISTRATION structure [Network Drivers Starting with Windows Vista], _WSK_REGISTRATION, netvista.wsk_registration, wsk/PWSK_REGISTRATION, wsk/WSK_REGISTRATION, wskref_1ad5b68d-5a86-476c-aa04-0f11db552a01.xml"
 f1_keywords:
  - "wsk/WSK_REGISTRATION"
+ - "WSK_REGISTRATION"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wsk.h
 api_name:
 - WSK_REGISTRATION
-product:
-- Windows
 targetos: Windows
 req.typenames: WSK_REGISTRATION, *PWSK_REGISTRATION
 ---

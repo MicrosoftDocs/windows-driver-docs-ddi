@@ -10,6 +10,7 @@ keywords: ["_WWAN_GET_VISIBLE_PROVIDERS structure"]
 ms.keywords: "*PWWAN_GET_VISIBLE_PROVIDERS, PWWAN_GET_VISIBLE_PROVIDERS, PWWAN_GET_VISIBLE_PROVIDERS structure pointer [Network Drivers Starting with Windows Vista], WWAN_GET_VISIBLE_PROVIDERS, WWAN_GET_VISIBLE_PROVIDERS structure [Network Drivers Starting with Windows Vista], _WWAN_GET_VISIBLE_PROVIDERS, netvista.wwan_get_visible_providers, wwan/PWWAN_GET_VISIBLE_PROVIDERS, wwan/WWAN_GET_VISIBLE_PROVIDERS"
 f1_keywords:
  - "wwan/WWAN_GET_VISIBLE_PROVIDERS"
+ - "WWAN_GET_VISIBLE_PROVIDERS"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_GET_VISIBLE_PROVIDERS
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_GET_VISIBLE_PROVIDERS, *PWWAN_GET_VISIBLE_PROVIDERS
 ---

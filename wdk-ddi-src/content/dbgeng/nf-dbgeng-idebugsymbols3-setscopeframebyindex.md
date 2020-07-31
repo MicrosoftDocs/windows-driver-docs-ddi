@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::SetScopeFrameByIndex"]
 ms.keywords: IDebugSymbols3 interface [Windows Debugging],SetScopeFrameByIndex method, IDebugSymbols3.SetScopeFrameByIndex, IDebugSymbols3::SetScopeFrameByIndex, IDebugSymbols_451c9980-0e6c-4661-bdb6-396c45cc57dd.xml, SetScopeFrameByIndex, SetScopeFrameByIndex method [Windows Debugging], SetScopeFrameByIndex method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols3::SetScopeFrameByIndex, debugger.setscopeframebyindex
 f1_keywords:
  - "dbgeng/IDebugSymbols3.SetScopeFrameByIndex"
+ - "IDebugSymbols3.SetScopeFrameByIndex"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugSymbols3.SetScopeFrameByIndex
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

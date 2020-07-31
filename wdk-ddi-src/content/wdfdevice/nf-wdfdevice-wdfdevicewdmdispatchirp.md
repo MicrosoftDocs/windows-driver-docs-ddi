@@ -10,6 +10,7 @@ keywords: ["WdfDeviceWdmDispatchIrp function"]
 ms.keywords: WdfDeviceWdmDispatchIrp, WdfDeviceWdmDispatchIrp method, kmdf.wdfdevicewdmdispatchirp, wdf.wdfdevicewdmdispatchirp, wdfdevice/WdfDeviceWdmDispatchIrp
 f1_keywords:
  - "wdfdevice/WdfDeviceWdmDispatchIrp"
+ - "WdfDeviceWdmDispatchIrp"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfDeviceWdmDispatchIrp
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

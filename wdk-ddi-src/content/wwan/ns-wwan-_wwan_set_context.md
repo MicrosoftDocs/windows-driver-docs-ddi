@@ -10,6 +10,7 @@ keywords: ["_WWAN_SET_CONTEXT structure"]
 ms.keywords: "*PWWAN_SET_CONTEXT, PWWAN_SET_CONTEXT, PWWAN_SET_CONTEXT structure pointer [Network Drivers Starting with Windows Vista], WWAN_SET_CONTEXT, WWAN_SET_CONTEXT structure [Network Drivers Starting with Windows Vista], WwanRef_08361ced-712a-464d-b374-7b18a096b8e5.xml, _WWAN_SET_CONTEXT, netvista.wwan_set_context, wwan/PWWAN_SET_CONTEXT, wwan/WWAN_SET_CONTEXT"
 f1_keywords:
  - "wwan/WWAN_SET_CONTEXT"
+ - "WWAN_SET_CONTEXT"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_SET_CONTEXT
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_SET_CONTEXT, *PWWAN_SET_CONTEXT
 ---

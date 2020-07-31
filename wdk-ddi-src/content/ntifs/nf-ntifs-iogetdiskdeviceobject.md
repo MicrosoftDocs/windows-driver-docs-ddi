@@ -10,6 +10,7 @@ keywords: ["IoGetDiskDeviceObject function"]
 ms.keywords: IoGetDiskDeviceObject, IoGetDiskDeviceObject routine [Installable File System Drivers], ifsk.iogetdiskdeviceobject, ioref_b3532bdd-87b6-4e6b-91a0-093b8ed5aa6c.xml, ntifs/IoGetDiskDeviceObject
 f1_keywords:
  - "ntifs/IoGetDiskDeviceObject"
+ - "IoGetDiskDeviceObject"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoGetDiskDeviceObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

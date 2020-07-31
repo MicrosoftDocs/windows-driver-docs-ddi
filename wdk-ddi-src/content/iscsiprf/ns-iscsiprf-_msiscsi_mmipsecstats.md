@@ -10,6 +10,7 @@ keywords: ["_MSiSCSI_MMIPSECStats structure"]
 ms.keywords: "*PMSiSCSI_MMIPSECStats, MSiSCSI_MMIPSECStats, MSiSCSI_MMIPSECStats structure [Storage Devices], PMSiSCSI_MMIPSECStats, PMSiSCSI_MMIPSECStats structure pointer [Storage Devices], _MSiSCSI_MMIPSECStats, iscsiprf/MSiSCSI_MMIPSECStats, iscsiprf/PMSiSCSI_MMIPSECStats, storage.msiscsi_mmipsecstats, structs-iSCSI_6edce57f-fce5-422a-a98f-049cc6418514.xml"
 f1_keywords:
  - "iscsiprf/MSiSCSI_MMIPSECStats"
+ - "MSiSCSI_MMIPSECStats"
 req.header: iscsiprf.h
 req.include-header: Iscsiprf.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - iscsiprf.h
 api_name:
 - MSiSCSI_MMIPSECStats
-product:
-- Windows
 targetos: Windows
 req.typenames: MSiSCSI_MMIPSECStats, *PMSiSCSI_MMIPSECStats
 ---

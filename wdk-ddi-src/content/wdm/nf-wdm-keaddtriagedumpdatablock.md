@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["KeAddTriageDumpDataBlock function"]
 f1_keywords:
  - "wdm/KeAddTriageDumpDataBlock"
+ - "KeAddTriageDumpDataBlock"
 ms.keywords: KeAddTriageDumpDataBlock
 req.header: wdm.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - NtosKrnl.exe
 api_name: 
 - KeAddTriageDumpDataBlock
-product:
-- Windows
 targetos: Windows
 
 ms.custom: 19H1

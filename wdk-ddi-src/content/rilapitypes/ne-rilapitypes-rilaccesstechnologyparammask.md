@@ -10,6 +10,7 @@ keywords: ["RILACCESSTECHNOLOGYPARAMMASK enumeration"]
 ms.keywords: RILACCESSTECHNOLOGYPARAMMASK, RILACCESSTECHNOLOGYPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_ACCTECH_ALL, RIL_PARAM_ACCTECH_SYSTEMKIND, netvista.rilaccesstechnologyparammask, ntddrilapitypes/RILACCESSTECHNOLOGYPARAMMASK, ntddrilapitypes/RIL_PARAM_ACCTECH_ALL, ntddrilapitypes/RIL_PARAM_ACCTECH_SYSTEMKIND
 f1_keywords:
  - "rilapitypes/RILACCESSTECHNOLOGYPARAMMASK"
+ - "RILACCESSTECHNOLOGYPARAMMASK"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILACCESSTECHNOLOGYPARAMMASK
-product:
-- Windows
 targetos: Windows
 req.typenames: RILACCESSTECHNOLOGYPARAMMASK
 ---

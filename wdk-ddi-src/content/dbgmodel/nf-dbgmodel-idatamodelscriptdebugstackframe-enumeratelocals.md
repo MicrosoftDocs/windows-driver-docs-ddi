@@ -7,6 +7,7 @@ ms.date: 09/10/2018
 keywords: ["IDataModelScriptDebugStackFrame::EnumerateLocals"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebugStackFrame.EnumerateLocals"
+ - "IDataModelScriptDebugStackFrame.EnumerateLocals"
 ms.keywords: IDataModelScriptDebugStackFrame::EnumerateLocals, EnumerateLocals, IDataModelScriptDebugStackFrame.EnumerateLocals, IDataModelScriptDebugStackFrame::EnumerateLocals, IDataModelScriptDebugStackFrame.EnumerateLocals
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDataModelScriptDebugStackFrame.EnumerateLocals
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

@@ -10,6 +10,7 @@ keywords: ["WdfDevStateNormalize function"]
 ms.keywords: DFDeviceObjectGeneralRef_24d4e166-f4b0-4696-b775-62d0df565a8a.xml, WdfDevStateNormalize, WdfDevStateNormalize method, kmdf.wdfdevstatenormalize, wdf.wdfdevstatenormalize, wdfdevice/WdfDevStateNormalize
 f1_keywords:
  - "wdfdevice/WdfDevStateNormalize"
+ - "WdfDevStateNormalize"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfDevStateNormalize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

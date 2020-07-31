@@ -10,6 +10,7 @@ keywords: ["PsReferenceImpersonationToken function"]
 ms.keywords: PsReferenceImpersonationToken, PsReferenceImpersonationToken routine [Installable File System Drivers], ifsk.psreferenceimpersonationtoken, ntifs/PsReferenceImpersonationToken, psref_150f4e7c-56c2-4108-b5c9-0882f9027252.xml
 f1_keywords:
  - "ntifs/PsReferenceImpersonationToken"
+ - "PsReferenceImpersonationToken"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - PsReferenceImpersonationToken
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["RIL3GPP2TONE enumeration"]
 ms.keywords: RIL3GPP2TONE, RIL3GPP2TONE enumeration [Network Drivers Starting with Windows Vista], RIL_3GPP2TONE_ABRVINTERCEPT, RIL_3GPP2TONE_ABRVREORDER, RIL_3GPP2TONE_ANSWER, RIL_3GPP2TONE_BUSY, RIL_3GPP2TONE_CALLWAITING, RIL_3GPP2TONE_CONFIRM, RIL_3GPP2TONE_DIAL, RIL_3GPP2TONE_INTERCEPT, RIL_3GPP2TONE_MAX, RIL_3GPP2TONE_PIP, RIL_3GPP2TONE_REORDER, RIL_3GPP2TONE_RINGBACK, netvista.ril3gpp2tone, ntddrilapitypes/RIL3GPP2TONE, ntddrilapitypes/RIL_3GPP2TONE_ABRVINTERCEPT, ntddrilapitypes/RIL_3GPP2TONE_ABRVREORDER, ntddrilapitypes/RIL_3GPP2TONE_ANSWER, ntddrilapitypes/RIL_3GPP2TONE_BUSY, ntddrilapitypes/RIL_3GPP2TONE_CALLWAITING, ntddrilapitypes/RIL_3GPP2TONE_CONFIRM, ntddrilapitypes/RIL_3GPP2TONE_DIAL, ntddrilapitypes/RIL_3GPP2TONE_INTERCEPT, ntddrilapitypes/RIL_3GPP2TONE_MAX, ntddrilapitypes/RIL_3GPP2TONE_PIP, ntddrilapitypes/RIL_3GPP2TONE_REORDER, ntddrilapitypes/RIL_3GPP2TONE_RINGBACK
 f1_keywords:
  - "ntddrilapitypes/RIL3GPP2TONE"
+ - "RIL3GPP2TONE"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RIL3GPP2TONE
-product:
-- Windows
 targetos: Windows
 req.typenames: RIL3GPP2TONE
 ---

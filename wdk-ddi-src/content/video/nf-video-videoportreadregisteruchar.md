@@ -10,6 +10,7 @@ keywords: ["VideoPortReadRegisterUchar function"]
 ms.keywords: VideoPortReadRegisterUchar, VideoPortReadRegisterUchar function [Display Devices], VideoPort_Functions_c8fea131-5f84-4f77-ab18-2ca8de12e598.xml, display.videoportreadregisteruchar, video/VideoPortReadRegisterUchar
 f1_keywords:
  - "video/VideoPortReadRegisterUchar"
+ - "VideoPortReadRegisterUchar"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Videoprt.sys
 api_name:
 - VideoPortReadRegisterUchar
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

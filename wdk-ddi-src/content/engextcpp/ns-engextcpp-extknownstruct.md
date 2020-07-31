@@ -10,6 +10,7 @@ keywords: ["ExtKnownStruct structure"]
 ms.keywords: EngExtCpp_Ref_b59346d2-06da-4112-9bed-ce64de0f2807.xml, ExtKnownStruct, ExtKnownStruct structure [Windows Debugging], debugger.extknownstruct, engextcpp/ExtKnownStruct
 f1_keywords:
  - "engextcpp/ExtKnownStruct"
+ - "ExtKnownStruct"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Engextcpp.hpp
 api_name:
 - ExtKnownStruct
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

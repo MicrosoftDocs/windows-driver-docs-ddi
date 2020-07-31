@@ -10,6 +10,7 @@ keywords: ["KsSetDevicePnpAndBaseObject function"]
 ms.keywords: KsSetDevicePnpAndBaseObject, KsSetDevicePnpAndBaseObject function [Streaming Media Devices], ks/KsSetDevicePnpAndBaseObject, ksfunc_eff06a34-a458-4426-972c-6a0fbf0f7846.xml, stream.kssetdevicepnpandbaseobject
 f1_keywords:
  - "ks/KsSetDevicePnpAndBaseObject"
+ - "KsSetDevicePnpAndBaseObject"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsSetDevicePnpAndBaseObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

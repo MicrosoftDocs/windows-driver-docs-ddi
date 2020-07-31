@@ -10,6 +10,7 @@ keywords: ["RIL_WriteAdditionalNumberString function"]
 ms.keywords: RIL_WriteAdditionalNumberString, RIL_WriteAdditionalNumberString method [Network Drivers Starting with Windows Vista], netvista.ril_writeadditionalnumberstring, rilapi/RIL_WriteAdditionalNumberString
 f1_keywords:
  - "rilapi/RIL_WriteAdditionalNumberString"
+ - "RIL_WriteAdditionalNumberString"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_WriteAdditionalNumberString
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["XcvDataPort function"]
 ms.keywords: print.xcvdataport, winsplp/XcvDataPort, XcvDataPort, spoolfnc_09b26a0a-26ad-43c9-995a-99cd4fb4a726.xml, XcvDataPort function [Print Devices]
 f1_keywords:
  - "winsplp/XcvDataPort"
+ - "XcvDataPort"
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - winsplp.h
 api_name:
 - XcvDataPort
-product:
-- Windows
 targetos: Windows
 req.typenames: NOTIFICATION_CONFIG_FLAGS
 req.product: Windows 10 or later.

@@ -10,6 +10,7 @@ keywords: ["ExtExtension::OnSessionAccessible"]
 ms.keywords: EngExtCpp_Ref_88df5a39-051b-4d84-840e-8caf5414a0e6.xml, ExtExtension class [Windows Debugging],OnSessionAccessible method, ExtExtension.OnSessionAccessible, ExtExtension::OnSessionAccessible, OnSessionAccessible, OnSessionAccessible method [Windows Debugging], OnSessionAccessible method [Windows Debugging],ExtExtension class, debugger.onsessionaccessible
 f1_keywords:
  - "engextcpp/ExtExtension.OnSessionAccessible"
+ - "ExtExtension.OnSessionAccessible"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Engextcpp.hpp
 api_name:
 - ExtExtension.OnSessionAccessible
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

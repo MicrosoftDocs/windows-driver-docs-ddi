@@ -10,6 +10,7 @@ keywords: ["IWiaDrvItem::GetDeviceSpecContext"]
 ms.keywords: DrvItem_c9edf09c-212c-456c-9eb2-c6c87adf59f3.xml, GetDeviceSpecContext, GetDeviceSpecContext method [Imaging Devices], GetDeviceSpecContext method [Imaging Devices],IWiaDrvItem interface, IWiaDrvItem interface [Imaging Devices],GetDeviceSpecContext method, IWiaDrvItem.GetDeviceSpecContext, IWiaDrvItem::GetDeviceSpecContext, image.iwiadrvitem_getdevicespeccontext, wiamindr_lh/IWiaDrvItem::GetDeviceSpecContext
 f1_keywords:
  - "wiamindr_lh/IWiaDrvItem.GetDeviceSpecContext"
+ - "IWiaDrvItem.GetDeviceSpecContext"
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wiamindr_lh.h
 api_name:
 - IWiaDrvItem.GetDeviceSpecContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

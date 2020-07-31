@@ -7,6 +7,7 @@ ms.date: 07/17/2018
 keywords: ["IDataModelManager::CreateTypedObject"]
 f1_keywords:
  - "dbgmodel/IDataModelManager.CreateTypedObject"
+ - "IDataModelManager.CreateTypedObject"
 ms.keywords: IDataModelManager::CreateTypedObject, CreateTypedObject, IDataModelManager.CreateTypedObject, IDataModelManager::CreateTypedObject, IDataModelManager.CreateTypedObject
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDataModelManager.CreateTypedObject
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

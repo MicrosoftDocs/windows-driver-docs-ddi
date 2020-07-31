@@ -8,6 +8,7 @@ ms.date: 10/19/2018
 keywords: ["_VIRTUAL_STORAGE_BEHAVIOR_CODE enumeration"]
 f1_keywords:
  - "ntifs/_VIRTUAL_STORAGE_BEHAVIOR_CODE"
+ - "_VIRTUAL_STORAGE_BEHAVIOR_CODE"
 ms.keywords: _VIRTUAL_STORAGE_BEHAVIOR_CODE, VIRTUAL_STORAGE_BEHAVIOR_CODE, *PVIRTUAL_STORAGE_BEHAVIOR_CODE, 
 req.header: ntifs.h
 req.include-header:
@@ -27,8 +28,6 @@ api_location:
 - ntifs.h
 api_name: 
 - _VIRTUAL_STORAGE_BEHAVIOR_CODE
-product:
-- Windows
 targetos: Windows
 ---
 

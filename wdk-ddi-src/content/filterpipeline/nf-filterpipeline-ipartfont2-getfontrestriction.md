@@ -10,6 +10,7 @@ keywords: ["IPartFont2::GetFontRestriction"]
 ms.keywords: GetFontRestriction, GetFontRestriction method [Print Devices], GetFontRestriction method [Print Devices],IPartFont2 interface, IPartFont2 interface [Print Devices],GetFontRestriction method, IPartFont2.GetFontRestriction, IPartFont2::GetFontRestriction, filterpipeline/IPartFont2::GetFontRestriction, print.ipartfont2_getfontrestriction
 f1_keywords:
  - "filterpipeline/IPartFont2.GetFontRestriction"
+ - "IPartFont2.GetFontRestriction"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Filterpipeline.h
 api_name:
 - IPartFont2.GetFontRestriction
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

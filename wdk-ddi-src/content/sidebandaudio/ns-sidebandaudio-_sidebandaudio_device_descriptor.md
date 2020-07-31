@@ -7,6 +7,7 @@ ms.date: 09/06/2018
 keywords: ["_SIDEBANDAUDIO_DEVICE_DESCRIPTOR structure"]
 f1_keywords:
  - "sidebandaudio/_SIDEBANDAUDIO_DEVICE_DESCRIPTOR"
+ - "_SIDEBANDAUDIO_DEVICE_DESCRIPTOR"
 ms.keywords: _SIDEBANDAUDIO_DEVICE_DESCRIPTOR, SIDEBANDAUDIO_DEVICE_DESCRIPTOR, *PSIDEBANDAUDIO_DEVICE_DESCRIPTOR, 
 req.header: sidebandaudio.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - sidebandaudio.h
 api_name: 
 - _SIDEBANDAUDIO_DEVICE_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 tech.root: audio
 ms.custom: RS5

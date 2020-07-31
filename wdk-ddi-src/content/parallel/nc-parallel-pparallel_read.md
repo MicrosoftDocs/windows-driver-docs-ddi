@@ -10,6 +10,7 @@ keywords: ["PPARALLEL_READ callback"]
 ms.keywords: PPARALLEL_READ, PPARALLEL_READ function pointer [Parallel Ports], cisspd_ae27b566-d561-4bc8-9519-fc3c35069791.xml, parallel/PPARALLEL_READ, parports.pparallel_read
 f1_keywords:
  - "parallel/PPARALLEL_READ"
+ - "PPARALLEL_READ"
 req.header: parallel.h
 req.include-header: Parallel.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - parallel.h
 api_name:
 - PPARALLEL_READ
-product:
-- Windows
 targetos: Windows
 req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ---

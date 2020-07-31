@@ -10,6 +10,7 @@ keywords: ["RILADDRESSPARAMMASK enumeration"]
 ms.keywords: RILADDRESSPARAMMASK, RILADDRESSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_A_ADDRESS, RIL_PARAM_A_ALL, RIL_PARAM_A_NUMPLAN, RIL_PARAM_A_TYPE, netvista.riladdressparammask_2, rilapitypes/RILADDRESSPARAMMASK, rilapitypes/RIL_PARAM_A_ADDRESS, rilapitypes/RIL_PARAM_A_ALL, rilapitypes/RIL_PARAM_A_NUMPLAN, rilapitypes/RIL_PARAM_A_TYPE
 f1_keywords:
  - "rilapitypes/RILADDRESSPARAMMASK"
+ - "RILADDRESSPARAMMASK"
 req.header: rilapitypes.h
 req.include-header:
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapitypes.h
 api_name:
 - RILADDRESSPARAMMASK
-product:
-- Windows
 targetos: Windows
 req.typenames: RILADDRESSPARAMMASK
 req.product: Windows 10 or later.

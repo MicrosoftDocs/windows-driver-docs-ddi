@@ -10,6 +10,7 @@ keywords: ["PDRIVER_IO_PORT_UCHAR_STRING callback function"]
 ms.keywords: PDRIVER_IO_PORT_UCHAR_STRING, PDRIVER_IO_PORT_UCHAR_STRING callback, SvgaHwIoPortUcharString, SvgaHwIoPortUcharString callback function [Display Devices], VideoMiniport_Functions_4008d0c6-1185-46fd-acb1-60a8ddd3b45b.xml, display.svgahwioportucharstring, video/SvgaHwIoPortUcharString
 f1_keywords:
  - "video/SvgaHwIoPortUcharString"
+ - "SvgaHwIoPortUcharString"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - video.h
 api_name:
 - SvgaHwIoPortUcharString
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

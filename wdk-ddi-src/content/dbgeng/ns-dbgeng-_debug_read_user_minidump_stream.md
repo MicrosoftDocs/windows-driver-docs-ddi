@@ -10,6 +10,7 @@ keywords: ["_DEBUG_READ_USER_MINIDUMP_STREAM structure"]
 ms.keywords: "*PDEBUG_READ_USER_MINIDUMP_STREAM, DEBUG_READ_USER_MINIDUMP_STREAM, DEBUG_READ_USER_MINIDUMP_STREAM structure [Windows Debugging], PDEBUG_READ_USER_MINIDUMP_STREAM, PDEBUG_READ_USER_MINIDUMP_STREAM structure pointer [Windows Debugging], _DEBUG_READ_USER_MINIDUMP_STREAM, dbgeng/DEBUG_READ_USER_MINIDUMP_STREAM, dbgeng/PDEBUG_READ_USER_MINIDUMP_STREAM, debugger.debug_read_user_minidump_stream"
 f1_keywords:
  - "dbgeng/DEBUG_READ_USER_MINIDUMP_STREAM"
+ - "DEBUG_READ_USER_MINIDUMP_STREAM"
 req.header: dbgeng.h
 req.include-header: DbgEng.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - DbgEng.h
 api_name:
 - DEBUG_READ_USER_MINIDUMP_STREAM
-product:
-- Windows
 targetos: Windows
 req.typenames: DEBUG_READ_USER_MINIDUMP_STREAM, *PDEBUG_READ_USER_MINIDUMP_STREAM
 ---

@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["_DXGK_WDDMDEVICECAPS structure"]
 f1_keywords:
  - "d3dkmddi/_DXGK_WDDMDEVICECAPS"
+ - "_DXGK_WDDMDEVICECAPS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: _DXGK_WDDMDEVICECAPS, DXGK_WDDMDEVICECAPS, 

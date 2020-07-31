@@ -10,6 +10,7 @@ keywords: ["RIL_ReadMsg function"]
 ms.keywords: RIL_ReadMsg, RIL_ReadMsg method [Network Drivers Starting with Windows Vista], netvista.ril_readmsg, rilapi/RIL_ReadMsg
 f1_keywords:
  - "rilapi/RIL_ReadMsg"
+ - "RIL_ReadMsg"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_ReadMsg
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

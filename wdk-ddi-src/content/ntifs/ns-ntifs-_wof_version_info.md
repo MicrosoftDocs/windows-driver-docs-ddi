@@ -10,6 +10,7 @@ keywords: ["_WOF_VERSION_INFO structure"]
 ms.keywords: "*PWOF_VERSION_INFO, PWOF_VERSION_INFO, PWOF_VERSION_INFO structure pointer [Installable File System Drivers], WOF_VERSION_INFO, WOF_VERSION_INFO structure [Installable File System Drivers], _WOF_VERSION_INFO, ifsk.wof_version_info, ntifs/PWOF_VERSION_INFO, ntifs/WOF_VERSION_INFO"
 f1_keywords:
  - "ntifs/WOF_VERSION_INFO"
+ - "WOF_VERSION_INFO"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntifs.h
 api_name:
 - WOF_VERSION_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: WOF_VERSION_INFO, *PWOF_VERSION_INFO
 ---

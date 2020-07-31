@@ -10,6 +10,7 @@ keywords: ["_REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION structure"]
 ms.keywords: "*PREG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION, PREG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION, PREG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION, REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], _REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION, kernel.reg_query_multiple_value_key_information, kstruct_d_b61ed5ad-3ac8-4db4-abe9-5670b4c8d997.xml, wdm/PREG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION, wdm/REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION"
 f1_keywords:
  - "wdm/REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION"
+ - "REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION, *PREG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION
 ---

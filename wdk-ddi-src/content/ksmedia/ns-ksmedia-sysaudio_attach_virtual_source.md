@@ -10,6 +10,7 @@ keywords: ["SYSAUDIO_ATTACH_VIRTUAL_SOURCE structure"]
 ms.keywords: "*PSYSAUDIO_ATTACH_VIRTUAL_SOURCE, PSYSAUDIO_ATTACH_VIRTUAL_SOURCE, PSYSAUDIO_ATTACH_VIRTUAL_SOURCE structure pointer [Audio Devices], SYSAUDIO_ATTACH_VIRTUAL_SOURCE, SYSAUDIO_ATTACH_VIRTUAL_SOURCE structure [Audio Devices], aud-prop_5fce938d-a784-46cf-a65b-3eb0d19db2f8.xml, audio.sysaudio_attach_virtual_source, ksmedia/PSYSAUDIO_ATTACH_VIRTUAL_SOURCE, ksmedia/SYSAUDIO_ATTACH_VIRTUAL_SOURCE"
 f1_keywords:
  - "ksmedia/SYSAUDIO_ATTACH_VIRTUAL_SOURCE"
+ - "SYSAUDIO_ATTACH_VIRTUAL_SOURCE"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - SYSAUDIO_ATTACH_VIRTUAL_SOURCE
-product:
-- Windows
 targetos: Windows
 req.typenames: SYSAUDIO_ATTACH_VIRTUAL_SOURCE, *PSYSAUDIO_ATTACH_VIRTUAL_SOURCE
 ---

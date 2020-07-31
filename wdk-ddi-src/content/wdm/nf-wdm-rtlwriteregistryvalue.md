@@ -10,6 +10,7 @@ keywords: ["RtlWriteRegistryValue function"]
 ms.keywords: RtlWriteRegistryValue, RtlWriteRegistryValue routine [Kernel-Mode Driver Architecture], k109_e0c16f81-5256-472b-9270-fe48d6a49893.xml, kernel.rtlwriteregistryvalue, wdm/RtlWriteRegistryValue
 f1_keywords:
  - "wdm/RtlWriteRegistryValue"
+ - "RtlWriteRegistryValue"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlWriteRegistryValue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

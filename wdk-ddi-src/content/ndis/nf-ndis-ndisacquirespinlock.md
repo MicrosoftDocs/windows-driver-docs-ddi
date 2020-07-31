@@ -10,6 +10,7 @@ keywords: ["NdisAcquireSpinLock macro"]
 ms.keywords: NdisAcquireSpinLock, NdisAcquireSpinLock macro [Network Drivers Starting with Windows Vista], ndis/NdisAcquireSpinLock, ndis_spin_lock_ref_54c55d32-a190-4454-ad0d-670427754b8b.xml, netvista.ndisacquirespinlock
 f1_keywords:
  - "ndis/NdisAcquireSpinLock"
+ - "NdisAcquireSpinLock"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisAcquireSpinLock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

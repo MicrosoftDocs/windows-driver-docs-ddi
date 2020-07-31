@@ -10,6 +10,7 @@ keywords: ["_NDIS_PROTOCOL_RESTART_PARAMETERS structure"]
 ms.keywords: "*PNDIS_PROTOCOL_RESTART_PARAMETERS, NDIS_PROTOCOL_RESTART_PARAMETERS, NDIS_PROTOCOL_RESTART_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_PROTOCOL_RESTART_PARAMETERS, PNDIS_PROTOCOL_RESTART_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PROTOCOL_RESTART_PARAMETERS, ndis/NDIS_PROTOCOL_RESTART_PARAMETERS, ndis/PNDIS_PROTOCOL_RESTART_PARAMETERS, netvista.ndis_protocol_restart_parameters, protocol_structures_ref_1a426da7-b2f9-49b0-9069-24ceddcd8ad1.xml"
 f1_keywords:
  - "ndis/NDIS_PROTOCOL_RESTART_PARAMETERS"
+ - "NDIS_PROTOCOL_RESTART_PARAMETERS"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NDIS_PROTOCOL_RESTART_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_PROTOCOL_RESTART_PARAMETERS, *PNDIS_PROTOCOL_RESTART_PARAMETERS
 ---

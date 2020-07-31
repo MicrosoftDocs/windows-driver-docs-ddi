@@ -10,6 +10,7 @@ keywords: ["IWDTFDriverSetupSystemAction2::WaitNoPendingInstallEvents"]
 ms.keywords: IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework],WaitNoPendingInstallEvents method, IWDTFDriverSetupSystemAction2.WaitNoPendingInstallEvents, IWDTFDriverSetupSystemAction2::WaitNoPendingInstallEvents, Microsoft.WDTF.IWDTFDriverSetupSystemAction2.WaitNoPendingInstallEvents, Microsoft::WDTF::IWDTFDriverSetupSystemAction2::WaitNoPendingInstallEvents, WaitNoPendingInstallEvents, WaitNoPendingInstallEvents method [Windows Device Testing Framework], WaitNoPendingInstallEvents method [Windows Device Testing Framework],IWDTFDriverSetupSystemAction2 interface, dtf.iwdtfdriversetupsystemaction2_waitnopendinginstallevents, wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2::WaitNoPendingInstallEvents
 f1_keywords:
  - "wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2.WaitNoPendingInstallEvents"
+ - "IWDTFDriverSetupSystemAction2.WaitNoPendingInstallEvents"
 req.header: wdtfdriversetupsystemaction.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WDTFDriverSetupSystemAction.Interop.dll
 api_name:
 - IWDTFDriverSetupSystemAction2.WaitNoPendingInstallEvents
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

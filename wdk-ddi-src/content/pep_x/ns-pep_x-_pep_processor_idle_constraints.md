@@ -10,6 +10,7 @@ keywords: ["_PEP_PROCESSOR_IDLE_CONSTRAINTS structure"]
 ms.keywords: "*PPEP_PROCESSOR_IDLE_CONSTRAINTS, PEP_PROCESSOR_IDLE_CONSTRAINTS, PEP_PROCESSOR_IDLE_CONSTRAINTS structure [Kernel-Mode Driver Architecture], PPEP_PROCESSOR_IDLE_CONSTRAINTS, PPEP_PROCESSOR_IDLE_CONSTRAINTS structure pointer [Kernel-Mode Driver Architecture], _PEP_PROCESSOR_IDLE_CONSTRAINTS, kernel.pep_processor_idle_constraints, pep_x/PEP_PROCESSOR_IDLE_CONSTRAINTS, pep_x/PPEP_PROCESSOR_IDLE_CONSTRAINTS"
 f1_keywords:
  - "pep_x/PEP_PROCESSOR_IDLE_CONSTRAINTS"
+ - "PEP_PROCESSOR_IDLE_CONSTRAINTS"
 req.header: pep_x.h
 req.include-header: Pepfx.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pep_x.h
 api_name:
 - PEP_PROCESSOR_IDLE_CONSTRAINTS
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_PROCESSOR_IDLE_CONSTRAINTS, *PPEP_PROCESSOR_IDLE_CONSTRAINTS
 ---

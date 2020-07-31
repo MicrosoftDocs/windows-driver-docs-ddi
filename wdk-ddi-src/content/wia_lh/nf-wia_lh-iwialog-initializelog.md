@@ -10,6 +10,7 @@ keywords: ["IWiaLog::InitializeLog"]
 ms.keywords: IWiaLog interface [Imaging Devices],InitializeLog method, IWiaLog.InitializeLog, IWiaLog::InitializeLog, IWiaLog_17cc24cb-d8dd-4f7c-b5d4-6720621b6534.xml, InitializeLog, InitializeLog method [Imaging Devices], InitializeLog method [Imaging Devices],IWiaLog interface, image.iwialog_initializelog, wia_lh/IWiaLog::InitializeLog
 f1_keywords:
  - "wia_lh/IWiaLog.InitializeLog"
+ - "IWiaLog.InitializeLog"
 req.header: wia_lh.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wia_lh.h
 api_name:
 - IWiaLog.InitializeLog
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

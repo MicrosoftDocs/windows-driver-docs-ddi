@@ -10,6 +10,7 @@ keywords: ["tagTRANSPORTVIDEOPARMS structure"]
 ms.keywords: "*PTRANSPORTVIDEOPARMS, PTRANSPORTVIDEOPARMS, PTRANSPORTVIDEOPARMS structure pointer [Streaming Media Devices], TRANSPORTVIDEOPARMS, TRANSPORTVIDEOPARMS structure [Streaming Media Devices], ksmedia/PTRANSPORTVIDEOPARMS, ksmedia/TRANSPORTVIDEOPARMS, stream.transportvideoparms, tagTRANSPORTVIDEOPARMS, vidcapstruct_6438f7be-abd8-4d45-969d-6f80e7833216.xml"
 f1_keywords:
  - "ksmedia/TRANSPORTVIDEOPARMS"
+ - "TRANSPORTVIDEOPARMS"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - TRANSPORTVIDEOPARMS
-product:
-- Windows
 targetos: Windows
 req.typenames: TRANSPORTVIDEOPARMS, *PTRANSPORTVIDEOPARMS
 ---

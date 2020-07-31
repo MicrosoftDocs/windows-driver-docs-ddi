@@ -10,6 +10,7 @@ keywords: ["UsbBuildGetStatusRequest macro"]
 ms.keywords: UsbBuildGetStatusRequest, UsbBuildGetStatusRequest routine [Buses], buses.usbbuildgetstatusrequest, usbdlib/UsbBuildGetStatusRequest, usbfunc_a99bf737-8bb6-4000-af2b-ac076a4ffc8e.xml
 f1_keywords:
  - "usbdlib/UsbBuildGetStatusRequest"
+ - "UsbBuildGetStatusRequest"
 req.header: usbdlib.h
 req.include-header: Usbdlib.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - usbdlib.h
 api_name:
 - UsbBuildGetStatusRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

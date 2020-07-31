@@ -7,6 +7,7 @@ ms.date: 07/13/2018
 keywords: ["IDebugHostConstant interface"]
 f1_keywords:
  - "dbgmodel/IDebugHostConstant"
+ - "IDebugHostConstant"
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -28,8 +29,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostConstant
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

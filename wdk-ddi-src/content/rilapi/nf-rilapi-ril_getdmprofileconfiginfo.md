@@ -10,6 +10,7 @@ keywords: ["RIL_GetDMProfileConfigInfo function"]
 ms.keywords: RIL_GetDMProfileConfigInfo, RIL_GetDMProfileConfigInfo method [Network Drivers Starting with Windows Vista], netvista.ril_getdmprofileconfiginfo, rilapi/RIL_GetDMProfileConfigInfo
 f1_keywords:
  - "rilapi/RIL_GetDMProfileConfigInfo"
+ - "RIL_GetDMProfileConfigInfo"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_GetDMProfileConfigInfo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

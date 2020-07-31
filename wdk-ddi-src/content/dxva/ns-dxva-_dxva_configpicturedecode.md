@@ -10,6 +10,7 @@ keywords: ["_DXVA_ConfigPictureDecode structure"]
 ms.keywords: "*LPDXVA_ConfigPictureDecode, DXVA_ConfigPictureDecode, DXVA_ConfigPictureDecode structure [Display Devices], LPDXVA_ConfigPictureDecode, LPDXVA_ConfigPictureDecode structure pointer [Display Devices], _DXVA_ConfigPictureDecode, display.dxva_configpicturedecode, dxva/DXVA_ConfigPictureDecode, dxva/LPDXVA_ConfigPictureDecode, dxvaref_857a5bfe-282a-49c2-8db6-a0fde8e26a61.xml"
 f1_keywords:
  - "dxva/DXVA_ConfigPictureDecode"
+ - "DXVA_ConfigPictureDecode"
 req.header: dxva.h
 req.include-header: Dxva.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dxva.h
 api_name:
 - DXVA_ConfigPictureDecode
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVA_ConfigPictureDecode, *LPDXVA_ConfigPictureDecode
 ---

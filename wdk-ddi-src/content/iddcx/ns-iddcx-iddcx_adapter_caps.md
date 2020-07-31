@@ -10,6 +10,7 @@ keywords: ["IDDCX_ADAPTER_CAPS structure"]
 ms.keywords: IDDCX_ADAPTER_CAPS, IDDCX_ADAPTER_CAPS structure [Display Devices], display.iddcx_adapter_caps, iddcx/IDDCX_ADAPTER_CAPS
 f1_keywords:
  - "iddcx/IDDCX_ADAPTER_CAPS"
+ - "IDDCX_ADAPTER_CAPS"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - iddcx.h
 api_name:
 - IDDCX_ADAPTER_CAPS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

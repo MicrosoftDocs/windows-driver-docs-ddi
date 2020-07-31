@@ -10,6 +10,7 @@ keywords: ["IoDetachDevice function"]
 ms.keywords: IoDetachDevice, IoDetachDevice routine [Kernel-Mode Driver Architecture], k104_e928372b-1222-4421-bea7-c2457c38a09f.xml, kernel.iodetachdevice, wdm/IoDetachDevice
 f1_keywords:
  - "wdm/IoDetachDevice"
+ - "IoDetachDevice"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoDetachDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

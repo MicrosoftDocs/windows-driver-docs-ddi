@@ -10,6 +10,7 @@ keywords: ["RILEQUIPMENTSTATE enumeration"]
 ms.keywords: RILEQUIPMENTSTATE, RILEQUIPMENTSTATE enumeration [Network Drivers Starting with Windows Vista], RIL_EQSTATE_FULL, RIL_EQSTATE_MAX, RIL_EQSTATE_SHUTDOWN, netvista.rilequipmentstate, ntddrilapitypes/RILEQUIPMENTSTATE, ntddrilapitypes/RIL_EQSTATE_FULL, ntddrilapitypes/RIL_EQSTATE_MAX, ntddrilapitypes/RIL_EQSTATE_SHUTDOWN
 f1_keywords:
  - "rilapitypes/RILEQUIPMENTSTATE"
+ - "RILEQUIPMENTSTATE"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILEQUIPMENTSTATE
-product:
-- Windows
 targetos: Windows
 req.typenames: RILEQUIPMENTSTATE
 ---

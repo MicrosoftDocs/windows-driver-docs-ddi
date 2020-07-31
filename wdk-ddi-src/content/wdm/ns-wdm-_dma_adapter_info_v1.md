@@ -10,6 +10,7 @@ keywords: ["_DMA_ADAPTER_INFO_V1 structure"]
 ms.keywords: "*PDMA_ADAPTER_INFO_V1, DMA_ADAPTER_INFO_V1, DMA_ADAPTER_INFO_V1 structure [Kernel-Mode Driver Architecture], PDMA_ADAPTER_INFO_V1, PDMA_ADAPTER_INFO_V1 structure pointer [Kernel-Mode Driver Architecture], _DMA_ADAPTER_INFO_V1, kernel.dma_adapter_info_v1, wdm/DMA_ADAPTER_INFO_V1, wdm/PDMA_ADAPTER_INFO_V1"
 f1_keywords:
  - "wdm/DMA_ADAPTER_INFO_V1"
+ - "DMA_ADAPTER_INFO_V1"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - DMA_ADAPTER_INFO_V1
-product:
-- Windows
 targetos: Windows
 req.typenames: DMA_ADAPTER_INFO_V1, *PDMA_ADAPTER_INFO_V1
 ---

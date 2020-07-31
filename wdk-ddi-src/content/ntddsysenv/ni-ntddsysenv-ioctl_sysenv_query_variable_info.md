@@ -10,6 +10,7 @@ keywords: ["IOCTL_SYSENV_QUERY_VARIABLE_INFO IOCTL"]
 ms.keywords: IOCTL_SYSENV_QUERY_VARIABLE_INFO, IOCTL_SYSENV_QUERY_VARIABLE_INFO control, IOCTL_SYSENV_QUERY_VARIABLE_INFO control code [Kernel-Mode Driver Architecture], kernel.ioctl_ioctl_sysenv_query_variable_info, ntddsysenv/IOCTL_SYSENV_QUERY_VARIABLE_INFO
 f1_keywords:
  - "ntddsysenv/IOCTL_SYSENV_QUERY_VARIABLE_INFO"
+ - "IOCTL_SYSENV_QUERY_VARIABLE_INFO"
 req.header: ntddsysenv.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddsysenv.h
 api_name:
 - IOCTL_SYSENV_QUERY_VARIABLE_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

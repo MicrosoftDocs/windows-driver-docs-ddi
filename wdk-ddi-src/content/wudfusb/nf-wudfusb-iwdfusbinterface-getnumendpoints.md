@@ -10,6 +10,7 @@ keywords: ["IWDFUsbInterface::GetNumEndPoints"]
 ms.keywords: GetNumEndPoints, GetNumEndPoints method, GetNumEndPoints method,IWDFUsbInterface interface, IWDFUsbInterface interface,GetNumEndPoints method, IWDFUsbInterface.GetNumEndPoints, IWDFUsbInterface::GetNumEndPoints, UMDFUSBref_ae1352c4-217e-49fd-9275-6c80103af753.xml, umdf.iwdfusbinterface_getnumendpoints, wdf.iwdfusbinterface_getnumendpoints, wudfusb/IWDFUsbInterface::GetNumEndPoints
 f1_keywords:
  - "wudfusb/IWDFUsbInterface.GetNumEndPoints"
+ - "IWDFUsbInterface.GetNumEndPoints"
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFUsbInterface.GetNumEndPoints
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

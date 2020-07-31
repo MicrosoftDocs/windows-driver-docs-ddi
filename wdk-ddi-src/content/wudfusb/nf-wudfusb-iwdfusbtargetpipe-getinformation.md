@@ -10,6 +10,7 @@ keywords: ["IWDFUsbTargetPipe::GetInformation"]
 ms.keywords: GetInformation, GetInformation method, GetInformation method,IWDFUsbTargetPipe interface, IWDFUsbTargetPipe interface,GetInformation method, IWDFUsbTargetPipe.GetInformation, IWDFUsbTargetPipe::GetInformation, UMDFUSBref_4d7b2b77-fa26-45e2-8f3f-e0315d70f937.xml, umdf.iwdfusbtargetpipe_getinformation, wdf.iwdfusbtargetpipe_getinformation, wudfusb/IWDFUsbTargetPipe::GetInformation
 f1_keywords:
  - "wudfusb/IWDFUsbTargetPipe.GetInformation"
+ - "IWDFUsbTargetPipe.GetInformation"
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFUsbTargetPipe.GetInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

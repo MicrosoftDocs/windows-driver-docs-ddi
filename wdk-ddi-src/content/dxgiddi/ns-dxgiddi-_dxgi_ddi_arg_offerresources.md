@@ -10,6 +10,7 @@ keywords: ["_DXGI_DDI_ARG_OFFERRESOURCES structure"]
 ms.keywords: DXGI_DDI_ARG_OFFERRESOURCES, DXGI_DDI_ARG_OFFERRESOURCES structure [Display Devices], _DXGI_DDI_ARG_OFFERRESOURCES, display.dxgi_ddi_arg_offerresources, dxgiddi/DXGI_DDI_ARG_OFFERRESOURCES
 f1_keywords:
  - "dxgiddi/DXGI_DDI_ARG_OFFERRESOURCES"
+ - "DXGI_DDI_ARG_OFFERRESOURCES"
 req.header: dxgiddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Dxgiddi.h
 api_name:
 - DXGI_DDI_ARG_OFFERRESOURCES
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGI_DDI_ARG_OFFERRESOURCES
 ---

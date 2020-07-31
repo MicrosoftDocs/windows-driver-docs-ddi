@@ -10,6 +10,7 @@ keywords: ["IPrintOemUIMXDC::AdjustImageCompression"]
 ms.keywords: AdjustImageCompression, AdjustImageCompression method [Print Devices], AdjustImageCompression method [Print Devices],IPrintOemUIMXDC interface, IPrintOemUIMXDC interface [Print Devices],AdjustImageCompression method, IPrintOemUIMXDC.AdjustImageCompression, IPrintOemUIMXDC::AdjustImageCompression, prcomoem/IPrintOemUIMXDC::AdjustImageCompression, print.iprintoemuimxdc_adjustimagecompression, print_unidrv-pscript_ui_a4a6182b-9471-473a-9c16-15f56dcddda5.xml
 f1_keywords:
  - "prcomoem/IPrintOemUIMXDC.AdjustImageCompression"
+ - "IPrintOemUIMXDC.AdjustImageCompression"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - prcomoem.h
 api_name:
 - IPrintOemUIMXDC.AdjustImageCompression
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

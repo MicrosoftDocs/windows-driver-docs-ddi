@@ -10,6 +10,7 @@ keywords: ["IKsDataTypeCompletion::KsCompleteMediaType"]
 ms.keywords: IKsDataTypeCompletion interface [Streaming Media Devices],KsCompleteMediaType method, IKsDataTypeCompletion.KsCompleteMediaType, IKsDataTypeCompletion::KsCompleteMediaType, KsCompleteMediaType, KsCompleteMediaType method [Streaming Media Devices], KsCompleteMediaType method [Streaming Media Devices],IKsDataTypeCompletion interface, ksproxy/IKsDataTypeCompletion::KsCompleteMediaType, ksproxy_950cbba2-9512-46d0-ac08-133195e4370f.xml, stream.iksdatatypecompletion_kscompletemediatype
 f1_keywords:
  - "ksproxy/IKsDataTypeCompletion.KsCompleteMediaType"
+ - "IKsDataTypeCompletion.KsCompleteMediaType"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ksproxy.h
 api_name:
 - IKsDataTypeCompletion.KsCompleteMediaType
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

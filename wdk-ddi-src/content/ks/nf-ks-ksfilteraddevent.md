@@ -10,6 +10,7 @@ keywords: ["KsFilterAddEvent function"]
 ms.keywords: KsFilterAddEvent, KsFilterAddEvent function [Streaming Media Devices], avfunc_a00691e6-cae6-40ae-9776-1b6d09e01d73.xml, ks/KsFilterAddEvent, stream.ksfilteraddevent
 f1_keywords:
  - "ks/KsFilterAddEvent"
+ - "KsFilterAddEvent"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KsFilterAddEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

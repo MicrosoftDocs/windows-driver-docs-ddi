@@ -10,6 +10,7 @@ keywords: ["FsRtlTruncateMcb function"]
 ms.keywords: FsRtlTruncateMcb, FsRtlTruncateMcb function [Installable File System Drivers], fsrtlref_31bb51fe-e571-4bae-af8f-4c2b4413fa29.xml, ifsk.fsrtltruncatemcb, ntifs/FsRtlTruncateMcb
 f1_keywords:
  - "ntifs/FsRtlTruncateMcb"
+ - "FsRtlTruncateMcb"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - FsRtlTruncateMcb
-product:
-- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---

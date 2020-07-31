@@ -10,6 +10,7 @@ keywords: ["WdfInterruptSynchronize function"]
 ms.keywords: DFInterruptObjectRef_d56eadd2-4636-43bb-b842-318243bcf192.xml, WdfInterruptSynchronize, WdfInterruptSynchronize method, kmdf.wdfinterruptsynchronize, wdf.wdfinterruptsynchronize, wdfinterrupt/WdfInterruptSynchronize
 f1_keywords:
  - "wdfinterrupt/WdfInterruptSynchronize"
+ - "WdfInterruptSynchronize"
 req.header: wdfinterrupt.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfInterruptSynchronize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

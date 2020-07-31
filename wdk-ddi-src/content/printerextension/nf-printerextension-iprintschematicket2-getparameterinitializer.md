@@ -10,6 +10,7 @@ keywords: ["IPrintSchemaTicket2::GetParameterInitializer"]
 ms.keywords: GetParameterInitializer, GetParameterInitializer method [Print Devices], GetParameterInitializer method [Print Devices],IPrintSchematicket2 interface, IPrintSchemaTicket2.GetParameterInitializer, IPrintSchemaTicket2::GetParameterInitializer, IPrintSchematicket2 interface [Print Devices],GetParameterInitializer method, IPrintSchematicket2::GetParameterInitializer, print.iprintschematicket2_getparameterinitializer, printerextension/IPrintSchematicket2::GetParameterInitializer
 f1_keywords:
  - "printerextension/IPrintSchematicket2.GetParameterInitializer"
+ - "IPrintSchematicket2.GetParameterInitializer"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Printerextension.h
 api_name:
 - IPrintSchematicket2.GetParameterInitializer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

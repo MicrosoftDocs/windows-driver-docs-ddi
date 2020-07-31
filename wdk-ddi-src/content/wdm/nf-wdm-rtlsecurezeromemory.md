@@ -10,6 +10,7 @@ keywords: ["RtlSecureZeroMemory function"]
 ms.keywords: RtlSecureZeroMemory, RtlSecureZeroMemory routine [Kernel-Mode Driver Architecture], k109_8bcffbc1-2930-416b-a192-b70c477d1910.xml, kernel.rtlsecurezeromemory, wdm/RtlSecureZeroMemory
 f1_keywords:
  - "wdm/RtlSecureZeroMemory"
+ - "RtlSecureZeroMemory"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - RtlSecureZeroMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

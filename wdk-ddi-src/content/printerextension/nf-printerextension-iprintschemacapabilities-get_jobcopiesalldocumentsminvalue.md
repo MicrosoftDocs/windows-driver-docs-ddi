@@ -10,6 +10,7 @@ keywords: ["IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMinValue"]
 ms.keywords: IPrintSchemaCapabilities interface [Print Devices],JobCopiesAllDocumentsMinValue property, IPrintSchemaCapabilities.JobCopiesAllDocumentsMinValue, IPrintSchemaCapabilities.get_JobCopiesAllDocumentsMinValue, IPrintSchemaCapabilities::JobCopiesAllDocumentsMinValue, IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMinValue, JobCopiesAllDocumentsMinValue property [Print Devices], JobCopiesAllDocumentsMinValue property [Print Devices],IPrintSchemaCapabilities interface, get_JobCopiesAllDocumentsMinValue, print.iprintschemacapabilities_jobcopiesalldocumentsminvalue, printerextension/IPrintSchemaCapabilities::JobCopiesAllDocumentsMinValue, printerextension/IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMinValue
 f1_keywords:
  - "printerextension/IPrintSchemaCapabilities.JobCopiesAllDocumentsMinValue"
+ - "IPrintSchemaCapabilities.JobCopiesAllDocumentsMinValue"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IPrintSchemaCapabilities.JobCopiesAllDocumentsMinValue
 - IPrintSchemaCapabilities.get_JobCopiesAllDocumentsMinValue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

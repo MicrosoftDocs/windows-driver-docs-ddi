@@ -10,6 +10,7 @@ keywords: ["ClfsRemoveLogContainerSet function"]
 ms.keywords: ClfsRemoveLogContainerSet, ClfsRemoveLogContainerSet routine [Kernel-Mode Driver Architecture], Clfs_8455da3b-79fb-4511-8682-e9167620a369.xml, kernel.clfsremovelogcontainerset, wdm/ClfsRemoveLogContainerSet
 f1_keywords:
  - "wdm/ClfsRemoveLogContainerSet"
+ - "ClfsRemoveLogContainerSet"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
 - ClfsRemoveLogContainerSet
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

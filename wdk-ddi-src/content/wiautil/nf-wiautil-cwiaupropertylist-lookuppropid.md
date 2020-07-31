@@ -10,6 +10,7 @@ keywords: ["CWiauPropertyList::LookupPropId"]
 ms.keywords: CWiauPropertyList interface [Imaging Devices],LookupPropId method, CWiauPropertyList.LookupPropId, CWiauPropertyList::LookupPropId, LookupPropId, LookupPropId method [Imaging Devices], LookupPropId method [Imaging Devices],CWiauPropertyList interface, image.cwiaupropertylist_lookuppropid, wiauFncs_087766c2-718f-4d02-be7f-869df198c3a7.xml, wiautil/CWiauPropertyList::LookupPropId
 f1_keywords:
  - "wiautil/CWiauPropertyList.LookupPropId"
+ - "CWiauPropertyList.LookupPropId"
 req.header: wiautil.h
 req.include-header: Wiautil.h, Wiamindr.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wiautil.h
 api_name:
 - CWiauPropertyList.LookupPropId
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

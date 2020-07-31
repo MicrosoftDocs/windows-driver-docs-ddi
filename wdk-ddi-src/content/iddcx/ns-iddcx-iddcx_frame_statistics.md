@@ -10,6 +10,7 @@ keywords: ["IDDCX_FRAME_STATISTICS structure"]
 ms.keywords: IDDCX_FRAME_STATISTICS, IDDCX_FRAME_STATISTICS structure [Display Devices], display.iddcx_frame_statistics, iddcx/IDDCX_FRAME_STATISTICS
 f1_keywords:
  - "iddcx/IDDCX_FRAME_STATISTICS"
+ - "IDDCX_FRAME_STATISTICS"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - iddcx.h
 api_name:
 - IDDCX_FRAME_STATISTICS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["_TAPE_GET_MEDIA_PARAMETERS structure"]
 ms.keywords: "*PTAPE_GET_MEDIA_PARAMETERS, PTAPE_GET_MEDIA_PARAMETERS, PTAPE_GET_MEDIA_PARAMETERS structure pointer [Storage Devices], TAPE_GET_MEDIA_PARAMETERS, TAPE_GET_MEDIA_PARAMETERS structure [Storage Devices], _TAPE_GET_MEDIA_PARAMETERS, ntddtape/PTAPE_GET_MEDIA_PARAMETERS, ntddtape/TAPE_GET_MEDIA_PARAMETERS, storage.tape_get_media_parameters, structs-tape_19ce668d-65dd-40d6-a668-d34e540cc686.xml"
 f1_keywords:
  - "ntddtape/TAPE_GET_MEDIA_PARAMETERS"
+ - "TAPE_GET_MEDIA_PARAMETERS"
 req.header: ntddtape.h
 req.include-header: Ntddtape.h, Minitape.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddtape.h
 api_name:
 - TAPE_GET_MEDIA_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: TAPE_GET_MEDIA_PARAMETERS, *PTAPE_GET_MEDIA_PARAMETERS
 ---

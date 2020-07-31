@@ -8,6 +8,7 @@ ms.date: 09/14/2018
 keywords: ["FltQueryInformationByName function"]
 f1_keywords:
  - "fltkernel/FltQueryInformationByName"
+ - "FltQueryInformationByName"
 ms.keywords: FltQueryInformationByName
 req.header: fltkernel.h
 req.include-header:
@@ -34,8 +35,6 @@ api_location:
 - fltmgr.sys
 api_name: 
 - FltQueryInformationByName
-product:
-- Windows
 targetos: Windows
 dev_langs:
 - c++

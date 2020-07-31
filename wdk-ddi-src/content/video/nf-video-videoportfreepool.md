@@ -10,6 +10,7 @@ keywords: ["VideoPortFreePool function"]
 ms.keywords: VideoPortFreePool, VideoPortFreePool function [Display Devices], VideoPort_Functions_a2b1e2c4-9f8d-455b-8484-c51e0669d526.xml, display.videoportfreepool, video/VideoPortFreePool
 f1_keywords:
  - "video/VideoPortFreePool"
+ - "VideoPortFreePool"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Videoprt.sys
 api_name:
 - VideoPortFreePool
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

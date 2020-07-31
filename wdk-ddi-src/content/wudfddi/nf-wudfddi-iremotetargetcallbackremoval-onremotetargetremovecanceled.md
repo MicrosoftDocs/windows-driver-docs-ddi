@@ -10,6 +10,7 @@ keywords: ["IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveCanceled"]
 ms.keywords: IRemoteTargetCallbackRemoval interface,OnRemoteTargetRemoveCanceled method, IRemoteTargetCallbackRemoval.OnRemoteTargetRemoveCanceled, IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveCanceled, OnRemoteTargetRemoveCanceled, OnRemoteTargetRemoveCanceled method, OnRemoteTargetRemoveCanceled method,IRemoteTargetCallbackRemoval interface, UMDFIoTargetObjectRef_aa4d89fd-ad91-46ea-a55d-4c89d65da13e.xml, umdf.iremotetargetcallbackremoval_onremotetargetremovecanceled, wdf.iremotetargetcallbackremoval_onremotetargetremovecanceled, wudfddi/IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveCanceled
 f1_keywords:
  - "wudfddi/IRemoteTargetCallbackRemoval.OnRemoteTargetRemoveCanceled"
+ - "IRemoteTargetCallbackRemoval.OnRemoteTargetRemoveCanceled"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wudfddi.h
 api_name:
 - IRemoteTargetCallbackRemoval.OnRemoteTargetRemoveCanceled
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

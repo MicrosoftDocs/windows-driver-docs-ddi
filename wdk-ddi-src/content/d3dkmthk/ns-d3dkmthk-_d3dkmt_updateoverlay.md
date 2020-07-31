@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_UPDATEOVERLAY structure"]
 ms.keywords: D3DKMT_UPDATEOVERLAY, D3DKMT_UPDATEOVERLAY structure [Display Devices], OpenGL_Structs_763acbbf-27ad-4d91-903f-7200b7d7e0cf.xml, _D3DKMT_UPDATEOVERLAY, d3dkmthk/D3DKMT_UPDATEOVERLAY, display.d3dkmt_updateoverlay
 f1_keywords:
  - "d3dkmthk/D3DKMT_UPDATEOVERLAY"
+ - "D3DKMT_UPDATEOVERLAY"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMT_UPDATEOVERLAY
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_UPDATEOVERLAY

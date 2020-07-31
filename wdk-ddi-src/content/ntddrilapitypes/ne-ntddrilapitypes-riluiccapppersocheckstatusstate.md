@@ -10,6 +10,7 @@ keywords: ["RILUICCAPPPERSOCHECKSTATUSSTATE enumeration"]
 ms.keywords: RILUICCAPPPERSOCHECKSTATUSSTATE, RILUICCAPPPERSOCHECKSTATUSSTATE enumeration [Network Drivers Starting with Windows Vista], RIL_PERSOCHECKSTATE_FAIL, RIL_PERSOCHECKSTATE_MAX, RIL_PERSOCHECKSTATE_PASS, netvista.riluiccapppersocheckstatusstate, ntddrilapitypes/RILUICCAPPPERSOCHECKSTATUSSTATE, ntddrilapitypes/RIL_PERSOCHECKSTATE_FAIL, ntddrilapitypes/RIL_PERSOCHECKSTATE_MAX, ntddrilapitypes/RIL_PERSOCHECKSTATE_PASS
 f1_keywords:
  - "ntddrilapitypes/RILUICCAPPPERSOCHECKSTATUSSTATE"
+ - "RILUICCAPPPERSOCHECKSTATUSSTATE"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILUICCAPPPERSOCHECKSTATUSSTATE
-product:
-- Windows
 targetos: Windows
 req.typenames: RILUICCAPPPERSOCHECKSTATUSSTATE
 ---

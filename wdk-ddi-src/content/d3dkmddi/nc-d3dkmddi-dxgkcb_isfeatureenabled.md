@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DXGKCB_ISFEATUREENABLED callback function"]
 f1_keywords:
  - "d3dkmddi/DXGKCB_ISFEATUREENABLED"
+ - "DXGKCB_ISFEATUREENABLED"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 req.header: d3dkmddi.h

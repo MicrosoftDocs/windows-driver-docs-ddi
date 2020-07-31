@@ -10,6 +10,7 @@ keywords: ["ISynthSinkDMus::SampleToRefTime"]
 ms.keywords: ISynthSinkDMus interface [Audio Devices],SampleToRefTime method, ISynthSinkDMus.SampleToRefTime, ISynthSinkDMus::SampleToRefTime, SampleToRefTime, SampleToRefTime method [Audio Devices], SampleToRefTime method [Audio Devices],ISynthSinkDMus interface, audio.isynthsinkdmus_sampletoreftime, audmp-routines_acfbec43-3c33-4d78-9d25-57e44afe0033.xml, dmusicks/ISynthSinkDMus::SampleToRefTime
 f1_keywords:
  - "dmusicks/ISynthSinkDMus.SampleToRefTime"
+ - "ISynthSinkDMus.SampleToRefTime"
 req.header: dmusicks.h
 req.include-header: Dmusicks.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dmusicks.h
 api_name:
 - ISynthSinkDMus.SampleToRefTime
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

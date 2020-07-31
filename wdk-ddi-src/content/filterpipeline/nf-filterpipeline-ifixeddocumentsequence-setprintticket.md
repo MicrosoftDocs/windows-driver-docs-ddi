@@ -10,6 +10,7 @@ keywords: ["IFixedDocumentSequence::SetPrintTicket"]
 ms.keywords: IFixedDocumentSequence interface [Print Devices],SetPrintTicket method, IFixedDocumentSequence.SetPrintTicket, IFixedDocumentSequence::SetPrintTicket, SetPrintTicket, SetPrintTicket method [Print Devices], SetPrintTicket method [Print Devices],IFixedDocumentSequence interface, filterpipeline/IFixedDocumentSequence::SetPrintTicket, filterpipeline_01f88943-7bfe-4819-b553-a6c563ac5f49.xml, print.ifixeddocumentsequence_setprintticket
 f1_keywords:
  - "filterpipeline/IFixedDocumentSequence.SetPrintTicket"
+ - "IFixedDocumentSequence.SetPrintTicket"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - filterpipeline.h
 api_name:
 - IFixedDocumentSequence.SetPrintTicket
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

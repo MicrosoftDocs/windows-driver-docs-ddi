@@ -10,6 +10,7 @@ keywords: ["IWDFDevice3::CreateInterrupt"]
 ms.keywords: CreateInterrupt, CreateInterrupt method, CreateInterrupt method,IWDFDevice3 interface, IWDFDevice3 interface,CreateInterrupt method, IWDFDevice3.CreateInterrupt, IWDFDevice3::CreateInterrupt, umdf.iwdfdevice3_createinterrupt, wdf.iwdfdevice3_createinterrupt, wudfddi/IWDFDevice3::CreateInterrupt
 f1_keywords:
  - "wudfddi/IWDFDevice3.CreateInterrupt"
+ - "IWDFDevice3.CreateInterrupt"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFDevice3.CreateInterrupt
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

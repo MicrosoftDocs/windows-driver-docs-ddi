@@ -10,6 +10,7 @@ keywords: ["ScsiPortReadPortBufferUlong function"]
 ms.keywords: ScsiPortReadPortBufferUlong, ScsiPortReadPortBufferUlong routine [Storage Devices], scsiprt_5da99f27-5758-4e1b-af45-0d9069b55af7.xml, srb/ScsiPortReadPortBufferUlong, storage.scsiportreadportbufferulong
 f1_keywords:
  - "srb/ScsiPortReadPortBufferUlong"
+ - "ScsiPortReadPortBufferUlong"
 req.header: srb.h
 req.include-header: Miniport.h, Scsi.h, Storport.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Scsiport.dll
 api_name:
 - ScsiPortReadPortBufferUlong
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

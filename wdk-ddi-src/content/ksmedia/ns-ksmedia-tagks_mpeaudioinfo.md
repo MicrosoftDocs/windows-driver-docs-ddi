@@ -10,6 +10,7 @@ keywords: ["tagKS_MPEAUDIOINFO structure"]
 ms.keywords: "*PKS_MPEGAUDIOINFO, KS_MPEGAUDIOINFO, KS_MPEGAUDIOINFO structure [Streaming Media Devices], PKS_MPEGAUDIOINFO, PKS_MPEGAUDIOINFO structure pointer [Streaming Media Devices], ksmedia/KS_MPEGAUDIOINFO, ksmedia/PKS_MPEGAUDIOINFO, stream.ks_mpegaudioinfo, tagKS_MPEAUDIOINFO, vidcapstruct_613d53ce-69cd-46da-9bd8-0ac41ca12129.xml"
 f1_keywords:
  - "ksmedia/KS_MPEGAUDIOINFO"
+ - "KS_MPEGAUDIOINFO"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KS_MPEGAUDIOINFO
-product:
-- Windows
 targetos: Windows
 req.typenames: KS_MPEGAUDIOINFO, *PKS_MPEGAUDIOINFO
 ---

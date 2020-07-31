@@ -10,6 +10,7 @@ keywords: ["NdisFreeCloneNetBufferList function"]
 ms.keywords: NdisFreeCloneNetBufferList, NdisFreeCloneNetBufferList function [Network Drivers Starting with Windows Vista], ndis/NdisFreeCloneNetBufferList, ndis_netbuf_functions_ref_a8be507f-e574-4cbe-ab9e-b48cbe00a5f6.xml, netvista.ndisfreeclonenetbufferlist
 f1_keywords:
  - "ndis/NdisFreeCloneNetBufferList"
+ - "NdisFreeCloneNetBufferList"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisFreeCloneNetBufferList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

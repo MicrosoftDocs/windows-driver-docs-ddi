@@ -10,6 +10,7 @@ keywords: ["RILGETRADIOSTATEDETAILSPARAMS structure"]
 ms.keywords: "*LPRILGETRADIOSTATEDETAILSPARAMS, RILGETRADIOSTATEDETAILSPARAMS, RILGETRADIOSTATEDETAILSPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilgetradiostatedetailsparams, ntddrilapitypes/RILGETRADIOSTATEDETAILSPARAMS"
 f1_keywords:
  - "ntddrilapitypes/RILGETRADIOSTATEDETAILSPARAMS"
+ - "RILGETRADIOSTATEDETAILSPARAMS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILGETRADIOSTATEDETAILSPARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILGETRADIOSTATEDETAILSPARAMS, *LPRILGETRADIOSTATEDETAILSPARAMS
 ---

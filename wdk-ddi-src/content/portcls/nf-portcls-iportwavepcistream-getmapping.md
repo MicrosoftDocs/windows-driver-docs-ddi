@@ -10,6 +10,7 @@ keywords: ["IPortWavePciStream::GetMapping"]
 ms.keywords: GetMapping, GetMapping method [Audio Devices], GetMapping method [Audio Devices],IPortWavePciStream interface, IPortWavePciStream interface [Audio Devices],GetMapping method, IPortWavePciStream.GetMapping, IPortWavePciStream::GetMapping, audio.iportwavepcistream_getmapping, audmp-routines_e0c71b6a-ec20-47ab-85bc-7a3495e5247e.xml, portcls/IPortWavePciStream::GetMapping
 f1_keywords:
  - "portcls/IPortWavePciStream.GetMapping"
+ - "IPortWavePciStream.GetMapping"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IPortWavePciStream.GetMapping
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

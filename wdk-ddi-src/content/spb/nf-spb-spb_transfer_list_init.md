@@ -10,6 +10,7 @@ keywords: ["SPB_TRANSFER_LIST_INIT function"]
 ms.keywords: SPB.spb_transfer_list_init, SPB_TRANSFER_LIST_INIT, SPB_TRANSFER_LIST_INIT function [Buses], spb/SPB_TRANSFER_LIST_INIT
 f1_keywords:
  - "spb/SPB_TRANSFER_LIST_INIT"
+ - "SPB_TRANSFER_LIST_INIT"
 req.header: spb.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Spb.h
 api_name:
 - SPB_TRANSFER_LIST_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

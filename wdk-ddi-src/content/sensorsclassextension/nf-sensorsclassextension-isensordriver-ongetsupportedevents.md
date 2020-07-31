@@ -10,6 +10,7 @@ keywords: ["ISensorDriver::OnGetSupportedEvents"]
 ms.keywords: ISensorDriver interface [Sensor Devices],OnGetSupportedEvents method, ISensorDriver.OnGetSupportedEvents, ISensorDriver::OnGetSupportedEvents, OnGetSupportedEvents, OnGetSupportedEvents method [Sensor Devices], OnGetSupportedEvents method [Sensor Devices],ISensorDriver interface, sensors.isensordriver_ongetsupportedevents, sensorsclassextension/ISensorDriver::OnGetSupportedEvents
 f1_keywords:
  - "sensorsclassextension/OnGetSupportedEvents"
+ - "OnGetSupportedEvents"
 req.header: sensorsclassextension.h
 req.include-header: 
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 - SensorsClassExtension.dll
 api_name:
 - OnGetSupportedEvents
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DDDICB_SUBMITCOMMANDTOHWQUEUEFLAGS structure"]
 f1_keywords:
  - "d3dumddi/_D3DDDICB_SUBMITCOMMANDTOHWQUEUEFLAGS"
+ - "_D3DDDICB_SUBMITCOMMANDTOHWQUEUEFLAGS"
 ms.keywords: _D3DDDICB_SUBMITCOMMANDTOHWQUEUEFLAGS, D3DDDICB_SUBMITCOMMANDTOHWQUEUEFLAGS, 
 req.header: d3dumddi.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - d3dumddi.h
 api_name: 
 - _D3DDDICB_SUBMITCOMMANDTOHWQUEUEFLAGS
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

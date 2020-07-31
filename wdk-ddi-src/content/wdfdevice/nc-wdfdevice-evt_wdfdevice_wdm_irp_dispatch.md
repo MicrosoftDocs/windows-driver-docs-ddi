@@ -10,6 +10,7 @@ keywords: ["EVT_WDFDEVICE_WDM_IRP_DISPATCH callback function"]
 ms.keywords: EVT_WDFDEVICE_WDM_IRP_DISPATCH, EVT_WDFDEVICE_WDM_IRP_DISPATCH callback, EvtDeviceWdmIrpDispatch, EvtDeviceWdmIrpDispatch callback function, kmdf.evtdevicewdmirpdispatch, wdf.evtdevicewdmirpdispatch, wdfdevice/EvtDeviceWdmIrpDispatch
 f1_keywords:
  - "wdfdevice/EvtDeviceWdmIrpDispatch"
+ - "EvtDeviceWdmIrpDispatch"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Wdfdevice.h
 api_name:
 - EvtDeviceWdmIrpDispatch
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

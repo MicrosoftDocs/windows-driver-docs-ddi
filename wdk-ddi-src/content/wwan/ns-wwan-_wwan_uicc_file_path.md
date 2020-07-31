@@ -8,6 +8,7 @@ ms.date: 04/09/2019
 keywords: ["_WWAN_UICC_FILE_PATH structure"]
 f1_keywords:
  - "wwan/_WWAN_UICC_FILE_PATH"
+ - "_WWAN_UICC_FILE_PATH"
 ms.keywords: _WWAN_UICC_FILE_PATH, WWAN_UICC_FILE_PATH, *PWWAN_UICC_FILE_PATH, 
 req.header: wwan.h
 req.include-header:
@@ -30,8 +31,6 @@ api_location:
 - wwan.h
 api_name: 
 - _WWAN_UICC_FILE_PATH
-product:
-- Windows
 targetos: Windows
 ms.custom: 19H1
 ---

@@ -10,6 +10,7 @@ keywords: ["ISCSI_AUTH_TYPES enumeration"]
 ms.keywords: "*PISCSI_AUTH_TYPES, ISCSI_AUTH_TYPES, ISCSI_AUTH_TYPES enumeration [Storage Devices], ISCSI_CHAP_AUTH_TYPE, ISCSI_MUTUAL_CHAP_AUTH_TYPE, ISCSI_NO_AUTH_TYPE, PISCSI_AUTH_TYPES, PISCSI_AUTH_TYPES enumeration pointer [Storage Devices], iscsidef/ISCSI_AUTH_TYPES, iscsidef/ISCSI_CHAP_AUTH_TYPE, iscsidef/ISCSI_MUTUAL_CHAP_AUTH_TYPE, iscsidef/ISCSI_NO_AUTH_TYPE, iscsidef/PISCSI_AUTH_TYPES, storage.iscsi_auth_types, structs-iSCSI_a55ac905-6962-416f-a197-778a24eae524.xml"
 f1_keywords:
  - "iscsidef/ISCSI_AUTH_TYPES"
+ - "ISCSI_AUTH_TYPES"
 req.header: iscsidef.h
 req.include-header: Iscsidef.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - iscsidef.h
 api_name:
 - ISCSI_AUTH_TYPES
-product:
-- Windows
 targetos: Windows
 req.typenames: ISCSI_AUTH_TYPES, *PISCSI_AUTH_TYPES
 ---

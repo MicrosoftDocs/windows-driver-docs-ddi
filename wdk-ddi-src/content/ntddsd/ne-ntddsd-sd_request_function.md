@@ -10,6 +10,7 @@ keywords: ["SD_REQUEST_FUNCTION enumeration"]
 ms.keywords: SD.sd_request_function, SDRF_DEVICE_COMMAND, SDRF_GET_PROPERTY, SDRF_SET_PROPERTY, SD_REQUEST_FUNCTION, SD_REQUEST_FUNCTION enumeration [Buses], ntddsd/SDRF_DEVICE_COMMAND, ntddsd/SDRF_GET_PROPERTY, ntddsd/SDRF_SET_PROPERTY, ntddsd/SD_REQUEST_FUNCTION, sd-structs_db2d511c-e3e2-46e6-9d01-1723c1c8ec7f.xml
 f1_keywords:
  - "ntddsd/SD_REQUEST_FUNCTION"
+ - "SD_REQUEST_FUNCTION"
 req.header: ntddsd.h
 req.include-header: Ntddsd.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddsd.h
 api_name:
 - SD_REQUEST_FUNCTION
-product:
-- Windows
 targetos: Windows
 req.typenames: SD_REQUEST_FUNCTION
 ---

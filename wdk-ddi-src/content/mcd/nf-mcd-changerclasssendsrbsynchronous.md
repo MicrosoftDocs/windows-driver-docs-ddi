@@ -10,6 +10,7 @@ keywords: ["ChangerClassSendSrbSynchronous function"]
 ms.keywords: ChangerClassSendSrbSynchronous, ChangerClassSendSrbSynchronous routine [Storage Devices], chgrclas_ad6fe2cb-20f1-404d-ad08-5bf9798de6bd.xml, mcd/ChangerClassSendSrbSynchronous, storage.changerclasssendsrbsynchronous
 f1_keywords:
  - "mcd/ChangerClassSendSrbSynchronous"
+ - "ChangerClassSendSrbSynchronous"
 req.header: mcd.h
 req.include-header: Mcd.h, Ntddchgr.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Mcd.dll
 api_name:
 - ChangerClassSendSrbSynchronous
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

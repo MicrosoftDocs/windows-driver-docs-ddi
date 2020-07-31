@@ -10,6 +10,7 @@ keywords: ["IAdapterPnpManagement interface"]
 ms.keywords: IAdapterPnpManagement, IAdapterPnpManagement interface [Audio Devices], IAdapterPnpManagement interface [Audio Devices], described, audio.iadapterpnpmanagement, portcls/IAdapterPnpManagement
 f1_keywords:
  - "portcls/IAdapterPnpManagement"
+ - "IAdapterPnpManagement"
 req.header: portcls.h
 req.include-header:
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IAdapterPnpManagement
-product:
-- Windows
 targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---

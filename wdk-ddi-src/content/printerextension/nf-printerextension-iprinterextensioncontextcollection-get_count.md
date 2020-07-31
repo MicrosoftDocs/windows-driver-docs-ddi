@@ -10,6 +10,7 @@ keywords: ["IPrinterExtensionContextCollection::get_Count"]
 ms.keywords: Count property [Print Devices], Count property [Print Devices],IPrinterExtensionContextCollection interface, IPrinterExtensionContextCollection interface [Print Devices],Count property, IPrinterExtensionContextCollection.Count, IPrinterExtensionContextCollection.get_Count, IPrinterExtensionContextCollection::Count, IPrinterExtensionContextCollection::get_Count, get_Count, print.iprinterextensioncontextcollection_count, printerextension/IPrinterExtensionContextCollection::Count, printerextension/IPrinterExtensionContextCollection::get_Count
 f1_keywords:
  - "printerextension/IPrinterExtensionContextCollection.Count"
+ - "IPrinterExtensionContextCollection.Count"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IPrinterExtensionContextCollection.Count
 - IPrinterExtensionContextCollection.get_Count
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

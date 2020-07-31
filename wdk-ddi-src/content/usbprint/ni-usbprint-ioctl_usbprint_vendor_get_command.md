@@ -10,6 +10,7 @@ keywords: ["IOCTL_USBPRINT_VENDOR_GET_COMMAND IOCTL"]
 ms.keywords: IOCTL_USBPRINT_VENDOR_GET_COMMAND, IOCTL_USBPRINT_VENDOR_GET_COMMAND control, IOCTL_USBPRINT_VENDOR_GET_COMMAND control code [Print Devices], print.ioctl_usbprint_vendor_get_command, usbioctl_edd39494-a6bb-4e28-a059-7c7884626105.xml, usbprint/IOCTL_USBPRINT_VENDOR_GET_COMMAND
 f1_keywords:
  - "usbprint/IOCTL_USBPRINT_VENDOR_GET_COMMAND"
+ - "IOCTL_USBPRINT_VENDOR_GET_COMMAND"
 req.header: usbprint.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - usbprint.h
 api_name:
 - IOCTL_USBPRINT_VENDOR_GET_COMMAND
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

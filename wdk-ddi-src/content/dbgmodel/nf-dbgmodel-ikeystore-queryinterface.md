@@ -7,6 +7,7 @@ ms.date: 08/13/2018
 keywords: ["IKeyStore::QueryInterface"]
 f1_keywords:
  - "dbgmodel/IKeyStore.QueryInterface"
+ - "IKeyStore.QueryInterface"
 ms.keywords: IKeyStore::QueryInterface, QueryInterface, IKeyStore.QueryInterface, IKeyStore::QueryInterface, IKeyStore.QueryInterface
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IKeyStore.QueryInterface
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

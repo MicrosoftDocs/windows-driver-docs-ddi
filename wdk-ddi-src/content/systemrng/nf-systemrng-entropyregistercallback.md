@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["EntropyRegisterCallback function"]
 f1_keywords:
  - "systemrng/EntropyRegisterCallback"
+ - "EntropyRegisterCallback"
 ms.keywords: EntropyRegisterCallback
 req.header: systemrng.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - systemrng.h
 api_name: 
 - EntropyRegisterCallback
-product:
-- Windows
 targetos: Windows
 
 

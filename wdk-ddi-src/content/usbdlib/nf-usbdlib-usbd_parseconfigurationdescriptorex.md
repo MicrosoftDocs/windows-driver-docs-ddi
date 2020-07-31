@@ -10,6 +10,7 @@ keywords: ["USBD_ParseConfigurationDescriptorEx function"]
 ms.keywords: USBD_ParseConfigurationDescriptorEx, USBD_ParseConfigurationDescriptorEx routine [Buses], buses.usbd_parseconfigurationdescriptorex, usbdlib/USBD_ParseConfigurationDescriptorEx, usbfunc_c493d121-9821-4381-b756-fa417c8f5f93.xml
 f1_keywords:
  - "usbdlib/USBD_ParseConfigurationDescriptorEx"
+ - "USBD_ParseConfigurationDescriptorEx"
 req.header: usbdlib.h
 req.include-header: Usbdlib.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Usbd.dll
 api_name:
 - USBD_ParseConfigurationDescriptorEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

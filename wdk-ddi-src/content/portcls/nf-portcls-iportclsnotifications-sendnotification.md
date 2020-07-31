@@ -10,6 +10,7 @@ keywords: ["IPortClsNotifications::SendNotification"]
 ms.keywords: IPortClsNotifications interface [Audio Devices],SendNotification method, IPortClsNotifications.SendNotification, IPortClsNotifications::SendNotification, SendNotification, SendNotification method [Audio Devices], SendNotification method [Audio Devices],IPortClsNotifications interface, audio.iportclsnotifications_sendnotification, portcls/IPortClsNotifications::SendNotification
 f1_keywords:
  - "portcls/IPortClsNotifications.SendNotification"
+ - "IPortClsNotifications.SendNotification"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Portcls.dll
 api_name:
 - IPortClsNotifications.SendNotification
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

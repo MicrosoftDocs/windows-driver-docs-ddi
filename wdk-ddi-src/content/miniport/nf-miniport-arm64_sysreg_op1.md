@@ -7,6 +7,7 @@ ms.date: 09/20/2018
 keywords: ["ARM64_SYSREG_OP1 macro"]
 f1_keywords:
  - "miniport/ARM64_SYSREG_OP1"
+ - "ARM64_SYSREG_OP1"
 ms.keywords: ARM64_SYSREG_OP1
 req.header: miniport.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - miniport.h
 api_name: 
 - ARM64_SYSREG_OP1
-product:
-- Windows
 targetos: Windows
 
 ---

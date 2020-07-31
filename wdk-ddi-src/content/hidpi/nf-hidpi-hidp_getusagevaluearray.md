@@ -10,6 +10,7 @@ keywords: ["HidP_GetUsageValueArray function"]
 ms.keywords: HidP_GetUsageValueArray, HidP_GetUsageValueArray routine [Human Input Devices], hid.hidp_getusagevaluearray, hidfunc_4e641f34-d016-4b2f-b472-069334d3e461.xml, hidpi/HidP_GetUsageValueArray
 f1_keywords:
  - "hidpi/HidP_GetUsageValueArray"
+ - "HidP_GetUsageValueArray"
 req.header: hidpi.h
 req.include-header: Hidpi.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Hidparse.dll
 api_name:
 - HidP_GetUsageValueArray
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

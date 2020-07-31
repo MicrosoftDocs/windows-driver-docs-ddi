@@ -10,6 +10,7 @@ keywords: ["_ROOTHUB_20PORT_INFO structure"]
 ms.keywords: "*PROOTHUB_20PORT_INFO, P_ROOTHUB_20PORT_INFO, P_ROOTHUB_20PORT_INFO structure pointer [Buses], ROOTHUB_20PORT_INFO, ROOTHUB_20PORT_INFO structure [Buses], _ROOTHUB_20PORT_INFO, buses._roothub_20port_info, ucxroothub/P_ROOTHUB_20PORT_INFO, ucxroothub/_ROOTHUB_20PORT_INFO"
 f1_keywords:
  - "ucxroothub/ROOTHUB_20PORT_INFO"
+ - "ROOTHUB_20PORT_INFO"
 req.header: ucxroothub.h
 req.include-header: Ucxclass.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ucxroothub.h
 api_name:
 - ROOTHUB_20PORT_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: ROOTHUB_20PORT_INFO, *PROOTHUB_20PORT_INFO
 ---

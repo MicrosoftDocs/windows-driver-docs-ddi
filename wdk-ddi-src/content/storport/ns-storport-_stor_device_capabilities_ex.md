@@ -10,6 +10,7 @@ keywords: ["_STOR_DEVICE_CAPABILITIES_EX structure"]
 ms.keywords: "*PSTOR_DEVICE_CAPABILITIES_EX, PSTOR_DEVICE_CAPABILITIES_EX, PSTOR_DEVICE_CAPABILITIES_EX structure pointer [Storage Devices], STOR_DEVICE_CAPABILITIES_EX, STOR_DEVICE_CAPABILITIES_EX structure [Storage Devices], _STOR_DEVICE_CAPABILITIES_EX, storage.stor_device_capabilities_ex, storport/PSTOR_DEVICE_CAPABILITIES_EX, storport/STOR_DEVICE_CAPABILITIES_EX"
 f1_keywords:
  - "storport/STOR_DEVICE_CAPABILITIES_EX"
+ - "STOR_DEVICE_CAPABILITIES_EX"
 req.header: storport.h
 req.include-header: Storport.h, Minitape.h, Srb.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - storport.h
 api_name:
 - STOR_DEVICE_CAPABILITIES_EX
-product:
-- Windows
 targetos: Windows
 req.typenames: STOR_DEVICE_CAPABILITIES_EX, *PSTOR_DEVICE_CAPABILITIES_EX
 ---

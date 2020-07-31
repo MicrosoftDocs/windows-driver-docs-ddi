@@ -10,6 +10,7 @@ keywords: ["VideoPortDoDma function"]
 ms.keywords: VideoPortDoDma, VideoPortDoDma function [Display Devices], VideoPort_Functions_febc78ee-355f-4689-9da9-f67f829d8a32.xml, display.videoportdodma, video/VideoPortDoDma
 f1_keywords:
  - "video/VideoPortDoDma"
+ - "VideoPortDoDma"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Videoprt.sys
 api_name:
 - VideoPortDoDma
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

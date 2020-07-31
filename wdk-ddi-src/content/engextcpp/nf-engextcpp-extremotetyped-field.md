@@ -10,6 +10,7 @@ keywords: ["ExtRemoteTyped::Field"]
 ms.keywords: EngExtCpp_Ref_a235495d-4e04-4f57-acd4-0e4cdeabee14.xml, ExtRemoteTyped interface [Windows Debugging],Field method, ExtRemoteTyped.Field, ExtRemoteTyped::Field, Field, Field method [Windows Debugging], Field method [Windows Debugging],ExtRemoteTyped interface, debugger.extremotetyped_field
 f1_keywords:
  - "engextcpp/ExtRemoteTyped.Field"
+ - "ExtRemoteTyped.Field"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - engextcpp.hpp
 api_name:
 - ExtRemoteTyped.Field
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

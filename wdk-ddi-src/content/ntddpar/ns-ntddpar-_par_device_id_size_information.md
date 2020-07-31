@@ -10,6 +10,7 @@ keywords: ["_PAR_DEVICE_ID_SIZE_INFORMATION structure"]
 ms.keywords: "*PPAR_DEVICE_ID_SIZE_INFORMATION, PAR_DEVICE_ID_SIZE_INFORMATION, PAR_DEVICE_ID_SIZE_INFORMATION structure [Parallel Ports], PPAR_DEVICE_ID_SIZE_INFORMATION, PPAR_DEVICE_ID_SIZE_INFORMATION structure pointer [Parallel Ports], _PAR_DEVICE_ID_SIZE_INFORMATION, cisspd_388a088d-9dd7-4a6c-99ad-b1e725d91f72.xml, ntddpar/PAR_DEVICE_ID_SIZE_INFORMATION, ntddpar/PPAR_DEVICE_ID_SIZE_INFORMATION, parports.par_device_id_size_information"
 f1_keywords:
  - "ntddpar/PAR_DEVICE_ID_SIZE_INFORMATION"
+ - "PAR_DEVICE_ID_SIZE_INFORMATION"
 req.header: ntddpar.h
 req.include-header: Ntddpar.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddpar.h
 api_name:
 - PAR_DEVICE_ID_SIZE_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: PAR_DEVICE_ID_SIZE_INFORMATION, *PPAR_DEVICE_ID_SIZE_INFORMATION
 ---

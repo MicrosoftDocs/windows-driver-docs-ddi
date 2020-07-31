@@ -10,6 +10,7 @@ keywords: ["_AddConnectionToSession_OUT structure"]
 ms.keywords: "*PAddConnectionToSession_OUT, AddConnectionToSession_OUT, AddConnectionToSession_OUT structure [Storage Devices], PAddConnectionToSession_OUT, PAddConnectionToSession_OUT structure pointer [Storage Devices], _AddConnectionToSession_OUT, iscsiop/AddConnectionToSession_OUT, iscsiop/PAddConnectionToSession_OUT, storage.addconnectiontosession_out, structs-iSCSI_d630117d-61cb-4c93-97c3-2a0c0b13b04c.xml"
 f1_keywords:
  - "iscsiop/AddConnectionToSession_OUT"
+ - "AddConnectionToSession_OUT"
 req.header: iscsiop.h
 req.include-header: Iscsiop.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - iscsiop.h
 api_name:
 - AddConnectionToSession_OUT
-product:
-- Windows
 targetos: Windows
 req.typenames: AddConnectionToSession_OUT, *PAddConnectionToSession_OUT
 ---

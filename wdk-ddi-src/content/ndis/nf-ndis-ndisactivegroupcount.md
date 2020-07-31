@@ -10,6 +10,7 @@ keywords: ["NdisActiveGroupCount function"]
 ms.keywords: NdisActiveGroupCount, NdisActiveGroupCount function [Network Drivers Starting with Windows Vista], ndis/NdisActiveGroupCount, ndis_processor_group_ref_e0e7bb9b-d6fd-4a31-9793-f21c4b36841d.xml, netvista.ndisactivegroupcount
 f1_keywords:
  - "ndis/NdisActiveGroupCount"
+ - "NdisActiveGroupCount"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisActiveGroupCount
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

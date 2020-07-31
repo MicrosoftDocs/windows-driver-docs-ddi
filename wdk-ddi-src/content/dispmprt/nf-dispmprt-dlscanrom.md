@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DlScanRom function"]
 f1_keywords:
  - "dispmprt/DlScanRom"
+ - "DlScanRom"
 ms.keywords: DlScanRom
 req.header: dispmprt.h
 req.include-header:

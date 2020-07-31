@@ -7,6 +7,7 @@ ms.date: 08/21/2018
 keywords: ["IDataModelManager2::CreateErrorObject"]
 f1_keywords:
  - "dbgmodel/IDataModelManager2.CreateErrorObject"
+ - "IDataModelManager2.CreateErrorObject"
 ms.keywords: IDataModelManager2::CreateErrorObject, CreateErrorObject, IDataModelManager2.CreateErrorObject, IDataModelManager2::CreateErrorObject, IDataModelManager2.CreateErrorObject
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDataModelManager2.CreateErrorObject
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

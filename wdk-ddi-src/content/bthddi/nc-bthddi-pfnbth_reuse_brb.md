@@ -10,6 +10,7 @@ keywords: ["PFNBTH_REUSE_BRB callback function"]
 ms.keywords: BthReuseBrb, BthReuseBrb callback function [Bluetooth Devices], PFNBTH_REUSE_BRB, PFNBTH_REUSE_BRB callback, bltooth.bthreusebrb, bth_funcs_118c4022-448d-4970-ba70-34dcbc488d13.xml, bthddi/BthReuseBrb
 f1_keywords:
  - "bthddi/BthReuseBrb"
+ - "BthReuseBrb"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - bthddi.h
 api_name:
 - BthReuseBrb
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

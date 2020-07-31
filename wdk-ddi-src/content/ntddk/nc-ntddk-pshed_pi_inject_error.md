@@ -10,6 +10,7 @@ keywords: ["PSHED_PI_INJECT_ERROR callback function"]
 ms.keywords: InjectError, InjectError callback function [WHEA Drivers and Applications], PSHED_PI_INJECT_ERROR, PSHED_PI_INJECT_ERROR callback, ntddk/InjectError, whea.injecterror, whearef_377f07ab-4ea0-4982-8298-c7139b4bfdc7.xml
 f1_keywords:
  - "ntddk/InjectError"
+ - "InjectError"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Ntddk.h
 api_name:
 - InjectError
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

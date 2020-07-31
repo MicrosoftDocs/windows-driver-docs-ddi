@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["PPHYSICAL_COUNTER_EVENT_BUFFER_OVERFLOW_HANDLER callback function"]
 f1_keywords:
  - "ntddk/PPHYSICAL_COUNTER_EVENT_BUFFER_OVERFLOW_HANDLER"
+ - "PPHYSICAL_COUNTER_EVENT_BUFFER_OVERFLOW_HANDLER"
 req.header: ntddk.h
 req.include-header:
 req.target-type:
@@ -35,8 +36,6 @@ api_location:
  - ntddk.h
 api_name:
  - PPHYSICAL_COUNTER_EVENT_BUFFER_OVERFLOW_HANDLER
-product:
-- Windows
 targetos: Windows
 ms.custom: 19H1
 ---

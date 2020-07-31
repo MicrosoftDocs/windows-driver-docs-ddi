@@ -10,6 +10,7 @@ keywords: ["KsDispatchSpecificProperty function"]
 ms.keywords: KsDispatchSpecificProperty, KsDispatchSpecificProperty function [Streaming Media Devices], ks/KsDispatchSpecificProperty, ksfunc_b12751b9-b486-4b57-809b-1f3daa8a1c30.xml, stream.ksdispatchspecificproperty
 f1_keywords:
  - "ks/KsDispatchSpecificProperty"
+ - "KsDispatchSpecificProperty"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsDispatchSpecificProperty
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -9,6 +9,7 @@ keywords: ["WdfDeviceResumeIdleWithTag macro"]
 ms.keywords: DFDeviceObjectGeneralRef_6078e8e8-7d4e-4714-a1b4-74fc973a678c.xml, WdfDeviceResumeIdleWithTag, WdfDeviceResumeIdleWithTag method, kmdf.WdfDeviceResumeIdleWithTag, wdf.WdfDeviceResumeIdleWithTag, wdfdevice/WdfDeviceResumeIdleWithTag
 f1_keywords:
  - "wdfdevice/WdfDeviceResumeIdleWithTag"
+ - "WdfDeviceResumeIdleWithTag"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -38,8 +39,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfDeviceResumeIdleWithTag
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

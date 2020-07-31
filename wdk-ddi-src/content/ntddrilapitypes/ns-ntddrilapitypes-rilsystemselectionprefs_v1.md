@@ -10,6 +10,7 @@ keywords: ["RILSYSTEMSELECTIONPREFS_V1 structure"]
 ms.keywords: "*LPRILSYSTEMSELECTIONPREFS_V1, RILSYSTEMSELECTIONPREFS_V1, RILSYSTEMSELECTIONPREFS_V1 structure [Network Drivers Starting with Windows Vista], netvista.rilsystemselectionprefs_v1, ntddrilapitypes/RILSYSTEMSELECTIONPREFS_V1"
 f1_keywords:
  - "ntddrilapitypes/RILSYSTEMSELECTIONPREFS_V1"
+ - "RILSYSTEMSELECTIONPREFS_V1"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILSYSTEMSELECTIONPREFS_V1
-product:
-- Windows
 targetos: Windows
 req.typenames: RILSYSTEMSELECTIONPREFS_V1, *LPRILSYSTEMSELECTIONPREFS_V1
 ---

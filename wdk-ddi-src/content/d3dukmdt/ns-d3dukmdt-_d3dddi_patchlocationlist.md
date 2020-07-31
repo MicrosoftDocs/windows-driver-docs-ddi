@@ -10,6 +10,7 @@ keywords: ["_D3DDDI_PATCHLOCATIONLIST structure"]
 ms.keywords: D3DDDI_PATCHLOCATIONLIST, D3DDDI_PATCHLOCATIONLIST structure [Display Devices], D3D_other_Structs_30473342-0122-445f-81c0-9cf5c62c771e.xml, _D3DDDI_PATCHLOCATIONLIST, d3dukmdt/D3DDDI_PATCHLOCATIONLIST, display.d3dddi_patchlocationlist
 f1_keywords:
  - "d3dukmdt/D3DDDI_PATCHLOCATIONLIST"
+ - "D3DDDI_PATCHLOCATIONLIST"
 req.header: d3dukmdt.h
 req.include-header: D3dumddi.h, D3dkmddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dukmdt.h
 api_name:
 - D3DDDI_PATCHLOCATIONLIST
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDI_PATCHLOCATIONLIST
 ---

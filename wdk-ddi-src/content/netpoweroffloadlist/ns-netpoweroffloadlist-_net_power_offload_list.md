@@ -10,6 +10,7 @@ ms.date: 10/03/2019
 keywords: ["NET_POWER_OFFLOAD_LIST structure"]
 f1_keywords:
  - "netpoweroffloadlist/NET_POWER_OFFLOAD_LIST"
+ - "NET_POWER_OFFLOAD_LIST"
 ms.keywords: NET_POWER_OFFLOAD_LIST, NET_POWER_OFFLOAD_LIST, 
 req.header: netpoweroffloadlist.h
 req.include-header:

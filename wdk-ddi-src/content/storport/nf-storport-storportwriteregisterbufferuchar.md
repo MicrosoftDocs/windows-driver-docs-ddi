@@ -10,6 +10,7 @@ keywords: ["StorPortWriteRegisterBufferUchar macro"]
 ms.keywords: StorPortWriteRegisterBufferUchar, StorPortWriteRegisterBufferUchar routine [Storage Devices], storage.storportwriteregisterbufferuchar, storport/StorPortWriteRegisterBufferUchar, storprt_21fa4636-6492-4cb1-9281-6f116f1a7591.xml
 f1_keywords:
  - "storport/StorPortWriteRegisterBufferUchar"
+ - "StorPortWriteRegisterBufferUchar"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Storport.dll
 api_name:
 - StorPortWriteRegisterBufferUchar
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

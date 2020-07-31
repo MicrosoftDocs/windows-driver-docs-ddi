@@ -10,6 +10,7 @@ keywords: ["WdfUsbTargetDeviceGetNumInterfaces function"]
 ms.keywords: DFUsbRef_8819241f-cfcd-49de-8775-4f415ab63593.xml, WdfUsbTargetDeviceGetNumInterfaces, WdfUsbTargetDeviceGetNumInterfaces method, kmdf.wdfusbtargetdevicegetnuminterfaces, wdf.wdfusbtargetdevicegetnuminterfaces, wdfusb/WdfUsbTargetDeviceGetNumInterfaces
 f1_keywords:
  - "wdfusb/WdfUsbTargetDeviceGetNumInterfaces"
+ - "WdfUsbTargetDeviceGetNumInterfaces"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfUsbTargetDeviceGetNumInterfaces
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

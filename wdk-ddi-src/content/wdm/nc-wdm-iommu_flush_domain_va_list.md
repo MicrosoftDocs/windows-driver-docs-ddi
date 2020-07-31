@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["IOMMU_FLUSH_DOMAIN_VA_LIST callback function"]
 f1_keywords:
  - "wdm/IOMMU_FLUSH_DOMAIN_VA_LIST"
+ - "IOMMU_FLUSH_DOMAIN_VA_LIST"
 req.header: wdm.h
 req.include-header:
 req.target-type:
@@ -32,8 +33,6 @@ api_location:
 - wdm.h
 api_name: 
 - IOMMU_FLUSH_DOMAIN_VA_LIST
-product:
-- Windows
 targetos: Windows
 ---
 

@@ -10,6 +10,7 @@ keywords: ["ExtRemoteTyped::GetTypeName"]
 ms.keywords: EngExtCpp_Ref_063b1f9f-802d-4db4-9661-6f1909d396ee.xml, ExtRemoteTyped interface [Windows Debugging],GetTypeName method, ExtRemoteTyped.GetTypeName, ExtRemoteTyped::GetTypeName, GetTypeName, GetTypeName method [Windows Debugging], GetTypeName method [Windows Debugging],ExtRemoteTyped interface, debugger.extremotetyped_gettypename
 f1_keywords:
  - "engextcpp/ExtRemoteTyped.GetTypeName"
+ - "ExtRemoteTyped.GetTypeName"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - engextcpp.hpp
 api_name:
 - ExtRemoteTyped.GetTypeName
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

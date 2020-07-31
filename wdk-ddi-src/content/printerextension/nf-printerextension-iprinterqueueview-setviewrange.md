@@ -10,6 +10,7 @@ keywords: ["IPrinterQueueView::SetViewRange"]
 ms.keywords: IPrinterQueueView interface [Print Devices],SetViewRange method, IPrinterQueueView.SetViewRange, IPrinterQueueView::SetViewRange, SetViewRange, SetViewRange method [Print Devices], SetViewRange method [Print Devices],IPrinterQueueView interface, print.iprinterqueueview_setviewrange, printerextension/IPrinterQueueView::SetViewRange
 f1_keywords:
  - "printerextension/IPrinterQueueView.SetViewRange"
+ - "IPrinterQueueView.SetViewRange"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Printerextension.h
 api_name:
 - IPrinterQueueView.SetViewRange
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

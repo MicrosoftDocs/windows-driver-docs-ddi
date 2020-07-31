@@ -9,6 +9,7 @@ keywords: ["_DXGK_QAITARGETIN structure"]
 ms.keywords: DXGK_QAITARGETIN, DXGK_QAITARGETIN structure [Display Devices], DXGK_QUERYCOLORIMETRYOVERRIDESIN, DXGK_QUERYINTEGRATEDDISPLAYIN, _DXGK_QAITARGETIN, d3dkmddi/DXGK_QAITARGETIN, display.dxgk_qaitargetin
 f1_keywords:
  - "d3dkmddi/DXGK_QAITARGETIN"
+ - "DXGK_QAITARGETIN"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGK_QAITARGETIN
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_QAITARGETIN

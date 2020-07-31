@@ -10,6 +10,7 @@ keywords: ["KeReleaseMutex function"]
 ms.keywords: KeReleaseMutex, KeReleaseMutex routine [Kernel-Mode Driver Architecture], k105_4237a9e6-715b-4e40-aab8-9b1458a220ae.xml, kernel.kereleasemutex, wdm/KeReleaseMutex
 f1_keywords:
  - "wdm/KeReleaseMutex"
+ - "KeReleaseMutex"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeReleaseMutex
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

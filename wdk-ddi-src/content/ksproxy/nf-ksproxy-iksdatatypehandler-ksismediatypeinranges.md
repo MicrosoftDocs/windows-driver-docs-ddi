@@ -10,6 +10,7 @@ keywords: ["IKsDataTypeHandler::KsIsMediaTypeInRanges"]
 ms.keywords: IKsDataTypeHandler interface [Streaming Media Devices],KsIsMediaTypeInRanges method, IKsDataTypeHandler.KsIsMediaTypeInRanges, IKsDataTypeHandler::KsIsMediaTypeInRanges, KsIsMediaTypeInRanges, KsIsMediaTypeInRanges method [Streaming Media Devices], KsIsMediaTypeInRanges method [Streaming Media Devices],IKsDataTypeHandler interface, ksproxy/IKsDataTypeHandler::KsIsMediaTypeInRanges, ksproxy_ebd4f24e-02a2-4228-b11b-890693ece498.xml, stream.iksdatatypehandler_ksismediatypeinranges
 f1_keywords:
  - "ksproxy/IKsDataTypeHandler.KsIsMediaTypeInRanges"
+ - "IKsDataTypeHandler.KsIsMediaTypeInRanges"
 req.header: ksproxy.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ksproxy.h
 api_name:
 - IKsDataTypeHandler.KsIsMediaTypeInRanges
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

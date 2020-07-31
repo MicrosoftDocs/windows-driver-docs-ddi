@@ -7,6 +7,7 @@ ms.date: 09/10/2018
 keywords: ["IDataModelScriptDebugBreakpoint::Remove"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebugBreakpoint.Remove"
+ - "IDataModelScriptDebugBreakpoint.Remove"
 ms.keywords: IDataModelScriptDebugBreakpoint::Remove, Remove, IDataModelScriptDebugBreakpoint.Remove, IDataModelScriptDebugBreakpoint::Remove, IDataModelScriptDebugBreakpoint.Remove
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDataModelScriptDebugBreakpoint.Remove
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

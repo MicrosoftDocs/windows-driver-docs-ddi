@@ -10,6 +10,7 @@ keywords: ["NdisSetTimerObject function"]
 ms.keywords: NdisSetTimerObject, NdisSetTimerObject function [Network Drivers Starting with Windows Vista], ndis/NdisSetTimerObject, ndis_timer_ref_7be2aa63-67ef-4416-87d5-d11260a57d3f.xml, netvista.ndissettimerobject
 f1_keywords:
  - "ndis/NdisSetTimerObject"
+ - "NdisSetTimerObject"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisSetTimerObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

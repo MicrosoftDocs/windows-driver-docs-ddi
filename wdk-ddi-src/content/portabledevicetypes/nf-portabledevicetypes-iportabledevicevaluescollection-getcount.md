@@ -10,6 +10,7 @@ keywords: ["IPortableDeviceValuesCollection::GetCount"]
 ms.keywords: GetCount, GetCount method, GetCount method,IPortableDeviceValuesCollection interface, IPortableDeviceValuesCollection interface,GetCount method, IPortableDeviceValuesCollection.GetCount, IPortableDeviceValuesCollection::GetCount, IPortableDeviceValuesCollectionGetCount, portabledevicetypes/IPortableDeviceValuesCollection::GetCount, wpddk.iportabledevicevaluescollection_getcount
 f1_keywords:
  - "portabledevicetypes/IPortableDeviceValuesCollection.GetCount"
+ - "IPortableDeviceValuesCollection.GetCount"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - PortableDeviceTypes.h
 api_name:
 - IPortableDeviceValuesCollection.GetCount
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

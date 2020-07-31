@@ -8,6 +8,7 @@ ms.date: 04/08/2019
 keywords: ["_WWAN_UICC_APP_LIST structure"]
 f1_keywords:
  - "wwan/_WWAN_UICC_APP_LIST"
+ - "_WWAN_UICC_APP_LIST"
 ms.keywords: _WWAN_UICC_APP_LIST, WWAN_UICC_APP_LIST, *PWWAN_UICC_APP_LIST, 
 req.header: wwan.h
 req.include-header:
@@ -30,8 +31,6 @@ api_location:
 - wwan.h
 api_name: 
 - _WWAN_UICC_APP_LIST
-product:
-- Windows
 targetos: Windows
 ms.custom: 19H1
 ---

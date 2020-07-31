@@ -10,6 +10,7 @@ keywords: ["FltGetFileNameInformation function"]
 ms.keywords: FltApiRef_e_to_o_1ce08fd0-5e23-43de-b012-dd71086282ea.xml, FltGetFileNameInformation, FltGetFileNameInformation routine [Installable File System Drivers], fltkernel/FltGetFileNameInformation, ifsk.fltgetfilenameinformation
 f1_keywords:
  - "fltkernel/FltGetFileNameInformation"
+ - "FltGetFileNameInformation"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltGetFileNameInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

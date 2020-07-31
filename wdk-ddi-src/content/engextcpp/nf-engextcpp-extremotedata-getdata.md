@@ -10,6 +10,7 @@ keywords: ["ExtRemoteData::GetData"]
 ms.keywords: EngExtCpp_Ref_a440fb76-5d7c-4e77-9d1e-61c0b7002493.xml, ExtRemoteData class [Windows Debugging],GetData method, ExtRemoteData.GetData, ExtRemoteData::GetData, GetData, GetData method [Windows Debugging], GetData method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_getdata
 f1_keywords:
  - "engextcpp/ExtRemoteData.GetData"
+ - "ExtRemoteData.GetData"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - engextcpp.hpp
 api_name:
 - ExtRemoteData.GetData
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

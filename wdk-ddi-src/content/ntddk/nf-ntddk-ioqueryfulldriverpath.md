@@ -10,6 +10,7 @@ keywords: ["IoQueryFullDriverPath function"]
 ms.keywords: IoQueryFullDriverPath, IoQueryFullDriverPath routine [Kernel-Mode Driver Architecture], kernel.ioqueryfulldriverpath, wdm/IoQueryFullDriverPath
 f1_keywords:
  - "ntddk/IoQueryFullDriverPath"
+ - "IoQueryFullDriverPath"
 req.header: ntddk.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoQueryFullDriverPath
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

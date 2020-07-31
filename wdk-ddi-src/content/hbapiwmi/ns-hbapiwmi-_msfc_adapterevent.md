@@ -10,6 +10,7 @@ keywords: ["_MSFC_AdapterEvent structure"]
 ms.keywords: "*PMSFC_AdapterEvent, MSFC_AdapterEvent, MSFC_AdapterEvent structure [Storage Devices], PMSFC_AdapterEvent, PMSFC_AdapterEvent structure pointer [Storage Devices], _MSFC_AdapterEvent, hbapiwmi/MSFC_AdapterEvent, hbapiwmi/PMSFC_AdapterEvent, storage.msfc_adapterevent, structs-Fibre_b76954f6-f00c-429d-8428-5cf1997cb40d.xml"
 f1_keywords:
  - "hbapiwmi/MSFC_AdapterEvent"
+ - "MSFC_AdapterEvent"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - MSFC_AdapterEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: MSFC_AdapterEvent, *PMSFC_AdapterEvent
 ---

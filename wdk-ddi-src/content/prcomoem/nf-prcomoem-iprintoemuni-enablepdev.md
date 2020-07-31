@@ -10,6 +10,7 @@ keywords: ["IPrintOemUni::EnablePDEV"]
 ms.keywords: EnablePDEV, EnablePDEV method [Print Devices], EnablePDEV method [Print Devices],IPrintOemUni interface, IPrintOemUni interface [Print Devices],EnablePDEV method, IPrintOemUni.EnablePDEV, IPrintOemUni::EnablePDEV, prcomoem/IPrintOemUni::EnablePDEV, print.iprintoemuni_enablepdev, print_unidrv-pscript_rendering_ec7d7a16-5eae-4d4e-8596-7463d967120e.xml
 f1_keywords:
  - "prcomoem/IPrintOemUni.EnablePDEV"
+ - "IPrintOemUni.EnablePDEV"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Prcomoem.h
 api_name:
 - IPrintOemUni.EnablePDEV
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

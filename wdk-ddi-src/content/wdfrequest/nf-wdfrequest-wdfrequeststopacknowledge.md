@@ -10,6 +10,7 @@ keywords: ["WdfRequestStopAcknowledge function"]
 ms.keywords: DFRequestObjectRef_14594eba-ca7f-433b-9fd4-717053a09158.xml, WdfRequestStopAcknowledge, WdfRequestStopAcknowledge method, kmdf.wdfrequeststopacknowledge, wdf.wdfrequeststopacknowledge, wdfrequest/WdfRequestStopAcknowledge
 f1_keywords:
  - "wdfrequest/WdfRequestStopAcknowledge"
+ - "WdfRequestStopAcknowledge"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfRequestStopAcknowledge
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

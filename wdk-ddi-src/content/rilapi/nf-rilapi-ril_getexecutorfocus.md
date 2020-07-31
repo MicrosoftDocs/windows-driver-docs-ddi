@@ -10,6 +10,7 @@ keywords: ["RIL_GetExecutorFocus function"]
 ms.keywords: RIL_GetExecutorFocus, RIL_GetExecutorFocus method [Network Drivers Starting with Windows Vista], netvista.ril_getexecutorfocus, rilapi/RIL_GetExecutorFocus
 f1_keywords:
  - "rilapi/RIL_GetExecutorFocus"
+ - "RIL_GetExecutorFocus"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_GetExecutorFocus
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["KeSetBasePriorityThread function"]
 ms.keywords: KeSetBasePriorityThread, KeSetBasePriorityThread routine [Kernel-Mode Driver Architecture], k105_6c558266-e459-447c-9586-4b327e24d7dd.xml, kernel.kesetbaseprioritythread, ntddk/KeSetBasePriorityThread
 f1_keywords:
  - "ntddk/KeSetBasePriorityThread"
+ - "KeSetBasePriorityThread"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeSetBasePriorityThread
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

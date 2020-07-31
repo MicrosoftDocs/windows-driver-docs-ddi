@@ -10,6 +10,7 @@ keywords: ["FltFreeFileLock function"]
 ms.keywords: FltApiRef_e_to_o_823e2511-8afe-4151-bbac-a9481c079068.xml, FltFreeFileLock, FltFreeFileLock routine [Installable File System Drivers], fltkernel/FltFreeFileLock, ifsk.fltfreefilelock
 f1_keywords:
  - "fltkernel/FltFreeFileLock"
+ - "FltFreeFileLock"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - FltMgr.dll
 api_name:
 - FltFreeFileLock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

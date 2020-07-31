@@ -10,6 +10,7 @@ keywords: ["_DVD_COPYRIGHT_DESCRIPTOR structure"]
 ms.keywords: "*PDVD_COPYRIGHT_DESCRIPTOR, DVD_COPYRIGHT_DESCRIPTOR, DVD_COPYRIGHT_DESCRIPTOR structure [Storage Devices], PDVD_COPYRIGHT_DESCRIPTOR, PDVD_COPYRIGHT_DESCRIPTOR structure pointer [Storage Devices], _DVD_COPYRIGHT_DESCRIPTOR, ntddcdvd/DVD_COPYRIGHT_DESCRIPTOR, ntddcdvd/PDVD_COPYRIGHT_DESCRIPTOR, storage.dvd_copyright_descriptor, structs-DVD_35ca576a-d7b4-49df-95cf-1d5339c6ae78.xml"
 f1_keywords:
  - "ntddcdvd/DVD_COPYRIGHT_DESCRIPTOR"
+ - "DVD_COPYRIGHT_DESCRIPTOR"
 req.header: ntddcdvd.h
 req.include-header: Ntddcdvd.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddcdvd.h
 api_name:
 - DVD_COPYRIGHT_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: DVD_COPYRIGHT_DESCRIPTOR, *PDVD_COPYRIGHT_DESCRIPTOR
 ---

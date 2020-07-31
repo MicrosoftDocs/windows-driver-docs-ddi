@@ -10,6 +10,7 @@ keywords: ["_DXVADDI_PRIVATEDATA structure"]
 ms.keywords: DXVA2_Structs_8d49dc5e-8eff-4b7a-aa44-20b4f784a70f.xml, DXVADDI_PRIVATEDATA, DXVADDI_PRIVATEDATA structure [Display Devices], _DXVADDI_PRIVATEDATA, d3dumddi/DXVADDI_PRIVATEDATA, display.dxvaddi_privatedata
 f1_keywords:
  - "d3dumddi/DXVADDI_PRIVATEDATA"
+ - "DXVADDI_PRIVATEDATA"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - DXVADDI_PRIVATEDATA
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVADDI_PRIVATEDATA
 ---

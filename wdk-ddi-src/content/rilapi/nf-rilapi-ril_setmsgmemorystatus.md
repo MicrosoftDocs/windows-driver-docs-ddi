@@ -10,6 +10,7 @@ keywords: ["RIL_SetMsgMemoryStatus function"]
 ms.keywords: RIL_SetMsgMemoryStatus, RIL_SetMsgMemoryStatus method [Network Drivers Starting with Windows Vista], netvista.ril_setmsgmemorystatus, rilapi/RIL_SetMsgMemoryStatus
 f1_keywords:
  - "rilapi/RIL_SetMsgMemoryStatus"
+ - "RIL_SetMsgMemoryStatus"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_SetMsgMemoryStatus
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

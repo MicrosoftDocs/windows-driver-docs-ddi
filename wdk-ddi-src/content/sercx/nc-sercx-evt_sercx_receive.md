@@ -10,6 +10,7 @@ keywords: ["EVT_SERCX_RECEIVE callback function"]
 ms.keywords: 1/EvtSerCxReceive, EVT_SERCX_RECEIVE, EVT_SERCX_RECEIVE callback, EvtSerCxReceive, EvtSerCxReceive callback function [Serial Ports], serports.evtsercxreceive
 f1_keywords:
  - "sercx/EvtSerCxReceive"
+ - "EvtSerCxReceive"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - 1.0\Sercx.h
 api_name:
 - EvtSerCxReceive
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

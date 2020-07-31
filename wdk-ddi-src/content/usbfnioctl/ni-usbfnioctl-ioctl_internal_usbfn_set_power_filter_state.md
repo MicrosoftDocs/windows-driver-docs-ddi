@@ -10,6 +10,7 @@ keywords: ["IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE IOCTL"]
 ms.keywords: IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE, IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE control, IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE control code [Buses], buses.ioctl_internal_usbfn_set_power_filter_state, usbfnioctl/IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE
 f1_keywords:
  - "usbfnioctl/IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE"
+ - "IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE"
 req.header: usbfnioctl.h
 req.include-header: Usbfnioctl.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - usbfnioctl.h
 api_name:
 - IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IOCTL_BIOMETRIC_GET_SENSOR_STATUS IOCTL"]
 ms.keywords: IOCTL_BIOMETRIC_GET_SENSOR_STATUS, IOCTL_BIOMETRIC_GET_SENSOR_STATUS control, IOCTL_BIOMETRIC_GET_SENSOR_STATUS control code [Biometric Devices], biometric.ioctl_biometric_get_sensor_status, biometric_ref_74620630-37ce-4473-bb28-2fef40f885ad.xml, winbio_ioctl/IOCTL_BIOMETRIC_GET_SENSOR_STATUS
 f1_keywords:
  - "winbio_ioctl/IOCTL_BIOMETRIC_GET_SENSOR_STATUS"
+ - "IOCTL_BIOMETRIC_GET_SENSOR_STATUS"
 req.header: winbio_ioctl.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Winbio_ioctl.h
 api_name:
 - IOCTL_BIOMETRIC_GET_SENSOR_STATUS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

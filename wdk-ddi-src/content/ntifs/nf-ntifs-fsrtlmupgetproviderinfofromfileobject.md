@@ -10,6 +10,7 @@ keywords: ["FsRtlMupGetProviderInfoFromFileObject function"]
 ms.keywords: FsRtlMupGetProviderInfoFromFileObject, FsRtlMupGetProviderInfoFromFileObject routine [Installable File System Drivers], fsrtlref_7ad681c5-3f7c-42d1-8644-7cd677101413.xml, ifsk.fsrtlmupgetproviderinfofromfileobject, ntifs/FsRtlMupGetProviderInfoFromFileObject
 f1_keywords:
  - "ntifs/FsRtlMupGetProviderInfoFromFileObject"
+ - "FsRtlMupGetProviderInfoFromFileObject"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlMupGetProviderInfoFromFileObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IPrintCoreHelper::EnumFeatures"]
 ms.keywords: EnumFeatures, EnumFeatures method [Print Devices], EnumFeatures method [Print Devices],IPrintCoreHelper interface, IPrintCoreHelper interface [Print Devices],EnumFeatures method, IPrintCoreHelper.EnumFeatures, IPrintCoreHelper::EnumFeatures, prcomoem/IPrintCoreHelper::EnumFeatures, print.iprintcorehelper_enumfeatures, print_unidrv-pscript_allplugins_322210f8-379e-4b8a-973b-ed44a7245965.xml
 f1_keywords:
  - "prcomoem/IPrintCoreHelper.EnumFeatures"
+ - "IPrintCoreHelper.EnumFeatures"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Prcomoem.h
 api_name:
 - IPrintCoreHelper.EnumFeatures
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

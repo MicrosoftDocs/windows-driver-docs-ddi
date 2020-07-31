@@ -10,6 +10,7 @@ keywords: ["NdisMNetPnPEvent function"]
 ms.keywords: NdisMNetPnPEvent, NdisMNetPnPEvent function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_0f39567c-b58c-438e-936e-36323bbc2ea6.xml, ndis/NdisMNetPnPEvent, netvista.ndismnetpnpevent
 f1_keywords:
  - "ndis/NdisMNetPnPEvent"
+ - "NdisMNetPnPEvent"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisMNetPnPEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["_SERIAL_CHARS structure"]
 ms.keywords: "*PSERIAL_CHARS, PSERIAL_CHARS, PSERIAL_CHARS structure pointer [Serial Ports], SERIAL_CHARS, SERIAL_CHARS structure [Serial Ports], _SERIAL_CHARS, ntddser/PSERIAL_CHARS, ntddser/SERIAL_CHARS, serports.serial_chars"
 f1_keywords:
  - "ntddser/SERIAL_CHARS"
+ - "SERIAL_CHARS"
 req.header: ntddser.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddser.h
 api_name:
 - SERIAL_CHARS
-product:
-- Windows
 targetos: Windows
 req.typenames: SERIAL_CHARS, *PSERIAL_CHARS
 ---

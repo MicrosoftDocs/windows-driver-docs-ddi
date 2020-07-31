@@ -10,6 +10,7 @@ keywords: ["_IRB_REQ_GET_MAX_SPEED_BETWEEN_DEVICES structure"]
 ms.keywords: 1394/IRB_REQ_GET_MAX_SPEED_BETWEEN_DEVICES, IEEE.irb_req_get_max_speed_between_devices, IRB_REQ_GET_MAX_SPEED_BETWEEN_DEVICES, IRB_REQ_GET_MAX_SPEED_BETWEEN_DEVICES structure [Buses], _IRB_REQ_GET_MAX_SPEED_BETWEEN_DEVICES
 f1_keywords:
  - "1394/IRB_REQ_GET_MAX_SPEED_BETWEEN_DEVICES"
+ - "IRB_REQ_GET_MAX_SPEED_BETWEEN_DEVICES"
 req.header: 1394.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - 1394.h
 api_name:
 - IRB_REQ_GET_MAX_SPEED_BETWEEN_DEVICES
-product:
-- Windows
 targetos: Windows
 req.typenames: IRB_REQ_GET_MAX_SPEED_BETWEEN_DEVICES
 ---

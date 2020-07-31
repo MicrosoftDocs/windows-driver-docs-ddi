@@ -10,6 +10,7 @@ keywords: ["IWDFDevice2::CreateRemoteTarget"]
 ms.keywords: CreateRemoteTarget, CreateRemoteTarget method, CreateRemoteTarget method,IWDFDevice2 interface, IWDFDevice2 interface,CreateRemoteTarget method, IWDFDevice2.CreateRemoteTarget, IWDFDevice2::CreateRemoteTarget, UMDFDeviceObjectRef_877f2d10-92a7-4e04-b07e-683b728c691a.xml, umdf.iwdfdevice2_createremotetarget, wdf.iwdfdevice2_createremotetarget, wudfddi/IWDFDevice2::CreateRemoteTarget
 f1_keywords:
  - "wudfddi/IWDFDevice2.CreateRemoteTarget"
+ - "IWDFDevice2.CreateRemoteTarget"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFDevice2.CreateRemoteTarget
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

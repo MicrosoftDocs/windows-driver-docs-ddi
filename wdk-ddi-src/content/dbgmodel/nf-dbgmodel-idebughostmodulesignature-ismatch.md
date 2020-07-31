@@ -7,6 +7,7 @@ ms.date: 09/18/2018
 keywords: ["IDebugHostModuleSignature::IsMatch"]
 f1_keywords:
  - "dbgmodel/IDebugHostModuleSignature.IsMatch"
+ - "IDebugHostModuleSignature.IsMatch"
 ms.keywords: IDebugHostModuleSignature::IsMatch, IsMatch, IDebugHostModuleSignature.IsMatch, IDebugHostModuleSignature::IsMatch, IDebugHostModuleSignature.IsMatch
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostModuleSignature.IsMatch
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

@@ -10,6 +10,7 @@ keywords: ["RtlCopyMemory macro"]
 ms.keywords: RtlCopyBytes, RtlCopyMemory, RtlCopyMemory routine [Kernel-Mode Driver Architecture], k109_f4bb1fef-aae6-4086-b95a-ae4dc220c04b.xml, kernel.rtlcopymemory, wdm/RtlCopyMemory
 f1_keywords:
  - "wdm/RtlCopyMemory"
+ - "RtlCopyMemory"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -38,8 +39,6 @@ api_location:
 - API-MS-Win-Core-Rtlsupport-l1-1-0.dll
 api_name:
 - RtlCopyMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

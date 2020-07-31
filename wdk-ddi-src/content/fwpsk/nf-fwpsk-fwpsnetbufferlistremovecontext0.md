@@ -10,6 +10,7 @@ keywords: ["FwpsNetBufferListRemoveContext0 function"]
 ms.keywords: FwpsNetBufferListRemoveContext0, FwpsNetBufferListRemoveContext0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsNetBufferListRemoveContext0, netvista.fwpsnetbufferlistremovecontext0, wfp_ref_2_funct_3_fwps_J-Q_320b667d-7f90-4a71-acff-e5b0b216ea3c.xml
 f1_keywords:
  - "fwpsk/FwpsNetBufferListRemoveContext0"
+ - "FwpsNetBufferListRemoveContext0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - fwpkclnt.dll
 api_name:
 - FwpsNetBufferListRemoveContext0
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

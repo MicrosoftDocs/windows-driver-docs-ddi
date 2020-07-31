@@ -10,6 +10,7 @@ keywords: ["BdaPropertyTemplateConnections function"]
 ms.keywords: BdaPropertyTemplateConnections, BdaPropertyTemplateConnections function [Streaming Media Devices], bdaref_919b0c2d-5bb9-4e17-8028-79f669ab7b8c.xml, bdasup/BdaPropertyTemplateConnections, stream.bdapropertytemplateconnections
 f1_keywords:
  - "bdasup/BdaPropertyTemplateConnections"
+ - "BdaPropertyTemplateConnections"
 req.header: bdasup.h
 req.include-header: Bdasup.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Bdasup.dll
 api_name:
 - BdaPropertyTemplateConnections
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

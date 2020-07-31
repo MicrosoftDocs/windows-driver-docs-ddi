@@ -10,6 +10,7 @@ keywords: ["IWDFFile2::GetRelatedFileObject"]
 ms.keywords: GetRelatedFileObject, GetRelatedFileObject method, GetRelatedFileObject method,IWDFFile2 interface, IWDFFile2 interface,GetRelatedFileObject method, IWDFFile2.GetRelatedFileObject, IWDFFile2::GetRelatedFileObject, UMDFFileObjectRef_f65433dc-ba63-456e-beff-ef7c9e2dffa8.xml, umdf.iwdffile2_getrelatedfileobject, wdf.iwdffile2_getrelatedfileobject, wudfddi/IWDFFile2::GetRelatedFileObject
 f1_keywords:
  - "wudfddi/IWDFFile2.GetRelatedFileObject"
+ - "IWDFFile2.GetRelatedFileObject"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFFile2.GetRelatedFileObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

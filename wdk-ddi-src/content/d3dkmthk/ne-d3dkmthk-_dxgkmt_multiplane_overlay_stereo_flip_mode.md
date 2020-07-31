@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_DXGKMT_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE enumeration"]
 f1_keywords:
  - "d3dkmthk/_DXGKMT_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE"
+ - "_DXGKMT_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE"
 ms.keywords: _DXGKMT_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE, DXGKMT_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE, 
 req.header: d3dkmthk.h
 req.include-header:
@@ -26,8 +27,6 @@ api_location:
 - d3dkmthk.h
 api_name: 
 - _DXGKMT_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

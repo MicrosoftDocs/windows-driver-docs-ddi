@@ -10,6 +10,7 @@ keywords: ["LAMP_MODE enumeration"]
 ms.keywords: LAMP_MODE, LAMP_MODE enumeration [Streaming Media Devices], LAMP_MODE_COLOR, LAMP_MODE_WHITE, lamp/LAMP_MODE, lamp/LAMP_MODE_COLOR, lamp/LAMP_MODE_WHITE, stream.lamp_mode
 f1_keywords:
  - "lamp/LAMP_MODE"
+ - "LAMP_MODE"
 req.header: lamp.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - lamp.h
 api_name:
 - LAMP_MODE
-product:
-- Windows
 targetos: Windows
 req.typenames: LAMP_MODE
 ---

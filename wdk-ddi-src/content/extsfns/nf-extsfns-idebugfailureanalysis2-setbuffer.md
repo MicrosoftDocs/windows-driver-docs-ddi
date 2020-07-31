@@ -10,6 +10,7 @@ keywords: ["IDebugFailureAnalysis2::SetBuffer"]
 ms.keywords: IDebugFailureAnalysis2 interface [Windows Debugging],SetBuffer method, IDebugFailureAnalysis2.SetBuffer, IDebugFailureAnalysis2::SetBuffer, SetBuffer, SetBuffer method [Windows Debugging], SetBuffer method [Windows Debugging],IDebugFailureAnalysis2 interface, debugger.idebugfailureanalysis2_setbuffer, extsfns/IDebugFailureAnalysis2::SetBuffer
 f1_keywords:
  - "extsfns/IDebugFailureAnalysis2.SetBuffer"
+ - "IDebugFailureAnalysis2.SetBuffer"
 req.header: extsfns.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - extsfns.h
 api_name:
 - IDebugFailureAnalysis2.SetBuffer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

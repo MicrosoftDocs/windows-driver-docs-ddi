@@ -10,6 +10,7 @@ keywords: ["D3DKMDT_VPPR_GET_CONTENT_ROTATION function"]
 ms.keywords: D3DKMDT_VPPR_GET_CONTENT_ROTATION, D3DKMDT_VPPR_GET_CONTENT_ROTATION function [Display Devices], d3dkmdt/D3DKMDT_VPPR_GET_CONTENT_ROTATION, display.d3dkmdt_vppr_get_content_rotation
 f1_keywords:
  - "d3dkmdt/D3DKMDT_VPPR_GET_CONTENT_ROTATION"
+ - "D3DKMDT_VPPR_GET_CONTENT_ROTATION"
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - D3dkmdt.h
 api_name:
 - D3DKMDT_VPPR_GET_CONTENT_ROTATION
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

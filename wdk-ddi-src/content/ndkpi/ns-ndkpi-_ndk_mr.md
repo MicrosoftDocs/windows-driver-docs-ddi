@@ -10,6 +10,7 @@ keywords: ["_NDK_MR structure"]
 ms.keywords: NDK_MR, NDK_MR structure [Network Drivers Starting with Windows Vista], PNDK_MR, PNDK_MR structure pointer [Network Drivers Starting with Windows Vista], _NDK_MR, ndkpi/NDK_MR, ndkpi/PNDK_MR, netvista.ndk_mr
 f1_keywords:
  - "ndkpi/NDK_MR"
+ - "NDK_MR"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ndkpi.h
 api_name:
 - NDK_MR
-product:
-- Windows
 targetos: Windows
 req.typenames: NDK_MR
 ---

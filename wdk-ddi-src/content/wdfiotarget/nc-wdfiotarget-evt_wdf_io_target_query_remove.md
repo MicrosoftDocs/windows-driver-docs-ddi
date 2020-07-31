@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_IO_TARGET_QUERY_REMOVE callback function"]
 ms.keywords: DFIOTargetRef_9a471005-a4c8-4918-bc4c-4147bd6018f0.xml, EVT_WDF_IO_TARGET_QUERY_REMOVE, EVT_WDF_IO_TARGET_QUERY_REMOVE callback, EvtIoTargetQueryRemove, EvtIoTargetQueryRemove callback function, kmdf.evtiotargetqueryremove, wdf.evtiotargetqueryremove, wdfiotarget/EvtIoTargetQueryRemove
 f1_keywords:
  - "wdfiotarget/EvtIoTargetQueryRemove"
+ - "EvtIoTargetQueryRemove"
 req.header: wdfiotarget.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - WdfIoTarget.h
 api_name:
 - EvtIoTargetQueryRemove
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

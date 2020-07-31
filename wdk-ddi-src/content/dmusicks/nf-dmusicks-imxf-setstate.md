@@ -8,6 +8,7 @@ ms.date: 10/31/2018
 keywords: ["IMXF::SetState"]
 f1_keywords:
  - "dmusicks/IMXF.SetState"
+ - "IMXF.SetState"
 ms.keywords: IMXF::SetState, SetState, IMXF.SetState, IMXF::SetState, IMXF.SetState
 req.header: dmusicks.h
 req.include-header:

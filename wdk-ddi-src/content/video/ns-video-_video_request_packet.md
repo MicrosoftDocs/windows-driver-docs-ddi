@@ -10,6 +10,7 @@ keywords: ["_VIDEO_REQUEST_PACKET structure"]
 ms.keywords: "*PVIDEO_REQUEST_PACKET, PVIDEO_REQUEST_PACKET, PVIDEO_REQUEST_PACKET structure pointer [Display Devices], VIDEO_REQUEST_PACKET, VIDEO_REQUEST_PACKET structure [Display Devices], Video_Structs_38b404b6-a625-43a4-b2ad-21749c64eee1.xml, _VIDEO_REQUEST_PACKET, display.video_request_packet, video/PVIDEO_REQUEST_PACKET, video/VIDEO_REQUEST_PACKET"
 f1_keywords:
  - "video/VIDEO_REQUEST_PACKET"
+ - "VIDEO_REQUEST_PACKET"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - video.h
 api_name:
 - VIDEO_REQUEST_PACKET
-product:
-- Windows
 targetos: Windows
 req.typenames: VIDEO_REQUEST_PACKET, *PVIDEO_REQUEST_PACKET
 ---

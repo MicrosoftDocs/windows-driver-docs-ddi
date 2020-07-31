@@ -10,6 +10,7 @@ keywords: ["FsRtlAreNamesEqual function"]
 ms.keywords: FsRtlAreNamesEqual, FsRtlAreNamesEqual routine [Installable File System Drivers], fsrtlref_748ea4a2-40a9-47e7-8a7f-f67463082f81.xml, ifsk.fsrtlarenamesequal, ntifs/FsRtlAreNamesEqual
 f1_keywords:
  - "ntifs/FsRtlAreNamesEqual"
+ - "FsRtlAreNamesEqual"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlAreNamesEqual
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 dev_langs:

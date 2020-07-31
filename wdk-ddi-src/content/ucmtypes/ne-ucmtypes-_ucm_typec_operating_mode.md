@@ -10,6 +10,7 @@ keywords: ["_UCM_TYPEC_OPERATING_MODE enumeration"]
 ms.keywords: UCM_TYPEC_OPERATING_MODE, UCM_TYPEC_OPERATING_MODE enumeration [Buses], UcmTypeCOperatingModeDfp, UcmTypeCOperatingModeDrp, UcmTypeCOperatingModeInvalid, UcmTypeCOperatingModeUfp, _UCM_TYPEC_OPERATING_MODE, buses.ucm_type_c_operating_mode, ucmtypes/UCM_TYPEC_OPERATING_MODE, ucmtypes/UcmTypeCOperatingModeDfp, ucmtypes/UcmTypeCOperatingModeDrp, ucmtypes/UcmTypeCOperatingModeInvalid, ucmtypes/UcmTypeCOperatingModeUfp
 f1_keywords:
  - "ucmtypes/UCM_TYPEC_OPERATING_MODE"
+ - "UCM_TYPEC_OPERATING_MODE"
 req.header: ucmtypes.h
 req.include-header: Ucmcx.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ucmtypes.h
 api_name:
 - UCM_TYPEC_OPERATING_MODE
-product:
-- Windows
 targetos: Windows
 req.typenames: UCM_TYPEC_OPERATING_MODE
 ---

@@ -10,6 +10,7 @@ keywords: ["_USB_HUB_INFORMATION structure"]
 ms.keywords: "*PUSB_HUB_INFORMATION, PUSB_HUB_INFORMATION, PUSB_HUB_INFORMATION structure pointer [Buses], USB_HUB_INFORMATION, USB_HUB_INFORMATION structure [Buses], _USB_HUB_INFORMATION, buses.usb_hub_information, usbioctl/PUSB_HUB_INFORMATION, usbioctl/USB_HUB_INFORMATION, usbstrct_3997108b-7c0b-419e-80e8-fadab455a2f5.xml"
 f1_keywords:
  - "usbioctl/USB_HUB_INFORMATION"
+ - "USB_HUB_INFORMATION"
 req.header: usbioctl.h
 req.include-header: Usbioctl.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - usbioctl.h
 api_name:
 - USB_HUB_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: USB_HUB_INFORMATION, *PUSB_HUB_INFORMATION
 ---

@@ -10,6 +10,7 @@ keywords: ["_CM_FLOPPY_DEVICE_DATA structure"]
 ms.keywords: "*PCM_FLOPPY_DEVICE_DATA, CM_FLOPPY_DEVICE_DATA, CM_FLOPPY_DEVICE_DATA structure [Kernel-Mode Driver Architecture], PCM_FLOPPY_DEVICE_DATA, PCM_FLOPPY_DEVICE_DATA structure pointer [Kernel-Mode Driver Architecture], _CM_FLOPPY_DEVICE_DATA, kernel.cm_floppy_device_data, kstruct_a_7ec8badb-4d88-479e-b0dc-ce88660b8449.xml, wdm/CM_FLOPPY_DEVICE_DATA, wdm/PCM_FLOPPY_DEVICE_DATA"
 f1_keywords:
  - "wdm/CM_FLOPPY_DEVICE_DATA"
+ - "CM_FLOPPY_DEVICE_DATA"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - CM_FLOPPY_DEVICE_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: CM_FLOPPY_DEVICE_DATA, *PCM_FLOPPY_DEVICE_DATA
 ---

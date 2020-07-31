@@ -9,6 +9,7 @@ keywords: ["_DXGK_QUERYDISPLAYIDOUT structure"]
 ms.keywords: DXGK_QUERYDISPLAYIDOUT, DXGK_QUERYDISPLAYIDOUT structure [Display Devices], _DXGK_QUERYDISPLAYIDOUT, d3dkmddi/DXGK_QUERYDISPLAYIDOUT, display.dxgk_querydisplayidout
 f1_keywords:
  - "d3dkmddi/DXGK_QUERYDISPLAYIDOUT"
+ - "DXGK_QUERYDISPLAYIDOUT"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGK_QUERYDISPLAYIDOUT
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_QUERYDISPLAYIDOUT

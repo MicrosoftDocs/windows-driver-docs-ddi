@@ -10,6 +10,7 @@ keywords: ["IOCTL_SET_NUM_DEVICE_INPUT_BUFFERS IOCTL"]
 ms.keywords: IOCTL_SET_NUM_DEVICE_INPUT_BUFFERS, IOCTL_SET_NUM_DEVICE_INPUT_BUFFERS control, IOCTL_SET_NUM_DEVICE_INPUT_BUFFERS control code [Human Input Devices], hid.ioctl_set_num_device_input_buffers, hidclass/IOCTL_SET_NUM_DEVICE_INPUT_BUFFERS, hidioreq_2fe1c0f7-6867-4924-a76f-b7970ebb1201.xml
 f1_keywords:
  - "hidclass/IOCTL_SET_NUM_DEVICE_INPUT_BUFFERS"
+ - "IOCTL_SET_NUM_DEVICE_INPUT_BUFFERS"
 req.header: hidclass.h
 req.include-header: Hidclass.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - hidclass.h
 api_name:
 - IOCTL_SET_NUM_DEVICE_INPUT_BUFFERS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

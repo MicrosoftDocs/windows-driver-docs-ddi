@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_WORKITEM callback function"]
 ms.keywords: DFWorkItemObjectRef_e799d95c-bbde-402a-8ba6-6e03256772ff.xml, EVT_WDF_WORKITEM, EVT_WDF_WORKITEM callback, EvtWorkItem, EvtWorkItem callback function, kmdf.evtworkitem, wdf.evtworkitem, wdfworkitem/EvtWorkItem
 f1_keywords:
  - "wdfworkitem/EvtWorkItem"
+ - "EvtWorkItem"
 req.header: wdfworkitem.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Wdfworkitem.h
 api_name:
 - EvtWorkItem
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

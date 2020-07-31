@@ -10,6 +10,7 @@ keywords: ["EVT_SENSOR_DRIVER_SET_DATA_THRESHOLDS callback function"]
 ms.keywords: EVT_SENSOR_DRIVER_SET_DATA_THRESHOLDS, EVT_SENSOR_DRIVER_SET_DATA_THRESHOLDS callback, EvtSensorSetDataThresholds, EvtSensorSetDataThresholds callback function [Sensor Devices], sensors.evtsensorsetdatathresholds, sensorscx/EvtSensorSetDataThresholds
 f1_keywords:
  - "sensorscx/EvtSensorSetDataThresholds"
+ - "EvtSensorSetDataThresholds"
 req.header: sensorscx.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - SensorsCx.h
 api_name:
 - EvtSensorSetDataThresholds
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

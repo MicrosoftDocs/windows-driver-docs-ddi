@@ -10,6 +10,7 @@ keywords: ["IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION IOCTL"]
 ms.keywords: IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION, IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION control, IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION control code [Buses], buses.ioctl_usb_get_descriptor_from_node_connection, usbioctl/IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION, usbirp_060f6333-3fe9-4a4b-8ff1-f7403a3e8dfe.xml
 f1_keywords:
  - "usbioctl/IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION"
+ - "IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION"
 req.header: usbioctl.h
 req.include-header: Usbioctl.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Usbioctl.h
 api_name:
 - IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

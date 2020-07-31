@@ -10,6 +10,7 @@ keywords: ["_UCM_MANAGER_CONFIG structure"]
 ms.keywords: "*PUCM_MANAGER_CONFIG, PUCM_MANAGER_CONFIG, PUCM_MANAGER_CONFIG structure pointer [Buses], UCM_MANAGER_CONFIG, UCM_MANAGER_CONFIG structure [Buses], _UCM_MANAGER_CONFIG, buses.ucm_manager_config, ucmmanager/PUCM_MANAGER_CONFIG, ucmmanager/UCM_MANAGER_CONFIG"
 f1_keywords:
  - "ucmmanager/UCM_MANAGER_CONFIG"
+ - "UCM_MANAGER_CONFIG"
 req.header: ucmmanager.h
 req.include-header: Ucmcx.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ucmmanager.h
 api_name:
 - UCM_MANAGER_CONFIG
-product:
-- Windows
 targetos: Windows
 req.typenames: UCM_MANAGER_CONFIG, *PUCM_MANAGER_CONFIG
 ---

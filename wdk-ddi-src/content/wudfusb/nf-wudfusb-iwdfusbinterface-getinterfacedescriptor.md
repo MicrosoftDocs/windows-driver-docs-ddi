@@ -10,6 +10,7 @@ keywords: ["IWDFUsbInterface::GetInterfaceDescriptor"]
 ms.keywords: GetInterfaceDescriptor, GetInterfaceDescriptor method, GetInterfaceDescriptor method,IWDFUsbInterface interface, IWDFUsbInterface interface,GetInterfaceDescriptor method, IWDFUsbInterface.GetInterfaceDescriptor, IWDFUsbInterface::GetInterfaceDescriptor, UMDFUSBref_2d9877fd-47c4-4629-8656-d5d513260b2d.xml, umdf.iwdfusbinterface_getinterfacedescriptor, wdf.iwdfusbinterface_getinterfacedescriptor, wudfusb/IWDFUsbInterface::GetInterfaceDescriptor
 f1_keywords:
  - "wudfusb/IWDFUsbInterface.GetInterfaceDescriptor"
+ - "IWDFUsbInterface.GetInterfaceDescriptor"
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFUsbInterface.GetInterfaceDescriptor
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

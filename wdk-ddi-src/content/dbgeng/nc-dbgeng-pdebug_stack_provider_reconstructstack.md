@@ -10,6 +10,7 @@ keywords: ["PDEBUG_STACK_PROVIDER_RECONSTRUCTSTACK callback function"]
 ms.keywords: PDEBUG_STACK_PROVIDER_RECONSTRUCTSTACK, PDEBUG_STACK_PROVIDER_RECONSTRUCTSTACK callback, ReconstructStack, ReconstructStack callback function [Windows Debugging], dbgeng/ReconstructStack, debugger.reconstructstack
 f1_keywords:
  - "dbgeng/ReconstructStack"
+ - "ReconstructStack"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Dbgeng.h
 api_name:
 - ReconstructStack
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IWDTFSimpleIOEx2::Open"]
 ms.keywords: IWDTFSimpleIOEx2 interface [Windows Device Testing Framework],Open method, IWDTFSimpleIOEx2.Open, IWDTFSimpleIOEx2::Open, Microsoft.WDTF.IWDTFSimpleIOEx2.Open, Microsoft::WDTF::IWDTFSimpleIOEx2::Open, Open, Open method [Windows Device Testing Framework], Open method [Windows Device Testing Framework],IWDTFSimpleIOEx2 interface, dtf.iwdtfsimpleioex2_open, wdtfinterfaces/IWDTFSimpleIOEx2::Open
 f1_keywords:
  - "wdtfinterfaces/IWDTFSimpleIOEx2.Open"
+ - "IWDTFSimpleIOEx2.Open"
 req.header: wdtfinterfaces.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WDTFInterfaces.Interop.dll
 api_name:
 - IWDTFSimpleIOEx2.Open
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

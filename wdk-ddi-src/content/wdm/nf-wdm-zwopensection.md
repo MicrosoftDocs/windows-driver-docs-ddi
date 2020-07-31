@@ -10,6 +10,7 @@ keywords: ["ZwOpenSection function"]
 ms.keywords: NtOpenSection, ZwOpenSection, ZwOpenSection routine [Kernel-Mode Driver Architecture], k111_51851f81-8825-499b-9e7e-36faa8f53b23.xml, kernel.zwopensection, wdm/NtOpenSection, wdm/ZwOpenSection
 f1_keywords:
  - "wdm/ZwOpenSection"
+ - "ZwOpenSection"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - ZwOpenSection
 - NtOpenSection
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

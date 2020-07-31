@@ -10,6 +10,7 @@ keywords: ["RtlGetGroupSecurityDescriptor function"]
 ms.keywords: RtlGetGroupSecurityDescriptor, RtlGetGroupSecurityDescriptor routine [Installable File System Drivers], ifsk.rtlgetgroupsecuritydescriptor, ntifs/RtlGetGroupSecurityDescriptor, rtlref_6ff72a5f-d1ef-4fac-bdd0-4a612c0018ca.xml
 f1_keywords:
  - "ntifs/RtlGetGroupSecurityDescriptor"
+ - "RtlGetGroupSecurityDescriptor"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlGetGroupSecurityDescriptor
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

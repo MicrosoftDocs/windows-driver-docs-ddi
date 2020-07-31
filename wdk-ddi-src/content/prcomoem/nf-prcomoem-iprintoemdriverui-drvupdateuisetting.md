@@ -10,6 +10,7 @@ keywords: ["IPrintOemDriverUI::DrvUpdateUISetting"]
 ms.keywords: DrvUpdateUISetting, DrvUpdateUISetting method [Print Devices], DrvUpdateUISetting method [Print Devices],IPrintOemDriverUI interface, IPrintOemDriverUI interface [Print Devices],DrvUpdateUISetting method, IPrintOemDriverUI.DrvUpdateUISetting, IPrintOemDriverUI::DrvUpdateUISetting, prcomoem/IPrintOemDriverUI::DrvUpdateUISetting, print.iprintoemdriverui_drvupdateuisetting, print_unidrv-pscript_ui_7a403e81-0021-463c-954c-659dd8c578b0.xml
 f1_keywords:
  - "prcomoem/IPrintOemDriverUI.DrvUpdateUISetting"
+ - "IPrintOemDriverUI.DrvUpdateUISetting"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - prcomoem.h
 api_name:
 - IPrintOemDriverUI.DrvUpdateUISetting
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

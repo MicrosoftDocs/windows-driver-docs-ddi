@@ -9,6 +9,7 @@ keywords: ["PFND3D10DDI_SETRASTERIZERSTATE callback function"]
 ms.keywords: PFND3D10DDI_SETRASTERIZERSTATE, PFND3D10DDI_SETRASTERIZERSTATE callback, SetRasterizerState, SetRasterizerState callback function [Display Devices], UserModeDisplayDriverDx10_Functions_4f21a729-b192-441f-b80d-cae10432ab0a.xml, d3d10umddi/SetRasterizerState, display.setrasterizerstate
 f1_keywords:
  - "d3d10umddi/SetRasterizerState"
+ - "SetRasterizerState"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - SetRasterizerState
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

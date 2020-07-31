@@ -10,6 +10,7 @@ keywords: ["PROTOCOL_CM_MODIFY_QOS_CALL callback function"]
 ms.keywords: PROTOCOL_CM_MODIFY_QOS_CALL, PROTOCOL_CM_MODIFY_QOS_CALL callback, ProtocolCmModifyCallQoS, ProtocolCmModifyCallQoS callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_208d4e81-1f4f-46e9-9b78-7724504b68bc.xml, ndis/ProtocolCmModifyCallQoS, netvista.protocolcmmodifycallqos
 f1_keywords:
  - "ndis/ProtocolCmModifyCallQoS"
+ - "ProtocolCmModifyCallQoS"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - ProtocolCmModifyCallQoS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

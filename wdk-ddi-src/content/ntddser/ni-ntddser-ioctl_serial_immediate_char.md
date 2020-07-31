@@ -10,6 +10,7 @@ keywords: ["IOCTL_SERIAL_IMMEDIATE_CHAR IOCTL"]
 ms.keywords: IOCTL_SERIAL_IMMEDIATE_CHAR, IOCTL_SERIAL_IMMEDIATE_CHAR control, IOCTL_SERIAL_IMMEDIATE_CHAR control code [Serial Ports], ntddser/IOCTL_SERIAL_IMMEDIATE_CHAR, serports.ioctl_serial_immediate_char, serref_f0a61fcc-3e61-4344-940b-ef9aeabec64b.xml
 f1_keywords:
  - "ntddser/IOCTL_SERIAL_IMMEDIATE_CHAR"
+ - "IOCTL_SERIAL_IMMEDIATE_CHAR"
 req.header: ntddser.h
 req.include-header: Ntddser.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddser.h
 api_name:
 - IOCTL_SERIAL_IMMEDIATE_CHAR
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

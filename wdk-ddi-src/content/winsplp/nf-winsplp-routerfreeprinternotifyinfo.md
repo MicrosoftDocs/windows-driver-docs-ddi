@@ -10,6 +10,7 @@ keywords: ["RouterFreePrinterNotifyInfo function"]
 ms.keywords: RouterFreePrinterNotifyInfo, RouterFreePrinterNotifyInfo function [Print Devices], print.routerfreeprinternotifyinfo, spoolfnc_7ae0296f-8bfe-4ee3-b621-1d1582deafdf.xml, winsplp/RouterFreePrinterNotifyInfo
 f1_keywords:
  - "winsplp/RouterFreePrinterNotifyInfo"
+ - "RouterFreePrinterNotifyInfo"
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Spoolss.dll
 api_name:
 - RouterFreePrinterNotifyInfo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

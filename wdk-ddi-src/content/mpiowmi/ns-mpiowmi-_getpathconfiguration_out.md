@@ -10,6 +10,7 @@ keywords: ["_GetPathConfiguration_OUT structure"]
 ms.keywords: "*PGetPathConfiguration_OUT, GetPathConfiguration_OUT, GetPathConfiguration_OUT structure [Storage Devices], PGetPathConfiguration_OUT, PGetPathConfiguration_OUT structure pointer [Storage Devices], _GetPathConfiguration_OUT, mpiowmi/GetPathConfiguration_OUT, mpiowmi/PGetPathConfiguration_OUT, storage.getpathconfiguration_out, structs-scsibus_4d2ebbae-67ff-42bc-8904-c33f914485cd.xml"
 f1_keywords:
  - "mpiowmi/GetPathConfiguration_OUT"
+ - "GetPathConfiguration_OUT"
 req.header: mpiowmi.h
 req.include-header: Mpiowmi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - mpiowmi.h
 api_name:
 - GetPathConfiguration_OUT
-product:
-- Windows
 targetos: Windows
 req.typenames: GetPathConfiguration_OUT, *PGetPathConfiguration_OUT
 ---

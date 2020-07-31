@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3DDDI_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE_INFO structure"]
 f1_keywords:
  - "d3dumddi/D3DDDI_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE_INFO"
+ - "D3DDDI_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE_INFO"
 ms.keywords: D3DDDI_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE_INFO, D3DDDI_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE_INFO, 
 req.header: d3dumddi.h
 req.include-header: D3d10umddi.h
@@ -29,8 +30,6 @@ api_location:
 - d3dumddi.h
 api_name: 
 - D3DDDI_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE_INFO
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

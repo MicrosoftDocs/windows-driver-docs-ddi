@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::GetModuleNameStringWide"]
 ms.keywords: GetModuleNameStringWide, GetModuleNameStringWide method [Windows Debugging], GetModuleNameStringWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetModuleNameStringWide method, IDebugSymbols3.GetModuleNameStringWide, IDebugSymbols3::GetModuleNameStringWide, dbgeng/IDebugSymbols3::GetModuleNameStringWide, debugger.getmodulenamestringwide
 f1_keywords:
  - "dbgeng/IDebugSymbols3.GetModuleNameStringWide"
+ - "IDebugSymbols3.GetModuleNameStringWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugSymbols3.GetModuleNameStringWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

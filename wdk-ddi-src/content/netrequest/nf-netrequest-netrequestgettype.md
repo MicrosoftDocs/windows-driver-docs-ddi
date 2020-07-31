@@ -8,6 +8,7 @@ ms.date: 02/08/2018
 keywords: ["NetRequestGetType function"]
 f1_keywords:
  - "netrequest/NetRequestGetType"
+ - "NetRequestGetType"
 ms.keywords: NetRequestGetType
 req.header: netrequest.h
 req.include-header: netadaptercx.h
@@ -37,8 +38,6 @@ api_location:
 api_name: 
 - NetRequestGetType
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetRequestGetType function

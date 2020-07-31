@@ -10,6 +10,7 @@ keywords: ["IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE IOCTL"]
 ms.keywords: IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE, IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE control, IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE control code [Storage Devices], ehstorioctl/IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE, storage.ioctl_ehstor_driver_update_lba_filter_table
 f1_keywords:
  - "ehstorioctl/IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE"
+ - "IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE"
 req.header: ehstorioctl.h
 req.include-header: EhStorIoctl.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - EhStorIoctl.h
 api_name:
 - IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

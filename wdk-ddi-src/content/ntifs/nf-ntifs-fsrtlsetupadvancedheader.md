@@ -10,6 +10,7 @@ keywords: ["FsRtlSetupAdvancedHeader function"]
 ms.keywords: FsRtlSetupAdvancedHeader, FsRtlSetupAdvancedHeader function [Installable File System Drivers], fsrtlref_05f86b8b-48c2-4cb4-b09f-8a4dd1b5ed80.xml, ifsk.fsrtlsetupadvancedheader, ntifs/FsRtlSetupAdvancedHeader
 f1_keywords:
  - "ntifs/FsRtlSetupAdvancedHeader"
+ - "FsRtlSetupAdvancedHeader"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - FsRtlSetupAdvancedHeader
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

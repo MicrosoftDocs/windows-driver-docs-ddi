@@ -10,6 +10,7 @@ keywords: ["ExtRemoteData::GetLong"]
 ms.keywords: EngExtCpp_Ref_10a1810d-2e15-490a-baeb-8881106f41a6.xml, ExtRemoteData class [Windows Debugging],GetLong method, ExtRemoteData.GetLong, ExtRemoteData::GetLong, GetLong, GetLong method [Windows Debugging], GetLong method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_getlong
 f1_keywords:
  - "engextcpp/ExtRemoteData.GetLong"
+ - "ExtRemoteData.GetLong"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - engextcpp.hpp
 api_name:
 - ExtRemoteData.GetLong
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

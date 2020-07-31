@@ -10,6 +10,7 @@ keywords: ["_WDF_INTERRUPT_CONFIG structure"]
 ms.keywords: "*PWDF_INTERRUPT_CONFIG, DFInterruptObjectRef_545890e4-5222-42e8-8fba-c159a0faa140.xml, PWDF_INTERRUPT_CONFIG, PWDF_INTERRUPT_CONFIG structure pointer, WDF_INTERRUPT_CONFIG, WDF_INTERRUPT_CONFIG structure, _WDF_INTERRUPT_CONFIG, kmdf.wdf_interrupt_config, wdf.wdf_interrupt_config, wdfinterrupt/PWDF_INTERRUPT_CONFIG, wdfinterrupt/WDF_INTERRUPT_CONFIG"
 f1_keywords:
  - "wdfinterrupt/WDF_INTERRUPT_CONFIG"
+ - "WDF_INTERRUPT_CONFIG"
 req.header: wdfinterrupt.h
 req.include-header: Wdf.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wdfinterrupt.h
 api_name:
 - WDF_INTERRUPT_CONFIG
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_INTERRUPT_CONFIG, *PWDF_INTERRUPT_CONFIG
 ---

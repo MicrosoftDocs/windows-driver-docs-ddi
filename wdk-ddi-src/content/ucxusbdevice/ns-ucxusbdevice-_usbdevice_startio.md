@@ -10,6 +10,7 @@ keywords: ["_USBDEVICE_STARTIO structure"]
 ms.keywords: "*PUSBDEVICE_STARTIO, P_USBDEVICE_STARTIO, P_USBDEVICE_STARTIO structure pointer [Buses], USBDEVICE_STARTIO, USBDEVICE_STARTIO structure [Buses], _USBDEVICE_STARTIO, buses._usbdevice_startio, ucxusbdevice/P_USBDEVICE_STARTIO, ucxusbdevice/_USBDEVICE_STARTIO"
 f1_keywords:
  - "ucxusbdevice/USBDEVICE_STARTIO"
+ - "USBDEVICE_STARTIO"
 req.header: ucxusbdevice.h
 req.include-header: Ucxclass.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ucxusbdevice.h
 api_name:
 - USBDEVICE_STARTIO
-product:
-- Windows
 targetos: Windows
 req.typenames: USBDEVICE_STARTIO, *PUSBDEVICE_STARTIO
 ---

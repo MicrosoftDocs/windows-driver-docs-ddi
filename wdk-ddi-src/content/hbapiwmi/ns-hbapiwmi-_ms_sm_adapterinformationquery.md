@@ -10,6 +10,7 @@ keywords: ["_MS_SM_AdapterInformationQuery structure"]
 ms.keywords: "*PMS_SM_AdapterInformationQuery, MS_SM_AdapterInformationQuery, MS_SM_AdapterInformationQuery structure [Storage Devices], PMS_SM_AdapterInformationQuery, PMS_SM_AdapterInformationQuery structure pointer [Storage Devices], _MS_SM_AdapterInformationQuery, hbapiwmi/MS_SM_AdapterInformationQuery, hbapiwmi/PMS_SM_AdapterInformationQuery, storage.ms_sm_adapterinformationquery, structs-Fibre_feda1502-e2b9-4392-a3bd-9c10ab0fab52.xml"
 f1_keywords:
  - "hbapiwmi/MS_SM_AdapterInformationQuery"
+ - "MS_SM_AdapterInformationQuery"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - MS_SM_AdapterInformationQuery
-product:
-- Windows
 targetos: Windows
 req.typenames: MS_SM_AdapterInformationQuery, *PMS_SM_AdapterInformationQuery
 ---

@@ -10,6 +10,7 @@ keywords: ["RIL_GetMsgInUiccStatus function"]
 ms.keywords: RIL_GetMsgInUiccStatus, RIL_GetMsgInUiccStatus method [Network Drivers Starting with Windows Vista], netvista.ril_getmsginuiccstatus, rilapi/RIL_GetMsgInUiccStatus
 f1_keywords:
  - "rilapi/RIL_GetMsgInUiccStatus"
+ - "RIL_GetMsgInUiccStatus"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_GetMsgInUiccStatus
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

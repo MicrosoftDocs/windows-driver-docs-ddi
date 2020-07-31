@@ -10,6 +10,7 @@ keywords: ["FltCreateMailslotFile function"]
 ms.keywords: FltCreateMailslotFile, FltCreateMailslotFile function [Installable File System Drivers], fltkernel/FltCreateMailslotFile, ifsk.fltcreatemailslotfile
 f1_keywords:
  - "fltkernel/FltCreateMailslotFile"
+ - "FltCreateMailslotFile"
 req.header: fltkernel.h
 req.include-header: FltKernel.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Fltmgr.dll
 api_name:
 - FltCreateMailslotFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

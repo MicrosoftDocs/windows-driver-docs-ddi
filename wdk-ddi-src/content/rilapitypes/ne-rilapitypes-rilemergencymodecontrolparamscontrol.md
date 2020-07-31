@@ -10,6 +10,7 @@ keywords: ["RILEMERGENCYMODECONTROLPARAMSCONTROL enumeration"]
 ms.keywords: RILEMERGENCYMODECONTROLPARAMSCONTROL, RILEMERGENCYMODECONTROLPARAMSCONTROL enumeration [Network Drivers Starting with Windows Vista], RIL_EMC_ALL_MODEMS_ARE_IN_NORMAL_MODE, RIL_EMC_MAX, RIL_EMC_OTHER_MODEM_IN_EMERGECY_MODE, netvista.rilemergencymodecontrolparamscontrol, ntddrilapitypes/RILEMERGENCYMODECONTROLPARAMSCONTROL, ntddrilapitypes/RIL_EMC_ALL_MODEMS_ARE_IN_NORMAL_MODE, ntddrilapitypes/RIL_EMC_MAX, ntddrilapitypes/RIL_EMC_OTHER_MODEM_IN_EMERGECY_MODE
 f1_keywords:
  - "rilapitypes/RILEMERGENCYMODECONTROLPARAMSCONTROL"
+ - "RILEMERGENCYMODECONTROLPARAMSCONTROL"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILEMERGENCYMODECONTROLPARAMSCONTROL
-product:
-- Windows
 targetos: Windows
 req.typenames: RILEMERGENCYMODECONTROLPARAMSCONTROL
 ---

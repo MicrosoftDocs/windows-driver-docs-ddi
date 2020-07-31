@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME structure"]
 ms.keywords: D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME, D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME structure [Display Devices], _D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME, d3dkmthk/D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME, display.d3dkmt_opensyncobjectnthandlefromname
 f1_keywords:
  - "d3dkmthk/D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME"
+ - "D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - D3dkmthk.h
 api_name:
 - D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME

@@ -10,6 +10,7 @@ keywords: ["tagTIMECODE_SAMPLE structure"]
 ms.keywords: "*PTIMECODE_SAMPLE, TIMECODE_SAMPLE, TIMECODE_SAMPLE structure [Streaming Media Devices], ksmedia/TIMECODE_SAMPLE, stream.timecode_sample, tagTIMECODE_SAMPLE, vidcapstruct_518cf1af-a1e2-43a6-b97f-115c4fe8cb6d.xml"
 f1_keywords:
  - "ksmedia/TIMECODE_SAMPLE"
+ - "TIMECODE_SAMPLE"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - TIMECODE_SAMPLE
-product:
-- Windows
 targetos: Windows
 req.typenames: TIMECODE_SAMPLE
 ---

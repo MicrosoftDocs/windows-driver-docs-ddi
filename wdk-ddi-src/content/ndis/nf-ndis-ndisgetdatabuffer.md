@@ -10,6 +10,7 @@ keywords: ["NdisGetDataBuffer function"]
 ms.keywords: NdisGetDataBuffer, NdisGetDataBuffer function [Network Drivers Starting with Windows Vista], ndis/NdisGetDataBuffer, ndis_netbuf_functions_ref_b4ffded6-13c9-417d-bb03-a6421f718deb.xml, netvista.ndisgetdatabuffer
 f1_keywords:
  - "ndis/NdisGetDataBuffer"
+ - "NdisGetDataBuffer"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisGetDataBuffer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["DXGI_DDI_ARG_BLT_FLAGS structure"]
 ms.keywords: DXGI_DDI_ARG_BLT_FLAGS, DXGI_DDI_ARG_BLT_FLAGS structure [Display Devices], UMDisplayDriver_Dx10param_Structs_22ccf0e7-83cc-443e-b4a1-c1a2f3bc24a0.xml, display.dxgi_ddi_arg_blt_flags, dxgiddi/DXGI_DDI_ARG_BLT_FLAGS
 f1_keywords:
  - "dxgiddi/DXGI_DDI_ARG_BLT_FLAGS"
+ - "DXGI_DDI_ARG_BLT_FLAGS"
 req.header: dxgiddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dxgiddi.h
 api_name:
 - DXGI_DDI_ARG_BLT_FLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGI_DDI_ARG_BLT_FLAGS
 ---

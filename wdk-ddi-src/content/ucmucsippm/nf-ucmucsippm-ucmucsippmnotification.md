@@ -8,6 +8,7 @@ ms.date: 09/30/2018
 keywords: ["UcmUcsiPpmNotification function"]
 f1_keywords:
  - "ucmucsippm/UcmUcsiPpmNotification"
+ - "UcmUcsiPpmNotification"
 ms.keywords: UcmUcsiPpmNotification
 req.header: ucmucsippm.h
 req.include-header: UcmUcsiCx.h
@@ -34,8 +35,6 @@ api_location:
 - UcmUcsiCxStub.lib
 api_name: 
 - UcmUcsiPpmNotification
-product:
-- Windows
 targetos: Windows
 
 

@@ -10,6 +10,7 @@ keywords: ["RILSETDMPROFILECONFIGINFOPARAMS structure"]
 ms.keywords: "*LPRILSETDMPROFILECONFIGINFOPARAMS, RILSETDMPROFILECONFIGINFOPARAMS, RILSETDMPROFILECONFIGINFOPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetdmprofileconfiginfoparams, ntddrilapitypes/RILSETDMPROFILECONFIGINFOPARAMS"
 f1_keywords:
  - "rilapitypes/RILSETDMPROFILECONFIGINFOPARAMS"
+ - "RILSETDMPROFILECONFIGINFOPARAMS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILSETDMPROFILECONFIGINFOPARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILSETDMPROFILECONFIGINFOPARAMS, *LPRILSETDMPROFILECONFIGINFOPARAMS
 ---

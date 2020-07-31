@@ -10,6 +10,7 @@ keywords: ["IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ IOCTL"]
 ms.keywords: IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ, IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ control, IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ control code [Storage Devices], ehstorioctl/IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ, storage.ioctl_ehstor_driver_perform_authz
 f1_keywords:
  - "ehstorioctl/IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ"
+ - "IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ"
 req.header: ehstorioctl.h
 req.include-header: EhStorIoctl.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - EhStorIoctl.h
 api_name:
 - IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

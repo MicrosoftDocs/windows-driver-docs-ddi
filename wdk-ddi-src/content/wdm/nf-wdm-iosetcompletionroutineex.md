@@ -10,6 +10,7 @@ keywords: ["IoSetCompletionRoutineEx function"]
 ms.keywords: IoSetCompletionRoutineEx, IoSetCompletionRoutineEx routine [Kernel-Mode Driver Architecture], k104_b574c1f0-f1e7-4c34-93ee-4681ec9e1046.xml, kernel.iosetcompletionroutineex, wdm/IoSetCompletionRoutineEx
 f1_keywords:
  - "wdm/IoSetCompletionRoutineEx"
+ - "IoSetCompletionRoutineEx"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoSetCompletionRoutineEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["FltGetFileContext function"]
 ms.keywords: FltApiRef_e_to_o_230a0040-01b0-4998-8f16-427eec529aee.xml, FltGetFileContext, FltGetFileContext routine [Installable File System Drivers], fltkernel/FltGetFileContext, ifsk.fltgetfilecontext
 f1_keywords:
  - "fltkernel/FltGetFileContext"
+ - "FltGetFileContext"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltGetFileContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

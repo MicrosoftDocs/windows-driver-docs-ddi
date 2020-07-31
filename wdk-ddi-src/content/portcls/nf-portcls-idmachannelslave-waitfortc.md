@@ -8,6 +8,7 @@ ms.date: 10/30/2018
 keywords: ["IDmaChannelSlave::WaitForTC"]
 f1_keywords:
  - "portcls/IDmaChannelSlave.WaitForTC"
+ - "IDmaChannelSlave.WaitForTC"
 ms.keywords: IDmaChannelSlave::WaitForTC, WaitForTC, IDmaChannelSlave.WaitForTC, IDmaChannelSlave::WaitForTC, IDmaChannelSlave.WaitForTC
 req.header: portcls.h
 req.include-header:

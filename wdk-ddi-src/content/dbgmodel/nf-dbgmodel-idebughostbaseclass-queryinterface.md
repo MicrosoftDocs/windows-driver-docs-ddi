@@ -7,6 +7,7 @@ ms.date: 08/14/2018
 keywords: ["IDebugHostBaseClass::QueryInterface"]
 f1_keywords:
  - "dbgmodel/IDebugHostBaseClass.QueryInterface"
+ - "IDebugHostBaseClass.QueryInterface"
 ms.keywords: IDebugHostBaseClass::QueryInterface, QueryInterface, IDebugHostBaseClass.QueryInterface, IDebugHostBaseClass::QueryInterface, IDebugHostBaseClass.QueryInterface
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostBaseClass.QueryInterface
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

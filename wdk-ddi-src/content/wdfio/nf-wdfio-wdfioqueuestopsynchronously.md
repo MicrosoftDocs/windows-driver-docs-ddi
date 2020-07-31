@@ -10,6 +10,7 @@ keywords: ["WdfIoQueueStopSynchronously function"]
 ms.keywords: DFQueueObjectRef_9f415317-56ca-4c4f-9f33-560258351999.xml, WdfIoQueueStopSynchronously, WdfIoQueueStopSynchronously method, kmdf.wdfioqueuestopsynchronously, wdf.wdfioqueuestopsynchronously, wdfio/WdfIoQueueStopSynchronously
 f1_keywords:
  - "wdfio/WdfIoQueueStopSynchronously"
+ - "WdfIoQueueStopSynchronously"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfIoQueueStopSynchronously
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

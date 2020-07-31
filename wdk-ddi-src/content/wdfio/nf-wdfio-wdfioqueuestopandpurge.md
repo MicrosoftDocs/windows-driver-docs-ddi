@@ -10,6 +10,7 @@ keywords: ["WdfIoQueueStopAndPurge function"]
 ms.keywords: WdfIoQueueStopAndPurge, WdfIoQueueStopAndPurge method, kmdf.wdfioqueuestopandpurge, wdf.wdfioqueuestopandpurge, wdfio/WdfIoQueueStopAndPurge
 f1_keywords:
  - "wdfio/WdfIoQueueStopAndPurge"
+ - "WdfIoQueueStopAndPurge"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfIoQueueStopAndPurge
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

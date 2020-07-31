@@ -10,6 +10,7 @@ keywords: ["PWINDBG_EXTENSION_DLL_INIT callback function"]
 ms.keywords: PWINDBG_EXTENSION_DLL_INIT, PWINDBG_EXTENSION_DLL_INIT callback, WdbgExts_Callbacks_18383848-27f2-4d4e-a5b0-c6ce27377687.xml, WinDbgExtensionDllInit, WinDbgExtensionDllInit callback function [Windows Debugging], debugger.windbgextensiondllinit, wdbgexts/WinDbgExtensionDllInit
 f1_keywords:
  - "wdbgexts/WinDbgExtensionDllInit"
+ - "WinDbgExtensionDllInit"
 req.header: wdbgexts.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wdbgexts.h
 api_name:
 - WinDbgExtensionDllInit
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

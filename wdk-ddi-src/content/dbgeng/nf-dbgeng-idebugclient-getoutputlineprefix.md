@@ -10,6 +10,7 @@ keywords: ["IDebugClient::GetOutputLinePrefix"]
 ms.keywords: GetOutputLinePrefix, GetOutputLinePrefix method [Windows Debugging], GetOutputLinePrefix method [Windows Debugging],IDebugClient interface, IDebugClient interface [Windows Debugging],GetOutputLinePrefix method, IDebugClient.GetOutputLinePrefix, IDebugClient::GetOutputLinePrefix, dbgeng/IDebugClient::GetOutputLinePrefix, debugger.idebugclient_getoutputlineprefix
 f1_keywords:
  - "dbgeng/IDebugClient.GetOutputLinePrefix"
+ - "IDebugClient.GetOutputLinePrefix"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugClient.GetOutputLinePrefix
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

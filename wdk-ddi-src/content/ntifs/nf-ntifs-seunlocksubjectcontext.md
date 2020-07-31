@@ -10,6 +10,7 @@ keywords: ["SeUnlockSubjectContext function"]
 ms.keywords: SeUnlockSubjectContext, SeUnlockSubjectContext routine [Installable File System Drivers], ifsk.seunlocksubjectcontext, ntifs/SeUnlockSubjectContext, seref_a07c19ad-03a8-403d-9844-9e85862377ab.xml
 f1_keywords:
  - "ntifs/SeUnlockSubjectContext"
+ - "SeUnlockSubjectContext"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Wdm.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - SeUnlockSubjectContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

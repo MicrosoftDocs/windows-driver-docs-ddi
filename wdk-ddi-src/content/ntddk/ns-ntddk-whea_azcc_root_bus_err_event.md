@@ -31,7 +31,8 @@ api_name:
  - WHEA_AZCC_ROOT_BUS_ERR_EVENT
 f1_keywords:
  - ntddk/_WHEA_AZCC_ROOT_BUS_ERR_EVENT
- - ntddk/WHEA_AZCC_ROOT_BUS_ERR_EVENT
+ - ntddk//WHEA_AZCC_ROOT_BUS_ERR_EVENT
+ - WHEA_AZCC_ROOT_BUS_ERR_EVENT
 dev_langs:
  - c++
 ---

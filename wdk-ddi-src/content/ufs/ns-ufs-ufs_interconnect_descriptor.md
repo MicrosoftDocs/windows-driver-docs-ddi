@@ -10,6 +10,7 @@ keywords: ["UFS_INTERCONNECT_DESCRIPTOR structure"]
 ms.keywords: "*PUFS_INTERCONNECT_DESCRIPTOR, PUFS_INTERCONNECT_DESCRIPTOR, PUFS_INTERCONNECT_DESCRIPTOR structure pointer [Storage Devices], UFS_INTERCONNECT_DESCRIPTOR, UFS_INTERCONNECT_DESCRIPTOR structure [Storage Devices], storage.ufs_interconnect_descriptor, ufs/PUFS_INTERCONNECT_DESCRIPTOR, ufs/UFS_INTERCONNECT_DESCRIPTOR"
 f1_keywords:
  - "ufs/UFS_INTERCONNECT_DESCRIPTOR"
+ - "UFS_INTERCONNECT_DESCRIPTOR"
 req.header: ufs.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ufs.h
 api_name:
 - UFS_INTERCONNECT_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: UFS_INTERCONNECT_DESCRIPTOR, *PUFS_INTERCONNECT_DESCRIPTOR
 ---

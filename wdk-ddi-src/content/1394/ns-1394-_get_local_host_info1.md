@@ -10,6 +10,7 @@ keywords: ["_GET_LOCAL_HOST_INFO1 structure"]
 ms.keywords: "*PGET_LOCAL_HOST_INFO1, 1394/GET_LOCAL_HOST_INFO1, 1394/PGET_LOCAL_HOST_INFO1, 1394stct_17301961-cba0-4966-851a-bd92fec75bc7.xml, GET_LOCAL_HOST_INFO1, GET_LOCAL_HOST_INFO1 structure [Buses], IEEE.get_local_host_info1, PGET_LOCAL_HOST_INFO1, PGET_LOCAL_HOST_INFO1 structure pointer [Buses], _GET_LOCAL_HOST_INFO1"
 f1_keywords:
  - "1394/GET_LOCAL_HOST_INFO1"
+ - "GET_LOCAL_HOST_INFO1"
 req.header: 1394.h
 req.include-header: 1394.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - 1394.h
 api_name:
 - GET_LOCAL_HOST_INFO1
-product:
-- Windows
 targetos: Windows
 req.typenames: GET_LOCAL_HOST_INFO1, *PGET_LOCAL_HOST_INFO1
 ---

@@ -10,6 +10,7 @@ keywords: ["IStillImageW::UnregisterLaunchApplication"]
 ms.keywords: IStillImageW interface [Imaging Devices],UnregisterLaunchApplication method, IStillImageW.UnregisterLaunchApplication, IStillImageW::UnregisterLaunchApplication, UnregisterLaunchApplication, UnregisterLaunchApplication method [Imaging Devices], UnregisterLaunchApplication method [Imaging Devices],IStillImageW interface, image.istillimage_unregisterlaunchapplication, sti/IStillImageW::UnregisterLaunchApplication, stifnc_7e477efa-efa3-445d-bd68-a23f87cee5de.xml
 f1_keywords:
  - "sti/IStillImageW.UnregisterLaunchApplication"
+ - "IStillImageW.UnregisterLaunchApplication"
 req.header: sti.h
 req.include-header: Sti.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - sti.h
 api_name:
 - IStillImageW.UnregisterLaunchApplication
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

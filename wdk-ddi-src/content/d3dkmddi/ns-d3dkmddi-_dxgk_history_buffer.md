@@ -9,6 +9,7 @@ keywords: ["_DXGK_HISTORY_BUFFER structure"]
 ms.keywords: DXGK_HISTORY_BUFFER, DXGK_HISTORY_BUFFER structure [Display Devices], _DXGK_HISTORY_BUFFER, d3dkmddi/DXGK_HISTORY_BUFFER, display.dxgk_history_buffer
 f1_keywords:
  - "d3dkmddi/DXGK_HISTORY_BUFFER"
+ - "DXGK_HISTORY_BUFFER"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - D3dkmddi.h
 api_name:
 - DXGK_HISTORY_BUFFER
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_HISTORY_BUFFER

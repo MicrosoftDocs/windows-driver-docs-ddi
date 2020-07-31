@@ -10,6 +10,7 @@ keywords: ["RxStartMinirdr function"]
 ms.keywords: RxStartMinirdr, RxStartMinirdr function [Installable File System Drivers], ifsk.rxstartminirdr, mrx/RxStartMinirdr, rxref_0ecf01ed-771f-44e8-a107-6d3a0d2beb02.xml
 f1_keywords:
  - "mrx/RxStartMinirdr"
+ - "RxStartMinirdr"
 req.header: mrx.h
 req.include-header: Mrx.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - mrx.h
 api_name:
 - RxStartMinirdr
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

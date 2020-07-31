@@ -10,6 +10,7 @@ keywords: ["EVT_POS_CX_DEVICE_REMOTE_RETAIN callback function"]
 ms.keywords: EVT_POS_CX_DEVICE_REMOTE_RETAIN, EVT_POS_CX_DEVICE_REMOTE_RETAIN callback, EvtPosCxDeviceRemoteRetain, EvtPosCxDeviceRemoteRetain callback function, pos.evt_pos_cx_device_remote_retain, poscx/EvtPosCxDeviceRemoteRetain
 f1_keywords:
  - "poscx/EvtPosCxDeviceRemoteRetain"
+ - "EvtPosCxDeviceRemoteRetain"
 req.header: poscx.h
 req.include-header: Poscx.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - poscx.h
 api_name:
 - EvtPosCxDeviceRemoteRetain
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 req.product: Windows 10 or later.

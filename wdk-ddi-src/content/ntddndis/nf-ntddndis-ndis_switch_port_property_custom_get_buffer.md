@@ -8,6 +8,7 @@ ms.date: 04/17/2018
 keywords: ["NDIS_SWITCH_PORT_PROPERTY_CUSTOM_GET_BUFFER macro"]
 f1_keywords:
  - "ntddndis/NDIS_SWITCH_PORT_PROPERTY_CUSTOM_GET_BUFFER"
+ - "NDIS_SWITCH_PORT_PROPERTY_CUSTOM_GET_BUFFER"
 ms.keywords: NDIS_SWITCH_PORT_PROPERTY_CUSTOM_GET_BUFFER
 req.header: ntddndis.h
 req.include-header: ndis.h
@@ -34,8 +35,6 @@ api_location:
 - ntddndis.h
 api_name: 
 - NDIS_SWITCH_PORT_PROPERTY_CUSTOM_GET_BUFFER
-product:
-- Windows
 targetos: Windows
 
 ---

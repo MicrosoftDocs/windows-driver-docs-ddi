@@ -10,6 +10,7 @@ keywords: ["KSPROPERTY_CAMERACONTROL_FLASH enumeration"]
 ms.keywords: KSPROPERTY_CAMERACONTROL_FLASH, KSPROPERTY_CAMERACONTROL_FLASH enumeration [Streaming Media Devices], KSPROPERTY_CAMERACONTROL_FLASH_PROPERTY_ID, ksmedia/KSPROPERTY_CAMERACONTROL_FLASH, ksmedia/KSPROPERTY_CAMERACONTROL_FLASH_PROPERTY_ID, stream.ksproperty_cameracontrol_flash
 f1_keywords:
  - "ksmedia/KSPROPERTY_CAMERACONTROL_FLASH"
+ - "KSPROPERTY_CAMERACONTROL_FLASH"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ksmedia.h
 api_name:
 - KSPROPERTY_CAMERACONTROL_FLASH
-product:
-- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_CAMERACONTROL_FLASH
 ---

@@ -10,6 +10,7 @@ keywords: ["WIAS_LWARNING macro"]
 ms.keywords: IWiaLog_bac21803-be4c-4ce0-a241-b9380cb627ab.xml, WIAS_LWARNING, WIAS_LWARNING macro [Imaging Devices], image.wias_lwarning, wiamdef/WIAS_LWARNING
 f1_keywords:
  - "wiamdef/WIAS_LWARNING"
+ - "WIAS_LWARNING"
 req.header: wiamdef.h
 req.include-header: Wiautil.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wiamdef.h
 api_name:
 - WIAS_LWARNING
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

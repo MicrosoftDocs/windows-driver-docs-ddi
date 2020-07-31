@@ -10,6 +10,7 @@ keywords: ["IPrintOemUIMXDC::AdjustImageableArea"]
 ms.keywords: AdjustImageableArea, AdjustImageableArea method [Print Devices], AdjustImageableArea method [Print Devices],IPrintOemUIMXDC interface, IPrintOemUIMXDC interface [Print Devices],AdjustImageableArea method, IPrintOemUIMXDC.AdjustImageableArea, IPrintOemUIMXDC::AdjustImageableArea, prcomoem/IPrintOemUIMXDC::AdjustImageableArea, print.iprintoemuimxdc_adjustimageablearea, print_unidrv-pscript_ui_c6e35081-e9d3-4d55-85be-e0d5b48bc39c.xml
 f1_keywords:
  - "prcomoem/IPrintOemUIMXDC.AdjustImageableArea"
+ - "IPrintOemUIMXDC.AdjustImageableArea"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - prcomoem.h
 api_name:
 - IPrintOemUIMXDC.AdjustImageableArea
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

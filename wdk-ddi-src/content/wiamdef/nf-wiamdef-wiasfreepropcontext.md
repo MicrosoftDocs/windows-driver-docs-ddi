@@ -10,6 +10,7 @@ keywords: ["wiasFreePropContext function"]
 ms.keywords: image.wiasfreepropcontext, wiamdef/wiasFreePropContext, wiasFncs_60deac65-fa17-4f2e-abe1-fa6d424dc477.xml, wiasFreePropContext, wiasFreePropContext function [Imaging Devices]
 f1_keywords:
  - "wiamdef/wiasFreePropContext"
+ - "wiasFreePropContext"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wiaservc.dll
 api_name:
 - wiasFreePropContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

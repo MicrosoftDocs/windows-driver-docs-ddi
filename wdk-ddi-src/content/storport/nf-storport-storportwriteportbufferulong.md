@@ -10,6 +10,7 @@ keywords: ["StorPortWritePortBufferUlong macro"]
 ms.keywords: StorPortWritePortBufferUlong, StorPortWritePortBufferUlong routine [Storage Devices], storage.storportwriteportbufferulong, storport/StorPortWritePortBufferUlong, storprt_7ab33563-108d-4d20-8205-c3f5ac790f59.xml
 f1_keywords:
  - "storport/StorPortWritePortBufferUlong"
+ - "StorPortWritePortBufferUlong"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Storport.dll
 api_name:
 - StorPortWritePortBufferUlong
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

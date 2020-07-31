@@ -8,6 +8,7 @@ ms.date: 08/20/2018
 keywords: ["_NDIS_WWAN_SET_SAR_TRANSMISSION_STATUS structure"]
 f1_keywords:
  - "ndiswwan/_NDIS_WWAN_SET_SAR_TRANSMISSION_STATUS"
+ - "_NDIS_WWAN_SET_SAR_TRANSMISSION_STATUS"
 ms.keywords: _NDIS_WWAN_SET_SAR_TRANSMISSION_STATUS, NDIS_WWAN_SET_SAR_TRANSMISSION_STATUS, *PNDIS_WWAN_SET_SAR_TRANSMISSION_STATUS, 
 req.header: ndiswwan.h
 req.include-header:
@@ -30,8 +31,6 @@ api_location:
 - ndiswwan.h
 api_name: 
 - _NDIS_WWAN_SET_SAR_TRANSMISSION_STATUS
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

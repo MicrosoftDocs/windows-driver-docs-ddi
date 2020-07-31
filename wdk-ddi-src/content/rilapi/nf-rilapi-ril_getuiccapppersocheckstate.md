@@ -10,6 +10,7 @@ keywords: ["RIL_GetUiccAppPersoCheckState function"]
 ms.keywords: RIL_GetUiccAppPersoCheckState, RIL_GetUiccAppPersoCheckState method [Network Drivers Starting with Windows Vista], netvista.ril_getuiccapppersocheckstate, rilapi/RIL_GetUiccAppPersoCheckState
 f1_keywords:
  - "rilapi/RIL_GetUiccAppPersoCheckState"
+ - "RIL_GetUiccAppPersoCheckState"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_GetUiccAppPersoCheckState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

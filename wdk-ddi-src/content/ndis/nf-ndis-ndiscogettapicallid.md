@@ -10,6 +10,7 @@ keywords: ["NdisCoGetTapiCallId function"]
 ms.keywords: NdisCoGetTapiCallId, NdisCoGetTapiCallId function [Network Drivers Starting with Windows Vista], condis_protocol_ref_97e82564-7f8b-42ba-9eda-75842f326c52.xml, ndis/NdisCoGetTapiCallId, netvista.ndiscogettapicallid
 f1_keywords:
  - "ndis/NdisCoGetTapiCallId"
+ - "NdisCoGetTapiCallId"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisCoGetTapiCallId
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

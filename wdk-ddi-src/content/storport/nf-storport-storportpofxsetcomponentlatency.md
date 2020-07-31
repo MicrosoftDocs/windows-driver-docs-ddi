@@ -10,6 +10,7 @@ keywords: ["StorPortPoFxSetComponentLatency function"]
 ms.keywords: StorPortPoFxSetComponentLatency, StorPortPoFxSetComponentLatency routine [Storage Devices], storage.storportpofxsetcomponentlatency, storport/StorPortPoFxSetComponentLatency
 f1_keywords:
  - "storport/StorPortPoFxSetComponentLatency"
+ - "StorPortPoFxSetComponentLatency"
 req.header: storport.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - storport.h
 api_name:
 - StorPortPoFxSetComponentLatency
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["tagWPD_OPERATION_STATES enumeration"]
 ms.keywords: WPD_OPERATION_STATES, WPD_OPERATION_STATES enumeration, WPD_OPERATION_STATE_ABORTED, WPD_OPERATION_STATE_CANCELLED, WPD_OPERATION_STATE_FINISHED, WPD_OPERATION_STATE_PAUSED, WPD_OPERATION_STATE_RUNNING, WPD_OPERATION_STATE_STARTED, WPD_OPERATION_STATE_UNSPECIFIED, portabledevice/WPD_OPERATION_STATES, portabledevice/WPD_OPERATION_STATE_ABORTED, portabledevice/WPD_OPERATION_STATE_CANCELLED, portabledevice/WPD_OPERATION_STATE_FINISHED, portabledevice/WPD_OPERATION_STATE_PAUSED, portabledevice/WPD_OPERATION_STATE_RUNNING, portabledevice/WPD_OPERATION_STATE_STARTED, portabledevice/WPD_OPERATION_STATE_UNSPECIFIED, tagWPD_OPERATION_STATES, wpddk.wpd_operation_states
 f1_keywords:
  - "portabledevice/WPD_OPERATION_STATES"
+ - "WPD_OPERATION_STATES"
 req.header: portabledevice.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - PortableDevice.h
 api_name:
 - WPD_OPERATION_STATES
-product:
-- Windows
 targetos: Windows
 req.typenames: WPD_OPERATION_STATES
 ms.custom: RS5

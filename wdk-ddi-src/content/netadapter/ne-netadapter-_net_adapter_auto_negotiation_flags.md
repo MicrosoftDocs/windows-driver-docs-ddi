@@ -8,6 +8,7 @@ ms.date: 09/27/2019
 keywords: ["_NET_ADAPTER_AUTO_NEGOTIATION_FLAGS enumeration"]
 f1_keywords:
  - "netadapter/NET_ADAPTER_AUTO_NEGOTIATION_FLAGS"
+ - "NET_ADAPTER_AUTO_NEGOTIATION_FLAGS"
 ms.keywords: _NET_ADAPTER_AUTO_NEGOTIATION_FLAGS, NET_ADAPTER_AUTO_NEGOTIATION_FLAGS, 
 req.header: netadapter.h
 req.include-header:
@@ -30,8 +31,6 @@ api_location:
 api_name: 
 - NET_ADAPTER_AUTO_NEGOTIATION_FLAGS
 targetos: Windows
-product:
-- Windows
 ---
 
 # _NET_ADAPTER_AUTO_NEGOTIATION_FLAGS enumeration

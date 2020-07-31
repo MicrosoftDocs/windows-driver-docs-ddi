@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["RtlFillNonVolatileMemory function"]
 f1_keywords:
  - "ntddk/RtlFillNonVolatileMemory"
+ - "RtlFillNonVolatileMemory"
 ms.keywords: RtlFillNonVolatileMemory
 req.header: ntddk.h
 req.include-header:

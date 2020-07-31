@@ -10,6 +10,7 @@ keywords: ["SdpCreateNodeUInt32 function"]
 ms.keywords: SdpCreateNodeUInt32, SdpCreateNodeUInt32 function [Bluetooth Devices], bltooth.sdpcreatenodeuint32, bth_funcs_8091d5c3-9231-4ee4-aefe-f696a2c04cb2.xml, sdplib/SdpCreateNodeUInt32
 f1_keywords:
  - "sdplib/SdpCreateNodeUInt32"
+ - "SdpCreateNodeUInt32"
 req.header: sdplib.h
 req.include-header: BthSdpddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - sdplib.h
 api_name:
 - SdpCreateNodeUInt32
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

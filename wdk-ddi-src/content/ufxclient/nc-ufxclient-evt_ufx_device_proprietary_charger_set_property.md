@@ -10,6 +10,7 @@ keywords: ["EVT_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY callback function"]
 ms.keywords: EVT_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY, EVT_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY callback, EvtUfxDeviceProprietaryChargerSetProperty, EvtUfxDeviceProprietaryChargerSetProperty callback function [Buses], PFN_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY, PFN_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY callback function pointer [Buses], buses.evt_ufx_device_proprietary_charger_set_property, ufxclient/EvtUfxDeviceProprietaryChargerSetProperty
 f1_keywords:
  - "ufxclient/PFN_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY"
+ - "PFN_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ufxclient.h
 api_name:
 - PFN_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

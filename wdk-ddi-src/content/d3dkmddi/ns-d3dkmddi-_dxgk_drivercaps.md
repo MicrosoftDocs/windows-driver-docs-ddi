@@ -9,6 +9,7 @@ keywords: ["_DXGK_DRIVERCAPS structure"]
 ms.keywords: DXGK_DRIVERCAPS, DXGK_DRIVERCAPS structure [Display Devices], DmStructs_4a8b7d02-5b36-4a4b-980f-edfc96b4efd3.xml, _DXGK_DRIVERCAPS, d3dkmddi/DXGK_DRIVERCAPS, display.dxgk_drivercaps
 f1_keywords:
  - "d3dkmddi/DXGK_DRIVERCAPS"
+ - "DXGK_DRIVERCAPS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGK_DRIVERCAPS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_DRIVERCAPS

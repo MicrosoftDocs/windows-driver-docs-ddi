@@ -7,6 +7,7 @@ ms.date: 08/21/2018
 keywords: ["IDataModelScriptDebug2::SetBreakpoint"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebug2.SetBreakpoint"
+ - "IDataModelScriptDebug2.SetBreakpoint"
 ms.keywords: IDataModelScriptDebug2::SetBreakpoint, SetBreakpoint, IDataModelScriptDebug2.SetBreakpoint, IDataModelScriptDebug2::SetBreakpoint, IDataModelScriptDebug2.SetBreakpoint
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDataModelScriptDebug2.SetBreakpoint
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

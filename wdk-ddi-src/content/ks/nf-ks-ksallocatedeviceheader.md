@@ -10,6 +10,7 @@ keywords: ["KsAllocateDeviceHeader function"]
 ms.keywords: KsAllocateDeviceHeader, KsAllocateDeviceHeader function [Streaming Media Devices], ks/KsAllocateDeviceHeader, ksfunc_715031de-7d7e-4e24-8e1c-072c7bc271fb.xml, stream.ksallocatedeviceheader
 f1_keywords:
  - "ks/KsAllocateDeviceHeader"
+ - "KsAllocateDeviceHeader"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsAllocateDeviceHeader
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

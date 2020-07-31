@@ -10,6 +10,7 @@ keywords: ["IMiniportWaveRTStreamNotification::FreeBufferWithNotification"]
 ms.keywords: FreeBufferWithNotification, FreeBufferWithNotification method [Audio Devices], FreeBufferWithNotification method [Audio Devices],IMiniportWaveRTStreamNotification interface, IMiniportWaveRTStreamNotification interface [Audio Devices],FreeBufferWithNotification method, IMiniportWaveRTStreamNotification.FreeBufferWithNotification, IMiniportWaveRTStreamNotification::FreeBufferWithNotification, audio.iminiportwavertstreamnotification_freebufferwithnotification, audmp-routines_7b323e6d-c060-4d8a-beb1-88303e45bc0e.xml, portcls/IMiniportWaveRTStreamNotification::FreeBufferWithNotification
 f1_keywords:
  - "portcls/IMiniportWaveRTStreamNotification.FreeBufferWithNotification"
+ - "IMiniportWaveRTStreamNotification.FreeBufferWithNotification"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IMiniportWaveRTStreamNotification.FreeBufferWithNotification
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

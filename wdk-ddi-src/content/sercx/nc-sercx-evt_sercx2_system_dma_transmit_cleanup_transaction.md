@@ -10,6 +10,7 @@ keywords: ["EVT_SERCX2_SYSTEM_DMA_TRANSMIT_CLEANUP_TRANSACTION callback function
 ms.keywords: 2/EvtSerCx2SystemDmaTransmitCleanupTransaction, EVT_SERCX2_SYSTEM_DMA_TRANSMIT_CLEANUP_TRANSACTION, EVT_SERCX2_SYSTEM_DMA_TRANSMIT_CLEANUP_TRANSACTION callback, EvtSerCx2SystemDmaTransmitCleanupTransaction, EvtSerCx2SystemDmaTransmitCleanupTransaction callback function [Serial Ports], serports.evtsercx2systemdmatransmitcleanuptransaction
 f1_keywords:
  - "sercx/EvtSerCx2SystemDmaTransmitCleanupTransaction"
+ - "EvtSerCx2SystemDmaTransmitCleanupTransaction"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - 2.0\Sercx.h
 api_name:
 - EvtSerCx2SystemDmaTransmitCleanupTransaction
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

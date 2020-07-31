@@ -10,6 +10,7 @@ keywords: ["HW_INITIALIZE callback function"]
 ms.keywords: HW_INITIALIZE, HwStorInitialize, HwStorInitialize routine [Storage Devices], storage.hwstorinitialize, stormini_ef5f6b0d-443d-4ee4-a319-117e5be40831.xml, storport/HwStorInitialize
 f1_keywords:
  - "storport/HwStorInitialize"
+ - "HwStorInitialize"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Storport.h
 api_name:
 - HwStorInitialize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["RtlDecompressBufferEx function"]
 ms.keywords: COMPRESSION_FORMAT_DEFAULT, COMPRESSION_FORMAT_LZNT1, COMPRESSION_FORMAT_NONE, COMPRESSION_FORMAT_XPRESS, COMPRESSION_FORMAT_XPRESS_HUFF, RtlDecompressBufferEx, RtlDecompressBufferEx function [Installable File System Drivers], ifsk.rtldecompressbufferex, ntifs/RtlDecompressBufferEx
 f1_keywords:
  - "ntifs/RtlDecompressBufferEx"
+ - "RtlDecompressBufferEx"
 req.header: ntifs.h
 req.include-header: Fltkernel.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlDecompressBufferEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

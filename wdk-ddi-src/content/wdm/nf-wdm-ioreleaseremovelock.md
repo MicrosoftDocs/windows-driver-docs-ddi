@@ -10,6 +10,7 @@ keywords: ["IoReleaseRemoveLock macro"]
 ms.keywords: IoReleaseRemoveLock, IoReleaseRemoveLock routine [Kernel-Mode Driver Architecture], k104_7ac4aba4-0219-4ad2-81bf-028ec989e1f2.xml, kernel.ioreleaseremovelock, wdm/IoReleaseRemoveLock
 f1_keywords:
  - "wdm/IoReleaseRemoveLock"
+ - "IoReleaseRemoveLock"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoReleaseRemoveLock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

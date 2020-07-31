@@ -10,6 +10,7 @@ keywords: ["ClfsLsnBlockOffset function"]
 ms.keywords: ClfsLsnBlockOffset, ClfsLsnBlockOffset routine [Kernel-Mode Driver Architecture], Clfs_700ff9e8-40ea-4659-b4a5-99432fb1577c.xml, kernel.clfslsnblockoffset, wdm/ClfsLsnBlockOffset
 f1_keywords:
  - "wdm/ClfsLsnBlockOffset"
+ - "ClfsLsnBlockOffset"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
 - ClfsLsnBlockOffset
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

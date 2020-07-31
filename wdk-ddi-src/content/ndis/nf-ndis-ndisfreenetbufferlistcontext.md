@@ -10,6 +10,7 @@ keywords: ["NdisFreeNetBufferListContext function"]
 ms.keywords: NdisFreeNetBufferListContext, NdisFreeNetBufferListContext function [Network Drivers Starting with Windows Vista], ndis/NdisFreeNetBufferListContext, ndis_netbuf_functions_ref_ee330dac-2453-46e7-a298-7d4a59caf0ab.xml, netvista.ndisfreenetbufferlistcontext
 f1_keywords:
  - "ndis/NdisFreeNetBufferListContext"
+ - "NdisFreeNetBufferListContext"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisFreeNetBufferListContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IOCTL_BTHX_SET_VERSION IOCTL"]
 ms.keywords: IOCTL_BTHX_SET_VERSION, IOCTL_BTHX_SET_VERSION control, IOCTL_BTHX_SET_VERSION control code [Bluetooth Devices], bltooth.ioctl_bthx_set_version, bthxddi/IOCTL_BTHX_SET_VERSION
 f1_keywords:
  - "bthxddi/IOCTL_BTHX_SET_VERSION"
+ - "IOCTL_BTHX_SET_VERSION"
 req.header: bthxddi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - BthXDDI.h
 api_name:
 - IOCTL_BTHX_SET_VERSION
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

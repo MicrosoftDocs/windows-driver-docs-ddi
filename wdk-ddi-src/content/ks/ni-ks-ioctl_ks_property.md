@@ -10,6 +10,7 @@ keywords: ["IOCTL_KS_PROPERTY IOCTL"]
 ms.keywords: IOCTL_KS_PROPERTY, IOCTL_KS_PROPERTY control, IOCTL_KS_PROPERTY control code [Streaming Media Devices], ks-ioctl_58152402-30ed-4938-af47-9e6a1838fec1.xml, ks/IOCTL_KS_PROPERTY, stream.ioctl_ks_property
 f1_keywords:
  - "ks/IOCTL_KS_PROPERTY"
+ - "IOCTL_KS_PROPERTY"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - IOCTL_KS_PROPERTY
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

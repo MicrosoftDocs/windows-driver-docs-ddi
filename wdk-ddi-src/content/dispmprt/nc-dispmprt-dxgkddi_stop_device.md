@@ -10,6 +10,7 @@ keywords: ["DXGKDDI_STOP_DEVICE callback function"]
 ms.keywords: DXGKDDI_STOP_DEVICE, DXGKDDI_STOP_DEVICE callback, DmFunctions_c2d7e95b-beba-488a-b046-98e5daa728b9.xml, DxgkDdiStopDevice, DxgkDdiStopDevice callback function [Display Devices], display.dxgkddistopdevice, dispmprt/DxgkDdiStopDevice
 f1_keywords:
  - "dispmprt/DxgkDdiStopDevice"
+ - "DxgkDdiStopDevice"
 req.header: dispmprt.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dispmprt.h
 api_name:
 - DxgkDdiStopDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["_NDIS_REQUEST_TYPE enumeration"]
 ms.keywords: "*PNDIS_REQUEST_TYPE, NDIS_REQUEST_TYPE, NDIS_REQUEST_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisRequestClose, NdisRequestGeneric1, NdisRequestGeneric2, NdisRequestGeneric3, NdisRequestGeneric4, NdisRequestMethod, NdisRequestOpen, NdisRequestQueryInformation, NdisRequestQueryStatistics, NdisRequestReset, NdisRequestSend, NdisRequestSetInformation, NdisRequestTransferData, PNDIS_REQUEST_TYPE, PNDIS_REQUEST_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_REQUEST_TYPE, ndis_request_ref_78880aa3-bab2-49bd-9232-117accb98ce3.xml, netvista.ndis_request_type, ntddndis/NDIS_REQUEST_TYPE, ntddndis/NdisRequestClose, ntddndis/NdisRequestGeneric1, ntddndis/NdisRequestGeneric2, ntddndis/NdisRequestGeneric3, ntddndis/NdisRequestGeneric4, ntddndis/NdisRequestMethod, ntddndis/NdisRequestOpen, ntddndis/NdisRequestQueryInformation, ntddndis/NdisRequestQueryStatistics, ntddndis/NdisRequestReset, ntddndis/NdisRequestSend, ntddndis/NdisRequestSetInformation, ntddndis/NdisRequestTransferData, ntddndis/PNDIS_REQUEST_TYPE"
 f1_keywords:
  - "ntddndis/NDIS_REQUEST_TYPE"
+ - "NDIS_REQUEST_TYPE"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddndis.h
 api_name:
 - NDIS_REQUEST_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_REQUEST_TYPE, *PNDIS_REQUEST_TYPE
 ---

@@ -10,6 +10,7 @@ keywords: ["PSYM_DUMP_FIELD_CALLBACK callback"]
 ms.keywords: PSYM_DUMP_FIELD_CALLBACK, PSYM_DUMP_FIELD_CALLBACK function pointer [Windows Debugging], WdbgExts_Ref_37493dec-e340-408d-8f7c-bda18057f427.xml, debugger.psym_dump_field_callback, wdbgexts/PSYM_DUMP_FIELD_CALLBACK
 f1_keywords:
  - "wdbgexts/PSYM_DUMP_FIELD_CALLBACK"
+ - "PSYM_DUMP_FIELD_CALLBACK"
 req.header: wdbgexts.h
 req.include-header:
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wdbgexts.h
 api_name:
 - PSYM_DUMP_FIELD_CALLBACK
-product:
-- Windows
 targetos: Windows
 req.typenames: VPCI_WRITE_BLOCK_INPUT, *PVPCI_WRITE_BLOCK_INPUT
 req.product: Windows 10 or later.

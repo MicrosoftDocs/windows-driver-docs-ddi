@@ -10,6 +10,7 @@ keywords: ["StorPortReleaseSpinLock function"]
 ms.keywords: StorPortReleaseSpinLock, StorPortReleaseSpinLock routine [Storage Devices], storage.storportreleasespinlock, storport/StorPortReleaseSpinLock, storprt_5f3bd7a7-ffdd-4d7b-992b-70c2cea3acec.xml
 f1_keywords:
  - "storport/StorPortReleaseSpinLock"
+ - "StorPortReleaseSpinLock"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - storport.h
 api_name:
 - StorPortReleaseSpinLock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

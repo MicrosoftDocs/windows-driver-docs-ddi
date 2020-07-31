@@ -10,6 +10,7 @@ keywords: ["_DDRAW_CAPS structure"]
 ms.keywords: D3D_other_Structs_5e02fa0c-95ae-4b62-aaa3-7530aec9aee5.xml, DDRAW_CAPS, DDRAW_CAPS structure [Display Devices], _DDRAW_CAPS, d3dumddi/DDRAW_CAPS, display.ddraw_caps
 f1_keywords:
  - "d3dumddi/DDRAW_CAPS"
+ - "DDRAW_CAPS"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - DDRAW_CAPS
-product:
-- Windows
 targetos: Windows
 req.typenames: DDRAW_CAPS
 ---

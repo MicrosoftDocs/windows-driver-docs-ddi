@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_RECLAIMRESOURCES structure"]
 ms.keywords: D3DDDIARG_RECLAIMRESOURCES, D3DDDIARG_RECLAIMRESOURCES structure [Display Devices], _D3DDDIARG_RECLAIMRESOURCES, d3dumddi/D3DDDIARG_RECLAIMRESOURCES, display.d3dddiarg_reclaimresources
 f1_keywords:
  - "d3dumddi/D3DDDIARG_RECLAIMRESOURCES"
+ - "D3DDDIARG_RECLAIMRESOURCES"
 req.header: d3dumddi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - D3dumddi.h
 api_name:
 - D3DDDIARG_RECLAIMRESOURCES
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_RECLAIMRESOURCES
 ---

@@ -10,6 +10,7 @@ keywords: ["NDIS_PD_SET_RECEIVE_FILTER callback function"]
 ms.keywords: NDIS_PD_SET_RECEIVE_FILTER, NDIS_PD_SET_RECEIVE_FILTER callback, NdisPDSetReceiveFilter, NdisPDSetReceiveFilter callback function [Network Drivers Starting with Windows Vista], ndis/NdisPDSetReceiveFilter, netvista.ndispdsetreceivefilter
 f1_keywords:
  - "ndis/NdisPDSetReceiveFilter"
+ - "NdisPDSetReceiveFilter"
 req.header: ndis.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - NdisPDSetReceiveFilter
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

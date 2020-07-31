@@ -10,6 +10,7 @@ keywords: ["RILCALLWAITINGINFOPARAMMASK enumeration"]
 ms.keywords: RILCALLWAITINGINFOPARAMMASK, RILCALLWAITINGINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CWI_ALL, RIL_PARAM_CWI_CALLERINFO, RIL_PARAM_CWI_CALLTYPE, netvista.rilcallwaitinginfoparammask, ntddrilapitypes/RILCALLWAITINGINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_CWI_ALL, ntddrilapitypes/RIL_PARAM_CWI_CALLERINFO, ntddrilapitypes/RIL_PARAM_CWI_CALLTYPE
 f1_keywords:
  - "ntddrilapitypes/RILCALLWAITINGINFOPARAMMASK"
+ - "RILCALLWAITINGINFOPARAMMASK"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILCALLWAITINGINFOPARAMMASK
-product:
-- Windows
 targetos: Windows
 req.typenames: RILCALLWAITINGINFOPARAMMASK
 ---

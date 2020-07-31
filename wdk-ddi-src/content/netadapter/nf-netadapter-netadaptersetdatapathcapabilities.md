@@ -8,6 +8,7 @@ ms.date: 02/06/2018
 keywords: ["NetAdapterSetDataPathCapabilities function"]
 f1_keywords:
  - "netadapter/NetAdapterSetDataPathCapabilities"
+ - "NetAdapterSetDataPathCapabilities"
 ms.keywords: NetAdapterSetDataPathCapabilities
 req.header: netadapter.h
 req.include-header: netadaptercx.h
@@ -38,8 +39,6 @@ api_location:
 api_name: 
 - NetAdapterSetDataPathCapabilities
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetAdapterSetDataPathCapabilities function

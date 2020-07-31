@@ -10,6 +10,7 @@ keywords: ["_SetRADIUSSharedSecret_OUT structure"]
 ms.keywords: "*PSetRADIUSSharedSecret_OUT, PSetRADIUSSharedSecret_OUT, PSetRADIUSSharedSecret_OUT structure pointer [Storage Devices], SetRADIUSSharedSecret_OUT, SetRADIUSSharedSecret_OUT structure [Storage Devices], _SetRADIUSSharedSecret_OUT, iscsiop/PSetRADIUSSharedSecret_OUT, iscsiop/SetRADIUSSharedSecret_OUT, storage.setradiussharedsecret_out, structs-iSCSI_497fc66e-8a5d-4390-9229-622b359776bc.xml"
 f1_keywords:
  - "iscsiop/SetRADIUSSharedSecret_OUT"
+ - "SetRADIUSSharedSecret_OUT"
 req.header: iscsiop.h
 req.include-header: Iscsiop.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - iscsiop.h
 api_name:
 - SetRADIUSSharedSecret_OUT
-product:
-- Windows
 targetos: Windows
 req.typenames: SetRADIUSSharedSecret_OUT, *PSetRADIUSSharedSecret_OUT
 ---

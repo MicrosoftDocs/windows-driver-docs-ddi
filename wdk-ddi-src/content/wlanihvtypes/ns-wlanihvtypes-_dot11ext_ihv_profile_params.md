@@ -10,6 +10,7 @@ keywords: ["_DOT11EXT_IHV_PROFILE_PARAMS structure"]
 ms.keywords: "*PDOT11EXT_IHV_PROFILE_PARAMS, DOT11EXT_IHV_PROFILE_PARAMS, DOT11EXT_IHV_PROFILE_PARAMS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_3fe01c80-477b-4851-8b7e-4d4540cc22b6.xml, PDOT11EXT_IHV_PROFILE_PARAMS, PDOT11EXT_IHV_PROFILE_PARAMS structure pointer [Network Drivers Starting with Windows Vista], _DOT11EXT_IHV_PROFILE_PARAMS, netvista.dot11ext_ihv_profile_params, wlanihvtypes/DOT11EXT_IHV_PROFILE_PARAMS, wlanihvtypes/PDOT11EXT_IHV_PROFILE_PARAMS"
 f1_keywords:
  - "wlanihvtypes/DOT11EXT_IHV_PROFILE_PARAMS"
+ - "DOT11EXT_IHV_PROFILE_PARAMS"
 req.header: wlanihvtypes.h
 req.include-header: Wlanihv.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wlanihvtypes.h
 api_name:
 - DOT11EXT_IHV_PROFILE_PARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT11EXT_IHV_PROFILE_PARAMS, *PDOT11EXT_IHV_PROFILE_PARAMS
 req.product: Windows 10 or later.

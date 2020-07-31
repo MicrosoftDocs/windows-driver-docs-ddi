@@ -10,6 +10,7 @@ keywords: ["WdfFdoInitAllocAndQueryProperty function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_2de90bea-c2df-4aa7-b64f-b17df042268c.xml, WdfFdoInitAllocAndQueryProperty, WdfFdoInitAllocAndQueryProperty method, kmdf.wdffdoinitallocandqueryproperty, wdf.wdffdoinitallocandqueryproperty, wdffdo/WdfFdoInitAllocAndQueryProperty
 f1_keywords:
  - "wdffdo/WdfFdoInitAllocAndQueryProperty"
+ - "WdfFdoInitAllocAndQueryProperty"
 req.header: wdffdo.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfFdoInitAllocAndQueryProperty
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

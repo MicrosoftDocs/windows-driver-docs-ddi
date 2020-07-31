@@ -10,6 +10,7 @@ keywords: ["IWDFDeviceInitialize::SetPowerPolicyOwnership"]
 ms.keywords: IWDFDeviceInitialize interface,SetPowerPolicyOwnership method, IWDFDeviceInitialize.SetPowerPolicyOwnership, IWDFDeviceInitialize::SetPowerPolicyOwnership, SetPowerPolicyOwnership, SetPowerPolicyOwnership method, SetPowerPolicyOwnership method,IWDFDeviceInitialize interface, UMDFDeviceObjectRef_849680d0-e616-4862-9c59-50150f6c15f0.xml, umdf.iwdfdeviceinitialize_setpowerpolicyownership, wdf.iwdfdeviceinitialize_setpowerpolicyownership, wudfddi/IWDFDeviceInitialize::SetPowerPolicyOwnership
 f1_keywords:
  - "wudfddi/IWDFDeviceInitialize.SetPowerPolicyOwnership"
+ - "IWDFDeviceInitialize.SetPowerPolicyOwnership"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFDeviceInitialize.SetPowerPolicyOwnership
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

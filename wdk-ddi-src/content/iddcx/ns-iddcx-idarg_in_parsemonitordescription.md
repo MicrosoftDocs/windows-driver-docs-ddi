@@ -10,6 +10,7 @@ keywords: ["IDARG_IN_PARSEMONITORDESCRIPTION structure"]
 ms.keywords: IDARG_IN_PARSEMONITORDESCRIPTION, IDARG_IN_PARSEMONITORDESCRIPTION structure [Display Devices], display.idarg_in_parsemonitordescription, iddcx/IDARG_IN_PARSEMONITORDESCRIPTION
 f1_keywords:
  - "iddcx/IDARG_IN_PARSEMONITORDESCRIPTION"
+ - "IDARG_IN_PARSEMONITORDESCRIPTION"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - iddcx.h
 api_name:
 - IDARG_IN_PARSEMONITORDESCRIPTION
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DSTENCILOP enumeration"]
 f1_keywords:
  - "d3d9types/_D3DSTENCILOP"
+ - "_D3DSTENCILOP"
 ms.keywords: _D3DSTENCILOP, D3DSTENCILOP, 
 req.header: d3d9types.h
 req.include-header:
@@ -26,8 +27,6 @@ api_location:
 - d3d9types.h
 api_name: 
 - _D3DSTENCILOP
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

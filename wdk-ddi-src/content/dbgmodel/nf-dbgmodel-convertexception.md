@@ -7,6 +7,7 @@ ms.date: 09/28/2018
 keywords: ["ConvertException function"]
 f1_keywords:
  - "dbgmodel/ConvertException"
+ - "ConvertException"
 ms.keywords: ConvertException
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - ConvertException
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

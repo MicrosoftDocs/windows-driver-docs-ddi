@@ -10,6 +10,7 @@ keywords: ["IDebugControl3 interface"]
 ms.keywords: IDebugControl3, IDebugControl3 interface [Windows Debugging], IDebugControl3 interface [Windows Debugging],described, dbgeng/IDebugControl3, debugger.idebugcontrol3
 f1_keywords:
  - "dbgeng/IDebugControl3"
+ - "IDebugControl3"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugControl3
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

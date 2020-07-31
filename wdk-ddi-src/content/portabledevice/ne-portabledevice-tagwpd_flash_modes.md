@@ -10,6 +10,7 @@ keywords: ["tagWPD_FLASH_MODES enumeration"]
 ms.keywords: WPD_FLASH_MODES, WPD_FLASH_MODES enumeration, WPD_FLASH_MODE_AUTO, WPD_FLASH_MODE_EXTERNAL_SYNC, WPD_FLASH_MODE_FILL, WPD_FLASH_MODE_OFF, WPD_FLASH_MODE_RED_EYE_AUTO, WPD_FLASH_MODE_RED_EYE_FILL, WPD_FLASH_MODE_UNDEFINED, enumeration, portabledevice/WPD_FLASH_MODES, portabledevice/WPD_FLASH_MODE_AUTO, portabledevice/WPD_FLASH_MODE_EXTERNAL_SYNC, portabledevice/WPD_FLASH_MODE_FILL, portabledevice/WPD_FLASH_MODE_OFF, portabledevice/WPD_FLASH_MODE_RED_EYE_AUTO, portabledevice/WPD_FLASH_MODE_RED_EYE_FILL, portabledevice/WPD_FLASH_MODE_UNDEFINED, tagWPD_FLASH_MODES, wpddk.wpd_flash_modes
 f1_keywords:
  - "portabledevice/WPD_FLASH_MODES"
+ - "WPD_FLASH_MODES"
 req.header: portabledevice.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - PortableDevice.h
 api_name:
 - WPD_FLASH_MODES
-product:
-- Windows
 targetos: Windows
 req.typenames: WPD_FLASH_MODES
 ms.custom: RS5

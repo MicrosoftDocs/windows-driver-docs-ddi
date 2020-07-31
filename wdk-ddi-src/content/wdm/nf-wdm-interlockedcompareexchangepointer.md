@@ -10,6 +10,7 @@ keywords: ["InterlockedCompareExchangePointer function"]
 ms.keywords: InterlockedCompareExchangePointer, InterlockedCompareExchangePointer routine [Kernel-Mode Driver Architecture], k102_ffaadb46-ece2-40fb-9e87-1c7ea3af275e.xml, kernel.interlockedcompareexchangepointer, wdm/InterlockedCompareExchangePointer
 f1_keywords:
  - "wdm/InterlockedCompareExchangePointer"
+ - "InterlockedCompareExchangePointer"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Miniport.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - InterlockedCompareExchangePointer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["KsDereferenceSoftwareBusObject function"]
 ms.keywords: KsDereferenceSoftwareBusObject, KsDereferenceSoftwareBusObject function [Streaming Media Devices], ksfunc_e9066001-173a-40e1-a933-2f646a21afad.xml, stream.ksdereferencesoftwarebusobject, swenum/KsDereferenceSoftwareBusObject
 f1_keywords:
  - "swenum/KsDereferenceSoftwareBusObject"
+ - "KsDereferenceSoftwareBusObject"
 req.header: swenum.h
 req.include-header: Swenum.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsDereferenceSoftwareBusObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

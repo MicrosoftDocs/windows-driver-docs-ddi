@@ -10,6 +10,7 @@ keywords: ["IDebugClient::EndSession"]
 ms.keywords: EndSession, EndSession method [Windows Debugging], EndSession method [Windows Debugging],IDebugClient interface, EndSession method [Windows Debugging],IDebugClient2 interface, EndSession method [Windows Debugging],IDebugClient3 interface, EndSession method [Windows Debugging],IDebugClient4 interface, EndSession method [Windows Debugging],IDebugClient5 interface, IDebugClient interface [Windows Debugging],EndSession method, IDebugClient.EndSession, IDebugClient2 interface [Windows Debugging],EndSession method, IDebugClient2::EndSession, IDebugClient3 interface [Windows Debugging],EndSession method, IDebugClient3::EndSession, IDebugClient4 interface [Windows Debugging],EndSession method, IDebugClient4::EndSession, IDebugClient5 interface [Windows Debugging],EndSession method, IDebugClient5::EndSession, IDebugClient::EndSession, IDebugClient_b3243254-eb98-4ee6-8dc9-92fe4c998500.xml, dbgeng/IDebugClient2::EndSession, dbgeng/IDebugClient3::EndSession, dbgeng/IDebugClient4::EndSession, dbgeng/IDebugClient5::EndSession, dbgeng/IDebugClient::EndSession, debugger.endsession
 f1_keywords:
  - "dbgeng/IDebugClient.EndSession"
+ - "IDebugClient.EndSession"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -40,8 +41,6 @@ api_name:
 - IDebugClient3.EndSession
 - IDebugClient4.EndSession
 - IDebugClient5.EndSession
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

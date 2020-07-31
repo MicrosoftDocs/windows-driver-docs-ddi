@@ -9,6 +9,7 @@ keywords: ["_DXGKARG_RENDERGDI structure"]
 ms.keywords: "*INOUT_PDXGKARG_RENDERGDI, DXGKARG_RENDERGDI, DXGKARG_RENDERGDI structure [Display Devices], _DXGKARG_RENDERGDI, d3dkmddi/DXGKARG_RENDERGDI, display.dxgkarg_rendergdi"
 f1_keywords:
  - "d3dkmddi/DXGKARG_RENDERGDI"
+ - "DXGKARG_RENDERGDI"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGKARG_RENDERGDI
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGKARG_RENDERGDI

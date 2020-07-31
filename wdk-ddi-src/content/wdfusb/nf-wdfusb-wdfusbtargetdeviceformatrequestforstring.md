@@ -10,6 +10,7 @@ keywords: ["WdfUsbTargetDeviceFormatRequestForString function"]
 ms.keywords: DFUsbRef_ff5bebaa-3db1-4f9a-bac4-2e5e5c297d03.xml, WdfUsbTargetDeviceFormatRequestForString, WdfUsbTargetDeviceFormatRequestForString method, kmdf.wdfusbtargetdeviceformatrequestforstring, wdf.wdfusbtargetdeviceformatrequestforstring, wdfusb/WdfUsbTargetDeviceFormatRequestForString
 f1_keywords:
  - "wdfusb/WdfUsbTargetDeviceFormatRequestForString"
+ - "WdfUsbTargetDeviceFormatRequestForString"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfUsbTargetDeviceFormatRequestForString
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IOCTL_VIDEO_SET_CURSOR_POSITION IOCTL"]
 ms.keywords: IOCTL_VIDEO_SET_CURSOR_POSITION, IOCTL_VIDEO_SET_CURSOR_POSITION control, IOCTL_VIDEO_SET_CURSOR_POSITION control code [Display Devices], Video_IOCTLs_f95d8cf3-a53e-4b67-867e-7af83e3b0d40.xml, display.ioctl_video_set_cursor_position, ntddvdeo/IOCTL_VIDEO_SET_CURSOR_POSITION
 f1_keywords:
  - "ntddvdeo/IOCTL_VIDEO_SET_CURSOR_POSITION"
+ - "IOCTL_VIDEO_SET_CURSOR_POSITION"
 req.header: ntddvdeo.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddvdeo.h
 api_name:
 - IOCTL_VIDEO_SET_CURSOR_POSITION
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IPrinterExtensionEventArgs::get_BidiNotification"]
 ms.keywords: BidiNotification property [Print Devices], BidiNotification property [Print Devices],IPrinterExtensionEventArgs interface, IPrinterExtensionEventArgs interface [Print Devices],BidiNotification property, IPrinterExtensionEventArgs.BidiNotification, IPrinterExtensionEventArgs.get_BidiNotification, IPrinterExtensionEventArgs::BidiNotification, IPrinterExtensionEventArgs::get_BidiNotification, get_BidiNotification, print.iprinterextensioneventargs_bidinotification, printerextension/IPrinterExtensionEventArgs::BidiNotification, printerextension/IPrinterExtensionEventArgs::get_BidiNotification
 f1_keywords:
  - "printerextension/IPrinterExtensionEventArgs.BidiNotification"
+ - "IPrinterExtensionEventArgs.BidiNotification"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IPrinterExtensionEventArgs.BidiNotification
 - IPrinterExtensionEventArgs.get_BidiNotification
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

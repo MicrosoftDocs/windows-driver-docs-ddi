@@ -10,6 +10,7 @@ keywords: ["KsGetBusEnumIdentifier function"]
 ms.keywords: KsGetBusEnumIdentifier, KsGetBusEnumIdentifier function [Streaming Media Devices], ksfunc_c001aace-8c97-48cb-ae8b-9e7075d51960.xml, stream.ksgetbusenumidentifier, swenum/KsGetBusEnumIdentifier
 f1_keywords:
  - "swenum/KsGetBusEnumIdentifier"
+ - "KsGetBusEnumIdentifier"
 req.header: swenum.h
 req.include-header: Swenum.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsGetBusEnumIdentifier
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

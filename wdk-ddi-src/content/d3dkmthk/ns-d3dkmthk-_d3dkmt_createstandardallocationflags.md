@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_CREATESTANDARDALLOCATIONFLAGS structure"]
 ms.keywords: D3DKMT_CREATESTANDARDALLOCATIONFLAGS, D3DKMT_CREATESTANDARDALLOCATIONFLAGS structure [Display Devices], _D3DKMT_CREATESTANDARDALLOCATIONFLAGS, d3dkmthk/D3DKMT_CREATESTANDARDALLOCATIONFLAGS, display.d3dkmt-createstandardallocationflags
 f1_keywords:
  - "d3dkmthk/D3DKMT_CREATESTANDARDALLOCATIONFLAGS"
+ - "D3DKMT_CREATESTANDARDALLOCATIONFLAGS"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMT_CREATESTANDARDALLOCATIONFLAGS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_CREATESTANDARDALLOCATIONFLAGS

@@ -10,6 +10,7 @@ keywords: ["NDK_FN_CONNECT_WITH_SHARED_ENDPOINT callback function"]
 ms.keywords: NDK_FN_CONNECT_WITH_SHARED_ENDPOINT, NDK_FN_CONNECT_WITH_SHARED_ENDPOINT callback, NdkConnectWithSharedEndpoint, NdkConnectWithSharedEndpoint callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkConnectWithSharedEndpoint, netvista.ndk_fn_connect_with_shared_endpoint
 f1_keywords:
  - "ndkpi/NdkConnectWithSharedEndpoint"
+ - "NdkConnectWithSharedEndpoint"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ndkpi.h
 api_name:
 - NdkConnectWithSharedEndpoint
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

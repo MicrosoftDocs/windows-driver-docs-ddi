@@ -10,6 +10,7 @@ keywords: ["RILERRORDETAILSPARAMMASK enumeration"]
 ms.keywords: RILERRORDETAILSPARAMMASK, RILERRORDETAILSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], netvista.rilerrordetailsparammask, ntddrilapitypes/RILERRORDETAILSPARAMMASK
 f1_keywords:
  - "rilapitypes/RILERRORDETAILSPARAMMASK"
+ - "RILERRORDETAILSPARAMMASK"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILERRORDETAILSPARAMMASK
-product:
-- Windows
 targetos: Windows
 req.typenames: RILERRORDETAILSPARAMMASK
 ---

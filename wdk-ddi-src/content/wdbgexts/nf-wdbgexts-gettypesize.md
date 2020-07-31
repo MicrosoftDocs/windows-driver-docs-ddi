@@ -10,6 +10,7 @@ keywords: ["GetTypeSize function"]
 ms.keywords: GetTypeSize, GetTypeSize function [Windows Debugging], WdbgExts_Ref_f3c7edf8-5c3b-440f-ace7-2081f9923d6f.xml, debugger.gettypesize, wdbgexts/GetTypeSize
 f1_keywords:
  - "wdbgexts/GetTypeSize"
+ - "GetTypeSize"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wdbgexts.h
 api_name:
 - GetTypeSize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

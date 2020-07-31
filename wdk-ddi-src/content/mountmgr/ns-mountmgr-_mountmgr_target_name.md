@@ -10,6 +10,7 @@ keywords: ["_MOUNTMGR_TARGET_NAME structure"]
 ms.keywords: "*PMOUNTMGR_TARGET_NAME, MOUNTMGR_TARGET_NAME, MOUNTMGR_TARGET_NAME structure [Storage Devices], PMOUNTMGR_TARGET_NAME, PMOUNTMGR_TARGET_NAME structure pointer [Storage Devices], _MOUNTMGR_TARGET_NAME, mountmgr/MOUNTMGR_TARGET_NAME, mountmgr/PMOUNTMGR_TARGET_NAME, storage.mountmgr_target_name, structs-mntmgr_abcf0a10-ecbb-433e-9848-c2d5065ca1ac.xml"
 f1_keywords:
  - "mountmgr/MOUNTMGR_TARGET_NAME"
+ - "MOUNTMGR_TARGET_NAME"
 req.header: mountmgr.h
 req.include-header: Mountmgr.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - mountmgr.h
 api_name:
 - MOUNTMGR_TARGET_NAME
-product:
-- Windows
 targetos: Windows
 req.typenames: MOUNTMGR_TARGET_NAME, *PMOUNTMGR_TARGET_NAME
 ---

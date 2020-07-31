@@ -10,6 +10,7 @@ keywords: ["WdfInterruptGetDevice function"]
 ms.keywords: DFInterruptObjectRef_9c646459-e17b-434f-b313-d22f3a211c4e.xml, WdfInterruptGetDevice, WdfInterruptGetDevice method, kmdf.wdfinterruptgetdevice, wdf.wdfinterruptgetdevice, wdfinterrupt/WdfInterruptGetDevice
 f1_keywords:
  - "wdfinterrupt/WdfInterruptGetDevice"
+ - "WdfInterruptGetDevice"
 req.header: wdfinterrupt.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfInterruptGetDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

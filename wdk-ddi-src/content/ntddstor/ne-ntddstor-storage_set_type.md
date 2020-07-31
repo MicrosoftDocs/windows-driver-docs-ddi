@@ -10,6 +10,7 @@ ms.date: 03/21/2019
 keywords: ["STORAGE_SET_TYPE enumeration"]
 f1_keywords:
  - "ntddstor/STORAGE_SET_TYPE"
+ - "STORAGE_SET_TYPE"
 ms.keywords: STORAGE_SET_TYPE, STORAGE_SET_TYPE, *PSTORAGE_SET_TYPE, STORAGE_PROPERTY_SET, IOCTL_STORAGE_SET_PROPERTY
 req.header: ntddstor.h
 req.include-header:

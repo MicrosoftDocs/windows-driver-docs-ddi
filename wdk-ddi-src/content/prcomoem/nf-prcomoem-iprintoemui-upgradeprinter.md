@@ -10,6 +10,7 @@ keywords: ["IPrintOemUI::UpgradePrinter"]
 ms.keywords: IPrintOemUI interface [Print Devices],UpgradePrinter method, IPrintOemUI.UpgradePrinter, IPrintOemUI::UpgradePrinter, UpgradePrinter, UpgradePrinter method [Print Devices], UpgradePrinter method [Print Devices],IPrintOemUI interface, prcomoem/IPrintOemUI::UpgradePrinter, print.iprintoemui_upgradeprinter, print_unidrv-pscript_ui_18087d8a-d7b4-485f-84fb-277e194bb4e8.xml
 f1_keywords:
  - "prcomoem/IPrintOemUI.UpgradePrinter"
+ - "IPrintOemUI.UpgradePrinter"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - prcomoem.h
 api_name:
 - IPrintOemUI.UpgradePrinter
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

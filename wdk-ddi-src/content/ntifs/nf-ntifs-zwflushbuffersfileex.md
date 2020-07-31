@@ -10,6 +10,7 @@ keywords: ["ZwFlushBuffersFileEx function"]
 ms.keywords: FLUSH_FLAGS_FILE_DATA_ONLY, FLUSH_FLAGS_NO_SYNC, NtFlushBuffersFileEx, ZwFlushBuffersFileEx, ZwFlushBuffersFileEx routine [Kernel-Mode Driver Architecture], kernel.zwflushbuffersfileex, ntifs/NtFlushBuffersFileEx, ntifs/ZwFlushBuffersFileEx
 f1_keywords:
  - "ntifs/ZwFlushBuffersFileEx"
+ - "ZwFlushBuffersFileEx"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - ZwFlushBuffersFileEx
 - NtFlushBuffersFileEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["FltAdjustDeviceStackSizeForIoRedirection function"]
 ms.keywords: FltAdjustDeviceStackSizeForIoRedirection, FltAdjustDeviceStackSizeForIoRedirection routine [Installable File System Drivers], fltkernel/FltAdjustDeviceStackSizeForIoRedirection, ifsk.fltadjustdevicestacksizeforioredirection
 f1_keywords:
  - "fltkernel/FltAdjustDeviceStackSizeForIoRedirection"
+ - "FltAdjustDeviceStackSizeForIoRedirection"
 req.header: fltkernel.h
 req.include-header: FltKernel.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - FltMgr.dll
 api_name:
 - FltAdjustDeviceStackSizeForIoRedirection
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

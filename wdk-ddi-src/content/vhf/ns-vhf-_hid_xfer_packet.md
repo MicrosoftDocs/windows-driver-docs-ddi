@@ -10,6 +10,7 @@ keywords: ["_HID_XFER_PACKET structure"]
 ms.keywords: "*PHID_XFER_PACKET, HID_XFER_PACKET, HID_XFER_PACKET structure [Human Input Devices], PHID_XFER_PACKET, PHID_XFER_PACKET structure pointer [Human Input Devices], _HID_XFER_PACKET, hid.hid_xfer_packet, hidclass/HID_XFER_PACKET, hidclass/PHID_XFER_PACKET, hidstrct_55f22385-a5ed-46b5-9f97-9d47ee731145.xml"
 f1_keywords:
  - "vhf/HID_XFER_PACKET"
+ - "HID_XFER_PACKET"
 req.header: vhf.h
 req.include-header: Hidport.h, Vhf.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - hidclass.h
 api_name:
 - HID_XFER_PACKET
-product:
-- Windows
 targetos: Windows
 req.typenames: HID_XFER_PACKET, *PHID_XFER_PACKET
 ---

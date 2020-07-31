@@ -10,6 +10,7 @@ keywords: ["PoFxActivateComponent function"]
 ms.keywords: PO_FX_FLAG_ASYNC_ONLY, PO_FX_FLAG_BLOCKING, PoFxActivateComponent, PoFxActivateComponent routine [Kernel-Mode Driver Architecture], kernel.pofxactivatecomponent, wdm/PoFxActivateComponent
 f1_keywords:
  - "wdm/PoFxActivateComponent"
+ - "PoFxActivateComponent"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Ntoskrnl.exe
 api_name:
 - PoFxActivateComponent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

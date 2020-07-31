@@ -10,6 +10,7 @@ keywords: ["RxCeInitiateVCDisconnect function"]
 ms.keywords: RxCeInitiateVCDisconnect, RxCeInitiateVCDisconnect function [Installable File System Drivers], ifsk.rxceinitiatevcdisconnect, rxce/RxCeInitiateVCDisconnect, rxref_1893aa5d-dda4-49f7-b4bb-dc9bdd75154a.xml
 f1_keywords:
  - "rxce/RxCeInitiateVCDisconnect"
+ - "RxCeInitiateVCDisconnect"
 req.header: rxce.h
 req.include-header: Rxce.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - rxce.h
 api_name:
 - RxCeInitiateVCDisconnect
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

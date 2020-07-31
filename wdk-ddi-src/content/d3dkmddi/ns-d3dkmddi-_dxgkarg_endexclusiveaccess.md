@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_DXGKARG_ENDEXCLUSIVEACCESS structure"]
 f1_keywords:
  - "d3dkmddi/_DXGKARG_ENDEXCLUSIVEACCESS"
+ - "_DXGKARG_ENDEXCLUSIVEACCESS"
 ms.keywords: _DXGKARG_ENDEXCLUSIVEACCESS, DXGKARG_ENDEXCLUSIVEACCESS, *IN_PDXGKARG_ENDEXCLUSIVEACCESS
 req.header: d3dkmddi.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - _DXGKARG_ENDEXCLUSIVEACCESS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

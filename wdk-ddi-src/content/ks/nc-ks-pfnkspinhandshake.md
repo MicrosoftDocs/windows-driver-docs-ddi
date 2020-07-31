@@ -10,6 +10,7 @@ keywords: ["PFNKSPINHANDSHAKE callback function"]
 ms.keywords: AVStrMiniPinHandshake, AVStrMiniPinHandshake routine [Streaming Media Devices], PFNKSPINHANDSHAKE, avstclbk_3a87dcb0-5825-4ba0-b9b3-dfb6a1af20a2.xml, ks/AVStrMiniPinHandshake, stream.avstrminipinhandshake
 f1_keywords:
  - "ks/AVStrMiniPinHandshake"
+ - "AVStrMiniPinHandshake"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - AVStrMiniPinHandshake
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

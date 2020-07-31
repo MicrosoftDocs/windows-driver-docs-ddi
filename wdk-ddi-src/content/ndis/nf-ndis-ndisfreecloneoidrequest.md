@@ -10,6 +10,7 @@ keywords: ["NdisFreeCloneOidRequest function"]
 ms.keywords: NdisFreeCloneOidRequest, NdisFreeCloneOidRequest function [Network Drivers Starting with Windows Vista], ndis/NdisFreeCloneOidRequest, ndis_request_ref_450d80e2-3414-4c02-aca1-848c75f824a6.xml, netvista.ndisfreecloneoidrequest
 f1_keywords:
  - "ndis/NdisFreeCloneOidRequest"
+ - "NdisFreeCloneOidRequest"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisFreeCloneOidRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

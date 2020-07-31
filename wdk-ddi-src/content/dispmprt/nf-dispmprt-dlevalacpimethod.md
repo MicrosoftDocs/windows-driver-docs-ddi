@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DlEvalAcpiMethod function"]
 f1_keywords:
  - "dispmprt/DlEvalAcpiMethod"
+ - "DlEvalAcpiMethod"
 ms.keywords: DlEvalAcpiMethod
 req.header: dispmprt.h
 req.include-header:

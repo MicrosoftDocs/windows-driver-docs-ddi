@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_DEVICE_WAKE_FROM_SX_TRIGGERED callback function"]
 ms.keywords: DFDeviceObjectGeneralRef_38946496-1155-44d9-8636-8343c4623000.xml, EVT_WDF_DEVICE_WAKE_FROM_SX_TRIGGERED, EVT_WDF_DEVICE_WAKE_FROM_SX_TRIGGERED callback, EvtDeviceWakeFromSxTriggered, EvtDeviceWakeFromSxTriggered callback function, kmdf.evtdevicewakefromsxtriggered, wdf.evtdevicewakefromsxtriggered, wdfdevice/EvtDeviceWakeFromSxTriggered
 f1_keywords:
  - "wdfdevice/EvtDeviceWakeFromSxTriggered"
+ - "EvtDeviceWakeFromSxTriggered"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Wdfdevice.h
 api_name:
 - EvtDeviceWakeFromSxTriggered
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

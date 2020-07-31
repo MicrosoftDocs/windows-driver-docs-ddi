@@ -10,6 +10,7 @@ keywords: ["StorPortGetSystemPortNumber function"]
 ms.keywords: StorPortGetSystemPortNumber, StorPortGetSystemPortNumber routine [Storage Devices], storage.storportgetsystemportnumber, storport/StorPortGetSystemPortNumber
 f1_keywords:
  - "storport/StorPortGetSystemPortNumber"
+ - "StorPortGetSystemPortNumber"
 req.header: storport.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - storport.h
 api_name:
 - StorPortGetSystemPortNumber
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

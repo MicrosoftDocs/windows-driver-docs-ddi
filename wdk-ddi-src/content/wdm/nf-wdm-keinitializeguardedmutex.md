@@ -10,6 +10,7 @@ keywords: ["KeInitializeGuardedMutex function"]
 ms.keywords: KeInitializeGuardedMutex, KeInitializeGuardedMutex routine [Kernel-Mode Driver Architecture], k105_e9686411-583c-43bb-b7e6-b5248bed72f8.xml, kernel.keinitializeguardedmutex, wdm/KeInitializeGuardedMutex
 f1_keywords:
  - "wdm/KeInitializeGuardedMutex"
+ - "KeInitializeGuardedMutex"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeInitializeGuardedMutex
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["RxFinalizeNetFobx function"]
 ms.keywords: RxFinalizeNetFOBX, RxFinalizeNetFobx, RxFinalizeNetFobx function [Installable File System Drivers], fcb/RxFinalizeNetFobx, ifsk.rxfinalizenetfobx, rxref_72a759e2-f9e6-44ce-b561-cb968b668a6f.xml
 f1_keywords:
  - "fcb/RxFinalizeNetFobx"
+ - "RxFinalizeNetFobx"
 req.header: fcb.h
 req.include-header: Mrxfcb.h, Fcb.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - fcb.h
 api_name:
 - RxFinalizeNetFobx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

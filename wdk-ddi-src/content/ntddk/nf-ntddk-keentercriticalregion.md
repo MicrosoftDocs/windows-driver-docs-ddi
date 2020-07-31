@@ -10,6 +10,7 @@ keywords: ["KeEnterCriticalRegion function"]
 ms.keywords: KeEnterCriticalRegion, KeEnterCriticalRegion routine [Kernel-Mode Driver Architecture], k105_cfa63781-e7c6-455a-8e99-4b20872a0b3f.xml, kernel.keentercriticalregion, wdm/KeEnterCriticalRegion
 f1_keywords:
  - "ntddk/KeEnterCriticalRegion"
+ - "KeEnterCriticalRegion"
 req.header: ntddk.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeEnterCriticalRegion
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

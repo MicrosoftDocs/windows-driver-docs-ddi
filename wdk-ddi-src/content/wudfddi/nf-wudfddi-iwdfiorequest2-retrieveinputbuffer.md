@@ -10,6 +10,7 @@ keywords: ["IWDFIoRequest2::RetrieveInputBuffer"]
 ms.keywords: IWDFIoRequest2 interface,RetrieveInputBuffer method, IWDFIoRequest2.RetrieveInputBuffer, IWDFIoRequest2::RetrieveInputBuffer, RetrieveInputBuffer, RetrieveInputBuffer method, RetrieveInputBuffer method,IWDFIoRequest2 interface, UMDFRequestObjectRef_d4e2aa27-329a-4438-8010-579f8a3a3363.xml, umdf.iwdfiorequest2_retrieveinputbuffer, wdf.iwdfiorequest2_retrieveinputbuffer, wudfddi/IWDFIoRequest2::RetrieveInputBuffer
 f1_keywords:
  - "wudfddi/IWDFIoRequest2.RetrieveInputBuffer"
+ - "IWDFIoRequest2.RetrieveInputBuffer"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFIoRequest2.RetrieveInputBuffer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

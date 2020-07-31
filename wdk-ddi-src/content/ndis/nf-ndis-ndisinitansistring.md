@@ -10,6 +10,7 @@ keywords: ["NdisInitAnsiString macro"]
 ms.keywords: NdisInitAnsiString, NdisInitAnsiString macro [Network Drivers Starting with Windows Vista], ndis/NdisInitAnsiString, ndis_string_ref_2d47b8b6-3b3e-48ca-a2be-ee1bca117ef6.xml, netvista.ndisinitansistring
 f1_keywords:
  - "ndis/NdisInitAnsiString"
+ - "NdisInitAnsiString"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisInitAnsiString
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

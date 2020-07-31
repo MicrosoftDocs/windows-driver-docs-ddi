@@ -10,6 +10,7 @@ keywords: ["_WDF_COINSTALLER_INSTALL_OPTIONS structure"]
 ms.keywords: "*PWDF_COINSTALLER_INSTALL_OPTIONS, DFCoinstallerRef_71021229-7902-4d6a-a5f3-c9763860c7bf.xml, PWDF_COINSTALLER_INSTALL_OPTIONS, PWDF_COINSTALLER_INSTALL_OPTIONS structure pointer, WDF_COINSTALLER_INSTALL_OPTIONS, WDF_COINSTALLER_INSTALL_OPTIONS structure, _WDF_COINSTALLER_INSTALL_OPTIONS, kmdf.wdf_coinstaller_install_options, wdf.wdf_coinstaller_install_options, wdfinstaller/PWDF_COINSTALLER_INSTALL_OPTIONS, wdfinstaller/WDF_COINSTALLER_INSTALL_OPTIONS"
 f1_keywords:
  - "wdfinstaller/WDF_COINSTALLER_INSTALL_OPTIONS"
+ - "WDF_COINSTALLER_INSTALL_OPTIONS"
 req.header: wdfinstaller.h
 req.include-header: Wdfinstaller.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wdfinstaller.h
 api_name:
 - WDF_COINSTALLER_INSTALL_OPTIONS
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_COINSTALLER_INSTALL_OPTIONS, *PWDF_COINSTALLER_INSTALL_OPTIONS
 ---

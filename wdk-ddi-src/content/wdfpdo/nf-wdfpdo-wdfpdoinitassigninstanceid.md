@@ -10,6 +10,7 @@ keywords: ["WdfPdoInitAssignInstanceID function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_cb462423-ac9a-499c-bdd7-24a276d9adf9.xml, WdfPdoInitAssignInstanceID, WdfPdoInitAssignInstanceID method, kmdf.wdfpdoinitassigninstanceid, wdf.wdfpdoinitassigninstanceid, wdfpdo/WdfPdoInitAssignInstanceID
 f1_keywords:
  - "wdfpdo/WdfPdoInitAssignInstanceID"
+ - "WdfPdoInitAssignInstanceID"
 req.header: wdfpdo.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfPdoInitAssignInstanceID
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

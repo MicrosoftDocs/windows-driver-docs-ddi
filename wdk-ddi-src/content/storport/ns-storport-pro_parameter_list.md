@@ -10,6 +10,7 @@ keywords: ["PRO_PARAMETER_LIST structure"]
 ms.keywords: "*PPRO_PARAMETER_LIST, PPRO_PARAMETER_LIST, PPRO_PARAMETER_LIST structure pointer [Storage Devices], PRO_PARAMETER_LIST, PRO_PARAMETER_LIST structure [Storage Devices], storage.pro_parameter_list, storport/PPRO_PARAMETER_LIST, storport/PRO_PARAMETER_LIST, structs-general_7481edb0-cc60-44b9-abcc-80bf0f79fbae.xml"
 f1_keywords:
  - "storport/PRO_PARAMETER_LIST"
+ - "PRO_PARAMETER_LIST"
 req.header: storport.h
 req.include-header: Ntddstor.h, Minitape.h, Scsi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - storport.h
 api_name:
 - PRO_PARAMETER_LIST
-product:
-- Windows
 targetos: Windows
 req.typenames: PRO_PARAMETER_LIST, *PPRO_PARAMETER_LIST
 ---

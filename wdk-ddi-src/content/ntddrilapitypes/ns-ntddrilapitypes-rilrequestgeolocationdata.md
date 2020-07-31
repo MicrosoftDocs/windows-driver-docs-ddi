@@ -10,6 +10,7 @@ keywords: ["RILREQUESTGEOLOCATIONDATA structure"]
 ms.keywords: "*LPRILREQUESTGEOLOCATIONDATA, RILREQUESTGEOLOCATIONDATA, RILREQUESTGEOLOCATIONDATA structure [Network Drivers Starting with Windows Vista], netvista.rilrequestgeolocationdata, ntddrilapitypes/RILREQUESTGEOLOCATIONDATA"
 f1_keywords:
  - "ntddrilapitypes/RILREQUESTGEOLOCATIONDATA"
+ - "RILREQUESTGEOLOCATIONDATA"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILREQUESTGEOLOCATIONDATA
-product:
-- Windows
 targetos: Windows
 req.typenames: RILREQUESTGEOLOCATIONDATA, *LPRILREQUESTGEOLOCATIONDATA
 ---

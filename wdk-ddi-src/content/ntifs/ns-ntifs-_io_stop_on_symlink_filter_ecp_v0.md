@@ -8,6 +8,7 @@ tech.root: ifsk
 keywords: ["_IO_STOP_ON_SYMLINK_FILTER_ECP_v0 structure"]
 f1_keywords:
  - "ntifs/_IO_STOP_ON_SYMLINK_FILTER_ECP_v0"
+ - "_IO_STOP_ON_SYMLINK_FILTER_ECP_v0"
 ms.keywords: _IO_STOP_ON_SYMLINK_FILTER_ECP_v0, IO_STOP_ON_SYMLINK_FILTER_ECP_v0, *PIO_STOP_ON_SYMLINK_FILTER_ECP_v0, 
 req.header: ntifs.h
 req.include-header:
@@ -30,8 +31,6 @@ api_location:
 - ntifs.h
 api_name: 
 - _IO_STOP_ON_SYMLINK_FILTER_ECP_v0
-product:
-- Windows
 targetos: Windows
 ---
 

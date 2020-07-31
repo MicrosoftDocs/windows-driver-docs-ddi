@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_WAITFORSYNCHRONIZATIONOBJECT structure"]
 ms.keywords: D3DKMT_WAITFORSYNCHRONIZATIONOBJECT, D3DKMT_WAITFORSYNCHRONIZATIONOBJECT structure [Display Devices], OpenGL_Structs_5498c651-0ef6-4114-9821-de193980f879.xml, _D3DKMT_WAITFORSYNCHRONIZATIONOBJECT, d3dkmthk/D3DKMT_WAITFORSYNCHRONIZATIONOBJECT, display.d3dkmt_waitforsynchronizationobject
 f1_keywords:
  - "d3dkmthk/D3DKMT_WAITFORSYNCHRONIZATIONOBJECT"
+ - "D3DKMT_WAITFORSYNCHRONIZATIONOBJECT"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMT_WAITFORSYNCHRONIZATIONOBJECT
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_WAITFORSYNCHRONIZATIONOBJECT

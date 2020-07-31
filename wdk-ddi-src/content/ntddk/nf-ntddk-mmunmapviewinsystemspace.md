@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["MmUnmapViewInSystemSpace function"]
 f1_keywords:
  - "ntddk/MmUnmapViewInSystemSpace"
+ - "MmUnmapViewInSystemSpace"
 ms.keywords: MmUnmapViewInSystemSpace
 req.header: ntddk.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - NfcCx.dll
 api_name: 
 - MmUnmapViewInSystemSpace
-product:
-- Windows
 targetos: Windows
 
 ms.custom: RS5

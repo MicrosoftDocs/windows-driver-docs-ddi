@@ -10,6 +10,7 @@ keywords: ["RILMSGCDMAINDELIVER structure"]
 ms.keywords: "*LPRILMSGCDMAINDELIVER, RILMSGCDMAINDELIVER, RILMSGCDMAINDELIVER structure [Network Drivers Starting with Windows Vista], netvista.rilmsgcdmaindeliver, ntddrilapitypes/RILMSGCDMAINDELIVER"
 f1_keywords:
  - "ntddrilapitypes/RILMSGCDMAINDELIVER"
+ - "RILMSGCDMAINDELIVER"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILMSGCDMAINDELIVER
-product:
-- Windows
 targetos: Windows
 req.typenames: RILMSGCDMAINDELIVER, *LPRILMSGCDMAINDELIVER
 ---

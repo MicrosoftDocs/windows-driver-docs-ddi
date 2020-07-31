@@ -10,6 +10,7 @@ keywords: ["KsDispatchFastIoDeviceControlFailure function"]
 ms.keywords: KsDispatchFastIoDeviceControlFailure, KsDispatchFastIoDeviceControlFailure function [Streaming Media Devices], ks/KsDispatchFastIoDeviceControlFailure, ksfunc_f8510e75-1698-4ce9-acd8-d5db73a7c035.xml, stream.ksdispatchfastiodevicecontrolfailure
 f1_keywords:
  - "ks/KsDispatchFastIoDeviceControlFailure"
+ - "KsDispatchFastIoDeviceControlFailure"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsDispatchFastIoDeviceControlFailure
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

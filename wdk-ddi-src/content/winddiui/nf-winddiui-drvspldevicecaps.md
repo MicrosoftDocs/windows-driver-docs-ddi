@@ -10,6 +10,7 @@ keywords: ["DrvSplDeviceCaps function"]
 ms.keywords: DrvSplDeviceCaps, DrvSplDeviceCaps function [Print Devices], print.drvspldevicecaps, print_interface-graphics_8c345fd4-e513-44ff-94b0-2f035db6a022.xml, winddiui/DrvSplDeviceCaps
 f1_keywords:
  - "winddiui/DrvSplDeviceCaps"
+ - "DrvSplDeviceCaps"
 req.header: winddiui.h
 req.include-header: Winddiui.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - winddiui.h
 api_name:
 - DrvSplDeviceCaps
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

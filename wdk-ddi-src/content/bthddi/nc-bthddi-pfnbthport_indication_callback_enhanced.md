@@ -10,6 +10,7 @@ keywords: ["PFNBTHPORT_INDICATION_CALLBACK_ENHANCED callback function"]
 ms.keywords: BluetoothPortIndicationCallbackEnhanced, BluetoothPortIndicationCallbackEnhanced callback function [Bluetooth Devices], PFNBTHPORT_INDICATION_CALLBACK_ENHANCED, PFNBTHPORT_INDICATION_CALLBACK_ENHANCED callback, bltooth.enhanced_l2cap_callback_function, bthddi/BluetoothPortIndicationCallbackEnhanced
 f1_keywords:
  - "bthddi/BluetoothPortIndicationCallbackEnhanced"
+ - "BluetoothPortIndicationCallbackEnhanced"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - bthddi.h
 api_name:
 - BluetoothPortIndicationCallbackEnhanced
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

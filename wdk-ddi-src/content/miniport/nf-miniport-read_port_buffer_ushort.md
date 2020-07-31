@@ -10,6 +10,7 @@ keywords: ["READ_PORT_BUFFER_USHORT function"]
 ms.keywords: READ_PORT_BUFFER_USHORT, READ_PORT_BUFFER_USHORT routine [Kernel-Mode Driver Architecture], k103_59466909-4881-4b5f-95aa-c1d742ef17af.xml, kernel.read_port_buffer_ushort, wdm/READ_PORT_BUFFER_USHORT
 f1_keywords:
  - "miniport/READ_PORT_BUFFER_USHORT"
+ - "READ_PORT_BUFFER_USHORT"
 req.header: miniport.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Miniport.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Hal.dll
 api_name:
 - READ_PORT_BUFFER_USHORT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

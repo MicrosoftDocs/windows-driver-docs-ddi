@@ -10,6 +10,7 @@ keywords: ["FwpsOpenToken0 function"]
 ms.keywords: FwpsOpenToken0, FwpsOpenToken0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsOpenToken0, netvista.fwpsopentoken0
 f1_keywords:
  - "fwpsk/FwpsOpenToken0"
+ - "FwpsOpenToken0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fwpsk.h
 api_name:
 - FwpsOpenToken0
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

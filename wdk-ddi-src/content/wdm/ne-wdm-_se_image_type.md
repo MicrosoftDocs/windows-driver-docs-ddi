@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_SE_IMAGE_TYPE enumeration"]
 f1_keywords:
  - "wdm/_SE_IMAGE_TYPE"
+ - "_SE_IMAGE_TYPE"
 ms.keywords: _SE_IMAGE_TYPE, SE_IMAGE_TYPE, *PSE_IMAGE_TYPE, 
 req.header: wdm.h
 req.include-header:
@@ -26,8 +27,6 @@ api_location:
 - wdm.h
 api_name: 
 - _SE_IMAGE_TYPE
-product:
-- Windows
 targetos: Windows
 ---
 

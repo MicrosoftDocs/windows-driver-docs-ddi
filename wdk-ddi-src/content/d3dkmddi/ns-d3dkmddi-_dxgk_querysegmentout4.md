@@ -9,6 +9,7 @@ keywords: ["_DXGK_QUERYSEGMENTOUT4 structure"]
 ms.keywords: DXGK_QUERYSEGMENTOUT4, DXGK_QUERYSEGMENTOUT4 structure [Display Devices], _DXGK_QUERYSEGMENTOUT4, d3dkmddi/DXGK_QUERYSEGMENTOUT4, display.dxgk_querysegmentout4
 f1_keywords:
  - "d3dkmddi/DXGK_QUERYSEGMENTOUT4"
+ - "DXGK_QUERYSEGMENTOUT4"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGK_QUERYSEGMENTOUT4
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_QUERYSEGMENTOUT4

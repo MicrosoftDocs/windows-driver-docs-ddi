@@ -10,6 +10,7 @@ keywords: ["IPrintSchemaParameterDefinition::get_DataType"]
 ms.keywords: DataType property [Print Devices], DataType property [Print Devices],IPrintSchemaParameterDefinition interface, IPrintSchemaParameterDefinition interface [Print Devices],DataType property, IPrintSchemaParameterDefinition.DataType, IPrintSchemaParameterDefinition.get_DataType, IPrintSchemaParameterDefinition::DataType, IPrintSchemaParameterDefinition::get_DataType, get_DataType, print._iprintschemaparameterdefinition_datatype, printerextension/IPrintSchemaParameterDefinition::DataType, printerextension/IPrintSchemaParameterDefinition::get_DataType
 f1_keywords:
  - "printerextension/IPrintSchemaParameterDefinition.DataType"
+ - "IPrintSchemaParameterDefinition.DataType"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IPrintSchemaParameterDefinition.DataType
 - IPrintSchemaParameterDefinition.get_DataType
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

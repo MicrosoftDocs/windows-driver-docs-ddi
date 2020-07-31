@@ -10,6 +10,7 @@ keywords: ["IWDFIoQueue::DrainSynchronously"]
 ms.keywords: DrainSynchronously, DrainSynchronously method, DrainSynchronously method,IWDFIoQueue interface, IWDFIoQueue interface,DrainSynchronously method, IWDFIoQueue.DrainSynchronously, IWDFIoQueue::DrainSynchronously, UMDFQueueObjectRef_35105420-0461-4879-aba2-28c32ece9aab.xml, umdf.iwdfioqueue_drainsynchronously, wdf.iwdfioqueue_drainsynchronously, wudfddi/IWDFIoQueue::DrainSynchronously
 f1_keywords:
  - "wudfddi/IWDFIoQueue.DrainSynchronously"
+ - "IWDFIoQueue.DrainSynchronously"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFIoQueue.DrainSynchronously
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["FILTER_CANCEL_SEND_NET_BUFFER_LISTS callback function"]
 ms.keywords: "(*FILTER_CANCEL_SEND_HANDLER), (*FILTER_CANCEL_SEND_HANDLER) callback function [Network Drivers Starting with Windows Vista], FILTER_CANCEL_SEND_NET_BUFFER_LISTS, FILTER_CANCEL_SEND_NET_BUFFER_LISTS callback, FilterCancelSendNetBufferLists, FilterCancelSendNetBufferLists callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_4538f981-3e2c-496b-bbea-e85baf122257.xml, ndis/FilterCancelSendNetBufferLists, netvista.filtercancelsendnetbufferlists"
 f1_keywords:
  - "ndis/(*FILTER_CANCEL_SEND_HANDLER)"
+ - "(*FILTER_CANCEL_SEND_HANDLER)"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - (*FILTER_CANCEL_SEND_HANDLER)
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

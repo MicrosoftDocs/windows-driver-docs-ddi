@@ -10,6 +10,7 @@ keywords: ["IDebugControl4::GetLogFileWide"]
 ms.keywords: GetLogFileWide, GetLogFileWide method [Windows Debugging], GetLogFileWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetLogFileWide method, IDebugControl4.GetLogFileWide, IDebugControl4::GetLogFileWide, dbgeng/IDebugControl4::GetLogFileWide, debugger.getlogfilewide
 f1_keywords:
  - "dbgeng/IDebugControl4.GetLogFileWide"
+ - "IDebugControl4.GetLogFileWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugControl4.GetLogFileWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

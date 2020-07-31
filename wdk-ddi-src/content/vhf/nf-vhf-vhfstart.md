@@ -10,6 +10,7 @@ keywords: ["VhfStart function"]
 ms.keywords: VhfStart, VhfStart method [Human Input Devices], hid.vhfstart, vhf/VhfStart
 f1_keywords:
  - "vhf/VhfStart"
+ - "VhfStart"
 req.header: vhf.h
 req.include-header: 
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 - VhfKm.dll
 api_name:
 - VhfStart
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

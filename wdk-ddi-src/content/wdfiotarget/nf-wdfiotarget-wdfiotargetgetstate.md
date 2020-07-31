@@ -10,6 +10,7 @@ keywords: ["WdfIoTargetGetState function"]
 ms.keywords: DFIOTargetRef_a11b8879-0766-4071-b1bd-c4cd43a0973b.xml, WdfIoTargetGetState, WdfIoTargetGetState method, kmdf.wdfiotargetgetstate, wdf.wdfiotargetgetstate, wdfiotarget/WdfIoTargetGetState
 f1_keywords:
  - "wdfiotarget/WdfIoTargetGetState"
+ - "WdfIoTargetGetState"
 req.header: wdfiotarget.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfIoTargetGetState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

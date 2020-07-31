@@ -10,6 +10,7 @@ keywords: ["RIL_Dial function"]
 ms.keywords: RIL_Dial, RIL_Dial method [Network Drivers Starting with Windows Vista], netvista.ril_dial, rilapi/RIL_Dial
 f1_keywords:
  - "rilapi/RIL_Dial"
+ - "RIL_Dial"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_Dial
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

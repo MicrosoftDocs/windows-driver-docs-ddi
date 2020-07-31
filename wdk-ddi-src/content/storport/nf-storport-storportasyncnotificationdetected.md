@@ -10,6 +10,7 @@ keywords: ["StorPortAsyncNotificationDetected function"]
 ms.keywords: RAID_ASYNC_NOTIFY_FLAG_DEVICE_OPERATION, RAID_ASYNC_NOTIFY_FLAG_DEVICE_STATUS, RAID_ASYNC_NOTIFY_FLAG_MEDIA_STATUS, StorPortAsyncNotificationDetected, StorPortAsyncNotificationDetected routine [Storage Devices], storage.storportasyncnotificationdetected, storport/StorPortAsyncNotificationDetected
 f1_keywords:
  - "storport/StorPortAsyncNotificationDetected"
+ - "StorPortAsyncNotificationDetected"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - storport.h
 api_name:
 - StorPortAsyncNotificationDetected
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IPrintSchemaParameterDefinition::get_RangeMin"]
 ms.keywords: IPrintSchemaParameterDefinition interface [Print Devices],RangeMin property, IPrintSchemaParameterDefinition.RangeMin, IPrintSchemaParameterDefinition.get_RangeMin, IPrintSchemaParameterDefinition::RangeMin, IPrintSchemaParameterDefinition::get_RangeMin, RangeMin property [Print Devices], RangeMin property [Print Devices],IPrintSchemaParameterDefinition interface, get_RangeMin, print._iprintschemaparameterdefinition_rangemin, printerextension/IPrintSchemaParameterDefinition::RangeMin, printerextension/IPrintSchemaParameterDefinition::get_RangeMin
 f1_keywords:
  - "printerextension/IPrintSchemaParameterDefinition.RangeMin"
+ - "IPrintSchemaParameterDefinition.RangeMin"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IPrintSchemaParameterDefinition.RangeMin
 - IPrintSchemaParameterDefinition.get_RangeMin
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

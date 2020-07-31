@@ -10,6 +10,7 @@ keywords: ["_FLT_CONTEXT_REGISTRATION structure"]
 ms.keywords: "*PFLT_CONTEXT_REGISTRATION, FLT_CONTEXT_REGISTRATION, FLT_CONTEXT_REGISTRATION structure [Installable File System Drivers], FltSystemStructures_534c1657-6f7c-42fa-b8df-2a64ed6edf3a.xml, PFLT_CONTEXT_REGISTRATION, PFLT_CONTEXT_REGISTRATION structure pointer [Installable File System Drivers], _FLT_CONTEXT_REGISTRATION, fltkernel/FLT_CONTEXT_REGISTRATION, fltkernel/PFLT_CONTEXT_REGISTRATION, ifsk.flt_context_registration"
 f1_keywords:
  - "fltkernel/FLT_CONTEXT_REGISTRATION"
+ - "FLT_CONTEXT_REGISTRATION"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - fltkernel.h
 api_name:
 - FLT_CONTEXT_REGISTRATION
-product:
-- Windows
 targetos: Windows
 req.typenames: FLT_CONTEXT_REGISTRATION, *PFLT_CONTEXT_REGISTRATION
 ---

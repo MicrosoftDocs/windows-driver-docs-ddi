@@ -10,6 +10,7 @@ keywords: ["KSIOOPERATION enumeration"]
 ms.keywords: KSIOOPERATION, KSIOOPERATION enumeration [Streaming Media Devices], KsIoOperation_Read, KsIoOperation_Write, ksproxy/KSIOOPERATION, ksproxy/KsIoOperation_Read, ksproxy/KsIoOperation_Write, stream.ksiooperation
 f1_keywords:
  - "ksproxy/KSIOOPERATION"
+ - "KSIOOPERATION"
 req.header: ksproxy.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ksproxy.h
 api_name:
 - KSIOOPERATION
-product:
-- Windows
 targetos: Windows
 req.typenames: KSIOOPERATION
 ---

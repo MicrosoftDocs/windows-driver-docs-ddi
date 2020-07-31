@@ -10,6 +10,7 @@ keywords: ["tagWPD_CROPPED_STATUS_VALUES enumeration"]
 ms.keywords: WPD_CROPPED_STATUS_CROPPED, WPD_CROPPED_STATUS_NOT_CROPPED, WPD_CROPPED_STATUS_SHOULD_NOT_BE_CROPPED, WPD_CROPPED_STATUS_VALUES, WPD_CROPPED_STATUS_VALUES enumeration, enumeration, portabledevice/WPD_CROPPED_STATUS_CROPPED, portabledevice/WPD_CROPPED_STATUS_NOT_CROPPED, portabledevice/WPD_CROPPED_STATUS_SHOULD_NOT_BE_CROPPED, portabledevice/WPD_CROPPED_STATUS_VALUES, tagWPD_CROPPED_STATUS_VALUES, wpddk.wpd_cropped_status_values
 f1_keywords:
  - "portabledevice/WPD_CROPPED_STATUS_VALUES"
+ - "WPD_CROPPED_STATUS_VALUES"
 req.header: portabledevice.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - PortableDevice.h
 api_name:
 - WPD_CROPPED_STATUS_VALUES
-product:
-- Windows
 targetos: Windows
 req.typenames: WPD_CROPPED_STATUS_VALUES
 ms.custom: RS5

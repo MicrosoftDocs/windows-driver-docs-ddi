@@ -9,6 +9,7 @@ keywords: ["D3D11DDI_THREADING_CAPS structure"]
 ms.keywords: D3D11DDI_THREADING_CAPS, D3D11DDI_THREADING_CAPS structure [Display Devices], UMDisplayDriver_Dx11param_Structs_0f59187b-c545-4e95-aa28-c2627cb62538.xml, d3d10umddi/D3D11DDI_THREADING_CAPS, display.d3d11ddi_threading_caps
 f1_keywords:
  - "d3d10umddi/D3D11DDI_THREADING_CAPS"
+ - "D3D11DDI_THREADING_CAPS"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - D3D11DDI_THREADING_CAPS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D11DDI_THREADING_CAPS

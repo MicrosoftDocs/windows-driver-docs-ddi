@@ -10,6 +10,7 @@ keywords: ["PFNKSDELETEALLOCATOR callback function"]
 ms.keywords: AVStrMiniDeleteAllocator, AVStrMiniDeleteAllocator routine [Streaming Media Devices], PFNKSDELETEALLOCATOR, avstclbk_32e3c0fd-c437-45e0-8e5e-72f2f628ee51.xml, ks/AVStrMiniDeleteAllocator, stream.avstrminideleteallocator
 f1_keywords:
  - "ks/AVStrMiniDeleteAllocator"
+ - "AVStrMiniDeleteAllocator"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - AVStrMiniDeleteAllocator
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

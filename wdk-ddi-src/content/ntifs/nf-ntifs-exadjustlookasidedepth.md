@@ -10,6 +10,7 @@ keywords: ["ExAdjustLookasideDepth function"]
 ms.keywords: ExAdjustLookasideDepth, ExAdjustLookasideDepth function [Installable File System Drivers], exref_c7837105-d91f-42c1-ba97-a292550b4eb5.xml, ifsk.exadjustlookasidedepth, ntifs/ExAdjustLookasideDepth
 f1_keywords:
  - "ntifs/ExAdjustLookasideDepth"
+ - "ExAdjustLookasideDepth"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - ExAdjustLookasideDepth
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

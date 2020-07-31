@@ -10,6 +10,7 @@ keywords: ["_PD_BUFFER_8021Q_INFO structure"]
 ms.keywords: PD_BUFFER_8021Q_INFO, PD_BUFFER_8021Q_INFO structure [Network Drivers Starting with Windows Vista], PPD_BUFFER_8021Q_INFO, PPD_BUFFER_8021Q_INFO structure pointer [Network Drivers Starting with Windows Vista], _PD_BUFFER_8021Q_INFO, ndis/PD_BUFFER_8021Q_INFO, ndis/PPD_BUFFER_8021Q_INFO, netvista.pd_buffer_8021q_info
 f1_keywords:
  - "ndis/PD_BUFFER_8021Q_INFO"
+ - "PD_BUFFER_8021Q_INFO"
 req.header: ndis.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - PD_BUFFER_8021Q_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: PD_BUFFER_8021Q_INFO
 ---

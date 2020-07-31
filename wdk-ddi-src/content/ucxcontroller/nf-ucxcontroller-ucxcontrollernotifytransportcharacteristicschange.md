@@ -10,6 +10,7 @@ keywords: ["UcxControllerNotifyTransportCharacteristicsChange function"]
 ms.keywords: UcxControllerNotifyTransportCharacteristicsChange, UcxControllerNotifyTransportCharacteristicsChange function [Buses], buses.ucxcontrollernotifytransportcharacteristicschange, ucxcontroller/UcxControllerNotifyTransportCharacteristicsChange
 f1_keywords:
  - "ucxcontroller/UcxControllerNotifyTransportCharacteristicsChange"
+ - "UcxControllerNotifyTransportCharacteristicsChange"
 req.header: ucxcontroller.h
 req.include-header: Ucxclass.h
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 - Ucxstubs.dll
 api_name:
 - UcxControllerNotifyTransportCharacteristicsChange
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

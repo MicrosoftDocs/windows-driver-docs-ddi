@@ -10,6 +10,7 @@ keywords: ["ExtExtension::OnSessionActive"]
 ms.keywords: EngExtCpp_Ref_251ac958-396c-414a-92a5-e1b02e453a69.xml, ExtExtension class [Windows Debugging],OnSessionActive method, ExtExtension.OnSessionActive, ExtExtension::OnSessionActive, OnSessionActive, OnSessionActive method [Windows Debugging], OnSessionActive method [Windows Debugging],ExtExtension class, debugger.onsessionactive
 f1_keywords:
  - "engextcpp/ExtExtension.OnSessionActive"
+ - "ExtExtension.OnSessionActive"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Engextcpp.hpp
 api_name:
 - ExtExtension.OnSessionActive
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

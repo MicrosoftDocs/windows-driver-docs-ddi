@@ -10,6 +10,7 @@ keywords: ["_GET_CONFIGURATION_IOCTL_INPUT structure"]
 ms.keywords: "*PGET_CONFIGURATION_IOCTL_INPUT, GET_CONFIGURATION_IOCTL_INPUT, GET_CONFIGURATION_IOCTL_INPUT structure [Storage Devices], PGET_CONFIGURATION_IOCTL_INPUT, PGET_CONFIGURATION_IOCTL_INPUT structure pointer [Storage Devices], _GET_CONFIGURATION_IOCTL_INPUT, ntddmmc/GET_CONFIGURATION_IOCTL_INPUT, ntddmmc/PGET_CONFIGURATION_IOCTL_INPUT, storage.get_configuration_ioctl_input, structs-CD-ROM_1bac7730-693e-4d41-b672-260f83765e35.xml"
 f1_keywords:
  - "ntddmmc/GET_CONFIGURATION_IOCTL_INPUT"
+ - "GET_CONFIGURATION_IOCTL_INPUT"
 req.header: ntddmmc.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddmmc.h
 api_name:
 - GET_CONFIGURATION_IOCTL_INPUT
-product:
-- Windows
 targetos: Windows
 req.typenames: GET_CONFIGURATION_IOCTL_INPUT, *PGET_CONFIGURATION_IOCTL_INPUT
 ---

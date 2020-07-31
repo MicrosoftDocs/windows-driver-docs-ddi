@@ -10,6 +10,7 @@ keywords: ["IDebugSystemObjects4 interface"]
 ms.keywords: IDebugSystemObjects4, IDebugSystemObjects4 interface [Windows Debugging], IDebugSystemObjects4 interface [Windows Debugging],described, dbgeng/IDebugSystemObjects4, debugger.idebugsystemobjects4
 f1_keywords:
  - "dbgeng/IDebugSystemObjects4"
+ - "IDebugSystemObjects4"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IDebugSystemObjects4
 - IDebugSystemObjects4.GetCurrentSystemServerNameWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

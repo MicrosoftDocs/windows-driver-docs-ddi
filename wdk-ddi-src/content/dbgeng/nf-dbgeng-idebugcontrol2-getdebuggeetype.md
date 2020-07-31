@@ -10,6 +10,7 @@ keywords: ["IDebugControl2::GetDebuggeeType"]
 ms.keywords: GetDebuggeeType, GetDebuggeeType method [Windows Debugging], GetDebuggeeType method [Windows Debugging],IDebugControl interface, GetDebuggeeType method [Windows Debugging],IDebugControl2 interface, GetDebuggeeType method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetDebuggeeType method, IDebugControl2 interface [Windows Debugging],GetDebuggeeType method, IDebugControl2.GetDebuggeeType, IDebugControl2::GetDebuggeeType, IDebugControl3 interface [Windows Debugging],GetDebuggeeType method, IDebugControl3::GetDebuggeeType, IDebugControl::GetDebuggeeType, IDebugControl_4179686c-b047-41f5-98cc-28f2c6bd852d.xml, dbgeng/IDebugControl2::GetDebuggeeType, dbgeng/IDebugControl3::GetDebuggeeType, dbgeng/IDebugControl::GetDebuggeeType, debugger.getdebuggeetype
 f1_keywords:
  - "dbgeng/IDebugControl.GetDebuggeeType"
+ - "IDebugControl.GetDebuggeeType"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -38,8 +39,6 @@ api_name:
 - IDebugControl.GetDebuggeeType
 - IDebugControl2.GetDebuggeeType
 - IDebugControl3.GetDebuggeeType
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

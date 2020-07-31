@@ -10,6 +10,7 @@ keywords: ["IInterruptSync::GetKInterrupt"]
 ms.keywords: GetKInterrupt, GetKInterrupt method [Audio Devices], GetKInterrupt method [Audio Devices],IInterruptSync interface, IInterruptSync interface [Audio Devices],GetKInterrupt method, IInterruptSync.GetKInterrupt, IInterruptSync::GetKInterrupt, audio.iinterruptsync_getkinterrupt, audmp-routines_7782adef-dc02-4876-bd48-812f8b3e58da.xml, portcls/IInterruptSync::GetKInterrupt
 f1_keywords:
  - "portcls/IInterruptSync.GetKInterrupt"
+ - "IInterruptSync.GetKInterrupt"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IInterruptSync.GetKInterrupt
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

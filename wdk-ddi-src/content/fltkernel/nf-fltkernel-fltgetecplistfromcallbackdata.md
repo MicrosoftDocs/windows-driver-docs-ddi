@@ -10,6 +10,7 @@ keywords: ["FltGetEcpListFromCallbackData function"]
 ms.keywords: FltApiRef_e_to_o_781f52ec-4262-4205-81bb-2a0e824f50af.xml, FltGetEcpListFromCallbackData, FltGetEcpListFromCallbackData routine [Installable File System Drivers], fltkernel/FltGetEcpListFromCallbackData, ifsk.fltgetecplistfromcallbackdata
 f1_keywords:
  - "fltkernel/FltGetEcpListFromCallbackData"
+ - "FltGetEcpListFromCallbackData"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltGetEcpListFromCallbackData
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -29,6 +29,7 @@ tech.root: display
 req.typenames: 
 f1_keywords:
  - "d3d10umddi/RelocateDeviceFuncs(D3D11_2)"
+ - "RelocateDeviceFuncs(D3D11_2)"
 topic_type:
  - APIRef
  - kbSyntax

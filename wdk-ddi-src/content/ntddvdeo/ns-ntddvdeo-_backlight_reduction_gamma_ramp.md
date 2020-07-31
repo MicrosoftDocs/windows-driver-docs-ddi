@@ -8,6 +8,7 @@ ms.date: 08/03/2018
 keywords: ["_BACKLIGHT_REDUCTION_GAMMA_RAMP structure"]
 f1_keywords:
  - "ntddvdeo/_BACKLIGHT_REDUCTION_GAMMA_RAMP"
+ - "_BACKLIGHT_REDUCTION_GAMMA_RAMP"
 ms.keywords: _BACKLIGHT_REDUCTION_GAMMA_RAMP, BACKLIGHT_REDUCTION_GAMMA_RAMP,
 req.header: ntddvdeo.h
 req.include-header:

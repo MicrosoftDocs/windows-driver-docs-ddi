@@ -9,6 +9,7 @@ keywords: ["D3D10_1DDIARG_TEXCUBE_SHADERRESOURCEVIEW structure"]
 ms.keywords: D3D10_1DDIARG_TEXCUBE_SHADERRESOURCEVIEW, D3D10_1DDIARG_TEXCUBE_SHADERRESOURCEVIEW structure [Display Devices], UMDisplayDriver_Dx10param_Structs_4988e1af-5552-4f7c-be15-5c54f88b9975.xml, d3d10umddi/D3D10_1DDIARG_TEXCUBE_SHADERRESOURCEVIEW, display.d3d10_1ddiarg_texcube_shaderresourceview
 f1_keywords:
  - "d3d10umddi/D3D10_1DDIARG_TEXCUBE_SHADERRESOURCEVIEW"
+ - "D3D10_1DDIARG_TEXCUBE_SHADERRESOURCEVIEW"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - D3D10_1DDIARG_TEXCUBE_SHADERRESOURCEVIEW
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D10_1DDIARG_TEXCUBE_SHADERRESOURCEVIEW

@@ -10,6 +10,7 @@ keywords: ["WdfUsbInterfaceGetNumEndpoints function"]
 ms.keywords: DFUsbRef_e0c08e93-b09f-40d0-9958-e4e51d7b887d.xml, WdfUsbInterfaceGetNumEndpoints, WdfUsbInterfaceGetNumEndpoints method, kmdf.wdfusbinterfacegetnumendpoints, wdf.wdfusbinterfacegetnumendpoints, wdfusb/WdfUsbInterfaceGetNumEndpoints
 f1_keywords:
  - "wdfusb/WdfUsbInterfaceGetNumEndpoints"
+ - "WdfUsbInterfaceGetNumEndpoints"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfUsbInterfaceGetNumEndpoints
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

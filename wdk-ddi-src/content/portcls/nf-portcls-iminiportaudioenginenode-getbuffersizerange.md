@@ -10,6 +10,7 @@ keywords: ["IMiniportAudioEngineNode::GetBufferSizeRange"]
 ms.keywords: GetBufferSizeRange, GetBufferSizeRange method [Audio Devices], GetBufferSizeRange method [Audio Devices],IMiniportAudioEngineNode interface, IMiniportAudioEngineNode interface [Audio Devices],GetBufferSizeRange method, IMiniportAudioEngineNode.GetBufferSizeRange, IMiniportAudioEngineNode::GetBufferSizeRange, audio.iminiportaudioenginenode_getbuffersizerange, portcls/IMiniportAudioEngineNode::GetBufferSizeRange
 f1_keywords:
  - "portcls/IMiniportAudioEngineNode.GetBufferSizeRange"
+ - "IMiniportAudioEngineNode.GetBufferSizeRange"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Portcls.h
 api_name:
 - IMiniportAudioEngineNode.GetBufferSizeRange
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

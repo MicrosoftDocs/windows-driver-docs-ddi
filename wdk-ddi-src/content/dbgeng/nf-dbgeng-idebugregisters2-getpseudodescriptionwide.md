@@ -10,6 +10,7 @@ keywords: ["IDebugRegisters2::GetPseudoDescriptionWide"]
 ms.keywords: GetPseudoDescriptionWide, GetPseudoDescriptionWide method [Windows Debugging], GetPseudoDescriptionWide method [Windows Debugging],IDebugRegisters2 interface, IDebugRegisters2 interface [Windows Debugging],GetPseudoDescriptionWide method, IDebugRegisters2.GetPseudoDescriptionWide, IDebugRegisters2::GetPseudoDescriptionWide, dbgeng/IDebugRegisters2::GetPseudoDescriptionWide, debugger.getpseudodescriptionwide
 f1_keywords:
  - "dbgeng/IDebugRegisters2.GetPseudoDescriptionWide"
+ - "IDebugRegisters2.GetPseudoDescriptionWide"
 req.header: dbgeng.h
 req.include-header: DbgEng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugRegisters2.GetPseudoDescriptionWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

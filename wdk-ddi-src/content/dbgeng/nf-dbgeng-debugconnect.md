@@ -10,6 +10,7 @@ keywords: ["DebugConnect function"]
 ms.keywords: ClientFns_7beeb350-b8bd-44ea-b5c9-ca0da15146ae.xml, DebugConnect, DebugConnect function [Windows Debugging], dbgeng/DebugConnect, debugger.debugconnect
 f1_keywords:
  - "dbgeng/DebugConnect"
+ - "DebugConnect"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.dll
 api_name:
 - DebugConnect
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

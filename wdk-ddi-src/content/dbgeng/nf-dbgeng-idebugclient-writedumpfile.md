@@ -10,6 +10,7 @@ keywords: ["IDebugClient::WriteDumpFile"]
 ms.keywords: IDebugClient interface [Windows Debugging],WriteDumpFile method, IDebugClient.WriteDumpFile, IDebugClient2 interface [Windows Debugging],WriteDumpFile method, IDebugClient2::WriteDumpFile, IDebugClient3 interface [Windows Debugging],WriteDumpFile method, IDebugClient3::WriteDumpFile, IDebugClient4 interface [Windows Debugging],WriteDumpFile method, IDebugClient4::WriteDumpFile, IDebugClient5 interface [Windows Debugging],WriteDumpFile method, IDebugClient5::WriteDumpFile, IDebugClient::WriteDumpFile, IDebugClient_d9fa8d64-3c92-425b-82fc-dec8553bdb52.xml, WriteDumpFile, WriteDumpFile method [Windows Debugging], WriteDumpFile method [Windows Debugging],IDebugClient interface, WriteDumpFile method [Windows Debugging],IDebugClient2 interface, WriteDumpFile method [Windows Debugging],IDebugClient3 interface, WriteDumpFile method [Windows Debugging],IDebugClient4 interface, WriteDumpFile method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient2::WriteDumpFile, dbgeng/IDebugClient3::WriteDumpFile, dbgeng/IDebugClient4::WriteDumpFile, dbgeng/IDebugClient5::WriteDumpFile, dbgeng/IDebugClient::WriteDumpFile, debugger.writedumpfile
 f1_keywords:
  - "dbgeng/IDebugClient.WriteDumpFile"
+ - "IDebugClient.WriteDumpFile"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -40,8 +41,6 @@ api_name:
 - IDebugClient3.WriteDumpFile
 - IDebugClient4.WriteDumpFile
 - IDebugClient5.WriteDumpFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

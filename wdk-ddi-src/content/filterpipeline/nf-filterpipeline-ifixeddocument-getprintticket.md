@@ -10,6 +10,7 @@ keywords: ["IFixedDocument::GetPrintTicket"]
 ms.keywords: GetPrintTicket, GetPrintTicket method [Print Devices], GetPrintTicket method [Print Devices],IFixedDocument interface, IFixedDocument interface [Print Devices],GetPrintTicket method, IFixedDocument.GetPrintTicket, IFixedDocument::GetPrintTicket, filterpipeline/IFixedDocument::GetPrintTicket, filterpipeline_4da54cb5-31ab-47b3-b2a6-7485e344f233.xml, print.ifixeddocument_getprintticket
 f1_keywords:
  - "filterpipeline/IFixedDocument.GetPrintTicket"
+ - "IFixedDocument.GetPrintTicket"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - filterpipeline.h
 api_name:
 - IFixedDocument.GetPrintTicket
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

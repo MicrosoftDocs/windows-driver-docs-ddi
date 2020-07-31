@@ -7,6 +7,7 @@ ms.date: 11/21/2018
 keywords: ["_D3DDDI_QUERYREGISTRY_TYPE enumeration"]
 f1_keywords:
  - "d3dukmdt/_D3DDDI_QUERYREGISTRY_TYPE"
+ - "_D3DDDI_QUERYREGISTRY_TYPE"
 ms.keywords: _D3DDDI_QUERYREGISTRY_TYPE, D3DDDI_QUERYREGISTRY_TYPE,
 req.header: d3dukmdt.h
 req.include-header:

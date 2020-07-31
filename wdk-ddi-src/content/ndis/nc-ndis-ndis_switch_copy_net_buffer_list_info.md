@@ -10,6 +10,7 @@ keywords: ["NDIS_SWITCH_COPY_NET_BUFFER_LIST_INFO callback function"]
 ms.keywords: CopyNetBufferListInfo, CopyNetBufferListInfo callback function [Network Drivers Starting with Windows Vista], NDIS_SWITCH_COPY_NET_BUFFER_LIST_INFO, NDIS_SWITCH_COPY_NET_BUFFER_LIST_INFO callback, ndis/CopyNetBufferListInfo, netvista.CopyNetBufferListInfo
 f1_keywords:
  - "ndis/CopyNetBufferListInfo"
+ - "CopyNetBufferListInfo"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - CopyNetBufferListInfo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

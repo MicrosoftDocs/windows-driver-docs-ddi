@@ -10,6 +10,7 @@ keywords: ["_WDI_RADIO_MEASUREMENT_ACTION enumeration"]
 ms.keywords: WDI_RADIO_MEASUREMENT_ACTION, WDI_RADIO_MEASUREMENT_ACTION enumeration [Device and Driver Installation], WDI_RADIO_MEASUREMENT_ACTION_NEIGHBOR_REPORT_REQUEST, WDI_RADIO_MEASUREMENT_ACTION_NEIGHBOR_REPORT_RESPONSE, _WDI_RADIO_MEASUREMENT_ACTION, netvista.wdi_radio_measurement_action, netvista.wifi_radio_measurement_action, wditypes/WDI_RADIO_MEASUREMENT_ACTION, wditypes/WDI_RADIO_MEASUREMENT_ACTION_NEIGHBOR_REPORT_REQUEST, wditypes/WDI_RADIO_MEASUREMENT_ACTION_NEIGHBOR_REPORT_RESPONSE
 f1_keywords:
  - "wditypes/WDI_RADIO_MEASUREMENT_ACTION"
+ - "WDI_RADIO_MEASUREMENT_ACTION"
 req.header: wditypes.hpp
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wditypes.hpp
 api_name:
 - WDI_RADIO_MEASUREMENT_ACTION
-product:
-- Windows
 targetos: Windows
 req.typenames: WDI_RADIO_MEASUREMENT_ACTION
 ---

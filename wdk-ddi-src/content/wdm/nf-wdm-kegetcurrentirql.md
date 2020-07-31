@@ -10,6 +10,7 @@ keywords: ["KeGetCurrentIrql function"]
 ms.keywords: KeGetCurrentIrql, KeGetCurrentIrql routine [Kernel-Mode Driver Architecture], k105_04c845e8-a239-4400-8a5f-15996754494a.xml, kernel.kegetcurrentirql, wdm/KeGetCurrentIrql
 f1_keywords:
  - "wdm/KeGetCurrentIrql"
+ - "KeGetCurrentIrql"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeGetCurrentIrql
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

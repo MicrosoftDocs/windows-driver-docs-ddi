@@ -7,6 +7,7 @@ ms.date: 09/18/2018
 keywords: ["ExReleasePushLockShared macro"]
 f1_keywords:
  - "wdm/ExReleasePushLockShared"
+ - "ExReleasePushLockShared"
 ms.keywords: ExReleasePushLockShared
 req.header: wdm.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - wdm.h
 api_name: 
 - ExReleasePushLockShared
-product:
-- Windows
 targetos: Windows
 
 

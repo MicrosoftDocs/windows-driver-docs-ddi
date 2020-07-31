@@ -10,6 +10,7 @@ keywords: ["_DOT11_WFD_ATTRIBUTES structure"]
 ms.keywords: "*PDOT11_WFD_ATTRIBUTES, DOT11_WFD_ATTRIBUTES, DOT11_WFD_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], PDOT11_WFD_ATTRIBUTES, PDOT11_WFD_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], _DOT11_WFD_ATTRIBUTES, netvista.dot11_wfd_attributes, windot11/DOT11_WFD_ATTRIBUTES, windot11/PDOT11_WFD_ATTRIBUTES"
 f1_keywords:
  - "windot11/DOT11_WFD_ATTRIBUTES"
+ - "DOT11_WFD_ATTRIBUTES"
 req.header: windot11.h
 req.include-header: Windot11.h
 req.target-type: Windows

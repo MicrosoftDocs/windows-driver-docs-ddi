@@ -10,6 +10,7 @@ keywords: ["FltRegisterForDataScan function"]
 ms.keywords: FltRegisterForDataScan, FltRegisterForDataScan routine [Installable File System Drivers], fltkernel/FltRegisterForDataScan, ifsk.fltregisterfordatascan
 f1_keywords:
  - "fltkernel/FltRegisterForDataScan"
+ - "FltRegisterForDataScan"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltRegisterForDataScan
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

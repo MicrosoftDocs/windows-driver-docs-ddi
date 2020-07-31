@@ -10,6 +10,7 @@ keywords: ["IKsPinFactory interface"]
 ms.keywords: IKsPinFactory, IKsPinFactory interface [Streaming Media Devices], IKsPinFactory interface [Streaming Media Devices],described, ksproxy/IKsPinFactory, ksproxy_df24cea8-a5d7-474c-bd70-53068078e6c6.xml, stream.ikspinfactory
 f1_keywords:
  - "ksproxy/IKsPinFactory"
+ - "IKsPinFactory"
 req.header: ksproxy.h
 req.include-header: 
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 - Ksproxy.dll
 api_name:
 - IKsPinFactory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -54,7 +53,7 @@ The <b>IKsPinFactory</b> interface provides a method that retrieves the identifi
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IKsPinFactory</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsPinFactory</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IKsPinFactory</b> interface inherits from the <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsPinFactory</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

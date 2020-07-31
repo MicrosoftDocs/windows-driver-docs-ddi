@@ -10,6 +10,7 @@ keywords: ["FILTER_DEVICE_PNP_EVENT_NOTIFY callback function"]
 ms.keywords: FILTER_DEVICE_PNP_EVENT_NOTIFY, FILTER_DEVICE_PNP_EVENT_NOTIFY callback, FilterDevicePnPEventNotify, FilterDevicePnPEventNotify callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_3e688903-ea36-44b3-bd06-533f7e573478.xml, ndis/FilterDevicePnPEventNotify, netvista.filterdevicepnpeventnotify
 f1_keywords:
  - "ndis/FilterDevicePnPEventNotify"
+ - "FilterDevicePnPEventNotify"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - FilterDevicePnPEventNotify
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

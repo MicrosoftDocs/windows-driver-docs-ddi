@@ -10,6 +10,7 @@ keywords: ["IWDTFPNPAction2::DisableDevice"]
 ms.keywords: DisableDevice, DisableDevice method [Windows Device Testing Framework], DisableDevice method [Windows Device Testing Framework],IWDTFPNPAction2 interface, IWDTFPNPAction2 interface [Windows Device Testing Framework],DisableDevice method, IWDTFPNPAction2.DisableDevice, IWDTFPNPAction2::DisableDevice, Microsoft.WDTF.IWDTFPNPAction2.DisableDevice, Microsoft::WDTF::IWDTFPNPAction2::DisableDevice, dtf.iwdtfpnpaction2_disabledevice, wdtfpnpaction/IWDTFPNPAction2::DisableDevice
 f1_keywords:
  - "wdtfpnpaction/IWDTFPNPAction2.DisableDevice"
+ - "IWDTFPNPAction2.DisableDevice"
 req.header: wdtfpnpaction.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WDTFDriverPNPAction.Interop.dll
 api_name:
 - IWDTFPNPAction2.DisableDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

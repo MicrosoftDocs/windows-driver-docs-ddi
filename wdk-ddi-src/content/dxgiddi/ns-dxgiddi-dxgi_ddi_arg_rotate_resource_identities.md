@@ -10,6 +10,7 @@ keywords: ["DXGI_DDI_ARG_ROTATE_RESOURCE_IDENTITIES structure"]
 ms.keywords: DXGI_DDI_ARG_ROTATE_RESOURCE_IDENTITIES, DXGI_DDI_ARG_ROTATE_RESOURCE_IDENTITIES structure [Display Devices], UMDisplayDriver_Dx10param_Structs_f52f40ab-97f1-4c3f-839f-9da2dc8e7798.xml, display.dxgi_ddi_arg_rotate_resource_identities, dxgiddi/DXGI_DDI_ARG_ROTATE_RESOURCE_IDENTITIES
 f1_keywords:
  - "dxgiddi/DXGI_DDI_ARG_ROTATE_RESOURCE_IDENTITIES"
+ - "DXGI_DDI_ARG_ROTATE_RESOURCE_IDENTITIES"
 req.header: dxgiddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dxgiddi.h
 api_name:
 - DXGI_DDI_ARG_ROTATE_RESOURCE_IDENTITIES
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGI_DDI_ARG_ROTATE_RESOURCE_IDENTITIES
 ---

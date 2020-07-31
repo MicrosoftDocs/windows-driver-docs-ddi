@@ -10,6 +10,7 @@ keywords: ["VideoPortReadRegisterBufferUlong function"]
 ms.keywords: VideoPortReadRegisterBufferUlong, VideoPortReadRegisterBufferUlong function [Display Devices], VideoPort_Functions_69ff5729-b386-4527-8bca-adc70e2d467d.xml, display.videoportreadregisterbufferulong, video/VideoPortReadRegisterBufferUlong
 f1_keywords:
  - "video/VideoPortReadRegisterBufferUlong"
+ - "VideoPortReadRegisterBufferUlong"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Videoprt.sys
 api_name:
 - VideoPortReadRegisterBufferUlong
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

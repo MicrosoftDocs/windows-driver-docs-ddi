@@ -10,6 +10,7 @@ keywords: ["IPrinterExtensionAsyncOperation::Cancel"]
 ms.keywords: Cancel, Cancel method [Print Devices], Cancel method [Print Devices],IPrinterExtensionAsyncOperation interface, IPrinterExtensionAsyncOperation interface [Print Devices],Cancel method, IPrinterExtensionAsyncOperation.Cancel, IPrinterExtensionAsyncOperation::Cancel, print.iprinterextensionasyncoperation_cancel, printerextension/IPrinterExtensionAsyncOperation::Cancel
 f1_keywords:
  - "printerextension/IPrinterExtensionAsyncOperation.Cancel"
+ - "IPrinterExtensionAsyncOperation.Cancel"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Printerextension.h
 api_name:
 - IPrinterExtensionAsyncOperation.Cancel
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

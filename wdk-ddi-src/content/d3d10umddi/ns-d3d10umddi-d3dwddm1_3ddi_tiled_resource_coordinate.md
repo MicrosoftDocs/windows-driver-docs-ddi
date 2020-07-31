@@ -9,6 +9,7 @@ keywords: ["D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE structure"]
 ms.keywords: D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE, D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE structure [Display Devices], d3d10umddi/D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE, display.d3dwddm1_3ddi_tiled_resource_coordinate
 f1_keywords:
  - "d3d10umddi/D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE"
+ - "D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - D3d10umddi.h
 api_name:
 - D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE

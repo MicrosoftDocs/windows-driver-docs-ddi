@@ -10,6 +10,7 @@ keywords: ["RtlULongPtrAdd function"]
 ms.keywords: RtlULongPtrAdd, RtlULongPtrAdd function [Kernel-Mode Driver Architecture], kernel.rtlulongptradd, ntintsafe/RtlULongPtrAdd
 f1_keywords:
  - "ntintsafe/RtlULongPtrAdd"
+ - "RtlULongPtrAdd"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Ntintsafe.h
 api_name:
 - RtlULongPtrAdd
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

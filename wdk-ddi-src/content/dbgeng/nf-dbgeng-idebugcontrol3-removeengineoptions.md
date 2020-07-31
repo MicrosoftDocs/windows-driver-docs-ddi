@@ -10,6 +10,7 @@ keywords: ["IDebugControl3::RemoveEngineOptions"]
 ms.keywords: IDebugControl interface [Windows Debugging],RemoveEngineOptions method, IDebugControl2 interface [Windows Debugging],RemoveEngineOptions method, IDebugControl2::RemoveEngineOptions, IDebugControl3 interface [Windows Debugging],RemoveEngineOptions method, IDebugControl3.RemoveEngineOptions, IDebugControl3::RemoveEngineOptions, IDebugControl::RemoveEngineOptions, IDebugControl_b1af0528-4fc2-4ea3-90e8-c7d92b0632f4.xml, RemoveEngineOptions, RemoveEngineOptions method [Windows Debugging], RemoveEngineOptions method [Windows Debugging],IDebugControl interface, RemoveEngineOptions method [Windows Debugging],IDebugControl2 interface, RemoveEngineOptions method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::RemoveEngineOptions, dbgeng/IDebugControl3::RemoveEngineOptions, dbgeng/IDebugControl::RemoveEngineOptions, debugger.removeengineoptions
 f1_keywords:
  - "dbgeng/IDebugControl.RemoveEngineOptions"
+ - "IDebugControl.RemoveEngineOptions"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h, Dbgeng.h, Dbgeng.h
 req.target-type: Desktop
@@ -38,8 +39,6 @@ api_name:
 - IDebugControl.RemoveEngineOptions
 - IDebugControl2.RemoveEngineOptions
 - IDebugControl3.RemoveEngineOptions
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

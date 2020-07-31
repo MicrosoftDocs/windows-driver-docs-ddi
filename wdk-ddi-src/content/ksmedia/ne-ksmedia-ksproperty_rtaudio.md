@@ -7,6 +7,7 @@ ms.date: 04/30/2019
 keywords: ["KSPROPERTY_RTAUDIO enumeration"]
 f1_keywords:
  - "ksmedia/KSPROPERTY_RTAUDIO"
+ - "KSPROPERTY_RTAUDIO"
 ms.keywords: KSPROPERTY_RTAUDIO, KSPROPERTY_RTAUDIO, 
 req.header: ksmedia.h
 req.include-header:
@@ -26,8 +27,6 @@ api_location:
 - ksmedia.h
 api_name: 
 - KSPROPERTY_RTAUDIO
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

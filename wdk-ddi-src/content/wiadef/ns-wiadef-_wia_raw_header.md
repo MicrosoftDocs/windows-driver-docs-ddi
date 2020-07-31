@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_WIA_RAW_HEADER structure"]
 f1_keywords:
  - "wiadef/_WIA_RAW_HEADER"
+ - "_WIA_RAW_HEADER"
 ms.keywords: _WIA_RAW_HEADER, WIA_RAW_HEADER, *PWIA_RAW_HEADER, 
 req.header: wiadef.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - wiadef.h
 api_name: 
 - _WIA_RAW_HEADER
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

@@ -8,6 +8,7 @@ ms.date: 01/17/2019
 keywords: ["_NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES structure"]
 f1_keywords:
  - "netadapteroffload/_NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES"
+ - "_NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES"
 ms.keywords: _NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES, NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES, *PNET_ADAPTER_OFFLOAD_LSO_CAPABILITIES, 
 req.header: netadapteroffload.h
 req.include-header:
@@ -30,8 +31,6 @@ api_location:
 - netadapteroffload.h
 api_name: 
 - _NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES
-product:
-- Windows
 targetos: Windows
 ms.custom: 19H1
 ---

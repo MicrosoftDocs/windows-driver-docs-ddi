@@ -10,6 +10,7 @@ keywords: ["IWiaDrvItem::FindItemByName"]
 ms.keywords: DrvItem_d3717889-b428-4dbc-8ef9-c501a52f3328.xml, FindItemByName, FindItemByName method [Imaging Devices], FindItemByName method [Imaging Devices],IWiaDrvItem interface, IWiaDrvItem interface [Imaging Devices],FindItemByName method, IWiaDrvItem.FindItemByName, IWiaDrvItem::FindItemByName, image.iwiadrvitem_finditembyname, wiamindr_lh/IWiaDrvItem::FindItemByName
 f1_keywords:
  - "wiamindr_lh/IWiaDrvItem.FindItemByName"
+ - "IWiaDrvItem.FindItemByName"
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wiamindr_lh.h
 api_name:
 - IWiaDrvItem.FindItemByName
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

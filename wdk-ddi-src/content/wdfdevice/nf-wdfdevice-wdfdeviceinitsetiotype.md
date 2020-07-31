@@ -10,6 +10,7 @@ keywords: ["WdfDeviceInitSetIoType function"]
 ms.keywords: DFDeviceObjectGeneralRef_4c821466-f1d7-46fa-a1f0-e8fefd20caab.xml, WdfDeviceInitSetIoType, WdfDeviceInitSetIoType method, kmdf.wdfdeviceinitsetiotype, wdf.wdfdeviceinitsetiotype, wdfdevice/WdfDeviceInitSetIoType
 f1_keywords:
  - "wdfdevice/WdfDeviceInitSetIoType"
+ - "WdfDeviceInitSetIoType"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfDeviceInitSetIoType
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["OEMDitherColor function"]
 ms.keywords: OEMDitherColor, OEMDitherColor function [Print Devices], print.oemdithercolor, print_unidrv-pscript_rendering_e220d80f-83d4-4f4a-9fdc-ca25b48dd718.xml, printoem/OEMDitherColor
 f1_keywords:
  - "printoem/OEMDitherColor"
+ - "OEMDitherColor"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - printoem.h
 api_name:
 - OEMDitherColor
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

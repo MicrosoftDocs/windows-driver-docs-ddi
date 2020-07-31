@@ -9,6 +9,7 @@ keywords: ["D3DKMTOpenSyncObjectNtHandleFromName function"]
 ms.keywords: D3DKMTOpenSyncObjectNtHandleFromName, D3DKMTOpenSyncObjectNtHandleFromName function [Display Devices], d3dkmthk/D3DKMTOpenSyncObjectNtHandleFromName, display.d3dkmtopensyncobjectnthandlefromname
 f1_keywords:
  - "d3dkmthk/D3DKMTOpenSyncObjectNtHandleFromName"
+ - "D3DKMTOpenSyncObjectNtHandleFromName"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 - D3DKMTOpenSyncObjectNtHandleFromName
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

@@ -10,6 +10,7 @@ keywords: ["StorPortFreeContiguousMemorySpecifyCache function"]
 ms.keywords: StorPortFreeContiguousMemorySpecifyCache, StorPortFreeContiguousMemorySpecifyCache routine [Storage Devices], storage.storportfreecontiguousmemoryspecifycache, storport/StorPortFreeContiguousMemorySpecifyCache, storprt_4ad11a47-ebb2-4eb9-a7cb-ce0b47d2ab3a.xml
 f1_keywords:
  - "storport/StorPortFreeContiguousMemorySpecifyCache"
+ - "StorPortFreeContiguousMemorySpecifyCache"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - storport.h
 api_name:
 - StorPortFreeContiguousMemorySpecifyCache
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

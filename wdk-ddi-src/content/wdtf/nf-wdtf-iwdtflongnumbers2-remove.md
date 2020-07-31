@@ -10,6 +10,7 @@ keywords: ["IWDTFLongNumbers2::Remove"]
 ms.keywords: IWDTFLongNumbers2 interface [Windows Device Testing Framework],Remove method, IWDTFLongNumbers2.Remove, IWDTFLongNumbers2::Remove, Microsoft.WDTF.IWDTFLongNumbers2.Remove, Microsoft::WDTF::IWDTFLongNumbers2::Remove, Remove, Remove method [Windows Device Testing Framework], Remove method [Windows Device Testing Framework],IWDTFLongNumbers2 interface, dtf.iwdtflongnumbers2_remove, wdtf/IWDTFLongNumbers2::Remove
 f1_keywords:
  - "wdtf/IWDTFLongNumbers2.Remove"
+ - "IWDTFLongNumbers2.Remove"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WDTF.Interop.metadata_dll.dll
 api_name:
 - IWDTFLongNumbers2.Remove
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IFixedPage::GetPagePart"]
 ms.keywords: GetPagePart, GetPagePart method [Print Devices], GetPagePart method [Print Devices],IFixedPage interface, IFixedPage interface [Print Devices],GetPagePart method, IFixedPage.GetPagePart, IFixedPage::GetPagePart, filterpipeline/IFixedPage::GetPagePart, filterpipeline_925ca634-7cac-41f6-b80f-cc5c90154ae0.xml, print.ifixedpage_getpagepart
 f1_keywords:
  - "filterpipeline/IFixedPage.GetPagePart"
+ - "IFixedPage.GetPagePart"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - filterpipeline.h
 api_name:
 - IFixedPage.GetPagePart
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

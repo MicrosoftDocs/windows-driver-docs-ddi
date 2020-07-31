@@ -10,6 +10,7 @@ keywords: ["PsChargePoolQuota function"]
 ms.keywords: PsChargePoolQuota, PsChargePoolQuota routine [Installable File System Drivers], ifsk.pschargepoolquota, ntifs/PsChargePoolQuota, psref_690f1550-4753-4f39-bcf2-bdcf7b80112d.xml
 f1_keywords:
  - "ntifs/PsChargePoolQuota"
+ - "PsChargePoolQuota"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - PsChargePoolQuota
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

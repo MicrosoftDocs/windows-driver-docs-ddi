@@ -9,6 +9,7 @@ keywords: ["_DXGK_PREEMPTCOMMANDFLAGS structure"]
 ms.keywords: DXGK_PREEMPTCOMMANDFLAGS, DXGK_PREEMPTCOMMANDFLAGS structure [Display Devices], DmStructs_7163ce37-49c8-4b17-aadc-cd36ad5cac9d.xml, _DXGK_PREEMPTCOMMANDFLAGS, d3dkmddi/DXGK_PREEMPTCOMMANDFLAGS, display.dxgk_preemptcommandflags
 f1_keywords:
  - "d3dkmddi/DXGK_PREEMPTCOMMANDFLAGS"
+ - "DXGK_PREEMPTCOMMANDFLAGS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGK_PREEMPTCOMMANDFLAGS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_PREEMPTCOMMANDFLAGS

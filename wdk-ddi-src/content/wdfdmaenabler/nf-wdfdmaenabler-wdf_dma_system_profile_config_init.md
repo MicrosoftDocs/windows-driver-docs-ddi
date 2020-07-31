@@ -10,6 +10,7 @@ keywords: ["WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT function"]
 ms.keywords: WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT, WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT function, kmdf.wdf_dma_system_profile_config_init, wdf.wdf_dma_system_profile_config_init, wdfdmaenabler/WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT
 f1_keywords:
  - "wdfdmaenabler/WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT"
+ - "WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT"
 req.header: wdfdmaenabler.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - wdfdmaenabler.h
 api_name:
 - WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

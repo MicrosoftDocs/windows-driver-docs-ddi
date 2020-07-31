@@ -7,6 +7,7 @@ ms.date: 09/11/2018
 keywords: ["IDataModelConcept::InitializeObject"]
 f1_keywords:
  - "dbgmodel/IDataModelConcept.InitializeObject"
+ - "IDataModelConcept.InitializeObject"
 ms.keywords: IDataModelConcept::InitializeObject, InitializeObject, IDataModelConcept.InitializeObject, IDataModelConcept::InitializeObject, IDataModelConcept.InitializeObject
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDataModelConcept.InitializeObject
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

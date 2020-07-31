@@ -10,6 +10,7 @@ keywords: ["_VPCI_WRITE_BLOCK_INPUT structure"]
 ms.keywords: "*PVPCI_WRITE_BLOCK_INPUT, PVPCI_WRITE_BLOCK_INPUT, PVPCI_WRITE_BLOCK_INPUT structure pointer [Kernel-Mode Driver Architecture], VPCI_WRITE_BLOCK_INPUT, VPCI_WRITE_BLOCK_INPUT structure [Kernel-Mode Driver Architecture], _VPCI_WRITE_BLOCK_INPUT, kernel.vpci_write_block_input, vpci/PVPCI_WRITE_BLOCK_INPUT, vpci/VPCI_WRITE_BLOCK_INPUT"
 f1_keywords:
  - "vpci/VPCI_WRITE_BLOCK_INPUT"
+ - "VPCI_WRITE_BLOCK_INPUT"
 req.header: vpci.h
 req.include-header: Vpci.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Vpci.h
 api_name:
 - VPCI_WRITE_BLOCK_INPUT
-product:
-- Windows
 targetos: Windows
 req.typenames: VPCI_WRITE_BLOCK_INPUT, *PVPCI_WRITE_BLOCK_INPUT
 ---

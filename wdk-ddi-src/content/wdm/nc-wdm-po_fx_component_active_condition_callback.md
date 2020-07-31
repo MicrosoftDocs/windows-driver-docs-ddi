@@ -10,6 +10,7 @@ keywords: ["PO_FX_COMPONENT_ACTIVE_CONDITION_CALLBACK callback function"]
 ms.keywords: ComponentActiveConditionCallback, ComponentActiveConditionCallback routine [Kernel-Mode Driver Architecture], PO_FX_COMPONENT_ACTIVE_CONDITION_CALLBACK, kernel.componentactiveconditioncallback, wdm/ComponentActiveConditionCallback
 f1_keywords:
  - "wdm/ComponentActiveConditionCallback"
+ - "ComponentActiveConditionCallback"
 req.header: wdm.h
 req.include-header: Wudfwdm.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - ComponentActiveConditionCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

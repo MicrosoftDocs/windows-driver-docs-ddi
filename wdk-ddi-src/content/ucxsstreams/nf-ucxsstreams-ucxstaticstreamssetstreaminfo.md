@@ -10,6 +10,7 @@ keywords: ["UcxStaticStreamsSetStreamInfo function"]
 ms.keywords: UcxStaticStreamsSetStreamInfo, UcxStaticStreamsSetStreamInfo method [Buses], buses._ucxstaticstreamssetstreaminfo
 f1_keywords:
  - "ucxsstreams/UcxStaticStreamsSetStreamInfo"
+ - "UcxStaticStreamsSetStreamInfo"
 req.header: ucxsstreams.h
 req.include-header: Ucxclass.h, Ucxstreams.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ucxsstreams.h
 api_name:
 - UcxStaticStreamsSetStreamInfo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

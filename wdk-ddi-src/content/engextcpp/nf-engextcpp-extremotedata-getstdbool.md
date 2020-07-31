@@ -10,6 +10,7 @@ keywords: ["ExtRemoteData::GetStdBool"]
 ms.keywords: EngExtCpp_Ref_65fe8202-99dc-45b3-9b38-5fca10341b1b.xml, ExtRemoteData class [Windows Debugging],GetStdBool method, ExtRemoteData.GetStdBool, ExtRemoteData::GetStdBool, GetStdBool, GetStdBool method [Windows Debugging], GetStdBool method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_getstdbool
 f1_keywords:
  - "engextcpp/ExtRemoteData.GetStdBool"
+ - "ExtRemoteData.GetStdBool"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - engextcpp.hpp
 api_name:
 - ExtRemoteData.GetStdBool
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

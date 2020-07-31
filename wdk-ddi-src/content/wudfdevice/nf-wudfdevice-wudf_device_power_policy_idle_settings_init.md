@@ -10,6 +10,7 @@ keywords: ["WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT function"]
 ms.keywords: WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT, WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT function, umdf.wudf_device_power_policy_idle_settings_init, wdf.wudf_device_power_policy_idle_settings_init, wudfdevice/WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT
 f1_keywords:
  - "wudfdevice/WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT"
+ - "WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT"
 req.header: wudfdevice.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wudfdevice.h
 api_name:
 - WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

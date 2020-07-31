@@ -10,6 +10,7 @@ keywords: ["_GPIO_CONNECT_IO_PINS_PARAMETERS structure"]
 ms.keywords: "*PGPIO_CONNECT_IO_PINS_PARAMETERS, GPIO.gpio_connect_io_pins_parameters, GPIO_CONNECT_IO_PINS_PARAMETERS, GPIO_CONNECT_IO_PINS_PARAMETERS structure [Parallel Ports], PGPIO_CONNECT_IO_PINS_PARAMETERS, PGPIO_CONNECT_IO_PINS_PARAMETERS structure pointer [Parallel Ports], _GPIO_CONNECT_IO_PINS_PARAMETERS, gpioclx/GPIO_CONNECT_IO_PINS_PARAMETERS, gpioclx/PGPIO_CONNECT_IO_PINS_PARAMETERS"
 f1_keywords:
  - "gpioclx/GPIO_CONNECT_IO_PINS_PARAMETERS"
+ - "GPIO_CONNECT_IO_PINS_PARAMETERS"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Gpioclx.h
 api_name:
 - GPIO_CONNECT_IO_PINS_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: GPIO_CONNECT_IO_PINS_PARAMETERS, *PGPIO_CONNECT_IO_PINS_PARAMETERS
 ---

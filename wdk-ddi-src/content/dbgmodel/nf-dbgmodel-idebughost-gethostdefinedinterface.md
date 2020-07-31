@@ -7,6 +7,7 @@ ms.date: 08/14/2018
 keywords: ["IDebugHost::GetHostDefinedInterface"]
 f1_keywords:
  - "dbgmodel/IDebugHost.GetHostDefinedInterface"
+ - "IDebugHost.GetHostDefinedInterface"
 ms.keywords: IDebugHost::GetHostDefinedInterface, GetHostDefinedInterface, IDebugHost.GetHostDefinedInterface, IDebugHost::GetHostDefinedInterface, IDebugHost.GetHostDefinedInterface
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHost.GetHostDefinedInterface
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

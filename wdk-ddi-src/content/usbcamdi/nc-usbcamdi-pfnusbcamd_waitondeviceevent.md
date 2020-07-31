@@ -10,6 +10,7 @@ keywords: ["PFNUSBCAMD_WaitOnDeviceEvent callback function"]
 ms.keywords: PFNUSBCAMD_WaitOnDeviceEvent, USBCAMD_WaitOnDeviceEvent, USBCAMD_WaitOnDeviceEvent routine [Streaming Media Devices], stream.usbcamd_waitondeviceevent, usbcamdi/USBCAMD_WaitOnDeviceEvent, usbcmdpr_854c2d35-c023-4d7a-8c2e-3e56d3150e41.xml
 f1_keywords:
  - "usbcamdi/USBCAMD_WaitOnDeviceEvent"
+ - "USBCAMD_WaitOnDeviceEvent"
 req.header: usbcamdi.h
 req.include-header: Usbcamdi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - usbcamdi.h
 api_name:
 - USBCAMD_WaitOnDeviceEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

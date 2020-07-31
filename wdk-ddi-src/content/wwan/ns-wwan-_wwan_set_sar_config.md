@@ -8,6 +8,7 @@ ms.date: 08/20/2018
 keywords: ["_WWAN_SET_SAR_CONFIG structure"]
 f1_keywords:
  - "wwan/_WWAN_SET_SAR_CONFIG"
+ - "_WWAN_SET_SAR_CONFIG"
 ms.keywords: _WWAN_SET_SAR_CONFIG, WWAN_SET_SAR_CONFIG, *PWWAN_SET_SAR_CONFIG, 
 req.header: wwan.h
 req.include-header:
@@ -30,8 +31,6 @@ api_location:
 - wwan.h
 api_name: 
 - _WWAN_SET_SAR_CONFIG
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

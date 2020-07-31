@@ -10,6 +10,7 @@ keywords: ["VideoPortReadRegisterUshort function"]
 ms.keywords: VideoPortReadRegisterUshort, VideoPortReadRegisterUshort function [Display Devices], VideoPort_Functions_c6ee8be3-3b15-4f22-8008-63d132ec7379.xml, display.videoportreadregisterushort, video/VideoPortReadRegisterUshort
 f1_keywords:
  - "video/VideoPortReadRegisterUshort"
+ - "VideoPortReadRegisterUshort"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Videoprt.sys
 api_name:
 - VideoPortReadRegisterUshort
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

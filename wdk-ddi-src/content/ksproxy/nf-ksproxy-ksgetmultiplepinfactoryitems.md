@@ -10,6 +10,7 @@ keywords: ["KsGetMultiplePinFactoryItems function"]
 ms.keywords: KsGetMultiplePinFactoryItems, KsGetMultiplePinFactoryItems function [Streaming Media Devices], ksproxy/KsGetMultiplePinFactoryItems, ksproxy_cd252212-9317-4e1a-9f57-ee18afc23766.xml, stream.ksgetmultiplepinfactoryitems
 f1_keywords:
  - "ksproxy/KsGetMultiplePinFactoryItems"
+ - "KsGetMultiplePinFactoryItems"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Ksproxy.dll
 api_name:
 - KsGetMultiplePinFactoryItems
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

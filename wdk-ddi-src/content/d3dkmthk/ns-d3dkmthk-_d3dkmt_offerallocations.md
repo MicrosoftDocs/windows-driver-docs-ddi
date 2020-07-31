@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_OFFERALLOCATIONS structure"]
 ms.keywords: D3DKMT_OFFERALLOCATIONS, D3DKMT_OFFERALLOCATIONS structure [Display Devices], _D3DKMT_OFFERALLOCATIONS, d3dkmthk/D3DKMT_OFFERALLOCATIONS, display.d3dkmt_offerallocations
 f1_keywords:
  - "d3dkmthk/D3DKMT_OFFERALLOCATIONS"
+ - "D3DKMT_OFFERALLOCATIONS"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - D3dkmthk.h
 api_name:
 - D3DKMT_OFFERALLOCATIONS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_OFFERALLOCATIONS

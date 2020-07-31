@@ -10,6 +10,7 @@ keywords: ["_VPOSVERSIONINFO structure"]
 ms.keywords: "*PVPOSVERSIONINFO, PVPOSVERSIONINFO, PVPOSVERSIONINFO structure pointer [Display Devices], VPOSVERSIONINFO, VPOSVERSIONINFO structure [Display Devices], Video_Structs_893105be-4f14-4903-aae1-85ffe8ef8a2b.xml, _VPOSVERSIONINFO, display.vposversioninfo, video/PVPOSVERSIONINFO, video/VPOSVERSIONINFO"
 f1_keywords:
  - "video/VPOSVERSIONINFO"
+ - "VPOSVERSIONINFO"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - video.h
 api_name:
 - VPOSVERSIONINFO
-product:
-- Windows
 targetos: Windows
 req.typenames: VPOSVERSIONINFO, *PVPOSVERSIONINFO
 ---

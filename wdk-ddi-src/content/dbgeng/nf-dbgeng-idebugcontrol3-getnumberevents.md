@@ -10,6 +10,7 @@ keywords: ["IDebugControl3::GetNumberEvents"]
 ms.keywords: GetNumberEvents, GetNumberEvents method [Windows Debugging], GetNumberEvents method [Windows Debugging],IDebugControl3 interface, IDebugControl3 interface [Windows Debugging],GetNumberEvents method, IDebugControl3.GetNumberEvents, IDebugControl3::GetNumberEvents, IDebugControl_520cbec0-e8b3-49d1-9938-a8f496585758.xml, dbgeng/IDebugControl3::GetNumberEvents, debugger.getnumberevents
 f1_keywords:
  - "dbgeng/IDebugControl3.GetNumberEvents"
+ - "IDebugControl3.GetNumberEvents"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugControl3.GetNumberEvents
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

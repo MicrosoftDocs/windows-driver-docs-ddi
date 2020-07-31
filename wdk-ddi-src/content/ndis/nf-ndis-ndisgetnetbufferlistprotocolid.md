@@ -10,6 +10,7 @@ keywords: ["NdisGetNetBufferListProtocolId function"]
 ms.keywords: NdisGetNetBufferListProtocolId, NdisGetNetBufferListProtocolId function [Network Drivers Starting with Windows Vista], ndis/NdisGetNetBufferListProtocolId, ndis_netbuf_functions_ref_7ce217e7-6d68-4e22-af32-bc984c1b7677.xml, netvista.ndisgetnetbufferlistprotocolid
 f1_keywords:
  - "ndis/NdisGetNetBufferListProtocolId"
+ - "NdisGetNetBufferListProtocolId"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisGetNetBufferListProtocolId
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

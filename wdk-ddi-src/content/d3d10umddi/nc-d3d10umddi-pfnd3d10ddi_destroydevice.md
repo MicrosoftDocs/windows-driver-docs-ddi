@@ -9,6 +9,7 @@ keywords: ["PFND3D10DDI_DESTROYDEVICE callback function"]
 ms.keywords: DestroyDevice, DestroyDevice callback function [Display Devices], PFND3D10DDI_DESTROYDEVICE, PFND3D10DDI_DESTROYDEVICE callback, UserModeDisplayDriverDx10_Functions_4f2918da-90e0-4e85-b019-f9481555e524.xml, d3d10umddi/DestroyDevice, display.destroydevice_d3d10_
 f1_keywords:
  - "d3d10umddi/DestroyDevice"
+ - "DestroyDevice"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -35,8 +36,6 @@ api_location:
 - D3d10umddi.h
 api_name:
 - DestroyDevice
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

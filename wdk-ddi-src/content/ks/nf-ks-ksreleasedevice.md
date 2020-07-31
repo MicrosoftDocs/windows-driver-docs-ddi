@@ -10,6 +10,7 @@ keywords: ["KsReleaseDevice function"]
 ms.keywords: KsReleaseDevice, KsReleaseDevice function [Streaming Media Devices], avfunc_47876dbc-0dea-459f-96f7-81790d245745.xml, ks/KsReleaseDevice, stream.ksreleasedevice
 f1_keywords:
  - "ks/KsReleaseDevice"
+ - "KsReleaseDevice"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsReleaseDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

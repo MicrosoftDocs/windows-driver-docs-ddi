@@ -9,6 +9,7 @@ keywords: ["_DXGKARG_VALIDATEUPDATEALLOCPROPERTY structure"]
 ms.keywords: DXGKARG_VALIDATEUPDATEALLOCPROPERTY, DXGKARG_VALIDATEUPDATEALLOCPROPERTY structure [Display Devices], _DXGKARG_VALIDATEUPDATEALLOCPROPERTY, d3dkmddi/DXGKARG_VALIDATEUPDATEALLOCPROPERTY, display.dxgkarg_validateupdateallocproperty
 f1_keywords:
  - "d3dkmddi/DXGKARG_VALIDATEUPDATEALLOCPROPERTY"
+ - "DXGKARG_VALIDATEUPDATEALLOCPROPERTY"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGKARG_VALIDATEUPDATEALLOCPROPERTY
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGKARG_VALIDATEUPDATEALLOCPROPERTY

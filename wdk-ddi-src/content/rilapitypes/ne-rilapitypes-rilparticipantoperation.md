@@ -10,6 +10,7 @@ keywords: ["RILPARTICIPANTOPERATION enumeration"]
 ms.keywords: RILPARTICIPANTOPERATION, RILPARTICIPANTOPERATION enumeration [Network Drivers Starting with Windows Vista], RIL_PARTICIPANT_MAX, RIL_PARTICIPANT_REMOVE, netvista.rilparticipantoperation, ntddrilapitypes/RILPARTICIPANTOPERATION, ntddrilapitypes/RIL_PARTICIPANT_MAX, ntddrilapitypes/RIL_PARTICIPANT_REMOVE
 f1_keywords:
  - "rilapitypes/RILPARTICIPANTOPERATION"
+ - "RILPARTICIPANTOPERATION"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILPARTICIPANTOPERATION
-product:
-- Windows
 targetos: Windows
 req.typenames: RILPARTICIPANTOPERATION
 ---

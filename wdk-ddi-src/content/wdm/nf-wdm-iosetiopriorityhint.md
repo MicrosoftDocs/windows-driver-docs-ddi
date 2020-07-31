@@ -10,6 +10,7 @@ keywords: ["IoSetIoPriorityHint function"]
 ms.keywords: IoSetIoPriorityHint, IoSetIoPriorityHint routine [Kernel-Mode Driver Architecture], k104_9d72dacc-03a6-4dda-8c2b-69b59a817392.xml, kernel.iosetiopriorityhint, wdm/IoSetIoPriorityHint
 f1_keywords:
  - "wdm/IoSetIoPriorityHint"
+ - "IoSetIoPriorityHint"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoSetIoPriorityHint
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

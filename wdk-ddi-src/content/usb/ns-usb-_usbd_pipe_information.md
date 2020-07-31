@@ -10,6 +10,7 @@ keywords: ["_USBD_PIPE_INFORMATION structure"]
 ms.keywords: "*PUSBD_PIPE_INFORMATION, PUSBD_PIPE_INFORMATION, PUSBD_PIPE_INFORMATION structure pointer [Buses], USBD_PIPE_INFORMATION, USBD_PIPE_INFORMATION structure [Buses], _USBD_PIPE_INFORMATION, buses.usbd_pipe_information, usb/PUSBD_PIPE_INFORMATION, usb/USBD_PIPE_INFORMATION, usbstrct_79d986fc-2853-4179-8a41-cc438582b317.xml"
 f1_keywords:
  - "usb/USBD_PIPE_INFORMATION"
+ - "USBD_PIPE_INFORMATION"
 req.header: usb.h
 req.include-header: Usb.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - usb.h
 api_name:
 - USBD_PIPE_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: USBD_PIPE_INFORMATION, *PUSBD_PIPE_INFORMATION
 ---

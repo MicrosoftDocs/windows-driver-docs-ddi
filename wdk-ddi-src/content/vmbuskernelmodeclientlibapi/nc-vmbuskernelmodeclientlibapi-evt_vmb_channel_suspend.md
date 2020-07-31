@@ -10,6 +10,7 @@ keywords: ["EVT_VMB_CHANNEL_SUSPEND callback function"]
 ms.keywords: EVT_VMB_CHANNEL_SUSPEND, EVT_VMB_CHANNEL_SUSPEND callback, EvtVmbChannelSuspend, EvtVmbChannelSuspend callback function [Network Drivers Starting with Windows Vista], PFN_VMB_CHANNEL_SUSPEND, PFN_VMB_CHANNEL_SUSPEND callback function pointer [Network Drivers Starting with Windows Vista], netvista.evt_vmb_channel_suspend, vmbuskernelmodeclientlibapi/EvtVmbChannelSuspend
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/PFN_VMB_CHANNEL_SUSPEND"
+ - "PFN_VMB_CHANNEL_SUSPEND"
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header: VmbusKernelModeClientLibApi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - VmbusKernelModeClientLibApi.h
 api_name:
 - PFN_VMB_CHANNEL_SUSPEND
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

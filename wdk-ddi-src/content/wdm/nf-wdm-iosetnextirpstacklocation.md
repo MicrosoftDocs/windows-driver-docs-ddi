@@ -10,6 +10,7 @@ keywords: ["IoSetNextIrpStackLocation function"]
 ms.keywords: IoSetNextIrpStackLocation, IoSetNextIrpStackLocation routine [Kernel-Mode Driver Architecture], k104_34f06977-f176-4590-9d5a-adffebbdd9b9.xml, kernel.iosetnextirpstacklocation, wdm/IoSetNextIrpStackLocation
 f1_keywords:
  - "wdm/IoSetNextIrpStackLocation"
+ - "IoSetNextIrpStackLocation"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - IoSetNextIrpStackLocation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

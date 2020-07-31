@@ -10,6 +10,7 @@ keywords: ["PHW_PRIORITY_ROUTINE callback function"]
 ms.keywords: PHW_PRIORITY_ROUTINE, StrMiniPriorityRoutine, StrMiniPriorityRoutine routine [Streaming Media Devices], stream.strminipriorityroutine, strmini-routines_718339c9-e072-4d3e-a9ec-a0ce2cce4f90.xml, strmini/StrMiniPriorityRoutine
 f1_keywords:
  - "strmini/StrMiniPriorityRoutine"
+ - "StrMiniPriorityRoutine"
 req.header: strmini.h
 req.include-header: Strmini.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - strmini.h
 api_name:
 - StrMiniPriorityRoutine
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

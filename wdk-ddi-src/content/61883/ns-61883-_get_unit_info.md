@@ -10,6 +10,7 @@ keywords: ["_GET_UNIT_INFO structure"]
 ms.keywords: "*PGET_UNIT_INFO, 61883/GET_UNIT_INFO, 61883/PGET_UNIT_INFO, GET_UNIT_INFO, GET_UNIT_INFO structure [Buses], IEEE.get_unit_info, PGET_UNIT_INFO, PGET_UNIT_INFO structure pointer [Buses], _GET_UNIT_INFO"
 f1_keywords:
  - "61883/GET_UNIT_INFO"
+ - "GET_UNIT_INFO"
 req.header: 61883.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - 61883.h
 api_name:
 - GET_UNIT_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: GET_UNIT_INFO, *PGET_UNIT_INFO
 ---

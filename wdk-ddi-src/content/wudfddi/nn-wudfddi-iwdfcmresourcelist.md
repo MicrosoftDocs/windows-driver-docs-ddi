@@ -10,6 +10,7 @@ keywords: ["IWDFCmResourceList interface"]
 ms.keywords: IWDFCmResourceList, IWDFCmResourceList interface, IWDFCmResourceList interface,described, umdf.iwdfcmresourcelist, wdf.iwdfcmresourcelist, wudfddi/IWDFCmResourceList
 f1_keywords:
  - "wudfddi/IWDFCmResourceList"
+ - "IWDFCmResourceList"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFCmResourceList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

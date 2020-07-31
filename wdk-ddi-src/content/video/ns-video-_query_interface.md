@@ -10,6 +10,7 @@ keywords: ["_QUERY_INTERFACE structure"]
 ms.keywords: "*PQUERY_INTERFACE, PQUERY_INTERFACE, PQUERY_INTERFACE structure pointer [Display Devices], QUERY_INTERFACE, QUERY_INTERFACE structure [Display Devices], Video_Structs_facaef96-c0d9-4695-8541-65e5e430f182.xml, _QUERY_INTERFACE, display.query_interface, video/PQUERY_INTERFACE, video/QUERY_INTERFACE"
 f1_keywords:
  - "video/QUERY_INTERFACE"
+ - "QUERY_INTERFACE"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - video.h
 api_name:
 - QUERY_INTERFACE
-product:
-- Windows
 targetos: Windows
 req.typenames: QUERY_INTERFACE, *PQUERY_INTERFACE
 ---

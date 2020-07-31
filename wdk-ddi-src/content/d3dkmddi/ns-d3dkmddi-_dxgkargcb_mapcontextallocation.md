@@ -9,6 +9,7 @@ keywords: ["_DXGKARGCB_MAPCONTEXTALLOCATION structure"]
 ms.keywords: DXGKARGCB_MAPCONTEXTALLOCATION, DXGKARGCB_MAPCONTEXTALLOCATION structure [Display Devices], _DXGKARGCB_MAPCONTEXTALLOCATION, d3dkmddi/DXGKARGCB_MAPCONTEXTALLOCATION, display.dxgkargcb_mapcontextallocation
 f1_keywords:
  - "d3dkmddi/DXGKARGCB_MAPCONTEXTALLOCATION"
+ - "DXGKARGCB_MAPCONTEXTALLOCATION"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGKARGCB_MAPCONTEXTALLOCATION
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGKARGCB_MAPCONTEXTALLOCATION

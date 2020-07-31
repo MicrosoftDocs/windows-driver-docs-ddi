@@ -10,6 +10,7 @@ keywords: ["IKsInterfaceHandler::KsSetPin"]
 ms.keywords: IKsInterfaceHandler interface [Streaming Media Devices],KsSetPin method, IKsInterfaceHandler.KsSetPin, IKsInterfaceHandler::KsSetPin, KsSetPin, KsSetPin method [Streaming Media Devices], KsSetPin method [Streaming Media Devices],IKsInterfaceHandler interface, ksproxy/IKsInterfaceHandler::KsSetPin, ksproxy_3746aba4-11e3-45a5-8495-eda1cad5bf9b.xml, stream.iksinterfacehandler_kssetpin
 f1_keywords:
  - "ksproxy/IKsInterfaceHandler.KsSetPin"
+ - "IKsInterfaceHandler.KsSetPin"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ksproxy.h
 api_name:
 - IKsInterfaceHandler.KsSetPin
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -7,6 +7,7 @@ ms.date: 08/22/2018
 keywords: ["IDebugHostSymbols::CreateModuleSignature"]
 f1_keywords:
  - "dbgmodel/IDebugHostSymbols.CreateModuleSignature"
+ - "IDebugHostSymbols.CreateModuleSignature"
 ms.keywords: IDebugHostSymbols::CreateModuleSignature, CreateModuleSignature, IDebugHostSymbols.CreateModuleSignature, IDebugHostSymbols::CreateModuleSignature, IDebugHostSymbols.CreateModuleSignature
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostSymbols.CreateModuleSignature
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

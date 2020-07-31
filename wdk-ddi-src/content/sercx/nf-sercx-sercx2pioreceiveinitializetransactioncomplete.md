@@ -10,6 +10,7 @@ keywords: ["SerCx2PioReceiveInitializeTransactionComplete function"]
 ms.keywords: 2/SerCx2PioReceiveInitializeTransactionComplete, SerCx2PioReceiveInitializeTransactionComplete, SerCx2PioReceiveInitializeTransactionComplete method [Serial Ports], serports.sercx2pioreceiveinitializetransactioncomplete
 f1_keywords:
  - "sercx/SerCx2PioReceiveInitializeTransactionComplete"
+ - "SerCx2PioReceiveInitializeTransactionComplete"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - 2.0\Sercx.h
 api_name:
 - SerCx2PioReceiveInitializeTransactionComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

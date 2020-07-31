@@ -10,6 +10,7 @@ keywords: ["IMiniportWavePciStream::NormalizePhysicalPosition"]
 ms.keywords: IMiniportWavePciStream interface [Audio Devices],NormalizePhysicalPosition method, IMiniportWavePciStream.NormalizePhysicalPosition, IMiniportWavePciStream::NormalizePhysicalPosition, NormalizePhysicalPosition, NormalizePhysicalPosition method [Audio Devices], NormalizePhysicalPosition method [Audio Devices],IMiniportWavePciStream interface, audio.iminiportwavepcistream_normalizephysicalposition, audmp-routines_337339ea-4683-4b67-813c-a86e7e43597a.xml, portcls/IMiniportWavePciStream::NormalizePhysicalPosition
 f1_keywords:
  - "portcls/IMiniportWavePciStream.NormalizePhysicalPosition"
+ - "IMiniportWavePciStream.NormalizePhysicalPosition"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IMiniportWavePciStream.NormalizePhysicalPosition
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

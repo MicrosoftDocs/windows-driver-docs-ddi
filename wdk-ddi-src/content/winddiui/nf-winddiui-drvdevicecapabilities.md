@@ -10,6 +10,7 @@ keywords: ["DrvDeviceCapabilities function"]
 ms.keywords: DrvDeviceCapabilities, DrvDeviceCapabilities function [Print Devices], print.drvdevicecapabilities, print_interface-graphics_cbe99c7b-a94f-47b2-8c51-d99bdcdec7d3.xml, winddiui/DrvDeviceCapabilities
 f1_keywords:
  - "winddiui/DrvDeviceCapabilities"
+ - "DrvDeviceCapabilities"
 req.header: winddiui.h
 req.include-header: Winddiui.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - winddiui.h
 api_name:
 - DrvDeviceCapabilities
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

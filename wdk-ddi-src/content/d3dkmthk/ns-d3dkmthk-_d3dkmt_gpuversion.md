@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_GPUVERSION structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_GPUVERSION"
+ - "_D3DKMT_GPUVERSION"
 ms.keywords: _D3DKMT_GPUVERSION, D3DKMT_GPUVERSION,
 req.header: d3dkmthk.h
 req.include-header:

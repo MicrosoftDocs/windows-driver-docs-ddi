@@ -10,6 +10,7 @@ keywords: ["FltCancellableWaitForMultipleObjects function"]
 ms.keywords: FltApiRef_a_to_d_3f130d06-8af0-46c1-9db3-bd70d1cbabe1.xml, FltCancellableWaitForMultipleObjects, FltCancellableWaitForMultipleObjects function [Installable File System Drivers], ifsk.fltcancellablewaitformultipleobjects, ntifs/FltCancellableWaitForMultipleObjects
 f1_keywords:
  - "fltkernel/FltCancellableWaitForMultipleObjects"
+ - "FltCancellableWaitForMultipleObjects"
 req.header: fltkernel.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - fltmgr.dll
 api_name:
 - FltCancellableWaitForMultipleObjects
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

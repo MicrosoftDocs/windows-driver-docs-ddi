@@ -10,6 +10,7 @@ keywords: ["IWDTFPNPAction2::EDTTryStopDeviceFailRestart"]
 ms.keywords: EDTTryStopDeviceFailRestart, EDTTryStopDeviceFailRestart method [Windows Device Testing Framework], EDTTryStopDeviceFailRestart method [Windows Device Testing Framework],IWDTFPNPAction2 interface, IWDTFPNPAction2 interface [Windows Device Testing Framework],EDTTryStopDeviceFailRestart method, IWDTFPNPAction2.EDTTryStopDeviceFailRestart, IWDTFPNPAction2::EDTTryStopDeviceFailRestart, Microsoft.WDTF.IWDTFPNPAction2.EDTTryStopDeviceFailRestart, Microsoft::WDTF::IWDTFPNPAction2::EDTTryStopDeviceFailRestart, dtf.iwdtfpnpaction2_edttrystopdevicefailrestart, wdtfpnpaction/IWDTFPNPAction2::EDTTryStopDeviceFailRestart
 f1_keywords:
  - "wdtfpnpaction/IWDTFPNPAction2.EDTTryStopDeviceFailRestart"
+ - "IWDTFPNPAction2.EDTTryStopDeviceFailRestart"
 req.header: wdtfpnpaction.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WDTFDriverPNPAction.Interop.dll
 api_name:
 - IWDTFPNPAction2.EDTTryStopDeviceFailRestart
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

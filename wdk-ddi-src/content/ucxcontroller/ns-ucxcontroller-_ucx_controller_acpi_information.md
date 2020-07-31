@@ -10,6 +10,7 @@ keywords: ["_UCX_CONTROLLER_ACPI_INFORMATION structure"]
 ms.keywords: "*PUCX_CONTROLLER_ACPI_INFORMATION, P_UCX_CONTROLLER_ACPI_INFORMATION, P_UCX_CONTROLLER_ACPI_INFORMATION structure pointer [Buses], UCX_CONTROLLER_ACPI_INFORMATION, UCX_CONTROLLER_ACPI_INFORMATION structure [Buses], _UCX_CONTROLLER_ACPI_INFORMATION, buses._ucx_controller_acpi_information, ucxcontroller/P_UCX_CONTROLLER_ACPI_INFORMATION, ucxcontroller/_UCX_CONTROLLER_ACPI_INFORMATION"
 f1_keywords:
  - "ucxcontroller/UCX_CONTROLLER_ACPI_INFORMATION"
+ - "UCX_CONTROLLER_ACPI_INFORMATION"
 req.header: ucxcontroller.h
 req.include-header: Ucxclass.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ucxcontroller.h
 api_name:
 - UCX_CONTROLLER_ACPI_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: UCX_CONTROLLER_ACPI_INFORMATION, *PUCX_CONTROLLER_ACPI_INFORMATION
 ---

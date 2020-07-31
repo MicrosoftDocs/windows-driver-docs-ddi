@@ -10,6 +10,7 @@ keywords: ["IDE_POWER_STATE enumeration"]
 ms.keywords: IDE_POWER_STATE, IDE_POWER_STATE enumeration [Storage Devices], IdePowerD0, IdePowerD3, IdePowerUnSpecified, irb/IDE_POWER_STATE, irb/IdePowerD0, irb/IdePowerD3, irb/IdePowerUnSpecified, storage.ide_power_state, structs-ATA_82594916-763d-46c4-9a40-e1e4f0c32e13.xml
 f1_keywords:
  - "irb/IDE_POWER_STATE"
+ - "IDE_POWER_STATE"
 req.header: irb.h
 req.include-header: Irb.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - irb.h
 api_name:
 - IDE_POWER_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: IDE_POWER_STATE
 ---

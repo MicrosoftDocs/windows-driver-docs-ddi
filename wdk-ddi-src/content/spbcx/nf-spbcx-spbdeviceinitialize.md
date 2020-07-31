@@ -10,6 +10,7 @@ keywords: ["SpbDeviceInitialize function"]
 ms.keywords: SPB.spbdeviceinitialize, SpbDeviceInitialize, SpbDeviceInitialize method [Buses], spbcx/SpbDeviceInitialize
 f1_keywords:
  - "spbcx/SpbDeviceInitialize"
+ - "SpbDeviceInitialize"
 req.header: spbcx.h
 req.include-header: 
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - spbcxstubs.dll
 api_name:
 - SpbDeviceInitialize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

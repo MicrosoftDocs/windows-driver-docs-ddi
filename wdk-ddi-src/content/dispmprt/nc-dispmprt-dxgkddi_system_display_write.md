@@ -10,6 +10,7 @@ keywords: ["DXGKDDI_SYSTEM_DISPLAY_WRITE callback function"]
 ms.keywords: DXGKDDI_SYSTEM_DISPLAY_WRITE, DXGKDDI_SYSTEM_DISPLAY_WRITE callback, DxgkDdiSystemDisplayWrite, DxgkDdiSystemDisplayWrite callback function [Display Devices], display.dxgkddisystemdisplaywrite, dispmprt/DxgkDdiSystemDisplayWrite
 f1_keywords:
  - "dispmprt/DxgkDdiSystemDisplayWrite"
+ - "DxgkDdiSystemDisplayWrite"
 req.header: dispmprt.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dispmprt.h
 api_name:
 - DxgkDdiSystemDisplayWrite
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

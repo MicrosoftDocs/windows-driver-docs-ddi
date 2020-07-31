@@ -8,6 +8,7 @@ ms.date: 04/10/2019
 keywords: ["_NDIS_WWAN_PIN_APP structure"]
 f1_keywords:
  - "ndiswwan/_NDIS_WWAN_PIN_APP"
+ - "_NDIS_WWAN_PIN_APP"
 ms.keywords: _NDIS_WWAN_PIN_APP, NDIS_WWAN_PIN_APP, *PNDIS_WWAN_PIN_APP, 
 req.header: ndiswwan.h
 req.include-header:
@@ -30,8 +31,6 @@ api_location:
 - ndiswwan.h
 api_name: 
 - _NDIS_WWAN_PIN_APP
-product:
-- Windows
 targetos: Windows
 ms.custom: 19H1
 ---

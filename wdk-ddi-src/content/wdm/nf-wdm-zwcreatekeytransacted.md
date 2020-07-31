@@ -10,6 +10,7 @@ keywords: ["ZwCreateKeyTransacted function"]
 ms.keywords: ZwCreateKeyTransacted, ZwCreateKeyTransacted routine [Kernel-Mode Driver Architecture], k111_7063495c-2357-4c51-b708-f72ed52bc166.xml, kernel.zwcreatekeytransacted, wdm/ZwCreateKeyTransacted
 f1_keywords:
  - "wdm/ZwCreateKeyTransacted"
+ - "ZwCreateKeyTransacted"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - ZwCreateKeyTransacted
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

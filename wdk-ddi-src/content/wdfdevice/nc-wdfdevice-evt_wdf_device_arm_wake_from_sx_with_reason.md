@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_DEVICE_ARM_WAKE_FROM_SX_WITH_REASON callback function"]
 ms.keywords: DFDeviceObjectGeneralRef_4d1a0d9f-ce8a-465c-afb9-0ded36c70f42.xml, EVT_WDF_DEVICE_ARM_WAKE_FROM_SX_WITH_REASON, EVT_WDF_DEVICE_ARM_WAKE_FROM_SX_WITH_REASON callback, EvtDeviceArmWakeFromSxWithReason, EvtDeviceArmWakeFromSxWithReason callback function, kmdf.evtdevicearmwakefromsxwithreason, wdf.evtdevicearmwakefromsxwithreason, wdfdevice/EvtDeviceArmWakeFromSxWithReason
 f1_keywords:
  - "wdfdevice/EvtDeviceArmWakeFromSxWithReason"
+ - "EvtDeviceArmWakeFromSxWithReason"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Wdfdevice.h
 api_name:
 - EvtDeviceArmWakeFromSxWithReason
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

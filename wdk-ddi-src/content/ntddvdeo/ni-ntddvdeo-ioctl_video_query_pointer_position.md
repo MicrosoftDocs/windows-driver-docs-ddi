@@ -10,6 +10,7 @@ keywords: ["IOCTL_VIDEO_QUERY_POINTER_POSITION IOCTL"]
 ms.keywords: IOCTL_VIDEO_QUERY_POINTER_POSITION, IOCTL_VIDEO_QUERY_POINTER_POSITION control, IOCTL_VIDEO_QUERY_POINTER_POSITION control code [Display Devices], Video_IOCTLs_ebaaecc3-ace3-4252-8f01-d80bb1c2472f.xml, display.ioctl_video_query_pointer_position, ntddvdeo/IOCTL_VIDEO_QUERY_POINTER_POSITION
 f1_keywords:
  - "ntddvdeo/IOCTL_VIDEO_QUERY_POINTER_POSITION"
+ - "IOCTL_VIDEO_QUERY_POINTER_POSITION"
 req.header: ntddvdeo.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddvdeo.h
 api_name:
 - IOCTL_VIDEO_QUERY_POINTER_POSITION
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

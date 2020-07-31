@@ -10,6 +10,7 @@ keywords: ["IWDTFEnhancedDeviceTestSupportAction2::put_SkipRestart"]
 ms.keywords: IWDTFEnhancedDeviceTestSupportAction2 interface [Windows Device Testing Framework],SkipRestart property, IWDTFEnhancedDeviceTestSupportAction2.SkipRestart, IWDTFEnhancedDeviceTestSupportAction2.put_SkipRestart, IWDTFEnhancedDeviceTestSupportAction2::SkipRestart, IWDTFEnhancedDeviceTestSupportAction2::put_SkipRestart, Microsoft.WDTF.IWDTFEnhancedDeviceTestSupportAction2.SkipRestart, Microsoft::WDTF::IWDTFEnhancedDeviceTestSupportAction2::SkipRestart, SkipRestart property [Windows Device Testing Framework], SkipRestart property [Windows Device Testing Framework],IWDTFEnhancedDeviceTestSupportAction2 interface, dtf.iwdtfenhanceddevicetestsupportaction2_skiprestart, put_SkipRestart, wdtfedtaction/IWDTFEnhancedDeviceTestSupportAction2::SkipRestart, wdtfedtaction/IWDTFEnhancedDeviceTestSupportAction2::put_SkipRestart
 f1_keywords:
  - "wdtfedtaction/IWDTFEnhancedDeviceTestSupportAction2.SkipRestart"
+ - "IWDTFEnhancedDeviceTestSupportAction2.SkipRestart"
 req.header: wdtfedtaction.h
 req.include-header: 
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IWDTFEnhancedDeviceTestSupportAction2.SkipRestart
 - IWDTFEnhancedDeviceTestSupportAction2.put_SkipRestart
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

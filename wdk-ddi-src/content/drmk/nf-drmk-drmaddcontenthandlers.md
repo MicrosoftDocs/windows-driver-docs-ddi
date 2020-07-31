@@ -10,6 +10,7 @@ keywords: ["DrmAddContentHandlers function"]
 ms.keywords: DrmAddContentHandlers, DrmAddContentHandlers function [Audio Devices], aud-prop2_94f530fb-9766-4d61-a002-b1c7bd5183d5.xml, audio.drmaddcontenthandlers, drmk/DrmAddContentHandlers
 f1_keywords:
  - "drmk/DrmAddContentHandlers"
+ - "DrmAddContentHandlers"
 req.header: drmk.h
 req.include-header: Drmk.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Drmk.dll
 api_name:
 - DrmAddContentHandlers
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

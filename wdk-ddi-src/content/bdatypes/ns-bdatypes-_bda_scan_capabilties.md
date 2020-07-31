@@ -10,6 +10,7 @@ keywords: ["_BDA_SCAN_CAPABILTIES structure"]
 ms.keywords: "*PBDA_SCAN_CAPABILTIES, BDA_SCAN_CAPABILTIES, BDA_SCAN_CAPABILTIES structure [Streaming Media Devices], PBDA_SCAN_CAPABILTIES, PBDA_SCAN_CAPABILTIES structure pointer [Streaming Media Devices], _BDA_SCAN_CAPABILTIES, bdatypes/BDA_SCAN_CAPABILTIES, bdatypes/PBDA_SCAN_CAPABILTIES, stream.bda_scan_capabilties"
 f1_keywords:
  - "bdatypes/BDA_SCAN_CAPABILTIES"
+ - "BDA_SCAN_CAPABILTIES"
 req.header: bdatypes.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Bdatypes.h
 api_name:
 - BDA_SCAN_CAPABILTIES
-product:
-- Windows
 targetos: Windows
 req.typenames: BDA_SCAN_CAPABILTIES, *PBDA_SCAN_CAPABILTIES
 ---

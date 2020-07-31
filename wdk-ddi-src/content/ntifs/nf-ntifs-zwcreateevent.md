@@ -10,6 +10,7 @@ keywords: ["ZwCreateEvent function"]
 ms.keywords: NtCreateEvent, ZwCreateEvent, ZwCreateEvent routine [Kernel-Mode Driver Architecture], k111_53554a99-3112-4f70-8c00-9d632a74d15b.xml, kernel.zwcreateevent, ntifs/NtCreateEvent, ntifs/ZwCreateEvent
 f1_keywords:
  - "ntifs/ZwCreateEvent"
+ - "ZwCreateEvent"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - ZwCreateEvent
 - NtCreateEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

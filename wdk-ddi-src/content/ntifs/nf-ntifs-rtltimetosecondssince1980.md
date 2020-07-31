@@ -10,6 +10,7 @@ keywords: ["RtlTimeToSecondsSince1980 function"]
 ms.keywords: RtlTimeToSecondsSince1980, RtlTimeToSecondsSince1980 routine [Installable File System Drivers], ifsk.rtltimetosecondssince1980, ntifs/RtlTimeToSecondsSince1980, rtlref_14f6e0b0-4291-46ce-aadc-ee8dc169a8cf.xml
 f1_keywords:
  - "ntifs/RtlTimeToSecondsSince1980"
+ - "RtlTimeToSecondsSince1980"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlTimeToSecondsSince1980
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

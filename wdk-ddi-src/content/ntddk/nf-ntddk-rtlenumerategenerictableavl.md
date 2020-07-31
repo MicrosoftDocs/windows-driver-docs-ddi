@@ -10,6 +10,7 @@ keywords: ["RtlEnumerateGenericTableAvl function"]
 ms.keywords: RtlEnumerateGenericTableAvl, RtlEnumerateGenericTableAvl routine [Installable File System Drivers], ifsk.rtlenumerategenerictableavl, ntddk/RtlEnumerateGenericTableAvl
 f1_keywords:
  - "ntddk/RtlEnumerateGenericTableAvl"
+ - "RtlEnumerateGenericTableAvl"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlEnumerateGenericTableAvl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IDebugControl2::Assemble"]
 ms.keywords: Assemble, Assemble method [Windows Debugging], Assemble method [Windows Debugging],IDebugControl interface, Assemble method [Windows Debugging],IDebugControl2 interface, Assemble method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],Assemble method, IDebugControl2 interface [Windows Debugging],Assemble method, IDebugControl2.Assemble, IDebugControl2::Assemble, IDebugControl3 interface [Windows Debugging],Assemble method, IDebugControl3::Assemble, IDebugControl::Assemble, IDebugControl_99336950-ba0b-46e1-871d-582f08ab5519.xml, dbgeng/IDebugControl2::Assemble, dbgeng/IDebugControl3::Assemble, dbgeng/IDebugControl::Assemble, debugger.assemble
 f1_keywords:
  - "dbgeng/IDebugControl.Assemble"
+ - "IDebugControl.Assemble"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -38,8 +39,6 @@ api_name:
 - IDebugControl.Assemble
 - IDebugControl2.Assemble
 - IDebugControl3.Assemble
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

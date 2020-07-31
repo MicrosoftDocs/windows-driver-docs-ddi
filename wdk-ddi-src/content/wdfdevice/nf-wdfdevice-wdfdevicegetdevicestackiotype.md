@@ -10,6 +10,7 @@ keywords: ["WdfDeviceGetDeviceStackIoType function"]
 ms.keywords: WdfDeviceGetDeviceStackIoType, WdfDeviceGetDeviceStackIoType method, wdf.wdfdevicegetdevicestackiotype, wdfdevice/WdfDeviceGetDeviceStackIoType
 f1_keywords:
  - "wdfdevice/WdfDeviceGetDeviceStackIoType"
+ - "WdfDeviceGetDeviceStackIoType"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - WUDFx02000.dll
 api_name:
 - WdfDeviceGetDeviceStackIoType
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

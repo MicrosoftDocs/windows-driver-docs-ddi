@@ -10,6 +10,7 @@ keywords: ["DXGKCB_LOG_ETW_EVENT callback function"]
 ms.keywords: DXGKCB_LOG_ETW_EVENT, DXGKCB_LOG_ETW_EVENT callback, DpFunctions_1e074b6d-dff4-4d1f-93ce-4333a4241562.xml, DxgkCbLogEtwEvent, DxgkCbLogEtwEvent callback function [Display Devices], display.dxgkcblogetwevent, dispmprt/DxgkCbLogEtwEvent
 f1_keywords:
  - "dispmprt/DxgkCbLogEtwEvent"
+ - "DxgkCbLogEtwEvent"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dispmprt.h
 api_name:
 - DxgkCbLogEtwEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

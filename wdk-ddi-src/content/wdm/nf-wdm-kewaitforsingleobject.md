@@ -10,6 +10,7 @@ keywords: ["KeWaitForSingleObject function"]
 ms.keywords: KeWaitForMutexObject, KeWaitForSingleObject, KeWaitForSingleObject routine [Kernel-Mode Driver Architecture], k105_de338bec-f7ef-4780-85e6-592a24314145.xml, kernel.kewaitforsingleobject, wdm/KeWaitForSingleObject
 f1_keywords:
  - "wdm/KeWaitForSingleObject"
+ - "KeWaitForSingleObject"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeWaitForSingleObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -100,64 +99,17 @@ If **Timeout* = 0, the routine returns without waiting. If the caller supplies a
 ## -returns
 
 
+**KeWaitForSingleObject** can return one of the following.
 
-**KeWaitForSingleObject** can return one of the following:
+> [!NOTE]
+> The NT_SUCCESS macro recognizes all of these status values as "success" values.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The dispatcher object specified by the <i>Object</i> parameter satisfied the wait.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_ALERTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The wait was interrupted to deliver an alert to the calling thread.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_USER_APC</b></dt>
-</dl>
-</td>
-<td width="60%">
-The wait was interrupted to deliver a user asynchronous procedure call (APC) to the calling thread.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_TIMEOUT</b></dt>
-</dl>
-</td>
-<td width="60%">
-A time-out occurred before the object was set to a signaled state. This value can be returned when the specified set of wait conditions cannot be immediately met and <i>Timeout</i> is set to zero.
-
-</td>
-</tr>
-</table>
- 
-
-Note that the NT_SUCCESS macro recognizes all of these status values as "success" values.
-
-
+|Return code|Description|
+|--- |--- |
+|**STATUS_SUCCESS**|The dispatcher object specified by the _Object_ parameter satisfied the wait.|
+|**STATUS_ALERTED**|The wait was interrupted to deliver an alert to the calling thread.|
+|**STATUS_USER_APC**|The wait was interrupted to deliver a user asynchronous procedure call (APC) to the calling thread.|
+|**STATUS_TIMEOUT**|A time-out occurred before the object was set to a signaled state. This value can be returned when the specified set of wait conditions cannot be immediately met and _Timeout_ is set to zero.|
 
 
 ## -remarks

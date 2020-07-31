@@ -10,6 +10,7 @@ keywords: ["_DXVADDI_VIDEOSAMPLE structure"]
 ms.keywords: DXVA2_Structs_c3a4d002-09dc-4653-a965-9c4f587529d4.xml, DXVADDI_VIDEOSAMPLE, DXVADDI_VIDEOSAMPLE structure [Display Devices], _DXVADDI_VIDEOSAMPLE, d3dumddi/DXVADDI_VIDEOSAMPLE, display.dxvaddi_videosample
 f1_keywords:
  - "d3dumddi/DXVADDI_VIDEOSAMPLE"
+ - "DXVADDI_VIDEOSAMPLE"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - DXVADDI_VIDEOSAMPLE
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVADDI_VIDEOSAMPLE
 ---

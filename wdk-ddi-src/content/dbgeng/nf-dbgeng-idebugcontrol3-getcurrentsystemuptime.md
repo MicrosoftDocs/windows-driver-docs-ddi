@@ -10,6 +10,7 @@ keywords: ["IDebugControl3::GetCurrentSystemUpTime"]
 ms.keywords: GetCurrentSystemUpTime, GetCurrentSystemUpTime method [Windows Debugging], GetCurrentSystemUpTime method [Windows Debugging],IDebugControl2 interface, GetCurrentSystemUpTime method [Windows Debugging],IDebugControl3 interface, IDebugControl2 interface [Windows Debugging],GetCurrentSystemUpTime method, IDebugControl2::GetCurrentSystemUpTime, IDebugControl3 interface [Windows Debugging],GetCurrentSystemUpTime method, IDebugControl3.GetCurrentSystemUpTime, IDebugControl3::GetCurrentSystemUpTime, IDebugControl_e10ddd31-60fe-4353-befe-45a04154615b.xml, dbgeng/IDebugControl2::GetCurrentSystemUpTime, dbgeng/IDebugControl3::GetCurrentSystemUpTime, debugger.getcurrentsystemuptime
 f1_keywords:
  - "dbgeng/IDebugControl2.GetCurrentSystemUpTime"
+ - "IDebugControl2.GetCurrentSystemUpTime"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IDebugControl2.GetCurrentSystemUpTime
 - IDebugControl3.GetCurrentSystemUpTime
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

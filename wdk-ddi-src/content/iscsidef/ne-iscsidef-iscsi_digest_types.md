@@ -10,6 +10,7 @@ keywords: ["ISCSI_DIGEST_TYPES enumeration"]
 ms.keywords: "*PISCSI_DIGEST_TYPES, ISCSI_DIGEST_TYPES, ISCSI_DIGEST_TYPES enumeration [Storage Devices], ISCSI_DIGEST_TYPE_CRC32C, ISCSI_DIGEST_TYPE_NONE, PISCSI_DIGEST_TYPES, PISCSI_DIGEST_TYPES enumeration pointer [Storage Devices], iscsidef/ISCSI_DIGEST_TYPES, iscsidef/ISCSI_DIGEST_TYPE_CRC32C, iscsidef/ISCSI_DIGEST_TYPE_NONE, iscsidef/PISCSI_DIGEST_TYPES, storage.iscsi_digest_types, structs-iSCSI_107b48fe-7dd1-41d3-b329-d82ba0cd13d4.xml"
 f1_keywords:
  - "iscsidef/ISCSI_DIGEST_TYPES"
+ - "ISCSI_DIGEST_TYPES"
 req.header: iscsidef.h
 req.include-header: Iscsidef.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - iscsidef.h
 api_name:
 - ISCSI_DIGEST_TYPES
-product:
-- Windows
 targetos: Windows
 req.typenames: ISCSI_DIGEST_TYPES, *PISCSI_DIGEST_TYPES
 ---

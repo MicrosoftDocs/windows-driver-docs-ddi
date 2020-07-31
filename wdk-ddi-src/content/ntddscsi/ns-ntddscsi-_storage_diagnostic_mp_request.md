@@ -10,6 +10,7 @@ keywords: ["_STORAGE_DIAGNOSTIC_MP_REQUEST structure"]
 ms.keywords: "*PSTORAGE_DIAGNOSTIC_MP_REQUEST, PSTORAGE_DIAGNOSTIC_MP_REQUEST, PSTORAGE_DIAGNOSTIC_MP_REQUEST structure pointer [Storage Devices], STORAGE_DIAGNOSTIC_MP_REQUEST, STORAGE_DIAGNOSTIC_MP_REQUEST structure [Storage Devices], _STORAGE_DIAGNOSTIC_MP_REQUEST, ntddscsi/PSTORAGE_DIAGNOSTIC_MP_REQUEST, ntddscsi/STORAGE_DIAGNOSTIC_MP_REQUEST, storage.storage_diagnostic_mp_request"
 f1_keywords:
  - "ntddscsi/STORAGE_DIAGNOSTIC_MP_REQUEST"
+ - "STORAGE_DIAGNOSTIC_MP_REQUEST"
 req.header: ntddscsi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddscsi.h
 api_name:
 - STORAGE_DIAGNOSTIC_MP_REQUEST
-product:
-- Windows
 targetos: Windows
 req.typenames: STORAGE_DIAGNOSTIC_MP_REQUEST, *PSTORAGE_DIAGNOSTIC_MP_REQUEST
 ---

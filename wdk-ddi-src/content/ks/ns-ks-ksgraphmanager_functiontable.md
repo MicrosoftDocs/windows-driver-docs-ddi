@@ -10,6 +10,7 @@ keywords: ["KSGRAPHMANAGER_FUNCTIONTABLE structure"]
 ms.keywords: KSGRAPHMANAGER_FUNCTIONTABLE, KSGRAPHMANAGER_FUNCTIONTABLE structure [Streaming Media Devices], PKSGRAPHMANAGER_FUNCTIONTABLE, PKSGRAPHMANAGER_FUNCTIONTABLE structure [Streaming Media Devices], ks/KSGRAPHMANAGER_FUNCTIONTABLE, ks/PKSGRAPHMANAGER_FUNCTIONTABLE, stream.ksgraphmanager_functiontable
 f1_keywords:
  - "ks/KSGRAPHMANAGER_FUNCTIONTABLE"
+ - "KSGRAPHMANAGER_FUNCTIONTABLE"
 req.header: ks.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ks.h
 api_name:
 - KSGRAPHMANAGER_FUNCTIONTABLE
-product:
-- Windows
 targetos: Windows
 req.typenames: KSGRAPHMANAGER_FUNCTIONTABLE, PKSGRAPHMANAGER_FUNCTIONTABLE
 ---

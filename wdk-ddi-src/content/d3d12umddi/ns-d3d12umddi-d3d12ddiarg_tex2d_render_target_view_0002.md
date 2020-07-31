@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3D12DDIARG_TEX2D_RENDER_TARGET_VIEW_0002 structure"]
 f1_keywords:
  - "d3d12umddi/D3D12DDIARG_TEX2D_RENDER_TARGET_VIEW_0002"
+ - "D3D12DDIARG_TEX2D_RENDER_TARGET_VIEW_0002"
 ms.keywords: D3D12DDIARG_TEX2D_RENDER_TARGET_VIEW_0002, D3D12DDIARG_TEX2D_RENDER_TARGET_VIEW_0002, 
 req.header: d3d12umddi.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - d3d12umddi.h
 api_name: 
 - D3D12DDIARG_TEX2D_RENDER_TARGET_VIEW_0002
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

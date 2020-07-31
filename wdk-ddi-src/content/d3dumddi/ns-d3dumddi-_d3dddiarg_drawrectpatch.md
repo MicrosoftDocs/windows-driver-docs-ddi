@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_DRAWRECTPATCH structure"]
 ms.keywords: D3DDDIARG_DRAWRECTPATCH, D3DDDIARG_DRAWRECTPATCH structure [Display Devices], UMDisplayDriver_param_Structs_fc791424-dcfb-470b-a0d0-04534452707a.xml, _D3DDDIARG_DRAWRECTPATCH, d3dumddi/D3DDDIARG_DRAWRECTPATCH, display.d3dddiarg_drawrectpatch
 f1_keywords:
  - "d3dumddi/D3DDDIARG_DRAWRECTPATCH"
+ - "D3DDDIARG_DRAWRECTPATCH"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDIARG_DRAWRECTPATCH
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_DRAWRECTPATCH
 ---

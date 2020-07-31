@@ -9,6 +9,7 @@ keywords: ["D3DKMTCheckSharedResourceAccess function"]
 ms.keywords: D3DKMTCheckSharedResourceAccess, D3DKMTCheckSharedResourceAccess callback function [Display Devices], OpenGL_Functions_b9ffd997-0bfe-47ad-a769-c2ed8148fe4b.xml, PFND3DKMT_CHECKSHAREDRESOURCEACCESS, PFND3DKMT_CHECKSHAREDRESOURCEACCESS callback, d3dkmthk/D3DKMTCheckSharedResourceAccess, display.d3dkmtchecksharedresourceaccess
 f1_keywords:
  - "d3dkmthk/D3DKMTCheckSharedResourceAccess"
+ - "D3DKMTCheckSharedResourceAccess"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -35,8 +36,6 @@ api_location:
 - Gdi32.dll
 api_name:
 - D3DKMTCheckSharedResourceAccess
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

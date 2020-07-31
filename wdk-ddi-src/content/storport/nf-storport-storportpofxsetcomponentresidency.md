@@ -10,6 +10,7 @@ keywords: ["StorPortPoFxSetComponentResidency function"]
 ms.keywords: StorPortPoFxSetComponentResidency, StorPortPoFxSetComponentResidency routine [Storage Devices], storage.storportpofxsetcomponentresidency, storport/StorPortPoFxSetComponentResidency
 f1_keywords:
  - "storport/StorPortPoFxSetComponentResidency"
+ - "StorPortPoFxSetComponentResidency"
 req.header: storport.h
 req.include-header: 
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - storport.dll
 api_name:
 - StorPortPoFxSetComponentResidency
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

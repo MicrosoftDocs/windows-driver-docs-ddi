@@ -10,6 +10,7 @@ keywords: ["_DXVADDI_DECODEBUFFERINFO structure"]
 ms.keywords: DXVA2_Structs_b076dffc-bfe0-4141-a075-9349b69af16c.xml, DXVADDI_DECODEBUFFERINFO, DXVADDI_DECODEBUFFERINFO structure [Display Devices], _DXVADDI_DECODEBUFFERINFO, d3dumddi/DXVADDI_DECODEBUFFERINFO, display.dxvaddi_decodebufferinfo
 f1_keywords:
  - "d3dumddi/DXVADDI_DECODEBUFFERINFO"
+ - "DXVADDI_DECODEBUFFERINFO"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - DXVADDI_DECODEBUFFERINFO
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVADDI_DECODEBUFFERINFO
 ---

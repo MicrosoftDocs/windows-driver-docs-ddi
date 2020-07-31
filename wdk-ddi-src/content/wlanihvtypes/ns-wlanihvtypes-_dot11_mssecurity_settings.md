@@ -10,6 +10,7 @@ keywords: ["_DOT11_MSSECURITY_SETTINGS structure"]
 ms.keywords: "*PDOT11_MSSECURITY_SETTINGS, DOT11_MSSECURITY_SETTINGS, DOT11_MSSECURITY_SETTINGS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_5a71d8b6-a359-4eb3-9e1c-59327d0ca67c.xml, PDOT11_MSSECURITY_SETTINGS, PDOT11_MSSECURITY_SETTINGS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_MSSECURITY_SETTINGS, netvista.dot11_mssecurity_settings, wlanihvtypes/DOT11_MSSECURITY_SETTINGS, wlanihvtypes/PDOT11_MSSECURITY_SETTINGS"
 f1_keywords:
  - "wlanihvtypes/DOT11_MSSECURITY_SETTINGS"
+ - "DOT11_MSSECURITY_SETTINGS"
 req.header: wlanihvtypes.h
 req.include-header: Wlanihv.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wlanihvtypes.h
 api_name:
 - DOT11_MSSECURITY_SETTINGS
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT11_MSSECURITY_SETTINGS, *PDOT11_MSSECURITY_SETTINGS
 req.product: Windows 10 or later.

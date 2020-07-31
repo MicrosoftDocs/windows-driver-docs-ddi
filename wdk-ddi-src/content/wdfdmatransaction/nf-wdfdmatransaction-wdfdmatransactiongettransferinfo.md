@@ -10,6 +10,7 @@ keywords: ["WdfDmaTransactionGetTransferInfo function"]
 ms.keywords: WdfDmaTransactionGetTransferInfo, WdfDmaTransactionGetTransferInfo method, kmdf.wdfdmatransactiongettransferinfo, wdf.wdfdmatransactiongettransferinfo, wdfdmatransaction/WdfDmaTransactionGetTransferInfo
 f1_keywords:
  - "wdfdmatransaction/WdfDmaTransactionGetTransferInfo"
+ - "WdfDmaTransactionGetTransferInfo"
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfDmaTransactionGetTransferInfo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

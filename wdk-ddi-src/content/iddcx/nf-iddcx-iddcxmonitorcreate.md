@@ -10,6 +10,7 @@ keywords: ["IddCxMonitorCreate function"]
 ms.keywords: IddCxMonitorCreate, IddCxMonitorCreate method [Display Devices], display.iddcxmonitorcreate, iddcx/IddCxMonitorCreate
 f1_keywords:
  - "iddcx/IddCxMonitorCreate"
+ - "IddCxMonitorCreate"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - IddCx.dll
 api_name:
 - IddCxMonitorCreate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["StorPortNotification function"]
 ms.keywords: StorPortNotification, StorPortNotification routine [Storage Devices], storage.storportnotification, storport/StorPortNotification, storprt_5915c32e-be1b-4786-b391-67be5e61760f.xml
 f1_keywords:
  - "storport/StorPortNotification"
+ - "StorPortNotification"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Storport.dll
 api_name:
 - StorPortNotification
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["PFNKSREMOVEEVENT callback function"]
 ms.keywords: AVStrMiniRemoveEvent, AVStrMiniRemoveEvent routine [Streaming Media Devices], PFNKSREMOVEEVENT, avstclbk_04bc810f-666a-4b24-9bc9-e203ebbbbf29.xml, ks/AVStrMiniRemoveEvent, stream.avstrminiremoveevent
 f1_keywords:
  - "ks/AVStrMiniRemoveEvent"
+ - "AVStrMiniRemoveEvent"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - AVStrMiniRemoveEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["GNSS_AGNSS_INJECTBLOB structure"]
 ms.keywords: "*PGNSS_AGNSS_INJECTBLOB, GNSS_AGNSS_INJECTBLOB, GNSS_AGNSS_INJECTBLOB structure [Sensor Devices], PGNSS_AGNSS_INJECTBLOB, PGNSS_AGNSS_INJECTBLOB structure pointer [Sensor Devices], gnss.gnss_agnss_injectblob, gnssdriver/GNSS_AGNSS_INJECTBLOB, gnssdriver/PGNSS_AGNSS_INJECTBLOB"
 f1_keywords:
  - "gnssdriver/GNSS_AGNSS_INJECTBLOB"
+ - "GNSS_AGNSS_INJECTBLOB"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - gnssdriver.h
 api_name:
 - GNSS_AGNSS_INJECTBLOB
-product:
-- Windows
 targetos: Windows
 req.typenames: GNSS_AGNSS_INJECTBLOB, *PGNSS_AGNSS_INJECTBLOB
 ---

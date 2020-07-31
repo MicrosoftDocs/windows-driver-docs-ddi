@@ -7,6 +7,7 @@ ms.date: 09/28/2018
 keywords: ["_HMAT_ENTRY structure"]
 f1_keywords:
  - "acpitabl/_HMAT_ENTRY"
+ - "_HMAT_ENTRY"
 ms.keywords: _HMAT_ENTRY, HMAT_ENTRY, *PHMAT_ENTRY, 
 req.header: acpitabl.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - acpitabl.h
 api_name: 
 - _HMAT_ENTRY
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

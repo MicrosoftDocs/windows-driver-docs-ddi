@@ -10,6 +10,7 @@ keywords: ["RILUICCSERVICE structure"]
 ms.keywords: "*LPRILUICCSERVICE, RILUICCSERVICE, RILUICCSERVICE structure [Network Drivers Starting with Windows Vista], netvista.riluiccservice, ntddrilapitypes/RILUICCSERVICE"
 f1_keywords:
  - "ntddrilapitypes/RILUICCSERVICE"
+ - "RILUICCSERVICE"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILUICCSERVICE
-product:
-- Windows
 targetos: Windows
 req.typenames: RILUICCSERVICE, *LPRILUICCSERVICE
 ---

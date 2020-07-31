@@ -10,6 +10,7 @@ keywords: ["WdfDpcEnqueue function"]
 ms.keywords: DFDpcObjectRef_76e257ac-ac8b-4724-8a24-6828bfe93e74.xml, WdfDpcEnqueue, WdfDpcEnqueue method, kmdf.wdfdpcenqueue, wdf.wdfdpcenqueue, wdfdpc/WdfDpcEnqueue
 f1_keywords:
  - "wdfdpc/WdfDpcEnqueue"
+ - "WdfDpcEnqueue"
 req.header: wdfdpc.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfDpcEnqueue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IDDCX_CURSOR_CAPS structure"]
 ms.keywords: IDDCX_CURSOR_CAPS, IDDCX_CURSOR_CAPS structure [Display Devices], display.iddcx_cursor_caps, iddcx/IDDCX_CURSOR_CAPS
 f1_keywords:
  - "iddcx/IDDCX_CURSOR_CAPS"
+ - "IDDCX_CURSOR_CAPS"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - iddcx.h
 api_name:
 - IDDCX_CURSOR_CAPS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

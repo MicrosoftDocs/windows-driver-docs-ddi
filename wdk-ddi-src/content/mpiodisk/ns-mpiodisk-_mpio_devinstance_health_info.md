@@ -10,6 +10,7 @@ keywords: ["_MPIO_DEVINSTANCE_HEALTH_INFO structure"]
 ms.keywords: "*PMPIO_DEVINSTANCE_HEALTH_INFO, MPIO_DEVINSTANCE_HEALTH_INFO, MPIO_DEVINSTANCE_HEALTH_INFO structure [Storage Devices], PMPIO_DEVINSTANCE_HEALTH_INFO, PMPIO_DEVINSTANCE_HEALTH_INFO structure pointer [Storage Devices], _MPIO_DEVINSTANCE_HEALTH_INFO, mpiodisk/MPIO_DEVINSTANCE_HEALTH_INFO, mpiodisk/PMPIO_DEVINSTANCE_HEALTH_INFO, storage.mpio_devinstance_health_info, structs-scsibus_4e13f03b-88d3-4ab7-a2a8-5b4064b4edd2.xml"
 f1_keywords:
  - "mpiodisk/MPIO_DEVINSTANCE_HEALTH_INFO"
+ - "MPIO_DEVINSTANCE_HEALTH_INFO"
 req.header: mpiodisk.h
 req.include-header: Mpiowmi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - mpiodisk.h
 api_name:
 - MPIO_DEVINSTANCE_HEALTH_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: MPIO_DEVINSTANCE_HEALTH_INFO, *PMPIO_DEVINSTANCE_HEALTH_INFO
 ---

@@ -10,6 +10,7 @@ keywords: ["ExtExtension::SetUnnamedArgStr"]
 ms.keywords: EngExtCpp_Ref_0d8a550a-c727-47e5-a5fe-10971e373a9d.xml, ExtExtension class [Windows Debugging],SetUnnamedArgStr method, ExtExtension.SetUnnamedArgStr, ExtExtension::SetUnnamedArgStr, SetUnnamedArgStr, SetUnnamedArgStr method [Windows Debugging], SetUnnamedArgStr method [Windows Debugging],ExtExtension class, debugger.setunnamedargstr
 f1_keywords:
  - "engextcpp/ExtExtension.SetUnnamedArgStr"
+ - "ExtExtension.SetUnnamedArgStr"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Engextcpp.hpp
 api_name:
 - ExtExtension.SetUnnamedArgStr
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

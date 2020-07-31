@@ -10,6 +10,7 @@ keywords: ["MmLockPagableCodeSection macro"]
 ms.keywords: MmLockPagableCodeSection, MmLockPagableCodeSection routine [Kernel-Mode Driver Architecture], k106_734069f7-1412-48d9-bae4-106391273a38.xml, kernel.mmlockpagablecodesection, wdm/MmLockPagableCodeSection
 f1_keywords:
  - "wdm/MmLockPagableCodeSection"
+ - "MmLockPagableCodeSection"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - MmLockPagableCodeSection
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

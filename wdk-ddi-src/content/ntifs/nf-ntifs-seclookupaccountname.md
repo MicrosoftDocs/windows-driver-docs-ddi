@@ -10,6 +10,7 @@ keywords: ["SecLookupAccountName function"]
 ms.keywords: SecLookupAccountName, SecLookupAccountName function [Installable File System Drivers], ifsk.seclookupaccountname, ksecddref_1f4959e5-ea3b-440d-af1b-df05782eefce.xml, ntifs/SecLookupAccountName
 f1_keywords:
  - "ntifs/SecLookupAccountName"
+ - "SecLookupAccountName"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ksecdd.dll
 api_name:
 - SecLookupAccountName
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

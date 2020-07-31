@@ -10,6 +10,7 @@ keywords: ["_POS_CX_ATTRIBUTES structure"]
 ms.keywords: POS_CX_ATTRIBUTES, POS_CX_ATTRIBUTES structure, PPOS_CX_ATTRIBUTES, PPOS_CX_ATTRIBUTES structure pointer, _POS_CX_ATTRIBUTES, pos.pos_cx_attributes, poscx/POS_CX_ATTRIBUTES, poscx/PPOS_CX_ATTRIBUTES
 f1_keywords:
  - "poscx/POS_CX_ATTRIBUTES"
+ - "POS_CX_ATTRIBUTES"
 req.header: poscx.h
 req.include-header: Poscx.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - poscx.h
 api_name:
 - POS_CX_ATTRIBUTES
-product:
-- Windows
 targetos: Windows
 req.typenames: POS_CX_ATTRIBUTES
 req.product: Windows 10 or later.

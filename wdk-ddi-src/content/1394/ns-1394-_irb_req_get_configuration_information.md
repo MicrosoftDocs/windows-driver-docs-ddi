@@ -10,6 +10,7 @@ keywords: ["_IRB_REQ_GET_CONFIGURATION_INFORMATION structure"]
 ms.keywords: 1394/IRB_REQ_GET_CONFIGURATION_INFORMATION, IEEE.irb_req_get_configuration_information, IRB_REQ_GET_CONFIGURATION_INFORMATION, IRB_REQ_GET_CONFIGURATION_INFORMATION structure [Buses], _IRB_REQ_GET_CONFIGURATION_INFORMATION
 f1_keywords:
  - "1394/IRB_REQ_GET_CONFIGURATION_INFORMATION"
+ - "IRB_REQ_GET_CONFIGURATION_INFORMATION"
 req.header: 1394.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - 1394.h
 api_name:
 - IRB_REQ_GET_CONFIGURATION_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: IRB_REQ_GET_CONFIGURATION_INFORMATION
 ---

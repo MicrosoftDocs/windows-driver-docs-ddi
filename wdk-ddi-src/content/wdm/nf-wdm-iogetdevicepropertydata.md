@@ -10,6 +10,7 @@ keywords: ["IoGetDevicePropertyData function"]
 ms.keywords: IoGetDevicePropertyData, IoGetDevicePropertyData routine [Kernel-Mode Driver Architecture], k104_85cb50ca-43cc-401a-8ed1-32ff0c381ed8.xml, kernel.iogetdevicepropertydata, wdm/IoGetDevicePropertyData
 f1_keywords:
  - "wdm/IoGetDevicePropertyData"
+ - "IoGetDevicePropertyData"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoGetDevicePropertyData
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

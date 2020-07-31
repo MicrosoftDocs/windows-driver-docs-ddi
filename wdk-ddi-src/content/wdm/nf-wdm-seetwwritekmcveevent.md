@@ -10,6 +10,7 @@ keywords: ["SeEtwWriteKMCveEvent function"]
 ms.keywords: SeEtwWriteKMCveEvent, SeEtwWriteKMCveEvent function [Display Devices], devtest.seetwwritekmcveevent, wdm/SeEtwWriteKMCveEvent
 f1_keywords:
  - "wdm/SeEtwWriteKMCveEvent"
+ - "SeEtwWriteKMCveEvent"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntoskrnl.exe
 api_name:
 - SeEtwWriteKMCveEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

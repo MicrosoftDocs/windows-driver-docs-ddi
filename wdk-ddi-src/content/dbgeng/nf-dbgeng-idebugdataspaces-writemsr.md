@@ -10,6 +10,7 @@ keywords: ["IDebugDataSpaces::WriteMsr"]
 ms.keywords: IDebugDataSpaces interface [Windows Debugging],WriteMsr method, IDebugDataSpaces.WriteMsr, IDebugDataSpaces2 interface [Windows Debugging],WriteMsr method, IDebugDataSpaces2::WriteMsr, IDebugDataSpaces3 interface [Windows Debugging],WriteMsr method, IDebugDataSpaces3::WriteMsr, IDebugDataSpaces4 interface [Windows Debugging],WriteMsr method, IDebugDataSpaces4::WriteMsr, IDebugDataSpaces::WriteMsr, IDebugDataSpaces_b0b0220e-66d2-4d96-b4bf-3016b0ed677c.xml, WriteMsr, WriteMsr method [Windows Debugging], WriteMsr method [Windows Debugging],IDebugDataSpaces interface, WriteMsr method [Windows Debugging],IDebugDataSpaces2 interface, WriteMsr method [Windows Debugging],IDebugDataSpaces3 interface, WriteMsr method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces2::WriteMsr, dbgeng/IDebugDataSpaces3::WriteMsr, dbgeng/IDebugDataSpaces4::WriteMsr, dbgeng/IDebugDataSpaces::WriteMsr, debugger.writemsr2
 f1_keywords:
  - "dbgeng/IDebugDataSpaces.WriteMsr"
+ - "IDebugDataSpaces.WriteMsr"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -39,8 +40,6 @@ api_name:
 - IDebugDataSpaces2.WriteMsr
 - IDebugDataSpaces3.WriteMsr
 - IDebugDataSpaces4.WriteMsr
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

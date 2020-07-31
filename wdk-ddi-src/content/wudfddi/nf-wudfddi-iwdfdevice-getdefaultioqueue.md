@@ -10,6 +10,7 @@ keywords: ["IWDFDevice::GetDefaultIoQueue"]
 ms.keywords: GetDefaultIoQueue, GetDefaultIoQueue method, GetDefaultIoQueue method,IWDFDevice interface, IWDFDevice interface,GetDefaultIoQueue method, IWDFDevice.GetDefaultIoQueue, IWDFDevice::GetDefaultIoQueue, UMDFDeviceObjectRef_b4c10b3b-eba4-4e6c-8f9e-80c32705f43d.xml, umdf.iwdfdevice_getdefaultioqueue, wdf.iwdfdevice_getdefaultioqueue, wudfddi/IWDFDevice::GetDefaultIoQueue
 f1_keywords:
  - "wudfddi/IWDFDevice.GetDefaultIoQueue"
+ - "IWDFDevice.GetDefaultIoQueue"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFDevice.GetDefaultIoQueue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["WWAN_IP_CONFIGURATION_FLAGS structure"]
 ms.keywords: WWAN_IP_CONFIGURATION_FLAGS, WWAN_IP_CONFIGURATION_FLAGS union [Network Drivers Starting with Windows Vista], netvista.wwan_ip_configuration_flags, wwan/WWAN_IP_CONFIGURATION_FLAGS
 f1_keywords:
  - "wwan/WWAN_IP_CONFIGURATION_FLAGS"
+ - "WWAN_IP_CONFIGURATION_FLAGS"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_IP_CONFIGURATION_FLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_IP_CONFIGURATION_FLAGS
 ---

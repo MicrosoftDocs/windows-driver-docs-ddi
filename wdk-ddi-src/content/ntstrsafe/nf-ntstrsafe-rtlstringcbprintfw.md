@@ -10,6 +10,7 @@ keywords: ["RtlStringCbPrintfW function"]
 ms.keywords: RtlStringCbPrintf, RtlStringCbPrintfA, RtlStringCbPrintfW, RtlStringCbPrintfW function [Kernel-Mode Driver Architecture], kernel.rtlstringcbprintf, ntstrsafe/RtlStringCbPrintfA, ntstrsafe/RtlStringCbPrintfW, safestrings_066962fd-30e4-4535-b667-bf6f8fa2f2b2.xml
 f1_keywords:
  - "ntstrsafe/RtlStringCbPrintfW"
+ - "RtlStringCbPrintfW"
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop
@@ -39,8 +40,6 @@ api_name:
 - RtlStringCbPrintfW
 - RtlStringCbPrintfA
 - RtlStringCbPrintfW
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

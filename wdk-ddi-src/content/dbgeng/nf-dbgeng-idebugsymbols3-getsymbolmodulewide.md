@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::GetSymbolModuleWide"]
 ms.keywords: GetSymbolModuleWide, GetSymbolModuleWide method [Windows Debugging], GetSymbolModuleWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSymbolModuleWide method, IDebugSymbols3.GetSymbolModuleWide, IDebugSymbols3::GetSymbolModuleWide, dbgeng/IDebugSymbols3::GetSymbolModuleWide, debugger.getsymbolmodulewide
 f1_keywords:
  - "dbgeng/IDebugSymbols3.GetSymbolModuleWide"
+ - "IDebugSymbols3.GetSymbolModuleWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugSymbols3.GetSymbolModuleWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

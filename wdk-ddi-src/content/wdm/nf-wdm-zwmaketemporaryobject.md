@@ -10,6 +10,7 @@ keywords: ["ZwMakeTemporaryObject function"]
 ms.keywords: NtMakeTemporaryObject, ZwMakeTemporaryObject, ZwMakeTemporaryObject routine [Kernel-Mode Driver Architecture], k111_54a6768d-3f33-4c9e-8068-810401cad810.xml, kernel.zwmaketemporaryobject, wdm/NtMakeTemporaryObject, wdm/ZwMakeTemporaryObject
 f1_keywords:
  - "wdm/ZwMakeTemporaryObject"
+ - "ZwMakeTemporaryObject"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - ZwMakeTemporaryObject
 - NtMakeTemporaryObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

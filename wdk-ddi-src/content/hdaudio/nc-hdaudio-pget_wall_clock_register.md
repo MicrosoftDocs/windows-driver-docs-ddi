@@ -10,6 +10,7 @@ keywords: ["PGET_WALL_CLOCK_REGISTER callback function"]
 ms.keywords: GetWallClockRegister, GetWallClockRegister callback function [Audio Devices], PGET_WALL_CLOCK_REGISTER, PGET_WALL_CLOCK_REGISTER callback, aud-prop2_1600e03f-4be0-4a61-9596-7970ace3df2f.xml, audio.getwallclockregister, hdaudio/GetWallClockRegister
 f1_keywords:
  - "hdaudio/GetWallClockRegister"
+ - "GetWallClockRegister"
 req.header: hdaudio.h
 req.include-header: Hdaudio.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - hdaudio.h
 api_name:
 - GetWallClockRegister
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

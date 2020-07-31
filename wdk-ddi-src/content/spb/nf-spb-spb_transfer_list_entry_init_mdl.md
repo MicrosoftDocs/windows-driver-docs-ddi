@@ -10,6 +10,7 @@ keywords: ["SPB_TRANSFER_LIST_ENTRY_INIT_MDL function"]
 ms.keywords: SPB.spb_transfer_list_entry_init_mdl, SPB_TRANSFER_LIST_ENTRY_INIT_MDL, SPB_TRANSFER_LIST_ENTRY_INIT_MDL function [Buses], spb/SPB_TRANSFER_LIST_ENTRY_INIT_MDL
 f1_keywords:
  - "spb/SPB_TRANSFER_LIST_ENTRY_INIT_MDL"
+ - "SPB_TRANSFER_LIST_ENTRY_INIT_MDL"
 req.header: spb.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Spb.h
 api_name:
 - SPB_TRANSFER_LIST_ENTRY_INIT_MDL
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

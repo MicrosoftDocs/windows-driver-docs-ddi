@@ -10,6 +10,7 @@ keywords: ["_ISCSI_Path structure"]
 ms.keywords: "*PISCSI_Path, ISCSI_Path, ISCSI_Path structure [Storage Devices], PISCSI_Path, PISCSI_Path structure pointer [Storage Devices], _ISCSI_Path, iscsimgt/ISCSI_Path, iscsimgt/PISCSI_Path, storage.iscsi_path, structs-iSCSI_fe9f6ee9-2fcd-46eb-a010-98e82dbf8c70.xml"
 f1_keywords:
  - "iscsimgt/ISCSI_Path"
+ - "ISCSI_Path"
 req.header: iscsimgt.h
 req.include-header: Iscsimgt.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - iscsimgt.h
 api_name:
 - ISCSI_Path
-product:
-- Windows
 targetos: Windows
 req.typenames: ISCSI_Path, *PISCSI_Path
 ---

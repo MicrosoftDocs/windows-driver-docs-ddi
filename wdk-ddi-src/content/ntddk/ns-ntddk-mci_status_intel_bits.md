@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["MCI_STATUS_INTEL_BITS structure"]
 f1_keywords:
  - "ntddk/MCI_STATUS_INTEL_BITS"
+ - "MCI_STATUS_INTEL_BITS"
 ms.keywords: MCI_STATUS_INTEL_BITS, MCI_STATUS_INTEL_BITS, *PMCI_STATUS_INTEL_BITS, 
 req.header: ntddk.h
 req.include-header:

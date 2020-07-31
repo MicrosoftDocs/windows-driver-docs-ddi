@@ -10,6 +10,7 @@ keywords: ["NdisMFreeNetBufferSGList function"]
 ms.keywords: NdisMFreeNetBufferSGList, NdisMFreeNetBufferSGList function [Network Drivers Starting with Windows Vista], ndis/NdisMFreeNetBufferSGList, ndis_sgdma_ref_e2f486cf-eba4-410d-ac18-724efb32fd59.xml, netvista.ndismfreenetbuffersglist
 f1_keywords:
  - "ndis/NdisMFreeNetBufferSGList"
+ - "NdisMFreeNetBufferSGList"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisMFreeNetBufferSGList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

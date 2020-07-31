@@ -10,6 +10,7 @@ keywords: ["IDebugControl4::GetSystemVersionStringWide"]
 ms.keywords: GetSystemVersionStringWide, GetSystemVersionStringWide method [Windows Debugging], GetSystemVersionStringWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetSystemVersionStringWide method, IDebugControl4.GetSystemVersionStringWide, IDebugControl4::GetSystemVersionStringWide, dbgeng/IDebugControl4::GetSystemVersionStringWide, debugger.getsystemversionstringwide
 f1_keywords:
  - "dbgeng/IDebugControl4.GetSystemVersionStringWide"
+ - "IDebugControl4.GetSystemVersionStringWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugControl4.GetSystemVersionStringWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

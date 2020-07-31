@@ -10,6 +10,7 @@ keywords: ["WDF_CHILD_ADDRESS_DESCRIPTION_HEADER_INIT function"]
 ms.keywords: DFDeviceObjectChildListRef_167489bc-617b-440a-a0b2-d5c346b4cf50.xml, WDF_CHILD_ADDRESS_DESCRIPTION_HEADER_INIT, WDF_CHILD_ADDRESS_DESCRIPTION_HEADER_INIT function, kmdf.wdf_child_address_description_header_init, wdf.wdf_child_address_description_header_init, wdfchildlist/WDF_CHILD_ADDRESS_DESCRIPTION_HEADER_INIT
 f1_keywords:
  - "wdfchildlist/WDF_CHILD_ADDRESS_DESCRIPTION_HEADER_INIT"
+ - "WDF_CHILD_ADDRESS_DESCRIPTION_HEADER_INIT"
 req.header: wdfchildlist.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - wdfchildlist.h
 api_name:
 - WDF_CHILD_ADDRESS_DESCRIPTION_HEADER_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

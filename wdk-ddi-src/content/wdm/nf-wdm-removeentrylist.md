@@ -10,6 +10,7 @@ keywords: ["RemoveEntryList function"]
 ms.keywords: RemoveEntryList, RemoveEntryList routine [Kernel-Mode Driver Architecture], k109_138ddf01-d13f-4e36-9b66-c2e58914c170.xml, kernel.removeentrylist, wdm/RemoveEntryList
 f1_keywords:
  - "wdm/RemoveEntryList"
+ - "RemoveEntryList"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - RemoveEntryList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

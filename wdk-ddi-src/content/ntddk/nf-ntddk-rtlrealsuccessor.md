@@ -10,6 +10,7 @@ keywords: ["RtlRealSuccessor function"]
 ms.keywords: RtlRealSuccessor, RtlRealSuccessor routine [Installable File System Drivers], ifsk.rtlrealsuccessor, ntddk/RtlRealSuccessor, rtlref_5bf190a8-a1c9-45d8-8be3-73178d2f7add.xml
 f1_keywords:
  - "ntddk/RtlRealSuccessor"
+ - "RtlRealSuccessor"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlRealSuccessor
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

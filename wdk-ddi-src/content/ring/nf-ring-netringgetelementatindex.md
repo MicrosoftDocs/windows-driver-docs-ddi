@@ -8,6 +8,7 @@ ms.date: 09/25/2019
 keywords: ["NetRingGetElementAtIndex function"]
 f1_keywords:
  - "ring/RILWRITEPHONEBOOKENTRYPARAMS"
+ - "RILWRITEPHONEBOOKENTRYPARAMS"
 ms.keywords: NetRingGetElementAtIndex
 req.header: ring.h
 req.include-header: netadaptercx.h
@@ -37,8 +38,6 @@ apilocation:
 apiname: 
 - NetRingGetElementAtIndex
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetRingGetElementAtIndex function

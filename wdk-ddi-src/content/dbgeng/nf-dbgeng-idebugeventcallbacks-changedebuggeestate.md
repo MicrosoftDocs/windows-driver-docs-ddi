@@ -10,6 +10,7 @@ keywords: ["IDebugEventCallbacks::ChangeDebuggeeState"]
 ms.keywords: ChangeDebuggeeState, ChangeDebuggeeState method [Windows Debugging], ChangeDebuggeeState method [Windows Debugging],IDebugEventCallbacks interface, ComCallbacks_a5743ecf-0b4c-41de-9384-ee0d8980a746.xml, IDebugEventCallbacks interface [Windows Debugging],ChangeDebuggeeState method, IDebugEventCallbacks.ChangeDebuggeeState, IDebugEventCallbacks::ChangeDebuggeeState, dbgeng/IDebugEventCallbacks::ChangeDebuggeeState, debugger.idebugeventcallbacks_changedebuggeestate
 f1_keywords:
  - "dbgeng/IDebugEventCallbacks.ChangeDebuggeeState"
+ - "IDebugEventCallbacks.ChangeDebuggeeState"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugEventCallbacks.ChangeDebuggeeState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

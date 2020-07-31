@@ -10,6 +10,7 @@ keywords: ["FltGetDiskDeviceObject function"]
 ms.keywords: FltApiRef_e_to_o_830212f4-ac53-41e1-8f66-48673bdaf9e2.xml, FltGetDiskDeviceObject, FltGetDiskDeviceObject routine [Installable File System Drivers], fltkernel/FltGetDiskDeviceObject, ifsk.fltgetdiskdeviceobject
 f1_keywords:
  - "fltkernel/FltGetDiskDeviceObject"
+ - "FltGetDiskDeviceObject"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltGetDiskDeviceObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["_SYSTEM_POWER_STATE_CONTEXT structure"]
 ms.keywords: "*PSYSTEM_POWER_STATE_CONTEXT, PSYSTEM_POWER_STATE_CONTEXT, PSYSTEM_POWER_STATE_CONTEXT structure pointer [Kernel-Mode Driver Architecture], SYSTEM_POWER_STATE_CONTEXT, SYSTEM_POWER_STATE_CONTEXT structure [Kernel-Mode Driver Architecture], _SYSTEM_POWER_STATE_CONTEXT, kernel.system_power_state_context, wdm/PSYSTEM_POWER_STATE_CONTEXT, wdm/SYSTEM_POWER_STATE_CONTEXT"
 f1_keywords:
  - "ntpoapi/SYSTEM_POWER_STATE_CONTEXT"
+ - "SYSTEM_POWER_STATE_CONTEXT"
 req.header: ntpoapi.h
 req.include-header: Ntpoapi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - SYSTEM_POWER_STATE_CONTEXT
-product:
-- Windows
 targetos: Windows
 req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 ---

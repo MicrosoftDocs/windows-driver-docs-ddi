@@ -10,6 +10,7 @@ keywords: ["SPB_CONTROLLER_CONFIG_INIT function"]
 ms.keywords: SPB.spb_controller_config_init, SPB_CONTROLLER_CONFIG_INIT, SPB_CONTROLLER_CONFIG_INIT function [Buses], spbcx/SPB_CONTROLLER_CONFIG_INIT
 f1_keywords:
  - "spbcx/SPB_CONTROLLER_CONFIG_INIT"
+ - "SPB_CONTROLLER_CONFIG_INIT"
 req.header: spbcx.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Spbcx.h
 api_name:
 - SPB_CONTROLLER_CONFIG_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

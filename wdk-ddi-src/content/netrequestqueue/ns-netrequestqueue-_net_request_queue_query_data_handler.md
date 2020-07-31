@@ -8,6 +8,7 @@ ms.date: 02/09/2018
 keywords: ["_NET_REQUEST_QUEUE_QUERY_DATA_HANDLER structure"]
 f1_keywords:
  - "netrequestqueue/NET_REQUEST_QUEUE_QUERY_DATA_HANDLER"
+ - "NET_REQUEST_QUEUE_QUERY_DATA_HANDLER"
 ms.keywords: _NET_REQUEST_QUEUE_QUERY_DATA_HANDLER, *PNET_REQUEST_QUEUE_QUERY_DATA_HANDLER, NET_REQUEST_QUEUE_QUERY_DATA_HANDLER, 
 req.header: netrequestqueue.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 api_name: 
 - NET_REQUEST_QUEUE_QUERY_DATA_HANDLER
 targetos: Windows
-product:
-- Windows
 ---
 
 # _NET_REQUEST_QUEUE_QUERY_DATA_HANDLER structure

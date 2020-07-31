@@ -10,6 +10,7 @@ keywords: ["PINITIALIZE_DMA_TRANSFER_CONTEXT callback function"]
 ms.keywords: InitializeDmaTransferContext, InitializeDmaTransferContext callback function [Kernel-Mode Driver Architecture], PINITIALIZE_DMA_TRANSFER_CONTEXT, PINITIALIZE_DMA_TRANSFER_CONTEXT callback, kernel.initializedmatransfercontext, wdm/InitializeDmaTransferContext
 f1_keywords:
  - "wdm/InitializeDmaTransferContext"
+ - "InitializeDmaTransferContext"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - InitializeDmaTransferContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IPrintOemPrintTicketProvider::ExpandIntentOptions"]
 ms.keywords: ExpandIntentOptions, ExpandIntentOptions method [Print Devices], ExpandIntentOptions method [Print Devices],IPrintOemPrintTicketProvider interface, IPrintOemPrintTicketProvider interface [Print Devices],ExpandIntentOptions method, IPrintOemPrintTicketProvider.ExpandIntentOptions, IPrintOemPrintTicketProvider::ExpandIntentOptions, prcomoem/IPrintOemPrintTicketProvider::ExpandIntentOptions, print.iprintoemprintticketprovider_expandintentoptions, print_ticket-package_1b344230-a06b-49ca-8b55-eb9c3500c3f1.xml
 f1_keywords:
  - "prcomoem/IPrintOemPrintTicketProvider.ExpandIntentOptions"
+ - "IPrintOemPrintTicketProvider.ExpandIntentOptions"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - prcomoem.h
 api_name:
 - IPrintOemPrintTicketProvider.ExpandIntentOptions
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

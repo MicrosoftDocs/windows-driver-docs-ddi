@@ -10,6 +10,7 @@ keywords: ["DXGI_DDI_PRESENT_FLAGS structure"]
 ms.keywords: DXGI_DDI_PRESENT_FLAGS, DXGI_DDI_PRESENT_FLAGS structure [Display Devices], UMDisplayDriver_Dx10param_Structs_75234d4d-acce-4f1f-804c-f7128d885c2f.xml, display.dxgi_ddi_present_flags, dxgiddi/DXGI_DDI_PRESENT_FLAGS
 f1_keywords:
  - "dxgiddi/DXGI_DDI_PRESENT_FLAGS"
+ - "DXGI_DDI_PRESENT_FLAGS"
 req.header: dxgiddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dxgiddi.h
 api_name:
 - DXGI_DDI_PRESENT_FLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGI_DDI_PRESENT_FLAGS
 dev_langs:

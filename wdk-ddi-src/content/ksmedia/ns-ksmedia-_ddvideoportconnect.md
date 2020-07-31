@@ -10,6 +10,7 @@ keywords: ["_DDVIDEOPORTCONNECT structure"]
 ms.keywords: "*LPDDVIDEOPORTCONNECT, DDVIDEOPORTCONNECT, DDVIDEOPORTCONNECT structure [Display Devices], _DDVIDEOPORTCONNECT, ddstrcts_38f986ec-9ee1-438c-8b1f-2d07ebb06e87.xml, display.ddvideoportconnect, ksmedia/DDVIDEOPORTCONNECT"
 f1_keywords:
  - "ksmedia/DDVIDEOPORTCONNECT"
+ - "DDVIDEOPORTCONNECT"
 req.header: ksmedia.h
 req.include-header: Dvp.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - DDVIDEOPORTCONNECT
-product:
-- Windows
 targetos: Windows
 req.typenames: DDVIDEOPORTCONNECT, *LPDDVIDEOPORTCONNECT
 ---

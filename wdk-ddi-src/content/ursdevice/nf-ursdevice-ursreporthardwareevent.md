@@ -10,6 +10,7 @@ keywords: ["UrsReportHardwareEvent function"]
 ms.keywords: UrsReportHardwareEvent, UrsReportHardwareEvent function [Buses], buses.ursreporthardwareevent, ursdevice/UrsReportHardwareEvent
 f1_keywords:
  - "ursdevice/UrsReportHardwareEvent"
+ - "UrsReportHardwareEvent"
 req.header: ursdevice.h
 req.include-header: Urscx.h
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 - Urscxstub.dll
 api_name:
 - UrsReportHardwareEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

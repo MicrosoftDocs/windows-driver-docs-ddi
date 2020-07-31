@@ -8,6 +8,7 @@ ms.date: 09/30/2018
 keywords: ["UcmUcsiPpmStart function"]
 f1_keywords:
  - "ucmucsippm/UcmUcsiPpmStart"
+ - "UcmUcsiPpmStart"
 ms.keywords: UcmUcsiPpmStart
 req.header: Ucmucsippm.h
 req.include-header: UcmUcsiCx.h
@@ -34,8 +35,6 @@ api_location:
 - UcmUcsiCxStub.lib
 api_name: 
 - UcmUcsiPpmStart
-product:
-- Windows
 targetos: Windows
 
 

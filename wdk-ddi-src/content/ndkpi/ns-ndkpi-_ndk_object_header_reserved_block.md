@@ -10,6 +10,7 @@ keywords: ["_NDK_OBJECT_HEADER_RESERVED_BLOCK structure"]
 ms.keywords: NDK_OBJECT_HEADER_RESERVED_BLOCK, NDK_OBJECT_HEADER_RESERVED_BLOCK structure [Network Drivers Starting with Windows Vista], PNDK_OBJECT_HEADER_RESERVED_BLOCK, PNDK_OBJECT_HEADER_RESERVED_BLOCK structure pointer [Network Drivers Starting with Windows Vista], _NDK_OBJECT_HEADER_RESERVED_BLOCK, ndkpi/NDK_OBJECT_HEADER_RESERVED_BLOCK, ndkpi/PNDK_OBJECT_HEADER_RESERVED_BLOCK, netvista.ndk_object_header_reserved_block
 f1_keywords:
  - "ndkpi/NDK_OBJECT_HEADER_RESERVED_BLOCK"
+ - "NDK_OBJECT_HEADER_RESERVED_BLOCK"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ndkpi.h
 api_name:
 - NDK_OBJECT_HEADER_RESERVED_BLOCK
-product:
-- Windows
 targetos: Windows
 req.typenames: NDK_OBJECT_HEADER_RESERVED_BLOCK
 ---

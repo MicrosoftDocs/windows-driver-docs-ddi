@@ -10,6 +10,7 @@ keywords: ["BdaPropertyNodeProperties function"]
 ms.keywords: BdaPropertyNodeProperties, BdaPropertyNodeProperties function [Streaming Media Devices], bdaref_fc328c79-7b0b-4646-91cd-3e4957b30b2a.xml, bdasup/BdaPropertyNodeProperties, stream.bdapropertynodeproperties
 f1_keywords:
  - "bdasup/BdaPropertyNodeProperties"
+ - "BdaPropertyNodeProperties"
 req.header: bdasup.h
 req.include-header: Bdasup.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Bdasup.dll
 api_name:
 - BdaPropertyNodeProperties
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

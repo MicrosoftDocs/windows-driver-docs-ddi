@@ -10,6 +10,7 @@ keywords: ["_DOT4_DC_DESTROY_DATA structure"]
 ms.keywords: "*PDOT4_DC_DESTROY_DATA, DOT4_DC_DESTROY_DATA, DOT4_DC_DESTROY_DATA structure [Print Devices], PDOT4_DC_DESTROY_DATA, PDOT4_DC_DESTROY_DATA structure pointer [Print Devices], _DOT4_DC_DESTROY_DATA, d4drvif/DOT4_DC_DESTROY_DATA, d4drvif/PDOT4_DC_DESTROY_DATA, print.dot4_dc_destroy_data"
 f1_keywords:
  - "d4drvif/DOT4_DC_DESTROY_DATA"
+ - "DOT4_DC_DESTROY_DATA"
 req.header: d4drvif.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - D4drvif.h
 api_name:
 - DOT4_DC_DESTROY_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT4_DC_DESTROY_DATA, *PDOT4_DC_DESTROY_DATA
 ---

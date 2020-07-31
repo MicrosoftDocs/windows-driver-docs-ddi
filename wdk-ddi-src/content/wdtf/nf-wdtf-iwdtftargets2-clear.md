@@ -10,6 +10,7 @@ keywords: ["IWDTFTargets2::Clear"]
 ms.keywords: Clear, Clear method [Windows Device Testing Framework], Clear method [Windows Device Testing Framework],IWDTFTargets2 interface, IWDTFTargets2 interface [Windows Device Testing Framework],Clear method, IWDTFTargets2.Clear, IWDTFTargets2::Clear, Microsoft.WDTF.IWDTFTargets2.Clear, Microsoft::WDTF::IWDTFTargets2::Clear, dtf.iwdtftargets2_clear, wdtf/IWDTFTargets2::Clear
 f1_keywords:
  - "wdtf/IWDTFTargets2.Clear"
+ - "IWDTFTargets2.Clear"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WDTF.Interop.metadata_dll.dll
 api_name:
 - IWDTFTargets2.Clear
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

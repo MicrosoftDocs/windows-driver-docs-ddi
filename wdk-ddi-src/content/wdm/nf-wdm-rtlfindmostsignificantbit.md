@@ -10,6 +10,7 @@ keywords: ["RtlFindMostSignificantBit function"]
 ms.keywords: RtlFindMostSignificantBit, RtlFindMostSignificantBit routine [Kernel-Mode Driver Architecture], k109_c8dcb9dd-ec2c-4b0c-92f2-167dcee10a96.xml, kernel.rtlfindmostsignificantbit, wdm/RtlFindMostSignificantBit
 f1_keywords:
  - "wdm/RtlFindMostSignificantBit"
+ - "RtlFindMostSignificantBit"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlFindMostSignificantBit
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

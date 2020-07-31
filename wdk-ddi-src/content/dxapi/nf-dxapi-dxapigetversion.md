@@ -10,6 +10,7 @@ keywords: ["DxApiGetVersion function"]
 ms.keywords: DxApiGetVersion, DxApiGetVersion function [Display Devices], ddfncs_72fbedfa-d63f-462a-a6c4-862c6815f1c1.xml, display.dxapigetversion, dxapi/DxApiGetVersion
 f1_keywords:
  - "dxapi/DxApiGetVersion"
+ - "DxApiGetVersion"
 req.header: dxapi.h
 req.include-header: Dxapi.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Dxapi.dll
 api_name:
 - DxApiGetVersion
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["PMRX_DEALLOCATE_FOR_FOBX callback function"]
 ms.keywords: MRxDeallocateForFobx, MRxDeallocateForFobx routine [Installable File System Drivers], PMRX_DEALLOCATE_FOR_FOBX, ifsk.mrxdeallocateforfobx, mrx/MRxDeallocateForFobx, mrxref_2b2fa1f1-19f9-4a9b-9105-7c5946428b88.xml
 f1_keywords:
  - "mrx/MRxDeallocateForFobx"
+ - "MRxDeallocateForFobx"
 req.header: mrx.h
 req.include-header: Mrx.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - mrx.h
 api_name:
 - MRxDeallocateForFobx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

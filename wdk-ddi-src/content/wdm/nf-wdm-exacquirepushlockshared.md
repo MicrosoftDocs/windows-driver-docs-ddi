@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["ExAcquirePushLockShared macro"]
 f1_keywords:
  - "wdm/ExAcquirePushLockShared"
+ - "ExAcquirePushLockShared"
 ms.keywords: ExAcquirePushLockShared
 req.header: wdm.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - wdm.h
 api_name: 
 - ExAcquirePushLockShared
-product:
-- Windows
 targetos: Windows
 
 ms.custom: RS5

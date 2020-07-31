@@ -8,6 +8,7 @@ ms.date: 02/01/2019
 keywords: ["EVT_NET_REQUEST_DEFAULT callback function"]
 f1_keywords:
  - "netrequestqueue/NetRequestWdmGetNdisOidRequest"
+ - "NetRequestWdmGetNdisOidRequest"
 req.header: netrequestqueue.h
 req.include-header:
 req.target-type: Universal
@@ -36,8 +37,6 @@ apilocation:
 apiname: 
 - EVT_NET_REQUEST_DEFAULT
 targetos: Windows
-product:
-- Windows
 ---
 
 # EVT_NET_REQUEST_DEFAULT callback function

@@ -27,13 +27,14 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - DllExport
 api_location:
  - ntddk.h
 api_name:
  - HalWheaUpdateCmciPolicy
 f1_keywords:
- - ntddk/HalWheaUpdateCmciPolicy
+ - ntddk//HalWheaUpdateCmciPolicy
+ - HalWheaUpdateCmciPolicy
 dev_langs:
  - c++
 ---

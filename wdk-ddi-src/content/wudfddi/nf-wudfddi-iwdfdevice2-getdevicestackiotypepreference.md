@@ -10,6 +10,7 @@ keywords: ["IWDFDevice2::GetDeviceStackIoTypePreference"]
 ms.keywords: GetDeviceStackIoTypePreference, GetDeviceStackIoTypePreference method, GetDeviceStackIoTypePreference method,IWDFDevice2 interface, IWDFDevice2 interface,GetDeviceStackIoTypePreference method, IWDFDevice2.GetDeviceStackIoTypePreference, IWDFDevice2::GetDeviceStackIoTypePreference, UMDFDeviceObjectRef_f6402826-fe3b-46c7-a4a8-d1d4f74e4b5c.xml, umdf.iwdfdevice2_getdevicestackiotypepreference, wdf.iwdfdevice2_getdevicestackiotypepreference, wudfddi/IWDFDevice2::GetDeviceStackIoTypePreference
 f1_keywords:
  - "wudfddi/IWDFDevice2.GetDeviceStackIoTypePreference"
+ - "IWDFDevice2.GetDeviceStackIoTypePreference"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFDevice2.GetDeviceStackIoTypePreference
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

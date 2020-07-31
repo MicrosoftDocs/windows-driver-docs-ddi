@@ -7,6 +7,7 @@ ms.date: 03/24/2020
 keywords: ["PFND3D12DDI_CALCPRIVATEHEAPANDRESOURCESIZES_0075 callback function"]
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_CALCPRIVATEHEAPANDRESOURCESIZES_0075"
+ - "PFND3D12DDI_CALCPRIVATEHEAPANDRESOURCESIZES_0075"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

@@ -10,6 +10,7 @@ keywords: ["RxCeBuildAddress function"]
 ms.keywords: RxCeBuildAddress, RxCeBuildAddress function [Installable File System Drivers], ifsk.rxcebuildaddress, rxce/RxCeBuildAddress, rxref_ee32329f-3111-4ee6-869f-2b8e21d6696c.xml
 f1_keywords:
  - "rxce/RxCeBuildAddress"
+ - "RxCeBuildAddress"
 req.header: rxce.h
 req.include-header: Rxce.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - rxce.h
 api_name:
 - RxCeBuildAddress
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

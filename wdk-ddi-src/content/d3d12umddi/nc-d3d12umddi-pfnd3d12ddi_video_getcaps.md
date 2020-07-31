@@ -29,6 +29,7 @@ tech.root: display
 req.typenames: 
 f1_keywords:
  - "d3d12umddi/pfnGetCaps"
+ - "pfnGetCaps"
 topic_type:
  - APIRef
  - kbSyntax

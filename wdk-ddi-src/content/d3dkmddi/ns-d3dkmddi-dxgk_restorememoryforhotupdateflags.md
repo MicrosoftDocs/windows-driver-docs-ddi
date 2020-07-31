@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DXGK_RESTOREMEMORYFORHOTUPDATEFLAGS structure"]
 f1_keywords:
  - "d3dkmddi/DXGK_RESTOREMEMORYFORHOTUPDATEFLAGS"
+ - "DXGK_RESTOREMEMORYFORHOTUPDATEFLAGS"
 ms.keywords: DXGK_RESTOREMEMORYFORHOTUPDATEFLAGS, DXGK_RESTOREMEMORYFORHOTUPDATEFLAGS, 
 req.header: d3dkmddi.h
 req.include-header:
@@ -32,8 +33,6 @@ api_location:
  - d3dkmddi.h
 api_name: 
  - DXGK_RESTOREMEMORYFORHOTUPDATEFLAGS
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

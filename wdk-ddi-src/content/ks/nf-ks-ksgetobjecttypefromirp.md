@@ -10,6 +10,7 @@ keywords: ["KsGetObjectTypeFromIrp function"]
 ms.keywords: KsGetObjectTypeFromIrp, KsGetObjectTypeFromIrp function [Streaming Media Devices], avfunc_4021d1e6-6dcd-4c59-8863-0d0b5a8e922f.xml, ks/KsGetObjectTypeFromIrp, stream.ksgetobjecttypefromirp
 f1_keywords:
  - "ks/KsGetObjectTypeFromIrp"
+ - "KsGetObjectTypeFromIrp"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsGetObjectTypeFromIrp
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

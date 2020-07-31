@@ -10,6 +10,7 @@ keywords: ["PROTOCOL_CL_CALL_CONNECTED callback function"]
 ms.keywords: PROTOCOL_CL_CALL_CONNECTED, PROTOCOL_CL_CALL_CONNECTED callback, ProtocolClCallConnected, ProtocolClCallConnected callback function [Network Drivers Starting with Windows Vista], condis_client_ref_ddc435b4-ff27-4ced-b513-9bba45302496.xml, ndis/ProtocolClCallConnected, netvista.protocolclcallconnected
 f1_keywords:
  - "ndis/ProtocolClCallConnected"
+ - "ProtocolClCallConnected"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - ProtocolClCallConnected
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["RILMSGMWIDETAILLIST structure"]
 ms.keywords: "*LPRILMSGMWIDETAILLIST, RILMSGMWIDETAILLIST, RILMSGMWIDETAILLIST structure [Network Drivers Starting with Windows Vista], netvista.rilmsgmwidetaillist, ntddrilapitypes/RILMSGMWIDETAILLIST"
 f1_keywords:
  - "rilapitypes/RILMSGMWIDETAILLIST"
+ - "RILMSGMWIDETAILLIST"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILMSGMWIDETAILLIST
-product:
-- Windows
 targetos: Windows
 req.typenames: RILMSGMWIDETAILLIST, *LPRILMSGMWIDETAILLIST
 ---

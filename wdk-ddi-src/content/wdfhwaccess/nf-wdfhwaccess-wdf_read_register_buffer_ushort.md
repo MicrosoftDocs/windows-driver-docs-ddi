@@ -10,6 +10,7 @@ keywords: ["WDF_READ_REGISTER_BUFFER_USHORT function"]
 ms.keywords: WDF_READ_REGISTER_BUFFER_USHORT, WDF_READ_REGISTER_BUFFER_USHORT function, wdf.wdf_read_register_buffer_ushort, wdfhwaccess/WDF_READ_REGISTER_BUFFER_USHORT
 f1_keywords:
  - "wdfhwaccess/WDF_READ_REGISTER_BUFFER_USHORT"
+ - "WDF_READ_REGISTER_BUFFER_USHORT"
 req.header: wdfhwaccess.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Wdfhwaccess.h
 api_name:
 - WDF_READ_REGISTER_BUFFER_USHORT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

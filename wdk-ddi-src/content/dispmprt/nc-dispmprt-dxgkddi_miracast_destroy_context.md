@@ -10,6 +10,7 @@ keywords: ["DXGKDDI_MIRACAST_DESTROY_CONTEXT callback function"]
 ms.keywords: DXGKDDI_MIRACAST_DESTROY_CONTEXT, DXGKDDI_MIRACAST_DESTROY_CONTEXT callback, DxgkDdiMiracastDestroyContext, DxgkDdiMiracastDestroyContext callback function [Display Devices], display.dxgkddimiracastdestroycontext, dispmprt/DxgkDdiMiracastDestroyContext
 f1_keywords:
  - "dispmprt/DxgkDdiMiracastDestroyContext"
+ - "DxgkDdiMiracastDestroyContext"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Dispmprt.h
 api_name:
 - DxgkDdiMiracastDestroyContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

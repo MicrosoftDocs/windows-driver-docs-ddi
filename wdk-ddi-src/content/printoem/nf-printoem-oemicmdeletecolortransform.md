@@ -10,6 +10,7 @@ keywords: ["OEMIcmDeleteColorTransform function"]
 ms.keywords: OEMIcmDeleteColorTransform, OEMIcmDeleteColorTransform function [Print Devices], print.oemicmdeletecolortransform, print_unidrv-pscript_rendering_bbbce51d-2346-4260-ae70-598d38276d69.xml, printoem/OEMIcmDeleteColorTransform
 f1_keywords:
  - "printoem/OEMIcmDeleteColorTransform"
+ - "OEMIcmDeleteColorTransform"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - printoem.h
 api_name:
 - OEMIcmDeleteColorTransform
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

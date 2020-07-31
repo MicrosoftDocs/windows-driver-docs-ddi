@@ -10,6 +10,7 @@ keywords: ["WmiTraceMessage function"]
 ms.keywords: WmiTraceMessage, WmiTraceMessage routine [Kernel-Mode Driver Architecture], k902_114717ae-d439-4ddd-b939-913795610dee.xml, kernel.wmitracemessage, wdm/WmiTraceMessage
 f1_keywords:
  - "wdm/WmiTraceMessage"
+ - "WmiTraceMessage"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - WmiTraceMessage
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

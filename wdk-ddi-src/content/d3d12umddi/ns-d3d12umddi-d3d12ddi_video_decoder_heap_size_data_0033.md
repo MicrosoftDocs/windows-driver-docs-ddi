@@ -9,6 +9,7 @@ keywords: ["D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0033 structure"]
 ms.keywords: D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0033, D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0033 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0033, display.d3d12ddi-video-decoder-heap-size-data-0033
 f1_keywords:
  - "d3d12umddi/D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0033"
+ - "D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0033"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3d12umddi.h
 api_name:
 - D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0033
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0033

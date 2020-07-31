@@ -10,6 +10,7 @@ keywords: ["RtlUlongByteSwap macro"]
 ms.keywords: RtlUlongByteSwap, RtlUlongByteSwap routine [Kernel-Mode Driver Architecture], k109_0d4753a3-859a-429f-bd07-66669f1b46e8.xml, kernel.rtlulongbyteswap, wdm/RtlUlongByteSwap
 f1_keywords:
  - "wdm/RtlUlongByteSwap"
+ - "RtlUlongByteSwap"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlUlongByteSwap
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

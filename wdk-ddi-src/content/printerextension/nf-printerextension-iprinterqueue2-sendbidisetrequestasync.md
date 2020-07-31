@@ -10,6 +10,7 @@ keywords: ["IPrinterQueue2::SendBidiSetRequestAsync"]
 ms.keywords: IPrinterQueue2 interface [Print Devices],SendBidiSetRequestAsync method, IPrinterQueue2.SendBidiSetRequestAsync, IPrinterQueue2::SendBidiSetRequestAsync, SendBidiSetRequestAsync, SendBidiSetRequestAsync method [Print Devices], SendBidiSetRequestAsync method [Print Devices],IPrinterQueue2 interface, print.iprinterqueue2_sendbidisetrequestasync, printerextension/IPrinterQueue2::SendBidiSetRequestAsync
 f1_keywords:
  - "printerextension/IPrinterQueue2.SendBidiSetRequestAsync"
+ - "IPrinterQueue2.SendBidiSetRequestAsync"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Printerextension.h
 api_name:
 - IPrinterQueue2.SendBidiSetRequestAsync
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

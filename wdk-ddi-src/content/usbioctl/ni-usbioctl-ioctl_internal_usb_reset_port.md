@@ -10,6 +10,7 @@ keywords: ["IOCTL_INTERNAL_USB_RESET_PORT IOCTL"]
 ms.keywords: IOCTL_INTERNAL_USB_RESET_PORT, IOCTL_INTERNAL_USB_RESET_PORT control, IOCTL_INTERNAL_USB_RESET_PORT control code [Buses], buses.ioctl_internal_usb_reset_port, usbioctl/IOCTL_INTERNAL_USB_RESET_PORT, usbirp_d96d4c35-d399-444e-905b-c59360a01754.xml
 f1_keywords:
  - "usbioctl/IOCTL_INTERNAL_USB_RESET_PORT"
+ - "IOCTL_INTERNAL_USB_RESET_PORT"
 req.header: usbioctl.h
 req.include-header: Usbioctl.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Usbioctl.h
 api_name:
 - IOCTL_INTERNAL_USB_RESET_PORT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

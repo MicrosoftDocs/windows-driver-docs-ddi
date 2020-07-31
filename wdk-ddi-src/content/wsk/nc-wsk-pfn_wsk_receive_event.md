@@ -10,6 +10,7 @@ keywords: ["PFN_WSK_RECEIVE_EVENT callback function"]
 ms.keywords: PFN_WSK_RECEIVE_EVENT, PFN_WSK_RECEIVE_EVENT callback, WSK_FLAG_AT_DISPATCH_LEVEL, WSK_FLAG_ENTIRE_MESSAGE, WSK_FLAG_RELEASE_ASAP, WskReceiveEvent, WskReceiveEvent callback function [Network Drivers Starting with Windows Vista], netvista.wskreceiveevent, wsk/WskReceiveEvent, wskref_acb47379-99e4-42b8-92a1-19395cc29fd8.xml
 f1_keywords:
  - "wsk/WskReceiveEvent"
+ - "WskReceiveEvent"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wsk.h
 api_name:
 - WskReceiveEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

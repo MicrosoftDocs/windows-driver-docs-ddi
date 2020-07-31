@@ -10,6 +10,7 @@ keywords: ["_PDEV_ADJUST_GRAPHICS_RESOLUTION structure"]
 ms.keywords: "*PPDEV_ADJUST_GRAPHICS_RESOLUTION, PDEV_ADJUST_GRAPHICS_RESOLUTION, PDEV_ADJUST_GRAPHICS_RESOLUTION structure [Print Devices], PPDEV_ADJUST_GRAPHICS_RESOLUTION, PPDEV_ADJUST_GRAPHICS_RESOLUTION structure pointer [Print Devices], _PDEV_ADJUST_GRAPHICS_RESOLUTION, print.pdev_adjust_graphics_resolution, print_unidrv-pscript_rendering_4e6d42c6-744c-4451-85a3-f5769c0ebfd3.xml, printoem/PDEV_ADJUST_GRAPHICS_RESOLUTION, printoem/PPDEV_ADJUST_GRAPHICS_RESOLUTION"
 f1_keywords:
  - "printoem/PDEV_ADJUST_GRAPHICS_RESOLUTION"
+ - "PDEV_ADJUST_GRAPHICS_RESOLUTION"
 req.header: printoem.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - printoem.h
 api_name:
 - PDEV_ADJUST_GRAPHICS_RESOLUTION
-product:
-- Windows
 targetos: Windows
 req.typenames: PDEV_ADJUST_GRAPHICS_RESOLUTION, *PPDEV_ADJUST_GRAPHICS_RESOLUTION
 ---

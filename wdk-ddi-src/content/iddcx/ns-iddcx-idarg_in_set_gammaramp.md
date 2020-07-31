@@ -10,6 +10,7 @@ keywords: ["IDARG_IN_SET_GAMMARAMP structure"]
 ms.keywords: IDARG_IN_SET_GAMMARAMP, IDARG_IN_SET_GAMMARAMP structure [Display Devices], display.idarg_in_set_gammaramp, iddcx/IDARG_IN_SET_GAMMARAMP
 f1_keywords:
  - "iddcx/IDARG_IN_SET_GAMMARAMP"
+ - "IDARG_IN_SET_GAMMARAMP"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - iddcx.h
 api_name:
 - IDARG_IN_SET_GAMMARAMP
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

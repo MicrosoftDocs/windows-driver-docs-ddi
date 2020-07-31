@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_OPENRESOURCE structure"]
 ms.keywords: D3DDDIARG_OPENRESOURCE, D3DDDIARG_OPENRESOURCE structure [Display Devices], UMDisplayDriver_param_Structs_d0d23672-9994-4fad-b104-4eef57b3b03e.xml, _D3DDDIARG_OPENRESOURCE, d3dumddi/D3DDDIARG_OPENRESOURCE, display.d3dddiarg_openresource
 f1_keywords:
  - "d3dumddi/D3DDDIARG_OPENRESOURCE"
+ - "D3DDDIARG_OPENRESOURCE"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDIARG_OPENRESOURCE
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_OPENRESOURCE
 ---

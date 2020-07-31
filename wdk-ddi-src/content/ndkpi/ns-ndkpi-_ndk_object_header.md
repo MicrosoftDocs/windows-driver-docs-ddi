@@ -10,6 +10,7 @@ keywords: ["_NDK_OBJECT_HEADER structure"]
 ms.keywords: NDK_OBJECT_HEADER, NDK_OBJECT_HEADER structure [Network Drivers Starting with Windows Vista], PNDK_OBJECT_HEADER, PNDK_OBJECT_HEADER structure pointer [Network Drivers Starting with Windows Vista], _NDK_OBJECT_HEADER, ndkpi/NDK_OBJECT_HEADER, ndkpi/PNDK_OBJECT_HEADER, netvista.ndk_object_header
 f1_keywords:
  - "ndkpi/NDK_OBJECT_HEADER"
+ - "NDK_OBJECT_HEADER"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ndkpi.h
 api_name:
 - NDK_OBJECT_HEADER
-product:
-- Windows
 targetos: Windows
 req.typenames: NDK_OBJECT_HEADER
 ---

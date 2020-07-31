@@ -10,6 +10,7 @@ keywords: ["_PosStringType structure"]
 ms.keywords: PosStringType, PosStringType structure, _PosStringType, pointofservicedriverinterface/PosStringType, pos.posstringtype
 f1_keywords:
  - "pointofservicedriverinterface/PosStringType"
+ - "PosStringType"
 req.header: pointofservicedriverinterface.h
 req.include-header: PointOfServiceDriverInterface.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - PointOfServiceDriverInterface.h
 api_name:
 - PosStringType
-product:
-- Windows
 targetos: Windows
 req.typenames: PosStringType
 ---

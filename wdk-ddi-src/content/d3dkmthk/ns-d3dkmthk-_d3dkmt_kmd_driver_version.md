@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_KMD_DRIVER_VERSION structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_KMD_DRIVER_VERSION"
+ - "_D3DKMT_KMD_DRIVER_VERSION"
 ms.keywords: _D3DKMT_KMD_DRIVER_VERSION, D3DKMT_KMD_DRIVER_VERSION,
 req.header: d3dkmthk.h
 req.include-header:

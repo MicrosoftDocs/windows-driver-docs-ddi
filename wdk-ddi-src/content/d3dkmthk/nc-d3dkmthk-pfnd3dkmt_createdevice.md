@@ -9,6 +9,7 @@ keywords: ["PFND3DKMT_CREATEDEVICE callback function"]
 ms.keywords: D3DKMTCreateDevice, D3DKMTCreateDevice callback function [Display Devices], OpenGL_Functions_09099f43-bae3-4859-9465-434915af774a.xml, PFND3DKMT_CREATEDEVICE, PFND3DKMT_CREATEDEVICE callback, d3dkmthk/D3DKMTCreateDevice, display.d3dkmtcreatedevice
 f1_keywords:
  - "d3dkmthk/D3DKMTCreateDevice"
+ - "D3DKMTCreateDevice"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -35,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMTCreateDevice
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

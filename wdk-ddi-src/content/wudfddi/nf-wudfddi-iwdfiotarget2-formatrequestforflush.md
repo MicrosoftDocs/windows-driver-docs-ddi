@@ -10,6 +10,7 @@ keywords: ["IWDFIoTarget2::FormatRequestForFlush"]
 ms.keywords: FormatRequestForFlush, FormatRequestForFlush method, FormatRequestForFlush method,IWDFIoTarget2 interface, IWDFIoTarget2 interface,FormatRequestForFlush method, IWDFIoTarget2.FormatRequestForFlush, IWDFIoTarget2::FormatRequestForFlush, UMDFIoTargetObjectRef_985162ca-fae2-408e-b4df-59add8e4a760.xml, umdf.iwdfiotarget2_formatrequestforflush, wdf.iwdfiotarget2_formatrequestforflush, wudfddi/IWDFIoTarget2::FormatRequestForFlush
 f1_keywords:
  - "wudfddi/IWDFIoTarget2.FormatRequestForFlush"
+ - "IWDFIoTarget2.FormatRequestForFlush"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFIoTarget2.FormatRequestForFlush
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

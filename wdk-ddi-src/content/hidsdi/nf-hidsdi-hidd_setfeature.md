@@ -10,6 +10,7 @@ keywords: ["HidD_SetFeature function"]
 ms.keywords: HidD_SetFeature, HidD_SetFeature routine [Human Input Devices], hid.hidd_setfeature, hidfunc_f34ed05a-c8c1-44e3-ab94-a8df000aac7d.xml, hidsdi/HidD_SetFeature
 f1_keywords:
  - "hidsdi/HidD_SetFeature"
+ - "HidD_SetFeature"
 req.header: hidsdi.h
 req.include-header: Hidsdi.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Hid.dll
 api_name:
 - HidD_SetFeature
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

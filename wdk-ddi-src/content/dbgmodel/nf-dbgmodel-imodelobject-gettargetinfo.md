@@ -7,6 +7,7 @@ ms.date: 08/09/2018
 keywords: ["IModelObject::GetTargetInfo"]
 f1_keywords:
  - "dbgmodel/IModelObject.GetTargetInfo"
+ - "IModelObject.GetTargetInfo"
 ms.keywords: IModelObject::GetTargetInfo, GetTargetInfo, IModelObject.GetTargetInfo, IModelObject::GetTargetInfo, IModelObject.GetTargetInfo
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IModelObject.GetTargetInfo
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

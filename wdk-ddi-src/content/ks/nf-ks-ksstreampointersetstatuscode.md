@@ -10,6 +10,7 @@ keywords: ["KsStreamPointerSetStatusCode function"]
 ms.keywords: KsStreamPointerSetStatusCode, KsStreamPointerSetStatusCode function [Streaming Media Devices], avfunc_48c373d0-2d32-4ad3-b8de-3008e2e11f59.xml, ks/KsStreamPointerSetStatusCode, stream.ksstreampointersetstatuscode
 f1_keywords:
  - "ks/KsStreamPointerSetStatusCode"
+ - "KsStreamPointerSetStatusCode"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsStreamPointerSetStatusCode
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["ST_PARAMETER_DATA structure"]
 ms.keywords: "*PST_PARAMETER_DATA, PST_PARAMETER_DATA, PST_PARAMETER_DATA structure pointer [Storage Devices], ST_PARAMETER_DATA, ST_PARAMETER_DATA structure [Storage Devices], scsi/PST_PARAMETER_DATA, scsi/ST_PARAMETER_DATA, storage.st_parameter_data"
 f1_keywords:
  - "scsi/ST_PARAMETER_DATA"
+ - "ST_PARAMETER_DATA"
 req.header: scsi.h
 req.include-header: Minitape.h, Storport.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - scsi.h
 api_name:
 - ST_PARAMETER_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: ST_PARAMETER_DATA, *PST_PARAMETER_DATA
 ---

@@ -10,6 +10,7 @@ keywords: ["IOCTL_SMARTCARD_EJECT IOCTL"]
 ms.keywords: IOCTL_SMARTCARD_EJECT, IOCTL_SMARTCARD_EJECT control, IOCTL_SMARTCARD_EJECT control code [Smart Card Reader Devices], scioctls_e12f239a-b997-4af6-bace-92e9c65c88b6.xml, smartcrd.ioctl_smartcard_eject, winsmcrd/IOCTL_SMARTCARD_EJECT
 f1_keywords:
  - "winsmcrd/IOCTL_SMARTCARD_EJECT"
+ - "IOCTL_SMARTCARD_EJECT"
 req.header: winsmcrd.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Winsmcrd.h
 api_name:
 - IOCTL_SMARTCARD_EJECT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

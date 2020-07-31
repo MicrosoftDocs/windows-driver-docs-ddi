@@ -9,6 +9,7 @@ keywords: ["D3DKMTShareObjects function"]
 ms.keywords: D3DKMTShareObjects, D3DKMTShareObjects function [Display Devices], d3dkmthk/D3DKMTShareObjects, display.d3dkmtshareobjects
 f1_keywords:
  - "d3dkmthk/D3DKMTShareObjects"
+ - "D3DKMTShareObjects"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -38,8 +39,6 @@ api_location:
 - API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 - D3DKMTShareObjects
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

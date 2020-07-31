@@ -10,6 +10,7 @@ keywords: ["WUDF_INTERRUPT_CONFIG_INIT function"]
 ms.keywords: WUDF_INTERRUPT_CONFIG_INIT, WUDF_INTERRUPT_CONFIG_INIT function, umdf.wudf_interrupt_config_init, wdf.wudf_interrupt_config_init, wudfinterrupt/WUDF_INTERRUPT_CONFIG_INIT
 f1_keywords:
  - "wudfinterrupt/WUDF_INTERRUPT_CONFIG_INIT"
+ - "WUDF_INTERRUPT_CONFIG_INIT"
 req.header: wudfinterrupt.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wudfinterrupt.h
 api_name:
 - WUDF_INTERRUPT_CONFIG_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

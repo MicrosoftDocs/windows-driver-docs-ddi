@@ -10,6 +10,7 @@ keywords: ["WdfRequestSetCompletionRoutine function"]
 ms.keywords: DFRequestObjectRef_4dea9104-1bfd-4add-b991-f02d57f840cb.xml, WdfRequestSetCompletionRoutine, WdfRequestSetCompletionRoutine method, kmdf.wdfrequestsetcompletionroutine, wdf.wdfrequestsetcompletionroutine, wdfrequest/WdfRequestSetCompletionRoutine
 f1_keywords:
  - "wdfrequest/WdfRequestSetCompletionRoutine"
+ - "WdfRequestSetCompletionRoutine"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfRequestSetCompletionRoutine
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

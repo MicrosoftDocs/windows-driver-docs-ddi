@@ -10,6 +10,7 @@ keywords: ["MmIsDriverVerifying function"]
 ms.keywords: MmIsDriverVerifying, MmIsDriverVerifying routine [Kernel-Mode Driver Architecture], k106_50d610e1-b3ae-41c5-a696-13ab0cf314b6.xml, kernel.mmisdriververifying, wdm/MmIsDriverVerifying
 f1_keywords:
  - "wdm/MmIsDriverVerifying"
+ - "MmIsDriverVerifying"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - MmIsDriverVerifying
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

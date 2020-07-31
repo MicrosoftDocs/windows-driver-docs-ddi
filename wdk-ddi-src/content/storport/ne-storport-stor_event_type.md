@@ -12,6 +12,7 @@ ms.keywords: STOR_EVENT_TYPE, STOR_EVENT_TYPE, *PSTOR_EVENT_TYPE,
 req.header: storport.h
 f1_keywords:
  - "storport/STOR_EVENT_TYPE"
+ - "STOR_EVENT_TYPE"
 req.include-header:
 req.target-type:
 req.target-min-winverclnt: Windows 10, version 2004

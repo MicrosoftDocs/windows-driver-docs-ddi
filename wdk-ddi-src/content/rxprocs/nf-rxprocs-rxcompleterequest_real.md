@@ -10,6 +10,7 @@ keywords: ["RxCompleteRequest_Real function"]
 ms.keywords: RxCompleteRequest_Real, RxCompleteRequest_Real function [Installable File System Drivers], ifsk.rxcompleterequest_real, rxprocs/RxCompleteRequest_Real, rxref_9d779281-7e95-45b7-a633-62a4280a6bea.xml
 f1_keywords:
  - "rxprocs/RxCompleteRequest_Real"
+ - "RxCompleteRequest_Real"
 req.header: rxprocs.h
 req.include-header: Rxprocs.h, Rxcontx.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - rxprocs.h
 api_name:
 - RxCompleteRequest_Real
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IPrinterQueue interface"]
 ms.keywords: IPrinterQueue, IPrinterQueue interface [Print Devices], IPrinterQueue interface [Print Devices],described, print.iprinterqueue_interface, printerextension/IPrinterQueue
 f1_keywords:
  - "printerextension/IPrinterQueue"
+ - "IPrinterQueue"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Printerextension.h
 api_name:
 - IPrinterQueue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

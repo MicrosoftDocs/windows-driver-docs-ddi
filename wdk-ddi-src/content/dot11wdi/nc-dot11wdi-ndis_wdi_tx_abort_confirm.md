@@ -10,6 +10,7 @@ keywords: ["NDIS_WDI_TX_ABORT_CONFIRM callback function"]
 ms.keywords: NDIS_WDI_TX_ABORT_CONFIRM, NDIS_WDI_TX_ABORT_CONFIRM callback, NdisWdiTxAbortConfirm, NdisWdiTxAbortConfirm callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxAbortConfirm, netvista.ndiswditxabortconfirm
 f1_keywords:
  - "dot11wdi/NdisWdiTxAbortConfirm"
+ - "NdisWdiTxAbortConfirm"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dot11wdi.h
 api_name:
 - NdisWdiTxAbortConfirm
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IWDFIoRequest::GetDeviceIoControlParameters"]
 ms.keywords: GetDeviceIoControlParameters, GetDeviceIoControlParameters method, GetDeviceIoControlParameters method,IWDFIoRequest interface, IWDFIoRequest interface,GetDeviceIoControlParameters method, IWDFIoRequest.GetDeviceIoControlParameters, IWDFIoRequest::GetDeviceIoControlParameters, UMDFRequestObjectRef_8a0fa5cd-af16-4599-8282-4ca0a81591ac.xml, umdf.iwdfiorequest_getdeviceiocontrolparameters, wdf.iwdfiorequest_getdeviceiocontrolparameters, wudfddi/IWDFIoRequest::GetDeviceIoControlParameters
 f1_keywords:
  - "wudfddi/IWDFIoRequest.GetDeviceIoControlParameters"
+ - "IWDFIoRequest.GetDeviceIoControlParameters"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFIoRequest.GetDeviceIoControlParameters
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["PVIDEO_HW_FIND_ADAPTER callback function"]
 ms.keywords: HwVidFindAdapter, HwVidFindAdapter callback function [Display Devices], PVIDEO_HW_FIND_ADAPTER, PVIDEO_HW_FIND_ADAPTER callback, VideoMiniport_Functions_f035d610-08b2-4403-b9dc-c069520d61bb.xml, display.hwvidfindadapter, video/HwVidFindAdapter
 f1_keywords:
  - "video/HwVidFindAdapter"
+ - "HwVidFindAdapter"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - video.h
 api_name:
 - HwVidFindAdapter
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

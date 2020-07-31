@@ -10,6 +10,7 @@ keywords: ["FltEnumerateVolumeInformation function"]
 ms.keywords: FltApiRef_e_to_o_2fec9273-857a-4c22-b970-27882f88d58d.xml, FltEnumerateVolumeInformation, FltEnumerateVolumeInformation routine [Installable File System Drivers], fltkernel/FltEnumerateVolumeInformation, ifsk.fltenumeratevolumeinformation
 f1_keywords:
  - "fltkernel/FltEnumerateVolumeInformation"
+ - "FltEnumerateVolumeInformation"
 req.header: fltkernel.h
 req.include-header: FltKernel.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - FltMgr.dll
 api_name:
 - FltEnumerateVolumeInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IBidiAsyncNotifyChannel::GetPrintName"]
 ms.keywords: GetPrintName, GetPrintName method [Print Devices], GetPrintName method [Print Devices],IBidiAsyncNotifyChannel interface, IBidiAsyncNotifyChannel interface [Print Devices],GetPrintName method, IBidiAsyncNotifyChannel.GetPrintName, IBidiAsyncNotifyChannel::GetPrintName, print.ibidiasyncnotifychannel_getprintname, prnasntp/IBidiAsyncNotifyChannel::GetPrintName
 f1_keywords:
  - "prnasntp/IBidiAsyncNotifyChannel.GetPrintName"
+ - "IBidiAsyncNotifyChannel.GetPrintName"
 req.header: prnasntp.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Prnasntp.h
 api_name:
 - IBidiAsyncNotifyChannel.GetPrintName
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

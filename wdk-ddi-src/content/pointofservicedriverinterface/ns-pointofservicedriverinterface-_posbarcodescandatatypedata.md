@@ -10,6 +10,7 @@ keywords: ["_PosBarcodeScanDataTypeData structure"]
 ms.keywords: PosBarcodeScanDataTypeData, PosBarcodeScanDataTypeData structure, _PosBarcodeScanDataTypeData, pointofservicedriverinterface/PosBarcodeScanDataTypeData, pos.posbarcodescandatatypedata
 f1_keywords:
  - "pointofservicedriverinterface/PosBarcodeScanDataTypeData"
+ - "PosBarcodeScanDataTypeData"
 req.header: pointofservicedriverinterface.h
 req.include-header: PointOfServiceDriverInterface.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - PointOfServiceDriverInterface.h
 api_name:
 - PosBarcodeScanDataTypeData
-product:
-- Windows
 targetos: Windows
 req.typenames: PosBarcodeScanDataTypeData
 ---

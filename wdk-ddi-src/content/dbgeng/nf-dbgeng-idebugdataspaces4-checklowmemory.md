@@ -10,6 +10,7 @@ keywords: ["IDebugDataSpaces4::CheckLowMemory"]
 ms.keywords: CheckLowMemory, CheckLowMemory method [Windows Debugging], CheckLowMemory method [Windows Debugging],IDebugDataSpaces interface, CheckLowMemory method [Windows Debugging],IDebugDataSpaces2 interface, CheckLowMemory method [Windows Debugging],IDebugDataSpaces3 interface, CheckLowMemory method [Windows Debugging],IDebugDataSpaces4 interface, IDebugDataSpaces interface [Windows Debugging],CheckLowMemory method, IDebugDataSpaces2 interface [Windows Debugging],CheckLowMemory method, IDebugDataSpaces2::CheckLowMemory, IDebugDataSpaces3 interface [Windows Debugging],CheckLowMemory method, IDebugDataSpaces3::CheckLowMemory, IDebugDataSpaces4 interface [Windows Debugging],CheckLowMemory method, IDebugDataSpaces4.CheckLowMemory, IDebugDataSpaces4::CheckLowMemory, IDebugDataSpaces::CheckLowMemory, IDebugDataSpaces_6682f39e-295a-4dae-b8a3-d83b1d5e41be.xml, dbgeng/IDebugDataSpaces2::CheckLowMemory, dbgeng/IDebugDataSpaces3::CheckLowMemory, dbgeng/IDebugDataSpaces4::CheckLowMemory, dbgeng/IDebugDataSpaces::CheckLowMemory, debugger.checklowmemory
 f1_keywords:
  - "dbgeng/IDebugDataSpaces.CheckLowMemory"
+ - "IDebugDataSpaces.CheckLowMemory"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -39,8 +40,6 @@ api_name:
 - IDebugDataSpaces2.CheckLowMemory
 - IDebugDataSpaces3.CheckLowMemory
 - IDebugDataSpaces4.CheckLowMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["FsRtlLookupPerStreamContextInternal function"]
 ms.keywords: FsRtlLookupPerStreamContextInternal, FsRtlLookupPerStreamContextInternal function [Installable File System Drivers], fsrtlref_872d7113-0cde-4ac9-a504-fedca6aa51e7.xml, ifsk.fsrtllookupperstreamcontextinternal, ntifs/FsRtlLookupPerStreamContextInternal
 f1_keywords:
  - "ntifs/FsRtlLookupPerStreamContextInternal"
+ - "FsRtlLookupPerStreamContextInternal"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - FsRtlLookupPerStreamContextInternal
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

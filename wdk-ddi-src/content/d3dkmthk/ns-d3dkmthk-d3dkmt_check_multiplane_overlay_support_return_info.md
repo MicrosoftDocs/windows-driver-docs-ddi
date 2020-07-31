@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMT_CHECK_MULTIPLANE_OVERLAY_SUPPORT_RETURN_INFO structure"]
 f1_keywords:
  - "d3dkmthk/D3DKMT_CHECK_MULTIPLANE_OVERLAY_SUPPORT_RETURN_INFO"
+ - "D3DKMT_CHECK_MULTIPLANE_OVERLAY_SUPPORT_RETURN_INFO"
 ms.keywords: D3DKMT_CHECK_MULTIPLANE_OVERLAY_SUPPORT_RETURN_INFO, D3DKMT_CHECK_MULTIPLANE_OVERLAY_SUPPORT_RETURN_INFO, 
 req.header: d3dkmthk.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - d3dkmthk.h
 api_name: 
 - D3DKMT_CHECK_MULTIPLANE_OVERLAY_SUPPORT_RETURN_INFO
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

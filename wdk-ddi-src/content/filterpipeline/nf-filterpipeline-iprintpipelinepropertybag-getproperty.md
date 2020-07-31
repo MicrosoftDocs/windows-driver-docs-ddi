@@ -10,6 +10,7 @@ keywords: ["IPrintPipelinePropertyBag::GetProperty"]
 ms.keywords: GetProperty, GetProperty method [Print Devices], GetProperty method [Print Devices],IPrintPipelinePropertyBag interface, IPrintPipelinePropertyBag interface [Print Devices],GetProperty method, IPrintPipelinePropertyBag.GetProperty, IPrintPipelinePropertyBag::GetProperty, filterpipeline/IPrintPipelinePropertyBag::GetProperty, filterpipeline_6a2e804b-b8dd-4e20-a71a-7817181b825c.xml, print.iprintpipelinepropertybag_getproperty
 f1_keywords:
  - "filterpipeline/IPrintPipelinePropertyBag.GetProperty"
+ - "IPrintPipelinePropertyBag.GetProperty"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - filterpipeline.h
 api_name:
 - IPrintPipelinePropertyBag.GetProperty
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

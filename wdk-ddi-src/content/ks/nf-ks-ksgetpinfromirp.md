@@ -10,6 +10,7 @@ keywords: ["KsGetPinFromIrp function"]
 ms.keywords: KsGetPinFromIrp, KsGetPinFromIrp function [Streaming Media Devices], avfunc_fa403f21-cccb-4a57-b40a-e7531feac721.xml, ks/KsGetPinFromIrp, stream.ksgetpinfromirp
 f1_keywords:
  - "ks/KsGetPinFromIrp"
+ - "KsGetPinFromIrp"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsGetPinFromIrp
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

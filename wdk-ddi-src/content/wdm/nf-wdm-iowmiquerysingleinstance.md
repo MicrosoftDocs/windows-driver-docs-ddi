@@ -10,6 +10,7 @@ keywords: ["IoWMIQuerySingleInstance function"]
 ms.keywords: IoWMIQuerySingleInstance, IoWMIQuerySingleInstance routine [Kernel-Mode Driver Architecture], k104_ef4cfbd8-cca3-4ec0-99cd-3715c2ddf52f.xml, kernel.iowmiquerysingleinstance, wdm/IoWMIQuerySingleInstance
 f1_keywords:
  - "wdm/IoWMIQuerySingleInstance"
+ - "IoWMIQuerySingleInstance"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoWMIQuerySingleInstance
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

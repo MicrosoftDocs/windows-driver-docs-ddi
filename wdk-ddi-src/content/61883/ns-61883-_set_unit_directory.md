@@ -10,6 +10,7 @@ keywords: ["_SET_UNIT_DIRECTORY structure"]
 ms.keywords: "*PSET_UNIT_DIRECTORY, 61883/PSET_UNIT_DIRECTORY, 61883/SET_UNIT_DIRECTORY, IEEE.set_unit_directory, PSET_UNIT_DIRECTORY, PSET_UNIT_DIRECTORY structure pointer [Buses], SET_UNIT_DIRECTORY, SET_UNIT_DIRECTORY structure [Buses], _SET_UNIT_DIRECTORY"
 f1_keywords:
  - "61883/SET_UNIT_DIRECTORY"
+ - "SET_UNIT_DIRECTORY"
 req.header: 61883.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - 61883.h
 api_name:
 - SET_UNIT_DIRECTORY
-product:
-- Windows
 targetos: Windows
 req.typenames: SET_UNIT_DIRECTORY, *PSET_UNIT_DIRECTORY
 ---

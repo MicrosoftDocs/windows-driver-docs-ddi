@@ -10,6 +10,7 @@ keywords: ["_DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS structure"]
 ms.keywords: DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS, DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS structure [Display Devices], DmStructs_6e80579a-8a17-47c0-b877-1e7712de2f04.xml, _DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS, d3dkmdt/DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS, display.dxgkmdt_opm_set_hdcp_srm_parameters
 f1_keywords:
  - "d3dkmdt/DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS"
+ - "DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS"
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dkmdt.h
 api_name:
 - DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS
 ---

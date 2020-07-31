@@ -10,6 +10,7 @@ keywords: ["IPortClsNotifications::FreeNotificationBuffer"]
 ms.keywords: FreeNotificationBuffer, FreeNotificationBuffer method [Audio Devices], FreeNotificationBuffer method [Audio Devices],IPortClsNotifications interface, IPortClsNotifications interface [Audio Devices],FreeNotificationBuffer method, IPortClsNotifications.FreeNotificationBuffer, IPortClsNotifications::FreeNotificationBuffer, audio.iportclsnotifications_freenotification, portcls/IPortClsNotifications::FreeNotificationBuffer
 f1_keywords:
  - "portcls/IPortClsNotifications.FreeNotificationBuffer"
+ - "IPortClsNotifications.FreeNotificationBuffer"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Portcls.dll
 api_name:
 - IPortClsNotifications.FreeNotificationBuffer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

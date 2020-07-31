@@ -10,6 +10,7 @@ keywords: ["IKsDeviceFunctions::RegisterAdapterObjectEx"]
 ms.keywords: IKsDeviceFunctions interface [Streaming Media Devices],RegisterAdapterObjectEx method, IKsDeviceFunctions.RegisterAdapterObjectEx, IKsDeviceFunctions::RegisterAdapterObjectEx, RegisterAdapterObjectEx, RegisterAdapterObjectEx method [Streaming Media Devices], RegisterAdapterObjectEx method [Streaming Media Devices],IKsDeviceFunctions interface, avintfc_ffa27a2d-8330-498f-bec2-dbde3c665671.xml, ks/IKsDeviceFunctions::RegisterAdapterObjectEx, stream.iksdevicefunctions_registeradapterobjectex
 f1_keywords:
  - "ks/IKsDeviceFunctions.RegisterAdapterObjectEx"
+ - "IKsDeviceFunctions.RegisterAdapterObjectEx"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - IKsDeviceFunctions.RegisterAdapterObjectEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

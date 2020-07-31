@@ -10,6 +10,7 @@ keywords: ["KsGetParent function"]
 ms.keywords: KsGetParent, KsGetParent function [Streaming Media Devices], avfunc_da3c1932-98b1-4f29-8b5a-4663077759e9.xml, ks/KsGetParent, stream.ksgetparent
 f1_keywords:
  - "ks/KsGetParent"
+ - "KsGetParent"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsGetParent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

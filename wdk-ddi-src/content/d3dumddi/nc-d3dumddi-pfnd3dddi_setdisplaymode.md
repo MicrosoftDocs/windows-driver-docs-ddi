@@ -29,6 +29,7 @@ targetos: Windows
 req.typenames: 
 f1_keywords:
  - "d3dumddi/SetDisplayMode"
+ - "SetDisplayMode"
 topic_type:
  - APIRef
  - kbSyntax

@@ -10,6 +10,7 @@ keywords: ["IPrintCoreHelperUni2::GetNamedCommand"]
 ms.keywords: GetNamedCommand, GetNamedCommand method [Print Devices], GetNamedCommand method [Print Devices],IPrintCoreHelperUni2 interface, IPrintCoreHelperUni2 interface [Print Devices],GetNamedCommand method, IPrintCoreHelperUni2.GetNamedCommand, IPrintCoreHelperUni2::GetNamedCommand, prcomoem/IPrintCoreHelperUni2::GetNamedCommand, print.iprintcorehelperuni2_getnamedcommand
 f1_keywords:
  - "prcomoem/IPrintCoreHelperUni2.GetNamedCommand"
+ - "IPrintCoreHelperUni2.GetNamedCommand"
 req.header: prcomoem.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - prcomoem.h
 api_name:
 - IPrintCoreHelperUni2.GetNamedCommand
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

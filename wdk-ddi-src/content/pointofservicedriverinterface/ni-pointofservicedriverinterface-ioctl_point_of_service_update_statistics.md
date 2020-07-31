@@ -10,6 +10,7 @@ keywords: ["IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS IOCTL"]
 ms.keywords: IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS, IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS control, IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS, pos.ioctl_point_of_service_update_statistics
 f1_keywords:
  - "pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS"
+ - "IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS"
 req.header: pointofservicedriverinterface.h
 req.include-header: Pointofservicedriverinterface.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pointofservicedriverinterface.h
 api_name:
 - IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

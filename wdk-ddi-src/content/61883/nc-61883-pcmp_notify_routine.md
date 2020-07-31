@@ -10,6 +10,7 @@ keywords: ["PCMP_NOTIFY_ROUTINE callback function"]
 ms.keywords: 61883/CmpNotifyRoutine, CmpNotifyRoutine, CmpNotifyRoutine callback function, IEEE.pcmp_notify_routine, PCMP_NOTIFY_ROUTINE, PCMP_NOTIFY_ROUTINE callback
 f1_keywords:
  - "61883/CmpNotifyRoutine"
+ - "CmpNotifyRoutine"
 req.header: 61883.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - 61883.h
 api_name:
 - CmpNotifyRoutine
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

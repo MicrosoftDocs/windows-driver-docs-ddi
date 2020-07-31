@@ -10,6 +10,7 @@ keywords: ["RxCeFreeIrp function"]
 ms.keywords: RxCeFreeIrp, RxCeFreeIrp function [Installable File System Drivers], ifsk.rxcefreeirp, rxce/RxCeFreeIrp, rxref_93b8da8d-d9fe-41e3-8423-5b3d8102f7a7.xml
 f1_keywords:
  - "rxce/RxCeFreeIrp"
+ - "RxCeFreeIrp"
 req.header: rxce.h
 req.include-header: Rxce.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - rxce.h
 api_name:
 - RxCeFreeIrp
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

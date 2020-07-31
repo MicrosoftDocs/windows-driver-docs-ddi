@@ -10,6 +10,7 @@ ms.date: 10/04/2019
 keywords: ["NET_WAKE_SOURCE_TYPE enumeration"]
 f1_keywords:
  - "netwakesource/NET_WAKE_SOURCE_TYPE"
+ - "NET_WAKE_SOURCE_TYPE"
 ms.keywords: NET_WAKE_SOURCE_TYPE, NET_WAKE_SOURCE_TYPE, 
 req.header: netwakesource.h
 req.include-header:

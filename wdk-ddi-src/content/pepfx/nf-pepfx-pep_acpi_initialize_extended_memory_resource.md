@@ -10,6 +10,7 @@ keywords: ["PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE function"]
 ms.keywords: PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE, PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE function [Kernel-Mode Driver Architecture], kernel.pep_acpi_initialize_extended_memory_resource, pepfx/PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE
 f1_keywords:
  - "pepfx/PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE"
+ - "PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["DebugCommandException function"]
 ms.keywords: DebugCommandException, DebugCommandException function [Windows Debugging], dbgeng/DebugCommandException, debugger.debugcommandexception
 f1_keywords:
  - "dbgeng/DebugCommandException"
+ - "DebugCommandException"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.dll
 api_name:
 - DebugCommandException
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

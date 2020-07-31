@@ -10,6 +10,7 @@ keywords: ["_NFC_CX_HOST_ACTION enumeration"]
 ms.keywords: "*PNFC_CX_HOST_ACTION, HostActionRestart, HostActionStart, HostActionStop, HostActionUnload, NFC_CX_HOST_ACTION, NFC_CX_HOST_ACTION enumeration [Near-Field Proximity Drivers], _NFC_CX_HOST_ACTION, nfccx/HostActionRestart, nfccx/HostActionStart, nfccx/HostActionStop, nfccx/HostActionUnload, nfccx/NFC_CX_HOST_ACTION, nfpdrivers.nfc_cx_host_action"
 f1_keywords:
  - "nfccx/NFC_CX_HOST_ACTION"
+ - "NFC_CX_HOST_ACTION"
 req.header: nfccx.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - nfccx.h
 api_name:
 - NFC_CX_HOST_ACTION
-product:
-- Windows
 targetos: Windows
 req.typenames: NFC_CX_HOST_ACTION, *PNFC_CX_HOST_ACTION
 ---

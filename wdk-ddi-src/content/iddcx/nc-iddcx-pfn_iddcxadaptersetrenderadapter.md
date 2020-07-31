@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["PFN_IDDCXADAPTERSETRENDERADAPTER callback function"]
 f1_keywords:
  - "iddcx/PFN_IDDCXADAPTERSETRENDERADAPTER"
+ - "PFN_IDDCXADAPTERSETRENDERADAPTER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 req.header: iddcx.h

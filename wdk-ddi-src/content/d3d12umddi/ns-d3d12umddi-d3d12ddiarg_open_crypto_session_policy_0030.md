@@ -9,6 +9,7 @@ keywords: ["D3D12DDIARG_OPEN_CRYPTO_SESSION_POLICY_0030 structure"]
 ms.keywords: D3D12DDIARG_OPEN_CRYPTO_SESSION_POLICY_0030, D3D12DDIARG_OPEN_CRYPTO_SESSION_POLICY_0030 structure [Display Devices], d3d12umddi/D3D12DDIARG_OPEN_CRYPTO_SESSION_POLICY_0030, display.d3d12ddiarg-open-crypto-session-policy-0030
 f1_keywords:
  - "d3d12umddi/D3D12DDIARG_OPEN_CRYPTO_SESSION_POLICY_0030"
+ - "D3D12DDIARG_OPEN_CRYPTO_SESSION_POLICY_0030"
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3d12umddi.h
 api_name:
 - D3D12DDIARG_OPEN_CRYPTO_SESSION_POLICY_0030
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D12DDIARG_OPEN_CRYPTO_SESSION_POLICY_0030

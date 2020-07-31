@@ -10,6 +10,7 @@ keywords: ["OEMFontInstallerDlgProc function"]
 ms.keywords: OEMFontInstallerDlgProc, OEMFontInstallerDlgProc function [Print Devices], print.oemfontinstallerdlgproc, print_obsoletefunctions_63eb736f-a9cd-4caf-823e-87b927d09c7a.xml, printoem/OEMFontInstallerDlgProc
 f1_keywords:
  - "printoem/OEMFontInstallerDlgProc"
+ - "OEMFontInstallerDlgProc"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - printoem.h
 api_name:
 - OEMFontInstallerDlgProc
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

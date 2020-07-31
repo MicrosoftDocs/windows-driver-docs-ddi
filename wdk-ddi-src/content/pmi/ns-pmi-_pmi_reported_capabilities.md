@@ -10,6 +10,7 @@ keywords: ["_PMI_REPORTED_CAPABILITIES structure"]
 ms.keywords: "*PPMI_REPORTED_CAPABILITIES, PMI_REPORTED_CAPABILITIES, PMI_REPORTED_CAPABILITIES structure [Power Metering and Budgeting Devices], PPMI_REPORTED_CAPABILITIES, PPMI_REPORTED_CAPABILITIES structure pointer [Power Metering and Budgeting Devices], PowerMeterRef_9c4ec041-69a6-4397-8620-93b17615f084.xml, _PMI_REPORTED_CAPABILITIES, pmi/PMI_REPORTED_CAPABILITIES, pmi/PPMI_REPORTED_CAPABILITIES, powermeter.pmi_reported_capabilities"
 f1_keywords:
  - "pmi/PMI_REPORTED_CAPABILITIES"
+ - "PMI_REPORTED_CAPABILITIES"
 req.header: pmi.h
 req.include-header: Pmi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pmi.h
 api_name:
 - PMI_REPORTED_CAPABILITIES
-product:
-- Windows
 targetos: Windows
 req.typenames: PMI_REPORTED_CAPABILITIES, *PPMI_REPORTED_CAPABILITIES
 ---

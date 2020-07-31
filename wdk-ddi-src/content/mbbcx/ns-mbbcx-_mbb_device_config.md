@@ -8,6 +8,7 @@ ms.date: 07/02/2018
 keywords: ["_MBB_DEVICE_CONFIG structure"]
 f1_keywords:
  - "mbbcx/_MBB_DEVICE_CONFIG"
+ - "_MBB_DEVICE_CONFIG"
 ms.keywords: _MBB_DEVICE_CONFIG, MBB_DEVICE_CONFIG, *PMBB_DEVICE_CONFIG, 
 req.header: mbbcx.h
 req.include-header:
@@ -30,8 +31,6 @@ api_location:
 - mbbcx.h
 api_name: 
 - _MBB_DEVICE_CONFIG
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

@@ -10,6 +10,7 @@ keywords: ["_MSiSCSI_InitiatorLoginStatistics structure"]
 ms.keywords: "*PMSiSCSI_InitiatorLoginStatistics, MSiSCSI_InitiatorLoginStatistics, MSiSCSI_InitiatorLoginStatistics structure [Storage Devices], PMSiSCSI_InitiatorLoginStatistics, PMSiSCSI_InitiatorLoginStatistics structure pointer [Storage Devices], _MSiSCSI_InitiatorLoginStatistics, iscsiprf/MSiSCSI_InitiatorLoginStatistics, iscsiprf/PMSiSCSI_InitiatorLoginStatistics, storage.msiscsi_initiatorloginstatistics, structs-iSCSI_a19b84b5-d660-4005-a22d-2d4157eadab9.xml"
 f1_keywords:
  - "iscsiprf/MSiSCSI_InitiatorLoginStatistics"
+ - "MSiSCSI_InitiatorLoginStatistics"
 req.header: iscsiprf.h
 req.include-header: Iscsiprf.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - iscsiprf.h
 api_name:
 - MSiSCSI_InitiatorLoginStatistics
-product:
-- Windows
 targetos: Windows
 req.typenames: MSiSCSI_InitiatorLoginStatistics, *PMSiSCSI_InitiatorLoginStatistics
 ---

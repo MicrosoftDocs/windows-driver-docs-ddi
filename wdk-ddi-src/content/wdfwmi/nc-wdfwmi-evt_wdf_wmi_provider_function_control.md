@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_WMI_PROVIDER_FUNCTION_CONTROL callback function"]
 ms.keywords: DFWMIRef_2beaafe2-cb59-49cb-85dc-6ea2beff1b1e.xml, EVT_WDF_WMI_PROVIDER_FUNCTION_CONTROL, EVT_WDF_WMI_PROVIDER_FUNCTION_CONTROL callback, EvtWmiProviderFunctionControl, EvtWmiProviderFunctionControl callback function, kmdf.evtwmiproviderfunctioncontrol, wdf.evtwmiproviderfunctioncontrol, wdfwmi/EvtWmiProviderFunctionControl
 f1_keywords:
  - "wdfwmi/EvtWmiProviderFunctionControl"
+ - "EvtWmiProviderFunctionControl"
 req.header: wdfwmi.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - WdfWMI.h
 api_name:
 - EvtWmiProviderFunctionControl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

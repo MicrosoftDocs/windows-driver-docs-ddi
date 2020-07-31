@@ -10,6 +10,7 @@ keywords: ["_WWAN_PIN_ACTION structure"]
 ms.keywords: "*PWWAN_PIN_ACTION, PWWAN_PIN_ACTION, PWWAN_PIN_ACTION structure pointer [Network Drivers Starting with Windows Vista], WWAN_PIN_ACTION, WWAN_PIN_ACTION structure [Network Drivers Starting with Windows Vista], WwanRef_831c483c-8839-43a4-870d-f63ea3f78b61.xml, _WWAN_PIN_ACTION, netvista.wwan_pin_action, wwan/PWWAN_PIN_ACTION, wwan/WWAN_PIN_ACTION"
 f1_keywords:
  - "wwan/WWAN_PIN_ACTION"
+ - "WWAN_PIN_ACTION"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_PIN_ACTION
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_PIN_ACTION, *PWWAN_PIN_ACTION
 ---

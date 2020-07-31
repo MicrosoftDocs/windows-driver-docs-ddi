@@ -10,6 +10,7 @@ keywords: ["ClfsSetEndOfLog function"]
 ms.keywords: ClfsSetEndOfLog, ClfsSetEndOfLog routine [Kernel-Mode Driver Architecture], Clfs_408fe60c-e1bb-4d39-92ab-703eefe78c5c.xml, kernel.clfssetendoflog, wdm/ClfsSetEndOfLog
 f1_keywords:
  - "wdm/ClfsSetEndOfLog"
+ - "ClfsSetEndOfLog"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
 - ClfsSetEndOfLog
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

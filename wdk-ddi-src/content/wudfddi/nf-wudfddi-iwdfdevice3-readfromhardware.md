@@ -10,6 +10,7 @@ keywords: ["IWDFDevice3::ReadFromHardware"]
 ms.keywords: IWDFDevice3 interface,ReadFromHardware method, IWDFDevice3.ReadFromHardware, IWDFDevice3::ReadFromHardware, ReadFromHardware, ReadFromHardware method, ReadFromHardware method,IWDFDevice3 interface, umdf.iwdfdevice3_readfromhardware, wdf.iwdfdevice3_readfromhardware, wudfddi/IWDFDevice3::ReadFromHardware
 f1_keywords:
  - "wudfddi/IWDFDevice3.ReadFromHardware"
+ - "IWDFDevice3.ReadFromHardware"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFDevice3.ReadFromHardware
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

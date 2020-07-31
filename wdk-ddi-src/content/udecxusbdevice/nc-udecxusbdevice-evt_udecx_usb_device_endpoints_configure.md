@@ -10,6 +10,7 @@ keywords: ["EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE callback function"]
 ms.keywords: EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE, EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE callback, EvtUsbDeviceEndpointsConfigure, EvtUsbDeviceEndpointsConfigure callback function [Buses], buses.evt_udecx_usb_device_endpoints_configure, udecxusbdevice/EvtUsbDeviceEndpointsConfigure
 f1_keywords:
  - "udecxusbdevice/EvtUsbDeviceEndpointsConfigure"
+ - "EvtUsbDeviceEndpointsConfigure"
 req.header: udecxusbdevice.h
 req.include-header: Udecx.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - UdecxUsbDevice.h
 api_name:
 - EvtUsbDeviceEndpointsConfigure
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

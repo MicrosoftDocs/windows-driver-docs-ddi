@@ -10,6 +10,7 @@ keywords: ["IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS IOCTL"]
 ms.keywords: IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS, IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS control, IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS, pos.ioctl_point_of_service_retrieve_statistics
 f1_keywords:
  - "pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS"
+ - "IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS"
 req.header: pointofservicedriverinterface.h
 req.include-header: Pointofservicedriverinterface.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pointofservicedriverinterface.h
 api_name:
 - IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

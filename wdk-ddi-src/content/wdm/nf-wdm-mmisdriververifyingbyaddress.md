@@ -10,6 +10,7 @@ keywords: ["MmIsDriverVerifyingByAddress function"]
 ms.keywords: MmIsDriverVerifyingByAddress, MmIsDriverVerifyingByAddress routine [Kernel-Mode Driver Architecture], k106_37d22f13-de6a-4423-b148-9a7481570aaf.xml, kernel.mmisdriververifyingbyaddress, wdm/MmIsDriverVerifyingByAddress
 f1_keywords:
  - "wdm/MmIsDriverVerifyingByAddress"
+ - "MmIsDriverVerifyingByAddress"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - MmIsDriverVerifyingByAddress
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

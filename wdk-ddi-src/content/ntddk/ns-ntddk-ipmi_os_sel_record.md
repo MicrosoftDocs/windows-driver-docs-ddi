@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["IPMI_OS_SEL_RECORD structure"]
 f1_keywords:
  - "ntddk/IPMI_OS_SEL_RECORD"
+ - "IPMI_OS_SEL_RECORD"
 ms.keywords: IPMI_OS_SEL_RECORD, IPMI_OS_SEL_RECORD, *PIPMI_OS_SEL_RECORD, 
 req.header: ntddk.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["ZwLoadDriver function"]
 ms.keywords: NtLoadDriver, ZwLoadDriver, ZwLoadDriver routine [Kernel-Mode Driver Architecture], k111_b421f181-1a7d-4122-a73c-604f6b98686d.xml, kernel.zwloaddriver, wdm/NtLoadDriver, wdm/ZwLoadDriver
 f1_keywords:
  - "wdm/ZwLoadDriver"
+ - "ZwLoadDriver"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - ZwLoadDriver
 - NtLoadDriver
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

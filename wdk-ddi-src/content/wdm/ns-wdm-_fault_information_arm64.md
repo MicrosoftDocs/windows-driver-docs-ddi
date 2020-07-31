@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_FAULT_INFORMATION_ARM64 structure"]
 f1_keywords:
  - "wdm/_FAULT_INFORMATION_ARM64"
+ - "_FAULT_INFORMATION_ARM64"
 ms.keywords: _FAULT_INFORMATION_ARM64, FAULT_INFORMATION_ARM64, *PFAULT_INFORMATION_ARM64, 
 req.header: wdm.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - wdm.h
 api_name: 
 - _FAULT_INFORMATION_ARM64
-product:
-- Windows
 targetos: Windows
 ---
 

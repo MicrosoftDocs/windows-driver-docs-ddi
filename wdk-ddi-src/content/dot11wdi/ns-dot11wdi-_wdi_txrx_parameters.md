@@ -10,6 +10,7 @@ keywords: ["_WDI_TXRX_PARAMETERS structure"]
 ms.keywords: "*PWDI_TXRX_PARAMETERS, PWDI_TXRX_PARAMETERS, PWDI_TXRX_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], WDI_TXRX_PARAMETERS, WDI_TXRX_PARAMETERS structure [Network Drivers Starting with Windows Vista], _WDI_TXRX_PARAMETERS, dot11wdi/PWDI_TXRX_PARAMETERS, dot11wdi/WDI_TXRX_PARAMETERS, netvista.wdi_txrx_parameters, netvista.wifi_txrx_parameters"
 f1_keywords:
  - "dot11wdi/WDI_TXRX_PARAMETERS"
+ - "WDI_TXRX_PARAMETERS"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dot11wdi.h
 api_name:
 - WDI_TXRX_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: WDI_TXRX_PARAMETERS, *PWDI_TXRX_PARAMETERS
 ---

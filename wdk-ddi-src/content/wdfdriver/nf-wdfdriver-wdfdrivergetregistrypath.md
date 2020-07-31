@@ -10,6 +10,7 @@ keywords: ["WdfDriverGetRegistryPath function"]
 ms.keywords: DFDriverObjectRef_a21bcb6e-2211-4727-bb87-bb912f8a173b.xml, WdfDriverGetRegistryPath, WdfDriverGetRegistryPath method, kmdf.wdfdrivergetregistrypath, wdf.wdfdrivergetregistrypath, wdfdriver/WdfDriverGetRegistryPath
 f1_keywords:
  - "wdfdriver/WdfDriverGetRegistryPath"
+ - "WdfDriverGetRegistryPath"
 req.header: wdfdriver.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfDriverGetRegistryPath
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

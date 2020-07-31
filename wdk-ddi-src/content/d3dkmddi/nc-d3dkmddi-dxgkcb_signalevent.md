@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["DXGKCB_SIGNALEVENT callback function"]
 f1_keywords:
  - "d3dkmddi/DXGKCB_SIGNALEVENT"
+ - "DXGKCB_SIGNALEVENT"
 req.header: d3dkmddi.h
 req.include-header: d3dkmddi.h
 req.target-type:
@@ -32,8 +33,6 @@ api_location:
 - d3dkmddi.h
 api_name: 
 - DXGKCB_SIGNALEVENT
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

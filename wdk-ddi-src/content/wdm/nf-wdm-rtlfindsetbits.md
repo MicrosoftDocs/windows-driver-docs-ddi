@@ -10,6 +10,7 @@ keywords: ["RtlFindSetBits function"]
 ms.keywords: RtlFindSetBits, RtlFindSetBits routine [Kernel-Mode Driver Architecture], k109_67665139-638f-4dc5-b0b4-db3782c1f294.xml, kernel.rtlfindsetbits, wdm/RtlFindSetBits
 f1_keywords:
  - "wdm/RtlFindSetBits"
+ - "RtlFindSetBits"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlFindSetBits
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

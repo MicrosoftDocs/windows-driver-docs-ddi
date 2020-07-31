@@ -10,6 +10,7 @@ keywords: ["_PEP_PPM_QUERY_DISCRETE_PERF_STATES structure"]
 ms.keywords: "*PPEP_PPM_QUERY_DISCRETE_PERF_STATES, PEP_PPM_QUERY_DISCRETE_PERF_STATES, PEP_PPM_QUERY_DISCRETE_PERF_STATES structure [Kernel-Mode Driver Architecture], PPEP_PPM_QUERY_DISCRETE_PERF_STATES, PPEP_PPM_QUERY_DISCRETE_PERF_STATES structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_QUERY_DISCRETE_PERF_STATES, kernel.pep_ppm_query_discrete_perf_states, pepfx/PEP_PPM_QUERY_DISCRETE_PERF_STATES, pepfx/PPEP_PPM_QUERY_DISCRETE_PERF_STATES"
 f1_keywords:
  - "pep_x/PEP_PPM_QUERY_DISCRETE_PERF_STATES"
+ - "PEP_PPM_QUERY_DISCRETE_PERF_STATES"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Pepfx.h
 api_name:
 - PEP_PPM_QUERY_DISCRETE_PERF_STATES
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_PPM_QUERY_DISCRETE_PERF_STATES, *PPEP_PPM_QUERY_DISCRETE_PERF_STATES
 ---

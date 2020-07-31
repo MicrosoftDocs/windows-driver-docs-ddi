@@ -7,6 +7,7 @@ ms.date: 07/16/2018
 keywords: ["ScriptChangeKind enumeration"]
 f1_keywords:
  - "dbgmodel/ScriptChangeKind"
+ - "ScriptChangeKind"
 ms.keywords: ScriptChangeKind, , 
 req.header: dbgmodel.h
 req.include-header:
@@ -26,8 +27,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - ScriptChangeKind
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

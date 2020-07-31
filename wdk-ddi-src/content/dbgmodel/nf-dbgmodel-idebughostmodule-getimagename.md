@@ -7,6 +7,7 @@ ms.date: 09/18/2018
 keywords: ["IDebugHostModule::GetImageName"]
 f1_keywords:
  - "dbgmodel/IDebugHostModule.GetImageName"
+ - "IDebugHostModule.GetImageName"
 ms.keywords: IDebugHostModule::GetImageName, GetImageName, IDebugHostModule.GetImageName, IDebugHostModule::GetImageName, IDebugHostModule.GetImageName
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostModule.GetImageName
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

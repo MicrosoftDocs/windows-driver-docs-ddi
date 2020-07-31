@@ -10,6 +10,7 @@ keywords: ["RILOPERATORINFOSTATUS enumeration"]
 ms.keywords: RILOPERATORINFOSTATUS, RILOPERATORINFOSTATUS enumeration [Network Drivers Starting with Windows Vista], RIL_OPSTATUS_AVAILABLE, RIL_OPSTATUS_CURRENT, RIL_OPSTATUS_FORBIDDEN, RIL_OPSTATUS_MAX, netvista.riloperatorinfostatus, ntddrilapitypes/RILOPERATORINFOSTATUS, ntddrilapitypes/RIL_OPSTATUS_AVAILABLE, ntddrilapitypes/RIL_OPSTATUS_CURRENT, ntddrilapitypes/RIL_OPSTATUS_FORBIDDEN, ntddrilapitypes/RIL_OPSTATUS_MAX
 f1_keywords:
  - "rilapitypes/RILOPERATORINFOSTATUS"
+ - "RILOPERATORINFOSTATUS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILOPERATORINFOSTATUS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILOPERATORINFOSTATUS
 ---

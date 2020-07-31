@@ -10,6 +10,7 @@ keywords: ["IoInitializeWorkItem function"]
 ms.keywords: IoInitializeWorkItem, IoInitializeWorkItem routine [Kernel-Mode Driver Architecture], k104_06024bfe-5558-4039-a9b1-327895ba9b74.xml, kernel.ioinitializeworkitem, wdm/IoInitializeWorkItem
 f1_keywords:
  - "wdm/IoInitializeWorkItem"
+ - "IoInitializeWorkItem"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoInitializeWorkItem
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

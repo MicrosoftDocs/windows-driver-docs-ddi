@@ -10,6 +10,7 @@ keywords: ["PrintPropertyValue structure"]
 ms.keywords: PrintPropertyValue, PrintPropertyValue structure [Print Devices], print.printpropertyvalue, winspool/PrintPropertyValue
 f1_keywords:
  - "winspool/PrintPropertyValue"
+ - "PrintPropertyValue"
 req.header: winspool.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Winspool.h
 api_name:
 - PrintPropertyValue
-product:
-- Windows
 targetos: Windows
 req.typenames: PrintPropertyValue
 ---

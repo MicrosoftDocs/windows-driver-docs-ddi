@@ -10,6 +10,7 @@ keywords: ["_SECURITY_IMPERSONATION_LEVEL enumeration"]
 ms.keywords: SECURITY_IMPERSONATION_LEVEL, SECURITY_IMPERSONATION_LEVEL enumeration, SecurityAnonymous, SecurityDelegation, SecurityIdentification, SecurityImpersonation, _SECURITY_IMPERSONATION_LEVEL, umdf.security_impersonation_level, umdfstructs_f81ccb0e-4b8c-4a8a-bdd3-4b4a45a750ab.xml, wdf.security_impersonation_level, wudfddi/SECURITY_IMPERSONATION_LEVEL, wudfddi/SecurityAnonymous, wudfddi/SecurityDelegation, wudfddi/SecurityIdentification, wudfddi/SecurityImpersonation
 f1_keywords:
  - "wudfddi/SECURITY_IMPERSONATION_LEVEL"
+ - "SECURITY_IMPERSONATION_LEVEL"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wudfddi.h
 api_name:
 - SECURITY_IMPERSONATION_LEVEL
-product:
-- Windows
 targetos: Windows
 req.typenames: SECURITY_IMPERSONATION_LEVEL
 ---

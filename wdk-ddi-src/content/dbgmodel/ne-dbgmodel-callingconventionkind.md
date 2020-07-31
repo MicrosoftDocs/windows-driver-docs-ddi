@@ -7,6 +7,7 @@ ms.date: 10/05/2018
 keywords: ["CallingConventionKind enumeration"]
 f1_keywords:
  - "dbgmodel/CallingConventionKind"
+ - "CallingConventionKind"
 ms.keywords: CallingConventionKind, , 
 req.header: dbgmodel.h
 req.include-header:
@@ -26,8 +27,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - CallingConventionKind
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

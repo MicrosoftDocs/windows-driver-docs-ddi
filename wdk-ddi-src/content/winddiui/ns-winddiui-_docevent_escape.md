@@ -10,6 +10,7 @@ keywords: ["_DOCEVENT_ESCAPE structure"]
 ms.keywords: "*PDOCEVENT_ESCAPE, DOCEVENT_ESCAPE, DOCEVENT_ESCAPE structure [Print Devices], PDOCEVENT_ESCAPE, PDOCEVENT_ESCAPE structure pointer [Print Devices], _DOCEVENT_ESCAPE, print.docevent_escape, print_interface-graphics_943033df-71a2-4689-a9fb-abd9feb4ea0d.xml, winddiui/DOCEVENT_ESCAPE, winddiui/PDOCEVENT_ESCAPE"
 f1_keywords:
  - "winddiui/DOCEVENT_ESCAPE"
+ - "DOCEVENT_ESCAPE"
 req.header: winddiui.h
 req.include-header: Winddiui.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - winddiui.h
 api_name:
 - DOCEVENT_ESCAPE
-product:
-- Windows
 targetos: Windows
 req.typenames: DOCEVENT_ESCAPE, *PDOCEVENT_ESCAPE
 ---

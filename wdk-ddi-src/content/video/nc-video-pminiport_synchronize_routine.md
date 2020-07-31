@@ -10,6 +10,7 @@ keywords: ["PMINIPORT_SYNCHRONIZE_ROUTINE callback function"]
 ms.keywords: HwVidSynchronizeExecutionCallback, HwVidSynchronizeExecutionCallback callback function [Display Devices], PMINIPORT_SYNCHRONIZE_ROUTINE, PMINIPORT_SYNCHRONIZE_ROUTINE callback, VideoMiniport_Functions_98ebe64f-4ba9-475b-8095-b97dceaaf946.xml, display.hwvidsynchronizeexecutioncallback, video/HwVidSynchronizeExecutionCallback
 f1_keywords:
  - "video/HwVidSynchronizeExecutionCallback"
+ - "HwVidSynchronizeExecutionCallback"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - video.h
 api_name:
 - HwVidSynchronizeExecutionCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

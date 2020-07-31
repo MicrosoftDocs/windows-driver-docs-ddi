@@ -10,6 +10,7 @@ keywords: ["FwpmEngineClose0 function"]
 ms.keywords: FwpmEngineClose0, FwpmEngineClose0 function [Network Drivers Starting with Windows Vista], fwpmk/FwpmEngineClose0, netvista.fwpmengineclose0, wfp_ref_2_funct_2_fwpm_b01feaca-7c4a-44a9-aec4-f867508b0129.xml
 f1_keywords:
  - "fwpmk/FwpmEngineClose0"
+ - "FwpmEngineClose0"
 req.header: fwpmk.h
 req.include-header: Fwpmk.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - fwpkclnt.dll
 api_name:
 - FwpmEngineClose0
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

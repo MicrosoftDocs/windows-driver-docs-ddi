@@ -10,6 +10,7 @@ keywords: ["STORAGE_DEVICE_NUMBER_EX structure"]
 ms.keywords: "*PSTORAGE_DEVICE_NUMBER_EX, PSTORAGE_DEVICE_NUMBER_EX, PSTORAGE_DEVICE_NUMBER_EX structure pointer [Storage Devices], STORAGE_DEVICE_NUMBER_EX, STORAGE_DEVICE_NUMBER_EX structure [Storage Devices], _STORAGE_DEVICE_NUMBER_EX, ntddstor/PSTORAGE_DEVICE_NUMBER_EX, ntddstor/STORAGE_DEVICE_NUMBER_EX"
 f1_keywords:
  - "ntddstor/STORAGE_DEVICE_NUMBER_EX"
+ - "STORAGE_DEVICE_NUMBER_EX"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddstor.h
 api_name:
 - STORAGE_DEVICE_NUMBER_EX
-product:
-- Windows
 targetos: Windows
 req.typenames: STORAGE_DEVICE_NUMBER_EX, *PSTORAGE_DEVICE_NUMBER_EX
 ---

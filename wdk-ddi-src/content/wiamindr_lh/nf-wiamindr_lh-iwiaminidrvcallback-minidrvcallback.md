@@ -10,6 +10,7 @@ keywords: ["IWiaMiniDrvCallBack::MiniDrvCallback"]
 ms.keywords: CallBack_ab4a8e02-c505-49d4-8933-27428333a00d.xml, IWiaMiniDrvCallBack interface [Imaging Devices],MiniDrvCallback method, IWiaMiniDrvCallBack.MiniDrvCallback, IWiaMiniDrvCallBack::MiniDrvCallback, MiniDrvCallback, MiniDrvCallback method [Imaging Devices], MiniDrvCallback method [Imaging Devices],IWiaMiniDrvCallBack interface, image.iwiaminidrvcallback_minidrvcallback, wiamindr_lh/IWiaMiniDrvCallBack::MiniDrvCallback
 f1_keywords:
  - "wiamindr_lh/IWiaMiniDrvCallBack.MiniDrvCallback"
+ - "IWiaMiniDrvCallBack.MiniDrvCallback"
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wiamindr_lh.h
 api_name:
 - IWiaMiniDrvCallBack.MiniDrvCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

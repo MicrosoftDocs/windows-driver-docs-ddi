@@ -10,6 +10,7 @@ keywords: ["RIL3GPP2ISDNALERTING enumeration"]
 ms.keywords: RIL3GPP2ISDNALERTING, RIL3GPP2ISDNALERTING enumeration [Network Drivers Starting with Windows Vista], RIL_3GPP2ISDNALERTING_INTERGROUP, RIL_3GPP2ISDNALERTING_MAX, RIL_3GPP2ISDNALERTING_NORMAL, RIL_3GPP2ISDNALERTING_PINGRING, RIL_3GPP2ISDNALERTING_SPECIAL, netvista.ril3gpp2isdnalerting, ntddrilapitypes/RIL3GPP2ISDNALERTING, ntddrilapitypes/RIL_3GPP2ISDNALERTING_INTERGROUP, ntddrilapitypes/RIL_3GPP2ISDNALERTING_MAX, ntddrilapitypes/RIL_3GPP2ISDNALERTING_NORMAL, ntddrilapitypes/RIL_3GPP2ISDNALERTING_PINGRING, ntddrilapitypes/RIL_3GPP2ISDNALERTING_SPECIAL
 f1_keywords:
  - "rilapitypes/RIL3GPP2ISDNALERTING"
+ - "RIL3GPP2ISDNALERTING"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RIL3GPP2ISDNALERTING
-product:
-- Windows
 targetos: Windows
 req.typenames: RIL3GPP2ISDNALERTING
 ---

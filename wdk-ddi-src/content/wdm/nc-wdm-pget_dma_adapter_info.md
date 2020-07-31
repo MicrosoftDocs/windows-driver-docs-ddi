@@ -10,6 +10,7 @@ keywords: ["PGET_DMA_ADAPTER_INFO callback function"]
 ms.keywords: GetDmaAdapterInfo, GetDmaAdapterInfo callback function [Kernel-Mode Driver Architecture], PGET_DMA_ADAPTER_INFO, PGET_DMA_ADAPTER_INFO callback, kernel.getdmaadapterinfo, wdm/GetDmaAdapterInfo
 f1_keywords:
  - "wdm/GetDmaAdapterInfo"
+ - "GetDmaAdapterInfo"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - GetDmaAdapterInfo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

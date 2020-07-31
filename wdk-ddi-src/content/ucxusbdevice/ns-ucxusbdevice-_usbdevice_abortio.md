@@ -10,6 +10,7 @@ keywords: ["_USBDEVICE_ABORTIO structure"]
 ms.keywords: "*PUSBDEVICE_ABORTIO, P_USBDEVICE_ABORTIO, P_USBDEVICE_ABORTIO structure pointer [Buses], USBDEVICE_ABORTIO, USBDEVICE_ABORTIO structure [Buses], _USBDEVICE_ABORTIO, buses._usbdevice_abortio, ucxusbdevice/P_USBDEVICE_ABORTIO, ucxusbdevice/_USBDEVICE_ABORTIO"
 f1_keywords:
  - "ucxusbdevice/USBDEVICE_ABORTIO"
+ - "USBDEVICE_ABORTIO"
 req.header: ucxusbdevice.h
 req.include-header: Ucxclass.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ucxusbdevice.h
 api_name:
 - USBDEVICE_ABORTIO
-product:
-- Windows
 targetos: Windows
 req.typenames: USBDEVICE_ABORTIO, *PUSBDEVICE_ABORTIO
 ---

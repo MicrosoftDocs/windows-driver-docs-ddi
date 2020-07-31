@@ -10,6 +10,7 @@ keywords: ["EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION callback function"
 ms.keywords: EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION, EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION callback, EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION callback function [Sensor Devices], sensors.evt_sensor_driver_start_state_change_notification, sensorscx/EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION
 f1_keywords:
  - "sensorscx/EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION"
+ - "EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION"
 req.header: sensorscx.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - sensorscx.h
 api_name:
 - EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

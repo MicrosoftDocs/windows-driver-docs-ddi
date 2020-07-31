@@ -10,6 +10,7 @@ keywords: ["IKsInterfaceHandler interface"]
 ms.keywords: IKsInterfaceHandler, IKsInterfaceHandler interface [Streaming Media Devices], IKsInterfaceHandler interface [Streaming Media Devices],described, ksproxy/IKsInterfaceHandler, ksproxy_9d597bae-a5d7-4575-a4ac-983b827b0ae4.xml, stream.iksinterfacehandler
 f1_keywords:
  - "ksproxy/IKsInterfaceHandler"
+ - "IKsInterfaceHandler"
 req.header: ksproxy.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ksproxy.h
 api_name:
 - IKsInterfaceHandler
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -46,7 +45,7 @@ req.typenames:
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IKsInterfaceHandler</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsInterfaceHandler</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IKsInterfaceHandler</b> interface inherits from the <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsInterfaceHandler</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

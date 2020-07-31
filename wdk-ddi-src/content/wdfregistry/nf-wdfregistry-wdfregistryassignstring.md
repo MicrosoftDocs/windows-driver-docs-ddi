@@ -10,6 +10,7 @@ keywords: ["WdfRegistryAssignString function"]
 ms.keywords: DFRegKeyObjectRef_6b8641ef-885d-47f5-ad8b-afdd57a75c84.xml, WdfRegistryAssignString, WdfRegistryAssignString method, kmdf.wdfregistryassignstring, wdf.wdfregistryassignstring, wdfregistry/WdfRegistryAssignString
 f1_keywords:
  - "wdfregistry/WdfRegistryAssignString"
+ - "WdfRegistryAssignString"
 req.header: wdfregistry.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfRegistryAssignString
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

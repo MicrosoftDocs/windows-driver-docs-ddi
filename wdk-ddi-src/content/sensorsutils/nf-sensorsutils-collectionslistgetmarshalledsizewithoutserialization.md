@@ -7,6 +7,7 @@ ms.date: 08/08/2018
 keywords: ["CollectionsListGetMarshalledSizeWithoutSerialization function"]
 f1_keywords:
  - "sensorsutils/CollectionsListGetMarshalledSizeWithoutSerialization"
+ - "CollectionsListGetMarshalledSizeWithoutSerialization"
 tech.root: sensors
 ms.keywords: CollectionsListGetMarshalledSizeWithoutSerialization
 req.header: sensorsutils.h
@@ -34,8 +35,6 @@ api_location:
 - sensorsutils.h
 api_name: 
 - CollectionsListGetMarshalledSizeWithoutSerialization
-product:
-- Windows
 targetos: Windows
 
 

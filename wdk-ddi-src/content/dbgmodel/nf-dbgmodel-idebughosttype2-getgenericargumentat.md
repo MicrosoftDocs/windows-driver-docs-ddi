@@ -7,6 +7,7 @@ ms.date: 09/20/2018
 keywords: ["IDebugHostType2::GetGenericArgumentAt"]
 f1_keywords:
  - "dbgmodel/IDebugHostType2.GetGenericArgumentAt"
+ - "IDebugHostType2.GetGenericArgumentAt"
 ms.keywords: IDebugHostType2::GetGenericArgumentAt, GetGenericArgumentAt, IDebugHostType2.GetGenericArgumentAt, IDebugHostType2::GetGenericArgumentAt, IDebugHostType2.GetGenericArgumentAt
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostType2.GetGenericArgumentAt
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

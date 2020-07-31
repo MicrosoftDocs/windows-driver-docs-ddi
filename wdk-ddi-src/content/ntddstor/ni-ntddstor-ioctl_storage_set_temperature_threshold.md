@@ -10,6 +10,7 @@ keywords: ["IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD IOCTL"]
 ms.keywords: IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD, IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD control, IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD control code [Storage Devices], ntddstor/IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD, storage.ioctl_storage_set_temperature_threshold
 f1_keywords:
  - "ntddstor/IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD"
+ - "IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddstor.h
 api_name:
 - IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

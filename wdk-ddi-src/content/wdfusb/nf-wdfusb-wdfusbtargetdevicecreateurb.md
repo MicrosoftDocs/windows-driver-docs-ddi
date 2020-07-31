@@ -10,6 +10,7 @@ keywords: ["WdfUsbTargetDeviceCreateUrb function"]
 ms.keywords: WdfUsbTargetDeviceCreateUrb, WdfUsbTargetDeviceCreateUrb method, kmdf.wdfusbtargetdevicecreateurb, wdf.wdfusbtargetdevicecreateurb, wdfusb/WdfUsbTargetDeviceCreateUrb
 f1_keywords:
  - "wdfusb/WdfUsbTargetDeviceCreateUrb"
+ - "WdfUsbTargetDeviceCreateUrb"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfUsbTargetDeviceCreateUrb
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

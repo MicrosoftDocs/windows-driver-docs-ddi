@@ -10,6 +10,7 @@ keywords: ["_ROOTHUB_INFO structure"]
 ms.keywords: "*PROOTHUB_INFO, P_ROOTHUB_INFO, P_ROOTHUB_INFO structure pointer [Buses], ROOTHUB_INFO, ROOTHUB_INFO structure [Buses], _ROOTHUB_INFO, buses._roothub_info, ucxroothub/P_ROOTHUB_INFO, ucxroothub/_ROOTHUB_INFO"
 f1_keywords:
  - "ucxroothub/ROOTHUB_INFO"
+ - "ROOTHUB_INFO"
 req.header: ucxroothub.h
 req.include-header: Ucxclass.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ucxroothub.h
 api_name:
 - ROOTHUB_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: ROOTHUB_INFO, *PROOTHUB_INFO
 ---

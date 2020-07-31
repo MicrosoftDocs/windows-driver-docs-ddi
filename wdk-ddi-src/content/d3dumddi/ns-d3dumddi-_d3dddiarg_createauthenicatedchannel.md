@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_CREATEAUTHENICATEDCHANNEL structure"]
 ms.keywords: D3DDDIARG_CREATEAUTHENTICATEDCHANNEL, D3DDDIARG_CREATEAUTHENTICATEDCHANNEL structure [Display Devices], UMDisplayDriver_param_Structs_3cdac44d-7cac-43f6-80f5-dd601183fa8b.xml, _D3DDDIARG_CREATEAUTHENICATEDCHANNEL, d3dumddi/D3DDDIARG_CREATEAUTHENTICATEDCHANNEL, display.d3dddiarg_createauthenticatedchannel
 f1_keywords:
  - "d3dumddi/D3DDDIARG_CREATEAUTHENTICATEDCHANNEL"
+ - "D3DDDIARG_CREATEAUTHENTICATEDCHANNEL"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDIARG_CREATEAUTHENTICATEDCHANNEL
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_CREATEAUTHENTICATEDCHANNEL
 ---

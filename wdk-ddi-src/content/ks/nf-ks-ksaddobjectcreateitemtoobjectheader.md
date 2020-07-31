@@ -10,6 +10,7 @@ keywords: ["KsAddObjectCreateItemToObjectHeader function"]
 ms.keywords: KsAddObjectCreateItemToObjectHeader, KsAddObjectCreateItemToObjectHeader function [Streaming Media Devices], ks/KsAddObjectCreateItemToObjectHeader, ksfunc_de112daa-c37a-4d5b-b646-5fc45fd8ae1c.xml, stream.ksaddobjectcreateitemtoobjectheader
 f1_keywords:
  - "ks/KsAddObjectCreateItemToObjectHeader"
+ - "KsAddObjectCreateItemToObjectHeader"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsAddObjectCreateItemToObjectHeader
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

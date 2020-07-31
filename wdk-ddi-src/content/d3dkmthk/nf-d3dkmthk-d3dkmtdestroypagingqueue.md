@@ -9,6 +9,7 @@ keywords: ["D3DKMTDestroyPagingQueue function"]
 ms.keywords: D3DKMTDestroyPagingQueue, D3DKMTDestroyPagingQueue function [Display Devices], d3dkmthk/D3DKMTDestroyPagingQueue, display.d3dkmtdestroypagingqueue
 f1_keywords:
  - "d3dkmthk/D3DKMTDestroyPagingQueue"
+ - "D3DKMTDestroyPagingQueue"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 - D3DKMTDestroyPagingQueue
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

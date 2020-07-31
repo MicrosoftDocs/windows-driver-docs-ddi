@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_INTERRUPT_ISR callback function"]
 ms.keywords: DFInterruptObjectRef_0a8902c4-d292-418f-bab3-d7fc36d69fd5.xml, EVT_WDF_INTERRUPT_ISR, EVT_WDF_INTERRUPT_ISR callback, EvtInterruptIsr, EvtInterruptIsr callback function, kmdf.evtinterruptisr, wdf.evtinterruptisr, wdfinterrupt/EvtInterruptIsr
 f1_keywords:
  - "wdfinterrupt/EvtInterruptIsr"
+ - "EvtInterruptIsr"
 req.header: wdfinterrupt.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Wdfinterrupt.h
 api_name:
 - EvtInterruptIsr
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

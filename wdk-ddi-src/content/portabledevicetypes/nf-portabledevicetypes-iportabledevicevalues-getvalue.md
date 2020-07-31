@@ -10,6 +10,7 @@ keywords: ["IPortableDeviceValues::GetValue"]
 ms.keywords: GetValue, GetValue method, GetValue method,IPortableDeviceValues interface, IPortableDeviceValues interface,GetValue method, IPortableDeviceValues.GetValue, IPortableDeviceValues::GetValue, IPortableDeviceValuesGetValue, portabledevicetypes/IPortableDeviceValues::GetValue, wpddk.iportabledevicevalues_getvalue
 f1_keywords:
  - "portabledevicetypes/IPortableDeviceValues.GetValue"
+ - "IPortableDeviceValues.GetValue"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - PortableDeviceTypes.h
 api_name:
 - IPortableDeviceValues.GetValue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

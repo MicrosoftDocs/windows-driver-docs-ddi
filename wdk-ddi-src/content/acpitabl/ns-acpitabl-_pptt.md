@@ -7,6 +7,7 @@ ms.date: 10/01/2018
 keywords: ["_PPTT structure"]
 f1_keywords:
 - "acpitabl/_PPTT"
+ - "_PPTT"
 ms.keywords: _PPTT, PPTT, *PPPTT, 
 req.header: acpitabl.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - acpitabl.h
 api_name: 
 - _PPTT
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

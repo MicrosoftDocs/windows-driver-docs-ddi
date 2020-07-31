@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["OUR_GUID_ENTRY macro"]
 f1_keywords:
  - "amtvuids/OUR_GUID_ENTRY"
+ - "OUR_GUID_ENTRY"
 ms.keywords: OUR_GUID_ENTRY
 req.header: amtvuids.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - amtvuids.h
 api_name: 
 - OUR_GUID_ENTRY
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

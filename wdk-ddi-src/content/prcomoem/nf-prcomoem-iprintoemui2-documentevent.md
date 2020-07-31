@@ -10,6 +10,7 @@ keywords: ["IPrintOemUI2::DocumentEvent"]
 ms.keywords: DocumentEvent, DocumentEvent method [Print Devices], DocumentEvent method [Print Devices],IPrintOemUI2 interface, IPrintOemUI2 interface [Print Devices],DocumentEvent method, IPrintOemUI2.DocumentEvent, IPrintOemUI2::DocumentEvent, prcomoem/IPrintOemUI2::DocumentEvent, print.iprintoemui2_documentevent, print_unidrv-pscript_ui_03e403e4-7b60-413c-a8d2-025b3124f427.xml
 f1_keywords:
  - "prcomoem/IPrintOemUI2.DocumentEvent"
+ - "IPrintOemUI2.DocumentEvent"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - prcomoem.h
 api_name:
 - IPrintOemUI2.DocumentEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

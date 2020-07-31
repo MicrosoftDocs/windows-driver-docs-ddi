@@ -10,6 +10,7 @@ keywords: ["IDebugSystemObjects3::GetSystemIdsByIndex"]
 ms.keywords: GetSystemIdsByIndex, GetSystemIdsByIndex method [Windows Debugging], GetSystemIdsByIndex method [Windows Debugging],IDebugSystemObjects3 interface, GetSystemIdsByIndex method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects3 interface [Windows Debugging],GetSystemIdsByIndex method, IDebugSystemObjects3.GetSystemIdsByIndex, IDebugSystemObjects3::GetSystemIdsByIndex, IDebugSystemObjects4 interface [Windows Debugging],GetSystemIdsByIndex method, IDebugSystemObjects4::GetSystemIdsByIndex, IDebugSystemObjects_d1d7e689-407b-4d84-b1ce-75736b761089.xml, dbgeng/IDebugSystemObjects3::GetSystemIdsByIndex, dbgeng/IDebugSystemObjects4::GetSystemIdsByIndex, debugger.getsystemidsbyindex
 f1_keywords:
  - "dbgeng/IDebugSystemObjects3.GetSystemIdsByIndex"
+ - "IDebugSystemObjects3.GetSystemIdsByIndex"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IDebugSystemObjects3.GetSystemIdsByIndex
 - IDebugSystemObjects4.GetSystemIdsByIndex
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

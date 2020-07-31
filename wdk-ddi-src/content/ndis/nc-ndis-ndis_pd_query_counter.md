@@ -10,6 +10,7 @@ keywords: ["NDIS_PD_QUERY_COUNTER callback function"]
 ms.keywords: NDIS_PD_QUERY_COUNTER, NDIS_PD_QUERY_COUNTER callback, NdisPDQueryCounter, NdisPDQueryCounter callback function [Network Drivers Starting with Windows Vista], ndis/NdisPDQueryCounter, netvista.ndispdquerycounter
 f1_keywords:
  - "ndis/NdisPDQueryCounter"
+ - "NdisPDQueryCounter"
 req.header: ndis.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - NdisPDQueryCounter
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

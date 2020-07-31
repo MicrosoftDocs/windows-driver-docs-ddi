@@ -10,6 +10,7 @@ keywords: ["POFXCALLBACKPROCESSORIDLEVETO callback function"]
 ms.keywords: POFXCALLBACKPROCESSORIDLEVETO, ProcessorIdleVeto, ProcessorIdleVeto routine [Kernel-Mode Driver Architecture], ProcessorIdleVetoreadv, kernel.processoridleveto, pepfx/ProcessorIdleVeto
 f1_keywords:
  - "pep_x/ProcessorIdleVeto"
+ - "ProcessorIdleVeto"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - ProcessorIdleVeto
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

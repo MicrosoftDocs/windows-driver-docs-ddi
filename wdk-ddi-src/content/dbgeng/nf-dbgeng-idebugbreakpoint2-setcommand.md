@@ -10,6 +10,7 @@ keywords: ["IDebugBreakpoint2::SetCommand"]
 ms.keywords: ComOther_166ee15d-c9e1-466f-9337-a6d20e9355ee.xml, IDebugBreakpoint interface [Windows Debugging],SetCommand method, IDebugBreakpoint2 interface [Windows Debugging],SetCommand method, IDebugBreakpoint2.SetCommand, IDebugBreakpoint2::SetCommand, IDebugBreakpoint::SetCommand, SetCommand, SetCommand method [Windows Debugging], SetCommand method [Windows Debugging],IDebugBreakpoint interface, SetCommand method [Windows Debugging],IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint2::SetCommand, dbgeng/IDebugBreakpoint::SetCommand, debugger.setcommand
 f1_keywords:
  - "dbgeng/IDebugBreakpoint.SetCommand"
+ - "IDebugBreakpoint.SetCommand"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IDebugBreakpoint.SetCommand
 - IDebugBreakpoint2.SetCommand
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

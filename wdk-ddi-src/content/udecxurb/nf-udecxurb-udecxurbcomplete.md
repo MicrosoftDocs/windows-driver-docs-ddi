@@ -10,6 +10,7 @@ keywords: ["UdecxUrbComplete function"]
 ms.keywords: UdecxUrbComplete, UdecxUrbComplete function [Buses], buses.udecxurbcomplete, udecxurb/UdecxUrbComplete
 f1_keywords:
  - "udecxurb/UdecxUrbComplete"
+ - "UdecxUrbComplete"
 req.header: udecxurb.h
 req.include-header: Udecx.h
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 - Udecxstub.dll
 api_name:
 - UdecxUrbComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

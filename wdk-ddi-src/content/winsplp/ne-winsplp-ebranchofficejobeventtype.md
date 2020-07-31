@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["EBranchOfficeJobEventType enumeration"]
 f1_keywords:
  - "winsplp/EBranchOfficeJobEventType"
+ - "EBranchOfficeJobEventType"
 ms.keywords: EBranchOfficeJobEventType, EBranchOfficeJobEventType, 
 req.header: winsplp.h
 req.include-header:

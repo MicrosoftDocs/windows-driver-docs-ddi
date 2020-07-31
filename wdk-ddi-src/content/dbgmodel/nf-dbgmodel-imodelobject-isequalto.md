@@ -7,6 +7,7 @@ ms.date: 08/13/2018
 keywords: ["IModelObject::IsEqualTo"]
 f1_keywords:
  - "dbgmodel/IModelObject.IsEqualTo"
+ - "IModelObject.IsEqualTo"
 ms.keywords: IModelObject::IsEqualTo, IsEqualTo, IModelObject.IsEqualTo, IModelObject::IsEqualTo, IModelObject.IsEqualTo
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IModelObject.IsEqualTo
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

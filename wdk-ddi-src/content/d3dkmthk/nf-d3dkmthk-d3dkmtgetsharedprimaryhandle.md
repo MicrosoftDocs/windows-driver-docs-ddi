@@ -9,6 +9,7 @@ keywords: ["D3DKMTGetSharedPrimaryHandle function"]
 ms.keywords: D3DKMTGetSharedPrimaryHandle, D3DKMTGetSharedPrimaryHandle function [Display Devices], OpenGL_Functions_bb0d000e-4846-4851-a6c5-c70330ef8921.xml, d3dkmthk/D3DKMTGetSharedPrimaryHandle, display.d3dkmtgetsharedprimaryhandle
 f1_keywords:
  - "d3dkmthk/D3DKMTGetSharedPrimaryHandle"
+ - "D3DKMTGetSharedPrimaryHandle"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -38,8 +39,6 @@ api_location:
 - API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 - D3DKMTGetSharedPrimaryHandle
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

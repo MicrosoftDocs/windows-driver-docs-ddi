@@ -10,6 +10,7 @@ keywords: ["ZwQueryInformationTransactionManager function"]
 ms.keywords: NtQueryInformationTransactionManager, ZwQueryInformationTransactionManager, ZwQueryInformationTransactionManager routine [Kernel-Mode Driver Architecture], kernel.zwqueryinformationtransactionmanager, ktm_ref_3311322f-0cc0-4198-8c80-1b203403b080.xml, wdm/NtQueryInformationTransactionManager, wdm/ZwQueryInformationTransactionManager
 f1_keywords:
  - "wdm/ZwQueryInformationTransactionManager"
+ - "ZwQueryInformationTransactionManager"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - ZwQueryInformationTransactionManager
 - NtQueryInformationTransactionManager
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

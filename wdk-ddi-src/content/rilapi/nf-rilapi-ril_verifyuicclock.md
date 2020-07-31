@@ -10,6 +10,7 @@ keywords: ["RIL_VerifyUiccLock function"]
 ms.keywords: RIL_VerifyUiccLock, RIL_VerifyUiccLock method [Network Drivers Starting with Windows Vista], netvista.ril_verifyuicclock, rilapi/RIL_VerifyUiccLock
 f1_keywords:
  - "rilapi/RIL_VerifyUiccLock"
+ - "RIL_VerifyUiccLock"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_VerifyUiccLock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

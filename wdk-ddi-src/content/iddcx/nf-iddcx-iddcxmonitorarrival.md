@@ -10,6 +10,7 @@ keywords: ["IddCxMonitorArrival function"]
 ms.keywords: IddCxMonitorArrival, IddCxMonitorArrival method [Display Devices], display.iddcxmonitorarrival, iddcx/IddCxMonitorArrival
 f1_keywords:
  - "iddcx/IddCxMonitorArrival"
+ - "IddCxMonitorArrival"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - IddCx.dll
 api_name:
 - IddCxMonitorArrival
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

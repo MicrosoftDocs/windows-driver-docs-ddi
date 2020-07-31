@@ -10,6 +10,7 @@ keywords: ["IPrintCoreUI2::SetOptions"]
 ms.keywords: IPrintCoreUI2 interface [Print Devices],SetOptions method, IPrintCoreUI2.SetOptions, IPrintCoreUI2::SetOptions, SetOptions, SetOptions method [Print Devices], SetOptions method [Print Devices],IPrintCoreUI2 interface, prcomoem/IPrintCoreUI2::SetOptions, print.iprintcoreui2_setoptions, print_unidrv-pscript_ui_cbe90030-cfa8-4055-967e-86c5870b7353.xml
 f1_keywords:
  - "prcomoem/IPrintCoreUI2.SetOptions"
+ - "IPrintCoreUI2.SetOptions"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - prcomoem.h
 api_name:
 - IPrintCoreUI2.SetOptions
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

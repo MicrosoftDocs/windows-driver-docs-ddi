@@ -10,6 +10,7 @@ keywords: ["RILERRORDETAILS structure"]
 ms.keywords: "*LPRILERRORDETAILS, RILERRORDETAILS, RILERRORDETAILS structure [Network Drivers Starting with Windows Vista], netvista.rilerrordetails, ntddrilapitypes/RILERRORDETAILS"
 f1_keywords:
  - "rilapitypes/RILERRORDETAILS"
+ - "RILERRORDETAILS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILERRORDETAILS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILERRORDETAILS, *LPRILERRORDETAILS
 ---

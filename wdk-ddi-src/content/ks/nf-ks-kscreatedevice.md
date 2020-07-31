@@ -10,6 +10,7 @@ keywords: ["KsCreateDevice function"]
 ms.keywords: KsCreateDevice, KsCreateDevice function [Streaming Media Devices], avfunc_3a0ddeb1-7ea0-4e10-bc98-d761bbc5c2f4.xml, ks/KsCreateDevice, stream.kscreatedevice
 f1_keywords:
  - "ks/KsCreateDevice"
+ - "KsCreateDevice"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsCreateDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

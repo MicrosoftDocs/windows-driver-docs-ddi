@@ -10,6 +10,7 @@ keywords: ["ClfsLsnLess function"]
 ms.keywords: ClfsLsnLess, ClfsLsnLess routine [Kernel-Mode Driver Architecture], Clfs_5e0196f1-8244-4cf9-aa36-7359e52ff43b.xml, kernel.clfslsnless, wdm/ClfsLsnLess
 f1_keywords:
  - "wdm/ClfsLsnLess"
+ - "ClfsLsnLess"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
 - ClfsLsnLess
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

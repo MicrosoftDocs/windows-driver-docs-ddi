@@ -10,6 +10,7 @@ keywords: ["IPrintSchemaParameterInitializer::get_Value"]
 ms.keywords: IPrintSchemaParameterInitializer interface [Print Devices],Value property, IPrintSchemaParameterInitializer,get_Value, IPrintSchemaParameterInitializer.Value, IPrintSchemaParameterInitializer.get_Value, IPrintSchemaParameterInitializer::Value, IPrintSchemaParameterInitializer::get_Value, Value property [Print Devices], Value property [Print Devices],IPrintSchemaParameterInitializer interface, get_Value, print.iprintschemaparameterinitializer_getvalue, printerextension/IPrintSchemaParameterInitializer::Value, printerextension/IPrintSchemaParameterInitializer::get_Value
 f1_keywords:
  - "printerextension/IPrintSchemaParameterInitializer.Value"
+ - "IPrintSchemaParameterInitializer.Value"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IPrintSchemaParameterInitializer.Value
 - IPrintSchemaParameterInitializer.get_Value
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -8,6 +8,7 @@ ms.date: 08/22/2018
 keywords: ["_NDIS_WWAN_LTE_ATTACH_CONTEXTS structure"]
 f1_keywords:
  - "ndiswwan/_NDIS_WWAN_LTE_ATTACH_CONTEXTS"
+ - "_NDIS_WWAN_LTE_ATTACH_CONTEXTS"
 ms.keywords: _NDIS_WWAN_LTE_ATTACH_CONTEXTS, NDIS_WWAN_LTE_ATTACH_CONTEXTS, *PNDIS_WWAN_LTE_ATTACH_CONTEXTS, 
 req.header: ndiswwan.h
 req.include-header:

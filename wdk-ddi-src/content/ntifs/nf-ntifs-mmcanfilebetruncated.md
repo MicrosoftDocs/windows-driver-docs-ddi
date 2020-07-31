@@ -10,6 +10,7 @@ keywords: ["MmCanFileBeTruncated function"]
 ms.keywords: MmCanFileBeTruncated, MmCanFileBeTruncated routine [Installable File System Drivers], ifsk.mmcanfilebetruncated, mmref_7d6c86f9-4a26-4d2c-bf55-9352044e9339.xml, ntifs/MmCanFileBeTruncated
 f1_keywords:
  - "ntifs/MmCanFileBeTruncated"
+ - "MmCanFileBeTruncated"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - MmCanFileBeTruncated
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["WdfRequestRequeue function"]
 ms.keywords: DFRequestObjectRef_a51243a8-1412-4765-93a1-7a8f3ab17814.xml, WdfRequestRequeue, WdfRequestRequeue method, kmdf.wdfrequestrequeue, wdf.wdfrequestrequeue, wdfrequest/WdfRequestRequeue
 f1_keywords:
  - "wdfrequest/WdfRequestRequeue"
+ - "WdfRequestRequeue"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfRequestRequeue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

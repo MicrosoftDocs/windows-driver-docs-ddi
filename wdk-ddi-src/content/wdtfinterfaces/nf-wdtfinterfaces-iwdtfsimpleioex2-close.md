@@ -10,6 +10,7 @@ keywords: ["IWDTFSimpleIOEx2::Close"]
 ms.keywords: Close, Close method [Windows Device Testing Framework], Close method [Windows Device Testing Framework],IWDTFSimpleIOEx2 interface, IWDTFSimpleIOEx2 interface [Windows Device Testing Framework],Close method, IWDTFSimpleIOEx2.Close, IWDTFSimpleIOEx2::Close, Microsoft.WDTF.IWDTFSimpleIOEx2.Close, Microsoft::WDTF::IWDTFSimpleIOEx2::Close, dtf.iwdtfsimpleioex2_close, wdtfinterfaces/IWDTFSimpleIOEx2::Close
 f1_keywords:
  - "wdtfinterfaces/IWDTFSimpleIOEx2.Close"
+ - "IWDTFSimpleIOEx2.Close"
 req.header: wdtfinterfaces.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WDTFInterfaces.Interop.dll
 api_name:
 - IWDTFSimpleIOEx2.Close
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

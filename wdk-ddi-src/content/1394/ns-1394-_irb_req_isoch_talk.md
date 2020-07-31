@@ -10,6 +10,7 @@ keywords: ["_IRB_REQ_ISOCH_TALK structure"]
 ms.keywords: 1394/IRB_REQ_ISOCH_TALK, IEEE.irb_req_isoch_talk, IRB_REQ_ISOCH_TALK, IRB_REQ_ISOCH_TALK structure [Buses], _IRB_REQ_ISOCH_TALK
 f1_keywords:
  - "1394/IRB_REQ_ISOCH_TALK"
+ - "IRB_REQ_ISOCH_TALK"
 req.header: 1394.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - 1394.h
 api_name:
 - IRB_REQ_ISOCH_TALK
-product:
-- Windows
 targetos: Windows
 req.typenames: IRB_REQ_ISOCH_TALK
 ---

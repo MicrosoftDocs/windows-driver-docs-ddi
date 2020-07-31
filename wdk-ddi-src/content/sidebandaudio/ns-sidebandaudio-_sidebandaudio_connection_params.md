@@ -7,6 +7,7 @@ ms.date: 09/06/2018
 keywords: ["_SIDEBANDAUDIO_CONNECTION_PARAMS structure"]
 f1_keywords:
  - "sidebandaudio/_SIDEBANDAUDIO_CONNECTION_PARAMS"
+ - "_SIDEBANDAUDIO_CONNECTION_PARAMS"
 ms.keywords: _SIDEBANDAUDIO_CONNECTION_PARAMS, SIDEBANDAUDIO_CONNECTION_PARAMS, *PSIDEBANDAUDIO_CONNECTION_PARAMS, 
 req.header: sidebandaudio.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - sidebandaudio.h
 api_name: 
 - _SIDEBANDAUDIO_CONNECTION_PARAMS
-product:
-- Windows
 targetos: Windows
 tech.root: audio
 ms.custom: RS5

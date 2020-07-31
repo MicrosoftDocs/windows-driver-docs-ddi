@@ -10,6 +10,7 @@ keywords: ["DXGKDDI_UNLOAD callback function"]
 ms.keywords: DXGKDDI_UNLOAD, DXGKDDI_UNLOAD callback, DmFunctions_b7f60489-c7e7-4bd1-bf17-ff193bc7d614.xml, DxgkDdiUnload, DxgkDdiUnload callback function [Display Devices], display.dxgkddiunload, dispmprt/DxgkDdiUnload
 f1_keywords:
  - "dispmprt/DxgkDdiUnload"
+ - "DxgkDdiUnload"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Dispmprt.h
 api_name:
 - DxgkDdiUnload
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

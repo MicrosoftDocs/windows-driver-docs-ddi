@@ -10,6 +10,7 @@ keywords: ["CcGetFileObjectFromBcb function"]
 ms.keywords: CcGetFileObjectFromBcb, CcGetFileObjectFromBcb routine [Installable File System Drivers], ccref_7fdf1d1e-a080-4322-a09c-be0a16543050.xml, ifsk.ccgetfileobjectfrombcb, ntifs/CcGetFileObjectFromBcb
 f1_keywords:
  - "ntifs/CcGetFileObjectFromBcb"
+ - "CcGetFileObjectFromBcb"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - CcGetFileObjectFromBcb
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

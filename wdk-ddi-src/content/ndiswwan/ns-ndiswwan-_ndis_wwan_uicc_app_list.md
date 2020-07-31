@@ -8,6 +8,7 @@ ms.date: 04/08/2019
 keywords: ["_NDIS_WWAN_UICC_APP_LIST structure"]
 f1_keywords:
  - "ndiswwan/_NDIS_WWAN_UICC_APP_LIST"
+ - "_NDIS_WWAN_UICC_APP_LIST"
 ms.keywords: _NDIS_WWAN_UICC_APP_LIST, NDIS_WWAN_UICC_APP_LIST, *PNDIS_WWAN_UICC_APP_LIST, 
 req.header: ndiswwan.h
 req.include-header:
@@ -30,8 +31,6 @@ api_location:
 - ndiswwan.h
 api_name: 
 - _NDIS_WWAN_UICC_APP_LIST
-product:
-- Windows
 targetos: Windows
 ms.custom: 19H1
 ---

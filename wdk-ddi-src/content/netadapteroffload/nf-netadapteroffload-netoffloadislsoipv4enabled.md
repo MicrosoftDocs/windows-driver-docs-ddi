@@ -10,6 +10,7 @@ ms.date: 01/17/2019
 keywords: ["NetOffloadIsLsoIPv4Enabled function"]
 f1_keywords:
  - "netadapteroffload/NetOffloadIsLsoIPv4Enabled"
+ - "NetOffloadIsLsoIPv4Enabled"
 ms.keywords: NetOffloadIsLsoIPv4Enabled
 req.header: netadapteroffload.h
 req.include-header:
@@ -36,8 +37,6 @@ api_location:
 - netadaptercxstub.lib
 api_name: 
 - NetOffloadIsLsoIPv4Enabled
-product:
-- Windows
 targetos: Windows
 ---
 

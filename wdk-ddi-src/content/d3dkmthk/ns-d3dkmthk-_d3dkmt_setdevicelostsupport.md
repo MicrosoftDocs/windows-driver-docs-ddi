@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_SETDEVICELOSTSUPPORT structure"]
 ms.keywords: D3DKMT_SETDEVICELOSTSUPPORT, D3DKMT_SETDEVICELOSTSUPPORT structure [Display Devices], _D3DKMT_SETDEVICELOSTSUPPORT, d3dkmthk/D3DKMT_SETDEVICELOSTSUPPORT, display.d3dkmt-setdevicelostsupport
 f1_keywords:
  - "d3dkmthk/D3DKMT_SETDEVICELOSTSUPPORT"
+ - "D3DKMT_SETDEVICELOSTSUPPORT"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMT_SETDEVICELOSTSUPPORT
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_SETDEVICELOSTSUPPORT

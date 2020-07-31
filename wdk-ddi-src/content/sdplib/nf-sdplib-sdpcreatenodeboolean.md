@@ -10,6 +10,7 @@ keywords: ["SdpCreateNodeBoolean function"]
 ms.keywords: SdpCreateNodeBoolean, SdpCreateNodeBoolean function [Bluetooth Devices], bltooth.sdpcreatenodeboolean, bth_funcs_06168a9c-1cdc-4c2a-b90d-356c03867d4f.xml, sdplib/SdpCreateNodeBoolean
 f1_keywords:
  - "sdplib/SdpCreateNodeBoolean"
+ - "SdpCreateNodeBoolean"
 req.header: sdplib.h
 req.include-header: BthSdpddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - sdplib.h
 api_name:
 - SdpCreateNodeBoolean
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

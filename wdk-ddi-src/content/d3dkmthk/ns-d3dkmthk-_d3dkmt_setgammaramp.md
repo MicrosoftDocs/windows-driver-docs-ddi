@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_SETGAMMARAMP structure"]
 ms.keywords: D3DKMT_SETGAMMARAMP, D3DKMT_SETGAMMARAMP structure [Display Devices], OpenGL_Structs_3f9b4d19-5367-43bb-94a7-288d375412d7.xml, _D3DKMT_SETGAMMARAMP, d3dkmthk/D3DKMT_SETGAMMARAMP, display.d3dkmt_setgammaramp
 f1_keywords:
  - "d3dkmthk/D3DKMT_SETGAMMARAMP"
+ - "D3DKMT_SETGAMMARAMP"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMT_SETGAMMARAMP
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_SETGAMMARAMP

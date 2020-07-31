@@ -10,6 +10,7 @@ keywords: ["IoUpdateLinkShareAccess function"]
 ms.keywords: IoUpdateLinkShareAccess, IoUpdateLinkShareAccess function [Kernel-Mode Driver Architecture], kernel.ioupdatelinkshareaccess, wdm/IoUpdateLinkShareAccess
 f1_keywords:
  - "wdm/IoUpdateLinkShareAccess"
+ - "IoUpdateLinkShareAccess"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoUpdateLinkShareAccess
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: 19H1

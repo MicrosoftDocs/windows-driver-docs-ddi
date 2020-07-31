@@ -8,6 +8,7 @@ ms.date: 10/19/2018
 keywords: ["D3D12DDIARG_META_COMMAND_PARAMETER_DESC structure"]
 f1_keywords:
  - "d3d12umddi/D3D12DDIARG_META_COMMAND_PARAMETER_DESC"
+ - "D3D12DDIARG_META_COMMAND_PARAMETER_DESC"
 ms.keywords: D3D12DDIARG_META_COMMAND_PARAMETER_DESC, D3D12DDIARG_META_COMMAND_PARAMETER_DESC, 
 req.header: d3d12umddi.h
 req.include-header:
@@ -30,8 +31,6 @@ api_location:
 - d3d12umddi.h
 api_name: 
 - D3D12DDIARG_META_COMMAND_PARAMETER_DESC
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

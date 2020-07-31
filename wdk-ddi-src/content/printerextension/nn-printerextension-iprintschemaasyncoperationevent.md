@@ -10,6 +10,7 @@ keywords: ["IPrintSchemaAsyncOperationEvent interface"]
 ms.keywords: IPrintSchemaAsyncOperationEvent, IPrintSchemaAsyncOperationEvent interface [Print Devices], IPrintSchemaAsyncOperationEvent interface [Print Devices],described, print.iprintschemaasyncoperationevent_interface, printerextension/IPrintSchemaAsyncOperationEvent
 f1_keywords:
  - "printerextension/IPrintSchemaAsyncOperationEvent"
+ - "IPrintSchemaAsyncOperationEvent"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Printerextension.h
 api_name:
 - IPrintSchemaAsyncOperationEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

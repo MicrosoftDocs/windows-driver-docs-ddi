@@ -10,6 +10,7 @@ keywords: ["NdisAllocateCloneNetBufferList function"]
 ms.keywords: NdisAllocateCloneNetBufferList, NdisAllocateCloneNetBufferList function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateCloneNetBufferList, ndis_netbuf_functions_ref_52fbbc8b-cf3c-4df8-8e02-053946be8136.xml, netvista.ndisallocateclonenetbufferlist
 f1_keywords:
  - "ndis/NdisAllocateCloneNetBufferList"
+ - "NdisAllocateCloneNetBufferList"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisAllocateCloneNetBufferList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

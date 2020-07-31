@@ -10,6 +10,7 @@ keywords: ["KsFastMethodHandler function"]
 ms.keywords: KsFastMethodHandler, KsFastMethodHandler function [Streaming Media Devices], ks/KsFastMethodHandler, ksfunc_4c9fb7a6-5297-4b74-a865-14a774f728a5.xml, stream.ksfastmethodhandler
 f1_keywords:
  - "ks/KsFastMethodHandler"
+ - "KsFastMethodHandler"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsFastMethodHandler
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

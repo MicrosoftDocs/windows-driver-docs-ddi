@@ -10,6 +10,7 @@ keywords: ["_BASEBAND_CHANNEL_INFO structure"]
 ms.keywords: "*PBASEBAND_CHANNEL_INFO, BASEBAND_CHANNEL_INFO, BASEBAND_CHANNEL_INFO structure [Bluetooth Devices], PBASEBAND_CHANNEL_INFO, PBASEBAND_CHANNEL_INFO structure pointer [Bluetooth Devices], _BASEBAND_CHANNEL_INFO, bltooth.baseband_channel_info, bth_structs_849b4363-4e7e-4fee-b5c1-86b32431a6dd.xml, bthddi/BASEBAND_CHANNEL_INFO, bthddi/PBASEBAND_CHANNEL_INFO"
 f1_keywords:
  - "bthddi/BASEBAND_CHANNEL_INFO"
+ - "BASEBAND_CHANNEL_INFO"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - bthddi.h
 api_name:
 - BASEBAND_CHANNEL_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: BASEBAND_CHANNEL_INFO, *PBASEBAND_CHANNEL_INFO
 ---

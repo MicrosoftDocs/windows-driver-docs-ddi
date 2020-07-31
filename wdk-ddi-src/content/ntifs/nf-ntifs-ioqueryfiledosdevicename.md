@@ -10,6 +10,7 @@ keywords: ["IoQueryFileDosDeviceName function"]
 ms.keywords: IoQueryFileDosDeviceName, IoQueryFileDosDeviceName routine [Installable File System Drivers], ifsk.ioqueryfiledosdevicename, ioref_4bc807ab-ce5e-415c-8f86-50cf3783d233.xml, ntifs/IoQueryFileDosDeviceName
 f1_keywords:
  - "ntifs/IoQueryFileDosDeviceName"
+ - "IoQueryFileDosDeviceName"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoQueryFileDosDeviceName
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

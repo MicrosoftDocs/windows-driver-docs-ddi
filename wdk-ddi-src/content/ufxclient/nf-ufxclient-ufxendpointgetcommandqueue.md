@@ -10,6 +10,7 @@ keywords: ["UfxEndpointGetCommandQueue function"]
 ms.keywords: UfxEndpointGetCommandQueue, UfxEndpointGetCommandQueue method [Buses], buses.ufxendpointgetcommandqueue, ufxclient/UfxEndpointGetCommandQueue
 f1_keywords:
  - "ufxclient/UfxEndpointGetCommandQueue"
+ - "UfxEndpointGetCommandQueue"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ufxclient.h
 api_name:
 - UfxEndpointGetCommandQueue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

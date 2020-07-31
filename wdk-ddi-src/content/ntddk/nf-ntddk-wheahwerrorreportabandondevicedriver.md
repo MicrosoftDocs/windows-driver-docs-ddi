@@ -29,13 +29,14 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - DllExport
 api_location:
  - ntddk.h
 api_name:
  - WheaHwErrorReportAbandonDeviceDriver
 f1_keywords:
- - ntddk/WheaHwErrorReportAbandonDeviceDriver
+ - ntddk//WheaHwErrorReportAbandonDeviceDriver
+ - WheaHwErrorReportAbandonDeviceDriver
 dev_langs:
  - c++
 ---

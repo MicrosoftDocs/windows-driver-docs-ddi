@@ -10,6 +10,7 @@ keywords: ["tagKS_DATAFORMAT_H264VIDEOINFO structure"]
 ms.keywords: "*PKS_DATAFORMAT_H264VIDEOINFO, KS_DATAFORMAT_H264VIDEOINFO, KS_DATAFORMAT_H264VIDEOINFO structure [Streaming Media Devices], PKS_DATAFORMAT_H264VIDEOINFO, PKS_DATAFORMAT_H264VIDEOINFO structure pointer [Streaming Media Devices], ksmedia/KS_DATAFORMAT_H264VIDEOINFO, ksmedia/PKS_DATAFORMAT_H264VIDEOINFO, stream.ks_dataformat_h264videoinfo, tagKS_DATAFORMAT_H264VIDEOINFO"
 f1_keywords:
  - "ksmedia/KS_DATAFORMAT_H264VIDEOINFO"
+ - "KS_DATAFORMAT_H264VIDEOINFO"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ksmedia.h
 api_name:
 - KS_DATAFORMAT_H264VIDEOINFO
-product:
-- Windows
 targetos: Windows
 req.typenames: KS_DATAFORMAT_H264VIDEOINFO, *PKS_DATAFORMAT_H264VIDEOINFO
 ---

@@ -10,6 +10,7 @@ keywords: ["_NDK_LISTENER structure"]
 ms.keywords: NDK_LISTENER, NDK_LISTENER structure [Network Drivers Starting with Windows Vista], PNDK_LISTENER, PNDK_LISTENER structure pointer [Network Drivers Starting with Windows Vista], _NDK_LISTENER, ndkpi/NDK_LISTENER, ndkpi/PNDK_LISTENER, netvista.ndk_listener
 f1_keywords:
  - "ndkpi/NDK_LISTENER"
+ - "NDK_LISTENER"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ndkpi.h
 api_name:
 - NDK_LISTENER
-product:
-- Windows
 targetos: Windows
 req.typenames: NDK_LISTENER
 ---

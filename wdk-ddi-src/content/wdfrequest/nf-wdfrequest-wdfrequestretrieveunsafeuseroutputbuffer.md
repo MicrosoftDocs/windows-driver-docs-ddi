@@ -10,6 +10,7 @@ keywords: ["WdfRequestRetrieveUnsafeUserOutputBuffer function"]
 ms.keywords: DFRequestObjectRef_3f483887-e2fa-413d-b147-9f18fc092800.xml, WdfRequestRetrieveUnsafeUserOutputBuffer, WdfRequestRetrieveUnsafeUserOutputBuffer method, kmdf.wdfrequestretrieveunsafeuseroutputbuffer, wdf.wdfrequestretrieveunsafeuseroutputbuffer, wdfrequest/WdfRequestRetrieveUnsafeUserOutputBuffer
 f1_keywords:
  - "wdfrequest/WdfRequestRetrieveUnsafeUserOutputBuffer"
+ - "WdfRequestRetrieveUnsafeUserOutputBuffer"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfRequestRetrieveUnsafeUserOutputBuffer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

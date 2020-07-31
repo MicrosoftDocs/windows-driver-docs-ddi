@@ -10,6 +10,7 @@ keywords: ["RIL_GetRadioStateDetails function"]
 ms.keywords: RIL_GetRadioStateDetails, RIL_GetRadioStateDetails method [Network Drivers Starting with Windows Vista], netvista.ril_getradiostatedetails, rilapi/RIL_GetRadioStateDetails
 f1_keywords:
  - "rilapi/RIL_GetRadioStateDetails"
+ - "RIL_GetRadioStateDetails"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_GetRadioStateDetails
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

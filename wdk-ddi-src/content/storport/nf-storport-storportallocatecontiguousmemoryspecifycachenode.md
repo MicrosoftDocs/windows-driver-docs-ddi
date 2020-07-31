@@ -10,6 +10,7 @@ keywords: ["StorPortAllocateContiguousMemorySpecifyCacheNode function"]
 ms.keywords: StorPortAllocateContiguousMemorySpecifyCacheNode, StorPortAllocateContiguousMemorySpecifyCacheNode routine [Storage Devices], storage.storportallocatecontiguousmemoryspecifycachenode, storport/StorPortAllocateContiguousMemorySpecifyCacheNode, storprt_d91d6ab4-677e-4bc0-a0b5-1c252475ecbb.xml
 f1_keywords:
  - "storport/StorPortAllocateContiguousMemorySpecifyCacheNode"
+ - "StorPortAllocateContiguousMemorySpecifyCacheNode"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - storport.h
 api_name:
 - StorPortAllocateContiguousMemorySpecifyCacheNode
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["KsReleaseIrpOnCancelableQueue function"]
 ms.keywords: KsReleaseIrpOnCancelableQueue, KsReleaseIrpOnCancelableQueue function [Streaming Media Devices], ks/KsReleaseIrpOnCancelableQueue, ksfunc_90599c85-7874-4eca-9177-45dcacbeacc7.xml, stream.ksreleaseirponcancelablequeue
 f1_keywords:
  - "ks/KsReleaseIrpOnCancelableQueue"
+ - "KsReleaseIrpOnCancelableQueue"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsReleaseIrpOnCancelableQueue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

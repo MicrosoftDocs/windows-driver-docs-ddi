@@ -10,6 +10,7 @@ keywords: ["IDebugBreakpoint::SetDataParameters"]
 ms.keywords: ComOther_250724e6-5ae3-4755-87de-3804e4e6f4ed.xml, IDebugBreakpoint interface [Windows Debugging],SetDataParameters method, IDebugBreakpoint.SetDataParameters, IDebugBreakpoint2 interface [Windows Debugging],SetDataParameters method, IDebugBreakpoint2::SetDataParameters, IDebugBreakpoint::SetDataParameters, SetDataParameters, SetDataParameters method [Windows Debugging], SetDataParameters method [Windows Debugging],IDebugBreakpoint interface, SetDataParameters method [Windows Debugging],IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint2::SetDataParameters, dbgeng/IDebugBreakpoint::SetDataParameters, debugger.setdataparameters
 f1_keywords:
  - "dbgeng/IDebugBreakpoint.SetDataParameters"
+ - "IDebugBreakpoint.SetDataParameters"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IDebugBreakpoint.SetDataParameters
 - IDebugBreakpoint2.SetDataParameters
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

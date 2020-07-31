@@ -10,6 +10,7 @@ keywords: ["NdisMQueueDpcEx function"]
 ms.keywords: NdisMQueueDpcEx, NdisMQueueDpcEx function [Network Drivers Starting with Windows Vista], ndis/NdisMQueueDpcEx, ndis_processor_group_ref_4a9c7d7e-69dd-4452-8e38-5234afb95f01.xml, netvista.ndismqueuedpcex
 f1_keywords:
  - "ndis/NdisMQueueDpcEx"
+ - "NdisMQueueDpcEx"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisMQueueDpcEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

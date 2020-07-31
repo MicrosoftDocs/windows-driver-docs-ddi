@@ -10,6 +10,7 @@ keywords: ["_OEMUIOBJ structure"]
 ms.keywords: "*POEMUIOBJ, OEMUIOBJ, OEMUIOBJ structure [Print Devices], POEMUIOBJ, POEMUIOBJ structure pointer [Print Devices], _OEMUIOBJ, print.oemuiobj, print_unidrv-pscript_ui_ce37eb2d-06c0-4bca-88f0-c5ab836c9fd3.xml, printoem/OEMUIOBJ, printoem/POEMUIOBJ"
 f1_keywords:
  - "printoem/OEMUIOBJ"
+ - "OEMUIOBJ"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - printoem.h
 api_name:
 - OEMUIOBJ
-product:
-- Windows
 targetos: Windows
 req.typenames: OEMUIOBJ, *POEMUIOBJ
 ---

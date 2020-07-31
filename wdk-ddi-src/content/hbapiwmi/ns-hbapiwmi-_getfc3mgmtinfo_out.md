@@ -10,6 +10,7 @@ keywords: ["_GetFC3MgmtInfo_OUT structure"]
 ms.keywords: "*PGetFC3MgmtInfo_OUT, GetFC3MgmtInfo_OUT, GetFC3MgmtInfo_OUT structure [Storage Devices], PGetFC3MgmtInfo_OUT, PGetFC3MgmtInfo_OUT structure pointer [Storage Devices], _GetFC3MgmtInfo_OUT, hbapiwmi/GetFC3MgmtInfo_OUT, hbapiwmi/PGetFC3MgmtInfo_OUT, storage.getfc3mgmtinfo_out, structs-Fibre_599fab97-a877-4299-8697-1decb1305672.xml"
 f1_keywords:
  - "hbapiwmi/GetFC3MgmtInfo_OUT"
+ - "GetFC3MgmtInfo_OUT"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - GetFC3MgmtInfo_OUT
-product:
-- Windows
 targetos: Windows
 req.typenames: GetFC3MgmtInfo_OUT, *PGetFC3MgmtInfo_OUT
 ---

@@ -10,6 +10,7 @@ keywords: ["IoGetRequestorSessionId function"]
 ms.keywords: IoGetRequestorSessionId, IoGetRequestorSessionId routine [Installable File System Drivers], ifsk.iogetrequestorsessionid, ioref_fe60ee3b-1b5b-4d9c-a4f2-456e05575349.xml, ntifs/IoGetRequestorSessionId
 f1_keywords:
  - "ntifs/IoGetRequestorSessionId"
+ - "IoGetRequestorSessionId"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoGetRequestorSessionId
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

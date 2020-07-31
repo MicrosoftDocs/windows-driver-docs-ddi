@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_SETSTREAMSOURCEUM structure"]
 ms.keywords: D3DDDIARG_SETSTREAMSOURCEUM, D3DDDIARG_SETSTREAMSOURCEUM structure [Display Devices], UMDisplayDriver_param_Structs_783c5264-b293-4ddc-b269-c1cd3a66d431.xml, _D3DDDIARG_SETSTREAMSOURCEUM, d3dumddi/D3DDDIARG_SETSTREAMSOURCEUM, display.d3dddiarg_setstreamsourceum
 f1_keywords:
  - "d3dumddi/D3DDDIARG_SETSTREAMSOURCEUM"
+ - "D3DDDIARG_SETSTREAMSOURCEUM"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDIARG_SETSTREAMSOURCEUM
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_SETSTREAMSOURCEUM
 ---

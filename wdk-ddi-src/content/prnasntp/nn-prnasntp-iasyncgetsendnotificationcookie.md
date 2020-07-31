@@ -10,6 +10,7 @@ keywords: ["IAsyncGetSendNotificationCookie interface"]
 ms.keywords: IAsyncGetSendNotificationCookie, IAsyncGetSendNotificationCookie interface [Print Devices], IAsyncGetSendNotificationCookie interface [Print Devices],described, print.iasyncgetsendnotificationcookie, prnasntp/IAsyncGetSendNotificationCookie
 f1_keywords:
  - "prnasntp/IAsyncGetSendNotificationCookie"
+ - "IAsyncGetSendNotificationCookie"
 req.header: prnasntp.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Prnasntp.h
 api_name:
 - IAsyncGetSendNotificationCookie
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

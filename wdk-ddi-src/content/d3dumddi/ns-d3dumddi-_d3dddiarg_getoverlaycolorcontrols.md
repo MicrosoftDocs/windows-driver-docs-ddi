@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_GETOVERLAYCOLORCONTROLS structure"]
 ms.keywords: D3DDDIARG_GETOVERLAYCOLORCONTROLS, D3DDDIARG_GETOVERLAYCOLORCONTROLS structure [Display Devices], UMDisplayDriver_param_Structs_eedf1607-a208-42ba-8d05-6151e489ee8f.xml, _D3DDDIARG_GETOVERLAYCOLORCONTROLS, d3dumddi/D3DDDIARG_GETOVERLAYCOLORCONTROLS, display.d3dddiarg_getoverlaycolorcontrols
 f1_keywords:
  - "d3dumddi/D3DDDIARG_GETOVERLAYCOLORCONTROLS"
+ - "D3DDDIARG_GETOVERLAYCOLORCONTROLS"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDIARG_GETOVERLAYCOLORCONTROLS
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_GETOVERLAYCOLORCONTROLS
 ---

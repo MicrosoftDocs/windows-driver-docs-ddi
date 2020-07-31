@@ -10,6 +10,7 @@ keywords: ["PrintNamedProperty structure"]
 ms.keywords: PrintNamedProperty, PrintNamedProperty structure [Print Devices], print.printnamedproperty, winspool/PrintNamedProperty
 f1_keywords:
  - "winspool/PrintNamedProperty"
+ - "PrintNamedProperty"
 req.header: winspool.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Winspool.h
 api_name:
 - PrintNamedProperty
-product:
-- Windows
 targetos: Windows
 req.typenames: PrintNamedProperty
 ---

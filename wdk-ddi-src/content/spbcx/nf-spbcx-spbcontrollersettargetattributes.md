@@ -10,6 +10,7 @@ keywords: ["SpbControllerSetTargetAttributes function"]
 ms.keywords: SPB.spbcontrollersettargetattributes, SpbControllerSetTargetAttributes, SpbControllerSetTargetAttributes method [Buses], spbcx/SpbControllerSetTargetAttributes
 f1_keywords:
  - "spbcx/SpbControllerSetTargetAttributes"
+ - "SpbControllerSetTargetAttributes"
 req.header: spbcx.h
 req.include-header: 
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - spbcxstubs.dll
 api_name:
 - SpbControllerSetTargetAttributes
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

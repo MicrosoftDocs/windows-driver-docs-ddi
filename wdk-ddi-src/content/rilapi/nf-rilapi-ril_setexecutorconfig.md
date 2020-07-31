@@ -10,6 +10,7 @@ keywords: ["RIL_SetExecutorConfig function"]
 ms.keywords: RIL_SetExecutorConfig, RIL_SetExecutorConfig method [Network Drivers Starting with Windows Vista], netvista.ril_setexecutorconfig, rilapi/RIL_SetExecutorConfig
 f1_keywords:
  - "rilapi/RIL_SetExecutorConfig"
+ - "RIL_SetExecutorConfig"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_SetExecutorConfig
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

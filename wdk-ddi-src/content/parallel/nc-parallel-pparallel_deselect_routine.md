@@ -10,6 +10,7 @@ keywords: ["PPARALLEL_DESELECT_ROUTINE callback"]
 ms.keywords: "(*PPARALLEL_DESELECT_ROUTINE), (*PPARALLEL_DESELECT_ROUTINE) callback function [Parallel Ports], cisspd_e8bc6fa2-03e4-4845-bfd6-0ebaf573e1b2.xml, parallel/(*PPARALLEL_DESELECT_ROUTINE), parports.pparallel_deselect_routine"
 f1_keywords:
  - "parallel/(*PPARALLEL_DESELECT_ROUTINE)"
+ - "(*PPARALLEL_DESELECT_ROUTINE)"
 req.header: parallel.h
 req.include-header: Parallel.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - parallel.h
 api_name:
 - (*PPARALLEL_DESELECT_ROUTINE)
-product:
-- Windows
 targetos: Windows
 req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ---

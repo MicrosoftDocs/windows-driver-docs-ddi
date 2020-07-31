@@ -10,6 +10,7 @@ keywords: ["IPortClsNotifications::AllocNotificationBuffer"]
 ms.keywords: AllocNotificationBuffer, AllocNotificationBuffer method [Audio Devices], AllocNotificationBuffer method [Audio Devices],IPortClsNotifications interface, IPortClsNotifications interface [Audio Devices],AllocNotificationBuffer method, IPortClsNotifications.AllocNotificationBuffer, IPortClsNotifications::AllocNotificationBuffer, audio.iportclsnotifications_allocnotification, portcls/IPortClsNotifications::AllocNotificationBuffer
 f1_keywords:
  - "portcls/IPortClsNotifications.AllocNotificationBuffer"
+ - "IPortClsNotifications.AllocNotificationBuffer"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Portcls.dll
 api_name:
 - IPortClsNotifications.AllocNotificationBuffer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

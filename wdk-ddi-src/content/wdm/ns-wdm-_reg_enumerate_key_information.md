@@ -10,6 +10,7 @@ keywords: ["_REG_ENUMERATE_KEY_INFORMATION structure"]
 ms.keywords: "*PREG_ENUMERATE_KEY_INFORMATION, PREG_ENUMERATE_KEY_INFORMATION, PREG_ENUMERATE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_ENUMERATE_KEY_INFORMATION, REG_ENUMERATE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], _REG_ENUMERATE_KEY_INFORMATION, kernel.reg_enumerate_key_information, kstruct_d_e20923be-cb64-43a0-b3d0-a28290fadc07.xml, wdm/PREG_ENUMERATE_KEY_INFORMATION, wdm/REG_ENUMERATE_KEY_INFORMATION"
 f1_keywords:
  - "wdm/REG_ENUMERATE_KEY_INFORMATION"
+ - "REG_ENUMERATE_KEY_INFORMATION"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - REG_ENUMERATE_KEY_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: REG_ENUMERATE_KEY_INFORMATION, *PREG_ENUMERATE_KEY_INFORMATION
 ---

@@ -10,6 +10,7 @@ keywords: ["RIL_SetCallWaitingStatus function"]
 ms.keywords: RIL_SetCallWaitingStatus, RIL_SetCallWaitingStatus method [Network Drivers Starting with Windows Vista], netvista.ril_setcallwaitingstatus, rilapi/RIL_SetCallWaitingStatus
 f1_keywords:
  - "rilapi/RIL_SetCallWaitingStatus"
+ - "RIL_SetCallWaitingStatus"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_SetCallWaitingStatus
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

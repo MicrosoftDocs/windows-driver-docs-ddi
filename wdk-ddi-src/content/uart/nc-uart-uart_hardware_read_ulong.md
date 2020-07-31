@@ -8,6 +8,7 @@ ms.date: 10/19/2018
 keywords: ["UART_HARDWARE_READ_ULONG callback function"]
 f1_keywords:
  - "uart/UART_HARDWARE_READ_ULONG"
+ - "UART_HARDWARE_READ_ULONG"
 req.header: uart.h
 req.include-header:
 req.target-type:
@@ -33,8 +34,6 @@ api_location:
 - uart.h
 api_name:
 - UART_HARDWARE_READ_ULONG
-product:
-- Windows
 targetos: Windows
 ---
 

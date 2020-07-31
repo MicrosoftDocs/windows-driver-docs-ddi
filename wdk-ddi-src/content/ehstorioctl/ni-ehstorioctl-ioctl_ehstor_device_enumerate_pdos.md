@@ -10,6 +10,7 @@ keywords: ["IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS IOCTL"]
 ms.keywords: IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS, IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS control, IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS control code [Storage Devices], ehstorioctl/IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS, storage.ioctl_ehstor_device_enumerate_pdos
 f1_keywords:
  - "ehstorioctl/IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS"
+ - "IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS"
 req.header: ehstorioctl.h
 req.include-header: EhStorIoctl.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - EhStorIoctl.h
 api_name:
 - IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["NdisZeroMemory macro"]
 ms.keywords: NdisZeroMemory, NdisZeroMemory macro [Network Drivers Starting with Windows Vista], ndis/NdisZeroMemory, ndis_memory_ref_06fa3e0b-cb08-41c7-8e09-debec8e323c0.xml, netvista.ndiszeromemory
 f1_keywords:
  - "ndis/NdisZeroMemory"
+ - "NdisZeroMemory"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NdisZeroMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

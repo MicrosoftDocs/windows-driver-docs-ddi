@@ -10,6 +10,7 @@ keywords: ["RILEXECUTORRFSTATEPARAMMASK enumeration"]
 ms.keywords: RILEXECUTORRFSTATEPARAMMASK, RILEXECUTORRFSTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_GERFS_ALL, RIL_PARAM_GERFS_STATE, netvista.rilexecutorrfstateparammask, ntddrilapitypes/RILEXECUTORRFSTATEPARAMMASK, ntddrilapitypes/RIL_PARAM_GERFS_ALL, ntddrilapitypes/RIL_PARAM_GERFS_STATE
 f1_keywords:
  - "ntddrilapitypes/RILEXECUTORRFSTATEPARAMMASK"
+ - "RILEXECUTORRFSTATEPARAMMASK"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILEXECUTORRFSTATEPARAMMASK
-product:
-- Windows
 targetos: Windows
 req.typenames: RILEXECUTORRFSTATEPARAMMASK
 ---

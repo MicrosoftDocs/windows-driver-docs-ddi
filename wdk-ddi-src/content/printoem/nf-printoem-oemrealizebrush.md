@@ -10,6 +10,7 @@ keywords: ["OEMRealizeBrush function"]
 ms.keywords: OEMRealizeBrush, OEMRealizeBrush function [Print Devices], print.oemrealizebrush, print_unidrv-pscript_rendering_ab4f8635-9dda-4f08-b4f9-d70681ec532e.xml, printoem/OEMRealizeBrush
 f1_keywords:
  - "printoem/OEMRealizeBrush"
+ - "OEMRealizeBrush"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - printoem.h
 api_name:
 - OEMRealizeBrush
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

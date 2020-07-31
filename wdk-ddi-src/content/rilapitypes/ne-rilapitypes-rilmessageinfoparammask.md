@@ -10,6 +10,7 @@ keywords: ["RILMESSAGEINFOPARAMMASK enumeration"]
 ms.keywords: RILMESSAGEINFOPARAMMASK, RILMESSAGEINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_MI_ALL, RIL_PARAM_MI_MESSAGE, RIL_PARAM_MI_STATUS, netvista.rilmessageinfoparammask, ntddrilapitypes/RILMESSAGEINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_MI_ALL, ntddrilapitypes/RIL_PARAM_MI_MESSAGE, ntddrilapitypes/RIL_PARAM_MI_STATUS
 f1_keywords:
  - "rilapitypes/RILMESSAGEINFOPARAMMASK"
+ - "RILMESSAGEINFOPARAMMASK"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILMESSAGEINFOPARAMMASK
-product:
-- Windows
 targetos: Windows
 req.typenames: RILMESSAGEINFOPARAMMASK
 ---

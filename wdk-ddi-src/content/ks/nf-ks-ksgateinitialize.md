@@ -10,6 +10,7 @@ keywords: ["KsGateInitialize function"]
 ms.keywords: KsGateInitialize, KsGateInitialize function [Streaming Media Devices], avfunc_1ec7041b-e335-4920-ad40-06290d1579c2.xml, ks/KsGateInitialize, stream.ksgateinitialize
 f1_keywords:
  - "ks/KsGateInitialize"
+ - "KsGateInitialize"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KsGateInitialize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

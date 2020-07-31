@@ -10,6 +10,7 @@ keywords: ["_PAR_QUERY_INFORMATION structure"]
 ms.keywords: "*PPAR_QUERY_INFORMATION, PAR_QUERY_INFORMATION, PAR_QUERY_INFORMATION structure [Parallel Ports], PPAR_QUERY_INFORMATION, PPAR_QUERY_INFORMATION structure pointer [Parallel Ports], _PAR_QUERY_INFORMATION, cisspd_d7d19b6f-e1a0-4ad7-b0ee-b8e291e63956.xml, ntddpar/PAR_QUERY_INFORMATION, ntddpar/PPAR_QUERY_INFORMATION, parports.par_query_information"
 f1_keywords:
  - "ntddpar/PAR_QUERY_INFORMATION"
+ - "PAR_QUERY_INFORMATION"
 req.header: ntddpar.h
 req.include-header: Ntddpar.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddpar.h
 api_name:
 - PAR_QUERY_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: PAR_QUERY_INFORMATION, *PPAR_QUERY_INFORMATION
 ---

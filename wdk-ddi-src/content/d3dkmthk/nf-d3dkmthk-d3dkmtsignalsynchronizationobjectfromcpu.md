@@ -9,6 +9,7 @@ keywords: ["D3DKMTSignalSynchronizationObjectFromCpu function"]
 ms.keywords: D3DKMTSignalSynchronizationObjectFromCpu, D3DKMTSignalSynchronizationObjectFromCpu function [Display Devices], d3dkmthk/D3DKMTSignalSynchronizationObjectFromCpu, display.d3dkmtsignalsynchronizationobjectfromcpu
 f1_keywords:
  - "d3dkmthk/D3DKMTSignalSynchronizationObjectFromCpu"
+ - "D3DKMTSignalSynchronizationObjectFromCpu"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 - D3DKMTSignalSynchronizationObjectFromCpu
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

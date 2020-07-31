@@ -8,6 +8,7 @@ ms.date: 10/19/2018
 keywords: ["FsRtlRemoveBaseMcbEntry function"]
 f1_keywords:
  - "ntifs/FsRtlRemoveBaseMcbEntry"
+ - "FsRtlRemoveBaseMcbEntry"
 ms.keywords: FsRtlRemoveBaseMcbEntry
 req.header: ntifs.h
 req.include-header:
@@ -34,8 +35,6 @@ api_location:
 - NtosKrnl.exe
 api_name: 
 - FsRtlRemoveBaseMcbEntry
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

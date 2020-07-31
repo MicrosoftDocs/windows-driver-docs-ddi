@@ -10,6 +10,7 @@ keywords: ["KSMETHOD_STREAMALLOCATOR enumeration"]
 ms.keywords: KSMETHOD_STREAMALLOCATOR, KSMETHOD_STREAMALLOCATOR enumeration [Streaming Media Devices], KSMETHOD_STREAMALLOCATOR_ALLOC, KSMETHOD_STREAMALLOCATOR_FREE, ks/KSMETHOD_STREAMALLOCATOR, ks/KSMETHOD_STREAMALLOCATOR_ALLOC, ks/KSMETHOD_STREAMALLOCATOR_FREE, stream.ksmethod_streamallocator
 f1_keywords:
  - "ks/KSMETHOD_STREAMALLOCATOR"
+ - "KSMETHOD_STREAMALLOCATOR"
 req.header: ks.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ks.h
 api_name:
 - KSMETHOD_STREAMALLOCATOR
-product:
-- Windows
 targetos: Windows
 req.typenames: KSMETHOD_STREAMALLOCATOR
 ---

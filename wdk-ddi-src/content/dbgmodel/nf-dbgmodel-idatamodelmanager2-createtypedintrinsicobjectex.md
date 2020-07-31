@@ -7,6 +7,7 @@ ms.date: 09/11/2018
 keywords: ["IDataModelManager2::CreateTypedIntrinsicObjectEx"]
 f1_keywords:
  - "dbgmodel/IDataModelManager2.CreateTypedIntrinsicObjectEx"
+ - "IDataModelManager2.CreateTypedIntrinsicObjectEx"
 ms.keywords: IDataModelManager2::CreateTypedIntrinsicObjectEx, CreateTypedIntrinsicObjectEx, IDataModelManager2.CreateTypedIntrinsicObjectEx, IDataModelManager2::CreateTypedIntrinsicObjectEx, IDataModelManager2.CreateTypedIntrinsicObjectEx
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDataModelManager2.CreateTypedIntrinsicObjectEx
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

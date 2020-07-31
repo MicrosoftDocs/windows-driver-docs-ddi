@@ -9,6 +9,7 @@ keywords: ["D3D10_DDI_VIEWPORT structure"]
 ms.keywords: D3D10_DDI_VIEWPORT, D3D10_DDI_VIEWPORT structure [Display Devices], UMDisplayDriver_Dx10param_Structs_820ac08a-01a2-4e47-8573-aedf3c3769e1.xml, d3d10umddi/D3D10_DDI_VIEWPORT, display.d3d10_ddi_viewport
 f1_keywords:
  - "d3d10umddi/D3D10_DDI_VIEWPORT"
+ - "D3D10_DDI_VIEWPORT"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - D3D10_DDI_VIEWPORT
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D10_DDI_VIEWPORT

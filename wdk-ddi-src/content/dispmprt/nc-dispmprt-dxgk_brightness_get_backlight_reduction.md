@@ -10,6 +10,7 @@ keywords: ["DXGK_BRIGHTNESS_GET_BACKLIGHT_REDUCTION callback function"]
 ms.keywords: DXGK_BRIGHTNESS_GET_BACKLIGHT_REDUCTION, DXGK_BRIGHTNESS_GET_BACKLIGHT_REDUCTION callback, DxgkDdiGetBacklightReduction, DxgkDdiGetBacklightReduction callback function [Display Devices], display.dxgkddigetbacklightreduction, dispmprt/DxgkDdiGetBacklightReduction
 f1_keywords:
  - "dispmprt/DxgkDdiGetBacklightReduction"
+ - "DxgkDdiGetBacklightReduction"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Dispmprt.h
 api_name:
 - DxgkDdiGetBacklightReduction
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

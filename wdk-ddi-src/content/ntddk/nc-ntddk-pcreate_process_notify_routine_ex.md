@@ -10,6 +10,7 @@ keywords: ["PCREATE_PROCESS_NOTIFY_ROUTINE_EX callback function"]
 ms.keywords: PCREATE_PROCESS_NOTIFY_ROUTINE_EX, PCREATE_PROCESS_NOTIFY_ROUTINE_EX callback, SetCreateProcessNotifyRoutineEx, SetCreateProcessNotifyRoutineEx callback function [Kernel-Mode Driver Architecture], kernel.pcreate_process_notify_routine_ex, ntddk/SetCreateProcessNotifyRoutineEx
 f1_keywords:
  - "ntddk/SetCreateProcessNotifyRoutineEx"
+ - "SetCreateProcessNotifyRoutineEx"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Ntddk.h
 api_name:
 - SetCreateProcessNotifyRoutineEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

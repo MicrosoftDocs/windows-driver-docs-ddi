@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["MIPI_DSI2_TRANSMISSION structure"]
 f1_keywords:
  - "ntddvdeo/MIPI_DSI2_TRANSMISSION"
+ - "MIPI_DSI2_TRANSMISSION"
 ms.keywords: MIPI_DSI2_TRANSMISSION, MIPI_DSI2_TRANSMISSION, *PMIPI_DSI2_TRANSMISSION_OUTPUT, MIPI_DSI2_TRANSMISSION_INPUT, *PMIPI_DSI2_TRANSMISSION_INPUT, MIPI_DSI2_TRANSMISSION_OUTPUT
 req.header: ntddvdeo.h
 req.include-header:
@@ -32,8 +33,6 @@ api_location:
  - ntddvdeo.h
 api_name: 
  - MIPI_DSI2_TRANSMISSION
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

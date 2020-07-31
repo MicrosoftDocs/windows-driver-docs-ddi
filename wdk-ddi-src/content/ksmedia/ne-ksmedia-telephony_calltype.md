@@ -10,6 +10,7 @@ keywords: ["TELEPHONY_CALLTYPE enumeration"]
 ms.keywords: TELEPHONY_CALLTYPE, TELEPHONY_CALLTYPE enumeration [Audio Devices], TELEPHONY_CALLTYPE_CIRCUITSWITCHED, TELEPHONY_CALLTYPE_PACKETSWITCHED_LTE, TELEPHONY_CALLTYPE_PACKETSWITCHED_WLAN, audio.telephony_calltype, ksmedia/TELEPHONY_CALLTYPE, ksmedia/TELEPHONY_CALLTYPE_CIRCUITSWITCHED, ksmedia/TELEPHONY_CALLTYPE_PACKETSWITCHED_LTE, ksmedia/TELEPHONY_CALLTYPE_PACKETSWITCHED_WLAN
 f1_keywords:
  - "ksmedia/TELEPHONY_CALLTYPE"
+ - "TELEPHONY_CALLTYPE"
 req.header: ksmedia.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - TELEPHONY_CALLTYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: TELEPHONY_CALLTYPE
 ---

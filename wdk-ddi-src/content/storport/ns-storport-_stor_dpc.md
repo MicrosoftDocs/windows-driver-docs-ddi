@@ -10,6 +10,7 @@ keywords: ["_STOR_DPC structure"]
 ms.keywords: "*PSTOR_DPC, STOR_DPC, STOR_DPC structure [Storage Devices], _STOR_DPC, storage.stor_dpc, storport/STOR_DPC, structs-general_e1bef2e1-9703-433c-b8a1-daf30db1aaf6.xml"
 f1_keywords:
  - "storport/STOR_DPC"
+ - "STOR_DPC"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Storport.h
 api_name:
 - STOR_DPC
-product:
-- Windows
 targetos: Windows
 req.typenames: STOR_DPC, *PSTOR_DPC
 ---

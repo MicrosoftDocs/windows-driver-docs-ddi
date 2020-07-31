@@ -10,6 +10,7 @@ keywords: ["_PEP_SYSTEM_LATENCY structure"]
 ms.keywords: "*PPEP_SYSTEM_LATENCY, PEP_SYSTEM_LATENCY, PEP_SYSTEM_LATENCY structure [Kernel-Mode Driver Architecture], PPEP_SYSTEM_LATENCY, PPEP_SYSTEM_LATENCY structure pointer [Kernel-Mode Driver Architecture], _PEP_SYSTEM_LATENCY, kernel.pep_system_latency, pepfx/PEP_SYSTEM_LATENCY, pepfx/PPEP_SYSTEM_LATENCY"
 f1_keywords:
  - "pepfx/PEP_SYSTEM_LATENCY"
+ - "PEP_SYSTEM_LATENCY"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - PEP_SYSTEM_LATENCY
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_SYSTEM_LATENCY, *PPEP_SYSTEM_LATENCY
 ---

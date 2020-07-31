@@ -10,6 +10,7 @@ keywords: ["_RemoveConnectionFromSession_OUT structure"]
 ms.keywords: "*PRemoveConnectionFromSession_OUT, PRemoveConnectionFromSession_OUT, PRemoveConnectionFromSession_OUT structure pointer [Storage Devices], RemoveConnectionFromSession_OUT, RemoveConnectionFromSession_OUT structure [Storage Devices], _RemoveConnectionFromSession_OUT, iscsiop/PRemoveConnectionFromSession_OUT, iscsiop/RemoveConnectionFromSession_OUT, storage.removeconnectionfromsession_out, structs-iSCSI_a986a037-b861-4c2b-8402-86dbf7c09942.xml"
 f1_keywords:
  - "iscsiop/RemoveConnectionFromSession_OUT"
+ - "RemoveConnectionFromSession_OUT"
 req.header: iscsiop.h
 req.include-header: Iscsiop.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - iscsiop.h
 api_name:
 - RemoveConnectionFromSession_OUT
-product:
-- Windows
 targetos: Windows
 req.typenames: RemoveConnectionFromSession_OUT, *PRemoveConnectionFromSession_OUT
 ---

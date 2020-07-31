@@ -10,6 +10,7 @@ keywords: ["_LPIT structure"]
 ms.keywords: "*PLPIT, LPIT, LPIT structure [ACPI Devices], PLPIT, PLPIT structure pointer [ACPI Devices], _LPIT, acpi.lpit, acpitabl/LPIT, acpitabl/PLPIT"
 f1_keywords:
  - "acpitabl/LPIT"
+ - "LPIT"
 req.header: acpitabl.h
 req.include-header: Acpitabl.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - acpitabl.h
 api_name:
 - LPIT
-product:
-- Windows
 targetos: Windows
 req.typenames: LPIT, *PLPIT
 ---

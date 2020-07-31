@@ -10,6 +10,7 @@ keywords: ["IddCxMonitorSetupHardwareCursor function"]
 ms.keywords: IddCxMonitorSetupHardwareCursor, IddCxMonitorSetupHardwareCursor method [Display Devices], display.iddcxmonitorsetuphardwarecursor, iddcx/IddCxMonitorSetupHardwareCursor
 f1_keywords:
  - "iddcx/IddCxMonitorSetupHardwareCursor"
+ - "IddCxMonitorSetupHardwareCursor"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - IddCx.dll
 api_name:
 - IddCxMonitorSetupHardwareCursor
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

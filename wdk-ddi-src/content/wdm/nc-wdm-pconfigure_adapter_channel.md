@@ -10,6 +10,7 @@ keywords: ["PCONFIGURE_ADAPTER_CHANNEL callback function"]
 ms.keywords: ConfigureAdapterChannel, ConfigureAdapterChannel callback function [Kernel-Mode Driver Architecture], PCONFIGURE_ADAPTER_CHANNEL, PCONFIGURE_ADAPTER_CHANNEL callback, kernel.configureadapterchannel, wdm/ConfigureAdapterChannel
 f1_keywords:
  - "wdm/ConfigureAdapterChannel"
+ - "ConfigureAdapterChannel"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - ConfigureAdapterChannel
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

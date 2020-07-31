@@ -10,6 +10,7 @@ keywords: ["WdfDmaTransactionSetChannelConfigurationCallback function"]
 ms.keywords: WdfDmaTransactionSetChannelConfigurationCallback, WdfDmaTransactionSetChannelConfigurationCallback method, kmdf.wdfdmatransactionsetchannelconfigurationcallback, wdf.wdfdmatransactionsetchannelconfigurationcallback, wdfdmatransaction/WdfDmaTransactionSetChannelConfigurationCallback
 f1_keywords:
  - "wdfdmatransaction/WdfDmaTransactionSetChannelConfigurationCallback"
+ - "WdfDmaTransactionSetChannelConfigurationCallback"
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfDmaTransactionSetChannelConfigurationCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

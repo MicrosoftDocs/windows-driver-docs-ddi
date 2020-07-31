@@ -7,6 +7,7 @@ ms.date: 04/19/2018
 keywords: ["I2CSensorWriteRegister function"]
 f1_keywords:
  - "sensorsdriversutils/I2CSensorWriteRegister"
+ - "I2CSensorWriteRegister"
 ms.keywords: I2CSensorWriteRegister
 req.header: sensorsdriversutils.h
 req.include-header:

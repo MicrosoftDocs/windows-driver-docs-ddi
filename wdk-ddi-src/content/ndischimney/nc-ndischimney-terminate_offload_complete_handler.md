@@ -10,6 +10,7 @@ keywords: ["TERMINATE_OFFLOAD_COMPLETE_HANDLER callback function"]
 ms.keywords: ProtocolTerminateOffloadComplete, ProtocolTerminateOffloadComplete callback function [Network Drivers Starting with Windows Vista], TERMINATE_OFFLOAD_COMPLETE_HANDLER, TERMINATE_OFFLOAD_COMPLETE_HANDLER callback, ndischimney/ProtocolTerminateOffloadComplete, netvista.protocolterminateoffloadcomplete, tcp_chim_protocol_func_77bcd97e-dea4-41e4-aae5-3aef1a616a45.xml
 f1_keywords:
  - "ndischimney/ProtocolTerminateOffloadComplete"
+ - "ProtocolTerminateOffloadComplete"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ndischimney.h
 api_name:
 - ProtocolTerminateOffloadComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

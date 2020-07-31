@@ -10,6 +10,7 @@ keywords: ["PsSetCreateProcessNotifyRoutineEx function"]
 ms.keywords: PsSetCreateProcessNotifyRoutineEx, PsSetCreateProcessNotifyRoutineEx routine [Kernel-Mode Driver Architecture], k108_b68156fb-55d5-4192-a4d0-d74603647f42.xml, kernel.pssetcreateprocessnotifyroutineex, ntddk/PsSetCreateProcessNotifyRoutineEx
 f1_keywords:
  - "ntddk/PsSetCreateProcessNotifyRoutineEx"
+ - "PsSetCreateProcessNotifyRoutineEx"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - PsSetCreateProcessNotifyRoutineEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

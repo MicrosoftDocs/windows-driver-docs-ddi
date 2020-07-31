@@ -10,6 +10,7 @@ keywords: ["ExUuidCreate function"]
 ms.keywords: ExUuidCreate, ExUuidCreate routine [Kernel-Mode Driver Architecture], k102_e7d2044b-4f90-41bd-bac4-819c721e80c8.xml, kernel.exuuidcreate, ntddk/ExUuidCreate
 f1_keywords:
  - "ntddk/ExUuidCreate"
+ - "ExUuidCreate"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - ExUuidCreate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

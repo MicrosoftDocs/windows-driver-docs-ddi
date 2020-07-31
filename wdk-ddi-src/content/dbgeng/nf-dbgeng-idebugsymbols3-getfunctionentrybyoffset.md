@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::GetFunctionEntryByOffset"]
 ms.keywords: GetFunctionEntryByOffset, GetFunctionEntryByOffset method [Windows Debugging], GetFunctionEntryByOffset method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetFunctionEntryByOffset method, IDebugSymbols3.GetFunctionEntryByOffset, IDebugSymbols3::GetFunctionEntryByOffset, IDebugSymbols_2f48c855-76e5-421c-8890-9a96a0468783.xml, dbgeng/IDebugSymbols3::GetFunctionEntryByOffset, debugger.getfunctionentrybyoffset
 f1_keywords:
  - "dbgeng/IDebugSymbols3.GetFunctionEntryByOffset"
+ - "IDebugSymbols3.GetFunctionEntryByOffset"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h, Winnt.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugSymbols3.GetFunctionEntryByOffset
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

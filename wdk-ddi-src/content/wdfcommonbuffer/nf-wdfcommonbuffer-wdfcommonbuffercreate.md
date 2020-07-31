@@ -10,6 +10,7 @@ keywords: ["WdfCommonBufferCreate function"]
 ms.keywords: DFCommonBufferObjectRef_2ef72eb3-fa4c-40f8-aa73-54bb5dcb9e0c.xml, WdfCommonBufferCreate, WdfCommonBufferCreate method, kmdf.wdfcommonbuffercreate, wdf.wdfcommonbuffercreate, wdfcommonbuffer/WdfCommonBufferCreate
 f1_keywords:
  - "wdfcommonbuffer/WdfCommonBufferCreate"
+ - "WdfCommonBufferCreate"
 req.header: wdfcommonbuffer.h
 req.include-header: WdfCommonBuffer.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfCommonBufferCreate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

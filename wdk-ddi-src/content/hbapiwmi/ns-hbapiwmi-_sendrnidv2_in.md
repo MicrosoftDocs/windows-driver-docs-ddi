@@ -10,6 +10,7 @@ keywords: ["_SendRNIDV2_IN structure"]
 ms.keywords: "*PSendRNIDV2_IN, PSendRNIDV2_IN, PSendRNIDV2_IN structure pointer [Storage Devices], SendRNIDV2_IN, SendRNIDV2_IN structure [Storage Devices], _SendRNIDV2_IN, hbapiwmi/PSendRNIDV2_IN, hbapiwmi/SendRNIDV2_IN, storage.sendrnidv2_in, structs-Fibre_5411860d-c8c8-4f4d-b4cc-751973c3d02e.xml"
 f1_keywords:
  - "hbapiwmi/SendRNIDV2_IN"
+ - "SendRNIDV2_IN"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - SendRNIDV2_IN
-product:
-- Windows
 targetos: Windows
 req.typenames: SendRNIDV2_IN, *PSendRNIDV2_IN
 ---

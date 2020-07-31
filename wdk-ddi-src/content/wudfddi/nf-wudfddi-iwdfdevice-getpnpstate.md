@@ -10,6 +10,7 @@ keywords: ["IWDFDevice::GetPnpState"]
 ms.keywords: GetPnpState, GetPnpState method, GetPnpState method,IWDFDevice interface, IWDFDevice interface,GetPnpState method, IWDFDevice.GetPnpState, IWDFDevice::GetPnpState, UMDFDeviceObjectRef_6fe8971d-2af6-4fc0-a902-74edb5d45f39.xml, umdf.iwdfdevice_getpnpstate, wdf.iwdfdevice_getpnpstate, wudfddi/IWDFDevice::GetPnpState
 f1_keywords:
  - "wudfddi/IWDFDevice.GetPnpState"
+ - "IWDFDevice.GetPnpState"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFDevice.GetPnpState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

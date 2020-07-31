@@ -10,6 +10,7 @@ keywords: ["RtlULongToInt function"]
 ms.keywords: RtlULongToInt, RtlULongToInt function [Kernel-Mode Driver Architecture], kernel.rtlulongtoint, ntintsafe/RtlULongToInt
 f1_keywords:
  - "ntintsafe/RtlULongToInt"
+ - "RtlULongToInt"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Ntintsafe.h
 api_name:
 - RtlULongToInt
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

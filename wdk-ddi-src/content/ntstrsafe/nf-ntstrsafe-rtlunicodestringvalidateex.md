@@ -10,6 +10,7 @@ keywords: ["RtlUnicodeStringValidateEx function"]
 ms.keywords: RtlUnicodeStringValidateEx, RtlUnicodeStringValidateEx function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringvalidateex, ntstrsafe/RtlUnicodeStringValidateEx, safestrings_dcb45919-f329-4637-b09b-f944ad034502.xml
 f1_keywords:
  - "ntstrsafe/RtlUnicodeStringValidateEx"
+ - "RtlUnicodeStringValidateEx"
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Ntstrsafe.dll
 api_name:
 - RtlUnicodeStringValidateEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

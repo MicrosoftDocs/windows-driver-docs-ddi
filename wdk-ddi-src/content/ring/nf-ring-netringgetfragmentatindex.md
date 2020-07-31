@@ -10,6 +10,7 @@ ms.date: 09/25/2019
 keywords: ["NetRingGetFragmentAtIndex function"]
 f1_keywords:
  - "ring/NetRingGetFragmentAtIndex"
+ - "NetRingGetFragmentAtIndex"
 ms.keywords: NetRingGetFragmentAtIndex
 req.header: ring.h
 req.include-header:

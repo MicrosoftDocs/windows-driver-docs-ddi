@@ -10,6 +10,7 @@ keywords: ["_PosDeviceInformation structure"]
 ms.keywords: PosDeviceInformation, PosDeviceInformation structure, _PosDeviceInformation, pointofservicecommontypes/PosDeviceInformation, pos.posdeviceinformation
 f1_keywords:
  - "pointofservicecommontypes/PosDeviceInformation"
+ - "PosDeviceInformation"
 req.header: pointofservicecommontypes.h
 req.include-header: PointOfServiceCommonTypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - PointOfServiceCommonTypes.h
 api_name:
 - PosDeviceInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: PosDeviceInformation
 ---

@@ -10,6 +10,7 @@ keywords: ["_MSiSCSI_DiscoveryConfig structure"]
 ms.keywords: "*PMSiSCSI_DiscoveryConfig, MSiSCSI_DiscoveryConfig, MSiSCSI_DiscoveryConfig structure [Storage Devices], PMSiSCSI_DiscoveryConfig, PMSiSCSI_DiscoveryConfig structure pointer [Storage Devices], _MSiSCSI_DiscoveryConfig, iscsicfg/MSiSCSI_DiscoveryConfig, iscsicfg/PMSiSCSI_DiscoveryConfig, storage.msiscsi_discoveryconfig, structs-iSCSI_b27b8a7d-40bd-40a7-b9d8-3e49bbc8497f.xml"
 f1_keywords:
  - "iscsicfg/MSiSCSI_DiscoveryConfig"
+ - "MSiSCSI_DiscoveryConfig"
 req.header: iscsicfg.h
 req.include-header: Iscsicfg.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - iscsicfg.h
 api_name:
 - MSiSCSI_DiscoveryConfig
-product:
-- Windows
 targetos: Windows
 req.typenames: MSiSCSI_DiscoveryConfig, *PMSiSCSI_DiscoveryConfig
 ---

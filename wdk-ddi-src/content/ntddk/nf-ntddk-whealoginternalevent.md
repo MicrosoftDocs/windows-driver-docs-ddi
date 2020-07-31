@@ -27,13 +27,14 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - DllExport
 api_location:
  - ntddk.h
 api_name:
  - WheaLogInternalEvent
 f1_keywords:
- - ntddk/WheaLogInternalEvent
+ - ntddk//WheaLogInternalEvent
+ - WheaLogInternalEvent
 dev_langs:
  - c++
 ---

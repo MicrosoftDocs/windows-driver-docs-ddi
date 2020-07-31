@@ -10,6 +10,7 @@ keywords: ["WdfInterruptEnable function"]
 ms.keywords: DFInterruptObjectRef_4fa737c9-fae4-4d3c-9a27-165f5348c66c.xml, WdfInterruptEnable, WdfInterruptEnable method, kmdf.wdfinterruptenable, wdf.wdfinterruptenable, wdfinterrupt/WdfInterruptEnable
 f1_keywords:
  - "wdfinterrupt/WdfInterruptEnable"
+ - "WdfInterruptEnable"
 req.header: wdfinterrupt.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfInterruptEnable
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

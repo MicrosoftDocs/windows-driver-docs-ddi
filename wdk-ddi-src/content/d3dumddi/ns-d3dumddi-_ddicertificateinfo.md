@@ -10,6 +10,7 @@ keywords: ["_DDICERTIFICATEINFO structure"]
 ms.keywords: D3D_other_Structs_99ca6ef3-fba8-4f57-b0bf-16be3c4f8a77.xml, DDICERTIFICATEINFO, DDICERTIFICATEINFO structure [Display Devices], _DDICERTIFICATEINFO, d3dumddi/DDICERTIFICATEINFO, display.ddicertificateinfo
 f1_keywords:
  - "d3dumddi/DDICERTIFICATEINFO"
+ - "DDICERTIFICATEINFO"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - DDICERTIFICATEINFO
-product:
-- Windows
 targetos: Windows
 req.typenames: DDICERTIFICATEINFO
 ---

@@ -10,6 +10,7 @@ keywords: ["PFNKSDEVICESETPOWER callback function"]
 ms.keywords: AVStrMiniDeviceSetPower, AVStrMiniDeviceSetPower routine [Streaming Media Devices], PFNKSDEVICESETPOWER, avstclbk_8b833d83-a199-44a9-97b8-c4afc624d6d5.xml, ks/AVStrMiniDeviceSetPower, stream.avstrminidevicesetpower
 f1_keywords:
  - "ks/AVStrMiniDeviceSetPower"
+ - "AVStrMiniDeviceSetPower"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - AVStrMiniDeviceSetPower
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

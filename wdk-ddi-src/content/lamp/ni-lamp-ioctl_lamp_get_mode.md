@@ -10,6 +10,7 @@ keywords: ["IOCTL_LAMP_GET_MODE IOCTL"]
 ms.keywords: IOCTL_LAMP_GET_MODE, IOCTL_LAMP_GET_MODE control, IOCTL_LAMP_GET_MODE control code [Streaming Media Devices], lamp/IOCTL_LAMP_GET_MODE, stream.ioctl_lamp_get_mode
 f1_keywords:
  - "lamp/IOCTL_LAMP_GET_MODE"
+ - "IOCTL_LAMP_GET_MODE"
 req.header: lamp.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - lamp.h
 api_name:
 - IOCTL_LAMP_GET_MODE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

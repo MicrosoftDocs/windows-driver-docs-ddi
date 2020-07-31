@@ -10,6 +10,7 @@ keywords: ["wiasSetValidListStr function"]
 ms.keywords: image.wiassetvalidliststr, wiamdef/wiasSetValidListStr, wiasFncs_c18aeb74-5c44-43ea-be9e-5132f45a5f77.xml, wiasSetValidListStr, wiasSetValidListStr function [Imaging Devices]
 f1_keywords:
  - "wiamdef/wiasSetValidListStr"
+ - "wiasSetValidListStr"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wiaservc.dll
 api_name:
 - wiasSetValidListStr
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

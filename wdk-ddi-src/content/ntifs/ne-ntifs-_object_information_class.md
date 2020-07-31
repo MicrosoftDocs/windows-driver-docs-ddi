@@ -10,6 +10,7 @@ keywords: ["_OBJECT_INFORMATION_CLASS enumeration"]
 ms.keywords: OBJECT_INFORMATION_CLASS, OBJECT_INFORMATION_CLASS enumeration [Installable File System Drivers], ObjectBasicInformation, ObjectTypeInformation, _OBJECT_INFORMATION_CLASS, ifsk.object_information_class, ntifs/OBJECT_INFORMATION_CLASS, ntifs/ObjectBasicInformation, ntifs/ObjectTypeInformation, objectstructures_60aa943f-6a91-429d-8c9d-1554f1bcf03e.xml
 f1_keywords:
  - "ntifs/OBJECT_INFORMATION_CLASS"
+ - "OBJECT_INFORMATION_CLASS"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - OBJECT_INFORMATION_CLASS
-product:
-- Windows
 targetos: Windows
 req.typenames: OBJECT_INFORMATION_CLASS
 ---

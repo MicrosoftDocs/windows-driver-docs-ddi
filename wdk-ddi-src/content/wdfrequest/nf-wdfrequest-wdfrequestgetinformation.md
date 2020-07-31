@@ -10,6 +10,7 @@ keywords: ["WdfRequestGetInformation function"]
 ms.keywords: DFRequestObjectRef_ea947de9-aea4-4e66-8686-f4ca5a1385c4.xml, WdfRequestGetInformation, WdfRequestGetInformation method, kmdf.wdfrequestgetinformation, wdf.wdfrequestgetinformation, wdfrequest/WdfRequestGetInformation
 f1_keywords:
  - "wdfrequest/WdfRequestGetInformation"
+ - "WdfRequestGetInformation"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfRequestGetInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

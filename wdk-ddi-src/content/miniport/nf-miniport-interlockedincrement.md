@@ -10,6 +10,7 @@ keywords: ["InterlockedIncrement function"]
 ms.keywords: InterlockedIncrement, InterlockedIncrement routine [Kernel-Mode Driver Architecture], k102_8d625992-2e36-464d-a771-629d5f08b398.xml, kernel.interlockedincrement, wdm/InterlockedIncrement
 f1_keywords:
  - "miniport/InterlockedIncrement"
+ - "InterlockedIncrement"
 req.header: miniport.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Miniport.h
 req.target-type: Universal
@@ -41,8 +42,6 @@ api_location:
 - MinKernelBase.dll
 api_name:
 - InterlockedIncrement
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

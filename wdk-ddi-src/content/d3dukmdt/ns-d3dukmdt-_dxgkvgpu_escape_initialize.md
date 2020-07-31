@@ -10,6 +10,7 @@ keywords: ["_DXGKVGPU_ESCAPE_INITIALIZE structure"]
 ms.keywords: DXGKVGPU_ESCAPE_INITIALIZE, DXGKVGPU_ESCAPE_INITIALIZE structure [Display Devices], _DXGKVGPU_ESCAPE_INITIALIZE, d3dukmdt/DXGKVGPU_ESCAPE_INITIALIZE, display.dxgkvgpu_escape_initialize
 f1_keywords:
  - "d3dukmdt/DXGKVGPU_ESCAPE_INITIALIZE"
+ - "DXGKVGPU_ESCAPE_INITIALIZE"
 req.header: d3dukmdt.h
 req.include-header:
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dukmdt.h
 api_name:
 - DXGKVGPU_ESCAPE_INITIALIZE
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGKVGPU_ESCAPE_INITIALIZE
 ---

@@ -10,6 +10,7 @@ keywords: ["_UDECX_USB_DEVICE_SPEED enumeration"]
 ms.keywords: "*PUDECX_USB_DEVICE_SPEED, UDECX_USB_DEVICE_SPEED, UDECX_USB_DEVICE_SPEED enumeration [Buses], UdecxUsbFullSpeed, UdecxUsbHighSpeed, UdecxUsbLowSpeed, UdecxUsbSuperSpeed, _UDECX_USB_DEVICE_SPEED, buses.udecx_usb_device_speed, udecxusbdevice/UDECX_USB_DEVICE_SPEED, udecxusbdevice/UdecxUsbFullSpeed, udecxusbdevice/UdecxUsbHighSpeed, udecxusbdevice/UdecxUsbLowSpeed, udecxusbdevice/UdecxUsbSuperSpeed"
 f1_keywords:
  - "udecxusbdevice/UDECX_USB_DEVICE_SPEED"
+ - "UDECX_USB_DEVICE_SPEED"
 req.header: udecxusbdevice.h
 req.include-header: Udecx.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - UdecxUsbDevice.h
 api_name:
 - UDECX_USB_DEVICE_SPEED
-product:
-- Windows
 targetos: Windows
 req.typenames: UDECX_USB_DEVICE_SPEED, *PUDECX_USB_DEVICE_SPEED
 ---

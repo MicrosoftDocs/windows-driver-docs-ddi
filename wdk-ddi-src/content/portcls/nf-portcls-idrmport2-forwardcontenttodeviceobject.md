@@ -10,6 +10,7 @@ keywords: ["IDrmPort2::ForwardContentToDeviceObject"]
 ms.keywords: ForwardContentToDeviceObject, ForwardContentToDeviceObject method [Audio Devices], ForwardContentToDeviceObject method [Audio Devices],IDrmPort2 interface, IDrmPort2 interface [Audio Devices],ForwardContentToDeviceObject method, IDrmPort2.ForwardContentToDeviceObject, IDrmPort2::ForwardContentToDeviceObject, audio.idrmport2_forwardcontenttodeviceobject, audmp-routines_6a59757e-e53e-4edb-aaa3-7dc695a1bc16.xml, portcls/IDrmPort2::ForwardContentToDeviceObject
 f1_keywords:
  - "portcls/IDrmPort2.ForwardContentToDeviceObject"
+ - "IDrmPort2.ForwardContentToDeviceObject"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IDrmPort2.ForwardContentToDeviceObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["UFX_PROPRIETARY_CHARGER_SET_PROPERTY callback function"]
 ms.keywords: PFN_UFX_PROPRIETARY_CHARGER_SET_PROPERTY, PFN_UFX_PROPRIETARY_CHARGER_SET_PROPERTY callback function pointer [Buses], UFX_PROPRIETARY_CHARGER_SET_PROPERTY, UFX_PROPRIETARY_CHARGER_SET_PROPERTY callback, UfxProprietaryChargerSetProperty, UfxProprietaryChargerSetProperty callback function [Buses], buses.ufx_proprietary_charger_set_property, ufxproprietarycharger/UfxProprietaryChargerSetProperty
 f1_keywords:
  - "ufxproprietarycharger/PFN_UFX_PROPRIETARY_CHARGER_SET_PROPERTY"
+ - "PFN_UFX_PROPRIETARY_CHARGER_SET_PROPERTY"
 req.header: ufxproprietarycharger.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ufxproprietarycharger.h
 api_name:
 - PFN_UFX_PROPRIETARY_CHARGER_SET_PROPERTY
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["TmPrepareEnlistment function"]
 ms.keywords: TmPrepareEnlistment, TmPrepareEnlistment routine [Kernel-Mode Driver Architecture], kernel.tmprepareenlistment, ktm_ref_c5ed06cd-98cc-4e0c-9311-07dcaea060fa.xml, wdm/TmPrepareEnlistment
 f1_keywords:
  - "wdm/TmPrepareEnlistment"
+ - "TmPrepareEnlistment"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -38,8 +39,6 @@ api_location:
 - tm.sys
 api_name:
 - TmPrepareEnlistment
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

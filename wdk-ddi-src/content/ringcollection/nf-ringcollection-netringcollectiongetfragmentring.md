@@ -8,6 +8,7 @@ ms.date: 02/06/2019
 keywords: ["NetRingCollectionGetFragmentRing function"]
 f1_keywords:
  - "ringcollection/RILWRITEPHONEBOOKENTRYPARAMS"
+ - "RILWRITEPHONEBOOKENTRYPARAMS"
 ms.keywords: NetRingCollectionGetFragmentRing
 req.header: ringcollection.h
 req.include-header: netadaptercx.h
@@ -37,8 +38,6 @@ apilocation:
 apiname: 
 - NetRingCollectionGetFragmentRing
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetRingCollectionGetFragmentRing function

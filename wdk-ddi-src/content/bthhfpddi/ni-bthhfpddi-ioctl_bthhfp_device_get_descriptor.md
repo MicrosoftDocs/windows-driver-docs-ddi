@@ -10,6 +10,7 @@ keywords: ["IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR IOCTL"]
 ms.keywords: IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR, IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR control, IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR control code [Audio Devices], audio.ioctl_bthhfp_device_get_descriptor, bthhfpddi/IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR
 f1_keywords:
  - "bthhfpddi/IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR"
+ - "IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR"
 req.header: bthhfpddi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Bthhfpddi.h
 api_name:
 - IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

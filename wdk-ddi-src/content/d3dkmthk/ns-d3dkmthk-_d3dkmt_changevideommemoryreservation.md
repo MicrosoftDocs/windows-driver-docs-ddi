@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_CHANGEVIDEOMMEMORYRESERVATION structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_CHANGEVIDEOMMEMORYRESERVATION"
+ - "_D3DKMT_CHANGEVIDEOMMEMORYRESERVATION"
 ms.keywords: _D3DKMT_CHANGEVIDEOMMEMORYRESERVATION, D3DKMT_CHANGEVIDEOMEMORYRESERVATION, 
 req.header: d3dkmthk.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - d3dkmthk.h
 api_name: 
 - _D3DKMT_CHANGEVIDEOMMEMORYRESERVATION
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

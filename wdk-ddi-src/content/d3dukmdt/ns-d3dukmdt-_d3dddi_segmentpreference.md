@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DDDI_SEGMENTPREFERENCE structure"]
 f1_keywords:
  - "d3dukmdt/_D3DDDI_SEGMENTPREFERENCE"
+ - "_D3DDDI_SEGMENTPREFERENCE"
 ms.keywords: _D3DDDI_SEGMENTPREFERENCE, D3DDDI_SEGMENTPREFERENCE, 
 req.header: d3dukmdt.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - d3dukmdt.h
 api_name: 
 - _D3DDDI_SEGMENTPREFERENCE
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

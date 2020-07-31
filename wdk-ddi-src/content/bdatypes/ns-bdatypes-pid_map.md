@@ -10,6 +10,7 @@ keywords: ["PID_MAP structure"]
 ms.keywords: PID_MAP, PID_MAP structure [Streaming Media Devices], bdaref_54fdf358-1957-4e84-a5a4-9929395f105b.xml, bdatypes/PID_MAP, stream.pid_map
 f1_keywords:
  - "bdatypes/PID_MAP"
+ - "PID_MAP"
 req.header: bdatypes.h
 req.include-header: Bdatypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - bdatypes.h
 api_name:
 - PID_MAP
-product:
-- Windows
 targetos: Windows
 req.typenames: PID_MAP
 ---

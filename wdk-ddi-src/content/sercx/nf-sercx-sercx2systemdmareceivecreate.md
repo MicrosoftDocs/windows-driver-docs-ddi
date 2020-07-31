@@ -10,6 +10,7 @@ keywords: ["SerCx2SystemDmaReceiveCreate function"]
 ms.keywords: 2/SerCx2SystemDmaReceiveCreate, SerCx2SystemDmaReceiveCreate, SerCx2SystemDmaReceiveCreate method [Serial Ports], serports.sercx2systemdmareceivecreate
 f1_keywords:
  - "sercx/SerCx2SystemDmaReceiveCreate"
+ - "SerCx2SystemDmaReceiveCreate"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - 2.0\Sercx.h
 api_name:
 - SerCx2SystemDmaReceiveCreate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

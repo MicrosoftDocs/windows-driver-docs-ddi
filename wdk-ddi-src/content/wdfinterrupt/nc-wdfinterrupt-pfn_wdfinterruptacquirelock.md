@@ -10,6 +10,7 @@ keywords: ["PFN_WDFINTERRUPTACQUIRELOCK callback"]
 ms.keywords: wdf.wdfinterruptacquirelock, PFN_WDFINTERRUPTACQUIRELOCK, WdfInterruptAcquireLock callback function, WdfInterruptAcquireLock, wdfinterrupt/WdfInterruptAcquireLock, DFInterruptObjectRef_9d3cd9a1-801c-437a-b1df-7e2819d1465a.xml, kmdf.wdfinterruptacquirelock
 f1_keywords:
  - "wdfinterrupt/WdfInterruptAcquireLock"
+ - "WdfInterruptAcquireLock"
 req.header: wdfinterrupt.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - wdfinterrupt.h
 api_name:
 - WdfInterruptAcquireLock
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_COINSTALLER_INSTALL_OPTIONS, *PWDF_COINSTALLER_INSTALL_OPTIONS
 req.product: Windows 10 or later.

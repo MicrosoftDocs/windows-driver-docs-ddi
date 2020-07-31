@@ -10,6 +10,7 @@ keywords: ["SeQueryAuthenticationIdToken function"]
 ms.keywords: SeQueryAuthenticationIdToken, SeQueryAuthenticationIdToken routine [Installable File System Drivers], ifsk.sequeryauthenticationidtoken, ntifs/SeQueryAuthenticationIdToken, seref_cc55425d-99c0-4fbe-a7ce-06d75ae74586.xml
 f1_keywords:
  - "ntifs/SeQueryAuthenticationIdToken"
+ - "SeQueryAuthenticationIdToken"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - SeQueryAuthenticationIdToken
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

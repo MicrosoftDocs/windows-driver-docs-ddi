@@ -10,6 +10,7 @@ keywords: ["IStiUSD::GetNotificationData"]
 ms.keywords: GetNotificationData, GetNotificationData method [Imaging Devices], GetNotificationData method [Imaging Devices],IStiUSD interface, IStiUSD interface [Imaging Devices],GetNotificationData method, IStiUSD.GetNotificationData, IStiUSD::GetNotificationData, image.istiusd_getnotificationdata, stifnc_1641dbac-f429-4f85-9cd0-25ef82000992.xml, stiusd/IStiUSD::GetNotificationData
 f1_keywords:
  - "stiusd/IStiUSD.GetNotificationData"
+ - "IStiUSD.GetNotificationData"
 req.header: stiusd.h
 req.include-header: Stiusd.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - stiusd.h
 api_name:
 - IStiUSD.GetNotificationData
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

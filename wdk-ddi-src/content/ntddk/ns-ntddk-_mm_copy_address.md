@@ -10,6 +10,7 @@ keywords: ["_MM_COPY_ADDRESS structure"]
 ms.keywords: "*PMMCOPY_ADDRESS, MM_COPY_ADDRESS, MM_COPY_ADDRESS structure [Kernel-Mode Driver Architecture], PMM_COPY_ADDRESS, PMM_COPY_ADDRESS structure pointer [Kernel-Mode Driver Architecture], _MM_COPY_ADDRESS, kernel.mm_copy_address, ntddk/MM_COPY_ADDRESS, ntddk/PMM_COPY_ADDRESS"
 f1_keywords:
  - "ntddk/MM_COPY_ADDRESS"
+ - "MM_COPY_ADDRESS"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddk.h
 api_name:
 - MM_COPY_ADDRESS
-product:
-- Windows
 targetos: Windows
 req.typenames: MM_COPY_ADDRESS, *PMMCOPY_ADDRESS
 ---

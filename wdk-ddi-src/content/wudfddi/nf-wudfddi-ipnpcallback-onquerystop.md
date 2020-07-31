@@ -10,6 +10,7 @@ keywords: ["IPnpCallback::OnQueryStop"]
 ms.keywords: IPnpCallback interface,OnQueryStop method, IPnpCallback.OnQueryStop, IPnpCallback::OnQueryStop, OnQueryStop, OnQueryStop method, OnQueryStop method,IPnpCallback interface, UMDFDeviceObjectRef_9215c39e-2cb9-4de6-9fb3-f228dad51f6d.xml, umdf.ipnpcallback_onquerystop, wdf.ipnpcallback_onquerystop, wudfddi/IPnpCallback::OnQueryStop
 f1_keywords:
  - "wudfddi/IPnpCallback.OnQueryStop"
+ - "IPnpCallback.OnQueryStop"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wudfddi.h
 api_name:
 - IPnpCallback.OnQueryStop
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

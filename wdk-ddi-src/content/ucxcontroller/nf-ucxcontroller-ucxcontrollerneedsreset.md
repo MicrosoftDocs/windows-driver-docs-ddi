@@ -10,6 +10,7 @@ keywords: ["UcxControllerNeedsReset function"]
 ms.keywords: UcxControllerNeedsReset, UcxControllerNeedsReset method [Buses], buses._ucxcontrollerneedsreset, ucxcontroller/UcxControllerNeedsReset
 f1_keywords:
  - "ucxcontroller/UcxControllerNeedsReset"
+ - "UcxControllerNeedsReset"
 req.header: ucxcontroller.h
 req.include-header: Ucxclass.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ucxcontroller.h
 api_name:
 - UcxControllerNeedsReset
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IDebugControl4::SetExpressionSyntaxByNameWide"]
 ms.keywords: IDebugControl4 interface [Windows Debugging],SetExpressionSyntaxByNameWide method, IDebugControl4.SetExpressionSyntaxByNameWide, IDebugControl4::SetExpressionSyntaxByNameWide, SetExpressionSyntaxByNameWide, SetExpressionSyntaxByNameWide method [Windows Debugging], SetExpressionSyntaxByNameWide method [Windows Debugging],IDebugControl4 interface, dbgeng/IDebugControl4::SetExpressionSyntaxByNameWide, debugger.setexpressionsyntaxbynamewide
 f1_keywords:
  - "dbgeng/IDebugControl4.SetExpressionSyntaxByNameWide"
+ - "IDebugControl4.SetExpressionSyntaxByNameWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugControl4.SetExpressionSyntaxByNameWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

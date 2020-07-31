@@ -10,6 +10,7 @@ keywords: ["MINIPORT_CO_DEACTIVATE_VC callback function"]
 ms.keywords: MINIPORT_CO_DEACTIVATE_VC, MINIPORT_CO_DEACTIVATE_VC callback, MiniportCoDeactivateVc, MiniportCoDeactivateVc callback function [Network Drivers Starting with Windows Vista], condis_miniport_ref_01461ff7-cd2e-466d-ab9a-7903484ecbc5.xml, ndis/MiniportCoDeactivateVc, netvista.miniportcodeactivatevc
 f1_keywords:
  - "ndis/MiniportCoDeactivateVc"
+ - "MiniportCoDeactivateVc"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - MiniportCoDeactivateVc
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["NetDmaProviderStart function"]
 ms.keywords: NetDmaProviderStart, NetDmaProviderStart function [Network Drivers Starting with Windows Vista], netdma/NetDmaProviderStart, netdma_ref_bdb7c400-1c73-4dcb-8eb2-4121172302ad.xml, netvista.netdmaproviderstart
 f1_keywords:
  - "netdma/NetDmaProviderStart"
+ - "NetDmaProviderStart"
 req.header: netdma.h
 req.include-header: Netdma.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - netdma.h
 api_name:
 - NetDmaProviderStart
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

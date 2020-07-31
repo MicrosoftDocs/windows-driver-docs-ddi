@@ -10,6 +10,7 @@ keywords: ["FsRtlFindInTunnelCache function"]
 ms.keywords: FsRtlFindInTunnelCache, FsRtlFindInTunnelCache routine [Installable File System Drivers], fsrtlref_ae11e9b8-bc4f-4c56-84a7-8e328e215415.xml, ifsk.fsrtlfindintunnelcache, ntifs/FsRtlFindInTunnelCache
 f1_keywords:
  - "ntifs/FsRtlFindInTunnelCache"
+ - "FsRtlFindInTunnelCache"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlFindInTunnelCache
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 dev_langs:

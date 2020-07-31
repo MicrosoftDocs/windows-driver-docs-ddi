@@ -10,6 +10,7 @@ keywords: ["ExAcquireSharedWaitForExclusive function"]
 ms.keywords: ExAcquireSharedWaitForExclusive, ExAcquireSharedWaitForExclusive routine [Kernel-Mode Driver Architecture], k102_505fe2a0-5751-4481-a545-2091828463ce.xml, kernel.exacquiresharedwaitforexclusive, wdm/ExAcquireSharedWaitForExclusive
 f1_keywords:
  - "wdm/ExAcquireSharedWaitForExclusive"
+ - "ExAcquireSharedWaitForExclusive"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - ExAcquireSharedWaitForExclusive
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["PoRegisterDeviceForIdleDetection function"]
 ms.keywords: PoRegisterDeviceForIdleDetection, PoRegisterDeviceForIdleDetection routine [Kernel-Mode Driver Architecture], kernel.poregisterdeviceforidledetection, portn_be0ccb17-9465-4f61-a8ed-fa945f5340d6.xml, wdm/PoRegisterDeviceForIdleDetection
 f1_keywords:
  - "ntifs/PoRegisterDeviceForIdleDetection"
+ - "PoRegisterDeviceForIdleDetection"
 req.header: ntifs.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - PoRegisterDeviceForIdleDetection
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

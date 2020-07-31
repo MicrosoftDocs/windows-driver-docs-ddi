@@ -10,6 +10,7 @@ keywords: ["READ_PORT_BUFFER_USHORT function"]
 ms.keywords: READ_PORT_BUFFER_USHORT, READ_PORT_BUFFER_USHORT function, umdf.read_port_buffer_ushort, wdf.read_port_buffer_ushort, wudfddi_hwaccess/READ_PORT_BUFFER_USHORT
 f1_keywords:
  - "wudfddi_hwaccess/READ_PORT_BUFFER_USHORT"
+ - "READ_PORT_BUFFER_USHORT"
 req.header: wudfddi_hwaccess.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wudfddi_hwaccess.h
 api_name:
 - READ_PORT_BUFFER_USHORT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

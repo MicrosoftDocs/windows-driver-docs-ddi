@@ -10,6 +10,7 @@ keywords: ["DXGK_BRIGHTNESS_SET callback function"]
 ms.keywords: DXGK_BRIGHTNESS_SET, DXGK_BRIGHTNESS_SET callback, DmFunctions_7b5ff27a-7a8f-4dee-8b3d-c9b0df76db6d.xml, DxgkDdiSetBrightness, DxgkDdiSetBrightness callback function [Display Devices], display.dxgkddisetbrightness, dispmprt/DxgkDdiSetBrightness
 f1_keywords:
  - "dispmprt/DxgkDdiSetBrightness"
+ - "DxgkDdiSetBrightness"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dispmprt.h
 api_name:
 - DxgkDdiSetBrightness
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

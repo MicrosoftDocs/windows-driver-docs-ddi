@@ -10,6 +10,7 @@ keywords: ["IAdapterPowerManagement::QueryPowerChangeState"]
 ms.keywords: IAdapterPowerManagement interface [Audio Devices],QueryPowerChangeState method, IAdapterPowerManagement.QueryPowerChangeState, IAdapterPowerManagement::QueryPowerChangeState, QueryPowerChangeState, QueryPowerChangeState method [Audio Devices], QueryPowerChangeState method [Audio Devices],IAdapterPowerManagement interface, audio.iadapterpowermanagement_querypowerchangestate, audmp-routines_4a5ebdca-faa4-4f99-89d1-6c86a928243c.xml, portcls/IAdapterPowerManagement::QueryPowerChangeState
 f1_keywords:
  - "portcls/IAdapterPowerManagement.QueryPowerChangeState"
+ - "IAdapterPowerManagement.QueryPowerChangeState"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IAdapterPowerManagement.QueryPowerChangeState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

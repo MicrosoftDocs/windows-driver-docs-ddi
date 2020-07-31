@@ -10,6 +10,7 @@ keywords: ["SENSOR_PROPERTY_LIST structure"]
 ms.keywords: "*PSENSOR_PROPERTY_LIST, PSENSOR_PROPERTY_LIST, PSENSOR_PROPERTY_LIST structure pointer [Sensor Devices], SENSOR_PROPERTY_LIST, SENSOR_PROPERTY_LIST structure [Sensor Devices], sensors.sensor_property_list, sensorsdef/PSENSOR_PROPERTY_LIST, sensorsdef/SENSOR_PROPERTY_LIST"
 f1_keywords:
  - "sensorsdef/SENSOR_PROPERTY_LIST"
+ - "SENSOR_PROPERTY_LIST"
 req.header: sensorsdef.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Sensorsdef.h
 api_name:
 - SENSOR_PROPERTY_LIST
-product:
-- Windows
 targetos: Windows
 req.typenames: SENSOR_PROPERTY_LIST, *PSENSOR_PROPERTY_LIST
 ---

@@ -10,6 +10,7 @@ keywords: ["KsCreateAllocator2 function"]
 ms.keywords: KsCreateAllocator2, KsCreateAllocator2 function [Streaming Media Devices], ks/KsCreateAllocator2, stream.kscreateallocator2
 f1_keywords:
  - "ks/KsCreateAllocator2"
+ - "KsCreateAllocator2"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Ks.h
 api_name:
 - KsCreateAllocator2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

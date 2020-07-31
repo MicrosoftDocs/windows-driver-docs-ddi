@@ -10,6 +10,7 @@ keywords: ["PROTOCOL_CL_CLOSE_CALL_COMPLETE callback function"]
 ms.keywords: PROTOCOL_CL_CLOSE_CALL_COMPLETE, PROTOCOL_CL_CLOSE_CALL_COMPLETE callback, ProtocolClCloseCallComplete, ProtocolClCloseCallComplete callback function [Network Drivers Starting with Windows Vista], condis_client_ref_a35e2fe4-8437-4c41-9ec1-13a8926108b5.xml, ndis/ProtocolClCloseCallComplete, netvista.protocolclclosecallcomplete
 f1_keywords:
  - "ndis/ProtocolClCloseCallComplete"
+ - "ProtocolClCloseCallComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - ProtocolClCloseCallComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

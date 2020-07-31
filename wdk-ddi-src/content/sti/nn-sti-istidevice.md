@@ -10,6 +10,7 @@ keywords: ["IStiDevice interface"]
 ms.keywords: IStiDevice, IStiDevice interface [Imaging Devices], IStiDevice interface [Imaging Devices],described, image.istidevice_interface_methods, sti/IStiDevice, stifnc_ef9e9c06-e918-462c-92c0-f4b1605a0847.xml
 f1_keywords:
  - "sti/IStiDevice"
+ - "IStiDevice"
 req.header: sti.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - sti.h
 api_name:
 - IStiDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_QUERYRESOURCEINFO structure"]
 ms.keywords: D3DKMT_QUERYRESOURCEINFO, D3DKMT_QUERYRESOURCEINFO structure [Display Devices], OpenGL_Structs_1bab95d7-d3a4-4380-939f-bca4e2d98478.xml, _D3DKMT_QUERYRESOURCEINFO, d3dkmthk/D3DKMT_QUERYRESOURCEINFO, display.d3dkmt_queryresourceinfo
 f1_keywords:
  - "d3dkmthk/D3DKMT_QUERYRESOURCEINFO"
+ - "D3DKMT_QUERYRESOURCEINFO"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMT_QUERYRESOURCEINFO
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_QUERYRESOURCEINFO

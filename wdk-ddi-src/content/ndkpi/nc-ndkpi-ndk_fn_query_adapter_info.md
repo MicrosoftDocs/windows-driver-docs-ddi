@@ -10,6 +10,7 @@ keywords: ["NDK_FN_QUERY_ADAPTER_INFO callback function"]
 ms.keywords: NDK_FN_QUERY_ADAPTER_INFO, NDK_FN_QUERY_ADAPTER_INFO callback, NdkQueryAdapterInfo, NdkQueryAdapterInfo callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkQueryAdapterInfo, netvista.ndk_fn_query_adapter_info
 f1_keywords:
  - "ndkpi/NdkQueryAdapterInfo"
+ - "NdkQueryAdapterInfo"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ndkpi.h
 api_name:
 - NdkQueryAdapterInfo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

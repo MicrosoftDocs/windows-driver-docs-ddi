@@ -10,6 +10,7 @@ keywords: ["IWDFUsbTargetDevice::RetrievePowerPolicy"]
 ms.keywords: IWDFUsbTargetDevice interface,RetrievePowerPolicy method, IWDFUsbTargetDevice.RetrievePowerPolicy, IWDFUsbTargetDevice::RetrievePowerPolicy, RetrievePowerPolicy, RetrievePowerPolicy method, RetrievePowerPolicy method,IWDFUsbTargetDevice interface, UMDFUSBref_50da7595-0735-475b-863e-33a689f4fc2b.xml, umdf.iwdfusbtargetdevice_retrievepowerpolicy, wdf.iwdfusbtargetdevice_retrievepowerpolicy, wudfusb/IWDFUsbTargetDevice::RetrievePowerPolicy
 f1_keywords:
  - "wudfusb/IWDFUsbTargetDevice.RetrievePowerPolicy"
+ - "IWDFUsbTargetDevice.RetrievePowerPolicy"
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFUsbTargetDevice.RetrievePowerPolicy
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["KSAUDIO_MIC_ARRAY_GEOMETRY structure"]
 ms.keywords: "*PKSAUDIO_MIC_ARRAY_GEOMETRY, KSAUDIO_MIC_ARRAY_GEOMETRY, KSAUDIO_MIC_ARRAY_GEOMETRY structure [Audio Devices], PKSAUDIO_MIC_ARRAY_GEOMETRY, PKSAUDIO_MIC_ARRAY_GEOMETRY structure pointer [Audio Devices], aud-prop_b25763af-a8d5-4335-ae71-f3bc59218201.xml, audio.ksaudio_mic_array_geometry, ksmedia/KSAUDIO_MIC_ARRAY_GEOMETRY, ksmedia/PKSAUDIO_MIC_ARRAY_GEOMETRY"
 f1_keywords:
  - "ksmedia/KSAUDIO_MIC_ARRAY_GEOMETRY"
+ - "KSAUDIO_MIC_ARRAY_GEOMETRY"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KSAUDIO_MIC_ARRAY_GEOMETRY
-product:
-- Windows
 targetos: Windows
 req.typenames: KSAUDIO_MIC_ARRAY_GEOMETRY, *PKSAUDIO_MIC_ARRAY_GEOMETRY
 ---

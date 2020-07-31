@@ -10,6 +10,7 @@ keywords: ["_BTH_VENDOR_SPECIFIC_COMMAND structure"]
 ms.keywords: "*PBTH_VENDOR_SPECIFIC_COMMAND, BTH_VENDOR_SPECIFIC_COMMAND, BTH_VENDOR_SPECIFIC_COMMAND structure [Bluetooth Devices], PBTH_VENDOR_SPECIFIC_COMMAND, PBTH_VENDOR_SPECIFIC_COMMAND structure pointer [Bluetooth Devices], _BTH_VENDOR_SPECIFIC_COMMAND, bltooth.bth_vendor_specific_command, bth_ref_568c918a-282f-48e0-994a-c49289976bb6.xml, bthioctl/BTH_VENDOR_SPECIFIC_COMMAND, bthioctl/PBTH_VENDOR_SPECIFIC_COMMAND"
 f1_keywords:
  - "bthioctl/BTH_VENDOR_SPECIFIC_COMMAND"
+ - "BTH_VENDOR_SPECIFIC_COMMAND"
 req.header: bthioctl.h
 req.include-header: Bthioctl.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - bthioctl.h
 api_name:
 - BTH_VENDOR_SPECIFIC_COMMAND
-product:
-- Windows
 targetos: Windows
 req.typenames: BTH_VENDOR_SPECIFIC_COMMAND, *PBTH_VENDOR_SPECIFIC_COMMAND
 ---

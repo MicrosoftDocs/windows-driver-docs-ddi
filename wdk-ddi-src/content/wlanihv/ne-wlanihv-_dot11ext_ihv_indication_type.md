@@ -10,6 +10,7 @@ keywords: ["_DOT11EXT_IHV_INDICATION_TYPE enumeration"]
 ms.keywords: "*PDOT11EXT_IHV_INDICATION_TYPE, DOT11EXT_IHV_INDICATION_TYPE, DOT11EXT_IHV_INDICATION_TYPE enumeration [Network Drivers Starting with Windows Vista], IndicationTypeLinkQuality, IndicationTypeNicSpecificNotification, IndicationTypePhyStateChange, IndicationTypePmkidCandidateList, IndicationTypeTkipMicFailure, Native_802.11_data_types_57d8dd95-82d4-41e6-8ba3-b1ec5254b4b8.xml, PDOT11EXT_IHV_INDICATION_TYPE, PDOT11EXT_IHV_INDICATION_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _DOT11EXT_IHV_INDICATION_TYPE, netvista.dot11ext_ihv_indication_type, wlanihv/DOT11EXT_IHV_INDICATION_TYPE, wlanihv/IndicationTypeLinkQuality, wlanihv/IndicationTypeNicSpecificNotification, wlanihv/IndicationTypePhyStateChange, wlanihv/IndicationTypePmkidCandidateList, wlanihv/IndicationTypeTkipMicFailure, wlanihv/PDOT11EXT_IHV_INDICATION_TYPE"
 f1_keywords:
  - "wlanihv/DOT11EXT_IHV_INDICATION_TYPE"
+ - "DOT11EXT_IHV_INDICATION_TYPE"
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wlanihv.h
 api_name:
 - DOT11EXT_IHV_INDICATION_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT11EXT_IHV_INDICATION_TYPE, *PDOT11EXT_IHV_INDICATION_TYPE
 req.product: Windows 10 or later.

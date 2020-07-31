@@ -10,6 +10,7 @@ keywords: ["_DEBUG_FLR_PARAM_TYPE enumeration"]
 ms.keywords: "..., DEBUG_FLR_DRIVER_OBJECT, DEBUG_FLR_INVALID, DEBUG_FLR_MASK_ALL, DEBUG_FLR_PARAM_TYPE, DEBUG_FLR_PARAM_TYPE enumeration [Windows Debugging], DEBUG_FLR_RESERVED, FA_TAG, _DEBUG_FLR_PARAM_TYPE, debugger.debug_flr_param_type, extsfns/..., extsfns/DEBUG_FLR_DRIVER_OBJECT, extsfns/DEBUG_FLR_INVALID, extsfns/DEBUG_FLR_MASK_ALL, extsfns/DEBUG_FLR_PARAM_TYPE, extsfns/DEBUG_FLR_RESERVED"
 f1_keywords:
  - "extsfns/DEBUG_FLR_PARAM_TYPE"
+ - "DEBUG_FLR_PARAM_TYPE"
 req.header: extsfns.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - extsfns.h
 api_name:
 - DEBUG_FLR_PARAM_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: DEBUG_FLR_PARAM_TYPE
 ---

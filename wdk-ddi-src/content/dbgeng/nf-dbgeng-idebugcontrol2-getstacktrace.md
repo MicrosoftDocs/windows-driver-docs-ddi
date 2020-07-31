@@ -10,6 +10,7 @@ keywords: ["IDebugControl2::GetStackTrace"]
 ms.keywords: GetStackTrace, GetStackTrace method [Windows Debugging], GetStackTrace method [Windows Debugging],IDebugControl interface, GetStackTrace method [Windows Debugging],IDebugControl2 interface, GetStackTrace method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetStackTrace method, IDebugControl2 interface [Windows Debugging],GetStackTrace method, IDebugControl2.GetStackTrace, IDebugControl2::GetStackTrace, IDebugControl3 interface [Windows Debugging],GetStackTrace method, IDebugControl3::GetStackTrace, IDebugControl::GetStackTrace, IDebugControl_ef51127a-c022-4e3d-bb63-55553daea893.xml, dbgeng/IDebugControl2::GetStackTrace, dbgeng/IDebugControl3::GetStackTrace, dbgeng/IDebugControl::GetStackTrace, debugger.getstacktrace
 f1_keywords:
  - "dbgeng/IDebugControl.GetStackTrace"
+ - "IDebugControl.GetStackTrace"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -38,8 +39,6 @@ api_name:
 - IDebugControl.GetStackTrace
 - IDebugControl2.GetStackTrace
 - IDebugControl3.GetStackTrace
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

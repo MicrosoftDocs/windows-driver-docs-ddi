@@ -10,6 +10,7 @@ keywords: ["_DXVA_TCoefSingle structure"]
 ms.keywords: "*LPDXVA_TCoefSingle, DXVA_TCoefSingle, DXVA_TCoefSingle structure [Display Devices], LPDXVA_TCoefSingle, LPDXVA_TCoefSingle structure pointer [Display Devices], _DXVA_TCoefSingle, display.dxva_tcoefsingle, dxva/DXVA_TCoefSingle, dxva/LPDXVA_TCoefSingle, dxvaref_2b92ced3-3856-466f-b95a-84dd78426a0e.xml"
 f1_keywords:
  - "dxva/DXVA_TCoefSingle"
+ - "DXVA_TCoefSingle"
 req.header: dxva.h
 req.include-header: Dxva.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dxva.h
 api_name:
 - DXVA_TCoefSingle
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVA_TCoefSingle, *LPDXVA_TCoefSingle
 ---

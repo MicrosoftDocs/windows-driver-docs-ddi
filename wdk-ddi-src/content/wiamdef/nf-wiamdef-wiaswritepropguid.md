@@ -10,6 +10,7 @@ keywords: ["wiasWritePropGuid function"]
 ms.keywords: image.wiaswritepropguid, wiamdef/wiasWritePropGuid, wiasFncs_2d4110e9-d2e5-47a2-8213-d221e77c527d.xml, wiasWritePropGuid, wiasWritePropGuid function [Imaging Devices]
 f1_keywords:
  - "wiamdef/wiasWritePropGuid"
+ - "wiasWritePropGuid"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wiaservc.dll
 api_name:
 - wiasWritePropGuid
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

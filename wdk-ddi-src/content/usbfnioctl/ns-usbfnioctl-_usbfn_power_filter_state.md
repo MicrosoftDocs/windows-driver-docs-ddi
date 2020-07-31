@@ -10,6 +10,7 @@ keywords: ["_USBFN_POWER_FILTER_STATE structure"]
 ms.keywords: "*PUSBFN_POWER_FILTER_STATE, PUSBFN_POWER_FILTER_STATE, PUSBFN_POWER_FILTER_STATE structure pointer [Buses], USBFN_POWER_FILTER_STATE, USBFN_POWER_FILTER_STATE structure [Buses], _USBFN_POWER_FILTER_STATE, buses.usbfn_power_filter_state, usbfnioctl/PUSBFN_POWER_FILTER_STATE, usbfnioctl/USBFN_POWER_FILTER_STATE"
 f1_keywords:
  - "usbfnioctl/USBFN_POWER_FILTER_STATE"
+ - "USBFN_POWER_FILTER_STATE"
 req.header: usbfnioctl.h
 req.include-header: Usbfnioctl.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - usbfnioctl.h
 api_name:
 - USBFN_POWER_FILTER_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: USBFN_POWER_FILTER_STATE, *PUSBFN_POWER_FILTER_STATE
 ---

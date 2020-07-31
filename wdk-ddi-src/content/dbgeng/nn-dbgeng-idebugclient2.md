@@ -10,6 +10,7 @@ keywords: ["IDebugClient2 interface"]
 ms.keywords: IDebugClient2, IDebugClient2 interface [Windows Debugging], IDebugClient2 interface [Windows Debugging],described, dbgeng/IDebugClient2, debugger.idebugclient2
 f1_keywords:
  - "dbgeng/IDebugClient2"
+ - "IDebugClient2"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugClient2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

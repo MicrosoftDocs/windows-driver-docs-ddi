@@ -10,6 +10,7 @@ keywords: ["PSDBUS_ACKNOWLEDGE_INT_ROUTINE callback function"]
 ms.keywords: AcknowledgeInterrupt, AcknowledgeInterrupt callback function [Buses], PSDBUS_ACKNOWLEDGE_INT_ROUTINE, PSDBUS_ACKNOWLEDGE_INT_ROUTINE callback, SD.psdbus_acknowledge_int_routine, ntddsd/AcknowledgeInterrupt, sd-rtns_9197189b-4b46-4ab6-aa7b-df880985241b.xml
 f1_keywords:
  - "ntddsd/AcknowledgeInterrupt"
+ - "AcknowledgeInterrupt"
 req.header: ntddsd.h
 req.include-header: Ntddsd.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ntddsd.h
 api_name:
 - AcknowledgeInterrupt
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

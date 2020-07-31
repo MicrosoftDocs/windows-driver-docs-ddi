@@ -9,6 +9,7 @@ keywords: ["PFND3D11_1DDI_RESOURCEUPDATESUBRESOURCEUP callback function"]
 ms.keywords: DefaultConstantBufferUpdateSubresourceUP(D3D11_1), DefaultConstantBufferUpdateSubresourceUP(D3D11_1) callback function [Display Devices], PFND3D11_1DDI_RESOURCEUPDATESUBRESOURCEUP, PFND3D11_1DDI_RESOURCEUPDATESUBRESOURCEUP callback, d3d10umddi/DefaultConstantBufferUpdateSubresourceUP(D3D11_1), display.defaultconstantbufferupdatesubresourceup_d3d11_1_
 f1_keywords:
  - "d3d10umddi/DefaultConstantBufferUpdateSubresourceUP(D3D11_1)"
+ - "DefaultConstantBufferUpdateSubresourceUP(D3D11_1)"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -35,8 +36,6 @@ api_location:
 - D3d10umddi.h
 api_name:
 - DefaultConstantBufferUpdateSubresourceUP(D3D11_1)
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

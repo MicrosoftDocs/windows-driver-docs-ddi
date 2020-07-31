@@ -10,6 +10,7 @@ keywords: ["ExtRemoteData::Set(const DEBUG_TYPED_DATA)"]
 ms.keywords: ExtRemoteData class [Windows Debugging],Set method, ExtRemoteData.Set, ExtRemoteData.Set(const DEBUG_TYPED_DATA), ExtRemoteData.Set(const DEBUG_TYPED_DATA*), ExtRemoteData::Set, ExtRemoteData::Set(const DEBUG_TYPED_DATA), Set, Set method [Windows Debugging], Set method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_set_typed
 f1_keywords:
  - "engextcpp/ExtRemoteData.Set"
+ - "ExtRemoteData.Set"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - engextcpp.hpp
 api_name:
 - ExtRemoteData.Set
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

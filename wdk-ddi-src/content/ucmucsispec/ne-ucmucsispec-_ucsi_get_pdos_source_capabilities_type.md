@@ -8,6 +8,7 @@ ms.date: 09/30/2018
 keywords: ["_UCSI_GET_PDOS_SOURCE_CAPABILITIES_TYPE enumeration"]
 f1_keywords:
  - "ucmucsispec/_UCSI_GET_PDOS_SOURCE_CAPABILITIES_TYPE"
+ - "_UCSI_GET_PDOS_SOURCE_CAPABILITIES_TYPE"
 ms.keywords: _UCSI_GET_PDOS_SOURCE_CAPABILITIES_TYPE, UCSI_GET_PDOS_SOURCE_CAPABILITIES_TYPE, 
 req.header: ucmucsispec.h
 req.include-header: UcmUcsiCx.h 
@@ -27,8 +28,6 @@ api_location:
 - ucmucsispec.h
 api_name: 
 - _UCSI_GET_PDOS_SOURCE_CAPABILITIES_TYPE
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

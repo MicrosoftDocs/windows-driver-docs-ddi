@@ -10,6 +10,7 @@ keywords: ["IStiUSD::RawWriteCommand"]
 ms.keywords: IStiUSD interface [Imaging Devices],RawWriteCommand method, IStiUSD.RawWriteCommand, IStiUSD::RawWriteCommand, RawWriteCommand, RawWriteCommand method [Imaging Devices], RawWriteCommand method [Imaging Devices],IStiUSD interface, image.istiusd_rawwritecommand, stifnc_508a67c1-4f4f-4324-bbb4-fc095fa023c4.xml, stiusd/IStiUSD::RawWriteCommand
 f1_keywords:
  - "stiusd/IStiUSD.RawWriteCommand"
+ - "IStiUSD.RawWriteCommand"
 req.header: stiusd.h
 req.include-header: Stiusd.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - stiusd.h
 api_name:
 - IStiUSD.RawWriteCommand
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IO_CSQ_REMOVE_IRP callback function"]
 ms.keywords: CsqRemoveIrp, CsqRemoveIrp routine [Kernel-Mode Driver Architecture], DrvrRtns_6d9086c3-65b8-4e0e-b5e9-0c4edbf513b1.xml, IO_CSQ_REMOVE_IRP, kernel.csqremoveirp, wdm/CsqRemoveIrp
 f1_keywords:
  - "wdm/CsqRemoveIrp"
+ - "CsqRemoveIrp"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - CsqRemoveIrp
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IDrmPort2 interface"]
 ms.keywords: IDrmPort2, IDrmPort2 interface [Audio Devices], IDrmPort2 interface [Audio Devices],described, audio.idrmport2, audmp-routines_93a46344-36f2-49ea-9091-93b4e810f195.xml, portcls/IDrmPort2
 f1_keywords:
  - "portcls/IDrmPort2"
+ - "IDrmPort2"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IDrmPort2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

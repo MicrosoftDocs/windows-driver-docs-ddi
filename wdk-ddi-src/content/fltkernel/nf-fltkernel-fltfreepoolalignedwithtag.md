@@ -10,6 +10,7 @@ keywords: ["FltFreePoolAlignedWithTag function"]
 ms.keywords: FltApiRef_e_to_o_dc83e564-1331-48f0-ad7e-8cdeaa677952.xml, FltFreePoolAlignedWithTag, FltFreePoolAlignedWithTag routine [Installable File System Drivers], fltkernel/FltFreePoolAlignedWithTag, ifsk.fltfreepoolalignedwithtag
 f1_keywords:
  - "fltkernel/FltFreePoolAlignedWithTag"
+ - "FltFreePoolAlignedWithTag"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - FltMgr.dll
 api_name:
 - FltFreePoolAlignedWithTag
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

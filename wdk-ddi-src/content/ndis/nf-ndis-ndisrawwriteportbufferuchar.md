@@ -10,6 +10,7 @@ keywords: ["NdisRawWritePortBufferUchar macro"]
 ms.keywords: NdisRawWritePortBufferUchar, NdisRawWritePortBufferUchar macro [Network Drivers Starting with Windows Vista], miniport_port_raw_ref_4b54b55d-c94d-4401-8d16-4650d80c620c.xml, ndis/NdisRawWritePortBufferUchar, netvista.ndisrawwriteportbufferuchar
 f1_keywords:
  - "ndis/NdisRawWritePortBufferUchar"
+ - "NdisRawWritePortBufferUchar"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NdisRawWritePortBufferUchar
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

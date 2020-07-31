@@ -10,6 +10,7 @@ keywords: ["KsPinGetOuterUnknown function"]
 ms.keywords: KsPinGetOuterUnknown, KsPinGetOuterUnknown function [Streaming Media Devices], avfunc_6a9c21cd-38ab-4277-8379-346af4c9c4c9.xml, ks/KsPinGetOuterUnknown, stream.kspingetouterunknown
 f1_keywords:
  - "ks/KsPinGetOuterUnknown"
+ - "KsPinGetOuterUnknown"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KsPinGetOuterUnknown
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

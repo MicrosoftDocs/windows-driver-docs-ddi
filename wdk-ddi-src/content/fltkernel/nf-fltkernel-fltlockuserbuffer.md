@@ -10,6 +10,7 @@ keywords: ["FltLockUserBuffer function"]
 ms.keywords: FltApiRef_e_to_o_7d39ba00-c97d-4adb-a0e1-a019ca4056b0.xml, FltLockUserBuffer, FltLockUserBuffer routine [Installable File System Drivers], fltkernel/FltLockUserBuffer, ifsk.fltlockuserbuffer
 f1_keywords:
  - "fltkernel/FltLockUserBuffer"
+ - "FltLockUserBuffer"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltLockUserBuffer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

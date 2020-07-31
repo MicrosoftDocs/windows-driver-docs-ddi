@@ -10,6 +10,7 @@ keywords: ["IDebugFAEntryTags::IsValidTagToSet"]
 ms.keywords: IDebugFAEntryTags interface [Windows Debugging],IsValidTagToSet method, IDebugFAEntryTags.IsValidTagToSet, IDebugFAEntryTags::IsValidTagToSet, IsValidTagToSet, IsValidTagToSet method [Windows Debugging], IsValidTagToSet method [Windows Debugging],IDebugFAEntryTags interface, debugger.idebugfaentrytags_isvalidtagtoset, extsfns/IDebugFAEntryTags::IsValidTagToSet
 f1_keywords:
  - "extsfns/IDebugFAEntryTags.IsValidTagToSet"
+ - "IDebugFAEntryTags.IsValidTagToSet"
 req.header: extsfns.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - extsfns.h
 api_name:
 - IDebugFAEntryTags.IsValidTagToSet
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

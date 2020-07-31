@@ -10,6 +10,7 @@ keywords: ["IDebugRegisters2::SetValues"]
 ms.keywords: IDebugRegisters interface [Windows Debugging],SetValues method, IDebugRegisters2 interface [Windows Debugging],SetValues method, IDebugRegisters2.SetValues, IDebugRegisters2::SetValues, IDebugRegisters::SetValues, IDebugRegisters_0c188698-35b8-4c8f-ad8c-1218695845a8.xml, SetValues, SetValues method [Windows Debugging], SetValues method [Windows Debugging],IDebugRegisters interface, SetValues method [Windows Debugging],IDebugRegisters2 interface, dbgeng/IDebugRegisters2::SetValues, dbgeng/IDebugRegisters::SetValues, debugger.setvalues
 f1_keywords:
  - "dbgeng/IDebugRegisters.SetValues"
+ - "IDebugRegisters.SetValues"
 req.header: dbgeng.h
 req.include-header: DbgEng.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IDebugRegisters.SetValues
 - IDebugRegisters2.SetValues
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["EVT_UCX_USBDEVICE_GET_CHARACTERISTIC callback function"]
 ms.keywords: "*PFN_UCX_USBDEVICE_GET_CHARACTERISTIC, *PFN_UCX_USBDEVICE_GET_CHARACTERISTIC callback function pointer [Buses], EVT_UCX_USBDEVICE_GET_CHARACTERISTIC, EVT_UCX_USBDEVICE_GET_CHARACTERISTIC callback, EvtUcxDeviceGetCharacteristic, EvtUcxDeviceGetCharacteristic callback function [Buses], buses.evt_ucx_usbdevice_get_characteristic, ucxusbdevice/EvtUcxDeviceGetCharacteristic"
 f1_keywords:
  - "ucxusbdevice/*PFN_UCX_USBDEVICE_GET_CHARACTERISTIC"
+ - "*PFN_UCX_USBDEVICE_GET_CHARACTERISTIC"
 req.header: ucxusbdevice.h
 req.include-header: Ucxclass.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ucxusbdevice.h
 api_name:
 - PFN_UCX_USBDEVICE_GET_CHARACTERISTIC
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

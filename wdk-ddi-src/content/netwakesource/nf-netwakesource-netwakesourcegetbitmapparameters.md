@@ -10,6 +10,7 @@ ms.date: 10/07/2019
 keywords: ["NetWakeSourceGetBitmapParameters function"]
 f1_keywords:
  - "netwakesource/NetWakeSourceGetBitmapParameters"
+ - "NetWakeSourceGetBitmapParameters"
 ms.keywords: NetWakeSourceGetBitmapParameters
 req.header: netwakesource.h
 req.include-header:

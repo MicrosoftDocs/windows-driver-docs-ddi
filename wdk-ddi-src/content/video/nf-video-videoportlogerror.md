@@ -10,6 +10,7 @@ keywords: ["VideoPortLogError function"]
 ms.keywords: VideoPortLogError, VideoPortLogError function [Display Devices], VideoPort_Functions_18666bd9-b871-4e4c-9f31-bd5cbd505d52.xml, display.videoportlogerror, video/VideoPortLogError
 f1_keywords:
  - "video/VideoPortLogError"
+ - "VideoPortLogError"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Videoprt.sys
 api_name:
 - VideoPortLogError
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

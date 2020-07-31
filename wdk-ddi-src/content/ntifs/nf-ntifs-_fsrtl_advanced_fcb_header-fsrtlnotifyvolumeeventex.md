@@ -10,6 +10,7 @@ keywords: ["FsRtlNotifyVolumeEventEx function"]
 ms.keywords: FsRtlNotifyVolumeEventEx, FsRtlNotifyVolumeEventEx routine [Installable File System Drivers], fsrtlref_421ebbf6-0678-4b66-a7c3-00f5914ea05c.xml, ifsk.fsrtlnotifyvolumeeventex, ntifs/FsRtlNotifyVolumeEventEx
 f1_keywords:
  - "ntifs/FsRtlNotifyVolumeEventEx"
+ - "FsRtlNotifyVolumeEventEx"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlNotifyVolumeEventEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 dev_langs:

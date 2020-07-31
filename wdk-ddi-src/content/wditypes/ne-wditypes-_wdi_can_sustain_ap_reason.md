@@ -10,6 +10,7 @@ keywords: ["_WDI_CAN_SUSTAIN_AP_REASON enumeration"]
 ms.keywords: WDI_CAN_SUSTAIN_AP_REASON, WDI_CAN_SUSTAIN_AP_REASON enumeration [Network Drivers Starting with Windows Vista], WDI_CAN_SUSTAIN_AP_REASON_IHV_END, WDI_CAN_SUSTAIN_AP_REASON_IHV_START, _WDI_CAN_SUSTAIN_AP_REASON, netvista.wdi_can_sustain_ap_reason, wditypes/WDI_CAN_SUSTAIN_AP_REASON, wditypes/WDI_CAN_SUSTAIN_AP_REASON_IHV_END, wditypes/WDI_CAN_SUSTAIN_AP_REASON_IHV_START
 f1_keywords:
  - "wditypes/WDI_CAN_SUSTAIN_AP_REASON"
+ - "WDI_CAN_SUSTAIN_AP_REASON"
 req.header: wditypes.hpp
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wditypes.hpp
 api_name:
 - WDI_CAN_SUSTAIN_AP_REASON
-product:
-- Windows
 targetos: Windows
 req.typenames: WDI_CAN_SUSTAIN_AP_REASON
 ---

@@ -10,6 +10,7 @@ keywords: ["EVT_UDECX_USB_ENDPOINT_START callback function"]
 ms.keywords: EVT_UDECX_USB_ENDPOINT_START, EVT_UDECX_USB_ENDPOINT_START callback, EvtUsbEndpointStart, EvtUsbEndpointStart callback function [Buses], buses.evt_udecx_usb_endpoint_start, udecxusbendpoint/EvtUsbEndpointStart
 f1_keywords:
  - "udecxusbendpoint/EvtUsbEndpointStart"
+ - "EvtUsbEndpointStart"
 req.header: udecxusbendpoint.h
 req.include-header: Udecx.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - UdecxUsbEndpoint.h
 api_name:
 - EvtUsbEndpointStart
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

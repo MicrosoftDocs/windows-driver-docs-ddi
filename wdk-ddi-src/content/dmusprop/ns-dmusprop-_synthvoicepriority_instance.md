@@ -10,6 +10,7 @@ keywords: ["_SYNTHVOICEPRIORITY_INSTANCE structure"]
 ms.keywords: "*PSYNTHVOICEPRIORITY_INSTANCE, PSYNTHVOICEPRIORITY_INSTANCE, PSYNTHVOICEPRIORITY_INSTANCE structure pointer [Audio Devices], SYNTHVOICEPRIORITY_INSTANCE, SYNTHVOICEPRIORITY_INSTANCE structure [Audio Devices], _SYNTHVOICEPRIORITY_INSTANCE, aud-prop_86a44512-a1b5-4380-a96a-5e9184ff71c2.xml, audio.synthvoicepriority_instance, dmusprop/PSYNTHVOICEPRIORITY_INSTANCE, dmusprop/SYNTHVOICEPRIORITY_INSTANCE"
 f1_keywords:
  - "dmusprop/SYNTHVOICEPRIORITY_INSTANCE"
+ - "SYNTHVOICEPRIORITY_INSTANCE"
 req.header: dmusprop.h
 req.include-header: Dmusprop.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dmusprop.h
 api_name:
 - SYNTHVOICEPRIORITY_INSTANCE
-product:
-- Windows
 targetos: Windows
 req.typenames: SYNTHVOICEPRIORITY_INSTANCE, *PSYNTHVOICEPRIORITY_INSTANCE
 ---

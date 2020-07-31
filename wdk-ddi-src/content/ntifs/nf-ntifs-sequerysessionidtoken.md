@@ -10,6 +10,7 @@ keywords: ["SeQuerySessionIdToken function"]
 ms.keywords: SeQuerySessionIdToken, SeQuerySessionIdToken function [Installable File System Drivers], ifsk.sequerysessionidtoken, ntifs/SeQuerySessionIdToken, seref_9b30e13e-4132-4bc1-a2e1-7ccfb07b808e.xml
 f1_keywords:
  - "ntifs/SeQuerySessionIdToken"
+ - "SeQuerySessionIdToken"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - SeQuerySessionIdToken
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

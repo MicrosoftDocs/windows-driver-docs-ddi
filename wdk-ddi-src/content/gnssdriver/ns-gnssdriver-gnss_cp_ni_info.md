@@ -10,6 +10,7 @@ keywords: ["GNSS_CP_NI_INFO structure"]
 ms.keywords: "*PGNSS_CP_NI_INFO, GNSS_CP_NI_INFO, GNSS_CP_NI_INFO structure [Sensor Devices], PGNSS_CP_NI_INFO, PGNSS_CP_NI_INFO structure pointer [Sensor Devices], gnss.gnss_cp_ni_info, gnssdriver/GNSS_CP_NI_INFO, gnssdriver/PGNSS_CP_NI_INFO"
 f1_keywords:
  - "gnssdriver/GNSS_CP_NI_INFO"
+ - "GNSS_CP_NI_INFO"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - gnssdriver.h
 api_name:
 - GNSS_CP_NI_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: GNSS_CP_NI_INFO, *PGNSS_CP_NI_INFO
 ---

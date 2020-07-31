@@ -10,6 +10,7 @@ keywords: ["UCX_CONTROLLER_CONFIG_SET_PCI_INFO function"]
 ms.keywords: UCX_CONTROLLER_CONFIG_SET_PCI_INFO, UCX_CONTROLLER_CONFIG_SET_PCI_INFO function [Buses], buses._ucx_controller_config_set_pci_info, ucxcontroller/UCX_CONTROLLER_CONFIG_SET_PCI_INFO
 f1_keywords:
  - "ucxcontroller/UCX_CONTROLLER_CONFIG_SET_PCI_INFO"
+ - "UCX_CONTROLLER_CONFIG_SET_PCI_INFO"
 req.header: ucxcontroller.h
 req.include-header: Ucxclass.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ucxcontroller.h
 api_name:
 - UCX_CONTROLLER_CONFIG_SET_PCI_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

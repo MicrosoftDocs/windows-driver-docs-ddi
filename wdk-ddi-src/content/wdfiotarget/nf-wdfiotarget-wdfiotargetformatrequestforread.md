@@ -10,6 +10,7 @@ keywords: ["WdfIoTargetFormatRequestForRead function"]
 ms.keywords: DFIOTargetRef_397cd31e-d4d8-40b5-ae7b-5f8e9ed62300.xml, WdfIoTargetFormatRequestForRead, WdfIoTargetFormatRequestForRead method, kmdf.wdfiotargetformatrequestforread, wdf.wdfiotargetformatrequestforread, wdfiotarget/WdfIoTargetFormatRequestForRead
 f1_keywords:
  - "wdfiotarget/WdfIoTargetFormatRequestForRead"
+ - "WdfIoTargetFormatRequestForRead"
 req.header: wdfiotarget.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfIoTargetFormatRequestForRead
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

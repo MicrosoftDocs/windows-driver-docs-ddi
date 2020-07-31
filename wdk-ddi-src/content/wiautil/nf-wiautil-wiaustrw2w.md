@@ -10,6 +10,7 @@ keywords: ["wiauStrW2W function"]
 ms.keywords: image.wiaustrw2w, wiauFncs_4778241e-19d0-40e1-ae24-e58e950ba540.xml, wiauStrW2W, wiauStrW2W function [Imaging Devices], wiautil/wiauStrW2W
 f1_keywords:
  - "wiautil/wiauStrW2W"
+ - "wiauStrW2W"
 req.header: wiautil.h
 req.include-header: Wiautil.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wiautil.h
 api_name:
 - wiauStrW2W
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

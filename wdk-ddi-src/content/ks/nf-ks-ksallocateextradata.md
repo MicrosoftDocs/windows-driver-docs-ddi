@@ -10,6 +10,7 @@ keywords: ["KsAllocateExtraData function"]
 ms.keywords: KsAllocateExtraData, KsAllocateExtraData function [Streaming Media Devices], ks/KsAllocateExtraData, ksfunc_a6f4b047-cec7-4c0d-850f-c3d3b1d1e33e.xml, stream.ksallocateextradata
 f1_keywords:
  - "ks/KsAllocateExtraData"
+ - "KsAllocateExtraData"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsAllocateExtraData
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

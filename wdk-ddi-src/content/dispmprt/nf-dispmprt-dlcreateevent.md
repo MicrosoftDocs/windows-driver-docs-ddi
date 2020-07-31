@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DlCreateEvent function"]
 f1_keywords:
  - "dispmprt/DlCreateEvent"
+ - "DlCreateEvent"
 ms.keywords: DlCreateEvent
 req.header: dispmprt.h
 req.include-header:

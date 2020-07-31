@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_TREE_RPMB_COMMAND_OUTPUT structure"]
 f1_keywords:
  - "treerpmbservice/_TREE_RPMB_COMMAND_OUTPUT"
+ - "_TREE_RPMB_COMMAND_OUTPUT"
 ms.keywords: _TREE_RPMB_COMMAND_OUTPUT, TREE_RPMB_COMMAND_OUTPUT, *PTREE_RPMB_COMMAND_OUTPUT, 
 req.header: treerpmbservice.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - treerpmbservice.h
 api_name: 
 - _TREE_RPMB_COMMAND_OUTPUT
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

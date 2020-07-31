@@ -7,6 +7,7 @@ ms.date: 08/21/2018
 keywords: ["IDataModelScriptDebug2::QueryInterface"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebug2.QueryInterface"
+ - "IDataModelScriptDebug2.QueryInterface"
 ms.keywords: IDataModelScriptDebug2::QueryInterface, QueryInterface, IDataModelScriptDebug2.QueryInterface, IDataModelScriptDebug2::QueryInterface, IDataModelScriptDebug2.QueryInterface
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDataModelScriptDebug2.QueryInterface
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

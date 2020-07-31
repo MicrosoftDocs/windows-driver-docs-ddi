@@ -10,6 +10,7 @@ keywords: ["ObUnRegisterCallbacks function"]
 ms.keywords: ObUnRegisterCallbacks, ObUnRegisterCallbacks routine [Kernel-Mode Driver Architecture], k107_f0c1fdd0-3dcc-466c-a7a1-fab0b38e4e88.xml, kernel.obunregistercallbacks, wdm/ObUnRegisterCallbacks
 f1_keywords:
  - "wdm/ObUnRegisterCallbacks"
+ - "ObUnRegisterCallbacks"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - ObUnRegisterCallbacks
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -67,6 +66,8 @@ A value that identifies the set of callback routines to unregister. The <a href=
 
 A driver that calls the <b>ObRegisterCallbacks</b> routine must call the <b>ObUnRegisterCallbacks</b> routine before the driver is unloaded.
 
+> [!CAUTION]
+> Do not call **ObRegisterCallbacks** more than once. This is a "double free" and results in [Bug Check 0x7E: SYSTEM_THREAD_EXCEPTION_NOT_HANDLED](https://docs.microsoft.com/windows-hardware/drivers/debugger/bug-check-0x7e--system-thread-exception-not-handled).
 
 
 

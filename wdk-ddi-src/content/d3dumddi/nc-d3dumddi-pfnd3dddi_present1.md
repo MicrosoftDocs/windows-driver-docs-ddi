@@ -29,6 +29,7 @@ targetos: Windows
 req.typenames: 
 f1_keywords:
  - "d3dumddi/pfnPresent1"
+ - "pfnPresent1"
 topic_type:
  - APIRef
  - kbSyntax

@@ -10,6 +10,7 @@ keywords: ["IOCTL_AVC_UPDATE_VIRTUAL_SUBUNIT_INFO IOCTL"]
 ms.keywords: IOCTL_AVC_UPDATE_VIRTUAL_SUBUNIT_INFO, IOCTL_AVC_UPDATE_VIRTUAL_SUBUNIT_INFO control, IOCTL_AVC_UPDATE_VIRTUAL_SUBUNIT_INFO control code [Streaming Media Devices], avc/IOCTL_AVC_UPDATE_VIRTUAL_SUBUNIT_INFO, avcref_70967704-87c3-4d0b-856f-e031ae0011cc.xml, stream.ioctl_avc_update_virtual_subunit_info
 f1_keywords:
  - "avc/IOCTL_AVC_UPDATE_VIRTUAL_SUBUNIT_INFO"
+ - "IOCTL_AVC_UPDATE_VIRTUAL_SUBUNIT_INFO"
 req.header: avc.h
 req.include-header: Avc.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - avc.h
 api_name:
 - IOCTL_AVC_UPDATE_VIRTUAL_SUBUNIT_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

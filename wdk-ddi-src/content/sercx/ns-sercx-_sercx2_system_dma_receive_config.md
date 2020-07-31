@@ -10,6 +10,7 @@ keywords: ["_SERCX2_SYSTEM_DMA_RECEIVE_CONFIG structure"]
 ms.keywords: "*PSERCX2_SYSTEM_DMA_RECEIVE_CONFIG, 2/PSERCX2_SYSTEM_DMA_RECEIVE_CONFIG, 2/SERCX2_SYSTEM_DMA_RECEIVE_CONFIG, PSERCX2_SYSTEM_DMA_RECEIVE_CONFIG, PSERCX2_SYSTEM_DMA_RECEIVE_CONFIG structure pointer [Serial Ports], SERCX2_SYSTEM_DMA_RECEIVE_CONFIG, SERCX2_SYSTEM_DMA_RECEIVE_CONFIG structure [Serial Ports], _SERCX2_SYSTEM_DMA_RECEIVE_CONFIG, serports.sercx2_system_dma_receive_config"
 f1_keywords:
  - "sercx/SERCX2_SYSTEM_DMA_RECEIVE_CONFIG"
+ - "SERCX2_SYSTEM_DMA_RECEIVE_CONFIG"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - 2.0\Sercx.h
 api_name:
 - SERCX2_SYSTEM_DMA_RECEIVE_CONFIG
-product:
-- Windows
 targetos: Windows
 req.typenames: SERCX2_SYSTEM_DMA_RECEIVE_CONFIG, *PSERCX2_SYSTEM_DMA_RECEIVE_CONFIG
 ---

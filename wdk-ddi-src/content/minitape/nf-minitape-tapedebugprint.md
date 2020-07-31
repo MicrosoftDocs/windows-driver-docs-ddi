@@ -10,6 +10,7 @@ keywords: ["TapeDebugPrint function"]
 ms.keywords: TapeDebugPrint, TapeDebugPrint routine [Storage Devices], minitape/TapeDebugPrint, storage.tapedebugprint, tapeclas_cc0c28ed-17e9-40cf-bf04-e906aa4f74f0.xml
 f1_keywords:
  - "minitape/TapeDebugPrint"
+ - "TapeDebugPrint"
 req.header: minitape.h
 req.include-header: Minitape.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Tape.dll
 api_name:
 - TapeDebugPrint
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

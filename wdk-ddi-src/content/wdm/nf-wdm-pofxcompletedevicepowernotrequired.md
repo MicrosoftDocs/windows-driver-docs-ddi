@@ -10,6 +10,7 @@ keywords: ["PoFxCompleteDevicePowerNotRequired function"]
 ms.keywords: PoFxCompleteDevicePowerNotRequired, PoFxCompleteDevicePowerNotRequired routine [Kernel-Mode Driver Architecture], kernel.pofxcompletedevicepowernotrequired, wdm/PoFxCompleteDevicePowerNotRequired
 f1_keywords:
  - "wdm/PoFxCompleteDevicePowerNotRequired"
+ - "PoFxCompleteDevicePowerNotRequired"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Ntoskrnl.exe
 api_name:
 - PoFxCompleteDevicePowerNotRequired
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

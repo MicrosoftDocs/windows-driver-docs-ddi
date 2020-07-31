@@ -8,6 +8,7 @@ ms.date: 08/23/2019
 keywords: ["DeviceDsmInitializeOutput function"]
 f1_keywords:
  - "ntddstor/DeviceDsmInitializeOutput"
+ - "DeviceDsmInitializeOutput"
 ms.keywords: DeviceDsmInitializeOutput
 req.header: ntddstor.h
 req.include-header:
@@ -34,8 +35,6 @@ api_location:
 - NtosKrnl.exe
 api_name: 
 - DeviceDsmInitializeOutput
-product:
-- Windows
 targetos: Windows
 
 ---

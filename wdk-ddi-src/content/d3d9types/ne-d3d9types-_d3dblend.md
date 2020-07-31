@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DBLEND enumeration"]
 f1_keywords:
  - "d3d9types/_D3DBLEND"
+ - "_D3DBLEND"
 ms.keywords: _D3DBLEND, D3DBLEND, 
 req.header: d3d9types.h
 req.include-header:
@@ -26,8 +27,6 @@ api_location:
 - d3d9types.h
 api_name: 
 - _D3DBLEND
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

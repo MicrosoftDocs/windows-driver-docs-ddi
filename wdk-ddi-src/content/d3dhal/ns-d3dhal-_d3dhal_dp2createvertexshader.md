@@ -10,6 +10,7 @@ keywords: ["_D3DHAL_DP2CREATEVERTEXSHADER structure"]
 ms.keywords: "*LPD3DHAL_DP2CREATEVERTEXSHADER, D3DHAL_DP2CREATEVERTEXSHADER, D3DHAL_DP2CREATEVERTEXSHADER structure [Display Devices], LPD3DHAL_DP2CREATEVERTEXSHADER, LPD3DHAL_DP2CREATEVERTEXSHADER structure pointer [Display Devices], _D3DHAL_DP2CREATEVERTEXSHADER, d3dhal/D3DHAL_DP2CREATEVERTEXSHADER, d3dhal/LPD3DHAL_DP2CREATEVERTEXSHADER, d3dstrct_540af788-1ffd-4696-ac9e-5268c379a14e.xml, display.d3dhal_dp2createvertexshader"
 f1_keywords:
  - "d3dhal/D3DHAL_DP2CREATEVERTEXSHADER"
+ - "D3DHAL_DP2CREATEVERTEXSHADER"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dhal.h
 api_name:
 - D3DHAL_DP2CREATEVERTEXSHADER
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DHAL_DP2CREATEVERTEXSHADER
 ---

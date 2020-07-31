@@ -10,6 +10,7 @@ keywords: ["_NET_BUFFER_HEADER structure"]
 ms.keywords: "*PNET_BUFFER_HEADER, NET_BUFFER_HEADER, NET_BUFFER_HEADER union [Network Drivers Starting with Windows Vista], PNET_BUFFER_HEADER, PNET_BUFFER_HEADER union pointer [Network Drivers Starting with Windows Vista], _NET_BUFFER_HEADER, ndis/NET_BUFFER_HEADER, ndis/PNET_BUFFER_HEADER, ndis_netbuf_structures_ref_a19368c6-0bef-4fe6-be52-d76e0c6ea99d.xml, netvista.net_buffer_header"
 f1_keywords:
  - "ndis/NET_BUFFER_HEADER"
+ - "NET_BUFFER_HEADER"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NET_BUFFER_HEADER
-product:
-- Windows
 targetos: Windows
 req.typenames: NET_BUFFER_HEADER, *PNET_BUFFER_HEADER
 ---

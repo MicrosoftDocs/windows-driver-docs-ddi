@@ -10,6 +10,7 @@ keywords: ["WdfRequestRetrieveInputMemory function"]
 ms.keywords: DFRequestObjectRef_180dea64-0a3a-4b59-89e8-37705a674e77.xml, WdfRequestRetrieveInputMemory, WdfRequestRetrieveInputMemory method, kmdf.wdfrequestretrieveinputmemory, wdf.wdfrequestretrieveinputmemory, wdfrequest/WdfRequestRetrieveInputMemory
 f1_keywords:
  - "wdfrequest/WdfRequestRetrieveInputMemory"
+ - "WdfRequestRetrieveInputMemory"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfRequestRetrieveInputMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

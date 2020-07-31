@@ -10,6 +10,7 @@ keywords: ["IRegistryKey::SetValueKey"]
 ms.keywords: IRegistryKey interface [Audio Devices],SetValueKey method, IRegistryKey.SetValueKey, IRegistryKey::SetValueKey, SetValueKey, SetValueKey method [Audio Devices], SetValueKey method [Audio Devices],IRegistryKey interface, audio.iregistrykey_setvaluekey, audmp-routines_a7668b45-2b58-4a49-b1ef-a8d0755225b0.xml, portcls/IRegistryKey::SetValueKey
 f1_keywords:
  - "portcls/IRegistryKey.SetValueKey"
+ - "IRegistryKey.SetValueKey"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IRegistryKey.SetValueKey
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

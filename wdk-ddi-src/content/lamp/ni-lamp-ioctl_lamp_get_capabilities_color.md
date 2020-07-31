@@ -10,6 +10,7 @@ keywords: ["IOCTL_LAMP_GET_CAPABILITIES_COLOR IOCTL"]
 ms.keywords: IOCTL_LAMP_GET_CAPABILITIES_COLOR, IOCTL_LAMP_GET_CAPABILITIES_COLOR control, IOCTL_LAMP_GET_CAPABILITIES_COLOR control code [Streaming Media Devices], lamp/IOCTL_LAMP_GET_CAPABILITIES_COLOR, stream.ioctl_lamp_get_capabilities_color
 f1_keywords:
  - "lamp/IOCTL_LAMP_GET_CAPABILITIES_COLOR"
+ - "IOCTL_LAMP_GET_CAPABILITIES_COLOR"
 req.header: lamp.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - lamp.h
 api_name:
 - IOCTL_LAMP_GET_CAPABILITIES_COLOR
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

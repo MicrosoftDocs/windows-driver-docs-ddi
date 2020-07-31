@@ -10,6 +10,7 @@ keywords: ["_GET_LOCAL_HOST_INFO7_WXP structure"]
 ms.keywords: "*PGET_LOCAL_HOST_INFO7, *PGET_LOCAL_HOST_INFO7_WXP, 1394/GET_LOCAL_HOST_INFO7, 1394/PGET_LOCAL_HOST_INFO7, 1394stct_6e61e5b9-8961-4a88-9927-143aa24e0648.xml, GET_LOCAL_HOST_INFO7, GET_LOCAL_HOST_INFO7 structure [Buses], GET_LOCAL_HOST_INFO7_W2K, GET_LOCAL_HOST_INFO7_WXP, IEEE.get_local_host_info7, PGET_LOCAL_HOST_INFO7, PGET_LOCAL_HOST_INFO7 structure pointer [Buses], _GET_LOCAL_HOST_INFO7_WXP"
 f1_keywords:
  - "1394/GET_LOCAL_HOST_INFO7"
+ - "GET_LOCAL_HOST_INFO7"
 req.header: 1394.h
 req.include-header: 1394.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - 1394.h
 api_name:
 - GET_LOCAL_HOST_INFO7
-product:
-- Windows
 targetos: Windows
 req.typenames: GET_LOCAL_HOST_INFO7_WXP, *PGET_LOCAL_HOST_INFO7_WXP
 ---

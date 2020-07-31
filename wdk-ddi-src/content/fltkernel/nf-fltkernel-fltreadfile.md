@@ -10,6 +10,7 @@ keywords: ["FltReadFile function"]
 ms.keywords: FltApiRef_p_to_z_83c0167c-78df-4692-980b-7a55f531a9db.xml, FltReadFile, FltReadFile function [Installable File System Drivers], fltkernel/FltReadFile, ifsk.fltreadfile
 f1_keywords:
  - "fltkernel/FltReadFile"
+ - "FltReadFile"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltReadFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

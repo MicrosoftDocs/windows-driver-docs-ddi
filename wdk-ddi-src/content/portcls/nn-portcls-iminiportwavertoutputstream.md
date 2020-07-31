@@ -10,6 +10,7 @@ keywords: ["IMiniportWaveRTOutputStream interface"]
 ms.keywords: IMiniportWaveRTOutputStream, IMiniportWaveRTOutputStream interface [Audio Devices], IMiniportWaveRTOutputStream interface [Audio Devices],described, audio.iminiportwavertoutputstream, portcls/IMiniportWaveRTOutputStream
 f1_keywords:
  - "portcls/IMiniportWaveRTOutputStream"
+ - "IMiniportWaveRTOutputStream"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IMiniportWaveRTOutputStream
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

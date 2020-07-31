@@ -9,6 +9,7 @@ keywords: ["_D3DKMDT_ENUMADAPTERS_FILTER union"]
 ms.keywords: D3DKMDT_ENUMADAPTERS_FILTER, D3DKMDT_ENUMADAPTERS_FILTER union [Display Devices], _D3DKMDT_ENUMADAPTERS_FILTER, d3dkmthk/D3DKMDT_ENUMADAPTERS_FILTER
 f1_keywords:
  - "d3dkmthk/D3DKMDT_ENUMADAPTERS_FILTER"
+ - "D3DKMDT_ENUMADAPTERS_FILTER"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMDT_ENUMADAPTERS_FILTER
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMDT_ENUMADAPTERS_FILTER

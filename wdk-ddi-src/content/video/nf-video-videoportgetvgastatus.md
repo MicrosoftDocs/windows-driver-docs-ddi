@@ -10,6 +10,7 @@ keywords: ["VideoPortGetVgaStatus function"]
 ms.keywords: VideoPortGetVgaStatus, VideoPortGetVgaStatus function [Display Devices], VideoPort_Functions_f3e43fe4-2e50-48d4-b185-f44e2a2adb31.xml, display.videoportgetvgastatus, video/VideoPortGetVgaStatus
 f1_keywords:
  - "video/VideoPortGetVgaStatus"
+ - "VideoPortGetVgaStatus"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Videoprt.sys
 api_name:
 - VideoPortGetVgaStatus
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

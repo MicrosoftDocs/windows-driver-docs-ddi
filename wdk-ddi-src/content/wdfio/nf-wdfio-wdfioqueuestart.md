@@ -10,6 +10,7 @@ keywords: ["WdfIoQueueStart function"]
 ms.keywords: DFQueueObjectRef_15829d65-ee6a-455d-a0c6-cf21f5426e31.xml, WdfIoQueueStart, WdfIoQueueStart method, kmdf.wdfioqueuestart, wdf.wdfioqueuestart, wdfio/WdfIoQueueStart
 f1_keywords:
  - "wdfio/WdfIoQueueStart"
+ - "WdfIoQueueStart"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfIoQueueStart
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

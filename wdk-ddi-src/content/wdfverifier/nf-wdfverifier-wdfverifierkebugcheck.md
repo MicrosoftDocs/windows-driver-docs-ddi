@@ -10,6 +10,7 @@ keywords: ["WdfVerifierKeBugCheck function"]
 ms.keywords: DFDebugRef_05774709-97ed-4fcc-b0b2-9fdac9a34094.xml, WdfVerifierKeBugCheck, WdfVerifierKeBugCheck function, kmdf.wdfverifierkebugcheck, wdf.wdfverifierkebugcheck, wdfverifier/WdfVerifierKeBugCheck
 f1_keywords:
  - "wdfverifier/WdfVerifierKeBugCheck"
+ - "WdfVerifierKeBugCheck"
 req.header: wdfverifier.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfVerifierKeBugCheck
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

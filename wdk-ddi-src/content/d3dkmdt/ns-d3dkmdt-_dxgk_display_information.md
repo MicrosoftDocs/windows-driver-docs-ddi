@@ -10,6 +10,7 @@ keywords: ["_DXGK_DISPLAY_INFORMATION structure"]
 ms.keywords: "*PDXGK_DISPLAY_INFORMATION, DXGK_DISPLAY_INFORMATION, DXGK_DISPLAY_INFORMATION structure [Display Devices], PDXGK_DISPLAY_INFORMATION, PDXGK_DISPLAY_INFORMATION structure pointer [Display Devices], _DXGK_DISPLAY_INFORMATION, d3dkmdt/DXGK_DISPLAY_INFORMATION, d3dkmdt/PDXGK_DISPLAY_INFORMATION, display.dxgk_display_information"
 f1_keywords:
  - "d3dkmdt/DXGK_DISPLAY_INFORMATION"
+ - "DXGK_DISPLAY_INFORMATION"
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - D3dkmdt.h
 api_name:
 - DXGK_DISPLAY_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGK_DISPLAY_INFORMATION, *PDXGK_DISPLAY_INFORMATION
 ---

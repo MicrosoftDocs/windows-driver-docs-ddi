@@ -10,6 +10,7 @@ keywords: ["_VIRTUAL_HW_INITIALIZATION_DATA structure"]
 ms.keywords: "*PVIRTUAL_HW_INITIALIZATION_DATA, PVIRTUAL_HW_INITIALIZATION_DATA, PVIRTUAL_HW_INITIALIZATION_DATA structure pointer [Storage Devices], VIRTUAL_HW_INITIALIZATION_DATA, VIRTUAL_HW_INITIALIZATION_DATA structure [Storage Devices], _VIRTUAL_HW_INITIALIZATION_DATA, storage.virtual_hw_initialization_data, storport/PVIRTUAL_HW_INITIALIZATION_DATA, storport/VIRTUAL_HW_INITIALIZATION_DATA, structs-virtual_afc3c543-a34f-4853-b67b-06d57d0350b6.xml"
 f1_keywords:
  - "storport/VIRTUAL_HW_INITIALIZATION_DATA"
+ - "VIRTUAL_HW_INITIALIZATION_DATA"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - storport.h
 api_name:
 - VIRTUAL_HW_INITIALIZATION_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: VIRTUAL_HW_INITIALIZATION_DATA, *PVIRTUAL_HW_INITIALIZATION_DATA
 ---

@@ -9,6 +9,7 @@ keywords: ["PFND3D12DDI_CREATEVIDEODECODER_0021 callback function"]
 ms.keywords: PFND3D12DDI_CREATEVIDEODECODER_0021, PFND3D12DDI_CREATEVIDEODECODER_0021 callback, d3d12umddi/pfnCreateVideoDecoder, display.pfnd3d12ddi_createvideodecoder, pfnCreateVideoDecoder, pfnCreateVideoDecoder callback function [Display Devices]
 f1_keywords:
  - "d3d12umddi/pfnCreateVideoDecoder"
+ - "pfnCreateVideoDecoder"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - D3d12umddi.h
 api_name:
 - pfnCreateVideoDecoder
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

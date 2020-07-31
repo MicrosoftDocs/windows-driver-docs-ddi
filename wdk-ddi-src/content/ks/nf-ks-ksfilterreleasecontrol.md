@@ -10,6 +10,7 @@ keywords: ["KsFilterReleaseControl function"]
 ms.keywords: KsFilterReleaseControl, KsFilterReleaseControl function [Streaming Media Devices], avfunc_ca99338c-1cae-4ef4-8ef5-76ee368ae1d6.xml, ks/KsFilterReleaseControl, stream.ksfilterreleasecontrol
 f1_keywords:
  - "ks/KsFilterReleaseControl"
+ - "KsFilterReleaseControl"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KsFilterReleaseControl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

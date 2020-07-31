@@ -10,6 +10,7 @@ keywords: ["RILUICCRECORDTYPE enumeration"]
 ms.keywords: RILUICCRECORDTYPE, RILUICCRECORDTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_UICCRECORDTYPE_BERTLV, RIL_UICCRECORDTYPE_CYCLIC, RIL_UICCRECORDTYPE_DEDICATED, RIL_UICCRECORDTYPE_LINEAR, RIL_UICCRECORDTYPE_MASTER, RIL_UICCRECORDTYPE_MAX, RIL_UICCRECORDTYPE_TRANSPARENT, netvista.riluiccrecordtype_2, rilapitypes/RILUICCRECORDTYPE, rilapitypes/RIL_UICCRECORDTYPE_BERTLV, rilapitypes/RIL_UICCRECORDTYPE_CYCLIC, rilapitypes/RIL_UICCRECORDTYPE_DEDICATED, rilapitypes/RIL_UICCRECORDTYPE_LINEAR, rilapitypes/RIL_UICCRECORDTYPE_MASTER, rilapitypes/RIL_UICCRECORDTYPE_MAX, rilapitypes/RIL_UICCRECORDTYPE_TRANSPARENT
 f1_keywords:
  - "rilapitypes/RILUICCRECORDTYPE"
+ - "RILUICCRECORDTYPE"
 req.header: rilapitypes.h
 req.include-header:
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapitypes.h
 api_name:
 - RILUICCRECORDTYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: RILUICCRECORDTYPE
 req.product: Windows 10 or later.

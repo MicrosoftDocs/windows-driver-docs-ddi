@@ -10,6 +10,7 @@ keywords: ["IPrintOemUni::FilterGraphics"]
 ms.keywords: FilterGraphics, FilterGraphics method [Print Devices], FilterGraphics method [Print Devices],IPrintOemUni interface, IPrintOemUni interface [Print Devices],FilterGraphics method, IPrintOemUni.FilterGraphics, IPrintOemUni::FilterGraphics, prcomoem/IPrintOemUni::FilterGraphics, print.iprintoemuni_filtergraphics, print_unidrv-pscript_rendering_7e6c6ada-fa4a-4188-b7c2-0ac95869bcdc.xml
 f1_keywords:
  - "prcomoem/IPrintOemUni.FilterGraphics"
+ - "IPrintOemUni.FilterGraphics"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - prcomoem.h
 api_name:
 - IPrintOemUni.FilterGraphics
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

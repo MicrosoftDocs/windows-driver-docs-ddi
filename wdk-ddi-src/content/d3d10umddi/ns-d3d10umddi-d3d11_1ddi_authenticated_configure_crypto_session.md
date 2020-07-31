@@ -9,6 +9,7 @@ keywords: ["D3D11_1DDI_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION structure"]
 ms.keywords: D3D11_1DDI_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION, D3D11_1DDI_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION structure [Display Devices], d3d10umddi/D3D11_1DDI_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION, display.d3d11_1ddi_authenticated_configure_crypto_session
 f1_keywords:
  - "d3d10umddi/D3D11_1DDI_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION"
+ - "D3D11_1DDI_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - D3d10umddi.h
 api_name:
 - D3D11_1DDI_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D11_1DDI_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION

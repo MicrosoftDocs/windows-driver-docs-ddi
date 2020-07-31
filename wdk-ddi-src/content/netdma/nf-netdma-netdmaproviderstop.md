@@ -10,6 +10,7 @@ keywords: ["NetDmaProviderStop function"]
 ms.keywords: NetDmaProviderStop, NetDmaProviderStop function [Network Drivers Starting with Windows Vista], netdma/NetDmaProviderStop, netdma_ref_3d99732a-b6db-4d07-a5f0-0e79f82dac32.xml, netvista.netdmaproviderstop
 f1_keywords:
  - "netdma/NetDmaProviderStop"
+ - "NetDmaProviderStop"
 req.header: netdma.h
 req.include-header: Netdma.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - netdma.h
 api_name:
 - NetDmaProviderStop
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

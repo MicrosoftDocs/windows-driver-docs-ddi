@@ -10,6 +10,7 @@ keywords: ["PROTOCOL_CM_CLOSE_AF callback function"]
 ms.keywords: PROTOCOL_CM_CLOSE_AF, PROTOCOL_CM_CLOSE_AF callback, ProtocolCmCloseAf, ProtocolCmCloseAf callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_bedb117e-f1a4-4faa-a6fb-c6b8a317c958.xml, ndis/ProtocolCmCloseAf, netvista.protocolcmcloseaf
 f1_keywords:
  - "ndis/ProtocolCmCloseAf"
+ - "ProtocolCmCloseAf"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - ProtocolCmCloseAf
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["PFNKSFILTERIRP callback function"]
 ms.keywords: AVStrMiniFilterClose, AVStrMiniFilterCreate, MyAVStrMiniFilterIRPHandler, MyAVStrMiniFilterIRPHandler routine [Streaming Media Devices], PFNKSFILTERIRP, avstclbk_76b73509-587e-47bd-9de7-92eac4237706.xml, ks/MyAVStrMiniFilterIRPHandler, stream.avstrminifiltercreate
 f1_keywords:
  - "ks/MyAVStrMiniFilterIRPHandler"
+ - "MyAVStrMiniFilterIRPHandler"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - MyAVStrMiniFilterIRPHandler
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -8,6 +8,7 @@ ms.date: 10/19/2018
 keywords: ["StorPortDelayExecution function"]
 f1_keywords:
  - "storport/StorPortDelayExecution"
+ - "StorPortDelayExecution"
 ms.keywords: StorPortDelayExecution
 req.header: storport.h
 req.include-header:
@@ -34,8 +35,6 @@ api_location:
 - NtosKrnl.exe
 api_name: 
 - StorPortDelayExecution
-product:
-- Windows
 targetos: Windows
 
 ---

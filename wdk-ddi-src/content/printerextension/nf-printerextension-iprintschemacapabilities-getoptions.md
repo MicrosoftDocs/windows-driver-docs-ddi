@@ -10,6 +10,7 @@ keywords: ["IPrintSchemaCapabilities::GetOptions"]
 ms.keywords: GetOptions, GetOptions method [Print Devices], GetOptions method [Print Devices],IPrintSchemaCapabilities interface, IPrintSchemaCapabilities, IPrintSchemaCapabilities interface [Print Devices],GetOptions method, IPrintSchemaCapabilities.GetOptions, IPrintSchemaCapabilities::GetOptions, print.iprintschemacapabilities_getoptions, printerextension/IPrintSchemaCapabilities::GetOptions
 f1_keywords:
  - "printerextension/IPrintSchemaCapabilities.GetOptions"
+ - "IPrintSchemaCapabilities.GetOptions"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Printerextension.h
 api_name:
 - IPrintSchemaCapabilities.GetOptions
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

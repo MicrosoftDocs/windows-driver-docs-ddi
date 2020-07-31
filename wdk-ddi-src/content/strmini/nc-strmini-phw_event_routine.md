@@ -10,6 +10,7 @@ keywords: ["PHW_EVENT_ROUTINE callback function"]
 ms.keywords: PHW_EVENT_ROUTINE, StrMiniEvent, StrMiniEvent routine [Streaming Media Devices], stream.strminievent, strmini-routines_048c6591-7f69-44c2-8aa1-db42b5d718e0.xml, strmini/StrMiniEvent
 f1_keywords:
  - "strmini/StrMiniEvent"
+ - "StrMiniEvent"
 req.header: strmini.h
 req.include-header: Strmini.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - strmini.h
 api_name:
 - StrMiniEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

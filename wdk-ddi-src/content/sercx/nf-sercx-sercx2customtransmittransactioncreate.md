@@ -10,6 +10,7 @@ keywords: ["SerCx2CustomTransmitTransactionCreate function"]
 ms.keywords: 2/SerCx2CustomTransmitTransactionCreate, SerCx2CustomTransmitTransactionCreate, SerCx2CustomTransmitTransactionCreate method [Serial Ports], serports.sercx2customtransmittransactioncreate
 f1_keywords:
  - "sercx/SerCx2CustomTransmitTransactionCreate"
+ - "SerCx2CustomTransmitTransactionCreate"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - 2.0\Sercx.h
 api_name:
 - SerCx2CustomTransmitTransactionCreate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

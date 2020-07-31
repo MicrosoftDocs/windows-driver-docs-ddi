@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_DEVICE_DISARM_WAKE_FROM_S0 callback function"]
 ms.keywords: DFDeviceObjectGeneralRef_75c64592-ec2c-471f-9f9d-484ab181e432.xml, EVT_WDF_DEVICE_DISARM_WAKE_FROM_S0, EVT_WDF_DEVICE_DISARM_WAKE_FROM_S0 callback, EvtDeviceDisarmWakeFromS0, EvtDeviceDisarmWakeFromS0 callback function, kmdf.evtdevicedisarmwakefroms0, wdf.evtdevicedisarmwakefroms0, wdfdevice/EvtDeviceDisarmWakeFromS0
 f1_keywords:
  - "wdfdevice/EvtDeviceDisarmWakeFromS0"
+ - "EvtDeviceDisarmWakeFromS0"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Wdfdevice.h
 api_name:
 - EvtDeviceDisarmWakeFromS0
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

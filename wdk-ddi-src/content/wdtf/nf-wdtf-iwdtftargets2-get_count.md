@@ -10,6 +10,7 @@ keywords: ["IWDTFTargets2::get_Count"]
 ms.keywords: Count property [Windows Device Testing Framework], Count property [Windows Device Testing Framework],IWDTFTargets2 interface, IWDTFTargets2 interface [Windows Device Testing Framework],Count property, IWDTFTargets2.Count, IWDTFTargets2.get_Count, IWDTFTargets2::Count, IWDTFTargets2::get_Count, Microsoft.WDTF.IWDTFTargets2.Count, Microsoft::WDTF::IWDTFTargets2::Count, dtf.iwdtftargets2_count, get_Count, wdtf/IWDTFTargets2::Count, wdtf/IWDTFTargets2::get_Count
 f1_keywords:
  - "wdtf/IWDTFTargets2.Count"
+ - "IWDTFTargets2.Count"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IWDTFTargets2.Count
 - IWDTFTargets2.get_Count
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

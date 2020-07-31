@@ -10,6 +10,7 @@ keywords: ["MmIsDriverSuspectForVerifier function"]
 ms.keywords: MmIsDriverSuspectForVerifier, MmIsDriverSuspectForVerifier routine [Kernel-Mode Driver Architecture], kernel.mmisdriversuspectforverifier, wdm/MmIsDriverSuspectForVerifier
 f1_keywords:
  - "wdm/MmIsDriverSuspectForVerifier"
+ - "MmIsDriverSuspectForVerifier"
 req.header: wdm.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - MmIsDriverSuspectForVerifier
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

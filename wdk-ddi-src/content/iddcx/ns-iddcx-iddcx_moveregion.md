@@ -10,6 +10,7 @@ keywords: ["IDDCX_MOVEREGION structure"]
 ms.keywords: IDDCX_MOVEREGION, IDDCX_MOVEREGION structure [Display Devices], display.iddcx_moveregion, iddcx/IDDCX_MOVEREGION
 f1_keywords:
  - "iddcx/IDDCX_MOVEREGION"
+ - "IDDCX_MOVEREGION"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - iddcx.h
 api_name:
 - IDDCX_MOVEREGION
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

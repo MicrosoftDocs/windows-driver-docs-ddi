@@ -10,6 +10,7 @@ keywords: ["_TAPE_CREATE_PARTITION structure"]
 ms.keywords: "*PTAPE_CREATE_PARTITION, PTAPE_CREATE_PARTITION, PTAPE_CREATE_PARTITION structure pointer [Storage Devices], TAPE_CREATE_PARTITION, TAPE_CREATE_PARTITION structure [Storage Devices], _TAPE_CREATE_PARTITION, ntddtape/PTAPE_CREATE_PARTITION, ntddtape/TAPE_CREATE_PARTITION, storage.tape_create_partition, structs-tape_3d86a9f7-45b2-48e8-ae21-2ad87641bcf9.xml"
 f1_keywords:
  - "ntddtape/TAPE_CREATE_PARTITION"
+ - "TAPE_CREATE_PARTITION"
 req.header: ntddtape.h
 req.include-header: Ntddtape.h, Minitape.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddtape.h
 api_name:
 - TAPE_CREATE_PARTITION
-product:
-- Windows
 targetos: Windows
 req.typenames: TAPE_CREATE_PARTITION, *PTAPE_CREATE_PARTITION
 ---

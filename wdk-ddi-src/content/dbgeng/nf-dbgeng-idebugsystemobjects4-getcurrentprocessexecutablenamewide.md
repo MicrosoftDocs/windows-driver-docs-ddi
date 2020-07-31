@@ -10,6 +10,7 @@ keywords: ["IDebugSystemObjects4::GetCurrentProcessExecutableNameWide"]
 ms.keywords: GetCurrentProcessExecutableNameWide, GetCurrentProcessExecutableNameWide method [Windows Debugging], GetCurrentProcessExecutableNameWide method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects4 interface [Windows Debugging],GetCurrentProcessExecutableNameWide method, IDebugSystemObjects4.GetCurrentProcessExecutableNameWide, IDebugSystemObjects4::GetCurrentProcessExecutableNameWide, dbgeng/IDebugSystemObjects4::GetCurrentProcessExecutableNameWide, debugger.getcurrentprocessexecutablenamewide
 f1_keywords:
  - "dbgeng/IDebugSystemObjects4.GetCurrentProcessExecutableNameWide"
+ - "IDebugSystemObjects4.GetCurrentProcessExecutableNameWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugSystemObjects4.GetCurrentProcessExecutableNameWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IWDFObject::ReleaseLock"]
 ms.keywords: IWDFObject interface,ReleaseLock method, IWDFObject.ReleaseLock, IWDFObject::ReleaseLock, ReleaseLock, ReleaseLock method, ReleaseLock method,IWDFObject interface, UMDFBaseObjectRef_bdc7490f-170b-42bb-91af-435ee5dc3e5a.xml, umdf.iwdfobject_releaselock, wdf.iwdfobject_releaselock, wudfddi/IWDFObject::ReleaseLock
 f1_keywords:
  - "wudfddi/IWDFObject.ReleaseLock"
+ - "IWDFObject.ReleaseLock"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFObject.ReleaseLock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

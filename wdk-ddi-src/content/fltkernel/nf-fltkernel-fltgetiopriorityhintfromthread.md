@@ -10,6 +10,7 @@ keywords: ["FltGetIoPriorityHintFromThread function"]
 ms.keywords: FltApiRef_e_to_o_edc8f8c5-8be8-45a7-9936-c2146e5fd4b6.xml, FltGetIoPriorityHintFromThread, FltGetIoPriorityHintFromThread routine [Installable File System Drivers], fltkernel/FltGetIoPriorityHintFromThread, ifsk.fltgetiopriorityhintfromthread
 f1_keywords:
  - "fltkernel/FltGetIoPriorityHintFromThread"
+ - "FltGetIoPriorityHintFromThread"
 req.header: fltkernel.h
 req.include-header: FltKernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltGetIoPriorityHintFromThread
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

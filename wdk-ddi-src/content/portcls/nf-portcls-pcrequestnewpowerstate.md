@@ -10,6 +10,7 @@ keywords: ["PcRequestNewPowerState function"]
 ms.keywords: PcRequestNewPowerState, PcRequestNewPowerState function [Audio Devices], audio.pcrequestnewpowerstate, audpc-routines_c3341fb0-4609-4b3f-a0b2-ef589c804f1d.xml, portcls/PcRequestNewPowerState
 f1_keywords:
  - "portcls/PcRequestNewPowerState"
+ - "PcRequestNewPowerState"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Portcls.dll
 api_name:
 - PcRequestNewPowerState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

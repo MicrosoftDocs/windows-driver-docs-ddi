@@ -10,6 +10,7 @@ keywords: ["TmDereferenceEnlistmentKey function"]
 ms.keywords: TmDereferenceEnlistmentKey, TmDereferenceEnlistmentKey routine [Kernel-Mode Driver Architecture], kernel.tmdereferenceenlistmentkey, ktm_ref_88254e83-cb2a-4da1-9216-b12314ea73ea.xml, wdm/TmDereferenceEnlistmentKey
 f1_keywords:
  - "wdm/TmDereferenceEnlistmentKey"
+ - "TmDereferenceEnlistmentKey"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -38,8 +39,6 @@ api_location:
 - tm.sys
 api_name:
 - TmDereferenceEnlistmentKey
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

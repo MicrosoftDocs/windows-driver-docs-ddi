@@ -10,6 +10,7 @@ keywords: ["SCSIWMI_ENABLE_DISABLE_CONTROL enumeration"]
 ms.keywords: SCSIWMI_ENABLE_DISABLE_CONTROL, SCSIWMI_ENABLE_DISABLE_CONTROL enumeration [Storage Devices], ScsiWmiDataBlockControl, ScsiWmiEventControl, scsiwmi/SCSIWMI_ENABLE_DISABLE_CONTROL, scsiwmi/ScsiWmiDataBlockControl, scsiwmi/ScsiWmiEventControl, storage.scsiwmi_enable_disable_control, structs-scsibus_58a70c92-6ee7-4385-b212-45672a12ac8b.xml
 f1_keywords:
  - "scsiwmi/SCSIWMI_ENABLE_DISABLE_CONTROL"
+ - "SCSIWMI_ENABLE_DISABLE_CONTROL"
 req.header: scsiwmi.h
 req.include-header: Scsiwmi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - scsiwmi.h
 api_name:
 - SCSIWMI_ENABLE_DISABLE_CONTROL
-product:
-- Windows
 targetos: Windows
 req.typenames: SCSIWMI_ENABLE_DISABLE_CONTROL
 ---

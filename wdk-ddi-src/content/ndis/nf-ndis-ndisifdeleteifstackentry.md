@@ -10,6 +10,7 @@ keywords: ["NdisIfDeleteIfStackEntry function"]
 ms.keywords: NdisIfDeleteIfStackEntry, NdisIfDeleteIfStackEntry function [Network Drivers Starting with Windows Vista], ndis/NdisIfDeleteIfStackEntry, net_if_functions_ref_dc4a2189-1dc6-43c5-8cef-baf5907d3d60.xml, netvista.ndisifdeleteifstackentry
 f1_keywords:
  - "ndis/NdisIfDeleteIfStackEntry"
+ - "NdisIfDeleteIfStackEntry"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisIfDeleteIfStackEntry
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

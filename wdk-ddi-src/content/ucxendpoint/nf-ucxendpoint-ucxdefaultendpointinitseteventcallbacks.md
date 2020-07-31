@@ -10,6 +10,7 @@ keywords: ["UcxDefaultEndpointInitSetEventCallbacks function"]
 ms.keywords: UcxDefaultEndpointInitSetEventCallbacks, UcxDefaultEndpointInitSetEventCallbacks method [Buses], buses._ucxdefaultendpointinitseteventcallbacks
 f1_keywords:
  - "ucxendpoint/UcxDefaultEndpointInitSetEventCallbacks"
+ - "UcxDefaultEndpointInitSetEventCallbacks"
 req.header: ucxendpoint.h
 req.include-header: Ucxclass.h, Ucxendpoint.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ucxendpoint.h
 api_name:
 - UcxDefaultEndpointInitSetEventCallbacks
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

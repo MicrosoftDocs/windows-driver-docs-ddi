@@ -10,6 +10,7 @@ keywords: ["ZwCommitTransaction function"]
 ms.keywords: NtCommitTransaction, ZwCommitTransaction, ZwCommitTransaction routine [Kernel-Mode Driver Architecture], kernel.zwcommittransaction, ktm_ref_bb49aa00-dbb3-4533-83c1-1cfc56073d8a.xml, wdm/NtCommitTransaction, wdm/ZwCommitTransaction
 f1_keywords:
  - "wdm/ZwCommitTransaction"
+ - "ZwCommitTransaction"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntifs.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - ZwCommitTransaction
 - NtCommitTransaction
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

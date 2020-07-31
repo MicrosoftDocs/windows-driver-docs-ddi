@@ -10,6 +10,7 @@ keywords: ["PROTOCOL_RECEIVE_NET_BUFFER_LISTS callback function"]
 ms.keywords: PROTOCOL_RECEIVE_NET_BUFFER_LISTS, PROTOCOL_RECEIVE_NET_BUFFER_LISTS callback, ProtocolReceiveNetBufferLists, ProtocolReceiveNetBufferLists callback function [Network Drivers Starting with Windows Vista], ndis/ProtocolReceiveNetBufferLists, ndis_sendrcv_ref_80c46411-a010-442f-a978-5f9227abb70a.xml, netvista.protocolreceivenetbufferlists
 f1_keywords:
  - "ndis/ProtocolReceiveNetBufferLists"
+ - "ProtocolReceiveNetBufferLists"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - ProtocolReceiveNetBufferLists
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

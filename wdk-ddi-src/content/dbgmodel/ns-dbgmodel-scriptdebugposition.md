@@ -7,6 +7,7 @@ ms.date: 07/16/2018
 keywords: ["ScriptDebugPosition structure"]
 f1_keywords:
  - "dbgmodel/ScriptDebugPosition"
+ - "ScriptDebugPosition"
 ms.keywords: ScriptDebugPosition, , 
 req.header: dbgmodel.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - ScriptDebugPosition
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

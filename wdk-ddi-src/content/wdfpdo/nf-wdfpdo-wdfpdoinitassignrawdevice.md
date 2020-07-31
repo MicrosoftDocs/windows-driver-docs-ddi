@@ -10,6 +10,7 @@ keywords: ["WdfPdoInitAssignRawDevice function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_afe4967c-d7ea-4c78-98ff-9bcfb98f6b80.xml, WdfPdoInitAssignRawDevice, WdfPdoInitAssignRawDevice method, kmdf.wdfpdoinitassignrawdevice, wdf.wdfpdoinitassignrawdevice, wdfpdo/WdfPdoInitAssignRawDevice
 f1_keywords:
  - "wdfpdo/WdfPdoInitAssignRawDevice"
+ - "WdfPdoInitAssignRawDevice"
 req.header: wdfpdo.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfPdoInitAssignRawDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

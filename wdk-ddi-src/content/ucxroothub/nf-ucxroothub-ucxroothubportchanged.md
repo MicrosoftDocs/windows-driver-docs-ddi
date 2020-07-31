@@ -10,6 +10,7 @@ keywords: ["UcxRootHubPortChanged function"]
 ms.keywords: UcxRootHubPortChanged, UcxRootHubPortChanged method [Buses], buses._ucxroothubportchanged, ucxroothub/UcxRootHubPortChanged
 f1_keywords:
  - "ucxroothub/UcxRootHubPortChanged"
+ - "UcxRootHubPortChanged"
 req.header: ucxroothub.h
 req.include-header: Ucxclass.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ucxroothub.h
 api_name:
 - UcxRootHubPortChanged
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["ZwCreateFile function"]
 ms.keywords: NtCreateFile, ZwCreateFile, ZwCreateFile routine [Kernel-Mode Driver Architecture], k111_80b1882a-8617-45d4-a783-dbc3bfc9aad4.xml, kernel.zwcreatefile, wdm/NtCreateFile, wdm/ZwCreateFile
 f1_keywords:
  - "wdm/ZwCreateFile"
+ - "ZwCreateFile"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - ZwCreateFile
 - NtCreateFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

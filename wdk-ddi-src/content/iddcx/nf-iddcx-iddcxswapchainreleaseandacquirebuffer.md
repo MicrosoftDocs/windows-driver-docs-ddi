@@ -10,6 +10,7 @@ keywords: ["IddCxSwapChainReleaseAndAcquireBuffer function"]
 ms.keywords: IddCxSwapChainReleaseAndAcquireBuffer, IddCxSwapChainReleaseAndAcquireBuffer method [Display Devices], display.iddcxswapchainreleaseandacquirebuffer, iddcx/IddCxSwapChainReleaseAndAcquireBuffer
 f1_keywords:
  - "iddcx/IddCxSwapChainReleaseAndAcquireBuffer"
+ - "IddCxSwapChainReleaseAndAcquireBuffer"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - IddCx.dll
 api_name:
 - IddCxSwapChainReleaseAndAcquireBuffer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

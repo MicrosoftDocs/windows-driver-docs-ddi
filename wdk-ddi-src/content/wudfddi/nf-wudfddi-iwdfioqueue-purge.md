@@ -10,6 +10,7 @@ keywords: ["IWDFIoQueue::Purge"]
 ms.keywords: IWDFIoQueue interface,Purge method, IWDFIoQueue.Purge, IWDFIoQueue::Purge, Purge, Purge method, Purge method,IWDFIoQueue interface, UMDFQueueObjectRef_5d2113b9-d2e3-4a27-af75-60f4bf7bddbf.xml, umdf.iwdfioqueue_purge, wdf.iwdfioqueue_purge, wudfddi/IWDFIoQueue::Purge
 f1_keywords:
  - "wudfddi/IWDFIoQueue.Purge"
+ - "IWDFIoQueue.Purge"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFIoQueue.Purge
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["_SYM_DUMP_PARAM structure"]
 ms.keywords: "*PSYM_DUMP_PARAM, PSYM_DUMP_PARAM, PSYM_DUMP_PARAM structure pointer [Windows Debugging], SYM_DUMP_PARAM, SYM_DUMP_PARAM structure [Windows Debugging], WdbgExts_Ref_22e264c9-ed41-4257-a192-7b3f6d4ffdea.xml, _SYM_DUMP_PARAM, debugger.ig_dump_symbol_info, wdbgexts/PSYM_DUMP_PARAM, wdbgexts/SYM_DUMP_PARAM"
 f1_keywords:
  - "wdbgexts/SYM_DUMP_PARAM"
+ - "SYM_DUMP_PARAM"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wdbgexts.h
 api_name:
 - SYM_DUMP_PARAM
-product:
-- Windows
 targetos: Windows
 req.typenames: SYM_DUMP_PARAM, *PSYM_DUMP_PARAM
 ---

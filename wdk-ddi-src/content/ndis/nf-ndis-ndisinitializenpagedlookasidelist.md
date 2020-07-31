@@ -10,6 +10,7 @@ keywords: ["NdisInitializeNPagedLookasideList function"]
 ms.keywords: NdisInitializeNPagedLookasideList, NdisInitializeNPagedLookasideList function [Network Drivers Starting with Windows Vista], ndis/NdisInitializeNPagedLookasideList, ndis_lookaside_ref_edf7a9cc-c6bc-405b-88bb-c27331c38069.xml, netvista.ndisinitializenpagedlookasidelist
 f1_keywords:
  - "ndis/NdisInitializeNPagedLookasideList"
+ - "NdisInitializeNPagedLookasideList"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NdisInitializeNPagedLookasideList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

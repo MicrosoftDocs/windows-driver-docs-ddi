@@ -34,12 +34,16 @@ api_location:
 api_name:
  - ExAllocatePoolPriorityZero
 f1_keywords:
- - wdm/ExAllocatePoolPriorityZero
+ - wdm//ExAllocatePoolPriorityZero
+ - ExAllocatePoolPriorityZero
 dev_langs:
  - c++
 ---
 
 ## -description
+
+> [!WARNING]
+> Microsoft is aware of an issue with **ExAllocatePoolPriorityZero** that can lead to an allocation not getting zeroed on Windows 10, version 1909. We recommend not using **ExAllocatePoolPriorityZero** for drivers targeting Windows 10, version 1909. This warning will be removed when the issue is fixed.
 
 This routine is a wrapper for and a recommended replacement option for [**ExAllocatePoolWithTagPriority**](nf-wdm-exallocatepoolwithtagpriority.md).
 

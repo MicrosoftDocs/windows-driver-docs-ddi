@@ -10,6 +10,7 @@ keywords: ["IDARG_IN_I2C_RECEIVE structure"]
 ms.keywords: IDARG_IN_I2C_RECEIVE, IDARG_IN_I2C_RECEIVE structure [Display Devices], display.idarg_in_i2c_receive, iddcx/IDARG_IN_I2C_RECEIVE
 f1_keywords:
  - "iddcx/IDARG_IN_I2C_RECEIVE"
+ - "IDARG_IN_I2C_RECEIVE"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - iddcx.h
 api_name:
 - IDARG_IN_I2C_RECEIVE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

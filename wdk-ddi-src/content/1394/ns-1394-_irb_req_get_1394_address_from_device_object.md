@@ -10,6 +10,7 @@ keywords: ["_IRB_REQ_GET_1394_ADDRESS_FROM_DEVICE_OBJECT structure"]
 ms.keywords: 1394/IRB_REQ_GET_1394_ADDRESS_FROM_DEVICE_OBJECT, IEEE.irb_req_get_1394_address_from_device_object, IRB_REQ_GET_1394_ADDRESS_FROM_DEVICE_OBJECT, IRB_REQ_GET_1394_ADDRESS_FROM_DEVICE_OBJECT structure [Buses], _IRB_REQ_GET_1394_ADDRESS_FROM_DEVICE_OBJECT
 f1_keywords:
  - "1394/IRB_REQ_GET_1394_ADDRESS_FROM_DEVICE_OBJECT"
+ - "IRB_REQ_GET_1394_ADDRESS_FROM_DEVICE_OBJECT"
 req.header: 1394.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - 1394.h
 api_name:
 - IRB_REQ_GET_1394_ADDRESS_FROM_DEVICE_OBJECT
-product:
-- Windows
 targetos: Windows
 req.typenames: IRB_REQ_GET_1394_ADDRESS_FROM_DEVICE_OBJECT
 ---

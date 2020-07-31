@@ -10,6 +10,7 @@ keywords: ["RILUICCLOCK structure"]
 ms.keywords: "*LPRILUICCLOCK, RILUICCLOCK, RILUICCLOCK structure [Network Drivers Starting with Windows Vista], netvista.riluicclock_2, rilapitypes/RILUICCLOCK"
 f1_keywords:
  - "rilapitypes/RILUICCLOCK"
+ - "RILUICCLOCK"
 req.header: rilapitypes.h
 req.include-header:
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapitypes.h
 api_name:
 - RILUICCLOCK
-product:
-- Windows
 targetos: Windows
 req.typenames: RILUICCLOCK, *LPRILUICCLOCK
 req.product: Windows 10 or later.

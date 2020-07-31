@@ -10,6 +10,7 @@ keywords: ["KsValidateTopologyNodeCreateRequest function"]
 ms.keywords: KsValidateTopologyNodeCreateRequest, KsValidateTopologyNodeCreateRequest function [Streaming Media Devices], ks/KsValidateTopologyNodeCreateRequest, ksfunc_f2b7fc56-1bca-4de5-981b-68364aa96fa7.xml, stream.ksvalidatetopologynodecreaterequest
 f1_keywords:
  - "ks/KsValidateTopologyNodeCreateRequest"
+ - "KsValidateTopologyNodeCreateRequest"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsValidateTopologyNodeCreateRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

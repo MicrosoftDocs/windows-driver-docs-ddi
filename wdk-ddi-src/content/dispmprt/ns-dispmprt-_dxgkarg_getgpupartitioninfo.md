@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["_DXGKARG_GETGPUPARTITIONINFO structure"]
 f1_keywords:
  - "dispmprt/_DXGKARG_GETGPUPARTITIONINFO"
+ - "_DXGKARG_GETGPUPARTITIONINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: _DXGKARG_GETGPUPARTITIONINFO, DXGKARG_GETGPUPARTITIONINFO, *PDXGKARG_GETGPUPARTITIONINFO, 

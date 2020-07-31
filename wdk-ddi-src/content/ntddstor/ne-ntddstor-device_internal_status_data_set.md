@@ -10,6 +10,7 @@ ms.date: 11/30/2019
 ms.topic: enum
 f1_keywords:
  - "ntddstor/DEVICE_INTERNAL_STATUS_DATA_SET"
+ - "DEVICE_INTERNAL_STATUS_DATA_SET"
 ms.keywords: DEVICE_INTERNAL_STATUS_DATA_SET, DEVICE_INTERNAL_STATUS_DATA_SET, *PDEVICE_INTERNAL_STATUS_DATA_SET, 
 req.header: ntddstor.h
 req.include-header:

@@ -9,6 +9,7 @@ keywords: ["PFND3D12DDI_CREATEHEAPANDRESOURCE_0075 callback function"]
 ms.keywords: PFND3D12DDI_CREATEHEAPANDRESOURCE_0075, PFND3D12DDI_CREATEHEAPANDRESOURCE_0075 callback, PFND3D12DDI_CREATEHEAPANDRESOURCE_0075 callback function [Display Devices], d3d12umddi/PFND3D12DDI_CREATEHEAPANDRESOURCE_0075, display.pfnd3d12ddi_createheapandresource_0075
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_CREATEHEAPANDRESOURCE_0075"
+ - "PFND3D12DDI_CREATEHEAPANDRESOURCE_0075"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3d12umddi.h
 api_name:
 - PFND3D12DDI_CREATEHEAPANDRESOURCE_0075
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

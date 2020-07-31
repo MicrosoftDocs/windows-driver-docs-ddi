@@ -10,6 +10,7 @@ keywords: ["MmForceSectionClosed function"]
 ms.keywords: MmForceSectionClosed, MmForceSectionClosed routine [Installable File System Drivers], ifsk.mmforcesectionclosed, mmref_d2466446-15b8-4152-a7ff-3ebe1f05cd68.xml, ntifs/MmForceSectionClosed
 f1_keywords:
  - "ntifs/MmForceSectionClosed"
+ - "MmForceSectionClosed"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - MmForceSectionClosed
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

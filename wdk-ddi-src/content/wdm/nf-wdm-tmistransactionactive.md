@@ -10,6 +10,7 @@ keywords: ["TmIsTransactionActive function"]
 ms.keywords: TmIsTransactionActive, TmIsTransactionActive routine [Kernel-Mode Driver Architecture], kernel.tmistransactionactive, ktm_ref_f2dfbc14-24c0-494b-bf54-506c9d2c1af4.xml, wdm/TmIsTransactionActive
 f1_keywords:
  - "wdm/TmIsTransactionActive"
+ - "TmIsTransactionActive"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -38,8 +39,6 @@ api_location:
 - tm.sys
 api_name:
 - TmIsTransactionActive
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

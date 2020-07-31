@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_UNLOCKASYNC structure"]
 ms.keywords: D3DDDIARG_UNLOCKASYNC, D3DDDIARG_UNLOCKASYNC structure [Display Devices], UMDisplayDriver_param_Structs_1b08f2e6-73cd-4390-a9a2-54e604ca5012.xml, _D3DDDIARG_UNLOCKASYNC, d3dumddi/D3DDDIARG_UNLOCKASYNC, display.d3dddiarg_unlockasync
 f1_keywords:
  - "d3dumddi/D3DDDIARG_UNLOCKASYNC"
+ - "D3DDDIARG_UNLOCKASYNC"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDIARG_UNLOCKASYNC
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_UNLOCKASYNC
 ---

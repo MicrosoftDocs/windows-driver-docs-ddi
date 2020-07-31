@@ -10,6 +10,7 @@ keywords: ["IOCTL_DOT4_USER_BASE IOCTL"]
 ms.keywords: IOCTL_DOT4_USER_BASE, IOCTL_DOT4_USER_BASE control, IOCTL_DOT4_USER_BASE control code [Print Devices], d4drvif/IOCTL_DOT4_USER_BASE, print.ioctl_ioctl_dot4_user_base
 f1_keywords:
  - "d4drvif/IOCTL_DOT4_USER_BASE"
+ - "IOCTL_DOT4_USER_BASE"
 req.header: d4drvif.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - D4drvif.h
 api_name:
 - IOCTL_DOT4_USER_BASE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

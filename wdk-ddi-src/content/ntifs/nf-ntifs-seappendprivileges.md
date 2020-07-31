@@ -10,6 +10,7 @@ keywords: ["SeAppendPrivileges function"]
 ms.keywords: SeAppendPrivileges, SeAppendPrivileges routine [Installable File System Drivers], ifsk.seappendprivileges, ntifs/SeAppendPrivileges, seref_c48fbff8-669f-4138-8f55-84bc083d9af5.xml
 f1_keywords:
  - "ntifs/SeAppendPrivileges"
+ - "SeAppendPrivileges"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - SeAppendPrivileges
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

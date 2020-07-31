@@ -10,6 +10,7 @@ keywords: ["IDebugControl3::ControlledOutput"]
 ms.keywords: ControlledOutput, ControlledOutput method [Windows Debugging], ControlledOutput method [Windows Debugging],IDebugControl interface, ControlledOutput method [Windows Debugging],IDebugControl2 interface, ControlledOutput method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],ControlledOutput method, IDebugControl2 interface [Windows Debugging],ControlledOutput method, IDebugControl2::ControlledOutput, IDebugControl3 interface [Windows Debugging],ControlledOutput method, IDebugControl3.ControlledOutput, IDebugControl3::ControlledOutput, IDebugControl::ControlledOutput, IDebugControl_b35fb81f-3425-4a39-8c80-b6e8a161ba71.xml, dbgeng/IDebugControl2::ControlledOutput, dbgeng/IDebugControl3::ControlledOutput, dbgeng/IDebugControl::ControlledOutput, debugger.controlledoutput
 f1_keywords:
  - "dbgeng/IDebugControl.ControlledOutput"
+ - "IDebugControl.ControlledOutput"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -38,8 +39,6 @@ api_name:
 - IDebugControl.ControlledOutput
 - IDebugControl2.ControlledOutput
 - IDebugControl3.ControlledOutput
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

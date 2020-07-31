@@ -10,6 +10,7 @@ keywords: ["NdisCloseFile function"]
 ms.keywords: NdisCloseFile, NdisCloseFile function [Network Drivers Starting with Windows Vista], ndis/NdisCloseFile, ndis_file_ref_17933dee-e6d5-4b5d-a078-84617c38c46c.xml, netvista.ndisclosefile
 f1_keywords:
  - "ndis/NdisCloseFile"
+ - "NdisCloseFile"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisCloseFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

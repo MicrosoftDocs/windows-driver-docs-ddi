@@ -9,6 +9,7 @@ keywords: ["PFND3DWDDM2_2DDI_DESTROY_SHADERCACHE_SESSION callback function"]
 ms.keywords: PFND3DWDDM2_2DDI_DESTROY_SHADERCACHE_SESSION, PFND3DWDDM2_2DDI_DESTROY_SHADERCACHE_SESSION callback, d3d10umddi/pfnDestroyShaderCacheSession, display.pfnd3dwddm2_2ddi_destroy_shadercache_session, pfnDestroyShaderCacheSession, pfnDestroyShaderCacheSession callback function [Display Devices]
 f1_keywords:
  - "d3d10umddi/pfnDestroyShaderCacheSession"
+ - "pfnDestroyShaderCacheSession"
 req.header: d3d10umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - pfnDestroyShaderCacheSession
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

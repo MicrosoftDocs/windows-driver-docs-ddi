@@ -10,6 +10,7 @@ keywords: ["RtlDestroyHeap function"]
 ms.keywords: RtlDestroyHeap, RtlDestroyHeap routine [Installable File System Drivers], ifsk.rtldestroyheap, ntifs/RtlDestroyHeap, rtlref_c1cb90f1-932d-46ab-badc-d960503def9c.xml
 f1_keywords:
  - "ntifs/RtlDestroyHeap"
+ - "RtlDestroyHeap"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlDestroyHeap
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

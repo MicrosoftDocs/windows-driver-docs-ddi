@@ -10,6 +10,7 @@ keywords: ["FltInitExtraCreateParameterLookasideList function"]
 ms.keywords: FltApiRef_e_to_o_b9cff240-0f03-4756-86d0-a44612df8e58.xml, FltInitExtraCreateParameterLookasideList, FltInitExtraCreateParameterLookasideList routine [Installable File System Drivers], fltkernel/FltInitExtraCreateParameterLookasideList, ifsk.fltinitextracreateparameterlookasidelist
 f1_keywords:
  - "fltkernel/FltInitExtraCreateParameterLookasideList"
+ - "FltInitExtraCreateParameterLookasideList"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltInitExtraCreateParameterLookasideList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

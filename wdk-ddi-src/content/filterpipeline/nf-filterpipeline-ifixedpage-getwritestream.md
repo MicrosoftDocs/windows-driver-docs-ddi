@@ -10,6 +10,7 @@ keywords: ["IFixedPage::GetWriteStream"]
 ms.keywords: GetWriteStream, GetWriteStream method [Print Devices], GetWriteStream method [Print Devices],IFixedPage interface, IFixedPage interface [Print Devices],GetWriteStream method, IFixedPage.GetWriteStream, IFixedPage::GetWriteStream, filterpipeline/IFixedPage::GetWriteStream, filterpipeline_f253c020-8d3d-44c1-a9fb-e5093c29a637.xml, print.ifixedpage_getwritestream
 f1_keywords:
  - "filterpipeline/IFixedPage.GetWriteStream"
+ - "IFixedPage.GetWriteStream"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - filterpipeline.h
 api_name:
 - IFixedPage.GetWriteStream
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

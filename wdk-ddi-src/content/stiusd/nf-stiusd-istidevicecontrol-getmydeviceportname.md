@@ -10,6 +10,7 @@ keywords: ["IStiDeviceControl::GetMyDevicePortName"]
 ms.keywords: GetMyDevicePortName, GetMyDevicePortName method [Imaging Devices], GetMyDevicePortName method [Imaging Devices],IStiDeviceControl interface, IStiDeviceControl interface [Imaging Devices],GetMyDevicePortName method, IStiDeviceControl.GetMyDevicePortName, IStiDeviceControl::GetMyDevicePortName, image.istidevicecontrol_getmydeviceportname, stifnc_00f6a8a0-b5dc-43d7-8a68-23b15592b404.xml, stiusd/IStiDeviceControl::GetMyDevicePortName
 f1_keywords:
  - "stiusd/IStiDeviceControl.GetMyDevicePortName"
+ - "IStiDeviceControl.GetMyDevicePortName"
 req.header: stiusd.h
 req.include-header: Stiusd.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - stiusd.h
 api_name:
 - IStiDeviceControl.GetMyDevicePortName
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

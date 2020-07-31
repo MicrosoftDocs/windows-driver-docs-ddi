@@ -10,6 +10,7 @@ keywords: ["SPB_TRANSFER_BUFFER_LIST_ENTRY structure"]
 ms.keywords: "*PSPB_TRANSFER_BUFFER_LIST_ENTRY, PSPB_TRANSFER_BUFFER_LIST_ENTRY, PSPB_TRANSFER_BUFFER_LIST_ENTRY structure pointer [Buses], SPB.spb_transfer_buffer_list_entry, SPB_TRANSFER_BUFFER_LIST_ENTRY, SPB_TRANSFER_BUFFER_LIST_ENTRY structure [Buses], spb/PSPB_TRANSFER_BUFFER_LIST_ENTRY, spb/SPB_TRANSFER_BUFFER_LIST_ENTRY"
 f1_keywords:
  - "spb/SPB_TRANSFER_BUFFER_LIST_ENTRY"
+ - "SPB_TRANSFER_BUFFER_LIST_ENTRY"
 req.header: spb.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Spb.h
 api_name:
 - SPB_TRANSFER_BUFFER_LIST_ENTRY
-product:
-- Windows
 targetos: Windows
 req.typenames: SPB_TRANSFER_BUFFER_LIST_ENTRY, *PSPB_TRANSFER_BUFFER_LIST_ENTRY
 ---

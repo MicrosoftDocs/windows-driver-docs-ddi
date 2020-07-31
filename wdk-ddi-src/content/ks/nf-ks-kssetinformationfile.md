@@ -10,6 +10,7 @@ keywords: ["KsSetInformationFile function"]
 ms.keywords: KsSetInformationFile, KsSetInformationFile function [Streaming Media Devices], ks/KsSetInformationFile, ksfunc_338e56fe-b32d-4c9e-920f-9a5af1c5fdf3.xml, stream.kssetinformationfile
 f1_keywords:
  - "ks/KsSetInformationFile"
+ - "KsSetInformationFile"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsSetInformationFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

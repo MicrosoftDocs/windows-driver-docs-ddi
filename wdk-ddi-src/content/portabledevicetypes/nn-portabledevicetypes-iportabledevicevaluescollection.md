@@ -10,6 +10,7 @@ keywords: ["IPortableDeviceValuesCollection interface"]
 ms.keywords: IPortableDeviceValuesCollection, IPortableDeviceValuesCollection interface, IPortableDeviceValuesCollection interface,described, IPortableDeviceValuesCollectionInterface, portabledevicetypes/IPortableDeviceValuesCollection, wpddk.iportabledevicevaluescollection
 f1_keywords:
  - "portabledevicetypes/IPortableDeviceValuesCollection"
+ - "IPortableDeviceValuesCollection"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - PortableDeviceTypes.h
 api_name:
 - IPortableDeviceValuesCollection
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5
@@ -57,7 +56,7 @@ Holds a collection of indexed <b>IPortableDeviceValues</b> interfaces. This inte
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDeviceValuesCollection</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPortableDeviceValuesCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDeviceValuesCollection</b> interface inherits from the <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPortableDeviceValuesCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

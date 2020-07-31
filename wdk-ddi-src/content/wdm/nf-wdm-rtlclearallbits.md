@@ -10,6 +10,7 @@ keywords: ["RtlClearAllBits function"]
 ms.keywords: RtlClearAllBits, RtlClearAllBits routine [Kernel-Mode Driver Architecture], k109_6fb17a55-6839-411c-9289-720657ba4983.xml, kernel.rtlclearallbits, wdm/RtlClearAllBits
 f1_keywords:
  - "wdm/RtlClearAllBits"
+ - "RtlClearAllBits"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ntdll.dll
 api_name:
 - RtlClearAllBits
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

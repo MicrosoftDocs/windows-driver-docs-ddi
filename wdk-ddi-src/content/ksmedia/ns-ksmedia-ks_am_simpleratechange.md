@@ -10,6 +10,7 @@ keywords: ["KS_AM_SimpleRateChange structure"]
 ms.keywords: "*PKS_AM_SimpleRateChange, KS_AM_SimpleRateChange, KS_AM_SimpleRateChange structure [Streaming Media Devices], PKS_AM_SimpleRateChange, PKS_AM_SimpleRateChange structure pointer [Streaming Media Devices], dvdref_8c318967-5f7d-4597-ab40-924e95b86dd7.xml, ksmedia/KS_AM_SimpleRateChange, ksmedia/PKS_AM_SimpleRateChange, stream.ks_am_simpleratechange"
 f1_keywords:
  - "ksmedia/KS_AM_SimpleRateChange"
+ - "KS_AM_SimpleRateChange"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KS_AM_SimpleRateChange
-product:
-- Windows
 targetos: Windows
 req.typenames: KS_AM_SimpleRateChange, *PKS_AM_SimpleRateChange
 ---

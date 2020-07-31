@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["GAMMA_RAMP_DXGI_1 structure"]
 f1_keywords:
  - "ntddvdeo/GAMMA_RAMP_DXGI_1"
+ - "GAMMA_RAMP_DXGI_1"
 ms.keywords: GAMMA_RAMP_DXGI_1, GAMMA_RAMP_DXGI_1, 
 req.header: ntddvdeo.h
 req.include-header:
@@ -32,8 +33,6 @@ api_location:
  - ntddvdeo.h
 api_name: 
  - GAMMA_RAMP_DXGI_1
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

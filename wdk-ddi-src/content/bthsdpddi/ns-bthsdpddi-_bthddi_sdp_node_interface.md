@@ -10,6 +10,7 @@ keywords: ["_BTHDDI_SDP_NODE_INTERFACE structure"]
 ms.keywords: "*PBTHDDI_SDP_NODE_INTERFACE, BTHDDI_SDP_NODE_INTERFACE, BTHDDI_SDP_NODE_INTERFACE structure [Bluetooth Devices], PBTHDDI_SDP_NODE_INTERFACE, PBTHDDI_SDP_NODE_INTERFACE structure pointer [Bluetooth Devices], _BTHDDI_SDP_NODE_INTERFACE, bltooth.bthddi_sdp_node_interface, bth_structs_54f8f76d-9f12-491d-b189-c4e2fdd9b364.xml, bthsdpddi/BTHDDI_SDP_NODE_INTERFACE, bthsdpddi/PBTHDDI_SDP_NODE_INTERFACE"
 f1_keywords:
  - "bthsdpddi/BTHDDI_SDP_NODE_INTERFACE"
+ - "BTHDDI_SDP_NODE_INTERFACE"
 req.header: bthsdpddi.h
 req.include-header: BthSdpddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - bthsdpddi.h
 api_name:
 - BTHDDI_SDP_NODE_INTERFACE
-product:
-- Windows
 targetos: Windows
 req.typenames: BTHDDI_SDP_NODE_INTERFACE, *PBTHDDI_SDP_NODE_INTERFACE
 ---

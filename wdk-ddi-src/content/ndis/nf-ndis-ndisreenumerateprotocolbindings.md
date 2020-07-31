@@ -10,6 +10,7 @@ keywords: ["NdisReEnumerateProtocolBindings function"]
 ms.keywords: NdisReEnumerateProtocolBindings, NdisReEnumerateProtocolBindings function [Network Drivers Starting with Windows Vista], ndis/NdisReEnumerateProtocolBindings, netvista.ndisreenumerateprotocolbindings, protocol_ndis_functions_ref_097465b9-b6e9-435a-8ac4-6d302363e946.xml
 f1_keywords:
  - "ndis/NdisReEnumerateProtocolBindings"
+ - "NdisReEnumerateProtocolBindings"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisReEnumerateProtocolBindings
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

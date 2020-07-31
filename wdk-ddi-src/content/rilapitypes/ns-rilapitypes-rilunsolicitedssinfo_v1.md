@@ -10,6 +10,7 @@ keywords: ["RILUNSOLICITEDSSINFO_V1 structure"]
 ms.keywords: "*LPRILUNSOLICITEDSSINFO_V1, RILUNSOLICITEDSSINFO_V1, RILUNSOLICITEDSSINFO_V1 structure [Network Drivers Starting with Windows Vista], netvista.rilunsolicitedssinfo_v1, ntddrilapitypes/RILUNSOLICITEDSSINFO_V1"
 f1_keywords:
  - "rilapitypes/RILUNSOLICITEDSSINFO_V1"
+ - "RILUNSOLICITEDSSINFO_V1"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILUNSOLICITEDSSINFO_V1
-product:
-- Windows
 targetos: Windows
 req.typenames: RILUNSOLICITEDSSINFO_V1, *LPRILUNSOLICITEDSSINFO_V1
 ---

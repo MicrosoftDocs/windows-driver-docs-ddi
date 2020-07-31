@@ -10,6 +10,7 @@ keywords: ["IDebugRegisters::GetFrameOffset"]
 ms.keywords: GetFrameOffset, GetFrameOffset method [Windows Debugging], GetFrameOffset method [Windows Debugging],IDebugRegisters interface, GetFrameOffset method [Windows Debugging],IDebugRegisters2 interface, IDebugRegisters interface [Windows Debugging],GetFrameOffset method, IDebugRegisters.GetFrameOffset, IDebugRegisters2 interface [Windows Debugging],GetFrameOffset method, IDebugRegisters2::GetFrameOffset, IDebugRegisters::GetFrameOffset, IDebugRegisters_c3f31f5b-76d4-4910-b1a1-f3050c20e815.xml, dbgeng/IDebugRegisters2::GetFrameOffset, dbgeng/IDebugRegisters::GetFrameOffset, debugger.getframeoffset
 f1_keywords:
  - "dbgeng/IDebugRegisters.GetFrameOffset"
+ - "IDebugRegisters.GetFrameOffset"
 req.header: dbgeng.h
 req.include-header: DbgEng.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IDebugRegisters.GetFrameOffset
 - IDebugRegisters2.GetFrameOffset
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

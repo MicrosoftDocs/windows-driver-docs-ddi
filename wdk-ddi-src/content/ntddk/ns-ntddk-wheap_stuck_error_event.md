@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["WHEAP_STUCK_ERROR_EVENT structure"]
 f1_keywords:
  - "ntddk/WHEAP_STUCK_ERROR_EVENT"
+ - "WHEAP_STUCK_ERROR_EVENT"
 ms.keywords: WHEAP_STUCK_ERROR_EVENT, WHEAP_STUCK_ERROR_EVENT, *PWHEAP_STUCK_ERROR_EVENT, 
 req.header: ntddk.h
 req.include-header:

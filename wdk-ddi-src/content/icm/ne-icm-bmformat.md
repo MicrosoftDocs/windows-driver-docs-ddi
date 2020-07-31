@@ -35,8 +35,6 @@ api_location:
 - icm.h
 api_name:
 - BMFORMAT
-product:
-- Windows
 targetos: Windows
 req.typenames: BMFORMAT
 ---

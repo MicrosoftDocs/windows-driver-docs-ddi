@@ -10,6 +10,7 @@ keywords: ["KsPinAcquireControl function"]
 ms.keywords: KsPinAcquireControl, KsPinAcquireControl function [Streaming Media Devices], avfunc_fd5d1466-6403-42cf-aab7-d044014c4abf.xml, ks/KsPinAcquireControl, stream.kspinacquirecontrol
 f1_keywords:
  - "ks/KsPinAcquireControl"
+ - "KsPinAcquireControl"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KsPinAcquireControl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

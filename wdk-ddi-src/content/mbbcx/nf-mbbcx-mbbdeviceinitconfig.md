@@ -8,6 +8,7 @@ ms.date: 06/28/2018
 keywords: ["MbbDeviceInitConfig function"]
 f1_keywords:
  - "mbbcx/MbbDeviceInitConfig"
+ - "MbbDeviceInitConfig"
 ms.keywords: MbbDeviceInitConfig
 req.header: mbbcx.h
 req.include-header:
@@ -34,8 +35,6 @@ api_location:
 - mbbcxstub.lib
 api_name: 
 - MbbDeviceInitConfig
-product:
-- Windows
 targetos: Windows
 
 

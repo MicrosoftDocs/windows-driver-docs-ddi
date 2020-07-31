@@ -10,6 +10,7 @@ keywords: ["PoCallDriver function"]
 ms.keywords: PoCallDriver, PoCallDriver routine [Kernel-Mode Driver Architecture], kernel.pocalldriver, portn_2045d7d3-993d-49e6-aaf5-52d3c1316382.xml, wdm/PoCallDriver
 f1_keywords:
  - "ntifs/PoCallDriver"
+ - "PoCallDriver"
 req.header: ntifs.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - PoCallDriver
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

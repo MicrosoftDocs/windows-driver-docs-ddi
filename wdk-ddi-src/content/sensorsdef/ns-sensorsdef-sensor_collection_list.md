@@ -10,6 +10,7 @@ keywords: ["SENSOR_COLLECTION_LIST structure"]
 ms.keywords: "*PSENSOR_COLLECTION_LIST, PSENSOR_COLLECTION_LIST, PSENSOR_COLLECTION_LIST structure pointer [Sensor Devices], SENSOR_COLLECTION_LIST, SENSOR_COLLECTION_LIST structure [Sensor Devices], sensors.sensor_collection_list, sensorsdef/PSENSOR_COLLECTION_LIST, sensorsdef/SENSOR_COLLECTION_LIST"
 f1_keywords:
  - "sensorsdef/SENSOR_COLLECTION_LIST"
+ - "SENSOR_COLLECTION_LIST"
 req.header: sensorsdef.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Sensorsdef.h
 api_name:
 - SENSOR_COLLECTION_LIST
-product:
-- Windows
 targetos: Windows
 req.typenames: SENSOR_COLLECTION_LIST, *PSENSOR_COLLECTION_LIST
 ---

@@ -10,6 +10,7 @@ keywords: ["WdfFdoInitSetDefaultChildListConfig function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_676a2185-db9b-498e-84e3-52b8ac32584c.xml, WdfFdoInitSetDefaultChildListConfig, WdfFdoInitSetDefaultChildListConfig method, kmdf.wdffdoinitsetdefaultchildlistconfig, wdf.wdffdoinitsetdefaultchildlistconfig, wdffdo/WdfFdoInitSetDefaultChildListConfig
 f1_keywords:
  - "wdffdo/WdfFdoInitSetDefaultChildListConfig"
+ - "WdfFdoInitSetDefaultChildListConfig"
 req.header: wdffdo.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfFdoInitSetDefaultChildListConfig
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["RtlStringCbCopyW function"]
 ms.keywords: RtlStringCbCopy, RtlStringCbCopyA, RtlStringCbCopyW, RtlStringCbCopyW function [Kernel-Mode Driver Architecture], kernel.rtlstringcbcopy, ntstrsafe/RtlStringCbCopyA, ntstrsafe/RtlStringCbCopyW, safestrings_a9c53388-15ef-4140-8931-ca93d519a7d4.xml
 f1_keywords:
  - "ntstrsafe/RtlStringCbCopyW"
+ - "RtlStringCbCopyW"
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop
@@ -39,8 +40,6 @@ api_name:
 - RtlStringCbCopyW
 - RtlStringCbCopyA
 - RtlStringCbCopyW
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_DECRYPTIONBLT structure"]
 ms.keywords: D3DDDIARG_DECRYPTIONBLT, D3DDDIARG_DECRYPTIONBLT structure [Display Devices], UMDisplayDriver_param_Structs_1d0c0adb-cfde-47fd-b17c-1acc15de25cd.xml, _D3DDDIARG_DECRYPTIONBLT, d3dumddi/D3DDDIARG_DECRYPTIONBLT, display.d3dddiarg_decryptionblt
 f1_keywords:
  - "d3dumddi/D3DDDIARG_DECRYPTIONBLT"
+ - "D3DDDIARG_DECRYPTIONBLT"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDIARG_DECRYPTIONBLT
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_DECRYPTIONBLT
 ---

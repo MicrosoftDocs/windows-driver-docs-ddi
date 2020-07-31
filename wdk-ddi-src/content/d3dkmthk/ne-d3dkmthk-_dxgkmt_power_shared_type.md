@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_DXGKMT_POWER_SHARED_TYPE enumeration"]
 f1_keywords:
  - "d3dkmthk/_DXGKMT_POWER_SHARED_TYPE"
+ - "_DXGKMT_POWER_SHARED_TYPE"
 ms.keywords: _DXGKMT_POWER_SHARED_TYPE, DXGKMT_POWER_SHARED_TYPE,
 req.header: d3dkmthk.h
 req.include-header:

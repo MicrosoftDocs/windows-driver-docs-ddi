@@ -10,6 +10,7 @@ keywords: ["FltFreeExtraCreateParameter function"]
 ms.keywords: FltApiRef_e_to_o_d5948c86-8750-4684-9f66-0f0b34949714.xml, FltFreeExtraCreateParameter, FltFreeExtraCreateParameter routine [Installable File System Drivers], fltkernel/FltFreeExtraCreateParameter, ifsk.fltfreeextracreateparameter
 f1_keywords:
  - "fltkernel/FltFreeExtraCreateParameter"
+ - "FltFreeExtraCreateParameter"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - FltMgr.sys
 api_name:
 - FltFreeExtraCreateParameter
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

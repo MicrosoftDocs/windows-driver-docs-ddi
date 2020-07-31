@@ -10,6 +10,7 @@ keywords: ["RIL_GetCallForwardingSettings function"]
 ms.keywords: RIL_GetCallForwardingSettings, RIL_GetCallForwardingSettings method [Network Drivers Starting with Windows Vista], netvista.ril_getcallforwardingsettings, rilapi/RIL_GetCallForwardingSettings
 f1_keywords:
  - "rilapi/RIL_GetCallForwardingSettings"
+ - "RIL_GetCallForwardingSettings"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_GetCallForwardingSettings
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

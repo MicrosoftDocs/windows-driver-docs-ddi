@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_ACTIVATE_SPECIFIC_DIAG_ESCAPE structure"]
 ms.keywords: D3DKMT_ACTIVATE_SPECIFIC_DIAG_ESCAPE, D3DKMT_ACTIVATE_SPECIFIC_DIAG_ESCAPE structure [Display Devices], _D3DKMT_ACTIVATE_SPECIFIC_DIAG_ESCAPE, d3dkmthk/D3DKMT_ACTIVATE_SPECIFIC_DIAG_ESCAPE, display.d3dkmt_activate_specific_diag_escape
 f1_keywords:
  - "d3dkmthk/D3DKMT_ACTIVATE_SPECIFIC_DIAG_ESCAPE"
+ - "D3DKMT_ACTIVATE_SPECIFIC_DIAG_ESCAPE"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - D3dkmthk.h
 api_name:
 - D3DKMT_ACTIVATE_SPECIFIC_DIAG_ESCAPE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_ACTIVATE_SPECIFIC_DIAG_ESCAPE

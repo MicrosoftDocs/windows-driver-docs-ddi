@@ -10,6 +10,7 @@ keywords: ["_SPLCLIENT_INFO_1 structure"]
 ms.keywords: "*LPSPLCLIENT_INFO_1, *PSPLCLIENT_INFO_1, LPSPLCLIENT_INFO_1, LPSPLCLIENT_INFO_1 structure pointer [Print Devices], PSPLCLIENT_INFO_1, PSPLCLIENT_INFO_1 structure pointer [Print Devices], SPLCLIENT_INFO_1, SPLCLIENT_INFO_1 structure [Print Devices], _SPLCLIENT_INFO_1, poprfnc_45237404-33da-4fb0-9405-05c930c5445b.xml, print.splclient_info_1, winsplp/LPSPLCLIENT_INFO_1, winsplp/PSPLCLIENT_INFO_1, winsplp/SPLCLIENT_INFO_1"
 f1_keywords:
  - "winsplp/SPLCLIENT_INFO_1"
+ - "SPLCLIENT_INFO_1"
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - winsplp.h
 api_name:
 - SPLCLIENT_INFO_1
-product:
-- Windows
 targetos: Windows
 req.typenames: SPLCLIENT_INFO_1, *PSPLCLIENT_INFO_1, *LPSPLCLIENT_INFO_1
 ---

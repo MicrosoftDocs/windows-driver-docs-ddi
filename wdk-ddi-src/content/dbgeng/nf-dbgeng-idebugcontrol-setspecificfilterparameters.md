@@ -10,6 +10,7 @@ keywords: ["IDebugControl::SetSpecificFilterParameters"]
 ms.keywords: IDebugControl interface [Windows Debugging],SetSpecificFilterParameters method, IDebugControl.SetSpecificFilterParameters, IDebugControl2 interface [Windows Debugging],SetSpecificFilterParameters method, IDebugControl2::SetSpecificFilterParameters, IDebugControl3 interface [Windows Debugging],SetSpecificFilterParameters method, IDebugControl3::SetSpecificFilterParameters, IDebugControl::SetSpecificFilterParameters, IDebugControl_9bf01d08-9fc1-4ddf-b8dd-c6db0b568f83.xml, SetSpecificFilterParameters, SetSpecificFilterParameters method [Windows Debugging], SetSpecificFilterParameters method [Windows Debugging],IDebugControl interface, SetSpecificFilterParameters method [Windows Debugging],IDebugControl2 interface, SetSpecificFilterParameters method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::SetSpecificFilterParameters, dbgeng/IDebugControl3::SetSpecificFilterParameters, dbgeng/IDebugControl::SetSpecificFilterParameters, debugger.setspecificfilterparameters
 f1_keywords:
  - "dbgeng/IDebugControl.SetSpecificFilterParameters"
+ - "IDebugControl.SetSpecificFilterParameters"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -38,8 +39,6 @@ api_name:
 - IDebugControl.SetSpecificFilterParameters
 - IDebugControl2.SetSpecificFilterParameters
 - IDebugControl3.SetSpecificFilterParameters
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

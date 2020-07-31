@@ -10,6 +10,7 @@ keywords: ["GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION callback function"]
 ms.keywords: CLIENT_ControllerSpecificFunction, CLIENT_ControllerSpecificFunction callback, CLIENT_ControllerSpecificFunction callback function [Parallel Ports], GPIO.client_controllerspecificfunction, GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION, gpioclx/CLIENT_ControllerSpecificFunction
 f1_keywords:
  - "gpioclx/CLIENT_ControllerSpecificFunction"
+ - "CLIENT_ControllerSpecificFunction"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Gpioclx.h
 api_name:
 - CLIENT_ControllerSpecificFunction
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

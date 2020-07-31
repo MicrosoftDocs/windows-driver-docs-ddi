@@ -10,6 +10,7 @@ keywords: ["MINIPORT_PAUSE callback function"]
 ms.keywords: MINIPORT_PAUSE, MINIPORT_PAUSE callback, MiniportPause, MiniportPause callback function [Network Drivers Starting with Windows Vista], miniport_functions_ref_ff1257db-4c3e-4e0d-8d46-1736567339ba.xml, ndis/MiniportPause, netvista.miniportpause
 f1_keywords:
  - "ndis/MiniportPause"
+ - "MiniportPause"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - MiniportPause
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

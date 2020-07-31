@@ -10,6 +10,7 @@ keywords: ["KsPinGetCopyRelationships function"]
 ms.keywords: KsPinGetCopyRelationships, KsPinGetCopyRelationships function [Streaming Media Devices], avfunc_d44ce272-9171-4a32-89c6-023d9688fdfd.xml, ks/KsPinGetCopyRelationships, stream.kspingetcopyrelationships
 f1_keywords:
  - "ks/KsPinGetCopyRelationships"
+ - "KsPinGetCopyRelationships"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsPinGetCopyRelationships
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

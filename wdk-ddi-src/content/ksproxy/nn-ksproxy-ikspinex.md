@@ -10,6 +10,7 @@ keywords: ["IKsPinEx interface"]
 ms.keywords: IKsPinEx, IKsPinEx interface [Streaming Media Devices], IKsPinEx interface [Streaming Media Devices],described, ksproxy/IKsPinEx, ksproxy_3c92d570-f22f-4165-bafd-9a22f5516137.xml, stream.ikspinex
 f1_keywords:
  - "ksproxy/IKsPinEx"
+ - "IKsPinEx"
 req.header: ksproxy.h
 req.include-header: 
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 - Ksproxy.dll
 api_name:
 - IKsPinEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

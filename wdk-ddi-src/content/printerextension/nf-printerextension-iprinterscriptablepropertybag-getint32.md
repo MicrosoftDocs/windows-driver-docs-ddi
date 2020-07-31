@@ -10,6 +10,7 @@ keywords: ["IPrinterScriptablePropertyBag::GetInt32"]
 ms.keywords: GetInt32, GetInt32 method [Print Devices], GetInt32 method [Print Devices],IPrinterScriptablePropertyBag interface, IPrinterScriptablePropertyBag interface [Print Devices],GetInt32 method, IPrinterScriptablePropertyBag.GetInt32, IPrinterScriptablePropertyBag::GetInt32, print.iprinterscriptablepropertybag_getint32, printerextension/IPrinterScriptablePropertyBag::GetInt32
 f1_keywords:
  - "printerextension/IPrinterScriptablePropertyBag.GetInt32"
+ - "IPrinterScriptablePropertyBag.GetInt32"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Printerextension.h
 api_name:
 - IPrinterScriptablePropertyBag.GetInt32
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

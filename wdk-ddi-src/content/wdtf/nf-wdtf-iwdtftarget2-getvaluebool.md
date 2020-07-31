@@ -10,6 +10,7 @@ keywords: ["IWDTFTarget2::GetValueBool"]
 ms.keywords: GetValueBool, GetValueBool method [Windows Device Testing Framework], GetValueBool method [Windows Device Testing Framework],IWDTFTarget2 interface, IWDTFTarget2 interface [Windows Device Testing Framework],GetValueBool method, IWDTFTarget2.GetValueBool, IWDTFTarget2::GetValueBool, Microsoft.WDTF.IWDTFTarget2.GetValueBool, Microsoft::WDTF::IWDTFTarget2::GetValueBool, dtf.iwdtftarget2_getvaluebool, wdtf/IWDTFTarget2::GetValueBool
 f1_keywords:
  - "wdtf/IWDTFTarget2.GetValueBool"
+ - "IWDTFTarget2.GetValueBool"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WDTF.Interop.metadata_dll.dll
 api_name:
 - IWDTFTarget2.GetValueBool
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

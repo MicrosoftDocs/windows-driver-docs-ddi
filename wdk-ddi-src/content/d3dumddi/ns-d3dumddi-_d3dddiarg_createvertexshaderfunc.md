@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_CREATEVERTEXSHADERFUNC structure"]
 ms.keywords: D3DDDIARG_CREATEVERTEXSHADERFUNC, D3DDDIARG_CREATEVERTEXSHADERFUNC structure [Display Devices], UMDisplayDriver_param_Structs_cbcea02a-d591-4226-8896-f8392c4b67de.xml, _D3DDDIARG_CREATEVERTEXSHADERFUNC, d3dumddi/D3DDDIARG_CREATEVERTEXSHADERFUNC, display.d3dddiarg_createvertexshaderfunc
 f1_keywords:
  - "d3dumddi/D3DDDIARG_CREATEVERTEXSHADERFUNC"
+ - "D3DDDIARG_CREATEVERTEXSHADERFUNC"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDIARG_CREATEVERTEXSHADERFUNC
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_CREATEVERTEXSHADERFUNC
 ---

@@ -10,6 +10,7 @@ keywords: ["IWDFInterrupt::ReleaseInterruptLock"]
 ms.keywords: IWDFInterrupt interface,ReleaseInterruptLock method, IWDFInterrupt.ReleaseInterruptLock, IWDFInterrupt::ReleaseInterruptLock, ReleaseInterruptLock, ReleaseInterruptLock method, ReleaseInterruptLock method,IWDFInterrupt interface, umdf.iwdfinterrupt_releaseinterruptlock, wdf.iwdfinterrupt_releaseinterruptlock, wudfddi/IWDFInterrupt::ReleaseInterruptLock
 f1_keywords:
  - "wudfddi/IWDFInterrupt.ReleaseInterruptLock"
+ - "IWDFInterrupt.ReleaseInterruptLock"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFInterrupt.ReleaseInterruptLock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

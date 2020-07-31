@@ -10,6 +10,7 @@ keywords: ["_DOT11_VWIFI_COMBINATION structure"]
 ms.keywords: "*PDOT11_VWIFI_COMBINATION, DOT11_VWIFI_COMBINATION, DOT11_VWIFI_COMBINATION structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_6b9469d7-deb2-4681-8f03-5ff6137946b4.xml, PDOT11_VWIFI_COMBINATION, PDOT11_VWIFI_COMBINATION structure pointer [Network Drivers Starting with Windows Vista], _DOT11_VWIFI_COMBINATION, netvista.dot11_vwifi_combination, windot11/DOT11_VWIFI_COMBINATION, windot11/PDOT11_VWIFI_COMBINATION"
 f1_keywords:
  - "windot11/DOT11_VWIFI_COMBINATION"
+ - "DOT11_VWIFI_COMBINATION"
 req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_TPM_INVOKE_GENERIC_OUT structure"]
 f1_keywords:
  - "treetpmservice/_TPM_INVOKE_GENERIC_OUT"
+ - "_TPM_INVOKE_GENERIC_OUT"
 ms.keywords: _TPM_INVOKE_GENERIC_OUT, TPM_INVOKE_GENERIC_OUT, *PTPM_INVOKE_GENERIC_OUT, 
 req.header: treetpmservice.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - treetpmservice.h
 api_name: 
 - _TPM_INVOKE_GENERIC_OUT
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

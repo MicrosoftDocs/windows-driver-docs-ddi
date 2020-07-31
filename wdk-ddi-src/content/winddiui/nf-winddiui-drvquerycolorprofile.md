@@ -10,6 +10,7 @@ keywords: ["DrvQueryColorProfile function"]
 ms.keywords: DrvQueryColorProfile, DrvQueryColorProfile function [Print Devices], print.drvquerycolorprofile, print_interface-graphics_fce84759-2add-41bc-b4e5-c2b66e3abf04.xml, winddiui/DrvQueryColorProfile
 f1_keywords:
  - "winddiui/DrvQueryColorProfile"
+ - "DrvQueryColorProfile"
 req.header: winddiui.h
 req.include-header: Winddiui.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - winddiui.h
 api_name:
 - DrvQueryColorProfile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

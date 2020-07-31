@@ -10,6 +10,7 @@ keywords: ["IWDFIoRequest2::IsFromUserModeDriver"]
 ms.keywords: IWDFIoRequest2 interface,IsFromUserModeDriver method, IWDFIoRequest2.IsFromUserModeDriver, IWDFIoRequest2::IsFromUserModeDriver, IsFromUserModeDriver, IsFromUserModeDriver method, IsFromUserModeDriver method,IWDFIoRequest2 interface, UMDFRequestObjectRef_81f13df9-e0f7-4d16-9f85-e049a491e08d.xml, umdf.iwdfiorequest2_isfromusermodedriver, wdf.iwdfiorequest2_isfromusermodedriver, wudfddi/IWDFIoRequest2::IsFromUserModeDriver
 f1_keywords:
  - "wudfddi/IWDFIoRequest2.IsFromUserModeDriver"
+ - "IWDFIoRequest2.IsFromUserModeDriver"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFIoRequest2.IsFromUserModeDriver
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

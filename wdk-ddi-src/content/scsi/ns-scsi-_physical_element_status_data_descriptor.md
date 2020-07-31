@@ -7,6 +7,7 @@ ms.date: 09/10/2018
 keywords: ["_PHYSICAL_ELEMENT_STATUS_DATA_DESCRIPTOR structure"]
 f1_keywords:
  - "scsi/_PHYSICAL_ELEMENT_STATUS_DATA_DESCRIPTOR"
+ - "_PHYSICAL_ELEMENT_STATUS_DATA_DESCRIPTOR"
 ms.keywords: _PHYSICAL_ELEMENT_STATUS_DATA_DESCRIPTOR, PHYSICAL_ELEMENT_STATUS_DATA_DESCRIPTOR, *PPHYSICAL_ELEMENT_STATUS_DATA_DESCRIPTOR, 
 req.header: scsi.h
 req.include-header: scsi.h, storport.h, minitape.h
@@ -29,8 +30,6 @@ api_location:
 - scsi.h
 api_name: 
 - _PHYSICAL_ELEMENT_STATUS_DATA_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

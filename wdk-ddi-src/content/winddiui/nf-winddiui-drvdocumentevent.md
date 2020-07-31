@@ -10,6 +10,7 @@ keywords: ["DrvDocumentEvent function"]
 ms.keywords: DrvDocumentEvent, DrvDocumentEvent function [Print Devices], print.drvdocumentevent, print_interface-graphics_ffc39ed1-d1b8-4e3d-b0a3-515b90cd6c8f.xml, winddiui/DrvDocumentEvent
 f1_keywords:
  - "winddiui/DrvDocumentEvent"
+ - "DrvDocumentEvent"
 req.header: winddiui.h
 req.include-header: Winddiui.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - winddiui.h
 api_name:
 - DrvDocumentEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

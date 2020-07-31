@@ -10,6 +10,7 @@ keywords: ["PwmParsePinPath function"]
 ms.keywords: PwmParsePinPath, PwmParsePinPath function [Kernel-Mode Driver Architecture], kernel.pwmparsepinpath, pwmutil/PwmParsePinPath
 f1_keywords:
  - "pwmutil/PwmParsePinPath"
+ - "PwmParsePinPath"
 req.header: pwmutil.h
 req.include-header: Pwm.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - PwmParsePinPath
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

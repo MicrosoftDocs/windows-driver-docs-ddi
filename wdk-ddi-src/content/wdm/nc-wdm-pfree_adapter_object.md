@@ -10,6 +10,7 @@ keywords: ["PFREE_ADAPTER_OBJECT callback function"]
 ms.keywords: FreeAdapterObject, FreeAdapterObject callback function [Kernel-Mode Driver Architecture], PFREE_ADAPTER_OBJECT, PFREE_ADAPTER_OBJECT callback, kernel.freeadapterobject, wdm/FreeAdapterObject
 f1_keywords:
  - "wdm/FreeAdapterObject"
+ - "FreeAdapterObject"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - FreeAdapterObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

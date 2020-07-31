@@ -10,6 +10,7 @@ keywords: ["IOCTL_MOUNTMGR_VOLUME_MOUNT_POINT_CREATED IOCTL"]
 ms.keywords: IOCTL_MOUNTMGR_VOLUME_MOUNT_POINT_CREATED, IOCTL_MOUNTMGR_VOLUME_MOUNT_POINT_CREATED control, IOCTL_MOUNTMGR_VOLUME_MOUNT_POINT_CREATED control code [Storage Devices], k307_939215e3-3e33-401e-a1d4-c8d82b68f0e8.xml, mountmgr/IOCTL_MOUNTMGR_VOLUME_MOUNT_POINT_CREATED, storage.ioctl_mountmgr_volume_mount_point_created
 f1_keywords:
  - "mountmgr/IOCTL_MOUNTMGR_VOLUME_MOUNT_POINT_CREATED"
+ - "IOCTL_MOUNTMGR_VOLUME_MOUNT_POINT_CREATED"
 req.header: mountmgr.h
 req.include-header: Mountmgr.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Mountmgr.h
 api_name:
 - IOCTL_MOUNTMGR_VOLUME_MOUNT_POINT_CREATED
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

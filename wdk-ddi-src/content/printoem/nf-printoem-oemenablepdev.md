@@ -10,6 +10,7 @@ keywords: ["OEMEnablePDEV function"]
 ms.keywords: OEMEnablePDEV, OEMEnablePDEV function [Print Devices], print.oemenablepdev, print_obsoletefunctions_f6d0b164-0458-442f-ac6a-791592883196.xml, printoem/OEMEnablePDEV
 f1_keywords:
  - "printoem/OEMEnablePDEV"
+ - "OEMEnablePDEV"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - printoem.h
 api_name:
 - OEMEnablePDEV
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

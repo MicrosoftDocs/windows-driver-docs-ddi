@@ -10,6 +10,7 @@ keywords: ["PEP_ACPI_INITIALIZE_SPB_I2C_RESOURCE function"]
 ms.keywords: PEP_ACPI_INITIALIZE_SPB_I2C_RESOURCE, PEP_ACPI_INITIALIZE_SPB_I2C_RESOURCE function [Kernel-Mode Driver Architecture], kernel.pep_acpi_initialize_spb_i2c_resource, pepfx/PEP_ACPI_INITIALIZE_SPB_I2C_RESOURCE
 f1_keywords:
  - "pep_x/PEP_ACPI_INITIALIZE_SPB_I2C_RESOURCE"
+ - "PEP_ACPI_INITIALIZE_SPB_I2C_RESOURCE"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - PEP_ACPI_INITIALIZE_SPB_I2C_RESOURCE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

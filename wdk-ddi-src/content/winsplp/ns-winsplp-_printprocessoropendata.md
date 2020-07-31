@@ -10,6 +10,7 @@ keywords: ["_PRINTPROCESSOROPENDATA structure"]
 ms.keywords: "*LPPRINTPROCESSOROPENDATA, *PPRINTPROCESSOROPENDATA, LPPRINTPROCESSOROPENDATA, LPPRINTPROCESSOROPENDATA structure pointer [Print Devices], PPRINTPROCESSOROPENDATA, PPRINTPROCESSOROPENDATA structure pointer [Print Devices], PRINTPROCESSOROPENDATA, PRINTPROCESSOROPENDATA structure [Print Devices], _PRINTPROCESSOROPENDATA, print.printprocessoropendata, spoolfnc_d24c3eae-da3e-473a-bd25-5ec09d23fe89.xml, winsplp/LPPRINTPROCESSOROPENDATA, winsplp/PPRINTPROCESSOROPENDATA, winsplp/PRINTPROCESSOROPENDATA"
 f1_keywords:
  - "winsplp/PRINTPROCESSOROPENDATA"
+ - "PRINTPROCESSOROPENDATA"
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - winsplp.h
 api_name:
 - PRINTPROCESSOROPENDATA
-product:
-- Windows
 targetos: Windows
 req.typenames: PRINTPROCESSOROPENDATA, *PPRINTPROCESSOROPENDATA, *LPPRINTPROCESSOROPENDATA
 ---

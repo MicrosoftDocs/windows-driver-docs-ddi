@@ -10,6 +10,7 @@ keywords: ["KeReleaseSpinLockForDpc function"]
 ms.keywords: KeReleaseSpinLockForDpc, KeReleaseSpinLockForDpc routine [Kernel-Mode Driver Architecture], k105_71e8daa4-ca71-41d9-bf2f-2866df1d0c9c.xml, kernel.kereleasespinlockfordpc, wdm/KeReleaseSpinLockForDpc
 f1_keywords:
  - "wdm/KeReleaseSpinLockForDpc"
+ - "KeReleaseSpinLockForDpc"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeReleaseSpinLockForDpc
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

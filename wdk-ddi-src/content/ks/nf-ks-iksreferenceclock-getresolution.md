@@ -10,6 +10,7 @@ keywords: ["IKsReferenceClock::GetResolution"]
 ms.keywords: GetResolution, GetResolution method [Streaming Media Devices], GetResolution method [Streaming Media Devices],IKsReferenceClock interface, IKsReferenceClock interface [Streaming Media Devices],GetResolution method, IKsReferenceClock.GetResolution, IKsReferenceClock::GetResolution, avintfc_941baf81-e369-45bc-a798-15270a6d8a29.xml, ks/IKsReferenceClock::GetResolution, stream.iksreferenceclock_getresolution
 f1_keywords:
  - "ks/IKsReferenceClock.GetResolution"
+ - "IKsReferenceClock.GetResolution"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - IKsReferenceClock.GetResolution
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

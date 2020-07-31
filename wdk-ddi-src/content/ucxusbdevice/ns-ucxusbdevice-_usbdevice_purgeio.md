@@ -10,6 +10,7 @@ keywords: ["_USBDEVICE_PURGEIO structure"]
 ms.keywords: "*PUSBDEVICE_PURGEIO, P_USBDEVICE_PURGEIO, P_USBDEVICE_PURGEIO structure pointer [Buses], USBDEVICE_PURGEIO, USBDEVICE_PURGEIO structure [Buses], _USBDEVICE_PURGEIO, buses._usbdevice_purgeio, ucxusbdevice/P_USBDEVICE_PURGEIO, ucxusbdevice/_USBDEVICE_PURGEIO"
 f1_keywords:
  - "ucxusbdevice/USBDEVICE_PURGEIO"
+ - "USBDEVICE_PURGEIO"
 req.header: ucxusbdevice.h
 req.include-header: Ucxclass.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ucxusbdevice.h
 api_name:
 - USBDEVICE_PURGEIO
-product:
-- Windows
 targetos: Windows
 req.typenames: USBDEVICE_PURGEIO, *PUSBDEVICE_PURGEIO
 ---

@@ -10,6 +10,7 @@ keywords: ["RxCeTearDownTransport function"]
 ms.keywords: RxCeTearDownTransport, RxCeTearDownTransport function [Installable File System Drivers], ifsk.rxceteardowntransport, rxce/RxCeTearDownTransport, rxref_12c54611-8bbf-46bf-9ee9-35072b9322c1.xml
 f1_keywords:
  - "rxce/RxCeTearDownTransport"
+ - "RxCeTearDownTransport"
 req.header: rxce.h
 req.include-header: Rxce.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - rxce.h
 api_name:
 - RxCeTearDownTransport
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

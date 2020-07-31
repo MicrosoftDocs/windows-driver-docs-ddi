@@ -10,6 +10,7 @@ keywords: ["RtlStringCbCatW function"]
 ms.keywords: RtlStringCbCat, RtlStringCbCatA, RtlStringCbCatW, RtlStringCbCatW function [Kernel-Mode Driver Architecture], kernel.rtlstringcbcat, ntstrsafe/RtlStringCbCatA, ntstrsafe/RtlStringCbCatW, safestrings_31bee145-512e-4daa-87c3-98abc5e88b2b.xml
 f1_keywords:
  - "ntstrsafe/RtlStringCbCatW"
+ - "RtlStringCbCatW"
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop
@@ -39,8 +40,6 @@ api_name:
 - RtlStringCbCatW
 - RtlStringCbCatA
 - RtlStringCbCatW
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

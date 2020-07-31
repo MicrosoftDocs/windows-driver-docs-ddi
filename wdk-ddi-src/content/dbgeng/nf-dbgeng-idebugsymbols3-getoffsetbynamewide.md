@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::GetOffsetByNameWide"]
 ms.keywords: GetOffsetByNameWide, GetOffsetByNameWide method [Windows Debugging], GetOffsetByNameWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetOffsetByNameWide method, IDebugSymbols3.GetOffsetByNameWide, IDebugSymbols3::GetOffsetByNameWide, dbgeng/IDebugSymbols3::GetOffsetByNameWide, debugger.getoffsetbynamewide
 f1_keywords:
  - "dbgeng/IDebugSymbols3.GetOffsetByNameWide"
+ - "IDebugSymbols3.GetOffsetByNameWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugSymbols3.GetOffsetByNameWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

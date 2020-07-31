@@ -10,6 +10,7 @@ keywords: ["IMiniportTopology::Init"]
 ms.keywords: IMiniportTopology interface [Audio Devices],Init method, IMiniportTopology.Init, IMiniportTopology::Init, Init, Init method [Audio Devices], Init method [Audio Devices],IMiniportTopology interface, audio.iminiporttopology_init, audmp-routines_c87a11c3-aed3-4516-b3bf-5d32423fa293.xml, portcls/IMiniportTopology::Init
 f1_keywords:
  - "portcls/IMiniportTopology.Init"
+ - "IMiniportTopology.Init"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IMiniportTopology.Init
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IKsClockPropertySet::KsGetResolution"]
 ms.keywords: IKsClockPropertySet interface [Streaming Media Devices],KsGetResolution method, IKsClockPropertySet.KsGetResolution, IKsClockPropertySet::KsGetResolution, KsGetResolution, KsGetResolution method [Streaming Media Devices], KsGetResolution method [Streaming Media Devices],IKsClockPropertySet interface, ksproxy/IKsClockPropertySet::KsGetResolution, ksproxy_0c0583b1-5ab3-4e30-bf99-6822d8966171.xml, stream.iksclockpropertyset_ksgetresolution
 f1_keywords:
  - "ksproxy/IKsClockPropertySet.KsGetResolution"
+ - "IKsClockPropertySet.KsGetResolution"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ksproxy.h
 api_name:
 - IKsClockPropertySet.KsGetResolution
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

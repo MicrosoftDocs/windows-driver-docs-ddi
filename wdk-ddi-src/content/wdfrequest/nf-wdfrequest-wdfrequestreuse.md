@@ -10,6 +10,7 @@ keywords: ["WdfRequestReuse function"]
 ms.keywords: DFRequestObjectRef_8815216b-4632-4cc8-8afd-c4b1412ddbad.xml, WdfRequestReuse, WdfRequestReuse method, kmdf.wdfrequestreuse, wdf.wdfrequestreuse, wdfrequest/WdfRequestReuse
 f1_keywords:
  - "wdfrequest/WdfRequestReuse"
+ - "WdfRequestReuse"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfRequestReuse
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

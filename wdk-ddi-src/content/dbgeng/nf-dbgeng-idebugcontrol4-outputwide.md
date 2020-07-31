@@ -10,6 +10,7 @@ keywords: ["IDebugControl4::OutputWide"]
 ms.keywords: IDebugControl4 interface [Windows Debugging],OutputWide method, IDebugControl4.OutputWide, IDebugControl4::OutputWide, OutputWide, OutputWide method [Windows Debugging], OutputWide method [Windows Debugging],IDebugControl4 interface, dbgeng/IDebugControl4::OutputWide, debugger.outputwide
 f1_keywords:
  - "dbgeng/IDebugControl4.ControlledOutputWide"
+ - "IDebugControl4.ControlledOutputWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugControl4.ControlledOutputWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

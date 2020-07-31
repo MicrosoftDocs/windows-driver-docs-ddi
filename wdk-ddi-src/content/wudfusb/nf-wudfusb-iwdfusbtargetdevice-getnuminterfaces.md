@@ -10,6 +10,7 @@ keywords: ["IWDFUsbTargetDevice::GetNumInterfaces"]
 ms.keywords: GetNumInterfaces, GetNumInterfaces method, GetNumInterfaces method,IWDFUsbTargetDevice interface, IWDFUsbTargetDevice interface,GetNumInterfaces method, IWDFUsbTargetDevice.GetNumInterfaces, IWDFUsbTargetDevice::GetNumInterfaces, UMDFUSBref_43f488a1-350d-473a-aa10-d88983ea39f7.xml, umdf.iwdfusbtargetdevice_getnuminterfaces, wdf.iwdfusbtargetdevice_getnuminterfaces, wudfusb/IWDFUsbTargetDevice::GetNumInterfaces
 f1_keywords:
  - "wudfusb/IWDFUsbTargetDevice.GetNumInterfaces"
+ - "IWDFUsbTargetDevice.GetNumInterfaces"
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFUsbTargetDevice.GetNumInterfaces
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

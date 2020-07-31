@@ -10,6 +10,7 @@ keywords: ["_TRISTATE enumeration"]
 ms.keywords: TRISTATE, TRISTATE enumeration [Buses], TriStateFalse, TriStateTrue, TriStateUnknown, _TRISTATE, buses.tristate, ucxroothub/TRISTATE, ucxroothub/TriStateFalse, ucxroothub/TriStateTrue, ucxroothub/TriStateUnknown
 f1_keywords:
  - "ucxroothub/TRISTATE"
+ - "TRISTATE"
 req.header: ucxroothub.h
 req.include-header: Ucxclass.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ucxroothub.h
 api_name:
 - TRISTATE
-product:
-- Windows
 targetos: Windows
 req.typenames: TRISTATE
 ---

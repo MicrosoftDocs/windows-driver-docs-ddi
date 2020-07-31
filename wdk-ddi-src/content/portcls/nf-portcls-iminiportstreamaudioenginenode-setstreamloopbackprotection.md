@@ -10,6 +10,7 @@ keywords: ["IMiniportStreamAudioEngineNode::SetStreamLoopbackProtection"]
 ms.keywords: IMiniportStreamAudioEngineNode interface [Audio Devices],SetStreamLoopbackProtection method, IMiniportStreamAudioEngineNode.SetStreamLoopbackProtection, IMiniportStreamAudioEngineNode::SetStreamLoopbackProtection, SetStreamLoopbackProtection, SetStreamLoopbackProtection method [Audio Devices], SetStreamLoopbackProtection method [Audio Devices],IMiniportStreamAudioEngineNode interface, audio.iminiportstreamaudioenginenode_setstreamloopbackprotection, portcls/IMiniportStreamAudioEngineNode::SetStreamLoopbackProtection
 f1_keywords:
  - "portcls/IMiniportStreamAudioEngineNode.SetStreamLoopbackProtection"
+ - "IMiniportStreamAudioEngineNode.SetStreamLoopbackProtection"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Portcls.h
 api_name:
 - IMiniportStreamAudioEngineNode.SetStreamLoopbackProtection
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

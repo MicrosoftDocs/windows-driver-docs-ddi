@@ -10,6 +10,7 @@ keywords: ["AtaPortRegistryAllocateBuffer function"]
 ms.keywords: AtaPortRegistryAllocateBuffer, AtaPortRegistryAllocateBuffer routine [Storage Devices], atartns_9ad4a954-9252-4128-99b9-a82e89da5f98.xml, irb/AtaPortRegistryAllocateBuffer, storage.ataportregistryallocatebuffer
 f1_keywords:
  - "irb/AtaPortRegistryAllocateBuffer"
+ - "AtaPortRegistryAllocateBuffer"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
@@ -39,8 +40,6 @@ api_location:
 - pciidex.dll
 api_name:
 - AtaPortRegistryAllocateBuffer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

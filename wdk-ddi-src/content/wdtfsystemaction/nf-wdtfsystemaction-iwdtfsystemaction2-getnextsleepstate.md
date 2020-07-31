@@ -10,6 +10,7 @@ keywords: ["IWDTFSystemAction2::GetNextSleepState"]
 ms.keywords: GetNextSleepState, GetNextSleepState method [Windows Device Testing Framework], GetNextSleepState method [Windows Device Testing Framework],IWDTFSystemAction2 interface, IWDTFSystemAction2 interface [Windows Device Testing Framework],GetNextSleepState method, IWDTFSystemAction2.GetNextSleepState, IWDTFSystemAction2::GetNextSleepState, Microsoft.WDTF.IWDTFSystemAction2.GetNextSleepState, Microsoft::WDTF::IWDTFSystemAction2::GetNextSleepState, dtf.iwdtfsystemaction2_getnextsleepstate, wdtfsystemaction/IWDTFSystemAction2::GetNextSleepState
 f1_keywords:
  - "wdtfsystemaction/IWDTFSystemAction2.GetNextSleepState"
+ - "IWDTFSystemAction2.GetNextSleepState"
 req.header: wdtfsystemaction.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WDTFSystemAction.Interop.dll
 api_name:
 - IWDTFSystemAction2.GetNextSleepState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

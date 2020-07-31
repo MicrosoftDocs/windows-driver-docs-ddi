@@ -10,6 +10,7 @@ keywords: ["MINIPORT_WDI_RX_THROTTLE callback function"]
 ms.keywords: MINIPORT_WDI_RX_THROTTLE, MINIPORT_WDI_RX_THROTTLE callback, MiniportWdiRxThrottle, MiniportWdiRxThrottle callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiRxThrottle, netvista.miniportwdirxthrottle
 f1_keywords:
  - "dot11wdi/MiniportWdiRxThrottle"
+ - "MiniportWdiRxThrottle"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dot11wdi.h
 api_name:
 - MiniportWdiRxThrottle
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

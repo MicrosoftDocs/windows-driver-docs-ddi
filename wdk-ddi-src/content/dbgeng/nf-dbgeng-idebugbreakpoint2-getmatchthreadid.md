@@ -10,6 +10,7 @@ keywords: ["IDebugBreakpoint2::GetMatchThreadId"]
 ms.keywords: ComOther_6a9afca5-8445-48d9-8e28-8d38e6cf2658.xml, GetMatchThreadId, GetMatchThreadId method [Windows Debugging], GetMatchThreadId method [Windows Debugging],IDebugBreakpoint interface, GetMatchThreadId method [Windows Debugging],IDebugBreakpoint2 interface, IDebugBreakpoint interface [Windows Debugging],GetMatchThreadId method, IDebugBreakpoint2 interface [Windows Debugging],GetMatchThreadId method, IDebugBreakpoint2.GetMatchThreadId, IDebugBreakpoint2::GetMatchThreadId, IDebugBreakpoint::GetMatchThreadId, dbgeng/IDebugBreakpoint2::GetMatchThreadId, dbgeng/IDebugBreakpoint::GetMatchThreadId, debugger.getmatchthreadid
 f1_keywords:
  - "dbgeng/IDebugBreakpoint.GetMatchThreadId"
+ - "IDebugBreakpoint.GetMatchThreadId"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IDebugBreakpoint.GetMatchThreadId
 - IDebugBreakpoint2.GetMatchThreadId
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["ExReleaseSpinLockShared function"]
 ms.keywords: ExReleaseSpinLockShared, ExReleaseSpinLockShared routine [Kernel-Mode Driver Architecture], kernel.exreleasespinlockshared_, wdm/ExReleaseSpinLockShared
 f1_keywords:
  - "wdm/ExReleaseSpinLockShared"
+ - "ExReleaseSpinLockShared"
 req.header: wdm.h
 req.include-header:
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - ExReleaseSpinLockShared
-product:
-- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.

@@ -10,6 +10,7 @@ keywords: ["_WHEA_XPF_TLB_CHECK structure"]
 ms.keywords: "*PWHEA_XPF_TLB_CHECK, PWHEA_XPF_TLB_CHECK, PWHEA_XPF_TLB_CHECK union pointer [WHEA Drivers and Applications], WHEA_XPF_TLB_CHECK, WHEA_XPF_TLB_CHECK union [WHEA Drivers and Applications], _WHEA_XPF_TLB_CHECK, ntddk/PWHEA_XPF_TLB_CHECK, ntddk/WHEA_XPF_TLB_CHECK, whea.whea_xpf_tlb_check, whearef_20ed4273-105d-467b-a71f-46e50078543e.xml"
 f1_keywords:
  - "ntddk/WHEA_XPF_TLB_CHECK"
+ - "WHEA_XPF_TLB_CHECK"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - WHEA_XPF_TLB_CHECK
-product:
-- Windows
 targetos: Windows
 req.typenames: WHEA_XPF_TLB_CHECK, *PWHEA_XPF_TLB_CHECK
 ---

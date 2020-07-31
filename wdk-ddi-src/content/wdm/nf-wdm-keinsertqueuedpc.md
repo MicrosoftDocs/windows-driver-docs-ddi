@@ -10,6 +10,7 @@ keywords: ["KeInsertQueueDpc function"]
 ms.keywords: KeInsertQueueDpc, KeInsertQueueDpc routine [Kernel-Mode Driver Architecture], k105_7f821e29-508f-4216-92db-a2e18c21d17c.xml, kernel.keinsertqueuedpc, wdm/KeInsertQueueDpc
 f1_keywords:
  - "wdm/KeInsertQueueDpc"
+ - "KeInsertQueueDpc"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeInsertQueueDpc
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

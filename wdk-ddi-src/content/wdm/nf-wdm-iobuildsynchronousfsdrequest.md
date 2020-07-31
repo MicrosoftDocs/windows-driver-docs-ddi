@@ -10,6 +10,7 @@ keywords: ["IoBuildSynchronousFsdRequest function"]
 ms.keywords: IoBuildSynchronousFsdRequest, IoBuildSynchronousFsdRequest routine [Kernel-Mode Driver Architecture], k104_94704d64-ce8d-4a4d-82e3-974cda66dd54.xml, kernel.iobuildsynchronousfsdrequest, wdm/IoBuildSynchronousFsdRequest
 f1_keywords:
  - "wdm/IoBuildSynchronousFsdRequest"
+ - "IoBuildSynchronousFsdRequest"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoBuildSynchronousFsdRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

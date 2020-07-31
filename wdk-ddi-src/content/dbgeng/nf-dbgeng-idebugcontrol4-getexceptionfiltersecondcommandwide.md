@@ -10,6 +10,7 @@ keywords: ["IDebugControl4::GetExceptionFilterSecondCommandWide"]
 ms.keywords: GetExceptionFilterSecondCommandWide, GetExceptionFilterSecondCommandWide method [Windows Debugging], GetExceptionFilterSecondCommandWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetExceptionFilterSecondCommandWide method, IDebugControl4.GetExceptionFilterSecondCommandWide, IDebugControl4::GetExceptionFilterSecondCommandWide, dbgeng/IDebugControl4::GetExceptionFilterSecondCommandWide, debugger.getexceptionfiltersecondcommandwide
 f1_keywords:
  - "dbgeng/IDebugControl4.GetExceptionFilterSecondCommandWide"
+ - "IDebugControl4.GetExceptionFilterSecondCommandWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugControl4.GetExceptionFilterSecondCommandWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

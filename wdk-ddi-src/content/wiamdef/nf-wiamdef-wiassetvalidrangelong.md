@@ -10,6 +10,7 @@ keywords: ["wiasSetValidRangeLong function"]
 ms.keywords: image.wiassetvalidrangelong, wiamdef/wiasSetValidRangeLong, wiasFncs_3ee53b59-4ef4-4c35-8544-1ac7a8729212.xml, wiasSetValidRangeLong, wiasSetValidRangeLong function [Imaging Devices]
 f1_keywords:
  - "wiamdef/wiasSetValidRangeLong"
+ - "wiasSetValidRangeLong"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wiaservc.dll
 api_name:
 - wiasSetValidRangeLong
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

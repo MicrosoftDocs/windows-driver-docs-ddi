@@ -10,6 +10,7 @@ keywords: ["IWDFFile3::GetInitiatorProcessId"]
 ms.keywords: GetInitiatorProcessId, GetInitiatorProcessId method, GetInitiatorProcessId method,IWDFFile3 interface, IWDFFile3 interface,GetInitiatorProcessId method, IWDFFile3.GetInitiatorProcessId, IWDFFile3::GetInitiatorProcessId, umdf.iwdffile3_getinitiatorprocessid, wdf.iwdffile3_getinitiatorprocessid, wudfddi/IWDFFile3::GetInitiatorProcessId
 f1_keywords:
  - "wudfddi/IWDFFile3.GetInitiatorProcessId"
+ - "IWDFFile3.GetInitiatorProcessId"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFFile3.GetInitiatorProcessId
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

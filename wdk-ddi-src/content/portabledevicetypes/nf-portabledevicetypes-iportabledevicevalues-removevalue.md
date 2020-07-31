@@ -10,6 +10,7 @@ keywords: ["IPortableDeviceValues::RemoveValue"]
 ms.keywords: IPortableDeviceValues interface,RemoveValue method, IPortableDeviceValues.RemoveValue, IPortableDeviceValues::RemoveValue, IPortableDeviceValuesRemoveValue, RemoveValue, RemoveValue method, RemoveValue method,IPortableDeviceValues interface, portabledevicetypes/IPortableDeviceValues::RemoveValue, wpddk.iportabledevicevalues_removevalue
 f1_keywords:
  - "portabledevicetypes/IPortableDeviceValues.RemoveValue"
+ - "IPortableDeviceValues.RemoveValue"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - PortableDeviceTypes.h
 api_name:
 - IPortableDeviceValues.RemoveValue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

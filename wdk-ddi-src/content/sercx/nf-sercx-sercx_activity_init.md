@@ -10,6 +10,7 @@ keywords: ["SERCX_ACTIVITY_INIT function"]
 ms.keywords: 1/SERCX_ACTIVITY_INIT, SERCX_ACTIVITY_INIT, SERCX_ACTIVITY_INIT function [Serial Ports], serports.sercx_activity_init
 f1_keywords:
  - "sercx/SERCX_ACTIVITY_INIT"
+ - "SERCX_ACTIVITY_INIT"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - 1.0\Sercx.h
 api_name:
 - SERCX_ACTIVITY_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

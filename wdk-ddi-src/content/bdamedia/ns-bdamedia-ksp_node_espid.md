@@ -10,6 +10,7 @@ keywords: ["KSP_NODE_ESPID structure"]
 ms.keywords: "*PKSP_NODE_ESPID, KSP_NODE_ESPID, KSP_NODE_ESPID structure [Streaming Media Devices], PKSP_NODE_ESPID, PKSP_NODE_ESPID structure pointer [Streaming Media Devices], bdamedia/KSP_NODE_ESPID, bdamedia/PKSP_NODE_ESPID, bdaref_aef92a8d-df0e-4283-b06a-4ece33b91809.xml, stream.ksp_node_espid"
 f1_keywords:
  - "bdamedia/KSP_NODE_ESPID"
+ - "KSP_NODE_ESPID"
 req.header: bdamedia.h
 req.include-header: Bdamedia.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - bdamedia.h
 api_name:
 - KSP_NODE_ESPID
-product:
-- Windows
 targetos: Windows
 req.typenames: KSP_NODE_ESPID, *PKSP_NODE_ESPID
 ---

@@ -9,6 +9,7 @@ keywords: ["_DXGK_SEGMENTDESCRIPTOR4 structure"]
 ms.keywords: DXGK_SEGMENTDESCRIPTOR4, DXGK_SEGMENTDESCRIPTOR4 structure [Display Devices], _DXGK_SEGMENTDESCRIPTOR4, d3dkmddi/DXGK_SEGMENTDESCRIPTOR4, display.dxgk_segmentdescriptor4
 f1_keywords:
  - "d3dkmddi/DXGK_SEGMENTDESCRIPTOR4"
+ - "DXGK_SEGMENTDESCRIPTOR4"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGK_SEGMENTDESCRIPTOR4
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_SEGMENTDESCRIPTOR4

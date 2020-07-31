@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE structure"]
 ms.keywords: D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE, D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE structure [Display Devices], _D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE, d3dkmthk/D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE, display.d3dkmt-openprotectedsessionfromnthandle
 f1_keywords:
  - "d3dkmthk/D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE"
+ - "D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE

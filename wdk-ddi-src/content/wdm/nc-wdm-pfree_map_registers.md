@@ -10,6 +10,7 @@ keywords: ["PFREE_MAP_REGISTERS callback function"]
 ms.keywords: FreeMapRegisters, FreeMapRegisters callback function [Kernel-Mode Driver Architecture], PFREE_MAP_REGISTERS, PFREE_MAP_REGISTERS callback, kdma_039f59c4-101e-40c2-bf2e-a0faa7c11032.xml, kernel.freemapregisters, wdm/FreeMapRegisters
 f1_keywords:
  - "wdm/FreeMapRegisters"
+ - "FreeMapRegisters"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - FreeMapRegisters
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

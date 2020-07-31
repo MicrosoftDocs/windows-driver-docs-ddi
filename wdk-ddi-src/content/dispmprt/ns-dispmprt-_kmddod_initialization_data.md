@@ -10,6 +10,7 @@ keywords: ["_KMDDOD_INITIALIZATION_DATA structure"]
 ms.keywords: "*PKMDDOD_INITIALIZATION_DATA, KMDDOD_INITIALIZATION_DATA, KMDDOD_INITIALIZATION_DATA structure [Display Devices], PKMDDOD_INITIALIZATION_DATA, PKMDDOD_INITIALIZATION_DATA structure pointer [Display Devices], _KMDDOD_INITIALIZATION_DATA, display.kmddod_initialization_data, dispmprt/KMDDOD_INITIALIZATION_DATA, dispmprt/PKMDDOD_INITIALIZATION_DATA"
 f1_keywords:
  - "dispmprt/KMDDOD_INITIALIZATION_DATA"
+ - "KMDDOD_INITIALIZATION_DATA"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Dispmprt.h
 api_name:
 - KMDDOD_INITIALIZATION_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: KMDDOD_INITIALIZATION_DATA, *PKMDDOD_INITIALIZATION_DATA
 ---

@@ -10,6 +10,7 @@ ms.date: 09/24/2019
 keywords: ["NET_PACKET_RSC structure"]
 f1_keywords:
  - "rsctypes/NET_PACKET_RSC"
+ - "NET_PACKET_RSC"
 ms.keywords: NET_PACKET_RSC, NET_PACKET_RSC, 
 req.header: rsctypes.h
 req.include-header:

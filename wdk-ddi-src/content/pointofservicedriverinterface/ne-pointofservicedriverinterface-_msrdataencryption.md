@@ -10,6 +10,7 @@ keywords: ["_MsrDataEncryption enumeration"]
 ms.keywords: MsrDataEncryption, MsrDataEncryption enumeration, MsrDataEncryption_3DEA_DUKPT, MsrDataEncryption_AES, MsrDataEncryption_ExtendedBase, MsrDataEncryption_None, _MsrDataEncryption, pointofservicedriverinterface/MsrDataEncryption, pointofservicedriverinterface/MsrDataEncryption_3DEA_DUKPT, pointofservicedriverinterface/MsrDataEncryption_AES, pointofservicedriverinterface/MsrDataEncryption_ExtendedBase, pointofservicedriverinterface/MsrDataEncryption_None, pos.msrdataencryption
 f1_keywords:
  - "pointofservicedriverinterface/MsrDataEncryption"
+ - "MsrDataEncryption"
 req.header: pointofservicedriverinterface.h
 req.include-header: Pointofservicedriverinterface.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pointofservicedriverinterface.h
 api_name:
 - MsrDataEncryption
-product:
-- Windows
 targetos: Windows
 req.typenames: MsrDataEncryption
 ---

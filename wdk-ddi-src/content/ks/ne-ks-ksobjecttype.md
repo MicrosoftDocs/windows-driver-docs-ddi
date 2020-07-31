@@ -10,6 +10,7 @@ keywords: ["KSOBJECTTYPE enumeration"]
 ms.keywords: KSOBJECTTYPE, KSOBJECTTYPE enumeration [Streaming Media Devices], KsObjectTypeDevice, KsObjectTypeFilter, KsObjectTypeFilterFactory, KsObjectTypePin, ks-struct_b8010334-0906-4d4b-8c65-b3919b7b8257.xml, ks/KSOBJECTTYPE, ks/KsObjectTypeDevice, ks/KsObjectTypeFilter, ks/KsObjectTypeFilterFactory, ks/KsObjectTypePin, stream.ksobjecttype
 f1_keywords:
  - "ks/KSOBJECTTYPE"
+ - "KSOBJECTTYPE"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KSOBJECTTYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: KSOBJECTTYPE
 ---

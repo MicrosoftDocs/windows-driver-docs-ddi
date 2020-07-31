@@ -10,6 +10,7 @@ keywords: ["EVT_VMB_CHANNEL_PROCESS_PACKET callback function"]
 ms.keywords: EVT_VMB_CHANNEL_PROCESS_PACKET, EVT_VMB_CHANNEL_PROCESS_PACKET callback, EvtVmbChannelProcessPacket, EvtVmbChannelProcessPacket callback function [Network Drivers Starting with Windows Vista], PFN_VMB_CHANNEL_PROCESS_PACKET, PFN_VMB_CHANNEL_PROCESS_PACKET callback function pointer [Network Drivers Starting with Windows Vista], VMBUS_CHANNEL_PROCESS_PACKET_FLAGS, netvista.evt_vmb_channel_process_packet, vmbuskernelmodeclientlibapi/EvtVmbChannelProcessPacket
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/PFN_VMB_CHANNEL_PROCESS_PACKET"
+ - "PFN_VMB_CHANNEL_PROCESS_PACKET"
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header: VmbusKernelModeClientLibApi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - VmbusKernelModeClientLibApi.h
 api_name:
 - PFN_VMB_CHANNEL_PROCESS_PACKET
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

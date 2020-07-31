@@ -10,6 +10,7 @@ keywords: ["IDebugSystemObjects4::GetCurrentProcessSystemId"]
 ms.keywords: GetCurrentProcessSystemId, GetCurrentProcessSystemId method [Windows Debugging], GetCurrentProcessSystemId method [Windows Debugging],IDebugSystemObjects interface, GetCurrentProcessSystemId method [Windows Debugging],IDebugSystemObjects2 interface, GetCurrentProcessSystemId method [Windows Debugging],IDebugSystemObjects3 interface, GetCurrentProcessSystemId method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects interface [Windows Debugging],GetCurrentProcessSystemId method, IDebugSystemObjects2 interface [Windows Debugging],GetCurrentProcessSystemId method, IDebugSystemObjects2::GetCurrentProcessSystemId, IDebugSystemObjects3 interface [Windows Debugging],GetCurrentProcessSystemId method, IDebugSystemObjects3::GetCurrentProcessSystemId, IDebugSystemObjects4 interface [Windows Debugging],GetCurrentProcessSystemId method, IDebugSystemObjects4.GetCurrentProcessSystemId, IDebugSystemObjects4::GetCurrentProcessSystemId, IDebugSystemObjects::GetCurrentProcessSystemId, IDebugSystemObjects_e2d8479b-c723-462c-b423-905186bf69e6.xml, dbgeng/IDebugSystemObjects2::GetCurrentProcessSystemId, dbgeng/IDebugSystemObjects3::GetCurrentProcessSystemId, dbgeng/IDebugSystemObjects4::GetCurrentProcessSystemId, dbgeng/IDebugSystemObjects::GetCurrentProcessSystemId, debugger.getcurrentprocesssystemid
 f1_keywords:
  - "dbgeng/IDebugSystemObjects.GetCurrentProcessSystemId"
+ - "IDebugSystemObjects.GetCurrentProcessSystemId"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -39,8 +40,6 @@ api_name:
 - IDebugSystemObjects2.GetCurrentProcessSystemId
 - IDebugSystemObjects3.GetCurrentProcessSystemId
 - IDebugSystemObjects4.GetCurrentProcessSystemId
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

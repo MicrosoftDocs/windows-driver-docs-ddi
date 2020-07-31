@@ -10,6 +10,7 @@ keywords: ["_HW_EVENT_DESCRIPTOR structure"]
 ms.keywords: "*PHW_EVENT_DESCRIPTOR, HW_EVENT_DESCRIPTOR, HW_EVENT_DESCRIPTOR structure [Streaming Media Devices], PHW_EVENT_DESCRIPTOR, PHW_EVENT_DESCRIPTOR structure pointer [Streaming Media Devices], _HW_EVENT_DESCRIPTOR, strclass-struct_ca0c15b2-17d1-4114-9765-5638dd81ca24.xml, stream.hw_event_descriptor, strmini/HW_EVENT_DESCRIPTOR, strmini/PHW_EVENT_DESCRIPTOR"
 f1_keywords:
  - "strmini/HW_EVENT_DESCRIPTOR"
+ - "HW_EVENT_DESCRIPTOR"
 req.header: strmini.h
 req.include-header: Strmini.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - strmini.h
 api_name:
 - HW_EVENT_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: HW_EVENT_DESCRIPTOR, *PHW_EVENT_DESCRIPTOR
 ---

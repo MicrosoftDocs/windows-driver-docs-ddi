@@ -10,6 +10,7 @@ keywords: ["WdfDeviceInitSetExclusive function"]
 ms.keywords: DFDeviceObjectGeneralRef_fb2fbd3a-e78a-4632-b84f-b3e62a6efc94.xml, WdfDeviceInitSetExclusive, WdfDeviceInitSetExclusive method, kmdf.wdfdeviceinitsetexclusive, wdf.wdfdeviceinitsetexclusive, wdfdevice/WdfDeviceInitSetExclusive
 f1_keywords:
  - "wdfdevice/WdfDeviceInitSetExclusive"
+ - "WdfDeviceInitSetExclusive"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfDeviceInitSetExclusive
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

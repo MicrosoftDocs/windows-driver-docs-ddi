@@ -10,6 +10,7 @@ keywords: ["RILSMSACKOPT enumeration"]
 ms.keywords: RILSMSACKOPT, RILSMSACKOPT enumeration [Network Drivers Starting with Windows Vista], RIL_SMSACKOPT_IMS, netvista.rilsmsackopt, ntddrilapitypes/RILSMSACKOPT, ntddrilapitypes/RIL_SMSACKOPT_IMS
 f1_keywords:
  - "rilapitypes/RILSMSACKOPT"
+ - "RILSMSACKOPT"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILSMSACKOPT
-product:
-- Windows
 targetos: Windows
 req.typenames: RILSMSACKOPT
 ---

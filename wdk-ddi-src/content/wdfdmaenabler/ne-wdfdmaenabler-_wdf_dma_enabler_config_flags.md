@@ -10,6 +10,7 @@ keywords: ["_WDF_DMA_ENABLER_CONFIG_FLAGS enumeration"]
 ms.keywords: WDF_DMA_ENABLER_CONFIG_FLAGS, WDF_DMA_ENABLER_CONFIG_FLAGS enumeration, WDF_DMA_ENABLER_CONFIG_NO_SGLIST_PREALLOCATION, WDF_DMA_ENABLER_CONFIG_REQUIRE_SINGLE_TRANSFER, _WDF_DMA_ENABLER_CONFIG_FLAGS, kmdf.wdf_dma_enabler_config_flags, wdf.wdf_dma_enabler_config_flags, wdfdmaenabler/WDF_DMA_ENABLER_CONFIG_FLAGS, wdfdmaenabler/WDF_DMA_ENABLER_CONFIG_NO_SGLIST_PREALLOCATION, wdfdmaenabler/WDF_DMA_ENABLER_CONFIG_REQUIRE_SINGLE_TRANSFER
 f1_keywords:
  - "wdfdmaenabler/WDF_DMA_ENABLER_CONFIG_FLAGS"
+ - "WDF_DMA_ENABLER_CONFIG_FLAGS"
 req.header: wdfdmaenabler.h
 req.include-header: Wdf.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wdfdmaenabler.h
 api_name:
 - WDF_DMA_ENABLER_CONFIG_FLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_DMA_ENABLER_CONFIG_FLAGS
 ---

@@ -10,6 +10,7 @@ keywords: ["IDebugControl2::OutputTextReplacements"]
 ms.keywords: IDebugControl2 interface [Windows Debugging],OutputTextReplacements method, IDebugControl2.OutputTextReplacements, IDebugControl2::OutputTextReplacements, IDebugControl3 interface [Windows Debugging],OutputTextReplacements method, IDebugControl3::OutputTextReplacements, IDebugControl_57964e7b-e11a-446f-afab-7d3326fab695.xml, OutputTextReplacements, OutputTextReplacements method [Windows Debugging], OutputTextReplacements method [Windows Debugging],IDebugControl2 interface, OutputTextReplacements method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::OutputTextReplacements, dbgeng/IDebugControl3::OutputTextReplacements, debugger.outputtextreplacements
 f1_keywords:
  - "dbgeng/IDebugControl2.OutputTextReplacements"
+ - "IDebugControl2.OutputTextReplacements"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IDebugControl2.OutputTextReplacements
 - IDebugControl3.OutputTextReplacements
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

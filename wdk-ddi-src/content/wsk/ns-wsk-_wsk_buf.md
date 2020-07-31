@@ -10,6 +10,7 @@ keywords: ["_WSK_BUF structure"]
 ms.keywords: "*PWSK_BUF, PWSK_BUF, PWSK_BUF structure pointer [Network Drivers Starting with Windows Vista], WSK_BUF, WSK_BUF structure [Network Drivers Starting with Windows Vista], _WSK_BUF, netvista.wsk_buf, wsk/PWSK_BUF, wsk/WSK_BUF, wskref_38d35e0c-e08d-4be7-b5c8-0559774d5de0.xml"
 f1_keywords:
  - "wsk/WSK_BUF"
+ - "WSK_BUF"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wsk.h
 api_name:
 - WSK_BUF
-product:
-- Windows
 targetos: Windows
 req.typenames: WSK_BUF, *PWSK_BUF
 ---

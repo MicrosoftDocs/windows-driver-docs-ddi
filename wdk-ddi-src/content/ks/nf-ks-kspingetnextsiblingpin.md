@@ -10,6 +10,7 @@ keywords: ["KsPinGetNextSiblingPin function"]
 ms.keywords: KsPinGetNextSiblingPin, KsPinGetNextSiblingPin function [Streaming Media Devices], avfunc_a5363c0a-af05-43a6-aa4d-edd43e076eb7.xml, ks/KsPinGetNextSiblingPin, stream.kspingetnextsiblingpin
 f1_keywords:
  - "ks/KsPinGetNextSiblingPin"
+ - "KsPinGetNextSiblingPin"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsPinGetNextSiblingPin
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

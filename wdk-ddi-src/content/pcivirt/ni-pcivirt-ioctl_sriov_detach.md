@@ -10,6 +10,7 @@ keywords: ["IOCTL_SRIOV_DETACH IOCTL"]
 ms.keywords: IOCTL_SRIOV_DETACH, IOCTL_SRIOV_DETACH control code [Buses], PCI.ioctl-sriov-detach, pcivirt/IOCTL_SRIOV_DETACH
 f1_keywords:
  - "pcivirt/IOCTL_SRIOV_DETACH"
+ - "IOCTL_SRIOV_DETACH"
 req.header: pcivirt.h
 req.include-header:
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Pcivirt.h
 api_name:
 - IOCTL_SRIOV_DETACH
-product:
-- Windows
 targetos: Windows
 req.typenames: SRIOV_PF_EVENT, *PSRIOV_PF_EVENT
 ---

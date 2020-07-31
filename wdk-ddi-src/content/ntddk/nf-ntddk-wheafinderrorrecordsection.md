@@ -10,6 +10,7 @@ keywords: ["WheaFindErrorRecordSection function"]
 ms.keywords: WheaFindErrorRecordSection, WheaFindErrorRecordSection function [WHEA Drivers and Applications], ntddk/WheaFindErrorRecordSection, whea.wheafinderrorrecordsection, whearef2_fe7f8220-081d-475c-9230-d59cff81164d.xml
 f1_keywords:
  - "ntddk/WheaFindErrorRecordSection"
+ - "WheaFindErrorRecordSection"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - WheaFindErrorRecordSection
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

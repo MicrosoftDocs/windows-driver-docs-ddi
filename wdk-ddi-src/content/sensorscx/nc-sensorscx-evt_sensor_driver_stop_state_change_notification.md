@@ -10,6 +10,7 @@ keywords: ["EVT_SENSOR_DRIVER_STOP_STATE_CHANGE_NOTIFICATION callback function"]
 ms.keywords: EVT_SENSOR_DRIVER_STOP_STATE_CHANGE_NOTIFICATION, EVT_SENSOR_DRIVER_STOP_STATE_CHANGE_NOTIFICATION callback, EvtSensorDriverStopStateChangeNotification, EvtSensorDriverStopStateChangeNotification callback function [Sensor Devices], PFN_SENSOR_DRIVER_STOP_STATE_CHANGE_NOTIFICATION, PFN_SENSOR_DRIVER_STOP_STATE_CHANGE_NOTIFICATION callback function pointer [Sensor Devices], sensors.evt_sensor_driver_stop_state_change_notification, sensorscx/EvtSensorDriverStopStateChangeNotification
 f1_keywords:
  - "sensorscx/PFN_SENSOR_DRIVER_STOP_STATE_CHANGE_NOTIFICATION"
+ - "PFN_SENSOR_DRIVER_STOP_STATE_CHANGE_NOTIFICATION"
 req.header: sensorscx.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - sensorscx.h
 api_name:
 - PFN_SENSOR_DRIVER_STOP_STATE_CHANGE_NOTIFICATION
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

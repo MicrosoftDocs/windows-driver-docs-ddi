@@ -10,6 +10,7 @@ keywords: ["IInterruptSync::CallSynchronizedRoutine"]
 ms.keywords: CallSynchronizedRoutine, CallSynchronizedRoutine method [Audio Devices], CallSynchronizedRoutine method [Audio Devices],IInterruptSync interface, IInterruptSync interface [Audio Devices],CallSynchronizedRoutine method, IInterruptSync.CallSynchronizedRoutine, IInterruptSync::CallSynchronizedRoutine, audio.iinterruptsync_callsynchronizedroutine, audmp-routines_985e70ee-3e6b-4514-adb5-1b37f92c9ae4.xml, portcls/IInterruptSync::CallSynchronizedRoutine
 f1_keywords:
  - "portcls/IInterruptSync.CallSynchronizedRoutine"
+ - "IInterruptSync.CallSynchronizedRoutine"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IInterruptSync.CallSynchronizedRoutine
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

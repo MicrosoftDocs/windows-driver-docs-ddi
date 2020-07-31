@@ -10,6 +10,7 @@ keywords: ["WdfDpcWdmGetDpc function"]
 ms.keywords: DFDpcObjectRef_26bd69e5-277b-4af4-a5b7-659670b39fbb.xml, WdfDpcWdmGetDpc, WdfDpcWdmGetDpc method, kmdf.wdfdpcwdmgetdpc, wdf.wdfdpcwdmgetdpc, wdfdpc/WdfDpcWdmGetDpc
 f1_keywords:
  - "wdfdpc/WdfDpcWdmGetDpc"
+ - "WdfDpcWdmGetDpc"
 req.header: wdfdpc.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfDpcWdmGetDpc
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

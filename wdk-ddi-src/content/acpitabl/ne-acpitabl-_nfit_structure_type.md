@@ -7,6 +7,7 @@ ms.date: 10/02/2018
 keywords: ["_NFIT_STRUCTURE_TYPE enumeration"]
 f1_keywords:
  - "acpitabl/_NFIT_STRUCTURE_TYPE"
+ - "_NFIT_STRUCTURE_TYPE"
 ms.keywords: _NFIT_STRUCTURE_TYPE, NFIT_STRUCTURE_TYPE, *PNFIT_STRUCTURE_TYPE, 
 req.header: acpitabl.h
 req.include-header:
@@ -26,8 +27,6 @@ api_location:
 - acpitabl.h
 api_name: 
 - _NFIT_STRUCTURE_TYPE
-product:
-- Windows
 targetos: Windows
 ---
 

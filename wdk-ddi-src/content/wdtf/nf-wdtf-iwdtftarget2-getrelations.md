@@ -10,6 +10,7 @@ keywords: ["IWDTFTarget2::GetRelations"]
 ms.keywords: GetRelations, GetRelations method [Windows Device Testing Framework], GetRelations method [Windows Device Testing Framework],IWDTFTarget2 interface, IWDTFTarget2 interface [Windows Device Testing Framework],GetRelations method, IWDTFTarget2.GetRelations, IWDTFTarget2::GetRelations, Microsoft.WDTF.IWDTFTarget2.GetRelations, Microsoft::WDTF::IWDTFTarget2::GetRelations, dtf.iwdtftarget2_getrelations, wdtf/IWDTFTarget2::GetRelations
 f1_keywords:
  - "wdtf/IWDTFTarget2.GetRelations"
+ - "IWDTFTarget2.GetRelations"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WDTF.Interop.metadata_dll.dll
 api_name:
 - IWDTFTarget2.GetRelations
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

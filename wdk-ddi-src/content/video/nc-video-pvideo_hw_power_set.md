@@ -10,6 +10,7 @@ keywords: ["PVIDEO_HW_POWER_SET callback function"]
 ms.keywords: HwVidSetPowerState, HwVidSetPowerState callback function [Display Devices], PVIDEO_HW_POWER_SET, PVIDEO_HW_POWER_SET callback, VideoMiniport_Functions_22a6c5ae-0c31-48a6-8882-06edfea32c1a.xml, display.hwvidsetpowerstate, video/HwVidSetPowerState
 f1_keywords:
  - "video/HwVidSetPowerState"
+ - "HwVidSetPowerState"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - video.h
 api_name:
 - HwVidSetPowerState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

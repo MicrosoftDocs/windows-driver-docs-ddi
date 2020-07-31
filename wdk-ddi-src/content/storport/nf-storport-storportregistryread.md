@@ -10,6 +10,7 @@ keywords: ["StorPortRegistryRead function"]
 ms.keywords: StorPortRegistryRead, StorPortRegistryRead routine [Storage Devices], storage.storportregistryread, storport/StorPortRegistryRead, storprt_6eafcbbc-b767-45b3-97d6-86e591a29a19.xml
 f1_keywords:
  - "storport/StorPortRegistryRead"
+ - "StorPortRegistryRead"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Storport.dll
 api_name:
 - StorPortRegistryRead
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

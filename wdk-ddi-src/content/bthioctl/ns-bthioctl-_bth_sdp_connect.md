@@ -10,6 +10,7 @@ keywords: ["_BTH_SDP_CONNECT structure"]
 ms.keywords: "*PBTH_SDP_CONNECT, BTH_SDP_CONNECT, BTH_SDP_CONNECT structure [Bluetooth Devices], PBTH_SDP_CONNECT, PBTH_SDP_CONNECT structure pointer [Bluetooth Devices], _BTH_SDP_CONNECT, bltooth.bth_sdp_connect, bth_structs_5502fd7e-54f1-46dd-a441-68103d439c27.xml, bthioctl/BTH_SDP_CONNECT, bthioctl/PBTH_SDP_CONNECT"
 f1_keywords:
  - "bthioctl/BTH_SDP_CONNECT"
+ - "BTH_SDP_CONNECT"
 req.header: bthioctl.h
 req.include-header: Bthioctl.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - bthioctl.h
 api_name:
 - BTH_SDP_CONNECT
-product:
-- Windows
 targetos: Windows
 req.typenames: BTH_SDP_CONNECT, *PBTH_SDP_CONNECT
 ---

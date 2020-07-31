@@ -10,6 +10,7 @@ keywords: ["IWDFRemoteTarget::CloseForQueryRemove"]
 ms.keywords: CloseForQueryRemove, CloseForQueryRemove method, CloseForQueryRemove method,IWDFRemoteTarget interface, IWDFRemoteTarget interface,CloseForQueryRemove method, IWDFRemoteTarget.CloseForQueryRemove, IWDFRemoteTarget::CloseForQueryRemove, UMDFIoTargetObjectRef_b816e346-75b1-4da2-a9cf-f6db32abb3ed.xml, umdf.iwdfremotetarget_closeforqueryremove, wdf.iwdfremotetarget_closeforqueryremove, wudfddi/IWDFRemoteTarget::CloseForQueryRemove
 f1_keywords:
  - "wudfddi/IWDFRemoteTarget.CloseForQueryRemove"
+ - "IWDFRemoteTarget.CloseForQueryRemove"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFRemoteTarget.CloseForQueryRemove
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

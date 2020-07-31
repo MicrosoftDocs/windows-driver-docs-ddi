@@ -9,6 +9,7 @@ keywords: ["D3DKMTGetContextInProcessSchedulingPriority function"]
 ms.keywords: D3DKMTGetContextInProcessSchedulingPriority, D3DKMTGetContextInProcessSchedulingPriority function [Display Devices], d3dkmthk/D3DKMTGetContextInProcessSchedulingPriority, display.d3dkmtgetcontextinprocessschedulingpriority
 f1_keywords:
  - "d3dkmthk/D3DKMTGetContextInProcessSchedulingPriority"
+ - "D3DKMTGetContextInProcessSchedulingPriority"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -35,8 +36,6 @@ api_location:
 - Gdi32.dll
 api_name:
 - D3DKMTGetContextInProcessSchedulingPriority
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

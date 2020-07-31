@@ -10,6 +10,7 @@ keywords: ["PREAD_DMA_COUNTER callback function"]
 ms.keywords: PREAD_DMA_COUNTER, PREAD_DMA_COUNTER callback, ReadDmaCounter, ReadDmaCounter callback function [Kernel-Mode Driver Architecture], kdma_81865501-ca01-4f66-b2a9-da0493d72589.xml, kernel.readdmacounter, wdm/ReadDmaCounter
 f1_keywords:
  - "wdm/ReadDmaCounter"
+ - "ReadDmaCounter"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - ReadDmaCounter
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

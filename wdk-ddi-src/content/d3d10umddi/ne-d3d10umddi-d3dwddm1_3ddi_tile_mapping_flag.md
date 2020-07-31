@@ -9,6 +9,7 @@ keywords: ["D3DWDDM1_3DDI_TILE_MAPPING_FLAG enumeration"]
 ms.keywords: D3DWDDM1_3DDI_TILE_MAPPING_FLAG, D3DWDDM1_3DDI_TILE_MAPPING_FLAG enumeration [Display Devices], D3DWDDM1_3DDI_TILE_MAPPING_NO_OVERWRITE, d3d10umddi/D3DWDDM1_3DDI_TILE_MAPPING_FLAG, d3d10umddi/D3DWDDM1_3DDI_TILE_MAPPING_NO_OVERWRITE, display.d3dwddm1_3ddi_tile_mapping_flag
 f1_keywords:
  - "d3d10umddi/D3DWDDM1_3DDI_TILE_MAPPING_FLAG"
+ - "D3DWDDM1_3DDI_TILE_MAPPING_FLAG"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - D3d10umddi.h
 api_name:
 - D3DWDDM1_3DDI_TILE_MAPPING_FLAG
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DWDDM1_3DDI_TILE_MAPPING_FLAG

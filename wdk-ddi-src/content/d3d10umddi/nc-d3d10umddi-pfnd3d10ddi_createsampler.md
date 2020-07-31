@@ -9,6 +9,7 @@ keywords: ["PFND3D10DDI_CREATESAMPLER callback function"]
 ms.keywords: CreateSampler, CreateSampler callback function [Display Devices], PFND3D10DDI_CREATESAMPLER, PFND3D10DDI_CREATESAMPLER callback, UserModeDisplayDriverDx10_Functions_16c89dca-e337-42c7-a666-f0f4c9a6d3e3.xml, d3d10umddi/CreateSampler, display.createsampler
 f1_keywords:
  - "d3d10umddi/CreateSampler"
+ - "CreateSampler"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - CreateSampler
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

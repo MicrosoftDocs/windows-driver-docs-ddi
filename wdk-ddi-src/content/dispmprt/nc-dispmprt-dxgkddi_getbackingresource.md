@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["DXGKDDI_GETBACKINGRESOURCE callback function"]
 f1_keywords:
  - "dispmprt/DXGKDDI_GETBACKINGRESOURCE"
+ - "DXGKDDI_GETBACKINGRESOURCE"
 req.header: dispmprt.h
 req.include-header:
 req.target-type:
@@ -32,8 +33,6 @@ api_location:
 - dispmprt.h
 api_name: 
 - DXGKDDI_GETBACKINGRESOURCE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

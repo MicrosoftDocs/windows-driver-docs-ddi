@@ -10,6 +10,7 @@ keywords: ["IPrintOemUni::MemoryUsage"]
 ms.keywords: IPrintOemUni interface [Print Devices],MemoryUsage method, IPrintOemUni.MemoryUsage, IPrintOemUni::MemoryUsage, MemoryUsage, MemoryUsage method [Print Devices], MemoryUsage method [Print Devices],IPrintOemUni interface, prcomoem/IPrintOemUni::MemoryUsage, print.iprintoemuni_memoryusage, print_unidrv-pscript_rendering_3c23be3a-ed61-452d-8bd9-0b9137ea777f.xml
 f1_keywords:
  - "prcomoem/IPrintOemUni.MemoryUsage"
+ - "IPrintOemUni.MemoryUsage"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - prcomoem.h
 api_name:
 - IPrintOemUni.MemoryUsage
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

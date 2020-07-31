@@ -10,6 +10,7 @@ keywords: ["DXGK_BRIGHTNESS_GET_CAPS callback function"]
 ms.keywords: DXGK_BRIGHTNESS_GET_CAPS, DXGK_BRIGHTNESS_GET_CAPS callback, DxgkDdiGetBrightnessCaps, DxgkDdiGetBrightnessCaps callback function [Display Devices], display.dxgkddigetbrightnesscaps, dispmprt/DxgkDdiGetBrightnessCaps
 f1_keywords:
  - "dispmprt/DxgkDdiGetBrightnessCaps"
+ - "DxgkDdiGetBrightnessCaps"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Dispmprt.h
 api_name:
 - DxgkDdiGetBrightnessCaps
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

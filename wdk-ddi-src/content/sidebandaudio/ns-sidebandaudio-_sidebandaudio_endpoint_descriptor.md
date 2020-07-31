@@ -7,6 +7,7 @@ ms.date: 09/06/2018
 keywords: ["_SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR structure"]
 f1_keywords:
  - "sidebandaudio/_SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR"
+ - "_SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR"
 ms.keywords: _SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, *PSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, 
 req.header: sidebandaudio.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - sidebandaudio.h
 api_name: 
 - _SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 tech.root: audio
 ms.custom: RS5

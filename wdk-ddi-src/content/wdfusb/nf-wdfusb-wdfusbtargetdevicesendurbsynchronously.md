@@ -10,6 +10,7 @@ keywords: ["WdfUsbTargetDeviceSendUrbSynchronously function"]
 ms.keywords: DFUsbRef_33a88dd1-6d59-4e1f-bd4f-6d778c5aa6d8.xml, WdfUsbTargetDeviceSendUrbSynchronously, WdfUsbTargetDeviceSendUrbSynchronously method, kmdf.wdfusbtargetdevicesendurbsynchronously, wdf.wdfusbtargetdevicesendurbsynchronously, wdfusb/WdfUsbTargetDeviceSendUrbSynchronously
 f1_keywords:
  - "wdfusb/WdfUsbTargetDeviceSendUrbSynchronously"
+ - "WdfUsbTargetDeviceSendUrbSynchronously"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfUsbTargetDeviceSendUrbSynchronously
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

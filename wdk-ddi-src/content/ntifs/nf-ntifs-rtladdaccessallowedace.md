@@ -10,6 +10,7 @@ keywords: ["RtlAddAccessAllowedAce function"]
 ms.keywords: RtlAddAccessAllowedAce, RtlAddAccessAllowedAce routine [Installable File System Drivers], ifsk.rtladdaccessallowedace, ntifs/RtlAddAccessAllowedAce, rtlref_ab4b97bd-c68c-4f7b-a50e-8584f53e6720.xml
 f1_keywords:
  - "ntifs/RtlAddAccessAllowedAce"
+ - "RtlAddAccessAllowedAce"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlAddAccessAllowedAce
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

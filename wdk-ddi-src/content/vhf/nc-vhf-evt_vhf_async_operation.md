@@ -10,6 +10,7 @@ keywords: ["EVT_VHF_ASYNC_OPERATION callback function"]
 ms.keywords: EVT_VHF_ASYNC_OPERATION, EVT_VHF_ASYNC_OPERATION callback, EvtVhfAsyncOperation, EvtVhfAsyncOperation callback function [Human Input Devices], hid.evtvhfasyncoperation, vhf/EvtVhfAsyncOperation
 f1_keywords:
  - "vhf/EvtVhfAsyncOperation"
+ - "EvtVhfAsyncOperation"
 req.header: vhf.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - vhf.h
 api_name:
 - EvtVhfAsyncOperation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

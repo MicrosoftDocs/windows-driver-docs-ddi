@@ -10,6 +10,7 @@ keywords: ["ZwOpenKeyEx function"]
 ms.keywords: ZwOpenKeyEx, ZwOpenKeyEx routine [Kernel-Mode Driver Architecture], k111_4e01a648-6ffc-418f-821c-9a4ef821dc3b.xml, kernel.zwopenkeyex, wdm/ZwOpenKeyEx
 f1_keywords:
  - "wdm/ZwOpenKeyEx"
+ - "ZwOpenKeyEx"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - ZwOpenKeyEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

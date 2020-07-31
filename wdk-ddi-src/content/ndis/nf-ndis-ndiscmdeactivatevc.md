@@ -10,6 +10,7 @@ keywords: ["NdisCmDeactivateVc function"]
 ms.keywords: NdisCmDeactivateVc, NdisCmDeactivateVc function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_3d365bcf-91cc-4724-a4af-77e9bea6fe0c.xml, ndis/NdisCmDeactivateVc, netvista.ndiscmdeactivatevc
 f1_keywords:
  - "ndis/NdisCmDeactivateVc"
+ - "NdisCmDeactivateVc"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisCmDeactivateVc
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

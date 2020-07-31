@@ -10,6 +10,7 @@ keywords: ["InitializeListHead function"]
 ms.keywords: InitializeListHead, InitializeListHead routine [Kernel-Mode Driver Architecture], k109_2e5e02a0-26d3-4c8a-b712-ee3d515b8a23.xml, kernel.initializelisthead, wdm/InitializeListHead
 f1_keywords:
  - "wdm/InitializeListHead"
+ - "InitializeListHead"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - InitializeListHead
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

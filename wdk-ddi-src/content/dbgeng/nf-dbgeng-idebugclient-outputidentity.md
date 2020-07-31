@@ -10,6 +10,7 @@ keywords: ["IDebugClient::OutputIdentity"]
 ms.keywords: IDebugClient interface [Windows Debugging],OutputIdentity method, IDebugClient.OutputIdentity, IDebugClient2 interface [Windows Debugging],OutputIdentity method, IDebugClient2::OutputIdentity, IDebugClient3 interface [Windows Debugging],OutputIdentity method, IDebugClient3::OutputIdentity, IDebugClient4 interface [Windows Debugging],OutputIdentity method, IDebugClient4::OutputIdentity, IDebugClient5 interface [Windows Debugging],OutputIdentity method, IDebugClient5::OutputIdentity, IDebugClient::OutputIdentity, IDebugClient_2013e1cd-3c95-4ef7-a53f-004ba30d9ea2.xml, OutputIdentity, OutputIdentity method [Windows Debugging], OutputIdentity method [Windows Debugging],IDebugClient interface, OutputIdentity method [Windows Debugging],IDebugClient2 interface, OutputIdentity method [Windows Debugging],IDebugClient3 interface, OutputIdentity method [Windows Debugging],IDebugClient4 interface, OutputIdentity method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient2::OutputIdentity, dbgeng/IDebugClient3::OutputIdentity, dbgeng/IDebugClient4::OutputIdentity, dbgeng/IDebugClient5::OutputIdentity, dbgeng/IDebugClient::OutputIdentity, debugger.outputidentity
 f1_keywords:
  - "dbgeng/IDebugClient.OutputIdentity"
+ - "IDebugClient.OutputIdentity"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -40,8 +41,6 @@ api_name:
 - IDebugClient3.OutputIdentity
 - IDebugClient4.OutputIdentity
 - IDebugClient5.OutputIdentity
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

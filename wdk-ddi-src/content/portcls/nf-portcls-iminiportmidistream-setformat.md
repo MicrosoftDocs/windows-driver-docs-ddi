@@ -10,6 +10,7 @@ keywords: ["IMiniportMidiStream::SetFormat"]
 ms.keywords: IMiniportMidiStream interface [Audio Devices],SetFormat method, IMiniportMidiStream.SetFormat, IMiniportMidiStream::SetFormat, SetFormat, SetFormat method [Audio Devices], SetFormat method [Audio Devices],IMiniportMidiStream interface, audio.iminiportmidistream_setformat, audmp-routines_9e75b920-4cc0-4acb-83e6-f970524e0587.xml, portcls/IMiniportMidiStream::SetFormat
 f1_keywords:
  - "portcls/IMiniportMidiStream.SetFormat"
+ - "IMiniportMidiStream.SetFormat"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IMiniportMidiStream.SetFormat
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

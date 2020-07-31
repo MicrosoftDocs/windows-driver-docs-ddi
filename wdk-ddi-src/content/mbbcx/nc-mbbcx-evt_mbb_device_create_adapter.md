@@ -8,6 +8,7 @@ ms.date: 02/06/2019
 keywords: ["EVT_MBB_DEVICE_CREATE_ADAPTER callback function"]
 f1_keywords:
  - "mbbcx/-	EVT_MBB_DEVICE_CREATE_ADAPTER"
+ - "-	EVT_MBB_DEVICE_CREATE_ADAPTER"
 req.header: mbbcx.h
 req.include-header:
 req.target-type: Universal
@@ -33,8 +34,6 @@ api_location:
 - mbbcx.h
 api_name: 
 - EVT_MBB_DEVICE_CREATE_ADAPTER
-product:
-- Windows
 targetos: Windows
 ms.custom: 19H1
 ---

@@ -10,6 +10,7 @@ keywords: ["ExtRemoteData::GetLong64"]
 ms.keywords: EngExtCpp_Ref_4b2bf03d-7a55-4cee-826b-2b384972392f.xml, ExtRemoteData class [Windows Debugging],GetLong64 method, ExtRemoteData.GetLong64, ExtRemoteData::GetLong64, GetLong64, GetLong64 method [Windows Debugging], GetLong64 method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_getlong64
 f1_keywords:
  - "engextcpp/ExtRemoteData.GetLong64"
+ - "ExtRemoteData.GetLong64"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - engextcpp.hpp
 api_name:
 - ExtRemoteData.GetLong64
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

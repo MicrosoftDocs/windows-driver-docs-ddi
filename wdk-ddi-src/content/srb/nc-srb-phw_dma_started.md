@@ -10,6 +10,7 @@ keywords: ["PHW_DMA_STARTED callback"]
 ms.keywords: "(*PHW_DMA_STARTED), (*PHW_DMA_STARTED) callback function [Storage Devices], ide_minikr_2e265b69-67af-449a-bfef-67fbd6694cba.xml, srb/(*PHW_DMA_STARTED), storage.phw_dma_started"
 f1_keywords:
  - "srb/(*PHW_DMA_STARTED)"
+ - "(*PHW_DMA_STARTED)"
 req.header: srb.h
 req.include-header: Storport.h, Srb.h, Storport.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - srb.h
 api_name:
 - (*PHW_DMA_STARTED)
-product:
-- Windows
 targetos: Windows
 req.typenames: SPB_CONTROLLER_CONFIG, *PSPB_CONTROLLER_CONFIG
 req.product: Windows 10 or later.

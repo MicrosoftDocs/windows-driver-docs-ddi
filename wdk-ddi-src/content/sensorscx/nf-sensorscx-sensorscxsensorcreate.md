@@ -10,6 +10,7 @@ keywords: ["SensorsCxSensorCreate function"]
 ms.keywords: SensorsCxSensorCreate, SensorsCxSensorCreate function [Sensor Devices], sensors.sensorscxsensorcreate, sensorscx/SensorsCxSensorCreate
 f1_keywords:
  - "sensorscx/SensorsCxSensorCreate"
+ - "SensorsCxSensorCreate"
 req.header: sensorscx.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - SensorsCx.h
 api_name:
 - SensorsCxSensorCreate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

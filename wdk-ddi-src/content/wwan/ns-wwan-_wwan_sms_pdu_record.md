@@ -10,6 +10,7 @@ keywords: ["_WWAN_SMS_PDU_RECORD structure"]
 ms.keywords: "*PWWAN_SMS_PDU_RECORD, PWWAN_SMS_PDU_RECORD, PWWAN_SMS_PDU_RECORD structure pointer [Network Drivers Starting with Windows Vista], WWAN_SMS_PDU_RECORD, WWAN_SMS_PDU_RECORD structure [Network Drivers Starting with Windows Vista], WwanRef_b21c5d84-e8d4-4cf4-9942-f6f1a14c23c0.xml, _WWAN_SMS_PDU_RECORD, netvista.wwan_sms_pdu_record, wwan/PWWAN_SMS_PDU_RECORD, wwan/WWAN_SMS_PDU_RECORD"
 f1_keywords:
  - "wwan/WWAN_SMS_PDU_RECORD"
+ - "WWAN_SMS_PDU_RECORD"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_SMS_PDU_RECORD
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_SMS_PDU_RECORD, *PWWAN_SMS_PDU_RECORD
 ---

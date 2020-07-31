@@ -10,6 +10,7 @@ keywords: ["PDEBUG_EXTENSION_NOTIFY callback function"]
 ms.keywords: DebugExtensionNotify, DebugExtensionNotify callback function [Windows Debugging], Extensions_Ref_18dd6999-773d-42e8-826a-dcac1fc1ed35.xml, PDEBUG_EXTENSION_NOTIFY, PDEBUG_EXTENSION_NOTIFY callback, dbgeng/DebugExtensionNotify, debugger.debugextensionnotify
 f1_keywords:
  - "dbgeng/DebugExtensionNotify"
+ - "DebugExtensionNotify"
 req.header: dbgeng.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - DebugExtensionNotify
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

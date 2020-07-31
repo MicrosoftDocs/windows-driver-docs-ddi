@@ -10,6 +10,7 @@ keywords: ["KSTART_ROUTINE callback function"]
 ms.keywords: DrvrRtns_913b72f4-9f6b-4967-879d-c4e565d219dd.xml, KSTART_ROUTINE, ThreadStart, ThreadStart routine [Kernel-Mode Driver Architecture], kernel.threadstart, wdm/ThreadStart
 f1_keywords:
  - "wdm/ThreadStart"
+ - "ThreadStart"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - ThreadStart
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

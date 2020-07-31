@@ -10,6 +10,7 @@ keywords: ["IOCTL_GNSS_RESPOND_NI IOCTL"]
 ms.keywords: IOCTL_GNSS_RESPOND_NI, IOCTL_GNSS_RESPOND_NI control, IOCTL_GNSS_RESPOND_NI control code [Sensor Devices], gnss.ioctl_gnss_respond_ni, gnssdriver/IOCTL_GNSS_RESPOND_NI
 f1_keywords:
  - "gnssdriver/IOCTL_GNSS_RESPOND_NI"
+ - "IOCTL_GNSS_RESPOND_NI"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - gnssdriver.h
 api_name:
 - IOCTL_GNSS_RESPOND_NI
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["OEMPaint function"]
 ms.keywords: OEMPaint, OEMPaint function [Print Devices], print.oempaint, print_unidrv-pscript_rendering_c9624a47-02fd-4eba-80d9-4035713ac594.xml, printoem/OEMPaint
 f1_keywords:
  - "printoem/OEMPaint"
+ - "OEMPaint"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - printoem.h
 api_name:
 - OEMPaint
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

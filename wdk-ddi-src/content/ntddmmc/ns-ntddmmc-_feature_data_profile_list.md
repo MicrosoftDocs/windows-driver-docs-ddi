@@ -10,6 +10,7 @@ keywords: ["_FEATURE_DATA_PROFILE_LIST structure"]
 ms.keywords: "*PFEATURE_DATA_PROFILE_LIST, FEATURE_DATA_PROFILE_LIST, FEATURE_DATA_PROFILE_LIST structure [Storage Devices], PFEATURE_DATA_PROFILE_LIST, PFEATURE_DATA_PROFILE_LIST structure pointer [Storage Devices], _FEATURE_DATA_PROFILE_LIST, ntddmmc/FEATURE_DATA_PROFILE_LIST, ntddmmc/PFEATURE_DATA_PROFILE_LIST, storage.feature_data_profile_list, structs-CD-ROM_fae1990f-a605-4281-a8e6-e8e08431493d.xml"
 f1_keywords:
  - "ntddmmc/FEATURE_DATA_PROFILE_LIST"
+ - "FEATURE_DATA_PROFILE_LIST"
 req.header: ntddmmc.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddmmc.h
 api_name:
 - FEATURE_DATA_PROFILE_LIST
-product:
-- Windows
 targetos: Windows
 req.typenames: FEATURE_DATA_PROFILE_LIST, *PFEATURE_DATA_PROFILE_LIST
 ---

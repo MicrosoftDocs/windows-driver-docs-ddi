@@ -10,6 +10,7 @@ keywords: ["WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT function"]
 ms.keywords: DFDeviceObjectGeneralRef_1aaae0d7-3b13-43f6-b7e4-7c105b2e41b2.xml, WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT, WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT function, kmdf.wdf_device_power_policy_idle_settings_init, wdf.wdf_device_power_policy_idle_settings_init, wdfdevice/WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT
 f1_keywords:
  - "wdfdevice/WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT"
+ - "WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - wdfdevice.h
 api_name:
 - WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

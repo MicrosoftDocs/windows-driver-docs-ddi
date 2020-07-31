@@ -10,6 +10,7 @@ keywords: ["WdfRequestRetrieveActivityId function"]
 ms.keywords: WdfRequestRetrieveActivityId, WdfRequestRetrieveActivityId method, wdf.wdfrequestretrieveactivityid, wdfrequest/WdfRequestRetrieveActivityId
 f1_keywords:
  - "wdfrequest/WdfRequestRetrieveActivityId"
+ - "WdfRequestRetrieveActivityId"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - WUDFx02000.dll
 api_name:
 - WdfRequestRetrieveActivityId
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

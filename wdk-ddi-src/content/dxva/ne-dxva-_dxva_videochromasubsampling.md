@@ -10,6 +10,7 @@ keywords: ["_DXVA_VideoChromaSubsampling enumeration"]
 ms.keywords: DXVA_VideoChromaSubsampling, DXVA_VideoChromaSubsampling enumeration [Display Devices], DXVA_VideoChromaSubsamplingMask, DXVA_VideoChromaSubsamplingShift, DXVA_VideoChromaSubsampling_Cosited, DXVA_VideoChromaSubsampling_DV_PAL, DXVA_VideoChromaSubsampling_Horizontally_Cosited, DXVA_VideoChromaSubsampling_MPEG1, DXVA_VideoChromaSubsampling_MPEG2, DXVA_VideoChromaSubsampling_ProgressiveChroma, DXVA_VideoChromaSubsampling_Unknown, DXVA_VideoChromaSubsampling_Vertically_AlignedChromaPlanes, DXVA_VideoChromaSubsampling_Vertically_Cosited, _DXVA_VideoChromaSubsampling, display.dxva_videochromasubsampling, dxva/DXVA_VideoChromaSubsampling, dxva/DXVA_VideoChromaSubsamplingMask, dxva/DXVA_VideoChromaSubsamplingShift, dxva/DXVA_VideoChromaSubsampling_Cosited, dxva/DXVA_VideoChromaSubsampling_DV_PAL, dxva/DXVA_VideoChromaSubsampling_Horizontally_Cosited, dxva/DXVA_VideoChromaSubsampling_MPEG1, dxva/DXVA_VideoChromaSubsampling_MPEG2, dxva/DXVA_VideoChromaSubsampling_ProgressiveChroma, dxva/DXVA_VideoChromaSubsampling_Unknown, dxva/DXVA_VideoChromaSubsampling_Vertically_AlignedChromaPlanes, dxva/DXVA_VideoChromaSubsampling_Vertically_Cosited, dxvaref_2939ec96-fb1f-4911-916e-40d043bb58d5.xml
 f1_keywords:
  - "dxva/DXVA_VideoChromaSubsampling"
+ - "DXVA_VideoChromaSubsampling"
 req.header: dxva.h
 req.include-header: Dxva.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dxva.h
 api_name:
 - DXVA_VideoChromaSubsampling
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVA_VideoChromaSubsampling
 ---

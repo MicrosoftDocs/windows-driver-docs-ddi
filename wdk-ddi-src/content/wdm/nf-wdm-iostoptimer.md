@@ -10,6 +10,7 @@ keywords: ["IoStopTimer function"]
 ms.keywords: IoStopTimer, IoStopTimer routine [Kernel-Mode Driver Architecture], k104_dfedf779-1137-44c1-ab06-223c3ce6e9c6.xml, kernel.iostoptimer, wdm/IoStopTimer
 f1_keywords:
  - "wdm/IoStopTimer"
+ - "IoStopTimer"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoStopTimer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

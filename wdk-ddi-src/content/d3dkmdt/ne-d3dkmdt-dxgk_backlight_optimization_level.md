@@ -10,6 +10,7 @@ keywords: ["DXGK_BACKLIGHT_OPTIMIZATION_LEVEL enumeration"]
 ms.keywords: DXGK_BACKLIGHT_OPTIMIZATION_LEVEL, DXGK_BACKLIGHT_OPTIMIZATION_LEVEL enumeration [Display Devices], DxgkBacklightOptimizationDesktop, DxgkBacklightOptimizationDimmed, DxgkBacklightOptimizationDisable, DxgkBacklightOptimizationDynamic, DxgkBacklightOptimizationEDR, d3dkmdt/DXGK_BACKLIGHT_OPTIMIZATION_LEVEL, d3dkmdt/DxgkBacklightOptimizationDesktop, d3dkmdt/DxgkBacklightOptimizationDimmed, d3dkmdt/DxgkBacklightOptimizationDisable, d3dkmdt/DxgkBacklightOptimizationDynamic, d3dkmdt/DxgkBacklightOptimizationEDR, display.dxgk_backlight_optimization_level
 f1_keywords:
  - "d3dkmdt/DXGK_BACKLIGHT_OPTIMIZATION_LEVEL"
+ - "DXGK_BACKLIGHT_OPTIMIZATION_LEVEL"
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - D3dkmdt.h
 api_name:
 - DXGK_BACKLIGHT_OPTIMIZATION_LEVEL
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGK_BACKLIGHT_OPTIMIZATION_LEVEL
 ---

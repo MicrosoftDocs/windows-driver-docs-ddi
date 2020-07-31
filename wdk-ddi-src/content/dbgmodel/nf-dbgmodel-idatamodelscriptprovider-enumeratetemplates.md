@@ -7,6 +7,7 @@ ms.date: 08/20/2018
 keywords: ["IDataModelScriptProvider::EnumerateTemplates"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptProvider.EnumerateTemplates"
+ - "IDataModelScriptProvider.EnumerateTemplates"
 ms.keywords: IDataModelScriptProvider::EnumerateTemplates, EnumerateTemplates, IDataModelScriptProvider.EnumerateTemplates, IDataModelScriptProvider::EnumerateTemplates, IDataModelScriptProvider.EnumerateTemplates
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDataModelScriptProvider.EnumerateTemplates
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_CHILD_LIST_IDENTIFICATION_DESCRIPTION_CLEANUP callback funct
 ms.keywords: DFDeviceObjectChildListRef_f70d9bc7-a6f9-41c4-a6c3-7a9ef413096c.xml, EVT_WDF_CHILD_LIST_IDENTIFICATION_DESCRIPTION_CLEANUP, EVT_WDF_CHILD_LIST_IDENTIFICATION_DESCRIPTION_CLEANUP callback, EvtChildListIdentificationDescriptionCleanup, EvtChildListIdentificationDescriptionCleanup callback function, kmdf.evtchildlistidentificationdescriptioncleanup, wdf.evtchildlistidentificationdescriptioncleanup, wdfchildlist/EvtChildListIdentificationDescriptionCleanup
 f1_keywords:
  - "wdfchildlist/EvtChildListIdentificationDescriptionCleanup"
+ - "EvtChildListIdentificationDescriptionCleanup"
 req.header: wdfchildlist.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - WdfChildlist.h
 api_name:
 - EvtChildListIdentificationDescriptionCleanup
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["_BTHX_HCI_PACKET_TYPE enumeration"]
 ms.keywords: BTHX_HCI_PACKET_TYPE, BTHX_HCI_PACKET_TYPE enumeration [Bluetooth Devices], HciPacketAclData, HciPacketCommand, HciPacketEvent, _BTHX_HCI_PACKET_TYPE, bltooth.bthx_hci_packet_type, bthxddi/BTHX_HCI_PACKET_TYPE, bthxddi/HciPacketAclData, bthxddi/HciPacketCommand, bthxddi/HciPacketEvent
 f1_keywords:
  - "bthxddi/BTHX_HCI_PACKET_TYPE"
+ - "BTHX_HCI_PACKET_TYPE"
 req.header: bthxddi.h
 req.include-header: BthXDDI.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - BthXDDI.h
 api_name:
 - BTHX_HCI_PACKET_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: BTHX_HCI_PACKET_TYPE
 ---

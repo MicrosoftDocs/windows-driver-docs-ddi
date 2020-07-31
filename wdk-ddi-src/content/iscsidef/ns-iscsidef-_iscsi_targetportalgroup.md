@@ -10,6 +10,7 @@ keywords: ["_ISCSI_TargetPortalGroup structure"]
 ms.keywords: "*PISCSI_TargetPortalGroup, ISCSI_TargetPortalGroup, ISCSI_TargetPortalGroup structure [Storage Devices], PISCSI_TargetPortalGroup, PISCSI_TargetPortalGroup structure pointer [Storage Devices], _ISCSI_TargetPortalGroup, iscsidef/ISCSI_TargetPortalGroup, iscsidef/PISCSI_TargetPortalGroup, storage.iscsi_targetportalgroup, structs-iSCSI_27b8d554-5021-49d0-837c-302e7ac033ed.xml"
 f1_keywords:
  - "iscsidef/ISCSI_TargetPortalGroup"
+ - "ISCSI_TargetPortalGroup"
 req.header: iscsidef.h
 req.include-header: Iscsidef.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - iscsidef.h
 api_name:
 - ISCSI_TargetPortalGroup
-product:
-- Windows
 targetos: Windows
 req.typenames: ISCSI_TargetPortalGroup, *PISCSI_TargetPortalGroup
 ---

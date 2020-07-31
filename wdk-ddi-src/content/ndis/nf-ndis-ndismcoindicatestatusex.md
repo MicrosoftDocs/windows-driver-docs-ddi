@@ -10,6 +10,7 @@ keywords: ["NdisMCoIndicateStatusEx function"]
 ms.keywords: NdisMCoIndicateStatusEx, NdisMCoIndicateStatusEx function [Network Drivers Starting with Windows Vista], condis_status_ref_1a0c27e2-e728-4b1d-8e45-9305869d3bfc.xml, ndis/NdisMCoIndicateStatusEx, netvista.ndismcoindicatestatusex
 f1_keywords:
  - "ndis/NdisMCoIndicateStatusEx"
+ - "NdisMCoIndicateStatusEx"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisMCoIndicateStatusEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

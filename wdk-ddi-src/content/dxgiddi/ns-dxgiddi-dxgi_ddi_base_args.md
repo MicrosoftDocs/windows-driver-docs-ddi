@@ -10,6 +10,7 @@ keywords: ["DXGI_DDI_BASE_ARGS structure"]
 ms.keywords: DXGI_DDI_BASE_ARGS, DXGI_DDI_BASE_ARGS structure [Display Devices], UMDisplayDriver_Dx10param_Structs_3dec4197-80df-4de3-96ca-d4f90f23e85d.xml, display.dxgi_ddi_base_args, dxgiddi/DXGI_DDI_BASE_ARGS
 f1_keywords:
  - "dxgiddi/DXGI_DDI_BASE_ARGS"
+ - "DXGI_DDI_BASE_ARGS"
 req.header: dxgiddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dxgiddi.h
 api_name:
 - DXGI_DDI_BASE_ARGS
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGI_DDI_BASE_ARGS
 ---

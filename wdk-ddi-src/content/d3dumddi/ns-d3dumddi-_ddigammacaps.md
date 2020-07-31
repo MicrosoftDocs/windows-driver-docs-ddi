@@ -10,6 +10,7 @@ keywords: ["_DDIGAMMACAPS structure"]
 ms.keywords: D3D_other_Structs_7aa0b131-f7e5-4208-b3bb-7a35fa0d5ef1.xml, DDIGAMMACAPS, DDIGAMMACAPS structure [Display Devices], _DDIGAMMACAPS, d3dumddi/DDIGAMMACAPS, display.ddigammacaps
 f1_keywords:
  - "d3dumddi/DDIGAMMACAPS"
+ - "DDIGAMMACAPS"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - DDIGAMMACAPS
-product:
-- Windows
 targetos: Windows
 req.typenames: DDIGAMMACAPS
 ---

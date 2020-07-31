@@ -10,6 +10,7 @@ keywords: ["ITracing interface"]
 ms.keywords: ITracing, ITracing interface [Windows Device Testing Framework], ITracing interface [Windows Device Testing Framework],described, ITracing_b58b1d4d-7a2b-4162-ad9c-54439afd7b4a.xml, dtf.itracing, wdtf/ITracing
 f1_keywords:
  - "wdtf/ITracing"
+ - "ITracing"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - ITracing
 - ITracing.SetTraceLevel
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["StreamClassCallAtNewPriority function"]
 ms.keywords: StreamClassCallAtNewPriority, StreamClassCallAtNewPriority routine [Streaming Media Devices], strclass-routines_6335ceee-08a1-4078-a9ce-aaa15d8158cd.xml, stream.streamclasscallatnewpriority, strmini/StreamClassCallAtNewPriority
 f1_keywords:
  - "strmini/StreamClassCallAtNewPriority"
+ - "StreamClassCallAtNewPriority"
 req.header: strmini.h
 req.include-header: Strmini.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Stream.dll
 api_name:
 - StreamClassCallAtNewPriority
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

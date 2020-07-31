@@ -10,6 +10,7 @@ keywords: ["IOCTL_HID_GET_STRING IOCTL"]
 ms.keywords: IOCTL_HID_GET_STRING, IOCTL_HID_GET_STRING control, IOCTL_HID_GET_STRING control code [Human Input Devices], hid.ioctl_hid_get_string, hidioreq_987af494-0ac9-4b86-ab66-63dad179cec5.xml, hidport/IOCTL_HID_GET_STRING
 f1_keywords:
  - "hidport/IOCTL_HID_GET_STRING"
+ - "IOCTL_HID_GET_STRING"
 req.header: hidport.h
 req.include-header: Hidport.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - hidport.h
 api_name:
 - IOCTL_HID_GET_STRING
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

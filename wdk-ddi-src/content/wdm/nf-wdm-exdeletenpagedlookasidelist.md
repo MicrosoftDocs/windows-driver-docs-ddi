@@ -10,6 +10,7 @@ keywords: ["ExDeleteNPagedLookasideList function"]
 ms.keywords: ExDeleteNPagedLookasideList, ExDeleteNPagedLookasideList routine [Kernel-Mode Driver Architecture], k102_401f2550-ef71-4199-be7f-cdd7652a2c03.xml, kernel.exdeletenpagedlookasidelist, wdm/ExDeleteNPagedLookasideList
 f1_keywords:
  - "wdm/ExDeleteNPagedLookasideList"
+ - "ExDeleteNPagedLookasideList"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - ExDeleteNPagedLookasideList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

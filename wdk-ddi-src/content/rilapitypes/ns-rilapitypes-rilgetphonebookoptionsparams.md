@@ -10,6 +10,7 @@ keywords: ["RILGETPHONEBOOKOPTIONSPARAMS structure"]
 ms.keywords: "*LPRILGETPHONEBOOKOPTIONSPARAMS, RILGETPHONEBOOKOPTIONSPARAMS, RILGETPHONEBOOKOPTIONSPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilgetphonebookoptionsparams, ntddrilapitypes/RILGETPHONEBOOKOPTIONSPARAMS"
 f1_keywords:
  - "rilapitypes/RILGETPHONEBOOKOPTIONSPARAMS"
+ - "RILGETPHONEBOOKOPTIONSPARAMS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILGETPHONEBOOKOPTIONSPARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILGETPHONEBOOKOPTIONSPARAMS, *LPRILGETPHONEBOOKOPTIONSPARAMS
 ---

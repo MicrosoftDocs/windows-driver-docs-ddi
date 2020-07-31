@@ -9,6 +9,7 @@ keywords: ["_DXGKCB_NOTIFY_MPO_VSYNC_FLAGS structure"]
 ms.keywords: DXGKCB_NOTIFY_MPO_VSYNC_FLAGS, DXGKCB_NOTIFY_MPO_VSYNC_FLAGS structure [Display Devices], _DXGKCB_NOTIFY_MPO_VSYNC_FLAGS, d3dkmddi/DXGKCB_NOTIFY_MPO_VSYNC_FLAGS, display.dxgkcb_notify_mpo_vsync_flags
 f1_keywords:
  - "d3dkmddi/DXGKCB_NOTIFY_MPO_VSYNC_FLAGS"
+ - "DXGKCB_NOTIFY_MPO_VSYNC_FLAGS"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGKCB_NOTIFY_MPO_VSYNC_FLAGS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGKCB_NOTIFY_MPO_VSYNC_FLAGS

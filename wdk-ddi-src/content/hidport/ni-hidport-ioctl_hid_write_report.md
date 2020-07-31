@@ -10,6 +10,7 @@ keywords: ["IOCTL_HID_WRITE_REPORT IOCTL"]
 ms.keywords: IOCTL_HID_WRITE_REPORT, IOCTL_HID_WRITE_REPORT control, IOCTL_HID_WRITE_REPORT control code [Human Input Devices], hid.ioctl_hid_write_report, hidioreq_0b1eb214-55b0-4659-bdf7-866cf03a7be6.xml, hidport/IOCTL_HID_WRITE_REPORT
 f1_keywords:
  - "hidport/IOCTL_HID_WRITE_REPORT"
+ - "IOCTL_HID_WRITE_REPORT"
 req.header: hidport.h
 req.include-header: Hidport.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - hidport.h
 api_name:
 - IOCTL_HID_WRITE_REPORT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

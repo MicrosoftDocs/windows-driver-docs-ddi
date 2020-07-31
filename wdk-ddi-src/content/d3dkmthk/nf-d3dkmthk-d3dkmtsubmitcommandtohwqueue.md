@@ -9,6 +9,7 @@ keywords: ["D3DKMTSubmitCommandToHwQueue function"]
 ms.keywords: D3DKMTSubmitCommandToHwQueue, D3DKMTSubmitCommandToHwQueue function [Display Devices], d3dkmthk/D3DKMTSubmitCommandToHwQueue, display.d3dkmtsubmitcommandtohwqueue
 f1_keywords:
  - "d3dkmthk/D3DKMTSubmitCommandToHwQueue"
+ - "D3DKMTSubmitCommandToHwQueue"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - Gdi32.dll
 api_name:
 - D3DKMTSubmitCommandToHwQueue
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

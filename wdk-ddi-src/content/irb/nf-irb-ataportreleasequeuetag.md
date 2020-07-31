@@ -10,6 +10,7 @@ keywords: ["AtaPortReleaseQueueTag function"]
 ms.keywords: AtaPortReleaseQueueTag, AtaPortReleaseQueueTag routine [Storage Devices], atartns_cfdd9be6-53b5-4c4a-ac61-bc6a3cf48ea5.xml, irb/AtaPortReleaseQueueTag, storage.ataportreleasequeuetag
 f1_keywords:
  - "irb/AtaPortReleaseQueueTag"
+ - "AtaPortReleaseQueueTag"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
@@ -39,8 +40,6 @@ api_location:
 - pciidex.dll
 api_name:
 - AtaPortReleaseQueueTag
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

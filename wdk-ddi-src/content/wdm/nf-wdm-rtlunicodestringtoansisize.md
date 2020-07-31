@@ -10,6 +10,7 @@ keywords: ["RtlUnicodeStringToAnsiSize macro"]
 ms.keywords: RtlUnicodeStringToAnsiSize, RtlUnicodeStringToAnsiSize routine [Kernel-Mode Driver Architecture], k109_3a436ab4-80f1-4fb2-b4b6-98b4dc1ba1f1.xml, kernel.rtlunicodestringtoansisize, wdm/RtlUnicodeStringToAnsiSize
 f1_keywords:
  - "wdm/RtlUnicodeStringToAnsiSize"
+ - "RtlUnicodeStringToAnsiSize"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlUnicodeStringToAnsiSize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

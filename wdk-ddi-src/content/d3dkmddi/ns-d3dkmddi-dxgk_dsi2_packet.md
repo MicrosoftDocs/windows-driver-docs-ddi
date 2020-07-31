@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DXGK_DSI2_PACKET structure"]
 f1_keywords:
  - "d3dkmddi/DXGK_DSI2_PACKET"
+ - "DXGK_DSI2_PACKET"
 ms.keywords: DXGK_DSI2_PACKET, DXGK_DSI2_PACKET, *PDXGK_DSI2_PACKET, 
 req.header: d3dkmddi.h
 req.include-header:
@@ -32,8 +33,6 @@ api_location:
  - d3dkmddi.h
 api_name: 
  - DXGK_DSI2_PACKET
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

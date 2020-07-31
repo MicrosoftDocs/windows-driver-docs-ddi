@@ -10,6 +10,7 @@ keywords: ["WdfDeviceInitRegisterPowerPolicyStateChangeCallback function"]
 ms.keywords: DFDeviceObjectGeneralRef_207ca167-9049-4661-baea-1a17158c3e82.xml, WdfDeviceInitRegisterPowerPolicyStateChangeCallback, WdfDeviceInitRegisterPowerPolicyStateChangeCallback method, kmdf.wdfdeviceinitregisterpowerpolicystatechangecallback, wdf.wdfdeviceinitregisterpowerpolicystatechangecallback, wdfdevice/WdfDeviceInitRegisterPowerPolicyStateChangeCallback
 f1_keywords:
  - "wdfdevice/WdfDeviceInitRegisterPowerPolicyStateChangeCallback"
+ - "WdfDeviceInitRegisterPowerPolicyStateChangeCallback"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfDeviceInitRegisterPowerPolicyStateChangeCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

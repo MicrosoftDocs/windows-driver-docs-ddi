@@ -10,6 +10,7 @@ keywords: ["EVT_UDECX_WDF_DEVICE_RESET callback function"]
 ms.keywords: EVT_UDECX_WDF_DEVICE_RESET, EVT_UDECX_WDF_DEVICE_RESET callback, EvtUdecxWdfDeviceReset, EvtUdecxWdfDeviceReset callback function [Buses], buses.evt_udecx_wdf_device_reset, udecxwdfdevice/EvtUdecxWdfDeviceReset
 f1_keywords:
  - "udecxwdfdevice/EvtUdecxWdfDeviceReset"
+ - "EvtUdecxWdfDeviceReset"
 req.header: udecxwdfdevice.h
 req.include-header: Udecx.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - UdecxWdfDevice.h
 api_name:
 - EvtUdecxWdfDeviceReset
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

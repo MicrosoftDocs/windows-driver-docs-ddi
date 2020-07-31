@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::ReadTypedDataPhysical"]
 ms.keywords: IDebugSymbols interface [Windows Debugging],ReadTypedDataPhysical method, IDebugSymbols2 interface [Windows Debugging],ReadTypedDataPhysical method, IDebugSymbols2::ReadTypedDataPhysical, IDebugSymbols3 interface [Windows Debugging],ReadTypedDataPhysical method, IDebugSymbols3.ReadTypedDataPhysical, IDebugSymbols3::ReadTypedDataPhysical, IDebugSymbols::ReadTypedDataPhysical, IDebugSymbols_d9131c11-5752-4b05-b779-69cb256b8ded.xml, ReadTypedDataPhysical, ReadTypedDataPhysical method [Windows Debugging], ReadTypedDataPhysical method [Windows Debugging],IDebugSymbols interface, ReadTypedDataPhysical method [Windows Debugging],IDebugSymbols2 interface, ReadTypedDataPhysical method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols2::ReadTypedDataPhysical, dbgeng/IDebugSymbols3::ReadTypedDataPhysical, dbgeng/IDebugSymbols::ReadTypedDataPhysical, debugger.readtypeddataphysical
 f1_keywords:
  - "dbgeng/IDebugSymbols.ReadTypedDataPhysical"
+ - "IDebugSymbols.ReadTypedDataPhysical"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -38,8 +39,6 @@ api_name:
 - IDebugSymbols.ReadTypedDataPhysical
 - IDebugSymbols2.ReadTypedDataPhysical
 - IDebugSymbols3.ReadTypedDataPhysical
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

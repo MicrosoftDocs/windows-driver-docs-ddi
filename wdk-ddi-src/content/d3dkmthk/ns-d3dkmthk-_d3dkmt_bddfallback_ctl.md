@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_BDDFALLBACK_CTL structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_BDDFALLBACK_CTL"
+ - "_D3DKMT_BDDFALLBACK_CTL"
 ms.keywords: _D3DKMT_BDDFALLBACK_CTL, D3DKMT_BDDFALLBACK_CTL, 
 req.header: d3dkmthk.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - d3dkmthk.h
 api_name: 
 - _D3DKMT_BDDFALLBACK_CTL
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

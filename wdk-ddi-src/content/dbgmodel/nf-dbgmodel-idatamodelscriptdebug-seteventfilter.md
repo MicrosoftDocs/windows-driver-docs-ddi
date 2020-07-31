@@ -7,6 +7,7 @@ ms.date: 08/21/2018
 keywords: ["IDataModelScriptDebug::SetEventFilter"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebug.SetEventFilter"
+ - "IDataModelScriptDebug.SetEventFilter"
 ms.keywords: IDataModelScriptDebug::SetEventFilter, SetEventFilter, IDataModelScriptDebug.SetEventFilter, IDataModelScriptDebug::SetEventFilter, IDataModelScriptDebug.SetEventFilter
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDataModelScriptDebug.SetEventFilter
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

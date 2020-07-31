@@ -10,6 +10,7 @@ keywords: ["DXGI_DDI_RATIONAL structure"]
 ms.keywords: DXGI_DDI_RATIONAL, DXGI_DDI_RATIONAL structure [Display Devices], UMDisplayDriver_Dx10param_Structs_ef68ce24-ab05-45db-9b37-02367bbba7f4.xml, display.dxgi_ddi_rational, dxgiddi/DXGI_DDI_RATIONAL
 f1_keywords:
  - "dxgiddi/DXGI_DDI_RATIONAL"
+ - "DXGI_DDI_RATIONAL"
 req.header: dxgiddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dxgiddi.h
 api_name:
 - DXGI_DDI_RATIONAL
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGI_DDI_RATIONAL
 ---

@@ -10,6 +10,7 @@ keywords: ["PHW_ADAPTER_CONTROL callback"]
 ms.keywords: "(*PHW_ADAPTER_CONTROL), (*PHW_ADAPTER_CONTROL) callback function [Storage Devices], ide_minikr_fb5a2e9f-b755-417e-b152-ef680c85c16a.xml, srb/(*PHW_ADAPTER_CONTROL), storage.phw_adapter_control"
 f1_keywords:
  - "srb/(*PHW_ADAPTER_CONTROL)"
+ - "(*PHW_ADAPTER_CONTROL)"
 req.header: srb.h
 req.include-header: Storport.h, Srb.h, Storport.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - srb.h
 api_name:
 - (*PHW_ADAPTER_CONTROL)
-product:
-- Windows
 targetos: Windows
 req.typenames: SPB_CONTROLLER_CONFIG, *PSPB_CONTROLLER_CONFIG
 req.product: Windows 10 or later.

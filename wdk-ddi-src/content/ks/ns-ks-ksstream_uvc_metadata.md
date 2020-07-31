@@ -10,6 +10,7 @@ keywords: ["KSSTREAM_UVC_METADATA structure"]
 ms.keywords: "*PKSSTREAM_UVC_METADATA, KSSTREAM_UVC_METADATA, KSSTREAM_UVC_METADATA structure [Streaming Media Devices], PKSSTREAM_UVC_METADATA, PKSSTREAM_UVC_METADATA structure pointer [Streaming Media Devices], ks/KSSTREAM_UVC_METADATA, ks/PKSSTREAM_UVC_METADATA, stream.ksstream_uvc_metadata"
 f1_keywords:
  - "ks/KSSTREAM_UVC_METADATA"
+ - "KSSTREAM_UVC_METADATA"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KSSTREAM_UVC_METADATA
-product:
-- Windows
 targetos: Windows
 req.typenames: KSSTREAM_UVC_METADATA, *PKSSTREAM_UVC_METADATA
 ---

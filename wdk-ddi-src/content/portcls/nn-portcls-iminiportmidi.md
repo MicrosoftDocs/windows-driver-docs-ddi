@@ -10,6 +10,7 @@ keywords: ["IMiniportMidi interface"]
 ms.keywords: IMiniportMidi, IMiniportMidi interface [Audio Devices], IMiniportMidi interface [Audio Devices],described, audio.iminiportmidi, audmp-routines_bba7ae00-6719-49dd-9770-9292a96f42ec.xml, portcls/IMiniportMidi
 f1_keywords:
  - "portcls/IMiniportMidi"
+ - "IMiniportMidi"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IMiniportMidi
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

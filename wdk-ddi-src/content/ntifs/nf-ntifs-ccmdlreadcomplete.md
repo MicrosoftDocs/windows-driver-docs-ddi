@@ -10,6 +10,7 @@ keywords: ["CcMdlReadComplete function"]
 ms.keywords: CcMdlReadComplete, CcMdlReadComplete routine [Installable File System Drivers], ccref_9739ef62-748c-43c6-ae79-ae54f2358368.xml, ifsk.ccmdlreadcomplete, ntifs/CcMdlReadComplete
 f1_keywords:
  - "ntifs/CcMdlReadComplete"
+ - "CcMdlReadComplete"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - CcMdlReadComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

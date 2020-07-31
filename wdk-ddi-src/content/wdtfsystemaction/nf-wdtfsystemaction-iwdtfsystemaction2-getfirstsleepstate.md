@@ -10,6 +10,7 @@ keywords: ["IWDTFSystemAction2::GetFirstSleepState"]
 ms.keywords: GetFirstSleepState, GetFirstSleepState method [Windows Device Testing Framework], GetFirstSleepState method [Windows Device Testing Framework],IWDTFSystemAction2 interface, IWDTFSystemAction2 interface [Windows Device Testing Framework],GetFirstSleepState method, IWDTFSystemAction2.GetFirstSleepState, IWDTFSystemAction2::GetFirstSleepState, Microsoft.WDTF.IWDTFSystemAction2.GetFirstSleepState, Microsoft::WDTF::IWDTFSystemAction2::GetFirstSleepState, dtf.iwdtfsystemaction2_getfirstsleepstate, wdtfsystemaction/IWDTFSystemAction2::GetFirstSleepState
 f1_keywords:
  - "wdtfsystemaction/IWDTFSystemAction2.GetFirstSleepState"
+ - "IWDTFSystemAction2.GetFirstSleepState"
 req.header: wdtfsystemaction.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WDTFSystemAction.Interop.dll
 api_name:
 - IWDTFSystemAction2.GetFirstSleepState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["RILPERSODEACTIVATIONSTATE structure"]
 ms.keywords: "*LPRILPERSODEACTIVATIONSTATE, RILPERSODEACTIVATIONSTATE, RILPERSODEACTIVATIONSTATE structure [Network Drivers Starting with Windows Vista], netvista.rilpersodeactivationstate, ntddrilapitypes/RILPERSODEACTIVATIONSTATE"
 f1_keywords:
  - "ntddrilapitypes/RILPERSODEACTIVATIONSTATE"
+ - "RILPERSODEACTIVATIONSTATE"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILPERSODEACTIVATIONSTATE
-product:
-- Windows
 targetos: Windows
 req.typenames: RILPERSODEACTIVATIONSTATE, *LPRILPERSODEACTIVATIONSTATE
 ---

@@ -10,6 +10,7 @@ keywords: ["KS_COMPRESSION structure"]
 ms.keywords: "*PKS_COMPRESSION, KS_COMPRESSION, KS_COMPRESSION structure [Streaming Media Devices], PKS_COMPRESSION, PKS_COMPRESSION structure pointer [Streaming Media Devices], ks-struct_e554d828-61e3-45cd-8ddf-fe1c0b96e02d.xml, ks/KS_COMPRESSION, ks/PKS_COMPRESSION, stream.ks_compression"
 f1_keywords:
  - "ks/KS_COMPRESSION"
+ - "KS_COMPRESSION"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KS_COMPRESSION
-product:
-- Windows
 targetos: Windows
 req.typenames: KS_COMPRESSION, *PKS_COMPRESSION
 ---

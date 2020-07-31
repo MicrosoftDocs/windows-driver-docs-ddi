@@ -10,6 +10,7 @@ keywords: ["PPARALLEL_FREE_ROUTINE callback"]
 ms.keywords: "(*PPARALLEL_FREE_ROUTINE), (*PPARALLEL_FREE_ROUTINE) callback function [Parallel Ports], cisspd_5f5bcbed-0df6-4b2a-ab88-a26f48976ad7.xml, parallel/(*PPARALLEL_FREE_ROUTINE), parports.pparallel_free_routine"
 f1_keywords:
  - "parallel/(*PPARALLEL_FREE_ROUTINE)"
+ - "(*PPARALLEL_FREE_ROUTINE)"
 req.header: parallel.h
 req.include-header: Parallel.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - parallel.h
 api_name:
 - (*PPARALLEL_FREE_ROUTINE)
-product:
-- Windows
 targetos: Windows
 req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ---

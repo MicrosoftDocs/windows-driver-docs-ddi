@@ -10,6 +10,7 @@ keywords: ["VideoPortZeroMemory function"]
 ms.keywords: VideoPortZeroMemory, VideoPortZeroMemory function [Display Devices], VideoPort_Functions_518c5fa4-2011-47bd-a24c-0dff144dfa3a.xml, display.videoportzeromemory, video/VideoPortZeroMemory
 f1_keywords:
  - "video/VideoPortZeroMemory"
+ - "VideoPortZeroMemory"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Videoprt.sys
 api_name:
 - VideoPortZeroMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -7,6 +7,7 @@ ms.date: 08/14/2018
 keywords: ["IModelKeyReference2::OverrideContextObject"]
 f1_keywords:
  - "dbgmodel/IModelKeyReference2.OverrideContextObject"
+ - "IModelKeyReference2.OverrideContextObject"
 ms.keywords: IModelKeyReference2::OverrideContextObject, OverrideContextObject, IModelKeyReference2.OverrideContextObject, IModelKeyReference2::OverrideContextObject, IModelKeyReference2.OverrideContextObject
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IModelKeyReference2.OverrideContextObject
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

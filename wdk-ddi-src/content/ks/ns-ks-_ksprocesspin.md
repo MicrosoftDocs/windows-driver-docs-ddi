@@ -10,6 +10,7 @@ keywords: ["_KSPROCESSPIN structure"]
 ms.keywords: "*PKSPROCESSPIN, KSPROCESSPIN, KSPROCESSPIN structure [Streaming Media Devices], PKSPROCESSPIN, PKSPROCESSPIN structure pointer [Streaming Media Devices], _KSPROCESSPIN, avstruct_a374bc58-a61f-4d3b-9b20-de14b7cc423f.xml, ks/KSPROCESSPIN, ks/PKSPROCESSPIN, stream.ksprocesspin"
 f1_keywords:
  - "ks/KSPROCESSPIN"
+ - "KSPROCESSPIN"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KSPROCESSPIN
-product:
-- Windows
 targetos: Windows
 req.typenames: KSPROCESSPIN, *PKSPROCESSPIN
 ---

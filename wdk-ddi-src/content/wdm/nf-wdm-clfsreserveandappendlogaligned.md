@@ -10,6 +10,7 @@ keywords: ["ClfsReserveAndAppendLogAligned function"]
 ms.keywords: ClfsReserveAndAppendLogAligned, ClfsReserveAndAppendLogAligned routine [Kernel-Mode Driver Architecture], Clfs_aef34ba7-9276-41a4-8136-b20ae8e8531d.xml, kernel.clfsreserveandappendlogaligned, wdm/ClfsReserveAndAppendLogAligned
 f1_keywords:
  - "wdm/ClfsReserveAndAppendLogAligned"
+ - "ClfsReserveAndAppendLogAligned"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
 - ClfsReserveAndAppendLogAligned
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

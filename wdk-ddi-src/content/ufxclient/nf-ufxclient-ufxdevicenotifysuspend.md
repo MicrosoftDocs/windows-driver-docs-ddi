@@ -10,6 +10,7 @@ keywords: ["UfxDeviceNotifySuspend function"]
 ms.keywords: UfxDeviceNotifySuspend, UfxDeviceNotifySuspend method [Buses], buses.ufxdevicenotifysuspend, ufxclient/UfxDeviceNotifySuspend
 f1_keywords:
  - "ufxclient/UfxDeviceNotifySuspend"
+ - "UfxDeviceNotifySuspend"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ufxclient.h
 api_name:
 - UfxDeviceNotifySuspend
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

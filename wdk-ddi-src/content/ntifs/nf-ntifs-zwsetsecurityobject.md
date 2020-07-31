@@ -10,6 +10,7 @@ keywords: ["ZwSetSecurityObject function"]
 ms.keywords: NtSetSecurityObject, ZwSetSecurityObject, ZwSetSecurityObject routine [Kernel-Mode Driver Architecture], k111_38d4fa7c-4fc6-467c-9be2-ca997d739f44.xml, kernel.zwsetsecurityobject, ntifs/NtSetSecurityObject, ntifs/ZwSetSecurityObject
 f1_keywords:
  - "ntifs/ZwSetSecurityObject"
+ - "ZwSetSecurityObject"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - ZwSetSecurityObject
 - NtSetSecurityObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

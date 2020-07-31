@@ -9,6 +9,7 @@ keywords: ["PFND3D10DDI_STATE_TEXTFILTERSIZE_CB callback function"]
 ms.keywords: PFND3D10DDI_STATE_TEXTFILTERSIZE_CB, PFND3D10DDI_STATE_TEXTFILTERSIZE_CB callback, d3d10state_functions_96a0da1a-c30d-4872-a54d-b24e83d76c95.xml, d3d10umddi/pfnStateTextFilterSizeCb, display.pfnstatetextfiltersizecb, pfnStateTextFilterSizeCb, pfnStateTextFilterSizeCb callback function [Display Devices]
 f1_keywords:
  - "d3d10umddi/pfnStateTextFilterSizeCb"
+ - "pfnStateTextFilterSizeCb"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - pfnStateTextFilterSizeCb
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

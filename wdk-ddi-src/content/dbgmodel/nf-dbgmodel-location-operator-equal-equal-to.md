@@ -7,6 +7,7 @@ ms.date: 09/28/2018
 keywords: ["operator== function"]
 f1_keywords:
  - "dbgmodel/operator=="
+ - "operator=="
 ms.keywords: operator==
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - operator==
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ---

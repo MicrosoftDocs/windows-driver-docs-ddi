@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3D12DDI_RAYTRACING_AABB structure"]
 f1_keywords:
  - "d3d12umddi/D3D12DDI_RAYTRACING_AABB"
+ - "D3D12DDI_RAYTRACING_AABB"
 ms.keywords: D3D12DDI_RAYTRACING_AABB, D3D12DDI_RAYTRACING_AABB, 
 req.header: d3d12umddi.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - d3d12umddi.h
 api_name: 
 - D3D12DDI_RAYTRACING_AABB
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

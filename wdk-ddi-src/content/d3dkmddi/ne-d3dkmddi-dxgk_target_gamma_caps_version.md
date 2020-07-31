@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DXGK_TARGET_GAMMA_CAPS_VERSION enumeration"]
 f1_keywords:
  - "d3dkmddi/DXGK_TARGET_GAMMA_CAPS_VERSION"
+ - "DXGK_TARGET_GAMMA_CAPS_VERSION"
 ms.keywords: DXGK_TARGET_GAMMA_CAPS_VERSION, DXGK_TARGET_GAMMA_CAPS_VERSION, 
 req.header: d3dkmddi.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
  - d3dkmddi.h
 api_name: 
  - DXGK_TARGET_GAMMA_CAPS_VERSION
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

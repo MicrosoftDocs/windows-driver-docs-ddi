@@ -10,6 +10,7 @@ keywords: ["KsProbeStreamIrp function"]
 ms.keywords: KsProbeStreamIrp, KsProbeStreamIrp function [Streaming Media Devices], ks/KsProbeStreamIrp, ksfunc_0ed25e85-a785-4021-a7b7-59fa6230eff8.xml, stream.ksprobestreamirp
 f1_keywords:
  - "ks/KsProbeStreamIrp"
+ - "KsProbeStreamIrp"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsProbeStreamIrp
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

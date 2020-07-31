@@ -10,6 +10,7 @@ keywords: ["PsUnregisterSiloMonitor function"]
 ms.keywords: PsUnregisterSiloMonitor, PsUnregisterSiloMonitor routine [Kernel-Mode Driver Architecture], kernel.psunregistersilomonitor, ntddk/PsUnregisterSiloMonitor
 f1_keywords:
  - "ntddk/PsUnregisterSiloMonitor"
+ - "PsUnregisterSiloMonitor"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - PsUnregisterSiloMonitor
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

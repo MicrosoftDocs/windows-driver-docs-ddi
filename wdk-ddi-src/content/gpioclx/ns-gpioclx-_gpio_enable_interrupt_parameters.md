@@ -10,6 +10,7 @@ keywords: ["_GPIO_ENABLE_INTERRUPT_PARAMETERS structure"]
 ms.keywords: "*PGPIO_ENABLE_INTERRUPT_PARAMETERS, GPIO.gpio_enable_interrupt_parameters, GPIO_ENABLE_INTERRUPT_PARAMETERS, GPIO_ENABLE_INTERRUPT_PARAMETERS structure [Parallel Ports], PGPIO_ENABLE_INTERRUPT_PARAMETERS, PGPIO_ENABLE_INTERRUPT_PARAMETERS structure pointer [Parallel Ports], _GPIO_ENABLE_INTERRUPT_PARAMETERS, gpioclx/GPIO_ENABLE_INTERRUPT_PARAMETERS, gpioclx/PGPIO_ENABLE_INTERRUPT_PARAMETERS"
 f1_keywords:
  - "gpioclx/GPIO_ENABLE_INTERRUPT_PARAMETERS"
+ - "GPIO_ENABLE_INTERRUPT_PARAMETERS"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Gpioclx.h
 api_name:
 - GPIO_ENABLE_INTERRUPT_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: GPIO_ENABLE_INTERRUPT_PARAMETERS, *PGPIO_ENABLE_INTERRUPT_PARAMETERS
 ---

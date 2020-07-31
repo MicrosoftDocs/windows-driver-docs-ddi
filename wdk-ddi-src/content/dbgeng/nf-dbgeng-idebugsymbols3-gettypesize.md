@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::GetTypeSize"]
 ms.keywords: GetTypeSize, GetTypeSize method [Windows Debugging], GetTypeSize method [Windows Debugging],IDebugSymbols interface, GetTypeSize method [Windows Debugging],IDebugSymbols2 interface, GetTypeSize method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetTypeSize method, IDebugSymbols2 interface [Windows Debugging],GetTypeSize method, IDebugSymbols2::GetTypeSize, IDebugSymbols3 interface [Windows Debugging],GetTypeSize method, IDebugSymbols3.GetTypeSize, IDebugSymbols3::GetTypeSize, IDebugSymbols::GetTypeSize, IDebugSymbols_d1c65bea-0479-4ca8-bdfa-6c7a7376792a.xml, dbgeng/IDebugSymbols2::GetTypeSize, dbgeng/IDebugSymbols3::GetTypeSize, dbgeng/IDebugSymbols::GetTypeSize, debugger.gettypesize2
 f1_keywords:
  - "dbgeng/IDebugSymbols.GetTypeSize"
+ - "IDebugSymbols.GetTypeSize"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -38,8 +39,6 @@ api_name:
 - IDebugSymbols.GetTypeSize
 - IDebugSymbols2.GetTypeSize
 - IDebugSymbols3.GetTypeSize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

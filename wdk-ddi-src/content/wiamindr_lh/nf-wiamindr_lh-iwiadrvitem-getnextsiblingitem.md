@@ -10,6 +10,7 @@ keywords: ["IWiaDrvItem::GetNextSiblingItem"]
 ms.keywords: DrvItem_659ed27a-dca2-40de-acb7-f057178e9ab7.xml, GetNextSiblingItem, GetNextSiblingItem method [Imaging Devices], GetNextSiblingItem method [Imaging Devices],IWiaDrvItem interface, IWiaDrvItem interface [Imaging Devices],GetNextSiblingItem method, IWiaDrvItem.GetNextSiblingItem, IWiaDrvItem::GetNextSiblingItem, image.iwiadrvitem_getnextsiblingitem, wiamindr_lh/IWiaDrvItem::GetNextSiblingItem
 f1_keywords:
  - "wiamindr_lh/IWiaDrvItem.GetNextSiblingItem"
+ - "IWiaDrvItem.GetNextSiblingItem"
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wiamindr_lh.h
 api_name:
 - IWiaDrvItem.GetNextSiblingItem
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

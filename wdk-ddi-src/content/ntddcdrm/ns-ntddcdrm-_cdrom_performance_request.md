@@ -10,6 +10,7 @@ keywords: ["_CDROM_PERFORMANCE_REQUEST structure"]
 ms.keywords: "*PCDROM_PERFORMANCE_REQUEST, CDROM_PERFORMANCE_REQUEST, CDROM_PERFORMANCE_REQUEST structure [Storage Devices], PCDROM_PERFORMANCE_REQUEST, PCDROM_PERFORMANCE_REQUEST structure pointer [Storage Devices], _CDROM_PERFORMANCE_REQUEST, ntddcdrm/CDROM_PERFORMANCE_REQUEST, ntddcdrm/PCDROM_PERFORMANCE_REQUEST, storage.cdrom_performance_request"
 f1_keywords:
  - "ntddcdrm/CDROM_PERFORMANCE_REQUEST"
+ - "CDROM_PERFORMANCE_REQUEST"
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddcdrm.h
 api_name:
 - CDROM_PERFORMANCE_REQUEST
-product:
-- Windows
 targetos: Windows
 req.typenames: CDROM_PERFORMANCE_REQUEST, *PCDROM_PERFORMANCE_REQUEST
 ---

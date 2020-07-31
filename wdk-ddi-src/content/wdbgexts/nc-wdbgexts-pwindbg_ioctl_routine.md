@@ -10,6 +10,7 @@ keywords: ["PWINDBG_IOCTL_ROUTINE callback function"]
 ms.keywords: Ioctl, Ioctl callback function [Windows Debugging], PWINDBG_IOCTL_ROUTINE, PWINDBG_IOCTL_ROUTINE callback, WdbgExts_Ref_fa1f5367-924d-478c-a3cb-ca08bf8dde2f.xml, debugger.ioctl, wdbgexts/Ioctl
 f1_keywords:
  - "wdbgexts/Ioctl"
+ - "Ioctl"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wdbgexts.h
 api_name:
 - Ioctl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

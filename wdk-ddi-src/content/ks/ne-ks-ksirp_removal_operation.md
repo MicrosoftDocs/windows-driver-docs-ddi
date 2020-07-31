@@ -10,6 +10,7 @@ keywords: ["KSIRP_REMOVAL_OPERATION enumeration"]
 ms.keywords: KSIRP_REMOVAL_OPERATION, KSIRP_REMOVAL_OPERATION enumeration [Streaming Media Devices], KsAcquireAndRemove, KsAcquireAndRemoveOnlySingleItem, KsAcquireOnly, KsAcquireOnlySingleItem, ks/KSIRP_REMOVAL_OPERATION, ks/KsAcquireAndRemove, ks/KsAcquireAndRemoveOnlySingleItem, ks/KsAcquireOnly, ks/KsAcquireOnlySingleItem, stream.ksirp_removal_operation
 f1_keywords:
  - "ks/KSIRP_REMOVAL_OPERATION"
+ - "KSIRP_REMOVAL_OPERATION"
 req.header: ks.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ks.h
 api_name:
 - KSIRP_REMOVAL_OPERATION
-product:
-- Windows
 targetos: Windows
 req.typenames: KSIRP_REMOVAL_OPERATION
 ---

@@ -10,6 +10,7 @@ keywords: ["KeSetSystemGroupAffinityThread function"]
 ms.keywords: KeSetSystemGroupAffinityThread, KeSetSystemGroupAffinityThread routine [Kernel-Mode Driver Architecture], k105_3930c7d1-9295-4f62-867e-5e68729c45f3.xml, kernel.kesetsystemgroupaffinitythread, wdm/KeSetSystemGroupAffinityThread
 f1_keywords:
  - "wdm/KeSetSystemGroupAffinityThread"
+ - "KeSetSystemGroupAffinityThread"
 req.header: wdm.h
 req.include-header: Wdm.h, Wdm.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeSetSystemGroupAffinityThread
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

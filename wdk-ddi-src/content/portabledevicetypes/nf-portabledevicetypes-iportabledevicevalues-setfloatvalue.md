@@ -10,6 +10,7 @@ keywords: ["IPortableDeviceValues::SetFloatValue"]
 ms.keywords: IPortableDeviceValues interface,SetFloatValue method, IPortableDeviceValues.SetFloatValue, IPortableDeviceValues::SetFloatValue, IPortableDeviceValuesSetFloatValue, SetFloatValue, SetFloatValue method, SetFloatValue method,IPortableDeviceValues interface, portabledevicetypes/IPortableDeviceValues::SetFloatValue, wpddk.iportabledevicevalues_setfloatvalue
 f1_keywords:
  - "portabledevicetypes/IPortableDeviceValues.SetFloatValue"
+ - "IPortableDeviceValues.SetFloatValue"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - PortableDeviceTypes.h
 api_name:
 - IPortableDeviceValues.SetFloatValue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

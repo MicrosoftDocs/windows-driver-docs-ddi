@@ -7,6 +7,7 @@ ms.date: 09/10/2018
 keywords: ["IDataModelScriptHostContext::NotifyScriptChange"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptHostContext.NotifyScriptChange"
+ - "IDataModelScriptHostContext.NotifyScriptChange"
 ms.keywords: IDataModelScriptHostContext::NotifyScriptChange, NotifyScriptChange, IDataModelScriptHostContext.NotifyScriptChange, IDataModelScriptHostContext::NotifyScriptChange, IDataModelScriptHostContext.NotifyScriptChange
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDataModelScriptHostContext.NotifyScriptChange
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

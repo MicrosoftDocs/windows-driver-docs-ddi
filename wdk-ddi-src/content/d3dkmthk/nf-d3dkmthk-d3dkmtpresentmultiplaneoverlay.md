@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMTPresentMultiPlaneOverlay function"]
 f1_keywords:
  - "d3dkmthk/D3DKMTPresentMultiPlaneOverlay"
+ - "D3DKMTPresentMultiPlaneOverlay"
 ms.keywords: D3DKMTPresentMultiPlaneOverlay
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
@@ -33,8 +34,6 @@ api_location:
 - Gdi32.dll
 api_name: 
 - D3DKMTPresentMultiPlaneOverlay
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

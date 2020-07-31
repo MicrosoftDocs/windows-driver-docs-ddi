@@ -10,6 +10,7 @@ keywords: ["PosCxCleanPendingRequests function"]
 ms.keywords: PosCxCleanPendingRequests, PosCxCleanPendingRequests function, pos.poscxcleanpendingrequests, poscx/PosCxCleanPendingRequests
 f1_keywords:
  - "poscx/PosCxCleanPendingRequests"
+ - "PosCxCleanPendingRequests"
 req.header: poscx.h
 req.include-header: Poscx.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - poscx.h
 api_name:
 - PosCxCleanPendingRequests
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 req.product: Windows 10 or later.

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_QUERYVIDPNEXCLUSIVEOWNERSHIP structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_QUERYVIDPNEXCLUSIVEOWNERSHIP"
+ - "_D3DKMT_QUERYVIDPNEXCLUSIVEOWNERSHIP"
 ms.keywords: _D3DKMT_QUERYVIDPNEXCLUSIVEOWNERSHIP, D3DKMT_QUERYVIDPNEXCLUSIVEOWNERSHIP, 
 req.header: d3dkmthk.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - d3dkmthk.h
 api_name: 
 - _D3DKMT_QUERYVIDPNEXCLUSIVEOWNERSHIP
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

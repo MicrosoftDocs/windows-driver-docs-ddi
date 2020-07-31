@@ -8,6 +8,7 @@ ms.date: 11/28/2018
 keywords: ["PFND3D12DDI_BEGIN_END_QUERY callback function"]
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_BEGIN_END_QUERY"
+ - "PFND3D12DDI_BEGIN_END_QUERY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 req.header: d3d12umddi.h

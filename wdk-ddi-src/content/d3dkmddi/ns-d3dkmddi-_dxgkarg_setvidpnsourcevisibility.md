@@ -9,6 +9,7 @@ keywords: ["_DXGKARG_SETVIDPNSOURCEVISIBILITY structure"]
 ms.keywords: DXGKARG_SETVIDPNSOURCEVISIBILITY, DXGKARG_SETVIDPNSOURCEVISIBILITY structure [Display Devices], DmStructs_877a0a99-de1a-4f16-81af-e9dae624281a.xml, _DXGKARG_SETVIDPNSOURCEVISIBILITY, d3dkmddi/DXGKARG_SETVIDPNSOURCEVISIBILITY, display.dxgkarg_setvidpnsourcevisibility
 f1_keywords:
  - "d3dkmddi/DXGKARG_SETVIDPNSOURCEVISIBILITY"
+ - "DXGKARG_SETVIDPNSOURCEVISIBILITY"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGKARG_SETVIDPNSOURCEVISIBILITY
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGKARG_SETVIDPNSOURCEVISIBILITY

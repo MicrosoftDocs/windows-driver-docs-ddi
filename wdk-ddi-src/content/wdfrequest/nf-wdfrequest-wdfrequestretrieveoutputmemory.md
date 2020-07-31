@@ -10,6 +10,7 @@ keywords: ["WdfRequestRetrieveOutputMemory function"]
 ms.keywords: DFRequestObjectRef_fdcaef98-5478-42af-a61e-669eec37907e.xml, WdfRequestRetrieveOutputMemory, WdfRequestRetrieveOutputMemory method, kmdf.wdfrequestretrieveoutputmemory, wdf.wdfrequestretrieveoutputmemory, wdfrequest/WdfRequestRetrieveOutputMemory
 f1_keywords:
  - "wdfrequest/WdfRequestRetrieveOutputMemory"
+ - "WdfRequestRetrieveOutputMemory"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfRequestRetrieveOutputMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

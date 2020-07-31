@@ -10,6 +10,7 @@ keywords: ["_WIA_MICR structure"]
 ms.keywords: WIA_MICR, WIA_MICR structure [Imaging Devices], _WIA_MICR, image.wia_micr, wiadef/WIA_MICR
 f1_keywords:
  - "wiadef/WIA_MICR"
+ - "WIA_MICR"
 req.header: wiadef.h
 req.include-header: Wiadef.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wiadef.h
 api_name:
 - WIA_MICR
-product:
-- Windows
 targetos: Windows
 req.typenames: WIA_MICR
 ---

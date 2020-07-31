@@ -10,6 +10,7 @@ keywords: ["RILUICCAPPPERSOCHECKSTATUS structure"]
 ms.keywords: "*LPRILUICCAPPPERSOCHECKSTATUS, RILUICCAPPPERSOCHECKSTATUS, RILUICCAPPPERSOCHECKSTATUS structure [Network Drivers Starting with Windows Vista], netvista.riluiccapppersocheckstatus, ntddrilapitypes/RILUICCAPPPERSOCHECKSTATUS"
 f1_keywords:
  - "ntddrilapitypes/RILUICCAPPPERSOCHECKSTATUS"
+ - "RILUICCAPPPERSOCHECKSTATUS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILUICCAPPPERSOCHECKSTATUS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILUICCAPPPERSOCHECKSTATUS, *LPRILUICCAPPPERSOCHECKSTATUS
 ---

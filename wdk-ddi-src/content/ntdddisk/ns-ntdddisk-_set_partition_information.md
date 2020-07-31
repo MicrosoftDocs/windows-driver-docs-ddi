@@ -10,6 +10,7 @@ keywords: ["_SET_PARTITION_INFORMATION structure"]
 ms.keywords: "*PSET_PARTITION_INFORMATION, PSET_PARTITION_INFORMATION, PSET_PARTITION_INFORMATION structure pointer [Storage Devices], SET_PARTITION_INFORMATION, SET_PARTITION_INFORMATION structure [Storage Devices], SET_PARTITION_INFORMATION_MBR, _SET_PARTITION_INFORMATION, ntdddisk/PSET_PARTITION_INFORMATION, ntdddisk/SET_PARTITION_INFORMATION, storage.set_partition_information, structs-disk_b8b3121b-0001-4c1d-ac4d-1eeb1ce79dd3.xml"
 f1_keywords:
  - "ntdddisk/SET_PARTITION_INFORMATION"
+ - "SET_PARTITION_INFORMATION"
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntdddisk.h
 api_name:
 - SET_PARTITION_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: SET_PARTITION_INFORMATION, *PSET_PARTITION_INFORMATION
 ---

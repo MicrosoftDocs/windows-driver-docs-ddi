@@ -10,6 +10,7 @@ keywords: ["KSDATAFORMAT_WAVEFORMATEX structure"]
 ms.keywords: "*PKSDATAFORMAT_WAVEFORMATEX, KSDATAFORMAT_WAVEFORMATEX, KSDATAFORMAT_WAVEFORMATEX structure [Audio Devices], PKSDATAFORMAT_WAVEFORMATEX, PKSDATAFORMAT_WAVEFORMATEX structure pointer [Audio Devices], aud-prop_a51a849b-8e4b-4516-adab-7d8ef992f75b.xml, audio.ksdataformat_waveformatex, ksmedia/KSDATAFORMAT_WAVEFORMATEX, ksmedia/PKSDATAFORMAT_WAVEFORMATEX"
 f1_keywords:
  - "ksmedia/KSDATAFORMAT_WAVEFORMATEX"
+ - "KSDATAFORMAT_WAVEFORMATEX"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KSDATAFORMAT_WAVEFORMATEX
-product:
-- Windows
 targetos: Windows
 req.typenames: KSDATAFORMAT_WAVEFORMATEX, *PKSDATAFORMAT_WAVEFORMATEX
 ---

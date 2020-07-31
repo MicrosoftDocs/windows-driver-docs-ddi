@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_CURRENT_DEVICE_INTERNAL_STATUS_LOG structure"]
 f1_keywords:
  - "ata/_CURRENT_DEVICE_INTERNAL_STATUS_LOG"
+ - "_CURRENT_DEVICE_INTERNAL_STATUS_LOG"
 ms.keywords: _CURRENT_DEVICE_INTERNAL_STATUS_LOG, CURRENT_DEVICE_INTERNAL_STATUS_LOG, *PCURRENT_DEVICE_INTERNAL_STATUS_LOG, 
 req.header: ata.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - ata.h
 api_name: 
 - _CURRENT_DEVICE_INTERNAL_STATUS_LOG
-product:
-- Windows
 targetos: Windows
 ---
 

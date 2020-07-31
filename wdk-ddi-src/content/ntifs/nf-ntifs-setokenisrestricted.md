@@ -10,6 +10,7 @@ keywords: ["SeTokenIsRestricted function"]
 ms.keywords: SeTokenIsRestricted, SeTokenIsRestricted routine [Installable File System Drivers], ifsk.setokenisrestricted, ntifs/SeTokenIsRestricted, seref_f16e3f4e-1fcb-4232-8fe2-e46ef238b7e4.xml
 f1_keywords:
  - "ntifs/SeTokenIsRestricted"
+ - "SeTokenIsRestricted"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - SeTokenIsRestricted
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["WdfDpcGetParentObject function"]
 ms.keywords: DFDpcObjectRef_28be5a7f-4f65-4b9e-b9f4-80b754cc8ca3.xml, WdfDpcGetParentObject, WdfDpcGetParentObject method, kmdf.wdfdpcgetparentobject, wdf.wdfdpcgetparentobject, wdfdpc/WdfDpcGetParentObject
 f1_keywords:
  - "wdfdpc/WdfDpcGetParentObject"
+ - "WdfDpcGetParentObject"
 req.header: wdfdpc.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfDpcGetParentObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

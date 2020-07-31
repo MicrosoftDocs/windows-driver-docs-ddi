@@ -10,6 +10,7 @@ keywords: ["KsCreateDefaultAllocator function"]
 ms.keywords: KsCreateDefaultAllocator, KsCreateDefaultAllocator function [Streaming Media Devices], ks/KsCreateDefaultAllocator, ksfunc_f78af7c3-ec4b-40ef-8680-102822a305ff.xml, stream.kscreatedefaultallocator
 f1_keywords:
  - "ks/KsCreateDefaultAllocator"
+ - "KsCreateDefaultAllocator"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsCreateDefaultAllocator
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

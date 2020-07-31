@@ -10,6 +10,7 @@ keywords: ["wiasReadPropStr function"]
 ms.keywords: image.wiasreadpropstr, wiamdef/wiasReadPropStr, wiasFncs_b0756dcf-44dd-4a9f-ad9a-1edff1b8e6f6.xml, wiasReadPropStr, wiasReadPropStr function [Imaging Devices]
 f1_keywords:
  - "wiamdef/wiasReadPropStr"
+ - "wiasReadPropStr"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wiaservc.dll
 api_name:
 - wiasReadPropStr
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ ms.date: 03/19/2019
 keywords: ["STORAGE_PROPERTY_ID enumeration"]
 f1_keywords:
  - "ntddstor/STORAGE_PROPERTY_ID"
+ - "STORAGE_PROPERTY_ID"
 ms.keywords: STORAGE_PROPERTY_ID, STORAGE_PROPERTY_ID, *PSTORAGE_PROPERTY_ID, 
 req.header: ntddstor.h
 req.include-header:

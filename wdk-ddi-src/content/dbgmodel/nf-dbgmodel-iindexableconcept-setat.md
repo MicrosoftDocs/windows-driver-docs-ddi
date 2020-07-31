@@ -7,6 +7,7 @@ ms.date: 09/19/2018
 keywords: ["IIndexableConcept::SetAt"]
 f1_keywords:
  - "dbgmodel/IIndexableConcept.SetAt"
+ - "IIndexableConcept.SetAt"
 ms.keywords: IIndexableConcept::SetAt, SetAt, IIndexableConcept.SetAt, IIndexableConcept::SetAt, IIndexableConcept.SetAt
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IIndexableConcept.SetAt
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

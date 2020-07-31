@@ -10,6 +10,7 @@ keywords: ["TAPE_VERIFY_INQUIRY_ROUTINE callback function"]
 ms.keywords: "(*TAPE_VERIFY_INQUIRY_ROUTINE), (*TAPE_VERIFY_INQUIRY_ROUTINE) routine [Storage Devices], TAPE_VERIFY_INQUIRY_ROUTINE, minitape/(*TAPE_VERIFY_INQUIRY_ROUTINE), storage.tapeminiverifyinquiry, tapemini_d8a92eee-8b82-4fac-b568-fbe40c906ec1.xml"
 f1_keywords:
  - "minitape/(*TAPE_VERIFY_INQUIRY_ROUTINE)"
+ - "(*TAPE_VERIFY_INQUIRY_ROUTINE)"
 req.header: minitape.h
 req.include-header: Minitape.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - minitape.h
 api_name:
 - (*TAPE_VERIFY_INQUIRY_ROUTINE)
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

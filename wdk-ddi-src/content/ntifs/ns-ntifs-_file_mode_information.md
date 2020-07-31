@@ -10,6 +10,7 @@ keywords: ["_FILE_MODE_INFORMATION structure"]
 ms.keywords: "*PFILE_MODE_INFORMATION, FILE_MODE_INFORMATION, FILE_MODE_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_MODE_INFORMATION, PFILE_MODE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _FILE_MODE_INFORMATION, kernel.file_mode_information, kstruct_b_ab9ae7a9-242c-4f0e-a44f-8c5883b0c3ce.xml, ntifs/FILE_MODE_INFORMATION, ntifs/PFILE_MODE_INFORMATION"
 f1_keywords:
  - "ntifs/FILE_MODE_INFORMATION"
+ - "FILE_MODE_INFORMATION"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntifs.h
 api_name:
 - FILE_MODE_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: FILE_MODE_INFORMATION, *PFILE_MODE_INFORMATION
 ---

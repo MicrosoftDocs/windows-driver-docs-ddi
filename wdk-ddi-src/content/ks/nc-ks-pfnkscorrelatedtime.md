@@ -10,6 +10,7 @@ keywords: ["PFNKSCORRELATEDTIME callback function"]
 ms.keywords: KStrCorrelatedTime, KStrCorrelatedTime routine [Streaming Media Devices], PFNKSCORRELATEDTIME, ks/KStrCorrelatedTime, ksfunc_06af0f33-8ffd-4f9e-83ad-9f37f3b18f5d.xml, stream.kstrcorrelatedtime
 f1_keywords:
  - "ks/KStrCorrelatedTime"
+ - "KStrCorrelatedTime"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KStrCorrelatedTime
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

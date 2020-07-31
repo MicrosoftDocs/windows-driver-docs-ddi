@@ -10,6 +10,7 @@ keywords: ["_BDANODE_DESCRIPTOR structure"]
 ms.keywords: "*PBDANODE_DESCRIPTOR, BDANODE_DESCRIPTOR, BDANODE_DESCRIPTOR structure [Streaming Media Devices], PBDANODE_DESCRIPTOR, PBDANODE_DESCRIPTOR structure pointer [Streaming Media Devices], _BDANODE_DESCRIPTOR, bdaref_0610ecfc-d15b-4031-9d88-b041ef21e2fb.xml, bdatypes/BDANODE_DESCRIPTOR, bdatypes/PBDANODE_DESCRIPTOR, stream.bdanode_descriptor"
 f1_keywords:
  - "bdatypes/BDANODE_DESCRIPTOR"
+ - "BDANODE_DESCRIPTOR"
 req.header: bdatypes.h
 req.include-header: Bdatypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - bdatypes.h
 api_name:
 - BDANODE_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: BDANODE_DESCRIPTOR, *PBDANODE_DESCRIPTOR
 ---

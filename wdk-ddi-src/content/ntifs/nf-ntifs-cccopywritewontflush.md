@@ -10,6 +10,7 @@ keywords: ["CcCopyWriteWontFlush function"]
 ms.keywords: CcCopyWriteWontFlush, CcCopyWriteWontFlush function [Installable File System Drivers], ccref_a8540235-ac2e-4d04-8153-95e2dae5a650.xml, ifsk.cccopywritewontflush, ntifs/CcCopyWriteWontFlush
 f1_keywords:
  - "ntifs/CcCopyWriteWontFlush"
+ - "CcCopyWriteWontFlush"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - CcCopyWriteWontFlush
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

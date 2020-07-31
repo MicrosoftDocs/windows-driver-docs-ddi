@@ -10,6 +10,7 @@ keywords: ["IWDFDevice::CreateWdfFile"]
 ms.keywords: CreateWdfFile, CreateWdfFile method, CreateWdfFile method,IWDFDevice interface, IWDFDevice interface,CreateWdfFile method, IWDFDevice.CreateWdfFile, IWDFDevice::CreateWdfFile, UMDFDeviceObjectRef_d5f035e1-d7ea-474e-9dc4-bc6b64baea2c.xml, umdf.iwdfdevice_createwdffile, wdf.iwdfdevice_createwdffile, wudfddi/IWDFDevice::CreateWdfFile
 f1_keywords:
  - "wudfddi/IWDFDevice.CreateWdfFile"
+ - "IWDFDevice.CreateWdfFile"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFDevice.CreateWdfFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

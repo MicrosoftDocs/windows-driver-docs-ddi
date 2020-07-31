@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_DESTROYOVERLAY structure"]
 ms.keywords: D3DDDIARG_DESTROYOVERLAY, D3DDDIARG_DESTROYOVERLAY structure [Display Devices], UMDisplayDriver_param_Structs_e7a2d82a-2e1c-4362-ae4d-23617911de3b.xml, _D3DDDIARG_DESTROYOVERLAY, d3dumddi/D3DDDIARG_DESTROYOVERLAY, display.d3dddiarg_destroyoverlay
 f1_keywords:
  - "d3dumddi/D3DDDIARG_DESTROYOVERLAY"
+ - "D3DDDIARG_DESTROYOVERLAY"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDIARG_DESTROYOVERLAY
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_DESTROYOVERLAY
 ---

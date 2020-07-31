@@ -10,6 +10,7 @@ keywords: ["SeLockSubjectContext function"]
 ms.keywords: SeLockSubjectContext, SeLockSubjectContext routine [Installable File System Drivers], ifsk.selocksubjectcontext, ntifs/SeLockSubjectContext, seref_ea4696ab-8343-4d15-866c-15720d009db8.xml
 f1_keywords:
  - "wdm/SeLockSubjectContext"
+ - "SeLockSubjectContext"
 req.header: wdm.h
 req.include-header: Ntifs.h, Wdm.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - SeLockSubjectContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

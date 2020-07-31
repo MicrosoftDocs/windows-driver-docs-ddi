@@ -10,6 +10,7 @@ keywords: ["KeQuerySystemTimePrecise function"]
 ms.keywords: KeQuerySystemTimePrecise, KeQuerySystemTimePrecise routine [Kernel-Mode Driver Architecture], kernel.kequerysystemtimeprecise, wdm/KeQuerySystemTimePrecise
 f1_keywords:
  - "wdm/KeQuerySystemTimePrecise"
+ - "KeQuerySystemTimePrecise"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeQuerySystemTimePrecise
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

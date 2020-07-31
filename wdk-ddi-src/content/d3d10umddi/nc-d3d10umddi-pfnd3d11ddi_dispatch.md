@@ -9,6 +9,7 @@ keywords: ["PFND3D11DDI_DISPATCH callback function"]
 ms.keywords: Dispatch, Dispatch callback function [Display Devices], PFND3D11DDI_DISPATCH, PFND3D11DDI_DISPATCH callback, UserModeDisplayDriverDx11_Functions_1b4b62fc-3cc5-4506-9a61-30ee65f8ffcd.xml, d3d10umddi/Dispatch, display.dispatch
 f1_keywords:
  - "d3d10umddi/Dispatch"
+ - "Dispatch"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - Dispatch
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

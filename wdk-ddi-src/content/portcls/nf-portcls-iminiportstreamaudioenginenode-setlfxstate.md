@@ -10,6 +10,7 @@ keywords: ["IMiniportStreamAudioEngineNode::SetLfxState"]
 ms.keywords: IMiniportStreamAudioEngineNode interface [Audio Devices],SetLfxState method, IMiniportStreamAudioEngineNode.SetLfxState, IMiniportStreamAudioEngineNode::SetLfxState, SetLfxState, SetLfxState method [Audio Devices], SetLfxState method [Audio Devices],IMiniportStreamAudioEngineNode interface, audio.iminiportstreamaudioenginenode_setlfxstate, portcls/IMiniportStreamAudioEngineNode::SetLfxState
 f1_keywords:
  - "portcls/IMiniportStreamAudioEngineNode.SetLfxState"
+ - "IMiniportStreamAudioEngineNode.SetLfxState"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Portcls.h
 api_name:
 - IMiniportStreamAudioEngineNode.SetLfxState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

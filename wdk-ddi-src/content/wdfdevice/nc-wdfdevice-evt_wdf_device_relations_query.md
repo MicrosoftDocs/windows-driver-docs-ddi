@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_DEVICE_RELATIONS_QUERY callback function"]
 ms.keywords: DFDeviceObjectGeneralRef_b34ffaf4-1e73-4463-87fd-31350656a7a5.xml, EVT_WDF_DEVICE_RELATIONS_QUERY, EVT_WDF_DEVICE_RELATIONS_QUERY callback, EvtDeviceRelationsQuery, EvtDeviceRelationsQuery callback function, kmdf.evtdevicerelationsquery, wdf.evtdevicerelationsquery, wdfdevice/EvtDeviceRelationsQuery
 f1_keywords:
  - "wdfdevice/EvtDeviceRelationsQuery"
+ - "EvtDeviceRelationsQuery"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Wdfdevice.h
 api_name:
 - EvtDeviceRelationsQuery
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

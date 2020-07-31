@@ -10,6 +10,7 @@ keywords: ["NetDmaDeregisterProvider function"]
 ms.keywords: NetDmaDeregisterProvider, NetDmaDeregisterProvider function [Network Drivers Starting with Windows Vista], netdma/NetDmaDeregisterProvider, netdma_ref_0fac8a7e-7721-4854-8d0e-6926243ff2ea.xml, netvista.netdmaderegisterprovider
 f1_keywords:
  - "netdma/NetDmaDeregisterProvider"
+ - "NetDmaDeregisterProvider"
 req.header: netdma.h
 req.include-header: Netdma.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - netdma.h
 api_name:
 - NetDmaDeregisterProvider
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

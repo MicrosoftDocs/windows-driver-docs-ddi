@@ -10,6 +10,7 @@ keywords: ["IOCTL_STORAGE_PREDICT_FAILURE IOCTL"]
 ms.keywords: IOCTL_STORAGE_PREDICT_FAILURE, IOCTL_STORAGE_PREDICT_FAILURE control, IOCTL_STORAGE_PREDICT_FAILURE control code [Storage Devices], k307_396b070a-af8a-4271-9d17-efb385869570.xml, ntddstor/IOCTL_STORAGE_PREDICT_FAILURE, storage.ioctl_storage_predict_failure
 f1_keywords:
  - "ntddstor/IOCTL_STORAGE_PREDICT_FAILURE"
+ - "IOCTL_STORAGE_PREDICT_FAILURE"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddstor.h
 api_name:
 - IOCTL_STORAGE_PREDICT_FAILURE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

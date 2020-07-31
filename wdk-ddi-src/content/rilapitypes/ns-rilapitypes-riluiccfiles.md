@@ -10,6 +10,7 @@ keywords: ["RILUICCFILES structure"]
 ms.keywords: "*LPRILUICCFILES, RILUICCFILES, RILUICCFILES structure [Network Drivers Starting with Windows Vista], netvista.riluiccfiles, ntddrilapitypes/RILUICCFILES"
 f1_keywords:
  - "rilapitypes/RILUICCFILES"
+ - "RILUICCFILES"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILUICCFILES
-product:
-- Windows
 targetos: Windows
 req.typenames: RILUICCFILES, *LPRILUICCFILES
 ---

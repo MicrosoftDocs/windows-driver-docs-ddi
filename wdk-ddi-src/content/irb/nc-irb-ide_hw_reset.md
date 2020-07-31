@@ -10,6 +10,7 @@ keywords: ["IDE_HW_RESET callback function"]
 ms.keywords: IDE_HW_RESET, IdeHwReset, IdeHwReset routine [Storage Devices], atartns_c3c999ac-3737-48ab-be9b-99c83013b878.xml, irb/IdeHwReset, storage.idehwreset
 f1_keywords:
  - "irb/IdeHwReset"
+ - "IdeHwReset"
 req.header: irb.h
 req.include-header: Irb.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - irb.h
 api_name:
 - IdeHwReset
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

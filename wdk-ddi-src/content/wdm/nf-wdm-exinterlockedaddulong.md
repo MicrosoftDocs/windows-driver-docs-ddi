@@ -10,6 +10,7 @@ keywords: ["ExInterlockedAddUlong function"]
 ms.keywords: ExInterlockedAddUlong, ExInterlockedAddUlong routine [Kernel-Mode Driver Architecture], k102_bec4a58e-ee68-4f9e-8fac-9ef0c193ef10.xml, kernel.exinterlockedaddulong, wdm/ExInterlockedAddUlong
 f1_keywords:
  - "wdm/ExInterlockedAddUlong"
+ - "ExInterlockedAddUlong"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - ExInterlockedAddUlong
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

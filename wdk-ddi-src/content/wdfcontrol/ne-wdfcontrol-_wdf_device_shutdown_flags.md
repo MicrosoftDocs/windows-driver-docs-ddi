@@ -10,6 +10,7 @@ keywords: ["_WDF_DEVICE_SHUTDOWN_FLAGS enumeration"]
 ms.keywords: DFDeviceObjectControllerDevObjRef_67312956-1032-4272-9b69-ed1674b5e951.xml, WDF_DEVICE_SHUTDOWN_FLAGS, WDF_DEVICE_SHUTDOWN_FLAGS enumeration, WdfDeviceLastChanceShutdown, WdfDeviceShutdown, _WDF_DEVICE_SHUTDOWN_FLAGS, kmdf.wdf_device_shutdown_flags, wdf.wdf_device_shutdown_flags, wdfcontrol/WDF_DEVICE_SHUTDOWN_FLAGS, wdfcontrol/WdfDeviceLastChanceShutdown, wdfcontrol/WdfDeviceShutdown
 f1_keywords:
  - "wdfcontrol/WDF_DEVICE_SHUTDOWN_FLAGS"
+ - "WDF_DEVICE_SHUTDOWN_FLAGS"
 req.header: wdfcontrol.h
 req.include-header: Wdf.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wdfcontrol.h
 api_name:
 - WDF_DEVICE_SHUTDOWN_FLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_DEVICE_SHUTDOWN_FLAGS
 ---

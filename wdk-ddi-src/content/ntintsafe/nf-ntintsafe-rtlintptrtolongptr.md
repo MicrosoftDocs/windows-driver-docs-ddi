@@ -10,6 +10,7 @@ keywords: ["RtlIntPtrToLongPtr function"]
 ms.keywords: RtlIntPtrToLongPtr, RtlIntPtrToLongPtr function [Kernel-Mode Driver Architecture], kernel.rtlintptrtolongptr, ntintsafe/RtlIntPtrToLongPtr
 f1_keywords:
  - "ntintsafe/RtlIntPtrToLongPtr"
+ - "RtlIntPtrToLongPtr"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Ntintsafe.h
 api_name:
 - RtlIntPtrToLongPtr
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

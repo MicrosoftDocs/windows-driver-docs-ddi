@@ -10,6 +10,7 @@ keywords: ["IDebugSystemObjects::SetCurrentProcessId"]
 ms.keywords: IDebugSystemObjects interface [Windows Debugging],SetCurrentProcessId method, IDebugSystemObjects.SetCurrentProcessId, IDebugSystemObjects2 interface [Windows Debugging],SetCurrentProcessId method, IDebugSystemObjects2::SetCurrentProcessId, IDebugSystemObjects3 interface [Windows Debugging],SetCurrentProcessId method, IDebugSystemObjects3::SetCurrentProcessId, IDebugSystemObjects4 interface [Windows Debugging],SetCurrentProcessId method, IDebugSystemObjects4::SetCurrentProcessId, IDebugSystemObjects::SetCurrentProcessId, IDebugSystemObjects_e588cabd-e079-4dc0-ab0f-085181414985.xml, SetCurrentProcessId, SetCurrentProcessId method [Windows Debugging], SetCurrentProcessId method [Windows Debugging],IDebugSystemObjects interface, SetCurrentProcessId method [Windows Debugging],IDebugSystemObjects2 interface, SetCurrentProcessId method [Windows Debugging],IDebugSystemObjects3 interface, SetCurrentProcessId method [Windows Debugging],IDebugSystemObjects4 interface, dbgeng/IDebugSystemObjects2::SetCurrentProcessId, dbgeng/IDebugSystemObjects3::SetCurrentProcessId, dbgeng/IDebugSystemObjects4::SetCurrentProcessId, dbgeng/IDebugSystemObjects::SetCurrentProcessId, debugger.setcurrentprocessid
 f1_keywords:
  - "dbgeng/IDebugSystemObjects.SetCurrentProcessId"
+ - "IDebugSystemObjects.SetCurrentProcessId"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -39,8 +40,6 @@ api_name:
 - IDebugSystemObjects2.SetCurrentProcessId
 - IDebugSystemObjects3.SetCurrentProcessId
 - IDebugSystemObjects4.SetCurrentProcessId
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

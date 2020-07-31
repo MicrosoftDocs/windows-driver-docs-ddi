@@ -32,7 +32,8 @@ api_name:
  - DXGK_DSI_TRANSMISSION
 f1_keywords:
  - dispmprt/_DXGK_DSI_TRANSMISSION
- - dispmprt/DXGK_DSI_TRANSMISSION
+ - dispmprt//DXGK_DSI_TRANSMISSION
+ - DXGK_DSI_TRANSMISSION
 dev_langs:
  - c++
 ---

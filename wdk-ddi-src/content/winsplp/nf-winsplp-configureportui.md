@@ -10,6 +10,7 @@ keywords: ["ConfigurePortUI function"]
 ms.keywords: pfnConfigurePortUI function [Print Devices], winsplp/pfnConfigurePortUI, ConfigurePortUI, print.configureportui, spoolfnc_5b799b7f-667a-4c5a-855e-554daa2695ea.xml, pfnConfigurePortUI
 f1_keywords:
  - "winsplp/pfnConfigurePortUI"
+ - "pfnConfigurePortUI"
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - winsplp.h
 api_name:
 - pfnConfigurePortUI
-product:
-- Windows
 targetos: Windows
 req.typenames: NOTIFICATION_CONFIG_FLAGS
 req.product: Windows 10 or later.

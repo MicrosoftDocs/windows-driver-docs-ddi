@@ -10,6 +10,7 @@ keywords: ["PWINDBG_WRITE_PROCESS_MEMORY_ROUTINE callback function"]
 ms.keywords: PWINDBG_WRITE_PROCESS_MEMORY_ROUTINE, PWINDBG_WRITE_PROCESS_MEMORY_ROUTINE callback, WdbgExts_Ref_72933b84-f8ce-432e-b89c-09c2668aa90e.xml, WriteMemory, WriteMemory callback function [Windows Debugging], debugger.writememory, wdbgexts/WriteMemory
 f1_keywords:
  - "wdbgexts/WriteMemory"
+ - "WriteMemory"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wdbgexts.h
 api_name:
 - WriteMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

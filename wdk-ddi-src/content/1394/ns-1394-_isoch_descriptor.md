@@ -10,6 +10,7 @@ keywords: ["_ISOCH_DESCRIPTOR structure"]
 ms.keywords: "*PISOCH_DESCRIPTOR, 1394/ISOCH_DESCRIPTOR, 1394/PISOCH_DESCRIPTOR, 1394stct_ceca99ed-2075-42d4-9be7-31e659e2b654.xml, IEEE.isoch_descriptor, ISOCH_DESCRIPTOR, ISOCH_DESCRIPTOR structure [Buses], PISOCH_DESCRIPTOR, PISOCH_DESCRIPTOR structure pointer [Buses], _ISOCH_DESCRIPTOR"
 f1_keywords:
  - "1394/ISOCH_DESCRIPTOR"
+ - "ISOCH_DESCRIPTOR"
 req.header: 1394.h
 req.include-header: 1394.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - 1394.h
 api_name:
 - ISOCH_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: ISOCH_DESCRIPTOR, *PISOCH_DESCRIPTOR
 ---

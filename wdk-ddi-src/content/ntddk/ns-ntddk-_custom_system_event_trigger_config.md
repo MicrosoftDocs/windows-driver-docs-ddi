@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_CUSTOM_SYSTEM_EVENT_TRIGGER_CONFIG structure"]
 f1_keywords:
  - "ntddk/_CUSTOM_SYSTEM_EVENT_TRIGGER_CONFIG"
+ - "_CUSTOM_SYSTEM_EVENT_TRIGGER_CONFIG"
 ms.keywords: _CUSTOM_SYSTEM_EVENT_TRIGGER_CONFIG, CUSTOM_SYSTEM_EVENT_TRIGGER_CONFIG, *PCUSTOM_SYSTEM_EVENT_TRIGGER_CONFIG, 
 req.header: ntddk.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - ntddk.h
 api_name: 
 - _CUSTOM_SYSTEM_EVENT_TRIGGER_CONFIG
-product:
-- Windows
 targetos: Windows
 ---
 

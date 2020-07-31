@@ -10,6 +10,7 @@ keywords: ["IDebugEventCallbacksWide::SystemError"]
 ms.keywords: IDebugEventCallbacksWide interface [Windows Debugging],SystemError method, IDebugEventCallbacksWide.SystemError, IDebugEventCallbacksWide::SystemError, SystemError, SystemError method [Windows Debugging], SystemError method [Windows Debugging],IDebugEventCallbacksWide interface, dbgeng/IDebugEventCallbacksWide::SystemError, debugger.idebugeventcallbackswide_systemerror
 f1_keywords:
  - "dbgeng/IDebugEventCallbacksWide.SystemError"
+ - "IDebugEventCallbacksWide.SystemError"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugEventCallbacksWide.SystemError
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

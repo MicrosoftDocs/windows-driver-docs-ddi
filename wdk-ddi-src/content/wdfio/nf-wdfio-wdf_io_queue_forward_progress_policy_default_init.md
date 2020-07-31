@@ -10,6 +10,7 @@ keywords: ["WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_DEFAULT_INIT function"]
 ms.keywords: DFQueueObjectRef_bc87904f-0d02-4369-ae30-734766e7335b.xml, WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_DEFAULT_INIT, WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_DEFAULT_INIT function, kmdf.wdf_io_queue_forward_progress_policy_default_init, wdf.wdf_io_queue_forward_progress_policy_default_init, wdfio/WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_DEFAULT_INIT
 f1_keywords:
  - "wdfio/WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_DEFAULT_INIT"
+ - "WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_DEFAULT_INIT"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - wdfio.h
 api_name:
 - WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_DEFAULT_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

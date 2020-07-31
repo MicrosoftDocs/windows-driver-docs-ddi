@@ -10,6 +10,7 @@ keywords: ["IPrintCorePS2::GetOptionAttribute"]
 ms.keywords: GetOptionAttribute, GetOptionAttribute method [Print Devices], GetOptionAttribute method [Print Devices],IPrintCorePS2 interface, IPrintCorePS2 interface [Print Devices],GetOptionAttribute method, IPrintCorePS2.GetOptionAttribute, IPrintCorePS2::GetOptionAttribute, prcomoem/IPrintCorePS2::GetOptionAttribute, print.iprintcoreps2_getoptionattribute, print_unidrv-pscript_rendering_514bd3e6-bf9e-464b-ade6-3a871523c9a4.xml
 f1_keywords:
  - "prcomoem/IPrintCorePS2.GetOptionAttribute"
+ - "IPrintCorePS2.GetOptionAttribute"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - prcomoem.h
 api_name:
 - IPrintCorePS2.GetOptionAttribute
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

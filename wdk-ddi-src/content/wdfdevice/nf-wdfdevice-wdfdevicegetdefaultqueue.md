@@ -10,6 +10,7 @@ keywords: ["WdfDeviceGetDefaultQueue function"]
 ms.keywords: DFDeviceObjectGeneralRef_17d2efb6-80ae-4045-baa4-68d610b9e0c3.xml, WdfDeviceGetDefaultQueue, WdfDeviceGetDefaultQueue method, kmdf.wdfdevicegetdefaultqueue, wdf.wdfdevicegetdefaultqueue, wdfdevice/WdfDeviceGetDefaultQueue
 f1_keywords:
  - "wdfdevice/WdfDeviceGetDefaultQueue"
+ - "WdfDeviceGetDefaultQueue"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfDeviceGetDefaultQueue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

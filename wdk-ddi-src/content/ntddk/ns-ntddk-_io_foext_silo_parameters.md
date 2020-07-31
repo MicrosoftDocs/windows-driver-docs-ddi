@@ -10,6 +10,7 @@ keywords: ["_IO_FOEXT_SILO_PARAMETERS structure"]
 ms.keywords: "*PIO_FOEXT_SILO_PARAMETERS, IO_FOEXT_SILO_PARAMETERS, IO_FOEXT_SILO_PARAMETERS structure [Installable File System Drivers], PIO_FOEXT_SILO_PARAMETERS, PIO_FOEXT_SILO_PARAMETERS structure pointer [Installable File System Drivers], _IO_FOEXT_SILO_PARAMETERS, ifsk.io_foext_silo_parameters, ntddk/IO_FOEXT_SILO_PARAMETERS, ntddk/PIO_FOEXT_SILO_PARAMETERS"
 f1_keywords:
  - "ntddk/IO_FOEXT_SILO_PARAMETERS"
+ - "IO_FOEXT_SILO_PARAMETERS"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - IO_FOEXT_SILO_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: IO_FOEXT_SILO_PARAMETERS, *PIO_FOEXT_SILO_PARAMETERS
 ---

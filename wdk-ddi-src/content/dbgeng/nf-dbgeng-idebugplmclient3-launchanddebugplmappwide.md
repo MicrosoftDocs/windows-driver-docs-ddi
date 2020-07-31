@@ -10,6 +10,7 @@ keywords: ["IDebugPlmClient3::LaunchAndDebugPlmAppWide"]
 ms.keywords: IDebugPlmClient3 interface [Windows Debugging],LaunchAndDebugPlmAppWide method, IDebugPlmClient3.LaunchAndDebugPlmAppWide, IDebugPlmClient3::LaunchAndDebugPlmAppWide, LaunchAndDebugPlmAppWide, LaunchAndDebugPlmAppWide method [Windows Debugging], LaunchAndDebugPlmAppWide method [Windows Debugging],IDebugPlmClient3 interface, dbgeng/IDebugPlmClient3::LaunchAndDebugPlmAppWide, debugger.idebugplmclient3_launchanddebugplmappwide
 f1_keywords:
  - "dbgeng/IDebugPlmClient3.LaunchAndDebugPlmAppWide"
+ - "IDebugPlmClient3.LaunchAndDebugPlmAppWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugPlmClient3.LaunchAndDebugPlmAppWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

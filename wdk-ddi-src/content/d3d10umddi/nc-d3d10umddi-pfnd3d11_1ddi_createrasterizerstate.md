@@ -29,6 +29,7 @@ tech.root: display
 req.typenames: 
 f1_keywords:
  - "d3d10umddi/CreateRasterizerState(D3D11_1)"
+ - "CreateRasterizerState(D3D11_1)"
 topic_type:
  - APIRef
  - kbSyntax

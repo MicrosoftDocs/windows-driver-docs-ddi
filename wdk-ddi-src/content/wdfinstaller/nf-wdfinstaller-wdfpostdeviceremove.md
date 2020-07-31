@@ -10,6 +10,7 @@ keywords: ["WdfPostDeviceRemove function"]
 ms.keywords: DFCoinstallerRef_82480a49-b7ac-4e1d-b942-93d1eb8a5c34.xml, WdfPostDeviceRemove, WdfPostDeviceRemove function, kmdf.wdfpostdeviceremove, wdf.wdfpostdeviceremove, wdfinstaller/WdfPostDeviceRemove
 f1_keywords:
  - "wdfinstaller/WdfPostDeviceRemove"
+ - "WdfPostDeviceRemove"
 req.header: wdfinstaller.h
 req.include-header: Wdfinstaller.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - N/A.dll
 api_name:
 - WdfPostDeviceRemove
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_CREATEKEYEDMUTEX2_FLAGS structure"]
 ms.keywords: D3DKMT_CREATEKEYEDMUTEX2_FLAGS, D3DKMT_CREATEKEYEDMUTEX2_FLAGS structure [Display Devices], _D3DKMT_CREATEKEYEDMUTEX2_FLAGS, d3dkmthk/D3DKMT_CREATEKEYEDMUTEX2_FLAGS, display.d3dkmt_createkeyedmutex2_flags
 f1_keywords:
  - "d3dkmthk/D3DKMT_CREATEKEYEDMUTEX2_FLAGS"
+ - "D3DKMT_CREATEKEYEDMUTEX2_FLAGS"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - D3dkmthk.h
 api_name:
 - D3DKMT_CREATEKEYEDMUTEX2_FLAGS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_CREATEKEYEDMUTEX2_FLAGS

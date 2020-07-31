@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_CREATECONTEXTVIRTUAL structure"]
 ms.keywords: D3DKMT_CREATECONTEXTVIRTUAL, D3DKMT_CREATECONTEXTVIRTUAL structure [Display Devices], _D3DKMT_CREATECONTEXTVIRTUAL, d3dkmthk/D3DKMT_CREATECONTEXTVIRTUAL, display.d3dkmt_createcontextvirtual
 f1_keywords:
  - "d3dkmthk/D3DKMT_CREATECONTEXTVIRTUAL"
+ - "D3DKMT_CREATECONTEXTVIRTUAL"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMT_CREATECONTEXTVIRTUAL
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_CREATECONTEXTVIRTUAL

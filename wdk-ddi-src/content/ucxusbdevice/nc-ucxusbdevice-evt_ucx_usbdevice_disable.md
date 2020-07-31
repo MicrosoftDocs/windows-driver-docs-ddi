@@ -10,6 +10,7 @@ keywords: ["EVT_UCX_USBDEVICE_DISABLE callback function"]
 ms.keywords: EVT_UCX_USBDEVICE_DISABLE, EVT_UCX_USBDEVICE_DISABLE callback, EvtUcxUsbDeviceDisable, EvtUcxUsbDeviceDisable callback function [Buses], PEVT_UCX_USBDEVICE_DISABLE, PEVT_UCX_USBDEVICE_DISABLE callback function pointer [Buses], buses.evt_ucx_usbdevice_disable, ucxusbdevice/EvtUcxUsbDeviceDisable
 f1_keywords:
  - "ucxusbdevice/PEVT_UCX_USBDEVICE_DISABLE"
+ - "PEVT_UCX_USBDEVICE_DISABLE"
 req.header: ucxusbdevice.h
 req.include-header: Ucxclass.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ucxusbdevice.h
 api_name:
 - PEVT_UCX_USBDEVICE_DISABLE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

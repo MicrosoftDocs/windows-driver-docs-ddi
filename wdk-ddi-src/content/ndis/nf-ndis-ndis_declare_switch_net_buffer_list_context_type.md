@@ -8,6 +8,7 @@ ms.date: 04/17/2018
 keywords: ["NDIS_DECLARE_SWITCH_NET_BUFFER_LIST_CONTEXT_TYPE macro"]
 f1_keywords:
  - "ndis/NDIS_DECLARE_SWITCH_NET_BUFFER_LIST_CONTEXT_TYPE"
+ - "NDIS_DECLARE_SWITCH_NET_BUFFER_LIST_CONTEXT_TYPE"
 ms.keywords: NDIS_DECLARE_SWITCH_NET_BUFFER_LIST_CONTEXT_TYPE
 req.header: ndis.h
 req.include-header:
@@ -34,8 +35,6 @@ api_location:
 - ndis.h
 api_name: 
 - NDIS_DECLARE_SWITCH_NET_BUFFER_LIST_CONTEXT_TYPE
-product:
-- Windows
 targetos: Windows
 
 ---

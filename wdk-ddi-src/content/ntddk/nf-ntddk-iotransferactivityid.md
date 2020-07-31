@@ -10,6 +10,7 @@ keywords: ["IoTransferActivityId function"]
 ms.keywords: IoTransferActivityId, IoTransferActivityId routine [Kernel-Mode Driver Architecture], kernel.iotransferactivityid, ntddk/IoTransferActivityId
 f1_keywords:
  - "ntddk/IoTransferActivityId"
+ - "IoTransferActivityId"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoTransferActivityId
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

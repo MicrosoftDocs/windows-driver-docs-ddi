@@ -10,6 +10,7 @@ keywords: ["RtlInsertAsLeftChild function"]
 ms.keywords: RtlInsertAsLeftChild, RtlInsertAsLeftChild routine [Installable File System Drivers], ifsk.rtlinsertasleftchild, ntddk/RtlInsertAsLeftChild, rtlref_228b3b79-ee0c-4361-ac36-223991ed3615.xml
 f1_keywords:
  - "ntddk/RtlInsertAsLeftChild"
+ - "RtlInsertAsLeftChild"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - RtlInsertAsLeftChild
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

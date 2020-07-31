@@ -10,6 +10,7 @@ keywords: ["PVIDEO_READ_DATA_LINE callback function"]
 ms.keywords: PVIDEO_READ_DATA_LINE, PVIDEO_READ_DATA_LINE callback, ReadDataLine, ReadDataLine callback function [Display Devices], VideoMiniport_Functions_6507a035-50bc-4a1e-92bf-f07e75cf023b.xml, display.readdataline, video/ReadDataLine
 f1_keywords:
  - "video/ReadDataLine"
+ - "ReadDataLine"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - video.h
 api_name:
 - ReadDataLine
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

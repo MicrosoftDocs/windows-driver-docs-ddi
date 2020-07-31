@@ -10,6 +10,7 @@ keywords: ["ReadMsr function"]
 ms.keywords: ReadMsr, ReadMsr function [Windows Debugging], WdbgExts_Ref_37577d05-a60b-4064-850a-d73616d93f37.xml, debugger.readmsr, wdbgexts/ReadMsr
 f1_keywords:
  - "wdbgexts/ReadMsr"
+ - "ReadMsr"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wdbgexts.h
 api_name:
 - ReadMsr
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

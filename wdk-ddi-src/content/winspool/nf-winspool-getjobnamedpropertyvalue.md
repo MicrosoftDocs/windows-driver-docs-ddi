@@ -10,6 +10,7 @@ keywords: ["GetJobNamedPropertyValue function"]
 ms.keywords: GetJobNamedPropertyValue, GetJobNamedPropertyValue function [Print Devices], print.getjobnamedpropertyvalue, winspool/GetJobNamedPropertyValue
 f1_keywords:
  - "winspool/GetJobNamedPropertyValue"
+ - "GetJobNamedPropertyValue"
 req.header: winspool.h
 req.include-header: Winspool.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - WinSpool.drv
 api_name:
 - GetJobNamedPropertyValue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -60,13 +59,13 @@ Retrieves the value of the named property for the specified print job on the spe
 
 ### -param hPrinter [in]
 
-A handle to the printer object of interest. Use the <a href="https://docs.microsoft.com/windows-hardware/drivers/print/openprinter">OpenPrinter</a>, <a href="https://docs.microsoft.com/windows/desktop/printdocs/openprinter2">OpenPrinter2</a>, or the <a href="https://docs.microsoft.com/windows/desktop/printdocs/addprinter">AddPrinter</a> function to retrieve a printer handle. 
+A handle to the printer object of interest. Use the <a href="https://docs.microsoft.com/windows-hardware/drivers/print/openprinter">OpenPrinter</a>, <a href="https://docs.microsoft.com/windows/win32/printdocs/openprinter2">OpenPrinter2</a>, or the <a href="https://docs.microsoft.com/windows/win32/printdocs/addprinter">AddPrinter</a> function to retrieve a printer handle. 
 
 
 
 ### -param JobId [in]
 
-Identifier that specifies the print job. You obtain a print job identifier by calling the <a href="https://docs.microsoft.com/windows/desktop/printdocs/addjob">AddJob</a> function or the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/nf-printoem-oemstartdoc">StartDoc</a> function. 
+Identifier that specifies the print job. You obtain a print job identifier by calling the <a href="https://docs.microsoft.com/windows/win32/printdocs/addjob">AddJob</a> function or the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/nf-printoem-oemstartdoc">StartDoc</a> function. 
 
 
 

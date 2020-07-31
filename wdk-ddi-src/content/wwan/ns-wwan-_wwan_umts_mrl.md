@@ -10,6 +10,7 @@ keywords: ["_WWAN_UMTS_MRL structure"]
 ms.keywords: "*PWWAN_UMTS_MRL, PWWAN_UMTS_MRL, PWWAN_UMTS_MRL structure pointer [Network Drivers Starting with Windows Vista], WWAN_UMTS_MRL, WWAN_UMTS_MRL structure [Network Drivers Starting with Windows Vista], _WWAN_UMTS_MRL, netvista.wwan_umts_mrl, wwan/PWWAN_UMTS_MRL, wwan/WWAN_UMTS_MRL"
 f1_keywords:
  - "wwan/WWAN_UMTS_MRL"
+ - "WWAN_UMTS_MRL"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_UMTS_MRL
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_UMTS_MRL, *PWWAN_UMTS_MRL
 ---

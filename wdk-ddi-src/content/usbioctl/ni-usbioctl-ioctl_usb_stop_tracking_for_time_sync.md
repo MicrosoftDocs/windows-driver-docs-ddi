@@ -10,6 +10,7 @@ keywords: ["IOCTL_USB_STOP_TRACKING_FOR_TIME_SYNC IOCTL"]
 ms.keywords: IOCTL_USB_STOP_TRACKING_FOR_TIME_SYNC, IOCTL_USB_STOP_TRACKING_FOR_TIME_SYNC control, IOCTL_USB_STOP_TRACKING_FOR_TIME_SYNC control code [Buses], buses._ioctl_usb_stop_tracking_for_time_sync, usbioctl/ IOCTL_USB_STOP_TRACKING_FOR_TIME_SYNC
 f1_keywords:
  - "usbioctl/IOCTL_USB_STOP_TRACKING_FOR_TIME_SYNC"
+ - "IOCTL_USB_STOP_TRACKING_FOR_TIME_SYNC"
 req.header: usbioctl.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Usbioctl.h
 api_name:
 - IOCTL_USB_STOP_TRACKING_FOR_TIME_SYNC
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

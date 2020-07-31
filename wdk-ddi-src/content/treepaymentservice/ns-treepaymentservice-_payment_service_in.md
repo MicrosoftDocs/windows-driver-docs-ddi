@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_PAYMENT_SERVICE_IN structure"]
 f1_keywords:
  - "treepaymentservice/_PAYMENT_SERVICE_IN"
+ - "_PAYMENT_SERVICE_IN"
 ms.keywords: _PAYMENT_SERVICE_IN, PAYMENT_SERVICE_IN, *PPAYMENT_SERVICE_IN, 
 req.header: treepaymentservice.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - treepaymentservice.h
 api_name: 
 - _PAYMENT_SERVICE_IN
-product:
-- Windows
 targetos: Windows
 ---
 

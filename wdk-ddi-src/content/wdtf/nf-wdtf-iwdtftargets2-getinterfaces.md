@@ -10,6 +10,7 @@ keywords: ["IWDTFTargets2::GetInterfaces"]
 ms.keywords: GetInterfaces, GetInterfaces method [Windows Device Testing Framework], GetInterfaces method [Windows Device Testing Framework],IWDTFTargets2 interface, IWDTFTargets2 interface [Windows Device Testing Framework],GetInterfaces method, IWDTFTargets2.GetInterfaces, IWDTFTargets2::GetInterfaces, Microsoft.WDTF.IWDTFTargets2.GetInterfaces, Microsoft::WDTF::IWDTFTargets2::GetInterfaces, dtf.iwdtftargets2_getinterfaces, wdtf/IWDTFTargets2::GetInterfaces
 f1_keywords:
  - "wdtf/IWDTFTargets2.GetInterfaces"
+ - "IWDTFTargets2.GetInterfaces"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WDTF.Interop.metadata_dll.dll
 api_name:
 - IWDTFTargets2.GetInterfaces
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

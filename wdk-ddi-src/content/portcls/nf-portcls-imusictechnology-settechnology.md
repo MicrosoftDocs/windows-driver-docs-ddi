@@ -10,6 +10,7 @@ keywords: ["IMusicTechnology::SetTechnology"]
 ms.keywords: IMusicTechnology interface [Audio Devices],SetTechnology method, IMusicTechnology.SetTechnology, IMusicTechnology::SetTechnology, SetTechnology, SetTechnology method [Audio Devices], SetTechnology method [Audio Devices],IMusicTechnology interface, audio.imusictechnology_settechnology, audmp-routines_d1d6abaa-c4b8-4dce-8ce5-9fc12cc87852.xml, portcls/IMusicTechnology::SetTechnology
 f1_keywords:
  - "portcls/IMusicTechnology.SetTechnology"
+ - "IMusicTechnology.SetTechnology"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IMusicTechnology.SetTechnology
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

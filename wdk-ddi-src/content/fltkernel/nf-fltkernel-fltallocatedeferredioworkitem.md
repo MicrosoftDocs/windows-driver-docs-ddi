@@ -10,6 +10,7 @@ keywords: ["FltAllocateDeferredIoWorkItem function"]
 ms.keywords: FltAllocateDeferredIoWorkItem, FltAllocateDeferredIoWorkItem function [Installable File System Drivers], FltApiRef_a_to_d_2fd5a055-2bcb-47a5-af89-5a34a92982f1.xml, fltkernel/FltAllocateDeferredIoWorkItem, ifsk.fltallocatedeferredioworkitem
 f1_keywords:
  - "fltkernel/FltAllocateDeferredIoWorkItem"
+ - "FltAllocateDeferredIoWorkItem"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - FltMgr.dll
 api_name:
 - FltAllocateDeferredIoWorkItem
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

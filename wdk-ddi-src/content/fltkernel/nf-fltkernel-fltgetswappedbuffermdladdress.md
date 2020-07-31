@@ -10,6 +10,7 @@ keywords: ["FltGetSwappedBufferMdlAddress function"]
 ms.keywords: FltApiRef_e_to_o_7ebd2be1-79a1-4a5a-a9ab-7ca5023eb8fc.xml, FltGetSwappedBufferMdlAddress, FltGetSwappedBufferMdlAddress routine [Installable File System Drivers], fltkernel/FltGetSwappedBufferMdlAddress, ifsk.fltgetswappedbuffermdladdress
 f1_keywords:
  - "fltkernel/FltGetSwappedBufferMdlAddress"
+ - "FltGetSwappedBufferMdlAddress"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltGetSwappedBufferMdlAddress
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

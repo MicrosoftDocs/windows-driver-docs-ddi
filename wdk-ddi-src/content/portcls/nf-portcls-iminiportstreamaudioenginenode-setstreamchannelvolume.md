@@ -10,6 +10,7 @@ keywords: ["IMiniportStreamAudioEngineNode::SetStreamChannelVolume"]
 ms.keywords: IMiniportStreamAudioEngineNode interface [Audio Devices],SetStreamChannelVolume method, IMiniportStreamAudioEngineNode.SetStreamChannelVolume, IMiniportStreamAudioEngineNode::SetStreamChannelVolume, SetStreamChannelVolume, SetStreamChannelVolume method [Audio Devices], SetStreamChannelVolume method [Audio Devices],IMiniportStreamAudioEngineNode interface, audio.iminiportstreamaudioenginenode_setstreamchannelvolume, portcls/IMiniportStreamAudioEngineNode::SetStreamChannelVolume
 f1_keywords:
  - "portcls/IMiniportStreamAudioEngineNode.SetStreamChannelVolume"
+ - "IMiniportStreamAudioEngineNode.SetStreamChannelVolume"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Portcls.h
 api_name:
 - IMiniportStreamAudioEngineNode.SetStreamChannelVolume
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

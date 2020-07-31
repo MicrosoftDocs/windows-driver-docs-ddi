@@ -10,6 +10,7 @@ keywords: ["KeQueryInterruptTimePrecise function"]
 ms.keywords: KeQueryInterruptTimePrecise, KeQueryInterruptTimePrecise routine [Kernel-Mode Driver Architecture], kernel.kequeryinterrupttimeprecise, wdm/KeQueryInterruptTimePrecise
 f1_keywords:
  - "wdm/KeQueryInterruptTimePrecise"
+ - "KeQueryInterruptTimePrecise"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeQueryInterruptTimePrecise
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["StorPortResume function"]
 ms.keywords: StorPortResume, StorPortResume routine [Storage Devices], storage.storportresume, storport/StorPortResume, storprt_3970ca06-96f5-4d0a-84b0-781145133788.xml
 f1_keywords:
  - "storport/StorPortResume"
+ - "StorPortResume"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Storport.dll
 api_name:
 - StorPortResume
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

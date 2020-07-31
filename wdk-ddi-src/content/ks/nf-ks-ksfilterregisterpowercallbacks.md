@@ -10,6 +10,7 @@ keywords: ["KsFilterRegisterPowerCallbacks function"]
 ms.keywords: KsFilterRegisterPowerCallbacks, KsFilterRegisterPowerCallbacks function [Streaming Media Devices], avfunc_7c5322b7-f7e2-4641-b466-06f5d9ebfc34.xml, ks/KsFilterRegisterPowerCallbacks, stream.ksfilterregisterpowercallbacks
 f1_keywords:
  - "ks/KsFilterRegisterPowerCallbacks"
+ - "KsFilterRegisterPowerCallbacks"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsFilterRegisterPowerCallbacks
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

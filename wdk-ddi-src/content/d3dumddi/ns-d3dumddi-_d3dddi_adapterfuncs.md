@@ -10,6 +10,7 @@ keywords: ["_D3DDDI_ADAPTERFUNCS structure"]
 ms.keywords: D3DDDI_ADAPTERFUNCS, D3DDDI_ADAPTERFUNCS structure [Display Devices], D3D_other_Structs_2397321f-704c-4c93-bbd1-b7591134294c.xml, _D3DDDI_ADAPTERFUNCS, d3dumddi/D3DDDI_ADAPTERFUNCS, display.d3dddi_adapterfuncs
 f1_keywords:
  - "d3dumddi/D3DDDI_ADAPTERFUNCS"
+ - "D3DDDI_ADAPTERFUNCS"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDI_ADAPTERFUNCS
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDI_ADAPTERFUNCS
 ---

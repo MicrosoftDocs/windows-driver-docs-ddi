@@ -10,6 +10,7 @@ keywords: ["KsPinRegisterIrpCompletionCallback function"]
 ms.keywords: KsPinRegisterIrpCompletionCallback, KsPinRegisterIrpCompletionCallback function [Streaming Media Devices], avfunc_ab906fd4-c863-467e-828e-34316fb65269.xml, ks/KsPinRegisterIrpCompletionCallback, stream.kspinregisterirpcompletioncallback
 f1_keywords:
  - "ks/KsPinRegisterIrpCompletionCallback"
+ - "KsPinRegisterIrpCompletionCallback"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsPinRegisterIrpCompletionCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

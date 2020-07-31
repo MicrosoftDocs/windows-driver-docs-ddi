@@ -10,6 +10,7 @@ keywords: ["_ACCESS_RANGE structure"]
 ms.keywords: "*PACCESS_RANGE, ACCESS_RANGE, ACCESS_RANGE structure [Storage Devices], PACCESS_RANGE, PACCESS_RANGE structure pointer [Storage Devices], _ACCESS_RANGE, srb/ACCESS_RANGE, srb/PACCESS_RANGE, storage.access_range, structs-scsiport_353ffdeb-4d30-4df8-9422-ea3a9e662104.xml"
 f1_keywords:
  - "strmini/ACCESS_RANGE"
+ - "ACCESS_RANGE"
 req.header: strmini.h
 req.include-header: Srb.h, Storport.h, Strmini.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - srb.h
 api_name:
 - ACCESS_RANGE
-product:
-- Windows
 targetos: Windows
 req.typenames: ACCESS_RANGE, *PACCESS_RANGE
 req.product: Windows 10 or later.

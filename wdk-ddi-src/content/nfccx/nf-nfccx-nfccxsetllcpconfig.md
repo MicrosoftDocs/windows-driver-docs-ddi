@@ -10,6 +10,7 @@ keywords: ["NfcCxSetLlcpConfig function"]
 ms.keywords: NfcCxSetLlcpConfig, NfcCxSetLlcpConfig method [Near-Field Proximity Drivers], nfccx/NfcCxSetLlcpConfig, nfpdrivers._nfccxsetllcpconfig
 f1_keywords:
  - "nfccx/NfcCxSetLlcpConfig"
+ - "NfcCxSetLlcpConfig"
 req.header: nfccx.h
 req.include-header: Ncidef.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - NfcCx.dll
 api_name:
 - NfcCxSetLlcpConfig
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

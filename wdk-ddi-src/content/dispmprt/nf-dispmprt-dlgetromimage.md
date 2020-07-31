@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DlGetRomImage function"]
 f1_keywords:
  - "dispmprt/DlGetRomImage"
+ - "DlGetRomImage"
 ms.keywords: DlGetRomImage
 req.header: dispmprt.h
 req.include-header:

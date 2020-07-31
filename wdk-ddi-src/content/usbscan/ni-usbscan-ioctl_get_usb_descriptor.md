@@ -10,6 +10,7 @@ keywords: ["IOCTL_GET_USB_DESCRIPTOR IOCTL"]
 ms.keywords: IOCTL_GET_USB_DESCRIPTOR, IOCTL_GET_USB_DESCRIPTOR control, IOCTL_GET_USB_DESCRIPTOR control code [Imaging Devices], image.ioctl_get_usb_descriptor, stifnc_9d8ca100-d268-4e51-88fb-925e0a029ece.xml, usbscan/IOCTL_GET_USB_DESCRIPTOR
 f1_keywords:
  - "usbscan/IOCTL_GET_USB_DESCRIPTOR"
+ - "IOCTL_GET_USB_DESCRIPTOR"
 req.header: usbscan.h
 req.include-header: Usbscan.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Usbscan.h
 api_name:
 - IOCTL_GET_USB_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

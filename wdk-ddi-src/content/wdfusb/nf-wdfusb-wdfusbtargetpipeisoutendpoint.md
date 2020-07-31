@@ -10,6 +10,7 @@ keywords: ["WdfUsbTargetPipeIsOutEndpoint function"]
 ms.keywords: DFUsbRef_19c3e865-4f6c-4950-93af-46a8b97ec6b9.xml, WdfUsbTargetPipeIsOutEndpoint, WdfUsbTargetPipeIsOutEndpoint method, kmdf.wdfusbtargetpipeisoutendpoint, wdf.wdfusbtargetpipeisoutendpoint, wdfusb/WdfUsbTargetPipeIsOutEndpoint
 f1_keywords:
  - "wdfusb/WdfUsbTargetPipeIsOutEndpoint"
+ - "WdfUsbTargetPipeIsOutEndpoint"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfUsbTargetPipeIsOutEndpoint
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

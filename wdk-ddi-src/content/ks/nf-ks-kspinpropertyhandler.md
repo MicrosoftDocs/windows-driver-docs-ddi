@@ -10,6 +10,7 @@ keywords: ["KsPinPropertyHandler function"]
 ms.keywords: KsPinPropertyHandler, KsPinPropertyHandler function [Streaming Media Devices], ks/KsPinPropertyHandler, ksfunc_4ebda111-4b9a-4e8e-b050-af336121bcf0.xml, stream.kspinpropertyhandler
 f1_keywords:
  - "ks/KsPinPropertyHandler"
+ - "KsPinPropertyHandler"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsPinPropertyHandler
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["WdfDeviceInitSetRemoveLockOptions function"]
 ms.keywords: WdfDeviceInitSetRemoveLockOptions, WdfDeviceInitSetRemoveLockOptions method, kmdf.wdfdeviceinitsetremovelockoptions, wdf.wdfdeviceinitsetremovelockoptions, wdfdevice/WdfDeviceInitSetRemoveLockOptions
 f1_keywords:
  - "wdfdevice/WdfDeviceInitSetRemoveLockOptions"
+ - "WdfDeviceInitSetRemoveLockOptions"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfDeviceInitSetRemoveLockOptions
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["_CM_EISA_SLOT_INFORMATION structure"]
 ms.keywords: "*PCM_EISA_SLOT_INFORMATION, CM_EISA_SLOT_INFORMATION, CM_EISA_SLOT_INFORMATION structure [Kernel-Mode Driver Architecture], PCM_EISA_SLOT_INFORMATION, PCM_EISA_SLOT_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _CM_EISA_SLOT_INFORMATION, kernel.cm_eisa_slot_information, kstruct_a_07946ecf-4bcd-4626-a070-e3bca212c0ef.xml, wdm/CM_EISA_SLOT_INFORMATION, wdm/PCM_EISA_SLOT_INFORMATION"
 f1_keywords:
  - "miniport/CM_EISA_SLOT_INFORMATION"
+ - "CM_EISA_SLOT_INFORMATION"
 req.header: miniport.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Miniport.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - CM_EISA_SLOT_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: CM_EISA_SLOT_INFORMATION, *PCM_EISA_SLOT_INFORMATION
 ---

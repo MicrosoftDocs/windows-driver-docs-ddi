@@ -10,6 +10,7 @@ keywords: ["FsRtlGetNextLargeMcbEntry function"]
 ms.keywords: FsRtlGetNextLargeMcbEntry, FsRtlGetNextLargeMcbEntry routine [Installable File System Drivers], fsrtlref_cee90943-5308-4e1f-ae2e-2e607f19252f.xml, ifsk.fsrtlgetnextlargemcbentry, ntifs/FsRtlGetNextLargeMcbEntry
 f1_keywords:
  - "ntifs/FsRtlGetNextLargeMcbEntry"
+ - "FsRtlGetNextLargeMcbEntry"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlGetNextLargeMcbEntry
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 dev_langs:

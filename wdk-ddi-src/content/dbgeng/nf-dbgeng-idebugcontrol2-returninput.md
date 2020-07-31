@@ -10,6 +10,7 @@ keywords: ["IDebugControl2::ReturnInput"]
 ms.keywords: IDebugControl interface [Windows Debugging],ReturnInput method, IDebugControl2 interface [Windows Debugging],ReturnInput method, IDebugControl2.ReturnInput, IDebugControl2::ReturnInput, IDebugControl3 interface [Windows Debugging],ReturnInput method, IDebugControl3::ReturnInput, IDebugControl::ReturnInput, IDebugControl_e060c1a6-43cd-46a1-ba4c-e9aa69bcf205.xml, ReturnInput, ReturnInput method [Windows Debugging], ReturnInput method [Windows Debugging],IDebugControl interface, ReturnInput method [Windows Debugging],IDebugControl2 interface, ReturnInput method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::ReturnInput, dbgeng/IDebugControl3::ReturnInput, dbgeng/IDebugControl::ReturnInput, debugger.returninput
 f1_keywords:
  - "dbgeng/IDebugControl.ReturnInput"
+ - "IDebugControl.ReturnInput"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -38,8 +39,6 @@ api_name:
 - IDebugControl.ReturnInput
 - IDebugControl2.ReturnInput
 - IDebugControl3.ReturnInput
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -9,6 +9,7 @@ keywords: ["_DXGKCB_GETHANDLEDATAFLAGS structure"]
 ms.keywords: DXGKCB_GETHANDLEDATAFLAGS, DXGKCB_GETHANDLEDATAFLAGS structure [Display Devices], DmStructs_a0288df8-0513-4823-9445-cd86ff45a186.xml, _DXGKCB_GETHANDLEDATAFLAGS, d3dkmddi/DXGKCB_GETHANDLEDATAFLAGS, display.dxgkcb_gethandledataflags
 f1_keywords:
  - "d3dkmddi/DXGKCB_GETHANDLEDATAFLAGS"
+ - "DXGKCB_GETHANDLEDATAFLAGS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGKCB_GETHANDLEDATAFLAGS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGKCB_GETHANDLEDATAFLAGS

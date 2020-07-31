@@ -10,6 +10,7 @@ keywords: ["IRemoteInterfaceCallbackRemoval::OnRemoteInterfaceRemoval"]
 ms.keywords: IRemoteInterfaceCallbackRemoval interface,OnRemoteInterfaceRemoval method, IRemoteInterfaceCallbackRemoval.OnRemoteInterfaceRemoval, IRemoteInterfaceCallbackRemoval::OnRemoteInterfaceRemoval, OnRemoteInterfaceRemoval, OnRemoteInterfaceRemoval method, OnRemoteInterfaceRemoval method,IRemoteInterfaceCallbackRemoval interface, UMDFIoTargetObjectRef_17c1557c-2046-4bea-8b7f-88fea7103155.xml, umdf.iremoteinterfacecallbackremoval_onremoteinterfaceremoval, wdf.iremoteinterfacecallbackremoval_onremoteinterfaceremoval, wudfddi/IRemoteInterfaceCallbackRemoval::OnRemoteInterfaceRemoval
 f1_keywords:
  - "wudfddi/IRemoteInterfaceCallbackRemoval.OnRemoteInterfaceRemoval"
+ - "IRemoteInterfaceCallbackRemoval.OnRemoteInterfaceRemoval"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wudfddi.h
 api_name:
 - IRemoteInterfaceCallbackRemoval.OnRemoteInterfaceRemoval
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["ExAcquireResourceSharedLite function"]
 ms.keywords: ExAcquireResourceSharedLite, ExAcquireResourceSharedLite routine [Kernel-Mode Driver Architecture], k102_da765a3d-5d09-43da-98fe-48d4f7bccb9b.xml, kernel.exacquireresourcesharedlite, wdm/ExAcquireResourceSharedLite
 f1_keywords:
  - "wdm/ExAcquireResourceSharedLite"
+ - "ExAcquireResourceSharedLite"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - ExAcquireResourceSharedLite
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

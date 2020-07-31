@@ -10,6 +10,7 @@ keywords: ["FsRtlOplockIsSharedRequest function"]
 ms.keywords: FsRtlOplockIsSharedRequest, FsRtlOplockIsSharedRequest routine [Installable File System Drivers], fsrtlref_e79317ec-0086-4387-8f80-a7a1e44aba1c.xml, ifsk.fsrtloplockissharedrequest, ntifs/FsRtlOplockIsSharedRequest
 f1_keywords:
  - "ntifs/FsRtlOplockIsSharedRequest"
+ - "FsRtlOplockIsSharedRequest"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlOplockIsSharedRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

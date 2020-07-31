@@ -31,7 +31,8 @@ api_name:
  - WHEAP_DEVICE_DRV_EVENT
 f1_keywords:
  - ntddk/_WHEAP_DEVICE_DRV_EVENT
- - ntddk/WHEAP_DEVICE_DRV_EVENT
+ - ntddk//WHEAP_DEVICE_DRV_EVENT
+ - WHEAP_DEVICE_DRV_EVENT
 dev_langs:
  - c++
 ---

@@ -10,6 +10,7 @@ keywords: ["WdfUsbTargetPipeFormatRequestForWrite function"]
 ms.keywords: DFUsbRef_4f71425c-5d39-433c-9820-d736b9f4f531.xml, WdfUsbTargetPipeFormatRequestForWrite, WdfUsbTargetPipeFormatRequestForWrite method, kmdf.wdfusbtargetpipeformatrequestforwrite, wdf.wdfusbtargetpipeformatrequestforwrite, wdfusb/WdfUsbTargetPipeFormatRequestForWrite
 f1_keywords:
  - "wdfusb/WdfUsbTargetPipeFormatRequestForWrite"
+ - "WdfUsbTargetPipeFormatRequestForWrite"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfUsbTargetPipeFormatRequestForWrite
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

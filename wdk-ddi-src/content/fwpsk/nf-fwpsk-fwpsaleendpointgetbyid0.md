@@ -10,6 +10,7 @@ keywords: ["FwpsAleEndpointGetById0 function"]
 ms.keywords: FwpsAleEndpointGetById0, FwpsAleEndpointGetById0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsAleEndpointGetById0, netvista.fwpsaleendpointgetbyid0, wfp_ref_2_funct_3_fwps_A-B_3feb07cf-ae5a-4412-a51a-8e4d4d65c31d.xml
 f1_keywords:
  - "fwpsk/FwpsAleEndpointGetById0"
+ - "FwpsAleEndpointGetById0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - fwpkclnt.dll
 api_name:
 - FwpsAleEndpointGetById0
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

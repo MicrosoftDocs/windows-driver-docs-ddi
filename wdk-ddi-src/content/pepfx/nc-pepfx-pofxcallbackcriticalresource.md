@@ -10,6 +10,7 @@ keywords: ["POFXCALLBACKCRITICALRESOURCE callback function"]
 ms.keywords: POFXCALLBACKCRITICALRESOURCE, TransitionCriticalResource, TransitionCriticalResource routine [Kernel-Mode Driver Architecture], kernel.transitioncriticalresource, pepfx/TransitionCriticalResource
 f1_keywords:
  - "pepfx/TransitionCriticalResource"
+ - "TransitionCriticalResource"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - TransitionCriticalResource
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

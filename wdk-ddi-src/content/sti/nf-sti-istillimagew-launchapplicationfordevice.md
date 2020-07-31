@@ -10,6 +10,7 @@ keywords: ["IStillImageW::LaunchApplicationForDevice"]
 ms.keywords: IStillImageW interface [Imaging Devices],LaunchApplicationForDevice method, IStillImageW.LaunchApplicationForDevice, IStillImageW::LaunchApplicationForDevice, LaunchApplicationForDevice, LaunchApplicationForDevice method [Imaging Devices], LaunchApplicationForDevice method [Imaging Devices],IStillImageW interface, image.istillimage_launchapplicationfordevice, sti/IStillImageW::LaunchApplicationForDevice, stifnc_3ecda881-3b82-4323-b739-614e4f8f78a7.xml
 f1_keywords:
  - "sti/IStillImageW.LaunchApplicationForDevice"
+ - "IStillImageW.LaunchApplicationForDevice"
 req.header: sti.h
 req.include-header: Sti.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - sti.h
 api_name:
 - IStillImageW.LaunchApplicationForDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

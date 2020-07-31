@@ -10,6 +10,7 @@ keywords: ["WdfRequestCompleteWithInformation function"]
 ms.keywords: DFRequestObjectRef_29eec73c-aa09-4814-85f9-61979df03412.xml, WdfRequestCompleteWithInformation, WdfRequestCompleteWithInformation method, kmdf.wdfrequestcompletewithinformation, wdf.wdfrequestcompletewithinformation, wdfrequest/WdfRequestCompleteWithInformation
 f1_keywords:
  - "wdfrequest/WdfRequestCompleteWithInformation"
+ - "WdfRequestCompleteWithInformation"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfRequestCompleteWithInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["CWiaLogProcEx class"]
 f1_keywords:
  - "wiamdef/CWiaLogProcEx"
+ - "CWiaLogProcEx"
 req.header: wiamdef.h
 req.include-header:
 req.target-type:

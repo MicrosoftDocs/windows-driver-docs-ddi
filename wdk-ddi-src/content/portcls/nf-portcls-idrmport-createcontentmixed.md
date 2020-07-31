@@ -8,6 +8,7 @@ ms.date: 02/20/2019
 keywords: ["IDrmPort::CreateContentMixed"]
 f1_keywords:
  - "portcls/IDrmPort.CreateContentMixed"
+ - "IDrmPort.CreateContentMixed"
 ms.keywords: IDrmPort::CreateContentMixed, CreateContentMixed, IDrmPort.CreateContentMixed, IDrmPort::CreateContentMixed, IDrmPort.CreateContentMixed
 req.header: portcls.h
 req.include-header:

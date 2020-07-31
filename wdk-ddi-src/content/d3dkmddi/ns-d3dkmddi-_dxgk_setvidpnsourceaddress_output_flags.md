@@ -9,6 +9,7 @@ keywords: ["_DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS structure"]
 ms.keywords: DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS, DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS structure [Display Devices], _DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS, d3dkmddi/DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS, display.dxgk_setvidpnsourceaddress_output_flags
 f1_keywords:
  - "d3dkmddi/DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS"
+ - "DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS

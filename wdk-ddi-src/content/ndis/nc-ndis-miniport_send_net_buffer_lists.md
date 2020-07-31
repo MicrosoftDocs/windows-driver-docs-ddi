@@ -10,6 +10,7 @@ keywords: ["MINIPORT_SEND_NET_BUFFER_LISTS callback function"]
 ms.keywords: MINIPORT_SEND_NET_BUFFER_LISTS, MINIPORT_SEND_NET_BUFFER_LISTS callback, MiniportSendNetBufferLists, MiniportSendNetBufferLists callback function [Network Drivers Starting with Windows Vista], ndis/MiniportSendNetBufferLists, ndis_sendrcv_ref_2af2df46-99cf-4bae-9dea-12358fb0b489.xml, netvista.miniportsendnetbufferlists
 f1_keywords:
  - "ndis/MiniportSendNetBufferLists"
+ - "MiniportSendNetBufferLists"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - MiniportSendNetBufferLists
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

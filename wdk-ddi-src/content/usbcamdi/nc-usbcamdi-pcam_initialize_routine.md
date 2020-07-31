@@ -10,6 +10,7 @@ keywords: ["PCAM_INITIALIZE_ROUTINE callback function"]
 ms.keywords: CamInitialize, CamUnInitialize, MyInitialize, MyInitialize routine [Streaming Media Devices], PCAM_INITIALIZE_ROUTINE, stream.caminitialize, usbcamdi/MyInitialize, usbcmdpr_77de14cb-6be6-441a-af16-ef5bf38d8d01.xml
 f1_keywords:
  - "usbcamdi/MyInitialize"
+ - "MyInitialize"
 req.header: usbcamdi.h
 req.include-header: Usbcamdi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - usbcamdi.h
 api_name:
 - MyInitialize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

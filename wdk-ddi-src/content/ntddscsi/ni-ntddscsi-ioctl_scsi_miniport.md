@@ -10,6 +10,7 @@ keywords: ["IOCTL_SCSI_MINIPORT IOCTL"]
 ms.keywords: IOCTL_SCSI_MINIPORT, IOCTL_SCSI_MINIPORT control, IOCTL_SCSI_MINIPORT control code [Storage Devices], k307_49b821f3-1a79-44aa-a6a1-92543177181d.xml, ntddscsi/IOCTL_SCSI_MINIPORT, storage.ioctl_scsi_miniport
 f1_keywords:
  - "ntddscsi/IOCTL_SCSI_MINIPORT"
+ - "IOCTL_SCSI_MINIPORT"
 req.header: ntddscsi.h
 req.include-header: Ntddscsi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddscsi.h
 api_name:
 - IOCTL_SCSI_MINIPORT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

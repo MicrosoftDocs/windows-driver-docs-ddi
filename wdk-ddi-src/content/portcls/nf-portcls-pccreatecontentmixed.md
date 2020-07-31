@@ -10,6 +10,7 @@ keywords: ["PcCreateContentMixed function"]
 ms.keywords: PcCreateContentMixed, PcCreateContentMixed function [Audio Devices], audio.pccreatecontentmixed, audpc-routines_40c3dd23-60cb-48dc-a570-1ba007a27bb2.xml, portcls/PcCreateContentMixed
 f1_keywords:
  - "portcls/PcCreateContentMixed"
+ - "PcCreateContentMixed"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Portcls.dll
 api_name:
 - PcCreateContentMixed
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

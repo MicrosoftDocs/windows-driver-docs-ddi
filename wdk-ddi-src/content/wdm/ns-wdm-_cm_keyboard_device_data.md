@@ -10,6 +10,7 @@ keywords: ["_CM_KEYBOARD_DEVICE_DATA structure"]
 ms.keywords: "*PCM_KEYBOARD_DEVICE_DATA, CM_KEYBOARD_DEVICE_DATA, CM_KEYBOARD_DEVICE_DATA structure [Kernel-Mode Driver Architecture], PCM_KEYBOARD_DEVICE_DATA, PCM_KEYBOARD_DEVICE_DATA structure pointer [Kernel-Mode Driver Architecture], _CM_KEYBOARD_DEVICE_DATA, kernel.cm_keyboard_device_data, kstruct_a_db7af30d-3698-4c1a-b1ee-9b7e95e7b5fd.xml, wdm/CM_KEYBOARD_DEVICE_DATA, wdm/PCM_KEYBOARD_DEVICE_DATA"
 f1_keywords:
  - "wdm/CM_KEYBOARD_DEVICE_DATA"
+ - "CM_KEYBOARD_DEVICE_DATA"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - CM_KEYBOARD_DEVICE_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: CM_KEYBOARD_DEVICE_DATA, *PCM_KEYBOARD_DEVICE_DATA
 ---

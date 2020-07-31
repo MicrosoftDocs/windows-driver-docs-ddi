@@ -10,6 +10,7 @@ keywords: ["NFC_CX_RF_DISCOVERY_CONFIG_INIT function"]
 ms.keywords: NFC_CX_RF_DISCOVERY_CONFIG_INIT, NFC_CX_RF_DISCOVERY_CONFIG_INIT function [Near-Field Proximity Drivers], nfccx/NFC_CX_RF_DISCOVERY_CONFIG_INIT, nfpdrivers.nfc_cx_rf_discovery_config_init
 f1_keywords:
  - "nfccx/NFC_CX_RF_DISCOVERY_CONFIG_INIT"
+ - "NFC_CX_RF_DISCOVERY_CONFIG_INIT"
 req.header: nfccx.h
 req.include-header: Ncidef.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - nfccxstub.dll
 api_name:
 - NFC_CX_RF_DISCOVERY_CONFIG_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

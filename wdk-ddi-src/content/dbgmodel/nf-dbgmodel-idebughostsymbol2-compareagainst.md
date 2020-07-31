@@ -7,6 +7,7 @@ ms.date: 09/20/2018
 keywords: ["IDebugHostSymbol2::CompareAgainst"]
 f1_keywords:
  - "dbgmodel/IDebugHostSymbol2.CompareAgainst"
+ - "IDebugHostSymbol2.CompareAgainst"
 ms.keywords: IDebugHostSymbol2::CompareAgainst, CompareAgainst, IDebugHostSymbol2.CompareAgainst, IDebugHostSymbol2::CompareAgainst, IDebugHostSymbol2.CompareAgainst
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostSymbol2.CompareAgainst
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

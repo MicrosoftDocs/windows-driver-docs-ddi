@@ -10,6 +10,7 @@ keywords: ["RtlUInt8Add function"]
 ms.keywords: RtlUInt8Add, RtlUInt8Add function [Kernel-Mode Driver Architecture], kernel.rtluint8add, ntintsafe/RtlUInt8Add
 f1_keywords:
  - "ntintsafe/RtlUInt8Add"
+ - "RtlUInt8Add"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Ntintsafe.h
 api_name:
 - RtlUInt8Add
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

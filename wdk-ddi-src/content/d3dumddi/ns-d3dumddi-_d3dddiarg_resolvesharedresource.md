@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_RESOLVESHAREDRESOURCE structure"]
 ms.keywords: D3DDDIARG_RESOLVESHAREDRESOURCE, D3DDDIARG_RESOLVESHAREDRESOURCE structure [Display Devices], UMDisplayDriver_param_Structs_94131b1d-aa0e-4d9a-92b5-baca06cf8247.xml, _D3DDDIARG_RESOLVESHAREDRESOURCE, d3dumddi/D3DDDIARG_RESOLVESHAREDRESOURCE, display.d3dddiarg_resolvesharedresource
 f1_keywords:
  - "d3dumddi/D3DDDIARG_RESOLVESHAREDRESOURCE"
+ - "D3DDDIARG_RESOLVESHAREDRESOURCE"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDIARG_RESOLVESHAREDRESOURCE
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_RESOLVESHAREDRESOURCE
 ---

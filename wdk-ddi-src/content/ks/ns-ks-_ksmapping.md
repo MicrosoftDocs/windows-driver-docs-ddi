@@ -10,6 +10,7 @@ keywords: ["_KSMAPPING structure"]
 ms.keywords: "*PKSMAPPING, KSMAPPING, KSMAPPING structure [Streaming Media Devices], PKSMAPPING, PKSMAPPING structure pointer [Streaming Media Devices], _KSMAPPING, avstruct_65f80fd5-14a6-431b-a1b6-e6c3d18302d3.xml, ks/KSMAPPING, ks/PKSMAPPING, stream.ksmapping"
 f1_keywords:
  - "ks/KSMAPPING"
+ - "KSMAPPING"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KSMAPPING
-product:
-- Windows
 targetos: Windows
 req.typenames: KSMAPPING, *PKSMAPPING
 ---

@@ -10,6 +10,7 @@ keywords: ["CcPinRead function"]
 ms.keywords: CcPinRead, CcPinRead routine [Installable File System Drivers], ccref_f6bbe780-631d-48f8-979f-6ed4260cbe5d.xml, ifsk.ccpinread, ntifs/CcPinRead
 f1_keywords:
  - "ntifs/CcPinRead"
+ - "CcPinRead"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - CcPinRead
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["MINIPORT_WDI_TX_PEER_BACKLOG callback function"]
 ms.keywords: MINIPORT_WDI_TX_PEER_BACKLOG, MINIPORT_WDI_TX_PEER_BACKLOG callback, MiniportWdiTxPeerBacklog, MiniportWdiTxPeerBacklog callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTxPeerBacklog, netvista.miniportwditxpeerbacklog
 f1_keywords:
  - "dot11wdi/MiniportWdiTxPeerBacklog"
+ - "MiniportWdiTxPeerBacklog"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dot11wdi.h
 api_name:
 - MiniportWdiTxPeerBacklog
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["UcxEndpointGetStaticStreamsReferenced function"]
 ms.keywords: UcxEndpointGetStaticStreamsReferenced, UcxEndpointGetStaticStreamsReferenced method [Buses], buses._ucxendpointgetstaticstreamsreferenced, ucxendpoint/UcxEndpointGetStaticStreamsReferenced
 f1_keywords:
  - "ucxendpoint/UcxEndpointGetStaticStreamsReferenced"
+ - "UcxEndpointGetStaticStreamsReferenced"
 req.header: ucxendpoint.h
 req.include-header: Ucxclass.h, Ucxendpoint.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ucxendpoint.h
 api_name:
 - UcxEndpointGetStaticStreamsReferenced
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

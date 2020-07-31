@@ -10,6 +10,7 @@ keywords: ["KsPinGetTrailingEdgeStreamPointer function"]
 ms.keywords: KsPinGetTrailingEdgeStreamPointer, KsPinGetTrailingEdgeStreamPointer function [Streaming Media Devices], avfunc_3fd3182e-6e4d-4654-9de7-e9cea1086e3e.xml, ks/KsPinGetTrailingEdgeStreamPointer, stream.kspingettrailingedgestreampointer
 f1_keywords:
  - "ks/KsPinGetTrailingEdgeStreamPointer"
+ - "KsPinGetTrailingEdgeStreamPointer"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsPinGetTrailingEdgeStreamPointer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IWiaMiniDrv::drvUnLockWiaDevice"]
 ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvUnLockWiaDevice method, IWiaMiniDrv.drvUnLockWiaDevice, IWiaMiniDrv::drvUnLockWiaDevice, MiniDrv_596d3499-1e4a-4147-838f-db4f56f30716.xml, drvUnLockWiaDevice, drvUnLockWiaDevice method [Imaging Devices], drvUnLockWiaDevice method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvunlockwiadevice, wiamindr_lh/IWiaMiniDrv::drvUnLockWiaDevice
 f1_keywords:
  - "wiamindr_lh/IWiaMiniDrv.drvUnLockWiaDevice"
+ - "IWiaMiniDrv.drvUnLockWiaDevice"
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wiamindr_lh.h
 api_name:
 - IWiaMiniDrv.drvUnLockWiaDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

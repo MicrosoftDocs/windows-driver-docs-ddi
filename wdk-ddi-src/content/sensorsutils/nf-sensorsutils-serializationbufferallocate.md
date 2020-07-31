@@ -8,6 +8,7 @@ keywords: ["SerializationBufferAllocate function"]
 tech.root: sensors
 f1_keywords:
  - "sensorsutils/SerializationBufferAllocate"
+ - "SerializationBufferAllocate"
 ms.keywords: SerializationBufferAllocate
 req.header: sensorsutils.h
 req.include-header:

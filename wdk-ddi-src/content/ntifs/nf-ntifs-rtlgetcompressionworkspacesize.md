@@ -10,6 +10,7 @@ keywords: ["RtlGetCompressionWorkSpaceSize function"]
 ms.keywords: RtlGetCompressionWorkSpaceSize, RtlGetCompressionWorkSpaceSize function [Installable File System Drivers], ifsk.rtlgetcompressionworkspacesize, ntifs/RtlGetCompressionWorkSpaceSize, rtlref_26332738-6278-49f9-b948-87bcb7e68c83.xml
 f1_keywords:
  - "ntifs/RtlGetCompressionWorkSpaceSize"
+ - "RtlGetCompressionWorkSpaceSize"
 req.header: ntifs.h
 req.include-header: Fltkernel.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlGetCompressionWorkSpaceSize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

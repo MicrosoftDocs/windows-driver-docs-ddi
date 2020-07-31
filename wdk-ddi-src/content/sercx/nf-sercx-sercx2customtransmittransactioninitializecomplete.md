@@ -10,6 +10,7 @@ keywords: ["SerCx2CustomTransmitTransactionInitializeComplete function"]
 ms.keywords: 2/SerCx2CustomTransmitTransactionInitializeComplete, SerCx2CustomTransmitTransactionInitializeComplete, SerCx2CustomTransmitTransactionInitializeComplete method [Serial Ports], serports.sercx2customtransmittransactioninitializecomplete
 f1_keywords:
  - "sercx/SerCx2CustomTransmitTransactionInitializeComplete"
+ - "SerCx2CustomTransmitTransactionInitializeComplete"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - 2.0\Sercx.h
 api_name:
 - SerCx2CustomTransmitTransactionInitializeComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

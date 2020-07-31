@@ -7,6 +7,7 @@ ms.date: 08/01/2018
 keywords: ["RealModulo function"]
 f1_keywords:
  - "math3dhelper/RealModulo"
+ - "RealModulo"
 tech.root: sensors
 ms.keywords: RealModulo, math3dhelper
 req.header: math3dhelper.h

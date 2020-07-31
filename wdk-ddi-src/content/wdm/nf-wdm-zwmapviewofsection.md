@@ -10,6 +10,7 @@ keywords: ["ZwMapViewOfSection function"]
 ms.keywords: NtMapViewOfSection, ZwMapViewOfSection, ZwMapViewOfSection routine [Kernel-Mode Driver Architecture], k111_cdad5afa-13b3-415e-96e8-688e7984a9fd.xml, kernel.zwmapviewofsection, wdm/NtMapViewOfSection, wdm/ZwMapViewOfSection
 f1_keywords:
  - "wdm/ZwMapViewOfSection"
+ - "ZwMapViewOfSection"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - ZwMapViewOfSection
 - NtMapViewOfSection
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["_NET_BUFFER_LIST_DATA structure"]
 ms.keywords: "*PNET_BUFFER_LIST_DATA, NET_BUFFER_LIST_DATA, NET_BUFFER_LIST_DATA structure [Network Drivers Starting with Windows Vista], PNET_BUFFER_LIST_DATA, PNET_BUFFER_LIST_DATA structure pointer [Network Drivers Starting with Windows Vista], _NET_BUFFER_LIST_DATA, ndis/NET_BUFFER_LIST_DATA, ndis/PNET_BUFFER_LIST_DATA, ndis_netbuf_structures_ref_1ce577dd-1eec-4ba6-94cb-3e37c205630d.xml, netvista.net_buffer_list_data"
 f1_keywords:
  - "ndis/NET_BUFFER_LIST_DATA"
+ - "NET_BUFFER_LIST_DATA"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NET_BUFFER_LIST_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: NET_BUFFER_LIST_DATA, *PNET_BUFFER_LIST_DATA
 ---

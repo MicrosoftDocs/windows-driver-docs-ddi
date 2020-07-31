@@ -10,6 +10,7 @@ keywords: ["RtlUIntPtrSub function"]
 ms.keywords: RtlUIntPtrSub, RtlUIntPtrSub function [Kernel-Mode Driver Architecture], kernel.rtluintptrsub, ntintsafe/RtlUIntPtrSub
 f1_keywords:
  - "ntintsafe/RtlUIntPtrSub"
+ - "RtlUIntPtrSub"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Ntintsafe.h
 api_name:
 - RtlUIntPtrSub
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

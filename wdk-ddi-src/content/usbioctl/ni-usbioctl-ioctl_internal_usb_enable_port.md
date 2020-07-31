@@ -10,6 +10,7 @@ keywords: ["IOCTL_INTERNAL_USB_ENABLE_PORT IOCTL"]
 ms.keywords: IOCTL_INTERNAL_USB_ENABLE_PORT, IOCTL_INTERNAL_USB_ENABLE_PORT control, IOCTL_INTERNAL_USB_ENABLE_PORT control code [Buses], buses.ioctl_internal_usb_enable_port, usbioctl/IOCTL_INTERNAL_USB_ENABLE_PORT, usbirp_eee71b69-fc0a-446a-807b-6f776e634c9d.xml
 f1_keywords:
  - "usbioctl/IOCTL_INTERNAL_USB_ENABLE_PORT"
+ - "IOCTL_INTERNAL_USB_ENABLE_PORT"
 req.header: usbioctl.h
 req.include-header: Usbioctl.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - usbioctl.h
 api_name:
 - IOCTL_INTERNAL_USB_ENABLE_PORT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

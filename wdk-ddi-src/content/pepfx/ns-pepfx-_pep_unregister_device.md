@@ -10,6 +10,7 @@ keywords: ["_PEP_UNREGISTER_DEVICE structure"]
 ms.keywords: "*PPEP_UNREGISTER_DEVICE, PEP_UNREGISTER_DEVICE, PEP_UNREGISTER_DEVICE structure [Kernel-Mode Driver Architecture], PPEP_UNREGISTER_DEVICE, PPEP_UNREGISTER_DEVICE structure pointer [Kernel-Mode Driver Architecture], _PEP_UNREGISTER_DEVICE, kernel.pep_unregister_device, pepfx/PEP_UNREGISTER_DEVICE, pepfx/PPEP_UNREGISTER_DEVICE"
 f1_keywords:
  - "pepfx/PEP_UNREGISTER_DEVICE"
+ - "PEP_UNREGISTER_DEVICE"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - PEP_UNREGISTER_DEVICE
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_UNREGISTER_DEVICE, *PPEP_UNREGISTER_DEVICE
 ---

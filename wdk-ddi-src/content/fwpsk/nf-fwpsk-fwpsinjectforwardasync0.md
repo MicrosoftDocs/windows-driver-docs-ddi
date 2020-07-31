@@ -10,6 +10,7 @@ keywords: ["FwpsInjectForwardAsync0 function"]
 ms.keywords: FwpsInjectForwardAsync0, FwpsInjectForwardAsync0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsInjectForwardAsync0, netvista.fwpsinjectforwardasync0, wfp_ref_2_funct_3_fwps_I_3aa5a7a1-da9d-478e-b8fe-0effc99a1fa5.xml
 f1_keywords:
  - "fwpsk/FwpsInjectForwardAsync0"
+ - "FwpsInjectForwardAsync0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - fwpkclnt.dll
 api_name:
 - FwpsInjectForwardAsync0
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

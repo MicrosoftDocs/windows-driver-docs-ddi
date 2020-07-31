@@ -10,6 +10,7 @@ keywords: ["WdfWmiInstanceGetDevice function"]
 ms.keywords: DFWMIRef_adc116bf-d2bc-41b0-8d1d-5cc90440d778.xml, WdfWmiInstanceGetDevice, WdfWmiInstanceGetDevice method, kmdf.wdfwmiinstancegetdevice, wdf.wdfwmiinstancegetdevice, wdfwmi/WdfWmiInstanceGetDevice
 f1_keywords:
  - "wdfwmi/WdfWmiInstanceGetDevice"
+ - "WdfWmiInstanceGetDevice"
 req.header: wdfwmi.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfWmiInstanceGetDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

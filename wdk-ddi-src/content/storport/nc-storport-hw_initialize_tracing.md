@@ -10,6 +10,7 @@ keywords: ["HW_INITIALIZE_TRACING callback function"]
 ms.keywords: HW_INITIALIZE_TRACING, HwStorInitializeTracing, HwStorInitializeTracing routine [Storage Devices], storage.hwstorinitializetracing, storport/HwStorInitializeTracing, storvmini_0c53c6e6-7c5c-4400-b923-c03a7756614f.xml
 f1_keywords:
  - "storport/HwStorInitializeTracing"
+ - "HwStorInitializeTracing"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Storport.h
 api_name:
 - HwStorInitializeTracing
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

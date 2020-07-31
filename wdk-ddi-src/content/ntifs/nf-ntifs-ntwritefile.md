@@ -10,6 +10,7 @@ keywords: ["NtWriteFile function"]
 ms.keywords: NtWriteFile, ZwWriteFile, ZwWriteFile routine [Kernel-Mode Driver Architecture], k111_97437555-3cb5-497b-8ebb-c683771da9f4.xml, kernel.zwwritefile, wdm/NtWriteFile, wdm/ZwWriteFile
 f1_keywords:
  - "ntifs/ZwWriteFile"
+ - "ZwWriteFile"
 req.header: ntifs.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - ZwWriteFile
 - NtWriteFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

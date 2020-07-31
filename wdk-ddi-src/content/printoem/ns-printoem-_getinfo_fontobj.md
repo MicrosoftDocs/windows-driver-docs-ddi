@@ -10,6 +10,7 @@ keywords: ["_GETINFO_FONTOBJ structure"]
 ms.keywords: "*PGETINFO_FONTOBJ, GETINFO_FONTOBJ, GETINFO_FONTOBJ structure [Print Devices], PGETINFO_FONTOBJ, PGETINFO_FONTOBJ structure pointer [Print Devices], _GETINFO_FONTOBJ, print.getinfo_fontobj, print_unidrv-pscript_rendering_2fdbe41f-95af-46ef-be82-04c1dc02297f.xml, printoem/GETINFO_FONTOBJ, printoem/PGETINFO_FONTOBJ"
 f1_keywords:
  - "printoem/GETINFO_FONTOBJ"
+ - "GETINFO_FONTOBJ"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - printoem.h
 api_name:
 - GETINFO_FONTOBJ
-product:
-- Windows
 targetos: Windows
 req.typenames: GETINFO_FONTOBJ, *PGETINFO_FONTOBJ
 ---

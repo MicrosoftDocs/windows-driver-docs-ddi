@@ -10,6 +10,7 @@ keywords: ["_CIP_HDR2_SYT structure"]
 ms.keywords: "*PCIP_HDR2_SYT, CIP_HDR2_SYT, CIP_HDR2_SYT structure [Streaming Media Devices], PCIP_HDR2_SYT, PCIP_HDR2_SYT structure pointer [Streaming Media Devices], _CIP_HDR2_SYT, avcsref_1ea551ca-5d40-4bc3-bc54-b736fd6a2b23.xml, avcstrm/CIP_HDR2_SYT, avcstrm/PCIP_HDR2_SYT, stream.cip_hdr2_syt"
 f1_keywords:
  - "avcstrm/CIP_HDR2_SYT"
+ - "CIP_HDR2_SYT"
 req.header: avcstrm.h
 req.include-header: Avcstrm.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - avcstrm.h
 api_name:
 - CIP_HDR2_SYT
-product:
-- Windows
 targetos: Windows
 req.typenames: CIP_HDR2_SYT, *PCIP_HDR2_SYT
 ---

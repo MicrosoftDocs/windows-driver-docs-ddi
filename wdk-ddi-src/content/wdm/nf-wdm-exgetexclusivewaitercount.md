@@ -10,6 +10,7 @@ keywords: ["ExGetExclusiveWaiterCount function"]
 ms.keywords: ExGetExclusiveWaiterCount, ExGetExclusiveWaiterCount routine [Kernel-Mode Driver Architecture], k102_bd65d9e8-06bf-4492-88f1-bfd4e46fb29e.xml, kernel.exgetexclusivewaitercount, wdm/ExGetExclusiveWaiterCount
 f1_keywords:
  - "wdm/ExGetExclusiveWaiterCount"
+ - "ExGetExclusiveWaiterCount"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - ExGetExclusiveWaiterCount
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

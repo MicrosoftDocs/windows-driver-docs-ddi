@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_DESTROYHWCONTEXT structure"]
 ms.keywords: D3DKMT_DESTROYHWCONTEXT, D3DKMT_DESTROYHWCONTEXT structure [Display Devices], _D3DKMT_DESTROYHWCONTEXT, d3dkmthk/D3DKMT_DESTROYHWCONTEXT, display.d3dkmt_destroyhwcontext
 f1_keywords:
  - "d3dkmthk/D3DKMT_DESTROYHWCONTEXT"
+ - "D3DKMT_DESTROYHWCONTEXT"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMT_DESTROYHWCONTEXT
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_DESTROYHWCONTEXT

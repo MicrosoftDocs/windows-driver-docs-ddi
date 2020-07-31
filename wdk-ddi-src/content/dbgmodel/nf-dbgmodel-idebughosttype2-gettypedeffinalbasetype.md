@@ -7,6 +7,7 @@ ms.date: 09/20/2018
 keywords: ["IDebugHostType2::GetTypedefFinalBaseType"]
 f1_keywords:
  - "dbgmodel/IDebugHostType2.GetTypedefFinalBaseType"
+ - "IDebugHostType2.GetTypedefFinalBaseType"
 ms.keywords: IDebugHostType2::GetTypedefFinalBaseType, GetTypedefFinalBaseType, IDebugHostType2.GetTypedefFinalBaseType, IDebugHostType2::GetTypedefFinalBaseType, IDebugHostType2.GetTypedefFinalBaseType
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostType2.GetTypedefFinalBaseType
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

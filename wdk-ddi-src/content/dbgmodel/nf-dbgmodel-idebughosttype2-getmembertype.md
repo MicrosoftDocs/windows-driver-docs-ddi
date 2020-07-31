@@ -7,6 +7,7 @@ ms.date: 09/20/2018
 keywords: ["IDebugHostType2::GetMemberType"]
 f1_keywords:
  - "dbgmodel/IDebugHostType2.GetMemberType"
+ - "IDebugHostType2.GetMemberType"
 ms.keywords: IDebugHostType2::GetMemberType, GetMemberType, IDebugHostType2.GetMemberType, IDebugHostType2::GetMemberType, IDebugHostType2.GetMemberType
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostType2.GetMemberType
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

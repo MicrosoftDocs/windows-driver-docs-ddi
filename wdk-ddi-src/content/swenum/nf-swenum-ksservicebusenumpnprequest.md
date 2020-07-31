@@ -10,6 +10,7 @@ keywords: ["KsServiceBusEnumPnpRequest function"]
 ms.keywords: KsServiceBusEnumPnpRequest, KsServiceBusEnumPnpRequest function [Streaming Media Devices], ksfunc_eb0bfe3e-a401-4941-8b68-a9de970c2b1e.xml, stream.ksservicebusenumpnprequest, swenum/KsServiceBusEnumPnpRequest
 f1_keywords:
  - "swenum/KsServiceBusEnumPnpRequest"
+ - "KsServiceBusEnumPnpRequest"
 req.header: swenum.h
 req.include-header: Swenum.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsServiceBusEnumPnpRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

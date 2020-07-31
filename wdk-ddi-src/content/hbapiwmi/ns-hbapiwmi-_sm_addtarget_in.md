@@ -10,6 +10,7 @@ keywords: ["_SM_AddTarget_IN structure"]
 ms.keywords: "*PSM_AddTarget_IN, PSM_AddTarget_IN, PSM_AddTarget_IN structure pointer [Storage Devices], SM_AddTarget_IN, SM_AddTarget_IN structure [Storage Devices], _SM_AddTarget_IN, hbapiwmi/PSM_AddTarget_IN, hbapiwmi/SM_AddTarget_IN, storage.sm_addtarget_in, structs-Fibre_5be38245-d926-427e-bad7-2d537495eb88.xml"
 f1_keywords:
  - "hbapiwmi/SM_AddTarget_IN"
+ - "SM_AddTarget_IN"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - SM_AddTarget_IN
-product:
-- Windows
 targetos: Windows
 req.typenames: SM_AddTarget_IN, *PSM_AddTarget_IN
 ---

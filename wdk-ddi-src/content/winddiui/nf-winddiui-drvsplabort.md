@@ -10,6 +10,7 @@ keywords: ["DrvSplAbort function"]
 ms.keywords: DrvSplAbort, DrvSplAbort function [Print Devices], print.drvsplabort, print_interface-graphics_78bb32ad-7688-4ea9-9369-93db9d2eea96.xml, winddiui/DrvSplAbort
 f1_keywords:
  - "winddiui/DrvSplAbort"
+ - "DrvSplAbort"
 req.header: winddiui.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - winddiui.h
 api_name:
 - DrvSplAbort
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

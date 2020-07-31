@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["RtlGetPersistedStateLocation function"]
 f1_keywords:
  - "ntddk/RtlGetPersistedStateLocation"
+ - "RtlGetPersistedStateLocation"
 ms.keywords: RtlGetPersistedStateLocation
 req.header: ntddk.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - NtosKrnl.exe
 api_name: 
 - RtlGetPersistedStateLocation
-product:
-- Windows
 targetos: Windows
 
 ---

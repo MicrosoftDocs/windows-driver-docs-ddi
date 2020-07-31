@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_VIDEOPROCESSBLT structure"]
 ms.keywords: D3DDDIARG_VIDEOPROCESSBLT, D3DDDIARG_VIDEOPROCESSBLT structure [Display Devices], UMDisplayDriver_param_Structs_feb8d240-92ee-45b9-a07e-50b89f906fbe.xml, _D3DDDIARG_VIDEOPROCESSBLT, d3dumddi/D3DDDIARG_VIDEOPROCESSBLT, display.d3dddiarg_videoprocessblt
 f1_keywords:
  - "d3dumddi/D3DDDIARG_VIDEOPROCESSBLT"
+ - "D3DDDIARG_VIDEOPROCESSBLT"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDIARG_VIDEOPROCESSBLT
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_VIDEOPROCESSBLT
 ---

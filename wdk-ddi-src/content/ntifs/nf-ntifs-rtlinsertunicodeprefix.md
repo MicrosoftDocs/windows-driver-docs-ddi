@@ -10,6 +10,7 @@ keywords: ["RtlInsertUnicodePrefix function"]
 ms.keywords: RtlInsertUnicodePrefix, RtlInsertUnicodePrefix routine [Installable File System Drivers], ifsk.rtlinsertunicodeprefix, ntifs/RtlInsertUnicodePrefix, rtlref_5c8e1a42-5c73-4029-9c1f-5426e43e123c.xml
 f1_keywords:
  - "ntifs/RtlInsertUnicodePrefix"
+ - "RtlInsertUnicodePrefix"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlInsertUnicodePrefix
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

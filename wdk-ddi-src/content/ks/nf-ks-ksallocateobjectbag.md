@@ -10,6 +10,7 @@ keywords: ["KsAllocateObjectBag function"]
 ms.keywords: KsAllocateObjectBag, KsAllocateObjectBag function [Streaming Media Devices], avfunc_a76be7a0-6dfa-4428-8317-4a8df31dec6e.xml, ks/KsAllocateObjectBag, stream.ksallocateobjectbag
 f1_keywords:
  - "ks/KsAllocateObjectBag"
+ - "KsAllocateObjectBag"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsAllocateObjectBag
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

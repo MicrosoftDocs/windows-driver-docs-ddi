@@ -10,6 +10,7 @@ keywords: ["KSEVENT_ITEM structure"]
 ms.keywords: "*PKSEVENT_ITEM, KSEVENT_ITEM, KSEVENT_ITEM structure [Streaming Media Devices], PKSEVENT_ITEM, PKSEVENT_ITEM structure pointer [Streaming Media Devices], ks-struct_1e126443-3eef-4e67-9969-69c3a4aaa17c.xml, ks/KSEVENT_ITEM, ks/PKSEVENT_ITEM, stream.ksevent_item"
 f1_keywords:
  - "ks/KSEVENT_ITEM"
+ - "KSEVENT_ITEM"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KSEVENT_ITEM
-product:
-- Windows
 targetos: Windows
 req.typenames: KSEVENT_ITEM, *PKSEVENT_ITEM
 ---

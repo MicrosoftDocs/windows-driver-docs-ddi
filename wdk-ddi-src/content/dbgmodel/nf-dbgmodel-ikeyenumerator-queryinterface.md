@@ -7,6 +7,7 @@ ms.date: 08/13/2018
 keywords: ["IKeyEnumerator::QueryInterface"]
 f1_keywords:
  - "dbgmodel/IKeyEnumerator.QueryInterface"
+ - "IKeyEnumerator.QueryInterface"
 ms.keywords: IKeyEnumerator::QueryInterface, QueryInterface, IKeyEnumerator.QueryInterface, IKeyEnumerator::QueryInterface, IKeyEnumerator.QueryInterface
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IKeyEnumerator.QueryInterface
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

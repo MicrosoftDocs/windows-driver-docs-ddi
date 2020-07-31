@@ -10,6 +10,7 @@ keywords: ["IDebugControl4::GetTextMacroWide"]
 ms.keywords: GetTextMacroWide, GetTextMacroWide method [Windows Debugging], GetTextMacroWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetTextMacroWide method, IDebugControl4.GetTextMacroWide, IDebugControl4::GetTextMacroWide, dbgeng/IDebugControl4::GetTextMacroWide, debugger.gettextmacrowide
 f1_keywords:
  - "dbgeng/IDebugControl4.GetTextMacroWide"
+ - "IDebugControl4.GetTextMacroWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugControl4.GetTextMacroWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

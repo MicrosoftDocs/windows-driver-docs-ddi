@@ -10,6 +10,7 @@ keywords: ["IDebugEventCallbacksWide::ChangeEngineState"]
 ms.keywords: ChangeEngineState, ChangeEngineState method [Windows Debugging], ChangeEngineState method [Windows Debugging],IDebugEventCallbacksWide interface, IDebugEventCallbacksWide interface [Windows Debugging],ChangeEngineState method, IDebugEventCallbacksWide.ChangeEngineState, IDebugEventCallbacksWide::ChangeEngineState, dbgeng/IDebugEventCallbacksWide::ChangeEngineState, debugger.idebugeventcallbackswide_changeenginestate
 f1_keywords:
  - "dbgeng/IDebugEventCallbacksWide.ChangeEngineState"
+ - "IDebugEventCallbacksWide.ChangeEngineState"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugEventCallbacksWide.ChangeEngineState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

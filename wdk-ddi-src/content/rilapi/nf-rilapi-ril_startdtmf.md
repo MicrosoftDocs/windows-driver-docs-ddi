@@ -10,6 +10,7 @@ keywords: ["RIL_StartDTMF function"]
 ms.keywords: RIL_StartDTMF, RIL_StartDTMF method [Network Drivers Starting with Windows Vista], netvista.ril_startdtmf, rilapi/RIL_StartDTMF
 f1_keywords:
  - "rilapi/RIL_StartDTMF"
+ - "RIL_StartDTMF"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_StartDTMF
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

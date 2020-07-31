@@ -10,6 +10,7 @@ keywords: ["WdfRequestRetrieveInputWdmMdl function"]
 ms.keywords: DFRequestObjectRef_d65a1869-de52-4284-818f-a3f0837d0374.xml, WdfRequestRetrieveInputWdmMdl, WdfRequestRetrieveInputWdmMdl method, kmdf.wdfrequestretrieveinputwdmmdl, wdf.wdfrequestretrieveinputwdmmdl, wdfrequest/WdfRequestRetrieveInputWdmMdl
 f1_keywords:
  - "wdfrequest/WdfRequestRetrieveInputWdmMdl"
+ - "WdfRequestRetrieveInputWdmMdl"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfRequestRetrieveInputWdmMdl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

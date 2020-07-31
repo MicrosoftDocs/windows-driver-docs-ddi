@@ -9,6 +9,7 @@ keywords: ["D3DKMTGetSharedResourceAdapterLuid function"]
 ms.keywords: D3DKMTGetSharedResourceAdapterLuid, D3DKMTGetSharedResourceAdapterLuid function [Display Devices], d3dkmthk/D3DKMTGetSharedResourceAdapterLuid, display.d3dkmtgetsharedresourceadapterluid
 f1_keywords:
  - "d3dkmthk/D3DKMTGetSharedResourceAdapterLuid"
+ - "D3DKMTGetSharedResourceAdapterLuid"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -38,8 +39,6 @@ api_location:
 - API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 - D3DKMTGetSharedResourceAdapterLuid
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

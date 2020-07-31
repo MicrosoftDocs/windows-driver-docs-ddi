@@ -10,6 +10,7 @@ keywords: ["KSRTAUDIO_SETWRITEPACKET_INFO structure"]
 ms.keywords: "*PKSRTAUDIO_SETWRITEPACKET_INFO, KSRTAUDIO_SETWRITEPACKET_INFO, KSRTAUDIO_SETWRITEPACKET_INFO structure [Audio Devices], PKSRTAUDIO_SETWRITEPACKET_INFO, PKSRTAUDIO_SETWRITEPACKET_INFO structure pointer [Audio Devices], audio.ksrtaudio_setwritepacket_info, ksmedia/KSRTAUDIO_SETWRITEPACKET_INFO, ksmedia/PKSRTAUDIO_SETWRITEPACKET_INFO"
 f1_keywords:
  - "ksmedia/KSRTAUDIO_SETWRITEPACKET_INFO"
+ - "KSRTAUDIO_SETWRITEPACKET_INFO"
 req.header: ksmedia.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KSRTAUDIO_SETWRITEPACKET_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: KSRTAUDIO_SETWRITEPACKET_INFO, *PKSRTAUDIO_SETWRITEPACKET_INFO
 ---

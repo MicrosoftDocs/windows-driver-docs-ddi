@@ -10,6 +10,7 @@ keywords: ["IPrinterExtensionContext::get_DriverProperties"]
 ms.keywords: DriverProperties property [Print Devices], DriverProperties property [Print Devices],IPrinterExtensionContext interface, IPrinterExtensionContext interface [Print Devices],DriverProperties property, IPrinterExtensionContext.DriverProperties, IPrinterExtensionContext.get_DriverProperties, IPrinterExtensionContext::DriverProperties, IPrinterExtensionContext::get_DriverProperties, get_DriverProperties, print.iprinterextensioncontext_driverproperties, printerextension/IPrinterExtensionContext::DriverProperties, printerextension/IPrinterExtensionContext::get_DriverProperties
 f1_keywords:
  - "printerextension/IPrinterExtensionContext.DriverProperties"
+ - "IPrinterExtensionContext.DriverProperties"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IPrinterExtensionContext.DriverProperties
 - IPrinterExtensionContext.get_DriverProperties
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

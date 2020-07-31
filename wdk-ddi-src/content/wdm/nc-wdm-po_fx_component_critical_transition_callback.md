@@ -10,6 +10,7 @@ keywords: ["PO_FX_COMPONENT_CRITICAL_TRANSITION_CALLBACK callback function"]
 ms.keywords: ComponentCriticalTransitionCallback, ComponentCriticalTransitionCallback routine [Kernel-Mode Driver Architecture], PO_FX_COMPONENT_CRITICAL_TRANSITION_CALLBACK, kernel.componentcriticaltransitioncallback, wdm/ComponentCriticalTransitionCallback
 f1_keywords:
  - "wdm/ComponentCriticalTransitionCallback"
+ - "ComponentCriticalTransitionCallback"
 req.header: wdm.h
 req.include-header: Wudfwdm.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - ComponentCriticalTransitionCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

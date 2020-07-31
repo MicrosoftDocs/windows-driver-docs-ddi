@@ -10,6 +10,7 @@ keywords: ["IKsReferenceClock interface"]
 ms.keywords: IKsReferenceClock, IKsReferenceClock interface [Streaming Media Devices], IKsReferenceClock interface [Streaming Media Devices],described, avintfc_7146002a-d8ab-4789-b752-863f8b2d94d2.xml, ks/IKsReferenceClock, stream.iksreferenceclock
 f1_keywords:
  - "ks/IKsReferenceClock"
+ - "IKsReferenceClock"
 req.header: ks.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - IKsReferenceClock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: 19H1
@@ -51,7 +50,7 @@ The **IKsReferenceClock** interface is a COM-style interface that is provided by
 
 ## -inheritance
 
-The **IKsReferenceClock** interface inherits from the [IUnknown](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface.
+The **IKsReferenceClock** interface inherits from the [IUnknown](https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown) interface.
 
 ## -remarks
 

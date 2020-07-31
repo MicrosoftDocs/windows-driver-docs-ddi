@@ -10,6 +10,7 @@ keywords: ["_CDROM_OPC_INFO_TYPE enumeration"]
 ms.keywords: "*PCDROM_OPC_INFO_TYPE, CDROM_OPC_INFO_TYPE, CDROM_OPC_INFO_TYPE enumeration [Storage Devices], PCDROM_OPC_INFO_TYPE, PCDROM_OPC_INFO_TYPE enumeration pointer [Storage Devices], SimpleOpcInfo, _CDROM_OPC_INFO_TYPE, ntddcdrm/CDROM_OPC_INFO_TYPE, ntddcdrm/PCDROM_OPC_INFO_TYPE, ntddcdrm/SimpleOpcInfo, storage.cdrom_opc_info_type"
 f1_keywords:
  - "ntddcdrm/CDROM_OPC_INFO_TYPE"
+ - "CDROM_OPC_INFO_TYPE"
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddcdrm.h
 api_name:
 - CDROM_OPC_INFO_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: CDROM_OPC_INFO_TYPE, *PCDROM_OPC_INFO_TYPE
 ---

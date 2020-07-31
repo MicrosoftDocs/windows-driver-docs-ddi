@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["IOCTL_GPUP_DRIVER_ESCAPE IOCTL"]
 f1_keywords:
  - "d3dukmdt/IOCTL_GPUP_DRIVER_ESCAPE"
+ - "IOCTL_GPUP_DRIVER_ESCAPE"
 req.header: d3dukmdt.h
 req.include-header:
 req.target-type:
@@ -27,8 +28,6 @@ api_location:
 - d3dukmdt.h
 api_name: 
 - IOCTL_GPUP_DRIVER_ESCAPE
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

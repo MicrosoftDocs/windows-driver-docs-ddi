@@ -10,6 +10,7 @@ keywords: ["WdfUsbTargetPipeFormatRequestForUrb function"]
 ms.keywords: DFUsbRef_243c98bc-1bef-4da4-8f04-aa9055fb6351.xml, WdfUsbTargetPipeFormatRequestForUrb, WdfUsbTargetPipeFormatRequestForUrb method, kmdf.wdfusbtargetpipeformatrequestforurb, wdf.wdfusbtargetpipeformatrequestforurb, wdfusb/WdfUsbTargetPipeFormatRequestForUrb
 f1_keywords:
  - "wdfusb/WdfUsbTargetPipeFormatRequestForUrb"
+ - "WdfUsbTargetPipeFormatRequestForUrb"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfUsbTargetPipeFormatRequestForUrb
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["_BRB_SCO_TRANSFER structure"]
 ms.keywords: "_BRB_SCO_TRANSFER, _BRB_SCO_TRANSFER structure [Bluetooth Devices], bltooth._brb_sco_transfer, bth_structs_2e4ed482-af73-4ca6-997c-53005c4fafc2.xml, bthddi/_BRB_SCO_TRANSFER"
 f1_keywords:
  - "bthddi/_BRB_SCO_TRANSFER"
+ - "_BRB_SCO_TRANSFER"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - bthddi.h
 api_name:
 - _BRB_SCO_TRANSFER
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

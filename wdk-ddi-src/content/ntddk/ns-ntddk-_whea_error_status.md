@@ -10,6 +10,7 @@ keywords: ["_WHEA_ERROR_STATUS structure"]
 ms.keywords: "*PWHEA_ERROR_STATUS, PWHEA_ERROR_STATUS, PWHEA_ERROR_STATUS union pointer [WHEA Drivers and Applications], WHEA_ERROR_STATUS, WHEA_ERROR_STATUS union [WHEA Drivers and Applications], _WHEA_ERROR_STATUS, ntddk/PWHEA_ERROR_STATUS, ntddk/WHEA_ERROR_STATUS, whea.whea_error_status, whearef_3dc93951-2c79-4b1e-b5b0-53ede31c6f37.xml"
 f1_keywords:
  - "ntddk/WHEA_ERROR_STATUS"
+ - "WHEA_ERROR_STATUS"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - WHEA_ERROR_STATUS
-product:
-- Windows
 targetos: Windows
 req.typenames: WHEA_ERROR_STATUS, *PWHEA_ERROR_STATUS
 ---

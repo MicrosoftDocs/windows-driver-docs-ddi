@@ -10,6 +10,7 @@ keywords: ["IPrinterQueue::GetProperties"]
 ms.keywords: GetProperties, GetProperties method [Print Devices], GetProperties method [Print Devices],IPrinterQueue interface, IPrinterQueue, IPrinterQueue interface [Print Devices],GetProperties method, IPrinterQueue.GetProperties, IPrinterQueue::GetProperties, print.iprinterqueue_getproperties, printerextension/IPrinterQueue::GetProperties
 f1_keywords:
  - "printerextension/IPrinterQueue.GetProperties"
+ - "IPrinterQueue.GetProperties"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Printerextension.h
 api_name:
 - IPrinterQueue.GetProperties
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

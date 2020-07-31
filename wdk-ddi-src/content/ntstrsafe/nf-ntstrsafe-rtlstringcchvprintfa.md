@@ -10,6 +10,7 @@ keywords: ["RtlStringCchVPrintfA function"]
 ms.keywords: RtlStringCchVPrintf, RtlStringCchVPrintfA, RtlStringCchVPrintfW, RtlStringCchVPrintfW function [Kernel-Mode Driver Architecture], kernel.rtlstringcchvprintf, ntstrsafe/RtlStringCchVPrintfA, ntstrsafe/RtlStringCchVPrintfW, safestrings_7e5dc683-a092-4540-a6e5-81b72bae11ec.xml
 f1_keywords:
  - "ntstrsafe/RtlStringCchVPrintfW"
+ - "RtlStringCchVPrintfW"
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop
@@ -39,8 +40,6 @@ api_name:
 - RtlStringCchVPrintfW
 - RtlStringCchVPrintfA
 - RtlStringCchVPrintfW
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["_USBPM_EVENT_TYPE enumeration"]
 f1_keywords:
  - "usbpmapi/USBPM_EVENT_TYPE"
+ - "USBPM_EVENT_TYPE"
 ms.keywords: _USBPM_EVENT_TYPE, USBPM_EVENT_TYPE, 
 tech.root: usbref
 req.header: usbpmapi.h
@@ -27,8 +28,6 @@ api_location:
 - usbpmapi.h
 api_name: 
 - USBPM_EVENT_TYPE
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

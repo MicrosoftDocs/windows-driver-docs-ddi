@@ -10,6 +10,7 @@ keywords: ["IRequestCallbackCancel::OnCancel"]
 ms.keywords: IRequestCallbackCancel interface,OnCancel method, IRequestCallbackCancel.OnCancel, IRequestCallbackCancel::OnCancel, OnCancel, OnCancel method, OnCancel method,IRequestCallbackCancel interface, UMDFRequestObjectRef_bdb47237-28bf-4b07-9bcb-f8d029636d2d.xml, umdf.irequestcallbackcancel_oncancel, wdf.irequestcallbackcancel_oncancel, wudfddi/IRequestCallbackCancel::OnCancel
 f1_keywords:
  - "wudfddi/IRequestCallbackCancel.OnCancel"
+ - "IRequestCallbackCancel.OnCancel"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wudfddi.h
 api_name:
 - IRequestCallbackCancel.OnCancel
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

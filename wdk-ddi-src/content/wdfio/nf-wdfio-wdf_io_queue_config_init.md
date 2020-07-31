@@ -10,6 +10,7 @@ keywords: ["WDF_IO_QUEUE_CONFIG_INIT function"]
 ms.keywords: DFQueueObjectRef_637df7c0-f8bc-4436-9144-628c85bfae1a.xml, WDF_IO_QUEUE_CONFIG_INIT, WDF_IO_QUEUE_CONFIG_INIT function, kmdf.wdf_io_queue_config_init, wdf.wdf_io_queue_config_init, wdfio/WDF_IO_QUEUE_CONFIG_INIT
 f1_keywords:
  - "wdfio/WDF_IO_QUEUE_CONFIG_INIT"
+ - "WDF_IO_QUEUE_CONFIG_INIT"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - wdfio.h
 api_name:
 - WDF_IO_QUEUE_CONFIG_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

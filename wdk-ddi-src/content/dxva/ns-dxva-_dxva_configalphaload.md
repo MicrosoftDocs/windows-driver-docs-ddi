@@ -10,6 +10,7 @@ keywords: ["_DXVA_ConfigAlphaLoad structure"]
 ms.keywords: "*LPDXVA_ConfigAlphaLoad, DXVA_ConfigAlphaLoad, DXVA_ConfigAlphaLoad structure [Display Devices], LPDXVA_ConfigAlphaLoad, LPDXVA_ConfigAlphaLoad structure pointer [Display Devices], _DXVA_ConfigAlphaLoad, display.dxva_configalphaload, dxva/DXVA_ConfigAlphaLoad, dxva/LPDXVA_ConfigAlphaLoad, dxvaref_c813af12-264d-44c6-bebb-1b93f20c545d.xml"
 f1_keywords:
  - "dxva/DXVA_ConfigAlphaLoad"
+ - "DXVA_ConfigAlphaLoad"
 req.header: dxva.h
 req.include-header: Dxva.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dxva.h
 api_name:
 - DXVA_ConfigAlphaLoad
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVA_ConfigAlphaLoad, *LPDXVA_ConfigAlphaLoad
 ---

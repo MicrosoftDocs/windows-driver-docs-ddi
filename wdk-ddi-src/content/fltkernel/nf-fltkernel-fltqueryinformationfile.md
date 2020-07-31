@@ -10,6 +10,7 @@ keywords: ["FltQueryInformationFile function"]
 ms.keywords: FltApiRef_p_to_z_f6c70c3b-4b99-4ae9-ba01-789c4d3ab1c3.xml, FltQueryInformationFile, FltQueryInformationFile function [Installable File System Drivers], fltkernel/FltQueryInformationFile, ifsk.fltqueryinformationfile
 f1_keywords:
  - "fltkernel/FltQueryInformationFile"
+ - "FltQueryInformationFile"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltQueryInformationFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

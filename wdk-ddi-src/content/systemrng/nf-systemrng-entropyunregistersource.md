@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["EntropyUnregisterSource function"]
 f1_keywords:
  - "systemrng/EntropyUnregisterSource"
+ - "EntropyUnregisterSource"
 ms.keywords: EntropyUnregisterSource
 req.header: systemrng.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - systemrng.h
 api_name: 
 - EntropyUnregisterSource
-product:
-- Windows
 targetos: Windows
 
 

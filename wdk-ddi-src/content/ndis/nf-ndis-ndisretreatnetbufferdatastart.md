@@ -10,6 +10,7 @@ keywords: ["NdisRetreatNetBufferDataStart function"]
 ms.keywords: NdisRetreatNetBufferDataStart, NdisRetreatNetBufferDataStart function [Network Drivers Starting with Windows Vista], ndis/NdisRetreatNetBufferDataStart, ndis_netbuf_functions_ref_1075cc2e-490a-4b90-93d9-269e226e8dde.xml, netvista.ndisretreatnetbufferdatastart
 f1_keywords:
  - "ndis/NdisRetreatNetBufferDataStart"
+ - "NdisRetreatNetBufferDataStart"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisRetreatNetBufferDataStart
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

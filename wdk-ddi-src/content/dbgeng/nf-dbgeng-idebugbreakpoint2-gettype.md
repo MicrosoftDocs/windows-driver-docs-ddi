@@ -10,6 +10,7 @@ keywords: ["IDebugBreakpoint2::GetType"]
 ms.keywords: ComOther_3305c400-f816-463b-a643-4495bf546460.xml, GetType, GetType method [Windows Debugging], GetType method [Windows Debugging],IDebugBreakpoint interface, GetType method [Windows Debugging],IDebugBreakpoint2 interface, IDebugBreakpoint interface [Windows Debugging],GetType method, IDebugBreakpoint2 interface [Windows Debugging],GetType method, IDebugBreakpoint2.GetType, IDebugBreakpoint2::GetType, IDebugBreakpoint::GetType, dbgeng/IDebugBreakpoint2::GetType, dbgeng/IDebugBreakpoint::GetType, debugger.gettype
 f1_keywords:
  - "dbgeng/IDebugBreakpoint.GetType"
+ - "IDebugBreakpoint.GetType"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IDebugBreakpoint.GetType
 - IDebugBreakpoint2.GetType
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IPrintOemEngine interface"]
 ms.keywords: IPrintOemEngine, IPrintOemEngine interface [Print Devices], IPrintOemEngine interface [Print Devices],described, prcomoem/IPrintOemEngine, print.iprintoemengine
 f1_keywords:
  - "prcomoem/IPrintOemEngine"
+ - "IPrintOemEngine"
 req.header: prcomoem.h
 req.include-header: 
 req.target-type: Windows
@@ -41,8 +42,6 @@ api_name:
 - IPrintOemEngine.EnablePDEV
 - IPrintOemEngine.DisablePDEV
 - IPrintOemEngine.ResetPDEV
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -58,7 +57,7 @@ req.typenames:
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintOemEngine</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintOemEngine</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintOemEngine</b> interface inherits from the <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintOemEngine</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

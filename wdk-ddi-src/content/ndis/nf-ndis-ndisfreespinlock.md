@@ -10,6 +10,7 @@ keywords: ["NdisFreeSpinLock function"]
 ms.keywords: NdisFreeSpinLock, NdisFreeSpinLock function [Network Drivers Starting with Windows Vista], ndis/NdisFreeSpinLock, ndis_spin_lock_ref_c5b1dcb1-afdc-4622-a07b-f81bb7c1f550.xml, netvista.ndisfreespinlock
 f1_keywords:
  - "ndis/NdisFreeSpinLock"
+ - "NdisFreeSpinLock"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisFreeSpinLock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

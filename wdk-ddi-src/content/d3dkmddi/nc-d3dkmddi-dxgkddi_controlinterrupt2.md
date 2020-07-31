@@ -28,6 +28,7 @@ tech.root: display
 req.typenames: 
 f1_keywords:
  - "d3dkmddi/DxgkDdi_ControlInterrupt2"
+ - "DxgkDdi_ControlInterrupt2"
 topic_type:
  - APIRef
  - kbSyntax

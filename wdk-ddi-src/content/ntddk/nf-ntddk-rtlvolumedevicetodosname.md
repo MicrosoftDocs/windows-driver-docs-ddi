@@ -10,6 +10,7 @@ keywords: ["RtlVolumeDeviceToDosName function"]
 ms.keywords: RtlVolumeDeviceToDosName, RtlVolumeDeviceToDosName routine [Kernel-Mode Driver Architecture], k109_a95aea8c-1156-4852-b4eb-38d2f141fcca.xml, kernel.rtlvolumedevicetodosname, ntddk/RtlVolumeDeviceToDosName
 f1_keywords:
  - "ntddk/RtlVolumeDeviceToDosName"
+ - "RtlVolumeDeviceToDosName"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlVolumeDeviceToDosName
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

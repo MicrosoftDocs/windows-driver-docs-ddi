@@ -10,6 +10,7 @@ keywords: ["RT_PARAMETER_DATA structure"]
 ms.keywords: "*PRT_PARAMETER_DATA, PRT_PARAMETER_DATA, PRT_PARAMETER_DATA structure pointer [Storage Devices], RT_PARAMETER_DATA, RT_PARAMETER_DATA structure [Storage Devices], scsi/PRT_PARAMETER_DATA, scsi/RT_PARAMETER_DATA, storage.rt_parameter_data"
 f1_keywords:
  - "storport/RT_PARAMETER_DATA"
+ - "RT_PARAMETER_DATA"
 req.header: storport.h
 req.include-header: Minitape.h, Storport.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - scsi.h
 api_name:
 - RT_PARAMETER_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: RT_PARAMETER_DATA, *PRT_PARAMETER_DATA
 ---

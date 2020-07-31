@@ -10,6 +10,7 @@ keywords: ["KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST enumeration"]
 ms.keywords: KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST enumeration [Streaming Media Devices], KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_PROPERTY_ID, ksmedia/KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST, ksmedia/KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_PROPERTY_ID, stream.ksproperty_cameracontrol_region_of_interest
 f1_keywords:
  - "ksmedia/KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST"
+ - "KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ksmedia.h
 api_name:
 - KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST
-product:
-- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST
 ---

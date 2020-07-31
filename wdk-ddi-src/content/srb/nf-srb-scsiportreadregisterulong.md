@@ -10,6 +10,7 @@ keywords: ["ScsiPortReadRegisterUlong function"]
 ms.keywords: ScsiPortReadRegisterUlong, ScsiPortReadRegisterUlong routine [Storage Devices], scsiprt_fe99fb31-bbec-4213-bfe5-88efbe2e71e9.xml, srb/ScsiPortReadRegisterUlong, storage.scsiportreadregisterulong
 f1_keywords:
  - "srb/ScsiPortReadRegisterUlong"
+ - "ScsiPortReadRegisterUlong"
 req.header: srb.h
 req.include-header: Miniport.h, Scsi.h, Storport.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Scsiport.dll
 api_name:
 - ScsiPortReadRegisterUlong
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

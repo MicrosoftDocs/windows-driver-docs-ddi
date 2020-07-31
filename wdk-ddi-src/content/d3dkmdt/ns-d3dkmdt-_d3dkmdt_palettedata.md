@@ -10,6 +10,7 @@ keywords: ["_D3DKMDT_PALETTEDATA structure"]
 ms.keywords: D3DKMDT_PALETTEDATA, D3DKMDT_PALETTEDATA structure [Display Devices], DmStructs_83e6b2ae-dd44-4a21-bca5-6009af1f4ced.xml, _D3DKMDT_PALETTEDATA, d3dkmdt/D3DKMDT_PALETTEDATA, display.d3dkmdt_palettedata
 f1_keywords:
  - "d3dkmdt/D3DKMDT_PALETTEDATA"
+ - "D3DKMDT_PALETTEDATA"
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dkmdt.h
 api_name:
 - D3DKMDT_PALETTEDATA
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DKMDT_PALETTEDATA
 ---

@@ -10,6 +10,7 @@ keywords: ["RtlShortToDWordPtr function"]
 ms.keywords: RtlShortToDWordPtr, RtlShortToDWordPtr function [Kernel-Mode Driver Architecture], kernel.rtlshorttodwordptr, ntintsafe/RtlShortToDWordPtr
 f1_keywords:
  - "ntintsafe/RtlShortToDWordPtr"
+ - "RtlShortToDWordPtr"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Ntintsafe.h
 api_name:
 - RtlShortToDWordPtr
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

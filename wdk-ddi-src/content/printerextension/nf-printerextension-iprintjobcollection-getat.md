@@ -10,6 +10,7 @@ keywords: ["IPrintJobCollection::GetAt"]
 ms.keywords: GetAt, GetAt method [Print Devices], GetAt method [Print Devices],IPrintJobCollection interface, IPrintJobCollection interface [Print Devices],GetAt method, IPrintJobCollection.GetAt, IPrintJobCollection::GetAt, print.iprintjobcollection_getat, printerextension/IPrintJobCollection::GetAt
 f1_keywords:
  - "printerextension/IPrintJobCollection.GetAt"
+ - "IPrintJobCollection.GetAt"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Printerextension.h
 api_name:
 - IPrintJobCollection.GetAt
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

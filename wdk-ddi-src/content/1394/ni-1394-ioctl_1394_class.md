@@ -10,6 +10,7 @@ keywords: ["IOCTL_1394_CLASS IOCTL"]
 ms.keywords: 1394/IOCTL_1394_CLASS, 1394irp_fa8ee811-14ee-44a0-9a9c-b53a421497d4.xml, IEEE.ioctl_1394_class, IOCTL_1394_CLASS, IOCTL_1394_CLASS control, IOCTL_1394_CLASS control code [Buses]
 f1_keywords:
  - "1394/IOCTL_1394_CLASS"
+ - "IOCTL_1394_CLASS"
 req.header: 1394.h
 req.include-header: 1394.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - 1394.h
 api_name:
 - IOCTL_1394_CLASS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

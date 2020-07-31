@@ -10,6 +10,7 @@ keywords: ["RtlDeleteNoSplay function"]
 ms.keywords: RtlDeleteNoSplay, RtlDeleteNoSplay routine [Installable File System Drivers], ifsk.rtldeletenosplay, ntddk/RtlDeleteNoSplay, rtlref_def5bfa8-367a-410e-8e3c-fdbf11cce05e.xml
 f1_keywords:
  - "ntddk/RtlDeleteNoSplay"
+ - "RtlDeleteNoSplay"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlDeleteNoSplay
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

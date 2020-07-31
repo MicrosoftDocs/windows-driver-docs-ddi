@@ -10,6 +10,7 @@ keywords: ["KSERVICE_ROUTINE callback function"]
 ms.keywords: DrvrRtns_ee9bfb68-3d4c-4abf-9d2b-81037c2572d5.xml, InterruptService, InterruptService routine [Kernel-Mode Driver Architecture], KSERVICE_ROUTINE, kernel.interruptservice, wdm/InterruptService
 f1_keywords:
  - "wdm/InterruptService"
+ - "InterruptService"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - InterruptService
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

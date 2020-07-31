@@ -9,6 +9,7 @@ keywords: ["D3DKMTSignalSynchronizationObject2 function"]
 ms.keywords: D3DKMTSignalSynchronizationObject2, D3DKMTSignalSynchronizationObject2 function [Display Devices], OpenGL_Functions_ffc87bcb-e2ab-48ea-8a90-c0b4cf7c8b33.xml, d3dkmthk/D3DKMTSignalSynchronizationObject2, display.d3dkmtsignalsynchronizationobject2
 f1_keywords:
  - "d3dkmthk/D3DKMTSignalSynchronizationObject2"
+ - "D3DKMTSignalSynchronizationObject2"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -38,8 +39,6 @@ api_location:
 - API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 - D3DKMTSignalSynchronizationObject2
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

@@ -10,6 +10,7 @@ keywords: ["IKsPin::KsGetCurrentCommunication"]
 ms.keywords: IKsPin interface [Streaming Media Devices],KsGetCurrentCommunication method, IKsPin.KsGetCurrentCommunication, IKsPin::KsGetCurrentCommunication, KsGetCurrentCommunication, KsGetCurrentCommunication method [Streaming Media Devices], KsGetCurrentCommunication method [Streaming Media Devices],IKsPin interface, ksproxy/IKsPin::KsGetCurrentCommunication, ksproxy_2619bbb1-bc7d-4a69-99fb-2e35a36c4f02.xml, stream.ikspin_ksgetcurrentcommunication
 f1_keywords:
  - "ksproxy/IKsPin.KsGetCurrentCommunication"
+ - "IKsPin.KsGetCurrentCommunication"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ksproxy.h
 api_name:
 - IKsPin.KsGetCurrentCommunication
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

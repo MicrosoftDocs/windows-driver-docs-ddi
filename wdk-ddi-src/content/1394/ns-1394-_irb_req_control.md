@@ -10,6 +10,7 @@ keywords: ["_IRB_REQ_CONTROL structure"]
 ms.keywords: 1394/IRB_REQ_CONTROL, IEEE.irb_req_control, IRB_REQ_CONTROL, IRB_REQ_CONTROL structure [Buses], _IRB_REQ_CONTROL
 f1_keywords:
  - "1394/IRB_REQ_CONTROL"
+ - "IRB_REQ_CONTROL"
 req.header: 1394.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - 1394.h
 api_name:
 - IRB_REQ_CONTROL
-product:
-- Windows
 targetos: Windows
 req.typenames: IRB_REQ_CONTROL
 ---

@@ -10,6 +10,7 @@ keywords: ["DOT11_AUTH_CIPHER_PAIR structure"]
 ms.keywords: "*PDOT11_AUTH_CIPHER_PAIR, DOT11_AUTH_CIPHER_PAIR, DOT11_AUTH_CIPHER_PAIR structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_84940691-1e26-4039-927d-e1f1e0d14ea1.xml, PDOT11_AUTH_CIPHER_PAIR, PDOT11_AUTH_CIPHER_PAIR structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_auth_cipher_pair, wlantypes/DOT11_AUTH_CIPHER_PAIR, wlantypes/PDOT11_AUTH_CIPHER_PAIR"
 f1_keywords:
  - "wlantypes/DOT11_AUTH_CIPHER_PAIR"
+ - "DOT11_AUTH_CIPHER_PAIR"
 req.header: wlantypes.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wlantypes.h
 api_name:
 - DOT11_AUTH_CIPHER_PAIR
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT11_AUTH_CIPHER_PAIR, *PDOT11_AUTH_CIPHER_PAIR
 req.product: Windows 10 or later.

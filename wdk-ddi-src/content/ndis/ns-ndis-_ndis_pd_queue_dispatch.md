@@ -10,6 +10,7 @@ keywords: ["_NDIS_PD_QUEUE_DISPATCH structure"]
 ms.keywords: NDIS_PD_QUEUE_DISPATCH, NDIS_PD_QUEUE_DISPATCH structure [Network Drivers Starting with Windows Vista], PNDIS_PD_QUEUE_DISPATCH, PNDIS_PD_QUEUE_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PD_QUEUE_DISPATCH, ndis/NDIS_PD_QUEUE_DISPATCH, ndis/PNDIS_PD_QUEUE_DISPATCH, netvista.ndis_pd_queue_dispatch
 f1_keywords:
  - "ndis/NDIS_PD_QUEUE_DISPATCH"
+ - "NDIS_PD_QUEUE_DISPATCH"
 req.header: ndis.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - NDIS_PD_QUEUE_DISPATCH
-product:
-- Windows
 targetos: Windows
 req.typenames: NDIS_PD_QUEUE_DISPATCH
 ---

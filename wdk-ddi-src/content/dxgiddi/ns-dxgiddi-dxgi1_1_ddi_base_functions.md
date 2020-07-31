@@ -10,6 +10,7 @@ keywords: ["DXGI1_1_DDI_BASE_FUNCTIONS structure"]
 ms.keywords: DXGI1_1_DDI_BASE_FUNCTIONS, DXGI1_1_DDI_BASE_FUNCTIONS structure [Display Devices], UMDisplayDriver_Dx10param_Structs_92bae538-7b48-48d5-a26f-c593ff5875cf.xml, display.dxgi1_1_ddi_base_functions, dxgiddi/DXGI1_1_DDI_BASE_FUNCTIONS
 f1_keywords:
  - "dxgiddi/DXGI1_1_DDI_BASE_FUNCTIONS"
+ - "DXGI1_1_DDI_BASE_FUNCTIONS"
 req.header: dxgiddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dxgiddi.h
 api_name:
 - DXGI1_1_DDI_BASE_FUNCTIONS
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGI1_1_DDI_BASE_FUNCTIONS
 ---

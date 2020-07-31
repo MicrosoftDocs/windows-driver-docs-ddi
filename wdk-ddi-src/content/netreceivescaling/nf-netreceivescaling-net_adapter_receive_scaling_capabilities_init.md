@@ -8,6 +8,7 @@ ms.date: 10/19/2018
 keywords: ["NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES_INIT function"]
 f1_keywords:
  - "netreceivescaling/NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES_INIT"
+ - "NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES_INIT"
 ms.keywords: NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES_INIT
 req.header: netreceivescaling.h
 req.include-header:
@@ -34,8 +35,6 @@ api_location:
 - NtosKrnl.exe
 api_name: 
 - NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES_INIT
-product:
-- Windows
 targetos: Windows
 
 ---

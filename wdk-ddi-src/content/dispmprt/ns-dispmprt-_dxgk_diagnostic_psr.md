@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_DXGK_DIAGNOSTIC_PSR structure"]
 f1_keywords:
  - "dispmprt/_DXGK_DIAGNOSTIC_PSR"
+ - "_DXGK_DIAGNOSTIC_PSR"
 ms.keywords: _DXGK_DIAGNOSTIC_PSR, DXGK_DIAGNOSTIC_PSR,
 req.header: dispmprt.h
 req.include-header:

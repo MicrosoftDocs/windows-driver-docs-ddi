@@ -10,6 +10,7 @@ keywords: ["_UDECX_ENDPOINT_TYPE enumeration"]
 ms.keywords: "*PUDECX_ENDPOINT_TYPE, UDECX_ENDPOINT_TYPE, UDECX_ENDPOINT_TYPE enumeration [Buses], UdecxEndpointTypeDynamic, UdecxEndpointTypeInvalid, UdecxEndpointTypeSimple, _UDECX_ENDPOINT_TYPE, buses.udecx_endpoint_type, udecxusbdevice/UDECX_ENDPOINT_TYPE, udecxusbdevice/UdecxEndpointTypeDynamic, udecxusbdevice/UdecxEndpointTypeInvalid, udecxusbdevice/UdecxEndpointTypeSimple"
 f1_keywords:
  - "udecxusbdevice/UDECX_ENDPOINT_TYPE"
+ - "UDECX_ENDPOINT_TYPE"
 req.header: udecxusbdevice.h
 req.include-header: Udecx.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - UdecxUsbDevice.h
 api_name:
 - UDECX_ENDPOINT_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: UDECX_ENDPOINT_TYPE, *PUDECX_ENDPOINT_TYPE
 ---

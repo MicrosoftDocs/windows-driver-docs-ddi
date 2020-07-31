@@ -9,6 +9,7 @@ keywords: ["D3DKMTCreateContextVirtual function"]
 ms.keywords: D3DKMTCreateContextVirtual, D3DKMTCreateContextVirtual function [Display Devices], d3dkmthk/D3DKMTCreateContextVirtual, display.d3dkmtcreatecontextvirtual
 f1_keywords:
  - "d3dkmthk/D3DKMTCreateContextVirtual"
+ - "D3DKMTCreateContextVirtual"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 - D3DKMTCreateContextVirtual
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_CURRENTDISPLAYMODE structure"]
 ms.keywords: D3DKMT_CURRENTDISPLAYMODE, D3DKMT_CURRENTDISPLAYMODE structure [Display Devices], OpenGL_Structs_9af2b5dc-c342-4644-a3db-db9649b1fc9c.xml, _D3DKMT_CURRENTDISPLAYMODE, d3dkmthk/D3DKMT_CURRENTDISPLAYMODE, display.d3dkmt_currentdisplaymode
 f1_keywords:
  - "d3dkmthk/D3DKMT_CURRENTDISPLAYMODE"
+ - "D3DKMT_CURRENTDISPLAYMODE"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMT_CURRENTDISPLAYMODE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_CURRENTDISPLAYMODE

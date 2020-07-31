@@ -10,6 +10,7 @@ keywords: ["PFN_WSK_GET_NAME_INFO callback function"]
 ms.keywords: PFN_WSK_GET_NAME_INFO, PFN_WSK_GET_NAME_INFO callback, WskGetNameInfo, WskGetNameInfo callback function [Network Drivers Starting with Windows Vista], netvista.wskgetnameinfo, wsk/WskGetNameInfo, wskref_cebad0ad-55bc-4fae-9c73-5a501417ea5c.xml
 f1_keywords:
  - "wsk/WskGetNameInfo"
+ - "WskGetNameInfo"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - wsk.h
 api_name:
 - WskGetNameInfo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

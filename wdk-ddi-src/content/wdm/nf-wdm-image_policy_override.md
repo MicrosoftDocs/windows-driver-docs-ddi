@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["IMAGE_POLICY_OVERRIDE macro"]
 f1_keywords:
  - "wdm/IMAGE_POLICY_OVERRIDE"
+ - "IMAGE_POLICY_OVERRIDE"
 ms.keywords: IMAGE_POLICY_OVERRIDE
 req.header: wdm.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - wdm.h
 api_name: 
 - IMAGE_POLICY_OVERRIDE
-product:
-- Windows
 targetos: Windows
 
 ---

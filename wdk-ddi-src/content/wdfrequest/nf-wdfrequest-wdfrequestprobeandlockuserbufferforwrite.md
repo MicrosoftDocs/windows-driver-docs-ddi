@@ -10,6 +10,7 @@ keywords: ["WdfRequestProbeAndLockUserBufferForWrite function"]
 ms.keywords: DFRequestObjectRef_8a3643bf-a6b6-4e22-baa8-bfb8a5716af6.xml, WdfRequestProbeAndLockUserBufferForWrite, WdfRequestProbeAndLockUserBufferForWrite method, kmdf.wdfrequestprobeandlockuserbufferforwrite, wdf.wdfrequestprobeandlockuserbufferforwrite, wdfrequest/WdfRequestProbeAndLockUserBufferForWrite
 f1_keywords:
  - "wdfrequest/WdfRequestProbeAndLockUserBufferForWrite"
+ - "WdfRequestProbeAndLockUserBufferForWrite"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfRequestProbeAndLockUserBufferForWrite
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

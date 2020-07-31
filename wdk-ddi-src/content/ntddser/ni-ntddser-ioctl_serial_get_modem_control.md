@@ -10,6 +10,7 @@ keywords: ["IOCTL_SERIAL_GET_MODEM_CONTROL IOCTL"]
 ms.keywords: IOCTL_SERIAL_GET_MODEM_CONTROL, IOCTL_SERIAL_GET_MODEM_CONTROL control, IOCTL_SERIAL_GET_MODEM_CONTROL control code [Serial Ports], ntddser/IOCTL_SERIAL_GET_MODEM_CONTROL, serports.ioctl_serial_get_modem_control, serref_063be160-c01f-40c9-aff9-2de802c70bda.xml
 f1_keywords:
  - "ntddser/IOCTL_SERIAL_GET_MODEM_CONTROL"
+ - "IOCTL_SERIAL_GET_MODEM_CONTROL"
 req.header: ntddser.h
 req.include-header: Ntddser.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddser.h
 api_name:
 - IOCTL_SERIAL_GET_MODEM_CONTROL
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

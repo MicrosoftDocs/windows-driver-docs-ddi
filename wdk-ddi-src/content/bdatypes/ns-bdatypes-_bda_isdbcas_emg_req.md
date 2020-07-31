@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_BDA_ISDBCAS_EMG_REQ structure"]
 f1_keywords:
  - "bdatypes/_BDA_ISDBCAS_EMG_REQ"
+ - "_BDA_ISDBCAS_EMG_REQ"
 ms.keywords: _BDA_ISDBCAS_EMG_REQ, BDA_ISDBCAS_EMG_REQ, *PBDA_ISDBCAS_EMG_REQ, 
 req.header: bdatypes.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - bdatypes.h
 api_name: 
 - _BDA_ISDBCAS_EMG_REQ
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

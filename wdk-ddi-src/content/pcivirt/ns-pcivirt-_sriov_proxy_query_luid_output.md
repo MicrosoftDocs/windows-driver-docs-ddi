@@ -10,6 +10,7 @@ keywords: ["_SRIOV_PROXY_QUERY_LUID_OUTPUT structure"]
 ms.keywords: "*PSRIOV_PROXY_QUERY_LUID_OUTPUT, PCI.sriov_proxy_query_luid_output, SRIOV_PROXY_QUERY_LUID_OUTPUT, SRIOV_PROXY_QUERY_LUID_OUTPUT structure [Buses], _SRIOV_PROXY_QUERY_LUID_OUTPUT, pcivirt/SRIOV_PROXY_QUERY_LUID_OUTPUT"
 f1_keywords:
  - "pcivirt/SRIOV_PROXY_QUERY_LUID_OUTPUT"
+ - "SRIOV_PROXY_QUERY_LUID_OUTPUT"
 req.header: pcivirt.h
 req.include-header:
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Pcivirt.h
 api_name:
 - SRIOV_PROXY_QUERY_LUID_OUTPUT
-product:
-- Windows
 targetos: Windows
 req.typenames: SRIOV_PROXY_QUERY_LUID_OUTPUT, *PSRIOV_PROXY_QUERY_LUID_OUTPUT
 ---

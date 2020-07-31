@@ -10,6 +10,7 @@ keywords: ["_D3DDDICB_CREATESYNCHRONIZATIONOBJECT2 structure"]
 ms.keywords: D3DDDICB_CREATESYNCHRONIZATIONOBJECT2, D3DDDICB_CREATESYNCHRONIZATIONOBJECT2 structure [Display Devices], _D3DDDICB_CREATESYNCHRONIZATIONOBJECT2, d3dumddi/D3DDDICB_CREATESYNCHRONIZATIONOBJECT2, display.d3dddicb_createsynchronizationobject2
 f1_keywords:
  - "d3dumddi/D3DDDICB_CREATESYNCHRONIZATIONOBJECT2"
+ - "D3DDDICB_CREATESYNCHRONIZATIONOBJECT2"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - D3dumddi.h
 api_name:
 - D3DDDICB_CREATESYNCHRONIZATIONOBJECT2
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDICB_CREATESYNCHRONIZATIONOBJECT2
 ---

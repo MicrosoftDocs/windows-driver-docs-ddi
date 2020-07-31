@@ -10,6 +10,7 @@ keywords: ["FreePrintNamedPropertyArray function"]
 ms.keywords: FreePrintNamedPropertyArray, FreePrintNamedPropertyArray function [Print Devices], print.freeprintnamedpropertyarray, winspool/FreePrintNamedPropertyArray
 f1_keywords:
  - "winspool/FreePrintNamedPropertyArray"
+ - "FreePrintNamedPropertyArray"
 req.header: winspool.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Winspool.h
 api_name:
 - FreePrintNamedPropertyArray
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

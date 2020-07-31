@@ -10,6 +10,7 @@ keywords: ["AppendPrinterNotifyInfoData function"]
 ms.keywords: AppendPrinterNotifyInfoData, AppendPrinterNotifyInfoData function [Print Devices], print.appendprinternotifyinfodata, spoolfnc_cc8f6371-6dea-497e-92db-6cd9e26e7867.xml, winsplp/AppendPrinterNotifyInfoData
 f1_keywords:
  - "winsplp/AppendPrinterNotifyInfoData"
+ - "AppendPrinterNotifyInfoData"
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Spoolss.dll
 api_name:
 - AppendPrinterNotifyInfoData
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

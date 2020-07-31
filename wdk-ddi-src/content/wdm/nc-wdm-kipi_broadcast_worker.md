@@ -10,6 +10,7 @@ keywords: ["KIPI_BROADCAST_WORKER callback function"]
 ms.keywords: DrvrRtns_80b940d9-3d19-4525-af3f-8e4058c57ddc.xml, IpiGenericCall, IpiGenericCall routine [Kernel-Mode Driver Architecture], KIPI_BROADCAST_WORKER, kernel.ipigenericcall, wdm/IpiGenericCall
 f1_keywords:
  - "wdm/IpiGenericCall"
+ - "IpiGenericCall"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - IpiGenericCall
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

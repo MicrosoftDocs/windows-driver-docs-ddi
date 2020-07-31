@@ -10,6 +10,7 @@ keywords: ["RtlIoEncodeMemIoResource function"]
 ms.keywords: RtlIoEncodeMemIoResource, RtlIoEncodeMemIoResource routine [Kernel-Mode Driver Architecture], k109_2e51e72a-98c4-4600-8e9c-41251c3e9849.xml, kernel.rtlioencodememioresource, wdm/RtlIoEncodeMemIoResource
 f1_keywords:
  - "wdm/RtlIoEncodeMemIoResource"
+ - "RtlIoEncodeMemIoResource"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlIoEncodeMemIoResource
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

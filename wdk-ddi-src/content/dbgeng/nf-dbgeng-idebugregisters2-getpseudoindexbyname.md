@@ -10,6 +10,7 @@ keywords: ["IDebugRegisters2::GetPseudoIndexByName"]
 ms.keywords: GetPseudoIndexByName, GetPseudoIndexByName method [Windows Debugging], GetPseudoIndexByName method [Windows Debugging],IDebugRegisters2 interface, IDebugRegisters2 interface [Windows Debugging],GetPseudoIndexByName method, IDebugRegisters2.GetPseudoIndexByName, IDebugRegisters2::GetPseudoIndexByName, IDebugRegisters_95580025-4059-4a5b-bd68-d7ebfa20607e.xml, dbgeng/IDebugRegisters2::GetPseudoIndexByName, debugger.getpseudoindexbyname
 f1_keywords:
  - "dbgeng/IDebugRegisters2.GetPseudoIndexByName"
+ - "IDebugRegisters2.GetPseudoIndexByName"
 req.header: dbgeng.h
 req.include-header: DbgEng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugRegisters2.GetPseudoIndexByName
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

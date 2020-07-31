@@ -10,6 +10,7 @@ keywords: ["PCAM_STOP_CAPTURE_ROUTINE_EX callback function"]
 ms.keywords: CamStopCaptureEx, CamStopCaptureEx routine [Streaming Media Devices], PCAM_STOP_CAPTURE_ROUTINE_EX, stream.camstopcaptureex, usbcamdi/CamStopCaptureEx, usbcmdpr_ce30ba35-3109-454c-bef4-30ff5d6805de.xml
 f1_keywords:
  - "usbcamdi/CamStopCaptureEx"
+ - "CamStopCaptureEx"
 req.header: usbcamdi.h
 req.include-header: Usbcamdi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - usbcamdi.h
 api_name:
 - CamStopCaptureEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

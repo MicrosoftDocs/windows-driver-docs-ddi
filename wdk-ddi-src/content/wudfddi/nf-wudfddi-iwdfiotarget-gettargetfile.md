@@ -10,6 +10,7 @@ keywords: ["IWDFIoTarget::GetTargetFile"]
 ms.keywords: GetTargetFile, GetTargetFile method, GetTargetFile method,IWDFIoTarget interface, IWDFIoTarget interface,GetTargetFile method, IWDFIoTarget.GetTargetFile, IWDFIoTarget::GetTargetFile, UMDFIoTargetObjectRef_c31a719b-616e-4559-851a-a9f5c35bc9e5.xml, umdf.iwdfiotarget_gettargetfile, wdf.iwdfiotarget_gettargetfile, wudfddi/IWDFIoTarget::GetTargetFile
 f1_keywords:
  - "wudfddi/IWDFIoTarget.GetTargetFile"
+ - "IWDFIoTarget.GetTargetFile"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFIoTarget.GetTargetFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

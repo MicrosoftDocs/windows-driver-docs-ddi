@@ -10,6 +10,7 @@ keywords: ["WdfDeviceResumeIdle macro"]
 ms.keywords: DFDeviceObjectGeneralRef_6078e8e8-7d4e-4714-a1b4-74fc973a678c.xml, WdfDeviceResumeIdle, WdfDeviceResumeIdle method, kmdf.wdfdeviceresumeidle, wdf.wdfdeviceresumeidle, wdfdevice/WdfDeviceResumeIdle
 f1_keywords:
  - "wdfdevice/WdfDeviceResumeIdle"
+ - "WdfDeviceResumeIdle"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfDeviceResumeIdle
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

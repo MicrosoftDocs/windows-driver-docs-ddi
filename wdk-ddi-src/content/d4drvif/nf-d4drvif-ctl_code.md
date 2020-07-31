@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["CTL_CODE macro"]
 f1_keywords:
  - "d4drvif/CTL_CODE"
+ - "CTL_CODE"
 ms.keywords: CTL_CODE
 req.header: d4drvif.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - d4drvif.h
 api_name: 
 - CTL_CODE
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

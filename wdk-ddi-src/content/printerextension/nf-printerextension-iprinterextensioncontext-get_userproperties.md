@@ -10,6 +10,7 @@ keywords: ["IPrinterExtensionContext::get_UserProperties"]
 ms.keywords: IPrinterExtensionContext interface [Print Devices],UserProperties property, IPrinterExtensionContext.UserProperties, IPrinterExtensionContext.get_UserProperties, IPrinterExtensionContext::UserProperties, IPrinterExtensionContext::get_UserProperties, UserProperties property [Print Devices], UserProperties property [Print Devices],IPrinterExtensionContext interface, get_UserProperties, print.iprinterextensioncontext_userproperties, printerextension/IPrinterExtensionContext::UserProperties, printerextension/IPrinterExtensionContext::get_UserProperties
 f1_keywords:
  - "printerextension/IPrinterExtensionContext.UserProperties"
+ - "IPrinterExtensionContext.UserProperties"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IPrinterExtensionContext.UserProperties
 - IPrinterExtensionContext.get_UserProperties
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

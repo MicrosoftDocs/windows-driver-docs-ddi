@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["_USBC_CHARGING_STATE enumeration"]
 f1_keywords:
  - "usbctypes/_USBC_CHARGING_STATE"
+ - "_USBC_CHARGING_STATE"
 ms.keywords: _USBC_CHARGING_STATE, USBC_CHARGING_STATE, 
 req.header: usbctypes.h
 req.include-header: usbctypes.h
@@ -26,8 +27,6 @@ api_location:
 - usbctypes.h
 api_name: 
 - _USBC_CHARGING_STATE
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

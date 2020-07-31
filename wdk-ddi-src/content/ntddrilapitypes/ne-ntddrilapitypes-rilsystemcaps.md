@@ -10,6 +10,7 @@ keywords: ["RILSYSTEMCAPS enumeration"]
 ms.keywords: RILSYSTEMCAPS, RILSYSTEMCAPS enumeration [Network Drivers Starting with Windows Vista], RIL_SYSTEMCAPS_ALL, RIL_SYSTEMCAPS_VOICEDATA, netvista.rilsystemcaps, ntddrilapitypes/RILSYSTEMCAPS, ntddrilapitypes/RIL_SYSTEMCAPS_ALL, ntddrilapitypes/RIL_SYSTEMCAPS_VOICEDATA
 f1_keywords:
  - "ntddrilapitypes/RILSYSTEMCAPS"
+ - "RILSYSTEMCAPS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILSYSTEMCAPS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILSYSTEMCAPS
 ---

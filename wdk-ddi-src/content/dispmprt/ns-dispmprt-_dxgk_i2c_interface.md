@@ -10,6 +10,7 @@ keywords: ["_DXGK_I2C_INTERFACE structure"]
 ms.keywords: "*PDXGK_I2C_INTERFACE, DXGK_I2C_INTERFACE, DXGK_I2C_INTERFACE structure [Display Devices], DmStructs_59985b59-bb86-459c-8bd2-2b6124a6b9bb.xml, PDXGK_I2C_INTERFACE, PDXGK_I2C_INTERFACE structure pointer [Display Devices], _DXGK_I2C_INTERFACE, display.dxgk_i2c_interface, dispmprt/DXGK_I2C_INTERFACE, dispmprt/PDXGK_I2C_INTERFACE"
 f1_keywords:
  - "dispmprt/DXGK_I2C_INTERFACE"
+ - "DXGK_I2C_INTERFACE"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dispmprt.h
 api_name:
 - DXGK_I2C_INTERFACE
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGK_I2C_INTERFACE, *PDXGK_I2C_INTERFACE
 ---

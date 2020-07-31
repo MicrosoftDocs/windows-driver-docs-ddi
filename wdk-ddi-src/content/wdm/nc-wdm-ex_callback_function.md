@@ -10,6 +10,7 @@ keywords: ["EX_CALLBACK_FUNCTION callback function"]
 ms.keywords: DrvrRtns_988f8f3d-4ee8-4351-8fc0-703a88bd8421.xml, EX_CALLBACK_FUNCTION, RegistryCallback, RegistryCallback routine [Kernel-Mode Driver Architecture], kernel.registrycallback, wdm/RegistryCallback
 f1_keywords:
  - "wdm/RegistryCallback"
+ - "RegistryCallback"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - RegistryCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

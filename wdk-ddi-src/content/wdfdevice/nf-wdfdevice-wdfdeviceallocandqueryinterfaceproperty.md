@@ -10,6 +10,7 @@ keywords: ["WdfDeviceAllocAndQueryInterfaceProperty function"]
 ms.keywords: WdfDeviceAllocAndQueryInterfaceProperty, WdfDeviceAllocAndQueryInterfaceProperty method, wdf.wdfdeviceallocandqueryinterfaceproperty, wdfdevice/WdfDeviceAllocAndQueryInterfaceProperty
 f1_keywords:
  - "wdfdevice/WdfDeviceAllocAndQueryInterfaceProperty"
+ - "WdfDeviceAllocAndQueryInterfaceProperty"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - WUDFx02000.dll
 api_name:
 - WdfDeviceAllocAndQueryInterfaceProperty
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

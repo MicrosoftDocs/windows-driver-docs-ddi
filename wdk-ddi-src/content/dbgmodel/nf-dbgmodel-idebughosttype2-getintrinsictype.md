@@ -7,6 +7,7 @@ ms.date: 09/20/2018
 keywords: ["IDebugHostType2::GetIntrinsicType"]
 f1_keywords:
  - "dbgmodel/IDebugHostType2.GetIntrinsicType"
+ - "IDebugHostType2.GetIntrinsicType"
 ms.keywords: IDebugHostType2::GetIntrinsicType, GetIntrinsicType, IDebugHostType2.GetIntrinsicType, IDebugHostType2::GetIntrinsicType, IDebugHostType2.GetIntrinsicType
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostType2.GetIntrinsicType
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

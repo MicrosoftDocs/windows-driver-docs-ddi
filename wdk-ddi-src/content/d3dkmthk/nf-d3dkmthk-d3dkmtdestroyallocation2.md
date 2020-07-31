@@ -9,6 +9,7 @@ keywords: ["D3DKMTDestroyAllocation2 function"]
 ms.keywords: D3DKMTDestroyAllocation2, D3DKMTDestroyAllocation2 function [Display Devices], d3dkmthk/D3DKMTDestroyAllocation2, display.d3dkmtdestroyallocation2
 f1_keywords:
  - "d3dkmthk/D3DKMTDestroyAllocation2"
+ - "D3DKMTDestroyAllocation2"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 - D3DKMTDestroyAllocation2
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

@@ -10,6 +10,7 @@ keywords: ["IOCTL_INTERNAL_PARALLEL_PORT_FREE IOCTL"]
 ms.keywords: IOCTL_INTERNAL_PARALLEL_PORT_FREE, IOCTL_INTERNAL_PARALLEL_PORT_FREE control code [Parallel Ports], cisspd_ec1947dc-7124-445b-8b4a-759d6cba8225.xml, parallel/IOCTL_INTERNAL_PARALLEL_PORT_FREE, parports.ioctl_internal_parallel_port_free
 f1_keywords:
  - "parallel/IOCTL_INTERNAL_PARALLEL_PORT_FREE"
+ - "IOCTL_INTERNAL_PARALLEL_PORT_FREE"
 req.header: parallel.h
 req.include-header: Parallel.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - parallel.h
 api_name:
 - IOCTL_INTERNAL_PARALLEL_PORT_FREE
-product:
-- Windows
 targetos: Windows
 req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ---

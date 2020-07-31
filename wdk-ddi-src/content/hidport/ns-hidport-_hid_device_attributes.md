@@ -10,6 +10,7 @@ keywords: ["_HID_DEVICE_ATTRIBUTES structure"]
 ms.keywords: "*PHID_DEVICE_ATTRIBUTES, HID_DEVICE_ATTRIBUTES, HID_DEVICE_ATTRIBUTES structure [Human Input Devices], PHID_DEVICE_ATTRIBUTES, PHID_DEVICE_ATTRIBUTES structure pointer [Human Input Devices], _HID_DEVICE_ATTRIBUTES, hid.hid_device_attributes, hidport/HID_DEVICE_ATTRIBUTES, hidport/PHID_DEVICE_ATTRIBUTES, hidstrct_2ba6111b-4231-40eb-9b08-0b3b396079d8.xml"
 f1_keywords:
  - "hidport/HID_DEVICE_ATTRIBUTES"
+ - "HID_DEVICE_ATTRIBUTES"
 req.header: hidport.h
 req.include-header: Hidport.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - hidport.h
 api_name:
 - HID_DEVICE_ATTRIBUTES
-product:
-- Windows
 targetos: Windows
 req.typenames: HID_DEVICE_ATTRIBUTES, *PHID_DEVICE_ATTRIBUTES
 ---

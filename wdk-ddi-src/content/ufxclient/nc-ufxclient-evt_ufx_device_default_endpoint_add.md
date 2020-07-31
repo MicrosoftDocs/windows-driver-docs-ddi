@@ -10,6 +10,7 @@ keywords: ["EVT_UFX_DEVICE_DEFAULT_ENDPOINT_ADD callback function"]
 ms.keywords: EVT_UFX_DEVICE_DEFAULT_ENDPOINT_ADD, EVT_UFX_DEVICE_DEFAULT_ENDPOINT_ADD callback, EvtUfxDeviceDefaultEndpointAdd, EvtUfxDeviceDefaultEndpointAdd callback function [Buses], PFN_UFX_DEVICE_DEFAULT_ENDPOINT_ADD, PFN_UFX_DEVICE_DEFAULT_ENDPOINT_ADD callback function pointer [Buses], buses.evt_ufx_device_default_endpoint_add, ufxclient/EvtUfxDeviceDefaultEndpointAdd
 f1_keywords:
  - "ufxclient/PFN_UFX_DEVICE_DEFAULT_ENDPOINT_ADD"
+ - "PFN_UFX_DEVICE_DEFAULT_ENDPOINT_ADD"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ufxclient.h
 api_name:
 - PFN_UFX_DEVICE_DEFAULT_ENDPOINT_ADD
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

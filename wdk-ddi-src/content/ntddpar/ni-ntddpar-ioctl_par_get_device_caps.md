@@ -10,6 +10,7 @@ keywords: ["IOCTL_PAR_GET_DEVICE_CAPS IOCTL"]
 ms.keywords: IOCTL_PAR_GET_DEVICE_CAPS, IOCTL_PAR_GET_DEVICE_CAPS control code [Parallel Ports], cisspd_ea215140-7641-4554-bf95-362942d13143.xml, ntddpar/IOCTL_PAR_GET_DEVICE_CAPS, parports.ioctl_par_get_device_caps
 f1_keywords:
  - "ntddpar/IOCTL_PAR_GET_DEVICE_CAPS"
+ - "IOCTL_PAR_GET_DEVICE_CAPS"
 req.header: ntddpar.h
 req.include-header: Ntddpar.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddpar.h
 api_name:
 - IOCTL_PAR_GET_DEVICE_CAPS
-product:
-- Windows
 targetos: Windows
 req.typenames: OFFLOAD_SECURITY_ASSOCIATION, *POFFLOAD_SECURITY_ASSOCIATION
 ---

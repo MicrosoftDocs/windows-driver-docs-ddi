@@ -10,6 +10,7 @@ keywords: ["IMiniportTopology interface"]
 ms.keywords: IMiniportTopology, IMiniportTopology interface [Audio Devices], IMiniportTopology interface [Audio Devices],described, audio.iminiporttopology, audmp-routines_c2137cf2-ab04-4b0b-aeda-d50fe3225324.xml, portcls/IMiniportTopology
 f1_keywords:
  - "portcls/IMiniportTopology"
+ - "IMiniportTopology"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IMiniportTopology
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

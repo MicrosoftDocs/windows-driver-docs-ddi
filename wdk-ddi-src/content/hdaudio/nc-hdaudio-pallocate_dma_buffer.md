@@ -10,6 +10,7 @@ keywords: ["PALLOCATE_DMA_BUFFER callback function"]
 ms.keywords: AllocateDmaBuffer, AllocateDmaBuffer callback function [Audio Devices], PALLOCATE_DMA_BUFFER, PALLOCATE_DMA_BUFFER callback, aud-prop2_b3e6fc6b-f01f-4ca9-999a-3f9c6e196003.xml, audio.allocatedmabuffer, hdaudio/AllocateDmaBuffer
 f1_keywords:
  - "hdaudio/AllocateDmaBuffer"
+ - "AllocateDmaBuffer"
 req.header: hdaudio.h
 req.include-header: Hdaudio.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - hdaudio.h
 api_name:
 - AllocateDmaBuffer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

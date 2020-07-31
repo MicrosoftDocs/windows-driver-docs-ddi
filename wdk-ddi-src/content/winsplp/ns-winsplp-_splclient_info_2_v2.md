@@ -10,6 +10,7 @@ keywords: ["_SPLCLIENT_INFO_2_V2 structure"]
 ms.keywords: "*LPSPLCLIENT_INFO_2, *PSPLCLIENT_INFO_2, SPLCLIENT_INFO_2, SPLCLIENT_INFO_2_WINXP, SPLCLIENT_INFO_2_WINXP structure [Print Devices], _SPLCLIENT_INFO_2_V2, print.splclient_info_2_winxp, winsplp/SPLCLIENT_INFO_2_WINXP"
 f1_keywords:
  - "winsplp/SPLCLIENT_INFO_2_WINXP"
+ - "SPLCLIENT_INFO_2_WINXP"
 req.header: winsplp.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Winsplp.h
 api_name:
 - SPLCLIENT_INFO_2_WINXP
-product:
-- Windows
 targetos: Windows
 req.typenames: SPLCLIENT_INFO_2_WINXP
 ---

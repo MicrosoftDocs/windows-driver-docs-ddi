@@ -10,6 +10,7 @@ keywords: ["_D3DHAL_DP2DRAWPRIMITIVE2 structure"]
 ms.keywords: "*LPD3DHAL_DP2DRAWPRIMITIVE2, D3DHAL_DP2DRAWPRIMITIVE2, D3DHAL_DP2DRAWPRIMITIVE2 structure [Display Devices], LPD3DHAL_DP2DRAWPRIMITIVE2, LPD3DHAL_DP2DRAWPRIMITIVE2 structure pointer [Display Devices], _D3DHAL_DP2DRAWPRIMITIVE2, d3dhal/D3DHAL_DP2DRAWPRIMITIVE2, d3dhal/LPD3DHAL_DP2DRAWPRIMITIVE2, d3dstrct_b61a4b46-344e-4f06-9b2b-1434bb8b6dcc.xml, display.d3dhal_dp2drawprimitive2"
 f1_keywords:
  - "d3dhal/D3DHAL_DP2DRAWPRIMITIVE2"
+ - "D3DHAL_DP2DRAWPRIMITIVE2"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dhal.h
 api_name:
 - D3DHAL_DP2DRAWPRIMITIVE2
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DHAL_DP2DRAWPRIMITIVE2
 ---

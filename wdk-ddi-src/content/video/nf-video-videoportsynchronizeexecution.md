@@ -10,6 +10,7 @@ keywords: ["VideoPortSynchronizeExecution function"]
 ms.keywords: VideoPortSynchronizeExecution, VideoPortSynchronizeExecution function [Display Devices], VideoPort_Functions_675225d0-5e49-4ad5-bdaa-f7341b9a96db.xml, display.videoportsynchronizeexecution, video/VideoPortSynchronizeExecution
 f1_keywords:
  - "video/VideoPortSynchronizeExecution"
+ - "VideoPortSynchronizeExecution"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Videoprt.sys
 api_name:
 - VideoPortSynchronizeExecution
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

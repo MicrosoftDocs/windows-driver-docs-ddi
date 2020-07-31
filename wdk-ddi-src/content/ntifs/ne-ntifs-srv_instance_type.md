@@ -9,6 +9,7 @@ keywords: ["_SRV_INSTANCE_TYPE enumeration"]
 ms.keywords: "SRV_INSTANCE_TYPE, SRV_INSTANCE_TYPE enumeration [Installable File System Drivers], *PSRV_INSTANCE_TYPE"
 f1_keywords:
  - "ntifs/SRV_INSTANCE_TYPE"
+ - "SRV_INSTANCE_TYPE"
 dev_langs:
  - c++
 req.header: ntifs.h
@@ -37,8 +38,6 @@ api_location:
 - ntifs.h
 api_name:
 - SRV_INSTANCE_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: SRV_INSTANCE_TYPE
 ---

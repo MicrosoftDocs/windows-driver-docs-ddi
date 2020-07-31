@@ -10,6 +10,7 @@ keywords: ["MIRACAST_STATISTIC_DATA structure"]
 ms.keywords: MIRACAST_STATISTIC_DATA, MIRACAST_STATISTIC_DATA structure [Display Devices], display.miracast_statistic_data, netdispumdddi/MIRACAST_STATISTIC_DATA
 f1_keywords:
  - "netdispumdddi/MIRACAST_STATISTIC_DATA"
+ - "MIRACAST_STATISTIC_DATA"
 req.header: netdispumdddi.h
 req.include-header: Netdispumdddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Netdispumdddi.h
 api_name:
 - MIRACAST_STATISTIC_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: MIRACAST_STATISTIC_DATA
 ---

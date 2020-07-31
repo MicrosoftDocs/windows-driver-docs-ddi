@@ -10,6 +10,7 @@ keywords: ["IServiceGroup::AddMember"]
 ms.keywords: AddMember, AddMember method [Audio Devices], AddMember method [Audio Devices],IServiceGroup interface, IServiceGroup interface [Audio Devices],AddMember method, IServiceGroup.AddMember, IServiceGroup::AddMember, audio.iservicegroup_addmember, audmp-routines_0d318d56-28e9-4e42-84b3-1d0eb4110f71.xml, portcls/IServiceGroup::AddMember
 f1_keywords:
  - "portcls/IServiceGroup.AddMember"
+ - "IServiceGroup.AddMember"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IServiceGroup.AddMember
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

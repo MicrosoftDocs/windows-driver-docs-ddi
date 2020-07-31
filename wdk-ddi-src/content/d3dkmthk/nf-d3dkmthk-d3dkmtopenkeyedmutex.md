@@ -9,6 +9,7 @@ keywords: ["D3DKMTOpenKeyedMutex function"]
 ms.keywords: D3DKMTOpenKeyedMutex, D3DKMTOpenKeyedMutex function [Display Devices], OpenGL_Functions_6e2179a9-932f-4bd3-b222-4d5f1471636c.xml, d3dkmthk/D3DKMTOpenKeyedMutex, display.d3dkmtopenkeyedmutex
 f1_keywords:
  - "d3dkmthk/D3DKMTOpenKeyedMutex"
+ - "D3DKMTOpenKeyedMutex"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -38,8 +39,6 @@ api_location:
 - API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 - D3DKMTOpenKeyedMutex
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

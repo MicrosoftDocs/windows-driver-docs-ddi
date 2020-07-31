@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3D12DDI_METACOMMAND_FUNCS_0033 structure"]
 f1_keywords:
  - "d3d12umddi/D3D12DDI_METACOMMAND_FUNCS_0033"
+ - "D3D12DDI_METACOMMAND_FUNCS_0033"
 ms.keywords: D3D12DDI_METACOMMAND_FUNCS_0033, D3D12DDI_METACOMMAND_FUNCS_0033,
 req.header: d3d12umddi.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["FltAcknowledgeEcp function"]
 ms.keywords: FltAcknowledgeEcp, FltAcknowledgeEcp routine [Installable File System Drivers], FltApiRef_a_to_d_17c8b1d4-47d1-4871-be9d-57986967a083.xml, fltkernel/FltAcknowledgeEcp, ifsk.fltacknowledgeecp
 f1_keywords:
  - "fltkernel/FltAcknowledgeEcp"
+ - "FltAcknowledgeEcp"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - FltMgr.dll
 api_name:
 - FltAcknowledgeEcp
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

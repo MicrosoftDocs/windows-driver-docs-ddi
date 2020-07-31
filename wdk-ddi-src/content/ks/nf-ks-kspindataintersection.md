@@ -10,6 +10,7 @@ keywords: ["KsPinDataIntersection function"]
 ms.keywords: KsPinDataIntersection, KsPinDataIntersection function [Streaming Media Devices], ks/KsPinDataIntersection, ksfunc_33b743b3-4045-49cb-a5d4-f6aede715223.xml, stream.kspindataintersection
 f1_keywords:
  - "ks/KsPinDataIntersection"
+ - "KsPinDataIntersection"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsPinDataIntersection
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

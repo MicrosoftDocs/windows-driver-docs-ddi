@@ -8,6 +8,7 @@ ms.date: 01/18/2019
 keywords: ["NetAdapterSetLinkState function"]
 f1_keywords:
  - "netadapter/NetAdapterSetLinkLayerMtuSize"
+ - "NetAdapterSetLinkLayerMtuSize"
 ms.keywords: NetAdapterSetLinkState
 req.header: netadapter.h
 req.include-header: netadaptercx.h
@@ -38,8 +39,6 @@ apilocation:
 apiname: 
 - NetAdapterSetLinkState
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetAdapterSetLinkState function

@@ -10,6 +10,7 @@ keywords: ["IPowerNotify::PowerChangeNotify"]
 ms.keywords: IPowerNotify interface [Audio Devices],PowerChangeNotify method, IPowerNotify.PowerChangeNotify, IPowerNotify::PowerChangeNotify, PowerChangeNotify, PowerChangeNotify method [Audio Devices], PowerChangeNotify method [Audio Devices],IPowerNotify interface, audio.ipowernotify_powerchangenotify, audmp-routines_14b6d53d-cf30-47d1-bace-402fe4e5d7ba.xml, portcls/IPowerNotify::PowerChangeNotify
 f1_keywords:
  - "portcls/IPowerNotify.PowerChangeNotify"
+ - "IPowerNotify.PowerChangeNotify"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IPowerNotify.PowerChangeNotify
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

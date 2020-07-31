@@ -10,6 +10,7 @@ keywords: ["StorPortSetDeviceQueueDepth function"]
 ms.keywords: StorPortSetDeviceQueueDepth, StorPortSetDeviceQueueDepth routine [Storage Devices], storage.storportsetdevicequeuedepth, storport/StorPortSetDeviceQueueDepth, storprt_1f3e0e5d-fa3e-4314-aa0a-4d8494c78fb2.xml
 f1_keywords:
  - "storport/StorPortSetDeviceQueueDepth"
+ - "StorPortSetDeviceQueueDepth"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Storport.dll
 api_name:
 - StorPortSetDeviceQueueDepth
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["MCI_STATUS structure"]
 f1_keywords:
  - "ntddk/MCI_STATUS"
+ - "MCI_STATUS"
 ms.keywords: MCI_STATUS, MCI_STATUS, *PMCI_STATUS, 
 req.header: ntddk.h
 req.include-header:

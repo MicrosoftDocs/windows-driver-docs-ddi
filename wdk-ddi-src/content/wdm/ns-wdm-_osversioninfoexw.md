@@ -10,6 +10,7 @@ keywords: ["_OSVERSIONINFOEXW structure"]
 ms.keywords: "*LPOSVERSIONINFOEXW, *POSVERSIONINFOEXW, *PRTL_OSVERSIONINFOEXW, OSVERSIONINFOEX, OSVERSIONINFOEXW, PRTL_OSVERSIONINFOEXW, PRTL_OSVERSIONINFOEXW structure pointer [Kernel-Mode Driver Architecture], RTL_OSVERSIONINFOEXW, RTL_OSVERSIONINFOEXW structure [Kernel-Mode Driver Architecture], _OSVERSIONINFOEXW, kernel.rtl_osversioninfoexw, kstruct_d_a7e48147-5619-4ab4-b83a-18139aa0a2c5.xml, wdm/PRTL_OSVERSIONINFOEXW, wdm/RTL_OSVERSIONINFOEXW"
 f1_keywords:
  - "wdm/RTL_OSVERSIONINFOEXW"
+ - "RTL_OSVERSIONINFOEXW"
 req.header: wdm.h
 req.include-header: Ntddk.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - RTL_OSVERSIONINFOEXW
-product:
-- Windows
 targetos: Windows
 req.typenames: OSVERSIONINFOEXW, *POSVERSIONINFOEXW, *LPOSVERSIONINFOEXW, RTL_OSVERSIONINFOEXW, *PRTL_OSVERSIONINFOEXW
 ---
@@ -308,7 +307,7 @@ The following table summarizes the version information that is returned by suppo
 |Windows Server 2019|10.0|10|0|**wProductType** != VER_NT_WORKSTATION|
 |Windows 10|10.0|10|0|**wProductType** == VER_NT_WORKSTATION|
 |Windows Server 2016|10.0|10|0|**wProductType** != VER_NT_WORKSTATION|
-|Windows Server 2012 R2|6.3|10|0|**wProductType** != VER_NT_WORKSTATION|
+|Windows Server 2012 R2|6.3|6|3|**wProductType** != VER_NT_WORKSTATION|
 |Windows 8.1|6.3|6|3|**wProductType** == VER_NT_WORKSTATION|
 |Windows 8|6.2|6|2|**wProductType** == VER_NT_WORKSTATION|
 |Windows Server 2012|6.2|6|2|**wProductType** != VER_NT_WORKSTATION|

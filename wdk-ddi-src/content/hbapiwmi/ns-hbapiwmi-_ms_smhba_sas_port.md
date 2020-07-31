@@ -10,6 +10,7 @@ keywords: ["_MS_SMHBA_SAS_Port structure"]
 ms.keywords: "*PMS_SMHBA_SAS_Port, MS_SMHBA_SAS_Port, MS_SMHBA_SAS_Port structure [Storage Devices], PMS_SMHBA_SAS_Port, PMS_SMHBA_SAS_Port structure pointer [Storage Devices], _MS_SMHBA_SAS_Port, hbapiwmi/MS_SMHBA_SAS_Port, hbapiwmi/PMS_SMHBA_SAS_Port, storage.ms_smhba_sas_port, structs-Fibre_c7678d06-756a-4733-bdff-35571ff2c571.xml"
 f1_keywords:
  - "hbapiwmi/MS_SMHBA_SAS_Port"
+ - "MS_SMHBA_SAS_Port"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - MS_SMHBA_SAS_Port
-product:
-- Windows
 targetos: Windows
 req.typenames: MS_SMHBA_SAS_Port, *PMS_SMHBA_SAS_Port
 ---

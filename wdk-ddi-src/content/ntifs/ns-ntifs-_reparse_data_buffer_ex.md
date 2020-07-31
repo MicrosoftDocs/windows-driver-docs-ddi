@@ -8,6 +8,7 @@ tech.root: ifsk
 keywords: ["_REPARSE_DATA_BUFFER_EX structure"]
 f1_keywords:
  - "ntifs/_REPARSE_DATA_BUFFER_EX"
+ - "_REPARSE_DATA_BUFFER_EX"
 ms.keywords: _REPARSE_DATA_BUFFER_EX, REPARSE_DATA_BUFFER_EX, *PREPARSE_DATA_BUFFER_EX, REPARSE_DATA_BUFFER
 req.header: ntifs.h
 req.include-header:
@@ -30,8 +31,6 @@ api_location:
 - ntifs.h
 api_name: 
 - _REPARSE_DATA_BUFFER_EX
-product:
-- Windows
 targetos: Windows
 ---
 

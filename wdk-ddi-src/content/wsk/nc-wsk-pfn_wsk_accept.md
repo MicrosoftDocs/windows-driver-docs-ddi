@@ -10,6 +10,7 @@ keywords: ["PFN_WSK_ACCEPT callback function"]
 ms.keywords: PFN_WSK_ACCEPT, PFN_WSK_ACCEPT callback, WskAccept, WskAccept callback function [Network Drivers Starting with Windows Vista], netvista.wskaccept, wsk/WskAccept, wskref_22de82fc-18c4-4fed-b0fe-7e048ba7cfeb.xml
 f1_keywords:
  - "wsk/WskAccept"
+ - "WskAccept"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - wsk.h
 api_name:
 - WskAccept
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -238,7 +237,7 @@ When the
     <b>WskAccept</b> function successfully accepts an incoming connection, all of the event callback functions
     on the accepted socket are disabled by default. For more information about enabling any of the accepted
     socket's event callback functions, see 
-    <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nc-evntprov-penablecallback">Enabling and
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/enabling-and-disabling-event-callback-functions">Enabling and
     Disabling Event Callback Functions</a>.
 
 If a WSK application specifies a non-<b>NULL</b> pointer in the 

@@ -10,6 +10,7 @@ keywords: ["IKsPinPipe::KsGetPinName"]
 ms.keywords: IKsPinPipe interface [Streaming Media Devices],KsGetPinName method, IKsPinPipe.KsGetPinName, IKsPinPipe::KsGetPinName, KsGetPinName, KsGetPinName method [Streaming Media Devices], KsGetPinName method [Streaming Media Devices],IKsPinPipe interface, ksproxy/IKsPinPipe::KsGetPinName, stream.ikspinpipe_ksgetpinname
 f1_keywords:
  - "ksproxy/IKsPinPipe.KsGetPinName"
+ - "IKsPinPipe.KsGetPinName"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ksproxy.h
 api_name:
 - IKsPinPipe.KsGetPinName
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

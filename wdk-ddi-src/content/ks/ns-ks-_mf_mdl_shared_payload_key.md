@@ -10,6 +10,7 @@ keywords: ["_MF_MDL_SHARED_PAYLOAD_KEY structure"]
 ms.keywords: "*PMF_MDL_SHARED_PAYLOAD_KEY, MF_MDL_SHARED_PAYLOAD_KEY, MF_MDL_SHARED_PAYLOAD_KEY union [Streaming Media Devices], PMF_MDL_SHARED_PAYLOAD_KEY, PMF_MDL_SHARED_PAYLOAD_KEY union [Streaming Media Devices], _MF_MDL_SHARED_PAYLOAD_KEY, ks/MF_MDL_SHARED_PAYLOAD_KEY, ks/PMF_MDL_SHARED_PAYLOAD_KEY, stream.mf_mdl_shared_payload_key"
 f1_keywords:
  - "ks/MF_MDL_SHARED_PAYLOAD_KEY"
+ - "MF_MDL_SHARED_PAYLOAD_KEY"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - MF_MDL_SHARED_PAYLOAD_KEY
-product:
-- Windows
 targetos: Windows
 req.typenames: MF_MDL_SHARED_PAYLOAD_KEY, *PMF_MDL_SHARED_PAYLOAD_KEY
 ---

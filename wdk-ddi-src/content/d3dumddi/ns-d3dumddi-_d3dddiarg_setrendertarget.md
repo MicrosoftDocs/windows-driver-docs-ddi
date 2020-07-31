@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_SETRENDERTARGET structure"]
 ms.keywords: D3DDDIARG_SETRENDERTARGET, D3DDDIARG_SETRENDERTARGET structure [Display Devices], UMDisplayDriver_param_Structs_42cfb4bf-f5af-4008-9c6d-062e910b3238.xml, _D3DDDIARG_SETRENDERTARGET, d3dumddi/D3DDDIARG_SETRENDERTARGET, display.d3dddiarg_setrendertarget
 f1_keywords:
  - "d3dumddi/D3DDDIARG_SETRENDERTARGET"
+ - "D3DDDIARG_SETRENDERTARGET"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDIARG_SETRENDERTARGET
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_SETRENDERTARGET
 ---

@@ -10,6 +10,7 @@ keywords: ["ExtRemoteTyped::Dereference"]
 ms.keywords: Dereference, Dereference method [Windows Debugging], Dereference method [Windows Debugging],ExtRemoteTyped interface, EngExtCpp_Ref_d195c66d-88c1-4099-a227-0dd86d9d67e2.xml, ExtRemoteTyped interface [Windows Debugging],Dereference method, ExtRemoteTyped.Dereference, ExtRemoteTyped::Dereference, debugger.extremotetyped_dereference
 f1_keywords:
  - "engextcpp/ExtRemoteTyped.Dereference"
+ - "ExtRemoteTyped.Dereference"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - engextcpp.hpp
 api_name:
 - ExtRemoteTyped.Dereference
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

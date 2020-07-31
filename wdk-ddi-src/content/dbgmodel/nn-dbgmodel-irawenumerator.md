@@ -7,6 +7,7 @@ ms.date: 07/16/2018
 keywords: ["IRawEnumerator interface"]
 f1_keywords:
  - "dbgmodel/IRawEnumerator"
+ - "IRawEnumerator"
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -28,8 +29,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IRawEnumerator
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

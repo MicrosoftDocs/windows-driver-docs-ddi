@@ -10,6 +10,7 @@ keywords: ["UdecxUsbDeviceLinkPowerExitComplete function"]
 ms.keywords: UdecxUsbDeviceLinkPowerExitComplete, UdecxUsbDeviceLinkPowerExitComplete function [Buses], buses.udecxusbdevicelinkpowerexitcomplete, udecxusbdevice/UdecxUsbDeviceLinkPowerExitComplete
 f1_keywords:
  - "udecxusbdevice/UdecxUsbDeviceLinkPowerExitComplete"
+ - "UdecxUsbDeviceLinkPowerExitComplete"
 req.header: udecxusbdevice.h
 req.include-header: Udecx.h
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 - Udecxstub.dll
 api_name:
 - UdecxUsbDeviceLinkPowerExitComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

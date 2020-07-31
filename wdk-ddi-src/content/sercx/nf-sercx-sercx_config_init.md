@@ -10,6 +10,7 @@ keywords: ["SERCX_CONFIG_INIT function"]
 ms.keywords: 1/SERCX_CONFIG_INIT, SERCX_CONFIG_INIT, SERCX_CONFIG_INIT function [Serial Ports], serports.sercx_config_init
 f1_keywords:
  - "sercx/SERCX_CONFIG_INIT"
+ - "SERCX_CONFIG_INIT"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - 1.0\Sercx.h
 api_name:
 - SERCX_CONFIG_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

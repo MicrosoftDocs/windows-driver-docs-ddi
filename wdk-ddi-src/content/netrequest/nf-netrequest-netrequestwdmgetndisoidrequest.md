@@ -8,6 +8,7 @@ ms.date: 02/08/2018
 keywords: ["NetRequestWdmGetNdisOidRequest function"]
 f1_keywords:
  - "netrequest/NetRequestWdmGetNdisOidRequest"
+ - "NetRequestWdmGetNdisOidRequest"
 ms.keywords: NetRequestWdmGetNdisOidRequest
 req.header: netrequest.h
 req.include-header: netadaptercx.h
@@ -37,8 +38,6 @@ api_location:
 api_name: 
 - NetRequestWdmGetNdisOidRequest
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetRequestWdmGetNdisOidRequest function

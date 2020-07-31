@@ -10,6 +10,7 @@ keywords: ["IResourceList::NumberOfEntriesOfType"]
 ms.keywords: IResourceList interface [Audio Devices],NumberOfEntriesOfType method, IResourceList.NumberOfEntriesOfType, IResourceList::NumberOfEntriesOfType, NumberOfEntriesOfType, NumberOfEntriesOfType method [Audio Devices], NumberOfEntriesOfType method [Audio Devices],IResourceList interface, audio.iresourcelist_numberofentriesoftype, audmp-routines_eb0c6999-a901-4087-b7bc-12057f91be90.xml, portcls/IResourceList::NumberOfEntriesOfType
 f1_keywords:
  - "portcls/IResourceList.NumberOfEntriesOfType"
+ - "IResourceList.NumberOfEntriesOfType"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IResourceList.NumberOfEntriesOfType
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

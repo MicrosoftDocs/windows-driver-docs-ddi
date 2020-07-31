@@ -10,6 +10,7 @@ keywords: ["NdisMCloseLog function"]
 ms.keywords: NdisMCloseLog, NdisMCloseLog function [Network Drivers Starting with Windows Vista], miniport_logging_ref_ad3e4ea9-60c4-46b7-ac68-84517df279e0.xml, ndis/NdisMCloseLog, netvista.ndismcloselog
 f1_keywords:
  - "ndis/NdisMCloseLog"
+ - "NdisMCloseLog"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisMCloseLog
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

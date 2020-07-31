@@ -10,6 +10,7 @@ keywords: ["WdfUsbInterfaceSelectSetting function"]
 ms.keywords: DFUsbRef_256e9b5d-8e9b-4935-9dc9-38a6071258a6.xml, WdfUsbInterfaceSelectSetting, WdfUsbInterfaceSelectSetting method, kmdf.wdfusbinterfaceselectsetting, wdf.wdfusbinterfaceselectsetting, wdfusb/WdfUsbInterfaceSelectSetting
 f1_keywords:
  - "wdfusb/WdfUsbInterfaceSelectSetting"
+ - "WdfUsbInterfaceSelectSetting"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfUsbInterfaceSelectSetting
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::GetSourceEntryStringWide"]
 ms.keywords: GetSourceEntryStringWide, GetSourceEntryStringWide method [Windows Debugging], GetSourceEntryStringWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSourceEntryStringWide method, IDebugSymbols3.GetSourceEntryStringWide, IDebugSymbols3::GetSourceEntryStringWide, dbgeng/IDebugSymbols3::GetSourceEntryStringWide, debugger.idebugsymbols3_getsourceentrystringwide
 f1_keywords:
  - "dbgeng/IDebugSymbols3.GetSourceEntryStringWide"
+ - "IDebugSymbols3.GetSourceEntryStringWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Dbgeng.h
 api_name:
 - IDebugSymbols3.GetSourceEntryStringWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

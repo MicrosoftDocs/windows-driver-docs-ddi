@@ -10,6 +10,7 @@ keywords: ["KsPinAttachAndGate function"]
 ms.keywords: KsPinAttachAndGate, KsPinAttachAndGate function [Streaming Media Devices], avfunc_395e0cf9-ba21-4b20-a37b-7758d1bfeca0.xml, ks/KsPinAttachAndGate, stream.kspinattachandgate
 f1_keywords:
  - "ks/KsPinAttachAndGate"
+ - "KsPinAttachAndGate"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsPinAttachAndGate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

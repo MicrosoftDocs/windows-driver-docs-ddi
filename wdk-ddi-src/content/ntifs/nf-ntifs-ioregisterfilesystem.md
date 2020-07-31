@@ -10,6 +10,7 @@ keywords: ["IoRegisterFileSystem function"]
 ms.keywords: IoRegisterFileSystem, IoRegisterFileSystem routine [Installable File System Drivers], ifsk.ioregisterfilesystem, ioref_42200300-9ef6-4be9-8fee-bf42b027a809.xml, ntifs/IoRegisterFileSystem
 f1_keywords:
  - "ntifs/IoRegisterFileSystem"
+ - "IoRegisterFileSystem"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoRegisterFileSystem
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

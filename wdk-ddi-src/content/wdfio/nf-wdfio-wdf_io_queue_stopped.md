@@ -10,6 +10,7 @@ keywords: ["WDF_IO_QUEUE_STOPPED function"]
 ms.keywords: DFQueueObjectRef_55457efd-0074-4be5-b078-bb223963bfca.xml, WDF_IO_QUEUE_STOPPED, WDF_IO_QUEUE_STOPPED function, kmdf.wdf_io_queue_stopped, wdf.wdf_io_queue_stopped, wdfio/WDF_IO_QUEUE_STOPPED
 f1_keywords:
  - "wdfio/WDF_IO_QUEUE_STOPPED"
+ - "WDF_IO_QUEUE_STOPPED"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - None.dll
 api_name:
 - WDF_IO_QUEUE_STOPPED
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

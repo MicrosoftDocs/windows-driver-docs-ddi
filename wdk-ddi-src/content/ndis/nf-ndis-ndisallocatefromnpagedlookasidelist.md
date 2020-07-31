@@ -10,6 +10,7 @@ keywords: ["NdisAllocateFromNPagedLookasideList macro"]
 ms.keywords: NdisAllocateFromNPagedLookasideList, NdisAllocateFromNPagedLookasideList macro [Network Drivers Starting with Windows Vista], ndis/NdisAllocateFromNPagedLookasideList, ndis_lookaside_ref_455986e8-a34c-44df-b454-87416d8eccf7.xml, netvista.ndisallocatefromnpagedlookasidelist
 f1_keywords:
  - "ndis/NdisAllocateFromNPagedLookasideList"
+ - "NdisAllocateFromNPagedLookasideList"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ndis.h
 api_name:
 - NdisAllocateFromNPagedLookasideList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["DOCUMENTEVENT_EVENT macro"]
 f1_keywords:
  - "winddiui/DOCUMENTEVENT_EVENT"
+ - "DOCUMENTEVENT_EVENT"
 ms.keywords: DOCUMENTEVENT_EVENT
 req.header: winddiui.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - winddiui.h
 api_name: 
 - DOCUMENTEVENT_EVENT
-product:
-- Windows
 targetos: Windows
 
 

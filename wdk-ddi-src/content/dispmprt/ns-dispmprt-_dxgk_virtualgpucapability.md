@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["_DXGK_VIRTUALGPUCAPABILITY structure"]
 f1_keywords:
  - "dispmprt/_DXGK_VIRTUALGPUCAPABILITY"
+ - "_DXGK_VIRTUALGPUCAPABILITY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: _DXGK_VIRTUALGPUCAPABILITY, DXGK_VIRTUALGPUCAPABILITY, *PDXGK_VIRTUALGPUCAPABILITY, 

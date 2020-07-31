@@ -10,6 +10,7 @@ keywords: ["DXGI_DDI_ARG_PRESENT1 structure"]
 ms.keywords: DXGI_DDI_ARG_PRESENT1, DXGI_DDI_ARG_PRESENT1 structure [Display Devices], display.dxgi_ddi_arg_present1, dxgiddi/DXGI_DDI_ARG_PRESENT1
 f1_keywords:
  - "dxgiddi/DXGI_DDI_ARG_PRESENT1"
+ - "DXGI_DDI_ARG_PRESENT1"
 req.header: dxgiddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Dxgiddi.h
 api_name:
 - DXGI_DDI_ARG_PRESENT1
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGI_DDI_ARG_PRESENT1
 ---

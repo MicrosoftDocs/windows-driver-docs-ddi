@@ -10,6 +10,7 @@ keywords: ["KsDispatchQuerySecurity function"]
 ms.keywords: KsDispatchQuerySecurity, KsDispatchQuerySecurity function [Streaming Media Devices], ks/KsDispatchQuerySecurity, ksfunc_9bf0ae3b-19d0-455d-9d58-2d7b7c515f30.xml, stream.ksdispatchquerysecurity
 f1_keywords:
  - "ks/KsDispatchQuerySecurity"
+ - "KsDispatchQuerySecurity"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsDispatchQuerySecurity
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

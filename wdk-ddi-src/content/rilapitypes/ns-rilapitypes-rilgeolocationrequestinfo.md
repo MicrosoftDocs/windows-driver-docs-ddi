@@ -10,6 +10,7 @@ keywords: ["RILGEOLOCATIONREQUESTINFO structure"]
 ms.keywords: "*LPRILGEOLOCATIONREQUESTINFO, RILGEOLOCATIONREQUESTINFO, RILGEOLOCATIONREQUESTINFO structure [Network Drivers Starting with Windows Vista], netvista.rilgeolocationrequestinfo, ntddrilapitypes/RILGEOLOCATIONREQUESTINFO"
 f1_keywords:
  - "rilapitypes/RILGEOLOCATIONREQUESTINFO"
+ - "RILGEOLOCATIONREQUESTINFO"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILGEOLOCATIONREQUESTINFO
-product:
-- Windows
 targetos: Windows
 req.typenames: RILGEOLOCATIONREQUESTINFO, *LPRILGEOLOCATIONREQUESTINFO
 ---

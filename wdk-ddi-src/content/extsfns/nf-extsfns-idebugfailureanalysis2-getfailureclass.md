@@ -10,6 +10,7 @@ keywords: ["IDebugFailureAnalysis2::GetFailureClass"]
 ms.keywords: GetFailureClass, GetFailureClass method [Windows Debugging], GetFailureClass method [Windows Debugging],IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging],GetFailureClass method, IDebugFailureAnalysis2.GetFailureClass, IDebugFailureAnalysis2::GetFailureClass, debugger.idebugfailureanalysis2_getfailureclass, extsfns/IDebugFailureAnalysis2::GetFailureClass
 f1_keywords:
  - "extsfns/IDebugFailureAnalysis2.GetFailureClass"
+ - "IDebugFailureAnalysis2.GetFailureClass"
 req.header: extsfns.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - extsfns.h
 api_name:
 - IDebugFailureAnalysis2.GetFailureClass
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

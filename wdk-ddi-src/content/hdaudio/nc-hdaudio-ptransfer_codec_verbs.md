@@ -10,6 +10,7 @@ keywords: ["PTRANSFER_CODEC_VERBS callback function"]
 ms.keywords: PTRANSFER_CODEC_VERBS, PTRANSFER_CODEC_VERBS callback, TransferCodecVerbs, TransferCodecVerbs callback function [Audio Devices], aud-prop2_120467b8-2871-49f5-9e5a-0715505e786e.xml, audio.transfercodecverbs, hdaudio/TransferCodecVerbs
 f1_keywords:
  - "hdaudio/TransferCodecVerbs"
+ - "TransferCodecVerbs"
 req.header: hdaudio.h
 req.include-header: Hdaudio.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - hdaudio.h
 api_name:
 - TransferCodecVerbs
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

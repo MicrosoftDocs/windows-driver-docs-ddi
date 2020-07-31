@@ -10,6 +10,7 @@ keywords: ["PBYTESWAPUINT128 callback function"]
 ms.keywords: PBYTESWAPUINT128, PBYTESWAPUINT128 callback, SdpByteSwapUint128, SdpByteSwapUint128 callback function [Bluetooth Devices], bltooth.sdpbyteswapuint128, bth_funcs_48f64465-c4dd-4cf2-8655-b55d5f0c89ba.xml, sdplib/SdpByteSwapUint128
 f1_keywords:
  - "bthsdpddi/SdpByteSwapUint128"
+ - "SdpByteSwapUint128"
 req.header: bthsdpddi.h
 req.include-header: BthSdpddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - sdplib.h
 api_name:
 - SdpByteSwapUint128
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

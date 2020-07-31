@@ -10,6 +10,7 @@ keywords: ["_DXGK_START_INFO structure"]
 ms.keywords: "*PDXGK_START_INFO, DXGK_START_INFO, DXGK_START_INFO structure [Display Devices], DmStructs_c2f6faad-cd05-43ea-ab58-b296bc130e09.xml, PDXGK_START_INFO, PDXGK_START_INFO structure pointer [Display Devices], _DXGK_START_INFO, display.dxgk_start_info, dispmprt/DXGK_START_INFO, dispmprt/PDXGK_START_INFO"
 f1_keywords:
  - "dispmprt/DXGK_START_INFO"
+ - "DXGK_START_INFO"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dispmprt.h
 api_name:
 - DXGK_START_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGK_START_INFO, *PDXGK_START_INFO
 ---

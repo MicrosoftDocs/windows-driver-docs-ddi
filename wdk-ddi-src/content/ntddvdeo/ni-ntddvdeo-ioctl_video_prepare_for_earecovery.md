@@ -10,6 +10,7 @@ keywords: ["IOCTL_VIDEO_PREPARE_FOR_EARECOVERY IOCTL"]
 ms.keywords: IOCTL_VIDEO_PREPARE_FOR_EARECOVERY, IOCTL_VIDEO_PREPARE_FOR_EARECOVERY control, IOCTL_VIDEO_PREPARE_FOR_EARECOVERY control code [Display Devices], Video_IOCTLs_72bcebdd-6335-4953-9a23-00061760b4a4.xml, display.ioctl_video_prepare_for_earecovery, ntddvdeo/IOCTL_VIDEO_PREPARE_FOR_EARECOVERY
 f1_keywords:
  - "ntddvdeo/IOCTL_VIDEO_PREPARE_FOR_EARECOVERY"
+ - "IOCTL_VIDEO_PREPARE_FOR_EARECOVERY"
 req.header: ntddvdeo.h
 req.include-header: Ntddvdeo.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddvdeo.h
 api_name:
 - IOCTL_VIDEO_PREPARE_FOR_EARECOVERY
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

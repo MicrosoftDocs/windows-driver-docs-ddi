@@ -8,6 +8,7 @@ keywords: ["SerializationBufferFree function"]
 tech.root: sensors
 f1_keywords:
  - "sensorsutils/SerializationBufferFree"
+ - "SerializationBufferFree"
 ms.keywords: SerializationBufferFree
 req.header: sensorsutils.h
 req.include-header:

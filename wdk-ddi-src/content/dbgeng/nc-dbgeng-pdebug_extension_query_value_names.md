@@ -10,6 +10,7 @@ keywords: ["PDEBUG_EXTENSION_QUERY_VALUE_NAMES callback function"]
 ms.keywords: DebugExtensionQueryValueNames, DebugExtensionQueryValueNames callback function [Windows Debugging], Extensions_Ref_d06137e2-2d0a-4760-b5f6-2f03355f8c07.xml, PDEBUG_EXTENSION_QUERY_VALUE_NAMES, PDEBUG_EXTENSION_QUERY_VALUE_NAMES callback, dbgeng/DebugExtensionQueryValueNames, debugger.debugextensionqueryvaluenames
 f1_keywords:
  - "dbgeng/DebugExtensionQueryValueNames"
+ - "DebugExtensionQueryValueNames"
 req.header: dbgeng.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Dbgeng.h
 api_name:
 - DebugExtensionQueryValueNames
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

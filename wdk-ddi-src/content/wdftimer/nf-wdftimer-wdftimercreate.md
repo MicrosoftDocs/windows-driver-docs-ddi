@@ -10,6 +10,7 @@ keywords: ["WdfTimerCreate function"]
 ms.keywords: DFTimerObjectRef_3388a92e-119d-4208-9cf5-2c934435ff25.xml, WdfTimerCreate, WdfTimerCreate method, kmdf.wdftimercreate, wdf.wdftimercreate, wdftimer/WdfTimerCreate
 f1_keywords:
  - "wdftimer/WdfTimerCreate"
+ - "WdfTimerCreate"
 req.header: wdftimer.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfTimerCreate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

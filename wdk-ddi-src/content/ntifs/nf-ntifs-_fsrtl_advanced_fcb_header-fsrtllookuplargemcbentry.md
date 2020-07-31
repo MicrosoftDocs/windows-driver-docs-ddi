@@ -10,6 +10,7 @@ keywords: ["FsRtlLookupLargeMcbEntry function"]
 ms.keywords: FsRtlLookupLargeMcbEntry, FsRtlLookupLargeMcbEntry routine [Installable File System Drivers], fsrtlref_600ea10a-a948-4169-9877-5a8a603b0426.xml, ifsk.fsrtllookuplargemcbentry, ntifs/FsRtlLookupLargeMcbEntry
 f1_keywords:
  - "ntifs/FsRtlLookupLargeMcbEntry"
+ - "FsRtlLookupLargeMcbEntry"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlLookupLargeMcbEntry
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 dev_langs:

@@ -10,6 +10,7 @@ keywords: ["CcIsThereDirtyData function"]
 ms.keywords: CcIsThereDirtyData, CcIsThereDirtyData routine [Installable File System Drivers], ccref_86c4a327-a13e-49b3-89d1-abf976973000.xml, ifsk.ccistheredirtydata, ntifs/CcIsThereDirtyData
 f1_keywords:
  - "ntifs/CcIsThereDirtyData"
+ - "CcIsThereDirtyData"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - CcIsThereDirtyData
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

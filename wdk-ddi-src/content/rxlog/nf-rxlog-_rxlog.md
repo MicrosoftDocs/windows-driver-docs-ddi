@@ -10,6 +10,7 @@ keywords: ["_RxLog function"]
 ms.keywords: "_RxLog, _RxLog function [Installable File System Drivers], ifsk._rxlog, rxlog/_RxLog, rxref_2c140100-e24e-4fe0-935a-81fa6840db24.xml"
 f1_keywords:
  - "rxlog/_RxLog"
+ - "_RxLog"
 req.header: rxlog.h
 req.include-header: Rxlog.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - rxlog.h
 api_name:
 - _RxLog
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

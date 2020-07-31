@@ -10,6 +10,7 @@ keywords: ["FsRtlOplockFsctrl function"]
 ms.keywords: FsRtlOplockFsctrl, FsRtlOplockFsctrl function [Installable File System Drivers], fsrtlref_74e6bade-f196-4117-9e94-c33776c4f9cd.xml, ifsk.fsrtloplockfsctrl, ntifs/FsRtlOplockFsctrl
 f1_keywords:
  - "ntifs/FsRtlOplockFsctrl"
+ - "FsRtlOplockFsctrl"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlOplockFsctrl
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 dev_langs:

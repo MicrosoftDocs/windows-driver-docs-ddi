@@ -10,6 +10,7 @@ keywords: ["NdisMQueryAdapterInstanceName function"]
 ms.keywords: NdisMQueryAdapterInstanceName, NdisMQueryAdapterInstanceName function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_5e04ebd4-3db8-4cb2-a75c-ce67d938804c.xml, ndis/NdisMQueryAdapterInstanceName, netvista.ndismqueryadapterinstancename
 f1_keywords:
  - "ndis/NdisMQueryAdapterInstanceName"
+ - "NdisMQueryAdapterInstanceName"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisMQueryAdapterInstanceName
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

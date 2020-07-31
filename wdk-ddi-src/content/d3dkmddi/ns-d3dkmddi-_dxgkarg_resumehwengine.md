@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_DXGKARG_RESUMEHWENGINE structure"]
 f1_keywords:
  - "d3dkmddi/_DXGKARG_RESUMEHWENGINE"
+ - "_DXGKARG_RESUMEHWENGINE"
 ms.keywords: _DXGKARG_RESUMEHWENGINE, DXGKARG_RESUMEHWENGINE, *INOUT_PDXGKARG_RESUMEHWENGINE
 req.header: d3dkmddi.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - _DXGKARG_RESUMEHWENGINE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

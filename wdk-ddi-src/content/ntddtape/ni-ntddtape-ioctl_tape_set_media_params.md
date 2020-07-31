@@ -10,6 +10,7 @@ keywords: ["IOCTL_TAPE_SET_MEDIA_PARAMS IOCTL"]
 ms.keywords: IOCTL_TAPE_SET_MEDIA_PARAMS, IOCTL_TAPE_SET_MEDIA_PARAMS control, IOCTL_TAPE_SET_MEDIA_PARAMS control code [Storage Devices], k307_c549601d-5c5e-452b-8880-844820207215.xml, ntddtape/IOCTL_TAPE_SET_MEDIA_PARAMS, storage.ioctl_tape_set_media_params
 f1_keywords:
  - "ntddtape/IOCTL_TAPE_SET_MEDIA_PARAMS"
+ - "IOCTL_TAPE_SET_MEDIA_PARAMS"
 req.header: ntddtape.h
 req.include-header: Ntddtape.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddtape.h
 api_name:
 - IOCTL_TAPE_SET_MEDIA_PARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

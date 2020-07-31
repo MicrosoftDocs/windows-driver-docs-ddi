@@ -10,6 +10,7 @@ keywords: ["RILCALLINFO_V3 structure"]
 ms.keywords: "*LPRILCALLINFO_V3, RILCALLINFO_V3, RILCALLINFO_V3 structure [Network Drivers Starting with Windows Vista], netvista.rilcallinfo_v3, ntddrilapitypes/RILCALLINFO_V3"
 f1_keywords:
  - "rilapitypes/RILCALLINFO_V3"
+ - "RILCALLINFO_V3"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILCALLINFO_V3
-product:
-- Windows
 targetos: Windows
 req.typenames: RILCALLINFO_V3, *LPRILCALLINFO_V3
 ---

@@ -10,6 +10,7 @@ keywords: ["IOCTL_REDIR_QUERY_PATH IOCTL"]
 ms.keywords: IOCTL_REDIR_QUERY_PATH, IOCTL_REDIR_QUERY_PATH control, IOCTL_REDIR_QUERY_PATH control code [Installable File System Drivers], ifsk.ioctl_redir_query_path, ioctl_ref_f46fa4a1-0546-4d70-8490-7a233a2e743f.xml, ntifs/IOCTL_REDIR_QUERY_PATH
 f1_keywords:
  - "ntifs/IOCTL_REDIR_QUERY_PATH"
+ - "IOCTL_REDIR_QUERY_PATH"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - IOCTL_REDIR_QUERY_PATH
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

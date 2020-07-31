@@ -8,6 +8,7 @@ keywords: ["PropertiesListCopy function"]
 tech.root: sensors
 f1_keywords:
  - "sensorsutils/PropertiesListCopy"
+ - "PropertiesListCopy"
 ms.keywords: PropertiesListCopy
 req.header: sensorsutils.h
 req.include-header:

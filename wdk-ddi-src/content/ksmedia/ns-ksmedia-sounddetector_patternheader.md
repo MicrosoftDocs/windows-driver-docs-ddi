@@ -10,6 +10,7 @@ keywords: ["SOUNDDETECTOR_PATTERNHEADER structure"]
 ms.keywords: SOUNDDETECTOR_PATTERNHEADER, SOUNDDETECTOR_PATTERNHEADER structure [Audio Devices], audio.sounddetector_patternheader, ksmedia/SOUNDDETECTOR_PATTERNHEADER
 f1_keywords:
  - "ksmedia/SOUNDDETECTOR_PATTERNHEADER"
+ - "SOUNDDETECTOR_PATTERNHEADER"
 req.header: ksmedia.h
 req.include-header: Keyworddetectoroemadapter.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - SOUNDDETECTOR_PATTERNHEADER
-product:
-- Windows
 targetos: Windows
 req.typenames: SOUNDDETECTOR_PATTERNHEADER
 ---

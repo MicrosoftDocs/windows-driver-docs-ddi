@@ -10,6 +10,7 @@ keywords: ["KeRemoveQueue function"]
 ms.keywords: KeRemoveQueue, KeRemoveQueue routine [Installable File System Drivers], ifsk.keremovequeue, keref_99014b0b-5ca1-4cda-8422-fc3819f42d8b.xml, ntifs/KeRemoveQueue
 f1_keywords:
  - "ntifs/KeRemoveQueue"
+ - "KeRemoveQueue"
 req.header: ntifs.h
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeRemoveQueue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

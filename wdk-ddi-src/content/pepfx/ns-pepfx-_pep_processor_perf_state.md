@@ -10,6 +10,7 @@ keywords: ["_PEP_PROCESSOR_PERF_STATE structure"]
 ms.keywords: "*PPEP_PROCESSOR_PERF_STATE, PEP_PROCESSOR_PERF_STATE, PEP_PROCESSOR_PERF_STATE structure [Kernel-Mode Driver Architecture], _PEP_PROCESSOR_PERF_STATE, kernel.pep_processor_perf_state, pepfx/PEP_PROCESSOR_PERF_STATE"
 f1_keywords:
  - "pepfx/PEP_PROCESSOR_PERF_STATE"
+ - "PEP_PROCESSOR_PERF_STATE"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Pepfx.h
 api_name:
 - PEP_PROCESSOR_PERF_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_PROCESSOR_PERF_STATE, *PPEP_PROCESSOR_PERF_STATE
 ---

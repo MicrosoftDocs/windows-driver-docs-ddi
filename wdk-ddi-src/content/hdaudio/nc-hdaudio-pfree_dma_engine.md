@@ -10,6 +10,7 @@ keywords: ["PFREE_DMA_ENGINE callback function"]
 ms.keywords: FreeDmaEngine, FreeDmaEngine callback function [Audio Devices], PFREE_DMA_ENGINE, PFREE_DMA_ENGINE callback, aud-prop2_98407bc5-c9ae-499f-92b4-afd8c797dc1d.xml, audio.freedmaengine, hdaudio/FreeDmaEngine
 f1_keywords:
  - "hdaudio/FreeDmaEngine"
+ - "FreeDmaEngine"
 req.header: hdaudio.h
 req.include-header: Hdaudio.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - hdaudio.h
 api_name:
 - FreeDmaEngine
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

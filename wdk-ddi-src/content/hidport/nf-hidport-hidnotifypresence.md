@@ -8,6 +8,7 @@ ms.date: 02/05/2019
 keywords: ["HidNotifyPresence function"]
 f1_keywords:
  - "hidport/HidNotifyPresence"
+ - "HidNotifyPresence"
 ms.keywords: HidNotifyPresence
 req.header: hidport.h
 req.include-header: hidport.h
@@ -29,8 +30,6 @@ api_location:
 - Hid.dll
 api_name:
 - HidNotifyPresence
-product:
-- Windows
 targetos: Windows
 ---
 

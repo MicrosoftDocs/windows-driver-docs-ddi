@@ -10,6 +10,7 @@ keywords: ["DXGKDDI_OPM_GET_CERTIFICATE_SIZE callback function"]
 ms.keywords: DXGKDDI_OPM_GET_CERTIFICATE_SIZE, DXGKDDI_OPM_GET_CERTIFICATE_SIZE callback, Dm_Opm_functions_62785ff7-3c52-4e07-b075-eb27de1236b8.xml, DxgkDdiOPMGetCertificateSize, DxgkDdiOPMGetCertificateSize callback function [Display Devices], display.dxgkddiopmgetcertificatesize, dispmprt/DxgkDdiOPMGetCertificateSize
 f1_keywords:
  - "dispmprt/DxgkDdiOPMGetCertificateSize"
+ - "DxgkDdiOPMGetCertificateSize"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dispmprt.h
 api_name:
 - DxgkDdiOPMGetCertificateSize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

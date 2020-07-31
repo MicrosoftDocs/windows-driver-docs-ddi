@@ -10,6 +10,7 @@ keywords: ["IoGetDeviceInterfaceAlias function"]
 ms.keywords: IoGetDeviceInterfaceAlias, IoGetDeviceInterfaceAlias routine [Kernel-Mode Driver Architecture], k104_e33a51e9-4576-4558-9967-9ea27467c326.xml, kernel.iogetdeviceinterfacealias, wdm/IoGetDeviceInterfaceAlias
 f1_keywords:
  - "wdm/IoGetDeviceInterfaceAlias"
+ - "IoGetDeviceInterfaceAlias"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoGetDeviceInterfaceAlias
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

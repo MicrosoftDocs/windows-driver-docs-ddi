@@ -10,6 +10,7 @@ keywords: ["RtlConvertLongToLargeInteger function"]
 ms.keywords: RtlConvertLongToLargeInteger, RtlConvertLongToLargeInteger routine [Kernel-Mode Driver Architecture], k109_f56a300b-e5d3-4f08-8d38-f124f73ada9f.xml, kernel.rtlconvertlongtolargeinteger, wdm/RtlConvertLongToLargeInteger
 f1_keywords:
  - "wdm/RtlConvertLongToLargeInteger"
+ - "RtlConvertLongToLargeInteger"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlConvertLongToLargeInteger
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

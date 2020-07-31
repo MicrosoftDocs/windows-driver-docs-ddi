@@ -10,6 +10,7 @@ keywords: ["RILDEVSPECIFICGETTOKEN structure"]
 ms.keywords: "*LPRILDEVSPECIFICGETTOKEN, LPRILDEVSPECIFICGETTOKEN, LPRILDEVSPECIFICGETTOKEN structure pointer [Network Drivers Starting with Windows Vista], RILDEVSPECIFICGETTOKEN, RILDEVSPECIFICGETTOKEN structure [Network Drivers Starting with Windows Vista], netvista.rildevspecificgettoken, oemrilapitypes/LPRILDEVSPECIFICGETTOKEN, oemrilapitypes/RILDEVSPECIFICGETTOKEN"
 f1_keywords:
  - "oemrilapitypes/RILDEVSPECIFICGETTOKEN"
+ - "RILDEVSPECIFICGETTOKEN"
 req.header: oemrilapitypes.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - oemrilapitypes.h
 api_name:
 - RILDEVSPECIFICGETTOKEN
-product:
-- Windows
 targetos: Windows
 req.typenames: RILDEVSPECIFICGETTOKEN, *LPRILDEVSPECIFICGETTOKEN
 ---

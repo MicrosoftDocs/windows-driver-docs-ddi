@@ -10,6 +10,7 @@ keywords: ["_D3DHAL_DP2RESPONSE structure"]
 ms.keywords: "*LPD3DHAL_DP2RESPONSE, D3DHAL_DP2RESPONSE, D3DHAL_DP2RESPONSE structure [Display Devices], LPD3DHAL_DP2RESPONSE, LPD3DHAL_DP2RESPONSE structure pointer [Display Devices], _D3DHAL_DP2RESPONSE, d3dhal/D3DHAL_DP2RESPONSE, d3dhal/LPD3DHAL_DP2RESPONSE, d3dstrct_cd629a64-c8e9-45d2-a0bc-048ff623cc97.xml, display.d3dhal_dp2response"
 f1_keywords:
  - "d3dhal/D3DHAL_DP2RESPONSE"
+ - "D3DHAL_DP2RESPONSE"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dhal.h
 api_name:
 - D3DHAL_DP2RESPONSE
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DHAL_DP2RESPONSE, *LPD3DHAL_DP2RESPONSE
 ---

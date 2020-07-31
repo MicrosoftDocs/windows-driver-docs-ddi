@@ -8,6 +8,7 @@ ms.date: 04/17/2018
 keywords: ["NDIS_SWITCH_PROPERTY_ENUM_INFO_GET_PROPERTY macro"]
 f1_keywords:
  - "ntddndis/NDIS_SWITCH_PROPERTY_ENUM_INFO_GET_PROPERTY"
+ - "NDIS_SWITCH_PROPERTY_ENUM_INFO_GET_PROPERTY"
 ms.keywords: NDIS_SWITCH_PROPERTY_ENUM_INFO_GET_PROPERTY
 req.header: ntddndis.h
 req.include-header: ndis.h
@@ -34,8 +35,6 @@ api_location:
 - ntddndis.h
 api_name: 
 - NDIS_SWITCH_PROPERTY_ENUM_INFO_GET_PROPERTY
-product:
-- Windows
 targetos: Windows
 
 ---

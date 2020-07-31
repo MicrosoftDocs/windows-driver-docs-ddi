@@ -32,8 +32,6 @@ api_location:
 -   NtosKrnl.exe
 api_name:
 -   ColorAdapterGetDisplayTransformData
-product:
-- Windows
 targetos: Windows
 
 ---

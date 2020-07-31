@@ -10,6 +10,7 @@ keywords: ["NdisCopyReceiveNetBufferListInfo function"]
 ms.keywords: NdisCopyReceiveNetBufferListInfo, NdisCopyReceiveNetBufferListInfo function [Network Drivers Starting with Windows Vista], ndis/NdisCopyReceiveNetBufferListInfo, ndis_netbuf_functions_ref_c7980afc-64b0-4dc4-812e-1a89254df50a.xml, netvista.ndiscopyreceivenetbufferlistinfo
 f1_keywords:
  - "ndis/NdisCopyReceiveNetBufferListInfo"
+ - "NdisCopyReceiveNetBufferListInfo"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisCopyReceiveNetBufferListInfo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

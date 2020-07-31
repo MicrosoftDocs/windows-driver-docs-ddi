@@ -10,6 +10,7 @@ keywords: ["PFNDRMDESTROYCONTENT callback function"]
 ms.keywords: DRMDestroyContent, DRMDestroyContent callback function [Audio Devices], PFNDRMDESTROYCONTENT, PFNDRMDESTROYCONTENT callback, PfnDRMDestroyContent, PfnDRMDestroyContent callback function [Audio Devices], audio.pfndrmdestroycontent, drmk/PfnDRMDestroyContent
 f1_keywords:
  - "drmk/DRMDestroyContent"
+ - "DRMDestroyContent"
 req.header: drmk.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Drmk.h
 api_name:
 - DRMDestroyContent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

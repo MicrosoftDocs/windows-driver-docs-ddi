@@ -10,6 +10,7 @@ keywords: ["_DD_DXVERSION structure"]
 ms.keywords: DD_DXVERSION, DD_DXVERSION structure [Display Devices], _DD_DXVERSION, d3dhal/DD_DXVERSION, d3dstrct_8955afcc-5fa5-493b-b291-69cd3b61ed8b.xml, display.dd_dxversion
 f1_keywords:
  - "d3dhal/DD_DXVERSION"
+ - "DD_DXVERSION"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dhal.h
 api_name:
 - DD_DXVERSION
-product:
-- Windows
 targetos: Windows
 req.typenames: DD_DXVERSION
 ---

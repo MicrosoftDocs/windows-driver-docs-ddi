@@ -10,6 +10,7 @@ keywords: ["_DXVAHDDDI_OUTPUT_RATE enumeration"]
 ms.keywords: DXVA2_Structs_34010924-8e9c-440c-a972-e2ae58124666.xml, DXVAHDDDI_OUTPUT_RATE, DXVAHDDDI_OUTPUT_RATE enumeration [Display Devices], DXVAHDDDI_OUTPUT_RATE_CUSTOM, DXVAHDDDI_OUTPUT_RATE_HALF, DXVAHDDDI_OUTPUT_RATE_NORMAL, _DXVAHDDDI_OUTPUT_RATE, d3dumddi/DXVAHDDDI_OUTPUT_RATE, d3dumddi/DXVAHDDDI_OUTPUT_RATE_CUSTOM, d3dumddi/DXVAHDDDI_OUTPUT_RATE_HALF, d3dumddi/DXVAHDDDI_OUTPUT_RATE_NORMAL, display.dxvahdddi_output_rate
 f1_keywords:
  - "d3dumddi/DXVAHDDDI_OUTPUT_RATE"
+ - "DXVAHDDDI_OUTPUT_RATE"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - DXVAHDDDI_OUTPUT_RATE
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVAHDDDI_OUTPUT_RATE
 ---

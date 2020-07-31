@@ -10,6 +10,7 @@ keywords: ["PoStartDeviceBusy function"]
 ms.keywords: PoStartDeviceBusy, PoStartDeviceBusy routine [Kernel-Mode Driver Architecture], kernel.postartdevicebusy, portn_b129df72-9d6a-46b7-99db-ad2e96cfeafe.xml, wdm/PoStartDeviceBusy
 f1_keywords:
  - "wdm/PoStartDeviceBusy"
+ - "PoStartDeviceBusy"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - PoStartDeviceBusy
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

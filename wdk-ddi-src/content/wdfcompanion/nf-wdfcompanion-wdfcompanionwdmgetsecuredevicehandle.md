@@ -10,6 +10,7 @@ keywords: ["WdfCompanionWdmGetSecureDeviceHandle function"]
 ms.keywords: WdfCompanionWdmGetSecureDeviceHandle, WdfCompanionWdmGetSecureDeviceHandle method, wdf.wdfcompanionwdmgetsecuredevicehandle, wdfcompanion/WdfCompanionWdmGetSecureDeviceHandle
 f1_keywords:
  - "wdfcompanion/WdfCompanionWdmGetSecureDeviceHandle"
+ - "WdfCompanionWdmGetSecureDeviceHandle"
 req.header: wdfcompanion.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wdfcompanion.h
 api_name:
 - WdfCompanionWdmGetSecureDeviceHandle
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

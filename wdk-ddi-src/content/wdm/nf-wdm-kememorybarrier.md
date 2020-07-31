@@ -10,6 +10,7 @@ keywords: ["KeMemoryBarrier function"]
 ms.keywords: KeMemoryBarrier, KeMemoryBarrier routine [Kernel-Mode Driver Architecture], k105_972df62d-6449-40d7-9bfa-0c420cf8f106.xml, kernel.kememorybarrier, wdm/KeMemoryBarrier
 f1_keywords:
  - "wdm/KeMemoryBarrier"
+ - "KeMemoryBarrier"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - KeMemoryBarrier
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

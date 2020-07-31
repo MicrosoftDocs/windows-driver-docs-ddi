@@ -10,6 +10,7 @@ keywords: ["WdfWdmDriverGetWdfDriverHandle function"]
 ms.keywords: DFDriverObjectRef_9cf5a70f-e2df-4302-9558-c8cd066cf8e4.xml, WdfWdmDriverGetWdfDriverHandle, WdfWdmDriverGetWdfDriverHandle method, kmdf.wdfwdmdrivergetwdfdriverhandle, wdf.wdfwdmdrivergetwdfdriverhandle, wdfdriver/WdfWdmDriverGetWdfDriverHandle
 f1_keywords:
  - "wdfdriver/WdfWdmDriverGetWdfDriverHandle"
+ - "WdfWdmDriverGetWdfDriverHandle"
 req.header: wdfdriver.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfWdmDriverGetWdfDriverHandle
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

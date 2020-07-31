@@ -10,6 +10,7 @@ keywords: ["D3DDDI_RESERVEGPUVIRTUALADDRESS structure"]
 ms.keywords: D3DDDI_RESERVEGPUVIRTUALADDRESS, D3DDDI_RESERVEGPUVIRTUALADDRESS structure [Display Devices], d3dukmdt/D3DDDI_RESERVEGPUVIRTUALADDRESS, display.d3dddi_reservegpuvirtualaddress
 f1_keywords:
  - "d3dukmdt/D3DDDI_RESERVEGPUVIRTUALADDRESS"
+ - "D3DDDI_RESERVEGPUVIRTUALADDRESS"
 req.header: d3dukmdt.h
 req.include-header: D3dumddi.h, D3dkmddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dukmdt.h
 api_name:
 - D3DDDI_RESERVEGPUVIRTUALADDRESS
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDI_RESERVEGPUVIRTUALADDRESS
 ---

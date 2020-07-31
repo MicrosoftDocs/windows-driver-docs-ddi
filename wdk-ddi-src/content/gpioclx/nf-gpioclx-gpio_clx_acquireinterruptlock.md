@@ -10,6 +10,7 @@ keywords: ["GPIO_CLX_AcquireInterruptLock function"]
 ms.keywords: GPIO.gpio_clx_acquireinterruptlock, GPIO_CLX_AcquireInterruptLock, GPIO_CLX_AcquireInterruptLock method [Parallel Ports], gpioclx/GPIO_CLX_AcquireInterruptLock
 f1_keywords:
  - "gpioclx/GPIO_CLX_AcquireInterruptLock"
+ - "GPIO_CLX_AcquireInterruptLock"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Msgpioclxstub.dll
 api_name:
 - GPIO_CLX_AcquireInterruptLock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

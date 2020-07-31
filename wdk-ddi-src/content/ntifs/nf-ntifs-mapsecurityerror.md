@@ -10,6 +10,7 @@ keywords: ["MapSecurityError function"]
 ms.keywords: IFSMiscRef_41a163d7-81d1-4877-b1c2-ae90b203177a.xml, MapSecurityError, MapSecurityError function [Installable File System Drivers], ifsk.mapsecurityerror, ntifs/MapSecurityError
 f1_keywords:
  - "ntifs/MapSecurityError"
+ - "MapSecurityError"
 req.header: ntifs.h
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - MapSecurityError
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

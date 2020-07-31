@@ -10,6 +10,7 @@ keywords: ["EVT_SPB_TARGET_CONNECT callback function"]
 ms.keywords: EVT_SPB_TARGET_CONNECT, EVT_SPB_TARGET_CONNECT callback, EvtSpbTargetConnect, EvtSpbTargetConnect callback function [Buses], SPB.evtspbtargetconnect, spbcx/EvtSpbTargetConnect
 f1_keywords:
  - "spbcx/EvtSpbTargetConnect"
+ - "EvtSpbTargetConnect"
 req.header: spbcx.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Spbcx.h
 api_name:
 - EvtSpbTargetConnect
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

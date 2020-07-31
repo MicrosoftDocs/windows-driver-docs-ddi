@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::GetSymbolEntriesByOffset"]
 ms.keywords: GetSymbolEntriesByOffset, GetSymbolEntriesByOffset method [Windows Debugging], GetSymbolEntriesByOffset method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSymbolEntriesByOffset method, IDebugSymbols3.GetSymbolEntriesByOffset, IDebugSymbols3::GetSymbolEntriesByOffset, IDebugSymbols_dba4bc10-a8a8-476d-b668-652c24743ea5.xml, dbgeng/IDebugSymbols3::GetSymbolEntriesByOffset, debugger.getsymbolentriesbyoffset
 f1_keywords:
  - "dbgeng/IDebugSymbols3.GetSymbolEntriesByOffset"
+ - "IDebugSymbols3.GetSymbolEntriesByOffset"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugSymbols3.GetSymbolEntriesByOffset
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

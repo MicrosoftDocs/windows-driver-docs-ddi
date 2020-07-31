@@ -9,6 +9,7 @@ keywords: ["D3D10_DDI_RASTERIZER_DESC structure"]
 ms.keywords: D3D10_DDI_RASTERIZER_DESC, D3D10_DDI_RASTERIZER_DESC structure [Display Devices], UMDisplayDriver_Dx10param_Structs_bf0538cd-a9de-44f6-a028-d147b77324fc.xml, d3d10umddi/D3D10_DDI_RASTERIZER_DESC, display.d3d10_ddi_rasterizer_desc
 f1_keywords:
  - "d3d10umddi/D3D10_DDI_RASTERIZER_DESC"
+ - "D3D10_DDI_RASTERIZER_DESC"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - D3D10_DDI_RASTERIZER_DESC
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D10_DDI_RASTERIZER_DESC

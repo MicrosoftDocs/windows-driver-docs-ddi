@@ -10,6 +10,7 @@ keywords: ["ExtRemoteData::GetChar"]
 ms.keywords: EngExtCpp_Ref_98ced053-a952-4c9f-af2b-0aab9d20e311.xml, ExtRemoteData class [Windows Debugging],GetChar method, ExtRemoteData.GetChar, ExtRemoteData::GetChar, GetChar, GetChar method [Windows Debugging], GetChar method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_getchar
 f1_keywords:
  - "engextcpp/ExtRemoteData.GetChar"
+ - "ExtRemoteData.GetChar"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - engextcpp.hpp
 api_name:
 - ExtRemoteData.GetChar
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

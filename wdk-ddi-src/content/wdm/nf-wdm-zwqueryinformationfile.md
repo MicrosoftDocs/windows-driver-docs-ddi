@@ -10,6 +10,7 @@ keywords: ["ZwQueryInformationFile function"]
 ms.keywords: NtQueryInformationFile, ZwQueryInformationFile, ZwQueryInformationFile routine [Kernel-Mode Driver Architecture], k111_822ab812-a644-4574-8d89-c4ebf5b17ea5.xml, kernel.zwqueryinformationfile, wdm/NtQueryInformationFile, wdm/ZwQueryInformationFile
 f1_keywords:
  - "wdm/ZwQueryInformationFile"
+ - "ZwQueryInformationFile"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - ZwQueryInformationFile
 - NtQueryInformationFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

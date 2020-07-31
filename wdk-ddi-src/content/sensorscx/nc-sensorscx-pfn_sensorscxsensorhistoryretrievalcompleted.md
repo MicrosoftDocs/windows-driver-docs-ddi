@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["*PFN_SENSORSCXSENSORHISTORYRETRIEVALCOMPLETED callback function"]
 f1_keywords:
  - "sensorscx/*PFN_SENSORSCXSENSORHISTORYRETRIEVALCOMPLETED"
+ - "*PFN_SENSORSCXSENSORHISTORYRETRIEVALCOMPLETED"
 req.header: sensorscx.h
 req.include-header:
 req.target-type:
@@ -32,8 +33,6 @@ api_location:
 - sensorscx.h
 api_name: 
 - PFN_SENSORSCXSENSORHISTORYRETRIEVALCOMPLETED
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

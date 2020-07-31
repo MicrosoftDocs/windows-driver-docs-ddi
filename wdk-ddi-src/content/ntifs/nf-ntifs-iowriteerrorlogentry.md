@@ -10,6 +10,7 @@ keywords: ["IoWriteErrorLogEntry function"]
 ms.keywords: IoWriteErrorLogEntry, IoWriteErrorLogEntry routine [Kernel-Mode Driver Architecture], k104_1822a499-059a-41c8-b97b-aa3a5bfd22e3.xml, kernel.iowriteerrorlogentry, wdm/IoWriteErrorLogEntry
 f1_keywords:
  - "ntifs/IoWriteErrorLogEntry"
+ - "IoWriteErrorLogEntry"
 req.header: ntifs.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoWriteErrorLogEntry
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

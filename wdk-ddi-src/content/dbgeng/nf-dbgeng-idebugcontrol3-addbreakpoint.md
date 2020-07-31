@@ -10,6 +10,7 @@ keywords: ["IDebugControl3::AddBreakpoint"]
 ms.keywords: AddBreakpoint, AddBreakpoint method [Windows Debugging], AddBreakpoint method [Windows Debugging],IDebugControl interface, AddBreakpoint method [Windows Debugging],IDebugControl2 interface, AddBreakpoint method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],AddBreakpoint method, IDebugControl2 interface [Windows Debugging],AddBreakpoint method, IDebugControl2::AddBreakpoint, IDebugControl3 interface [Windows Debugging],AddBreakpoint method, IDebugControl3.AddBreakpoint, IDebugControl3::AddBreakpoint, IDebugControl::AddBreakpoint, IDebugControl_3d11665a-ec78-4742-8195-2798601814e9.xml, dbgeng/IDebugControl2::AddBreakpoint, dbgeng/IDebugControl3::AddBreakpoint, dbgeng/IDebugControl::AddBreakpoint, debugger.addbreakpoint
 f1_keywords:
  - "dbgeng/IDebugControl.AddBreakpoint"
+ - "IDebugControl.AddBreakpoint"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -38,8 +39,6 @@ api_name:
 - IDebugControl.AddBreakpoint
 - IDebugControl2.AddBreakpoint
 - IDebugControl3.AddBreakpoint
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

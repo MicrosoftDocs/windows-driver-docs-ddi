@@ -10,6 +10,7 @@ keywords: ["IMiniportMidi::Init"]
 ms.keywords: IMiniportMidi interface [Audio Devices],Init method, IMiniportMidi.Init, IMiniportMidi::Init, Init, Init method [Audio Devices], Init method [Audio Devices],IMiniportMidi interface, audio.iminiportmidi_init, audmp-routines_44f5f136-811f-46ec-aa4d-64fba408acbf.xml, portcls/IMiniportMidi::Init
 f1_keywords:
  - "portcls/IMiniportMidi.Init"
+ - "IMiniportMidi.Init"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IMiniportMidi.Init
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IoSetFileObjectIgnoreSharing function"]
 ms.keywords: IoSetFileObjectIgnoreSharing, IoSetFileObjectIgnoreSharing routine [Installable File System Drivers], ifsk.iosetfileobjectignoresharing, ntddk/IoSetFileObjectIgnoreSharing
 f1_keywords:
  - "ntddk/IoSetFileObjectIgnoreSharing"
+ - "IoSetFileObjectIgnoreSharing"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoSetFileObjectIgnoreSharing
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

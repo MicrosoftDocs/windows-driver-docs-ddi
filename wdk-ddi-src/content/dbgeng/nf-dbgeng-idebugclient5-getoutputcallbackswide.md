@@ -10,6 +10,7 @@ keywords: ["IDebugClient5::GetOutputCallbacksWide"]
 ms.keywords: GetOutputCallbacksWide, GetOutputCallbacksWide method [Windows Debugging], GetOutputCallbacksWide method [Windows Debugging],IDebugClient5 interface, IDebugClient5 interface [Windows Debugging],GetOutputCallbacksWide method, IDebugClient5.GetOutputCallbacksWide, IDebugClient5::GetOutputCallbacksWide, dbgeng/IDebugClient5::GetOutputCallbacksWide, debugger.getoutputcallbackswide
 f1_keywords:
  - "dbgeng/IDebugClient5.GetOutputCallbacksWide"
+ - "IDebugClient5.GetOutputCallbacksWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugClient5.GetOutputCallbacksWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

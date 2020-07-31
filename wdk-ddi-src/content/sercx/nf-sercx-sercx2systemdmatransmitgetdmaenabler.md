@@ -10,6 +10,7 @@ keywords: ["SerCx2SystemDmaTransmitGetDmaEnabler function"]
 ms.keywords: 2/SerCx2SystemDmaTransmitGetDmaEnabler, SerCx2SystemDmaTransmitGetDmaEnabler, SerCx2SystemDmaTransmitGetDmaEnabler method [Serial Ports], serports.sercx2systemdmatransmitgetdmaenabler
 f1_keywords:
  - "sercx/SerCx2SystemDmaTransmitGetDmaEnabler"
+ - "SerCx2SystemDmaTransmitGetDmaEnabler"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - 2.0\Sercx.h
 api_name:
 - SerCx2SystemDmaTransmitGetDmaEnabler
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

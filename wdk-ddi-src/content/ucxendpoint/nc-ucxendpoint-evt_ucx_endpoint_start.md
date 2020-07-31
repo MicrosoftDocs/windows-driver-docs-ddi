@@ -10,6 +10,7 @@ keywords: ["EVT_UCX_ENDPOINT_START callback function"]
 ms.keywords: EVT_UCX_ENDPOINT_START, EVT_UCX_ENDPOINT_START callback, EvtUcxEndpointStart, EvtUcxEndpointStart callback function [Buses], PEVT_UCX_ENDPOINT_START, PEVT_UCX_ENDPOINT_START callback function pointer [Buses], buses.evt_ucx_endpoint_start, ucxendpoint/EvtUcxEndpointStart
 f1_keywords:
  - "ucxendpoint/PEVT_UCX_ENDPOINT_START"
+ - "PEVT_UCX_ENDPOINT_START"
 req.header: ucxendpoint.h
 req.include-header: Ucxclass.h, Ucxendpoint.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ucxendpoint.h
 api_name:
 - PEVT_UCX_ENDPOINT_START
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

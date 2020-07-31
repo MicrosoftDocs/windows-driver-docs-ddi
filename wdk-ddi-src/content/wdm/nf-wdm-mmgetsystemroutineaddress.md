@@ -10,6 +10,7 @@ keywords: ["MmGetSystemRoutineAddress function"]
 ms.keywords: MmGetSystemRoutineAddress, MmGetSystemRoutineAddress routine [Kernel-Mode Driver Architecture], k106_4cd56243-e8f4-428a-95f2-4e7a1d2a7396.xml, kernel.mmgetsystemroutineaddress, wdm/MmGetSystemRoutineAddress
 f1_keywords:
  - "wdm/MmGetSystemRoutineAddress"
+ - "MmGetSystemRoutineAddress"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - MmGetSystemRoutineAddress
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

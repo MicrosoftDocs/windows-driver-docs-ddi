@@ -10,6 +10,7 @@ keywords: ["WdfIoTargetSendInternalIoctlSynchronously function"]
 ms.keywords: DFIOTargetRef_c318553e-1a21-444e-b8e0-de4a1f17b98f.xml, WdfIoTargetSendInternalIoctlSynchronously, WdfIoTargetSendInternalIoctlSynchronously method, kmdf.wdfiotargetsendinternalioctlsynchronously, wdf.wdfiotargetsendinternalioctlsynchronously, wdfiotarget/WdfIoTargetSendInternalIoctlSynchronously
 f1_keywords:
  - "wdfiotarget/WdfIoTargetSendInternalIoctlSynchronously"
+ - "WdfIoTargetSendInternalIoctlSynchronously"
 req.header: wdfiotarget.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfIoTargetSendInternalIoctlSynchronously
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

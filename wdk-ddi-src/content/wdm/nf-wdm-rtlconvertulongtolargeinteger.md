@@ -10,6 +10,7 @@ keywords: ["RtlConvertUlongToLargeInteger function"]
 ms.keywords: RtlConvertUlongToLargeInteger, RtlConvertUlongToLargeInteger routine [Kernel-Mode Driver Architecture], k109_442eaa78-8765-4d40-a77d-8a511d18b754.xml, kernel.rtlconvertulongtolargeinteger, wdm/RtlConvertUlongToLargeInteger
 f1_keywords:
  - "wdm/RtlConvertUlongToLargeInteger"
+ - "RtlConvertUlongToLargeInteger"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlConvertUlongToLargeInteger
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["_INLINE_FRAME_CONTEXT structure"]
 ms.keywords: INLINE_FRAME_CONTEXT, INLINE_FRAME_CONTEXT union [Windows Debugging], _INLINE_FRAME_CONTEXT, dbgeng/INLINE_FRAME_CONTEXT, debugger.inline_frame_context
 f1_keywords:
  - "dbgeng/INLINE_FRAME_CONTEXT"
+ - "INLINE_FRAME_CONTEXT"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Dbgeng.h
 api_name:
 - INLINE_FRAME_CONTEXT
-product:
-- Windows
 targetos: Windows
 req.typenames: INLINE_FRAME_CONTEXT
 ---

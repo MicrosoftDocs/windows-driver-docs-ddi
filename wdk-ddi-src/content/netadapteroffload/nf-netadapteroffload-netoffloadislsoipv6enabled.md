@@ -10,6 +10,7 @@ ms.date: 01/17/2019
 keywords: ["NetOffloadIsLsoIPv6Enabled function"]
 f1_keywords:
  - "netadapteroffload/NetOffloadIsLsoIPv6Enabled"
+ - "NetOffloadIsLsoIPv6Enabled"
 ms.keywords: NetOffloadIsLsoIPv6Enabled
 req.header: netadapteroffload.h
 req.include-header:
@@ -36,8 +37,6 @@ api_location:
 - netadaptercxstub.lib
 api_name: 
 - NetOffloadIsLsoIPv6Enabled
-product:
-- Windows
 targetos: Windows
 ---
 

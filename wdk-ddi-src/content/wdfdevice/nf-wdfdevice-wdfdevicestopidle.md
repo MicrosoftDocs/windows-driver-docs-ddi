@@ -10,6 +10,7 @@ keywords: ["WdfDeviceStopIdle macro"]
 ms.keywords: DFDeviceObjectGeneralRef_3dbde224-ecdf-429e-9389-9bdb49b16040.xml, WdfDeviceStopIdle, WdfDeviceStopIdle method, kmdf.wdfdevicestopidle, wdf.wdfdevicestopidle, wdfdevice/WdfDeviceStopIdle
 f1_keywords:
  - "wdfdevice/WdfDeviceStopIdle"
+ - "WdfDeviceStopIdle"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfDeviceStopIdle
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IOCTL_DISK_REASSIGN_BLOCKS IOCTL"]
 ms.keywords: IOCTL_DISK_REASSIGN_BLOCKS, IOCTL_DISK_REASSIGN_BLOCKS control, IOCTL_DISK_REASSIGN_BLOCKS control code [Storage Devices], k307_56b4bc99-0b59-48d5-a87d-277ee06a0830.xml, ntdddisk/IOCTL_DISK_REASSIGN_BLOCKS, storage.ioctl_disk_reassign_blocks
 f1_keywords:
  - "ntdddisk/IOCTL_DISK_REASSIGN_BLOCKS"
+ - "IOCTL_DISK_REASSIGN_BLOCKS"
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntdddisk.h
 api_name:
 - IOCTL_DISK_REASSIGN_BLOCKS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

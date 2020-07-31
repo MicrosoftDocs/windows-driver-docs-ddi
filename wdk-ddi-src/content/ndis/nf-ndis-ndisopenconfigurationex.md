@@ -10,6 +10,7 @@ keywords: ["NdisOpenConfigurationEx function"]
 ms.keywords: NdisOpenConfigurationEx, NdisOpenConfigurationEx function [Network Drivers Starting with Windows Vista], ndis/NdisOpenConfigurationEx, ndis_configuration_ref_c1d84b46-85f5-4a0a-9a5f-d553fea94027.xml, netvista.ndisopenconfigurationex
 f1_keywords:
  - "ndis/NdisOpenConfigurationEx"
+ - "NdisOpenConfigurationEx"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisOpenConfigurationEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

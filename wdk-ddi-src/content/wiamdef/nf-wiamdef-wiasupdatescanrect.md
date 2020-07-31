@@ -10,6 +10,7 @@ keywords: ["wiasUpdateScanRect function"]
 ms.keywords: image.wiasupdatescanrect, wiamdef/wiasUpdateScanRect, wiasFncs_ef2b5686-5026-469b-8133-d2c37fddb732.xml, wiasUpdateScanRect, wiasUpdateScanRect function [Imaging Devices]
 f1_keywords:
  - "wiamdef/wiasUpdateScanRect"
+ - "wiasUpdateScanRect"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wiaservc.dll
 api_name:
 - wiasUpdateScanRect
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["RILMSGDCSMSGCLASS enumeration"]
 ms.keywords: RILMSGDCSMSGCLASS, RILMSGDCSMSGCLASS enumeration [Network Drivers Starting with Windows Vista], RIL_DCSMSGCLASS_1, RIL_DCSMSGCLASS_2, RIL_DCSMSGCLASS_3, RIL_DCSMSGCLASS_MAX, netvista.rilmsgdcsmsgclass, ntddrilapitypes/RILMSGDCSMSGCLASS, ntddrilapitypes/RIL_DCSMSGCLASS_1, ntddrilapitypes/RIL_DCSMSGCLASS_2, ntddrilapitypes/RIL_DCSMSGCLASS_3, ntddrilapitypes/RIL_DCSMSGCLASS_MAX
 f1_keywords:
  - "ntddrilapitypes/RILMSGDCSMSGCLASS"
+ - "RILMSGDCSMSGCLASS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILMSGDCSMSGCLASS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILMSGDCSMSGCLASS
 ---

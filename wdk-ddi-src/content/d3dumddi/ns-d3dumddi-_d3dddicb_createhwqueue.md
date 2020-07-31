@@ -10,6 +10,7 @@ keywords: ["_D3DDDICB_CREATEHWQUEUE structure"]
 ms.keywords: D3DDDICB_CREATEHWQUEUE, D3DDDICB_CREATEHWQUEUE structure [Display Devices], _D3DDDICB_CREATEHWQUEUE, d3dumddi/D3DDDICB_CREATEHWQUEUE, display.d3dddicb_createhwqueue
 f1_keywords:
  - "d3dumddi/D3DDDICB_CREATEHWQUEUE"
+ - "D3DDDICB_CREATEHWQUEUE"
 req.header: d3dumddi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDICB_CREATEHWQUEUE
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDICB_CREATEHWQUEUE
 ---

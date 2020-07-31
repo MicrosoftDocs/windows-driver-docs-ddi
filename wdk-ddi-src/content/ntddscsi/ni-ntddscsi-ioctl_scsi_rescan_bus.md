@@ -10,6 +10,7 @@ keywords: ["IOCTL_SCSI_RESCAN_BUS IOCTL"]
 ms.keywords: IOCTL_SCSI_RESCAN_BUS, IOCTL_SCSI_RESCAN_BUS control, IOCTL_SCSI_RESCAN_BUS control code [Storage Devices], k307_36067418-9daa-4fed-a8a6-98fe65ca7fe2.xml, ntddscsi/IOCTL_SCSI_RESCAN_BUS, storage.ioctl_scsi_rescan_bus
 f1_keywords:
  - "ntddscsi/IOCTL_SCSI_RESCAN_BUS"
+ - "IOCTL_SCSI_RESCAN_BUS"
 req.header: ntddscsi.h
 req.include-header: Ntddscsi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddscsi.h
 api_name:
 - IOCTL_SCSI_RESCAN_BUS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["CmGetBoundTransaction function"]
 ms.keywords: CmGetBoundTransaction, CmGetBoundTransaction routine [Kernel-Mode Driver Architecture], ConfigMgrRef_bf8b79d4-04cf-4cd2-b25c-4e59c63f0b86.xml, kernel.cmgetboundtransaction, wdm/CmGetBoundTransaction
 f1_keywords:
  - "wdm/CmGetBoundTransaction"
+ - "CmGetBoundTransaction"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - CmGetBoundTransaction
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

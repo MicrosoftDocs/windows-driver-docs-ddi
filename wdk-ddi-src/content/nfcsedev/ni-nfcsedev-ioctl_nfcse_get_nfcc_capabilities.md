@@ -10,6 +10,7 @@ keywords: ["IOCTL_NFCSE_GET_NFCC_CAPABILITIES IOCTL"]
 ms.keywords: IOCTL_NFCSE_GET_NFCC_CAPABILITIES, IOCTL_NFCSE_GET_NFCC_CAPABILITIES control, IOCTL_NFCSE_GET_NFCC_CAPABILITIES control code [Near-Field Proximity Drivers], _IOCTL_NFCSE_GET_NFCC_CAPABILITIES, nfcsedev/IOCTL_NFCSE_GET_NFCC_CAPABILITIES, nfpdrivers.ioctl_nfcse_get_nfcc_capabilities
 f1_keywords:
  - "nfcsedev/IOCTL_NFCSE_GET_NFCC_CAPABILITIES"
+ - "IOCTL_NFCSE_GET_NFCC_CAPABILITIES"
 req.header: nfcsedev.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - nfcsedev.h
 api_name:
 - IOCTL_NFCSE_GET_NFCC_CAPABILITIES
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

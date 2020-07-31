@@ -10,6 +10,7 @@ keywords: ["FltReleasePushLock macro"]
 ms.keywords: FltApiRef_p_to_z_31e736a4-7790-443f-a6bf-e43d3823ad27.xml, FltReleasePushLock, FltReleasePushLock routine [Installable File System Drivers], fltkernel/FltReleasePushLock, ifsk.fltreleasepushlock
 f1_keywords:
  - "fltkernel/FltReleasePushLock"
+ - "FltReleasePushLock"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltReleasePushLock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["_IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES structure"]
 ms.keywords: 1394/IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES, IEEE.irb_req_isoch_modify_stream_properties, IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES, IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES structure [Buses], _IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES
 f1_keywords:
  - "1394/IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES"
+ - "IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES"
 req.header: 1394.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - 1394.h
 api_name:
 - IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES
-product:
-- Windows
 targetos: Windows
 req.typenames: IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES
 ---

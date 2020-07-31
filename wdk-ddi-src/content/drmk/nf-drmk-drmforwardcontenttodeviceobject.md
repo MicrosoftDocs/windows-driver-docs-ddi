@@ -10,6 +10,7 @@ keywords: ["DrmForwardContentToDeviceObject function"]
 ms.keywords: DrmForwardContentToDeviceObject, DrmForwardContentToDeviceObject function [Audio Devices], aud-prop2_45870b55-07dc-48bf-a8ff-8005a7791dc1.xml, audio.drmforwardcontenttodeviceobject, drmk/DrmForwardContentToDeviceObject
 f1_keywords:
  - "drmk/DrmForwardContentToDeviceObject"
+ - "DrmForwardContentToDeviceObject"
 req.header: drmk.h
 req.include-header: Drmk.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Drmk.dll
 api_name:
 - DrmForwardContentToDeviceObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

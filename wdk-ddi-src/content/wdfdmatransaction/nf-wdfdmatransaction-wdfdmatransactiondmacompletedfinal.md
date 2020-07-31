@@ -10,6 +10,7 @@ keywords: ["WdfDmaTransactionDmaCompletedFinal function"]
 ms.keywords: DFDmaObjectRef_ceac647e-264e-416b-947f-61cc95e6d4ab.xml, WdfDmaTransactionDmaCompletedFinal, WdfDmaTransactionDmaCompletedFinal method, kmdf.wdfdmatransactiondmacompletedfinal, wdf.wdfdmatransactiondmacompletedfinal, wdfdmatransaction/WdfDmaTransactionDmaCompletedFinal
 f1_keywords:
  - "wdfdmatransaction/WdfDmaTransactionDmaCompletedFinal"
+ - "WdfDmaTransactionDmaCompletedFinal"
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfDmaTransactionDmaCompletedFinal
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

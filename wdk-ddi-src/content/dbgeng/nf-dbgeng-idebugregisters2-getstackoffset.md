@@ -10,6 +10,7 @@ keywords: ["IDebugRegisters2::GetStackOffset"]
 ms.keywords: GetStackOffset, GetStackOffset method [Windows Debugging], GetStackOffset method [Windows Debugging],IDebugRegisters interface, GetStackOffset method [Windows Debugging],IDebugRegisters2 interface, IDebugRegisters interface [Windows Debugging],GetStackOffset method, IDebugRegisters2 interface [Windows Debugging],GetStackOffset method, IDebugRegisters2.GetStackOffset, IDebugRegisters2::GetStackOffset, IDebugRegisters::GetStackOffset, IDebugRegisters_40c9da48-e41f-4890-ace2-b15a2e1cc4ba.xml, dbgeng/IDebugRegisters2::GetStackOffset, dbgeng/IDebugRegisters::GetStackOffset, debugger.getstackoffset
 f1_keywords:
  - "dbgeng/IDebugRegisters.GetStackOffset"
+ - "IDebugRegisters.GetStackOffset"
 req.header: dbgeng.h
 req.include-header: DbgEng.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IDebugRegisters.GetStackOffset
 - IDebugRegisters2.GetStackOffset
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

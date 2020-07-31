@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["NDIS_WAIT_FOR_MUTEX macro"]
 f1_keywords:
  - "ndis/NDIS_WAIT_FOR_MUTEX"
+ - "NDIS_WAIT_FOR_MUTEX"
 ms.keywords: NDIS_WAIT_FOR_MUTEX
 req.header: ndis.h
 req.include-header:
@@ -34,8 +35,6 @@ api_location:
 - ndis.h
 api_name: 
 - NDIS_WAIT_FOR_MUTEX
-product:
-- Windows
 targetos: Windows
 
 ---

@@ -10,6 +10,7 @@ keywords: ["_D3DKMDT_VIDPN_HW_CAPABILITY structure"]
 ms.keywords: D3DKMDT_VIDPN_HW_CAPABILITY, D3DKMDT_VIDPN_HW_CAPABILITY structure [Display Devices], DmStructs_93529025-7af3-49d1-8f38-2b0355682743.xml, _D3DKMDT_VIDPN_HW_CAPABILITY, d3dkmdt/D3DKMDT_VIDPN_HW_CAPABILITY, display.d3dkmdt_vidpn_hw_capability
 f1_keywords:
  - "d3dkmdt/D3DKMDT_VIDPN_HW_CAPABILITY"
+ - "D3DKMDT_VIDPN_HW_CAPABILITY"
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dkmdt.h
 api_name:
 - D3DKMDT_VIDPN_HW_CAPABILITY
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DKMDT_VIDPN_HW_CAPABILITY
 ---

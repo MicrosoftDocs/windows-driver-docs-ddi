@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["DXGIDDICB_SUBMITPRESENTTOHWQUEUE structure"]
 f1_keywords:
  - "dxgiddi/DXGIDDICB_SUBMITPRESENTTOHWQUEUE"
+ - "DXGIDDICB_SUBMITPRESENTTOHWQUEUE"
 ms.keywords: DXGIDDICB_SUBMITPRESENTTOHWQUEUE, DXGIDDICB_SUBMITPRESENTTOHWQUEUE, 
 req.header: dxgiddi.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - dxgiddi.h
 api_name: 
 - DXGIDDICB_SUBMITPRESENTTOHWQUEUE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

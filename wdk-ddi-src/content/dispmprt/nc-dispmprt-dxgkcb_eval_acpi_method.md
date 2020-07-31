@@ -10,6 +10,7 @@ keywords: ["DXGKCB_EVAL_ACPI_METHOD callback function"]
 ms.keywords: DXGKCB_EVAL_ACPI_METHOD, DXGKCB_EVAL_ACPI_METHOD callback, DpFunctions_e18a1463-e8cb-4ecf-a50f-424dd71db4c3.xml, DxgkCbEvalAcpiMethod, DxgkCbEvalAcpiMethod callback function [Display Devices], display.dxgkcbevalacpimethod, dispmprt/DxgkCbEvalAcpiMethod
 f1_keywords:
  - "dispmprt/DxgkCbEvalAcpiMethod"
+ - "DxgkCbEvalAcpiMethod"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dispmprt.h
 api_name:
 - DxgkCbEvalAcpiMethod
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

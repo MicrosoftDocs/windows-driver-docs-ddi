@@ -10,6 +10,7 @@ keywords: ["MmUnlockPages function"]
 ms.keywords: MmUnlockPages, MmUnlockPages routine [Kernel-Mode Driver Architecture], k106_b8d8a984-9e0e-4322-bce1-2dd79e8d3a10.xml, kernel.mmunlockpages, wdm/MmUnlockPages
 f1_keywords:
  - "wdm/MmUnlockPages"
+ - "MmUnlockPages"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - MmUnlockPages
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

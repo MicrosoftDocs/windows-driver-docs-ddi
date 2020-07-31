@@ -10,6 +10,7 @@ keywords: ["IO_CSQ_RELEASE_LOCK callback function"]
 ms.keywords: CsqReleaseLock, CsqReleaseLock routine [Kernel-Mode Driver Architecture], DrvrRtns_054ce175-3354-4b0e-9578-19bab44d39ca.xml, IO_CSQ_RELEASE_LOCK, kernel.csqreleaselock, wdm/CsqReleaseLock
 f1_keywords:
  - "wdm/CsqReleaseLock"
+ - "CsqReleaseLock"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - CsqReleaseLock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -9,6 +9,7 @@ keywords: ["PFND3D10DDI_STATE_RS_VIEWPORTS_CB callback function"]
 ms.keywords: PFND3D10DDI_STATE_RS_VIEWPORTS_CB, PFND3D10DDI_STATE_RS_VIEWPORTS_CB callback, d3d10state_functions_ed84e257-d988-47db-a588-800a7c74ed45.xml, d3d10umddi/pfnStateRsViewportsCb, display.pfnstatersviewportscb, pfnStateRsViewportsCb, pfnStateRsViewportsCb callback function [Display Devices]
 f1_keywords:
  - "d3d10umddi/pfnStateRsViewportsCb"
+ - "pfnStateRsViewportsCb"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - pfnStateRsViewportsCb
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

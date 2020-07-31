@@ -10,6 +10,7 @@ keywords: ["PHW_CANCEL_SRB callback function"]
 ms.keywords: PHW_CANCEL_SRB, StrMiniCancelPacket, StrMiniCancelPacket routine [Streaming Media Devices], stream.strminicancelpacket, strmini-routines_976ab3d0-d8aa-4121-a0a8-b37d08a07219.xml, strmini/StrMiniCancelPacket
 f1_keywords:
  - "strmini/StrMiniCancelPacket"
+ - "StrMiniCancelPacket"
 req.header: strmini.h
 req.include-header: Strmini.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - strmini.h
 api_name:
 - StrMiniCancelPacket
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -9,6 +9,7 @@ keywords: ["D3D10_2DDI_ADAPTERFUNCS structure"]
 ms.keywords: D3D10_2DDI_ADAPTERFUNCS, D3D10_2DDI_ADAPTERFUNCS structure [Display Devices], UMDisplayDriver_Dx11param_Structs_6d47bf5d-d3ef-4187-83a0-95d5c3c62413.xml, d3d10umddi/D3D10_2DDI_ADAPTERFUNCS, display.d3d10_2ddi_adapterfuncs
 f1_keywords:
  - "d3d10umddi/D3D10_2DDI_ADAPTERFUNCS"
+ - "D3D10_2DDI_ADAPTERFUNCS"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - D3D10_2DDI_ADAPTERFUNCS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D10_2DDI_ADAPTERFUNCS

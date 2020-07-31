@@ -10,6 +10,7 @@ keywords: ["tagKS_AnalogVideoInfo structure"]
 ms.keywords: "*PKS_ANALOGVIDEOINFO, KS_ANALOGVIDEOINFO, KS_ANALOGVIDEOINFO structure [Streaming Media Devices], PKS_ANALOGVIDEOINFO, PKS_ANALOGVIDEOINFO structure pointer [Streaming Media Devices], ksmedia/KS_ANALOGVIDEOINFO, ksmedia/PKS_ANALOGVIDEOINFO, stream.ks_analogvideoinfo, tagKS_AnalogVideoInfo, vidcapstruct_1a351d21-929d-4a84-863a-cf590d82c16b.xml"
 f1_keywords:
  - "ksmedia/KS_ANALOGVIDEOINFO"
+ - "KS_ANALOGVIDEOINFO"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KS_ANALOGVIDEOINFO
-product:
-- Windows
 targetos: Windows
 req.typenames: KS_ANALOGVIDEOINFO, *PKS_ANALOGVIDEOINFO
 ---

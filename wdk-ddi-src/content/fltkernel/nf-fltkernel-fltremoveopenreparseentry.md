@@ -10,6 +10,7 @@ keywords: ["FltRemoveOpenReparseEntry function"]
 ms.keywords: FltAddOpenReparseEntry, FltAddOpenReparseEntry routine [Installable File System Drivers], FltRemoveOpenReparseEntry, fltkernel/FltAddOpenReparseEntry, ifsk.fltremoveopenreparseentry
 f1_keywords:
  - "fltkernel/FltAddOpenReparseEntry"
+ - "FltAddOpenReparseEntry"
 req.header: fltkernel.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - fltKernel.h
 api_name:
 - FltAddOpenReparseEntry
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

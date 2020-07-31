@@ -10,6 +10,7 @@ keywords: ["ExtRemoteTyped::ExtRemoteTyped"]
 ms.keywords: EngExtCpp_Ref_b3699ec7-ccc8-4f98-985d-cd8bad0c0e23.xml, ExtRemoteTyped, ExtRemoteTyped constructor [Windows Debugging], ExtRemoteTyped constructor [Windows Debugging],ExtRemoteTyped interface, ExtRemoteTyped interface [Windows Debugging],ExtRemoteTyped constructor, ExtRemoteTyped.ExtRemoteTyped, ExtRemoteTyped.ExtRemoteTyped(), ExtRemoteTyped::ExtRemoteTyped, debugger.extremotetyped_extremotetyped
 f1_keywords:
  - "engextcpp/ExtRemoteTyped.ExtRemoteTyped"
+ - "ExtRemoteTyped.ExtRemoteTyped"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - engextcpp.hpp
 api_name:
 - ExtRemoteTyped.ExtRemoteTyped
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

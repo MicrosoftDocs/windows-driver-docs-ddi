@@ -10,6 +10,7 @@ keywords: ["_DXGK_OPM_INTERFACE structure"]
 ms.keywords: "*PDXGK_OPM_INTERFACE, DXGK_OPM_INTERFACE, DXGK_OPM_INTERFACE structure [Display Devices], DmStructs_e1644da8-220d-470a-b9b9-f23ba7e1c4f6.xml, PDXGK_OPM_INTERFACE, PDXGK_OPM_INTERFACE structure pointer [Display Devices], _DXGK_OPM_INTERFACE, display.dxgk_opm_interface, dispmprt/DXGK_OPM_INTERFACE, dispmprt/PDXGK_OPM_INTERFACE"
 f1_keywords:
  - "dispmprt/DXGK_OPM_INTERFACE"
+ - "DXGK_OPM_INTERFACE"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Dispmprt.h
 api_name:
 - DXGK_OPM_INTERFACE
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGK_OPM_INTERFACE, *PDXGK_OPM_INTERFACE
 ---

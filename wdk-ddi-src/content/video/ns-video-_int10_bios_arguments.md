@@ -10,6 +10,7 @@ keywords: ["_INT10_BIOS_ARGUMENTS structure"]
 ms.keywords: "*PINT10_BIOS_ARGUMENTS, INT10_BIOS_ARGUMENTS, INT10_BIOS_ARGUMENTS structure [Display Devices], PINT10_BIOS_ARGUMENTS, PINT10_BIOS_ARGUMENTS structure pointer [Display Devices], Video_Structs_986b625a-f1b4-401e-b2db-99463c21e8f9.xml, _INT10_BIOS_ARGUMENTS, display.int10_bios_arguments, video/INT10_BIOS_ARGUMENTS, video/PINT10_BIOS_ARGUMENTS"
 f1_keywords:
  - "video/INT10_BIOS_ARGUMENTS"
+ - "INT10_BIOS_ARGUMENTS"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - video.h
 api_name:
 - INT10_BIOS_ARGUMENTS
-product:
-- Windows
 targetos: Windows
 req.typenames: INT10_BIOS_ARGUMENTS, *PINT10_BIOS_ARGUMENTS
 ---

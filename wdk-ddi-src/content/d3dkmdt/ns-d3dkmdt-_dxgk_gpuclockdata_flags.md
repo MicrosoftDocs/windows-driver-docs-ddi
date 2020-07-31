@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_DXGK_GPUCLOCKDATA_FLAGS structure"]
 f1_keywords:
  - "d3dkmdt/_DXGK_GPUCLOCKDATA_FLAGS"
+ - "_DXGK_GPUCLOCKDATA_FLAGS"
 ms.keywords: _DXGK_GPUCLOCKDATA_FLAGS, DXGK_GPUCLOCKDATA_FLAGS,
 req.header: d3dkmdt.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - d3dkmdt.h
 api_name:
 - _DXGK_GPUCLOCKDATA_FLAGS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

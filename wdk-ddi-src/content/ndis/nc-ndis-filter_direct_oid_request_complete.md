@@ -10,6 +10,7 @@ keywords: ["FILTER_DIRECT_OID_REQUEST_COMPLETE callback function"]
 ms.keywords: FILTER_DIRECT_OID_REQUEST_COMPLETE, FILTER_DIRECT_OID_REQUEST_COMPLETE callback, FilterDirectOidRequestComplete, FilterDirectOidRequestComplete callback function [Network Drivers Starting with Windows Vista], ndis/FilterDirectOidRequestComplete, ndis_request_direct_ref_7c57d5c9-2a37-4602-b94e-df700652b1a9.xml, netvista.filterdirectoidrequestcomplete
 f1_keywords:
  - "ndis/FilterDirectOidRequestComplete"
+ - "FilterDirectOidRequestComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - FilterDirectOidRequestComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

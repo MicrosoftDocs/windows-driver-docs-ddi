@@ -10,6 +10,7 @@ keywords: ["IOCTL_VIDEO_DISABLE_CURSOR IOCTL"]
 ms.keywords: IOCTL_VIDEO_DISABLE_CURSOR, IOCTL_VIDEO_DISABLE_CURSOR control, IOCTL_VIDEO_DISABLE_CURSOR control code [Display Devices], Video_IOCTLs_664ec9f1-497c-4890-b812-9691776b1988.xml, display.ioctl_video_disable_cursor, ntddvdeo/IOCTL_VIDEO_DISABLE_CURSOR
 f1_keywords:
  - "ntddvdeo/IOCTL_VIDEO_DISABLE_CURSOR"
+ - "IOCTL_VIDEO_DISABLE_CURSOR"
 req.header: ntddvdeo.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddvdeo.h
 api_name:
 - IOCTL_VIDEO_DISABLE_CURSOR
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

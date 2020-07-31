@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_OPENADAPTER structure"]
 ms.keywords: D3DDDIARG_OPENADAPTER, D3DDDIARG_OPENADAPTER structure [Display Devices], UMDisplayDriver_param_Structs_6b07c27c-40f3-497c-ba20-53a19a003ea6.xml, _D3DDDIARG_OPENADAPTER, d3dumddi/D3DDDIARG_OPENADAPTER, display.d3dddiarg_openadapter
 f1_keywords:
  - "d3dumddi/D3DDDIARG_OPENADAPTER"
+ - "D3DDDIARG_OPENADAPTER"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDIARG_OPENADAPTER
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_OPENADAPTER
 ---

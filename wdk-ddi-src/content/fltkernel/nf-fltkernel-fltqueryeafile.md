@@ -10,6 +10,7 @@ keywords: ["FltQueryEaFile function"]
 ms.keywords: FltApiRef_p_to_z_cfb86d4e-84c0-4ab7-a813-094420e437cc.xml, FltQueryEaFile, FltQueryEaFile function [Installable File System Drivers], fltkernel/FltQueryEaFile, ifsk.fltqueryeafile
 f1_keywords:
  - "fltkernel/FltQueryEaFile"
+ - "FltQueryEaFile"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltQueryEaFile
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

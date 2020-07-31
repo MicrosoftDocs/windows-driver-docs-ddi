@@ -10,6 +10,7 @@ keywords: ["NdisFreeSharedMemory function"]
 ms.keywords: NdisFreeSharedMemory, NdisFreeSharedMemory function [Network Drivers Starting with Windows Vista], ndis/NdisFreeSharedMemory, ndis_shared_memory_ref_b020f3ba-6e10-422f-9342-650236ace5f8.xml, netvista.ndisfreesharedmemory
 f1_keywords:
  - "ndis/NdisFreeSharedMemory"
+ - "NdisFreeSharedMemory"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisFreeSharedMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

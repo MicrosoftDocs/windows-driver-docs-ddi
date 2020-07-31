@@ -10,6 +10,7 @@ keywords: ["ExDisableResourceBoostLite function"]
 ms.keywords: ExDisableResourceBoostLite, ExDisableResourceBoostLite function [Installable File System Drivers], exref_7c451751-995b-4d3c-9445-25b337624ef7.xml, ifsk.exdisableresourceboostlite, ntifs/ExDisableResourceBoostLite
 f1_keywords:
  - "ntifs/ExDisableResourceBoostLite"
+ - "ExDisableResourceBoostLite"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - ExDisableResourceBoostLite
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

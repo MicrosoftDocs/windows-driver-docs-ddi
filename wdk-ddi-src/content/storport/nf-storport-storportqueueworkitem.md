@@ -10,6 +10,7 @@ keywords: ["StorPortQueueWorkItem function"]
 ms.keywords: StorPortQueueWorkItem, StorPortQueueWorkItem routine [Storage Devices], storage.storportqueueworkitem, storport/StorPortQueueWorkItem
 f1_keywords:
  - "storport/StorPortQueueWorkItem"
+ - "StorPortQueueWorkItem"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - storport.h
 api_name:
 - StorPortQueueWorkItem
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

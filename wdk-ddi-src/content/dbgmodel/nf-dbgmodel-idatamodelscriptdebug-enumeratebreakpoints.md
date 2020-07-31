@@ -7,6 +7,7 @@ ms.date: 08/21/2018
 keywords: ["IDataModelScriptDebug::EnumerateBreakpoints"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebug.EnumerateBreakpoints"
+ - "IDataModelScriptDebug.EnumerateBreakpoints"
 ms.keywords: IDataModelScriptDebug::EnumerateBreakpoints, EnumerateBreakpoints, IDataModelScriptDebug.EnumerateBreakpoints, IDataModelScriptDebug::EnumerateBreakpoints, IDataModelScriptDebug.EnumerateBreakpoints
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDataModelScriptDebug.EnumerateBreakpoints
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

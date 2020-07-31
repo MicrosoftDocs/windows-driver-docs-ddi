@@ -10,6 +10,7 @@ keywords: ["ZwOpenTransaction function"]
 ms.keywords: NtOpenTransaction, ZwOpenTransaction, ZwOpenTransaction routine [Kernel-Mode Driver Architecture], kernel.zwopentransaction, ktm_ref_ed0e1a06-e5e2-4328-aeeb-d56a78d6a757.xml, wdm/NtOpenTransaction, wdm/ZwOpenTransaction
 f1_keywords:
  - "wdm/ZwOpenTransaction"
+ - "ZwOpenTransaction"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntifs.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - ZwOpenTransaction
 - NtOpenTransaction
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

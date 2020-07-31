@@ -10,6 +10,7 @@ keywords: ["_NODE_ADDRESS structure"]
 ms.keywords: "*PNODE_ADDRESS, 1394/NODE_ADDRESS, 1394/PNODE_ADDRESS, 1394stct_4b87009c-620b-4840-aea3-52e059d388cd.xml, IEEE.node_address, NODE_ADDRESS, NODE_ADDRESS structure [Buses], PNODE_ADDRESS, PNODE_ADDRESS structure pointer [Buses], _NODE_ADDRESS"
 f1_keywords:
  - "1394/NODE_ADDRESS"
+ - "NODE_ADDRESS"
 req.header: 1394.h
 req.include-header: 1394.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - 1394.h
 api_name:
 - NODE_ADDRESS
-product:
-- Windows
 targetos: Windows
 req.typenames: NODE_ADDRESS, *PNODE_ADDRESS
 ---

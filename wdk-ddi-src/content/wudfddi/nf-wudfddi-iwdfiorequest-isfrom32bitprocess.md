@@ -10,6 +10,7 @@ keywords: ["IWDFIoRequest::IsFrom32BitProcess"]
 ms.keywords: IWDFIoRequest interface,IsFrom32BitProcess method, IWDFIoRequest.IsFrom32BitProcess, IWDFIoRequest::IsFrom32BitProcess, IsFrom32BitProcess, IsFrom32BitProcess method, IsFrom32BitProcess method,IWDFIoRequest interface, UMDFRequestObjectRef_728bc611-2c40-4a49-b967-77e388072860.xml, umdf.iwdfiorequest_isfrom32bitprocess, wdf.iwdfiorequest_isfrom32bitprocess, wudfddi/IWDFIoRequest::IsFrom32BitProcess
 f1_keywords:
  - "wudfddi/IWDFIoRequest.IsFrom32BitProcess"
+ - "IWDFIoRequest.IsFrom32BitProcess"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFIoRequest.IsFrom32BitProcess
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["RtlGUIDFromString function"]
 ms.keywords: RtlGUIDFromString, RtlGUIDFromString routine [Kernel-Mode Driver Architecture], k109_d6fe22b7-9d81-4024-819c-03bce65d3d14.xml, kernel.rtlguidfromstring, wdm/RtlGUIDFromString
 f1_keywords:
  - "wdm/RtlGUIDFromString"
+ - "RtlGUIDFromString"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ntdll.dll
 api_name:
 - RtlGUIDFromString
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

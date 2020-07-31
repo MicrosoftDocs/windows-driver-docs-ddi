@@ -10,6 +10,7 @@ keywords: ["ExQueryDepthSList function"]
 ms.keywords: ExQueryDepthSList, ExQueryDepthSList routine [Kernel-Mode Driver Architecture], k102_14e2b5cb-bc6a-43f7-a0b2-1fcd8fd414a7.xml, kernel.exquerydepthslist, wdm/ExQueryDepthSList
 f1_keywords:
  - "wdm/ExQueryDepthSList"
+ - "ExQueryDepthSList"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - ExQueryDepthSList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

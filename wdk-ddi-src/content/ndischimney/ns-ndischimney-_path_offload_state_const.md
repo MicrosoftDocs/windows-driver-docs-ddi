@@ -10,6 +10,7 @@ keywords: ["_PATH_OFFLOAD_STATE_CONST structure"]
 ms.keywords: "*PPATH_OFFLOAD_STATE_CONST, PATH_OFFLOAD_STATE_CONST, PATH_OFFLOAD_STATE_CONST structure [Network Drivers Starting with Windows Vista], PPATH_OFFLOAD_STATE_CONST, PPATH_OFFLOAD_STATE_CONST structure pointer [Network Drivers Starting with Windows Vista], _PATH_OFFLOAD_STATE_CONST, ndischimney/PATH_OFFLOAD_STATE_CONST, ndischimney/PPATH_OFFLOAD_STATE_CONST, netvista.path_offload_state_const, tcp_chim_struct_4412519c-3610-4f0a-a4c6-400ff661d205.xml"
 f1_keywords:
  - "ndischimney/PATH_OFFLOAD_STATE_CONST"
+ - "PATH_OFFLOAD_STATE_CONST"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ndischimney.h
 api_name:
 - PATH_OFFLOAD_STATE_CONST
-product:
-- Windows
 targetos: Windows
 req.typenames: PATH_OFFLOAD_STATE_CONST, *PPATH_OFFLOAD_STATE_CONST
 ---

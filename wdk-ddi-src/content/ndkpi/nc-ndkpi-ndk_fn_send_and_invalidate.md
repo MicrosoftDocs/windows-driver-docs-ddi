@@ -10,6 +10,7 @@ keywords: ["NDK_FN_SEND_AND_INVALIDATE callback function"]
 ms.keywords: NDK_FN_SEND_AND_INVALIDATE, NDK_FN_SEND_AND_INVALIDATE callback, NDK_FN_SEND_AND_INVALIDATE callback function [Network Drivers Starting with Windows Vista], NDK_OP_FLAG_DEFER, NDK_OP_FLAG_INLINE, NDK_OP_FLAG_READ_FENCE, NDK_OP_FLAG_SEND_AND_SOLICIT_EVENT, NDK_OP_FLAG_SILENT_SUCCESS, ndkpi/NDK_FN_SEND_AND_INVALIDATE, netvista.ndk_fn_send_and_invalidate
 f1_keywords:
  - "ndkpi/NDK_FN_SEND_AND_INVALIDATE"
+ - "NDK_FN_SEND_AND_INVALIDATE"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ndkpi.h
 api_name:
 - NDK_FN_SEND_AND_INVALIDATE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

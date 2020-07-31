@@ -10,6 +10,7 @@ keywords: ["_SE_TOKEN_USER structure"]
 ms.keywords: PSE_TOKEN_USER, PSE_TOKEN_USER structure pointer [Installable File System Drivers], SE_TOKEN_USER, SE_TOKEN_USER structure [Installable File System Drivers], _SE_TOKEN_USER, ifsk.se_token_user, ntifs/PSE_TOKEN_USER, ntifs/SE_TOKEN_USER
 f1_keywords:
  - "ntifs/SE_TOKEN_USER"
+ - "SE_TOKEN_USER"
 req.header: ntifs.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - SE_TOKEN_USER
-product:
-- Windows
 targetos: Windows
 req.typenames: SE_TOKEN_USER, PSE_TOKEN_USER
 ---

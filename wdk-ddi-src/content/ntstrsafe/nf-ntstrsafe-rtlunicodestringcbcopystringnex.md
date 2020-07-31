@@ -10,6 +10,7 @@ keywords: ["RtlUnicodeStringCbCopyStringNEx function"]
 ms.keywords: RtlUnicodeStringCbCopyStringNEx, RtlUnicodeStringCbCopyStringNEx function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcbcopystringnex, ntstrsafe/RtlUnicodeStringCbCopyStringNEx, safestrings_3b90a87b-c560-40e4-809a-c3d1dd1671e8.xml
 f1_keywords:
  - "ntstrsafe/RtlUnicodeStringCbCopyStringNEx"
+ - "RtlUnicodeStringCbCopyStringNEx"
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Ntstrsafe.dll
 api_name:
 - RtlUnicodeStringCbCopyStringNEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

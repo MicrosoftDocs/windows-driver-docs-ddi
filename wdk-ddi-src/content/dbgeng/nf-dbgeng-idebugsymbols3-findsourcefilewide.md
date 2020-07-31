@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::FindSourceFileWide"]
 ms.keywords: FindSourceFileWide, FindSourceFileWide method [Windows Debugging], FindSourceFileWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],FindSourceFileWide method, IDebugSymbols3.FindSourceFileWide, IDebugSymbols3::FindSourceFileWide, dbgeng/IDebugSymbols3::FindSourceFileWide, debugger.findsourcefilewide
 f1_keywords:
  - "dbgeng/IDebugSymbols3.FindSourceFileWide"
+ - "IDebugSymbols3.FindSourceFileWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugSymbols3.FindSourceFileWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

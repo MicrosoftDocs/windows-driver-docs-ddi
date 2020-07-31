@@ -10,6 +10,7 @@ keywords: ["_WSK_SOCKET structure"]
 ms.keywords: "*PWSK_SOCKET, PWSK_SOCKET, PWSK_SOCKET structure pointer [Network Drivers Starting with Windows Vista], WSK_SOCKET, WSK_SOCKET structure [Network Drivers Starting with Windows Vista], _WSK_SOCKET, netvista.wsk_socket, wsk/PWSK_SOCKET, wsk/WSK_SOCKET, wskref_bc4b638d-4210-486a-83b8-4483481b5d27.xml"
 f1_keywords:
  - "wsk/WSK_SOCKET"
+ - "WSK_SOCKET"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wsk.h
 api_name:
 - WSK_SOCKET
-product:
-- Windows
 targetos: Windows
 req.typenames: WSK_SOCKET, *PWSK_SOCKET
 ---

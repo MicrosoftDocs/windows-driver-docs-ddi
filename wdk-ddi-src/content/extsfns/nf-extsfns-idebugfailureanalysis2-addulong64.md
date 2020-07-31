@@ -10,6 +10,7 @@ keywords: ["IDebugFailureAnalysis2::AddUlong64"]
 ms.keywords: AddUlong64, AddUlong64 method [Windows Debugging], AddUlong64 method [Windows Debugging],IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging],AddUlong64 method, IDebugFailureAnalysis2.AddUlong64, IDebugFailureAnalysis2::AddUlong64, debugger.idebugfailureanalysis2_addulong64, extsfns/IDebugFailureAnalysis2::AddUlong64
 f1_keywords:
  - "extsfns/IDebugFailureAnalysis2.AddUlong64"
+ - "IDebugFailureAnalysis2.AddUlong64"
 req.header: extsfns.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - extsfns.h
 api_name:
 - IDebugFailureAnalysis2.AddUlong64
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

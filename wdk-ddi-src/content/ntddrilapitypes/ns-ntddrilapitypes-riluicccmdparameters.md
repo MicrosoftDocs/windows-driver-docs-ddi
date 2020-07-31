@@ -10,6 +10,7 @@ keywords: ["RILUICCCMDPARAMETERS structure"]
 ms.keywords: "*LPRILUICCCMDPARAMETERS, RILUICCCMDPARAMETERS, RILUICCCMDPARAMETERS structure [Network Drivers Starting with Windows Vista], netvista.riluicccmdparameters, ntddrilapitypes/RILUICCCMDPARAMETERS"
 f1_keywords:
  - "ntddrilapitypes/RILUICCCMDPARAMETERS"
+ - "RILUICCCMDPARAMETERS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILUICCCMDPARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILUICCCMDPARAMETERS, *LPRILUICCCMDPARAMETERS
 ---

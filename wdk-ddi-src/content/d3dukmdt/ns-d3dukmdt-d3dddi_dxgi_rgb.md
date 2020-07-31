@@ -10,6 +10,7 @@ keywords: ["D3DDDI_DXGI_RGB structure"]
 ms.keywords: D3DDDI_DXGI_RGB, D3DDDI_DXGI_RGB structure [Display Devices], DmStructs_808243de-342c-439b-9ebe-d418ccedd8ff.xml, d3dukmdt/D3DDDI_DXGI_RGB, display.d3dddi_dxgi_rgb
 f1_keywords:
  - "d3dukmdt/D3DDDI_DXGI_RGB"
+ - "D3DDDI_DXGI_RGB"
 req.header: d3dukmdt.h
 req.include-header: D3dukmdt.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dukmdt.h
 api_name:
 - D3DDDI_DXGI_RGB
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDI_DXGI_RGB
 ---

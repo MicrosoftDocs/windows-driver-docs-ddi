@@ -8,6 +8,7 @@ ms.date: 01/18/2019
 keywords: ["NetAdapterCreate function"]
 f1_keywords:
  - "netadapter/NetAdapterCreate"
+ - "NetAdapterCreate"
 ms.keywords: NetAdapterCreate
 req.header: netadapter.h
 req.include-header: netadaptercx.h
@@ -38,8 +39,6 @@ api_location:
 api_name: 
 - NetAdapterCreate
 targetos: Windows
-product:
-- Windows
 ---
 
 # NetAdapterCreate function

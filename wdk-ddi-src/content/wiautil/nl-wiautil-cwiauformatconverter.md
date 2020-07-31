@@ -10,6 +10,7 @@ keywords: ["CWiauFormatConverter class"]
 ms.keywords: CWiauFormatConverter, CWiauFormatConverter interface [Imaging Devices], CWiauFormatConverter interface [Imaging Devices],described, image.cwiauformatconverter_class, wiauFncs_8d01dc38-ef09-425a-ade6-d06bd0e1e08a.xml, wiautil/CWiauFormatConverter
 f1_keywords:
  - "wiautil/CWiauFormatConverter"
+ - "CWiauFormatConverter"
 req.header: wiautil.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wiautil.h
 api_name:
 - CWiauFormatConverter
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

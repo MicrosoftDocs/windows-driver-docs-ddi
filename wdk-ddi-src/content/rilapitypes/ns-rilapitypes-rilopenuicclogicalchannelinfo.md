@@ -10,6 +10,7 @@ keywords: ["RILOPENUICCLOGICALCHANNELINFO structure"]
 ms.keywords: "*LPRILOPENUICCLOGICALCHANNELINFO, RILOPENUICCLOGICALCHANNELINFO, RILOPENUICCLOGICALCHANNELINFO structure [Network Drivers Starting with Windows Vista], netvista.rilopenuicclogicalchannelinfo, ntddrilapitypes/RILOPENUICCLOGICALCHANNELINFO"
 f1_keywords:
  - "rilapitypes/RILOPENUICCLOGICALCHANNELINFO"
+ - "RILOPENUICCLOGICALCHANNELINFO"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILOPENUICCLOGICALCHANNELINFO
-product:
-- Windows
 targetos: Windows
 req.typenames: RILOPENUICCLOGICALCHANNELINFO, *LPRILOPENUICCLOGICALCHANNELINFO
 ---

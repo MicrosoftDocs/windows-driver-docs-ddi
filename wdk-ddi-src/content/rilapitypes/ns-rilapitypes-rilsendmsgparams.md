@@ -10,6 +10,7 @@ keywords: ["RILSENDMSGPARAMS structure"]
 ms.keywords: "*LPRILSENDMSGPARAMS, RILSENDMSGPARAMS, RILSENDMSGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsendmsgparams, ntddrilapitypes/RILSENDMSGPARAMS"
 f1_keywords:
  - "rilapitypes/RILSENDMSGPARAMS"
+ - "RILSENDMSGPARAMS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILSENDMSGPARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILSENDMSGPARAMS, *LPRILSENDMSGPARAMS
 ---

@@ -10,6 +10,7 @@ keywords: ["IMiniportWaveCyclicStream::Silence"]
 ms.keywords: IMiniportWaveCyclicStream interface [Audio Devices],Silence method, IMiniportWaveCyclicStream.Silence, IMiniportWaveCyclicStream::Silence, Silence, Silence method [Audio Devices], Silence method [Audio Devices],IMiniportWaveCyclicStream interface, audio.iminiportwavecyclicstream_silence, audmp-routines_860013ac-d79b-4b11-91b7-1a7bc3c84a5b.xml, portcls/IMiniportWaveCyclicStream::Silence
 f1_keywords:
  - "portcls/IMiniportWaveCyclicStream.Silence"
+ - "IMiniportWaveCyclicStream.Silence"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IMiniportWaveCyclicStream.Silence
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["ScsiPortGetVirtualAddress function"]
 ms.keywords: ScsiPortGetVirtualAddress, ScsiPortGetVirtualAddress routine [Storage Devices], scsiprt_4f474eed-75d3-47cd-9473-37d0d15310de.xml, srb/ScsiPortGetVirtualAddress, storage.scsiportgetvirtualaddress
 f1_keywords:
  - "srb/ScsiPortGetVirtualAddress"
+ - "ScsiPortGetVirtualAddress"
 req.header: srb.h
 req.include-header: Miniport.h, Scsi.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Scsiport.dll
 api_name:
 - ScsiPortGetVirtualAddress
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

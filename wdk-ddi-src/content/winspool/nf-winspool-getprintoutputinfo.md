@@ -10,6 +10,7 @@ keywords: ["GetPrintOutputInfo function"]
 ms.keywords: GetPrintOutputInfo, GetPrintOutputInfo function [Print Devices], print.getprintoutputinfo, winspool/GetPrintOutputInfo
 f1_keywords:
  - "winspool/GetPrintOutputInfo"
+ - "GetPrintOutputInfo"
 req.header: winspool.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Winspool.h
 api_name:
 - GetPrintOutputInfo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

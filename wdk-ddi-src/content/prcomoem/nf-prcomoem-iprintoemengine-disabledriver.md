@@ -10,6 +10,7 @@ keywords: ["IPrintOemEngine::DisableDriver"]
 ms.keywords: DisableDriver, DisableDriver method [Print Devices], DisableDriver method [Print Devices],IPrintOemEngine interface, IPrintOemEngine interface [Print Devices],DisableDriver method, IPrintOemEngine.DisableDriver, IPrintOemEngine::DisableDriver, prcomoem/IPrintOemEngine::DisableDriver, print.iprintoemengine_disabledriver
 f1_keywords:
  - "prcomoem/IPrintOemEngine.DisableDriver"
+ - "IPrintOemEngine.DisableDriver"
 req.header: prcomoem.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Prcomoem.h
 api_name:
 - IPrintOemEngine.DisableDriver
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

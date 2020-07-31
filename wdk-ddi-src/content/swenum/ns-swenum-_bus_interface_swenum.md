@@ -10,6 +10,7 @@ keywords: ["_BUS_INTERFACE_SWENUM structure"]
 ms.keywords: "*PBUS_INTERFACE_SWENUM, BUS_INTERFACE_SWENUM, BUS_INTERFACE_SWENUM structure [Streaming Media Devices], PBUS_INTERFACE_SWENUM, PBUS_INTERFACE_SWENUM structure pointer [Streaming Media Devices], _BUS_INTERFACE_SWENUM, ks-struct_d2f7683d-30e1-4ff5-b494-57309987e181.xml, stream.bus_interface_swenum, swenum/BUS_INTERFACE_SWENUM, swenum/PBUS_INTERFACE_SWENUM"
 f1_keywords:
  - "swenum/BUS_INTERFACE_SWENUM"
+ - "BUS_INTERFACE_SWENUM"
 req.header: swenum.h
 req.include-header: Swenum.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - swenum.h
 api_name:
 - BUS_INTERFACE_SWENUM
-product:
-- Windows
 targetos: Windows
 req.typenames: BUS_INTERFACE_SWENUM, *PBUS_INTERFACE_SWENUM
 ---

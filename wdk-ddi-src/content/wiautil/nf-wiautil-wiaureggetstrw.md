@@ -10,6 +10,7 @@ keywords: ["wiauRegGetStrW function"]
 ms.keywords: image.wiaureggetstr, wiauFncs_b9145502-734d-40de-8086-c1f193966269.xml, wiauRegGetStr, wiauRegGetStr function [Imaging Devices], wiauRegGetStrA, wiauRegGetStrW, wiautil/wiauRegGetStr
 f1_keywords:
  - "wiautil/wiauRegGetStr"
+ - "wiauRegGetStr"
 req.header: wiautil.h
 req.include-header: Wiautil.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wiautil.h
 api_name:
 - wiauRegGetStr
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

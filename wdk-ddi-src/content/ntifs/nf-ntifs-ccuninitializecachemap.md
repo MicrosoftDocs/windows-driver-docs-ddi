@@ -10,6 +10,7 @@ keywords: ["CcUninitializeCacheMap function"]
 ms.keywords: CcUninitializeCacheMap, CcUninitializeCacheMap routine [Installable File System Drivers], ccref_737f8e52-0bb4-4dfd-8516-16de77410b9a.xml, ifsk.ccuninitializecachemap, ntifs/CcUninitializeCacheMap
 f1_keywords:
  - "ntifs/CcUninitializeCacheMap"
+ - "CcUninitializeCacheMap"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - CcUninitializeCacheMap
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

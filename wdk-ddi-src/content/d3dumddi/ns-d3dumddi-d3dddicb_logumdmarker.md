@@ -10,6 +10,7 @@ keywords: ["D3DDDICB_LOGUMDMARKER structure"]
 ms.keywords: D3DDDICB_LOGUMDMARKER, D3DDDICB_LOGUMDMARKER structure [Display Devices], d3dumddi/D3DDDICB_LOGUMDMARKER, display.d3dddicb_logumdmarker
 f1_keywords:
  - "d3dumddi/D3DDDICB_LOGUMDMARKER"
+ - "D3DDDICB_LOGUMDMARKER"
 req.header: d3dumddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - D3dumddi.h
 api_name:
 - D3DDDICB_LOGUMDMARKER
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDICB_LOGUMDMARKER
 ---

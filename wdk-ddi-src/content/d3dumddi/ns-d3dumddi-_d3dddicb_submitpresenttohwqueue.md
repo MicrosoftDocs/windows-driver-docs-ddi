@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DDDICB_SUBMITPRESENTTOHWQUEUE structure"]
 f1_keywords:
  - "d3dumddi/_D3DDDICB_SUBMITPRESENTTOHWQUEUE"
+ - "_D3DDDICB_SUBMITPRESENTTOHWQUEUE"
 ms.keywords: _D3DDDICB_SUBMITPRESENTTOHWQUEUE, D3DDDICB_SUBMITPRESENTTOHWQUEUE, 
 req.header: d3dumddi.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - d3dumddi.h
 api_name: 
 - _D3DDDICB_SUBMITPRESENTTOHWQUEUE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

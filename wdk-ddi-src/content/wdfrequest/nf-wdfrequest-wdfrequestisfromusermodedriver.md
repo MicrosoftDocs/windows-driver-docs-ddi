@@ -10,6 +10,7 @@ keywords: ["WdfRequestIsFromUserModeDriver function"]
 ms.keywords: WdfRequestIsFromUserModeDriver, WdfRequestIsFromUserModeDriver method, wdf.wdfrequestisfromusermodedriver, wdfrequest/WdfRequestIsFromUserModeDriver
 f1_keywords:
  - "wdfrequest/WdfRequestIsFromUserModeDriver"
+ - "WdfRequestIsFromUserModeDriver"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - WUDFx02000.dll
 api_name:
 - WdfRequestIsFromUserModeDriver
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

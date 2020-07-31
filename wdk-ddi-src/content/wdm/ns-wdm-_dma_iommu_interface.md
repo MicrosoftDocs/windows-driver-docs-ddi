@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_DMA_IOMMU_INTERFACE structure"]
 f1_keywords:
  - "wdm/_DMA_IOMMU_INTERFACE"
+ - "_DMA_IOMMU_INTERFACE"
 ms.keywords: _DMA_IOMMU_INTERFACE, *PDMA_IOMMU_INTERFACE, DMA_IOMMU_INTERFACE, 
 req.header: wdm.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - wdm.h
 api_name: 
 - _DMA_IOMMU_INTERFACE
-product:
-- Windows
 targetos: Windows
 ---
 

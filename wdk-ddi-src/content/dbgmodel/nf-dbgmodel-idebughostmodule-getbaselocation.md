@@ -7,6 +7,7 @@ ms.date: 09/18/2018
 keywords: ["IDebugHostModule::GetBaseLocation"]
 f1_keywords:
  - "dbgmodel/IDebugHostModule.GetBaseLocation"
+ - "IDebugHostModule.GetBaseLocation"
 ms.keywords: IDebugHostModule::GetBaseLocation, GetBaseLocation, IDebugHostModule.GetBaseLocation, IDebugHostModule::GetBaseLocation, IDebugHostModule.GetBaseLocation
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostModule.GetBaseLocation
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

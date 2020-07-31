@@ -10,6 +10,7 @@ keywords: ["D3DDDI_DESTROYPAGINGQUEUE structure"]
 ms.keywords: D3DDDI_DESTROYPAGINGQUEUE, D3DDDI_DESTROYPAGINGQUEUE structure [Display Devices], d3dukmdt/D3DDDI_DESTROYPAGINGQUEUE, display.d3dddi_destroypagingqueue
 f1_keywords:
  - "d3dukmdt/D3DDDI_DESTROYPAGINGQUEUE"
+ - "D3DDDI_DESTROYPAGINGQUEUE"
 req.header: d3dukmdt.h
 req.include-header: D3dumddi.h, D3dkmddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dukmdt.h
 api_name:
 - D3DDDI_DESTROYPAGINGQUEUE
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDI_DESTROYPAGINGQUEUE
 ---

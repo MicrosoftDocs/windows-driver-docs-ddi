@@ -9,6 +9,7 @@ keywords: ["PFND3D12DDI_DESTROYVIDEODECODER_0021 callback function"]
 ms.keywords: PFND3D12DDI_DESTROYVIDEODECODER_0021, PFND3D12DDI_DESTROYVIDEODECODER_0021 callback, PFND3D12DDI_DESTROYVIDEODECODER_0021 callback function [Display Devices], d3d12umddi/PFND3D12DDI_DESTROYVIDEODECODER_0021, display.pfnd3d12ddi_destroyvideodecoder_
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_DESTROYVIDEODECODER_0021"
+ - "PFND3D12DDI_DESTROYVIDEODECODER_0021"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - D3d12umddi.h
 api_name:
 - PFND3D12DDI_DESTROYVIDEODECODER_0021
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames:

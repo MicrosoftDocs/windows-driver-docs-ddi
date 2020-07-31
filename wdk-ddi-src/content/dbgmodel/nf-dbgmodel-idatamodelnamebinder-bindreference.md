@@ -7,6 +7,7 @@ ms.date: 09/12/2018
 keywords: ["IDataModelNameBinder::BindReference"]
 f1_keywords:
  - "dbgmodel/IDataModelNameBinder.BindReference"
+ - "IDataModelNameBinder.BindReference"
 ms.keywords: IDataModelNameBinder::BindReference, BindReference, IDataModelNameBinder.BindReference, IDataModelNameBinder::BindReference, IDataModelNameBinder.BindReference
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDataModelNameBinder.BindReference
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

@@ -10,6 +10,7 @@ keywords: ["ALLOCATE_FUNCTION_EX callback function"]
 ms.keywords: ALLOCATE_FUNCTION_EX, DrvrRtns_a8e59075-4ed4-49d3-a516-6cee5b6390c8.xml, LookasideListAllocateEx, LookasideListAllocateEx routine [Kernel-Mode Driver Architecture], kernel.lookasidelistallocateex, wdm/LookasideListAllocateEx
 f1_keywords:
  - "wdm/LookasideListAllocateEx"
+ - "LookasideListAllocateEx"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - LookasideListAllocateEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["ExtRemoteTyped::~ExtRemoteTyped method"]
 ms.keywords: ExtRemoteTyped class [Windows Debugging], described, engextcpp/ExtRemoteTyped, ExtRemoteTyped::ErtIoctl, Set, Copy, ~ExtRemoteTyped, debugger.extremotetyped, ExtRemoteTyped class [Windows Debugging], operator[], EngExtCpp_Ref_04970dac-e759-4a04-a1e0-8dab752c1418.xml, ErtIoctl, operator=, ExtRemoteTyped, ExtRemoteTyped::Set, ExtRemoteTyped::operator=, ExtRemoteTyped::~ExtRemoteTyped, ExtRemoteTyped::operator[], ExtRemoteTyped::Copy, ExtRemoteTyped::GetSimpleValue, Clear, GetSimpleValue, ExtRemoteTyped::Clear
 f1_keywords:
  - "engextcpp/ExtRemoteTyped"
+ - "ExtRemoteTyped"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - engextcpp.hpp
 api_name:
 - ExtRemoteTyped
-product:
-- Windows
 targetos: Windows
 req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---

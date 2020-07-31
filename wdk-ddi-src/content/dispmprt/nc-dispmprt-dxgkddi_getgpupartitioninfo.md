@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DXGKDDI_GETGPUPARTITIONINFO callback function"]
 f1_keywords:
  - "dispmprt/DXGKDDI_GETGPUPARTITIONINFO"
+ - "DXGKDDI_GETGPUPARTITIONINFO"
 req.header: dispmprt.h
 req.include-header:
 req.target-type:
@@ -35,8 +36,6 @@ api_location:
  - dispmprt.h
 api_name: 
  - DXGKDDI_GETGPUPARTITIONINFO
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

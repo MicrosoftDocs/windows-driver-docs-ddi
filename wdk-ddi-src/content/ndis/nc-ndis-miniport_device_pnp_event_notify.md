@@ -10,6 +10,7 @@ keywords: ["MINIPORT_DEVICE_PNP_EVENT_NOTIFY callback function"]
 ms.keywords: MINIPORT_DEVICE_PNP_EVENT_NOTIFY, MINIPORT_DEVICE_PNP_EVENT_NOTIFY callback, MiniportDevicePnPEventNotify, MiniportDevicePnPEventNotify callback function [Network Drivers Starting with Windows Vista], miniport_functions_ref_5f503cae-149c-447c-b3f5-cb09d2c47ad7.xml, ndis/MiniportDevicePnPEventNotify, netvista.miniportdevicepnpeventnotify
 f1_keywords:
  - "ndis/MiniportDevicePnPEventNotify"
+ - "MiniportDevicePnPEventNotify"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - MiniportDevicePnPEventNotify
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

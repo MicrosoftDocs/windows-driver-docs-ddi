@@ -10,6 +10,7 @@ keywords: ["IPrinterExtensionManager::DisableEvents"]
 ms.keywords: DisableEvents, DisableEvents method [Print Devices], DisableEvents method [Print Devices],IPrinterExtensionManager interface, IPrinterExtensionManager interface [Print Devices],DisableEvents method, IPrinterExtensionManager.DisableEvents, IPrinterExtensionManager::DisableEvents, print.iprinterextensionmanager_disableevents, printerextension/IPrinterExtensionManager::DisableEvents
 f1_keywords:
  - "printerextension/IPrinterExtensionManager.DisableEvents"
+ - "IPrinterExtensionManager.DisableEvents"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Printerextension.h
 api_name:
 - IPrinterExtensionManager.DisableEvents
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

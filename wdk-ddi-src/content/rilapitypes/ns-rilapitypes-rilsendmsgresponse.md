@@ -10,6 +10,7 @@ keywords: ["RILSENDMSGRESPONSE structure"]
 ms.keywords: "*LPRILSENDMSGRESPONSE, RILSENDMSGRESPONSE, RILSENDMSGRESPONSE structure [Network Drivers Starting with Windows Vista], netvista.rilsendmsgresponse, ntddrilapitypes/RILSENDMSGRESPONSE"
 f1_keywords:
  - "rilapitypes/RILSENDMSGRESPONSE"
+ - "RILSENDMSGRESPONSE"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILSENDMSGRESPONSE
-product:
-- Windows
 targetos: Windows
 req.typenames: RILSENDMSGRESPONSE, *LPRILSENDMSGRESPONSE
 ---

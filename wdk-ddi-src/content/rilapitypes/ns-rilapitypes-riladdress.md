@@ -10,6 +10,7 @@ keywords: ["RILADDRESS structure"]
 ms.keywords: "*LPRILADDRESS, RILADDRESS, RILADDRESS structure [Network Drivers Starting with Windows Vista], netvista.riladdress_2, rilapitypes/RILADDRESS"
 f1_keywords:
  - "rilapitypes/RILADDRESS"
+ - "RILADDRESS"
 req.header: rilapitypes.h
 req.include-header:
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapitypes.h
 api_name:
 - RILADDRESS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILADDRESS, *LPRILADDRESS
 req.product: Windows 10 or later.

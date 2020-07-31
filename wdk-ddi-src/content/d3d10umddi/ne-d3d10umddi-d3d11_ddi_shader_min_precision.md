@@ -9,6 +9,7 @@ keywords: ["D3D11_DDI_SHADER_MIN_PRECISION enumeration"]
 ms.keywords: D3D11_DDI_SHADER_MIN_PRECISION, D3D11_DDI_SHADER_MIN_PRECISION enumeration [Display Devices], D3D11_DDI_SHADER_MIN_PRECISION_10_BIT, D3D11_DDI_SHADER_MIN_PRECISION_16_BIT, d3d10umddi/D3D11_DDI_SHADER_MIN_PRECISION, d3d10umddi/D3D11_DDI_SHADER_MIN_PRECISION_10_BIT, d3d10umddi/D3D11_DDI_SHADER_MIN_PRECISION_16_BIT, display.d3d11_ddi_shader_min_precision
 f1_keywords:
  - "d3d10umddi/D3D11_DDI_SHADER_MIN_PRECISION"
+ - "D3D11_DDI_SHADER_MIN_PRECISION"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - D3d10umddi.h
 api_name:
 - D3D11_DDI_SHADER_MIN_PRECISION
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D11_DDI_SHADER_MIN_PRECISION

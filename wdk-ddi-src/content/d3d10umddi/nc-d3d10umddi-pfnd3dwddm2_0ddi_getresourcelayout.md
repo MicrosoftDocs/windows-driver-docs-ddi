@@ -9,6 +9,7 @@ keywords: ["PFND3DWDDM2_0DDI_GETRESOURCELAYOUT callback function"]
 ms.keywords: PFND3DWDDM2_0DDI_GETRESOURCELAYOUT, PFND3DWDDM2_0DDI_GETRESOURCELAYOUT callback, d3d10umddi/pfnGetResourceLayout, display.pfnd3dwddm2_0ddi_getresourcelayout, pfnGetResourceLayout, pfnGetResourceLayout callback function [Display Devices]
 f1_keywords:
  - "d3d10umddi/pfnGetResourceLayout"
+ - "pfnGetResourceLayout"
 req.header: d3d10umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - pfnGetResourceLayout
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

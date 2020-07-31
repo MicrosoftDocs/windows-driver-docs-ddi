@@ -10,6 +10,7 @@ keywords: ["IPortableDeviceClassExtension::ProcessLibraryMessage"]
 ms.keywords: IPortableDeviceClassExtension interface,ProcessLibraryMessage method, IPortableDeviceClassExtension.ProcessLibraryMessage, IPortableDeviceClassExtension::ProcessLibraryMessage, IPortableDeviceClassExtensionProcessLibraryMessage, ProcessLibraryMessage, ProcessLibraryMessage method, ProcessLibraryMessage method,IPortableDeviceClassExtension interface, portabledeviceclassextension/IPortableDeviceClassExtension::ProcessLibraryMessage, wpddk.iportabledeviceclassextension_processlibrarymessage
 f1_keywords:
  - "portabledeviceclassextension/IPortableDeviceClassExtension.ProcessLibraryMessage"
+ - "IPortableDeviceClassExtension.ProcessLibraryMessage"
 req.header: portabledeviceclassextension.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - PortableDeviceClassExtension.h
 api_name:
 - IPortableDeviceClassExtension.ProcessLibraryMessage
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

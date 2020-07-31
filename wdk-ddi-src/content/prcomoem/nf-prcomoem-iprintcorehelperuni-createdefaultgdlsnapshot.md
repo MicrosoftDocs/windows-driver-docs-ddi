@@ -10,6 +10,7 @@ keywords: ["IPrintCoreHelperUni::CreateDefaultGDLSnapshot"]
 ms.keywords: CreateDefaultGDLSnapshot, CreateDefaultGDLSnapshot method [Print Devices], CreateDefaultGDLSnapshot method [Print Devices],IPrintCoreHelperUni interface, IPrintCoreHelperUni interface [Print Devices],CreateDefaultGDLSnapshot method, IPrintCoreHelperUni.CreateDefaultGDLSnapshot, IPrintCoreHelperUni::CreateDefaultGDLSnapshot, prcomoem/IPrintCoreHelperUni::CreateDefaultGDLSnapshot, print.iprintcorehelperuni_createdefaultgdlsnapshot, print_unidrv-pscript_allplugins_8149f1a2-7974-47b9-a0fa-9981534abb06.xml
 f1_keywords:
  - "prcomoem/IPrintCoreHelperUni.CreateDefaultGDLSnapshot"
+ - "IPrintCoreHelperUni.CreateDefaultGDLSnapshot"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - prcomoem.h
 api_name:
 - IPrintCoreHelperUni.CreateDefaultGDLSnapshot
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

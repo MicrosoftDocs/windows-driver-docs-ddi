@@ -10,6 +10,7 @@ keywords: ["GET_SET_DEVICE_DATA callback function"]
 ms.keywords: GET_SET_DEVICE_DATA, GetBusData, GetBusData routine [Kernel-Mode Driver Architecture], drvr_interface_f4fd2eab-5924-4ffa-b39e-fd7e0f74e5df.xml, kernel.busgetdevicedata, kernel.getbusdata, wdm/GetBusData
 f1_keywords:
  - "wdm/GetBusData"
+ - "GetBusData"
 req.header: wdm.h
 req.include-header: Ntddk.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - GetBusData
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

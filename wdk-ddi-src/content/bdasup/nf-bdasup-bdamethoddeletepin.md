@@ -10,6 +10,7 @@ keywords: ["BdaMethodDeletePin function"]
 ms.keywords: BdaMethodDeletePin, BdaMethodDeletePin function [Streaming Media Devices], bdaref_6d81ac60-26e8-4cdb-ba9c-05f73cea187d.xml, bdasup/BdaMethodDeletePin, stream.bdamethoddeletepin
 f1_keywords:
  - "bdasup/BdaMethodDeletePin"
+ - "BdaMethodDeletePin"
 req.header: bdasup.h
 req.include-header: Bdasup.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Bdasup.dll
 api_name:
 - BdaMethodDeletePin
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

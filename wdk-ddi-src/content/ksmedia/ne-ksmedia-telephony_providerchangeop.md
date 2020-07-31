@@ -10,6 +10,7 @@ keywords: ["TELEPHONY_PROVIDERCHANGEOP enumeration"]
 ms.keywords: TELEPHONY_PROVIDERCHANGEOP, TELEPHONY_PROVIDERCHANGEOP enumeration [Audio Devices], TELEPHONY_PROVIDERCHANGEOP_BEGIN, TELEPHONY_PROVIDERCHANGEOP_CANCEL, TELEPHONY_PROVIDERCHANGEOP_END, audio.telephony_providerchangeop, ksmedia/TELEPHONY_PROVIDERCHANGEOP, ksmedia/TELEPHONY_PROVIDERCHANGEOP_BEGIN, ksmedia/TELEPHONY_PROVIDERCHANGEOP_CANCEL, ksmedia/TELEPHONY_PROVIDERCHANGEOP_END
 f1_keywords:
  - "ksmedia/TELEPHONY_PROVIDERCHANGEOP"
+ - "TELEPHONY_PROVIDERCHANGEOP"
 req.header: ksmedia.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - TELEPHONY_PROVIDERCHANGEOP
-product:
-- Windows
 targetos: Windows
 req.typenames: TELEPHONY_PROVIDERCHANGEOP
 ---

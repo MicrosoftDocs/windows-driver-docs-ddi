@@ -8,6 +8,7 @@ ms.date: 10/31/2018
 keywords: ["IPortClsStreamResourceManager::AddStreamResource"]
 f1_keywords:
  - "portcls/IPortClsStreamResourceManager.AddStreamResource"
+ - "IPortClsStreamResourceManager.AddStreamResource"
 ms.keywords: IPortClsStreamResourceManager::AddStreamResource, AddStreamResource, IPortClsStreamResourceManager.AddStreamResource, IPortClsStreamResourceManager::AddStreamResource, IPortClsStreamResourceManager.AddStreamResource
 req.header: portcls.h
 req.include-header:

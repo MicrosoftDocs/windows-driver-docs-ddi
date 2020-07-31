@@ -10,6 +10,7 @@ keywords: ["KsStreamPointerScheduleTimeout function"]
 ms.keywords: KsStreamPointerScheduleTimeout, KsStreamPointerScheduleTimeout function [Streaming Media Devices], avfunc_bde904b2-cfb8-45d1-80a1-ef1046d60276.xml, ks/KsStreamPointerScheduleTimeout, stream.ksstreampointerscheduletimeout
 f1_keywords:
  - "ks/KsStreamPointerScheduleTimeout"
+ - "KsStreamPointerScheduleTimeout"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsStreamPointerScheduleTimeout
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

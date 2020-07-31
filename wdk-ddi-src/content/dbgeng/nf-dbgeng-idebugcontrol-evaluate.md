@@ -10,6 +10,7 @@ keywords: ["IDebugControl::Evaluate"]
 ms.keywords: Evaluate, Evaluate method [Windows Debugging], Evaluate method [Windows Debugging],IDebugControl interface, Evaluate method [Windows Debugging],IDebugControl2 interface, Evaluate method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],Evaluate method, IDebugControl.Evaluate, IDebugControl2 interface [Windows Debugging],Evaluate method, IDebugControl2::Evaluate, IDebugControl3 interface [Windows Debugging],Evaluate method, IDebugControl3::Evaluate, IDebugControl::Evaluate, IDebugControl_c985be86-1f8b-4b54-ae35-a7dec5980cec.xml, dbgeng/IDebugControl2::Evaluate, dbgeng/IDebugControl3::Evaluate, dbgeng/IDebugControl::Evaluate, debugger.evaluate
 f1_keywords:
  - "dbgeng/IDebugControl.Evaluate"
+ - "IDebugControl.Evaluate"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -38,8 +39,6 @@ api_name:
 - IDebugControl.Evaluate
 - IDebugControl2.Evaluate
 - IDebugControl3.Evaluate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["IoAllocateAdapterChannel function"]
 f1_keywords:
  - "ntddk/IoAllocateAdapterChannel"
+ - "IoAllocateAdapterChannel"
 ms.keywords: IoAllocateAdapterChannel
 req.header: ntddk.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - NtosKrnl.exe
 api_name: 
 - IoAllocateAdapterChannel
-product:
-- Windows
 targetos: Windows
 
 

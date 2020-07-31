@@ -10,6 +10,7 @@ keywords: ["WdfUsbTargetDeviceFormatRequestForControlTransfer function"]
 ms.keywords: DFUsbRef_7f2ef529-05f2-46c2-861e-d9557c6bb7bc.xml, WdfUsbTargetDeviceFormatRequestForControlTransfer, WdfUsbTargetDeviceFormatRequestForControlTransfer method, kmdf.wdfusbtargetdeviceformatrequestforcontroltransfer, wdf.wdfusbtargetdeviceformatrequestforcontroltransfer, wdfusb/WdfUsbTargetDeviceFormatRequestForControlTransfer
 f1_keywords:
  - "wdfusb/WdfUsbTargetDeviceFormatRequestForControlTransfer"
+ - "WdfUsbTargetDeviceFormatRequestForControlTransfer"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfUsbTargetDeviceFormatRequestForControlTransfer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

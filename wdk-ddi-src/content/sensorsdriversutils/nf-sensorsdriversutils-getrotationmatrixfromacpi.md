@@ -7,6 +7,7 @@ ms.date: 04/19/2018
 keywords: ["GetRotationMatrixFromAcpi function"]
 f1_keywords:
  - "sensorsdriversutils/GetRotationMatrixFromAcpi"
+ - "GetRotationMatrixFromAcpi"
 ms.keywords: GetRotationMatrixFromAcpi
 req.header: sensorsdriversutils.h
 req.include-header:

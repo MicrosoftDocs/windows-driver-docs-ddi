@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_PROGRAM_DMA callback function"]
 ms.keywords: DFDmaObjectRef_972816f8-bfd1-487d-8ac4-7ef75dcdfa97.xml, EVT_WDF_PROGRAM_DMA, EVT_WDF_PROGRAM_DMA callback, EvtProgramDma, EvtProgramDma callback function, kmdf.evtprogramdma, wdf.evtprogramdma, wdfdmatransaction/EvtProgramDma
 f1_keywords:
  - "wdfdmatransaction/EvtProgramDma"
+ - "EvtProgramDma"
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - wdfdmatransaction.h
 api_name:
 - EvtProgramDma
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

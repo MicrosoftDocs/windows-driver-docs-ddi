@@ -10,6 +10,7 @@ keywords: ["KeTryToAcquireQueuedSpinLock function"]
 ms.keywords: KeTryToAcquireQueuedSpinLock, KeTryToAcquireQueuedSpinLock function [Installable File System Drivers], ifsk.ketrytoacquirequeuedspinlock, keref_754b75bd-31a8-4447-8ebe-3d24855150bf.xml, ntifs/KeTryToAcquireQueuedSpinLock
 f1_keywords:
  - "ntifs/KeTryToAcquireQueuedSpinLock"
+ - "KeTryToAcquireQueuedSpinLock"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - KeTryToAcquireQueuedSpinLock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["WUDF_INTERRUPT_WORKITEM callback function"]
 ms.keywords: OnInterruptWorkItem, OnInterruptWorkItem callback function, WUDF_INTERRUPT_WORKITEM, WUDF_INTERRUPT_WORKITEM callback, umdf.oninterruptworkitem, wdf.oninterruptworkitem, wudfinterrupt/OnInterruptWorkItem
 f1_keywords:
  - "wudfinterrupt/OnInterruptWorkItem"
+ - "OnInterruptWorkItem"
 req.header: wudfinterrupt.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wudfinterrupt.h
 api_name:
 - OnInterruptWorkItem
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

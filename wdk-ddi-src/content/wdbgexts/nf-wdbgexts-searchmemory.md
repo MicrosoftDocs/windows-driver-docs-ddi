@@ -10,6 +10,7 @@ keywords: ["SearchMemory function"]
 ms.keywords: SearchMemory, SearchMemory function [Windows Debugging], WdbgExts_Ref_4eb909e5-edfd-487c-851c-812b15274c66.xml, debugger.searchmemory, wdbgexts/SearchMemory
 f1_keywords:
  - "wdbgexts/SearchMemory"
+ - "SearchMemory"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wdbgexts.h
 api_name:
 - SearchMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["ExInitializeSetTimerParameters function"]
 ms.keywords: ExInitializeSetTimerParameters, ExInitializeSetTimerParameters routine [Kernel-Mode Driver Architecture], kernel.exinitializesettimerparameters, wdm/ExInitializeSetTimerParameters
 f1_keywords:
  - "wdm/ExInitializeSetTimerParameters"
+ - "ExInitializeSetTimerParameters"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - ExInitializeSetTimerParameters
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

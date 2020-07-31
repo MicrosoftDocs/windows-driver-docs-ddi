@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_HYBRID_LIST structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_HYBRID_LIST"
+ - "_D3DKMT_HYBRID_LIST"
 ms.keywords: _D3DKMT_HYBRID_LIST, D3DKMT_HYBRID_LIST, 
 req.header: d3dkmthk.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - d3dkmthk.h
 api_name: 
 - _D3DKMT_HYBRID_LIST
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

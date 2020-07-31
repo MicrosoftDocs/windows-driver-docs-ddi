@@ -10,6 +10,7 @@ keywords: ["IOCTL_GNSS_SEND_DRIVERCOMMAND IOCTL"]
 ms.keywords: IOCTL_GNSS_SEND_DRIVERCOMMAND, IOCTL_GNSS_SEND_DRIVERCOMMAND control, IOCTL_GNSS_SEND_DRIVERCOMMAND control code [Sensor Devices], gnss.ioctl_gnss_send_drivercommand, gnssdriver/IOCTL_GNSS_SEND_DRIVERCOMMAND
 f1_keywords:
  - "gnssdriver/IOCTL_GNSS_SEND_DRIVERCOMMAND"
+ - "IOCTL_GNSS_SEND_DRIVERCOMMAND"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - gnssdriver.h
 api_name:
 - IOCTL_GNSS_SEND_DRIVERCOMMAND
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

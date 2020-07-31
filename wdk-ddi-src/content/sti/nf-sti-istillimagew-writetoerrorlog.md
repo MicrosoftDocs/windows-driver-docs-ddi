@@ -10,6 +10,7 @@ keywords: ["IStillImageW::WriteToErrorLog"]
 ms.keywords: IStillImageW interface [Imaging Devices],WriteToErrorLog method, IStillImageW.WriteToErrorLog, IStillImageW::WriteToErrorLog, IStillImageW::WriteToErrorLogiwiade, WriteToErrorLog, WriteToErrorLog method [Imaging Devices], WriteToErrorLog method [Imaging Devices],IStillImageW interface, image.istillimage_writetoerrorlog, sti/IStillImageW::WriteToErrorLog, stifnc_1f27ad38-72b2-4b5f-8bb1-3456bfbd207a.xml
 f1_keywords:
  - "sti/IStillImageW.WriteToErrorLog"
+ - "IStillImageW.WriteToErrorLog"
 req.header: sti.h
 req.include-header: Sti.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - sti.h
 api_name:
 - IStillImageW.WriteToErrorLog
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

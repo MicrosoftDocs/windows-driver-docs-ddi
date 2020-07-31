@@ -10,6 +10,7 @@ keywords: ["PoFxRegisterCoreDevice function"]
 ms.keywords: PoFxRegisterCoreDevice, PoFxRegisterCoreDevice routine [Kernel-Mode Driver Architecture], kernel.pofxregistercoredevice, pepfx/PoFxRegisterCoreDevice
 f1_keywords:
  - "pepfx/PoFxRegisterCoreDevice"
+ - "PoFxRegisterCoreDevice"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 - ntoskrnl.dll
 api_name:
 - PoFxRegisterCoreDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

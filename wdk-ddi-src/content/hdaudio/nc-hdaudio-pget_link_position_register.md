@@ -10,6 +10,7 @@ keywords: ["PGET_LINK_POSITION_REGISTER callback function"]
 ms.keywords: GetLinkPositionRegister, GetLinkPositionRegister callback function [Audio Devices], PGET_LINK_POSITION_REGISTER, PGET_LINK_POSITION_REGISTER callback, aud-prop2_715e978e-6396-479a-a953-6d17016306c4.xml, audio.getlinkpositionregister, hdaudio/GetLinkPositionRegister
 f1_keywords:
  - "hdaudio/GetLinkPositionRegister"
+ - "GetLinkPositionRegister"
 req.header: hdaudio.h
 req.include-header: Hdaudio.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - hdaudio.h
 api_name:
 - GetLinkPositionRegister
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

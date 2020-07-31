@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::GetConstantNameWide"]
 ms.keywords: GetConstantNameWide, GetConstantNameWide method [Windows Debugging], GetConstantNameWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetConstantNameWide method, IDebugSymbols3.GetConstantNameWide, IDebugSymbols3::GetConstantNameWide, dbgeng/IDebugSymbols3::GetConstantNameWide, debugger.getconstantnamewide
 f1_keywords:
  - "dbgeng/IDebugSymbols3.GetConstantNameWide"
+ - "IDebugSymbols3.GetConstantNameWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugSymbols3.GetConstantNameWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

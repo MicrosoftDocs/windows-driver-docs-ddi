@@ -10,6 +10,7 @@ keywords: ["WdfDmaTransactionWdmGetTransferContext function"]
 ms.keywords: WdfDmaTransactionWdmGetTransferContext, WdfDmaTransactionWdmGetTransferContext method, kmdf.wdfdmatransactionwdmgettransfercontext, wdf.wdfdmatransactionwdmgettransfercontext, wdfdmatransaction/WdfDmaTransactionWdmGetTransferContext
 f1_keywords:
  - "wdfdmatransaction/WdfDmaTransactionWdmGetTransferContext"
+ - "WdfDmaTransactionWdmGetTransferContext"
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfDmaTransactionWdmGetTransferContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

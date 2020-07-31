@@ -10,6 +10,7 @@ keywords: ["ExAcquireRundownProtection function"]
 ms.keywords: ExAcquireRundownProtection, ExAcquireRundownProtection routine [Kernel-Mode Driver Architecture], kernel.exacquirerundownprotection, wdm/ExAcquireRundownProtection
 f1_keywords:
  - "wdm/ExAcquireRundownProtection"
+ - "ExAcquireRundownProtection"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - ExAcquireRundownProtection
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

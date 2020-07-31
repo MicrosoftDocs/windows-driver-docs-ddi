@@ -8,6 +8,7 @@ ms.date: 03/30/2018
 keywords: ["_WDI_OS_POWER_MANAGEMENT_FLAGS enumeration"]
 f1_keywords:
  - "wditypes/_WDI_OS_POWER_MANAGEMENT_FLAGS"
+ - "_WDI_OS_POWER_MANAGEMENT_FLAGS"
 ms.keywords: _WDI_OS_POWER_MANAGEMENT_FLAGS, WDI_OS_POWER_MANAGEMENT_FLAGS, 
 req.header: wditypes.hpp
 req.include-header:
@@ -27,8 +28,6 @@ api_location:
 - wditypes.hpp
 api_name: 
 - _WDI_OS_POWER_MANAGEMENT_FLAGS
-product:
-- Windows
 targetos: Windows
 ---
 

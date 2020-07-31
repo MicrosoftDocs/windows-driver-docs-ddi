@@ -10,6 +10,7 @@ keywords: ["HWN_CLIENT_INITIALIZE_DEVICE callback"]
 ms.keywords: "*PHWN_CLIENT_INITIALIZE_DEVICE, *PHWN_CLIENT_INITIALIZE_DEVICE callback function pointer, HWN_CLIENT_INITIALIZE_DEVICE, HwnClientInitializeDevice, HwnClientInitializeDevice callback function, gpiobtn.hwn_client_initialize_device, hwnclx/HwnClientInitializeDevice"
 f1_keywords:
  - "hwnclx/*PHWN_CLIENT_INITIALIZE_DEVICE"
+ - "*PHWN_CLIENT_INITIALIZE_DEVICE"
 req.header: hwnclx.h
 req.include-header:
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Hwnclx.h
 api_name:
 - PHWN_CLIENT_INITIALIZE_DEVICE
-product:
-- Windows
 targetos: Windows
 req.typenames: HPMI_QUERY_CAPABILITIES_RESPONSE, *PHPMI_QUERY_CAPABILITIES_RESPONSE
 ---

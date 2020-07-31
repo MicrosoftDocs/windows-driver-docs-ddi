@@ -10,6 +10,7 @@ keywords: ["IWDFDriver::CreateDevice"]
 ms.keywords: CreateDevice, CreateDevice method, CreateDevice method,IWDFDriver interface, IWDFDriver interface,CreateDevice method, IWDFDriver.CreateDevice, IWDFDriver::CreateDevice, UMDFDriverObjectRef_9afa4fd4-210b-4055-855a-1f922eb0fc9c.xml, umdf.iwdfdriver_createdevice, wdf.iwdfdriver_createdevice, wudfddi/IWDFDriver::CreateDevice
 f1_keywords:
  - "wudfddi/IWDFDriver.CreateDevice"
+ - "IWDFDriver.CreateDevice"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFDriver.CreateDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

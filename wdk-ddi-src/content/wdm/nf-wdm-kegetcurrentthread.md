@@ -10,6 +10,7 @@ keywords: ["KeGetCurrentThread function"]
 ms.keywords: KeGetCurrentThread, KeGetCurrentThread routine [Kernel-Mode Driver Architecture], k105_fa2d3ae9-9ac8-4c50-bf51-5d6751a2b81e.xml, kernel.kegetcurrentthread, wdm/KeGetCurrentThread
 f1_keywords:
  - "wdm/KeGetCurrentThread"
+ - "KeGetCurrentThread"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeGetCurrentThread
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

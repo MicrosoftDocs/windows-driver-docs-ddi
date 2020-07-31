@@ -9,6 +9,7 @@ keywords: ["PFND3D10DDI_CLEARDEPTHSTENCILVIEW callback function"]
 ms.keywords: ClearDepthStencilView, ClearDepthStencilView callback function [Display Devices], PFND3D10DDI_CLEARDEPTHSTENCILVIEW, PFND3D10DDI_CLEARDEPTHSTENCILVIEW callback, UserModeDisplayDriverDx10_Functions_580c85a3-3ad9-415c-925c-2ca103d10237.xml, d3d10umddi/ClearDepthStencilView, display.cleardepthstencilview
 f1_keywords:
  - "d3d10umddi/ClearDepthStencilView"
+ - "ClearDepthStencilView"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - ClearDepthStencilView
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

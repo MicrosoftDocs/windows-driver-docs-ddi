@@ -10,6 +10,7 @@ keywords: ["KSATTRIBUTE_LIST structure"]
 ms.keywords: "*PKSATTRIBUTE_LIST, KSATTRIBUTE_LIST, KSATTRIBUTE_LIST structure [Streaming Media Devices], PKSATTRIBUTE_LIST, PKSATTRIBUTE_LIST structure pointer [Streaming Media Devices], ks/KSATTRIBUTE_LIST, ks/PKSATTRIBUTE_LIST, stream.ksattribute_list"
 f1_keywords:
  - "ks/KSATTRIBUTE_LIST"
+ - "KSATTRIBUTE_LIST"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ks.h
 api_name:
 - KSATTRIBUTE_LIST
-product:
-- Windows
 targetos: Windows
 req.typenames: KSATTRIBUTE_LIST, *PKSATTRIBUTE_LIST
 ---

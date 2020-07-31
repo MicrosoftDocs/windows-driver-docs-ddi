@@ -10,6 +10,7 @@ keywords: ["UrsIoResourceListAppendDescriptor function"]
 ms.keywords: UrsIoResourceListAppendDescriptor, UrsIoResourceListAppendDescriptor function [Buses], buses.ursioresourcelistappenddescriptor, ursdevice/UrsIoResourceListAppendDescriptor
 f1_keywords:
  - "ursdevice/UrsIoResourceListAppendDescriptor"
+ - "UrsIoResourceListAppendDescriptor"
 req.header: ursdevice.h
 req.include-header: Urscx.h
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 - Urscxstub.dll
 api_name:
 - UrsIoResourceListAppendDescriptor
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["_ISCSI_DiscoveredTarget structure"]
 ms.keywords: "*PISCSI_DiscoveredTarget, ISCSI_DiscoveredTarget, ISCSI_DiscoveredTarget structure [Storage Devices], PISCSI_DiscoveredTarget, PISCSI_DiscoveredTarget structure pointer [Storage Devices], _ISCSI_DiscoveredTarget, iscsifnd/ISCSI_DiscoveredTarget, iscsifnd/PISCSI_DiscoveredTarget, storage.iscsi_discoveredtarget, structs-iSCSI_d53d59a0-bd96-4eb8-b874-5846302ddda2.xml"
 f1_keywords:
  - "iscsifnd/ISCSI_DiscoveredTarget"
+ - "ISCSI_DiscoveredTarget"
 req.header: iscsifnd.h
 req.include-header: Iscsifnd.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - iscsifnd.h
 api_name:
 - ISCSI_DiscoveredTarget
-product:
-- Windows
 targetos: Windows
 req.typenames: ISCSI_DiscoveredTarget, *PISCSI_DiscoveredTarget
 ---

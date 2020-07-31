@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols::GetNumberModules"]
 ms.keywords: GetNumberModules, GetNumberModules method [Windows Debugging], GetNumberModules method [Windows Debugging],IDebugSymbols interface, GetNumberModules method [Windows Debugging],IDebugSymbols2 interface, GetNumberModules method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetNumberModules method, IDebugSymbols.GetNumberModules, IDebugSymbols2 interface [Windows Debugging],GetNumberModules method, IDebugSymbols2::GetNumberModules, IDebugSymbols3 interface [Windows Debugging],GetNumberModules method, IDebugSymbols3::GetNumberModules, IDebugSymbols::GetNumberModules, IDebugSymbols_151a5c5e-ec01-4801-9ba2-86f26506410c.xml, dbgeng/IDebugSymbols2::GetNumberModules, dbgeng/IDebugSymbols3::GetNumberModules, dbgeng/IDebugSymbols::GetNumberModules, debugger.getnumbermodules
 f1_keywords:
  - "dbgeng/IDebugSymbols.GetNumberModules"
+ - "IDebugSymbols.GetNumberModules"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -38,8 +39,6 @@ api_name:
 - IDebugSymbols.GetNumberModules
 - IDebugSymbols2.GetNumberModules
 - IDebugSymbols3.GetNumberModules
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

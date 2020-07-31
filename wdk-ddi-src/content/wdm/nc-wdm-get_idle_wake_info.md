@@ -10,6 +10,7 @@ keywords: ["GET_IDLE_WAKE_INFO callback function"]
 ms.keywords: GET_IDLE_WAKE_INFO, GetIdleWakeInfo, GetIdleWakeInfo routine [Kernel-Mode Driver Architecture], kernel.getidlewakeinfo, wdm/GetIdleWakeInfo
 f1_keywords:
  - "wdm/GetIdleWakeInfo"
+ - "GetIdleWakeInfo"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - GetIdleWakeInfo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

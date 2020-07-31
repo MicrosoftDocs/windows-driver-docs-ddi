@@ -10,6 +10,7 @@ keywords: ["AtaPortReadPortBufferUchar function"]
 ms.keywords: AtaPortReadPortBufferUchar, AtaPortReadPortBufferUchar routine [Storage Devices], atartns_1c072aa8-585a-4f8c-be16-be8c1dbc6258.xml, irb/AtaPortReadPortBufferUchar, storage.ataportreadportbufferuchar
 f1_keywords:
  - "irb/AtaPortReadPortBufferUchar"
+ - "AtaPortReadPortBufferUchar"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
@@ -39,8 +40,6 @@ api_location:
 - pciidex.dll
 api_name:
 - AtaPortReadPortBufferUchar
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

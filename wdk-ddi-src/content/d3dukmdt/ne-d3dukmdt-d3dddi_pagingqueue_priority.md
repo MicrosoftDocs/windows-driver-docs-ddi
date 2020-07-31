@@ -10,6 +10,7 @@ keywords: ["D3DDDI_PAGINGQUEUE_PRIORITY enumeration"]
 ms.keywords: D3DDDI_PAGINGQUEUE_PRIORITY, D3DDDI_PAGINGQUEUE_PRIORITY enumeration [Display Devices], D3DDDI_PAGINGQUEUE_PRIORITY_ABOVE_NORMAL, D3DDDI_PAGINGQUEUE_PRIORITY_BELOW_NORMAL, D3DDDI_PAGINGQUEUE_PRIORITY_NORMAL, d3dukmdt/D3DDDI_PAGINGQUEUE_PRIORITY, d3dukmdt/D3DDDI_PAGINGQUEUE_PRIORITY_ABOVE_NORMAL, d3dukmdt/D3DDDI_PAGINGQUEUE_PRIORITY_BELOW_NORMAL, d3dukmdt/D3DDDI_PAGINGQUEUE_PRIORITY_NORMAL, display.d3dddi_pagingqueue_priority
 f1_keywords:
  - "d3dukmdt/D3DDDI_PAGINGQUEUE_PRIORITY"
+ - "D3DDDI_PAGINGQUEUE_PRIORITY"
 req.header: d3dukmdt.h
 req.include-header: D3dumddi.h, D3dkmddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dukmdt.h
 api_name:
 - D3DDDI_PAGINGQUEUE_PRIORITY
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDI_PAGINGQUEUE_PRIORITY
 ---

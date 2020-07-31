@@ -10,6 +10,7 @@ keywords: ["FsRtlOplockBreakToNone function"]
 ms.keywords: FsRtlOplockBreakToNone, FsRtlOplockBreakToNone function [Installable File System Drivers], fsrtlref_8d6206fb-3cc8-4f43-83b1-266c398f933e.xml, ifsk.fsrtloplockbreaktonone, ntifs/FsRtlOplockBreakToNone
 f1_keywords:
  - "ntifs/FsRtlOplockBreakToNone"
+ - "FsRtlOplockBreakToNone"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - FsRtlOplockBreakToNone
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 dev_langs:

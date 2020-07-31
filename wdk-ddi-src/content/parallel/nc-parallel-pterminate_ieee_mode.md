@@ -10,6 +10,7 @@ keywords: ["PTERMINATE_IEEE_MODE callback"]
 ms.keywords: PTERMINATE_IEEE_MODE, PTERMINATE_IEEE_MODE function pointer [Parallel Ports], cisspd_97e0ba9c-746e-4f7a-8d52-a321d6a18a4b.xml, parallel/PTERMINATE_IEEE_MODE, parports.pterminate_ieee_mode
 f1_keywords:
  - "parallel/PTERMINATE_IEEE_MODE"
+ - "PTERMINATE_IEEE_MODE"
 req.header: parallel.h
 req.include-header: Parallel.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - parallel.h
 api_name:
 - PTERMINATE_IEEE_MODE
-product:
-- Windows
 targetos: Windows
 req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ---

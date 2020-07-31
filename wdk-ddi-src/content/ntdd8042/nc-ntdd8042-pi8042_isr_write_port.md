@@ -10,6 +10,7 @@ keywords: ["PI8042_ISR_WRITE_PORT callback function"]
 ms.keywords: I8042IsrWritePort, I8042IsrWritePort callback function [Human Input Devices], PI8042_ISR_WRITE_PORT, PI8042_ISR_WRITE_PORT callback, hid.pi8042_isr_write_port, i8042ref_775d438e-5883-455b-86c4-2ce28099598f.xml, ntdd8042/I8042IsrWritePort
 f1_keywords:
  - "ntdd8042/I8042IsrWritePort"
+ - "I8042IsrWritePort"
 req.header: ntdd8042.h
 req.include-header: Ntdd8042.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ntdd8042.h
 api_name:
 - I8042IsrWritePort
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

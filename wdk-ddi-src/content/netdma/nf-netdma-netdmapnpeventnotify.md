@@ -10,6 +10,7 @@ keywords: ["NetDmaPnPEventNotify function"]
 ms.keywords: NetDmaPnPEventNotify, NetDmaPnPEventNotify function [Network Drivers Starting with Windows Vista], netdma/NetDmaPnPEventNotify, netdma_ref_406452bc-e56a-47da-9e7a-09fb4aebe1eb.xml, netvista.netdmapnpeventnotify
 f1_keywords:
  - "netdma/NetDmaPnPEventNotify"
+ - "NetDmaPnPEventNotify"
 req.header: netdma.h
 req.include-header: Netdma.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - netdma.h
 api_name:
 - NetDmaPnPEventNotify
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

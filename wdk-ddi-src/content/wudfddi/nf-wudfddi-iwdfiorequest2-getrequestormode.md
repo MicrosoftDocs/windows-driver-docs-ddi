@@ -10,6 +10,7 @@ keywords: ["IWDFIoRequest2::GetRequestorMode"]
 ms.keywords: GetRequestorMode, GetRequestorMode method, GetRequestorMode method,IWDFIoRequest2 interface, IWDFIoRequest2 interface,GetRequestorMode method, IWDFIoRequest2.GetRequestorMode, IWDFIoRequest2::GetRequestorMode, UMDFRequestObjectRef_ab2c358c-de7c-4bc3-b0cf-a598a1c69bd1.xml, umdf.iwdfiorequest2_getrequestormode, wdf.iwdfiorequest2_getrequestormode, wudfddi/IWDFIoRequest2::GetRequestorMode
 f1_keywords:
  - "wudfddi/IWDFIoRequest2.GetRequestorMode"
+ - "IWDFIoRequest2.GetRequestorMode"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFIoRequest2.GetRequestorMode
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

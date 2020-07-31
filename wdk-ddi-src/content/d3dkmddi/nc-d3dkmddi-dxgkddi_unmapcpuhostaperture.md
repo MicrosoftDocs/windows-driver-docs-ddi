@@ -9,6 +9,7 @@ keywords: ["DXGKDDI_UNMAPCPUHOSTAPERTURE callback function"]
 ms.keywords: DXGKDDI_UNMAPCPUHOSTAPERTURE, DXGKDDI_UNMAPCPUHOSTAPERTURE callback, DxgkDdiUnmapCpuHostAperture, DxgkDdiUnmapCpuHostAperture callback function [Display Devices], d3dkmddi/DxgkDdiUnmapCpuHostAperture, display.dxgkddiunmapcpuhostaperture
 f1_keywords:
  - "d3dkmddi/DxgkDdiUnmapCpuHostAperture"
+ - "DxgkDdiUnmapCpuHostAperture"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DxgkDdiUnmapCpuHostAperture
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

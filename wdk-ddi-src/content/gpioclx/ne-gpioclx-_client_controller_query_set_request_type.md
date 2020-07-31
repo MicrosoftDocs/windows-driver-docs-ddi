@@ -10,6 +10,7 @@ keywords: ["_CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE enumeration"]
 ms.keywords: "*PCLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE enumeration [Parallel Ports], GPIO.client_controller_query_set_request_type, QueryBankInterruptBindingInformation, QueryBankPowerInformation, QueryControllerFunctionBankMappingInformation, QuerySetRequestMaximumType, _CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, gpioclx/CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, gpioclx/QueryBankInterruptBindingInformation, gpioclx/QueryBankPowerInformation, gpioclx/QueryControllerFunctionBankMappingInformation, gpioclx/QuerySetRequestMaximumType"
 f1_keywords:
  - "gpioclx/CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE"
+ - "CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Gpioclx.h
 api_name:
 - CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, *PCLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE
 ---

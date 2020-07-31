@@ -10,6 +10,7 @@ keywords: ["PUSB_BUSIFFN_QUERY_BUS_INFORMATION callback function"]
 ms.keywords: PUSB_BUSIFFN_QUERY_BUS_INFORMATION, QueryBusInformation, QueryBusInformation callback function [Buses], USB_BUSIFFN_QUERY_BUS_INFORMATION, USB_BUSIFFN_QUERY_BUS_INFORMATION callback, buses.querybusinformation, usbbusif/QueryBusInformation, usbinterKR_91d1f7ee-5cd2-4f87-bc4c-16972039f5e3.xml
 f1_keywords:
  - "usbbusif/QueryBusInformation"
+ - "QueryBusInformation"
 req.header: usbbusif.h
 req.include-header: Usbbusif.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - usbbusif.h
 api_name:
 - QueryBusInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

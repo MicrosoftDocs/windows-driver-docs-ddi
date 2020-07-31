@@ -10,6 +10,7 @@ keywords: ["PoFxRegisterDevice function"]
 ms.keywords: PoFxRegisterDevice, PoFxRegisterDevice routine [Kernel-Mode Driver Architecture], kernel.pofxregisterdevice, wdm/PoFxRegisterDevice
 f1_keywords:
  - "wdm/PoFxRegisterDevice"
+ - "PoFxRegisterDevice"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Ntoskrnl.exe
 api_name:
 - PoFxRegisterDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

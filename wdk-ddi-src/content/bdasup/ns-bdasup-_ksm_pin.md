@@ -10,6 +10,7 @@ keywords: ["_KSM_PIN structure"]
 ms.keywords: "*PKSM_PIN, KSM_PIN, KSM_PIN structure [Streaming Media Devices], PKSM_PIN, PKSM_PIN structure pointer [Streaming Media Devices], _KSM_PIN, bdaref_029de0a4-0975-435c-990d-4b5cac00e003.xml, bdasup/KSM_PIN, bdasup/PKSM_PIN, stream.ksm_pin"
 f1_keywords:
  - "bdasup/KSM_PIN"
+ - "KSM_PIN"
 req.header: bdasup.h
 req.include-header: Bdasup.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - bdasup.h
 api_name:
 - KSM_PIN
-product:
-- Windows
 targetos: Windows
 req.typenames: KSM_PIN, *PKSM_PIN
 ---

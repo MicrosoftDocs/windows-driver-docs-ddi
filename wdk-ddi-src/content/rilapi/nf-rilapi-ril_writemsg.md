@@ -10,6 +10,7 @@ keywords: ["RIL_WriteMsg function"]
 ms.keywords: RIL_WriteMsg, RIL_WriteMsg method [Network Drivers Starting with Windows Vista], netvista.ril_writemsg, rilapi/RIL_WriteMsg
 f1_keywords:
  - "rilapi/RIL_WriteMsg"
+ - "RIL_WriteMsg"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_WriteMsg
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

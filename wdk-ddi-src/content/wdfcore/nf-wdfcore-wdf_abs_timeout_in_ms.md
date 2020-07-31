@@ -10,6 +10,7 @@ keywords: ["WDF_ABS_TIMEOUT_IN_MS function"]
 ms.keywords: DFTimerObjectRef_6ebc68ca-16c5-4948-ac68-d9247b8074f3.xml, WDF_ABS_TIMEOUT_IN_MS, WDF_ABS_TIMEOUT_IN_MS function, kmdf.wdf_abs_timeout_in_ms, wdf.wdf_abs_timeout_in_ms, wdfcore/WDF_ABS_TIMEOUT_IN_MS
 f1_keywords:
  - "wdfcore/WDF_ABS_TIMEOUT_IN_MS"
+ - "WDF_ABS_TIMEOUT_IN_MS"
 req.header: wdfcore.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - None.dll
 api_name:
 - WDF_ABS_TIMEOUT_IN_MS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

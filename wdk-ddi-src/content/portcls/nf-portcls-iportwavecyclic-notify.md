@@ -10,6 +10,7 @@ keywords: ["IPortWaveCyclic::Notify"]
 ms.keywords: IPortWaveCyclic interface [Audio Devices],Notify method, IPortWaveCyclic.Notify, IPortWaveCyclic::Notify, Notify, Notify method [Audio Devices], Notify method [Audio Devices],IPortWaveCyclic interface, audio.iportwavecyclic_notify, audmp-routines_8b2252d3-100f-4e4a-b5ca-cdaf0c12834e.xml, portcls/IPortWaveCyclic::Notify
 f1_keywords:
  - "portcls/IPortWaveCyclic.Notify"
+ - "IPortWaveCyclic.Notify"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IPortWaveCyclic.Notify
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

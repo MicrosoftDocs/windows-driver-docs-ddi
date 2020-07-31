@@ -10,6 +10,7 @@ keywords: ["CcGetFileObjectFromSectionPtrs function"]
 ms.keywords: CcGetFileObjectFromSectionPtrs, CcGetFileObjectFromSectionPtrs routine [Installable File System Drivers], ccref_2e9f9f04-b5e3-47e5-beff-5e4d7181ca9d.xml, ifsk.ccgetfileobjectfromsectionptrs, ntifs/CcGetFileObjectFromSectionPtrs
 f1_keywords:
  - "ntifs/CcGetFileObjectFromSectionPtrs"
+ - "CcGetFileObjectFromSectionPtrs"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - CcGetFileObjectFromSectionPtrs
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

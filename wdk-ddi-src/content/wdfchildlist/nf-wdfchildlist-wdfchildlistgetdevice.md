@@ -10,6 +10,7 @@ keywords: ["WdfChildListGetDevice function"]
 ms.keywords: DFDeviceObjectChildListRef_3126e6d6-e0d4-4ad1-865e-e7ec36e3c593.xml, WdfChildListGetDevice, WdfChildListGetDevice method, kmdf.wdfchildlistgetdevice, wdf.wdfchildlistgetdevice, wdfchildlist/WdfChildListGetDevice
 f1_keywords:
  - "wdfchildlist/WdfChildListGetDevice"
+ - "WdfChildListGetDevice"
 req.header: wdfchildlist.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfChildListGetDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

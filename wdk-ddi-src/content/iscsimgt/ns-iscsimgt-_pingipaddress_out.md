@@ -10,6 +10,7 @@ keywords: ["_PingIPAddress_OUT structure"]
 ms.keywords: "*PPingIPAddress_OUT, PPingIPAddress_OUT, PPingIPAddress_OUT structure pointer [Storage Devices], PingIPAddress_OUT, PingIPAddress_OUT structure [Storage Devices], _PingIPAddress_OUT, iscsimgt/PPingIPAddress_OUT, iscsimgt/PingIPAddress_OUT, storage.pingipaddress_out, structs-iSCSI_a6cbf3cf-b386-4cab-9193-5b9724e4646e.xml"
 f1_keywords:
  - "iscsimgt/PingIPAddress_OUT"
+ - "PingIPAddress_OUT"
 req.header: iscsimgt.h
 req.include-header: Iscsimgt.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - iscsimgt.h
 api_name:
 - PingIPAddress_OUT
-product:
-- Windows
 targetos: Windows
 req.typenames: PingIPAddress_OUT, *PPingIPAddress_OUT
 ---

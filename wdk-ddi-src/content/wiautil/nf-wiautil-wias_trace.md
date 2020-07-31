@@ -10,6 +10,7 @@ keywords: ["WIAS_TRACE macro"]
 ms.keywords: IWiaLog_c755ea6c-c312-4b15-be83-a437358b83a9.xml, WIAS_TRACE, WIAS_TRACE macro [Imaging Devices], image.wias_trace, wiamdef/WIAS_TRACE
 f1_keywords:
  - "wiautil/WIAS_TRACE"
+ - "WIAS_TRACE"
 req.header: wiautil.h
 req.include-header: Wiautil.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wiamdef.h
 api_name:
 - WIAS_TRACE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

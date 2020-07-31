@@ -7,6 +7,7 @@ ms.date: 09/21/2018
 keywords: ["IDebugHostBaseClass::GetType"]
 f1_keywords:
  - "dbgmodel/IDebugHostBaseClass.GetType"
+ - "IDebugHostBaseClass.GetType"
 ms.keywords: IDebugHostBaseClass::GetType, GetType, IDebugHostBaseClass.GetType, IDebugHostBaseClass::GetType, IDebugHostBaseClass.GetType
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostBaseClass.GetType
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

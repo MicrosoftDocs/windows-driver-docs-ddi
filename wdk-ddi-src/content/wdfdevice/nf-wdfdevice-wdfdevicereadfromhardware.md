@@ -10,6 +10,7 @@ keywords: ["WdfDeviceReadFromHardware function"]
 ms.keywords: PFN_WDFDEVICEREADFROMHARDWARE, WdfDeviceReadFromHardware, WdfDeviceReadFromHardware method, wdf.wdfdevicereadfromhardware, wdfdevice/WdfDeviceReadFromHardware, wdfhwaccess/WdfDeviceReadFromHardware
 f1_keywords:
  - "wdfdevice/WdfDeviceReadFromHardware"
+ - "WdfDeviceReadFromHardware"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfDeviceReadFromHardware
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -31,7 +31,8 @@ api_name:
  - WHEAP_CMCI_INITERR_EVENT
 f1_keywords:
  - ntddk/_WHEAP_CMCI_INITERR_EVENT
- - ntddk/WHEAP_CMCI_INITERR_EVENT
+ - ntddk//WHEAP_CMCI_INITERR_EVENT
+ - WHEAP_CMCI_INITERR_EVENT
 dev_langs:
  - c++
 ---

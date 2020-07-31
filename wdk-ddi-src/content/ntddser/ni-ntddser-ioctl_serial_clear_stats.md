@@ -10,6 +10,7 @@ keywords: ["IOCTL_SERIAL_CLEAR_STATS IOCTL"]
 ms.keywords: IOCTL_SERIAL_CLEAR_STATS, IOCTL_SERIAL_CLEAR_STATS control, IOCTL_SERIAL_CLEAR_STATS control code [Serial Ports], ntddser/IOCTL_SERIAL_CLEAR_STATS, serports.ioctl_serial_clear_stats, serref_c6feaf5c-cde0-4ee9-8db7-fd96fa41ef9e.xml
 f1_keywords:
  - "ntddser/IOCTL_SERIAL_CLEAR_STATS"
+ - "IOCTL_SERIAL_CLEAR_STATS"
 req.header: ntddser.h
 req.include-header: Ntddser.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddser.h
 api_name:
 - IOCTL_SERIAL_CLEAR_STATS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

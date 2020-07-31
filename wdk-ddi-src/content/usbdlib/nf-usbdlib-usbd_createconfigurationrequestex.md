@@ -10,6 +10,7 @@ keywords: ["USBD_CreateConfigurationRequestEx function"]
 ms.keywords: USBD_CreateConfigurationRequestEx, USBD_CreateConfigurationRequestEx routine [Buses], buses.usbd_createconfigurationrequestex, usbdlib/USBD_CreateConfigurationRequestEx, usbfunc_d0c1e002-ed01-4bd4-98f0-b4b2d6da2ca6.xml
 f1_keywords:
  - "usbdlib/USBD_CreateConfigurationRequestEx"
+ - "USBD_CreateConfigurationRequestEx"
 req.header: usbdlib.h
 req.include-header: Usbdlib.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Usbd.dll
 api_name:
 - USBD_CreateConfigurationRequestEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

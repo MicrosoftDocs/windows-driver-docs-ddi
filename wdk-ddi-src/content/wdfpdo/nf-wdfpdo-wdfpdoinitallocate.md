@@ -10,6 +10,7 @@ keywords: ["WdfPdoInitAllocate function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_bc23c37b-d595-4672-ad92-4a29aea9c2dd.xml, WdfPdoInitAllocate, WdfPdoInitAllocate method, kmdf.wdfpdoinitallocate, wdf.wdfpdoinitallocate, wdfpdo/WdfPdoInitAllocate
 f1_keywords:
  - "wdfpdo/WdfPdoInitAllocate"
+ - "WdfPdoInitAllocate"
 req.header: wdfpdo.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfPdoInitAllocate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

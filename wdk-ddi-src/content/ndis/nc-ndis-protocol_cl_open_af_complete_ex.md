@@ -10,6 +10,7 @@ keywords: ["PROTOCOL_CL_OPEN_AF_COMPLETE_EX callback function"]
 ms.keywords: PROTOCOL_CL_OPEN_AF_COMPLETE_EX, PROTOCOL_CL_OPEN_AF_COMPLETE_EX callback, ProtocolClOpenAfCompleteEx, ProtocolClOpenAfCompleteEx callback function [Network Drivers Starting with Windows Vista], condis_client_ref_8b7e876e-d2b2-4676-8120-aa18f717cca2.xml, ndis/ProtocolClOpenAfCompleteEx, netvista.protocolclopenafcompleteex
 f1_keywords:
  - "ndis/ProtocolClOpenAfCompleteEx"
+ - "ProtocolClOpenAfCompleteEx"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - ProtocolClOpenAfCompleteEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

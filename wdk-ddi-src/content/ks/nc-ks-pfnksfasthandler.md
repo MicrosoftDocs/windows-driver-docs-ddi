@@ -10,6 +10,7 @@ keywords: ["PFNKSFASTHANDLER callback function"]
 ms.keywords: KStrFastHandler, KStrFastHandler routine [Streaming Media Devices], PFNKSFASTHANDLER, ks/KStrFastHandler, ksfunc_e78a76eb-b3e6-4864-bae2-49536d3a9d52.xml, stream.kstrfasthandler
 f1_keywords:
  - "ks/KStrFastHandler"
+ - "KStrFastHandler"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KStrFastHandler
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

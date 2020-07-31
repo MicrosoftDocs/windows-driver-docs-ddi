@@ -10,6 +10,7 @@ keywords: ["RtlRandomEx function"]
 ms.keywords: RtlRandomEx, RtlRandomEx routine [Installable File System Drivers], ifsk.rtlrandomex, ntifs/RtlRandomEx, rtlref_29425246-066b-4f0f-ba4b-419db1de119d.xml
 f1_keywords:
  - "ntifs/RtlRandomEx"
+ - "RtlRandomEx"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlRandomEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

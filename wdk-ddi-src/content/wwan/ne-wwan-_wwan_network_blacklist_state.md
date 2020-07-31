@@ -8,6 +8,7 @@ ms.date: 08/21/2018
 keywords: ["_WWAN_NETWORK_BLACKLIST_STATE enumeration"]
 f1_keywords:
  - "wwan/_WWAN_NETWORK_BLACKLIST_STATE"
+ - "_WWAN_NETWORK_BLACKLIST_STATE"
 ms.keywords: _WWAN_NETWORK_BLACKLIST_STATE, WWAN_NETWORK_BLACKLIST_STATE, 
 req.header: wwan.h
 req.include-header:

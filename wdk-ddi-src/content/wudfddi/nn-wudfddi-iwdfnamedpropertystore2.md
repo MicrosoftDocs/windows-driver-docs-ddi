@@ -10,6 +10,7 @@ keywords: ["IWDFNamedPropertyStore2 interface"]
 ms.keywords: IWDFNamedPropertyStore2, IWDFNamedPropertyStore2 interface, IWDFNamedPropertyStore2 interface,described, UMDFPropertyStoreObjectRef_6a5d155a-6311-4a43-9b21-2572b04da323.xml, umdf.iwdfnamedpropertystore2, wdf.iwdfnamedpropertystore2, wudfddi/IWDFNamedPropertyStore2
 f1_keywords:
  - "wudfddi/IWDFNamedPropertyStore2"
+ - "IWDFNamedPropertyStore2"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFNamedPropertyStore2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

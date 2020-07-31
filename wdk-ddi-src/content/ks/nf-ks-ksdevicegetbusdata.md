@@ -10,6 +10,7 @@ keywords: ["KsDeviceGetBusData function"]
 ms.keywords: KsDeviceGetBusData, KsDeviceGetBusData function [Streaming Media Devices], avfunc_3106cd50-9e8c-407c-bcb0-c5e9c86d8dc7.xml, ks/KsDeviceGetBusData, stream.ksdevicegetbusdata
 f1_keywords:
  - "ks/KsDeviceGetBusData"
+ - "KsDeviceGetBusData"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsDeviceGetBusData
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

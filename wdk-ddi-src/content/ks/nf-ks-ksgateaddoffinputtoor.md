@@ -10,6 +10,7 @@ keywords: ["KsGateAddOffInputToOr function"]
 ms.keywords: KsGateAddOffInputToOr, KsGateAddOffInputToOr function [Streaming Media Devices], avfunc_abee7d7c-388b-4a48-a573-6b46a1c9dc46.xml, ks/KsGateAddOffInputToOr, stream.ksgateaddoffinputtoor
 f1_keywords:
  - "ks/KsGateAddOffInputToOr"
+ - "KsGateAddOffInputToOr"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KsGateAddOffInputToOr
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

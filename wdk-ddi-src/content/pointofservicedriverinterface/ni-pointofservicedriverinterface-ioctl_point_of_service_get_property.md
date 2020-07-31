@@ -10,6 +10,7 @@ keywords: ["IOCTL_POINT_OF_SERVICE_GET_PROPERTY IOCTL"]
 ms.keywords: IOCTL_POINT_OF_SERVICE_GET_PROPERTY, IOCTL_POINT_OF_SERVICE_GET_PROPERTY control, IOCTL_POINT_OF_SERVICE_GET_PROPERTY control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_GET_PROPERTY, pos.ioctl_point_of_service_get_property
 f1_keywords:
  - "pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_GET_PROPERTY"
+ - "IOCTL_POINT_OF_SERVICE_GET_PROPERTY"
 req.header: pointofservicedriverinterface.h
 req.include-header: Pointofservicedriverinterface.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pointofservicedriverinterface.h
 api_name:
 - IOCTL_POINT_OF_SERVICE_GET_PROPERTY
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

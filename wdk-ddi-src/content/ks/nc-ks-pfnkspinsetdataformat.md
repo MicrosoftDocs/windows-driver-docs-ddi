@@ -10,6 +10,7 @@ keywords: ["PFNKSPINSETDATAFORMAT callback function"]
 ms.keywords: AVStrMiniPinSetDataFormat, AVStrMiniPinSetDataFormat routine [Streaming Media Devices], PFNKSPINSETDATAFORMAT, avstclbk_c72cee40-d3d3-45df-8ece-2eb0a8b52e38.xml, ks/AVStrMiniPinSetDataFormat, stream.avstrminipinsetdataformat
 f1_keywords:
  - "ks/AVStrMiniPinSetDataFormat"
+ - "AVStrMiniPinSetDataFormat"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - AVStrMiniPinSetDataFormat
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

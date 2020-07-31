@@ -8,6 +8,7 @@ ms.date: 10/31/2018
 keywords: ["IPort::Init"]
 f1_keywords:
  - "portcls/IPort.Init"
+ - "IPort.Init"
 ms.keywords: IPort::Init, Init, IPort.Init, IPort::Init, IPort.Init
 req.header: portcls.h
 req.include-header:

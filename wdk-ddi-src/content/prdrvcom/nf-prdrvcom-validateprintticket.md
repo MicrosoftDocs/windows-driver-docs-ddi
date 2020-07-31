@@ -10,6 +10,7 @@ keywords: ["ValidatePrintTicket function"]
 ms.keywords: IPrintOemPrintTicketProvider interface [Print Devices], ValidatePrintTicket method, IPrintOemPrintTicketProvider::ValidatePrintTicket, ValidatePrintTicket, ValidatePrintTicket method [Print Devices], ValidatePrintTicket method [Print Devices], IPrintOemPrintTicketProvider interface, prdrvcom/IPrintOemPrintTicketProvider::ValidatePrintTicket, print.iprintoemprintticketprovider_validateprintticket, print_ticket-package_e7baf633-847b-4e0d-bffb-c723a05b672f.xml
 f1_keywords:
  - "prdrvcom/IPrintOemPrintTicketProvider.ValidatePrintTicket"
+ - "IPrintOemPrintTicketProvider.ValidatePrintTicket"
 req.header: prdrvcom.h
 req.include-header: Prdrvcom.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - prdrvcom.h
 api_name:
 - IPrintOemPrintTicketProvider.ValidatePrintTicket
-product:
-- Windows
 targetos: Windows
 req.typenames: SHIMOPTS, *PSHIMOPTS
 req.product: Windows 10 or later.

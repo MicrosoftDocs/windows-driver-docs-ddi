@@ -10,6 +10,7 @@ keywords: ["WdfGetTriageInfo function"]
 ms.keywords: WdfGetTriageInfo, WdfGetTriageInfo function, kmdf.wdfgettriageinfo, wdf.wdfgettriageinfo, wdfverifier/WdfGetTriageInfo
 f1_keywords:
  - "wdfverifier/WdfGetTriageInfo"
+ - "WdfGetTriageInfo"
 req.header: wdfverifier.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Wdfverifier.h
 api_name:
 - WdfGetTriageInfo
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

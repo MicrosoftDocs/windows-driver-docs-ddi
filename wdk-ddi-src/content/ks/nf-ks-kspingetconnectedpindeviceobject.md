@@ -10,6 +10,7 @@ keywords: ["KsPinGetConnectedPinDeviceObject function"]
 ms.keywords: KsPinGetConnectedPinDeviceObject, KsPinGetConnectedPinDeviceObject function [Streaming Media Devices], avfunc_baa36f5c-d0b9-4c18-9a9d-1a128c7ba8bd.xml, ks/KsPinGetConnectedPinDeviceObject, stream.kspingetconnectedpindeviceobject
 f1_keywords:
  - "ks/KsPinGetConnectedPinDeviceObject"
+ - "KsPinGetConnectedPinDeviceObject"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsPinGetConnectedPinDeviceObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

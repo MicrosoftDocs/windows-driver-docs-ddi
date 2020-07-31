@@ -10,6 +10,7 @@ keywords: ["RxPurgeRelatedFobxs function"]
 ms.keywords: RxPurgeRelatedFobxs, RxPurgeRelatedFobxs function [Installable File System Drivers], ifsk.rxpurgerelatedfobxs, rxref_56862045-c344-4392-9a25-b4e22c36379f.xml, scavengr/RxPurgeRelatedFobxs
 f1_keywords:
  - "scavengr/RxPurgeRelatedFobxs"
+ - "RxPurgeRelatedFobxs"
 req.header: scavengr.h
 req.include-header: Rxprocs.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - scavengr.h
 api_name:
 - RxPurgeRelatedFobxs
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

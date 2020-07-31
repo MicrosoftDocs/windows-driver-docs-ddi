@@ -10,6 +10,7 @@ keywords: ["MmBuildMdlForNonPagedPool function"]
 ms.keywords: MmBuildMdlForNonPagedPool, MmBuildMdlForNonPagedPool routine [Kernel-Mode Driver Architecture], k106_58d8437c-b6da-4b88-85a4-300392fb58f9.xml, kernel.mmbuildmdlfornonpagedpool, wdm/MmBuildMdlForNonPagedPool
 f1_keywords:
  - "wdm/MmBuildMdlForNonPagedPool"
+ - "MmBuildMdlForNonPagedPool"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - MmBuildMdlForNonPagedPool
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

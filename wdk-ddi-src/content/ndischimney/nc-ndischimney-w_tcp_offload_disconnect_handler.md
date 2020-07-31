@@ -10,6 +10,7 @@ keywords: ["W_TCP_OFFLOAD_DISCONNECT_HANDLER callback function"]
 ms.keywords: MiniportTcpOffloadDisconnect, MiniportTcpOffloadDisconnect callback function [Network Drivers Starting with Windows Vista], W_TCP_OFFLOAD_DISCONNECT_HANDLER, W_TCP_OFFLOAD_DISCONNECT_HANDLER callback, ndischimney/MiniportTcpOffloadDisconnect, netvista.miniporttcpoffloaddisconnect, tcp_chim_miniport_func_70f2c816-ff74-4297-9d87-50c983a03f2d.xml
 f1_keywords:
  - "ndischimney/MiniportTcpOffloadDisconnect"
+ - "MiniportTcpOffloadDisconnect"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ndischimney.h
 api_name:
 - MiniportTcpOffloadDisconnect
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

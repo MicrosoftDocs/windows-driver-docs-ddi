@@ -10,6 +10,7 @@ keywords: ["IDARG_OUT_MONITORARRIVAL structure"]
 ms.keywords: IDARG_OUT_MONITORARRIVAL, IDARG_OUT_MONITORARRIVAL structure [Display Devices], display.idarg_out_monitorarrival, iddcx/IDARG_OUT_MONITORARRIVAL
 f1_keywords:
  - "iddcx/IDARG_OUT_MONITORARRIVAL"
+ - "IDARG_OUT_MONITORARRIVAL"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - iddcx.h
 api_name:
 - IDARG_OUT_MONITORARRIVAL
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

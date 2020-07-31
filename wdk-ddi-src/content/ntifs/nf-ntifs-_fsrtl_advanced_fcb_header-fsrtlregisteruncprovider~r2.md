@@ -10,6 +10,7 @@ keywords: ["FsRtlRegisterUncProvider function"]
 ms.keywords: FsRtlRegisterUncProvider, FsRtlRegisterUncProvider routine [Installable File System Drivers], fsrtlref_275d75b9-0033-4cfc-bb22-5ebfcab8d6ba.xml, ifsk.fsrtlregisteruncprovider, ntifs/FsRtlRegisterUncProvider
 f1_keywords:
  - "ntifs/FsRtlRegisterUncProvider"
+ - "FsRtlRegisterUncProvider"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlRegisterUncProvider
-product:
-- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---

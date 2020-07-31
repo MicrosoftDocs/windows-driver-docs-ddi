@@ -10,6 +10,7 @@ keywords: ["WDF_USB_CONTROL_SETUP_PACKET_INIT function"]
 ms.keywords: DFUsbRef_1789fa32-1646-43f8-9673-c0d935b92a4f.xml, WDF_USB_CONTROL_SETUP_PACKET_INIT, WDF_USB_CONTROL_SETUP_PACKET_INIT function, kmdf.wdf_usb_control_setup_packet_init, wdf.wdf_usb_control_setup_packet_init, wdfusb/WDF_USB_CONTROL_SETUP_PACKET_INIT
 f1_keywords:
  - "wdfusb/WDF_USB_CONTROL_SETUP_PACKET_INIT"
+ - "WDF_USB_CONTROL_SETUP_PACKET_INIT"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - wdfusb.h
 api_name:
 - WDF_USB_CONTROL_SETUP_PACKET_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

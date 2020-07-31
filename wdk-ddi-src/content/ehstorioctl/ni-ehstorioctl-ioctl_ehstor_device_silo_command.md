@@ -10,6 +10,7 @@ keywords: ["IOCTL_EHSTOR_DEVICE_SILO_COMMAND IOCTL"]
 ms.keywords: IOCTL_EHSTOR_DEVICE_SILO_COMMAND, IOCTL_EHSTOR_DEVICE_SILO_COMMAND control, IOCTL_EHSTOR_DEVICE_SILO_COMMAND control code [Storage Devices], ehstorioctl/IOCTL_EHSTOR_DEVICE_SILO_COMMAND, storage.ioctl_ehstor_device_silo_command
 f1_keywords:
  - "ehstorioctl/IOCTL_EHSTOR_DEVICE_SILO_COMMAND"
+ - "IOCTL_EHSTOR_DEVICE_SILO_COMMAND"
 req.header: ehstorioctl.h
 req.include-header: EhStorIoctl.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - EhStorIoctl.h
 api_name:
 - IOCTL_EHSTOR_DEVICE_SILO_COMMAND
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

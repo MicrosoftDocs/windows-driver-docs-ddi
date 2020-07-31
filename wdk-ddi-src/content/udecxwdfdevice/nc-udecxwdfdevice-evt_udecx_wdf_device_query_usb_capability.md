@@ -10,6 +10,7 @@ keywords: ["EVT_UDECX_WDF_DEVICE_QUERY_USB_CAPABILITY callback function"]
 ms.keywords: EVT_UDECX_WDF_DEVICE_QUERY_USB_CAPABILITY, EVT_UDECX_WDF_DEVICE_QUERY_USB_CAPABILITY callback, EvtUdecxWdfDeviceQueryUsbCapability, EvtUdecxWdfDeviceQueryUsbCapability callback function [Buses], buses.evt_udecx_wdf_device_query_usb_capability, udecxwdfdevice/EvtUdecxWdfDeviceQueryUsbCapability
 f1_keywords:
  - "udecxwdfdevice/EvtUdecxWdfDeviceQueryUsbCapability"
+ - "EvtUdecxWdfDeviceQueryUsbCapability"
 req.header: udecxwdfdevice.h
 req.include-header: Udecx.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - UdecxWdfDevice.h
 api_name:
 - EvtUdecxWdfDeviceQueryUsbCapability
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

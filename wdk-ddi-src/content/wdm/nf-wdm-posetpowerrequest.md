@@ -10,6 +10,7 @@ keywords: ["PoSetPowerRequest function"]
 ms.keywords: PoSetPowerRequest, PoSetPowerRequest routine [Kernel-Mode Driver Architecture], kernel.posetpowerrequest, portn_8f3abb03-a324-4841-b630-b62344d656ce.xml, wdm/PoSetPowerRequest
 f1_keywords:
  - "wdm/PoSetPowerRequest"
+ - "PoSetPowerRequest"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - PoSetPowerRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["_MSR_ERROR_EVENT structure"]
 ms.keywords: "*PMSR_ERROR_EVENT, MSR_ERROR_EVENT, MSR_ERROR_EVENT structure, PMSR_ERROR_EVENT, PMSR_ERROR_EVENT structure pointer, _MSR_ERROR_EVENT, pointofservicedriverinterface/MSR_ERROR_EVENT, pointofservicedriverinterface/PMSR_ERROR_EVENT, pos.msr_error_event"
 f1_keywords:
  - "pointofservicedriverinterface/MSR_ERROR_EVENT"
+ - "MSR_ERROR_EVENT"
 req.header: pointofservicedriverinterface.h
 req.include-header: PointOfServiceDriverInterface.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - PointOfServiceDriverInterface.h
 api_name:
 - MSR_ERROR_EVENT
-product:
-- Windows
 targetos: Windows
 req.typenames: MSR_ERROR_EVENT, *PMSR_ERROR_EVENT
 ---

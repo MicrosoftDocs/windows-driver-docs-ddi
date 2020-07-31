@@ -10,6 +10,7 @@ keywords: ["_WHEA_IPF_MCA_DESCRIPTOR structure"]
 ms.keywords: "*PWHEA_IPF_MCA_DESCRIPTOR, PWHEA_IPF_MCA_DESCRIPTOR, PWHEA_IPF_MCA_DESCRIPTOR structure pointer [WHEA Drivers and Applications], WHEA_IPF_MCA_DESCRIPTOR, WHEA_IPF_MCA_DESCRIPTOR structure [WHEA Drivers and Applications], _WHEA_IPF_MCA_DESCRIPTOR, ntddk/PWHEA_IPF_MCA_DESCRIPTOR, ntddk/WHEA_IPF_MCA_DESCRIPTOR, whea.whea_ipf_mca_descriptor, whearef_855b78be-e404-4bc0-a9fa-a0f03e61151d.xml"
 f1_keywords:
  - "ntddk/WHEA_IPF_MCA_DESCRIPTOR"
+ - "WHEA_IPF_MCA_DESCRIPTOR"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - WHEA_IPF_MCA_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: WHEA_IPF_MCA_DESCRIPTOR, *PWHEA_IPF_MCA_DESCRIPTOR
 ---

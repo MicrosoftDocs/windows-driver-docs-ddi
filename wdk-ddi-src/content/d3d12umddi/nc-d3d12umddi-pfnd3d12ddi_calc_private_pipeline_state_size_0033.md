@@ -29,6 +29,7 @@ tech.root: display
 req.typenames: 
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_CALC_PRIVATE_PIPELINE_STATE_SIZE_0033"
+ - "PFND3D12DDI_CALC_PRIVATE_PIPELINE_STATE_SIZE_0033"
 topic_type:
  - APIRef
  - kbSyntax

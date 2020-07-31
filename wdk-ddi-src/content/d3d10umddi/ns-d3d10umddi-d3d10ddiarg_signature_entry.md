@@ -9,6 +9,7 @@ keywords: ["D3D10DDIARG_SIGNATURE_ENTRY structure"]
 ms.keywords: D3D10DDIARG_SIGNATURE_ENTRY, D3D10DDIARG_SIGNATURE_ENTRY structure [Display Devices], UMDisplayDriver_Dx10param_Structs_8f54c330-f382-4bae-939f-7b96fd9b1a46.xml, d3d10umddi/D3D10DDIARG_SIGNATURE_ENTRY, display.d3d10ddiarg_signature_entry
 f1_keywords:
  - "d3d10umddi/D3D10DDIARG_SIGNATURE_ENTRY"
+ - "D3D10DDIARG_SIGNATURE_ENTRY"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - D3D10DDIARG_SIGNATURE_ENTRY
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D10DDIARG_SIGNATURE_ENTRY

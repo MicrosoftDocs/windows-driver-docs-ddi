@@ -10,6 +10,7 @@ keywords: ["_D3DHAL_DP2VERTEXSHADER structure"]
 ms.keywords: "*LPD3DHAL_DP2VERTEXSHADER, D3DHAL_DP2VERTEXSHADER, D3DHAL_DP2VERTEXSHADER structure [Display Devices], LPD3DHAL_DP2VERTEXSHADER, LPD3DHAL_DP2VERTEXSHADER structure pointer [Display Devices], _D3DHAL_DP2VERTEXSHADER, d3dhal/D3DHAL_DP2VERTEXSHADER, d3dhal/LPD3DHAL_DP2VERTEXSHADER, d3dstrct_84401bfa-f79d-4128-9989-1223284f25b0.xml, display.d3dhal_dp2vertexshader"
 f1_keywords:
  - "d3dhal/D3DHAL_DP2VERTEXSHADER"
+ - "D3DHAL_DP2VERTEXSHADER"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dhal.h
 api_name:
 - D3DHAL_DP2VERTEXSHADER
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DHAL_DP2VERTEXSHADER
 ---

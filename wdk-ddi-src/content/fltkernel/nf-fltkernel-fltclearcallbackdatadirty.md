@@ -10,6 +10,7 @@ keywords: ["FltClearCallbackDataDirty function"]
 ms.keywords: FltApiRef_a_to_d_04cd5e96-3277-4afa-b3cb-07c0f418fe42.xml, FltClearCallbackDataDirty, FltClearCallbackDataDirty routine [Installable File System Drivers], fltkernel/FltClearCallbackDataDirty, ifsk.fltclearcallbackdatadirty
 f1_keywords:
  - "fltkernel/FltClearCallbackDataDirty"
+ - "FltClearCallbackDataDirty"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltClearCallbackDataDirty
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["_DXVADDI_DECODEINPUT structure"]
 ms.keywords: DXVA2_Structs_9b88e486-0ea5-4fc3-bac9-1f7fcc2f5492.xml, DXVADDI_DECODEINPUT, DXVADDI_DECODEINPUT structure [Display Devices], _DXVADDI_DECODEINPUT, d3dumddi/DXVADDI_DECODEINPUT, display.dxvaddi_decodeinput
 f1_keywords:
  - "d3dumddi/DXVADDI_DECODEINPUT"
+ - "DXVADDI_DECODEINPUT"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - DXVADDI_DECODEINPUT
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVADDI_DECODEINPUT
 ---

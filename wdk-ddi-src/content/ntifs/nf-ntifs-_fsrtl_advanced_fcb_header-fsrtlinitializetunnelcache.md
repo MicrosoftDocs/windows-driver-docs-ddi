@@ -10,6 +10,7 @@ keywords: ["FsRtlInitializeTunnelCache function"]
 ms.keywords: FsRtlInitializeTunnelCache, FsRtlInitializeTunnelCache routine [Installable File System Drivers], fsrtlref_33e2bd32-4b53-4edc-8e61-7a0ffbab327a.xml, ifsk.fsrtlinitializetunnelcache, ntifs/FsRtlInitializeTunnelCache
 f1_keywords:
  - "ntifs/FsRtlInitializeTunnelCache"
+ - "FsRtlInitializeTunnelCache"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlInitializeTunnelCache
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IWDFUsbTargetPipe::IsInEndPoint"]
 ms.keywords: IWDFUsbTargetPipe interface,IsInEndPoint method, IWDFUsbTargetPipe.IsInEndPoint, IWDFUsbTargetPipe::IsInEndPoint, IsInEndPoint, IsInEndPoint method, IsInEndPoint method,IWDFUsbTargetPipe interface, UMDFUSBref_07580c26-1173-4624-9199-c8dc8ef59edf.xml, umdf.iwdfusbtargetpipe_isinendpoint, wdf.iwdfusbtargetpipe_isinendpoint, wudfusb/IWDFUsbTargetPipe::IsInEndPoint
 f1_keywords:
  - "wudfusb/IWDFUsbTargetPipe.IsInEndPoint"
+ - "IWDFUsbTargetPipe.IsInEndPoint"
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFUsbTargetPipe.IsInEndPoint
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

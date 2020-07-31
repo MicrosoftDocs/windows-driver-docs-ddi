@@ -10,6 +10,7 @@ keywords: ["EVT_WDFDEVICE_WDM_POST_PO_FX_REGISTER_DEVICE callback function"]
 ms.keywords: EVT_WDFDEVICE_WDM_POST_PO_FX_REGISTER_DEVICE, EVT_WDFDEVICE_WDM_POST_PO_FX_REGISTER_DEVICE callback, EvtDeviceWdmPostPoFxRegisterDevice, EvtDeviceWdmPostPoFxRegisterDevice callback function, kmdf.evtdevicewdmpostpofxregisterdevice, wdf.evtdevicewdmpostpofxregisterdevice, wdfdevice/EvtDeviceWdmPostPoFxRegisterDevice
 f1_keywords:
  - "wdfdevice/EvtDeviceWdmPostPoFxRegisterDevice"
+ - "EvtDeviceWdmPostPoFxRegisterDevice"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Wdfdevice.h
 api_name:
 - EvtDeviceWdmPostPoFxRegisterDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

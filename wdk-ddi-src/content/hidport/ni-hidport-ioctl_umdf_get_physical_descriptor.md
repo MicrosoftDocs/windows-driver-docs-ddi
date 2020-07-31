@@ -10,6 +10,7 @@ keywords: ["IOCTL_UMDF_GET_PHYSICAL_DESCRIPTOR IOCTL"]
 ms.keywords: IOCTL_UMDF_GET_PHYSICAL_DESCRIPTOR, IOCTL_UMDF_GET_PHYSICAL_DESCRIPTOR control, IOCTL_UMDF_GET_PHYSICAL_DESCRIPTOR control code, hid.ioctl_umdf_get_physical_descriptor, hidport/IOCTL_UMDF_GET_PHYSICAL_DESCRIPTOR, umdf.ioctl_umdf_get_physical_descriptor
 f1_keywords:
  - "hidport/IOCTL_UMDF_GET_PHYSICAL_DESCRIPTOR"
+ - "IOCTL_UMDF_GET_PHYSICAL_DESCRIPTOR"
 req.header: hidport.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Hidport.h
 api_name:
 - IOCTL_UMDF_GET_PHYSICAL_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

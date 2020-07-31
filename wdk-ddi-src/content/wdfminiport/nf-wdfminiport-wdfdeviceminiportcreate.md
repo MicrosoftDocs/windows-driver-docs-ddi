@@ -10,6 +10,7 @@ keywords: ["WdfDeviceMiniportCreate function"]
 ms.keywords: DFDeviceObjectGeneralRef_18104589-c58d-4e8b-af91-c6620b3772e9.xml, WdfDeviceMiniportCreate, WdfDeviceMiniportCreate method, kmdf.wdfdeviceminiportcreate, wdf.wdfdeviceminiportcreate, wdfminiport/WdfDeviceMiniportCreate
 f1_keywords:
  - "wdfminiport/WdfDeviceMiniportCreate"
+ - "WdfDeviceMiniportCreate"
 req.header: wdfminiport.h
 req.include-header: Wdfminiport.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfDeviceMiniportCreate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

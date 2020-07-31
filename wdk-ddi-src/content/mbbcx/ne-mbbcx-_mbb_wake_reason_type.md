@@ -10,6 +10,7 @@ ms.date: 11/07/2019
 keywords: ["MBB_WAKE_REASON_TYPE enumeration"]
 f1_keywords:
  - "mbbcx/MBB_WAKE_REASON_TYPE"
+ - "MBB_WAKE_REASON_TYPE"
 ms.keywords: MBB_WAKE_REASON_TYPE, MBB_WAKE_REASON_TYPE, 
 req.header: mbbcx.h
 req.include-header:

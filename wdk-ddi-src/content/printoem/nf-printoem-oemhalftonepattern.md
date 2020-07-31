@@ -10,6 +10,7 @@ keywords: ["OEMHalftonePattern function"]
 ms.keywords: OEMHalftonePattern, OEMHalftonePattern function [Print Devices], print.oemhalftonepattern, print_obsoletefunctions_5b15743c-f7ce-4107-a263-5cf28ead726d.xml, printoem/OEMHalftonePattern
 f1_keywords:
  - "printoem/OEMHalftonePattern"
+ - "OEMHalftonePattern"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - printoem.h
 api_name:
 - OEMHalftonePattern
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["WdfCollectionGetItem function"]
 ms.keywords: DFCollectionObjectRef_8476d0ef-d5e3-4dbc-95de-bbabd04c22bc.xml, WdfCollectionGetItem, WdfCollectionGetItem method, kmdf.wdfcollectiongetitem, wdf.wdfcollectiongetitem, wdfcollection/WdfCollectionGetItem
 f1_keywords:
  - "wdfcollection/WdfCollectionGetItem"
+ - "WdfCollectionGetItem"
 req.header: wdfcollection.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfCollectionGetItem
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

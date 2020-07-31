@@ -10,6 +10,7 @@ keywords: ["WdfDeviceInitFree function"]
 ms.keywords: DFDeviceObjectGeneralRef_c2bdf168-0e3f-40c9-9e88-77faf7241bcb.xml, WdfDeviceInitFree, WdfDeviceInitFree method, kmdf.wdfdeviceinitfree, wdf.wdfdeviceinitfree, wdfdevice/WdfDeviceInitFree
 f1_keywords:
  - "wdfdevice/WdfDeviceInitFree"
+ - "WdfDeviceInitFree"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfDeviceInitFree
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

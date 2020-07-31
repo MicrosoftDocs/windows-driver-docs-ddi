@@ -10,6 +10,7 @@ keywords: ["tagWPD_BITRATE_TYPES enumeration"]
 ms.keywords: WPD_BITRATE_TYPES, WPD_BITRATE_TYPES enumeration, WPD_BITRATE_TYPE_DISCRETE, WPD_BITRATE_TYPE_FREE, WPD_BITRATE_TYPE_UNUSED, WPD_BITRATE_TYPE_VARIABLE, enumeration, portabledevice/WPD_BITRATE_TYPES, portabledevice/WPD_BITRATE_TYPE_DISCRETE, portabledevice/WPD_BITRATE_TYPE_FREE, portabledevice/WPD_BITRATE_TYPE_UNUSED, portabledevice/WPD_BITRATE_TYPE_VARIABLE, tagWPD_BITRATE_TYPES, wpddk.wpd_bitrate_types
 f1_keywords:
  - "portabledevice/WPD_BITRATE_TYPES"
+ - "WPD_BITRATE_TYPES"
 req.header: portabledevice.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - PortableDevice.h
 api_name:
 - WPD_BITRATE_TYPES
-product:
-- Windows
 targetos: Windows
 req.typenames: WPD_BITRATE_TYPES
 ms.custom: RS5

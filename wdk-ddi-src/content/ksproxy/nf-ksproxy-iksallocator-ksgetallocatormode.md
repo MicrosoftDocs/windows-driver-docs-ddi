@@ -10,6 +10,7 @@ keywords: ["IKsAllocator::KsGetAllocatorMode"]
 ms.keywords: IKsAllocator interface [Streaming Media Devices],KsGetAllocatorMode method, IKsAllocator.KsGetAllocatorMode, IKsAllocator::KsGetAllocatorMode, KsGetAllocatorMode, KsGetAllocatorMode method [Streaming Media Devices], KsGetAllocatorMode method [Streaming Media Devices],IKsAllocator interface, ksproxy/IKsAllocator::KsGetAllocatorMode, stream.iksallocator_ksgetallocatormode
 f1_keywords:
  - "ksproxy/IKsAllocator.KsGetAllocatorMode"
+ - "IKsAllocator.KsGetAllocatorMode"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ksproxy.h
 api_name:
 - IKsAllocator.KsGetAllocatorMode
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

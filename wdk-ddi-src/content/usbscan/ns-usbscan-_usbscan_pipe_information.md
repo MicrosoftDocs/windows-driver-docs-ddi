@@ -10,6 +10,7 @@ keywords: ["_USBSCAN_PIPE_INFORMATION structure"]
 ms.keywords: "*PUSBSCAN_PIPE_INFORMATION, PUSBSCAN_PIPE_INFORMATION, PUSBSCAN_PIPE_INFORMATION structure pointer [Imaging Devices], USBSCAN_PIPE_INFORMATION, USBSCAN_PIPE_INFORMATION structure [Imaging Devices], _USBSCAN_PIPE_INFORMATION, image.usbscan_pipe_information, stifnc_3a31b5a2-4bd9-4e95-b10d-959c6caa8754.xml, usbscan/PUSBSCAN_PIPE_INFORMATION, usbscan/USBSCAN_PIPE_INFORMATION"
 f1_keywords:
  - "usbscan/USBSCAN_PIPE_INFORMATION"
+ - "USBSCAN_PIPE_INFORMATION"
 req.header: usbscan.h
 req.include-header: Usbscan.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - usbscan.h
 api_name:
 - USBSCAN_PIPE_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: USBSCAN_PIPE_INFORMATION, *PUSBSCAN_PIPE_INFORMATION
 ---

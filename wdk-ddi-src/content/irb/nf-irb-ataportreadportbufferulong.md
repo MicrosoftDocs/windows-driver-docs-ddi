@@ -10,6 +10,7 @@ keywords: ["AtaPortReadPortBufferUlong function"]
 ms.keywords: AtaPortReadPortBufferUlong, AtaPortReadPortBufferUlong routine [Storage Devices], atartns_e2f251c9-d2a0-4b33-91d8-2d700eb4253e.xml, irb/AtaPortReadPortBufferUlong, storage.ataportreadportbufferulong
 f1_keywords:
  - "irb/AtaPortReadPortBufferUlong"
+ - "AtaPortReadPortBufferUlong"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
@@ -39,8 +40,6 @@ api_location:
 - pciidex.dll
 api_name:
 - AtaPortReadPortBufferUlong
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

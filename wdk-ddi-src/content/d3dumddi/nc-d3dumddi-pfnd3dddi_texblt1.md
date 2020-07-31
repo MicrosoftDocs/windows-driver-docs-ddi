@@ -29,6 +29,7 @@ targetos: Windows
 req.typenames: 
 f1_keywords:
  - "d3dumddi/TexBlt1"
+ - "TexBlt1"
 topic_type:
  - APIRef
  - kbSyntax

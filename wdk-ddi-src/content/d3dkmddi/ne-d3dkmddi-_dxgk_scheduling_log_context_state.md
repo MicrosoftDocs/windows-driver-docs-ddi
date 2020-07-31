@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_DXGK_SCHEDULING_LOG_CONTEXT_STATE enumeration"]
 f1_keywords:
  - "d3dkmddi/_DXGK_SCHEDULING_LOG_CONTEXT_STATE"
+ - "_DXGK_SCHEDULING_LOG_CONTEXT_STATE"
 ms.keywords: _DXGK_SCHEDULING_LOG_CONTEXT_STATE, DXGK_SCHEDULING_LOG_CONTEXT_STATE,
 req.header: d3dkmddi.h
 req.include-header:
@@ -26,8 +27,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - _DXGK_SCHEDULING_LOG_CONTEXT_STATE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 dev_langs:

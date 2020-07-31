@@ -10,6 +10,7 @@ keywords: ["WDF_COMMON_BUFFER_CONFIG_INIT function"]
 ms.keywords: DFCommonBufferObjectRef_23c5b41e-89ce-448c-86fa-3ae4e688b378.xml, WDF_COMMON_BUFFER_CONFIG_INIT, WDF_COMMON_BUFFER_CONFIG_INIT function, kmdf.wdf_common_buffer_config_init, wdf.wdf_common_buffer_config_init, wdfcommonbuffer/WDF_COMMON_BUFFER_CONFIG_INIT
 f1_keywords:
  - "wdfcommonbuffer/WDF_COMMON_BUFFER_CONFIG_INIT"
+ - "WDF_COMMON_BUFFER_CONFIG_INIT"
 req.header: wdfcommonbuffer.h
 req.include-header: WdfCommonBuffer.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - wdfcommonbuffer.h
 api_name:
 - WDF_COMMON_BUFFER_CONFIG_INIT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

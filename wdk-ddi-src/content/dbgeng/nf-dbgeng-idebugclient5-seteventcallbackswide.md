@@ -10,6 +10,7 @@ keywords: ["IDebugClient5::SetEventCallbacksWide"]
 ms.keywords: IDebugClient5 interface [Windows Debugging],SetEventCallbacksWide method, IDebugClient5.SetEventCallbacksWide, IDebugClient5::SetEventCallbacksWide, SetEventCallbacksWide, SetEventCallbacksWide method [Windows Debugging], SetEventCallbacksWide method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient5::SetEventCallbacksWide, debugger.seteventcallbackswide
 f1_keywords:
  - "dbgeng/IDebugClient5.SetEventCallbacksWide"
+ - "IDebugClient5.SetEventCallbacksWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugClient5.SetEventCallbacksWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

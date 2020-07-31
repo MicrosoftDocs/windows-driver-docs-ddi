@@ -10,6 +10,7 @@ keywords: ["ExtRemoteTyped::OutTypeName"]
 ms.keywords: EngExtCpp_Ref_1dd0e308-16ca-4b91-8ad6-7c2d4c7d8da8.xml, ExtRemoteTyped interface [Windows Debugging],OutTypeName method, ExtRemoteTyped.OutTypeName, ExtRemoteTyped::OutTypeName, OutTypeName, OutTypeName method [Windows Debugging], OutTypeName method [Windows Debugging],ExtRemoteTyped interface, debugger.extremotetyped_outtypename
 f1_keywords:
  - "engextcpp/ExtRemoteTyped.OutTypeName"
+ - "ExtRemoteTyped.OutTypeName"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - engextcpp.hpp
 api_name:
 - ExtRemoteTyped.OutTypeName
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

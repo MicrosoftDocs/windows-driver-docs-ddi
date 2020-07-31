@@ -10,6 +10,7 @@ keywords: ["RILSETCALLWAITINGSTATUSPARAMS structure"]
 ms.keywords: "*LPRILSETCALLWAITINGSTATUSPARAMS, RILSETCALLWAITINGSTATUSPARAMS, RILSETCALLWAITINGSTATUSPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetcallwaitingstatusparams, ntddrilapitypes/RILSETCALLWAITINGSTATUSPARAMS"
 f1_keywords:
  - "ntddrilapitypes/RILSETCALLWAITINGSTATUSPARAMS"
+ - "RILSETCALLWAITINGSTATUSPARAMS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILSETCALLWAITINGSTATUSPARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: RILSETCALLWAITINGSTATUSPARAMS, *LPRILSETCALLWAITINGSTATUSPARAMS
 ---

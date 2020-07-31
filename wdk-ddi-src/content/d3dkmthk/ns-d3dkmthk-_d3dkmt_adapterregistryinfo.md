@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_ADAPTERREGISTRYINFO structure"]
 ms.keywords: D3DKMT_ADAPTERREGISTRYINFO, D3DKMT_ADAPTERREGISTRYINFO structure [Display Devices], OpenGL_Structs_0d97d602-7fc3-40a2-aa06-2966a6fc04f7.xml, _D3DKMT_ADAPTERREGISTRYINFO, d3dkmthk/D3DKMT_ADAPTERREGISTRYINFO, display.d3dkmt_adapterregistryinfo
 f1_keywords:
  - "d3dkmthk/D3DKMT_ADAPTERREGISTRYINFO"
+ - "D3DKMT_ADAPTERREGISTRYINFO"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMT_ADAPTERREGISTRYINFO
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_ADAPTERREGISTRYINFO

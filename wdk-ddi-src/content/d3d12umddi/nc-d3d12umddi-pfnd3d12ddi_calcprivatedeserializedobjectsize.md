@@ -28,6 +28,7 @@ req.type-library:
 targetos: Windows
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_CALCPRIVATEDESERIALIZEDOBJECTSIZE"
+ - "PFND3D12DDI_CALCPRIVATEDESERIALIZEDOBJECTSIZE"
 topic_type:
  - apiref
 api_type:

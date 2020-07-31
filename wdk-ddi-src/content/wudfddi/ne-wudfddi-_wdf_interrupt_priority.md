@@ -10,6 +10,7 @@ keywords: ["_WDF_INTERRUPT_PRIORITY enumeration"]
 ms.keywords: "*PWDF_INTERRUPT_PRIORITY, DFInterruptObjectRef_924e187c-58f4-4616-a505-6d1c03779f02.xml, PWDF_INTERRUPT_PRIORITY, PWDF_INTERRUPT_PRIORITY enumeration pointer, WDF_INTERRUPT_PRIORITY, WDF_INTERRUPT_PRIORITY enumeration, WdfIrqPriorityHigh, WdfIrqPriorityLow, WdfIrqPriorityNormal, WdfIrqPriorityUndefined, _WDF_INTERRUPT_PRIORITY, kmdf.wdf_interrupt_priority, wdf.wdf_interrupt_priority, wdfinterrupt/PWDF_INTERRUPT_PRIORITY, wdfinterrupt/WDF_INTERRUPT_PRIORITY, wdfinterrupt/WdfIrqPriorityHigh, wdfinterrupt/WdfIrqPriorityLow, wdfinterrupt/WdfIrqPriorityNormal, wdfinterrupt/WdfIrqPriorityUndefined"
 f1_keywords:
  - "wudfddi/WDF_INTERRUPT_PRIORITY"
+ - "WDF_INTERRUPT_PRIORITY"
 req.header: wudfddi.h
 req.include-header: Wdf.h, Wudfddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wdfinterrupt.h
 api_name:
 - WDF_INTERRUPT_PRIORITY
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_INTERRUPT_PRIORITY, *PWDF_INTERRUPT_PRIORITY
 ---

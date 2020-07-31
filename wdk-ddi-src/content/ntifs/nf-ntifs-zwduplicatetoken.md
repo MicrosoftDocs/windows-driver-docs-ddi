@@ -10,6 +10,7 @@ keywords: ["ZwDuplicateToken function"]
 ms.keywords: NtDuplicateToken, ZwDuplicateToken, ZwDuplicateToken function [Kernel-Mode Driver Architecture], k111_5c46bc83-ec51-45f5-a3fc-e199f91d58ce.xml, kernel.zwduplicatetoken, ntifs/NtDuplicateToken, ntifs/ZwDuplicateToken
 f1_keywords:
  - "ntifs/ZwDuplicateToken"
+ - "ZwDuplicateToken"
 req.header: ntifs.h
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - ZwDuplicateToken
 - NtDuplicateToken
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

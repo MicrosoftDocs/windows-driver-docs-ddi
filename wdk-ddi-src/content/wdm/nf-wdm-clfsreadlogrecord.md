@@ -10,6 +10,7 @@ keywords: ["ClfsReadLogRecord function"]
 ms.keywords: ClfsReadLogRecord, ClfsReadLogRecord routine [Kernel-Mode Driver Architecture], Clfs_e829153c-541e-463a-9ff3-85200929e3d2.xml, kernel.clfsreadlogrecord, wdm/ClfsReadLogRecord
 f1_keywords:
  - "wdm/ClfsReadLogRecord"
+ - "ClfsReadLogRecord"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
 - ClfsReadLogRecord
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

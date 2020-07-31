@@ -10,6 +10,7 @@ keywords: ["KSEVENT_CAMERAEVENT enumeration"]
 ms.keywords: KSEVENT_CAMERAEVENT, KSEVENT_CAMERAEVENT enumeration [Streaming Media Devices], KSEVENT_PHOTO_SAMPLE_SCANNED, ksmedia/KSEVENT_CAMERAEVENT, ksmedia/KSEVENT_PHOTO_SAMPLE_SCANNED, stream.ksevent_cameraevent
 f1_keywords:
  - "ksmedia/KSEVENT_CAMERAEVENT"
+ - "KSEVENT_CAMERAEVENT"
 req.header: ksmedia.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KSEVENT_CAMERAEVENT
-product:
-- Windows
 targetos: Windows
 req.typenames: KSEVENT_CAMERAEVENT
 ---

@@ -10,6 +10,7 @@ keywords: ["IOCTL_DISK_SET_CACHE_INFORMATION IOCTL"]
 ms.keywords: IOCTL_DISK_SET_CACHE_INFORMATION, IOCTL_DISK_SET_CACHE_INFORMATION control, IOCTL_DISK_SET_CACHE_INFORMATION control code [Storage Devices], k307_4f1b855c-4788-48e9-bc26-7addf3c7e3a9.xml, ntdddisk/IOCTL_DISK_SET_CACHE_INFORMATION, storage.ioctl_disk_set_cache_information
 f1_keywords:
  - "ntdddisk/IOCTL_DISK_SET_CACHE_INFORMATION"
+ - "IOCTL_DISK_SET_CACHE_INFORMATION"
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntdddisk.h
 api_name:
 - IOCTL_DISK_SET_CACHE_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

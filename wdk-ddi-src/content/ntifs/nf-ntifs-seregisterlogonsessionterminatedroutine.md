@@ -10,6 +10,7 @@ keywords: ["SeRegisterLogonSessionTerminatedRoutine function"]
 ms.keywords: SeRegisterLogonSessionTerminatedRoutine, SeRegisterLogonSessionTerminatedRoutine routine [Installable File System Drivers], ifsk.seregisterlogonsessionterminatedroutine, ntifs/SeRegisterLogonSessionTerminatedRoutine, seref_7188551f-9c46-472f-8976-67ee53b994c5.xml
 f1_keywords:
  - "ntifs/SeRegisterLogonSessionTerminatedRoutine"
+ - "SeRegisterLogonSessionTerminatedRoutine"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - SeRegisterLogonSessionTerminatedRoutine
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

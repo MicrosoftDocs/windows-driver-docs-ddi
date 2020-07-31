@@ -10,6 +10,7 @@ keywords: ["tagSHIMOPTS enumeration"]
 ms.keywords: "*PSHIMOPTS, PSHIMOPTS, PSHIMOPTS enumeration pointer [Print Devices], PTSHIM_DEFAULT, PTSHIM_NOSNAPSHOT, SHIMOPTS, SHIMOPTS enumeration [Print Devices], prdrvcom/PSHIMOPTS, prdrvcom/PTSHIM_DEFAULT, prdrvcom/PTSHIM_NOSNAPSHOT, prdrvcom/SHIMOPTS, print.shimopts, tagSHIMOPTS"
 f1_keywords:
  - "prdrvcom/SHIMOPTS"
+ - "SHIMOPTS"
 req.header: prdrvcom.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Prdrvcom.h
 api_name:
 - SHIMOPTS
-product:
-- Windows
 targetos: Windows
 req.typenames: SHIMOPTS, *PSHIMOPTS
 ---

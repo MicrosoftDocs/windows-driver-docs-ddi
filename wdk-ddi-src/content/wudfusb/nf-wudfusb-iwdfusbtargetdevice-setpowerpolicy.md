@@ -10,6 +10,7 @@ keywords: ["IWDFUsbTargetDevice::SetPowerPolicy"]
 ms.keywords: IWDFUsbTargetDevice interface,SetPowerPolicy method, IWDFUsbTargetDevice.SetPowerPolicy, IWDFUsbTargetDevice::SetPowerPolicy, SetPowerPolicy, SetPowerPolicy method, SetPowerPolicy method,IWDFUsbTargetDevice interface, UMDFUSBref_fb6e31cc-0db6-4733-baea-d73514fb5160.xml, umdf.iwdfusbtargetdevice_setpowerpolicy, wdf.iwdfusbtargetdevice_setpowerpolicy, wudfusb/IWDFUsbTargetDevice::SetPowerPolicy
 f1_keywords:
  - "wudfusb/IWDFUsbTargetDevice.SetPowerPolicy"
+ - "IWDFUsbTargetDevice.SetPowerPolicy"
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFUsbTargetDevice.SetPowerPolicy
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

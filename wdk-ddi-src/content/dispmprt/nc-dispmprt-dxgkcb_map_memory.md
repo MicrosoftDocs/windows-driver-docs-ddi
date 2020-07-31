@@ -10,6 +10,7 @@ keywords: ["DXGKCB_MAP_MEMORY callback function"]
 ms.keywords: DXGKCB_MAP_MEMORY, DXGKCB_MAP_MEMORY callback, DpFunctions_51d99a74-2fae-40b7-9e04-8afe0fc38805.xml, DxgkCbMapMemory, DxgkCbMapMemory callback function [Display Devices], display.dxgkcbmapmemory, dispmprt/DxgkCbMapMemory
 f1_keywords:
  - "dispmprt/DxgkCbMapMemory"
+ - "DxgkCbMapMemory"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dispmprt.h
 api_name:
 - DxgkCbMapMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

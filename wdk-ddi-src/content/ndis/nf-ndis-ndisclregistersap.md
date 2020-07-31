@@ -10,6 +10,7 @@ keywords: ["NdisClRegisterSap function"]
 ms.keywords: NdisClRegisterSap, NdisClRegisterSap function [Network Drivers Starting with Windows Vista], condis_client_ref_ee22bc25-7935-458f-8016-6537d9803acb.xml, ndis/NdisClRegisterSap, netvista.ndisclregistersap
 f1_keywords:
  - "ndis/NdisClRegisterSap"
+ - "NdisClRegisterSap"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisClRegisterSap
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

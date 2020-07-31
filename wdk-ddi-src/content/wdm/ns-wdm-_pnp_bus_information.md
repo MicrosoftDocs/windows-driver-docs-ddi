@@ -10,6 +10,7 @@ keywords: ["_PNP_BUS_INFORMATION structure"]
 ms.keywords: "*PPNP_BUS_INFORMATION, PNP_BUS_INFORMATION, PNP_BUS_INFORMATION structure [Kernel-Mode Driver Architecture], PPNP_BUS_INFORMATION, PPNP_BUS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _PNP_BUS_INFORMATION, kernel.pnp_bus_information, kstruct_c_a62e40f6-081a-4d2e-859b-28c98c2216f3.xml, wdm/PNP_BUS_INFORMATION, wdm/PPNP_BUS_INFORMATION"
 f1_keywords:
  - "wdm/PNP_BUS_INFORMATION"
+ - "PNP_BUS_INFORMATION"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wdm.h
 api_name:
 - PNP_BUS_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: PNP_BUS_INFORMATION, *PPNP_BUS_INFORMATION
 ---

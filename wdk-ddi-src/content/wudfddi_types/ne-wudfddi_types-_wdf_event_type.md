@@ -10,6 +10,7 @@ keywords: ["_WDF_EVENT_TYPE enumeration"]
 ms.keywords: WDF_EVENT_TYPE, WDF_EVENT_TYPE enumeration, WdfEventBroadcast, WdfEventMaximum, WdfEventReserved, _WDF_EVENT_TYPE, wdf.wdf_event_type, wdfdevice/WDF_EVENT_TYPE, wdfdevice/WdfEventBroadcast, wdfdevice/WdfEventMaximum, wdfdevice/WdfEventReserved, wudfddi_types/WDF_EVENT_TYPE, wudfddi_types/WdfEventBroadcast, wudfddi_types/WdfEventMaximum, wudfddi_types/WdfEventReserved
 f1_keywords:
  - "wudfddi_types/WDF_EVENT_TYPE"
+ - "WDF_EVENT_TYPE"
 req.header: wudfddi_types.h
 req.include-header: Wdf.h
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 - wudfddi_types.h
 api_name:
 - WDF_EVENT_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_EVENT_TYPE
 ---

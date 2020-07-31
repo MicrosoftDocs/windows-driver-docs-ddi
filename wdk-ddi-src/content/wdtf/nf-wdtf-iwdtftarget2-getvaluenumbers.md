@@ -10,6 +10,7 @@ keywords: ["IWDTFTarget2::GetValueNumbers"]
 ms.keywords: GetValueNumbers, GetValueNumbers method [Windows Device Testing Framework], GetValueNumbers method [Windows Device Testing Framework],IWDTFTarget2 interface, IWDTFTarget2 interface [Windows Device Testing Framework],GetValueNumbers method, IWDTFTarget2.GetValueNumbers, IWDTFTarget2::GetValueNumbers, Microsoft.WDTF.IWDTFTarget2.GetValueNumbers, Microsoft::WDTF::IWDTFTarget2::GetValueNumbers, dtf.iwdtftarget2_getvaluenumbers, wdtf/IWDTFTarget2::GetValueNumbers
 f1_keywords:
  - "wdtf/IWDTFTarget2.GetValueNumbers"
+ - "IWDTFTarget2.GetValueNumbers"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WDTF.Interop.metadata_dll.dll
 api_name:
 - IWDTFTarget2.GetValueNumbers
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

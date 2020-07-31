@@ -10,6 +10,7 @@ keywords: ["IPortableDeviceValues::SetIUnknownValue"]
 ms.keywords: IPortableDeviceValues interface,SetIUnknownValue method, IPortableDeviceValues.SetIUnknownValue, IPortableDeviceValues::SetIUnknownValue, IPortableDeviceValuesSetIUnknownValue, SetIUnknownValue, SetIUnknownValue method, SetIUnknownValue method,IPortableDeviceValues interface, portabledevicetypes/IPortableDeviceValues::SetIUnknownValue, wpddk.iportabledevicevalues_setiunknownvalue
 f1_keywords:
  - "portabledevicetypes/IPortableDeviceValues.SetIUnknownValue"
+ - "IPortableDeviceValues.SetIUnknownValue"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - PortableDeviceTypes.h
 api_name:
 - IPortableDeviceValues.SetIUnknownValue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

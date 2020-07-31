@@ -10,6 +10,7 @@ keywords: ["_INSTANCE_AGGREGATE_STANDARD_INFORMATION structure"]
 ms.keywords: "*PINSTANCE_AGGREGATE_STANDARD_INFORMATION, FltSystemStructures_b1c8bf6f-d693-4f15-ad58-9e31d593464b.xml, INSTANCE_AGGREGATE_STANDARD_INFORMATION, INSTANCE_AGGREGATE_STANDARD_INFORMATION structure [Installable File System Drivers], PINSTANCE_AGGREGATE_STANDARD_INFORMATION, PINSTANCE_AGGREGATE_STANDARD_INFORMATION structure pointer [Installable File System Drivers], SUPPORTED_FS_FEATURES_OFFLOAD_READ, SUPPORTED_FS_FEATURES_OFFLOAD_WRITE, _INSTANCE_AGGREGATE_STANDARD_INFORMATION, fltuserstructures/INSTANCE_AGGREGATE_STANDARD_INFORMATION, fltuserstructures/PINSTANCE_AGGREGATE_STANDARD_INFORMATION, ifsk.instance_aggregate_standard_information"
 f1_keywords:
  - "fltuserstructures/INSTANCE_AGGREGATE_STANDARD_INFORMATION"
+ - "INSTANCE_AGGREGATE_STANDARD_INFORMATION"
 req.header: fltuserstructures.h
 req.include-header: FltUser.h, FltKernel.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - fltuserstructures.h
 api_name:
 - INSTANCE_AGGREGATE_STANDARD_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: INSTANCE_AGGREGATE_STANDARD_INFORMATION, *PINSTANCE_AGGREGATE_STANDARD_INFORMATION
 ---
@@ -180,11 +179,11 @@ The supported features are a bitwise OR combination of the following flags.
 
 A structure of type INSTANCE_AGGREGATE_STANDARD_INFORMATION can be allocated from paged or nonpaged pool.  This structure is passed as a parameter to routines such as the following:
 
-- [FilterInstanceFindFirst](https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterinstancefindfirst)
-- [FilterInstanceFindNext](https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterinstancefindnext)
-- [FilterInstanceGetInformation](https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterinstancegetinformation)
-- [FilterVolumeInstanceFindFirst](https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtervolumeinstancefindfirst)
-- [FilterVolumeInstanceFindNext](https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtervolumeinstancefindnext)
+- [FilterInstanceFindFirst](https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filterinstancefindfirst)
+- [FilterInstanceFindNext](https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filterinstancefindnext)
+- [FilterInstanceGetInformation](https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filterinstancegetinformation)
+- [FilterVolumeInstanceFindFirst](https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filtervolumeinstancefindfirst)
+- [FilterVolumeInstanceFindNext](https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filtervolumeinstancefindnext)
 - [FltEnumerateInstanceInformationByFilter](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenumerateinstanceinformationbyfilter)
 - [FltEnumerateInstanceInformationByVolume](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenumerateinstanceinformationbyvolume)
 - [FltGetInstanceInformation](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetinstanceinformation)
@@ -193,15 +192,15 @@ The INSTANCE_AGGREGATE_STANDARD_INFORMATION structure must be aligned on a LONGL
 
 ## -see-also
 
-[FilterInstanceFindFirst](https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterinstancefindfirst)
+[FilterInstanceFindFirst](https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filterinstancefindfirst)
 
-[FilterInstanceFindNext](https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterinstancefindnext)
+[FilterInstanceFindNext](https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filterinstancefindnext)
 
-[FilterInstanceGetInformation](https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterinstancegetinformation)
+[FilterInstanceGetInformation](https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filterinstancegetinformation)
 
-[FilterVolumeInstanceFindFirst](https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtervolumeinstancefindfirst)
+[FilterVolumeInstanceFindFirst](https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filtervolumeinstancefindfirst)
 
-[FilterVolumeInstanceFindNext](https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtervolumeinstancefindnext)
+[FilterVolumeInstanceFindNext](https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filtervolumeinstancefindnext)
 
 [FltEnumerateInstanceInformationByFilter](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenumerateinstanceinformationbyfilter)
 

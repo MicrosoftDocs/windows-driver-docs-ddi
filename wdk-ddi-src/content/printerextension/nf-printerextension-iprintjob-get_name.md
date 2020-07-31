@@ -10,6 +10,7 @@ keywords: ["IPrintJob::get_Name"]
 ms.keywords: IPrintJob interface [Print Devices],Name property, IPrintJob.Name, IPrintJob.get_Name, IPrintJob::Name, IPrintJob::get_Name, Name property [Print Devices], Name property [Print Devices],IPrintJob interface, get_Name, print.iprintjob_name, printerextension/IPrintJob::Name, printerextension/IPrintJob::get_Name
 f1_keywords:
  - "printerextension/IPrintJob.Name"
+ - "IPrintJob.Name"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IPrintJob.Name
 - IPrintJob.get_Name
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

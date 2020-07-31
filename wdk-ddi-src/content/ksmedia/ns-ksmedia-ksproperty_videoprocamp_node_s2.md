@@ -10,6 +10,7 @@ keywords: ["KSPROPERTY_VIDEOPROCAMP_NODE_S2 structure"]
 ms.keywords: "*PKSPROPERTY_VIDEOPROCAMP_NODE_S2, KSPROPERTY_VIDEOPROCAMP_NODE_S2, KSPROPERTY_VIDEOPROCAMP_NODE_S2 structure [Streaming Media Devices], PKSPROPERTY_VIDEOPROCAMP_NODE_S2, PKSPROPERTY_VIDEOPROCAMP_NODE_S2 structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_VIDEOPROCAMP_NODE_S2, ksmedia/PKSPROPERTY_VIDEOPROCAMP_NODE_S2, stream.ksproperty_videoprocamp_node_s2, vidcapstruct_1876d4f4-15ae-4bcb-9f57-ed08ddf15411.xml"
 f1_keywords:
  - "ksmedia/KSPROPERTY_VIDEOPROCAMP_NODE_S2"
+ - "KSPROPERTY_VIDEOPROCAMP_NODE_S2"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ksmedia.h
 api_name:
 - KSPROPERTY_VIDEOPROCAMP_NODE_S2
-product:
-- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_VIDEOPROCAMP_NODE_S2, *PKSPROPERTY_VIDEOPROCAMP_NODE_S2
 ---

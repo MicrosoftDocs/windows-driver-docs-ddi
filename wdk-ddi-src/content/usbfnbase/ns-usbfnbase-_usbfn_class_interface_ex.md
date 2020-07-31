@@ -10,6 +10,7 @@ keywords: ["_USBFN_CLASS_INTERFACE_EX structure"]
 ms.keywords: "*PUSBFN_CLASS_INTERFACE_EX, PUSBFN_CLASS_INTERFACE_EX, PUSBFN_CLASS_INTERFACE_EX structure pointer [Buses], USBFN_CLASS_INTERFACE_EX, USBFN_CLASS_INTERFACE_EX structure [Buses], _USBFN_CLASS_INTERFACE_EX, buses.usbfn_class_interface_ex, usbfnbase/PUSBFN_CLASS_INTERFACE_EX, usbfnbase/USBFN_CLASS_INTERFACE_EX"
 f1_keywords:
  - "usbfnbase/USBFN_CLASS_INTERFACE_EX"
+ - "USBFN_CLASS_INTERFACE_EX"
 req.header: usbfnbase.h
 req.include-header:
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - usbfnbase.h
 api_name:
 - USBFN_CLASS_INTERFACE_EX
-product:
-- Windows
 targetos: Windows
 req.typenames: USBFN_CLASS_INTERFACE_EX, *PUSBFN_CLASS_INTERFACE_EX
 ---

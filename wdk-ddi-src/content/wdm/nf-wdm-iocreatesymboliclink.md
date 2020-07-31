@@ -10,6 +10,7 @@ keywords: ["IoCreateSymbolicLink function"]
 ms.keywords: IoCreateSymbolicLink, IoCreateSymbolicLink routine [Kernel-Mode Driver Architecture], k104_8311eaf7-a12f-470d-b81f-83a12697ddbe.xml, kernel.iocreatesymboliclink, wdm/IoCreateSymbolicLink
 f1_keywords:
  - "wdm/IoCreateSymbolicLink"
+ - "IoCreateSymbolicLink"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoCreateSymbolicLink
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

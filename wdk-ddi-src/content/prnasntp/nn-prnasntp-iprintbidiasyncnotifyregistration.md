@@ -10,6 +10,7 @@ keywords: ["IPrintBidiAsyncNotifyRegistration interface"]
 ms.keywords: IPrintBidiAsyncNotifyRegistration, IPrintBidiAsyncNotifyRegistration interface [Print Devices], IPrintBidiAsyncNotifyRegistration interface [Print Devices],described, print.iprintbidiasyncnotifyregistration, prnasntp/IPrintBidiAsyncNotifyRegistration
 f1_keywords:
  - "prnasntp/IPrintBidiAsyncNotifyRegistration"
+ - "IPrintBidiAsyncNotifyRegistration"
 req.header: prnasntp.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Prnasntp.h
 api_name:
 - IPrintBidiAsyncNotifyRegistration
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,7 +52,7 @@ req.typenames:
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintBidiAsyncNotifyRegistration</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintBidiAsyncNotifyRegistration</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintBidiAsyncNotifyRegistration</b> interface inherits from the <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintBidiAsyncNotifyRegistration</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

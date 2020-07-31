@@ -10,6 +10,7 @@ keywords: ["VideoPortQuerySystemTime function"]
 ms.keywords: VideoPortQuerySystemTime, VideoPortQuerySystemTime function [Display Devices], VideoPort_Functions_18c4e015-b294-40e0-8aef-7642d3a9cb27.xml, display.videoportquerysystemtime, video/VideoPortQuerySystemTime
 f1_keywords:
  - "video/VideoPortQuerySystemTime"
+ - "VideoPortQuerySystemTime"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Videoprt.sys
 api_name:
 - VideoPortQuerySystemTime
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

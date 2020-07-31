@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols::GetModuleByIndex"]
 ms.keywords: GetModuleByIndex, GetModuleByIndex method [Windows Debugging], GetModuleByIndex method [Windows Debugging],IDebugSymbols interface, GetModuleByIndex method [Windows Debugging],IDebugSymbols2 interface, GetModuleByIndex method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetModuleByIndex method, IDebugSymbols.GetModuleByIndex, IDebugSymbols2 interface [Windows Debugging],GetModuleByIndex method, IDebugSymbols2::GetModuleByIndex, IDebugSymbols3 interface [Windows Debugging],GetModuleByIndex method, IDebugSymbols3::GetModuleByIndex, IDebugSymbols::GetModuleByIndex, IDebugSymbols_0406a71f-e9eb-4acd-93e8-1637ee2506df.xml, dbgeng/IDebugSymbols2::GetModuleByIndex, dbgeng/IDebugSymbols3::GetModuleByIndex, dbgeng/IDebugSymbols::GetModuleByIndex, debugger.getmodulebyindex
 f1_keywords:
  - "dbgeng/IDebugSymbols.GetModuleByIndex"
+ - "IDebugSymbols.GetModuleByIndex"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -38,8 +39,6 @@ api_name:
 - IDebugSymbols.GetModuleByIndex
 - IDebugSymbols2.GetModuleByIndex
 - IDebugSymbols3.GetModuleByIndex
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

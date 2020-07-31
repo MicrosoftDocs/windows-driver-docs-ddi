@@ -9,6 +9,7 @@ keywords: ["D3D11_1DDI_VIDEO_PROCESSOR_FILTER_RANGE structure"]
 ms.keywords: D3D11_1DDI_VIDEO_PROCESSOR_FILTER_RANGE, D3D11_1DDI_VIDEO_PROCESSOR_FILTER_RANGE structure [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FILTER_RANGE, display.d3d11_1ddi_video_processor_filter_range
 f1_keywords:
  - "d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FILTER_RANGE"
+ - "D3D11_1DDI_VIDEO_PROCESSOR_FILTER_RANGE"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - D3d10umddi.h
 api_name:
 - D3D11_1DDI_VIDEO_PROCESSOR_FILTER_RANGE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D11_1DDI_VIDEO_PROCESSOR_FILTER_RANGE

@@ -10,6 +10,7 @@ keywords: ["IWDFIoRequest3::RetrieveActivityId"]
 ms.keywords: IWDFIoRequest3 interface,RetrieveActivityId method, IWDFIoRequest3.RetrieveActivityId, IWDFIoRequest3::RetrieveActivityId, RetrieveActivityId, RetrieveActivityId method, RetrieveActivityId method,IWDFIoRequest3 interface, umdf.iwdfiorequest3_retrieveactivityid, wdf.iwdfiorequest3_retrieveactivityid, wudfddi/IWDFIoRequest3::RetrieveActivityId
 f1_keywords:
  - "wudfddi/IWDFIoRequest3.RetrieveActivityId"
+ - "IWDFIoRequest3.RetrieveActivityId"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFIoRequest3.RetrieveActivityId
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

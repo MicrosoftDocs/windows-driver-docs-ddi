@@ -10,6 +10,7 @@ keywords: ["INIT_AVCSTRM_HEADER macro"]
 ms.keywords: INIT_AVCSTRM_HEADER, INIT_AVCSTRM_HEADER macro [Streaming Media Devices], avcsref_97f7d983-5637-4ac4-ad1c-53328adca831.xml, avcstrm/INIT_AVCSTRM_HEADER, stream.init_avcstrm_header
 f1_keywords:
  - "avcstrm/INIT_AVCSTRM_HEADER"
+ - "INIT_AVCSTRM_HEADER"
 req.header: avcstrm.h
 req.include-header: Avcstrm.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - avcstrm.h
 api_name:
 - INIT_AVCSTRM_HEADER
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["_NFS_OPEN_ECP_CONTEXT structure"]
 ms.keywords: "*PNFS_OPEN_ECP_CONTEXT, ECP_Structures_d19b2618-0b21-424c-b5bd-abc9b6bdc518.xml, NFS_OPEN_ECP_CONTEXT, NFS_OPEN_ECP_CONTEXT structure [Installable File System Drivers], PNFS_OPEN_ECP_CONTEXT, PNFS_OPEN_ECP_CONTEXT structure pointer [Installable File System Drivers], PPNFS_OPEN_ECP_CONTEXT, PPNFS_OPEN_ECP_CONTEXT structure pointer [Installable File System Drivers], _NFS_OPEN_ECP_CONTEXT, ifsk.nfs_open_ecp_context, ntifs/NFS_OPEN_ECP_CONTEXT, ntifs/PNFS_OPEN_ECP_CONTEXT, ntifs/PPNFS_OPEN_ECP_CONTEXT"
 f1_keywords:
  - "ntifs/NFS_OPEN_ECP_CONTEXT"
+ - "NFS_OPEN_ECP_CONTEXT"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - NFS_OPEN_ECP_CONTEXT
-product:
-- Windows
 targetos: Windows
 req.typenames: NFS_OPEN_ECP_CONTEXT, *PNFS_OPEN_ECP_CONTEXT, PPNFS_OPEN_ECP_CONTEXT
 ---

@@ -9,6 +9,7 @@ keywords: ["DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT3 callback function"]
 ms.keywords: DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT3, DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT3 callback, DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT3 callback function [Display Devices], d3dkmddi/DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT3, display.dxgkddi_checkmultiplaneoverlaysupport3
 f1_keywords:
  - "d3dkmddi/DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT3"
+ - "DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT3"
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT3
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames:

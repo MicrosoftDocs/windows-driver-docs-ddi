@@ -10,6 +10,7 @@ keywords: ["IPortDMus interface"]
 ms.keywords: IPortDMus, IPortDMus interface [Audio Devices], IPortDMus interface [Audio Devices],described, audio.iportdmus, audmp-routines_20e57cde-9732-4592-8bb6-b5775609b833.xml, dmusicks/IPortDMus
 f1_keywords:
  - "dmusicks/IPortDMus"
+ - "IPortDMus"
 req.header: dmusicks.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dmusicks.h
 api_name:
 - IPortDMus
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

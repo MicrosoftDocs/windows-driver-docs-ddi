@@ -10,6 +10,7 @@ keywords: ["RILPHONEBOOKADDITIONALNUMBERSTRING structure"]
 ms.keywords: "*LPRILPHONEBOOKADDITIONALNUMBERSTRING, RILPHONEBOOKADDITIONALNUMBERSTRING, RILPHONEBOOKADDITIONALNUMBERSTRING structure [Network Drivers Starting with Windows Vista], netvista.rilphonebookadditionalnumberstring, ntddrilapitypes/RILPHONEBOOKADDITIONALNUMBERSTRING"
 f1_keywords:
  - "ntddrilapitypes/RILPHONEBOOKADDITIONALNUMBERSTRING"
+ - "RILPHONEBOOKADDITIONALNUMBERSTRING"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILPHONEBOOKADDITIONALNUMBERSTRING
-product:
-- Windows
 targetos: Windows
 req.typenames: RILPHONEBOOKADDITIONALNUMBERSTRING, *LPRILPHONEBOOKADDITIONALNUMBERSTRING
 ---

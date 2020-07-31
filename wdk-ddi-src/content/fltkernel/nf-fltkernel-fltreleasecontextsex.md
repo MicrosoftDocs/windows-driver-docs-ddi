@@ -10,6 +10,7 @@ keywords: ["FltReleaseContextsEx function"]
 ms.keywords: FltReleaseContextsEx, FltReleaseContextsEx routine [Installable File System Drivers], fltkernel/FltReleaseContextsEx, ifsk.fltreleasecontextsex
 f1_keywords:
  - "fltkernel/FltReleaseContextsEx"
+ - "FltReleaseContextsEx"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltReleaseContextsEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IStiUSD::Initialize"]
 ms.keywords: IStiUSD interface [Imaging Devices],Initialize method, IStiUSD.Initialize, IStiUSD::Initialize, Initialize, Initialize method [Imaging Devices], Initialize method [Imaging Devices],IStiUSD interface, image.istiusd_initialize, stifnc_b587b574-dd44-47a2-9d04-78e34733a456.xml, stiusd/IStiUSD::Initialize
 f1_keywords:
  - "stiusd/IStiUSD.Initialize"
+ - "IStiUSD.Initialize"
 req.header: stiusd.h
 req.include-header: Stiusd.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - stiusd.h
 api_name:
 - IStiUSD.Initialize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

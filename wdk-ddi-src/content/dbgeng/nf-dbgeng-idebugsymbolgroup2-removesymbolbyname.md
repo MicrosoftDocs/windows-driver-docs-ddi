@@ -10,6 +10,7 @@ keywords: ["IDebugSymbolGroup2::RemoveSymbolByName"]
 ms.keywords: ComOther_894176f1-bf26-4780-b287-a97993dd6e79.xml, IDebugSymbolGroup interface [Windows Debugging],RemoveSymbolByName method, IDebugSymbolGroup2 interface [Windows Debugging],RemoveSymbolByName method, IDebugSymbolGroup2.RemoveSymbolByName, IDebugSymbolGroup2::RemoveSymbolByName, IDebugSymbolGroup::RemoveSymbolByName, RemoveSymbolByName, RemoveSymbolByName method [Windows Debugging], RemoveSymbolByName method [Windows Debugging],IDebugSymbolGroup interface, RemoveSymbolByName method [Windows Debugging],IDebugSymbolGroup2 interface, dbgeng/IDebugSymbolGroup2::RemoveSymbolByName, dbgeng/IDebugSymbolGroup::RemoveSymbolByName, debugger.removesymbolbyname
 f1_keywords:
  - "dbgeng/IDebugSymbolGroup.RemoveSymbolByName"
+ - "IDebugSymbolGroup.RemoveSymbolByName"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IDebugSymbolGroup.RemoveSymbolByName
 - IDebugSymbolGroup2.RemoveSymbolByName
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

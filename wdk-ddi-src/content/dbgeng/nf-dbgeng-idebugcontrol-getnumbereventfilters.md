@@ -10,6 +10,7 @@ keywords: ["IDebugControl::GetNumberEventFilters"]
 ms.keywords: GetNumberEventFilters, GetNumberEventFilters method [Windows Debugging], GetNumberEventFilters method [Windows Debugging],IDebugControl interface, GetNumberEventFilters method [Windows Debugging],IDebugControl2 interface, GetNumberEventFilters method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetNumberEventFilters method, IDebugControl.GetNumberEventFilters, IDebugControl2 interface [Windows Debugging],GetNumberEventFilters method, IDebugControl2::GetNumberEventFilters, IDebugControl3 interface [Windows Debugging],GetNumberEventFilters method, IDebugControl3::GetNumberEventFilters, IDebugControl::GetNumberEventFilters, IDebugControl_de1a980a-b0cb-486b-a292-1a9463a231c6.xml, dbgeng/IDebugControl2::GetNumberEventFilters, dbgeng/IDebugControl3::GetNumberEventFilters, dbgeng/IDebugControl::GetNumberEventFilters, debugger.getnumbereventfilters
 f1_keywords:
  - "dbgeng/IDebugControl.GetNumberEventFilters"
+ - "IDebugControl.GetNumberEventFilters"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -38,8 +39,6 @@ api_name:
 - IDebugControl.GetNumberEventFilters
 - IDebugControl2.GetNumberEventFilters
 - IDebugControl3.GetNumberEventFilters
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

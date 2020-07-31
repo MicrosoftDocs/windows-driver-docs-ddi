@@ -10,6 +10,7 @@ keywords: ["PoClearPowerRequest function"]
 ms.keywords: PoClearPowerRequest, PoClearPowerRequest routine [Kernel-Mode Driver Architecture], kernel.poclearpowerrequest, portn_683a4a08-b6e3-4d6c-adfa-00d075db06f9.xml, wdm/PoClearPowerRequest
 f1_keywords:
  - "ntifs/PoClearPowerRequest"
+ - "PoClearPowerRequest"
 req.header: ntifs.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - PoClearPowerRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

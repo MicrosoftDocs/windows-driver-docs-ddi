@@ -10,6 +10,7 @@ keywords: ["AtaPortReadRegisterUlong function"]
 ms.keywords: AtaPortReadRegisterUlong, AtaPortReadRegisterUlong routine [Storage Devices], atartns_a5e1a904-214d-45fc-9ade-fc5ad7d56694.xml, irb/AtaPortReadRegisterUlong, storage.ataportreadregisterulong
 f1_keywords:
  - "irb/AtaPortReadRegisterUlong"
+ - "AtaPortReadRegisterUlong"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
@@ -39,8 +40,6 @@ api_location:
 - pciidex.dll
 api_name:
 - AtaPortReadRegisterUlong
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

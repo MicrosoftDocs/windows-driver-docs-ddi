@@ -10,6 +10,7 @@ keywords: ["vDbgPrintEx function"]
 ms.keywords: DebugFns_e3774486-d60a-4853-8d86-5ffb99ef4bcb.xml, devtest.vdbgprintex, vDbgPrintEx, vDbgPrintEx routine [Driver Development Tools], wdm/vDbgPrintEx
 f1_keywords:
  - "wdm/vDbgPrintEx"
+ - "vDbgPrintEx"
 req.header: wdm.h
 req.include-header: Dpfilter.h, Wdm.h, Ntddk.h, Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - vDbgPrintEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

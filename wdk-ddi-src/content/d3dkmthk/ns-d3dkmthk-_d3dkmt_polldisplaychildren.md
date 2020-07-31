@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_POLLDISPLAYCHILDREN structure"]
 ms.keywords: D3DKMT_POLLDISPLAYCHILDREN, D3DKMT_POLLDISPLAYCHILDREN structure [Display Devices], OpenGL_Structs_08c4958e-cea3-4912-8944-98acb726d798.xml, _D3DKMT_POLLDISPLAYCHILDREN, d3dkmthk/D3DKMT_POLLDISPLAYCHILDREN, display.d3dkmt_polldisplaychildren
 f1_keywords:
  - "d3dkmthk/D3DKMT_POLLDISPLAYCHILDREN"
+ - "D3DKMT_POLLDISPLAYCHILDREN"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMT_POLLDISPLAYCHILDREN
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_POLLDISPLAYCHILDREN

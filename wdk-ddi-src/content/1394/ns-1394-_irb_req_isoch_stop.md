@@ -10,6 +10,7 @@ keywords: ["_IRB_REQ_ISOCH_STOP structure"]
 ms.keywords: 1394/IRB_REQ_ISOCH_STOP, IEEE.irb_req_isoch_stop, IRB_REQ_ISOCH_STOP, IRB_REQ_ISOCH_STOP structure [Buses], _IRB_REQ_ISOCH_STOP
 f1_keywords:
  - "1394/IRB_REQ_ISOCH_STOP"
+ - "IRB_REQ_ISOCH_STOP"
 req.header: 1394.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - 1394.h
 api_name:
 - IRB_REQ_ISOCH_STOP
-product:
-- Windows
 targetos: Windows
 req.typenames: IRB_REQ_ISOCH_STOP
 ---

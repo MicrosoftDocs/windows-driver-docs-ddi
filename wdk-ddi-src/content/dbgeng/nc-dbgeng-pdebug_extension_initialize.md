@@ -10,6 +10,7 @@ keywords: ["PDEBUG_EXTENSION_INITIALIZE callback function"]
 ms.keywords: DebugExtensionInitialize, DebugExtensionInitialize callback function [Windows Debugging], Extensions_Ref_e260c42c-8299-4578-8919-3b2167701275.xml, PDEBUG_EXTENSION_INITIALIZE, PDEBUG_EXTENSION_INITIALIZE callback, dbgeng/DebugExtensionInitialize, debugger.debugextensioninitialize
 f1_keywords:
  - "dbgeng/DebugExtensionInitialize"
+ - "DebugExtensionInitialize"
 req.header: dbgeng.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - DebugExtensionInitialize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

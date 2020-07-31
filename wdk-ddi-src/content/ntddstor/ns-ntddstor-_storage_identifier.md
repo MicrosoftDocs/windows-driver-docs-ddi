@@ -10,6 +10,7 @@ keywords: ["_STORAGE_IDENTIFIER structure"]
 ms.keywords: "*PSTORAGE_IDENTIFIER, PSTORAGE_IDENTIFIER, PSTORAGE_IDENTIFIER structure pointer [Storage Devices], STORAGE_IDENTIFIER, STORAGE_IDENTIFIER structure [Storage Devices], _STORAGE_IDENTIFIER, ntddstor/PSTORAGE_IDENTIFIER, ntddstor/STORAGE_IDENTIFIER, storage.storage_identifier, structs-general_29c666d7-3e61-44fe-a36e-979418dbb958.xml"
 f1_keywords:
  - "ntddstor/STORAGE_IDENTIFIER"
+ - "STORAGE_IDENTIFIER"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddstor.h
 api_name:
 - STORAGE_IDENTIFIER
-product:
-- Windows
 targetos: Windows
 req.typenames: STORAGE_IDENTIFIER, *PSTORAGE_IDENTIFIER
 ---

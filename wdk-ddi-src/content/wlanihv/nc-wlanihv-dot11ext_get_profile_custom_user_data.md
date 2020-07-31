@@ -10,6 +10,7 @@ keywords: ["DOT11EXT_GET_PROFILE_CUSTOM_USER_DATA callback"]
 ms.keywords: DOT11EXT_GET_PROFILE_CUSTOM_USER_DATA, Dot11ExtGetProfileCustomUserData, Dot11ExtGetProfileCustomUserData callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_ee7fad1d-d3c2-400d-bf87-b2bdccd61f58.xml, netvista.dot11extgetprofilecustomuserdata, wlanihv/Dot11ExtGetProfileCustomUserData
 f1_keywords:
  - "wlanihv/Dot11ExtGetProfileCustomUserData"
+ - "Dot11ExtGetProfileCustomUserData"
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wlanihv.h
 api_name:
 - Dot11ExtGetProfileCustomUserData
-product:
-- Windows
 targetos: Windows
 req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.

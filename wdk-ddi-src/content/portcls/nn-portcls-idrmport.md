@@ -10,6 +10,7 @@ keywords: ["IDrmPort interface"]
 ms.keywords: IDrmPort, IDrmPort interface [Audio Devices], IDrmPort interface [Audio Devices], described, audio.idrmport, audmp-routines_c68e5cec-890e-48c8-8d1c-443b521e5477.xml, portcls/IDrmPort
 f1_keywords:
  - "portcls/IDrmPort"
+ - "IDrmPort"
 req.header: portcls.h
 req.include-header:
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IDrmPort
-product:
-- Windows
 targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---

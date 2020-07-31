@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_DXGK_ESCAPE_GPUMMUCAPS structure"]
 f1_keywords:
  - "d3dkmthk/_DXGK_ESCAPE_GPUMMUCAPS"
+ - "_DXGK_ESCAPE_GPUMMUCAPS"
 ms.keywords: _DXGK_ESCAPE_GPUMMUCAPS, DXGK_ESCAPE_GPUMMUCAPS, 
 req.header: d3dkmthk.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - d3dkmthk.h
 api_name: 
 - _DXGK_ESCAPE_GPUMMUCAPS
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

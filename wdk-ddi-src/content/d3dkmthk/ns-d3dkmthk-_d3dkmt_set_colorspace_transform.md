@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_SET_COLORSPACE_TRANSFORM structure"]
 ms.keywords: D3DKMT_SET_COLORSPACE_TRANSFORM, D3DKMT_SET_COLORSPACE_TRANSFORM structure [Display Devices], _D3DKMT_SET_COLORSPACE_TRANSFORM, d3dkmthk/D3DKMT_SET_COLORSPACE_TRANSFORM, display.d3dkmt-set-colorspace-transform
 f1_keywords:
  - "d3dkmthk/D3DKMT_SET_COLORSPACE_TRANSFORM"
+ - "D3DKMT_SET_COLORSPACE_TRANSFORM"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMT_SET_COLORSPACE_TRANSFORM
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_SET_COLORSPACE_TRANSFORM

@@ -10,6 +10,7 @@ keywords: ["StreamClassGetNextEvent function"]
 ms.keywords: StreamClassGetNextEvent, StreamClassGetNextEvent routine [Streaming Media Devices], strclass-routines_5a606366-379b-400b-b039-8722f084e3c6.xml, stream.streamclassgetnextevent, strmini/StreamClassGetNextEvent
 f1_keywords:
  - "strmini/StreamClassGetNextEvent"
+ - "StreamClassGetNextEvent"
 req.header: strmini.h
 req.include-header: Strmini.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Stream.dll
 api_name:
 - StreamClassGetNextEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

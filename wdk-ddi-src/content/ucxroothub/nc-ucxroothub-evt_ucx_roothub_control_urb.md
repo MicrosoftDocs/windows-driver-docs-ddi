@@ -10,6 +10,7 @@ keywords: ["EVT_UCX_ROOTHUB_CONTROL_URB callback function"]
 ms.keywords: EVT_UCX_ROOTHUB_CONTROL_URB, EVT_UCX_ROOTHUB_CONTROL_URB callback, EvtUcxRootHubControlUrb, EvtUcxRootHubControlUrb callback function [Buses], PEVT_UCX_ROOTHUB_CONTROL_URB, PEVT_UCX_ROOTHUB_CONTROL_URB callback function pointer [Buses], buses.evt_ucx_roothub_control_urb, ucxroothub/EvtUcxRootHubControlUrb
 f1_keywords:
  - "ucxroothub/PEVT_UCX_ROOTHUB_CONTROL_URB"
+ - "PEVT_UCX_ROOTHUB_CONTROL_URB"
 req.header: ucxroothub.h
 req.include-header: Ucxclass.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ucxroothub.h
 api_name:
 - PEVT_UCX_ROOTHUB_CONTROL_URB
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

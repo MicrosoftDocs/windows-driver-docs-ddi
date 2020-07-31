@@ -8,6 +8,7 @@ ms.date: 08/08/2018
 keywords: ["NdisSetNblTimestampInfo function"]
 f1_keywords:
  - "ndis/NdisSetNblTimestampInfo"
+ - "NdisSetNblTimestampInfo"
 ms.keywords: NdisSetNblTimestampInfo
 req.header: ndis.h
 req.include-header:
@@ -34,8 +35,6 @@ api_location:
 - ndis.lib
 api_name: 
 - NdisSetNblTimestampInfo
-product:
-- Windows
 targetos: Windows
 
 

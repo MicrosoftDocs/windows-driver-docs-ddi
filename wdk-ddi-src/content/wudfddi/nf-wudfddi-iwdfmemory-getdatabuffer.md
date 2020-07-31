@@ -10,6 +10,7 @@ keywords: ["IWDFMemory::GetDataBuffer"]
 ms.keywords: GetDataBuffer, GetDataBuffer method, GetDataBuffer method,IWDFMemory interface, IWDFMemory interface,GetDataBuffer method, IWDFMemory.GetDataBuffer, IWDFMemory::GetDataBuffer, UMDFMemoryObjectRef_910791a8-4fd9-47ff-93f9-f8f496e95272.xml, umdf.iwdfmemory_getdatabuffer, wdf.iwdfmemory_getdatabuffer, wudfddi/IWDFMemory::GetDataBuffer
 f1_keywords:
  - "wudfddi/IWDFMemory.GetDataBuffer"
+ - "IWDFMemory.GetDataBuffer"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFMemory.GetDataBuffer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

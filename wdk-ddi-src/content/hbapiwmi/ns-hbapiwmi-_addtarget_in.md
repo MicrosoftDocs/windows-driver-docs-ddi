@@ -10,6 +10,7 @@ keywords: ["_AddTarget_IN structure"]
 ms.keywords: "*PAddTarget_IN, AddTarget_IN, AddTarget_IN structure [Storage Devices], PAddTarget_IN, PAddTarget_IN structure pointer [Storage Devices], _AddTarget_IN, hbapiwmi/AddTarget_IN, hbapiwmi/PAddTarget_IN, storage.addtarget_in, structs-Fibre_7109b51c-872e-4e2e-affb-388fe21750d7.xml"
 f1_keywords:
  - "hbapiwmi/AddTarget_IN"
+ - "AddTarget_IN"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - hbapiwmi.h
 api_name:
 - AddTarget_IN
-product:
-- Windows
 targetos: Windows
 req.typenames: AddTarget_IN, *PAddTarget_IN
 ---

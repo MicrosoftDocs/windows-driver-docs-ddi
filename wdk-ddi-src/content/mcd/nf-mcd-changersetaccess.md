@@ -10,6 +10,7 @@ keywords: ["ChangerSetAccess function"]
 ms.keywords: ChangerSetAccess, ChangerSetAccess function [Storage Devices], chgrmini_3b7a1ae3-1724-464a-942a-54ecbae6329d.xml, mcd/ChangerSetAccess, storage.changersetaccess
 f1_keywords:
  - "mcd/ChangerSetAccess"
+ - "ChangerSetAccess"
 req.header: mcd.h
 req.include-header: Mcd.h, Ntddchgr.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - mcd.h
 api_name:
 - ChangerSetAccess
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -8,6 +8,7 @@ ms.date: 10/19/2018
 keywords: ["_NVME_RESERVED_QUEUES_DELETE_REQUEST structure"]
 f1_keywords:
  - "ntddstor/_NVME_RESERVED_QUEUES_DELETE_REQUEST"
+ - "_NVME_RESERVED_QUEUES_DELETE_REQUEST"
 ms.keywords: _NVME_RESERVED_QUEUES_DELETE_REQUEST, NVME_RESERVED_QUEUES_DELETE_REQUEST, *PNVME_RESERVED_QUEUES_DELETE_REQUEST, 
 req.header: ntddstor.h
 req.include-header:
@@ -30,8 +31,6 @@ api_location:
 - ntddstor.h
 api_name: 
 - _NVME_RESERVED_QUEUES_DELETE_REQUEST
-product:
-- Windows
 targetos: Windows
 ---
 

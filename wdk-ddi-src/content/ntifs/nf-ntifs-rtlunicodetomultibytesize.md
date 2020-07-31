@@ -10,6 +10,7 @@ keywords: ["RtlUnicodeToMultiByteSize function"]
 ms.keywords: RtlUnicodeToMultiByteSize, RtlUnicodeToMultiByteSize routine [Installable File System Drivers], ifsk.rtlunicodetomultibytesize, ntifs/RtlUnicodeToMultiByteSize, rtlref_f0366c3a-b185-45f3-a7e2-541168b842d3.xml
 f1_keywords:
  - "ntifs/RtlUnicodeToMultiByteSize"
+ - "RtlUnicodeToMultiByteSize"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlUnicodeToMultiByteSize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

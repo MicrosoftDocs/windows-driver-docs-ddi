@@ -10,6 +10,7 @@ keywords: ["USBCAMD_GetRegistryKeyValue function"]
 ms.keywords: USBCAMD_GetRegistryKeyValue, USBCAMD_GetRegistryKeyValue function [Streaming Media Devices], stream.usbcamd_getregistrykeyvalue, usbcamdi/USBCAMD_GetRegistryKeyValue, usbcmdpr_f93ab3a6-f063-4c69-819d-1aed77b8efe6.xml
 f1_keywords:
  - "usbcamdi/USBCAMD_GetRegistryKeyValue"
+ - "USBCAMD_GetRegistryKeyValue"
 req.header: usbcamdi.h
 req.include-header: Usbcamdi.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - usbcamd2.dll
 api_name:
 - USBCAMD_GetRegistryKeyValue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

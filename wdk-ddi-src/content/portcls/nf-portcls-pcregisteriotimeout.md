@@ -10,6 +10,7 @@ keywords: ["PcRegisterIoTimeout function"]
 ms.keywords: PcRegisterIoTimeout, PcRegisterIoTimeout function [Audio Devices], audio.pcregisteriotimeout, audpc-routines_1a63a1fa-c80a-4fe4-87d6-95543e6e2f1d.xml, portcls/PcRegisterIoTimeout
 f1_keywords:
  - "portcls/PcRegisterIoTimeout"
+ - "PcRegisterIoTimeout"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Portcls.dll
 api_name:
 - PcRegisterIoTimeout
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

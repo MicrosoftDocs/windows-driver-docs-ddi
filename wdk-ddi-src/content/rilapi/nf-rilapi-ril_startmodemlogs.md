@@ -10,6 +10,7 @@ keywords: ["RIL_StartModemLogs function"]
 ms.keywords: RIL_StartModemLogs, RIL_StartModemLogs method [Network Drivers Starting with Windows Vista], netvista.ril_startmodemlogs, rilapi/RIL_StartModemLogs
 f1_keywords:
  - "rilapi/RIL_StartModemLogs"
+ - "RIL_StartModemLogs"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapi.h
 api_name:
 - RIL_StartModemLogs
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["ExtRemoteData::GetUlong"]
 ms.keywords: EngExtCpp_Ref_41a112c3-0350-4e54-981c-b5c11697ef2d.xml, ExtRemoteData class [Windows Debugging],GetUlong method, ExtRemoteData.GetUlong, ExtRemoteData::GetUlong, GetUlong, GetUlong method [Windows Debugging], GetUlong method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_getulong
 f1_keywords:
  - "engextcpp/ExtRemoteData.GetUlong"
+ - "ExtRemoteData.GetUlong"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - engextcpp.hpp
 api_name:
 - ExtRemoteData.GetUlong
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

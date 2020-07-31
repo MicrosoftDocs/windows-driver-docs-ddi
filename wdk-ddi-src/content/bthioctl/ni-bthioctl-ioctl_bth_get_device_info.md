@@ -10,6 +10,7 @@ keywords: ["IOCTL_BTH_GET_DEVICE_INFO IOCTL"]
 ms.keywords: IOCTL_BTH_GET_DEVICE_INFO, IOCTL_BTH_GET_DEVICE_INFO control, IOCTL_BTH_GET_DEVICE_INFO control code [Bluetooth Devices], bltooth.ioctl_bth_get_device_info, bth_ioctls_427504e3-7414-4d2c-b835-b612ed73ce01.xml, bthioctl/IOCTL_BTH_GET_DEVICE_INFO
 f1_keywords:
  - "bthioctl/IOCTL_BTH_GET_DEVICE_INFO"
+ - "IOCTL_BTH_GET_DEVICE_INFO"
 req.header: bthioctl.h
 req.include-header: Bthioctl.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Bthioctl.h
 api_name:
 - IOCTL_BTH_GET_DEVICE_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

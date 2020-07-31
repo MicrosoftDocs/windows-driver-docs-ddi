@@ -10,6 +10,7 @@ keywords: ["IddCxDeviceInitConfig function"]
 ms.keywords: IddCxDeviceInitConfig, IddCxDeviceInitConfig method [Display Devices], display.iddcxdeviceinitconfig, iddcx/IddCxDeviceInitConfig
 f1_keywords:
  - "iddcx/IddCxDeviceInitConfig"
+ - "IddCxDeviceInitConfig"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - IddCx.dll
 api_name:
 - IddCxDeviceInitConfig
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

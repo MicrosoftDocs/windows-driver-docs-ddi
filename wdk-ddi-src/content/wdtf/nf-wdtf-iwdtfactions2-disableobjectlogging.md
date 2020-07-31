@@ -10,6 +10,7 @@ keywords: ["IWDTFActions2::DisableObjectLogging"]
 ms.keywords: DisableObjectLogging, DisableObjectLogging method [Windows Device Testing Framework], DisableObjectLogging method [Windows Device Testing Framework],IWDTFActions2 interface, IWDTFActions2 interface [Windows Device Testing Framework],DisableObjectLogging method, IWDTFActions2.DisableObjectLogging, IWDTFActions2::DisableObjectLogging, dtf.iwdtfactions2_disableobjectlogging, wdtf/IWDTFActions2::DisableObjectLogging
 f1_keywords:
  - "wdtf/IWDTFActions2.DisableObjectLogging"
+ - "IWDTFActions2.DisableObjectLogging"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wdtf.h
 api_name:
 - IWDTFActions2.DisableObjectLogging
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

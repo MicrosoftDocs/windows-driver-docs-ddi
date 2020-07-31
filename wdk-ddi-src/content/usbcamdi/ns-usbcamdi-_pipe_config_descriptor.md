@@ -10,6 +10,7 @@ keywords: ["_pipe_config_descriptor structure"]
 ms.keywords: "*PUSBCAMD_Pipe_Config_Descriptor, PUSBCAMD_Pipe_Config_Descriptor, PUSBCAMD_Pipe_Config_Descriptor structure pointer [Streaming Media Devices], USBCAMD_Pipe_Config_Descriptor, USBCAMD_Pipe_Config_Descriptor structure [Streaming Media Devices], _pipe_config_descriptor, stream.usbcamd_pipe_config_descriptor, usbcamdi/PUSBCAMD_Pipe_Config_Descriptor, usbcamdi/USBCAMD_Pipe_Config_Descriptor, usbcmdpr_41ff7b81-10f6-469c-ad6f-d444acf15c07.xml"
 f1_keywords:
  - "usbcamdi/USBCAMD_Pipe_Config_Descriptor"
+ - "USBCAMD_Pipe_Config_Descriptor"
 req.header: usbcamdi.h
 req.include-header: Usbcamdi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - usbcamdi.h
 api_name:
 - USBCAMD_Pipe_Config_Descriptor
-product:
-- Windows
 targetos: Windows
 req.typenames: USBCAMD_Pipe_Config_Descriptor, *PUSBCAMD_Pipe_Config_Descriptor
 ---

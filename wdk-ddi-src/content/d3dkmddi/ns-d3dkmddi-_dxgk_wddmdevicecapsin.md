@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["_DXGK_WDDMDEVICECAPSIN structure"]
 f1_keywords:
  - "d3dkmddi/_DXGK_WDDMDEVICECAPSIN"
+ - "_DXGK_WDDMDEVICECAPSIN"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: _DXGK_WDDMDEVICECAPSIN, DXGK_WDDMDEVICECAPSIN, 

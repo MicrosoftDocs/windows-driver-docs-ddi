@@ -10,6 +10,7 @@ keywords: ["RILRFSTATE structure"]
 ms.keywords: "*LPRILRFSTATE, RILRFSTATE, RILRFSTATE structure [Network Drivers Starting with Windows Vista], netvista.rilrfstate, ntddrilapitypes/RILRFSTATE"
 f1_keywords:
  - "ntddrilapitypes/RILRFSTATE"
+ - "RILRFSTATE"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILRFSTATE
-product:
-- Windows
 targetos: Windows
 req.typenames: RILRFSTATE, *LPRILRFSTATE
 ---

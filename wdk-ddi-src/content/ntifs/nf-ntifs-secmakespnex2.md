@@ -10,6 +10,7 @@ keywords: ["SecMakeSPNEx2 function"]
 ms.keywords: SecMakeSPNEx2, SecMakeSPNEx2 function [Installable File System Drivers], ifsk.secmakespnex2, ksecddref_be331d16-cc90-4e80-85cd-c2faaecca843.xml, ntifs/SecMakeSPNEx2
 f1_keywords:
  - "ntifs/SecMakeSPNEx2"
+ - "SecMakeSPNEx2"
 req.header: ntifs.h
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ksecdd.dll
 api_name:
 - SecMakeSPNEx2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

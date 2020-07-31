@@ -7,6 +7,7 @@ ms.date: 09/20/2018
 keywords: ["IDebugHostType2::GetHashCode"]
 f1_keywords:
  - "dbgmodel/IDebugHostType2.GetHashCode"
+ - "IDebugHostType2.GetHashCode"
 ms.keywords: IDebugHostType2::GetHashCode, GetHashCode, IDebugHostType2.GetHashCode, IDebugHostType2::GetHashCode, IDebugHostType2.GetHashCode
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostType2.GetHashCode
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

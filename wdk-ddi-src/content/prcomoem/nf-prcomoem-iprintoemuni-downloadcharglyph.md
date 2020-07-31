@@ -10,6 +10,7 @@ keywords: ["IPrintOemUni::DownloadCharGlyph"]
 ms.keywords: DownloadCharGlyph, DownloadCharGlyph method [Print Devices], DownloadCharGlyph method [Print Devices],IPrintOemUni interface, IPrintOemUni interface [Print Devices],DownloadCharGlyph method, IPrintOemUni.DownloadCharGlyph, IPrintOemUni::DownloadCharGlyph, prcomoem/IPrintOemUni::DownloadCharGlyph, print.iprintoemuni_downloadcharglyph, print_unidrv-pscript_rendering_da86807b-5b3c-41af-8504-337da544dd93.xml
 f1_keywords:
  - "prcomoem/IPrintOemUni.DownloadCharGlyph"
+ - "IPrintOemUni.DownloadCharGlyph"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - prcomoem.h
 api_name:
 - IPrintOemUni.DownloadCharGlyph
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

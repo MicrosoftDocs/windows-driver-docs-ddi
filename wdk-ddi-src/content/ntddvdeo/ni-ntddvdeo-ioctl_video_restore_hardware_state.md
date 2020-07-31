@@ -10,6 +10,7 @@ keywords: ["IOCTL_VIDEO_RESTORE_HARDWARE_STATE IOCTL"]
 ms.keywords: IOCTL_VIDEO_RESTORE_HARDWARE_STATE, IOCTL_VIDEO_RESTORE_HARDWARE_STATE control, IOCTL_VIDEO_RESTORE_HARDWARE_STATE control code [Display Devices], Video_IOCTLs_2660d342-9c6b-461e-80f9-0c31763689ff.xml, display.ioctl_video_restore_hardware_state, ntddvdeo/IOCTL_VIDEO_RESTORE_HARDWARE_STATE
 f1_keywords:
  - "ntddvdeo/IOCTL_VIDEO_RESTORE_HARDWARE_STATE"
+ - "IOCTL_VIDEO_RESTORE_HARDWARE_STATE"
 req.header: ntddvdeo.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddvdeo.h
 api_name:
 - IOCTL_VIDEO_RESTORE_HARDWARE_STATE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

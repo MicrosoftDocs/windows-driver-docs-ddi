@@ -10,6 +10,7 @@ keywords: ["PUSB_BUSIFFN_IS_DEVICE_HIGH_SPEED callback function"]
 ms.keywords: IsDeviceHighSpeed, IsDeviceHighSpeed callback function [Buses], PUSB_BUSIFFN_IS_DEVICE_HIGH_SPEED, USB_BUSIFFN_IS_DEVICE_HIGH_SPEED, USB_BUSIFFN_IS_DEVICE_HIGH_SPEED callback, buses.isdevicehighspeed, usbbusif/IsDeviceHighSpeed, usbinterKR_eaf122ed-eee1-4924-a186-b0474b8c9816.xml
 f1_keywords:
  - "usbbusif/IsDeviceHighSpeed"
+ - "IsDeviceHighSpeed"
 req.header: usbbusif.h
 req.include-header: Usbbusif.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - usbbusif.h
 api_name:
 - IsDeviceHighSpeed
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

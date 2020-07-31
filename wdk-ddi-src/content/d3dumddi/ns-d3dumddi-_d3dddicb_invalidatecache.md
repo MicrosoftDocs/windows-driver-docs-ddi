@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DDDICB_INVALIDATECACHE structure"]
 f1_keywords:
  - "d3dumddi/_D3DDDICB_INVALIDATECACHE"
+ - "_D3DDDICB_INVALIDATECACHE"
 ms.keywords: _D3DDDICB_INVALIDATECACHE, D3DDDICB_INVALIDATECACHE, 
 req.header: d3dumddi.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - d3dumddi.h
 api_name: 
 - _D3DDDICB_INVALIDATECACHE
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

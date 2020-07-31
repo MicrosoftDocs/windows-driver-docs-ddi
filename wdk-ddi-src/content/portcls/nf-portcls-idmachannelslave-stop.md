@@ -8,6 +8,7 @@ ms.date: 10/30/2018
 keywords: ["IDmaChannelSlave::Stop"]
 f1_keywords:
  - "portcls/IDmaChannelSlave.Stop"
+ - "IDmaChannelSlave.Stop"
 ms.keywords: IDmaChannelSlave::Stop, Stop, IDmaChannelSlave.Stop, IDmaChannelSlave::Stop, IDmaChannelSlave.Stop
 req.header: portcls.h
 req.include-header:

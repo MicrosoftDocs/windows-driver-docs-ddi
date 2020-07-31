@@ -10,6 +10,7 @@ keywords: ["IoRegisterDriverReinitialization function"]
 ms.keywords: IoRegisterDriverReinitialization, IoRegisterDriverReinitialization routine [Kernel-Mode Driver Architecture], k104_998f1835-132c-49f3-886d-6d78dee35b9d.xml, kernel.ioregisterdriverreinitialization, ntddk/IoRegisterDriverReinitialization
 f1_keywords:
  - "ntddk/IoRegisterDriverReinitialization"
+ - "IoRegisterDriverReinitialization"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoRegisterDriverReinitialization
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

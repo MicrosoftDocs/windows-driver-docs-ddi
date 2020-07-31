@@ -10,6 +10,7 @@ keywords: ["AtaPortGetPhysicalAddress function"]
 ms.keywords: AtaPortGetPhysicalAddress, AtaPortGetPhysicalAddress routine [Storage Devices], atartns_8067117e-f163-4fe9-a3f4-24b32b5bcf63.xml, irb/AtaPortGetPhysicalAddress, storage.ataportgetphysicaladdress
 f1_keywords:
  - "irb/AtaPortGetPhysicalAddress"
+ - "AtaPortGetPhysicalAddress"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
@@ -39,8 +40,6 @@ api_location:
 - pciidex.dll
 api_name:
 - AtaPortGetPhysicalAddress
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

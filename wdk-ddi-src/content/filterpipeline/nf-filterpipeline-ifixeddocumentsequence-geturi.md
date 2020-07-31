@@ -10,6 +10,7 @@ keywords: ["IFixedDocumentSequence::GetUri"]
 ms.keywords: GetUri, GetUri method [Print Devices], GetUri method [Print Devices],IFixedDocumentSequence interface, IFixedDocumentSequence interface [Print Devices],GetUri method, IFixedDocumentSequence.GetUri, IFixedDocumentSequence::GetUri, filterpipeline/IFixedDocumentSequence::GetUri, filterpipeline_6d286919-21a8-40e8-8c6b-dd035ffe0ae1.xml, print.ifixeddocumentsequence_geturi
 f1_keywords:
  - "filterpipeline/IFixedDocumentSequence.GetUri"
+ - "IFixedDocumentSequence.GetUri"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - filterpipeline.h
 api_name:
 - IFixedDocumentSequence.GetUri
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

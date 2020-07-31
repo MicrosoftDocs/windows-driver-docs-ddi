@@ -10,6 +10,7 @@ keywords: ["ExtRemoteTyped::Set(bool,ULONG64,ULONG,ULONG64)"]
 ms.keywords: ExtRemoteTyped class [Windows Debugging],Set method, ExtRemoteTyped.Set, ExtRemoteTyped.Set(bool,ULONG64,ULONG,ULONG64), ExtRemoteTyped::Set, ExtRemoteTyped::Set(bool,ULONG64,ULONG,ULONG64), Set, Set method [Windows Debugging], Set method [Windows Debugging],ExtRemoteTyped class, debugger.extremotetyped_set_bool
 f1_keywords:
  - "engextcpp/ExtRemoteTyped.Set"
+ - "ExtRemoteTyped.Set"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - engextcpp.hpp
 api_name:
 - ExtRemoteTyped.Set
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

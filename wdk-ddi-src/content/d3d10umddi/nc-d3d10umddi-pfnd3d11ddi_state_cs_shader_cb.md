@@ -9,6 +9,7 @@ keywords: ["PFND3D11DDI_STATE_CS_SHADER_CB callback function"]
 ms.keywords: PFND3D11DDI_STATE_CS_SHADER_CB, PFND3D11DDI_STATE_CS_SHADER_CB callback, d3d10umddi/pfnStateCsShaderCb, d3d11state_functions_8292f8aa-d925-4dc9-9d9c-ccbe10d7e15f.xml, display.pfnstatecsshadercb, pfnStateCsShaderCb, pfnStateCsShaderCb callback function [Display Devices]
 f1_keywords:
  - "d3d10umddi/pfnStateCsShaderCb"
+ - "pfnStateCsShaderCb"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - pfnStateCsShaderCb
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

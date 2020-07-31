@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["_DXGKARG_GETVIRTUALGPUINFO structure"]
 f1_keywords:
  - "dispmprt/_DXGKARG_GETVIRTUALGPUINFO"
+ - "_DXGKARG_GETVIRTUALGPUINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: _DXGKARG_GETVIRTUALGPUINFO, DXGKARG_GETVIRTUALGPUINFO, *PDXGKARG_GETVIRTUALGPUINFO, 

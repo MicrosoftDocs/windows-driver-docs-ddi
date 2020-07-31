@@ -9,6 +9,7 @@ keywords: ["PFND3D12DDI_VIDEO_GET_BITSTREAM_ENCRYPTION_SCHEME_COUNT_0020 callbac
 ms.keywords: PFND3D12DDI_VIDEO_GET_BITSTREAM_ENCRYPTION_SCHEME_COUNT_0020, PFND3D12DDI_VIDEO_GET_BITSTREAM_ENCRYPTION_SCHEME_COUNT_0020 callback, d3d12umddi/pfnGetBitstreamEncryptionSchemeCount, display.pfnd3d12ddi_video_get_decode_bitstream_encryption_scheme_count, pfnGetBitstreamEncryptionSchemeCount, pfnGetBitstreamEncryptionSchemeCount callback function [Display Devices]
 f1_keywords:
  - "d3d12umddi/pfnGetBitstreamEncryptionSchemeCount"
+ - "pfnGetBitstreamEncryptionSchemeCount"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - D3d12umddi.h
 api_name:
 - pfnGetBitstreamEncryptionSchemeCount
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

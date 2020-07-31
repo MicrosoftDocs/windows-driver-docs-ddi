@@ -10,6 +10,7 @@ keywords: ["IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION IOCTL"]
 ms.keywords: IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION, IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION control, IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION, storage.ioctl_ehstor_bandmgmt_set_band_location
 f1_keywords:
  - "ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION"
+ - "IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION"
 req.header: ehstorbandmgmt.h
 req.include-header: EhStorBandMgmt.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - EhStorBandMgmt.h
 api_name:
 - IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

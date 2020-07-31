@@ -10,6 +10,7 @@ keywords: ["RxSpinDownMRxDispatcher function"]
 ms.keywords: RxSpinDownMRxDispatcher, RxSpinDownMRxDispatcher function [Installable File System Drivers], ifsk.rxspindownmrxdispatcher, rxref_aa43a136-8df7-45f1-bf52-48792c094f31.xml, rxworkq/RxSpinDownMRxDispatcher
 f1_keywords:
  - "rxworkq/RxSpinDownMRxDispatcher"
+ - "RxSpinDownMRxDispatcher"
 req.header: rxworkq.h
 req.include-header: Rxworkq.h, Rxstruc.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - rxworkq.h
 api_name:
 - RxSpinDownMRxDispatcher
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

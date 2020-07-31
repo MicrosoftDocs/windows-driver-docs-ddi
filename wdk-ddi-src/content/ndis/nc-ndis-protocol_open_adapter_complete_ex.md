@@ -10,6 +10,7 @@ keywords: ["PROTOCOL_OPEN_ADAPTER_COMPLETE_EX callback function"]
 ms.keywords: PROTOCOL_OPEN_ADAPTER_COMPLETE_EX, PROTOCOL_OPEN_ADAPTER_COMPLETE_EX callback, ProtocolOpenAdapterCompleteEx, ProtocolOpenAdapterCompleteEx callback function [Network Drivers Starting with Windows Vista], ndis/ProtocolOpenAdapterCompleteEx, netvista.protocolopenadaptercompleteex, protocol_functions_ref_d47f5a23-aa11-4fc8-9dec-a1ecb3184d9a.xml
 f1_keywords:
  - "ndis/ProtocolOpenAdapterCompleteEx"
+ - "ProtocolOpenAdapterCompleteEx"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - ProtocolOpenAdapterCompleteEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

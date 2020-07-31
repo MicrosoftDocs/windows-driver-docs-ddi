@@ -10,6 +10,7 @@ keywords: ["IServiceGroup::SupportDelayedService"]
 ms.keywords: IServiceGroup interface [Audio Devices],SupportDelayedService method, IServiceGroup.SupportDelayedService, IServiceGroup::SupportDelayedService, SupportDelayedService, SupportDelayedService method [Audio Devices], SupportDelayedService method [Audio Devices],IServiceGroup interface, audio.iservicegroup_supportdelayedservice, audmp-routines_6eb53e77-9437-43b5-8a5c-e33e15cb9cf3.xml, portcls/IServiceGroup::SupportDelayedService
 f1_keywords:
  - "portcls/IServiceGroup.SupportDelayedService"
+ - "IServiceGroup.SupportDelayedService"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IServiceGroup.SupportDelayedService
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

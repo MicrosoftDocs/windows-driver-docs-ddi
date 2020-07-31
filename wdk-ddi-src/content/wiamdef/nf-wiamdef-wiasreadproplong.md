@@ -10,6 +10,7 @@ keywords: ["wiasReadPropLong function"]
 ms.keywords: image.wiasreadproplong, wiamdef/wiasReadPropLong, wiasFncs_a60071a3-6ae9-431d-8d8b-a964547e9770.xml, wiasReadPropLong, wiasReadPropLong function [Imaging Devices]
 f1_keywords:
  - "wiamdef/wiasReadPropLong"
+ - "wiasReadPropLong"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wiaservc.dll
 api_name:
 - wiasReadPropLong
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

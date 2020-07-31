@@ -10,6 +10,7 @@ keywords: ["IObjectCleanup::OnCleanup"]
 ms.keywords: IObjectCleanup interface,OnCleanup method, IObjectCleanup.OnCleanup, IObjectCleanup::OnCleanup, OnCleanup, OnCleanup method, OnCleanup method,IObjectCleanup interface, UMDFBaseObjectRef_1798eedf-b083-487c-b137-24d9caf1e7a7.xml, umdf.iobjectcleanup_oncleanup, wdf.iobjectcleanup_oncleanup, wudfddi/IObjectCleanup::OnCleanup
 f1_keywords:
  - "wudfddi/IObjectCleanup.OnCleanup"
+ - "IObjectCleanup.OnCleanup"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wudfddi.h
 api_name:
 - IObjectCleanup.OnCleanup
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

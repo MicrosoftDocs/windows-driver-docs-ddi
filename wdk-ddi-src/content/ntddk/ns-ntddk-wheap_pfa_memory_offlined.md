@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["WHEAP_PFA_MEMORY_OFFLINED structure"]
 f1_keywords:
  - "ntddk/WHEAP_PFA_MEMORY_OFFLINED"
+ - "WHEAP_PFA_MEMORY_OFFLINED"
 ms.keywords: WHEAP_PFA_MEMORY_OFFLINED, WHEAP_PFA_MEMORY_OFFLINED, *PWHEAP_PFA_MEMORY_OFFLINED, 
 req.header: ntddk.h
 req.include-header:

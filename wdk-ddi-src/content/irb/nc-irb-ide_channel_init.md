@@ -10,6 +10,7 @@ keywords: ["IDE_CHANNEL_INIT callback function"]
 ms.keywords: AtaChannelInitRoutine, AtaChannelInitRoutine routine [Storage Devices], IDE_CHANNEL_INIT, atartns_7bbe3bef-24c7-4666-9b83-a29646d92f71.xml, irb/AtaChannelInitRoutine, storage.atachannelinitroutine
 f1_keywords:
  - "irb/AtaChannelInitRoutine"
+ - "AtaChannelInitRoutine"
 req.header: irb.h
 req.include-header: Irb.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - irb.h
 api_name:
 - AtaChannelInitRoutine
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

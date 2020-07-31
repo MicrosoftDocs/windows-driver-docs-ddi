@@ -10,6 +10,7 @@ keywords: ["IDebugControl5::OutputStackTraceEx"]
 ms.keywords: IDebugControl5 interface [Windows Debugging],OutputStackTraceEx method, IDebugControl5.OutputStackTraceEx, IDebugControl5::OutputStackTraceEx, OutputStackTraceEx, OutputStackTraceEx method [Windows Debugging], OutputStackTraceEx method [Windows Debugging],IDebugControl5 interface, dbgeng/IDebugControl5::OutputStackTraceEx, debugger.idebugcontrol5_outputstacktraceex
 f1_keywords:
  - "dbgeng/IDebugControl5.OutputStackTraceEx"
+ - "IDebugControl5.OutputStackTraceEx"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugControl5.OutputStackTraceEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

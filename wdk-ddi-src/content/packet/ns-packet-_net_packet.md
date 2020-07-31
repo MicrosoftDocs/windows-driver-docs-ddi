@@ -8,6 +8,7 @@ ms.date: 01/30/2019
 keywords: ["_NET_PACKET structure"]
 f1_keywords:
  - "packet/RegisterOpRegionHandler"
+ - "RegisterOpRegionHandler"
 ms.keywords: _NET_PACKET, NET_PACKET, *PNET_PACKET, 
 req.header: packet.h
 req.include-header:
@@ -33,8 +34,6 @@ apilocation:
 apiname: 
 - NET_PACKET
 targetos: Windows
-product:
-- Windows
 ---
 
 # _NET_PACKET structure

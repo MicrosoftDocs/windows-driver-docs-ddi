@@ -10,6 +10,7 @@ keywords: ["IDARG_OUT_GETMOVEREGIONS structure"]
 ms.keywords: IDARG_OUT_GETMOVEREGIONS, IDARG_OUT_GETMOVEREGIONS structure [Display Devices], display.idarg_out_getmoveregions, iddcx/IDARG_OUT_GETMOVEREGIONS
 f1_keywords:
  - "iddcx/IDARG_OUT_GETMOVEREGIONS"
+ - "IDARG_OUT_GETMOVEREGIONS"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - iddcx.h
 api_name:
 - IDARG_OUT_GETMOVEREGIONS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

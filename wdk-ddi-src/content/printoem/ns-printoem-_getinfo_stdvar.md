@@ -10,6 +10,7 @@ keywords: ["_GETINFO_STDVAR structure"]
 ms.keywords: "*PGETINFO_STDVAR, GETINFO_STDVAR, GETINFO_STDVAR structure [Print Devices], PGETINFO_STDVAR, PGETINFO_STDVAR structure pointer [Print Devices], _GETINFO_STDVAR, print.getinfo_stdvar, print_unidrv-pscript_rendering_3a08d48b-215f-4acc-89ef-849a2b826ce7.xml, printoem/GETINFO_STDVAR, printoem/PGETINFO_STDVAR"
 f1_keywords:
  - "printoem/GETINFO_STDVAR"
+ - "GETINFO_STDVAR"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - printoem.h
 api_name:
 - GETINFO_STDVAR
-product:
-- Windows
 targetos: Windows
 req.typenames: GETINFO_STDVAR, *PGETINFO_STDVAR
 ---

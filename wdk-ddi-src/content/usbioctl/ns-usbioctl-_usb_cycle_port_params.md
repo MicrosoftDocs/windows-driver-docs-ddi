@@ -10,6 +10,7 @@ keywords: ["_USB_CYCLE_PORT_PARAMS structure"]
 ms.keywords: "*PUSB_CYCLE_PORT_PARAMS, PUSB_CYCLE_PORT_PARAMS, PUSB_CYCLE_PORT_PARAMS structure pointer [Buses], USB_CYCLE_PORT_PARAMS, USB_CYCLE_PORT_PARAMS structure [Buses], _USB_CYCLE_PORT_PARAMS, buses.usb_cycle_port_params, usbioctl/PUSB_CYCLE_PORT_PARAMS, usbioctl/USB_CYCLE_PORT_PARAMS"
 f1_keywords:
  - "usbioctl/USB_CYCLE_PORT_PARAMS"
+ - "USB_CYCLE_PORT_PARAMS"
 req.header: usbioctl.h
 req.include-header:
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - usbioctl.h
 api_name:
 - USB_CYCLE_PORT_PARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: USB_CYCLE_PORT_PARAMS, *PUSB_CYCLE_PORT_PARAMS
 ---

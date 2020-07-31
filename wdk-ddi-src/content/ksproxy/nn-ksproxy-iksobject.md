@@ -10,6 +10,7 @@ keywords: ["IKsObject interface"]
 ms.keywords: IKsObject, IKsObject interface [Streaming Media Devices], IKsObject interface [Streaming Media Devices],described, ksproxy_6432effa-13f1-4b39-a158-c315a93108d4.xml, stream.iksobject
 f1_keywords:
  - "ksproxy/IKsObject"
+ - "IKsObject"
 req.header: ksproxy.h
 req.include-header: 
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 - ksproxy.h.dll
 api_name:
 - IKsObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -54,7 +53,7 @@ The <b>IKsObject</b> interface provides a method to retrieve the file handle of 
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IKsObject</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsObject</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IKsObject</b> interface inherits from the <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsObject</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

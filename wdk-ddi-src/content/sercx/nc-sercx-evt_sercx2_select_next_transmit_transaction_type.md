@@ -10,6 +10,7 @@ keywords: ["EVT_SERCX2_SELECT_NEXT_TRANSMIT_TRANSACTION_TYPE callback function"]
 ms.keywords: 2/EvtSerCx2SelectNextTransmitTransactionType, EVT_SERCX2_SELECT_NEXT_TRANSMIT_TRANSACTION_TYPE, EVT_SERCX2_SELECT_NEXT_TRANSMIT_TRANSACTION_TYPE callback, EvtSerCx2SelectNextTransmitTransactionType, EvtSerCx2SelectNextTransmitTransactionType callback function [Serial Ports], serports.evtsercx2selectnexttransmittransactiontype
 f1_keywords:
  - "sercx/EvtSerCx2SelectNextTransmitTransactionType"
+ - "EvtSerCx2SelectNextTransmitTransactionType"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - 2.0\Sercx.h
 api_name:
 - EvtSerCx2SelectNextTransmitTransactionType
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

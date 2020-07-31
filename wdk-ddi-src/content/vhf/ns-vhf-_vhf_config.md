@@ -10,6 +10,7 @@ keywords: ["_VHF_CONFIG structure"]
 ms.keywords: "*PVHF_CONFIG, PVHF_CONFIG, PVHF_CONFIG structure pointer [Human Input Devices], VHF_CONFIG, VHF_CONFIG structure [Human Input Devices], _VHF_CONFIG, hid.vhf_config, vhf/PVHF_CONFIG, vhf/VHF_CONFIG"
 f1_keywords:
  - "vhf/VHF_CONFIG"
+ - "VHF_CONFIG"
 req.header: vhf.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - vhf.h
 api_name:
 - VHF_CONFIG
-product:
-- Windows
 targetos: Windows
 req.typenames: VHF_CONFIG, *PVHF_CONFIG
 ---

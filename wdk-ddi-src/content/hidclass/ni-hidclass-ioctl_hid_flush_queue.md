@@ -10,6 +10,7 @@ keywords: ["IOCTL_HID_FLUSH_QUEUE IOCTL"]
 ms.keywords: IOCTL_HID_FLUSH_QUEUE, IOCTL_HID_FLUSH_QUEUE control, IOCTL_HID_FLUSH_QUEUE control code [Human Input Devices], hid.ioctl_hid_flush_queue, hidclass/IOCTL_HID_FLUSH_QUEUE, hidioreq_d7b2ccb0-76c8-4aa7-9d05-b8226106baa6.xml
 f1_keywords:
  - "hidclass/IOCTL_HID_FLUSH_QUEUE"
+ - "IOCTL_HID_FLUSH_QUEUE"
 req.header: hidclass.h
 req.include-header: Hidclass.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - hidclass.h
 api_name:
 - IOCTL_HID_FLUSH_QUEUE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

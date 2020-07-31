@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["_USBPM_CONNECTOR_PROPERTIES structure"]
 f1_keywords:
  - "usbpmapi/USBPM_CONNECTOR_PROPERTIES"
+ - "USBPM_CONNECTOR_PROPERTIES"
 tech.root: usbref
 ms.keywords: _USBPM_CONNECTOR_PROPERTIES, USBPM_CONNECTOR_PROPERTIES, *PUSBPM_CONNECTOR_PROPERTIES, 
 req.header: usbpmapi.h
@@ -30,8 +31,6 @@ api_location:
 - usbpmapi.h
 api_name: 
 - USBPM_CONNECTOR_PROPERTIES
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

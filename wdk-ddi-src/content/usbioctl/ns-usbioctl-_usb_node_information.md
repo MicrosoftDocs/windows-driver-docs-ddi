@@ -10,6 +10,7 @@ keywords: ["_USB_NODE_INFORMATION structure"]
 ms.keywords: "*PUSB_NODE_INFORMATION, PUSB_NODE_INFORMATION, PUSB_NODE_INFORMATION structure pointer [Buses], USB_NODE_INFORMATION, USB_NODE_INFORMATION structure [Buses], _USB_NODE_INFORMATION, buses.usb_node_information, usbioctl/PUSB_NODE_INFORMATION, usbioctl/USB_NODE_INFORMATION, usbstrct_c3f807a8-2895-4a43-bfd3-84092fb4115e.xml"
 f1_keywords:
  - "usbioctl/USB_NODE_INFORMATION"
+ - "USB_NODE_INFORMATION"
 req.header: usbioctl.h
 req.include-header: Usbioctl.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - usbioctl.h
 api_name:
 - USB_NODE_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: USB_NODE_INFORMATION, *PUSB_NODE_INFORMATION
 ---

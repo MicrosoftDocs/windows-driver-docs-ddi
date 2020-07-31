@@ -10,6 +10,7 @@ keywords: ["KSNODE_CREATE structure"]
 ms.keywords: "*PKSNODE_CREATE, KSNODE_CREATE, KSNODE_CREATE structure [Streaming Media Devices], PKSNODE_CREATE, PKSNODE_CREATE structure pointer [Streaming Media Devices], ks-struct_2fb3dcb7-5945-4f8a-b1f1-945910ec8396.xml, ks/KSNODE_CREATE, ks/PKSNODE_CREATE, stream.ksnode_create"
 f1_keywords:
  - "ks/KSNODE_CREATE"
+ - "KSNODE_CREATE"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KSNODE_CREATE
-product:
-- Windows
 targetos: Windows
 req.typenames: KSNODE_CREATE, *PKSNODE_CREATE
 ---

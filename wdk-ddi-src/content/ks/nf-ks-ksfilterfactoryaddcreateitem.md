@@ -10,6 +10,7 @@ keywords: ["KsFilterFactoryAddCreateItem function"]
 ms.keywords: KsFilterFactoryAddCreateItem, KsFilterFactoryAddCreateItem function [Streaming Media Devices], avfunc_f4a42084-1d8f-49f8-a6d3-d09304e11049.xml, ks/KsFilterFactoryAddCreateItem, stream.ksfilterfactoryaddcreateitem
 f1_keywords:
  - "ks/KsFilterFactoryAddCreateItem"
+ - "KsFilterFactoryAddCreateItem"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsFilterFactoryAddCreateItem
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

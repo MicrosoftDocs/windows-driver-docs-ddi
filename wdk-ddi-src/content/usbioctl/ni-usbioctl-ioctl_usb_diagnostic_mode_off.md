@@ -10,6 +10,7 @@ keywords: ["IOCTL_USB_DIAGNOSTIC_MODE_OFF IOCTL"]
 ms.keywords: IOCTL_USB_DIAGNOSTIC_MODE_OFF, IOCTL_USB_DIAGNOSTIC_MODE_OFF control, IOCTL_USB_DIAGNOSTIC_MODE_OFF control code [Buses], buses.ioctl_usb_diagnostic_mode_off, usbioctl/IOCTL_USB_DIAGNOSTIC_MODE_OFF, usbirp_7b761254-b350-4ac8-820f-04426139f6bb.xml
 f1_keywords:
  - "usbioctl/IOCTL_USB_DIAGNOSTIC_MODE_OFF"
+ - "IOCTL_USB_DIAGNOSTIC_MODE_OFF"
 req.header: usbioctl.h
 req.include-header: Usbioctl.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Usbioctl.h
 api_name:
 - IOCTL_USB_DIAGNOSTIC_MODE_OFF
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

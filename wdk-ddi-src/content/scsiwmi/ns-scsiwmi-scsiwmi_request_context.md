@@ -10,6 +10,7 @@ keywords: ["SCSIWMI_REQUEST_CONTEXT structure"]
 ms.keywords: "*PSCSIWMI_REQUEST_CONTEXT, PSCSIWMI_REQUEST_CONTEXT, PSCSIWMI_REQUEST_CONTEXT structure pointer [Storage Devices], SCSIWMI_REQUEST_CONTEXT, SCSIWMI_REQUEST_CONTEXT structure [Storage Devices], scsiwmi/PSCSIWMI_REQUEST_CONTEXT, scsiwmi/SCSIWMI_REQUEST_CONTEXT, storage.scsiwmi_request_context, structs-scsibus_3323f388-8dc7-4723-bc2c-7822ed622ccd.xml"
 f1_keywords:
  - "scsiwmi/SCSIWMI_REQUEST_CONTEXT"
+ - "SCSIWMI_REQUEST_CONTEXT"
 req.header: scsiwmi.h
 req.include-header: Scsiwmi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - scsiwmi.h
 api_name:
 - SCSIWMI_REQUEST_CONTEXT
-product:
-- Windows
 targetos: Windows
 req.typenames: SCSIWMI_REQUEST_CONTEXT, *PSCSIWMI_REQUEST_CONTEXT
 ---

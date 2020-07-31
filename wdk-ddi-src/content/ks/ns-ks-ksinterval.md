@@ -10,6 +10,7 @@ keywords: ["KSINTERVAL structure"]
 ms.keywords: "*PKSINTERVAL, KSINTERVAL, KSINTERVAL structure [Streaming Media Devices], PKSINTERVAL, PKSINTERVAL structure pointer [Streaming Media Devices], ks-struct_56fded71-9af4-46a7-b872-1660582179ad.xml, ks/KSINTERVAL, ks/PKSINTERVAL, stream.ksinterval"
 f1_keywords:
  - "ks/KSINTERVAL"
+ - "KSINTERVAL"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KSINTERVAL
-product:
-- Windows
 targetos: Windows
 req.typenames: KSINTERVAL, *PKSINTERVAL
 ---

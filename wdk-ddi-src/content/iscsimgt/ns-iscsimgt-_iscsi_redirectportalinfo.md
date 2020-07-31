@@ -10,6 +10,7 @@ keywords: ["_ISCSI_RedirectPortalInfo structure"]
 ms.keywords: "*PISCSI_RedirectPortalInfo, ISCSI_RedirectPortalInfo, ISCSI_RedirectPortalInfo structure [Storage Devices], PISCSI_RedirectPortalInfo, PISCSI_RedirectPortalInfo structure pointer [Storage Devices], _ISCSI_RedirectPortalInfo, iscsimgt/ISCSI_RedirectPortalInfo, iscsimgt/PISCSI_RedirectPortalInfo, storage.iscsi_redirectportalinfo, structs-iSCSI_6b7dc6ac-b421-4454-aa8f-48f52c9b4350.xml"
 f1_keywords:
  - "iscsimgt/ISCSI_RedirectPortalInfo"
+ - "ISCSI_RedirectPortalInfo"
 req.header: iscsimgt.h
 req.include-header: Iscsimgt.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - iscsimgt.h
 api_name:
 - ISCSI_RedirectPortalInfo
-product:
-- Windows
 targetos: Windows
 req.typenames: ISCSI_RedirectPortalInfo, *PISCSI_RedirectPortalInfo
 ---

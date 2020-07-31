@@ -10,6 +10,7 @@ keywords: ["PINT10_CALL_BIOS callback function"]
 ms.keywords: Int10CallBios, Int10CallBios callback function [Display Devices], PINT10_CALL_BIOS, PINT10_CALL_BIOS callback, VideoPort_Functions_7a9921fa-ea1e-49fa-8881-ea0792d91123.xml, display.int10callbios, video/Int10CallBios
 f1_keywords:
  - "video/Int10CallBios"
+ - "Int10CallBios"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - video.h
 api_name:
 - Int10CallBios
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

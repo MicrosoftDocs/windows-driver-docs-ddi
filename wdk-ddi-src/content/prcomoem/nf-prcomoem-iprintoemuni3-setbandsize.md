@@ -10,6 +10,7 @@ keywords: ["IPrintOemUni3::SetBandSize"]
 ms.keywords: BMF_16BPP, BMF_1BPP, BMF_24BPP, BMF_32BPP, BMF_4BPP, BMF_4RLE, BMF_8BPP, BMF_8RLE, IPrintOemUni3 interface [Print Devices],SetBandSize method, IPrintOemUni3.SetBandSize, IPrintOemUni3::SetBandSize, SetBandSize, SetBandSize method [Print Devices], SetBandSize method [Print Devices],IPrintOemUni3 interface, prcomoem/IPrintOemUni3::SetBandSize, print.iprintoemuni3_setbandsize, print_unidrv-pscript_rendering_b381059a-7a5c-49c7-b721-6012ff44157c.xml
 f1_keywords:
  - "prcomoem/IPrintOemUni3.SetBandSize"
+ - "IPrintOemUni3.SetBandSize"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - prcomoem.h
 api_name:
 - IPrintOemUni3.SetBandSize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

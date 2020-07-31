@@ -10,6 +10,7 @@ keywords: ["WdfCmResourceListInsertDescriptor function"]
 ms.keywords: DFResourceObjectRef_f55c637b-3d8b-4467-9668-bd723bc0206e.xml, WdfCmResourceListInsertDescriptor, WdfCmResourceListInsertDescriptor method, kmdf.wdfcmresourcelistinsertdescriptor, wdf.wdfcmresourcelistinsertdescriptor, wdfresource/WdfCmResourceListInsertDescriptor
 f1_keywords:
  - "wdfresource/WdfCmResourceListInsertDescriptor"
+ - "WdfCmResourceListInsertDescriptor"
 req.header: wdfresource.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfCmResourceListInsertDescriptor
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

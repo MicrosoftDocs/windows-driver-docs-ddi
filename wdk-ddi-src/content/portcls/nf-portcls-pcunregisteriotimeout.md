@@ -10,6 +10,7 @@ keywords: ["PcUnregisterIoTimeout function"]
 ms.keywords: PcUnregisterIoTimeout, PcUnregisterIoTimeout function [Audio Devices], audio.pcunregisteriotimeout, audpc-routines_cb67c1bb-c5ad-4118-bdff-906735214653.xml, portcls/PcUnregisterIoTimeout
 f1_keywords:
  - "portcls/PcUnregisterIoTimeout"
+ - "PcUnregisterIoTimeout"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Portcls.dll
 api_name:
 - PcUnregisterIoTimeout
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

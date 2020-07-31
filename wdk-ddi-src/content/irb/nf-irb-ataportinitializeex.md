@@ -10,6 +10,7 @@ keywords: ["AtaPortInitializeEx function"]
 ms.keywords: AtaPortInitializeEx, AtaPortInitializeEx routine [Storage Devices], atartns_dab74a62-5788-4de9-91eb-e1eb7a7bcaf5.xml, irb/AtaPortInitializeEx, storage.ataportinitializeex
 f1_keywords:
  - "irb/AtaPortInitializeEx"
+ - "AtaPortInitializeEx"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Pciidex.dll
 api_name:
 - AtaPortInitializeEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

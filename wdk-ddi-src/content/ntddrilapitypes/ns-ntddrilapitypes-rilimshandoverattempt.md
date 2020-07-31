@@ -10,6 +10,7 @@ keywords: ["RILIMSHANDOVERATTEMPT structure"]
 ms.keywords: "*LPRILIMSHANDOVERATTEMPT, RILIMSHANDOVERATTEMPT, RILIMSHANDOVERATTEMPT structure [Network Drivers Starting with Windows Vista], netvista.rilimshandoverattempt, ntddrilapitypes/RILIMSHANDOVERATTEMPT"
 f1_keywords:
  - "ntddrilapitypes/RILIMSHANDOVERATTEMPT"
+ - "RILIMSHANDOVERATTEMPT"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILIMSHANDOVERATTEMPT
-product:
-- Windows
 targetos: Windows
 req.typenames: RILIMSHANDOVERATTEMPT, *LPRILIMSHANDOVERATTEMPT
 ---

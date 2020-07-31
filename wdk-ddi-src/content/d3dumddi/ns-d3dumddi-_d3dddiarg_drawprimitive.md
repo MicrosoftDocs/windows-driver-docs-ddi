@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_DRAWPRIMITIVE structure"]
 ms.keywords: D3DDDIARG_DRAWPRIMITIVE, D3DDDIARG_DRAWPRIMITIVE structure [Display Devices], UMDisplayDriver_param_Structs_19d7b078-8ea3-4b3a-982a-1163643df142.xml, _D3DDDIARG_DRAWPRIMITIVE, d3dumddi/D3DDDIARG_DRAWPRIMITIVE, display.d3dddiarg_drawprimitive
 f1_keywords:
  - "d3dumddi/D3DDDIARG_DRAWPRIMITIVE"
+ - "D3DDDIARG_DRAWPRIMITIVE"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDIARG_DRAWPRIMITIVE
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_DRAWPRIMITIVE
 ---

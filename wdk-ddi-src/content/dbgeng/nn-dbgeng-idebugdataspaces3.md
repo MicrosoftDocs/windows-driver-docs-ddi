@@ -10,6 +10,7 @@ keywords: ["IDebugDataSpaces3 interface"]
 ms.keywords: IDebugDataSpaces3, IDebugDataSpaces3 interface [Windows Debugging], IDebugDataSpaces3 interface [Windows Debugging],described, dbgeng/IDebugDataSpaces3, debugger.idebugdataspaces3
 f1_keywords:
  - "dbgeng/IDebugDataSpaces3"
+ - "IDebugDataSpaces3"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugDataSpaces3
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS IOCTL"]
 ms.keywords: IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS, IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS control, IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS control code [Biometric Devices], biometric.ioctl_biometric_get_supported_algorithms, biometric_ref_64928d1a-978a-4bc9-8f4a-bac423c00133.xml, winbio_ioctl/IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS
 f1_keywords:
  - "winbio_ioctl/IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS"
+ - "IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS"
 req.header: winbio_ioctl.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Winbio_ioctl.h
 api_name:
 - IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

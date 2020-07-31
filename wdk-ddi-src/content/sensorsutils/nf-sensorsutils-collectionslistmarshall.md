@@ -7,6 +7,7 @@ ms.date: 08/08/2018
 keywords: ["CollectionsListMarshall function"]
 f1_keywords:
  - "sensorsutils/CollectionsListMarshall"
+ - "CollectionsListMarshall"
 tech.root: sensors
 ms.keywords: CollectionsListMarshall
 req.header: sensorsutils.h
@@ -34,8 +35,6 @@ api_location:
 - sensorsutils.h
 api_name: 
 - CollectionsListMarshall
-product:
-- Windows
 targetos: Windows
 
 

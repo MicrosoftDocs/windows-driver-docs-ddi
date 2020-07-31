@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_ADAPTERADDRESS structure"]
 ms.keywords: D3DKMT_ADAPTERADDRESS, D3DKMT_ADAPTERADDRESS structure [Display Devices], OpenGL_Structs_98b1caf8-46c4-4f78-896c-031e8f3f61d0.xml, _D3DKMT_ADAPTERADDRESS, d3dkmthk/D3DKMT_ADAPTERADDRESS, display.d3dkmt_adapteraddress
 f1_keywords:
  - "d3dkmthk/D3DKMT_ADAPTERADDRESS"
+ - "D3DKMT_ADAPTERADDRESS"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmthk.h
 api_name:
 - D3DKMT_ADAPTERADDRESS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_ADAPTERADDRESS

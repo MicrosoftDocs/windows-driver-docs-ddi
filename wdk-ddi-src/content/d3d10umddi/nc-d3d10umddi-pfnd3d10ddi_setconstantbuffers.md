@@ -9,6 +9,7 @@ keywords: ["PFND3D10DDI_SETCONSTANTBUFFERS callback function"]
 ms.keywords: CsSetConstantBuffers, CsSetConstantBuffers callback function [Display Devices], PFND3D10DDI_SETCONSTANTBUFFERS, PFND3D10DDI_SETCONSTANTBUFFERS callback, UserModeDisplayDriverDx11_Functions_ae0b7e35-f8c5-428d-97d0-e22d5b609c72.xml, d3d10umddi/CsSetConstantBuffers, display.cssetconstantbuffers
 f1_keywords:
  - "d3d10umddi/CsSetConstantBuffers"
+ - "CsSetConstantBuffers"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - CsSetConstantBuffers
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

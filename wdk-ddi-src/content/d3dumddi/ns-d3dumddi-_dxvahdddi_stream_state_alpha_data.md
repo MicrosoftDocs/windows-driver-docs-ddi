@@ -10,6 +10,7 @@ keywords: ["_DXVAHDDDI_STREAM_STATE_ALPHA_DATA structure"]
 ms.keywords: DXVA2_Structs_33a16800-e101-40e7-b776-36161a8a984a.xml, DXVAHDDDI_STREAM_STATE_ALPHA_DATA, DXVAHDDDI_STREAM_STATE_ALPHA_DATA structure [Display Devices], _DXVAHDDDI_STREAM_STATE_ALPHA_DATA, d3dumddi/DXVAHDDDI_STREAM_STATE_ALPHA_DATA, display.dxvahdddi_stream_state_alpha_data
 f1_keywords:
  - "d3dumddi/DXVAHDDDI_STREAM_STATE_ALPHA_DATA"
+ - "DXVAHDDDI_STREAM_STATE_ALPHA_DATA"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - DXVAHDDDI_STREAM_STATE_ALPHA_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVAHDDDI_STREAM_STATE_ALPHA_DATA
 ---

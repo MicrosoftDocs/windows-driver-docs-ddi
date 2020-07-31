@@ -7,6 +7,7 @@ ms.date: 09/07/2018
 keywords: ["SIDEBANDAUDIO_STREAM_OPEN_PARAMS structure"]
 f1_keywords:
  - "sidebandaudio/SIDEBANDAUDIO_STREAM_OPEN_PARAMS"
+ - "SIDEBANDAUDIO_STREAM_OPEN_PARAMS"
 ms.keywords: SIDEBANDAUDIO_STREAM_OPEN_PARAMS, SIDEBANDAUDIO_STREAM_OPEN_PARAMS, *PSIDEBANDAUDIO_STREAM_OPEN_PARAMS, 
 req.header: sidebandaudio.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - sidebandaudio.h
 api_name: 
 - SIDEBANDAUDIO_STREAM_OPEN_PARAMS
-product:
-- Windows
 targetos: Windows
 tech.root: audio
 ms.custom: RS5

@@ -10,6 +10,7 @@ keywords: ["IWDTFActions2::Clear"]
 ms.keywords: Clear, Clear method [Windows Device Testing Framework], Clear method [Windows Device Testing Framework],IWDTFActions2 interface, IWDTFActions2 interface [Windows Device Testing Framework],Clear method, IWDTFActions2.Clear, IWDTFActions2::Clear, dtf.iwdtfactions2_clear, wdtf/IWDTFActions2::Clear
 f1_keywords:
  - "wdtf/IWDTFActions2.Clear"
+ - "IWDTFActions2.Clear"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wdtf.h
 api_name:
 - IWDTFActions2.Clear
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

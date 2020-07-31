@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["GET_UPDATED_BUS_RESOURCE callback function"]
 f1_keywords:
  - "wdm/GET_UPDATED_BUS_RESOURCE"
+ - "GET_UPDATED_BUS_RESOURCE"
 req.header: wdm.h
 req.include-header:
 req.target-type:
@@ -32,8 +33,6 @@ api_location:
 - wdm.h
 api_name: 
 - GET_UPDATED_BUS_RESOURCE
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

@@ -10,6 +10,7 @@ keywords: ["_WINBIO_SET_INDICATOR structure"]
 ms.keywords: "*PWINBIO_SET_INDICATOR, PWINBIO_SET_INDICATOR, PWINBIO_SET_INDICATOR structure pointer [Biometric Devices], WINBIO_SET_INDICATOR, WINBIO_SET_INDICATOR structure [Biometric Devices], _WINBIO_SET_INDICATOR, biometric.winbio_set_indicator, biometric_ref_2ee60af8-1872-4932-9db7-9c3c27e29ddf.xml, winbio_ioctl/PWINBIO_SET_INDICATOR, winbio_ioctl/WINBIO_SET_INDICATOR"
 f1_keywords:
  - "winbio_ioctl/WINBIO_SET_INDICATOR"
+ - "WINBIO_SET_INDICATOR"
 req.header: winbio_ioctl.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - winbio_ioctl.h
 api_name:
 - WINBIO_SET_INDICATOR
-product:
-- Windows
 targetos: Windows
 req.typenames: WINBIO_SET_INDICATOR, *PWINBIO_SET_INDICATOR
 ---

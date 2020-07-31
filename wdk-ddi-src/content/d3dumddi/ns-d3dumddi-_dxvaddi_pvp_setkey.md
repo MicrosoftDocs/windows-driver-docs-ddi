@@ -10,6 +10,7 @@ keywords: ["_DXVADDI_PVP_SETKEY structure"]
 ms.keywords: DXVA2_Structs_fbd26ed2-13ce-4f15-a7de-544f6f5fac33.xml, DXVADDI_PVP_SETKEY, DXVADDI_PVP_SETKEY structure [Display Devices], _DXVADDI_PVP_SETKEY, d3dumddi/DXVADDI_PVP_SETKEY, display.dxvaddi_pvp_setkey
 f1_keywords:
  - "d3dumddi/DXVADDI_PVP_SETKEY"
+ - "DXVADDI_PVP_SETKEY"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - DXVADDI_PVP_SETKEY
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVADDI_PVP_SETKEY
 ---

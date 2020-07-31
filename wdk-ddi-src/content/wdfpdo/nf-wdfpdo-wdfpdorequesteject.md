@@ -10,6 +10,7 @@ keywords: ["WdfPdoRequestEject function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_f57ccd07-8cb3-4972-bddb-aa704d9422b0.xml, WdfPdoRequestEject, WdfPdoRequestEject method, kmdf.wdfpdorequesteject, wdf.wdfpdorequesteject, wdfpdo/WdfPdoRequestEject
 f1_keywords:
  - "wdfpdo/WdfPdoRequestEject"
+ - "WdfPdoRequestEject"
 req.header: wdfpdo.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfPdoRequestEject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["_USBFN_PIPE_INFORMATION structure"]
 ms.keywords: "*PUSBFN_PIPE_INFORMATION, PUSBFN_PIPE_INFORMATION, PUSBFN_PIPE_INFORMATION structure pointer [Buses], USBFN_PIPE_INFORMATION, USBFN_PIPE_INFORMATION structure [Buses], _USBFN_PIPE_INFORMATION, buses.usbfn_pipe_information, usbfnbase/PUSBFN_PIPE_INFORMATION, usbfnbase/USBFN_PIPE_INFORMATION"
 f1_keywords:
  - "usbfnbase/USBFN_PIPE_INFORMATION"
+ - "USBFN_PIPE_INFORMATION"
 req.header: usbfnbase.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - usbfnbase.h
 api_name:
 - USBFN_PIPE_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: USBFN_PIPE_INFORMATION, *PUSBFN_PIPE_INFORMATION
 ---

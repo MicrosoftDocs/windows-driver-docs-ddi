@@ -10,6 +10,7 @@ keywords: ["IoCheckQuerySetVolumeInformation function"]
 ms.keywords: IoCheckQuerySetVolumeInformation, IoCheckQuerySetVolumeInformation function [Installable File System Drivers], ifsk.iocheckquerysetvolumeinformation, ioref_67d57dbb-a3b0-4f78-9454-36c8b04e515c.xml, ntifs/IoCheckQuerySetVolumeInformation
 f1_keywords:
  - "ntifs/IoCheckQuerySetVolumeInformation"
+ - "IoCheckQuerySetVolumeInformation"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - IoCheckQuerySetVolumeInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

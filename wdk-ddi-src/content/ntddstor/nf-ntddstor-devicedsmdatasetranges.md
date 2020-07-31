@@ -8,6 +8,7 @@ ms.date: 08/23/2019
 keywords: ["DeviceDsmDataSetRanges function"]
 f1_keywords:
  - "ntddstor/DeviceDsmDataSetRanges"
+ - "DeviceDsmDataSetRanges"
 ms.keywords: DeviceDsmDataSetRanges
 req.header: ntddstor.h
 req.include-header:
@@ -34,8 +35,6 @@ api_location:
 - NtosKrnl.exe
 api_name: 
 - DeviceDsmDataSetRanges
-product:
-- Windows
 targetos: Windows
 
 ---

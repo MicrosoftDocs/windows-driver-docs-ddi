@@ -10,6 +10,7 @@ keywords: ["IPortableDeviceValues::GetUnsignedIntegerValue"]
 ms.keywords: GetUnsignedIntegerValue, GetUnsignedIntegerValue method, GetUnsignedIntegerValue method,IPortableDeviceValues interface, IPortableDeviceValues interface,GetUnsignedIntegerValue method, IPortableDeviceValues.GetUnsignedIntegerValue, IPortableDeviceValues::GetUnsignedIntegerValue, IPortableDeviceValuesGetUnsignedIntegerValue, portabledevicetypes/IPortableDeviceValues::GetUnsignedIntegerValue, wpddk.iportabledevicevalues_getunsignedintegervalue
 f1_keywords:
  - "portabledevicetypes/IPortableDeviceValues.GetUnsignedIntegerValue"
+ - "IPortableDeviceValues.GetUnsignedIntegerValue"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - PortableDeviceTypes.h
 api_name:
 - IPortableDeviceValues.GetUnsignedIntegerValue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

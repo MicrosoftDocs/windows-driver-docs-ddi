@@ -9,6 +9,7 @@ keywords: ["_DXGK_GPUMMUCAPS structure"]
 ms.keywords: DXGK_GPUMMUCAPS, DXGK_GPUMMUCAPS structure [Display Devices], _DXGK_GPUMMUCAPS, d3dkmddi/DXGK_GPUMMUCAPS, display.dxgk_gpummucaps
 f1_keywords:
  - "d3dkmddi/DXGK_GPUMMUCAPS"
+ - "DXGK_GPUMMUCAPS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3dkmddi.h
 api_name:
 - DXGK_GPUMMUCAPS
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_GPUMMUCAPS

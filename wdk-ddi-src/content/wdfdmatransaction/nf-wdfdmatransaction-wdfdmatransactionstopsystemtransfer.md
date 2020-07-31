@@ -10,6 +10,7 @@ keywords: ["WdfDmaTransactionStopSystemTransfer function"]
 ms.keywords: WdfDmaTransactionStopSystemTransfer, WdfDmaTransactionStopSystemTransfer method, kmdf.wdfdmatransactionstopsystemtransfer, wdf.wdfdmatransactionstopsystemtransfer, wdfdmatransaction/WdfDmaTransactionStopSystemTransfer
 f1_keywords:
  - "wdfdmatransaction/WdfDmaTransactionStopSystemTransfer"
+ - "WdfDmaTransactionStopSystemTransfer"
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfDmaTransactionStopSystemTransfer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

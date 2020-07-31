@@ -10,6 +10,7 @@ ms.date: 03/06/2019
 keywords: ["WheaReportHwError function"]
 f1_keywords:
  - "ntddk/WheaReportHwError"
+ - "WheaReportHwError"
 ms.keywords: WheaReportHwError
 req.header: ntddk.h
 req.include-header:

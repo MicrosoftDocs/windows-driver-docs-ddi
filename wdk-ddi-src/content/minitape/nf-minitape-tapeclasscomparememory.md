@@ -10,6 +10,7 @@ keywords: ["TapeClassCompareMemory function"]
 ms.keywords: TapeClassCompareMemory, TapeClassCompareMemory routine [Storage Devices], minitape/TapeClassCompareMemory, storage.tapeclasscomparememory, tapeclas_77631fdd-b72a-4569-8066-54f260cb4d9a.xml
 f1_keywords:
  - "minitape/TapeClassCompareMemory"
+ - "TapeClassCompareMemory"
 req.header: minitape.h
 req.include-header: Minitape.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Tape.dll
 api_name:
 - TapeClassCompareMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IPinCount::PinCount"]
 ms.keywords: IPinCount interface [Audio Devices],PinCount method, IPinCount.PinCount, IPinCount::PinCount, PinCount, PinCount method [Audio Devices], PinCount method [Audio Devices],IPinCount interface, audio.ipincount_pincount, audmp-routines_bded3ce8-936c-4391-901f-df6b2061c7c3.xml, portcls/IPinCount::PinCount
 f1_keywords:
  - "portcls/IPinCount.PinCount"
+ - "IPinCount.PinCount"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IPinCount.PinCount
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

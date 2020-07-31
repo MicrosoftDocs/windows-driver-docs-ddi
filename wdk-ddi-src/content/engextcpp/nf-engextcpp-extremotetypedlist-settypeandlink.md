@@ -10,6 +10,7 @@ keywords: ["ExtRemoteTypedList::SetTypeAndLink"]
 ms.keywords: EngExtCpp_Ref_8867c503-5983-465c-bfb6-f13b21d325cc.xml, ExtRemoteTypedList class [Windows Debugging],SetTypeAndLink method, ExtRemoteTypedList.SetTypeAndLink, ExtRemoteTypedList::SetTypeAndLink, SetTypeAndLink, SetTypeAndLink method [Windows Debugging], SetTypeAndLink method [Windows Debugging],ExtRemoteTypedList class, debugger.extremotetypedlist_settypeandlink
 f1_keywords:
  - "engextcpp/ExtRemoteTypedList.SetTypeAndLink"
+ - "ExtRemoteTypedList.SetTypeAndLink"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - engextcpp.hpp
 api_name:
 - ExtRemoteTypedList.SetTypeAndLink
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

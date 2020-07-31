@@ -10,6 +10,7 @@ keywords: ["DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1 structure"]
 ms.keywords: DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1, DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1 structure [Display Devices], display.dxgiddicb_present_multiplane_overlay1, dxgiddi/DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1
 f1_keywords:
  - "dxgiddi/DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1"
+ - "DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1"
 req.header: dxgiddi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - dxgiddi.h
 api_name:
 - DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1
 ---

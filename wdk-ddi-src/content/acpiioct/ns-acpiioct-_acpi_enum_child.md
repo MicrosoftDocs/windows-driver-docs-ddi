@@ -10,6 +10,7 @@ keywords: ["_ACPI_ENUM_CHILD structure"]
 ms.keywords: "*PACPI_ENUM_CHILD, ACPI_ENUM_CHILD, ACPI_ENUM_CHILD structure [ACPI Devices], _ACPI_ENUM_CHILD, acpi-meth-eval-ref_7ffcb8d5-da55-4ed9-88db-8f954d01852b.xml, acpi.acpi_enum_child, acpiioct/ACPI_ENUM_CHILD"
 f1_keywords:
  - "acpiioct/ACPI_ENUM_CHILD"
+ - "ACPI_ENUM_CHILD"
 req.header: acpiioct.h
 req.include-header: Acpiioct.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Acpiioct.h
 api_name:
 - ACPI_ENUM_CHILD
-product:
-- Windows
 targetos: Windows
 req.typenames: ACPI_ENUM_CHILD
 ---

@@ -10,6 +10,7 @@ keywords: ["IPrintPipelineFilter::StartOperation"]
 ms.keywords: IPrintPipelineFilter interface [Print Devices],StartOperation method, IPrintPipelineFilter.StartOperation, IPrintPipelineFilter::StartOperation, StartOperation, StartOperation method [Print Devices], StartOperation method [Print Devices],IPrintPipelineFilter interface, filterpipeline/IPrintPipelineFilter::StartOperation, filterpipeline_9040ff14-d052-4360-bb31-b171581c14b6.xml, print.iprintpipelinefilter_startoperation
 f1_keywords:
  - "filterpipeline/IPrintPipelineFilter.StartOperation"
+ - "IPrintPipelineFilter.StartOperation"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Filterpipeline.h
 api_name:
 - IPrintPipelineFilter.StartOperation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

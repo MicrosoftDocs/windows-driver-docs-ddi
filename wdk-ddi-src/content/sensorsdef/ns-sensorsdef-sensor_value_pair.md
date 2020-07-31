@@ -10,6 +10,7 @@ keywords: ["SENSOR_VALUE_PAIR structure"]
 ms.keywords: "*PSENSOR_VALUE_PAIR, PSENSOR_VALUE_PAIR, PSENSOR_VALUE_PAIR structure pointer [Sensor Devices], SENSOR_VALUE_PAIR, SENSOR_VALUE_PAIR structure [Sensor Devices], sensors.sensor_value_pair, sensorsdef/PSENSOR_VALUE_PAIR, sensorsdef/SENSOR_VALUE_PAIR"
 f1_keywords:
  - "sensorsdef/SENSOR_VALUE_PAIR"
+ - "SENSOR_VALUE_PAIR"
 req.header: sensorsdef.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Sensorsdef.h
 api_name:
 - SENSOR_VALUE_PAIR
-product:
-- Windows
 targetos: Windows
 req.typenames: SENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR
 ---

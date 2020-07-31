@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["ExInitializePushLock function"]
 f1_keywords:
  - "wdm/ExInitializePushLock"
+ - "ExInitializePushLock"
 ms.keywords: ExInitializePushLock
 req.header: wdm.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - NtosKrnl.exe
 api_name: 
 - ExInitializePushLock
-product:
-- Windows
 targetos: Windows
 
 

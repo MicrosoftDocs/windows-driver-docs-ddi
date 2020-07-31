@@ -10,6 +10,7 @@ keywords: ["_D3DDDIVERTEXELEMENT structure"]
 ms.keywords: D3DDDIVERTEXELEMENT, D3DDDIVERTEXELEMENT structure [Display Devices], D3D_other_Structs_7f1e4f94-3964-4deb-b3b0-1b47f8953dfa.xml, _D3DDDIVERTEXELEMENT, d3dumddi/D3DDDIVERTEXELEMENT, display.d3dddivertexelement
 f1_keywords:
  - "d3dumddi/D3DDDIVERTEXELEMENT"
+ - "D3DDDIVERTEXELEMENT"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDIVERTEXELEMENT
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDIVERTEXELEMENT
 ---

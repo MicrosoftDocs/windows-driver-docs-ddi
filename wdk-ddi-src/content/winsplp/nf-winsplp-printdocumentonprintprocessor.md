@@ -10,6 +10,7 @@ keywords: ["PrintDocumentOnPrintProcessor function"]
 ms.keywords: PrintDocumentOnPrintProcessor, PrintDocumentOnPrintProcessor function [Print Devices], print.printdocumentonprintprocessor, spoolfnc_38f81d3c-62d9-4804-ad89-120c9a333a09.xml, winsplp/PrintDocumentOnPrintProcessor
 f1_keywords:
  - "winsplp/PrintDocumentOnPrintProcessor"
+ - "PrintDocumentOnPrintProcessor"
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Nwprint.dll
 api_name:
 - PrintDocumentOnPrintProcessor
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

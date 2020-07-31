@@ -10,6 +10,7 @@ keywords: ["KeInitializeQueue function"]
 ms.keywords: KeInitializeQueue, KeInitializeQueue routine [Installable File System Drivers], ifsk.keinitializequeue, keref_85ea0829-c42c-4411-8ad9-a32d8eb0a40f.xml, ntifs/KeInitializeQueue
 f1_keywords:
  - "ntifs/KeInitializeQueue"
+ - "KeInitializeQueue"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeInitializeQueue
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

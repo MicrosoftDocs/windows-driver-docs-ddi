@@ -10,6 +10,7 @@ keywords: ["IPartFont interface"]
 ms.keywords: IPartFont, IPartFont interface [Print Devices], IPartFont interface [Print Devices],described, filterpipeline/IPartFont, filterpipeline_def05492-ca27-43bb-9ec4-273aa432536b.xml, print.ipartfont
 f1_keywords:
  - "filterpipeline/IPartFont"
+ - "IPartFont"
 req.header: filterpipeline.h
 req.include-header: Filterpipeline.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - filterpipeline.h
 api_name:
 - IPartFont
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["_SetCHAPSharedSecret_IN structure"]
 ms.keywords: "*PSetCHAPSharedSecret_IN, PSetCHAPSharedSecret_IN, PSetCHAPSharedSecret_IN structure pointer [Storage Devices], SetCHAPSharedSecret_IN, SetCHAPSharedSecret_IN structure [Storage Devices], _SetCHAPSharedSecret_IN, iscsiop/PSetCHAPSharedSecret_IN, iscsiop/SetCHAPSharedSecret_IN, storage.setchapsharedsecret_in, structs-iSCSI_e0aefea0-989e-4834-b812-ae02da2e6f34.xml"
 f1_keywords:
  - "iscsiop/SetCHAPSharedSecret_IN"
+ - "SetCHAPSharedSecret_IN"
 req.header: iscsiop.h
 req.include-header: Iscsiop.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - iscsiop.h
 api_name:
 - SetCHAPSharedSecret_IN
-product:
-- Windows
 targetos: Windows
 req.typenames: SetCHAPSharedSecret_IN, *PSetCHAPSharedSecret_IN
 ---

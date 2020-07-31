@@ -10,6 +10,7 @@ keywords: ["EVT_SPB_CONTROLLER_LOCK callback function"]
 ms.keywords: EVT_SPB_CONTROLLER_LOCK, EVT_SPB_CONTROLLER_LOCK callback, EvtSpbControllerLock, EvtSpbControllerLock callback function [Buses], SPB.evtspbcontrollerlock, spbcx/EvtSpbControllerLock
 f1_keywords:
  - "spbcx/EvtSpbControllerLock"
+ - "EvtSpbControllerLock"
 req.header: spbcx.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Spbcx.h
 api_name:
 - EvtSpbControllerLock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

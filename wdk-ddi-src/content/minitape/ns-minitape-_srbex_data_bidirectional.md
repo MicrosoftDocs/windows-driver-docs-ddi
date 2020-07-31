@@ -10,6 +10,7 @@ keywords: ["_SRBEX_DATA_BIDIRECTIONAL structure"]
 ms.keywords: "*PSRBEX_DATA_BIDIRECTIONAL, PSRBEX_DATA_BIDIRECTIONAL, PSRBEX_DATA_BIDIRECTIONAL structure pointer [Storage Devices], SRBEX_DATA_BIDIRECTIONAL, SRBEX_DATA_BIDIRECTIONAL structure [Storage Devices], _SRBEX_DATA_BIDIRECTIONAL, storage.srbex_data_bidirectional, storport/PSRBEX_DATA_BIDIRECTIONAL, storport/SRBEX_DATA_BIDIRECTIONAL"
 f1_keywords:
  - "minitape/SRBEX_DATA_BIDIRECTIONAL"
+ - "SRBEX_DATA_BIDIRECTIONAL"
 req.header: minitape.h
 req.include-header: Storport.h, Srb.h, Minitape.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Storport.h
 api_name:
 - SRBEX_DATA_BIDIRECTIONAL
-product:
-- Windows
 targetos: Windows
 req.typenames: SRBEX_DATA_BIDIRECTIONAL, *PSRBEX_DATA_BIDIRECTIONAL
 ---

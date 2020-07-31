@@ -10,6 +10,7 @@ keywords: ["_DD_GETFORMATDATA structure"]
 ms.keywords: DD_GETFORMATDATA, DD_GETFORMATDATA structure [Display Devices], _DD_GETFORMATDATA, d3dhal/DD_GETFORMATDATA, d3dstrct_cfa9e4e0-86d8-4b38-9c50-8661012c34e8.xml, display.dd_getformatdata
 f1_keywords:
  - "d3dhal/DD_GETFORMATDATA"
+ - "DD_GETFORMATDATA"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dhal.h
 api_name:
 - DD_GETFORMATDATA
-product:
-- Windows
 targetos: Windows
 req.typenames: DD_GETFORMATDATA
 ---

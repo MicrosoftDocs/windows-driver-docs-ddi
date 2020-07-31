@@ -7,6 +7,7 @@ ms.date: 08/21/2018
 keywords: ["IDataModelScriptDebug::GetStack"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebug.GetStack"
+ - "IDataModelScriptDebug.GetStack"
 ms.keywords: IDataModelScriptDebug::GetStack, GetStack, IDataModelScriptDebug.GetStack, IDataModelScriptDebug::GetStack, IDataModelScriptDebug.GetStack
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDataModelScriptDebug.GetStack
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

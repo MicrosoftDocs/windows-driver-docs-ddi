@@ -10,6 +10,7 @@ keywords: ["TRANSLATE_BUS_ADDRESS callback function"]
 ms.keywords: TRANSLATE_BUS_ADDRESS, TranslateBusAddress, TranslateBusAddress routine [Kernel-Mode Driver Architecture], drvr_interface_68887adb-724b-47ca-80e6-b8b934ae2414.xml, kernel.bustranslatebusaddress, kernel.translatebusaddress, wdm/TranslateBusAddress
 f1_keywords:
  - "wdm/TranslateBusAddress"
+ - "TranslateBusAddress"
 req.header: wdm.h
 req.include-header: Ntddk.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - TranslateBusAddress
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -7,6 +7,7 @@ ms.date: 09/13/2018
 keywords: ["FN_VMB_SERVER_CHANNEL_INIT_SET_TARGET_INTERFACE_ID callback function"]
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/FN_VMB_SERVER_CHANNEL_INIT_SET_TARGET_INTERFACE_ID"
+ - "FN_VMB_SERVER_CHANNEL_INIT_SET_TARGET_INTERFACE_ID"
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:

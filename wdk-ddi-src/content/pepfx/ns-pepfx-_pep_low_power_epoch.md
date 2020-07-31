@@ -10,6 +10,7 @@ keywords: ["_PEP_LOW_POWER_EPOCH structure"]
 ms.keywords: "*PPEP_LOW_POWER_EPOCH, PEP_LOW_POWER_EPOCH, PEP_LOW_POWER_EPOCH structure [Kernel-Mode Driver Architecture], PPEP_LOW_POWER_EPOCH, PPEP_LOW_POWER_EPOCH structure pointer [Kernel-Mode Driver Architecture], _PEP_LOW_POWER_EPOCH, kernel.pep_low_power_epoch, pepfx/PEP_LOW_POWER_EPOCH, pepfx/PPEP_LOW_POWER_EPOCH"
 f1_keywords:
  - "pepfx/PEP_LOW_POWER_EPOCH"
+ - "PEP_LOW_POWER_EPOCH"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pepfx.h
 api_name:
 - PEP_LOW_POWER_EPOCH
-product:
-- Windows
 targetos: Windows
 req.typenames: PEP_LOW_POWER_EPOCH, *PPEP_LOW_POWER_EPOCH
 ---

@@ -10,6 +10,7 @@ keywords: ["_IO_SCSI_CAPABILITIES structure"]
 ms.keywords: "*PIO_SCSI_CAPABILITIES, IO_SCSI_CAPABILITIES, IO_SCSI_CAPABILITIES structure [Storage Devices], PIO_SCSI_CAPABILITIES, PIO_SCSI_CAPABILITIES structure pointer [Storage Devices], _IO_SCSI_CAPABILITIES, ntddscsi/IO_SCSI_CAPABILITIES, ntddscsi/PIO_SCSI_CAPABILITIES, storage.io_scsi_capabilities, structs-scsibus_9329ca36-3fe4-4d9a-a3c7-f63a216244b5.xml"
 f1_keywords:
  - "ntddscsi/IO_SCSI_CAPABILITIES"
+ - "IO_SCSI_CAPABILITIES"
 req.header: ntddscsi.h
 req.include-header: Ntddscsi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddscsi.h
 api_name:
 - IO_SCSI_CAPABILITIES
-product:
-- Windows
 targetos: Windows
 req.typenames: IO_SCSI_CAPABILITIES, *PIO_SCSI_CAPABILITIES
 ---

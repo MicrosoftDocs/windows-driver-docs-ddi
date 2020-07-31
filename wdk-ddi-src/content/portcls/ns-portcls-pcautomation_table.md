@@ -10,6 +10,7 @@ keywords: ["PCAUTOMATION_TABLE structure"]
 ms.keywords: "*PPCAUTOMATION_TABLE, PCAUTOMATION_TABLE, PCAUTOMATION_TABLE structure [Audio Devices], PPCAUTOMATION_TABLE, PPCAUTOMATION_TABLE structure pointer [Audio Devices], audio.pcautomation_table, audpc-struct_2322a469-8fd0-4c56-b8d2-df6cf8b8d1dd.xml, portcls/PCAUTOMATION_TABLE, portcls/PPCAUTOMATION_TABLE"
 f1_keywords:
  - "portcls/PCAUTOMATION_TABLE"
+ - "PCAUTOMATION_TABLE"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - PCAUTOMATION_TABLE
-product:
-- Windows
 targetos: Windows
 req.typenames: PCAUTOMATION_TABLE, *PPCAUTOMATION_TABLE
 ---

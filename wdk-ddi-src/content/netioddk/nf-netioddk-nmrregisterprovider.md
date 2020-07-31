@@ -10,6 +10,7 @@ keywords: ["NmrRegisterProvider function"]
 ms.keywords: NmrRegisterProvider, NmrRegisterProvider function [Network Drivers Starting with Windows Vista], netioddk/NmrRegisterProvider, netvista.nmrregisterprovider, nmrref_ad505c0b-91dd-413d-be24-ab331f8eadca.xml
 f1_keywords:
  - "netioddk/NmrRegisterProvider"
+ - "NmrRegisterProvider"
 req.header: netioddk.h
 req.include-header: Wsk.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Netio.dll
 api_name:
 - NmrRegisterProvider
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

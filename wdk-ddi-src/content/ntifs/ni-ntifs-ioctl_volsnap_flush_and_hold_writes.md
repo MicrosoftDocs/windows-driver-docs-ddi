@@ -10,6 +10,7 @@ keywords: ["IOCTL_VOLSNAP_FLUSH_AND_HOLD_WRITES IOCTL"]
 ms.keywords: IOCTL_VOLSNAP_FLUSH_AND_HOLD_WRITES, IOCTL_VOLSNAP_FLUSH_AND_HOLD_WRITES control, IOCTL_VOLSNAP_FLUSH_AND_HOLD_WRITES control code [Installable File System Drivers], ifsk.ioctl_volsnap_flush_and_hold_writes, ioctl_ref_f21aed38-5d6d-4b8c-ac8a-6cd1738a3de7.xml, ntifs/IOCTL_VOLSNAP_FLUSH_AND_HOLD_WRITES
 f1_keywords:
  - "ntifs/IOCTL_VOLSNAP_FLUSH_AND_HOLD_WRITES"
+ - "IOCTL_VOLSNAP_FLUSH_AND_HOLD_WRITES"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntifs.h
 api_name:
 - IOCTL_VOLSNAP_FLUSH_AND_HOLD_WRITES
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

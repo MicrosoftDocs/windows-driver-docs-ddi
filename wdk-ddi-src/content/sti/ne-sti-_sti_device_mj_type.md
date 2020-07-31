@@ -10,6 +10,7 @@ keywords: ["_STI_DEVICE_MJ_TYPE enumeration"]
 ms.keywords: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE enumeration [Imaging Devices], STI_DEVICE_TYPE, STI_DEVICE_TYPE enumeration [Imaging Devices], StiDeviceTypeDefault, StiDeviceTypeDigitalCamera, StiDeviceTypeScanner, StiDeviceTypeStreamingVideo, _STI_DEVICE_MJ_TYPE, image.sti_device_type, sti/STI_DEVICE_TYPE, sti/StiDeviceTypeDefault, sti/StiDeviceTypeDigitalCamera, sti/StiDeviceTypeScanner, sti/StiDeviceTypeStreamingVideo, stifnc_1cbf2c9f-0c97-439a-8503-c07c68b7d947.xml
 f1_keywords:
  - "sti/STI_DEVICE_MJ_TYPE"
+ - "STI_DEVICE_MJ_TYPE"
 req.header: sti.h
 req.include-header: Sti.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Sti.h
 api_name:
 - STI_DEVICE_MJ_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: STI_DEVICE_MJ_TYPE
 ---

@@ -9,6 +9,7 @@ keywords: ["PFND3D11DDI_COMMANDLISTEXECUTE callback function"]
 ms.keywords: CommandListExecute, CommandListExecute callback function [Display Devices], PFND3D11DDI_COMMANDLISTEXECUTE, PFND3D11DDI_COMMANDLISTEXECUTE callback, UserModeDisplayDriverDx11_Functions_14a50e02-5483-4d83-83d7-79064981f4c8.xml, d3d10umddi/CommandListExecute, display.commandlistexecute
 f1_keywords:
  - "d3d10umddi/CommandListExecute"
+ - "CommandListExecute"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - CommandListExecute
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

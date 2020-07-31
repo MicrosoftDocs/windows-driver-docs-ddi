@@ -7,6 +7,7 @@ ms.date: 09/28/2018
 keywords: ["IDebugHostMemory2::WritePointers"]
 f1_keywords:
  - "dbgmodel/IDebugHostMemory2.WritePointers"
+ - "IDebugHostMemory2.WritePointers"
 ms.keywords: IDebugHostMemory2::WritePointers, WritePointers, IDebugHostMemory2.WritePointers, IDebugHostMemory2::WritePointers, IDebugHostMemory2.WritePointers
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostMemory2.WritePointers
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

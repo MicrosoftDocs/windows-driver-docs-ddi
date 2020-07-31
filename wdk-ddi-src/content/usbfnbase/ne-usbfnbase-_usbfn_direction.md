@@ -10,6 +10,7 @@ keywords: ["_USBFN_DIRECTION enumeration"]
 ms.keywords: "*PUSBFN_DIRECTION, USBFN_DIRECTION, USBFN_DIRECTION enumeration [Buses], UsbfnDirectionIn, UsbfnDirectionMaximum, UsbfnDirectionMinimum, UsbfnDirectionOut, UsbfnDirectionRx, UsbfnDirectionTx, _USBFN_DIRECTION, buses.usbfn_direction, usbfnbase/USBFN_DIRECTION, usbfnbase/UsbfnDirectionIn, usbfnbase/UsbfnDirectionMaximum, usbfnbase/UsbfnDirectionMinimum, usbfnbase/UsbfnDirectionOut, usbfnbase/UsbfnDirectionRx, usbfnbase/UsbfnDirectionTx"
 f1_keywords:
  - "usbfnbase/USBFN_DIRECTION"
+ - "USBFN_DIRECTION"
 req.header: usbfnbase.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - usbfnbase.h
 api_name:
 - USBFN_DIRECTION
-product:
-- Windows
 targetos: Windows
 req.typenames: USBFN_DIRECTION, *PUSBFN_DIRECTION
 ---

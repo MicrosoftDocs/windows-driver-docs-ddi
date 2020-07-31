@@ -10,6 +10,7 @@ keywords: ["IOCTL_HID_GET_INPUT_REPORT IOCTL"]
 ms.keywords: IOCTL_HID_GET_INPUT_REPORT, IOCTL_HID_GET_INPUT_REPORT control, IOCTL_HID_GET_INPUT_REPORT control code [Human Input Devices], hid.ioctl_hid_get_input_report2, hidclass/IOCTL_HID_GET_INPUT_REPORT, hidioreq_d9b80227-8a48-439e-80de-3b0e722e3576.xml
 f1_keywords:
  - "hidclass/IOCTL_HID_GET_INPUT_REPORT"
+ - "IOCTL_HID_GET_INPUT_REPORT"
 req.header: hidclass.h
 req.include-header: Hidclass.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - hidclass.h
 api_name:
 - IOCTL_HID_GET_INPUT_REPORT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

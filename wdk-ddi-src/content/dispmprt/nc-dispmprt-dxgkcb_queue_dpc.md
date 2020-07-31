@@ -10,6 +10,7 @@ keywords: ["DXGKCB_QUEUE_DPC callback function"]
 ms.keywords: DXGKCB_QUEUE_DPC, DXGKCB_QUEUE_DPC callback, DpFunctions_0d1685f8-bd6f-45cc-a958-54330281a44f.xml, DxgkCbQueueDpc, DxgkCbQueueDpc callback function [Display Devices], display.dxgkcbqueuedpc, dispmprt/DxgkCbQueueDpc
 f1_keywords:
  - "dispmprt/DxgkCbQueueDpc"
+ - "DxgkCbQueueDpc"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dispmprt.h
 api_name:
 - DxgkCbQueueDpc
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["tagWpdAttributeForm enumeration"]
 ms.keywords: WPD_PROPERTY_ATTRIBUTE_FORM_ENUMERATION, WPD_PROPERTY_ATTRIBUTE_FORM_OBJECT_IDENTIFIER, WPD_PROPERTY_ATTRIBUTE_FORM_RANGE, WPD_PROPERTY_ATTRIBUTE_FORM_REGULAR_EXPRESSION, WPD_PROPERTY_ATTRIBUTE_FORM_UNSPECIFIED, WpdAttributeForm, WpdAttributeForm enumeration, enumeration, portabledevice/WPD_PROPERTY_ATTRIBUTE_FORM_ENUMERATION, portabledevice/WPD_PROPERTY_ATTRIBUTE_FORM_OBJECT_IDENTIFIER, portabledevice/WPD_PROPERTY_ATTRIBUTE_FORM_RANGE, portabledevice/WPD_PROPERTY_ATTRIBUTE_FORM_REGULAR_EXPRESSION, portabledevice/WPD_PROPERTY_ATTRIBUTE_FORM_UNSPECIFIED, portabledevice/WpdAttributeForm, tagWpdAttributeForm, wpddk.wpdattributeform
 f1_keywords:
  - "portabledevice/WpdAttributeForm"
+ - "WpdAttributeForm"
 req.header: portabledevice.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - PortableDevice.h
 api_name:
 - WpdAttributeForm
-product:
-- Windows
 targetos: Windows
 req.typenames: WpdAttributeForm
 ms.custom: RS5

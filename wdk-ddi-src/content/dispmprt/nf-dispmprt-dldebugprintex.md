@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DlDebugPrintEx macro"]
 f1_keywords:
  - "dispmprt/DlDebugPrintEx"
+ - "DlDebugPrintEx"
 ms.keywords: DlDebugPrintEx
 req.header: dispmprt.h
 req.include-header:

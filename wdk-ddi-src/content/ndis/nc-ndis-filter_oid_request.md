@@ -10,6 +10,7 @@ keywords: ["FILTER_OID_REQUEST callback function"]
 ms.keywords: FILTER_OID_REQUEST, FILTER_OID_REQUEST callback, FilterOidRequest, FilterOidRequest callback function [Network Drivers Starting with Windows Vista], ndis/FilterOidRequest, ndis_request_ref_51917752-44c8-4065-a26c-fc466de932bf.xml, netvista.filteroidrequest
 f1_keywords:
  - "ndis/FilterOidRequest"
+ - "FilterOidRequest"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - FilterOidRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

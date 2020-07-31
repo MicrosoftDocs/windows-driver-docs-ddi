@@ -10,6 +10,7 @@ keywords: ["_LPI_STATE_FLAGS structure"]
 ms.keywords: "*PLPI_STATE_FLAGS, LPI_STATE_FLAGS, LPI_STATE_FLAGS union [ACPI Devices], _LPI_STATE_FLAGS, acpi.lpi_state_flags, acpitabl/LPI_STATE_FLAGS"
 f1_keywords:
  - "acpitabl/LPI_STATE_FLAGS"
+ - "LPI_STATE_FLAGS"
 req.header: acpitabl.h
 req.include-header: Acpitabl.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - acpitabl.h
 api_name:
 - LPI_STATE_FLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: LPI_STATE_FLAGS, *PLPI_STATE_FLAGS
 ---

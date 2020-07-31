@@ -10,6 +10,7 @@ keywords: ["IoForwardIrpSynchronously function"]
 ms.keywords: IoForwardIrpSynchronously, IoForwardIrpSynchronously routine [Kernel-Mode Driver Architecture], k104_130c736e-6408-4484-b306-91ba275eaac0.xml, kernel.ioforwardirpsynchronously, wdm/IoForwardIrpSynchronously
 f1_keywords:
  - "wdm/IoForwardIrpSynchronously"
+ - "IoForwardIrpSynchronously"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoForwardIrpSynchronously
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["_HDAUDIO_BUS_INTERFACE_BDL structure"]
 ms.keywords: "*PHDAUDIO_BUS_INTERFACE_BDL, HDAUDIO_BUS_INTERFACE_BDL, HDAUDIO_BUS_INTERFACE_BDL structure [Audio Devices], PHDAUDIO_BUS_INTERFACE_BDL, PHDAUDIO_BUS_INTERFACE_BDL structure pointer [Audio Devices], _HDAUDIO_BUS_INTERFACE_BDL, aud-prop2_f9b041b3-76fd-4176-9fc8-32eeda46cc32.xml, audio.hdaudio_bus_interface_bdl, hdaudio/HDAUDIO_BUS_INTERFACE_BDL, hdaudio/PHDAUDIO_BUS_INTERFACE_BDL"
 f1_keywords:
  - "hdaudio/HDAUDIO_BUS_INTERFACE_BDL"
+ - "HDAUDIO_BUS_INTERFACE_BDL"
 req.header: hdaudio.h
 req.include-header: Hdaudio.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - hdaudio.h
 api_name:
 - HDAUDIO_BUS_INTERFACE_BDL
-product:
-- Windows
 targetos: Windows
 req.typenames: HDAUDIO_BUS_INTERFACE_BDL, *PHDAUDIO_BUS_INTERFACE_BDL
 ---

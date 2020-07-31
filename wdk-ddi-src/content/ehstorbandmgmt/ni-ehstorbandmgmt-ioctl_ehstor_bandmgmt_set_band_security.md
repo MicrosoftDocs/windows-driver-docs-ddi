@@ -10,6 +10,7 @@ keywords: ["IOCTL_EHSTOR_BANDMGMT_SET_BAND_SECURITY IOCTL"]
 ms.keywords: IOCTL_EHSTOR_BANDMGMT_SET_BAND_SECURITY, IOCTL_EHSTOR_BANDMGMT_SET_BAND_SECURITY control, IOCTL_EHSTOR_BANDMGMT_SET_BAND_SECURITY control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_SET_BAND_SECURITY, storage.ioctl_ehstor_bandmgmt_set_band_security
 f1_keywords:
  - "ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_SET_BAND_SECURITY"
+ - "IOCTL_EHSTOR_BANDMGMT_SET_BAND_SECURITY"
 req.header: ehstorbandmgmt.h
 req.include-header: EhStorBandMgmt.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - EhStorBandMgmt.h
 api_name:
 - IOCTL_EHSTOR_BANDMGMT_SET_BAND_SECURITY
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

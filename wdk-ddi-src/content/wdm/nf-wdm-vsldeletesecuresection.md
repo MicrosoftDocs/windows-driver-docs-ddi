@@ -10,6 +10,7 @@ keywords: ["VslDeleteSecureSection function"]
 ms.keywords: VslDeleteSecureSection, VslDeleteSecureSection function [Kernel-Mode Driver Architecture], kernel.vsldeletesecuresection, wdm/VslDeleteSecureSection
 f1_keywords:
  - "wdm/VslDeleteSecureSection"
+ - "VslDeleteSecureSection"
 req.header: wdm.h
 req.include-header: Wdm.h, Wdm.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - VslDeleteSecureSection
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

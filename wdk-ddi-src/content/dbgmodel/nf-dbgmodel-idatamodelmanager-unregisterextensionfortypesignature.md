@@ -7,6 +7,7 @@ ms.date: 07/19/2018
 keywords: ["IDataModelManager::UnregisterExtensionForTypeSignature"]
 f1_keywords:
  - "dbgmodel/IDataModelManager.UnregisterExtensionForTypeSignature"
+ - "IDataModelManager.UnregisterExtensionForTypeSignature"
 ms.keywords: IDataModelManager::UnregisterExtensionForTypeSignature, UnregisterExtensionForTypeSignature, IDataModelManager.UnregisterExtensionForTypeSignature, IDataModelManager::UnregisterExtensionForTypeSignature, IDataModelManager.UnregisterExtensionForTypeSignature
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDataModelManager.UnregisterExtensionForTypeSignature
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

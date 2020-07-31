@@ -10,6 +10,7 @@ keywords: ["RtlSSIZETMult function"]
 ms.keywords: RtlSSIZETMult, RtlSSIZETMult function [Kernel-Mode Driver Architecture], kernel.rtlssizetmult, ntintsafe/RtlSSIZETMult
 f1_keywords:
  - "ntintsafe/RtlSSIZETMult"
+ - "RtlSSIZETMult"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Ntintsafe.h
 api_name:
 - RtlSSIZETMult
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

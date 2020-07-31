@@ -10,6 +10,7 @@ keywords: ["IXpsDocument::GetThumbnail"]
 ms.keywords: GetThumbnail, GetThumbnail method [Print Devices], GetThumbnail method [Print Devices],IXpsDocument interface, IXpsDocument interface [Print Devices],GetThumbnail method, IXpsDocument.GetThumbnail, IXpsDocument::GetThumbnail, filterpipeline/IXpsDocument::GetThumbnail, filterpipeline_dbbd8b80-198b-4cdd-af97-68093d87c4e1.xml, print.ixpsdocument_getthumbnail
 f1_keywords:
  - "filterpipeline/IXpsDocument.GetThumbnail"
+ - "IXpsDocument.GetThumbnail"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - filterpipeline.h
 api_name:
 - IXpsDocument.GetThumbnail
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["_WHEA_GENERIC_ERROR structure"]
 ms.keywords: "*PWHEA_GENERIC_ERROR, PWHEA_GENERIC_ERROR, PWHEA_GENERIC_ERROR structure pointer [WHEA Drivers and Applications], WHEA_GENERIC_ERROR, WHEA_GENERIC_ERROR structure [WHEA Drivers and Applications], _WHEA_GENERIC_ERROR, ntddk/PWHEA_GENERIC_ERROR, ntddk/WHEA_GENERIC_ERROR, whea.whea_generic_error, whearef_60117ecc-4c3f-438f-aba2-cd2d4268df27.xml"
 f1_keywords:
  - "ntddk/WHEA_GENERIC_ERROR"
+ - "WHEA_GENERIC_ERROR"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddk.h
 api_name:
 - WHEA_GENERIC_ERROR
-product:
-- Windows
 targetos: Windows
 req.typenames: WHEA_GENERIC_ERROR, *PWHEA_GENERIC_ERROR
 ---

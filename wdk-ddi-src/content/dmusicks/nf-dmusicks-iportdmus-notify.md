@@ -10,6 +10,7 @@ keywords: ["IPortDMus::Notify"]
 ms.keywords: IPortDMus interface [Audio Devices],Notify method, IPortDMus.Notify, IPortDMus::Notify, Notify, Notify method [Audio Devices], Notify method [Audio Devices],IPortDMus interface, audio.iportdmus_notify, audmp-routines_cc818dda-ae0e-435e-8d94-f1632a4c4319.xml, dmusicks/IPortDMus::Notify
 f1_keywords:
  - "dmusicks/IPortDMus.Notify"
+ - "IPortDMus.Notify"
 req.header: dmusicks.h
 req.include-header: Dmusicks.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dmusicks.h
 api_name:
 - IPortDMus.Notify
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

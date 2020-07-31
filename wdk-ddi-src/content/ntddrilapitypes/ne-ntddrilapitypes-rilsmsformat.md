@@ -10,6 +10,7 @@ keywords: ["RILSMSFORMAT enumeration"]
 ms.keywords: RILSMSFORMAT, RILSMSFORMAT enumeration [Network Drivers Starting with Windows Vista], RIL_SMSFORMAT_3GPP, RIL_SMSFORMAT_3GPP2, RIL_SMSFORMAT_MAX, RIL_SMSFORMAT_NONE, netvista.rilsmsformat, rilapitypes/RILSMSFORMAT, rilapitypes/RIL_SMSFORMAT_3GPP, rilapitypes/RIL_SMSFORMAT_3GPP2, rilapitypes/RIL_SMSFORMAT_MAX, rilapitypes/RIL_SMSFORMAT_NONE
 f1_keywords:
  - "ntddrilapitypes/RILSMSFORMAT"
+ - "RILSMSFORMAT"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapitypes.h
 api_name:
 - RILSMSFORMAT
-product:
-- Windows
 targetos: Windows
 req.typenames: RILSMSFORMAT
 ---

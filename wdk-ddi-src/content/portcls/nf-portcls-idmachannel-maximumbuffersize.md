@@ -8,6 +8,7 @@ ms.date: 10/31/2018
 keywords: ["IDmaChannel::MaximumBufferSize"]
 f1_keywords:
  - "portcls/IDmaChannel.MaximumBufferSize"
+ - "IDmaChannel.MaximumBufferSize"
 ms.keywords: IDmaChannel::MaximumBufferSize, MaximumBufferSize, IDmaChannel.MaximumBufferSize, IDmaChannel::MaximumBufferSize, IDmaChannel.MaximumBufferSize
 req.header: portcls.h
 req.include-header:

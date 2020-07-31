@@ -10,6 +10,7 @@ keywords: ["IMiniportWavePciStream::MappingAvailable"]
 ms.keywords: IMiniportWavePciStream interface [Audio Devices],MappingAvailable method, IMiniportWavePciStream.MappingAvailable, IMiniportWavePciStream::MappingAvailable, MappingAvailable, MappingAvailable method [Audio Devices], MappingAvailable method [Audio Devices],IMiniportWavePciStream interface, audio.iminiportwavepcistream_mappingavailable, audmp-routines_931efc43-ec71-4b60-905a-47ec374da31e.xml, portcls/IMiniportWavePciStream::MappingAvailable
 f1_keywords:
  - "portcls/IMiniportWavePciStream.MappingAvailable"
+ - "IMiniportWavePciStream.MappingAvailable"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Portcls.h
 api_name:
 - IMiniportWavePciStream.MappingAvailable
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

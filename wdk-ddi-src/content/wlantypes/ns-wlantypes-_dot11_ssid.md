@@ -10,6 +10,7 @@ keywords: ["_DOT11_SSID structure"]
 ms.keywords: "*PDOT11_SSID, DOT11_SSID, DOT11_SSID structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_e25f30a3-b1f8-43ca-a685-6bc4909028d1.xml, PDOT11_SSID, PDOT11_SSID structure pointer [Network Drivers Starting with Windows Vista], _DOT11_SSID, netvista.dot11_ssid, wlantypes/DOT11_SSID, wlantypes/PDOT11_SSID"
 f1_keywords:
  - "wlantypes/DOT11_SSID"
+ - "DOT11_SSID"
 req.header: wlantypes.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wlantypes.h
 api_name:
 - DOT11_SSID
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT11_SSID, *PDOT11_SSID
 req.product: Windows 10 or later.

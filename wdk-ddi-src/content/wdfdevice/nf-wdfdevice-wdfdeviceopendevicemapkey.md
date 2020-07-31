@@ -10,6 +10,7 @@ keywords: ["WdfDeviceOpenDevicemapKey function"]
 ms.keywords: WdfDeviceOpenDevicemapKey, WdfDeviceOpenDevicemapKey method, wdf.wdfdeviceopendevicemapkey, wdfdevice/WdfDeviceOpenDevicemapKey
 f1_keywords:
  - "wdfdevice/WdfDeviceOpenDevicemapKey"
+ - "WdfDeviceOpenDevicemapKey"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfDeviceOpenDevicemapKey
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

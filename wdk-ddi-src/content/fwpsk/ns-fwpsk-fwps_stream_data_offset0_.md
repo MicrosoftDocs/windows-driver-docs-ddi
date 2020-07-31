@@ -10,6 +10,7 @@ keywords: ["FWPS_STREAM_DATA_OFFSET0_ structure"]
 ms.keywords: FWPS_STREAM_DATA_OFFSET0, FWPS_STREAM_DATA_OFFSET0 structure [Network Drivers Starting with Windows Vista], FWPS_STREAM_DATA_OFFSET0_, fwpsk/FWPS_STREAM_DATA_OFFSET0, netvista.fwps_stream_data_offset0, wfp_ref_3_struct_3_fwps_P-Z_dc4b9bc1-f92b-4318-9cf4-466047be22f2.xml
 f1_keywords:
  - "fwpsk/FWPS_STREAM_DATA_OFFSET0"
+ - "FWPS_STREAM_DATA_OFFSET0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - fwpsk.h
 api_name:
 - FWPS_STREAM_DATA_OFFSET0
-product:
-- Windows
 targetos: Windows
 req.typenames: FWPS_STREAM_DATA_OFFSET0
 ---

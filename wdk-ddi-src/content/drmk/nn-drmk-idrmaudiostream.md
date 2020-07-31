@@ -10,6 +10,7 @@ keywords: ["IDrmAudioStream interface"]
 ms.keywords: IDrmAudioStream, IDrmAudioStream interface [Audio Devices], IDrmAudioStream interface [Audio Devices],described, audio.idrmaudiostream, audmp-routines_aba04fe2-a050-48c5-82ba-3ce454e0bc84.xml, drmk/IDrmAudioStream
 f1_keywords:
  - "drmk/IDrmAudioStream"
+ - "IDrmAudioStream"
 req.header: drmk.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - drmk.h
 api_name:
 - IDrmAudioStream
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

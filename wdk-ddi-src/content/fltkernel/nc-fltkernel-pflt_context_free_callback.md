@@ -10,6 +10,7 @@ keywords: ["PFLT_CONTEXT_FREE_CALLBACK callback function"]
 ms.keywords: ContextFreeCallback, ContextFreeCallback routine [Installable File System Drivers], FltCallbacks_c7e2b5e1-5666-431c-9032-59914ef23336.xml, PFLT_CONTEXT_FREE_CALLBACK, fltkernel/ContextFreeCallback, ifsk.pflt_context_free_callback
 f1_keywords:
  - "fltkernel/ContextFreeCallback"
+ - "ContextFreeCallback"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - fltkernel.h
 api_name:
 - ContextFreeCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

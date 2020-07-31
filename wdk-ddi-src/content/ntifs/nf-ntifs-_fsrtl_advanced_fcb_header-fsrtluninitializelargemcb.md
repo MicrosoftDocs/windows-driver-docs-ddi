@@ -10,6 +10,7 @@ keywords: ["FsRtlUninitializeLargeMcb function"]
 ms.keywords: FsRtlUninitializeLargeMcb, FsRtlUninitializeLargeMcb routine [Installable File System Drivers], fsrtlref_6bd92101-b025-4469-8e05-52afbb5cf75e.xml, ifsk.fsrtluninitializelargemcb, ntifs/FsRtlUninitializeLargeMcb
 f1_keywords:
  - "ntifs/FsRtlUninitializeLargeMcb"
+ - "FsRtlUninitializeLargeMcb"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlUninitializeLargeMcb
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

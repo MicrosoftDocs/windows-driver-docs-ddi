@@ -10,6 +10,7 @@ keywords: ["StreamClassDebugAssert function"]
 ms.keywords: StreamClassDebugAssert, StreamClassDebugAssert routine [Streaming Media Devices], strclass-routines_6f9302e6-592f-4097-830c-83b05a54d335.xml, stream.streamclassdebugassert, strmini/StreamClassDebugAssert
 f1_keywords:
  - "strmini/StreamClassDebugAssert"
+ - "StreamClassDebugAssert"
 req.header: strmini.h
 req.include-header: Strmini.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Stream.dll
 api_name:
 - StreamClassDebugAssert
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

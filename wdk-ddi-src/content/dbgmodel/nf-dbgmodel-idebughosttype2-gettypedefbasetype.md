@@ -7,6 +7,7 @@ ms.date: 09/20/2018
 keywords: ["IDebugHostType2::GetTypedefBaseType"]
 f1_keywords:
  - "dbgmodel/IDebugHostType2.GetTypedefBaseType"
+ - "IDebugHostType2.GetTypedefBaseType"
 ms.keywords: IDebugHostType2::GetTypedefBaseType, GetTypedefBaseType, IDebugHostType2.GetTypedefBaseType, IDebugHostType2::GetTypedefBaseType, IDebugHostType2.GetTypedefBaseType
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostType2.GetTypedefBaseType
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

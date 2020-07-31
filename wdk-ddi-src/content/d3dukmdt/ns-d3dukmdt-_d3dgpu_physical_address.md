@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DGPU_PHYSICAL_ADDRESS structure"]
 f1_keywords:
  - "d3dukmdt/_D3DGPU_PHYSICAL_ADDRESS"
+ - "_D3DGPU_PHYSICAL_ADDRESS"
 ms.keywords: _D3DGPU_PHYSICAL_ADDRESS, D3DGPU_PHYSICAL_ADDRESS, 
 req.header: d3dukmdt.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - d3dukmdt.h
 api_name: 
 - _D3DGPU_PHYSICAL_ADDRESS
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

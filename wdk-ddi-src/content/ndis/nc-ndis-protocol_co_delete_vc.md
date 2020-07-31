@@ -10,6 +10,7 @@ keywords: ["PROTOCOL_CO_DELETE_VC callback function"]
 ms.keywords: PROTOCOL_CO_DELETE_VC, PROTOCOL_CO_DELETE_VC callback, ProtocolCoDeleteVc, ProtocolCoDeleteVc callback function [Network Drivers Starting with Windows Vista], condis_protocol_ref_bd593797-8284-4b3e-980e-c5401776014f.xml, ndis/ProtocolCoDeleteVc, netvista.protocolcodeletevc
 f1_keywords:
  - "ndis/ProtocolCoDeleteVc"
+ - "ProtocolCoDeleteVc"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ndis.h
 api_name:
 - ProtocolCoDeleteVc
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IWDFDriverCreatedFile::Close"]
 ms.keywords: Close, Close method, Close method,IWDFDriverCreatedFile interface, IWDFDriverCreatedFile interface,Close method, IWDFDriverCreatedFile.Close, IWDFDriverCreatedFile::Close, UMDFDriverCreatedFileObjectRef_52a9f370-6f1d-4d62-84de-0b56a61b95fc.xml, umdf.iwdfdrivercreatedfile_close, wdf.iwdfdrivercreatedfile_close, wudfddi/IWDFDriverCreatedFile::Close
 f1_keywords:
  - "wudfddi/IWDFDriverCreatedFile.Close"
+ - "IWDFDriverCreatedFile.Close"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFDriverCreatedFile.Close
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

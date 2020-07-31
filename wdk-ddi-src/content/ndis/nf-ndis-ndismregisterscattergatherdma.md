@@ -10,6 +10,7 @@ keywords: ["NdisMRegisterScatterGatherDma function"]
 ms.keywords: NdisMRegisterScatterGatherDma, NdisMRegisterScatterGatherDma function [Network Drivers Starting with Windows Vista], ndis/NdisMRegisterScatterGatherDma, ndis_sgdma_ref_4c89dae9-d6bc-44a5-9b8b-8efcb69ecc75.xml, netvista.ndismregisterscattergatherdma
 f1_keywords:
  - "ndis/NdisMRegisterScatterGatherDma"
+ - "NdisMRegisterScatterGatherDma"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisMRegisterScatterGatherDma
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

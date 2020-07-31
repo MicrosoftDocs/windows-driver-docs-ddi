@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["RtlSanitizeUnicodeStringPadding function"]
 f1_keywords:
  - "wdm/RtlSanitizeUnicodeStringPadding"
+ - "RtlSanitizeUnicodeStringPadding"
 ms.keywords: RtlSanitizeUnicodeStringPadding
 req.header: wdm.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - wdm.h
 api_name: 
 - RtlSanitizeUnicodeStringPadding
-product:
-- Windows
 targetos: Windows
 
 

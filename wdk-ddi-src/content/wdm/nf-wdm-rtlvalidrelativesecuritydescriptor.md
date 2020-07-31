@@ -10,6 +10,7 @@ keywords: ["RtlValidRelativeSecurityDescriptor function"]
 ms.keywords: RtlValidRelativeSecurityDescriptor, RtlValidRelativeSecurityDescriptor routine [Kernel-Mode Driver Architecture], k109_b261fb47-147f-4e39-81fb-bdbc31d53681.xml, kernel.rtlvalidrelativesecuritydescriptor, wdm/RtlValidRelativeSecurityDescriptor
 f1_keywords:
  - "wdm/RtlValidRelativeSecurityDescriptor"
+ - "RtlValidRelativeSecurityDescriptor"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlValidRelativeSecurityDescriptor
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IKsInterfaceHandler::KsProcessMediaSamples"]
 ms.keywords: IKsInterfaceHandler interface [Streaming Media Devices],KsProcessMediaSamples method, IKsInterfaceHandler.KsProcessMediaSamples, IKsInterfaceHandler::KsProcessMediaSamples, KsProcessMediaSamples, KsProcessMediaSamples method [Streaming Media Devices], KsProcessMediaSamples method [Streaming Media Devices],IKsInterfaceHandler interface, ksproxy/IKsInterfaceHandler::KsProcessMediaSamples, ksproxy_929792a7-d5c4-4568-9178-866b9738079b.xml, stream.iksinterfacehandler_ksprocessmediasamples
 f1_keywords:
  - "ksproxy/IKsInterfaceHandler.KsProcessMediaSamples"
+ - "IKsInterfaceHandler.KsProcessMediaSamples"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ksproxy.h
 api_name:
 - IKsInterfaceHandler.KsProcessMediaSamples
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

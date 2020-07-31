@@ -7,6 +7,7 @@ ms.date: 10/02/2018
 keywords: ["_ACPI_PLD_HORIZONTAL_POSITION enumeration"]
 f1_keywords:
  - "acpitabl/_ACPI_PLD_HORIZONTAL_POSITION"
+ - "_ACPI_PLD_HORIZONTAL_POSITION"
 ms.keywords: _ACPI_PLD_HORIZONTAL_POSITION, ACPI_PLD_HORIZONTAL_POSITION, *PACPI_PLD_HORIZONTAL_POSITION, AcpiPldHPos
 req.header: acpitabl.h
 req.include-header:
@@ -26,8 +27,6 @@ api_location:
 - acpitabl.h
 api_name: 
 - _ACPI_PLD_HORIZONTAL_POSITION
-product:
-- Windows
 targetos: Windows
 ---
 

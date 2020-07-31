@@ -10,6 +10,7 @@ keywords: ["_SRIOV_MITIGATED_RANGES_OUTPUT structure"]
 ms.keywords: "*PSRIOV_MITIGATED_RANGES_OUTPUT, PCI.sriov_mitigated_ranges_output, SRIOV_MITIGATED_RANGES_OUTPUT, SRIOV_MITIGATED_RANGES_OUTPUT structure [Buses], _SRIOV_MITIGATED_RANGES_OUTPUT, pcivirt/SRIOV_MITIGATED_RANGES_OUTPUT"
 f1_keywords:
  - "pcivirt/SRIOV_MITIGATED_RANGES_OUTPUT"
+ - "SRIOV_MITIGATED_RANGES_OUTPUT"
 req.header: pcivirt.h
 req.include-header:
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - pcivirt.h
 api_name:
 - SRIOV_MITIGATED_RANGES_OUTPUT
-product:
-- Windows
 targetos: Windows
 req.typenames: SRIOV_MITIGATED_RANGES_OUTPUT, *PSRIOV_MITIGATED_RANGES_OUTPUT
 ---

@@ -10,6 +10,7 @@ keywords: ["IOCTL_MINIPORT_PROCESS_SERVICE_IRP IOCTL"]
 ms.keywords: IOCTL_MINIPORT_PROCESS_SERVICE_IRP, IOCTL_MINIPORT_PROCESS_SERVICE_IRP control, IOCTL_MINIPORT_PROCESS_SERVICE_IRP control code [Storage Devices], k307_8997b602-e4ce-4b15-be19-77ba863de295.xml, ntddscsi/IOCTL_MINIPORT_PROCESS_SERVICE_IRP, storage.ioctl_miniport_process_service_irp
 f1_keywords:
  - "ntddscsi/IOCTL_MINIPORT_PROCESS_SERVICE_IRP"
+ - "IOCTL_MINIPORT_PROCESS_SERVICE_IRP"
 req.header: ntddscsi.h
 req.include-header: Ntddscsi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddscsi.h
 api_name:
 - IOCTL_MINIPORT_PROCESS_SERVICE_IRP
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["D3D12DDIARG_CREATE_VIDEO_EXTENSION_COMMAND_0063 structure"]
 f1_keywords:
  - "d3d12umddi/D3D12DDIARG_CREATE_VIDEO_EXTENSION_COMMAND_0063"
+ - "D3D12DDIARG_CREATE_VIDEO_EXTENSION_COMMAND_0063"
 ms.keywords: D3D12DDIARG_CREATE_VIDEO_EXTENSION_COMMAND_0063, D3D12DDIARG_CREATE_VIDEO_EXTENSION_COMMAND_0063, 
 req.header: d3d12umddi.h
 req.include-header:
@@ -32,8 +33,6 @@ api_location:
  - d3d12umddi.h
 api_name: 
  - D3D12DDIARG_CREATE_VIDEO_EXTENSION_COMMAND_0063
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

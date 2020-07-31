@@ -30,7 +30,8 @@ api_location:
 api_name:
  - POOL_EXTENDED_PARAMETER
 f1_keywords:
- - wdm/POOL_EXTENDED_PARAMETER
+ - wdm//POOL_EXTENDED_PARAMETER
+ - POOL_EXTENDED_PARAMETER
 dev_langs:
  - c++
 ---

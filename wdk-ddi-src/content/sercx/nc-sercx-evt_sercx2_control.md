@@ -10,6 +10,7 @@ keywords: ["EVT_SERCX2_CONTROL callback function"]
 ms.keywords: 2/EvtSerCx2Control, EVT_SERCX2_CONTROL, EVT_SERCX2_CONTROL callback, EvtSerCx2Control, EvtSerCx2Control callback function [Serial Ports], serports.evtsercx2control
 f1_keywords:
  - "sercx/EvtSerCx2Control"
+ - "EvtSerCx2Control"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - 2.0\Sercx.h
 api_name:
 - EvtSerCx2Control
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

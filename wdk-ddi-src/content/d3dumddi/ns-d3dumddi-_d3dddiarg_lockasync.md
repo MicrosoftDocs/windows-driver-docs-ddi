@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_LOCKASYNC structure"]
 ms.keywords: D3DDDIARG_LOCKASYNC, D3DDDIARG_LOCKASYNC structure [Display Devices], UMDisplayDriver_param_Structs_24593944-e4ac-4650-82d5-c5fc26a6a770.xml, _D3DDDIARG_LOCKASYNC, d3dumddi/D3DDDIARG_LOCKASYNC, display.d3dddiarg_lockasync
 f1_keywords:
  - "d3dumddi/D3DDDIARG_LOCKASYNC"
+ - "D3DDDIARG_LOCKASYNC"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDIARG_LOCKASYNC
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_LOCKASYNC
 ---

@@ -10,6 +10,7 @@ keywords: ["FltIs32bitProcess function"]
 ms.keywords: FltApiRef_e_to_o_dbd737ec-e787-4f85-bd9e-833e06e862f0.xml, FltIs32bitProcess, FltIs32bitProcess routine [Installable File System Drivers], fltkernel/FltIs32bitProcess, ifsk.fltis32bitprocess
 f1_keywords:
  - "fltkernel/FltIs32bitProcess"
+ - "FltIs32bitProcess"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltIs32bitProcess
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

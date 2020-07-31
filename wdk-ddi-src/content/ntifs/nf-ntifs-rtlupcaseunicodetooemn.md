@@ -10,6 +10,7 @@ keywords: ["RtlUpcaseUnicodeToOemN function"]
 ms.keywords: RtlUpcaseUnicodeToOemN, RtlUpcaseUnicodeToOemN routine [Installable File System Drivers], ifsk.rtlupcaseunicodetooemn, ntifs/RtlUpcaseUnicodeToOemN, rtlref_b1fcf08b-c13f-4b60-a570-f4bffe730ba4.xml
 f1_keywords:
  - "ntifs/RtlUpcaseUnicodeToOemN"
+ - "RtlUpcaseUnicodeToOemN"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlUpcaseUnicodeToOemN
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

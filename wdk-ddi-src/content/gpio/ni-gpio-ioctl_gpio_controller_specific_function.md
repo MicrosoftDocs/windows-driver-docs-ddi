@@ -10,6 +10,7 @@ keywords: ["IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION IOCTL"]
 ms.keywords: GPIO.ioctl_gpio_controller_specific_function, IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION, IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION control, IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION control code [Parallel Ports], gpio/IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION
 f1_keywords:
  - "gpio/IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION"
+ - "IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION"
 req.header: gpio.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Gpio.h
 api_name:
 - IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

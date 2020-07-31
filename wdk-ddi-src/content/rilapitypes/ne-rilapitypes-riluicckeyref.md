@@ -10,6 +10,7 @@ keywords: ["RILUICCKEYREF enumeration"]
 ms.keywords: RILUICCKEYREF, RILUICCKEYREF enumeration [Network Drivers Starting with Windows Vista], RIL_UICCKEYREF_NEV, RIL_UICCKEYREF_PIN1, RIL_UICCKEYREF_PIN2, RIL_UICCKEYREF_UPIN, netvista.riluicckeyref_2, rilapitypes/RILUICCKEYREF, rilapitypes/RIL_UICCKEYREF_NEV, rilapitypes/RIL_UICCKEYREF_PIN1, rilapitypes/RIL_UICCKEYREF_PIN2, rilapitypes/RIL_UICCKEYREF_UPIN
 f1_keywords:
  - "rilapitypes/RILUICCKEYREF"
+ - "RILUICCKEYREF"
 req.header: rilapitypes.h
 req.include-header:
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapitypes.h
 api_name:
 - RILUICCKEYREF
-product:
-- Windows
 targetos: Windows
 req.typenames: RILUICCKEYREF
 req.product: Windows 10 or later.

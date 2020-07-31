@@ -10,6 +10,7 @@ keywords: ["IMiniportWavePciStream::SetState"]
 ms.keywords: IMiniportWavePciStream interface [Audio Devices],SetState method, IMiniportWavePciStream.SetState, IMiniportWavePciStream::SetState, SetState, SetState method [Audio Devices], SetState method [Audio Devices],IMiniportWavePciStream interface, audio.iminiportwavepcistream_setstate, audmp-routines_71487eb9-23d5-4428-92c0-fc75e58d0da5.xml, portcls/IMiniportWavePciStream::SetState
 f1_keywords:
  - "portcls/IMiniportWavePciStream.SetState"
+ - "IMiniportWavePciStream.SetState"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IMiniportWavePciStream.SetState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

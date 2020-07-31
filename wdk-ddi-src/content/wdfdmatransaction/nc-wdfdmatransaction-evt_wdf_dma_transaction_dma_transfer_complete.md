@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_DMA_TRANSACTION_DMA_TRANSFER_COMPLETE callback function"]
 ms.keywords: EVT_WDF_DMA_TRANSACTION_DMA_TRANSFER_COMPLETE, EVT_WDF_DMA_TRANSACTION_DMA_TRANSFER_COMPLETE callback, EvtDmaTransactionDmaTransferComplete, EvtDmaTransactionDmaTransferComplete callback function, kmdf.evtdmatransactiondmatransfercomplete, wdf.evtdmatransactiondmatransfercomplete, wdfdmatransaction/EvtDmaTransactionDmaTransferComplete
 f1_keywords:
  - "wdfdmatransaction/EvtDmaTransactionDmaTransferComplete"
+ - "EvtDmaTransactionDmaTransferComplete"
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - WdfDmaTransaction.h
 api_name:
 - EvtDmaTransactionDmaTransferComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

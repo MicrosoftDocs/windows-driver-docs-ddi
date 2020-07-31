@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_CHILD_LIST_ADDRESS_DESCRIPTION_COPY callback function"]
 ms.keywords: DFDeviceObjectChildListRef_9ee2403b-4dcb-41cc-9f53-9e96f6f41c4f.xml, EVT_WDF_CHILD_LIST_ADDRESS_DESCRIPTION_COPY, EVT_WDF_CHILD_LIST_ADDRESS_DESCRIPTION_COPY callback, EvtChildListAddressDescriptionCopy, EvtChildListAddressDescriptionCopy callback function, kmdf.evtchildlistaddressdescriptioncopy, wdf.evtchildlistaddressdescriptioncopy, wdfchildlist/EvtChildListAddressDescriptionCopy
 f1_keywords:
  - "wdfchildlist/EvtChildListAddressDescriptionCopy"
+ - "EvtChildListAddressDescriptionCopy"
 req.header: wdfchildlist.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - WdfChildlist.h
 api_name:
 - EvtChildListAddressDescriptionCopy
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

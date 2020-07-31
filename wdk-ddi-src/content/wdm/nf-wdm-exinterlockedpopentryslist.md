@@ -10,6 +10,7 @@ keywords: ["ExInterlockedPopEntrySList macro"]
 ms.keywords: ExInterlockedPopEntrySList, ExInterlockedPopEntrySList routine [Kernel-Mode Driver Architecture], k102_fc9dbcb7-5cb0-405c-9a65-f7d6b60d2fee.xml, kernel.exinterlockedpopentryslist, wdm/ExInterlockedPopEntrySList
 f1_keywords:
  - "wdm/ExInterlockedPopEntrySList"
+ - "ExInterlockedPopEntrySList"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - ExInterlockedPopEntrySList
 - ExpInterlockedPopEntrySList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

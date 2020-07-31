@@ -10,6 +10,7 @@ keywords: ["_D3DDDI_CERTIFICATETYPE enumeration"]
 ms.keywords: D3DDDI_CERTIFICATETYPE, D3DDDI_CERTIFICATETYPE enumeration [Display Devices], D3DDDI_CERTTYPE_AUTHENTICATED_CHANNEL, D3DDDI_CERTTYPE_CRYPTOSESSION, D3D_other_Structs_88de08de-61df-4401-9a7c-8cace88a545a.xml, _D3DDDI_CERTIFICATETYPE, d3dumddi/D3DDDI_CERTIFICATETYPE, d3dumddi/D3DDDI_CERTTYPE_AUTHENTICATED_CHANNEL, d3dumddi/D3DDDI_CERTTYPE_CRYPTOSESSION, display.d3dddi_certificatetype
 f1_keywords:
  - "d3dumddi/D3DDDI_CERTIFICATETYPE"
+ - "D3DDDI_CERTIFICATETYPE"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDI_CERTIFICATETYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDI_CERTIFICATETYPE
 ---

@@ -10,6 +10,7 @@ keywords: ["IOCTL_SCSI_PASS_THROUGH_EX IOCTL"]
 ms.keywords: IOCTL_SCSI_PASS_THROUGH_EX, IOCTL_SCSI_PASS_THROUGH_EX control, IOCTL_SCSI_PASS_THROUGH_EX control code [Storage Devices], ntddscsi/IOCTL_SCSI_PASS_THROUGH_EX, storage.ioctl_scsi_pass_through_ex
 f1_keywords:
  - "ntddscsi/IOCTL_SCSI_PASS_THROUGH_EX"
+ - "IOCTL_SCSI_PASS_THROUGH_EX"
 req.header: ntddscsi.h
 req.include-header: Ntddscsi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddscsi.h
 api_name:
 - IOCTL_SCSI_PASS_THROUGH_EX
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

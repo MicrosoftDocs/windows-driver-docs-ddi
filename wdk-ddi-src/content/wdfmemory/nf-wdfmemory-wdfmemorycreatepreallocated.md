@@ -10,6 +10,7 @@ keywords: ["WdfMemoryCreatePreallocated function"]
 ms.keywords: DFMemoryObjectRef_03f219cd-a77b-4a17-b67a-2b01e0aeb3e6.xml, WdfMemoryCreatePreallocated, WdfMemoryCreatePreallocated method, kmdf.wdfmemorycreatepreallocated, wdf.wdfmemorycreatepreallocated, wdfmemory/WdfMemoryCreatePreallocated
 f1_keywords:
  - "wdfmemory/WdfMemoryCreatePreallocated"
+ - "WdfMemoryCreatePreallocated"
 req.header: wdfmemory.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfMemoryCreatePreallocated
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION IOCTL"]
 ms.keywords: IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION, IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION control, IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION control code [Serial Ports], ntddser/IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION, serports.ioctl_serial_apply_default_configuration
 f1_keywords:
  - "ntddser/IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION"
+ - "IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION"
 req.header: ntddser.h
 req.include-header: Ntddser.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntddser.h
 api_name:
 - IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

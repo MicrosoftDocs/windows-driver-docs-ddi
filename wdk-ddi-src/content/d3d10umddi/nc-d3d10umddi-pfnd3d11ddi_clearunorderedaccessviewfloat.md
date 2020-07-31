@@ -9,6 +9,7 @@ keywords: ["PFND3D11DDI_CLEARUNORDEREDACCESSVIEWFLOAT callback function"]
 ms.keywords: ClearUnorderedAccessViewFLOAT, ClearUnorderedAccessViewFLOAT callback function [Display Devices], PFND3D11DDI_CLEARUNORDEREDACCESSVIEWFLOAT, PFND3D11DDI_CLEARUNORDEREDACCESSVIEWFLOAT callback, UserModeDisplayDriverDx11_Functions_002fe9ed-bdd4-46c4-b7fe-6b783ab47060.xml, d3d10umddi/ClearUnorderedAccessViewFLOAT, display.clearunorderedaccessviewfloat
 f1_keywords:
  - "d3d10umddi/ClearUnorderedAccessViewFLOAT"
+ - "ClearUnorderedAccessViewFLOAT"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - ClearUnorderedAccessViewFLOAT
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

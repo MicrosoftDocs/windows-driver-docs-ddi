@@ -10,6 +10,7 @@ keywords: ["_USBD_ENDPOINT_OFFLOAD_MODE enumeration"]
 ms.keywords: USBD_ENDPOINT_OFFLOAD_MODE, USBD_ENDPOINT_OFFLOAD_MODE enumeration [Buses], UsbdEndpointOffloadHardwareAssisted, UsbdEndpointOffloadModeNotSupported, UsbdEndpointOffloadSoftwareAssisted, _USBD_ENDPOINT_OFFLOAD_MODE, buses.usbd_endpoint_offload_mode, usb/USBD_ENDPOINT_OFFLOAD_MODE, usb/UsbdEndpointOffloadHardwareAssisted, usb/UsbdEndpointOffloadModeNotSupported, usb/UsbdEndpointOffloadSoftwareAssisted
 f1_keywords:
  - "usb/USBD_ENDPOINT_OFFLOAD_MODE"
+ - "USBD_ENDPOINT_OFFLOAD_MODE"
 req.header: usb.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Usb.h
 api_name:
 - USBD_ENDPOINT_OFFLOAD_MODE
-product:
-- Windows
 targetos: Windows
 req.typenames: USBD_ENDPOINT_OFFLOAD_MODE
 ---

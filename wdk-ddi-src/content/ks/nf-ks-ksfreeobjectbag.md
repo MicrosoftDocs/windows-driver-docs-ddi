@@ -10,6 +10,7 @@ keywords: ["KsFreeObjectBag function"]
 ms.keywords: KsFreeObjectBag, KsFreeObjectBag function [Streaming Media Devices], avfunc_f91aca67-5d6c-42f7-9e24-3b15b54c2b69.xml, ks/KsFreeObjectBag, stream.ksfreeobjectbag
 f1_keywords:
  - "ks/KsFreeObjectBag"
+ - "KsFreeObjectBag"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Ks.dll
 api_name:
 - KsFreeObjectBag
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

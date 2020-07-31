@@ -10,6 +10,7 @@ keywords: ["RILUICCFILELOCKSTATUSPARAMMASK enumeration"]
 ms.keywords: RILUICCFILELOCKSTATUSPARAMMASK, RILUICCFILELOCKSTATUSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_UFLS_ACCESSCONDITION, RIL_PARAM_UFLS_ALL, RIL_PARAM_UFLS_PINREFERENCE, netvista.riluiccfilelockstatusparammask, rilapitypes/RILUICCFILELOCKSTATUSPARAMMASK, rilapitypes/RIL_PARAM_UFLS_ACCESSCONDITION, rilapitypes/RIL_PARAM_UFLS_ALL, rilapitypes/RIL_PARAM_UFLS_PINREFERENCE
 f1_keywords:
  - "ntddrilapitypes/RILUICCFILELOCKSTATUSPARAMMASK"
+ - "RILUICCFILELOCKSTATUSPARAMMASK"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - rilapitypes.h
 api_name:
 - RILUICCFILELOCKSTATUSPARAMMASK
-product:
-- Windows
 targetos: Windows
 req.typenames: RILUICCFILELOCKSTATUSPARAMMASK
 ---

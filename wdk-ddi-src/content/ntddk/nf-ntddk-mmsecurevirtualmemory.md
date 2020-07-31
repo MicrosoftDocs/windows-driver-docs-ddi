@@ -10,6 +10,7 @@ keywords: ["MmSecureVirtualMemory function"]
 ms.keywords: MmSecureVirtualMemory, MmSecureVirtualMemory routine [Kernel-Mode Driver Architecture], k106_d85881bb-59a3-4494-afaa-55c49b71b64b.xml, kernel.mmsecurevirtualmemory, ntddk/MmSecureVirtualMemory
 f1_keywords:
  - "ntddk/MmSecureVirtualMemory"
+ - "MmSecureVirtualMemory"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - MmSecureVirtualMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: 19H1

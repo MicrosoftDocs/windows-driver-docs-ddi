@@ -10,6 +10,7 @@ keywords: ["_FEATURE_DATA_VENDOR_SPECIFIC structure"]
 ms.keywords: "*PFEATURE_DATA_VENDOR_SPECIFIC, FEATURE_DATA_VENDOR_SPECIFIC, FEATURE_DATA_VENDOR_SPECIFIC structure [Storage Devices], PFEATURE_DATA_VENDOR_SPECIFIC, PFEATURE_DATA_VENDOR_SPECIFIC structure pointer [Storage Devices], _FEATURE_DATA_VENDOR_SPECIFIC, ntddmmc/FEATURE_DATA_VENDOR_SPECIFIC, ntddmmc/PFEATURE_DATA_VENDOR_SPECIFIC, storage.feature_data_vendor_specific, structs-CD-ROM_976446aa-d4d1-468b-a617-901d612b1a7e.xml"
 f1_keywords:
  - "ntddmmc/FEATURE_DATA_VENDOR_SPECIFIC"
+ - "FEATURE_DATA_VENDOR_SPECIFIC"
 req.header: ntddmmc.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddmmc.h
 api_name:
 - FEATURE_DATA_VENDOR_SPECIFIC
-product:
-- Windows
 targetos: Windows
 req.typenames: FEATURE_DATA_VENDOR_SPECIFIC, *PFEATURE_DATA_VENDOR_SPECIFIC
 ---

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["EFI_SET_VARIABLE_GET_VARIABLE_NAME macro"]
 f1_keywords:
  - "treevariableservice/EFI_SET_VARIABLE_GET_VARIABLE_NAME"
+ - "EFI_SET_VARIABLE_GET_VARIABLE_NAME"
 ms.keywords: EFI_SET_VARIABLE_GET_VARIABLE_NAME
 req.header: treevariableservice.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - treevariableservice.h
 api_name: 
 - EFI_SET_VARIABLE_GET_VARIABLE_NAME
-product:
-- Windows
 targetos: Windows
 
 

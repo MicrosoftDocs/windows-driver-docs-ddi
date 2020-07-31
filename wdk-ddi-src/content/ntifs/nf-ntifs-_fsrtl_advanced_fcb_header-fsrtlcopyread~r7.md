@@ -10,6 +10,7 @@ keywords: ["FsRtlCopyRead function"]
 ms.keywords: FsRtlCopyRead, FsRtlCopyRead routine [Installable File System Drivers], fsrtlref_e1027860-157f-4621-97dd-54a15c59be0c.xml, ifsk.fsrtlcopyread, ntifs/FsRtlCopyRead
 f1_keywords:
  - "ntifs/FsRtlCopyRead"
+ - "FsRtlCopyRead"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlCopyRead
-product:
-- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---

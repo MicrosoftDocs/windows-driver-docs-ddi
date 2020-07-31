@@ -10,6 +10,7 @@ keywords: ["IWDTFDeviceDepot2::QuerySingle"]
 ms.keywords: IWDTFDeviceDepot2 interface [Windows Device Testing Framework],QuerySingle method, IWDTFDeviceDepot2.QuerySingle, IWDTFDeviceDepot2::QuerySingle, Microsoft.WDTF.IWDTFDeviceDepot2.QuerySingle, Microsoft::WDTF::IWDTFDeviceDepot2::QuerySingle, QuerySingle, QuerySingle method [Windows Device Testing Framework], QuerySingle method [Windows Device Testing Framework],IWDTFDeviceDepot2 interface, dtf.iwdtfdevicedepot2_querysingle, wdtf/IWDTFDeviceDepot2::QuerySingle
 f1_keywords:
  - "wdtf/IWDTFDeviceDepot2.QuerySingle"
+ - "IWDTFDeviceDepot2.QuerySingle"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WDTF.Interop.metadata_dll.dll
 api_name:
 - IWDTFDeviceDepot2.QuerySingle
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

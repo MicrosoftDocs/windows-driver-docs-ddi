@@ -8,6 +8,7 @@ ms.date: 10/19/2018
 keywords: ["_PANEL_QUERY_BRIGHTNESS_CAPS structure"]
 f1_keywords:
  - "ntddvdeo/_PANEL_QUERY_BRIGHTNESS_CAPS"
+ - "_PANEL_QUERY_BRIGHTNESS_CAPS"
 ms.keywords: _PANEL_QUERY_BRIGHTNESS_CAPS, *PPANEL_QUERY_BRIGHTNESS_CAPS, PANEL_QUERY_BRIGHTNESS_CAPS
 req.header: ntddvdeo.h
 req.include-header:

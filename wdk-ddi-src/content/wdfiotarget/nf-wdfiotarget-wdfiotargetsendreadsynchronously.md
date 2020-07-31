@@ -10,6 +10,7 @@ keywords: ["WdfIoTargetSendReadSynchronously function"]
 ms.keywords: DFIOTargetRef_91d200b2-9585-488f-9477-3b6e528e82cc.xml, WdfIoTargetSendReadSynchronously, WdfIoTargetSendReadSynchronously method, kmdf.wdfiotargetsendreadsynchronously, wdf.wdfiotargetsendreadsynchronously, wdfiotarget/WdfIoTargetSendReadSynchronously
 f1_keywords:
  - "wdfiotarget/WdfIoTargetSendReadSynchronously"
+ - "WdfIoTargetSendReadSynchronously"
 req.header: wdfiotarget.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfIoTargetSendReadSynchronously
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

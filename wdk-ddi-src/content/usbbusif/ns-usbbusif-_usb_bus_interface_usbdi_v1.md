@@ -10,6 +10,7 @@ keywords: ["_USB_BUS_INTERFACE_USBDI_V1 structure"]
 ms.keywords: "*PUSB_BUS_INTERFACE_USBDI_V1, PUSB_BUS_INTERFACE_USBDI_V1, PUSB_BUS_INTERFACE_USBDI_V1 structure pointer [Buses], USB_BUS_INTERFACE_USBDI_V1, USB_BUS_INTERFACE_USBDI_V1 structure [Buses], _USB_BUS_INTERFACE_USBDI_V1, buses.usb_bus_interface_usbdi_v1, usbbusif/PUSB_BUS_INTERFACE_USBDI_V1, usbbusif/USB_BUS_INTERFACE_USBDI_V1, usbinterKR_baeecc46-78ee-409a-9017-b6e74b3340e0.xml"
 f1_keywords:
  - "usbbusif/USB_BUS_INTERFACE_USBDI_V1"
+ - "USB_BUS_INTERFACE_USBDI_V1"
 req.header: usbbusif.h
 req.include-header: Usbbusif.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - usbbusif.h
 api_name:
 - USB_BUS_INTERFACE_USBDI_V1
-product:
-- Windows
 targetos: Windows
 req.typenames: USB_BUS_INTERFACE_USBDI_V1, *PUSB_BUS_INTERFACE_USBDI_V1
 ---

@@ -10,6 +10,7 @@ keywords: ["NDK_FN_MODIFY_SRQ callback function"]
 ms.keywords: NDK_FN_MODIFY_SRQ, NDK_FN_MODIFY_SRQ callback, NdkModifySrq, NdkModifySrq callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkModifySrq, netvista.ndk_fn_modify_srq
 f1_keywords:
  - "ndkpi/NdkModifySrq"
+ - "NdkModifySrq"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ndkpi.h
 api_name:
 - NdkModifySrq
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

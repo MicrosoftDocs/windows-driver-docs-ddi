@@ -10,6 +10,7 @@ keywords: ["NdisQueryBindInstanceName function"]
 ms.keywords: NdisQueryBindInstanceName, NdisQueryBindInstanceName function [Network Drivers Starting with Windows Vista], ndis/NdisQueryBindInstanceName, netvista.ndisquerybindinstancename, protocol_ndis_functions_ref_96d4e502-200e-4ad5-b66d-6de612a0b7f9.xml
 f1_keywords:
  - "ndis/NdisQueryBindInstanceName"
+ - "NdisQueryBindInstanceName"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisQueryBindInstanceName
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

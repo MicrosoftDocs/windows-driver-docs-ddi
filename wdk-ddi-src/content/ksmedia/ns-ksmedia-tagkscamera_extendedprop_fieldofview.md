@@ -10,6 +10,7 @@ keywords: ["tagKSCAMERA_EXTENDEDPROP_FIELDOFVIEW structure"]
 ms.keywords: "*PKSCAMERA_EXTENDEDPROP_FIELDOFVIEW, KSCAMERA_EXTENDEDPROP_FIELDOFVIEW, KSCAMERA_EXTENDEDPROP_FIELDOFVIEW structure [Streaming Media Devices], PKSCAMERA_EXTENDEDPROP_FIELDOFVIEW, PKSCAMERA_EXTENDEDPROP_FIELDOFVIEW structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_EXTENDEDPROP_FIELDOFVIEW, ksmedia/PKSCAMERA_EXTENDEDPROP_FIELDOFVIEW, stream.kscamera_extendedprop_fieldofview, tagKSCAMERA_EXTENDEDPROP_FIELDOFVIEW"
 f1_keywords:
  - "ksmedia/KSCAMERA_EXTENDEDPROP_FIELDOFVIEW"
+ - "KSCAMERA_EXTENDEDPROP_FIELDOFVIEW"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ksmedia.h
 api_name:
 - KSCAMERA_EXTENDEDPROP_FIELDOFVIEW
-product:
-- Windows
 targetos: Windows
 req.typenames: KSCAMERA_EXTENDEDPROP_FIELDOFVIEW, *PKSCAMERA_EXTENDEDPROP_FIELDOFVIEW
 ---

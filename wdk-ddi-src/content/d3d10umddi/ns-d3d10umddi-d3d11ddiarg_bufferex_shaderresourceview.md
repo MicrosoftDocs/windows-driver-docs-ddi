@@ -9,6 +9,7 @@ keywords: ["D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW structure"]
 ms.keywords: D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW, D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW structure [Display Devices], UMDisplayDriver_Dx11param_Structs_49ef78b9-8a6f-4b67-bf2f-bae79086b6c7.xml, d3d10umddi/D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW, display.d3d11ddiarg_bufferex_shaderresourceview
 f1_keywords:
  - "d3d10umddi/D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW"
+ - "D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -35,8 +36,6 @@ api_location:
 - d3d10umddi.h
 api_name:
 - D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW

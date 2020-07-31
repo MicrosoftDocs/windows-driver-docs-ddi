@@ -10,6 +10,7 @@ keywords: ["KeExpandKernelStackAndCallout function"]
 ms.keywords: KeExpandKernelStackAndCallout, KeExpandKernelStackAndCallout routine [Kernel-Mode Driver Architecture], k105_37fc85c2-2317-41a2-9daa-766c3ccf343f.xml, kernel.keexpandkernelstackandcallout, ntddk/KeExpandKernelStackAndCallout
 f1_keywords:
  - "ntddk/KeExpandKernelStackAndCallout"
+ - "KeExpandKernelStackAndCallout"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeExpandKernelStackAndCallout
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -107,7 +106,7 @@ The calling thread must not call the <a href="https://docs.microsoft.com/windows
 
 
 
-[**KeExpandKernelStackAndCallout**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keexpandkernelstackandcallout) 
+[**KeExpandKernelStackAndCalloutEx**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keexpandkernelstackandcalloutex) 
 
 
 

@@ -10,6 +10,7 @@ keywords: ["DXGKDDI_I2C_RECEIVE_DATA_FROM_DISPLAY callback function"]
 ms.keywords: DXGKDDI_I2C_RECEIVE_DATA_FROM_DISPLAY, DXGKDDI_I2C_RECEIVE_DATA_FROM_DISPLAY callback, DmFunctions_5fcf0936-1f93-4445-9a80-545ad88b472b.xml, DxgkDdiI2CReceiveDataFromDisplay, DxgkDdiI2CReceiveDataFromDisplay callback function [Display Devices], display.dxgkddii2creceivedatafromdisplay, dispmprt/DxgkDdiI2CReceiveDataFromDisplay
 f1_keywords:
  - "dispmprt/DxgkDdiI2CReceiveDataFromDisplay"
+ - "DxgkDdiI2CReceiveDataFromDisplay"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dispmprt.h
 api_name:
 - DxgkDdiI2CReceiveDataFromDisplay
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

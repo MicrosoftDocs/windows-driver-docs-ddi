@@ -9,6 +9,7 @@ keywords: ["D3DKMTDestroyKeyedMutex function"]
 ms.keywords: D3DKMTDestroyKeyedMutex, D3DKMTDestroyKeyedMutex function [Display Devices], OpenGL_Functions_de5400f1-6ef8-431c-a838-8c82cb03d7f1.xml, d3dkmthk/D3DKMTDestroyKeyedMutex, display.d3dkmtdestroykeyedmutex
 f1_keywords:
  - "d3dkmthk/D3DKMTDestroyKeyedMutex"
+ - "D3DKMTDestroyKeyedMutex"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -38,8 +39,6 @@ api_location:
 - API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 - D3DKMTDestroyKeyedMutex
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

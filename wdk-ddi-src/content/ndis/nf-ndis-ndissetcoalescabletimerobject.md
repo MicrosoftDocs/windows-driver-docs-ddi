@@ -10,6 +10,7 @@ keywords: ["NdisSetCoalescableTimerObject function"]
 ms.keywords: NdisSetCoalescableTimerObject, NdisSetCoalescableTimerObject function [Network Drivers Starting with Windows Vista], ndis/NdisSetCoalescableTimerObject, ndis_timer_ref_1f787022-10cd-4ae1-97d9-f40bae70a844.xml, netvista.ndissetcoalescabletimerobject
 f1_keywords:
  - "ndis/NdisSetCoalescableTimerObject"
+ - "NdisSetCoalescableTimerObject"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisSetCoalescableTimerObject
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

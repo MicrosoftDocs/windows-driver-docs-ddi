@@ -10,6 +10,7 @@ keywords: ["VideoPortGetDmaContext function"]
 ms.keywords: VideoPortGetDmaContext, VideoPortGetDmaContext function [Display Devices], VideoPort_Functions_97335d32-fa36-4130-a050-39fbdfc08517.xml, display.videoportgetdmacontext, video/VideoPortGetDmaContext
 f1_keywords:
  - "video/VideoPortGetDmaContext"
+ - "VideoPortGetDmaContext"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Videoprt.sys
 api_name:
 - VideoPortGetDmaContext
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

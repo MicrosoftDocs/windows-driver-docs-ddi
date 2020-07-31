@@ -10,6 +10,7 @@ ms.date: 04/03/2019
 keywords: ["IOCTL_USBPRINT_GET_INTERFACE_TYPE IOCTL"]
 f1_keywords:
  - "usbprint/IOCTL_USBPRINT_GET_INTERFACE_TYPE"
+ - "IOCTL_USBPRINT_GET_INTERFACE_TYPE"
 ms.custom: 19H1
 req.header: usbprint.h
 req.include-header:

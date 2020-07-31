@@ -8,6 +8,7 @@ ms.date: 05/22/2018
 keywords: ["_NDIS_RFC6877_464XLAT_OFFLOAD_OPTIONS enumeration"]
 f1_keywords:
  - "ntddndis/_NDIS_RFC6877_464XLAT_OFFLOAD_OPTIONS"
+ - "_NDIS_RFC6877_464XLAT_OFFLOAD_OPTIONS"
 ms.keywords: _NDIS_RFC6877_464XLAT_OFFLOAD_OPTIONS, NDIS_RFC6877_464XLAT_OFFLOAD_OPTIONS, 
 req.header: ntddndis.h
 req.include-header: ndis.h
@@ -27,8 +28,6 @@ api_location:
 - ntddndis.h
 api_name: 
 - _NDIS_RFC6877_464XLAT_OFFLOAD_OPTIONS
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

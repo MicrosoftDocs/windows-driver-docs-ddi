@@ -10,6 +10,7 @@ keywords: ["EVT_UFX_DEVICE_CONTROLLER_RESET callback function"]
 ms.keywords: EVT_UFX_DEVICE_CONTROLLER_RESET, EVT_UFX_DEVICE_CONTROLLER_RESET callback, EvtUfxDeviceControllerReset, EvtUfxDeviceControllerReset callback function [Buses], PFN_UFX_DEVICE_CONTROLLER_RESET, PFN_UFX_DEVICE_CONTROLLER_RESET callback function pointer [Buses], buses.evt_ufx_device_controller_reset, ufxclient/EvtUfxDeviceControllerReset
 f1_keywords:
  - "ufxclient/PFN_UFX_DEVICE_CONTROLLER_RESET"
+ - "PFN_UFX_DEVICE_CONTROLLER_RESET"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ufxclient.h
 api_name:
 - PFN_UFX_DEVICE_CONTROLLER_RESET
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

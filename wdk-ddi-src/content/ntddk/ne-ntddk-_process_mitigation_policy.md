@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_PROCESS_MITIGATION_POLICY enumeration"]
 f1_keywords:
  - "ntddk/_PROCESS_MITIGATION_POLICY"
+ - "_PROCESS_MITIGATION_POLICY"
 ms.keywords: _PROCESS_MITIGATION_POLICY, PROCESS_MITIGATION_POLICY, *PPROCESS_MITIGATION_POLICY, 
 req.header: ntddk.h
 req.include-header:
@@ -26,8 +27,6 @@ api_location:
 - ntddk.h
 api_name: 
 - _PROCESS_MITIGATION_POLICY
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

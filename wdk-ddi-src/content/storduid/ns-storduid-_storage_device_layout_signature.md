@@ -10,6 +10,7 @@ keywords: ["_STORAGE_DEVICE_LAYOUT_SIGNATURE structure"]
 ms.keywords: "*PSTORAGE_DEVICE_LAYOUT_SIGNATURE, PSTORAGE_DEVICE_LAYOUT_SIGNATURE, PSTORAGE_DEVICE_LAYOUT_SIGNATURE structure pointer [Storage Devices], STORAGE_DEVICE_LAYOUT_SIGNATURE, STORAGE_DEVICE_LAYOUT_SIGNATURE structure [Storage Devices], _STORAGE_DEVICE_LAYOUT_SIGNATURE, storage.storage_device_layout_signature, storduid/PSTORAGE_DEVICE_LAYOUT_SIGNATURE, storduid/STORAGE_DEVICE_LAYOUT_SIGNATURE, structs-general_0392587a-aab6-4f49-bb7e-3ebf8acc87bb.xml"
 f1_keywords:
  - "storduid/STORAGE_DEVICE_LAYOUT_SIGNATURE"
+ - "STORAGE_DEVICE_LAYOUT_SIGNATURE"
 req.header: storduid.h
 req.include-header: Storduid.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - storduid.h
 api_name:
 - STORAGE_DEVICE_LAYOUT_SIGNATURE
-product:
-- Windows
 targetos: Windows
 req.typenames: STORAGE_DEVICE_LAYOUT_SIGNATURE, *PSTORAGE_DEVICE_LAYOUT_SIGNATURE
 ---

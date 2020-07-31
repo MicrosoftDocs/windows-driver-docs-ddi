@@ -10,6 +10,7 @@ keywords: ["WdfDeviceMapIoSpace function"]
 ms.keywords: WdfDeviceMapIoSpace, WdfDeviceMapIoSpace function, wdf.wdfdevicemapiospace, wdfdevice/WdfDeviceMapIoSpace
 f1_keywords:
  - "wdfdevice/WdfDeviceMapIoSpace"
+ - "WdfDeviceMapIoSpace"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - WUDFx02000.dll
 api_name:
 - WdfDeviceMapIoSpace
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

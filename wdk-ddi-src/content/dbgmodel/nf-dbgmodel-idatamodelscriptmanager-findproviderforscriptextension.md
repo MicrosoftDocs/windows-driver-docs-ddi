@@ -7,6 +7,7 @@ ms.date: 08/20/2018
 keywords: ["IDataModelScriptManager::FindProviderForScriptExtension"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptManager.FindProviderForScriptExtension"
+ - "IDataModelScriptManager.FindProviderForScriptExtension"
 ms.keywords: IDataModelScriptManager::FindProviderForScriptExtension, FindProviderForScriptExtension, IDataModelScriptManager.FindProviderForScriptExtension, IDataModelScriptManager::FindProviderForScriptExtension, IDataModelScriptManager.FindProviderForScriptExtension
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDataModelScriptManager.FindProviderForScriptExtension
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

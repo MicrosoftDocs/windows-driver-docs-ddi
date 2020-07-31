@@ -8,6 +8,7 @@ ms.date: 01/30/2019
 keywords: ["NetExtensionGetPacketChecksum function"]
 f1_keywords:
  - "checksum/BATTERY_INFORMATION"
+ - "BATTERY_INFORMATION"
 ms.keywords: NetExtensionGetPacketChecksum
 req.header: checksum.h
 req.include-header: netadaptercx.h
@@ -34,8 +35,6 @@ apilocation:
 - NtosKrnl.exe
 apiname: 
 - NetExtensionGetPacketChecksum
-product:
-- Windows
 targetos: Windows
 
 ---

@@ -10,6 +10,7 @@ keywords: ["FsRtlGetEcpListFromIrp function"]
 ms.keywords: FsRtlGetEcpListFromIrp, FsRtlGetEcpListFromIrp routine [Installable File System Drivers], fsrtlref_85b1fc72-e8ce-4909-a0d4-1eab35b3a0cb.xml, ifsk.fsrtlgetecplistfromirp, ntifs/FsRtlGetEcpListFromIrp
 f1_keywords:
  - "ntifs/FsRtlGetEcpListFromIrp"
+ - "FsRtlGetEcpListFromIrp"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - FsRtlGetEcpListFromIrp
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

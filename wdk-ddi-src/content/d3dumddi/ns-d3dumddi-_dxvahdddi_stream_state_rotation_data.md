@@ -10,6 +10,7 @@ keywords: ["_DXVAHDDDI_STREAM_STATE_ROTATION_DATA structure"]
 ms.keywords: DXVAHDDDI_STREAM_STATE_ROTATION_DATA, DXVAHDDDI_STREAM_STATE_ROTATION_DATA structure [Display Devices], _DXVAHDDDI_STREAM_STATE_ROTATION_DATA, d3dumddi/DXVAHDDDI_STREAM_STATE_ROTATION_DATA, display.dxvahdddi_stream_state_rotation_data
 f1_keywords:
  - "d3dumddi/DXVAHDDDI_STREAM_STATE_ROTATION_DATA"
+ - "DXVAHDDDI_STREAM_STATE_ROTATION_DATA"
 req.header: d3dumddi.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - D3dumddi.h
 api_name:
 - DXVAHDDDI_STREAM_STATE_ROTATION_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: DXVAHDDDI_STREAM_STATE_ROTATION_DATA
 ---

@@ -10,6 +10,7 @@ keywords: ["IWiaDrvItem::GetFirstChildItem"]
 ms.keywords: DrvItem_0ee76640-f07a-4b25-9955-230122a2a662.xml, GetFirstChildItem, GetFirstChildItem method [Imaging Devices], GetFirstChildItem method [Imaging Devices],IWiaDrvItem interface, IWiaDrvItem interface [Imaging Devices],GetFirstChildItem method, IWiaDrvItem.GetFirstChildItem, IWiaDrvItem::GetFirstChildItem, image.iwiadrvitem_getfirstchilditem, wiamindr_lh/IWiaDrvItem::GetFirstChildItem
 f1_keywords:
  - "wiamindr_lh/IWiaDrvItem.GetFirstChildItem"
+ - "IWiaDrvItem.GetFirstChildItem"
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wiamindr_lh.h
 api_name:
 - IWiaDrvItem.GetFirstChildItem
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

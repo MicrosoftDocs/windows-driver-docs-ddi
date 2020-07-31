@@ -10,6 +10,7 @@ keywords: ["GNSS_STOPFIXSESSION_PARAM structure"]
 ms.keywords: "*PGNSS_STOPFIXSESSION_PARAM, GNSS_STOPFIXSESSION_PARAM, GNSS_STOPFIXSESSION_PARAM structure [Sensor Devices], PGNSS_STOPFIXSESSION_PARAM, PGNSS_STOPFIXSESSION_PARAM structure pointer [Sensor Devices], gnss.gnss_stopfixsession_param, gnssdriver/GNSS_STOPFIXSESSION_PARAM, gnssdriver/PGNSS_STOPFIXSESSION_PARAM"
 f1_keywords:
  - "gnssdriver/GNSS_STOPFIXSESSION_PARAM"
+ - "GNSS_STOPFIXSESSION_PARAM"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - gnssdriver.h
 api_name:
 - GNSS_STOPFIXSESSION_PARAM
-product:
-- Windows
 targetos: Windows
 req.typenames: GNSS_STOPFIXSESSION_PARAM, *PGNSS_STOPFIXSESSION_PARAM
 ---

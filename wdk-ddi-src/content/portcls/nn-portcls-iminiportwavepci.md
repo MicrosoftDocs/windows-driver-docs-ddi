@@ -10,6 +10,7 @@ keywords: ["IMiniportWavePci interface"]
 ms.keywords: IMiniportWavePci, IMiniportWavePci interface [Audio Devices], IMiniportWavePci interface [Audio Devices],described, audio.iminiportwavepci, audmp-routines_bd4a9d9c-d3eb-40bc-93d9-277abe4ee258.xml, portcls/IMiniportWavePci
 f1_keywords:
  - "portcls/IMiniportWavePci"
+ - "IMiniportWavePci"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IMiniportWavePci
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

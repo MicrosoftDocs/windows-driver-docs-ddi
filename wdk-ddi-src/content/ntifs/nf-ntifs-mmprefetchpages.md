@@ -10,6 +10,7 @@ keywords: ["MmPrefetchPages function"]
 ms.keywords: MmPrefetchPages, MmPrefetchPages routine [Installable File System Drivers], ifsk.mmprefetchpages, mmref_6e555336-a134-409a-9c8a-a4a217e38599.xml, ntifs/MmPrefetchPages
 f1_keywords:
  - "ntifs/MmPrefetchPages"
+ - "MmPrefetchPages"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - MmPrefetchPages
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

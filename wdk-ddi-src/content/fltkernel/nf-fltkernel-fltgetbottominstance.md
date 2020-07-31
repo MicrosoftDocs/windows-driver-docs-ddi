@@ -10,6 +10,7 @@ keywords: ["FltGetBottomInstance function"]
 ms.keywords: FltApiRef_e_to_o_14e06d93-d5c8-4154-9184-d30beef6c126.xml, FltGetBottomInstance, FltGetBottomInstance function [Installable File System Drivers], fltkernel/FltGetBottomInstance, ifsk.fltgetbottominstance
 f1_keywords:
  - "fltkernel/FltGetBottomInstance"
+ - "FltGetBottomInstance"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - fltmgr.sys
 api_name:
 - FltGetBottomInstance
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

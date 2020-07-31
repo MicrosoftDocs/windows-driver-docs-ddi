@@ -10,6 +10,7 @@ keywords: ["WdfDmaTransactionDmaCompletedWithLength function"]
 ms.keywords: DFDmaObjectRef_b04fb6c6-98ce-4d3b-8bc9-10a29f6bde46.xml, WdfDmaTransactionDmaCompletedWithLength, WdfDmaTransactionDmaCompletedWithLength method, kmdf.wdfdmatransactiondmacompletedwithlength, wdf.wdfdmatransactiondmacompletedwithlength, wdfdmatransaction/WdfDmaTransactionDmaCompletedWithLength
 f1_keywords:
  - "wdfdmatransaction/WdfDmaTransactionDmaCompletedWithLength"
+ - "WdfDmaTransactionDmaCompletedWithLength"
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Wdf01000.sys.dll
 api_name:
 - WdfDmaTransactionDmaCompletedWithLength
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

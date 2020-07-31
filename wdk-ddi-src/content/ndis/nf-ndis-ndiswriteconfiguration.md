@@ -10,6 +10,7 @@ keywords: ["NdisWriteConfiguration function"]
 ms.keywords: NdisWriteConfiguration, NdisWriteConfiguration function [Network Drivers Starting with Windows Vista], ndis/NdisWriteConfiguration, ndis_configuration_ref_7d603433-49ed-46d5-8a57-000c06d83d4a.xml, netvista.ndiswriteconfiguration
 f1_keywords:
  - "ndis/NdisWriteConfiguration"
+ - "NdisWriteConfiguration"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisWriteConfiguration
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -164,7 +163,7 @@ For more information about setup and installation files for Windows 2000 and lat
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_string">ANSI_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-string">ANSI_STRING</a>
 
 
 

@@ -10,6 +10,7 @@ keywords: ["_DXGK_MIRACAST_CAPS structure"]
 ms.keywords: "*PDXGK_MIRACAST_CAPS, DXGK_MIRACAST_CAPS, DXGK_MIRACAST_CAPS structure [Display Devices], PDXGK_MIRACAST_CAPS, PDXGK_MIRACAST_CAPS structure pointer [Display Devices], _DXGK_MIRACAST_CAPS, display.dxgk_miracast_caps, dispmprt/DXGK_MIRACAST_CAPS, dispmprt/PDXGK_MIRACAST_CAPS"
 f1_keywords:
  - "dispmprt/DXGK_MIRACAST_CAPS"
+ - "DXGK_MIRACAST_CAPS"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Dispmprt.h
 api_name:
 - DXGK_MIRACAST_CAPS
-product:
-- Windows
 targetos: Windows
 req.typenames: DXGK_MIRACAST_CAPS, *PDXGK_MIRACAST_CAPS
 ---

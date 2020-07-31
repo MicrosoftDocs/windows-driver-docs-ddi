@@ -10,6 +10,7 @@ keywords: ["KSEVENTS_LOCKTYPE enumeration"]
 ms.keywords: KSEVENTS_ERESOURCE, KSEVENTS_FMUTEX, KSEVENTS_FMUTEXUNSAFE, KSEVENTS_INTERRUPT, KSEVENTS_LOCKTYPE, KSEVENTS_LOCKTYPE enumeration [Streaming Media Devices], KSEVENTS_MUTEX, KSEVENTS_NONE, KSEVENTS_SPINLOCK, ks-struct_293dbf13-1dbe-478e-83fb-d38e17e4a697.xml, ks/KSEVENTS_ERESOURCE, ks/KSEVENTS_FMUTEX, ks/KSEVENTS_FMUTEXUNSAFE, ks/KSEVENTS_INTERRUPT, ks/KSEVENTS_LOCKTYPE, ks/KSEVENTS_MUTEX, ks/KSEVENTS_NONE, ks/KSEVENTS_SPINLOCK, stream.ksevents_locktype
 f1_keywords:
  - "ks/KSEVENTS_LOCKTYPE"
+ - "KSEVENTS_LOCKTYPE"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KSEVENTS_LOCKTYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: KSEVENTS_LOCKTYPE
 ---

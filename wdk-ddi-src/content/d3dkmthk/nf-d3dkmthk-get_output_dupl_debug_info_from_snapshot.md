@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["GET_OUTPUT_DUPL_DEBUG_INFO_FROM_SNAPSHOT macro"]
 f1_keywords:
  - "d3dkmthk/GET_OUTPUT_DUPL_DEBUG_INFO_FROM_SNAPSHOT"
+ - "GET_OUTPUT_DUPL_DEBUG_INFO_FROM_SNAPSHOT"
 ms.keywords: GET_OUTPUT_DUPL_DEBUG_INFO_FROM_SNAPSHOT
 req.header: d3dkmthk.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - d3dkmthk.h
 api_name: 
 - GET_OUTPUT_DUPL_DEBUG_INFO_FROM_SNAPSHOT
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

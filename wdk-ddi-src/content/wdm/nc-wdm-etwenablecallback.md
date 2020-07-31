@@ -10,6 +10,7 @@ keywords: ["ETWENABLECALLBACK callback function"]
 ms.keywords: EtwEnableCallback, EtwEnableCallback callback function [Driver Development Tools], PETWENABLECALLBACK, PETWENABLECALLBACK callback, devtest.etwenablecallback, etw_km_6405d4d5-382c-4950-9b91-0cb224a3d069.xml, wdm/EtwEnableCallback
 f1_keywords:
  - "wdm/EtwEnableCallback"
+ - "EtwEnableCallback"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - EtwEnableCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

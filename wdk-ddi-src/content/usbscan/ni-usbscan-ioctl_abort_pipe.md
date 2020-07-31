@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["IOCTL_ABORT_PIPE IOCTL"]
 f1_keywords:
  - "usbscan/IOCTL_ABORT_PIPE"
+ - "IOCTL_ABORT_PIPE"
 req.header: usbscan.h
 req.include-header:
 req.target-type:

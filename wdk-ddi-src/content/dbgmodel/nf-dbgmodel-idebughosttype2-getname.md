@@ -7,6 +7,7 @@ ms.date: 09/21/2018
 keywords: ["IDebugHostType2::GetName"]
 f1_keywords:
  - "dbgmodel/IDebugHostType2.GetName"
+ - "IDebugHostType2.GetName"
 ms.keywords: IDebugHostType2::GetName, GetName, IDebugHostType2.GetName, IDebugHostType2::GetName, IDebugHostType2.GetName
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDebugHostType2.GetName
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

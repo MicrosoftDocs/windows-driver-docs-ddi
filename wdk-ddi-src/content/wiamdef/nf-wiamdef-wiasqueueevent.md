@@ -10,6 +10,7 @@ keywords: ["wiasQueueEvent function"]
 ms.keywords: image.wiasqueueevent, wiamdef/wiasQueueEvent, wiasFncs_a853cdf1-8d80-4bb6-9c41-c7190e9e9202.xml, wiasQueueEvent, wiasQueueEvent function [Imaging Devices]
 f1_keywords:
  - "wiamdef/wiasQueueEvent"
+ - "wiasQueueEvent"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wiaservc.dll
 api_name:
 - wiasQueueEvent
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

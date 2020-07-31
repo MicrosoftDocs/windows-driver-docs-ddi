@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["IOMMU_SET_DEVICE_FAULT_REPORTING callback function"]
 f1_keywords:
  - "wdm/IOMMU_SET_DEVICE_FAULT_REPORTING"
+ - "IOMMU_SET_DEVICE_FAULT_REPORTING"
 req.header: wdm.h
 req.include-header:
 req.target-type:
@@ -32,8 +33,6 @@ api_location:
 - wdm.h
 api_name: 
 - IOMMU_SET_DEVICE_FAULT_REPORTING
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 ---

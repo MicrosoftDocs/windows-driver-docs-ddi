@@ -10,6 +10,7 @@ keywords: ["IoGetDeviceInterfaces function"]
 ms.keywords: IoGetDeviceInterfaces, IoGetDeviceInterfaces routine [Kernel-Mode Driver Architecture], k104_c4286fdb-9b4e-42e4-a1f6-fb3a79d556a7.xml, kernel.iogetdeviceinterfaces, wdm/IoGetDeviceInterfaces
 f1_keywords:
  - "wdm/IoGetDeviceInterfaces"
+ - "IoGetDeviceInterfaces"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - IoGetDeviceInterfaces
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

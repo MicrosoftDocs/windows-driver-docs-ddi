@@ -10,6 +10,7 @@ keywords: ["FwpsCalloutRegister1 function"]
 ms.keywords: FwpsCalloutRegister1, FwpsCalloutRegister1 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsCalloutRegister1, netvista.fwpscalloutregister1, wfp_ref_2_funct_3_fwps_C_169881cd-1796-4774-8e62-481b00d877e3.xml
 f1_keywords:
  - "fwpsk/FwpsCalloutRegister1"
+ - "FwpsCalloutRegister1"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - Fwpkclnt.dll
 api_name:
 - FwpsCalloutRegister1
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

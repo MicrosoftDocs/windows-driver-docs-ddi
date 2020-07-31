@@ -10,6 +10,7 @@ keywords: ["NDK_FN_CREATE_MR callback function"]
 ms.keywords: NDK_FN_CREATE_MR, NDK_FN_CREATE_MR callback, NdkCreateMr, NdkCreateMr callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreateMr, netvista.ndk_fn_create_mr
 f1_keywords:
  - "ndkpi/NdkCreateMr"
+ - "NdkCreateMr"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ndkpi.h
 api_name:
 - NdkCreateMr
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["UsbBuildOpenStaticStreamsRequest function"]
 ms.keywords: UsbBuildOpenStaticStreamsRequest, UsbBuildOpenStaticStreamsRequest function [Buses], buses.usbbuildopenbasicstreamsrequest, usbdlib/UsbBuildOpenStaticStreamsRequest
 f1_keywords:
  - "usbdlib/UsbBuildOpenStaticStreamsRequest"
+ - "UsbBuildOpenStaticStreamsRequest"
 req.header: usbdlib.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Usbdlib.h
 api_name:
 - UsbBuildOpenStaticStreamsRequest
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

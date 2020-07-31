@@ -10,6 +10,7 @@ keywords: ["PALLOCATE_ADAPTER_CHANNEL callback function"]
 ms.keywords: AllocateAdapterChannel, AllocateAdapterChannel callback function [Kernel-Mode Driver Architecture], PALLOCATE_ADAPTER_CHANNEL, PALLOCATE_ADAPTER_CHANNEL callback, kdma_b2d02da0-ab8f-4fc3-a7a5-a981920c071d.xml, kernel.allocateadapterchannel, wdm/AllocateAdapterChannel
 f1_keywords:
  - "wdm/AllocateAdapterChannel"
+ - "AllocateAdapterChannel"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - wdm.h
 api_name:
 - AllocateAdapterChannel
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

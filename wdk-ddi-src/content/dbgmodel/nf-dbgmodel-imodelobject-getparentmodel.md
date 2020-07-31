@@ -7,6 +7,7 @@ ms.date: 08/09/2018
 keywords: ["IModelObject::GetParentModel"]
 f1_keywords:
  - "dbgmodel/IModelObject.GetParentModel"
+ - "IModelObject.GetParentModel"
 ms.keywords: IModelObject::GetParentModel, GetParentModel, IModelObject.GetParentModel, IModelObject::GetParentModel, IModelObject.GetParentModel
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IModelObject.GetParentModel
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

@@ -10,6 +10,7 @@ keywords: ["_USBDEVICE_MGMT_HEADER structure"]
 ms.keywords: "*PUSBDEVICE_MGMT_HEADER, P_USBDEVICE_MGMT_HEADER, P_USBDEVICE_MGMT_HEADER structure pointer [Buses], USBDEVICE_MGMT_HEADER, USBDEVICE_MGMT_HEADER structure [Buses], _USBDEVICE_MGMT_HEADER, buses._usbdevice_mgmt_header, ucxusbdevice/P_USBDEVICE_MGMT_HEADER, ucxusbdevice/_USBDEVICE_MGMT_HEADER"
 f1_keywords:
  - "ucxusbdevice/USBDEVICE_MGMT_HEADER"
+ - "USBDEVICE_MGMT_HEADER"
 req.header: ucxusbdevice.h
 req.include-header: Ucxclass.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ucxusbdevice.h
 api_name:
 - USBDEVICE_MGMT_HEADER
-product:
-- Windows
 targetos: Windows
 req.typenames: USBDEVICE_MGMT_HEADER, *PUSBDEVICE_MGMT_HEADER
 ---

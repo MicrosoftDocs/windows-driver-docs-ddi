@@ -10,6 +10,7 @@ keywords: ["IWDFMemory::CopyFromBuffer"]
 ms.keywords: CopyFromBuffer, CopyFromBuffer method, CopyFromBuffer method,IWDFMemory interface, IWDFMemory interface,CopyFromBuffer method, IWDFMemory.CopyFromBuffer, IWDFMemory::CopyFromBuffer, UMDFMemoryObjectRef_ca676a5f-0dba-423a-9013-3bb95974371a.xml, umdf.iwdfmemory_copyfrombuffer, wdf.iwdfmemory_copyfrombuffer, wudfddi/IWDFMemory::CopyFromBuffer
 f1_keywords:
  - "wudfddi/IWDFMemory.CopyFromBuffer"
+ - "IWDFMemory.CopyFromBuffer"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFMemory.CopyFromBuffer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

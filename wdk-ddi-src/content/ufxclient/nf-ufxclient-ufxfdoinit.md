@@ -10,6 +10,7 @@ keywords: ["UfxFdoInit function"]
 ms.keywords: UfxFdoInit, UfxFdoInit method [Buses], buses.ufxfdoinit, ufxclient/UfxFdoInit
 f1_keywords:
  - "ufxclient/UfxFdoInit"
+ - "UfxFdoInit"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ufxclient.h
 api_name:
 - UfxFdoInit
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

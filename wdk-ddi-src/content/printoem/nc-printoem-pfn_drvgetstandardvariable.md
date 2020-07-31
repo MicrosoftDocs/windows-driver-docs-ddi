@@ -10,6 +10,7 @@ keywords: ["PFN_DrvGetStandardVariable callback function"]
 ms.keywords: DrvGetStandardVariable, DrvGetStandardVariable callback function [Print Devices], PFN_DrvGetStandardVariable, PFN_DrvGetStandardVariable callback, print.drvgetstandardvariable, print_obsoletefunctions_143de6bb-bea1-4292-8ac4-e34c2610a8ab.xml, printoem/DrvGetStandardVariable
 f1_keywords:
  - "printoem/DrvGetStandardVariable"
+ - "DrvGetStandardVariable"
 req.header: printoem.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - printoem.h
 api_name:
 - DrvGetStandardVariable
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["WdfMemoryGetBuffer function"]
 ms.keywords: DFMemoryObjectRef_6f8615ee-5e34-46c5-8c83-4b52433753aa.xml, WdfMemoryGetBuffer, WdfMemoryGetBuffer method, kmdf.wdfmemorygetbuffer, wdf.wdfmemorygetbuffer, wdfmemory/WdfMemoryGetBuffer
 f1_keywords:
  - "wdfmemory/WdfMemoryGetBuffer"
+ - "WdfMemoryGetBuffer"
 req.header: wdfmemory.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -39,8 +40,6 @@ api_location:
 - WUDFx02000.dll.dll
 api_name:
 - WdfMemoryGetBuffer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

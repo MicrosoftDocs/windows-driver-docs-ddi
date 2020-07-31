@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["DXGKARG_SUBMITTARGETCONTROL structure"]
 f1_keywords:
  - "d3dkmddi/DXGKARG_SUBMITTARGETCONTROL"
+ - "DXGKARG_SUBMITTARGETCONTROL"
 ms.keywords: DXGKARG_SUBMITTARGETCONTROL, DXGKARG_SUBMITTARGETCONTROL, *PDXGKARG_SUBMITTARGETCONTROL, *IN_OUT_PDXGKARG_SUBMITTARGETCONTROL
 req.header: d3dkmddi.h
 req.include-header:
@@ -32,8 +33,6 @@ api_location:
  - d3dkmddi.h
 api_name: 
  - DXGKARG_SUBMITTARGETCONTROL
-product:
-- Windows
 targetos: Windows
 dev_langs:
  - c++

@@ -10,6 +10,7 @@ keywords: ["PFNBTH_INITIALIZE_BRB callback function"]
 ms.keywords: BthInitializeBrb, BthInitializeBrb callback function [Bluetooth Devices], PFNBTH_INITIALIZE_BRB, PFNBTH_INITIALIZE_BRB callback, bltooth.bthinitializebrb, bth_funcs_11ec7e91-bfca-404f-a029-a3fbb8c56d47.xml, bthddi/BthInitializeBrb
 f1_keywords:
  - "bthddi/BthInitializeBrb"
+ - "BthInitializeBrb"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - bthddi.h
 api_name:
 - BthInitializeBrb
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

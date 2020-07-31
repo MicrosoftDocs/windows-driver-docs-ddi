@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols::GetNextSymbolMatch"]
 ms.keywords: GetNextSymbolMatch, GetNextSymbolMatch method [Windows Debugging], GetNextSymbolMatch method [Windows Debugging],IDebugSymbols interface, GetNextSymbolMatch method [Windows Debugging],IDebugSymbols2 interface, GetNextSymbolMatch method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetNextSymbolMatch method, IDebugSymbols.GetNextSymbolMatch, IDebugSymbols2 interface [Windows Debugging],GetNextSymbolMatch method, IDebugSymbols2::GetNextSymbolMatch, IDebugSymbols3 interface [Windows Debugging],GetNextSymbolMatch method, IDebugSymbols3::GetNextSymbolMatch, IDebugSymbols::GetNextSymbolMatch, IDebugSymbols_9918b348-5b29-4b38-849e-3a36414b773d.xml, dbgeng/IDebugSymbols2::GetNextSymbolMatch, dbgeng/IDebugSymbols3::GetNextSymbolMatch, dbgeng/IDebugSymbols::GetNextSymbolMatch, debugger.getnextsymbolmatch
 f1_keywords:
  - "dbgeng/IDebugSymbols.GetNextSymbolMatch"
+ - "IDebugSymbols.GetNextSymbolMatch"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -38,8 +39,6 @@ api_name:
 - IDebugSymbols.GetNextSymbolMatch
 - IDebugSymbols2.GetNextSymbolMatch
 - IDebugSymbols3.GetNextSymbolMatch
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

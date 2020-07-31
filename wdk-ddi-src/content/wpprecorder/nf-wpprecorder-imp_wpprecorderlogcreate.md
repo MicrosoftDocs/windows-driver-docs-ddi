@@ -10,6 +10,7 @@ keywords: ["imp_WppRecorderLogCreate function"]
 ms.keywords: WppRecorderLogCreate, devtest.wpprecorderlogcreate, imp_WppRecorderLogCreate, imp_WppRecorderLogCreate function [Driver Development Tools], wpprecorder/imp_WppRecorderLogCreate
 f1_keywords:
  - "wpprecorder/imp_WppRecorderLogCreate"
+ - "imp_WppRecorderLogCreate"
 req.header: wpprecorder.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Wpprecorder.h
 api_name:
 - imp_WppRecorderLogCreate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

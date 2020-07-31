@@ -10,6 +10,7 @@ keywords: ["ReplyPrinterChangeNotificationEx function"]
 ms.keywords: ReplyPrinterChangeNotificationEx, ReplyPrinterChangeNotificationEx function [Print Devices], print.replyprinterchangenotificationex, winsplp/ReplyPrinterChangeNotificationEx
 f1_keywords:
  - "winsplp/ReplyPrinterChangeNotificationEx"
+ - "ReplyPrinterChangeNotificationEx"
 req.header: winsplp.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Winsplp.h
 api_name:
 - ReplyPrinterChangeNotificationEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

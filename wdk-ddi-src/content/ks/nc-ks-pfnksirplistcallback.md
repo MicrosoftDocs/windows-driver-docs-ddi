@@ -10,6 +10,7 @@ keywords: ["PFNKSIRPLISTCALLBACK callback function"]
 ms.keywords: KStrIrpListCallback, KStrIrpListCallback routine [Streaming Media Devices], PFNKSIRPLISTCALLBACK, ks/KStrIrpListCallback, ksfunc_90be2b49-883f-476a-9d01-d1e1296844ab.xml, stream.kstrirplistcallback
 f1_keywords:
  - "ks/KStrIrpListCallback"
+ - "KStrIrpListCallback"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - ks.h
 api_name:
 - KStrIrpListCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

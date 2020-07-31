@@ -10,6 +10,7 @@ keywords: ["IDebugSystemObjects4::GetCurrentProcessExecutableName"]
 ms.keywords: GetCurrentProcessExecutableName, GetCurrentProcessExecutableName method [Windows Debugging], GetCurrentProcessExecutableName method [Windows Debugging],IDebugSystemObjects interface, GetCurrentProcessExecutableName method [Windows Debugging],IDebugSystemObjects2 interface, GetCurrentProcessExecutableName method [Windows Debugging],IDebugSystemObjects3 interface, GetCurrentProcessExecutableName method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects interface [Windows Debugging],GetCurrentProcessExecutableName method, IDebugSystemObjects2 interface [Windows Debugging],GetCurrentProcessExecutableName method, IDebugSystemObjects2::GetCurrentProcessExecutableName, IDebugSystemObjects3 interface [Windows Debugging],GetCurrentProcessExecutableName method, IDebugSystemObjects3::GetCurrentProcessExecutableName, IDebugSystemObjects4 interface [Windows Debugging],GetCurrentProcessExecutableName method, IDebugSystemObjects4.GetCurrentProcessExecutableName, IDebugSystemObjects4::GetCurrentProcessExecutableName, IDebugSystemObjects::GetCurrentProcessExecutableName, IDebugSystemObjects_2659a668-4ecb-44de-b287-b4adc830f8c4.xml, dbgeng/IDebugSystemObjects2::GetCurrentProcessExecutableName, dbgeng/IDebugSystemObjects3::GetCurrentProcessExecutableName, dbgeng/IDebugSystemObjects4::GetCurrentProcessExecutableName, dbgeng/IDebugSystemObjects::GetCurrentProcessExecutableName, debugger.getcurrentprocessexecutablename
 f1_keywords:
  - "dbgeng/IDebugSystemObjects.GetCurrentProcessExecutableName"
+ - "IDebugSystemObjects.GetCurrentProcessExecutableName"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -39,8 +40,6 @@ api_name:
 - IDebugSystemObjects2.GetCurrentProcessExecutableName
 - IDebugSystemObjects3.GetCurrentProcessExecutableName
 - IDebugSystemObjects4.GetCurrentProcessExecutableName
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

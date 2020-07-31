@@ -10,6 +10,7 @@ keywords: ["KeSaveFloatingPointState function"]
 ms.keywords: KeSaveFloatingPointState, KeSaveFloatingPointState routine [Kernel-Mode Driver Architecture], k105_f004bc61-7a09-46d1-a9c3-dc2a76a03c43.xml, kernel.kesavefloatingpointstate, wdm/KeSaveFloatingPointState
 f1_keywords:
  - "wdm/KeSaveFloatingPointState"
+ - "KeSaveFloatingPointState"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeSaveFloatingPointState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

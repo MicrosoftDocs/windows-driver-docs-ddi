@@ -10,6 +10,7 @@ keywords: ["IWDFIoRequest::UnmarkCancelable"]
 ms.keywords: IWDFIoRequest interface,UnmarkCancelable method, IWDFIoRequest.UnmarkCancelable, IWDFIoRequest::UnmarkCancelable, UMDFRequestObjectRef_365794c9-1bce-43ef-8ce5-83affed9b18e.xml, UnmarkCancelable, UnmarkCancelable method, UnmarkCancelable method,IWDFIoRequest interface, umdf.iwdfiorequest_unmarkcancelable, wdf.iwdfiorequest_unmarkcancelable, wudfddi/IWDFIoRequest::UnmarkCancelable
 f1_keywords:
  - "wudfddi/IWDFIoRequest.UnmarkCancelable"
+ - "IWDFIoRequest.UnmarkCancelable"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFIoRequest.UnmarkCancelable
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

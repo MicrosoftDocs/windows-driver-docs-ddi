@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::GetFieldTypeAndOffsetWide"]
 ms.keywords: GetFieldTypeAndOffsetWide, GetFieldTypeAndOffsetWide method [Windows Debugging], GetFieldTypeAndOffsetWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetFieldTypeAndOffsetWide method, IDebugSymbols3.GetFieldTypeAndOffsetWide, IDebugSymbols3::GetFieldTypeAndOffsetWide, dbgeng/IDebugSymbols3::GetFieldTypeAndOffsetWide, debugger.getfieldtypeandoffsetwide
 f1_keywords:
  - "dbgeng/IDebugSymbols3.GetFieldTypeAndOffsetWide"
+ - "IDebugSymbols3.GetFieldTypeAndOffsetWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - dbgeng.h
 api_name:
 - IDebugSymbols3.GetFieldTypeAndOffsetWide
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

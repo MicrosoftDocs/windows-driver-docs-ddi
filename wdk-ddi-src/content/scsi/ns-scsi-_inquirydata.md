@@ -10,6 +10,7 @@ keywords: ["_INQUIRYDATA structure"]
 ms.keywords: "*PINQUIRYDATA, INQUIRYDATA, INQUIRYDATA structure [Storage Devices], PINQUIRYDATA, PINQUIRYDATA structure pointer [Storage Devices], _INQUIRYDATA, scsi/INQUIRYDATA, scsi/PINQUIRYDATA, storage.inquirydata, structs-tape_be59bcac-0d77-4186-99a6-97c34bb37793.xml"
 f1_keywords:
  - "scsi/INQUIRYDATA"
+ - "INQUIRYDATA"
 req.header: scsi.h
 req.include-header: Scsi.h, Minitape.h, Storport.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - scsi.h
 api_name:
 - INQUIRYDATA
-product:
-- Windows
 targetos: Windows
 req.typenames: INQUIRYDATA, *PINQUIRYDATA
 ---

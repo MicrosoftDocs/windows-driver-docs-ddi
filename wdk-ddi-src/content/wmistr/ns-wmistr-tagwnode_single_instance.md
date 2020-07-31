@@ -10,6 +10,7 @@ keywords: ["tagWNODE_SINGLE_INSTANCE structure"]
 ms.keywords: "*PWNODE_SINGLE_INSTANCE, PWNODE_SINGLE_INSTANCE, PWNODE_SINGLE_INSTANCE structure pointer [Kernel-Mode Driver Architecture], WNODE_SINGLE_INSTANCE, WNODE_SINGLE_INSTANCE structure [Kernel-Mode Driver Architecture], kernel.wnode_single_instance, kstruct_d_c6ae2ea3-5e64-466d-b479-02a9eea71b20.xml, tagWNODE_SINGLE_INSTANCE, wmistr/PWNODE_SINGLE_INSTANCE, wmistr/WNODE_SINGLE_INSTANCE"
 f1_keywords:
  - "wmistr/WNODE_SINGLE_INSTANCE"
+ - "WNODE_SINGLE_INSTANCE"
 req.header: wmistr.h
 req.include-header: Wmistr.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wmistr.h
 api_name:
 - WNODE_SINGLE_INSTANCE
-product:
-- Windows
 targetos: Windows
 req.typenames: WNODE_SINGLE_INSTANCE, *PWNODE_SINGLE_INSTANCE
 ---

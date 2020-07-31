@@ -10,6 +10,7 @@ keywords: ["GPIO_CLIENT_QUERY_CONTROLLER_BASIC_INFORMATION callback function"]
 ms.keywords: CLIENT_QueryControllerBasicInformation, CLIENT_QueryControllerBasicInformation callback, CLIENT_QueryControllerBasicInformation callback function [Parallel Ports], GPIO.client_querycontrollerbasicinformation, GPIO_CLIENT_QUERY_CONTROLLER_BASIC_INFORMATION, gpioclx/CLIENT_QueryControllerBasicInformation
 f1_keywords:
  - "gpioclx/CLIENT_QueryControllerBasicInformation"
+ - "CLIENT_QueryControllerBasicInformation"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Gpioclx.h
 api_name:
 - CLIENT_QueryControllerBasicInformation
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

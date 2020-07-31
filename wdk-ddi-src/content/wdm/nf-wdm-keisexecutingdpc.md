@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["KeIsExecutingDpc function"]
 f1_keywords:
  - "wdm/KeIsExecutingDpc"
+ - "KeIsExecutingDpc"
 ms.keywords: KeIsExecutingDpc
 req.header: wdm.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - NtosKrnl.exe
 api_name: 
 - KeIsExecutingDpc
-product:
-- Windows
 targetos: Windows
 
 ---

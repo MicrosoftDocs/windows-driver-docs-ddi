@@ -10,6 +10,7 @@ keywords: ["ObOpenObjectByPointer function"]
 ms.keywords: OBJ_EXCLUSIVE, OBJ_FORCE_ACCESS_CHECK, OBJ_INHERIT, OBJ_KERNEL_HANDLE, ObOpenObjectByPointer, ObOpenObjectByPointer function [Installable File System Drivers], ifsk.obopenobjectbypointer, ntifs/ObOpenObjectByPointer, obref_320f7ea4-b5f1-4eba-bb3a-44c8022a0792.xml
 f1_keywords:
  - "ntifs/ObOpenObjectByPointer"
+ - "ObOpenObjectByPointer"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - ObOpenObjectByPointer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

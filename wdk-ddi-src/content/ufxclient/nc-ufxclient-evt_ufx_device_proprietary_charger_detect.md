@@ -10,6 +10,7 @@ keywords: ["EVT_UFX_DEVICE_PROPRIETARY_CHARGER_DETECT callback function"]
 ms.keywords: EVT_UFX_DEVICE_DETECT_PROPRIETARY_CHARGER, EVT_UFX_DEVICE_PROPRIETARY_CHARGER_DETECT, EVT_UFX_DEVICE_PROPRIETARY_CHARGER_DETECT callback, EvtDeviceProprietaryChargerDetect, EvtUfxDeviceDetectProprietaryCharger, EvtUfxDeviceDetectProprietaryCharger callback function [Buses], PFN_UFX_DEVICE_PROPRIETARY_CHARGER_DETECT, PFN_UFX_DEVICE_PROPRIETARY_CHARGER_DETECT callback function pointer [Buses], buses.evt_ufx_device_detect_proprietary_charger, ufxclient/EvtUfxDeviceDetectProprietaryCharger
 f1_keywords:
  - "ufxclient/PFN_UFX_DEVICE_PROPRIETARY_CHARGER_DETECT"
+ - "PFN_UFX_DEVICE_PROPRIETARY_CHARGER_DETECT"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ufxclient.h
 api_name:
 - PFN_UFX_DEVICE_PROPRIETARY_CHARGER_DETECT
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

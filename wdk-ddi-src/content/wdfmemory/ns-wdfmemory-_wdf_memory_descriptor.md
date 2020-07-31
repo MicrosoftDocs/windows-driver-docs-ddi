@@ -10,6 +10,7 @@ keywords: ["_WDF_MEMORY_DESCRIPTOR structure"]
 ms.keywords: "*PWDF_MEMORY_DESCRIPTOR, DFMemoryObjectRef_2c2271fb-6f3f-466d-b1dd-d254bc7ec96e.xml, PWDF_MEMORY_DESCRIPTOR, PWDF_MEMORY_DESCRIPTOR structure pointer, WDF_MEMORY_DESCRIPTOR, WDF_MEMORY_DESCRIPTOR structure, _WDF_MEMORY_DESCRIPTOR, kmdf.wdf_memory_descriptor, wdf.wdf_memory_descriptor, wdfmemory/PWDF_MEMORY_DESCRIPTOR, wdfmemory/WDF_MEMORY_DESCRIPTOR"
 f1_keywords:
  - "wdfmemory/WDF_MEMORY_DESCRIPTOR"
+ - "WDF_MEMORY_DESCRIPTOR"
 req.header: wdfmemory.h
 req.include-header: Wdf.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wdfmemory.h
 api_name:
 - WDF_MEMORY_DESCRIPTOR
-product:
-- Windows
 targetos: Windows
 req.typenames: WDF_MEMORY_DESCRIPTOR, *PWDF_MEMORY_DESCRIPTOR
 ---

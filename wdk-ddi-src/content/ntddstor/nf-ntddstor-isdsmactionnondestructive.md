@@ -10,6 +10,7 @@ ms.date: 08/23/2019
 keywords: ["IsDsmActionNonDestructive macro"]
 f1_keywords:
  - "ntddstor/IsDsmActionNonDestructive"
+ - "IsDsmActionNonDestructive"
 ms.keywords: IsDsmActionNonDestructive
 req.header: ntddstor.h
 req.include-header:

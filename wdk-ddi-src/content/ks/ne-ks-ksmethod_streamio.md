@@ -10,6 +10,7 @@ keywords: ["KSMETHOD_STREAMIO enumeration"]
 ms.keywords: KSMETHOD_STREAMIO, KSMETHOD_STREAMIO enumeration [Streaming Media Devices], KSMETHOD_STREAMIO_READ, KSMETHOD_STREAMIO_WRITE, ks/KSMETHOD_STREAMIO, ks/KSMETHOD_STREAMIO_READ, ks/KSMETHOD_STREAMIO_WRITE, stream.ksmethod_streamio
 f1_keywords:
  - "ks/KSMETHOD_STREAMIO"
+ - "KSMETHOD_STREAMIO"
 req.header: ks.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ks.h
 api_name:
 - KSMETHOD_STREAMIO
-product:
-- Windows
 targetos: Windows
 req.typenames: KSMETHOD_STREAMIO
 ---

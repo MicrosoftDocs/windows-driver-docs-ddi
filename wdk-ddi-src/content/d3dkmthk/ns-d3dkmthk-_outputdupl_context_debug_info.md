@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_OUTPUTDUPL_CONTEXT_DEBUG_INFO structure"]
 f1_keywords:
  - "d3dkmthk/_OUTPUTDUPL_CONTEXT_DEBUG_INFO"
+ - "_OUTPUTDUPL_CONTEXT_DEBUG_INFO"
 ms.keywords: _OUTPUTDUPL_CONTEXT_DEBUG_INFO, OUTPUTDUPL_CONTEXT_DEBUG_INFO, 
 req.header: d3dkmthk.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - d3dkmthk.h
 api_name: 
 - _OUTPUTDUPL_CONTEXT_DEBUG_INFO
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

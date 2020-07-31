@@ -9,6 +9,7 @@ keywords: ["D3DKMTPollDisplayChildren function"]
 ms.keywords: D3DKMTPollDisplayChildren, D3DKMTPollDisplayChildren function [Display Devices], OpenGL_Functions_dc39afab-758a-423a-9058-9d9ec091d4b2.xml, d3dkmthk/D3DKMTPollDisplayChildren, display.d3dkmtpolldisplaychildren
 f1_keywords:
  - "d3dkmthk/D3DKMTPollDisplayChildren"
+ - "D3DKMTPollDisplayChildren"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -38,8 +39,6 @@ api_location:
 - API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 - D3DKMTPollDisplayChildren
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 

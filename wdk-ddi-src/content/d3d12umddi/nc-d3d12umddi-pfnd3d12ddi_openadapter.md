@@ -29,6 +29,7 @@ tech.root: display
 req.typenames: 
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_OPENADAPTER"
+ - "PFND3D12DDI_OPENADAPTER"
 topic_type:
  - APIRef
  - kbSyntax

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_GPUP_DRIVER_ESCAPE_INPUT structure"]
 f1_keywords:
  - "d3dukmdt/_GPUP_DRIVER_ESCAPE_INPUT"
+ - "_GPUP_DRIVER_ESCAPE_INPUT"
 ms.keywords: _GPUP_DRIVER_ESCAPE_INPUT, GPUP_DRIVER_ESCAPE_INPUT, *PGPUP_DRIVER_ESCAPE_INPUT, 
 req.header: d3dukmdt.h
 req.include-header:
@@ -29,8 +30,6 @@ api_location:
 - d3dukmdt.h
 api_name: 
 - _GPUP_DRIVER_ESCAPE_INPUT
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 dev_langs:

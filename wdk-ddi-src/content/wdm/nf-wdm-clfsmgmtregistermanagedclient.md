@@ -10,6 +10,7 @@ keywords: ["ClfsMgmtRegisterManagedClient function"]
 ms.keywords: ClfsMgmtRegisterManagedClient, ClfsMgmtRegisterManagedClient routine [Kernel-Mode Driver Architecture], Clfs_management_9cd62567-e8c0-4a27-a3fd-153f0cdc9516.xml, kernel.clfsmgmtregistermanagedclient, wdm/ClfsMgmtRegisterManagedClient
 f1_keywords:
  - "wdm/ClfsMgmtRegisterManagedClient"
+ - "ClfsMgmtRegisterManagedClient"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
 - ClfsMgmtRegisterManagedClient
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

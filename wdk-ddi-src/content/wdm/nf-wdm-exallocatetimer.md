@@ -10,6 +10,7 @@ keywords: ["ExAllocateTimer function"]
 ms.keywords: ExAllocateTimer, ExAllocateTimer routine [Kernel-Mode Driver Architecture], kernel.exallocatetimer, wdm/ExAllocateTimer
 f1_keywords:
  - "wdm/ExAllocateTimer"
+ - "ExAllocateTimer"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ntoskrnl.dll
 api_name:
 - ExAllocateTimer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

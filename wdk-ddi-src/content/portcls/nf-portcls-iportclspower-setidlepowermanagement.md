@@ -10,6 +10,7 @@ keywords: ["IPortClsPower::SetIdlePowerManagement"]
 ms.keywords: IPortClsPower interface [Audio Devices],SetIdlePowerManagement method, IPortClsPower.SetIdlePowerManagement, IPortClsPower::SetIdlePowerManagement, SetIdlePowerManagement, SetIdlePowerManagement method [Audio Devices], SetIdlePowerManagement method [Audio Devices],IPortClsPower interface, audio.iportclspower_setidlepowermanagement, audmp-routines_909c6232-f96f-4487-a51e-a127dc9ad317.xml, portcls/IPortClsPower::SetIdlePowerManagement
 f1_keywords:
  - "portcls/IPortClsPower.SetIdlePowerManagement"
+ - "IPortClsPower.SetIdlePowerManagement"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IPortClsPower.SetIdlePowerManagement
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

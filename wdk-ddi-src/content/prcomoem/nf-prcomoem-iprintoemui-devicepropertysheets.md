@@ -10,6 +10,7 @@ keywords: ["IPrintOemUI::DevicePropertySheets"]
 ms.keywords: DevicePropertySheets, DevicePropertySheets method [Print Devices], DevicePropertySheets method [Print Devices],IPrintOemUI interface, IPrintOemUI interface [Print Devices],DevicePropertySheets method, IPrintOemUI.DevicePropertySheets, IPrintOemUI::DevicePropertySheets, prcomoem/IPrintOemUI::DevicePropertySheets, print.iprintoemui_devicepropertysheets, print_unidrv-pscript_ui_3e31410b-e0b6-490f-aea1-62f3d99ba96d.xml
 f1_keywords:
  - "prcomoem/IPrintOemUI.DevicePropertySheets"
+ - "IPrintOemUI.DevicePropertySheets"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - prcomoem.h
 api_name:
 - IPrintOemUI.DevicePropertySheets
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

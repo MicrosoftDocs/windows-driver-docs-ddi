@@ -10,6 +10,7 @@ keywords: ["_CHANGER_PRODUCT_DATA structure"]
 ms.keywords: "*PCHANGER_PRODUCT_DATA, CHANGER_PRODUCT_DATA, CHANGER_PRODUCT_DATA structure [Storage Devices], PCHANGER_PRODUCT_DATA, PCHANGER_PRODUCT_DATA structure pointer [Storage Devices], _CHANGER_PRODUCT_DATA, ntddchgr/CHANGER_PRODUCT_DATA, ntddchgr/PCHANGER_PRODUCT_DATA, storage.changer_product_data, structs-changer_10598085-7fbc-40f9-a04c-ca8973faace7.xml"
 f1_keywords:
  - "ntddchgr/CHANGER_PRODUCT_DATA"
+ - "CHANGER_PRODUCT_DATA"
 req.header: ntddchgr.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddchgr.h
 api_name:
 - CHANGER_PRODUCT_DATA
-product:
-- Windows
 targetos: Windows
 req.typenames: CHANGER_PRODUCT_DATA, *PCHANGER_PRODUCT_DATA
 ---

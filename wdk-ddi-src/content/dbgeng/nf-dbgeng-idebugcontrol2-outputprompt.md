@@ -10,6 +10,7 @@ keywords: ["IDebugControl2::OutputPrompt"]
 ms.keywords: IDebugControl interface [Windows Debugging],OutputPrompt method, IDebugControl2 interface [Windows Debugging],OutputPrompt method, IDebugControl2.OutputPrompt, IDebugControl2::OutputPrompt, IDebugControl3 interface [Windows Debugging],OutputPrompt method, IDebugControl3::OutputPrompt, IDebugControl::OutputPrompt, IDebugControl_bb972181-80f5-4c7a-8705-919273529eee.xml, OutputPrompt, OutputPrompt method [Windows Debugging], OutputPrompt method [Windows Debugging],IDebugControl interface, OutputPrompt method [Windows Debugging],IDebugControl2 interface, OutputPrompt method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::OutputPrompt, dbgeng/IDebugControl3::OutputPrompt, dbgeng/IDebugControl::OutputPrompt, debugger.outputprompt
 f1_keywords:
  - "dbgeng/IDebugControl.OutputPrompt"
+ - "IDebugControl.OutputPrompt"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -38,8 +39,6 @@ api_name:
 - IDebugControl.OutputPrompt
 - IDebugControl2.OutputPrompt
 - IDebugControl3.OutputPrompt
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

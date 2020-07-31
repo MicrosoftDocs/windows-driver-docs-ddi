@@ -10,6 +10,7 @@ keywords: ["_FILE_ALL_INFORMATION structure"]
 ms.keywords: "*PFILE_ALL_INFORMATION, FILE_ALL_INFORMATION, FILE_ALL_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_ALL_INFORMATION, PFILE_ALL_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _FILE_ALL_INFORMATION, kernel.file_all_information, kstruct_b_24c6b1da-76d1-46a9-838d-bb19af21d6f8.xml, ntifs/FILE_ALL_INFORMATION, ntifs/PFILE_ALL_INFORMATION"
 f1_keywords:
  - "ntifs/FILE_ALL_INFORMATION"
+ - "FILE_ALL_INFORMATION"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntifs.h
 api_name:
 - FILE_ALL_INFORMATION
-product:
-- Windows
 targetos: Windows
 req.typenames: FILE_ALL_INFORMATION, *PFILE_ALL_INFORMATION
 ---

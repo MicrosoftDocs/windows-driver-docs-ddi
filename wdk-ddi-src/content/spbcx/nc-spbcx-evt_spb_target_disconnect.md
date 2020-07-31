@@ -10,6 +10,7 @@ keywords: ["EVT_SPB_TARGET_DISCONNECT callback function"]
 ms.keywords: EVT_SPB_TARGET_DISCONNECT, EVT_SPB_TARGET_DISCONNECT callback, EvtSpbTargetDisconnect, EvtSpbTargetDisconnect callback function [Buses], SPB.evtspbtargetdisconnect, spbcx/EvtSpbTargetDisconnect
 f1_keywords:
  - "spbcx/EvtSpbTargetDisconnect"
+ - "EvtSpbTargetDisconnect"
 req.header: spbcx.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Spbcx.h
 api_name:
 - EvtSpbTargetDisconnect
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

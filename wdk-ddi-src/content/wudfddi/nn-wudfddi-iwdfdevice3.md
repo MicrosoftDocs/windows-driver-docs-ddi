@@ -10,6 +10,7 @@ keywords: ["IWDFDevice3 interface"]
 ms.keywords: IWDFDevice3, IWDFDevice3 interface, IWDFDevice3 interface,described, umdf.iwdfdevice3, wdf.iwdfdevice3, wudfddi/IWDFDevice3
 f1_keywords:
  - "wudfddi/IWDFDevice3"
+ - "IWDFDevice3"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFDevice3
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -10,6 +10,7 @@ keywords: ["_D3DDDICB_DESTROYCONTEXT structure"]
 ms.keywords: D3DDDICB_DESTROYCONTEXT, D3DDDICB_DESTROYCONTEXT structure [Display Devices], D3D_param_Structs_40e3c0f9-b30b-4fab-8b4a-a1809f03d0ba.xml, _D3DDDICB_DESTROYCONTEXT, d3dumddi/D3DDDICB_DESTROYCONTEXT, display.d3dddicb_destroycontext
 f1_keywords:
  - "d3dumddi/D3DDDICB_DESTROYCONTEXT"
+ - "D3DDDICB_DESTROYCONTEXT"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - d3dumddi.h
 api_name:
 - D3DDDICB_DESTROYCONTEXT
-product:
-- Windows
 targetos: Windows
 req.typenames: D3DDDICB_DESTROYCONTEXT
 ---

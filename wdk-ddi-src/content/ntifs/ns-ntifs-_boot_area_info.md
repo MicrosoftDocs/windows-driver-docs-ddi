@@ -10,6 +10,7 @@ keywords: ["_BOOT_AREA_INFO structure"]
 ms.keywords: "*PBOOT_AREA_INFO, BOOT_AREA_INFO, BOOT_AREA_INFO structure [Installable File System Drivers], PBOOT_AREA_INFO, PBOOT_AREA_INFO structure pointer [Installable File System Drivers], _BOOT_AREA_INFO, ifsk.boot_area_info, ntifs/BOOT_AREA_INFO, ntifs/PBOOT_AREA_INFO"
 f1_keywords:
  - "ntifs/BOOT_AREA_INFO"
+ - "BOOT_AREA_INFO"
 req.header: ntifs.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - Ntifs.h
 api_name:
 - BOOT_AREA_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: BOOT_AREA_INFO, *PBOOT_AREA_INFO
 ---

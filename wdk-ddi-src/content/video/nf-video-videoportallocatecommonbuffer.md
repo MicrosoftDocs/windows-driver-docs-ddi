@@ -10,6 +10,7 @@ keywords: ["VideoPortAllocateCommonBuffer function"]
 ms.keywords: VideoPortAllocateCommonBuffer, VideoPortAllocateCommonBuffer function [Display Devices], VideoPort_Functions_bd747ea0-7963-4008-a91c-eb5598fc6bdd.xml, display.videoportallocatecommonbuffer, video/VideoPortAllocateCommonBuffer
 f1_keywords:
  - "video/VideoPortAllocateCommonBuffer"
+ - "VideoPortAllocateCommonBuffer"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Videoprt.sys
 api_name:
 - VideoPortAllocateCommonBuffer
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

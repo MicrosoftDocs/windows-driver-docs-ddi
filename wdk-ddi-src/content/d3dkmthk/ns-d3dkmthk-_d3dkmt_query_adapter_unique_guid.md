@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_QUERY_ADAPTER_UNIQUE_GUID structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_QUERY_ADAPTER_UNIQUE_GUID"
+ - "_D3DKMT_QUERY_ADAPTER_UNIQUE_GUID"
 ms.keywords: _D3DKMT_QUERY_ADAPTER_UNIQUE_GUID, D3DKMT_QUERY_ADAPTER_UNIQUE_GUID,
 req.header: d3dkmthk.h
 req.include-header:

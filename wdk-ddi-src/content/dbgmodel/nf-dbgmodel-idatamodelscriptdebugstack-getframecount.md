@@ -7,6 +7,7 @@ ms.date: 09/10/2018
 keywords: ["IDataModelScriptDebugStack::GetFrameCount"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebugStack.GetFrameCount"
+ - "IDataModelScriptDebugStack.GetFrameCount"
 ms.keywords: IDataModelScriptDebugStack::GetFrameCount, GetFrameCount, IDataModelScriptDebugStack.GetFrameCount, IDataModelScriptDebugStack::GetFrameCount, IDataModelScriptDebugStack.GetFrameCount
 req.header: dbgmodel.h
 req.include-header:
@@ -33,8 +34,6 @@ api_location:
 - dbgmodel.h
 api_name: 
 - IDataModelScriptDebugStack.GetFrameCount
-product:
-- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

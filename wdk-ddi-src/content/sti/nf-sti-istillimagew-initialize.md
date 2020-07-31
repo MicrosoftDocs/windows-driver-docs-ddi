@@ -10,6 +10,7 @@ keywords: ["IStillImageW::Initialize"]
 ms.keywords: IStillImageW interface [Imaging Devices],Initialize method, IStillImageW.Initialize, IStillImageW::Initialize, Initialize, Initialize method [Imaging Devices], Initialize method [Imaging Devices],IStillImageW interface, image.istillimage_initialize, sti/IStillImageW::Initialize, stifnc_31e54f97-84af-47bf-a1b1-17ab697caef3.xml
 f1_keywords:
  - "sti/IStillImageW.Initialize"
+ - "IStillImageW.Initialize"
 req.header: sti.h
 req.include-header: Sti.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - sti.h
 api_name:
 - IStillImageW.Initialize
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

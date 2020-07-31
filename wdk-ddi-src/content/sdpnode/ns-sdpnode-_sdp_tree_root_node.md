@@ -10,6 +10,7 @@ keywords: ["_SDP_TREE_ROOT_NODE structure"]
 ms.keywords: "*PSDP_TREE_ROOT_NODE, PSDP_TREE_ROOT_NODE, PSDP_TREE_ROOT_NODE structure pointer [Bluetooth Devices], SDP_TREE_ROOT_NODE, SDP_TREE_ROOT_NODE structure [Bluetooth Devices], _SDP_TREE_ROOT_NODE, bltooth.sdp_tree_root_node, bth_structs_b2bdb873-03b0-4c3a-910c-06277f6be663.xml, sdpnode/PSDP_TREE_ROOT_NODE, sdpnode/SDP_TREE_ROOT_NODE"
 f1_keywords:
  - "sdpnode/SDP_TREE_ROOT_NODE"
+ - "SDP_TREE_ROOT_NODE"
 req.header: sdpnode.h
 req.include-header: Sdpnode.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - sdpnode.h
 api_name:
 - SDP_TREE_ROOT_NODE
-product:
-- Windows
 targetos: Windows
 req.typenames: SDP_TREE_ROOT_NODE, *PSDP_TREE_ROOT_NODE
 ---

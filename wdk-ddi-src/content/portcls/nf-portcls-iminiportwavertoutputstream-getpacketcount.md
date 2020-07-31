@@ -10,6 +10,7 @@ keywords: ["IMiniportWaveRTOutputStream::GetPacketCount"]
 ms.keywords: GetPacketCount, GetPacketCount method [Audio Devices], GetPacketCount method [Audio Devices],IMiniportWaveRTOutputStream interface, IMiniportWaveRTOutputStream interface [Audio Devices],GetPacketCount method, IMiniportWaveRTOutputStream.GetPacketCount, IMiniportWaveRTOutputStream::GetPacketCount, audio.iminiportwavertoutputstream_getpacketcount, portcls/IMiniportWaveRTOutputStream::GetPacketCount
 f1_keywords:
  - "portcls/IMiniportWaveRTOutputStream.GetPacketCount"
+ - "IMiniportWaveRTOutputStream.GetPacketCount"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - portcls.h
 api_name:
 - IMiniportWaveRTOutputStream.GetPacketCount
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

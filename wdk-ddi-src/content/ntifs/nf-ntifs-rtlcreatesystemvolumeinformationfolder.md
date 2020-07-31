@@ -10,6 +10,7 @@ keywords: ["RtlCreateSystemVolumeInformationFolder function"]
 ms.keywords: RtlCreateSystemVolumeInformationFolder, RtlCreateSystemVolumeInformationFolder routine [Installable File System Drivers], ifsk.rtlcreatesystemvolumeinformationfolder, ntifs/RtlCreateSystemVolumeInformationFolder, rtlref_f854cbbb-1aa4-4f0a-8d2d-5b160634a155.xml
 f1_keywords:
  - "ntifs/RtlCreateSystemVolumeInformationFolder"
+ - "RtlCreateSystemVolumeInformationFolder"
 req.header: ntifs.h
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - RtlCreateSystemVolumeInformationFolder
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

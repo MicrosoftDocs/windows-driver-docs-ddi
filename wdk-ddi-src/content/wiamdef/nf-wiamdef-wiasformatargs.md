@@ -10,6 +10,7 @@ keywords: ["wiasFormatArgs function"]
 ms.keywords: image.wiasformatargs, wiamdef/wiasFormatArgs, wiasFncs_c4e9a1bd-3760-47fb-b828-1f0c521717c5.xml, wiasFormatArgs, wiasFormatArgs function [Imaging Devices]
 f1_keywords:
  - "wiamdef/wiasFormatArgs"
+ - "wiasFormatArgs"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - Wiaservc.dll
 api_name:
 - wiasFormatArgs
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

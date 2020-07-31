@@ -10,6 +10,7 @@ keywords: ["PsSetLoadImageNotifyRoutineEx function"]
 ms.keywords: PsSetLoadImageNotifyRoutineEx, PsSetLoadImageNotifyRoutineEx function [Kernel-Mode Driver Architecture], kernel.pssetloadimagenotifyroutineex, ntddk/PsSetLoadImageNotifyRoutineEx
 f1_keywords:
  - "ntddk/PsSetLoadImageNotifyRoutineEx"
+ - "PsSetLoadImageNotifyRoutineEx"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - PsSetLoadImageNotifyRoutineEx
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

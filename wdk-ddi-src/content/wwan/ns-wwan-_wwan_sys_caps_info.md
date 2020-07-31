@@ -10,6 +10,7 @@ keywords: ["_WWAN_SYS_CAPS_INFO structure"]
 ms.keywords: "*PWWAN_SYS_CAPS_INFO, PWWAN_SYS_CAPS_INFO, PWWAN_SYS_CAPS_INFO structure pointer [Network Drivers Starting with Windows Vista], WWAN_SYS_CAPS_INFO, WWAN_SYS_CAPS_INFO structure [Network Drivers Starting with Windows Vista], _WWAN_SYS_CAPS_INFO, netvista.wwan_sys_caps, wwan/PWWAN_SYS_CAPS_INFO, wwan/WWAN_SYS_CAPS_INFO"
 f1_keywords:
  - "wwan/WWAN_SYS_CAPS_INFO"
+ - "WWAN_SYS_CAPS_INFO"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - wwan.h
 api_name:
 - WWAN_SYS_CAPS_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: WWAN_SYS_CAPS_INFO, *PWWAN_SYS_CAPS_INFO
 ---

@@ -10,6 +10,7 @@ keywords: ["IWDFIoRequest2::RetrieveOutputMemory"]
 ms.keywords: IWDFIoRequest2 interface,RetrieveOutputMemory method, IWDFIoRequest2.RetrieveOutputMemory, IWDFIoRequest2::RetrieveOutputMemory, RetrieveOutputMemory, RetrieveOutputMemory method, RetrieveOutputMemory method,IWDFIoRequest2 interface, UMDFRequestObjectRef_9fbbb5ad-480f-4744-805a-1af1dd841274.xml, umdf.iwdfiorequest2_retrieveoutputmemory, wdf.iwdfiorequest2_retrieveoutputmemory, wudfddi/IWDFIoRequest2::RetrieveOutputMemory
 f1_keywords:
  - "wudfddi/IWDFIoRequest2.RetrieveOutputMemory"
+ - "IWDFIoRequest2.RetrieveOutputMemory"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - WUDFx.dll
 api_name:
 - IWDFIoRequest2.RetrieveOutputMemory
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

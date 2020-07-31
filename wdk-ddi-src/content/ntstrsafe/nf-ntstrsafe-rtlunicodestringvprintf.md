@@ -10,6 +10,7 @@ keywords: ["RtlUnicodeStringVPrintf function"]
 ms.keywords: RtlUnicodeStringVPrintf, RtlUnicodeStringVPrintf function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringvprintf, ntstrsafe/RtlUnicodeStringVPrintf, safestrings_45fb9433-8fea-42ec-83fc-772e943a3169.xml
 f1_keywords:
  - "ntstrsafe/RtlUnicodeStringVPrintf"
+ - "RtlUnicodeStringVPrintf"
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop
@@ -37,8 +38,6 @@ api_location:
 - Ntstrsafe.dll
 api_name:
 - RtlUnicodeStringVPrintf
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

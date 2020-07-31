@@ -10,6 +10,7 @@ keywords: ["PUSB_BUSIFFN_QUERY_CONTROLLER_TYPE callback function"]
 ms.keywords: PUSB_BUSIFFN_QUERY_CONTROLLER_TYPE, QueryControllerType, QueryControllerType callback function [Buses], USB_BUSIFFN_QUERY_CONTROLLER_TYPE, USB_BUSIFFN_QUERY_CONTROLLER_TYPE callback, buses.querycontrollertype, usbbusif/QueryControllerType
 f1_keywords:
  - "usbbusif/QueryControllerType"
+ - "QueryControllerType"
 req.header: usbbusif.h
 req.include-header: Usbbusif.h
 req.target-type: Desktop
@@ -36,8 +37,6 @@ api_location:
 - usbbusif.h
 api_name:
 - QueryControllerType
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

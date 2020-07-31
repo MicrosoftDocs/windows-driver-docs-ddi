@@ -10,6 +10,7 @@ keywords: ["IPrintSchemaTicket::put_JobCopiesAllDocuments"]
 ms.keywords: IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices],JobCopiesAllDocuments property, IPrintSchemaTicket.JobCopiesAllDocuments, IPrintSchemaTicket.put_JobCopiesAllDocuments, IPrintSchemaTicket::JobCopiesAllDocuments, IPrintSchemaTicket::put_JobCopiesAllDocuments, JobCopiesAllDocuments property [Print Devices], JobCopiesAllDocuments property [Print Devices],IPrintSchemaTicket interface, print.iprintschematicket_put_jobcopiesalldocuments, printerextension/IPrintSchemaTicket::JobCopiesAllDocuments, printerextension/IPrintSchemaTicket::put_JobCopiesAllDocuments, put_JobCopiesAllDocuments
 f1_keywords:
  - "printerextension/IPrintSchemaTicket.JobCopiesAllDocuments"
+ - "IPrintSchemaTicket.JobCopiesAllDocuments"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -37,8 +38,6 @@ api_location:
 api_name:
 - IPrintSchemaTicket.JobCopiesAllDocuments
 - IPrintSchemaTicket.put_JobCopiesAllDocuments
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

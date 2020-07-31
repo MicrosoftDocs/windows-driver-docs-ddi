@@ -10,6 +10,7 @@ keywords: ["NdisMOidRequestComplete function"]
 ms.keywords: NdisMOidRequestComplete, NdisMOidRequestComplete function [Network Drivers Starting with Windows Vista], ndis/NdisMOidRequestComplete, ndis_request_ref_b5524732-acaf-4d0d-a261-3f8a8b739ecc.xml, netvista.ndismoidrequestcomplete
 f1_keywords:
  - "ndis/NdisMOidRequestComplete"
+ - "NdisMOidRequestComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -37,8 +38,6 @@ api_location:
 - ndis.dll
 api_name:
 - NdisMOidRequestComplete
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

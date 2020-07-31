@@ -10,6 +10,7 @@ keywords: ["RILUICCPRLID enumeration"]
 ms.keywords: RILUICCPRLID, RILUICCPRLID enumeration [Network Drivers Starting with Windows Vista], netvista.riluiccprlid, ntddrilapitypes/RILUICCPRLID
 f1_keywords:
  - "ntddrilapitypes/RILUICCPRLID"
+ - "RILUICCPRLID"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -36,8 +37,6 @@ api_location:
 - ntddrilapitypes.h
 api_name:
 - RILUICCPRLID
-product:
-- Windows
 targetos: Windows
 req.typenames: RILUICCPRLID
 ---

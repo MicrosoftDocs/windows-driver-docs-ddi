@@ -10,6 +10,7 @@ keywords: ["PFN_WSK_RELEASE_DATAGRAM_INDICATION_LIST callback function"]
 ms.keywords: PFN_WSK_RELEASE_DATAGRAM_INDICATION_LIST, PFN_WSK_RELEASE_DATAGRAM_INDICATION_LIST callback, WskReleaseDatagramIndicationList, WskReleaseDatagramIndicationList callback function [Network Drivers Starting with Windows Vista], netvista.pfn_wsk_release_datagram_indication_list, wsk/WskReleaseDatagramIndicationList
 f1_keywords:
  - "wsk/WskReleaseDatagramIndicationList"
+ - "WskReleaseDatagramIndicationList"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - Wsk.h
 api_name:
 - WskReleaseDatagramIndicationList
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

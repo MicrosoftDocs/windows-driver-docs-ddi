@@ -10,6 +10,7 @@ keywords: ["KeDeregisterBoundCallback function"]
 ms.keywords: KeDeregisterBoundCallback, KeDeregisterBoundCallback routine [Kernel-Mode Driver Architecture], kernel.kederegisterboundcallback, wdm/KeDeregisterBoundCallback
 f1_keywords:
  - "wdm/KeDeregisterBoundCallback"
+ - "KeDeregisterBoundCallback"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal
@@ -36,8 +37,6 @@ api_location:
 - NtosKrnl.exe
 api_name:
 - KeDeregisterBoundCallback
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -28,6 +28,7 @@ req.type-library:
 targetos: Windows
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_CALCPRIVATEBLENDSTATESIZE"
+ - "PFND3D12DDI_CALCPRIVATEBLENDSTATESIZE"
 topic_type:
  - apiref
 api_type:
