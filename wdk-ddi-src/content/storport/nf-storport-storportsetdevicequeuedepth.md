@@ -44,65 +44,38 @@ req.typenames:
 
 # StorPortSetDeviceQueueDepth function
 
-
 ## -description
 
-
-The <b>StorPortSetDeviceQueueDepth</b> routine sets the maximum depth of the device queue for the indicated device. 
-
+The **StorPortSetDeviceQueueDepth** routine sets the maximum depth of the device queue for the indicated device.
 
 ## -parameters
 
-
-
-
 ### -param HwDeviceExtension [in]
 
-A pointer to the miniport driver's per-HBA storage area. 
-
+A pointer to the miniport driver's per-HBA storage area.
 
 ### -param PathId [in]
 
-Contains the path ID of the target device. 
-
+Contains the path ID of the target device.
 
 ### -param TargetId [in]
 
-Contains the device number of the target device. 
-
+Contains the device number of the target device.
 
 ### -param Lun [in]
 
-Contains the logical unit number of the target device. 
-
+Contains the logical unit number of the target device.
 
 ### -param Depth [in]
 
 Supplies the depth to which the queue is to be set. This value is always > 0.
 
-
 ## -returns
 
-
-
-<b>StorPortSetDeviceQueueDepth</b> returns <b>TRUE</b> if the queue depth was successfully set, or <b>FALSE</b> if the operation failed. 
-
-
-
+**StorPortSetDeviceQueueDepth** returns **TRUE** if the queue depth was successfully set, or **FALSE** if the operation failed.
 
 ## -remarks
 
+Before the first call to **StorPortSetDeviceQueueDepth**, the device queue depth is set to the default value.
 
-
-Before the first call to <b>StorPortSetDeviceQueueDepth</b>, the device queue depth is set to the default value. The following conditional description determines the default queue depth.
-
-<b>InitialQueueDepth</b>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_port_configuration_information">PORT_CONFIGURATION_INFORMATION</a>
-<b>InitialQueueDepth</b>
-<b>MaxIOsPerLun</b>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_port_configuration_information">PORT_CONFIGURATION_INFORMATION</a>
-<b>MaxIOsPerLun</b>
-The <b>StorPortSetDeviceQueueDepth</b> routine should be called when the miniport driver receives the first SCSI Inquiry command for the specified LUN, or at any time thereafter (but not before), as long as the LUN is valid.
-
-
-
+The **StorPortSetDeviceQueueDepth** routine should be called when the miniport driver receives the first SCSI Inquiry command for the specified LUN, or at any time thereafter (but not before), as long as the LUN is valid.

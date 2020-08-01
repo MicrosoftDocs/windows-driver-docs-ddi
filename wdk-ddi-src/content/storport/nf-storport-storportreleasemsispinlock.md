@@ -43,99 +43,38 @@ req.typenames:
 
 # StorPortReleaseMSISpinLock function
 
-
 ## -description
 
-
-The <b>StorPortReleaseMSISpinLock</b> routine releases a previously acquired message signaled interrupt (MSI) spin lock for the specified message. 
-
+The **StorPortReleaseMSISpinLock** routine releases a previously acquired message signaled interrupt (MSI) spin lock for the specified message.
 
 ## -parameters
-
-
-
 
 ### -param HwDeviceExtension [in]
 
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
-
 ### -param MessageId
 
-<p>The identifier of the message.</p>
-
+The identifier of the message.
 
 ### -param OldIrql [in]
 
-The IRQL that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportacquiremsispinlock">StorPortAcquireMSISpinLock</a> routine returned when the miniport driver acquired the spin lock.
-
+The IRQL that the [**StorPortAcquireMSISpinLock**](nf-storport-storportacquiremsispinlock.md) routine returned when the miniport driver acquired the spin lock.
 
 ## -returns
 
-
-
 StorPortReleaseMSISpinLock returns one of the following status codes:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STOR_STATUS_NOT_IMPLEMENTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-This function is not implemented on the active operating system.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STOR_STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-Indicates that the spin lock was released successfully.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STOR_STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-HwDeviceExtension was <b>NULL</b>.
-
-</td>
-</tr>
-</table>
- 
-
-
-
+| Return code | Description |
+| ----------- | ----------- |
+| **STOR_STATUS_NOT_IMPLEMENTED** | This function is not implemented on the active operating system. |
+| **STOR_STATUS_SUCCESS** | Indicates that the spin lock was released successfully. |
+| **STOR_STATUS_INVALID_PARAMETER** | HwDeviceExtension was **NULL**. |
 
 ## -remarks
 
-
-
-Miniport drivers are not required to acquire MSI spin locks for messages unless the <b>InterruptSynchronizePerMessage</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_port_configuration_information">PORT_CONFIGURATION_INFORMATION</a> structure indicates a synchronization mode of <b>InterruptSynchronizationMode</b>.
-
-
-
+Miniport drivers are not required to acquire MSI spin locks for messages unless the **InterruptSynchronizePerMessage** member of the [**PORT_CONFIGURATION_INFORMATION**](ns-storport-_port_configuration_information.md) structure indicates a synchronization mode of **InterruptSynchronizationMode**.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportacquiremsispinlock">StorPortAcquireMSISpinLock</a>
- 
-
- 
-
+[**StorPortAcquireMSISpinLock**](nf-storport-storportacquiremsispinlock.md)

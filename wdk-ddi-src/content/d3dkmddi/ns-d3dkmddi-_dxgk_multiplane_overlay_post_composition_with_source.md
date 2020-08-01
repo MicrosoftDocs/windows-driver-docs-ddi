@@ -47,7 +47,7 @@ req.typenames: DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE
 ## -description
 
 
-Used in a call to the <b>DxgkDdiCheckMultiPlaneOverlaySupport3 </b>function to check details on hardware support for post composition transform support.
+Used in a call to the [DxgkDdiCheckMultiPlaneOverlaySupport3](nc-d3dkmddi-dxgkddi_checkmultiplaneoverlaysupport3.md) function to check details on hardware support for post composition transform support.
 
 
 ## -struct-fields

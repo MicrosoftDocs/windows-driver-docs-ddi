@@ -43,62 +43,35 @@ req.typenames:
 
 # HW_TRACING_ENABLED callback function
 
-
 ## -description
 
-
-The <b>HwStorTracingEnabled</b> callback routine enables the Storport to notify a miniport that event tracing is enabled. 
-
+The **HwStorTracingEnabled** callback routine enables the Storport to notify a miniport that event tracing is enabled.
 
 ## -parameters
 
-
-
-
 ### -param HwDeviceExtension
-
 
 ### -param Enabled [in]
 
 True to enable tracing in the miniport. Otherwise, false.
 
-
 #### - DeviceExtension [in]
 
-A pointer to the miniport driver's per-HBA storage area. 
-
+A pointer to the miniport driver's per-HBA storage area.
 
 ## -remarks
 
+The name *HwStorTracingEnabled* is placeholder text for the actual routine name. The actual prototype of this routine is defined in *Storport.h* as follows:
 
-
-The name <i>HwStorTracingEnabled</i> is placeholder text for the actual routine name. The actual prototype of this routine is defined in <i>Storport.h</i> as follows:
-
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef
+```cpp
+typedef
 VOID
 HW_TRACING_ENABLED (
     _In_ PVOID HwDeviceExtension,
     _In_ BOOLEAN Enabled
-    );</pre>
-</td>
-</tr>
-</table></span></div>
-
-
+    );
+```
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_initialization_data">HW_INITIALIZATION_DATA</a>
- 
-
- 
-
+[**HW_INITIALIZATION_DATA**](ns-storport-_hw_initialization_data~r1.md)

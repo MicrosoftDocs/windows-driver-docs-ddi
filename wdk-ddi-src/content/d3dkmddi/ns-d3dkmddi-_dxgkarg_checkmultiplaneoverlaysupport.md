@@ -43,6 +43,7 @@ req.typenames: DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT
 
 # _DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT structure
 
+> [!NOTE] This structure has been replaced by [DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT3](ns-d3dkmddi-_dxgkarg_checkmultiplaneoverlaysupport3.md)
 
 ## -description
 

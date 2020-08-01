@@ -43,6 +43,7 @@ req.typenames: DXGK_MULTIPLANE_OVERLAY_PLANE2
 
 # _DXGK_MULTIPLANE_OVERLAY_PLANE2 structure
 
+> [!NOTE] This structure has been replaced by [DXGK_MULTIPLANE_OVERLAY_PLANE3](ns-d3dkmddi-_dxgk_multiplane_overlay_plane3.md).
 
 ## -description
 
