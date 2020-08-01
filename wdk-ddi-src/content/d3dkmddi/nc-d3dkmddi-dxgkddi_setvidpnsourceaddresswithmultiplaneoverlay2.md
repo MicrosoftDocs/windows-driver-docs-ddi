@@ -45,6 +45,8 @@ product:
 
 # DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2 callback function
 
+> [!NOTE] This callback has been replaced by [DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3](nc-d3dkmddi-dxgkddi_setvidpnsourceaddresswithmultiplaneoverlay3.md)
+
 ## -description
 
 <b>DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay2</b> is called to change the overlay configuration being displayed. It must be implemented by Windows Display Driver Model (WDDM) 2.0 or later drivers that support multi-plane overlays.
@@ -57,7 +59,7 @@ Identifies the adapter containing the overlay hardware.
 
 ### -param pSetVidPnSourceAddressWithMultiPlaneOverlay
 
-[in] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_setvidpnsourceaddresswithmultiplaneoverlay2">DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2</a> structure that describes the surfaces and display options to present.
+[in] A pointer to a [DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2](ns-d3dkmddi-_dxgkarg_setvidpnsourceaddresswithmultiplaneoverlay2.md) structure that describes the surfaces and display options to present.
 
 ## -returns
 
@@ -65,5 +67,4 @@ If this routine succeeds, it returns <b>NTSTATUS_SUCCESS</b>. The driver should 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_setvidpnsourceaddresswithmultiplaneoverlay2">DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2</a>
-
+[DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2](ns-d3dkmddi-_dxgkarg_setvidpnsourceaddresswithmultiplaneoverlay2.md)

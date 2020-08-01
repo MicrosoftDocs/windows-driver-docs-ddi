@@ -60,7 +60,7 @@ A structure containing the attributes used for the image in a multiplane overlay
 
 ### -field Flags
 
-Specifies a combination of flip operations by Oring values in the DXGK_MULTIPLANE_OVERLAY_FLAGS enumeration.
+Specifies a combination of flip operations by Oring values in the [DXGK_MULTIPLANE_OVERLAY_FLAGS](ns-d3dkmddi-_dxgk_multiplane_overlay_flags.md) enumeration.
 
 
 ### -field SrcRect
@@ -87,17 +87,17 @@ Specifies the clockwise rotation of the overlay plane, given as a value from the
 
 ### -field Blend
 
-Specifies the blend mode that applies to this overlay plane and the plane beneath it, given as a value from the DXGK_MULTIPLANE_OVERLAY_BLEND enumeration.
+Specifies the blend mode that applies to this overlay plane and the plane beneath it, given as a value from the [DXGK_MULTIPLANE_OVERLAY_BLEND](ns-d3dkmddi-_dxgk_multiplane_overlay_blend.md) enumeration.
 
 
 ### -field ColorSpaceType
 
-Specifies the color space configuration, given as a value from the D3DDDI_COLOR_SPACE_TYPE enumeration.
+Specifies the color space configuration, given as a value from the [D3DDDI_COLOR_SPACE_TYPE](../d3dukmdt/ne-d3dukmdt-d3dddi_color_space_type.md) enumeration.
 
 
 ### -field StretchQuality
 
-Specifies the overlay plane's stretch quality, given as a value from the DXGK_MULTIPLANE_OVERLAY_STRETCH_QUALITY enumeration.
+Specifies the overlay plane's stretch quality, given as a value from the [DXGK_MULTIPLANE_OVERLAY_STRETCH_QUALITY](ne-d3dkmddi-_dxgk_multiplane_overlay_stretch_quality.md) enumeration.
 
 
 ### -field SDRWhiteLevel

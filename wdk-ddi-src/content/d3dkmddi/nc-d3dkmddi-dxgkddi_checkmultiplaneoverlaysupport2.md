@@ -45,6 +45,8 @@ product:
 
 # DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT2 callback function
 
+> [!NOTE] This function has been replaced with [DxgkDdiCheckMultiPlaneOverlaySupport3](nc-d3dkmddi-dxgkddi_checkmultiplaneoverlaysupport2.md).
+
 ## -description
 
 <b>DxgkDdiCheckMultiPlaneOverlaySupport2</b> is called to determine whether a specific multi-plane overlay configuration is supported.  It must be implemented by Windows Display Driver Model (WDDM) 2.0 or later drivers that support multi-plane overlays.
@@ -57,7 +59,7 @@ Identifies the adapter containing the overlay hardware.
 
 ### -param pCheckMultiPlaneOverlaySupport
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_checkmultiplaneoverlaysupport2">DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2</a> structure that describes the surfaces and display options to present.
+A pointer to a [DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2](ns-d3dkmddi-_dxgkarg_checkmultiplaneoverlaysupport2.md) structure that describes the surfaces and display options to present.
 
 ## -returns
 
@@ -69,5 +71,4 @@ The kernel mode driver reports whether the specified configuration is supported.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_checkmultiplaneoverlaysupport2">DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2</a>
-
+[DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2](ns-d3dkmddi-_dxgkarg_checkmultiplaneoverlaysupport2.md)

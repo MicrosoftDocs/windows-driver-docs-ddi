@@ -47,7 +47,7 @@ req.typenames: DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3
 ## -description
 
 
-Contains arguments for the DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay3 function.
+Contains arguments for the [DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay3](nc-d3dkmddi-dxgkddi_setvidpnsourceaddresswithmultiplaneoverlay3.md) function.
 
 
 ## -struct-fields
@@ -62,12 +62,12 @@ An integer that identifies a video present source on the display adapter.
 
 ### -field InputFlags
 
-A DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS structure that identifies the type of display operation to perform.
+A [DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS](ns-d3dkmddi-_dxgk_setvidpnsourceaddress_input_flags.md) structure that identifies the type of display operation to perform.
 
 
 ### -field OutputFlags
 
-A DXGK_SETVIPNSOURCEADDRESS_OUTPUT_FLAGS structure that returns information from the driver.
+A [DXGK_SETVIPNSOURCEADDRESS_OUTPUT_FLAGS](ns-d3dkmddi-_dxgk_setvidpnsourceaddress_output_flags.md) structure that returns information from the driver.
 
 
 ### -field PlaneCount
@@ -77,12 +77,12 @@ The number of overlay planes in the ppPlanes list.
 
 ### -field ppPlanes
 
-An array of pointers to a DXGK_MULTIPLANE_OVERLAY_PLANE3 structures that specify the overlay planes to display.
+An array of pointers to a [DXGK_MULTIPLANE_OVERLAY_PLANE3](ns-d3dkmddi-_dxgk_multiplane_overlay_plane3.md) structures that specify the overlay planes to display.
 
 
 ### -field pPostComposition
 
-Pointer to a DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION structure containing virtual mode information and other transform information that should be applied after the planes have been composed.
+Pointer to a [DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION](ns-d3dkmddi-_dxgk_multiplane_overlay_post_composition.md) structure containing virtual mode information and other transform information that should be applied after the planes have been composed.
 
 If NULL, no post composition transforms should be applied.
 
@@ -96,5 +96,5 @@ If zero, the refresh rate should be the default rate based on the current mode.
 
 ### -field pHDRMetaData
 
-Pointer to a DXGK_HDR_METADATA structure indicating any metadata information that might be available. A NULL value indicates that no new metadata is available.
+Pointer to a [DXGK_HDR_METADATA](ns-d3dkmddi-_dxgk_hdr_metadata.md) structure indicating any metadata information that might be available. A NULL value indicates that no new metadata is available.
 

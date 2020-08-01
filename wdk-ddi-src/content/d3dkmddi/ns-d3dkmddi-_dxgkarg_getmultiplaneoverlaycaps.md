@@ -47,7 +47,7 @@ req.typenames: DXGKARG_GETMULTIPLANEOVERLAYCAPS
 ## -description
 
 
-Arguments to the DxgkDdiGetMultiPlaneOverlayCaps function.
+Arguments to the [DxgkDdiGetMultiPlaneOverlayCaps](nc-d3dkmddi-dxgkddi_getmultiplaneoverlaycaps.md) function.
 
 
 ## -struct-fields
@@ -77,7 +77,7 @@ Arguments to the DxgkDdiGetMultiPlaneOverlayCaps function.
 
 ### -field OverlayCaps
 
-[out] A DXGK_MULTIPLANEOVERLAYCAPS structure indicating the plane capabilities.
+[out] A [DXGK_MULTIPLANEOVERLAYCAPS](ns-d3dkmddi-_dxgk_multiplaneoverlaycaps.md) structure indicating the plane capabilities.
 
 
 ### -field MaxStretchFactor

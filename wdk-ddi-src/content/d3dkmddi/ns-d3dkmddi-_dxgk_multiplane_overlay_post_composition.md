@@ -58,7 +58,7 @@ Specifies information about any additional transforms that should occur after th
 
 ### -field Flags
 
-A DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS structure indicating additional transform information.
+A [DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS](ns-d3dkmddi-_dxgk_multiplane_overlay_post_composition_flags.md) structure indicating additional transform information.
 
 
 ### -field SrcRect

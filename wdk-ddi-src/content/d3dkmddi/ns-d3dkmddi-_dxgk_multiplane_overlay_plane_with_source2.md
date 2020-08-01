@@ -72,5 +72,5 @@ The zero based index indicating the Z order of the overlay plane.
 
 ### -field PlaneAttributes
 
-A DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3 structure that specifies overlay plane attributes.
+A [DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3](ns-d3dkmddi-_dxgk_multiplane_overlay_attributes3.md) structure that specifies overlay plane attributes.
 

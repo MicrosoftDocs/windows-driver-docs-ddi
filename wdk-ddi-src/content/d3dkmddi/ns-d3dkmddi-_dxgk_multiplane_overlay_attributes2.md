@@ -43,6 +43,7 @@ req.typenames: DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES2
 
 # _DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES2 structure
 
+> [!NOTE] This structure has been replaced by [DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3](ns-d3dkmddi-_dxgk_multiplane_overlay_attributes3.md).
 
 ## -description
 
