@@ -43,188 +43,96 @@ req.typenames:
 
 # HW_STARTIO callback function
 
-
 ## -description
 
-
-The Storport driver calls the <b>HwStorStartIo</b> routine one time for each incoming I/O request.
-
+The Storport driver calls the **HwStorStartIo** routine one time for each incoming I/O request.
 
 ## -parameters
-
-
-
 
 ### -param DeviceExtension
 
 A pointer to the miniport driver's per HBA storage area.
 
-
 ### -param Srb
 
-A pointer to the SCSI request block to be started. 
-
+A pointer to the SCSI request block to be started.
 
 ## -returns
 
-
-
-<b>HwStorStartIo</b> returns <b>TRUE</b> if the request was successfully initiated. Otherwise, it returns <b>FALSE</b>. 
-
-
-
+**HwStorStartIo** returns **TRUE** if the request was successfully initiated. Otherwise, it returns **FALSE**.
 
 ## -remarks
 
+**HwStorStartIo** initiates an I/O operation. StorPort is designed to use miniport private data that is prepared in [**HwStorBuildIo**](nc-storport-hw_buildio.md) and stored in either the *DeviceExtension* or *Srb->SrbExtension*.  Because **HwStorBuildIo** is called without spin locks, the best driver performance is achieved by preparing as much data  as possible in **HwStorBuildIo**.
 
+Storport calls **HwStorStartIo** in the following ways:
 
-<b>HwStorStartIo</b> initiates an I/O operation. StorPort is designed to use miniport private data that is prepared in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_buildio">HwStorBuildIo</a> and stored in either the <i>DeviceExtension</i> or <i>Srb->SrbExtension</i>.  Because <b>HwStorBuildIo</b> is called without spin locks, the best driver performance is achieved by preparing as much data  as possible in <b>HwStorBuildIo</b>.
+* For [storage non-virtual miniport drivers](https://docs.microsoft.com/windows-hardware/drivers/storage/overview-of-storage-virtual-miniport-drivers), depending on the value of **SynchronizationModel** set in [**PORT_CONFIGURATION_INFORMATION**](ns-storport-_port_configuration_information.md), Storport always calls **HwStorStartIo** the same IRQL and uses an internal spin lock to ensure that I/O requests are initiated sequentially.  The IRQL is either DISPATCH_LEVEL (full-duplex mode) or DIRQL (half-duplex mode).
 
-Storport calls <b>HwStorStartIo</b> in the following ways:
+  When handling I/O in  half-duplex mode, the **HwStorStartIo** routine does not have to acquire its own spin lock. Also, memory allocation using [**StorPortAllocatePool**](nf-storport-storportallocatepool.md) and mutual exclusion via [**StorPortAcquireSpinLock**](nf-storport-storportacquirespinlock.md) are not allowed in the **HwStorStartIo** routine. In full-duplex mode, **StorPortAllocatePool** and **StorPortAcquireSpinLock** may be used in the **HwStorStartIo** routine.
 
-<ul>
-<li>
-For <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/overview-of-storage-virtual-miniport-drivers">storage non-virtual miniport drivers</a>, depending on the value of <b>SynchronizationModel</b> set in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_port_configuration_information">PORT_CONFIGURATION_INFORMATION</a>, Storport always calls <b>HwStorStartIo</b> the same IRQL and uses an internal spin lock to ensure that I/O requests are initiated sequentially.  The IRQL is either DISPATCH_LEVEL (full-duplex mode) or DIRQL (half-duplex mode).
+  If a non-virtual miniport supports the concurrent channels optimization (STOR_PERF_CONCURRENT_CHANNELS set by [**StorPortInitializePerfOpts**](nf-storport-storportinitializeperfopts.md)), multiple calls to **HwStorStartIo** concurrently are possible. In this case, the miniport will need to ensure that any shared resources are protected by a lock. With this performance optimization, Storport will not acquire the StartIo lock prior to calling **HwStorStartIo** and the miniport must provide its own lock if required.
 
-When handling I/O in  half-duplex mode, the <b>HwStorStartIo</b> routine does not have to acquire its own spin lock. Also, memory allocation using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportallocatepool">StorPortAllocatePool</a> and mutual exclusion via <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportacquirespinlock">StorPortAcquireSpinLock</a> are not allowed in the <b>HwStorStartIo</b> routine. In full-duplex mode, <b>StorPortAllocatePool</b> and <b>StorPortAcquireSpinLock</b> may be used in the <b>HwStorStartIo</b> routine.
+* For [storage virtual miniport drivers](https://docs.microsoft.com/windows-hardware/drivers/storage/storage-virtual-miniport-drivers), Storport calls **HwStorStartIo** at any IRQL <= DISPATCH_LEVEL and does not use an internal spin lock. The **HwStorStartIo** routine may acquire its own spin lock by calling [**StorPortAcquireSpinLock**](nf-storport-storportacquirespinlock.md). Also, calls to [**StorPortAllocatePool**](nf-storport-storportallocatepool.md) are allowed in the **HwStorStartIo** routine of a storage virtual miniport driver.
 
-If a non-virtual miniport supports the concurrent channels optimization (STOR_PERF_CONCURRENT_CHANNELS set by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializeperfopts">StorPortInitializePerfOpts</a>), multiple calls to <b>HwStorStartIo</b> concurrently are possible. In this case, the miniport will need to ensure that any shared resources are protected by a lock. With this performance optimization, Storport will not acquire the StartIo lock prior to calling <b>HwStorStartIo</b> and the miniport must provide its own lock if required.
+The SRB is expected to be completed when SCSI status is received. When the Storport driver completes the SRB by calling [**StorPortNotification**](nf-storport-storportnotification.md) with a *NotificationType* of **RequestComplete**, an SRB is expected to return one of the following values in the **SrbStatus** field of the Srb:
 
-</li>
-<li>
-For <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storage-virtual-miniport-drivers">storage virtual miniport drivers</a>, Storport calls <b>HwStorStartIo</b> at any IRQL <= DISPATCH_LEVEL and does not use an internal spin lock. The <b>HwStorStartIo</b> routine may acquire its own spin lock by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportacquirespinlock">StorPortAcquireSpinLock</a>. Also, calls to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportallocatepool">StorPortAllocatePool</a>  are allowed in the <b>HwStorStartIo</b> routine of a storage virtual miniport driver.
+* SRB_STATUS_SUCCESS
+  * Indicates that the Srb was sent and SCSI status (possibly with data) was returned.
+  * Storport returns the data and status to the caller.
+  * Miniport action is none, except to complete the request by using [**StorPortNotification**](nf-storport-storportnotification.md) for **RequestComplete**,  probably from the [**HwStorDpcRoutine**](nc-storport-hw_dpc_routine.md).
 
-</li>
-</ul>
-The SRB is expected to be completed when SCSI status is received. When the Storport driver completes the SRB by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportnotification">StorPortNotification</a> with a <i>NotificationType</i> of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportnotification">RequestComplete</a>, an SRB is expected to return one of the following values in the <b>SrbStatus</b> field of the Srb:
+* SRB_STATUS_BUSY
+  * Indicates that there is a temporary problem with sending the Srb (for example, adapter registers or buffers are busy).
+  * Storport discards the original Srb and issues a new Srb, including calls to **HwStorBuildIo** and **HwStorStartIo**. All data in the SrbExtension will be lost.
+  * Because a new SRB is issued, the miniport must make sure that it never issues SRB_STATUS_BUSY in the middle of a SCSI transaction. After the transaction is started, it must be completed or canceled.  Hardware busy states during the transaction must be handled by the miniport driver.
 
-<table>
-<tr>
-<th>Status</th>
-<th>Indicates</th>
-<th>StorPort Action</th>
-<th>Miniport action</th>
-</tr>
-<tr>
-<td>
-SRB_STATUS_SUCCESS
+The name **HwStorStartIo** is a placeholder to describe the miniport routine set in the **HwStartIo** member of [**HW_INITIALIZATION_DATA**](ns-storport-_hw_initialization_data~r1.md) structure. This structure is passed in the *HwInitializationData* parameter of [**StorPortInitialize**](nf-storport-storportinitialize.md). The actual prototype of this routine is defined in Storport.h as follows:
 
-</td>
-<td>
-The Srb was sent and SCSI status (possibly with data) was returned.
-
-</td>
-<td>
-Returns the data and status to the caller.
-
-</td>
-<td>
-None, except to complete the request by using  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportnotification">StorPortNotification for RequestComplete</a>,  probably from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_dpc_routine">HwStorDpcRoutine</a>.
-
-</td>
-</tr>
-<tr>
-<td>
-SRB_STATUS_BUSY
-
-</td>
-<td>
-There is a temporary problem with sending the Srb (for example, adapter registers or buffers are busy).
-
-</td>
-<td>
-Discards the original Srb and issues a new Srb, including calls to <b>HwStorBuildIo</b> and <b>HwStorStartIo</b>. All data in the SrbExtension will be lost.
-
-</td>
-<td>
-Because a new SRB is issued, the miniport must make sure that it never issues SRB_STATUS_BUSY in the middle of a SCSI transaction. After the transaction is started, it must be completed or canceled.  Hardware busy states during the transaction must be handled by the miniport driver.
-
-</td>
-</tr>
-</table>
- 
-
-The name <b>HwStorStartIo</b> is a placeholder to describe the miniport routine set in the <b>HwStartIo</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_initialization_data">HW_INITIALIZATION_DATA</a> structure. This structure is passed in the <i>HwInitializationData</i> parameter of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize">StorPortInitialize</a>. The actual prototype of this routine is defined in Storport.h as follows:
-
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef
+```cpp
+typedef
 BOOLEAN
 (*PHW_STARTIO) (
   _In_ PVOID  DeviceExtension,
   _In_ PSCSI_REQUEST_BLOCK  Srb
-  );</pre>
-</td>
-</tr>
-</table></span></div>
-Starting in Windows 8, the <i>Srb</i> parameter may point to either <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_scsi_request_block">SCSI_REQUEST_BLOCK</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_storage_request_block">STORAGE_REQUEST_BLOCK</a>. If the function identifier in the <b>Function</b> field of <i>Srb</i> is <b>SRB_FUNCTION_STORAGE_REQUEST_BLOCK</b>, the SRB is a <b>STORAGE_REQUEST_BLOCK</b> request structure.
+  );
+```
 
+Starting in Windows 8, the *Srb* parameter may point to either [**SCSI_REQUEST_BLOCK**](../srb/ns-srb-_scsi_request_block.md) or [**STORAGE_REQUEST_BLOCK**](../ddi/srb/ns-srb-_storage_request_block.md). If the function identifier in the **Function** field of *Srb* is **SRB_FUNCTION_STORAGE_REQUEST_BLOCK**, the SRB is a **STORAGE_REQUEST_BLOCK** request structure.
 
-#### Examples
+### Examples
 
-To define a <b>HwStorStartIo</b> callback routine, you must first provide a function declaration that <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV) and other verification tools require, as shown in the following code example:
+To define a **HwStorStartIo** callback routine, you must first provide a function declaration that [Static Driver Verifier](https://docs.microsoft.com/windows-hardware/drivers/devtest/static-driver-verifier) (SDV) and other verification tools require, as shown in the following code example:
 
-To define an <b>HwStorStartIo</b> callback function, you must first provide a function declaration that identifies the type of callback function you’re defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it’s a requirement for writing drivers for the Windows operating system.
+To define an **HwStorStartIo** callback function, you must first provide a function declaration that identifies the type of callback function you’re defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps [Code Analysis for Drivers](https://docs.microsoft.com/windows-hardware/drivers/devtest/code-analysis-for-drivers), [Static Driver Verifier](https://docs.microsoft.com/windows-hardware/drivers/devtest/static-driver-verifier) (SDV), and other verification tools find errors, and it’s a requirement for writing drivers for the Windows operating system.
 
- For example, to define a <b>HwStorStartIo</b> callback routine that is named <i>MyHwStartIo</i>, use the <b>HW_STARTIO</b> type as shown in this code example:
+ For example, to define a **HwStorStartIo** callback routine that is named *MyHwStartIo*, use the **HW_STARTIO** type as shown in this code example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>HW_STARTIO MyHwStartIo;</pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+HW_STARTIO MyHwStartIo
+```
+
 Then, implement your callback routine as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>BOOLEAN
+```cpp
+BOOLEAN
 MyHwStartIo (
   _In_ PVOID  DeviceExtension,
   _In_ PSCSI_REQUEST_BLOCK  Srb
   );
   {
       ...
-  }</pre>
-</td>
-</tr>
-</table></span></div>
-The <b>HW_STARTIO</b> function type is defined in the Storport.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>HW_STARTIO</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-storport-drivers">Declaring Functions Using Function Role Types for Storport Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-behavior?view=vs-2015">Annotating Function Behavior</a>.
+  }
+```
 
-
-
+The **HW_STARTIO** function type is defined in the Storport.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the **HW_STARTIO** function type in the header file are used. For more information about the requirements for function declarations, see [Declaring Functions Using Function Role Types for Storport Drivers](https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-storport-drivers). For information about _Use_decl_annotations_, see [Annotating Function Behavior](https://docs.microsoft.com/cpp/code-quality/annotating-function-behavior?view=vs-2019).
 
 ## -see-also
 
+[**HwStorBuildIo**](nc-storport-hw_buildio.md)
 
+[**SCSI_REQUEST_BLOCK**](../srb/ns-srb-_scsi_request_block.md)
 
+[**STORAGE_REQUEST_BLOCK**](../srb/ns-srb-_storage_request_block.md)
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_buildio">HwStorBuildIo</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_scsi_request_block">SCSI_REQUEST_BLOCK</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_storage_request_block">STORAGE_REQUEST_BLOCK</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize">StorPortInitialize</a>
- 
-
- 
-
+[**StorPortInitialize**](nf-storport-storportinitialize.md)
