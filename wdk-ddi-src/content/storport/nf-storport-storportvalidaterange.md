@@ -44,90 +44,54 @@ req.typenames:
 
 # StorPortValidateRange function
 
-
 ## -description
 
-
-The <b>StorPortValidateRange</b> routine determines whether a specified range of I/O addresses is in use by another adapter. This routine is obsolete in Windows NT 4.0 and later operating systems. 
-
+The **StorPortValidateRange** routine determines whether a specified range of I/O addresses is in use by another adapter. This routine is obsolete in Windows NT 4.0 and later operating systems.
 
 ## -parameters
 
-
-
-
 ### -param HwDeviceExtension [in]
 
-A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize">StorPortInitialize</a>. The port driver frees this memory when it removes the device. 
-
+A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls [**StorPortInitialize**](nf-storport-storportinitialize.md). The port driver frees this memory when it removes the device.
 
 ### -param BusType [in]
 
-Contains a value of type <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff566356(v=vs.85)">STORAGE_BUS_TYPE</a> that indicates the bus type. 
-
+Contains a value of type [**STORAGE_BUS_TYPE**](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff566356(v=vs.85)) that indicates the bus type.
 
 ### -param SystemIoBusNumber
 
-<p>Contains an integer identifying a system bus.</p>
-
+Contains an integer identifying a system bus.
 
 ### -param IoAddress [in]
 
-Contains the beginning address of the range of addresses to be validated. 
-
+Contains the beginning address of the range of addresses to be validated.
 
 ### -param NumberOfBytes [in]
 
-Contains the length in bytes of the range of addresses to be validated. 
-
+Contains the length in bytes of the range of addresses to be validated.
 
 ### -param InIoSpace [in]
 
-Indicates, when <b>TRUE</b>, that the address range is in I/O space. If <b>FALSE</b>, the address is in memory space. 
-
+Indicates, when **TRUE**, that the address range is in I/O space. If **FALSE**, the address is in memory space.
 
 ## -returns
 
-
-
-<b>StorPortValidateRange</b> returns <b>TRUE</b> if a specified range of addresses is not claimed by another driver. This routine returns <b>FALSE</b> if another driver has claimed the address range. 
-
-
-
+**StorPortValidateRange** returns **TRUE** if a specified range of addresses is not claimed by another driver. This routine returns **FALSE** if another driver has claimed the address range.
 
 ## -remarks
 
+For compatibility with older versions of Windows, this routine always returns **TRUE**.
 
+Miniport drivers are given valid I/O ranges in the **AccessRanges** member of the [**PORT_CONFIGURATION_INFORMATION**](ns-storport-_port_configuration_information.md) structure when the Storport driver calls the miniport's [**HwStorFindAdapter**](nc-storport-hw_find_adapter.md) callback routine.
 
-For compatibility with older versions of Windows, this routine always returns <b>TRUE</b>.
+**StorPortValidateRange** uses **STOR_PHYSICAL_ADDRESS** to represent bus-relative addresses.
 
- Miniport drivers are given valid I/O ranges in the <b>AccessRanges</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_port_configuration_information">PORT_CONFIGURATION_INFORMATION</a> structure when the Storport driver calls the miniport's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_find_adapter">HwStorFindAdapter</a> callback routine.
+```cpp
+typedef PHYSICAL_ADDRESS STOR_PHYSICAL_ADDRESS, *PSTOR_PHYSICAL_ADDRESS;
+```
 
-<b>StorPortValidateRange</b> uses <b>STOR_PHYSICAL_ADDRESS</b> to represent bus-relative addresses.
-
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>typedef PHYSICAL_ADDRESS STOR_PHYSICAL_ADDRESS, *PSTOR_PHYSICAL_ADDRESS;
-</pre>
-</td>
-</tr>
-</table></span></div>
-The <b>STOR_PHYSICAL_ADDRESS</b> type is an operating system-independent data type that Storport miniport drivers use to represent either a physical addresses or a bus-relative address. 
-
-
-
+The **STOR_PHYSICAL_ADDRESS** type is an operating system-independent data type that Storport miniport drivers use to represent either a physical addresses or a bus-relative address.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportvalidaterange">ScsiPortValidateRange</a>
- 
-
- 
-
+[**ScsiPortValidateRange**](../srb/nf-srb-scsiportvalidaterange.md)

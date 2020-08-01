@@ -43,49 +43,28 @@ req.typenames: MEMORY_REGION, *PMEMORY_REGION
 
 # _MEMORY_REGION structure
 
-
 ## -description
-
 
 The MEMORY_REGION structure describes a region of physically contiguous memory.
 
-
 ## -struct-fields
-
-
-
 
 ### -field VirtualBase
 
 The beginning virtual address of the memory region.
 
-
 ### -field PhysicalBase
 
 The beginning physical address of the memory region.
-
 
 ### -field Length
 
 The size, in bytes, of the memory region.
 
-
 ## -remarks
 
-
-
-The <b>DumpRegion</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_port_configuration_information">PORT_CONFIGURATION_INFORMATION</a> structure holds a MEMORY_REGION structure that describes a region of physically contiguous memory that a miniport driver can use during a crash dump. 
-
-
-
+The **DumpRegion** member of the [**PORT_CONFIGURATION_INFORMATION**](ns-storport-_port_configuration_information.md) structure holds a MEMORY_REGION structure that describes a region of physically contiguous memory that a miniport driver can use during a crash dump.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_port_configuration_information">PORT_CONFIGURATION_INFORMATION</a>
- 
-
- 
-
+[**PORT_CONFIGURATION_INFORMATION**](ns-storport-_port_configuration_information.md)

@@ -43,126 +43,57 @@ req.typenames:
 
 # HW_FIND_ADAPTER callback function
 
-
 ## -description
 
-
-The <b>HwStorFindAdapter</b> routine uses the supplied configuration to determine whether a specific HBA is supported and, if it is, to return configuration information about that adapter.
-
+The **HwStorFindAdapter** routine uses the supplied configuration to determine whether a specific HBA is supported and, if it is, to return configuration information about that adapter.
 
 ## -parameters
-
-
-
 
 ### -param DeviceExtension
 
 Supplies a per adapter storage area.
 
-
 ### -param HwContext [in]
 
 Set to NULL.
-
 
 ### -param BusInformation [in]
 
 Set to NULL.
 
-
 ### -param ArgumentString [in]
 
-Supplies a <b>NULL</b>-terminated string with context information about the driver.
-
+Supplies a **NULL**-terminated string with context information about the driver.
 
 ### -param ConfigInfo [in, out]
 
-Supplies an initialized [PORT_CONFIGURATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_port_configuration_information) structure that the miniport driver uses during initialization.
-
+Supplies an initialized [**PORT_CONFIGURATION_INFORMATION**](ns-storport-_port_configuration_information.md) structure that the miniport driver uses during initialization.
 
 ### -param Reserved3 [in]
 
-Reserved for system use. 
-
+Reserved for system use.
 
 ## -returns
 
+**HwStorFindAdapter** must return one of the following status values:
 
-
-<b>HwStorFindAdapter</b> must return one of the following status values:
-
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>SP_RETURN_FOUND</b></dt>
-</dl>
-</td>
-<td width="60%">
-Indicates that a supported HBA was found and that the HBA-relevant configuration information was successfully determined and set in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_port_configuration_information">PORT_CONFIGURATION_INFORMATION</a> structure.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>SP_RETURN_ERROR</b></dt>
-</dl>
-</td>
-<td width="60%">
-Indicates that an HBA was found but there was an error obtaining the configuration information. If possible, such an error should be logged with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportlogerror">StorPortLogError</a>.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>SP_RETURN_BAD_CONFIG</b></dt>
-</dl>
-</td>
-<td width="60%">
-Indicates that the supplied configuration information was invalid for the adapter.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>SP_RETURN_NOT_FOUND</b></dt>
-</dl>
-</td>
-<td width="60%">
-Indicates that no supported HBA was found for the supplied configuration information.
-
-</td>
-</tr>
-</table>
- 
-
-
-
+| Return code | Description |
+| ----------- | ----------- |
+| **SP_RETURN_FOUND** | Indicates that a supported HBA was found and that the HBA-relevant configuration information was successfully determined and set in the [**PORT_CONFIGURATION_INFORMATION**](ns-storport-_port_configuration_information.md) structure. |
+| **SP_RETURN_ERROR** | Indicates that an HBA was found but there was an error obtaining the configuration information. If possible, such an error should be logged with [**StorPortLogError**](nf-storport-storportlogerror.md). |
+| **SP_RETURN_BAD_CONFIG** | Indicates that the supplied configuration information was invalid for the adapter. |
+| **SP_RETURN_NOT_FOUND** | Indicates that no supported HBA was found for the supplied configuration information. |
 
 ## -remarks
 
+Because the Storport driver supports only Plug and Play (PnP) devices, the *HwContext* and *BusInformation* parameters to **HwStorFindAdapter** are not supplied to non-virtual miniport drivers.
 
+**HwStorFindAdapter** must set the **MaximumTransferLength** and **NumberOfPhysicalBreaks** fields in the *ConfigInfo* structure. Other than these fields, the [**PORT_CONFIGURATION_INFORMATION**](ns-storport-_port_configuration_information.md) structure will always fully specify all adapter resources that are required to start the adapter.
 
-Because the Storport driver supports only Plug and Play (PnP) devices, the <i>HwContext</i> and <i>BusInformation</i> parameters to <b>HwStorFindAdapter</b> are not supplied to non-virtual miniport drivers.
+The name **HwStorFindAdapter** is just a placeholder. The actual prototype of this routine is defined in *Storport.h* as follows:
 
-<b>HwStorFindAdapter</b> must set the <b>MaximumTransferLength</b> and <b>NumberOfPhysicalBreaks</b> fields in the <i>ConfigInfo</i> structure. Other than these fields, the [PORT_CONFIGURATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_port_configuration_information) structure will always fully specify all adapter resources that are required to start the adapter. 
-
-The name <b>HwStorFindAdapter</b> is just a placeholder. The actual prototype of this routine is defined in <i>Storport.h</i> as follows:
-
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef
+```cpp
+typedef
 ULONG
 HW_FIND_ADAPTER (
   _In_ PVOID  DeviceExtension,
@@ -171,38 +102,25 @@ HW_FIND_ADAPTER (
   _In_z_ PCHAR  ArgumentString,
   _Inout_ PPORT_CONFIGURATION_INFORMATION  ConfigInfo,
   _In_ PBOOLEAN  Reserved3
-  );</pre>
-</td>
-</tr>
-</table></span></div>
-In most cases StorPort calls the <b>HwStorFindAdapter</b> routine at IRQL == PASSIVE_LEVEL without acquiring any spin locks. The exception case is when the miniport does not support calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_adapter_control">HwStorAdaptorControl</a> with the <b>ScsiRestartAdapter</b> control type. In this situation, StorPort will instead reinitialize the adapter by calling both  <b>HwStorFindAdapter</b> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_initialize">HwStorInitialize</a>. When this is the case, <b>HwStorFindAdapter</b> is called at IRQL == DISPATCH_LEVEL. Also, when in dump mode, <b>HwStorFindAdapter</b> is called at IRQL == HIGH_LEVEL.
+  );
+```
 
+In most cases StorPort calls the **HwStorFindAdapter** routine at IRQL == PASSIVE_LEVEL without acquiring any spin locks. The exception case is when the miniport does not support calling [**HwStorAdaptorControl**](nc-storport-hw_adapter_control.md) with the **ScsiRestartAdapter** control type. In this situation, StorPort will instead reinitialize the adapter by calling both  **HwStorFindAdapter** and [**HwStorInitialize**](nc-storport-hw_initialize.md). When this is the case, **HwStorFindAdapter** is called at IRQL == DISPATCH_LEVEL. Also, when in dump mode, **HwStorFindAdapter** is called at IRQL == HIGH_LEVEL.
 
-#### Examples
+### Examples
 
-To define an <b>HwStorFindAdapter</b> callback function, you must first provide a function declaration that identifies the type of callback function you’re defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it’s a requirement for writing drivers for the Windows operating system.
+To define an **HwStorFindAdapter** callback function, you must first provide a function declaration that identifies the type of callback function you’re defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps [Code Analysis for Drivers](https://docs.microsoft.com/windows-hardware/drivers/devtest/code-analysis-for-drivers), [Static Driver Verifier](https://docs.microsoft.com/windows-hardware/drivers/devtest/static-driver-verifier) (SDV), and other verification tools find errors, and it’s a requirement for writing drivers for the Windows operating system.
 
- For example, to define a <b>HwStorFindAdapter</b> callback routine that is named <i>MyHwFindAdapter</i>, use the <b>HW_FIND_ADAPTER</b> type as shown in this code example:
+ For example, to define a **HwStorFindAdapter** callback routine that is named *MyHwFindAdapter*, use the **HW_FIND_ADAPTER** type as shown in this code example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>HW_FIND_ADAPTER MyHwFindAdapter;</pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+HW_FIND_ADAPTER MyHwFindAdapter;
+```
+
 Then, implement your callback routine as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+```cpp
+_Use_decl_annotations_
 ULONG
 MyHwFindAdapter (
   _In_ PVOID  DeviceExtension,
@@ -214,34 +132,17 @@ MyHwFindAdapter (
   );
   {
       ...
-  }</pre>
-</td>
-</tr>
-</table></span></div>
-The <b>HW_FIND_ADAPTER</b> function type is defined in the Storport.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>HW_FIND_ADAPTER</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-storport-drivers">Declaring Functions Using Function Role Types for Storport Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-behavior?view=vs-2015">Annotating Function Behavior</a>.
+  }
+```
 
-
-
+The **HW_FIND_ADAPTER** function type is defined in the Storport.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the **HW_FIND_ADAPTER** function type in the header file are used. For more information about the requirements for function declarations, see [Declaring Functions Using Function Role Types for Storport Drivers](https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-storport-drivers). For information about _Use_decl_annotations_, see [Annotating Function Behavior](https://docs.microsoft.com/cpp/code-quality/annotating-function-behavior?view=vs-2019).
 
 ## -see-also
 
+[**HwStorInitialize**](nc-storport-hw_initialize.md)
 
+[**PORT_CONFIGURATION_INFORMATION**](ns-storport-_port_configuration_information.md)
 
+[**StorPortInitialize**](nf-storport-storportinitialize.md)
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_initialize">HwStorInitialize</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_port_configuration_information">PORT_CONFIGURATION_INFORMATION</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize">StorPortInitialize</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportlogerror">StorPortLogError</a>
- 
-
- 
-
+[**StorPortLogError**](nf-storport-storportlogerror.md)
