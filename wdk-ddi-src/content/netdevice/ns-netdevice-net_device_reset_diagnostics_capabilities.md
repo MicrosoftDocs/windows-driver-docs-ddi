@@ -64,7 +64,7 @@ Client drivers initialize and register this structure in their [**EVT_WDF_DRIVER
 
 Call [**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES_INIT**](nf-netdevice-net_device_reset_diagnostics_capabilities_init.md) to initialize this structure.
 
-Call [**NetDeviceInitSetResetDiagnosticsCapabilitites**](nf-netdevice-netdeviceinitsetresetdiagnosticscapabilitites.md) to register this structure to the NetAdapterCx framework.
+Call [**NetDeviceInitSetResetDiagnosticsCapabilities**](nf-netdevice-netdeviceinitsetresetdiagnosticscapabilities.md) to register this structure to the NetAdapterCx framework.
 
 For more information, see [Register NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES](/windows-hardware/drivers/netcx/platform-level-device-reset/#register-NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES).
 
@@ -78,4 +78,4 @@ For more information, see [Register NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES](/
 
 [**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES_INIT**](nf-netdevice-net_device_reset_diagnostics_capabilities_init.md)
 
-[**NetDeviceInitSetResetDiagnosticsCapabilitites**](nf-netdevice-netdeviceinitsetresetdiagnosticscapabilitites.md)
+[**NetDeviceInitSetResetDiagnosticsCapabilities**](nf-netdevice-netdeviceinitsetresetdiagnosticscapabilities.md)
