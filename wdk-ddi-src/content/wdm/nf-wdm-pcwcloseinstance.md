@@ -5,7 +5,7 @@ description: The PcwCloseInstance function closes the specified instance of the 
 old-location: devtest\pcwcloseinstance.htm
 tech.root: devtest
 ms.assetid: a577a116-9e5e-42d3-aac0-a6b90131ad9d
-ms.date: 02/23/2018
+ms.date: 07/28/2020
 keywords: ["PcwCloseInstance function"]
 ms.keywords: PcwCloseInstance, PcwCloseInstance function [Driver Development Tools], devtest.pcwcloseinstance, km_pcw_f30288bf-ff25-46fd-b058-74294fc03278.xml, wdm/PcwCloseInstance
 f1_keywords:
@@ -43,39 +43,40 @@ req.typenames:
 
 # PcwCloseInstance function
 
-
 ## -description
 
-
-The <b>PcwCloseInstance</b> function closes the specified instance of the counter set. 
-
+The `PcwCloseInstance` function closes a counterset instance that was created using [PcwCreateInstance](nf-wdm-pcwcreateinstance.md). Most developers will use a [CTRPP](https://docs.microsoft.com/windows/win32/perfctrs/ctrpp)-generated Close\*\*\* function instead of calling this function directly.
 
 ## -parameters
 
-
-
-
 ### -param Instance [in]
 
-A pointer to the instance of the counter set to close. 
-
+A pointer to the counterset instance to close.
 
 ## -remarks
 
+Use the `PcwCreateInstance` function to create a counterset instance.
 
+You cannot call `PcwCloseInstance` on an instance if you have already called [PcwUnregister](nf-wdm-pcwunregister.md) for the corresponding counterset registration. When you unregister the counterset, any remaining instances are closed for you. Closing them again will crash the system.
 
-Use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pcwcreateinstance">PcwCreateInstance</a> function to create an instance of a registered counter set. You cannot call <b>PcwCloseInstance</b> if you have already called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pcwunregister">PcwUnregister</a>. When you unregister the counter set, the instances are closed for you.
+### CTRPP-generated Close\*\*\* function
 
+Most developers do not need to call `PcwCloseInstance` directly. Instead, they will compile a manifest with the CTRPP tool and use the Close\*\*\* function from the CTRPP-generated header. The generated function will look like this:
 
+```C
+EXTERN_C FORCEINLINE VOID
+CloseMyCounterset(
+    __in PPCW_INSTANCE Instance
+    )
+{
+    PAGED_CODE();
 
+    PcwCloseInstance(Instance);
+}
+```
+
+The CTRPP-generated Close function will be named *Prefix*Close*CounterSet*. *Prefix* is usually blank, but may be present if the `-prefix` parameter was used on the CTRPP command-line. *CounterSet* is the name of the counterset, as specified in the manifest.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pcwcreateinstance">PcwCreateInstance</a>
- 
-
- 
-
+[PcwCreateInstance function](nf-wdm-pcwcreateinstance.md)

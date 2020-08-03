@@ -5,7 +5,7 @@ description: The PcwAddInstance function adds the specified instance of the coun
 old-location: devtest\pcwaddinstance.htm
 tech.root: devtest
 ms.assetid: 041761dd-ce52-4018-a226-c5181858326c
-ms.date: 02/23/2018
+ms.date: 07/28/2020
 keywords: ["PcwAddInstance function"]
 ms.keywords: PcwAddInstance, PcwAddInstance function [Driver Development Tools], devtest.pcwaddinstance, km_pcw_1819c4ec-a951-4069-a8ff-24cf11f1b68c.xml, wdm/PcwAddInstance
 f1_keywords:
@@ -43,98 +43,81 @@ req.typenames:
 
 # PcwAddInstance function
 
-
 ## -description
 
-
-The <b>PcwAddInstance</b> function adds the specified instance of the counter set to the consumer buffer. 
-
+The `PcwAddInstance` function adds the specified instance of the counter set to the consumer buffer. Most developers will use a [CTRPP](https://docs.microsoft.com/windows/win32/perfctrs/ctrpp)-generated Add\*\*\* function instead of calling this function directly.
 
 ## -parameters
 
-
-
-
 ### -param Buffer [in]
 
-A pointer to the consumer buffer to which the instance of the counter set will be added. Depending on the purpose of the buffer, the function either adds an instance or collects data. 
-
+A handle to the system-managed buffer to which the instance of the counter set will be added. When the buffer comes from a `PcwCallbackEnumerateInstances` notification, `PcwAddInstance` will record only the Name and Id of the instance. When the buffer comes from a `PcwCallbackCollectData` notification, `PcwAddInstance` will record the Name, Id, and Data (counter values) of the instance.
 
 ### -param Name [in]
 
-A pointer to the Unicode string that contains the name of the instance of the counter set.
+A pointer to the Unicode string that contains the name of the counterset instance.
 
+Instance `Name` values MUST be stable over time (the same logical instance should use the same `Name` value for all invocations of the callback) and MUST be unique. If the counterset supports multiple instances, the instance `Name` should not be blank. Instance name matching is not case-sensitive, so `Name` values should not differ only by case.
 
 ### -param Id [in]
 
-A numeric value that specifies the <i>Id</i> (identifier) associated with the instance of the counter set.
+A numeric value that specifies the `Id` (identifier) associated with the counterset instance.
 
+Instance `Id` values MUST be stable over time (the same instance should use the same `Id` value for all invocations of the callback), should be unique (e.g. do not use 0 for all instances), and should be less than 0xFFFFFFFE (do not use `PCW_ANY_INSTANCE_ID` for any instances). When possible, the instance `Id` should be meaningful (e.g. a Process counterset might use a PID as the `Id`) instead of arbitrary (e.g. a sequence number).
 
 ### -param Count [in]
 
-The number of data blocks associated with this instance.
-
+The number of descriptors provided in the `Data` parameter.
 
 ### -param Data [in]
 
-A pointer to an array of data blocks containing the counter values of this instance.
-
+An array of descriptors for the provider data blocks that contain the counter values of this instance.
 
 ## -returns
 
+`PcwAddInstance` returns one of the following values:
 
-
-<b>PcwAddInstance</b> returns one of the following values:
-
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The instance was successfully added to the buffer.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_BUFFER_SIZE</b></dt>
-</dl>
-</td>
-<td width="60%">
-One of the provider data blocks is too small. For example, suppose that during the call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pcwregister">PcwRegister</a>, the provider specifies that counter <i>X</i> is at offset 100 of the first data block of size 4 bytes. If the call to <b>PcwAddInstance</b> specifies that the first data block is 50 bytes, this error status is returned.
-
-</td>
-</tr>
-</table>
- 
-
-
-
+|Return code|Description
+|---|---
+|`STATUS_SUCCESS`|The instance was successfully added to the buffer.
+|`STATUS_INVALID_BUFFER_SIZE`|One of the provider data blocks is too small. For example, suppose that during the call to [PcwRegister](nf-wdm-pcwregister.md), the provider specifies that counter `X` is at offset 100 of the first data block of size 4 bytes. If the call to `PcwAddInstance` specifies that the first data block is 50 bytes, this error status is returned.
 
 ## -remarks
 
+The `PcwAddInstance` function should called by the provider-defined [PCW\_CALLBACK](nc-wdm-pcw_callback.md) routine when the notification type is either `PcwCallbackEnumerateInstances` or `PcwCallbackCollectData`. The `Buffer` to be used comes from the `Info` parameter for the `PCW_CALLBACK` routine, e.g. `Info->EnumerateInstances.Buffer` or `Info->CollectData.Buffer`.
 
+When called for a `PcwCallbackEnumerateInstances` notification, `PcwAddInstance` adds the `Name` and `Id` values to the buffer. When called for a `PcwCallbackCollectData` notification, `PcwAddInstance` adds the `Name`, `Id`, and counter data values to the buffer.
 
-The <b>PcwAddInstance</b> function either adds an instance or collects data depending on the purpose of the buffer. The purpose of the buffer is defined by the type of callback. The <b>PcwAddInstance</b> function is called from a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pcw_callback">PcwCallback</a> routine when the reason is either to collect data or to enumerate instances. You can get the <i>Buffer</i> from the <i>Info</i> parameter for the <i>PcwCallback</i> routine
+### CTRPP-generated Add\*\*\* function
 
+Most developers do not need to call `PcwAddInstance` directly. Instead, they will compile a manifest with the CTRPP tool and use the Add\*\*\* function from the CTRPP-generated header. The generated function will look like this:
 
+```C
+EXTERN_C __inline NTSTATUS
+AddMyCounterset(
+    __in PPCW_BUFFER Buffer,
+    __in PCUNICODE_STRING Name,
+    __in ULONG Id,
+    __in_opt const MY_COUNTER_DATA *MyCounterData
+    )
+{
+    PCW_DATA Data[1];
 
+    PAGED_CODE();
+
+    Data[0].Data = MyCounterData;
+    Data[0].Size = sizeof(MY_COUNTER_DATA);
+
+    return PcwAddInstance(Buffer,
+                          Name,
+                          Id,
+                          1,
+                          Data);
+}
+```
+
+The CTRPP-generated Add function will be named *Prefix*Add*Counterset*. *Prefix* is usually blank, but may be present if the `-prefix` parameter was used on the CTRPP command-line. *Counterset* is the name of the counterset, as specified in the manifest. The function will have Data parameters based on the structures defined in the manifest. The function will wrap the user-provided data block(s) into an array of `PCW_DATA` structures and then call `PcwAddInstance`.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pcw_callback">PcwCallback</a>
- 
-
- 
-
+[PCW\_CALLBACK callback function](nc-wdm-pcw_callback.md)
