@@ -5,7 +5,7 @@ description: The D3DKMT_GETDISPLAYMODELIST structure describes a list of display
 old-location: display\d3dkmt_getdisplaymodelist.htm
 ms.assetid: c937f1df-0221-4418-b48a-bcf0c41fa1e0
 ms.date: 05/10/2018
-keywords: ["_D3DKMT_GETDISPLAYMODELIST structure"]
+keywords: ["D3DKMT_GETDISPLAYMODELIST structure"]
 ms.keywords: D3DKMT_GETDISPLAYMODELIST, D3DKMT_GETDISPLAYMODELIST structure [Display Devices], OpenGL_Structs_27c1c3f3-6316-4dc3-b83d-1a8f6f6360bb.xml, _D3DKMT_GETDISPLAYMODELIST, d3dkmthk/D3DKMT_GETDISPLAYMODELIST, display.d3dkmt_getdisplaymodelist
 f1_keywords:
  - "d3dkmthk/D3DKMT_GETDISPLAYMODELIST"

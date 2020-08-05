@@ -4,7 +4,7 @@ title: _DXGKARG_QUERYDIAGNOSTICTYPESSUPPORT (dispmprt.h)
 description: Arguments for the DxgkddiQueryDiagnosticTypesSupport callback function.
 ms.assetid: 05382c90-2195-4352-b12a-b9fcaec51033
 ms.date: 10/19/2018
-keywords: ["_DXGKARG_QUERYDIAGNOSTICTYPESSUPPORT structure"]
+keywords: ["DXGKARG_QUERYDIAGNOSTICTYPESSUPPORT structure"]
 f1_keywords:
  - "dispmprt/_DXGKARG_QUERYDIAGNOSTICTYPESSUPPORT"
  - "_DXGKARG_QUERYDIAGNOSTICTYPESSUPPORT"

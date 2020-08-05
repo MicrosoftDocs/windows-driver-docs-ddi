@@ -6,7 +6,7 @@ old-location: kernel\pep_query_soc_subsystem_metadata.htm
 tech.root: kernel
 ms.assetid: D823EF66-1440-45B7-A0D8-A98522AA69E1
 ms.date: 04/30/2018
-keywords: ["_PEP_QUERY_SOC_SUBSYSTEM_METADATA structure"]
+keywords: ["PEP_QUERY_SOC_SUBSYSTEM_METADATA structure"]
 ms.keywords: "*PPEP_QUERY_SOC_SUBSYSTEM_METADATA, PEP_QUERY_SOC_SUBSYSTEM_METADATA, PEP_QUERY_SOC_SUBSYSTEM_METADATA structure [Kernel-Mode Driver Architecture], PPEP_QUERY_SOC_SUBSYSTEM_METADATA, PPEP_QUERY_SOC_SUBSYSTEM_METADATA structure pointer [Kernel-Mode Driver Architecture], _PEP_QUERY_SOC_SUBSYSTEM_METADATA, kernel.pep_query_soc_subsystem_metadata, pepfx/PEP_QUERY_SOC_SUBSYSTEM_METADATA, pepfx/PPEP_QUERY_SOC_SUBSYSTEM_METADATA"
 f1_keywords:
  - "pepfx/PEP_QUERY_SOC_SUBSYSTEM_METADATA"

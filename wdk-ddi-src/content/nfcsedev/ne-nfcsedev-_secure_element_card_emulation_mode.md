@@ -6,7 +6,7 @@ old-location: nfpdrivers\secure_element_set_card_emulation_mode.htm
 tech.root: nfpdrivers
 ms.assetid: E8A53836-95D1-4CE4-AF55-5AD732211A55
 ms.date: 02/15/2018
-keywords: ["_SECURE_ELEMENT_CARD_EMULATION_MODE enumeration"]
+keywords: ["SECURE_ELEMENT_CARD_EMULATION_MODE enumeration"]
 ms.keywords: "*PSECURE_ELEMENT_CARD_EMULATION_MODE, EmulationOff, EmulationOnPowerDependent, EmulationOnPowerIndependent, SECURE_ELEMENT_CARD_EMULATION_MODE, SECURE_ELEMENT_CARD_EMULATION_MODE enumeration [Near-Field Proximity Drivers], _SECURE_ELEMENT_CARD_EMULATION_MODE, nfcsedev/EmulationOff, nfcsedev/EmulationOnPowerDependent, nfcsedev/EmulationOnPowerIndependent, nfcsedev/SECURE_ELEMENT_CARD_EMULATION_MODE, nfpdrivers.secure_element_set_card_emulation_mode"
 f1_keywords:
  - "nfcsedev/SECURE_ELEMENT_CARD_EMULATION_MODE"

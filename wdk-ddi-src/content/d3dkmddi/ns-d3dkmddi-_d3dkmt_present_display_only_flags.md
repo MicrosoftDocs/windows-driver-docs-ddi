@@ -5,7 +5,7 @@ description: Indicates how a kernel mode display-only driver (KMDOD) is to perfo
 old-location: display\d3dkmt_present_display_only_flags.htm
 ms.assetid: a45dfdeb-06d2-49c8-a6e1-f42a43857492
 ms.date: 05/10/2018
-keywords: ["_D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS structure"]
+keywords: ["D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS structure"]
 ms.keywords: D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS, D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS structure [Display Devices], _D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS, d3dkmddi/D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS, display.d3dkmt_present_display_only_flags
 f1_keywords:
  - "d3dkmddi/D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS"

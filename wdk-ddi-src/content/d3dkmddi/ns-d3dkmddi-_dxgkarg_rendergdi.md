@@ -5,7 +5,7 @@ description: The DXGKARG_RENDERGDI structure is used when submitting Windows Gra
 old-location: display\dxgkarg_rendergdi.htm
 ms.assetid: E1DC536B-581E-43F8-99B2-776DC30EEBB7
 ms.date: 05/10/2018
-keywords: ["_DXGKARG_RENDERGDI structure"]
+keywords: ["DXGKARG_RENDERGDI structure"]
 ms.keywords: "*INOUT_PDXGKARG_RENDERGDI, DXGKARG_RENDERGDI, DXGKARG_RENDERGDI structure [Display Devices], _DXGKARG_RENDERGDI, d3dkmddi/DXGKARG_RENDERGDI, display.dxgkarg_rendergdi"
 f1_keywords:
  - "d3dkmddi/DXGKARG_RENDERGDI"

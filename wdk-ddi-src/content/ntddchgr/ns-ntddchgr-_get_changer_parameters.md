@@ -6,7 +6,7 @@ old-location: storage\get_changer_parameters.htm
 tech.root: storage
 ms.assetid: c9a47406-5dd2-4cda-b241-3a439406ac75
 ms.date: 03/29/2018
-keywords: ["_GET_CHANGER_PARAMETERS structure"]
+keywords: ["GET_CHANGER_PARAMETERS structure"]
 ms.keywords: "*PGET_CHANGER_PARAMETERS, GET_CHANGER_PARAMETERS, GET_CHANGER_PARAMETERS structure [Storage Devices], PGET_CHANGER_PARAMETERS, PGET_CHANGER_PARAMETERS structure pointer [Storage Devices], _GET_CHANGER_PARAMETERS, ntddchgr/GET_CHANGER_PARAMETERS, ntddchgr/PGET_CHANGER_PARAMETERS, storage.get_changer_parameters, structs-changer_5c639124-5fc3-4fe8-8289-3bc8408723e0.xml"
 f1_keywords:
  - "ntddchgr/GET_CHANGER_PARAMETERS"

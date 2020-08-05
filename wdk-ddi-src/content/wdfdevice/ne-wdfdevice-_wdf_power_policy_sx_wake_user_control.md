@@ -6,7 +6,7 @@ old-location: wdf\wdf_power_policy_sx_wake_user_control.htm
 tech.root: wdf
 ms.assetid: d5f4eb5f-28bb-4906-b9f5-3adae31cac80
 ms.date: 02/26/2018
-keywords: ["_WDF_POWER_POLICY_SX_WAKE_USER_CONTROL enumeration"]
+keywords: ["WDF_POWER_POLICY_SX_WAKE_USER_CONTROL enumeration"]
 ms.keywords: DFDeviceObjectGeneralRef_1594c32d-63b6-4280-b5b3-dfcf508a88c6.xml, WDF_POWER_POLICY_SX_WAKE_USER_CONTROL, WDF_POWER_POLICY_SX_WAKE_USER_CONTROL enumeration, WakeAllowUserControl, WakeDoNotAllowUserControl, WakeUserControlInvalid, _WDF_POWER_POLICY_SX_WAKE_USER_CONTROL, kmdf.wdf_power_policy_sx_wake_user_control, wdf.wdf_power_policy_sx_wake_user_control, wdfdevice/WDF_POWER_POLICY_SX_WAKE_USER_CONTROL, wdfdevice/WakeAllowUserControl, wdfdevice/WakeDoNotAllowUserControl, wdfdevice/WakeUserControlInvalid, wudfddi_types/WDF_POWER_POLICY_SX_WAKE_USER_CONTROL, wudfddi_types/WakeAllowUserControl, wudfddi_types/WakeDoNotAllowUserControl, wudfddi_types/WakeUserControlInvalid
 f1_keywords:
  - "wdfdevice/WDF_POWER_POLICY_SX_WAKE_USER_CONTROL"

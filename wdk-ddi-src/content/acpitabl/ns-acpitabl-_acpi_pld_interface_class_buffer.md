@@ -4,7 +4,7 @@ title: _ACPI_PLD_INTERFACE_CLASS_BUFFER structure (acpitabl.h)
 description: Describes the ACPI PLD interface class descriptor buffer, revision 1 (Microsoft custom PLD buffer extension, 128-bits).
 ms.assetid: f817f194-41c2-4193-a803-768e5914c91a
 ms.date: 10/02/2018
-keywords: ["_ACPI_PLD_INTERFACE_CLASS_BUFFER structure"]
+keywords: ["ACPI_PLD_INTERFACE_CLASS_BUFFER structure"]
 f1_keywords:
  - "acpitabl/_ACPI_PLD_INTERFACE_CLASS_BUFFER"
  - "_ACPI_PLD_INTERFACE_CLASS_BUFFER"

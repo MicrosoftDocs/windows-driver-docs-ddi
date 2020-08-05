@@ -6,7 +6,7 @@ old-location: audio\kstelephony_callinfo.htm
 tech.root: audio
 ms.assetid: B5B89AAC-169B-42B0-8FC8-AB436EFC3579
 ms.date: 05/08/2018
-keywords: ["_tagKSTELEPHONY_CALLINFO structure"]
+keywords: ["tagKSTELEPHONY_CALLINFO structure"]
 ms.keywords: "*PKSTELEPHONY_CALLINFO, KSTELEPHONY_CALLINFO, KSTELEPHONY_CALLINFO structure [Audio Devices], PKSTELEPHONY_CALLINFO, PKSTELEPHONY_CALLINFO structure pointer [Audio Devices], _tagKSTELEPHONY_CALLINFO, audio.kstelephony_callinfo, ksmedia/KSTELEPHONY_CALLINFO, ksmedia/PKSTELEPHONY_CALLINFO"
 f1_keywords:
  - "ksmedia/KSTELEPHONY_CALLINFO"

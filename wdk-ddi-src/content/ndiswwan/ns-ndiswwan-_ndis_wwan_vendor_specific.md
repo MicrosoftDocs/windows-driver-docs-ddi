@@ -6,7 +6,7 @@ old-location: netvista\ndis_wwan_vendor_specific.htm
 tech.root: netvista
 ms.assetid: eaa1f56a-ade6-47d7-8114-8cdb8b015e75
 ms.date: 05/02/2018
-keywords: ["_NDIS_WWAN_VENDOR_SPECIFIC structure"]
+keywords: ["NDIS_WWAN_VENDOR_SPECIFIC structure"]
 ms.keywords: "*PNDIS_WWAN_VENDOR_SPECIFIC, NDIS_WWAN_VENDOR_SPECIFIC, NDIS_WWAN_VENDOR_SPECIFIC structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_VENDOR_SPECIFIC, PNDIS_WWAN_VENDOR_SPECIFIC structure pointer [Network Drivers Starting with Windows Vista], WwanRef_01a97be2-1ce1-484b-b844-654b4171330f.xml, _NDIS_WWAN_VENDOR_SPECIFIC, ndiswwan/NDIS_WWAN_VENDOR_SPECIFIC, ndiswwan/PNDIS_WWAN_VENDOR_SPECIFIC, netvista.ndis_wwan_vendor_specific"
 f1_keywords:
  - "ndiswwan/NDIS_WWAN_VENDOR_SPECIFIC"

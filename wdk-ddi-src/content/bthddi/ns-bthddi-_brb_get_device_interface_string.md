@@ -6,7 +6,7 @@ old-location: bltooth\_brb_get_device_interface_string.htm
 tech.root: bltooth
 ms.assetid: 340e4b9a-9959-4eda-b26b-674f7fca7156
 ms.date: 04/27/2018
-keywords: ["_BRB_GET_DEVICE_INTERFACE_STRING structure"]
+keywords: ["BRB_GET_DEVICE_INTERFACE_STRING structure"]
 ms.keywords: "_BRB_GET_DEVICE_INTERFACE_STRING, _BRB_GET_DEVICE_INTERFACE_STRING structure [Bluetooth Devices], bltooth._brb_get_device_interface_string, bth_structs_3d85c9ac-2714-4d6c-8a3e-f8908d8e5be9.xml, bthddi/_BRB_GET_DEVICE_INTERFACE_STRING"
 f1_keywords:
  - "bthddi/_BRB_GET_DEVICE_INTERFACE_STRING"

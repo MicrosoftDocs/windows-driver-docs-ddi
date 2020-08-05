@@ -7,7 +7,7 @@ description:
 tech.root: storage
 ms.assetid: 21902ab7-7443-42d3-9beb-f792caf7f357
 ms.date: 10/19/2018
-keywords: ["_NVME_RESERVED_QUEUES_PROPERTIES structure"]
+keywords: ["NVME_RESERVED_QUEUES_PROPERTIES structure"]
 f1_keywords:
  - "ntddstor/_NVME_RESERVED_QUEUES_PROPERTIES"
  - "_NVME_RESERVED_QUEUES_PROPERTIES"

@@ -5,7 +5,7 @@ description: D3DKMT_UNREGISTERTRIMNOTIFICATION is used with D3DKMTUnregisterTrim
 old-location: display\d3dkmt_unregistertrimnotification.htm
 ms.assetid: 336C5C6A-619B-4D28-9F06-A09CABF78073
 ms.date: 05/10/2018
-keywords: ["_D3DKMT_UNREGISTERTRIMNOTIFICATION structure"]
+keywords: ["D3DKMT_UNREGISTERTRIMNOTIFICATION structure"]
 ms.keywords: D3DKMT_UNREGISTERTRIMNOTIFICATION, D3DKMT_UNREGISTERTRIMNOTIFICATION structure [Display Devices], _D3DKMT_UNREGISTERTRIMNOTIFICATION, d3dkmthk/D3DKMT_UNREGISTERTRIMNOTIFICATION, display.d3dkmt_unregistertrimnotification
 f1_keywords:
  - "d3dkmthk/D3DKMT_UNREGISTERTRIMNOTIFICATION"

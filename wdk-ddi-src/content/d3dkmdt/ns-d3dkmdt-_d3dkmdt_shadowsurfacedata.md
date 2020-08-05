@@ -6,7 +6,7 @@ old-location: display\d3dkmdt_shadowsurfacedata.htm
 tech.root: display
 ms.assetid: 1b7f6a39-b0d3-4a0b-b030-b7fef3ab58d6
 ms.date: 05/10/2018
-keywords: ["_D3DKMDT_SHADOWSURFACEDATA structure"]
+keywords: ["D3DKMDT_SHADOWSURFACEDATA structure"]
 ms.keywords: D3DKMDT_SHADOWSURFACEDATA, D3DKMDT_SHADOWSURFACEDATA structure [Display Devices], DmStructs_645dbefc-137b-47c5-aa4b-de9037d71182.xml, _D3DKMDT_SHADOWSURFACEDATA, d3dkmdt/D3DKMDT_SHADOWSURFACEDATA, display.d3dkmdt_shadowsurfacedata
 f1_keywords:
  - "d3dkmdt/D3DKMDT_SHADOWSURFACEDATA"

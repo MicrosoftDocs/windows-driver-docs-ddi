@@ -5,7 +5,7 @@ description: Used to query a display ID.
 old-location: display\dxgk_querydisplayidin.htm
 ms.assetid: C7A2CECA-AAE5-4804-92FF-C47984BA38AF
 ms.date: 05/10/2018
-keywords: ["_DXGK_QUERYDISPLAYIDIN structure"]
+keywords: ["DXGK_QUERYDISPLAYIDIN structure"]
 ms.keywords: DXGK_QUERYDISPLAYIDIN, DXGK_QUERYDISPLAYIDIN structure [Display Devices], _DXGK_QUERYDISPLAYIDIN, d3dkmddi/DXGK_QUERYDISPLAYIDIN, display.dxgk_querydisplayidin
 f1_keywords:
  - "d3dkmddi/DXGK_QUERYDISPLAYIDIN"

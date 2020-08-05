@@ -6,7 +6,7 @@ old-location: kernel\io_interrupt_message_info_entry.htm
 tech.root: kernel
 ms.assetid: e5007381-2436-4eb6-85cd-7145361ab793
 ms.date: 04/30/2018
-keywords: ["_IO_INTERRUPT_MESSAGE_INFO_ENTRY structure"]
+keywords: ["IO_INTERRUPT_MESSAGE_INFO_ENTRY structure"]
 ms.keywords: "*PIO_INTERRUPT_MESSAGE_INFO_ENTRY, IO_INTERRUPT_MESSAGE_INFO_ENTRY, IO_INTERRUPT_MESSAGE_INFO_ENTRY structure [Kernel-Mode Driver Architecture], PIO_INTERRUPT_MESSAGE_INFO_ENTRY, PIO_INTERRUPT_MESSAGE_INFO_ENTRY structure pointer [Kernel-Mode Driver Architecture], _IO_INTERRUPT_MESSAGE_INFO_ENTRY, kernel.io_interrupt_message_info_entry, kstruct_b_eb31dbfa-458d-47c4-b1df-96c315bd3ff6.xml, wdm/IO_INTERRUPT_MESSAGE_INFO_ENTRY, wdm/PIO_INTERRUPT_MESSAGE_INFO_ENTRY"
 f1_keywords:
  - "wdm/IO_INTERRUPT_MESSAGE_INFO_ENTRY"

@@ -4,7 +4,7 @@ title: _DXGK_KERNEL_SUBMISSION_TYPE (d3dkmddi.h)
 description: Specifies the kernel submission type in the GPU work submission to the hardware queue.
 ms.assetid: 9e42f4e6-bdd8-4b9e-9038-08edececb86e
 ms.date: 10/19/2018
-keywords: ["_DXGK_KERNEL_SUBMISSION_TYPE enumeration"]
+keywords: ["DXGK_KERNEL_SUBMISSION_TYPE enumeration"]
 f1_keywords:
  - "d3dkmddi/_DXGK_KERNEL_SUBMISSION_TYPE"
  - "_DXGK_KERNEL_SUBMISSION_TYPE"

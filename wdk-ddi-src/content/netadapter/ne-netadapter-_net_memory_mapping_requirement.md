@@ -5,7 +5,7 @@ description: The NET_MEMORY_MAPPING_REQUIREMENT enumeration identifies the memor
 tech.root: netvista
 ms.assetid: bc46ac6b-7971-408a-ab7b-aa920523bb9d
 ms.date: 02/15/2018
-keywords: ["_NET_MEMORY_MAPPING_REQUIREMENT enumeration"]
+keywords: ["NET_MEMORY_MAPPING_REQUIREMENT enumeration"]
 f1_keywords:
  - "netadapter/_NET_MEMORY_MAPPING_REQUIREMENT"
  - "_NET_MEMORY_MAPPING_REQUIREMENT"

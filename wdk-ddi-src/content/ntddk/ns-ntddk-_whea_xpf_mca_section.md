@@ -4,7 +4,7 @@ title: _WHEA_XPF_MCA_SECTION (ntddk.h)
 description: 
 ms.assetid: befdfe81-69c0-42d1-8359-b005b02d314f
 ms.date: 10/19/2018
-keywords: ["_WHEA_XPF_MCA_SECTION structure"]
+keywords: ["WHEA_XPF_MCA_SECTION structure"]
 f1_keywords:
  - "ntddk/_WHEA_XPF_MCA_SECTION"
  - "_WHEA_XPF_MCA_SECTION"

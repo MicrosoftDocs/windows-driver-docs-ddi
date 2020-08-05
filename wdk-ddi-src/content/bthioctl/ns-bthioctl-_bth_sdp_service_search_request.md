@@ -6,7 +6,7 @@ old-location: bltooth\bth_sdp_service_search_request.htm
 tech.root: bltooth
 ms.assetid: d1ef833e-8350-499c-9a3d-408d900c9245
 ms.date: 04/27/2018
-keywords: ["_BTH_SDP_SERVICE_SEARCH_REQUEST structure"]
+keywords: ["BTH_SDP_SERVICE_SEARCH_REQUEST structure"]
 ms.keywords: "*PBTH_SDP_SERVICE_SEARCH_REQUEST, BTH_SDP_SERVICE_SEARCH_REQUEST, BTH_SDP_SERVICE_SEARCH_REQUEST structure [Bluetooth Devices], PBTH_SDP_SERVICE_SEARCH_REQUEST, PBTH_SDP_SERVICE_SEARCH_REQUEST structure pointer [Bluetooth Devices], _BTH_SDP_SERVICE_SEARCH_REQUEST, bltooth.bth_sdp_service_search_request, bth_structs_c625eff6-6ec7-49a4-a141-778ebda2d563.xml, bthioctl/BTH_SDP_SERVICE_SEARCH_REQUEST, bthioctl/PBTH_SDP_SERVICE_SEARCH_REQUEST"
 f1_keywords:
  - "bthioctl/BTH_SDP_SERVICE_SEARCH_REQUEST"

@@ -6,7 +6,7 @@ old-location: storage\srbex_data_scsi_cdb32.htm
 tech.root: storage
 ms.assetid: 8BE53883-2FD0-4CAB-928E-532587DA80C3
 ms.date: 03/29/2018
-keywords: ["_SRBEX_DATA_SCSI_CDB32 structure"]
+keywords: ["SRBEX_DATA_SCSI_CDB32 structure"]
 ms.keywords: "*PSRBEX_DATA_SCSI_CDB32, PSRBEX_DATA_SCSI_CDB32, PSRBEX_DATA_SCSI_CDB32 structure pointer [Storage Devices], SRBEX_DATA_SCSI_CDB32, SRBEX_DATA_SCSI_CDB32 structure [Storage Devices], _SRBEX_DATA_SCSI_CDB32, storage.srbex_data_scsi_cdb32, storport/PSRBEX_DATA_SCSI_CDB32, storport/SRBEX_DATA_SCSI_CDB32"
 f1_keywords:
  - "storport/SRBEX_DATA_SCSI_CDB32"

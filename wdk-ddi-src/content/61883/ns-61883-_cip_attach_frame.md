@@ -6,7 +6,7 @@ old-location: ieee\cip_attach_frame.htm
 tech.root: IEEE
 ms.assetid: F7E283BB-B714-4CD4-AFF4-EFB62D82791D
 ms.date: 02/15/2018
-keywords: ["_CIP_ATTACH_FRAME structure"]
+keywords: ["CIP_ATTACH_FRAME structure"]
 ms.keywords: "*PCIP_ATTACH_FRAME, 61883/CIP_ATTACH_FRAME, 61883/PCIP_ATTACH_FRAME, CIP_ATTACH_FRAME, CIP_ATTACH_FRAME structure [Buses], IEEE.cip_attach_frame, PCIP_ATTACH_FRAME, PCIP_ATTACH_FRAME structure pointer [Buses], _CIP_ATTACH_FRAME"
 f1_keywords:
  - "61883/CIP_ATTACH_FRAME"

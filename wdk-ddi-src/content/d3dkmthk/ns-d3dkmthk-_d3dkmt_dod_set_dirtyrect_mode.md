@@ -4,7 +4,7 @@ title: _D3DKMT_DOD_SET_DIRTYRECT_MODE (d3dkmthk.h)
 description: Set dirty rectangle mode.
 ms.assetid: 03abb50c-bd47-45b6-9648-f0f6980503c1
 ms.date: 10/19/2018
-keywords: ["_D3DKMT_DOD_SET_DIRTYRECT_MODE structure"]
+keywords: ["D3DKMT_DOD_SET_DIRTYRECT_MODE structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_DOD_SET_DIRTYRECT_MODE"
  - "_D3DKMT_DOD_SET_DIRTYRECT_MODE"

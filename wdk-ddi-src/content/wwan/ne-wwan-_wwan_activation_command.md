@@ -6,7 +6,7 @@ old-location: netvista\wwan_activation_command.htm
 tech.root: netvista
 ms.assetid: e9d25ac3-8ffc-4137-8409-731d8caaa730
 ms.date: 05/02/2018
-keywords: ["_WWAN_ACTIVATION_COMMAND enumeration"]
+keywords: ["WWAN_ACTIVATION_COMMAND enumeration"]
 ms.keywords: "*PWWAN_ACTIVATION_COMMAND, PWWAN_ACTIVATION_COMMAND, PWWAN_ACTIVATION_COMMAND enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_ACTIVATION_COMMAND, WWAN_ACTIVATION_COMMAND enumeration [Network Drivers Starting with Windows Vista], WwanActivationCommandActivate, WwanActivationCommandDeactivate, WwanActivationCommandMax, WwanRef_55137856-bb05-49ac-b318-cc6922a90445.xml, _WWAN_ACTIVATION_COMMAND, netvista.wwan_activation_command, wwan/PWWAN_ACTIVATION_COMMAND, wwan/WWAN_ACTIVATION_COMMAND, wwan/WwanActivationCommandActivate, wwan/WwanActivationCommandDeactivate, wwan/WwanActivationCommandMax"
 f1_keywords:
  - "wwan/WWAN_ACTIVATION_COMMAND"

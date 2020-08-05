@@ -6,7 +6,7 @@ old-location: storage\storage_hotplug_info.htm
 tech.root: storage
 ms.assetid: dcfd5a42-cb76-4386-9f8f-98e0a217c49a
 ms.date: 03/29/2018
-keywords: ["_STORAGE_HOTPLUG_INFO structure"]
+keywords: ["STORAGE_HOTPLUG_INFO structure"]
 ms.keywords: "*PSTORAGE_HOTPLUG_INFO, PSTORAGE_HOTPLUG_INFO, PSTORAGE_HOTPLUG_INFO structure pointer [Storage Devices], STORAGE_HOTPLUG_INFO, STORAGE_HOTPLUG_INFO structure [Storage Devices], _STORAGE_HOTPLUG_INFO, ntddstor/PSTORAGE_HOTPLUG_INFO, ntddstor/STORAGE_HOTPLUG_INFO, storage.storage_hotplug_info, structs-general_36f1b63b-a574-47e7-85b0-10954c2d84d9.xml"
 f1_keywords:
  - "ntddstor/STORAGE_HOTPLUG_INFO"

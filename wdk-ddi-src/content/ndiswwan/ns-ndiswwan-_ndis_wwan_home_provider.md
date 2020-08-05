@@ -6,7 +6,7 @@ old-location: netvista\ndis_wwan_home_provider.htm
 tech.root: netvista
 ms.assetid: 5f92a711-97fe-4420-be50-89302cc9486c
 ms.date: 05/02/2018
-keywords: ["_NDIS_WWAN_HOME_PROVIDER structure"]
+keywords: ["NDIS_WWAN_HOME_PROVIDER structure"]
 ms.keywords: "*PNDIS_WWAN_HOME_PROVIDER, NDIS_WWAN_HOME_PROVIDER, NDIS_WWAN_HOME_PROVIDER structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_HOME_PROVIDER, PNDIS_WWAN_HOME_PROVIDER structure pointer [Network Drivers Starting with Windows Vista], WwanRef_8a7e631d-16f6-461d-89f1-805dd56f4803.xml, _NDIS_WWAN_HOME_PROVIDER, ndiswwan/NDIS_WWAN_HOME_PROVIDER, ndiswwan/PNDIS_WWAN_HOME_PROVIDER, netvista.ndis_wwan_home_provider"
 f1_keywords:
  - "ndiswwan/NDIS_WWAN_HOME_PROVIDER"

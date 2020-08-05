@@ -5,7 +5,7 @@ description: A linear range of supported millinit levels.
 tech.root: display
 ms.assetid: fb6130d9-161a-4a9d-af61-9474e5583299
 ms.date: 10/19/2018
-keywords: ["_BRIGHTNESS_NIT_RANGE structure"]
+keywords: ["BRIGHTNESS_NIT_RANGE structure"]
 f1_keywords:
  - "ntddvdeo/_BRIGHTNESS_NIT_RANGE"
  - "_BRIGHTNESS_NIT_RANGE"

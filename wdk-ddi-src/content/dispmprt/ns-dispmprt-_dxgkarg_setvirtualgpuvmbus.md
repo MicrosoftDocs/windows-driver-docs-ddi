@@ -7,7 +7,7 @@ tech.root: display
 ms.assetid: b2cc929e-16bd-4d57-8264-e15cdd988bdb
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
-keywords: ["_DXGKARG_SETVIRTUALGPUVMBUS structure"]
+keywords: ["DXGKARG_SETVIRTUALGPUVMBUS structure"]
 f1_keywords:
  - "dispmprt/_DXGKARG_SETVIRTUALGPUVMBUS"
  - "_DXGKARG_SETVIRTUALGPUVMBUS"

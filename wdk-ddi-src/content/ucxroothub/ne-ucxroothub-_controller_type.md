@@ -6,7 +6,7 @@ old-location: buses\_controller_type.htm
 tech.root: usbref
 ms.assetid: E7DFBFFA-C65B-4757-8DB8-202760D6D3C6
 ms.date: 05/07/2018
-keywords: ["_CONTROLLER_TYPE enumeration"]
+keywords: ["CONTROLLER_TYPE enumeration"]
 ms.keywords: CONTROLLER_TYPE, ControllerTypeSoftXhci, ControllerTypeXhci, _CONTROLLER_TYPE, _CONTROLLER_TYPE enumeration [Buses], buses._controller_type, ucxroothub/ControllerTypeSoftXhci, ucxroothub/ControllerTypeXhci, ucxroothub/_CONTROLLER_TYPE
 f1_keywords:
  - "ucxroothub/CONTROLLER_TYPE"

@@ -6,7 +6,7 @@ old-location: storage\mpio_disk_health_class.htm
 tech.root: storage
 ms.assetid: 07b04bad-9d52-4a32-8834-48cd5803844c
 ms.date: 03/29/2018
-keywords: ["_MPIO_DISK_HEALTH_CLASS structure"]
+keywords: ["MPIO_DISK_HEALTH_CLASS structure"]
 ms.keywords: "*PMPIO_DISK_HEALTH_CLASS, MPIO_DISK_HEALTH_CLASS, MPIO_DISK_HEALTH_CLASS structure [Storage Devices], PMPIO_DISK_HEALTH_CLASS, PMPIO_DISK_HEALTH_CLASS structure pointer [Storage Devices], _MPIO_DISK_HEALTH_CLASS, mpiowmi/MPIO_DISK_HEALTH_CLASS, mpiowmi/PMPIO_DISK_HEALTH_CLASS, storage.mpio_disk_health_class, structs-scsibus_b3dfb95d-08eb-4eb6-80bb-3437282a65d6.xml"
 f1_keywords:
  - "mpiowmi/MPIO_DISK_HEALTH_CLASS"

@@ -6,7 +6,7 @@ old-location: ieee\textual_leaf.htm
 tech.root: IEEE
 ms.assetid: 883c561c-0d1b-4a6c-946e-8ca567b12c9a
 ms.date: 02/15/2018
-keywords: ["_TEXTUAL_LEAF structure"]
+keywords: ["TEXTUAL_LEAF structure"]
 ms.keywords: "*PTEXTUAL_LEAF, 1394/PTEXTUAL_LEAF, 1394/TEXTUAL_LEAF, 1394stct_b63840e2-0a05-49e9-a533-9575f46af648.xml, IEEE.textual_leaf, PTEXTUAL_LEAF, PTEXTUAL_LEAF structure pointer [Buses], TEXTUAL_LEAF, TEXTUAL_LEAF structure [Buses], _TEXTUAL_LEAF"
 f1_keywords:
  - "1394/TEXTUAL_LEAF"

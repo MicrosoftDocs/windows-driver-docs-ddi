@@ -6,7 +6,7 @@ old-location: netvista\ndk_operation_type.htm
 tech.root: netvista
 ms.assetid: EBB89BDA-6249-4D0F-A0EE-7074DDAFFFC1
 ms.date: 05/02/2018
-keywords: ["_NDK_OPERATION_TYPE enumeration"]
+keywords: ["NDK_OPERATION_TYPE enumeration"]
 ms.keywords: NDK_OPERATION_TYPE, NDK_OPERATION_TYPE enumeration [Network Drivers Starting with Windows Vista], NdkOperationTypeBind, NdkOperationTypeFastRegister, NdkOperationTypeInvalidate, NdkOperationTypeRead, NdkOperationTypeReceive, NdkOperationTypeReceiveAndInvalidate, NdkOperationTypeSend, NdkOperationTypeWrite, _NDK_OPERATION_TYPE, ndkpi/NDK_OPERATION_TYPE, ndkpi/NdkOperationTypeBind, ndkpi/NdkOperationTypeFastRegister, ndkpi/NdkOperationTypeInvalidate, ndkpi/NdkOperationTypeRead, ndkpi/NdkOperationTypeReceive, ndkpi/NdkOperationTypeReceiveAndInvalidate, ndkpi/NdkOperationTypeSend, ndkpi/NdkOperationTypeWrite, netvista.ndk_operation_type
 f1_keywords:
  - "ndkpi/NDK_OPERATION_TYPE"

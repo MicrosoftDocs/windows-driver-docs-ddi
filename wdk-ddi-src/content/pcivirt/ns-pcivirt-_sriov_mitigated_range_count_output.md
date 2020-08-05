@@ -6,7 +6,7 @@ old-location: pci\sriov_mitigated_range_count_output.htm
 tech.root: PCI
 ms.assetid: b89c0758-beed-4c29-b966-78cb319258b1
 ms.date: 02/24/2018
-keywords: ["_SRIOV_MITIGATED_RANGE_COUNT_OUTPUT structure"]
+keywords: ["SRIOV_MITIGATED_RANGE_COUNT_OUTPUT structure"]
 ms.keywords: "*PSRIOV_MITIGATED_RANGE_COUNT_OUTPUT, PCI.sriov_mitigated_range_count_output, SRIOV_MITIGATED_RANGE_COUNT_OUTPUT, SRIOV_MITIGATED_RANGE_COUNT_OUTPUT structure [Buses], _SRIOV_MITIGATED_RANGE_COUNT_OUTPUT, pcivirt/SRIOV_MITIGATED_RANGE_COUNT_OUTPUT"
 f1_keywords:
  - "pcivirt/SRIOV_MITIGATED_RANGE_COUNT_OUTPUT"

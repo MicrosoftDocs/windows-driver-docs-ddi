@@ -6,7 +6,7 @@ old-location: powermeter\pmi_metered_hardware_information.htm
 tech.root: powermeter
 ms.assetid: 44dcfd41-7f0e-487e-8b08-5f301f17e7c1
 ms.date: 05/08/2018
-keywords: ["_PMI_METERED_HARDWARE_INFORMATION structure"]
+keywords: ["PMI_METERED_HARDWARE_INFORMATION structure"]
 ms.keywords: "*PPMI_METERED_HARDWARE_INFORMATION, PMI_METERED_HARDWARE_INFORMATION, PMI_METERED_HARDWARE_INFORMATION structure [Power Metering and Budgeting Devices], PPMI_METERED_HARDWARE_INFORMATION, PPMI_METERED_HARDWARE_INFORMATION structure pointer [Power Metering and Budgeting Devices], PowerMeterRef_34a15685-680d-467d-bd78-2c933d614214.xml, _PMI_METERED_HARDWARE_INFORMATION, pmi/PMI_METERED_HARDWARE_INFORMATION, pmi/PPMI_METERED_HARDWARE_INFORMATION, powermeter.pmi_metered_hardware_information"
 f1_keywords:
  - "pmi/PMI_METERED_HARDWARE_INFORMATION"

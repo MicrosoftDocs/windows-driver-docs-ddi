@@ -7,7 +7,7 @@ tech.root: display
 ms.assetid: 11847fab-8295-47b6-b446-80a21fc743f2
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
-keywords: ["_Function_class_DXGK_ macro"]
+keywords: ["Function_class_DXGK_ macro"]
 f1_keywords:
  - "dispmprt/_Function_class_DXGK_"
  - "_Function_class_DXGK_"

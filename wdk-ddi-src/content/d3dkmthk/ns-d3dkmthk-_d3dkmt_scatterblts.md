@@ -4,7 +4,7 @@ title: _D3DKMT_SCATTERBLTS (d3dkmthk.h)
 description: Reserved for system use.
 ms.assetid: 7c2bd4d6-643a-4342-bda7-70b351743f93
 ms.date: 10/19/2018
-keywords: ["_D3DKMT_SCATTERBLTS structure"]
+keywords: ["D3DKMT_SCATTERBLTS structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_SCATTERBLTS"
  - "_D3DKMT_SCATTERBLTS"

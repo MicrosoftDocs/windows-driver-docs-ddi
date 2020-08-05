@@ -5,7 +5,7 @@ description: The NET_REQUEST_QUEUE_CONFIG structure represents configuration inf
 tech.root: netvista
 ms.assetid: bdb3062f-81c4-4fa2-bc7a-ce5bd9330220
 ms.date: 02/09/2018
-keywords: ["_NET_REQUEST_QUEUE_CONFIG structure"]
+keywords: ["NET_REQUEST_QUEUE_CONFIG structure"]
 f1_keywords:
  - "netrequestqueue/NET_REQUEST_QUEUE_CONFIG"
  - "NET_REQUEST_QUEUE_CONFIG"

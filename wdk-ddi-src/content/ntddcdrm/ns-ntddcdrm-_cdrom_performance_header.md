@@ -6,7 +6,7 @@ old-location: storage\cdrom_performance_header.htm
 tech.root: storage
 ms.assetid: D7B47E18-038E-41B4-85E5-A48931CDCA89
 ms.date: 03/29/2018
-keywords: ["_CDROM_PERFORMANCE_HEADER structure"]
+keywords: ["CDROM_PERFORMANCE_HEADER structure"]
 ms.keywords: "*PCDROM_PERFORMANCE_HEADER, CDROM_PERFORMANCE_HEADER, CDROM_PERFORMANCE_HEADER structure [Storage Devices], PCDROM_PERFORMANCE_HEADER, PCDROM_PERFORMANCE_HEADER structure pointer [Storage Devices], _CDROM_PERFORMANCE_HEADER, ntddcdrm/CDROM_PERFORMANCE_HEADER, ntddcdrm/PCDROM_PERFORMANCE_HEADER, storage.cdrom_performance_header"
 f1_keywords:
  - "ntddcdrm/CDROM_PERFORMANCE_HEADER"

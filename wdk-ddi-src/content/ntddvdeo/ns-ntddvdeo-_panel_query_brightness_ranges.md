@@ -5,7 +5,7 @@ description: Queries a list of supported nit ranges.
 tech.root: display
 ms.assetid: fad94d26-2e52-4e4a-abfd-cf6596c2fecd
 ms.date: 10/19/2018
-keywords: ["_PANEL_QUERY_BRIGHTNESS_RANGES structure"]
+keywords: ["PANEL_QUERY_BRIGHTNESS_RANGES structure"]
 f1_keywords:
  - "ntddvdeo/_PANEL_QUERY_BRIGHTNESS_RANGES"
  - "_PANEL_QUERY_BRIGHTNESS_RANGES"

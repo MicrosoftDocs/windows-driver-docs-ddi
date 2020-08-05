@@ -6,7 +6,7 @@ old-location: ieee\cip_listen.htm
 tech.root: IEEE
 ms.assetid: 362ABECF-66D3-4B0B-913B-59F7196D6BFD
 ms.date: 02/15/2018
-keywords: ["_CIP_LISTEN structure"]
+keywords: ["CIP_LISTEN structure"]
 ms.keywords: "*PCIP_LISTEN, 61883/CIP_LISTEN, 61883/PCIP_LISTEN, CIP_LISTEN, CIP_LISTEN structure [Buses], IEEE.cip_listen, PCIP_LISTEN, PCIP_LISTEN structure pointer [Buses], _CIP_LISTEN"
 f1_keywords:
  - "61883/CIP_LISTEN"

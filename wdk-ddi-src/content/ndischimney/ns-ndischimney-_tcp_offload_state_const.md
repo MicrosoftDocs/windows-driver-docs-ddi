@@ -6,7 +6,7 @@ old-location: netvista\tcp_offload_state_const.htm
 tech.root: netvista
 ms.assetid: 3e80f963-a494-475a-a246-abe5674dbcb6
 ms.date: 05/02/2018
-keywords: ["_TCP_OFFLOAD_STATE_CONST structure"]
+keywords: ["TCP_OFFLOAD_STATE_CONST structure"]
 ms.keywords: "*PTCP_OFFLOAD_STATE_CONST, PTCP_OFFLOAD_STATE_CONST, PTCP_OFFLOAD_STATE_CONST structure pointer [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_STATE_CONST, TCP_OFFLOAD_STATE_CONST structure [Network Drivers Starting with Windows Vista], _TCP_OFFLOAD_STATE_CONST, ndischimney/PTCP_OFFLOAD_STATE_CONST, ndischimney/TCP_OFFLOAD_STATE_CONST, netvista.tcp_offload_state_const, tcp_chim_struct_d6f90719-24f7-49d1-9253-5d5db776f192.xml"
 f1_keywords:
  - "ndischimney/TCP_OFFLOAD_STATE_CONST"

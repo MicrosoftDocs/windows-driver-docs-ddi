@@ -5,7 +5,7 @@ description: The NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2 structure contains the
 tech.root: netvista
 ms.assetid: 6721e56a-7d5d-4249-99bf-42af85dadded
 ms.date: 05/22/2018
-keywords: ["_NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2 structure"]
+keywords: ["NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2 structure"]
 f1_keywords:
  - "ntddndis/_NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2"
  - "_NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2"

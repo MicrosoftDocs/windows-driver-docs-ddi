@@ -6,7 +6,7 @@ old-location: display\d3dddicb_unlock.htm
 tech.root: display
 ms.assetid: 1e0e6313-1dfa-4b68-8f58-bfa79f3124d6
 ms.date: 05/10/2018
-keywords: ["_D3DDDICB_UNLOCK structure"]
+keywords: ["D3DDDICB_UNLOCK structure"]
 ms.keywords: D3DDDICB_UNLOCK, D3DDDICB_UNLOCK structure [Display Devices], D3D_param_Structs_91515cd5-00b4-4ad6-a8a5-ff216ddec171.xml, _D3DDDICB_UNLOCK, d3dumddi/D3DDDICB_UNLOCK, display.d3dddicb_unlock
 f1_keywords:
  - "d3dumddi/D3DDDICB_UNLOCK"

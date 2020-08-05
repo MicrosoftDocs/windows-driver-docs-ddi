@@ -4,7 +4,7 @@ title: _PAYMENT_SERVICE_IN structure (treepaymentservice.h)
 description: Input structure for PAYMENT_FUNCTION_PROGRAM_KEY.
 ms.assetid: 69ab7349-5e68-4da5-bbfb-4300140aeac5
 ms.date: 10/19/2018
-keywords: ["_PAYMENT_SERVICE_IN structure"]
+keywords: ["PAYMENT_SERVICE_IN structure"]
 f1_keywords:
  - "treepaymentservice/_PAYMENT_SERVICE_IN"
  - "_PAYMENT_SERVICE_IN"

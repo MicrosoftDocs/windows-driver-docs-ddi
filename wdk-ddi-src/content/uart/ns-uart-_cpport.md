@@ -5,7 +5,7 @@ description: Contains the mutable runtime state of a specific instance of a UART
 tech.root: serports
 ms.assetid: f82a2ac1-ed30-4e75-ad87-54275a36130b
 ms.date: 10/19/2018
-keywords: ["_CPPORT structure"]
+keywords: ["CPPORT structure"]
 f1_keywords:
  - "uart/_CPPORT"
  - "_CPPORT"

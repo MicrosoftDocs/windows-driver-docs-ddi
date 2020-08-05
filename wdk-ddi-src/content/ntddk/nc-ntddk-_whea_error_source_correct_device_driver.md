@@ -7,7 +7,7 @@ tech.root:
 ms.assetid: c1f0bed8-0dec-4034-a586-bb2a39a8b08f
 ms.author: windowsdriverdev
 ms.date: 08/19/2019
-keywords: ["_WHEA_ERROR_SOURCE_CORRECT_DEVICE_DRIVER callback function"]
+keywords: ["WHEA_ERROR_SOURCE_CORRECT_DEVICE_DRIVER callback function"]
 f1_keywords:
  - "ntddk/_WHEA_ERROR_SOURCE_CORRECT_DEVICE_DRIVER"
  - "_WHEA_ERROR_SOURCE_CORRECT_DEVICE_DRIVER"

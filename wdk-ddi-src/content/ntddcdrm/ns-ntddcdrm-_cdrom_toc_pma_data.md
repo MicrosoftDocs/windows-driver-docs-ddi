@@ -6,7 +6,7 @@ old-location: storage\cdrom_toc_pma_data.htm
 tech.root: storage
 ms.assetid: eded7fcf-8a0a-4ad2-8ce0-e10e670344a4
 ms.date: 03/29/2018
-keywords: ["_CDROM_TOC_PMA_DATA structure"]
+keywords: ["CDROM_TOC_PMA_DATA structure"]
 ms.keywords: "*PCDROM_TOC_PMA_DATA, CDROM_TOC_PMA_DATA, CDROM_TOC_PMA_DATA structure [Storage Devices], PCDROM_TOC_PMA_DATA, PCDROM_TOC_PMA_DATA structure pointer [Storage Devices], _CDROM_TOC_PMA_DATA, ntddcdrm/CDROM_TOC_PMA_DATA, ntddcdrm/PCDROM_TOC_PMA_DATA, storage.cdrom_toc_pma_data, structs-CD-ROM_45c0bdd5-ef51-4314-b46a-9ea66eb0b290.xml"
 f1_keywords:
  - "ntddcdrm/CDROM_TOC_PMA_DATA"

@@ -6,7 +6,7 @@ old-location: audio\ds3dvector.htm
 tech.root: audio
 ms.assetid: 828bb255-4640-4508-866e-e3641ca05773
 ms.date: 05/08/2018
-keywords: ["_DS3DVECTOR structure"]
+keywords: ["DS3DVECTOR structure"]
 ms.keywords: "*PDS3DVECTOR, DS3DVECTOR, DS3DVECTOR structure [Audio Devices], PDS3DVECTOR, PDS3DVECTOR structure pointer [Audio Devices], _DS3DVECTOR, aud-prop_3e17b5ec-c2fc-4e6c-bff1-27be36e376c9.xml, audio.ds3dvector, ksmedia/DS3DVECTOR, ksmedia/PDS3DVECTOR"
 f1_keywords:
  - "ksmedia/DS3DVECTOR"

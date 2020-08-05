@@ -4,7 +4,7 @@ title: _IVRS_BLOCK_TYPE (acpitabl.h)
 description: Enumerates the I/O Virtualization Reporting Structure (IVRS) block types.
 ms.assetid: 9b75046e-01a5-40d1-ab5c-3dcc5a6a7b3a
 ms.date: 10/01/2018
-keywords: ["_IVRS_BLOCK_TYPE enumeration"]
+keywords: ["IVRS_BLOCK_TYPE enumeration"]
 f1_keywords:
  - "acpitabl/_IVRS_BLOCK_TYPE"
  - "_IVRS_BLOCK_TYPE"

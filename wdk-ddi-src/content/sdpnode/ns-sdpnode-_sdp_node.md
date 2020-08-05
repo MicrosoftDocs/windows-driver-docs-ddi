@@ -6,7 +6,7 @@ old-location: bltooth\sdp_node.htm
 tech.root: bltooth
 ms.assetid: 11d603e9-6db1-44a2-b4e3-d85ffe0d5c25
 ms.date: 04/27/2018
-keywords: ["_SDP_NODE structure"]
+keywords: ["SDP_NODE structure"]
 ms.keywords: "*PSDP_NODE, PSDP_NODE, PSDP_NODE structure pointer [Bluetooth Devices], SDP_NODE, SDP_NODE structure [Bluetooth Devices], _SDP_NODE, bltooth.sdp_node, bth_structs_30367149-bffb-4ff9-a6d8-2f73c5198874.xml, sdpnode/PSDP_NODE, sdpnode/SDP_NODE"
 f1_keywords:
  - "sdpnode/SDP_NODE"

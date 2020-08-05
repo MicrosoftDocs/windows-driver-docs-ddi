@@ -6,7 +6,7 @@ old-location: storage\iscsi_discoveredtarget.htm
 tech.root: storage
 ms.assetid: 0b4a7375-1ee2-4829-92bb-01ed610236de
 ms.date: 03/29/2018
-keywords: ["_ISCSI_DiscoveredTarget structure"]
+keywords: ["ISCSI_DiscoveredTarget structure"]
 ms.keywords: "*PISCSI_DiscoveredTarget, ISCSI_DiscoveredTarget, ISCSI_DiscoveredTarget structure [Storage Devices], PISCSI_DiscoveredTarget, PISCSI_DiscoveredTarget structure pointer [Storage Devices], _ISCSI_DiscoveredTarget, iscsifnd/ISCSI_DiscoveredTarget, iscsifnd/PISCSI_DiscoveredTarget, storage.iscsi_discoveredtarget, structs-iSCSI_d53d59a0-bd96-4eb8-b874-5846302ddda2.xml"
 f1_keywords:
  - "iscsifnd/ISCSI_DiscoveredTarget"

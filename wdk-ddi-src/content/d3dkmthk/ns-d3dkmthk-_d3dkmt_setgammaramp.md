@@ -5,7 +5,7 @@ description: The D3DKMT_SETGAMMARAMP structure describes parameters for setting 
 old-location: display\d3dkmt_setgammaramp.htm
 ms.assetid: aeab6bf1-bb6f-427e-a566-942b3fb061b2
 ms.date: 05/10/2018
-keywords: ["_D3DKMT_SETGAMMARAMP structure"]
+keywords: ["D3DKMT_SETGAMMARAMP structure"]
 ms.keywords: D3DKMT_SETGAMMARAMP, D3DKMT_SETGAMMARAMP structure [Display Devices], OpenGL_Structs_3f9b4d19-5367-43bb-94a7-288d375412d7.xml, _D3DKMT_SETGAMMARAMP, d3dkmthk/D3DKMT_SETGAMMARAMP, display.d3dkmt_setgammaramp
 f1_keywords:
  - "d3dkmthk/D3DKMT_SETGAMMARAMP"

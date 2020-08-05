@@ -4,7 +4,7 @@ title: _PCI_EXPRESS_PTM_CONTROL_REGISTER (wdm.h)
 description: Reserved. Do not use.
 ms.assetid: e7cf1582-8dbd-4f6f-827e-ae5fa6f3810a
 ms.date: 10/19/2018
-keywords: ["_PCI_EXPRESS_PTM_CONTROL_REGISTER structure"]
+keywords: ["PCI_EXPRESS_PTM_CONTROL_REGISTER structure"]
 f1_keywords:
  - "wdm/_PCI_EXPRESS_PTM_CONTROL_REGISTER"
  - "_PCI_EXPRESS_PTM_CONTROL_REGISTER"

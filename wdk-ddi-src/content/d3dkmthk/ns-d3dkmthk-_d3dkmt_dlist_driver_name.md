@@ -4,7 +4,7 @@ title: _D3DKMT_DLIST_DRIVER_NAME (d3dkmthk.h)
 description: The device list file name.
 ms.assetid: 7911f08b-39a6-424b-ba4a-ac3b697b7040
 ms.date: 10/19/2018
-keywords: ["_D3DKMT_DLIST_DRIVER_NAME structure"]
+keywords: ["D3DKMT_DLIST_DRIVER_NAME structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_DLIST_DRIVER_NAME"
  - "_D3DKMT_DLIST_DRIVER_NAME"

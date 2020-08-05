@@ -4,7 +4,7 @@ title: _SE_IMAGE_TYPE (wdm.h)
 description: 
 ms.assetid: 03686e66-ca43-406b-8d2f-0cfd0d35df0b
 ms.date: 10/19/2018
-keywords: ["_SE_IMAGE_TYPE enumeration"]
+keywords: ["SE_IMAGE_TYPE enumeration"]
 f1_keywords:
  - "wdm/_SE_IMAGE_TYPE"
  - "_SE_IMAGE_TYPE"

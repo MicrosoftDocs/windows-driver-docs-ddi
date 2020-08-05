@@ -5,7 +5,7 @@ description: Used in the GET_ERROR_STATUS command. See Table 4-47.
 ms.assetid: 94622279-e077-4ded-a143-32223bcc23fb
 tech.root: usbref
 ms.date: 09/30/2018
-keywords: ["_UCSI_GET_ERROR_STATUS_IN structure"]
+keywords: ["UCSI_GET_ERROR_STATUS_IN structure"]
 f1_keywords:
  - "ucmucsispec/_UCSI_GET_ERROR_STATUS_IN"
  - "_UCSI_GET_ERROR_STATUS_IN"

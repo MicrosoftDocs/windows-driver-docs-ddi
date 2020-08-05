@@ -4,7 +4,7 @@ title: _EFI_QUERY_VARIABLE_INFO_OUT (treevariableservice.h)
 description: 
 ms.assetid: b8e00ca2-f24d-4266-9492-aa6c4f1dcd76
 ms.date: 10/19/2018
-keywords: ["_EFI_QUERY_VARIABLE_INFO_OUT structure"]
+keywords: ["EFI_QUERY_VARIABLE_INFO_OUT structure"]
 f1_keywords:
  - "treevariableservice/_EFI_QUERY_VARIABLE_INFO_OUT"
  - "_EFI_QUERY_VARIABLE_INFO_OUT"

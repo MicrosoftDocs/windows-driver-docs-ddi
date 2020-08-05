@@ -4,7 +4,7 @@ title: _SIDEBANDAUDIO_SUPPORTED_FORMATS (sidebandaudio.h)
 description: Describes the formats supported by the Audio Endpoint.
 ms.assetid: 3aaefd01-561e-42be-859c-240f1305b266
 ms.date: 09/07/2018
-keywords: ["_SIDEBANDAUDIO_SUPPORTED_FORMATS structure"]
+keywords: ["SIDEBANDAUDIO_SUPPORTED_FORMATS structure"]
 f1_keywords:
  - "sidebandaudio/_SIDEBANDAUDIO_SUPPORTED_FORMATS"
  - "_SIDEBANDAUDIO_SUPPORTED_FORMATS"

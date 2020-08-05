@@ -4,7 +4,7 @@ title: _TR_SERVICE_REQUEST_V1 (trustedrt.h)
 description: 
 ms.assetid: 7e0391f0-606a-4b65-a1d7-463ff05a719b
 ms.date: 10/19/2018
-keywords: ["_TR_SERVICE_REQUEST_V1 structure"]
+keywords: ["TR_SERVICE_REQUEST_V1 structure"]
 f1_keywords:
  - "trustedrt/_TR_SERVICE_REQUEST_V1"
  - "_TR_SERVICE_REQUEST_V1"

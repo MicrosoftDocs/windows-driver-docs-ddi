@@ -6,7 +6,7 @@ old-location: print\glyphrun.htm
 tech.root: print
 ms.assetid: 21f6631c-dff1-459f-a83e-7aa1d5d2ab2b
 ms.date: 04/20/2018
-keywords: ["_GLYPHRUN structure"]
+keywords: ["GLYPHRUN structure"]
 ms.keywords: "*PGLYPHRUN, GLYPHRUN, GLYPHRUN structure [Print Devices], PGLYPHRUN, PGLYPHRUN structure pointer [Print Devices], _GLYPHRUN, print.glyphrun, print_unidrv-pscript_fonts_591184a3-96f1-4b27-bf6a-d1c512a2bf7e.xml, prntfont/GLYPHRUN, prntfont/PGLYPHRUN"
 f1_keywords:
  - "prntfont/GLYPHRUN"

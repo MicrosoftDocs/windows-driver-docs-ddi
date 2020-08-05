@@ -5,7 +5,7 @@ description: The D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP structure describes the par
 old-location: display\d3dkmt_checkvidpnexclusiveownership.htm
 ms.assetid: 5a7f05a0-11ae-49ed-9015-f2712cc77880
 ms.date: 05/10/2018
-keywords: ["_D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP structure"]
+keywords: ["D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP structure"]
 ms.keywords: D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP, D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP structure [Display Devices], OpenGL_Structs_23afa7dd-8aaa-402b-9b99-235be17cd26e.xml, _D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP, d3dkmthk/D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP, display.d3dkmt_checkvidpnexclusiveownership
 f1_keywords:
  - "d3dkmthk/D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP"

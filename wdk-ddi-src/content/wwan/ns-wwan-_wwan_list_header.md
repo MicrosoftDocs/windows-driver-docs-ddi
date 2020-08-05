@@ -6,7 +6,7 @@ old-location: netvista\wwan_list_header.htm
 tech.root: netvista
 ms.assetid: ef5c94e9-641c-41ea-baf1-343b876c92a4
 ms.date: 05/02/2018
-keywords: ["_WWAN_LIST_HEADER structure"]
+keywords: ["WWAN_LIST_HEADER structure"]
 ms.keywords: "*PWWAN_LIST_HEADER, PWWAN_LIST_HEADER, PWWAN_LIST_HEADER structure pointer [Network Drivers Starting with Windows Vista], WWAN_LIST_HEADER, WWAN_LIST_HEADER structure [Network Drivers Starting with Windows Vista], WwanRef_78070f1a-5913-41b6-9be2-0b26c19dd149.xml, _WWAN_LIST_HEADER, netvista.wwan_list_header, wwan/PWWAN_LIST_HEADER, wwan/WWAN_LIST_HEADER"
 f1_keywords:
  - "wwan/WWAN_LIST_HEADER"

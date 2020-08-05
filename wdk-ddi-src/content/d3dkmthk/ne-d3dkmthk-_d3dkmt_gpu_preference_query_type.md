@@ -7,7 +7,7 @@ tech.root: display
 ms.assetid: 93858a50-39ce-4ac2-9ff8-111b9f681ad3
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-keywords: ["_D3DKMT_GPU_PREFERENCE_QUERY_TYPE enumeration"]
+keywords: ["D3DKMT_GPU_PREFERENCE_QUERY_TYPE enumeration"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_GPU_PREFERENCE_QUERY_TYPE"
  - "_D3DKMT_GPU_PREFERENCE_QUERY_TYPE"

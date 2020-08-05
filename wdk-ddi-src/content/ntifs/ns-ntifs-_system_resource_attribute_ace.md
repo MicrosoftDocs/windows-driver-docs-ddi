@@ -6,7 +6,7 @@ old-location: ifsk\system_resource_attribute_ace.htm
 tech.root: ifsk
 ms.assetid: E4A6A738-F7AB-4EA2-8CC6-E1F595F35870
 ms.date: 04/16/2018
-keywords: ["_SYSTEM_RESOURCE_ATTRIBUTE_ACE structure"]
+keywords: ["SYSTEM_RESOURCE_ATTRIBUTE_ACE structure"]
 ms.keywords: "*PSYSTEM_RESOURCE_ATTRIBUTE_ACE, PSYSTEM_RESOURCE_ATTRIBUTE_ACE, PSYSTEM_RESOURCE_ATTRIBUTE_ACE structure pointer [Installable File System Drivers], SYSTEM_RESOURCE_ATTRIBUTE_ACE, SYSTEM_RESOURCE_ATTRIBUTE_ACE structure [Installable File System Drivers], _SYSTEM_RESOURCE_ATTRIBUTE_ACE, ifsk.system_resource_attribute_ace, ntifs/PSYSTEM_RESOURCE_ATTRIBUTE_ACE, ntifs/SYSTEM_RESOURCE_ATTRIBUTE_ACE"
 f1_keywords:
  - "ntifs/SYSTEM_RESOURCE_ATTRIBUTE_ACE"

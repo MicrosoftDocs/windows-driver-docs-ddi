@@ -6,7 +6,7 @@ old-location: display\dxgkvgpu_escape_read_pci_config.htm
 tech.root: display
 ms.assetid: B6F4207F-B55A-4B36-883D-291E351742CA
 ms.date: 05/10/2018
-keywords: ["_DXGKVGPU_ESCAPE_READ_PCI_CONFIG structure"]
+keywords: ["DXGKVGPU_ESCAPE_READ_PCI_CONFIG structure"]
 ms.keywords: DXGKVGPU_ESCAPE_READ_PCI_CONFIG, DXGKVGPU_ESCAPE_READ_PCI_CONFIG structure [Display Devices], _DXGKVGPU_ESCAPE_READ_PCI_CONFIG, d3dukmdt/DXGKVGPU_ESCAPE_READ_PCI_CONFIG, display.dxgkvgpu_escape_read_pci_config
 f1_keywords:
  - "d3dukmdt/DXGKVGPU_ESCAPE_READ_PCI_CONFIG"

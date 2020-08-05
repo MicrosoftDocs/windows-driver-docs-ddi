@@ -6,7 +6,7 @@ old-location: stream\bda_ts_selectorinfo.htm
 tech.root: stream
 ms.assetid: 34F10EDD-C196-4022-8D03-45A005F17F5F
 ms.date: 04/23/2018
-keywords: ["_BDA_TS_SELECTORINFO structure"]
+keywords: ["BDA_TS_SELECTORINFO structure"]
 ms.keywords: "*PBDA_TS_SELECTORINFO, BDA_TS_SELECTORINFO, BDA_TS_SELECTORINFO structure [Streaming Media Devices], PBDA_TS_SELECTORINFO, PBDA_TS_SELECTORINFO structure pointer [Streaming Media Devices], _BDA_TS_SELECTORINFO, bdatypes/BDA_TS_SELECTORINFO, bdatypes/PBDA_TS_SELECTORINFO, stream.bda_ts_selectorinfo"
 f1_keywords:
  - "bdatypes/BDA_TS_SELECTORINFO"

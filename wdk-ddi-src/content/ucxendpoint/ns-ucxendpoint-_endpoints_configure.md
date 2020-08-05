@@ -6,7 +6,7 @@ old-location: buses\_endpoints_configure.htm
 tech.root: usbref
 ms.assetid: C24B7D85-AEA9-43B3-9BEE-262CAA255834
 ms.date: 05/07/2018
-keywords: ["_ENDPOINTS_CONFIGURE structure"]
+keywords: ["ENDPOINTS_CONFIGURE structure"]
 ms.keywords: "*PENDPOINTS_CONFIGURE, ENDPOINTS_CONFIGURE, ENDPOINTS_CONFIGURE structure [Buses], P_ENDPOINTS_CONFIGURE, P_ENDPOINTS_CONFIGURE structure pointer [Buses], _ENDPOINTS_CONFIGURE, buses._endpoints_configure, ucxendpoint/P_ENDPOINTS_CONFIGURE, ucxendpoint/_ENDPOINTS_CONFIGURE"
 f1_keywords:
  - "ucxendpoint/ENDPOINTS_CONFIGURE"

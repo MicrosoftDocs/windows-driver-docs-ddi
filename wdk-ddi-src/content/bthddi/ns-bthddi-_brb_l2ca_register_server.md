@@ -6,7 +6,7 @@ old-location: bltooth\_brb_l2ca_register_server.htm
 tech.root: bltooth
 ms.assetid: b7eca29a-7e3c-4cfc-b285-42faca263c5e
 ms.date: 04/27/2018
-keywords: ["_BRB_L2CA_REGISTER_SERVER structure"]
+keywords: ["BRB_L2CA_REGISTER_SERVER structure"]
 ms.keywords: "_BRB_L2CA_REGISTER_SERVER, _BRB_L2CA_REGISTER_SERVER structure [Bluetooth Devices], bltooth._brb_l2ca_register_server, bth_structs_c803cec6-8a80-4d75-9c81-fd479ee37a97.xml, bthddi/_BRB_L2CA_REGISTER_SERVER"
 f1_keywords:
  - "bthddi/_BRB_L2CA_REGISTER_SERVER"

@@ -6,7 +6,7 @@ old-location: display\d3dddicb_createsynchronizationobject2.htm
 tech.root: display
 ms.assetid: 090fe0df-d2b4-4bfd-a3f3-38bc228337ab
 ms.date: 05/10/2018
-keywords: ["_D3DDDICB_CREATESYNCHRONIZATIONOBJECT2 structure"]
+keywords: ["D3DDDICB_CREATESYNCHRONIZATIONOBJECT2 structure"]
 ms.keywords: D3DDDICB_CREATESYNCHRONIZATIONOBJECT2, D3DDDICB_CREATESYNCHRONIZATIONOBJECT2 structure [Display Devices], _D3DDDICB_CREATESYNCHRONIZATIONOBJECT2, d3dumddi/D3DDDICB_CREATESYNCHRONIZATIONOBJECT2, display.d3dddicb_createsynchronizationobject2
 f1_keywords:
  - "d3dumddi/D3DDDICB_CREATESYNCHRONIZATIONOBJECT2"

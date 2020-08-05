@@ -4,7 +4,7 @@ title: _D3DKMT_OUTPUTDUPL_FRAMEINFO (d3dkmthk.h)
 description: 
 ms.assetid: 496c86ee-7ff4-4210-8b5e-ad9a00721cf9
 ms.date: 10/19/2018
-keywords: ["_D3DKMT_OUTPUTDUPL_FRAMEINFO structure"]
+keywords: ["D3DKMT_OUTPUTDUPL_FRAMEINFO structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_OUTPUTDUPL_FRAMEINFO"
  - "_D3DKMT_OUTPUTDUPL_FRAMEINFO"

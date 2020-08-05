@@ -4,7 +4,7 @@ title: _USBC_PD_POWER_DATA_OBJECT_TYPE (usbctypes.h)
 description: Defines Power Data Object types.
 ms.assetid: 12eea3e2-18dc-4c5a-a97d-4776e6c85180
 ms.date: 09/30/2018
-keywords: ["_USBC_PD_POWER_DATA_OBJECT_TYPE enumeration"]
+keywords: ["USBC_PD_POWER_DATA_OBJECT_TYPE enumeration"]
 f1_keywords:
  - "usbctypes/_USBC_PD_POWER_DATA_OBJECT_TYPE"
  - "_USBC_PD_POWER_DATA_OBJECT_TYPE"

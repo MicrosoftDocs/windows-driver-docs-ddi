@@ -6,7 +6,7 @@ old-location: kernel\pci_slot_number.htm
 tech.root: kernel
 ms.assetid: 0e04813d-e138-435e-8357-562f79a3a4a2
 ms.date: 04/30/2018
-keywords: ["_PCI_SLOT_NUMBER structure"]
+keywords: ["PCI_SLOT_NUMBER structure"]
 ms.keywords: "*PPCI_SLOT_NUMBER, PCI_SLOT_NUMBER, PCI_SLOT_NUMBER structure [Kernel-Mode Driver Architecture], PPCI_SLOT_NUMBER, PPCI_SLOT_NUMBER structure pointer [Kernel-Mode Driver Architecture], _PCI_SLOT_NUMBER, kernel.pci_slot_number, kstruct_c_e9aa5e88-0c5d-4740-80f3-4b59da610598.xml, wdm/PCI_SLOT_NUMBER, wdm/PPCI_SLOT_NUMBER"
 f1_keywords:
  - "wdm/PCI_SLOT_NUMBER"

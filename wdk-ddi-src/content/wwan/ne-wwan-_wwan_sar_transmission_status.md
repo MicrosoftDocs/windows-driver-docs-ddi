@@ -5,7 +5,7 @@ description: The WWAN_SAR_TRANSMISSION_STATUS enumeration describes whether a mo
 tech.root: netvista
 ms.assetid: c671215d-f05a-48bc-a001-80c4a4fc0121
 ms.date: 08/20/2018
-keywords: ["_WWAN_SAR_TRANSMISSION_STATUS enumeration"]
+keywords: ["WWAN_SAR_TRANSMISSION_STATUS enumeration"]
 f1_keywords:
  - "wwan/_WWAN_SAR_TRANSMISSION_STATUS"
  - "_WWAN_SAR_TRANSMISSION_STATUS"

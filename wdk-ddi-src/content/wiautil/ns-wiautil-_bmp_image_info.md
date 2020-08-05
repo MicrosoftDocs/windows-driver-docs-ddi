@@ -6,7 +6,7 @@ old-location: image\bmp_image_info.htm
 tech.root: image
 ms.assetid: 953e2f00-2275-49a2-b1e5-def7763a8ab7
 ms.date: 05/03/2018
-keywords: ["_BMP_IMAGE_INFO structure"]
+keywords: ["BMP_IMAGE_INFO structure"]
 ms.keywords: "*PBMP_IMAGE_INFO, BMP_IMAGE_INFO, BMP_IMAGE_INFO structure [Imaging Devices], PBMP_IMAGE_INFO, PBMP_IMAGE_INFO structure pointer [Imaging Devices], _BMP_IMAGE_INFO, image.bmp_image_info, wiauFncs_b4043c8e-769f-4ab1-9d62-c96dd5d7b487.xml, wiautil/BMP_IMAGE_INFO, wiautil/PBMP_IMAGE_INFO"
 f1_keywords:
  - "wiautil/BMP_IMAGE_INFO"

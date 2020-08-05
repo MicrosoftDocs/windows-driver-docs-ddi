@@ -6,7 +6,7 @@ old-location: stream\bda_dvbt2_l1_signalling_data.htm
 tech.root: stream
 ms.assetid: 34BD68C3-446A-4074-8F5C-E670BE09083A
 ms.date: 04/23/2018
-keywords: ["_BDA_DVBT2_L1_SIGNALLING_DATA structure"]
+keywords: ["BDA_DVBT2_L1_SIGNALLING_DATA structure"]
 ms.keywords: "*PBDA_DVBT2_L1_SIGNALLING_DATA, BDA_DVBT2_L1_SIGNALLING_DATA, BDA_DVBT2_L1_SIGNALLING_DATA structure [Streaming Media Devices], PBDA_DVBT2_L1_SIGNALLING_DATA, PBDA_DVBT2_L1_SIGNALLING_DATA structure pointer [Streaming Media Devices], _BDA_DVBT2_L1_SIGNALLING_DATA, bdatypes/BDA_DVBT2_L1_SIGNALLING_DATA, bdatypes/PBDA_DVBT2_L1_SIGNALLING_DATA, stream.bda_dvbt2_l1_signalling_data"
 f1_keywords:
  - "bdatypes/BDA_DVBT2_L1_SIGNALLING_DATA"

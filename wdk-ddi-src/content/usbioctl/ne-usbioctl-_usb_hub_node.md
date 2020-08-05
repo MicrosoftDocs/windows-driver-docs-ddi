@@ -6,7 +6,7 @@ old-location: buses\usb_hub_node.htm
 tech.root: usbref
 ms.assetid: fdd69121-2b3c-4394-b67e-c29f43daf113
 ms.date: 05/07/2018
-keywords: ["_USB_HUB_NODE enumeration"]
+keywords: ["USB_HUB_NODE enumeration"]
 ms.keywords: USB_HUB_NODE, USB_HUB_NODE enumeration [Buses], UsbHub, UsbMIParent, _USB_HUB_NODE, buses.usb_hub_node, usbioctl/USB_HUB_NODE, usbioctl/UsbHub, usbioctl/UsbMIParent, usbstrct_9dadc1ba-6775-48d3-8ebf-fa42ad6992bf.xml
 f1_keywords:
  - "usbioctl/USB_HUB_NODE"

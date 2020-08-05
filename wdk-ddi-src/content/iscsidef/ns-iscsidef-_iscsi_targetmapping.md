@@ -6,7 +6,7 @@ old-location: storage\iscsi_targetmapping.htm
 tech.root: storage
 ms.assetid: 9b8c5024-5d37-4f85-be00-1a60dd9ab323
 ms.date: 03/29/2018
-keywords: ["_ISCSI_TargetMapping structure"]
+keywords: ["ISCSI_TargetMapping structure"]
 ms.keywords: "*PISCSI_TargetMapping, ISCSI_TargetMapping, ISCSI_TargetMapping structure [Storage Devices], PISCSI_TargetMapping, PISCSI_TargetMapping structure pointer [Storage Devices], _ISCSI_TargetMapping, iscsidef/ISCSI_TargetMapping, iscsidef/PISCSI_TargetMapping, storage.iscsi_targetmapping, structs-iSCSI_5512347c-9b89-4d14-9c84-4e7b9191dbfa.xml"
 f1_keywords:
  - "iscsidef/ISCSI_TargetMapping"

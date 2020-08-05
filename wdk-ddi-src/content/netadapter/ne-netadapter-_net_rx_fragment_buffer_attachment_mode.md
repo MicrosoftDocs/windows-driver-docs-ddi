@@ -5,7 +5,7 @@ description: The NET_RX_FRAGMENT_BUFFER_ATTACHMENT_MODE enumeration identifies h
 tech.root: netvista
 ms.assetid: 887f68a8-1154-492e-8af3-0280a8637ef5
 ms.date: 02/15/2018
-keywords: ["_NET_RX_FRAGMENT_BUFFER_ATTACHMENT_MODE enumeration"]
+keywords: ["NET_RX_FRAGMENT_BUFFER_ATTACHMENT_MODE enumeration"]
 f1_keywords:
  - "netadapter/NET_PACKET_FILTER_TYPES_FLAGS"
  - "NET_PACKET_FILTER_TYPES_FLAGS"

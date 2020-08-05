@@ -6,7 +6,7 @@ old-location: netvista\ndis_switch_nic_status_indication.htm
 tech.root: netvista
 ms.assetid: a3841a14-0876-47f4-a4dc-6231b76086ca
 ms.date: 05/02/2018
-keywords: ["_NDIS_SWITCH_NIC_STATUS_INDICATION structure"]
+keywords: ["NDIS_SWITCH_NIC_STATUS_INDICATION structure"]
 ms.keywords: "*PNDIS_SWITCH_NIC_STATUS_INDICATION, NDIS_SWITCH_NIC_STATUS_INDICATION, NDIS_SWITCH_NIC_STATUS_INDICATION structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_NIC_STATUS_INDICATION, PNDIS_SWITCH_NIC_STATUS_INDICATION structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_NIC_STATUS_INDICATION, ndis/NDIS_SWITCH_NIC_STATUS_INDICATION, ndis/PNDIS_SWITCH_NIC_STATUS_INDICATION, netvista.ndis_switch_nic_status_indication"
 f1_keywords:
  - "ndis/NDIS_SWITCH_NIC_STATUS_INDICATION"

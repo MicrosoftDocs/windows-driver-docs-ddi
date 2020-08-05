@@ -5,7 +5,7 @@ description: Defines values for the type of desired storage class.
 ms.assetid: d969fc78-2517-4b9c-b2ce-489af3ff4e5f
 tech.root: ifsk
 ms.date: 09/30/2018
-keywords: ["_FILE_STORAGE_TIER_CLASS enumeration"]
+keywords: ["FILE_STORAGE_TIER_CLASS enumeration"]
 f1_keywords:
  - "ntifs/_FILE_STORAGE_TIER_CLASS"
  - "_FILE_STORAGE_TIER_CLASS"

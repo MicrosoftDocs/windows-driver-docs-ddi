@@ -6,7 +6,7 @@ old-location: display\d3dddicb_submitcommandtohwqueue.htm
 tech.root: display
 ms.assetid: 5B650831-7AD7-4FEA-AC31-82F2B351BAD6
 ms.date: 05/10/2018
-keywords: ["_D3DDDICB_SUBMITCOMMANDTOHWQUEUE structure"]
+keywords: ["D3DDDICB_SUBMITCOMMANDTOHWQUEUE structure"]
 ms.keywords: D3DDDICB_SUBMITCOMMANDTOHWQUEUE, D3DDDICB_SUBMITCOMMANDTOHWQUEUE structure [Display Devices], _D3DDDICB_SUBMITCOMMANDTOHWQUEUE, d3dumddi/D3DDDICB_SUBMITCOMMANDTOHWQUEUE, display.d3dddicb_submitcommandtohwqueue
 f1_keywords:
  - "d3dumddi/D3DDDICB_SUBMITCOMMANDTOHWQUEUE"

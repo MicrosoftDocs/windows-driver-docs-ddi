@@ -6,7 +6,7 @@ old-location: wdf\wdf_request_completion_params.htm
 tech.root: wdf
 ms.assetid: e3993202-c49d-4de9-8881-9e3786575e17
 ms.date: 02/26/2018
-keywords: ["_WDF_REQUEST_COMPLETION_PARAMS structure"]
+keywords: ["WDF_REQUEST_COMPLETION_PARAMS structure"]
 ms.keywords: "*PWDF_REQUEST_COMPLETION_PARAMS, DFRequestObjectRef_e8277b90-7e1e-4d00-9f6b-012b189c153f.xml, PWDF_REQUEST_COMPLETION_PARAMS, PWDF_REQUEST_COMPLETION_PARAMS structure pointer, WDF_REQUEST_COMPLETION_PARAMS, WDF_REQUEST_COMPLETION_PARAMS structure, _WDF_REQUEST_COMPLETION_PARAMS, kmdf.wdf_request_completion_params, wdf.wdf_request_completion_params, wdfrequest/PWDF_REQUEST_COMPLETION_PARAMS, wdfrequest/WDF_REQUEST_COMPLETION_PARAMS"
 f1_keywords:
  - "wdfrequest/WDF_REQUEST_COMPLETION_PARAMS"

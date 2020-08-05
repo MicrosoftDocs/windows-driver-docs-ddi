@@ -6,7 +6,7 @@ old-location: storage\report_zones_ext_data.htm
 tech.root: storage
 ms.assetid: 0c6b4b7c-548d-42c0-af9b-cf0d65bf2e45
 ms.date: 03/29/2018
-keywords: ["_REPORT_ZONES_EXT_DATA structure"]
+keywords: ["REPORT_ZONES_EXT_DATA structure"]
 ms.keywords: "*PREPORT_ZONES_EXT_DATA, PREPORT_ZONES_EXT_DATA, PREPORT_ZONES_EXT_DATA structure pointer [Storage Devices], REPORT_ZONES_EXT_DATA, REPORT_ZONES_EXT_DATA structure [Storage Devices], _REPORT_ZONES_EXT_DATA, ata/PREPORT_ZONES_EXT_DATA, ata/REPORT_ZONES_EXT_DATA, storage.report_zones_ext_data"
 f1_keywords:
  - "ata/REPORT_ZONES_EXT_DATA"

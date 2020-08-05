@@ -4,7 +4,7 @@ title: _D3DDDI_DRIVERESCAPETYPE (d3dukmdt.h)
 description: Defines the known driver escape types.
 ms.assetid: bb7fd313-1e89-4b9b-88ad-eca6404555de
 ms.date: 10/19/2018
-keywords: ["_D3DDDI_DRIVERESCAPETYPE enumeration"]
+keywords: ["D3DDDI_DRIVERESCAPETYPE enumeration"]
 f1_keywords:
  - "d3dukmdt/_D3DDDI_DRIVERESCAPETYPE"
  - "_D3DDDI_DRIVERESCAPETYPE"

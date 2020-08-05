@@ -6,7 +6,7 @@ old-location: netvista\ndis_wmi_enum_adapter.htm
 tech.root: netvista
 ms.assetid: 89fa481a-b6f4-4948-8fda-e1e19c58da28
 ms.date: 05/02/2018
-keywords: ["_NDIS_WMI_ENUM_ADAPTER structure"]
+keywords: ["NDIS_WMI_ENUM_ADAPTER structure"]
 ms.keywords: "*PNDIS_WMI_ENUM_ADAPTER, NDIS_WMI_ENUM_ADAPTER, NDIS_WMI_ENUM_ADAPTER structure [Network Drivers Starting with Windows Vista], PNDIS_WMI_ENUM_ADAPTER, PNDIS_WMI_ENUM_ADAPTER structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WMI_ENUM_ADAPTER, ndis_wmi_ref_a64c64b4-2108-4b99-937d-098197c5a72c.xml, netvista.ndis_wmi_enum_adapter, ntddndis/NDIS_WMI_ENUM_ADAPTER, ntddndis/PNDIS_WMI_ENUM_ADAPTER"
 f1_keywords:
  - "ntddndis/NDIS_WMI_ENUM_ADAPTER"

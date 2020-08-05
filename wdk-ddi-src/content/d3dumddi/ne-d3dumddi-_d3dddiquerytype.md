@@ -4,7 +4,7 @@ title: _D3DDDIQUERYTYPE (d3dumddi.h)
 description: The query type.
 ms.assetid: dbaf8ce2-277d-4754-a4fc-c0969fdea2a1
 ms.date: 10/19/2018
-keywords: ["_D3DDDIQUERYTYPE enumeration"]
+keywords: ["D3DDDIQUERYTYPE enumeration"]
 ms.keywords: _D3DDDIQUERYTYPE, D3DDDIQUERYTYPE,
 req.header: d3dumddi.h
 req.include-header: 

@@ -5,7 +5,7 @@ description: Specifies output duplication options for use with the D3DKMTSetVidP
 old-location: display\d3dkmt_vidpnsourceowner_flags.htm
 ms.assetid: acc4e9d9-235f-4605-ae51-5056108843dc
 ms.date: 05/10/2018
-keywords: ["_D3DKMT_VIDPNSOURCEOWNER_FLAGS structure"]
+keywords: ["D3DKMT_VIDPNSOURCEOWNER_FLAGS structure"]
 ms.keywords: D3DKMT_VIDPNSOURCEOWNER_FLAGS, D3DKMT_VIDPNSOURCEOWNER_FLAGS structure [Display Devices], _D3DKMT_VIDPNSOURCEOWNER_FLAGS, d3dkmthk/D3DKMT_VIDPNSOURCEOWNER_FLAGS, display.d3dkmt_vidpnsourceowner_flags
 f1_keywords:
  - "d3dkmthk/D3DKMT_VIDPNSOURCEOWNER_FLAGS"

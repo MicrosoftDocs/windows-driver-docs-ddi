@@ -4,7 +4,7 @@ title: _PORT_DATA_LIST_1 (tcpxcv.h)
 description: 
 ms.assetid: 6b3f171b-de8f-4a5d-b72f-2c1534a6bf7a
 ms.date: 10/19/2018
-keywords: ["_PORT_DATA_LIST_1 structure"]
+keywords: ["PORT_DATA_LIST_1 structure"]
 f1_keywords:
  - "tcpxcv/_PORT_DATA_LIST_1"
  - "_PORT_DATA_LIST_1"

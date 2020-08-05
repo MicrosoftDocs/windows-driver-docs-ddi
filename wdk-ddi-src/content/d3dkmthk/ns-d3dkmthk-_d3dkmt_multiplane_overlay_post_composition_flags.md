@@ -4,7 +4,7 @@ title: _D3DKMT_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS (d3dkmthk.h)
 description: Multiplane overlay post composition flags.
 ms.assetid: ba9bc2c7-32e3-4158-96e2-53f0f86cbfcd
 ms.date: 10/19/2018
-keywords: ["_D3DKMT_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS structure"]
+keywords: ["D3DKMT_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS"
  - "_D3DKMT_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS"

@@ -6,7 +6,7 @@ old-location: print\monitor2.htm
 tech.root: print
 ms.assetid: 0bfb5119-2034-4e63-9fbe-e2ff42a352d6
 ms.date: 03/21/2019
-keywords: ["_MONITOR2 structure"]
+keywords: ["MONITOR2 structure"]
 ms.keywords: "*LPMONITOR2, *PMONITOR2, LPMONITOR2, LPMONITOR2 structure pointer [Print Devices], MONITOR2, MONITOR2 structure [Print Devices], PMONITOR2, PMONITOR2 structure pointer [Print Devices], _MONITOR2, print.monitor2, spoolfnc_db4ec1e7-1368-4695-bae0-91fd5dcd8a1a.xml, winsplp/LPMONITOR2, winsplp/MONITOR2, winsplp/PMONITOR2"
 f1_keywords:
  - "winsplp/MONITOR2"

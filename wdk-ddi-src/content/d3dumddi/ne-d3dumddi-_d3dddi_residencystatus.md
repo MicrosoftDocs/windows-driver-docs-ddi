@@ -4,7 +4,7 @@ title: _D3DDDI_RESIDENCYSTATUS (d3dumddi.h)
 description: The residency status.
 ms.assetid: ab6fd21d-e08d-4575-a718-3a2967b97155
 ms.date: 10/19/2018
-keywords: ["_D3DDDI_RESIDENCYSTATUS enumeration"]
+keywords: ["D3DDDI_RESIDENCYSTATUS enumeration"]
 ms.keywords: _D3DDDI_RESIDENCYSTATUS, D3DDDI_RESIDENCYSTATUS,
 req.header: d3dumddi.h
 req.include-header: 

@@ -6,7 +6,7 @@ old-location: netvista\dot11_wfd_invitation_flags.htm
 tech.root: netvista
 ms.assetid: 9743FF37-0E8A-499F-AADB-9CD7BDC381E0
 ms.date: 02/16/2018
-keywords: ["_DOT11_WFD_INVITATION_FLAGS structure"]
+keywords: ["DOT11_WFD_INVITATION_FLAGS structure"]
 ms.keywords: "*PDOT11_WFD_INVITATION_FLAGS, DOT11_WFD_INVITATION_FLAGS, DOT11_WFD_INVITATION_FLAGS structure [Network Drivers Starting with Windows Vista], Join, PDOT11_WFD_INVITATION_FLAGS, PDOT11_WFD_INVITATION_FLAGS structure pointer [Network Drivers Starting with Windows Vista], Reinvoke, _DOT11_WFD_INVITATION_FLAGS, netvista.dot11_wfd_invitation_flags, windot11/DOT11_WFD_INVITATION_FLAGS, windot11/PDOT11_WFD_INVITATION_FLAGS"
 f1_keywords:
  - "windot11/DOT11_WFD_INVITATION_FLAGS"

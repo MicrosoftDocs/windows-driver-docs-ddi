@@ -6,7 +6,7 @@ old-location: audio\kstopology_endpointidpair.htm
 tech.root: audio
 ms.assetid: 556B56A6-1EF4-406B-A9FB-901C0CF24BC0
 ms.date: 05/08/2018
-keywords: ["_tagKSTOPOLOGY_ENDPOINTIDPAIR structure"]
+keywords: ["tagKSTOPOLOGY_ENDPOINTIDPAIR structure"]
 ms.keywords: "*PKSTOPOLOGY_ENDPOINTIDPAIR, KSTOPOLOGY_ENDPOINTIDPAIR, KSTOPOLOGY_ENDPOINTIDPAIR structure [Audio Devices], PKSTOPOLOGY_ENDPOINTIDPAIR, PKSTOPOLOGY_ENDPOINTIDPAIR structure pointer [Audio Devices], _tagKSTOPOLOGY_ENDPOINTIDPAIR, audio.kstopology_endpointidpair, ksmedia/KSTOPOLOGY_ENDPOINTIDPAIR, ksmedia/PKSTOPOLOGY_ENDPOINTIDPAIR"
 f1_keywords:
  - "ksmedia/KSTOPOLOGY_ENDPOINTIDPAIR"

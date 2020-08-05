@@ -6,7 +6,7 @@ old-location: display\dxva_ayuvsample2.htm
 tech.root: display
 ms.assetid: 33e92f7d-2a01-4be2-a6b3-d0bd63db1eeb
 ms.date: 05/10/2018
-keywords: ["_DXVA_AYUVsample2 structure"]
+keywords: ["DXVA_AYUVsample2 structure"]
 ms.keywords: "*LPDXVA_AYUVsample2, DXVA_AYUVsample2, DXVA_AYUVsample2 structure [Display Devices], LPDXVA_AYUVsample2, LPDXVA_AYUVsample2 structure pointer [Display Devices], _DXVA_AYUVsample2, display.dxva_ayuvsample2, dxva/DXVA_AYUVsample2, dxva/LPDXVA_AYUVsample2, dxvaref_15019e0c-708c-4d68-972b-d47b7e2b6514.xml"
 f1_keywords:
  - "dxva/DXVA_AYUVsample2"

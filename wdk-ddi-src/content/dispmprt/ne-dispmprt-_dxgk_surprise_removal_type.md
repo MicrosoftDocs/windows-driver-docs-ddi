@@ -6,7 +6,7 @@ old-location: display\dxgk_surprise_removal_type.htm
 tech.root: display
 ms.assetid: 3045f46d-d78a-4f07-9838-f3afd97d9244
 ms.date: 05/10/2018
-keywords: ["_DXGK_SURPRISE_REMOVAL_TYPE enumeration"]
+keywords: ["DXGK_SURPRISE_REMOVAL_TYPE enumeration"]
 ms.keywords: DXGK_SURPRISE_REMOVAL_TYPE, DXGK_SURPRISE_REMOVAL_TYPE enumeration [Display Devices], DxgkRemovalHibernation, _DXGK_SURPRISE_REMOVAL_TYPE, display.dxgk_surprise_removal_type, dispmprt/DXGK_SURPRISE_REMOVAL_TYPE, dispmprt/DxgkRemovalHibernation
 f1_keywords:
  - "dispmprt/DXGK_SURPRISE_REMOVAL_TYPE"

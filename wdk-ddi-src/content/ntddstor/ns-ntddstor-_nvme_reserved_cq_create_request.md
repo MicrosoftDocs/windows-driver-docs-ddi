@@ -5,7 +5,7 @@ description:
 tech.root: storage
 ms.assetid: 4861a8c9-346e-44ac-af68-1a7e0f915b6f
 ms.date: 10/19/2018
-keywords: ["_NVME_RESERVED_CQ_CREATE_REQUEST structure"]
+keywords: ["NVME_RESERVED_CQ_CREATE_REQUEST structure"]
 f1_keywords:
  - "ntddstor/_NVME_RESERVED_CQ_CREATE_REQUEST"
  - "_NVME_RESERVED_CQ_CREATE_REQUEST"

@@ -6,7 +6,7 @@ old-location: storage\ide_request_block.htm
 tech.root: storage
 ms.assetid: 9e112984-0a7e-4bb9-a10f-b50ab67ce4f3
 ms.date: 03/29/2018
-keywords: ["_IDE_REQUEST_BLOCK structure"]
+keywords: ["IDE_REQUEST_BLOCK structure"]
 ms.keywords: "*PIDE_REQUEST_BLOCK, IDE_REQUEST_BLOCK, IDE_REQUEST_BLOCK structure [Storage Devices], PIDE_REQUEST_BLOCK, PIDE_REQUEST_BLOCK structure pointer [Storage Devices], _IDE_REQUEST_BLOCK, irb/IDE_REQUEST_BLOCK, irb/PIDE_REQUEST_BLOCK, storage.ide_request_block, structs-ATA_d1c6164f-8964-4e37-a9d4-9948215ed7cc.xml"
 f1_keywords:
  - "irb/IDE_REQUEST_BLOCK"

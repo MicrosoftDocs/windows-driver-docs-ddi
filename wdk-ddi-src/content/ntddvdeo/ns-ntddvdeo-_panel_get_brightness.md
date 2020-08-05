@@ -5,7 +5,7 @@ description: Gets the current brightness level, plus details on the brightness t
 tech.root: display
 ms.assetid: f7fbdbb4-f3cc-4ab7-b891-370190a96c19
 ms.date: 10/19/2018
-keywords: ["_PANEL_GET_BRIGHTNESS structure"]
+keywords: ["PANEL_GET_BRIGHTNESS structure"]
 f1_keywords:
  - "ntddvdeo/_PANEL_GET_BRIGHTNESS"
  - "_PANEL_GET_BRIGHTNESS"

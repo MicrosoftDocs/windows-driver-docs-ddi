@@ -6,7 +6,7 @@ old-location: netvista\wwan_pco_value.htm
 tech.root: netvista
 ms.assetid: 45A499CE-2C9A-4070-BEF8-880E7673FA8E
 ms.date: 05/02/2018
-keywords: ["_WWAN_PCO_VALUE structure"]
+keywords: ["WWAN_PCO_VALUE structure"]
 ms.keywords: "*PWWAN_PCO_VALUE, PWWAN_PCO_VALUE, PWWAN_PCO_VALUE structure pointer [Network Drivers Starting with Windows Vista], WWAN_PCO_VALUE, WWAN_PCO_VALUE structure [Network Drivers Starting with Windows Vista], _WWAN_PCO_VALUE, netvista.wwan_pco_value, wwan/PWWAN_PCO_VALUE, wwan/WWAN_PCO_VALUE"
 f1_keywords:
  - "wwan/WWAN_PCO_VALUE"

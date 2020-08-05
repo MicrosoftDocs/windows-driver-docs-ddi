@@ -6,7 +6,7 @@ old-location: ifsk\system_alarm_ace.htm
 tech.root: ifsk
 ms.assetid: 6337d61e-a47e-4c84-b635-9df48d655b04
 ms.date: 04/16/2018
-keywords: ["_SYSTEM_ALARM_ACE structure"]
+keywords: ["SYSTEM_ALARM_ACE structure"]
 ms.keywords: "*PSYSTEM_ALARM_ACE, SYSTEM_ALARM_ACE, SYSTEM_ALARM_ACE structure [Installable File System Drivers], _SYSTEM_ALARM_ACE, ifsk.system_alarm_ace, ntifs/SYSTEM_ALARM_ACE, securitystructures_8a768255-9e14-48eb-83ba-66b212a1dcc1.xml"
 f1_keywords:
  - "ntifs/SYSTEM_ALARM_ACE"

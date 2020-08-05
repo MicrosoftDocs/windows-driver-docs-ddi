@@ -6,7 +6,7 @@ old-location: pci\sriov_proxy_query_luid_output.htm
 tech.root: PCI
 ms.assetid: 8db09aa8-240d-40b6-a28c-77158aff6c39
 ms.date: 02/24/2018
-keywords: ["_SRIOV_PROXY_QUERY_LUID_OUTPUT structure"]
+keywords: ["SRIOV_PROXY_QUERY_LUID_OUTPUT structure"]
 ms.keywords: "*PSRIOV_PROXY_QUERY_LUID_OUTPUT, PCI.sriov_proxy_query_luid_output, SRIOV_PROXY_QUERY_LUID_OUTPUT, SRIOV_PROXY_QUERY_LUID_OUTPUT structure [Buses], _SRIOV_PROXY_QUERY_LUID_OUTPUT, pcivirt/SRIOV_PROXY_QUERY_LUID_OUTPUT"
 f1_keywords:
  - "pcivirt/SRIOV_PROXY_QUERY_LUID_OUTPUT"

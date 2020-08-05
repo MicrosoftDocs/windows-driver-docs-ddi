@@ -5,7 +5,7 @@ description: The DXGK_VIDMMCAPS structure identifies the video memory management
 old-location: display\dxgk_vidmmcaps.htm
 ms.assetid: c3df50a0-2388-4760-b6e2-ef6af650d0e2
 ms.date: 03/24/2020
-keywords: ["_DXGK_VIDMMCAPS structure"]
+keywords: ["DXGK_VIDMMCAPS structure"]
 ms.keywords: DXGK_VIDMMCAPS, DXGK_VIDMMCAPS structure [Display Devices], DmStructs_0ec3e7bb-c14e-41b8-a148-7f77153972e8.xml, _DXGK_VIDMMCAPS, d3dkmddi/DXGK_VIDMMCAPS, display.dxgk_vidmmcaps
 f1_keywords:
  - "d3dkmddi/DXGK_VIDMMCAPS"

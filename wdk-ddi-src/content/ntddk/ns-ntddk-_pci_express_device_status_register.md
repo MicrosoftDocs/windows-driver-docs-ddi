@@ -6,7 +6,7 @@ old-location: pci\pci_express_device_status_register.htm
 tech.root: PCI
 ms.assetid: a4c92364-59d4-442c-879b-fba770d8d612
 ms.date: 02/24/2018
-keywords: ["_PCI_EXPRESS_DEVICE_STATUS_REGISTER structure"]
+keywords: ["PCI_EXPRESS_DEVICE_STATUS_REGISTER structure"]
 ms.keywords: "*PPCI_EXPRESS_DEVICE_STATUS_REGISTER, PCI.pci_express_device_status_register, PCI_EXPRESS_DEVICE_STATUS_REGISTER, PCI_EXPRESS_DEVICE_STATUS_REGISTER union [Buses], PPCI_EXPRESS_DEVICE_STATUS_REGISTER, PPCI_EXPRESS_DEVICE_STATUS_REGISTER union pointer [Buses], _PCI_EXPRESS_DEVICE_STATUS_REGISTER, ntddk/PCI_EXPRESS_DEVICE_STATUS_REGISTER, ntddk/PPCI_EXPRESS_DEVICE_STATUS_REGISTER, pci_struct_90e0cf73-2c43-444d-bdaa-77fd00d483a7.xml"
 f1_keywords:
  - "ntddk/PCI_EXPRESS_DEVICE_STATUS_REGISTER"

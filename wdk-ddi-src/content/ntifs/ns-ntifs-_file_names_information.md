@@ -6,7 +6,7 @@ old-location: ifsk\file_names_information.htm
 tech.root: ifsk
 ms.assetid: a9eb4606-fe55-4f77-914a-656ebe247066
 ms.date: 04/16/2018
-keywords: ["_FILE_NAMES_INFORMATION structure"]
+keywords: ["FILE_NAMES_INFORMATION structure"]
 ms.keywords: "*PFILE_NAMES_INFORMATION, FILE_NAMES_INFORMATION, FILE_NAMES_INFORMATION structure [Installable File System Drivers], PFILE_NAMES_INFORMATION, PFILE_NAMES_INFORMATION structure pointer [Installable File System Drivers], _FILE_NAMES_INFORMATION, fileinformationstructures_8349a2eb-ffeb-4050-9084-b09474079415.xml, ifsk.file_names_information, ntifs/FILE_NAMES_INFORMATION, ntifs/PFILE_NAMES_INFORMATION"
 f1_keywords:
  - "ntifs/FILE_NAMES_INFORMATION"

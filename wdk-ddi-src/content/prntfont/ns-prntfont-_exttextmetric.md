@@ -6,7 +6,7 @@ old-location: print\exttextmetric.htm
 tech.root: print
 ms.assetid: d3d2397c-71c3-4904-a1ad-96a94698e50c
 ms.date: 04/20/2018
-keywords: ["_EXTTEXTMETRIC structure"]
+keywords: ["EXTTEXTMETRIC structure"]
 ms.keywords: "*PEXTTEXTMETRIC, EXTTEXTMETRIC, EXTTEXTMETRIC structure [Print Devices], PEXTTEXTMETRIC, PEXTTEXTMETRIC structure pointer [Print Devices], _EXTTEXTMETRIC, print.exttextmetric, print_unidrv-pscript_fonts_8b9f67ef-9ab0-40e4-9474-c506de9c8824.xml, prntfont/EXTTEXTMETRIC, prntfont/PEXTTEXTMETRIC"
 f1_keywords:
  - "prntfont/EXTTEXTMETRIC"

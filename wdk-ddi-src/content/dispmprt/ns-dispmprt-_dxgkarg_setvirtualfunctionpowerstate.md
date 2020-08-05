@@ -7,7 +7,7 @@ tech.root: display
 ms.assetid: 9dfe1c32-54a4-41d9-85b7-89872c807359
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
-keywords: ["_DXGKARG_SETVIRTUALFUNCTIONPOWERSTATE structure"]
+keywords: ["DXGKARG_SETVIRTUALFUNCTIONPOWERSTATE structure"]
 f1_keywords:
  - "dispmprt/_DXGKARG_SETVIRTUALFUNCTIONPOWERSTATE"
  - "_DXGKARG_SETVIRTUALFUNCTIONPOWERSTATE"

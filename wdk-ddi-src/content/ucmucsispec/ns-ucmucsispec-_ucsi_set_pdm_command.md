@@ -5,7 +5,7 @@ description: Obsolete.
 ms.assetid: 9f813bd2-bfcb-450f-a8bb-77df5b79270a
 tech.root: usbref
 ms.date: 09/30/2018
-keywords: ["_UCSI_SET_PDM_COMMAND structure"]
+keywords: ["UCSI_SET_PDM_COMMAND structure"]
 f1_keywords:
  - "ucmucsispec/_UCSI_SET_PDM_COMMAND"
  - "_UCSI_SET_PDM_COMMAND"

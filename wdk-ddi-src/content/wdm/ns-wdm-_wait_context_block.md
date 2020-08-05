@@ -4,7 +4,7 @@ title: _WAIT_CONTEXT_BLOCK (wdm.h)
 description: Reserved. Do not use.
 ms.assetid: 6b495490-3f9c-4d80-8e87-ec468237d1e1
 ms.date: 10/19/2018
-keywords: ["_WAIT_CONTEXT_BLOCK structure"]
+keywords: ["WAIT_CONTEXT_BLOCK structure"]
 f1_keywords:
  - "wdm/_WAIT_CONTEXT_BLOCK"
  - "_WAIT_CONTEXT_BLOCK"

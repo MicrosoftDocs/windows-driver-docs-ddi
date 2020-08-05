@@ -6,7 +6,7 @@ old-location: stream\ksfilter_descriptor.htm
 tech.root: stream
 ms.assetid: c9e3c1ea-a8c9-45db-a31c-7f8e95cf6b2b
 ms.date: 04/23/2018
-keywords: ["_KSFILTER_DESCRIPTOR structure"]
+keywords: ["KSFILTER_DESCRIPTOR structure"]
 ms.keywords: "*PKSFILTER_DESCRIPTOR, KSFILTER_DESCRIPTOR, KSFILTER_DESCRIPTOR structure [Streaming Media Devices], PKSFILTER_DESCRIPTOR, PKSFILTER_DESCRIPTOR structure pointer [Streaming Media Devices], _KSFILTER_DESCRIPTOR, avstruct_f9b8c041-9001-42a5-989e-3de86daa56fe.xml, ks/KSFILTER_DESCRIPTOR, ks/PKSFILTER_DESCRIPTOR, stream.ksfilter_descriptor"
 f1_keywords:
  - "ks/KSFILTER_DESCRIPTOR"

@@ -6,7 +6,7 @@ old-location: wdf\wdf_power_device_state_umdf.htm
 tech.root: wdf
 ms.assetid: de92bf06-b8fa-4c16-9216-95d68ca75111
 ms.date: 02/26/2018
-keywords: ["_WDF_POWER_DEVICE_STATE enumeration"]
+keywords: ["WDF_POWER_DEVICE_STATE enumeration"]
 ms.keywords: "*PWDF_POWER_DEVICE_STATE, WDF_POWER_DEVICE_STATE, WDF_POWER_DEVICE_STATE enumeration, WdfPowerDeviceD0, WdfPowerDeviceD1, WdfPowerDeviceD2, WdfPowerDeviceD3, WdfPowerDeviceD3Final, WdfPowerDeviceInvalid, WdfPowerDeviceMaximum, WdfPowerDevicePrepareForHibernation, _WDF_POWER_DEVICE_STATE, umdf.wdf_power_device_state, umdfstructs_2037a598-edcf-4359-b17d-3d5f42eda92a.xml, wdf.wdf_power_device_state_umdf, wudfddi_types/WDF_POWER_DEVICE_STATE, wudfddi_types/WdfPowerDeviceD0, wudfddi_types/WdfPowerDeviceD1, wudfddi_types/WdfPowerDeviceD2, wudfddi_types/WdfPowerDeviceD3, wudfddi_types/WdfPowerDeviceD3Final, wudfddi_types/WdfPowerDeviceInvalid, wudfddi_types/WdfPowerDeviceMaximum, wudfddi_types/WdfPowerDevicePrepareForHibernation"
 f1_keywords:
  - "wudfddi_types/WDF_POWER_DEVICE_STATE"

@@ -6,7 +6,7 @@ old-location: netvista\wdi_frame_metadata.htm
 tech.root: netvista
 ms.assetid: 34733e8f-cbe0-4fcd-abcf-6791e298282f
 ms.date: 05/02/2018
-keywords: ["_WDI_FRAME_METADATA structure"]
+keywords: ["WDI_FRAME_METADATA structure"]
 ms.keywords: "*PWDI_FRAME_METADATA, PWDI_FRAME_METADATA, PWDI_FRAME_METADATA structure pointer [Network Drivers Starting with Windows Vista], WDI_FRAME_METADATA, WDI_FRAME_METADATA structure [Network Drivers Starting with Windows Vista], _WDI_FRAME_METADATA, dot11wdi/PWDI_FRAME_METADATA, dot11wdi/WDI_FRAME_METADATA, netvista.wdi_frame_metadata, netvista.wifi_frame_metadata"
 f1_keywords:
  - "dot11wdi/WDI_FRAME_METADATA"

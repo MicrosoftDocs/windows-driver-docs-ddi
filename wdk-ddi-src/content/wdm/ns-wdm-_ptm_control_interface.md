@@ -4,7 +4,7 @@ title: _PTM_CONTROL_INTERFACE (wdm.h)
 description: Resereved. Do not use.
 ms.assetid: ac2d0ac1-6ce2-47c5-b31e-935d16358a86
 ms.date: 10/19/2018
-keywords: ["_PTM_CONTROL_INTERFACE structure"]
+keywords: ["PTM_CONTROL_INTERFACE structure"]
 f1_keywords:
  - "wdm/_PTM_CONTROL_INTERFACE"
  - "_PTM_CONTROL_INTERFACE"

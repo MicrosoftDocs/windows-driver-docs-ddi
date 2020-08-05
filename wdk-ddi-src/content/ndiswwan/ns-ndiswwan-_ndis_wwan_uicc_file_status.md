@@ -5,7 +5,7 @@ description: The NDIS_WWAN_UICC_FILE_STATUS structure describes the status of a 
 tech.root: netvista
 ms.assetid: 7A1325CD-8F65-492E-A943-D3E6BAAD8CDE
 ms.date: 04/09/2019
-keywords: ["_NDIS_WWAN_UICC_FILE_STATUS structure"]
+keywords: ["NDIS_WWAN_UICC_FILE_STATUS structure"]
 f1_keywords:
  - "ndiswwan/_NDIS_WWAN_UICC_FILE_STATUS"
  - "_NDIS_WWAN_UICC_FILE_STATUS"

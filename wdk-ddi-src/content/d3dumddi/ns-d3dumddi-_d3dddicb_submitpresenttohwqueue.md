@@ -4,7 +4,7 @@ title: _D3DDDICB_SUBMITPRESENTTOHWQUEUE (d3dumddi.h)
 description: Arguments used by the PFND3DDDI_SUBMITPRESENTTOHWQUEUECB callback function.
 ms.assetid: 47ca9041-9e7a-4afa-9e82-0148f8985078
 ms.date: 10/19/2018
-keywords: ["_D3DDDICB_SUBMITPRESENTTOHWQUEUE structure"]
+keywords: ["D3DDDICB_SUBMITPRESENTTOHWQUEUE structure"]
 f1_keywords:
  - "d3dumddi/_D3DDDICB_SUBMITPRESENTTOHWQUEUE"
  - "_D3DDDICB_SUBMITPRESENTTOHWQUEUE"

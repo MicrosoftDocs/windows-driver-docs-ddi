@@ -6,7 +6,7 @@ old-location: biometric\winbio_calibration_info.htm
 tech.root: biometric
 ms.assetid: 12ea0460-30c1-4ce0-9a3b-c59a71493fe7
 ms.date: 02/20/2018
-keywords: ["_WINBIO_CALIBRATION_INFO structure"]
+keywords: ["WINBIO_CALIBRATION_INFO structure"]
 ms.keywords: "*PWINBIO_CALIBRATION_INFO, PWINBIO_CALIBRATION_INFO, PWINBIO_CALIBRATION_INFO structure pointer [Biometric Devices], WINBIO_CALIBRATION_INFO, WINBIO_CALIBRATION_INFO structure [Biometric Devices], _WINBIO_CALIBRATION_INFO, biometric.winbio_calibration_info, biometric_ref_15065b26-3c1d-49f5-8546-b8962f848072.xml, winbio_ioctl/PWINBIO_CALIBRATION_INFO, winbio_ioctl/WINBIO_CALIBRATION_INFO"
 f1_keywords:
  - "winbio_ioctl/WINBIO_CALIBRATION_INFO"

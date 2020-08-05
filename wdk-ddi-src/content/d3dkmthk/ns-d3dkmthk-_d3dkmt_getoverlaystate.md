@@ -5,7 +5,7 @@ description: The D3DKMT_GETOVERLAYSTATE structure describes parameters that the 
 old-location: display\d3dkmt_getoverlaystate.htm
 ms.assetid: fe3443e7-0dc9-4c91-88ab-b05bac19516d
 ms.date: 05/10/2018
-keywords: ["_D3DKMT_GETOVERLAYSTATE structure"]
+keywords: ["D3DKMT_GETOVERLAYSTATE structure"]
 ms.keywords: D3DKMT_GETOVERLAYSTATE, D3DKMT_GETOVERLAYSTATE structure [Display Devices], OpenGL_Structs_c9bee52b-d6ba-45ee-9af6-b795685715bb.xml, _D3DKMT_GETOVERLAYSTATE, d3dkmthk/D3DKMT_GETOVERLAYSTATE, display.d3dkmt_getoverlaystate
 f1_keywords:
  - "d3dkmthk/D3DKMT_GETOVERLAYSTATE"

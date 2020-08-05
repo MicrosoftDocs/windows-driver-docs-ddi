@@ -6,7 +6,7 @@ old-location: display\d3dddicb_lock2flags.htm
 tech.root: display
 ms.assetid: 1F802912-F99B-4C04-9ABD-8FCC50FD3859
 ms.date: 05/10/2018
-keywords: ["_D3DDDICB_LOCK2FLAGS structure"]
+keywords: ["D3DDDICB_LOCK2FLAGS structure"]
 ms.keywords: D3DDDICB_LOCK2FLAGS, D3DDDICB_LOCK2FLAGS structure [Display Devices], _D3DDDICB_LOCK2FLAGS, d3dukmdt/D3DDDICB_LOCK2FLAGS, display.d3dddicb_lock2flags
 f1_keywords:
  - "d3dukmdt/D3DDDICB_LOCK2FLAGS"

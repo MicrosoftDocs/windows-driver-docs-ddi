@@ -6,7 +6,7 @@ old-location: stream\bda_ipv4_address.htm
 tech.root: stream
 ms.assetid: 5206CEEB-C1EF-4AE0-B4BC-52E8D85AD706
 ms.date: 04/23/2018
-keywords: ["_BDA_IPv4_ADDRESS structure"]
+keywords: ["BDA_IPv4_ADDRESS structure"]
 ms.keywords: "*PBDA_IPv4_ADDRESS, BDA_IPv4_ADDRESS, BDA_IPv4_ADDRESS structure [Streaming Media Devices], PBDA_IPv4_ADDRESS, PBDA_IPv4_ADDRESS structure pointer [Streaming Media Devices], _BDA_IPv4_ADDRESS, bdatypes/BDA_IPv4_ADDRESS, bdatypes/PBDA_IPv4_ADDRESS, stream.bda_ipv4_address"
 f1_keywords:
  - "bdatypes/BDA_IPv4_ADDRESS"

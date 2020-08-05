@@ -6,7 +6,7 @@ old-location: kernel\pci_common_config.htm
 tech.root: kernel
 ms.assetid: 239d0c0a-e78e-40d5-b359-36910bdd9358
 ms.date: 04/30/2018
-keywords: ["_PCI_COMMON_CONFIG structure"]
+keywords: ["PCI_COMMON_CONFIG structure"]
 ms.keywords: "*PPCI_COMMON_CONFIG, PCI_COMMON_CONFIG, PCI_COMMON_CONFIG structure [Kernel-Mode Driver Architecture], PPCI_COMMON_CONFIG, PPCI_COMMON_CONFIG structure pointer [Kernel-Mode Driver Architecture], _PCI_COMMON_CONFIG, kernel.pci_common_config, kstruct_c_42f21057-e812-4a4d-96c5-f1177a03982b.xml, wdm/PCI_COMMON_CONFIG, wdm/PPCI_COMMON_CONFIG"
 f1_keywords:
  - "miniport/PCI_COMMON_CONFIG"

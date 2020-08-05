@@ -6,7 +6,7 @@ old-location: storage\scsireadcapacity_out2.htm
 tech.root: storage
 ms.assetid: bf295061-42d6-4f2e-a39e-9bac440b0d93
 ms.date: 03/29/2018
-keywords: ["_ScsiReadCapacity_OUT structure"]
+keywords: ["ScsiReadCapacity_OUT structure"]
 ms.keywords: "*PScsiReadCapacity_OUT, PScsiReadCapacity_OUT, PScsiReadCapacity_OUT structure pointer [Storage Devices], ScsiReadCapacity_OUT, ScsiReadCapacity_OUT structure [Storage Devices], _ScsiReadCapacity_OUT, hbapiwmi/PScsiReadCapacity_OUT, hbapiwmi/ScsiReadCapacity_OUT, storage.scsireadcapacity_out2, structs-Fibre_b362afaf-6cf2-4e2b-9239-11d7fdec3d74.xml"
 f1_keywords:
  - "hbapiwmi/ScsiReadCapacity_OUT"

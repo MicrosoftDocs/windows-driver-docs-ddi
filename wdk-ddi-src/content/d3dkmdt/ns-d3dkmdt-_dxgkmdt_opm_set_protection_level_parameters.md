@@ -6,7 +6,7 @@ old-location: display\dxgkmdt_opm_set_protection_level_parameters.htm
 tech.root: display
 ms.assetid: e5b35b0d-c7ad-4a67-8552-13df4c9c2b84
 ms.date: 05/10/2018
-keywords: ["_DXGKMDT_OPM_SET_PROTECTION_LEVEL_PARAMETERS structure"]
+keywords: ["DXGKMDT_OPM_SET_PROTECTION_LEVEL_PARAMETERS structure"]
 ms.keywords: DXGKMDT_OPM_SET_PROTECTION_LEVEL_PARAMETERS, DXGKMDT_OPM_SET_PROTECTION_LEVEL_PARAMETERS structure [Display Devices], DmStructs_9d43af01-039a-4f68-8583-b42ae54a5bbe.xml, _DXGKMDT_OPM_SET_PROTECTION_LEVEL_PARAMETERS, d3dkmdt/DXGKMDT_OPM_SET_PROTECTION_LEVEL_PARAMETERS, display.dxgkmdt_opm_set_protection_level_parameters
 f1_keywords:
  - "d3dkmdt/DXGKMDT_OPM_SET_PROTECTION_LEVEL_PARAMETERS"

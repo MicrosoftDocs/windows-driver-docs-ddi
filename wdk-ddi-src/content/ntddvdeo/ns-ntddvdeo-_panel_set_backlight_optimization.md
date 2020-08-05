@@ -5,7 +5,7 @@ description: Used to set the level of optimization used to control the brightnes
 tech.root: display
 ms.assetid: 08ccd864-748e-4831-834d-7a06a80e8dd3
 ms.date: 10/19/2018
-keywords: ["_PANEL_SET_BACKLIGHT_OPTIMIZATION structure"]
+keywords: ["PANEL_SET_BACKLIGHT_OPTIMIZATION structure"]
 f1_keywords:
  - "ntddvdeo/_PANEL_SET_BACKLIGHT_OPTIMIZATION"
  - "_PANEL_SET_BACKLIGHT_OPTIMIZATION"

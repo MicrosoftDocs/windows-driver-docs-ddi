@@ -6,7 +6,7 @@ old-location: ieee\get_unit_info.htm
 tech.root: IEEE
 ms.assetid: 2FE13A53-5B88-40B8-B129-8DD141F1B160
 ms.date: 02/15/2018
-keywords: ["_GET_UNIT_INFO structure"]
+keywords: ["GET_UNIT_INFO structure"]
 ms.keywords: "*PGET_UNIT_INFO, 61883/GET_UNIT_INFO, 61883/PGET_UNIT_INFO, GET_UNIT_INFO, GET_UNIT_INFO structure [Buses], IEEE.get_unit_info, PGET_UNIT_INFO, PGET_UNIT_INFO structure pointer [Buses], _GET_UNIT_INFO"
 f1_keywords:
  - "61883/GET_UNIT_INFO"

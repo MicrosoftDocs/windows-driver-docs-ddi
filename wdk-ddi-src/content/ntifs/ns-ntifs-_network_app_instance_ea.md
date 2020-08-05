@@ -5,7 +5,7 @@ description: An Extended Attribute (EA) structure for processes using Server Mes
 ms.assetid: d9763ddb-d0c3-4ed5-b157-4a85503fba3b
 ms.date: 10/19/2018
 tech.root: ifsk
-keywords: ["_NETWORK_APP_INSTANCE_EA structure"]
+keywords: ["NETWORK_APP_INSTANCE_EA structure"]
 f1_keywords:
  - "ntifs/_NETWORK_APP_INSTANCE_EA"
  - "_NETWORK_APP_INSTANCE_EA"

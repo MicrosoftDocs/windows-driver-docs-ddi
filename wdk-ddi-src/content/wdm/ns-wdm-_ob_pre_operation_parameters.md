@@ -6,7 +6,7 @@ old-location: kernel\ob_pre_operation_parameters.htm
 tech.root: kernel
 ms.assetid: 211bd3b1-34ca-414d-9167-0587c90cb56a
 ms.date: 04/30/2018
-keywords: ["_OB_PRE_OPERATION_PARAMETERS structure"]
+keywords: ["OB_PRE_OPERATION_PARAMETERS structure"]
 ms.keywords: "*POB_PRE_OPERATION_PARAMETERS, OB_PRE_OPERATION_PARAMETERS, OB_PRE_OPERATION_PARAMETERS union [Kernel-Mode Driver Architecture], POB_PRE_OPERATION_PARAMETERS, POB_PRE_OPERATION_PARAMETERS union pointer [Kernel-Mode Driver Architecture], _OB_PRE_OPERATION_PARAMETERS, kernel.ob_pre_operation_parameters, kstruct_c_328dfe5b-e8ed-4277-9003-e194abbf81ba.xml, wdm/OB_PRE_OPERATION_PARAMETERS, wdm/POB_PRE_OPERATION_PARAMETERS"
 f1_keywords:
  - "wdm/OB_PRE_OPERATION_PARAMETERS"

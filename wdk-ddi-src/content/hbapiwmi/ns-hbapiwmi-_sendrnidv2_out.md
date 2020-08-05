@@ -6,7 +6,7 @@ old-location: storage\sendrnidv2_out.htm
 tech.root: storage
 ms.assetid: 2d8f1b49-5add-4dd9-998f-d0c1e79f3e7d
 ms.date: 03/29/2018
-keywords: ["_SendRNIDV2_OUT structure"]
+keywords: ["SendRNIDV2_OUT structure"]
 ms.keywords: "*PSendRNIDV2_OUT, PSendRNIDV2_OUT, PSendRNIDV2_OUT structure pointer [Storage Devices], SendRNIDV2_OUT, SendRNIDV2_OUT structure [Storage Devices], _SendRNIDV2_OUT, hbapiwmi/PSendRNIDV2_OUT, hbapiwmi/SendRNIDV2_OUT, storage.sendrnidv2_out, structs-Fibre_78855dda-228d-432f-8189-8be83df6d2ea.xml"
 f1_keywords:
  - "hbapiwmi/SendRNIDV2_OUT"

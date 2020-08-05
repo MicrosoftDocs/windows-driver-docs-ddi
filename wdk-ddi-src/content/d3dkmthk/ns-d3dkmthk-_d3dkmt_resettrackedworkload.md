@@ -4,7 +4,7 @@ title: _D3DKMT_RESETTRACKEDWORKLOAD (d3dkmthk.h)
 description: Arguments used to reset a tracked workload.
 ms.assetid: 3a2215f1-384a-4eec-9b96-f1290b561d02
 ms.date: 10/19/2018
-keywords: ["_D3DKMT_RESETTRACKEDWORKLOAD structure"]
+keywords: ["D3DKMT_RESETTRACKEDWORKLOAD structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_RESETTRACKEDWORKLOAD"
  - "_D3DKMT_RESETTRACKEDWORKLOAD"

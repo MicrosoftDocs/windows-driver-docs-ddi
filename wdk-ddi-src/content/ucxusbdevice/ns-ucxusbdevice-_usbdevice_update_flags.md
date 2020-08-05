@@ -6,7 +6,7 @@ old-location: buses\_usbdevice_update_flags.htm
 tech.root: usbref
 ms.assetid: 36F009C8-046B-437A-83D6-AE8D5BF51AF3
 ms.date: 05/07/2018
-keywords: ["_USBDEVICE_UPDATE_FLAGS structure"]
+keywords: ["USBDEVICE_UPDATE_FLAGS structure"]
 ms.keywords: P_USBDEVICE_UPDATE_FLAGS, P_USBDEVICE_UPDATE_FLAGS structure pointer [Buses], USBDEVICE_UPDATE_FLAGS, USBDEVICE_UPDATE_FLAGS structure [Buses], _USBDEVICE_UPDATE_FLAGS, buses._usbdevice_update_flags, ucxusbdevice/P_USBDEVICE_UPDATE_FLAGS, ucxusbdevice/_USBDEVICE_UPDATE_FLAGS
 f1_keywords:
  - "ucxusbdevice/USBDEVICE_UPDATE_FLAGS"

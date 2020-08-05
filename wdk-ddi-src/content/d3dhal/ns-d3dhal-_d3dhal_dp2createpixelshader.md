@@ -6,7 +6,7 @@ old-location: display\d3dhal_dp2createpixelshader.htm
 tech.root: display
 ms.assetid: aa3a7f17-7210-458f-979b-1da455790e4a
 ms.date: 05/10/2018
-keywords: ["_D3DHAL_DP2CREATEPIXELSHADER structure"]
+keywords: ["D3DHAL_DP2CREATEPIXELSHADER structure"]
 ms.keywords: "*LPD3DHAL_DP2CREATEPIXELSHADER, D3DHAL_DP2CREATEPIXELSHADER, D3DHAL_DP2CREATEPIXELSHADER structure [Display Devices], LPD3DHAL_DP2CREATEPIXELSHADER, LPD3DHAL_DP2CREATEPIXELSHADER structure pointer [Display Devices], _D3DHAL_DP2CREATEPIXELSHADER, d3dhal/D3DHAL_DP2CREATEPIXELSHADER, d3dhal/LPD3DHAL_DP2CREATEPIXELSHADER, d3dstrct_b17c15ca-697a-407b-b304-ac52ccf6ce6e.xml, display.d3dhal_dp2createpixelshader"
 f1_keywords:
  - "d3dhal/D3DHAL_DP2CREATEPIXELSHADER"

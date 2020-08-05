@@ -5,7 +5,7 @@ description: The WWAN_SET_CONTEXT_V2 structure represents a provisioned context 
 tech.root: netvista
 ms.assetid: dc9fa1f8-b145-4cea-a856-6bd9e54394ca
 ms.date: 08/22/2018
-keywords: ["_WWAN_SET_CONTEXT_V2 structure"]
+keywords: ["WWAN_SET_CONTEXT_V2 structure"]
 f1_keywords:
  - "wwan/_WWAN_SET_CONTEXT_V2"
  - "_WWAN_SET_CONTEXT_V2"

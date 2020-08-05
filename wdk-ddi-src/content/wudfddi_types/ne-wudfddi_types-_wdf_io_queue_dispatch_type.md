@@ -6,7 +6,7 @@ old-location: wdf\wdf_io_queue_dispatch_type_umdf.htm
 tech.root: wdf
 ms.assetid: 40f4cd91-ba84-426c-b248-6027d1e8d1a4
 ms.date: 02/26/2018
-keywords: ["_WDF_IO_QUEUE_DISPATCH_TYPE enumeration"]
+keywords: ["WDF_IO_QUEUE_DISPATCH_TYPE enumeration"]
 ms.keywords: WDF_IO_QUEUE_DISPATCH_TYPE, WDF_IO_QUEUE_DISPATCH_TYPE enumeration, WdfIoQueueDispatchManual, WdfIoQueueDispatchMaximum, WdfIoQueueDispatchParallel, WdfIoQueueDispatchSequential, _WDF_IO_QUEUE_DISPATCH_TYPE, umdf.wdf_io_queue_dispatch_type, umdfstructs_7f7744f6-7f47-4e8e-a74d-fb0217a59f34.xml, wdf.wdf_io_queue_dispatch_type_umdf, wudfddi_types/WDF_IO_QUEUE_DISPATCH_TYPE, wudfddi_types/WdfIoQueueDispatchManual, wudfddi_types/WdfIoQueueDispatchMaximum, wudfddi_types/WdfIoQueueDispatchParallel, wudfddi_types/WdfIoQueueDispatchSequential
 f1_keywords:
  - "wudfddi_types/WDF_IO_QUEUE_DISPATCH_TYPE"

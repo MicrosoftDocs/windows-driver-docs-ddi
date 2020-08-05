@@ -4,7 +4,7 @@ title: _BRIGHTNESS_INTERFACE_VERSION (ntddvdeo.h)
 description: Specifies the brightness interface versions.
 ms.assetid: 2d13834a-bed3-4906-9a5c-778864173641
 ms.date: 10/19/2018
-keywords: ["_BRIGHTNESS_INTERFACE_VERSION enumeration"]
+keywords: ["BRIGHTNESS_INTERFACE_VERSION enumeration"]
 f1_keywords:
  - "ntddvdeo/_BRIGHTNESS_INTERFACE_VERSION"
  - "_BRIGHTNESS_INTERFACE_VERSION"

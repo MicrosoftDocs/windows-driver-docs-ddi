@@ -6,7 +6,7 @@ old-location: display\dxgk_fault_error_code.htm
 tech.root: display
 ms.assetid: 753FC177-D430-40E5-98CD-B3BDFD47ACEF
 ms.date: 05/10/2018
-keywords: ["_DXGK_FAULT_ERROR_CODE structure"]
+keywords: ["DXGK_FAULT_ERROR_CODE structure"]
 ms.keywords: DXGK_FAULT_ERROR_CODE, DXGK_FAULT_ERROR_CODE structure [Display Devices], _DXGK_FAULT_ERROR_CODE, d3dkmdt/DXGK_FAULT_ERROR_CODE, display.dxgk_fault_error_code
 f1_keywords:
  - "d3dkmdt/DXGK_FAULT_ERROR_CODE"

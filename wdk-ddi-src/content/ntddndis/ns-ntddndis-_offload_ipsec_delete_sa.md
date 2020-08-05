@@ -6,7 +6,7 @@ old-location: netvista\offload_ipsec_delete_sa.htm
 tech.root: netvista
 ms.assetid: a8c34bf8-1f3a-4aa3-834b-5824402bd88c
 ms.date: 05/02/2018
-keywords: ["_OFFLOAD_IPSEC_DELETE_SA structure"]
+keywords: ["OFFLOAD_IPSEC_DELETE_SA structure"]
 ms.keywords: "*POFFLOAD_IPSEC_DELETE_SA, 216offload_1e6bbc64-755a-4da3-a7d2-ce57c4b98ce6.xml, OFFLOAD_IPSEC_DELETE_SA, OFFLOAD_IPSEC_DELETE_SA structure [Network Drivers Starting with Windows Vista], POFFLOAD_IPSEC_DELETE_SA, POFFLOAD_IPSEC_DELETE_SA structure pointer [Network Drivers Starting with Windows Vista], _OFFLOAD_IPSEC_DELETE_SA, netvista.offload_ipsec_delete_sa, ntddndis/OFFLOAD_IPSEC_DELETE_SA, ntddndis/POFFLOAD_IPSEC_DELETE_SA"
 f1_keywords:
  - "ntddndis/OFFLOAD_IPSEC_DELETE_SA"

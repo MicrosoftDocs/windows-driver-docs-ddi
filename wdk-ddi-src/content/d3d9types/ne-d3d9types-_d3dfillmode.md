@@ -4,7 +4,7 @@ title: _D3DFILLMODE (d3d9types.h)
 description: 
 ms.assetid: d581af24-b229-428e-9dfd-45e1ff38fa79
 ms.date: 10/19/2018
-keywords: ["_D3DFILLMODE enumeration"]
+keywords: ["D3DFILLMODE enumeration"]
 f1_keywords:
  - "d3d9types/_D3DFILLMODE"
  - "_D3DFILLMODE"

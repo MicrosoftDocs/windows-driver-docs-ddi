@@ -5,7 +5,7 @@ description: Specifies an overlay plane to display in a call to the DxgkDdiSetVi
 old-location: display\dxgk_multiplane_overlay_plane.htm
 ms.assetid: 8ea1abc7-b861-4217-a3ab-cf60026d9608
 ms.date: 05/10/2018
-keywords: ["_DXGK_MULTIPLANE_OVERLAY_PLANE structure"]
+keywords: ["DXGK_MULTIPLANE_OVERLAY_PLANE structure"]
 ms.keywords: DXGK_MULTIPLANE_OVERLAY_PLANE, DXGK_MULTIPLANE_OVERLAY_PLANE structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_PLANE, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_PLANE, display.dxgk_multiplane_overlay_plane
 f1_keywords:
  - "d3dkmddi/DXGK_MULTIPLANE_OVERLAY_PLANE"

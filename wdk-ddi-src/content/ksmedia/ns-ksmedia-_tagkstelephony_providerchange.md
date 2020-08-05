@@ -6,7 +6,7 @@ old-location: audio\kstelephony_providerchange.htm
 tech.root: audio
 ms.assetid: 07928837-321C-4501-BDFF-4611BF6912F6
 ms.date: 05/08/2018
-keywords: ["_tagKSTELEPHONY_PROVIDERCHANGE structure"]
+keywords: ["tagKSTELEPHONY_PROVIDERCHANGE structure"]
 ms.keywords: "*PKSTELEPHONY_PROVIDERCHANGE, KSTELEPHONY_PROVIDERCHANGE, KSTELEPHONY_PROVIDERCHANGE structure [Audio Devices], PKSTELEPHONY_PROVIDERCHANGE, PKSTELEPHONY_PROVIDERCHANGE structure pointer [Audio Devices], _tagKSTELEPHONY_PROVIDERCHANGE, audio.kstelephony_providerchange, ksmedia/KSTELEPHONY_PROVIDERCHANGE, ksmedia/PKSTELEPHONY_PROVIDERCHANGE"
 f1_keywords:
  - "ksmedia/KSTELEPHONY_PROVIDERCHANGE"

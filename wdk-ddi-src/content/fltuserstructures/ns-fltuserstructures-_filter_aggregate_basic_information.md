@@ -6,7 +6,7 @@ old-location: ifsk\filter_aggregate_basic_information.htm
 tech.root: ifsk
 ms.assetid: c60ac4b8-3e55-42c8-a693-4fc6bbec0de8
 ms.date: 04/16/2018
-keywords: ["_FILTER_AGGREGATE_BASIC_INFORMATION structure"]
+keywords: ["FILTER_AGGREGATE_BASIC_INFORMATION structure"]
 ms.keywords: "*PFILTER_AGGREGATE_BASIC_INFORMATION, FILTER_AGGREGATE_BASIC_INFORMATION, FILTER_AGGREGATE_BASIC_INFORMATION structure [Installable File System Drivers], FltSystemStructures_b8f9faf4-0b81-4536-8f86-1e3f7938c3a4.xml, PFILTER_AGGREGATE_BASIC_INFORMATION, PFILTER_AGGREGATE_BASIC_INFORMATION structure pointer [Installable File System Drivers], _FILTER_AGGREGATE_BASIC_INFORMATION, fltuserstructures/FILTER_AGGREGATE_BASIC_INFORMATION, fltuserstructures/PFILTER_AGGREGATE_BASIC_INFORMATION, ifsk.filter_aggregate_basic_information"
 f1_keywords:
  - "fltuserstructures/FILTER_AGGREGATE_BASIC_INFORMATION"

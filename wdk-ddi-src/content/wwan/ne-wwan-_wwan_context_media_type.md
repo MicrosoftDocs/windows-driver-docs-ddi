@@ -5,7 +5,7 @@ description: The WWAN_CONTEXT_MEDIA_TYPE enumeration specifies the type of media
 tech.root: netvista
 ms.assetid: 1ec0496c-61a8-4148-9a13-6964f68555cb
 ms.date: 08/22/2018
-keywords: ["_WWAN_CONTEXT_MEDIA_TYPE enumeration"]
+keywords: ["WWAN_CONTEXT_MEDIA_TYPE enumeration"]
 f1_keywords:
  - "wwan/_WWAN_CONTEXT_MEDIA_TYPE"
  - "_WWAN_CONTEXT_MEDIA_TYPE"

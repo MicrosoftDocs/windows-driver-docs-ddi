@@ -6,7 +6,7 @@ old-location: display\dxgk_monitorlinkinfo.htm
 
 ms.assetid: 4A22CC69-F529-4D0B-BF00-877468E29429
 ms.date: 04/16/2018
-keywords: ["_DXGK_MONITORLINKINFO structure"]
+keywords: ["DXGK_MONITORLINKINFO structure"]
 ms.keywords: DXGK_MONITORLINKINFO, DXGK_MONITORLINKINFO structure [Display Devices], PDXGK_MONITORLINKINFO, PDXGK_MONITORLINKINFO structure pointer [Display Devices], _DXGK_MONITORLINKINFO, d3dkmddi/DXGK_MONITORLINKINFO, d3dkmddi/PDXGK_MONITORLINKINFO, display.dxgk_monitorlinkinfo
 f1_keywords:
  - "d3dkmddi/DXGK_MONITORLINKINFO"

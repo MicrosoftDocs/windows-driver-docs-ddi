@@ -6,7 +6,7 @@ old-location: debugger\debug_processor_identification_all.htm
 tech.root: debugger
 ms.assetid: 2C4C03BC-0D84-4151-B1A1-FE76F0355CD6
 ms.date: 05/03/2018
-keywords: ["_DEBUG_PROCESSOR_IDENTIFICATION_ALL structure"]
+keywords: ["DEBUG_PROCESSOR_IDENTIFICATION_ALL structure"]
 ms.keywords: "*PDEBUG_PROCESSOR_IDENTIFICATION_ALL, DEBUG_PROCESSOR_IDENTIFICATION_ALL, DEBUG_PROCESSOR_IDENTIFICATION_ALL union [Windows Debugging], _DEBUG_PROCESSOR_IDENTIFICATION_ALL, dbgeng/DEBUG_PROCESSOR_IDENTIFICATION_ALL, debugger.debug_processor_identification_all"
 f1_keywords:
  - "dbgeng/DEBUG_PROCESSOR_IDENTIFICATION_ALL"

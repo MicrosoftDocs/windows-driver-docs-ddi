@@ -4,7 +4,7 @@ title: _HAL_QUERY_INFORMATION_CLASS (ntddk.h)
 description:  The values are reserved for internal use.
 ms.assetid: 1512ba13-b7a4-4418-bccb-7a65ec5f43c6
 ms.date: 09/30/2018
-keywords: ["_HAL_QUERY_INFORMATION_CLASS enumeration"]
+keywords: ["HAL_QUERY_INFORMATION_CLASS enumeration"]
 f1_keywords:
  - "ntddk/_HAL_QUERY_INFORMATION_CLASS"
  - "_HAL_QUERY_INFORMATION_CLASS"

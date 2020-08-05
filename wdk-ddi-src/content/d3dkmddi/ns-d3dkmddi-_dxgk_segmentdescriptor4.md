@@ -5,7 +5,7 @@ description: The DXGK_SEGMENTDESCRIPTOR4 structure describes a programmable CPU 
 old-location: display\dxgk_segmentdescriptor4.htm
 ms.assetid: 0958443F-1554-47B0-83B9-283D98D927CE
 ms.date: 05/10/2018
-keywords: ["_DXGK_SEGMENTDESCRIPTOR4 structure"]
+keywords: ["DXGK_SEGMENTDESCRIPTOR4 structure"]
 ms.keywords: DXGK_SEGMENTDESCRIPTOR4, DXGK_SEGMENTDESCRIPTOR4 structure [Display Devices], _DXGK_SEGMENTDESCRIPTOR4, d3dkmddi/DXGK_SEGMENTDESCRIPTOR4, display.dxgk_segmentdescriptor4
 f1_keywords:
  - "d3dkmddi/DXGK_SEGMENTDESCRIPTOR4"

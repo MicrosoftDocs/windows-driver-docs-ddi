@@ -6,7 +6,7 @@ old-location: netvista\ndk_mr.htm
 tech.root: netvista
 ms.assetid: F0585210-048E-4397-98E4-46640731E66C
 ms.date: 05/02/2018
-keywords: ["_NDK_MR structure"]
+keywords: ["NDK_MR structure"]
 ms.keywords: NDK_MR, NDK_MR structure [Network Drivers Starting with Windows Vista], PNDK_MR, PNDK_MR structure pointer [Network Drivers Starting with Windows Vista], _NDK_MR, ndkpi/NDK_MR, ndkpi/PNDK_MR, netvista.ndk_mr
 f1_keywords:
  - "ndkpi/NDK_MR"

@@ -6,7 +6,7 @@ old-location: pos\posdevicebasicstype.htm
 tech.root: pos
 ms.assetid: 5f882f37-0554-48c0-b4a0-026d42452f56
 ms.date: 02/23/2018
-keywords: ["_PosDeviceBasicsType structure"]
+keywords: ["PosDeviceBasicsType structure"]
 ms.keywords: PosDeviceBasicsType, PosDeviceBasicsType structure, _PosDeviceBasicsType, pointofservicedriverinterface/PosDeviceBasicsType, pos.posdevicebasicstype
 f1_keywords:
  - "pointofservicedriverinterface/PosDeviceBasicsType"

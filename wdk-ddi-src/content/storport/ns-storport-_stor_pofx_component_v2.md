@@ -6,7 +6,7 @@ old-location: storage\stor_pofx_component_v2.htm
 tech.root: storage
 ms.assetid: 2FF6B375-C213-48AC-9497-6CE3F1170BAA
 ms.date: 03/29/2018
-keywords: ["_STOR_POFX_COMPONENT_V2 structure"]
+keywords: ["STOR_POFX_COMPONENT_V2 structure"]
 ms.keywords: "*PSTOR_POFX_COMPONENT_V2, PSTOR_POFX_COMPONENT_V2, PSTOR_POFX_COMPONENT_V2 structure pointer [Storage Devices], STOR_POFX_COMPONENT_V2, STOR_POFX_COMPONENT_V2 structure [Storage Devices], _STOR_POFX_COMPONENT_V2, storage.stor_pofx_component_v2, storport/PSTOR_POFX_COMPONENT_V2, storport/STOR_POFX_COMPONENT"
 f1_keywords:
  - "storport/STOR_POFX_COMPONENT_V2"

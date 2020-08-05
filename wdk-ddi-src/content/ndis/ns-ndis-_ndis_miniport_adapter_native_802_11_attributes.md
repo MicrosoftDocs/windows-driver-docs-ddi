@@ -6,7 +6,7 @@ old-location: netvista\ndis_miniport_adapter_native_802_11_attributes.htm
 tech.root: netvista
 ms.assetid: f841c7f9-9ad3-4b53-b2d9-0d66d6e64b8b
 ms.date: 02/16/2018
-keywords: ["_NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES structure"]
+keywords: ["NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES structure"]
 ms.keywords: "*PNDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES, NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES, NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_7b3396ce-7830-4b08-8df4-e0d8f49c7144.xml, PNDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES, PNDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES, ndis/NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES, ndis/PNDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES, netvista.ndis_miniport_adapter_native_802_11_attributes"
 f1_keywords:
  - "ndis/NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES"

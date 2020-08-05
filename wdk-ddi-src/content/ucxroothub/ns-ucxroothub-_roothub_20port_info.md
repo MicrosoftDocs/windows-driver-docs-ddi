@@ -6,7 +6,7 @@ old-location: buses\_roothub_20port_info.htm
 tech.root: usbref
 ms.assetid: AA71D015-B047-497C-A9E1-32E5E73AD0C2
 ms.date: 05/07/2018
-keywords: ["_ROOTHUB_20PORT_INFO structure"]
+keywords: ["ROOTHUB_20PORT_INFO structure"]
 ms.keywords: "*PROOTHUB_20PORT_INFO, P_ROOTHUB_20PORT_INFO, P_ROOTHUB_20PORT_INFO structure pointer [Buses], ROOTHUB_20PORT_INFO, ROOTHUB_20PORT_INFO structure [Buses], _ROOTHUB_20PORT_INFO, buses._roothub_20port_info, ucxroothub/P_ROOTHUB_20PORT_INFO, ucxroothub/_ROOTHUB_20PORT_INFO"
 f1_keywords:
  - "ucxroothub/ROOTHUB_20PORT_INFO"
