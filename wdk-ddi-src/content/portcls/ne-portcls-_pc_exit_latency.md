@@ -6,7 +6,7 @@ old-location: audio\pc_exit_latency.htm
 tech.root: audio
 ms.assetid: 9D1DA7D6-4200-4B5A-9EA5-0455DF56D6D8
 ms.date: 05/08/2018
-keywords: ["_PC_EXIT_LATENCY enumeration"]
+keywords: ["PC_EXIT_LATENCY enumeration"]
 ms.keywords: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY, PC_EXIT_LATENCY enumeration [Audio Devices], PcExitLatencyFast, PcExitLatencyInstant, PcExitLatencyResponsive, _PC_EXIT_LATENCY, audio.pc_exit_latency, portcls/PC_EXIT_LATENCY, portcls/PcExitLatencyFast, portcls/PcExitLatencyInstant, portcls/PcExitLatencyResponsive"
 f1_keywords:
  - "portcls/PC_EXIT_LATENCY"

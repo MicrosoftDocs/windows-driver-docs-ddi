@@ -5,7 +5,7 @@ description: D3DKMT_UPDATEGPUVIRTUALADDRESS is used with UpdateGpuVirtualAddress
 old-location: display\d3dkmt_updategpuvirtualaddress.htm
 ms.assetid: B6586406-6CAD-479F-AE41-93EFBA195B99
 ms.date: 05/10/2018
-keywords: ["_D3DKMT_UPDATEGPUVIRTUALADDRESS structure"]
+keywords: ["D3DKMT_UPDATEGPUVIRTUALADDRESS structure"]
 ms.keywords: D3DKMT_UPDATEGPUVIRTUALADDRESS, D3DKMT_UPDATEGPUVIRTUALADDRESS structure [Display Devices], _D3DKMT_UPDATEGPUVIRTUALADDRESS, d3dkmthk/D3DKMT_UPDATEGPUVIRTUALADDRESS, display.d3dkmt_updategpuvirtualaddress
 f1_keywords:
  - "d3dkmthk/D3DKMT_UPDATEGPUVIRTUALADDRESS"

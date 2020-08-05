@@ -5,7 +5,7 @@ description: The MESSAGE OUT data structure. See Section 3.5.
 ms.assetid: c6b580ab-45c4-4cc9-b466-ae3d599b33b9
 tech.root: usbref
 ms.date: 09/30/2018
-keywords: ["_UCSI_MESSAGE_OUT structure"]
+keywords: ["UCSI_MESSAGE_OUT structure"]
 f1_keywords:
  - "ucmucsispec/_UCSI_MESSAGE_OUT"
  - "_UCSI_MESSAGE_OUT"

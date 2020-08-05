@@ -6,7 +6,7 @@ old-location: acpi\gic_its.htm
 tech.root: acpi
 ms.assetid: C0DA1B09-230E-4DE6-98CD-F80243D63B95
 ms.date: 02/15/2018
-keywords: ["_GIC_ITS structure"]
+keywords: ["GIC_ITS structure"]
 ms.keywords: "*PGIC_ITS, GIC_ITS, GIC_ITS structure [ACPI Devices], _GIC_ITS, acpi.gic_its, acpitabl/GIC_ITS"
 f1_keywords:
  - "acpitabl/GIC_ITS"

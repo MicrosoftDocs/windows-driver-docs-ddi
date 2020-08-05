@@ -6,7 +6,7 @@ old-location: kernel\pep_ppm_resume_from_system_state.htm
 tech.root: kernel
 ms.assetid: 281f223a-1189-4045-9a3a-17433432a6a3
 ms.date: 04/30/2018
-keywords: ["_PEP_PPM_RESUME_FROM_SYSTEM_STATE structure"]
+keywords: ["PEP_PPM_RESUME_FROM_SYSTEM_STATE structure"]
 ms.keywords: "*PPEP_PPM_RESUME_FROM_SYSTEM_STATE, PEP_PPM_RESUME_FROM_SYSTEM_STATE, PEP_PPM_RESUME_FROM_SYSTEM_STATE structure [Kernel-Mode Driver Architecture], _PEP_PPM_RESUME_FROM_SYSTEM_STATE, kernel.pep_ppm_resume_from_system_state, pepfx/PEP_PPM_RESUME_FROM_SYSTEM_STATE"
 f1_keywords:
  - "pepfx/PEP_PPM_RESUME_FROM_SYSTEM_STATE"

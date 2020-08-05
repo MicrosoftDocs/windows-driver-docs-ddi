@@ -6,7 +6,7 @@ old-location: storage\feature_data_mrw.htm
 tech.root: storage
 ms.assetid: af0c8c50-c5a0-4395-a608-fced6ac3cfe5
 ms.date: 03/29/2018
-keywords: ["_FEATURE_DATA_MRW structure"]
+keywords: ["FEATURE_DATA_MRW structure"]
 ms.keywords: "*PFEATURE_DATA_MRW, FEATURE_DATA_MRW, FEATURE_DATA_MRW structure [Storage Devices], PFEATURE_DATA_MRW, PFEATURE_DATA_MRW structure pointer [Storage Devices], _FEATURE_DATA_MRW, ntddmmc/FEATURE_DATA_MRW, ntddmmc/PFEATURE_DATA_MRW, storage.feature_data_mrw, structs-CD-ROM_54208a52-0bc2-4e97-a3b1-4d57f5192ce4.xml"
 f1_keywords:
  - "ntddmmc/FEATURE_DATA_MRW"

@@ -6,7 +6,7 @@ old-location: buses\usbd_endpoint_offload_mode.htm
 tech.root: usbref
 ms.assetid: 577B2B5E-934E-4354-B6FF-FDFE9D1144D7
 ms.date: 05/07/2018
-keywords: ["_USBD_ENDPOINT_OFFLOAD_MODE enumeration"]
+keywords: ["USBD_ENDPOINT_OFFLOAD_MODE enumeration"]
 ms.keywords: USBD_ENDPOINT_OFFLOAD_MODE, USBD_ENDPOINT_OFFLOAD_MODE enumeration [Buses], UsbdEndpointOffloadHardwareAssisted, UsbdEndpointOffloadModeNotSupported, UsbdEndpointOffloadSoftwareAssisted, _USBD_ENDPOINT_OFFLOAD_MODE, buses.usbd_endpoint_offload_mode, usb/USBD_ENDPOINT_OFFLOAD_MODE, usb/UsbdEndpointOffloadHardwareAssisted, usb/UsbdEndpointOffloadModeNotSupported, usb/UsbdEndpointOffloadSoftwareAssisted
 f1_keywords:
  - "usb/USBD_ENDPOINT_OFFLOAD_MODE"

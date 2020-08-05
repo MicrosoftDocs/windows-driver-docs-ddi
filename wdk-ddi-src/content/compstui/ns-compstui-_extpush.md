@@ -6,7 +6,7 @@ old-location: print\extpush.htm
 tech.root: print
 ms.assetid: c38d7eca-6486-4bb1-b0a8-7f69fe13f7db
 ms.date: 04/20/2018
-keywords: ["_EXTPUSH structure"]
+keywords: ["EXTPUSH structure"]
 ms.keywords: "*PEXTPUSH, EXTPUSH, EXTPUSH structure [Print Devices], PEXTPUSH, PEXTPUSH structure pointer [Print Devices], _EXTPUSH, compstui/EXTPUSH, compstui/PEXTPUSH, cpsuifnc_d8f5e9ba-ef61-4adb-959f-1d0ebf456dad.xml, print.extpush"
 f1_keywords:
  - "compstui/EXTPUSH"

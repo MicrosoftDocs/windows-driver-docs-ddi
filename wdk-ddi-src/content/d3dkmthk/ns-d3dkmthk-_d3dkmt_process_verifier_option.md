@@ -4,7 +4,7 @@ title: _D3DKMT_PROCESS_VERIFIER_OPTION (d3dkmthk.h)
 description: The process verifier options.
 ms.assetid: da3d3e93-844c-452b-a424-693e9d968faa
 ms.date: 10/19/2018
-keywords: ["_D3DKMT_PROCESS_VERIFIER_OPTION structure"]
+keywords: ["D3DKMT_PROCESS_VERIFIER_OPTION structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_PROCESS_VERIFIER_OPTION"
  - "_D3DKMT_PROCESS_VERIFIER_OPTION"

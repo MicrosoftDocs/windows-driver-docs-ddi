@@ -6,7 +6,7 @@ old-location: kernel\ps_create_notify_info.htm
 tech.root: kernel
 ms.assetid: 66fade6b-b1c1-477c-bd44-2809d02271f2
 ms.date: 04/30/2018
-keywords: ["_PS_CREATE_NOTIFY_INFO structure"]
+keywords: ["PS_CREATE_NOTIFY_INFO structure"]
 ms.keywords: "*PPS_CREATE_NOTIFY_INFO, PPS_CREATE_NOTIFY_INFO, PPS_CREATE_NOTIFY_INFO structure pointer [Kernel-Mode Driver Architecture], PS_CREATE_NOTIFY_INFO, PS_CREATE_NOTIFY_INFO structure [Kernel-Mode Driver Architecture], _PS_CREATE_NOTIFY_INFO, kernel.ps_create_notify_info, kstruct_c_489ee208-518d-41f1-af90-a8873f3e7fb0.xml, ntddk/PPS_CREATE_NOTIFY_INFO, ntddk/PS_CREATE_NOTIFY_INFO"
 f1_keywords:
  - "ntddk/PS_CREATE_NOTIFY_INFO"

@@ -6,7 +6,7 @@ old-location: display\umdetw_allocation_usage.htm
 tech.root: display
 ms.assetid: 40522471-0fbc-4193-8164-60138e3862fe
 ms.date: 05/10/2018
-keywords: ["_UMDETW_ALLOCATION_USAGE structure"]
+keywords: ["UMDETW_ALLOCATION_USAGE structure"]
 ms.keywords: UMDETW_ALLOCATION_USAGE, UMDETW_ALLOCATION_USAGE structure [Display Devices], _UMDETW_ALLOCATION_USAGE, display.umdetw_allocation_usage, umdprovider/UMDETW_ALLOCATION_USAGE
 f1_keywords:
  - "umdprovider/UMDETW_ALLOCATION_USAGE"

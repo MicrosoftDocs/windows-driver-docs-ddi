@@ -6,7 +6,7 @@ old-location: display\dxgk_display_ownership_flags.htm
 tech.root: display
 ms.assetid: F5CA04FD-5E2A-4C68-97CF-F3D425A958AA
 ms.date: 05/10/2018
-keywords: ["_DXGK_DISPLAY_OWNERSHIP_FLAGS structure"]
+keywords: ["DXGK_DISPLAY_OWNERSHIP_FLAGS structure"]
 ms.keywords: "*PDXGK_DISPLAY_OWNERSHIP_FLAGS, DXGK_DISPLAY_OWNERSHIP_FLAGS, DXGK_DISPLAY_OWNERSHIP_FLAGS structure [Display Devices], PDXGK_DISPLAY_OWNERSHIP_FLAGS, PDXGK_DISPLAY_OWNERSHIP_FLAGS structure pointer [Display Devices], _DXGK_DISPLAY_OWNERSHIP_FLAGS, display.dxgk_display_ownership_flags, dispmprt/DXGK_DISPLAY_OWNERSHIP_FLAGS, dispmprt/PDXGK_DISPLAY_OWNERSHIP_FLAGS"
 f1_keywords:
  - "dispmprt/DXGK_DISPLAY_OWNERSHIP_FLAGS"

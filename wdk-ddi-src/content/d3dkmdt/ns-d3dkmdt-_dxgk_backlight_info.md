@@ -6,7 +6,7 @@ old-location: display\dxgk_backlight_info.htm
 tech.root: display
 ms.assetid: 9008e5e6-e03c-4d34-99bd-3e6624327fcc
 ms.date: 05/10/2018
-keywords: ["_DXGK_BACKLIGHT_INFO structure"]
+keywords: ["DXGK_BACKLIGHT_INFO structure"]
 ms.keywords: DXGK_BACKLIGHT_INFO, DXGK_BACKLIGHT_INFO structure [Display Devices], _DXGK_BACKLIGHT_INFO, d3dkmdt/DXGK_BACKLIGHT_INFO, display.dxgk_backlight_info
 f1_keywords:
  - "d3dkmdt/DXGK_BACKLIGHT_INFO"

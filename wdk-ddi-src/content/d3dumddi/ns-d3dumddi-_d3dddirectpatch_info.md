@@ -4,7 +4,7 @@ title: _D3DDDIRECTPATCH_INFO (d3dumddi.h)
 description: Contains direct patch info.
 ms.assetid: a70a51fa-7efb-4b84-afe4-524fe3295b34
 ms.date: 10/19/2018
-keywords: ["_D3DDDIRECTPATCH_INFO structure"]
+keywords: ["D3DDDIRECTPATCH_INFO structure"]
 f1_keywords:
  - "d3dumddi/_D3DDDIRECTPATCH_INFO"
  - "_D3DDDIRECTPATCH_INFO"

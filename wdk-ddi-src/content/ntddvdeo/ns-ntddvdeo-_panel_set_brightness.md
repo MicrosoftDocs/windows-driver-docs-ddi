@@ -5,7 +5,7 @@ description: Directs the driver to linearly ramp the brightness from its current
 tech.root: display
 ms.assetid: d16d02f1-de69-4224-9e52-3ce78dcc63f3
 ms.date: 10/19/2018
-keywords: ["_PANEL_SET_BRIGHTNESS structure"]
+keywords: ["PANEL_SET_BRIGHTNESS structure"]
 f1_keywords:
  - "ntddvdeo/_PANEL_SET_BRIGHTNESS"
  - "_PANEL_SET_BRIGHTNESS"

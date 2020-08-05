@@ -6,7 +6,7 @@ old-location: buses\_ucx_usbdevice_event_callbacks.htm
 tech.root: usbref
 ms.assetid: 7A320D48-E71C-40FE-A2EF-201CFCE55145
 ms.date: 05/07/2018
-keywords: ["_UCX_USBDEVICE_EVENT_CALLBACKS structure"]
+keywords: ["UCX_USBDEVICE_EVENT_CALLBACKS structure"]
 ms.keywords: "*PUCX_USBDEVICE_EVENT_CALLBACKS, P_UCX_USBDEVICE_EVENT_CALLBACKS, P_UCX_USBDEVICE_EVENT_CALLBACKS structure pointer [Buses], UCX_USBDEVICE_EVENT_CALLBACKS, UCX_USBDEVICE_EVENT_CALLBACKS structure [Buses], _UCX_USBDEVICE_EVENT_CALLBACKS, buses._ucx_usbdevice_event_callbacks, ucxusbdevice/P_UCX_USBDEVICE_EVENT_CALLBACKS, ucxusbdevice/_UCX_USBDEVICE_EVENT_CALLBACKS"
 f1_keywords:
  - "ucxusbdevice/UCX_USBDEVICE_EVENT_CALLBACKS"

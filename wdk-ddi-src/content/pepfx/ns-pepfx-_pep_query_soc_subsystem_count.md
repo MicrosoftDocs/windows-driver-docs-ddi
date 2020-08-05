@@ -6,7 +6,7 @@ old-location: kernel\pep_query_soc_subsystem_count.htm
 tech.root: kernel
 ms.assetid: 1DB17B90-41B7-4DA2-AFB6-3A4B218068F6
 ms.date: 04/30/2018
-keywords: ["_PEP_QUERY_SOC_SUBSYSTEM_COUNT structure"]
+keywords: ["PEP_QUERY_SOC_SUBSYSTEM_COUNT structure"]
 ms.keywords: "*PPEP_QUERY_SOC_SUBSYSTEM_COUNT, PEP_QUERY_SOC_SUBSYSTEM_COUNT, PEP_QUERY_SOC_SUBSYSTEM_COUNT structure [Kernel-Mode Driver Architecture], PPEP_QUERY_SOC_SUBSYSTEM_COUNT, PPEP_QUERY_SOC_SUBSYSTEM_COUNT structure pointer [Kernel-Mode Driver Architecture], _PEP_QUERY_SOC_SUBSYSTEM_COUNT, kernel.pep_query_soc_subsystem_count, pepfx/PEP_QUERY_SOC_SUBSYSTEM_COUNT, pepfx/PPEP_QUERY_SOC_SUBSYSTEM_COUNT"
 f1_keywords:
  - "pepfx/PEP_QUERY_SOC_SUBSYSTEM_COUNT"

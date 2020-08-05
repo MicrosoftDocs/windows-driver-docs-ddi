@@ -4,7 +4,7 @@ title: _D3DKMT_TRIMPROCESSCOMMITMENT (d3dkmthk.h)
 description: Contains info about the trim process commitment.
 ms.assetid: 5fa87236-7631-4426-83d1-3785c9cb7d6a
 ms.date: 10/19/2018
-keywords: ["_D3DKMT_TRIMPROCESSCOMMITMENT structure"]
+keywords: ["D3DKMT_TRIMPROCESSCOMMITMENT structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_TRIMPROCESSCOMMITMENT"
  - "_D3DKMT_TRIMPROCESSCOMMITMENT"

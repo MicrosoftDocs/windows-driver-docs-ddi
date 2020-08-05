@@ -6,7 +6,7 @@ old-location: storage\feature_data_cd_track_at_once.htm
 tech.root: storage
 ms.assetid: e3ce42a6-0d94-46cb-9831-c29f92a677cd
 ms.date: 03/29/2018
-keywords: ["_FEATURE_DATA_CD_TRACK_AT_ONCE structure"]
+keywords: ["FEATURE_DATA_CD_TRACK_AT_ONCE structure"]
 ms.keywords: "*PFEATURE_DATA_CD_TRACK_AT_ONCE, FEATURE_DATA_CD_TRACK_AT_ONCE, FEATURE_DATA_CD_TRACK_AT_ONCE structure [Storage Devices], PFEATURE_DATA_CD_TRACK_AT_ONCE, PFEATURE_DATA_CD_TRACK_AT_ONCE structure pointer [Storage Devices], _FEATURE_DATA_CD_TRACK_AT_ONCE, ntddmmc/FEATURE_DATA_CD_TRACK_AT_ONCE, ntddmmc/PFEATURE_DATA_CD_TRACK_AT_ONCE, storage.feature_data_cd_track_at_once, structs-CD-ROM_d2648aa5-b3d5-49f2-98d1-01e90dd72332.xml"
 f1_keywords:
  - "ntddmmc/FEATURE_DATA_CD_TRACK_AT_ONCE"

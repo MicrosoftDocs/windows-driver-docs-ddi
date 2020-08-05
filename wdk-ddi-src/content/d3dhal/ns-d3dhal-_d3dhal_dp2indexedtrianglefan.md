@@ -6,7 +6,7 @@ old-location: display\d3dhal_dp2indexedtrianglefan.htm
 tech.root: display
 ms.assetid: cdc3dd16-6bf2-495c-8df1-aa9c670d1e7a
 ms.date: 05/10/2018
-keywords: ["_D3DHAL_DP2INDEXEDTRIANGLEFAN structure"]
+keywords: ["D3DHAL_DP2INDEXEDTRIANGLEFAN structure"]
 ms.keywords: "*LPD3DHAL_DP2INDEXEDTRIANGLEFAN, D3DHAL_DP2INDEXEDTRIANGLEFAN, D3DHAL_DP2INDEXEDTRIANGLEFAN structure [Display Devices], LPD3DHAL_DP2INDEXEDTRIANGLEFAN, LPD3DHAL_DP2INDEXEDTRIANGLEFAN structure pointer [Display Devices], _D3DHAL_DP2INDEXEDTRIANGLEFAN, d3dhal/D3DHAL_DP2INDEXEDTRIANGLEFAN, d3dhal/LPD3DHAL_DP2INDEXEDTRIANGLEFAN, d3dstrct_72b499fd-e571-4dbb-a9b8-c2debf754b41.xml, display.d3dhal_dp2indexedtrianglefan"
 f1_keywords:
  - "d3dhal/D3DHAL_DP2INDEXEDTRIANGLEFAN"

@@ -6,7 +6,7 @@ old-location: netvista\ndis_wwan_pco_status.htm
 tech.root: netvista
 ms.assetid: C71187C5-74B6-450A-8461-BB9FDF60DB8D
 ms.date: 05/02/2018
-keywords: ["_NDIS_WWAN_PCO_STATUS structure"]
+keywords: ["NDIS_WWAN_PCO_STATUS structure"]
 ms.keywords: "*PNDIS_WWAN_PCO_STATUS, NDIS_WWAN_PCO_STATUS, NDIS_WWAN_PCO_STATUS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_PCO_STATUS, PNDIS_WWAN_PCO_STATUS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_PCO_STATUS, ndiswwan/NDIS_WWAN_PCO_STATUS, ndiswwan/PNDIS_WWAN_PCO_STATUS, netvista.ndis_wwan_pco_status"
 f1_keywords:
  - "ndiswwan/NDIS_WWAN_PCO_STATUS"

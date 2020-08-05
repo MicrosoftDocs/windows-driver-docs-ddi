@@ -6,7 +6,7 @@ old-location: print\docevent_createdcpre.htm
 tech.root: print
 ms.assetid: ad95d11e-c170-4c21-a498-45e38f41cbbb
 ms.date: 04/20/2018
-keywords: ["_DOCEVENT_CREATEDCPRE structure"]
+keywords: ["DOCEVENT_CREATEDCPRE structure"]
 ms.keywords: "*PDCEVENT_CREATEDCPRE, DOCEVENT_CREATEDCPRE, DOCEVENT_CREATEDCPRE structure [Print Devices], PDCEVENT_CREATEDCPRE, PDCEVENT_CREATEDCPRE structure pointer [Print Devices], _DOCEVENT_CREATEDCPRE, print.docevent_createdcpre, print_interface-graphics_cb3123e7-a842-4fd8-b01a-4402c63bb43a.xml, winddiui/DOCEVENT_CREATEDCPRE, winddiui/PDCEVENT_CREATEDCPRE"
 f1_keywords:
  - "winddiui/DOCEVENT_CREATEDCPRE"

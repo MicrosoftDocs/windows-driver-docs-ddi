@@ -5,7 +5,7 @@ description: The NDIS_WWAN_SET_SAR_TRANSMISSION_STATUS structure sets Specific A
 tech.root: netvista
 ms.assetid: ee6af893-986d-4286-8c74-37dabc5ac834
 ms.date: 08/20/2018
-keywords: ["_NDIS_WWAN_SET_SAR_TRANSMISSION_STATUS structure"]
+keywords: ["NDIS_WWAN_SET_SAR_TRANSMISSION_STATUS structure"]
 f1_keywords:
  - "ndiswwan/_NDIS_WWAN_SET_SAR_TRANSMISSION_STATUS"
  - "_NDIS_WWAN_SET_SAR_TRANSMISSION_STATUS"

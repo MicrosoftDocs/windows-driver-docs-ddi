@@ -6,7 +6,7 @@ old-location: gpio\gpio_write_pins_mask_parameters.htm
 tech.root: GPIO
 ms.assetid: 5861FC4E-9902-4839-9829-B04F6AED61FE
 ms.date: 02/15/2018
-keywords: ["_GPIO_WRITE_PINS_MASK_PARAMETERS structure"]
+keywords: ["GPIO_WRITE_PINS_MASK_PARAMETERS structure"]
 ms.keywords: "*PGPIO_WRITE_PINS_MASK_PARAMETERS, GPIO.gpio_write_pins_mask_parameters, GPIO_WRITE_PINS_MASK_PARAMETERS, GPIO_WRITE_PINS_MASK_PARAMETERS structure [Parallel Ports], PGPIO_WRITE_PINS_MASK_PARAMETERS, PGPIO_WRITE_PINS_MASK_PARAMETERS structure pointer [Parallel Ports], _GPIO_WRITE_PINS_MASK_PARAMETERS, gpioclx/GPIO_WRITE_PINS_MASK_PARAMETERS, gpioclx/PGPIO_WRITE_PINS_MASK_PARAMETERS"
 f1_keywords:
  - "gpioclx/GPIO_WRITE_PINS_MASK_PARAMETERS"

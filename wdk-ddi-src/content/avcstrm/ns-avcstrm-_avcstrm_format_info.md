@@ -6,7 +6,7 @@ old-location: stream\avcstrm_format_info.htm
 tech.root: stream
 ms.assetid: de8e262b-bcb9-4549-94cc-0a73df45bddc
 ms.date: 04/23/2018
-keywords: ["_AVCSTRM_FORMAT_INFO structure"]
+keywords: ["AVCSTRM_FORMAT_INFO structure"]
 ms.keywords: "*PAVCSTRM_FORMAT_INFO, AVCSTRM_FORMAT_INFO, AVCSTRM_FORMAT_INFO structure [Streaming Media Devices], PAVCSTRM_FORMAT_INFO, PAVCSTRM_FORMAT_INFO structure pointer [Streaming Media Devices], _AVCSTRM_FORMAT_INFO, avcsref_e41f0bb0-8407-4338-9a68-46c00116ae92.xml, avcstrm/AVCSTRM_FORMAT_INFO, avcstrm/PAVCSTRM_FORMAT_INFO, stream.avcstrm_format_info"
 f1_keywords:
  - "avcstrm/AVCSTRM_FORMAT_INFO"

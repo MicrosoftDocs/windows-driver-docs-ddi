@@ -5,7 +5,7 @@ description: The DXGK_VIDSCHCAPS structure identifies the graphics processing un
 old-location: display\dxgk_vidschcaps.htm
 ms.assetid: 714741b5-aec1-4d79-8199-00e8d97e6637
 ms.date: 05/10/2018
-keywords: ["_DXGK_VIDSCHCAPS structure"]
+keywords: ["DXGK_VIDSCHCAPS structure"]
 ms.keywords: DXGK_VIDSCHCAPS, DXGK_VIDSCHCAPS structure [Display Devices], DmStructs_01f721e4-8585-46b1-a911-9fa904a29f7e.xml, _DXGK_VIDSCHCAPS, d3dkmddi/DXGK_VIDSCHCAPS, display.dxgk_vidschcaps
 f1_keywords:
  - "d3dkmddi/DXGK_VIDSCHCAPS"

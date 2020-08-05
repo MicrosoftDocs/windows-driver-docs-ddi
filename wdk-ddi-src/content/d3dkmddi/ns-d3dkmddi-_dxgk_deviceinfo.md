@@ -5,7 +5,7 @@ description: The DXGK_DEVICEINFO structure describes parameters that the Microso
 old-location: display\dxgk_deviceinfo.htm
 ms.assetid: 8d941bee-2473-43f8-a157-002708b247aa
 ms.date: 05/10/2018
-keywords: ["_DXGK_DEVICEINFO structure"]
+keywords: ["DXGK_DEVICEINFO structure"]
 ms.keywords: DXGK_DEVICEINFO, DXGK_DEVICEINFO structure [Display Devices], DmStructs_9e654caa-e4d0-4f2f-bb1a-07bee305f8f6.xml, _DXGK_DEVICEINFO, d3dkmddi/DXGK_DEVICEINFO, display.dxgk_deviceinfo
 f1_keywords:
  - "d3dkmddi/DXGK_DEVICEINFO"

@@ -4,7 +4,7 @@ title: _DXGK_DIAGTYPE_NOTIFICATIONS (dispmprt.h)
 description: A structure used to identify one or more diagnostic types in the Notifications category.
 ms.assetid: cfebcf14-30cd-4577-a25d-98eea944834e
 ms.date: 10/19/2018
-keywords: ["_DXGK_DIAGTYPE_NOTIFICATIONS structure"]
+keywords: ["DXGK_DIAGTYPE_NOTIFICATIONS structure"]
 f1_keywords:
  - "dispmprt/_DXGK_DIAGTYPE_NOTIFICATIONS"
  - "_DXGK_DIAGTYPE_NOTIFICATIONS"

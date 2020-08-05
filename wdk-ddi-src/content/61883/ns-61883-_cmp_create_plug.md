@@ -6,7 +6,7 @@ old-location: ieee\cmp_create_plug.htm
 tech.root: IEEE
 ms.assetid: 4FE3FE9E-9F00-431D-99F0-002B1368CE34
 ms.date: 02/15/2018
-keywords: ["_CMP_CREATE_PLUG structure"]
+keywords: ["CMP_CREATE_PLUG structure"]
 ms.keywords: "*PCMP_CREATE_PLUG, 61883/CMP_CREATE_PLUG, 61883/PCMP_CREATE_PLUG, CMP_CREATE_PLUG, CMP_CREATE_PLUG structure [Buses], IEEE.cmp_create_plug, PCMP_CREATE_PLUG, PCMP_CREATE_PLUG structure pointer [Buses], _CMP_CREATE_PLUG"
 f1_keywords:
  - "61883/CMP_CREATE_PLUG"

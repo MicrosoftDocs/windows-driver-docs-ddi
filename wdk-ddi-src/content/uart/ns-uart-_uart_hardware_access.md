@@ -5,7 +5,7 @@ description: Contains I/O functions and the function pointers used by the serial
 tech.root: serports
 ms.assetid: c666e70b-c456-4fb8-baa7-487936801181
 ms.date: 10/19/2018
-keywords: ["_UART_HARDWARE_ACCESS structure"]
+keywords: ["UART_HARDWARE_ACCESS structure"]
 f1_keywords:
  - "uart/_UART_HARDWARE_ACCESS"
  - "_UART_HARDWARE_ACCESS"

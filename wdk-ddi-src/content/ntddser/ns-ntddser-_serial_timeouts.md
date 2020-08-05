@@ -6,7 +6,7 @@ old-location: serports\serial_timeouts.htm
 tech.root: serports
 ms.assetid: 58DABEF8-5886-4575-BFB0-C10709BBACAE
 ms.date: 04/23/2018
-keywords: ["_SERIAL_TIMEOUTS structure"]
+keywords: ["SERIAL_TIMEOUTS structure"]
 ms.keywords: "*PSERIAL_TIMEOUTS, PSERIAL_TIMEOUTS, PSERIAL_TIMEOUTS structure pointer [Serial Ports], SERIAL_TIMEOUTS, SERIAL_TIMEOUTS structure [Serial Ports], _SERIAL_TIMEOUTS, ntddser/PSERIAL_TIMEOUTS, ntddser/SERIAL_TIMEOUTS, serports.serial_timeouts"
 f1_keywords:
  - "ntddser/SERIAL_TIMEOUTS"

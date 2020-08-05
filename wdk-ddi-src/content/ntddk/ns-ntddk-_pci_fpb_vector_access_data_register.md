@@ -5,7 +5,7 @@ description: The FPB Vector Access Data Register. See section 7.y.9.
 tech.root: pci 
 ms.assetid: d266f2ab-3364-4618-aa4f-b8ded1676c8a
 ms.date: 09/30/2018
-keywords: ["_PCI_FPB_VECTOR_ACCESS_DATA_REGISTER structure"]
+keywords: ["PCI_FPB_VECTOR_ACCESS_DATA_REGISTER structure"]
 f1_keywords:
  - "ntddk/_PCI_FPB_VECTOR_ACCESS_DATA_REGISTER"
  - "_PCI_FPB_VECTOR_ACCESS_DATA_REGISTER"

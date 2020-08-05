@@ -4,7 +4,7 @@ title: _D3DFOGMODE (d3d9types.h)
 description: 
 ms.assetid: 37898f4e-bace-4e15-818f-f8dba81f57fb
 ms.date: 10/19/2018
-keywords: ["_D3DFOGMODE enumeration"]
+keywords: ["D3DFOGMODE enumeration"]
 f1_keywords:
  - "d3d9types/_D3DFOGMODE"
  - "_D3DFOGMODE"

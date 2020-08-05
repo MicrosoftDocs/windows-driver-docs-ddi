@@ -7,7 +7,7 @@ tech.root: display
 ms.assetid: 6705ef8c-c3f0-4b8a-8230-0e5952ba30d5
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
-keywords: ["_DXGKARG_WRITEVIRTUALFUNCTIONCONFIGBLOCK structure"]
+keywords: ["DXGKARG_WRITEVIRTUALFUNCTIONCONFIGBLOCK structure"]
 f1_keywords:
  - "dispmprt/_DXGKARG_WRITEVIRTUALFUNCTIONCONFIGBLOCK"
  - "_DXGKARG_WRITEVIRTUALFUNCTIONCONFIGBLOCK"

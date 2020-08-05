@@ -5,7 +5,7 @@ description: The HW_INITIALIZATION_DATA (Storport) structure contains informatio
 tech.root: storage
 ms.assetid: de37a235-10b4-4491-8e75-257f7c07ae32
 ms.date: 10/19/2018
-keywords: ["_HW_INITIALIZATION_DATA structure"]
+keywords: ["HW_INITIALIZATION_DATA structure"]
 f1_keywords:
  - "storport/_HW_INITIALIZATION_DATA"
  - "_HW_INITIALIZATION_DATA"

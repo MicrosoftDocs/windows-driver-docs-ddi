@@ -6,7 +6,7 @@ old-location: wdf\wdf_request_stop_action_flags.htm
 tech.root: wdf
 ms.assetid: 01f95aee-60aa-4d6f-88a9-c0fa6ea6a09a
 ms.date: 02/26/2018
-keywords: ["_WDF_REQUEST_STOP_ACTION_FLAGS enumeration"]
+keywords: ["WDF_REQUEST_STOP_ACTION_FLAGS enumeration"]
 ms.keywords: DFRequestObjectRef_e291c6a5-1e65-4505-9090-19e6ea66e7b3.xml, WDF_REQUEST_STOP_ACTION_FLAGS, WDF_REQUEST_STOP_ACTION_FLAGS enumeration, WdfRequestStopActionInvalid, WdfRequestStopActionPurge, WdfRequestStopActionSuspend, WdfRequestStopRequestCancelable, _WDF_REQUEST_STOP_ACTION_FLAGS, kmdf.wdf_request_stop_action_flags, wdf.wdf_request_stop_action_flags, wdfrequest/WDF_REQUEST_STOP_ACTION_FLAGS, wdfrequest/WdfRequestStopActionInvalid, wdfrequest/WdfRequestStopActionPurge, wdfrequest/WdfRequestStopActionSuspend, wdfrequest/WdfRequestStopRequestCancelable
 f1_keywords:
  - "wdfrequest/WDF_REQUEST_STOP_ACTION_FLAGS"

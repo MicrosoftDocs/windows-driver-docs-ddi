@@ -6,7 +6,7 @@ old-location: kernel\reg_unload_key_information.htm
 tech.root: kernel
 ms.assetid: 171d712d-89e0-44f4-aa52-b9048c20abf2
 ms.date: 04/30/2018
-keywords: ["_REG_UNLOAD_KEY_INFORMATION structure"]
+keywords: ["REG_UNLOAD_KEY_INFORMATION structure"]
 ms.keywords: "*PREG_UNLOAD_KEY_INFORMATION, PREG_UNLOAD_KEY_INFORMATION, PREG_UNLOAD_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_UNLOAD_KEY_INFORMATION, REG_UNLOAD_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], _REG_UNLOAD_KEY_INFORMATION, kernel.reg_unload_key_information, kstruct_d_3a289907-a70f-4245-a54c-5df9a71da3e6.xml, wdm/PREG_UNLOAD_KEY_INFORMATION, wdm/REG_UNLOAD_KEY_INFORMATION"
 f1_keywords:
  - "wdm/REG_UNLOAD_KEY_INFORMATION"

@@ -4,7 +4,7 @@ title: _SAVED_INTERNAL_STATUS_PARAMETER_DATA (scsi.h)
 description: 
 ms.assetid: 7af8f82a-ef8e-4942-94ed-a6851b841003
 ms.date: 10/19/2018
-keywords: ["_SAVED_INTERNAL_STATUS_PARAMETER_DATA structure"]
+keywords: ["SAVED_INTERNAL_STATUS_PARAMETER_DATA structure"]
 f1_keywords:
  - "scsi/_SAVED_INTERNAL_STATUS_PARAMETER_DATA"
  - "_SAVED_INTERNAL_STATUS_PARAMETER_DATA"

@@ -6,7 +6,7 @@ old-location: storage\msfc_tm.htm
 tech.root: storage
 ms.assetid: 7e27f53f-350e-4315-9de6-60835bddcbfb
 ms.date: 03/29/2018
-keywords: ["_MSFC_TM structure"]
+keywords: ["MSFC_TM structure"]
 ms.keywords: "*PMSFC_TM, MSFC_TM, MSFC_TM structure [Storage Devices], PMSFC_TM, PMSFC_TM structure pointer [Storage Devices], _MSFC_TM, hbapiwmi/MSFC_TM, hbapiwmi/PMSFC_TM, storage.msfc_tm, structs-Fibre_5cca5127-bbcc-4a2f-9ad2-2daeecac1448.xml"
 f1_keywords:
  - "hbapiwmi/MSFC_TM"

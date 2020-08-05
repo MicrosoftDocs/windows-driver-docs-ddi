@@ -4,7 +4,7 @@ title: _DXGK_GPUCLOCKDATA_FLAGS (d3dkmdt.h)
 description: Contains information about the GPU clock data flags.
 ms.assetid: 24796b6b-4381-48a7-93af-e8e5273bd07a
 ms.date: 10/19/2018
-keywords: ["_DXGK_GPUCLOCKDATA_FLAGS structure"]
+keywords: ["DXGK_GPUCLOCKDATA_FLAGS structure"]
 f1_keywords:
  - "d3dkmdt/_DXGK_GPUCLOCKDATA_FLAGS"
  - "_DXGK_GPUCLOCKDATA_FLAGS"

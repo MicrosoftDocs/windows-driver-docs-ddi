@@ -6,7 +6,7 @@ old-location: nfpdrivers\_secure_element_routing_table.htm
 tech.root: nfpdrivers
 ms.assetid: AD5E6434-BBBF-44CB-8153-B8F4D4F75E94
 ms.date: 02/15/2018
-keywords: ["_SECURE_ELEMENT_ROUTING_TABLE structure"]
+keywords: ["SECURE_ELEMENT_ROUTING_TABLE structure"]
 ms.keywords: "*PSECURE_ELEMENT_ROUTING_TABLE, PSECURE_ELEMENT_ROUTING_TABLE, P_SECURE_ELEMENT_ROUTING_TABLE, P_SECURE_ELEMENT_ROUTING_TABLE structure pointer [Near-Field Proximity Drivers], SECURE_ELEMENT_ROUTING_TABLE, SECURE_ELEMENT_ROUTING_TABLE structure [Near-Field Proximity Drivers], _SECURE_ELEMENT_ROUTING_TABLE, nfcsedev/P_SECURE_ELEMENT_ROUTING_TABLE, nfcsedev/_SECURE_ELEMENT_ROUTING_TABLE, nfpdrivers._secure_element_routing_table"
 f1_keywords:
  - "nfcsedev/SECURE_ELEMENT_ROUTING_TABLE"

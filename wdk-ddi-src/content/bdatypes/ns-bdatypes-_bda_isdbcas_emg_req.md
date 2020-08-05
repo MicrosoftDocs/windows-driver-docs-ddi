@@ -4,7 +4,7 @@ title: _BDA_ISDBCAS_EMG_REQ (bdatypes.h)
 description: 
 ms.assetid: 2efa8fa9-88fd-4378-b860-264be6121262
 ms.date: 10/19/2018
-keywords: ["_BDA_ISDBCAS_EMG_REQ structure"]
+keywords: ["BDA_ISDBCAS_EMG_REQ structure"]
 f1_keywords:
  - "bdatypes/_BDA_ISDBCAS_EMG_REQ"
  - "_BDA_ISDBCAS_EMG_REQ"

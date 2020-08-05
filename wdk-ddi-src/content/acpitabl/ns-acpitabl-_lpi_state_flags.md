@@ -6,7 +6,7 @@ old-location: acpi\lpi_state_flags.htm
 tech.root: acpi
 ms.assetid: 3A9DECE8-E85A-49D5-8AF1-6C7BA8B1AB7D
 ms.date: 02/15/2018
-keywords: ["_LPI_STATE_FLAGS structure"]
+keywords: ["LPI_STATE_FLAGS structure"]
 ms.keywords: "*PLPI_STATE_FLAGS, LPI_STATE_FLAGS, LPI_STATE_FLAGS union [ACPI Devices], _LPI_STATE_FLAGS, acpi.lpi_state_flags, acpitabl/LPI_STATE_FLAGS"
 f1_keywords:
  - "acpitabl/LPI_STATE_FLAGS"

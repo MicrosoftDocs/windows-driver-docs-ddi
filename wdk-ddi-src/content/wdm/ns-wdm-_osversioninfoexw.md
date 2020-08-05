@@ -6,7 +6,7 @@ old-location: kernel\rtl_osversioninfoexw.htm
 tech.root: kernel
 ms.assetid: 88471e00-4913-44fd-b9f4-960ec46fb75a
 ms.date: 04/30/2018
-keywords: ["_OSVERSIONINFOEXW structure"]
+keywords: ["OSVERSIONINFOEXW structure"]
 ms.keywords: "*LPOSVERSIONINFOEXW, *POSVERSIONINFOEXW, *PRTL_OSVERSIONINFOEXW, OSVERSIONINFOEX, OSVERSIONINFOEXW, PRTL_OSVERSIONINFOEXW, PRTL_OSVERSIONINFOEXW structure pointer [Kernel-Mode Driver Architecture], RTL_OSVERSIONINFOEXW, RTL_OSVERSIONINFOEXW structure [Kernel-Mode Driver Architecture], _OSVERSIONINFOEXW, kernel.rtl_osversioninfoexw, kstruct_d_a7e48147-5619-4ab4-b83a-18139aa0a2c5.xml, wdm/PRTL_OSVERSIONINFOEXW, wdm/RTL_OSVERSIONINFOEXW"
 f1_keywords:
  - "wdm/RTL_OSVERSIONINFOEXW"

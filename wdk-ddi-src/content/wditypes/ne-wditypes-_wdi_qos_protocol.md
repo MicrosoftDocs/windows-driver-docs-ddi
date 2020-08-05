@@ -6,7 +6,7 @@ old-location: netvista\wdi_qos_protocol.htm
 tech.root: netvista
 ms.assetid: 39466BF7-0517-4113-9C94-26D8691CCCC1
 ms.date: 05/02/2018
-keywords: ["_WDI_QOS_PROTOCOL enumeration"]
+keywords: ["WDI_QOS_PROTOCOL enumeration"]
 ms.keywords: WDI_QOS_PROTOCOL, WDI_QOS_PROTOCOL enumeration [Device and Driver Installation], WDI_QOS_PROTOCOL_11E, WDI_QOS_PROTOCOL_NONE, WDI_QOS_PROTOCOL_WMM, _WDI_QOS_PROTOCOL, netvista.wdi_qos_protocol, netvista.wifi_qos_protocol, wditypes/WDI_QOS_PROTOCOL, wditypes/WDI_QOS_PROTOCOL_11E, wditypes/WDI_QOS_PROTOCOL_NONE, wditypes/WDI_QOS_PROTOCOL_WMM
 f1_keywords:
  - "wditypes/WDI_QOS_PROTOCOL"

@@ -6,7 +6,7 @@ old-location: buses\ucm_pd_power_data_object_type.htm
 tech.root: usbref
 ms.assetid: FCDD6B04-339D-4BBA-9D19-AE74CCB27666
 ms.date: 05/07/2018
-keywords: ["_UCM_PD_POWER_DATA_OBJECT_TYPE enumeration"]
+keywords: ["UCM_PD_POWER_DATA_OBJECT_TYPE enumeration"]
 ms.keywords: UCM_PD_POWER_DATA_OBJECT_TYPE, UCM_PD_POWER_DATA_OBJECT_TYPE enumeration [Buses], UcmPdPdoTypeBatterySupply, UcmPdPdoTypeFixedSupply, UcmPdPdoTypeVariableSupplyNonBattery, _UCM_PD_POWER_DATA_OBJECT_TYPE, buses.ucm_pd_power_data_object_type, ucmtypes/UCM_PD_POWER_DATA_OBJECT_TYPE, ucmtypes/UcmPdPdoTypeBatterySupply, ucmtypes/UcmPdPdoTypeFixedSupply, ucmtypes/UcmPdPdoTypeVariableSupplyNonBattery
 f1_keywords:
  - "ucmtypes/UCM_PD_POWER_DATA_OBJECT_TYPE"

@@ -6,7 +6,7 @@ old-location: storage\mpio_devinstance_health_class.htm
 tech.root: storage
 ms.assetid: 6d0afab5-4aba-4ebc-a864-85c83cf464d0
 ms.date: 03/29/2018
-keywords: ["_MPIO_DEVINSTANCE_HEALTH_CLASS structure"]
+keywords: ["MPIO_DEVINSTANCE_HEALTH_CLASS structure"]
 ms.keywords: "*PMPIO_DEVINSTANCE_HEALTH_CLASS, MPIO_DEVINSTANCE_HEALTH_CLASS, MPIO_DEVINSTANCE_HEALTH_CLASS structure [Storage Devices], PMPIO_DEVINSTANCE_HEALTH_CLASS, PMPIO_DEVINSTANCE_HEALTH_CLASS structure pointer [Storage Devices], _MPIO_DEVINSTANCE_HEALTH_CLASS, mpiodisk/MPIO_DEVINSTANCE_HEALTH_CLASS, mpiodisk/PMPIO_DEVINSTANCE_HEALTH_CLASS, storage.mpio_devinstance_health_class, structs-scsibus_aae91588-5920-42bb-8c74-13604bed0bfc.xml"
 f1_keywords:
  - "mpiodisk/MPIO_DEVINSTANCE_HEALTH_CLASS"

@@ -4,7 +4,7 @@ title: _D3D12DDICB_OFFERALLOCATIONS (d3dumddi.h)
 description: The D3D12DDICB_OFFERALLOCATIONS structure is used to offer allocations.
 ms.assetid: 126b026e-1e18-4991-91f2-e25666ec72a2
 ms.date: 10/19/2018
-keywords: ["_D3D12DDICB_OFFERALLOCATIONS structure"]
+keywords: ["D3D12DDICB_OFFERALLOCATIONS structure"]
 f1_keywords:
  - "d3dumddi/_D3D12DDICB_OFFERALLOCATIONS"
  - "_D3D12DDICB_OFFERALLOCATIONS"

@@ -5,7 +5,7 @@ description: The DXGK_MONITORDESCRIPTORSET_INTERFACE structure contains pointers
 old-location: display\dxgk_monitordescriptorset_interface.htm
 ms.assetid: ac492a44-f14e-4b66-9ec1-4f1b04806646
 ms.date: 05/10/2018
-keywords: ["_DXGK_MONITORDESCRIPTORSET_INTERFACE structure"]
+keywords: ["DXGK_MONITORDESCRIPTORSET_INTERFACE structure"]
 ms.keywords: DXGK_MONITORDESCRIPTORSET_INTERFACE, DXGK_MONITORDESCRIPTORSET_INTERFACE structure [Display Devices], DmStructs_da0cca60-6df0-480b-8e02-0affe5eb5cfd.xml, _DXGK_MONITORDESCRIPTORSET_INTERFACE, d3dkmddi/DXGK_MONITORDESCRIPTORSET_INTERFACE, display.dxgk_monitordescriptorset_interface
 f1_keywords:
  - "d3dkmddi/DXGK_MONITORDESCRIPTORSET_INTERFACE"

@@ -5,7 +5,7 @@ description: DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE is used as part of a page ta
 old-location: display\dxgk_buildpagingbuffer_updatepagetable.htm
 ms.assetid: 734B2E28-75F8-49AE-AAAB-EB0C037C6432
 ms.date: 05/10/2018
-keywords: ["_DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE structure"]
+keywords: ["DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE structure"]
 ms.keywords: DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE, DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE structure [Display Devices], _DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE, d3dkmddi/DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE, display.dxgk_buildpagingbuffer_updatepagetable
 f1_keywords:
  - "d3dkmddi/DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE"

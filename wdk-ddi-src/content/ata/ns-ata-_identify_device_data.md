@@ -6,7 +6,7 @@ old-location: storage\identify_device_data.htm
 tech.root: storage
 ms.assetid: 7f2edd6f-16bf-47a6-8546-7871435a56ac
 ms.date: 03/29/2018
-keywords: ["_IDENTIFY_DEVICE_DATA structure"]
+keywords: ["IDENTIFY_DEVICE_DATA structure"]
 ms.keywords: "*PIDENTIFY_DEVICE_DATA, IDENTIFY_DEVICE_DATA, IDENTIFY_DEVICE_DATA structure [Storage Devices], PIDENTIFY_DEVICE_DATA, PIDENTIFY_DEVICE_DATA structure pointer [Storage Devices], _IDENTIFY_DEVICE_DATA, ata/IDENTIFY_DEVICE_DATA, ata/PIDENTIFY_DEVICE_DATA, storage.identify_device_data, structs-ATA_904f6e71-4dd9-4ecb-9928-0d7ce44b83ef.xml"
 f1_keywords:
  - "ata/IDENTIFY_DEVICE_DATA"

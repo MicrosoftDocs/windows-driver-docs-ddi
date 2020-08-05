@@ -6,7 +6,7 @@ old-location: print\oemuiobj.htm
 tech.root: print
 ms.assetid: ba9252ec-3aef-4e8c-a335-bde33686beae
 ms.date: 04/20/2018
-keywords: ["_OEMUIOBJ structure"]
+keywords: ["OEMUIOBJ structure"]
 ms.keywords: "*POEMUIOBJ, OEMUIOBJ, OEMUIOBJ structure [Print Devices], POEMUIOBJ, POEMUIOBJ structure pointer [Print Devices], _OEMUIOBJ, print.oemuiobj, print_unidrv-pscript_ui_ce37eb2d-06c0-4bca-88f0-c5ab836c9fd3.xml, printoem/OEMUIOBJ, printoem/POEMUIOBJ"
 f1_keywords:
  - "printoem/OEMUIOBJ"

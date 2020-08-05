@@ -6,7 +6,7 @@ old-location: kernel\pep_processor_idle_state.htm
 tech.root: kernel
 ms.assetid: 10CAB3CA-83BF-421B-81F5-2B42790B8928
 ms.date: 04/30/2018
-keywords: ["_PEP_PROCESSOR_IDLE_STATE structure"]
+keywords: ["PEP_PROCESSOR_IDLE_STATE structure"]
 ms.keywords: "*PPEP_PROCESSOR_IDLE_STATE, PEP_PROCESSOR_IDLE_STATE, PEP_PROCESSOR_IDLE_STATE structure [Kernel-Mode Driver Architecture], PPEP_PROCESSOR_IDLE_STATE, PPEP_PROCESSOR_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture], _PEP_PROCESSOR_IDLE_STATE, kernel.pep_processor_idle_state, pep_x/PEP_PROCESSOR_IDLE_STATE, pep_x/PPEP_PROCESSOR_IDLE_STATE"
 f1_keywords:
  - "pep_x/PEP_PROCESSOR_IDLE_STATE"

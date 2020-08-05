@@ -5,7 +5,7 @@ description: Structure passed to PFND3DKMT_CREATEHWQUEUE when creating a new har
 old-location: display\d3dkmt_createhwqueue.htm
 ms.assetid: DBD99353-4798-4540-89DB-EA08521B276E
 ms.date: 03/24/2020
-keywords: ["_D3DKMT_CREATEHWQUEUE structure"]
+keywords: ["D3DKMT_CREATEHWQUEUE structure"]
 ms.keywords: D3DKMT_CREATEHWQUEUE, D3DKMT_CREATEHWQUEUE structure [Display Devices], _D3DKMT_CREATEHWQUEUE, d3dkmthk/D3DKMT_CREATEHWQUEUE, display.d3dkmt_createhwqueue
 f1_keywords:
  - "d3dkmthk/D3DKMT_CREATEHWQUEUE"

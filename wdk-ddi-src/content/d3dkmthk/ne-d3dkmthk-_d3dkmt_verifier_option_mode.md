@@ -4,7 +4,7 @@ title: _D3DKMT_VERIFIER_OPTION_MODE (d3dkmthk.h)
 description: The verifier option modes.
 ms.assetid: 9f290ab7-2580-45a4-a437-32642c91e7db
 ms.date: 10/19/2018
-keywords: ["_D3DKMT_VERIFIER_OPTION_MODE enumeration"]
+keywords: ["D3DKMT_VERIFIER_OPTION_MODE enumeration"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_VERIFIER_OPTION_MODE"
  - "_D3DKMT_VERIFIER_OPTION_MODE"

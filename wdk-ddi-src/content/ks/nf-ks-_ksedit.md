@@ -6,7 +6,7 @@ old-location: stream\_ksedit.htm
 tech.root: stream
 ms.assetid: 9368846a-b985-40f4-8b02-1bb48431141a
 ms.date: 04/23/2018
-keywords: ["_KsEdit function"]
+keywords: ["KsEdit function"]
 ms.keywords: "_KsEdit, _KsEdit function [Streaming Media Devices], avfunc_1e902412-8322-4155-9fdb-dfc0fa1b6b37.xml, ks/_KsEdit, stream._ksedit"
 f1_keywords:
  - "ks/_KsEdit"

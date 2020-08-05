@@ -6,7 +6,7 @@ old-location: display\d3dddi_pool.htm
 tech.root: display
 ms.assetid: b3f34183-7595-47b6-a2f1-c32650734a04
 ms.date: 05/10/2018
-keywords: ["_D3DDDI_POOL enumeration"]
+keywords: ["D3DDDI_POOL enumeration"]
 ms.keywords: D3DDDIPOOL_LOCALVIDMEM, D3DDDIPOOL_NONLOCALVIDMEM, D3DDDIPOOL_STAGINGMEM, D3DDDIPOOL_SYSTEMMEM, D3DDDIPOOL_VIDEOMEMORY, D3DDDI_POOL, D3DDDI_POOL enumeration [Display Devices], D3D_other_Structs_859cbea4-6000-4906-a3f4-3ff6ea4caa7b.xml, _D3DDDI_POOL, d3dukmdt/D3DDDIPOOL_LOCALVIDMEM, d3dukmdt/D3DDDIPOOL_NONLOCALVIDMEM, d3dukmdt/D3DDDIPOOL_STAGINGMEM, d3dukmdt/D3DDDIPOOL_SYSTEMMEM, d3dukmdt/D3DDDIPOOL_VIDEOMEMORY, d3dukmdt/D3DDDI_POOL, display.d3dddi_pool
 f1_keywords:
  - "d3dukmdt/D3DDDI_POOL"

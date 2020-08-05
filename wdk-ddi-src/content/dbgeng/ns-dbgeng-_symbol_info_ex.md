@@ -6,7 +6,7 @@ old-location: debugger\symbol_info_ex.htm
 tech.root: debugger
 ms.assetid: BDB8179A-4A97-4E83-B4A4-7B8358B3510C
 ms.date: 05/03/2018
-keywords: ["_SYMBOL_INFO_EX structure"]
+keywords: ["SYMBOL_INFO_EX structure"]
 ms.keywords: "*PSYMBOL_INFO_EX, PSYMBOL_INFO_EX, PSYMBOL_INFO_EX structure pointer [Windows Debugging], SYMBOL_INFO_EX, SYMBOL_INFO_EX structure [Windows Debugging], _SYMBOL_INFO_EX, dbgeng/PSYMBOL_INFO_EX, dbgeng/SYMBOL_INFO_EX, debugger.symbol_info_ex"
 f1_keywords:
  - "dbgeng/SYMBOL_INFO_EX"

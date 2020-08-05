@@ -6,7 +6,7 @@ old-location: devtest\pcw_counter_information.htm
 tech.root: devtest
 ms.assetid: fe4d8df4-0e15-49fb-a5ec-40aa8acf3675
 ms.date: 02/23/2018
-keywords: ["_PCW_COUNTER_INFORMATION structure"]
+keywords: ["PCW_COUNTER_INFORMATION structure"]
 ms.keywords: "*PPCW_COUNTER_INFORMATION, PCW_COUNTER_INFORMATION, PCW_COUNTER_INFORMATION structure [Driver Development Tools], PPCW_COUNTER_INFORMATION, PPCW_COUNTER_INFORMATION structure pointer [Driver Development Tools], _PCW_COUNTER_INFORMATION, devtest.pcw_counter_information, km_pcw_b89088c5-c9df-4ca9-86b1-8fdb558216c5.xml, wdm/PCW_COUNTER_INFORMATION, wdm/PPCW_COUNTER_INFORMATION"
 f1_keywords:
  - "wdm/PCW_COUNTER_INFORMATION"

@@ -4,7 +4,7 @@ title: _SIDEBANDAUDIO_CONNECTION_PARAMS (sidebandaudio.h)
 description: Describes the endpoint index and Connection value.
 ms.assetid: 15577347-4c95-4cd7-bb77-8341dbb0bae4
 ms.date: 09/06/2018
-keywords: ["_SIDEBANDAUDIO_CONNECTION_PARAMS structure"]
+keywords: ["SIDEBANDAUDIO_CONNECTION_PARAMS structure"]
 f1_keywords:
  - "sidebandaudio/_SIDEBANDAUDIO_CONNECTION_PARAMS"
  - "_SIDEBANDAUDIO_CONNECTION_PARAMS"

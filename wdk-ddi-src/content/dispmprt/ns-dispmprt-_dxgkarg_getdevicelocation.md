@@ -7,7 +7,7 @@ tech.root: display
 ms.assetid: dbc2163c-6465-4c4d-a597-c941168515be
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
-keywords: ["_DXGKARG_GETDEVICELOCATION structure"]
+keywords: ["DXGKARG_GETDEVICELOCATION structure"]
 f1_keywords:
  - "dispmprt/_DXGKARG_GETDEVICELOCATION"
  - "_DXGKARG_GETDEVICELOCATION"

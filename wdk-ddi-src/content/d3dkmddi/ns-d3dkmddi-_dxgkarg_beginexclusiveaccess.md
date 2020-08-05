@@ -4,7 +4,7 @@ title: _DXGKARG_BEGINEXCLUSIVEACCESS (d3dkmddi.h)
 description: Arguments used to begin exclusive access.
 ms.assetid: 71b37743-0426-4abe-a789-511237b7a969
 ms.date: 10/19/2018
-keywords: ["_DXGKARG_BEGINEXCLUSIVEACCESS structure"]
+keywords: ["DXGKARG_BEGINEXCLUSIVEACCESS structure"]
 f1_keywords:
  - "d3dkmddi/_DXGKARG_BEGINEXCLUSIVEACCESS"
  - "_DXGKARG_BEGINEXCLUSIVEACCESS"

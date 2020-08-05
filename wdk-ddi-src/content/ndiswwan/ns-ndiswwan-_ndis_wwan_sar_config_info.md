@@ -5,7 +5,7 @@ description: The NDIS_WWAN_SAR_CONFIG_INFO structure describes a modem's current
 tech.root: netvista
 ms.assetid: a5a682b3-b08c-4525-a7f2-dec9df51590c
 ms.date: 08/20/2018
-keywords: ["_NDIS_WWAN_SAR_CONFIG_INFO structure"]
+keywords: ["NDIS_WWAN_SAR_CONFIG_INFO structure"]
 f1_keywords:
  - "ndiswwan/_NDIS_WWAN_SAR_CONFIG_INFO"
  - "_NDIS_WWAN_SAR_CONFIG_INFO"

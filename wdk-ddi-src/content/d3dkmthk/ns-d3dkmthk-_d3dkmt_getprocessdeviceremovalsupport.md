@@ -4,7 +4,7 @@ title: _D3DKMT_GETPROCESSDEVICEREMOVALSUPPORT (d3dkmthk.h)
 description: Used to get process device removal support.
 ms.assetid: 28258371-4419-4aa9-aadb-e5e085fa503f
 ms.date: 10/19/2018
-keywords: ["_D3DKMT_GETPROCESSDEVICEREMOVALSUPPORT structure"]
+keywords: ["D3DKMT_GETPROCESSDEVICEREMOVALSUPPORT structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_GETPROCESSDEVICEREMOVALSUPPORT"
  - "_D3DKMT_GETPROCESSDEVICEREMOVALSUPPORT"

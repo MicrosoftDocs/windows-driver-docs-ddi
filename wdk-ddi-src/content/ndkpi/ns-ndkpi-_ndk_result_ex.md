@@ -6,7 +6,7 @@ old-location: netvista\ndk_result_ex.htm
 tech.root: netvista
 ms.assetid: C79BF9FC-4836-48AD-8E9F-41278BB01E11
 ms.date: 05/02/2018
-keywords: ["_NDK_RESULT_EX structure"]
+keywords: ["NDK_RESULT_EX structure"]
 ms.keywords: NDK_RESULT_EX, NDK_RESULT_EX structure [Network Drivers Starting with Windows Vista], PNDK_RESULT_EX, PNDK_RESULT_EX structure pointer [Network Drivers Starting with Windows Vista], _NDK_RESULT_EX, ndkpi/NDK_RESULT_EX, ndkpi/PNDK_RESULT_EX, netvista.ndk_result_ex
 f1_keywords:
  - "ndkpi/NDK_RESULT_EX"

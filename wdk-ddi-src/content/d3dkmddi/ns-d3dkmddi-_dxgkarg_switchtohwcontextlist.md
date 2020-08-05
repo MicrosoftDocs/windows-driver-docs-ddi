@@ -4,7 +4,7 @@ title: _DXGKARG_SWITCHTOHWCONTEXTLIST (d3dkmddi.h)
 description: Arguments used in the DXGKDDI_SWITCHTOHWCONTEXTLIST callback function.
 ms.assetid: e856b8d8-c00e-4823-a9d2-647856bb10c0
 ms.date: 10/19/2018
-keywords: ["_DXGKARG_SWITCHTOHWCONTEXTLIST structure"]
+keywords: ["DXGKARG_SWITCHTOHWCONTEXTLIST structure"]
 f1_keywords:
  - "d3dkmddi/_DXGKARG_SWITCHTOHWCONTEXTLIST"
  - "_DXGKARG_SWITCHTOHWCONTEXTLIST"

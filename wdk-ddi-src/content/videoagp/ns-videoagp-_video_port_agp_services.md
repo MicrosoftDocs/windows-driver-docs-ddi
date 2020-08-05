@@ -6,7 +6,7 @@ old-location: display\video_port_agp_services.htm
 tech.root: display
 ms.assetid: 3e7d8f8e-a213-48ca-8a90-5d861271f6a2
 ms.date: 05/10/2018
-keywords: ["_VIDEO_PORT_AGP_SERVICES structure"]
+keywords: ["VIDEO_PORT_AGP_SERVICES structure"]
 ms.keywords: "*PVIDEO_PORT_AGP_SERVICES, PVIDEO_PORT_AGP_SERVICES, PVIDEO_PORT_AGP_SERVICES structure pointer [Display Devices], VIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES structure [Display Devices], Video_Structs_a667f879-7c09-4f48-9b23-920bb68a08cb.xml, _VIDEO_PORT_AGP_SERVICES, display.video_port_agp_services, videoagp/PVIDEO_PORT_AGP_SERVICES, videoagp/VIDEO_PORT_AGP_SERVICES"
 f1_keywords:
  - "videoagp/VIDEO_PORT_AGP_SERVICES"

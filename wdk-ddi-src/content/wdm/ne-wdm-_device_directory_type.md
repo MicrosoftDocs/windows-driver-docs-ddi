@@ -4,7 +4,7 @@ title: _DEVICE_DIRECTORY_TYPE (wdm.h)
 description: The directory from which the driver is loaded. 
 ms.assetid: d49e913a-dadb-4669-b3a4-e08a60b2a767
 ms.date: 10/19/2018
-keywords: ["_DEVICE_DIRECTORY_TYPE enumeration"]
+keywords: ["DEVICE_DIRECTORY_TYPE enumeration"]
 f1_keywords:
  - "wdm/_DEVICE_DIRECTORY_TYPE"
  - "_DEVICE_DIRECTORY_TYPE"

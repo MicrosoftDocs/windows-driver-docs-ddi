@@ -4,7 +4,7 @@ title: _DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2 (d3dkmthk.h)
 description: Used to register the power state of a new input.
 ms.assetid: e312c3ba-7a23-41e4-bebb-b19daa7a43ae
 ms.date: 10/19/2018
-keywords: ["_DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2 structure"]
+keywords: ["DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2 structure"]
 f1_keywords:
  - "d3dkmthk/_DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2"
  - "_DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2"

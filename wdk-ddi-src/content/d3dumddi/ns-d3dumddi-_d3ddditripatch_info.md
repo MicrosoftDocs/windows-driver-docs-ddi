@@ -4,7 +4,7 @@ title: _D3DDDITRIPATCH_INFO (d3dumddi.h)
 description: Contains tri-patch info.
 ms.assetid: 8c4e7b1f-6618-4ffe-ad51-0311681c35e3
 ms.date: 10/19/2018
-keywords: ["_D3DDDITRIPATCH_INFO structure"]
+keywords: ["D3DDDITRIPATCH_INFO structure"]
 f1_keywords:
  - "d3dumddi/_D3DDDITRIPATCH_INFO"
  - "_D3DDDITRIPATCH_INFO"

@@ -6,7 +6,7 @@ old-location: storage\storage_diagnostic_request.htm
 tech.root: storage
 ms.assetid: BAC83B5C-4F14-430D-9CEF-46812FC4DFED
 ms.date: 03/29/2018
-keywords: ["_STORAGE_DIAGNOSTIC_REQUEST structure"]
+keywords: ["STORAGE_DIAGNOSTIC_REQUEST structure"]
 ms.keywords: "*PSTORAGE_DIAGNOSTIC_REQUEST, PSTORAGE_DIAGNOSTIC_REQUEST, PSTORAGE_DIAGNOSTIC_REQUEST structure pointer [Storage Devices], STORAGE_DIAGNOSTIC_REQUEST, STORAGE_DIAGNOSTIC_REQUEST structure [Storage Devices], _STORAGE_DIAGNOSTIC_REQUEST, ntddstor/PSTORAGE_DIAGNOSTIC_REQUEST, ntddstor/STORAGE_DIAGNOSTIC_REQUEST, storage.storage_diagnostic_request"
 f1_keywords:
  - "ntddstor/STORAGE_DIAGNOSTIC_REQUEST"

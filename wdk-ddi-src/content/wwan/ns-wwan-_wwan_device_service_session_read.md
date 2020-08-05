@@ -6,7 +6,7 @@ old-location: netvista\wwan_device_service_session_read.htm
 tech.root: netvista
 ms.assetid: 248C5386-B835-4806-8DD8-39327EDADA0C
 ms.date: 05/02/2018
-keywords: ["_WWAN_DEVICE_SERVICE_SESSION_READ structure"]
+keywords: ["WWAN_DEVICE_SERVICE_SESSION_READ structure"]
 ms.keywords: "*PWWAN_DEVICE_SERVICE_SESSION_READ, PWWAN_DEVICE_SERVICE_SESSION_READ, PWWAN_DEVICE_SERVICE_SESSION_READ structure pointer [Network Drivers Starting with Windows Vista], WWAN_DEVICE_SERVICE_SESSION_READ, WWAN_DEVICE_SERVICE_SESSION_READ structure [Network Drivers Starting with Windows Vista], _WWAN_DEVICE_SERVICE_SESSION_READ, netvista.wwan_device_service_session_read, wwan/PWWAN_DEVICE_SERVICE_SESSION_READ, wwan/WWAN_DEVICE_SERVICE_SESSION_READ"
 f1_keywords:
  - "wwan/WWAN_DEVICE_SERVICE_SESSION_READ"

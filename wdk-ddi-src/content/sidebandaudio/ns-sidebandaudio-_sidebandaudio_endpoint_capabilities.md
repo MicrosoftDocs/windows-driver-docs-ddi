@@ -4,7 +4,7 @@ title: _SIDEBANDAUDIO_ENDPOINT_CAPABILITIES (sidebandaudio.h)
 description: 
 ms.assetid: cef181e9-6807-4b37-af4f-cda1fd7446e6
 ms.date: 09/06/2018
-keywords: ["_SIDEBANDAUDIO_ENDPOINT_CAPABILITIES structure"]
+keywords: ["SIDEBANDAUDIO_ENDPOINT_CAPABILITIES structure"]
 f1_keywords:
  - "sidebandaudio/_SIDEBANDAUDIO_ENDPOINT_CAPABILITIES"
  - "_SIDEBANDAUDIO_ENDPOINT_CAPABILITIES"

@@ -6,7 +6,7 @@ old-location: pci\pci_express_bridge_aer_capability.htm
 tech.root: PCI
 ms.assetid: 06bbd3b8-b917-44ed-880e-9d071146e859
 ms.date: 02/24/2018
-keywords: ["_PCI_EXPRESS_BRIDGE_AER_CAPABILITY structure"]
+keywords: ["PCI_EXPRESS_BRIDGE_AER_CAPABILITY structure"]
 ms.keywords: "*PPCI_EXPRESS_BRIDGE_AER_CAPABILITY, PCI.pci_express_bridge_aer_capability, PCI_EXPRESS_BRIDGE_AER_CAPABILITY, PCI_EXPRESS_BRIDGE_AER_CAPABILITY structure [Buses], PPCI_EXPRESS_BRIDGE_AER_CAPABILITY, PPCI_EXPRESS_BRIDGE_AER_CAPABILITY structure pointer [Buses], _PCI_EXPRESS_BRIDGE_AER_CAPABILITY, pci_struct_ccc11a2c-4380-44b4-8404-d7d9931887b6.xml, wdm/PCI_EXPRESS_BRIDGE_AER_CAPABILITY, wdm/PPCI_EXPRESS_BRIDGE_AER_CAPABILITY"
 f1_keywords:
  - "wdm/PCI_EXPRESS_BRIDGE_AER_CAPABILITY"

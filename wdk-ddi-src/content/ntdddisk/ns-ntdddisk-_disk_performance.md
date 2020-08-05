@@ -6,7 +6,7 @@ old-location: storage\disk_performance.htm
 tech.root: storage
 ms.assetid: 34d954db-4220-4a3f-849c-f1164e6130f7
 ms.date: 03/29/2018
-keywords: ["_DISK_PERFORMANCE structure"]
+keywords: ["DISK_PERFORMANCE structure"]
 ms.keywords: "*PDISK_PERFORMANCE, DISK_PERFORMANCE, DISK_PERFORMANCE structure [Storage Devices], PDISK_PERFORMANCE, PDISK_PERFORMANCE structure pointer [Storage Devices], _DISK_PERFORMANCE, ntdddisk/DISK_PERFORMANCE, ntdddisk/PDISK_PERFORMANCE, storage.disk_performance, structs-disk_64493b27-dce7-4976-9519-c7324bd09b69.xml"
 f1_keywords:
  - "ntdddisk/DISK_PERFORMANCE"

@@ -5,7 +5,7 @@ description: The NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES structure describes a netw
 tech.root: netvista
 ms.assetid: 73c5e8ec-69ef-4c3d-9864-c728f86b3551
 ms.date: 01/17/2019
-keywords: ["_NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES structure"]
+keywords: ["NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES structure"]
 f1_keywords:
  - "netadapteroffload/_NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES"
  - "_NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES"

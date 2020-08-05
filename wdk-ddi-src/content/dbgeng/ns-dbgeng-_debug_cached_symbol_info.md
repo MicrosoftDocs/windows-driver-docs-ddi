@@ -6,7 +6,7 @@ old-location: debugger\debug_cached_symbol_info.htm
 tech.root: debugger
 ms.assetid: CC7914B6-DCE1-45D1-84D3-5FF1449AD565
 ms.date: 05/03/2018
-keywords: ["_DEBUG_CACHED_SYMBOL_INFO structure"]
+keywords: ["DEBUG_CACHED_SYMBOL_INFO structure"]
 ms.keywords: "*PDEBUG_CACHED_SYMBOL_INFO, DEBUG_CACHED_SYMBOL_INFO, DEBUG_CACHED_SYMBOL_INFO structure [Windows Debugging], PDEBUG_CACHED_SYMBOL_INFO, PDEBUG_CACHED_SYMBOL_INFO structure pointer [Windows Debugging], _DEBUG_CACHED_SYMBOL_INFO, dbgeng/DEBUG_CACHED_SYMBOL_INFO, dbgeng/PDEBUG_CACHED_SYMBOL_INFO, debugger.debug_cached_symbol_info"
 f1_keywords:
  - "dbgeng/DEBUG_CACHED_SYMBOL_INFO"

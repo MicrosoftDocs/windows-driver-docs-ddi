@@ -6,7 +6,7 @@ old-location: kernel\pep_work_active_complete.htm
 tech.root: kernel
 ms.assetid: DD7D7E5F-D35C-40B4-B414-A6D2EB8D3A02
 ms.date: 04/30/2018
-keywords: ["_PEP_WORK_ACTIVE_COMPLETE structure"]
+keywords: ["PEP_WORK_ACTIVE_COMPLETE structure"]
 ms.keywords: "*PPEP_WORK_ACTIVE_COMPLETE, PEP_WORK_ACTIVE_COMPLETE, PEP_WORK_ACTIVE_COMPLETE structure [Kernel-Mode Driver Architecture], PPEP_WORK_ACTIVE_COMPLETE, PPEP_WORK_ACTIVE_COMPLETE structure pointer [Kernel-Mode Driver Architecture], _PEP_WORK_ACTIVE_COMPLETE, kernel.pep_work_active_complete, pep_x/PEP_WORK_ACTIVE_COMPLETE, pep_x/PPEP_WORK_ACTIVE_COMPLETE"
 f1_keywords:
  - "pep_x/PEP_WORK_ACTIVE_COMPLETE"

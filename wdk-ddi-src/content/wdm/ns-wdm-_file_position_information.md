@@ -6,7 +6,7 @@ old-location: kernel\file_position_information.htm
 tech.root: kernel
 ms.assetid: 04f01faf-599e-4c62-82ce-c147b4820c8f
 ms.date: 04/30/2018
-keywords: ["_FILE_POSITION_INFORMATION structure"]
+keywords: ["FILE_POSITION_INFORMATION structure"]
 ms.keywords: "*PFILE_POSITION_INFORMATION, FILE_POSITION_INFORMATION, FILE_POSITION_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_POSITION_INFORMATION, PFILE_POSITION_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _FILE_POSITION_INFORMATION, kernel.file_position_information, kstruct_b_5edd5ea9-9229-4764-86aa-24054a1ec9b9.xml, wdm/FILE_POSITION_INFORMATION, wdm/PFILE_POSITION_INFORMATION"
 f1_keywords:
  - "wdm/FILE_POSITION_INFORMATION"

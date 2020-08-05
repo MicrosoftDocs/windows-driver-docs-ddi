@@ -6,7 +6,7 @@ old-location: display\dxgk_brightness_state.htm
 tech.root: display
 ms.assetid: 60896a51-63c9-46fd-96ee-9cdbb72ac30c
 ms.date: 05/10/2018
-keywords: ["_DXGK_BRIGHTNESS_STATE structure"]
+keywords: ["DXGK_BRIGHTNESS_STATE structure"]
 ms.keywords: DXGK_BRIGHTNESS_STATE, DXGK_BRIGHTNESS_STATE structure [Display Devices], _DXGK_BRIGHTNESS_STATE, d3dkmdt/DXGK_BRIGHTNESS_STATE, display.dxgk_brightness_state
 f1_keywords:
  - "d3dkmdt/DXGK_BRIGHTNESS_STATE"

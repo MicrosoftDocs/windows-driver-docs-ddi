@@ -6,7 +6,7 @@ old-location: dtf\ttracelevel.htm
 tech.root: dtf
 ms.assetid: d1bc1775-cb0f-468e-938b-b3ed95e80b5b
 ms.date: 04/04/2018
-keywords: ["__MIDL___MIDL_itf_wdtf_0000_0001_0001 enumeration"]
+keywords: ["_MIDL___MIDL_itf_wdtf_0000_0001_0001 enumeration"]
 ms.keywords: ITracing_6a4e6447-651b-4e2e-9f45-e1bd14e84682.xml, TTraceLevel, TTraceLevel enumeration [Windows Device Testing Framework], Trace0_Off, Trace1_Low, Trace2_Medium, Trace3_High, Trace4_All, Trace5_Custom, Trace6_Custom, Trace7_Custom, Trace8_Custom, Trace_Default, __MIDL___MIDL_itf_wdtf_0000_0001_0001, dtf.ttracelevel, wdtf/TTraceLevel, wdtf/Trace0_Off, wdtf/Trace1_Low, wdtf/Trace2_Medium, wdtf/Trace3_High, wdtf/Trace4_All, wdtf/Trace5_Custom, wdtf/Trace6_Custom, wdtf/Trace7_Custom, wdtf/Trace8_Custom, wdtf/Trace_Default
 f1_keywords:
  - "wdtf/TTraceLevel"

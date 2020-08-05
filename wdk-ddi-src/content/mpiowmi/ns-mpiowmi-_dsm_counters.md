@@ -6,7 +6,7 @@ old-location: storage\dsm_counters.htm
 tech.root: storage
 ms.assetid: 3202aec4-d95e-4162-86a1-17595ed2a5b5
 ms.date: 03/29/2018
-keywords: ["_DSM_COUNTERS structure"]
+keywords: ["DSM_COUNTERS structure"]
 ms.keywords: "*PDSM_COUNTERS, DSM_COUNTERS, DSM_COUNTERS structure [Storage Devices], PDSM_COUNTERS, PDSM_COUNTERS structure pointer [Storage Devices], _DSM_COUNTERS, mpiowmi/DSM_COUNTERS, mpiowmi/PDSM_COUNTERS, storage.dsm_counters, structs-scsibus_bfb9b1ff-6274-47b9-b817-254428b02f17.xml"
 f1_keywords:
  - "mpiowmi/DSM_COUNTERS"

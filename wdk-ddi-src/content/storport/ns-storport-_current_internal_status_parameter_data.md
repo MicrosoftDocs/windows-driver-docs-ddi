@@ -5,7 +5,7 @@ description:
 tech.root: storage
 ms.assetid: e45c0938-b071-430f-9be4-63061a89ef89
 ms.date: 10/19/2018
-keywords: ["_CURRENT_INTERNAL_STATUS_PARAMETER_DATA structure"]
+keywords: ["CURRENT_INTERNAL_STATUS_PARAMETER_DATA structure"]
 f1_keywords:
  - "storport/_CURRENT_INTERNAL_STATUS_PARAMETER_DATA"
  - "_CURRENT_INTERNAL_STATUS_PARAMETER_DATA"

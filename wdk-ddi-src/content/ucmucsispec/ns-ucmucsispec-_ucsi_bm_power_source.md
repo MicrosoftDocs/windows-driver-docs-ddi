@@ -5,7 +5,7 @@ tech.root: usbref
 description: Used in GET_CAPABILITY command. See Bit 15:8 in Table 4-14.
 ms.assetid: f47e1834-9a6b-4d7f-a840-cb035a58f846
 ms.date: 09/30/2018
-keywords: ["_UCSI_BM_POWER_SOURCE structure"]
+keywords: ["UCSI_BM_POWER_SOURCE structure"]
 f1_keywords:
  - "ucmucsispec/_UCSI_BM_POWER_SOURCE"
  - "_UCSI_BM_POWER_SOURCE"

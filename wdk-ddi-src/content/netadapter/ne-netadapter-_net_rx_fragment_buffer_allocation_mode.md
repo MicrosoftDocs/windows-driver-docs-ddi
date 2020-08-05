@@ -5,7 +5,7 @@ description: The NET_RX_FRAGMENT_BUFFER_ALLOCATION_MODE enumeration identifies h
 tech.root: netvista
 ms.assetid: b7ce305a-ea72-4461-9d91-c4e3fb84eb8a
 ms.date: 02/15/2018
-keywords: ["_NET_RX_FRAGMENT_BUFFER_ALLOCATION_MODE enumeration"]
+keywords: ["NET_RX_FRAGMENT_BUFFER_ALLOCATION_MODE enumeration"]
 f1_keywords:
  - "netadapter/NET_PACKET_FILTER_TYPES_FLAGS"
  - "NET_PACKET_FILTER_TYPES_FLAGS"

@@ -6,7 +6,7 @@ old-location: stream\bda_cas_requesttunerdata.htm
 tech.root: stream
 ms.assetid: 09347A56-C3F8-4E0D-A557-CECB7BBC7DB8
 ms.date: 04/23/2018
-keywords: ["_BDA_CAS_REQUESTTUNERDATA structure"]
+keywords: ["BDA_CAS_REQUESTTUNERDATA structure"]
 ms.keywords: "*PBDA_CAS_REQUESTTUNERDATA, BDA_CAS_REQUESTTUNERDATA, BDA_CAS_REQUESTTUNERDATA structure [Streaming Media Devices], PBDA_CAS_REQUESTTUNERDATA, PBDA_CAS_REQUESTTUNERDATA structure pointer [Streaming Media Devices], _BDA_CAS_REQUESTTUNERDATA, bdatypes/BDA_CAS_REQUESTTUNERDATA, bdatypes/PBDA_CAS_REQUESTTUNERDATA, stream.bda_cas_requesttunerdata"
 f1_keywords:
  - "bdatypes/BDA_CAS_REQUESTTUNERDATA"

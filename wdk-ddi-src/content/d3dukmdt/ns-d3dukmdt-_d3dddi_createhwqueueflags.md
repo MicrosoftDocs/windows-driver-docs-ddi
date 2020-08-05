@@ -6,7 +6,7 @@ old-location: display\d3dddi_createhwqueueflags_.htm
 tech.root: display
 ms.assetid: 50318DEC-8EE4-4208-8E7D-E8BFEA4BA06B
 ms.date: 03/24/2020
-keywords: ["_D3DDDI_CREATEHWQUEUEFLAGS structure"]
+keywords: ["D3DDDI_CREATEHWQUEUEFLAGS structure"]
 ms.keywords: D3DDDI_CREATEHWQUEUEFLAGS, D3DDDI_CREATEHWQUEUEFLAGS , D3DDDI_CREATEHWQUEUEFLAGS structure [Display Devices], _D3DDDI_CREATEHWQUEUEFLAGS, d3dukmdt/D3DDDI_CREATEHWQUEUEFLAGS, display.d3dddi_createhwqueueflags_
 f1_keywords:
  - "d3dukmdt/D3DDDI_CREATEHWQUEUEFLAGS"

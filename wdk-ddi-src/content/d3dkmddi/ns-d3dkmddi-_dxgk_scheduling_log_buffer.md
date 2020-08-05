@@ -4,7 +4,7 @@ title: _DXGK_SCHEDULING_LOG_BUFFER (d3dkmddi.h)
 description: Information about the passed buffer as a scheduling log for a particular GPU node.
 ms.assetid: a8769b62-4f90-43f8-ab7d-3c0b0fa30f03
 ms.date: 10/19/2018
-keywords: ["_DXGK_SCHEDULING_LOG_BUFFER structure"]
+keywords: ["DXGK_SCHEDULING_LOG_BUFFER structure"]
 f1_keywords:
  - "d3dkmddi/_DXGK_SCHEDULING_LOG_BUFFER"
  - "_DXGK_SCHEDULING_LOG_BUFFER"

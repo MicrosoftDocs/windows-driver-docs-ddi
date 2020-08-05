@@ -6,7 +6,7 @@ old-location: netvista\ndis_bind_parameters.htm
 tech.root: netvista
 ms.assetid: 0a4866a8-a2f2-447b-8aa9-73203b7fc4bb
 ms.date: 05/02/2018
-keywords: ["_NDIS_BIND_PARAMETERS structure"]
+keywords: ["NDIS_BIND_PARAMETERS structure"]
 ms.keywords: "*PNDIS_BIND_PARAMETERS, NDIS_BIND_PARAMETERS, NDIS_BIND_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_BIND_PARAMETERS, PNDIS_BIND_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_BIND_PARAMETERS, ndis/NDIS_BIND_PARAMETERS, ndis/PNDIS_BIND_PARAMETERS, netvista.ndis_bind_parameters, protocol_structures_ref_25c90ff2-4a09-41f2-8b66-666a91dbfe17.xml"
 f1_keywords:
  - "ndis/NDIS_BIND_PARAMETERS"

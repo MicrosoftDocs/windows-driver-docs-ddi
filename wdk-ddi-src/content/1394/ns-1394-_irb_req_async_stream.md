@@ -6,7 +6,7 @@ old-location: ieee\irb_req_async_stream.htm
 tech.root: IEEE
 ms.assetid: 9E4958B0-066F-4485-AFF2-3AE499AF3E64
 ms.date: 02/15/2018
-keywords: ["_IRB_REQ_ASYNC_STREAM structure"]
+keywords: ["IRB_REQ_ASYNC_STREAM structure"]
 ms.keywords: 1394/IRB_REQ_ASYNC_STREAM, IEEE.irb_req_async_stream, IRB_REQ_ASYNC_STREAM, IRB_REQ_ASYNC_STREAM structure [Buses], _IRB_REQ_ASYNC_STREAM
 f1_keywords:
  - "1394/IRB_REQ_ASYNC_STREAM"

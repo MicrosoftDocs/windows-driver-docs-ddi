@@ -6,7 +6,7 @@ old-location: audio\pcproperty_request.htm
 tech.root: audio
 ms.assetid: 3683735d-ce00-4615-9782-dee9f4753cc7
 ms.date: 05/08/2018
-keywords: ["_PCPROPERTY_REQUEST structure"]
+keywords: ["PCPROPERTY_REQUEST structure"]
 ms.keywords: "*PPCPROPERTY_REQUEST, PCPROPERTY_REQUEST, PCPROPERTY_REQUEST structure [Audio Devices], PPCPROPERTY_REQUEST, PPCPROPERTY_REQUEST structure pointer [Audio Devices], _PCPROPERTY_REQUEST, audio.pcproperty_request, audpc-struct_f153c6fb-8b21-4a81-ab9b-d7b7fef9f9db.xml, portcls/PCPROPERTY_REQUEST, portcls/PPCPROPERTY_REQUEST"
 f1_keywords:
  - "portcls/PCPROPERTY_REQUEST"

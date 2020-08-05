@@ -4,7 +4,7 @@ title: _D3DKMT_SUBMITPRESENTTOHWQUEUE (d3dkmthk.h)
 description: Arguments used to submit a Blt Present operation to a hardware queue.
 ms.assetid: 9e873f50-ca38-414d-98e4-8f99ccacd673
 ms.date: 10/19/2018
-keywords: ["_D3DKMT_SUBMITPRESENTTOHWQUEUE structure"]
+keywords: ["D3DKMT_SUBMITPRESENTTOHWQUEUE structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_SUBMITPRESENTTOHWQUEUE"
  - "_D3DKMT_SUBMITPRESENTTOHWQUEUE"

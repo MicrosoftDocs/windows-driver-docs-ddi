@@ -6,7 +6,7 @@ old-location: stream\ksclock_dispatch.htm
 tech.root: stream
 ms.assetid: cc9b7049-7b43-4c66-9d08-93af22d92540
 ms.date: 04/23/2018
-keywords: ["_KSCLOCK_DISPATCH structure"]
+keywords: ["KSCLOCK_DISPATCH structure"]
 ms.keywords: "*PKSCLOCK_DISPATCH, KSCLOCK_DISPATCH, KSCLOCK_DISPATCH structure [Streaming Media Devices], PKSCLOCK_DISPATCH, PKSCLOCK_DISPATCH structure pointer [Streaming Media Devices], _KSCLOCK_DISPATCH, avstruct_5015e5e6-b0c5-4eb9-9e04-8631e732f8be.xml, ks/KSCLOCK_DISPATCH, ks/PKSCLOCK_DISPATCH, stream.ksclock_dispatch"
 f1_keywords:
  - "ks/KSCLOCK_DISPATCH"

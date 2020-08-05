@@ -6,7 +6,7 @@ old-location: netvista\wdi_txrx_peer_cfg.htm
 tech.root: netvista
 ms.assetid: 5d2a97a3-3214-4f23-bf9d-d0ed292a46f0
 ms.date: 05/02/2018
-keywords: ["_WDI_TXRX_PEER_CFG structure"]
+keywords: ["WDI_TXRX_PEER_CFG structure"]
 ms.keywords: "*PWDI_TXRX_PEER_CFG, PWDI_TXRX_PEER_CFG, PWDI_TXRX_PEER_CFG structure pointer [Network Drivers Starting with Windows Vista], WDI_TXRX_PEER_CFG, WDI_TXRX_PEER_CFG structure [Network Drivers Starting with Windows Vista], _WDI_TXRX_PEER_CFG, dot11wdi/PWDI_TXRX_PEER_CFG, dot11wdi/WDI_TXRX_PEER_CFG, netvista.wdi_txrx_peer_cfg, netvista.wifi_txrx_peer_cfg"
 f1_keywords:
  - "dot11wdi/WDI_TXRX_PEER_CFG"

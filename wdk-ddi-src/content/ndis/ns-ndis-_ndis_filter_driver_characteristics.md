@@ -6,7 +6,7 @@ old-location: netvista\ndis_filter_driver_characteristics.htm
 tech.root: netvista
 ms.assetid: 1eb2bae0-70b9-4bc0-9d93-4fc9467f9532
 ms.date: 05/03/2019
-keywords: ["_NDIS_FILTER_DRIVER_CHARACTERISTICS structure"]
+keywords: ["NDIS_FILTER_DRIVER_CHARACTERISTICS structure"]
 ms.keywords: "*PNDIS_FILTER_DRIVER_CHARACTERISTICS, NDIS_FILTER_DRIVER_CHARACTERISTICS, NDIS_FILTER_DRIVER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNDIS_FILTER_DRIVER_CHARACTERISTICS, PNDIS_FILTER_DRIVER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_FILTER_DRIVER_CHARACTERISTICS, filter_structures_ref_8fc4ed95-82fe-47bd-849d-f9733647cacd.xml, ndis/NDIS_FILTER_DRIVER_CHARACTERISTICS, ndis/PNDIS_FILTER_DRIVER_CHARACTERISTICS, netvista.ndis_filter_driver_characteristics"
 f1_keywords:
  - "ndis/NDIS_FILTER_DRIVER_CHARACTERISTICS"

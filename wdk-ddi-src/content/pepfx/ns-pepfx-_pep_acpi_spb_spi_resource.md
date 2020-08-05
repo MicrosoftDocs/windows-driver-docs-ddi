@@ -6,7 +6,7 @@ old-location: kernel\pep_acpi_spb_spi_resource.htm
 tech.root: kernel
 ms.assetid: 75CD5462-8382-4E83-ADC1-3E1B811A0D60
 ms.date: 04/30/2018
-keywords: ["_PEP_ACPI_SPB_SPI_RESOURCE structure"]
+keywords: ["PEP_ACPI_SPB_SPI_RESOURCE structure"]
 ms.keywords: "*PPEP_ACPI_SPB_SPI_RESOURCE, PEP_ACPI_SPB_SPI_RESOURCE, PEP_ACPI_SPB_SPI_RESOURCE structure [Kernel-Mode Driver Architecture], PPEP_ACPI_SPB_SPI_RESOURCE, PPEP_ACPI_SPB_SPI_RESOURCE structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_SPB_SPI_RESOURCE, kernel.pep_acpi_spb_spi_resource, pepfx/PEP_ACPI_SPB_SPI_RESOURCE, pepfx/PPEP_ACPI_SPB_SPI_RESOURCE"
 f1_keywords:
  - "pepfx/PEP_ACPI_SPB_SPI_RESOURCE"

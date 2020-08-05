@@ -6,7 +6,7 @@ old-location: storage\sub_q_current_position.htm
 tech.root: storage
 ms.assetid: 816baec4-3dd0-4025-ba34-035bf6f241d3
 ms.date: 01/08/2020
-keywords: ["_SUB_Q_CURRENT_POSITION structure"]
+keywords: ["SUB_Q_CURRENT_POSITION structure"]
 ms.keywords: "*PSUB_Q_CURRENT_POSITION, PSUB_Q_CURRENT_POSITION, PSUB_Q_CURRENT_POSITION structure pointer [Storage Devices], SUB_Q_CURRENT_POSITION, SUB_Q_CURRENT_POSITION structure [Storage Devices], _SUB_Q_CURRENT_POSITION, ntddcdrm/PSUB_Q_CURRENT_POSITION, ntddcdrm/SUB_Q_CURRENT_POSITION, storage.sub_q_current_position, structs-CD-ROM_f9833ad0-bb9c-418e-8e98-2c2f790a0e7e.xml"
 f1_keywords:
  - "ntddcdrm/SUB_Q_CURRENT_POSITION"

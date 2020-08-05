@@ -6,7 +6,7 @@ old-location: kernel\pep_component_perf_state_request.htm
 tech.root: kernel
 ms.assetid: E34E8B3E-787D-4C6A-9F40-AD6728063AD9
 ms.date: 04/30/2018
-keywords: ["_PEP_COMPONENT_PERF_STATE_REQUEST structure"]
+keywords: ["PEP_COMPONENT_PERF_STATE_REQUEST structure"]
 ms.keywords: "*PPEP_COMPONENT_PERF_STATE_REQUEST, PEP_COMPONENT_PERF_STATE_REQUEST, PEP_COMPONENT_PERF_STATE_REQUEST structure [Kernel-Mode Driver Architecture], PPEP_COMPONENT_PERF_STATE_REQUEST, PPEP_COMPONENT_PERF_STATE_REQUEST structure pointer [Kernel-Mode Driver Architecture], _PEP_COMPONENT_PERF_STATE_REQUEST, kernel.pep_component_perf_state_request, pepfx/PEP_COMPONENT_PERF_STATE_REQUEST, pepfx/PPEP_COMPONENT_PERF_STATE_REQUEST"
 f1_keywords:
  - "pepfx/PEP_COMPONENT_PERF_STATE_REQUEST"

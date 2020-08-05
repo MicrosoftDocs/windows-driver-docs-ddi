@@ -4,7 +4,7 @@ title: _SIDEBANDAUDIO_DEVICE_DESCRIPTOR (sidebandaudio.h)
 description: Describes the number of endpoints on the device.
 ms.assetid: 6eb69211-4a34-4e63-ae42-80fd298957d8
 ms.date: 09/06/2018
-keywords: ["_SIDEBANDAUDIO_DEVICE_DESCRIPTOR structure"]
+keywords: ["SIDEBANDAUDIO_DEVICE_DESCRIPTOR structure"]
 f1_keywords:
  - "sidebandaudio/_SIDEBANDAUDIO_DEVICE_DESCRIPTOR"
  - "_SIDEBANDAUDIO_DEVICE_DESCRIPTOR"

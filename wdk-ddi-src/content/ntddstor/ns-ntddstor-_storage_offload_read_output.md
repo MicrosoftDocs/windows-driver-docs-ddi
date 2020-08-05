@@ -6,7 +6,7 @@ old-location: storage\storage_offload_read_output.htm
 tech.root: storage
 ms.assetid: 3C94D493-8033-4344-BC45-A2274E5A8963
 ms.date: 08/23/2019
-keywords: ["_STORAGE_OFFLOAD_READ_OUTPUT structure"]
+keywords: ["STORAGE_OFFLOAD_READ_OUTPUT structure"]
 ms.keywords: "*PSTORAGE_OFFLOAD_READ_OUTPUT, PSTORAGE_OFFLOAD_READ_OUTPUT, PSTORAGE_OFFLOAD_READ_OUTPUT structure pointer [Storage Devices], STORAGE_OFFLOAD_READ_OUTPUT, STORAGE_OFFLOAD_READ_OUTPUT structure [Storage Devices], _STORAGE_OFFLOAD_READ_OUTPUT, ntddstor/PSTORAGE_OFFLOAD_READ_OUTPUT, ntddstor/STORAGE_OFFLOAD_READ_OUTPUT, storage.storage_offload_read_output"
 f1_keywords:
  - "ntddstor/STORAGE_OFFLOAD_READ_OUTPUT"

@@ -6,7 +6,7 @@ old-location: display\d3dddiarg_setlight.htm
 tech.root: display
 ms.assetid: 91da1c7a-aff5-4ece-b18d-14bd41e95464
 ms.date: 05/10/2018
-keywords: ["_D3DDDIARG_SETLIGHT structure"]
+keywords: ["D3DDDIARG_SETLIGHT structure"]
 ms.keywords: D3DDDIARG_SETLIGHT, D3DDDIARG_SETLIGHT structure [Display Devices], UMDisplayDriver_param_Structs_85eaa308-4edf-44ee-9235-e8637c10aa35.xml, _D3DDDIARG_SETLIGHT, d3dumddi/D3DDDIARG_SETLIGHT, display.d3dddiarg_setlight
 f1_keywords:
  - "d3dumddi/D3DDDIARG_SETLIGHT"

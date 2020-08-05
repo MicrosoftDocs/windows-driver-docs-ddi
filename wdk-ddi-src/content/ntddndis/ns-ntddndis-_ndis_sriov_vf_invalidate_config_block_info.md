@@ -6,7 +6,7 @@ old-location: netvista\ndis_sriov_vf_invalidate_config_block_info.htm
 tech.root: netvista
 ms.assetid: 29FA9E0E-9DE4-459C-9947-3FD232E6417B
 ms.date: 05/02/2018
-keywords: ["_NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO structure"]
+keywords: ["NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO structure"]
 ms.keywords: "*PNDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO, NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO, NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO, PNDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO, netvista.ndis_sriov_vf_invalidate_config_block_info, ntddndis/NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO, ntddndis/PNDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO"
 f1_keywords:
  - "ntddndis/NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO"

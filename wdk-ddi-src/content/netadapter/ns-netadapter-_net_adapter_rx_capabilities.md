@@ -5,7 +5,7 @@ description: The NET_ADAPTER_RX_CAPABILITIES structure describes the receive cap
 tech.root: netvista
 ms.assetid: 32a95b23-291f-4cee-a836-33cd7dba5149
 ms.date: 02/14/2018
-keywords: ["_NET_ADAPTER_RX_CAPABILITIES structure"]
+keywords: ["NET_ADAPTER_RX_CAPABILITIES structure"]
 f1_keywords:
  - "netadapter/NET_ADAPTER_POWER_CAPABILITIES"
  - "NET_ADAPTER_POWER_CAPABILITIES"

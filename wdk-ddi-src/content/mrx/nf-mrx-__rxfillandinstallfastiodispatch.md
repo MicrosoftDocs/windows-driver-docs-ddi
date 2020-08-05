@@ -6,7 +6,7 @@ old-location: ifsk\__rxfillandinstallfastiodispatch.htm
 tech.root: ifsk
 ms.assetid: 4619a1aa-0c91-4b77-abbf-077f28437e0f
 ms.date: 04/16/2018
-keywords: ["__RxFillAndInstallFastIoDispatch function"]
+keywords: ["_RxFillAndInstallFastIoDispatch function"]
 ms.keywords: "__RxFillAndInstallFastIoDispatch, __RxFillAndInstallFastIoDispatch function [Installable File System Drivers], ifsk.__rxfillandinstallfastiodispatch, mrx/__RxFillAndInstallFastIoDispatch, rxref_5898351a-a474-44bb-8ba0-3d2edf81d073.xml"
 f1_keywords:
  - "mrx/__RxFillAndInstallFastIoDispatch"

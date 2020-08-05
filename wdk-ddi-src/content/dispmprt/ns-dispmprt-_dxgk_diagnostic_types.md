@@ -4,7 +4,7 @@ title: _DXGK_DIAGNOSTIC_TYPES (dispmprt.h)
 description: A structure that contains a union of all the defined sets of diagnostic types.
 ms.assetid: 9373b413-20a5-4bee-a619-b71c0258124d
 ms.date: 10/19/2018
-keywords: ["_DXGK_DIAGNOSTIC_TYPES structure"]
+keywords: ["DXGK_DIAGNOSTIC_TYPES structure"]
 f1_keywords:
  - "dispmprt/_DXGK_DIAGNOSTIC_TYPES"
  - "_DXGK_DIAGNOSTIC_TYPES"

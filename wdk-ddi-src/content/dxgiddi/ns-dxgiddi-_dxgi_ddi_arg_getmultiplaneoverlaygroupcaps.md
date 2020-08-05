@@ -6,7 +6,7 @@ old-location: display\dxgi_ddi_arg_getmultiplaneoverlaygroupcaps.htm
 tech.root: display
 ms.assetid: C63125FA-7ADF-406A-A729-67C6ACA47D96
 ms.date: 05/10/2018
-keywords: ["_DXGI_DDI_ARG_GETMULTIPLANEOVERLAYGROUPCAPS structure"]
+keywords: ["DXGI_DDI_ARG_GETMULTIPLANEOVERLAYGROUPCAPS structure"]
 ms.keywords: DXGI_DDI_ARG_GETMULTIPLANEOVERLAYGROUPCAPS, DXGI_DDI_ARG_GETMULTIPLANEOVERLAYGROUPCAPS structure [Display Devices], _DXGI_DDI_ARG_GETMULTIPLANEOVERLAYGROUPCAPS, display.dxgi_ddi_arg_getmultiplaneoverlaygroupcaps, dxgiddi/DXGI_DDI_ARG_GETMULTIPLANEOVERLAYGROUPCAPS
 f1_keywords:
  - "dxgiddi/DXGI_DDI_ARG_GETMULTIPLANEOVERLAYGROUPCAPS"

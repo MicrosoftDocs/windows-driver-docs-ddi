@@ -5,7 +5,7 @@ tech.root: usbref
 description: Configuration structure for UcmUcsiDeviceInitialize.
 ms.assetid: e31e55aa-de96-4ea0-967e-ae12507ea643
 ms.date: 09/30/2018
-keywords: ["_UCMUCSI_DEVICE_CONFIG structure"]
+keywords: ["UCMUCSI_DEVICE_CONFIG structure"]
 f1_keywords:
  - "ucmucsidevice/UCMUCSI_DEVICE_CONFIG"
  - "UCMUCSI_DEVICE_CONFIG"

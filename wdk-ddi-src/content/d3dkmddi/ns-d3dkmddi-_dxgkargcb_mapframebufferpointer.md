@@ -4,7 +4,7 @@ title: _DXGKARGCB_MAPFRAMEBUFFERPOINTER (d3dkmddi.h)
 description: Contains arguments used by the DxgkCbMapFrameBufferPointer callback function to map frame buffer pointer.
 ms.assetid: 8404fc1c-84e7-4758-90cd-39de1d4320f7
 ms.date: 10/19/2018
-keywords: ["_DXGKARGCB_MAPFRAMEBUFFERPOINTER structure"]
+keywords: ["DXGKARGCB_MAPFRAMEBUFFERPOINTER structure"]
 f1_keywords:
  - "d3dkmddi/_DXGKARGCB_MAPFRAMEBUFFERPOINTER"
  - "_DXGKARGCB_MAPFRAMEBUFFERPOINTER"

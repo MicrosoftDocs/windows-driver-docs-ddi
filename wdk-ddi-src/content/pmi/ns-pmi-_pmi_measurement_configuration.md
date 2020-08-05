@@ -6,7 +6,7 @@ old-location: powermeter\pmi_measurement_configuration.htm
 tech.root: powermeter
 ms.assetid: dbabdd69-a97b-4de6-b35b-f3d8d2351c72
 ms.date: 05/08/2018
-keywords: ["_PMI_MEASUREMENT_CONFIGURATION structure"]
+keywords: ["PMI_MEASUREMENT_CONFIGURATION structure"]
 ms.keywords: "*PPMI_MEASUREMENT_CONFIGURATION, PMI_MEASUREMENT_CONFIGURATION, PMI_MEASUREMENT_CONFIGURATION structure [Power Metering and Budgeting Devices], PPMI_MEASUREMENT_CONFIGURATION, PPMI_MEASUREMENT_CONFIGURATION structure pointer [Power Metering and Budgeting Devices], PowerMeterRef_fe69d656-3aa9-4449-bd24-ceded8d7abd1.xml, _PMI_MEASUREMENT_CONFIGURATION, pmi/PMI_MEASUREMENT_CONFIGURATION, pmi/PPMI_MEASUREMENT_CONFIGURATION, powermeter.pmi_measurement_configuration"
 f1_keywords:
  - "pmi/PMI_MEASUREMENT_CONFIGURATION"

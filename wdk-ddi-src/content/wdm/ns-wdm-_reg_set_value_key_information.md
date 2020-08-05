@@ -6,7 +6,7 @@ old-location: kernel\reg_set_value_key_information.htm
 tech.root: kernel
 ms.assetid: a74d9740-8342-454e-8cbf-cf248e67d857
 ms.date: 04/30/2018
-keywords: ["_REG_SET_VALUE_KEY_INFORMATION structure"]
+keywords: ["REG_SET_VALUE_KEY_INFORMATION structure"]
 ms.keywords: "*PREG_SET_VALUE_KEY_INFORMATION, PREG_SET_VALUE_KEY_INFORMATION, PREG_SET_VALUE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_SET_VALUE_KEY_INFORMATION, REG_SET_VALUE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], _REG_SET_VALUE_KEY_INFORMATION, kernel.reg_set_value_key_information, kstruct_d_302658bd-6aaa-4878-9a67-a66c7307a4fa.xml, wdm/PREG_SET_VALUE_KEY_INFORMATION, wdm/REG_SET_VALUE_KEY_INFORMATION"
 f1_keywords:
  - "wdm/REG_SET_VALUE_KEY_INFORMATION"

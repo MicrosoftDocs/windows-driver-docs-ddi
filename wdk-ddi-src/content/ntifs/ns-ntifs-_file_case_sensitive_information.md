@@ -5,7 +5,7 @@ description: The FILE_CASE_SENSITIVE_INFORMATION structure is used to query or s
 ms.assetid: 4a36d9b7-8ddf-4064-b0bc-d95d6c1fb360
 ms.date: 10/19/2018
 tech.root: ifsk
-keywords: ["_FILE_CASE_SENSITIVE_INFORMATION structure"]
+keywords: ["FILE_CASE_SENSITIVE_INFORMATION structure"]
 f1_keywords:
  - "ntifs/_FILE_CASE_SENSITIVE_INFORMATION"
  - "_FILE_CASE_SENSITIVE_INFORMATION"

@@ -6,7 +6,7 @@ old-location: netvista\dot11_supported_ofdm_frequency_list.htm
 tech.root: netvista
 ms.assetid: 0c967358-821b-4f78-acbc-dacee24dcd57
 ms.date: 02/16/2018
-keywords: ["_DOT11_SUPPORTED_OFDM_FREQUENCY_LIST structure"]
+keywords: ["DOT11_SUPPORTED_OFDM_FREQUENCY_LIST structure"]
 ms.keywords: "*PDOT11_SUPPORTED_OFDM_FREQUENCY_LIST, DOT11_SUPPORTED_OFDM_FREQUENCY_LIST, DOT11_SUPPORTED_OFDM_FREQUENCY_LIST structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_428915da-fa98-469c-829b-5d0313a59c3b.xml, PDOT11_SUPPORTED_OFDM_FREQUENCY_LIST, PDOT11_SUPPORTED_OFDM_FREQUENCY_LIST structure pointer [Network Drivers Starting with Windows Vista], _DOT11_SUPPORTED_OFDM_FREQUENCY_LIST, netvista.dot11_supported_ofdm_frequency_list, windot11/DOT11_SUPPORTED_OFDM_FREQUENCY_LIST, windot11/PDOT11_SUPPORTED_OFDM_FREQUENCY_LIST"
 f1_keywords:
  - "windot11/DOT11_SUPPORTED_OFDM_FREQUENCY_LIST"

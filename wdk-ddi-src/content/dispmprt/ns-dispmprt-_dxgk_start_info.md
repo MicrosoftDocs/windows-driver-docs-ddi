@@ -6,7 +6,7 @@ old-location: display\dxgk_start_info.htm
 tech.root: display
 ms.assetid: 4d28bc79-5145-48a0-99e8-3f81b2ec4a05
 ms.date: 05/10/2018
-keywords: ["_DXGK_START_INFO structure"]
+keywords: ["DXGK_START_INFO structure"]
 ms.keywords: "*PDXGK_START_INFO, DXGK_START_INFO, DXGK_START_INFO structure [Display Devices], DmStructs_c2f6faad-cd05-43ea-ab58-b296bc130e09.xml, PDXGK_START_INFO, PDXGK_START_INFO structure pointer [Display Devices], _DXGK_START_INFO, display.dxgk_start_info, dispmprt/DXGK_START_INFO, dispmprt/PDXGK_START_INFO"
 f1_keywords:
  - "dispmprt/DXGK_START_INFO"

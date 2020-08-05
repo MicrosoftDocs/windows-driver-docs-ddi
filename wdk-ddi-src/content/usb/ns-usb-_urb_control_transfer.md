@@ -6,7 +6,7 @@ old-location: buses\_urb_control_transfer.htm
 tech.root: usbref
 ms.assetid: ee557112-ada3-4906-a8f3-e59b59ab2bc1
 ms.date: 05/07/2018
-keywords: ["_URB_CONTROL_TRANSFER structure"]
+keywords: ["URB_CONTROL_TRANSFER structure"]
 ms.keywords: USBD_DEFAULT_PIPE_TRANSFER, USBD_SHORT_TRANSFER_OK, USBD_TRANSFER_DIRECTION_IN, USBD_TRANSFER_DIRECTION_OUT, _URB_CONTROL_TRANSFER, _URB_CONTROL_TRANSFER structure [Buses], buses._urb_control_transfer, usb/_URB_CONTROL_TRANSFER, usbstrct_65d66cb6-2ce4-4eb2-ac3a-1cf68d3ad1b2.xml
 f1_keywords:
  - "usb/_URB_CONTROL_TRANSFER"

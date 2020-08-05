@@ -6,7 +6,7 @@ old-location: buses\udecx_endpoint_type.htm
 tech.root: usbref
 ms.assetid: EFA5DDC0-9E6B-450E-B191-1DA9FBAC269C
 ms.date: 05/07/2018
-keywords: ["_UDECX_ENDPOINT_TYPE enumeration"]
+keywords: ["UDECX_ENDPOINT_TYPE enumeration"]
 ms.keywords: "*PUDECX_ENDPOINT_TYPE, UDECX_ENDPOINT_TYPE, UDECX_ENDPOINT_TYPE enumeration [Buses], UdecxEndpointTypeDynamic, UdecxEndpointTypeInvalid, UdecxEndpointTypeSimple, _UDECX_ENDPOINT_TYPE, buses.udecx_endpoint_type, udecxusbdevice/UDECX_ENDPOINT_TYPE, udecxusbdevice/UdecxEndpointTypeDynamic, udecxusbdevice/UdecxEndpointTypeInvalid, udecxusbdevice/UdecxEndpointTypeSimple"
 f1_keywords:
  - "udecxusbdevice/UDECX_ENDPOINT_TYPE"

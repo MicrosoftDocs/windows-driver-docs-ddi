@@ -6,7 +6,7 @@ old-location: storage\port_configuration_information__scsi_.htm
 tech.root: storage
 ms.assetid: f3c9d851-d30d-4757-82a3-225ee67528c1
 ms.date: 03/29/2018
-keywords: ["_PORT_CONFIGURATION_INFORMATION structure"]
+keywords: ["PORT_CONFIGURATION_INFORMATION structure"]
 ms.keywords: "*PPORT_CONFIGURATION_INFORMATION, PORT_CONFIGURATION_INFORMATION, PORT_CONFIGURATION_INFORMATION structure [Storage Devices], PPORT_CONFIGURATION_INFORMATION, PPORT_CONFIGURATION_INFORMATION structure pointer [Storage Devices], _PORT_CONFIGURATION_INFORMATION, _PORT_CONFIGURATION_INFORMATION structure [Storage Devices], srb/PPORT_CONFIGURATION_INFORMATION, srb/_PORT_CONFIGURATION_INFORMATION, storage.port_configuration_information__scsi_, structs-scsiport_1a472219-5839-443c-a3a1-26c9708b3b18.xml"
 f1_keywords:
  - "srb/PORT_CONFIGURATION_INFORMATION"

@@ -6,7 +6,7 @@ old-location: parports\parallel_chip_mode.htm
 tech.root: parports
 ms.assetid: e9d78c80-e6cf-49af-89de-6df8ea871796
 ms.date: 02/15/2018
-keywords: ["_PARALLEL_CHIP_MODE structure"]
+keywords: ["PARALLEL_CHIP_MODE structure"]
 ms.keywords: "*PPARALLEL_CHIP_MODE, PARALLEL_CHIP_MODE, PARALLEL_CHIP_MODE structure [Parallel Ports], PPARALLEL_CHIP_MODE, PPARALLEL_CHIP_MODE structure pointer [Parallel Ports], _PARALLEL_CHIP_MODE, cisspd_1dbc3693-e551-46a3-9a41-725b06a2ee9a.xml, parallel/PARALLEL_CHIP_MODE, parallel/PPARALLEL_CHIP_MODE, parports.parallel_chip_mode"
 f1_keywords:
  - "parallel/PARALLEL_CHIP_MODE"

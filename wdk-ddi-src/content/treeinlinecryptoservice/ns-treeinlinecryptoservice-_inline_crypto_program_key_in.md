@@ -4,7 +4,7 @@ title: _INLINE_CRYPTO_PROGRAM_KEY_IN (treeinlinecryptoservice.h)
 description: 
 ms.assetid: 4ad9010e-b774-45c0-984e-024d049c569b
 ms.date: 10/19/2018
-keywords: ["_INLINE_CRYPTO_PROGRAM_KEY_IN structure"]
+keywords: ["INLINE_CRYPTO_PROGRAM_KEY_IN structure"]
 f1_keywords:
  - "treeinlinecryptoservice/_INLINE_CRYPTO_PROGRAM_KEY_IN"
  - "_INLINE_CRYPTO_PROGRAM_KEY_IN"

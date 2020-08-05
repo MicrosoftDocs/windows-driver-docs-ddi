@@ -6,7 +6,7 @@ old-location: battery\powersourceupdateex.htm
 tech.root: battery
 ms.assetid: FAA39A82-E27E-41BD-9830-03EAE7CFF64F
 ms.date: 02/15/2018
-keywords: ["_POWERSOURCEUPDATEEX structure"]
+keywords: ["POWERSOURCEUPDATEEX structure"]
 ms.keywords: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX structure [Battery Devices], _POWERSOURCEUPDATEEX, battery.powersourceupdateex, charging/BATTERY_INFORMATION"
 f1_keywords:
  - "charging/BATTERY_INFORMATION"
