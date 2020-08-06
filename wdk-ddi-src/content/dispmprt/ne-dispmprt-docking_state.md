@@ -43,34 +43,24 @@ req.typenames: DOCKING_STATE
 
 # DOCKING_STATE enumeration
 
-
 ## -description
-
 
 The DOCKING_STATE enumeration is used to describe the state of a portable computer that can be attached to a docking station.
 
-
 ## -enum-fields
-
-
-
 
 ### -field DockStateUnsupported
 
 Indicates that the portable computer does not support docking.
 
-
 ### -field DockStateUnDocked
 
 Indicates that the portable computer is not docked.
-
 
 ### -field DockStateDocked
 
 Indicates that the portable computer is docked.
 
-
 ### -field DockStateUnknown
 
 Indicates that the docking state of the portable computer is not known.
-
