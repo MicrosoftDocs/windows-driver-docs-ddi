@@ -3,8 +3,8 @@ UID: NC:netadapteroffload.EVT_NET_ADAPTER_OFFLOAD_SET_RX_CHECKSUM
 title: EVT_NET_ADAPTER_OFFLOAD_SET_RX_CHECKSUM (netadapteroffload.h)
 description: The EvtNetAdapterOffloadSetRxChecksum callback function is implemented by the client driver to set changes in Rx checksum offload capabilities.
 tech.root: netvista
-ms.assetid: 7c11be49-4d85-49c4-9416-47da1214fc1b
-ms.date: 01/17/2019
+ms.assetid: 
+ms.date: 08/10/2020
 keywords: ["EVT_NET_ADAPTER_OFFLOAD_SET_RX_CHECKSUM callback function"]
 f1_keywords:
  - "netadapteroffload/EVT_NET_ADAPTER_OFFLOAD_SET_RX_CHECKSUM"
@@ -36,14 +36,12 @@ api_name:
 product:
 - Windows
 targetos: Windows
-ms.custom: 19H1
+ms.custom: Fe
 ---
 
 # EVT_NET_ADAPTER_OFFLOAD_SET_RX_CHECKSUM callback function
 
 ## -description
-
-
 
 The *EvtNetAdapterOffloadSetRxChecksum* callback function is implemented by the client driver to query changes in active Rx checksum offload capabilities and update the hardware accordingly.
 
@@ -52,7 +50,7 @@ The *EvtNetAdapterOffloadSetRxChecksum* callback function is implemented by the 
 ```C++
 //Declaration
 
-EVT_NET_ADAPTER_OFFLOAD_SET_RX_CHECKSUM EvtNetAdapterOffloadSetRxChecksum; 
+EVT_NET_ADAPTER_OFFLOAD_SET_RX_CHECKSUM EvtNetAdapterOffloadSetRxChecksum;
 
 // Definition
 
@@ -83,7 +81,9 @@ For an example implementation of this callback, see [NetAdapterCx hardware offlo
 
 ## -see-also
 
-[NetAdapterCx hardware offloads](https://docs.microsoft.com/windows-hardware/drivers/netcx/netadaptercx-hardware-offloads)
+[NetAdapterCx hardware offloads](/windows-hardware/drivers/netcx/netadaptercx-hardware-offloads)
+
+[Checksum Offload](/windows-hardware/drivers/netcx/checksum-offload)
 
 [**NET_ADAPTER_OFFLOAD_RX_CHECKSUM_CAPABILITIES**](ns-netadapteroffload-_net_adapter_offload_rx_checksum_capabilities.md)
 

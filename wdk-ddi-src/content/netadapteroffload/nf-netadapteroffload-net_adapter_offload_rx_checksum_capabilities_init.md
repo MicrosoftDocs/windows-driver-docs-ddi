@@ -3,8 +3,8 @@ UID: NF:netadapteroffload.NET_ADAPTER_OFFLOAD_RX_CHECKSUM_CAPABILITIES_INIT
 title: NET_ADAPTER_OFFLOAD_RX_CHECKSUM_CAPABILITIES_INIT function (netadapteroffload.h)
 description: The NET_ADAPTER_OFFLOAD_RX_CHECKSUM_CAPABILITIES_INIT method initializes a NET_ADAPTER_OFFLOAD_RX_CHECKSUM_CAPABILITIES structure.
 tech.root: netvista
-ms.assetid: cc94cd92-487e-4a09-9852-e1c9a3315088
-ms.date: 01/17/2019
+ms.assetid:
+ms.date: 08/10/2020
 keywords: ["NET_ADAPTER_OFFLOAD_RX_CHECKSUM_CAPABILITIES_INIT function"]
 f1_keywords:
  - "netadapteroffload/NET_ADAPTER_OFFLOAD_RX_CHECKSUM_CAPABILITIES_INIT"
@@ -37,36 +37,37 @@ api_name:
 product:
 - Windows
 targetos: Windows
-ms.custom: 19H1
+ms.custom: Fe
 ---
 
 # NET_ADAPTER_OFFLOAD_RX_CHECKSUM_CAPABILITIES_INIT function
 
-
 ## -description
 
-
-
-The **NET_ADAPTER_OFFLOAD_RX_CHECKSUM_CAPABILITIES_INIT** method initializes a [**NET_ADAPTER_OFFLOAD_RX_CHECKSUM_CAPABILITIES**](../netadapteroffload/ns-netadapteroffload-_net_adapter_offload_rx_checksum_capabilities.md) structure.
+The **NET_ADAPTER_OFFLOAD_RX_CHECKSUM_CAPABILITIES_INIT** method initializes a [**NET_ADAPTER_OFFLOAD_RX_CHECKSUM_CAPABILITIES**](ns-netadapteroffload-_net_adapter_offload_rx_checksum_capabilities.md) structure.
 
 ## -parameters
 
 ### -param RxChecksumCapabilities
 
-A pointer to a driver-allocated [**NET_ADAPTER_OFFLOAD_RX_CHECKSUM_CAPABILITIES**](../netadapteroffload/ns-netadapteroffload-_net_adapter_offload_rx_checksum_capabilities.md) structure.
+A pointer to a driver-allocated [**NET_ADAPTER_OFFLOAD_RX_CHECKSUM_CAPABILITIES**](ns-netadapteroffload-_net_adapter_offload_rx_checksum_capabilities.md) structure.
 
 ### -param EvtAdapterOffloadSetRxChecksum
 
-A pointer to the client driver's implementation of the [*EVT_NET_ADAPTER_OFFLOAD_SET_RX_CHECKSUM*](../netadapteroffload/nc-netadapteroffload-evt_net_adapter_offload_set_rx_checksum.md) callback function.
+A pointer to the client driver's implementation of the [*EVT_NET_ADAPTER_OFFLOAD_SET_RX_CHECKSUM*](nc-netadapteroffload-evt_net_adapter_offload_set_rx_checksum.md) callback function.
 
 ## -remarks
 
-The [**NET_ADAPTER_OFFLOAD_RX_CHECKSUM_CAPABILITIES**](../netadapteroffload/ns-netadapteroffload-_net_adapter_offload_rx+checksum_capabilities.md) structure initialized by this method is passed as a parameter to the [**NetAdapterOffloadSetRxChecksumCapabilities**](../netadapteroffload/nf-netadapteroffload-netadapteroffloadsetrxchecksumcapabilities.md) method.
+The client driver calls **NET_ADAPTER_OFFLOAD_RX_CHECKSUM_CAPABILITIES_INIT** to initialize a [**NET_ADAPTER_OFFLOAD_RX_CHECKSUM_CAPABILITIES**](ns-netadapteroffload-_net_adapter_offload_rx_checksum_capabilities.md) structure. The driver then passes the **NET_ADAPTER_OFFLOAD_RX_CHECKSUM_CAPABILITIES** structure as a parameter to the [**NetAdapterOffloadSetRxChecksumCapabilities**](nf-netadapteroffload-netadapteroffloadsetrxchecksumcapabilities.md) method to register it.
 
 ## -see-also
 
-[NetAdapterCx hardware offloads](https://docs.microsoft.com/windows-hardware/drivers/netcx/netadaptercx-hardware-offloads)
+[NetAdapterCx hardware offloads](/windows-hardware/drivers/netcx/netadaptercx-hardware-offloads)
 
-[**NET_ADAPTER_OFFLOAD_RX_CHECKSUM_CAPABILITIES**](../netadapteroffload/ns-netadapteroffload-_net_adapter_offload_rx_checksum_capabilities.md)
+[Checksum Offload](/windows-hardware/drivers/netcx/checksum-offload)
 
-[**NetAdapterOffloadSetRxChecksumCapabilities**](../netadapteroffload/nf-netadapteroffload-netadapteroffloadsetrxchecksumcapabilities.md)
+[*EVT_NET_ADAPTER_OFFLOAD_SET_RX_CHECKSUM*](nc-netadapteroffload-evt_net_adapter_offload_set_rx_checksum.md)
+
+[**NET_ADAPTER_OFFLOAD_RX_CHECKSUM_CAPABILITIES**](ns-netadapteroffload-_net_adapter_offload_rx_checksum_capabilities.md)
+
+[**NetAdapterOffloadSetRxChecksumCapabilities**](nf-netadapteroffload-netadapteroffloadsetrxchecksumcapabilities.md)

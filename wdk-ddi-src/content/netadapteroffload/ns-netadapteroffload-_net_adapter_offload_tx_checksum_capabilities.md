@@ -3,8 +3,8 @@ UID: NS:netadapteroffload._NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES
 title: _NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES (netadapteroffload.h)
 description: The NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES structure describes a network interface card (NIC)'s capabilities for Tx checksum offload.
 tech.root: netvista
-ms.assetid: 73c5e8ec-69ef-4c3d-9864-c728f86b3551
-ms.date: 01/17/2019
+ms.assetid:
+ms.date: 08/10/2020
 keywords: ["_NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES structure"]
 f1_keywords:
  - "netadapteroffload/_NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES"
@@ -33,23 +33,21 @@ api_name:
 product:
 - Windows
 targetos: Windows
-ms.custom: 19H1
+ms.custom: Fe
 ---
 
 # _NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES structure
 
 ## -description
 
-
-
-The **NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES** structure describes a network interface card (NIC)'s capabilities for Tx checksum offload.
+The **NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES** structure describes a network interface card (NIC)'s Tx checksum offload capabilities.
 
 ## -struct-fields
 
 ### -field Size
 
-The size of this structure, in bytes.
- 
+The size of this structure in bytes.
+
 ### -field Layer3Flags
 
 Flags specifying the layer 3 protocol variations that the NIC can successfully perform Tx checksum on.
@@ -63,7 +61,6 @@ The flags should be a combination of:
 | NetAdapterOffloadFlagIPv6WithoutExtensions | Set if the NIC is capable of performing Tx checksum offload on IPv6 packets without extensions |
 | NetAdapterOffloadFlagIPv6WithExtensions | Set if the NIC is capable of performing Tx checksum offload on IPv6 packets with extensions |
 
- 
 ### -field Layer4Flags
 
 Flags specifying the layer 4 protocol variations that the NIC can successfully perform Tx checksum on.
@@ -75,27 +72,31 @@ The flags should be a combination of:
 | NetAdapterOffloadFlagTcpWithoutOptions | Set if the NIC is capable of performing TCP checksum offload |
 | NetAdapterOffloadFlagTcpWithOptions | Set if the NIC is capable of performing Tx checksum offload on TCP packets with options |
 | NetAdapterOffloadFlagUdp | Set if the NIC is capable of performing UDP checksum offload |
- 
+
 ### -field Layer3HeaderOffsetLimit
 
-The maximum layer 3 header offset that the NIC supports in bytes.
- 
+The maximum layer 3 header offset that the NIC supports in bytes. This member is optional.
+
 ### -field Layer4HeaderOffsetLimit
- 
-The maximum layer 4 header offset that the NIC supports in bytes.
+
+The maximum layer 4 header offset that the NIC supports in bytes. This member is optional.
 
 ### -field EvtAdapterOffloadSetTxChecksum
 
-A pointer to the client driver's implementation of the [*EVT_NET_ADAPTER_OFFLOAD_SET_TX_CHECKSUM*](../netadapteroffload/nc-netadapteroffload-evt_net_adapter_offload_set_tx_checksum.md) callback function.
+A pointer to the client driver's implementation of the [*EVT_NET_ADAPTER_OFFLOAD_SET_TX_CHECKSUM*](nc-netadapteroffload-evt_net_adapter_offload_set_tx_checksum.md) callback function.
 
 ## -remarks
 
-Call [**NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES_INIT**](../netadapteroffload/nf-netadapteroffload-net_adapter_offload_tx_checksum_capabilities_init.md) to initialize this structure. An initialized **NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES** structure is passed as a parameter to [**NetAdapterOffloadSetTxChecksumCapabilities**](../netadapteroffload/nf-netadapteroffload-netadapteroffloadsettxchecksumcapabilities.md).
+Call [**NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES_INIT**](nf-netadapteroffload-net_adapter_offload_tx_checksum_capabilities_init.md) to initialize this structure. The client driver passes an initialized **NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES** structure as a parameter to [**NetAdapterOffloadSetTxChecksumCapabilities**](nf-netadapteroffload-netadapteroffloadsettxchecksumcapabilities.md).
 
 ## -see-also
 
-[NetAdapterCx hardware offloads](https://docs.microsoft.com/windows-hardware/drivers/netcx/netadaptercx-hardware-offloads)
+[NetAdapterCx hardware offloads](/windows-hardware/drivers/netcx/netadaptercx-hardware-offloads)
 
-[**NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES_INIT**](../netadapteroffload/nf-netadapteroffload-net_adapter_offload_tx_checksum_capabilities_init.md)
+[Checksum Offload](/windows-hardware/drivers/netcx/checksum-offload)
 
-[**NetAdapterOffloadSetTxChecksumCapabilities**](../netadapteroffload/nf-netadapteroffload-netadapteroffloadsettxchecksumcapabilities.md)
+[*EVT_NET_ADAPTER_OFFLOAD_SET_TX_CHECKSUM*](nc-netadapteroffload-evt_net_adapter_offload_set_tx_checksum.md)
+
+[**NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES_INIT**](nf-netadapteroffload-net_adapter_offload_tx_checksum_capabilities_init.md)
+
+[**NetAdapterOffloadSetTxChecksumCapabilities**](nf-netadapteroffload-netadapteroffloadsettxchecksumcapabilities.md)

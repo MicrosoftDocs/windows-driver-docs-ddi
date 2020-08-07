@@ -3,8 +3,8 @@ UID: NF:netadapteroffload.NetAdapterOffloadSetTxChecksumCapabilities
 title: NetAdapterOffloadSetTxChecksumCapabilities function (netadapteroffload.h)
 description: The NetAdapterOffloadSetChecksumCapabilities method sets the hardware Tx checksum offload capabilities of a network adapter.
 tech.root: netvista
-ms.assetid: 03dd8b75-0284-4c7a-8102-6ab0e12f3163
-ms.date: 01/17/2019
+ms.assetid: 
+ms.date: 08/10/2020
 keywords: ["NetAdapterOffloadSetTxChecksumCapabilities function"]
 f1_keywords:
  - "netadapteroffload/NetAdapterOffloadSetTxChecksumCapabilities"
@@ -37,15 +37,12 @@ api_name:
 product:
 - Windows
 targetos: Windows
-ms.custom: 19H1
+ms.custom: Fe
 ---
 
 # NetAdapterOffloadSetTxChecksumCapabilities function
 
-
 ## -description
-
-
 
 The **NetAdapterOffloadSetTxChecksumCapabilities** method sets the hardware Tx checksum offload capabilities of a network adapter.
 
@@ -57,7 +54,7 @@ A handle to a NETADAPTER object that the client driver obtained from a previous 
 
 ### -param HardwareCapabilities
 
-A pointer to a driver-allocated and initialized [**NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES**](../netadapteroffload/ns-netadapteroffload-_net_adapter_offload_tx_checksum_capabilities.md) structure that describes the hardware's Tx checksum offload capabilities.
+A pointer to a driver-allocated and initialized [**NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES**](ns-netadapteroffload-_net_adapter_offload_tx_checksum_capabilities.md) structure that describes the hardware's Tx checksum offload capabilities.
 
 ## -remarks
 
@@ -65,14 +62,16 @@ Client drivers typically call this method from within their [*EvtDevicePrepareHa
 
 ## -see-also
 
-[NetAdapterCx hardware offloads](https://docs.microsoft.com/windows-hardware/drivers/netcx/netadaptercx-hardware-offloads)
+[NetAdapterCx hardware offloads](/windows-hardware/drivers/netcx/netadaptercx-hardware-offloads)
+
+[Checksum Offload](/windows-hardware/drivers/netcx/checksum-offload)
 
 [**NetAdapterCreate**](../netadapter/nf-netadapter-netadaptercreate.md)
 
-[**NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES**](../netadapteroffload/ns-netadapteroffload-_net_adapter_offload_tx_checksum_capabilities.md)
+[**NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES**](ns-netadapteroffload-_net_adapter_offload_tx_checksum_capabilities.md)
 
-[**NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES_INIT**](../netadapteroffload/nf-netadapteroffload-net_adapter_offload_tx_checksum_capabilities_init.md)
+[**NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES_INIT**](nf-netadapteroffload-net_adapter_offload_tx_checksum_capabilities_init.md)
 
-[*EVT_NET_ADAPTER_OFFLOAD_SET_TX_CHECKSUM*](../netadapteroffload/nc-netadapteroffload-evt_net_adapter_offload_set_tx_checksum.md)
+[*EVT_NET_ADAPTER_OFFLOAD_SET_TX_CHECKSUM*](nc-netadapteroffload-evt_net_adapter_offload_set_tx_checksum.md)
 
 [**NetAdapterStart**](../netadapter/nf-netadapter-netadapterstart.md)
