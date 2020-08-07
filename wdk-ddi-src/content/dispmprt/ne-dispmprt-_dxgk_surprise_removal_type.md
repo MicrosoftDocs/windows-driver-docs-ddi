@@ -5,7 +5,7 @@ description: Indicates the type of surprise removal event when an external displ
 old-location: display\dxgk_surprise_removal_type.htm
 tech.root: display
 ms.assetid: 3045f46d-d78a-4f07-9838-f3afd97d9244
-ms.date: 05/10/2018
+ms.date: 08/05/2020
 keywords: ["_DXGK_SURPRISE_REMOVAL_TYPE enumeration"]
 ms.keywords: DXGK_SURPRISE_REMOVAL_TYPE, DXGK_SURPRISE_REMOVAL_TYPE enumeration [Display Devices], DxgkRemovalHibernation, _DXGK_SURPRISE_REMOVAL_TYPE, display.dxgk_surprise_removal_type, dispmprt/DXGK_SURPRISE_REMOVAL_TYPE, dispmprt/DxgkRemovalHibernation
 f1_keywords:
@@ -43,24 +43,20 @@ req.typenames: DXGK_SURPRISE_REMOVAL_TYPE
 
 # _DXGK_SURPRISE_REMOVAL_TYPE enumeration
 
-
 ## -description
-
 
 Indicates the type of surprise removal event when an external display device is disconnected  from the system.
 
-
 ## -enum-fields
-
-
-
 
 ### -field DxgkRemovalHibernation
 
 The disconnected external display device was in hibernation mode.
 
-
 ### -field DxgkRemovalPnPNotify
 
+The disconnected external display device was surprise removed/unplugged while it was still running.
 
+## -remarks
 
+See the [**DXGKDDI_NOTIFY_SURPRISE_REMOVAL**](nc-dispmprt-dxgkddi_notify_surprise_removal.md) callback for details.
