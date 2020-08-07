@@ -6,7 +6,7 @@ old-location: display\dxvahdddi_device_usage.htm
 tech.root: display
 ms.assetid: 9a2e74fa-ee02-46f9-a51e-b2ffcdf7617a
 ms.date: 05/10/2018
-keywords: ["_DXVAHDDDI_DEVICE_USAGE enumeration"]
+keywords: ["DXVAHDDDI_DEVICE_USAGE enumeration"]
 ms.keywords: DXVA2_Structs_37d96cb2-48a3-4538-9225-e63bfe0b5b5f.xml, DXVAHDDDI_DEVICE_USAGE, DXVAHDDDI_DEVICE_USAGE enumeration [Display Devices], DXVAHDDDI_DEVICE_USAGE_OPTIMAL_QUALITY, DXVAHDDDI_DEVICE_USAGE_OPTIMAL_SPEED, DXVAHDDDI_DEVICE_USAGE_PLAYBACK_NORMAL, _DXVAHDDDI_DEVICE_USAGE, d3dumddi/DXVAHDDDI_DEVICE_USAGE, d3dumddi/DXVAHDDDI_DEVICE_USAGE_OPTIMAL_QUALITY, d3dumddi/DXVAHDDDI_DEVICE_USAGE_OPTIMAL_SPEED, d3dumddi/DXVAHDDDI_DEVICE_USAGE_PLAYBACK_NORMAL, display.dxvahdddi_device_usage
 f1_keywords:
  - "d3dumddi/DXVAHDDDI_DEVICE_USAGE"

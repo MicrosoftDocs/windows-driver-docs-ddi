@@ -6,7 +6,7 @@ old-location: ifsk\file_get_ea_information.htm
 tech.root: ifsk
 ms.assetid: 2abaf505-b890-43b6-a277-d930417bdcb8
 ms.date: 04/16/2018
-keywords: ["_FILE_GET_EA_INFORMATION structure"]
+keywords: ["FILE_GET_EA_INFORMATION structure"]
 ms.keywords: "*PFILE_GET_EA_INFORMATION, FILE_GET_EA_INFORMATION, FILE_GET_EA_INFORMATION structure [Installable File System Drivers], PFILE_GET_EA_INFORMATION, PFILE_GET_EA_INFORMATION structure pointer [Installable File System Drivers], _FILE_GET_EA_INFORMATION, fileinformationstructures_42834ee3-151e-4844-bd66-a20775e364b4.xml, ifsk.file_get_ea_information, ntifs/FILE_GET_EA_INFORMATION, ntifs/PFILE_GET_EA_INFORMATION"
 f1_keywords:
  - "ntifs/FILE_GET_EA_INFORMATION"

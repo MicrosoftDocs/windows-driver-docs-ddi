@@ -4,7 +4,7 @@ title: _D3DKMT_EVICTION_CRITERIA (d3dkmthk.h)
 description: The eviction criteria.
 ms.assetid: 429c5cb4-02f5-4634-b730-6ada89f4e5bb
 ms.date: 10/19/2018
-keywords: ["_D3DKMT_EVICTION_CRITERIA structure"]
+keywords: ["D3DKMT_EVICTION_CRITERIA structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_EVICTION_CRITERIA"
  - "_D3DKMT_EVICTION_CRITERIA"

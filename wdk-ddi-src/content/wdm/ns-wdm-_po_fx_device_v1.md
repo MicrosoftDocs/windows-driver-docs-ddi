@@ -6,7 +6,7 @@ old-location: kernel\po_fx_device.htm
 tech.root: kernel
 ms.assetid: E2413C3A-79D3-47E3-A664-80869A721F37
 ms.date: 04/30/2018
-keywords: ["_PO_FX_DEVICE_V1 structure"]
+keywords: ["PO_FX_DEVICE_V1 structure"]
 ms.keywords: "*PPO_FX_DEVICE, *PPO_FX_DEVICE_V1, PO_FX_DEVICE, PO_FX_DEVICE structure [Kernel-Mode Driver Architecture], PO_FX_DEVICE_V1, PO_FX_DEVICE_V1 structure [Kernel-Mode Driver Architecture], PPO_FX_DEVICE_V1, PPO_FX_DEVICE_V1 structure pointer [Kernel-Mode Driver Architecture], _PO_FX_DEVICE_V1, kernel.po_fx_device, wdm/PO_FX_DEVICE, wdm/PO_FX_DEVICE_V1, wdm/PPO_FX_DEVICE_V1"
 f1_keywords:
  - "wdm/PO_FX_DEVICE_V1"

@@ -6,7 +6,7 @@ old-location: ifsk\network_app_instance_ecp_context.htm
 tech.root: ifsk
 ms.assetid: ADB7550F-9191-4EAA-BEBA-0D0D29EC7B03
 ms.date: 04/16/2018
-keywords: ["_NETWORK_APP_INSTANCE_ECP_CONTEXT structure"]
+keywords: ["NETWORK_APP_INSTANCE_ECP_CONTEXT structure"]
 ms.keywords: "*PNETWORK_APP_INSTANCE_ECP_CONTEXT, NETWORK_APP_INSTANCE_ECP_CONTEXT, NETWORK_APP_INSTANCE_ECP_CONTEXT structure [Installable File System Drivers], PNETWORK_APP_INSTANCE_ECP_CONTEXT, PNETWORK_APP_INSTANCE_ECP_CONTEXT structure pointer [Installable File System Drivers], _NETWORK_APP_INSTANCE_ECP_CONTEXT, ifsk.network_app_instance_ecp_context, ntifs/NETWORK_APP_INSTANCE_ECP_CONTEXT, ntifs/PNETWORK_APP_INSTANCE_ECP_CONTEXT"
 f1_keywords:
  - "ntifs/NETWORK_APP_INSTANCE_ECP_CONTEXT"

@@ -6,7 +6,7 @@ old-location: pci\sriov_pf_event.htm
 tech.root: PCI
 ms.assetid: e2b40a9d-57e6-49b1-839a-d34acb108807
 ms.date: 02/24/2018
-keywords: ["_SRIOV_PF_EVENT enumeration"]
+keywords: ["SRIOV_PF_EVENT enumeration"]
 ms.keywords: "*PSRIOV_PF_EVENT, PCI.sriov_pf_event, SRIOV_PF_EVENT, SRIOV_PF_EVENT enumeration [Buses], SriovEventPfMaximum, SriovEventPfQueryStopDevice, SriovEventPfRestart, _SRIOV_PF_EVENT, pcivirt/SRIOV_PF_EVENT, pcivirt/SriovEventPfMaximum, pcivirt/SriovEventPfQueryStopDevice, pcivirt/SriovEventPfRestart"
 f1_keywords:
  - "pcivirt/SRIOV_PF_EVENT"

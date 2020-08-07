@@ -4,7 +4,7 @@ title: _DXGK_VALIDATESUBMITCOMMANDFLAGS (d3dkmddi.h)
 description: Contains information needed to validate submit commands.
 ms.assetid: efc71282-bd89-438a-9a0a-910663c57671
 ms.date: 10/19/2018
-keywords: ["_DXGK_VALIDATESUBMITCOMMANDFLAGS structure"]
+keywords: ["DXGK_VALIDATESUBMITCOMMANDFLAGS structure"]
 f1_keywords:
  - "d3dkmddi/_DXGK_VALIDATESUBMITCOMMANDFLAGS"
  - "_DXGK_VALIDATESUBMITCOMMANDFLAGS"

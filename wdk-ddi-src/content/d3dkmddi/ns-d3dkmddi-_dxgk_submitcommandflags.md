@@ -5,7 +5,7 @@ description: The DXGK_SUBMITCOMMANDFLAGS structure identifies, in bit-field flag
 old-location: display\dxgk_submitcommandflags.htm
 ms.assetid: b73e49d1-3e71-4c36-b628-3d5a3975e5fa
 ms.date: 05/10/2018
-keywords: ["_DXGK_SUBMITCOMMANDFLAGS structure"]
+keywords: ["DXGK_SUBMITCOMMANDFLAGS structure"]
 ms.keywords: DXGK_SUBMITCOMMANDFLAGS, DXGK_SUBMITCOMMANDFLAGS structure [Display Devices], DmStructs_c3c77059-3e18-4fe7-a845-b59bb117ba30.xml, _DXGK_SUBMITCOMMANDFLAGS, d3dkmddi/DXGK_SUBMITCOMMANDFLAGS, display.dxgk_submitcommandflags
 f1_keywords:
  - "d3dkmddi/DXGK_SUBMITCOMMANDFLAGS"

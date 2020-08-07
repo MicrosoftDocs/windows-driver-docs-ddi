@@ -6,7 +6,7 @@ old-location: ifsk\luid_and_attributes.htm
 tech.root: ifsk
 ms.assetid: d436cd60-d1ff-4a0c-b087-6aa50adfd7fc
 ms.date: 04/16/2018
-keywords: ["_LUID_AND_ATTRIBUTES structure"]
+keywords: ["LUID_AND_ATTRIBUTES structure"]
 ms.keywords: "*PLUID_AND_ATTRIBUTES, LUID_AND_ATTRIBUTES, LUID_AND_ATTRIBUTES structure [Installable File System Drivers], PLUID_AND_ATTRIBUTES, PLUID_AND_ATTRIBUTES structure pointer [Installable File System Drivers], _LUID_AND_ATTRIBUTES, ifsk.luid_and_attributes, securitystructures_372f1a20-6582-4904-8de1-8efd9950ab76.xml, wdm/LUID_AND_ATTRIBUTES, wdm/PLUID_AND_ATTRIBUTES"
 f1_keywords:
  - "wdm/LUID_AND_ATTRIBUTES"

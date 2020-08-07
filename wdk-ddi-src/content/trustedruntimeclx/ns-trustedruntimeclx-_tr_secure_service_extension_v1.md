@@ -4,7 +4,7 @@ title: _TR_SECURE_SERVICE_EXTENSION_V1 (trustedruntimeclx.h)
 description: 
 ms.assetid: 15613a31-bd74-4304-b621-3a8b226e63d0
 ms.date: 10/19/2018
-keywords: ["_TR_SECURE_SERVICE_EXTENSION_V1 structure"]
+keywords: ["TR_SECURE_SERVICE_EXTENSION_V1 structure"]
 f1_keywords:
  - "trustedruntimeclx/_TR_SECURE_SERVICE_EXTENSION_V1"
  - "_TR_SECURE_SERVICE_EXTENSION_V1"

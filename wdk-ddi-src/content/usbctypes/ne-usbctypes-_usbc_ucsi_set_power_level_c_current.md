@@ -4,7 +4,7 @@ title: _USBC_UCSI_SET_POWER_LEVEL_C_CURRENT (usbctypes.h)
 description: Defines values for current power operation mode. 
 ms.assetid: 93cd224b-1baf-4219-b56b-d98ba97ea8c6
 ms.date: 09/30/2018
-keywords: ["_USBC_UCSI_SET_POWER_LEVEL_C_CURRENT enumeration"]
+keywords: ["USBC_UCSI_SET_POWER_LEVEL_C_CURRENT enumeration"]
 f1_keywords:
  - "usbctypes/_USBC_UCSI_SET_POWER_LEVEL_C_CURRENT"
  - "_USBC_UCSI_SET_POWER_LEVEL_C_CURRENT"

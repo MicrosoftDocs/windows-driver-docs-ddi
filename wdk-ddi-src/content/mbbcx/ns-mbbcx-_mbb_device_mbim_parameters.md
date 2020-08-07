@@ -5,7 +5,7 @@ description: The client driver uses the MBB_DEVICE_MBIM_PARAMETERS structure to 
 tech.root: netvista
 ms.assetid: 814daf06-b7f3-4cee-8b74-8b0a13a6292a
 ms.date: 02/06/2019
-keywords: ["_MBB_DEVICE_MBIM_PARAMETERS structure"]
+keywords: ["MBB_DEVICE_MBIM_PARAMETERS structure"]
 f1_keywords:
  - "mbbcx/-	_MBB_DEVICE_MBIM_PARAMETERS"
  - "-	_MBB_DEVICE_MBIM_PARAMETERS"

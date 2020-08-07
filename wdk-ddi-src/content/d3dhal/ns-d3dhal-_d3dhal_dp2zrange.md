@@ -6,7 +6,7 @@ old-location: display\d3dhal_dp2zrange.htm
 tech.root: display
 ms.assetid: 329e0036-2d67-465f-a049-a36648622003
 ms.date: 05/10/2018
-keywords: ["_D3DHAL_DP2ZRANGE structure"]
+keywords: ["D3DHAL_DP2ZRANGE structure"]
 ms.keywords: "*LPD3DHAL_DP2ZRANGE, D3DHAL_DP2ZRANGE, D3DHAL_DP2ZRANGE structure [Display Devices], LPD3DHAL_DP2ZRANGE, LPD3DHAL_DP2ZRANGE structure pointer [Display Devices], _D3DHAL_DP2ZRANGE, d3dhal/D3DHAL_DP2ZRANGE, d3dhal/LPD3DHAL_DP2ZRANGE, d3dstrct_327e85bf-81c0-420e-b229-e389115fcab3.xml, display.d3dhal_dp2zrange"
 f1_keywords:
  - "d3dhal/D3DHAL_DP2ZRANGE"

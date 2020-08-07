@@ -5,7 +5,7 @@ description: The D3DKMT_INVALIDATEACTIVEVIDPN structure describes parameters tha
 old-location: display\d3dkmt_invalidateactivevidpn.htm
 ms.assetid: 51fb1993-b9f3-436a-9a6d-7d4f9bf26083
 ms.date: 05/10/2018
-keywords: ["_D3DKMT_INVALIDATEACTIVEVIDPN structure"]
+keywords: ["D3DKMT_INVALIDATEACTIVEVIDPN structure"]
 ms.keywords: D3DKMT_INVALIDATEACTIVEVIDPN, D3DKMT_INVALIDATEACTIVEVIDPN structure [Display Devices], OpenGL_Structs_6610529b-39db-4fc4-981a-96a6b3bf7543.xml, _D3DKMT_INVALIDATEACTIVEVIDPN, d3dkmthk/D3DKMT_INVALIDATEACTIVEVIDPN, display.d3dkmt_invalidateactivevidpn
 f1_keywords:
  - "d3dkmthk/D3DKMT_INVALIDATEACTIVEVIDPN"

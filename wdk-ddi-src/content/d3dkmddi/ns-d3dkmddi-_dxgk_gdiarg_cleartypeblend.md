@@ -5,7 +5,7 @@ description: The DXGK_GDIARG_CLEARTYPEBLEND structure describes the characterist
 old-location: display\dxgk_gdiarg_cleartypeblend.htm
 ms.assetid: 1e67bb33-c2e5-4f3c-9ea6-feeb4a1fe645
 ms.date: 05/10/2018
-keywords: ["_DXGK_GDIARG_CLEARTYPEBLEND structure"]
+keywords: ["DXGK_GDIARG_CLEARTYPEBLEND structure"]
 ms.keywords: DXGK_GDIARG_CLEARTYPEBLEND, DXGK_GDIARG_CLEARTYPEBLEND structure [Display Devices], DmStructs_b59789df-1494-45ea-b89a-4403e6c82dfd.xml, _DXGK_GDIARG_CLEARTYPEBLEND, d3dkmddi/DXGK_GDIARG_CLEARTYPEBLEND, display.dxgk_gdiarg_cleartypeblend
 f1_keywords:
  - "d3dkmddi/DXGK_GDIARG_CLEARTYPEBLEND"

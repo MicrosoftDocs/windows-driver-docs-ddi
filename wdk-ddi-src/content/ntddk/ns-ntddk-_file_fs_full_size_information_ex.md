@@ -5,7 +5,7 @@ description: Used in a request to query sector size information for a file syste
 tech.root: ifsk
 ms.assetid: a7d7b036-3f47-4e6d-87df-1578300e095c
 ms.date: 09/30/2018
-keywords: ["_FILE_FS_FULL_SIZE_INFORMATION_EX structure"]
+keywords: ["FILE_FS_FULL_SIZE_INFORMATION_EX structure"]
 f1_keywords:
  - "ntddk/_FILE_FS_FULL_SIZE_INFORMATION_EX"
  - "_FILE_FS_FULL_SIZE_INFORMATION_EX"

@@ -4,7 +4,7 @@ title: _D3DKMT_MPOKERNELCAPS_SUPPORT (d3dkmthk.h)
 description: Structure used to indicate whether MPO kernel capabilities are supported.
 ms.assetid: 56715a9d-d89f-4764-af78-bdc54135139f
 ms.date: 10/19/2018
-keywords: ["_D3DKMT_MPOKERNELCAPS_SUPPORT structure"]
+keywords: ["D3DKMT_MPOKERNELCAPS_SUPPORT structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_MPOKERNELCAPS_SUPPORT"
  - "_D3DKMT_MPOKERNELCAPS_SUPPORT"

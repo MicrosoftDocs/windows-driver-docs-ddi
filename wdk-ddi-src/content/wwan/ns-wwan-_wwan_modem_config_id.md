@@ -5,7 +5,7 @@ description: The WWAN_MODEM_CONFIG_ID structure represents a unique ID for a mod
 tech.root: netvista
 ms.assetid: e5653619-58fe-4fc7-a1d3-550a8cd6a735
 ms.date: 03/23/2018
-keywords: ["_WWAN_MODEM_CONFIG_ID structure"]
+keywords: ["WWAN_MODEM_CONFIG_ID structure"]
 f1_keywords:
  - "wwan/_WWAN_MODEM_CONFIG_ID"
  - "_WWAN_MODEM_CONFIG_ID"

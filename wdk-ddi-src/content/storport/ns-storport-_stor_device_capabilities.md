@@ -6,7 +6,7 @@ old-location: storage\stor_device_capabilities.htm
 tech.root: storage
 ms.assetid: 62BE93C6-8E1C-4430-BB07-C25E8D4076B0
 ms.date: 03/29/2018
-keywords: ["_STOR_DEVICE_CAPABILITIES structure"]
+keywords: ["STOR_DEVICE_CAPABILITIES structure"]
 ms.keywords: "*PSTOR_DEVICE_CAPABILITIES, PSTOR_DEVICE_CAPABILITIES, PSTOR_DEVICE_CAPABILITIES structure pointer [Storage Devices], STOR_DEVICE_CAPABILITIES, STOR_DEVICE_CAPABILITIES structure [Storage Devices], _STOR_DEVICE_CAPABILITIES, storage.stor_device_capabilities, storport/PSTOR_DEVICE_CAPABILITIES, storport/STOR_DEVICE_CAPABILITIES"
 f1_keywords:
  - "storport/STOR_DEVICE_CAPABILITIES"

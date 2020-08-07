@@ -4,7 +4,7 @@ title: _D3DKMT_PROCESS_VERIFIER_VIDMM_RESTRICT_BUDGET (d3dkmthk.h)
 description: Process verifier video memory management restrict budget.
 ms.assetid: cb7a97be-e6e6-498b-84c0-2cffb33000b5
 ms.date: 10/19/2018
-keywords: ["_D3DKMT_PROCESS_VERIFIER_VIDMM_RESTRICT_BUDGET structure"]
+keywords: ["D3DKMT_PROCESS_VERIFIER_VIDMM_RESTRICT_BUDGET structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_PROCESS_VERIFIER_VIDMM_RESTRICT_BUDGET"
  - "_D3DKMT_PROCESS_VERIFIER_VIDMM_RESTRICT_BUDGET"

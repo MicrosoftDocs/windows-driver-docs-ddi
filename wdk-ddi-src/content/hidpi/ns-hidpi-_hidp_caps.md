@@ -6,7 +6,7 @@ old-location: hid\hidp_caps.htm
 tech.root: hid
 ms.assetid: ec4d4b7b-acf6-4839-9a61-1883eddce3f4
 ms.date: 04/30/2018
-keywords: ["_HIDP_CAPS structure"]
+keywords: ["HIDP_CAPS structure"]
 ms.keywords: "*PHIDP_CAPS, HIDP_CAPS, HIDP_CAPS structure [Human Input Devices], PHIDP_CAPS, PHIDP_CAPS structure pointer [Human Input Devices], _HIDP_CAPS, hid.hidp_caps, hidpi/HIDP_CAPS, hidpi/PHIDP_CAPS, hidstrct_2ef93e42-2fd2-4dff-87fb-11f1d1342b07.xml"
 f1_keywords:
  - "hidpi/HIDP_CAPS"

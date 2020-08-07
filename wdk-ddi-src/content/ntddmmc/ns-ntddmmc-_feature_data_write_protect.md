@@ -6,7 +6,7 @@ old-location: storage\feature_data_write_protect.htm
 tech.root: storage
 ms.assetid: 16582fce-179a-4a99-9e4c-6f7ca1d3ddef
 ms.date: 03/29/2018
-keywords: ["_FEATURE_DATA_WRITE_PROTECT structure"]
+keywords: ["FEATURE_DATA_WRITE_PROTECT structure"]
 ms.keywords: "*PFEATURE_DATA_WRITE_PROTECT, FEATURE_DATA_WRITE_PROTECT, FEATURE_DATA_WRITE_PROTECT structure [Storage Devices], PFEATURE_DATA_WRITE_PROTECT, PFEATURE_DATA_WRITE_PROTECT structure pointer [Storage Devices], _FEATURE_DATA_WRITE_PROTECT, ntddmmc/FEATURE_DATA_WRITE_PROTECT, ntddmmc/PFEATURE_DATA_WRITE_PROTECT, storage.feature_data_write_protect, structs-CD-ROM_67c6f24f-271e-4452-8b5f-fc6719c1d291.xml"
 f1_keywords:
  - "ntddmmc/FEATURE_DATA_WRITE_PROTECT"

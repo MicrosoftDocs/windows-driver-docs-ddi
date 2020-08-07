@@ -6,7 +6,7 @@ old-location: netvista\ndis_isolation_mode.htm
 tech.root: netvista
 ms.assetid: DA4765CD-808C-438A-9CA6-5ADC27A70EC8
 ms.date: 05/02/2018
-keywords: ["_NDIS_ISOLATION_MODE enumeration"]
+keywords: ["NDIS_ISOLATION_MODE enumeration"]
 ms.keywords: "*PNDIS_ISOLATION_MODE, NDIS_ISOLATION_MODE, NDIS_ISOLATION_MODE enumeration [Network Drivers Starting with Windows Vista], NdisIsolationModeExternalVirtualSubnet, NdisIsolationModeNativeVirtualSubnet, NdisIsolationModeNone, NdisIsolationModeVlan, _NDIS_ISOLATION_MODE, netvista.ndis_isolation_mode, ntddndis/NDIS_ISOLATION_MODE, ntddndis/NdisIsolationModeExternalVirtualSubnet, ntddndis/NdisIsolationModeNativeVirtualSubnet, ntddndis/NdisIsolationModeNone, ntddndis/NdisIsolationModeVlan"
 f1_keywords:
  - "ntddndis/NDIS_ISOLATION_MODE"

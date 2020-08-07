@@ -5,7 +5,7 @@ description: A NET_PACKET_CHECKSUM structure describes checksum information for 
 tech.root: netvista
 ms.assetid: 75363870-C58D-4677-A523-9728CB4A1BAC
 ms.date: 09/25/2019
-keywords: ["_NET_PACKET_CHECKSUM structure"]
+keywords: ["NET_PACKET_CHECKSUM structure"]
 f1_keywords:
  - "checksumtypes/BATTERY_INFORMATION"
  - "BATTERY_INFORMATION"

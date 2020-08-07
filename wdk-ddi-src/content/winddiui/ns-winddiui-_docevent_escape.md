@@ -6,7 +6,7 @@ old-location: print\docevent_escape.htm
 tech.root: print
 ms.assetid: 54ac7c45-63a1-4003-8250-524e6f9e8d06
 ms.date: 04/20/2018
-keywords: ["_DOCEVENT_ESCAPE structure"]
+keywords: ["DOCEVENT_ESCAPE structure"]
 ms.keywords: "*PDOCEVENT_ESCAPE, DOCEVENT_ESCAPE, DOCEVENT_ESCAPE structure [Print Devices], PDOCEVENT_ESCAPE, PDOCEVENT_ESCAPE structure pointer [Print Devices], _DOCEVENT_ESCAPE, print.docevent_escape, print_interface-graphics_943033df-71a2-4689-a9fb-abd9feb4ea0d.xml, winddiui/DOCEVENT_ESCAPE, winddiui/PDOCEVENT_ESCAPE"
 f1_keywords:
  - "winddiui/DOCEVENT_ESCAPE"

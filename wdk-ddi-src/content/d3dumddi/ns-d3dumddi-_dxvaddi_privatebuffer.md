@@ -6,7 +6,7 @@ old-location: display\dxvaddi_privatebuffer.htm
 tech.root: display
 ms.assetid: 3e41472c-4c9d-4727-af08-a350e1967ef0
 ms.date: 05/10/2018
-keywords: ["_DXVADDI_PRIVATEBUFFER structure"]
+keywords: ["DXVADDI_PRIVATEBUFFER structure"]
 ms.keywords: DXVA2_Structs_90012dba-8a0c-4685-a528-1a57265e5688.xml, DXVADDI_PRIVATEBUFFER, DXVADDI_PRIVATEBUFFER structure [Display Devices], _DXVADDI_PRIVATEBUFFER, d3dumddi/DXVADDI_PRIVATEBUFFER, display.dxvaddi_privatebuffer
 f1_keywords:
  - "d3dumddi/DXVADDI_PRIVATEBUFFER"

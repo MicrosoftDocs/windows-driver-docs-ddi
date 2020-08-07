@@ -6,7 +6,7 @@ old-location: storage\storage_spec_version.htm
 tech.root: storage
 ms.assetid: E7E80C4E-C002-4F00-AF7E-6B8DDA337323
 ms.date: 03/29/2018
-keywords: ["_STORAGE_SPEC_VERSION structure"]
+keywords: ["STORAGE_SPEC_VERSION structure"]
 ms.keywords: "*PSTORAGE_SPEC_VERSION, PSTORAGE_SPEC_VERSION, PSTORAGE_SPEC_VERSION union pointer [Storage Devices], STORAGE_SPEC_VERSION, STORAGE_SPEC_VERSION union [Storage Devices], _STORAGE_SPEC_VERSION, ntddstor/PSTORAGE_SPEC_VERSION, ntddstor/STORAGE_SPEC_VERSION, storage.storage_spec_version"
 f1_keywords:
  - "ntddstor/STORAGE_SPEC_VERSION"

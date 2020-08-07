@@ -4,7 +4,7 @@ title: _D3DGPU_PHYSICAL_ADDRESS (d3dukmdt.h)
 description: The GPU's physical address.
 ms.assetid: c0e476ef-bd49-46e6-8e16-eabb6178f9d7
 ms.date: 10/19/2018
-keywords: ["_D3DGPU_PHYSICAL_ADDRESS structure"]
+keywords: ["D3DGPU_PHYSICAL_ADDRESS structure"]
 f1_keywords:
  - "d3dukmdt/_D3DGPU_PHYSICAL_ADDRESS"
  - "_D3DGPU_PHYSICAL_ADDRESS"

@@ -6,7 +6,7 @@ old-location: kernel\d3cold_last_transition_status.htm
 tech.root: kernel
 ms.assetid: 21E89D92-9902-4785-B022-8D17268FE75F
 ms.date: 04/30/2018
-keywords: ["_D3COLD_LAST_TRANSITION_STATUS enumeration"]
+keywords: ["D3COLD_LAST_TRANSITION_STATUS enumeration"]
 ms.keywords: "*PD3COLD_LAST_TRANSITION_STATUS, D3COLD_LAST_TRANSITION_STATUS, D3COLD_LAST_TRANSITION_STATUS enumeration [Kernel-Mode Driver Architecture], LastDStateTransitionD3cold, LastDStateTransitionD3hot, LastDStateTransitionStatusUnknown, _D3COLD_LAST_TRANSITION_STATUS, kernel.d3cold_last_transition_status, wdm/D3COLD_LAST_TRANSITION_STATUS, wdm/LastDStateTransitionD3cold, wdm/LastDStateTransitionD3hot, wdm/LastDStateTransitionStatusUnknown"
 f1_keywords:
  - "wdm/D3COLD_LAST_TRANSITION_STATUS"

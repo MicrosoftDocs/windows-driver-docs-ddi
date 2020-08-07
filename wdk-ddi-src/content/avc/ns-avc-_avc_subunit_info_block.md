@@ -6,7 +6,7 @@ old-location: stream\avc_subunit_info_block.htm
 tech.root: stream
 ms.assetid: 66231303-20ec-42d4-b61d-c8e85e4e6a88
 ms.date: 04/23/2018
-keywords: ["_AVC_SUBUNIT_INFO_BLOCK structure"]
+keywords: ["AVC_SUBUNIT_INFO_BLOCK structure"]
 ms.keywords: "*PAVC_SUBUNIT_INFO_BLOCK, AVC_SUBUNIT_INFO_BLOCK, AVC_SUBUNIT_INFO_BLOCK structure [Streaming Media Devices], PAVC_SUBUNIT_INFO_BLOCK, PAVC_SUBUNIT_INFO_BLOCK structure pointer [Streaming Media Devices], _AVC_SUBUNIT_INFO_BLOCK, avc/AVC_SUBUNIT_INFO_BLOCK, avc/PAVC_SUBUNIT_INFO_BLOCK, avcref_d8151f14-0fc4-4be5-b815-d94dc77165db.xml, stream.avc_subunit_info_block"
 f1_keywords:
  - "avc/AVC_SUBUNIT_INFO_BLOCK"

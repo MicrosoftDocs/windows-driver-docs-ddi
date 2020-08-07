@@ -5,7 +5,7 @@ description: The NET_PACKET_QUEUE_CONFIG structure describes the configuration o
 tech.root: netvista
 ms.assetid: 55af0931-b047-4d74-91dc-6d2f320ee68b
 ms.date: 07/16/2018
-keywords: ["_NET_PACKET_QUEUE_CONFIG structure"]
+keywords: ["NET_PACKET_QUEUE_CONFIG structure"]
 f1_keywords:
  - "netpacketqueue/_NET_PACKET_QUEUE_CONFIG"
  - "_NET_PACKET_QUEUE_CONFIG"

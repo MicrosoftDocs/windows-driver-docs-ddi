@@ -6,7 +6,7 @@ old-location: bltooth\brb_header.htm
 tech.root: bltooth
 ms.assetid: c6da4cc9-294b-4cb7-80c8-8adee8d4c40b
 ms.date: 04/27/2018
-keywords: ["_BRB_HEADER structure"]
+keywords: ["BRB_HEADER structure"]
 ms.keywords: BRB_HEADER, BRB_HEADER structure [Bluetooth Devices], _BRB_HEADER, bltooth.brb_header, bth_structs_69a21ba7-b425-45ec-bb2d-dd76a6cb8342.xml, bthddi/BRB_HEADER
 f1_keywords:
  - "bthddi/BRB_HEADER"

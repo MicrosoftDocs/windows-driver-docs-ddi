@@ -5,7 +5,7 @@ description: Gets the level of optimization used to control the brightness of a 
 tech.root: display
 ms.assetid: b8f0ee27-16bc-4666-8055-acdad9c57a47
 ms.date: 10/19/2018
-keywords: ["_PANEL_GET_BACKLIGHT_REDUCTION structure"]
+keywords: ["PANEL_GET_BACKLIGHT_REDUCTION structure"]
 f1_keywords:
  - "ntddvdeo/_PANEL_GET_BACKLIGHT_REDUCTION"
  - "_PANEL_GET_BACKLIGHT_REDUCTION"

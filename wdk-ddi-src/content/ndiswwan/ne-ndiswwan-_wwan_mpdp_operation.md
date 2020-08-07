@@ -5,7 +5,7 @@ description: The WWAN_MPDP_OPERATION enumeration describes an operation to perfo
 tech.root: netvista
 ms.assetid: b8436268-3236-4c86-9aa6-f8b6ae65c121
 ms.date: 06/25/2018
-keywords: ["_WWAN_MPDP_OPERATION enumeration"]
+keywords: ["WWAN_MPDP_OPERATION enumeration"]
 f1_keywords:
  - "ndiswwan/_WWAN_MPDP_OPERATION"
  - "_WWAN_MPDP_OPERATION"

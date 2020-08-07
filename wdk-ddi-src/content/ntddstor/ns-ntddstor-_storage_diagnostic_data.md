@@ -6,7 +6,7 @@ old-location: storage\storage_diagnostic_data.htm
 tech.root: storage
 ms.assetid: 68BC990B-DD0C-49CD-95EC-672FD1459B39
 ms.date: 03/29/2018
-keywords: ["_STORAGE_DIAGNOSTIC_DATA structure"]
+keywords: ["STORAGE_DIAGNOSTIC_DATA structure"]
 ms.keywords: "*PSTORAGE_DIAGNOSTIC_DATA, PSTORAGE_DIAGNOSTIC_DATA, PSTORAGE_DIAGNOSTIC_DATA structure pointer [Storage Devices], STORAGE_DIAGNOSTIC_DATA, STORAGE_DIAGNOSTIC_DATA structure [Storage Devices], _STORAGE_DIAGNOSTIC_DATA, ntddstor/PSTORAGE_DIAGNOSTIC_DATA, ntddstor/STORAGE_DIAGNOSTIC_DATA, storage.storage_diagnostic_data"
 f1_keywords:
  - "ntddstor/STORAGE_DIAGNOSTIC_DATA"

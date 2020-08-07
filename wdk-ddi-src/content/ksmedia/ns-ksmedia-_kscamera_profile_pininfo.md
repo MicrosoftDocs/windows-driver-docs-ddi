@@ -6,7 +6,7 @@ old-location: stream\kscamera_profile_pininfo.htm
 tech.root: stream
 ms.assetid: 09B7D454-D28C-4E3F-9FF3-0DD595CDB90A
 ms.date: 04/23/2018
-keywords: ["_KSCAMERA_PROFILE_PININFO structure"]
+keywords: ["KSCAMERA_PROFILE_PININFO structure"]
 ms.keywords: "*PKSCAMERA_PROFILE_PININFO, KSCAMERA_PROFILE_PININFO, KSCAMERA_PROFILE_PININFO structure [Streaming Media Devices], PKSCAMERA_PROFILE_PININFO, PKSCAMERA_PROFILE_PININFO structure pointer [Streaming Media Devices], _KSCAMERA_PROFILE_PININFO, ksmedia/KSCAMERA_PROFILE_PININFO, ksmedia/PKSCAMERA_PROFILE_PININFO, stream.kscamera_profile_pininfo"
 f1_keywords:
  - "ksmedia/KSCAMERA_PROFILE_PININFO"

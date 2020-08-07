@@ -5,7 +5,7 @@ description: The WWAN_PIN_APP structure specifies the target application ID for 
 tech.root: netvista
 ms.assetid: 1061618C-EE4E-466A-AAB1-238798EC7C76
 ms.date: 04/10/2019
-keywords: ["_WWAN_PIN_APP structure"]
+keywords: ["WWAN_PIN_APP structure"]
 f1_keywords:
  - "wwan/_WWAN_PIN_APP"
  - "_WWAN_PIN_APP"

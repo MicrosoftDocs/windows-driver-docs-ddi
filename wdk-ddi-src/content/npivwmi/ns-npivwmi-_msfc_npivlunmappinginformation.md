@@ -6,7 +6,7 @@ old-location: storage\msfc_npivlunmappinginformation.htm
 tech.root: storage
 ms.assetid: 5E8A2338-AF1E-41BE-870B-E1F1877DDEDD
 ms.date: 03/29/2018
-keywords: ["_MSFC_NPIVLUNMappingInformation structure"]
+keywords: ["MSFC_NPIVLUNMappingInformation structure"]
 ms.keywords: "*PMSFC_NPIVLUNMappingInformation, MSFC_NPIVLUNMappingInformation, MSFC_NPIVLUNMappingInformation structure [Storage Devices], PMSFC_NPIVLUNMappingInformation, PMSFC_NPIVLUNMappingInformation structure pointer [Storage Devices], _MSFC_NPIVLUNMappingInformation, npivwmi/MSFC_NPIVLUNMappingInformation, npivwmi/PMSFC_NPIVLUNMappingInformation, storage.msfc_npivlunmappinginformation"
 f1_keywords:
  - "npivwmi/MSFC_NPIVLUNMappingInformation"

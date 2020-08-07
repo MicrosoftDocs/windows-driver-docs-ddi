@@ -6,7 +6,7 @@ old-location: print\extchkbox.htm
 tech.root: print
 ms.assetid: b3b82474-d4e5-467c-93dc-30edac189c66
 ms.date: 04/20/2018
-keywords: ["_EXTCHKBOX structure"]
+keywords: ["EXTCHKBOX structure"]
 ms.keywords: "*PEXTCHKBOX, EXTCHKBOX, EXTCHKBOX structure [Print Devices], PEXTCHKBOX, PEXTCHKBOX structure pointer [Print Devices], _EXTCHKBOX, compstui/EXTCHKBOX, compstui/PEXTCHKBOX, cpsuifnc_3d620423-7173-4a78-b087-f8f269c5715d.xml, print.extchkbox"
 f1_keywords:
  - "compstui/EXTCHKBOX"

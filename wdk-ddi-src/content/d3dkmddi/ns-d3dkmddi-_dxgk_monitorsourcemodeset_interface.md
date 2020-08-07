@@ -5,7 +5,7 @@ description: The DXGK_MONITORSOURCEMODESET_INTERFACE structure contains pointers
 old-location: display\dxgk_monitorsourcemodeset_interface.htm
 ms.assetid: ceab36a0-3be1-41d8-82c0-8393f93e5f42
 ms.date: 05/10/2018
-keywords: ["_DXGK_MONITORSOURCEMODESET_INTERFACE structure"]
+keywords: ["DXGK_MONITORSOURCEMODESET_INTERFACE structure"]
 ms.keywords: DXGK_MONITORSOURCEMODESET_INTERFACE, DXGK_MONITORSOURCEMODESET_INTERFACE structure [Display Devices], DmStructs_c4c7e928-09db-424f-8ac7-7efffc71d06e.xml, _DXGK_MONITORSOURCEMODESET_INTERFACE, d3dkmddi/DXGK_MONITORSOURCEMODESET_INTERFACE, display.dxgk_monitorsourcemodeset_interface
 f1_keywords:
  - "d3dkmddi/DXGK_MONITORSOURCEMODESET_INTERFACE"

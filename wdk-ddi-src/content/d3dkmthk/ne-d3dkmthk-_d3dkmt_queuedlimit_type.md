@@ -5,7 +5,7 @@ description: The D3DKMT_QUEUEDLIMIT_TYPE enumeration type contains values that i
 old-location: display\d3dkmt_queuedlimit_type.htm
 ms.assetid: 5e57e2cc-91a2-4150-9805-8a963530080a
 ms.date: 05/10/2018
-keywords: ["_D3DKMT_QUEUEDLIMIT_TYPE enumeration"]
+keywords: ["D3DKMT_QUEUEDLIMIT_TYPE enumeration"]
 ms.keywords: D3DKMT_GET_QUEUEDLIMIT_PRESENT, D3DKMT_QUEUEDLIMIT_TYPE, D3DKMT_QUEUEDLIMIT_TYPE enumeration [Display Devices], D3DKMT_SET_QUEUEDLIMIT_PRESENT, OpenGL_Structs_8908789d-6be7-41de-9aff-526cf8b1684c.xml, _D3DKMT_QUEUEDLIMIT_TYPE, d3dkmthk/D3DKMT_GET_QUEUEDLIMIT_PRESENT, d3dkmthk/D3DKMT_QUEUEDLIMIT_TYPE, d3dkmthk/D3DKMT_SET_QUEUEDLIMIT_PRESENT, display.d3dkmt_queuedlimit_type
 f1_keywords:
  - "d3dkmthk/D3DKMT_QUEUEDLIMIT_TYPE"

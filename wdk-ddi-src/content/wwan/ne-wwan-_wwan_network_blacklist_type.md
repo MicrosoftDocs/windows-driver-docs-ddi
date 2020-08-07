@@ -5,7 +5,7 @@ description: The WWAN_NETWORK_BLACKLIST_TYPE enumeration specifies which of a mo
 tech.root: netvista
 ms.assetid: 65355b7a-b564-40bf-8f8c-fa75d32ec8cb
 ms.date: 08/21/2018
-keywords: ["_WWAN_NETWORK_BLACKLIST_TYPE enumeration"]
+keywords: ["WWAN_NETWORK_BLACKLIST_TYPE enumeration"]
 f1_keywords:
  - "wwan/_WWAN_NETWORK_BLACKLIST_TYPE"
  - "_WWAN_NETWORK_BLACKLIST_TYPE"

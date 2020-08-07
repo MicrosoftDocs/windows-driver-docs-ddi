@@ -6,7 +6,7 @@ old-location: display\dxva_bufferdescription.htm
 tech.root: display
 ms.assetid: 34b1585d-ceba-4e13-b5c1-70ce29a940c5
 ms.date: 05/10/2018
-keywords: ["_DXVA_BufferDescription structure"]
+keywords: ["DXVA_BufferDescription structure"]
 ms.keywords: "*LPDXVA_BufferDescription, DXVA_BufferDescription, DXVA_BufferDescription structure [Display Devices], LPDXVA_BufferDescription, LPDXVA_BufferDescription structure pointer [Display Devices], _DXVA_BufferDescription, display.dxva_bufferdescription, dxva/DXVA_BufferDescription, dxva/LPDXVA_BufferDescription, dxvaref_3d6f62c8-77a1-40b0-8bf3-1a82deaf3020.xml"
 f1_keywords:
  - "dxva/DXVA_BufferDescription"

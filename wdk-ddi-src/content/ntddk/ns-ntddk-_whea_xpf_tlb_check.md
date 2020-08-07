@@ -6,7 +6,7 @@ old-location: whea\whea_xpf_tlb_check.htm
 tech.root: whea
 ms.assetid: 3943c854-3bb9-4fc9-9af9-735c3f4ee94e
 ms.date: 02/20/2018
-keywords: ["_WHEA_XPF_TLB_CHECK structure"]
+keywords: ["WHEA_XPF_TLB_CHECK structure"]
 ms.keywords: "*PWHEA_XPF_TLB_CHECK, PWHEA_XPF_TLB_CHECK, PWHEA_XPF_TLB_CHECK union pointer [WHEA Drivers and Applications], WHEA_XPF_TLB_CHECK, WHEA_XPF_TLB_CHECK union [WHEA Drivers and Applications], _WHEA_XPF_TLB_CHECK, ntddk/PWHEA_XPF_TLB_CHECK, ntddk/WHEA_XPF_TLB_CHECK, whea.whea_xpf_tlb_check, whearef_20ed4273-105d-467b-a71f-46e50078543e.xml"
 f1_keywords:
  - "ntddk/WHEA_XPF_TLB_CHECK"

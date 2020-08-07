@@ -6,7 +6,7 @@ old-location: display\d3dddiarg_decodebeginframe.htm
 tech.root: display
 ms.assetid: 8219beee-b27c-4f81-aef7-8d38363d4645
 ms.date: 05/10/2018
-keywords: ["_D3DDDIARG_DECODEBEGINFRAME structure"]
+keywords: ["D3DDDIARG_DECODEBEGINFRAME structure"]
 ms.keywords: D3DDDIARG_DECODEBEGINFRAME, D3DDDIARG_DECODEBEGINFRAME structure [Display Devices], UMDisplayDriver_param_Structs_fdee5664-6d7b-4d54-ac34-69d216f05896.xml, _D3DDDIARG_DECODEBEGINFRAME, d3dumddi/D3DDDIARG_DECODEBEGINFRAME, display.d3dddiarg_decodebeginframe
 f1_keywords:
  - "d3dumddi/D3DDDIARG_DECODEBEGINFRAME"

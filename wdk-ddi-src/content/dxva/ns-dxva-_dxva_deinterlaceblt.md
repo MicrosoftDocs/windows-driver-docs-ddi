@@ -6,7 +6,7 @@ old-location: display\dxva_deinterlaceblt.htm
 tech.root: display
 ms.assetid: 0512a825-9cec-4ca0-9686-df5b3d2b216b
 ms.date: 05/10/2018
-keywords: ["_DXVA_DeinterlaceBlt structure"]
+keywords: ["DXVA_DeinterlaceBlt structure"]
 ms.keywords: DXVA_DeinterlaceBlt, DXVA_DeinterlaceBlt structure [Display Devices], _DXVA_DeinterlaceBlt, display.dxva_deinterlaceblt, dxva/DXVA_DeinterlaceBlt, dxvaref_69a3b788-495c-42a0-acae-8d8242d963c6.xml
 f1_keywords:
  - "dxva/DXVA_DeinterlaceBlt"

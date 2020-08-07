@@ -4,7 +4,7 @@ title: _PCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_HEADER_2 (ntddk.h)
 description: Represents the Designated Vendor-Specific Extended Capability Header 2 defined by PCI-SIG. 
 ms.assetid: 8510cb71-231c-4389-a9bd-753b773c426e
 ms.date: 10/19/2018
-keywords: ["_PCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_HEADER_2 structure"]
+keywords: ["PCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_HEADER_2 structure"]
 f1_keywords:
  - "ntddk/_PCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_HEADER_2"
  - "_PCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_HEADER_2"

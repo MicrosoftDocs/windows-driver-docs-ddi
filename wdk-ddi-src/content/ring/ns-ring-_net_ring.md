@@ -5,7 +5,7 @@ description: Specifies a buffer comprised of one or more NET_PACKET or NET_FRAGM
 tech.root: netvista
 ms.assetid: 66232a58-73fc-4f3a-9682-0dd9f10dc901
 ms.date: 09/25/2019
-keywords: ["_NET_RING structure"]
+keywords: ["NET_RING structure"]
 f1_keywords:
  - "ring/RILWRITEPHONEBOOKENTRYPARAMS"
  - "RILWRITEPHONEBOOKENTRYPARAMS"

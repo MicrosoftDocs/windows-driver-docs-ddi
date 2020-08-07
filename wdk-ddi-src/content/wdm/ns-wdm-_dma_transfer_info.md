@@ -6,7 +6,7 @@ old-location: kernel\dma_transfer_info.htm
 tech.root: kernel
 ms.assetid: 1CD5CE6F-5179-40D5-BCD9-3587914C8139
 ms.date: 04/30/2018
-keywords: ["_DMA_TRANSFER_INFO structure"]
+keywords: ["DMA_TRANSFER_INFO structure"]
 ms.keywords: "*PDMA_TRANSFER_INFO, DMA_TRANSFER_INFO, DMA_TRANSFER_INFO structure [Kernel-Mode Driver Architecture], PDMA_TRANSFER_INFO, PDMA_TRANSFER_INFO structure pointer [Kernel-Mode Driver Architecture], _DMA_TRANSFER_INFO, kernel.dma_transfer_info, wdm/DMA_TRANSFER_INFO, wdm/PDMA_TRANSFER_INFO"
 f1_keywords:
  - "wdm/DMA_TRANSFER_INFO"

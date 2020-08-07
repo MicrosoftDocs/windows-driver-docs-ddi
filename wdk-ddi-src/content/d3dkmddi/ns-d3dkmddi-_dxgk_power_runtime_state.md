@@ -5,7 +5,7 @@ description: Describes the characteristics of an idle state (an F-state).
 old-location: display\dxgk_power_runtime_state.htm
 ms.assetid: f2bfb07c-1493-4a29-9d42-e284af29a376
 ms.date: 05/10/2018
-keywords: ["_DXGK_POWER_RUNTIME_STATE structure"]
+keywords: ["DXGK_POWER_RUNTIME_STATE structure"]
 ms.keywords: DXGK_POWER_RUNTIME_STATE, DXGK_POWER_RUNTIME_STATE structure [Display Devices], _DXGK_POWER_RUNTIME_STATE, d3dkmddi/DXGK_POWER_RUNTIME_STATE, display.dxgk_power_runtime_state
 f1_keywords:
  - "d3dkmddi/DXGK_POWER_RUNTIME_STATE"

@@ -6,7 +6,7 @@ old-location: audio\ksaudiomodule_descriptor.htm
 tech.root: audio
 ms.assetid: 3A991D49-B873-4C03-8A5B-D91EB5E63192
 ms.date: 05/08/2018
-keywords: ["_KSAUDIOMODULE_DESCRIPTOR structure"]
+keywords: ["KSAUDIOMODULE_DESCRIPTOR structure"]
 ms.keywords: "*PKSAUDIOMODULE_DESCRIPTOR, KSAUDIOMODULE_DESCRIPTOR, KSAUDIOMODULE_DESCRIPTOR structure [Audio Devices], PKSAUDIOMODULE_DESCRIPTOR, PKSAUDIOMODULE_DESCRIPTOR structure pointer [Audio Devices], _KSAUDIOMODULE_DESCRIPTOR, audio.ksaudiomodule_descriptor, ksmedia/KSAUDIOMODULE_DESCRIPTOR, ksmedia/PKSAUDIOMODULE_DESCRIPTOR"
 f1_keywords:
  - "ksmedia/KSAUDIOMODULE_DESCRIPTOR"

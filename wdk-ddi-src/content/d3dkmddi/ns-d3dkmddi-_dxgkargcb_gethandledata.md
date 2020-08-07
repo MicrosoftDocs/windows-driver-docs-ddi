@@ -5,7 +5,7 @@ description: The DXGKARGCB_GETHANDLEDATA structure describes a handle to private
 old-location: display\dxgkargcb_gethandledata.htm
 ms.assetid: 22a03f0b-71c3-4942-b5da-ca588e17d346
 ms.date: 05/10/2018
-keywords: ["_DXGKARGCB_GETHANDLEDATA structure"]
+keywords: ["DXGKARGCB_GETHANDLEDATA structure"]
 ms.keywords: DXGKARGCB_GETHANDLEDATA, DXGKARGCB_GETHANDLEDATA structure [Display Devices], DmStructs_6ae35474-ffde-4e60-8324-b6266cc54fd8.xml, _DXGKARGCB_GETHANDLEDATA, d3dkmddi/DXGKARGCB_GETHANDLEDATA, display.dxgkargcb_gethandledata
 f1_keywords:
  - "d3dkmddi/DXGKARGCB_GETHANDLEDATA"

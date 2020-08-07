@@ -6,7 +6,7 @@ old-location: bltooth\l2cap_config_range.htm
 tech.root: bltooth
 ms.assetid: 95f288ea-a32a-478f-870b-5aa6ff1edf44
 ms.date: 04/27/2018
-keywords: ["_L2CAP_CONFIG_RANGE structure"]
+keywords: ["L2CAP_CONFIG_RANGE structure"]
 ms.keywords: "*PL2CAP_CONFIG_RANGE, L2CAP_CONFIG_RANGE, L2CAP_CONFIG_RANGE structure [Bluetooth Devices], PL2CAP_CONFIG_RANGE, PL2CAP_CONFIG_RANGE structure pointer [Bluetooth Devices], _L2CAP_CONFIG_RANGE, bltooth.l2cap_config_range, bth_structs_86178813-5f20-4c58-8d70-c863217350b3.xml, bthddi/L2CAP_CONFIG_RANGE, bthddi/PL2CAP_CONFIG_RANGE"
 f1_keywords:
  - "bthddi/L2CAP_CONFIG_RANGE"

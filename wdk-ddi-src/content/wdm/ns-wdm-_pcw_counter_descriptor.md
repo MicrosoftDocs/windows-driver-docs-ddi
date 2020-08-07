@@ -6,7 +6,7 @@ old-location: devtest\pcw_counter_descriptor.htm
 tech.root: devtest
 ms.assetid: 0b099aec-f254-4cfb-87cb-2f8965d5faae
 ms.date: 02/23/2018
-keywords: ["_PCW_COUNTER_DESCRIPTOR structure"]
+keywords: ["PCW_COUNTER_DESCRIPTOR structure"]
 ms.keywords: "*PPCW_COUNTER_DESCRIPTOR, PCW_COUNTER_DESCRIPTOR, PCW_COUNTER_DESCRIPTOR structure [Driver Development Tools], PPCW_COUNTER_DESCRIPTOR, PPCW_COUNTER_DESCRIPTOR structure pointer [Driver Development Tools], _PCW_COUNTER_DESCRIPTOR, devtest.pcw_counter_descriptor, km_pcw_8507bc5e-60f4-4b71-bb2f-d62360076e2c.xml, wdm/PCW_COUNTER_DESCRIPTOR, wdm/PPCW_COUNTER_DESCRIPTOR"
 f1_keywords:
  - "wdm/PCW_COUNTER_DESCRIPTOR"

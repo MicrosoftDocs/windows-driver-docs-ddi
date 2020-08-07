@@ -5,7 +5,7 @@ description: Call NET_DRIVER_GLOBALS_INIT to initialize this structure.
 tech.root: netvista
 ms.assetid: 865a1096-836a-4b4c-82a1-7811c2806a58
 ms.date: 02/07/2018
-keywords: ["_NET_DRIVER_GLOBALS structure"]
+keywords: ["NET_DRIVER_GLOBALS structure"]
 f1_keywords:
  - "netadaptercxtypes/NET_DRIVER_GLOBALS"
  - "NET_DRIVER_GLOBALS"

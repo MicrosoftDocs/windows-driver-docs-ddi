@@ -6,7 +6,7 @@ old-location: storage\hbafcpbindingentry2.htm
 tech.root: storage
 ms.assetid: 75de51b1-063b-49b2-a390-2bafd44e04b0
 ms.date: 03/29/2018
-keywords: ["_HBAFCPBindingEntry2 structure"]
+keywords: ["HBAFCPBindingEntry2 structure"]
 ms.keywords: "*PHBAFCPBindingEntry2, HBAFCPBindingEntry2, HBAFCPBindingEntry2 structure [Storage Devices], PHBAFCPBindingEntry2, PHBAFCPBindingEntry2 structure pointer [Storage Devices], _HBAFCPBindingEntry2, hbapiwmi/HBAFCPBindingEntry2, hbapiwmi/PHBAFCPBindingEntry2, storage.hbafcpbindingentry2, structs-Fibre_b15c2291-b1fc-4f4f-9890-ddf50e3dee9e.xml"
 f1_keywords:
  - "hbapiwmi/HBAFCPBindingEntry2"

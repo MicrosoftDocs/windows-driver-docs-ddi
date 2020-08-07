@@ -5,7 +5,7 @@ description: Used to update the HW context state flags.
 old-location: display\dxgk_updatehwcontextstate_flags.htm
 ms.assetid: 23F0679A-05BB-4988-AF83-B6CC91C4CB79
 ms.date: 05/10/2018
-keywords: ["_DXGK_UPDATEHWCONTEXTSTATE_FLAGS structure"]
+keywords: ["DXGK_UPDATEHWCONTEXTSTATE_FLAGS structure"]
 ms.keywords: DXGK_UPDATEHWCONTEXTSTATE_FLAGS, DXGK_UPDATEHWCONTEXTSTATE_FLAGS structure [Display Devices], _DXGK_UPDATEHWCONTEXTSTATE_FLAGS, d3dkmddi/DXGK_UPDATEHWCONTEXTSTATE_FLAGS, display.dxgk_updatehwcontextstate_flags
 f1_keywords:
  - "d3dkmddi/DXGK_UPDATEHWCONTEXTSTATE_FLAGS"

@@ -6,7 +6,7 @@ old-location: netvista\ndis_link_state.htm
 tech.root: netvista
 ms.assetid: 01d74e69-55fe-4e2e-94ab-7676f9e33403
 ms.date: 05/02/2018
-keywords: ["_NDIS_LINK_STATE structure"]
+keywords: ["NDIS_LINK_STATE structure"]
 ms.keywords: "*PNDIS_LINK_STATE, NDIS_LINK_STATE, NDIS_LINK_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_LINK_STATE, PNDIS_LINK_STATE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_LINK_STATE, netvista.ndis_link_state, ntddndis/NDIS_LINK_STATE, ntddndis/PNDIS_LINK_STATE"
 f1_keywords:
  - "ntddndis/NDIS_LINK_STATE"

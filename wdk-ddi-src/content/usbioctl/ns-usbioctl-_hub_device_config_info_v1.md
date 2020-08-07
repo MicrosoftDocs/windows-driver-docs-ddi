@@ -6,7 +6,7 @@ old-location: buses\hub_device_config_info.htm
 tech.root: usbref
 ms.assetid: 2e94cf01-6edf-40ca-b25e-ce7c125e4686
 ms.date: 05/07/2018
-keywords: ["_HUB_DEVICE_CONFIG_INFO_V1 structure"]
+keywords: ["HUB_DEVICE_CONFIG_INFO_V1 structure"]
 ms.keywords: "*PHUB_DEVICE_CONFIG_INFO, HUB_DEVICE_CONFIG_INFO, HUB_DEVICE_CONFIG_INFO structure [Buses], PHUB_DEVICE_CONFIG_INFO, PHUB_DEVICE_CONFIG_INFO structure pointer [Buses], _HUB_DEVICE_CONFIG_INFO_V1, buses.hub_device_config_info, usbioctl/HUB_DEVICE_CONFIG_INFO, usbioctl/PHUB_DEVICE_CONFIG_INFO"
 f1_keywords:
  - "usbioctl/HUB_DEVICE_CONFIG_INFO"

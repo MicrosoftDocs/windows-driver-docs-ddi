@@ -6,7 +6,7 @@ old-location: storage\srb_io_control.htm
 tech.root: storage
 ms.assetid: 754d2a4c-6a22-4c25-87e2-e30e87b9c1ba
 ms.date: 03/29/2018
-keywords: ["_SRB_IO_CONTROL structure"]
+keywords: ["SRB_IO_CONTROL structure"]
 ms.keywords: "*PSRB_IO_CONTROL, PSRB_IO_CONTROL, PSRB_IO_CONTROL structure pointer [Storage Devices], SRB_IO_CONTROL, SRB_IO_CONTROL structure [Storage Devices], _SRB_IO_CONTROL, ntddscsi/PSRB_IO_CONTROL, ntddscsi/SRB_IO_CONTROL, storage.srb_io_control, structs-scsibus_d7cd0432-d4be-4609-a3f9-91ef842caf7e.xml"
 f1_keywords:
  - "ntddscsi/SRB_IO_CONTROL"

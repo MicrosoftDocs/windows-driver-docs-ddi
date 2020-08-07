@@ -5,7 +5,7 @@ description: The WWAN_SAR_CONFIG_INFO structure describes a modem's current Spec
 tech.root: netvista
 ms.assetid: 465fb01d-bc43-4e03-8039-304ceb53bb7d
 ms.date: 08/20/2018
-keywords: ["_WWAN_SAR_CONFIG_INFO structure"]
+keywords: ["WWAN_SAR_CONFIG_INFO structure"]
 f1_keywords:
  - "wwan/_WWAN_SAR_CONFIG_INFO"
  - "_WWAN_SAR_CONFIG_INFO"

@@ -6,7 +6,7 @@ old-location: ieee\irb_req_isoch_allocate_channel.htm
 tech.root: IEEE
 ms.assetid: CE38C189-34C7-40FC-81BE-9688AC9A7420
 ms.date: 02/15/2018
-keywords: ["_IRB_REQ_ISOCH_ALLOCATE_CHANNEL structure"]
+keywords: ["IRB_REQ_ISOCH_ALLOCATE_CHANNEL structure"]
 ms.keywords: 1394/IRB_REQ_ISOCH_ALLOCATE_CHANNEL, IEEE.irb_req_isoch_allocate_channel, IRB_REQ_ISOCH_ALLOCATE_CHANNEL, IRB_REQ_ISOCH_ALLOCATE_CHANNEL structure [Buses], _IRB_REQ_ISOCH_ALLOCATE_CHANNEL
 f1_keywords:
  - "1394/IRB_REQ_ISOCH_ALLOCATE_CHANNEL"

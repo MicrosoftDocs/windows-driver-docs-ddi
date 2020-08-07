@@ -6,7 +6,7 @@ old-location: debugger\debug_last_event_info_exit_thread.htm
 tech.root: debugger
 ms.assetid: 1C7E79F2-120A-424B-B4E3-EF202FA90C2A
 ms.date: 05/03/2018
-keywords: ["_DEBUG_LAST_EVENT_INFO_EXIT_THREAD structure"]
+keywords: ["DEBUG_LAST_EVENT_INFO_EXIT_THREAD structure"]
 ms.keywords: "*PDEBUG_LAST_EVENT_INFO_EXIT_THREAD, DEBUG_LAST_EVENT_INFO_EXIT_THREAD, DEBUG_LAST_EVENT_INFO_EXIT_THREAD structure [Windows Debugging], PDEBUG_LAST_EVENT_INFO_EXIT_THREAD, PDEBUG_LAST_EVENT_INFO_EXIT_THREAD structure pointer [Windows Debugging], _DEBUG_LAST_EVENT_INFO_EXIT_THREAD, dbgeng/DEBUG_LAST_EVENT_INFO_EXIT_THREAD, dbgeng/PDEBUG_LAST_EVENT_INFO_EXIT_THREAD, debugger.debug_last_event_info_exit_thread"
 f1_keywords:
  - "dbgeng/DEBUG_LAST_EVENT_INFO_EXIT_THREAD"

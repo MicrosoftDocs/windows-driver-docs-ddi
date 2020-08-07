@@ -4,7 +4,7 @@ title: _DXGK_SCHEDULING_PRIORITY_BAND (d3dkmddi.h)
 description: Describes the types of scheduling priority band.
 ms.assetid: fde901af-ea53-479c-8ea5-c719c6b98e10
 ms.date: 10/19/2018
-keywords: ["_DXGK_SCHEDULING_PRIORITY_BAND enumeration"]
+keywords: ["DXGK_SCHEDULING_PRIORITY_BAND enumeration"]
 f1_keywords:
  - "d3dkmddi/_DXGK_SCHEDULING_PRIORITY_BAND"
  - "_DXGK_SCHEDULING_PRIORITY_BAND"

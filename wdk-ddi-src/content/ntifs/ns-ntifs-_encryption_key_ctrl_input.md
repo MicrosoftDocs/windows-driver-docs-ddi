@@ -5,7 +5,7 @@ description:
 ms.assetid: 33f076b8-ade2-4a34-b3ca-92baf4dcd416
 tech.root: ifsk
 ms.date: 10/19/2018
-keywords: ["_ENCRYPTION_KEY_CTRL_INPUT structure"]
+keywords: ["ENCRYPTION_KEY_CTRL_INPUT structure"]
 f1_keywords:
  - "ntifs/_ENCRYPTION_KEY_CTRL_INPUT"
  - "_ENCRYPTION_KEY_CTRL_INPUT"

@@ -6,7 +6,7 @@ old-location: netvista\ndis_pm_protocol_offload.htm
 tech.root: netvista
 ms.assetid: 1ae68e5c-f9ea-4454-b015-82e3af0f7ccd
 ms.date: 05/02/2018
-keywords: ["_NDIS_PM_PROTOCOL_OFFLOAD structure"]
+keywords: ["NDIS_PM_PROTOCOL_OFFLOAD structure"]
 ms.keywords: "*PNDIS_PM_PROTOCOL_OFFLOAD, NDIS_PM_PROTOCOL_OFFLOAD, NDIS_PM_PROTOCOL_OFFLOAD structure [Network Drivers Starting with Windows Vista], PNDIS_PM_PROTOCOL_OFFLOAD, PNDIS_PM_PROTOCOL_OFFLOAD structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PM_PROTOCOL_OFFLOAD, miniport_power_management_ref_f8a5be81-c46e-41cd-ac96-9877e1f9ebec.xml, netvista.ndis_pm_protocol_offload, ntddndis/NDIS_PM_PROTOCOL_OFFLOAD, ntddndis/PNDIS_PM_PROTOCOL_OFFLOAD"
 f1_keywords:
  - "ntddndis/NDIS_PM_PROTOCOL_OFFLOAD"

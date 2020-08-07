@@ -6,7 +6,7 @@ old-location: storage\storage_device_id_descriptor.htm
 tech.root: storage
 ms.assetid: e0e1bd3e-ee8d-40f2-904d-d6dcc4185406
 ms.date: 03/29/2018
-keywords: ["_STORAGE_DEVICE_ID_DESCRIPTOR structure"]
+keywords: ["STORAGE_DEVICE_ID_DESCRIPTOR structure"]
 ms.keywords: PSTORAGE_DEVICE_ID_DESCRIPTOR, PSTORAGE_DEVICE_ID_DESCRIPTOR structure pointer [Storage Devices], STORAGE_DEVICE_ID_DESCRIPTOR, STORAGE_DEVICE_ID_DESCRIPTOR structure [Storage Devices], _STORAGE_DEVICE_ID_DESCRIPTOR, ntddstor/PSTORAGE_DEVICE_ID_DESCRIPTOR, ntddstor/STORAGE_DEVICE_ID_DESCRIPTOR, storage.storage_device_id_descriptor, structs-general_65dcf7da-1241-4d3d-b8c6-a53c15c0763c.xml
 f1_keywords:
  - "ntddstor/STORAGE_DEVICE_ID_DESCRIPTOR"

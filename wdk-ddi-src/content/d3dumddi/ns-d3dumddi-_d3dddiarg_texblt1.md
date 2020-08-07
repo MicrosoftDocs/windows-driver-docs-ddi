@@ -6,7 +6,7 @@ old-location: display\d3dddiarg_texblt1.htm
 tech.root: display
 ms.assetid: e11fd9b5-c3ad-4f8f-890c-30ca5ce4a57f
 ms.date: 05/10/2018
-keywords: ["_D3DDDIARG_TEXBLT1 structure"]
+keywords: ["D3DDDIARG_TEXBLT1 structure"]
 ms.keywords: D3DDDIARG_TEXBLT1, D3DDDIARG_TEXBLT1 structure [Display Devices], _D3DDDIARG_TEXBLT1, d3dumddi/D3DDDIARG_TEXBLT1, display.d3dddiarg_texblt1
 f1_keywords:
  - "d3dumddi/D3DDDIARG_TEXBLT1"

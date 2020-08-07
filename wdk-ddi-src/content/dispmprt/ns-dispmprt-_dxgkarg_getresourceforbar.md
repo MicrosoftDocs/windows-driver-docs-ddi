@@ -7,7 +7,7 @@ tech.root: display
 ms.assetid: e1eb7f17-4895-4920-b51a-db3b8cdb374a
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
-keywords: ["_DXGKARG_GETRESOURCEFORBAR structure"]
+keywords: ["DXGKARG_GETRESOURCEFORBAR structure"]
 f1_keywords:
  - "dispmprt/_DXGKARG_GETRESOURCEFORBAR"
  - "_DXGKARG_GETRESOURCEFORBAR"

@@ -6,7 +6,7 @@ old-location: display\d3dddicb_renderflags.htm
 tech.root: display
 ms.assetid: 18ae8ec2-a9e9-40e2-8b11-93fd163a801d
 ms.date: 05/10/2018
-keywords: ["_D3DDDICB_RENDERFLAGS structure"]
+keywords: ["D3DDDICB_RENDERFLAGS structure"]
 ms.keywords: D3DDDICB_RENDERFLAGS, D3DDDICB_RENDERFLAGS structure [Display Devices], D3D_other_Structs_559cfa58-5c9b-470e-aa4b-6c145045ed82.xml, _D3DDDICB_RENDERFLAGS, d3dumddi/D3DDDICB_RENDERFLAGS, display.d3dddicb_renderflags
 f1_keywords:
  - "d3dumddi/D3DDDICB_RENDERFLAGS"

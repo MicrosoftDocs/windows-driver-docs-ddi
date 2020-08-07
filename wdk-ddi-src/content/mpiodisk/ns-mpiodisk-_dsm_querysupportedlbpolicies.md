@@ -6,7 +6,7 @@ old-location: storage\dsm_querysupportedlbpolicies.htm
 tech.root: storage
 ms.assetid: c9c04601-783a-454d-a80e-be8aa5df519a
 ms.date: 03/29/2018
-keywords: ["_DSM_QuerySupportedLBPolicies structure"]
+keywords: ["DSM_QuerySupportedLBPolicies structure"]
 ms.keywords: "*PDSM_QuerySupportedLBPolicies, DSM_QuerySupportedLBPolicies, DSM_QuerySupportedLBPolicies structure [Storage Devices], PDSM_QuerySupportedLBPolicies, PDSM_QuerySupportedLBPolicies structure pointer [Storage Devices], _DSM_QuerySupportedLBPolicies, mpiodisk/DSM_QuerySupportedLBPolicies, mpiodisk/PDSM_QuerySupportedLBPolicies, storage.dsm_querysupportedlbpolicies, structs-scsibus_44692da4-cfd1-4492-94b5-1f601fa53fd0.xml"
 f1_keywords:
  - "mpiodisk/DSM_QuerySupportedLBPolicies"

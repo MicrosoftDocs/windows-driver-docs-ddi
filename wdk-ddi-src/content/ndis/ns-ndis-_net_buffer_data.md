@@ -6,7 +6,7 @@ old-location: netvista\net_buffer_data.htm
 tech.root: netvista
 ms.assetid: d1b5e1c7-5ade-4f54-a5f1-200420964f0e
 ms.date: 05/02/2018
-keywords: ["_NET_BUFFER_DATA structure"]
+keywords: ["NET_BUFFER_DATA structure"]
 ms.keywords: "*PNET_BUFFER_DATA, NET_BUFFER_DATA, NET_BUFFER_DATA structure [Network Drivers Starting with Windows Vista], PNET_BUFFER_DATA, PNET_BUFFER_DATA structure pointer [Network Drivers Starting with Windows Vista], _NET_BUFFER_DATA, ndis/NET_BUFFER_DATA, ndis/PNET_BUFFER_DATA, ndis_netbuf_structures_ref_3e603c77-b97e-4c1f-9fee-e874e741a543.xml, netvista.net_buffer_data"
 f1_keywords:
  - "ndis/NET_BUFFER_DATA"

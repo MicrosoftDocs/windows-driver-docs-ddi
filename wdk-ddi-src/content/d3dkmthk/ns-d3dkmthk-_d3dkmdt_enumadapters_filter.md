@@ -5,7 +5,7 @@ description: The D3DKMDT_ENUMADAPTERS_FILTER union identifies attributes of a di
 old-location: display\d3dkmdt_enumadapters_filter.htm
 ms.assetid: 2e87e5ea-95bf-4161-8e23-a3570f87bc6e
 ms.date: 03/24/2020
-keywords: ["_D3DKMDT_ENUMADAPTERS_FILTER union"]
+keywords: ["D3DKMDT_ENUMADAPTERS_FILTER union"]
 ms.keywords: D3DKMDT_ENUMADAPTERS_FILTER, D3DKMDT_ENUMADAPTERS_FILTER union [Display Devices], _D3DKMDT_ENUMADAPTERS_FILTER, d3dkmthk/D3DKMDT_ENUMADAPTERS_FILTER
 f1_keywords:
  - "d3dkmthk/D3DKMDT_ENUMADAPTERS_FILTER"

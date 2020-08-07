@@ -4,7 +4,7 @@ title: _D3DKMT_SETSYNCREFRESHCOUNTWAITTARGET (d3dkmthk.h)
 description: Used to set sync refresh count for wait target.
 ms.assetid: 834d26e5-2c55-4716-8603-e0f7327f7937
 ms.date: 10/19/2018
-keywords: ["_D3DKMT_SETSYNCREFRESHCOUNTWAITTARGET structure"]
+keywords: ["D3DKMT_SETSYNCREFRESHCOUNTWAITTARGET structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_SETSYNCREFRESHCOUNTWAITTARGET"
  - "_D3DKMT_SETSYNCREFRESHCOUNTWAITTARGET"

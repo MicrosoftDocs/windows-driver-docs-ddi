@@ -5,7 +5,7 @@ description: The WWAN_SET_SAR_TRANSMISSION_STATUS structure sets Specific Absorp
 tech.root: netvista
 ms.assetid: 6c80431c-c97b-41c8-969b-fd298e363e9d
 ms.date: 08/20/2018
-keywords: ["_WWAN_SET_SAR_TRANSMISSION_STATUS structure"]
+keywords: ["WWAN_SET_SAR_TRANSMISSION_STATUS structure"]
 f1_keywords:
  - "wwan/_WWAN_SET_SAR_TRANSMISSION_STATUS"
  - "_WWAN_SET_SAR_TRANSMISSION_STATUS"

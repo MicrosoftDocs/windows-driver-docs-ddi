@@ -6,7 +6,7 @@ old-location: storage\scsi_address.htm
 tech.root: storage
 ms.assetid: 2b3acd3d-b5da-4dd3-89f1-0b8a7d68e54c
 ms.date: 03/29/2018
-keywords: ["_SCSI_ADDRESS structure"]
+keywords: ["SCSI_ADDRESS structure"]
 ms.keywords: "*PSCSI_ADDRESS, PSCSI_ADDRESS, PSCSI_ADDRESS structure pointer [Storage Devices], SCSI_ADDRESS, SCSI_ADDRESS structure [Storage Devices], _SCSI_ADDRESS, ntddscsi/PSCSI_ADDRESS, ntddscsi/SCSI_ADDRESS, storage.scsi_address, structs-scsibus_6b7a15bf-09f3-4fe2-bbef-77e1fd6e1744.xml"
 f1_keywords:
  - "ntddscsi/SCSI_ADDRESS"

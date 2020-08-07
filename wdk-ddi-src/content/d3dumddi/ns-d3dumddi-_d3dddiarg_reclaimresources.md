@@ -6,7 +6,7 @@ old-location: display\d3dddiarg_reclaimresources.htm
 tech.root: display
 ms.assetid: 58e8738c-b10a-4c93-b179-03efcb65412d
 ms.date: 05/10/2018
-keywords: ["_D3DDDIARG_RECLAIMRESOURCES structure"]
+keywords: ["D3DDDIARG_RECLAIMRESOURCES structure"]
 ms.keywords: D3DDDIARG_RECLAIMRESOURCES, D3DDDIARG_RECLAIMRESOURCES structure [Display Devices], _D3DDDIARG_RECLAIMRESOURCES, d3dumddi/D3DDDIARG_RECLAIMRESOURCES, display.d3dddiarg_reclaimresources
 f1_keywords:
  - "d3dumddi/D3DDDIARG_RECLAIMRESOURCES"

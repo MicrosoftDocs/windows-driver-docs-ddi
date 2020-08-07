@@ -6,7 +6,7 @@ old-location: display\dxvaddi_videoprocessorcaps.htm
 tech.root: display
 ms.assetid: bea6d458-943e-466f-adca-466f26dc3599
 ms.date: 05/10/2018
-keywords: ["_DXVADDI_VIDEOPROCESSORCAPS structure"]
+keywords: ["DXVADDI_VIDEOPROCESSORCAPS structure"]
 ms.keywords: DXVA2_Structs_dc28e351-d197-4440-a3fd-dc3a49e35230.xml, DXVADDI_VIDEOPROCESSORCAPS, DXVADDI_VIDEOPROCESSORCAPS structure [Display Devices], _DXVADDI_VIDEOPROCESSORCAPS, d3dumddi/DXVADDI_VIDEOPROCESSORCAPS, display.dxvaddi_videoprocessorcaps
 f1_keywords:
  - "d3dumddi/DXVADDI_VIDEOPROCESSORCAPS"

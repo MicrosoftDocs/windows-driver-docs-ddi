@@ -4,7 +4,7 @@ title: _D3DKMT_BUDGETCHANGENOTIFICATION (d3dkmthk.h)
 description: Arguments used to create a budget change notification.
 ms.assetid: 3ae29775-2cc2-44af-8d11-a8b06fc5122e
 ms.date: 10/19/2018
-keywords: ["_D3DKMT_BUDGETCHANGENOTIFICATION structure"]
+keywords: ["D3DKMT_BUDGETCHANGENOTIFICATION structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_BUDGETCHANGENOTIFICATION"
  - "_D3DKMT_BUDGETCHANGENOTIFICATION"

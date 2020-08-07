@@ -5,7 +5,7 @@ description: The WWAN_SAR_CONFIG_INDICES structure represents a Specific Absorpt
 tech.root: netvista
 ms.assetid: 67e70750-eb08-4acb-941c-b6919968b2a5
 ms.date: 08/20/2018
-keywords: ["_WWAN_SAR_CONFIG_INDICES structure"]
+keywords: ["WWAN_SAR_CONFIG_INDICES structure"]
 f1_keywords:
  - "wwan/_WWAN_SAR_CONFIG_INDICES"
  - "_WWAN_SAR_CONFIG_INDICES"

@@ -6,7 +6,7 @@ old-location: buses\_hub_info_from_parent.htm
 tech.root: usbref
 ms.assetid: 6259CC70-A54B-4A44-B38B-D24C296C8EA0
 ms.date: 05/07/2018
-keywords: ["_HUB_INFO_FROM_PARENT structure"]
+keywords: ["HUB_INFO_FROM_PARENT structure"]
 ms.keywords: "*PHUB_INFO_FROM_PARENT, HUB_INFO_FROM_PARENT, HUB_INFO_FROM_PARENT structure [Buses], P_HUB_INFO_FROM_PARENT, P_HUB_INFO_FROM_PARENT structure pointer [Buses], _HUB_INFO_FROM_PARENT, buses._hub_info_from_parent, ucxroothub/P_HUB_INFO_FROM_PARENT, ucxroothub/_HUB_INFO_FROM_PARENT"
 f1_keywords:
  - "ucxroothub/HUB_INFO_FROM_PARENT"

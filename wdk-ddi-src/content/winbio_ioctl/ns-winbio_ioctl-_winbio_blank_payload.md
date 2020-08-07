@@ -6,7 +6,7 @@ old-location: biometric\winbio_blank_payload.htm
 tech.root: biometric
 ms.assetid: 0bc28853-1c00-42d3-a269-198093d64dd7
 ms.date: 02/20/2018
-keywords: ["_WINBIO_BLANK_PAYLOAD structure"]
+keywords: ["WINBIO_BLANK_PAYLOAD structure"]
 ms.keywords: "*PWINBIO_BLANK_PAYLOAD, PWINBIO_BLANK_PAYLOAD, PWINBIO_BLANK_PAYLOAD structure pointer [Biometric Devices], WINBIO_BLANK_PAYLOAD, WINBIO_BLANK_PAYLOAD structure [Biometric Devices], _WINBIO_BLANK_PAYLOAD, biometric.winbio_blank_payload, biometric_ref_4a39daf0-52f5-40bf-abc6-40cd3d866f39.xml, winbio_ioctl/PWINBIO_BLANK_PAYLOAD, winbio_ioctl/WINBIO_BLANK_PAYLOAD"
 f1_keywords:
  - "winbio_ioctl/WINBIO_BLANK_PAYLOAD"

@@ -4,7 +4,7 @@ title: _OUTPUTDUPL_CONTEXT_DEBUG_STATUS (d3dkmthk.h)
 description: Output duplicate context debug status.
 ms.assetid: c455ad7b-553a-4d75-89e7-369eee9f5964
 ms.date: 10/19/2018
-keywords: ["_OUTPUTDUPL_CONTEXT_DEBUG_STATUS enumeration"]
+keywords: ["OUTPUTDUPL_CONTEXT_DEBUG_STATUS enumeration"]
 f1_keywords:
  - "d3dkmthk/_OUTPUTDUPL_CONTEXT_DEBUG_STATUS"
  - "_OUTPUTDUPL_CONTEXT_DEBUG_STATUS"

@@ -5,7 +5,7 @@ description: The NDIS_WWAN_SET_MODEM_LOGGING_CONFIG structure specifies modem lo
 tech.root: netvista
 ms.assetid: 60555A58-2C1A-41FB-AE2C-E279C9BEC3CC
 ms.date: 04/11/2019
-keywords: ["_NDIS_WWAN_SET_MODEM_LOGGING_CONFIG structure"]
+keywords: ["NDIS_WWAN_SET_MODEM_LOGGING_CONFIG structure"]
 f1_keywords:
  - "ndiswwan/_NDIS_WWAN_SET_MODEM_LOGGING_CONFIG"
  - "_NDIS_WWAN_SET_MODEM_LOGGING_CONFIG"

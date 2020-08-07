@@ -6,7 +6,7 @@ old-location: display\ddvideoportconnect.htm
 tech.root: display
 ms.assetid: 54c1bb05-37a8-4841-808b-2eb9d1ecd7a3
 ms.date: 05/10/2018
-keywords: ["_DDVIDEOPORTCONNECT structure"]
+keywords: ["DDVIDEOPORTCONNECT structure"]
 ms.keywords: "*LPDDVIDEOPORTCONNECT, DDVIDEOPORTCONNECT, DDVIDEOPORTCONNECT structure [Display Devices], _DDVIDEOPORTCONNECT, ddstrcts_38f986ec-9ee1-438c-8b1f-2d07ebb06e87.xml, display.ddvideoportconnect, ksmedia/DDVIDEOPORTCONNECT"
 f1_keywords:
  - "ksmedia/DDVIDEOPORTCONNECT"

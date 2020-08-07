@@ -6,7 +6,7 @@ old-location: display\dxgk_timed_operation_interface.htm
 tech.root: display
 ms.assetid: 85b3764d-00b5-4e1d-bedc-c59a6b182735
 ms.date: 05/10/2018
-keywords: ["_DXGK_TIMED_OPERATION_INTERFACE structure"]
+keywords: ["DXGK_TIMED_OPERATION_INTERFACE structure"]
 ms.keywords: "*PDXGK_TIMED_OPERATION_INTERFACE, DXGK_TIMED_OPERATION_INTERFACE, DXGK_TIMED_OPERATION_INTERFACE structure [Display Devices], DmStructs_024c0974-7f10-4251-b08e-c68307fc62d9.xml, PDXGK_TIMED_OPERATION_INTERFACE, PDXGK_TIMED_OPERATION_INTERFACE structure pointer [Display Devices], _DXGK_TIMED_OPERATION_INTERFACE, display.dxgk_timed_operation_interface, dispmprt/DXGK_TIMED_OPERATION_INTERFACE, dispmprt/PDXGK_TIMED_OPERATION_INTERFACE"
 f1_keywords:
  - "dispmprt/DXGK_TIMED_OPERATION_INTERFACE"

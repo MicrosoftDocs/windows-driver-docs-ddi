@@ -6,7 +6,7 @@ old-location: stream\bda_scan_state.htm
 tech.root: stream
 ms.assetid: C80506D2-AAB6-4A37-A62F-CDDD3DCBC7F1
 ms.date: 04/23/2018
-keywords: ["_BDA_SCAN_STATE structure"]
+keywords: ["BDA_SCAN_STATE structure"]
 ms.keywords: "*PBDA_SCAN_STATE, BDA_SCAN_STATE, BDA_SCAN_STATE structure [Streaming Media Devices], PBDA_SCAN_STATE, PBDA_SCAN_STATE structure pointer [Streaming Media Devices], _BDA_SCAN_STATE, bdatypes/BDA_SCAN_STATE, bdatypes/PBDA_SCAN_STATE, stream.bda_scan_state"
 f1_keywords:
  - "bdatypes/BDA_SCAN_STATE"

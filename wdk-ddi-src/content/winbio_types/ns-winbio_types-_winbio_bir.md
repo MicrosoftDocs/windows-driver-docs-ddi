@@ -6,7 +6,7 @@ old-location: biometric\winbio_bir.htm
 tech.root: biometric
 ms.assetid: 159d4767-b0e2-4d76-b23c-e078e13827dd
 ms.date: 02/20/2018
-keywords: ["_WINBIO_BIR structure"]
+keywords: ["WINBIO_BIR structure"]
 ms.keywords: "*PWINBIO_BIR, PWINBIO_BIR, PWINBIO_BIR structure pointer [Biometric Devices], WINBIO_BIR, WINBIO_BIR structure [Biometric Devices], _WINBIO_BIR, biometric.winbio_bir, biometric_ref_95ef9f95-37c5-4f04-b4fe-05ef38b4f5f0.xml, winbio_types/PWINBIO_BIR, winbio_types/WINBIO_BIR"
 f1_keywords:
  - "winbio_types/WINBIO_BIR"

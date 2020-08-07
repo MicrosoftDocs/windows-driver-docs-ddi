@@ -6,7 +6,7 @@ old-location: buses\usbfn_class_interface_ex.htm
 tech.root: usbref
 ms.assetid: DEA417E7-FA4B-4F72-A03A-ECE921FC725C
 ms.date: 05/07/2018
-keywords: ["_USBFN_CLASS_INTERFACE_EX structure"]
+keywords: ["USBFN_CLASS_INTERFACE_EX structure"]
 ms.keywords: "*PUSBFN_CLASS_INTERFACE_EX, PUSBFN_CLASS_INTERFACE_EX, PUSBFN_CLASS_INTERFACE_EX structure pointer [Buses], USBFN_CLASS_INTERFACE_EX, USBFN_CLASS_INTERFACE_EX structure [Buses], _USBFN_CLASS_INTERFACE_EX, buses.usbfn_class_interface_ex, usbfnbase/PUSBFN_CLASS_INTERFACE_EX, usbfnbase/USBFN_CLASS_INTERFACE_EX"
 f1_keywords:
  - "usbfnbase/USBFN_CLASS_INTERFACE_EX"

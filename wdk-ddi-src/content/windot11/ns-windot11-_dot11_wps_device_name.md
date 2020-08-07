@@ -6,7 +6,7 @@ old-location: netvista\dot11_wps_device_name.htm
 tech.root: netvista
 ms.assetid: 6C2B8E87-A88F-4244-81B2-0241E2DAE756
 ms.date: 02/16/2018
-keywords: ["_DOT11_WPS_DEVICE_NAME structure"]
+keywords: ["DOT11_WPS_DEVICE_NAME structure"]
 ms.keywords: "*PDOT11_WPS_DEVICE_NAME, DOT11_WPS_DEVICE_NAME, DOT11_WPS_DEVICE_NAME structure [Network Drivers Starting with Windows Vista], PDOT11_WPS_DEVICE_NAME, PDOT11_WPS_DEVICE_NAME structure pointer [Network Drivers Starting with Windows Vista], _DOT11_WPS_DEVICE_NAME, netvista.dot11_wps_device_name, windot11/DOT11_WPS_DEVICE_NAME, windot11/PDOT11_WPS_DEVICE_NAME"
 f1_keywords:
  - "windot11/DOT11_WPS_DEVICE_NAME"

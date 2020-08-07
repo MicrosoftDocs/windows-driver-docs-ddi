@@ -6,7 +6,7 @@ old-location: netvista\ndis_pd_receive_queue_counter.htm
 tech.root: netvista
 ms.assetid: E42705A4-D018-435E-BA98-3EE5BA5EDE66
 ms.date: 05/02/2018
-keywords: ["_NDIS_PD_RECEIVE_QUEUE_COUNTER structure"]
+keywords: ["NDIS_PD_RECEIVE_QUEUE_COUNTER structure"]
 ms.keywords: NDIS_PD_RECEIVE_QUEUE_COUNTER, NDIS_PD_RECEIVE_QUEUE_COUNTER structure [Network Drivers Starting with Windows Vista], PNDIS_PD_RECEIVE_QUEUE_COUNTER, PNDIS_PD_RECEIVE_QUEUE_COUNTER structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PD_RECEIVE_QUEUE_COUNTER, ndis/NDIS_PD_RECEIVE_QUEUE_COUNTER, ndis/PNDIS_PD_RECEIVE_QUEUE_COUNTER, netvista.ndis_pd_receive_queue_counter
 f1_keywords:
  - "ndis/NDIS_PD_RECEIVE_QUEUE_COUNTER"

@@ -6,7 +6,7 @@ old-location: kernel\pep_ppm_park_selection_v2.htm
 tech.root: kernel
 ms.assetid: D1EFB30D-E8E2-4585-AB0E-B7903F4D6656
 ms.date: 04/30/2018
-keywords: ["_PEP_PPM_PARK_SELECTION_V2 structure"]
+keywords: ["PEP_PPM_PARK_SELECTION_V2 structure"]
 ms.keywords: "*PPEP_PPM_PARK_SELECTION_V2, PEP_PPM_PARK_SELECTION_V2, PEP_PPM_PARK_SELECTION_V2 structure [Kernel-Mode Driver Architecture], PPEP_PPM_PARK_SELECTION_V2, PPEP_PPM_PARK_SELECTION_V2 structure pointer [Kernel-Mode Driver Architecture], PROCESSOR_PARK_TYPE_CORE_PARKING, PROCESSOR_PARK_TYPE_INTERRUPT_STEERING, _PEP_PPM_PARK_SELECTION_V2, kernel.pep_ppm_park_selection_v2, pepfx/PEP_PPM_PARK_SELECTION_V2, pepfx/PPEP_PPM_PARK_SELECTION_V2"
 f1_keywords:
  - "pepfx/PEP_PPM_PARK_SELECTION_V2"

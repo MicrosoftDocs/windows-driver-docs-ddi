@@ -6,7 +6,7 @@ old-location: pos\posprofiletype.htm
 tech.root: pos
 ms.assetid: b0ef1592-f3f3-4ca1-83f8-dc7cb76cda36
 ms.date: 02/23/2018
-keywords: ["_PosProfileType structure"]
+keywords: ["PosProfileType structure"]
 ms.keywords: PosProfileType, PosProfileType structure, _PosProfileType, pointofservicedriverinterface/PosProfileType, pos.posprofiletype
 f1_keywords:
  - "pointofservicedriverinterface/PosProfileType"

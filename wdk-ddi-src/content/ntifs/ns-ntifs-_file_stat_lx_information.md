@@ -5,7 +5,7 @@ description: The _FILE_STAT_LX_INFORMATION structure contains metadata about a f
 ms.assetid: dc897c81-2268-44bc-943e-1f494eba4a68
 ms.date: 10/19/2018
 tech.root: ifsk
-keywords: ["_FILE_STAT_LX_INFORMATION structure"]
+keywords: ["FILE_STAT_LX_INFORMATION structure"]
 f1_keywords:
  - "ntifs/_FILE_STAT_LX_INFORMATION"
  - "_FILE_STAT_LX_INFORMATION"

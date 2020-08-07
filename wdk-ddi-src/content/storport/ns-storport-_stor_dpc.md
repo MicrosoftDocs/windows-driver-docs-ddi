@@ -6,7 +6,7 @@ old-location: storage\stor_dpc.htm
 tech.root: storage
 ms.assetid: bb73217c-b159-4fd8-8cb3-334326a651ba
 ms.date: 03/29/2018
-keywords: ["_STOR_DPC structure"]
+keywords: ["STOR_DPC structure"]
 ms.keywords: "*PSTOR_DPC, STOR_DPC, STOR_DPC structure [Storage Devices], _STOR_DPC, storage.stor_dpc, storport/STOR_DPC, structs-general_e1bef2e1-9703-433c-b8a1-daf30db1aaf6.xml"
 f1_keywords:
  - "storport/STOR_DPC"

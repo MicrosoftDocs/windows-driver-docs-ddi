@@ -6,7 +6,7 @@ old-location: netvista\ndis_restart_general_attributes.htm
 tech.root: netvista
 ms.assetid: f67bd2fe-4553-4b1a-8d39-26777bcc60e0
 ms.date: 05/02/2018
-keywords: ["_NDIS_RESTART_GENERAL_ATTRIBUTES structure"]
+keywords: ["NDIS_RESTART_GENERAL_ATTRIBUTES structure"]
 ms.keywords: "*PNDIS_RESTART_GENERAL_ATTRIBUTES, NDIS_RESTART_GENERAL_ATTRIBUTES, NDIS_RESTART_GENERAL_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], PNDIS_RESTART_GENERAL_ATTRIBUTES, PNDIS_RESTART_GENERAL_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RESTART_GENERAL_ATTRIBUTES, miniport_structures_ref_10a54e42-4d48-4fdc-8a68-43771c319215.xml, ndis/NDIS_RESTART_GENERAL_ATTRIBUTES, ndis/PNDIS_RESTART_GENERAL_ATTRIBUTES, netvista.ndis_restart_general_attributes"
 f1_keywords:
  - "ndis/NDIS_RESTART_GENERAL_ATTRIBUTES"

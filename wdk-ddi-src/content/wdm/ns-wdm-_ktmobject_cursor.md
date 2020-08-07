@@ -6,7 +6,7 @@ old-location: kernel\ktmobject_cursor.htm
 tech.root: kernel
 ms.assetid: 0cfcd019-0c5b-4635-859f-741a6e4aa91d
 ms.date: 04/30/2018
-keywords: ["_KTMOBJECT_CURSOR structure"]
+keywords: ["KTMOBJECT_CURSOR structure"]
 ms.keywords: "*PKTMOBJECT_CURSOR, KTMOBJECT_CURSOR, KTMOBJECT_CURSOR structure [Kernel-Mode Driver Architecture], PKTMOBJECT_CURSOR, PKTMOBJECT_CURSOR structure pointer [Kernel-Mode Driver Architecture], _KTMOBJECT_CURSOR, kernel.ktmobject_cursor, ktm_ref_dab40de2-cd5f-4f13-93e8-5baa3b9cc37f.xml, wdm/KTMOBJECT_CURSOR, wdm/PKTMOBJECT_CURSOR"
 f1_keywords:
  - "wdm/KTMOBJECT_CURSOR"

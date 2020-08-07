@@ -6,7 +6,7 @@ old-location: storage\storage_crypto_algorithm_id.htm
 tech.root: storage
 ms.assetid: 5D1CCF3D-D677-47B0-9C7B-7E35C649A7D5
 ms.date: 03/29/2018
-keywords: ["_STORAGE_CRYPTO_ALGORITHM_ID enumeration"]
+keywords: ["STORAGE_CRYPTO_ALGORITHM_ID enumeration"]
 ms.keywords: "*PSTORAGE_CRYPTO_ALGORITHM_ID, STORAGE_CRYPTO_ALGORITHM_ID, STORAGE_CRYPTO_ALGORITHM_ID enumeration [Storage Devices], STORAGE_CRYPTO_ALGORITHM_ID,*PSTORAGE_CRYPTO_ALGORITHM_ID, STORAGE_CRYPTO_ALGORITHM_ID,*PSTORAGE_CRYPTO_ALGORITHM_ID enumeration [Storage Devices], StorageCryptoAlgorithmAESECB, StorageCryptoAlgorithmBitlockerAESCBC, StorageCryptoAlgorithmESSIVAESCBC, StorageCryptoAlgorithmMax, StorageCryptoAlgorithmUnknown, StorageCryptoAlgorithmXTSAES, _STORAGE_CRYPTO_ALGORITHM_ID, ntddstor/STORAGE_CRYPTO_ALGORITHM_ID, ntddstor/StorageCryptoAlgorithmAESECB, ntddstor/StorageCryptoAlgorithmBitlockerAESCBC, ntddstor/StorageCryptoAlgorithmESSIVAESCBC, ntddstor/StorageCryptoAlgorithmMax, ntddstor/StorageCryptoAlgorithmUnknown, ntddstor/StorageCryptoAlgorithmXTSAES, storage.storage_crypto_algorithm_id"
 f1_keywords:
  - "ntddstor/STORAGE_CRYPTO_ALGORITHM_ID, *PSTORAGE_CRYPTO_ALGORITHM_ID"

@@ -4,7 +4,7 @@ title: _D3DKMT_QUERYFSEFLAGS (d3dkmthk.h)
 description: Used to query for the FSE (full screen exclusive) flags.
 ms.assetid: 7cfd0369-f357-49fa-9769-0237b0a60191
 ms.date: 10/19/2018
-keywords: ["_D3DKMT_QUERYFSEFLAGS structure"]
+keywords: ["D3DKMT_QUERYFSEFLAGS structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_QUERYFSEFLAGS"
  - "_D3DKMT_QUERYFSEFLAGS"

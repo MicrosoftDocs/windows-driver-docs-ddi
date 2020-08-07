@@ -6,7 +6,7 @@ old-location: devtest\pcw_registration_information.htm
 tech.root: devtest
 ms.assetid: f5305351-10b4-47e6-a8b6-e1a91c605ca9
 ms.date: 02/23/2018
-keywords: ["_PCW_REGISTRATION_INFORMATION structure"]
+keywords: ["PCW_REGISTRATION_INFORMATION structure"]
 ms.keywords: "*PPCW_REGISTRATION_INFORMATION, PCW_REGISTRATION_INFORMATION, PCW_REGISTRATION_INFORMATION structure [Driver Development Tools], PPCW_REGISTRATION_INFORMATION, PPCW_REGISTRATION_INFORMATION structure pointer [Driver Development Tools], _PCW_REGISTRATION_INFORMATION, devtest.pcw_registration_information, km_pcw_a740182f-4844-4a98-9493-522087a3d27c.xml, wdm/PCW_REGISTRATION_INFORMATION, wdm/PPCW_REGISTRATION_INFORMATION"
 f1_keywords:
  - "wdm/PCW_REGISTRATION_INFORMATION"

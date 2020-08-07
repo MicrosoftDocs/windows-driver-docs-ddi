@@ -6,7 +6,7 @@ old-location: ifsk\wof_external_file_id.htm
 tech.root: ifsk
 ms.assetid: 5C208DF7-C6CB-419D-B775-74E09DC4D448
 ms.date: 04/16/2018
-keywords: ["_WOF_EXTERNAL_FILE_ID structure"]
+keywords: ["WOF_EXTERNAL_FILE_ID structure"]
 ms.keywords: "*PWOF_EXTERNAL_FILE_ID, PWOF_EXTERNAL_FILE_ID, PWOF_EXTERNAL_FILE_ID structure pointer [Installable File System Drivers], WOF_EXTERNAL_FILE_ID, WOF_EXTERNAL_FILE_ID structure [Installable File System Drivers], _WOF_EXTERNAL_FILE_ID, ifsk.wof_external_file_id, ntifs/PWOF_EXTERNAL_FILE_ID, ntifs/WOF_EXTERNAL_FILE_ID"
 f1_keywords:
  - "ntifs/WOF_EXTERNAL_FILE_ID"

@@ -5,7 +5,7 @@ description: The DXGK_ALLOCATIONINFO structure describes parameters for creating
 old-location: display\dxgk_allocationinfo.htm
 ms.assetid: d5767bd3-11f8-45a7-b760-3ed51c54c044
 ms.date: 08/05/2020
-keywords: ["_DXGK_ALLOCATIONINFO structure"]
+keywords: ["DXGK_ALLOCATIONINFO structure"]
 ms.keywords: DXGK_ALLOCATIONINFO, DXGK_ALLOCATIONINFO structure [Display Devices], DmStructs_f571b666-75fd-477a-a8a7-673033d9284e.xml, _DXGK_ALLOCATIONINFO, d3dkmddi/DXGK_ALLOCATIONINFO, display.dxgk_allocationinfo
 f1_keywords:
  - "d3dkmddi/DXGK_ALLOCATIONINFO"

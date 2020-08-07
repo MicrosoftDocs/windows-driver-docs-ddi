@@ -6,7 +6,7 @@ old-location: bltooth\l2cap_extended_flow_spec.htm
 tech.root: bltooth
 ms.assetid: B190484F-1A87-4C52-A1FF-4D4EB593A963
 ms.date: 04/27/2018
-keywords: ["_L2CAP_EXTENDED_FLOW_SPEC structure"]
+keywords: ["L2CAP_EXTENDED_FLOW_SPEC structure"]
 ms.keywords: "*PL2CAP_EXTENDED_FLOW_SPEC, L2CAP_EXTENDED_FLOW_SPEC, L2CAP_EXTENDED_FLOW_SPEC structure [Bluetooth Devices], PL2CAP_EXTENDED_FLOW_SPEC, PL2CAP_EXTENDED_FLOW_SPEC structure pointer [Bluetooth Devices], _L2CAP_EXTENDED_FLOW_SPEC, bltooth.l2cap_extended_flow_spec, bthddi/L2CAP_EXTENDED_FLOW_SPEC, bthddi/PL2CAP_EXTENDED_FLOW_SPEC"
 f1_keywords:
  - "bthddi/L2CAP_EXTENDED_FLOW_SPEC"

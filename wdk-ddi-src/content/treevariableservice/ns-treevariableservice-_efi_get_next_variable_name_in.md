@@ -4,7 +4,7 @@ title: _EFI_GET_NEXT_VARIABLE_NAME_IN (treevariableservice.h)
 description: 
 ms.assetid: 78e40fb3-d69d-49a8-b095-4650a4ab7e08
 ms.date: 10/19/2018
-keywords: ["_EFI_GET_NEXT_VARIABLE_NAME_IN structure"]
+keywords: ["EFI_GET_NEXT_VARIABLE_NAME_IN structure"]
 f1_keywords:
  - "treevariableservice/_EFI_GET_NEXT_VARIABLE_NAME_IN"
  - "_EFI_GET_NEXT_VARIABLE_NAME_IN"

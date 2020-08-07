@@ -6,7 +6,7 @@ old-location: storage\storage_device_io_capability_descriptor.htm
 tech.root: storage
 ms.assetid: 98377F8F-62C8-4E8F-838B-A63DC63E4A0C
 ms.date: 03/29/2018
-keywords: ["_STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR structure"]
+keywords: ["STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR structure"]
 ms.keywords: PSTORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR, PSTORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR structure pointer [Storage Devices], STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR, STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR structure [Storage Devices], _STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR, ntddstor/PSTORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR, ntddstor/STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR, storage.storage_device_io_capability_descriptor
 f1_keywords:
  - "ntddstor/STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR"

@@ -6,7 +6,7 @@ old-location: wdf\wdf_pdo_event_callbacks.htm
 tech.root: wdf
 ms.assetid: 13cb1da1-0bb7-444e-a0e1-abcac7d0240d
 ms.date: 02/26/2018
-keywords: ["_WDF_PDO_EVENT_CALLBACKS structure"]
+keywords: ["WDF_PDO_EVENT_CALLBACKS structure"]
 ms.keywords: "*PWDF_PDO_EVENT_CALLBACKS, DFDeviceObjectFdoPdoRef_7a22d0f9-82ea-448e-8272-d3009beea440.xml, PWDF_PDO_EVENT_CALLBACKS, PWDF_PDO_EVENT_CALLBACKS structure pointer, WDF_PDO_EVENT_CALLBACKS, WDF_PDO_EVENT_CALLBACKS structure, _WDF_PDO_EVENT_CALLBACKS, kmdf.wdf_pdo_event_callbacks, wdf.wdf_pdo_event_callbacks, wdfpdo/PWDF_PDO_EVENT_CALLBACKS, wdfpdo/WDF_PDO_EVENT_CALLBACKS"
 f1_keywords:
  - "wdfpdo/WDF_PDO_EVENT_CALLBACKS"

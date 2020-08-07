@@ -6,7 +6,7 @@ old-location: kernel\po_fx_perf_state.htm
 tech.root: kernel
 ms.assetid: 06A41593-A052-43A7-B3A7-02185B557FA3
 ms.date: 04/30/2018
-keywords: ["_PO_FX_PERF_STATE structure"]
+keywords: ["PO_FX_PERF_STATE structure"]
 ms.keywords: "*PPO_FX_PERF_STATE, PO_FX_PERF_STATE, PO_FX_PERF_STATE structure [Kernel-Mode Driver Architecture], PPO_FX_PERF_STATE, PPO_FX_PERF_STATE structure pointer [Kernel-Mode Driver Architecture], _PO_FX_PERF_STATE, kernel.po_fx_perf_state, wdm/PO_FX_PERF_STATE, wdm/PPO_FX_PERF_STATE"
 f1_keywords:
  - "wdm/PO_FX_PERF_STATE"

@@ -4,7 +4,7 @@ title: _DXGK_DIAGNOSTIC_HEADER (dispmprt.h)
 description: Header structure which contains the common fields used to describe all diagnostic events.
 ms.assetid: c8f81ba7-adda-457d-bda5-8a84303df060
 ms.date: 10/19/2018
-keywords: ["_DXGK_DIAGNOSTIC_HEADER structure"]
+keywords: ["DXGK_DIAGNOSTIC_HEADER structure"]
 f1_keywords:
  - "dispmprt/_DXGK_DIAGNOSTIC_HEADER"
  - "_DXGK_DIAGNOSTIC_HEADER"

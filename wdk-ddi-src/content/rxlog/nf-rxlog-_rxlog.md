@@ -6,7 +6,7 @@ old-location: ifsk\_rxlog.htm
 tech.root: ifsk
 ms.assetid: 00f6c2d9-7521-46c8-b37e-2be304d8a045
 ms.date: 04/16/2018
-keywords: ["_RxLog function"]
+keywords: ["RxLog function"]
 ms.keywords: "_RxLog, _RxLog function [Installable File System Drivers], ifsk._rxlog, rxlog/_RxLog, rxref_2c140100-e24e-4fe0-935a-81fa6840db24.xml"
 f1_keywords:
  - "rxlog/_RxLog"

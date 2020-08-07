@@ -6,7 +6,7 @@ old-location: buses\usb_bus_interface_usbdi_v3.htm
 tech.root: usbref
 ms.assetid: 1183f584-8dfa-4eea-b494-3a2e23ec0294
 ms.date: 05/07/2018
-keywords: ["_USB_BUS_INTERFACE_USBDI_V3 structure"]
+keywords: ["USB_BUS_INTERFACE_USBDI_V3 structure"]
 ms.keywords: "*PUSB_BUS_INTERFACE_USBDI_V3, PUSB_BUS_INTERFACE_USBDI_V3, PUSB_BUS_INTERFACE_USBDI_V3 structure pointer [Buses], USB_BUS_INTERFACE_USBDI_V3, USB_BUS_INTERFACE_USBDI_V3 structure [Buses], _USB_BUS_INTERFACE_USBDI_V3, buses.usb_bus_interface_usbdi_v3, usbbusif/PUSB_BUS_INTERFACE_USBDI_V3, usbbusif/USB_BUS_INTERFACE_USBDI_V3"
 f1_keywords:
  - "usbbusif/USB_BUS_INTERFACE_USBDI_V3"

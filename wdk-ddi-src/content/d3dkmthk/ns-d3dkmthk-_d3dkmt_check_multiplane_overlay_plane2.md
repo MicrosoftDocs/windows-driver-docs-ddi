@@ -4,7 +4,7 @@ title: _D3DKMT_CHECK_MULTIPLANE_OVERLAY_PLANE2 (d3dkmthk.h)
 description: Check multiplane overlay plane.
 ms.assetid: 5c2a90f1-cab7-4789-8423-96c36867727a
 ms.date: 10/19/2018
-keywords: ["_D3DKMT_CHECK_MULTIPLANE_OVERLAY_PLANE2 structure"]
+keywords: ["D3DKMT_CHECK_MULTIPLANE_OVERLAY_PLANE2 structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_CHECK_MULTIPLANE_OVERLAY_PLANE2"
  - "_D3DKMT_CHECK_MULTIPLANE_OVERLAY_PLANE2"

@@ -5,7 +5,7 @@ description: The DEVICE_DSM_DEFINITION structure contains the properties for a d
 tech.root: storage
 ms.assetid: a43aff7d-1731-469d-8681-8c8aaaeff1a1
 ms.date: 08/23/2019
-keywords: ["_DEVICE_DSM_DEFINITION structure"]
+keywords: ["DEVICE_DSM_DEFINITION structure"]
 f1_keywords:
  - "ntddstor/_DEVICE_DSM_DEFINITION"
  - "_DEVICE_DSM_DEFINITION"

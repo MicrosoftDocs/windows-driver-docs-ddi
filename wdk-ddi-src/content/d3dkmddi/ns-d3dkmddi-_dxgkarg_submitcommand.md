@@ -5,7 +5,7 @@ description: The DXGKARG_SUBMITCOMMAND structure describes the direct memory acc
 old-location: display\dxgkarg_submitcommand.htm
 ms.assetid: f0b5c7aa-855e-419a-ac27-c9f4edefd648
 ms.date: 05/10/2018
-keywords: ["_DXGKARG_SUBMITCOMMAND structure"]
+keywords: ["DXGKARG_SUBMITCOMMAND structure"]
 ms.keywords: DXGKARG_SUBMITCOMMAND, DXGKARG_SUBMITCOMMAND structure [Display Devices], DmStructs_04cbfdbf-3b43-4b70-8964-75eb9f9c4128.xml, _DXGKARG_SUBMITCOMMAND, d3dkmddi/DXGKARG_SUBMITCOMMAND, display.dxgkarg_submitcommand
 f1_keywords:
  - "d3dkmddi/DXGKARG_SUBMITCOMMAND"

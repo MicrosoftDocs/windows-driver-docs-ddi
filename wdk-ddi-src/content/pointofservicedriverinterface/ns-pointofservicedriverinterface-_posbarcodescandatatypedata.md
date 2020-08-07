@@ -6,7 +6,7 @@ old-location: pos\posbarcodescandatatypedata.htm
 tech.root: pos
 ms.assetid: 1b6fcad3-a6a0-4180-8e36-ae4e597b4eb0
 ms.date: 02/23/2018
-keywords: ["_PosBarcodeScanDataTypeData structure"]
+keywords: ["PosBarcodeScanDataTypeData structure"]
 ms.keywords: PosBarcodeScanDataTypeData, PosBarcodeScanDataTypeData structure, _PosBarcodeScanDataTypeData, pointofservicedriverinterface/PosBarcodeScanDataTypeData, pos.posbarcodescandatatypedata
 f1_keywords:
  - "pointofservicedriverinterface/PosBarcodeScanDataTypeData"

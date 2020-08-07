@@ -5,7 +5,7 @@ tech.root: usbref
 description: Used in the GET_PDOS command. See Table 4-34, Offset 34.
 ms.assetid: deec5c66-f0f0-4b1b-82ec-d62c901d532f
 ms.date: 09/30/2018
-keywords: ["_UCSI_GET_PDOS_TYPE enumeration"]
+keywords: ["UCSI_GET_PDOS_TYPE enumeration"]
 f1_keywords:
  - "ucmucsispec/_UCSI_GET_PDOS_TYPE"
  - "_UCSI_GET_PDOS_TYPE"

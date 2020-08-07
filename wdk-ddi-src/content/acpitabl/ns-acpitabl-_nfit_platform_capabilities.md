@@ -4,7 +4,7 @@ title: _NFIT_PLATFORM_CAPABILITIES structure (acpitabl.h)
 description: Describes the NVDIMM Firmware Interface Table (NFIT) platform capabilities structure. Originally defined in ACPI 6.2 Errata A.
 ms.assetid: 1bf6d972-fd4f-443d-9718-28fe825e7b56
 ms.date: 10/02/2018
-keywords: ["_NFIT_PLATFORM_CAPABILITIES structure"]
+keywords: ["NFIT_PLATFORM_CAPABILITIES structure"]
 f1_keywords:
  - "acpitabl/_NFIT_PLATFORM_CAPABILITIES"
  - "_NFIT_PLATFORM_CAPABILITIES"

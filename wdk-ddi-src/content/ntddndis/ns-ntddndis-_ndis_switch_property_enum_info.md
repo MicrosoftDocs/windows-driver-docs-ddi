@@ -6,7 +6,7 @@ old-location: netvista\ndis_switch_property_enum_info.htm
 tech.root: netvista
 ms.assetid: 1b990bc5-3ff4-4e37-b011-258c4dbe8f22
 ms.date: 05/02/2018
-keywords: ["_NDIS_SWITCH_PROPERTY_ENUM_INFO structure"]
+keywords: ["NDIS_SWITCH_PROPERTY_ENUM_INFO structure"]
 ms.keywords: "*PNDIS_SWITCH_PROPERTY_ENUM_INFO, NDIS_SWITCH_PROPERTY_ENUM_INFO, NDIS_SWITCH_PROPERTY_ENUM_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PROPERTY_ENUM_INFO, PNDIS_SWITCH_PROPERTY_ENUM_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PROPERTY_ENUM_INFO, netvista.ndis_switch_property_enum_info, ntddndis/NDIS_SWITCH_PROPERTY_ENUM_INFO, ntddndis/PNDIS_SWITCH_PROPERTY_ENUM_INFO"
 f1_keywords:
  - "ntddndis/NDIS_SWITCH_PROPERTY_ENUM_INFO"

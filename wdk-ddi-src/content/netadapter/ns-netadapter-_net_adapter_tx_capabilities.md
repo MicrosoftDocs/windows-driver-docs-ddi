@@ -5,7 +5,7 @@ description: The NET_ADAPTER_TX_CAPABILITIES structure describes the transmit ca
 tech.root: netvista
 ms.assetid: dd7810b6-12cc-46d3-9b74-2eabede35831
 ms.date: 09/27/2019
-keywords: ["_NET_ADAPTER_TX_CAPABILITIES structure"]
+keywords: ["NET_ADAPTER_TX_CAPABILITIES structure"]
 f1_keywords:
  - "netadapter/NET_ADAPTER_POWER_CAPABILITIES"
  - "NET_ADAPTER_POWER_CAPABILITIES"

@@ -6,7 +6,7 @@ old-location: buses\_parent_hub_flags.htm
 tech.root: usbref
 ms.assetid: 9107CC24-48FF-4A2C-AA27-1E9E316B7944
 ms.date: 05/07/2018
-keywords: ["_PARENT_HUB_FLAGS structure"]
+keywords: ["PARENT_HUB_FLAGS structure"]
 ms.keywords: "*PPARENT_HUB_FLAGS, PARENT_HUB_FLAGS, PARENT_HUB_FLAGS union [Buses], _PARENT_HUB_FLAGS, buses._parent_hub_flags, ucxroothub/_PARENT_HUB_FLAGS"
 f1_keywords:
  - "ucxroothub/PARENT_HUB_FLAGS"

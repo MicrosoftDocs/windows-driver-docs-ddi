@@ -6,7 +6,7 @@ old-location: netvista\wwan_ipv4_address.htm
 tech.root: netvista
 ms.assetid: D75EAC9E-8E65-437E-83AA-59B422527C6C
 ms.date: 05/02/2018
-keywords: ["_WWAN_IPV4_ADDRESS structure"]
+keywords: ["WWAN_IPV4_ADDRESS structure"]
 ms.keywords: "*PWWAN_IPV4_ADDRESS, PWWAN_IPV4_ADDRESS, PWWAN_IPV4_ADDRESS structure pointer [Network Drivers Starting with Windows Vista], WWAN_IPV4_ADDRESS, WWAN_IPV4_ADDRESS structure [Network Drivers Starting with Windows Vista], _WWAN_IPV4_ADDRESS, netvista.wwan_ipv4_address, wwan/PWWAN_IPV4_ADDRESS, wwan/WWAN_IPV4_ADDRESS"
 f1_keywords:
  - "wwan/WWAN_IPV4_ADDRESS"
