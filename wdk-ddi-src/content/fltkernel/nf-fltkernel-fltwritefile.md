@@ -57,7 +57,7 @@ req.typenames:
 
 ### -param InitiatingInstance [in]
 
-Opaque instance pointer for the minifilter driver instance that is initiating the write request. This parameter is required and cannot be <b>NULL</b>. 
+An opaque instance pointer for the minifilter driver instance that the operation is to be sent to. The instance must be attached to the volume where the file resides. This parameter is required and cannot be <b>NULL</b>. 
 
 
 ### -param FileObject [in]
