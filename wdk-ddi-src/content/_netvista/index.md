@@ -115,8 +115,6 @@ Header files that support NetAdapterCx include the following:
 - [Netpoweroffloadlist.h](../netpoweroffload/index.md)
 - [Netpowersettings.h](../netpowersettings/index.md)
 - [Netreceivescaling.h](../netreceivescaling/index.md)
-- [Netrequest.h](../netrequest/index.md)
-- [Netrequestqueue.h](../netrequestqueue/index.md)
 - [Netrxqueue.h](../netrxqueue/index.md)
 - [Nettxqueue.h](../nettxqueue/index.md)
 - [Netwakesource.h](../netwakesource/index.md)
