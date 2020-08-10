@@ -1,11 +1,9 @@
 ---
 UID: NI:usbprint.IOCTL_USBPRINT_GET_INTERFACE_TYPE
 title: IOCTL_USBPRINT_GET_INTERFACE_TYPE
-author: windows-driver-content
 description: Get the protocol capabilities of the USB printer interface.
 tech.root: print
 ms.assetid: cec2122d-17b3-407c-b374-be475024afc2
-ms.author: windowsdriverdev
 ms.date: 04/03/2019
 keywords: ["IOCTL_USBPRINT_GET_INTERFACE_TYPE IOCTL"]
 f1_keywords:

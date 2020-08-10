@@ -1,11 +1,9 @@
 ---
 UID: NI:usbprint.IOCTL_USBPRINT_GET_PROTOCOL
 title: IOCTL_USBPRINT_GET_PROTOCOL
-author: windows-driver-content
 description: Retrieve the current printer protocol code of the USB printer interface.
 tech.root: print
 ms.assetid: c81c957c-7fa8-46f3-83df-05827a72c94c
-ms.author: windowsdriverdev
 ms.date: 04/03/2019
 keywords: ["IOCTL_USBPRINT_GET_PROTOCOL IOCTL"]
 f1_keywords:
