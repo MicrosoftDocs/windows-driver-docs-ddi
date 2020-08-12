@@ -2,8 +2,7 @@
 UID: NS:gnssdriver.__unnamed_struct_1
 title: GNSS_SUPL_VERSION_2
 tech.root: gnss
-ms.date: 05/11/2020
-ms.topic: language-reference
+ms.date: 08/12/2020
 description: This structure contains Secure User Plane Location (SUPL) 2 version information.
 req.construct-type: structure
 req.ddi-compliance: 
@@ -31,8 +30,6 @@ api_name:
 f1_keywords:
 - gnssdriver/GNSS_SUPL_VERSION_2
 - GNSS_SUPL_VERSION_2
-dev_langs:
-- c++
 targetos: Windows
 req.typenames: GNSS_SUPL_VERSION_2, *PGNSS_SUPL_VERSION_2
 ---

@@ -1,8 +1,7 @@
 ---
 UID: NS:acpitabl._PCC_REDUCED_1_SUBSPACE
 title: _PCC_REDUCED_1_SUBSPACE (acpitabl.h)
-ms.date: 05/11/2020
-ms.topic: language-reference
+ms.date: 08/12/2020
 ms.keywords: _PCC_REDUCED_1_SUBSPACE, PCC_REDUCED_1_SUBSPACE, *PPCC_REDUCED_1_SUBSPACE
 description: Contains information about the the ACPI Platform Communication Channel (PCC) HW-reduced Type 1 subspace.
 tech.root: acpi
@@ -34,8 +33,6 @@ f1_keywords:
 - acpitabl/_PCC_REDUCED_1_SUBSPACE
 - acpitabl/PCC_REDUCED_1_SUBSPACE
 - PCC_REDUCED_1_SUBSPACE
-dev_langs:
-- c++
 targetos: Windows
 ---
 
