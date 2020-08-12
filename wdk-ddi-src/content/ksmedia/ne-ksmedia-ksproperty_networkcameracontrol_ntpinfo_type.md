@@ -3,8 +3,7 @@ UID: NE:ksmedia.__unnamed_enum_92
 title: KSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_TYPE  (ksmedia.h)
 description: The KSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_TYPE enumeration defines the network camera control NTP types.
 tech.root: stream
-ms.date: 07/27/2020
-ms.topic: enum
+ms.date: 08/12/2020
 ms.keywords: KSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_TYPE
 f1_keywords:
 - "ksmedia/KSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_TYPE"
@@ -28,8 +27,6 @@ api_location:
 - ksmedia.h
 api_name: 
 - KSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_TYPE
-dev_langs:
-- c++
 targetos: Windows
 ---
 
