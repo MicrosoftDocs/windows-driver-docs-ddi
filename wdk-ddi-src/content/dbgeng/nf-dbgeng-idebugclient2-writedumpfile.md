@@ -137,7 +137,7 @@ Creates a Full User-Mode Dump (user-mode) or Kernel Summary Dump (kernel-mode).
 </td>
 <td>
 
-         Creates a Complete Memory Dump (kernel-mode only).
+Creates a Complete Memory Dump (kernel-mode only).
 
 </td>
 </tr>
