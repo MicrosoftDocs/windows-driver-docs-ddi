@@ -100,6 +100,6 @@ In addition to managing the common two, three, and four channel color spaces, IC
 
 The PCOLORTYPE and LPCOLORTYPE data types are defined as pointers to this enumeration:
 
-```c++
+```cpp
 typedef COLORTYPE *PCOLORTYPE, *LPCOLORTYPE;
 ```

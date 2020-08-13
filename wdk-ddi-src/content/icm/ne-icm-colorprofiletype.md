@@ -66,7 +66,7 @@ Specifies a WCS gamut map model profile (GMMP). If this value is specified, only
 
 The PCOLORPROFILETYPE and LPCOLORPROFILETYPE data types are defined as pointers to this enumeration:
 
-```c++
+```cpp
 typedef COLORPROFILETYPE *PCOLORPROFILETYPE, *LPCOLORPROFILETYPE;
 ```
 

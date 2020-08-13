@@ -84,7 +84,7 @@ For a description of rendering intents, see [Rendering Intents](https://docs.mic
 
 The PCOLORPROFILESUBTYPE and LPCOLORPROFILESUBTYPE data types are defined as pointers to this enumeration:
 
-```c++
+```cpp
 typedef COLORPROFILESUBTYPE *PCOLORPROFILESUBTYPE, *LPCOLORPROFILESUBTYPE;
 ```
 

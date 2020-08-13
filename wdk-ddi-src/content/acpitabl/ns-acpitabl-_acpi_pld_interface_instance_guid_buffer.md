@@ -3,7 +3,7 @@ UID: NS:acpitabl._ACPI_PLD_INTERFACE_INSTANCE_GUID_BUFFER
 title: _ACPI_PLD_INTERFACE_INSTANCE_GUID_BUFFER structure (acpitabl.h)
 description: Describes the ACPI PLD interface instance GUID descriptor buffer, revision 1 (Microsoft custom PLD buffer extension, 128-bits).
 ms.assetid: 2a4ad06c-2d79-49e0-b830-b6956e9c55c8
-ms.date: 10/02/2018
+ms.date: 08/13/2020
 keywords: ["ACPI_PLD_INTERFACE_INSTANCE_GUID_BUFFER structure"]
 f1_keywords:
  - "acpitabl/_ACPI_PLD_INTERFACE_INSTANCE_GUID_BUFFER"
@@ -42,14 +42,14 @@ Describes the ACPI PLD interface instance GUID descriptor buffer, revision 1 (Mi
 ## -struct-fields
 
 ### -field ReferenceGuid
- 
+
 The ReferenceString field of the ACPI_PLD_INTERFACE_INSTANCE_GUID_BUFFER structure.
 
 ## -remarks
 
 The GUID is defined as follows:
 
-```C++
+```cpp
 DEFINE_GUID(ACPI_PLD_INTERFACE_INSTANCE_GUID_BUFFER_GUID,
     0x1face9db, 0x2530, 0x4248, 0x8e, 0xe3, 0x51, 0x05, 0x3a, 0xef, 0x47, 0xc2);
 ```
