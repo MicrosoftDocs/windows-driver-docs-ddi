@@ -1,6 +1,206 @@
 {
   "redirections": [
     {
+      "source_path": "/wdk-ddi-src/content/netrequestqueue/nf-netrequestqueue-netrequestqueuegetadapter.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "/wdk-ddi-src/content/netrequestqueue/nf-netrequestqueue-netrequestqueuecreate.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "/wdk-ddi-src/content/netrequestqueue/ne-netrequestqueue-_net_request_queue_type.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "/wdk-ddi-src/content/netrequestqueue/nf-netrequestqueue-net_request_queue_set_data_handler_init.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "/wdk-ddi-src/content/netrequestqueue/ns-netrequestqueue-_net_request_queue_set_data_handler.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "/wdk-ddi-src/content/netrequestqueue/nf-netrequestqueue-net_request_queue_query_data_handler_init.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "/wdk-ddi-src/content/netrequestqueue/ns-netrequestqueue-_net_request_queue_query_data_handler.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "/wdk-ddi-src/content/netrequestqueue/nf-netrequestqueue-net_request_queue_method_handler_init.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "/wdk-ddi-src/content/netrequestqueue/ns-netrequestqueue-_net_request_queue_method_handler.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "/wdk-ddi-src/content/netrequestqueue/nf-netrequestqueue-net_request_queue_config_init_default_sequential.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "/wdk-ddi-src/content/netrequestqueue/nf-netrequestqueue-net_request_queue_config_init_default_parallel.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "/wdk-ddi-src/content/netrequestqueue/nf-netrequestqueue-net_request_queue_config_init.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "/wdk-ddi-src/content/netrequestqueue/nf-netrequestqueue-net_request_queue_config_add_set_data_handler.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "/wdk-ddi-src/content/netrequestqueue/nf-netrequestqueue-net_request_queue_config_add_query_data_handler.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "/wdk-ddi-src/content/netrequestqueue/nf-netrequestqueue-net_request_queue_config_add_method_handler.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "/wdk-ddi-src/content/netrequestqueue/nf-netrequestqueue-net_request_queue_config_add_initialized_set_data_handler.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "/wdk-ddi-src/content/netrequestqueue/nf-netrequestqueue-net_request_queue_config_add_initialized_query_data_handler.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "/wdk-ddi-src/content/netrequestqueue/nf-netrequestqueue-net_request_queue_config_add_initialized_method_handler.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "/wdk-ddi-src/content/netrequestqueue/ns-netrequestqueue-_net_request_queue_config.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "/wdk-ddi-src/content/netrequestqueue/nc-netrequestqueue-evt_net_request_set_data.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "/wdk-ddi-src/content/netrequestqueue/nc-netrequestqueue-evt_net_request_query_data.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "/wdk-ddi-src/content/netrequestqueue/nc-netrequestqueue-evt_net_request_method.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "/wdk-ddi-src/content/netrequestqueue/nc-netrequestqueue-evt_net_request_default_set_data.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "/wdk-ddi-src/content/netrequestqueue/nc-netrequestqueue-evt_net_request_default_query_data.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "/wdk-ddi-src/content/netrequestqueue/nc-netrequestqueue-evt_net_request_default_method.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "/wdk-ddi-src/content/netrequestqueue/nc-netrequestqueue-evt_net_request_default.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "/wdk-ddi-src/content/netrequest/nf-netrequest-netrequestwdmgetndisoidrequest.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "/wdk-ddi-src/content/netrequest/nf-netrequest-netrequestsetdatacomplete.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "/wdk-ddi-src/content/netrequest/nf-netrequest-netrequestsetbytesneeded.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "/wdk-ddi-src/content/netrequest/nf-netrequest-netrequestretrieveinputoutputbuffer.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "/wdk-ddi-src/content/netrequest/nf-netrequest-netrequestquerydatacomplete.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "/wdk-ddi-src/content/netrequest/nf-netrequest-netrequestmethodcomplete.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "/wdk-ddi-src/content/netrequest/nf-netrequest-netrequestgetvportid.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "/wdk-ddi-src/content/netrequest/nf-netrequest-netrequestgettype.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "/wdk-ddi-src/content/netrequest/nf-netrequest-netrequestgetswitchid.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "/wdk-ddi-src/content/netrequest/nf-netrequest-netrequestgetportnumber.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "/wdk-ddi-src/content/netrequest/nf-netrequest-netrequestgetid.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "/wdk-ddi-src/content/netrequest/nf-netrequest-netrequestgetadapter.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "/wdk-ddi-src/content/netrequest/nf-netrequest-netrequestcompletewithoutinformation.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "/wdk-ddi-src/content/netrequest/index.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/",
+      "redirect_document_id": true
+    },
+    {
       "source_path": "wdk-ddi-src/content/wdm/nf-wdm-kelowerirql~r1.md",
       "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kelowerirql",
       "redirect_document_id": true

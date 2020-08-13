@@ -36,8 +36,6 @@
     "netpoweroffloadlist.h",
     "netpowersettings.h",
     "netreceivescaling.h",
-    "netrequest.h",
-    "netrequestqueue.h",
     "netringiterator.h",
     "netrxqueue.h",
     "nettxqueue.h",
