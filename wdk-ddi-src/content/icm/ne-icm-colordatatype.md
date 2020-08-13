@@ -78,4 +78,6 @@ FLOAT16 per channel.
 
 The PCOLORDATATYPE and LPCOLORDATATYPE data types are defined as pointers to this enumeration:
 
-`typedef COLORDATATYPE *PCOLORDATATYPE, *LPCOLORDATATYPE;`
+```c++
+typedef COLORDATATYPE *PCOLORDATATYPE, *LPCOLORDATATYPE;
+```

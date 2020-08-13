@@ -206,4 +206,6 @@ BM_x555G3CH
 
 The PBMFORMAT and LPBMFORMAT data types are defined as pointers to this enumeration:
 
-`typedef BMFORMAT *PBMFORMAT, *LPBMFORMAT;`
+```c++
+typedef BMFORMAT *PBMFORMAT, *LPBMFORMAT;
+```
