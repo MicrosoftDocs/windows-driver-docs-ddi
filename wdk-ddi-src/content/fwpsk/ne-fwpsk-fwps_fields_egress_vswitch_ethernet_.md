@@ -132,7 +132,7 @@ The virtual switch egress Ethernet virtual switch destination virtual machine (V
 
 ### -field FWPS_FIELD_EGRESS_VSWITCH_ETHERNET_L2_FLAGS
 
-A bitwise OR of Layer 2 (L2) flags. For a list of filtering condition flags, see [Filtering Condition Flags](https://docs.microsoft.com/windows/desktop/FWP/filtering-condition-flags-).
+A bitwise OR of Layer 2 (L2) flags. For a list of filtering condition flags, see [Filtering Condition Flags](https://docs.microsoft.com/windows/win32/fwp/filtering-condition-flags-).
 
 ### -field FWPS_FIELD_EGRESS_VSWITCH_ETHERNET_COMPARTMENT_ID
 

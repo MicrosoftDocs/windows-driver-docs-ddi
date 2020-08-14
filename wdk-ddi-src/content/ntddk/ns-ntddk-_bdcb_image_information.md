@@ -247,5 +247,5 @@ The length of data pointed to by the <b>CertificateThumbprint</b> member.
 
 [**BOOT_DRIVER_CALLBACK_FUNCTION**](nc-ntddk-boot_driver_callback_function.md)
 
-[**ALG_ID**](https://docs.microsoft.com/windows/desktop/SecCrypto/alg-id)
+[**ALG_ID**](https://docs.microsoft.com/windows/win32/seccrypto/alg-id)
 

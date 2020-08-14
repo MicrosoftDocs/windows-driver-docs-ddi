@@ -119,7 +119,7 @@ The virtual switch ingress virtual switch source virtual machine (VM) identifier
 
 ### -field FWPS_FIELD_INGRESS_VSWITCH_TRANSPORT_V4_L2_FLAGS
 
-A bitwise OR of Layer 2 (L2) flags. For a list of filtering condition flags, see [Filtering Condition Flags](https://docs.microsoft.com/windows/desktop/FWP/filtering-condition-flags-).
+A bitwise OR of Layer 2 (L2) flags. For a list of filtering condition flags, see [Filtering Condition Flags](https://docs.microsoft.com/windows/win32/fwp/filtering-condition-flags-).
 
 
 ### -field FWPS_FIELD_INGRESS_VSWITCH_TRANSPORT_V4_COMPARTMENT_ID

@@ -84,7 +84,7 @@ The following wildcard characters can be used in the pattern string.
 | DOS_QM | Matches any single character or, upon encountering a period or end of name string, advances the expression to the end of the set of contiguous DOS_QMs. |
 | DOS_STAR | Matches zero or more characters until encountering and matching the final . in the name. |
 
-In low resource conditions, **FsRtlIsNameInExpression** can raise a structured exception with a code of STATUS_NO_MEMORY, which callers should be prepared to handle. For more information, see [Structured Exception Handling](https://docs.microsoft.com/windows/desktop/debug/structured-exception-handling).
+In low resource conditions, **FsRtlIsNameInExpression** can raise a structured exception with a code of STATUS_NO_MEMORY, which callers should be prepared to handle. For more information, see [Structured Exception Handling](https://docs.microsoft.com/windows/win32/debug/structured-exception-handling).
 
 > [!NOTE]
 > If only one of the string parameters has a length of zero, **FsRtlIsNameInExpression** returns **FALSE**. This means that "*" does not match a null string.
