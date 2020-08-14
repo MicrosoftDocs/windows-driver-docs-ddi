@@ -57,7 +57,7 @@ The <b>KEY_VALUE_ENTRY</b> structure is used by the <a href="https://docs.micros
 
 ### -field ValueName
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the name of the value entry.
+Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the name of the value entry.
 
 
 ### -field DataLength

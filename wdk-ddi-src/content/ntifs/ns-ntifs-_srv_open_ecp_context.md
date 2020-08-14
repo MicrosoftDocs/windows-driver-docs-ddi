@@ -51,7 +51,7 @@ The SRV_OPEN_ECP_CONTEXT structure is used by a server to conditionally open fil
 
 ### -field ShareName
 
-Pointer to a [UNICODE_STRING](https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string) structure that supplies the share name for the server that contains the files to be open. This field is optional and can be NULL.
+Pointer to a [UNICODE_STRING](https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure that supplies the share name for the server that contains the files to be open. This field is optional and can be NULL.
 
 ### -field SocketAddress
 
@@ -91,4 +91,4 @@ The oplock state values (**OplockBlockState**, **OplockAppState**, and **OplockF
 
 [SRV_INSTANCE_TYPE](ne-ntifs-srv_instance_type.md)
 
-[UNICODE_STRING](https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string)
+[UNICODE_STRING](https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string)

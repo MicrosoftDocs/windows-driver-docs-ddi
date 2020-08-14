@@ -91,7 +91,7 @@ Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-n
 
 </td>
 <td>
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure containing a unique name (for example, L"\\MyFilterPort") for the port object. 
+Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure containing a unique name (for example, L"\\MyFilterPort") for the port object. 
 
 </td>
 </tr>

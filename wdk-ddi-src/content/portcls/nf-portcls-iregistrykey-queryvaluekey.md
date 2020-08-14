@@ -57,7 +57,7 @@ The <code>QueryValueKey</code> method retrieves information about a registry key
 
 ### -param ValueName 
 [in]
-Pointer to the manufacturer-supplied name of the value entry. The name string is specified by a structure of type <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>.
+Pointer to the manufacturer-supplied name of the value entry. The name string is specified by a structure of type <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>.
 
 
 ### -param KeyValueInformationClass 
@@ -163,7 +163,7 @@ If the <i>KeyValueInformation</i> buffer is too small to hold the requested info
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 
 
 

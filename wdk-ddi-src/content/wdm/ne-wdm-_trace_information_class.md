@@ -92,7 +92,7 @@ Retrieves an array of event trace handles (TRACEHANDLE array) for all valid logg
 
 ### -field TraceHandleByNameClass
 
-Retrieves an event trace handle (TRACEHANDLE) identified by a caller-supplied friendly name (<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure in buffer).
+Retrieves an event trace handle (TRACEHANDLE) identified by a caller-supplied friendly name (<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure in buffer).
 
 
 ### -field LoggerEventsLostClass

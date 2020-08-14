@@ -62,7 +62,7 @@ A pointer to the registry key object for the key whose value entry is about to b
 
 ### -field ValueName
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the name of the value entry about to be changed. 
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the name of the value entry about to be changed. 
 
 
 ### -field TitleIndex

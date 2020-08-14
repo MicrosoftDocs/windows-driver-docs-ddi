@@ -62,7 +62,7 @@ The
 A pointer to a caller-supplied NDIS_STRING type that receives a counted Unicode string. This
      string specifies the friendly name of the interface for the given miniport adapter. For Windows Vista
      and later versions of the Windows operating system, NDIS defines the NDIS_STRING type as a 
-     <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> type.
+     <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> type.
 
 ### -param MiniportHandle
 
@@ -118,7 +118,7 @@ Friendly names are intended to help the user quickly and accurately identify a p
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

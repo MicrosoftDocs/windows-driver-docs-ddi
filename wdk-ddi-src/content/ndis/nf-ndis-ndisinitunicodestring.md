@@ -62,7 +62,7 @@ The
 A pointer to a caller-allocated NDIS_STRING type in which 
      <b>NdisInitUnicodeString</b> should store the counted Unicode string. For Windows 2000 and later, NDIS
      defines the NDIS_STRING type as a 
-     <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> type.
+     <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> type.
 
 
 ### -param s
@@ -126,7 +126,7 @@ Callers of
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  
