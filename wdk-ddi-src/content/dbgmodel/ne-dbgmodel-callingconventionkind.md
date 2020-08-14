@@ -38,31 +38,30 @@ ms.custom: RS5
 
 Defines the kind of calling convention of a function type.
 
-
 ## -enum-fields
 
-### -field CallingConventionUnknown 
+### -field CallingConventionUnknown
 
 The calling convention is not known
 
-### -field CallingConventionCDecl 
+### -field CallingConventionCDecl
 
 The calling convention is __cdecl
 
+### -field CallingConventionFastCall
 
-### -field CallingConventionFastCall 
 The calling convention is fastcall
-    
 
-### -field CallingConventionStdCall 
+### -field CallingConventionStdCall
+
 The calling convention is stdcall
-    
 
-### -field CallingConventionSysCall 
+### -field CallingConventionSysCall
+
 The calling convention is syscall
-    
 
-### -field CallingConventionThisCall 
+### -field CallingConventionThisCall
+
 The calling convention is thiscall
 
 ## -remarks
