@@ -5,7 +5,6 @@ description: This DDI construct is intended for OEM use only.
 ms.assetid: fbce7afe-0432-4483-99f9-d6485627cb8d
 ms.date: 08/13/2020
 keywords: ["ColorAdapterGetSystemModifyWhitePointCaps function"]
-ms.topic: function
 ms.keywords: ColorAdapterGetSystemModifyWhitePointCaps
 req.header: icm.h
 req.include-header:

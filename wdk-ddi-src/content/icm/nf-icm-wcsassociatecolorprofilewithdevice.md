@@ -5,10 +5,9 @@ description: The WcsAssociateColorProfileWithDevice function associates a specif
 old-location: print\wcsassociatecolorprofilewithdevice.htm
 tech.root: print
 ms.assetid: b1863604-e8a2-4dc7-9f2f-e0eea9baab1a
-ms.date: 08/20/2018
+ms.date: 08/14/2020
 keywords: ["WcsAssociateColorProfileWithDevice function"]
 ms.keywords: WcsAssociateColorProfileWithDevice, WcsAssociateColorProfileWithDevice function [Print Devices], colorfnc_2d78f2bd-52f8-48c9-a018-30b4fed5746b.xml, icm/WcsAssociateColorProfileWithDevice, print.wcsassociatecolorprofilewithdevice
-ms.topic: function
 req.header: icm.h
 req.include-header:
 req.target-type: Universal
@@ -41,27 +40,19 @@ req.typenames:
 
 # WcsAssociateColorProfileWithDevice function
 
-
 ## -description
 
-
-The <code>WcsAssociateColorProfileWithDevice</code> function associates a specified WCS color profile with a specified device.
-
+The **WcsAssociateColorProfileWithDevice** function associates a specified WCS color profile with a specified device.
 
 ## -parameters
 
+### -param scope [in]
 
-
-
-### -param scope
-
-
-
+A [WCS_PROFILE_MANAGEMENT_SCOPE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/icm/ne-icm-wcs_profile_management_scope) value that specifies the scope of this profile management operation.
 
 ### -param pProfileName [in]
 
 A pointer to the file name of the profile to associate.
-
 
 ### -param pDeviceName [in]
 
@@ -69,20 +60,13 @@ A pointer to the name of the device with which the profile is to be associated.
 
 The device name for a monitor can be obtained from [DISPLAY_DEVICE.DeviceID](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-display_devicea).
 
-
-#### - profileManagementScope [in]
-
-A [WCS_PROFILE_MANAGEMENT_SCOPE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/icm/ne-icm-wcs_profile_management_scope) value that specifies the scope of this profile management operation.
-
-
 ## -remarks
 
-The <code>WCSAssociateColorProfileWithDevice</code> function will fail if the profile has not been installed on the computer using the <b>InstallColorProfile</b> function (described in the Windows SDK documentation).
+The WCSAssociateColorProfileWithDevice function will fail if the profile has not been installed on the computer using the **InstallColorProfile** function (described in the Windows SDK documentation).
 
-If the <i>profileManagementScope</i> parameter is WCS_PROFILE_MANAGEMENT_SCOPE_SYSTEM_WIDE, the profile association is system-wide and applies to all users. If <i>profileManagementScope</i> is WCS_PROFILE_MANAGEMENT_SCOPE_CURRENT_USER, the association is only for the current user.
+If the *profileManagementScope* parameter is WCS_PROFILE_MANAGEMENT_SCOPE_SYSTEM_WIDE, the profile association is system-wide and applies to all users. If *profileManagementScope* is WCS_PROFILE_MANAGEMENT_SCOPE_CURRENT_USER, the association is only for the current user.
 
-This function is executable in Least-Privileged User Account (LUA) context if <i>profileManagementScope</i> is WCS_PROFILE_MANAGEMENT_SCOPE_CURRENT_USER. Otherwise, administrative privileges are required..
-
+This function is executable in Least-Privileged User Account (LUA) context if *profileManagementScope* is WCS_PROFILE_MANAGEMENT_SCOPE_CURRENT_USER. Otherwise, administrative privileges are required..
 
 ## -see-also
 
