@@ -4,13 +4,11 @@ title: INTERLEAVED_AUDIO_FORMAT_INFORMATION
 description: The INTERLEAVED_AUDIO_FORMAT_INFORMATION structure specifies how loopback audio is interleaved with the microphone audio for KSPROPERTY_INTERLEAVEDAUDIO_FORMATINFORMATION.
 tech.root: audio
 ms.assetid: a4a61253-cf10-4dc2-990d-c975520023b0
-ms.date: 06/10/2020
+ms.date: 08/14/2020
 keywords: ["INTERLEAVED_AUDIO_FORMAT_INFORMATION structure"]
 f1_keywords:
  - "ksmedia/INTERLEAVED_AUDIO_FORMAT_INFORMATION"
  - "INTERLEAVED_AUDIO_FORMAT_INFORMATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.keywords: INTERLEAVED_AUDIO_FORMAT_INFORMATION, INTERLEAVED_AUDIO_FORMAT_INFORMATION, 
 req.header: ksmedia.h
 req.include-header:
@@ -33,8 +31,6 @@ api_location:
  - ksmedia.h
 api_name: 
  - INTERLEAVED_AUDIO_FORMAT_INFORMATION
-product: 
- - Windows
 targetos: Windows
 ---
 
