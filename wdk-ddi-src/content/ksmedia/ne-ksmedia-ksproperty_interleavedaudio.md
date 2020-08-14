@@ -4,14 +4,12 @@ title: KSPROPERTY_INTERLEAVEDAUDIO
 description: The KSPROPERTY_INTERLEAVEDAUDIO enumeration defines a constant which can be used by the Hardware Keyword Spotter pin to include loopback audio interleaved with the microphone audio.
 tech.root: audio
 ms.assetid: 02e92c82-7254-4003-88a2-642626dbcfb2
-ms.date: 07/11/2019
+ms.date: 08/14/2020
 keywords: ["KSPROPERTY_INTERLEAVEDAUDIO enumeration"]
 f1_keywords:
  - "ksmedia/KSPROPERTY_INTERLEAVEDAUDIO"
  - "KSPROPERTY_INTERLEAVEDAUDIO"
-ms.keywords: KSPROPERTY_INTERLEAVEDAUDIO, KSPROPERTY_INTERLEAVEDAUDIO, 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.keywords: KSPROPERTY_INTERLEAVEDAUDIO, KSPROPERTY_INTERLEAVEDAUDIO,
 req.header: ksmedia.h
 req.include-header:
 req.target-type:
@@ -30,8 +28,6 @@ api_location:
  - ksmedia.h
 api_name: 
  - KSPROPERTY_INTERLEAVEDAUDIO
-product: 
- - Windows
 targetos: Windows
 ---
 
@@ -43,9 +39,9 @@ The **KSPROPERTY_INTERLEAVEDAUDIO** enumeration defines a constant which can be 
 
 ## -enum-fields
 
-### -field KSPROPERTY_INTERLEAVEDAUDIO_FORMATINFORMATION 
+### -field KSPROPERTY_INTERLEAVEDAUDIO_FORMATINFORMATION
 
-Specifies the ID of the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-interleavedaudio-formatinformation">KSPROPERTY_INTERLEAVEDAUDIO_FORMATINFORMATION</a> property.
+Specifies the ID of the [KSPROPERTY_INTERLEAVEDAUDIO_FORMATINFORMATION](https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-interleavedaudio-formatinformation) property.
 
 ## -remarks
 
