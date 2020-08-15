@@ -55,13 +55,13 @@ The <b>FltGetVolumeFromInstance</b> routine returns an opaque pointer for the vo
 
 
 
-### -param Instance [in]
-
+### -param Instance 
+[in]
 Opaque instance pointer for the instance. 
 
 
-### -param RetVolume [out]
-
+### -param RetVolume 
+[out]
 Pointer to a caller-allocated variable that receives an opaque pointer for the volume. This parameter is required and cannot be <b>NULL</b>. 
 
 

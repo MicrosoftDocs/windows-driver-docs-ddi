@@ -57,13 +57,13 @@ The <b>RetrieveVersionString</b> method retrieves the version of the framework.
 
 
 
-### -param pVersion [out]
-
+### -param pVersion 
+[out]
 A pointer to a buffer that receives a <b>NULL</b>-terminated string that represents the version of the framework if the supplied buffer is non-<b>NULL</b> and <b>RetrieveVersionString</b> is successful. 
 
 
-### -param pdwVersionLength [in, out]
-
+### -param pdwVersionLength 
+[in, out]
 A pointer to a variable that receives the size, in characters, of the version string that <i>pVersion</i> points to. On input, this variable contains the size, in bytes, of the buffer at <i>pVersion</i>.
 
 If the buffer at <i>pVersion</i> is <b>NULL</b>, the value that the driver supplies is zero. The framework then returns the size, in characters, that is required for the version string.

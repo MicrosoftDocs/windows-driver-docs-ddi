@@ -55,31 +55,31 @@ The <b>ParseDetectionResultData</b> method is called by the operating system aft
 
 
 
-### -param UserModelData [in]
-
+### -param UserModelData 
+[in]
 A pointer to <b>IStream</b> bound to model data for the arming pattern.
 
 
 
 
-### -param Result [in]
-
+### -param Result 
+[in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-sounddetector_patternheader">SOUNDDETECTOR_PATTERNHEADER</a> from the DDI.
 
 
 
-### -param KeywordId [out]
-
+### -param KeywordId 
+[out]
 Identifies a keyword function. The driver may return 0 to indicate no match.
 
 
-### -param LangId [out]
-
+### -param LangId 
+[out]
 Identifies a language.
 
 
-### -param pIsUserMatch [out]
-
+### -param pIsUserMatch 
+[out]
 Indicates if the user matched.
 
 

@@ -55,8 +55,8 @@ The <b>PopEntryList</b> routine removes the first entry from a singly linked lis
 
 
 
-### -param ListHead [in, out]
-
+### -param ListHead 
+[in, out]
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_single_list_entry">SINGLE_LIST_ENTRY</a> structure that represents the head of the list. On return, <i>ListHead</i>-><b>Next</b> points to the beginning of the list with the first entry removed. 
 
 

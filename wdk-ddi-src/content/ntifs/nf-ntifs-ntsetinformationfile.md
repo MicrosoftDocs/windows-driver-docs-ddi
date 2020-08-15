@@ -56,29 +56,29 @@ The <b>NtSetInformationFile</b> routine changes various kinds of information abo
 
 
 
-### -param FileHandle [in]
-
+### -param FileHandle 
+[in]
 Handle to the file object. This handle is created by a successful call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">NtCreateFile</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntopenfile">NtOpenFile</a>.
 
 
-### -param IoStatusBlock [out]
-
+### -param IoStatusBlock 
+[out]
 Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested operation. The <b>Information</b> member receives the number of bytes set on the file.
 
 
-### -param FileInformation [in]
-
+### -param FileInformation 
+[in]
 Pointer to a buffer that contains the information to set for the file. The particular structure in this buffer is determined by the <i>FileInformationClass</i> parameter. For example, if the <i>FileInformationClass</i> parameter is set to the **FileDispositionInformationEx** constant, this parameter should be a pointer to a [**FILE_DISPOSITION_INFORMATION_EX**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_file_disposition_information_ex) structure.
 
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 The size, in bytes, of the <i>FileInformation</i> buffer.
 
 
-### -param FileInformationClass [in]
-
+### -param FileInformationClass 
+[in]
 The type of information, supplied in the buffer pointed to by <i>FileInformation</i>, to set for the file. Device and intermediate drivers can specify any of the following <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_file_information_class">FILE_INFORMATION_CLASS</a> values.
 
 <table>

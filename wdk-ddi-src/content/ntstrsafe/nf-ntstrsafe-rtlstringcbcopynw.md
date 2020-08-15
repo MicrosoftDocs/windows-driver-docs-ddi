@@ -58,13 +58,13 @@ The <b>RtlStringCbCopyNW</b> and <b>RtlStringCbCopyNA</b> functions copy a byte-
 
 
 
-### -param pszDest [out]
-
+### -param pszDest 
+[out]
 A pointer to a caller-supplied buffer that receives the copied string. The string at <i>pszSrc</i>, up to <i>cbSrc</i> bytes, is copied to the buffer at <i>pszDest</i> and terminated with a null character. 
 
 
-### -param cbDest [in]
-
+### -param cbDest 
+[in]
 The size, in bytes, of the destination buffer. The buffer must be large enough for both the string and the terminating null character.
 
 For Unicode strings, the maximum number of bytes is NTSTRSAFE_MAX_CCH * <b>sizeof</b>(WCHAR). 
@@ -72,8 +72,8 @@ For Unicode strings, the maximum number of bytes is NTSTRSAFE_MAX_CCH * <b>sizeo
 For ANSI strings, the maximum number of bytes is NTSTRSAFE_MAX_CCH * <b>sizeof</b>(<b>char</b>). 
 
 
-### -param pszSrc [in]
-
+### -param pszSrc 
+[in]
 A pointer to a caller-supplied, null-terminated string. 
 
 

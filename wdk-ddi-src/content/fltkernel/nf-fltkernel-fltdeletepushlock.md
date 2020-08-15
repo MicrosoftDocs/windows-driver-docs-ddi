@@ -56,8 +56,8 @@ The <b>FltDeletePushLock</b> routine deletes a given push lock.
 
 
 
-### -param PushLock [in]
-
+### -param PushLock 
+[in]
 Opaque push lock pointer. This pointer must have been initialized by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinitializepushlock">FltInitializePushLock</a>. 
 
 

@@ -56,28 +56,28 @@ The <b>PcAddAdapterDevice</b> function adds an adapter device to the WDM device 
 
 
 
-### -param DriverObject [in]
-
+### -param DriverObject 
+[in]
 Pointer to the driver object. This pointer is passed as a parameter to the adapter's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_add_device">AddDevice</a> handler. The driver object is a system structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a>.
 
 
-### -param PhysicalDeviceObject [in]
-
+### -param PhysicalDeviceObject 
+[in]
 Pointer to the device's <a href="https://docs.microsoft.com/windows-hardware/drivers/">physical device object (PDO)</a>. PortCls passes this pointer as a call parameter to the adapter's <i>AddDevice</i> handler. The PDO is a system structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>.
 
 
-### -param StartDevice [in]
-
+### -param StartDevice 
+[in]
 Pointer to the function that the operating system calls in order to start the device. For more information, see the following <b>Remarks</b> section.
 
 
-### -param MaxObjects [in]
-
+### -param MaxObjects 
+[in]
 Specifies the maximum number of subdevices to be registered by calls to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-pcregistersubdevice">PcRegisterSubdevice</a>. This count sets the upper limit to the total number of miniport objects that the adapter driver can instantiate.
 
 
-### -param DeviceExtensionSize [in]
-
+### -param DeviceExtensionSize 
+[in]
 Specifies the device extension size. Use zero for default size. See the following <b>Remarks</b> section for user-supplied extension sizes.
 
 

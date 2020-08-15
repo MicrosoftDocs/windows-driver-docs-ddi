@@ -56,8 +56,8 @@ The<b> KsGetObjectTypeFromIrp</b> function returns the AVStream object type that
 
 
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> structure for which to find the associated AVStream object type.
 
 

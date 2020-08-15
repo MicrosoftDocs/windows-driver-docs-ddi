@@ -56,18 +56,18 @@ The PHW_INITIALIZE routine prototype declares a routine that initializes the min
 
 
 
-### -param DeviceExtension [in]
-
+### -param DeviceExtension 
+[in]
 Pointer to the miniport driver's per-HBA storage area.
 
 
-### -param ControlType [in]
-
+### -param ControlType 
+[in]
 Specifies an adapter-control operation. For a list of the allowed operations, see <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff557274(v=vs.85)">HwScsiAdapterControl</a>.
 
 
-### -param Parameters [in]
-
+### -param Parameters 
+[in]
 Contains information related to the <i>ControlType</i>. For an explanation of the meaning of these values, see the discussion accompanying the <i>Parameters</i> parameter of the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff557274(v=vs.85)">HwScsiAdapterControl</a>.
 
 

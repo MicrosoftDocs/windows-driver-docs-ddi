@@ -55,23 +55,23 @@ The <b>IoBuildPartialMdl</b> routine builds a new memory descriptor list (MDL) t
 
 
 
-### -param SourceMdl [in]
-
+### -param SourceMdl 
+[in]
 A pointer to an MDL that describes the original buffer, of which a subrange is to be mapped. 
 
 
-### -param TargetMdl [in, out]
-
+### -param TargetMdl 
+[in, out]
 A pointer to a caller-allocated MDL. This MDL must be large enough to describe the pages in the subrange that are specified by <i>VirtualAddress</i> and <i>Length</i>. 
 
 
-### -param VirtualAddress [in]
-
+### -param VirtualAddress 
+[in]
 A pointer to the base virtual address for the subrange to be described by the <i>TargetMdl</i>.
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 Specifies the length, in bytes, to be mapped by the <i>TargetMdl</i>. This value, in combination with <i>VirtualAddress</i>, must specify a buffer that is a proper subrange of the buffer that is described by <i>SourceMdl</i>. If <i>Length</i> is zero, the subrange to be mapped starts at <i>VirtualAddress</i> and includes the remaining range described by the <i>SourceMdl</i>. 
 
 

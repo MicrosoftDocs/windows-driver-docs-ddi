@@ -56,9 +56,9 @@ req.typenames:
 
 
 
-### -param DeviceInit [in]
+### -param DeviceInit 
+[in]
 
-
-### -param CompanionEventCallbacks [in]
-
+### -param CompanionEventCallbacks 
+[in]
 

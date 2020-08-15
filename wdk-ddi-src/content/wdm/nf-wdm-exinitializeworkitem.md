@@ -55,13 +55,13 @@ req.typenames:
 
 
 
-### -param Item [in]
-
+### -param Item 
+[in]
 Pointer to a caller-allocated WORK_QUEUE_ITEM structure to be initialized. This structure must be allocated from nonpaged pool. The callback routine specified in the <i>Routine</i> parameter is responsible for freeing this work item when it is no longer needed by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-exfreepool">ExFreePool</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exfreepoolwithtag">ExFreePoolWithTag</a>. 
 
 
-### -param Routine [in]
-
+### -param Routine 
+[in]
 Pointer to a caller-defined routine that will be called to process the work item. This routine will be called in the context of a system thread at IRQL PASSIVE_LEVEL. This routine is declared as follows: 
 
 <div class="code"><span codelanguage=""><table>
@@ -86,8 +86,8 @@ Pointer to a caller-defined routine that will be called to process the work item
 Context information pointer that was passed in the <i>Context</i> parameter. 
 
 
-### -param Context [in]
-
+### -param Context 
+[in]
 Pointer to caller-supplied context information to be passed to the callback routine specified in the <i>Routine</i> parameter. 
 
 

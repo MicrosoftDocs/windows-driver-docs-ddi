@@ -55,28 +55,28 @@ The <b>GetSymbolEntryStringWide</b>  method returns string information for the s
 
 
 
-### -param Id [in]
-
+### -param Id 
+[in]
 Specifies the symbols whose memory regions are being requested.  The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_module_and_id">DEBUG_MODULE_AND_ID</a> structure contains the module containing the symbol and the symbol ID of the symbol within the module.
 
 
-### -param Which [in]
-
+### -param Which 
+[in]
 Specifies the index of the desired string.  Often this is zero, as most symbols contain just one string (their name).  But some symbols may contain more than one string -- for example, annotation symbols.
 
 
-### -param Buffer [out, optional]
-
+### -param Buffer 
+[out, optional]
 Receives the name of the symbol.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param BufferSize [in]
-
+### -param BufferSize 
+[in]
 Specifies the size in characters of the buffer <i>Buffer</i>.
 
 
-### -param StringSize [out, optional]
-
+### -param StringSize 
+[out, optional]
 Receives the size in characters of the symbol's name.  If <i>StringSize</i> is <b>NULL</b>, this information is not returned.
 
 

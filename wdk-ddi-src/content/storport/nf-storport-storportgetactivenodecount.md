@@ -55,13 +55,13 @@ The <b>StorPortGetActiveNodeCount</b> routine returns the number of nodes that a
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param NumberNodes [out]
-
+### -param NumberNodes 
+[out]
 A pointer to a variable that holds the number of nodes.
 
 

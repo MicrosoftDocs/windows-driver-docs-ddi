@@ -57,8 +57,8 @@ The <b>GetSymbolOptions</b> method returns the engine's global symbol options.
 
 
 
-### -param Options [out]
-
+### -param Options 
+[out]
 Receives the symbol options bit-set.  For a description of the bit flags, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/symbol-options">Setting Symbol Options</a>.
 
 

@@ -55,18 +55,18 @@ The <b>SerCxProgressTransmit</b> method reports the progress of the current writ
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A WDFDEVICE handle to the framework device object that represents the serial controller.
 
 
-### -param BytesTransmitted [in]
-
+### -param BytesTransmitted 
+[in]
 The number of bytes of data that the caller copied from the transmit buffer that was obtained by the latest call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxretrievetransmitbuffer">SerCxRetrieveTransmitBuffer</a> method.
 
 
-### -param TransmitStatus [in]
-
+### -param TransmitStatus 
+[in]
 The current status of the transmit operation. Set this parameter to one of the following values:
 
 <ul>

@@ -58,8 +58,8 @@ The
 
 
 
-### -param Mdl [in]
-
+### -param Mdl 
+[in]
 A pointer to the MDL that NDIS should free.
 
 

@@ -69,8 +69,8 @@ DWORD WINAPI * Dot11ExtRequestVirtualStation(
 
 
 
-### -param hDot11PrimaryHandle [in, optional]
-
+### -param hDot11PrimaryHandle 
+[in, optional]
 A handle used by the operating system to reference the primary physical wireless LAN (WLAN)
      adapter. This handle value was received as the
      <i>hDot11SvcHandle</i> parameter through a previous call to the

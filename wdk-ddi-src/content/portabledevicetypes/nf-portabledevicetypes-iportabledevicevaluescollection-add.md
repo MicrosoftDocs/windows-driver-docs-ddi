@@ -59,8 +59,8 @@ Adds an item to the collection.
 
 
 
-### -param pValues [in]
-
+### -param pValues 
+[in]
 Pointer to an <b>IPortableDeviceValues</b> interface to add to the collection. The interface is not actually copied, but <b>AddRef</b> is called on it.
 
 

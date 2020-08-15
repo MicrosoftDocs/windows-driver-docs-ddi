@@ -55,18 +55,18 @@ The <b>GetOffsetExpressionWide</b> method returns the expression string that eva
 
 
 
-### -param Buffer [out, optional]
-
+### -param Buffer 
+[out, optional]
 The expression string that evaluates to the location on the target that triggers the breakpoint.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param BufferSize [in]
-
+### -param BufferSize 
+[in]
 The size, in characters, of the buffer that <i>Buffer </i>points to.
 
 
-### -param ExpressionSize [out, optional]
-
+### -param ExpressionSize 
+[out, optional]
 The size, in characters, of the expression string.  If <i>ExpressionSize</i> is <b>NULL</b>, this information is not returned.
 
 

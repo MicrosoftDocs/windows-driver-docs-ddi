@@ -55,13 +55,13 @@ The <b>PsSetCreateThreadNotifyRoutineEx</b> routine registers a driver-supplied 
 
 
 
-### -param NotifyType [in]
-
+### -param NotifyType 
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ne-ntddk-_pscreatethreadnotifytype">PSCREATETHREADNOTIFYTYPE</a> value that   indicates the type of thread notification. 
 
 
-### -param NotifyInformation [in]
-
+### -param NotifyInformation 
+[in]
 Provides the address of the notification information
         for the specified type of thread notification. 
 

@@ -59,13 +59,13 @@ req.typenames:
 
 
 
-### -param RemoveLockOptions [out]
-
+### -param RemoveLockOptions 
+[out]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_remove_lock_options">WDF_REMOVE_LOCK_OPTIONS</a> structure.
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_remove_lock_options_flags">WDF_REMOVE_LOCK_OPTIONS_FLAGS</a>-typed flags.
 

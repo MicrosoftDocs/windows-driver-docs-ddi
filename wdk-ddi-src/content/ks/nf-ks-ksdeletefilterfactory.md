@@ -49,8 +49,8 @@ req.typenames:
 
 ## -parameters
 
-### -param FilterFactory [in]
-
+### -param FilterFactory 
+[in]
 A pointer to a [KSFILTERFACTORY](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilterfactory) structure that represents the filter factory to be deleted.
 
 ## -returns

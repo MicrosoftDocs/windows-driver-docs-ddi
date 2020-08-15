@@ -55,8 +55,8 @@ The <b>IStillImage::Initialize</b> method initializes an instance of the COM obj
 
 
 
-### -param hinst [in]
-
+### -param hinst 
+[in]
 Caller-supplied instance handle of the calling process. This handle is obtained by calling <b>GetModuleName</b>(NULL).
 
 

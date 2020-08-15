@@ -55,8 +55,8 @@ The <b>KeQueryGroupAffinity</b> routine returns an affinity mask that identifies
 
 
 
-### -param GroupNumber [in]
-
+### -param GroupNumber 
+[in]
 The group number. If a multiprocessor system contains <i>n</i> groups, the groups are numbered from 0 to <i>n</i>-1. To obtain the number of active groups in the system, call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kequeryactivegroupcount">KeQueryActiveGroupCount</a> routine. 
 
 

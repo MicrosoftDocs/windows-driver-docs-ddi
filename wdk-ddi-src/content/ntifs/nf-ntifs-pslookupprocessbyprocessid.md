@@ -55,13 +55,13 @@ The <b>PsLookupProcessByProcessId</b> routine accepts the process ID of a proces
 
 
 
-### -param ProcessId [in]
-
+### -param ProcessId 
+[in]
 Specifies the process ID of the process.
 
 
-### -param Process [out]
-
+### -param Process 
+[out]
 Returns a referenced pointer to the EPROCESS structure of process specified by <i>ProcessId</i>.
 
 

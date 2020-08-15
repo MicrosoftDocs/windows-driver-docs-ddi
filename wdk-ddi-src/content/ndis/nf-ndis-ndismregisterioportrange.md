@@ -59,27 +59,27 @@ req.typenames:
 
 
 
-### -param PortOffset [out]
-
+### -param PortOffset 
+[out]
 Specifies a caller-supplied variable in which this function returns the mapped base virtual
      address for the given bus-relative I/O port range specified by 
      <i>InitialPort</i> and 
      <i>NumberOfPorts</i> .
 
 
-### -param MiniportAdapterHandle [in]
-
+### -param MiniportAdapterHandle 
+[in]
 Specifies the handle input to 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
 
 
-### -param InitialPort [in]
-
+### -param InitialPort 
+[in]
 Specifies the bus-relative base port address for a range of ports to be mapped.
 
 
-### -param NumberOfPorts [in]
-
+### -param NumberOfPorts 
+[in]
 Specifies the number of ports in the range to be mapped.
 
 

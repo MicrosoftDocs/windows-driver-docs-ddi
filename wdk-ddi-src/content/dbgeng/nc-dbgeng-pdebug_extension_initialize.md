@@ -64,13 +64,13 @@ The <b>DebugExtensionInitialize</b> callback function is called by the engine af
 
 
 
-### -param Version [out]
-
+### -param Version 
+[out]
 Receives the version of the extension.  The high 16 bits contain the major version number, and the low 16 bits contain the minor version number.
 
 
-### -param Flags [out]
-
+### -param Flags 
+[out]
 Set this to zero. (Reserved for future use.)
 
 

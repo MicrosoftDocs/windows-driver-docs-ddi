@@ -57,8 +57,8 @@ The <b>Remove</b> method removes a <a href="https://docs.microsoft.com/windows-h
 
 
 
-### -param bIsSurpriseRemove [in]
-
+### -param bIsSurpriseRemove 
+[in]
 A BOOL value which, if <b>TRUE</b>, specifies that the device was unexpectly removed ("surprise removal").   However, the framework ignores this parameter.
 
 

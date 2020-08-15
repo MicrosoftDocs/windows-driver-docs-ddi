@@ -57,29 +57,29 @@ req.typenames:
 
 
 
-### -param MiniportAdapterHandle [in]
-
+### -param MiniportAdapterHandle 
+[in]
 Specifies the NDIS-supplied handle originally input to 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
 
 
-### -param NdisAfHandle [in]
-
+### -param NdisAfHandle 
+[in]
 Specifies the handle that identifies the client that is the target of an incoming call. The MCM
      driver obtained this handle as an input parameter to its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_open_af">ProtocolCmOpenAf</a> function.
 
 
-### -param MiniportVcContext [in]
-
+### -param MiniportVcContext 
+[in]
 Specifies the handle to a caller-supplied resident context area in which the MCM driver maintains
      state for this VC. NDIS passes this handle back to the MCM driver in all subsequent calls concerning
      this VC if the call to 
      <b>NdisMCmCreateVc</b> succeeds.
 
 
-### -param NdisVcHandle [out]
-
+### -param NdisVcHandle 
+[out]
 Pointer to a caller-supplied variable that must be initialized to <b>NULL</b> before 
      <b>NdisMCmCreateVc</b> is called. On return from a successful call, this variable has been set to an
      NDIS-supplied handle for the newly created VC. The caller must save this handle for subsequent calls to

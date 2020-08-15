@@ -55,13 +55,13 @@ The <b>KeReleaseMutex</b> routine releases a mutex object, and specifies whether
 
 
 
-### -param Mutex [in, out]
-
+### -param Mutex 
+[in, out]
 A pointer to an initialized mutex object for which the caller provides the storage.
 
 
-### -param Wait [in]
-
+### -param Wait 
+[in]
 Specifies whether the call to <b>KeReleaseMutex</b> is to be immediately followed by a call to one of the <b>KeWait<i>Xxx</i></b> routines. If <b>TRUE</b>, the <b>KeReleaseMutex</b> call must be followed by a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitformultipleobjects">KeWaitForMultipleObjects</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>, or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject">KeWaitForSingleObject</a>. For more information, see the following Remarks section. 
 
 

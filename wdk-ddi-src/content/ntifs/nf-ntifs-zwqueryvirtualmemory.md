@@ -58,41 +58,41 @@ The <b>ZwQueryVirtualMemory</b> routine determines the state,
 
 
 
-### -param ProcessHandle [in]
-
+### -param ProcessHandle 
+[in]
 A handle for the process in whose context the pages to be queried reside. Use the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">ZwCurrentProcess</a> macro to specify the current process.
 
 
 
 
-### -param BaseAddress [in, optional]
-
+### -param BaseAddress 
+[in, optional]
 The base address of the region of pages to be
                   queried. This value is rounded down to the next host-page-
                   address boundary.
 
 
-### -param MemoryInformationClass [in]
-
+### -param MemoryInformationClass 
+[in]
 The memory information class about which
                              to retrieve information. Currently, the only supported <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ne-ntifs-_memory_information_class">MEMORY_INFORMATION_CLASS</a> value is <b>MemoryBasicInformation</b>.
 
 
-### -param MemoryInformation [out]
-
+### -param MemoryInformation 
+[out]
 A pointer to a buffer that receives the specified
                         information.  The format and content of the buffer
                         depend on the specified information class specified in the <i>MemoryInformationClass</i> parameter. When the value <b>MemoryBasicInformation</b> is passed to <i>MemoryInformationClass</i>, the <i>MemoryInformationClass</i> parameter value is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_memory_basic_information">MEMORY_BASIC_INFORMATION</a>. 
 
 
-### -param MemoryInformationLength [in]
-
+### -param MemoryInformationLength 
+[in]
 Specifies the length in bytes of
                               the memory information buffer.
 
 
-### -param ReturnLength [out, optional]
-
+### -param ReturnLength 
+[out, optional]
 An optional pointer which, if specified, receives the
                    number of bytes placed in the memory information buffer.
 

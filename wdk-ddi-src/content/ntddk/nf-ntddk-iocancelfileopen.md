@@ -55,13 +55,13 @@ The <b>IoCancelFileOpen</b> routine can be used by a file system filter driver t
 
 
 
-### -param DeviceObject [in]
-
+### -param DeviceObject 
+[in]
 Pointer to the top of the device stack immediately below the filter driver's device object.
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 Pointer to the file object for the file to be closed.
 
 

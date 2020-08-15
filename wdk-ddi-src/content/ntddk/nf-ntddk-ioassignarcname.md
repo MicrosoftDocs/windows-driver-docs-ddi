@@ -55,13 +55,13 @@ The <b>IoAssignArcName</b> routine creates a symbolic link between the ARC name 
 
 
 
-### -param ArcName [in]
-
+### -param ArcName 
+[in]
 Pointer to a buffer containing the ARC name of the device. The ARC name must be a Unicode string.
 
 
-### -param DeviceName [in]
-
+### -param DeviceName 
+[in]
 Pointer to a buffer containing the name of the device object, representing the same device. The device object name must be a Unicode string. 
 
 

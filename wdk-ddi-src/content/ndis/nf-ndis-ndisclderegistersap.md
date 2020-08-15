@@ -56,8 +56,8 @@ req.typenames:
 
 
 
-### -param NdisSapHandle [in]
-
+### -param NdisSapHandle 
+[in]
 Specifies the handle returned by 
      <b>NdisClRegisterSap</b>.
 

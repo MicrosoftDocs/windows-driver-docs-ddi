@@ -55,8 +55,8 @@ The <b>RtlDelete</b> routine deletes the specified node from the splay link tree
 
 
 
-### -param Links [in]
-
+### -param Links 
+[in]
 Pointer to the node to be deleted. The node must have been initialized by calling <b>RtlInitializeSplayLinks</b>.
 
 

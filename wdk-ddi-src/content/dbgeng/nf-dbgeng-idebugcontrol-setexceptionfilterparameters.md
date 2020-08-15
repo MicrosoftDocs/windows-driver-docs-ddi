@@ -57,13 +57,13 @@ The <b>SetExceptionFilterParameters</b> method changes the <a href="https://docs
 
 
 
-### -param Count [in]
-
+### -param Count 
+[in]
 Specifies the number of exception filters to change the parameters for.
 
 
-### -param Params [in]
-
+### -param Params 
+[in]
 Specifies an array of exception filter parameters of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_exception_filter_parameters">DEBUG_EXCEPTION_FILTER_PARAMETERS</a>.  Only the <b>ExecutionOption</b>, <b>ContinueOption</b>, and <b>ExceptionCode</b> fields of these parameters are used.  The <b>ExceptionCode</b> field is used to identify the <a href="https://docs.microsoft.com/windows-hardware/drivers/">exception</a> whose exception filter will be changed.  <b>ExceptionOption</b> specifies the new break status and <b>ContinueOption</b> specifies the new handling status.
 
 If the value of the <b>ExceptionOption</b> field is DEBUG_FILTER_REMOVE and the exception filter is an arbitrary exception filter, the exception filter will be removed.

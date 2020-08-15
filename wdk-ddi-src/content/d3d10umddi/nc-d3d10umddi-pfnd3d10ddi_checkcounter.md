@@ -89,8 +89,8 @@ A pointer that the driver returns a NULL-terminated string to that contains the 
 
 A pointer to a variable that receives the number of simultaneously active counters that are allocated for the creation of the counter identifier that <i>Query</i> identifies.
 
-### -param pNameLength [in, out]
-
+### -param pNameLength 
+[in, out]
 A pointer to a variable that receives the size, in bytes, of the NULL-terminated string that the <i>pName</i> parameter specifies.  
 
 
@@ -100,8 +100,8 @@ A pointer to a variable that receives the size, in bytes, of the NULL-terminated
 
 A pointer that the driver returns a NULL-terminated string to that contains the name of the counter identifier.
 
-### -param pUnitsLength [in, out]
-
+### -param pUnitsLength 
+[in, out]
 A pointer to a variable that receives the size, in bytes, of the NULL-terminated string that the <i>pUnits</i> parameter specifies. 
 
 
@@ -111,8 +111,8 @@ A pointer to a variable that receives the size, in bytes, of the NULL-terminated
 
 A pointer that the driver returns a NULL-terminated string to that contains the name of the units that the counter identifier measures. 
 
-### -param pDescriptionLength [in, out]
-
+### -param pDescriptionLength 
+[in, out]
 A pointer to a variable that receives the size, in bytes, of the NULL-terminated string that the <i>pDescription</i> parameter specifies. 
 
 

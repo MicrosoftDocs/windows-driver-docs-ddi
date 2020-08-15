@@ -55,8 +55,8 @@ req.typenames:
 
 
 
-### -param pMRxDeviceObject [in, out]
-
+### -param pMRxDeviceObject 
+[in, out]
 A pointer to the device object of the corresponding network mini-redirector driver.
 
 

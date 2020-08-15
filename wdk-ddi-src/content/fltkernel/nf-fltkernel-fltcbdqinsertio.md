@@ -55,23 +55,23 @@ req.typenames:
 
 
 
-### -param Cbdq [in, out]
-
+### -param Cbdq 
+[in, out]
 Pointer to the caller's cancel-safe callback data queue. This queue must have been initialized by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcbdqinitialize">FltCbdqInitialize</a>. 
 
 
-### -param Cbd [in]
-
+### -param Cbd 
+[in]
 Pointer to the callback data (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>) structure for the I/O operation to be queued. The operation must be an IRP-based I/O operation. 
 
 
-### -param Context [in, optional]
-
+### -param Context 
+[in, optional]
 Caller-supplied variable that receives an opaque context pointer for the I/O request. Minifilter drivers can use this pointer to identify a specific item in the queue so that it can be removed by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcbdqremoveio">FltCbdqRemoveIo</a>. If the minifilter driver is not required to remove particular I/O requests from the queue, this parameter can be <b>NULL</b>. 
 
 
-### -param InsertContext [in, optional]
-
+### -param InsertContext 
+[in, optional]
 Context pointer to be passed to the minifilter driver's <i>CbdqInsertIo</i> callback routine. 
 
 

@@ -77,8 +77,8 @@ A handle to a meta-command.
 
 The index of the parameter.
 
-### -param D3D12DDIARG_METACOMMAND_REQUIRED_PARAMETER_INFO * [out]
-
+### -param D3D12DDIARG_METACOMMAND_REQUIRED_PARAMETER_INFO * 
+[out]
 A pointer to a D3D12DDIARG_METACOMMAND_REQUIRED_PARAMETER_INFO structure that contains the meta-command's required parameter info.
 
 ## -returns

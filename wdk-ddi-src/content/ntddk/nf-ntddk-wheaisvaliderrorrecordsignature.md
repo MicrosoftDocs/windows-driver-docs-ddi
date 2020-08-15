@@ -55,8 +55,8 @@ The <b>WheaIsValidErrorRecordSignature </b>function verifies whether a WHEA <a h
 
 
 
-### -param Record [in]
-
+### -param Record 
+[in]
 A pointer to a WHEA <a href="https://docs.microsoft.com/windows-hardware/drivers/whea/error-records">error record</a> that is formatted as a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record">WHEA_ERROR_RECORD</a> structure.
 
 

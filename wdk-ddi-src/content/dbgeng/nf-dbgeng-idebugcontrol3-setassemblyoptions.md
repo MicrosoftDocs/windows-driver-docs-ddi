@@ -55,8 +55,8 @@ The <b>SetAssemblyOptions</b> method sets the assembly and disassembly options t
 
 
 
-### -param Options [in]
-
+### -param Options 
+[in]
 Specifies the new assembly and disassembly options to be used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/introduction">debugger engine</a>.  <i>Options</i> is a bit-set; it will replace the existing assembly and disassembly options.  For possible values, see Remarks.  DEBUG_ASMOPT_DEFAULT can be used to set the default options.
 
 

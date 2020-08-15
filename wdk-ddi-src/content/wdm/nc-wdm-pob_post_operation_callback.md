@@ -55,13 +55,13 @@ The <i>ObjectPostCallback</i> routine is called by the operating system after a 
 
 
 
-### -param RegistrationContext [in]
-
+### -param RegistrationContext 
+[in]
 The context that the driver specifies as the <i>CallBackRegistration</i>-><b>RegistrationContext</b> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obregistercallbacks">ObRegisterCallbacks</a> routine. The meaning of this value is driver-defined.
 
 
-### -param OperationInformation [in]
-
+### -param OperationInformation 
+[in]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_ob_post_operation_information">OB_POST_OPERATION_INFORMATION</a> structure that specifies the parameters of the handle operation.
 
 

@@ -57,31 +57,31 @@ The <i>EvtVmbChannelSavePacket</i> callback function is invoked when the virtual
 
 
 
-### -param Channel [in]
-
+### -param Channel 
+[in]
 The channel on which the packet arrives.
 
 
-### -param Packet [in]
-
+### -param Packet 
+[in]
 The packet for which VSP saves state.
 
 
-### -param SaveBuf [out]
-
+### -param SaveBuf 
+[out]
 The buffer into which to save the state.
 
 
 
-### -param SaveBufSize [in]
-
+### -param SaveBufSize 
+[in]
 Size of the <i>SaveBuf</i> parameter, in bytes.
 
 
 
 
-### -param BytesNeeded [out]
-
+### -param BytesNeeded 
+[out]
 Size necessary to save the state of the transaction, in bytes.
 
 

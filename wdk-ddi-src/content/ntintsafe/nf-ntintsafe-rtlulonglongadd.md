@@ -55,13 +55,13 @@ Adds two values of type <b>ULONGLONG</b>.
 
 
 
-### -param ullAugend [in]
-
+### -param ullAugend 
+[in]
 The first value in the equation.
 
 
-### -param ullAddend [in]
-
+### -param ullAddend 
+[in]
 The value to add to <i>ullAugend</i>.
 
 

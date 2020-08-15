@@ -55,23 +55,23 @@ The <b>KeReleaseSemaphore</b> routine releases the specified semaphore object.
 
 
 
-### -param Semaphore [in, out]
-
+### -param Semaphore 
+[in, out]
 A pointer to an initialized semaphore object for which the caller provides the storage.
 
 
-### -param Increment [in]
-
+### -param Increment 
+[in]
 Specifies the priority increment to be applied if releasing the semaphore causes a wait to be satisfied.
 
 
-### -param Adjustment [in]
-
+### -param Adjustment 
+[in]
 Specifies a value to be added to the current semaphore count. This value must be positive.
 
 
-### -param Wait [in]
-
+### -param Wait 
+[in]
 Specifies whether the call to <b>KeReleaseSemaphore</b> is to be followed <u>immediately</u> by a call to one of the <b>KeWait<i>Xxx</i></b> routines. If <b>TRUE</b>, the <b>KeReleaseSemaphore</b> call must be followed by a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitformultipleobjects">KeWaitForMultipleObjects</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>, or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject">KeWaitForSingleObject</a>. For more information, see the following Remarks section. 
 
 

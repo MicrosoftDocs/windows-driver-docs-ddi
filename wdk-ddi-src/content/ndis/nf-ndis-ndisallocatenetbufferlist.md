@@ -59,15 +59,15 @@ Call the
 
 
 
-### -param PoolHandle [in]
-
+### -param PoolHandle 
+[in]
 A NET_BUFFER_LIST structure pool handle that was previously returned from a call to 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlistpool">
      NdisAllocateNetBufferListPool</a>.
 
 
-### -param ContextSize [in]
-
+### -param ContextSize 
+[in]
 The amount of 
      <i>used data space</i> in the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list_context">NET_BUFFER_LIST_CONTEXT</a> structure
@@ -75,8 +75,8 @@ The amount of
      <i>ContextSize</i> must be a multiple of the value defined by MEMORY_ALLOCATION_ALIGNMENT.
 
 
-### -param ContextBackFill [in]
-
+### -param ContextBackFill 
+[in]
 The amount of 
      <i>unused data space</i> (backfill space) that the caller requires. NDIS adds this value to the 
      <i>ContextSize</i> and allocates additional space. The 

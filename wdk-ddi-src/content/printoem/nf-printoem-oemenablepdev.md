@@ -57,26 +57,26 @@ req.typenames:
 ### -param pdevobj
 
 
-### -param pPrinterName [in]
-
+### -param pPrinterName 
+[in]
 
 ### -param cPatterns
 
 
-### -param phsurfPatterns [in]
-
+### -param phsurfPatterns 
+[in]
 
 ### -param cjGdiInfo
 
 
-### -param pGdiInfo [in, out]
-
+### -param pGdiInfo 
+[in, out]
 
 ### -param cjDevInfo
 
 
-### -param pDevInfo [in, out]
+### -param pDevInfo 
+[in, out]
 
-
-### -param pded [in]
-
+### -param pded 
+[in]

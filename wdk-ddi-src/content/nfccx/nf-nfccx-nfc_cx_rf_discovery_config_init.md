@@ -56,8 +56,8 @@ The NFC_CX_RF_DISCOVERY_CONFIG_INIT function initializes the <a href="https://do
 
 
 
-### -param Config [out]
-
+### -param Config 
+[out]
 A pointer to the NFC_CX_RF_DISCOVERY_CONFIG structure that the function initializes.
 
 

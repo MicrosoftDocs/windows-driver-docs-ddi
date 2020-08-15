@@ -55,8 +55,8 @@ The <b>SERCX_BUFFER_DESCRIPTOR_INIT</b> function initializes a <a href="https://
 
 
 
-### -param Descriptor [out]
-
+### -param Descriptor 
+[out]
 A pointer to the <b>SERCX_BUFFER_DESCRIPTOR</b> structure that is to be initialized.
 
 

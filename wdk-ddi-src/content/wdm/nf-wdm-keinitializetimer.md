@@ -55,8 +55,8 @@ The <b>KeInitializeTimer</b> routine initializes a timer object.
 
 
 
-### -param Timer [out]
-
+### -param Timer 
+[out]
 Pointer to a timer object, for which the caller provides the storage.
 
 

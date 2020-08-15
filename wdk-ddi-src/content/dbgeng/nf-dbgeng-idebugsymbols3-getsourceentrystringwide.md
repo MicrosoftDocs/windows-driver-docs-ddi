@@ -55,28 +55,28 @@ Queries symbol information and returns locations in the target's memory.
 
 
 
-### -param Entry [in]
-
+### -param Entry 
+[in]
 An entry as a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_symbol_source_entry">DEBUG_SYMBOL_SOURCE_ENTRY</a> structure. 
 
 
-### -param Which [in]
-
+### -param Which 
+[in]
 A value that determines which types to return.
 
 
-### -param Buffer [out]
-
+### -param Buffer 
+[out]
  A pointer to a Unicode character string buffer for the results.
 
 
-### -param BufferSize [in]
-
+### -param BufferSize 
+[in]
 The size of the buffer.
 
 
-### -param StringSize [out, optional]
-
+### -param StringSize 
+[out, optional]
 Pointer to the size of the string. 
 
 

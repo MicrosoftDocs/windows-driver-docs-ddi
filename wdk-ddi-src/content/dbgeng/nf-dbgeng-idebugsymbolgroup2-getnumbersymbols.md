@@ -56,8 +56,8 @@ The <b>GetNumberSymbols</b> method returns the number of <a href="https://docs.m
 
 
 
-### -param Number [out]
-
+### -param Number 
+[out]
 The number of symbols that are contained in this symbol group.
 
 

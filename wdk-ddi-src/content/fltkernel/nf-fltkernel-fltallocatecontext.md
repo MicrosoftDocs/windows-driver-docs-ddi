@@ -49,12 +49,12 @@ The **FltAllocateContext** routine allocates a context structure for a specified
 
 ## -parameters
 
-### -param Filter [in]
-
+### -param Filter 
+[in]
 Opaque filter pointer for the caller. This parameter is required and cannot be **NULL**. (Setting this parameter to an invalid value causes the system to execute an ASSERT on a checked build.)
 
-### -param ContextType [in]
-
+### -param ContextType 
+[in]
 The type of context to allocate. *ContextType* can be one of the following:
 
 * FLT_FILE_CONTEXT (starting with Windows Vista)
@@ -65,12 +65,12 @@ The type of context to allocate. *ContextType* can be one of the following:
 * FLT_TRANSACTION_CONTEXT (starting with Windows Vista)
 * FLT_VOLUME_CONTEXT
 
-### -param ContextSize [in]
-
+### -param ContextSize 
+[in]
 The size, in bytes, of the portion of the context defined by the minifilter driver. Must be greater than zero and less than or equal to **MAXUSHORT**; for fixed-size contexts, must be less than or equal to the *Size* specified in the [FLT_CONTEXT_REGISTRATION](ns-fltkernel-_flt_context_registration.md) structure. A minifilter driver uses this portion of the context to maintain context information specific to the minifilter driver. The filter manager treats this portion of the context structure as opaque. This parameter is required and cannot be zero.
 
-### -param PoolType [in]
-
+### -param PoolType 
+[in]
 The type of pool to allocate. This parameter is required and must be one of the following:
 
 * **NonPagedPool**
@@ -78,8 +78,8 @@ The type of pool to allocate. This parameter is required and must be one of the 
 
 Setting this parameter to an invalid value causes the system to execute an ASSERT on a checked build.
 
-### -param ReturnedContext [out]
-
+### -param ReturnedContext 
+[out]
 Pointer to a caller-allocated variable that receives the address of the newly allocated context. The caller is responsible for calling [FltReleaseContext](nf-fltkernel-fltreleasecontext.md) to release this context when it is no longer needed.
 
 ## -returns

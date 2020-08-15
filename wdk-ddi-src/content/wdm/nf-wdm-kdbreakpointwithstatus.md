@@ -55,8 +55,8 @@ The <b>KdBreakPointWithStatus</b> macro breaks into the kernel debugger and send
 
 
 
-### -param s [in]
-
+### -param s 
+[in]
 Specifies a ULONG value to be sent to the debugger (for example, a status code or an address).
 
 

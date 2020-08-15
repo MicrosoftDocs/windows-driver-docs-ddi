@@ -57,18 +57,18 @@ A driver's <i>EvtDeviceUsageNotificationEx</i> event callback function determine
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object.
 
 
-### -param NotificationType [in]
-
+### -param NotificationType 
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_special_file_type">WDF_SPECIAL_FILE_TYPE</a>-typed value that identifies the type of special file that the system is storing on the specified device.
 
 
-### -param IsInNotificationPath [in]
-
+### -param IsInNotificationPath 
+[in]
 A Boolean value which, if <b>TRUE</b>, indicates that the system has starting using the special file and, if <b>FALSE</b>, indicates that the system has finished using the special file.
 
 

@@ -60,8 +60,8 @@ The <b>WdfCollectionGetLastItem</b> method returns a handle to the last object t
 
 
 
-### -param Collection [in]
-
+### -param Collection 
+[in]
 A handle to a collection object.
 
 

@@ -58,8 +58,8 @@ The
 
 
 
-### -param NdisHandle [in]
-
+### -param NdisHandle 
+[in]
 A miniport driver handle or filter driver handle that the caller obtained by calling the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterminiportdriver">
      NdisMRegisterMiniportDriver</a> function or the 
@@ -67,23 +67,23 @@ A miniport driver handle or filter driver handle that the caller obtained by cal
      NdisFRegisterFilterDriver</a> function respectively.
 
 
-### -param DeviceObjectAttributes [in]
-
+### -param DeviceObjectAttributes 
+[in]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_device_object_attributes">
      NDIS_DEVICE_OBJECT_ATTRIBUTES</a> structure that contains the attributes for the new device.
 
 
-### -param pDeviceObject [out]
-
+### -param pDeviceObject 
+[out]
 A pointer that points to a pointer to a newly created 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure, if the call succeeds.
      If the call fails, 
      <i>pDeviceObject</i> is set to point to <b>NULL</b>.
 
 
-### -param NdisDeviceHandle [out]
-
+### -param NdisDeviceHandle 
+[out]
 A pointer to a caller-supplied variable in which this function, if it succeeds, returns a handle
      to the device object. This handle is a required parameter to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisderegisterdeviceex">NdisDeregisterDeviceEx</a> function

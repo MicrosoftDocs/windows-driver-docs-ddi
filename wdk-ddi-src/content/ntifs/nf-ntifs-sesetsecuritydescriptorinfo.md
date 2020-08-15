@@ -55,13 +55,13 @@ The <b>SeSetSecurityDescriptorInfo</b> routine sets an object's security descrip
 
 
 
-### -param Object [in, optional]
-
+### -param Object 
+[in, optional]
 Pointer to the object whose security descriptor is to be set. This is used to update security quota information.
 
 
-### -param SecurityInformation [in]
-
+### -param SecurityInformation 
+[in]
 Pointer to a bitmask specifying which security information is to be applied to the object. Can be a combination of one or more of the following values. 
 
 <table>
@@ -118,13 +118,13 @@ Indicates the system ACL (SACL) of the object is being set. Requires ACCESS_SYST
 <p>The input security descriptor to be applied to the object. The caller of this routine is expected to probe and capture the passed security descriptor before calling <b>SeSetSecurityDescriptorInfo</b>, and to release it afterward.</p>
 
 
-### -param ObjectsSecurityDescriptor [in, out]
-
+### -param ObjectsSecurityDescriptor 
+[in, out]
 Pointer to a pointer to the object's security descriptor. The security descriptor must be in self-relative format. The caller is responsible for freeing this structure when it is no longer needed.
 
 
-### -param PoolType [in]
-
+### -param PoolType 
+[in]
 Specifies the pool type to use when allocating a new security descriptor, which can be one of the following: 
 
 <ul>
@@ -138,8 +138,8 @@ Usually, a caller specifies <b>PagedPool</b>, or else <b>NonPagedPool</b> if the
 <div class="alert"><b>Note</b>    The <b>NonPagedPoolMustSucceed</b> and <b>NonPagedPoolCacheAlignedMustS</b> pool types are obsolete and should no longer be used. </div>
 <div> </div>
 
-### -param GenericMapping [in]
-
+### -param GenericMapping 
+[in]
 Pointer to a GENERIC_MAPPING structure that specifies the mapping of generic to specific and standard access types for the object being accessed. This mapping structure is expected to be safe to access (that is, captured if necessary) prior to be passed to this routine.
 
 

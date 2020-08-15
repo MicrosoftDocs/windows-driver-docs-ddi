@@ -56,13 +56,13 @@ The <b>DbgPrompt</b> routine displays a caller-specified user prompt string on t
 
 
 
-### -param Prompt [in]
-
+### -param Prompt 
+[in]
 A pointer to a NULL-terminated constant character string that the debugger will display as a user prompt. The maximum size of this string is 512 characters.
 
 
-### -param Response [out]
-
+### -param Response 
+[out]
 A pointer to a character array buffer that receives the user's response, including a terminating newline character. The maximum size of this buffer is 512 characters.
 
 

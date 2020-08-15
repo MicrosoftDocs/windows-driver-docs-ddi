@@ -55,33 +55,33 @@ req.typenames:
 
 
 
-### -param Instance [in]
-
+### -param Instance 
+[in]
 Opaque instance pointer for the caller. This parameter is required and cannot be **NULL**. 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 File object pointer for the file. This parameter is required and cannot be **NULL**. 
 
 
-### -param FileInformation [out]
-
+### -param FileInformation 
+[out]
 Pointer to a caller-allocated buffer that receives information about the file. The *FileInformationClass* parameter specifies the type of information. This parameter is required and cannot be **NULL**. 
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 Size, in bytes, of the *FileInformation* buffer. 
 
 
-### -param FileInformationClass [in]
-
+### -param FileInformationClass 
+[in]
 A [FILE_INFORMATION_CLASS](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_file_information_class) value that specifies the type of file information to be returned in the *FileInformation* buffer.
 
 
-### -param LengthReturned [out, optional]
-
+### -param LengthReturned 
+[out, optional]
 Pointer to a caller-allocated variable that receives the size, in bytes, of the information returned in the *FileInformation* buffer. This parameter is optional and can be **NULL**. 
 
 

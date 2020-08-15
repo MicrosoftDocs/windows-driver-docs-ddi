@@ -58,13 +58,13 @@ The <b>WdfIoResourceRequirementsListSetInterfaceType</b> method assigns a bus ty
 
 
 
-### -param RequirementsList [in]
-
+### -param RequirementsList 
+[in]
 A handle to a framework resource-requirements-list object that represents a device's resource requirements list.
 
 
-### -param InterfaceType [in]
-
+### -param InterfaceType 
+[in]
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_interface_type">INTERFACE_TYPE</a>-typed value that identifies the type of bus that the device is connected to. 
 
 

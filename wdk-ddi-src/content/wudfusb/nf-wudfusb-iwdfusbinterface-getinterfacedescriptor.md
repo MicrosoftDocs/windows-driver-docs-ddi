@@ -57,8 +57,8 @@ The <b>GetInterfaceDescriptor</b> method retrieves a descriptor for a USB interf
 
 
 
-### -param UsbAltInterfaceDescriptor [out]
-
+### -param UsbAltInterfaceDescriptor 
+[out]
 A pointer to a variable that receives the USB interface descriptor.
 
 

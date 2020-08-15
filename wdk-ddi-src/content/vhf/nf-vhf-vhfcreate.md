@@ -56,13 +56,13 @@ The HID source driver calls this method to create a virtual HID device.
 
 
 
-### -param VhfConfig [in]
-
+### -param VhfConfig 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vhf/ns-vhf-_vhf_config">VHF_CONFIG</a> structure.
 
 
-### -param VhfHandle [out]
-
+### -param VhfHandle 
+[out]
 A handle to the new virtual HID device.
 
 

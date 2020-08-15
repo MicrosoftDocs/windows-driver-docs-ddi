@@ -56,13 +56,13 @@ The <b>RtlUnicodeStringToInteger</b> routine converts a Unicode string represent
 
 
 
-### -param String [in]
-
+### -param String 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the number representation to convert to the equivalent integer value.
 
 
-### -param Base [in, optional]
-
+### -param Base 
+[in, optional]
 A numeric value that indicates the base (or radix) of the number that the Unicode string represents. This parameter value is optional and can be set to zero.
 
 If <i>Base</i> is zero, <b>RtlUnicodeStringToInteger</b> checks the prefix of the Unicode string to determine the base of the number:
@@ -84,8 +84,8 @@ If the prefix is "0b", <b>RtlUnicodeStringToInteger</b> interprets the number in
 If the Unicode string does not contain any of these prefixes, <b>RtlUnicodeStringToInteger</b> treats the string as a base-10 integer.
 
 
-### -param Value [out]
-
+### -param Value 
+[out]
 A pointer to a ULONG variable to which <b>RtlUnicodeStringToInteger</b> writes the integer value that results from conversion of the Unicode string.
 
 

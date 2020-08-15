@@ -55,18 +55,18 @@ The <b>MmUnmapReservedMapping</b> routine unmaps a memory buffer that was mapped
 
 
 
-### -param BaseAddress [in]
-
+### -param BaseAddress 
+[in]
 Pointer to the beginning of the reserved virtual memory range. This must be an address returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmmaplockedpageswithreservedmapping">MmMapLockedPagesWithReservedMapping</a>. 
 
 
-### -param PoolTag [in]
-
+### -param PoolTag 
+[in]
 Specifies the pool tag for the reserved memory buffer. This must be identical to the value specified in the <i>PoolTag</i> parameter of the call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatemappingaddress">MmAllocateMappingAddress</a> that initially reserved the buffer.
 
 
-### -param MemoryDescriptorList [in]
-
+### -param MemoryDescriptorList 
+[in]
 Pointer to the MDL that describes the physical memory mapping.
 
 

@@ -59,21 +59,21 @@ The
 
 
 
-### -param Status [in]
-
+### -param Status 
+[in]
 Specifies the final status, as indicated by the miniport driver, of the request by the call
      manager to activate a VC.
 
 
-### -param CallMgrVcContext [in]
-
+### -param CallMgrVcContext 
+[in]
 Specifies the handle to a call manager-allocated context area in which the call manager maintains
      its per-VC state. The call manager supplied this handle from its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a> function.
 
 
-### -param CallParameters [in]
-
+### -param CallParameters 
+[in]
 Pointer to the call parameters as specified by the call manager in a call to 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscmactivatevc">NdisCmActivateVc</a>.
 

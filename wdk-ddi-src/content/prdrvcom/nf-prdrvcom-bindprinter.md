@@ -56,18 +56,18 @@ The <code>IPrintOemPrintTicketProvider::BindPrinter</code> method enables the co
 
 
 
-### -param hPrinter [in]
-
+### -param hPrinter 
+[in]
 The spooler's print handle, which is supplied by Unidrv. The provider should not close this handle at any time, because the client of the provider is responsible for managing the lifetime of this handle. The provider can cache the print handle; all future calls on this object are relative to the printer that is associated with this handle.
 
 
-### -param version [in]
-
+### -param version 
+[in]
 The major version number of the print schema. Windows Vista supports only version 1.
 
 
-### -param pOptions [out]
-
+### -param pOptions 
+[out]
 A pointer to a variable that receives one of the following enumerated values:
 
 
@@ -92,13 +92,13 @@ The OEM object that is being called should set the value pointed to by this para
 
 
 
-### -param cNamespaces [out]
-
+### -param cNamespaces 
+[out]
 A pointer to a variable that receives the number of private namespace URIs that are used in the plug-in. This number represents the count of strings in the array that is pointed to by *<i>ppNamespaces</i>.
 
 
-### -param ppNamespaces [out]
-
+### -param ppNamespaces 
+[out]
 A pointer to a variable that receives the address of the first element of a BSTR array. The plug-in fills each array position with a namespace URI. For more information about this parameter, see the following Remarks section.
 
 

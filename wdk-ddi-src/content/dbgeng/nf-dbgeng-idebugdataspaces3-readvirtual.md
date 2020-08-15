@@ -58,23 +58,23 @@ The <b>ReadVirtual</b> method reads memory from the target's virtual address spa
 
 
 
-### -param Offset [in]
-
+### -param Offset 
+[in]
 Specifies the location in the target's virtual address space to be read.
 
 
-### -param Buffer [out]
-
+### -param Buffer 
+[out]
 Specifies the buffer to read the memory into.
 
 
-### -param BufferSize [in]
-
+### -param BufferSize 
+[in]
 Specifies the size in bytes of the buffer.  This is also the number of bytes being requested.
 
 
-### -param BytesRead [out, optional]
-
+### -param BytesRead 
+[out, optional]
 Receives the number of bytes that were read.  If it is set to <b>NULL</b>, this information is not returned.
 
 

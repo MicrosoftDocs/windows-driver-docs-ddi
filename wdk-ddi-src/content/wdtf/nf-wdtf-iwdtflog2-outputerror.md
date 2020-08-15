@@ -55,8 +55,8 @@ Writes an error entry to the test case log.
 
 
 
-### -param sErrorString [in]
-
+### -param sErrorString 
+[in]
 The error string.
 
 

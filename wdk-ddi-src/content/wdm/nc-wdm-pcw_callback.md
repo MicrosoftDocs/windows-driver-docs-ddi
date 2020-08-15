@@ -55,18 +55,18 @@ Providers can implement a <i>PCW_CALLBACK</i> function to receive notification w
 
 
 
-### -param Type [in]
-
+### -param Type 
+[in]
 The callback type. Specifies why the callback is called. Possible values are PcwCallbackAddCounter, PcwCallbackRemoveCounter, PcwCallbackEnumerateInstances, and PcwCallbackCollectData. 
 
 
-### -param Info [in]
-
+### -param Info 
+[in]
 A pointer to a PCW_CALLBACK_INFORMATION union that supplies details about the reason why the provider is being called.
 
 
-### -param Context [in, optional]
-
+### -param Context 
+[in, optional]
 A pointer to the callback context. This value is supplied by the provider when calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pcwregister">PcwRegister</a>.
 
 

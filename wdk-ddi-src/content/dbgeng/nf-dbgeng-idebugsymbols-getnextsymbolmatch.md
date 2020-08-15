@@ -57,28 +57,28 @@ The <b>GetNextSymbolMatch</b>  method returns the next symbol found in a symbol 
 
 
 
-### -param Handle [in]
-
+### -param Handle 
+[in]
 Specifies the handle returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-startsymbolmatch">StartSymbolMatch</a> when the search was initialized.
 
 
-### -param Buffer [out, optional]
-
+### -param Buffer 
+[out, optional]
 Receives the name of the symbol.  If <i>Buffer</i> is <b>NULL</b>, the same symbol will be returned again next time one of these methods are called (with the same handle); this can be used to determine the size of the name of the symbol.
 
 
-### -param BufferSize [in]
-
+### -param BufferSize 
+[in]
 Specifies the size in characters of the buffer.
 
 
-### -param MatchSize [out, optional]
-
+### -param MatchSize 
+[out, optional]
 Receives the size in characters of the name of the symbol.  If <i>MatchSize</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param Offset [out, optional]
-
+### -param Offset 
+[out, optional]
 Receives the location in the target's virtual address space of the symbol.  If <i>Offset</i> is <b>NULL</b>, this information is not returned.
 
 

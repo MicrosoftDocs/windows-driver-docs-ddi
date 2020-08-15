@@ -55,18 +55,18 @@ The <b>FltSetStreamHandleContext</b> routine sets a context for a stream handle.
 
 
 
-### -param Instance [in]
-
+### -param Instance 
+[in]
 An opaque instance pointer for the minifilter driver instance whose context is to be inserted into, removed from, or replaced in the list of contexts attached to the stream handle. 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 A pointer to a file object for the file stream. 
 
 
-### -param Operation [in]
-
+### -param Operation 
+[in]
 A flag that specifies details of the operation to be performed. This parameter must be one of the following: 
 
 
@@ -84,13 +84,13 @@ If a context is already set for this <i>Instance</i>, replace it with <i>NewCont
 If a context is already set for this <i>Instance</i>, return STATUS_FLT_CONTEXT_ALREADY_DEFINED. Otherwise, insert <i>NewContext</i> into the list of contexts for the stream handle. 
 
 
-### -param NewContext [in]
-
+### -param NewContext 
+[in]
 A pointer to the new context to be set for the stream handle. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param OldContext [out, optional]
-
+### -param OldContext 
+[out, optional]
 A pointer to a caller-allocated variable that receives the address of the existing stream handle context for the <i>Instance </i>parameter. This parameter is optional and can be <b>NULL</b>. (For more information about this parameter, see the following Remarks section.) 
 
 

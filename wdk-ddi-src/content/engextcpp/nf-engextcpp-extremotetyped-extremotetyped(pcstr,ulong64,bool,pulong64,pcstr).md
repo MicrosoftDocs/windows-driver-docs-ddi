@@ -56,25 +56,25 @@ The <b>ExtRemoteTyped</b> constructor creates a new instance of the <b>ExtRemote
 
 
 
-### -param Type [in]
-
+### -param Type 
+[in]
 An expression that evaluates to the desired symbol.  This expression is evaluated by the default expression evaluator.
 
 
-### -param Offset [in]
-
+### -param Offset 
+[in]
 The location of the data in the target's virtual address space.
 
 
 
-### -param PtrTo [in]
-
+### -param PtrTo 
+[in]
 Specifies whether or not to set the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nl-engextcpp-extremotetyped">ExtRemoteTyped</a> instance to the specified typed data, or to a pointer to the specified typed data. If <i>PtrTo</i> is true, the <b>ExtRemoteTyped</b> instance will contain a pointer to the typed data. 
 
 
 
-### -param CacheCookie [in, out, optional]
-
+### -param CacheCookie 
+[in, out, optional]
 The cache cookie to use for caching type information. If <i>CacheCookie</i> is <b>NULL</b>, the debugger engine will search for type information each time.
 
 
@@ -107,8 +107,8 @@ For more information about <i>CacheCookie</i>, see the following methods:
 </li>
 </ul>
 
-### -param LinkField [in, optional]
-
+### -param LinkField 
+[in, optional]
 The name of a field in the typed data that contains the pointer to the next item in a list. <i>LinkField</i> should be set if <i>CacheCookie</i> is being used for the first time and will later be used with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetypedlist-extremotetypedlist(extremotedata__pcstr_pcstr_ulong64_ulong_pulong64_bool)">ExtRemoteTypedList</a>. 
 
 

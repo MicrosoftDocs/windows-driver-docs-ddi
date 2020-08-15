@@ -58,23 +58,23 @@ The <b>AtaPortGetPhysicalAddress</b> routine converts the virtual address range 
 
 
 
-### -param ChannelExtension [in]
-
+### -param ChannelExtension 
+[in]
 A pointer to the channel extension. 
 
 
-### -param Irb [in, optional]
-
+### -param Irb 
+[in, optional]
 A pointer to a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/ns-irb-_ide_request_block">IDE_REQUEST_BLOCK</a> that defines the IDE request block (IRB) for which the address range is converted. 
 
 
-### -param VirtualAddress [in, optional]
-
+### -param VirtualAddress 
+[in, optional]
 A pointer to the base virtual address to convert. 
 
 
-### -param Length [out, optional]
-
+### -param Length 
+[out, optional]
 Returns the number of mapped bytes starting at the returned physical address. 
 
 

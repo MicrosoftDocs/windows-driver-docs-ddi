@@ -55,28 +55,28 @@ The <b>ComputeAndAddUserModelData</b> method is used by the training user experi
 
 
 
-### -param ModelData [in]
-
+### -param ModelData 
+[in]
 A pointer to the <b>IStream</b> object bound to model data. It is modified by this call.
 
 
-### -param KeywordSelector [in]
-
+### -param KeywordSelector 
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/keyworddetectoroemadapter/ns-keyworddetectoroemadapter-__midl_ikeyworddetectoroemadapter_0003">KEYWORDSELECTOR</a> struct that uniquely identifies this model.
 
 
-### -param KeywordEndBytePos [in]
-
+### -param KeywordEndBytePos 
+[in]
 Indicates the end of the keyword in the UserRecording.
 
 
-### -param UserRecordings [in]
-
+### -param UserRecordings 
+[in]
 A pointer to an array of pointers to the previously verified user recordings of the keyword.
 
 
-### -param NumUserRecordings [in]
-
+### -param NumUserRecordings 
+[in]
 The number of recordings.
 
 

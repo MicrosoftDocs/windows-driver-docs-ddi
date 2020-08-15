@@ -55,8 +55,8 @@ The <b>IoGetNextIrpStackLocation</b> routine gives a higher level driver access 
 
 
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 A pointer to the IRP. 
 
 

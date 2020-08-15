@@ -60,8 +60,8 @@ The <b>WdfFileObjectGetFileName</b> method returns the file name that a specifie
 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 A handle to a framework file object.
 
 

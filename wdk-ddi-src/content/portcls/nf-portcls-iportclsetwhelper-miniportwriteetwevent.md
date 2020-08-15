@@ -55,28 +55,28 @@ The <code>MiniportWriteEtwEvent</code> method is used by an audio miniport drive
 
 
 
-### -param miniportEventType [in]
-
+### -param miniportEventType 
+[in]
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ne-portcls-epcminiportengineevent">EPcMiniportEngineEvent</a> enumerated value that provides additional error information for reporting glitching errors.
 
 
-### -param pvData1 [in]
-
+### -param pvData1 
+[in]
 Data parameter.
 
 
-### -param pvData2 [in]
-
+### -param pvData2 
+[in]
 Data parameter.
 
 
-### -param ulData3 [in]
-
+### -param ulData3 
+[in]
 Data parameter.
 
 
-### -param ulData4 [in]
-
+### -param ulData4 
+[in]
 Data parameter.
 
 

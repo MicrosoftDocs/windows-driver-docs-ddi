@@ -61,13 +61,13 @@ The <b>BdaPropertyNodeMethods</b> function retrieves a list of methods that a no
 
 
 
-### -param pKSProperty [in]
-
+### -param pKSProperty 
+[in]
 Points to a <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property and request type of the property request.
 
 
-### -param pguidProperty [out, optional]
-
+### -param pguidProperty 
+[out, optional]
 Points to an array that receives the list of GUIDs for the methods supported by a node.
 
 

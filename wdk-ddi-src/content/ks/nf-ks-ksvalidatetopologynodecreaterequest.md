@@ -56,18 +56,18 @@ The <b>KsValidateTopologyNodeCreateRequest</b> function validates a topology nod
 
 
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 Specifies the IRP with the node create request being handled.
 
 
-### -param Topology [in]
-
+### -param Topology 
+[in]
 Specifies the topology structure associated with the parent object. This is used to validate the create request.
 
 
-### -param NodeCreate [out]
-
+### -param NodeCreate 
+[out]
 Location for the node create structure pointer passed to the create request.
 
 

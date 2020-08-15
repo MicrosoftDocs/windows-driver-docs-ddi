@@ -62,8 +62,8 @@ The <b>NdisGetHypervisorInfo</b> function returns information about the hypervis
 
 
 
-### -param HypervisorInfo [in, out]
-
+### -param HypervisorInfo 
+[in, out]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_hypervisor_info">NDIS_HYPERVISOR_INFO</a> structure that
      contains information about the hypervisor that is present on the system.
 

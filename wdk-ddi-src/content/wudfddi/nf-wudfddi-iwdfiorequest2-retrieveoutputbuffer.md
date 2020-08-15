@@ -57,18 +57,18 @@ The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/
 
 
 
-### -param MinimumRequiredCb [in]
-
+### -param MinimumRequiredCb 
+[in]
 The minimum buffer size, in bytes, that the driver needs to process the I/O request. This value can be zero if there is no minimum buffer size.
 
 
-### -param Buffer [out]
-
+### -param Buffer 
+[out]
 A pointer to a location that receives the buffer's address.
 
 
-### -param BufferCb [out, optional]
-
+### -param BufferCb 
+[out, optional]
 A pointer to a location that receives the buffer's size, in bytes. This parameter is optional and can be <b>NULL</b>.
 
 

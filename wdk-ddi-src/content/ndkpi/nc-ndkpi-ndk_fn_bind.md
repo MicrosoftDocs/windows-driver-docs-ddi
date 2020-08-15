@@ -55,40 +55,40 @@ The <i>NdkBind</i> (<i>NDK_FN_BIND</i>) function binds a memory window to a spec
 
 
 
-### -param pNdkQp [in]
-
+### -param pNdkQp 
+[in]
 A pointer to an NDK queue pair (QP) object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_qp">NDK_QP</a>).
 
 
-### -param RequestContext [in, optional]
-
+### -param RequestContext 
+[in, optional]
 A context value to return in the <b>RequestContext</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_result">NDK_RESULT</a> structure for this request.
 
 
-### -param pMr [in]
-
+### -param pMr 
+[in]
 A pointer to an NDK memory region (MR) object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_mr">NDK_MR</a>).
 
 
-### -param pMw [in]
-
+### -param pMw 
+[in]
 A pointer to an NDK memory window (MW) object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_mw">NDK_MW</a>).
 
 
-### -param VirtualAddress [in]
-
+### -param VirtualAddress 
+[in]
 A virtual address that must be greater than or equal to the virtual address of the MDL for the MR and less than the virtual address of the MDL for the MR plus the value in the <i>Length</i> parameter.
 
 Use the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetMdlVirtualAddress</a> macro to obtain the virtual address of the MDL for the MR.
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 The length of the MR to bind to the MW. 
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 A bitwise OR of flags which specifies the operations that are allowed. The following flags are supported:
 
 <table>

@@ -55,13 +55,13 @@ The <b>PoFxIssueComponentPerfStateChangeMultiple</b> routine submits a request t
 
 
 
-### -param Handle [in]
-
+### -param Handle 
+[in]
 A handle that represents the registration of the device with PoFx. The device driver previously received this handle from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxregisterdevice">PoFxRegisterDevice</a> routine.
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 The flags that modify the behavior of the performance state change operation. Set this member to zero or to one of the following flag <b>PO_FX_FLAG_<i>XXX</i></b> bits:
 
 These two flag bits are mutually exclusive. For more information, see Remarks.
@@ -97,23 +97,23 @@ Make the condition change fully asynchronous. If this flag is set, the calling d
  
 
 
-### -param Component [in]
-
+### -param Component 
+[in]
 The index that identifies the component. This parameter is an index into the <b>Components</b> array in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_device_v1">PO_FX_DEVICE</a> structure that the device driver used to register the device with PoFx. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
 
 
-### -param PerfChangesCount [in]
-
+### -param PerfChangesCount 
+[in]
 The number of performance state change requests contained in the <i>PerfChanges</i> array.
 
 
-### -param PerfChanges [in]
-
+### -param PerfChanges 
+[in]
 The first element in an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_perf_state_change">PO_FX_PERF_STATE_CHANGE</a> structures that represent the performance states the driver intends to transition to. Each array element represents a single performance state change request. 
 
 
-### -param Context [in]
-
+### -param Context 
+[in]
 A pointer to the context for the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-po_fx_component_perf_state_callback">ComponentPerfStateCallback</a> callback routine. This parameter is optional. It is provided so that a driver or device context can be passed to the callback routine. If this parameter is not used, it must be set to NULL.
 
 

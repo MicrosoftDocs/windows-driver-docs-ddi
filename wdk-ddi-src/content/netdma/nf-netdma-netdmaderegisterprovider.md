@@ -58,8 +58,8 @@ in Windows 8 and later.</div><div> </div>The
 
 
 
-### -param NetDmaProviderHandle [in]
-
+### -param NetDmaProviderHandle 
+[in]
 A handle that identifies a DMA provider. The DMA provider driver received this handle from the
      NetDMA interface in a call to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nf-netdma-netdmaregisterprovider">

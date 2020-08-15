@@ -57,8 +57,8 @@ loop structure implicitly uses.
 
 
 
-### -param ppNewEnum [out]
-
+### -param ppNewEnum 
+[out]
 The iteration variable.
 
 

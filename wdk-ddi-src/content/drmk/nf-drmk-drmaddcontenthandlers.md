@@ -56,18 +56,18 @@ The <code>DrmAddContentHandlers</code> function provides the system with a list 
 
 
 
-### -param ContentId [in]
-
+### -param ContentId 
+[in]
 Specifies the DRM content ID. This parameter identifies a protected KS audio stream.
 
 
-### -param paHandlers [in]
-
+### -param paHandlers 
+[in]
 Pointer to an array of function pointers. Each array element points to a content handler.
 
 
-### -param NumHandlers [in]
-
+### -param NumHandlers 
+[in]
 Specifies the number of function pointers in the <i>paHandlers</i> array.
 
 

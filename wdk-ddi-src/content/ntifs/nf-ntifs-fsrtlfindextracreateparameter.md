@@ -55,23 +55,23 @@ The <b>FsRtlFindExtraCreateParameter</b> routine searches a given ECP list for a
 
 
 
-### -param EcpList [in]
-
+### -param EcpList 
+[in]
 Pointer to the ECP list structure that <b>FsRtlFindExtraCreateParameter</b> uses to search for the ECP context structure, supplied by the <i>EcpType</i> parameter.
 
 
-### -param EcpType [in]
-
+### -param EcpType 
+[in]
 Pointer to a GUID that uniquely identifies the ECP context structure.  This GUID value is used by the <b>FsRtlFindExtraCreateParamter</b> routine to determine if the ECP context structure exists in the ECP list, supplied by the <i>EcpList</i> parameter.
 
 
-### -param EcpContext [out, optional]
-
+### -param EcpContext 
+[out, optional]
 Optional parameter that receives a pointer to the found ECP context structure.  If the ECP context structure is not found in the ECP list, <i>EcpContext</i> is set to <b>NULL</b>.  If <i>EcpContext</i> is set to <b>NULL</b> by the caller, the return value of <b>FsRtlFindExtraCreateParamter</b> can be used to determine if the ECP context structure is in the ECP list.
 
 
-### -param EcpContextSize [out, optional]
-
+### -param EcpContextSize 
+[out, optional]
 Optional parameter that receives the size, in bytes, of the found ECP context structure.  If the ECP context structure is not found, <i>EcpContextSize</i> is set to zero.
 
 

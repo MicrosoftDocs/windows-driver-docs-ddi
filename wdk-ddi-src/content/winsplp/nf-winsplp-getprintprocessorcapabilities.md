@@ -55,23 +55,23 @@ A print processor's <b>GetPrintProcessorCapabilities</b> function returns capabi
 
 
 
-### -param pValueName [in]
-
+### -param pValueName 
+[in]
 Caller-supplied pointer to a string that represents a data type that is supported by the print processor. The string pointer must be of type LPWSTR.
 
 
-### -param dwAttributes [in]
-
+### -param dwAttributes 
+[in]
 Caller-supplied attributes flags. Refer to the <b>Attributes</b> member of PRINTER_INFO_<i>x</i> structures (described in the Microsoft Windows SDK documentation).
 
 
-### -param pData [out]
-
+### -param pData 
+[out]
 Caller-supplied pointer to a PRINTPROCESSOR_CAPS_1 or PRINTPROCESSOR_CAPS_2 structure (described in the Windows SDK documentation).
 
 
-### -param nSize [in]
-
+### -param nSize 
+[in]
 Caller-supplied value that represents the size of the buffer pointed to by <i>pData</i>.
 
 If the value is less than sizeof(PRINTPROCESSOR_CAPS_1), this function should supply a value that is equal to sizeof(PRINTPROCESSOR_CAPS_1) or sizeof(PRINTPROCESSOR_CAPS_2), depending on which structure is supported by the print processor.
@@ -79,8 +79,8 @@ If the value is less than sizeof(PRINTPROCESSOR_CAPS_1), this function should su
 <div class="alert"><b>Note</b>    If the value is less than sizeof(PRINTPROCESSOR_CAPS_1), the winprint print processor will supply a value of sizeof(PRINTPROCESSOR_CAPS_2) for Windows Vista operating systems, or sizeof(PRINTPROCESSOR_CAPS_1) for earlier operating system versions.</div>
 <div> </div>
 
-### -param pcbNeeded [out]
-
+### -param pcbNeeded 
+[out]
 Caller-supplied pointer to a location to receive the minimum required size for the buffer pointed to by <i>pData</i>.
 
 

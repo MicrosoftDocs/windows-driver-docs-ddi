@@ -58,13 +58,13 @@ NDIS calls the  <i>MiniportIdleNotification</i> handler function to start the ND
 
 
 
-### -param MiniportAdapterContext [in]
-
+### -param MiniportAdapterContext 
+[in]
 A handle to a context area that the miniport driver allocated in its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function. The miniport driver uses this context area to maintain state information for a network adapter.
 
 
-### -param ForceIdle [in]
-
+### -param ForceIdle 
+[in]
 A <b>BOOLEAN</b> value that, when set to <b>TRUE</b>, specifies that the miniport driver must not veto the idle notification and must continue with the low-power state transition.
 
 For more information about the <i>ForceIdle</i> parameter, see the Remarks section.

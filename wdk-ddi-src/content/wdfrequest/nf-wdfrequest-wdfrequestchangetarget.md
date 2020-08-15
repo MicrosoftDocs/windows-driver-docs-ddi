@@ -60,13 +60,13 @@ The <b>WdfRequestChangeTarget</b> method verifies that a specified I/O request c
 
 
 
-### -param Request [in]
-
+### -param Request 
+[in]
 A handle to a framework request object.
 
 
-### -param IoTarget [in]
-
+### -param IoTarget 
+[in]
 A handle to a framework I/O target object. 
 
 

@@ -55,18 +55,18 @@ The <b>IoSetDevicePropertyData</b> routine modifies the current setting for a de
 
 
 
-### -param Pdo [in]
-
+### -param Pdo 
+[in]
 A pointer to the physical device object (PDO) for the device that is being queried.
 
 
-### -param PropertyKey [in]
-
+### -param PropertyKey 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/dn315031(v=vs.85)">DEVPROPKEY</a> structure that specifies the device property key.
 
 
-### -param Lcid [in]
-
+### -param Lcid 
+[in]
 A locale identifier. Set this parameter either to a language-specific LCID value or to <b>LOCALE_NEUTRAL</b>.
 
 The <b>LOCALE_NEUTRAL</b> LCID specifies that the property is language-neutral (that is, not specific to any language).
@@ -76,25 +76,25 @@ Do not set this parameter to <b>LOCALE_SYSTEM_DEFAULT</b> or <b>LOCALE_USER_DEFA
 For more information about language-specific LCID values, see <a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-lcid/63d3d639-7fd2-4afb-abbe-0d5b5551eef8">LCID Structure</a>.
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 Set this parameter to <b>PLUGPLAY_PROPERTY_PERSISTENT</b> if the property value set by this routine should persist across computer restarts. Otherwise, set <i>Flags</i> to zero.
 
 Windows 8 and Windows Server 2012 and later operating systems treat <b>Flags</b> as if <b>PLUGPLAY_PROPERTY_PERSISTENT</b>  is always passed.
 
 
-### -param Type [in]
-
+### -param Type 
+[in]
 A <a href="https://docs.microsoft.com/previous-versions/ff543546(v=vs.85)">DEVPROPTYPE</a> value that specifies the type of the data that is provided in the <i>Data</i> buffer.
 
 
-### -param Size [in]
-
+### -param Size 
+[in]
 The size, in bytes, of the buffer that <i>Data</i> points to.
 
 
-### -param Data [in, optional]
-
+### -param Data 
+[in, optional]
 A pointer to the device property data. Set this parameter to <b>NULL</b> to delete the specified property. If <i>Data</i> is non-<b>NULL</b>, the routine stores an internal copy of the property value. The buffer pointed to by <i>Data</i> does not need to remain valid after the call returns.
 
 

@@ -57,13 +57,13 @@ The <b>WDF_DEVICE_PROPERTY_DATA_INIT</b> function initializes a driver's <a href
 
 
 
-### -param PropertyData [in]
-
+### -param PropertyData 
+[in]
 A pointer to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_property_data">WDF_DEVICE_PROPERTY_DATA</a> structure.
 
 
-### -param PropertyKey [in]
-
+### -param PropertyKey 
+[in]
 A pointer to a <b>DEVPROPKEY</b> structure that specifies the device property key.
 
 

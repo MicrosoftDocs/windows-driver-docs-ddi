@@ -58,15 +58,15 @@ The
 
 
 
-### -param TimerObject [in]
-
+### -param TimerObject 
+[in]
 A handle to a timer object that NDIS provides when a driver calls the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatetimerobject">
      NdisAllocateTimerObject</a> function.
 
 
-### -param DueTime [in]
-
+### -param DueTime 
+[in]
 The absolute or relative time at which the timer is to expire. If the value of the 
      <i>DueTime</i> parameter is negative, the expiration time is relative to the current system time.
      Otherwise, the expiration time is absolute. The expiration time is expressed in system time units
@@ -74,16 +74,16 @@ The absolute or relative time at which the timer is to expire. If the value of t
      expiration times are not affected by system time changes.
 
 
-### -param MillisecondsPeriod [in, optional]
-
+### -param MillisecondsPeriod 
+[in, optional]
 The periodic time interval, in milliseconds, that elapses between each time the timer fires and
      the next call to the 
      <i>NetTimerCallback</i> function, unless the timer is canceled. The value of this parameter must be less
      than or equal to MAXLONG.
 
 
-### -param FunctionContext [in, optional]
-
+### -param FunctionContext 
+[in, optional]
 A pointer to a caller-supplied context area that NDIS passes to the associated 
      <i>NetTimerCallback</i> function when a timer fires. If this parameter is <b>NULL</b>, NDIS uses the default
      value that is specified in the 

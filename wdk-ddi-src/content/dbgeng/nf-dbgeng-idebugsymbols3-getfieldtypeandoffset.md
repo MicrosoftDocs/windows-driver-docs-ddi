@@ -55,28 +55,28 @@ The <b>GetFieldTypeAndOffset</b>  method returns the type of a field and its off
 
 
 
-### -param Module [in]
-
+### -param Module 
+[in]
 Specifies the module containing the types of both the container and the field.
 
 
-### -param ContainerTypeId [in]
-
+### -param ContainerTypeId 
+[in]
 Specifies the type ID for the container's type.  Examples of containers include structures, unions, and classes.
 
 
-### -param Field [in]
-
+### -param Field 
+[in]
 Specifies the name of the field whose type and offset are requested.  Subfields may be specified by using a dot-separated path.
 
 
-### -param FieldTypeId [out, optional]
-
+### -param FieldTypeId 
+[out, optional]
 Receives the type ID of the field.
 
 
-### -param Offset [out, optional]
-
+### -param Offset 
+[out, optional]
 Receives the offset of the field <i>Field</i> from the base memory location of an instance of the container.
 
 

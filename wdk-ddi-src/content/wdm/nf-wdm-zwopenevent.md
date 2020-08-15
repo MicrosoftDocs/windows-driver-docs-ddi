@@ -56,13 +56,13 @@ The <b>ZwOpenEvent</b> routine opens a handle to an existing named event object 
 
 
 
-### -param EventHandle [out]
-
+### -param EventHandle 
+[out]
 A pointer to a variable that will receive the event object handle. The handle includes bookkeeping information, such as a reference count and security context.
 
 
-### -param DesiredAccess [in]
-
+### -param DesiredAccess 
+[in]
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that represents the desired types of access for the event object. The following table contains the event-specific ACCESS_MASK values.
 
 <table>
@@ -86,8 +86,8 @@ The <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-m
  
 
 
-### -param ObjectAttributes [in]
-
+### -param ObjectAttributes 
+[in]
 A pointer to the object attributes structure that the caller supplied to be used for the specified object. These attributes would include the <b>ObjectName</b> and the handle attributes, for example. This parameter is initialized by calling the <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> macro. 
 
 

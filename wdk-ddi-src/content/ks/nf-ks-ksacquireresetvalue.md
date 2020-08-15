@@ -56,13 +56,13 @@ The <b>KsAcquireResetValue </b>function retrieves the current reset state from a
 
 
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 Points to the IRP from which to retrieve the reset state.
 
 
-### -param ResetValue [out]
-
+### -param ResetValue 
+[out]
 Points to a caller-allocated buffer, that on successful completion contains the reset value (KSRESET_BEGIN, KSRESET_END) associated with the IRP.
 
 

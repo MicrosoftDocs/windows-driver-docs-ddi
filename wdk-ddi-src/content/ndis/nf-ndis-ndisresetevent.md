@@ -57,8 +57,8 @@ The
 
 
 
-### -param Event [in]
-
+### -param Event 
+[in]
 A pointer to an initialized event object for which the caller provided the storage.
 
 

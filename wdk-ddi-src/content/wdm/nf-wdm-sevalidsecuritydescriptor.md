@@ -56,13 +56,13 @@ req.typenames:
 
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 Specifies the size in bytes of the given security descriptor.
 
 
-### -param SecurityDescriptor [in]
-
+### -param SecurityDescriptor 
+[in]
 Pointer to the self-relative <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a>, which must be buffered somewhere in system space.
 
 

@@ -55,18 +55,18 @@ req.typenames:
 
 
 
-### -param Entry [in]
-
+### -param Entry 
+[in]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/extsfns/ns-extsfns-_fa_entry">FA_ENTRY</a> structure. The search starts after this <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/failure-analysis-entries">FA entry</a>. If this parameter is <b>NULL</b>, the starts at the beginning of the collection of FA entries.
 
 
-### -param Tag [in]
-
+### -param Tag 
+[in]
 A value in the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration.
 
 
-### -param TagMask [in]
-
+### -param TagMask 
+[in]
 A mask that restricts the search to a subset of all possible tags. See Remarks. To search all possible tags, set this parameter to <b>DEBUG_FLR_MASK_ALL</b>.
 
 

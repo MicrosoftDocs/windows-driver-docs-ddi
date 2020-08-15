@@ -55,18 +55,18 @@ This function creates an instance of a sensor in the class extension.
 
 
 
-### -param FxDevice [in]
-
+### -param FxDevice 
+[in]
 A WDFDEVICE handle to the framework device object that represents the sensor.
 
 
-### -param pSensorAttributes [in]
-
+### -param pSensorAttributes 
+[in]
 A reference to <a href="https://go.microsoft.com/fwlink/p/?linkid=313456">WDF_OBJECT_ATTRIBUTES</a>.
 
 
-### -param pSensor [out]
-
+### -param pSensor 
+[out]
 A reference to a sensor object that is used within the class extension.
 
 

@@ -55,18 +55,18 @@ The <b>Input</b>  method requests an input string from the <a href="https://docs
 
 
 
-### -param Buffer [out]
-
+### -param Buffer 
+[out]
 Receives the input string from the engine.
 
 
-### -param BufferSize [in]
-
+### -param BufferSize 
+[in]
 Specifies the size, in characters, of the buffer that <i>Buffer</i> specifies.
 
 
-### -param InputSize [out, optional]
-
+### -param InputSize 
+[out, optional]
 Receives the number of characters returned in <i>Buffer</i>.  If <i>InputSize</i> is <b>NULL</b>, this information is not returned.
 
 

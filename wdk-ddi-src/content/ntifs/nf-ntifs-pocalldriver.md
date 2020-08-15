@@ -55,13 +55,13 @@ The <b>PoCallDriver</b> routine passes a power <a href="https://docs.microsoft.c
 
 
 
-### -param DeviceObject [in]
-
+### -param DeviceObject 
+[in]
 A pointer to the driver-created <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> to which the IRP is to be routed.
 
 
-### -param Irp [in, out]
-
+### -param Irp 
+[in, out]
 A pointer to an IRP. 
 
 

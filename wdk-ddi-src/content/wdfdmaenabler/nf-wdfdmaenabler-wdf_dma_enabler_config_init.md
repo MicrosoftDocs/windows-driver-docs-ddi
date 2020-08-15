@@ -57,18 +57,18 @@ The <b>WDF_DMA_ENABLER_CONFIG_INIT</b> function initializes a driver's <a href="
 
 
 
-### -param Config [out]
-
+### -param Config 
+[out]
 A pointer to a driver-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmaenabler/ns-wdfdmaenabler-_wdf_dma_enabler_config">WDF_DMA_ENABLER_CONFIG</a> structure.
 
 
-### -param Profile [in]
-
+### -param Profile 
+[in]
 A value for the <b>Profile</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmaenabler/ns-wdfdmaenabler-_wdf_dma_enabler_config">WDF_DMA_ENABLER_CONFIG</a> structure.
 
 
-### -param MaximumLength [in]
-
+### -param MaximumLength 
+[in]
 A value for the <b>MaximumLength</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmaenabler/ns-wdfdmaenabler-_wdf_dma_enabler_config">WDF_DMA_ENABLER_CONFIG</a> structure.
 
 

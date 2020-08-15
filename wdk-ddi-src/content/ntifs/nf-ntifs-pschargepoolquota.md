@@ -55,13 +55,13 @@ The <b>PsChargePoolQuota</b> routine charges pool quota of the specified pool ty
 
 
 
-### -param Process [in]
-
+### -param Process 
+[in]
 Pointer to the process whose quota is to be charged.
 
 
-### -param PoolType [in]
-
+### -param PoolType 
+[in]
 Type of pool quota to charge, which can be one of the following: 
 
 <ul>
@@ -75,8 +75,8 @@ Type of pool quota to charge, which can be one of the following:
 <b>Note</b>: The <b>NonPagedPoolMustSucceed</b> and <b>NonPagedPoolCacheAlignedMustS</b> pool types are obsolete and should no longer be used. 
 
 
-### -param Amount [in]
-
+### -param Amount 
+[in]
 Number of bytes to charge against the pool quota for this process. 
 
 

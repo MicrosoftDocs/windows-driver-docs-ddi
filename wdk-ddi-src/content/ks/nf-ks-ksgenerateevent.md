@@ -56,8 +56,8 @@ The <b>KsGenerateEvent</b> function generates a standard event notification give
 
 
 
-### -param EventEntry [in]
-
+### -param EventEntry 
+[in]
 Specifies the event entry structure that references the event data. The information is used to determine what type of notification to perform. If the notification type is not one of the predefined standards, an error is returned. In the case of a single, nonrecurring event, this entry will be invalid on returning from the function. Therefore, any code that enumerates a list of events must preincrement to acquire the next event in the list before passing this event to the function.
 
 

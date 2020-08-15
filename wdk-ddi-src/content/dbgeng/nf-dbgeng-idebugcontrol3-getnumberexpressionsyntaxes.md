@@ -55,8 +55,8 @@ The <b>GetNumberExpressionSyntaxes</b> method returns the number of expression s
 
 
 
-### -param Number [out]
-
+### -param Number 
+[out]
 Receives the number of expression syntaxes.
 
 

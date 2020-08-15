@@ -55,13 +55,13 @@ req.typenames:
 
 
 
-### -param NameCacheCtl [in]
-
+### -param NameCacheCtl 
+[in]
 A pointer to the NAME_CACHE_CONTROL structure for the name cache.
 
 
-### -param NameCache [in]
-
+### -param NameCache 
+[in]
 A pointer to the NAME_CACHE structure to free.
 
 

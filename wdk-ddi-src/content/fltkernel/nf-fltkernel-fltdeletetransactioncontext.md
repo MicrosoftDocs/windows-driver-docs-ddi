@@ -56,18 +56,18 @@ The <b>FltDeleteTransactionContext</b> routine removes a context from a given tr
 
 
 
-### -param Instance [in]
-
+### -param Instance 
+[in]
 Opaque instance pointer for the caller. 
 
 
-### -param Transaction [in]
-
+### -param Transaction 
+[in]
 Opaque transaction pointer for the transaction whose context is being deleted. 
 
 
-### -param OldContext [out, optional]
-
+### -param OldContext 
+[out, optional]
 Pointer to a caller-allocated variable that receives the address of the deleted context. This parameter is optional and can be <b>NULL</b>. If <i>OldContext</i> is not <b>NULL</b> and does not point to NULL_CONTEXT, the caller is responsible for calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasecontext">FltReleaseContext</a> to release this context when it is no longer needed. 
 
 

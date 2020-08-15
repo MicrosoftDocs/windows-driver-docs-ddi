@@ -57,13 +57,13 @@ Appends the specified resource descriptor to the specified I/O resource list obj
 
 
 
-### -param IoResourceList [in]
-
+### -param IoResourceList 
+[in]
  A role's I/O resource list object to which the resource descriptor is appended. This object is allocated by the framework and passed to the client driver when the framework invokes the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ursdevice/nc-ursdevice-evt_urs_device_filter_resource_requirements">EVT_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS</a> implementation.
 
 
-### -param Descriptor [in]
-
+### -param Descriptor 
+[in]
 A pointer to  IO_RESOURCE_DESCRIPTOR that contains the resource descriptor for the role.
 
 

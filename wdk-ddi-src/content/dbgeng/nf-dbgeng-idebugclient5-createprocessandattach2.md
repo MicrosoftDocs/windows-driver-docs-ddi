@@ -55,33 +55,33 @@ The <b>CreateProcessAndAttach2</b>  method creates a process from a specified co
 
 
 
-### -param Server [in]
-
+### -param Server 
+[in]
 Specifies the process server to use to attach to the process.  If <i>Server</i> is zero, the engine will connect to the local process without using a process server.
 
 
-### -param CommandLine [in, optional]
-
+### -param CommandLine 
+[in, optional]
 Specifies the command line to execute to create the new process.  If <i>CommandLine</i> is <b>NULL</b>, no process is created and these methods will use <i>ProcessId</i> to attach to an existing process.
 
 
-### -param OptionsBuffer [in]
-
+### -param OptionsBuffer 
+[in]
 Specifies the process creation options.  <i>OptionsBuffer</i> is a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_create_process_options">DEBUG_CREATE_PROCESS_OPTIONS</a> structure.
 
 
-### -param OptionsBufferSize [in]
-
+### -param OptionsBufferSize 
+[in]
 Specifies the size of the buffer <i>OptionsBuffer</i>.  This should be set to <b>sizeof(DEBUG_CREATE_PROCESS_OPTIONS)</b>.
 
 
-### -param InitialDirectory [in, optional]
-
+### -param InitialDirectory 
+[in, optional]
 Specifies the starting directory for the process.  This parameter is used only if <i>CommandLine</i> is not <b>NULL</b>.  If <i>InitialDirectory</i> is <b>NULL</b>, the current directory for the process server is used.
 
 
-### -param Environment [in, optional]
-
+### -param Environment 
+[in, optional]
 Specifies an environment block for the new process.  An environment block consists of a null-terminated block of null-terminated strings.  Each string is of the form:
 
 <div class="code"><span codelanguage=""><table>
@@ -99,13 +99,13 @@ Note that the last two characters of the environment block are both <b>NULL</b>:
 If <i>Environment</i> is set to <b>NULL</b>, the new process inherits the environment block of the process server.  If the DEBUG_CREATE_PROCESS_THROUGH_RTL flag is set in <i>OptionsBuffer</i>, then <i>Environment</i> must be <b>NULL</b>.
 
 
-### -param ProcessId [in]
-
+### -param ProcessId 
+[in]
 Specifies the process ID of the target process to which the debugger will attach.  If <i>ProcessID</i> is zero, the debugger will attach to the process it created from <i>CommandLine</i>.
 
 
-### -param AttachFlags [in]
-
+### -param AttachFlags 
+[in]
 Specifies the flags that control how the debugger attaches to the target process.  For details on these flags, see <a href="https://docs.microsoft.com/previous-versions/ff541454(v=vs.85)">DEBUG_ATTACH_XXX</a>.
 
 

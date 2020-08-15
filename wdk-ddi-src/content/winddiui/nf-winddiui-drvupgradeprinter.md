@@ -92,8 +92,8 @@ Caller-supplied value indicating the type of structure pointed to by <i>pDriverU
  
 
 
-### -param pDriverUpgradeInfo [in, optional]
-
+### -param pDriverUpgradeInfo 
+[in, optional]
 Caller-supplied pointer to a structure whose type is identified by <i>dwLevel</i>. 
 
 

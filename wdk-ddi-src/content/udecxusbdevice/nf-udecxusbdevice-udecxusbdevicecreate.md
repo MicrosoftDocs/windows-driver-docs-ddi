@@ -56,18 +56,18 @@ Creates a USB Device Emulation (UDE) device object.
 
 
 
-### -param UdecxUsbDeviceInit [in, out]
-
+### -param UdecxUsbDeviceInit 
+[in, out]
 A pointer to a WDF-allocated structure that contains initialization parameters for the virtual USB device.  The client driver retrieved this pointer in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbdevice/nf-udecxusbdevice-udecxusbdeviceinitallocate">UdecxUsbDeviceInitAllocate</a>. 
 
 
-### -param Attributes [in, optional]
-
+### -param Attributes 
+[in, optional]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that specifies attributes for the USB device object. 
 
 
-### -param UdecxUsbDevice [out]
-
+### -param UdecxUsbDevice 
+[out]
 A pointer to a variable that receives a handle to the new UDE device object that represents the virtual USB device.
 
 

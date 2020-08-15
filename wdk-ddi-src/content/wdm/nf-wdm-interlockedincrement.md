@@ -60,8 +60,8 @@ The <b>InterlockedIncrement</b> routine increments a caller-supplied variable as
 
 
 
-### -param Addend [in, out]
-
+### -param Addend 
+[in, out]
 A pointer to a variable of type LONG. 
 
 

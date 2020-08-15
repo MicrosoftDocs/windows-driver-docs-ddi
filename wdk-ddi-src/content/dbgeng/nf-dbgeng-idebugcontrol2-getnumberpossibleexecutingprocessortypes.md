@@ -57,8 +57,8 @@ The <b>GetNumberPossibleExecutingProcessorTypes</b> method returns the number of
 
 
 
-### -param Number [out]
-
+### -param Number 
+[out]
 Receives the number of processor types.
 
 

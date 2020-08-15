@@ -55,7 +55,7 @@ The <b>WppRecorderLinkCounters</b> method  uses a sequence number to merge logs 
 
 
 
-### -param CounterOwner [in]
-
+### -param CounterOwner 
+[in]
 ID of the counter whose current value is to be read.
 

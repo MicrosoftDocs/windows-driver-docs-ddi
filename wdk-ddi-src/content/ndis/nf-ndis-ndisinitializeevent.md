@@ -58,8 +58,8 @@ The
 
 
 
-### -param Event [out]
-
+### -param Event 
+[out]
 A pointer to caller-supplied storage for the event object, which is opaque to drivers.
 
 

@@ -55,8 +55,8 @@ The <b>IoAdjustPagingPathCount</b> routine increments or decrements a caller-sup
 
 
 
-### -param _count_[in]
-
+### -param _count_
+[in]
 Pointer to a caller-supplied variable that contains a counter. A driver typically stores a page-file counter in the device extension for the device.
 
 

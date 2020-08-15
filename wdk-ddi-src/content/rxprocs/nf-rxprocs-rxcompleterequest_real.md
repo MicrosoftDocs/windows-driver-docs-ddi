@@ -55,18 +55,18 @@ req.typenames:
 
 
 
-### -param RxContext [in]
-
+### -param RxContext 
+[in]
 A pointer to the RX_CONTEXT structure associated with the IRP to complete.
 
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 A pointer to the IRP to complete.
 
 
-### -param Status [in]
-
+### -param Status 
+[in]
 The status value to return when the IRP request is complete. This is the value that will be stored in the <b>IoStatus.Status</b> member of the associated IRP on completion.
 
 

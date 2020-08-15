@@ -58,8 +58,8 @@ The
 
 
 
-### -param NdisHandle [in]
-
+### -param NdisHandle 
+[in]
 An NDIS driver or instance handle that was obtained during caller initialization. For example, a
      miniport driver can use the NDIS handle that it obtained from the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterminiportdriver">
@@ -77,8 +77,8 @@ An NDIS driver or instance handle that was obtained during caller initialization
 
 
 
-### -param SGListParameters [in]
-
+### -param SGListParameters 
+[in]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_scatter_gather_list_parameters">
      NDIS_SCATTER_GATHER_LIST_PARAMETERS</a> structure that specifies the parameters for allocating the

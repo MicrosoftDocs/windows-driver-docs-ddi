@@ -57,42 +57,42 @@ The <b>FindSourceFile</b>  method searches the source path for a specified sourc
 
 
 
-### -param StartElement [in]
-
+### -param StartElement 
+[in]
 Specifies the index of an element within the source path to start searching from.  All elements in the source path before <i>StartElement</i> are excluded from the search.  The index of the first element is zero.  If <i>StartElement</i> is greater than or equal to the number of elements in the source path, the filing system is checked directly.
 
 This parameter can be used with <i>FoundElement</i> to check for multiple matches in the source path.
 
 
-### -param File [in]
-
+### -param File 
+[in]
 Specifies the path and file name of the file to search for.
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 Specifies the search flags. For a description of these flags, see <a href="https://docs.microsoft.com/previous-versions/ff541495(v=vs.85)">DEBUG_FIND_SOURCE_XXX</a>.
 
 The flag DEBUG_FIND_SOURCE_TOKEN_LOOKUP should not be set.  The flag DEBUG_FIND_SOURCE_NO_SRCSRV is ignored because this method does not include source servers in the search.
 
 
-### -param FoundElement [out, optional]
-
+### -param FoundElement 
+[out, optional]
 Receives the index of the element within the source path that contains the file.  If the file was found directly on the filing system (not using the source path) then <b>-1</b> is returned to <i>FoundElement</i>.  If <i>FoundElement</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param Buffer [out, optional]
-
+### -param Buffer 
+[out, optional]
 Receives the path and name of the found file.  If the flag DEBUG_FIND_SOURCE_FULL_PATH is set, this is the full canonical path name for the file.  Otherwise, it is the concatenation of the directory in the source path with the tail of <i>File</i> that was used to find the file.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param BufferSize [in]
-
+### -param BufferSize 
+[in]
 Specifies the size, in characters, of the <i>Buffer</i> buffer.
 
 
-### -param FoundSize [out, optional]
-
+### -param FoundSize 
+[out, optional]
 Specifies the size, in characters, of the name of the file.  If <i>FoundSize</i> is <b>NULL</b>, this information is not returned.
 
 

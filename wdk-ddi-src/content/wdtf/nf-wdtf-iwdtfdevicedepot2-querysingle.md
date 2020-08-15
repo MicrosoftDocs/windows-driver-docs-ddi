@@ -55,13 +55,13 @@ Returns a single target device from the DeviceDepot.
 
 
 
-### -param SDEL [in]
-
+### -param SDEL 
+[in]
 The SDEL query string.
 
 
-### -param ppTarget [out, retval]
-
+### -param ppTarget 
+[out, retval]
 The requested device.
 
 

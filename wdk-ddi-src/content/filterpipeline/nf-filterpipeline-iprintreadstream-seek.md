@@ -55,18 +55,18 @@ The <code>Seek</code> method changes the seek pointer to a new location in the s
 
 
 
-### -param dlibMove [in]
-
+### -param dlibMove 
+[in]
 The displacement that is added to the location that <i>dwOrigin</i> specifies.
 
 
-### -param dwOrigin [in]
-
+### -param dwOrigin 
+[in]
 The origin for the displacement that <i>dlibMove</i> specifies. The origin can be the beginning of the file (STREAM_SEEK_SET), the current seek pointer (STREAM_SEEK_CUR), or the end of the file (STREAM_SEEK_END). 
 
 
-### -param plibNewPosition [out]
-
+### -param plibNewPosition 
+[out]
 A pointer to the location where <code>Seek</code> writes the value of the new seek pointer from the beginning of the stream. 
 
 

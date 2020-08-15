@@ -55,8 +55,8 @@ The <b>RtlNtStatusToDosError</b> routine converts the specified NTSTATUS code to
 
 
 
-### -param Status [in]
-
+### -param Status 
+[in]
 The NTSTATUS code to be converted.
 
 

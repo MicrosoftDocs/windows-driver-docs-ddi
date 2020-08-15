@@ -55,13 +55,13 @@ The <b>IoVolumeDeviceToDosName</b> routine returns the MS-DOS path for a specifi
 
 
 
-### -param VolumeDeviceObject [in]
-
+### -param VolumeDeviceObject 
+[in]
 A pointer to a device object that represents a volume device object created by a storage class driver.
 
 
-### -param DosName [out]
-
+### -param DosName 
+[out]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure. If the call is successful, <b>IoVolumeDeviceToDosName</b> sets the values of the <b>Length</b>, <b>MaximumLength</b>, and <b>Buffer</b> members of this structure. On exit, the <b>Buffer</b> member points to a wide-character, null-terminated string that contains the MS-DOS path of the volume device object specified by <i>VolumeDeviceObject</i>. For more information, see Remarks.
 
 

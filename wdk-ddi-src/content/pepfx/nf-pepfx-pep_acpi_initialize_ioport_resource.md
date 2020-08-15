@@ -55,35 +55,35 @@ The <b>PEP_ACPI_INITIALIZE_IOPORT_RESOURCE</b> function initializes a platform e
 
 
 
-### -param Decode [in]
-
+### -param Decode 
+[in]
 Specifies how to decode the resource address. If bit 0 is a 1, this indicates that the logical device decodes 16-bit addresses. If bit 0 is 0, this indicates that the logical device only decodes the first 10 bits of the address.
 
 Bits 1 to 7 of this parameter are reserved and must be set to zero.
 
 
-### -param MinimumAddress [in]
-
+### -param MinimumAddress 
+[in]
 Specifies the minimum acceptable starting address for the IO range.
 
 
-### -param MaximumAddress [in]
-
+### -param MaximumAddress 
+[in]
 Specifies the maximum acceptable starting address for the IO range.
 
 
-### -param Alignment [in]
-
+### -param Alignment 
+[in]
 Specifies the alignment granularity for the IO address assigned.
 
 
-### -param PortLength [in]
-
+### -param PortLength 
+[in]
 Specifies the number of bytes in the IO range.
 
 
-### -param Resource [out]
-
+### -param Resource 
+[out]
 A pointer to the resource. The structure behind the pointer is of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_io_memory_resource">PEP_ACPI_IO_MEMORY_RESOURCE</a>.
 
 

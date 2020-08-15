@@ -58,28 +58,28 @@ The <b>WdfLookasideListCreate</b> method creates a lookaside-list object, from w
 
 
 
-### -param LookasideAttributes [in, optional]
-
+### -param LookasideAttributes 
+[in, optional]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that contains object attributes for the new lookaside-list object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
 
-### -param BufferSize [in]
-
+### -param BufferSize 
+[in]
 The nonzero size, in bytes, of the buffer that the framework will allocate for each memory object. 
 
 
-### -param PoolType [in]
-
+### -param PoolType 
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type">POOL_TYPE</a>-typed value that specifies the type of memory to be allocated. 
 
 
-### -param MemoryAttributes [in, optional]
-
+### -param MemoryAttributes 
+[in, optional]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that contains object attributes for each memory object that the driver obtains from the lookaside list. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
 
-### -param PoolTag [in, optional]
-
+### -param PoolTag 
+[in, optional]
 A driver-defined pool tag for each memory object's buffer. Debuggers display this tag. Drivers typically specify a character string of up to four characters, delimited by single quotation marks, in reverse order (for example, 'dcba'). The ASCII value of each character in the tag must be between 0 and 127. Debugging your driver is easier if each pool tag is unique. 
 
 If <i>PoolTag</i> is zero, the framework provides a default pool tag that uses the first four characters of your driver's kernel-mode service name. If the service name begins with "WDF" (the name is not case sensitive and does not include the quotation marks), the next four characters are used. If fewer than four characters are available, "FxDr" is used.
@@ -87,8 +87,8 @@ If <i>PoolTag</i> is zero, the framework provides a default pool tag that uses t
 For KMDF versions 1.5 and later, your driver can use the <b>DriverPoolTag</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/ns-wdfdriver-_wdf_driver_config">WDF_DRIVER_CONFIG</a> structure to specify a default pool tag.
 
 
-### -param Lookaside [out]
-
+### -param Lookaside 
+[out]
 A pointer to a location that receives a handle to the new lookaside-list object.
 
 

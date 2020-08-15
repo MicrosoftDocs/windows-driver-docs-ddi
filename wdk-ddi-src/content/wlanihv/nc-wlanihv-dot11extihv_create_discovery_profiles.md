@@ -79,31 +79,31 @@ DWORD APIENTRY Dot11ExtIhvCreateDiscoveryProfiles(
 
 
 
-### -param hIhvExtAdapter [in, optional]
-
+### -param hIhvExtAdapter 
+[in, optional]
 The handle used by the IHV Extensions DLL to reference the wireless LAN (WLAN) adapter. This
      handle value was specified through a previous call to the
      <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a> IHV
      Handler function.
 
 
-### -param bInsecure [in]
-
+### -param bInsecure 
+[in]
 A Boolean value that specifies the security status of the discovery profiles. If set to <b>TRUE</b>, the
      IHV Extensions DLL can only return secure profiles, such as profiles which involve user
      authentication.
 
 
-### -param pIhvProfileParams [in, optional]
-
+### -param pIhvProfileParams 
+[in, optional]
 A pointer to a
      <a href="..\wlanihvtypes\ns-wlanihvtypes-_dot11ext_ihv_profile_params.md">
      DOT11EXT_IHV_PROFILE_PARAMS</a> structure. This structure defines the attributes of the basic service
      set (BSS) network to which the profile extensions will be applied.
 
 
-### -param pConnectableBssid [in, optional]
-
+### -param pConnectableBssid 
+[in, optional]
 A pointer to a
      <a href="..\wlclient\ns-wlclient-_dot11_bss_list.md">DOT11_BSS_LIST</a> structure, which contains one
      or more 802.11 Beacon or Probe Response frames received from a BSS network. This list is derived from
@@ -115,16 +115,16 @@ A pointer to a
 <div class="alert"><b>Note</b>  For Windows Vista, the IHV Extensions DLL supports only infrastructure basic
      service set (BSS) networks.</div>
 
-### -param pIhvDiscoveryProfileList [out]
-
+### -param pIhvDiscoveryProfileList 
+[out]
 A pointer to a
      <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_discovery_profile_list.md">
      DOT11EXT_IHV_DISCOVERY_PROFILE_LIST</a> structure that specifies a list of IHV discovery
      profiles.
 
 
-### -param pdwReasonCode [out]
-
+### -param pdwReasonCode 
+[out]
 A pointer to a DWORD value, which provides additional information for the return value of the
      <i>Dot11ExtIhvCreateDiscoveryProfiles</i> function. The IHV Extensions DLL must set *
      <i>pdwReasonCode</i> to an L2_REASON_CODE_xxxx value, which are defined in

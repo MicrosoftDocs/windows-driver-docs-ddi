@@ -55,31 +55,31 @@ The <b>DxgkCbSynchronizeExecution</b> function synchronizes a specified function
 
 
 
-### -param DeviceHandle [in]
-
+### -param DeviceHandle 
+[in]
 A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgkrnl_interface">DXGKRNL_INTERFACE</a> structure that was passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a>.
 
 
-### -param SynchronizeRoutine [in]
-
+### -param SynchronizeRoutine 
+[in]
 A pointer to a function, implemented by the display miniport driver, that will be synchronized with <i>DxgkDdiInterruptRoutine</i>. The function must conform to the following prototype:
 
 ```cpp
 BOOLEAN SynchronizeRoutine(PVOID Context);
 ```
 
-### -param Context [in]
-
+### -param Context 
+[in]
 A pointer to a context block, created by the display miniport driver, that will be passed to <i>SynchronizeRoutine</i>.
 
 
-### -param MessageNumber [in]
-
+### -param MessageNumber 
+[in]
 The number of the interrupt message with which <i>SynchronizeRoutine</i> will be synchronized. If the interrupt is line-based, this parameter must be zero.
 
 
-### -param ReturnValue [out]
-
+### -param ReturnValue 
+[out]
 A pointer to a Boolean variable that receives the return value of <i>SynchronizeRoutine</i>.
 
 

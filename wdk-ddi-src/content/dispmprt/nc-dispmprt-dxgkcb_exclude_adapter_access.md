@@ -55,13 +55,13 @@ The <b>DxgkCbExcludeAdapterAccess</b> function prevents all access to the displa
 
 
 
-### -param DeviceHandle [in]
-
+### -param DeviceHandle 
+[in]
 A handle that represents a display adapter. The display miniport driver obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgkrnl_interface">DXGKRNL_INTERFACE</a> structure that was passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a>.
 
 
-### -param Attributes [in]
-
+### -param Attributes 
+[in]
 A value that specifies video memory operations. This parameter can be any combination of the following bit flag values, except that DXGK_EXCLUDE_EVICT_ALL and DXGK_EXCLUDE_CALL_SYNCHRONOUS are mutually exclusive. These values are defined in <i>Dispmprt.h</i>.
 
 
@@ -85,13 +85,13 @@ Executes the protected <a href="https://docs.microsoft.com/windows-hardware/driv
 Protects access to the PCI Express (PCIe) root port when the driver needs to access the root port configuration space. Set the <i>Attributes</i> parameter to this value before calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_read_device_space">DxgkCbReadDeviceSpace</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_write_device_space">DxgkCbWriteDeviceSpace</a> functions with the <i>DataType</i> parameter set to DXGK_WHICHSPACE_BRIDGE.
 
 
-### -param DxgkProtectedCallback [in]
-
+### -param DxgkProtectedCallback 
+[in]
 The callback routine to be called back when all access to the adapter has been halted.
 
 
-### -param ProtectedCallbackContext [in]
-
+### -param ProtectedCallbackContext 
+[in]
 A pointer to the value to pass to the <i>ProtectedCallbackContext</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_protected_callback">DxgkProtectedCallback</a> callback routine.
 
 

@@ -55,13 +55,13 @@ The <b>IoSetFileOrigin</b> routine specifies whether a given file object is for 
 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 Pointer to the file object. 
 
 
-### -param Remote [in]
-
+### -param Remote 
+[in]
 Set to <b>TRUE</b> to set the FO_REMOTE_ORIGIN flag on the file object, <b>FALSE</b> to clear it. 
 
 

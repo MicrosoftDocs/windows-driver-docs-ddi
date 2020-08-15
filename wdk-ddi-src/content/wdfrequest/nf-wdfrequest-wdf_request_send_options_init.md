@@ -57,13 +57,13 @@ The <b>WDF_REQUEST_SEND_OPTIONS_INIT</b> function initializes a driver's <a href
 
 
 
-### -param Options [out]
-
+### -param Options 
+[out]
 A pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/ns-wdfrequest-_wdf_request_send_options">WDF_REQUEST_SEND_OPTIONS</a> structure.
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 A bitwise OR of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/ne-wdfrequest-_wdf_request_send_options_flags">WDF_REQUEST_SEND_OPTIONS_FLAGS</a>-typed flags. 
 
 

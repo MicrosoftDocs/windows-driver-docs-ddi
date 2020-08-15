@@ -55,8 +55,8 @@ The <b>IoGetPagingIoPriority</b> routine indicates the priority level of a pagin
 
 
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 Pointer to the IRP to be tested for paging priority.
 
 

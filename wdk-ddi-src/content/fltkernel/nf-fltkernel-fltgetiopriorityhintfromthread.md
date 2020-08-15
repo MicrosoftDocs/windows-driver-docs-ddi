@@ -55,8 +55,8 @@ The <b>FltGetIoPriorityHintFromThread</b> routine is used by a minifilter driver
 
 
 
-### -param Thread [in]
-
+### -param Thread 
+[in]
 A pointer to the thread from which to retrieve priority information. This parameter is required and cannot be <b>NULL</b>. 
 
 

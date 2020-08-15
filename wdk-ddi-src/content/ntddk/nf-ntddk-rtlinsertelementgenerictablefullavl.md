@@ -55,28 +55,28 @@ The <b>RtlInsertElementGenericTableFullAvl</b> routine adds a new entry to a gen
 
 
 
-### -param Table [in]
-
+### -param Table 
+[in]
 Pointer to a generic Adelson-Velsky/Landis (AVL) table (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_rtl_avl_table">RTL_AVL_TABLE</a>) that was initialized by a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinitializegenerictableavl">RtlInitializeGenericTableAvl</a>.
 
 
-### -param Buffer [in]
-
+### -param Buffer 
+[in]
 A caller-allocated buffer that contains the user data to copy into the new element. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinitializegenerictableavl">RtlInitializeGenericTableAvl</a>. 
 
 
-### -param BufferSize [in]
-
+### -param BufferSize 
+[in]
 Size in bytes of data in <i>Buffer.</i>
 
 
-### -param NewElement [out, optional]
-
+### -param NewElement 
+[out, optional]
 On output, a value of <b>TRUE</b> means the insertion of the new element in the generic table was successful. A value of <b>FALSE</b> means the insertion failed.
 
 
-### -param NodeOrParent [in]
-
+### -param NodeOrParent 
+[in]
 The search result of a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtllookupelementgenerictablefullavl">RtlLookupElementGenericTableFullAvl</a>. This value indicates to the <b>RtlInsertElementGenericTableFullAvl</b> routine whether the tree is currently empty, or if not empty, whether to insert the new entry to the left or the right of the parent entry. The <i>SearchResult</i> parameter can have any of the following values:
 
 
@@ -106,8 +106,8 @@ The <b>RtlInsertElementGenericTableFullAvl</b> routine did <i>not</i> find a tab
 The <b>RtlInsertElementGenericTableFullAvl</b> routine did <i>not</i> find a table entry whose key matches the data in <i>Buffer</i>. If the entry that <b>RtlInsertElementGenericTableFullAvl</b> searched for were in the table, it would be the right child of the entry that <i>NodeOrParent</i> points to.
 
 
-### -param SearchResult [in]
-
+### -param SearchResult 
+[in]
 A pointer to a table entry. If the <b>RtlInsertElementGenericTableFullAvl</b> routine matches an entry, <i>NodeOrParent</i> points to the matched entry. If the <b>RtlInsertElementGenericTableFullAvl</b> routine fails to find a match, <i>NodeOrParent</i> points to the entry that would be the parent of the entry that <b>RtlInsertElementGenericTableFullAvl</b> routine was searching for.
 
 

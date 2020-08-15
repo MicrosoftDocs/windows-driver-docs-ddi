@@ -55,18 +55,18 @@ The <b>FsRtlLookupPerFileContext </b>routine returns a pointer to a <a href="htt
 
 
 
-### -param PerFileContextPointer [in]
-
+### -param PerFileContextPointer 
+[in]
 A pointer to an opaque pointer that is used by the file system runtime library (FSRTL) package to track file contexts. To retrieve this pointer from a file object, use the <a href="https://docs.microsoft.com/previous-versions/ff546051(v=vs.85)">FsRtlGetPerFileContextPointer</a> macro.
 
 
-### -param OwnerId [in, optional]
-
+### -param OwnerId 
+[in, optional]
 A pointer to a filter driver-allocated variable that uniquely identifies the owner of the per-file context structure.  The format of this variable is filter driver-specific. This parameter is optional, but must be non-<b>NULL</b> if <i>InstanceId</i> is non-<b>NULL</b>. 
 
 
-### -param InstanceId [in, optional]
-
+### -param InstanceId 
+[in, optional]
 A pointer to a filter driver-allocated variable that can be used to distinguish among per-file context structures that are created by the same filter driver. The format of this variable is filter driver-specific. This parameter is optional.
 
 

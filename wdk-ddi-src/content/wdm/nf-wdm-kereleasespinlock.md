@@ -65,13 +65,13 @@ KeReleaseSpinLock (
 
 
 
-### -param SpinLock [in]
-
+### -param SpinLock 
+[in]
 Pointer to a KSPIN_LOCK spin lock for which the caller provides the storage.
 
 
-### -param NewIrql [in, out]
-
+### -param NewIrql 
+[in, out]
 Specifies the KIRQL value saved from the preceding call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keacquirespinlock">KeAcquireSpinLock</a>.
 
 

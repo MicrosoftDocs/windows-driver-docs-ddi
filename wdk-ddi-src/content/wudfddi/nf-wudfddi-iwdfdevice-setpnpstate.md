@@ -57,13 +57,13 @@ The <b>SetPnpState</b> method turns on or off (or sets to the default state) the
 
 
 
-### -param State [in]
-
+### -param State 
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi_types/ne-wudfddi_types-_wdf_pnp_state">WDF_PNP_STATE</a>-typed value that identifies the PnP property to set.
 
 
-### -param Value [in]
-
+### -param Value 
+[in]
 A WDF_TRI_STATE-typed value that identifies how to set the PnP property that <i>State</i> specifies. The following table shows the possible values for <i>Value</i>.
 
 <table>

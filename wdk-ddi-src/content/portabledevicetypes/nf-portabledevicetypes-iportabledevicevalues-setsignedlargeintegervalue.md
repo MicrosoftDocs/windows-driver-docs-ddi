@@ -59,13 +59,13 @@ Adds a new <b>LONGLONG</b> value (type VT_I8) or overwrites an existing one.
 
 
 
-### -param key [in]
-
+### -param key 
+[in]
 A <b>REFPROPERTYKEY</b> that specifies the item to create or overwrite.
 
 
-### -param Value [in]
-
+### -param Value 
+[in]
 A <b>LONGLONG</b> that specifies the new value.
 
 

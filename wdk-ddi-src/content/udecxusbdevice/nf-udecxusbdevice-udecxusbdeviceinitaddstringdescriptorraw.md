@@ -56,28 +56,28 @@ Adds a USB string descriptor to the initialization parameters used to create a v
 
 
 
-### -param UdecxUsbDeviceInit [in, out]
-
+### -param UdecxUsbDeviceInit 
+[in, out]
 A pointer to a WDF-allocated structure that contains initialization parameters for the virtual USB device.  The client driver retrieved this pointer in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbdevice/nf-udecxusbdevice-udecxusbdeviceinitallocate">UdecxUsbDeviceInitAllocate</a>. 
 
 
-### -param Descriptor [in]
-
+### -param Descriptor 
+[in]
 A caller-allocated buffer that contains the USB descriptor to add to the device.
 
 
-### -param DescriptorLength [in]
-
+### -param DescriptorLength 
+[in]
 The length of the descriptor buffer.
 
 
-### -param DescriptorIndex [in]
-
+### -param DescriptorIndex 
+[in]
 The index of the descriptor.
 
 
-### -param LanguageId [in]
-
+### -param LanguageId 
+[in]
 The language identifier of the string. The client driver must define constants for the language support, such as:
 
 <code>const USHORT US_ENGLISH = 0x409;

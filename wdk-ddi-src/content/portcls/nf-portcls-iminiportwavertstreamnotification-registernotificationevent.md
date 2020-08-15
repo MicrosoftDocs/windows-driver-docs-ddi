@@ -55,8 +55,8 @@ The <code>RegisterNotificationEvent</code> method registers an event to be notif
 
 
 
-### -param NotificationEvent [in]
-
+### -param NotificationEvent 
+[in]
 A pointer to a kernel event (PKEVENT) to be registered for notification as DMA progresses.
 
 

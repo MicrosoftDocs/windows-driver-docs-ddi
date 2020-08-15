@@ -55,8 +55,8 @@ The <b>SeMarkLogonSessionForTerminationNotification</b> routine marks a logon se
 
 
 
-### -param LogonId [in]
-
+### -param LogonId 
+[in]
 Pointer to the logon ID of the logon session.
 
 

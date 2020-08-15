@@ -50,20 +50,20 @@ The **USBCAMD_Debug_LogEntry** function is called by the camera minidriver to lo
 
 ## -parameters
 
-### -param Name [in]
-
+### -param Name 
+[in]
 Pointer to a **NULL**-terminated string containing the name of the file to write the log entry to.
 
-### -param Info1 [in]
-
+### -param Info1 
+[in]
 Specifies the first information value to be written to the log file.
 
-### -param Info2 [in]
-
+### -param Info2 
+[in]
 Specifies the second information value to be written to the log file.
 
-### -param Info3 [in]
-
+### -param Info3 
+[in]
 Specifies the third information value to be written to the log file.
 
 ## -remarks

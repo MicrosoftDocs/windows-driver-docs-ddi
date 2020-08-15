@@ -58,18 +58,18 @@ The <b>WdfDpcCreate</b> method creates a framework DPC object and registers an <
 
 
 
-### -param Config [in]
-
+### -param Config 
+[in]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdpc/ns-wdfdpc-_wdf_dpc_config">WDF_DPC_CONFIG</a> structure.
 
 
-### -param Attributes [in]
-
+### -param Attributes 
+[in]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that specifies attributes for the new DPC object. 
 
 
-### -param Dpc [out]
-
+### -param Dpc 
+[out]
 A pointer to a location that receives a handle to the new framework DPC object.
 
 

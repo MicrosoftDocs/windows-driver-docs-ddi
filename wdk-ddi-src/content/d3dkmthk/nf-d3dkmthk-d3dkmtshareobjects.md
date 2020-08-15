@@ -58,32 +58,32 @@ Shares resource objects that were created with  the <a href="https://docs.micros
 
 
 
-### -param cObjects [in]
-
+### -param cObjects 
+[in]
 The number of resource objects specified by the <i>hObjects</i> parameter.
 
 The number of resource objects must be ≤<b>D3DKMT_MAX_OBJECTS_PER_HANDLE</b>.
 
 
-### -param hObjects [in]
-
+### -param hObjects 
+[in]
 A pointer to an array of local kernel-mode handles that specify the resource objects to be shared.
 
 For more information on using <i>hObjects</i>, see the Remarks section.
 
 
-### -param pObjectAttributes [in]
-
+### -param pObjectAttributes 
+[in]
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that specifies attributes of the  resource objects.
 
 
-### -param dwDesiredAccess [in]
-
+### -param dwDesiredAccess 
+[in]
 Specifies read and write access for the resource.
 
 
-### -param phSharedNtHandle [out]
-
+### -param phSharedNtHandle 
+[out]
 A pointer to a shared NT handle  that specifies the resource objects.
 
 This parameter must be <b>NULL</b> if the <b>NtSecuritySharing</b> flag value is not set. For more information, see the Remarks section.

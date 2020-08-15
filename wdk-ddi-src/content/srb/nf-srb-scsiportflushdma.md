@@ -56,8 +56,8 @@ The <b>ScsiPortFlushDma</b> routine flushes any data cached in the system DMA co
 
 
 
-### -param DeviceExtension [in]
-
+### -param DeviceExtension 
+[in]
 Pointer to the miniport driver's per-HBA storage area.
 
 

@@ -55,23 +55,23 @@ The <b>KsProcessMediaSamples</b> method processes media samples.
 
 
 
-### -param KsDataTypeHandler [in]
-
+### -param KsDataTypeHandler 
+[in]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksdatatypehandler">IKsDataTypeHandler</a> interface for the data type handler that handles the type of media listed at <i>SampleList</i>. This data type handler has specific information about the media type being streamed.
 
 
-### -param SampleList [in]
-
+### -param SampleList 
+[in]
 Pointer to a buffer that contains an array of pointers to the <b>IMediaSample</b> interfaces for the list of media samples to process. 
 
 
-### -param SampleCount [in, out]
-
+### -param SampleCount 
+[in, out]
 Pointer to a variable that initially contains the number of samples in the list at <i>SampleList</i> and, on return, receives the actual number of samples processed.
 
 
-### -param IoOperation [in]
-
+### -param IoOperation 
+[in]
 Value that specifies the type of I/O operation. This value can be one of the following values from the KSIOOPERATION enumerated type:
 
 <table>
@@ -103,8 +103,8 @@ Read data from stream.
  
 
 
-### -param StreamSegment [out]
-
+### -param StreamSegment 
+[out]
 Pointer to a buffer that receives a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/ns-ksproxy-_ksstream_segment">KSSTREAM_SEGMENT</a> structure that contains header information for a stream segment that is sent to the kernel-mode pin. 
 
 

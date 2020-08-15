@@ -58,8 +58,8 @@ The <b>WdfIoTargetWdmGetTargetDeviceObject</b> method returns a pointer to the W
 
 
 
-### -param IoTarget [in]
-
+### -param IoTarget 
+[in]
 A handle to a local or remote I/O target object that was obtained from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicegetiotarget">WdfDeviceGetIoTarget</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetcreate">WdfIoTargetCreate</a> or from a method that a specialized I/O target supplies.
 
 

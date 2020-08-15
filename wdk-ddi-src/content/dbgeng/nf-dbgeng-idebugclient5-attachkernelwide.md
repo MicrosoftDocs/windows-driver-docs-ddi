@@ -55,8 +55,8 @@ The <b>AttachKernelWide</b> method connects the <a href="https://docs.microsoft.
 
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 Specifies the flags that control how the debugger attaches to the kernel target.  The possible values are:
 
 <table>
@@ -88,8 +88,8 @@ Attach to a kernel by using an eXDI driver.
  
 
 
-### -param ConnectOptions [in, optional]
-
+### -param ConnectOptions 
+[in, optional]
 Specifies the connection settings for communicating with the computer running the kernel target.  The interpretation of <i>ConnectOptions</i> depends on the value of <i>Flags</i>.
 
 

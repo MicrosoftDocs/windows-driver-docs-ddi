@@ -57,13 +57,13 @@ req.typenames:
 
 
 
-### -param SwapChainObject [in]
-
+### -param SwapChainObject 
+[in]
 The swap-chain object whose current frame is being queried.
 
 
-### -param pInArgs [in]
-
+### -param pInArgs 
+[in]
 Input arguments to the function
 
 

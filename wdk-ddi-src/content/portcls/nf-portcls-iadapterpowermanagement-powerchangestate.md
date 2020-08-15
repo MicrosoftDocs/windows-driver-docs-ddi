@@ -55,8 +55,8 @@ The <code>PowerChangeState</code> method requests that the device change to a ne
 
 
 
-### -param NewState [in]
-
+### -param NewState 
+[in]
 Specifies the new power state being requested for the device. This parameter is a union of type POWER_STATE. The new power state (<i>NewState</i>.<b>DeviceState</b>) can be one of the DEVICE_POWER_STATE enumeration values shown in the following table.
 
 <table>

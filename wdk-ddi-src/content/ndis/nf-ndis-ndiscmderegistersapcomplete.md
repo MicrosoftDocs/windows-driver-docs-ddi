@@ -57,13 +57,13 @@ req.typenames:
 
 
 
-### -param Status [in]
-
+### -param Status 
+[in]
 Specifies NDIS_STATUS_SUCCESS.
 
 
-### -param NdisSapHandle [in]
-
+### -param NdisSapHandle 
+[in]
 Specifies the handle identifying the SAP.
 
 

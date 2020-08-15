@@ -55,35 +55,35 @@ Called by the operating system to handle the asynchronous kernel-mode message th
 
 
 
-### -param pMiracastContext [in]
-
+### -param pMiracastContext 
+[in]
 A pointer to a context associated with a display adapter.
 
 The operating system obtained the context when it called the Miracast user-mode driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_create_miracast_context">CreateMiracastContext</a> function.
 
 
-### -param InputBufferSize [in]
-
+### -param InputBufferSize 
+[in]
 The size of the input buffer <i>pInputBuffer</i>, supplied by the operating system.
 
 
-### -param pInputBuffer [in]
-
+### -param pInputBuffer 
+[in]
 A pointer to the input buffer, supplied by the operating system.
 
 
-### -param OutputBufferSize [in]
-
+### -param OutputBufferSize 
+[in]
 The size of the output buffer <i>pOutputBuffer</i>, supplied by the operating system.
 
 
-### -param pOutputBuffer [out]
-
+### -param pOutputBuffer 
+[out]
 A pointer to the output buffer, supplied by the operating system.
 
 
-### -param pBytesReturned [out]
-
+### -param pBytesReturned 
+[out]
 A pointer to a buffer, supplied by the operating system, that holds the number of returned bytes that the display miniport driver wrote in <i>pOutputBuffer</i>.
 
 

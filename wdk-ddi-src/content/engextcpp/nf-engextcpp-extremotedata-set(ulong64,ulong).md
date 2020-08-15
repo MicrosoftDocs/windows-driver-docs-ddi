@@ -56,13 +56,13 @@ The <b>Set</b> method sets the region of the target's memory represented by the 
 
 
 
-### -param Offset [in]
-
+### -param Offset 
+[in]
 Location of the beginning of the memory region in the target's virtual address space.
 
 
-### -param Bytes [in]
-
+### -param Bytes 
+[in]
 Number of bytes in the memory region.
 
 

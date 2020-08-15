@@ -57,13 +57,13 @@ A driver's <i>EvtDeviceSetLock</i> event callback function locks the specified d
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object.
 
 
-### -param IsLocked [in]
-
+### -param IsLocked 
+[in]
 A Boolean value that indicates whether the driver must lock or unlock the device. If <b>TRUE</b>, the driver must lock the device so that it cannot be ejected. If <b>FALSE</b>, the driver must unlock the device so that it can be ejected. 
 
 

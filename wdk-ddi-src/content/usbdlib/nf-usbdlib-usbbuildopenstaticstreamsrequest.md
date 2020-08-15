@@ -55,22 +55,22 @@ The <b>UsbBuildOpenStaticStreamsRequest</b> inline function formats an <a href="
 
 
 
-### -param Urb [in, out]
-
+### -param Urb 
+[in, out]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a> structure to be formatted for the open-stream request (URB_FUNCTION_OPEN_STATIC_STREAMS). The caller must allocate nonpaged pool for this <b>URB</b>.
 
 
 
 
-### -param PipeHandle [in]
-
+### -param PipeHandle 
+[in]
 An opaque handle for the pipe associated with the endpoint that contains the streams to open.
 
 The client driver obtains <b>PipeHandle</b> from a previous select-configuration request (URB_FUNCTION_SELECT_CONFIGURATION) or a select-interface request (URB_FUNCTION_SELECT_INTERFACE). 
 
 
-### -param NumberOfStreams [in]
-
+### -param NumberOfStreams 
+[in]
 The number of streams to open. The <b>NumberOfStreams</b> value indicates the number of elements in the array pointed to by <b>Streams</b>. This value must be greater than zero and less than or equal to the maximum number of streams supported by the host controller hardware. To get the maximum number of supported streams, call <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/hh406230(v=vs.85)">USBD_QueryUsbCapability</a>. 
 
 The number streams must also be less than or equal to the maximum number of streams supported by the USB device. To get that number, inspect the endpoint companion descriptor. 
@@ -78,8 +78,8 @@ The number streams must also be less than or equal to the maximum number of stre
 In the <b>NumberOfStreams</b> value, specify lesser of two values supported by the host controller and the USB device.
 
 
-### -param StreamInfoArray [in]
-
+### -param StreamInfoArray 
+[in]
 Pointer to a caller-allocated, initialized array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_usbd_stream_information">USBD_STREAM_INFORMATION</a> structures. The length of the array depends on the number of streams to open and must be the same as the <b>NumberOfStreams</b> value.
 
 

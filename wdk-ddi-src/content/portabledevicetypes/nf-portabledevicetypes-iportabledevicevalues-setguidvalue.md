@@ -59,13 +59,13 @@ Adds a new <b>GUID</b> value (type VT_CLSID) or overwrites an existing one.
 
 
 
-### -param key [in]
-
+### -param key 
+[in]
 A <b>REFPROPERTYKEY</b> that specifies the item to create or overwrite.
 
 
-### -param Value [in]
-
+### -param Value 
+[in]
 A <b>REFGUID</b> that contains the new value.
 
 

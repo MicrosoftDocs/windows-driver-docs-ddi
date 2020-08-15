@@ -55,13 +55,13 @@ The <b>CcIsThereDirtyDataEx</b> routine determines whether a volume contains any
 
 
 
-### -param Vpb [in]
-
+### -param Vpb 
+[in]
 A pointer to a volume parameter block (VPB) for the volume. 
 
 
-### -param NumberOfDirtyPages [in, optional]
-
+### -param NumberOfDirtyPages 
+[in, optional]
 An optional pointer to an unsigned long buffer that receives the number of dirty pages on the volume (associated with the Vpb parameter). 
 
 

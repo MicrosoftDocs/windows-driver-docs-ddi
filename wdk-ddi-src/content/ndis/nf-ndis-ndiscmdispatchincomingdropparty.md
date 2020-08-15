@@ -58,27 +58,27 @@ req.typenames:
 
 
 
-### -param DropStatus [in]
-
+### -param DropStatus 
+[in]
 Indicates the reason this party is being dropped, usually NDIS_STATUS_SUCCESS if the remote party
      simply requested that its connection be closed.
 
 
-### -param NdisPartyHandle [in]
-
+### -param NdisPartyHandle 
+[in]
 Specifies the handle that identifies the party to be dropped from the multipoint VC, which must
      have other parties that are still connected.
 
 
-### -param Buffer [in, optional]
-
+### -param Buffer 
+[in, optional]
 Pointer to a caller-allocated resident buffer containing additional protocol-specific data
      received from the remote party, if any. Depending on the underlying medium, this pointer can be
      <b>NULL</b>.
 
 
-### -param Size [in]
-
+### -param Size 
+[in]
 Specifies the size in bytes of the buffer, zero if 
      <i>Buffer</i> is <b>NULL</b>.
 

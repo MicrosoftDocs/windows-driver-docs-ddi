@@ -57,8 +57,8 @@ req.typenames:
 ### -param pdevobj
 
 
-### -param pBuf [in]
-
+### -param pBuf 
+[in]
 
 ### -param dwLen
 

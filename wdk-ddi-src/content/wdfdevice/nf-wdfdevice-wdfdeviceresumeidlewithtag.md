@@ -58,13 +58,13 @@ The **WdfDeviceResumeIdleWithTag** macro decrements the power reference count fo
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object.
 
 
-### -param Tag [in]
-
+### -param Tag 
+[in]
 A driver-defined value that the framework stores as an identification tag for the power reference.
 
 

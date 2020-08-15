@@ -57,15 +57,15 @@ req.typenames:
 
 
 
-### -param Status [in]
-
+### -param Status 
+[in]
 Specifies the final status of the requested operation, either NDIS_STATUS_SUCCESS or any
      CM-determined NDIS_STATUS_
      <i>XXX</i> except NDIS_STATUS_PENDING.
 
 
-### -param NdisPartyHandle [in]
-
+### -param NdisPartyHandle 
+[in]
 Specifies the handle to the party that the client requested to be dropped. The call manager
      obtained this handle from the state area designated by 
      <i>CallMgrPartyContext</i> that was passed as an input parameter to its 

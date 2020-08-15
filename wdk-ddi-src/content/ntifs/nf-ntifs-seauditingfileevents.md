@@ -55,13 +55,13 @@ The <b>SeAuditingFileEvents</b> routine determines whether file open events are 
 
 
 
-### -param AccessGranted [in]
-
+### -param AccessGranted 
+[in]
 Set to <b>TRUE</b> if the access attempt was successful, <b>FALSE</b> otherwise.
 
 
-### -param SecurityDescriptor [in]
-
+### -param SecurityDescriptor 
+[in]
 This parameter is ignored.
 
 

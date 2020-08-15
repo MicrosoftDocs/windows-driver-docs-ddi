@@ -57,13 +57,13 @@ The <b>OnDefaultIoHandler</b> method handles I/O requests that no other method i
 
 
 
-### -param pWdfQueue [in]
-
+### -param pWdfQueue 
+[in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfioqueue">IWDFIoQueue</a> interface for the I/O queue object that the default I/O request arrives from. 
 
 
-### -param pWdfRequest [in]
-
+### -param pWdfRequest 
+[in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest">IWDFIoRequest</a> interface that represents the framework request object. 
 
 

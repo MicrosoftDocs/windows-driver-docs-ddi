@@ -56,8 +56,8 @@ The
 
 
 
-### -param _ListHead [in]
-
+### -param _ListHead 
+[in]
 A pointer to driver-allocated nonpaged storage for the head of the interlocked queue or
      list.
 

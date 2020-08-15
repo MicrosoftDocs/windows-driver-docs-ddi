@@ -56,11 +56,11 @@ req.typenames:
 
 
 
-### -param DeviceInit [in, out]
+### -param DeviceInit 
+[in, out]
 
+### -param DeviceAttributes 
+[in, optional]
 
-### -param DeviceAttributes [in, optional]
-
-
-### -param Companion [out]
-
+### -param Companion 
+[out]

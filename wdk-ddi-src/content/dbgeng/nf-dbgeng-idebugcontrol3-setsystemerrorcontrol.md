@@ -57,13 +57,13 @@ The <b>SetSystemErrorControl</b> method sets the control values for handling sys
 
 
 
-### -param OutputLevel [in]
-
+### -param OutputLevel 
+[in]
 Specifies the level at which system errors are printed to the engine's output.  If the level of the system error is less than or equal to <i>OutputLevel</i>, the error is printed to the debugger console.
 
 
-### -param BreakLevel [in]
-
+### -param BreakLevel 
+[in]
 Specifies the level at which system errors break into the debugger.  If the level of the system error is less than or equal to <i>BreakLevel</i>, the error breaks into the debugger.
 
 

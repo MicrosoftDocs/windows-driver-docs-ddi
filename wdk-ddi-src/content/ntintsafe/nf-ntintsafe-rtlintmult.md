@@ -55,18 +55,18 @@ Multiplies one value of type <b>INT</b> by another.
 
 
 
-### -param iMultiplicand [in]
-
+### -param iMultiplicand 
+[in]
 The value to be multiplied by <i>iMultiplier</i>.
 
 
-### -param iMultiplier [in]
-
+### -param iMultiplier 
+[in]
 The value by which to multiply <i>iMultiplicand</i>.
 
 
-### -param piResult [out]
-
+### -param piResult 
+[out]
 A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
 

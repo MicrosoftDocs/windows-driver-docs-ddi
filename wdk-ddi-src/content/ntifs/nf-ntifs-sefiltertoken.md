@@ -55,13 +55,13 @@ The <b>SeFilterToken</b> routine creates a new access token that is a restricted
 
 
 
-### -param ExistingToken [in]
-
+### -param ExistingToken 
+[in]
 Pointer to a primary or impersonation token. The token can also be a restricted token. This token must already be open for TOKEN_DUPLICATE access. This pointer can be obtained from an existing token handle by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obreferenceobjectbyhandle">ObReferenceObjectByHandle</a>, specifying TOKEN_DUPLICATE as the <i>DesiredAccess</i> type. 
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 Specifies additional privilege options. This parameter can be zero or a combination of the following values. 
 
 <table>
@@ -93,8 +93,8 @@ Stores the TOKEN_SANDBOX_INERT flag in the token.
  
 
 
-### -param SidsToDisable [in, optional]
-
+### -param SidsToDisable 
+[in, optional]
 Pointer to a TOKEN_GROUPS structure containing an array of SID_AND_ATTRIBUTES structures that specify the deny-only SIDs in the restricted token. The system uses a deny-only SID to deny access to a securable object. The absence of a deny-only SID does not allow access. 
 
 Disabling a SID <u>turns on</u> SE_GROUP_USE_FOR_DENY_ONLY and <u>turns off</u> SE_GROUP_ENABLED and SE_GROUP_ENABLED_BY_DEFAULT. All other attributes are ignored 
@@ -106,8 +106,8 @@ Deny-only attributes apply to any combination of an existing token's SIDs, inclu
 This parameter is optional and can be <b>NULL</b>. 
 
 
-### -param PrivilegesToDelete [in, optional]
-
+### -param PrivilegesToDelete 
+[in, optional]
 Pointer to a TOKEN_PRIVILEGES structure containing an array of LUID_AND_ATTRIBUTES structures that specify the privileges to delete in the restricted token. 
 
 To get the privileges held by the existing token, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-sequeryinformationtoken">SeQueryInformationToken</a> with the TokenPrivileges flag. <b>SeFilterToken</b> ignores any privileges in the array that are not held by the existing token. 
@@ -117,8 +117,8 @@ To get the privileges held by the existing token, call <a href="https://docs.mic
 This parameter is optional and can be <b>NULL</b>. 
 
 
-### -param RestrictedSids [in, optional]
-
+### -param RestrictedSids 
+[in, optional]
 Pointer to a TOKEN_GROUPS structure containing an array of SID_AND_ATTRIBUTES structures that specify a list of restricting SIDs for the new token. If the existing token is a restricted token, the list of restricting SIDs for the new token is the intersection of this array and the list of restricting SIDs for the existing token. 
 
 The <b>Attributes</b> members of the SID_AND_ATTRIBUTES structures must be zero. Restricting SIDs are always enabled for access checks. 

@@ -57,8 +57,8 @@ The <b>Purge</b> method directs the framework to reject new incoming I/O request
 
 
 
-### -param pPurgeComplete [in, optional]
-
+### -param pPurgeComplete 
+[in, optional]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iqueuecallbackstatechange">IQueueCallbackStateChange</a> interface whose method the framework calls to deliver queue state to the driver. The framework calls the method after all requests are canceled. This parameter is optional and can be <b>NULL</b>.
 
 

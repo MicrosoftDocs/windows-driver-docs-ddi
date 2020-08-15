@@ -55,13 +55,13 @@ Evaluates whether all items in the collection match an SDEL statement.
 
 
 
-### -param SDEL [in]
-
+### -param SDEL 
+[in]
 The SDEL query string.
 
 
-### -param pResult [out, retval]
-
+### -param pResult 
+[out, retval]
 True if all items match; otherwise, false.
 
 

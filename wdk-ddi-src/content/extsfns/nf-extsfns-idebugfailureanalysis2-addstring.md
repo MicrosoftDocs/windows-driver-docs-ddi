@@ -60,8 +60,8 @@ The <b>AddString</b> method adds a new <a href="https://docs.microsoft.com/windo
 A value in the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration. The data type associated with this tag must be <b>DEBUG_FA_ENTRY_ANSI_STRING</b>.
 
 
-### -param Str [in]
-
+### -param Str 
+[in]
 A pointer to a null-terminated ANSI string to be written to the data block of the new <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/failure-analysis-entries">FA entry</a>.
 
 

@@ -58,8 +58,8 @@ The <b>KsGetBusEnumIdentifier</b> function retrieves the software bus enumerator
 
 
 
-### -param Irp [in, out]
-
+### -param Irp 
+[in, out]
 Pointer to the IRP that specifies the address and size of the user output buffer to receive the requested bus enumerator identifier.
 
 

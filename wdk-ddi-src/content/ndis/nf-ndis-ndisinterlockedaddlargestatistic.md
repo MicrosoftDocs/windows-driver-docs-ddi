@@ -57,14 +57,14 @@ The
 
 
 
-### -param _Addend [in]
-
+### -param _Addend 
+[in]
 A pointer to a LARGE_INTEGER value that is incremented by the value of 
      <i>Increment</i> .
 
 
-### -param _Increment [in]
-
+### -param _Increment 
+[in]
 A ULONG value that is added to the value to which the 
      <i>Addend</i> parameter points.
 

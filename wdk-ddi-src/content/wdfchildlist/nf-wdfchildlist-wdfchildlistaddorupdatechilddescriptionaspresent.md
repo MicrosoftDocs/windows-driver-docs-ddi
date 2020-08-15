@@ -58,18 +58,18 @@ The <b>WdfChildListAddOrUpdateChildDescriptionAsPresent</b> method adds a new ch
 
 
 
-### -param ChildList [in]
-
+### -param ChildList 
+[in]
 A handle to a framework child list object.
 
 
-### -param IdentificationDescription [in]
-
+### -param IdentificationDescription 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfchildlist/ns-wdfchildlist-_wdf_child_identification_description_header">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a> structure that identifies a child <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dynamic-enumeration">identification description</a>.
 
 
-### -param AddressDescription [in, optional]
-
+### -param AddressDescription 
+[in, optional]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfchildlist/ns-wdfchildlist-_wdf_child_address_description_header">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a> structure that identifies a child <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dynamic-enumeration">address description</a>. If an address description is not needed, this parameter can be <b>NULL</b>.
 
 

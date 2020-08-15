@@ -71,28 +71,28 @@ DWORD WINAPI * Dot11ExtSendPacket(
 
 
 
-### -param hDot11SvcHandle [in, optional]
-
+### -param hDot11SvcHandle 
+[in, optional]
 The handle used by the operating system to reference the WLAN adapter. This handle value was
      specified through a previous call to the
      <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a> IHV
      Handler function.
 
 
-### -param uPacketLen [in]
-
+### -param uPacketLen 
+[in]
 The length, in bytes, of the caller-allocated buffer referenced by the
      <i>pvPacket</i> parameter.
 
 
-### -param pvPacket [in]
-
+### -param pvPacket 
+[in]
 A pointer to a caller-allocated buffer that contains the data to be transmitted, as described in
      the Remarks section.
 
 
-### -param hSendCompletion [in, optional]
-
+### -param hSendCompletion 
+[in, optional]
 A handle value that uniquely identifies the send packet.
 
 

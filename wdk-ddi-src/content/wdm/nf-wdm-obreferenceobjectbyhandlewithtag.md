@@ -49,28 +49,28 @@ The **ObReferenceObjectByHandleWithTag** routine increments the reference count 
 
 ## -parameters
 
-### -param Handle [in]
-
+### -param Handle 
+[in]
 Specifies an open handle for an object.
 
-### -param DesiredAccess [in]
-
+### -param DesiredAccess 
+[in]
 Specifies the types of access to the object that the caller requests. This parameter is a bitmask of type [ACCESS_MASK](https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask). The interpretation of this field depends on the object type. Do not use any generic access rights.
 
-### -param ObjectType [in, optional]
-
+### -param ObjectType 
+[in, optional]
 A pointer to an opaque structure that specifies the object type. This parameter points to an [OBJECT_TYPE](https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess) structure. Set *ObjectType* to **NULL** or to one of the following pointer values, which are declared in the Wdm.h header file: \***ExEventObjectType**, \***ExSemaphoreObjectType**, \***IoFileObjectType**, \***PsProcessType**, \***PsThreadType**, \***SeTokenObjectType**, \***TmEnlistmentObjectType**, \***TmResourceManagerObjectType**, \***TmTransactionManagerObjectType**, or \***TmTransactionObjectType**. If *ObjectType* is not **NULL**, the routine verifies that the supplied object type matches the object type of the object that the *Handle* parameter specifies.
 
-### -param AccessMode [in]
-
+### -param AccessMode 
+[in]
 Specifies the access mode to use for the access check. It must be either **UserMode** or **KernelMode**. Drivers should always specify **UserMode** for handles they receive from user address space.
 
-### -param Tag [in]
-
+### -param Tag 
+[in]
 Specifies a four-byte, custom tag value. For more information, see the following Remarks section.
 
-### -param Object [out]
-
+### -param Object 
+[out]
 A pointer to a variable into which the routine writes a pointer to the object. The following table lists the *Object* pointer types that are designated by the possible *ObjectType* parameter values.
 
 |*ObjectType* parameter|*Object* pointer type|
@@ -88,8 +88,8 @@ A pointer to a variable into which the routine writes a pointer to the object. T
 
 The structures that the pointer types reference are opaque, and drivers cannot access the structure members. Because the structures are opaque, PEPROCESS is equivalent to PKPROCESS, and PETHREAD is equivalent to PKTHREAD.
 
-### -param HandleInformation [out, optional]
-
+### -param HandleInformation 
+[out, optional]
 Drivers set this parameter to **NULL**.
 
 ## -returns

@@ -58,13 +58,13 @@ The <b>WdfUsbTargetDeviceFormatRequestForCyclePort</b> method builds a power-cyc
 
 
 
-### -param UsbDevice [in]
-
+### -param UsbDevice 
+[in]
 A handle to a USB device object that was obtained from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdevicecreatewithparameters">WdfUsbTargetDeviceCreateWithParameters</a>.
 
 
-### -param Request [in]
-
+### -param Request 
+[in]
 A handle to a framework request object. For more information, see the following Remarks section.
 
 

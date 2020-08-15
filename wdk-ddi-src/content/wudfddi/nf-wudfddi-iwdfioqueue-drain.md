@@ -57,8 +57,8 @@ The <b>Drain</b> method directs the queue to reject new incoming I/O requests an
 
 
 
-### -param pDrainComplete [in, optional]
-
+### -param pDrainComplete 
+[in, optional]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iqueuecallbackstatechange">IQueueCallbackStateChange</a> interface whose method the framework calls to deliver queue state to the driver. The framework calls the method after all requests are completed or canceled and the queue is empty. This parameter is optional and can be <b>NULL</b>.
 
 

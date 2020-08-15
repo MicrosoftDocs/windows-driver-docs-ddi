@@ -58,13 +58,13 @@ The <b>WdfIoResourceRequirementsListRemove</b> method removes a <a href="https:/
 
 
 
-### -param RequirementsList [in]
-
+### -param RequirementsList 
+[in]
 A handle to a framework resource-requirements-list object that represents a device's resource requirements list.
 
 
-### -param Index [in]
-
+### -param Index 
+[in]
 A zero-based value that is used as an index into the resource requirements list that <i>RequirementsList</i> specifies. 
 
 

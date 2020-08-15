@@ -57,18 +57,18 @@ req.typenames:
 
 
 
-### -param pPrintProvidor [out]
-
+### -param pPrintProvidor 
+[out]
 Caller-supplied address of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/ns-winsplp-_printprovidor">PRINTPROVIDOR</a> structure, to be filled in by the print provider.
 
 
-### -param cbPrintProvidor [in]
-
+### -param cbPrintProvidor 
+[in]
 Caller-supplied size, in bytes, of the PRINTPROVIDOR structure pointed to by <i>pPrintProvidor</i>.
 
 
-### -param pFullRegistryPath [in, optional]
-
+### -param pFullRegistryPath 
+[in, optional]
 Caller-supplied pointer to a string representing the full registry path to the provider's registry entry.
 
 

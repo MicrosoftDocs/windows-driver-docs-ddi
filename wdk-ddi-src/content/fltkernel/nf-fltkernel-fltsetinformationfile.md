@@ -55,28 +55,28 @@ req.typenames:
 
 
 
-### -param Instance [in]
-
+### -param Instance 
+[in]
 Opaque instance pointer for the caller. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 File object pointer for the file. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param FileInformation [in]
-
+### -param FileInformation 
+[in]
 Pointer to a caller-allocated buffer that contains information to be set for the file. The <i>FileInformationClass</i> parameter specifies the type of information. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 Size, in bytes, of the <i>FileInformation</i> buffer. 
 
 
-### -param FileInformationClass [in]
-
+### -param FileInformationClass 
+[in]
 Specifies the type of information to be set for the file. The following values are defined. 
 
 <table>

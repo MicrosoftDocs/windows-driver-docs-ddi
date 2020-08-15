@@ -55,18 +55,18 @@ Multiplies one value of type <b>INT8</b> by another.
 
 
 
-### -param i8Multiplicand [in]
-
+### -param i8Multiplicand 
+[in]
 The value to be multiplied by <i>i8Multiplier</i>.
 
 
-### -param i8Multiplier [in]
-
+### -param i8Multiplier 
+[in]
 The value by which to multiply <i>i8Multiplicand</i>.
 
 
-### -param pi8Result [out]
-
+### -param pi8Result 
+[out]
 A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
 

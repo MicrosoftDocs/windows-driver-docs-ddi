@@ -55,13 +55,13 @@ The <b>PsReturnPoolQuota</b> routine returns pool quota of the specified pool ty
 
 
 
-### -param Process [in]
-
+### -param Process 
+[in]
 Pointer to the process whose quota is to be returned.
 
 
-### -param PoolType [in]
-
+### -param PoolType 
+[in]
 Type of pool quota to return, which can be one of the following: 
 
 <ul>
@@ -75,8 +75,8 @@ Type of pool quota to return, which can be one of the following:
 <b>Note</b>: The <b>NonPagedPoolMustSucceed</b> and <b>NonPagedPoolCacheAlignedMustS</b> pool types are obsolete and should no longer be used. 
 
 
-### -param Amount [in]
-
+### -param Amount 
+[in]
 Number of bytes to return to the pool quota for this process. 
 
 

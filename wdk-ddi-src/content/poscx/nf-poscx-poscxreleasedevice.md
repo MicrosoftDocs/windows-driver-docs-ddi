@@ -58,13 +58,13 @@ req.product: Windows 10 or later.
 
 
 
-### -param device [in]
-
+### -param device 
+[in]
 A handle to a framework device object that represents the device.
 
 
-### -param fileObject [in]
-
+### -param fileObject 
+[in]
       A handle to a framework file object that identifies the caller.
 
 

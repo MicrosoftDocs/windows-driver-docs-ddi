@@ -55,28 +55,28 @@ The <b>RtlUpcaseUnicodeToMultiByteN</b> routine translates the specified Unicode
 
 
 
-### -param MultiByteString [out]
-
+### -param MultiByteString 
+[out]
 Pointer to a caller-allocated buffer to receive the translated string. 
 
 
-### -param MaxBytesInMultiByteString [in]
-
+### -param MaxBytesInMultiByteString 
+[in]
 Maximum number of bytes to be written at <i>MultiByteString</i>. If this value causes the translated string to be truncated, <b>RtlUpcaseUnicodeToMultiByteN</b> does not return an error status. 
 
 
-### -param BytesInMultiByteString [out, optional]
-
+### -param BytesInMultiByteString 
+[out, optional]
 Pointer to a caller-allocated variable that receives the length, in bytes, of the translated string. This parameter can be <b>NULL</b>. 
 
 
-### -param UnicodeString [in]
-
+### -param UnicodeString 
+[in]
 Pointer to the Unicode source string to be translated. 
 
 
-### -param BytesInUnicodeString [in]
-
+### -param BytesInUnicodeString 
+[in]
 Size, in bytes, of the string at <i>UnicodeString</i>. 
 
 

@@ -59,15 +59,15 @@ NDIS calls the
 
 
 
-### -param FilterModuleContext [in]
-
+### -param FilterModuleContext 
+[in]
 A handle to the context area for the filter module. The filter driver created and initialized this
      context area in the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
 
 
-### -param NetBufferLists [in]
-
+### -param NetBufferLists 
+[in]
 A linked list of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures that the filter driver indicated by calling the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfindicatereceivenetbufferlists">
      NdisFIndicateReceiveNetBufferLists</a> function. The list can include <b>NET_BUFFER_LIST</b> structures from
@@ -75,8 +75,8 @@ A linked list of <a href="https://docs.microsoft.com/windows-hardware/drivers/dd
      <b>NdisFIndicateReceiveNetBufferLists</b>.
 
 
-### -param ReturnFlags [in]
-
+### -param ReturnFlags 
+[in]
 NDIS flags that can be combined with an OR operation. To clear all the flags, set this member to
      zero.This function supports the following flags: 
 

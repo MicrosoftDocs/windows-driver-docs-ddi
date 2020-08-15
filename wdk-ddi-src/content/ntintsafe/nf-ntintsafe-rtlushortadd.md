@@ -55,18 +55,18 @@ Adds two values of type <b>USHORT</b>.
 
 
 
-### -param usAugend [in]
-
+### -param usAugend 
+[in]
 The first value in the equation.
 
 
-### -param usAddend [in]
-
+### -param usAddend 
+[in]
 The value to add to <i>usAugend</i>.
 
 
-### -param pusResult [out]
-
+### -param pusResult 
+[out]
 A pointer to the sum. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
 

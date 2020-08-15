@@ -55,8 +55,8 @@ The <b>RtlConvertLongToLargeInteger</b> routine converts the input signed intege
 
 
 
-### -param SignedInteger [in]
-
+### -param SignedInteger 
+[in]
 Specifies an integer of type LONG.
 
 

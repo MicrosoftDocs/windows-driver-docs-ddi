@@ -60,8 +60,8 @@ Waits until all device installations have completed.
 
 
 
-### -param pNoMoreEvents [out, retval]
-
+### -param pNoMoreEvents 
+[out, retval]
 True if all device installations completed before the time-out expired; 
 otherwise, false.
 

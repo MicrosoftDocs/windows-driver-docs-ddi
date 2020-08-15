@@ -56,23 +56,23 @@ The <b>HidP_GetButtonCaps</b> routine returns a <a href="https://docs.microsoft.
 
 
 
-### -param ReportType [in]
-
+### -param ReportType 
+[in]
 Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/ne-hidpi-_hidp_report_type">HIDP_REPORT_TYPE</a> enumerator value that identifies the report type.
 
 
-### -param ButtonCaps [out]
-
+### -param ButtonCaps 
+[out]
 Pointer to a caller-allocated buffer that the routine uses to return a button capability array for the specified report type.
 
 
-### -param ButtonCapsLength [in, out]
-
+### -param ButtonCapsLength 
+[in, out]
 Specifies the length on input, in array elements, of the buffer provided at <i>ButtonCaps</i>. On output, this parameter is set to the actual number of elements that the routine returns.
 
 
-### -param PreparsedData [in]
-
+### -param PreparsedData 
+[in]
 Pointer to a top-level collection's <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/preparsed-data">preparsed data</a>.
 
 

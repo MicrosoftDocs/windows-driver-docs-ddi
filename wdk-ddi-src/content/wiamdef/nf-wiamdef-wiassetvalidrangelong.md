@@ -55,8 +55,8 @@ The <b>wiasSetValidRangeLong </b>function specifies the range of valid values fo
 
 
 
-### -param pWiasContext [in]
-
+### -param pWiasContext 
+[in]
 Pointer to a WIA item context.
 
 

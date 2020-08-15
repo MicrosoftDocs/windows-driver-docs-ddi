@@ -75,8 +75,8 @@ Caller-supplied glyph handle.
 Caller-supplied pointer to receive the method-supplied width of the character.
 
 
-### -param pdwResult [out]
-
+### -param pdwResult 
+[out]
 Receives a method-supplied value representing the amount of printer memory, in bytes, required to store the character glyph. If the operation fails, the returned value should be zero.
 
 

@@ -55,18 +55,18 @@ Adds two values of type <b>UINT_PTR</b>.
 
 
 
-### -param uAugend [in]
-
+### -param uAugend 
+[in]
 The first value in the equation.
 
 
-### -param uAddend [in]
-
+### -param uAddend 
+[in]
 The value to add to <i>uAugend</i>.
 
 
-### -param puResult [out]
-
+### -param puResult 
+[out]
 A pointer to the sum. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
 

@@ -55,8 +55,8 @@ The <b>wiasSetItemPropAttribs </b>function sets the access flags and valid value
 
 
 
-### -param pWiasContext [in]
-
+### -param pWiasContext 
+[in]
 Pointer to a WIA item context.
 
 
@@ -65,13 +65,13 @@ Pointer to a WIA item context.
 Specifies the number of properties.
 
 
-### -param pPropSpec [in]
-
+### -param pPropSpec 
+[in]
 Pointer to the first element of an array of PROPSPEC structures (defined in the Microsoft Windows SDK documentation) indicating the properties for which to set valid values and access flags.
 
 
-### -param pwpi [in]
-
+### -param pwpi 
+[in]
 Pointer to the first element of an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wia_property_info">WIA_PROPERTY_INFO</a> structures that contain the property values to be written.
 
 

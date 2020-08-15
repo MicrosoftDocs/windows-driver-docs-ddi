@@ -57,8 +57,8 @@ The
 
 
 
-### -param NmrClientHandle [in]
-
+### -param NmrClientHandle 
+[in]
 A handle used by the NMR to represent the registration of the client module. The NMR returns this
      handle to the client module when the client module calls the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrregisterclient">NmrRegisterClient</a> function.

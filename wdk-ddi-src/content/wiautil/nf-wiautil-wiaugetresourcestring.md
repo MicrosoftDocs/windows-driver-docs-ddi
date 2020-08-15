@@ -65,8 +65,8 @@ Specifies the handle of the module instance.
 Specifies the resource ID of the target BSTR value.
 
 
-### -param pbstrStr [out]
-
+### -param pbstrStr 
+[out]
 Points to the memory location that receives the retrieved string. The caller of this function must free this string by calling <b>SysFreeString</b> (described in the Microsoft Windows SDK documentation).
 
 

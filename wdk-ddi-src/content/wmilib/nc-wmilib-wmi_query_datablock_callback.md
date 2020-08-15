@@ -55,43 +55,43 @@ The <i>DpWmiQueryDataBlock</i> routine returns either a single instance or all i
 
 
 
-### -param DeviceObject [in]
-
+### -param DeviceObject 
+[in]
 Pointer to the driver's WDM <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure.
 
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 Pointer to the IRP.
 
 
-### -param GuidIndex [in]
-
+### -param GuidIndex 
+[in]
 Specifies the data block by supplying a zero-based index into the list of GUIDs that the driver provided in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/ns-wmilib-_wmilib_context">WMILIB_CONTEXT</a> structure it passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/nf-wmilib-wmisystemcontrol">WmiSystemControl</a>.  
 
 
-### -param InstanceIndex [in]
-
+### -param InstanceIndex 
+[in]
 If <i>DpWmiQueryDataBlock</i> is called in response to an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-single-instance">IRP_MN_QUERY_SINGLE_INSTANCE</a> request, <i>InstanceIndex </i>specifies a zero-based index that indicates the instance of the specified data block to be queried. If <i>DpWmiQueryDataBlock</i> is called in response to an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-all-data">IRP_MN_QUERY_ALL_DATA</a> request, <i>InstanceIndex </i>is zero.
 
 
-### -param InstanceCount [in]
-
+### -param InstanceCount 
+[in]
 If <i>DpWmiQueryDataBlock</i> is called in response to an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-single-instance">IRP_MN_QUERY_SINGLE_INSTANCE</a> request, <i>InstanceCount </i>is 1. If <i>DpWmiQueryDataBlock</i> is called in response to an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-all-data">IRP_MN_QUERY_ALL_DATA</a> request, <i>InstanceCount </i>is the number of instances to be returned.
 
 
-### -param InstanceLengthArray [in, out]
-
+### -param InstanceLengthArray 
+[in, out]
 Pointer to a caller-supplied, <i>InstanceCount</i>-sized array of ULONG elements. The driver fills in each array element to indicate the length of each instance that was returned.  If <i>BufferAvail</i> is zero, <i>InstanceLengthArray</i> is <b>NULL</b>.
 
 
-### -param BufferAvail [in]
-
+### -param BufferAvail 
+[in]
 Specifies the maximum number of bytes that are available to receive data in the buffer at <i>Buffer</i>. If this value is zero, the caller is requesting that the driver specify the required buffer size in its call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/nf-wmilib-wmicompleterequest">WmiCompleteRequest</a>. See the Remarks section for more information.
 
 
-### -param Buffer [out]
-
+### -param Buffer 
+[out]
 Pointer to the buffer to receive instance data. If the buffer is large enough to receive all of the data, the driver writes the instance data to the buffer with each instance aligned on an 8-byte boundary. If the buffer is too small to receive all of the data, the driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/nf-wmilib-wmicompleterequest">WmiCompleteRequest</a> with <i>BufferUsed</i> set to the size required.
 
 

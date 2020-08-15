@@ -56,18 +56,18 @@ The<b> KsStreamPointerScheduleTimeout </b>function registers a timeout callback 
 
 
 
-### -param StreamPointer [in]
-
+### -param StreamPointer 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksstream_pointer">KSSTREAM_POINTER</a> structure representing the stream pointer for which to register a timeout.
 
 
-### -param Callback [in]
-
+### -param Callback 
+[in]
 A pointer to a minidriver-supplied <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff556362(v=vs.85)">AVStrMiniTimeoutCallback</a> routine. If the stream pointer has not been deleted or the timeout canceled before the interval expires, AVStream calls this routine immediately following expiration of the interval.
 
 
-### -param Interval [in]
-
+### -param Interval 
+[in]
 Specifies the interval in 100-nanosecond units from the current time to the time that the timeout occurs.
 
 

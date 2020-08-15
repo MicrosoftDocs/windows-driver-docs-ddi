@@ -55,8 +55,8 @@ The <b>ExUuidCreate</b> routine initializes a UUID (GUID) structure to a newly g
 
 
 
-### -param Uuid [out]
-
+### -param Uuid 
+[out]
 A pointer to a caller-allocated UUID (GUID) structure that is set to a new UUID value. 
 
 

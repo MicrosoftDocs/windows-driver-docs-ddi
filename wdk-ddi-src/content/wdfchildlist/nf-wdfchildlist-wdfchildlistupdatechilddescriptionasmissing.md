@@ -58,13 +58,13 @@ The <b>WdfChildListUpdateChildDescriptionAsMissing</b> method informs the framew
 
 
 
-### -param ChildList [in]
-
+### -param ChildList 
+[in]
 A handle to a child list object.
 
 
-### -param IdentificationDescription [in]
-
+### -param IdentificationDescription 
+[in]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfchildlist/ns-wdfchildlist-_wdf_child_identification_description_header">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a> structure that identifies a driver-supplied child <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dynamic-enumeration">identification description</a>.
 
 

@@ -62,8 +62,8 @@ The <b>RetrieveNextRequestByFileObject</b> method retrieves from an I/O queue th
 
 
 
-### -param ppRequest [out]
-
+### -param ppRequest 
+[out]
 A pointer to a buffer that receives a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest">IWDFIoRequest</a> interface for the next request object whose file object matches the supplied file object, or receives <b>NULL</b> if the queue is empty or if the next request is not found.
 
 

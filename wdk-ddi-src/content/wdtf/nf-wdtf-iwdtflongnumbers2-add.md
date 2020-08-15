@@ -55,8 +55,8 @@ Adds a single long number to the collection.
 
 
 
-### -param Number [in]
-
+### -param Number 
+[in]
 The long number to add to this collection.
 
 

@@ -50,24 +50,24 @@ The **KsEdit** function guarantees that a given item is dynamically allocated an
 
 ## -parameters
 
-### -param ObjectBag [in]
-
+### -param ObjectBag 
+[in]
 The KSOBJECT_BAG (equivalent to type PVOID) to use in the check. If the item is not contained within the object bag, **KsEdit** dynamically allocates sufficient memory for the item, copies the old contents, and places the newly allocated memory in this object bag.
 
-### -param PointerToPointerToItem [in, out]
-
+### -param PointerToPointerToItem 
+[in, out]
 A pointer to a pointer to the item being edited.
 
-### -param NewSize [in]
-
+### -param NewSize 
+[in]
 The number of bytes to allocate for the item.
 
-### -param OldSize [in]
-
+### -param OldSize 
+[in]
 The number of bytes the item currently takes up.
 
-### -param Tag [in]
-
+### -param Tag 
+[in]
 Contains the pool tag to use for the allocations. Drivers normally specify the pool tag as a string of up to four characters, delimited by single quotation marks. The string is usually specified in reversed order. The ASCII value of each character in the tag must be between 0 and 127.
 
 ## -returns

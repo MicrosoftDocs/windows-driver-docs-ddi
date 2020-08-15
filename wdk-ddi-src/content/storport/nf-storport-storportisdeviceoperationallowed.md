@@ -55,18 +55,18 @@ A miniport driver can call the <b>StorPortIsDeviceOperationAllowedminiport</b> r
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param Address [in]
-
+### -param Address 
+[in]
 The address of a storage device unit.
 
 
-### -param DeviceOperation [in]
-
+### -param DeviceOperation 
+[in]
 A pointer to a GUID specifying a device management operation class. The following GUID is valid.
 
 <table>
@@ -88,8 +88,8 @@ The device is enabled to receive secured provisioning commands.
  
 
 
-### -param AllowedFlag [out]
-
+### -param AllowedFlag 
+[out]
  TRUE when the operation specified in <i>DeviceOperation</i> is allowed. Otherwise, FALSE.
 
 

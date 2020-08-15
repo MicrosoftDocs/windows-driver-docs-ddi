@@ -54,13 +54,13 @@ Callback functions of the type <b>PDEBUG_EXTENSION_CALL</b> are called by the en
 
 
 
-### -param Client [in]
-
+### -param Client 
+[in]
 Specifies an interface pointer to the client.  This can be used to interact with the engine.  Typically, this is the client through which the extension command was issued.
 
 
-### -param Args [in, optional]
-
+### -param Args 
+[in, optional]
 Specifies the arguments passed to the extension command.  In particular, if the extension command was called from a command line, <i>Args</i> contains the rest of the command line.  It can be <b>NULL</b> or empty.
 
 

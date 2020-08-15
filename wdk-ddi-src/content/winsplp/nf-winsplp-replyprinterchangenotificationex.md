@@ -55,8 +55,8 @@ req.typenames:
 
 
 
-### -param hNotify [in]
-
+### -param hNotify 
+[in]
 
 ### -param dwColor
 
@@ -64,8 +64,8 @@ req.typenames:
 ### -param fdwFlags
 
 
-### -param pdwResult [out]
+### -param pdwResult 
+[out]
 
-
-### -param pPrinterNotifyInfo [in]
-
+### -param pPrinterNotifyInfo 
+[in]

@@ -55,8 +55,8 @@ The <b>wiasReadPropLong </b>function retrieves a long integer property value fro
 
 
 
-### -param pWiasContext [in]
-
+### -param pWiasContext 
+[in]
 Pointer to a WIA item context.
 
 
@@ -65,13 +65,13 @@ Pointer to a WIA item context.
 Specifies the property identifier.
 
 
-### -param plVal [out]
-
+### -param plVal 
+[out]
 Pointer to a memory location that receives the value of the property.
 
 
-### -param plValOld [out, optional]
-
+### -param plValOld 
+[out, optional]
 Pointer to a memory location that receives the property's previous value. If this information is not needed, set this parameter to <b>NULL</b>.
 
 

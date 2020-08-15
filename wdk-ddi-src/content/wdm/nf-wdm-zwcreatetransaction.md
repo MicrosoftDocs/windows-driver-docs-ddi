@@ -56,13 +56,13 @@ The <b>ZwCreateTransaction</b> routine creates a <a href="https://docs.microsoft
 
 
 
-### -param TransactionHandle [out]
-
+### -param TransactionHandle 
+[out]
 A pointer to a caller-allocated variable that receives a handle to the new transaction object, if the call to <b>ZwCreateTransaction</b> succeeds.
 
 
-### -param DesiredAccess [in]
-
+### -param DesiredAccess 
+[in]
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that specifies the caller's requested access to the transaction object. In addition to the access rights that are defined for all kinds of objects (see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>), the caller can specify any of the following flags for transaction objects.
 
 <table>
@@ -198,23 +198,23 @@ Typically, a resource manager specifies TRANSACTION_RESOURCE_MANAGER_RIGHTS.
 The <i>DesiredAccess</i> value cannot be zero.
 
 
-### -param ObjectAttributes [in, optional]
-
+### -param ObjectAttributes 
+[in, optional]
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that specifies the object name and other attributes. Use the <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> routine to initialize this structure. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE attribute when it calls <b>InitializeObjectAttributes</b>. This parameter is optional and can be <b>NULL</b>.
 
 
-### -param Uow [in, optional]
-
+### -param Uow 
+[in, optional]
 A pointer to a GUID that KTM uses as the new transaction object's <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ktm-objects">unit of work (UOW) identifier</a>. This parameter is optional and can be <b>NULL</b>. If this parameter is <b>NULL</b>, KTM generates a GUID and assigns it to the transaction object. For more information, see the following Remarks section.
 
 
-### -param TmHandle [in, optional]
-
+### -param TmHandle 
+[in, optional]
 A handle to a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/transaction-manager-objects">transaction manager object</a> that was obtained by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntcreatetransactionmanager">ZwCreateTransactionManager</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntopentransactionmanager">ZwOpenTransactionManager</a>. KTM assigns the new transaction object to the specified transaction manager object. If this parameter is <b>NULL</b>, KTM assigns the new transaction object to a transaction manager later, when a resource manager creates an enlistment for the transaction. 
 
 
-### -param CreateOptions [in, optional]
-
+### -param CreateOptions 
+[in, optional]
 Optional object creation flags. The following table contains the available flags, which are defined in Ktmtypes.h.
 
 <table>
@@ -236,23 +236,23 @@ Reserved for future use.
  
 
 
-### -param IsolationLevel [in, optional]
-
+### -param IsolationLevel 
+[in, optional]
 Reserved for future use. Callers must set this parameter to zero.
 
 
-### -param IsolationFlags [in, optional]
-
+### -param IsolationFlags 
+[in, optional]
 Reserved for future use. Callers should set this parameter to zero.
 
 
-### -param Timeout [in, optional]
-
+### -param Timeout 
+[in, optional]
 A pointer to a time-out value. If the transaction has not been committed by the time specified by this parameter, KTM rolls back the transaction. The time-out value is expressed in system time units (100-nanosecond intervals), and can specify either an absolute time or a relative time. If the value pointed to by <i>Timeout</i> is negative, the expiration time is relative to the current system time. Otherwise, the expiration time is absolute. This pointer is optional and can be <b>NULL</b> if you do not want the transaction to have a time-out value. If <i>Timeout</i> = <b>NULL</b> or *<i>Timeout</i> = 0, the transaction never times out. (You can also use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntsetinformationtransaction">ZwSetInformationTransaction</a> to set a time-out value.)
 
 
-### -param Description [in, optional]
-
+### -param Description 
+[in, optional]
 A pointer to a caller-supplied <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a NULL-terminated string. The string provides a description of the transaction. KTM stores a copy of the string and includes the string in messages that it writes to the log stream. The maximum string length is MAX_TRANSACTION_DESCRIPTION_LENGTH. This parameter is optional and can be <b>NULL</b>.
 
 

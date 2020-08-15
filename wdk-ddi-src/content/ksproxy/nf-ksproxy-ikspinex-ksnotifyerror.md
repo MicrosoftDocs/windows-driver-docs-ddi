@@ -55,13 +55,13 @@ The <b>KsNotifyError</b> method notifies the filter graph of an error to give th
 
 
 
-### -param Sample [in]
-
+### -param Sample 
+[in]
 Pointer to the <b>IMediaSample</b> interface for the associated media sample.
 
 
-### -param hr [in]
-
+### -param hr 
+[in]
 Error value for notification. If ERROR_OPERATION_ABORTED (that is, the I/O was purposefully canceled), the filter graph is not notified. 
 
 

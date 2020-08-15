@@ -55,8 +55,8 @@ The <b>GetPrintTicket</b> method gets the print ticket object for the fixed page
 
 
 
-### -param ppPrintTicket [out]
-
+### -param ppPrintTicket 
+[out]
 Pointer to a location into which the method writes a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartprintticket">IPartPrintTicket</a> interface of a print ticket object. This object contains the print ticket for the fixed page.
 
 

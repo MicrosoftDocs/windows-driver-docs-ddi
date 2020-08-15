@@ -55,22 +55,22 @@ The <b>KeBugCheckEx</b> routine brings down the system in a controlled manner wh
 
 
 
-### -param BugCheckCode [in]
-
+### -param BugCheckCode 
+[in]
 Specifies a value that indicates the reason for the bug check.
 
 
-### -param BugCheckParameter1 [in]
+### -param BugCheckParameter1 
+[in]
 
+### -param BugCheckParameter2 
+[in]
 
-### -param BugCheckParameter2 [in]
+### -param BugCheckParameter3 
+[in]
 
-
-### -param BugCheckParameter3 [in]
-
-
-### -param BugCheckParameter4 [in]
-
+### -param BugCheckParameter4 
+[in]
 The four <i>BugCheckParameterX</i> values supply additional information, such as the address and data where a memory-corruption error occurred, depending on the value of <i>BugCheckCode</i>.
 
 

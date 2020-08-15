@@ -55,28 +55,28 @@ The <b>RtlUTF8ToUnicodeN</b> routine converts a UTF-8 string to a Unicode string
 
 
 
-### -param UnicodeStringDestination [out, optional]
-
+### -param UnicodeStringDestination 
+[out, optional]
 A pointer to a caller-allocated destination buffer into which the routine writes the Unicode output string. If this parameter is <b>NULL</b>, the routine writes the required size of the output buffer to *<i>UnicodeStringActualByteCount</i>. 
 
 
-### -param UnicodeStringMaxByteCount [in]
-
+### -param UnicodeStringMaxByteCount 
+[in]
 Specifies the maximum number of bytes that the routine can write to the buffer that <i>UnicodeStringDestination</i> points to. If <i>UnicodeStringDestination</i> = <b>NULL</b>, set <i>UnicodeStringMaxByteCount</i> = 0. 
 
 
-### -param UnicodeStringActualByteCount [out]
-
+### -param UnicodeStringActualByteCount 
+[out]
 A pointer to a location into which the routine writes the actual number of bytes that the routine has written to the buffer that <i>UnicodeStringDestination</i> points to. If <i>UnicodeStringDestination</i> is non-<b>NULL</b>, this count never exceeds the value of <i>UnicodeStringMaxByteCount</i>. If <i>UnicodeStringDestination</i> is <b>NULL</b>, this count is the number of bytes that are required to contain the entire output string. 
 
 
-### -param UTF8StringSource [in]
-
+### -param UTF8StringSource 
+[in]
 A pointer to the UTF-8 source string.
 
 
-### -param UTF8StringByteCount [in]
-
+### -param UTF8StringByteCount 
+[in]
 Specifies the number of bytes in the UTF-8 source string that the <i>UTF8StringSource</i> parameter points to. 
 
 

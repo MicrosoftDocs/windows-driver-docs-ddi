@@ -58,8 +58,8 @@ The
 
 
 
-### -param completionHandle [in]
-
+### -param completionHandle 
+[in]
 A completion handle that is required to pend the current filtering operation. This parameter is
      obtained from the 
      <b>completionHandle</b> member of the 
@@ -67,8 +67,8 @@ A completion handle that is required to pend the current filtering operation. Th
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> function.
 
 
-### -param completionContext [out]
-
+### -param completionContext 
+[out]
 The handle to the completion context of this pend operation. When the callout is ready to resume
      packet processing, it calls the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscompleteoperation0">FwpsCompleteOperation0</a> function

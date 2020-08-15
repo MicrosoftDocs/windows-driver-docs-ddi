@@ -58,18 +58,18 @@ The <b>AtaPortReadRegisterBufferUchar</b> routine transfers a specified number o
 
 
 
-### -param Register [in]
-
+### -param Register 
+[in]
 Contains the register address where the transfer should begin. This address value must be within the range of mapped I/O space addresses that are obtained by a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nf-irb-ataportgetdevicebase">AtaPortGetDeviceBase</a>.
 
 
-### -param Buffer [in]
-
+### -param Buffer 
+[in]
 A pointer to the destination buffer.
 
 
-### -param Count [in]
-
+### -param Count 
+[in]
 Specifies the number of bytes to read from the HBA.
 
 

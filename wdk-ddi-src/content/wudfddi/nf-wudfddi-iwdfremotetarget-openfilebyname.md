@@ -57,18 +57,18 @@ The <b>OpenFileByName</b> method opens a <a href="https://docs.microsoft.com/win
 
 
 
-### -param pszFileName [in]
-
+### -param pszFileName 
+[in]
 A pointer to a caller-supplied, <b>null</b>-terminated string that represents the name of the file to open. For more information about this member, see the <i>FileName</i> parameter of <a href="https://go.microsoft.com/fwlink/p/?linkid=152795">CreateFile</a> in the Windows SDK.
 
 
-### -param DesiredAccess [in]
-
+### -param DesiredAccess 
+[in]
 A bitmask that specifies the caller's desired access to the file. For more information about this member, see the <i>dwDesiredAccess</i> parameter of <a href="https://go.microsoft.com/fwlink/p/?linkid=152795">CreateFile</a> in the Windows SDK.
 
 
-### -param pOpenParams [in, optional]
-
+### -param pOpenParams 
+[in, optional]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/ns-wudfddi-_umdf_io_target_open_params">UMDF_IO_TARGET_OPEN_PARAMS</a> structure that contains additional parameters. This parameter is optional and can be <b>NULL</b>.
 
 

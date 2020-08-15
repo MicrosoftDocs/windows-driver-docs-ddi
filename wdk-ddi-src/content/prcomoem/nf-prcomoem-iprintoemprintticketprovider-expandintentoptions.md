@@ -55,8 +55,8 @@ The <code>IPrintOemPrintTicketProvider::ExpandIntentOptions</code> method enable
 
 
 
-### -param pPrintTicket [in, out]
-
+### -param pPrintTicket 
+[in, out]
 A pointer to a print ticket.
 
 

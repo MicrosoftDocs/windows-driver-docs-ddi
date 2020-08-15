@@ -55,13 +55,13 @@ The<i>MRxGetConnectionId</i> routine is called by <a href="https://docs.microsof
 
 
 
-### -param RxContext [in, out]
-
+### -param RxContext 
+[in, out]
 A pointer to the RX_CONTEXT structure. This parameter contains the IRP that is requesting the operation. 
 
 
-### -param UniqueId [in, out]
-
+### -param UniqueId 
+[in, out]
 A pointer to the connection ID when the routine returns. 
 
 

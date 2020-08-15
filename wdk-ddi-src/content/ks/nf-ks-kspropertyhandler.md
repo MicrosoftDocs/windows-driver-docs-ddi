@@ -56,18 +56,18 @@ Drivers call <b>KsPropertyHandler</b> function for IRP handling.
 
 
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 Specifies the IRP with the property request being handled.
 
 
-### -param PropertySetsCount [in]
-
+### -param PropertySetsCount 
+[in]
 Specifies the number of property sets being passed.
 
 
-### -param PropertySet [in]
-
+### -param PropertySet 
+[in]
 Points to an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_set">KSPROPERTY_SET</a> structures. The driver should provide one structure for each property set it wants KsPropertyHandler to handle.
 
 

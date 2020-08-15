@@ -61,15 +61,15 @@ The
 
 
 
-### -param Socket [in]
-
+### -param Socket 
+[in]
 A pointer to a 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a> structure that specifies the socket
      object for the socket from which the data was received.
 
 
-### -param DataIndication [in]
-
+### -param DataIndication 
+[in]
 A pointer to the linked list of structures to be released. For this parameter, the WSK application
      should specify the 
      <i>DataIndication</i> parameter that was passed to its 

@@ -59,28 +59,28 @@ Frames with different TX status values are completed in separate indications.
 
 
 
-### -param NdisMiniportDataPathHandle [in]
-
+### -param NdisMiniportDataPathHandle 
+[in]
 The NdisMiniportDataPathHandle passed to the IHV miniport in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_tal_txrx_initialize">MiniportWdiTalTxRxInitialize</a>.
 
 
-### -param WifiTxFrameStatus [in]
-
+### -param WifiTxFrameStatus 
+[in]
 The TX status, specified as a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ne-dot11wdi-_wdi_tx_frame_status">WDI_TX_FRAME_STATUS</a> value.
 
 
-### -param NumCompletedSends [in]
-
+### -param NumCompletedSends 
+[in]
 The number of completed sends.
 
 
-### -param WifiTxFrameIdList [in]
-
+### -param WifiTxFrameIdList 
+[in]
 An array of frame IDs. The size of the array is the value of <i>NumCompletedSends</i>.
 
 
-### -param WifiTxCompleteList [in, optional]
-
+### -param WifiTxCompleteList 
+[in, optional]
 An array of TX completion data. The size of the array is the value of <i>NumCompletedSends</i>.
 
 

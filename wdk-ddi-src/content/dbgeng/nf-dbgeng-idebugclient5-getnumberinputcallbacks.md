@@ -55,8 +55,8 @@ The <b>GetNumberInputCallbacks</b> method returns the number of <a href="https:/
 
 
 
-### -param Count [out]
-
+### -param Count 
+[out]
 Receives the number of input callbacks that have been registered.
 
 

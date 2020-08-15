@@ -59,8 +59,8 @@ The
 
 
 
-### -param Status [out]
-
+### -param Status 
+[out]
 A pointer to a caller-supplied variable in which this function returns the status of the call as
      one of the following values.
 
@@ -106,8 +106,8 @@ The requested information could not be found under the opened registry key desig
  
 
 
-### -param ParameterValue [out]
-
+### -param ParameterValue 
+[out]
 A pointer to a memory location where NDIS supplies a pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_configuration_parameter">
      NDIS_CONFIGURATION_PARAMETER</a> structure if the call to 
@@ -117,8 +117,8 @@ A pointer to a memory location where NDIS supplies a pointer to an
      NDIS_CONFIGURATION_PARAMETER</b> structure.
 
 
-### -param ConfigurationHandle [in]
-
+### -param ConfigurationHandle 
+[in]
 The handle to a registry key that was returned by the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/ndis-ndisopenconfigurationex">NdisOpenConfigurationEx</a>, 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenconfigurationkeybyindex">
@@ -127,8 +127,8 @@ The handle to a registry key that was returned by the
      NdisOpenConfigurationKeyByName</a> function.
 
 
-### -param Keyword [in]
-
+### -param Keyword 
+[in]
 A pointer to a caller-supplied NDIS_STRING type describing a counted string, in the system-default
      character set, specifying the name of the entry under the open registry key for which to return the
      value. 
@@ -180,8 +180,8 @@ NdisVersion
  
 
 
-### -param ParameterType [in]
-
+### -param ParameterType 
+[in]
 The type of the value entry that is specified as one of the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ne-ndis-_ndis_parameter_type">NDIS_PARAMETER_TYPE</a> enumeration values.
      This parameter is ignored in Windows NT and later versions.

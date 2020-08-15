@@ -58,13 +58,13 @@ The client driver's implementation that UCX calls to release controller resource
 ### -param UcxEndpoint
 
 
-### -param UcxStaticStreams [in]
-
+### -param UcxStaticStreams 
+[in]
 A handle to a UCX object that represents the static streams.
 
 
-### -param Request [in]
-
+### -param Request 
+[in]
 Contains the URB for the <b>URB_FUNCTION_CLOSE_STATIC_STREAMS</b>.
 
 

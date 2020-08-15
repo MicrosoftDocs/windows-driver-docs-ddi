@@ -55,38 +55,38 @@ The <code>NewSlaveDmaChannel</code> method creates a new instance of a subordina
 
 
 
-### -param DmaChannel [out]
-
+### -param DmaChannel 
+[out]
 Pointer to a caller-allocated pointer variable into which the method writes a pointer to the new DMA-channel object's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-idmachannelslave">IDmaChannelSlave</a> interface. Specify a valid, non-<b>NULL</b> pointer value for this parameter.
 
 
-### -param OuterUnknown [in]
-
+### -param OuterUnknown 
+[in]
 Pointer to the <b>IUnknown</b> interface of an object that needs to aggregate the DMA-channel object. This parameter is optional. If aggregation is not required, specify this parameter as <b>NULL</b>.
 
 
-### -param ResourceList [in]
-
+### -param ResourceList 
+[in]
 Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iresourcelist">IResourceList</a> object. This resource list contains the resource that describes the DMA channel.
 
 
-### -param DmaIndex [in]
-
+### -param DmaIndex 
+[in]
 Index in the resource list of the DMA-channel descriptor. The function uses this value as a call parameter to the <i>ResourceList</i> object's IResourceList::Find<i>xxx</i>Entry method.
 
 
-### -param MaximumLength [in]
-
+### -param MaximumLength 
+[in]
 Maximum length in bytes of the cyclic DMA buffer that will be associated with this channel.
 
 
-### -param DemandMode [in]
-
+### -param DemandMode 
+[in]
 Indicates whether the device associated with the DMA channel supports demand mode.
 
 
-### -param DmaSpeed [in]
-
+### -param DmaSpeed 
+[in]
 The DMA speed can be specified as one of the following DMA_SPEED enumeration values: <b>Compatible</b>, <b>TypeA</b>, <b>TypeB</b>, <b>TypeC</b>, or <b>TypeF</b>.
 
 

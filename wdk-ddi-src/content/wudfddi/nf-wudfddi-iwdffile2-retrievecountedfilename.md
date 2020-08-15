@@ -57,8 +57,8 @@ The <b>RetrieveCountedFileName</b> method retrieves the full counted file name f
 
 
 
-### -param pCountedFileName [out]
-
+### -param pCountedFileName 
+[out]
 A pointer to a caller-allocated buffer. This buffer receives a <b>NULL</b>-terminated character string that represents the full name of the file that is associated with the device. If the pointer is <b>NULL</b>, <b>RetrieveCountedFileName</b> retrieves only the string length. 
 
 

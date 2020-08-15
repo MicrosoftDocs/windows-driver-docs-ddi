@@ -55,8 +55,8 @@ The <b>Clear</b> function performs hardware-assisted clearing on the rendering t
 
 
 
-### -param hDevice [in]
-
+### -param hDevice 
+[in]
 A handle to the display device (graphics context).
 
 

@@ -57,13 +57,13 @@ req.typenames:
 
 
 
-### -param SwapChainObject [in]
-
+### -param SwapChainObject 
+[in]
 The swap-chain object passed to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iddcx/nc-iddcx-evt_idd_cx_monitor_assign_swapchain">EVT_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN</a> call.
 
 
-### -param pOutArgs [out]
-
+### -param pOutArgs 
+[out]
 Output arguments of function
 
 

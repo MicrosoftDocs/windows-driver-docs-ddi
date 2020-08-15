@@ -86,16 +86,16 @@ DWORD WINAPI * Dot11ExtSetEtherTypeHandling(
 
 
 
-### -param hDot11SvcHandle [in, optional]
-
+### -param hDot11SvcHandle 
+[in, optional]
 The handle used by the operating system to reference the WLAN adapter. This handle value was
      specified through a previous call to the
      <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a> IHV
      Handler function.
 
 
-### -param uMaxBackLog [in]
-
+### -param uMaxBackLog 
+[in]
 The maximum number of received packets that the operating system queues if the IHV Extensions DLL
      has not returned from a call to the
      <a href="..\wlanihv\nc-wlanihv-dot11extihv_receive_packet.md">Dot11ExtIhvReceivePacket</a> IHV
@@ -103,21 +103,21 @@ The maximum number of received packets that the operating system queues if the I
      <i>uMaxBackLog</i> is reached, the operating system discards the oldest packet in the queue.
 
 
-### -param uNumOfExemption [in]
-
+### -param uNumOfExemption 
+[in]
 The number of entries within the privacy exemptions array referenced by the
      <i>pExemption</i> parameter. A value of zero disables privacy exemptions on the WLAN adapter.
 
 
-### -param pExemption [in, optional]
-
+### -param pExemption 
+[in, optional]
 A pointer to an array of privacy exemptions. Each entry in the array is formatted as a
      <a href="..\windot11\ns-windot11-dot11_privacy_exemption.md">
      DOT11_PRIVACY_EXEMPTION</a> structure.
 
 
-### -param uNumOfRegistration [in]
-
+### -param uNumOfRegistration 
+[in]
 Number of entries within the IEEE EtherType registrations array referenced by the
      <i>pusRegistration</i> parameter. A value of zero disables the ability of the IHV Extensions DLL to
      receive any packets through calls to the
@@ -125,8 +125,8 @@ Number of entries within the IEEE EtherType registrations array referenced by th
      Handler function.
 
 
-### -param pusRegistration [in, optional]
-
+### -param pusRegistration 
+[in, optional]
 A pointer to an array of IEEE EtherType registrations. Each entry has the EtherType value in
      big-endian format.
 

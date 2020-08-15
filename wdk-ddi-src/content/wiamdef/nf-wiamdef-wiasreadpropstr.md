@@ -55,8 +55,8 @@ The <b>wiasReadPropStr</b> function retrieves a string property value from a WIA
 
 
 
-### -param pWiasContext [in]
-
+### -param pWiasContext 
+[in]
 Pointer to a WIA item context.
 
 
@@ -65,13 +65,13 @@ Pointer to a WIA item context.
 Specifies the property identifier.
 
 
-### -param pbstr [out]
-
+### -param pbstr 
+[out]
 Pointer to a memory location that receives the first byte of the property's string value.
 
 
-### -param pbstrOld [out, optional]
-
+### -param pbstrOld 
+[out, optional]
 Pointer to a memory location that receives the first byte of the property's previous value. If this information is not needed, set this parameter to <b>NULL</b>.
 
 

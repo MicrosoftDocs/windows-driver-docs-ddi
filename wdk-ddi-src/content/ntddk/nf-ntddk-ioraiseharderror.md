@@ -55,18 +55,18 @@ The <b>IoRaiseHardError</b> routine causes a dialog box to appears that warns th
 
 
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 Pointer to the IRP that failed because of a device I/O error. 
 
 
-### -param Vpb [in, optional]
-
+### -param Vpb 
+[in, optional]
 Pointer to the volume parameter block (VPB), if any, for the mounted file object. This parameter is <b>NULL</b> if no VPB is associated with the device object.
 
 
-### -param RealDeviceObject [in]
-
+### -param RealDeviceObject 
+[in]
 Pointer to the device object that represents the physical device on which the I/O operation failed. 
 
 

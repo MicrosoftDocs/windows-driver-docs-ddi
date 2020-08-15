@@ -55,13 +55,13 @@ File systems call the <b>CcInitializeCacheMap</b> routine to cache a file.
 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 Pointer to a file object for the file.
 
 
-### -param FileSizes [in]
-
+### -param FileSizes 
+[in]
 Pointer to a CC_FILE_SIZES structure containing <b>AllocationSize</b>, <b>FileSize</b>, and <b>ValidDataLength</b> for the file. This structure is defined as follows:
 
 <div class="code"><span codelanguage=""><table>
@@ -117,13 +117,13 @@ New valid data length for the file.
  
 
 
-### -param PinAccess [in]
-
+### -param PinAccess 
+[in]
 Set to <b>TRUE</b> if <b>CcPin</b><i>Xxx</i> routines will be used on the file.
 
 
-### -param Callbacks [in]
-
+### -param Callbacks 
+[in]
 Pointer to a structure allocated from nonpaged pool, containing entry points of caller-supplied read-ahead and write-behind callback routines.This structure and its members are defined as follows:
 
 <div class="code"><span codelanguage=""><table>
@@ -160,8 +160,8 @@ VOID (*PRELEASE_FROM_READ_AHEAD) (
 </tr>
 </table></span></div>
 
-### -param LazyWriteContext [in]
-
+### -param LazyWriteContext 
+[in]
 Pointer to context information to be passed to the callback routines specified in <i>Callbacks</i>.
 
 

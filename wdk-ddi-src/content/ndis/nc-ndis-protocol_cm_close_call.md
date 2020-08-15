@@ -58,29 +58,29 @@ The
 
 
 
-### -param CallMgrVcContext [in]
-
+### -param CallMgrVcContext 
+[in]
 Specifies the handle to a call manager-allocated context area in which the call manager maintains
      its per-VC state. This handle was provided to NDIS from the call managers 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_make_call">ProtocolCmMakeCall</a> function.
 
 
-### -param CallMgrPartyContext [in, optional]
-
+### -param CallMgrPartyContext 
+[in, optional]
 Specifies the handle, if any, to a call manager-allocated context area in which the call manager
      maintain information about a party on a multipoint VC. This handle is <b>NULL</b> if the call being closed is
      not a multipoint call.
 
 
-### -param CloseData [in, optional]
-
+### -param CloseData 
+[in, optional]
 Pointer to a buffer containing connection-oriented client-specified data that should be sent
      across the connection before the call is terminated. This parameter is <b>NULL</b> if the underlying network
      medium does not support transfers of data when closing a connection.
 
 
-### -param Size [in, optional]
-
+### -param Size 
+[in, optional]
 Specifies the length, in bytes, of the buffer at 
      <i>CloseData</i>, zero if 
      <i>CloseData</i> is <b>NULL</b>.

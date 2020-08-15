@@ -56,23 +56,23 @@ The <b>Set</b> method sets the typed data represented by the <a href="https://do
 
 
 
-### -param PtrTo [in]
-
+### -param PtrTo 
+[in]
 Specifies whether or not to set the <b>ExtRemoteTyped</b> instance to the specified typed data, or to a pointer to the specified typed data.  If <i>PtrTo</i> is <code>true</code>, the <b>ExtRemoteTyped</b> instance will be a pointer to the typed data.
 
 
-### -param TypeModBase [in]
-
+### -param TypeModBase 
+[in]
 The base address of the module to which the type belongs.
 
 
-### -param TypeId [in]
-
+### -param TypeId 
+[in]
 The type ID of the type.
 
 
-### -param Offset [in]
-
+### -param Offset 
+[in]
 Specifies the location of the data in the target's memory.
 
 

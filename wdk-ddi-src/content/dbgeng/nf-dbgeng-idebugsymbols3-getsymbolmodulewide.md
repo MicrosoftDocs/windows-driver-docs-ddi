@@ -55,13 +55,13 @@ The <b>GetSymbolModuleWide</b> method returns the base address of module which c
 
 
 
-### -param Symbol [in]
-
+### -param Symbol 
+[in]
 Specifies the name of the symbol to look up.  See the Remarks section for details of the syntax of this name.
 
 
-### -param Base [out]
-
+### -param Base 
+[out]
 Receives the location in the target's memory address space of the base of the module.  For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/modules">Modules</a>.
 
 

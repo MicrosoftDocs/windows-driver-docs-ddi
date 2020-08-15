@@ -55,8 +55,8 @@ The <b>SetCommandWide</b> method sets the command that is executed when a breakp
 
 
 
-### -param Command [in]
-
+### -param Command 
+[in]
 The command string that is executed when the breakpoint is triggered.
 
 

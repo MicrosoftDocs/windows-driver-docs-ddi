@@ -58,8 +58,8 @@ The <b>GetEventProcess</b> method returns the engine process ID for the process 
 
 
 
-### -param Id [out]
-
+### -param Id 
+[out]
 Receives the engine process ID.
 
 

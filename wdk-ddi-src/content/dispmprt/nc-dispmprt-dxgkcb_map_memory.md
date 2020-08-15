@@ -55,38 +55,38 @@ The <b>DxgkCbMapMemory</b> function maps a range of translated physical addresse
 
 
 
-### -param DeviceHandle [in]
-
+### -param DeviceHandle 
+[in]
 A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgkrnl_interface">DXGKRNL_INTERFACE</a> structure that was passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a>.
 
 
-### -param TranslatedAddress [in]
-
+### -param TranslatedAddress 
+[in]
 The base translated physical address of the memory range to be mapped. The display miniport driver previously obtained this address by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_get_device_information">DxgkCbGetDeviceInformation</a>.
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 The size, in bytes, of the range to be mapped.
 
 
-### -param InIoSpace [in]
-
+### -param InIoSpace 
+[in]
 A Boolean value that specifies whether the range is in I/O space (<b>TRUE</b>) or memory space (<b>FALSE</b>).
 
 
-### -param MapToUserMode [in]
-
+### -param MapToUserMode 
+[in]
 A Boolean value that specifies whether the range is mapped into user-mode space or system space. If <b>TRUE</b>, the range is mapped into the (user-mode) virtual address space of the current process. If <b>FALSE</b>, the range is mapped into system space. If <i>InIoSpace</i> is <b>TRUE</b>, this parameter is ignored.
 
 
-### -param CacheType [in]
-
+### -param CacheType 
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_memory_caching_type">MEMORY_CACHING_TYPE</a> enumerator that specifies the caching behavior of the mapped range.
 
 
-### -param VirtualAddress [out]
-
+### -param VirtualAddress 
+[out]
 A pointer to a variable that receives the address of the beginning of the mapped range. The way that the mapped range is accessed depends on the values of <i>InIoSpace</i> and <i>MapToUserMode</i>. The following table summarizes the different ways that the mapped range is accessed.
 
 |*MapToUserMode* is FALSE|*MapToUserMode* is TRUE|

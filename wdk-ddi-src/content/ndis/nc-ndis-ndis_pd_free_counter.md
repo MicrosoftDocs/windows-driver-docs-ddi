@@ -59,8 +59,8 @@ The PacketDirect (PD) platform calls a PD-capable miniport driver's
 
 
 
-### -param CounterHandle [in]
-
+### -param CounterHandle 
+[in]
 A counter handle that the miniport driver allocated in its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-ndis_pd_allocate_counter">NdisPDAllocateCounter</a> function.
 
 

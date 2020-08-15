@@ -57,8 +57,8 @@ This function obtains the entry points of the NDIS functions for a particular ch
 
 
 
-### -param NdisMiniportHandle [in]
-
+### -param NdisMiniportHandle 
+[in]
 The handle to a context area that is offload target-allocated in which the offload target
      maintains state information about this instance of the adapter. The offload target provided this handle
      to NDIS when calling 
@@ -68,8 +68,8 @@ The handle to a context area that is offload target-allocated in which the offlo
      MiniportInitializeEx</a> function.
 
 
-### -param ChimneyType [in]
-
+### -param ChimneyType 
+[in]
 A chimney type that is one of the following NDIS_CHIMNEY_OFFLOAD_TYPE values:
      
 
@@ -84,8 +84,8 @@ The TCP chimney offload type.
 All other NDIS_CHIMNEY_OFFLOAD_TYPE values are currently reserved.
 
 
-### -param OffloadHandlers [out]
-
+### -param OffloadHandlers 
+[out]
 A pointer to a variable supplied by the offload target. The size of this variable is 
      sizeof(PNDIS_OFFLOAD_EVENT_HANDLERS). If the call to the 
      <b>NdisMGetOffloadHandlers</b> function succeeds, the function returns, in this variable, a pointer to an

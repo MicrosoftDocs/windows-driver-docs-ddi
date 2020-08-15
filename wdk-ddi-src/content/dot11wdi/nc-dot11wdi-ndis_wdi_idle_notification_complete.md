@@ -57,8 +57,8 @@ This is a control path callback inside <a href="https://docs.microsoft.com/windo
 
 
 
-### -param MiniportAdapterHandle [in]
-
+### -param MiniportAdapterHandle 
+[in]
 The miniport handle.
 
 

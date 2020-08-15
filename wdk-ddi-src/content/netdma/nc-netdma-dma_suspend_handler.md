@@ -59,8 +59,8 @@ in Windows 8 and later.</div><div> </div>The
 
 
 
-### -param ProviderChannelContext [in]
-
+### -param ProviderChannelContext 
+[in]
 A pointer that identifies a DMA channel's context area. The DMA provider returned this handle to
      NetDMA at the location that is specified in the 
      <i>pProviderChannelContext</i> parameter of the 
@@ -68,8 +68,8 @@ A pointer that identifies a DMA channel's context area. The DMA provider returne
      ProviderAllocateDmaChannel</a> function.
 
 
-### -param pLastDescriptor [out]
-
+### -param pLastDescriptor 
+[out]
 A pointer to a variable that contains the physical address of the last successfully processed DMA
      descriptor. The DMA provider provides this address before returning from 
      <i>ProviderSuspendDma</i>.

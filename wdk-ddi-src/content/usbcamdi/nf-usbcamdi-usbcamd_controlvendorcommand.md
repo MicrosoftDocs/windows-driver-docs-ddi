@@ -56,48 +56,48 @@ The <b>USBCAMD_ControlVendorCommand</b> function sends vendor-specific commands 
 
 
 
-### -param DeviceContext [in]
-
+### -param DeviceContext 
+[in]
 Pointer to device-specific context.
 
 
-### -param Request [in]
-
+### -param Request 
+[in]
 Specifies the value of the <b>Request</b> field for the vendor command.
 
 
-### -param Value [in]
-
+### -param Value 
+[in]
 Specifies the value of the <b>Value</b> field for the vendor command.
 
 
-### -param Index [in]
-
+### -param Index 
+[in]
 Specifies the value of the <b>Index</b> field for the vendor command.
 
 
-### -param Buffer [in, out, optional]
-
+### -param Buffer 
+[in, out, optional]
 Pointer to a data buffer if the command has data. If the command does not have any data, this value is <b>NULL</b>.
 
 
-### -param BufferLength [in, out]
-
+### -param BufferLength 
+[in, out]
 Pointer to the buffer length value. Buffer length is expressed in bytes. If the value of <i>Buffer</i> is <b>NULL</b>, <i>BufferLength</i> may also be <b>NULL</b>.
 
 
-### -param GetData [in]
-
+### -param GetData 
+[in]
 <i>GetData</i> indicates data was sent from the device to the host.
 
 
-### -param CommandComplete [in, optional]
-
+### -param CommandComplete 
+[in, optional]
 Pointer to a camera minidriver defined <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-pcommand_complete_function">CommandCompleteFunction</a>, which is called when the bulk read or write is completed. This value can be <b>NULL</b>.
 
 
-### -param CommandContext [in, optional]
-
+### -param CommandContext 
+[in, optional]
 Pointer to a block of memory, that is passed as an argument to the camera minidriver defined <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-pcommand_complete_function">CommandCompleteFunction</a>.
 
 

@@ -55,13 +55,13 @@ req.typenames:
 
 
 
-### -param InitiatingInstance [in]
-
+### -param InitiatingInstance 
+[in]
 An opaque instance pointer to the minifilter driver instance that is reissuing the I/O operation. Must be the same instance that initiated the previous I/O operation. This parameter is required and cannot be set to <b>NULL</b>. 
 
 
-### -param CallbackData [in]
-
+### -param CallbackData 
+[in]
 A pointer to the callback data (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>) structure from a previously synchronized I/O operation. This parameter is required and cannot be set to <b>NULL</b>. 
 
 

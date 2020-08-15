@@ -57,8 +57,8 @@ Components that do not have an NDIS handle use the
 
 
 
-### -param DriverObject [optional]
-
+### -param DriverObject 
+[optional]
 A driver object to associate with the generic object. This parameter can be <b>NULL</b>.
 
 

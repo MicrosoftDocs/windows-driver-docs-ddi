@@ -56,13 +56,13 @@ The <b>PcForwardContentToFileObject</b> function is obsolete and is maintained o
 
 
 
-### -param ContentId [in]
-
+### -param ContentId 
+[in]
 Specifies the DRM content ID. This parameter identifies a protected KS audio stream.
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 Pointer to a file object that represents the KS audio pin to which the KS audio stream is sent.
 
 

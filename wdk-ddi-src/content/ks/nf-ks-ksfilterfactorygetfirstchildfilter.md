@@ -55,8 +55,8 @@ The<b> KsFilterFactoryGetFirstChildFilter</b> function returns the first instant
 
 
 
-### -param FilterFactory [in]
-
+### -param FilterFactory 
+[in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilterfactory">KSFILTERFACTORY</a> structure for which to find the first instantiated child filter.
 
 

@@ -57,18 +57,18 @@ The <b>GetTypeId</b>  method looks up the specified type and return its type ID.
 
 
 
-### -param Module [in]
-
+### -param Module 
+[in]
 Specifies the base address of the module to which the type belongs.  For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/modules">Modules</a>.  If <i>Name</i> contains a module name, <i>Module</i> is ignored. 
 
 
-### -param Name [in]
-
+### -param Name 
+[in]
 Specifies the name of the type whose type ID is desired.  If <i>Name</i> is a module-qualified name (for example <b>mymodule!main</b>), the <i>Module</i> parameter is ignored.
 
 
-### -param TypeId [out]
-
+### -param TypeId 
+[out]
 Receives the type ID of the symbol.
 
 

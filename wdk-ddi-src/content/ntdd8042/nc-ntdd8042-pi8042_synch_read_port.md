@@ -55,18 +55,18 @@ The PI8042_SYNCH_READ_PORT-typed callback routine does a synchronized read from 
 
 
 
-### -param Context [in]
-
+### -param Context 
+[in]
 Pointer to a context supplied by I8042prt.
 
 
-### -param Value [out]
-
+### -param Value 
+[out]
 Pointer to the UCHAR value returned by the routine.
 
 
-### -param WaitForACK [in]
-
+### -param WaitForACK 
+[in]
 Not used.
 
 

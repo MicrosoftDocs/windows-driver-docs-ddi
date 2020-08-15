@@ -55,13 +55,13 @@ Called when a bidi response  is received.
 
 
 
-### -param bstrResponse [in]
-
+### -param bstrResponse 
+[in]
 The received response.
 
 
-### -param hrStatus [in]
-
+### -param hrStatus 
+[in]
 An HRESULT value.
 
 

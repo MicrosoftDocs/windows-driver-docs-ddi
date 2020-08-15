@@ -66,8 +66,8 @@ STI_TRACE_WARNING
 STI_TRACE_ERROR
 
 
-### -param pszMessage [in]
-
+### -param pszMessage 
+[in]
 Caller-supplied pointer to the message string to be written to the log file.
 
 

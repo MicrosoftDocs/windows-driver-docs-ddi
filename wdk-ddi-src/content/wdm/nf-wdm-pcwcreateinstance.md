@@ -55,28 +55,28 @@ The <b>PcwCreateInstance</b> function creates a new instance for the specified r
 
 
 
-### -param Instance [out]
-
+### -param Instance 
+[out]
 A pointer to receive the newly created instance.
 
 
-### -param Registration [in]
-
+### -param Registration 
+[in]
 A pointer to the registered provider that owns this instance of the counter set.
 
 
-### -param Name [in]
-
+### -param Name 
+[in]
 A pointer to the Unicode string that contains the name of the instance of the counter set.
 
 
-### -param Count [in]
-
+### -param Count 
+[in]
 The number of data blocks that are associated with this instance.
 
 
-### -param Data [in]
-
+### -param Data 
+[in]
 A pointer to an array of data blocks that contains the counter values of this instance.
 
 

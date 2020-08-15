@@ -55,8 +55,8 @@ The <b>GetDmaAlignment</b> routine returns the alignment requirements of the DMA
 
 
 
-### -param DmaAdapter [in]
-
+### -param DmaAdapter 
+[in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_adapter">DMA_ADAPTER</a> structure returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a> that represents the bus-master adapter or DMA controller. 
 
 

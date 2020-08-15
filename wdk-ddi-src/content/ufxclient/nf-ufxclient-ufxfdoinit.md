@@ -55,18 +55,18 @@ Initializes the WDFDEVICE_INIT structure that the client driver subsequently pro
 
 
 
-### -param WdfDriver [in]
-
+### -param WdfDriver 
+[in]
 A handle to the driver's WDF driver object that the driver obtained from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nf-wdfdriver-wdfdrivercreate">WdfDriverCreate</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nf-wdfdriver-wdfgetdriver">WdfGetDriver</a>.
 
 
-### -param DeviceInit [in, out]
-
+### -param DeviceInit 
+[in, out]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure.
 
 
-### -param FdoAttributes [in, out]
-
+### -param FdoAttributes 
+[in, out]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that describes object attributes for the 
 
 

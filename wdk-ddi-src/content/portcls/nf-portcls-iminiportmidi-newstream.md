@@ -55,38 +55,38 @@ The <code>NewStream</code> method creates a new instance of a logical stream ass
 
 
 
-### -param Stream [out]
-
+### -param Stream 
+[out]
 Output pointer for the new stream. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the stream object's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportmidistream">IMiniportMidiStream</a> interface.
 
 
-### -param OuterUnknown [in, optional]
-
+### -param OuterUnknown 
+[in, optional]
 Pointer to the <b>IUnknown</b> interface of an object that needs to aggregate the stream object. This parameter is optional. If aggregation is not required, the caller specifies this parameter as <b>NULL</b>.
 
 
-### -param PoolType [in]
-
+### -param PoolType 
+[in]
 Specifies the type of memory pool from which the storage for the DMA-channel object should be allocated. This parameter is set to one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type">POOL_TYPE</a> enumeration values.
 
 
-### -param Pin [in]
-
+### -param Pin 
+[in]
 Specifies the pin ID. This parameter identifies the pin that is to be opened. If the MIDI miniport object's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiport-getdescription">IMiniport::GetDescription</a> method outputs a filter descriptor that specifies a total of <i>n</i> pin factories on the filter, then valid pin IDs are in the range 0 to <i>n</i>-1.
 
 
-### -param Capture [in]
-
+### -param Capture 
+[in]
 Specifies whether the channel is to be used for capture or for playback. If <b>TRUE</b>, it is a capture (input) channel. If <b>FALSE</b>, it is a playback (output) channel.
 
 
-### -param DataFormat [in]
-
+### -param DataFormat 
+[in]
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksdataformat">KSDATAFORMAT</a> structure that specifies the data format to use for this stream instance.
 
 
-### -param ServiceGroup [out]
-
+### -param ServiceGroup 
+[out]
 Output pointer for the service group. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iservicegroup">IServiceGroup</a> interface of the stream's service group object. This is the service group that is being registered for interrupt notification.
 
 

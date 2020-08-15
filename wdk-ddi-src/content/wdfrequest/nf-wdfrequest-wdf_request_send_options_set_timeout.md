@@ -57,13 +57,13 @@ The <b>WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT</b> function sets a time-out value i
 
 
 
-### -param Options [in, out]
-
+### -param Options 
+[in, out]
 A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/ns-wdfrequest-_wdf_request_send_options">WDF_REQUEST_SEND_OPTIONS</a> structure.
 
 
-### -param Timeout [in]
-
+### -param Timeout 
+[in]
 An absolute or relative time-out value. For more information, see the <b>Timeout</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/ns-wdfrequest-_wdf_request_send_options">WDF_REQUEST_SEND_OPTIONS</a> structure.
 
 

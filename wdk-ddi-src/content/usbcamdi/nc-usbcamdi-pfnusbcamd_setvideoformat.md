@@ -55,13 +55,13 @@ The <b>USBCAMD_SetVideoFormat</b> service is used to notify USBCAMD that the vid
 
 
 
-### -param DeviceContext [in]
-
+### -param DeviceContext 
+[in]
 Pointer to device-specific context.
 
 
-### -param pSrb [in]
-
+### -param pSrb 
+[in]
 Pointer to a stream request block (SRB).
 
 

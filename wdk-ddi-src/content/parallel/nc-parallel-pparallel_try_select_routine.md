@@ -66,13 +66,13 @@ typedef NTSTATUS (*PPARALLEL_TRY_SELECT_ROUTINE)(
 
 
 
-### -param TrySelectContext [in]
-
+### -param TrySelectContext 
+[in]
 Pointer to the device extension of a parallel port's functional device object (<a href="https://docs.microsoft.com/windows-hardware/drivers/">FDO</a>).
 
 
-### -param TrySelectCommand [in]
-
+### -param TrySelectCommand 
+[in]
 Pointer to a <a href="..\parallel\ns-parallel-_parallel_1284_command.md">PARALLEL_1284_COMMAND</a> structure. The caller specifies the following members:
 
 

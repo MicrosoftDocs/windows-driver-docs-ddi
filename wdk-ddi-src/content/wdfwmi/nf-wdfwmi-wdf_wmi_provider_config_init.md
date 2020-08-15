@@ -57,13 +57,13 @@ The <b>WDF_WMI_PROVIDER_CONFIG_INIT</b> function initializes a <a href="https://
 
 
 
-### -param Config [out]
-
+### -param Config 
+[out]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfwmi/ns-wdfwmi-_wdf_wmi_provider_config">WDF_WMI_PROVIDER_CONFIG</a> structure.
 
 
-### -param Guid [in]
-
+### -param Guid 
+[in]
 A pointer to a GUID that identifies a WMI data provider's data block. 
 
 

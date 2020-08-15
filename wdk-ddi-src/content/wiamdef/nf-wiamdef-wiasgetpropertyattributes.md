@@ -49,24 +49,24 @@ The **wiasGetPropertyAttributes** function retrieves the access flags and valid 
 
 ## -parameters
 
-### -param pWiasContext [in]
-
+### -param pWiasContext 
+[in]
 Pointer to a WIA item context.
 
 ### -param cPropSpec
 
 Specifies the number of properties.
 
-### -param pPropSpec [in]
-
+### -param pPropSpec 
+[in]
 Pointer to a [PROPSPEC](https://docs.microsoft.com/windows/win32/api/propidlbase/ns-propidlbase-propspec) structure indicating the properties for which to get valid values and access flags.
 
 ### -param pulAccessFlags
 
 Pointer to an array that contains the access flags for the properties.
 
-### -param pPropVar [out]
-
+### -param pPropVar 
+[out]
 Pointer to an array of [PROPVARIANT](https://docs.microsoft.com/windows/win32/api/propidlbase/ns-propidlbase-propvariant) structures that contains the valid values for the properties.
 
 ## -returns

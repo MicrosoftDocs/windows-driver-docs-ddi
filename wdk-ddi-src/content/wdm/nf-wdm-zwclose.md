@@ -56,8 +56,8 @@ The <b>ZwClose</b> routine closes an object handle.
 
 
 
-### -param Handle [in]
-
+### -param Handle 
+[in]
 Handle to an object of any type. 
 
 

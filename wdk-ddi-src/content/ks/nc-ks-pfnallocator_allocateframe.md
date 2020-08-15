@@ -55,13 +55,13 @@ The <i>KStrAllocateFrame</i> routine describes a vendor-supplied frame allocatio
 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">FILE_OBJECT</a> structure for which to allocate frames.
 
 
-### -param Frame [out]
-
+### -param Frame 
+[out]
 A pointer to a caller-allocated buffer in which the new frame is returned.
 
 

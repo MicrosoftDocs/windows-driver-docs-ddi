@@ -58,8 +58,8 @@ The
 
 
 
-### -param _pSystemTime [in]
-
+### -param _pSystemTime 
+[in]
 A pointer to a caller-supplied variable in which this function returns a count of 100-nanosecond
      intervals since January 1, 1601.
 

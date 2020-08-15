@@ -55,23 +55,23 @@ The <code>IPrintCorePS2::DrvWriteSpoolBuf</code> method is provided by the Pscri
 
 
 
-### -param pdevobj [in]
-
+### -param pdevobj 
+[in]
 Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_devobj">DEVOBJ</a> structure.
 
 
-### -param pBuffer [in]
-
+### -param pBuffer 
+[in]
 Caller-supplied pointer to a buffer containing data to be sent to the print spooler.
 
 
-### -param cbSize [in]
-
+### -param cbSize 
+[in]
 Caller-supplied value representing the size, in bytes, of the buffer pointed to by <i>pBuffer</i>. 
 
 
-### -param pdwResult [out]
-
+### -param pdwResult 
+[out]
 Receives a method-supplied value representing the number of bytes sent to the spooler.
 
 

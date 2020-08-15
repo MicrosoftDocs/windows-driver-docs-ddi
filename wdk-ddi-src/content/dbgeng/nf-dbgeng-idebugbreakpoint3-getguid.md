@@ -55,8 +55,8 @@ Returns a GUID for the breakpoint.
 
 
 
-### -param Guid [out]
-
+### -param Guid 
+[out]
 A unique ID returned for the breakpoint.
 
 

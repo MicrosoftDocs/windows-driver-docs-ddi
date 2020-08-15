@@ -63,8 +63,8 @@ The <b>FsRtlInitializeLargeMcb</b> routine initializes a map control block (MCB)
 <p>Pointer to a caller-allocated MCB structure to initialize.</p>
 
 
-### -param PoolType [in]
-
+### -param PoolType 
+[in]
 Type of pool to use when allocating additional internal storage for the MCB. One of the following:
 
 

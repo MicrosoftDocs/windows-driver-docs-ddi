@@ -55,18 +55,18 @@ req.typenames:
 
 
 
-### -param Filter [in]
-
+### -param Filter 
+[in]
 Opaque filter pointer for the caller. 
 
 
-### -param ServerPort [out]
-
+### -param ServerPort 
+[out]
 Pointer to a caller-allocated variable that receives an opaque port handle for the communication server port. The minifilter driver uses this handle to listen for incoming connection requests from a user-mode application. 
 
 
-### -param ObjectAttributes [in]
-
+### -param ObjectAttributes 
+[in]
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that specifies the attributes of the communication server port. This structure must have been initialized by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a>. This parameter is required and cannot be <b>NULL</b>. Members of this structure for a communication port object include the following. 
 
 <table>
@@ -119,13 +119,13 @@ Bitmask of flags specifying the desired attributes for the port handle. These fl
  
 
 
-### -param ServerPortCookie [in, optional]
-
+### -param ServerPortCookie 
+[in, optional]
 Pointer to context information defined by the minifilter driver. This information can be used to distinguish among multiple communication server ports that are created by the same minifilter driver. The Filter Manager passes this context pointer as a parameter to the <i>ConnectNotifyCallback</i> routine. This parameter is optional and can be <b>NULL</b>. 
 
 
-### -param ConnectNotifyCallback [in]
-
+### -param ConnectNotifyCallback 
+[in]
 Pointer to a caller-supplied callback routine. The Filter Manager calls this routine whenever a user-mode application calls <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterconnectcommunicationport">FilterConnectCommunicationPort</a> to send a connection request to the minifilter driver. This parameter is required and cannot be <b>NULL</b>. This routine is called at IRQL = PASSIVE_LEVEL. 
 
 This routine is declared as follows: 
@@ -184,8 +184,8 @@ Size, in bytes, of the buffer that <i>ConnectionContext </i>points to.
 Pointer to information that uniquely identifies this client port. This information is defined by the minifilter driver. The Filter Manager passes this context pointer as a parameter to the minifilter driver's <i>DisconnectNotifyCallback</i> and <i>MessageNotifyCallback</i> routines. 
 
 
-### -param DisconnectNotifyCallback [in]
-
+### -param DisconnectNotifyCallback 
+[in]
 Pointer to a caller-supplied callback routine to be called whenever the user-mode handle count for the client port reaches zero or when the minifilter driver is about to be unloaded. This parameter is required and cannot be <b>NULL</b>. This routine is called at IRQL = PASSIVE_LEVEL. 
 
 This routine is declared as follows: 
@@ -212,8 +212,8 @@ This routine is declared as follows:
 Pointer to information that uniquely identifies this client port. This information is defined by the minifilter driver. When the client port was created, the minifilter driver returned this context pointer in the <i>ConnectionPortCookie</i> parameter of its <i>ConnectNotifyCallback</i> routine. 
 
 
-### -param MessageNotifyCallback [in, optional]
-
+### -param MessageNotifyCallback 
+[in, optional]
 Pointer to a caller-supplied callback routine. The Filter Manager calls this routine, at IRQL = PASSIVE_LEVEL, whenever a user-mode application calls <a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filtersendmessage">FilterSendMessage</a> to send a message to the minifilter driver through the client port. This parameter is optional and can be <b>NULL</b>. If it is <b>NULL</b>, any request made from user mode to send data to the port will receive an error. 
 
 This routine is declared as follows: 
@@ -287,8 +287,8 @@ Size, in bytes, of the buffer that <i>OutputBuffer </i>points to. This parameter
 Pointer to a caller-allocated variable that receives the number of bytes returned in the buffer that <i>OutputBuffer</i> points to. 
 
 
-### -param MaxConnections [in]
-
+### -param MaxConnections 
+[in]
 Maximum number of simultaneous client connections to be allowed for this server port. This parameter is required and must be greater than zero. 
 
 

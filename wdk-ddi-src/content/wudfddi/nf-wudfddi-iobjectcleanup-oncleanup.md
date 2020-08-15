@@ -57,8 +57,8 @@ The <b>OnCleanup</b> method releases any references to a WDF object to prevent i
 
 
 
-### -param pWdfObject [in]
-
+### -param pWdfObject 
+[in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfobject">IWDFObject</a> interface of a object that is about to be released.
 
 

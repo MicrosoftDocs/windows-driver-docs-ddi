@@ -59,16 +59,16 @@ The
 
 
 
-### -param DriverHandle [in]
-
+### -param DriverHandle 
+[in]
 The miniport driver handle that the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterminiportdriver">
      NdisMRegisterMiniportDriver</a> function returns at 
      <i>NdisMiniportDriverHandle</i> .
 
 
-### -param DriverInstance [in]
-
+### -param DriverInstance 
+[in]
 A pointer to an NDIS_STRING type that describes a caller-initialized counted string in the
      system-default character set. The string contains the name of the registry key in which the driver
      stores information about a virtual miniport and, possibly, binding-specific information. For Microsoft
@@ -77,8 +77,8 @@ A pointer to an NDIS_STRING type that describes a caller-initialized counted str
      <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> type.
 
 
-### -param DeviceContext [in, optional]
-
+### -param DeviceContext 
+[in, optional]
 A pointer to caller-supplied memory to be set up with driver-defined device context information
      about the virtual miniport, which still higher level protocol drivers that subsequently bind themselves
      to this virtual miniport can use. This parameter can be <b>NULL</b> if the intermediate driver has no such

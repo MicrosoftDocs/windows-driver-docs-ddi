@@ -58,15 +58,15 @@ The
 
 
 
-### -param NdisAfHandle [in]
-
+### -param NdisAfHandle 
+[in]
 A handle that identifies the address family (AF), and implicitly the client, that the OID request
      is directed to. The MCM driver originally obtained this handle as an input parameter to its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_open_af">ProtocolCmOpenAf</a> function.
 
 
-### -param NdisVcHandle [in, optional]
-
+### -param NdisVcHandle 
+[in, optional]
 A handle that identifies the virtual connection (VC) that the caller is requesting or setting
      information for, if the request is VC-specific. Otherwise, if this request is not VC-specific, this
      parameter is <b>NULL</b>. For any VC-specific request, the caller originally obtained this handle either when
@@ -76,8 +76,8 @@ A handle that identifies the virtual connection (VC) that the caller is requesti
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a> function.
 
 
-### -param NdisPartyHandle [in, optional]
-
+### -param NdisPartyHandle 
+[in, optional]
 A handle that identifies the party on a multipoint VC that the caller is requesting or setting
      information for, if the request is party-specific. Otherwise, if this request is not party-specific,
      this parameter is <b>NULL</b>. For any party-specific request, the MCM driver originally obtained this handle

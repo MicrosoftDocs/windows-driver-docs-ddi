@@ -56,8 +56,8 @@ The <b>RtlUpcaseUnicodeChar</b> routine converts the specified Unicode character
 
 
 
-### -param SourceCharacter [in]
-
+### -param SourceCharacter 
+[in]
 Specifies the character to convert.
 
 

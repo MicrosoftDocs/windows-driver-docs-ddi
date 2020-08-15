@@ -55,13 +55,13 @@ The <b>RtlAppendUnicodeStringToString</b> routine concatenates two Unicode strin
 
 
 
-### -param Destination [in, out]
-
+### -param Destination 
+[in, out]
 Pointer to a buffered Unicode string.
 
 
-### -param Source [in]
-
+### -param Source 
+[in]
 Pointer to the buffered string to be concatenated. 
 
 

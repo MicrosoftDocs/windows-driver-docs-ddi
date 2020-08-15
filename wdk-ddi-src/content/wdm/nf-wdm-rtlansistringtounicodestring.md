@@ -55,18 +55,18 @@ req.typenames:
 
 
 
-### -param DestinationString [in, out]
-
+### -param DestinationString 
+[in, out]
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure to hold the converted Unicode string. If <i>AllocateDestinationString</i> is <b>TRUE</b>, the routine allocates a new buffer to hold the string data, and updates the <b>Buffer</b> member of <i>DestinationString</i> to point to the new buffer. Otherwise, the routine uses the currently-specified buffer to hold the string.
 
 
-### -param SourceString [in]
-
+### -param SourceString 
+[in]
 Pointer to the ANSI string to be converted to Unicode.
 
 
-### -param AllocateDestinationString [in]
-
+### -param AllocateDestinationString 
+[in]
 Specifies if this routine should allocate the buffer space for the destination string. If it does, the caller must deallocate the buffer by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfreeunicodestring">RtlFreeUnicodeString</a>.
 
 

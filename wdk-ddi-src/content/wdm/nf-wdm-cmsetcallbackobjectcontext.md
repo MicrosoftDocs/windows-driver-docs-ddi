@@ -55,8 +55,8 @@ The <b>CmSetCallbackObjectContext</b> routine associates specified context infor
 
 
 
-### -param Object [in, out]
-
+### -param Object 
+[in, out]
 A pointer to the registry key object that the driver is providing context information for. The driver obtains this pointer from the <b>ResultObject</b> member of one of the following structures:
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_create_key_information">REG_CREATE_KEY_INFORMATION</a>
@@ -64,18 +64,18 @@ A pointer to the registry key object that the driver is providing context inform
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560957">REG_OPEN_KEY_INFORMATION</a>
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560959">REG_OPEN_KEY_INFORMATION_V1</a>
 
-### -param Cookie [in]
-
+### -param Cookie 
+[in]
 A pointer to a LARGE_INTEGER value that identifies the callback routine to associate the context with. The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-cmregistercallbackex">CmRegisterCallbackEx</a> routine provided this value when you registered the callback routine.
 
 
-### -param NewContext [in]
-
+### -param NewContext 
+[in]
 A pointer to driver-defined context information.
 
 
-### -param OldContext [out, optional]
-
+### -param OldContext 
+[out, optional]
 A pointer to a location that receives a pointer to context information that the driver previously associated with the specified object and cookie. This parameter is optional and can be <b>NULL</b>.
 
 

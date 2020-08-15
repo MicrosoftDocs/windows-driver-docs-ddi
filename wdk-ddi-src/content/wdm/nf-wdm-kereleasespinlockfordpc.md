@@ -55,13 +55,13 @@ The <b>KeReleaseSpinLockForDpc</b> routine releases a spin lock that was acquire
 
 
 
-### -param SpinLock [in, out]
-
+### -param SpinLock 
+[in, out]
 Pointer to the spin lock that <b>KeAcquireSpinLockForDpc</b> acquired.
 
 
-### -param OldIrql [in]
-
+### -param OldIrql 
+[in]
 Specifies the IRQL that was current when the spin lock was acquired. Specify the value returned by <b>KeAcquireSpinLockForDpc</b>.
 
 

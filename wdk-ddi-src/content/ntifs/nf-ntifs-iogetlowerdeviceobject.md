@@ -55,8 +55,8 @@ The <b>IoGetLowerDeviceObject</b> routine returns a pointer to the next-lower-le
 
 
 
-### -param DeviceObject [in]
-
+### -param DeviceObject 
+[in]
 A pointer to the device object in the stack for which the next-lower-level device object is to be returned. 
 
 

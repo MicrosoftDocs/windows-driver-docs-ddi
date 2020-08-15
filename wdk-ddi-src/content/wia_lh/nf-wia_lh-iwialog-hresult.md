@@ -51,8 +51,8 @@ The **IWiaLog::hResult** method translates an HRESULT value into a string and wr
 
 ## -parameters
 
-### -param hResult [in]
-
+### -param hResult 
+[in]
 Specifies the HRESULT value to translate into a string.
 
 ## -returns

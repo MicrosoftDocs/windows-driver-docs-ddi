@@ -56,28 +56,28 @@ The <b>ZwEnumerateTransactionObject</b> routine enumerates the <a href="https://
 
 
 
-### -param RootObjectHandle [in, optional]
-
+### -param RootObjectHandle 
+[in, optional]
 A handle to a KTM object. The routine enumerates the child objects of the specified object. This parameter is optional and can be <b>NULL</b>. For more information about valid values for this parameter, see the table in the following Remarks section.
 
 
-### -param QueryType [in]
-
+### -param QueryType 
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_ktmobject_type">KTMOBJECT_TYPE</a>-typed value that identifies the object type to enumerate. For more information about valid values for this parameter, see the table in the following Remarks section.
 
 
-### -param ObjectCursor [in, out]
-
+### -param ObjectCursor 
+[in, out]
 A pointer to a caller-allocated buffer that begins with a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_ktmobject_cursor">KTMOBJECT_CURSOR</a> structure. <b>ZwEnumerateTransactionObject</b> uses the buffer to store the GUIDs of objects that it finds.
 
 
-### -param ObjectCursorLength [in]
-
+### -param ObjectCursorLength 
+[in]
 The length, in bytes, of the buffer that <i>ObjectCursor</i> points to.
 
 
-### -param ReturnLength [out]
-
+### -param ReturnLength 
+[out]
 A pointer to a caller-allocated location that receives the number of bytes that <b>ZwEnumerateTransactionObject</b> returns in the <i>ObjectCursor</i> buffer, including the length of the <b>KTMOBJECT_CURSOR</b> structure and the length of all returned GUIDs.
 
 

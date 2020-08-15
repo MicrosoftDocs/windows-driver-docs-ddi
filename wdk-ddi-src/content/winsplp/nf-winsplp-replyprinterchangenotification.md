@@ -65,13 +65,13 @@ The print spooler's <code>ReplyPrinterChangeNotification</code> function allows 
 
 
 
-### -param pdwResult [out, optional]
-
+### -param pdwResult 
+[out, optional]
 Optional. If not <b>NULL</b>, it receives spooler-supplied PRINTER_NOTIFY_INFO-prefixed flags indicating results of updating the supplied information.
 
 
-### -param pPrinterNotifyInfo [in, optional]
-
+### -param pPrinterNotifyInfo 
+[in, optional]
 Optional. Caller-supplieid address of a PRINTER_NOTIFY_INFO structure (described in the Windows SDK documentation). Can be <b>NULL</b> if no new notification information is being added.
 
 

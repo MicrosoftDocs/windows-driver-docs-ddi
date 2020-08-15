@@ -67,18 +67,18 @@ RtlEqualMemory(
 
 
 
-### -param Destination [in]
-
+### -param Destination 
+[in]
 A pointer to a caller-allocated block of memory to compare.
 
 
-### -param Source [in]
-
+### -param Source 
+[in]
 A pointer to a caller-allocated block of memory that is compared to the block of memory to which <i>Source1</i> points.
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 Specifies the number of bytes to be compared.
 
 

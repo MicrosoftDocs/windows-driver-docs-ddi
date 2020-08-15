@@ -56,13 +56,13 @@ The <b>RtlGUIDFromString</b> routine converts the given Unicode string to a GUID
 
 
 
-### -param GuidString [in]
-
+### -param GuidString 
+[in]
 Pointer to the buffered Unicode string to be converted to a GUID. 
 
 
-### -param Guid [out]
-
+### -param Guid 
+[out]
 Pointer to a caller-supplied variable in which the GUID is returned. 
 
 

@@ -59,13 +59,13 @@ Adds a new <b>HRESULT</b> value (type VT_ERROR) or overwrites an existing one.
 
 
 
-### -param key [in]
-
+### -param key 
+[in]
 A <b>REFPROPERTYKEY</b> that specifies the item to create or overwrite.
 
 
-### -param Value [in]
-
+### -param Value 
+[in]
 An <b>HRESULT</b> that contains the new value.
 
 

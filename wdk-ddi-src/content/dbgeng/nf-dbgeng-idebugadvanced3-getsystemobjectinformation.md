@@ -56,8 +56,8 @@ The <b>GetSystemObjectInformation</b> method returns information about operating
 
 
 
-### -param Which [in]
-
+### -param Which 
+[in]
 Specifies the type of object and the type of information to return about that object.  <i>Which</i> can take the following value.
 
 <table>
@@ -79,8 +79,8 @@ Returns details of the thread specified by engine thread ID.
  
 
 
-### -param Arg64 [in]
-
+### -param Arg64 
+[in]
 Specifies a 64-bit argument.  This parameter has the following interpretations depending on the value of <i>Which</i>:
 
 
@@ -92,8 +92,8 @@ Specifies a 64-bit argument.  This parameter has the following interpretations d
 Not used.
 
 
-### -param Arg32 [in]
-
+### -param Arg32 
+[in]
 Specifies a 32-bit argument.  This parameter has the following interpretations depending on the value of <i>Which</i>:
 
 
@@ -105,8 +105,8 @@ Specifies a 32-bit argument.  This parameter has the following interpretations d
 The engine thread ID of the desired thread.
 
 
-### -param Buffer [out, optional]
-
+### -param Buffer 
+[out, optional]
 Receives the requested information.  The type of data returned in <i>Buffer</i> depends on the value of <i>Which</i>.
 
 <table>
@@ -130,13 +130,13 @@ DEBUG_SYSOBJINFO_THREAD_BASIC_INFORMATION
  
 
 
-### -param BufferSize [in]
-
+### -param BufferSize 
+[in]
 Specifies the size, in bytes, of the buffer <i>Buffer</i>.
 
 
-### -param InfoSize [out, optional]
-
+### -param InfoSize 
+[out, optional]
 Receives the size of the information that is returned.
 
 

@@ -55,24 +55,24 @@ The <i>NdkQqueryExtensionInterface</i> (<i>NDK_FN_QUERY_EXTENSION_INTERFACE</i>)
 
 
 
-### -param pNdkObject [in]
-
+### -param pNdkObject 
+[in]
 	A pointer to the object header (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_object_header">NDK_OBJECT_HEADER</a>) for the object being queried.
 
 
-### -param ExtensionInterfaceID [in]
-
+### -param ExtensionInterfaceID 
+[in]
 A pointer to the GUID that identifies the extension interface.
 
 
-### -param ExtensionInterfaceVersion [in]
-
+### -param ExtensionInterfaceVersion 
+[in]
 	The requested version (<a href="https://docs.microsoft.com/windows/desktop/api/ndkinfo/ns-ndkinfo-ndk_version">NDK_VERSION</a>) of the extension interface.
 
 
 
-### -param pExtensionInterface [out]
-
+### -param pExtensionInterface 
+[out]
 A pointer to an   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_extension_interface">NDK_EXTENSION_INTERFACE</a> structure that the provider  initialized if the function returns STATUS_SUCCESS.
 
 

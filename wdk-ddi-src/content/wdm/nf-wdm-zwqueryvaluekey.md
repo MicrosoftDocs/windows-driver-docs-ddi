@@ -56,33 +56,33 @@ The <b>ZwQueryValueKey</b> routine returns a value entry for a registry key.
 
 
 
-### -param KeyHandle [in]
-
+### -param KeyHandle 
+[in]
 Handle to the key to read value entries from. This handle is created by a successful call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey">ZwOpenKey</a>. 
 
 
-### -param ValueName [in]
-
+### -param ValueName 
+[in]
 Pointer to the name of the value entry to obtain data for. 
 
 
-### -param KeyValueInformationClass [in]
-
+### -param KeyValueInformationClass 
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_key_value_information_class">KEY_VALUE_INFORMATION_CLASS</a> value that determines the type of information returned in the <i>KeyValueInformation</i> buffer. 
 
 
-### -param KeyValueInformation [out, optional]
-
+### -param KeyValueInformation 
+[out, optional]
 Pointer to a caller-allocated buffer that receives the requested information.
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 Specifies the size, in bytes, of the <i>KeyValueInformation</i> buffer. 
 
 
-### -param ResultLength [out]
-
+### -param ResultLength 
+[out]
 Pointer to a variable that receives the size, in bytes, of the key information. If the <b>ZwQueryValueKey</b> routine returns STATUS_SUCCESS, callers can use the value of this variable to determine the amount of data returned. If the routine returns STATUS_BUFFER_OVERFLOW or STATUS_BUFFER_TOO_SMALL, callers can use the value of this variable to determine the size of buffer required to hold the key information. 
 
 

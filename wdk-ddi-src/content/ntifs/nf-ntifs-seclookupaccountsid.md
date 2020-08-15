@@ -56,18 +56,18 @@ req.typenames:
 
 
 
-### -param Sid [in]
-
+### -param Sid 
+[in]
 A pointer to the SID to look up. 
 
 
-### -param NameSize [out]
-
+### -param NameSize 
+[out]
 A pointer to a variable that specifies the size of the <i>NameBuffer</i>. On input, this value specifies the size in bytes of the input <i>NameBuffer</i>. If the function fails because the buffer is too small, this variable receives the required buffer size. On success, this variable contains the size of the returned <i>NameBuffer</i>.
 
 
-### -param NameBuffer [in, out]
-
+### -param NameBuffer 
+[in, out]
 A pointer to the <i>NameBuffer</i>. 
 
 
@@ -76,8 +76,8 @@ A pointer to the <i>NameBuffer</i>.
 <p>A pointer to an optional variable that specifies the size of the <i>ReferencedDomain</i> parameter. On input, this value specifies the size of the <i>ReferencedDomain</i> buffer. If the function fails because the buffer is too small, this variable receives the required buffer size. If the <i>ReferencedDomain</i> parameter is <b>NULL</b>, this parameter must be zero.</p>
 
 
-### -param NameUse [out]
-
+### -param NameUse 
+[out]
 A pointer to a SID_NAME_USE enumerated type that indicates the type of the account when the function returns. 
 
 

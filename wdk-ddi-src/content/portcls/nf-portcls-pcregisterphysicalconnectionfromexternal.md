@@ -56,28 +56,28 @@ The <b>PcRegisterPhysicalConnectionFromExternal</b> function registers a physica
 
 
 
-### -param DeviceObject [in]
-
+### -param DeviceObject 
+[in]
 Pointer to the device object for the device. This is a system structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>.
 
 
-### -param FromString [in]
-
+### -param FromString 
+[in]
 Pointer to a null-terminated Unicode string containing the symbolic link name of the external filter that supplies the connection's source pin.
 
 
-### -param FromPin [in]
-
+### -param FromPin 
+[in]
 Specifies a pin ID. This parameter identifies the source (output) pin on the external filter named by <i>FromString</i>.
 
 
-### -param ToUnknown [in]
-
+### -param ToUnknown 
+[in]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iport">IPort</a> interface of a port driver object. The port driver object that is associated with <i>ToUnknown</i> is bound to the subdevice that supplies the connection's data sink (input) pin.
 
 
-### -param ToPin [in]
-
+### -param ToPin 
+[in]
 Specifies a pin ID. This parameter identifies the sink (input) pin on the filter that is associated with the <i>ToUnknown</i> interface.
 
 

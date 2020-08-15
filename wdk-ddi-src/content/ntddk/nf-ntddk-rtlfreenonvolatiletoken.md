@@ -56,8 +56,8 @@ The routine <b>RtlFreeNonVolatileToken</b> is a cleanup function for the opaque 
 
 
 
-### -param NvToken [in]
-
+### -param NvToken 
+[in]
  A pointer to an opaque structure that has
         information about various properties of the non-volatile memory region which <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlgetnonvolatiletoken">RtlGetNonVolatileToken</a> had returned.
 

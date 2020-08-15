@@ -55,33 +55,33 @@ The <b>MmAllocatePagesForMdlEx</b> routine allocates nonpaged, physical memory p
 
 
 
-### -param LowAddress [in]
-
+### -param LowAddress 
+[in]
 Specifies the physical address of the start of the first address range from which the allocated pages can come. If <b>MmAllocatePagesForMdlEx</b> cannot allocate the requested number of bytes in the first address range, it iterates through additional address ranges to get more pages. At each iteration, <b>MmAllocatePagesForMdlEx</b> adds the value of <i>SkipBytes</i> to the previous start address to obtain the start of the next address range.
 
 
-### -param HighAddress [in]
-
+### -param HighAddress 
+[in]
 Specifies the physical address of the end of the first address range that the allocated pages can come from.
 
 
-### -param SkipBytes [in]
-
+### -param SkipBytes 
+[in]
 Specifies the number of bytes to skip from the start of the previous address range that the allocated pages can come from. <i>SkipBytes</i> must be an integer multiple of the virtual memory page size, in bytes.
 
 
-### -param TotalBytes [in]
-
+### -param TotalBytes 
+[in]
 Specifies the total number of bytes to allocate for the MDL.
 
 
-### -param CacheType [in]
-
+### -param CacheType 
+[in]
 Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_memory_caching_type">MEMORY_CACHING_TYPE</a> value, which indicates the type of caching that is allowed for the requested memory.
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 Specifies flags for this operation. Set this parameter to zero or to the bitwise OR of one or more of the following <b>MM_ALLOCATE_<i>XXX</i></b> flag bits:
 
 The last four items in the preceding list are supported only in Windows 7 and later versions of Windows.

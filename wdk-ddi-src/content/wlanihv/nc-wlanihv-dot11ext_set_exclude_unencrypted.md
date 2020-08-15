@@ -70,16 +70,16 @@ DWORD WINAPI * Dot11ExtSetExcludeUnencrypted(
 
 
 
-### -param hDot11SvcHandle [in, optional]
-
+### -param hDot11SvcHandle 
+[in, optional]
 The handle used by the operating system to reference the WLAN adapter. This handle value was
      specified through a previous call to the
      <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a> IHV
      Handler function.
 
 
-### -param bExcludeUnencrypted [in]
-
+### -param bExcludeUnencrypted 
+[in]
 A Boolean value that, if set to <b>TRUE</b>, configures the WLAN adapter to exclude unencrypted
      packets.
 

@@ -57,8 +57,8 @@ The <b>WDF_REQUEST_PARAMETERS_INIT</b> function initializes a <a href="https://d
 
 
 
-### -param Parameters [out]
-
+### -param Parameters 
+[out]
 A pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/ns-wdfrequest-_wdf_request_parameters">WDF_REQUEST_PARAMETERS</a> structure.
 
 

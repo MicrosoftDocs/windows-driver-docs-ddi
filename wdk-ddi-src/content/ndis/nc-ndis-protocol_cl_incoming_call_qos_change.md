@@ -60,14 +60,14 @@ The
 
 
 
-### -param ProtocolVcContext [in]
-
+### -param ProtocolVcContext 
+[in]
 Specifies the handle to the client's per-VC context area for the VC on which a request to modify
      the quality of service has come in over the network.
 
 
-### -param CallParameters [in]
-
+### -param CallParameters 
+[in]
 Pointer to a buffer, formatted as a 
      <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a> structure, that contains
      the new QoS specification.

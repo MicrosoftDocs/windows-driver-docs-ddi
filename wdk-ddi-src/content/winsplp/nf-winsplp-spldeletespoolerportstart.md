@@ -55,5 +55,5 @@ req.typenames:
 
 
 
-### -param pPortName [in]
-
+### -param pPortName 
+[in]

@@ -57,13 +57,13 @@ The <b>StorPortInitializeSpinLock </b>routine initializes a variable of type <b>
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param Lock [out]
-
+### -param Lock 
+[out]
 Pointer to a spin lock of type <b>STOR_KSPIN_LOCK</b>, for which the caller must provide the storage
 
 

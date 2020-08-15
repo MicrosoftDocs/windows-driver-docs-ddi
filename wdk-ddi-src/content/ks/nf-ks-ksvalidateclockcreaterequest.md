@@ -63,8 +63,8 @@ This can only be called at PASSIVE_LEVEL.
 
 
 
-### -param ClockCreate [out]
-
+### -param ClockCreate 
+[out]
 Specifies the clock create structure pointer passed to the create request.
 
 

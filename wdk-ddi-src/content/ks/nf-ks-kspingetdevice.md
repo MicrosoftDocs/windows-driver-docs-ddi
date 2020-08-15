@@ -55,8 +55,8 @@ The<b> KsPinGetDevice </b>function returns the AVStream device to which <i>Pin</
 
 
 
-### -param Pin [in]
-
+### -param Pin 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure representing the pin for which to return the owning AVStream device.
 
 

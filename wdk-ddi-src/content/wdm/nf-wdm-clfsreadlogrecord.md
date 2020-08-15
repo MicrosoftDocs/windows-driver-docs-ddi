@@ -56,33 +56,33 @@ The <b>ClfsReadLogRecord</b> routine reads a target record in a CLFS stream and 
 
 
 
-### -param pvMarshalContext [in]
-
+### -param pvMarshalContext 
+[in]
 A pointer to an opaque context that represents a marshalling area. The caller previously obtained this pointer by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfscreatemarshallingarea">ClfsCreateMarshallingArea</a>.
 
 
-### -param plsnFirst [in, out]
-
+### -param plsnFirst 
+[in, out]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cls_lsn">CLFS_LSN</a> structure that supplies the LSN of the target record in the log.
 
 
-### -param peContextMode [in]
-
+### -param peContextMode 
+[in]
 A value from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_clfs_context_mode">CLFS_CONTEXT_MODE</a> enumeration that specifies the initial mode (ClfsContextUndoNext, ClfsContextPrevious, or ClfsContextForward) of the read context returned in <i>ppvReadContext</i>.
 
 
-### -param ppvReadBuffer [out]
-
+### -param ppvReadBuffer 
+[out]
 A pointer to a variable that receives a pointer to the data buffer of the target record.
 
 
-### -param pcbReadBuffer [out]
-
+### -param pcbReadBuffer 
+[out]
 A pointer to a ULONG-typed variable that receives the size, in bytes, of the buffer pointed to by *<i>ppvReadBuffer</i>. This is the length of the data buffer of the target record.
 
 
-### -param peRecordType [out]
-
+### -param peRecordType 
+[out]
 A pointer to a variable of type CLFS_RECORD_TYPE that receives one of the following values.
 
 <table>
@@ -114,18 +114,18 @@ The target record is a restart record.
  
 
 
-### -param plsnUndoNext [out]
-
+### -param plsnUndoNext 
+[out]
 A pointer to a <b>CLFS_LSN</b> structure that receives the undo-next LSN of the target record.
 
 
-### -param plsnPrevious [out]
-
+### -param plsnPrevious 
+[out]
 A pointer to a <b>CLFS_LSN</b> structure that receives the previous LSN of the target record.
 
 
-### -param ppvReadContext [out]
-
+### -param ppvReadContext 
+[out]
 A pointer to a variable that receives a pointer to an opaque read context. The client repeatedly passes this context to  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsreadnextlogrecord">ClfsReadNextLogRecord</a> to read the remaining records in a sequence. After the client has read all the records in the sequence, it calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsterminatereadlog">ClfsTerminateReadLog</a> to free the read context.
 
 

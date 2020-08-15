@@ -49,16 +49,16 @@ The **ObGetObjectSecurity** routine gets the security descriptor for a given obj
 
 ## -parameters
 
-### -param Object [in]
-
+### -param Object 
+[in]
 Pointer to the object.
 
-### -param SecurityDescriptor [out]
-
+### -param SecurityDescriptor 
+[out]
 Pointer to a caller-supplied variable that this routine sets to the address of a buffer containing the [SECURITY_DESCRIPTOR](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor) for the given object. If the given object has no security descriptor, this variable is set to **NULL** on return from **ObGetObjectSecurity**.
 
-### -param MemoryAllocated [out]
-
+### -param MemoryAllocated 
+[out]
 Pointer to a caller-supplied variable that this routine sets to **TRUE** if it allocated a buffer to contain the security descriptor.
 
 ## -returns

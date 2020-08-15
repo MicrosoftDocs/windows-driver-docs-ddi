@@ -74,30 +74,30 @@ typedef SRIOV_READ_BLOCK *PSRIOV_READ_BLOCK;
 
 
 
-### -param Context [in]
-
+### -param Context 
+[in]
 A pointer to a driver-defined context.
 
 
 
 
-### -param VfIndex [in]
-
+### -param VfIndex 
+[in]
 A zero-based index of the VF to which this read operation applies.
 
 
-### -param BlockId [in]
-
+### -param BlockId 
+[in]
 A number identifying the block to be read.  This is defined by the provider of the PF driver.
 
 
-### -param Buffer [out]
-
+### -param Buffer 
+[out]
 A pointer to a buffer that receives the data read from the VF's  configuration space.
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 The length in bytes of this read operation.  Must not be greater than VPCI_MAX_READ_WRITE_BLOCK_SIZE defined in Pcivirt.h.
 
 

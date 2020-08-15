@@ -55,13 +55,13 @@ The <b>SendRecvXMLStream</b> method sends a bidirectional printer communication 
 
 
 
-### -param pSRequest [in]
-
+### -param pSRequest 
+[in]
 A pointer to the bidi communication request as a stream that complies with one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/print/bidirectional-communication-schema">Bidirectional Communication Schemas</a>.
 
 
-### -param ppSResponse [out]
-
+### -param ppSResponse 
+[out]
 A pointer to the printer's response as a stream that complies with one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/print/bidirectional-communication-schema">Bidirectional Communication Schemas</a>.
 
 

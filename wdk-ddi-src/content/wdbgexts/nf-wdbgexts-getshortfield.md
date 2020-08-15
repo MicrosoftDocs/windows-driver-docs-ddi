@@ -55,8 +55,8 @@ The <b>GetShortField</b> function reads the value of a member in a structure if 
 
 
 
-### -param TypeAddress [in]
-
+### -param TypeAddress 
+[in]
 The meaning of this parameter depends on the value of <i>StoreAddress</i>.
 
 
@@ -74,8 +74,8 @@ Specifies the address of the structure in the target's memory.  This address is 
 <i>TypeAddress</i> is ignored.  The value of <i>TypeAddress</i> from the last call when <i>StoreAddress</i> was non-zero is used to specify the address of the structure in the target's memory. 
 
 
-### -param Name [in]
-
+### -param Name 
+[in]
 The meaning of this parameter depends on the value of <i>StoreAddress</i>.
 
 
@@ -93,8 +93,8 @@ Specifies the name of the type of the structure at <i>TypeAddress</i>.
 Specifies the name of the member in the structure to read.  The address and type of the structure are remembered from a previous call to this function with <i>StoreAddress</i> not equal to zero.  Submembers can be specified by using a period-separated path, for example, "myfield.mysubfield". 
 
 
-### -param StoreAddress [in]
-
+### -param StoreAddress 
+[in]
 Specifies the mode of this function.
 
 

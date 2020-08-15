@@ -58,8 +58,8 @@ The <b>AtaPortReadRegisterUshort</b> routine reads a USHORT value from the HBA.
 
 
 
-### -param Register [in]
-
+### -param Register 
+[in]
 A pointer to the register to be read. The address value that is assigned to this parameter must be within the range of mapped I/O space addresses that are obtained by a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nf-irb-ataportgetdevicebase">AtaPortGetDeviceBase</a>.
 
 

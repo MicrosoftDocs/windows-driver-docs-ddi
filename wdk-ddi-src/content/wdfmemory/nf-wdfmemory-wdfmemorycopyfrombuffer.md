@@ -60,23 +60,23 @@ The <b>WdfMemoryCopyFromBuffer</b> method copies the contents of a specified sou
 
 
 
-### -param DestinationMemory [in]
-
+### -param DestinationMemory 
+[in]
 A handle to a framework memory object that represents the destination buffer.
 
 
-### -param DestinationOffset [in]
-
+### -param DestinationOffset 
+[in]
 An offset, in bytes, from the beginning of the destination buffer. The copy operation begins at the specified offset in the destination buffer.
 
 
-### -param Buffer [in]
-
+### -param Buffer 
+[in]
 A pointer to a source buffer.
 
 
-### -param NumBytesToCopyFrom [in]
-
+### -param NumBytesToCopyFrom 
+[in]
 The number of bytes to copy from the source buffer to the destination buffer. This value must not be greater than the size of the source buffer.
 
 

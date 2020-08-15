@@ -55,28 +55,28 @@ The <b>EtwWrite</b> function is a tracing function for publishing events in your
 
 
 
-### -param RegHandle [in]
-
+### -param RegHandle 
+[in]
 A pointer to the event provider registration handle, which is returned by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-etwregister">EtwRegister</a> function if the event provider registration is successful.
 
 
-### -param EventDescriptor [in]
-
+### -param EventDescriptor 
+[in]
 A pointer to the <a href="https://docs.microsoft.com/windows/win32/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a> structure. 
 
 
-### -param ActivityId [in, optional]
-
+### -param ActivityId 
+[in, optional]
 The identifier that indicates the activity associated with the event. The <i>ActivityID</i> provides a way to group related events and is used in end-to-end tracing. 
 
 
-### -param UserDataCount [in]
-
+### -param UserDataCount 
+[in]
 The number of EVENT_DATA_DESCRIPTOR structures in <i>UserData</i>.
 
 
-### -param UserData [in, optional]
-
+### -param UserData 
+[in, optional]
 A pointer to the array of EVENT_DATA_DESCRIPTOR structures. 
 
 

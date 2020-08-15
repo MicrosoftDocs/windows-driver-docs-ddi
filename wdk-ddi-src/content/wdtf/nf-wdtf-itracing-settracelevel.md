@@ -55,8 +55,8 @@ The <b>SetTraceLevel</b> method sets the tracing level for an object. Every obje
 
 
 
-### -param Level [in]
-
+### -param Level 
+[in]
 The new <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">TTraceLevel</a> value for this object.
 
 

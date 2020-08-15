@@ -55,8 +55,8 @@ req.typenames:
 
 
 
-### -param NameCacheCtl [in]
-
+### -param NameCacheCtl 
+[in]
 A pointer to the NAME_CACHE_CONTROL structure for the name cache.
 
 

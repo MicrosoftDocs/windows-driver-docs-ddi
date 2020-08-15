@@ -53,20 +53,20 @@ req.typenames:
 
 ## -parameters
 
-### -param File [in]
-
+### -param File 
+[in]
 Pointer to a NULL-terminated string containing the file name in which the assert occurred.
 
-### -param Line [in]
-
+### -param Line 
+[in]
 Specifies the line number of the assert.
 
-### -param AssertText [in]
-
+### -param AssertText 
+[in]
 Pointer to a NULL-terminated string containing text to be printed in the debug message.
 
-### -param AssertValue [in]
-
+### -param AssertValue 
+[in]
 Specifies a value to be printed in the debug message.
 
 ## -returns

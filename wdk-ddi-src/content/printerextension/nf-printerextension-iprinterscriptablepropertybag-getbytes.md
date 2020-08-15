@@ -55,8 +55,8 @@ Gets a byte array property.
 
 
 
-### -param bstrName [in]
-
+### -param bstrName 
+[in]
 The property to read.
 
 

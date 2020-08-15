@@ -56,8 +56,8 @@ PosCxGetDeviceInterfaceTag returns the device interface tag that is set in <a hr
 
 
 
-### -param fileObject [in]
-
+### -param fileObject 
+[in]
       A handle to a framework file object that identifies the caller, usually acquired with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestgetfileobject">WdfRequestGetFileObject</a>.
 
 

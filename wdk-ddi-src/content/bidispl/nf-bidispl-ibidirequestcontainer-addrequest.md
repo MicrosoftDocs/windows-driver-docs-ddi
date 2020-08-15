@@ -55,8 +55,8 @@ The <b>AddRequest</b> method adds a request to the request list.
 
 
 
-### -param pRequest [in]
-
+### -param pRequest 
+[in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bidispl/nn-bidispl-ibidirequest">IBidiRequest</a> interface.
 
 

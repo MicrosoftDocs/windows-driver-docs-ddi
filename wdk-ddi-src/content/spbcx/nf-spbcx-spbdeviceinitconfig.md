@@ -56,8 +56,8 @@ The <b>SpbDeviceInitConfig</b> method attaches the SPB framework extension (SpbC
 
 
 
-### -param DeviceInit [in, out]
-
+### -param DeviceInit 
+[in, out]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure that is  to be configured.
 
 

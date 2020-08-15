@@ -57,8 +57,8 @@ The
 
 
 
-### -param engineHandle [in, out]
-
+### -param engineHandle 
+[in, out]
 A handle for an open session to the filter engine.
 
 

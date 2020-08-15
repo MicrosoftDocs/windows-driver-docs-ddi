@@ -55,8 +55,8 @@ A printer interface DLL's <b>DrvDocumentPropertySheets</b> function is responsib
 
 
 
-### -param pPSUIInfo [in, optional]
-
+### -param pPSUIInfo 
+[in, optional]
 Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_propsheetui_info">PROPSHEETUI_INFO</a> structure. Can be <b>NULL</b> (see the following Remarks section).
 
 

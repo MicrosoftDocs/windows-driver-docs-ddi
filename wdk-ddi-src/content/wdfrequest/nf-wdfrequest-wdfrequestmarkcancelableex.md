@@ -60,13 +60,13 @@ The <b>WdfRequestMarkCancelableEx</b> method enables cancellation of a specified
 
 
 
-### -param Request [in]
-
+### -param Request 
+[in]
 A handle to a framework request object.
 
 
-### -param EvtRequestCancel [in]
-
+### -param EvtRequestCancel 
+[in]
 A pointer to a driver-defined <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nc-wdfrequest-evt_wdf_request_cancel">EvtRequestCancel</a> callback function, which the framework calls if it cancels the I/O request.
 
 

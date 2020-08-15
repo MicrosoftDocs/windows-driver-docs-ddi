@@ -57,8 +57,8 @@ req.typenames:
 
 
 
-### -param Capabilities [out]
-
+### -param Capabilities 
+[out]
 A pointer to the driver-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmtcpciportcontroller/nf-ucmtcpciportcontroller-ucmtcpci_port_controller_capabilities_init">UCMTCPCI_PORT_CONTROLLER_CAPABILITIE</a>S structure.
 
 

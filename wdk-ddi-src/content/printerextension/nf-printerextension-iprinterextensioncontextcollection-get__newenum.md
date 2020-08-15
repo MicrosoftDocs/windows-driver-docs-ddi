@@ -56,8 +56,8 @@ Gets a pointer to the enumerants of <a href="https://docs.microsoft.com/windows-
 
 
 
-### -param ppUnk [out, retval]
-
+### -param ppUnk 
+[out, retval]
 
 ## -returns
 

@@ -55,18 +55,18 @@ Adds two values of type <b>INT</b>.
 
 
 
-### -param iAugend [in]
-
+### -param iAugend 
+[in]
 The first value in the equation.
 
 
-### -param iAddend [in]
-
+### -param iAddend 
+[in]
 The value to add to <i>iAugend</i>.
 
 
-### -param piResult [out]
-
+### -param piResult 
+[out]
 A pointer to the sum. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
 

@@ -58,8 +58,8 @@ The <b>WdfRequestIsReserved</b> method determines whether a specified request ob
 
 
 
-### -param Request [in]
-
+### -param Request 
+[in]
 A handle to a framework request object.
 
 

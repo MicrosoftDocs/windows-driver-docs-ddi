@@ -55,23 +55,23 @@ The <b>FltOplockFsctrlEx</b> routine performs various opportunistic lock (oplock
 
 
 
-### -param Oplock [in]
-
+### -param Oplock 
+[in]
 An opaque oplock pointer for the file. This pointer must have been initialized by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinitializeoplock">FltInitializeOplock</a>. 
 
 
-### -param CallbackData [in]
-
+### -param CallbackData 
+[in]
 A pointer to the callback data structure for the I/O operation (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>). This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param OpenCount [in]
-
+### -param OpenCount 
+[in]
 The number of user handles for the file, if an exclusive oplock is being requested. Setting a nonzero value for a level 2, R, or RH oplock request indicates that there are byte-range locks on the file. For information about oplock types, see <a href="https://docs.microsoft.com/windows-hardware/drivers/image/overview">Oplock Semantics Overview</a>. 
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 A bitmask for the associated oplock operations. A minifilter driver sets bits to specify the behavior of <b>FltOplockFsctrlEx</b>. The <i>Flags</i> parameter has the following options:
 
 

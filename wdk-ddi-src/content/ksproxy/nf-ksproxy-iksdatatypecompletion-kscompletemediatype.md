@@ -55,18 +55,18 @@ The <b>KsCompleteMediaType</b> method completes a partially-specified media type
 
 
 
-### -param FilterHandle [in]
-
+### -param FilterHandle 
+[in]
 Handle to the underlying KS filter.
 
 
-### -param PinFactoryId [in]
-
+### -param PinFactoryId 
+[in]
 Identifier of the pin factory against which the media type is being completed.
 
 
-### -param AmMediaType [in, out]
-
+### -param AmMediaType 
+[in, out]
 Pointer to a AM_MEDIA_TYPE structure that describes the format of the media samples. <b>KsCompleteMediaType</b> receives partially specified media samples, completes the specification, and returns.
 
 

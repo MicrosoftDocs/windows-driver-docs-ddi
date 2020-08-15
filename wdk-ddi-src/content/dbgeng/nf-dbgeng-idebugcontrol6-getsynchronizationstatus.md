@@ -55,13 +55,13 @@ The GetSynchronizationStatus method returns information about the synchronizatio
 
 
 
-### -param SendsAttempted [out]
-
+### -param SendsAttempted 
+[out]
 The number of packet sends that have been attempted by the current debugger-engine kernel transport mechanism. This number will be incremented if engine did not receive a packet "ACK" for the last packet sent by the engine to the target.
 
 
-### -param SecondsSinceLastResponse [out]
-
+### -param SecondsSinceLastResponse 
+[out]
 The number of seconds since the last response.
 
 

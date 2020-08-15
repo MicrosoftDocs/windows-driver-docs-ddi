@@ -58,24 +58,24 @@ The
 
 
 
-### -param poolHandle [in]
-
+### -param poolHandle 
+[in]
 A 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> pool handle that was
      obtained from a previous call to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlistpool">NdisAllocateNetBufferListPool</a> function.
 
 
-### -param contextSize [in]
-
+### -param contextSize 
+[in]
 The size, in bytes, of used data space in the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list_context">NET_BUFFER_LIST_CONTEXT</a> structure
      to reserve for the callout driver. The value of this parameter must be a multiple of the value defined
      by <b>MEMORY_ALLOCATION_ALIGNMENT</b>.
 
 
-### -param contextBackFill [in]
-
+### -param contextBackFill 
+[in]
 The size, in bytes, of 
      unused data space (backfill space) that the callout driver requires. The 
      <b>FwpsAllocateNetBufferAndNetBufferList0</b> function adds this value to the value specified in the 
@@ -83,28 +83,28 @@ The size, in bytes, of
      multiple of the value defined by <b>MEMORY_ALLOCATION_ALIGNMENT</b>.
 
 
-### -param mdlChain [in, optional]
-
+### -param mdlChain 
+[in, optional]
 A pointer to an MDL chain that is used to initialize the preallocated NET_BUFFER structure. This
      parameter is optional and can be <b>NULL</b>.
 
 
-### -param dataOffset [in]
-
+### -param dataOffset 
+[in]
 The initial offset, in bytes, from the start of the buffer to the start of the 
      used data space in the MDL chain. Data space ahead of this offset is 
      unused data space. Therefore, this value also represents the initial amount of available backfill
      space in the MDL chain.
 
 
-### -param dataLength [in]
-
+### -param dataLength 
+[in]
 The length, in bytes, of the 
      used data space in the MDL chain.
 
 
-### -param netBufferList [out]
-
+### -param netBufferList 
+[out]
 A pointer to a variable that receives a pointer to the new 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
 

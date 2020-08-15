@@ -61,8 +61,8 @@ The <b>BdaMethodDeletePin</b> function deletes a pin factory.
 
 
 
-### -param pKSMethod [in]
-
+### -param pKSMethod 
+[in]
 Points to a <a href="https://docs.microsoft.com/previous-versions/ff563398(v=vs.85)">KSMETHOD</a> structure that describes the method and request type of a method request.
 
 

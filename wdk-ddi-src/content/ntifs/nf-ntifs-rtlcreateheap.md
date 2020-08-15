@@ -56,8 +56,8 @@ The <b>RtlCreateHeap</b> routine creates a heap object that can be used by the c
 
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 Flags specifying optional attributes of the heap. These options affect subsequent access to the new heap through calls to the heap functions (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlallocateheap">RtlAllocateHeap</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlfreeheap">RtlFreeHeap</a>). 
 
 Callers should set this parameter to zero if no optional attributes are requested. 
@@ -85,8 +85,8 @@ Specifies that the heap is growable. Must be specified if <i>HeapBase</i> is <b>
 Specifies that mutual exclusion will not be used when the heap functions allocate and free memory from this heap. The default, when HEAP_NO_SERIALIZE is not specified, is to serialize access to the heap. Serialization of heap access allows two or more threads to simultaneously allocate and free memory from the same heap. 
 
 
-### -param HeapBase [in, optional]
-
+### -param HeapBase 
+[in, optional]
 Specifies one of two actions:
 
 If <i>HeapBase</i> is a non-<b>NULL</b> value, it specifies the base address for a block of caller-allocated memory to use for the heap. 
@@ -94,8 +94,8 @@ If <i>HeapBase</i> is a non-<b>NULL</b> value, it specifies the base address for
 If <i>HeapBase</i> is <b>NULL</b>, <b>RtlCreateHeap</b> allocates system memory for the heap from the process's virtual address space. 
 
 
-### -param ReserveSize [in, optional]
-
+### -param ReserveSize 
+[in, optional]
 If <i>ReserveSize</i> is a nonzero value, it specifies the initial amount of memory, in bytes, to reserve for the heap. <b>RtlCreateHeap</b> rounds <i>ReserveSize</i> up to the next page boundary, and then reserves a block of that size for the heap. 
 
 This parameter is optional and can be zero. The following table summarizes the interaction of the <i>ReserveSize</i> and <i>CommitSize</i> parameters. 
@@ -149,20 +149,20 @@ If <i>CommitSize</i> is greater than <i>ReserveSize</i>, <b>RtlCreateHeap</b> re
  
 
 
-### -param CommitSize [in, optional]
-
+### -param CommitSize 
+[in, optional]
 If <i>CommitSize</i> is a nonzero value, it specifies the initial amount of memory, in bytes, to commit for the heap. <b>RtlCreateHeap</b> rounds <i>CommitSize</i> up to the next page boundary, and then commits a block of that size in the process's virtual address space for the heap. 
 
 This parameter is optional and can be zero. 
 
 
-### -param Lock [in, optional]
-
+### -param Lock 
+[in, optional]
 Pointer to an opaque ERESOURCE structure to be used as a resource lock. This parameter is optional and can be <b>NULL</b>. When provided by the caller, the structure must be allocated from nonpaged pool and initialized by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializeresourcelite">ExInitializeResourceLite</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exreinitializeresourcelite">ExReinitializeResourceLite</a>. If the HEAP_NO_SERIALIZE flag is set, this parameter must be <b>NULL</b>.
 
 
-### -param Parameters [in, optional]
-
+### -param Parameters 
+[in, optional]
 Pointer to a RTL_HEAP_PARAMETERS structure that contains parameters to be applied when creating the heap. This parameter is optional and can be <b>NULL</b>. 
 
 <div class="code"><span codelanguage=""><table>

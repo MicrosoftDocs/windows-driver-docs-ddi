@@ -70,38 +70,38 @@ KeWaitForMultipleObjects (
 
 
 
-### -param Count [in]
-
+### -param Count 
+[in]
 The number of objects to be waited on. This parameter specifies the number of elements in the array pointed to by the <i>Object</i> parameter.
 
 
-### -param Object [in]
-
+### -param Object 
+[in]
 A pointer to an array of pointers to dispatcher objects (events, mutexes, semaphores, threads, and timers) for which the caller supplies the storage. Both the pointer array and the dispatcher objects must reside in nonpaged system memory. For more information, see Remarks.
 
 
-### -param WaitType [in]
-
+### -param WaitType 
+[in]
 The type of wait operation to perform. Specify either <b>WaitAll</b>, indicating that all of the specified objects must attain a signaled state before the wait is satisfied; or <b>WaitAny</b>, indicating that any one of the objects must attain a signaled state before the wait is satisfied.
 
 
-### -param WaitReason [in]
-
+### -param WaitReason 
+[in]
 The reason for the wait. Drivers should set this value to <b>Executive</b> or, if the driver is doing work on behalf of a user and is running in the context of a user thread, to <b>UserRequest</b>.
 
 
-### -param WaitMode [in]
-
+### -param WaitMode 
+[in]
 Whether the caller waits in <b>KernelMode</b> or <b>UserMode</b>. Intermediate and lowest-level drivers should specify <b>KernelMode</b>. If the set of objects waited on includes a mutex, the caller must specify <b>KernelMode</b>.
 
 
-### -param Alertable [in]
-
+### -param Alertable 
+[in]
 A Boolean value that indicates whether the thread can be alerted while it is in the waiting state.
 
 
-### -param Timeout [in, optional]
-
+### -param Timeout 
+[in, optional]
 A pointer to a time-out value that specifies the absolute or relative time, in 100-nanosecond units, at which the wait is to be completed.
 
 A positive value specifies an absolute time, relative to January 1, 1601. A negative value specifies an interval relative to the current time. Absolute expiration times track any changes in the system time; relative expiration times are not affected by system time changes.
@@ -109,8 +109,8 @@ A positive value specifies an absolute time, relative to January 1, 1601. A nega
 If *<i>Timeout</i> = 0, the routine returns without waiting. If the caller supplies a <b>NULL</b> pointer, the routine waits indefinitely until any or all of the dispatcher objects are set to the signaled state. For more information, see the following Remarks section.
 
 
-### -param WaitBlockArray [out, optional]
-
+### -param WaitBlockArray 
+[out, optional]
 A pointer to a caller-allocated <b>KWAIT_BLOCK</b> array. If <i>Count</i> <= THREAD_WAIT_OBJECTS, then <i>WaitBlockArray</i> can be <b>NULL</b>. Otherwise, this parameter must point to a memory buffer of <b>sizeof</b>(<b>KWAIT_BLOCK</b>) * <i>Count</i> bytes. The routine uses this buffer for record-keeping while performing the wait operation. The <i>WaitBlockArray</i> buffer must reside in nonpaged system memory. For more information, see Remarks.
 
 

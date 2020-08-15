@@ -55,13 +55,13 @@ The <b>IoOpenDeviceRegistryKey</b> routine returns a handle to a device-specific
 
 
 
-### -param DeviceObject [in]
-
+### -param DeviceObject 
+[in]
 Pointer to the PDO of the device instance for which the registry key is to be opened.
 
 
-### -param DevInstKeyType [in]
-
+### -param DevInstKeyType 
+[in]
 Specifies flags indicating whether to open a device-specific hardware key or a driver-specific software key. The flags also indicate whether the key is relative to the current hardware profile. For more information about hardware and software keys, see [Registry Keys for Drivers](https://docs.microsoft.com/windows-hardware/drivers/install/overview-of-registry-trees-and-keys) and [Introduction to Registry Keys for Drivers](https://docs.microsoft.com/windows-hardware/drivers/wdf/introduction-to-registry-keys-for-drivers).
 
 The flags are defined as follows:
@@ -91,13 +91,13 @@ A driver's software key is also called its *driver key* because the registry con
 Open a key relative to the current hardware profile for device or driver information. This allows the driver to access configuration information that is hardware-profile-specific. The caller must specify either PLUGPLAY_REGKEY_DEVICE or PLUGPLAY_REGKEY_DRIVER with this flag. For more information, see [HKLM\SYSTEM\CurrentControlSet\HardwareProfiles Registry Tree](https://docs.microsoft.com/windows-hardware/drivers/install/hklm-system-currentcontrolset-hardwareprofiles-registry-tree).
 
 
-### -param DesiredAccess [in]
-
+### -param DesiredAccess 
+[in]
 Specifies the [ACCESS_MASK](https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask) value that represents the access the caller needs to the key. See the [ZwCreateKey](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey) routine for a description of each KEY_*XXX* access right.
 
 
-### -param DeviceRegKey [out]
-
+### -param DeviceRegKey 
+[out]
 Pointer to a caller-allocated buffer that, on successful return, contains a handle to the requested registry key. 
 
 

@@ -57,19 +57,19 @@ req.typenames:
 
 
 
-### -param LogHandle [in]
-
+### -param LogHandle 
+[in]
 Specifies the handle returned by 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcreatelog">NdisMCreateLog</a>.
 
 
-### -param LogBuffer [in]
-
+### -param LogBuffer 
+[in]
 Pointer to a driver-allocated buffer containing the information to be written.
 
 
-### -param LogBufferSize [in]
-
+### -param LogBufferSize 
+[in]
 Specifies how many bytes of data to copy into the log file.
 
 

@@ -55,13 +55,13 @@ The <b>GetFontProperties</b> method gets the font properties.
 
 
 
-### -param pContentType [out]
-
+### -param pContentType 
+[out]
 A pointer to the content type of the font.
 
 
-### -param pFontOptions [out]
-
+### -param pFontOptions 
+[out]
 A pointer to the options of the font.
 
 

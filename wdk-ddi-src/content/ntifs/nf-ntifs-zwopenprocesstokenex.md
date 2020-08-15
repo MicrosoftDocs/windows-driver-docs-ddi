@@ -56,24 +56,24 @@ The <b>ZwOpenProcessTokenEx</b> routine opens the access token associated with a
 
 
 
-### -param ProcessHandle [in]
-
+### -param ProcessHandle 
+[in]
 Handle to the process whose access token is to be opened. The handle must have PROCESS_QUERY_INFORMATION access. Use the <b>NtCurrentProcess</b> macro, defined in Ntddk.h, to specify the current process. 
 
 
-### -param DesiredAccess [in]
-
+### -param DesiredAccess 
+[in]
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> structure specifying the requested types of access to the access token. These requested access types are compared with the token's discretionary access-control list (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_acl">DACL</a>) to determine which accesses are granted or denied.
 
 
-### -param HandleAttributes [in]
-
+### -param HandleAttributes 
+[in]
 Attributes for the access token handle. Only OBJ_KERNEL_HANDLE is currently supported. If the caller is not running in the system process context, it must specify OBJ_KERNEL_HANDLE for this parameter. 
 
 
-### -param TokenHandle [out]
-
+### -param TokenHandle 
+[out]
 Pointer to a caller-allocated variable that receives a handle to the newly opened access token. 
 
 

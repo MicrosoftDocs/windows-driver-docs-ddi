@@ -58,18 +58,18 @@ The <b>WdfCmResourceListInsertDescriptor</b> method inserts a resource descripto
 
 
 
-### -param List [in]
-
+### -param List 
+[in]
 A handle to a framework resource-list object that represents a list of hardware resources for a device.
 
 
-### -param Descriptor [in]
-
+### -param Descriptor 
+[in]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_descriptor">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure that describes a hardware resource.
 
 
-### -param Index [in]
-
+### -param Index 
+[in]
 A zero-based value that is used as an index into the logical configuration that <i>List</i> specifies. To add a resource descriptor to the end of the resource list, specify WDF_INSERT_AT_END or the return value from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfresource/nf-wdfresource-wdfcmresourcelistgetcount">WdfCmResourceListGetCount</a>.
 
 

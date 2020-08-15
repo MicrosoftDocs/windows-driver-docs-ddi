@@ -55,8 +55,8 @@ The <b>FltPropagateActivityIdToThread</b> routine associates the activity ID fro
 
 
 
-### -param CallbackData [in]
-
+### -param CallbackData 
+[in]
 A pointer to the callback data containing the request with an associated activity ID.
 
 
@@ -65,8 +65,8 @@ A pointer to the callback data containing the request with an associated activit
 <p>A pointer to a caller allocated <b>GUID</b> which stores the activity ID for the current thread.</p>
 
 
-### -param OriginalId [out]
-
+### -param OriginalId 
+[out]
 On return, the <b>GUID</b> pointer referenced by <i>OriginalId</i> points to the activity ID that was previously set for the thread.
 
 

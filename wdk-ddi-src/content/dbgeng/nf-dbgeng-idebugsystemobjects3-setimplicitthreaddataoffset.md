@@ -57,8 +57,8 @@ The <b>SetImplicitThreadDataOffset</b> method sets the implicit thread for the c
 
 
 
-### -param Offset [in]
-
+### -param Offset 
+[in]
 Specifies the location in the target's memory address space of the data structure of the system thread that is to become the implicit thread for the current process.  If this is zero, the implicit thread for the current process is set to the default implicit thread.
 
 

@@ -56,16 +56,16 @@ req.typenames:
 
 
 
-### -param NdisVcHandle [in]
-
+### -param NdisVcHandle 
+[in]
 Specifies the handle to the VC for which the client wants to modify the QoS. The client originally
      obtained this handle by calling 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscocreatevc">NdisCoCreateVc</a>, and, more recently,
      retrieved this handle from its per-VC state area.
 
 
-### -param CallParameters [in]
-
+### -param CallParameters 
+[in]
 Pointer to a structure of type CO_CALL_PARAMETERS that specifies the new QoS requested by the
      caller.
 

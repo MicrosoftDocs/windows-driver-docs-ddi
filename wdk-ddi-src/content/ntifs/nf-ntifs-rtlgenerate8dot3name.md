@@ -55,23 +55,23 @@ The <b>RtlGenerate8dot3Name</b> routine generates a short (8.3) name for the spe
 
 
 
-### -param Name [in]
-
+### -param Name 
+[in]
 Pointer to a Unicode string containing the long name for the file. Any leading periods in this file name are skipped during generation of a corresponding short name. 
 
 
-### -param AllowExtendedCharacters [in]
-
+### -param AllowExtendedCharacters 
+[in]
 Set to <b>TRUE</b> if the generated short file name can contain extended characters. Set to <b>FALSE</b> if the generated short file name must contain only characters within the current code page's ANSI or OEM range from 0x20 (space) through 0x7f (DEL). 
 
 
-### -param Context [in, out]
-
+### -param Context 
+[in, out]
 Pointer to a caller-allocated buffer for use by <b>RtlGenerate8dot3Name</b>. Before calling <b>RtlGenerate8dot3Name</b> for the first time to translate the given long file name, the caller is responsible for filling the buffer with zeros.
 
 
-### -param Name8dot3 [in, out]
-
+### -param Name8dot3 
+[in, out]
 Pointer to a caller-allocated buffer to receive the generated short file name. The size of this buffer must be at least 24 bytes (12 Unicode characters). 
 
 

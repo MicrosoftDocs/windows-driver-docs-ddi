@@ -60,13 +60,13 @@ Call the
 
 
 
-### -param NetBufferList [in]
-
+### -param NetBufferList 
+[in]
 A pointer to a previously allocated NET_BUFFER_LIST structure.
 
 
-### -param ContextSize [in]
-
+### -param ContextSize 
+[in]
 The amount of context space to free.
 
 

@@ -58,8 +58,8 @@ The
 
 
 
-### -param Lock [in, out]
-
+### -param Lock 
+[in, out]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_rw_lock">NDIS_RW_LOCK</a> variable for the acquired lock to be released.
 
 

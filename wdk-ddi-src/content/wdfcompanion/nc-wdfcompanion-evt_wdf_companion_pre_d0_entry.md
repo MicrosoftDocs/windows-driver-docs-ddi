@@ -56,8 +56,8 @@ req.typenames:
 
 
 
-### -param Companion [in]
+### -param Companion 
+[in]
 
-
-### -param PreviousState [in]
-
+### -param PreviousState 
+[in]

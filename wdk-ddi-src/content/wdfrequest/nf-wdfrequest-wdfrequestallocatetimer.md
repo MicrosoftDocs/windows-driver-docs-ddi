@@ -60,8 +60,8 @@ The <b>WdfRequestAllocateTimer</b> method allocates a timer for a specified I/O 
 
 
 
-### -param Request [in]
-
+### -param Request 
+[in]
 A handle to a framework request object.
 
 

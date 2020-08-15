@@ -49,20 +49,20 @@ The **StorPortAllocatePool** routine allocates a block of non-contiguous, non-pa
 
 ## -parameters
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
-### -param NumberOfBytes [in]
-
+### -param NumberOfBytes 
+[in]
 The size, in bytes, of the block of memory being allocated.
 
-### -param Tag [in]
-
+### -param Tag 
+[in]
 The pool tag for the allocated memory. Drivers specify the pool tag as a string of four ASCII characters, delimited by single quotation marks. The string is usually specified in reverse order.
 
-### -param BufferPointer [out]
-
+### -param BufferPointer 
+[out]
 A pointer to the address of the allocated memory block or **NULL** if not successful.
 
 ## -returns

@@ -58,13 +58,13 @@ req.typenames:
 
 
 
-### -param Interrupt [in]
-
+### -param Interrupt 
+[in]
 A pointer to the interrupt object interface associated with the work item.
 
 
-### -param AssociatedObject [in]
-
+### -param AssociatedObject 
+[in]
 A pointer to the associated object.
 
 

@@ -59,30 +59,30 @@ The
 
 
 
-### -param CallMgrVcContext [in]
-
+### -param CallMgrVcContext 
+[in]
 Specifies the handle to a call manager-allocated context area in which the call manager maintains
      its per-VC state. The call manager supplied this handle to NDIS from its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a> function.
 
 
-### -param CallParameters [in, out]
-
+### -param CallParameters 
+[in, out]
 Pointer to a 
      <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a> structure that contains
      the parameters, specified by a connection-oriented client, for the party that is being added to an
      existing call.
 
 
-### -param NdisPartyHandle [in]
-
+### -param NdisPartyHandle 
+[in]
 Specifies a handle, supplied by NDIS, that uniquely identifies a multipoint party that is to be
      added to an existing virtual connection. This handle is opaque to the call manager and reserved for NDIS
      library use.
 
 
-### -param CallMgrPartyContext [out]
-
+### -param CallMgrPartyContext 
+[out]
 Specifies, on return, a handle to a call manager-supplied context area in which the call manager
      maintains state about this party for the multipoint call.
 

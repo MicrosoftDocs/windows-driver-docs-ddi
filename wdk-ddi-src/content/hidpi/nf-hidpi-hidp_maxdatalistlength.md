@@ -56,13 +56,13 @@ The <b>HidP_MaxDataListLength</b> routine returns the maximum number of <a href=
 
 
 
-### -param ReportType [in]
-
+### -param ReportType 
+[in]
 Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/ne-hidpi-_hidp_report_type">HIDP_REPORT_TYPE</a> enumerator value that indicates the report type.
 
 
-### -param PreparsedData [in]
-
+### -param PreparsedData 
+[in]
 Pointer to a top-level collection's <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/preparsed-data">preparsed data</a>.
 
 

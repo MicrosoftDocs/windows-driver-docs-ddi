@@ -57,8 +57,8 @@ The <b>SetLockingConstraint</b> method sets the synchronization (or locking) mod
 
 
 
-### -param LockType [in]
-
+### -param LockType 
+[in]
 A value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi_types/ne-wudfddi_types-_wdf_callback_constraint">WDF_CALLBACK_CONSTRAINT</a> that identifies the locking model.
 
 

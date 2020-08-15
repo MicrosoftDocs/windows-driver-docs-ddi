@@ -59,8 +59,8 @@ The <b>RemoveProcessOptions</b> method removes process options from those option
 
 
 
-### -param Options [in]
-
+### -param Options 
+[in]
 Specifies the process options to remove from those affecting the current process.  For details on these options, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-process-xxx">DEBUG_PROCESS_XXX</a>.
 
 

@@ -55,18 +55,18 @@ The <b>IoGetDeviceInterfaces</b> routine returns a list of device interface inst
 
 
 
-### -param InterfaceClassGuid [in]
-
+### -param InterfaceClassGuid 
+[in]
 Pointer to a class GUID specifying the device interface class. The GUIDs for a class should be in a device-specific header file. 
 
 
-### -param PhysicalDeviceObject [in, optional]
-
+### -param PhysicalDeviceObject 
+[in, optional]
 Pointer to an optional PDO that narrows the search to only the device interface instances of the device represented by the PDO. 
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 Specifies flags that modify the search for device interfaces. Only one flag is currently defined, and is described in the following table.
 
 <table>
@@ -92,8 +92,8 @@ When searching for a device that supports a particular interface class, the call
 A driver typically sets the DEVICE_INTERFACE_INCLUDE_NONACTIVE flag to locate disabled interface instances that the driver must enable. For example, the class installer for the device might have been directed by the INF file to register one or more interface instances for the device. The interface instances would be registered but are not usable until they are enabled by the driver (using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetdeviceinterfacestate">IoSetDeviceInterfaceState</a>). To narrow the list of interface instances returned to only those exposed by a given device, a driver can specify a <i>PhysicalDeviceObject</i>.
 
 
-### -param SymbolicLinkList [out]
-
+### -param SymbolicLinkList 
+[out]
 A pointer to a wide character pointer to which the routine, if successful, writes the base address of a buffer that contains a list of Unicode strings. These strings are symbolic link names that identify the device interface instances that match the search criteria. Each Unicode string in the list is null-terminated; the end of the whole list is marked by an additional null character. The routine allocates the buffer for these strings from paged system memory. The caller is responsible for freeing the buffer (by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-exfreepool">ExFreePool</a> routine) when it is no longer needed.
 
 If no device interface instances match the search criteria, this routine returns STATUS_SUCCESS and the string contains a single NULL character.

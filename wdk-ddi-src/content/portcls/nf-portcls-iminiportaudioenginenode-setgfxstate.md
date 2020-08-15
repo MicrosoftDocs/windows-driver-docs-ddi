@@ -55,13 +55,13 @@ Sets the state of the global effects (GFX) node in the audio engine.
 
 
 
-### -param ulNodeId [in]
-
+### -param ulNodeId 
+[in]
 The ID of the GFX node.
 
 
-### -param bEnable [in]
-
+### -param bEnable 
+[in]
 The state of the GFX node.
 
 

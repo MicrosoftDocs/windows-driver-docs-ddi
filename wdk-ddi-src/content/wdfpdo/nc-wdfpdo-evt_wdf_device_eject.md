@@ -57,8 +57,8 @@ A driver's <i>EvtDeviceEject</i> event callback function handles operations that
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object.
 
 

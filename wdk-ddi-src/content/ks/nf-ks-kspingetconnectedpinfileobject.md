@@ -56,8 +56,8 @@ The<b> KsPinGetConnectedPinFileObject </b>function returns the file object for t
 
 
 
-### -param Pin [in]
-
+### -param Pin 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure that is the AVStream pin object for which to acquire the file object for the connected pin.
 
 

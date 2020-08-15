@@ -55,13 +55,13 @@ req.typenames:
 
 
 
-### -param DeviceObject [in]
-
+### -param DeviceObject 
+[in]
 Pointer to the device object that represents the changer. 
 
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 Pointer to the IRP. 
 
 

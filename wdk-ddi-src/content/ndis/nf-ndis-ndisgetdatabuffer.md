@@ -58,18 +58,18 @@ Call the
 
 
 
-### -param NetBuffer [in]
-
+### -param NetBuffer 
+[in]
 A pointer to a NET_BUFFER structure.
 
 
-### -param BytesNeeded [in]
-
+### -param BytesNeeded 
+[in]
 The number of contiguous bytes of data requested.
 
 
-### -param Storage [in, optional]
-
+### -param Storage 
+[in, optional]
 A pointer to a buffer, or <b>NULL</b> if no buffer is provided by the caller. The buffer must be greater
      than or equal in size to the number of bytes specified in 
      <i>BytesNeeded</i> . If this value is non-<b>NULL</b>, and the data requested is not contiguous, NDIS copies the
@@ -77,14 +77,14 @@ A pointer to a buffer, or <b>NULL</b> if no buffer is provided by the caller. Th
      <i>Storage</i> .
 
 
-### -param AlignMultiple [in]
-
+### -param AlignMultiple 
+[in]
 The alignment multiple expressed in power of two. For example, 2, 4, 8, 16, and so forth. If 
      <i>AlignMultiple</i> is 1, then there is no alignment requirement.
 
 
-### -param AlignOffset [in]
-
+### -param AlignOffset 
+[in]
 The offset, in bytes, from the alignment multiple.
 
 

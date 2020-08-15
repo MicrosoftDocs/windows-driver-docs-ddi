@@ -56,13 +56,13 @@ This function is used by the Avstream miniport driver to register callbacks for 
 
 
 
-### -param KsDevice [in]
-
+### -param KsDevice 
+[in]
 A KS device object representing the device managed by KS. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice">KSDEVICE</a>.
 
 
-### -param KsDeviceThermalDispatch [in]
-
+### -param KsDeviceThermalDispatch 
+[in]
 A structure containing the Avstream driver active and passive thermal callback notifications.
 
 

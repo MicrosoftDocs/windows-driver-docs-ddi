@@ -58,33 +58,33 @@ The <b>WdfDmaTransactionInitialize</b> method initializes a specified DMA transa
 
 
 
-### -param DmaTransaction [in]
-
+### -param DmaTransaction 
+[in]
 A handle to a DMA transaction object that the driver obtained from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmatransaction/nf-wdfdmatransaction-wdfdmatransactioncreate">WdfDmaTransactionCreate</a>.
 
 
-### -param EvtProgramDmaFunction [in]
-
+### -param EvtProgramDmaFunction 
+[in]
 A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmatransaction/nc-wdfdmatransaction-evt_wdf_program_dma">EvtProgramDma</a> event callback function. 
 
 
-### -param DmaDirection [in]
-
+### -param DmaDirection 
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmaenabler/ne-wdfdmaenabler-_wdf_dma_direction">WDF_DMA_DIRECTION</a>-typed value.
 
 
-### -param Mdl [in]
-
+### -param Mdl 
+[in]
 A pointer to a memory descriptor list (MDL) that describes the buffer that will be used for the DMA transaction. See more information in <b>Remarks</b>.
 
 
-### -param VirtualAddress [in]
-
+### -param VirtualAddress 
+[in]
 The virtual address of the buffer that will be used for the DMA transaction.
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 The number of bytes to be transferred.
 
 

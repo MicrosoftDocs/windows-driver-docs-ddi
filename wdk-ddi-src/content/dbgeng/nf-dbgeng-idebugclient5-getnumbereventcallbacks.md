@@ -55,13 +55,13 @@ The <b>GetNumberEventCallbacks</b> method returns the number of event callbacks 
 
 
 
-### -param EventFlags [in]
-
+### -param EventFlags 
+[in]
 Specifies a set of events used to filter out some of the event callbacks; only event callbacks that have indicated an interest in one of the events in <i>EventFlags</i> will be counted.  See <a href="https://docs.microsoft.com/previous-versions/ff541478(v=vs.85)">DEBUG_EVENT_XXX</a> for a list of the events.
 
 
-### -param Count [out]
-
+### -param Count 
+[out]
 Receives the number of event callbacks that are interested in at least one of the events in <i>EventFlags</i>.
 
 

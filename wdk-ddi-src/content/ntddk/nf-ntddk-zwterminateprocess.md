@@ -56,13 +56,13 @@ The <b>ZwTerminateProcess</b> routine terminates a process and all of its thread
 
 
 
-### -param ProcessHandle [in, optional]
-
+### -param ProcessHandle 
+[in, optional]
 A handle to the process object that represents the process to be terminated. 
 
 
-### -param ExitStatus [in]
-
+### -param ExitStatus 
+[in]
 An NTSTATUS value that the operating system uses as the final status for the process and each of its threads. 
 
 

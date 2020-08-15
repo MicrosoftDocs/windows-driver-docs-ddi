@@ -67,11 +67,11 @@ The <code>OEMFontManagement</code> function is an optional entry point provided 
 ### -param cjIn
 
 
-### -param pvIn [in]
-
+### -param pvIn 
+[in]
 
 ### -param cjOut
 
 
-### -param pvOut [out]
-
+### -param pvOut 
+[out]

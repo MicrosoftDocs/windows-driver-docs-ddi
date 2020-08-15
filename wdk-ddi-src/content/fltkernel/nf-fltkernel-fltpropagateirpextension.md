@@ -48,16 +48,16 @@ The **FltPropagateIrpExtension** routine copies the IRP extension from one minif
 
 ## -parameters
 
-### -param SourceData [in]
-
+### -param SourceData 
+[in]
 Pointer to the callback data context from which to copy the extension data.
 
-### -param TargetData [in/out]
-
+### -param TargetData 
+[in/out]
 Pointer to the callback data context in which to copy the extension data.
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 Reserved; must be set to 0.
 
 ## -returns

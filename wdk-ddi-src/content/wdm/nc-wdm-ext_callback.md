@@ -55,13 +55,13 @@ An <i>ExTimerCallback</i> callback routine runs after an <a href="https://docs.m
 
 
 
-### -param Timer [in]
-
+### -param Timer 
+[in]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">EX_TIMER</a> structure. This structure is a timer object that was previously allocated by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatetimer">ExAllocateTimer</a> routine.
 
 
-### -param Context [in]
-
+### -param Context 
+[in]
 The context value that your driver previously supplied as the <i>CallbackContext</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatetimer">ExAllocateTimer</a> routine.
 
 

@@ -58,13 +58,13 @@ The <b>KsIsBusEnumChildDevice</b> function determines if the given device object
 
 
 
-### -param DeviceObject [in]
-
+### -param DeviceObject 
+[in]
 Pointer to a device object.
 
 
-### -param ChildDevice [out]
-
+### -param ChildDevice 
+[out]
 Pointer to a BOOLEAN to receive the result. <b>KsIsBusEnumChildDevice</b> sets this to <b>TRUE</b> if the given device object is a child device of the demand-load bus enumerator object, or <b>FALSE</b> otherwise.
 
 

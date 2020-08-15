@@ -55,8 +55,8 @@ The <b>ObIsKernelHandle</b> routine determines whether the specified handle is a
 
 
 
-### -param Handle [in]
-
+### -param Handle 
+[in]
 The handle to check.
 
 

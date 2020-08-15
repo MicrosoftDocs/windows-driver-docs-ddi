@@ -59,13 +59,13 @@ The <b>WriteDumpFile</b> method creates a user-mode or kernel-modecrash dump fil
 
 
 
-### -param DumpFile [in]
-
+### -param DumpFile 
+[in]
 Specifies the name of the dump file to create.  <i>DumpFile</i> must include the file name extension.  <i>DumpFile</i> can include a relative or absolute path; relative paths are relative to the directory in which the debugger was started.
 
 
-### -param Qualifier [in]
-
+### -param Qualifier 
+[in]
 Specifies the type of dump file to create.  For possible values, see Remarks.
 
 

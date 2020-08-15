@@ -55,8 +55,8 @@ The <b>FsRtlOplockIsSharedRequest</b> routine determines if a request for an opp
 
 
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 A pointer to the IRP that declares the requested operation. The caller must ensure that the IRP has a major code of IRP_MJ_FILE_SYSTEM_CONTROL and a minor code of IRP_MN_USER_FS_REQUEST. 
 
 

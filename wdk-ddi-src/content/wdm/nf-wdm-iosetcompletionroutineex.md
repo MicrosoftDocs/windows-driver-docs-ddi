@@ -55,38 +55,38 @@ The <b>IoSetCompletionRoutineEx</b> routine registers an <a href="https://docs.m
 
 
 
-### -param DeviceObject [in]
-
+### -param DeviceObject 
+[in]
 Pointer to the driver's device object.
 
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> that the driver is processing.
 
 
-### -param CompletionRoutine [in]
-
+### -param CompletionRoutine 
+[in]
 Specifies the entry point for the driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_completion_routine">IoCompletion</a> routine, which is called when the next-lower driver completes the packet.
 
 
-### -param Context [in, optional]
-
+### -param Context 
+[in, optional]
 Pointer to a driver-determined context to pass to the <i>IoCompletion</i> routine. Context information must be stored in nonpaged memory, because the <i>IoCompletion</i> routine is called at IRQL <= DISPATCH_LEVEL.
 
 
-### -param InvokeOnSuccess [in]
-
+### -param InvokeOnSuccess 
+[in]
 Specifies whether the completion routine is called if the IRP is completed with a success status value in the IRP's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure, based on results of the NT_SUCCESS macro (see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">Using NTSTATUS values</a>).
 
 
-### -param InvokeOnError [in]
-
+### -param InvokeOnError 
+[in]
 Specifies whether the completion routine is called if the IRP is completed with a nonsuccess status value in the IRP's <b>IO_STATUS_BLOCK</b> structure.
 
 
-### -param InvokeOnCancel [in]
-
+### -param InvokeOnCancel 
+[in]
 Specifies whether the completion routine is called if a driver or the kernel has called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocancelirp">IoCancelIrp</a> to cancel the IRP.
 
 

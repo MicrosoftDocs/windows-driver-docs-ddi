@@ -55,8 +55,8 @@ The <b>RemoveEntryList</b> routine removes an entry from a doubly linked list of
 
 
 
-### -param Entry [in]
-
+### -param Entry 
+[in]
 Pointer to the <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-list_entry">LIST_ENTRY</a> structure that represents the entry to be removed.
 
 

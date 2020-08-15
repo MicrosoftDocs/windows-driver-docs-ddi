@@ -60,8 +60,8 @@ The <b>GetUlong64</b> method searches a <a href="https://docs.microsoft.com/wind
 A value in the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration.
 
 
-### -param Value [out]
-
+### -param Value 
+[out]
 A pointer to a <b>ULONG64</b> that receives the value from the entry's data block.
 
 

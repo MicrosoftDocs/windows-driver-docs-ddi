@@ -55,8 +55,8 @@ req.typenames:
 
 
 
-### -param DeviceObject [in]
-
+### -param DeviceObject 
+[in]
 Pointer to the device object created by the changer class driver to represent this changer. 
 
 

@@ -55,18 +55,18 @@ Subtracts one value of type <b>LONG_PTR</b> from another.
 
 
 
-### -param lMinuend [in]
-
+### -param lMinuend 
+[in]
 The value from which <i>lSubtrahend</i> is subtracted.
 
 
-### -param lSubtrahend [in]
-
+### -param lSubtrahend 
+[in]
 The value to subtract from <i>lMinuend</i>.
 
 
-### -param plResult [out]
-
+### -param plResult 
+[out]
 A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
 

@@ -60,13 +60,13 @@ The <b>InterlockedExchange</b> routine sets an integer variable to a given value
 
 
 
-### -param Target [in, out]
-
+### -param Target 
+[in, out]
 A pointer to a variable to be set to the supplied <i>Value</i> as an atomic operation.
 
 
-### -param Value [in]
-
+### -param Value 
+[in]
 Specifies the value to which the variable will be set. 
 
 

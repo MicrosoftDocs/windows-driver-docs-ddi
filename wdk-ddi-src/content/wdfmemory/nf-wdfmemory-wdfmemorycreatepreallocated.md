@@ -60,23 +60,23 @@ The <b>WdfMemoryCreatePreallocated</b> method creates a framework memory object 
 
 
 
-### -param Attributes [in, optional]
-
+### -param Attributes 
+[in, optional]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that contains object attributes for the new memory object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
 
-### -param Buffer [in]
-
+### -param Buffer 
+[in]
 A pointer to a driver-supplied buffer.
 
 
-### -param BufferSize [in]
-
+### -param BufferSize 
+[in]
 The nonzero size, in bytes, of the buffer that <i>Buffer</i> points to.
 
 
-### -param Memory [out]
-
+### -param Memory 
+[out]
 A pointer to a location that receives a handle to the new memory object.
 
 

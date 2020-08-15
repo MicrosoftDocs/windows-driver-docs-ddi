@@ -55,8 +55,8 @@ The <b>GetSystemVersionString</b>  method returns a string that describes the ta
 
 
 
-### -param Which [in]
-
+### -param Which 
+[in]
 Specifies which version string to return.  The possible values are listed in the following table.
 
 <table>
@@ -88,18 +88,18 @@ Returns a description of the target's operating system build version.  For examp
  
 
 
-### -param Buffer [out, optional]
-
+### -param Buffer 
+[out, optional]
 Receives the version string.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param BufferSize [in]
-
+### -param BufferSize 
+[in]
 Specifies the size, in characters, of the buffer that <i>Buffer</i> specifies.
 
 
-### -param StringSize [out, optional]
-
+### -param StringSize 
+[out, optional]
 Receives the size, in characters, of the string that identifies the build.  If <i>SizeString</i> is <b>NULL</b>, this information is not returned.
 
 

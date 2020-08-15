@@ -55,8 +55,8 @@ The <b>IStiDevice::GetLastNotificationData</b> method returns a description of t
 
 
 
-### -param lpNotify [out]
-
+### -param lpNotify 
+[out]
 Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/ns-sti-_stinotify">STINOTIFY</a> structure to receive event information.
 
 

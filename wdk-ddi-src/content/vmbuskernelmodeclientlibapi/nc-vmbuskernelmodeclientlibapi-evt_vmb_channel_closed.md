@@ -59,8 +59,8 @@ channel.
 
 
 
-### -param Channel [in]
-
+### -param Channel 
+[in]
 The channel that the guest virtual machine closes.
 
 

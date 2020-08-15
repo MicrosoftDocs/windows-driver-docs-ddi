@@ -57,13 +57,13 @@ req.typenames:
 
 
 
-### -param MonitorObject [in]
-
+### -param MonitorObject 
+[in]
 The handle the OS provided to identify the monitor
 
 
-### -param pInArgs [in]
-
+### -param pInArgs 
+[in]
 Input arguments of function
 
 

@@ -57,8 +57,8 @@ The
 
 
 
-### -param Client [in]
-
+### -param Client 
+[in]
 [in] A pointer to a 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wsk-client">WSK_CLIENT</a> structure that was returned through
      the 
@@ -67,23 +67,23 @@ The
      WskCaptureProviderNPI</a> function.
 
 
-### -param SockAddr [in]
-
+### -param SockAddr 
+[in]
 [in] A pointer to a 
      <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a> structure that contains the IP address
      and port number of the socket.
 
 
-### -param SockAddrLength [in]
-
+### -param SockAddrLength 
+[in]
 [in] Specifies the length, in bytes, of the buffer pointed to by the 
      <i>SockAddr</i> parameter. The value of 
      <i>SockAddrLength</i> should not exceed the size of the 
      <a href="https://docs.microsoft.com/windows/win32/api/ws2def/ns-ws2def-sockaddr_storage_lh">SOCKADDR_STORAGE</a> structure.
 
 
-### -param NodeName [out, optional]
-
+### -param NodeName 
+[out, optional]
 [out] An optional pointer to a 
      <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a
      Unicode string that represents a host (node) name. On success, the Unicode host name is written as a
@@ -94,8 +94,8 @@ The
      <i>ServiceBuffer</i> must not both be <b>NULL</b>.
 
 
-### -param ServiceName [out, optional]
-
+### -param ServiceName 
+[out, optional]
 [out] An optional pointer to a 
      <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a
      Unicode string that represents a service name associated with the port number. The caller must provide a
@@ -106,8 +106,8 @@ The
      <i>ServiceBuffer</i> must not both be <b>NULL</b>.
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 [in] A ULONG value that is used to customize the processing of this function.
      
 
@@ -152,8 +152,8 @@ Indicates that the function returns the port number of the service instead of it
        IP address.
 
 
-### -param OwningProcess [in, optional]
-
+### -param OwningProcess 
+[in, optional]
 [in] An optional pointer to the process from which the function retrieves the security context.
      This security context indicates the user account context in which the function processes the name
      resolution request.
@@ -166,8 +166,8 @@ If this parameter is not <b>NULL</b> and an impersonation token is in effect for
      function fails and returns STATUS_INVALID_PARAMETER.
 
 
-### -param OwningThread [in, optional]
-
+### -param OwningThread 
+[in, optional]
 [in] An optional pointer to the thread from which the function retrieves the security context.
      This parameter can be non-<b>NULL</b> only if 
      <i>OwningProcess</i> is non-<b>NULL</b>. Otherwise, this function fails and returns STATUS_INVALID_PARAMETER.
@@ -177,8 +177,8 @@ If this parameter is not <b>NULL</b> and an impersonation token is in effect for
      function fails and returns STATUS_INVALID_PARAMETER.
 
 
-### -param Irp [in, out]
-
+### -param Irp 
+[in, out]
 [in/out] A pointer to an I/O request packet (IRP) to use to complete the request asynchronously.
      Upon completion of the request, 
      <i>Irp</i> ->

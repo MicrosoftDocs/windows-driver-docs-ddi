@@ -55,13 +55,13 @@ Writes a string property.
 
 
 
-### -param bstrName [in]
-
+### -param bstrName 
+[in]
 The property to set.
 
 
-### -param bstrValue [in]
-
+### -param bstrValue 
+[in]
 The property value to set.
 
 

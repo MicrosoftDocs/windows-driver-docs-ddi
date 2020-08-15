@@ -56,8 +56,8 @@ A miniport driver calls the NdisMDeregisterWdiMiniportDriver function to release
 
 
 
-### -param NdisMiniportDriverHandle [in]
-
+### -param NdisMiniportDriverHandle 
+[in]
 The NDIS handle for a miniport driver.
 
 

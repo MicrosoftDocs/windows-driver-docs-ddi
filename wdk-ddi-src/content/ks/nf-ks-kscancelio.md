@@ -56,13 +56,13 @@ The <b>KsCancelIo</b> function cancels all IRPs on the specified cancel list. If
 
 
 
-### -param QueueHead [in, out]
-
+### -param QueueHead 
+[in, out]
 Specifies the head of a driver-maintained queue containing the IRP's to be canceled.
 
 
-### -param SpinLock [in]
-
+### -param SpinLock 
+[in]
 Points to a caller-allocated spin lock for queue access. A copy of this pointer is kept in the IRP's KSQUEUE_SPINLOCK_IRP_STORAGE(Irp) for use by the cancel routine, if necessary.
 
 

@@ -55,8 +55,8 @@ req.typenames:
 
 
 
-### -param RxDeviceObject [in]
-
+### -param RxDeviceObject 
+[in]
 A pointer to the RDBSS device object for this network redirector.
 
 

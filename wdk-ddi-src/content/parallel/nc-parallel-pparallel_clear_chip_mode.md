@@ -66,13 +66,13 @@ typedef NTSTATUS (*PPARALLEL_CLEAR_CHIP_MODE)(
 
 
 
-### -param ClearChipContext [in]
-
+### -param ClearChipContext 
+[in]
 Pointer to the device extension of a parallel port's functional device object (<a href="https://docs.microsoft.com/windows-hardware/drivers/">FDO</a>).
 
 
-### -param ChipMode [in]
-
+### -param ChipMode 
+[in]
 Specifies the current operating mode of the parallel port.
 
 For more information about operating modes, see the modes that are defined for the enhanced capabilities register (ECR) in the <i>parallel.h</i> file that is included in the Microsoft Windows Driver Kit (WDK).

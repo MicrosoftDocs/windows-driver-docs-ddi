@@ -57,8 +57,8 @@ The <b>CreateSymbolGroup</b>  method creates a new symbol group.
 
 
 
-### -param Group [out]
-
+### -param Group 
+[out]
 Receives an interface pointer for the new <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbolgroup">IDebugSymbolGroup</a> object.
 
 

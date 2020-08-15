@@ -55,23 +55,23 @@ The <b>RtlInsertElementGenericTable</b> routine adds a new element to a generic 
 
 
 
-### -param Table [in]
-
+### -param Table 
+[in]
 Pointer to the generic table (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_rtl_generic_table">RTL_GENERIC_TABLE</a>). The table must have been initialized by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinitializegenerictable">RtlInitializeGenericTable</a>.
 
 
-### -param Buffer [in]
-
+### -param Buffer 
+[in]
 Pointer to a caller-allocated buffer containing data to be copied into the new element. For more information, see the description of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinitializegenerictable">RtlInitializeGenericTable</a>. 
 
 
-### -param BufferSize [in]
-
+### -param BufferSize 
+[in]
 Number of bytes to be allocated for caller-supplied data when the new element is inserted. 
 
 
-### -param NewElement [out, optional]
-
+### -param NewElement 
+[out, optional]
 Pointer to a variable that receives <b>TRUE</b> if a new element with the data at <i>Buffer</i> was inserted in the generic table; or <b>FALSE</b> if the new element was not inserted. 
 
 

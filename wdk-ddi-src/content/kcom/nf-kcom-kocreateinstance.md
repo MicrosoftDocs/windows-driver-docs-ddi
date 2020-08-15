@@ -58,28 +58,28 @@ The <b>KoCreateInstance</b> function creates an object of the class with the spe
 
 
 
-### -param ClassId [in]
-
+### -param ClassId 
+[in]
 The CLSID of the object to create an instance of.
 
 
-### -param UnkOuter [in, optional]
-
+### -param UnkOuter 
+[in, optional]
 The outer unknown object to pass to the new instance.
 
 
-### -param ClsContext [in]
-
+### -param ClsContext 
+[in]
 The context in which to create the instance. This must be CLSCTX_KERNEL_SERVER.
 
 
-### -param InterfaceId [in]
-
+### -param InterfaceId 
+[in]
 Reference to the identifier of the interface that will communicate with the object.
 
 
-### -param Interface [out]
-
+### -param Interface 
+[out]
 Address of the pointer variable that receives the new interface pointer specified in <i>InterfaceId</i>.
 
 

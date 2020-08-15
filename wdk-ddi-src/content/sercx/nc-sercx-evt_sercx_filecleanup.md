@@ -55,8 +55,8 @@ The <i>EvtSerCxFileCleanup</i> event callback function notifies the serial contr
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A WDFDEVICE handle to the framework device object that represents the serial controller.
 
 

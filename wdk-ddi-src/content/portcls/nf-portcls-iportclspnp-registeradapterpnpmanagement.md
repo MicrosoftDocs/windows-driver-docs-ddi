@@ -55,13 +55,13 @@ The <code>RegisterAdapterPowerManagement</code> method registers the PnP managem
 
 
 
-### -param pUnknown [in]
-
+### -param pUnknown 
+[in]
 Specifies a pointer to <b>IUnknown</b> of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iadapterpnpmanagement">IAdapterPnpManagement</a>. 
 
 
-### -param DeviceObject [in]
-
+### -param DeviceObject 
+[in]
 Specifies a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure that represents the functional device object of the adapter.
 
 

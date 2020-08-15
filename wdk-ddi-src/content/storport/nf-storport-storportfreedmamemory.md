@@ -48,23 +48,23 @@ This function is the extended version of the [StorPortFreeContiguousMemorySpecif
 
 ## -parameters
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param BaseAddress [in]
-
+### -param BaseAddress 
+[in]
 The base virtual address to free.
 
 
-### -param NumberOfBytes [in]
-
+### -param NumberOfBytes 
+[in]
 The number of bytes that are allocated to the request. This must be the same number that was supplied as a parameter when the [StorPortAllocateContiguousMemorySpecifyCacheNode](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportallocatecontiguousmemoryspecifycachenode) routine was previously called.
 
 
-### -param CacheType [in]
-
+### -param CacheType 
+[in]
 The cache type that is used in the call to the [StorPortAllocateContiguousMemorySpecifyCacheNode](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportallocatecontiguousmemoryspecifycachenode) routine.
 
 

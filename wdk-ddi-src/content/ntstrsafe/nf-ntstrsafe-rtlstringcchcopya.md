@@ -58,18 +58,18 @@ The <b>RtlStringCchCopyW</b> and <b>RtlStringCchCopyA</b> functions copy a null-
 
 
 
-### -param pszDest [out]
-
+### -param pszDest 
+[out]
 A pointer to a caller-supplied buffer that receives the copied string. The string at <i>pszSrc</i> is copied to the buffer at <i>pszDest</i> and terminated with a null character.
 
 
-### -param cchDest [in]
-
+### -param cchDest 
+[in]
 The size, in characters, of the destination buffer. The maximum number of characters allowed is NTSTRSAFE_MAX_CCH. 
 
 
-### -param pszSrc [in]
-
+### -param pszSrc 
+[in]
 A pointer to a caller-supplied, null-terminated string.
 
 

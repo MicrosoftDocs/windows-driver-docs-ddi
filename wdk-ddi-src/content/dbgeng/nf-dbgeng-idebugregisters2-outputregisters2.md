@@ -55,13 +55,13 @@ The <b>OutputRegisters2</b> method formats and outputs the target's <a href="htt
 
 
 
-### -param OutputControl [in]
-
+### -param OutputControl 
+[in]
 Specifies which clients should be sent the output of the formatted registers.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-outctl-xxx">DEBUG_OUTCTL_XXX</a> for possible values.
 
 
-### -param Source [in]
-
+### -param Source 
+[in]
 Specifies the register source to query.
 
 The possible values are listed in the following table.
@@ -107,8 +107,8 @@ Fetch register information from the current scope's register context.
  
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 Specifies which register sets to print.  This can either be DEBUG_REGISTERS_DEFAULT to print commonly used registers, DEBUG_REGISTERS_ALL to print all of the register sets, or a combination of the values listed in the following table.
 
 <table>

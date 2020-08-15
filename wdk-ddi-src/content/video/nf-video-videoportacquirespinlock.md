@@ -55,18 +55,18 @@ The <b>VideoPortAcquireSpinLock</b> function obtains the specified spin lock.
 
 
 
-### -param HwDeviceExtension [in, out]
-
+### -param HwDeviceExtension 
+[in, out]
 Pointer to the miniport driver's device extension.
 
 
-### -param SpinLock [in]
-
+### -param SpinLock 
+[in]
 Pointer to a memory location that contains the spin lock.
 
 
-### -param OldIrql [out]
-
+### -param OldIrql 
+[out]
 Pointer to a memory location that will receive the current IRQL.
 
 

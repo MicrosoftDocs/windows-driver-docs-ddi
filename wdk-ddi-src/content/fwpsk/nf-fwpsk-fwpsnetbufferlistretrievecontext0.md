@@ -58,34 +58,34 @@ The
 
 
 
-### -param netBufferList [in, out]
-
+### -param netBufferList 
+[in, out]
 A network buffer list that indicates one or more packets of interest to the callout driver. If 
      <i>removeContext</i> is set, the network buffer list returned will have the context removed.
 
 
-### -param contextTag [in]
-
+### -param contextTag 
+[in]
 A locally unique identifier obtained by calling the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsnetbufferlistgettagforcontext0">
      FwpsNetBufferListGetTagForContext0</a> function. This is the context tag used in the initial call to 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsnetbufferlistassociatecontext0">FwpsNetBufferListAssociateContext0</a>.
 
 
-### -param removeContext [in]
-
+### -param removeContext 
+[in]
 If set, 
      <b>FwpsNetBufferListRetrieveContext0</b> will remove the context association in addition to retrieving
      the context.
 
 
-### -param flags [in]
-
+### -param flags 
+[in]
 This parameter is reserved for future use and is set to zero.
 
 
-### -param context [out]
-
+### -param context 
+[out]
 The context assigned to the packet by the callout driver in the initial call to 
      <b>FwpsNetBufferListAssociateContext0</b>.
 

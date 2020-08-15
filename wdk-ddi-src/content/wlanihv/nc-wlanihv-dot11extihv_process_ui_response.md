@@ -74,22 +74,22 @@ DWORD APIENTRY Dot11ExtIhvProcessUIResponse(
 
 
 
-### -param guidUIRequest [in]
-
+### -param guidUIRequest 
+[in]
 The GUID that identifies the request. This GUID value was created by the IHV Extensions DLL and
      passed through the
      <i>pIhvUIRequest</i> parameter of the call to
      <a href="..\wlanihv\nc-wlanihv-dot11ext_send_ui_request.md">Dot11ExtSendUIRequest</a>.
 
 
-### -param dwByteCount [in]
-
+### -param dwByteCount 
+[in]
 The length, in bytes, of the data referenced through the
      <i>pvResponseBuffer</i> parameter.
 
 
-### -param pvResponseBuffer [in, optional]
-
+### -param pvResponseBuffer 
+[in, optional]
 A pointer to the buffer that contains the user data.
 
 

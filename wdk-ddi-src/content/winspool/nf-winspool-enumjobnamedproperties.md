@@ -55,14 +55,14 @@ req.typenames:
 
 
 
-### -param hPrinter [in]
+### -param hPrinter 
+[in]
 
+### -param JobId 
+[in]
 
-### -param JobId [in]
+### -param pcProperties 
+[out]
 
-
-### -param pcProperties [out]
-
-
-### -param ppProperties [out]
-
+### -param ppProperties 
+[out]

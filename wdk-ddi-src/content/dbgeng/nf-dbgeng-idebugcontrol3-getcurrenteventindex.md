@@ -55,8 +55,8 @@ The <b>GetCurrentEventIndex</b> method returns the index of the current event wi
 
 
 
-### -param Index [out]
-
+### -param Index 
+[out]
 Receives the index of the current event in the target.  The index will be a number between zero and one less than the number of events returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-getnumberevents">GetNumberEvents</a>.  The index of the first event is zero.
 
 

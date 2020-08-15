@@ -57,8 +57,8 @@ The Bluetooth
 
 
 
-### -param tag [in]
-
+### -param tag 
+[in]
 A profile driver defined tag to associate with the node.
 
 

@@ -55,13 +55,13 @@ req.typenames:
 
 
 
-### -param NameCache [in]
-
+### -param NameCache 
+[in]
 A pointer to the NAME_CACHE structure to check.
 
 
-### -param MRxContext [in]
-
+### -param MRxContext 
+[in]
 A value of context supplied by the network mini-redirector for equality checking when making a valid entry check. 
 
 

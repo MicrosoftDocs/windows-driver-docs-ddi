@@ -60,8 +60,8 @@ The <b>VideoPortWriteRegisterBufferUchar</b> function writes a number of unsigne
 Pointer to the register. The given <i>Register</i> must be in a mapped memory-space range returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportgetdevicebase">VideoPortGetDeviceBase</a>.
 
 
-### -param Buffer [in]
-
+### -param Buffer 
+[in]
 Pointer to a buffer containing the bytes to be written.
 
 

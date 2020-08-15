@@ -49,12 +49,12 @@ File system filter drivers and file systems call the **FsRtlRegisterFileSystemFi
 
 ## -parameters
 
-### -param FilterDriverObject [in]
-
+### -param FilterDriverObject 
+[in]
 A pointer to the driver object for the filter or file system driver.
 
-### -param Callbacks [in]
-
+### -param Callbacks 
+[in]
 A pointer to a structure that contains the entry points of caller-supplied notification callback routines.
 
 This structure is defined as follows.

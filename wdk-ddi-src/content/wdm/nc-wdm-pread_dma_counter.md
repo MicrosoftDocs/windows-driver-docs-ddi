@@ -55,8 +55,8 @@ The <b>ReadDmaCounter</b> routine returns the number of bytes remaining to be tr
 
 
 
-### -param DmaAdapter [in]
-
+### -param DmaAdapter 
+[in]
 Pointer to the adapter object previously returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a> representing the system DMA controller channel currently in use. 
 
 

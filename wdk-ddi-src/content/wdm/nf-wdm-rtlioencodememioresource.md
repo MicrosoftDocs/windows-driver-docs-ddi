@@ -55,33 +55,33 @@ The <b>RtlIoEncodeMemIoResource</b> routine updates an <a href="https://docs.mic
 
 
 
-### -param Descriptor [in]
-
+### -param Descriptor 
+[in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_descriptor">IO_RESOURCE_DESCRIPTOR</a> structure to update.
 
 
-### -param Type [in]
-
+### -param Type 
+[in]
 The resource type of the address range. This parameter can be <b>CmResourceTypeMemory</b>, <b>CmResourceTypeMemoryLarge</b>, or <b>CmResourceTypePort</b>. 
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 The length, in bytes, of the range of assignable addresses. 
 
 
-### -param Alignment [in]
-
+### -param Alignment 
+[in]
 The alignment, in bytes, of the starting address of address range.
 
 
-### -param MinimumAddress [in]
-
+### -param MinimumAddress 
+[in]
 The minimum address that can be assigned to the device. 
 
 
-### -param MaximumAddress [in]
-
+### -param MaximumAddress 
+[in]
 The maximum address that can be assigned to the device.
 
 

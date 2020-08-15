@@ -55,12 +55,12 @@ This topic supports the Windows driver infrastructure and is not intended to be 
 
 
 
-### -param hBroker [in]
-
+### -param hBroker 
+[in]
 Reserved.
 
 
-### -param lTimeoutMS [in]
-
+### -param lTimeoutMS 
+[in]
 Reserved.
 

@@ -46,12 +46,12 @@ The **WcsGetUsePerUserProfiles** function determines whether the user has chosen
 
 ## -parameters
 
-### -param pDeviceName [in]
-
+### -param pDeviceName 
+[in]
 A pointer to a string that contains the friendly name of the device.
 
-### -param dwDeviceClass [in]
-
+### -param dwDeviceClass 
+[in]
 A flag value that specifies the class of the device. This parameter must take one of the following values:
 
 #### CLASS_MONITOR
@@ -66,8 +66,8 @@ Specifies a printer.
 
 Specifies an image capture device.
 
-### -param pUsePerUserProfiles [out]
-
+### -param pUsePerUserProfiles 
+[out]
 A pointer to a location to receive a Boolean value that is **TRUE** if the user has chosen to use a per-user profile association list for the specified device; otherwise **FALSE**.
 
 ## -remarks

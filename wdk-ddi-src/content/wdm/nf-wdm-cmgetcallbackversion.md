@@ -55,13 +55,13 @@ The <b>CmGetCallbackVersion</b> routine retrieves the major and minor version nu
 
 
 
-### -param Major [out, optional]
-
+### -param Major 
+[out, optional]
 A pointer to a location that receives the major version number.
 
 
-### -param Minor [out, optional]
-
+### -param Minor 
+[out, optional]
 A pointer to a location that receives the minor version number.
 
 

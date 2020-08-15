@@ -55,13 +55,13 @@ The <b>FltGetUpperInstance</b> routine returns an opaque instance pointer for th
 
 
 
-### -param CurrentInstance [in]
-
+### -param CurrentInstance 
+[in]
 Opaque instance pointer for the instance for which the next higher instance is requested. 
 
 
-### -param UpperInstance [out]
-
+### -param UpperInstance 
+[out]
 Pointer to a caller-allocated variable that receives an opaque instance pointer for the next higher instance. This parameter is required and cannot be <b>NULL</b>. 
 
 

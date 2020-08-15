@@ -55,18 +55,18 @@ The <b>MmMapIoSpaceEx</b> routine maps the given physical address range to non-p
 
 
 
-### -param PhysicalAddress [in]
-
+### -param PhysicalAddress 
+[in]
 Specifies the starting physical address of the I/O range to be mapped.
 
 
-### -param NumberOfBytes [in]
-
+### -param NumberOfBytes 
+[in]
 Specifies a value greater than zero, indicating the number of bytes to be mapped.
 
 
-### -param Protect [in]
-
+### -param Protect 
+[in]
 Flag bits that specify the protection to use for the mapped range. The caller must set one of the following flag bits in the <i>Protect</i> parameter.
 
 <table>

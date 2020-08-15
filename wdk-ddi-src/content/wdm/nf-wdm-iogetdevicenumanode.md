@@ -55,13 +55,13 @@ The <b>IoGetDeviceNumaNode</b> routine gets the node number of a device.
 
 
 
-### -param Pdo [in]
-
+### -param Pdo 
+[in]
 A pointer to a physical device object (PDO). This parameter points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure that represents a physical device. 
 
 
-### -param NodeNumber [out]
-
+### -param NodeNumber 
+[out]
 A pointer to a location into which the routine writes the node number, if the node number is known. 
 
 

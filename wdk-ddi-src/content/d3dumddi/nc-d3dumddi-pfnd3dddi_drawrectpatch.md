@@ -55,8 +55,8 @@ The <b>DrawRectPatch</b> function draws a new or cached rectangular patch or upd
 
 
 
-### -param hDevice [in]
-
+### -param hDevice 
+[in]
 A handle to the display device (graphics context).
 
 

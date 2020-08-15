@@ -56,18 +56,18 @@ The <b>RtlInitializeSid</b> routine initializes a security identifier (SID) stru
 
 
 
-### -param Sid [out]
-
+### -param Sid 
+[out]
 Pointer to a caller-allocated SID structure to be initialized. 
 
 
-### -param IdentifierAuthority [in]
-
+### -param IdentifierAuthority 
+[in]
 Pointer to an SID_IDENTIFIER_AUTHORITY structure to set in the SID structure. 
 
 
-### -param SubAuthorityCount [in]
-
+### -param SubAuthorityCount 
+[in]
 Number of subauthorities to set in the SID. Subauthority values must be set separately, as described in the following Remarks section. 
 
 

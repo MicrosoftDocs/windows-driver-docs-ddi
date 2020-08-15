@@ -55,13 +55,13 @@ The <b>InterlockedExchangePointer</b> routine performs an atomic operation that 
 
 
 
-### -param Target [in, out]
-
+### -param Target 
+[in, out]
 A pointer to a PVOID value. The routine sets (*<i>Target</i>) to <i>Value</i>.
 
 
-### -param Value [in, optional]
-
+### -param Value 
+[in, optional]
 Specifies the PVOID value to set (*<i>Target</i>) to.
 
 

@@ -60,33 +60,33 @@ The <b>WdfDeviceQueryPropertyEx</b> method retrieves a specified device property
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object.
 
 
-### -param DeviceProperty [in]
-
+### -param DeviceProperty 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_property_data">WDF_DEVICE_PROPERTY_DATA</a> structure that identifies the device property to be retrieved.
 
 
-### -param BufferLength [in]
-
+### -param BufferLength 
+[in]
 The size, in bytes, of the buffer that is pointed to by <i>PropertyBuffer</i>.
 
 
-### -param PropertyBuffer [out]
-
+### -param PropertyBuffer 
+[out]
 A caller-supplied pointer to a caller-allocated buffer that receives the requested information. The pointer can be <b>NULL</b> if the <i>BufferLength</i> parameter is zero.
 
 
-### -param RequiredSize [out]
-
+### -param RequiredSize 
+[out]
 A caller-supplied location that, on return, contains the size, in bytes, of the information that the method stored in <i>PropertyBuffer</i>. If the function's return value is <b>STATUS_BUFFER_TOO_SMALL</b>, this location receives the required buffer size.
 
 
-### -param Type [out]
-
+### -param Type 
+[out]
 A pointer to a <b>DEVPROPTYPE</b> variable. If the method is successful, upon return this parameter contains the property type value
                   of the property 
                   data stored in <i>PropertyBuffer</i>.

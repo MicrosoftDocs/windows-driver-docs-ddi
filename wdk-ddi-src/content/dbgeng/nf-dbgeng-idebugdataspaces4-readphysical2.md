@@ -55,13 +55,13 @@ The <b>ReadPhysical2</b> method reads the target's memory from the specified phy
 
 
 
-### -param Offset [in]
-
+### -param Offset 
+[in]
 Specifies the physical address of the memory to read.
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 Specifies the properties of the physical memory to be read.  This must match the way the physical memory was advertised to the operating system on the target.  Possible values are listed in the following table.
 
 <table>
@@ -113,18 +113,18 @@ The physical memory is write-combined.
  
 
 
-### -param Buffer [out]
-
+### -param Buffer 
+[out]
 Receives the memory that is read.
 
 
-### -param BufferSize [in]
-
+### -param BufferSize 
+[in]
 Specifies the size, in bytes, of the <i>Buffer</i> buffer.  This is the maximum number of bytes that will be read.
 
 
-### -param BytesRead [out, optional]
-
+### -param BytesRead 
+[out, optional]
 Receives the number of bytes read from the target's memory.  If <i>BytesRead</i> is <b>NULL</b>, this information is not returned.
 
 

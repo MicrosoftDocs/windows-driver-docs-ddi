@@ -55,23 +55,23 @@ The <i>Int10AllocateBuffer</i> function can be used to allocate a single 4 KB bl
 
 
 
-### -param Context [in]
-
+### -param Context 
+[in]
 Pointer to a video port driver-defined context for the interface. This should be the same as the value in the <b>Context</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_port_int10_interface">VIDEO_PORT_INT10_INTERFACE</a> structure after <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportqueryservices">VideoPortQueryServices</a> returns.
 
 
-### -param Seg [out]
-
+### -param Seg 
+[out]
 Pointer to a memory location that will receive the segment address of the allocated memory buffer.
 
 
-### -param Off [out]
-
+### -param Off 
+[out]
 Pointer to a memory location that will receive the offset within the segment specified by *<i>Seg</i>, of the allocated memory buffer.
 
 
-### -param Length [in, out]
-
+### -param Length 
+[in, out]
 Pointer to a memory location that contains the length, in bytes, of the requested memory buffer, which can be as large as 4096. When the function returns, this memory location will contain the value 4096, whether the memory was actually allocated.
 
 

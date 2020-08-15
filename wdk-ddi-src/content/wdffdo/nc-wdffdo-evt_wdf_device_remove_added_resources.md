@@ -57,18 +57,18 @@ A driver's <i>EvtDeviceRemoveAddedResources</i> event callback function removes 
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to the framework device object to which resources will be assigned.
 
 
-### -param ResourcesRaw [in]
-
+### -param ResourcesRaw 
+[in]
 A handle to a resource list object that identifies the raw hardware resources that the PnP manager has assigned to the device. 
 
 
-### -param ResourcesTranslated [in]
-
+### -param ResourcesTranslated 
+[in]
 A handle to a resource list object that identifies the translated hardware resources that the PnP manager has assigned to the device. 
 
 

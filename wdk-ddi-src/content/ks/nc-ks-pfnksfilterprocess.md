@@ -55,8 +55,8 @@ An AVStream minidriver's <i>AVStrMiniFilterProcess</i> routine is called when th
 
 
 
-### -param Filter [in]
-
+### -param Filter 
+[in]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a> structure that must process frames.
 
 

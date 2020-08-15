@@ -56,18 +56,18 @@ PosCxOpen is called to create an open PosCx library instance. This function init
 
 
 
-### -param device [in]
-
+### -param device 
+[in]
 A handle to a framework device object that represents the device.
 
 
-### -param fileObject [in]
-
+### -param fileObject 
+[in]
 A handle to a framework file object that identifies the caller associated with the open instance.
 
 
-### -param deviceInterfaceTag [in]
-
+### -param deviceInterfaceTag 
+[in]
 An identifier used to specify the caller's device interface in a multi-function device.  For a single-interface device, this value should be 0.
 
 

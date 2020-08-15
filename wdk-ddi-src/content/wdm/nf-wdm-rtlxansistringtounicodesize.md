@@ -55,8 +55,8 @@ The <b>RtlxAnsiStringToUnicodeSize</b> routine returns the number of bytes that 
 
 
 
-### -param AnsiString [in]
-
+### -param AnsiString 
+[in]
 Pointer to the ANSI string for which to compute the number of bytes that are required for an equivalent null-terminated Unicode string. 
 
 

@@ -58,21 +58,21 @@ The
 
 
 
-### -param NdisVcHandle [in]
-
+### -param NdisVcHandle 
+[in]
 A handle to a virtual connection (VC) that identifies the target of the send request.
 
 
-### -param NetBufferLists [in]
-
+### -param NetBufferLists 
+[in]
 A pointer to a linked list of 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures. Each
      NET_BUFFER_LIST structure describes a list of 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures.
 
 
-### -param SendFlags [in]
-
+### -param SendFlags 
+[in]
 Flags that define attributes for the send operation. The flags can be combined with a bitwise OR
      operation. To clear all of the flags, set this parameter to zero. 
      <b>NdisCoSendNetBufferLists</b> supports the following flags:

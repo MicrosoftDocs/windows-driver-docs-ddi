@@ -55,18 +55,18 @@ req.typenames:
 
 
 
-### -param pDeviceObject [in]
-
+### -param pDeviceObject 
+[in]
 A pointer to the device object that initialized the timer. This parameter was passed to the <b>RxPostRecurrentTimerRequest</b> routine when this recurrent timer was initialized.
 
 
-### -param Routine [in]
-
+### -param Routine 
+[in]
 A pointer to the worker thread routine to call when this timer expires. This parameter was passed to the <b>RxPostRecurrentTimerRequest</b> routine when this recurrent timer was initialized.
 
 
-### -param pContext [in]
-
+### -param pContext 
+[in]
 A pointer to the context parameter that was passed to the <b>RxPostRecurrentTimerRequest</b> routine when this timer was initialized.
 
 

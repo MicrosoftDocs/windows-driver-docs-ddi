@@ -55,28 +55,28 @@ The <b>KsEvent</b> method enables or disables an event, along with any other def
 
 
 
-### -param Event [in, optional]
-
+### -param Event 
+[in, optional]
 Pointer to a <a href="https://docs.microsoft.com/previous-versions/ff561744(v=vs.85)">KSEVENT</a> structure that describes an event to enable the event and <b>NULL</b> to disable the event.
 
 
-### -param EventLength [in]
-
+### -param EventLength 
+[in]
 Size, in bytes, of the buffer at <i>Event</i> when the event is enabled and zero when the event is disabled. 
 
 
-### -param EventData [in, out]
-
+### -param EventData 
+[in, out]
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-kseventdata">KSEVENTDATA</a> structure that contains data for the event and buffer space that receives data for the event. 
 
 
-### -param DataLength [in]
-
+### -param DataLength 
+[in]
 Size, in bytes, of the buffer at <i>EventData</i>. 
 
 
-### -param BytesReturned [in, out]
-
+### -param BytesReturned 
+[in, out]
 Pointer to a variable that receives the size, in bytes, of the data that <b>KsEvent</b> stores in the buffer at <i>EventData</i>. 
 
 

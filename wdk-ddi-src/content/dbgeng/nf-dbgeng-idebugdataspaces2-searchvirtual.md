@@ -58,33 +58,33 @@ The <b>SearchVirtual</b> method searches the target's virtual memory for a speci
 
 
 
-### -param Offset [in]
-
+### -param Offset 
+[in]
 Specifies the location in the target's virtual address space to start searching for the pattern.
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 Specifies how far to search for the pattern.  A successful match requires the entire pattern to be found before <i>Length</i> bytes have been examined.
 
 
-### -param Pattern [in]
-
+### -param Pattern 
+[in]
 Specifies the pattern to search for.
 
 
-### -param PatternSize [in]
-
+### -param PatternSize 
+[in]
 Specifies the size in bytes of the pattern.  This must be a multiple of the granularity of the pattern.
 
 
-### -param PatternGranularity [in]
-
+### -param PatternGranularity 
+[in]
 Specifies the granularity of the pattern.  For a successful match the pattern must occur a multiple of this value after the start location.
 
 
-### -param MatchOffset [out]
-
+### -param MatchOffset 
+[out]
 Receives the location in the target's virtual address space of the pattern, if it was found.
 
 

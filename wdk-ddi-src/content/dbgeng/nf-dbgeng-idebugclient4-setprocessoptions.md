@@ -59,8 +59,8 @@ The <b>SetProcessOptions</b> method sets the process options affecting the curre
 
 
 
-### -param Options [in]
-
+### -param Options 
+[in]
 Specifies a set of flags that will become the new process options for the current process.  For details on these options, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-process-xxx">DEBUG_PROCESS_XXX</a>.
 
 

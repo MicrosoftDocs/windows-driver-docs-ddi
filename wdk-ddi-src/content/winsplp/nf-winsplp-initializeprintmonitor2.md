@@ -49,12 +49,12 @@ A print monitor's **InitializePrintMonitor2** function initializes a print monit
 
 ## -parameters
 
-### -param pMonitorInit [in]
-
+### -param pMonitorInit 
+[in]
 Caller-supplied pointer to a [MONITORINIT](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/ns-winsplp-_monitorinit) structure.
 
-### -param phMonitor [out]
-
+### -param phMonitor 
+[out]
 Caller-supplied location in which the function returns a monitor handle.
 
 ## -returns

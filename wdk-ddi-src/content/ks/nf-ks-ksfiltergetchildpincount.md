@@ -56,13 +56,13 @@ The<b> KsFilterGetChildPinCount</b><b></b>function<b></b>returns the number of p
 
 
 
-### -param Filter [in]
-
+### -param Filter 
+[in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a> structure for which to find the number of instantiated pins of type <i>PinID</i>.
 
 
-### -param PinId [in]
-
+### -param PinId 
+[in]
 The pin type for which to find the number of instantiated pins. <i>PinID</i> is an index into the array of pin descriptors for the filter to which the pin belongs.
 
 

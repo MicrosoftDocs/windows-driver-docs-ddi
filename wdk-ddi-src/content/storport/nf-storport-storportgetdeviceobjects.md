@@ -55,23 +55,23 @@ The <b>StorPortGetDeviceObjects</b> routine returns the device objects that are 
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param AdapterDeviceObject [out]
-
+### -param AdapterDeviceObject 
+[out]
 A pointer to receive the functional device object (FDO) of the adapter.
 
 
-### -param PhysicalDeviceObject [out]
-
+### -param PhysicalDeviceObject 
+[out]
 A pointer to receive the physical device object (PDO).
 
 
-### -param LowerDeviceObject [out]
-
+### -param LowerDeviceObject 
+[out]
 A pointer to receive the device object of lower device to which the FDO is attached.
 
 

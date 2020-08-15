@@ -50,8 +50,8 @@ This macro returns a pointer to the [KSMETHOD_SET](https://docs.microsoft.com/wi
 
 ## -parameters
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 Specifies the IRP passed to the handler routine.
 
 ## -remarks

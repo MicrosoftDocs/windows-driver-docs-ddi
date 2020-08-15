@@ -57,8 +57,8 @@ The <b>IsVersionAvailable</b> method determines whether the specified version of
 
 
 
-### -param pMinimumVersion [in]
-
+### -param pMinimumVersion 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi_types/ns-wudfddi_types-umdf_version_data">UMDF_VERSION_DATA</a> structure that describes the minimum version of the framework that the driver supports.
 
 

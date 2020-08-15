@@ -57,48 +57,48 @@ This is a callback inside <a href="https://docs.microsoft.com/windows-hardware/d
 
 
 
-### -param NdisMiniportDataPathHandle [in]
-
+### -param NdisMiniportDataPathHandle 
+[in]
 The NdisMiniportDataPathHandle passed to the IHV miniport in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_tal_txrx_initialize">MiniportWdiTalTxRxInitialize</a>.
 
 
-### -param PortId [in]
-
+### -param PortId 
+[in]
 The port ID. 
 
 
-### -param PeerId [in]
-
+### -param PeerId 
+[in]
 The peer ID. When <b>TargetPriorityQueueing</b> is true, this must be set to the wildcard value.
 
 
-### -param ExTid [in]
-
+### -param ExTid 
+[in]
 The extended TID.
 
 
-### -param pNBL [in]
-
+### -param pNBL 
+[in]
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> chain.
 
 
-### -param bIsUnicast [in]
-
+### -param bIsUnicast 
+[in]
 Specifies if the frames are to a unicast receiver address.
 
 
-### -param bUseLegacyRates [in]
-
+### -param bUseLegacyRates 
+[in]
 Specifies if legacy rates should be used to send the frames.
 
 
-### -param Ethertype [in]
-
+### -param Ethertype 
+[in]
 Specifies the Ethertype of the frames.
 
 
-### -param ExemptionAction [in]
-
+### -param ExemptionAction 
+[in]
 Specifies the ExemptionAction of the frames.
 
 

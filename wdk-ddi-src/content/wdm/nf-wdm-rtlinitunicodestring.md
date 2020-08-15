@@ -55,13 +55,13 @@ For more information, see  the <a href="https://docs.microsoft.com/windows-hardw
 
 
 
-### -param DestinationString [out]
-
+### -param DestinationString 
+[out]
 For more information, see  the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdmsec/nf-wdmsec-wdmlibrtlinitunicodestringex">WdmlibRtlInitUnicodeStringEx</a> function.
 
 
-### -param SourceString [in, optional]
-
+### -param SourceString 
+[in, optional]
 For more information, see  the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdmsec/nf-wdmsec-wdmlibrtlinitunicodestringex">WdmlibRtlInitUnicodeStringEx</a> function.
 
 

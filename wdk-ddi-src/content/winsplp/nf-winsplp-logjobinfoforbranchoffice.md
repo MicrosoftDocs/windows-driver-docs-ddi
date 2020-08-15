@@ -55,13 +55,13 @@ Allows Branch Office clients to send job events to the host print server.
 
 
 
-### -param hPrinter [in]
-
+### -param hPrinter 
+[in]
 Specifies a handle to the CSR printer.
 
 
-### -param pJobDataContainer [in]
-
+### -param pJobDataContainer 
+[in]
 Specifies a pointer to an array of <a href="https://docs.microsoft.com/dotnet/core/rid-catalog">BranchOfficeJobData</a> structures, containing the events to be logged.
 
 

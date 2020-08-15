@@ -58,23 +58,23 @@ The <b>WdfRequestCreateFromIrp</b> method creates a framework request object fro
 
 
 
-### -param RequestAttributes [in, optional]
-
+### -param RequestAttributes 
+[in, optional]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that specifies object attributes for the request object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES. 
 
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> structure that contains a WDM I/O request packet.
 
 
-### -param RequestFreesIrp [in]
-
+### -param RequestFreesIrp 
+[in]
 A Boolean value that, if <b>TRUE</b>, indicates that the framework removes the IRP when the request handle is destroyed. If <b>FALSE</b>, the driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/storport-iofreeirp">IoFreeIrp</a> to remove the IRP, using the steps that the following Examples section demonstrates.
 
 
-### -param Request [out]
-
+### -param Request 
+[out]
 A pointer to a location that receives a handle to a framework request object. 
 
 

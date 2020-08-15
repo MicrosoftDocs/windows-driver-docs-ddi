@@ -55,18 +55,18 @@ The <i>EvtSerCx2PioReceiveReadBuffer</i> event callback function is called by ve
 
 
 
-### -param PioReceive [in]
-
+### -param PioReceive 
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIORECEIVE</a> handle to a PIO-receive object. The serial controller driver previously called the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2pioreceivecreate">SerCx2PioReceiveCreate</a> method to create this object.
 
 
-### -param Buffer [out]
-
+### -param Buffer 
+[out]
 A pointer to the read buffer. This parameter is the virtual address of a locked-down buffer in system memory.
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 The number of bytes in the read buffer that are available to store received data.
 
 

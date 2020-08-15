@@ -52,20 +52,20 @@ The **RtlCaptureStackBackTrace** routine captures a stack trace by walking the s
 
 ## -parameters
 
-### -param FramesToSkip [in]
-
+### -param FramesToSkip 
+[in]
 Number of frames to skip from the start (current call point) of the back trace.
 
-### -param FramesToCapture [in]
-
+### -param FramesToCapture 
+[in]
 Number of frames to be captured.
 
-### -param BackTrace [out]
-
+### -param BackTrace 
+[out]
 Caller-allocated array in which pointers to the return addresses captured from the current stack trace are returned.
 
-### -param BackTraceHash [out, optional]
-
+### -param BackTraceHash 
+[out, optional]
 Optional value that can be used to organize hash tables. If this parameter is **NULL**, **RtlCaptureStackBackTrace** does not compute and return a hash value.
 
 This hash value is calculated based on the values of the pointers returned in the *BackTrace* array. Two identical stack traces will generate identical hash values.

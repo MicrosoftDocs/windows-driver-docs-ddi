@@ -57,41 +57,41 @@ The <b>ExtDeviceMode</b> function retrieves or modifies printer initialization i
 
 
 
-### -param hWnd [in, optional]
-
+### -param hWnd 
+[in, optional]
 Handle to the parent window for the printer-configuration property sheet.
 
 
-### -param hInst [in, optional]
-
+### -param hInst 
+[in, optional]
 
       Not used. Handle to the module instance of the device driver. 
 
 
-### -param pDevModeOutput [in, out]
-
+### -param pDevModeOutput 
+[in, out]
 Pointer to the DEVMODE structure that receives the printer configuration data supplied in the buffer pointed to by the <i>pDevModeInput</i> parameter. 
 
 
-### -param pDeviceName [in, optional]
-
+### -param pDeviceName 
+[in, optional]
 Pointer to a NULL-terminated string that contains the name of the device for which the printer configuration property sheet is displayed.
 
 
-### -param pPort [in, optional]
-
+### -param pPort 
+[in, optional]
 Pointer to a NULL-terminated string that contains the name of the port to which the device is connected, such as LPT1.
 
 
-### -param pDevModeInput [in, optional]
-
+### -param pDevModeInput 
+[in, optional]
 Pointer to the DEVMODE structure that the operating system uses to initialize the property sheet fields. 
 
 This parameter is used only if the DM_IN_BUFFER flag is set in the <i>fMode</i> parameter. If DM_IN_BUFFER is not set, the operating system uses the printer's default DEVMODE structure.
 
 
-### -param pProfile [in, optional]
-
+### -param pProfile 
+[in, optional]
 
       Not used. Pointer to a NULL-terminated string that contains the name of the initialization file in which initialization information is recorded and read from. 
 

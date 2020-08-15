@@ -55,8 +55,8 @@ The <b>GetExpressionSyntax</b> method returns the current syntax that the engine
 
 
 
-### -param Flags [out]
-
+### -param Flags 
+[out]
 Receives the expression syntax.  It is set to one of the following values:
 
 

@@ -59,22 +59,22 @@ The
 
 
 
-### -param CallMgrPartyContext [in]
-
+### -param CallMgrPartyContext 
+[in]
 Specifies the handle to a call manager-allocated context area in which the call manager maintains
      its per-party state. This handle was provided to NDIS in the call managers 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_add_party">ProtocolCmAddParty</a> function.
 
 
-### -param CloseData [in, optional]
-
+### -param CloseData 
+[in, optional]
 Pointer to a buffer containing connection-oriented client-specific data that should be sent across
      the connection before the party is dropped. This parameter is <b>NULL</b> if the underlying network medium does
      not support transfers of data when closing a connection.
 
 
-### -param Size [in, optional]
-
+### -param Size 
+[in, optional]
 Specifies the length, in bytes, of the buffer at 
      <i>CloseData</i>, zero if 
      <i>CloseData</i> is <b>NULL</b>.

@@ -63,5 +63,5 @@ req.typenames:
 ### -param dwCount
 
 
-### -param pdwParams [in]
-
+### -param pdwParams 
+[in]

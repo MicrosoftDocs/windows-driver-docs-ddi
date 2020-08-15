@@ -55,13 +55,13 @@ The <code>UnmapAllocatedPages</code> method releases a mapping.
 
 
 
-### -param BaseAddress [in]
-
+### -param BaseAddress 
+[in]
 Pointer to the base virtual address to which the physical pages were mapped.
 
 
-### -param MemoryDescriptorList [in]
-
+### -param MemoryDescriptorList 
+[in]
 Pointer to a memory descriptor list (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_mdl">MDL</a>) that describes the physical pages.
 
 

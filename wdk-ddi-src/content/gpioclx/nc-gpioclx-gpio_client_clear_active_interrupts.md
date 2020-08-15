@@ -55,13 +55,13 @@ The <i>CLIENT_ClearActiveInterrupts</i> event callback function clears active in
 
 
 
-### -param Context [in]
-
+### -param Context 
+[in]
 A pointer to the GPIO controller driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/gpio/gpio-device-contexts">device context</a>.
 
 
-### -param ClearParameters [in, out]
-
+### -param ClearParameters 
+[in, out]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_clear_active_interrupts_parameters">GPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS</a> structure that, on entry, describes the GPIO interrupt pins to clear, and, on exit, contains the status of the clear operation.
 
 

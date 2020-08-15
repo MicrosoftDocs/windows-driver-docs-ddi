@@ -65,8 +65,8 @@ Bus-master miniport drivers call
 
 
 
-### -param NdisMiniportDmaHandle [in]
-
+### -param NdisMiniportDmaHandle 
+[in]
 A handle to a context area that NDIS uses to manage a DMA resource. The caller obtained this
      handle by calling the 
      <b>NdisMRegisterScatterGatherDma</b> function.

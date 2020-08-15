@@ -58,28 +58,28 @@ req.typenames:
 
 
 
-### -param Transaction [in]
-
+### -param Transaction 
+[in]
 A handle to a DMA transaction object representing the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dma-transactions-and-dma-transfers">DMA transfer</a> that has just completed.
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to the framework device object that the driver specified when it called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmatransaction/nf-wdfdmatransaction-wdfdmatransactioncreate">WdfDmaTransactionCreate</a>.
 
 
-### -param Context [in]
-
+### -param Context 
+[in]
 The context pointer that the driver specified in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmatransaction/nf-wdfdmatransaction-wdfdmatransactionsettransfercompletecallback">WdfDmaTransactionSetTransferCompleteCallback</a>.
 
 
-### -param Direction [in]
-
+### -param Direction 
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmaenabler/ne-wdfdmaenabler-_wdf_dma_direction">WDF_DMA_DIRECTION</a>-typed value that specifies the direction of the completing DMA transfer operation.
 
 
-### -param Status [in]
-
+### -param Status 
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-dma_completion_status">DMA_COMPLETION_STATUS</a>-typed value that specifies the status of the transfer.
 
 

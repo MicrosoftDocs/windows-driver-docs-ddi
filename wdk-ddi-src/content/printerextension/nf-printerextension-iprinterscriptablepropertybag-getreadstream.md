@@ -55,13 +55,13 @@ Gets a read stream and uses it to read  from a property.
 
 
 
-### -param bstrName [in]
-
+### -param bstrName 
+[in]
 The property to read.
 
 
-### -param ppStream [out, retval]
-
+### -param ppStream 
+[out, retval]
         The returned stream.
 
 

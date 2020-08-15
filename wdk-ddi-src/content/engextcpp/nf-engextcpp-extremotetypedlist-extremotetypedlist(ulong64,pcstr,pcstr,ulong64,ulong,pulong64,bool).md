@@ -56,33 +56,33 @@ The <b>ExtRemoteTypedList</b> constructors create a new instance that wraps a ty
 
 
 
-### -param Head [in]
-
+### -param Head 
+[in]
 The location, in the target's memory, of the head of the list.  The head is not considered to be an item in the list.  The type of the head of the list is SINGLE_LIST_ENTRY or LIST_ENTRY.
 
 
-### -param Type [in]
-
+### -param Type 
+[in]
 The type name for the list items.  <i>Type</i> can include a module qualifier (for example, <b>mymodule!mytype</b>).  If <i>TypeId</i> is not zero, <i>Type</i> is not used.
 
 
-### -param LinkField [in]
-
+### -param LinkField 
+[in]
 The name of the field of the typed data structure that contains the pointer to the next list item.  This is either the SINGLE_LIST_ENTRY structure or the LIST_ENTRY structure embedded in the list item.
 
 
-### -param TypeModBase [in]
-
+### -param TypeModBase 
+[in]
 The location in the target's memory of the base address of the module that contains the type specified by <i>TypeId</i>.  If <i>TypeId</i> is zero, <i>TypeModBase</i> is not used.
 
 
-### -param TypeId [in]
-
+### -param TypeId 
+[in]
 The type ID of the type relative to the module specified by <i>TypeModBase</i>.  If <i>TypeId</i> is zero, <i>Type</i> is used to specify the type of the list items.
 
 
-### -param CacheCookie [in, out, optional]
-
+### -param CacheCookie 
+[in, out, optional]
 The cache cookie to use for caching the type information.  If <i>CacheCookie</i> is <b>NULL</b>, the debugger engine will search for the type information each time.
 
 
@@ -116,8 +116,8 @@ The cache cookie to use for caching the type information.  If <i>CacheCookie</i>
 
 
 
-### -param Double [in]
-
+### -param Double 
+[in]
 Specifies whether the list is singly-linked or doubly-linked.  If <i>Double</i> is <code>true</code>, the list is doubly-linked.  If <i>Double</i> is <code>false</code>, the list is singly-linked.
 
 

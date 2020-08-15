@@ -55,48 +55,48 @@ The <b>GetStoredEventInformation</b> method retrieves information about an event
 
 
 
-### -param Type [out]
-
+### -param Type 
+[out]
 Receives the type of the stored event.  For a list of possible types, see <a href="https://docs.microsoft.com/previous-versions/ff541478(v=vs.85)">DEBUG_EVENT_XXX</a>.
 
 
-### -param ProcessId [out]
-
+### -param ProcessId 
+[out]
 Receives the process ID of the process in which the event occurred.  If this information is not available, DEBUG_ANY_ID will be returned instead.
 
 
-### -param ThreadId [out]
-
+### -param ThreadId 
+[out]
 Receives the thread ID of the thread in which the last event occurred.  If this information is not available, DEBUG_ANY_ID will be returned instead.
 
 
-### -param Context [out, optional]
-
+### -param Context 
+[out, optional]
 Receives the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/scopes-and-symbol-groups">thread context</a> of the stored event.  The type of the thread context is the CONTEXT structure for the target's effective processor at the time of the event.  The <i>Context</i> buffer must be large enough to hold this structure.  If <i>Context</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param ContextSize [in]
-
+### -param ContextSize 
+[in]
 Specifies the size, in bytes, of the buffer that <i>Context</i> specifies.
 
 
-### -param ContextUsed [out, optional]
-
+### -param ContextUsed 
+[out, optional]
 Receives the size in bytes of the context.  If <i>ContextUsed</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param ExtraInformation [out, optional]
-
+### -param ExtraInformation 
+[out, optional]
 Receives extra information about the event.  The contents of this extra information depends on the type of the event.  If <i>ExtraInformation</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param ExtraInformationSize [in]
-
+### -param ExtraInformationSize 
+[in]
 Specifies the size, in bytes, of the buffer that <i>ExtraInformation</i> specifies.
 
 
-### -param ExtraInformationUsed [out, optional]
-
+### -param ExtraInformationUsed 
+[out, optional]
 Receives the size in bytes of extra information.  If <i>ExtraInformationUsed</i> is <b>NULL</b>, this information is not returned.
 
 

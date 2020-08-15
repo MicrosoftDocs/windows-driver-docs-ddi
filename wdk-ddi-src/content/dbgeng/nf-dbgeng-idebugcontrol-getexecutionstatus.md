@@ -57,8 +57,8 @@ The <b>GetExecutionStatus</b> method returns information about the execution sta
 
 
 
-### -param Status [out]
-
+### -param Status 
+[out]
 Receives the execution status.  This will be set to one of the values in the following table. Note that the description of these values differs slightly from the description in <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-status-xxx">DEBUG_STATUS_XXX</a>.
 
 <table>

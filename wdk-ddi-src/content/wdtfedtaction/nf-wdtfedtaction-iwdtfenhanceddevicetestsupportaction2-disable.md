@@ -55,8 +55,8 @@ Disables the Enhanced Device Test (EDT) filter driver on the target device.
 
 
 
-### -param pbRebootRequired [out, retval]
-
+### -param pbRebootRequired 
+[out, retval]
 True if the operation requires a restart to complete; otherwise, false.
 
 

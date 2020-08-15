@@ -56,13 +56,13 @@ The <b>RtlCopyUnicodeString</b> routine copies a source string to a destination 
 
 
 
-### -param DestinationString [in, out]
-
+### -param DestinationString 
+[in, out]
 A pointer to the destination string buffer. This parameter points to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure. 
 
 
-### -param SourceString [in, optional]
-
+### -param SourceString 
+[in, optional]
 A pointer to the source string buffer. This parameter points to a <b>UNICODE_STRING</b> structure. 
 
 

@@ -55,33 +55,33 @@ The <b>GetDmaTransferInfo</b> routine calculates the allocation requirements for
 
 
 
-### -param DmaAdapter [in]
-
+### -param DmaAdapter 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_adapter">DMA_ADAPTER</a> structure. This structure is the adapter object that represents the driver's bus-master DMA device or system DMA channel. The caller obtained this pointer from a previous call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a> routine.
 
 
-### -param Mdl [in]
-
+### -param Mdl 
+[in]
 A pointer to the MDL chain that describes the pages of memory that are to be transferred. For more information, see the Remarks section.
 
 
-### -param Offset [in]
-
+### -param Offset 
+[in]
 The starting offset for the scatter/gather DMA transfer. This parameter is a byte offset from the start of the buffer in the first MDL in the MDL chain. If the MDLs in the MDL chain specify a total of N bytes of buffer space, valid values of <i>Offset</i> are in the range 0 to N–1.
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 The length, in bytes, of the DMA transfer. If the MDL chain specifies a total of N bytes of buffer space, valid values of <i>Length</i> are in the range 1 to N–<i>Offset</i>.
 
 
-### -param WriteOnly [in]
-
+### -param WriteOnly 
+[in]
 Indicates whether the transfer is a write-only operation (that is, a transfer to the device from memory). If <i>WriteOnly</i> is TRUE, information returned about the transfer might not be valid for a read transaction. This parameter might indicate that additional cache control operations are required at buffer boundaries to enforce cache coherency.
 
 
-### -param TransferInfo [in, out]
-
+### -param TransferInfo 
+[in, out]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_transfer_info">DMA_TRANSFER_INFO</a> structure. The caller must set the <b>Version</b> member of the structure to DMA_TRANSFER_INFO_VERSION1 before calling <b>GetDmaTransferInfo</b>.
 
 

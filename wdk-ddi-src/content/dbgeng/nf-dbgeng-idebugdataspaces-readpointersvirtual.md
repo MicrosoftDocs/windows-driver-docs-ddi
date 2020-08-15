@@ -58,18 +58,18 @@ The <b>ReadPointersVirtual</b> method is a convenience method for reading pointe
 
 
 
-### -param Count [in]
-
+### -param Count 
+[in]
 Specifies the number of pointers to read.
 
 
-### -param Offset [in]
-
+### -param Offset 
+[in]
 Specifies the location in the target's virtual address space to start reading the pointers.
 
 
-### -param Ptrs [out]
-
+### -param Ptrs 
+[out]
 Specifies the array to store the pointers.  The number of elements this array holds is <i>Count</i>.
 
 

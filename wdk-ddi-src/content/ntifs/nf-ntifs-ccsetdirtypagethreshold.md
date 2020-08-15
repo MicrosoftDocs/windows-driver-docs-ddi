@@ -55,13 +55,13 @@ The <b>CcSetDirtyPageThreshold</b> routine sets a per-file dirty page threshold 
 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 Pointer to a file object for the cached file on which the dirty page threshold is to be set.
 
 
-### -param DirtyPageThreshold [in]
-
+### -param DirtyPageThreshold 
+[in]
 Specifies, as a number of pages, the dirty page threshold value. To remove a per-file dirty page threshold value that was set previously, set <i>DirtyPageThreshold</i> to zero.
 
 

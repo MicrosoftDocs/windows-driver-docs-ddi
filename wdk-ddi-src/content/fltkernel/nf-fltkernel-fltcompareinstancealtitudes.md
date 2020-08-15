@@ -56,13 +56,13 @@ req.typenames:
 
 
 
-### -param Instance1 [in]
-
+### -param Instance1 
+[in]
 Pointer to the first instance. 
 
 
-### -param Instance2 [in]
-
+### -param Instance2 
+[in]
 Pointer to the second instance. 
 
 

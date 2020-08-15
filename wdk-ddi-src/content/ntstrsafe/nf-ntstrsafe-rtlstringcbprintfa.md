@@ -58,13 +58,13 @@ The <b>RtlStringCbPrintfW</b> and <b>RtlStringCbPrintfA</b> functions create a b
 
 
 
-### -param pszDest [out]
-
+### -param pszDest 
+[out]
 A pointer to a caller-supplied buffer that receives a formatted, null-terminated string. The function creates this string from both the formatting string that is supplied by <i>pszFormat</i> and the function's argument list. 
 
 
-### -param cbDest [in]
-
+### -param cbDest 
+[in]
 The size of the destination buffer, in bytes. The buffer must be large enough to contain the formatted string plus the terminating null character. 
 
 For Unicode strings, the maximum number of bytes is NTSTRSAFE_MAX_CCH * sizeof(WCHAR). 
@@ -72,8 +72,8 @@ For Unicode strings, the maximum number of bytes is NTSTRSAFE_MAX_CCH * sizeof(W
 For ANSI strings, the maximum number of bytes is NTSTRSAFE_MAX_CCH * sizeof(char). 
 
 
-### -param pszFormat [in]
-
+### -param pszFormat 
+[in]
 A pointer to a null-terminated text string that contains <b>printf</b>-styled <a href="https://docs.microsoft.com/cpp/c-runtime-library/format-specification-syntax-printf-and-wprintf-functions">formatting directives</a>.
 
 

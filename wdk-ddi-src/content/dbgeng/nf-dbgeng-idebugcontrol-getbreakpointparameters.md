@@ -57,23 +57,23 @@ The <b>GetBreakpointParameters</b> method returns the parameters of one or more 
 
 
 
-### -param Count [in]
-
+### -param Count 
+[in]
 Specifies the number of breakpoints whose parameters are being requested.
 
 
-### -param Ids [in, optional]
-
+### -param Ids 
+[in, optional]
 Specifies an array containing the IDs of the breakpoints whose parameters are being requested.  The number of items in this array must be equal to the value specified in <i>Count</i>.  If <i>Ids</i> is <b>NULL</b>, <i>Start</i> is used instead.
 
 
-### -param Start [in]
-
+### -param Start 
+[in]
 Specifies the beginning index of the breakpoints whose parameters are being requested.  The parameters for breakpoints with indices <i>Start</i> through <i>Start</i> plus <i>Count</i> minus one will be returned.  <i>Start</i> is used only if <i>Ids</i> is <b>NULL</b>.
 
 
-### -param Params [out]
-
+### -param Params 
+[out]
 Receives the parameters for the specified breakpoints. The size of this array is equal to the value of <i>Count</i>.  For details on the structure returned, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_breakpoint_parameters">DEBUG_BREAKPOINT_PARAMETERS</a>.
 
 

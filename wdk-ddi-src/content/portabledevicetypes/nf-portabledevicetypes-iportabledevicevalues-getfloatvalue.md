@@ -59,13 +59,13 @@ The <b>GetFloatValue</b> method retrieves a <b>FLOAT</b> value (type VT_R4) spec
 
 
 
-### -param key [in]
-
+### -param key 
+[in]
 A <b>REFPROPERTYKEY</b> key that specifies the item to retrieve.
 
 
-### -param pValue [out]
-
+### -param pValue 
+[out]
 Pointer to the retrieved <b>FLOAT</b> value.
 
 

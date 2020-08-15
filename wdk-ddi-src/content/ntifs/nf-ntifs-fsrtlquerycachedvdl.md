@@ -55,13 +55,13 @@ The current valid data length (VDL) for a cached file is retrieved with the <b>F
 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 The file object to retrieve the cached VDL for.
 
 
-### -param Vdl [out]
-
+### -param Vdl 
+[out]
  A pointer to a caller supplied value which receives the VDL.
 
 

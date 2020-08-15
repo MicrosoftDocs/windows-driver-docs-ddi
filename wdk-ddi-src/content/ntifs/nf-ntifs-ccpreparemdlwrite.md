@@ -55,28 +55,28 @@ The <b>CcPrepareMdlWrite</b> routine provides direct access to cached file memor
 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 Pointer to a file object for the cached file. 
 
 
-### -param FileOffset [in]
-
+### -param FileOffset 
+[in]
 Pointer to a variable that specifies the starting byte offset within the cached file where the data is to be written.
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 Length in bytes of the data to be written to the system cache.
 
 
-### -param MdlChain [out]
-
+### -param MdlChain 
+[out]
 A chain of one or more memory descriptor lists (MDL) describing the pages to which the data is to be written.
 
 
-### -param IoStatus [out]
-
+### -param IoStatus 
+[out]
 Pointer to an IO_STATUS_BLOCK structure. If the call to <b>CcPrepareMdlWrite</b> succeeds, <i>IoStatus.Status</i> is set to STATUS_SUCCESS. Otherwise, it is set to an appropriate NTSTATUS error code. <i>IoStatus.Information</i> is set to the actual number of bytes that were successfully locked down in the MDL chain.
 
 

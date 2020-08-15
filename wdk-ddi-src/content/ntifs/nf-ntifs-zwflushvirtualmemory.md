@@ -56,13 +56,13 @@ The <b>ZwFlushVirtualMemory</b> routine flushes a range of virtual addresses wit
 
 
 
-### -param ProcessHandle [in]
-
+### -param ProcessHandle 
+[in]
 An open handle for the process in whose context the pages to be flushed reside. Use the <b>NtCurrentProcess</b> macro, defined in Ntddk.h, to specify the current process. 
 
 
-### -param BaseAddress [in, out]
-
+### -param BaseAddress 
+[in, out]
 A pointer to the base address of the virtual address range.
 
 On entry, this parameter specifies a pointer to the initial value of the base address of the region of pages to flush.
@@ -70,8 +70,8 @@ On entry, this parameter specifies a pointer to the initial value of the base ad
 On return, this parameter provides a pointer to a variable that will receive the base address of the flushed region.
 
 
-### -param RegionSize [in, out]
-
+### -param RegionSize 
+[in, out]
 The size, in bytes, of the virtual address range.
 
 On entry, this parameter specifies a pointer to the initial value of the size in bytes of the region of pages to flush to disk. This argument is rounded up to the next host-page-size boundary by the <b>ZwFlushVirtualMemory</b>. If this value is specified as zero, the mapped range from the base address to the end of the range is flushed.
@@ -79,8 +79,8 @@ On entry, this parameter specifies a pointer to the initial value of the size in
 On return, this parameter specifies a pointer to a variable that will receive the actual size in bytes of the flushed region of pages.
 
 
-### -param IoStatus [out]
-
+### -param IoStatus 
+[out]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure. This structure is where the value of the I/O status for the last attempted I/O operation is stored on output.
 
 

@@ -60,23 +60,23 @@ Creates a UFX device object, registers event callback routines, and specifies ca
 <p>A handle to a WDF device object.</p>
 
 
-### -param Callbacks [in]
-
+### -param Callbacks 
+[in]
 A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/ns-ufxclient-_ufx_device_callbacks">UFX_DEVICE_CALLBACKS</a> that contains pointers to driver-supplied callback routines to be associated with the UFX device object.
 
 
-### -param Capabilities [in]
-
+### -param Capabilities 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxbase/ns-ufxbase-_ufx_device_capabilities">UFX_DEVICE_CAPABILITIES</a> structure.
 
 
-### -param Attributes [in, optional]
-
+### -param Attributes 
+[in, optional]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that contains driver-supplied attributes for the new object. This parameter is optional and can be <b>WDF_NO_OBJECT_ATTRIBUTES</b>.
 
 
-### -param UfxDevice [out]
-
+### -param UfxDevice 
+[out]
 A pointer to a location that receives a handle to the new UFX device object.
 
 

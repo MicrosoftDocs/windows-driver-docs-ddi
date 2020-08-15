@@ -60,23 +60,23 @@ The <b>WdfUsbInterfaceGetEndpointInformation</b> method retrieves information ab
 
 
 
-### -param UsbInterface [in]
-
+### -param UsbInterface 
+[in]
 A handle to a USB interface object that was obtained by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdevicegetinterface">WdfUsbTargetDeviceGetInterface</a>. 
 
 
-### -param SettingIndex [in]
-
+### -param SettingIndex 
+[in]
 An index value that identifies an alternate setting for the interface. For more information about alternate settings, see the USB specification.
 
 
-### -param EndpointIndex [in]
-
+### -param EndpointIndex 
+[in]
 An index value that identifies an endpoint that is associated with the specified alternate setting of the specified interface. (This index value is not the endpoint address.)
 
 
-### -param EndpointInfo [out]
-
+### -param EndpointInfo 
+[out]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/ns-wdfusb-_wdf_usb_pipe_information">WDF_USB_PIPE_INFORMATION</a> structure that the framework fills in.
 
 

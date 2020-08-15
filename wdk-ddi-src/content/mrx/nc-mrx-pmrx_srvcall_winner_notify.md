@@ -58,8 +58,8 @@ The<i> MRxSrvCallWinnerNotify</i> routine is called by <a href="https://docs.mic
 ### -param SrvCall
 
 
-### -param ThisMinirdrIsTheWinner [in]
-
+### -param ThisMinirdrIsTheWinner 
+[in]
 A Boolean value that indicates that this network mini-redirector was chosen.
 
 

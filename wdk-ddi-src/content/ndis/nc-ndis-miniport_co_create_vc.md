@@ -59,8 +59,8 @@ The
 
 
 
-### -param MiniportAdapterContext [in]
-
+### -param MiniportAdapterContext 
+[in]
 Specifies the handle to a miniport driver-allocated context area in which the miniport driver
      maintains state information about this instance of the adapter. The miniport driver provided this handle
      to NDIS by calling 
@@ -70,14 +70,14 @@ Specifies the handle to a miniport driver-allocated context area in which the mi
      MiniportInitializeEx</a> function.
 
 
-### -param NdisVcHandle [in]
-
+### -param NdisVcHandle 
+[in]
 Specifies a handle, supplied by NDIS, that uniquely identifies the VC being created. This handle
      is opaque to the miniport driver and reserved for NDIS library use.
 
 
-### -param MiniportVcContext [out]
-
+### -param MiniportVcContext 
+[out]
 Specifies, on output, a handle to a miniport driver-supplied context area in which the miniport
      driver maintains state about the VC.
 

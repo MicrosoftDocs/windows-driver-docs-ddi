@@ -56,8 +56,8 @@ The <b>RtlDowncaseUnicodeChar</b> routine converts the specified Unicode charact
 
 
 
-### -param SourceCharacter [in]
-
+### -param SourceCharacter 
+[in]
 Specifies the character to convert. 
 
 

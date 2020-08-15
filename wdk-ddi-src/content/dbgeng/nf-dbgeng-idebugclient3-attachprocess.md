@@ -59,18 +59,18 @@ The <b>AttachProcess</b> method connects the <a href="https://docs.microsoft.com
 
 
 
-### -param Server [in]
-
+### -param Server 
+[in]
 Specifies the process server to use to attach to the process.  If <i>Server</i> is zero, the engine will connect to a local process without using a process server.
 
 
-### -param ProcessId [in]
-
+### -param ProcessId 
+[in]
 Specifies the process ID of the target process the debugger will attach to.
 
 
-### -param AttachFlags [in]
-
+### -param AttachFlags 
+[in]
 Specifies the flags that control how the debugger attaches to the target process.  For details on these flags, see Remarks.
 
 

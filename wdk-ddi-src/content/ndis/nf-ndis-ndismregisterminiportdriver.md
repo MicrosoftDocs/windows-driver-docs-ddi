@@ -58,8 +58,8 @@ A miniport driver calls the
 
 
 
-### -param DriverObject [in]
-
+### -param DriverObject 
+[in]
 A pointer to an opaque driver object that the miniport driver received in its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine at the 
      <i>Argument1</i> parameter (see 
@@ -67,28 +67,28 @@ A pointer to an opaque driver object that the miniport driver received in its
      Miniport Drivers</a>).
 
 
-### -param RegistryPath [in]
-
+### -param RegistryPath 
+[in]
 A pointer to an opaque registry path that the miniport driver received in its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine at the 
      <i>Argument2</i> parameter.
 
 
-### -param MiniportDriverContext [in, optional]
-
+### -param MiniportDriverContext 
+[in, optional]
 A handle to a driver-allocated context area where the driver maintains state and configuration
      information.
 
 
-### -param MiniportDriverCharacteristics [in]
-
+### -param MiniportDriverCharacteristics 
+[in]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_driver_characteristics">
      NDIS_MINIPORT_DRIVER_CHARACTERISTICS</a> structure that the caller initialized.
 
 
-### -param NdisMiniportDriverHandle [out]
-
+### -param NdisMiniportDriverHandle 
+[out]
 A pointer to a caller-supplied handle variable. NDIS writes a handle to this variable that
      uniquely identifies this driver. The driver must save this handle for use in subsequent 
      <b>Ndis<i>Xxx</i></b> function calls.

@@ -55,8 +55,8 @@ Closes the device.
 
 
 
-### -param pResult [out, retval]
-
+### -param pResult 
+[out, retval]
 True if the operation succeeds; otherwise, false.
 
 

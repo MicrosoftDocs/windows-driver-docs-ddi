@@ -55,18 +55,18 @@ The<i> MRxExtractNetRootName</i> routine is called by <a href="https://docs.micr
 
 
 
-### -param FilePathName [in]
-
+### -param FilePathName 
+[in]
 A pointer to a Unicode string that contains a pathname. 
 
 
-### -param SrvCall [in]
-
+### -param SrvCall 
+[in]
 A pointer to the SRV_CALL structure. 
 
 
-### -param NetRootName [out]
-
+### -param NetRootName 
+[out]
 On input, a pointer for storing a Unicode string. On success, this parameter will contain a pointer to a Unicode string that contains a NET_ROOT structure name. 
 
 

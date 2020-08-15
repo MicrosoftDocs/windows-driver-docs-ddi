@@ -55,33 +55,33 @@ The <b>DxgkCbEvalAcpiMethod</b> function evaluates a specified ACPI method on a 
 
 
 
-### -param DeviceHandle [in]
-
+### -param DeviceHandle 
+[in]
 A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgkrnl_interface">DXGKRNL_INTERFACE</a> structure that was passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a>.
 
 
-### -param DeviceUid [in]
-
+### -param DeviceUid 
+[in]
 The unique identifier for the ACPI device on which the method will be evaluated. If the ACPI device is a child of the display adapter, this is the <b>ChildUid</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_child_descriptor">DXGK_CHILD_DESCRIPTOR</a> structure that the display miniport driver filled in during <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_query_child_relations">DxgkDdiQueryChildRelations</a>. If the ACPI device is the display adapter itself, this parameter must be set to DISPLAY_ADAPTER_HW_ID.
 
 
-### -param AcpiInputBuffer [in]
-
+### -param AcpiInputBuffer 
+[in]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/acpiioct/ns-acpiioct-_acpi_eval_input_buffer_complex_v1">ACPI_EVAL_INPUT_BUFFER_COMPLEX</a> structure (defined in <i>Acpiioct.h</i>) allocated and filled in by the display miniport driver. The structure contains the arguments that are required by the ACPI method. See the following Remarks section for more information.
 
 
-### -param AcpiInputSize [in]
-
+### -param AcpiInputSize 
+[in]
 The total size, in bytes, of the buffer pointed to by <i>AcpiInputBuffer</i>.
 
 
-### -param AcpiOutputBuffer [out]
-
+### -param AcpiOutputBuffer 
+[out]
 A pointer to an ACPI_EVAL_OUTPUT_BUFFER structure (defined in <i>Acpiioct.h</i>) that receives the return value of the ACPI method. This parameter can be <b>NULL</b>.
 
 
-### -param AcpiOutputSize [in]
-
+### -param AcpiOutputSize 
+[in]
 The total size, in bytes, of the buffer pointed to by <i>AcpiOutputBuffer</i>.
 
 

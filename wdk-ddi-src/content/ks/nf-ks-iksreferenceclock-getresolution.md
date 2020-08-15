@@ -55,8 +55,8 @@ The <b>IKsReferenceClock::GetResolution</b> method queries the associated refere
 
 
 
-### -param Resolution [out]
-
+### -param Resolution 
+[out]
 Specifies granularity and notification error of the clock in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksresolution">KSRESOLUTION</a> structure.
 
 

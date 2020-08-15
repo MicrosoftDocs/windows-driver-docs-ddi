@@ -55,13 +55,13 @@ The <code>RouterCreatePrintAsyncNotificationChannel</code> function creates an a
 
 
 
-### -param pName [in]
-
+### -param pName 
+[in]
 A pointer to a null-terminated string that specifies the name of the printer or print server.
 
 
-### -param pNotificationType [in]
-
+### -param pNotificationType 
+[in]
 A pointer to a GUID that represents the type of notifications sent through this channel.
 
 
@@ -70,13 +70,13 @@ A pointer to a GUID that represents the type of notifications sent through this 
 
 
 
-### -param eConversationStyle [in]
-
+### -param eConversationStyle 
+[in]
 The type of communication: unidirectional or bidirectional.
 
 
-### -param pCallback [in]
-
+### -param pCallback 
+[in]
 A pointer to the callback function that is called to deliver the response notifications, when bidirectional communication is in effect. This parameter is ignored when unidirectional communication is in effect.
 
 

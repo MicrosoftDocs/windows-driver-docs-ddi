@@ -57,8 +57,8 @@ A driver's <i>EvtDeviceSelfManagedIoSuspend</i> event callback function suspends
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object.
 
 

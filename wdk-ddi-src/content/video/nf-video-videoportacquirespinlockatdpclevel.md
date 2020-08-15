@@ -55,13 +55,13 @@ The <b>VideoPortAcquireSpinLockAtDpcLevel</b> function acquires a spin lock when
 
 
 
-### -param HwDeviceExtension [in, out]
-
+### -param HwDeviceExtension 
+[in, out]
 Pointer to the miniport driver's device extension.
 
 
-### -param SpinLock [in]
-
+### -param SpinLock 
+[in]
 Pointer to a memory location that contains the spin lock.
 
 

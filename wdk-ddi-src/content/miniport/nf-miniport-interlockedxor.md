@@ -55,13 +55,13 @@ The <b>InterlockedOr</b> routine atomically computes a bitwise exclusive OR oper
 
 
 
-### -param Destination [in, out]
-
+### -param Destination 
+[in, out]
 A pointer to the variable to be exclusive ORed with <i>Value</i>. The result of the operation is stored in the variable. 
 
 
-### -param Value [in]
-
+### -param Value 
+[in]
 Specifies the value to be exclusive ORed with the variable that is pointed to by <i>Destination</i>. 
 
 

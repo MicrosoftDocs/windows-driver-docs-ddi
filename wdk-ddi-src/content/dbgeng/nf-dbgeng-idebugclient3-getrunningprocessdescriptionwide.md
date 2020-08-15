@@ -57,18 +57,18 @@ The <b>GetRunningProcessDescriptionWide</b> method returns a description of the 
 
 
 
-### -param Server [in]
-
+### -param Server 
+[in]
 Specifies the process server to query for the process description.  If <i>Server</i> is zero, the engine will query information about the local process directly.
 
 
-### -param SystemId [in]
-
+### -param SystemId 
+[in]
 Specifies the process ID of the process whose description is desired.
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 Specifies a bit-set containing options that affect the behavior of this method.  <i>Flags</i> can contain the following bit flags:
 
 <table>
@@ -120,33 +120,33 @@ Do not retrieve the command line.
  
 
 
-### -param ExeName [out, optional]
-
+### -param ExeName 
+[out, optional]
 Receives the name of the executable file used to start the process.  If <i>ExeName</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param ExeNameSize [in]
-
+### -param ExeNameSize 
+[in]
 Specifies the size in characters of the buffer <i>ExeNameSize</i>.
 
 
-### -param ActualExeNameSize [out, optional]
-
+### -param ActualExeNameSize 
+[out, optional]
 Receives the size in characters of the executable file name.  If <i>ExeNameSize</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param Description [out, optional]
-
+### -param Description 
+[out, optional]
 Receives extra information about the process, including service names, MTS package names, and the command line.  If <i>Description</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param DescriptionSize [in]
-
+### -param DescriptionSize 
+[in]
 Specifies the size in characters of the buffer <i>Description</i>.
 
 
-### -param ActualDescriptionSize [out, optional]
-
+### -param ActualDescriptionSize 
+[out, optional]
 Receives the size in characters of the extra information.  If <i>ActualDescriptionSize</i> is <b>NULL</b>, this information is not returned.
 
 

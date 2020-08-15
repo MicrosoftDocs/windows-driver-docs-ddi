@@ -55,38 +55,38 @@ The <b>CcCopyReadEx</b> routine copies data from a cached file to a user buffer.
 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 A pointer to a file object for the cached file from which the data is to be read.
 
 
-### -param FileOffset [in]
-
+### -param FileOffset 
+[in]
 A pointer to a variable that specifies the starting byte offset within the cached file.
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 The length in bytes of the data to be read.
 
 
-### -param Wait [in]
-
+### -param Wait 
+[in]
 Set to <b>TRUE</b> if the caller can be put into a wait state until all the data has been copied, <b>FALSE</b> otherwise.
 
 
-### -param Buffer [out]
-
+### -param Buffer 
+[out]
 A pointer to a buffer into which the data is to be copied. 
 
 
-### -param IoStatus [out]
-
+### -param IoStatus 
+[out]
 A pointer to a caller-allocated structure that receives the final completion status and information about the operation. If not all of the data is copied successfully, <i>IoStatus.Information</i> contains the actual number of bytes that were copied.
 
 
-### -param IoIssuerThread [in]
-
+### -param IoIssuerThread 
+[in]
 The thread issuing the read request. For a file system with disk I/O accounting enabled, this is the thread the I/O is charged to. If <i>IoIssuerThread</i> is NULL, the I/O is charged to the current thread.
 
 

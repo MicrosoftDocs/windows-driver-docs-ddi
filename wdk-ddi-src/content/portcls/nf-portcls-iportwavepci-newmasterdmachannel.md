@@ -60,58 +60,58 @@ The <code>NewMasterDmaChannel</code> method creates a new instance of a bus-mast
 
 
 
-### -param OuterUnknown [in, optional]
-
+### -param OuterUnknown 
+[in, optional]
 Pointer to the <b>IUnknown</b> interface of an object that needs to aggregate the DMA-channel object. This parameter is optional. If aggregation is not required, specify this parameter as <b>NULL</b>.
 
 
-### -param PoolType [in]
-
+### -param PoolType 
+[in]
 Specifies the type of storage pool from which the object is to be allocated. This is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type">POOL_TYPE</a> enumeration value. Specify a nonpaged pool type for this parameter.
 
 
-### -param ResourceList [in, optional]
-
+### -param ResourceList 
+[in, optional]
 Pointer to the miniport driver's resource list, which is an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iresourcelist">IResourceList</a> object. This parameter is optional and can be specified as <b>NULL</b>. The <code>NewMasterDmaChannel</code> method currently makes no use of this parameter.
 
 
-### -param ScatterGather [in]
-
+### -param ScatterGather 
+[in]
 Requests that the DMA channel support scatter/gather DMA. Always set this parameter to <b>TRUE</b>.
 
 
-### -param Dma32BitAddresses [in]
-
+### -param Dma32BitAddresses 
+[in]
 Specifies the use of 32-bit addresses for DMA operations.
 
 
-### -param Dma64BitAddresses [in]
-
+### -param Dma64BitAddresses 
+[in]
 Specifies the use of 64-bit addresses for DMA operations.
 
 
-### -param IgnoreCount [in]
-
+### -param IgnoreCount 
+[in]
 Indicates whether to ignore the DMA controller's transfer counter. Set to <b>TRUE</b> if the DMA controller in this platform does not maintain an accurate transfer counter, and therefore requires a workaround.
 
 
-### -param DmaWidth [in]
-
+### -param DmaWidth 
+[in]
 Not used. Set to (DMA_WIDTH)(-1).
 
 
-### -param DmaSpeed [in]
-
+### -param DmaSpeed 
+[in]
 Not used. Set to (DMA_SPEED)(-1).
 
 
-### -param MaximumLength [in]
-
+### -param MaximumLength 
+[in]
 Maximum number of bytes in the buffer that will be associated with this DMA channel.
 
 
-### -param DmaPort [in]
-
+### -param DmaPort 
+[in]
 Not used. Set to 0.
 
 

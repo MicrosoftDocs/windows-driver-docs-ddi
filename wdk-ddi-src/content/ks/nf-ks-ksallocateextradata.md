@@ -56,18 +56,18 @@ The <b>KsAllocateExtraData</b> function is used with streaming IRPs to allocate 
 
 
 
-### -param Irp [in, out]
-
+### -param Irp 
+[in, out]
 Specifies the IRP containing the stream headers. The IRP must have been previously passed to <b>KsProbeStreamIrp</b> to buffer the headers.
 
 
-### -param ExtraSize [in]
-
+### -param ExtraSize 
+[in]
 Specifies the size, in bytes, of additional memory to allocate between each stream header. This value <i>must</i> be alignable on an eight-byte boundary. A copy of the headers is placed in the returned buffer, with the extra data size inserted between each header. This must be freed by the caller.
 
 
-### -param ExtraBuffer [out]
-
+### -param ExtraBuffer 
+[out]
 Points to a caller-allocated pointer that, on successful completion, points to a system-allocated buffer containing the stream headers and the requested padding between them. This must be freed by the caller.
 
 

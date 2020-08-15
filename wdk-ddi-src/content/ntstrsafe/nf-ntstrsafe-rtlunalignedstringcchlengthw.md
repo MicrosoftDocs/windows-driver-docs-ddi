@@ -56,18 +56,18 @@ The <b>RtlUnalignedStringCchLengthW</b> function is a version of the <a href="ht
 
 
 
-### -param psz [in]
-
+### -param psz 
+[in]
 Supplies a pointer to a buffer that contains a null-terminated string whose length <b>RtlUnalignedStringCchLengthW</b> will check. 
 
 
-### -param cchMax [in]
-
+### -param cchMax 
+[in]
 Supplies the maximum number of characters that are allowed in the buffer that <i>psz</i> points to, including the terminating NULL character. This value cannot exceed NTSTRSAFE_MAX_CCH. 
 
 
-### -param pcchLength [out, optional]
-
+### -param pcchLength 
+[out, optional]
 Optional. If the caller supplies a non-<b>NULL</b> address pointer, the function loads the address with the length, in characters, of the string that is contained in the buffer that <i>psz</i> points to. The length does not include the string's terminating NULL character.
 
 

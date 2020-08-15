@@ -58,23 +58,23 @@ The
 
 
 
-### -param engineHandle [in]
-
+### -param engineHandle 
+[in]
 Handle for an open session with the filter engine. This handle is obtained when a session is
      opened by calling 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmengineopen0">FwpmEngineOpen0</a>.
 
 
-### -param enumTemplate [in, optional]
-
+### -param enumTemplate 
+[in, optional]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_ale_endpoint_enum_template0_">
      FWPS_ALE_ENDPOINT_ENUM_TEMPLATE0</a> structure that contains parameters to narrow the endpoint
      enumeration results.
 
 
-### -param enumHandle [out]
-
+### -param enumHandle 
+[out]
 The newly created enumeration handle.
 
 

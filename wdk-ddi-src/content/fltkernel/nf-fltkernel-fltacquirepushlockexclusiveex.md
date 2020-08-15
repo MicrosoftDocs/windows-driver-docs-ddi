@@ -51,8 +51,8 @@ The **FltAcquirePushLockExclusiveEx** routine acquires the given push lock for e
 
 ### -param 
 
-### -param PushLock [in, out]
-
+### -param PushLock 
+[in, out]
 Opaque push lock pointer. This pointer must have been initialized by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinitializepushlock">FltInitializePushLock</a>. 
 
 

@@ -55,13 +55,13 @@ The <code>GetNewEmptyPart</code> method creates a new XPS part.
 
 
 
-### -param uri [in]
-
+### -param uri 
+[in]
 The URI for the new part to be created.
 
 
-### -param riid [in]
-
+### -param riid 
+[in]
 A reference identifier (REFIID) for one of the following interfaces: 
 
 <ul>
@@ -109,13 +109,13 @@ A reference identifier (REFIID) for one of the following interfaces:
 </li>
 </ul>
 
-### -param ppNewObject [out]
-
+### -param ppNewObject 
+[out]
 A pointer to the new object to be created.
 
 
-### -param ppWriteStream [out]
-
+### -param ppWriteStream 
+[out]
 A data stream object that the part will be written to. Each part is associated with a data stream object.
 
 

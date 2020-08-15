@@ -57,13 +57,13 @@ A bus driver's <i>EvtDeviceResourcesQuery</i> event callback function creates a 
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object.
 
 
-### -param Resources [in]
-
+### -param Resources 
+[in]
 A handle to a framework resource-list object that represents an empty resource list.
 
 

@@ -56,8 +56,8 @@ The<b> KsGetObjectTypeFromFileObject </b>function returns the AVStream object ty
 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">FILE_OBJECT</a> structure for which to determine the associated AVStream object type.
 
 

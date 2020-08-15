@@ -60,8 +60,8 @@ The <b>WdfInterruptQueueWorkItemForIsr</b> method queues a framework interrupt o
 
 
 
-### -param Interrupt [in]
-
+### -param Interrupt 
+[in]
 A handle to a framework interrupt object.
 
 

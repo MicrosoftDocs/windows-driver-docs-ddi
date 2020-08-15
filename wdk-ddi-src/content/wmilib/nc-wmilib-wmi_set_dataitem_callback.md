@@ -55,38 +55,38 @@ The <i>DpWmiSetDataItem</i> routine changes a single data item in an instance of
 
 
 
-### -param DeviceObject [in]
-
+### -param DeviceObject 
+[in]
 Pointer to the driver's WDM <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure.
 
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 Pointer to the IRP.
 
 
-### -param GuidIndex [in]
-
+### -param GuidIndex 
+[in]
 Specifies the data block by supplying a zero-based index into the list of GUIDs that the driver provided in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/ns-wmilib-_wmilib_context">WMILIB_CONTEXT</a> structure it passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/nf-wmilib-wmisystemcontrol">WmiSystemControl</a>. 
 
 
-### -param InstanceIndex [in]
-
+### -param InstanceIndex 
+[in]
 If the block specified by <i>GuidIndex</i> has multiple instances, <i>InstanceIndex</i> is a zero-based value that specifies the instance.
 
 
-### -param DataItemId [in]
-
+### -param DataItemId 
+[in]
 Specifies the ID of the data item to set.
 
 
-### -param BufferSize [in]
-
+### -param BufferSize 
+[in]
 Specifies the size in bytes of the buffer at <i>Buffer</i>.
 
 
-### -param Buffer [in]
-
+### -param Buffer 
+[in]
 Pointer to a buffer that contains the new value for the data item.
 
 

@@ -56,18 +56,18 @@ The  <b>USBD_ParseConfigurationDescriptor</b> routine has been deprecated. Use <
 
 
 
-### -param ConfigurationDescriptor [in]
-
+### -param ConfigurationDescriptor 
+[in]
 Pointer to a USB configuration descriptor that contains the interface for which to search.
 
 
-### -param InterfaceNumber [in]
-
+### -param InterfaceNumber 
+[in]
 Specifies the device-defined index of the interface to be retrieved. This should be set to -1 if it should not be a search criterion.
 
 
-### -param AlternateSetting [in]
-
+### -param AlternateSetting 
+[in]
 Specifies the device-defined alternate-setting index of the interface to be retrieved. If the caller does not wish the alternate setting value to be a search criterion, this parameter should be set to -1.
 
 

@@ -61,8 +61,8 @@ The <b>WdfDeviceGetDevicePowerPolicyState</b> method returns the current state o
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object.
 
 

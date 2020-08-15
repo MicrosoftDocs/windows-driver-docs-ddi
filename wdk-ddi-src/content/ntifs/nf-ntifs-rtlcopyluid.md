@@ -55,13 +55,13 @@ The <b>RtlCopyLuid</b> routine copies a locally unique identifier (LUID) to a bu
 
 
 
-### -param DestinationLuid [out]
-
+### -param DestinationLuid 
+[out]
 Pointer to a caller-allocated buffer to receive a copy of the source LUID structure. The buffer must be at least <b>sizeof(</b>LUID<b>)</b>.
 
 
-### -param SourceLuid [in]
-
+### -param SourceLuid 
+[in]
 Pointer to the source LUID structure to be copied. 
 
 

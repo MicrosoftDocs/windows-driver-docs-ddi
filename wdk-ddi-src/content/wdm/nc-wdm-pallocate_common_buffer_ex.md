@@ -55,33 +55,33 @@ The <b>AllocateCommonBufferEx</b> routine allocates memory for a common buffer a
 
 
 
-### -param DmaAdapter [in]
-
+### -param DmaAdapter 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_adapter">DMA_ADAPTER</a> structure. This structure is the adapter object that represents the driver's bus-master DMA device or system DMA channel. The caller obtained this pointer from a previous call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a> routine.
 
 
-### -param MaximumAddress [in, optional]
-
+### -param MaximumAddress 
+[in, optional]
 A pointer to a variable that contains the maximum logical address for the common buffer. This parameter indicates that the buffer should be allocated from memory below this address. This parameter is optional and can be specified as NULL to indicate that there is no maximum address.
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 The size, in bytes, of the common buffer that is to be allocated for the DMA operation.
 
 
-### -param LogicalAddress [out]
-
+### -param LogicalAddress 
+[out]
 A pointer to a variable into which this routine writes the logical address that the device can use to access the common buffer. The DMA device should use this logical address instead of the physical address that is returned by a routine such as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-mmgetphysicaladdress">MmGetPhysicalAddress</a>.
 
 
-### -param CacheEnabled [in]
-
+### -param CacheEnabled 
+[in]
 Whether the routine must enable or disable cached memory in the common buffer that is to be allocated. If TRUE, caching is enabled. If FALSE, it is disabled. If the hardware platform does not enforce cache coherency for DMA operations, then pass FALSE. For information about this parameter on ARM or ARM 64-based processors target computers, see Remarks.
 
 
-### -param PreferredNode [in]
-
+### -param PreferredNode 
+[in]
 The preferred NUMA node from which the memory is to be allocated. If N is the number of NUMA nodes in a multiprocessor system, <i>PreferredNode</i> is a number in the range 0 to N–1. For a one-processor system or a non-NUMA multiprocessor system, set <i>PreferredNode</i> to zero.
 
 

@@ -57,8 +57,8 @@ A driver's <b>OnWakeFromS0Triggered</b> event callback function informs the driv
 
 
 
-### -param pWdfDevice [in]
-
+### -param pWdfDevice 
+[in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice">IWDFDevice</a> interface of the device object that represents one of the driver's devices.
 
 

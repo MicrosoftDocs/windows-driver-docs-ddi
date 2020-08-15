@@ -55,8 +55,8 @@ Sets the loopback protection status of the audio engine node.
 
 
 
-### -param ProtectionOption [in]
-
+### -param ProtectionOption 
+[in]
 A CONSTRICTOR_OPTION enumeration  value that indicates status of the loopback protection option.
 
 

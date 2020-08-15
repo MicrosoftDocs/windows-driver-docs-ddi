@@ -55,8 +55,8 @@ The <b>SetOutputCallbacksWide</b> method registers an <a href="https://docs.micr
 
 
 
-### -param Callbacks [in]
-
+### -param Callbacks 
+[in]
 Specifies the interface pointer to the output callbacks object to register with this client.
 
 

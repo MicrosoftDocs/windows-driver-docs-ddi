@@ -71,16 +71,16 @@ NTSTATUS *PfnIddcxreportcriticalerror
 
 ## -parameters
 
-### -param DriverGlobals [in]
-
+### -param DriverGlobals 
+[in]
 Contains system-defined per-driver data.
 
-### -param AdapterObject [in, opt]
-
+### -param AdapterObject 
+[in, opt]
 The adapter object that is the critical error occurred on. If the error occurred before a IddCxAdapter was created, pass in nullptr for this value.
 
-### -param pInArgs [in]
-
+### -param pInArgs 
+[in]
 Input arguments to the function.
 
 ## -returns

@@ -55,8 +55,8 @@ The <b>wiasSetValidRangeFloat </b>function specifies the range of valid values f
 
 
 
-### -param pWiasContext [in]
-
+### -param pWiasContext 
+[in]
 Pointer to a WIA item context.
 
 

@@ -58,8 +58,8 @@ The <b>WdfPdoMarkMissing</b> method informs the framework that a device is no lo
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object that represents the device's physical device object (PDO).
 
 

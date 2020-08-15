@@ -56,38 +56,38 @@ The <b>USBD_ParseConfigurationDescriptorEx</b> routine searches a given configur
 
 
 
-### -param ConfigurationDescriptor [in]
-
+### -param ConfigurationDescriptor 
+[in]
 Pointer to a USB configuration descriptor that contains the interface for which to search.
 
 
-### -param StartPosition [in]
-
+### -param StartPosition 
+[in]
 Pointer to the address within the configuration descriptor, provided at <i>ConfigurationDescriptor</i>, to begin searching from. To search from the beginning of the configuration descriptor, the parameters <i>ConfigurationDescriptor</i> and <i>StartPosition</i> must be the same address.
 
 
-### -param InterfaceNumber [in]
-
+### -param InterfaceNumber 
+[in]
 Specifies the device-defined index of the interface to be retrieved. This should be set to -1 if it should not be a search criterion.
 
 
-### -param AlternateSetting [in]
-
+### -param AlternateSetting 
+[in]
 Specifies the device-defined alternate-setting index of the interface to be retrieved. If the caller does not wish the alternate setting value to be a search criterion, this parameter should be set to -1.
 
 
-### -param InterfaceClass [in]
-
+### -param InterfaceClass 
+[in]
 Specifies the device- or USB-defined identifier for the interface class of the interface to be retrieved. If the caller does not wish the interface class value to be a search criterion, this parameter should be set to -1.
 
 
-### -param InterfaceSubClass [in]
-
+### -param InterfaceSubClass 
+[in]
 Specifies the device- or USB-defined identifier for the interface subclass of the interface to be retrieved. If the caller does not wish the interface subclass value to be a search criterion, this parameter should be set to -1.
 
 
-### -param InterfaceProtocol [in]
-
+### -param InterfaceProtocol 
+[in]
 Specifies the device- or USB-defined identifier for the interface protocol of the interface to be retrieved. If the caller does not wish the interface protocol value to be a search criterion, this parameter should be set to -1.
 
 

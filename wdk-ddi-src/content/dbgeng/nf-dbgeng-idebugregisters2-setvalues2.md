@@ -55,8 +55,8 @@ The <b>SetValues2</b> method sets the value of several of the target's <a href="
 
 
 
-### -param Source [in]
-
+### -param Source 
+[in]
 Specifies the register source to query.
 
 The possible values are listed in the following table.
@@ -102,23 +102,23 @@ Fetch register information from the current scope's register context.
  
 
 
-### -param Count [in]
-
+### -param Count 
+[in]
 Specifies the number of registers for which to set the values.
 
 
-### -param Indices [in, optional]
-
+### -param Indices 
+[in, optional]
 Specifies an array that contains the indices of the registers for which to set the values.  The number of elements in this array is <i>Count</i>.  If <i>Indices</i> is <b>NULL</b>, <i>Start</i> is used instead.
 
 
-### -param Start [in]
-
+### -param Start 
+[in]
 If <i>Indices</i> is <b>NULL</b>, the registers will be set consecutively starting at this index.  Otherwise, it is ignored.
 
 
-### -param Values [in]
-
+### -param Values 
+[in]
 An array that contains the values to which to set the registers.  The number of elements that this array holds is <i>Count</i>.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_value">DEBUG_VALUE</a> for a description of this parameter type.
 
 

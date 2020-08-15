@@ -60,8 +60,8 @@ The <b>WdfIoTargetClose</b> method closes a specified remote I/O target.
 
 
 
-### -param IoTarget [in]
-
+### -param IoTarget 
+[in]
 A handle to an I/O target object that was obtained from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetcreate">WdfIoTargetCreate</a>.
 
 

@@ -55,33 +55,33 @@ The <code>AllocateAudioBufferWithNotification</code> method allocates a cyclic b
 
 
 
-### -param NotificationCount [in]
-
+### -param NotificationCount 
+[in]
 Specifies the number of notifications wanted per buffer cycle.  Valid values are 1 or 2, where 1 indicates a single notification at the end of the cyclic buffer and 2 indicates two notifications per buffer cycle, one at the mid-point of the buffer and one at the end.
 
 
-### -param RequestedSize [in]
-
+### -param RequestedSize 
+[in]
 Specifies the requested size, in bytes, of the audio buffer.
 
 
-### -param AudioBufferMdl [out]
-
+### -param AudioBufferMdl 
+[out]
 Output pointer for a memory descriptor list (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_mdl">MDL</a>) that describes the audio buffer. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the MDL.
 
 
-### -param ActualSize [out]
-
+### -param ActualSize 
+[out]
 Output pointer for the actual size, in bytes, of the allocated buffer. This parameter points to a ULONG variable into which the method writes the size value.
 
 
-### -param OffsetFromFirstPage [out]
-
+### -param OffsetFromFirstPage 
+[out]
 Output pointer for the offset (in bytes) of the buffer, from the start of the first page in the MDL. This parameter points to a caller-allocated ULONG variable into which the method writes the offset value.
 
 
-### -param CacheType [out]
-
+### -param CacheType 
+[out]
 Specifies the type of caching that the client requests for the audio buffer. This parameter is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_memory_caching_type">MEMORY_CACHING_TYPE</a> enumeration value
 
 

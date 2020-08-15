@@ -57,18 +57,18 @@ A driver's <i>EvtChildListAddressDescriptionDuplicate</i> event callback functio
 
 
 
-### -param ChildList [in]
-
+### -param ChildList 
+[in]
 A handle to a framework child-list object.
 
 
-### -param SourceAddressDescription [in]
-
+### -param SourceAddressDescription 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfchildlist/ns-wdfchildlist-_wdf_child_address_description_header">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a> structure that identifies the source location of the child address description.
 
 
-### -param DestinationAddressDescription [out]
-
+### -param DestinationAddressDescription 
+[out]
 A pointer to a WDF_CHILD_ADDRESS_DESCRIPTION_HEADER structure that identifies the destination location of the child address description.
 
 

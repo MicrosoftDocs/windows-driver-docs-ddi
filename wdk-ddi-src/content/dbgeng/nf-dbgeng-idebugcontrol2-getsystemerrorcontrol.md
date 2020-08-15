@@ -57,13 +57,13 @@ The <b>GetSystemErrorControl</b> method returns the control values for handling 
 
 
 
-### -param OutputLevel [out]
-
+### -param OutputLevel 
+[out]
 Receives the level at which system errors are printed to the engine's output.  If the level of the system error is less than or equal to <i>OutputLevel</i>, the error is printed to the debugger console.
 
 
-### -param BreakLevel [out]
-
+### -param BreakLevel 
+[out]
 Receives the level at which system errors break into the debugger.  If the level of the system error is less than or equal to <i>BreakLevel</i>, the error breaks into the debugger.
 
 

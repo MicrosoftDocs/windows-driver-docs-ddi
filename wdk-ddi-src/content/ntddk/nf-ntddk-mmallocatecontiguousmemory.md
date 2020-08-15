@@ -55,13 +55,13 @@ The <b>MmAllocateContiguousMemory</b> routine allocates a range of contiguous, n
 
 
 
-### -param NumberOfBytes [in]
-
+### -param NumberOfBytes 
+[in]
 The size, in bytes, of the block of contiguous memory to allocate. For more information, see Remarks.
 
 
-### -param HighestAcceptableAddress [in]
-
+### -param HighestAcceptableAddress 
+[in]
 The highest valid physical address the caller can use. For example, if a device can address only locations in the first 16 megabytes of the processor's physical memory address range, the driver for this device should set <i>HighestAcceptableAddress</i> to 0x0000000000FFFFFF.
 
 

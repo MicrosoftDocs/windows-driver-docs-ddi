@@ -55,8 +55,8 @@ req.typenames:
 
 
 
-### -param TraceType [in]
-
+### -param TraceType 
+[in]
 The value that determines which reference request type is tracked. This value can be one of the following macros defined in <i>fcb.h</i>:
 
 
@@ -98,13 +98,13 @@ A reference request on an FCB structure.
 A reference request on a SRV_OPEN structure.
 
 
-### -param FileName [in]
-
+### -param FileName 
+[in]
 The name of the source file where this routine was called.
 
 
-### -param Line [in]
-
+### -param Line 
+[in]
 The line number in the source file where this routine was called.
 
 

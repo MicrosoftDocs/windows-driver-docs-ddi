@@ -58,13 +58,13 @@ It is recommended to call this method while handling EvtDeviceAdd.
 
 
 
-### -param device [in]
-
+### -param device 
+[in]
 A handle to a framework device object that represents the device.
 
 
-### -param posCxAttrPtr [in]
-
+### -param posCxAttrPtr 
+[in]
 A pointer to a caller-allocated and initialized <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/poscx/ns-poscx-_pos_cx_attributes">POS_CX_ATTRIBUTES</a> structure. The structure should be initialized with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/poscx/nf-poscx-pos_cx_attributes_init">POS_CX_ATTRIBUTES_INIT</a>.
 
 

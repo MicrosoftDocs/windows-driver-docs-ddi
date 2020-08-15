@@ -66,8 +66,8 @@ The Internet Assigned Numbers Authority (IANA) interface type for an index. For 
      <i>IfType</i> that is assigned to any Ethernet-like interface. For a list of interface types, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-interface-types">NDIS Interface Types</a>.
 
-### -param pNetLuidIndex [out]
-
+### -param pNetLuidIndex 
+[out]
 A pointer to a caller-supplied 
      <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> index variable. If allocation is
      successful, 

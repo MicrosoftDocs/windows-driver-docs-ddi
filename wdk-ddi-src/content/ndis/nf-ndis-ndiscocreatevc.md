@@ -57,15 +57,15 @@ req.typenames:
 
 
 
-### -param NdisBindingHandle [in]
-
+### -param NdisBindingHandle 
+[in]
 Specifies the handle returned by 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> that identifies the
      target NIC or virtual adapter of the next-lower driver to which the caller is bound.
 
 
-### -param NdisAfHandle [in, optional]
-
+### -param NdisAfHandle 
+[in, optional]
 Specifies the handle returned by 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclopenaddressfamilyex">NdisClOpenAddressFamilyEx</a> if
      the caller is a client. A call manager sets this parameter to <b>NULL</b> if it is creating a VC for itself,
@@ -76,16 +76,16 @@ Specifies the handle returned by
      ProtocolCmRegisterSap</a> function.
 
 
-### -param ProtocolVcContext [in]
-
+### -param ProtocolVcContext 
+[in]
 Specifies the handle to a caller-supplied resident context area in which the caller maintains
      state for this VC. NDIS passes this handle back to the VC creator in all subsequent calls concerning
      this endpoint if the call to 
      <b>NdisCoCreateVc</b> succeeds.
 
 
-### -param NdisVcHandle [in, out]
-
+### -param NdisVcHandle 
+[in, out]
 Pointer to a caller-supplied variable that must be initialized to <b>NULL</b> when 
      <b>NdisCoCreateVc</b> is called. On return from a successful call, this points to a variable that NDIS
      has set to its handle for the newly created VC. The caller must save this handle for subsequent calls to

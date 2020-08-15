@@ -60,8 +60,8 @@ Notifies UFX when the client driver receives a setup packet from the host.
 <p>A handle to a UFX device object that the driver created by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate"><b>UfxDeviceCreate</b></a>.</p>
 
 
-### -param SetupInfo [in]
-
+### -param SetupInfo 
+[in]
 A pointer to a USB setup packet described in a <b>USB_DEFAULT_PIPE_SETUP_PACKET</b> structure (defined in Usbspec.h).
 
 

@@ -55,14 +55,14 @@ The <b>FIELD_OFFSET</b> macro returns the byte offset of a named field in a know
 
 
 
-### -param type [in]
-
+### -param type 
+[in]
 
 Specifies the name of a known structure type containing <i>Field</i>. 
 
 
-### -param field [in]
-
+### -param field 
+[in]
 Specifies the name of a field in a structure of type <i>Type</i>. 
 
 

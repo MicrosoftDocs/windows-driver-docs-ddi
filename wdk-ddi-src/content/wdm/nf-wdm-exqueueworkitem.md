@@ -55,13 +55,13 @@ req.typenames:
 
 
 
-### -param WorkItem [in, out]
-
+### -param WorkItem 
+[in, out]
 Pointer to the work item. This work item must have been initialized by a preceding call to <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mmcreatemdl">ExInitializeWorkItem</a>. 
 
 
-### -param QueueType [in]
-
+### -param QueueType 
+[in]
 Specifies the queue into which the work item pointed to by <i>WorkItem</i> is to be inserted. <i>QueueType</i> can be either of the following: 
 
 <table>

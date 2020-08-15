@@ -56,20 +56,20 @@ req.typenames:
 
 
 
-### -param Port [in]
-
+### -param Port 
+[in]
 Specifies the I/O port. This address falls in a range that was mapped during initialization with 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterioportrange">
      NdisMRegisterIoPortRange</a>.
 
 
-### -param Buffer [in]
-
+### -param Buffer 
+[in]
 Pointer to a caller-allocated resident buffer containing the USHORTs to be written.
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 Specifies the number of USHORTs to write to the I/O port.
 
 

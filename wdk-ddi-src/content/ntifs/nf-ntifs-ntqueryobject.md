@@ -56,28 +56,28 @@ The <b>NtQueryObject</b> routine provides information about a supplied object.
 
 
 
-### -param Handle [in, optional]
-
+### -param Handle 
+[in, optional]
 A handle to the object to obtain information about.
 
 
-### -param ObjectInformationClass [in]
-
+### -param ObjectInformationClass 
+[in]
 Specifies an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ne-ntifs-_object_information_class">OBJECT_INFORMATION_CLASS</a> value that determines the type of information returned in the <i>ObjectInformation</i> buffer.
 
 
-### -param ObjectInformation [out, optional]
-
+### -param ObjectInformation 
+[out, optional]
 A pointer to a caller-allocated buffer that receives the requested information.
 
 
-### -param ObjectInformationLength [in]
-
+### -param ObjectInformationLength 
+[in]
 Specifies the size, in bytes, of the <i>ObjectInformation</i> buffer.
 
 
-### -param ReturnLength [out, optional]
-
+### -param ReturnLength 
+[out, optional]
 A pointer to a variable that receives the size, in bytes, of the requested key information. If <b>NtQueryObject</b> returns STATUS_SUCCESS, the variable contains the amount of data returned. If <b>NtQueryObject</b> returns STATUS_BUFFER_OVERFLOW or STATUS_BUFFER_TOO_SMALL, you can use the value of the variable to determine the required buffer size.
 
 

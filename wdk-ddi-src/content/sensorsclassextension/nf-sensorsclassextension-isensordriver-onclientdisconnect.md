@@ -56,13 +56,13 @@ The <b>ISensorDriver::OnClientDisconnect</b> method notifies the sensor driver t
 
 
 
-### -param pClientFile [in]
-
+### -param pClientFile 
+[in]
 Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdffile">IWDFFile</a> interface that represents the file object for the client that disconnected.
 
 
-### -param pwszSensorID [in]
-
+### -param pwszSensorID 
+[in]
 <b>LPWSTR</b> that contains the ID for the sensor from which the client application is disconnecting.
 
 

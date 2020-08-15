@@ -58,18 +58,18 @@ The <b>AtaPortGetDeviceBase</b> routine returns a mapped logical base address th
 
 
 
-### -param ChannelExtension [in]
-
+### -param ChannelExtension 
+[in]
 A pointer to the channel extension.
 
 
-### -param IoAddress [in]
-
+### -param IoAddress 
+[in]
 Specifies the base address to map.
 
 
-### -param NumberOfBytes [in]
-
+### -param NumberOfBytes 
+[in]
 Specifies the size, in bytes, of the range that the mappings should cover. The value for this parameter can be obtained from the <b>IdeAccessRange</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/ns-irb-_ide_miniport_resources">IDE_MINIPORT_RESOURCES</a> structure.
 
 

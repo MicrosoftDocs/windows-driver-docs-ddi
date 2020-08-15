@@ -56,8 +56,8 @@ req.typenames:
 
 
 
-### -param SidType [in]
-
+### -param SidType 
+[in]
 An enumerated type that indicates the type of security identifier (SID) the function returns. This parameter can be one of the following enumerations for WELL_KNOWN_SID_TYPE:
 
 
@@ -435,15 +435,15 @@ This value indicates a SID is present in a server that can issue Terminal Server
 This value indicates a SID that matches the DCOM users group.
 
 
-### -param Sid [out]
-
+### -param Sid 
+[out]
 
       A pointer to a buffer that receives the SID structure that corresponds to the <i>SidType</i> parameter. If this parameter is <b>NULL</b>, <i>SidBufferSize</i> must be zero. 
      
 
 
-### -param SidBufferSize [in]
-
+### -param SidBufferSize 
+[in]
 A variable that specifies the size of the <i>Sid</i> buffer in bytes.
 
 

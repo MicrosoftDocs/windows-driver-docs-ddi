@@ -60,23 +60,23 @@ The <b>WdfRequestRetrieveOutputBuffer</b> method retrieves an I/O request's outp
 
 
 
-### -param Request [in]
-
+### -param Request 
+[in]
 A handle to a framework request object. 
 
 
-### -param MinimumRequiredSize [in]
-
+### -param MinimumRequiredSize 
+[in]
 The minimum buffer size, in bytes, that the driver needs to process the I/O request.
 
 
-### -param Buffer [out]
-
+### -param Buffer 
+[out]
 A pointer to a location that receives the buffer's address.
 
 
-### -param Length [out, optional]
-
+### -param Length 
+[out, optional]
 A pointer to a location that receives the buffer's size, in bytes. This parameter is optional and can be <b>NULL</b>.
 
 

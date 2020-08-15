@@ -57,13 +57,13 @@ The <b>VideoPortReleaseBuffer</b> function is <b>obsolete</b> in Windows 2000 an
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 Pointer to the miniport driver's device extension.
 
 
-### -param Buffer [in]
-
+### -param Buffer 
+[in]
 Specifies the address of the block of pool memory being deallocated.
 
 

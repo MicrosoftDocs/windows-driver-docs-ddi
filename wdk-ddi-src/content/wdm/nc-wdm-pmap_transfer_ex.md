@@ -55,58 +55,58 @@ The <b>MapTransferEx</b> routine sets up map registers to map the physical addre
 
 
 
-### -param DmaAdapter [in]
-
+### -param DmaAdapter 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_adapter">DMA_ADAPTER</a> structure. This structure is the adapter object that represents the driver's bus-master DMA device or system DMA channel. The caller obtained this pointer from a previous call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a> routine.
 
 
-### -param Mdl [in]
-
+### -param Mdl 
+[in]
 A pointer to an MDL chain that describes the physical page layout for a collection of locked-down buffers in virtual memory. The scatter/gather list for the DMA transfer will use the region of this memory that is specified by the <i>Offset</i> and <i>Length</i> parameters. For more information about MDL chains, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-mdls">Using MDLs</a>.
 
 
-### -param MapRegisterBase [in]
-
+### -param MapRegisterBase 
+[in]
 A handle to the map registers that are allocated for the adapter object. The caller previously obtained this handle from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pallocate_adapter_channel_ex">AllocateAdapterChannelEx</a> routine.
 
 
-### -param Offset [in]
-
+### -param Offset 
+[in]
 A byte offset from the start of the memory that is described by the MDL chain. This offset specifies the start of the I/O data buffer that is used for the DMA transfer. If a scatter/gather list is supplied to the caller, this offset determines the starting address of the first buffer fragment in the list. If the MDLs in the MDL chain describe a total of N bytes of memory, valid values of <i>Offset</i> are in the range 0 to N–1. For more information, see Remarks.
 
 
-### -param DeviceOffset [in]
-
+### -param DeviceOffset 
+[in]
 The byte offset of the target device's data register or FIFO from the device's base address.  This parameter applies to devices that have multiple FIFOs that can be accessed by a system DMA controller. This parameter is used only for system DMA transfers. For bus-master transfers, set this parameter to zero.
 
 
-### -param Length [in, out]
-
+### -param Length 
+[in, out]
 A pointer to a variable that contains the length, in bytes, of the I/O data buffer that is used for the DMA transfer. On entry, this variable contains the length requested by the calling driver. Before returning, the routine writes the actual length of the mapped buffer to this variable. The value of *<i>Length</i> on return from <b>MapTransferEx</b> indicates how many bytes were mapped. If the number of map registers and the scatter/gather buffer size are sufficient to map the entire length requested by the caller, the input and output values of *<i>Length</i> are identical. If the MDLs in the MDL chain describe a total of N bytes of memory, valid values of *<i>Length</i> are in the range 0 to N–<i>Offset</i>.
 
 
-### -param WriteToDevice [in]
-
+### -param WriteToDevice 
+[in]
 The direction of the DMA transfer. Set this parameter to <b>TRUE</b> for a write operation, which transfers data to the device from memory. Set this parameter to <b>FALSE</b> for a read operation, which transfers data from the device to memory.
 
 
-### -param ScatterGatherBuffer [out, optional]
-
+### -param ScatterGatherBuffer 
+[out, optional]
 A pointer to a caller-allocated buffer into which the routine writes the scatter/gather list for the DMA transfer. This list begins with a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_scatter_gather_list">SCATTER_GATHER_LIST</a> structure, which is immediately followed by a <b>SCATTER_GATHER_ELEMENT</b> array. For a driver that uses a bus-master DMA device, <i>ScatterGatherBuffer</i> is a required parameter. For a driver that uses a system DMA controller, the <i>ScatterGatherBuffer</i> parameter is optional and can be <b>NULL</b>. For more information, see Remarks.
 
 
-### -param ScatterGatherBufferLength [in]
-
+### -param ScatterGatherBufferLength 
+[in]
 The size, in bytes, of the buffer that the <i>ScatterGatherBuffer</i> parameter points to. The allocated buffer size must be large enough to contain the scatter/gather list, plus internal data that the operating system stores in this buffer. To determine the required buffer size, call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pget_dma_transfer_info">GetDmaTransferInfo</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pcalculate_scatter_gather_list_size">CalculateScatterGatherList</a> routine. If <i>ScatterGatherBuffer</i> is <b>NULL</b>, set <i>ScatterGatherBufferLength</i> to zero.
 
 
-### -param DmaCompletionRoutine [in, optional]
-
+### -param DmaCompletionRoutine 
+[in, optional]
 A pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-dma_completion_routine">DmaCompletionRoutine</a> routine to be called when the DMA transfer completes. This routine is called if the target device uses a system DMA controller that generates a DMA-completion interrupt. The <i>DmaCompletionRoutine</i> routine is called at DISPATCH_LEVEL after the DMA transfer completes. For a system DMA adapter, this parameter is optional and can be <b>NULL</b>. For a bus-master adapter, set this parameter to <b>NULL</b>.
 
 
-### -param CompletionContext [in, optional]
-
+### -param CompletionContext 
+[in, optional]
 The driver-determined context for the <i>DmaCompletionRoutine</i> routine. This context is supplied as the  <i>CompletionContext</i> parameter to the <i>DmaCompletionRoutine</i> routine. If the <i>DmaCompletionRoutine</i> parameter is <b>NULL</b>, set <i>CompletionContext</i> to <b>NULL</b>.
 
 

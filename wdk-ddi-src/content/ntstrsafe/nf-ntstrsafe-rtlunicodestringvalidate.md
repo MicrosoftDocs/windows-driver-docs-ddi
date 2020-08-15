@@ -56,8 +56,8 @@ The <b>RtlUnicodeStringValidate</b> function validates the contents of a <a href
 
 
 
-### -param SourceString [in]
-
+### -param SourceString 
+[in]
 A pointer to a <b>UNICODE_STRING</b> structure to be validated. 
 
 

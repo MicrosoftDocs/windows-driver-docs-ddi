@@ -72,8 +72,8 @@ DWORD APIENTRY Dot11ExtIhvSendPacketCompletion(
 
 
 
-### -param hSendCompletion [in, optional]
-
+### -param hSendCompletion 
+[in, optional]
 The handle value that the IHV Extensions DLL used to identify the packet when it called the
      <a href="..\wlanihv\nc-wlanihv-dot11ext_send_packet.md">Dot11ExtSendPacket</a> function.
 

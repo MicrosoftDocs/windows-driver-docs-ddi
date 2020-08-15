@@ -55,23 +55,23 @@ The <b>IoEnumerateDeviceObjectList</b> routine enumerates a driver's device obje
 
 
 
-### -param DriverObject [in]
-
+### -param DriverObject 
+[in]
 A pointer to the driver object for the driver. 
 
 
-### -param DeviceObjectList [out]
-
+### -param DeviceObjectList 
+[out]
 A pointer to a caller-allocated array that receives the device object pointers. This parameter can be <b>NULL</b>. 
 
 
-### -param DeviceObjectListSize [in]
-
+### -param DeviceObjectListSize 
+[in]
 Size, in bytes, of the <i>DeviceObjectList</i> array. Can be zero. 
 
 
-### -param ActualNumberDeviceObjects [out]
-
+### -param ActualNumberDeviceObjects 
+[out]
 Actual number of device objects found in the driver object's device object list. Note that if the array at <i>DeviceObjectList</i> is too small, the number of device object pointers that are copied into the array will be less than <i>ActualNumberDeviceObjects</i>. 
 
 

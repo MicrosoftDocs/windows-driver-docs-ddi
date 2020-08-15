@@ -67,8 +67,8 @@ A handle to the display device (graphics context).
 
 An array of handles to the render target view objects to set. Note that some handle values can be <b>NULL</b>. 
 
-### -param NumRTVs [in]
-
+### -param NumRTVs 
+[in]
 The number of elements in the array that <i>phRenderTargetView</i> specifies for the render target views (RTVs) to set. 
 
 
@@ -103,8 +103,8 @@ Indicates the start element, in the array of bind points, where the passed unord
 <div class="alert"><b>Note</b>  Only one shared set of binding points exists for render target views (RTVs) and UAVs. RTVs are bound first, followed by UAVs.</div>
 <div> </div>
 
-### -param NumUAVs [in]
-
+### -param NumUAVs 
+[in]
 The number of unordered access view objects (UAVs) to set. 
 
 

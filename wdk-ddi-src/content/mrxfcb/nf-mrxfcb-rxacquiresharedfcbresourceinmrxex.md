@@ -55,8 +55,8 @@ req.typenames:
 
 
 
-### -param pRxContext [in]
-
+### -param pRxContext 
+[in]
 A pointer to the RX_CONTEXT. This parameter supplies the context of the operation for special treatment by internal RDBSS tracking if this feature is enabled. 
 
 

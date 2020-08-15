@@ -55,18 +55,18 @@ The <b>FltSetTransactionContext</b> routine sets a context on a transaction.
 
 
 
-### -param Instance [in]
-
+### -param Instance 
+[in]
 Opaque instance pointer for the caller. 
 
 
-### -param Transaction [in]
-
+### -param Transaction 
+[in]
 Opaque transaction pointer for the transaction on which the context is being set. 
 
 
-### -param Operation [in]
-
+### -param Operation 
+[in]
 Flag that specifies the details of the operation to be performed. This parameter must be one of the following: 
 
 <table>
@@ -98,13 +98,13 @@ If a context is already set for the transaction pointed to by the <i>Transaction
  
 
 
-### -param NewContext [in]
-
+### -param NewContext 
+[in]
 Pointer to the new context to be set for the instance. The context must have been allocated by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecontext">FltAllocateContext</a>. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param OldContext [out, optional]
-
+### -param OldContext 
+[out, optional]
 Pointer to a caller-allocated variable that receives the address of the existing transaction context, if one is already set. This parameter is optional and can be <b>NULL</b>. (For more information about this parameter, see the following Remarks section.) 
 
 

@@ -55,8 +55,8 @@ The <b>SessionStatus</b> callback method is called by the engine when a change o
 
 
 
-### -param Status [in]
-
+### -param Status 
+[in]
 Specifies the new status of the debugger session.  The following table describes the possible values.
 
 <table>

@@ -55,13 +55,13 @@ Is called when asynchronous PrintSchema operation that is represented by an <a h
 
 
 
-### -param pTicket [in]
-
+### -param pTicket 
+[in]
 The print ticket.
 
 
-### -param hrOperation [in]
-
+### -param hrOperation 
+[in]
 The result of the completed operation.
 
 

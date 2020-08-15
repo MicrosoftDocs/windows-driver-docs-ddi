@@ -64,18 +64,18 @@ The <i>BeginThreadStackReconstruction</i> callback function causes debugger to p
 
 
 
-### -param StreamType [in]
-
+### -param StreamType 
+[in]
 A stream type.
 
 
-### -param MiniDumpStreamBuffer [in]
-
+### -param MiniDumpStreamBuffer 
+[in]
 A mini-dump stream buffer.
 
 
-### -param BufferSize [in]
-
+### -param BufferSize 
+[in]
 The size of the buffer.
 
 

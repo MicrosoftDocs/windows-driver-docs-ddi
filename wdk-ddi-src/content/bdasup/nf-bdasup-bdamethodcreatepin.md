@@ -61,13 +61,13 @@ The <b>BdaMethodCreatePin</b> function creates a pin factory.
 
 
 
-### -param pKSMethod [in]
-
+### -param pKSMethod 
+[in]
 Points to a <a href="https://docs.microsoft.com/previous-versions/ff563398(v=vs.85)">KSMETHOD</a> structure that describes the method and request type of a method request.
 
 
-### -param pulPinFactoryID [out, optional]
-
+### -param pulPinFactoryID 
+[out, optional]
 Points to a variable that receives the identifier of the pin factory. 
 
 

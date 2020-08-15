@@ -55,23 +55,23 @@ The <b>GetSourcePathElementWide</b>  method returns an element from the source p
 
 
 
-### -param Index [in]
-
+### -param Index 
+[in]
 Specifies the index of the element in the source path that will be returned.  The source path is a string that contains elements separated by semicolons (;).  The index of the first element is zero.
 
 
-### -param Buffer [out, optional]
-
+### -param Buffer 
+[out, optional]
 Receives the source path element.  Each source path element can be a directory or a source server.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param BufferSize [in]
-
+### -param BufferSize 
+[in]
 Specifies the size, in characters, of the <i>Buffer</i> buffer.
 
 
-### -param ElementSize [out, optional]
-
+### -param ElementSize 
+[out, optional]
 Receives the size, in characters, of the source path element.
 
 

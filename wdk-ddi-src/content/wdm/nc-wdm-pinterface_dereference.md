@@ -55,8 +55,8 @@ The <i>InterfaceDereference</i> routine decrements the reference count on a driv
 
 
 
-### -param Context [in]
-
+### -param Context 
+[in]
 A pointer to interface-specific context information. The caller passes the value that is passed as the <b>Context</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_interface">INTERFACE</a> structure for the interface.
 
 Note that the <i>InterfaceDereference</i> routine is a per interface contract, so there are no general IRQL requirements for calling it.

@@ -56,23 +56,23 @@ The <b>ZwGetNotificationResourceManager</b> routine retrieves the next <a href="
 
 
 
-### -param ResourceManagerHandle [in]
-
+### -param ResourceManagerHandle 
+[in]
 A handle to a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/resource-manager-objects">resource manager object</a> that was obtained by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntcreateresourcemanager">ZwCreateResourceManager</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntopenresourcemanager">ZwOpenResourceManager</a>. The handle must have RESOURCEMANAGER_GET_NOTIFICATION access to the object.
 
 
-### -param TransactionNotification [out]
-
+### -param TransactionNotification 
+[out]
 A pointer to a caller-allocated buffer that receives information about the retrieved notification. The buffer must be large enough to contain a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff564813(v=vs.85)">TRANSACTION_NOTIFICATION</a> structure plus additional notification-specific arguments.
 
 
-### -param NotificationLength [in]
-
+### -param NotificationLength 
+[in]
 The length, in bytes, of the buffer that the <i>TransactionNotification </i>parameter points to. 
 
 
-### -param Timeout [in]
-
+### -param Timeout 
+[in]
 A pointer to a value that specifies a relative or absolute time, in units of 100 nanoseconds. This pointer is optional and can be <b>NULL</b>.
 
 If the pointer is <b>NULL</b>, <b>ZwGetNotificationResourceManager</b> does not return until a transaction notification is available. If a time value is specified, <b>ZwGetNotificationResourceManager</b> returns when a notification is available or after the specified time elapses, whichever comes first.
@@ -84,18 +84,18 @@ A positive value specifies an absolute time, which is actually relative to 00:00
 If the caller specifies a zero value (instead of a <b>NULL</b> pointer), <b>ZwGetNotificationResourceManager</b> returns immediately, whether a notification is available or not.
 
 
-### -param ReturnLength [out, optional]
-
+### -param ReturnLength 
+[out, optional]
 An optional pointer to a variable. If this pointer is not <b>NULL</b>, and if the <i>NotificationLength</i> parameter's value is too small, <b>ZwGetNotificationResourceManager</b> supplies the required length in the variable and returns STATUS_BUFFER_TOO_SMALL.
 
 
-### -param Asynchronous [in]
-
+### -param Asynchronous 
+[in]
 A ULONG value that must be zero. <b>ZwGetNotificationResourceManager</b> does not support asynchronous notifications. Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-tmenablecallbacks">TmEnableCallbacks</a> to enable asynchronous notifications. 
 
 
-### -param AsynchronousContext [in, optional]
-
+### -param AsynchronousContext 
+[in, optional]
 A pointer to a ULONG value. This pointer must be <b>NULL</b>.
 
 

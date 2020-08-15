@@ -60,18 +60,18 @@ The <b>WdfWorkItemCreate</b> method creates a framework work-item object, which 
 
 
 
-### -param Config [in]
-
+### -param Config 
+[in]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfworkitem/ns-wdfworkitem-_wdf_workitem_config">WDF_WORKITEM_CONFIG</a> structure that the driver must have already initialized by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfworkitem/nf-wdfworkitem-wdf_workitem_config_init">WDF_WORKITEM_CONFIG_INIT</a>.
 
 
-### -param Attributes [in]
-
+### -param Attributes 
+[in]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that specifies attributes for the work-item object. 
 
 
-### -param WorkItem [out]
-
+### -param WorkItem 
+[out]
 A pointer to a variable that receives a handle to the new work-item object.
 
 

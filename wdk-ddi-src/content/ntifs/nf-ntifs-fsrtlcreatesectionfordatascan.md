@@ -55,28 +55,28 @@ The <b>FsRtlCreateSectionForDataScan</b> routine creates a section object. Use t
 
 
 
-### -param SectionHandle [out]
-
+### -param SectionHandle 
+[out]
 Pointer to a caller-allocated variable that receives an opaque handle to the section object. 
 
 
-### -param SectionObject [out]
-
+### -param SectionObject 
+[out]
 Pointer to a caller-allocated variable that receives an opaque pointer to the section object.
 
 
-### -param SectionFileSize [out, optional]
-
+### -param SectionFileSize 
+[out, optional]
 Pointer to a caller-allocated variable that receives the size, in bytes, of the file at the time the section object was created. This parameter is optional and can be <b>NULL</b>.
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 File object for an open file.  The section object will be backed by the specified file. This parameter is required and cannot be <b>NULL</b>.
 
 
-### -param DesiredAccess [in]
-
+### -param DesiredAccess 
+[in]
 Specifies the desired access for the section object as one or more of the following <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> flags. 
 
 <table>
@@ -128,18 +128,18 @@ All actions defined by the previous flags as well as that defined by STANDARD_RI
  
 
 
-### -param ObjectAttributes [in, optional]
-
+### -param ObjectAttributes 
+[in, optional]
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that specifies the object name and other attributes. Use the <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> macro to initialize this structure. Because <b>FsRtlCreateSectionForDataScan</b> inserts this object into the process handle table, the caller must specify the OBJ_KERNEL_HANDLE attribute when it calls <b>InitializeObjectAttributes</b>.
 
 
-### -param MaximumSize [in, optional]
-
+### -param MaximumSize 
+[in, optional]
 This parameter is reserved for future use.
 
 
-### -param SectionPageProtection [in]
-
+### -param SectionPageProtection 
+[in]
 Specifies the protection to place on each page in the section. Specify one of the following values. This parameter is required and cannot be zero. 
 
 <table>
@@ -171,8 +171,8 @@ Enables both read and write access to the committed region of pages.
  
 
 
-### -param AllocationAttributes [in]
-
+### -param AllocationAttributes 
+[in]
 Bitmasks of the SEC_<i>XXX</i> flags determine the allocation attributes of the section. Specify one or more of the following values. This parameter is required and cannot be zero. 
 
 <table>
@@ -204,8 +204,8 @@ The file specified by the <i>FileObject</i> parameter is a mapped file.
  
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 This parameter is reserved for future use.
 
 

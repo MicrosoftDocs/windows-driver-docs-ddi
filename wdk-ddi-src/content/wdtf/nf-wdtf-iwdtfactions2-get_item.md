@@ -56,13 +56,13 @@ Gets an individual action in the collection.
 
 
 
-### -param Index [in]
-
+### -param Index 
+[in]
 The 0-based index value.
 
 
-### -param ppAction [out]
-
+### -param ppAction 
+[out]
 The indexed action.
 
 

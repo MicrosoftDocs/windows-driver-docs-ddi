@@ -55,18 +55,18 @@ The <i>Dump_Read</i> callback routine is called after the read from the dump por
 
 
 
-### -param FilterExtension [in]
-
+### -param FilterExtension 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddump/ns-ntdddump-_filter_extension">FILTER_EXTENSION</a> structure.
 
 
-### -param DiskByteOffset [in]
-
+### -param DiskByteOffset 
+[in]
 The value, in bytes, relative to the source partition for the crash dump or hibernation. Filter drivers should not modify this field.
 
 
-### -param Mdl [in]
-
+### -param Mdl 
+[in]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_mdl">MDL</a> structure that describes the data buffer containing the dump data. Filter drivers should not modify this field.
 
 

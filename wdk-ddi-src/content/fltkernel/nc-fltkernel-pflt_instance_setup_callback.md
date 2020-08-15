@@ -49,12 +49,12 @@ A minifilter driver can register a routine of type PFLT_INSTANCE_SETUP_CALLBACK 
 
 ## -parameters
 
-### -param FltObjects [in]
-
+### -param FltObjects 
+[in]
 Pointer to an [FLT_RELATED_OBJECTS](ns-fltkernel-_flt_related_objects.md) structure that contains opaque pointers for the objects related to the current operation.
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 Bitmask of flags that indicate why the instance is being attached. Can be one or more of the following:
 
 | Flag | Meaning |
@@ -64,16 +64,16 @@ Bitmask of flags that indicate why the instance is being attached. Can be one or
 | FLTFL_INSTANCE_SETUP_NEWLY_MOUNTED_VOLUME | The instance is being attached automatically to a newly mounted volume. |
 | FLTFL_INSTANCE_SETUP_DETACHED_VOLUME | The instance is being attached to a detached volume. It is possible, on some file systems (such as FAT and CDFS, which are used by some removable media drives), to reattach a volume after it has detached. A volume is detached if it has no associated storage stack. A volume in this state is usually a dismounted volume that still has open files. |
 
-### -param VolumeDeviceType [in]
-
+### -param VolumeDeviceType 
+[in]
 Device type of the file system volume. Must be one of the following:
 
 * FILE_DEVICE_CD_ROM_FILE_SYSTEM
 * FILE_DEVICE_DISK_FILE_SYSTEM
 * FILE_DEVICE_NETWORK_FILE_SYSTEM
 
-### -param VolumeFilesystemType [in]
-
+### -param VolumeFilesystemType 
+[in]
 File system type of the volume. The possible values are listed in [FLT_FILESYSTEM_TYPE](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltuserstructures/ne-fltuserstructures-_flt_filesystem_type).
 
 ## -returns

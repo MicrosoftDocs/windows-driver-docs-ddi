@@ -54,8 +54,8 @@ req.typenames:
 
 
 
-### -param pPSUIInfo [in]
-
+### -param pPSUIInfo 
+[in]
 
 ### -param lParam
 

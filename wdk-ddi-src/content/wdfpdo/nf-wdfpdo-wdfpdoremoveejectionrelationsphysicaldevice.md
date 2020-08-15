@@ -58,13 +58,13 @@ The <b>WdfPdoRemoveEjectionRelationsPhysicalDevice</b> method removes a specifie
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object.
 
 
-### -param PhysicalDevice [in]
-
+### -param PhysicalDevice 
+[in]
 A pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure that represents a physical device object (PDO).
 
 

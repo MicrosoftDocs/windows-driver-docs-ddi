@@ -55,28 +55,28 @@ The <b>FltInitExtraCreateParameterLookasideList </b>routine initializes a paged 
 
 
 
-### -param Filter [in]
-
+### -param Filter 
+[in]
 Opaque filter pointer to the minifilter driver. This pointer uniquely identifies the minifilter driver and remains constant as long as the minifilter driver is loaded.
 
 
-### -param Lookaside [in, out]
-
+### -param Lookaside 
+[in, out]
 Pointer to an opaque <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">PAGED_LOOKASIDE_LIST</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">NPAGED_LOOKASIDE_LIST</a> lookaside list-head structure.  For a paged or non-paged lookaside list, the list-head structure must be allocated from non-paged pool.
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 Defines pool allocation options.  If the <i>Flags</i> parameter contains the FSRTL_ECP_LOOKASIDE_FLAG_NONPAGED_POOL bit flag value, the routine initializes a lookaside list for non-paged ECP entries of the specified size.  Otherwise, the routine initializes a lookaside list for paged ECP entries of the specified size.
 
 
-### -param Size [in]
-
+### -param Size 
+[in]
 Specifies the size, in bytes, for all ECP entries in the lookaside list.
 
 
-### -param Tag [in]
-
+### -param Tag 
+[in]
 Specifies the pool tag to use when allocating lookaside list ECP entries. For more information about pool tags, see the <i>Tag</i> parameter of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag">ExAllocatePoolWithTag</a>.
 
 

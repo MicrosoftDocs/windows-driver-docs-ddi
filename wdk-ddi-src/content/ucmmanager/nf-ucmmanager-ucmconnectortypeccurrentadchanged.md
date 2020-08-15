@@ -56,13 +56,13 @@ Notifies the USB connector manager framework extension (UcmCx) when the specifie
 
 
 
-### -param Connector [in]
-
+### -param Connector 
+[in]
 Handle to the connector object that the client driver received in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucmconnectorcreate">UcmConnectorCreate</a>.
 
 
-### -param CurrentAdvertisement [in]
-
+### -param CurrentAdvertisement 
+[in]
 The new current advertisement of the connector indicated by one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmtypes/ne-ucmtypes-_ucm_typec_current">UCM_TYPEC_CURRENT</a>-typed flags.
 
 

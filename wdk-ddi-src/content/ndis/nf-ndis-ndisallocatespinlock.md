@@ -58,8 +58,8 @@ The
 
 
 
-### -param SpinLock [out]
-
+### -param SpinLock 
+[out]
 Pointer to an opaque variable that represents a spin lock.
 
 

@@ -59,23 +59,23 @@ The <b>GetRunningProcessSystemIds</b> method returns the process IDs for each ru
 
 
 
-### -param Server [in]
-
+### -param Server 
+[in]
 Specifies the process server to query for process IDs.  If <i>Server</i> is zero, the engine will return the process IDs of the processes running on the local computer.
 
 
-### -param Ids [out, optional]
-
+### -param Ids 
+[out, optional]
 Receives the process IDs.  The size of this array is <i>Count</i>.  If <i>Ids</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param Count [in]
-
+### -param Count 
+[in]
 Specifies the number of process IDs the array <i>Ids</i> can hold.
 
 
-### -param ActualCount [out, optional]
-
+### -param ActualCount 
+[out, optional]
 Receives the actual number of process IDs returned in <i>Ids</i>.
 
 

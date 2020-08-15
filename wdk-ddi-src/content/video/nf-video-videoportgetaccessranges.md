@@ -77,8 +77,8 @@ Specifies the number of elements in the <i>RequestedResources</i> array.
 Specifies the number of elements in the <i>AccessRanges</i> array.
 
 
-### -param AccessRanges [out]
-
+### -param AccessRanges 
+[out]
 Pointer to an area on the stack or to a static structure in the miniport driver to which <b>VideoPortGetAccessRanges</b> returns an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_access_range">VIDEO_ACCESS_RANGE</a> elements filled with the bus-relative device memory ranges for the adapter.
 
 

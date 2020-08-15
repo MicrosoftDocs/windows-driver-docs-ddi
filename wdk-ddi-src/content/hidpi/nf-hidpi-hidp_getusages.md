@@ -56,43 +56,43 @@ The <b>HidP_GetUsages </b>routine returns a list of all the HID control button <
 
 
 
-### -param ReportType [in]
-
+### -param ReportType 
+[in]
 Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/ne-hidpi-_hidp_report_type">HIDP_REPORT_TYPE</a> enumerator value that identifies the report type.
 
 
-### -param UsagePage [in]
-
+### -param UsagePage 
+[in]
 Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-usages">usage page</a> of the button usages. The routine only returns information about buttons on this usage page.
 
 
-### -param LinkCollection [in]
-
+### -param LinkCollection 
+[in]
 Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/link-collections">link collection</a> of the button usages. If <i>LinkCollection</i> is nonzero, the routine only returns information about the buttons that this link collection contains; otherwise, if <i>LinkCollection</i> is zero, the routine returns information about all the buttons in the <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections">top-level collection</a> associated with <i>PreparsedData</i>.
 
 
-### -param UsageList [out]
-
+### -param UsageList 
+[out]
 Pointer to a caller-allocated buffer that the routine uses to return the usages of all buttons that are set to ON and belong to the usage page specified by <i>UsagePage</i>. 
 
 
-### -param UsageLength [in, out]
-
+### -param UsageLength 
+[in, out]
 Specifies, on input, the length, in array elements, of the <i>UsageList</i> buffer. Specifies, on output, the number of buttons that are set to ON on the specified usage page.
 
 
-### -param PreparsedData [in]
-
+### -param PreparsedData 
+[in]
 Pointer to a top-level collection's <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/preparsed-data">preparsed data</a>.
 
 
-### -param Report [out]
-
+### -param Report 
+[out]
 Pointer to a report.
 
 
-### -param ReportLength [in]
-
+### -param ReportLength 
+[in]
 Specifies the length, in bytes, of the report located at <i>Report</i>.
 
 

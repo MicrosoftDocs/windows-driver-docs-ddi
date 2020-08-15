@@ -55,8 +55,8 @@ req.typenames:
 
 
 
-### -param Cbdq [in, out]
-
+### -param Cbdq 
+[in, out]
 Pointer to the callback data queue. 
 
 

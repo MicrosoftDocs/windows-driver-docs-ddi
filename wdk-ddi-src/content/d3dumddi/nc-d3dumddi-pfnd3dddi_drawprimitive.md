@@ -55,8 +55,8 @@ The <b>DrawPrimitive</b> function draws nonindexed primitives in which the Micro
 
 
 
-### -param hDevice [in]
-
+### -param hDevice 
+[in]
 A handle to the display device (graphics context).
 
 

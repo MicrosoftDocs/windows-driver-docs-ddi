@@ -57,13 +57,13 @@ The <b>GetBreakpointByIndex</b>  method returns the breakpoint located at the sp
 
 
 
-### -param Index [in]
-
+### -param Index 
+[in]
 Specifies the zero-based index of the breakpoint to return.  This is specific to the current process.  The value of <i>Index</i> should be between zero and the total number of breakpoints minus one. The total number of breakpoints can be determined by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-getnumberbreakpoints">GetNumberBreakpoints</a>.
 
 
-### -param Bp [out]
-
+### -param Bp 
+[out]
 Receives the returned breakpoint.
 
 

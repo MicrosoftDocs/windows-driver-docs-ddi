@@ -55,13 +55,13 @@ Gets a string property.
 
 
 
-### -param bstrName [in]
-
+### -param bstrName 
+[in]
 The property to read.
 
 
-### -param pbstrValue [out, retval]
-
+### -param pbstrValue 
+[out, retval]
         The value read.
 
 

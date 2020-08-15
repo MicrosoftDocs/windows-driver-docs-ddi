@@ -55,18 +55,18 @@ The <b>KeInitializeEvent</b> routine initializes an event object as a synchroniz
 
 
 
-### -param Event [out]
-
+### -param Event 
+[out]
 Pointer to an event object, for which the caller provides the storage.
 
 
-### -param Type [in]
-
+### -param Type 
+[in]
 Specifies the event type, either <b>NotificationEvent</b> or <b>SynchronizationEvent</b>.
 
 
-### -param State [in]
-
+### -param State 
+[in]
 Specifies the initial state of the event. <b>TRUE</b> indicates a signaled state.
 
 

@@ -73,13 +73,13 @@ NTSTATUS GetVirtualFunctionProbedBars(
 
 
 
-### -param Context [in, out]
-
+### -param Context 
+[in, out]
 A pointer to interface-specific context information. The caller passes the value that is passed as the <b>Context</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/hh406642(v=vs.85)">PCI_VIRTUALIZATION_INTERFACE</a> structure for the interface.
 
 
-### -param BaseRegisterValues [out]
-
+### -param BaseRegisterValues 
+[out]
 A pointer to an array of ULONG values. The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_function_probed_bars">GetVirtualFunctionProbedBars</a> routine returns a value for each BAR of the device.
 
 <div class="alert"><b>Note</b>  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_function_probed_bars">GetVirtualFunctionProbedBars</a> returns a maximum of <b>PCI_TYPE0_ADDRESSES</b> values within this array.

@@ -55,8 +55,8 @@ The <b>GetPrintTicket</b> method gets the print ticket object for the fixed docu
 
 
 
-### -param ppPrintTicket [out]
-
+### -param ppPrintTicket 
+[out]
 The print ticket object for the sequence.
 
 

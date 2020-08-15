@@ -55,18 +55,18 @@ The <b>GetString</b> method searches a <a href="https://docs.microsoft.com/windo
 
 
 
-### -param Tag [in]
-
+### -param Tag 
+[in]
 A value in the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration.
 
 
-### -param Str [out]
-
+### -param Str 
+[out]
 A pointer to a buffer that receives the string value from the entry's data block.
 
 
-### -param MaxSize [in]
-
+### -param MaxSize 
+[in]
 The size, in bytes, of the buffer pointed to by <i>Str</i>.
 
 

@@ -57,8 +57,8 @@ The <b>GetInitiatorProcessId</b> method retrieves the initiator process ID assoc
 
 
 
-### -param pdwProcessId [out]
-
+### -param pdwProcessId 
+[out]
 Specifies the address of a location that receives the initiator process identifier associated with the file, if any exists.  Otherwise, the location receives 0.
 
 

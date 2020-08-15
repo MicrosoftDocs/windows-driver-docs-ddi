@@ -58,13 +58,13 @@ The <b>WdfDpcCancel</b> method attempts to cancel the execution of a DPC object'
 
 
 
-### -param Dpc [in]
-
+### -param Dpc 
+[in]
 A handle to a framework DPC object.
 
 
-### -param Wait [in]
-
+### -param Wait 
+[in]
 A Boolean value that, if <b>TRUE</b>, indicates that the <b>WdfDpcCancel</b> method will not return until the DPC object's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdpc/nc-wdfdpc-evt_wdf_dpc">EvtDpcFunc</a> callback function is either canceled or finishes executing. If <b>FALSE</b>, the <b>WdfDpcCancel</b> method returns immediately.
 
 

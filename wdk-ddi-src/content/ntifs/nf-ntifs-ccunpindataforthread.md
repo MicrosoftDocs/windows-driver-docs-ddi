@@ -55,13 +55,13 @@ The <b>CcUnpinDataForThread</b> routine releases pages of a cached file whose bu
 
 
 
-### -param Bcb [in]
-
+### -param Bcb 
+[in]
 Pointer to the BCB for the pages to be released.
 
 
-### -param ResourceThreadId [in]
-
+### -param ResourceThreadId 
+[in]
 Identifies the thread that originally acquired the BCB. Must match the owner pointer used in the call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539207">CcSetBcbOwnerPointer</a>.
 
 

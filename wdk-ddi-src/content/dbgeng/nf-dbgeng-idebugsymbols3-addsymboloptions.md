@@ -57,8 +57,8 @@ The <b>AddSymbolOptions</b> method turns on some of the engine's global symbol o
 
 
 
-### -param Options [in]
-
+### -param Options 
+[in]
 Specifies the symbol options to turns on.  <i>Options</i> is a bit-set that will be ORed with the existing symbol options.  For a description of the bit flags, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/symbol-options">Setting Symbol Options</a>.
 
 

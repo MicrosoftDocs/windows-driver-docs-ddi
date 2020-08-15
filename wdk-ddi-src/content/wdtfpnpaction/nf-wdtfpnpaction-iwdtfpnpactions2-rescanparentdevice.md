@@ -55,8 +55,8 @@ Rescans and re-enumerates the target device's parent device.
 
 
 
-### -param pbSuccess [out, retval]
-
+### -param pbSuccess 
+[out, retval]
 True if the operation succeeds; otherwise, false.
 
 

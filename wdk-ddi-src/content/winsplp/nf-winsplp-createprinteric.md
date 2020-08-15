@@ -55,8 +55,8 @@ req.typenames:
 
 
 
-### -param hPrinter [in]
+### -param hPrinter 
+[in]
 
-
-### -param pDevMode [in, optional]
-
+### -param pDevMode 
+[in, optional]

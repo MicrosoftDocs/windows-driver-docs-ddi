@@ -56,13 +56,13 @@ The<b> KsAddEvent </b>function adds an event to <i>Object</i>'s event list.
 
 
 
-### -param Object [in]
-
+### -param Object 
+[in]
 The object to which to add the event.
 
 
-### -param EventEntry [in]
-
+### -param EventEntry 
+[in]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksevent_entry">KSEVENT_ENTRY</a> structure describing the event to add to <i>Object</i>.
 
 

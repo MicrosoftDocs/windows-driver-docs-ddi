@@ -57,18 +57,18 @@ The <b>GetRunningProcessSystemIdByExecutableNameWide</b> method searches for a p
 
 
 
-### -param Server [in]
-
+### -param Server 
+[in]
 Specifies the process server to search for the executable name.  If <i>Server</i> is zero, the engine will search for the executable name among the processes running on the local computer.
 
 
-### -param ExeName [in]
-
+### -param ExeName 
+[in]
 Specifies the executable file name for which to search.
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 Specifies a bit-set that controls how the executable name is matched.  The following flags may be present:
 
 <table>
@@ -102,8 +102,8 @@ Require that only one process match the executable file name <i>ExeName</i>.
  
 
 
-### -param Id [out]
-
+### -param Id 
+[out]
 Receives the process ID of the first process to match <i>ExeName</i>.
 
 

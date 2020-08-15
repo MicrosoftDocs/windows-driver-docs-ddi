@@ -56,8 +56,8 @@ The <b>GetOffset</b> method returns the location that triggers a breakpoint.
 
 
 
-### -param Offset [out]
-
+### -param Offset 
+[out]
 The location on the target that triggers the breakpoint.
 
 

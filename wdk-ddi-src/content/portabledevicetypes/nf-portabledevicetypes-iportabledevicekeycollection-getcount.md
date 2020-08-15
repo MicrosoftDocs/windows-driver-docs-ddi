@@ -59,8 +59,8 @@ Retrieves the number of keys in this collection.
 
 
 
-### -param pcElems [in]
-
+### -param pcElems 
+[in]
 Pointer to a <b>DWORD</b> that contains the number of keys in the collection.
 
 

@@ -56,13 +56,13 @@ The <b>ZwRecoverEnlistment</b> routine initiates a recovery operation for the tr
 
 
 
-### -param EnlistmentHandle [in]
-
+### -param EnlistmentHandle 
+[in]
 A handle to an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/enlistment-objects">enlistment object</a> that was obtained by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntcreateenlistment">ZwCreateEnlistment</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntopenenlistment">ZwOpenEnlistment</a>. The handle must have ENLISTMENT_RECOVER access to the object.
 
 
-### -param EnlistmentKey [in, optional]
-
+### -param EnlistmentKey 
+[in, optional]
 A pointer to the enlistment key value that the resource manager previously specified as the <i>EnlistmentKey</i> parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntcreateenlistment">ZwCreateEnlistment</a>. This parameter is optional and can be <b>NULL</b> if the resource manager did not provide an enlistment key when it called <b>ZwCreateEnlistment</b>. 
 
 

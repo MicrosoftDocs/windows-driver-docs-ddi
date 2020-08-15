@@ -60,18 +60,18 @@ The <b>WdfRegistryQueryULong</b> method retrieves the unsigned long word (REG_DW
 
 
 
-### -param Key [in]
-
+### -param Key 
+[in]
 A handle to a registry-key object that represents an opened registry key.
 
 
-### -param ValueName [in]
-
+### -param ValueName 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a name for the registry value. 
 
 
-### -param Value [out]
-
+### -param Value 
+[out]
 A pointer to a location that receives the data that is assigned to the registry value that <i>ValueName</i> specifies.
 
 

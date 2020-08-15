@@ -55,18 +55,18 @@ The <b>EtwProviderEnabled</b> function verifies that a provider is enabled for e
 
 
 
-### -param RegHandle [in]
-
+### -param RegHandle 
+[in]
 A pointer to the event provider registration handle, which is returned by the <b>EtwRegister</b> function if the event provider registration is successful.
 
 
-### -param Level [in]
-
+### -param Level 
+[in]
 The level at which the provider is enabled.
 
 
-### -param Keyword [in]
-
+### -param Keyword 
+[in]
 The keyword that indicates whether the provider is enabled.
 
 

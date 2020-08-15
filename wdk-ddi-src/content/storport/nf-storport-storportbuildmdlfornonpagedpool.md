@@ -55,13 +55,13 @@ The <b>StorPortBuildMdlForNonPagedPool</b> routine updates the MDL to describe t
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param Mdl [in, out]
-
+### -param Mdl 
+[in, out]
 A pointer to the MDL that specifies the memory buffer.
 
 

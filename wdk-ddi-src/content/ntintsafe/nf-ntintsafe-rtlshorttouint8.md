@@ -55,8 +55,8 @@ Converts a value of type <b>SHORT</b> to a value of type <b>UINT8</b>.
 
 
 
-### -param sOperand [in]
-
+### -param sOperand 
+[in]
 The value to be converted.
 
 

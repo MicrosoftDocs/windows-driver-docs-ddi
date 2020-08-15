@@ -58,8 +58,8 @@ The
 
 
 
-### -param SpinLock [in]
-
+### -param SpinLock 
+[in]
 Pointer to the spin lock to be deinitialized.
 
 

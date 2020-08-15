@@ -58,18 +58,18 @@ The
 
 
 
-### -param _String1 [in]
-
+### -param _String1 
+[in]
 A pointer to an NDIS_STRING type that describes the first string.
 
 
-### -param _String2 [in]
-
+### -param _String2 
+[in]
 A pointer to an NDIS_STRING type that describes the second string.
 
 
-### -param _CaseInsensitive [in]
-
+### -param _CaseInsensitive 
+[in]
 A boolean value that is <b>TRUE</b> if case should be ignored when doing the comparison. Otherwise, it is
      <b>FALSE</b>.
 

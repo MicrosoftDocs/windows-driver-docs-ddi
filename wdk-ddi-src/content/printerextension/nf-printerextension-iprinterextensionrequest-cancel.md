@@ -60,8 +60,8 @@ Completes the extension event with a cancellation.
 
 
 
-### -param bstrLogMessage [in]
-
+### -param bstrLogMessage 
+[in]
 The log message.
 
 

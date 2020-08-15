@@ -56,13 +56,13 @@ The <b>FltAllocateFileLock</b> routine allocates and initializes a new <a href="
 
 
 
-### -param CompleteLockCallbackDataRoutine [in, optional]
-
+### -param CompleteLockCallbackDataRoutine 
+[in, optional]
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_complete_lock_callback_data_routine">PFLT_COMPLETE_LOCK_CALLBACK_DATA_ROUTINE</a>-typed callback routine to be called when an <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-lock-control">IRP_MJ_LOCK_CONTROL</a> request is completed. This parameter is optional and can be <b>NULL</b>. 
 
 
-### -param UnlockRoutine [in, optional]
-
+### -param UnlockRoutine 
+[in, optional]
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/punlock-routine">PUNLOCK_ROUTINE</a>-typed callback routine to be called when the byte range is unlocked. This parameter is optional and can be <b>NULL</b>. 
 
 

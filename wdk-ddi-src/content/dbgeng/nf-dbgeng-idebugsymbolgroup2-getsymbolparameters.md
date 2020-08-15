@@ -56,18 +56,18 @@ The <b>GetSymbolParameters</b> method returns the symbol parameters that describ
 
 
 
-### -param Start [in]
-
+### -param Start 
+[in]
 The index in the symbol group of the first symbol whose parameters you want.  The index of a symbol is an identification number. This number ranges from zero through the number of symbols in the symbol group minus one.
 
 
-### -param Count [in]
-
+### -param Count 
+[in]
 The number of symbol parameters that you want.
 
 
-### -param Params [out]
-
+### -param Params 
+[out]
 The symbol parameters.  This array must hold at least <i>Count</i> elements.  For a description of these parameters, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_symbol_parameters">DEBUG_SYMBOL_PARAMETERS</a>.
 
 

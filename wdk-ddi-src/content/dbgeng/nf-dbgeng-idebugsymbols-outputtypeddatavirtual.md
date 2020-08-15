@@ -57,28 +57,28 @@ The <b>OutputTypedDataVirtual</b> method formats the contents of a variable in t
 
 
 
-### -param OutputControl [in]
-
+### -param OutputControl 
+[in]
 Specifies the output control used to determine which output callbacks can receive the output.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-outctl-xxx">DEBUG_OUTCTL_XXX</a> for possible values.
 
 
-### -param Offset [in]
-
+### -param Offset 
+[in]
 Specifies the location in the target's virtual address space of the variable.
 
 
-### -param Module [in]
-
+### -param Module 
+[in]
 Specifies the base address of the module containing the type.
 
 
-### -param TypeId [in]
-
+### -param TypeId 
+[in]
 Specifies the type ID of the type.
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 Specifies the formatting flags.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-typeopts-xxx">DEBUG_TYPEOPTS_XXX</a> for possible values.
 
 

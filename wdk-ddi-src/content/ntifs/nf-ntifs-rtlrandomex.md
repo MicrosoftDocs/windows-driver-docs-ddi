@@ -55,8 +55,8 @@ The <b>RtlRandomEx</b> routine returns a random number that was generated from a
 
 
 
-### -param Seed [in, out]
-
+### -param Seed 
+[in, out]
 Unsigned long value from which to generate a random number. 
 
 

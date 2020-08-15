@@ -58,13 +58,13 @@ The <b>WdfDmaEnablerSetMaximumScatterGatherElements</b> method sets the maximum 
 
 
 
-### -param DmaEnabler [in]
-
+### -param DmaEnabler 
+[in]
 A handle to a DMA enabler object that the driver obtained from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmaenabler/nf-wdfdmaenabler-wdfdmaenablercreate">WdfDmaEnablerCreate</a>. 
 
 
-### -param MaximumFragments [in]
-
+### -param MaximumFragments 
+[in]
 The maximum number of scatter/gather elements that the driver and device can support.   
 
 

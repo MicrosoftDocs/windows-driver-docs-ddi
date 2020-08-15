@@ -56,13 +56,13 @@ The <b>WdmlibIoValidateDeviceIoControlAccess</b> function verifies that the send
 
 
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> on which to perform the access check.
 
 
-### -param RequiredAccess [in]
-
+### -param RequiredAccess 
+[in]
 Specifies the type of access to the device object that the request sender must have. The caller can specify one or more of the following flags.
 
 <table>

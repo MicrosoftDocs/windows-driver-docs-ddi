@@ -55,13 +55,13 @@ The <b>RtlCmDecodeMemIoResource</b> routine provides the starting address and le
 
 
 
-### -param Descriptor [in]
-
+### -param Descriptor 
+[in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_descriptor">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure to provide the starting address and length for.
 
 
-### -param Start [out, optional]
-
+### -param Start 
+[out, optional]
 A pointer to a variable that receives the starting address of the range of memory or I/O port addresses.
 
 

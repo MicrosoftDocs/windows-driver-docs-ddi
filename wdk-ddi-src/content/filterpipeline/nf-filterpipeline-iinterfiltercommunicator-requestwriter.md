@@ -55,8 +55,8 @@ The <b>RequestWriter</b> method retrieves the writer interface for an <b>IInterF
 
 
 
-### -param ppIWriter [out]
-
+### -param ppIWriter 
+[out]
 A variable that receives the writer interface object that <b>RequestWriter</b> retrieves.
 
 

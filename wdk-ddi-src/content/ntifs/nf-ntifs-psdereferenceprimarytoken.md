@@ -55,8 +55,8 @@ The <b>PsDereferencePrimaryToken</b> routine decrements the reference count of a
 
 
 
-### -param PrimaryToken [in]
-
+### -param PrimaryToken 
+[in]
 Pointer to the primary token whose reference count is to be decremented.
 
 

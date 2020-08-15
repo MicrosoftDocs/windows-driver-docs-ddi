@@ -58,8 +58,8 @@ The
 
 
 
-### -param Status [out]
-
+### -param Status 
+[out]
 A pointer to a caller-supplied variable in which this function returns the status of its attempt
      to open the designated registry key. Possible return values are one of the following:
      
@@ -81,23 +81,23 @@ NDIS has initialized accessed to the subkey specified by
 The key could not be opened.
 
 
-### -param ConfigurationHandle [in]
-
+### -param ConfigurationHandle 
+[in]
 The handle to a registry key for which a subkey is to be opened. Typically, 
      <i>ConfigurationHandle</i> is returned by the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenconfigurationex">
      NdisOpenConfigurationEx</a> function.
 
 
-### -param Index [in]
-
+### -param Index 
+[in]
 The index of the subkey to be opened. This zero-based value designates the subkey to be opened
      under the key already opened with 
      <i>ConfigurationHandle</i> .
 
 
-### -param KeyName [out]
-
+### -param KeyName 
+[out]
 A pointer to an NDIS_STRING type containing a caller-supplied buffer in which this functions
      returns a counted string in the system-default character set. This string specifies the name of the
      opened subkey if the call succeeds. For Microsoft Windows 2000 and later drivers, this string contains
@@ -105,8 +105,8 @@ A pointer to an NDIS_STRING type containing a caller-supplied buffer in which th
      <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> type.
 
 
-### -param KeyHandle [out]
-
+### -param KeyHandle 
+[out]
 A pointer to a caller-supplied variable in which this function returns a handle to the opened
      subkey if the call succeeds.
 

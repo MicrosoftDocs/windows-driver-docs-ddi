@@ -57,8 +57,8 @@ The <b>GetDebuggeeType</b> method describes the nature of the current target.
 
 
 
-### -param Class [out]
-
+### -param Class 
+[out]
 Receives the class of the current target.  It will be set to one of the values in the following table.
 
 <table>
@@ -100,8 +100,8 @@ The current target is a user-mode target.
  
 
 
-### -param Qualifier [out]
-
+### -param Qualifier 
+[out]
 Provides more details about the type of the target.  Its interpretation depends on the value of <i>Class</i>.  When class is DEBUG_CLASS_UNINITIALIZED, <i>Qualifier</i> returns zero.  The following values are applicable for kernel-mode targets.
 
 <table>

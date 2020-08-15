@@ -55,13 +55,13 @@ The client driver uses this callback type to implement handlers that UCX calls w
 
 
 
-### -param UcxRootHub [in]
-
+### -param UcxRootHub 
+[in]
 A handle to a UCX object that represents the root hub.
 
 
-### -param Request [in]
-
+### -param Request 
+[in]
 Contains the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a> for the feature request.
 
 

@@ -55,23 +55,23 @@ The <b>AgpReserveVirtual</b> function reserves a range of virtual addresses for 
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 Pointer to the miniport driver's device extension.
 
 
-### -param ProcessHandle [in]
-
+### -param ProcessHandle 
+[in]
 Handle of the process in which to reserve the virtual address range. If <b>ProcessHandle</b> is 0, then the virtual address range is allocated in system space.
 
 
-### -param PhysicalReserveContext [in]
-
+### -param PhysicalReserveContext 
+[in]
 Is the context handle that identifies the reserved physical address range with which to associate the virtual memory reservation. This context was obtained from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/videoagp/nc-videoagp-pagp_reserve_physical">AgpReservePhysical</a>.
 
 
-### -param VirtualReserveContext [out]
-
+### -param VirtualReserveContext 
+[out]
 Is the location in which the video port driver writes a context handle that identifies the reserved virtual memory.
 
 

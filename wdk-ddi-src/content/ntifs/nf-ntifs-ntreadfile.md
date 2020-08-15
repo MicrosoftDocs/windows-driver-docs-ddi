@@ -56,43 +56,43 @@ The <b>NtReadFile</b> routine reads data from an open file.
 
 
 
-### -param FileHandle [in]
-
+### -param FileHandle 
+[in]
 Handle to the file object. This handle is created by a successful call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">NtCreateFile</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntopenfile">NtOpenFile</a>. 
 
 
-### -param Event [in, optional]
-
+### -param Event 
+[in, optional]
 Optionally, a handle to an event object to set to the signaled state after the read operation completes. Device and intermediate drivers should set this parameter to <b>NULL</b>.
 
 
-### -param ApcRoutine [in, optional]
-
+### -param ApcRoutine 
+[in, optional]
 This parameter is reserved. Device and intermediate drivers should set this pointer to <b>NULL</b>.
 
 
-### -param ApcContext [in, optional]
-
+### -param ApcContext 
+[in, optional]
 This parameter is reserved. Device and intermediate drivers should set this pointer to <b>NULL</b>.
 
 
-### -param IoStatusBlock [out]
-
+### -param IoStatusBlock 
+[out]
 Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested read operation. The <b>Information</b> member receives the number of bytes actually read from the file.
 
 
-### -param Buffer [out]
-
+### -param Buffer 
+[out]
 Pointer to a caller-allocated buffer that receives the data read from the file.
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 The size, in bytes, of the buffer pointed to by <i>Buffer</i>.
 
 
-### -param ByteOffset [in, optional]
-
+### -param ByteOffset 
+[in, optional]
 Pointer to a variable that specifies the starting byte offset in the file where the read operation will begin. If an attempt is made to read beyond the end of the file, <b>NtReadFile</b> returns an error.
 
 If the call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">NtCreateFile</a> set either of the <b>CreateOptions</b> flags FILE_SYNCHRONOUS_IO_ALERT or FILE_SYNCHRONOUS_IO_NONALERT, the I/O Manager maintains the current file position. If so, the caller of <b>NtReadFile</b> can specify that the current file position offset be used instead of an explicit <b>ByteOffset</b> value. This specification can be made by using one of the following methods:
@@ -112,8 +112,8 @@ Pass a <b>NULL</b> pointer for <i>ByteOffset</i>.
 Even when the I/O Manager is maintaining the current file position, the caller can reset this position by passing an explicit <i>ByteOffset</i> value to <b>NtReadFile</b>. Doing this automatically changes the current file position to that <i>ByteOffset</i> value, performs the read operation, and then updates the position according to the number of bytes actually read. This technique gives the caller atomic seek-and-read service.
 
 
-### -param Key [in, optional]
-
+### -param Key 
+[in, optional]
 Device and intermediate drivers should set this pointer to <b>NULL</b>. 
 
 

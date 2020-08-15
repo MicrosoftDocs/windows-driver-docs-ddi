@@ -55,8 +55,8 @@ Removes a driver package from the driver store.
 
 
 
-### -param pDp [in]
-
+### -param pDp 
+[in]
 The driver package to remove.
 
 

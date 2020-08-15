@@ -55,18 +55,18 @@ req.typenames:
 
 
 
-### -param ThisTable [in]
-
+### -param ThisTable 
+[in]
 A pointer to the RX_PREFIX_TABLE structure in which to look.
 
 
-### -param CanonicalName [in]
-
+### -param CanonicalName 
+[in]
 A pointer to the Unicode string name to look up.
 
 
-### -param RemainingName [out]
-
+### -param RemainingName 
+[out]
 A pointer to the Unicode string name of the portion of the name that was unmatched.
 
 

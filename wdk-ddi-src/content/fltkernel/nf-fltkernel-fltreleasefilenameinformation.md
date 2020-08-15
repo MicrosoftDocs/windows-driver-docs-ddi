@@ -55,8 +55,8 @@ req.typenames:
 
 
 
-### -param FileNameInformation [in]
-
+### -param FileNameInformation 
+[in]
 Pointer to the FLT_FILE_NAME_INFORMATION structure to be released. This parameter is required and cannot be <b>NULL</b>. 
 
 

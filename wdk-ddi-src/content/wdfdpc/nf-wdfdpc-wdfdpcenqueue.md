@@ -58,8 +58,8 @@ The <b>WdfDpcEnqueue</b> method schedules the execution of a DPC object's <a hre
 
 
 
-### -param Dpc [in]
-
+### -param Dpc 
+[in]
 A handle to a framework DPC object.
 
 

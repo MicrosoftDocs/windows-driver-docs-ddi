@@ -49,12 +49,12 @@ Gets the XML node for the value child element of a Property  or a ScoredProperty
 
 ## -parameters
 
-### -param bstrName [in]
-
+### -param bstrName 
+[in]
 The base value of the name attribute of the Property or the ScoredProperty element.
 
-### -param bstrNamespaceUri [in]
-
+### -param bstrNamespaceUri 
+[in]
 The namespace URI value of the name attribute of the Property or the ScoredProperty element.
 
 ### -param ppXmlValueNode

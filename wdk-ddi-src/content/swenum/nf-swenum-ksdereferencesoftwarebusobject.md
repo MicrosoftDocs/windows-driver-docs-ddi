@@ -58,8 +58,8 @@ The <b>KsDereferenceSoftwareBusObject</b> function decrements the reference coun
 
 
 
-### -param Header [in]
-
+### -param Header 
+[in]
 Pointer to the device header (extension) of the demand-load bus enumerator.
 
 

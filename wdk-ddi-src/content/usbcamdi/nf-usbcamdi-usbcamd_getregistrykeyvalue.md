@@ -56,28 +56,28 @@ The <b>USBCAMD_GetRegistryKeyValue</b> function retrieves the device-instance-sp
 
 
 
-### -param Handle [in]
-
+### -param Handle 
+[in]
 Handle to a valid and open device registry key.
 
 
-### -param KeyNameString [in]
-
+### -param KeyNameString 
+[in]
 Pointer to the string buffer describing the key type.
 
 
-### -param KeyNameStringLength [in]
-
+### -param KeyNameStringLength 
+[in]
 Specifies the length, in characters, of <i>KeyNameString</i>.
 
 
-### -param Data [in]
-
+### -param Data 
+[in]
 Pointer to a caller-specified value or structure.
 
 
-### -param DataLength [in]
-
+### -param DataLength 
+[in]
 Specifies the length, in bytes, of the value or structure at <i>Data.</i>
 
 

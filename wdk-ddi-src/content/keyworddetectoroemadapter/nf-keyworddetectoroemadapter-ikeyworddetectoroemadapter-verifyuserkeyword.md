@@ -55,28 +55,28 @@ The <b>VerifyUserKeyword</b> method is used by the training user experience  to 
 
 
 
-### -param ModelData [in]
-
+### -param ModelData 
+[in]
 A pointer to an <b>IStream</b> object bound to model data for a given stored model. On the initial call this will be empty.
 
 
-### -param KeywordId [in]
-
+### -param KeywordId 
+[in]
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/keyworddetectoroemadapter/ne-keyworddetectoroemadapter-__midl_ikeyworddetectoroemadapter_0002">KEYWORDID</a> in the  <i>UserRecording</i> parameter.
 
 
-### -param LangId [in]
-
+### -param LangId 
+[in]
 The <b>LANGID</b> of the spoken language in the <i>UserRecording</i> parameter. 
 
 
-### -param KeywordEndBytePos [in]
-
+### -param KeywordEndBytePos 
+[in]
 Indicates the end of the keyword in the UserRecording.
 
 
-### -param UserRecording [in]
-
+### -param UserRecording 
+[in]
 A pointer to the buffer containing the raw data in the appropriate <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> format.
 
 The user recording must have the following attributes:

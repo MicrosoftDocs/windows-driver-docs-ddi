@@ -55,8 +55,8 @@ req.typenames:
 
 
 
-### -param hPrinter [in]
-
+### -param hPrinter 
+[in]
 
 ### -param fdwFilterFlags
 
@@ -64,17 +64,17 @@ req.typenames:
 ### -param fdwOptions
 
 
-### -param pPrinterNotifyOptions [in]
+### -param pPrinterNotifyOptions 
+[in]
 
+### -param pvReserved 
+[in, optional]
 
-### -param pvReserved [in, optional]
+### -param pNotificationConfig 
+[in]
 
+### -param phNotify 
+[out, optional]
 
-### -param pNotificationConfig [in]
-
-
-### -param phNotify [out, optional]
-
-
-### -param phEvent [out, optional]
-
+### -param phEvent 
+[out, optional]

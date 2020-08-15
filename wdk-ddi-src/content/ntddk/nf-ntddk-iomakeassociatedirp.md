@@ -55,13 +55,13 @@ This routine is reserved for use by file systems and file system filter drivers.
 
 
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 Pointer to the master IRP that was input to a highest-level driver's Dispatch routine.
 
 
-### -param StackSize [in]
-
+### -param StackSize 
+[in]
 Specifies the number of stack locations to be allocated for the associated IRP. The value must be at least equal to the <i>StackSize</i> of the next-lower driver's device object, but the associated IRP can have an additional stack location for the caller. 
 
 

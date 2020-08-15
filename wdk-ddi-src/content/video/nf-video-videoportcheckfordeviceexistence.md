@@ -52,38 +52,38 @@ The <b>VideoPortCheckForDeviceExistence</b> function determines whether the spec
 
 ## -parameters
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 Pointer to the miniport driver's device extension.
 
 
-### -param VendorId [in]
-
+### -param VendorId 
+[in]
 Specifies the vendor ID.
 
 
-### -param DeviceId [in]
-
+### -param DeviceId 
+[in]
 Specifies the device ID.
 
 
-### -param RevisionId [in]
-
+### -param RevisionId 
+[in]
 Specifies the revision ID.
 
 
-### -param SubVendorId [in]
-
+### -param SubVendorId 
+[in]
 Specifies the subvendor ID.
 
 
-### -param SubSystemId [in]
-
+### -param SubSystemId 
+[in]
 Specifies the subsystem ID.
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 Is a set of flags that determine whether the <i>RevisionID</i> and <i>SubSystemID</i> parameters should be used in checking for the new device. This parameter can be the logical OR of the following values:
 
 |Value|Meaning|

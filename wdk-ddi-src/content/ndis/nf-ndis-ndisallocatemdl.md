@@ -58,14 +58,14 @@ The
 
 
 
-### -param NdisHandle [in]
-
+### -param NdisHandle 
+[in]
 An NDIS handle that was obtained during caller initialization. For more information, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/obtaining-pool-handles">Obtaining Pool Handles</a>.
 
 
-### -param VirtualAddress [in]
-
+### -param VirtualAddress 
+[in]
 A pointer to the base virtual address of the buffer that the MDL is to describe.
 
 <div class="alert"><b>Important</b>  <p class="note">The <b>VirtualAddress</b> parameter for <b>NdisAllocateMdl</b> only accepts memory from the nonpaged pool. In other words, it requires memory from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepool">ExAllocatePool</a>*(NonPagedNx), <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatememorywithtagpriority">NdisAllocateMemoryWithTagPriority</a>, or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismallocatesharedmemory">NdisMAllocateSharedMemory</a>. In particular, it should <b>not</b> be used with memory from the stack, paged pool, driver global data, or other memory regions.
@@ -76,8 +76,8 @@ A pointer to the base virtual address of the buffer that the MDL is to describe.
 </div>
 <div> </div>
 
-### -param Length [in]
-
+### -param Length 
+[in]
 The size, in bytes, of the memory buffer.
 
 

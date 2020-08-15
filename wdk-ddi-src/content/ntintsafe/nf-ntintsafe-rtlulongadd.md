@@ -55,18 +55,18 @@ Adds two values of type <b>ULONG</b>.
 
 
 
-### -param ulAugend [in]
-
+### -param ulAugend 
+[in]
 The first value in the equation.
 
 
-### -param ulAddend [in]
-
+### -param ulAddend 
+[in]
 The value to add to <i>ulAugend</i>.
 
 
-### -param pulResult [out]
-
+### -param pulResult 
+[out]
 A pointer to the sum. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
 

@@ -60,8 +60,8 @@ Pointer to the miniport driver's device extension.
 
 Specifies the number of elements in the <i>AccessRanges</i> array, or zero.
 
-### -param AccessRanges [in, optional]
-
+### -param AccessRanges 
+[in, optional]
 Pointer to the miniport driver's access ranges array, or <b>NULL</b>. Each <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_access_range">VIDEO_ACCESS_RANGE</a>-type element in this array specifies a bus-relative range of device memory, I/O ports, or register addresses for the adapter.
 
 ## -returns

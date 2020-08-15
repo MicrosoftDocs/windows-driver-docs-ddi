@@ -55,23 +55,23 @@ req.typenames:
 
 
 
-### -param Server [in]
-
+### -param Server 
+[in]
 The server of the application.
 
 
-### -param PackageFullName [in]
-
+### -param PackageFullName 
+[in]
 A pointer to the package name.
 
 
-### -param AppName [in]
-
+### -param AppName 
+[in]
 A pointer to the application name. 
 
 
-### -param Arguments [in]
-
+### -param Arguments 
+[in]
 A pointer to an arguments string. 
 
 

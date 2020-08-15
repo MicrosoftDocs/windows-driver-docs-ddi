@@ -55,8 +55,8 @@ The <code>DeleteProperty</code> method deletes a property from a property bag.
 
 
 
-### -param pszName [in]
-
+### -param pszName 
+[in]
 The name of the property to delete from the property bag.
 
 

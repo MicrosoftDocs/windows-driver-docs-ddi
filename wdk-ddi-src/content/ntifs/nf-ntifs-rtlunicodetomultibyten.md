@@ -55,28 +55,28 @@ The <b>RtlUnicodeToMultiByteN</b> routine translates the specified Unicode strin
 
 
 
-### -param MultiByteString [out]
-
+### -param MultiByteString 
+[out]
 Pointer to a caller-allocated buffer to receive the translated string. <i>MultiByteString </i>buffer must not overlap with <i>UnicodeString </i>buffer.
 
 
-### -param MaxBytesInMultiByteString [in]
-
+### -param MaxBytesInMultiByteString 
+[in]
 Maximum number of bytes to be written to <i>MultiByteString</i>. If this value causes the translated string to be truncated, <b>RtlUnicodeToMultiByteN</b> does not return an error status. 
 
 
-### -param BytesInMultiByteString [out, optional]
-
+### -param BytesInMultiByteString 
+[out, optional]
 Pointer to a caller-allocated variable that receives the length, in bytes, of the translated string. This parameter is optional and can be <b>NULL</b>. 
 
 
-### -param UnicodeString [in]
-
+### -param UnicodeString 
+[in]
 Pointer to the Unicode source string to be translated. 
 
 
-### -param BytesInUnicodeString [in]
-
+### -param BytesInUnicodeString 
+[in]
 Size, in bytes, of the string at <i>UnicodeString</i>. 
 
 

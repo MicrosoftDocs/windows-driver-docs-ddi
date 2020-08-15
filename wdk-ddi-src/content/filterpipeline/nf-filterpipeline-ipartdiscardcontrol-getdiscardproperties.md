@@ -55,13 +55,13 @@ The <b>GetDiscardProperties</b> method gets the properties of the discard contro
 
 
 
-### -param uriSentinelPage [out]
-
+### -param uriSentinelPage 
+[out]
 The URI of the first fixed page that no longer needs the identified resource to be processed. 
 
 
-### -param uriPartToDiscard [out]
-
+### -param uriPartToDiscard 
+[out]
 The URI of the resource that the consumer can discard.
 
 

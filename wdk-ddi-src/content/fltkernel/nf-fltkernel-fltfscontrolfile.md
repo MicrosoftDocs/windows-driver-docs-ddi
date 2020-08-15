@@ -55,43 +55,43 @@ The <b>FltFsControlFile</b> routine sends a control code directly to a specified
 
 
 
-### -param Instance [in]
-
+### -param Instance 
+[in]
 Opaque instance pointer for the caller. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 File object pointer for the file or directory that is the target of this request. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param FsControlCode [in]
-
+### -param FsControlCode 
+[in]
 FSCTL_<i>XXX</i> code that indicates which file system operation is to be carried out. The value of this parameter determines the formats and required lengths of the <i>InputBuffer</i> and <i>OutputBuffer</i>, and it determines which of the following parameter pairs (<i>InputBuffer</i> and <i>InputBufferLength</i>, <i>OutputBuffer</i> and <i>OutputBufferLength</i>) is required. 
 
 
-### -param InputBuffer [in, optional]
-
+### -param InputBuffer 
+[in, optional]
 Pointer to a caller-allocated input buffer that contains device-specific information to be given to the target driver. If the <i>FsControlCode</i> parameter specifies an operation that does not require input data, this parameter is optional and can be <b>NULL</b>. 
 
 
-### -param InputBufferLength [in]
-
+### -param InputBufferLength 
+[in]
 Size, in bytes, of the buffer at <i>InputBuffer</i>. This value is ignored if <i>InputBuffer</i> is <b>NULL</b>. 
 
 
-### -param OutputBuffer [out, optional]
-
+### -param OutputBuffer 
+[out, optional]
 Pointer to a caller-allocated output buffer in which information is returned from the target driver. If the <i>FsControlCode</i> parameter specifies an operation that does not require output data, this parameter is optional and can be <b>NULL</b>. 
 
 
-### -param OutputBufferLength [in]
-
+### -param OutputBufferLength 
+[in]
 Size, in bytes, of the buffer at <i>OutputBuffer</i>. This value is ignored if <i>OutputBuffer</i> is <b>NULL</b>. 
 
 
-### -param LengthReturned [out, optional]
-
+### -param LengthReturned 
+[out, optional]
 Pointer to a caller-allocated variable that receives the size, in bytes, of the information returned in the buffer at <i>OutputBuffer</i>. This parameter is optional and can be <b>NULL</b>. 
 
 

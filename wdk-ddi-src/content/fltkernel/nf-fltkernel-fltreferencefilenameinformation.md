@@ -55,8 +55,8 @@ req.typenames:
 
 
 
-### -param FileNameInformation [in]
-
+### -param FileNameInformation 
+[in]
 Pointer to the file name information (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_file_name_information">FLT_FILE_NAME_INFORMATION</a>) structure. This parameter is required and cannot be <b>NULL</b>. 
 
 

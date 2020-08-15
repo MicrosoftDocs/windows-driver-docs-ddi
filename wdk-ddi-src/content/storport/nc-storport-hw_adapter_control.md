@@ -49,12 +49,12 @@ A miniport driver's <b>HwStorAdapterControl</b> routine is called to perform syn
 
 ## -parameters
 
-### -param DeviceExtension [in]
-
+### -param DeviceExtension 
+[in]
 A pointer to the miniport driver's per-HBA storage area.
 
-### -param ControlType [in]
-
+### -param ControlType 
+[in]
 Specifies  an adapter-control operation. Each control type initiates an action by the miniport driver. The following are the  control types and their meanings. Also  listed, are the current IRQL and the spinlock acquired when the control type issued.
 
 <table>
@@ -342,8 +342,8 @@ None
 </tr>
 </table>
 
-### -param Parameters [in]
-
+### -param Parameters 
+[in]
 Contains information related to the <i>ControlType</i>.  
 
 <table>

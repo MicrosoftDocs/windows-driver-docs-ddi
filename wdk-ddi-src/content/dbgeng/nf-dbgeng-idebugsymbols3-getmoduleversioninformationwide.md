@@ -55,33 +55,33 @@ The <b>GetModuleVersionInformationWide</b>  method returns version information f
 
 
 
-### -param Index [in]
-
+### -param Index 
+[in]
 Specifies the index of the module.  If it is set to DEBUG_ANY_ID, the <i>Base</i> parameter is used to specify the location of the module instead.
 
 
-### -param Base [in]
-
+### -param Base 
+[in]
 If <i>Index</i> is DEBUG_ANY_ID, specifies the location in the target's memory address space of the base of the module.  Otherwise it is ignored.
 
 
-### -param Item [in]
-
+### -param Item 
+[in]
 Specifies the version information being requested.  This string corresponds to the <i>lpSubBlock</i> parameter of the function <b>VerQueryValue</b>.  For details on the <b>VerQueryValue</b> function, see the Platform SDK.
 
 
-### -param Buffer [out, optional]
-
+### -param Buffer 
+[out, optional]
 Receives the requested version information.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param BufferSize [in]
-
+### -param BufferSize 
+[in]
 Specifies the size in characters of the buffer <i>Buffer</i>.
 
 
-### -param VerInfoSize [out, optional]
-
+### -param VerInfoSize 
+[out, optional]
 Receives the size in characters of the version information.  If <i>VerInfoSize</i> is <b>NULL</b>, this information is not returned.
 
 

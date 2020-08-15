@@ -55,13 +55,13 @@ The <b>GetSymbolEntryInformation</b> method returns information about a symbol i
 
 
 
-### -param Index [in]
-
+### -param Index 
+[in]
 The index of the symbol whose information iyou want.  The index of a symbol is an identification number. The index ranges from zero through the number of symbols in the symbol group minus one.
 
 
-### -param Entry [out]
-
+### -param Entry 
+[out]
 The information about the symbol.  For more information about this structure, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_symbol_entry">DEBUG_SYMBOL_ENTRY</a>.
 
 

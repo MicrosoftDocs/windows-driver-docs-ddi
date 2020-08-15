@@ -67,8 +67,8 @@ A pointer to a caller-supplied NDIS_STRING type that receives a counted Unicode 
      <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> type.
 
 
-### -param NdisBindingHandle [in]
-
+### -param NdisBindingHandle 
+[in]
 A handle that identifies the binding to the target physical NIC or virtual adapter of the
      next-lower driver to which the caller is bound. Typically, 
      <i>NdisBindingHandle</i> was returned by the 

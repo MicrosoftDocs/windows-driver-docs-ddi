@@ -55,13 +55,13 @@ req.typenames:
 
 
 
-### -param MonitorObject [in]
-
+### -param MonitorObject 
+[in]
 A handle used by the OS to identify the monitor to receive I2C data from.
 
 
-### -param pInArgs [in]
-
+### -param pInArgs 
+[in]
 Input arguments used by <b>EVT_IDD_CX_MONITOR_I2C_RECEIVE</b>.
 
 

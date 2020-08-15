@@ -55,23 +55,23 @@ The <b>GetFieldOffsetWide</b>  method returns the offset of a field from the bas
 
 
 
-### -param Module [in]
-
+### -param Module 
+[in]
 Specifies the module containing the types of both the container and the field.
 
 
-### -param TypeId [in]
-
+### -param TypeId 
+[in]
 Specifies the type ID of the type containing the field.
 
 
-### -param Field [in]
-
+### -param Field 
+[in]
 Specifies the name of the field whose offset is requested.  Subfields may be specified by using a dot-separated path.
 
 
-### -param Offset [out]
-
+### -param Offset 
+[out]
 Receives the offset of the specified field from the base memory location of an instance of the type. 
 
 

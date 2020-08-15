@@ -56,30 +56,30 @@ A provider module's
 
 
 
-### -param NmrBindingHandle [in]
-
+### -param NmrBindingHandle 
+[in]
 A handle used by the NMR to represent the binding between the client module and the provider
      module.
 
 
-### -param ProviderContext [in]
-
+### -param ProviderContext 
+[in]
 A pointer to the provider module's registration context. The provider module passes this pointer
      to the NMR when it calls the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrregisterprovider">NmrRegisterProvider</a> function to
      register itself with the NMR.
 
 
-### -param ClientRegistrationInstance [in]
-
+### -param ClientRegistrationInstance 
+[in]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/ns-netioddk-_npi_registration_instance">
      NPI_REGISTRATION_INSTANCE</a> structure. This structure contains the client module's registration
      data.
 
 
-### -param ClientBindingContext [in]
-
+### -param ClientBindingContext 
+[in]
 A pointer to the client module's context for the binding between the client module and the
      provider module. The client module uses this context to keep track of the state of the binding. The
      contents of the client module's binding context are opaque to the provider module. The provider module
@@ -88,8 +88,8 @@ A pointer to the client module's context for the binding between the client modu
      require the client module's binding context.
 
 
-### -param ClientDispatch [in]
-
+### -param ClientDispatch 
+[in]
 A pointer to a constant structure that contains the dispatch table of 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">NPI</a> callback functions for the
      client module. The contents of the structure are 
@@ -98,8 +98,8 @@ A pointer to a constant structure that contains the dispatch table of
      dispatch table structure, then this pointer is <b>NULL</b>.
 
 
-### -param ProviderBindingContext [out]
-
+### -param ProviderBindingContext 
+[out]
 A pointer to a variable into which the provider module will store a pointer to its context for the
      binding between the client module and the provider module. The provider module uses this context to keep
      track of the state of the binding. The contents of the provider module's binding context are opaque to

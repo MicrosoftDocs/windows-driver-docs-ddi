@@ -57,33 +57,33 @@ The <b>ReadTypedDataPhysical</b> method reads the value of a variable from the t
 
 
 
-### -param Offset [in]
-
+### -param Offset 
+[in]
 Specifies the physical address in the target computer's memory of the variable to be read.
 
 
-### -param Module [in]
-
+### -param Module 
+[in]
 Specifies the base address of the module containing the type of the variable.
 
 
-### -param TypeId [in]
-
+### -param TypeId 
+[in]
 Specifies the type ID of the type of the variable.
 
 
-### -param Buffer [out]
-
+### -param Buffer 
+[out]
 Receives the data that was read.
 
 
-### -param BufferSize [in]
-
+### -param BufferSize 
+[in]
 Specifies the size in bytes of the buffer <i>Buffer</i>.  This is the maximum number of bytes that will be read.
 
 
-### -param BytesRead [out, optional]
-
+### -param BytesRead 
+[out, optional]
 Receives the number of bytes that were read.  If <i>BytesRead</i> is <b>NULL</b>, this information is not returned.
 
 

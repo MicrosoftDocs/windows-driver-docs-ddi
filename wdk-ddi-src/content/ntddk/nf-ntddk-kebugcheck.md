@@ -55,8 +55,8 @@ The <b>KeBugCheck</b> routine brings down the system in a controlled manner when
 
 
 
-### -param BugCheckCode [in]
-
+### -param BugCheckCode 
+[in]
 Specifies a value that indicates the reason for the bug check. 
 
 

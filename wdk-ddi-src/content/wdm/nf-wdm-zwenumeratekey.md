@@ -56,18 +56,18 @@ The <b>ZwEnumerateKey</b> routine returns information about a subkey of an open 
 
 
 
-### -param KeyHandle [in]
-
+### -param KeyHandle 
+[in]
 Handle to the registry key that contains the subkeys to be enumerated. The handle is created by a successful call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey">ZwOpenKey</a>. 
 
 
-### -param Index [in]
-
+### -param Index 
+[in]
 The index of the subkey that you want information for. If the key has <i>n</i> subkeys, the subkeys are numbered from 0 to <i>n</i>-1. 
 
 
-### -param KeyInformationClass [in]
-
+### -param KeyInformationClass 
+[in]
 Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_key_information_class">KEY_INFORMATION_CLASS</a> enumeration value that determines the type of information to be received by the <i>KeyInformation</i> buffer. Set <i>KeyInformationClass</i> to one of the following values:
 
 <ul>
@@ -78,18 +78,18 @@ Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm
 If any value not in this list is specified, the routine returns error code STATUS_INVALID_PARAMETER.
 
 
-### -param KeyInformation [out, optional]
-
+### -param KeyInformation 
+[out, optional]
 Pointer to a caller-allocated buffer that receives the requested information. The <i>KeyInformationClass</i> parameter determines the type of information provided. 
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 Specifies the size, in bytes, of the <i>KeyInformation</i> buffer. 
 
 
-### -param ResultLength [out]
-
+### -param ResultLength 
+[out]
 Pointer to a variable that receives the size, in bytes, of the registry-key information. If <b>ZwEnumerateKey</b> returns STATUS_SUCCESS, you can use the value of this variable to determine the amount of data returned. If the routine returns STATUS_BUFFER_OVERFLOW or STATUS_BUFFER_TOO_SMALL, you can use the value of this variable to determine the size of buffer required to hold the key information. 
 
 

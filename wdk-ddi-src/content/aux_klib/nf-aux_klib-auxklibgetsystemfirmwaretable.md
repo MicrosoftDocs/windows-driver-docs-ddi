@@ -56,8 +56,8 @@ The <b>AuxKlibGetSystemFirmwareTable</b> routine retrieves the specified firmwar
 
 
 
-### -param FirmwareTableProviderSignature [in]
-
+### -param FirmwareTableProviderSignature 
+[in]
 The identifier of the firmware table provider to which the query is to be directed. This parameter can be one of the following values.
 
 <table>
@@ -99,8 +99,8 @@ The raw SMBIOS firmware table provider.
  
 
 
-### -param FirmwareTableID [in]
-
+### -param FirmwareTableID 
+[in]
 The identifier of the firmware table. The characters in the identifier are in little-endian order.
 
 For example, FACP is the name of a table provided by ACPI. The FACP table is identified by the 4-byte value 'PCAF' (0x50434146) in the <b>Signature</b> field of the <b>DESCRIPTION_HEADER</b> structure at the start of the table. The following code example shows how to specify FACP in an <b>AuxKlibGetSystemFirmwareTable</b> call:
@@ -110,18 +110,18 @@ For example, FACP is the name of a table provided by ACPI. The FACP table is ide
 In this example, <code>pBuffer</code> points to the caller-allocated buffer, <code>BUFSIZE</code> is the size in bytes of this buffer, and <code>dataSize</code> is a variable to which the routine writes the number of bytes written to the buffer. For more information about the <b>DESCRIPTION_HEADER</b> structure, see the Advanced Configuration and Power Interface Specification at the <a href="https://go.microsoft.com/fwlink/p/?linkid=57185">Advanced Configuration and Power Interface</a> website.
 
 
-### -param FirmwareTableBuffer [out, optional]
-
+### -param FirmwareTableBuffer 
+[out, optional]
 A pointer to a caller-allocated buffer that receives the list of firmware tables. If this parameter is NULL, the value written to *<i>ReturnLength</i> is the required buffer size. For more information about the contents of this buffer, see the Remarks section.
 
 
-### -param BufferLength [in]
-
+### -param BufferLength 
+[in]
 The size, in bytes, of the buffer pointed to by <i>FirmwareTableBuffer</i>.
 
 
-### -param ReturnLength [out, optional]
-
+### -param ReturnLength 
+[out, optional]
 A pointer to a location to which the routine writes the number of bytes of data written to the buffer pointed to by <i>FirmwareTableBuffer</i>.
 
 

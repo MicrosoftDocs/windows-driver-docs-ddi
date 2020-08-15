@@ -55,18 +55,18 @@ The <b>FltGetSectionContext</b> routine retrieves a section context that was cre
 
 
 
-### -param Instance [in]
-
+### -param Instance 
+[in]
 An opaque instance pointer for the minifilter driver instance whose context is to be retrieved. 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 A pointer to a file object for the stream. 
 
 
-### -param Context [out]
-
+### -param Context 
+[out]
 A pointer to a caller-allocated variable that receives the address of the context. 
 
 

@@ -57,16 +57,16 @@ The
 
 
 
-### -param NdisProviderHandle [in]
-
+### -param NdisProviderHandle 
+[in]
 A handle that identifies the network interface provider that is registering the interface. The
      caller obtained this handle from a previous call to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifregisterprovider">
      NdisIfRegisterProvider</a> function.
 
 
-### -param NetLuid [in]
-
+### -param NetLuid 
+[in]
 The caller-supplied 
      <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> value that is associated with the
      interface. The interface provider used the 
@@ -76,15 +76,15 @@ The caller-supplied
      interface.
 
 
-### -param ProviderIfContext [in]
-
+### -param ProviderIfContext 
+[in]
 A handle to a caller-allocated context area that is associated with the interface. NDIS passes
      this handle to the callback functions that the caller registered with 
      <b>NdisIfRegisterProvider</b>.
 
 
-### -param pIfInfo [in]
-
+### -param pIfInfo 
+[in]
 A pointer to a caller-allocated 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_if_information">NET_IF_INFORMATION</a> structure that
      provides information about the interface. This structure contains information that remains constant

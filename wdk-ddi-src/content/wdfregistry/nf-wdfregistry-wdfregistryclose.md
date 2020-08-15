@@ -60,8 +60,8 @@ The <b>WdfRegistryClose</b> method closes the registry key that is associated wi
 
 
 
-### -param Key [in]
-
+### -param Key 
+[in]
 A handle to a registry-key object that represents an opened registry key.
 
 

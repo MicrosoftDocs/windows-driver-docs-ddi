@@ -55,13 +55,13 @@ The filter driver's implementation to set a configurable property on the charger
 
 
 
-### -param Context [in]
-
+### -param Context 
+[in]
     A pointer to a driver-defined context.
 
 
-### -param Property [in]
-
+### -param Property 
+[in]
     A pointer to a <b>CONFIGURABLE_CHARGER_PROPERTY_HEADER</b> structure (defined in charging.h) that describes the configurable charger property to set.
 
 

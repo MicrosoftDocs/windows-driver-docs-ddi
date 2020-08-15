@@ -58,13 +58,13 @@ req.typenames:
 
 
 
-### -param CorrelationVector [in, out]
-
+### -param CorrelationVector 
+[in, out]
 A pointer to a  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-correlation_vector">CORRELATION_VECTOR</a> structure that represents the correlation vector to be initialized.
 
 
-### -param Version [in]
-
+### -param Version 
+[in]
 The version of the correlation vector. Possible values are: 
 
 <ul>
@@ -73,8 +73,8 @@ The version of the correlation vector. Possible values are:
 <li>RTL_CORRELATION_VECTOR_VERSION_CURRENT</li>
 </ul>
 
-### -param Guid [in]
-
+### -param Guid 
+[in]
 The GUID to initialize the correlation vector. The first 22 bytes
             of the correlation vector are a base64 representation of the GUID. This value must not be NULL.
 

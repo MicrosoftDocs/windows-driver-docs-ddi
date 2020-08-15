@@ -55,8 +55,8 @@ The <code>IPrintTicketProvider::QueryDeviceNamespace</code> method queries the d
 
 
 
-### -param pDefaultNamespace [out]
-
+### -param pDefaultNamespace 
+[out]
 A pointer to a BSTR that receives the namespace URI. The driver places the namespace URI in the buffer that is pointed to by <i>pDefaultNamespace</i>.
 
 <code>IPrintTicketProvider::QueryDeviceNamespace</code> is responsible for allocating the string by means of a call to <b>SysAllocString</b> (described in the Microsoft Windows SDK documentation), but the caller is responsible for freeing the string.

@@ -57,8 +57,8 @@ The <b>GetWindbgExtensionApis64</b> method returns a structure that facilitates 
 
 
 
-### -param Api [in, out]
-
+### -param Api 
+[in, out]
 Receives a WINDBG_EXTENSION_APIS64 structure.  This structure contains the functions used by the WdbgExts API.  The <b>nSize</b> member of this structure must be set to the size of the structure before it is passed to this method.
 
 

@@ -60,8 +60,8 @@ The
 
 
 
-### -param ProtocolVcContext [in]
-
+### -param ProtocolVcContext 
+[in]
 A handle to a protocol driver-allocated context area in which this driver maintains the
      per-virtual connection (VC) run-time state information. A client or stand-alone call manager supplied
      this handle either when it called the 
@@ -69,8 +69,8 @@ A handle to a protocol driver-allocated context area in which this driver mainta
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a> function.
 
 
-### -param NetBufferLists [in]
-
+### -param NetBufferLists 
+[in]
 A pointer to a list of 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures that the
      protocol driver supplied in a previous call to the 
@@ -78,8 +78,8 @@ A pointer to a list of
      NdisCoSendNetBufferLists</a> function.
 
 
-### -param SendCompleteFlags [in]
-
+### -param SendCompleteFlags 
+[in]
 NDIS flags that can be combined with a bitwise OR operation. To clear all of the flags, set this
      parameter to zero. 
      <i>ProtocolCoSendNetBufferListsComplete</i> supports the NDIS_SEND_COMPLETE_FLAGS_DISPATCH_LEVEL flag,

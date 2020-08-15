@@ -56,32 +56,32 @@ A miniport driver calls the <b>NdisMEnableVirtualization</b> function during the
 
 
 
-### -param NdisMiniportHandle [in]
-
+### -param NdisMiniportHandle 
+[in]
 The network adapter handle that NDIS passed to the 
      <i>MiniportAdapterHandle</i> parameter of 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
 
 
-### -param NumVFs [in]
-
+### -param NumVFs 
+[in]
 A USHORT value that contains the number of  Virtual Functions (VFs) that are to be enabled for the network adapter.  <b>NdisMEnableVirtualization</b> sets the <b>NumVFs</b> member of the SR-IOV Extended Capability structure to the value of the <i>NumVFs</i> parameter. 
 
 <div class="alert"><b>Note</b>  If the <i>EnableVirtualization</i> parameter is FALSE, <i>NumVFs</i> must be set to zero.</div>
 <div> </div>
 
-### -param EnableVFMigration [in]
-
+### -param EnableVFMigration 
+[in]
  This parameter is reserved for NDIS and must be set to FALSE.
 
 
-### -param EnableMigrationInterrupt [in]
-
+### -param EnableMigrationInterrupt 
+[in]
  This parameter is reserved for NDIS and must be set to FALSE.
 
 
-### -param EnableVirtualization [in]
-
+### -param EnableVirtualization 
+[in]
 A BOOLEAN value that specifies whether  virtualization should be enabled in the PCI configuration space of the network adapter.  If <i>EnableVirtualization</i> is TRUE, <b>NdisMEnableVirtualization</b> sets the <b>VF Enable</b> bit  of the SR-IOV Control member. <b>NdisMEnableVirtualization</b> clears this bit if <i>EnableVirtualization</i> is FALSE.
 
 

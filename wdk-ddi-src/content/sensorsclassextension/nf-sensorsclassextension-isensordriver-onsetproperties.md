@@ -56,23 +56,23 @@ The <b>ISensorDriver::OnSetProperties</b> method specifies values for the specif
 
 
 
-### -param pClientFile [in]
-
+### -param pClientFile 
+[in]
 Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdffile">IWDFFile</a> interface that represents the file object for the application specifying property values.
 
 
-### -param pwszSensorID [in]
-
+### -param pwszSensorID 
+[in]
 <b>LPWSTR</b> that contains the ID for the sensor for which the client application is specifying property values.
 
 
-### -param pPropertiesToSet [in]
-
+### -param pPropertiesToSet 
+[in]
 Pointer to an <a href="https://go.microsoft.com/fwlink/p/?linkid=131486">IPortableDeviceValues</a> interface that contains the list of properties to set and their values.
 
 
-### -param ppResults [out]
-
+### -param ppResults 
+[out]
 Address of an <a href="https://go.microsoft.com/fwlink/p/?linkid=131486">IPortableDeviceValues</a> pointer that receives the list of properties that have been set successfully and their new values. If a property was not set, the new value contains an HRESULT error code.
 
 

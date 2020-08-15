@@ -55,8 +55,8 @@ An AVStream minidriver's <i>AVStrMiniDeviceAdd</i> routine notifies the minidriv
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice">KSDEVICE</a> structure describing the functional device object (FDO) that has just been created.
 
 

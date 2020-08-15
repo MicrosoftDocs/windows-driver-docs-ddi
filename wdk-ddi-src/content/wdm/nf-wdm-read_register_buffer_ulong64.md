@@ -71,18 +71,18 @@ void READ_REGISTER_BUFFER_ULONG64(
 
 
 
-### -param Register [in]
-
+### -param Register 
+[in]
 A pointer to the register, which must be a mapped range in memory space.
 
 
-### -param Buffer [out]
-
+### -param Buffer 
+[out]
 A pointer to a buffer into which an array of ULONG64 values is read.
 
 
-### -param Count [in]
-
+### -param Count 
+[in]
 Specifies the number of ULONG64 values to be read into the buffer.
 
 

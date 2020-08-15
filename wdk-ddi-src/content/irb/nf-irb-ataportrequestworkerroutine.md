@@ -55,8 +55,8 @@ The <b>AtaPortRequestWorkerRoutine</b> routine requests a worker routine.
 
 
 
-### -param ChannelExtension [in]
-
+### -param ChannelExtension 
+[in]
 A pointer to the channel extension. 
 
 

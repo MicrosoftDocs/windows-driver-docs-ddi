@@ -55,13 +55,13 @@ The <b>FsRtlIsDbcsInExpression</b> routine determines whether an ANSI or double-
 
 
 
-### -param Expression [in]
-
+### -param Expression 
+[in]
 A pointer to the pattern string. Can contain wildcard characters.
 
 
-### -param Name [in]
-
+### -param Name 
+[in]
 A pointer to the string to be compared against the pattern. Cannot contain wildcard characters.
 
 

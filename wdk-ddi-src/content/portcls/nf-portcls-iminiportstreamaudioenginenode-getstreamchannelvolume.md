@@ -55,13 +55,13 @@ Gets the current volume level that is applied to the audio stream.
 
 
 
-### -param ulChannel [in]
-
+### -param ulChannel 
+[in]
 The audio stream channel.
 
 
-### -param plValue [out]
-
+### -param plValue 
+[out]
 The current volume level.
 
 

@@ -64,11 +64,11 @@ The <code>OEMEscape</code> function retrieves information from a device that is 
 ### -param cjIn
 
 
-### -param pvIn [in]
-
+### -param pvIn 
+[in]
 
 ### -param cjOut
 
 
-### -param pvOut [out]
-
+### -param pvOut 
+[out]

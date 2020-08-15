@@ -55,18 +55,18 @@ req.typenames:
 
 
 
-### -param StackSize [in]
-
+### -param StackSize 
+[in]
 The stack size to allocate for the IRP. 
 
 
-### -param ChargeQuota [in]
-
+### -param ChargeQuota 
+[in]
 This parameter should be set to <b>FALSE</b> by intermediate drivers. This can be set to <b>TRUE</b> only by highest-level drivers that are called in the context of the thread that originates the I/O request for which the driver is allocating another IRP. 
 
 
-### -param Buffer [in]
-
+### -param Buffer 
+[in]
 A pointer to the buffer that contains the memory descriptor list to be associated with this IRP.
 
 

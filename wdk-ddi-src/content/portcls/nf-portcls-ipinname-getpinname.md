@@ -55,18 +55,18 @@ The <code>GetPinName</code> method retrieves the friendly name of an audio endpo
 
 
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 Specifies a pointer to an I/O request packet (IRP) structure. 
 
 
-### -param Pin [in]
-
+### -param Pin 
+[in]
 Specifies a pointer to the underlying kernel streaming (KS) pin.
 
 
-### -param Data [out]
-
+### -param Data 
+[out]
 Specifies a pointer to the buffer that holds the data for the <code>GetPinName</code> method.
 
 

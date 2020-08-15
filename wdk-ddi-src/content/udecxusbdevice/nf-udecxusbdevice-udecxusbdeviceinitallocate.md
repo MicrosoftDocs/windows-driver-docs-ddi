@@ -56,8 +56,8 @@ Allocates memory for a  <b>UDECXUSBDEVICE_INIT</b> structure that is used to ini
 
 
 
-### -param UdecxWdfDevice [in]
-
+### -param UdecxWdfDevice 
+[in]
 A handle to a framework device object that represents the a USB device. The client driver initialized this object in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxwdfdevice/nf-udecxwdfdevice-udecxwdfdeviceaddusbdeviceemulation">UdecxWdfDeviceAddUsbDeviceEmulation</a>.
 
 

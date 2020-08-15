@@ -55,8 +55,8 @@ The <b>IoGetContainerInformation</b> routine provides information about the curr
 
 
 
-### -param InformationClass [in]
-
+### -param InformationClass 
+[in]
 Specifies the class of events for which the caller (driver) requests information. Set this parameter to the following <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_io_container_information_class">IO_CONTAINER_INFORMATION_CLASS</a> enumeration value:
 
 <ul>
@@ -68,18 +68,18 @@ Specifies the class of events for which the caller (driver) requests information
 For more information, see the following Remarks section. 
 
 
-### -param ContainerObject [in, optional]
-
+### -param ContainerObject 
+[in, optional]
 A pointer to an opaque, system object supplied by the I/O manager. For <i>InformationClass</i> = <b>IoSessionStateInformation</b>, set this parameter to the <i>SessionObject</i> parameter value that is provided by the I/O manager during the call to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_session_notification_function">IO_SESSION_NOTIFICATION_FUNCTION</a> function. 
 
 
-### -param Buffer [in, out]
-
+### -param Buffer 
+[in, out]
 A pointer to a caller-allocated buffer into which this routine writes the state information for the event class specified by <i>InformationClass</i>. For <i>InformationClass</i> = <b>IoSessionStateInformation</b>, the routine writes an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_session_state_information">IO_SESSION_STATE_INFORMATION</a> structure to the buffer. The buffer must be large enough to contain this structure. 
 
 
-### -param BufferLength [in]
-
+### -param BufferLength 
+[in]
 The size, in bytes, of the buffer pointed to by <i>Buffer</i>. For <i>InformationClass</i> = IoSessionStateInformation, <i>BufferLength</i> must be at least <b>sizeof</b>(<b>IO_SESSION_STATE_INFORMATION</b>). 
 
 

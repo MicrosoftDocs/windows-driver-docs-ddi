@@ -56,23 +56,23 @@ The filter engine calls a callout's
 
 
 
-### -param inFixedValues [in]
-
+### -param inFixedValues 
+[in]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_incoming_values0">FWPS_INCOMING_VALUES0</a> structure. This
      structure contains the values for each of the data fields at the layer being filtered.
 
 
-### -param inMetaValues [in]
-
+### -param inMetaValues 
+[in]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_incoming_metadata_values0_">
      FWPS_INCOMING_METADATA_VALUES0</a> structure. This structure contains the values for each of the
      metadata fields at the layer being filtered.
 
 
-### -param layerData [in, out]
-
+### -param layerData 
+[in, out]
 A pointer to a structure that describes the raw data at the layer being filtered. This parameter
      might be <b>NULL</b>, depending on the layer being filtered and the conditions under which the 
      <i>classifyFn0</i> callout function is called. For the stream layer, this parameter points to an 
@@ -82,23 +82,23 @@ A pointer to a structure that describes the raw data at the layer being filtered
      <b>NULL</b>.
 
 
-### -param filter [in]
-
+### -param filter 
+[in]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter0_">FWPS_FILTER0</a> structure. This structure
      describes the filter that specifies the callout for the filter's action.
 
 
-### -param flowContext [in]
-
+### -param flowContext 
+[in]
 A UINT64-typed variable that contains the context associated with the data flow. If no context is
      associated with the data flow, then this parameter is zero. If the callout is added to the filter engine
      at a filtering layer that does not support data flows, the 
      <i>classifyFn0</i> callout function should ignore this parameter.
 
 
-### -param classifyOut [in, out]
-
+### -param classifyOut 
+[in, out]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_classify_out0_">FWPS_CLASSIFY_OUT0</a> structure that
      receives any data that the 

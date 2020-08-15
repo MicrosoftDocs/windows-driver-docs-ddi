@@ -57,13 +57,13 @@ req.typenames:
 
 
 
-### -param hOsAdapterContext [in]
-
+### -param hOsAdapterContext 
+[in]
 This is the OS context handle for this adapter returned by the <b>IddCxStart</b> call
 
 
-### -param pInArgs [in]
-
+### -param pInArgs 
+[in]
 Input arguments to the function
 
 

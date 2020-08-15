@@ -55,8 +55,8 @@ The <b>KsGetCurrentCommunication</b> method retrieves the current communication 
 
 
 
-### -param Communication [out, optional]
-
+### -param Communication 
+[out, optional]
 Pointer to a variable that receives one of the following values from the KSPIN_COMMUNICATION enumerated type describing the current communication direction for a pin: 
 
 <table>
@@ -118,13 +118,13 @@ The pin cannot connect to other pins, but instances may be created on it to rece
  
 
 
-### -param Interface [out, optional]
-
+### -param Interface 
+[out, optional]
 Pointer to a variable that receives a <a href="https://docs.microsoft.com/previous-versions/ff563537(v=vs.85)">KSPIN_INTERFACE</a> structure that describes the current interface for a pin. 
 
 
-### -param Medium [out, optional]
-
+### -param Medium 
+[out, optional]
 Pointer to a variable that receives a <a href="https://docs.microsoft.com/previous-versions/ff563538(v=vs.85)">KSPIN_MEDIUM</a> structure that describes the current medium for a pin. 
 
 

@@ -55,8 +55,8 @@ Gets a value that indicates whether the Enhanced Device Test (EDT) filter driver
 
 
 
-### -param pbRebootRequired [out, retval]
-
+### -param pbRebootRequired 
+[out, retval]
 True if reboot is required; otherwise, false.
 
 

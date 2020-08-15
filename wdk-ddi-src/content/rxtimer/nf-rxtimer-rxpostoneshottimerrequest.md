@@ -55,28 +55,28 @@ req.typenames:
 
 
 
-### -param pDeviceObject [in]
-
+### -param pDeviceObject 
+[in]
 A pointer to the device object to be associated with this timer. 
 
 
-### -param pWorkItem [in]
-
+### -param pWorkItem 
+[in]
 A pointer to the worker item.
 
 
-### -param Routine [in]
-
+### -param Routine 
+[in]
 A pointer to the worker thread routine to call when this timer expires. 
 
 
-### -param pContext [in]
-
+### -param pContext 
+[in]
 A pointer to the context parameter associated with this timer.
 
 
-### -param TimeInterval [in]
-
+### -param TimeInterval 
+[in]
 The time interval, in 100-nanosecond ticks.
 
 

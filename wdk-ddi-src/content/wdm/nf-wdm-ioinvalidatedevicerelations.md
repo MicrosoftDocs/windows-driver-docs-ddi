@@ -55,13 +55,13 @@ The <b>IoInvalidateDeviceRelations</b> routine notifies the PnP manager that the
 
 
 
-### -param DeviceObject [in]
-
+### -param DeviceObject 
+[in]
 Pointer to the PDO for the device.
 
 
-### -param Type [in]
-
+### -param Type 
+[in]
 Specifies a <b>DEVICE_RELATION_TYPE</b> enumeration value that describes the type of relations that have changed. Possible values include <b>BusRelations</b>, <b>EjectionRelations</b>, <b>RemovalRelations</b>, and <b>TargetDeviceRelation</b>. Starting with Windows 7, the <b>PowerRelations</b> value is also supported.
 
 

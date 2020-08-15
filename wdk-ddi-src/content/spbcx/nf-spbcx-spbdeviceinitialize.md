@@ -56,13 +56,13 @@ The <b>SpbDeviceInitialize</b> method completes the initialization of the SPB co
 
 
 
-### -param FxDevice [in]
-
+### -param FxDevice 
+[in]
 A WDFDEVICE handle to the device object that represents the SPB controller.
 
 
-### -param Config [in]
-
+### -param Config 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/spbcx/ns-spbcx-_spb_controller_config">SPB_CONTROLLER_CONFIG</a> structure that contains the device configuration information for the SPB controller driver.  This structure must have been initialized by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spb_controller_config_init">SPB_CONTROLLER_CONFIG_INIT</a> function.
 
 

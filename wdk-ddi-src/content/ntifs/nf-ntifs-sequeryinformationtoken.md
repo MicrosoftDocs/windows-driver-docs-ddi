@@ -55,18 +55,18 @@ The <b>SeQueryInformationToken</b> routine retrieves a specified type of informa
 
 
 
-### -param Token [in]
-
+### -param Token 
+[in]
 A pointer to an access token from which information is to be retrieved. If <i>TokenInformationClass</i> is set to <i>TokenSource</i>, the handle must have TOKEN_QUERY_SOURCE access. For all other <i>TokenInformationClass</i> values, the handle must have TOKEN_QUERY access. 
 
 
-### -param TokenInformationClass [in]
-
+### -param TokenInformationClass 
+[in]
 A value from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ne-ntifs-_token_information_class">TOKEN_INFORMATION_CLASS</a> enumerated type that identifies the type of information to be retrieved. 
 
 
-### -param TokenInformation [out]
-
+### -param TokenInformation 
+[out]
 If STATUS_SUCCESS is returned, 
 	  <i>TokenInformation</i> receives a pointer to a 
 	  location that contains the address of a buffer that holds the requested 

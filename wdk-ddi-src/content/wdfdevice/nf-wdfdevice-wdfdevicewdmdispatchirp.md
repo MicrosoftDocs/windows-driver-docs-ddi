@@ -60,18 +60,18 @@ The <b>WdfDeviceWdmDispatchIrp</b> method returns a dispatched IRP to the framew
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object.
 
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 A pointer to an IRP structure.
 
 
-### -param DispatchContext [in]
-
+### -param DispatchContext 
+[in]
 The dispatch context parameter the driver received in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdfdevice_wdm_irp_dispatch">EvtDeviceWdmIrpDispatch</a>  callback.
 
 

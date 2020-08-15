@@ -57,8 +57,8 @@ Puts the system into Connected Standby state and
 
 
 
-### -param TimeInMs [in]
-
+### -param TimeInMs 
+[in]
 Specifies how much time (in milliseconds) has to pass 
     before exiting Connected Standby.
 

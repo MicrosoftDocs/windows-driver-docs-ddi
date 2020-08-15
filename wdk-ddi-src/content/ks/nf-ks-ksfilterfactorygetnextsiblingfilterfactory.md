@@ -55,8 +55,8 @@ The<b> KsFilterFactoryGetNextSiblingFilterFactory</b> function returns the next 
 
 
 
-### -param FilterFactory [in]
-
+### -param FilterFactory 
+[in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilterfactory">KSFILTERFACTORY</a> for which to return the next filter factory of its parent device.
 
 

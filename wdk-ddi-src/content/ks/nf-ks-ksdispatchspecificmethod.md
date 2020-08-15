@@ -58,13 +58,13 @@ The function can only be called at PASSIVE_LEVEL.
 
 
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 Specifies the IRP with the method request being dispatched.
 
 
-### -param Handler [in]
-
+### -param Handler 
+[in]
 Specifies the pointer to the specific method handler.
 
 

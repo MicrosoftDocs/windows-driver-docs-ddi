@@ -58,8 +58,8 @@ The <b>WdfChildListBeginScan</b> method prepares a specified list of child devic
 
 
 
-### -param ChildList [in]
-
+### -param ChildList 
+[in]
 A handle to a framework child list object.
 
 

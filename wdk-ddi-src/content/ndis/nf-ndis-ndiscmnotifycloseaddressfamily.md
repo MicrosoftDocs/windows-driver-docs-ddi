@@ -59,8 +59,8 @@ The
 
 
 
-### -param NdisAfHandle [in]
-
+### -param NdisAfHandle 
+[in]
 An NDIS handle that identifies the AF that NDIS should close. NDIS supplied this handle to the
      call manager's 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_open_af">ProtocolCmOpenAf</a> function.

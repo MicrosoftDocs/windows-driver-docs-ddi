@@ -55,18 +55,18 @@ Sends an asynchronous message to the user-mode display driver.
 
 
 
-### -param MiracastHandle [in]
-
+### -param MiracastHandle 
+[in]
 A driver-supplied handle to the Miracast display device. This handle was originally passed in the <b>MiracastHandle</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_miracast_display_callbacks">DXGK_MIRACAST_DISPLAY_CALLBACKS</a> structure in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_miracast_create_context">DxgkDdiMiracastCreateContext</a> function.
 
 
-### -param InputBufferSize [in]
-
+### -param InputBufferSize 
+[in]
 The size, in bytes, of the input buffer pointed to by <i>pInputBuffer</i>.
 
 
-### -param pInputBuffer [in]
-
+### -param pInputBuffer 
+[in]
 A pointer to the input buffer. <i>InputBufferSize</i> specifies the size of the buffer.
 
 See Remarks for more info about the input buffer.
@@ -76,15 +76,15 @@ See Remarks for more info about the input buffer.
 
 [in] The size, in bytes, of the output buffer pointed to by <i>pOutputBuffer</i>.
 
-### -param pOutputBuffer [out]
-
+### -param pOutputBuffer 
+[out]
 A pointer to the output buffer. <i>OutBufferSize</i> specifies the size of the buffer.
 
 See Remarks for more info about the output buffer.
 
 
-### -param pCallback [in, optional]
-
+### -param pCallback 
+[in, optional]
 An optional pointer, supplied by the display miniport driver, to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_miracast_send_message_callback">DxgkCbMiracastSendMessageCallback</a> callback function.
 
 If the display miniport driver supplies the pointer to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_miracast_send_message_callback">DxgkCbMiracastSendMessageCallback</a>, then after the user-mode driver handles the message, the operating system sends a message to the user-mode driver asynchronously by calling <b>DxgkCbMiracastSendMessageCallback</b>.
@@ -92,8 +92,8 @@ If the display miniport driver supplies the pointer to <a href="https://docs.mic
 See Return value and Remarks sections for more about calls to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_miracast_send_message_callback">DxgkCbMiracastSendMessageCallback</a>.
 
 
-### -param pCallbackContext [in, optional]
-
+### -param pCallbackContext 
+[in, optional]
 An optional driver-supplied pointer to the driver-supplied callback context. The operating system passes this context to the driver-supplied callback routine after the operation has completed.
 
 

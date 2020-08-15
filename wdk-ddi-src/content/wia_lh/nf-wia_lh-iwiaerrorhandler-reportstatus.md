@@ -55,28 +55,28 @@ The <b>ReportStatus</b> method displays information about an error or status dur
 
 
 
-### -param lFlags [in]
-
+### -param lFlags 
+[in]
 Currently unused. Should be set to zero. 
 
 
-### -param hwndParent [in]
-
+### -param hwndParent 
+[in]
 Caller supplied handle of the window that should be used as the parent window for any dialog boxes. If this is set to <b>NULL</b>, no dialog boxes should be displayed.
 
 
-### -param pWiaItem2 [in]
-
+### -param pWiaItem2 
+[in]
 Pointer to the <b>IWiaItem2</b> item being transferred. <b>IWiaItem2</b> is described in the Microsoft Windows SDK documentation.
 
 
-### -param hrStatus [in]
-
+### -param hrStatus 
+[in]
 HRESULT variable that contains the status code received by the WIA transfer method, for example the <b>IWiaDataCallback::BandedDataCallback</b> method (described in the Windows SDK documentation).
 
 
-### -param lPercentComplete [in]
-
+### -param lPercentComplete 
+[in]
 Size of the data, in bytes, the <i>pbData</i> pointer refers to.
 
 

@@ -57,13 +57,13 @@ A bus driver's <i>EvtDeviceResourceRequirementsQuery</i> event callback function
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object.
 
 
-### -param IoResourceRequirementsList [in]
-
+### -param IoResourceRequirementsList 
+[in]
 A handle to a framework resource-requirements-list object that represents an empty resource requirements list.
 
 

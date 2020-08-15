@@ -56,18 +56,18 @@ The <b>USBD_CalculateUsbBandwidth</b> routine has been deprecated in Windows XP 
 
 
 
-### -param MaxPacketSize [in]
-
+### -param MaxPacketSize 
+[in]
 Specifies the maximum packet size. 
 
 
-### -param EndpointType [in]
-
+### -param EndpointType 
+[in]
 Contains a value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ne-usb-_usbd_pipe_type">USBD_PIPE_TYPE</a> that specifies the pipe type.
 
 
-### -param LowSpeed [in]
-
+### -param LowSpeed 
+[in]
 Indicates, when <b>TRUE</b>, that the device is a low speed device. When <b>FALSE</b>, this member indicates that the device is a hi-speed device. 
 
 

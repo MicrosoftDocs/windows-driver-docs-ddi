@@ -61,13 +61,13 @@ The <b>BdaPropertyTemplateConnections</b> function retrieves a list of connectio
 
 
 
-### -param pKSProperty [in]
-
+### -param pKSProperty 
+[in]
 Points to a <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property and request type of the property request.
 
 
-### -param pConnectionProperty [out, optional]
-
+### -param pConnectionProperty 
+[out, optional]
 Points to an array that receives the list of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-kstopology_connection">KSTOPOLOGY_CONNECTION</a> structures that describe the connections in a template topology. 
 
 

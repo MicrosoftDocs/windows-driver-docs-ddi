@@ -57,13 +57,13 @@ The <b>WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_SETTING</b> function initial
 
 
 
-### -param Params [out]
-
+### -param Params 
+[out]
 A pointer to a driver-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/ns-wdfusb-_wdf_usb_interface_select_setting_params">WDF_USB_INTERFACE_SELECT_SETTING_PARAMS</a> structure.
 
 
-### -param SettingIndex [in]
-
+### -param SettingIndex 
+[in]
 An index value that identifies an alternate setting for the interface. (The interface is identified by an interface object handle that the driver passes to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbinterfaceselectsetting">WdfUsbInterfaceSelectSetting</a>.) 
 
 

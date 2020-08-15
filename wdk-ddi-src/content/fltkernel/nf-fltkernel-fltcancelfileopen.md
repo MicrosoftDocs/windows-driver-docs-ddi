@@ -55,13 +55,13 @@ A minifilter driver can use the <b>FltCancelFileOpen</b> routine to close a newl
 
 
 
-### -param Instance [in]
-
+### -param Instance 
+[in]
 Opaque instance pointer for the caller. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 File object pointer for the file. This parameter is required and cannot be <b>NULL</b>. 
 
 

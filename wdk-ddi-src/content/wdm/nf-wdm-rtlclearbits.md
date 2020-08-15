@@ -55,18 +55,18 @@ The <b>RtlClearBits</b> routine sets all bits in the specified range of bits in 
 
 
 
-### -param BitMapHeader [in]
-
+### -param BitMapHeader 
+[in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">RTL_BITMAP</a> structure that describes the bitmap. This structure must have been initialized by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlinitializebitmap">RtlInitializeBitMap</a> routine.
 
 
-### -param StartingIndex [in]
-
+### -param StartingIndex 
+[in]
 The index of the first bit in the bit range that is to be cleared. If the bitmap contains N bits, the bits are numbered from 0 to N-1.
 
 
-### -param NumberToClear [in]
-
+### -param NumberToClear 
+[in]
 Specifies how many bits to clear. If the bitmap contains N bits, this parameter can be a value in the range 1 to (N - <i>StartingIndex</i>).
 
 

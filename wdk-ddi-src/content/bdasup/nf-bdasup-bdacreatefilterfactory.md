@@ -56,18 +56,18 @@ The <b>BdaCreateFilterFactory</b> function adds the specified filter descriptor 
 
 
 
-### -param pKSDevice [in]
-
+### -param pKSDevice 
+[in]
 Points to the BDA device to which to add the filter factory with associated BDA template topology.
 
 
-### -param pFilterDescriptor [in]
-
+### -param pFilterDescriptor 
+[in]
 Points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter_descriptor">KSFILTER_DESCRIPTOR</a> structure that describes a filter for the BDA device. Note that not all of the template pin and node types may be exposed as pin and node factories when the filter is first initialized. 
 
 
-### -param pBdaFilterTemplate [in]
-
+### -param pBdaFilterTemplate 
+[in]
 Points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bdasup/ns-bdasup-_bda_filter_template">BDA_FILTER_TEMPLATE</a> structure that describes a BDA template topology. 
 
 

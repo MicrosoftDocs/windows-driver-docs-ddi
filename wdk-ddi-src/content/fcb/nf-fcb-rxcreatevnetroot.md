@@ -55,33 +55,33 @@ req.typenames:
 
 
 
-### -param RxContext [in]
-
+### -param RxContext 
+[in]
 A pointer to the RDBSS RX_CONTEXT containing the IRP describing a create operation.
 
 
-### -param NetRoot [in]
-
+### -param NetRoot 
+[in]
 A pointer to the associated NET_ROOT structure.
 
 
-### -param CanonicalName [in]
-
+### -param CanonicalName 
+[in]
 A pointer to the canonical name to be inserted in the name table.
 
 
-### -param LocalNetRootName [in]
-
+### -param LocalNetRootName 
+[in]
 A pointer to the local NET_ROOT name without the prefix name.
 
 
-### -param FilePath [in]
-
+### -param FilePath 
+[in]
 A pointer to a file pathname. This parameter is not currently used and can be <b>NULL</b>.
 
 
-### -param RxConnectionId [in]
-
+### -param RxConnectionId 
+[in]
 A pointer to the connection ID to be associated with the name to be inserted in the prefix name table. This parameter can be <b>NULL</b> in which case no connection ID will be associated with the name inserted in the name table.
 
 

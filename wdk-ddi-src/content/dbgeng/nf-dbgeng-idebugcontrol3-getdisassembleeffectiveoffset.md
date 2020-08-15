@@ -57,8 +57,8 @@ The <b>GetDisassembleEffectiveOffset</b> method returns the address of the last 
 
 
 
-### -param Offset [out]
-
+### -param Offset 
+[out]
 Receives the address in the target's memory of the effective offset from the last instruction disassembled.
 
 

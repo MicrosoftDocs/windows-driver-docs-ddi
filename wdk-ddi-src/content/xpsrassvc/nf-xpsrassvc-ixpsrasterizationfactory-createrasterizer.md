@@ -55,18 +55,18 @@ The <code>CreateRasterize</code> method creates an XPS rasterizer object.
 
 
 
-### -param xpsPage [in, optional]
-
+### -param xpsPage 
+[in, optional]
 Pointer to an <b>IXpsOMPage</b> object that represents the XPS fixed page to render. This object encapsulates a FixedPage section from an XPS document. For more information about <b>IXpsOMPage</b>, see <a href="https://go.microsoft.com/fwlink/p/?linkid=146349">IXpsOMPage</a><u>.</u>
 
 
-### -param DPI [in]
-
+### -param DPI 
+[in]
 Dots per inch in the rasterized output. This parameter applies to both the x and y dimensions of the output bitmap. The <i>DPI</i> value is the resolution of the device that is to print or display the XPS fixed page.
 
 
-### -param nonTextRenderingMode [in]
-
+### -param nonTextRenderingMode 
+[in]
 Rendering mode for nontext items in the rasterized output. This parameter indicates whether to generate antialiased output. Set this parameter to one of the following <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/xpsrassvc/ne-xpsrassvc-__midl___midl_itf_xpsrassvc_0000_0001_0001">XPSRAS_RENDERING_MODE</a> enumeration values:
 
 <ul>
@@ -80,8 +80,8 @@ XPSRAS_RENDERING_MODE_ALIASED
 </li>
 </ul>
 
-### -param textRenderingMode [in]
-
+### -param textRenderingMode 
+[in]
 Rendering mode for text in the rasterized output. This parameter indicates whether to generate antialiased output. Set this parameter to one of the following XPSRAS_RENDERING_MODE enumeration values:
 
 <ul>
@@ -95,8 +95,8 @@ XPSRAS_RENDERING_MODE_ALIASED
 </li>
 </ul>
 
-### -param ppIXPSRasterizer [out, optional]
-
+### -param ppIXPSRasterizer 
+[out, optional]
 This parameter points to a location into which the method writes a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/xpsrassvc/nn-xpsrassvc-ixpsrasterizer">IXpsRasterizer</a> interface of the newly created XPS rasterizer object. If the method fails, it writes <b>NULL</b> to this location and returns an error code.
 
 

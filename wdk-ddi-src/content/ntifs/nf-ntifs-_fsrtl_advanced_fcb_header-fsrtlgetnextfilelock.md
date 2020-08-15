@@ -58,13 +58,13 @@ The <b>FsRtlGetNextFileLock</b> routine is used to enumerate the byte-range lock
 
 
 
-### -param FileLock [in]
-
+### -param FileLock 
+[in]
 Pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to <b>FsRtlAllocateFileLock</b> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock">FsRtlInitializeFileLock</a>.
 
 
-### -param Restart [in]
-
+### -param Restart 
+[in]
 Set to <b>TRUE</b> if the enumeration is to start at the beginning of the list of byte range locks. Set to <b>FALSE</b> if resuming the enumeration from a previous call.
 
 To enumerate all byte-range locks for a given file, use <b>FsRtlGetNextFileLock</b> as follows:

@@ -58,23 +58,23 @@ The <b>RtlStringCchVPrintfW</b> and <b>RtlStringCchVPrintfA</b> functions create
 
 
 
-### -param pszDest [out]
-
+### -param pszDest 
+[out]
 A pointer to a caller-supplied buffer that receives a formatted, null-terminated string. The function creates this string from both the formatting string that is supplied by <i>pszFormat</i> and the arguments supplied by <i>argList</i>.
 
 
-### -param cchDest [in]
-
+### -param cchDest 
+[in]
 The size of the destination buffer, in characters. The buffer must be large enough to contain the formatted string plus the terminating null character. The maximum number of characters allowed is NTSTRSAFE_MAX_CCH.
 
 
-### -param pszFormat [in]
-
+### -param pszFormat 
+[in]
 A pointer to a null-terminated text string that contains <b>printf</b>-styled formatting directives.
 
 
-### -param argList [in]
-
+### -param argList 
+[in]
 A <b>va_list</b>-typed argument list. Arguments contained in the argument list will be interpreted by using the formatting string that is supplied by <i>pszFormat</i>.
 
 

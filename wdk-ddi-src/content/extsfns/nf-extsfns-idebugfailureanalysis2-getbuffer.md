@@ -55,18 +55,18 @@ The <b>GetBuffer</b> method searches a <a href="https://docs.microsoft.com/windo
 
 
 
-### -param Tag [in]
-
+### -param Tag 
+[in]
 A value in the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration.
 
 
-### -param Buf [out]
-
+### -param Buf 
+[out]
 A pointer to a buffer that receives the entry's data block.
 
 
-### -param Size [in]
-
+### -param Size 
+[in]
 The size, in bytes, of the buffer pointed to by <i>Buf</i>.
 
 

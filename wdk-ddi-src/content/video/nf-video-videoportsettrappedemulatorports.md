@@ -68,8 +68,8 @@ Pointer to the miniport driver's device extension.
 Specifies the number of elements in the <i>AccessRange</i> array.
 
 
-### -param AccessRange [in]
-
+### -param AccessRange 
+[in]
 Pointer to an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_access_range">VIDEO_ACCESS_RANGE</a> elements. Each element describes a proper subrange of the <b>EmulatorAccessEntries</b> that the miniport driver set up in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_port_config_info">VIDEO_PORT_CONFIG_INFO</a>. Setting the <b>RangeVisible</b> member of an <i>AccessRange</i> element to <b>TRUE</b> enables direct access to the I/O port range by the full-screen MS-DOS application. Setting a <b>RangeVisible</b> member to <b>FALSE</b> causes application-issued <b>IN</b>s, <b>INSB/INSW/INSD</b>s, <b>OUT</b>s and/or <b>OUTSB/OUTSW/OUTSD</b>s to that range to be trapped and forwarded to the corresponding miniport driver <i>SvgaHwIoPortXxx</i> function for validation.
 
 The <i>AccessRange</i> array passed to <b>VideoPortSetTrappedEmulatorPorts</b> must be a proper subset of the I/O port range(s) that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_find_adapter">HwVidFindAdapter</a> function set up in the <b>EmulatorAccessEntries</b> array of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_port_config_info">VIDEO_PORT_CONFIG_INFO</a> structure. Any I/O port ranges in the access ranges array that are not included in the <b>EmulatorAccessEntries</b> array are trapped and reflected to the user-mode <a href="https://docs.microsoft.com/windows-hardware/drivers/">VDD</a>.

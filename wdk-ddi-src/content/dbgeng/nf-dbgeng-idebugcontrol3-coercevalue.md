@@ -57,18 +57,18 @@ The <b>CoerceValue</b> method converts a value of one type into a value of anoth
 
 
 
-### -param In [in]
-
+### -param In 
+[in]
 Specifies the value to be converted
 
 
-### -param OutType [in]
-
+### -param OutType 
+[in]
 Specifies the desired type for the converted value. See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_value">DEBUG_VALUE</a> for possible values.
 
 
-### -param Out [out]
-
+### -param Out 
+[out]
 Receives the converted value.  The type of this value will be the type specified by <i>OutType</i>.
 
 

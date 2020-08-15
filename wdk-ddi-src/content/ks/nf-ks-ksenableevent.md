@@ -56,33 +56,33 @@ The <b>KsEnableEvent</b> function enables events requested through IOCTL_KS_ENAB
 
 
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 Specifies the IRP with the enable request being handled. The file object associated with the IRP is stored with the event for later comparison when disabling the event.
 
 
-### -param EventSetsCount [in]
-
+### -param EventSetsCount 
+[in]
 Indicates the number of event set structures being passed.
 
 
-### -param EventSet [in]
-
+### -param EventSet 
+[in]
 Specifies a pointer to the list of event set information.
 
 
-### -param EventsList [in, out]
-
+### -param EventsList 
+[in, out]
 If the enabling event's KSEVENT_SET.AddHandler for the event set is <b>NULL</b>, it must point to the head of the list of KSEVENT_ENTRY items on which the event is to be added. This function assumes a single list for at least a subset of events.
 
 
-### -param EventsFlags [in, optional]
-
+### -param EventsFlags 
+[in, optional]
 Specifies <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ne-ks-ksevents_locktype">KSEVENTS_LOCKTYPE</a> flags specifying the type of exclusion lock to be used in accessing the event list, if any. If no flag is set, then no lock is taken. If a handler is specified already, this parameter is ignored.
 
 
-### -param EventsLock [in, optional]
-
+### -param EventsLock 
+[in, optional]
 If the KSEVENT_SET.AddHandler for the event set containing the event being enabled is <b>NULL</b>, then this is used to synchronize access to the list. This value can be <b>NULL</b> if no flag is set in <i>EventsFlags</i>.
 
 

@@ -58,8 +58,8 @@ The <b>GetCurrentProcessPeb</b> method returns the process environment block (PE
 
 
 
-### -param Offset [out]
-
+### -param Offset 
+[out]
 Receives the location in the target's virtual address space of the PEB of the current process.
 
 

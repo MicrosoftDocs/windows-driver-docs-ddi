@@ -56,18 +56,18 @@ The <b>ExAllocateTimer</b> routine allocates and initializes a timer object.
 
 
 
-### -param Callback [in, optional]
-
+### -param Callback 
+[in, optional]
 A pointer to a driver-implemented <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-ext_callback">ExTimerCallback</a> callback routine. The operating system calls this routine when the timer expires. This parameter is optional and can be <b>NULL</b> if no callback routine is needed.
 
 
-### -param CallbackContext [in, optional]
-
+### -param CallbackContext 
+[in, optional]
 A context value for the callback routine pointed to by the <i>Callback</i> parameter. The operating system passes this value as a parameter to the <i>ExTimerCallback</i> callback routine, if one is specified. This parameter is typically a pointer to a caller-defined structure that contains context information used by the callback routine. This parameter is optional and can be set to <b>NULL</b> if no context information is needed.
 
 
-### -param Attributes [in]
-
+### -param Attributes 
+[in]
 The timer attributes. Set this parameter to zero or to the bitwise-OR of one or more of the following timer flag bits.
 
 <table>

@@ -57,17 +57,17 @@ The <b>WdfObjectQuery</b> method is not implemented.
 
 
 
-### -param Object [in]
+### -param Object 
+[in]
 
+### -param Guid 
+[in]
 
-### -param Guid [in]
+### -param QueryBufferLength 
+[in]
 
-
-### -param QueryBufferLength [in]
-
-
-### -param QueryBuffer [out]
-
+### -param QueryBuffer 
+[out]
 ## -remarks
 
 For more information about the cleanup rules for a framework object hierarchy, see [Framework Object Life Cycle](https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-object-life-cycle).

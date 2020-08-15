@@ -57,18 +57,18 @@ The <b>SetPowerPolicy</b> method sets the WinUsb power policy.
 
 
 
-### -param PolicyType [in]
-
+### -param PolicyType 
+[in]
 The type of WinUsb power policy that the UMDF driver sets.
 
 
-### -param ValueLength [in]
-
+### -param ValueLength 
+[in]
 The size, in bytes, of the buffer that <b>SetPowerPolicy</b> supplies in <i>Value</i>.
 
 
-### -param Value [in]
-
+### -param Value 
+[in]
 A pointer to the buffer that contains the WinUsb power policy.
 
 

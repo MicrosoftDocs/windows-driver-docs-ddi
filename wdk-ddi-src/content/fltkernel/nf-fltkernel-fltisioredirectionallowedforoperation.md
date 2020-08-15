@@ -55,23 +55,23 @@ The <b>FltIsIoRedirectionAllowedForOperation</b> routine determines whether I/O 
 
 
 
-### -param Data [in]
-
+### -param Data 
+[in]
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a> structure representing the I/O operation.
 
 
-### -param TargetInstance [in]
-
+### -param TargetInstance 
+[in]
 A filter instance on the target device stack.
 
 
-### -param RedirectionAllowedThisIo [out]
-
+### -param RedirectionAllowedThisIo 
+[out]
 A value of <b>TRUE</b> if this I/O can be redirected to the target device stack by changing the filter instance referenced.
 
 
-### -param RedirectionAllowedAllIo [out, optional]
-
+### -param RedirectionAllowedAllIo 
+[out, optional]
 This optional parameter has a value of <b>TRUE</b> if all I/O to the device stack to which the I/O operation is issued can be redirected to the target device by changing the filter instance referenced,  otherwise <b>FALSE</b>.
 
 

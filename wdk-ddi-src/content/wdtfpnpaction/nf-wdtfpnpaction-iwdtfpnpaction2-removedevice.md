@@ -55,8 +55,8 @@ Removes the device.
 
 
 
-### -param pbSuccess [out, retval]
-
+### -param pbSuccess 
+[out, retval]
 True if the operation succeeds; otherwise, false.
 
 

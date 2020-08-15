@@ -55,18 +55,18 @@ The <b>IoAttachDevice</b> routine attaches the caller's device object to a named
 
 
 
-### -param SourceDevice [in]
-
+### -param SourceDevice 
+[in]
 Pointer to the caller-created device object.
 
 
-### -param TargetDevice [in]
-
+### -param TargetDevice 
+[in]
 Pointer to a buffer containing the name of the device object to which the specified <i>SourceDevice</i> is to be attached.
 
 
-### -param AttachedDevice [out]
-
+### -param AttachedDevice 
+[out]
 Pointer to caller-allocated storage for a pointer. On return, contains a pointer to the target device object if the attachment succeeds.
 
 

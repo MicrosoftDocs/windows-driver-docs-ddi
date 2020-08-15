@@ -49,12 +49,12 @@ The **FltSupportsFileContextsEx** routine determines whether the file system or 
 
 ## -parameters
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 Pointer to the file object that represents the file whose file context support is being queried. This parameter is required and cannot be **NULL**.
 
-### -param Instance [in, optional]
-
+### -param Instance 
+[in, optional]
 Opaque instance pointer for the caller. This parameter is optional and can be **NULL**. For more information about this parameter, see the Remarks section of this page.
 
 ## -returns

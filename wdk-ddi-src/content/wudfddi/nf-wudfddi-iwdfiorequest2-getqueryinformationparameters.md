@@ -57,13 +57,13 @@ The <b>GetQueryInformationParameters</b> method retrieves parameters that are as
 
 
 
-### -param pInformationClass [out, optional]
-
+### -param pInformationClass 
+[out, optional]
 A pointer to a driver-allocated variable that receives a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdffileobject/ne-wdffileobject-_wdf_file_information_class">WDF_FILE_INFORMATION_CLASS</a>-typed value. This pointer is optional and can be <b>NULL</b>.
 
 
-### -param pSizeInBytes [out, optional]
-
+### -param pSizeInBytes 
+[out, optional]
 A pointer to a driver-allocated variable that receives the size, in bytes, of the file information. This pointer is optional and can be <b>NULL</b>.
 
 

@@ -56,23 +56,23 @@ The <b>ClfsAlignReservedLog</b> routine calculates the size of the space that mu
 
 
 
-### -param pvMarshalContext [in]
-
+### -param pvMarshalContext 
+[in]
 A pointer to an opaque context that represents a marshalling area associated with a CLFS stream. The caller previously obtained this pointer by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfscreatemarshallingarea">ClfsCreateMarshallingArea</a>.
 
 
-### -param cRecords [in]
-
+### -param cRecords 
+[in]
 The number of elements in the array pointed to by <i>rgcbReservation</i>.
 
 
-### -param rgcbReservation [in]
-
+### -param rgcbReservation 
+[in]
 A pointer to an array of LONGLONG-typed variables that supplies a list of record sizes (in bytes).
 
 
-### -param pcbAlignReservation [out]
-
+### -param pcbAlignReservation 
+[out]
 A pointer to a LONGLONG-typed variable that receives the size, in bytes, of the required reservation.
 
 

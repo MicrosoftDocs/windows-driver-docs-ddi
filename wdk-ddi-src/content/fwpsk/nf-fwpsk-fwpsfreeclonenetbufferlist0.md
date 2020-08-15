@@ -61,15 +61,15 @@ The
 
 
 
-### -param netBufferList [in, out]
-
+### -param netBufferList 
+[in, out]
 A pointer to the clone 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure that is being
      freed.
 
 
-### -param freeCloneFlags [in]
-
+### -param freeCloneFlags 
+[in]
 There are currently no flags defined for this function. Callout drivers should set this parameter
      to zero.
 

@@ -57,8 +57,8 @@ A driver's <i>EvtDeviceDisarmWakeFromS0</i> event callback function disarms (tha
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object.
 
 

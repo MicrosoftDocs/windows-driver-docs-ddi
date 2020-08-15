@@ -55,13 +55,13 @@ The <b>IoRegisterFsRegistrationChange</b> routine registers a file system filter
 
 
 
-### -param DriverObject [in]
-
+### -param DriverObject 
+[in]
 Pointer to the driver object for the file system filter driver.
 
 
-### -param DriverNotificationRoutine [in]
-
+### -param DriverNotificationRoutine 
+[in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nc-ntifs-driver_fs_notification">PDRIVER_FS_NOTIFICATION</a> routine, which the file system calls when it registers or unregisters itself.
 
 

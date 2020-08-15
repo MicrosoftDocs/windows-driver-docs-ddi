@@ -58,18 +58,18 @@ The<i> MRxIsLockRealizable</i> routine is called by <a href="https://docs.micros
 ### -param Fcb
 
 
-### -param ByteOffset [in]
-
+### -param ByteOffset 
+[in]
 A value indicating the byte offset for the byte range lock. 
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 A value indicating the length for the byte range lock. 
 
 
-### -param LowIoLockFlags [in]
-
+### -param LowIoLockFlags 
+[in]
 A value indicating the I/O lock flags. This parameter is a bitmask that contains any combination of the following values: 
 
 

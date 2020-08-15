@@ -55,13 +55,13 @@ The <code>SampleToRefTime</code> method converts a sample time to a reference ti
 
 
 
-### -param llSampleTime [in]
-
+### -param llSampleTime 
+[in]
 Specifies the sample time being passed in.
 
 
-### -param prfTime [out]
-
+### -param prfTime 
+[out]
 Output pointer for the reference time. This parameter is a pointer to a caller-allocated variable into which the method writes the calculated reference time. Reference time is measured in 100-nanosecond units.
 
 

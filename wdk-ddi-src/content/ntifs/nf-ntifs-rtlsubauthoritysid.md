@@ -56,8 +56,8 @@ The <b>RtlSubAuthoritySid</b> routine returns a pointer to a specified subauthor
 
 
 
-### -param Sid [in]
-
+### -param Sid 
+[in]
 Pointer to the SID structure. The SID must have been initialized by calling <b>RtlInitializeSid</b>.
 
 

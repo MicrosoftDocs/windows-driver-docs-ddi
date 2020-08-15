@@ -58,8 +58,8 @@ The <b>WdfWmiInstanceGetDevice</b> method returns a handle to the framework devi
 
 
 
-### -param WmiInstance [in]
-
+### -param WmiInstance 
+[in]
 A handle to a WMI instance object that the driver obtained from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfwmi/nf-wdfwmi-wdfwmiinstancecreate">WdfWmiInstanceCreate</a>.
 
 

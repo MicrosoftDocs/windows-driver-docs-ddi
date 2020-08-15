@@ -55,13 +55,13 @@ The <code>IPrintTicketProvider::GetPrintCapabilities</code> method queries the p
 
 
 
-### -param pPrintTicket [in]
-
+### -param pPrintTicket 
+[in]
 A pointer to the print ticket. The settings of the print ticket constrain the device capabilities.
 
 
-### -param ppCapabilities [out]
-
+### -param ppCapabilities 
+[out]
 A pointer to a variable that receives the address of the device capabilities document. 
 
 

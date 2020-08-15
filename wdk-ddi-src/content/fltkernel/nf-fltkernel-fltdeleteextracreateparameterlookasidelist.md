@@ -56,18 +56,18 @@ The <b>FltDeleteExtraCreateParameterLookasideList </b>routine frees an extra cre
 
 
 
-### -param Filter [in]
-
+### -param Filter 
+[in]
 Opaque filter pointer to the minifilter driver. This pointer uniquely identifies the minifilter driver and remains constant as long as the minifilter driver is loaded.
 
 
-### -param Lookaside [in, out]
-
+### -param Lookaside 
+[in, out]
 Pointer to an opaque <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">PAGED_LOOKASIDE_LIST</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">NPAGED_LOOKASIDE_LIST</a> lookaside  list-head structure that represents the lookaside list to be freed.
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 Communicates ECP lookaside list allocation options that were used when the lookaside list was initialized by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinitextracreateparameterlookasidelist">FltInitExtraCreateParameterLookasideList</a> routine. 
 
 This <i>Flags</i> parameter should be the same as the <i>Flags</i> parameter used in the call to the <b>FltInitExtraCreateParameterLookasideList</b> routine.

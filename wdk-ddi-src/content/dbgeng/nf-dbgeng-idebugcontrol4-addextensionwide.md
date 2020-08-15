@@ -55,18 +55,18 @@ The <b>AddExtensionWide</b>  method loads an extension library into the <a href=
 
 
 
-### -param Path [in]
-
+### -param Path 
+[in]
 Specifies the fully qualified path and file name of the extension library to load.
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 Set to zero.
 
 
-### -param Handle [out]
-
+### -param Handle 
+[out]
 Receives the handle of the loaded extension library.
 
 

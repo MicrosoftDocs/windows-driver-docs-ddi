@@ -55,13 +55,13 @@ The <code>AddEntry</code> method adds an entry to a resource list.
 
 
 
-### -param Translated [in]
-
+### -param Translated 
+[in]
 Pointer to a translated version of the entry. This parameter points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_descriptor">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure containing the translated version of the entry to be added.
 
 
-### -param Untranslated [in]
-
+### -param Untranslated 
+[in]
 Pointer to an untranslated version of the entry. This parameter points to a CM_PARTIAL_RESOURCE_DESCRIPTOR structure containing the untranslated (or "raw") version of the entry to be added.
 
 

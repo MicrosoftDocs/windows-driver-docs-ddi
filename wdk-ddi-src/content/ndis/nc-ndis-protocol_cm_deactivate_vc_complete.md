@@ -61,13 +61,13 @@ The
 
 
 
-### -param Status [in]
-
+### -param Status 
+[in]
 Specifies the final status of the deactivation.
 
 
-### -param CallMgrVcContext [in]
-
+### -param CallMgrVcContext 
+[in]
 Specifies the handle to a call manager-allocated context area in which the call manager maintains
      its per-VC state. The call manager supplied this handle to NDIS from its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a> function.

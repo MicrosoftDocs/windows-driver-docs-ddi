@@ -55,18 +55,18 @@ The <b>IoEnumerateRegisteredFiltersList</b> routine enumerates the file system f
 
 
 
-### -param DriverObjectList [out]
-
+### -param DriverObjectList 
+[out]
 A pointer to a caller-allocated array that receives the driver object pointers. This parameter is optional and can be <b>NULL</b>. (See the following Remarks section.) 
 
 
-### -param DriverObjectListSize [in]
-
+### -param DriverObjectListSize 
+[in]
 Size, in bytes, of the <i>DriverObjectList</i> array. Can be zero. (See the following Remarks section.) 
 
 
-### -param ActualNumberDriverObjects [out]
-
+### -param ActualNumberDriverObjects 
+[out]
 Actual number of driver objects found. Note that if the array at <i>DriverObjectList</i> is too small, the number of driver object pointers that are copied into the array will be less than <i>ActualNumberDriverObjects</i>. 
 
 

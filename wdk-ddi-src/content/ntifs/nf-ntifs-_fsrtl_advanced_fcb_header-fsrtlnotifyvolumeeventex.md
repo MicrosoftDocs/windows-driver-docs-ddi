@@ -58,18 +58,18 @@ The <b>FsRtlNotifyVolumeEventEx</b> routine notifies any registered applications
 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">FILE_OBJECT</a> that specifies a volume.
 
 
-### -param EventCode [in]
-
+### -param EventCode 
+[in]
 An event code for the event that is occurring. For a table of event codes, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyvolumeevent">FsRtlNotifyVolumeEvent</a>.
 
 
-### -param Event [in]
-
+### -param Event 
+[in]
 A pointer to the initialized custom notification structure (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_target_device_custom_notification">TARGET_DEVICE_CUSTOM_NOTIFICATION</a>) to use. 
 
 

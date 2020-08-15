@@ -57,13 +57,13 @@ The <b>OnStateChange</b> method is called when the state of the I/O queue object
 
 
 
-### -param pWdfQueue [in]
-
+### -param pWdfQueue 
+[in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfioqueue">IWDFIoQueue</a> interface for the I/O queue object whose state changes. 
 
 
-### -param QueueState [in]
-
+### -param QueueState 
+[in]
 A valid bitwise OR of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi_types/ne-wudfddi_types-_wdf_io_queue_state">WDF_IO_QUEUE_STATE</a>-typed values that indicates status for the queue.
 
 

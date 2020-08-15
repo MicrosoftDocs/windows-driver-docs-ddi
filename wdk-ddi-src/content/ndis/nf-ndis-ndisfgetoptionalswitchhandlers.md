@@ -61,18 +61,18 @@ Hyper-V extensible switch extensions call the <b>NdisFGetOptionalSwitchHandlers<
 
 
 
-### -param NdisFilterHandle [in]
-
+### -param NdisFilterHandle 
+[in]
 The NDIS handle that identifies this filter module. When NDIS called the extension's  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a> function, it passed this handle in the <i>NdisFilterHandle</i> parameter.
 
 
-### -param NdisSwitchContext [out]
-
+### -param NdisSwitchContext 
+[out]
 A pointer to the NDIS_SWITCH_CONTEXT value that identifies the extensible switch module to which the extension is attached. When  the  extension calls an extensible switch  handler  function, it must set the     <i>NdisSwitchContext</i> parameter to the value of this handle.
 
 
-### -param NdisSwitchHandlers [in, out]
-
+### -param NdisSwitchHandlers 
+[in, out]
 A pointer to a caller-allocated  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_switch_optional_handlers">NDIS_SWITCH_OPTIONAL_HANDLERS</a> structure. If the call succeeds, this structure will contain a list of pointers to the extensible switch handler functions.
 
 For more information about these handler functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">Hyper-V Extensible Switch Handler Functions</a>.

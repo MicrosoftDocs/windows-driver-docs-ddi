@@ -58,8 +58,8 @@ The
 
 
 
-### -param CallMgrAfContext [in]
-
+### -param CallMgrAfContext 
+[in]
 Specifies the handle to the call manager's per-AF context area, originally supplied to NDIS by the
      call manager's 
      <i>ProtocolCmOpenAf</i> function.

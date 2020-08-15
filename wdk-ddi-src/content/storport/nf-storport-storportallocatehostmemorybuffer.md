@@ -68,47 +68,47 @@ Depending on the allocation policy, this function may allocate as much as
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param MinimumBytes [in]
-
+### -param MinimumBytes 
+[in]
 The minimum amount of memory that will be useful to the
         device, in bytes. A value of 0 indicates that any size of memory up to
         the preferred size is acceptable.
 
 
-### -param PreferredBytes [in]
-
+### -param PreferredBytes 
+[in]
 The amount of memory the device prefers, in bytes.  This
         must be a multiple of the page size.
 
 
-### -param UtilizationBytes [in]
-
+### -param UtilizationBytes 
+[in]
 The total number of blocks allocated on the device, in
         bytes.
 
 
-### -param AlignmentBytes [in]
-
+### -param AlignmentBytes 
+[in]
 The Host Memory Buffer alignment requirement from the device.
 
 
-### -param LowestAcceptableAddress [in]
-
+### -param LowestAcceptableAddress 
+[in]
 The lowest physical address that is valid for the allocation. For example, if the device can only reference physical memory in the 8 MB to 16 MB range, this value would be set to 0x800000 (8 MB).
 
 
-### -param HighestAcceptableAddress [in]
-
+### -param HighestAcceptableAddress 
+[in]
 The highest physical address that is valid for the allocation. For example, if the device can only reference physical memory below 16 MB, this value would be set to 0xFFFFFF (16 MB - 1).
 
 
-### -param BoundaryAddressMultiple [in, optional]
-
+### -param BoundaryAddressMultiple 
+[in, optional]
 The physical address multiple that this allocation must not cross.
 
 <div class="alert"><b>Note</b>  This parameter is currently not used and must be set to 0.</div>
@@ -121,8 +121,8 @@ An array of physical address ranges that make up
         fill in the array with one or more physical address ranges.
 
 
-### -param PhysicalAddressRangeCount [in, out]
-
+### -param PhysicalAddressRangeCount 
+[in, out]
  The number of entries in <b>PhysicalAddressRanges</b>. This function will update this parameter to indicate how
         many physical address ranges it filled in.
 

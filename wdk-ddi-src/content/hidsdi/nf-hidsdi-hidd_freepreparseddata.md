@@ -55,8 +55,8 @@ The <b>HidD_FreePreparsedData</b> routine releases the resources that the HID cl
 
 
 
-### -param PreparsedData [in]
-
+### -param PreparsedData 
+[in]
 Pointer to the buffer, returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getpreparseddata">HidD_GetPreparsedData</a>, that is freed.
 
 

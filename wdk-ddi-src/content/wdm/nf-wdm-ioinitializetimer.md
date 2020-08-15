@@ -55,18 +55,18 @@ The <b>IoInitializeTimer</b> routine sets up a driver-supplied <a href="https://
 
 
 
-### -param DeviceObject [in]
-
+### -param DeviceObject 
+[in]
 Pointer to a device object representing a device on which I/O operations can time out.
 
 
-### -param TimerRoutine [in]
-
+### -param TimerRoutine 
+[in]
 Pointer to the driver-supplied <i>IoTimer</i> routine. 
 
 
-### -param Context [in, optional]
-
+### -param Context 
+[in, optional]
 Pointer to the driver-determined context with which its <i>IoTimer</i> routine will be called. 
 
 

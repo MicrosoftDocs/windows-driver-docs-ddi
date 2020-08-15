@@ -55,23 +55,23 @@ The <b>GetSpecificFilterArgumentWide</b>  method returns the value of filter arg
 
 
 
-### -param Index [in]
-
+### -param Index 
+[in]
 Specifies the index of the specific filter whose argument will be returned.  <i>Index</i> must be the index of a specific filter that has an argument.
 
 
-### -param Buffer [out, optional]
-
+### -param Buffer 
+[out, optional]
 Receives the argument for the specific filter.  The interpretation of the argument depends on the specific filter.
 
 
-### -param BufferSize [in]
-
+### -param BufferSize 
+[in]
 Specifies the size, in characters, of the buffer that <i>Buffer</i> specifies.
 
 
-### -param ArgumentSize [out, optional]
-
+### -param ArgumentSize 
+[out, optional]
 Receives the size, in characters, of the argument for the specific filter.
 
 

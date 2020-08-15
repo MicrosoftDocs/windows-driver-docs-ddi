@@ -55,13 +55,13 @@ req.typenames:
 
 
 
-### -param Fcb [in]
-
+### -param Fcb 
+[in]
 A pointer to the FCB structure.
 
 
-### -param FileSize [out]
-
+### -param FileSize 
+[out]
 A pointer where the file size file will be stored on output.
 
 

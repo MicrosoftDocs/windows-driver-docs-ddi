@@ -62,8 +62,8 @@ Enables the simulated battery.
 
 
 
-### -param pbSuccess [out, retval]
-
+### -param pbSuccess 
+[out, retval]
 
 ## -returns
 

@@ -55,8 +55,8 @@ The <b>HasField</b> method determines if the type of the data represented by thi
 
 
 
-### -param Field [in]
-
+### -param Field 
+[in]
 The name of the member.  The name of the member is a dot-separated path and can contain sub-members (for example, <b>mymember.mysubmember</b>).  Pointers on this dot-separated path will automatically be dereferenced. However, a dot operator (<b>.</b>) should still be used here instead of the usual C pointer dereference operator (<b>-></b>).
 
 

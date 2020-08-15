@@ -56,58 +56,58 @@ The <b>ZwQueryEaFile</b> routine returns
 
 
 
-### -param FileHandle [in]
-
+### -param FileHandle 
+[in]
 The handle for the file on which the operation is to be performed.
 
 
-### -param IoStatusBlock [out]
-
+### -param IoStatusBlock 
+[out]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure that 
       receives the final completion status and other information about the requested operation.
 
 
-### -param Buffer [out]
-
+### -param Buffer 
+[out]
 A pointer to a caller-supplied 
       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_full_ea_information">FILE_FULL_EA_INFORMATION</a>-structured output 
       buffer, where the extended attribute values are to be returned.
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 The length, in bytes, of the buffer that the <i>Buffer</i> parameter points to.
 
 
-### -param ReturnSingleEntry [in]
-
+### -param ReturnSingleEntry 
+[in]
 Set to <b>TRUE</b> if 
       <b>ZwQueryEaFile</b> should return only the first entry that 
       is found.
 
 
-### -param EaList [in, optional]
-
+### -param EaList 
+[in, optional]
 A pointer to a caller-supplied 
       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_get_ea_information">FILE_GET_EA_INFORMATION</a>-structured input 
       buffer, which specifies the extended attributes to be queried. This parameter is optional and can be 
       <b>NULL</b>.
 
 
-### -param EaListLength [in]
-
+### -param EaListLength 
+[in]
 The length, in bytes, of the buffer that the <i>EaList</i> parameter points to.
 
 
-### -param EaIndex [in, optional]
-
+### -param EaIndex 
+[in, optional]
 The index of the entry at which scanning the file's extended-attribute list should begin. This parameter is 
       ignored if the <i>EaList</i> parameter points to a nonempty list. This parameter is optional 
       and can be <b>NULL</b>.
 
 
-### -param RestartScan [in]
-
+### -param RestartScan 
+[in]
 Set to <b>TRUE</b> if 
       <b>ZwQueryEaFile</b> should begin the scan at the first 
       entry in the file's extended-attribute list. If this parameter is set to <b>FALSE</b>, the 

@@ -61,8 +61,8 @@ A value in the <a href="https://docs.microsoft.com/windows-hardware/drivers/debu
 
 
 
-### -param Value [in]
-
+### -param Value 
+[in]
 The <b>ULONG64</b> value to be written to the data block of the new <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/failure-analysis-entries">FA entry</a>.
 
 

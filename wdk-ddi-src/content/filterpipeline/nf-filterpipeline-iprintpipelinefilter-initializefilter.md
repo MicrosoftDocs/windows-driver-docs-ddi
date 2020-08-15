@@ -60,13 +60,13 @@ The <code>InitializeFilter</code> method initializes a filter.
 
 
 
-### -param pIPropertyBag [in]
-
+### -param pIPropertyBag 
+[in]
 A pointer to the<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iprintpipelinepropertybag">IPrintPipelinePropertyBag</a> interface.
 
 
-### -param pIPipelineControl [in]
-
+### -param pIPipelineControl 
+[in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iprintpipelinemanagercontrol">IPrintPipelineManagerControl</a> interface.
 
 

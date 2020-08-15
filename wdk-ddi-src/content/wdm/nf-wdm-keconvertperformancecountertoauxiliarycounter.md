@@ -55,18 +55,18 @@ The  <b>KeConvertPerformanceCounterToAuxiliaryCounter</b> routine converts the s
 
 
 
-### -param PerformanceCounterValue [in]
-
+### -param PerformanceCounterValue 
+[in]
 The performance counter value to convert.
 
 
-### -param AuxiliaryCounterValue [out]
-
+### -param AuxiliaryCounterValue 
+[out]
 A pointer to the variable that contains the converted auxiliary counter value.
 
 
-### -param ConversionError [out, optional]
-
+### -param ConversionError 
+[out, optional]
 A pointer to a variable that contains the estimated conversion error in units of nanosecond.
 
 

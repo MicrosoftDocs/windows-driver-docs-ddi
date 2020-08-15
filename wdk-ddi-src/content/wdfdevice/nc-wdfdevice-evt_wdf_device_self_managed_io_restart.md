@@ -57,8 +57,8 @@ A driver's <i>EvtDeviceSelfManagedIoRestart</i> event callback function restarts
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object.
 
 

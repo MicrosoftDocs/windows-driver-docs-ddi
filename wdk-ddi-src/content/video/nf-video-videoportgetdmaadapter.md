@@ -55,13 +55,13 @@ The <b>VideoPortGetDmaAdapter</b> function returns a pointer to a <b>VP_DMA_ADAP
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 Pointer to the miniport driver's device extension.
 
 
-### -param VpDeviceDescription [in]
-
+### -param VpDeviceDescription 
+[in]
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_vp_device_description">VP_DEVICE_DESCRIPTION</a> structure, which describes the attributes of the physical device.
 
 

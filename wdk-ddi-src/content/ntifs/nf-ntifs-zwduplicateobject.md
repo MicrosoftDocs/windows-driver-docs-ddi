@@ -57,38 +57,38 @@ The <b>ZwDuplicateObject</b> routine creates a handle that is a duplicate of the
 
 
 
-### -param SourceProcessHandle [in]
-
+### -param SourceProcessHandle 
+[in]
 A handle to the source process for the handle being duplicated.
 
 
-### -param SourceHandle [in]
-
+### -param SourceHandle 
+[in]
 The handle to duplicate.
 
 
-### -param TargetProcessHandle [in, optional]
-
+### -param TargetProcessHandle 
+[in, optional]
 A handle to the target process that is to receive the new handle. This parameter is optional and can be specified as NULL if the <b>DUPLICATE_CLOSE_SOURCE</b> flag is set in <i>Options</i>.
 
 
-### -param TargetHandle [out, optional]
-
+### -param TargetHandle 
+[out, optional]
 A pointer to a HANDLE variable into which the routine writes the new duplicated handle. The duplicated handle is valid in the specified target process. This parameter is optional and can be specified as NULL if no duplicate handle is to be created.
 
 
-### -param DesiredAccess [in]
-
+### -param DesiredAccess 
+[in]
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that specifies the desired access for the new handle.
 
 
-### -param HandleAttributes [in]
-
+### -param HandleAttributes 
+[in]
 A ULONG that specifies the desired attributes for the new handle. For more information about attributes, see the description of the <b>Attributes</b> member in <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a>.
 
 
-### -param Options [in]
-
+### -param Options 
+[in]
 A set of flags to control the behavior of the duplication operation. Set this parameter to zero or to the bitwise OR of one or more of the following flags.
 
 <table>

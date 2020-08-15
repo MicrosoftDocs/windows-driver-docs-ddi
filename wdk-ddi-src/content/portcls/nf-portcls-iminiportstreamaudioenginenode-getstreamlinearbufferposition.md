@@ -55,8 +55,8 @@ req.typenames:
 
 
 
-### -param pullLinearBufferPosition [out]
-
+### -param pullLinearBufferPosition 
+[out]
 The number of bytes that the DMA has fetched.
 
 

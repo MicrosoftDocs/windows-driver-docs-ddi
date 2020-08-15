@@ -57,8 +57,8 @@ The <b>SetInformation</b> method sets the size of information for a request.
 
 
 
-### -param Information [in]
-
+### -param Information 
+[in]
 A ULONG_PTR value that specifies the size of information to set for the request.
 
 

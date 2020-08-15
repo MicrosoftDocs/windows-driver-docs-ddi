@@ -56,48 +56,48 @@ The <b>KsDispatchFastIoDeviceControlFailure</b> function is used in a KSDISPATCH
 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 Not used.
 
 
-### -param Wait [in]
-
+### -param Wait 
+[in]
 Not used.
 
 
-### -param InputBuffer [in, optional]
-
+### -param InputBuffer 
+[in, optional]
 Not used.
 
 
-### -param InputBufferLength [in]
-
+### -param InputBufferLength 
+[in]
 Not used.
 
 
-### -param OutputBuffer [out, optional]
-
+### -param OutputBuffer 
+[out, optional]
 Not used.
 
 
-### -param OutputBufferLength [in]
-
+### -param OutputBufferLength 
+[in]
 Not used.
 
 
-### -param IoControlCode [in]
-
+### -param IoControlCode 
+[in]
 Not used.
 
 
-### -param IoStatus [out]
-
+### -param IoStatus 
+[out]
 Not used.
 
 
-### -param DeviceObject [in]
-
+### -param DeviceObject 
+[in]
 Not used.
 
 

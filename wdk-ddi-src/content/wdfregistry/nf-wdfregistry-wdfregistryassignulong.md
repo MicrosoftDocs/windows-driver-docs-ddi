@@ -60,18 +60,18 @@ The <b>WdfRegistryAssignULong</b> method assigns a specified unsigned long word 
 
 
 
-### -param Key [in]
-
+### -param Key 
+[in]
 A handle to a registry-key object that represents an opened registry key.
 
 
-### -param ValueName [in]
-
+### -param ValueName 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a value name. 
 
 
-### -param Value [in]
-
+### -param Value 
+[in]
 A ULONG value that will be assigned to the value name that <i>ValueName</i> specifies.
 
 

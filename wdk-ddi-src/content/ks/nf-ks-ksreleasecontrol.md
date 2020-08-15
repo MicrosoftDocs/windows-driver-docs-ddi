@@ -56,8 +56,8 @@ The<b> KsReleaseControl </b>function releases the control mutex for <i>Object</i
 
 
 
-### -param Object [in]
-
+### -param Object 
+[in]
 The object for which to release the control mutex.
 
 

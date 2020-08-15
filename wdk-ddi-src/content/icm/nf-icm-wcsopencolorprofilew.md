@@ -68,8 +68,8 @@ A flag value that specifies how to access the given color profile. This paramete
 | PROFILE_READ | Specifies that the color profile will be opened for read-only access. |
 | PROFILE_READWRITE | Specifies that the color profile will be opened for both read and write access.  This flag value is ignored when a WCS profile is opened. |
 
-### -param dwShareMode [in]
-
+### -param dwShareMode 
+[in]
 A flag value that specifies actions to take while opening a color profile if it is contained in a file. This parameter must take one of the following values, which are defined in winnt.h:
 
 | Value | Description |
@@ -77,8 +77,8 @@ A flag value that specifies actions to take while opening a color profile if it 
 | FILE_SHARE_READ | Specifies that other open operations can be performed on the profile for read access. |
 | FILE_SHARE_WRITE | Specifies that other open operations can be performed on the profile for write access. This flag value is ignored when a WCS profile is opened. |
 
-### -param dwCreationMode [in]
-
+### -param dwCreationMode 
+[in]
 A flag value that specifies actions to take while opening a color profile if it is contained in a file. This parameter must take one of the following values, which are defined in winbase.h:
 
 | Value | Description |

@@ -55,8 +55,8 @@ Returns the status code for the last operation.
 
 
 
-### -param pResult [out, retval]
-
+### -param pResult 
+[out, retval]
 The status code for the last operation.
 
 

@@ -55,8 +55,8 @@ When passed a pointer to a SECTION_OBJECT_POINTERS structure for a cached file, 
 
 
 
-### -param SectionObjectPointer [in]
-
+### -param SectionObjectPointer 
+[in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_section_object_pointers">SECTION_OBJECT_POINTERS</a> structure that is associated with the cached file.
 
 

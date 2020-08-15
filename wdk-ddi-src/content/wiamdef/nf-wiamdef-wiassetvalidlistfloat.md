@@ -55,8 +55,8 @@ The <b>wiasSetValidListFloat </b>function sets valid values for a WIA_PROP_LIST 
 
 
 
-### -param pWiasContext [in]
-
+### -param pWiasContext 
+[in]
 Pointer to a WIA item context.
 
 
@@ -75,8 +75,8 @@ Specifies the number of items in the <i>plValues</i> array.
 Specifies the property's nominal value.
 
 
-### -param pfValues [in]
-
+### -param pfValues 
+[in]
 Pointer to the first element of an array of valid property values.
 
 

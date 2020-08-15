@@ -56,8 +56,8 @@ The <b>KsDiscardEvent</b> function discards the memory used by an event entry af
 
 
 
-### -param EventEntry [in]
-
+### -param EventEntry 
+[in]
 Specifies the pointer to the entry to discard. This pointer is no longer valid after a successful call to this function.
 
 

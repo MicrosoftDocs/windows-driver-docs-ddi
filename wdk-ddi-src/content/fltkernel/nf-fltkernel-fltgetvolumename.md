@@ -55,18 +55,18 @@ The <b>FltGetVolumeName</b> routine gets the volume name for a given volume.
 
 
 
-### -param Volume [in]
-
+### -param Volume 
+[in]
 An opaque pointer for the volume. 
 
 
-### -param VolumeName [in, out, optional]
-
+### -param VolumeName 
+[in, out, optional]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the volume's non-persistent device object name (for example, "\Device\HarddiskVolume1") when STATUS_SUCCESS is returned.  Be aware that pool for the <b>Buffer</b> member of this structure is caller-allocated also. This parameter is optional and can be <b>NULL</b>. However, <i>VolumeName</i> must be non-<b>NULL</b> if <i>BufferSizeNeeded</i> is <b>NULL</b>.
 
 
-### -param BufferSizeNeeded [out, optional]
-
+### -param BufferSizeNeeded 
+[out, optional]
 A pointer to a caller-allocated variable that receives the size, in bytes, of the requested volume name.   If <b>FltGetVolumeName</b> returns STATUS_BUFFER_TOO_SMALL, <i>BufferSizeNeeded</i> receives the size of the buffer (pointed to by the <b>Buffer</b> member of the UNICODE_STRING structure) that is required for this routine to succeed.
 
 <i>BufferSizeNeeded</i> is optional and can be <b>NULL</b>. However, <i>BufferSizeNeeded</i> must be non-<b>NULL</b> if <i>VolumeName</i> is <b>NULL</b>.

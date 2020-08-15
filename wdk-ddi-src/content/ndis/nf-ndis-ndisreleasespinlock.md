@@ -58,8 +58,8 @@ The
 
 
 
-### -param _SpinLock [in]
-
+### -param _SpinLock 
+[in]
 Pointer to the acquired spin lock to be released.
 
 

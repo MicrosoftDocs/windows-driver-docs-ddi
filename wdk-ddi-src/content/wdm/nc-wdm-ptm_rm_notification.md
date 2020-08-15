@@ -55,38 +55,38 @@ A resource manager's <i>ResourceManagerNotification</i> callback routine receive
 
 
 
-### -param EnlistmentObject [in]
-
+### -param EnlistmentObject 
+[in]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/enlistment-objects">enlistment object</a>. The <i>ResourceManagerNotification</i> callback routine is receiving a notification for the enlistment that this object represents.
 
 
-### -param RMContext [in]
-
+### -param RMContext 
+[in]
 The value that the resource manager previously specified for the <i>RMKey</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-tmenablecallbacks">TmEnableCallbacks</a> routine.
 
 
-### -param TransactionContext [in]
-
+### -param TransactionContext 
+[in]
 The value that the resource manager previously specified for the <i>EnlistmentKey</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntcreateenlistment">ZwCreateEnlistment</a> routine.
 
 
-### -param TransactionNotification [in]
-
+### -param TransactionNotification 
+[in]
 One of the TRANSACTION_NOTIFY_<i>XXX</i> values that are defined in Ktmtypes.h. This value specifies the type of transaction notification that KTM sent to the caller.
 
 
-### -param TmVirtualClock [in, out]
-
+### -param TmVirtualClock 
+[in, out]
 A pointer to a location that contains the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-virtual-clock-values">virtual clock value</a> at the time that KTM prepared the notification for delivery to the resource manager. If the callback routine increases this value before it returns, KTM updates the virtual clock to the new value. (Typically, resource managers do not modify the virtual clock value.)
 
 
-### -param ArgumentLength [in]
-
+### -param ArgumentLength 
+[in]
 The length, in bytes, of the buffer that the <i>Argument</i> parameter points to. This parameter is zero if a buffer is not available.
 
 
-### -param Argument [in]
-
+### -param Argument 
+[in]
 A pointer to a buffer that contains notification-specific arguments. This parameter is <b>NULL</b> if the notification that the <i>TransactionNotification</i> parameter specifies does not require an argument buffer. 
 
 For a list of notifications that include an additional argument buffer, see the Remarks section of <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff564813(v=vs.85)">TRANSACTION_NOTIFICATION</a>.

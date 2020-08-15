@@ -55,13 +55,13 @@ The <b>RtlRunOnceBeginInitialize</b> routine begins a one-time initialization.
 
 
 
-### -param RunOnce [in, out]
-
+### -param RunOnce 
+[in, out]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">RTL_RUN_ONCE</a> one-time initialization structure.
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 Drivers can optionally specify one or more of the following flags:
 
 
@@ -79,8 +79,8 @@ Perform initialization asynchronously. The driver can perform multiple completio
 Do not begin initialization, but check to determine if initialization has already occurred. If <b>RtlRunOnceBeginInitialize</b> returns STATUS_SUCCESS, the initialization succeeded, and *<i>Context</i> contains the initialized data. 
 
 
-### -param Context [out]
-
+### -param Context 
+[out]
 Specifies a pointer to a PVOID variable that receives the initialized data. The value of *<i>Context</i> is valid only when the routine returns STATUS_SUCCESS.
 
 

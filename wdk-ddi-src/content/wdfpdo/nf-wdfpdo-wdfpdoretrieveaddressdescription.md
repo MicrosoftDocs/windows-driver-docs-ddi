@@ -58,13 +58,13 @@ The <b>WdfPdoRetrieveAddressDescription</b> method retrieves the <a href="https:
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object that represents the device's physical device object (PDO).
 
 
-### -param AddressDescription [in, out]
-
+### -param AddressDescription 
+[in, out]
 A pointer to a caller-allocated buffer that will receive the address description. The address description must contain a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfchildlist/ns-wdfchildlist-_wdf_child_address_description_header">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a> structure.
 
 

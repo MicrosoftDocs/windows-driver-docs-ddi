@@ -55,18 +55,18 @@ The port class driver (PortCls) uses the <code>RegisterPowerControlCallback</cod
 
 
 
-### -param _DeviceObject [in]
-
+### -param _DeviceObject 
+[in]
 The device object.
 
 
-### -param _Callback [in]
-
+### -param _Callback 
+[in]
 The callback object.
 
 
-### -param _Context [in, optional]
-
+### -param _Context 
+[in, optional]
 The callback context.
 
 

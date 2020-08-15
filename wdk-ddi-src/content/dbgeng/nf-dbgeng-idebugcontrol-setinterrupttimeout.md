@@ -57,8 +57,8 @@ The <b>SetInterruptTimeout</b> method sets the number of seconds that the <a hre
 
 
 
-### -param Seconds [in]
-
+### -param Seconds 
+[in]
 Specifies the number of seconds that the engine should wait for the target when requesting a break into the debugger.
 
 

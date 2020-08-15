@@ -55,8 +55,8 @@ The <b>SendFixedDocumentSequence</b> method sends a fixed document sequence to t
 
 
 
-### -param pIFixedDocumentSequence [in]
-
+### -param pIFixedDocumentSequence 
+[in]
 A pointer to an XPS fixed document sequence object.
 
 

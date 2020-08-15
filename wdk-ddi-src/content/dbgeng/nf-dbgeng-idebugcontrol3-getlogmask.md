@@ -57,8 +57,8 @@ The <b>GetLogMask</b> method returns the output mask for the currently open log 
 
 
 
-### -param Mask [out]
-
+### -param Mask 
+[out]
 Receives the output mask for the log file.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-output-xxx">DEBUG_OUTPUT_XXX</a> for details about how to interpret this value.
 
 

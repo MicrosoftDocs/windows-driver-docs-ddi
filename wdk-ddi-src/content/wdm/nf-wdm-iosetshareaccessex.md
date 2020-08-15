@@ -56,13 +56,13 @@ The <b>IoSetShareAccessEx</b> routine sets the access rights for sharing the spe
 
 
 
-### -param DesiredAccess [in]
-
+### -param DesiredAccess 
+[in]
 Specifies an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that represents the type of access requested for the file object. See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatefile">IoCreateFile</a> for a complete list of system-defined <i>DesiredAccess</i> flags.
 
 
-### -param DesiredShareAccess [in]
-
+### -param DesiredShareAccess 
+[in]
 Specifies the type of share access to be set for the file object. This value can be zero, or any combination of the following flags:
 
 FILE_SHARE_READ
@@ -72,18 +72,18 @@ FILE_SHARE_WRITE
 FILE_SHARE_DELETE
 
 
-### -param FileObject [in, out]
-
+### -param FileObject 
+[in, out]
 A pointer to the file object whose share access is being set or reset.
 
 
-### -param ShareAccess [out]
-
+### -param ShareAccess 
+[out]
 A pointer to the <b>SHARE_ACCESS</b> structure that is associated with <i>FileObject</i>. Drivers should treat this structure as opaque.
 
 
-### -param WritePermission [in, optional]
-
+### -param WritePermission 
+[in, optional]
 A pointer to the value that specifies whether the file object has write permission. This value is <b>TRUE</b> if the share has write permission; otherwise, it is <b>FALSE</b>. If  the value is <b>FALSE</b>  and the caller attempts to take exclusive read access, the write permission is downgraded to FILE_SHARE_READ.
 
 

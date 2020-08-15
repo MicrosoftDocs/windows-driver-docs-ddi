@@ -55,13 +55,13 @@ The <b>IStillImage::GetDeviceInfo</b> method returns hardware characteristics fo
 
 
 
-### -param pwszDeviceName [in]
-
+### -param pwszDeviceName 
+[in]
 Caller-supplied pointer to a string representing an internal device name, obtained by calling <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543790(v=vs.85)">IStillImage::GetSTILaunchInformation</a> or <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543784(v=vs.85)">IStillImage::GetDeviceList</a>.
 
 
-### -param ppBuffer [out]
-
+### -param ppBuffer 
+[out]
 Receives a handle to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/ns-sti-_sti_device_informationw">STI_DEVICE_INFORMATION</a> structure.
 
 

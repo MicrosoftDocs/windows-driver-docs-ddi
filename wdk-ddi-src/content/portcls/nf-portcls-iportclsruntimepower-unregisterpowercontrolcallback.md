@@ -55,8 +55,8 @@ The port class driver (PortCls) uses the <code>UnregisterPowerControlCallback</c
 
 
 
-### -param _DeviceObject [in]
-
+### -param _DeviceObject 
+[in]
 The device object.
 
 

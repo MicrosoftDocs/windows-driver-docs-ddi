@@ -58,23 +58,23 @@ The <b>WdfRequestRetrieveUnsafeUserInputBuffer</b> method retrieves an I/O reque
 
 
 
-### -param Request [in]
-
+### -param Request 
+[in]
 A handle to a framework request object. 
 
 
-### -param MinimumRequiredLength [in]
-
+### -param MinimumRequiredLength 
+[in]
 The minimum buffer size, in bytes, that the driver needs to process the I/O request.
 
 
-### -param InputBuffer [out]
-
+### -param InputBuffer 
+[out]
 A pointer to a location that receives the buffer's address.
 
 
-### -param Length [out, optional]
-
+### -param Length 
+[out, optional]
 A pointer to a location that receives the buffer's size, in bytes. This parameter is optional and can be <b>NULL</b>.
 
 

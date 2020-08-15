@@ -60,20 +60,20 @@ Call the
 
 
 
-### -param NetBufferList [in]
-
+### -param NetBufferList 
+[in]
 A pointer to a previously allocated 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
 
 
-### -param DataOffsetDelta [in]
-
+### -param DataOffsetDelta 
+[in]
 The amount of 
      <i>used data space</i> to release.
 
 
-### -param FreeMdl [in]
-
+### -param FreeMdl 
+[in]
 If <b>TRUE</b> and NDIS allocated memory to satisfy the corresponding 
      <b>NdisRetreatNetBufferListDataStart</b> call, this function frees the memory that was allocated and the
      associated MDL.

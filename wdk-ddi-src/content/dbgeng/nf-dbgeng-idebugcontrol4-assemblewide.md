@@ -55,18 +55,18 @@ The <b>AssembleWide</b> method assembles a single processor instruction.  The as
 
 
 
-### -param Offset [in]
-
+### -param Offset 
+[in]
 Specifies the location in the target's memory to place the assembled instruction.
 
 
-### -param Instr [in]
-
+### -param Instr 
+[in]
 Specifies the instruction to assemble.  The instruction is assembled according to the target's effective processor type (returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-seteffectiveprocessortype">SetEffectiveProcessorType</a>).
 
 
-### -param EndOffset [out]
-
+### -param EndOffset 
+[out]
 Receives the location in the target's memory immediately following the assembled instruction.  <i>EndOffset</i> can be used when assembling multiple instructions.
 
 

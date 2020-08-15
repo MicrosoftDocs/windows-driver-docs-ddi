@@ -62,14 +62,14 @@ Call the
 
 
 
-### -param CloneNetBufferList [in]
-
+### -param CloneNetBufferList 
+[in]
 A pointer to a NET_BUFFER_LIST structure that was allocated by calling 
      <b>NdisAllocateCloneNetBufferList</b>.
 
 
-### -param FreeCloneFlags [in]
-
+### -param FreeCloneFlags 
+[in]
 NDIS flags that can be combined with an OR operation. The following flags are defined:
      
 

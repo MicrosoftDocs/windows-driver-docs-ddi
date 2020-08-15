@@ -55,13 +55,13 @@ The <b>IoAllocateErrorLogEntry</b> routine allocates an error log entry, and ret
 
 
 
-### -param IoObject [in]
-
+### -param IoObject 
+[in]
 Pointer to a device object representing the device on which an I/O error occurred, or to a driver object representing the driver that found an error.
 
 
-### -param EntrySize [in]
-
+### -param EntrySize 
+[in]
 Specifies the size, in bytes, of the error log entry to be allocated. This value cannot exceed ERROR_LOG_MAXIMUM_SIZE. 
 
 <div class="alert"><b>Warning</b>  <i>EntrySize</i> is a UCHAR value. If you specify a larger value, the compiler will silently truncate that value to a (wrong) UCHAR. </div>

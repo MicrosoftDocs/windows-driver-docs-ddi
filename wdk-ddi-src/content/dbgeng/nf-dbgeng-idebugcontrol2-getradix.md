@@ -57,8 +57,8 @@ The <b>GetRadix</b> method returns the default radix (number base) used by the <
 
 
 
-### -param Radix [out]
-
+### -param Radix 
+[out]
 Receives the default radix.
 
 

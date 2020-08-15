@@ -57,38 +57,38 @@ The <b>FormatRequestForIoctl</b> method formats an I/O request object for an I/O
 
 
 
-### -param pRequest [in]
-
+### -param pRequest 
+[in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest">IWDFIoRequest</a> interface for the request object to format. 
 
 
-### -param IoctlCode [in]
-
+### -param IoctlCode 
+[in]
 A control code that identifies a specific operation to perform.
 
 
-### -param pFile [in, optional]
-
+### -param pFile 
+[in, optional]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdffile">IWDFFile</a> interface for the file object that is associated with the I/O control request. For the default I/O target, this parameter must be non-NULL.
 
 
-### -param pInputMemory [in, optional]
-
+### -param pInputMemory 
+[in, optional]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfmemory">IWDFMemory</a> interface that is used to access the input buffer for the request. This parameter is optional.
 
 
-### -param pInputMemoryOffset [in, optional]
-
+### -param pInputMemoryOffset 
+[in, optional]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi_types/ns-wudfddi_types-_wdfmemory_offset">WDFMEMORY_OFFSET</a> structure that describes the input memory offset for the request. This parameter is optional.
 
 
-### -param pOutputMemory [in, optional]
-
+### -param pOutputMemory 
+[in, optional]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfmemory">IWDFMemory</a> interface that is used to access the output buffer for the request. This parameter is optional.
 
 
-### -param pOutputMemoryOffset [in, optional]
-
+### -param pOutputMemoryOffset 
+[in, optional]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi_types/ns-wudfddi_types-_wdfmemory_offset">WDFMEMORY_OFFSET</a> structure that describes the output memory offset for the request. This parameter is optional.
 
 

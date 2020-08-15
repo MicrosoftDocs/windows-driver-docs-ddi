@@ -55,13 +55,13 @@ The <b>wiauStrW2C</b> function converts a Unicode string to an ANSI character st
 
 
 
-### -param pwszSrc [in]
-
+### -param pwszSrc 
+[in]
 Points to the Unicode string to be converted.
 
 
-### -param pszDst [out]
-
+### -param pszDst 
+[out]
 Pointer to a memory location that receives the converted ANSI string.
 
 

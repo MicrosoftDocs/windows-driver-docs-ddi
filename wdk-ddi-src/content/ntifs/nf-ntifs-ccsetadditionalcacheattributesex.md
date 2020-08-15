@@ -55,13 +55,13 @@ Call the <b>CcSetAdditionalCacheAttributesEx</b> routine to enable extended cach
 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 Pointer to a file object for the cached file.
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 Behavior flags to set for <i>FileObject</i>. Currently, only the  <b>AGGRESSIVE_UNMAP_BEHIND</b> flag is available. Setting this flag will allow the cache manager to optimize memory usage when modified writes are disabled for a file object.
 
 

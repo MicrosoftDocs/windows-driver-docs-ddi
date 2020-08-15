@@ -55,8 +55,8 @@ The <b>GetString</b> method searches a <a href="https://docs.microsoft.com/windo
 
 
 
-### -param Tag [in]
-
+### -param Tag 
+[in]
 A value in the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration.
 
 

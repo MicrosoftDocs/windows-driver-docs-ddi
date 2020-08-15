@@ -55,33 +55,33 @@ The <b>GetSymbolEntriesByOffset</b> method returns the <a href="https://docs.mic
 
 
 
-### -param Offset [in]
-
+### -param Offset 
+[in]
 Specifies a location in the process's memory address space within the desired symbol's range.  Not all symbols have a known range, so, for best results, use the base address of the symbol.
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 Set to zero.
 
 
-### -param Ids [out, optional]
-
+### -param Ids 
+[out, optional]
 Receives the symbols.  This is an array of <i>IdsCount</i> entries of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_module_and_id">DEBUG_MODULE_AND_ID</a>.  If <i>Ids</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param Displacements [out, optional]
-
+### -param Displacements 
+[out, optional]
 Receives the differences between the base addresses of the found symbols and the given address according to the symbol's range.  
 
 
-### -param IdsCount [in]
-
+### -param IdsCount 
+[in]
 Specifies the number of entries that the arrays <i>Ids</i> and <i>Displacements</i> can hold.
 
 
-### -param Entries [out, optional]
-
+### -param Entries 
+[out, optional]
 Receives the number of symbols located at <i>Offset</i>.  If <i>Entries</i> is <b>NULL</b>, this information is not returned.
 
 

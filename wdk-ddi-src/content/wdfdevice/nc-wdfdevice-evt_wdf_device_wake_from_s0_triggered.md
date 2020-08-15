@@ -57,8 +57,8 @@ A driver's <i>EvtDeviceWakeFromS0Triggered</i> event callback function informs t
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object.
 
 

@@ -59,13 +59,13 @@ req.typenames:
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to the framework device object for which PoFx settings are being specified.
 
 
-### -param PowerFrameworkSettings [in]
-
+### -param PowerFrameworkSettings 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_power_framework_settings">WDF_POWER_FRAMEWORK_SETTINGS</a> structure that describes the client driver’s PoFx settings.
 
 

@@ -55,23 +55,23 @@ req.typenames:
 
 
 
-### -param VendorId [in]
-
+### -param VendorId 
+[in]
 Specifies a code that identifies the device's vendor. This is the vendor ID specified in the device's PCI configuration space. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/identifiers-for-pci-devices">Identifiers for PCI Devices</a>.
 
 
-### -param DeviceId [in]
-
+### -param DeviceId 
+[in]
 Specifies a code that identifies the particular device. This is the device ID specified in the device's PCI configuration space.
 
 
-### -param LegacyResourceList [in, out]
-
+### -param LegacyResourceList 
+[in, out]
 Pointer to an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_access_range">VIDEO_ACCESS_RANGE</a> structures. Each structure describes a device I/O port or memory range for the graphics adapter that is not listed in PCI configuration space. 
 
 
-### -param LegacyResourceCount [in, out]
-
+### -param LegacyResourceCount 
+[in, out]
 Is the number of elements in the array to which <i>LegacyResourceList</i> points.
 
 

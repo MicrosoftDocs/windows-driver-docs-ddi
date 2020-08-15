@@ -59,8 +59,8 @@ A protocol driver calls the
 
 
 
-### -param UnbindContext [in]
-
+### -param UnbindContext 
+[in]
 The handle that NDIS passed to the 
      <i>UnbindContext</i> parameter of the 
      <i>ProtocolUnbindAdapterEx</i> function.

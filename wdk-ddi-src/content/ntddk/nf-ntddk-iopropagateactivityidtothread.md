@@ -55,13 +55,13 @@ The <b>IoPropagateActivityIdToThread</b> routine associates the activity ID from
 
 
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 The IRP whose ID will be propagated to the thread.
 
 
-### -param PropagatedId [out]
-
+### -param PropagatedId 
+[out]
 A pointer to memory allocated by the caller to store the ID in the thread.
 
 

@@ -55,13 +55,13 @@ The <b>RtlTimeToSecondsSince1970</b> routine converts a given absolute system ti
 
 
 
-### -param Time [in]
-
+### -param Time 
+[in]
 Pointer to a variable that specifies the system time value to be converted. The approximate valid range for this variable begins at 1970 and ends around 2105. 
 
 
-### -param ElapsedSeconds [out]
-
+### -param ElapsedSeconds 
+[out]
 Pointer to a caller-allocated variable that receives the corresponding number of seconds since midnight, December 31, 1969. 
 
 

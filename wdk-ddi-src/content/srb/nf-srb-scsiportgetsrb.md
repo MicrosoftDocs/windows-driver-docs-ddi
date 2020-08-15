@@ -56,28 +56,28 @@ The <b>ScsiPortGetSrb</b> routine returns a pointer to an active SCSI request fo
 
 
 
-### -param DeviceExtension [in]
-
+### -param DeviceExtension 
+[in]
 Pointer to the miniport driver's per-HBA storage area.
 
 
-### -param PathId [in]
-
+### -param PathId 
+[in]
 Identifies the SCSI bus.
 
 
-### -param TargetId [in]
-
+### -param TargetId 
+[in]
 Identifies the target controller or device on the bus.
 
 
-### -param Lun [in]
-
+### -param Lun 
+[in]
 Identifies the logical unit number of the target device.
 
 
-### -param QueueTag [in]
-
+### -param QueueTag 
+[in]
 Specifies the queue tag if the miniport driver handles tagged requests; SP_UNTAGGED indicates that the request is not tagged.
 
 

@@ -49,16 +49,16 @@ The **FltGetFileNameInformationUnsafe** routine returns name information for an 
 
 ## -parameters
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 Pointer to a file object for the file or directory. The file object must be currently open. This parameter is required and cannot be set to **NULL**.
 
-### -param Instance [in, optional]
-
+### -param Instance 
+[in, optional]
 Instance pointer for the caller. This parameter can be set to **NULL**.
 
-### -param NameOptions [in]
-
+### -param NameOptions 
+[in]
 A [FLT_FILE_NAME_OPTIONS](https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-file-name-options) value containing flags that specify the format of the name information to be returned, as well as the query method to be used by the Filter Manager. This parameter is required and cannot be set to **NULL**.
 
 The following table describes the name format flag values. Only one of the flags can be specified. For more information about these formats, see [FLT_FILE_NAME_INFORMATION](ns-fltkernel-_flt_file_name_information.md).
@@ -149,8 +149,8 @@ FLT_FILE_NAME_QUERY_ALWAYS_ALLOW_CACHE_LOOKUP
 </tr>
 </table>
 
-### -param FileNameInformation [out]
-
+### -param FileNameInformation 
+[out]
 Pointer to a caller-allocated variable that receives the address of a system-allocated FLT_FILE_NAME_INFORMATION structure. **FltGetFileNameInformationUnsafe** allocates this structure from paged pool. When this information is no longer needed, the caller must release the structure by calling [FltReleaseFileNameInformation](nf-fltkernel-fltreleasefilenameinformation.md). This parameter is required and cannot be set to **NULL**.
 
 ## -returns

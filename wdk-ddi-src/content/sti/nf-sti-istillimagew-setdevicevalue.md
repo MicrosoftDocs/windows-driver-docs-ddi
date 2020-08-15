@@ -55,13 +55,13 @@ The <b>IStillImage::SetDeviceValue</b> method sets registry information for a sp
 
 
 
-### -param pwszDeviceName [in]
-
+### -param pwszDeviceName 
+[in]
 Caller-supplied pointer to a string representing an internal device name, obtained by calling <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543790(v=vs.85)">IStillImage::GetSTILaunchInformation</a> or <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543784(v=vs.85)">IStillImage::GetDeviceList</a>.
 
 
-### -param pValueName [in]
-
+### -param pValueName 
+[in]
 Caller-supplied pointer to a string representing a registry value name.
 
 
@@ -70,8 +70,8 @@ Caller-supplied pointer to a string representing a registry value name.
 Caller-supplied REG_-prefixed registry value type. For more information, see <b>RegSetValueEx</b> in the Microsoft Windows SDK documentation.
 
 
-### -param pData [in]
-
+### -param pData 
+[in]
 Caller-supplied pointer to the data to be stored.
 
 

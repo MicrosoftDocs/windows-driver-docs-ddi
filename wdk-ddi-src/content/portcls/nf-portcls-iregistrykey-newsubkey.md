@@ -55,33 +55,33 @@ The <code>NewSubKey</code> method either creates a new registry subkey or opens 
 
 
 
-### -param RegistrySubKey [out]
-
+### -param RegistrySubKey 
+[out]
 Output pointer for the new subkey. This parameter points to a caller-allocated pointer variable into which the method writes the pointer to the new <b>IRegistryKey</b> object. This object represents the subkey being opened or created. Specify a valid, non-<b>NULL</b> pointer value for this parameter.
 
 
-### -param OuterUnknown [in]
-
+### -param OuterUnknown 
+[in]
 Pointer to the <b>IUnknown</b> interface of an object that needs to aggregate the registry key object. This parameter is optional. If aggregation is not required, specify this parameter as <b>NULL</b>.
 
 
-### -param DesiredAccess [in]
-
+### -param DesiredAccess 
+[in]
 Specifies the type of access that the caller requires to the subkey that is being opened or created. This parameter is of type <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>. For more information, see the following Remarks section.
 
 
-### -param SubKeyName [in]
-
+### -param SubKeyName 
+[in]
 Pointer to the name that is to be assigned to the subkey. This parameter must be a valid, non-<b>NULL</b> pointer to an initialized structure of type <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>.
 
 
-### -param CreateOptions [in]
-
+### -param CreateOptions 
+[in]
 Flags indicating the create options. Can be zero if none are desired. This parameter is required if the value of <i>RegistryKeyType</i> is <b>GeneralRegistryKey</b>; otherwise, the method does not use this parameter. For more information, see the following Remarks section.
 
 
-### -param Disposition [out, optional]
-
+### -param Disposition 
+[out, optional]
 Output pointer for the disposition value. This parameter points to a caller-allocated ULONG variable into which the method writes a status value indicating whether a new key was created or an existing key was opened. This parameter is optional and can be specified as <b>NULL</b> if the caller does not need it. For more information, see the following Remarks section.
 
 

@@ -55,8 +55,8 @@ Notifies UFX that the device's  USB cable has been attached.
 
 
 
-### -param UfxDevice [in]
-
+### -param UfxDevice 
+[in]
 A handle to a UFX device object that the driver created by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>.
 
 

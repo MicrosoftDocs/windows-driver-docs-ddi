@@ -66,8 +66,8 @@ The input [COLORDATATYPE](https://docs.microsoft.com/previous-versions/ff546006(
 
 The buffer size, in bytes, of *pInputData*.
 
-### -param pInputData [in]
-
+### -param pInputData 
+[in]
 A pointer to an array of input colors.
 
 ### -param nOutputChannels [in]
@@ -82,8 +82,8 @@ The output [COLORDATATYPE](https://docs.microsoft.com/previous-versions/ff546006
 
 The buffer size, in bytes, of *pOutputData*.
 
-### -param pOutputData [out]
-
+### -param pOutputData 
+[out]
 A pointer to an array of colors that receives the results of the color translation.
 
 ## -remarks

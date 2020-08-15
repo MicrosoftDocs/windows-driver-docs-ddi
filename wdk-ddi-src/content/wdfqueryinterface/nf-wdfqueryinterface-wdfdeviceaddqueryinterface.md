@@ -58,13 +58,13 @@ The <b>WdfDeviceAddQueryInterface</b> method creates a driver-defined interface 
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object.
 
 
-### -param InterfaceConfig [in]
-
+### -param InterfaceConfig 
+[in]
 A pointer to a driver-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfqueryinterface/ns-wdfqueryinterface-_wdf_query_interface_config">WDF_QUERY_INTERFACE_CONFIG</a> structure that describes the interface.
 
 

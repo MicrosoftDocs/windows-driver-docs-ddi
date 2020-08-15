@@ -55,8 +55,8 @@ The <b>GetValues2</b> method fetches the value of several of the target's <a hre
 
 
 
-### -param Source [in]
-
+### -param Source 
+[in]
 Specifies the register source to query.
 
 The possible values are listed in the following table.
@@ -102,23 +102,23 @@ Fetch register information from the current scope's register context.
  
 
 
-### -param Count [in]
-
+### -param Count 
+[in]
 Specifies the number of registers whose values are requested.
 
 
-### -param Indices [in, optional]
-
+### -param Indices 
+[in, optional]
 Specifies an array that contains the indices of the registers from which to get the values.  The number of elements in this array is <i>Count</i>.  If <i>Indices</i> is <b>NULL</b>, <i>Start</i> is used instead.
 
 
-### -param Start [in]
-
+### -param Start 
+[in]
 If <i>Indices</i> is <b>NULL</b>, the registers will be read consecutively starting at this index.  Otherwise, it is ignored.
 
 
-### -param Values [out]
-
+### -param Values 
+[out]
 Receives the values of the registers.  The number of elements that this array holds is <i>Count</i>.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_value">DEBUG_VALUE</a> for a description of this parameter type.
 
 

@@ -55,13 +55,13 @@ The <b>InsertHeadList</b> routine inserts an entry at the head of a doubly linke
 
 
 
-### -param ListHead [in, out]
-
+### -param ListHead 
+[in, out]
 Pointer to the <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-list_entry">LIST_ENTRY</a> structure that represents the head of the list.
 
 
-### -param Entry [in, out]
-
+### -param Entry 
+[in, out]
 Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-list_entry">LIST_ENTRY</a> structure that represents the entry to be inserted into the list. 
 
 

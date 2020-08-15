@@ -56,8 +56,8 @@ The<b> KsPinGetConnectedPinDeviceObject</b> function returns the device object a
 
 
 
-### -param Pin [in]
-
+### -param Pin 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure that is the source pin for which to obtain the connected sink pin's device object.
 
 

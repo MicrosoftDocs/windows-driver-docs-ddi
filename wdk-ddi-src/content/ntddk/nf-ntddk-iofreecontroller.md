@@ -55,8 +55,8 @@ The <b>IoFreeController</b> routine releases a previously allocated controller o
 
 
 
-### -param ControllerObject [in]
-
+### -param ControllerObject 
+[in]
 Pointer to the driver's controller object, which was allocated for the current I/O operation on a particular device by calling <b>IoAllocateController</b>. 
 
 

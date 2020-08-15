@@ -55,8 +55,8 @@ Opens the device.
 
 
 
-### -param pResult [out, retval]
-
+### -param pResult 
+[out, retval]
 True if the device opens; otherwise, false.
 
 

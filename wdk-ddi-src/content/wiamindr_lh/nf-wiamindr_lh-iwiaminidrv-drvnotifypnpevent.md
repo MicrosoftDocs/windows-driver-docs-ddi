@@ -51,12 +51,12 @@ The **IWiaMiniDrv::drvNotifyPnpEvent** method responds to the event received fro
 
 ### -param pEventGUID
 
-### -param bstrDeviceID [in]
-
+### -param bstrDeviceID 
+[in]
 Specifies a string containing the device's unique identifier.
 
-### -param ulReserved [in]
-
+### -param ulReserved 
+[in]
 Is reserved for system use.
 
 #### - pEventGuid [in]

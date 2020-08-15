@@ -56,8 +56,8 @@ The <b>ISensorClassExtension::PostStateChange</b> method notifies the sensor cla
 
 
 
-### -param pwszSensorID [in]
-
+### -param pwszSensorID 
+[in]
 <b>LPWSTR</b> that contains the ID for the sensor for which the driver is raising the event.
 
 

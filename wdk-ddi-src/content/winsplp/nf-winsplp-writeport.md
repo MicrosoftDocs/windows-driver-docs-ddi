@@ -69,13 +69,13 @@ BOOL WritePort(
 
 
 
-### -param hPort [in]
-
+### -param hPort 
+[in]
 Caller-supplied port handle.
 
 
-### -param pBuffer [in]
-
+### -param pBuffer 
+[in]
 Caller-supplied pointer to a buffer containing data to be written to the port.
 
 
@@ -84,8 +84,8 @@ Caller-supplied pointer to a buffer containing data to be written to the port.
 Caller-supplied size, in bytes, of <i>pBuffer</i>.
 
 
-### -param pcbWritten [out]
-
+### -param pcbWritten 
+[out]
 Caller-supplied pointer to a location to receive the number of bytes successfully written to the port.
 
 

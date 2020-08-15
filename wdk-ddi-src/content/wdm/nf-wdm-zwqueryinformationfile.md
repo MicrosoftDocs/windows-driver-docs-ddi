@@ -56,28 +56,28 @@ The <b>ZwQueryInformationFile</b> routine returns various kinds of information a
 
 
 
-### -param FileHandle [in]
-
+### -param FileHandle 
+[in]
 Handle to a file object. The handle is created by a successful call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntopenfile">ZwOpenFile</a>.
 
 
-### -param IoStatusBlock [out]
-
+### -param IoStatusBlock 
+[out]
 Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the operation. The <b>Information</b> member receives the number of bytes that this routine actually writes to the <i>FileInformation</i> buffer.
 
 
-### -param FileInformation [out]
-
+### -param FileInformation 
+[out]
 Pointer to a caller-allocated buffer into which the routine writes the requested information about the file object. The <i>FileInformationClass</i> parameter specifies the type of information that the caller requests.
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 The size, in bytes, of the buffer pointed to by <i>FileInformation</i>.
 
 
-### -param FileInformationClass [in]
-
+### -param FileInformationClass 
+[in]
 Specifies the type of information to be returned about the file, in the buffer that <i>FileInformation</i> points to. Device and intermediate drivers can specify any of the following <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_file_information_class">FILE_INFORMATION_CLASS</a> values.
 
 <table>

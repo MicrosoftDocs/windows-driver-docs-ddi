@@ -60,8 +60,8 @@ The <code>IPrintCoreHelperUni::EnumFeatures</code> method gets a list of all ava
 
 
 
-### -param pdwNumFeatures [out]
-
+### -param pdwNumFeatures 
+[out]
 A pointer to a variable that receives the number of feature keywords in the array that is pointed to by the <i>pFeatureList</i> parameter.
 
 

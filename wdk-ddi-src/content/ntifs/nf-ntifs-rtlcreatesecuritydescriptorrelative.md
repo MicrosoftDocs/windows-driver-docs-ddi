@@ -55,13 +55,13 @@ The <b>RtlCreateSecurityDescriptorRelative</b> routine initializes a new securit
 
 
 
-### -param SecurityDescriptor [out]
-
+### -param SecurityDescriptor 
+[out]
 Pointer to a caller-allocated buffer, which must be at least <b>sizeof</b>(SECURITY_DESCRIPTOR_RELATIVE), to receive the initialized security descriptor. 
 
 
-### -param Revision [in]
-
+### -param Revision 
+[in]
 Revision level to assign to the security descriptor. This parameter must be SECURITY_DESCRIPTOR_REVISION.
 
 

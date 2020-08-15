@@ -57,16 +57,16 @@ The
 
 
 
-### -param ProviderCharacteristics [in]
-
+### -param ProviderCharacteristics 
+[in]
 A pointer to a caller-provided 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_if_provider_characteristics">
      NDIS_IF_PROVIDER_CHARACTERISTICS</a> structure. This structure defines the characteristics of the
      provider, including the entry points for its provider callback functions.
 
 
-### -param IfProviderContext [in]
-
+### -param IfProviderContext 
+[in]
 A handle to a caller-provided context area for this network interface provider. Set this parameter
      to <b>NULL</b> if there is no context area.
 

@@ -57,8 +57,8 @@ The <b>GetNotifyEventHandle</b> method receives the handle of the event that wil
 
 
 
-### -param Handle [out]
-
+### -param Handle 
+[out]
 Receives the handle of the event that will be signaled.  If <i>Handle</i> is <b>NULL</b>, no event will be signaled.
 
 

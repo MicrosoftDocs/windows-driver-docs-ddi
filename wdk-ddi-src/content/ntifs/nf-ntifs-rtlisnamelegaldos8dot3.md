@@ -55,18 +55,18 @@ The <b>RtlIsNameLegalDOS8Dot3</b> routine determines whether a given name repres
 
 
 
-### -param Name [in]
-
+### -param Name 
+[in]
 Pointer to a Unicode string containing the file name. 
 
 
-### -param OemName [in, out]
-
+### -param OemName 
+[in, out]
 Pointer to an optional caller-allocated buffer that receives a counted OEM string corresponding to the Unicode string at <i>Name</i>. 
 
 
-### -param NameContainsSpaces [out, optional]
-
+### -param NameContainsSpaces 
+[out, optional]
 Pointer to an optional BOOLEAN value that receives <b>TRUE</b> if the string at <i>Name</i> contains embedded spaces, <b>FALSE</b> otherwise. This value is valid only if <b>RtlIsNameLegalDOS8Dot3</b> returns <b>TRUE</b>. 
 
 

@@ -56,8 +56,8 @@ Decrements the current worker count of a worker previous created by <a href="htt
 
 
 
-### -param Worker [in]
-
+### -param Worker 
+[in]
 Contains the previously allocated worker.
 
 

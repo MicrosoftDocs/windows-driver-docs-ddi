@@ -55,8 +55,8 @@ The <b>KeQueryMaximumProcessorCountEx</b> routine returns the maximum number of 
 
 
 
-### -param GroupNumber [in]
-
+### -param GroupNumber 
+[in]
 Specifies a group number. If a multiprocessor system contains <i>n</i> groups, the groups are numbered from 0 to <i>n</i>-1. To obtain the maximum number of processors in the system, set this parameter to ALL_PROCESSOR_GROUPS, which is defined in the Winnt.h and Ntdef.h header files.
 
 

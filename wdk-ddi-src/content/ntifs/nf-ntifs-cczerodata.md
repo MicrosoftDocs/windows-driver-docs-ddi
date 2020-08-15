@@ -55,23 +55,23 @@ The <b>CcZeroData</b> routine zeros the specified range of bytes in a cached or 
 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 A pointer to a file object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">FILE_OBJECT</a>) for the file in which a range of bytes is to be zeroed.
 
 
-### -param StartOffset [in]
-
+### -param StartOffset 
+[in]
 A pointer to a variable that specifies the byte offset within the file to the first byte that is to be zeroed.
 
 
-### -param EndOffset [in]
-
+### -param EndOffset 
+[in]
 A pointer to a variable that specifies the byte offset within the file to the last byte that is to be zeroed.
 
 
-### -param Wait [in]
-
+### -param Wait 
+[in]
 Set to <b>TRUE</b> if the caller should be put into a wait state until the entire byte range has been zeroed. Otherwise, this parameter is set to <b>FALSE</b>.
 
 

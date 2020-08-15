@@ -57,20 +57,20 @@ This function is <u>obsolete</u> in Windows XP and later versions of the Windows
 
 
 
-### -param MajorVersion [out, optional]
+### -param MajorVersion 
+[out, optional]
 
 
-
-### -param MinorVersion [out, optional]
-
-
-
-### -param BuildNumber [out, optional]
+### -param MinorVersion 
+[out, optional]
 
 
+### -param BuildNumber 
+[out, optional]
 
-### -param CSDVersion [out, optional]
 
+### -param CSDVersion 
+[out, optional]
 
 
 ## -returns

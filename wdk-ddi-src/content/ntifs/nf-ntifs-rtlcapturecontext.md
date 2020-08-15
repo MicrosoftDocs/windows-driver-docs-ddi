@@ -58,8 +58,8 @@ The <b>RtlCaptureContext </b>function retrieves a context record in the context 
 
 
 
-### -param ContextRecord [out]
-
+### -param ContextRecord 
+[out]
 A pointer to a <a href="https://go.microsoft.com/fwlink/p/?linkid=132119">CONTEXT</a> structure.
 
 

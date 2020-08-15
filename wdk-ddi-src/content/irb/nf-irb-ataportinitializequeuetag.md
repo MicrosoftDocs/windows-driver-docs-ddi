@@ -63,18 +63,18 @@ The <b>AtaPortInitializeQueueTag</b> routine initializes the queue tag list for 
 <p>A pointer to the channel extension.</p>
 
 
-### -param TargetId [in]
-
+### -param TargetId 
+[in]
 Specifies the target identifier of the device.
 
 
-### -param Lun [in]
-
+### -param Lun 
+[in]
 Specifies the logical unit number (LUN) of the device.
 
 
-### -param MaxQueueTag [in]
-
+### -param MaxQueueTag 
+[in]
 Specifies the maximum allowed value for the queue tag.
 
 

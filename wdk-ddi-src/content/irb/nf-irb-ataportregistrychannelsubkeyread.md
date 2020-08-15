@@ -54,23 +54,23 @@ The <b>AtaPortRegistryChannelSubKeyRead</b> routine reads the data that is assoc
 
 
 
-### -param ChannelExtension [in]
-
+### -param ChannelExtension 
+[in]
 A pointer to the channel extension. 
 
 
-### -param ControllerNumber [in]
-
+### -param ControllerNumber 
+[in]
 Contains the controller number. 
 
 
-### -param ValueName [in]
-
+### -param ValueName 
+[in]
 Contains the name of the registry value from which to read. 
 
 
-### -param ValueType [in]
-
+### -param ValueType 
+[in]
 Indicates the type of data that is contained in the registry value. This member should be assigned one of values indicated in the following table. 
 
 <table>
@@ -112,8 +112,8 @@ A null-terminated. Unicode string.
  
 
 
-### -param Buffer [out, optional]
-
+### -param Buffer 
+[out, optional]
 A pointer to the destination buffer where the data that is read from the registry will be written. 
 
 

@@ -65,15 +65,15 @@ IoAcquireRemoveLock (
 
 
 
-### -param RemoveLock [in]
-
+### -param RemoveLock 
+[in]
 Pointer to an <b>IO_REMOVE_LOCK</b> structure that the caller initialized with a 
       previous call to 
       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioinitializeremovelock">IoInitializeRemoveLock</a>.
 
 
-### -param Tag [in, optional]
-
+### -param Tag 
+[in, optional]
 Optionally points to a caller-supplied tag that identifies this instance of acquiring the remove lock. For 
        example, a driver Dispatch routine typically sets this parameter to a pointer to the IRP the routine is 
        processing.

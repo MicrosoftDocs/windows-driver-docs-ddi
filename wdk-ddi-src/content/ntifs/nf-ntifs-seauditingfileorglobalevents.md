@@ -55,18 +55,18 @@ The <b>SeAuditingFileOrGlobalEvents</b> routine determines whether file or globa
 
 
 
-### -param AccessGranted [in]
-
+### -param AccessGranted 
+[in]
 Set to <b>TRUE</b> if the access attempt was successful, <b>FALSE</b> otherwise.
 
 
-### -param SecurityDescriptor [in]
-
+### -param SecurityDescriptor 
+[in]
 Pointer to the security descriptor protecting the object being accessed. 
 
 
-### -param SubjectSecurityContext [in]
-
+### -param SubjectSecurityContext 
+[in]
 Pointer to the subject's captured security context.
 
 

@@ -55,23 +55,23 @@ The <b>CcPinRead</b> routine pins the specified byte range of a cached file and 
 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 Pointer to a file object for the cached file in which a range of data is to be pinned.
 
 
-### -param FileOffset [in]
-
+### -param FileOffset 
+[in]
 Pointer to a variable that specifies the starting byte offset within the cached file where the desired data resides.
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 Length of desired data in bytes.
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 Bitmask of flags specifying how the pinning operation is to be performed. ORed combination of one or more of the following values: 
 
 <table>
@@ -123,13 +123,13 @@ The data is to be pinned only if a BCB already exists. Otherwise, the pin fails 
  
 
 
-### -param Bcb [out]
-
+### -param Bcb 
+[out]
 On the first call this returns a pointer to a buffer control block (BCB). This pointer must be supplied as input on all subsequent calls for this buffer.
 
 
-### -param Buffer [out]
-
+### -param Buffer 
+[out]
 Pointer to a buffer containing the pinned data.
 
 

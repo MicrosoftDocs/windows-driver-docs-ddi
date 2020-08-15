@@ -57,31 +57,31 @@ The
 
 
 
-### -param ListenSocket [in]
-
+### -param ListenSocket 
+[in]
 A pointer to a 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a> structure. This pointer specifies the
      listening socket on which the WSK application received the incoming connection request that it is
      inspecting.
 
 
-### -param InspectID [in]
-
+### -param InspectID 
+[in]
 A pointer to a 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_inspect_id">WSK_INSPECT_ID</a> structure. The contents of
      the structure identify the specific connection request that the WSK application is inspecting.
 
 
-### -param Action [in]
-
+### -param Action 
+[in]
 A value that specifies whether the WSK application accepts or rejects the incoming connection
      request. A WSK application must specify either 
      <b>WskInspectAccept</b> or 
      <b>WskInspectReject</b> for this parameter.
 
 
-### -param Irp [in, out]
-
+### -param Irp 
+[in, out]
 A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the resume operation
      asynchronously. For more information about using IRPs with WSK functions, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock

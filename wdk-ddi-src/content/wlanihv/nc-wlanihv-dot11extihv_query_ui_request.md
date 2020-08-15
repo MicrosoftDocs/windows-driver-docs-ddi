@@ -75,16 +75,16 @@ DWORD APIENTRY Dot11ExtIhvQueryUIRequest(
 
 
 
-### -param hIhvExtAdapter [in, optional]
-
+### -param hIhvExtAdapter 
+[in, optional]
 The handle used by the IHV Extensions DLL to reference the wireless LAN (WLAN) adapter. This
      handle value was specified through a previous call to the
      <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a> IHV
      Handler function.
 
 
-### -param connectionPhase [in]
-
+### -param connectionPhase 
+[in]
 The current connection phase. The data type for this member is the
      <b>DOT11EXT_IHV_CONNECTION_PHASE</b> enumeration:
 
@@ -116,8 +116,8 @@ Specifies the connection phase after the IHV Extensions DLL completes a post-ass
        Operations</a>.
 
 
-### -param ppIhvUIRequest [out]
-
+### -param ppIhvUIRequest 
+[out]
 The address of a pointer to a
      <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_ui_request.md">DOT11EXT_IHV_UI_REQUEST</a> structure.
      The IHV Extensions DLL must allocate a buffer for the DOT11EXT_IHV_UI_REQUEST structure by calling

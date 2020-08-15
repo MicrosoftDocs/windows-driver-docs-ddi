@@ -55,23 +55,23 @@ Sets the volume level to be applied to the audio stream.
 
 
 
-### -param Channel [in]
-
+### -param Channel 
+[in]
 The audio stream channel.
 
 
-### -param TargetVolume [in]
-
+### -param TargetVolume 
+[in]
 The volume level to be applied to the audio stream.
 
 
-### -param CurveType [in]
-
+### -param CurveType 
+[in]
 The curve algorithm that will be used  to set the volume level. The curve types are represented by the members of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-audio_curve_type">AUDIO_CURVE_TYPE</a> enum.
 
 
-### -param CurveDuration [in]
-
+### -param CurveDuration 
+[in]
 The length of time over which the curve algorithm will be applied.
 
 

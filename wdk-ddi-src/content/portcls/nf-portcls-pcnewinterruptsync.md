@@ -56,28 +56,28 @@ The <b>PcNewInterruptSync</b> function creates and initializes an interrupt-sync
 
 
 
-### -param OutInterruptSync [out]
-
+### -param OutInterruptSync 
+[out]
 Output pointer for the interrupt-synchronization object created by this function. This parameter points to a caller-allocated pointer variable into which the function outputs a reference to the newly created <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iinterruptsync">IInterruptSync</a> object. Specify a valid, non-<b>NULL</b> pointer value for this parameter.
 
 
-### -param OuterUnknown [in, optional]
-
+### -param OuterUnknown 
+[in, optional]
 Pointer to the <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of an object that needs to aggregate the object. Unless aggregation is required, set this parameter to <b>NULL</b>.
 
 
-### -param ResourceList [in]
-
+### -param ResourceList 
+[in]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iresourcelist">IResourceList</a> object that was provided to the miniport driver during initialization. The port driver will examine this resource list but will not modify it.
 
 
-### -param ResourceIndex [in]
-
+### -param ResourceIndex 
+[in]
 Specifies the index of the interrupt resource in the resource list. If the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iresourcelist-numberofentriesoftype">IResourceList::NumberOfEntriesOfType</a> method returns a count of N for type CmResourceTypeInterrupt, <i>ResourceIndex</i> must be a value in the range 0 to N-1.
 
 
-### -param Mode [in]
-
+### -param Mode 
+[in]
 Specifies the way that multiple ISRs are handled. Set this parameter to one of the INTERRUPTSYNCMODE enumeration values. For more information, see the following Remarks section.
 
 

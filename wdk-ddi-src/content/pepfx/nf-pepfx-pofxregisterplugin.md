@@ -50,12 +50,12 @@ The **PoFxRegisterPlugin** routine registers a platform extension plug-in (PEP) 
 
 ## -parameters
 
-### -param PepInformation [in]
-
+### -param PepInformation 
+[in]
 A pointer to a [PEP_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_information) structure.
 
-### -param KernelInformation [in, out]
-
+### -param KernelInformation 
+[in, out]
 A pointer to a [PEP_KERNEL_INFORMATION_STRUCT_V3](https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_kernel_information_struct_v3) structure.
 
 ## -returns

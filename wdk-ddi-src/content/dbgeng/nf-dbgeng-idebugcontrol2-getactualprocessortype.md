@@ -57,8 +57,8 @@ The <b>GetActualProcessorType</b> method returns the processor type of the physi
 
 
 
-### -param Type [out]
-
+### -param Type 
+[out]
 Receives the type of the processor.  The processor types are listed in the following table.     
 
 <table>
