@@ -49,8 +49,8 @@ The **SetPixelWindow** function sets the image area to be scanned.
 
 ## -parameters
 
-### -param pScanInfo [in, out]
-
+### -param pScanInfo 
+[in, out]
 Points to a [SCANINFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamicro/ns-wiamicro-_scaninfo) structure that represents the current state of the device. This is stored by the WIA Flatbed driver to guarantee synchronized settings between the microdriver and the WIA Flatbed driver.
 
 ### -param x

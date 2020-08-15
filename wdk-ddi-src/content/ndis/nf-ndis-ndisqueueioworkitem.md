@@ -57,15 +57,15 @@ NDIS drivers call the
 
 
 
-### -param NdisIoWorkItemHandle [in]
-
+### -param NdisIoWorkItemHandle 
+[in]
 A handle to a private <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">IO_WORKITEM</a> structure that was returned by a previous call to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocateioworkitem">
      NdisAllocateIoWorkItem</a> function.
 
 
-### -param Routine [in]
-
+### -param Routine 
+[in]
 The entry point to the function that NDIS calls to process the work item. NDIS calls this routine
      in the context of a system thread. 
 
@@ -93,8 +93,8 @@ A handle to a private <b>NDIS_IO_WORKITEM</b> structure that was returned by a p
      NdisAllocateIoWorkItem</a> function.
 
 
-### -param WorkItemContext [in]
-
+### -param WorkItemContext 
+[in]
 A pointer to a caller-supplied context area that NDIS passes through to the callback routine. 
      <i>WorkItemContext</i> can be any caller-specified data that the driver requires to manage the work
      item.

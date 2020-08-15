@@ -55,8 +55,8 @@ The <b>AtaPortControllerSyncRoutine</b> routine provides synchronized access to 
 
 
 
-### -param ChannelExtension [in]
-
+### -param ChannelExtension 
+[in]
 A pointer to the channel extension. 
 
 

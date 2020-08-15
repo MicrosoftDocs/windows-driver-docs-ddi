@@ -57,23 +57,23 @@ A driver's <i>EvtWmiInstanceQueryInstance</i> callback function copies a WMI pro
 
 
 
-### -param WmiInstance [in]
-
+### -param WmiInstance 
+[in]
 A handle to a WMI instance object.
 
 
-### -param OutBufferSize [in]
-
+### -param OutBufferSize 
+[in]
 The size, in bytes, of the output buffer that <i>OutBuffer</i> points to.
 
 
-### -param OutBuffer [in]
-
+### -param OutBuffer 
+[in]
 A pointer to the output buffer.
 
 
-### -param BufferUsed [out]
-
+### -param BufferUsed 
+[out]
 A pointer to a location that receives the number of bytes that the driver places in the output buffer. If the output buffer size that the <i>OutBufferSize</i> parameter specifies is too small, the driver sets this location to the required buffer size.  
 
 

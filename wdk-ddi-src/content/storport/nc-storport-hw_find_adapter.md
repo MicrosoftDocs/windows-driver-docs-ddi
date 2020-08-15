@@ -53,24 +53,24 @@ The **HwStorFindAdapter** routine uses the supplied configuration to determine w
 
 Supplies a per adapter storage area.
 
-### -param HwContext [in]
-
+### -param HwContext 
+[in]
 Set to NULL.
 
-### -param BusInformation [in]
-
+### -param BusInformation 
+[in]
 Set to NULL.
 
-### -param ArgumentString [in]
-
+### -param ArgumentString 
+[in]
 Supplies a **NULL**-terminated string with context information about the driver.
 
-### -param ConfigInfo [in, out]
-
+### -param ConfigInfo 
+[in, out]
 Supplies an initialized [**PORT_CONFIGURATION_INFORMATION**](ns-storport-_port_configuration_information.md) structure that the miniport driver uses during initialization.
 
-### -param Reserved3 [in]
-
+### -param Reserved3 
+[in]
 Reserved for system use.
 
 ## -returns

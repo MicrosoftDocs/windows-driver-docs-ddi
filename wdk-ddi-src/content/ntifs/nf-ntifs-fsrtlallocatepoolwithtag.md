@@ -55,8 +55,8 @@ The <b>FsRtlAllocatePoolWithTag</b> routine allocates pool memory.
 
 
 
-### -param PoolType [in]
-
+### -param PoolType 
+[in]
 Type of pool to allocate. One of the following:
 
 
@@ -71,13 +71,13 @@ Type of pool to allocate. One of the following:
 <div class="alert"><b>Note</b>    The <b>NonPagedPoolMustSucceed</b> and <b>NonPagedPoolCacheAlignedMustS</b> pool types are obsolete and should no longer be used. </div>
 <div> </div>
 
-### -param NumberOfBytes [in]
-
+### -param NumberOfBytes 
+[in]
 Number of bytes to allocate. This parameter is required and cannot be zero. 
 
 
-### -param Tag [in]
-
+### -param Tag 
+[in]
 Specifies the pool tag for the allocated memory. Drivers normally specify the pool tag as a string of one to four 7-bit ASCII characters, delimited by single quotation marks (for example, 'abcd'). This parameter is required and cannot be zero. 
 
 

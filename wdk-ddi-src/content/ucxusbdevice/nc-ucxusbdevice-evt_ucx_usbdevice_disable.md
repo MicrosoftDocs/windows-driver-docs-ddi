@@ -55,13 +55,13 @@ The client driver's implementation that UCX calls to release controller resource
 
 
 
-### -param UcxController [in]
-
+### -param UcxController 
+[in]
  A handle to the UCX controller that the client driver received in a previous call to  the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a> method.
 
 
-### -param Request [in]
-
+### -param Request 
+[in]
 A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxusbdevice/ns-ucxusbdevice-_usbdevice_disable">USBDEVICE_DISABLE</a>.
 
 

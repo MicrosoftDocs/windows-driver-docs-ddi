@@ -56,33 +56,33 @@ Copies (loads) a resource from the given image.
 
 
 
-### -param ImageBase [in]
-
+### -param ImageBase 
+[in]
 Pointer to the image base
 
 
-### -param PoolType [in]
-
+### -param PoolType 
+[in]
 Pool type to use when copying resource
 
 
-### -param ResourceName [in]
-
+### -param ResourceName 
+[in]
 Resource name.
 
 
-### -param ResourceType [in]
-
+### -param ResourceType 
+[in]
 Resource type
 
 
-### -param Resource [out]
-
+### -param Resource 
+[out]
 Pointer to resultant resource memory.
 
 
-### -param ResourceSize [out, optional]
-
+### -param ResourceSize 
+[out, optional]
 Pointer to ULONG value to receive the size of the resource.
 
 

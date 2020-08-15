@@ -57,13 +57,13 @@ The <b>READ_REGISTER_ULONG</b> function reads a ULONG value from the specified r
 
 
 
-### -param pDevice [in]
-
+### -param pDevice 
+[in]
 Specifies a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice3">IWDFDevice3</a> interface for the device object of the device to access.
 
 
-### -param Register [in]
-
+### -param Register 
+[in]
 A pointer to the register address, which must be a mapped range in memory space.
 
 

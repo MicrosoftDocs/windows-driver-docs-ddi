@@ -57,15 +57,15 @@ NDIS calls a filter driver's
 
 
 
-### -param FilterModuleContext [in]
-
+### -param FilterModuleContext 
+[in]
 A handle to the context area for the filter module that is the target of this request. The filter
      driver created and initialized this context area in the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
 
 
-### -param RequestId [in]
-
+### -param RequestId 
+[in]
 A cancellation identifier for the request. This identifier specifies the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structures that are being
      canceled.

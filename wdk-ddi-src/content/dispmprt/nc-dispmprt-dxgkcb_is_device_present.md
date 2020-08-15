@@ -55,18 +55,18 @@ The <b>DxgkCbIsDevicePresent</b> function determines whether a specified PCI dev
 
 
 
-### -param DeviceHandle [in]
-
+### -param DeviceHandle 
+[in]
 A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgkrnl_interface">DXGKRNL_INTERFACE</a> structure that was passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a>.
 
 
-### -param DevicePresenceParameters [in]
-
+### -param DevicePresenceParameters 
+[in]
 A pointer to a PCI_DEVICE_PRESENCE_PARAMETERS structure (defined in <i>Wdm.h</i>) that the caller fills in with information that identifies the device.
 
 
-### -param DevicePresent [out]
-
+### -param DevicePresent 
+[out]
 A pointer to a Boolean variable that receives <b>TRUE</b> if the device is present or <b>FALSE</b> if the device is not present.
 
 

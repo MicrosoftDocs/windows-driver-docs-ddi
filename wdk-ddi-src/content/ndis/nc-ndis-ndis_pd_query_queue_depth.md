@@ -59,13 +59,13 @@ The PacketDirect (PD) platform calls a PD-capable miniport driver's
 
 
 
-### -param Queue [in]
-
+### -param Queue 
+[in]
 A pointer to a transmit or receive queue.
 
 
-### -param Depth [out]
-
+### -param Depth 
+[out]
 On a receive queue, this is the number of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_pd_buffer">PD_BUFFER</a> structures that are available for placing incoming packets into. For example, if 10 buffers were posted, and 3 of the 10 have already been fetched by the provider for placing incoming packets into, this value should be 7. On a transmit queue, this is the number of <b>PD_BUFFER</b> structures that the provider has not yet fetched from the queue for transmitting.
 
 

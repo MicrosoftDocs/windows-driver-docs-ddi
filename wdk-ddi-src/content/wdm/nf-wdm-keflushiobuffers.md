@@ -55,18 +55,18 @@ The <b>KeFlushIoBuffers</b> routine flushes the memory region described by an MD
 
 
 
-### -param Mdl [in]
-
+### -param Mdl 
+[in]
 A pointer to an MDL that describes the range for the I/O buffer.
 
 
-### -param ReadOperation [in]
-
+### -param ReadOperation 
+[in]
 Specifies <b>TRUE</b> if the flush is being performed for a read operation, and <b>FALSE</b> for a write operation. For more information, see the following Remarks section.
 
 
-### -param DmaOperation [in]
-
+### -param DmaOperation 
+[in]
 Specifies <b>TRUE</b> for a DMA transfer, <b>FALSE</b> for PIO.
 
 

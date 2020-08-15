@@ -60,11 +60,11 @@ req.typenames:
 ### -param dwInfoIndex
 
 
-### -param pOutputBuf [out]
-
+### -param pOutputBuf 
+[out]
 
 ### -param dwSize
 
 
-### -param pcbcNeeded [out]
-
+### -param pcbcNeeded 
+[out]

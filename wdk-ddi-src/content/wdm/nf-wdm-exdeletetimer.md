@@ -56,23 +56,23 @@ The <b>ExDeleteTimer</b> routine deletes a timer object that was previously allo
 
 
 
-### -param Timer [in]
-
+### -param Timer 
+[in]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">EX_TIMER</a> structure. This structure is a timer object that was previously allocated by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatetimer">ExAllocateTimer</a> routine.
 
 
-### -param Cancel [in]
-
+### -param Cancel 
+[in]
 Whether to cancel the timer if it is currently set. If <b>TRUE</b>, the routine cancels the timer if the timer is set. If <b>FALSE</b>, the routine does not cancel the timer if it is set. If the caller sets <i>Wait</i> to <b>TRUE</b>, <i>Cancel</i> must also be <b>TRUE</b>; otherwise, a bug check occurs.
 
 
-### -param Wait [in]
-
+### -param Wait 
+[in]
 Whether to wait for the timer to finish expiring if the timer has already started the process of expiring. If <b>TRUE</b>, the routine waits for the timer to expire. If <b>FALSE</b>, the routine does not wait. For more information, see Remarks.
 
 
-### -param Parameters [in]
-
+### -param Parameters 
+[in]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_ext_delete_parameters">EXT_DELETE_PARAMETERS</a> structure. The calling driver previously called the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializedeletetimerparameters">ExInitializeDeleteTimerParameters</a> routine to initialize this structure.
 
 

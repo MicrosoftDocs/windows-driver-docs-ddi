@@ -60,20 +60,20 @@ The
 
 
 
-### -param ProtocolSapContext [in]
-
+### -param ProtocolSapContext 
+[in]
 Specifies the handle that the client originally supplied when it registered the SAP, which the
      call manager matched to this incoming call offer.
 
 
-### -param ProtocolVcContext [in]
-
+### -param ProtocolVcContext 
+[in]
 Specifies the handle to the client's per-VC context area, previously returned to NDIS by its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a> function.
 
 
-### -param CallParameters [in, out]
-
+### -param CallParameters 
+[in, out]
 Pointer to a buffer, formatted as a 
      <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a> structure, that contains
      the call parameters for this offered call.

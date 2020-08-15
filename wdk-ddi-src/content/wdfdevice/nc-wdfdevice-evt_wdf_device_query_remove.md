@@ -57,8 +57,8 @@ A driver's <i>EvtDeviceQueryRemove</i> event callback function determines whethe
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object.
 
 

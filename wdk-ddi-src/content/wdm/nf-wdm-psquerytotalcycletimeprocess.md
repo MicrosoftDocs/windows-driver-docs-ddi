@@ -56,13 +56,13 @@ The <b>PsQueryTotalCycleTimeProcess</b> routine returns the accumulated cycle ti
 
 
 
-### -param Process [in, out]
-
+### -param Process 
+[in, out]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">EPROCESS</a> structure that serves as the kernel object for the process.
 
 
-### -param CycleTimeStamp [out]
-
+### -param CycleTimeStamp 
+[out]
 A pointer to a ULONG64 variable to which the routine writes the current cycle counter value for the process.
 
 

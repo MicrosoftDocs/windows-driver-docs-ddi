@@ -55,14 +55,14 @@ req.typenames:
 
 
 
-### -param hPrinter [in]
+### -param hPrinter 
+[in]
 
+### -param dwColor 
+[in]
 
-### -param dwColor [in]
+### -param pOptions 
+[in]
 
-
-### -param pOptions [in]
-
-
-### -param ppInfo [in, out, optional]
-
+### -param ppInfo 
+[in, out, optional]

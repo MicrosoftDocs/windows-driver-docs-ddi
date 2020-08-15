@@ -59,8 +59,8 @@ The routine gets system time.
 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">FILE_OBJECT</a> structure to which a handle was returned when the clock instance was created.
 
 

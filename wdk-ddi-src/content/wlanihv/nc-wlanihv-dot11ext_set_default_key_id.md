@@ -70,16 +70,16 @@ DWORD WINAPI * Dot11ExtSetDefaultKeyId(
 
 
 
-### -param hDot11SvcHandle [in, optional]
-
+### -param hDot11SvcHandle 
+[in, optional]
 The handle used by the operating system to reference the WLAN adapter. This handle value was
      specified through a previous call to the
      <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a> IHV
      Handler function.
 
 
-### -param uDefaultKeyId [in]
-
+### -param uDefaultKeyId 
+[in]
 The index value of the key within the adapter's default or per-station cipher key tables.
 
 

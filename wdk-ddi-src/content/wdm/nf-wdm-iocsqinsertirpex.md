@@ -55,23 +55,23 @@ The <b>IoCsqInsertIrpEx</b> routine inserts an IRP into the driver's cancel-safe
 
 
 
-### -param Csq [in, out]
-
+### -param Csq 
+[in, out]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">IO_CSQ</a> structure for the driver's cancel-safe IRP queue. This structure must have been initialized by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqinitialize">IoCsqInitialize</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqinitializeex">IoCsqInitializeEx</a>.
 
 
-### -param Irp [in, out]
-
+### -param Irp 
+[in, out]
 Pointer to the IRP to be queued.
 
 
-### -param Context [out, optional]
-
+### -param Context 
+[out, optional]
 Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">IO_CSQ_IRP_CONTEXT</a> structure. <b>IoCsqInsertIrpEx</b> initializes this structure with context information for the inserted IRP. The driver passes this value to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqremoveirp">IoCsqRemoveIrp</a> to delete the IRP from the queue. <i>Context</i> can be <b>NULL</b> if the driver will not use <b>IoCsqRemoveIrp</b> to remove this IRP from the queue.
 
 
-### -param InsertContext [in, optional]
-
+### -param InsertContext 
+[in, optional]
 Pointer to a driver-defined context value. This parameter is passed to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_insert_irp_ex">CsqInsertIrpEx</a> routine, if it has one. Otherwise, this parameter is ignored.
 
 

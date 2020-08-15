@@ -58,8 +58,8 @@ The
 
 
 
-### -param ProtocolVcContext [in]
-
+### -param ProtocolVcContext 
+[in]
 Specifies the handle to the client's or call manager's per-VC context area. The protocol
      originally supplied this handle from its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a> function.

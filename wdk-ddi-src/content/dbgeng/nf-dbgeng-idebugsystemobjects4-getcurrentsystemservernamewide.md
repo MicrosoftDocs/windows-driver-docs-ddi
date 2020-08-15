@@ -55,18 +55,18 @@ Gets the server name for the current process.
 
 
 
-### -param Buffer [out]
-
+### -param Buffer 
+[out]
 A pointer to an output buffer as a Unicode character string. 
 
 
-### -param BufferSize [in]
-
+### -param BufferSize 
+[in]
 The buffer size. 
 
 
-### -param NameSize [out, optional]
-
+### -param NameSize 
+[out, optional]
 A pointer to the name size. 
 
 

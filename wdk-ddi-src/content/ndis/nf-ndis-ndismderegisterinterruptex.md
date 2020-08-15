@@ -59,8 +59,8 @@ Miniport drivers call
 
 
 
-### -param NdisInterruptHandle [in]
-
+### -param NdisInterruptHandle 
+[in]
 An interrupt handle that the miniport driver obtained in a previous call to 
      <b>NdisMRegisterInterruptEx</b>.
 

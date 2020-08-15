@@ -55,13 +55,13 @@ The <b>FsRtlInsertPerFileContext</b> routine associates a <a href="https://msdn.
 
 
 
-### -param PerFileContextPointer [in]
-
+### -param PerFileContextPointer 
+[in]
 A pointer to an opaque pointer used by the file system runtime library (FSRTL) package to track file contexts. To retrieve this pointer from a file object, use the <a href="https://docs.microsoft.com/previous-versions/ff546051(v=vs.85)">FsRtlGetPerFileContextPointer</a> macro.
 
 
-### -param Ptr [in]
-
+### -param Ptr 
+[in]
 A pointer to the driver-specific context structure. 
 
 

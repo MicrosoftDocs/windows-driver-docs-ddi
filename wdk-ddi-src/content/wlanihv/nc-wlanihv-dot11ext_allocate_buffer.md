@@ -69,13 +69,13 @@ DWORD WINAPI * Dot11ExtAllocateBuffer(
 
 
 
-### -param dwByteCount [in]
-
+### -param dwByteCount 
+[in]
 Size, in bytes, of the buffer to allocate.
 
 
-### -param ppvBuffer [out]
-
+### -param ppvBuffer 
+[out]
 A pointer to a caller-supplied variable that stores the address of the allocated buffer. The
      <i>ppvBuffer</i> parameter has a valid non-null value if the return value is ERROR_SUCCESS.
 

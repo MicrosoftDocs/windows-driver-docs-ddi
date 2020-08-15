@@ -49,28 +49,28 @@ The **RasterizeRect** method rasterizes an axis-aligned, rectangular region of a
 
 ## -parameters
 
-### -param x [in]
-
+### -param x 
+[in]
 The x coordinate, in pixels, at the left edge of the output bitmap.
 
-### -param y [in]
-
+### -param y 
+[in]
 The y coordinate, in pixels, at the top edge of the output bitmap.
 
-### -param width [in]
-
+### -param width 
+[in]
 The width, in pixels, of the output bitmap.
 
-### -param height [in]
-
+### -param height 
+[in]
 The height, in pixels, of the output bitmap.
 
-### -param notificationCallback [in, optional]
-
+### -param notificationCallback 
+[in, optional]
 Pointer to the [IXpsRasterizerNotificationCallback](https://docs.microsoft.com/windows-hardware/drivers/ddi/xpsrassvc/nn-xpsrassvc-ixpsrasterizernotificationcallback) interface of a notification object that is implemented by the caller. This parameter is optional and can be **NULL** if the caller does not require notification callbacks.
 
-### -param bitmap [out, optional]
-
+### -param bitmap 
+[out, optional]
 Pointer to a location into which the method writes a pointer to the [IWICBitmap](https://docs.microsoft.com/windows/win32/api/wincodec/nn-wincodec-iwicbitmap) interface of the newly created bitmap object. If the method fails, it writes **NULL** to this location and returns an error code.
 
 ## -returns

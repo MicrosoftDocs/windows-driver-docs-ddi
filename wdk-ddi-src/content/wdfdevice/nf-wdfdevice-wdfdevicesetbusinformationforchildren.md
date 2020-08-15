@@ -58,13 +58,13 @@ The <b>WdfDeviceSetBusInformationForChildren</b> method sets information about a
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object.
 
 
-### -param BusInformation [in]
-
+### -param BusInformation 
+[in]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_pnp_bus_information">PNP_BUS_INFORMATION</a> structure that describes the bus.
 
 

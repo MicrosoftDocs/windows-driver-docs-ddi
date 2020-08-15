@@ -57,8 +57,8 @@ The WDF_OBJECT_ATTRIBUTES_INIT function initializes a driver's <a href="https://
 
 
 
-### -param Attributes [out]
-
+### -param Attributes 
+[out]
 A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure.
 
 

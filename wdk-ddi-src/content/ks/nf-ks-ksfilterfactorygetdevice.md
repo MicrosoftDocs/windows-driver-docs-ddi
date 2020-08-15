@@ -55,8 +55,8 @@ The<b> KsFilterFactoryGetDevice </b>function returns the AVStream device to whic
 
 
 
-### -param FilterFactory [in]
-
+### -param FilterFactory 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilterfactory">KSFILTERFACTORY</a> structure for which to find the corresponding AVStream device.
 
 

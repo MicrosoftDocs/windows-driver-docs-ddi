@@ -53,12 +53,12 @@ The **wiasIsPropChanged** function tests whether a specified property has been c
 
 Specifies the property identifier of the property to be checked.
 
-### -param pContext [in]
-
+### -param pContext 
+[in]
 Pointer to a [WIA_PROPERTY_CONTEXT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wia_property_context) structure that contains the current property context.
 
-### -param pbChanged [out]
-
+### -param pbChanged 
+[out]
 Pointer to a memory location that receives a BOOL value. The BOOL value is **TRUE** if the property changed, and **FALSE** if the property did not change.
 
 ## -returns

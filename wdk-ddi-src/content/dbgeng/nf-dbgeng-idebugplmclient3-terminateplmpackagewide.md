@@ -55,13 +55,13 @@ Ends a Process Lifecycle Management (PLM) package.
 
 
 
-### -param Server [in]
-
+### -param Server 
+[in]
 The server of the package.
 
 
-### -param PackageFullName [in]
-
+### -param PackageFullName 
+[in]
 A pointer to the package name.
 
 

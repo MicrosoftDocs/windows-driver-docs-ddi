@@ -57,13 +57,13 @@ Call the
 
 
 
-### -param NdisHandle [in, optional]
-
+### -param NdisHandle 
+[in, optional]
 An NDIS handle that was obtained during caller initialization.
 
 
-### -param Parameters [in]
-
+### -param Parameters 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list_pool_parameters">NET_BUFFER_LIST_POOL_PARAMETERS</a> structure that defines the parameters for the pool.
 
 

@@ -58,16 +58,16 @@ The number of elements in the array pointed to by *pInputData* and *paResult*.
 
 The number of channels per element in the array pointed to by *pInputData*.
 
-### -param cdtInput [in]
-
+### -param cdtInput 
+[in]
 The input COLORDATATYPE color data type.
 
 ### -param cbInput [in]
 
 The buffer size of *pInputData*.
 
-### -param pInputData [in]
-
+### -param pInputData 
+[in]
 A pointer to an array of input colors. Colors in this array correspond to the color space of the source profile.
 
 ### -param paResult [out]

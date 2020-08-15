@@ -55,13 +55,13 @@ Returns a collection of long number values from the target that are associated w
 
 
 
-### -param SDEL [in]
-
+### -param SDEL 
+[in]
 An SDEL statement that specifies the attribute value to retrieve.
 
 
-### -param ppValue [out, retval]
-
+### -param ppValue 
+[out, retval]
 The address of a variable that receives the result of this method.
 
 

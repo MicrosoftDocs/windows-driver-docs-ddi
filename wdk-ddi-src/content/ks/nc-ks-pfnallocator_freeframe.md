@@ -49,12 +49,12 @@ The *KStrFreeFrame* routine describes a vendor-supplied frame deallocation funct
 
 ## -parameters
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 Pointer to a [FILE_OBJECT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object) structure for which this frame has been allocated.
 
-### -param Frame [in]
-
+### -param Frame 
+[in]
 A pointer to a buffer containing the frame to release.
 
 ## -remarks

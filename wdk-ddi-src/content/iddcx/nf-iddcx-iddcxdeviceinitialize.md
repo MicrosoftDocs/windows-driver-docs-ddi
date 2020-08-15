@@ -57,8 +57,8 @@ Initializes a WDF device
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 The WDF device that is being initialized.
 
 

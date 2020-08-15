@@ -58,13 +58,13 @@ The <b>FsRtlGetFileSize</b> routine is used to get the size of a file.
 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 A pointer to the file object to query.
 
 
-### -param FileSize [out]
-
+### -param FileSize 
+[out]
 A pointer to a large integer that receives the file size on output.
 
 

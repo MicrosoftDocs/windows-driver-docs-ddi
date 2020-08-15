@@ -57,18 +57,18 @@ The <b>SetIoTypePreference</b> method specifies your preferences for how UMDF an
 
 
 
-### -param RetrievalMode [in]
-
+### -param RetrievalMode 
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi_types/ne-wudfddi_types-_wdf_device_io_buffer_retrieval">WDF_DEVICE_IO_BUFFER_RETRIEVAL</a>-typed value that specifies the buffer retrieval mode that you prefer UMDF to use to make an I/O request's buffers available to the driver.
 
 
-### -param ReadWritePreference [in]
-
+### -param ReadWritePreference 
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_device_io_type">WDF_DEVICE_IO_TYPE</a>-typed value that specifies the buffer access method that you prefer UMDF to use for the data buffers of read and write requests. 
 
 
-### -param IoControlPreference [in]
-
+### -param IoControlPreference 
+[in]
 A WDF_DEVICE_IO_TYPE-typed value that specifies the buffer access method that you prefer UMDF to use for the data buffers of device I/O control requests. 
 
 

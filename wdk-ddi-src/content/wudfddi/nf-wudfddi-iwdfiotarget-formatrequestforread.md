@@ -57,28 +57,28 @@ The <b>FormatRequestForRead</b> method formats an I/O request object for a read 
 
 
 
-### -param pRequest [in]
-
+### -param pRequest 
+[in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest">IWDFIoRequest</a> interface for the request object to format. 
 
 
-### -param pFile [in, optional]
-
+### -param pFile 
+[in, optional]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdffile">IWDFFile</a> interface for the file object that is associated with the read request. For the default I/O target, this parameter must be non-NULL.
 
 
-### -param pOutputMemory [in, optional]
-
+### -param pOutputMemory 
+[in, optional]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfmemory">IWDFMemory</a> interface that is used to access the buffer that is used for the read request. This parameter is optional.
 
 
-### -param pOutputMemoryOffset [in, optional]
-
+### -param pOutputMemoryOffset 
+[in, optional]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi_types/ns-wudfddi_types-_wdfmemory_offset">WDFMEMORY_OFFSET</a> structure that describes the output memory offset that is used for the read. This parameter is optional.
 
 
-### -param DeviceOffset [in, optional]
-
+### -param DeviceOffset 
+[in, optional]
 A pointer to the device offset that is used for the read. This parameter is optional.
 
 

@@ -56,15 +56,15 @@ req.typenames:
 
 
 
-### -param Register [in]
-
+### -param Register 
+[in]
 Pointer to the memory-mapped register. This virtual address must fall within a range returned by
      an initialization-time call to 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/ndis-ndismmapiospace">NdisMMapIoSpace</a>.
 
 
-### -param Data [out]
-
+### -param Data 
+[out]
 Pointer to the caller-supplied variable in which this function returns the UCHAR read from 
      <i>Register</i> .
 

@@ -55,8 +55,8 @@ The <b>AddBreakpoint2</b>  method creates a new breakpoint for the current targe
 
 
 
-### -param Type [in]
-
+### -param Type 
+[in]
 Specifies the breakpoint type of the new breakpoint.  This can be either of the following values:
 
 <table>
@@ -88,13 +88,13 @@ DEBUG_BREAKPOINT_DATA
  
 
 
-### -param DesiredId [in]
-
+### -param DesiredId 
+[in]
 Specifies the desired ID of the new breakpoint.  If it is DEBUG_ANY_ID, the engine will pick an unused ID.
 
 
-### -param Bp [out]
-
+### -param Bp 
+[out]
 Receives an interface pointer to the new breakpoint.
 
 

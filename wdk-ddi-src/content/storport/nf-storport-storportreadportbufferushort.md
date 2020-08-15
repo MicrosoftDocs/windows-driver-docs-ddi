@@ -54,23 +54,23 @@ The <b>StorPortReadPortBufferUshort</b> routine reads a value from a specified p
 ## -parameters
 
 
-### -param h [in]
-
+### -param h 
+[in]
 A pointer to the hardware device extension.
 
 
-### -param p [in]
-
+### -param p 
+[in]
 A pointer to the address from which to read. 
 
 
-### -param b [in]
-
+### -param b 
+[in]
 Pointer to the buffer that receives the data that is read.
 
 
-### -param c [in]
-
+### -param c 
+[in]
 Number of data items to be read. Each data item has a size of <b>sizeof</b>(USHORT). 
 
 

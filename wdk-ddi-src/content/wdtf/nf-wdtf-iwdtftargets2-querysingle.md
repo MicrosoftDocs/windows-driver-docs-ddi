@@ -55,13 +55,13 @@ Returns a single item from the collection.
 
 
 
-### -param SDEL [in]
-
+### -param SDEL 
+[in]
 The SDEL query string.
 
 
-### -param ppTarget [out, retval]
-
+### -param ppTarget 
+[out, retval]
 The requested item.
 
 

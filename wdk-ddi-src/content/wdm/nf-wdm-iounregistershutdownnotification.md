@@ -55,8 +55,8 @@ The <b>IoUnregisterShutdownNotification</b> routine removes a registered driver 
 
 
 
-### -param DeviceObject [in]
-
+### -param DeviceObject 
+[in]
 Pointer to the driver's device object.
 
 

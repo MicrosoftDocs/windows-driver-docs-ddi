@@ -56,8 +56,8 @@ The <b>GetTypeOptions</b> method returns the type formatting options for output 
 
 
 
-### -param Options [out]
-
+### -param Options 
+[out]
 Receives the type formatting options.  <i>Options</i> is a bit-set; for a description of the bit flags, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-typeopts-xxx">DEBUG_TYPEOPTS_XXX</a>.
 
 

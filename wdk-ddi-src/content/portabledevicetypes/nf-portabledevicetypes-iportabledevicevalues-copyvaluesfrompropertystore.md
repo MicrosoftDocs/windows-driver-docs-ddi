@@ -59,8 +59,8 @@ Copies the contents of an <b>IPropertyStore</b> into the collection.
 
 
 
-### -param pStore [in]
-
+### -param pStore 
+[in]
 Pointer to an <b>IPropertyStore</b> to copy into the collection.
 
 

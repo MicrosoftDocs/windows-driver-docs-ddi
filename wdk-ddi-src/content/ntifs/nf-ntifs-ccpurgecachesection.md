@@ -55,13 +55,13 @@ The <b>CcPurgeCacheSection</b> routine purges all or a portion of a cached file 
 
 
 
-### -param SectionObjectPointer [in]
-
+### -param SectionObjectPointer 
+[in]
 Pointer to a structure containing the file object's section object pointers.
 
 
-### -param FileOffset [in, optional]
-
+### -param FileOffset 
+[in, optional]
 Pointer to a variable that specifies the starting byte offset within the cached file where the data is to be purged. 
 
 If <i>FileOffset</i> is <b>NULL</b>, the entire file is purged from the cache.
@@ -69,8 +69,8 @@ If <i>FileOffset</i> is <b>NULL</b>, the entire file is purged from the cache.
 If <i>FileOffset</i> is not <b>NULL</b>, only the byte range specified by <i>FileOffset</i> and <i>Length</i> is purged.
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 Length of the byte range to purge, starting at <i>FileOffset</i>. If <i>Length</i> is zero, the range from <i>FileOffset</i> to the end of the file is purged. If <i>FileOffset</i> is <b>NULL</b>, <i>Length</i> is ignored.
 
 

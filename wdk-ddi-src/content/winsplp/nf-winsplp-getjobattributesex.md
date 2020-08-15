@@ -57,18 +57,18 @@ req.typenames:
 
 
 
-### -param pPrinterName [in]
-
+### -param pPrinterName 
+[in]
 Caller-supplied pointer to a NULL-terminated Unicode string that contains the printer name.
 
 
-### -param pDevmode [in]
-
+### -param pDevmode 
+[in]
 Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure that is passed to the print processor or printer driver.
 
 
-### -param dwLevel [in]
-
+### -param dwLevel 
+[in]
 Caller-supplied value that indicates the type of structure pointed to by <i>pAttributeInfo</i>, as indicated in the following table. For more information, see Remarks.
 
 <table>
@@ -128,18 +128,18 @@ Caller-supplied value that indicates the type of structure pointed to by <i>pAtt
  
 
 
-### -param pAttributeInfo [out]
-
+### -param pAttributeInfo 
+[out]
 Caller-supplied pointer to an attribute information structure (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_attribute_info_1">ATTRIBUTE_INFO_1</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_attribute_info_2">ATTRIBUTE_INFO_2</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_attribute_info_3">ATTRIBUTE_INFO_3</a>, or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_attribute_info_4">ATTRIBUTE_INFO_4</a>) that receives information about the print job.
 
 
-### -param nSize [in]
-
+### -param nSize 
+[in]
 Size of the buffer, in bytes, pointed to by <i>pAttributeInfo</i>.
 
 
-### -param dwFlags [in]
-
+### -param dwFlags 
+[in]
 If set by the caller to FILL_WITH_DEFAULTS, then the spooler will fill <i>pAttributeInfo</i> with default values from level 1 up to the level specified by <i>dwLevel</i>.
 
 For example, if <i>dwLevel</i> is 4 and FILL_WITH_DEFAULTS is specified, <i>pAttributeInfo</i> will be filled with the following default member values of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_attribute_info_4">ATTRIBUTE_INFO_4</a>:

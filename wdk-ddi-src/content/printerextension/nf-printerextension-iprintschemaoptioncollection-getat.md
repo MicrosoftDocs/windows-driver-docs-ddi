@@ -55,13 +55,13 @@ Gets a pointer to an <a href="https://docs.microsoft.com/windows-hardware/driver
 
 
 
-### -param ulIndex [in]
-
+### -param ulIndex 
+[in]
 Index of the <b>IPrintSchemaOption</b> object within the collection.
 
 
-### -param ppOption [out, retval, optional]
-
+### -param ppOption 
+[out, retval, optional]
 Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoption">IPrintSchemaOption</a> object.
 
 

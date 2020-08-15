@@ -57,23 +57,23 @@ The <b>PostEvent</b> method asynchronously notifies applications that are waitin
 
 
 
-### -param EventGuid [in]
-
+### -param EventGuid 
+[in]
 The GUID for the event. The GUID is determined by the application and the driver and is opaque to the framework.
 
 
-### -param EventType [in]
-
+### -param EventType 
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_event_type">WDF_EVENT_TYPE</a>-typed value that identifies the type of event. In the current version of UMDF, the driver must set <i>EventType</i> to <b>WdfEventBroadcast</b> (1). <b>WdfEventBroadcast</b> indicates that the event is broadcast. Applications can subscribe to <b>WdfEventBroadcast</b>-type events. To receive broadcast events, the application must register for notification through the Microsoft Win32 <b>RegisterDeviceNotification</b> function. <b>WdfEventBroadcast</b>-type events are exposed as DBT_CUSTOMEVENT-type events to applications.
 
 
-### -param pbData [in]
-
+### -param pbData 
+[in]
 A pointer to a buffer that contains data that is associated with the event. <b>NULL</b> is a valid value. 
 
 
-### -param cbDataSize [in]
-
+### -param cbDataSize 
+[in]
 The size, in bytes, of data that <i>pbData</i> points to. Zero is a valid size value if <i>pbData</i> is set to <b>NULL</b>. 
 
 The maximum size of the event data is slightly less than MAXUSHORT (64 KB). The precise upper limit is (0xFFFF - <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-field_offset">FIELD_OFFSET</a>(<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_target_device_custom_notification">TARGET_DEVICE_CUSTOM_NOTIFICATION</a>, CustomDataBuffer)). 

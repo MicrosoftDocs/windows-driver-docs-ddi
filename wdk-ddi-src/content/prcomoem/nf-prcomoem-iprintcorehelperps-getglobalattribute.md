@@ -55,13 +55,13 @@ The <b>IPrintCoreHelperPS::GetGlobalAttribute</b> method retrieves the global at
 
 
 
-### -param pszAttribute [in]
-
+### -param pszAttribute 
+[in]
 A pointer to a caller-supplied buffer that contains an ANSI string that specifies the requested attribute. If this parameter is <b>NULL</b>, the caller is requesting a list of all of the supported global attribute names instead of specifying a specific global attribute name. 
 
 
-### -param pdwDataType [out]
-
+### -param pdwDataType 
+[out]
 A pointer to variable that receives a value that specifies the data type of the requested attribute. This value is an enumerator of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ne-printoem-_eattribute_datatype">EATTRIBUTE_DATATYPE</a> enumeration type, which is defined in printoem.h. 
 
 
@@ -70,8 +70,8 @@ A pointer to variable that receives a value that specifies the data type of the 
 
 
 
-### -param pcbSize [out]
-
+### -param pcbSize 
+[out]
 A pointer to a variable that specifies the size, in bytes, of the buffer that is pointed to by the <i>pbData</i> parameter. 
 
 

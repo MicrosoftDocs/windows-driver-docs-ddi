@@ -59,8 +59,8 @@ The
 
 
 
-### -param WskRegistration [in]
-
+### -param WskRegistration 
+[in]
 A pointer to the memory location initialized by 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nf-wsk-wskregister">WskRegister</a> that identifies a WSK
      application's registration instance.

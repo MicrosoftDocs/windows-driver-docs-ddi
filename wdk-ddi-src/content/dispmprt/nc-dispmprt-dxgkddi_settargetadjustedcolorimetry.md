@@ -55,18 +55,18 @@ Reports the colorimetry values selected by the OS for a target.
 
 
 
-### -param hAdapter [in]
-
+### -param hAdapter 
+[in]
 [in] Identifies the adapter.
 
 
-### -param TargetId [in]
-
+### -param TargetId 
+[in]
 [in] The identifier of a display adapter's video present target.
 
 
-### -param AdjustedColorimetry [in]
-
+### -param AdjustedColorimetry 
+[in]
 [in] A DXGK_COLORIMETRY structure containing the colorimetry related fields for the monitor attached to this target after the OS has processed the display device descriptor, all overrides and any adjustments.
 
 

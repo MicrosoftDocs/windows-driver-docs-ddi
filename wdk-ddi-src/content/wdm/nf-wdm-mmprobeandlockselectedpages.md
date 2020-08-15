@@ -55,23 +55,23 @@ The <b>MmProbeAndLockSelectedPages</b> routine probes the selected virtual memor
 
 
 
-### -param MemoryDescriptorList [in, out]
-
+### -param MemoryDescriptorList 
+[in, out]
 A pointer to a memory descriptor list (MDL) that specifies a virtual memory buffer. If the routine successfully locks the pages in memory, the MDL is updated to describe the underlying physical pages.
 
 
-### -param SegmentArray [in]
-
+### -param SegmentArray 
+[in]
 A pointer to an array of buffer segments that contain the virtual memory pages.
 
 
-### -param AccessMode [in]
-
+### -param AccessMode 
+[in]
 Specifies the access mode in which to probe the arguments, either KernelMode or UserMode.
 
 
-### -param Operation [in]
-
+### -param Operation 
+[in]
 Specifies the type of operation for which the caller wants the access rights probed and the pages locked. Set this parameter to IoReadAccess, IoWriteAccess, or IoModifyAccess. IoReadAccess indicates that the driver can examine the contents of the buffer but cannot change the contents. IoWriteAccess and IoModifyAccess, which are equivalent, indicate that the driver has both read and write access to the buffer. 
 
 

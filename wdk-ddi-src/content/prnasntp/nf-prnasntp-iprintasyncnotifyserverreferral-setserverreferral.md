@@ -55,8 +55,8 @@ req.typenames:
 
 
 
-### -param pRmtServerReferral [in]
-
+### -param pRmtServerReferral 
+[in]
 
 ## -returns
 

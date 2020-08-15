@@ -58,13 +58,13 @@ The <b>GetProcessIdBySystemId</b> method returns the engine process ID for a pro
 
 
 
-### -param SysId [in]
-
+### -param SysId 
+[in]
 Specifies the system process ID.
 
 
-### -param Id [out]
-
+### -param Id 
+[out]
 Receives the engine process ID.
 
 

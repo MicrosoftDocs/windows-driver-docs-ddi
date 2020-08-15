@@ -55,8 +55,8 @@ The <b>KeRemoveDeviceQueue</b> routine removes an entry from the head of a speci
 
 
 
-### -param DeviceQueue [in, out]
-
+### -param DeviceQueue 
+[in, out]
 Pointer to an initialized device queue object for which the caller provides the storage. 
 
 

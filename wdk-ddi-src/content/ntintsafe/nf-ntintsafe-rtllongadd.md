@@ -55,18 +55,18 @@ Adds two values of type <b>LONG</b>.
 
 
 
-### -param lAugend [in]
-
+### -param lAugend 
+[in]
 The first value in the equation.
 
 
-### -param lAddend [in]
-
+### -param lAddend 
+[in]
 The value to add to <i>lAugend</i>.
 
 
-### -param plResult [out]
-
+### -param plResult 
+[out]
 A pointer to the sum. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
 

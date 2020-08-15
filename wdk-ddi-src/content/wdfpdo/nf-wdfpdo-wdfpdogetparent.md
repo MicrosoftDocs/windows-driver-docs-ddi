@@ -58,8 +58,8 @@ The <b>WdfPdoGetParent</b> method returns a handle to the framework device objec
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object that represents the device's physical device object (PDO).
 
 

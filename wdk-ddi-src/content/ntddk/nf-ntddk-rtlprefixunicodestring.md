@@ -55,18 +55,18 @@ The <b>RtlPrefixUnicodeString</b> routine compares two Unicode strings to determ
 
 
 
-### -param String1 [in]
-
+### -param String1 
+[in]
 Pointer to the first string, which might be a prefix of the buffered Unicode string at <i>String2</i>.
 
 
-### -param String2 [in]
-
+### -param String2 
+[in]
 Pointer to the second string.
 
 
-### -param CaseInSensitive [in]
-
+### -param CaseInSensitive 
+[in]
 If <b>TRUE</b>, case should be ignored when doing the comparison. 
 
 

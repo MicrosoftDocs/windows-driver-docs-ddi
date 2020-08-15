@@ -56,13 +56,13 @@ The <b>SpbControllerSetTargetAttributes</b> method sets object attributes that w
 
 
 
-### -param FxDevice [in]
-
+### -param FxDevice 
+[in]
 A WDFDEVICE handle to the device object that represents the SPB controller.
 
 
-### -param ObjectAttributes [in]
-
+### -param ObjectAttributes 
+[in]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that contains attributes for the controller's SPBTARGET objects.
 
 

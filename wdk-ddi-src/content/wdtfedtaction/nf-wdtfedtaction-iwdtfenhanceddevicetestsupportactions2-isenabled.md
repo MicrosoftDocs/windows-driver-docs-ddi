@@ -56,8 +56,8 @@ on the target device.
 
 
 
-### -param pbEnabled [out, retval]
-
+### -param pbEnabled 
+[out, retval]
 True if the EDT driver is enabled; otherwise, false.
 
 

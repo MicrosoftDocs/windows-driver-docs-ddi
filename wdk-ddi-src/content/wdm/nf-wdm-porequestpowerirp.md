@@ -55,35 +55,35 @@ The <b>PoRequestPowerIrp</b> routine allocates a power <a href="https://docs.mic
 
 
 
-### -param DeviceObject [in]
-
+### -param DeviceObject 
+[in]
 A pointer to the target <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> for the IRP. In Windows 2000 and later versions of Windows, this parameter can point to a physical device object (<a href="https://docs.microsoft.com/windows-hardware/drivers/">PDO</a>) or a functional device object (<a href="https://docs.microsoft.com/windows-hardware/drivers/">FDO</a>). In Windows 98/Me, this parameter must point to the PDO of the underlying device.
 
 
-### -param MinorFunction [in]
-
+### -param MinorFunction 
+[in]
 Specifies one of the following minor power IRP codes: <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-power">IRP_MN_QUERY_POWER</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-set-power">IRP_MN_SET_POWER</a>, or <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-wait-wake">IRP_MN_WAIT_WAKE</a>.
 
 
-### -param PowerState [in]
-
+### -param PowerState 
+[in]
 Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_power_state">POWER_STATE</a> value to pass in the IRP. For <b>IRP_MN_SET_POWER</b> and <b>IRP_MN_QUERY_POWER</b>, specify the requested new <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/device-power-states">device power state</a>. Possible values are <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/ne-wudfddi-_device_power_state">DEVICE_POWER_STATE</a> values.
 
 For <b>IRP_MN_WAIT_WAKE</b>, specify the lowest (least-powered) <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/system-power-states">system power state</a> from which the device should be allowed to wake the system. Possible values are <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_system_power_state">SYSTEM_POWER_STATE</a> values.
 
 
-### -param CompletionFunction [in, optional]
-
+### -param CompletionFunction 
+[in, optional]
 A pointer to the caller's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-request_power_complete">PowerCompletion</a> callback routine. The I/O manager calls this routine when the IRP has completed. This parameter is optional and can be set to <b>NULL</b> if no <i>PowerCompletion</i> callback routine is needed.
 
 
-### -param Context [in, optional]
-
+### -param Context 
+[in, optional]
 A pointer to a caller-supplied context to be passed through to the <i>PowerCompletion</i> callback. When the caller requests a device set-power IRP in response to a system set-power IRP, <i>Context</i> should contain the system set-power IRP that triggered the request.
 
 
-### -param Irp [out]
-
+### -param Irp 
+[out]
 A pointer to a caller-supplied variable in which <b>PoRequestPowerIrp</b> returns a pointer to the IRP that it allocates. Specify a value for <i>Irp</i> only if the <i>MinorFunction</i> parameter is set to <b>IRP_MN_WAIT_WAKE</b>. Otherwise, this parameter should always be <b>NULL</b> because the IRP might be completed before <b>PoRequestPowerIrp</b> returns, causing this parameter to point to memory that has already been discarded.
 
 

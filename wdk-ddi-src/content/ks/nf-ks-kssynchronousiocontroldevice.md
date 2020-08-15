@@ -56,8 +56,8 @@ The <b>KsSynchronousIoControlDevice</b> function performs a synchronous device I
 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 Indicates the file object to fill in the first stack location with.
 
 
@@ -66,33 +66,33 @@ Indicates the file object to fill in the first stack location with.
 
 
 
-### -param IoControl [in]
-
+### -param IoControl 
+[in]
 Specifies the I/O control to send.
 
 
-### -param InBuffer [in]
-
+### -param InBuffer 
+[in]
 Points to the device input buffer.
 
 
-### -param InSize [in]
-
+### -param InSize 
+[in]
 Specifies the size in bytes of the device input buffer.
 
 
-### -param OutBuffer [out]
-
+### -param OutBuffer 
+[out]
 Points to the device output buffer.
 
 
-### -param OutSize [in]
-
+### -param OutSize 
+[in]
 Specifies the size in bytes of the device output buffer.
 
 
-### -param BytesReturned [out]
-
+### -param BytesReturned 
+[out]
 Points to the place in which to put the number of bytes returned.
 
 

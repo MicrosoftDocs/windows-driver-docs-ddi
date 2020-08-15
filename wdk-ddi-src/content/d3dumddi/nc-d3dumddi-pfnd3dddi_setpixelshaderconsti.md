@@ -55,8 +55,8 @@ The <i>SetPixelShaderConstI</i> function sets one or more pixel shader constant 
 
 
 
-### -param hDevice [in]
-
+### -param hDevice 
+[in]
 A handle to the display device (graphics context).
 
 

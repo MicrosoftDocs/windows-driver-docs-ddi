@@ -55,13 +55,13 @@ The <b>SendRecvXMLString</b> method sends a bidirectional printer communication 
 
 
 
-### -param bstrRequest [in]
-
+### -param bstrRequest 
+[in]
 The bidi communication request as a Unicode string that complies with one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/print/bidirectional-communication-schema">Bidirectional Communication Schemas</a>.
 
 
-### -param pbstrResponse [out]
-
+### -param pbstrResponse 
+[out]
 A pointer to the printer's response as a Unicode string that complies with one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/print/bidirectional-communication-schema">Bidirectional Communication Schemas</a>.
 
 

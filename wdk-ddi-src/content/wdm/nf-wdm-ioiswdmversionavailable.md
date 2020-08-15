@@ -55,13 +55,13 @@ The <b>IoIsWdmVersionAvailable</b> routine checks whether a given WDM version is
 
 
 
-### -param MajorVersion [in]
-
+### -param MajorVersion 
+[in]
 Specifies the major version number of WDM that is requested.
 
 
-### -param MinorVersion [in]
-
+### -param MinorVersion 
+[in]
 Specifies the minor version number of WDM that is requested.
 
 

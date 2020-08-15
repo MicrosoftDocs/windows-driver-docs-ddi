@@ -55,13 +55,13 @@ Gets a pointer to an <a href="https://docs.microsoft.com/windows-hardware/driver
 
 
 
-### -param ulIndex [in]
-
+### -param ulIndex 
+[in]
 Index of the <b>IPrintJob</b> object within the collection.
 
 
-### -param ppJob [out, retval]
-
+### -param ppJob 
+[out, retval]
 Pointer to an <b>IPrintJob</b> object.
 
 

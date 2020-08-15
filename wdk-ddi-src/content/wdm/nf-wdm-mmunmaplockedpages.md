@@ -55,13 +55,13 @@ The <b>MmUnmapLockedPages</b> routine releases a mapping that was set up by a pr
 
 
 
-### -param BaseAddress [in]
-
+### -param BaseAddress 
+[in]
 Pointer to the base virtual address to which the physical pages were mapped.
 
 
-### -param MemoryDescriptorList [in]
-
+### -param MemoryDescriptorList 
+[in]
 Pointer to an MDL.
 
 

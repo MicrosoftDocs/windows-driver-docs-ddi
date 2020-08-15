@@ -57,8 +57,8 @@ The <b>RetrieveInputMemory</b> method retrieves the <a href="https://docs.micros
 
 
 
-### -param Memory [out]
-
+### -param Memory 
+[out]
 The address of a location that receives a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfmemory">IWDFMemory</a> interface of a UMDF memory object.
 
 

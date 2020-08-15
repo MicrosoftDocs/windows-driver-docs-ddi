@@ -58,8 +58,8 @@ NDIS drivers call the
 
 
 
-### -param NdisHandle [in]
-
+### -param NdisHandle 
+[in]
 An NDIS handle that the caller obtained during initialization. For example, a miniport driver can
      use the NDIS handle that it obtained from the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterminiportdriver">
@@ -85,20 +85,20 @@ An NDIS handle that the caller obtained during initialization. For example, a mi
 
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 The size to be allocated, in bytes.
 
 
-### -param Tag [in]
-
+### -param Tag 
+[in]
 A string, delimited by single quotation marks, with up to four characters, usually specified in
      reversed order. The NDIS-supplied default tag for this call is 'maDN', but the caller can override this
      default by supplying an explicit value.
 
 
-### -param Priority [in]
-
+### -param Priority 
+[in]
 The importance of this request. For more information, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtagpriority">
      ExAllocatePoolWithTagPriority</a>.

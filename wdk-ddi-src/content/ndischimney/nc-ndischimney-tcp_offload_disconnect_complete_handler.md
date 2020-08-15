@@ -61,16 +61,16 @@ NDIS calls a protocol driver's or intermediate driver's
 
 
 
-### -param ProtocolBindingContext [in]
-
+### -param ProtocolBindingContext 
+[in]
 A handle to a context area allocated by the protocol driver. The driver maintains the per binding
      context information in this context area. The driver supplied this handle to NDIS when the driver called
      the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function.
 
 
-### -param NetBufferList [in]
-
+### -param NetBufferList 
+[in]
 When non-NULL, a pointer to a single 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure. The driver
      supplied this pointer as an input parameter in a previous call to the 

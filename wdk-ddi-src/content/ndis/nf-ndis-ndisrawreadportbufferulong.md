@@ -55,15 +55,15 @@ req.typenames:
 
 
 
-### -param Port [in]
-
+### -param Port 
+[in]
 Specifies the I/O port. This address falls in a range that was mapped during initialization with 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterioportrange">
      NdisMRegisterIoPortRange</a>.
 
 
-### -param Buffer [out]
-
+### -param Buffer 
+[out]
 Pointer to a caller-allocated buffer, in resident memory, into which the ULONGs will be
      transferred from the NIC. The caller must allocate a buffer at least (
      <b>sizeof</b>(ULONG)
@@ -71,8 +71,8 @@ Pointer to a caller-allocated buffer, in resident memory, into which the ULONGs 
      <i>Length</i> ).
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 Specifies how many ULONGs to transfer from the NIC.
 
 

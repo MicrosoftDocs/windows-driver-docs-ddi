@@ -73,35 +73,35 @@ DWORD WINAPI * Dot11ExtSetProfileCustomUserData(
 
 
 
-### -param hDot11SvcHandle [in, optional]
-
+### -param hDot11SvcHandle 
+[in, optional]
 The handle used by the operating system to reference the wireless LAN (WLAN) adapter. This handle
      value was specified through a previous call to the
      <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a> IHV
      Handler function.
 
 
-### -param hConnectSession [in, optional]
-
+### -param hConnectSession 
+[in, optional]
 The handle used by the operating system to reference the connection session with the BSS network.
      This handle value was specified through a previous call to the
      <a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_pre_associate.md">
      Dot11ExtIhvPerformPreAssociate</a> IHV Handler function.
 
 
-### -param dwSessionID [in]
-
+### -param dwSessionID 
+[in]
 The session identifier (session ID) of the current user.
 
 
-### -param dwDataSize [in]
-
+### -param dwDataSize 
+[in]
 The size, in bytes, of the buffer referenced by
      <i>pvData</i> .
 
 
-### -param pvData [in]
-
+### -param pvData 
+[in]
 A pointer to a caller-allocated buffer, which contains the data in a format defined by the
      IHV.
 

@@ -55,18 +55,18 @@ The <b>ExSetResourceOwnerPointerEx</b> routine transfers the ownership of an exe
 
 
 
-### -param Resource [in, out]
-
+### -param Resource 
+[in, out]
 A pointer to an executive resource (an opaque <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eresource-structures">ERESOURCE</a> structure) that is owned by the calling thread. The caller previously allocated this structure and initialized it by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializeresourcelite">ExInitializeResourceLite</a> routine. For more information, see the following Remarks section. 
 
 
-### -param OwnerPointer [in]
-
+### -param OwnerPointer 
+[in]
 A pointer value that identifies the resource owner. This parameter value is nominally a pointer to a value of type ERESOURCE_THREAD but is cast to type PVOID. The caller must set the two least significant bits of this pointer value to ones. For more information, see the following Remarks section.
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 A set of flags that can modify the operation of this routine. Set this parameter either to zero or to the following flag value:
 
 <ul>

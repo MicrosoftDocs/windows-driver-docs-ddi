@@ -55,13 +55,13 @@ Gets the value of the PeakMeter node in the path of the audio stream.
 
 
 
-### -param ulChannel [in]
-
+### -param ulChannel 
+[in]
 The channel of the audio stream.
 
 
-### -param plPeakMeter [out]
-
+### -param plPeakMeter 
+[out]
 The PeakMeter value.
 
 

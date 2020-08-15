@@ -56,18 +56,18 @@ The <b>ClfsAddLogContainerSet</b> routine atomically adds a set of containers to
 
 
 
-### -param plfoLog [in]
-
+### -param plfoLog 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">LOG_FILE_OBJECT</a> structure that represents the log to which the containers will be added. The caller previously obtained this pointer by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfscreatelogfile">ClfsCreateLogFile</a>.
 
 
-### -param cContainers [in]
-
+### -param cContainers 
+[in]
 The number of containers in the set. This is the number of elements in the <i>rguszContainerPath</i> array.
 
 
-### -param pcbContainer [in, optional]
-
+### -param pcbContainer 
+[in, optional]
 A pointer to a ULONGLONG-typed variable. The role of this parameter depends on whether the log currently has at least one container.
 
 <ul>
@@ -85,8 +85,8 @@ If the log currently has at least one container and this parameter is a valid po
 </li>
 </ul>
 
-### -param rguszContainerPath [in]
-
+### -param rguszContainerPath 
+[in]
 A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structures. Each string supplies the path name for one of the new containers. The number of elements in the array is given by <i>cContainers</i>. A given path can be absolute or relative to the location of the base log file. Paths that are relative to the base log file must begin with CLFS_CONTAINER_RELATIVE_PREFIX, which is the string literal (L"%BLF%\\").
 
 

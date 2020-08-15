@@ -55,23 +55,23 @@ The <b>MmMapLockedPagesWithReservedMapping</b> routine maps all or part of an ad
 
 
 
-### -param MappingAddress [in]
-
+### -param MappingAddress 
+[in]
 Pointer to the beginning of the reserved virtual memory range. This must be an address previously returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatemappingaddress">MmAllocateMappingAddress</a>.
 
 
-### -param PoolTag [in]
-
+### -param PoolTag 
+[in]
 Specifies the pool tag for the reserved memory buffer. This must be identical to the value specified in the <i>PoolTag</i> parameter of the call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatemappingaddress">MmAllocateMappingAddress</a> that reserved the buffer. 
 
 
-### -param MemoryDescriptorList [in]
-
+### -param MemoryDescriptorList 
+[in]
 A pointer to the MDL that is to be mapped. This MDL must describe physical pages that are locked down. A locked-down MDL can be built by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmprobeandlockpages">MmProbeAndLockPages</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatepagesformdlex">MmAllocatePagesForMdlEx</a> routine. 
 
 
-### -param CacheType [in]
-
+### -param CacheType 
+[in]
 Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_memory_caching_type">MEMORY_CACHING_TYPE</a> value to use to create the mapping.
 
 

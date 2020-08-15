@@ -56,23 +56,23 @@ The <b>KsGetMultiplePinFactoryItems</b> function retrieves pin property items in
 
 
 
-### -param FilterHandle [in]
-
+### -param FilterHandle 
+[in]
 Handle to the filter that contains the pin factory to query.
 
 
-### -param PinFactoryId [in]
-
+### -param PinFactoryId 
+[in]
 Identifier of the pin factory against which the property items are being returned.
 
 
-### -param PropertyId [in]
-
+### -param PropertyId 
+[in]
 Identifier of the property in the pin property set (<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/kspropsetid-pin">KSPROPSETID_Pin</a>) to query.
 
 
-### -param Items [out]
-
+### -param Items 
+[out]
 Pointer to a buffer to receive the property items. If successfully retrieved, this pointer must be subsequently deleted with the <b>CoTaskMemFree</b> function.
 
 

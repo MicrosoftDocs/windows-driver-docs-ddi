@@ -57,13 +57,13 @@ The Bluetooth
 
 
 
-### -param Tree [in]
-
+### -param Tree 
+[in]
 The root node of the tree-based representation of the SDP record to search.
 
 
-### -param AttribId [in]
-
+### -param AttribId 
+[in]
 The identifier of the attribute node to locate.
 
 

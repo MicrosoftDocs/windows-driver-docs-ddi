@@ -60,8 +60,8 @@ req.typenames:
 ### -param dwIndex
 
 
-### -param pData [in]
-
+### -param pData 
+[in]
 
 ### -param cbSize
 

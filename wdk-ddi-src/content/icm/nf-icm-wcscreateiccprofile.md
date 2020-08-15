@@ -50,8 +50,8 @@ The **WcsCreateIccProfile** function converts a WCS profile into an ICC profile.
 
 A handle to the WCS color profile to transform. See remarks below.
 
-### -param dwOptions [in]
-
+### -param dwOptions 
+[in]
 A flag value that specifies the profile conversion options. This parameter must take the following value:
 
 #### PREFER_WCS_PROFILES

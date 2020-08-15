@@ -55,18 +55,18 @@ The <b>IWiaSegmentationFilter::DetectRegions</b> method determines the subregion
 
 
 
-### -param lFlags [in]
-
+### -param lFlags 
+[in]
 Currently unused. Should be set to zero. 
 
 
-### -param pInputStream [in, optional]
-
+### -param pInputStream 
+[in, optional]
 Specifies a pointer to the <b>IStream</b> preview image.
 
 
-### -param pWiaItem2 [in, optional]
-
+### -param pWiaItem2 
+[in, optional]
 Specifies a pointer to the <b>IWiaItem2</b> item for which <i>pInputStream</i> was acquired. The segmentation filter creates child items for this item. 
 
 

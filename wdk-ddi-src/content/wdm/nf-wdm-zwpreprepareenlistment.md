@@ -56,13 +56,13 @@ The <b>ZwPrePrepareEnlistment</b> routine initiates the pre-prepare operation fo
 
 
 
-### -param EnlistmentHandle [in]
-
+### -param EnlistmentHandle 
+[in]
 A handle to an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/enlistment-objects">enlistment object</a> that was obtained by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntcreateenlistment">ZwCreateEnlistment</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntopenenlistment">ZwOpenEnlistment</a>. The object must represent a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/creating-a-superior-transaction-manager">superior enlistment</a> and the handle must have ENLISTMENT_SUPERIOR_RIGHTS access to the object.
 
 
-### -param TmVirtualClock [in, optional]
-
+### -param TmVirtualClock 
+[in, optional]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-virtual-clock-values">virtual clock value</a>. This parameter is optional and can be <b>NULL</b>.
 
 

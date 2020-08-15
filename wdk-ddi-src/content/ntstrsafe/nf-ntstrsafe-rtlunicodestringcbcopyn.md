@@ -56,18 +56,18 @@ The <b>RtlUnicodeStringCbCopyN</b> function copies a string from one <a href="ht
 
 
 
-### -param DestinationString [out]
-
+### -param DestinationString 
+[out]
 A pointer to a <b>UNICODE_STRING</b> structure that receives the copied string. The string that the <i>SourceString</i> parameter's <b>UNICODE_STRING</b> structure points to is copied to the buffer that the <i>DestinationString</i> parameter's <b>UNICODE_STRING</b> structure points to. The maximum number of bytes in the <i>DestinationString </i>structure's string buffer is NTSTRSAFE_UNICODE_STRING_MAX_CCH * sizeof(WCHAR).
 
 
-### -param SourceString [in]
-
+### -param SourceString 
+[in]
 A pointer to a <b>UNICODE_STRING</b> structure that contains the string to be copied. The maximum number of bytes in the structure's string buffer is NTSTRSAFE_UNICODE_STRING_MAX_CCH * sizeof(WCHAR).
 
 
-### -param cbToCopy [in]
-
+### -param cbToCopy 
+[in]
 The number of bytes to be copied from the source to the destination. 
 
 

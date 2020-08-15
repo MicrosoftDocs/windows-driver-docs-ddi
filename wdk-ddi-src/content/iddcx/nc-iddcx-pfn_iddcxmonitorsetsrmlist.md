@@ -69,16 +69,16 @@ NTSTATUS *PfnIddcxmonitorsetsrmlist
 
 ## -parameters
 
-### -param DriverGlobals [in]
-
+### -param DriverGlobals 
+[in]
 Contains system-defined per-driver data.
 
-### -param MonitorObject [in]
-
+### -param MonitorObject 
+[in]
 The monitor object that the SRM list is associated with.
 
-### -param pInArgs [in]
-
+### -param pInArgs 
+[in]
 Input arguments of function.
 
 ## -returns

@@ -63,5 +63,5 @@ req.typenames:
 ### -param hGlyph
 
 
-### -param pdwWidth [out]
-
+### -param pdwWidth 
+[out]

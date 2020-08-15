@@ -55,8 +55,8 @@ For internal use only.
 
 
 
-### -param Device [in]
+### -param Device 
+[in]
 
-
-### -param CompanionTarget [out]
-
+### -param CompanionTarget 
+[out]

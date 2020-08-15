@@ -55,13 +55,13 @@ The <i>EvtSerCxTransmit</i> event callback function prepares the serial controll
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A WDFDEVICE handle to the framework device object that represents the serial controller.
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 The number of bytes to be transmitted. The controller driver can use this value as a hint to decide whether to use PIO or DMA to perform the data transfer.
 
 

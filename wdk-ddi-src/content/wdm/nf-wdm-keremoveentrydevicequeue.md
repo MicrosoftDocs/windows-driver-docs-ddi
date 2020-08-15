@@ -55,13 +55,13 @@ The <b>KeRemoveEntryDeviceQueue</b> routine returns whether the specified entry 
 
 
 
-### -param DeviceQueue [in, out]
-
+### -param DeviceQueue 
+[in, out]
 Pointer to an initialized device queue object for which the caller provides the storage.
 
 
-### -param DeviceQueueEntry [in, out]
-
+### -param DeviceQueueEntry 
+[in, out]
 Pointer to the entry to be removed from the specified <i>DeviceQueue</i>.
 
 

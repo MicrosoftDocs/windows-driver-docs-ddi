@@ -57,18 +57,18 @@ The <b>CreateWdfObject</b> method creates a custom (or user) WDF object from a p
 
 
 
-### -param pCallbackInterface [in, optional]
-
+### -param pCallbackInterface 
+[in, optional]
 A pointer to the <b>IUnknown</b> interface that the framework uses to determine the object-related event callback functions that the driver subscribes to on the newly created custom object. This parameter is optional. The driver can pass <b>NULL</b> if the driver does not require notification. If the driver passes a valid pointer, the framework will call <b>QueryInterface</b> on the <b>IUnknown</b> interface for the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iobjectcleanup">IObjectCleanup</a> interface. If the framework obtains the driver's <b>IObjectCleanup</b> interface, the framework can subsequently call the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iobjectcleanup-oncleanup">IObjectCleanup::OnCleanup</a> method to notify the driver that the custom object is cleaned up. 
 
 
-### -param pParentObject [in, optional]
-
+### -param pParentObject 
+[in, optional]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfobject">IWDFObject</a> interface for the parent WDF object. If <b>NULL</b>, the driver object becomes the default parent. 
 
 
-### -param ppWdfObject [out]
-
+### -param ppWdfObject 
+[out]
 A pointer to a buffer that receives a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfobject">IWDFObject</a> interface for the newly created WDF object.
 
 

@@ -70,8 +70,8 @@ Specifies the type of bus configuration data to return. The value of this parame
 Specifies the location of the device on the bus for a <b>Cmos </b><i>BusDataType</i>; zero for all other bus types.
 
 
-### -param Buffer [out]
-
+### -param Buffer 
+[out]
 Pointer to a buffer into which <b>VideoPortGetBusData</b> returns the configuration information. The contents of the buffer depend on the <i>BusDataType</i>, as follows:
 
 <ul>

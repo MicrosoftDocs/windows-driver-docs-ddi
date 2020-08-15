@@ -67,8 +67,8 @@ The handle that NDIS passed to the
      ProtocolBindAdapterEx</a> function.
 
 
-### -param Status [in]
-
+### -param Status 
+[in]
 The final status of the completed bind operation. This parameter can be one of the following
      values:
      

@@ -77,8 +77,8 @@ __inline ULONG GetFieldOffset(
 
 
 
-### -param Field [in]
-
+### -param Field 
+[in]
 Specifies the name of the member in the structure.  Submembers can be specified by using a period-separated path, for example, "myfield.mysubfield".
 
 

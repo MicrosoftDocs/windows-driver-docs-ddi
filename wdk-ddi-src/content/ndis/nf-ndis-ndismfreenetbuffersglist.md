@@ -66,21 +66,21 @@ Bus-master miniport drivers call the
 
 
 
-### -param NdisMiniportDmaHandle [in]
-
+### -param NdisMiniportDmaHandle 
+[in]
 A handle to a context area that NDIS uses to manage a DMA resource. The caller obtained this
      handle by calling the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterscattergatherdma">
      NdisMRegisterScatterGatherDma</a> function.
 
 
-### -param pSGL [in]
-
+### -param pSGL 
+[in]
 A pointer to a miniport driver scatter/gather list buffer.
 
 
-### -param NetBuffer [in]
-
+### -param NetBuffer 
+[in]
 A pointer to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure associated with the
      specified scatter/gather list buffer.

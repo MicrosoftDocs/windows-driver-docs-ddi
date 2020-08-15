@@ -55,8 +55,8 @@ Converts a value of type <b>ULONGLONG</b> to a value of type <b>ULONG_PTR</b>.
 
 
 
-### -param ullOperand [in]
-
+### -param ullOperand 
+[in]
 The value to be converted.
 
 

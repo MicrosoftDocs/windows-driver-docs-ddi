@@ -57,8 +57,8 @@ The <b>OnSelfManagedIoStop</b> method is not used in the current version of the 
 
 
 
-### -param pWdfDevice [in]
-
+### -param pWdfDevice 
+[in]
 
 ## -returns
 

@@ -55,20 +55,20 @@ The <b>HidD_SetFeature</b> routine sends a feature report to a <a href="https://
 
 
 
-### -param HidDeviceObject [in]
-
+### -param HidDeviceObject 
+[in]
 Specifies an open handle to a top-level collection.
 
 
-### -param ReportBuffer [in]
-
+### -param ReportBuffer 
+[in]
 Pointer to a caller-allocated feature report buffer that the caller uses to specify a HID report ID.
 
 For more information about this parameter, see the <b>Remarks</b> section.
 
 
-### -param ReportBufferLength [in]
-
+### -param ReportBufferLength 
+[in]
 Specifies the size, in bytes, of the report buffer. The report buffer must be large enough to hold the feature report -- excluding its report ID, if report IDs are used -- plus one additional byte that specifies a nonzero report ID or zero.
 
 

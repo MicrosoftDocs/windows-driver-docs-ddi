@@ -57,18 +57,18 @@ The <b>WDF_MEMORY_DESCRIPTOR_INIT_MDL</b> function initializes a <a href="https:
 
 
 
-### -param Descriptor [out]
-
+### -param Descriptor 
+[out]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfmemory/ns-wdfmemory-_wdf_memory_descriptor">WDF_MEMORY_DESCRIPTOR</a> structure.
 
 
-### -param Mdl [in]
-
+### -param Mdl 
+[in]
 A pointer to an MDL that describes a buffer.
 
 
-### -param BufferLength [in]
-
+### -param BufferLength 
+[in]
 The size, in bytes, of the buffer that <i>Mdl</i> specifies.
 
 

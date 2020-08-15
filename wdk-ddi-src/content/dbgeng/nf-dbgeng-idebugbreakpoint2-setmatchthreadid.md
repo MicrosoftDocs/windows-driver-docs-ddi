@@ -56,8 +56,8 @@ The <b>SetMatchThreadId</b> method sets the engine thread ID of the thread that 
 
 
 
-### -param Thread [in]
-
+### -param Thread 
+[in]
 The engine thread ID of the thread that can trigger this breakpoint.
 
 

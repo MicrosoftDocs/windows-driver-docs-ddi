@@ -55,13 +55,13 @@ The <b>GetSymbolOffset</b> method retrieves the location in the process's virtua
 
 
 
-### -param Index [in]
-
+### -param Index 
+[in]
 The index of the symbol whose address you want.  The index of a symbol is an identification number. The index ranges from zero through the number of symbols in the symbol group minus one.
 
 
-### -param Offset [out]
-
+### -param Offset 
+[out]
 The location in the process's virtual address space of the symbol.
 
 

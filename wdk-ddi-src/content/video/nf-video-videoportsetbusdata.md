@@ -72,8 +72,8 @@ Specifies the type of bus data to be set. Currently, its value can be one of <b>
 For a <i>BusDataType</i> value of <b>Cmos</b>, specifies the location of the device on the bus. This parameter should be zero for all other bus types.
 
 
-### -param Buffer [in]
-
+### -param Buffer 
+[in]
 Pointer to a caller-supplied storage area with configuration information specific to <i>BusDataType</i>.
 
 When <b>PCIConfiguration</b> is specified, the buffer contains some or all of the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff537455(v=vs.85)">PCI_COMMON_CONFIG</a> information for the given <i>SlotNumber</i>. The specified <i>Offset</i> and <i>Length</i> determine how much information is supplied.

@@ -56,13 +56,13 @@ The <b>PoFxPowerOnCrashdumpDevice</b> routine requests that a crash-dump device 
 
 
 
-### -param Handle [in]
-
+### -param Handle 
+[in]
 A handle that represents the registration of the crash-dump device with the Windows <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx). The device driver previously received this handle from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxregisterdevice">PoFxRegisterDevice</a> routine.
 
 
-### -param Context [in, optional]
-
+### -param Context 
+[in, optional]
 A pointer to a device-specific context. This pointer is passed as an input parameter to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/nc-pepfx-pepcallbackpoweroncrashdumpdevice">PowerOnDumpDeviceCallback</a> callback routine that is implemented by the platform extension plug-in (PEP) for the device. The context information is stored in a format that is defined by the device driver and is understood by the PEP. This context is opaque to the operating system. The driver can set this parameter to NULL if the PEP does not require a context.
 
 

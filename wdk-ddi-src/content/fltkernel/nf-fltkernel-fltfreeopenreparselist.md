@@ -56,13 +56,13 @@ This routine deallocates any information copied into a create operation by
 
 
 
-### -param Filter [in]
-
+### -param Filter 
+[in]
 The filter to dereference.
 
 
-### -param EcpList [in]
-
+### -param EcpList 
+[in]
 The ECP list whose open reparse information should
                        be deallocated.
 

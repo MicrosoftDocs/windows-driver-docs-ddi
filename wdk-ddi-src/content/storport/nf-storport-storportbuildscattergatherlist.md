@@ -55,28 +55,28 @@ The <b>StorPortBuildScatterGatherList</b> routine creates a scatter/gather list 
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param Mdl [in]
-
+### -param Mdl 
+[in]
 A pointer to a memory descriptor list (MDL) that describes the memory pages associated with the data buffer.
 
 
-### -param CurrentVa [in]
-
+### -param CurrentVa 
+[in]
 The virtual address of the data buffer.
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 The length, in bytes, of the data buffer.
 
 
-### -param ExecutionRoutine [in]
-
+### -param ExecutionRoutine 
+[in]
 A pointer to a miniport driver-supplied <i>ExecutionRoutine</i>. The Storport driver calls this routine after creating the scatter/gather list. The miniport driver should perform all operations that make use of the scatter/gather list inside the execution routine, not in the code that follows the call to the <b>StorPortBuildScatterGatherList</b> routine.
 
 An <i>ExecutionRoutine</i> is declared as follows:
@@ -126,23 +126,23 @@ The context value specified in the <b>StorPortBuildScatterGatherList</b> functio
 The Storport driver calls a miniport driver's <i>ExecutionRoutine</i> at IRQL = DISPATCH_LEVEL.
 
 
-### -param Context [in]
-
+### -param Context 
+[in]
 A context value that the port driver passes to the execution routine specified in the <i>ExecutionRoutine</i> parameter. The execution routine uses this value to uniquely identify the request.
 
 
-### -param WriteToDevice [in]
-
+### -param WriteToDevice 
+[in]
 A value that indicates the direction of the DMA transfer. A value of <b>TRUE</b> indicates a transfer that is from the data buffer to the device, and a value of <b>FALSE</b> indicates a transfer that is from the device to the data buffer.
 
 
-### -param ScatterGatherBuffer [in, out]
-
+### -param ScatterGatherBuffer 
+[in, out]
 A pointer to a miniport-supplied buffer that receives the scatter/gather list. A miniport driver can allocate memory for this buffer by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportallocatepool">StorPortAllocatePool</a> routine.
 
 
-### -param ScatterGatherBufferLength [in]
-
+### -param ScatterGatherBufferLength 
+[in]
 The size, in bytes, of the buffer pointed to by the <i>ScatterGatherBuffer</i> parameter.
 
 

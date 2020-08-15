@@ -55,8 +55,8 @@ The <b>MmGetMdlByteCount</b> macro returns the length, in bytes, of the buffer d
 
 
 
-### -param Mdl [in]
-
+### -param Mdl 
+[in]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_mdl">MDL</a> structure that describes the layout of a virtual memory buffer in physical memory. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-mdls">Using MDLs</a>.
 
 

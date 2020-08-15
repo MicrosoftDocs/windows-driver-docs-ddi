@@ -50,12 +50,12 @@ PosCxClose is called to delete an opened PosCx library instance. This function r
 
 ## -parameters
 
-### -param device [in]
-
+### -param device 
+[in]
 A handle to a framework device object that represents the device.
 
-### -param fileObject [in]
-
+### -param fileObject 
+[in]
 A handle to a framework file object that identifies the caller associated with the open instance.
 
 ## -returns

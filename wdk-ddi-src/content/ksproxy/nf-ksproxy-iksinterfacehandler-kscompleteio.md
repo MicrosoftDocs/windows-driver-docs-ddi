@@ -55,8 +55,8 @@ The <b>KsCompleteIo</b> method cleans up extended headers and releases media sam
 
 
 
-### -param StreamSegment [in, out]
-
+### -param StreamSegment 
+[in, out]
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/ns-ksproxy-_ksstream_segment">KSSTREAM_SEGMENT</a> structure that contains header information for a stream segment to complete. 
 
 

@@ -56,13 +56,13 @@ The <b>FltEnumerateFilterInformation</b> routine provides information about all 
 
 
 
-### -param Index [in]
-
+### -param Index 
+[in]
 Zero-based index of the filter driver for which the information is requested. This parameter identifies the filter in the global list of registered filter drivers. If the list contains <i>n</i> filter drivers, valid <i>Index</i> values range from 0 to <i>n</i>-1. If the <i>Index</i> value exceeds this range, <b>FltEnumerateFilterInformation</b> returns STATUS_NO_MORE_ENTRIES.
 
 
-### -param InformationClass [in]
-
+### -param InformationClass 
+[in]
 Type of information requested. This parameter can have one of the following values. 
 
 <table>
@@ -104,18 +104,18 @@ The buffer pointed to by the <i>Buffer</i> parameter receives a <a href="https:/
  
 
 
-### -param Buffer [out]
-
+### -param Buffer 
+[out]
 Pointer to a caller-allocated buffer that receives the requested information. The type of the information returned in the buffer is defined by the <i>InformationClass</i> parameter. 
 
 
-### -param BufferSize [in]
-
+### -param BufferSize 
+[in]
 Size, in bytes, of the buffer that the <i>Buffer</i> parameter points to. The caller should set this parameter according to the given <i>InformationClass</i> value. 
 
 
-### -param BytesReturned [out]
-
+### -param BytesReturned 
+[out]
 Pointer to a caller-allocated variable that receives the number of bytes returned in the buffer that <i>Buffer</i> points to. If the input value of <i>BufferSize</i> is too small, <b>FltEnumerateFilterInformation</b> returns STATUS_BUFFER_TOO_SMALL and sets this variable to the number of bytes required to store the requested information. This parameter is required and cannot be <b>NULL</b>. 
 
 

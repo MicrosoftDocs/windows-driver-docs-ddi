@@ -57,33 +57,33 @@ The <b>SetPropertyData</b> method modifies the current setting of a device prope
 
 
 
-### -param PropertyKey [in]
-
+### -param PropertyKey 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/dn315031(v=vs.85)">DEVPROPKEY</a> structure that specifies the device property key.
 
 
-### -param Lcid [in]
-
+### -param Lcid 
+[in]
 Specifies a locale identifier. Set this parameter either to a language-specific LCID value or to LOCALE_NEUTRAL. The LOCALE_NEUTRAL LCID specifies that the property is language-neutral (that is, not specific to any language). Do not set this parameter to LOCALE_SYSTEM_DEFAULT or LOCALE_USER_DEFAULT. For more information about language-specific LCID values, see <a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-lcid/63d3d639-7fd2-4afb-abbe-0d5b5551eef8">LCID Structure</a>.
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 Reserved. Drivers should set this value to 0.
 
 
-### -param PropertyType [in]
-
+### -param PropertyType 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/previous-versions/ff543546(v=vs.85)">DEVPROPTYPE</a> value that specifies the type of the data that is provided in the <i>PropertyData</i> buffer.
 
 
-### -param PropertyDataSize [in]
-
+### -param PropertyDataSize 
+[in]
 The size, in bytes, of the buffer that <i>PropertyData</i> points to.
 
 
-### -param PropertyData [in, optional]
-
+### -param PropertyData 
+[in, optional]
 A pointer to the device property data. Set this parameter to <b>NULL</b> to delete the specified property.
 
 

@@ -55,18 +55,18 @@ req.typenames:
 
 
 
-### -param Instance [in]
-
+### -param Instance 
+[in]
 Opaque instance pointer for the caller. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 File object pointer for the object whose security state is to be set. The caller must have the access specified in the Meaning column of the table shown in the description of the <i>SecurityInformation</i> parameter. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param SecurityInformation [in]
-
+### -param SecurityInformation 
+[in]
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/security-information">SECURITY_INFORMATION</a> value specifying the information to be set as a combination of one or more of the following. This parameter is required and cannot be <b>NULL</b>. 
 
 <table>
@@ -118,8 +118,8 @@ Indicates the system ACL (SACL) of the object is to be set. Requires ACCESS_SYST
  
 
 
-### -param SecurityDescriptor [in]
-
+### -param SecurityDescriptor 
+[in]
 Pointer to the security descriptor to be set for the object. 
 
 

@@ -58,18 +58,18 @@ The <b>AtaPortGetUncachedExtension</b> routine allocates an uncached common buff
 
 
 
-### -param ChannelExtension [in]
-
+### -param ChannelExtension 
+[in]
 A pointer to the channel extension. 
 
 
-### -param UncachedExtensionSize [in]
-
+### -param UncachedExtensionSize 
+[in]
 Specifies the length, in bytes, of the uncached common buffer. Set this parameter to 0 if the miniport driver does not require an uncached extension.
 
 
-### -param IrbExtensionSize [in]
-
+### -param IrbExtensionSize 
+[in]
 Specifies the size, in bytes, that is required by the miniport driver for its per request storage, if any. 
 
 Set this parameter set to 0 if the miniport driver does not maintain per IRB information for which it requires storage. 

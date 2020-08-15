@@ -55,8 +55,8 @@ The<b> KsDeviceGetOuterUnknown</b> function returns the outer <b>IUnknown</b> of
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice">KSDEVICE</a> structure for which to get the outer unknown interface.
 
 

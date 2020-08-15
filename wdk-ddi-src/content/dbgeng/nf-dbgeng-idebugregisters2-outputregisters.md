@@ -56,13 +56,13 @@ The <b>OutputRegisters</b> method formats and sends the target's <a href="https:
 
 
 
-### -param OutputControl [in]
-
+### -param OutputControl 
+[in]
 Specifies which clients should be sent the output of the formatted registers.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-outctl-xxx">DEBUG_OUTCTL_XXX</a> for possible values.
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 Specifies which set of registers to print.  This can either be DEBUG_REGISTERS_DEFAULT to print commonly used registers, DEBUG_REGISTERS_ALL to print all the sets of registers, or a combination of the values listed in the following table.
 
 <table>

@@ -60,13 +60,13 @@ The <b>WdfRequestForwardToIoQueue</b> method requeues an I/O request to one of t
 
 
 
-### -param Request [in]
-
+### -param Request 
+[in]
 A handle to a framework request object.
 
 
-### -param DestinationQueue [in]
-
+### -param DestinationQueue 
+[in]
 A handle to a framework queue object.
 
 

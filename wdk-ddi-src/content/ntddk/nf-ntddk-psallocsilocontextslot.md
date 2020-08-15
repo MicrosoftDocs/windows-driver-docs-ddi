@@ -55,13 +55,13 @@ This routine allocates a slot that can be used to insert, retrieve, and delete a
 
 
 
-### -param Reserved [in]
-
+### -param Reserved 
+[in]
 This parameter is reserved for future use and <b>must be set to zero</b>. 
 
 
-### -param ReturnedContextSlot [out]
-
+### -param ReturnedContextSlot 
+[out]
 A pointer to a caller-allocated variable that receives the newly allocated slot index. This parameter is required and it cannot be <b>NULL</b>.
 
 

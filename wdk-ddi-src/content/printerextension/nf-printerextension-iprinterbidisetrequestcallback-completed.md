@@ -55,13 +55,13 @@ Invoked when the Bidi “Set”” operation is completed.
 
 
 
-### -param bstrResponse [in]
-
+### -param bstrResponse 
+[in]
 The received response.
 
 
-### -param hrStatus [in]
-
+### -param hrStatus 
+[in]
 An HRESULT value.
 
 

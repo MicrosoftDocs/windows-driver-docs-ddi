@@ -55,8 +55,8 @@ The <b>CcUnpinData</b> routine releases cached file data that was mapped or pinn
 
 
 
-### -param Bcb [in]
-
+### -param Bcb 
+[in]
 Pointer to a buffer control block (BCB) for the data to be released.
 
 

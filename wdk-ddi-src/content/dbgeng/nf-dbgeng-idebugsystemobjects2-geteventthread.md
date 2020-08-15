@@ -58,8 +58,8 @@ The <b>GetEventThread</b> method returns the engine thread ID for the thread on 
 
 
 
-### -param Id [out]
-
+### -param Id 
+[out]
 Receives the engine thread ID.
 
 

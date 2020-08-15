@@ -55,8 +55,8 @@ The  <b>RemoveSymbolByNameWide</b> method removes the specified symbol from a sy
 
 
 
-### -param Name [in]
-
+### -param Name 
+[in]
 The name of the symbol to remove from the symbol group.
 
 

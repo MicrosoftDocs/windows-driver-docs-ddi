@@ -56,8 +56,8 @@ The PHW_DMA_STARTED routine prototype declares a SCSI miniport driver routine th
 
 
 
-### -param DeviceExtension [in]
-
+### -param DeviceExtension 
+[in]
 Pointer to the miniport driver's per-HBA storage area.
 
 

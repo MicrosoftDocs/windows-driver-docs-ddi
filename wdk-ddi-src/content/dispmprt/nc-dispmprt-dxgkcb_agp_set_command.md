@@ -55,13 +55,13 @@ The <b>AgpSetCommand</b> function sets the AGP rate and specifies whether side b
 
 
 
-### -param Context [in]
-
+### -param Context 
+[in]
 A handle to a context block that is associated with an AGP interface. The display miniport driver previously received this handle in the <b>Context</b> member of the DXGK_AGP_INTERFACE structure that was filled in by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_query_services">DxgkCbQueryServices</a>.
 
 
-### -param Command [in]
-
+### -param Command 
+[in]
 A set of flags that specify the AGP rate and the types of AGP transactions that will be used.
 
 The caller must set one, and only one, of the following flags.

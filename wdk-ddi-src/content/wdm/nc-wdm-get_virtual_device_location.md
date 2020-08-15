@@ -73,32 +73,32 @@ NTSTATUS GetLocation(
 
 
 
-### -param Context [in, out]
-
+### -param Context 
+[in, out]
 A pointer to interface-specific context information. The caller passes the value that is passed as the <b>Context</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/hh406642(v=vs.85)">PCI_VIRTUALIZATION_INTERFACE</a> structure for the interface.
 
 
-### -param VirtualFunction [in]
-
+### -param VirtualFunction 
+[in]
 A zero-based value that specifies the VF on the device for  which the device location is returned
 
 
-### -param SegmentNumber [out]
-
+### -param SegmentNumber 
+[out]
 A pointer to a caller-supplied variable in which this routine returns a UINT16 value for the current PCI segment number. This value specifies the group of PCI buses on which the device is attached.
 
 
 
 
-### -param BusNumber [out]
-
+### -param BusNumber 
+[out]
 A pointer to a caller-supplied variable in which this routine returns a UINT8 value. This value specifies the current PCI bus number on which the device is attached.
 
 
 
 
-### -param FunctionNumber [out]
-
+### -param FunctionNumber 
+[out]
 A pointer to a caller-supplied variable in which this routine returns a UINT8 value.  This value contains the function number for the specified VF on the PCI bus.
 
 

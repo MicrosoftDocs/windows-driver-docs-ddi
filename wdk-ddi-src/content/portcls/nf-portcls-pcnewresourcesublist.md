@@ -56,28 +56,28 @@ The <b>PcNewResourceSublist</b> function creates and initializes an empty resour
 
 
 
-### -param OutResourceList [out]
-
+### -param OutResourceList 
+[out]
 Output pointer to the resource-list object that this function creates. This parameter points to the caller-allocated pointer variable into which the function outputs the pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iresourcelist">IResourceList</a> object. Specify a valid, non-<b>NULL</b> pointer value for this parameter.
 
 
-### -param OuterUnknown [in, optional]
-
+### -param OuterUnknown 
+[in, optional]
 Pointer to the <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of an object that needs to aggregate the object. Unless aggregation is required, set this parameter to <b>NULL</b>.
 
 
-### -param PoolType [in]
-
+### -param PoolType 
+[in]
 Specifies the type of pool from which the object is to be allocated. This is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type">POOL_TYPE</a> enumeration value.
 
 
-### -param ParentList [in]
-
+### -param ParentList 
+[in]
 Pointer to the resource list from which the child list will be created. The resource list has an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iresourcelist">IResourceList</a> interface.
 
 
-### -param MaximumEntries [in]
-
+### -param MaximumEntries 
+[in]
 Specifies the maximum number of entries that will be added to the resource list.
 
 

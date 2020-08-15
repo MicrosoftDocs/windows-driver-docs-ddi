@@ -55,13 +55,13 @@ The <code>GetProperty</code> method gets a property from a property bag.
 
 
 
-### -param pszName [in]
-
+### -param pszName 
+[in]
 The name of the property that you want to get from the property bag.
 
 
-### -param pVar [out]
-
+### -param pVar 
+[out]
 The <b>VARIANT</b> value to get from the property bag.
 
 

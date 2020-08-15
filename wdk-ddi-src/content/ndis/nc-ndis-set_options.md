@@ -57,16 +57,16 @@ NDIS calls a driver's
 
 
 
-### -param NdisDriverHandle [in]
-
+### -param NdisDriverHandle 
+[in]
 A handle that identifies a driver. NDIS returns this handle to the driver when it returns from the driver registration function (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterminiportdriver">
      NdisMRegisterMiniportDriver</a> for miniport drivers, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisregisterprotocoldriver">
      NdisRegisterProtocolDriver</a> for protocol drivers, and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfregisterfilterdriver">
      NdisFRegisterFilterDriver</a> for filter drivers).
 
 
-### -param DriverContext [in]
-
+### -param DriverContext 
+[in]
 The handle that the driver passed to 
      <b>NdisRegisterXxxDriver</b> that identifies the driver context area, where Xxx is the type of driver (Miniport, Protocol, or Filter).
 

@@ -55,18 +55,18 @@ req.typenames:
 
 
 
-### -param RxDeviceObject [in]
-
+### -param RxDeviceObject 
+[in]
 A pointer to the RDBSS device object for this network redirector.
 
 
-### -param FastIoDispatch [in, out]
-
+### -param FastIoDispatch 
+[in, out]
 A pointer to the fast I/O dispatch table to fill in and use.
 
 
-### -param FastIoDispatchSize [in]
-
+### -param FastIoDispatchSize 
+[in]
 The size, in bytes, of the fast I/O dispatch table passed.
 
 

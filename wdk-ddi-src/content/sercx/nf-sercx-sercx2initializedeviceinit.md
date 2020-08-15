@@ -55,8 +55,8 @@ The <b>SerCx2InitializeDeviceInit</b> method enables version 2 of the serial fra
 
 
 
-### -param DeviceInit [in, out]
-
+### -param DeviceInit 
+[in, out]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure, which is an opaque structure that stores information that the Kernel Mode Driver Framework (KMDF) uses to create a framework device object. The serial controller driver receives a pointer to this structure as an input parameter to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add">EvtDriverDeviceAdd</a> callback function.
 
 

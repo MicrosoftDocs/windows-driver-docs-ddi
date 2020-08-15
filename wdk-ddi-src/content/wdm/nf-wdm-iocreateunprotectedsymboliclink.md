@@ -55,13 +55,13 @@ The <b>IoCreateUnprotectedSymbolicLink</b> routine sets up an unprotected symbol
 
 
 
-### -param SymbolicLinkName [in]
-
+### -param SymbolicLinkName 
+[in]
 Supplies the symbolic link name as a Unicode string. 
 
 
-### -param DeviceName [in]
-
+### -param DeviceName 
+[in]
 Supplies the name of the device object to which the symbolic link name refers. 
 
 

@@ -60,13 +60,13 @@ The <b>WdfRequestRetrieveInputMemory</b> method retrieves a handle to a framewor
 
 
 
-### -param Request [in]
-
+### -param Request 
+[in]
 A handle to a framework request object. 
 
 
-### -param Memory [out]
-
+### -param Memory 
+[out]
 A pointer to a location that receives a handle to a framework memory object. 
 
 

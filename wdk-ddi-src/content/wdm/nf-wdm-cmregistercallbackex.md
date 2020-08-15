@@ -55,28 +55,28 @@ The <b>CmRegisterCallbackEx</b> routine registers a <a href="https://docs.micros
 
 
 
-### -param Function [in]
-
+### -param Function 
+[in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function">RegistryCallback</a> routine to register.
 
 
-### -param Altitude [in]
-
+### -param Altitude 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure. This structure must contain a string that represents the <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/load-order-groups-and-altitudes-for-minifilter-drivers">altitude</a> of the calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/file-system-minifilter-drivers">minifilter driver</a>. For more information, see Remarks.
 
 
-### -param Driver [in]
-
+### -param Driver 
+[in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a> structure that represents the driver.
 
 
-### -param Context [in, optional]
-
+### -param Context 
+[in, optional]
 A driver-defined value that the configuration manager will pass as the <i>CallbackContext</i> parameter to the <i>RegistryCallback</i> routine.
 
 
-### -param Cookie [out]
-
+### -param Cookie 
+[out]
 A pointer to a LARGE_INTEGER variable that receives the value that identifies the callback routine. When you unregister the callback routine, pass this value as the <i>Cookie</i> parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-cmunregistercallback">CmUnRegisterCallback</a>.
 
 

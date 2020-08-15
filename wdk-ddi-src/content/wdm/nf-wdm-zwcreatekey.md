@@ -56,13 +56,13 @@ The <b>ZwCreateKey</b> routine creates a new registry key or opens an existing o
 
 
 
-### -param KeyHandle [out]
-
+### -param KeyHandle 
+[out]
 Pointer to a HANDLE variable that receives a handle to the key.
 
 
-### -param DesiredAccess [in]
-
+### -param DesiredAccess 
+[in]
 Specifies an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that determines the requested access to the object. In addition to the access rights that are defined for all types of objects (see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>), the caller can specify one or more of the following access rights, which are specific to object directories:
 
 <table>
@@ -184,8 +184,8 @@ STANDARD_RIGHTS_ALL, KEY_QUERY_VALUE, KEY_SET_VALUE, KEY_CREATE_SUB_KEY, KEY_ENU
  
 
 
-### -param ObjectAttributes [in]
-
+### -param ObjectAttributes 
+[in]
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that specifies the object name and other attributes. Use <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> to initialize this structure. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE attribute when it calls <b>InitializeObjectAttributes</b>. 
 
 
@@ -194,13 +194,13 @@ Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-n
 Device and intermediate drivers set this parameter to zero. 
 
 
-### -param Class [in, optional]
-
+### -param Class 
+[in, optional]
 Pointer to a Unicode string that contains the key's object class. This information is used by the configuration manager. 
 
 
-### -param CreateOptions [in]
-
+### -param CreateOptions 
+[in]
 Specifies the options to apply when creating or opening a key, specified as a compatible combination of the following flags.
 
 <table>
@@ -252,8 +252,8 @@ Key should be created or opened with special privileges that allow backup and re
  
 
 
-### -param Disposition [out, optional]
-
+### -param Disposition 
+[out, optional]
 Pointer to a variable that receives a value indicating whether a new key was created or an existing one opened.
 
 <table>

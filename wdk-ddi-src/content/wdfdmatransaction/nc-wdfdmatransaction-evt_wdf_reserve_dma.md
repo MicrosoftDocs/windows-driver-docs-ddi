@@ -59,13 +59,13 @@ req.typenames:
 
 
 
-### -param DmaTransaction [in]
-
+### -param DmaTransaction 
+[in]
 A handle to the DMA transaction object that represents the transaction to which DMA resources were assigned.
 
 
-### -param Context [in]
-
+### -param Context 
+[in]
 The context pointer that the driver specified in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmatransaction/nf-wdfdmatransaction-wdfdmatransactionallocateresources">WdfDmaTransactionAllocateResources</a>.
 
 

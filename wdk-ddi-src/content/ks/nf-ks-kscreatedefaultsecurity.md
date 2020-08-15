@@ -56,13 +56,13 @@ The <b>KsCreateDefaultSecurity </b>function creates a security descriptor with d
 
 
 
-### -param ParentSecurity [in, optional]
-
+### -param ParentSecurity 
+[in, optional]
 Points to the parent object's security descriptor, describing inherited security parameters. This argument is optional.
 
 
-### -param DefaultSecurity [out]
-
+### -param DefaultSecurity 
+[out]
 Points to the place in which to put the returned default security descriptor.
 
 

@@ -56,18 +56,18 @@ The <b>MmSecureVirtualMemory</b> routine secures a user-space memory address ran
 
 
 
-### -param Address [in]
-
+### -param Address 
+[in]
 The beginning of the user virtual address range to secure.
 
 
-### -param Size [in]
-
+### -param Size 
+[in]
 The size, in bytes, of the virtual address range to secure.
 
 
-### -param ProbeMode [in]
-
+### -param ProbeMode 
+[in]
 Specifies the most restrictive page protection that is allowed. Use PAGE_READWRITE to specify that the address range must remain both readable and writable, or use PAGE_READONLY to specify that the address range must only remain readable.
 
 <table>

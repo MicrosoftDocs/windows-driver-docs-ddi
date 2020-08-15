@@ -55,33 +55,33 @@ The <b>VideoPortReleaseCommonBuffer</b> function frees a common buffer that was 
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 Pointer to the miniport driver's device extension.
 
 
-### -param VpDmaAdapter [in]
-
+### -param VpDmaAdapter 
+[in]
 Pointer to the <a href="https://docs.microsoft.com/previous-versions/ff570570(v=vs.85)">VP_DMA_ADAPTER</a> structure that represents the bus-master adapter. This is the structure returned after a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportgetdmaadapter">VideoPortGetDmaAdapter</a>.
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 Specifies the number of bytes of memory to be freed.
 
 
-### -param LogicalAddress [in]
-
+### -param LogicalAddress 
+[in]
 Specifies the logical address of the buffer to be freed.
 
 
-### -param VirtualAddress [in]
-
+### -param VirtualAddress 
+[in]
 Pointer to the corresponding virtual address of the allocated memory range. This value was obtained in a prior call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportallocatecommonbuffer">VideoPortAllocateCommonBuffer</a>.
 
 
-### -param CacheEnabled [in]
-
+### -param CacheEnabled 
+[in]
 Indicates whether the allocated memory is cached. A value of <b>TRUE</b> indicates that the allocated memory is cached.
 
 

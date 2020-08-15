@@ -56,8 +56,8 @@ The <b>KsNullDriverUnload</b> function is a default function a driver can use wh
 
 
 
-### -param DriverObject [in]
-
+### -param DriverObject 
+[in]
 Specifies the driver object for this device.
 
 

@@ -93,8 +93,8 @@ An optional pointer that the driver returns a <b>NULL</b>-terminated string to t
 
 Can be <b>NULL</b>, in which case the app doesn't need the name.
 
-### -param pNameLength [in, out, optional]
-
+### -param pNameLength 
+[in, out, optional]
 An optional pointer to a variable that receives the size, in bytes, of the <b>NULL</b>-terminated string that the <i>pszName</i> parameter specifies.
 
 Here are limitations on the values of the <i>pNameLength</i> and  <i>pszName</i> parameters:
@@ -113,8 +113,8 @@ An optional pointer that the driver returns a <b>NULL</b>-terminated string to t
 
 Can be <b>NULL</b>, in which case the app doesn't need the units info. See more info in the explanation of the <i>pUnitsLength</i> parameter.
 
-### -param pUnitsLength [in, out, optional]
-
+### -param pUnitsLength 
+[in, out, optional]
  An optional pointer to a variable that receives the size, in bytes, of the <b>NULL</b>-terminated string that the <i>pszUnits</i> parameter specifies.
 
 Here are limitations on the values of the <i>pUnitsLength</i> and  <i>pszUnits</i> parameters:
@@ -133,8 +133,8 @@ An optional pointer that the driver returns a <b>NULL</b>-terminated string to t
 
 Can be <b>NULL</b>, in which case the app doesn't need the description info. See more info in the explanation of the <i>pDescriptionLength</i> parameter.
 
-### -param pDescriptionLength [in, out, optional]
-
+### -param pDescriptionLength 
+[in, out, optional]
  An optional pointer to a variable that receives the size, in bytes, of the <b>NULL</b>-terminated string that the <i>pszDescription</i> parameter specifies.
 
 Here are limitations on the values of the <i>pDescriptionLength</i> and  <i>pszDescription</i> parameters:

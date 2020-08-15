@@ -56,15 +56,15 @@ The
 
 
 
-### -param brbType [in]
-
+### -param brbType 
+[in]
 Specifies a value from the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_brb_type">BRB_TYPE</a> enumeration to initialize the BRB
      with.
 
 
-### -param tag [in]
-
+### -param tag 
+[in]
 Specifies a 4-byte 
      pool tag that uniquely identifies the driver that does the memory
      allocation. For more information about pool tags, see 

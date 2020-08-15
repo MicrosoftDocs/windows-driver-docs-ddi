@@ -60,8 +60,8 @@ The <b>WdfRequestFormatRequestUsingCurrentType</b> method formats a specified I/
 
 
 
-### -param Request [in]
-
+### -param Request 
+[in]
 A handle to a framework request object that the driver received from one of its I/O queues.
 
 

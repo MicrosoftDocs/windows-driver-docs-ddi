@@ -55,28 +55,28 @@ The <b>CcPreparePinWrite</b> routine pins the specified byte range of a cached f
 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 Pointer to a file object for the cached file to which the data is to be written.
 
 
-### -param FileOffset [in]
-
+### -param FileOffset 
+[in]
 Pointer to a variable that specifies the starting byte offset within the file where the data is to be written.
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 Length of desired data in bytes.
 
 
-### -param Zero [in]
-
+### -param Zero 
+[in]
 Set to <b>TRUE</b> if the buffer is to be zeroed on return. This parameter is ignored if the PIN_CALLER_TRACKS_DIRTY_DATA flag is set in the <i>Flags</i> parameter.
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 Bitmask of flags specifying how the pinning operation is to be performed. ORed combination of one or more of the following values: 
 
 <table>
@@ -138,13 +138,13 @@ The caller is responsible for  keeping track of dirty pages. If this flag is set
  
 
 
-### -param Bcb [out]
-
+### -param Bcb 
+[out]
 Opaque pointer to a pinned buffer control block (BCB). This pointer must be supplied as input on any subsequent calls to <b>CcPreparePinWrite</b> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff539228">CcUnpinData</a> for this buffer.
 
 
-### -param Buffer [out]
-
+### -param Buffer 
+[out]
 Returns pointer to desired data, valid until the buffer is unpinned or freed.
 
 

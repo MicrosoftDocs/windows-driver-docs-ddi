@@ -58,13 +58,13 @@ This is a WDI miniport handler inside <a href="https://docs.microsoft.com/window
 
 
 
-### -param MiniportAdapterContext [in]
-
+### -param MiniportAdapterContext 
+[in]
 The handle to the context area that the miniport driver allocated.
 
 
-### -param ForceIdle [in]
-
+### -param ForceIdle 
+[in]
 A BOOLEAN value that, when set to TRUE, specifies that the miniport driver must not veto the idle notification and must continue with the low-power state transition.
 
 For more information about the ForceIdle parameter, see the Remarks section.

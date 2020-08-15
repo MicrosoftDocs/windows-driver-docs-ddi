@@ -55,18 +55,18 @@ The <b>GetSourcePathWide</b>  method returns the source path.
 
 
 
-### -param Buffer [out, optional]
-
+### -param Buffer 
+[out, optional]
 Receives the source path.  This is a string that contains source path elements separated by semicolons (<b>;</b>).  Each source path element can specify either a directory or a source server.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param BufferSize [in]
-
+### -param BufferSize 
+[in]
 Specifies the size, in characters, of the <i>Buffer</i> buffer.
 
 
-### -param PathSize [out, optional]
-
+### -param PathSize 
+[out, optional]
 Receives the size, in characters, of the source path.
 
 

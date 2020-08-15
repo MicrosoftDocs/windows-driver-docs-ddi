@@ -55,13 +55,13 @@ req.typenames:
 
 
 
-### -param RxDeviceObject [in]
-
+### -param RxDeviceObject 
+[in]
 A pointer to the RDBSS device object for this network mini-redirector.
 
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 A pointer to the I/O request packet being processed.
 
 

@@ -55,8 +55,8 @@ The <b>IoGetTransactionParameterBlock</b> routine returns the transaction parame
 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 A pointer to a file object for the file. 
 
 

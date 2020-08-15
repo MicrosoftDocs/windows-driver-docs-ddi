@@ -57,23 +57,23 @@ The <b>GetExceptionFilterSecondCommand</b>  method returns the command that will
 
 
 
-### -param Index [in]
-
+### -param Index 
+[in]
 Specifies the index of the exception filter whose second-chance command will be returned.  <i>Index</i> can also refer to the default exception filter to return the second-chance command for those exceptions that do not have a specific or arbitrary exception filter.
 
 
-### -param Buffer [out, optional]
-
+### -param Buffer 
+[out, optional]
 Receives the second-chance command for the exception filter.
 
 
-### -param BufferSize [in]
-
+### -param BufferSize 
+[in]
 Specifies the size, in characters, of the buffer that <i>Buffer</i> specifies.
 
 
-### -param CommandSize [out, optional]
-
+### -param CommandSize 
+[out, optional]
 Receives the size, in characters, of the second-chance command for the exception filter.  If <i>CommandSize</i> is <b>NULL</b>, this information is not returned.
 
 

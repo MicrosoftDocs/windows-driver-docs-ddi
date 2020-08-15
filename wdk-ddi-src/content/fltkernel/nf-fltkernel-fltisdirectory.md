@@ -55,18 +55,18 @@ A minifilter driver calls the <b>FltIsDirectory</b> routine to determine whether
 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 Pointer to an already opened file object. 
 
 
-### -param Instance [in]
-
+### -param Instance 
+[in]
 Opaque instance pointer for the instance associated with this file object. 
 
 
-### -param IsDirectory [out]
-
+### -param IsDirectory 
+[out]
 Pointer to a caller-supplied Boolean variable. On return, this variable receives <b>TRUE</b> if the file object represents a directory, <b>FALSE</b> otherwise. 
 
 

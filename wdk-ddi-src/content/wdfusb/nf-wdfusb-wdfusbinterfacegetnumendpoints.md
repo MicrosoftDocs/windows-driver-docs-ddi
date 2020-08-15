@@ -60,13 +60,13 @@ The <b>WdfUsbInterfaceGetNumEndpoints</b> method returns the number of endpoints
 
 
 
-### -param UsbInterface [in]
-
+### -param UsbInterface 
+[in]
 A handle to a USB interface object that was obtained by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdevicegetinterface">WdfUsbTargetDeviceGetInterface</a>. 
 
 
-### -param SettingIndex [in]
-
+### -param SettingIndex 
+[in]
 An index value that identifies an alternate setting for the interface. For more information about alternate settings, see the USB specification.
 
 

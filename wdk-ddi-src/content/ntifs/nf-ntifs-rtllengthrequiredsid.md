@@ -56,8 +56,8 @@ The <b>RtlLengthRequiredSid</b> routine returns the length, in bytes, of the buf
 
 
 
-### -param SubAuthorityCount [in]
-
+### -param SubAuthorityCount 
+[in]
 The number of subauthorities to be stored in the SID. 
 
 

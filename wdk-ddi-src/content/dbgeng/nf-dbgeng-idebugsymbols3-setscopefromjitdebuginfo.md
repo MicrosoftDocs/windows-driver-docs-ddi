@@ -56,13 +56,13 @@ Recovers just-in-time (JIT) debugging information and sets current
 
 
 
-### -param OutputControl [in]
-
+### -param OutputControl 
+[in]
 An output control.
 
 
-### -param InfoOffset [in]
-
+### -param InfoOffset 
+[in]
 An offset for the debugging information. 
 
 

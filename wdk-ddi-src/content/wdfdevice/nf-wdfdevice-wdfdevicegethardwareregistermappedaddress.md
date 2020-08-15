@@ -57,13 +57,13 @@ A driver calls <b>WdfDeviceGetHardwareRegisterMappedAddress</b> to get the user-
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object.
 
 
-### -param PseudoBaseAddress [in]
-
+### -param PseudoBaseAddress 
+[in]
 The address of a location that receives a pointer to the pseudo base address.
 
 

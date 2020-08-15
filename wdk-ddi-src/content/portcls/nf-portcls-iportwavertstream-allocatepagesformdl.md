@@ -55,13 +55,13 @@ The <code>AllocatePagesForMdl</code> method allocates a list of nonpaged physica
 
 
 
-### -param HighAddress [in]
-
+### -param HighAddress 
+[in]
 Specifies the high end of the address range from which the storage for the MDL can be allocated. The low end of the address range is implicitly zero.
 
 
-### -param TotalBytes [in]
-
+### -param TotalBytes 
+[in]
 Specifies the total number of bytes to allocate for the MDL. This method always allocates an integral number of memory pages.
 
 

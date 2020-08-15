@@ -56,18 +56,18 @@ The <b>NtQueryInformationToken</b> routine retrieves a specified type of informa
 
 
 
-### -param TokenHandle [in]
-
+### -param TokenHandle 
+[in]
 Handle for an access token from which information is to be retrieved. If <i>TokenInformationClass</i> is set to <b>TokenSource</b>, the handle must have TOKEN_QUERY_SOURCE access. For all other <i>TokenInformationClass</i> values, the handle must have TOKEN_QUERY access. For more information about access rights for access-token objects, see the Security section of the Windows SDK documentation.
 
 
-### -param TokenInformationClass [in]
-
+### -param TokenInformationClass 
+[in]
 A value from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ne-ntifs-_token_information_class">TOKEN_INFORMATION_CLASS</a> enumerated type identifying the type of information to be retrieved. The possible values for this parameter are listed in the <i>TokenInformationClass</i> Value column of the table shown in the description of the <i>TokenInformation</i> parameter.
 
 
-### -param TokenInformation [out]
-
+### -param TokenInformation 
+[out]
 Pointer to a caller-allocated buffer that receives the requested information about the token. The structure put into this buffer depends upon the value of <i>TokenInformationClass</i>, as shown in the following table. All structures must be aligned on a 32-bit boundary.
 
 <table>
@@ -189,13 +189,13 @@ The buffer receives a <a href="https://docs.microsoft.com/windows-hardware/drive
  
 
 
-### -param TokenInformationLength [in]
-
+### -param TokenInformationLength 
+[in]
 Length, in bytes, of the caller-allocated <i>TokenInformation</i> buffer. 
 
 
-### -param ReturnLength [out]
-
+### -param ReturnLength 
+[out]
 Pointer to a caller-allocated variable that receives the actual length, in bytes, of the information returned in the <i>TokenInformation</i> buffer. If either of the following conditions is true, no data is returned in the <i>TokenInformation</i> buffer: 
 
 <ul>

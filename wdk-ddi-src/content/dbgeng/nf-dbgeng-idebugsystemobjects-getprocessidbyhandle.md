@@ -58,13 +58,13 @@ The <b>GetProcessIdByHandle</b> method returns the engine process ID for the spe
 
 
 
-### -param Handle [in]
-
+### -param Handle 
+[in]
 Specifies the handle of the process whose process ID is requested.  This handle must be a process handle previously retrieved from the debugger engine.
 
 
-### -param Id [out]
-
+### -param Id 
+[out]
 Receives the engine process ID.
 
 

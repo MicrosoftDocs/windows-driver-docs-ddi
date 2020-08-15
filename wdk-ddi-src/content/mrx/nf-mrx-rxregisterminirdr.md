@@ -55,23 +55,23 @@ req.typenames:
 
 
 
-### -param DeviceObject [out]
-
+### -param DeviceObject 
+[out]
 A pointer to where the created device object will be stored.
 
 
-### -param DriverObject [in, out]
-
+### -param DriverObject 
+[in, out]
 A pointer to the driver object of the network mini-redirector driver. Each driver receives a pointer to its driver object in a parameter to its <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine. This driver object will be used to create the device object for the network mini-redirector driver. 
 
 
-### -param MrdrDispatch [in]
-
+### -param MrdrDispatch 
+[in]
 A pointer to the dispatch table for the network mini-redirector. This dispatch table includes configuration information for the network mini-redirector and a table of pointers to callback routines implemented by the network mini-redirector kernel driver. RDBSS makes calls to the network mini-redirector driver through this list of callback routines. 
 
 
-### -param Controls [in]
-
+### -param Controls 
+[in]
 The set of options that determine capabilities of the network mini-redirector driver and how RDBSS should handle initialization and name table caching for the network mini-redirector driver. These options can include any combination of the following bits:
 
 
@@ -101,23 +101,23 @@ When this flag is set, it indicates that the network mini-redirector does not wa
 When this flag is set, it indicates that the network mini-redirector does not want RDBSS to initialize its internal network name table and scavenger data structures for scavenging this name table. This option would be set for a network mini-redirector that wants to handle caching for network share names itself and not use the RDBSS facilities for name caching and scavenging.
 
 
-### -param DeviceName [in]
-
+### -param DeviceName 
+[in]
 A pointer to a buffer that contains a zero-terminated Unicode string that names the device object. The string must be a full path name. This parameter is passed as <i>DeviceName</i> to the <b>IoCreateDevice</b> routine by RDBSS.
 
 
-### -param DeviceExtensionSize [in]
-
+### -param DeviceExtensionSize 
+[in]
 The size specified by the mini-redirector driver for the number of bytes to be allocated for the device extension of the device object. The internal structure of the device extension is driver-defined. This parameter is added to the size of the device extension used by RDBSS and passed as the <i>DeviceExtensionSize</i> parameter to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatedevice">IoCreateDevice</a> routine by RDBSS.
 
 
-### -param DeviceType [in]
-
+### -param DeviceType 
+[in]
 The device type used when the device object is created. This specifies one of the system-defined FILE_DEVICE_XXX constants that indicate the type of device or a vendor-defined value for a new type of device. This value would normally be FILE_DEVICE_NETWORK_FILE_SYSTEM for network mini-redirector drivers. This parameter is passed as <i>DeviceType</i> to the <b>IoCreateDevice</b> routine by RDBSS. 
 
 
-### -param DeviceCharacteristics [in]
-
+### -param DeviceCharacteristics 
+[in]
 The device characteristics used when the device object is created. This specifies one or more system-defined constants, combined together, that provide additional information about the driver's device. This value must include FILE_REMOTE_DEVICE for network mini-redirector drivers, but this might be combined with other characteristics such as FILE_DEVICE_SECURE_OPEN. This parameter is passed as <i>DeviceCharacteristics</i> to the <b>IoCreateDevice</b> routine by RDBSS. 
 
 

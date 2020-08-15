@@ -56,8 +56,8 @@ The <b>StorPortFreeHostMemoryBuffer</b> routine frees the physically contiguous 
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
@@ -67,8 +67,8 @@ The array of physical address ranges that make up
         the Host Memory Buffer previously allocated by  <b>StorPortAllocateHostMemoryBuffer</b>.
 
 
-### -param PhysicalAddressRangeCount [in]
-
+### -param PhysicalAddressRangeCount 
+[in]
  The number of entries in <b>PhysicalAddressRanges</b>. 
 
 

@@ -57,8 +57,8 @@ The <b>GetEngineOptions</b> method returns the engine's options.
 
 
 
-### -param Options [out]
-
+### -param Options 
+[out]
 Receives a bit-set that contains the engine's options. For a description of the engine options, see <a href="https://docs.microsoft.com/previous-versions/ff541475(v=vs.85)">DEBUG_ENGOPT_XXX</a>.
 
 

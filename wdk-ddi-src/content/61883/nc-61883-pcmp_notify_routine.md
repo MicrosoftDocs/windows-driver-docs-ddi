@@ -55,8 +55,8 @@ This routine is called for plug notification.
 
 
 
-### -param NotifyInfo [in]
-
+### -param NotifyInfo 
+[in]
 Specifies the notification information.
 
 

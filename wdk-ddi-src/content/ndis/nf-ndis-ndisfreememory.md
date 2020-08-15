@@ -58,19 +58,19 @@ The
 
 
 
-### -param VirtualAddress [in]
-
+### -param VirtualAddress 
+[in]
 A pointer to the base virtual address of the allocated memory. This address was returned by the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatememorywithtagpriority">NdisAllocateMemoryWithTagPriority</a> function.
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 The size, in bytes, of the memory block to be released. If the memory was allocated with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatememorywithtagpriority">NdisAllocateMemoryWithTagPriority</a> or the <i>MemoryFlags</i> parameter is zero, this parameter is ignored. 
 
 
-### -param MemoryFlags [in]
-
+### -param MemoryFlags 
+[in]
 A set of flags that specify the type of memory to free. This value must be zero if the memory was
       allocated with 
       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatememorywithtagpriority">NdisAllocateMemoryWithTagPriority</a>. With NDIS 6.0 and later versions, the 

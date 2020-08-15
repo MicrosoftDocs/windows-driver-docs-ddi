@@ -59,8 +59,8 @@ req.typenames:
 
 
 
-### -param ActivityId [out]
-
+### -param ActivityId 
+[out]
 A pointer to a location to store the retrieved GUID.
 
 

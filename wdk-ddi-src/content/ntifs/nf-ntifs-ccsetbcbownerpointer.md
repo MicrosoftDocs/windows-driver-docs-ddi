@@ -55,13 +55,13 @@ The <b>CcSetBcbOwnerPointer</b> routine sets the owner thread pointer for a pinn
 
 
 
-### -param Bcb [in]
-
+### -param Bcb 
+[in]
 Pointer to a pinned BCB structure that is owned by the current thread.
 
 
-### -param OwnerPointer [in]
-
+### -param OwnerPointer 
+[in]
 A valid resource owner pointer, which means a pointer to an allocated system address, with the low-order two bits set. This address may not be deallocated until after the BCB is unpinned by a subsequent call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539231">CcUnpinDataForThread</a>.
 
 

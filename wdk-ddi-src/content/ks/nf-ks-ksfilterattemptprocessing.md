@@ -56,13 +56,13 @@ The<b> KsFilterAttemptProcessing</b> function attempts to initiate processing on
 
 
 
-### -param Filter [in]
-
+### -param Filter 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a> structure representing the AVStream filter object on which to attempt processing.
 
 
-### -param Asynchronous [in]
-
+### -param Asynchronous 
+[in]
 This parameter contains an indication as to whether the processing dispatch should occur asynchronously or not (should it occur). An asynchronous dispatch is guaranteed if this is <b>TRUE</b>; however, synchronous processing dispatches are governed by conditions described below.
 
 

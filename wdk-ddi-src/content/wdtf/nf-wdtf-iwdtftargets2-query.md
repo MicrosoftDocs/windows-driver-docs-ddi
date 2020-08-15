@@ -55,13 +55,13 @@ Returns a subset of the items in the collection.
 
 
 
-### -param SDEL [in]
-
+### -param SDEL 
+[in]
 The SDEL query string.
 
 
-### -param ppTargets [out, retval]
-
+### -param ppTargets 
+[out, retval]
 The collection of items.
 
 

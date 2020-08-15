@@ -55,18 +55,18 @@ The <b>IStillImage::GetSTILaunchInformation</b> method returns the reason the ca
 
 
 
-### -param pwszDeviceName [out]
-
+### -param pwszDeviceName 
+[out]
 Caller-supplied pointer to a buffer, STI_MAX_INTERNAL_NAME_LENGTH bytes in length, to receive the internal device name of the still image device for which the application was started.
 
 
-### -param pdwEventCode [out, optional]
-
+### -param pdwEventCode 
+[out, optional]
 Reserved for future use.
 
 
-### -param pwszEventName [out]
-
+### -param pwszEventName 
+[out]
 Caller-supplied pointer to a buffer that is large enough to receive a string representation of a GUID. The GUID represents the <a href="https://docs.microsoft.com/windows-hardware/drivers/image/still-image-device-events">Still Image Device Events</a> for which the application was started.
 
 

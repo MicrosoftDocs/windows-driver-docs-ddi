@@ -55,23 +55,23 @@ The <b>PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE</b> function initializes a platform
 
 
 
-### -param BaudRate [in]
-
+### -param BaudRate 
+[in]
 Specifies the baud rate of the connection.
 
 
-### -param BitsPerByte [in]
-
+### -param BitsPerByte 
+[in]
 Specifies the number of bits per byte of data.
 
 
-### -param StopBits [in]
-
+### -param StopBits 
+[in]
 Specifies the stop bits used in the connection.
 
 
-### -param LinesInUse [in]
-
+### -param LinesInUse 
+[in]
 Flag indicating the serial lines that are enabled. A value of 1 in the bit positions indicates that the line is enabled.
 
 <table>
@@ -163,13 +163,13 @@ Request to Send (RTS)
  
 
 
-### -param IsBigEndian [in]
-
+### -param IsBigEndian 
+[in]
 Indicates if the most significant bits of data are in the lowest address. 
 
 
-### -param Parity [in]
-
+### -param Parity 
+[in]
 Specifies the parity of the connection.
 
 <table>
@@ -236,56 +236,56 @@ Space
  
 
 
-### -param FlowControl [in]
-
+### -param FlowControl 
+[in]
 Specifies the type of flow control used by the connection.
 
 
-### -param RxSize [in]
-
+### -param RxSize 
+[in]
 Specifies the maximum receive buffer size, in bytes, that is supported by this connection.
 
 
-### -param TxSize [in]
-
+### -param TxSize 
+[in]
 Specifies the maximum transmit buffer size, in bytes, that is supported by this connection.
 
 
-### -param ResourceSource [in]
-
+### -param ResourceSource 
+[in]
 The name of the serial bus controller device to which this
 connection descriptor applies. The name can be a fully
 qualified path, a relative path, or a simple name segment
 that utilizes the namespace search rules.
 
 
-### -param ResourceSourceIndex [in]
-
+### -param ResourceSourceIndex 
+[in]
 This parameter should always be zero.
 
 
-### -param ResourceUsage [in]
-
+### -param ResourceUsage 
+[in]
 Indicates if this resource is in use.
 
 
-### -param SharedMode [in]
-
+### -param SharedMode 
+[in]
 Indicates if this resource is shared.
 
 
-### -param VendorData [in]
-
+### -param VendorData 
+[in]
 A pointer to optional data that is specific to the serial bus connection type.
 
 
-### -param VendorDataLength [in]
-
+### -param VendorDataLength 
+[in]
 The length of the buffer pointed to by the <i>VendorData</i> parameter.
 
 
-### -param Resource [out]
-
+### -param Resource 
+[out]
 A pointer to the resource. The structure behind the pointer is of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_spb_uart_resource">PEP_ACPI_SPB_UART_RESOURCE</a>.
 
 

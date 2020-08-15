@@ -55,28 +55,28 @@ The <b>IStillImage::GetDeviceValue</b> method returns registry information assoc
 
 
 
-### -param pwszDeviceName [in]
-
+### -param pwszDeviceName 
+[in]
 Caller-supplied pointer to a string representing an internal device name, obtained by calling <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543790(v=vs.85)">IStillImage::GetSTILaunchInformation</a> or <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543784(v=vs.85)">IStillImage::GetDeviceList</a>.
 
 
-### -param pValueName [in]
-
+### -param pValueName 
+[in]
 Caller-supplied pointer to a string representing a registry value name.
 
 
-### -param pType [out]
-
+### -param pType 
+[out]
 Receives a constant representing the data type of the returned registry value.
 
 
-### -param pData [out]
-
+### -param pData 
+[out]
 Caller-supplied pointer to a buffer to receive a returned value.
 
 
-### -param cbData [in, out]
-
+### -param cbData 
+[in, out]
 Caller-supplied size, in bytes, of the buffer pointed to by <i>pData</i>. The method modifies this value to represent the size of the returned data. If the specified buffer size is too small, the method supplies the required buffer size and returns an error code.
 
 

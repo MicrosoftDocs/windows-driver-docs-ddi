@@ -51,18 +51,18 @@ Called by the user-mode driver to register with the operating system to receive 
 
 ## -parameters
 
-### -param hMiracastDeviceHandle [in]
-
+### -param hMiracastDeviceHandle 
+[in]
 A handle that represents a Miracast device. The Miracast user-mode driver previously obtained this handle as the <i>hMiracastDeviceHandle</i> parameter in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_create_miracast_context">CreateMiracastContext</a> function.
 
 
-### -param pNotificationContext [in, optional]
-
+### -param pNotificationContext 
+[in, optional]
 The context that will be passed to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_datarate_notification">pfnDataRateNotify</a> function when the Miracast data rate changes.
 
 
-### -param pfnDataRateNotify [in, optional]
-
+### -param pfnDataRateNotify 
+[in, optional]
 A pointer to the driver routine that will be called when the bit rate of the Miracast network link has changed. See Remarks for more info.
 
 The driver can supply a <b>NULL</b> value to unregister for notifications.

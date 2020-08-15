@@ -56,28 +56,28 @@ The <b>ZwUnlockFile</b> routine unlocks a byte-range lock in a file.
 
 
 
-### -param FileHandle [in]
-
+### -param FileHandle 
+[in]
 A handle for the file object that represents the file whose byte range is to be unlocked.
 
 
-### -param IoStatusBlock [out]
-
+### -param IoStatusBlock 
+[out]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure that contains the final status.
 
 
-### -param ByteOffset [in]
-
+### -param ByteOffset 
+[in]
 A pointer to a variable that specifies the starting byte offset for the byte range to be unlocked.
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 A pointer to a variable that specifies the length, in bytes, of the byte range to unlock.
 
 
-### -param Key [in]
-
+### -param Key 
+[in]
 The caller-assigned value used to describe groups of related locks. This value should be set to zero.
 
 

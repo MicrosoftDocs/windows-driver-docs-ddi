@@ -56,8 +56,8 @@ Starts a trace session for power state transitions and saves the trace message f
 
 
 
-### -param EventFilePath [in]
-
+### -param EventFilePath 
+[in]
 Specifies the location to store the trace message (.etl)
     log file.
 

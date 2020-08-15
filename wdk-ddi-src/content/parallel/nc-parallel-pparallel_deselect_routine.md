@@ -66,13 +66,13 @@ typedef NTSTATUS (*PPARALLEL_DESELECT_ROUTINE)(
 
 
 
-### -param DeselectContext [in]
-
+### -param DeselectContext 
+[in]
 Pointer to the device extension of a functional device object (<a href="https://docs.microsoft.com/windows-hardware/drivers/">FDO</a>) that represents a parallel port.
 
 
-### -param DeselectCommand [in]
-
+### -param DeselectCommand 
+[in]
 Pointer to a PARALLEL_1284_COMMAND structure. The caller specifies the following members:
 
 

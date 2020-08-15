@@ -55,18 +55,18 @@ Minidrivers can optionally supply a callback function of type <b>PFNKSALLOCATOR<
 
 
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 Specifies the IRP for which the buffer allocation request is being made.
 
 
-### -param BufferSize [in]
-
+### -param BufferSize 
+[in]
 Specifies the size of buffer needed. This size covers all parameters in the request.
 
 
-### -param InputOperation [in]
-
+### -param InputOperation 
+[in]
 Set to <b>TRUE</b> if this is an input operation, meaning that on successful return, the Irp->IoStatus.Information field will contain the number of bytes to copy back to the original input buffer.
 
 

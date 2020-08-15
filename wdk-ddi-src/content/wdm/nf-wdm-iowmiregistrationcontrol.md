@@ -55,13 +55,13 @@ The <b>IoWMIRegistrationControl</b> routine registers or unregisters the caller 
 
 
 
-### -param DeviceObject [in]
-
+### -param DeviceObject 
+[in]
 A pointer to a device object. This object is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> system structure.
 
 
-### -param Action [in]
-
+### -param Action 
+[in]
 The action that WMI should take. The requested action is indicated by one of the following values.
 
 <table>

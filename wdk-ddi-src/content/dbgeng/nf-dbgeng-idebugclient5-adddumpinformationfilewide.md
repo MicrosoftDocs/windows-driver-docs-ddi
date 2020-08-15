@@ -56,18 +56,18 @@ The <b>AddDumpInformationFileWide</b> method registers additional files containi
 
 
 
-### -param FileName [in, optional]
-
+### -param FileName 
+[in, optional]
 Specifies the name of the file containing the supporting information.  If <i>FileHandle</i> is not zero, <i>FileName</i> is used only for informational purposes.
 
 
-### -param FileHandle [in]
-
+### -param FileHandle 
+[in]
 Specifies the handle of the file containing the supporting information.  If <i>FileHandle</i> is zero, the file named in <i>FileName</i> is used.
 
 
-### -param Type [in]
-
+### -param Type 
+[in]
 Specifies the type of the file in <i>FileName</i> or <i>FileHandle</i>.  Currently, only files containing paging file information are supported, and <i>Type</i> must be set to DEBUG_DUMP_FILE_PAGE_FILE_DUMP.
 
 

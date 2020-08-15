@@ -57,8 +57,8 @@ The
 
 
 
-### -param ClientCharacteristics [in]
-
+### -param ClientCharacteristics 
+[in]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/ns-netioddk-_npi_client_characteristics">
      NPI_CLIENT_CHARACTERISTICS</a> structure that describes the characteristics of the client module. The
@@ -66,8 +66,8 @@ A pointer to an
      client module is registered with the NMR.
 
 
-### -param ClientContext [in]
-
+### -param ClientContext 
+[in]
 A pointer to a caller-supplied context for the registration. The client module uses this context
      to keep track of the state of the client registration. The contents of the client module's registration
      context are opaque to the NMR. The NMR passes this pointer to the client module whenever it calls the
@@ -77,8 +77,8 @@ A pointer to a caller-supplied context for the registration. The client module u
      memory as long as the client module is registered with the NMR.
 
 
-### -param NmrClientHandle [out]
-
+### -param NmrClientHandle 
+[out]
 A pointer to a variable that receives a handle used by the NMR to represent the registration of
      the client module. The client module must save this handle and pass it as a parameter to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrderegisterclient">NmrDeregisterClient</a> function when it

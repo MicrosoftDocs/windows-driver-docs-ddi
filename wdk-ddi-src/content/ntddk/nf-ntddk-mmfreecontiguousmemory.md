@@ -55,8 +55,8 @@ The <b>MmFreeContiguousMemory</b> routine releases a range of physically contigu
 
 
 
-### -param BaseAddress [in]
-
+### -param BaseAddress 
+[in]
 Pointer to the virtual address of the memory to be freed.
 
 

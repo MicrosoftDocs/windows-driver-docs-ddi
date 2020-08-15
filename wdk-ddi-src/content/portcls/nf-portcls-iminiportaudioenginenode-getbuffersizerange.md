@@ -55,18 +55,18 @@ Gets the minimum and maximum buffer size that the hardware audio engine can supp
 
 
 
-### -param ulNodeId [in]
-
+### -param ulNodeId 
+[in]
 The ID for the node that represents the audio device.
 
 
-### -param pKsDataFormatWfx [in]
-
+### -param pKsDataFormatWfx 
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksdataformat_waveformatex">KSDATAFORMAT_WAVEFORMATEX</a> structure that represents the audio data format for the audio device.
 
 
-### -param pBufferSizeRange [out]
-
+### -param pBufferSizeRange 
+[out]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_tagksaudioengine_buffer_size_range">KSAUDIOENGINE_BUFFER_SIZE_RANGE</a> structure that represents the minimum and maximum buffer size that the hardware audio engine can support at the time when it is called.
 
 

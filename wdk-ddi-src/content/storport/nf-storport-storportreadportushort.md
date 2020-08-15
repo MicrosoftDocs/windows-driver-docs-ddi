@@ -56,13 +56,13 @@ The <b>StorPortReadPortUshort</b> routine reads a value from a specified port ad
 
 
 
-### -param h [in]
-
+### -param h 
+[in]
 A pointer to the hardware device extension.
 
 
-### -param p [in]
-
+### -param p 
+[in]
 A pointer to the address from which to read. 
 
 

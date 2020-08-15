@@ -55,18 +55,18 @@ The <b>KeRemoveQueue</b> routine gives the calling thread a pointer to a dequeue
 
 
 
-### -param Queue [in, out]
-
+### -param Queue 
+[in, out]
 Pointer to an initialized queue object for which the caller provides resident storage in nonpaged pool.
 
 
-### -param WaitMode [in]
-
+### -param WaitMode 
+[in]
 The processor mode in which the caller is waiting, which can be either <b>KernelMode</b> or <b>UserMode</b>. If anything on its stack might be accessed at IRQL >= DISPATCH_LEVEL, the caller must specify <b>KernelMode</b>. 
 
 
-### -param Timeout [in, optional]
-
+### -param Timeout 
+[in, optional]
 Pointer to a variable that specifies the absolute or relative time, in units of 100 nanoseconds, at which the wait is to expire. If the value of <i>Timeout</i> is negative, the expiration time is relative to the current system time; otherwise, it is absolute. Absolute expiration times track any changes in system time; relative expiration times are not affected by system time changes. This pointer can be <b>NULL</b>. 
 
 

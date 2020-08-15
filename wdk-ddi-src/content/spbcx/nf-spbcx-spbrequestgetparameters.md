@@ -56,13 +56,13 @@ The <b>SpbRequestGetParameters</b> method retrieves a set of SPB-specific parame
 
 
 
-### -param SpbRequest [in]
-
+### -param SpbRequest 
+[in]
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a>  handle to the I/O request. The SPB controller driver previously received this handle through one of its registered <a href="https://docs.microsoft.com/previous-versions/hh450911(v=vs.85)">event callback functions</a>.
 
 
-### -param Parameters [out]
-
+### -param Parameters 
+[out]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/previous-versions/hh406209(v=vs.85)">SPB_REQUEST_PARAMETERS</a> structure into which the method writes the SPB-specific parameter values from the I/O request. The caller must have previously initialized this structure by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spb_request_parameters_init">SPB_REQUEST_PARAMETERS_INIT</a> function.
 
 

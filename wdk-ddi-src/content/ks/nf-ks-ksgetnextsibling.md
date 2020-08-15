@@ -56,8 +56,8 @@ The<b> KsGetNextSibling </b>function returns the next sibling of a given object.
 
 
 
-### -param Object [in]
-
+### -param Object 
+[in]
 The object for which to find the next sibling.
 
 

@@ -55,8 +55,8 @@ Initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/u
 
 
 
-### -param Pdo [out]
-
+### -param Pdo 
+[out]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmtypes/ns-ucmtypes-_ucm_pd_power_data_object">UCM_PD_POWER_DATA_OBJECT</a> structure in which the <b>BatterySupplyPdo.Battery</b> member is set to <b>UcmPdPdoTypeBatterySupply</b>.
 
 

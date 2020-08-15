@@ -55,13 +55,13 @@ The <b>IoSetDeviceToVerify</b> routine specifies a device object to be verified.
 
 
 
-### -param Thread [in]
-
+### -param Thread 
+[in]
 A pointer to the thread.
 
 
-### -param DeviceObject [in, optional]
-
+### -param DeviceObject 
+[in, optional]
 A pointer to the device object for a removable-media device. Can be <b>NULL</b>.
 
 

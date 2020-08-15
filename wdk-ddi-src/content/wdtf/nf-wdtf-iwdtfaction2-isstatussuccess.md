@@ -55,8 +55,8 @@ Gets a value that indicates whether the last operation was successful.
 
 
 
-### -param pResult [out, retval]
-
+### -param pResult 
+[out, retval]
 True if the last operation was successful; otherwise, false.
 
 

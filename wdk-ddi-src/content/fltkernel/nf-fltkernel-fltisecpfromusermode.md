@@ -55,13 +55,13 @@ The <b>FltIsEcpFromUserMode </b>routine is used to determine if an extra create 
 
 
 
-### -param Filter [in]
-
+### -param Filter 
+[in]
 Opaque filter pointer for the minifilter driver. This pointer uniquely identifies the minifilter driver and remains constant as long as the minifilter driver is loaded.
 
 
-### -param EcpContext [in]
-
+### -param EcpContext 
+[in]
 Pointer to the ECP to test.
 
 

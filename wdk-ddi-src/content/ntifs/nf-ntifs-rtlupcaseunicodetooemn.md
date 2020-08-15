@@ -55,28 +55,28 @@ The <b>RtlUpcaseUnicodeToOemN</b> routine translates a given Unicode string into
 
 
 
-### -param OemString [out]
-
+### -param OemString 
+[out]
 Pointer to a caller-allocated buffer to receive the translated string. 
 
 
-### -param MaxBytesInOemString [in]
-
+### -param MaxBytesInOemString 
+[in]
 Maximum number of bytes to be written to <i>OemString</i>. 
 
 
-### -param BytesInOemString [out, optional]
-
+### -param BytesInOemString 
+[out, optional]
 Pointer to a caller-allocated variable that receives the number of bytes in the translated string. This parameter can be <b>NULL</b>. 
 
 
-### -param UnicodeString [in]
-
+### -param UnicodeString 
+[in]
 Pointer to the Unicode source string to be translated. 
 
 
-### -param BytesInUnicodeString [in]
-
+### -param BytesInUnicodeString 
+[in]
 Size, in bytes, of the string at <i>UnicodeString</i>. 
 
 

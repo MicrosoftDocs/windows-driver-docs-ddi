@@ -55,8 +55,8 @@ The <b>FsRtlInitializeTunnelCache</b> routine initializes a new tunnel cache for
 
 
 
-### -param Cache [in]
-
+### -param Cache 
+[in]
 Pointer to a per-volume TUNNEL structure for which the caller must provide resident storage in nonpaged pool. 
 
 

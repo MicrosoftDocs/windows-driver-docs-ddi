@@ -55,43 +55,43 @@ The GetContextStackTraceEx method returns the frames at the top of the call stac
 
 
 
-### -param StartContext [in, optional]
-
+### -param StartContext 
+[in, optional]
 Specifies the register context for the top of the stack.
 
 
-### -param StartContextSize [in]
-
+### -param StartContextSize 
+[in]
 Specifies the size, in bytes, of the <i>StartContext</i> register context.
 
 
-### -param Frames [out, optional]
-
+### -param Frames 
+[out, optional]
 Receives the stack frames.  The number of elements this array holds is <i>FrameSize</i>.  If <i>Frames</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param FramesSize [in]
-
+### -param FramesSize 
+[in]
 Specifies the number of items in the array <i>Frames</i>.
 
 
-### -param FrameContexts [out, optional]
-
+### -param FrameContexts 
+[out, optional]
 Receives the reconstructed register context for each frame in the stack.  The entries in this array correspond to the entries in the <i>Frames</i> array.  The type of the thread context is the CONTEXT structure for the target's effective processor.  If <i>FrameContexts</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param FrameContextsSize [in]
-
+### -param FrameContextsSize 
+[in]
 Specifies the size, in bytes, of the memory pointed to by <i>FrameContexts</i>.  The number of stack frames returned equals the number of contexts returned, and <i>FrameContextsSize</i> must equal <i>FramesSize</i> times <i>FrameContextsEntrySize</i>.
 
 
-### -param FrameContextsEntrySize [in]
-
+### -param FrameContextsEntrySize 
+[in]
 Specifies the size, in bytes, of each frame context in <i>FrameContexts</i>.
 
 
-### -param FramesFilled [out, optional]
-
+### -param FramesFilled 
+[out, optional]
 Receives the number of frames that were placed in the array <i>Frames</i> and contexts in <i>FrameContexts</i>.  If <i>FramesFilled</i> is <b>NULL</b>, this information is not returned.
 
 

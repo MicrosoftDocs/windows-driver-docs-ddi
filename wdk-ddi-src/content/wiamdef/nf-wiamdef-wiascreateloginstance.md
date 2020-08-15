@@ -49,12 +49,12 @@ The **wiasCreateLogInstance** function creates an instance of a logging object.
 
 ## -parameters
 
-### -param pModuleHandle [in]
-
+### -param pModuleHandle 
+[in]
 Pointer to the module handle, which is used to filter output.
 
-### -param ppIWiaLogEx [out]
-
+### -param ppIWiaLogEx 
+[out]
 Pointer to a memory location that receives the address of the logging interface.
 
 ## -returns

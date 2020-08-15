@@ -56,18 +56,18 @@ The <b>KsCacheMedium</b> function improves graph building performance of pins th
 
 
 
-### -param SymbolicLink [in]
-
+### -param SymbolicLink 
+[in]
 The symbolic link used to open the device interface.
 
 
-### -param Medium [in]
-
+### -param Medium 
+[in]
 Points to the medium to cache.
 
 
-### -param PinDirection [in]
-
+### -param PinDirection 
+[in]
 Contains the direction of the Pin.  1 is output, 0 is input.
 
 

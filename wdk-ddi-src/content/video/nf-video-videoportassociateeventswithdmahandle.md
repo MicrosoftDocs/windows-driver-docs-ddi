@@ -57,23 +57,23 @@ The <b>VideoPortAssociateEventsWithDmaHandle</b> function is <b>obsolete</b> in 
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 Pointer to the miniport driver's device extension.
 
 
-### -param pVrp [in, out]
-
+### -param pVrp 
+[in, out]
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_request_packet">VIDEO_REQUEST_PACKET</a>. 
 
 
-### -param MappedUserEvent [in]
-
+### -param MappedUserEvent 
+[in]
 Is reserved for system use.
 
 
-### -param DisplayDriverEvent [in]
-
+### -param DisplayDriverEvent 
+[in]
 Is reserved for system use.
 
 

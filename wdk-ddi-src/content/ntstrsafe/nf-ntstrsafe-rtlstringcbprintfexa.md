@@ -58,13 +58,13 @@ The <b>RtlStringCbPrintfExW</b> and <b>RtlStringCbPrintfExA</b> functions create
 
 
 
-### -param pszDest [out, optional]
-
+### -param pszDest 
+[out, optional]
 A pointer to a caller-supplied buffer that receives a formatted, null-terminated string. The function creates this string from both the formatting string that is supplied by <i>pszFormat</i> and the function's argument list. The <i>pszDest</i> pointer can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
 
-### -param cbDest [in]
-
+### -param cbDest 
+[in]
 The size of the destination buffer, in bytes. The buffer must be large enough to contain the formatted string plus the terminating null character. 
 
 For Unicode strings, the maximum number of bytes is NTSTRSAFE_MAX_CCH * sizeof(WCHAR). 
@@ -74,18 +74,18 @@ For ANSI strings, the maximum number of bytes is NTSTRSAFE_MAX_CCH * sizeof(char
 If <i>pszDest</i> is <b>NULL</b>, <i>cbDest</i> must be zero.
 
 
-### -param ppszDestEnd [out, optional]
-
+### -param ppszDestEnd 
+[out, optional]
 If the caller supplies a non-<b>NULL</b> address pointer then, after the operation completes, the function loads that address with a pointer to the destination buffer's resulting null string terminator. 
 
 
-### -param pcbRemaining [out, optional]
-
+### -param pcbRemaining 
+[out, optional]
 If the caller supplies a non-<b>NULL</b> address pointer, the function loads the address with the number of unused bytes that are in the buffer pointed to by <i>pszDest</i>, including bytes used for the terminating null character.
 
 
-### -param dwFlags [in]
-
+### -param dwFlags 
+[in]
 One or more flags and, optionally, a fill byte. The flags are defined as follows:
 
 <table>
@@ -147,8 +147,8 @@ If set and the function returns STATUS_BUFFER_OVERFLOW, the contents of the dest
  
 
 
-### -param pszFormat [in, optional]
-
+### -param pszFormat 
+[in, optional]
 A pointer to a null-terminated text string that contains <b>printf</b>-styled <a href="https://docs.microsoft.com/cpp/c-runtime-library/format-specification-syntax-printf-and-wprintf-functions">formatting directives</a>. The <i>pszFormat</i> pointer can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
 

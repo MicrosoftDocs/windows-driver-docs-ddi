@@ -58,8 +58,8 @@ The <b>KoRelease</b> function decrements the reference count for the calling int
 
 
 
-### -param ClassId [in]
-
+### -param ClassId 
+[in]
 The CLSID of the object whose reference count will be decremented.
 
 

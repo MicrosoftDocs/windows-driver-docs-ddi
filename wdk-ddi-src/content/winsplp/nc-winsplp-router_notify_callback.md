@@ -55,20 +55,20 @@ req.typenames:
 
 
 
-### -param dwCommand [in]
+### -param dwCommand 
+[in]
 
+### -param pContext 
+[in]
 
-### -param pContext [in]
+### -param dwColor 
+[in]
 
+### -param pNofityInfo 
+[in]
 
-### -param dwColor [in]
+### -param fdwFlags 
+[in]
 
-
-### -param pNofityInfo [in]
-
-
-### -param fdwFlags [in]
-
-
-### -param pdwResult [out]
-
+### -param pdwResult 
+[out]

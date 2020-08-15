@@ -57,8 +57,8 @@ The <b>CreateSymbolicLink</b> method creates a symbolic link for the device.
 
 
 
-### -param pSymbolicLink [in]
-
+### -param pSymbolicLink 
+[in]
 A pointer to a <b>NULL</b>-terminated string that contains the name of the symbolic link for the device. The symbolic link name must be in the global <b>DosDevices</b> namespace.
 
 

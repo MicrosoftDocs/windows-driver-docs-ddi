@@ -58,27 +58,27 @@ The
 
 
 
-### -param netBufferList [in, out]
-
+### -param netBufferList 
+[in, out]
 A network buffer list that indicates one or more packets of interest to the callout driver.
 
 
-### -param layerId [in]
-
+### -param layerId 
+[in]
 The identifier of the layer in which the context is being associated. When calling this function
      from the NDIS receive path, set this parameter to FWPS_LAYER_NON_WFP.
 
 
-### -param context [in]
-
+### -param context 
+[in]
 Arbitrary context information set by the callout driver. The filter engine will pass this context
      to the callout driver's 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_net_buffer_list_notify_fn0">
      FWPS_NET_BUFFER_LIST_NOTIFY_FN0</a>.
 
 
-### -param contextTag [in]
-
+### -param contextTag 
+[in]
 A locally unique identifier obtained by calling the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsnetbufferlistgettagforcontext0">
      FwpsNetBufferListGetTagForContext0</a> function.
@@ -88,21 +88,21 @@ A locally unique identifier obtained by calling the
 
 The provider GUID.
 
-### -param deviceObject [in, out]
-
+### -param deviceObject 
+[in, out]
 A pointer to the callout driver's device object.
 
 
-### -param notifyFn [in]
-
+### -param notifyFn 
+[in]
 A pointer to the callout driver's 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_net_buffer_list_notify_fn0">
      FWPS_NET_BUFFER_LIST_NOTIFY_FN0</a> function. The filter engine will send status notifications to this
      function.
 
 
-### -param flags [in]
-
+### -param flags 
+[in]
 This parameter is reserved for future use and is set to zero.
 
 

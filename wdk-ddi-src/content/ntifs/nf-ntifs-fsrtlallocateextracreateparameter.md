@@ -49,16 +49,16 @@ The **FsRtlAllocateExtraCreateParameter** routine allocates memory for a user-de
 
 ## -parameters
 
-### -param EcpType [in]
-
+### -param EcpType 
+[in]
 A pointer to a user-defined GUID that indicates the type of the ECP context structure.  See [Using GUIDs in Drivers](https://docs.microsoft.com/windows-hardware/drivers/kernel/using-guids-in-drivers) for more information.
 
-### -param SizeOfContext [in]
-
+### -param SizeOfContext 
+[in]
 The size, in bytes, of the user-defined context structure.
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 Defines pool allocation options.  The following describes how pool will be allocated when one or more of the listed flag values are combined with the *Flags* parameter by using a bitwise OR operation:  
 
 - FSRTL_ALLOCATE_ECP_FLAG_NONPAGED_POOL - Non-paged pool will be allocated.  If this flag value is not used, paged pool will be allocated.
@@ -67,16 +67,16 @@ Defines pool allocation options.  The following describes how pool will be alloc
 
 If more than one flag is used, all of the effects associated with the utilized flag values will occur.
 
-### -param CleanupCallback [in, optional]
-
+### -param CleanupCallback 
+[in, optional]
 Optional pointer to a filter-defined cleanup callback routine of type [PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK](https://msdn.microsoft.com/library/windows/hardware/ff551124).  The cleanup callback routine is called when the ECP structure (created by the **FsRtlAllocateExtraCreateParameter** routine) is deleted.  Set this parameter to **NULL** if a cleanup callback routine is not applicable.
 
-### -param PoolTag [in]
-
+### -param PoolTag 
+[in]
 Specifies the pool tag for the allocated memory. For more information, see the *Tag* parameter of [ExAllocatePoolWithTag](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag).
 
-### -param EcpContext [out]
-
+### -param EcpContext 
+[out]
 Receives a pointer to the allocated ECP context structure.  If the routine failed to allocate sufficient pool, the value pointed to by *EcpContext* will be **NULL** and **FsRtlAllocateExtraCreateParameter** will return status code STATUS_INSUFFICIENT_RESOURCES.
 
 ## -returns

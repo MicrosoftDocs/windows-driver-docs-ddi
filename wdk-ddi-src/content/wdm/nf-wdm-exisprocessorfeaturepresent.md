@@ -55,8 +55,8 @@ The <b>ExIsProcessorFeaturePresent</b> routine queries for the existence of a sp
 
 
 
-### -param ProcessorFeature [in]
-
+### -param ProcessorFeature 
+[in]
 Specifies one of the following constant values:
 
 

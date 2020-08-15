@@ -58,8 +58,8 @@ This is an optional WDI miniport handler inside <a href="https://docs.microsoft.
 
 
 
-### -param MiniportAdapterContext [in]
-
+### -param MiniportAdapterContext 
+[in]
 The handle to the context area that the miniport driver allocated.
 
 

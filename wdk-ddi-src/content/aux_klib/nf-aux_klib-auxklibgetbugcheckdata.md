@@ -56,8 +56,8 @@ The <b>AuxKlibGetBugCheckData</b> routine retrieves information about a bug chec
 
 
 
-### -param BugCheckData [out]
-
+### -param BugCheckData 
+[out]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/aux_klib/ns-aux_klib-_kbugcheck_data">KBUGCHECK_DATA</a> structure that contains information about the bug check. The <i>BugCheckData</i> size of this structure should be set equal to the size, in bytes, of the <b>KBUGCHECK_DATA</b> structure.
 
 

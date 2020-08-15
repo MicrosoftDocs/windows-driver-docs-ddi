@@ -55,8 +55,8 @@ The <b>GetEnumCount</b> method gets the number of output results from the bidi r
 
 
 
-### -param pdwTotal [out]
-
+### -param pdwTotal 
+[out]
 A pointer to a variable that receives the number of output results.
 
 

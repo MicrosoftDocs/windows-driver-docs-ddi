@@ -55,18 +55,18 @@ Gets a count of the number of channels supported by the audio device.
 
 
 
-### -param ulNodeId [in]
-
+### -param ulNodeId 
+[in]
 The ID of the node that represents the audio device.
 
 
-### -param targetType [in]
-
+### -param targetType 
+[in]
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ne-portcls-echanneltargettype">eChannelTargetType</a> enumerated value that specifies the types of target nodes in the channels. For example, there could be Volume, Mute or PeakMeter nodes.
 
 
-### -param pulChannelCount [out]
-
+### -param pulChannelCount 
+[out]
 The number of channels supported by the audio device.
 
 

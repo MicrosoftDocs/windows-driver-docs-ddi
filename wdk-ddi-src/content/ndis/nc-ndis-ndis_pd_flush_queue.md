@@ -59,8 +59,8 @@ The PacketDirect (PD) platform calls a PD-capable miniport driver's
 
 
 
-### -param Queue [in, out]
-
+### -param Queue 
+[in, out]
 The queue to flush. For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_pd_queue">NDIS_PD_QUEUE</a> structure.
 
 

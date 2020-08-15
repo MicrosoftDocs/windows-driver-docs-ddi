@@ -57,8 +57,8 @@ The
 
 
 
-### -param SocketContext [in, optional]
-
+### -param SocketContext 
+[in, optional]
 A pointer to the socket context for the connection-oriented socket that has received the data. The
      WSK application provided this pointer to the WSK subsystem in one of the following ways:
      
@@ -89,8 +89,8 @@ Its
 </li>
 </ul>
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 A ULONG value that contains a bitwise OR of a combination of the following flags:
      
 
@@ -142,8 +142,8 @@ The WSK subsystem called the
  
 
 
-### -param DataIndication [in, optional]
-
+### -param DataIndication 
+[in, optional]
 A pointer to a linked list of 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_data_indication">WSK_DATA_INDICATION</a> structures that
      describe the received data. If this parameter is <b>NULL</b>, the socket is no longer functional and the WSK
@@ -152,14 +152,14 @@ A pointer to a linked list of
      socket as soon as possible.
 
 
-### -param BytesIndicated [in]
-
+### -param BytesIndicated 
+[in]
 The number of bytes of received data described by the linked list of 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_data_indication">WSK_DATA_INDICATION</a> structures.
 
 
-### -param BytesAccepted [in, out]
-
+### -param BytesAccepted 
+[in, out]
 A pointer to a SIZE_T-typed variable which receives the number of bytes of received data that is
      accepted by the WSK application. This variable needs to be set only if the WSK application accepts a
      portion of the total number of bytes of received data. If the WSK application accepts all of the

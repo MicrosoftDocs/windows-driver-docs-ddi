@@ -55,13 +55,13 @@ req.typenames:
 
 
 
-### -param RxContext [in, out]
-
+### -param RxContext 
+[in, out]
 A pointer to the RX_CONTEXT structure. 
 
 
-### -param MRxCancelRoutine [in]
-
+### -param MRxCancelRoutine 
+[in]
 A pointer to a cancel routine. 
 
 

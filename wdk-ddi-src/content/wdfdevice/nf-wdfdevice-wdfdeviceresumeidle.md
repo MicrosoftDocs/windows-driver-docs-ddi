@@ -60,8 +60,8 @@ The <b>WdfDeviceResumeIdle</b> method informs the framework that the specified d
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object.
 
 

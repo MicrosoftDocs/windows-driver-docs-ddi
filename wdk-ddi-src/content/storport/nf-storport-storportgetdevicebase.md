@@ -50,28 +50,28 @@ The **StorPortGetDeviceBase** routine maps an I/O address to system address spac
 
 ## -parameters
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls [StorPortInitialize](nf-storport-storportinitialize.md). The port driver frees this memory when it removes the device.
 
-### -param BusType [in]
-
+### -param BusType 
+[in]
 Specifies the interface type of the I/O bus on which the HBA is connected. The miniport driver's [HwStorFindAdapter](nc-storport-hw_find_adapter.md) routine obtains the value for this parameter from the **AdapterInterfaceType** member of the input [PORT_CONFIGURATION_INFORMATION](ns-storport-_port_configuration_information.md).
 
-### -param SystemIoBusNumber [in]
-
+### -param SystemIoBusNumber 
+[in]
 Specifies the system-assigned number of the I/O bus on which the HBA is connected. The [HwStorFindAdapter](nc-storport-hw_find_adapter.md) routine obtains the value for this parameter from the **SystemIoBusNumber** member of the input [PORT_CONFIGURATION_INFORMATION](ns-storport-_port_configuration_information.md).
 
-### -param IoAddress [in]
-
+### -param IoAddress 
+[in]
 Specifies the bus-relative base address of a range used by the HBA. The [HwStorFindAdapter](nc-storport-hw_find_adapter.md) routine obtains the value for this parameter from one of the **AccessRanges** elements in the [PORT_CONFIGURATION_INFORMATION](ns-storport-_port_configuration_information.md) if the port driver supplies range-configuration information. Otherwise, this address can be a value returned by [StorPortGetBusData](nf-storport-storportgetbusdata.md) or a miniport driver-supplied default value. Avoid using a base address of zero because its successful return status can conflict with the error status (**NULL**).
 
-### -param NumberOfBytes [in]
-
+### -param NumberOfBytes 
+[in]
 Specifies the size in bytes of the range that the mapping should cover. The [HwStorFindAdapter](nc-storport-hw_find_adapter.md) routine obtains the value of this parameter from the same **AccessRanges** element as *IoAddress* if the port driver supplies range configuration information. Otherwise, this value can be returned by [StorPortGetBusData](nf-storport-storportgetbusdata.md) or a miniport driver-supplied default. In any case, the driver must not access the hardware outside of the returned, mapped range.
 
-### -param InIoSpace [in]
-
+### -param InIoSpace 
+[in]
 TRUE indicates the range to be mapped is in I/O space, and the miniport driver will pass mapped addresses in this range to the Storport *port* read/write routines to communicate with the HBA. The [HwStorFindAdapter](nc-storport-hw_find_adapter.md) routine obtains the value of this parameter from the same **AccessRanges** element as *IoAddress*. Note that a miniport driver *must invert* the value of the **InMemorySpace** member in an ACCESS_RANGE-type element before it is passed to **StorPortGetDeviceBase** as the *InIoSpace* argument. **FALSE** indicates that the range to be mapped is in memory space.
 
 ## -returns

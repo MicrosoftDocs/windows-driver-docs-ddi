@@ -57,22 +57,22 @@ NDIS miniport drivers call the
 
 
 
-### -param MiniportAdapterHandle [in]
-
+### -param MiniportAdapterHandle 
+[in]
 The miniport adapter handle that NDIS passed to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">
      MiniportInitializeEx</a> function.
 
 
-### -param MiniportInterruptContext [in]
-
+### -param MiniportInterruptContext 
+[in]
 A pointer to a block of context information. The miniport driver allocates this memory to store
      information about the interrupt. NDIS passes the context information block in subsequent calls to other
      functions that are associated with the interrupt.
 
 
-### -param MiniportInterruptCharacteristics [in]
-
+### -param MiniportInterruptCharacteristics 
+[in]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_interrupt_characteristics">
      NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS</a> structure that the miniport driver created. The driver
@@ -80,8 +80,8 @@ A pointer to an
      interrupt characteristics.
 
 
-### -param NdisInterruptHandle [out]
-
+### -param NdisInterruptHandle 
+[out]
 A pointer to an NDIS handle. NDIS writes the handle for the newly created interrupt object to the
      address that the 
      <i>NdisInterruptHandle</i> pointer specifies.

@@ -55,8 +55,8 @@ Add a single item to the collection.
 
 
 
-### -param pTarget [in]
-
+### -param pTarget 
+[in]
 The item to add to this collection.
 
 

@@ -55,13 +55,13 @@ The <b>GetSymbolEntryInformation</b> method returns the symbol entry information
 
 
 
-### -param Id [in]
-
+### -param Id 
+[in]
 Specifies the module and symbol ID of the desired symbol.  For details on this structure, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_module_and_id">DEBUG_MODULE_AND_ID</a>.
 
 
-### -param Info [out]
-
+### -param Info 
+[out]
 Receives the symbol entry information for the symbol.  For details on this structure, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_symbol_entry">DEBUG_SYMBOL_ENTRY</a>.
 
 

@@ -55,28 +55,28 @@ The <b>GetDescriptionWide</b>  method returns the description of a register.
 
 
 
-### -param Register [in]
-
+### -param Register 
+[in]
 Specifies the index of the register for which the description is requested.
 
 
-### -param NameBuffer [out, optional]
-
+### -param NameBuffer 
+[out, optional]
 Specifies the buffer in which to store the name of the register.  If <i>NameBuffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param NameBufferSize [in]
-
+### -param NameBufferSize 
+[in]
 Specifies the size, in characters, of the buffer that  <i>NameBuffer</i> specifies.
 
 
-### -param NameSize [out, optional]
-
+### -param NameSize 
+[out, optional]
 Receives the size, in characters, of the register's name in <i>NameBuffer</i> buffer.  If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param Desc [out, optional]
-
+### -param Desc 
+[out, optional]
 Receives the description of the register.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_register_description">DEBUG_REGISTER_DESCRIPTION</a> for more details.
 
 

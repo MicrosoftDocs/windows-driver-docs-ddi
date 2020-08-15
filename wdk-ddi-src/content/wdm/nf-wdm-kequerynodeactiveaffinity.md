@@ -55,18 +55,18 @@ The <b>KeQueryNodeActiveAffinity</b> routine gets the current processor affinity
 
 
 
-### -param NodeNumber [in]
-
+### -param NodeNumber 
+[in]
 The node number. If a multiprocessor system contains <i>n</i> nodes, the nodes are numbered from 0 to <i>n</i>-1. To obtain the highest node number (<i>n</i>-1) in the system, call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kequeryhighestnodenumber">KeQueryHighestNodeNumber</a> routine. 
 
 
-### -param Affinity [out, optional]
-
+### -param Affinity 
+[out, optional]
 A pointer to a caller-allocated buffer into which the routine writes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/miniport/ns-miniport-_group_affinity">GROUP_AFFINITY</a> structure. This structure contains the group number of the group that contains the node that is identified by <i>NodeNumber</i>, and an affinity mask that indicates which logical processors in the node are active. You can set this parameter to <b>NULL</b> if you do not need this information. 
 
 
-### -param Count [out, optional]
-
+### -param Count 
+[out, optional]
 A pointer to a location into which the routine writes the number of active processors that are represented in the node affinity mask that is pointed to by <i>Affinity</i>. You can set this parameter to <b>NULL</b> if you do not need this information. 
 
 

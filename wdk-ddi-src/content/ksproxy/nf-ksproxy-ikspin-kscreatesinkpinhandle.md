@@ -55,13 +55,13 @@ The <b>KsCreateSinkPinHandle</b> method creates a pin handle and stores it in th
 
 
 
-### -param Interface [in]
-
+### -param Interface 
+[in]
 A type reference to a <a href="https://docs.microsoft.com/previous-versions/ff563537(v=vs.85)">KSPIN_INTERFACE</a> structure for the interface that <b>KsCreateSinkPinHandle</b> negotiated for the created pin. 
 
 
-### -param Medium [in]
-
+### -param Medium 
+[in]
 A type reference to a <a href="https://docs.microsoft.com/previous-versions/ff563538(v=vs.85)">KSPIN_MEDIUM</a> structure for the medium that <b>KsCreateSinkPinHandle</b> negotiated for the created pin. 
 
 

@@ -56,8 +56,8 @@ Returns an SDEL statement that queries for all devices that can use the driver p
 
 
 
-### -param pSDEL [out, retval]
-
+### -param pSDEL 
+[out, retval]
 The SDEL statement.
 
 

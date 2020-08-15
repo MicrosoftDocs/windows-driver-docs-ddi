@@ -60,23 +60,23 @@ The <b>WdfIoQueueCreate</b> method creates and configures an I/O queue for a spe
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to the framework device object that the queue will be associated with. 
 
 
-### -param Config [in]
-
+### -param Config 
+[in]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/ns-wdfio-_wdf_io_queue_config">WDF_IO_QUEUE_CONFIG</a> structure.
 
 
-### -param QueueAttributes [in, optional]
-
+### -param QueueAttributes 
+[in, optional]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that specifies object attributes for the new object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES. 
 
 
-### -param Queue [out, optional]
-
+### -param Queue 
+[out, optional]
 A pointer to a location that receives a handle to a framework queue object.
 
 

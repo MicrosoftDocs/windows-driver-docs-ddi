@@ -58,8 +58,8 @@ The
 
 
 
-### -param NdisVcHandle [in]
-
+### -param NdisVcHandle 
+[in]
 A handle that identifies a virtual connection (VC). The miniport driver obtained this handle as an
      input parameter to its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_co_create_vc">MiniportCoCreateVc</a> function, either
@@ -67,21 +67,21 @@ A handle that identifies a virtual connection (VC). The miniport driver obtained
      service access point (SAP) to indicate an incoming-call notification on.
 
 
-### -param NetBufferLists [in]
-
+### -param NetBufferLists 
+[in]
 A linked list of 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures that the
      miniport driver allocated.
 
 
-### -param NumberOfNetBufferLists [in]
-
+### -param NumberOfNetBufferLists 
+[in]
 The number of NET_BUFFER_LIST structures that are in the linked list of structures that 
      <i>NetBufferLists</i> specifies.
 
 
-### -param CoReceiveFlags [in]
-
+### -param CoReceiveFlags 
+[in]
 Flags that define attributes for the send operation. The flags can be combined with a bitwise OR
      operation. To clear all of the flags, set this parameter to zero. 
      <b>NdisMCoIndicateReceiveNetBufferLists</b> supports the following flags:

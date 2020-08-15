@@ -55,23 +55,23 @@ The <b>IWiaTransferCallback::GetNextStream</b> method is implemented by an image
 
 
 
-### -param lFlags [in]
-
+### -param lFlags 
+[in]
 Is reserved. Set to zero. 
 
 
-### -param bstrItemName [in]
-
+### -param bstrItemName 
+[in]
 Specifies a string containing the name of the item.
 
 
-### -param bstrFullItemName [in]
-
+### -param bstrFullItemName 
+[in]
 Specifies a string containing the full name of the item. 
 
 
-### -param ppDestination [out]
-
+### -param ppDestination 
+[out]
 Specifies a pointer to the output stream. 
 
 

@@ -59,8 +59,8 @@ The
 
 
 
-### -param NetBuffer [in]
-
+### -param NetBuffer 
+[in]
 A pointer to a previously allocated 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure.
 

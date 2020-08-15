@@ -55,18 +55,18 @@ req.typenames:
 
 
 
-### -param InitiatingInstance [in]
-
+### -param InitiatingInstance 
+[in]
 An opaque instance pointer for the minifilter driver instance that the operation is to be sent to. The instance must be attached to the volume where the file resides. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 Pointer to a file object for the file that the data is to be written to. This file object must be currently open. Calling <b>FltWriteFile</b> when the file object is not yet open or is no longer open (for example, in a pre-create or post-cleanup callback routine) causes the system to ASSERT on a checked build. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param ByteOffset [in, optional]
-
+### -param ByteOffset 
+[in, optional]
 Pointer to a caller-allocated variable that specifies the starting byte offset within the file where the write operation is to begin. 
 
 If this offset is supplied, or if the FLTFL_IO_OPERATION_DO_NOT_UPDATE_BYTE_OFFSET flag is specified in the <i>Flags</i> parameter, <b>FltWriteFile</b> does not update the file object's <b>CurrentByteOffset</b> field. 
@@ -81,18 +81,18 @@ If the file object that <i>FileObject</i> points to was opened for asynchronous 
 
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 Size, in bytes, of the buffer that the <i>Buffer</i> parameter points to. 
 
 
-### -param Buffer [in]
-
+### -param Buffer 
+[in]
 Pointer to a buffer that contains the data to be written to the file. If the file is opened for noncached I/O, this buffer be must be aligned in accordance with the alignment requirement of the underlying storage device. Minifilter drivers can allocate such an aligned buffer by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatepoolalignedwithtag">FltAllocatePoolAlignedWithTag</a>. 
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 Bitmask of flags specifying the type of write operation to be performed. 
 
 <table>
@@ -147,18 +147,18 @@ This flag is available for Windows Vista and later versions of the Windows opera
  
 
 
-### -param BytesWritten [out, optional]
-
+### -param BytesWritten 
+[out, optional]
 Pointer to a caller-allocated variable that receives the number of bytes written to the file. If <i>CallbackRoutine</i> is not <b>NULL</b>, this parameter is ignored. Otherwise, this parameter is optional and can be <b>NULL</b>. 
 
 
-### -param CallbackRoutine [in, optional]
-
+### -param CallbackRoutine 
+[in, optional]
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_completed_async_io_callback">PFLT_COMPLETED_ASYNC_IO_CALLBACK</a>-typed callback routine to call when the write operation is complete. This parameter is optional and can be <b>NULL</b>. 
 
 
-### -param CallbackContext [in, optional]
-
+### -param CallbackContext 
+[in, optional]
 Context pointer to be passed to the <i>CallbackRoutine</i> if one is present. This parameter is optional and can be <b>NULL</b>. If <i>CallbackRoutine</i> is <b>NULL</b>, this parameter is ignored. 
 
 

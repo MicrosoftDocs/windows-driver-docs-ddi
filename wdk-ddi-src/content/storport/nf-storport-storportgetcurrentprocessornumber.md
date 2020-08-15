@@ -55,13 +55,13 @@ The <b>StorPortGetCurrentProcessorNumber</b> routine retrieves the current proce
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param ProcNumber [out]
-
+### -param ProcNumber 
+[out]
 A pointer to a processor number structure that holds the return data.
 
 

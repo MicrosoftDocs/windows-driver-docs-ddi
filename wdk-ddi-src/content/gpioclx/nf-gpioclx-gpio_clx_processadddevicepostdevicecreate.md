@@ -56,13 +56,13 @@ The <b>GPIO_CLX_ProcessAddDevicePostDeviceCreate</b> method passes a framework d
 
 
 
-### -param Driver [in]
-
+### -param Driver 
+[in]
 A WDFDRIVER handle to the framework driver object for the GPIO controller driver.
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A WDFDEVICE handle to the framework device object that represents the GPIO controller. The caller obtained this handle from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a> call that created the device object.
 
 

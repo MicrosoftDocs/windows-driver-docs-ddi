@@ -55,18 +55,18 @@ Call the <b>CcSetAdditionalCacheAttributes</b> routine to enable or disable read
 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 Pointer to a file object for the cached file.
 
 
-### -param DisableReadAhead [in]
-
+### -param DisableReadAhead 
+[in]
 Set to <b>TRUE</b> to disable read-ahead, <b>FALSE</b> to enable it. The caller must specify a value for <i>DisableReadAhead</i> in each call to <b>CcSetAdditionalCacheAttributes</b>, even if a value was already specified in a previous call.
 
 
-### -param DisableWriteBehind [in]
-
+### -param DisableWriteBehind 
+[in]
 Set to <b>TRUE</b> to disable write-behind, <b>FALSE</b> to enable it. The caller must specify a value for <i>DisableWriteBehind</i> in each call to <b>CcSetAdditionalCacheAttributes</b>, even if a value was already specified in a previous call.
 
 

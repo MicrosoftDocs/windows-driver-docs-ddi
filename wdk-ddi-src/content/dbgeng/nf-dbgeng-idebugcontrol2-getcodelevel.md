@@ -57,8 +57,8 @@ The <b>GetCodeLevel</b> method returns the current code level and is mainly used
 
 
 
-### -param Level [out]
-
+### -param Level 
+[out]
 Receives the current code level.  <i>Level</i> can take one of the values in the following table.
 
 <table>

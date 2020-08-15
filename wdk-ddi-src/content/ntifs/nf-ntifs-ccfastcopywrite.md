@@ -55,23 +55,23 @@ The <b>CcFastCopyWrite</b> routine performs a fast copy write from a buffer in m
 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 Pointer to a file object for the cached file to which the data is to be written.
 
 
-### -param FileOffset [in]
-
+### -param FileOffset 
+[in]
 Pointer to a variable that specifies the starting byte offset within the cached file.
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 Length in bytes of the data to be written.
 
 
-### -param Buffer [in]
-
+### -param Buffer 
+[in]
 Pointer to the buffer from which the data is to be copied.
 
 

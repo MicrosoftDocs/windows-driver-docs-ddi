@@ -56,18 +56,18 @@ The <b>RtlUnicodeStringInitEx</b> function initializes a <a href="https://docs.m
 
 
 
-### -param DestinationString [out]
-
+### -param DestinationString 
+[out]
 Optional. A pointer to a <b>UNICODE_STRING</b> structure to be initialized. The <i>pszSrc</i> pointer is copied into the <i>DestinationString</i> parameter's <b>UNICODE_STRING</b> structure. The maximum number of characters in the string that <i>pszSrc</i> points to is NTSTRSAFE_UNICODE_STRING_MAX_CCH. <i>DestinationString</i> can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
 
-### -param pszSrc [in, optional]
-
+### -param pszSrc 
+[in, optional]
 Optional. A pointer to a null-terminated string constant. This string pointer will be copied to the <b>Buffer</b> member of the <b>UNICODE_STRING</b> structure pointed to by the <i>DestinationString</i> parameter. This string pointer can be <b>NULL</b>.
 
 
-### -param dwFlags [in]
-
+### -param dwFlags 
+[in]
 The following flag is defined: 
 
 

@@ -55,13 +55,13 @@ Creates a new Storport work item that runs in a system worker thread.
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param Worker [out]
-
+### -param Worker 
+[out]
 A pointer to an opaque buffer that holds context information for the work item.
 
 

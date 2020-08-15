@@ -60,18 +60,18 @@ The <b>InterlockedCompareExchange</b> routine performs an atomic operation that 
 
 
 
-### -param Destination [in, out]
-
+### -param Destination 
+[in, out]
 A pointer to the input value that is compared with the value of <i>Comperand</i>.
 
 
-### -param ExChange [in]
-
+### -param ExChange 
+[in]
 Specifies the output value pointed to by <i>Destination</i> if the input value pointed to by <i>Destination</i> equals the value of <i>Comperand</i>. 
 
 
-### -param Comperand [in]
-
+### -param Comperand 
+[in]
 
 Specifies the value that is compared with the input value pointed to by <i>Destination</i>.
 

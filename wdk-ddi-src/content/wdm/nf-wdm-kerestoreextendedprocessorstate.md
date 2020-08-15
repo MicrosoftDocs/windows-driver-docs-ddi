@@ -55,8 +55,8 @@ The <b>KeRestoreExtendedProcessorState</b> routine restores extended processor s
 
 
 
-### -param XStateSave [in]
-
+### -param XStateSave 
+[in]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">XSTATE_SAVE</a> structure that contains the extended processor state information to restore. The contents of this structure must have been previously saved by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kesaveextendedprocessorstate">KeSaveExtendedProcessorState</a> routine.
 
 

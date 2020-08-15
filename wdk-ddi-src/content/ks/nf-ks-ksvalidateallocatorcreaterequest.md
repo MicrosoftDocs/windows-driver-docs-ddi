@@ -56,13 +56,13 @@ The <b>KsValidateAllocatorCreateRequest</b> function validates an IRP_MJ_CREATE 
 
 
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 Specifies the IRP with the IRP_MJ_CREATE request being validated.
 
 
-### -param AllocatorFraming [out]
-
+### -param AllocatorFraming 
+[out]
 Caller-defined pointer that on successful completion contains an address to the framing structure supplied with the request.
 
 

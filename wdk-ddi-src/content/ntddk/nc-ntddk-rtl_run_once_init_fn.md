@@ -64,17 +64,17 @@ RTL_RUN_ONCE_INIT_FN (
 
 
 
-### -param RunOnce [in, out]
-
+### -param RunOnce 
+[in, out]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">RTL_RUN_ONCE</a> one-time initialization structure that the driver previously passed as a parameter to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlrunonceexecuteonce">RtlRunOnceExecuteOnce</a> routine that called this <i>RunOnceInitialization</i> routine.
 
-### -param Parameter [in, out]
-
+### -param Parameter 
+[in, out]
 The <i>Parameter</i> value that the driver passed to the <b>RtlRunOnceExecuteOnce</b> routine that called this <i>RunOnceInitialization</i> routine.
 
 
-### -param Context [out]
-
+### -param Context 
+[out]
 A pointer to a PVOID variable to which the routine writes the initialization data.
 
 

@@ -56,27 +56,27 @@ req.typenames:
 
 
 
-### -param NdisVcHandle [in]
-
+### -param NdisVcHandle 
+[in]
 Pointer to the VC handle returned by 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscocreatevc">NdisCoCreateVc</a>.
 
 
-### -param ProtocolPartyContext [in]
-
+### -param ProtocolPartyContext 
+[in]
 Specifies the handle to a caller-allocated resident context area in which the client will maintain
      per-party state if its call succeeds.
 
 
-### -param CallParameters [in, out]
-
+### -param CallParameters 
+[in, out]
 Pointer to a structure of type 
      <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a> in which the caller has
      specified the addressing information for the party to be added on its multipoint VC.
 
 
-### -param NdisPartyHandle [out]
-
+### -param NdisPartyHandle 
+[out]
 Pointer to a variable to be set by NDIS if the add-party operation succeeds.
 
 

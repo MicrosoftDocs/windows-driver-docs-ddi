@@ -55,8 +55,8 @@ The <code>RouterUnregisterForPrintAsyncNotifications</code> function unregisters
 
 
 
-### -param hNotify [in]
-
+### -param hNotify 
+[in]
 The registration handle returned by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prnasntp/nf-prnasntp-routerregisterforprintasyncnotifications">RouterRegisterForPrintAsyncNotifications</a> function.
 
 

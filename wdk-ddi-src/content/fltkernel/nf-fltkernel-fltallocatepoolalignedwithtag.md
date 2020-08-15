@@ -56,13 +56,13 @@ req.typenames:
 
 
 
-### -param Instance [in]
-
+### -param Instance 
+[in]
 Opaque instance pointer for a caller-owned minifilter driver instance that is attached to the volume. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param PoolType [in]
-
+### -param PoolType 
+[in]
 Type of pool to allocate. One of the following: 
 
 <b>NonPagedPool</b>
@@ -76,13 +76,13 @@ Type of pool to allocate. One of the following:
 See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type">POOL_TYPE</a> for a description of the available pool memory types. 
 
 
-### -param NumberOfBytes [in]
-
+### -param NumberOfBytes 
+[in]
 Number of bytes to allocate. This parameter is required and can be zero. 
 
 
-### -param Tag [in]
-
+### -param Tag 
+[in]
 Specifies the pool tag for the allocated memory. Drivers normally specify the pool tag as a string of one to four 7-bit ASCII characters, delimited by single quotation marks (for example, 'abcd'). This parameter is required and cannot be zero. 
 
 

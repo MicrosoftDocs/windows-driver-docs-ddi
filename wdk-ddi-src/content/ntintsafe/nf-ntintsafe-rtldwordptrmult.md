@@ -55,18 +55,18 @@ Multiplies one value of type <b>DWORD_PTR</b> by another.
 
 
 
-### -param dwMultiplicand [in]
-
+### -param dwMultiplicand 
+[in]
 The value to be multiplied by <i>dwMultiplier</i>.
 
 
-### -param dwMultiplier [in]
-
+### -param dwMultiplier 
+[in]
 The value by which to multiply <i>dwMultiplicand</i>.
 
 
-### -param pdwResult [out]
-
+### -param pdwResult 
+[out]
 A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
 

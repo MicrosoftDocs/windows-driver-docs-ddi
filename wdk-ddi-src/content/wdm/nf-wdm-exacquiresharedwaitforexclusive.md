@@ -55,13 +55,13 @@ The <b>ExAcquireSharedWaitForExclusive</b> routine acquires the given resource f
 
 
 
-### -param Resource [in, out]
-
+### -param Resource 
+[in, out]
 A pointer to the resource to be acquired for shared access.
 
 
-### -param Wait [in]
-
+### -param Wait 
+[in]
 Specifies the routine's behavior whenever the resource cannot be acquired immediately. If <b>TRUE</b>, the caller is put into a wait state until the resource can be acquired. If <b>FALSE</b>, the routine immediately returns, regardless of whether the resource can be acquired. 
 
 

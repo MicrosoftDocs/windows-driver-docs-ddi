@@ -55,33 +55,33 @@ The <code>RouterRegisterForPrintAsyncNotifications</code> function registers for
 
 
 
-### -param pName [in]
-
+### -param pName 
+[in]
 A pointer to a null-terminated string that specifies the name of the printer or print server.
 
 
-### -param pNotificationType [in]
-
+### -param pNotificationType 
+[in]
 A pointer to the GUID that represents the type of notifications of interest to the caller.
 
 
-### -param eNotifyFilter [in]
-
+### -param eNotifyFilter 
+[in]
 The filter for the session or user of interest to the caller when receiving notifications.
 
 
-### -param eConversationStyle [in]
-
+### -param eConversationStyle 
+[in]
 The type of communication: unidirectional or bidirectional.
 
 
-### -param pCallback [in]
-
+### -param pCallback 
+[in]
 A pointer to the callback that is used deliver the notifications.
 
 
-### -param phNotify [out]
-
+### -param phNotify 
+[out]
 A pointer to an opaque handle. The caller can use this handle to discontinue receiving notifications.
 
 

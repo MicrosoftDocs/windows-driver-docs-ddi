@@ -56,18 +56,18 @@ The<b> KsPinGetConnectedFilterInterface</b> function queries the filter to which
 
 
 
-### -param Pin [in]
-
+### -param Pin 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure. The filter to which this pin is attached is queried for the requested interface.
 
 
-### -param InterfaceId [in]
-
+### -param InterfaceId 
+[in]
 A pointer to a GUID representing the interface ID for the interface to obtain. A <b>QueryInterface</b> call is automatically performed for this interface.
 
 
-### -param Interface [out]
-
+### -param Interface 
+[out]
 A pointer to a PVOID. As in COM, the resulting interface pointer is deposited into <i>*Interface</i>. This interface has a corresponding reference count and <i>must</i> be released by the caller as in COM.
 
 

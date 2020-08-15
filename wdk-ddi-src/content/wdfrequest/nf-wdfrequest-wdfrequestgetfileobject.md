@@ -60,8 +60,8 @@ The <b>WdfRequestGetFileObject</b> method retrieves the framework file object th
 
 
 
-### -param Request [in]
-
+### -param Request 
+[in]
 A handle to a framework request object.
 
 

@@ -55,8 +55,8 @@ The <b>ExGetSharedWaiterCount</b> routine returns the number of waiters on share
 
 
 
-### -param Resource [in]
-
+### -param Resource 
+[in]
 A pointer to the resource to be tested. 
 
 

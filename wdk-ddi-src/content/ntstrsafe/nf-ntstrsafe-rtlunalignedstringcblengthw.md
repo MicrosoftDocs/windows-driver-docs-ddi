@@ -56,18 +56,18 @@ The <b>RtlUnalignedStringCbLengthW</b> function is a version of the <a href="htt
 
 
 
-### -param psz [in]
-
+### -param psz 
+[in]
 Supplies a pointer to a buffer that contains a null-terminated string whose length <b>RtlUnalignedStringCbLengthW</b>  will check. 
 
 
-### -param cbMax [in]
-
+### -param cbMax 
+[in]
 Supplies the maximum number of bytes that are allowed in the buffer that <i>psz</i> points to, including the terminating NULL character. This value cannot exceed NTSTRSAFE_MAX_CCH * sizeof(WCHAR). 
 
 
-### -param pcbLength [out, optional]
-
+### -param pcbLength 
+[out, optional]
 Optional. If the caller supplies a non-<b>NULL</b> address pointer, the function loads the address with the length, in bytes, of the string that is contained in the buffer that <i>psz</i> points to. The length does not include the string's terminating NULL character.
 
 

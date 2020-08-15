@@ -57,33 +57,33 @@ The <b>WriteTypedDataVirtual</b> method writes data to the target's virtual addr
 
 
 
-### -param Offset [in]
-
+### -param Offset 
+[in]
 Specifies the location in the target's virtual address space where the data will be written.
 
 
-### -param Module [in]
-
+### -param Module 
+[in]
 Specifies the base address of the module containing the type.
 
 
-### -param TypeId [in]
-
+### -param TypeId 
+[in]
 Specifies the type ID of the type.
 
 
-### -param Buffer [in]
-
+### -param Buffer 
+[in]
 Specifies the buffer containing the data to be written.
 
 
-### -param BufferSize [in]
-
+### -param BufferSize 
+[in]
 Specifies the size in bytes of the buffer <i>Buffer</i>.  This is the maximum number of bytes to be written.
 
 
-### -param BytesWritten [out, optional]
-
+### -param BytesWritten 
+[out, optional]
 Receives the number of bytes that were written.  If <i>BytesWritten</i> is <b>NULL</b>, this information is not returned.
 
 

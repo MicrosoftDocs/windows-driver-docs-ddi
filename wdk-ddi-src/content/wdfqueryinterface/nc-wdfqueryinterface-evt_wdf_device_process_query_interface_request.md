@@ -57,23 +57,23 @@ A driver's <i>EvtDeviceProcessQueryInterfaceRequest</i> event callback function 
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object.
 
 
-### -param InterfaceType [in]
-
+### -param InterfaceType 
+[in]
 A pointer to the GUID that identifies the driver-defined interface.
 
 
-### -param ExposedInterface [in, out]
-
+### -param ExposedInterface 
+[in, out]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_interface">INTERFACE</a> structure that describes the driver-defined interface and was provided by the driver that is requesting access to the interface.
 
 
-### -param ExposedInterfaceSpecificData [in, out]
-
+### -param ExposedInterfaceSpecificData 
+[in, out]
 A pointer to additional, optional, driver-defined, interface-specific information. Framework-based drivers specify this value by providing a non-<b>NULL</b> <i>InterfaceSpecificData</i> parameter value when calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdffdo/nf-wdffdo-wdffdoqueryforinterface">WdfFdoQueryForInterface</a>.
 
 

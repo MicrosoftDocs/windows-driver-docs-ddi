@@ -55,13 +55,13 @@ req.typenames:
 
 
 
-### -param Volume [in]
-
+### -param Volume 
+[in]
 Opaque pointer for the volume. 
 
 
-### -param Instance [out]
-
+### -param Instance 
+[out]
 Pointer to a caller-allocated variable that receives an opaque instance pointer for the bottom instance for this volume. This parameter is required and cannot be <b>NULL</b>. 
 
 

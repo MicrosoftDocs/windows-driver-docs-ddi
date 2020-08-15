@@ -59,8 +59,8 @@ The
 
 
 
-### -param NdisBindingHandle [in]
-
+### -param NdisBindingHandle 
+[in]
 The binding handle that the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function returned at
      the 

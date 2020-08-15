@@ -55,8 +55,8 @@ The <b>PsGetProcessId</b> routine returns the process identifier (process ID) th
 
 
 
-### -param Process [in]
-
+### -param Process 
+[in]
 A pointer to a process object structure. 
 
 

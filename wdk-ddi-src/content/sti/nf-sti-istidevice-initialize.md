@@ -55,13 +55,13 @@ The <b>IStiDevice::Initialize</b> method initializes an instance of the COM obje
 
 
 
-### -param hinst [in]
-
+### -param hinst 
+[in]
 Caller-supplied instance handle of the calling process. This handle is obtained by calling <b>GetModuleName</b>(NULL).
 
 
-### -param pwszDeviceName [in]
-
+### -param pwszDeviceName 
+[in]
 Caller-supplied pointer to a string representing an internal device name, obtained by calling <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543790(v=vs.85)">IStillImage::GetSTILaunchInformation</a>.
 
 

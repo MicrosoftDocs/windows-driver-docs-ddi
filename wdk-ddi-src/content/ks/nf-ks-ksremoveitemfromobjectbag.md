@@ -56,18 +56,18 @@ The<b> KsRemoveItemFromObjectBag </b>function removes an item from an object bag
 
 
 
-### -param ObjectBag [in]
-
+### -param ObjectBag 
+[in]
 This parameter specifies the KSOBJECT_BAG (equivalent to type PVOID) from which to remove <i>Item</i>. 
 
 
-### -param Item [in]
-
+### -param Item 
+[in]
 A pointer to the item to remove from the requested object bag. Note that <i>Item</i> is removed from the requested object bag only. It is not removed from any other object bags that it may be in.
 
 
-### -param Free [in]
-
+### -param Free 
+[in]
 This parameter specifies whether <i>Item</i> should be freed once it has been removed from the specified object bag. Only set <i>Free</i> to <b>TRUE</b> if <i>Item</i> is not contained in any other object bag.
 
 

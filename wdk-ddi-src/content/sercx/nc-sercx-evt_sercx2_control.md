@@ -55,28 +55,28 @@ The <i>EvtSerCx2Control</i> event callback function is called by version 2 of th
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A WDFDEVICE handle to the framework device object that represents the serial controller. The serial controller driver created this object in its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add">EvtDriverDeviceAdd</a> callback function. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2initializedevice">SerCx2InitializeDevice</a>.
 
 
-### -param Request [in]
-
+### -param Request 
+[in]
 A WDFREQUEST handle to the framework request object that represents the serial I/O control request.
 
 
-### -param OutputBufferLength [in]
-
+### -param OutputBufferLength 
+[in]
 The length, in bytes, of the output buffer for the serial I/O control request specified by the <i>Request</i> parameter.
 
 
-### -param InputBufferLength [in]
-
+### -param InputBufferLength 
+[in]
 The length, in bytes, of the input buffer for the serial I/O control request specified by the <i>Request</i> parameter.
 
 
-### -param IoControlCode [in]
-
+### -param IoControlCode 
+[in]
 Specifies the I/O control code (IOCTL) from the serial I/O control request specified by the <i>Request</i> parameter. The IOCTLs for serial I/O control requests are defined in the Ntddser.h header file. For more information, see Remarks.
 
 

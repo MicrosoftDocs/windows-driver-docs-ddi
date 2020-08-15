@@ -55,18 +55,18 @@ Gets the volume level for a given channel of the audio device.
 
 
 
-### -param ulNodeId [in]
-
+### -param ulNodeId 
+[in]
 The ID for the node that represents the audio device.
 
 
-### -param ulChannel [in]
-
+### -param ulChannel 
+[in]
 The audio device channel.
 
 
-### -param plVolume [out]
-
+### -param plVolume 
+[out]
 The current volume level for the audio device channel.
 
 

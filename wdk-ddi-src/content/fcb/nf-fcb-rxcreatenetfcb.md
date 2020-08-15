@@ -55,23 +55,23 @@ req.typenames:
 
 
 
-### -param RxContext [in]
-
+### -param RxContext 
+[in]
 A pointer to the RX_CONTEXT structure describing a create operation.
 
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 A pointer to the IRP encapsulated by this RX_CONTEXT structure.
 
 
-### -param VNetRoot [in]
-
+### -param VNetRoot 
+[in]
 A pointer to the V_NET_ROOT structure that this FCB is being opened on.
 
 
-### -param Name [in]
-
+### -param Name 
+[in]
 The name of the FCB. The V_NET_ROOT may contain a name prefix that is to be prepended here.
 
 

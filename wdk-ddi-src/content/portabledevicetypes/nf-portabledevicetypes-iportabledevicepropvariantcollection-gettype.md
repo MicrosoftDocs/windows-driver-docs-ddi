@@ -59,8 +59,8 @@ Retrieves the data type of the items in the collection.
 
 
 
-### -param pvt [out]
-
+### -param pvt 
+[out]
 A Platform SDK <b>VARTYPE</b> enumeration value that indicates the data type of all the items in the collection.
 
 

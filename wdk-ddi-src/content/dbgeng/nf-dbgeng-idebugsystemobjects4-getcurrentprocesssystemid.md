@@ -58,8 +58,8 @@ The <b>GetCurrentProcessSystemId</b> method returns the system process ID of the
 
 
 
-### -param SysId [out]
-
+### -param SysId 
+[out]
 Receives the system process ID.
 
 

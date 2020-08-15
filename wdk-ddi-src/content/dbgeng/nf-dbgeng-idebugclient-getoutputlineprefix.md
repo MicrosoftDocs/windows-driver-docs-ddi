@@ -55,18 +55,18 @@ req.typenames:
 
 
 
-### -param Buffer [out]
-
+### -param Buffer 
+[out]
 A pointer to the buffer to get the prefix.
 
 
-### -param BufferSize [in]
-
+### -param BufferSize 
+[in]
 The size of the buffer.
 
 
-### -param PrefixSize [out, optional]
-
+### -param PrefixSize 
+[out, optional]
 A pointer to the size of the buffer.
 
 

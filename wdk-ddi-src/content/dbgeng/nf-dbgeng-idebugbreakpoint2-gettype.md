@@ -56,8 +56,8 @@ The <b>GetType</b> method returns the type of the breakpoint and the type of the
 
 
 
-### -param BreakType [out]
-
+### -param BreakType 
+[out]
 The type of the breakpoint.  The type can be one of the following  values.
 
 <table>
@@ -89,8 +89,8 @@ Processor breakpoint
  
 
 
-### -param ProcType [out]
-
+### -param ProcType 
+[out]
 The type of the processor that the breakpoint is set for.
 
 

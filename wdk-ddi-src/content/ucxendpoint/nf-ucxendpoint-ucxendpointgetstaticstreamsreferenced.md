@@ -55,13 +55,13 @@ Returns a referenced static streams object for the specified endpoint.
 
 
 
-### -param Endpoint [in]
-
+### -param Endpoint 
+[in]
 A handle to the endpoint object for which the static streams object is requested. The client driver retrieved the handle in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxendpoint/nf-ucxendpoint-ucxendpointcreate">UcxEndpointCreate</a>.
 
 
-### -param Tag [in]
-
+### -param Tag 
+[in]
 A driver-defined value that the framework stores as an identification tag for the object reference.
 
 

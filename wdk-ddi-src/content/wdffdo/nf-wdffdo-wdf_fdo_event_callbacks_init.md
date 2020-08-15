@@ -57,8 +57,8 @@ The <b>WDF_FDO_EVENT_CALLBACKS_INIT</b> function initializes a <a href="https://
 
 
 
-### -param Callbacks [out]
-
+### -param Callbacks 
+[out]
 A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdffdo/ns-wdffdo-_wdf_fdo_event_callbacks">WDF_FDO_EVENT_CALLBACKS</a> structure. 
 
 

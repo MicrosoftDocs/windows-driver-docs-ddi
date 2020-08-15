@@ -54,17 +54,17 @@ The <b>VideoPortDoDma</b> function is <b>obsolete</b> in Windows 2000 and later.
 
 ## -parameters
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 Pointer to the miniport driver's device extension.
 
-### -param pDma [in]
-
+### -param pDma 
+[in]
 Specifies a non-<b>NULL</b> DMA handle. This handle was obtained from a prior call to <b>VideoPortDoDma</b> or from the <b>OutputBuffer</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_request_packet">VIDEO_REQUEST_PACKET</a> returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportlockpages">VideoPortLockPages</a>.
 
 
-### -param DmaFlags [in]
-
+### -param DmaFlags 
+[in]
 Specifies the action to be performed. This member can be one of the following values:
 
 |Value|Meaning|

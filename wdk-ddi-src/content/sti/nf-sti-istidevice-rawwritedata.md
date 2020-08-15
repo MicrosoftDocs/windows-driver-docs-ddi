@@ -55,8 +55,8 @@ The <b>IStiDevice::RawWriteData</b> method writes data to a still image device.
 
 
 
-### -param lpBuffer [in]
-
+### -param lpBuffer 
+[in]
 Caller-supplied pointer to a buffer containing data to be sent to the device.
 
 
@@ -65,8 +65,8 @@ Caller-supplied pointer to a buffer containing data to be sent to the device.
 Caller-supplied number of bytes to be written. This is the number of bytes in the buffer pointed to by <i>lpBuffer</i>.
 
 
-### -param lpOverlapped [in, optional]
-
+### -param lpOverlapped 
+[in, optional]
 Optional, caller-supplied pointer to an OVERLAPPED structure (described in the Microsoft Windows SDK documentation).
 
 

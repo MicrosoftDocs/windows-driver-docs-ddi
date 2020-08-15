@@ -58,15 +58,15 @@ The
 
 
 
-### -param NdisBindingHandle [in]
-
+### -param NdisBindingHandle 
+[in]
 A handle that the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function returned
      that identifies the target adapter for the binding.
 
 
-### -param NdisAfHandle [in, optional]
-
+### -param NdisAfHandle 
+[in, optional]
 A handle that identifies the address family (AF) that is shared among the client, call manager,
      and NDIS. This handle was obtained as follows:
      
@@ -90,8 +90,8 @@ To make a request from either a client or stand-alone call manager to the underl
      this parameter must be <b>NULL</b>.
 
 
-### -param NdisVcHandle [in, optional]
-
+### -param NdisVcHandle 
+[in, optional]
 A handle that identifies the virtual connection (VC) the caller is requesting or setting
      information for, if the request is VC-specific. Otherwise, if this parameter is <b>NULL</b>, the request is not
      VC-specific. For any VC-specific request, the caller originally obtained this handle either when it
@@ -105,8 +105,8 @@ A handle that identifies the virtual connection (VC) the caller is requesting or
      <i>NdisPartyHandle</i> are <b>NULL</b>.
 
 
-### -param NdisPartyHandle [in, optional]
-
+### -param NdisPartyHandle 
+[in, optional]
 A handle that identifies the party on a multipoint VC the caller is requesting or setting
      information for, if the request is party-specific. Otherwise, if this parameter is <b>NULL</b>, the request is
      not party-specific. For any party-specific request, a client originally obtained this handle from a
@@ -119,8 +119,8 @@ A handle that identifies the party on a multipoint VC the caller is requesting o
      <i>NdisPartyHandle</i> also is <b>NULL</b>.
 
 
-### -param OidRequest [in, out]
-
+### -param OidRequest 
+[in, out]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure that specifies
      the operation that is requested with a given OID_<i>XXX</i> code to query or to set information.

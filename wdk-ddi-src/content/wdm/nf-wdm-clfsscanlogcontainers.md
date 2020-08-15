@@ -56,13 +56,13 @@ The <b>ClfsScanLogContainers</b> routine retrieves descriptive information for a
 
 
 
-### -param pcxScan [in, out]
-
+### -param pcxScan 
+[in, out]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cls_scan_context">CLFS_SCAN_CONTEXT</a> structure. The caller previously allocated the structure and initialized it by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfscreatescancontext">ClfsCreateScanContext</a>. In particular, the <b>pInfoContainer</b> member was initialized to point to an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cls_container_information">CLFS_CONTAINER_INFORMATION</a> structures, and the <b>cContainers</b> member was initialized to the number of elements in the array. On return, the structures in the array receive descriptive information for the containers in the sequence.
 
 
-### -param eScanMode [in]
-
+### -param eScanMode 
+[in]
 A set of flags that specify the direction of the scan and whether the scan context should be closed. The following flags are available to callers of this routine.
 
 <table>

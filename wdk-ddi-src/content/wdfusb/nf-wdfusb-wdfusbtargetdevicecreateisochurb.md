@@ -60,28 +60,28 @@ req.typenames:
 
 
 
-### -param UsbDevice [in]
-
+### -param UsbDevice 
+[in]
 A handle to a USB device object that was obtained from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdevicecreatewithparameters">WdfUsbTargetDeviceCreateWithParameters</a>.
 
 
-### -param Attributes [in, optional]
-
+### -param Attributes 
+[in, optional]
 A pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that contains attributes for the new memory object.   If the driver provides this parameter, the structure's <b>ParentObject</b> member must be a USB device object (WDFUSBDEVICE) or a request object (WDFREQUEST) created by the framework, or any object whose chain of parents leads to one of these types. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
 
-### -param NumberOfIsochPackets [in]
-
+### -param NumberOfIsochPackets 
+[in]
 Specifies the number of isochronous packets for which the system allocates memory in the URB.
 
 
-### -param UrbMemory [out]
-
+### -param UrbMemory 
+[out]
 A pointer to a WDFMEMORY-typed location that receives a handle to a framework memory object.
 
 
-### -param Urb [out, optional]
-
+### -param Urb 
+[out, optional]
 A pointer to an URB structure that receives the address of the new isochronous URB. The framework initializes contents of the URB structure to zero. This parameter is optional and can be NULL.
 
 

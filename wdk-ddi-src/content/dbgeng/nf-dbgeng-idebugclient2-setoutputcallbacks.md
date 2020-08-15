@@ -59,8 +59,8 @@ The <b>SetOutputCallbacks</b> method registers an <a href="https://docs.microsof
 
 
 
-### -param Callbacks [in, optional]
-
+### -param Callbacks 
+[in, optional]
 Specifies the interface pointer to the output callbacks object to register with this client.
 
 

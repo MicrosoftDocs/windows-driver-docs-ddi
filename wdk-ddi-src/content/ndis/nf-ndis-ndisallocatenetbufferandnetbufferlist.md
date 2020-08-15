@@ -60,8 +60,8 @@ Call the
 
 
 
-### -param PoolHandle [in]
-
+### -param PoolHandle 
+[in]
 A NET_BUFFER_LIST structure pool handle that was previously returned from the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlistpool">
      NdisAllocateNetBufferListPool</a> function. The 
@@ -71,8 +71,8 @@ A NET_BUFFER_LIST structure pool handle that was previously returned from the
      <b>DataSize</b> member set to zero.
 
 
-### -param ContextSize [in]
-
+### -param ContextSize 
+[in]
 The amount of 
      <i>used data space</i> in the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list_context">NET_BUFFER_LIST_CONTEXT</a> structure
@@ -80,22 +80,22 @@ The amount of
      <i>ContextSize</i> must be a multiple of the value defined by MEMORY_ALLOCATION_ALIGNMENT.
 
 
-### -param ContextBackFill [in]
-
+### -param ContextBackFill 
+[in]
 The amount of 
      <i>unused data space</i> (backfill space) that the caller requires. NDIS adds this value to the 
      <i>ContextSize</i> and allocates additional space. The 
      <i>ContextBackFill</i> must be a multiple of the value defined by MEMORY_ALLOCATION_ALIGNMENT.
 
 
-### -param MdlChain [in, optional]
-
+### -param MdlChain 
+[in, optional]
 A pointer to an MDL chain that NDIS uses to initialize the preallocated NET_BUFFER structure. 
      <i>MdlChain</i> can be <b>NULL</b>.
 
 
-### -param DataOffset [in]
-
+### -param DataOffset 
+[in]
 The initial offset, in bytes, from the start of the buffer to the start of the 
      <i>used data space</i> in the MDL chain. Data space ahead of this offset is 
      <i>unused data space</i>. Therefore, this value also represents the initial amount of available backfill
@@ -104,8 +104,8 @@ The initial offset, in bytes, from the start of the buffer to the start of the
      <i>DataOffset</i> must be 0.
 
 
-### -param DataLength [in]
-
+### -param DataLength 
+[in]
 The length, in bytes, of the 
      <i>used data space</i> in the MDL chain. If 
      <i>MdlChain</i> is <b>NULL</b>, 

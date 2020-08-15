@@ -50,32 +50,32 @@ The **FltAllocateExtraCreateParameterFromLookasideList** routine allocates memor
 
 ## -parameters
 
-### -param Filter [in]
-
+### -param Filter 
+[in]
 Opaque filter pointer to the minifilter driver. This pointer uniquely identifies the minifilter driver and remains constant as long as the minifilter driver is loaded.
 
-### -param EcpType [in]
-
+### -param EcpType 
+[in]
 Pointer to a GUID that indicates the type of the ECP context structure.  See [Using GUIDs in Drivers](https://docs.microsoft.com/windows-hardware/drivers/kernel/using-guids-in-drivers) for more information.
 
-### -param SizeOfContext [in]
-
+### -param SizeOfContext 
+[in]
 The size, in bytes, of the ECP context structure.
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 Defines pool allocation options.  If the value of the *SizeOfContext* parameter is larger than the size, in bytes, of the given lookaside list, the ECP context structure will be allocated from system pool instead of the lookaside list.  In this case, if the *Flags* parameter contains the FSRTL_ALLOCATE_ECP_FLAG_CHARGE_QUOTA bit flag value, system pool allocated by the routine will be charged against the current process' memory quota. See the *Flags* parameter of [FltAllocateExtraCreateParameter](nf-fltkernel-fltallocateextracreateparameter.md) for more information.  In the more typical case when memory for the ECP context structure is allocated from the lookaside list, the FSRTL_ALLOCATE_ECP_FLAG_CHARGE_QUOTA bit flag is not used by the routine.
 
-### -param CleanupCallback [in, optional]
-
+### -param CleanupCallback 
+[in, optional]
 Optional pointer to a minifilter-defined cleanup callback routine of type [PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK](https://msdn.microsoft.com/library/windows/hardware/ff551124).  The cleanup callback routine is called when the ECP context structure is deleted.  Set this parameter to **NULL** if a cleanup callback routine is not applicable.
 
-### -param LookasideList [in, out]
-
+### -param LookasideList 
+[in, out]
 Pointer to an initialized lookaside list in which to attempt to allocate pool from (for the ECP context structure).  To initialize the lookaside list, use the [FltInitExtraCreateParameterLookasideList](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinitextracreateparameterlookasidelist) routine.
 
-### -param EcpContext [out]
-
+### -param EcpContext 
+[out]
 Receives a pointer to the allocated ECP context structure.  If the routine failed to allocate sufficient pool for the ECP context structure, *EcpContext* will be **NULL** and the routine will return status code STATUS_INSUFFICIENT_RESOURCES.
 
 ## -returns

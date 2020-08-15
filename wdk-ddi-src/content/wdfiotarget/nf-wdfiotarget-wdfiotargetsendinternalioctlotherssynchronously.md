@@ -58,43 +58,43 @@ The <b>WdfIoTargetSendInternalIoctlOthersSynchronously</b> method builds a non-s
 
 
 
-### -param IoTarget [in]
-
+### -param IoTarget 
+[in]
 A handle to a local or remote I/O target object that was obtained from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicegetiotarget">WdfDeviceGetIoTarget</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetcreate">WdfIoTargetCreate</a>, or from a method that a specialized I/O target supplies.
 
 
-### -param Request [in, optional]
-
+### -param Request 
+[in, optional]
 A handle to a framework request object. This parameter is optional and can be <b>NULL</b>. For more information, see the following Remarks section.
 
 
-### -param IoctlCode [in]
-
+### -param IoctlCode 
+[in]
 An I/O control code (IOCTL) that the I/O target supports. 
 
 
-### -param OtherArg1 [in, optional]
-
+### -param OtherArg1 
+[in, optional]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfmemory/ns-wdfmemory-_wdf_memory_descriptor">WDF_MEMORY_DESCRIPTOR</a> structure that describes a memory buffer that contains context information. This parameter is optional and can be <b>NULL</b>.
 
 
-### -param OtherArg2 [in, optional]
-
+### -param OtherArg2 
+[in, optional]
 A pointer to a WDF_MEMORY_DESCRIPTOR structure that describes a memory buffer that contains context information. This parameter is optional and can be <b>NULL</b>.
 
 
-### -param OtherArg4 [in, optional]
-
+### -param OtherArg4 
+[in, optional]
 A pointer to a WDF_MEMORY_DESCRIPTOR structure that describes a memory buffer that contains context information. This parameter is optional and can be <b>NULL</b>.
 
 
-### -param RequestOptions [in, optional]
-
+### -param RequestOptions 
+[in, optional]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/ns-wdfrequest-_wdf_request_send_options">WDF_REQUEST_SEND_OPTIONS</a> structure that specifies options for the request. This pointer is optional and can be <b>NULL</b>. For more information, see the following Remarks section.
 
 
-### -param BytesReturned [out, optional]
-
+### -param BytesReturned 
+[out, optional]
 A pointer to a location that receives information (such as the number of bytes that were transferred) that another driver supplies when it completes the request by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestcompletewithinformation">WdfRequestCompleteWithInformation</a>. This pointer is optional and can be <b>NULL</b>.
 
 

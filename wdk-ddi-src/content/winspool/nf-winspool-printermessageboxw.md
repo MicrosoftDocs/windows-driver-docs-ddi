@@ -55,20 +55,20 @@ req.typenames:
 
 
 
-### -param hPrinter [in]
-
+### -param hPrinter 
+[in]
 
 ### -param Error
 
 
-### -param hWnd [in]
+### -param hWnd 
+[in]
 
+### -param pText 
+[in]
 
-### -param pText [in]
-
-
-### -param pCaption [in]
-
+### -param pCaption 
+[in]
 
 ### -param dwType
 

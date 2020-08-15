@@ -77,13 +77,13 @@ typedef WUDF_INTERRUPT_ISR *PFN_WUDF_INTERRUPT_ISR;
 ### -param Interrupt
 
 
-### -param MessageID [in]
-
+### -param MessageID 
+[in]
 If the device is using message-signaled interrupts (MSIs), this parameter is the message number that identifies the device's hardware interrupt message. Otherwise, this value is 0.
 
 
-### -param Reserved [in]
-
+### -param Reserved 
+[in]
 Reserved for system use.
 
 

@@ -55,13 +55,13 @@ The <b>FsRtlGetEcpListFromIrp </b>routine returns a pointer to an extra create p
 
 
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 A pointer to the IRP for an IRP_MJ_CREATE operation from which the ECP context structure list is to be extracted.
 
 
-### -param EcpList [out]
-
+### -param EcpList 
+[out]
 Receives a pointer to the ECP context structure list that is associated with the IRP.
 
 

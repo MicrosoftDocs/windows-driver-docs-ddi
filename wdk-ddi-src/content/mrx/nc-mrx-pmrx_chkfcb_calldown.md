@@ -55,13 +55,13 @@ The<b> MRxAreFilesAliased</b> routine is called by <a href="https://docs.microso
 
 
 
-### -param Fcb1 [in]
-
+### -param Fcb1 
+[in]
 A pointer to the first FCB structure. 
 
 
-### -param Fcb2 [in]
-
+### -param Fcb2 
+[in]
 A pointer to the second FCB structure.
 
 

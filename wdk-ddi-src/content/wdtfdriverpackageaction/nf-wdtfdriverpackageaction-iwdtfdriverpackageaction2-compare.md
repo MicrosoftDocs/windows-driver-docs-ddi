@@ -55,13 +55,13 @@ Compares two driver packages.
 
 
 
-### -param pDp [in]
-
+### -param pDp 
+[in]
 The second driver package.
 
 
-### -param pbIsIdentical [out, retval]
-
+### -param pbIsIdentical 
+[out, retval]
 True if the two driver packages are the same; 
 otherwise, false.
 

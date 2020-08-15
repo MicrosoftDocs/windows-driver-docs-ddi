@@ -56,8 +56,8 @@ The<b> KsInitializeDriver </b>function initializes the driver object of an AVStr
 
 
 
-### -param DriverObject [in]
-
+### -param DriverObject 
+[in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a> structure for the AVStream driver being initialized. Minidrivers that call <b>KsInitializeDriver</b> should use the driver object passed to <b>DriverEntry</b> by the operating system.
 
 
@@ -66,8 +66,8 @@ A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/dd
 
 
 
-### -param Descriptor [in, optional]
-
+### -param Descriptor 
+[in, optional]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice_descriptor">KSDEVICE_DESCRIPTOR</a> structure that specifies the characteristics of the device being initialized. If this pointer is <b>NULL</b>, a device is created with default characteristics and no associated filter factories.
 
 

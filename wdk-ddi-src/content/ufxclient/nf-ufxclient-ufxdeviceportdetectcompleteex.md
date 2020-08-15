@@ -55,18 +55,18 @@ Notifies UFX about the port type that was detected, and optionally requests an a
 
 
 
-### -param UfxDevice [in]
-
+### -param UfxDevice 
+[in]
 A handle to a UFX device object that the driver created by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>.
 
 
-### -param PortType [in]
-
+### -param PortType 
+[in]
 Contains an enumeration value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbfnbase/ne-usbfnbase-_usbfn_port_type">USBFN_PORT_TYPE</a>.
 
 
-### -param Action [in]
-
+### -param Action 
+[in]
 Contains an enumeration value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxbase/ne-ufxbase-_usbfn_action">USBFN_ACTION</a>.
 
 

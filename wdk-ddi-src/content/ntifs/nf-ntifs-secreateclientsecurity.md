@@ -55,13 +55,13 @@ The <b>SeCreateClientSecurity</b> routine initializes a security client context 
 
 
 
-### -param ClientThread [in]
-
+### -param ClientThread 
+[in]
 Pointer to the thread of the client to be impersonated.
 
 
-### -param ClientSecurityQos [in]
-
+### -param ClientSecurityQos 
+[in]
 Pointer to a caller-allocated SECURITY_QUALITY_OF_SERVICE structure indicating what form of impersonation is to be performed.
 
 
@@ -70,8 +70,8 @@ Pointer to a caller-allocated SECURITY_QUALITY_OF_SERVICE structure indicating w
 <p>Set to <b>TRUE</b> if the server of the client's request is remote.</p>
 
 
-### -param ClientContext [out]
-
+### -param ClientContext 
+[out]
 Pointer to a caller-allocated SECURITY_CLIENT_CONTEXT structure to be initialized.
 
 

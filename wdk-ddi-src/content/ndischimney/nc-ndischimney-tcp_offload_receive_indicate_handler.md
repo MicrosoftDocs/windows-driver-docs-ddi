@@ -60,8 +60,8 @@ NDIS calls a protocol driver's or intermediate driver's
 
 
 
-### -param OffloadContext [in]
-
+### -param OffloadContext 
+[in]
 A pointer to the protocol or intermediate driver's 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_ndis_offload_handle">NDIS_OFFLOAD_HANDLE</a> structure for the
      TCP connection on which the indication is being made. The protocol or intermediate driver supplied this
@@ -70,8 +70,8 @@ A pointer to the protocol or intermediate driver's
      offloading the connection.
 
 
-### -param NetBufferList [in]
-
+### -param NetBufferList 
+[in]
 A pointer to a 
       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure. Each 
       <b>NET_BUFFER_LIST</b> structure
@@ -94,15 +94,15 @@ The
       indication.
 
 
-### -param Status [in]
-
+### -param Status 
+[in]
 An intermediate driver should propagate this status when calling 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-ndis_tcp_offload_receive_indicate">
      NdisTcpOffloadReceiveHandler</a>.
 
 
-### -param BytesConsumed [out]
-
+### -param BytesConsumed 
+[out]
 A pointer to a ULONG-typed variable that receives the number of bytes that were consumed by the
      client application.
 

@@ -55,28 +55,28 @@ req.typenames:
 
 
 
-### -param Instance [in]
-
+### -param Instance 
+[in]
 Opaque instance pointer for the caller. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 File object pointer for an open file, directory, storage device, or volume. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param FsInformation [out]
-
+### -param FsInformation 
+[out]
 Pointer to a caller-allocated buffer that receives information about the file. The <i>FsInformationClass</i> parameter specifies the type of information. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 Size, in bytes, of the <i>FsInformation</i> buffer. 
 
 
-### -param FsInformationClass [in]
-
+### -param FsInformationClass 
+[in]
 Type of volume information to be returned. One of the following:
 
 <table>
@@ -178,8 +178,8 @@ Return a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/
  
 
 
-### -param LengthReturned [out, optional]
-
+### -param LengthReturned 
+[out, optional]
 Pointer to a caller-allocated variable that receives the size, in bytes, of the information returned in the <i>FsInformation</i> buffer. This parameter is optional and can be <b>NULL</b>. 
 
 

@@ -59,13 +59,13 @@ Retrieves an item from the collection by a zero-based index.
 
 
 
-### -param dwIndex [in]
-
+### -param dwIndex 
+[in]
 <b>DWORD</b> that contains the zero-based index of the item to retrieve.
 
 
-### -param pValue [out]
-
+### -param pValue 
+[out]
 Pointer to a <b>PROPVARIANT</b> structure. The caller is responsible for freeing this memory by calling <b>PropVariantClear</b>.
 
 

@@ -56,8 +56,8 @@ The <b>ScsiPortConvertUlongToPhysicalAddress</b> routine extends a given ULONG a
 
 
 
-### -param UlongAddress [in]
-
+### -param UlongAddress 
+[in]
 Specifies a value of type ULONG.
 
 

@@ -57,13 +57,13 @@ The <b>WdfRequestSetActivityId</b> method associates an activity identifier with
 
 
 
-### -param Request [in]
-
+### -param Request 
+[in]
 A handle to a framework request object.
 
 
-### -param ActivityId [in]
-
+### -param ActivityId 
+[in]
 A pointer to the activity identifier GUID to store in the I/O request.
 
 

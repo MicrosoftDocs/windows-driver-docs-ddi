@@ -55,23 +55,23 @@ The <b>VideoPortCompleteDma</b> function flushes any data remaining in a bus-mas
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 Pointer to the miniport driver's device extension.
 
 
-### -param VpDmaAdapter [in]
-
+### -param VpDmaAdapter 
+[in]
 Pointer to a <a href="https://docs.microsoft.com/previous-versions/ff570570(v=vs.85)">VP_DMA_ADAPTER</a> structure that represents the bus-master adapter. This structure was returned by a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportgetdmaadapter">VideoPortGetDmaAdapter</a>.
 
 
-### -param VpScatterGather [in]
-
+### -param VpScatterGather 
+[in]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_vp_scatter_gather_list">VP_SCATTER_GATHER_LIST</a> structure previously passed to the miniport driver callback routine, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pexecute_dma">HwVidExecuteDma</a>.
 
 
-### -param WriteToDevice [in]
-
+### -param WriteToDevice 
+[in]
 Specifies the direction of the DMA transfer. A value of <b>TRUE</b> denotes a transfer from the buffer to the device, and a value of <b>FALSE</b> denotes a transfer from the device to the buffer.
 
 

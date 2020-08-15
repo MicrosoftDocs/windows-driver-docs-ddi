@@ -55,13 +55,13 @@ The <b>Exception</b> callback method is called by the engine when an <a href="ht
 
 
 
-### -param Exception [in]
-
+### -param Exception 
+[in]
 Specifies the nature of the exception.  EXCEPTION_RECORD64 is defined in Winnt.h.
 
 
-### -param FirstChance [in]
-
+### -param FirstChance 
+[in]
 Specifies whether this exception has been previously encountered.  A nonzero value means that this is the first time the exception has been encountered ("first chance").  A zero value means that the exception has already been offered to all possible handlers, and each one declined to handle it ("second chance").
 
 

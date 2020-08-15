@@ -55,23 +55,23 @@ Queries a monitor for <a href="https://docs.microsoft.com/windows-hardware/drive
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 A pointer to the miniport driver's device extension.
 
 
-### -param DDCControl [in]
-
+### -param DDCControl 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_ddc_control">DDC_CONTROL</a> structure.
 
 
-### -param EdidBuffer [in, out]
-
+### -param EdidBuffer 
+[in, out]
 A pointer to a buffer in which the video port driver returns the <a href="https://docs.microsoft.com/windows-hardware/drivers/">EDID</a> structure. For ACPI devices, the first four bytes are preset by the video port driver to indicate an attempt to read the <i>EDID</i>. 
 
 
-### -param EdidBufferSize [in]
-
+### -param EdidBufferSize 
+[in]
 The size in bytes of the buffer to which <i>EdidBuffer</i> points.
 
 

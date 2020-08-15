@@ -55,18 +55,18 @@ The <b>FltGetVolumeFromDeviceObject</b> routine returns an opaque pointer for th
 
 
 
-### -param Filter [in]
-
+### -param Filter 
+[in]
 Opaque filter pointer for the caller. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param DeviceObject [in]
-
+### -param DeviceObject 
+[in]
 Pointer to the volume device object. 
 
 
-### -param RetVolume [out]
-
+### -param RetVolume 
+[out]
 Pointer to a caller-allocated variable that receives an opaque pointer for the volume. This parameter is required and cannot be <b>NULL</b>. 
 
 

@@ -55,8 +55,8 @@ The <b>operator=</b> overloaded assignment operator sets the typed data represen
 
 
 
-### -param Typed [in, ref]
-
+### -param Typed 
+[in, ref]
 An existing <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nl-engextcpp-extremotetyped">ExtRemoteTyped</a> object that represents the data and type to be assigned to this object.
 
 

@@ -56,13 +56,13 @@ Initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/u
 
 
 
-### -param Config [out]
-
+### -param Config 
+[out]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxwdfdevice/ns-udecxwdfdevice-_udecx_wdf_device_config">UDECX_WDF_DEVICE_CONFIG</a> structure to initialize.
 
 
-### -param EvtUdecxWdfDeviceQueryUsbCapability [in]
-
+### -param EvtUdecxWdfDeviceQueryUsbCapability 
+[in]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxwdfdevice/nc-udecxwdfdevice-evt_udecx_wdf_device_query_usb_capability">EVT_UDECX_WDF_DEVICE_QUERY_USB_CAPABILITY</a> callback function.
 
 

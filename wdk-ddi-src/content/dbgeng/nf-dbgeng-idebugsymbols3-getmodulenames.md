@@ -57,58 +57,58 @@ The <b>GetModuleNames</b> method returns the names of the specified module.
 
 
 
-### -param Index [in]
-
+### -param Index 
+[in]
 Specifies the index of the module whose names are requested.  If it is set to DEBUG_ANY_ID, the module is specified by <i>Base</i>.
 
 
-### -param Base [in]
-
+### -param Base 
+[in]
 Specifies the base address of the module whose names are requested.  This parameter is only used if <i>Index</i> is set to DEBUG_ANY_ID.
 
 
-### -param ImageNameBuffer [out, optional]
-
+### -param ImageNameBuffer 
+[out, optional]
 Receives the image name of the module.  If <i>ImageNameBuffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param ImageNameBufferSize [in]
-
+### -param ImageNameBufferSize 
+[in]
 Specifies the size in characters of the buffer <i>ImageNameBuffer</i> in characters.
 
 
-### -param ImageNameSize [out, optional]
-
+### -param ImageNameSize 
+[out, optional]
 Receives the size in characters of the image name.  If <i>ImageNameSize</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param ModuleNameBuffer [out, optional]
-
+### -param ModuleNameBuffer 
+[out, optional]
 Receives the module name of the module.  If <i>ModuleNameBuffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param ModuleNameBufferSize [in]
-
+### -param ModuleNameBufferSize 
+[in]
 Specifies the size in characters of the buffer <i>ModuleNameBuffer</i>.
 
 
-### -param ModuleNameSize [out, optional]
-
+### -param ModuleNameSize 
+[out, optional]
 Receives the size in characters of the module name.  If <i>ModuleNameSize</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param LoadedImageNameBuffer [out, optional]
-
+### -param LoadedImageNameBuffer 
+[out, optional]
 Receives the loaded image name of the module.  If <i>LoadedImageNameBuffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param LoadedImageNameBufferSize [in]
-
+### -param LoadedImageNameBufferSize 
+[in]
 Specifies the size in characters of the buffer <i>LoadedImageNameBuffer</i>.
 
 
-### -param LoadedImageNameSize [out, optional]
-
+### -param LoadedImageNameSize 
+[out, optional]
 Receives the size in characters of the loaded image name.  If <i>LoadedImageNameSize</i> is <b>NULL</b>, this information is not returned.
 
 

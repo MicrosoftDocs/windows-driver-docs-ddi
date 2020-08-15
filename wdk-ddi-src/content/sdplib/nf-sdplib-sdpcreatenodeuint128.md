@@ -58,13 +58,13 @@ The Bluetooth
 
 
 
-### -param puli16Val [in]
-
+### -param puli16Val 
+[in]
 The unsigned 128-bit integer value to initialize the SDP_NODE structure.
 
 
-### -param tag [in]
-
+### -param tag 
+[in]
 A profile driver defined tag to associate with the node.
 
 

@@ -56,8 +56,8 @@ The
 
 
 
-### -param SecurityDescriptor [in, out]
-
+### -param SecurityDescriptor 
+[in, out]
 Pointer to the buffered <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a> being released.
 
 

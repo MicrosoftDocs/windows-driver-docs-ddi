@@ -58,13 +58,13 @@ The <b>WdfDmaEnablerGetFragmentLength</b> method returns the maximum transfer le
 
 
 
-### -param DmaEnabler [in]
-
+### -param DmaEnabler 
+[in]
 A handle to a DMA enabler object that the driver obtained from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmaenabler/nf-wdfdmaenabler-wdfdmaenablercreate">WdfDmaEnablerCreate</a>. 
 
 
-### -param DmaDirection [in]
-
+### -param DmaDirection 
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmaenabler/ne-wdfdmaenabler-_wdf_dma_direction">WDF_DMA_DIRECTION</a>-typed value that specifies the direction of the DMA transfer operation. For more information, see the following Remarks section.
 
 

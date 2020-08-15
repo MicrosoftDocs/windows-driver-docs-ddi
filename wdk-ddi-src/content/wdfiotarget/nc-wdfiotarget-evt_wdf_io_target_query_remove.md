@@ -57,8 +57,8 @@ A driver's <i>EvtIoTargetQueryRemove</i> event callback function indicates wheth
 
 
 
-### -param IoTarget [in]
-
+### -param IoTarget 
+[in]
 A handle to an I/O target object. 
 
 

@@ -56,13 +56,13 @@ The <b>SetValue</b> method sets the value of one of the target's <a href="https:
 
 
 
-### -param Register [in]
-
+### -param Register 
+[in]
 Specifies the index of the register whose value is to be set.
 
 
-### -param Value [in]
-
+### -param Value 
+[in]
 Specifies the value to which to set the register.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_value">DEBUG_VALUE</a> for a description of this parameter type.
 
 

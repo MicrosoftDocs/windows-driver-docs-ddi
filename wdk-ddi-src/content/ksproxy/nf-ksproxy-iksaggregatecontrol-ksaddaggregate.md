@@ -55,8 +55,8 @@ The <b>KsAddAggregate</b> method adds a COM server as an aggregate provider to t
 
 
 
-### -param AggregateClass [in]
-
+### -param AggregateClass 
+[in]
 Identifies the COM server to add.
 
 

@@ -59,18 +59,18 @@ This is a WDI miniport handler inside <a href="https://docs.microsoft.com/window
 
 
 
-### -param MiniportTalTxRxContext [in]
-
+### -param MiniportTalTxRxContext 
+[in]
 TAL device handle returned by the IHV miniport in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_tal_txrx_initialize">MINIPORT_WDI_TAL_TXRX_INITIALIZE</a> callback function.
 
 
-### -param pNBL [in]
-
+### -param pNBL 
+[in]
 Pointer to a single <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>.
 
 
-### -param pWifiStatus [out]
-
+### -param pWifiStatus 
+[out]
 Pointer to the status set by the IHV to indicate the result of the <i>MINIPORT_WDI_TX_TARGET_DESC_INIT</i> callback function.
 
 

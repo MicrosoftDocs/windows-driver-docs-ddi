@@ -55,18 +55,18 @@ The <b>HidD_GetSerialNumberString</b> routine returns the embedded string of a <
 
 
 
-### -param HidDeviceObject [in]
-
+### -param HidDeviceObject 
+[in]
 Specifies an open handle to a top-level collection.
 
 
-### -param Buffer [out]
-
+### -param Buffer 
+[out]
 Pointer to a caller-allocated buffer that the routine uses to return the requested serial number string. The routine returns a NULL-terminated wide character string.
 
 
-### -param BufferLength [in]
-
+### -param BufferLength 
+[in]
 Specifies the length, in bytes, of a caller-allocated buffer provided at <i>Buffer</i>. If the buffer is not large enough to return the entire NULL-terminated embedded string, the routine returns nothing in the buffer.
 
 

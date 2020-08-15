@@ -55,8 +55,8 @@ The <b>RtlFreeUnicodeString</b> routine releases storage that was allocated by <
 
 
 
-### -param UnicodeString [in, out]
-
+### -param UnicodeString 
+[in, out]
 Pointer to the Unicode string buffer previously allocated by <b>RtlAnsiStringToUnicodeString</b> or <b>RtlUpcaseUnicodeString</b>. 
 
 

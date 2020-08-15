@@ -55,13 +55,13 @@ Notifies UCX that a remote wake signal from the device is received.
 
 
 
-### -param UsbDevice [in]
-
+### -param UsbDevice 
+[in]
 A handle to the USB device object for which the remote wake is received. The client driver retrieved the handle in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxusbdevice/nf-ucxusbdevice-ucxusbdevicecreate">UcxUsbDeviceCreate</a>.
 
 
-### -param Interface [in]
-
+### -param Interface 
+[in]
 The interface number that sent the remote wake notification.
 
 

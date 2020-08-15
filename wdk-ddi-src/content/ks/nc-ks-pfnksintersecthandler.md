@@ -55,23 +55,23 @@ A streaming minidriver's <i>KStrIntersectHandler</i> routine is called to compar
 
 
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 Specifies the IRP that handles the property request.
 
 
-### -param Pin [in]
-
+### -param Pin 
+[in]
 Specifies the specific property being queried and the pin factory identifier that was validated.
 
 
-### -param DataRange [in]
-
+### -param DataRange 
+[in]
 Specifies the current data range to compare. The data range has been validated as either matching a particular range on the pin or as a wildcard match.
 
 
-### -param Data [out, optional]
-
+### -param Data 
+[out, optional]
 Specifies the data format returned, or the size, in bytes, of the data format.
 
 

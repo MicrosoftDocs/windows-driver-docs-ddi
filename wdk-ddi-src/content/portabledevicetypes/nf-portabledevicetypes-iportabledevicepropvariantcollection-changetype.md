@@ -59,8 +59,8 @@ Converts all items in the collection to the specified <b>VARTYPE</b>.
 
 
 
-### -param vt [in]
-
+### -param vt 
+[in]
 Specifies the <b>VARTYPE</b> to which you want to convert all items in the collection.
 
 

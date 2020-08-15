@@ -58,23 +58,23 @@ The <b>WdfWmiInstanceCreate</b> method creates a WMI instance object that repres
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object that represents the device that the instance is being created for. The device object cannot be a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-control-device-objects">control device object</a>.
 
 
-### -param InstanceConfig [in]
-
+### -param InstanceConfig 
+[in]
 A pointer to a caller-initialized <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfwmi/ns-wdfwmi-_wdf_wmi_instance_config">WDF_WMI_INSTANCE_CONFIG</a> structure, which contains configuration information for an instance of a WMI data provider.
 
 
-### -param InstanceAttributes [in, optional]
-
+### -param InstanceAttributes 
+[in, optional]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that contains driver-supplied object attributes for the new WMI instance object. (The structure's <b>ParentObject</b> member must be <b>NULL</b>.) This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
 
-### -param Instance [out, optional]
-
+### -param Instance 
+[out, optional]
 A pointer to a location that receives a handle to the new WMI instance object. This parameter is optional and can be <b>NULL</b>.
 
 

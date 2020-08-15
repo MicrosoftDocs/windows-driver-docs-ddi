@@ -55,25 +55,25 @@ The <b>FltRetrieveIoPriorityInfo</b> routine is used by a minifilter driver to r
 
 
 
-### -param Data [in, optional]
-
+### -param Data 
+[in, optional]
 
       An optional pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a> structure, which represents an I/O operation.  This parameter can be <b>NULL</b>.
      
 
 
-### -param FileObject [in, optional]
-
+### -param FileObject 
+[in, optional]
 An optional pointer to the file object associated with the I/O operation.  This parameter can be <b>NULL</b>.
 
 
-### -param Thread [in, optional]
-
+### -param Thread 
+[in, optional]
 An optional pointer to the thread in which to retrieve priority information from.  This parameter can be <b>NULL</b>.
 
 
-### -param PriorityInfo [in, out]
-
+### -param PriorityInfo 
+[in, out]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_io_priority_info">IO_PRIORITY_INFO</a> structure used to receive the priority information from the given thread.  The IO_PRIORITY_INFO structure must be initialized by an appropriate routine before it can be used by this routine. See the following Remarks section for more information.
 
 

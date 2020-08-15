@@ -56,33 +56,33 @@ The <b>RtlStringCbCopyUnicodeStringEx</b> function copies the contents of a <a h
 
 
 
-### -param pszDest [out]
-
+### -param pszDest 
+[out]
 Optional. A pointer to a buffer that receives the copied string. The string that the <i>SourceString</i> parameter's <b>UNICODE_STRING</b> structure points to is copied to the buffer at <i>pszDest</i> and terminated with a null character. This pointer can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>. 
 
 
-### -param cbDest [in]
-
+### -param cbDest 
+[in]
 The size, in bytes, of the destination buffer. The buffer must be large enough for the string and the terminating null character. The maximum number of bytes in the buffer is NTSTRSAFE_MAX_CCH * sizeof(WCHAR).
 
 
-### -param SourceString [in]
-
+### -param SourceString 
+[in]
 Optional. A pointer to a <b>UNICODE_STRING</b> structure that contains the string to be copied. The maximum number of bytes in the string is NTSTRSAFE_UNICODE_STRING_MAX_CCH * sizeof(WCHAR). This pointer can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
 
-### -param ppszDestEnd [out]
-
+### -param ppszDestEnd 
+[out]
 Optional. If the caller supplies a non-<b>NULL</b> address pointer, then after the copy operation completes, the function loads that address with a pointer to the destination buffer's resulting <b>NULL</b> string terminator. 
 
 
-### -param pcbRemaining [out, optional]
-
+### -param pcbRemaining 
+[out, optional]
 Optional. If the caller supplies a non-<b>NULL</b> address pointer, the function loads the address with the number of unused bytes that are in the buffer that <i>pszDest</i> points to, including bytes that are used for the terminating null character.
 
 
-### -param dwFlags [in]
-
+### -param dwFlags 
+[in]
 One or more flags and, optionally, a fill byte. The flags are defined as follows: 
 
 

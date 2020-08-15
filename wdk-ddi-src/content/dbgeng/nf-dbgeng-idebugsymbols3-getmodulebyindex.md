@@ -57,13 +57,13 @@ The <b>GetModuleByIndex</b> method returns the location of the module with the s
 
 
 
-### -param Index [in]
-
+### -param Index 
+[in]
 Specifies the index of the module whose location is requested.
 
 
-### -param Base [out]
-
+### -param Base 
+[out]
 Receives the location in the target's memory address space of the module.
 
 

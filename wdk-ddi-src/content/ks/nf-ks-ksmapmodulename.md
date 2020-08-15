@@ -56,28 +56,28 @@ The <b>KsMapModuleName</b> function returns the image name and resource identifi
 
 
 
-### -param PhysicalDeviceObject [in]
-
+### -param PhysicalDeviceObject 
+[in]
 Pointer to a DEVICE_OBJECT for which to return the requested information.
 
 
-### -param ModuleName [in]
-
+### -param ModuleName 
+[in]
 Pointer to a buffer that contains the module name for which to return the requested information.
 
 
-### -param ImageName [out]
-
+### -param ImageName 
+[out]
 A caller-allocated buffer that receives the image name for the specified resource.
 
 
-### -param ResourceId [out]
-
+### -param ResourceId 
+[out]
 Pointer to a caller-supplied variable that receives the resource identifier.
 
 
-### -param ValueType [out]
-
+### -param ValueType 
+[out]
 Pointer to a location into which the function returns the value type of the specified resource.
 
 

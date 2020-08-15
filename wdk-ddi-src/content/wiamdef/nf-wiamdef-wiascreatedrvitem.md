@@ -61,20 +61,20 @@ Specifies a string that contains the item name without path information.
 
 Specifies a string that contains the item name with path information.
 
-### -param pIMiniDrv [in, out]
-
+### -param pIMiniDrv 
+[in, out]
 Pointer to the [IWiaMiniDrv Interface](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nn-wiamindr_lh-iwiaminidrv) of the current minidriver.
 
 ### -param cbDevSpecContext
 
 Specifies the size in bytes of the device specific context.
 
-### -param ppDevSpecContext [out]
-
+### -param ppDevSpecContext 
+[out]
 Pointer to a memory location that receives the address of the device specific context. Set this to **NULL** if the information is not needed.
 
-### -param ppIWiaDrvItem [out]
-
+### -param ppIWiaDrvItem 
+[out]
 Pointer to a memory location that receives the address of an [IWiaDrvItem Interface](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nn-wiamindr_lh-iwiadrvitem) for the newly created **IWiaDrvItem** object.
 
 ## -returns

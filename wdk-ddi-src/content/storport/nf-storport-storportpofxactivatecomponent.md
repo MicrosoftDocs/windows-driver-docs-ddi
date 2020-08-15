@@ -56,28 +56,28 @@ The <b>StorPortPoFxActivateComponent</b> routine increments the activation refer
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param Address [in, optional]
-
+### -param Address 
+[in, optional]
 The address of a storage device unit. This parameter is <b>NULL</b> when activating a storage adapter component.
 
 
-### -param Srb [in, optional]
-
+### -param Srb 
+[in, optional]
 The SRB triggering the component activation. This parameter is <b>NULL</b> if the miniport is activating a device component for a request not sent through Storport.
 
 
-### -param Component [in]
-
+### -param Component 
+[in]
 The index that identifies the component. This parameter is an index into the <b>Components</b> array in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_stor_pofx_device">STOR_POFX_DEVICE</a> structure that the miniport driver registered for the device with a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializepofxpower">StorPortInitializePoFxPower</a>. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 Not used. Set to 0.
 
 

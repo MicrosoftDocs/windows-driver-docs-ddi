@@ -55,13 +55,13 @@ The <code>IPrintCoreUI2::QuerySimulationSupport</code> method retrieves a spoole
 
 
 
-### -param hPrinter [in]
-
+### -param hPrinter 
+[in]
 Specifies a handle to the printer.
 
 
-### -param dwLevel [in]
-
+### -param dwLevel 
+[in]
 Specifies the spooler simulation capability structure returned in the buffer pointed to by <i>pCaps</i>. Currently, only level 1 of spooler simulation support is provided.
 
 <table>
@@ -84,18 +84,18 @@ Specifies the spooler simulation capability structure returned in the buffer poi
  
 
 
-### -param pCaps [out]
-
+### -param pCaps 
+[out]
 Pointer to the output buffer, which contains a structure of the type indicated by the value in the <i>dwLevel</i> parameter.
 
 
-### -param cbSize [in]
-
+### -param cbSize 
+[in]
 Specifies the size, in bytes, of the output buffer, which is pointed to by <i>pCaps</i>.
 
 
-### -param pcbNeeded [out]
-
+### -param pcbNeeded 
+[out]
 Specifies the size, in bytes, of the memory needed to store a structure of the type indicated by <i>dwLevel</i>.
 
 

@@ -58,23 +58,23 @@ A miniport-provided callback that is called  after a notification from <a href="
 ### -param HwDeviceExtension
 
 
-### -param Context [in, optional]
-
+### -param Context 
+[in, optional]
 The context supplied as <i>HwStateChangeContext</i> by the miniport in the call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportstatechangedetected"> StorPortStateChangeDetected</a>.
 
 
-### -param AddressType [in]
-
+### -param AddressType 
+[in]
 The type of the address in <i>Address</i>.
 
 
-### -param Address [in]
-
+### -param Address 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/scsi/ns-scsi-_stor_address">STOR_ADDRESS</a> structure for the entity whose state change was processed.
 
 
-### -param Status [in]
-
+### -param Status 
+[in]
 The processing status for the state change notification.
 
 

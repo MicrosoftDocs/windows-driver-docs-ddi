@@ -56,28 +56,28 @@ The <b>WmiCompleteRequest</b> routine indicates that a driver has finished proce
 
 
 
-### -param DeviceObject [in]
-
+### -param DeviceObject 
+[in]
 A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>.
 
 
-### -param Irp [in, out]
-
+### -param Irp 
+[in, out]
 A pointer to the IRP. 
 
 
-### -param Status [in]
-
+### -param Status 
+[in]
 Specifies the status to return for the IRP. 
 
 
-### -param BufferUsed [in]
-
+### -param BufferUsed 
+[in]
 Specifies the number of bytes needed in the buffer passed to the driver's <i>DpWmiXxx</i> routine. If the buffer is too small, the driver sets <i>Status</i> to STATUS_BUFFER_TOO_SMALL and sets <i>BufferUsed</i> to the number of bytes needed for the data to be returned. If the buffer passed is large enough, the driver sets <i>BufferUsed</i> to the number of bytes actually used. 
 
 
-### -param PriorityBoost [in]
-
+### -param PriorityBoost 
+[in]
 Specifies a system-defined constant by which to increment the run-time priority of the original thread that requested the operation. WMI calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocompleterequest">IoCompleteRequest</a> with <i>PriorityBoost</i> when it completes the IRP. See <b>IoCompleteRequest</b> for more information on <i>PriorityBoost</i>. 
 
 

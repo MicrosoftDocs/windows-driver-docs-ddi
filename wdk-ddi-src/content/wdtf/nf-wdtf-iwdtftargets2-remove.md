@@ -55,8 +55,8 @@ Removes an item from the collection.
 
 
 
-### -param pTarget [in]
-
+### -param pTarget 
+[in]
 The item to remove from this collection.
 
 

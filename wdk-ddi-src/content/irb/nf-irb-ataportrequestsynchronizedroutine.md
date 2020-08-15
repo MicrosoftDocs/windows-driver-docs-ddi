@@ -55,8 +55,8 @@ The <b>AtaPortRequestSynchronizedRoutine</b> routine is used by the miniport dri
 
 
 
-### -param ChannelExtension [in]
-
+### -param ChannelExtension 
+[in]
 A pointer to the channel extension.
 
 

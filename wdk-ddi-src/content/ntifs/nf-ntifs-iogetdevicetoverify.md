@@ -55,8 +55,8 @@ The <b>IoGetDeviceToVerify</b> routine returns a pointer to the device object, r
 
 
 
-### -param Thread [in]
-
+### -param Thread 
+[in]
 Pointer to the thread for which a highest-level driver is attempting to verify the validity of the media on which the thread has opened a file.
 
 

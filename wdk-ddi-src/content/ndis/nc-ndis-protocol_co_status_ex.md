@@ -58,16 +58,16 @@ The
 
 
 
-### -param ProtocolBindingContext [in]
-
+### -param ProtocolBindingContext 
+[in]
 A handle to a protocol driver-allocated context area. The protocol driver maintains the
      per-binding context information in this context area. The driver supplied this handle to NDIS when the
      driver called the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function.
 
 
-### -param ProtocolVcContext [in]
-
+### -param ProtocolVcContext 
+[in]
 A handle to a protocol driver-allocated context area in which the protocol driver maintains
      virtual connection (VC) run-time state information. If the status indication is 
      <u>not</u> VC-specific, this parameter is <b>NULL</b>. Otherwise, the protocol driver originally supplied this
@@ -76,8 +76,8 @@ A handle to a protocol driver-allocated context area in which the protocol drive
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a> function.
 
 
-### -param StatusIndication [in]
-
+### -param StatusIndication 
+[in]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_status_indication">NDIS_STATUS_INDICATION</a> structure
      that contains the status information.

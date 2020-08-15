@@ -56,28 +56,28 @@ The <b>USBD_GetPdoRegistryParameter</b> routine retrieves the value from the  sp
 
 
 
-### -param PhysicalDeviceObject [in]
-
+### -param PhysicalDeviceObject 
+[in]
 Specifies the device object for the USB device.
 
 
-### -param ParameterLength [in]
-
+### -param ParameterLength 
+[in]
 Size, in bytes, of the buffer that is pointed to by <i>Parameter</i>.
 
 
-### -param KeyName [in]
-
+### -param KeyName 
+[in]
 Pointer to a string containing the name of the registry key.
 
 
-### -param KeyNameLength [in]
-
+### -param KeyNameLength 
+[in]
 Size, in bytes, of the buffer that is pointed to by <i>KeyName</i>.
 
 
-### -param Parameter [in, out]
-
+### -param Parameter 
+[in, out]
 Pointer to a caller-allocated buffer that receives the registry value.
 
 

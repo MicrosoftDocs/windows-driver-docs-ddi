@@ -55,23 +55,23 @@ The <i>DmaCompletionRoutine</i> callback routine notifies the driver that previo
 
 
 
-### -param DmaAdapter [in]
-
+### -param DmaAdapter 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_adapter">DMA_ADAPTER</a> structure. This structure is the adapter object that represents the driver's system DMA channel.
 
 
-### -param DeviceObject [in]
-
+### -param DeviceObject 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure. This structure is the physical device object (PDO) that represents the target device for the requested DMA operation.
 
 
-### -param CompletionContext [in]
-
+### -param CompletionContext 
+[in]
 A pointer to a driver-determined context for the <i>DmaCompletionRoutine</i> routine. This context is the <i>CompletionContext</i> parameter value that the driver previously passed to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pmap_transfer_ex">MapTransferEx</a> call that initiated the system DMA transfer.
 
 
-### -param Status [in]
-
+### -param Status 
+[in]
 The completion status of the DMA transfer. This parameter is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-dma_completion_status">DMA_COMPLETION_STATUS</a> enumeration value that indicates whether the DMA transfer completed successfully.
 
 

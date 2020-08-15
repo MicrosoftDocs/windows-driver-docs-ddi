@@ -55,8 +55,8 @@ The <b>SetPseudoValues</b> method sets the value of several pseudo-registers.
 
 
 
-### -param Source [in]
-
+### -param Source 
+[in]
 Specifies the register source to query.
 
 The possible values are listed in the following table.
@@ -102,23 +102,23 @@ Fetch register information from the current scope's register context.
  
 
 
-### -param Count [in]
-
+### -param Count 
+[in]
 Specifies the number of pseudo-registers whose values are being set.
 
 
-### -param Indices [in, optional]
-
+### -param Indices 
+[in, optional]
 Specifies an array of indices of pseudo-registers.  These are the pseudo-registers whose values will be set.  The size of <i>Indices</i> is <i>Count</i>.  If <i>Indices</i> is <b>NULL</b>, <i>Start</i> is used to specify the indices instead.
 
 
-### -param Start [in]
-
+### -param Start 
+[in]
 Specifies the index of the first pseudo-register whose value will be set.  The pseudo-registers with indices between <i>Start</i> and <i>Start</i> plus <i>Count</i> minus one, will be set.  <i>Start</i> is only used if <i>Indices</i> is <b>NULL</b>.
 
 
-### -param Values [in]
-
+### -param Values 
+[in]
 Specifies the new values of the pseudo-registers.  The number of elements this array holds is <i>Count</i>.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_value">DEBUG_VALUE</a> for a description of this parameter type.
 
 

@@ -58,8 +58,8 @@ The
 
 
 
-### -param netBufferList [in, out]
-
+### -param netBufferList 
+[in, out]
 A pointer to a 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure that describes
      the cloned transport layer packet data for which a new IP header is to be constructed or rebuilt. To
@@ -83,8 +83,8 @@ If the NET_BUFFER_LIST structure pointed to by
      IPv4 options will be preserved. For more information, see Remarks.
 
 
-### -param addressFamily [in]
-
+### -param addressFamily 
+[in]
 One of the following address families:
      
 
@@ -103,15 +103,15 @@ The IPv4 address family.
 The IPv6 address family.
 
 
-### -param sourceAddress [in]
-
+### -param sourceAddress 
+[in]
 A pointer to the source IP address that will be part of the IP header to be constructed. For IPv4,
      the address is 4 bytes. For IPv6, the address is 16 bytes. The source address bytes are always in
      network byte order.
 
 
-### -param remoteAddress [in]
-
+### -param remoteAddress 
+[in]
 A pointer to a buffer that specifies the remote IP address that will be part of the IP header to
      be constructed.
      
@@ -121,16 +121,16 @@ The buffer can contain an IPv4 address (4 bytes) or an IPv6 address (16 bytes), 
      <i>addressFamily</i> parameter.
 
 
-### -param nextProtocol [in]
-
+### -param nextProtocol 
+[in]
 Specifies the IPPROTO protocol type of the new IP header to be constructed. For more information
      on the IPPROTO enumeration, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/af-inet">AF_INET</a> or 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/af-inet6">AF_INET6</a>.
 
 
-### -param endpointHandle [in, optional]
-
+### -param endpointHandle 
+[in, optional]
 An optional handle that indicates the stack transport endpoint in the send data path into which
      the packet is to be injected. This endpoint handle is provided to a callout through the 
      <b>transportEndpointHandle</b> member of the 
@@ -139,8 +139,8 @@ An optional handle that indicates the stack transport endpoint in the send data 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> callout function.
 
 
-### -param controlData [in, optional]
-
+### -param controlData 
+[in, optional]
 An optional pointer to a buffer that contains socket control data specified by the 
      <b>WSASendMsg</b> function, which is described in the Microsoft Windows SDK documentation. For
      information about the WSACMSGHDR type, see 
@@ -160,14 +160,14 @@ If socket control data is not <b>NULL</b>, it must be deep-copied in the callout
      called.
 
 
-### -param controlDataLength [in]
-
+### -param controlDataLength 
+[in]
 The length, in bytes, of the 
      <i>controlData</i> parameter.
 
 
-### -param flags [in]
-
+### -param flags 
+[in]
 Reserved. Callout drivers must set this parameter to zero.
 
 
@@ -176,13 +176,13 @@ Reserved. Callout drivers must set this parameter to zero.
 Reserved. Callout drivers must set this parameter to <b>NULL</b>.
 
 
-### -param interfaceIndex [in, optional]
-
+### -param interfaceIndex 
+[in, optional]
 The index of the interface on which the original packet data was received. A callout driver should use the value of the interface index that is passed as one of the incoming data values to its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> callout function for this parameter. This parameter is optional and can be zero.
 
 
-### -param subInterfaceIndex [in, optional]
-
+### -param subInterfaceIndex 
+[in, optional]
 The index of the subinterface on which the original packet data was received. A callout driver
      should use the value of the subinterface index that is passed as one of the incoming data values to its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> callout function for this

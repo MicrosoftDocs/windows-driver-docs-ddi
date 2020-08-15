@@ -57,8 +57,8 @@ A driver's <i>EvtRequestCancel</i> event callback function handles operations th
 
 
 
-### -param Request [in]
-
+### -param Request 
+[in]
 A handle to a framework request object that represents the I/O request that is being canceled.
 
 

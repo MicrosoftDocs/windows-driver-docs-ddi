@@ -56,18 +56,18 @@ The <b>USBD_ValidateConfigurationDescriptor</b> routine validates all descriptor
 
 
 
-### -param ConfigDesc [in]
-
+### -param ConfigDesc 
+[in]
 Pointer to a configuration descriptor that includes all interface, endpoint, vendor, and class-specific descriptors retrieved from a USB device.  
 
 
-### -param BufferLength [in]
-
+### -param BufferLength 
+[in]
 Size, in bytes, of the configuration descriptor being validated.
 
 
-### -param Level [in]
-
+### -param Level 
+[in]
 Level of validation to be performed.  The following are valid values:
 
 <ul>
@@ -77,13 +77,13 @@ Level of validation to be performed.  The following are valid values:
 <li>3-In addition to the validation for levels 1 and 2, level 3 validates plus validates the number of endpoints in each interface, enforces the USB specification's descriptor <b>bLength</b> sizes, and verifies that all interface numbers are in sequential order.</li>
 </ul>
 
-### -param Offset [out]
-
+### -param Offset 
+[out]
   Offset within configuration descriptor where validation failed.  Only valid when a status other than USBD_STATUS_SUCCESS is returned.
 
 
-### -param Tag [in, optional]
-
+### -param Tag 
+[in, optional]
 Pool tag used by <b>USBD_ValidateConfigurationDescriptor</b> when allocating memory.  
 
 

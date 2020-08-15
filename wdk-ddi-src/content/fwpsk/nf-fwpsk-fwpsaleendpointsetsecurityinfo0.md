@@ -58,37 +58,37 @@ The
 
 
 
-### -param engineHandle [in]
-
+### -param engineHandle 
+[in]
 A handle for an open session with the filter engine. This handle is obtained when a session is
      opened by calling 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmengineopen0">FwpmEngineOpen0</a>.
 
 
-### -param securityInfo [in]
-
+### -param securityInfo 
+[in]
 A set of security information flags. For more information, see the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/security-information">SECURITY_INFORMATION</a> description in the
      Installable File Systems driver documentation.
 
 
-### -param sidOwner [in, optional]
-
+### -param sidOwner 
+[in, optional]
 The security identifier of the security owner.
 
 
-### -param sidGroup [in, optional]
-
+### -param sidGroup 
+[in, optional]
 The security identifier of the security group.
 
 
-### -param dacl [in, optional]
-
+### -param dacl 
+[in, optional]
 The discretionary access control list.
 
 
-### -param sacl [in, optional]
-
+### -param sacl 
+[in, optional]
 The system access control list.
 
 

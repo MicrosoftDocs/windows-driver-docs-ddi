@@ -58,13 +58,13 @@ The <b>WdfPdoInitSetDefaultLocale</b> method sets a device's default locale.
 
 
 
-### -param DeviceInit [in]
-
+### -param DeviceInit 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure.
 
 
-### -param LocaleId [in]
-
+### -param LocaleId 
+[in]
 A locale identifier (LCID) that represents the default locale. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-identifiers">Locale Identifiers</a>.
 
 

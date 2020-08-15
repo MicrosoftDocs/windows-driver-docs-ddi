@@ -55,8 +55,8 @@ The <b>ArrayElement</b> method returns the typed data in the specified array ele
 
 
 
-### -param Index [in]
-
+### -param Index 
+[in]
 The index of the array element.
 
 

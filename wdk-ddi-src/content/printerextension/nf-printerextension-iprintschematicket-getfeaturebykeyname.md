@@ -55,13 +55,13 @@ Gets a feature from the PrintTicket based on the specified key name.
 
 
 
-### -param bstrKeyName [in]
-
+### -param bstrKeyName 
+[in]
 The key name of the feature.
 
 
-### -param ppFeature [out, retval]
-
+### -param ppFeature 
+[out, retval]
 The returned feature.
 
 

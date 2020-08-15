@@ -56,28 +56,28 @@ The <b>KsAddObjectCreateItemToDeviceHeader</b> function adds the specified creat
 
 
 
-### -param Header [in]
-
+### -param Header 
+[in]
 Points to the device header that contains the previously allocated child create table.
 
 
-### -param Create [in]
-
+### -param Create 
+[in]
 Specifies the create dispatch function.
 
 
-### -param Context [in]
-
+### -param Context 
+[in]
 Specifies the context parameter.
 
 
-### -param ObjectClass [in]
-
+### -param ObjectClass 
+[in]
 Specifies a pointer to a <b>NULL</b>-terminated character string that will be used for comparison on create requests. This pointer must remain valid while the device object is active.
 
 
-### -param SecurityDescriptor [in, optional]
-
+### -param SecurityDescriptor 
+[in, optional]
 Specifies the security descriptor. This must remain valid while the device object is active. This parameter is optional.
 
 

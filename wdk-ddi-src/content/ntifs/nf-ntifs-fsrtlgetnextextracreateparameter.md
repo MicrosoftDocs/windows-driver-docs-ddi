@@ -55,28 +55,28 @@ The <b>FsRtlGetNextExtraCreateParameter</b> routine returns a pointer to the nex
 
 
 
-### -param EcpList [in]
-
+### -param EcpList 
+[in]
 Pointer to the ECP list to examine.
 
 
-### -param CurrentEcpContext [in, optional]
-
+### -param CurrentEcpContext 
+[in, optional]
 Optional pointer to an ECP context structure in the given ECP list.  If present, <b>FsRtlGetNextExtraCreateParameter</b> returns a pointer to the ECP after the <i>CurrentEcpContext</i> ECP context structure.  If <i>CurrentEcpContext</i> is <b>NULL</b>, <b>FsRtlGetNextExtraCreateParameter</b> returns the first ECP context structure in the list.
 
 
-### -param NextEcpType [out, optional]
-
+### -param NextEcpType 
+[out, optional]
 Optional parameter that receives a pointer to the GUID of the returned ECP context structure.
 
 
-### -param NextEcpContext [out]
-
+### -param NextEcpContext 
+[out]
 Optional parameter that receives a pointer to the returned ECP context structure.
 
 
-### -param NextEcpContextSize [out, optional]
-
+### -param NextEcpContextSize 
+[out, optional]
 Optional parameter that receives the size, in bytes, of the returned ECP context structure.
 
 

@@ -59,13 +59,13 @@ This is a control path callback inside <a href="https://docs.microsoft.com/windo
 
 
 
-### -param MiniportAdapterHandle [in]
-
+### -param MiniportAdapterHandle 
+[in]
 The miniport handle.
 
 
-### -param DeviceIdlePowerState [in]
-
+### -param DeviceIdlePowerState 
+[in]
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_device_power_state">NDIS_DEVICE_POWER_STATE</a> enumeration value that specifies the lowest power state that the network adapter supports for a low-power state transition.
 
 <div class="alert"><b>Note</b>  For USB network adapters, this parameter must be <b>NdisDeviceStateD2</b>.</div>

@@ -69,16 +69,16 @@ HRESULT *PfnIddcxswapchainsetdevice
 
 ## -parameters
 
-### -param DriverGlobals [in]
-
+### -param DriverGlobals 
+[in]
 Contains system-defined per-driver data.
 
-### -param SwapChainObject [in]
-
+### -param SwapChainObject 
+[in]
 The swap-chain object passed to the EVT_IDD_CX_MONITOR_SET_SWAPCHAIN call.
 
-### -param pInArgs [in]
-
+### -param pInArgs 
+[in]
 Input arguments to the function.
 
 ## -returns

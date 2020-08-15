@@ -57,23 +57,23 @@ A driver's <b>OnReaderCompletion</b> event callback function informs the driver 
 
 
 
-### -param pPipe [in]
-
+### -param pPipe 
+[in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nn-wudfusb-iwdfusbtargetpipe">IWDFUsbTargetPipe</a> interface for the USB pipe on which the driver has enabled a continuous reader.
 
 
-### -param pMemory [in]
-
+### -param pMemory 
+[in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfmemory">IWDFMemory</a> interface for a read buffer that contains data that was read from the USB pipe.
 
 
-### -param NumBytesTransferred [in]
-
+### -param NumBytesTransferred 
+[in]
 The number of bytes that the read buffer contains.
 
 
-### -param Context [in]
-
+### -param Context 
+[in]
 A pointer to driver-supplied context information that the driver provided when it previously called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nf-wudfusb-iwdfusbtargetpipe2-configurecontinuousreader">IWDFUsbTargetPipe2::ConfigureContinuousReader</a>.
 
 

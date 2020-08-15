@@ -55,8 +55,8 @@ The <b>RtlConvertUlongToLargeInteger</b> routine converts the input unsigned int
 
 
 
-### -param UnsignedInteger [in]
-
+### -param UnsignedInteger 
+[in]
 Specifies a value of type ULONG.
 
 

@@ -55,13 +55,13 @@ The <i>CLIENT_QueryActiveInterrupts</i> event callback function queries the stat
 
 
 
-### -param Context [in]
-
+### -param Context 
+[in]
 A pointer to the GPIO controller driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/gpio/gpio-device-contexts">device context</a>.
 
 
-### -param QueryActiveParameters [in, out]
-
+### -param QueryActiveParameters 
+[in, out]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_query_active_interrupts_parameters">GPIO_QUERY_ACTIVE_INTERRUPTS_PARAMETERS</a> structure that, on entry, describes the GPIO interrupt pins to query, and, on exit, contains the active and enabled interrupt state of these pins.
 
 

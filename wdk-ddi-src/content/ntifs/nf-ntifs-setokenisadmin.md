@@ -55,8 +55,8 @@ The <b>SeTokenIsAdmin</b> routine determines whether a token contains the local 
 
 
 
-### -param Token [in]
-
+### -param Token 
+[in]
 Pointer to the token.
 
 

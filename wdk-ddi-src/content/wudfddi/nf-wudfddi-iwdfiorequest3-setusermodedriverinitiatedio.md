@@ -59,8 +59,8 @@ The <b>SetUserModeDriverInitiatedIo</b> method
 
 
 
-### -param IsUserModeDriverInitiated [in]
-
+### -param IsUserModeDriverInitiated 
+[in]
 A Boolean value that, if <b>TRUE</b>, indicates that the request should be treated as though it was initiated by a UMDF driver. If <b>FALSE</b>, this parameter indicates that the request should be treated as though it came from an application.
 
 

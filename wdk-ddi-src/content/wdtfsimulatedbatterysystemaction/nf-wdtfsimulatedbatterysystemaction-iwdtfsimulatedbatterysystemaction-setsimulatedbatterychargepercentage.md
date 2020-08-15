@@ -61,13 +61,13 @@ Use this method to change the charge level reported to the OS by the
 
 
 
-### -param Percent [in]
-
+### -param Percent 
+[in]
 Specifies charge level percentage, 0-100.
 
 
-### -param pbSuccess [out, retval]
-
+### -param pbSuccess 
+[out, retval]
 
 ## -returns
 

@@ -55,8 +55,8 @@ req.typenames:
 
 
 
-### -param RxContext [in]
-
+### -param RxContext 
+[in]
 A pointer to the RX_CONTEXT containing the IRP to be queued to a worker thread.
 
 

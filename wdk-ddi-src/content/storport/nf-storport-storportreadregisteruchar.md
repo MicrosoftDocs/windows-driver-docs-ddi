@@ -56,12 +56,12 @@ The <b>StorPortReadRegisterUchar</b> routine reads a value from a specified regi
 
 
 
-### -param h [in]
-
+### -param h 
+[in]
 A pointer to the hardware device extension.
 
-### -param r [in]
-
+### -param r 
+[in]
 A pointer to the register where the data is to be read. 
 
 

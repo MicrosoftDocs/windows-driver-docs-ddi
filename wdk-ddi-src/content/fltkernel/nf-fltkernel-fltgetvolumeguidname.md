@@ -55,18 +55,18 @@ The <b>FltGetVolumeGuidName</b> routine returns the volume name for a given volu
 
 
 
-### -param Volume [in]
-
+### -param Volume 
+[in]
 Opaque pointer for the volume. Must be a local file system volume. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param VolumeGuidName [out]
-
+### -param VolumeGuidName 
+[out]
 Pointer to a caller-allocated <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that receives the volume's GUID name. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param BufferSizeNeeded [out, optional]
-
+### -param BufferSizeNeeded 
+[out, optional]
 Pointer to a caller-allocated variable that receives the size, in bytes, of the requested volume GUID name. If <b>FltGetVolumeGuidName</b> returns STATUS_BUFFER_TOO_SMALL, you can use the value of the variable to determine the required size for the structure that the <i>VolumeGuidName</i> parameter points to. This parameter is optional and can be <b>NULL</b>. 
 
 

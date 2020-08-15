@@ -56,18 +56,18 @@ The <b>TapeClassInitialize</b> routine performs much of the driver and device in
 
 
 
-### -param Argument1 [in]
-
+### -param Argument1 
+[in]
 Pointer to driver context information that was passed to the tape miniclass driver's <b>DriverEntry</b> routine. The format of the information is operating system-specific and must not be interpreted by a tape miniclass driver.
 
 
-### -param Argument2 [in]
-
+### -param Argument2 
+[in]
 Pointer to the second driver context structure that was passed to the tape miniclass driver's<b> DriverEntry</b> routine. The format of the information is operating system-specific and must not be interpreted by a tape miniclass driver.
 
 
-### -param TapeInitData [in]
-
+### -param TapeInitData 
+[in]
 Pointer to a TAPE_INIT_DATA_EX structure containing driver-specific information such as the entry points for the tape miniclass driver's command processing routines.
 
 

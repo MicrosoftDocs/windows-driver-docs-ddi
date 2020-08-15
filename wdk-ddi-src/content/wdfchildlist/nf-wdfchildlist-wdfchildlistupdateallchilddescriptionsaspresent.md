@@ -58,8 +58,8 @@ The <b>WdfChildListUpdateAllChildDescriptionsAsPresent</b> method informs the fr
 
 
 
-### -param ChildList [in]
-
+### -param ChildList 
+[in]
 A handle to a child list object.
 
 

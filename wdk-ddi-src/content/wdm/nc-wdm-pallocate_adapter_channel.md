@@ -55,28 +55,28 @@ The <b>AllocateAdapterChannel</b> routine prepares the system for a DMA operatio
 
 
 
-### -param DmaAdapter [in]
-
+### -param DmaAdapter 
+[in]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_adapter">DMA_ADAPTER</a> structure returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a> that represents the bus-master adapter or DMA controller.
 
 
-### -param DeviceObject [in]
-
+### -param DeviceObject 
+[in]
 Pointer to the device object that represents the target device for a requested DMA operation.
 
 
-### -param NumberOfMapRegisters [in]
-
+### -param NumberOfMapRegisters 
+[in]
 Specifies the number of map registers to be used in the transfer. This value is the lesser of the number of map registers needed to satisfy the current transfer request, and the number of available map registers returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a>. 
 
 
-### -param ExecutionRoutine [in]
-
+### -param ExecutionRoutine 
+[in]
 Pointer to a driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_control">AdapterControl</a> routine. The routine is called when the system DMA controller or bus-master adapter becomes available.
 
 
-### -param Context [in]
-
+### -param Context 
+[in]
 Pointer to the driver-determined context to be passed to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_control">AdapterControl</a> routine. 
 
 

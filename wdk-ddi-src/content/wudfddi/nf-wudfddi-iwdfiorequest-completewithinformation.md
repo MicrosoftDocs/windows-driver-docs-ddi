@@ -57,13 +57,13 @@ The <b>CompleteWithInformation</b> method completes a request with the supplied 
 
 
 
-### -param CompletionStatus [in]
-
+### -param CompletionStatus 
+[in]
 A status value to complete the request with. 
 
 
-### -param Information [in]
-
+### -param Information 
+[in]
 Additional driver-supplied information that is related to the I/O operation.
 
 For read, write, and device I/O control operations, the driver should supply the number of bytes that are transferred.

@@ -55,43 +55,43 @@ The <b>KsPinDataIntersectionEx</b> function handles the <a href="https://docs.mi
 
 
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 Specifies the IRP that describes the property request.
 
 
-### -param Pin [in]
-
+### -param Pin 
+[in]
 Specifies the specific property that is being queried.
 
 
-### -param Data [out]
-
+### -param Data 
+[out]
 Specifies the pin property-specific data.
 
 
-### -param DescriptorsCount [in]
-
+### -param DescriptorsCount 
+[in]
 Specifies the number of descriptor structures.
 
 
-### -param Descriptor [in]
-
+### -param Descriptor 
+[in]
 Specifies the pointer to the list of pin information structures.
 
 
-### -param DescriptorSize [in]
-
+### -param DescriptorSize 
+[in]
 Size of the descriptor structures, in bytes.
 
 
-### -param IntersectHandler [in, optional]
-
+### -param IntersectHandler 
+[in, optional]
 Contains the optional minidriver-defined <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff567185(v=vs.85)">KStrIntersectHandlerEx</a> callback function to compare data ranges.
 
 
-### -param HandlerContext [in, optional]
-
+### -param HandlerContext 
+[in, optional]
 Optional context that is supplied to the handler.
 
 

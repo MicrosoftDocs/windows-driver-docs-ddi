@@ -53,23 +53,23 @@ Returns notifications for the <a href="https://docs.microsoft.com/windows-hardwa
 ## -parameters
 
 
-### -param Which [in]
-
+### -param Which 
+[in]
 The kind of DEBUG_OUTCB_XXX notification that is coming in. The DEBUG_OUTCB_XXX notifications are defined in the dbgeng.h header using  #defines. For more information, see [DEBUG_OUTCB_XXX](https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-outcb-xxx).
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 Flags that are part of the notification payload.
 
 
-### -param Arg [in]
-
+### -param Arg 
+[in]
 Arguments that are part of the notification payload.
 
 
-### -param Text [in, optional]
-
+### -param Text 
+[in, optional]
 A pointer to text that is part of the notification payload.
 
 

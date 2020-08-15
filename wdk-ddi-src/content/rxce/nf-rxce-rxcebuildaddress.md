@@ -55,28 +55,28 @@ req.typenames:
 
 
 
-### -param pAddress [in, out]
-
+### -param pAddress 
+[in, out]
 On input, this parameter contains a pointer to an uninitialized RDBSS connection engine address structure. On output when this call is successful, the data members in the RXCE_ADDRESS structure will be properly initialized.
 
 
-### -param pTransport [in]
-
+### -param pTransport 
+[in]
 A pointer to the transport with which this address is to be associated.
 
 
-### -param pTransportAddress [in]
-
+### -param pTransportAddress 
+[in]
 A pointer to the transport address to be associated with the binding.
 
 
-### -param pHandler [in]
-
+### -param pHandler 
+[in]
 A pointer to the event handler associated with the registration.
 
 
-### -param pEventContext [in]
-
+### -param pEventContext 
+[in]
 A pointer to the context parameter to be passed back to the event handler.
 
 

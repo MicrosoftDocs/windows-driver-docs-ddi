@@ -59,13 +59,13 @@ A driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdff
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to the framework device object to which resources will be assigned.
 
 
-### -param IoResourceRequirementsList [in]
-
+### -param IoResourceRequirementsList 
+[in]
 A handle to a resource-requirements-list object, which represents the device's <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">resource requirements list</a>.
 
 

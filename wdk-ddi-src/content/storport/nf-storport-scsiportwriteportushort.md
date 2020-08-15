@@ -56,13 +56,13 @@ The <b>ScsiPortWritePortUshort</b> routine transfers a USHORT value to the HBA.
 
 
 
-### -param Port [in]
-
+### -param Port 
+[in]
 Pointer to the I/O port. The given <i>Port</i> must be in a mapped I/O-space range returned by <b>ScsiPortGetDeviceBase</b>.
 
 
-### -param Value [in]
-
+### -param Value 
+[in]
 Specifies the value to be written to the HBA's I/O port.
 
 

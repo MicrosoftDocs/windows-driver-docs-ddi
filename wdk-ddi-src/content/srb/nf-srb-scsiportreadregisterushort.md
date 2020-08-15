@@ -56,8 +56,8 @@ The <b>ScsiPortReadRegisterUshort</b> routine reads a USHORT value from the HBA.
 
 
 
-### -param Register [in]
-
+### -param Register 
+[in]
 Pointer to the register. The given <i>Register</i> must be in a mapped memory-space range returned by <b>ScsiPortGetDeviceBase</b>.
 
 

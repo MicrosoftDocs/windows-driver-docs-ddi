@@ -58,16 +58,16 @@ The
 
 
 
-### -param ProtocolBindingContext [in]
-
+### -param ProtocolBindingContext 
+[in]
 A handle to a context area that the protocol driver allocated. The protocol driver maintains the
      per-binding context information in this context area. The driver supplied this handle to NDIS when the
      driver called the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function.
 
 
-### -param StatusIndication [in]
-
+### -param StatusIndication 
+[in]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_status_indication">NDIS_STATUS_INDICATION</a> structure
      that contains the status information.

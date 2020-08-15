@@ -57,13 +57,13 @@ The <b>ConfigureRequestDispatching</b> method configures the queuing of I/O requ
 
 
 
-### -param RequestType [in]
-
+### -param RequestType 
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/ne-wdfrequest-_wdf_request_type">WDF_REQUEST_TYPE</a>-typed value that identifies the request type to be queued. The only valid values are <b>WdfRequestCreate</b>, <b>WdfRequestRead</b>, <b>WdfRequestWrite</b>, and <b>WdfRequestDeviceIoControl</b>.
 
 
-### -param Forward [in]
-
+### -param Forward 
+[in]
 A BOOL value that specifies whether requests of the specified type are queued. <b>TRUE</b> indicates to enable queuing requests; <b>FALSE</b> indicates to disable queuing requests.
 
 

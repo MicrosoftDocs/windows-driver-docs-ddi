@@ -55,13 +55,13 @@ The <code>IPrintCoreHelperUni::SetFontSubstitution</code> method specifies the d
 
 
 
-### -param pszTrueTypeFontName [in]
-
+### -param pszTrueTypeFontName 
+[in]
 A pointer to a null-terminated Unicode string that contains a valid TrueType font name. This parameter must not be <b>NULL</b>.
 
 
-### -param pszDevFontName [in]
-
+### -param pszDevFontName 
+[in]
 A pointer to a null-terminated Unicode string that contains the name of the device font. 
 
 

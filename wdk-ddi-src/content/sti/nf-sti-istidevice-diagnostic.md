@@ -55,8 +55,8 @@ The <b>IStiDevice::Diagnostic</b> method executes diagnostic tests on a still im
 
 
 
-### -param pBuffer [in, out]
-
+### -param pBuffer 
+[in, out]
 Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/ns-sti-_sti_diag">STI_DIAG</a> structure specifying the type of tests to be run. On return, the structure contains status information.
 
 

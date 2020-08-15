@@ -70,11 +70,11 @@ The <code>OEMQueryDeviceSupport</code> function returns requested device-specifi
 ### -param cjIn
 
 
-### -param pvIn [in]
-
+### -param pvIn 
+[in]
 
 ### -param cjOut
 
 
-### -param pvOut [out]
-
+### -param pvOut 
+[out]

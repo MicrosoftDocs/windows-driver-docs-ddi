@@ -56,13 +56,13 @@ The PHW_INITIALIZE routine prototype declares a routine that initializes the min
 
 
 
-### -param DeviceExtension [in]
-
+### -param DeviceExtension 
+[in]
 Pointer to the miniport driver's per-HBA storage area.
 
 
-### -param Srb [in]
-
+### -param Srb 
+[in]
 Pointer to the SCSI request block to be started.
 
 

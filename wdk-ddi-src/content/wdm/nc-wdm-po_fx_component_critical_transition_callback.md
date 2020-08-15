@@ -55,18 +55,18 @@ The <i>ComponentCriticalTransitionCallback</i> callback routine handles a transi
 
 
 
-### -param Context [in]
-
+### -param Context 
+[in]
 A pointer to the device context. The device driver uses this context to store information about the current power state of the device. This context is driver-defined and is opaque to PoFx. The driver specified this pointer in the <b>DeviceContext</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_po_fx_core_device">PO_FX_CORE_DEVICE</a> structure that the driver used to register the device with the Windows <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx).
 
 
-### -param Component [in]
-
+### -param Component 
+[in]
 The index that identifies the component. This parameter is an index into the <b>Components</b> array in the <b>PO_FX_CORE_DEVICE</b> structure that the device driver used to register the device with PoFx. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
 
 
-### -param Active [in]
-
+### -param Active 
+[in]
 Indicates whether this notification is for a transition to the F0 component power state. If TRUE, the component has just completed a transition from a low-power F<i>x</i> state to F0. If FALSE, the component is about to start a transition from F0 to a low-power F<i>x</i> state.
 
 

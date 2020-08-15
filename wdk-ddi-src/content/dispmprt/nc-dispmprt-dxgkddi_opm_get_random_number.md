@@ -55,18 +55,18 @@ The<i> DxgkDdiOPMGetRandomNumber</i> function retrieves the given protected outp
 
 
 
-### -param MiniportDeviceContext [in]
-
+### -param MiniportDeviceContext 
+[in]
 A handle to a context block associated with a display adapter. Previously, the display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function provided this handle to the DirectX graphics kernel subsystem.
 
 
-### -param ProtectedOutputHandle [in]
-
+### -param ProtectedOutputHandle 
+[in]
 The handle to a protected output object. The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_opm_create_protected_output">DxgkDdiOPMCreateProtectedOutput</a> function creates the protected output object and returns the handle to the object.
 
 
-### -param RandomNumber [out]
-
+### -param RandomNumber 
+[out]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_dxgkmdt_opm_random_number">DXGKMDT_OPM_RANDOM_NUMBER</a> structure that receives the protected output object's 128-bit cryptographically secure random number if <i>DxgkDdiOPMGetRandomNumber</i> returns successfully.
 
 If <i>DxgkDdiOPMGetRandomNumber</i> fails, the value that <i>RandomNumber</i> points to is unchanged.

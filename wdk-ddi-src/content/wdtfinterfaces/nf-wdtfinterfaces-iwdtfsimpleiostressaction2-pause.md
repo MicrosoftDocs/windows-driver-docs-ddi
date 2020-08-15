@@ -55,8 +55,8 @@ Pauses the I/O.
 
 
 
-### -param pResult [out, retval]
-
+### -param pResult 
+[out, retval]
 True if the I/O operation after the last 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemaasyncoperation-start">Start</a> or 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Continue</a> succeeded; 

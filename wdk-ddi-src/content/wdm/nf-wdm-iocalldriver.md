@@ -66,12 +66,12 @@ NTSTATUS IoCallDriver(
 
 
 
-### -param DeviceObject [in]
-
+### -param DeviceObject 
+[in]
 See [**IofCallDriver**](nf-wdm-iofcalldriver.md).
 
-### -param Irp [in, out]
-
+### -param Irp 
+[in, out]
 See [**IofCallDriver**](nf-wdm-iofcalldriver.md).
 
 ## -returns

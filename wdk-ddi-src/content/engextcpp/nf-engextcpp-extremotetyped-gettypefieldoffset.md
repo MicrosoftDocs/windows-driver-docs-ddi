@@ -55,13 +55,13 @@ The <b>GetTypeFieldOffset</b> static method returns the offset of a member withi
 
 
 
-### -param Type [in]
-
+### -param Type 
+[in]
 The name of the type of the structure. This can be qualified with a module name, for example, <b>mymodule!mystruct</b>.
 
 
-### -param Field [in]
-
+### -param Field 
+[in]
 The name of the member in the structure.  You can specify sub-members  by using a dot operator (.) (for example, <b>mymember.mysubmember</b>).
 
 

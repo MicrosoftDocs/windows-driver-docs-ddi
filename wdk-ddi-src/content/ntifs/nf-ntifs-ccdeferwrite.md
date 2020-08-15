@@ -55,13 +55,13 @@ The <b>CcDeferWrite</b> routine defers writing to a cached file. The post routin
 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 Pointer to a file object for the cached file to which the data is to be written.
 
 
-### -param PostRoutine [in]
-
+### -param PostRoutine 
+[in]
 Address of a routine for the cache manager to call to write to the cached file. Note that it is possible that this routine will be called immediately, even if <a href="https://msdn.microsoft.com/library/windows/hardware/ff539021">CcCanIWrite</a> has just returned <b>FALSE</b> .
 
 The post routine is defined in ntifs.h as:
@@ -81,23 +81,23 @@ VOID (*PCC_POST_DEFERRED_WRITE) (
 </tr>
 </table></span></div>
 
-### -param Context1 [in]
-
+### -param Context1 
+[in]
 First parameter for the post routine at <i>PostRoutine</i>.
 
 
-### -param Context2 [in]
-
+### -param Context2 
+[in]
 Second parameter for the post routine at <i>PostRoutine</i>.
 
 
-### -param BytesToWrite [in]
-
+### -param BytesToWrite 
+[in]
 Number of bytes of data to be written.
 
 
-### -param Retrying [in]
-
+### -param Retrying 
+[in]
 Set to <b>FALSE</b> if the request is being posted for the first time, <b>TRUE</b> otherwise.
 
 

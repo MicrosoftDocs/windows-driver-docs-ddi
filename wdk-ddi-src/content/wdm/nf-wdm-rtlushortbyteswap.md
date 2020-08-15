@@ -55,8 +55,8 @@ The <b>RtlUshortByteSwap</b> routine reverses the ordering of the two bytes in a
 
 
 
-### -param Source [in]
-
+### -param Source 
+[in]
 A USHORT value to convert to a byte-swapped version.
 
 ## -returns

@@ -55,8 +55,8 @@ The <b>KeQuerySystemTimePrecise</b> routine retrieves the current <a href="https
 
 
 
-### -param CurrentTime [out]
-
+### -param CurrentTime 
+[out]
 A pointer to a LARGE_INTEGER variable into which the routine writes the current system time.
 
 

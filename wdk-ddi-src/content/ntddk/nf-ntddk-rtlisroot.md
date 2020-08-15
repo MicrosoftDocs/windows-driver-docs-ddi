@@ -55,8 +55,8 @@ The <b>RtlIsRoot</b> routine determines whether the specified node is the root n
 
 
 
-### -param Links [in]
-
+### -param Links 
+[in]
 Pointer to the node. The node must have been initialized by calling <b>RtlInitializeSplayLinks</b>. 
 
 

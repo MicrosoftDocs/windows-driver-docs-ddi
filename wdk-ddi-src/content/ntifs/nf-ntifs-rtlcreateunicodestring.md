@@ -56,13 +56,13 @@ The <b>RtlCreateUnicodeString</b> routine creates a new counted Unicode string.
 
 
 
-### -param DestinationString [out]
-
+### -param DestinationString 
+[out]
 Pointer to the newly allocated and initialized Unicode string. 
 
 
-### -param SourceString [in]
-
+### -param SourceString 
+[in]
 Pointer to a null-terminated Unicode string with which to initialize the new string.
 
 

@@ -57,8 +57,8 @@ The
 
 
 
-### -param Mdl [in]
-
+### -param Mdl 
+[in]
 A pointer to the MDL that is to be freed.
 
 

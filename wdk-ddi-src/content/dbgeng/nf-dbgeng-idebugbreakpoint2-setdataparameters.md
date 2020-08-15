@@ -56,13 +56,13 @@ The <b>SetDataParameters</b> method sets the parameters for a processor breakpoi
 
 
 
-### -param Size [in]
-
+### -param Size 
+[in]
 The size, in bytes, of the memory block whose access triggers the breakpoint.  For more information about restrictions on the value of <i>Size</i> based on the processor type, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/controlling-breakpoint-flags-and-parameters">Valid Parameters for Processor Breakpoints</a>.
 
 
-### -param AccessType [in]
-
+### -param AccessType 
+[in]
 The type of access that triggers the breakpoint. For a list of possible value, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/controlling-breakpoint-flags-and-parameters">Valid Parameters for Processor Breakpoints</a>.
 
 

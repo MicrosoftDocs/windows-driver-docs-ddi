@@ -55,33 +55,33 @@ The <b>GetCapabilities</b> method returns the keywords and languages supported b
 
 
 
-### -param SupportsUserModels [in]
-
+### -param SupportsUserModels 
+[in]
 A Boolean value that indicates whether user specific training is supported. 
 
 
-### -param KeywordIds [out]
-
+### -param KeywordIds 
+[out]
 A pointer to an array of keyword IDs supported by the object. The object allocates the array by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>. The caller frees the memory by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 
-### -param NumKeywords [out]
-
+### -param NumKeywords 
+[out]
 The number of keyword IDs in the <i>KeywordIds</i> array.
 
 
-### -param LangIds [out]
-
+### -param LangIds 
+[out]
 A pointer to an array of language IDs supported by the object. The object allocates the array by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>. The caller frees the memory by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 
-### -param NumLanguages [out]
-
+### -param NumLanguages 
+[out]
 The number of language IDs in the <i>LangIds</i> array.
 
 
-### -param ppMediaType [out]
-
+### -param ppMediaType 
+[out]
 The audio format required by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/keyworddetectoroemadapter/nf-keyworddetectoroemadapter-ikeyworddetectoroemadapter-verifyuserkeyword">IKeywordDetectorOemAdapter::VerifyUserKeyword</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/keyworddetectoroemadapter/nf-keyworddetectoroemadapter-ikeyworddetectoroemadapter-computeandaddusermodeldata">IKeywordDetectorOemAdapter::ComputeAndAddUserModelData</a>. 
 
 The only valid values for the IMFMediaType are the following:

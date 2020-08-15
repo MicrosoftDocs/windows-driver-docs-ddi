@@ -56,13 +56,13 @@ The <b>RtlEqualSid</b> routine determines whether two security identifier (SID) 
 
 
 
-### -param Sid1 [in]
-
+### -param Sid1 
+[in]
 Pointer to the first SID structure to compare. Must point to a valid SID. 
 
 
-### -param Sid2 [in]
-
+### -param Sid2 
+[in]
 Pointer to the second SID structure to compare. Must point to a valid SID. 
 
 

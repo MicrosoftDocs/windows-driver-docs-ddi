@@ -56,13 +56,13 @@ req.typenames:
 
 
 
-### -param SecurityDescriptor [out]
-
+### -param SecurityDescriptor 
+[out]
 Pointer to a caller-allocated variable that receives an opaque pointer to the newly created <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a>. 
 
 
-### -param DesiredAccess [in]
-
+### -param DesiredAccess 
+[in]
 Bitmask of flags that specify the type of access that the caller requires to the port object. The set of system-defined <i>DesiredAccess</i> flags determines the following specific access rights for minifilter driver communication port objects. 
 
 <table>

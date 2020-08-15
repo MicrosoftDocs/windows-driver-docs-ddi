@@ -55,8 +55,8 @@ A camera minidriver's <i>AdapterReceivePacket</i> callback function processes ad
 
 
 
-### -param Srb [in]
-
+### -param Srb 
+[in]
 Specifies the SRB to be processed by the camera minidriver.
 
 

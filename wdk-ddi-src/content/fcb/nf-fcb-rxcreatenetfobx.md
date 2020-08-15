@@ -55,13 +55,13 @@ req.typenames:
 
 
 
-### -param RxContext [out]
-
+### -param RxContext 
+[out]
 A pointer to the RX_CONTEXT structure describing a create operation.
 
 
-### -param MrxSrvOpen [in]
-
+### -param MrxSrvOpen 
+[in]
 A pointer to the associated SRV_OPEN structure.
 
 

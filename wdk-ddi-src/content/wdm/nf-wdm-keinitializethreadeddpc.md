@@ -55,18 +55,18 @@ The <b>KeInitializeThreadedDpc</b> routine initializes a threaded DPC object, an
 
 
 
-### -param Dpc [out]
-
+### -param Dpc 
+[out]
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">KDPC</a> structure that represents the DPC object to initialize. The caller must allocate storage for the structure from resident memory.
 
 
-### -param DeferredRoutine [in]
-
+### -param DeferredRoutine 
+[in]
 Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542976">CustomThreadedDpc</a> routine to associate with the DPC.
 
 
-### -param DeferredContext [in, optional]
-
+### -param DeferredContext 
+[in, optional]
 Specifies the value to pass as the <i>DeferredContext</i> parameter to <a href="https://msdn.microsoft.com/library/windows/hardware/ff542976">CustomThreadedDpc</a>.
 
 

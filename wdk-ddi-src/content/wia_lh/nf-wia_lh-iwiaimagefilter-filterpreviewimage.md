@@ -60,19 +60,19 @@ The <b>IWiaImageFilter::FilterPreviewImage</b> method is called by the WIA Previ
 
 
 
-### -param pWiaChildItem2 [in]
-
+### -param pWiaChildItem2 
+[in]
 Pointer to the item that the image process is to process. This item must be a child item of the item specified in the pWiaItem2 parameter, which was passed into the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wia_lh/nf-wia_lh-iwiaimagefilter-initializefilter">IWiaImageFilter::InitializeFilter</a> method. 
 
 
 
-### -param InputImageExtents [in]
-
+### -param InputImageExtents 
+[in]
 Structure that contains the upper-left and lower-right coordinates of a rectangle that represents the boundaries of the preview image on the flatbed's platen. This is also the coordinates for the image data that is passed into the <i>pInputStream</i> parameter .
 
 
-### -param pInputStream [in]
-
+### -param pInputStream 
+[in]
 Pointer to the IStream preview image. 
 
 

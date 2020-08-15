@@ -58,18 +58,18 @@ The <b>WdfDmaTransactionGetTransferInfo</b> method returns the number of map reg
 
 
 
-### -param DmaTransaction [in]
-
+### -param DmaTransaction 
+[in]
 A handle to an initialized DMA transaction object.
 
 
-### -param MapRegisterCount [out, optional]
-
+### -param MapRegisterCount 
+[out, optional]
 A caller-supplied location that, on return, contains the number of map registers required for the specified transaction. This parameter is optional and can be NULL.
 
 
-### -param ScatterGatherElementCount [out, optional]
-
+### -param ScatterGatherElementCount 
+[out, optional]
 A caller-supplied location that, on return, contains the number of scatter/gather elements required for the specified transaction. This parameter is optional and can be NULL.
 
 

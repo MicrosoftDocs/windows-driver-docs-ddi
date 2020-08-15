@@ -55,8 +55,8 @@ The <b>KeRegisterNmiCallback</b> routine registers a routine to be called whenev
 
 
 
-### -param CallbackRoutine [in]
-
+### -param CallbackRoutine 
+[in]
 Pointer to a function of the form:
 
 <div class="code"><span codelanguage=""><table>
@@ -74,8 +74,8 @@ Pointer to a function of the form:
 </tr>
 </table></span></div>
 
-### -param Context [in, optional]
-
+### -param Context 
+[in, optional]
 Specifies the value to be passed as the <i>Context</i> parameter of <i>XxxNmiCallback</i> when it is called.
 
 

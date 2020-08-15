@@ -55,8 +55,8 @@ The <b>RtlNumberGenericTableElements</b> routine returns the number of elements 
 
 
 
-### -param Table [in]
-
+### -param Table 
+[in]
 Pointer to the generic table (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_rtl_generic_table">RTL_GENERIC_TABLE</a>). The table must have been initialized by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinitializegenerictable">RtlInitializeGenericTable</a>.
 
 

@@ -55,23 +55,23 @@ The <b>SERCX2_PIO_RECEIVE_CONFIG_INIT</b> function initializes a <a href="https:
 
 
 
-### -param PioReceiveConfig [out]
-
+### -param PioReceiveConfig 
+[out]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/ns-sercx-_sercx2_pio_receive_config">SERCX2_PIO_RECEIVE_CONFIG</a> structure that is to be initialized.
 
 
-### -param EvtSerCx2PioReceiveReadBuffer [in]
-
+### -param EvtSerCx2PioReceiveReadBuffer 
+[in]
 The value to load into the <b>EvtSerCx2PioReceiveReadBuffer</b> member of the <b>SERCX2_PIO_RECEIVE_CONFIG</b> structure. For more information, see the description of this member in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/ns-sercx-_sercx2_pio_receive_config">SERCX2_PIO_RECEIVE_CONFIG</a>.
 
 
-### -param EvtSerCx2PioReceiveEnableReadyNotification [in]
-
+### -param EvtSerCx2PioReceiveEnableReadyNotification 
+[in]
 The value to load into the <b>EvtSerCx2PioReceiveEnableReadyNotification</b> member of the <b>SERCX2_PIO_RECEIVE_CONFIG</b> structure. For more information, see the description of this member in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/ns-sercx-_sercx2_pio_receive_config">SERCX2_PIO_RECEIVE_CONFIG</a>.
 
 
-### -param EvtSerCx2PioReceiveCancelReadyNotification [in]
-
+### -param EvtSerCx2PioReceiveCancelReadyNotification 
+[in]
 The value to load into the <b>EvtSerCx2PioReceiveCancelReadyNotification</b> member of the <b>SERCX2_PIO_RECEIVE_CONFIG</b> structure. For more information, see the description of this member in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/ns-sercx-_sercx2_pio_receive_config">SERCX2_PIO_RECEIVE_CONFIG</a>.
 
 

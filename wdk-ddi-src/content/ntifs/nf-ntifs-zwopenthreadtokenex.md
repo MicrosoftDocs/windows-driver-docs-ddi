@@ -56,31 +56,31 @@ The <b>ZwOpenThreadTokenEx</b> routine opens the access token associated with a 
 
 
 
-### -param ThreadHandle [in]
-
+### -param ThreadHandle 
+[in]
 Handle to the thread whose access token is to be opened. The handle must have THREAD_QUERY_INFORMATION access. Use the <b>NtCurrentThread</b> macro to specify the current thread. 
 
 
-### -param DesiredAccess [in]
-
+### -param DesiredAccess 
+[in]
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> structure specifying the requested types of access to the access token. These requested access types are compared with the token's discretionary access-control list (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_acl">DACL</a>) to determine which access rights are granted or denied. 
 
 
-### -param OpenAsSelf [in]
-
+### -param OpenAsSelf 
+[in]
 Boolean value specifying whether the access check is to be made against the security context of the thread calling <b>ZwOpenThreadTokenEx</b> or against the security context of the process for the calling thread. 
 
 If this parameter is <b>FALSE</b>, the access check is performed using the security context for the calling thread. If the thread is impersonating a client, this security context can be that of a client process. If this parameter is <b>TRUE</b>, the access check is made using the security context of the process for the calling thread. 
 
 
-### -param HandleAttributes [in]
-
+### -param HandleAttributes 
+[in]
 Attributes for the created handle. Only OBJ_KERNEL_HANDLE is currently supported. If the caller is not running in the system process context, it must specify OBJ_KERNEL_HANDLE for this parameter. 
 
 
-### -param TokenHandle [out]
-
+### -param TokenHandle 
+[out]
 Pointer to a caller-allocated variable that receives a handle to the newly opened access token. 
 
 

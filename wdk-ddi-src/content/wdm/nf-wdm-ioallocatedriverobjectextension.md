@@ -55,23 +55,23 @@ The <b>IoAllocateDriverObjectExtension</b> routine allocates a per-driver contex
 
 
 
-### -param DriverObject [in]
-
+### -param DriverObject 
+[in]
 Pointer to a driver object to which the context area will be associated.
 
 
-### -param ClientIdentificationAddress [in]
-
+### -param ClientIdentificationAddress 
+[in]
 Specifies a unique identifier for the context area to be allocated.
 
 
-### -param DriverObjectExtensionSize [in]
-
+### -param DriverObjectExtensionSize 
+[in]
 Specifies the length, in bytes, of the context area to be allocated.
 
 
-### -param DriverObjectExtension [out]
-
+### -param DriverObjectExtension 
+[out]
 Pointer to, on completion, the allocated context area. 
 
 

@@ -49,8 +49,8 @@ This macro accesses the type of method as described in the [KSMETHOD_ITEM](https
 
 ## -parameters
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 Specifies the IRP passed to the handler routine.
 
 ## -remarks

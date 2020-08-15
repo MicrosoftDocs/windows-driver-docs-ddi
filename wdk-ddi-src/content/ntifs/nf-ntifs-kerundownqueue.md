@@ -55,8 +55,8 @@ The <b>KeRundownQueue</b> routine cleans up a queue object, flushing any queued 
 
 
 
-### -param Queue [in, out]
-
+### -param Queue 
+[in, out]
 Pointer to an initialized queue object for which the caller provides resident storage in nonpaged pool.
 
 

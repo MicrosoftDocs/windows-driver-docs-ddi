@@ -60,13 +60,13 @@ The <b>WdfRequestSend</b> method sends a specified I/O request to a specified I/
 
 
 
-### -param Request [in]
-
+### -param Request 
+[in]
 A handle to a framework request object.
 
 
-### -param Target [in]
-
+### -param Target 
+[in]
 A handle to a framework I/O target object. For more information about how to obtain this handle, see the following Remarks section. 
 
 

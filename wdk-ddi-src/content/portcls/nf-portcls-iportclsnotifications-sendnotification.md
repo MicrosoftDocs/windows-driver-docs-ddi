@@ -56,8 +56,8 @@ Sends a notification to the listening UWP apps, to allow for communications betw
 
 
 
-### -param NotificationId [in]
-
+### -param NotificationId 
+[in]
 KSNOTIFICATIONID_AudioModule
 
 

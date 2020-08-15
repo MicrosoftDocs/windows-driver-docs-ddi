@@ -56,20 +56,20 @@ Notifies the USB connector manager framework extension (UcmCx) with the new powe
 
 
 
-### -param Connector [in]
-
+### -param Connector 
+[in]
 Handle to the connector object that the client driver received in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucmconnectorcreate">UcmConnectorCreate</a>.
 
 
-### -param Success [in]
-
+### -param Success 
+[in]
 Used to indicate failure of a power-role swap that was initiated by UcmCx using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmmanager/nc-ucmmanager-evt_ucm_connector_set_power_role">EVT_UCM_CONNECTOR_SET_POWER_ROLE</a>. 
 
 If TRUE, the operation was successful. FALSE, otherwise.
 
 
-### -param CurrentPowerRole [in]
-
+### -param CurrentPowerRole 
+[in]
 One of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmtypes/ne-ucmtypes-_ucm_power_role">UCM_POWER_ROLE</a>-typed flags that indicates the new data role. 
 
 

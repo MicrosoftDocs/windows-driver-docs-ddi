@@ -49,32 +49,32 @@ req.typenames:
 
 ## -parameters
 
-### -param Filter [in]
-
+### -param Filter 
+[in]
 Opaque filter pointer for the caller. This parameter is required and cannot be **NULL**.
 
-### -param ClientPort [in]
-
+### -param ClientPort 
+[in]
 Pointer to a variable that contains the opaque client port pointer for the connection port between the user-mode application and the kernel-mode minifilter driver. For more information about the client port pointer, see the description of the *ConnectNotifyCallback* parameter in the reference entry for [FltCreateCommunicationPort](nf-fltkernel-fltcreatecommunicationport.md).
 
-### -param SenderBuffer [in]
-
+### -param SenderBuffer 
+[in]
 Pointer to a caller-allocated buffer containing the message to be sent to the user-mode application. This parameter is required and cannot be **NULL**.
 
-### -param SenderBufferLength [in]
-
+### -param SenderBufferLength 
+[in]
 Size, in bytes, of the buffer that *SenderBuffer* points to. See **Remarks** for more information.
 
-### -param ReplyBuffer [out, optional]
-
+### -param ReplyBuffer 
+[out, optional]
 Pointer to a caller-allocated buffer that receives the reply, if any, from the application. This parameter is optional and can be **NULL**.
 
-### -param ReplyLength [in, out]
-
+### -param ReplyLength 
+[in, out]
 Size, in bytes, of the buffer that *ReplyBuffer* points to. This parameter is optional, but must be non-**NULL** when *ReplyBuffer* is not **NULL**.
 
-### -param Timeout [in, optional]
-
+### -param Timeout 
+[in, optional]
 A pointer to a timeout value that specifies the total absolute or relative length of time, in units of 100 nanoseconds, for which the caller can be put into a wait state until the message is received by the user-mode application and until it receives a reply (if one is expected).
 
 A positive value specifies an absolute time, relative to January 1, 1601. A negative value specifies an interval relative to the current time. Set to **NULL** if the caller can be put into a wait state indefinitely.

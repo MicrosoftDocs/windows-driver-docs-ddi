@@ -55,8 +55,8 @@ Frees a Storport work item previously allocated by the <a href="https://docs.mic
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 

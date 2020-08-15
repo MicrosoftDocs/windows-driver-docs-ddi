@@ -57,18 +57,18 @@ The <b>SetPolicy</b> method specifies the interrupt priority, processor affinity
 
 
 
-### -param Policy [in]
-
+### -param Policy 
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfinterrupt/ne-wudfinterrupt-_wdf_interrupt_policy">WDF_INTERRUPT_POLICY</a>-typed enumerator that specifies a processor affinity policy for the interrupt.
 
 
-### -param Priority [in]
-
+### -param Priority 
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/ne-wdfinterrupt-_wdf_interrupt_priority">WDF_INTERRUPT_PRIORITY</a>-typed enumerator that specifies a priority for the interrupt.
 
 
-### -param TargetProcessorSet [in]
-
+### -param TargetProcessorSet 
+[in]
 A [**KAFFINITY**](https://docs.microsoft.com/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity)-typed value that specifies a processor affinity for the interrupt, if the <i>Policy</i> parameter is set to <b>WdfIrqPolicySpecifiedProcessors</b>.
 
 

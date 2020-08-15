@@ -57,53 +57,53 @@ The <b>GetSystemVersion</b> method returns information that identifies the opera
 
 
 
-### -param PlatformId [out]
-
+### -param PlatformId 
+[out]
 Receives the platform ID. <i>PlatformId</i> is always VER_PLATFORM_WIN32_NT for NT-based Windows.   
 
 
-### -param Major [out]
-
+### -param Major 
+[out]
 Receives 0xF if the target's operating system is a <a href="https://docs.microsoft.com/windows-hardware/drivers/">free build</a>, or 0xC if the operating system is a <a href="https://docs.microsoft.com/windows-hardware/drivers/">checked build</a>.
 
 
-### -param Minor [out]
-
+### -param Minor 
+[out]
 Receives the build number for the target's operating system.
 
 
-### -param ServicePackString [out, optional]
-
+### -param ServicePackString 
+[out, optional]
 Receives the string for the service pack level of the target computer.  If <i>ServicePackString</i> is <b>NULL</b>, this information is not returned.  If no service pack is installed, <i>ServicePackString</i> can be empty.
 
 
-### -param ServicePackStringSize [in]
-
+### -param ServicePackStringSize 
+[in]
 Specifies the size, in characters, of the buffer that <i>ServicePackString</i> specifies.
 
 
-### -param ServicePackStringUsed [out, optional]
-
+### -param ServicePackStringUsed 
+[out, optional]
 Receives the size, in characters, of the string of the service pack level.  If <i>ServicePackStringUsed</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param ServicePackNumber [out]
-
+### -param ServicePackNumber 
+[out]
 Receives the service pack level of the target's operating system.
 
 
-### -param BuildString [out, optional]
-
+### -param BuildString 
+[out, optional]
 Receives the string that identifies the build of the system.  If <i>BuildString</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param BuildStringSize [in]
-
+### -param BuildStringSize 
+[in]
 Specifies the size, in characters, of the buffer that <i>BuildString</i> specifies.
 
 
-### -param BuildStringUsed [out, optional]
-
+### -param BuildStringUsed 
+[out, optional]
 Receives the size, in characters, of the string that identifies the build.  If <i>BuildStringUsed</i> is <b>NULL</b>, this information is not returned.
 
 

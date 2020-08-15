@@ -55,18 +55,18 @@ The <b>ScsiPortWmiPostProcess</b> routine updates a request context for a WMI SR
 
 
 
-### -param RequestContext [in]
-
+### -param RequestContext 
+[in]
 A pointer to the request context for this SRB.
 
 
-### -param SrbStatus [in]
-
+### -param SrbStatus 
+[in]
 Specifies any valid SRB status. If the output buffer passed to the miniport driver was too small to contain all of the data from a request, the miniport driver sets <i>SrbStatus</i> to SRB_STATUS_DATA_OVERRUN.
 
 
-### -param BufferUsed [in]
-
+### -param BufferUsed 
+[in]
 If <i>SrbStatus</i> indicates success, the miniport driver sets <i>BufferUsed</i> to the number of bytes of data written to the buffer. If <i>SrbStatus</i> is SRB_STATUS_DATA_OVERRUN, the miniport driver sets <i>BufferUsed</i> to the number of bytes required to complete the SRB successfully.
 
 

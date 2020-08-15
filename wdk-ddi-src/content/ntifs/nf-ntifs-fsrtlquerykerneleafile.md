@@ -57,52 +57,52 @@ The routine <b>FsRtlQueryKernelEaFile</b> is used to build an explicit QueryEA r
 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 A pointer to a <b>FileObject</b> to send the QueryEA request to.
 
 
-### -param ReturnedEaData [out]
-
+### -param ReturnedEaData 
+[out]
 A pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_full_ea_information">FILE_FULL_EA_INFORMATION</a>-structured output buffer, where the extended attribute values are to be returned.
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 Specifies the length, in bytes, of <b>ReturnedEaData</b>
 
 
-### -param ReturnSingleEntry [in]
-
+### -param ReturnSingleEntry 
+[in]
 Specifies whether only a single entry should be returned
         rather than filling the buffer with as many EAs as possible.
 
 
-### -param EaList [in]
-
+### -param EaList 
+[in]
 A pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_get_ea_information">FILE_GET_EA_INFORMATION</a>-structured input buffer, which specifies the extended attributes to be queried. This parameter is optional and can be<b> NULL</b>.
 
 
-### -param EaListLength [in]
-
+### -param EaListLength 
+[in]
 Specifies the length of <b>EaList</b>, if an EA list was
         supplied.
 
 
-### -param EaIndex [in, optional]
-
+### -param EaIndex 
+[in, optional]
 Supplies the optional index of an EA whose value is to be
         returned.  If specified, then only that EA is returned.
 
 
-### -param RestartScan [in]
-
+### -param RestartScan 
+[in]
 Specifies whether the scan of the EAs should be restarted
         from the beginning.
 
 
-### -param LengthReturned [out, optional]
-
+### -param LengthReturned 
+[out, optional]
 Specifies the amount of valid data that is returned in the
         <b>ReturnedEaData</b> buffer.
 

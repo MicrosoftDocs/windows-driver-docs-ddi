@@ -50,12 +50,12 @@ The **KsDiscard**macro removes a given item from an object bag.
 
 ## -parameters
 
-### -param Object [in]
-
+### -param Object 
+[in]
 The item pointed to by *Pointer* is removed from the object bag associated with this object. Can be of type [KSDEVICE](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice), [KSFILTERFACTORY](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilterfactory), [KSFILTER](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter), or [KSPIN](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin).
 
-### -param Pointer [in]
-
+### -param Pointer 
+[in]
 A pointer to the item to be removed from the requested object's bag.
 
 ## -remarks

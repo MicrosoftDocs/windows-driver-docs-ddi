@@ -55,30 +55,30 @@ The <b>ReadUnicodeStringVirtualWide</b> method reads a null-terminated, Unicode 
 
 
 
-### -param Offset [in]
-
+### -param Offset 
+[in]
 Specifies the location of the string in the process's virtual address space.
 
 
-### -param MaxBytes [in]
-
+### -param MaxBytes 
+[in]
 Specifies the maximum number of bytes to read from the target.
 
 
-### -param Buffer [out, optional]
-
+### -param Buffer 
+[out, optional]
 Receives the string from the target.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 <div class="alert"><b>Note</b>    The remainder of the buffer, following the returned string, might be overwritten by this method.</div>
 <div> </div>
 
-### -param BufferSize [in]
-
+### -param BufferSize 
+[in]
 Specifies the size, in characters, of the <i>Buffer</i> buffer.
 
 
-### -param StringBytes [out, optional]
-
+### -param StringBytes 
+[out, optional]
 Receives the size, in bytes, of the string.  If <i>StringBytes</i> is <b>NULL</b>, this information is not returned.
 
 

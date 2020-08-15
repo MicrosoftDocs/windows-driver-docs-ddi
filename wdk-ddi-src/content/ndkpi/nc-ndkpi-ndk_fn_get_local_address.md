@@ -55,8 +55,8 @@ The <i>NdkGetLocalAddress</i> (<i>NDK_FN_GET_LOCAL_ADDRESS</i>) function returns
 
 
 
-### -param pNdkConnector [in]
-
+### -param pNdkConnector 
+[in]
 A pointer to an NDK connector object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_connector">NDK_CONNECTOR</a>).
 
 

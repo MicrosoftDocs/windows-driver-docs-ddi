@@ -55,23 +55,23 @@ Called by the display miniport driver to report info about an encode chunk.
 
 
 
-### -param MiracastHandle [in]
-
+### -param MiracastHandle 
+[in]
 A driver-supplied handle to the Miracast display device. This handle was originally passed in the <b>MiracastHandle</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_miracast_display_callbacks">DXGK_MIRACAST_DISPLAY_CALLBACKS</a> structure in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_miracast_create_context">DxgkDdiMiracastCreateContext</a> function.
 
 
-### -param pChunkInfo [in]
-
+### -param pChunkInfo 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-dxgk_miracast_chunk_info">DXGK_MIRACAST_CHUNK_INFO</a> structure that contains chunk information that is to be reported by the display miniport driver.
 
 
-### -param pPrivateDriverData [in]
-
+### -param pPrivateDriverData 
+[in]
 Reserved for system use. Must be set to <b>NULL</b>.
 
 
-### -param PrivateDataDriverSize [in]
-
+### -param PrivateDataDriverSize 
+[in]
 Reserved for system use. Must be set to zero.
 
 

@@ -57,21 +57,21 @@ For more information about interrupt moderation, see <a href="https://docs.micro
 
 
 
-### -param pNdkCq [in]
-
+### -param pNdkCq 
+[in]
 A pointer to an NDK completion queue object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_cq">NDK_CQ</a>).
 
 
 
-### -param ModerationInterval [in]
-
+### -param ModerationInterval 
+[in]
 
 The maximum number of microseconds that a provider can defer interrupting the host CPU after a completion placed into the CQ satisfies an arm request. If <i>ModerationInterval</i> is zero, the provider performs no interrupt moderation  on the CQ regardless of the value of the <i>ModerationCount</i> parameter. If <i>ModerationInterval</i> is MAXULONG, the  <i>ModerationCount</i> controls the interrupt moderation on the CQ. If <i>ModerationInterval</i> is larger than the maximum moderation interval that the adapter supports or if the adapter’s timer granularity is larger, the provider can round down the interval value. 
 
 
 
-### -param ModerationCount [in]
-
+### -param ModerationCount 
+[in]
 
 The maximum number of completions that a provider can accumulate in the CQ before interrupting the host CPU to satisfy a CQ arm request. If  <i>ModerationInterval</i> is zero  or one,  the provider performs no interrupt moderation on the CQ regardless of the value of the <i>ModerationInterval</i> parameter. If <i>ModerationCount</i> is MAXULONG or larger than the depth of the CQ,   <i>ModerationInterval</i> controls the interrupt moderation on the CQ. 
 

@@ -56,13 +56,13 @@ Indicates the client driver's support for reporting new hardware events.
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to the framework device object that the client driver retrieved in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a>.
 
 
-### -param HardwareEventReportingSupported [in]
-
+### -param HardwareEventReportingSupported 
+[in]
 A boolean value that indicates support for  reporting hardware events. 
 
 TRUE indicates the client driver will report hardware events by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ursdevice/nf-ursdevice-ursreporthardwareevent">UrsReportHardwareEvent</a>. 

@@ -58,23 +58,23 @@ The <b>WdfChildListRetrieveNextDevice</b> method traverses a specified child lis
 
 
 
-### -param ChildList [in]
-
+### -param ChildList 
+[in]
 A handle to a framework child-list object.
 
 
-### -param Iterator [in]
-
+### -param Iterator 
+[in]
 A pointer to the same caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfchildlist/ns-wdfchildlist-_wdf_child_list_iterator">WDF_CHILD_LIST_ITERATOR</a> structure that the driver previously supplied to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfchildlist/nf-wdfchildlist-wdfchildlistbeginiteration">WdfChildListBeginIteration</a>.
 
 
-### -param Device [out]
-
+### -param Device 
+[out]
 A pointer to a location that receives a handle to a framework device object. The received value is <b>NULL</b> if the <i>Iterator</i> parameter specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfchildlist/ne-wdfchildlist-_wdf_retrieve_child_flags">WdfRetrievePendingChildren</a> flag.
 
 
-### -param Info [in, out]
-
+### -param Info 
+[in, out]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfchildlist/ns-wdfchildlist-_wdf_child_retrieve_info">WDF_CHILD_RETRIEVE_INFO</a> structure. This pointer is optional and can be <b>NULL</b>.
 
 

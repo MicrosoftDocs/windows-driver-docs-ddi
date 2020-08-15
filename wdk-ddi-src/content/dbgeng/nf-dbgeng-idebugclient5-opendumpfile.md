@@ -59,8 +59,8 @@ The <b>OpenDumpFile</b> method opens a dump file as a debugger target.
 
 
 
-### -param DumpFile [in]
-
+### -param DumpFile 
+[in]
 Specifies the name of the dump file to open.  <i>DumpFile</i> must include the file name extension. <i>DumpFile</i> can include a relative or absolute path; relative paths are relative to the directory in which the debugger was started.  <i>DumpFile</i> can have the form of a file URL, starting with "file://".  If <i>DumpFile</i> specifies a cabinet (.cab) file, the cabinet file is searched for the first file with extension .kdmp, then .hdmp, then .mdmp, and finally .dmp.
 
 

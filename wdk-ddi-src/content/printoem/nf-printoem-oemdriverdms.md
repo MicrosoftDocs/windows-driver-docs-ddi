@@ -57,11 +57,11 @@ req.typenames:
 ### -param pDevObj
 
 
-### -param pBuffer [out]
-
+### -param pBuffer 
+[out]
 
 ### -param cbSize
 
 
-### -param pcbNeeded [out]
-
+### -param pcbNeeded 
+[out]

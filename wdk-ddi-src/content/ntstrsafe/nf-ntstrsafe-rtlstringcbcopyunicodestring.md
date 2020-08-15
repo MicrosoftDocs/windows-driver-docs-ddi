@@ -56,18 +56,18 @@ The <b>RtlStringCbCopyUnicodeString</b> function copies the contents of a <a hre
 
 
 
-### -param pszDest [out]
-
+### -param pszDest 
+[out]
 A pointer to a buffer that receives the copied string. The string that the <i>SourceString</i> parameter's <b>UNICODE_STRING</b> structure points to is copied to the buffer at <i>pszDest</i> and terminated with a null character. 
 
 
-### -param cbDest [in]
-
+### -param cbDest 
+[in]
 The size, in bytes, of the destination buffer that <i>pszDest</i> points to. The buffer must be large enough to contain the string and the terminating null character. The maximum number of bytes in the buffer is NTSTRSAFE_UNICODE_STRING_MAX_CCH * <b>sizeof</b>(WCHAR).
 
 
-### -param SourceString [in]
-
+### -param SourceString 
+[in]
 A pointer to a <b>UNICODE_STRING</b> structure that contains the string to be copied. The maximum number of bytes in the string is NTSTRSAFE_UNICODE_STRING_MAX_CCH * <b>sizeof</b>(WCHAR).
 
 

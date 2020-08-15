@@ -55,23 +55,23 @@ The <b>IoGetDeviceObjectPointer</b> routine returns a pointer to the top object 
 
 
 
-### -param ObjectName [in]
-
+### -param ObjectName 
+[in]
 Pointer to a buffer that contains a Unicode string that is the name of the device object.
 
 
-### -param DesiredAccess [in]
-
+### -param DesiredAccess 
+[in]
 Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that represents the desired access. Usually <i>DesiredAccess</i> is FILE_READ_DATA. Infrequently, the FILE_WRITE_DATA, or FILE_ALL_ACCESS access rights are specified.
 
 
-### -param FileObject [out]
-
+### -param FileObject 
+[out]
 Pointer to the file object that represents the corresponding device object to user-mode code if the call is successful.
 
 
-### -param DeviceObject [out]
-
+### -param DeviceObject 
+[out]
 Pointer to the device object that represents the named logical, virtual, or physical device if the call is successful.
 
 

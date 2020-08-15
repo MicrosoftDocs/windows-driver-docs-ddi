@@ -55,13 +55,13 @@ The <b>MmSizeOfMdl</b> routine returns the number of bytes to allocate for an MD
 
 
 
-### -param Base [in]
-
+### -param Base 
+[in]
 Pointer to the base virtual address for the range. 
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 Supplies the size, in bytes, of the range. 
 
 

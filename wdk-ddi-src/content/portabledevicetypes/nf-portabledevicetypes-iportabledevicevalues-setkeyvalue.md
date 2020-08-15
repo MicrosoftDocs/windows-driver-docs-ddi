@@ -59,13 +59,13 @@ Adds a new <b>REFPROPERTYKEY</b> value (type VT_UNKNOWN) or overwrites an existi
 
 
 
-### -param key [in]
-
+### -param key 
+[in]
 A <b>REFPROPERTYKEY</b> that specifies the item to create or overwrite.
 
 
-### -param Value [in]
-
+### -param Value 
+[in]
 A <b>REFPROPERTYKEY</b> that specifies the new value.
 
 

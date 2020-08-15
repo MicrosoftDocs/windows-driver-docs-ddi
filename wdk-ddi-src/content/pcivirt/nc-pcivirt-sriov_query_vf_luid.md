@@ -72,20 +72,20 @@ typedef SRIOV_QUERY_VF_LUID *PSRIOV_QUERY_VF_LUID;
 
 
 
-### -param Context [in]
-
+### -param Context 
+[in]
 A pointer to a driver-defined context.
 
 
 
 
-### -param VfIndex [in]
-
+### -param VfIndex 
+[in]
 A zero-based index of the VF that is being queried.
 
 
-### -param Luid [out]
-
+### -param Luid 
+[out]
 A pointer to the local unique
 identifier of the SR_IOV device implementing the interface.
 

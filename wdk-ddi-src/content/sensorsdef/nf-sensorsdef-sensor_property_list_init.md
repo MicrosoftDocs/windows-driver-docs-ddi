@@ -55,13 +55,13 @@ This function initializes a <a href="https://docs.microsoft.com/windows-hardware
 
 
 
-### -param pPropertyList [out]
-
+### -param pPropertyList 
+[out]
 The list of PROPERTYKEY elements.
 
 
-### -param PropertyListSize [in]
-
+### -param PropertyListSize 
+[in]
 The size of pPropertyList.
 
 

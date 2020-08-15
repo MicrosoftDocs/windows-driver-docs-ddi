@@ -56,8 +56,8 @@ Analyzes a power trace session that has already been collected and stored in the
 
 
 
-### -param EventFilePath [in]
-
+### -param EventFilePath 
+[in]
 Specifies the location to store the trace message (.etl)
     log file.
 

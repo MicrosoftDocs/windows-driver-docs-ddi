@@ -66,23 +66,23 @@ NTSYSAPI NTSTATUS RtlRunOnceExecuteOnce(
 
 
 
-### -param RunOnce [in, out]
-
+### -param RunOnce 
+[in, out]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">RTL_RUN_ONCE</a> one-time initialization structure.
 
 
-### -param InitFn [in]
-
+### -param InitFn 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nc-ntddk-rtl_run_once_init_fn">RunOnceInitialization</a> routine.
 
 
-### -param Parameter [in, out]
-
+### -param Parameter 
+[in, out]
 The value to pass as the <i>Parameter</i> parameter to the <i>RunOnceInitialization</i> routine.
 
 
-### -param Context [out]
-
+### -param Context 
+[out]
 A pointer to a PVOID variable that receives the initialized data.
 
 

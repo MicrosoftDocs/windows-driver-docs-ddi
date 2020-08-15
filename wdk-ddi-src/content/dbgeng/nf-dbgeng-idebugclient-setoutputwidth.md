@@ -56,8 +56,8 @@ req.typenames:
 
 
 
-### -param Columns [in]
-
+### -param Columns 
+[in]
 The number of columns in the output.
 
 

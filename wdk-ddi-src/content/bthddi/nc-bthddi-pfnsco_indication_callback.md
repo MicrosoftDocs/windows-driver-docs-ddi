@@ -57,8 +57,8 @@ Profile drivers implement a SCO callback function to provide the Bluetooth drive
 
 
 
-### -param Context [in]
-
+### -param Context 
+[in]
 For incoming remote connection request indications, this is the context specified by the profile
      driver in the 
      <b>IndicationCallbackContext</b> member of the 
@@ -69,15 +69,15 @@ For incoming remote connection request indications, this is the context specifie
      <a href="https://docs.microsoft.com/previous-versions/ff536626(v=vs.85)">BRB_SCO_OPEN_CHANNEL</a> BRB.
 
 
-### -param Indication [in]
-
+### -param Indication 
+[in]
 A 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_sco_indication_code">SCO_INDICATION_CODE</a> value that indicates
      the type of SCO event.
 
 
-### -param Parameters [in]
-
+### -param Parameters 
+[in]
 A 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_sco_indication_parameters">
      SCO_INDICATION_PARAMETERS</a> structure that contains parameter information based on the value passed

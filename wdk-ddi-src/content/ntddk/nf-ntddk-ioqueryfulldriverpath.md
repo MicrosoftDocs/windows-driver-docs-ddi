@@ -55,13 +55,13 @@ The <b>IoQueryFullDriverPath</b> routine retrieves the full path name of the bin
 
 
 
-### -param DriverObject [in]
-
+### -param DriverObject 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a> structure. If you are calling **IoQueryFullDriverPath** on a computer running a version of Windows 10 earlier than version 1709, this structure is required to be the driver object for the calling driver.
 
 
-### -param FullPath [out]
-
+### -param FullPath 
+[out]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure. On successful return, this structure contains the path name.
 
 

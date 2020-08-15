@@ -55,23 +55,23 @@ The HID source driver implements this event callback if it wants to support one 
 
 
 
-### -param VhfClientContext [in]
-
+### -param VhfClientContext 
+[in]
 An opaque pointer to a HID source driver-defined buffer that the driver passed in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vhf/ns-vhf-_vhf_config">VHF_CONFIG</a> structure supplied to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vhf/nf-vhf-vhfcreate">VhfCreate</a> to create the virtual HID device.
 
 
-### -param VhfOperationHandle [in]
-
+### -param VhfOperationHandle 
+[in]
 An opaque handle that uniquely identifies this asynchronous operation. 
 
 
-### -param VhfOperationContext [in, optional]
-
+### -param VhfOperationContext 
+[in, optional]
 Pointer to a buffer that can be used by the HID source driver for servicing the operation. Size of the buffer is specified by the HID source driver in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vhf/ns-vhf-_vhf_config">VHF_CONFIG</a> structure supplied to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vhf/nf-vhf-vhfcreate">VhfCreate</a>.
 
 
-### -param HidTransferPacket [in]
-
+### -param HidTransferPacket 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidclass/ns-hidclass-_hid_xfer_packet">HID_XFER_PACKET</a> structure. Contains information about a HID Report and is used by the HID source driver and the HID class/mini driver pair for I/O requests to get or set a report.
 
 

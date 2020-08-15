@@ -57,23 +57,23 @@ req.typenames:
 
 
 
-### -param DescriptorBuffer [in]
-
+### -param DescriptorBuffer 
+[in]
 Pointer to a configuration descriptor that contains the descriptor for which to search.
 
 
-### -param TotalLength [in]
-
+### -param TotalLength 
+[in]
 Specifies the size, in bytes, of the buffer pointed to by <i>DescriptorBuffer</i>.
 
 
-### -param StartPosition [in]
-
+### -param StartPosition 
+[in]
 Pointer to the address within the configuration descriptor, provided at <i>DescriptorBuffer</i>, to begin searching from. To search from the beginning of the configuration descriptor, the parameters <i>DescriptorBuffer</i> and <i>StartPosition</i> must be the same address.
 
 
-### -param DescriptorType [in]
-
+### -param DescriptorType 
+[in]
 Specifies the descriptor type code as assigned by USB. The following values are valid for USB-defined descriptor types:
 
 

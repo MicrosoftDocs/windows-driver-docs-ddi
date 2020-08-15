@@ -55,13 +55,13 @@ The <b>GetSymbolRegister</b> method returns the register that contains the value
 
 
 
-### -param Index [in]
-
+### -param Index 
+[in]
 The index of the symbol to return the register for. The index of a symbol is an identification number. The index ranges from zero through the number of symbols in the symbol group minus one.
 
 
-### -param Register [out]
-
+### -param Register 
+[out]
 The index of the register that contains the value or a pointer to the value of the symbol.
 
 

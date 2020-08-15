@@ -56,18 +56,18 @@ The<b> KsFilterCreateNode</b> function creates a new topology node on the specif
 
 
 
-### -param Filter [in]
-
+### -param Filter 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a> structure on which to create a new topology node.
 
 
-### -param NodeDescriptor [in]
-
+### -param NodeDescriptor 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksnode_descriptor">KSNODE_DESCRIPTOR</a> structure that describes the new node.
 
 
-### -param NodeID [out]
-
+### -param NodeID 
+[out]
 A pointer to a ULONG where AVStream places the ID of the new node.
 
 

@@ -56,13 +56,13 @@ The <b>ZwFlushBuffersFile</b> routine is called by a file system filter driver t
 
 
 
-### -param FileHandle [in]
-
+### -param FileHandle 
+[in]
 Handle returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntopenfile">ZwOpenFile</a> for the file whose buffers will be flushed. This parameter is required and cannot be <b>NULL</b>.
 
 
-### -param IoStatusBlock [out]
-
+### -param IoStatusBlock 
+[out]
 Address of the caller's I/O status block. This parameter is required and cannot be <b>NULL</b>.
 
 

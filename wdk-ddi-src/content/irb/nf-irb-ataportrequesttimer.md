@@ -55,8 +55,8 @@ The <b>AtaPortRequestTimer</b> routine requests a timer callback.
 
 
 
-### -param ChannelExtension [in]
-
+### -param ChannelExtension 
+[in]
 A pointer to the channel extension. 
 
 
@@ -65,8 +65,8 @@ A pointer to the channel extension.
 <p>A pointer to the timer routine. </p>
 
 
-### -param TimerValue [in]
-
+### -param TimerValue 
+[in]
 Time interval in units of microseconds.
 
 

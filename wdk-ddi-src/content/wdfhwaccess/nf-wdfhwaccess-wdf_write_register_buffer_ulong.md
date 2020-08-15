@@ -57,23 +57,23 @@ The <b>WDF_WRITE_REGISTER_BUFFER_ULONG</b> function writes a number of ULONG val
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object.
 
 
-### -param Register [in]
-
+### -param Register 
+[in]
 A pointer to the register, which must be a mapped range in memory space.
 
 
-### -param Buffer [in]
-
+### -param Buffer 
+[in]
 A pointer to a buffer from which an array of ULONG values is to be written.
 
 
-### -param Count [in]
-
+### -param Count 
+[in]
 Specifies the number of ULONG values to write to the register.
 
 

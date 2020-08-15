@@ -60,8 +60,8 @@ Removes the element stored at the location specified by the given index.
 
 
 
-### -param dwIndex [in]
-
+### -param dwIndex 
+[in]
 Specifies the index of the element to be removed.
 
 

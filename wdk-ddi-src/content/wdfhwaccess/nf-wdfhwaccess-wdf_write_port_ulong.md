@@ -58,18 +58,18 @@ The <b>WDF_WRITE_PORT_ULONG</b> function writes a ULONG value to the specified p
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object.
 
 
-### -param Port [in]
-
+### -param Port 
+[in]
 A pointer to the port, which must be a mapped memory range in I/O space.
 
 
-### -param Value [in]
-
+### -param Value 
+[in]
 Specifies a ULONG value to be written to the port. 
 
 

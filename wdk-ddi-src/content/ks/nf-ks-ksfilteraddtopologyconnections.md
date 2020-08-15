@@ -56,18 +56,18 @@ The<b> KsFilterAddTopologyConnections</b> function adds new topology connections
 
 
 
-### -param Filter [in]
-
+### -param Filter 
+[in]
 <i>A pointer</i> to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a> to which to add the new connections.
 
 
-### -param NewConnectionsCount [in]
-
+### -param NewConnectionsCount 
+[in]
 The number of connections in <i>NewTopologyConnections</i>.
 
 
-### -param NewTopologyConnections [in]
-
+### -param NewTopologyConnections 
+[in]
 A pointer to an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-kstopology_connection">KSTOPOLOGY_CONNECTION</a> structures containing the new topology connections.
 
 

@@ -58,8 +58,8 @@ The <b>GetCurrentThreadId</b> method returns the engine thread ID for the curren
 
 
 
-### -param Id [out]
-
+### -param Id 
+[out]
 Receives the engine thread ID.
 
 

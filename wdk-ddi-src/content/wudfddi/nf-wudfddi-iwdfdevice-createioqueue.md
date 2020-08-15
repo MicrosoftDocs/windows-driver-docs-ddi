@@ -57,35 +57,35 @@ The <b>CreateIoQueue</b> method configures the default I/O queue that is associa
 
 
 
-### -param pCallbackInterface [in, optional]
-
+### -param pCallbackInterface 
+[in, optional]
 A pointer to the <b>IUnknown</b> interface that the framework uses to determine the event callback functions that the driver subscribes to on the queue. These are the functions that the framework calls when the relevant events occur.
 
  For UMDF versions 1.9 and later, this parameter is required for I/O queues that use the sequential or parallel <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/configuring-dispatch-mode-for-an-i-o-queue">dispatching method</a><u>,</u> and it is optional (can be <b>NULL</b>) for I/O queues that use the manual dispatching method. For UMDF versions earlier than 1.9, this parameter is required for all dispatching methods.
 
 
-### -param bDefaultQueue [in]
-
+### -param bDefaultQueue 
+[in]
 A BOOL value that specifies whether to configure the default I/O queue or create a secondary I/O queue for the device. <b>TRUE</b> indicates to configure the default I/O queue; <b>FALSE</b> indicates to create a secondary I/O queue.
 
 
-### -param DispatchType [in]
-
+### -param DispatchType 
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/ne-wdfio-_wdf_io_queue_dispatch_type">WDF_IO_QUEUE_DISPATCH_TYPE</a>-typed value that identifies how the driver must receive requests from the I/O queue.
 
 
-### -param bPowerManaged [in]
-
+### -param bPowerManaged 
+[in]
 A BOOL value that specifies whether the I/O queue is power managed. <b>TRUE</b> indicates the framework automatically coordinates dispatching for the I/O queue with Plug and Play (PnP) and the power state of the device; <b>FALSE</b> indicates no automatically coordinated dispatching.
 
 
-### -param bAllowZeroLengthRequests [in]
-
+### -param bAllowZeroLengthRequests 
+[in]
 A BOOL value that specifies whether the framework puts zero-length I/O requests directly in the I/O queue for the driver to handle. <b>TRUE</b> indicates that the driver should receive read and write requests that have zero-length buffers--that is, the framework automatically puts these request types directly in the I/O queue for the driver. <b>FALSE</b> indicates that the framework completes zero-length I/O requests instead of putting them in the I/O queue.
 
 
-### -param ppIoQueue [out]
-
+### -param ppIoQueue 
+[out]
 A pointer to a variable that receives a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfioqueue">IWDFIoQueue</a> interface for the newly created I/O queue object or the default I/O queue object.
 
 

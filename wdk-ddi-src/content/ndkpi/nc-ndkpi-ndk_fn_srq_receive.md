@@ -55,14 +55,14 @@ The <i>NdkSrqReceive</i> (<i>NDK_FN_SRQ_RECEIVE</i>) function posts a receive re
 
 
 
-### -param pNdkSrq [in]
-
+### -param pNdkSrq 
+[in]
 A pointer to an NDK shared receive queue (SRQ) object
 (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_srq">NDK_SRQ</a>).
 
 
-### -param RequestContext [in, optional]
-
+### -param RequestContext 
+[in, optional]
 A context value to be returned in the <b>RequestContext</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_result">NDK_RESULT</a> structure for this request.
 
 
@@ -72,8 +72,8 @@ A context value to be returned in the <b>RequestContext</b> member of the <a hre
 An array of SGE structures (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_sge">NDK_SGE</a>) that represent the buffers to receive incoming data.
 
 
-### -param nSge [in]
-
+### -param nSge 
+[in]
 The number of SGE structures in the array  that is specified in the <i>pSgl</i>
 parameter.
 

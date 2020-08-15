@@ -58,13 +58,13 @@ The <b>GetProcessIdByPeb</b> method returns the engine process ID for the specif
 
 
 
-### -param Offset [in]
-
+### -param Offset 
+[in]
 Specifies the location in the target's virtual address space of the PEB of the process whose process ID is requested.
 
 
-### -param Id [out]
-
+### -param Id 
+[out]
 Receives the engine process ID.
 
 

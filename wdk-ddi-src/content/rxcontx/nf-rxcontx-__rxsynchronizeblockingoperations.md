@@ -55,23 +55,23 @@ req.typenames:
 
 
 
-### -param RxContext [in, out]
-
+### -param RxContext 
+[in, out]
 A pointer to the RX_CONTEXT of the operation being synchronized. 
 
 
-### -param Fcb [in]
-
+### -param Fcb 
+[in]
 A pointer to the FCB. 
 
 
-### -param BlockingIoQ [in, out]
-
+### -param BlockingIoQ 
+[in, out]
 A pointer to the LIST_ENTRY for the queue. 
 
 
-### -param DropFcbLock [in]
-
+### -param DropFcbLock 
+[in]
 A Boolean value that indicates if the FCB resource should be released. If this parameter is <b>TRUE</b>, then the FCB resource will be released. 
 
 

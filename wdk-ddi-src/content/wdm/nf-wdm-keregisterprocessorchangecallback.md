@@ -55,8 +55,8 @@ The <b>KeRegisterProcessorChangeCallback</b> routine registers a callback functi
 
 
 
-### -param CallbackFunction [in]
-
+### -param CallbackFunction 
+[in]
 A pointer to a driver-supplied processor change callback function that is to be called by the operating system whenever a new processor is added to the hardware partition. A processor change callback function is defined as follows:
 
 <div class="code"><span codelanguage=""><table>
@@ -97,13 +97,13 @@ A pointer to a variable that contains an NTSTATUS code. A device driver must not
 The processor change callback function is called at IRQL = PASSIVE_LEVEL.
 
 
-### -param CallbackContext [in, optional]
-
+### -param CallbackContext 
+[in, optional]
 A driver-supplied context that is passed to the callback function. This parameter can be <b>NULL</b>.
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 Optional flags that modify the behavior of the <b>KeRegisterProcessorChangeCallback</b> routine. The following is one possible flag:
 
 

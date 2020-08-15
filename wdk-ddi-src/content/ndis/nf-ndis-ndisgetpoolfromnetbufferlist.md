@@ -59,8 +59,8 @@ Call the
 
 
 
-### -param NetBufferList [in]
-
+### -param NetBufferList 
+[in]
 A pointer to a previously allocated 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
 

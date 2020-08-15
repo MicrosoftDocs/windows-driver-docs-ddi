@@ -55,8 +55,8 @@ The <b>RtlNtStatusToDosErrorNoTeb</b>  routine converts the specified NTSTATUS c
 
 
 
-### -param Status [in]
-
+### -param Status 
+[in]
 The NTSTATUS code to be converted.
 
 

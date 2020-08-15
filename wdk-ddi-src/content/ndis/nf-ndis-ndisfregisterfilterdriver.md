@@ -59,8 +59,8 @@ A filter driver calls the
 
 
 
-### -param DriverObject [in]
-
+### -param DriverObject 
+[in]
 A pointer to an opaque driver object that the filter driver received in its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine at the 
      <i>Argument1</i> parameter. (For more information, see 
@@ -68,8 +68,8 @@ A pointer to an opaque driver object that the filter driver received in its
      Drivers</a>.)
 
 
-### -param FilterDriverContext [in]
-
+### -param FilterDriverContext 
+[in]
 A handle to a driver-allocated context area where the driver maintains state and configuration
      information.
 
@@ -82,8 +82,8 @@ A pointer to an
      its 
      <i>FilterXxx</i> function entry points.
 
-### -param NdisFilterDriverHandle [out]
-
+### -param NdisFilterDriverHandle 
+[out]
 A pointer to a handle variable. If the call to 
      <b>
     NdisFRegisterFilterDriver</b> succeeds, NDIS fills this variable with a filter driver handle. The

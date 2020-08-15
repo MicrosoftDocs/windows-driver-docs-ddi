@@ -56,23 +56,23 @@ The <b>KsGetImageNameAndResourceId</b> function returns the image name and resou
 
 
 
-### -param RegKey [in]
-
+### -param RegKey 
+[in]
 Specifies a handle for which to return the image name and resource identifier.
 
 
-### -param ImageName [out]
-
+### -param ImageName 
+[out]
 A caller-allocated buffer that receives the image name for the specified resource.
 
 
-### -param ResourceId [out]
-
+### -param ResourceId 
+[out]
 Pointer to a caller-supplied variable that receives the resource identifier.
 
 
-### -param ValueType [out]
-
+### -param ValueType 
+[out]
 Pointer to a location into which the function returns the value type of the specified resource.
 
 

@@ -55,13 +55,13 @@ The <i>CsqReleaseLock</i> routine is used by the system to release the lock that
 
 
 
-### -param Csq [in]
-
+### -param Csq 
+[in]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">IO_CSQ</a> structure for the cancel-safe IRP queue.
 
 
-### -param Irql [in]
-
+### -param Irql 
+[in]
 Specifies an IRQL. This is the value stored by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_acquire_lock">CsqAcquireLock</a> when the lock was acquired. 
 
 

@@ -55,23 +55,23 @@ The <b>RtlGetDaclSecurityDescriptor</b> routine returns a pointer to the discret
 
 
 
-### -param SecurityDescriptor [in]
-
+### -param SecurityDescriptor 
+[in]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a> whose DACL is to be returned.
 
 
-### -param DaclPresent [out]
-
+### -param DaclPresent 
+[out]
 Pointer to a Boolean variable that indicates the presence of a DACL in the specified security descriptor. If this variable receives <b>TRUE</b>, the security descriptor contains a DACL, and the remaining output parameters receive valid values. If this variable receives <b>FALSE</b>, the security descriptor does not contain a DACL, and the remaining output parameters do not receive valid values.
 
 
-### -param Dacl [out]
-
+### -param Dacl 
+[out]
 Pointer to a variable that receives the address of the DACL for the security descriptor. If the security descriptor does not have a DACL, this variable does not receive a value. If the security descriptor has a <b>NULL</b> DACL, this variable receives <b>NULL</b>. A <b>NULL</b> DACL implicitly allows all access to an object.
 
 
-### -param DaclDefaulted [out]
-
+### -param DaclDefaulted 
+[out]
 Pointer to a Boolean variable that receives the value of the SE_DACL_DEFAULTED flag in the security descriptor's SECURITY_DESCRIPTOR_CONTROL structure. If this flag is <b>TRUE</b>, the DACL was retrieved by a default mechanism. If it is <b>FALSE</b>, the DACL was explicitly specified by a user. This value is valid only if <i>*Dacl</i> receives a non-<b>NULL</b> value. 
 
 

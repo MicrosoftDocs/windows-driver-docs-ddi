@@ -55,18 +55,18 @@ The <b>VideoPortQueryServices</b> function exposes a specified interface that is
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 Pointer to the miniport driver's device extension.
 
 
-### -param ServicesType [in]
-
+### -param ServicesType 
+[in]
 A value from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ne-video-video_port_services">VIDEO_PORT_SERVICES</a> enumerated type that specifies which interface is being requested.
 
 
-### -param Interface [in, out]
-
+### -param Interface 
+[in, out]
 Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_interface">INTERFACE</a> structure, which contains basic information about the requested interface. See the following <b>Remarks</b> section for more information.
 
 

@@ -55,8 +55,8 @@ The <b>SeUnlockSubjectContext</b> routine unlocks the tokens of a captured subje
 
 
 
-### -param SubjectContext [in]
-
+### -param SubjectContext 
+[in]
 Pointer to a SECURITY_SUBJECT_CONTEXT structure whose tokens are to be unlocked.
 
 

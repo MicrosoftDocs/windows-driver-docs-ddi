@@ -56,13 +56,13 @@ The <b>ZwSetEvent</b> routine sets an event object to a Signaled state and attem
 
 
 
-### -param EventHandle [in]
-
+### -param EventHandle 
+[in]
 A handle to an event object.
 
 
-### -param PreviousState [out, optional]
-
+### -param PreviousState 
+[out, optional]
 An optional pointer to a variable where the previous state of the event object is stored on output. 
 
 

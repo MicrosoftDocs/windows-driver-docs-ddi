@@ -55,18 +55,18 @@ The <b>StorPortGetSystemAddress</b> routine returns a virtual address in system 
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param Srb [in]
-
+### -param Srb 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_scsi_request_block">SCSI_REQUEST_BLOCK</a> structure.
 
 
-### -param SystemAddress [out]
-
+### -param SystemAddress 
+[out]
 A pointer to receive the virtual address of the data buffer.
 
 

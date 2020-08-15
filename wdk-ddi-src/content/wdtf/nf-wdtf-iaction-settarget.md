@@ -55,14 +55,14 @@ The <b>SetTarget</b> method is used internally by WDTF. Do not call this method 
 
 
 
-### -param pMainTarget [in]
-
+### -param pMainTarget 
+[in]
 The main target for the implementation to use. This target is the one 
 that <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nf-wdtf-iwdtftarget2-getinterface">IWDTFTarget2::GetInterface</a> was called on.
 
 
-### -param MoreTargets [in]
-
+### -param MoreTargets 
+[in]
 Optional additional targets for the implementation. Currently, the <i>MoreTargets</i> parameter will always be VT_EMPTY. You should fail the <b>SetTarget</b> call if this parameter is anything other than VT_EMPTY.  
 
 

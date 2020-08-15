@@ -56,13 +56,13 @@ The <b>FsRtlIssueDeviceIoControl</b> routine sends a synchronous device I/O cont
 
 
 
-### -param DeviceObject [in]
-
+### -param DeviceObject 
+[in]
 The target device object.
 
 
-### -param IoCtl [in]
-
+### -param IoCtl 
+[in]
 The IOCTL control code to issue.
 
 
@@ -71,28 +71,28 @@ The IOCTL control code to issue.
 <p>The desired IRP flags to set for IOCTL request.</p>
 
 
-### -param InputBuffer [in, optional]
-
+### -param InputBuffer 
+[in, optional]
 An optional buffer containing the input data for the request.
 
 
-### -param InputBufferLength [in]
-
+### -param InputBufferLength 
+[in]
 The length, in bytes, of the input data in <i>InputBuffer</i>.
 
 
-### -param OutputBuffer [out, optional]
-
+### -param OutputBuffer 
+[out, optional]
 An optional caller-supplied output buffer for returned data.
 
 
-### -param OutputBufferLength [in]
-
+### -param OutputBufferLength 
+[in]
 The length, in bytes, of the output data buffer at <i>OutputBuffer</i>.
 
 
-### -param IosbInformation [in]
-
+### -param IosbInformation 
+[in]
 A pointer to a <b>ULONG</b> status value to receive the information field value set in the I/O status block at completion of the request.
 
 

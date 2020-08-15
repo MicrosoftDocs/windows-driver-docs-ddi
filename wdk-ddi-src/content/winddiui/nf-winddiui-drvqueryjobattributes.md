@@ -49,16 +49,16 @@ The **DrvQueryJobAttributes** function allows a printer interface DLL to specify
 
 ## -parameters
 
-### -param hPrinter [in]
-
+### -param hPrinter 
+[in]
 Caller-supplied printer handle.
 
-### -param pDevMode [in]
-
+### -param pDevMode 
+[in]
 Caller-supplied pointer to a [DEVMODEW](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew) structure.
 
-### -param dwLevel [in]
-
+### -param dwLevel 
+[in]
 Caller-supplied value indicating the type of structure pointed to by *lpAttributeInfo*, as indicated in the following table.
 
 | *dwLevel* value | ColumStructure pointed to by *lpAttributeInfo* |
@@ -68,8 +68,8 @@ Caller-supplied value indicating the type of structure pointed to by *lpAttribut
 | 3 | [ATTRIBUTE_INFO_3](https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_attribute_info_3) |
 | 4 | [ATTRIBUTE_INFO_4](https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_attribute_info_4) |
 
-### -param lpAttributeInfo [out]
-
+### -param lpAttributeInfo 
+[out]
 Caller-supplied pointer to a structure identified by *dwLevel*.
 
 ## -returns

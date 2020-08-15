@@ -55,18 +55,18 @@ The <b>GetNamedCommand</b> method returns the specified command.
 
 
 
-### -param pDevmode [in]
-
+### -param pDevmode 
+[in]
 A pointer to a DEVMODE structure.
 
 
-### -param cbSize [in]
-
+### -param cbSize 
+[in]
 The number of bytes in <i>pDevmode</i>, not the number of bytes written.
 
 
-### -param pszCommandName [in]
-
+### -param pszCommandName 
+[in]
 The command name. This parameter accepts standard command names from the GPD, except for those that require an *Order attribute. Those six sections of ordered command sequences are accessible via the following special command names:
 
 <ul>
@@ -78,13 +78,13 @@ The command name. This parameter accepts standard command names from the GPD, ex
 <li>L"SectionJobFinish"</li>
 </ul>
 
-### -param ppCommandBytes [out]
-
+### -param ppCommandBytes 
+[out]
 The output buffer. This buffer does not need to be freed by the caller.
 
 
-### -param pcbCommandSize [out]
-
+### -param pcbCommandSize 
+[out]
 The size of the output buffer.    
 
 

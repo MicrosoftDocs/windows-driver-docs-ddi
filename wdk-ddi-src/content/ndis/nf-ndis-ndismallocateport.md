@@ -64,8 +64,8 @@ The miniport adapter handle that NDIS passed to the
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">
      MiniportInitializeEx</a> function.
 
-### -param PortCharacteristics [in, out]
-
+### -param PortCharacteristics 
+[in, out]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_port_characteristics">
      NDIS_PORT_CHARACTERISTICS</a> structure that defines the characteristics of the port.

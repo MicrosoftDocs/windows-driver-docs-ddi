@@ -57,18 +57,18 @@ The <b>CreateRemoteTarget</b> method creates a remote target object that represe
 
 
 
-### -param pCallbackInterface [in, optional]
-
+### -param pCallbackInterface 
+[in, optional]
 A pointer to an optional, driver-supplied callback interface. The <b>IUnknown::QueryInterface</b> method of this interface must return a pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iremotetargetcallbackremoval">IRemoteTargetCallbackRemoval</a> interface, if the driver supports that interface. This parameter is optional and can be <b>NULL</b>.
 
 
-### -param pParentObject [in, optional]
-
+### -param pParentObject 
+[in, optional]
 A pointer to a framework object. If the driver provides this optional pointer, the specified object becomes the parent of the new remote target object. If this parameter is <b>NULL</b>, the device object that provides the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice2">IWDFDevice2</a> interface becomes the parent. The framework will delete the remote target object when it deletes the parent object. 
 
 
-### -param ppRemoteTarget [out]
-
+### -param ppRemoteTarget 
+[out]
 A pointer to a location that receives a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfremotetarget">IWDFRemoteTarget</a> interface of the new remote target object.
 
 

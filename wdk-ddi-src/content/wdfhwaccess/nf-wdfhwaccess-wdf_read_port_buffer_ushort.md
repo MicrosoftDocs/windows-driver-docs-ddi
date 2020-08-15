@@ -57,23 +57,23 @@ The <b>WDF_READ_PORT_BUFFER_USHORT</b> function reads a number of USHORT values 
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object.
 
 
-### -param Port [in]
-
+### -param Port 
+[in]
 Specifies the port address, which must be a mapped memory range in I/O space.
 
 
-### -param Buffer [out]
-
+### -param Buffer 
+[out]
 A pointer to a buffer into which an array of USHORT values is read.
 
 
-### -param Count [in]
-
+### -param Count 
+[in]
 Specifies the number of USHORT values to be read into the buffer.
 
 

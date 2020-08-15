@@ -55,14 +55,14 @@ The <b>EtwEventEnabled</b> function verifies whether an event is enabled.
 
 
 
-### -param RegHandle [in]
-
+### -param RegHandle 
+[in]
 A pointer to the event provider registration handle, which is returned by the 
       <b>EtwRegister</b> function if the event provider registration is successful.
 
 
-### -param EventDescriptor [in]
-
+### -param EventDescriptor 
+[in]
 A pointer to a constant EVENT_DESCRIPTOR. 
 
 

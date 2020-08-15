@@ -72,16 +72,16 @@ DWORD APIENTRY Dot11ExtIhvIsUIRequestPending(
 
 
 
-### -param guidUIRequest [in]
-
+### -param guidUIRequest 
+[in]
 The GUID that identifies the request. This GUID value was created by the IHV Extensions DLL and
      passed through the
      <i>pIhvUIRequest</i> parameter of the call to
      <a href="..\wlanihv\nc-wlanihv-dot11ext_send_ui_request.md">Dot11ExtSendUIRequest</a>.
 
 
-### -param pbIsRequestPending [out]
-
+### -param pbIsRequestPending 
+[out]
 A pointer to a Boolean value. If the UI request, identified by the
      <i>guidUIRequest</i> parameter, is pending, the IHV Extensions DLL must set *
      <i>pbIsRequestPending</i> to <b>TRUE</b>.

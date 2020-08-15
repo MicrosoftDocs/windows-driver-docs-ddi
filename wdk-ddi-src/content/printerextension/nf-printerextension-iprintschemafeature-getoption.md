@@ -55,18 +55,18 @@ Gets the option with the given name.
 
 
 
-### -param bstrName [in]
-
+### -param bstrName 
+[in]
 The name of the option.
 
 
-### -param bstrNamespaceUri [in]
-
+### -param bstrNamespaceUri 
+[in]
 The namespace URI of the option.
 
 
-### -param ppOption [out, retval]
-
+### -param ppOption 
+[out, retval]
 The returned option.
 
 

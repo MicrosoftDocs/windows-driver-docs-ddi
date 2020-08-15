@@ -57,13 +57,13 @@ This is a control path callback inside <a href="https://docs.microsoft.com/windo
 
 
 
-### -param MiniportAdapterHandle [in]
-
+### -param MiniportAdapterHandle 
+[in]
 The miniport handle.
 
 
-### -param CompletionStatus [in]
-
+### -param CompletionStatus 
+[in]
 The completion status.
 
 

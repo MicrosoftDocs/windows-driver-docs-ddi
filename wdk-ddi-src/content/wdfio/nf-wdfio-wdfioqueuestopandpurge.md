@@ -61,18 +61,18 @@ req.typenames:
 
 
 
-### -param Queue [in]
-
+### -param Queue 
+[in]
 A handle to a framework queue object.
 
 
-### -param StopAndPurgeComplete [in, optional]
-
+### -param StopAndPurgeComplete 
+[in, optional]
 A pointer to a driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_state">EvtIoQueueState</a> callback function. This parameter is optional and can be NULL.
 
 
-### -param Context [in, optional]
-
+### -param Context 
+[in, optional]
 An untyped pointer to driver-supplied context information that the framework passes to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_state">EvtIoQueueState</a> callback function. This parameter is optional and can be NULL.
 
 

@@ -56,28 +56,28 @@ The <b>StorPortCompleteRequest</b> routine completes all outstanding requests se
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize">StorPortInitialize</a>. The port driver frees this memory when it removes the device. 
 
 
-### -param PathId [in]
-
+### -param PathId 
+[in]
 Identifies the SCSI bus. A value of SP_UNTAGGED indicates all buses controlled by the HBA. 
 
 
-### -param TargetId [in]
-
+### -param TargetId 
+[in]
 Identifies the target controller or device on the given buses. A value of SP_UNTAGGED indicates all targets on the bus. 
 
 
-### -param Lun [in]
-
+### -param Lun 
+[in]
 Identifies the logical unit for the given target controller or device. A value of SP_UNTAGGED indicates all logical units for the given target controllers on the given buses. Full-duplex miniport drivers must not assign a value of SP_UNTAGGED to this member.
 
 
-### -param SrbStatus [in]
-
+### -param SrbStatus 
+[in]
 Specifies the completion status to be set in the <b>SrbStatus</b>member of each SRB.
 
 

@@ -58,8 +58,8 @@ The <b>GetCurrentProcessId</b> method returns the engine process ID for the curr
 
 
 
-### -param Id [out]
-
+### -param Id 
+[out]
 Receives the engine process ID for the current process.
 
 

@@ -55,8 +55,8 @@ The <b>FltGetIrpName</b> routine returns the name for a major function code as a
 
 
 
-### -param IrpMajorCode [in]
-
+### -param IrpMajorCode 
+[in]
 The IRP major function code whose name is to be returned. 
 
 

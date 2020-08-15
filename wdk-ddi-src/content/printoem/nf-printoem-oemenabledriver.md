@@ -60,5 +60,5 @@ req.typenames:
 ### -param cbSize
 
 
-### -param pded [out]
-
+### -param pded 
+[out]

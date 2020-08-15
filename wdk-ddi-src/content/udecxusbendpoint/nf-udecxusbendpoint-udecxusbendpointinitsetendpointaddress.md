@@ -56,13 +56,13 @@ Sets the address of the endpoint in the initialization parameters of the simple 
 
 
 
-### -param Init [in, out]
-
+### -param Init 
+[in, out]
 A pointer to an <b>UDECXUSBENDPOINT_INIT</b> structure that the client driver retrieved in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbendpoint/nf-udecxusbendpoint-udecxusbsimpleendpointinitallocate">UdecxUsbSimpleEndpointInitAllocate</a>.
 
 
-### -param EndpointAddress [in]
-
+### -param EndpointAddress 
+[in]
 Specifies the USB-defined endpoint address. The four low-order bits specify the endpoint number. The high-order bit specifies the direction of data flow on this endpoint: 1 for in, 0 for out.
 
 

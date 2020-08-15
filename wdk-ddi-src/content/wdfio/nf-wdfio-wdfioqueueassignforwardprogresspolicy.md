@@ -58,13 +58,13 @@ The <b>WdfIoQueueAssignForwardProgressPolicy</b> method enables the framework's 
 
 
 
-### -param Queue [in]
-
+### -param Queue 
+[in]
 A handle to a framework queue object.
 
 
-### -param ForwardProgressPolicy [in]
-
+### -param ForwardProgressPolicy 
+[in]
 A pointer to a driver-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/ns-wdfio-_wdf_io_queue_forward_progress_policy">WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY</a> structure.
 
 

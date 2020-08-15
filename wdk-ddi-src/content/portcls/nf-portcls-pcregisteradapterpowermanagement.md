@@ -61,8 +61,8 @@ The <b>PcRegisterAdapterPowerManagement</b> function registers the adapter's pow
 <p>Pointer to an adapter driver object's <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown"><b>IUnknown</b></a> interface. The PortCls system driver queries this object for its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iadapterpowermanagement">IAdapterPowerManagement</a> interface.</p>
 
 
-### -param pvContext1 [in]
-
+### -param pvContext1 
+[in]
 Pointer to the adapter's <a href="https://docs.microsoft.com/windows-hardware/drivers/">functional device object (FDO)</a>. This parameter is a pointer to a system structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> but is cast to type PVOID.
 
 

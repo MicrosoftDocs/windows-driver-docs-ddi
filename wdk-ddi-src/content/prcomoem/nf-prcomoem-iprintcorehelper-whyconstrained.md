@@ -55,33 +55,33 @@ The <b>IPrintCoreHelper::WhyConstrained</b> method provides a list of options th
 
 
 
-### -param pDevmode [in]
-
+### -param pDevmode 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devicemodew">DEVMODEW</a> structure. If this pointer is provided, <b>IPrintCoreHelper::WhyConstrained</b> should use the DEVMODEW structure that is pointed to by <i>pDevmode</i> instead of the default or current DEVMODEW structure. If this method is called from the plug-in provider or from either <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps-devmode">IPrintOemPS::DevMode</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-devmode">IPrintOemUni::DevMode</a>, this parameter is required. In most other situations, the parameter should be <b>NULL</b>. When the core driver sets <i>pDevmode</i> to <b>NULL</b>, it modifies its internal state rather than that of the passed-in DEVMODEW structure. This is required during operations such as full UI replacement, where the DEVMODEW structure returned by a DDI, such as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdocumentpropertysheets">DrvDocumentPropertySheets</a>, is being serviced by the core driver's UI module.
 
 
-### -param cbSize [in]
-
+### -param cbSize 
+[in]
 The size, in bytes, of the DEVMODEW structure that is pointed to by the <i>pDevmode</i> parameter. 
 
 
-### -param pszFeatureKeyword [in]
-
+### -param pszFeatureKeyword 
+[in]
 A pointer to an ANSI string that contains the name of the feature. The feature name should correspond to the keyword that is used in the GPD or PPD file.
 
 
-### -param pszOptionKeyword [in]
-
+### -param pszOptionKeyword 
+[in]
 A pointer to an ANSI string that contains the name of the option. The option name should correspond to the keyword that is used in the GPD or PPD file.
 
 
-### -param ppFOConstraints [out]
-
+### -param ppFOConstraints 
+[out]
 A pointer to an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/ns-prcomoem-_print_feature_option">PRINT_FEATURE_OPTION</a> elements. When <b>IPrintCoreHelper::WhyConstrained</b> returns, the array contains a list of feature-element pairs of the options that constrain the options that are specified in the <i>pszOptionKeyword </i>parameter.
 
 
-### -param pdwNumOptions [out]
-
+### -param pdwNumOptions 
+[out]
 A pointer to a variable that receives the number of feature-option pairs in the array that is pointed to by the <i>ppFOConstraints</i> parameter.
 
 

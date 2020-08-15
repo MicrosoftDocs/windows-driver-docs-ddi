@@ -55,18 +55,18 @@ A miniport-provided callback function for processing a Storport work item reques
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 A pointer to the miniport driver's per-HBA storage area. 
 
 
-### -param Context [in, optional]
-
+### -param Context 
+[in, optional]
 Optional context provided by the miniport in the <i>Callback</i> parameter of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportqueueworkitem">StorPortQueueWorkItem</a>.
 
 
-### -param Worker [in]
-
+### -param Worker 
+[in]
 A pointer to an opaque buffer that holds context information for the work item returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializeworker">StorPortInitializeWorker</a>.
 
 

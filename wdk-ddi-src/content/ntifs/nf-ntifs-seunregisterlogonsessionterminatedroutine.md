@@ -55,8 +55,8 @@ The <b>SeUnregisterLogonSessionTerminatedRoutine</b> routine unregisters a callb
 
 
 
-### -param CallbackRoutine [in]
-
+### -param CallbackRoutine 
+[in]
 Address of routine that was originally passed in to <b>SeRegisterLogonSessionTerminatedRoutine</b>.
 
 

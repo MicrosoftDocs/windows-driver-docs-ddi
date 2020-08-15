@@ -55,23 +55,23 @@ The <b>GetSymbolTypeNameWide</b> method returns the name of the specified symbol
 
 
 
-### -param Index [in]
-
+### -param Index 
+[in]
 The index of the symbol whose type name you want. The index of a symbol is an identification number. The index ranges from zero through the number of symbols in the symbol group minus one.
 
 
-### -param Buffer [out, optional]
-
+### -param Buffer 
+[out, optional]
 The name of the symbol's type.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param BufferSize [in]
-
+### -param BufferSize 
+[in]
 The size, in characters, of the <i>Buffer</i> buffer.
 
 
-### -param NameSize [out, optional]
-
+### -param NameSize 
+[out, optional]
 The size, in characters, of the name of the symbol's type.  If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
 
 

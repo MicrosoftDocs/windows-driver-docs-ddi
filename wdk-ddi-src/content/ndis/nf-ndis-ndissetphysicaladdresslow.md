@@ -56,13 +56,13 @@ req.typenames:
 
 
 
-### -param _PhysicalAddress [in]
-
+### -param _PhysicalAddress 
+[in]
 Specifies a physical address of an OS-dependent size.
 
 
-### -param _Value [in]
-
+### -param _Value 
+[in]
 Specifies the value to be written into the low-order part of the address.
 
 

@@ -47,14 +47,14 @@ req.typenames:
 
 ## -parameters
 
-### -param hWnd [in]
-
-### -param pszPrinter [in]
-
-### -param phFile [out]
-
-### -param ppszOutputFile [out]
-
+### -param hWnd 
+[in]
+### -param pszPrinter 
+[in]
+### -param phFile 
+[out]
+### -param ppszOutputFile 
+[out]
 ## -returns
 
 If this function succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.

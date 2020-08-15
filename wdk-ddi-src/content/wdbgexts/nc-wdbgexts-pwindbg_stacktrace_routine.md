@@ -55,23 +55,23 @@ The <b>PWINDBG_STACKTRACE_ROUTINE</b>  (<b>StackTrace</b>) function retrieves a 
 
 
 
-### -param FramePointer [in]
-
+### -param FramePointer 
+[in]
 Specifies the frame pointer. If no specific value is desired, this should simply be set to zero.
 
 
-### -param StackPointer [in]
-
+### -param StackPointer 
+[in]
 Specifies the stack pointer. If no specific value is desired, this should simply be set to zero.
 
 
-### -param ProgramCounter [in]
-
+### -param ProgramCounter 
+[in]
 Specifies the instruction pointer. If no specific value is desired, this should simply be set to zero.
 
 
-### -param StackFrames [out]
-
+### -param StackFrames 
+[out]
 Receives the stack information. <i>StackFrames</i> must be a pointer to a buffer that is large enough to hold the number of stack frames specified by <i>Frames</i>. The stack frames are stored in the following data structure:
 
 <pre class="syntax" xml:space="preserve"><code>typedef struct _tagEXTSTACKTRACE {
@@ -81,8 +81,8 @@ Receives the stack information. <i>StackFrames</i> must be a pointer to a buffer
     ULONG       Args[4];
 } EXTSTACKTRACE, *PEXTSTACKTRACE;</code></pre>
 
-### -param Frames [in]
-
+### -param Frames 
+[in]
 Specifies the maximum number of frames that will fit into the buffer.
 
 

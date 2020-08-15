@@ -55,33 +55,33 @@ req.typenames:
 
 
 
-### -param InitiatingInstance [in]
-
+### -param InitiatingInstance 
+[in]
 Opaque instance pointer for the minifilter driver instance that initiated this I/O request. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 Pointer to a file object for the file or directory on which to set a reparse point. The file object must be opened for FILE_WRITE_DATA access. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param FileTag [in]
-
+### -param FileTag 
+[in]
 Reparse point tag. If an existing reparse tag is being modified, the tag specified in this parameter must match the tag of the reparse point to be modified. 
 
 
-### -param Guid [in, optional]
-
+### -param Guid 
+[in, optional]
 GUID that uniquely identifies the type of reparse point. If <i>FileTag</i> is not a Microsoft tag, this parameter is required and cannot be <b>NULL</b>. If an existing reparse tag is being modified, the GUID specified in this parameter must match the GUID of the reparse point to be modified. 
 
 
-### -param DataBuffer [in]
-
+### -param DataBuffer 
+[in]
 Pointer to a buffer that contains user-defined data for the reparse point. 
 
 
-### -param DataBufferLength [in]
-
+### -param DataBufferLength 
+[in]
 Size, in bytes, of the buffer that <i>DataBuffer </i>points to. 
 
 

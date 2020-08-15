@@ -55,28 +55,28 @@ The <b>ExSetFirmwareEnvironmentVariable</b> routine sets the value of the specif
 
 
 
-### -param VariableName [in]
-
+### -param VariableName 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the name of the specified environment variable.
 
 
-### -param VendorGuid [in]
-
+### -param VendorGuid 
+[in]
 A pointer to a GUID that identifies the vendor associated with the specified environment variable. Environment variables are grouped into namespaces based on their vendor GUIDs. Some hardware platforms might not support vendor GUIDs. On these platforms, all variables are grouped into one, common namespace, and the <i>VendorGuid</i> parameter is ignored.
 
 
-### -param Value [in]
-
+### -param Value 
+[in]
 A pointer to a caller-allocated buffer that contains the data value to write to the specified environment variable.
 
 
-### -param ValueLength [in]
-
+### -param ValueLength 
+[in]
 The size, in bytes, of the data value contained in the <i>Value</i> buffer.
 
 
-### -param Attributes [in]
-
+### -param Attributes 
+[in]
 The attributes to assign to the specified environment variable. The VARIABLE_ATTRIBUTE_NON_VOLATILE attribute bit must be set or this call will fail. For more information about the attribute bits that are defined for this parameter, see Remarks in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exgetfirmwareenvironmentvariable">ExGetFirmwareEnvironmentVariable</a>.
 
 

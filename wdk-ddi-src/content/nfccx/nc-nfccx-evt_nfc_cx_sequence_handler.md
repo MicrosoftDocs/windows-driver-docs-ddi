@@ -55,23 +55,23 @@ Called by the NFC CX to notify the client driver to handle the specific register
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object.
 
 
-### -param Sequence [in]
-
+### -param Sequence 
+[in]
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfccx/ne-nfccx-_nfc_cx_sequence">NFC_CX_SEQUENCE</a> enumeration.
 
 
-### -param CompletionRoutine [in]
-
+### -param CompletionRoutine 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nc-wdfrequest-evt_wdf_request_completion_routine">CompletionRoutine</a> callback function.
 
 
-### -param CompletionContext [in, optional]
-
+### -param CompletionContext 
+[in, optional]
 Driver-defined context information that the driver specified when it registered the <i>EvtNfcCxSequenceHandler</i> callback function.
 
 

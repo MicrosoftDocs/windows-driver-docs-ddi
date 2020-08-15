@@ -55,18 +55,18 @@ The <b>SPB_TRANSFER_LIST_ENTRY_INIT_MDL</b> function returns an <a href="https:/
 
 
 
-### -param Direction [in]
-
+### -param Direction 
+[in]
 The direction of the transfer. The function writes this value to the <b>Direction</b> member of the <b>SPB_TRANSFER_LIST_ENTRY</b> structure.
 
 
-### -param DelayInUs [in]
-
+### -param DelayInUs 
+[in]
 An optional delay in microseconds. The function writes this value to the <b>DelayInUs</b> member of the <b>SPB_TRANSFER_LIST_ENTRY</b> structure.
 
 
-### -param Mdl [in]
-
+### -param Mdl 
+[in]
 A pointer to an MDL that describes a data buffer. The function writes this value to the <b>Buffer.Mdl</b> member of the <b>SPB_TRANSFER_LIST_ENTRY</b> structure. For more information, see the description of the <b>Mdl</b> member in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/spb/ns-spb-spb_transfer_buffer">SPB_TRANSFER_BUFFER</a>.
 
 

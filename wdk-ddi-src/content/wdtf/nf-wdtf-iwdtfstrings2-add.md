@@ -55,8 +55,8 @@ Adds a single string to the collection.
 
 
 
-### -param pString [in]
-
+### -param pString 
+[in]
 The string to add to this collection.
 
 

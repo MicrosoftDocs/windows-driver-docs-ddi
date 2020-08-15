@@ -60,8 +60,8 @@ The <b>WdfInterruptQueueDpcForIsr</b> method queues a framework interrupt object
 
 
 
-### -param Interrupt [in]
-
+### -param Interrupt 
+[in]
 A handle to a framework interrupt object.
 
 

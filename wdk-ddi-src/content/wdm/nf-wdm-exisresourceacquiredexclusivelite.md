@@ -55,8 +55,8 @@ The <b>ExIsResourceAcquiredExclusiveLite</b> routine returns whether the current
 
 
 
-### -param Resource [in]
-
+### -param Resource 
+[in]
 A pointer to the resource to be queried.
 
 

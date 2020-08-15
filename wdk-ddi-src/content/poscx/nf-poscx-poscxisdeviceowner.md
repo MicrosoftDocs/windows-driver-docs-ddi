@@ -56,13 +56,13 @@ PosCxIsDeviceOwner checks if the caller currently owns the claim on the device.
 
 
 
-### -param device [in]
-
+### -param device 
+[in]
 A handle to a framework device object that represents the device.
 
 
-### -param fileObject [in]
-
+### -param fileObject 
+[in]
       A handle to a framework file object that identifies the caller, usually acquired with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestgetfileobject">WdfRequestGetFileObject</a>. If this parameter is NULL, <b>PosCxIsDeviceOwner</b> returns TRUE if the device is not currently owned.
 
 

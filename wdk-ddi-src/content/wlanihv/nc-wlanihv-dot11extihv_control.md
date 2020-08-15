@@ -76,37 +76,37 @@ DWORD APIENTRY Dot11ExtIhvControl(
 
 
 
-### -param hIhvExtAdapter [in, optional]
-
+### -param hIhvExtAdapter 
+[in, optional]
 The handle used by the IHV Extensions DLL to reference the WLAN adapter. This handle value was
      specified through a previous call to the
      <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a> IHV Handler function.
 
 
-### -param dwInBufferSize [in]
-
+### -param dwInBufferSize 
+[in]
 The size, in bytes, of the input control buffer pointed to by the
      <i>pInBuffer</i> parameter.
 
 
-### -param pInBuffer [in, optional]
-
+### -param pInBuffer 
+[in, optional]
 A pointer to the input control buffer.
 
 
-### -param dwOutBufferSize [in]
-
+### -param dwOutBufferSize 
+[in]
 The size, in bytes, of the output buffer (if provided) pointed to by the
      <i>pOutBuffer</i> parameter.
 
 
-### -param pOutBuffer [out, optional]
-
+### -param pOutBuffer 
+[out, optional]
 A pointer to the output buffer, if provided.
 
 
-### -param pdwBytesReturned [out]
-
+### -param pdwBytesReturned 
+[out]
 A pointer to a variable that contains the size, in bytes, of the response input/output
      buffer.
 

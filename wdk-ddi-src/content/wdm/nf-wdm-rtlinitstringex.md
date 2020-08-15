@@ -55,13 +55,13 @@ The <b>RtlInitStringEx</b> routine initializes a counted string of 8-bit charact
 
 
 
-### -param DestinationString [out]
-
+### -param DestinationString 
+[out]
 A pointer to the <b>STRING</b> structure to be initialized. The Ntdef.h header file defines this structure to be identical to the <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-string">ANSI_STRING</a> structure.
 
 
-### -param SourceString [in, optional]
-
+### -param SourceString 
+[in, optional]
 A pointer to a null-terminated character string. This string is used to initialize the counted string pointed to by <i>DestinationString</i>.
 
 

@@ -60,8 +60,8 @@ The <b>WdfRegistryWdmGetHandle</b> method returns a Windows Driver Model (WDM) h
 
 
 
-### -param Key [in]
-
+### -param Key 
+[in]
 A handle to a registry-key object that represents an opened registry key.
 
 

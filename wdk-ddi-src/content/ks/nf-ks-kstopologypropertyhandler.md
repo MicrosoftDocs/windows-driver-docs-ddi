@@ -56,23 +56,23 @@ The <b>KsTopologyPropertyHandler</b> function performs standard handling of the 
 
 
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 Specifies the IRP handling the property request.
 
 
-### -param Property [in]
-
+### -param Property 
+[in]
 Specifies the specific property being queried.
 
 
-### -param Data [in, out]
-
+### -param Data 
+[in, out]
 Specifies the topology property-specific data.
 
 
-### -param Topology [in]
-
+### -param Topology 
+[in]
 Points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-kstopology">KSTOPOLOGY</a> structure containing the topology information.
 
 

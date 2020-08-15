@@ -128,8 +128,8 @@ If not set, specifies that Unidrv should update its current calculation of the c
  
 
 
-### -param piResult [out]
-
+### -param piResult 
+[out]
 Receives the method-supplied result of subtracting the actual new cursor position from the requested new cursor position. This value might be zero, but it is always nonnegative.
 
 

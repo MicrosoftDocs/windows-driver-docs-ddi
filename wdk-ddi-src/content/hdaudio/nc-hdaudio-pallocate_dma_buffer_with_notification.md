@@ -57,46 +57,46 @@ The function pointer type for an <code>AllocateDmaBufferWithNotification</code> 
 
 
 
-### -param _context [in]
-
+### -param _context 
+[in]
 Specifies the context value from the Context member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_bus_interface_v2">HDAUDIO_BUS_INTERFACE_V2</a> structure.
 
 
-### -param Handle [in]
-
+### -param Handle 
+[in]
 A handle that identifies the DMA engine. This handle value was obtained from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-pallocate_capture_dma_engine">AllocateCaptureDmaEngine</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-pallocate_render_dma_engine">AllocateRenderDmaEngine</a>.
 
 
-### -param NotificationCount [in]
-
+### -param NotificationCount 
+[in]
 Specifies the number of notifications that are needed, based on DMA progression through the audio buffer.  Currently, a value of 1 or 2 is supported.  When the value is 1, any registered notification events are signaled each time the cyclic audio buffer is completed and DMA wraps back to the beginning.  When the value is 2, any registered notification events are notified as DMA passes the midpoint of the audio buffer as well as at the end (or the wraparound point).
 
 
-### -param RequestedBufferSize [in]
-
+### -param RequestedBufferSize 
+[in]
 Specifies the requested buffer size, in bytes.
 
 
-### -param BufferMdl [out]
-
+### -param BufferMdl 
+[out]
 Retrieves the physical memory pages that contain the allocated buffer. This parameter points to a caller-allocated variable that is a pointer to a memory descriptor list (PMDL). This routine writes a pointer that describes the memory descriptor list buffer, to the PMDL variable.
 
 
-### -param AllocatedBufferSize [out]
-
+### -param AllocatedBufferSize 
+[out]
 Retrieves the allocated buffer size, in bytes. This parameter points to a caller-allocated SIZE_T variable into which the routine writes the size of the allocated buffer.
 
 
 ### -param OffsetFromFirstPage
 
 
-### -param StreamId [out]
-
+### -param StreamId 
+[out]
 Retrieves the stream identifier. This parameter points to a caller-allocated UCHAR variable into which the routine writes the stream identifier that the routine assigns to the stream.
 
 
-### -param FifoSize [out]
-
+### -param FifoSize 
+[out]
 Retrieves the DMA engine's FIFO size, in bytes. This parameter points to a caller-allocated ULONG variable into which the routine writes the FIFO size.
 
 

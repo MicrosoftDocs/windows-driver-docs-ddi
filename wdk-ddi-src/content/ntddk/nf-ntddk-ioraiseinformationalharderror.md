@@ -55,18 +55,18 @@ The <b>IoRaiseInformationalHardError</b> routine sends a dialog box to the user,
 
 
 
-### -param ErrorStatus [in]
-
+### -param ErrorStatus 
+[in]
 The error status code (IO_ERR_<i>XXX</i>). 
 
 
-### -param String [in, optional]
-
+### -param String 
+[in, optional]
 A pointer to a Unicode string, which provides additional information about the error. Some NT status codes require a string parameter, such as a file or directory name. If the specified <i>ErrorStatus</i> value does not require a string parameter, set <i>String</i> to <b>NULL</b>.
 
 
-### -param Thread [in, optional]
-
+### -param Thread 
+[in, optional]
 A pointer to the thread whose IRP was failed due to the error specified by the <i>ErrorStatus</i> parameter.
 
 

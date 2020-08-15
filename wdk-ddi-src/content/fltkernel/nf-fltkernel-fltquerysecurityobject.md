@@ -56,20 +56,20 @@ req.typenames:
 
 
 
-### -param Instance [in]
-
+### -param Instance 
+[in]
 Opaque instance pointer for the caller. This parameter is required and cannot be 
       <b>NULL</b>.
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 File object pointer for the object whose security descriptor is being queried. This parameter is required 
       and cannot be <b>NULL</b>.
 
 
-### -param SecurityInformation [in]
-
+### -param SecurityInformation 
+[in]
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/security-information">SECURITY_INFORMATION</a> value. This parameter is 
        required and must be one of the following:
@@ -127,21 +127,21 @@ The system ACL (SACL) of the object is being queried. Requires
  
 
 
-### -param SecurityDescriptor [in, out]
-
+### -param SecurityDescriptor 
+[in, out]
 Pointer to a caller-supplied output buffer that receives a copy of the security descriptor for the 
       specified object. The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a> 
       structure is returned in self-relative format. This parameter is optional and can be 
       <b>NULL</b>.
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 Size, in bytes, of the <i>SecurityDescriptor</i> buffer.
 
 
-### -param LengthNeeded [out, optional]
-
+### -param LengthNeeded 
+[out, optional]
 Pointer to a caller-allocated variable that receives the number of bytes required to store the copied 
       security descriptor returned in the buffer pointed to by the <i>SecurityDescriptor</i> 
       parameter. This parameter is optional and can be <b>NULL</b>.

@@ -58,13 +58,13 @@ The <b>RtlStringCbCopyNExW</b> and <b>RtlStringCbCopyNExA</b> functions copy a b
 
 
 
-### -param pszDest [out, optional]
-
+### -param pszDest 
+[out, optional]
 A pointer to a caller-supplied buffer that receives the copied string. The string at <i>pszSrc</i> is copied to the buffer at <i>pszDest</i> and terminated with a null character. The <i>pszDest</i> pointer can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
 
-### -param cbDest [in]
-
+### -param cbDest 
+[in]
 The size, in bytes, of the destination buffer. The buffer must be large enough for the string and the terminating null character.
 
 For Unicode strings, the maximum number of bytes is NTSTRSAFE_MAX_CCH * sizeof(WCHAR). 
@@ -74,8 +74,8 @@ For ANSI strings, the maximum number of bytes is NTSTRSAFE_MAX_CCH * sizeof(char
 If <i>pszDest</i> is <b>NULL</b>, <i>cbDest</i> must be zero.
 
 
-### -param pszSrc [in, optional]
-
+### -param pszSrc 
+[in, optional]
 A pointer to a caller-supplied, null-terminated string. The <i>pszSrc</i> pointer can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
 
@@ -84,18 +84,18 @@ A pointer to a caller-supplied, null-terminated string. The <i>pszSrc</i> pointe
 <p>The maximum number of bytes to copy from <i>pszSrc</i> to <i>pszDest</i>. </p>
 
 
-### -param ppszDestEnd [out, optional]
-
+### -param ppszDestEnd 
+[out, optional]
 If the caller supplies a non-<b>NULL</b> address pointer then, after the copy operation completes, the function loads that address with a pointer to the destination buffer's resulting null string terminator. 
 
 
-### -param pcbRemaining [out, optional]
-
+### -param pcbRemaining 
+[out, optional]
 If the caller supplies a non-<b>NULL</b> address pointer, the function loads the address with the number of unused bytes that are in the buffer pointed to by <i>pszDest</i>, including those bytes used for the terminating null character.
 
 
-### -param dwFlags [in]
-
+### -param dwFlags 
+[in]
 One or more flags and, optionally, a fill byte. The flags are defined as follows: 
 
 <table>

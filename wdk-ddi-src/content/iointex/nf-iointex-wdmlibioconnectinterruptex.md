@@ -56,8 +56,8 @@ The <b>WdmlibIoConnectInterruptEx</b> function registers an interrupt-handling r
 
 
 
-### -param Parameters [in, out]
-
+### -param Parameters 
+[in, out]
 Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_connect_interrupt_parameters">IO_CONNECT_INTERRUPT_PARAMETERS</a> structure that specifies the device and interrupt-handling routine. On return,  <b>WdmlibIoConnectInterruptEx</b> updates this structure to hold information about the device's interrupts.
 
 

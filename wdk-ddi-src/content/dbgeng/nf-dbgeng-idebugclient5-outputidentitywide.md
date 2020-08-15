@@ -55,18 +55,18 @@ The <b>OutputIdentityWide</b> method formats and outputs a string describing the
 
 
 
-### -param OutputControl [in]
-
+### -param OutputControl 
+[in]
 Specifies where to send the output.  For possible values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-outctl-xxx">DEBUG_OUTCTL_XXX</a>.
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 Set to zero.
 
 
-### -param Format [in]
-
+### -param Format 
+[in]
 Specifies a format string similar to the <b>printf</b> format string.  However, this format string must only contain one formatting directive, <b>%s</b>, which will be replaced by a description of the computer and user this client represents.
 
 

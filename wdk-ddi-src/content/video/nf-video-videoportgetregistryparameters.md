@@ -60,8 +60,8 @@ The <b>VideoPortGetRegistryParameters</b> function retrieves device-specific con
 Pointer to the miniport driver's device extension.
 
 
-### -param ParameterName [in]
-
+### -param ParameterName 
+[in]
 Pointer to a NULL-terminated Unicode string that names the value entry to be retrieved from the registry. See the <b>Remarks</b> section for more information.
 
 

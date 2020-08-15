@@ -58,8 +58,8 @@ channel which has been offered to it.
 
 
 
-### -param Channel [in]
-
+### -param Channel 
+[in]
 The channel that the guest virtual machine opens.
 
 

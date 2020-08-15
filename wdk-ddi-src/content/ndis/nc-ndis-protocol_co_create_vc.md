@@ -58,8 +58,8 @@ The
 
 
 
-### -param ProtocolAfContext [in]
-
+### -param ProtocolAfContext 
+[in]
 Specifies the handle to a protocol-allocated context area in which the call manager or client
      maintains its per-open state. The call manager supplied this handle from its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_open_af">ProtocolCmOpenAf</a> function. The client
@@ -69,16 +69,16 @@ Specifies the handle to a protocol-allocated context area in which the call mana
      <i>ProtocolCoAfRegisterNotify</i> function.
 
 
-### -param NdisVcHandle [in]
-
+### -param NdisVcHandle 
+[in]
 Specifies a handle, supplied by NDIS, that uniquely identifies this virtual connection. This
      handle is opaque to the protocol driver and reserved for NDIS library use. However, the call manager and
      client must save this handle to pass in subsequent calls to 
      <b>NdisCo/Cl/Cm/MCm<i>Xxx</i></b> functions that concern this VC.
 
 
-### -param ProtocolVcContext [out]
-
+### -param ProtocolVcContext 
+[out]
 Specifies the handle to a protocol-supplied context area in which the call manager or client
      maintains state about this virtual connection.
 

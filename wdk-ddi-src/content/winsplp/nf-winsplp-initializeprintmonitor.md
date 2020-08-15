@@ -57,8 +57,8 @@ A print monitor's <b>InitializePrintMonitor</b> function initializes a print mon
 
 
 
-### -param pRegistryRoot [in]
-
+### -param pRegistryRoot 
+[in]
 Caller-supplied pointer to a string identifying a registry path that the print monitor can use to store monitor-specific values.
 
 

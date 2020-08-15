@@ -58,8 +58,8 @@ The
 
 
 
-### -param Status [out]
-
+### -param Status 
+[out]
 A pointer to a caller-supplied variable in which this function returns the status of the call as
      one of the following:
      
@@ -81,21 +81,21 @@ There was no NIC address information available in the caller's registry
        <b>Parameters</b> key or the value stored was not a string.
 
 
-### -param NetworkAddress [out]
-
+### -param NetworkAddress 
+[out]
 A pointer to a caller-supplied variable in which this function returns a pointer to a buffer that contains the
      network address (typically the MAC address), stored as a sequence of byte integers, if the call is successful.
 
 
-### -param NetworkAddressLength [out]
-
+### -param NetworkAddressLength 
+[out]
 A pointer to a caller-supplied variable in which this function returns the number of bytes that
      are returned at 
      <i>NetworkAddress</i>.
 
 
-### -param ConfigurationHandle [in]
-
+### -param ConfigurationHandle 
+[in]
 The configuration handle returned by the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenconfigurationex">
      NdisOpenConfigurationEx</a> function.

@@ -56,18 +56,18 @@ The <b>ScsiPortReadRegisterBufferUchar</b> routine transfers a specified number 
 
 
 
-### -param Register [in]
-
+### -param Register 
+[in]
 Pointer to the register. The given <i>Register</i> must be in a mapped memory-space range returned by <b>ScsiPortGetDeviceBase</b>.
 
 
-### -param Buffer [in]
-
+### -param Buffer 
+[in]
 Pointer to the buffer.
 
 
-### -param Count [in]
-
+### -param Count 
+[in]
 Specifies the number of bytes to be read from the HBA.
 
 

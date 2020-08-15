@@ -55,8 +55,8 @@ The <b>MmUnsecureVirtualMemory</b> routine unsecures a memory address range secu
 
 
 
-### -param SecureHandle [in]
-
+### -param SecureHandle 
+[in]
 Specifies the value returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-mmsecurevirtualmemory">MmSecureVirtualMemory</a> for the memory address range. 
 
 

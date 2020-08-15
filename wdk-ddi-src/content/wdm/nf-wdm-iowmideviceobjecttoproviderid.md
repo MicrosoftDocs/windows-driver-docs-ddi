@@ -55,8 +55,8 @@ The <b>IoWMIDeviceObjectToProviderId</b> routine translates the specified device
 
 
 
-### -param DeviceObject [in]
-
+### -param DeviceObject 
+[in]
 Pointer to a device object. 
 
 

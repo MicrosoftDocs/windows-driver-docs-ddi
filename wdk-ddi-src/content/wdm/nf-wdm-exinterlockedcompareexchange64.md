@@ -55,13 +55,13 @@ The <b>ExInterlockedCompareExchange64</b> routine compares one integer variable 
 
 
 
-### -param Destination [in, out]
-
+### -param Destination 
+[in, out]
 A pointer to an integer that will be compared and possibly replaced.
 
 
-### -param Exchange [in]
-
+### -param Exchange 
+[in]
 A pointer to an integer that will replace the one at <i>Destination</i> if the comparison results in equality.
 
 
@@ -70,8 +70,8 @@ A pointer to an integer that will replace the one at <i>Destination</i> if the c
 A pointer to an integer with which the value at <i>Destination</i> will be compared. 
 
 
-### -param Lock [in]
-
+### -param Lock 
+[in]
 A pointer to a caller-allocated spin-lock that is used if the host system does not support an 8-byte atomic compare-and-exchange operation. 
 
 

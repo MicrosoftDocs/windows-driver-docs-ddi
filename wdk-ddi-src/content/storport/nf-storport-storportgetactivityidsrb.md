@@ -56,18 +56,18 @@ Retrieves the Event Tracing for Windows (ETW) activity ID associated with a requ
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param Srb [in]
-
+### -param Srb 
+[in]
 The request block to retrieve the ETW activity ID for.
 
 
-### -param ActivityId [out]
-
+### -param ActivityId 
+[out]
 A pointer to a caller-supplied GUID to receive the ETW activity ID.
 
 

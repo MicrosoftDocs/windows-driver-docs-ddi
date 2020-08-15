@@ -57,8 +57,8 @@ The <b>ReturnInput</b>  method is used by <b>IDebugInputCallbacks</b> objects to
 
 
 
-### -param Buffer [in]
-
+### -param Buffer 
+[in]
 Specifies the input string being sent to the engine.
 
 

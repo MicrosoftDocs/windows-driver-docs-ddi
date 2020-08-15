@@ -55,18 +55,18 @@ Initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/u
 
 
 
-### -param Config [out]
-
+### -param Config 
+[out]
  A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ursdevice/ns-ursdevice-_urs_config">URS_CONFIG</a> structure to initialize.
 
 
-### -param HostInterfaceType [in]
-
+### -param HostInterfaceType 
+[in]
  A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/urstypes/ne-urstypes-_urs_host_interface_type">URS_HOST_INTERFACE_TYPE</a> type value that indicates the type of host controller that the dual-role controller implements.
 
 
-### -param EvtUrsFilterRemoveResourceRequirements [in]
-
+### -param EvtUrsFilterRemoveResourceRequirements 
+[in]
  A  pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ursdevice/nc-ursdevice-evt_urs_device_filter_resource_requirements">EVT_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS</a> callback function that is implemented by the  client driver.
 
 

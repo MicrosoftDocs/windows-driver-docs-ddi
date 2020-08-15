@@ -59,23 +59,23 @@ Serializes an <b>IPortableDeviceValues</b> interface to a caller-allocated byte 
 
 
 
-### -param dwOutputBufferLength [in]
-
+### -param dwOutputBufferLength 
+[in]
 <b>DWORD</b> that specifies the size of <i>pBuffer</i>, in bytes.
 
 
-### -param pResults [in]
-
+### -param pResults 
+[in]
 Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues</a> interface to serialize.
 
 
-### -param pBuffer [out]
-
+### -param pBuffer 
+[out]
 Pointer to a caller-allocated buffer. To learn the size of the required buffer, call <b>GetSerializedSize</b>.
 
 
-### -param pdwBytesWritten [out]
-
+### -param pdwBytesWritten 
+[out]
 Pointer to a <b>DWORD</b> that indicates the number of bytes that were actually written to the caller-allocated buffer.
 
 

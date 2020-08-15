@@ -56,8 +56,8 @@ The <b>SetTypeOptions</b> method changes the type formatting options for output 
 
 
 
-### -param Options [in]
-
+### -param Options 
+[in]
 Specifies the new value for the type formatting options.  <i>Options</i> is a bit-set; it will replace the existing options.  For a description of the bit flags, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-typeopts-xxx">DEBUG_TYPEOPTS_XXX</a>.
 
 

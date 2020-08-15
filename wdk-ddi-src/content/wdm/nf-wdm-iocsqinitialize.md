@@ -55,38 +55,38 @@ The <b>IoCsqInitialize</b> routine initializes the driver's cancel-safe IRP queu
 
 
 
-### -param Csq [out]
-
+### -param Csq 
+[out]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">IO_CSQ</a> structure to be initialized by <b>IoCsqInitialize</b>.
 
 
-### -param CsqInsertIrp [in]
-
+### -param CsqInsertIrp 
+[in]
 Pointer to the driver-defined <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_insert_irp">CsqInsertIrp</a> function for the driver's cancel-safe IRP queue.
 
 
-### -param CsqRemoveIrp [in]
-
+### -param CsqRemoveIrp 
+[in]
 Pointer to the driver-defined <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_remove_irp">CsqRemoveIrp</a> function for the driver's cancel-safe IRP queue.
 
 
-### -param CsqPeekNextIrp [in]
-
+### -param CsqPeekNextIrp 
+[in]
 Pointer to the driver-defined <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_peek_next_irp">CsqPeekNextIrp</a> function for the driver's cancel-safe IRP queue.
 
 
-### -param CsqAcquireLock [in]
-
+### -param CsqAcquireLock 
+[in]
 Pointer to the driver-defined <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_acquire_lock">CsqAcquireLock</a> function for the driver's cancel-safe IRP queue.
 
 
-### -param CsqReleaseLock [in]
-
+### -param CsqReleaseLock 
+[in]
 Pointer to the driver-defined <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_release_lock">CsqReleaseLock</a> function for the driver's cancel-safe IRP queue.
 
 
-### -param CsqCompleteCanceledIrp [in]
-
+### -param CsqCompleteCanceledIrp 
+[in]
 Pointer to the driver-defined <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_complete_canceled_irp">CsqCompleteCanceledIrp</a> function for the driver's cancel-safe IRP queue. 
 
 

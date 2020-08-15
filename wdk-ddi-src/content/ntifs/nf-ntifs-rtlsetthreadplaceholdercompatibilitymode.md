@@ -51,8 +51,8 @@ req.typenames:
 
 ## -parameters
 
-### -param Mode [in]
-
+### -param Mode 
+[in]
 Specifies the placeholder compatibility mode to set.
 
 

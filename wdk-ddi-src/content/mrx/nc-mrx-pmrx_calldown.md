@@ -55,8 +55,8 @@ This callback is called by RDBSS to request that the network mini-redirector per
 
 
 
-### -param RxContext [in, out]
-
+### -param RxContext 
+[in, out]
 A pointer to the RX_CONTEXT structure. This parameter contains the IRP that is requesting the operation. 
 
 

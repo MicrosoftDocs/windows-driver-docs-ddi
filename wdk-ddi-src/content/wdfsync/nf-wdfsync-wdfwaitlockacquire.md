@@ -60,13 +60,13 @@ The <b>WdfWaitLockAcquire</b> method acquires a specified wait lock.
 
 
 
-### -param Lock [in]
-
+### -param Lock 
+[in]
 A handle to a framework wait-lock object, obtained by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfsync/nf-wdfsync-wdfwaitlockcreate">WdfWaitLockCreate</a>.
 
 
-### -param Timeout [in, optional]
-
+### -param Timeout 
+[in, optional]
 An optional pointer to a time-out value. The time-out value is specified in system time units (100-nanosecond intervals).
 
  If the pointer is non-<b>NULL</b>, the framework cancels the attempt to obtain the lock if it is not completed within the specified time-out period. Time-out values can be negative, positive, or zero, as follows:

@@ -55,8 +55,8 @@ The <b>SetKernelConnectionOptionsWide</b> method updates some of the connection 
 
 
 
-### -param Options [in]
-
+### -param Options 
+[in]
 Specifies the connection options to update.  The possible values are:
 
 <table>

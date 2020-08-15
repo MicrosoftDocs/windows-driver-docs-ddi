@@ -55,18 +55,18 @@ req.typenames:
 
 
 
-### -param pLocalAddress [in]
-
+### -param pLocalAddress 
+[in]
 A pointer to the local RDBSS connection engine address on which the previously issued connection request was made.
 
 
-### -param pServerName [in]
-
+### -param pServerName 
+[in]
 A pointer to the name of the server on which the previous connection request was made.
 
 
-### -param pConnectionInformation [in]
-
+### -param pConnectionInformation 
+[in]
 A pointer to the connection information that specifies the remote address. on which the previously issued connection request was made.
 
 

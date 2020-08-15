@@ -56,13 +56,13 @@ req.typenames:
 
 
 
-### -param ServiceClass [in]
-
+### -param ServiceClass 
+[in]
 A pointer to a Unicode string that specifies the service class for the security service provider. 
 
 
-### -param ServiceName [in]
-
+### -param ServiceName 
+[in]
 A pointer to a Unicode string that specifies the service name for the security service provider. 
 
 
@@ -71,18 +71,18 @@ A pointer to a Unicode string that specifies the service name for the security s
 <p>A pointer to an optional Unicode string that specifies the instance name that is used to connect with the security service provider. </p>
 
 
-### -param Spn [in, out]
-
+### -param Spn 
+[in, out]
 A pointer to a Unicode string that receives the security service provider name string that is created by this function.
 
 
-### -param Allocate [in]
-
+### -param Allocate 
+[in]
 A Boolean variable that indicates if the memory that is used to store the <i>Spn</i> Unicode string should be allocated by this function. If this parameter is <b>TRUE</b>, memory for <i>Spn</i> will be allocated from paged pool.
 
 
-### -param IsTargetInfoMarshaled [in]
-
+### -param IsTargetInfoMarshaled 
+[in]
 A Boolean variable that indicates that the caller provided a marshaled <i>InTargetInfo</i> structure.  If <i>IsTargetInfoMarshaled</i> is <b>TRUE</b>, <i>InTargetInfo</i>->Buffer points to a string representation of the CREDENTIAL_TARGET_INFORMATION structure as returned by the <b>CredMarshalTargetInfo</b> function.
 
 

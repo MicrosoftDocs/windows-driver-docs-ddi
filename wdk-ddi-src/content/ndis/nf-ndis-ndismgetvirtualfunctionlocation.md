@@ -56,30 +56,30 @@ A miniport driver calls the <b>NdisMGetVirtualFunctionLocation</b> function to q
 
 
 
-### -param NdisMiniportHandle [in]
-
+### -param NdisMiniportHandle 
+[in]
 The network adapter handle that NDIS passed to the 
      <i>MiniportAdapterHandle</i> parameter of 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
 
 
-### -param VFId [in]
-
+### -param VFId 
+[in]
 The identifier of the VF for which the device location is returned.
 
 
-### -param SegmentNumber [out]
-
+### -param SegmentNumber 
+[out]
 A pointer to a caller-supplied variable in which this function returns a USHORT value for the current PCI segment number. This value specifies the group of PCI buses on which the device is attached.
 
 
-### -param BusNumber [out]
-
+### -param BusNumber 
+[out]
 A pointer to a caller-supplied variable in which this function returns a UCHAR value. This value specifies the current PCI bus number on which the device is attached.
 
 
-### -param FunctionNumber [out]
-
+### -param FunctionNumber 
+[out]
 A pointer to a caller-supplied variable in which this function returns a UCHAR value. This value specifies the function number of a logical device on the device.
 
 

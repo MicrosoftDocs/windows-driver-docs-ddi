@@ -65,8 +65,8 @@ typedef NTSTATUS ( *PTERMINATE_IEEE_MODE)(
 
 
 
-### -param Context [in]
-
+### -param Context 
+[in]
 Pointer to the device extension of a parallel device's physical device object (<a href="https://docs.microsoft.com/windows-hardware/drivers/">PDO</a>).
 
 

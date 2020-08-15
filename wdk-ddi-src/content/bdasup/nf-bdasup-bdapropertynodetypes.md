@@ -61,13 +61,13 @@ The <b>BdaPropertyNodeTypes</b> function retrieves a list of node types in a tem
 
 
 
-### -param pKSProperty [in]
-
+### -param pKSProperty 
+[in]
 Points to a <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property and request type of the property request.
 
 
-### -param pulProperty [out]
-
+### -param pulProperty 
+[out]
 Points to an array that receives the list of node types. 
 
 

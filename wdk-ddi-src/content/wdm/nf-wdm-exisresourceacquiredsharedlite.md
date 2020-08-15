@@ -55,8 +55,8 @@ The <b>ExIsResourceAcquiredSharedLite</b> routine returns whether the current th
 
 
 
-### -param Resource [in]
-
+### -param Resource 
+[in]
 A pointer to the resource to be queried.
 
 

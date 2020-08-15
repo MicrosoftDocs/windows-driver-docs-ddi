@@ -55,8 +55,8 @@ The <b>ExAllocatePoolWithQuotaTag</b> routine allocates pool memory, charging th
 
 
 
-### -param PoolType [in]
-
+### -param PoolType 
+[in]
 Specifies the type of pool memory to allocate. For a description of the available pool memory types, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type">POOL_TYPE</a>.
 
 You can modify the <i>PoolType</i> value by bitwise-ORing this value with the POOL_QUOTA_FAIL_INSTEAD_OF_RAISE flag. This flag causes the routine to return a <b>NULL</b> value if the request cannot be satisfied.
@@ -64,13 +64,13 @@ You can modify the <i>PoolType</i> value by bitwise-ORing this value with the PO
 Similarly, you can modify the <i>PoolType</i> value by bitwise-ORing this value with the POOL_COLD_ALLOCATION flag as a hint to the kernel to allocate the memory from pages that are likely to be paged out quickly. To reduce the amount of resident pool memory as much as possible, you should not reference these allocations frequently. The POOL_COLD_ALLOCATION flag is only advisory and is supported in Windows XP and later versions of the Windows operating system.
 
 
-### -param NumberOfBytes [in]
-
+### -param NumberOfBytes 
+[in]
 Specifies the number of bytes to allocate.
 
 
-### -param Tag [in]
-
+### -param Tag 
+[in]
 Specifies the pool tag for the allocated memory. For more information, see the <i>Tag</i> parameter of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag">ExAllocatePoolWithTag</a>.
 
 

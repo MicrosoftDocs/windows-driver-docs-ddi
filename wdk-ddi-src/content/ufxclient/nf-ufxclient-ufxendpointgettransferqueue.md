@@ -55,8 +55,8 @@ Returns the transfer queue previously created by <a href="https://docs.microsoft
 
 
 
-### -param UfxEndpoint [in]
-
+### -param UfxEndpoint 
+[in]
 A handle to an endpoint object returned from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxendpointcreate">UfxEndpointCreate</a>.
 
 

@@ -55,13 +55,13 @@ The <code>SetContentId</code> method sets the DRM content ID and its assigned DR
 
 
 
-### -param ContentId [in]
-
+### -param ContentId 
+[in]
 Specifies the DRM content ID. This parameter is an identifier that the DRM system generates at run time to identify DRM-protected content in this stream.
 
 
-### -param DrmRights [in]
-
+### -param DrmRights 
+[in]
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/drmk/ns-drmk-tagdrmrights">DRMRIGHTS</a> structure specifying the rights granted by the content provider to the user for playing and copying DRM-protected content in this stream.
 
 

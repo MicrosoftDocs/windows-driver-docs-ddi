@@ -66,14 +66,14 @@ Bus master miniport drivers call the
 
 
 
-### -param MiniportAdapterHandle [in]
-
+### -param MiniportAdapterHandle 
+[in]
 The miniport handle that NDIS passed to 
      <i>MiniportInitializeEx</i>.
 
 
-### -param DmaDescription [in, out]
-
+### -param DmaDescription 
+[in, out]
 A pointer to an NDIS_SG_DMA_DESCRIPTION structure. This structure describes the scatter/gather DMA
      properties of the miniport driver. The structure is defined as follows:
      
@@ -163,8 +163,8 @@ The size, in bytes, of the memory that is required to hold a scatter/gather list
        each scatter/gather list.
 
 
-### -param NdisMiniportDmaHandle [out]
-
+### -param NdisMiniportDmaHandle 
+[out]
 A pointer to a variable that the caller supplies and that NDIS fills with a handle. The handle
      identifies a context area that NDIS uses to manage this DMA resource. The miniport driver passes this
      handle to NDIS in subsequent calls to NDIS that involve this DMA resource.

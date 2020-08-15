@@ -74,8 +74,8 @@ DWORD WINAPI * Dot11ExtSetVirtualStationAPProperties(
 
 
 
-### -param hDot11SvcHandle [in, optional]
-
+### -param hDot11SvcHandle 
+[in, optional]
 An optional handle used by the operating system to reference the primary physical wireless LAN
      (WLAN) adapter. This handle value was received as the
      <i>hDot11SvcHandle</i> parameter through a previous call to the
@@ -83,8 +83,8 @@ An optional handle used by the operating system to reference the primary physica
      Handler function.
 
 
-### -param hConnectSession [in, optional]
-
+### -param hConnectSession 
+[in, optional]
 The handle used by the operating system to reference the current connection session with the basic
      service set (BSS) network. This handle value was received as the
      <i>hConnectSession</i> parameter through a previous call to the
@@ -92,14 +92,14 @@ The handle used by the operating system to reference the current connection sess
      Dot11ExtIhvPerformPreAssociate</a> IHV Handler function.
 
 
-### -param dwNumProperties [in]
-
+### -param dwNumProperties 
+[in]
 The number of elements in the array of structures pointed to by the
      <i>pProperties</i> parameter.
 
 
-### -param pProperties [in]
-
+### -param pProperties 
+[in]
 A pointer to an array of
      <a href="..\wlanihv\ns-wlanihv-_dot11ext_virtual_station_ap_property.md">
      DOT11EXT_VIRTUAL_STATION_AP_PROPERTY</a> structures that specify the properties of access points (APs)

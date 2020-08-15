@@ -56,8 +56,8 @@ The <b>ClfsDeleteLogFile</b> routine marks a CLFS stream for deletion.
 
 
 
-### -param puszLogFileName [in]
-
+### -param puszLogFileName 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that supplies the name of the CLFS stream to be deleted. 
 
 If the stream to be deleted is the only stream of a dedicated log, the name has the form log:<i>physical log name</i>, where <i>physical log name</i> is the path name of the physical log on the underlying file system.
@@ -70,18 +70,18 @@ Reserved.
 
 
 
-### -param fLogOptionFlag [in]
-
+### -param fLogOptionFlag 
+[in]
 A value that indicates the relationship between CLFS and the component that is deleting the log. For a list of possible values, see the description of the <i>fLogOptionFlag</i> parameter of the <b>ClfsCreateLogFile</b> routine.
 
 
-### -param pvContext [in, optional]
-
+### -param pvContext 
+[in, optional]
 A pointer to a context. The way the context is interpreted depends on the value passed in <i>fLogOptionFlag</i>.
 
 
-### -param cbContext [in]
-
+### -param cbContext 
+[in]
 The size, in bytes, of the context pointed to by <i>pvContex</i>t. If <i>pvContext</i> is not <b>NULL</b>, this parameter must be greater than zero.
 
 

@@ -59,13 +59,13 @@ Retrieves a <b>PROPERTYKEY</b> from the collection by index.
 
 
 
-### -param dwIndex [in]
-
+### -param dwIndex 
+[in]
 <b>DWORD</b> that contains the zero-based index of the key to be retrieved.
 
 
-### -param pKey [out]
-
+### -param pKey 
+[out]
 Pointer to a <b>PROPERTYKEY</b>.
 
 

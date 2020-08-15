@@ -56,11 +56,11 @@ req.typenames:
 
 
 
-### -param Companion [in]
+### -param Companion 
+[in]
 
+### -param ResourcesRaw 
+[in]
 
-### -param ResourcesRaw [in]
-
-
-### -param ResourcesTranslated [in]
-
+### -param ResourcesTranslated 
+[in]

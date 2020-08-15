@@ -55,18 +55,18 @@ The <b>ProbeForRead</b> routine checks that a user-mode buffer actually resides 
 
 
 
-### -param Address [in]
-
+### -param Address 
+[in]
 Specifies the beginning of the user-mode buffer.
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 Specifies the length, in bytes, of the user-mode buffer.
 
 
-### -param Alignment [in]
-
+### -param Alignment 
+[in]
 Specifies the required alignment, in bytes, of the beginning of the user-mode buffer.
 
 

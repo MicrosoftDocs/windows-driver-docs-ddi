@@ -60,8 +60,8 @@ The Write method writes the provided JavaScript array to the stream and returns 
 
 
 
-### -param pcbWritten [out, retval]
-
+### -param pcbWritten 
+[out, retval]
 The number of bytes written.
 
 

@@ -57,8 +57,8 @@ NDIS calls a filter driver's
 
 
 
-### -param FilterModuleContext [in]
-
+### -param FilterModuleContext 
+[in]
 A handle to the context area for the filter module that the filter driver should pause. The filter
      driver created and initialized this context area in the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
@@ -73,8 +73,8 @@ A handle to the context area for the filter module that the filter driver should
 
 
 
-#### - FilterPauseParameters [in]
-
+#### - FilterPauseParameters 
+[in]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_filter_pause_parameters">
      NDIS_FILTER_PAUSE_PARAMETERS</a> structure that defines the pause parameters for the filter

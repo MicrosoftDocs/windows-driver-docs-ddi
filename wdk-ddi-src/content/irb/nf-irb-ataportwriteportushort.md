@@ -58,13 +58,13 @@ The <b>AtaPortWritePortUshort</b> routine transfers a USHORT value to the HBA.
 
 
 
-### -param Port [in]
-
+### -param Port 
+[in]
 A pointer to the I/O port. The address value that is assigned to this parameter must be within the range of mapped I/O space addresses that are obtained by a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nf-irb-ataportgetdevicebase">AtaPortGetDeviceBase</a>.
 
 
-### -param Value [in]
-
+### -param Value 
+[in]
 Specifies the value to write to the HBA's I/O port.
 
 

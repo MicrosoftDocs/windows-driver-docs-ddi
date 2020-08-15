@@ -55,23 +55,23 @@ Schedules a Storport work item to execute within the context of  a system worker
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param WorkItemCallback [in]
-
+### -param WorkItemCallback 
+[in]
 A pointer to a work item callback routine supplied by the miniport. This routine is called in context of the system thread to process the scheduled <i>WorkItem</i>.
 
 
-### -param Worker [in]
-
+### -param Worker 
+[in]
 A pointer to an opaque buffer for the worker returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializeworker">StorPortInitializeWorker</a>.
 
 
-### -param Context [in, optional]
-
+### -param Context 
+[in, optional]
 Optional context for the <i>WorkItem</i> that is processed by the callback routine in <i>WorkItemCallback</i>.
 
 

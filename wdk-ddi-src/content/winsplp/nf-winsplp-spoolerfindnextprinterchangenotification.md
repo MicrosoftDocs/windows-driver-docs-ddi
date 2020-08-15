@@ -55,14 +55,14 @@ req.typenames:
 
 
 
-### -param hPrinter [in]
+### -param hPrinter 
+[in]
 
+### -param pfdwChange 
+[out]
 
-### -param pfdwChange [out]
+### -param pPrinterNotifyOptions 
+[in, optional]
 
-
-### -param pPrinterNotifyOptions [in, optional]
-
-
-### -param ppPrinterNotifyInfo [in, out, optional]
-
+### -param ppPrinterNotifyInfo 
+[in, out, optional]

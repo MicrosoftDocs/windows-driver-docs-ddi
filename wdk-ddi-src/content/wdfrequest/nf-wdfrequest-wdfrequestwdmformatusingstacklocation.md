@@ -58,13 +58,13 @@ The <b>WdfRequestWdmFormatUsingStackLocation</b> method formats an I/O request b
 
 
 
-### -param Request [in]
-
+### -param Request 
+[in]
 A handle to a framework request object.
 
 
-### -param Stack [in]
-
+### -param Stack 
+[in]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_stack_location">IO_STACK_LOCATION</a> structure that contains driver-supplied information. 
 
 

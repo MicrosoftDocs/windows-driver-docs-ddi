@@ -60,8 +60,8 @@ The <b>wiauPropsInPropSpec</b> function determines whether any of a list of prop
 Specifies the number of property specification IDs in the array pointed to by the <i>pPropSpecs</i> parameter.
 
 
-### -param pPropSpecs [in]
-
+### -param pPropSpecs 
+[in]
 Points to the first element of the array of property specification IDs.
 
 
@@ -70,8 +70,8 @@ Points to the first element of the array of property specification IDs.
 Specifies the number of property specification IDs to search for.
 
 
-### -param pProps [in]
-
+### -param pProps 
+[in]
 Points to the first element of the array containing the property specification IDs to search for.
 
 

@@ -55,8 +55,8 @@ The <b>ExAcquireRundownProtection</b> routine tries to acquire run-down protecti
 
 
 
-### -param RunRef [in, out]
-
+### -param RunRef 
+[in, out]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">EX_RUNDOWN_REF</a> structure that was initialized by a previous call to the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializerundownprotection">ExInitializeRundownProtection</a> routine. The run-down protection routines use this structure to track the run-down status of the associated shared object. This structure is opaque to drivers.
 
 

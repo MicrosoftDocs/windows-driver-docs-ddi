@@ -58,33 +58,33 @@ This is a callback inside <a href="https://docs.microsoft.com/windows-hardware/d
 
 
 
-### -param NdisMiniportDataPathHandle [in]
-
+### -param NdisMiniportDataPathHandle 
+[in]
 The NdisMiniportDataPathHandle passed to the IHV miniport in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_tal_txrx_initialize">MiniportWdiTalTxRxInitialize</a>.
 
 
-### -param IndicationLevel [in]
-
+### -param IndicationLevel 
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ne-dot11wdi-_wdi_rx_indication_level">WDI_RX_INDICATION_LEVEL</a> enumeration value that specifies the RX indication level.
 
 
-### -param PeerId [in]
-
+### -param PeerId 
+[in]
 The peer ID.
 
 
-### -param ExTid [in]
-
+### -param ExTid 
+[in]
 The extended TID.
 
 
-### -param pRxThrottleParams [in]
-
+### -param pRxThrottleParams 
+[in]
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_receive_throttle_parameters">NDIS_RECEIVE_THROTTLE_PARAMETERS</a> structure.
 
 
-### -param pWifiStatus [out]
-
+### -param pWifiStatus 
+[out]
 Status from WDI for the <i>NdisWdiRxInorderDataIndication</i>.  See the <i>Remarks</i> section for more information.
 
 

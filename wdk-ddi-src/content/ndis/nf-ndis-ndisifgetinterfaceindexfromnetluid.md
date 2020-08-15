@@ -59,15 +59,15 @@ The
 
 
 
-### -param NetLuid [in]
-
+### -param NetLuid 
+[in]
 A 
      <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> value that identifies a network
      interface.
 
 
-### -param pIfIndex [out]
-
+### -param pIfIndex 
+[out]
 A pointer to a caller-supplied interface index variable. If 
      <b>NdisIfGetInterfaceIndexFromNetLuid</b> succeeds, NDIS writes the network interface index that is
      associated with the specified NET_LUID to this variable.

@@ -49,16 +49,16 @@ The **wiasQueueEvent** function informs the service that the device generated an
 
 ## -parameters
 
-### -param bstrDeviceId [in]
-
+### -param bstrDeviceId 
+[in]
 Specifies the device ID. This is the value passed to the minidriver in the call to the [IWiaMiniDrv::drvInitializeWia](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvinitializewia) method.
 
-### -param pEventGUID [in]
-
+### -param pEventGUID 
+[in]
 Pointer to a buffer that contains the GUID for the event.
 
-### -param bstrFullItemName [in, optional]
-
+### -param bstrFullItemName 
+[in, optional]
 Specifies the full item name, including path information.
 
 ## -returns

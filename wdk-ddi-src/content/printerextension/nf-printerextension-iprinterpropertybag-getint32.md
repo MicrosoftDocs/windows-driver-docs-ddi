@@ -55,13 +55,13 @@ Reads an integer property.
 
 
 
-### -param bstrName [in]
-
+### -param bstrName 
+[in]
 The property to read.
 
 
-### -param pnValue [out, retval]
-
+### -param pnValue 
+[out, retval]
 The value read.
 
 

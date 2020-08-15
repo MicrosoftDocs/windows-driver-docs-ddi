@@ -50,12 +50,12 @@ The **NtFlushBuffersFileEx** routine is called by a file system legacy filter dr
 
 ## -parameters
 
-### -param FileHandle [in]
-
+### -param FileHandle 
+[in]
 Handle returned by [**NtCreateFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile) or [**NtOpenFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntopenfile) for the file whose buffers will be flushed. This parameter is required and cannot be NULL.
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 Flush operation flags. *Flags* can be 0 or one of the following values *if the file is on an NTFS file system*.
 
 | Value | Meaning |
@@ -72,8 +72,8 @@ Pointer to a block with additional parameters. This parameter must currently be 
 
 The size, in bytes, of the block that *Parameters* point to. This parameter must currently be set to 0.
 
-### -param IoStatusBlock [out]
-
+### -param IoStatusBlock 
+[out]
 Address of the caller's I/O status block. This parameter is required and cannot be NULL.
 
 ## -returns

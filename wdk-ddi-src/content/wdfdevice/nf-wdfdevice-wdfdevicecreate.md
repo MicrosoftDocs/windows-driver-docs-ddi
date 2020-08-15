@@ -60,18 +60,18 @@ The <b>WdfDeviceCreate</b> method creates a framework device object.
 
 
 
-### -param DeviceInit [in, out]
-
+### -param DeviceInit 
+[in, out]
 The address of a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure. If <b>WdfDeviceCreate</b> encounters no errors, it sets the pointer to <b>NULL</b>.
 
 
-### -param DeviceAttributes [in, optional]
-
+### -param DeviceAttributes 
+[in, optional]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that contains attributes for the new object. (The structure's <b>ParentObject</b> member must be <b>NULL</b>.) This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
 
-### -param Device [out]
-
+### -param Device 
+[out]
 A pointer to a location that receives a handle to the new framework device object.
 
 

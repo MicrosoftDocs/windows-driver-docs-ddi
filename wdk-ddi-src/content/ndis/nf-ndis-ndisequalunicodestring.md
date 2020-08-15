@@ -57,13 +57,13 @@ The
 
 
 
-### -param _String1 [in]
-
+### -param _String1 
+[in]
 A pointer to an NDIS_STRING type that describes the first Unicode string.
 
 
-### -param _String2 [in]
-
+### -param _String2 
+[in]
 A pointer to an NDIS_STRING type that describes the second Unicode string.
 
 

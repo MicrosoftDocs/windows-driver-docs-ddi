@@ -55,8 +55,8 @@ The <b>GetWriteStream</b> method retrieves the stream object to write page marku
 
 
 
-### -param ppWriteStream [out]
-
+### -param ppWriteStream 
+[out]
 The stream that the filter should use to write page markup to send data.
 
 

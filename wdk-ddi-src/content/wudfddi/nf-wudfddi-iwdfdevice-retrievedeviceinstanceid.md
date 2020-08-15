@@ -57,13 +57,13 @@ The <b>RetrieveDeviceInstanceId</b> method retrieves the identifier of an instan
 
 
 
-### -param Buffer [out, optional]
-
+### -param Buffer 
+[out, optional]
 A pointer to a buffer that receives a <b>NULL</b>-terminated string that represents the identifier of an instance of the device, if the supplied buffer is non-<b>NULL</b> and <b>RetrieveDeviceInstanceId</b> is successful. 
 
 
-### -param pdwSizeInChars [in, out]
-
+### -param pdwSizeInChars 
+[in, out]
 A pointer to a variable that receives the number of characters, including the <b>NULL</b> character, in the string that <i>Buffer</i> points to.
 
 If <i>Buffer</i> is <b>NULL</b>, the value that the driver supplied is zero. The framework then returns the size, in characters, that are required for the identifier string.

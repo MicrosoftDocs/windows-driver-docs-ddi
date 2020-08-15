@@ -51,12 +51,12 @@ For more information about the progress data that is transferred, see [WiaTransf
 
 ## -parameters
 
-### -param lFlags [in]
-
+### -param lFlags 
+[in]
 Represents flag bits. This parameter is unused and should always be set to zero (0) by the caller.
 
-### -param pWiaTransferParams [in]
-
+### -param pWiaTransferParams 
+[in]
 Pointer to a **WiaTransferParams** object.
 
 ## -returns

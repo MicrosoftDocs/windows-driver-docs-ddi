@@ -57,13 +57,13 @@ The <b>RegisterRemoteInterfaceNotification</b> method registers a driver to rece
 
 
 
-### -param pDeviceInterfaceGuid [in]
-
+### -param pDeviceInterfaceGuid 
+[in]
 A pointer to a GUID that identifies a device interface.
 
 
-### -param IncludeExistingInterfaces [in]
-
+### -param IncludeExistingInterfaces 
+[in]
 A Boolean value. If the driver sets this value to <b>TRUE</b>, the framework notifies the driver if the specified device interface becomes available after the driver calls <b>RegisterRemoteInterfaceNotification</b>, and it also notifies the driver if the device interface was available before the driver called <b>RegisterRemoteInterfaceNotification</b>. 
 
 If the driver sets this value to <b>FALSE</b>, the framework notifies the driver only if the device interface becomes available after the driver calls <b>RegisterRemoteInterfaceNotification</b>.

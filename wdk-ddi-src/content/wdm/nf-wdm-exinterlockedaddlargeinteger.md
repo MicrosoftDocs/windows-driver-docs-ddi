@@ -55,18 +55,18 @@ The <b>ExInterlockedAddLargeInteger</b> routine adds a large integer value to th
 
 
 
-### -param Addend [in, out]
-
+### -param Addend 
+[in, out]
 A pointer to the variable to be adjusted by the <i>Increment</i> value. 
 
 
-### -param Increment [in]
-
+### -param Increment 
+[in]
 Specifies a value to be added to <i>Addend</i>. 
 
 
-### -param Lock [in, out]
-
+### -param Lock 
+[in, out]
 A pointer to a spin lock to be used to synchronize access to <i>Addend</i>. 
 
 

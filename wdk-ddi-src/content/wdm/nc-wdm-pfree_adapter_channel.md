@@ -55,8 +55,8 @@ The <b>FreeAdapterChannel</b> routine releases the system DMA controller when a 
 
 
 
-### -param DmaAdapter [in]
-
+### -param DmaAdapter 
+[in]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_adapter">DMA_ADAPTER</a>  structure returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a> that represents the bus-master adapter or DMA controller.
 
 

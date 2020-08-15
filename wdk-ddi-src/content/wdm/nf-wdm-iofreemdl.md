@@ -55,8 +55,8 @@ The <b>IoFreeMdl</b> routine releases a caller-allocated memory descriptor list 
 
 
 
-### -param Mdl [in]
-
+### -param Mdl 
+[in]
 Pointer to the MDL to be released. 
 
 

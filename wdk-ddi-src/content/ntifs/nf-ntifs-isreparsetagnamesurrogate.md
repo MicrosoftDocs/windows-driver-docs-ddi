@@ -55,8 +55,8 @@ The <b>IsReparseTagNameSurrogate</b> macro determines whether a tag's associated
 
 
 
-### -param _tag [in]
-
+### -param _tag 
+[in]
 Reparse point tag to be tested. 
 
 

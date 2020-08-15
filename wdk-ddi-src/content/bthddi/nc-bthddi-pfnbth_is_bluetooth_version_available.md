@@ -57,13 +57,13 @@ The
 
 
 
-### -param MajorVersion [in]
-
+### -param MajorVersion 
+[in]
 This parameter specifies the major version number of Bluetooth that is requested.
 
 
-### -param MinorVersion [in]
-
+### -param MinorVersion 
+[in]
 This parameter specifies the minor version number of Bluetooth that is requested.
 
 

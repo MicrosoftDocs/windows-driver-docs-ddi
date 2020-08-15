@@ -55,18 +55,18 @@ The <b>FltOpenVolume</b> routine returns a handle and a file object pointer for 
 
 
 
-### -param Instance [in]
-
+### -param Instance 
+[in]
 Opaque instance pointer for the instance. This instance must be attached to a local volume. 
 
 
-### -param VolumeHandle [out]
-
+### -param VolumeHandle 
+[out]
 Handle for the file system volume. 
 
 
-### -param VolumeFileObject [out]
-
+### -param VolumeFileObject 
+[out]
 Pointer to a caller-allocated variable that receives a file object pointer for the root directory of the volume. This parameter is optional and can be <b>NULL</b>. 
 
 

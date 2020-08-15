@@ -56,28 +56,28 @@ The <b>GetTotalNumberThreadsAndProcesses</b> method returns the total number of 
 
 
 
-### -param TotalThreads [out]
-
+### -param TotalThreads 
+[out]
 Receives the total number of threads in all processes in all targets.
 
 
-### -param TotalProcesses [out]
-
+### -param TotalProcesses 
+[out]
 Receives the total number of processes in all targets.
 
 
-### -param LargestProcessThreads [out]
-
+### -param LargestProcessThreads 
+[out]
 Receives the largest number of threads in any process on any target.
 
 
-### -param LargestSystemThreads [out]
-
+### -param LargestSystemThreads 
+[out]
 Receives the largest number of threads in any target.
 
 
-### -param LargestSystemProcesses [out]
-
+### -param LargestSystemProcesses 
+[out]
 Receives the largest number of processes in any target.
 
 

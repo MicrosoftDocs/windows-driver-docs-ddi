@@ -55,13 +55,13 @@ The <b>IoInitializeWorkItem</b> routine initializes a work item that the caller 
 
 
 
-### -param IoObject [in]
-
+### -param IoObject 
+[in]
 Pointer to the caller's driver object or to one of the caller's device objects. If the caller will later pass the work item to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioqueueworkitem">IoQueueWorkItem</a>, <i>IoObject</i> must point to a device object.
 
 
-### -param IoWorkItem [in]
-
+### -param IoWorkItem 
+[in]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">IO_WORKITEM</a> structure to initialize.
 
 

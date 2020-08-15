@@ -58,8 +58,8 @@ The <b>GetNumberThreads</b> method returns the number of <a href="https://docs.m
 
 
 
-### -param Number [out]
-
+### -param Number 
+[out]
 Receives the number of threads in the current process.
 
 

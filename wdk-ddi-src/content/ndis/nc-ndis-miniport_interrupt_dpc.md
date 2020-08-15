@@ -59,8 +59,8 @@ A miniport driver must provide a
 
 
 
-### -param MiniportInterruptContext [in]
-
+### -param MiniportInterruptContext 
+[in]
 A handle to a block of interrupt context information. The miniport driver supplied this handle in
      the 
      <i>MiniportInterruptContext</i> parameter that the miniport driver passed to the 
@@ -68,8 +68,8 @@ A handle to a block of interrupt context information. The miniport driver suppli
      NdisMRegisterInterruptEx</a> function.
 
 
-### -param MiniportDpcContext [in]
-
+### -param MiniportDpcContext 
+[in]
 A pointer to a context area that the miniport driver supplied when it called the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismqueuedpcex">NdisMQueueDpcEx</a> or 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismqueuedpc">NdisMQueueDpc</a> function. If NDIS called 
@@ -79,8 +79,8 @@ A pointer to a context area that the miniport driver supplied when it called the
      <i>MiniportDpcContext</i> is <b>NULL</b>.
 
 
-### -param ReceiveThrottleParameters [in]
-
+### -param ReceiveThrottleParameters 
+[in]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_receive_throttle_parameters">
      NDIS_RECEIVE_THROTTLE_PARAMETERS</a> structure. This structure specifies the maximum number of 
@@ -88,8 +88,8 @@ A pointer to an
      driver should indicate in a DPC.
 
 
-### -param NdisReserved2 [in]
-
+### -param NdisReserved2 
+[in]
 Reserved for NDIS.
 
 

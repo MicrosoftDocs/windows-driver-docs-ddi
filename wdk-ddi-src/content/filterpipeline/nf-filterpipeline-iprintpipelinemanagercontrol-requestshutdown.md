@@ -55,13 +55,13 @@ The <code>RequestShutdown</code> method requests that a pipeline be shut down.
 
 
 
-### -param hrReason [in]
-
+### -param hrReason 
+[in]
 An <b>HRESULT</b> value that indicates the reason for the lack of memory.
 
 
-### -param pReason [in]
-
+### -param pReason 
+[in]
 Not used. Set to <b>NULL</b>.
 
 

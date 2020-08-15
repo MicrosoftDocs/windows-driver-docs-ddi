@@ -55,18 +55,18 @@ Gets a quit lock string.
 
 
 
-### -param Buffer [out]
-
+### -param Buffer 
+[out]
 The buffer in which to write the string.
 
 
-### -param BufferSize [in]
-
+### -param BufferSize 
+[in]
 The size of the buffer.
 
 
-### -param StringSize [out, optional]
-
+### -param StringSize 
+[out, optional]
 A pointer to the string size.
 
 

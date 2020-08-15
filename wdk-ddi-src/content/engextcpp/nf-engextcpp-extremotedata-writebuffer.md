@@ -55,13 +55,13 @@ The <b>WriteBuffer</b> method writes data to the target's memory.  The data is l
 
 
 
-### -param Buffer [in]
-
+### -param Buffer 
+[in]
 Specifies the data to write to the target.
 
 
-### -param Bytes [in]
-
+### -param Bytes 
+[in]
 Specifies the number of bytes to write.  The <i>Buffer</i> buffer must be at least this size.
 
 

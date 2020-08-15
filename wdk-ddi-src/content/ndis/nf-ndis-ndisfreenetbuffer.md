@@ -60,8 +60,8 @@ Call the
 
 
 
-### -param NetBuffer [in]
-
+### -param NetBuffer 
+[in]
 A pointer to a NET_BUFFER structure that was allocated by calling 
      <b>NdisAllocateNetBuffer</b>.
 

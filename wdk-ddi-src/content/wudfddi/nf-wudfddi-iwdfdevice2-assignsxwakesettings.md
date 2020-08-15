@@ -57,18 +57,18 @@ The <b>AssignSxWakeSettings</b> method provides driver-supplied information abou
 
 
 
-### -param DxState [in]
-
+### -param DxState 
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/ne-wudfddi-_device_power_state">DEVICE_POWER_STATE</a>-typed enumerator that identifies the low <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/device-power-states">device power state</a> that the device will enter when the system power state drops to a wakeable low-power state. The value of <i>DxState</i> cannot be <b>PowerDeviceD0</b>. DEVICE_POWER_STATE values are defined in wdm.h.
 
 
-### -param UserControlOfWakeSettings [in]
-
+### -param UserControlOfWakeSettings 
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_power_policy_sx_wake_user_control">WDF_POWER_POLICY_SX_WAKE_USER_CONTROL</a>-typed enumerator that indicates whether users have the ability to modify the device's wake settings.
 
 
-### -param Enabled [in]
-
+### -param Enabled 
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdftypes/ne-wdftypes-_wdf_tri_state">WDF_TRI_STATE</a>-typed enumerator that indicates whether the device can wake the system (that is, restore the system to S0) when the system is in a low-power state. This member can have one of the following values:
 
 <b>WdfTrue</b> - Waking the system is enabled.

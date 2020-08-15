@@ -57,27 +57,27 @@ The
 
 
 
-### -param calloutStreamData [in]
-
+### -param calloutStreamData 
+[in]
 A pointer to a 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_stream_data0_">FWPS_STREAM_DATA0</a> structure that contains
      the stream data to be copied.
 
 
-### -param buffer [in, out]
-
+### -param buffer 
+[in, out]
 A pointer to a location in memory that will store the copy of the stream data pointed to by the 
      <i>calloutStreamData</i> parameter. The size of the buffer must be greater than or equal to 
      <i>bytesToCopy</i>.
 
 
-### -param bytesToCopy [in]
-
+### -param bytesToCopy 
+[in]
 The amount of data, in bytes, to be copied into the receiving buffer.
 
 
-### -param bytesCopied [out]
-
+### -param bytesCopied 
+[out]
 A pointer to a variable that receives the size, in bytes, of the stream data copied to the memory
      location pointed to by the 
      <i>buffer</i> parameter.

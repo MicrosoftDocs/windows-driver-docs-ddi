@@ -58,16 +58,16 @@ The
 
 
 
-### -param Lock [in]
-
+### -param Lock 
+[in]
 A pointer to an opaque 
      <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff567279(v=vs.85)">NDIS_RW_LOCK_EX</a> variable that represents a
      lock. The caller can use this lock to gain write or read access to resources that are shared between
      non-ISR driver threads.
 
 
-### -param LockState [in]
-
+### -param LockState 
+[in]
 A pointer to an opaque 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_lock_state_ex">LOCK_STATE_EX</a> variable that tracks the state
      of the lock. This variable exists in the interval between the times that the caller obtains and releases

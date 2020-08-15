@@ -58,8 +58,8 @@ The
 
 
 
-### -param MiniportVcContext [in]
-
+### -param MiniportVcContext 
+[in]
 Specified the handle to a miniport driver-allocated context area in which the miniport driver
      maintains state information per-VC. The miniport driver supplied this handle to NDIS from its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_co_create_vc">MiniportCoCreateVc</a> function.

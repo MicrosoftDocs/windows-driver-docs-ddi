@@ -57,26 +57,26 @@ A bus-master miniport driver provides a
 
 
 
-### -param pDO [in]
-
+### -param pDO 
+[in]
 Miniport drivers should ignore this parameter.
 
 
-### -param Reserved [in]
-
+### -param Reserved 
+[in]
 Miniport drivers should ignore this parameter.
 
 
-### -param pSGL [in]
-
+### -param pSGL 
+[in]
 A pointer to a scatter/gather list buffer. This is not necessarily the same buffer as the one the
      driver specified in the call to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismallocatenetbuffersglist">
      NdisMAllocateNetBufferSGList</a> function
 
 
-### -param Context [in]
-
+### -param Context 
+[in]
 A pointer to a context area that the miniport driver created prior to calling 
      <b>NdisMAllocateNetBufferSGList</b>.
 

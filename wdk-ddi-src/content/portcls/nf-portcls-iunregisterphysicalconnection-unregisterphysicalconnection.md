@@ -55,28 +55,28 @@ The <code>UnregisterPhysicalConnection</code> method deletes the registration of
 
 
 
-### -param DeviceObject [in]
-
+### -param DeviceObject 
+[in]
 Pointer to the device object for the adapter device. This parameter must point to a system structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>.
 
 
-### -param FromUnknown [in]
-
+### -param FromUnknown 
+[in]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iport">IPort</a> interface of a port driver object. The port driver object that is associated with <i>FromUnknown</i> is bound to the subdevice that supplies the connection's data source pin.
 
 
-### -param FromPin [in]
-
+### -param FromPin 
+[in]
 Specifies a pin ID. This parameter identifies the data source (output) pin on the filter that is associated with the <i>FromUnknown</i> interface.
 
 
-### -param ToUnknown [in]
-
+### -param ToUnknown 
+[in]
 Pointer to the <b>IPort</b> interface of a port driver object. The port driver object that is associated with <i>ToUnknown</i> is bound to the subdevice that supplies the connection's data sink pin.
 
 
-### -param ToPin [in]
-
+### -param ToPin 
+[in]
 Specifies a pin ID. This parameter identifies the data sink (input) pin on the filter that is associated with the <i>ToUnknown</i> interface.
 
 

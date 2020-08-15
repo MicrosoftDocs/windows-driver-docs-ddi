@@ -55,18 +55,18 @@ The <b>KeSetEvent</b> routine sets an event object to a signaled state if the ev
 
 
 
-### -param Event [in, out]
-
+### -param Event 
+[in, out]
 A pointer to an initialized event object for which the caller provides the storage.
 
 
-### -param Increment [in]
-
+### -param Increment 
+[in]
 Specifies the priority increment to be applied if setting the event causes a wait to be satisfied.
 
 
-### -param Wait [in]
-
+### -param Wait 
+[in]
 Specifies whether the call to <b>KeSetEvent</b> is to be followed immediately by a call to one of the <b>KeWait<i>Xxx</i></b> routines. If <b>TRUE</b>, the <b>KeSetEvent</b> call must be followed by a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitformultipleobjects">KeWaitForMultipleObjects</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>, or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject">KeWaitForSingleObject</a>. For more information, see the following Remarks section.
 
 

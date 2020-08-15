@@ -55,13 +55,13 @@ Converts a value of type <b>UINT_PTR</b> to a value of type <b>INT16</b>.
 
 
 
-### -param uOperand [in]
-
+### -param uOperand 
+[in]
 The value to be converted.
 
 
-### -param pi16Result [out]
-
+### -param pi16Result 
+[out]
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
 

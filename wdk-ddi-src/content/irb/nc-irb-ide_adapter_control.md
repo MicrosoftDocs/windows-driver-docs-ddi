@@ -55,13 +55,13 @@ The <i>AtaAdapterControl</i> miniport driver routine is called to perform Plug a
 
 
 
-### -param ControllerExtension [in]
-
+### -param ControllerExtension 
+[in]
 A pointer to the controller extension.
 
 
-### -param ControlAction [in]
-
+### -param ControlAction 
+[in]
 
       One of five actions that the miniport driver must perform as defined in the following table.
   
@@ -146,8 +146,8 @@ Indicates that the miniport driver should perform a vendor-defined control actio
  
 
 
-### -param Parameters [in, out]
-
+### -param Parameters 
+[in, out]
 Parameters associated with the given action.
 
 

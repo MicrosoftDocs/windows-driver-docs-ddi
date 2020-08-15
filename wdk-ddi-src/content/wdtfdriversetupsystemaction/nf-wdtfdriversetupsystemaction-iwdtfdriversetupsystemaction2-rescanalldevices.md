@@ -55,8 +55,8 @@ Re-enumerates all devices in the system.
 
 
 
-### -param bRet [out, retval]
-
+### -param bRet 
+[out, retval]
 True if all devices were re-enumerated; otherwise, false.
 
 

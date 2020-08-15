@@ -56,23 +56,23 @@ The <b>GetSymbolName</b>  method returns the name of a symbol in a symbol group.
 
 
 
-### -param Index [in]
-
+### -param Index 
+[in]
 The index of the symbol whose name you want.  The index of a symbol is an identification number. The index ranges from zero through the number of symbols in the symbol group minus one.
 
 
-### -param Buffer [out, optional]
-
+### -param Buffer 
+[out, optional]
 The symbol name.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param BufferSize [in]
-
+### -param BufferSize 
+[in]
 The size of the buffer that <i>Buffer </i>points to.
 
 
-### -param NameSize [out, optional]
-
+### -param NameSize 
+[out, optional]
 The size of the symbol name.  If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
 
 

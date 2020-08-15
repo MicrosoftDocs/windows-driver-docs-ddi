@@ -71,8 +71,8 @@ DWORD APIENTRY Dot11ExtIhvGetVersionInfo(
 
 
 
-### -param pDot11IHVVersionInfo [out]
-
+### -param pDot11IHVVersionInfo 
+[out]
 A pointer to a
      <a href="..\wlanihv\ns-wlanihv-_dot11_ihv_version_info.md">DOT11_IHV_VERSION_INFO</a> structure,
      which contains the interface version numbers.

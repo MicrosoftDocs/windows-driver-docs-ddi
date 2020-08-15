@@ -50,8 +50,8 @@ This macro accesses a pointer to the relevant [KSMETHOD_ITEM](https://docs.micro
 
 ## -parameters
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 Specifies the IRP passed to the handler routine.
 
 ## -remarks

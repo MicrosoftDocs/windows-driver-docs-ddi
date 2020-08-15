@@ -56,18 +56,18 @@ The <b>FltDeleteFileContext</b> routine retrieves and deletes a file context tha
 
 
 
-### -param Instance [in]
-
+### -param Instance 
+[in]
 Opaque instance pointer for the caller. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 File object pointer for the file. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param OldContext [out]
-
+### -param OldContext 
+[out]
 Pointer to a caller-allocated variable that receives the address of the deleted context. If no matching context is found, this variable receives NULL_CONTEXT. This parameter is optional and can be <b>NULL</b>. (For more information about this parameter, see the following Remarks section.) 
 
 

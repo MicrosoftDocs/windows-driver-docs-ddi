@@ -58,13 +58,13 @@ The Bluetooth
 
 
 
-### -param usVal [in]
-
+### -param usVal 
+[in]
 The unsigned 16-bit integer value that is used to initialize the SDP_NODE structure.
 
 
-### -param tag [in]
-
+### -param tag 
+[in]
 A profile driver defined tag to associate with the node.
 
 

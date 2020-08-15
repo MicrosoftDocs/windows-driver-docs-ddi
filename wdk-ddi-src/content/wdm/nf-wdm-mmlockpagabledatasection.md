@@ -55,8 +55,8 @@ The <b>MmLockPagableDataSection</b> routine locks an entire section of driver da
 
 
 
-### -param AddressWithinSection [in]
-
+### -param AddressWithinSection 
+[in]
 Specifies the symbolic address of one item of data within the pageable section.
 
 

@@ -60,13 +60,13 @@ The <b>WdfTimerStart</b> method starts a timer's clock.
 
 
 
-### -param Timer [in]
-
+### -param Timer 
+[in]
 A handle to a framework timer object that was obtained by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdftimer/nf-wdftimer-wdftimercreate">WdfTimerCreate</a>.
 
 
-### -param DueTime [in]
-
+### -param DueTime 
+[in]
 A time period, in system time units (100-nanosecond intervals). The framework calls the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdftimer/nc-wdftimer-evt_wdf_timer">EvtTimerFunc</a> callback function when the specified time period elapses. The time period value can be negative or positive as follows:
 <ul>
 <li>

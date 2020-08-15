@@ -60,13 +60,13 @@ The <b>WdfDeviceSetDeviceState</b> method sets the device state for a specified 
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object.
 
 
-### -param DeviceState [in]
-
+### -param DeviceState 
+[in]
 A pointer to a driver-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_state">WDF_DEVICE_STATE</a> structure that contains the device's state information.
 
 

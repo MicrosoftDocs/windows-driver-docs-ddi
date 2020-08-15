@@ -56,18 +56,18 @@ The <b>ScsiPortReadPortBufferUchar</b> routine transfers a given number of unsig
 
 
 
-### -param Port [in]
-
+### -param Port 
+[in]
 Pointer to the I/O port. The given <i>Port</i> must be in a mapped I/O-space range returned by <b>ScsiPortGetDeviceBase</b>.
 
 
-### -param Buffer [in]
-
+### -param Buffer 
+[in]
 Pointer to the buffer.
 
 
-### -param Count [in]
-
+### -param Count 
+[in]
 Specifies the number of bytes to be read from the HBA.
 
 

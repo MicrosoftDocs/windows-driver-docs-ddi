@@ -71,15 +71,15 @@ typedef SRIOV_QUERY_LUID *PSRIOV_QUERY_LUID;
 
 
 
-### -param Context [in]
-
+### -param Context 
+[in]
 A pointer to a driver-defined context.
 
 
 
 
-### -param Luid [out]
-
+### -param Luid 
+[out]
 A pointer to the local unique
 identifier of the SR_IOV device implementing the interface.
 

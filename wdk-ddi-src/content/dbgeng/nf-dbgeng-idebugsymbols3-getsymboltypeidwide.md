@@ -55,18 +55,18 @@ The <b>GetSymbolTypeIdWide</b>  method returns the type ID and module of the spe
 
 
 
-### -param Symbol [in]
-
+### -param Symbol 
+[in]
 Specifies the expression whose type ID is requested.  See the Remarks section for details on the syntax of this expression.
 
 
-### -param TypeId [out]
-
+### -param TypeId 
+[out]
 Receives the type ID.
 
 
-### -param Module [out, optional]
-
+### -param Module 
+[out, optional]
 Receives the base address of the module containing the symbol.  For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/modules">Modules</a>.  If <i>Module</i> is <b>NULL</b>, this information is not returned.
 
 

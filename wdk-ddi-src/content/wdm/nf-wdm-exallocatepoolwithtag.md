@@ -55,8 +55,8 @@ The <b>ExAllocatePoolWithTag</b> routine allocates pool memory of the specified 
 
 
 
-### -param PoolType [in]
-
+### -param PoolType 
+[in]
 The type of pool memory to allocate. For a description of the available pool memory types, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type">POOL_TYPE</a>.
 
 You can modify the <i>PoolType</i> value by bitwise-ORing this value with the POOL_RAISE_IF_ALLOCATION_FAILURE flag. This flag causes an exception to be raised if the request cannot be satisfied. Use of the POOL_RAISE_IF_ALLOCATION_FAILURE flag is not recommended because it is costly.
@@ -64,13 +64,13 @@ You can modify the <i>PoolType</i> value by bitwise-ORing this value with the PO
 Similarly, you can modify the <i>PoolType</i> value by bitwise-ORing this value with the POOL_COLD_ALLOCATION flag as a hint to the kernel to allocate the memory from pages that are likely to be paged out quickly. To reduce the amount of resident pool memory as much as possible, you should not reference these allocations frequently. The POOL_COLD_ALLOCATION flag is only advisory and is supported starting with Windows XP.
 
 
-### -param NumberOfBytes [in]
-
+### -param NumberOfBytes 
+[in]
 The number of bytes to allocate.
 
 
-### -param Tag [in]
-
+### -param Tag 
+[in]
 The pool tag to use for the allocated memory. Specify the pool tag as a non-zero character literal of one to to four characters delimited by single quotation marks (for example, 'Tag1'). The string is usually specified in reverse order (for example, '1gaT'). Each ASCII character in the tag must be a value in the range 0x20 (space) to 0x7E (tilde). Each allocation code path should use a unique pool tag to help debuggers and verifiers identify the code path.
 
 

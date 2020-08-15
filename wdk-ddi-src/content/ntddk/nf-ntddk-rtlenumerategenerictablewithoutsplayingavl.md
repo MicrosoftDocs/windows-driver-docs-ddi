@@ -55,13 +55,13 @@ The <b>RtlEnumerateGenericTableWithoutSplayingAvl</b> routine is used to enumera
 
 
 
-### -param Table [in]
-
+### -param Table 
+[in]
 A pointer to the generic table (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_rtl_avl_table">RTL_AVL_TABLE</a>). The table must have been initialized by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinitializegenerictableavl">RtlInitializeGenericTableAvl</a>.
 
 
-### -param RestartKey [in, out]
-
+### -param RestartKey 
+[in, out]
 An address of the element returned by the previous call to <b>RtlEnumerateGenericTableWithoutSplayingAvl</b>. Should be set to <b>NULL</b> if the enumeration is to start at the first element in the table. 
 
 To enumerate all elements in the table, use <b>RtlEnumerateGenericTableWithoutSplayingAvl</b> as follows:

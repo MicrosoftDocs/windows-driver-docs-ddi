@@ -55,18 +55,18 @@ The <code>Write</code> method writes data to an outgoing MIDI stream.
 
 
 
-### -param BufferAddress [in]
-
+### -param BufferAddress 
+[in]
 Pointer to a caller-allocated buffer that contains the outgoing MIDI data
 
 
-### -param BytesToWrite [in]
-
+### -param BytesToWrite 
+[in]
 Specifies the number of bytes of MIDI data contained in the buffer that <i>BufferAddress</i> points to.
 
 
-### -param BytesWritten [out]
-
+### -param BytesWritten 
+[out]
 Output pointer to a caller-allocated variable into which the method writes a count specifying the actual number of bytes that the method succeeded in writing to the MIDI output device. For more information, see the following Remarks section.
 
 

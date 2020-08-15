@@ -55,13 +55,13 @@ req.typenames:
 
 
 
-### -param SrvCall [in]
-
+### -param SrvCall 
+[in]
 A pointer to the SRV_CALL structure. 
 
 
-### -param DomainName [in]
-
+### -param DomainName 
+[in]
 A pointer to a buffer containing a zero-terminated Unicode string that names the domain to which this server belongs. 
 
 

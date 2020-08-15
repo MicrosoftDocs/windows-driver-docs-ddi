@@ -70,8 +70,8 @@ The ID of the color space that the color profile represents.
 
 The buffer size, in bytes, of the buffer pointed to by *pProfileName*.
 
-### -param pProfileName [out]
-
+### -param pProfileName 
+[out]
 A pointer to a buffer to receive the name of the color profile.
 
 #### - profileManagementScope [in]

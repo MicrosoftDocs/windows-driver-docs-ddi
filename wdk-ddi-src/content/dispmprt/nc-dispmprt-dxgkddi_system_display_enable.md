@@ -57,37 +57,37 @@ Starting with Windows 8, the operating system calls this function during a bugc
 
 
 
-### -param MiniportDeviceContext [in]
-
+### -param MiniportDeviceContext 
+[in]
 A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem.
 
 
 
 
-### -param TargetId [in]
-
+### -param TargetId 
+[in]
 A D3DDDI_VIDEO_PRESENT_TARGET_ID value that specifies the identifier of the video present target on the display adapter that the display device is connected to. This identifier could be for the target that was left in the current video present network (VidPn) state during the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_commitvidpn">DxgkDdiCommitVidPn</a>.
 
 For more details about the use of the <i>TargetId</i> parameter, see the following "Video present target initialization" section.
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 A pointer to a value that contains a bitwise OR of flags. This member is reserved by the operating system.
 
 
-### -param Width [out]
-
+### -param Width 
+[out]
 A UINT value that specifies the width of the display mode of the specified device in units of pixels.
 
 
-### -param Height [out]
-
+### -param Height 
+[out]
 A UINT value that specifies the height of the display mode  of the specified device in units of pixels.
 
 
-### -param ColorFormat [out]
-
+### -param ColorFormat 
+[out]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a> value that specifies the color format of the display device.
 
 

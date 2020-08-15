@@ -56,23 +56,23 @@ The <b>ClfsReadPreviousRestartArea</b> routine reads the previous restart record
 
 
 
-### -param pvReadContext [in]
-
+### -param pvReadContext 
+[in]
 A pointer to a read context obtained by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsreadrestartarea">ClfsReadRestartArea</a>.
 
 
-### -param ppvRestartBuffer [out]
-
+### -param ppvRestartBuffer 
+[out]
 A pointer to a variable that receives a pointer to the data buffer of the restart record that is read.
 
 
-### -param pcbRestartBuffer [out]
-
+### -param pcbRestartBuffer 
+[out]
 A pointer to a ULONG-typed variable that receives the size, in bytes, of the buffer pointed to by *<i>ppvRestartBuffer</i>. This is the length of the data buffer of the restart record that is read.
 
 
-### -param plsnRestart [out]
-
+### -param plsnRestart 
+[out]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cls_lsn">CLFS_LSN</a> structure that receives the previous LSN of the restart record that was read.
 
 

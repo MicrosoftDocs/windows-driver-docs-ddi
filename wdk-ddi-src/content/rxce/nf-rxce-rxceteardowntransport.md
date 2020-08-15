@@ -55,8 +55,8 @@ req.typenames:
 
 
 
-### -param pTransport [in]
-
+### -param pTransport 
+[in]
 A pointer to the RDBSS transport to be torn down.
 
 

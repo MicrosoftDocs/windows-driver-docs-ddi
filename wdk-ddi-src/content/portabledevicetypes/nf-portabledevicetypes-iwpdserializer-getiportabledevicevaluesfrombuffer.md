@@ -59,18 +59,18 @@ Deserializes a byte array to an <b>IPortableDeviceValues</b> interface.
 
 
 
-### -param pBuffer [in]
-
+### -param pBuffer 
+[in]
 Pointer to the buffer to deserialize.
 
 
-### -param dwInputBufferLength [in]
-
+### -param dwInputBufferLength 
+[in]
 <b>DWORD</b> that specifies the size of the buffer, in bytes.
 
 
-### -param ppParams [out]
-
+### -param ppParams 
+[out]
 Address of a variable that receives a pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues</a> interface created from the buffer. The application is responsible for calling <b>Release</b> on the interface.
 
 

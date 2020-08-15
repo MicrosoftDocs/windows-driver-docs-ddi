@@ -55,13 +55,13 @@ The <b>CcSetFileSizes</b> routine updates the cache maps and section object for 
 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 Pointer to a file object for the cached file.
 
 
-### -param FileSizes [in]
-
+### -param FileSizes 
+[in]
 Pointer to a CC_FILE_SIZES structure containing <b>AllocationSize</b>, <b>FileSize</b> and <b>ValidDataLength</b> for the file. This structure is defined as follows:
 
 <div class="code"><span codelanguage=""><table>

@@ -55,8 +55,8 @@ The <b>RtlTimeFieldsToTime</b> routine converts <b>TIME_FIELDS</b> information t
 
 
 
-### -param TimeFields [in]
-
+### -param TimeFields 
+[in]
 Pointer to the following structure, containing the time information to be converted:
 
 <div class="code"><span codelanguage=""><table>
@@ -129,8 +129,8 @@ Specifies a value from 0 to 999.
 Specifies a value from 0 to 6 (Sunday to Saturday). 
 
 
-### -param Time [out]
-
+### -param Time 
+[out]
 Pointer to a buffer, which is to contain the converted system time value as a large integer. 
 
 

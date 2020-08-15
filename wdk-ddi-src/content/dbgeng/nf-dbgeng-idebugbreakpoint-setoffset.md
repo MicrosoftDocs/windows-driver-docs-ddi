@@ -56,8 +56,8 @@ The <b>SetOffset</b> method sets the location that triggers a breakpoint.
 
 
 
-### -param Offset [in]
-
+### -param Offset 
+[in]
 The location on the target that triggers the breakpoint.
 
 

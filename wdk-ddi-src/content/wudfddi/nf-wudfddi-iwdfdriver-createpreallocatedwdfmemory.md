@@ -57,30 +57,30 @@ The <b>CreatePreallocatedWdfMemory</b> method creates a <a href="https://docs.mi
 
 
 
-### -param pBuff [in]
-
+### -param pBuff 
+[in]
 A pointer to a driver-supplied data buffer for the memory object.
 
 
-### -param BufferSize [in]
-
+### -param BufferSize 
+[in]
 
       The size, in bytes, of data that <i>pBuff</i> points to.
      
 
 
-### -param pCallbackInterface [in, optional]
-
+### -param pCallbackInterface 
+[in, optional]
 A pointer to the <b>IUnknown</b> interface that the framework uses to determine the object-related event callback functions that the driver subscribes to on the newly created memory object. This parameter is optional. The driver can pass <b>NULL</b> if the driver does not require notification. The <b>IUnknown</b> interface is used for object cleanup and disposal. If the driver passes a valid pointer, the framework will call <b>QueryInterface</b> on the <b>IUnknown</b> interface for the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iobjectcleanup">IObjectCleanup</a> interface. If the framework obtains the driver's <b>IObjectCleanup</b> interface, the framework can subsequently call the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iobjectcleanup-oncleanup">IObjectCleanup::OnCleanup</a> method to notify the driver that the memory object is cleaned up. 
 
 
-### -param pParentObject [in, optional]
-
+### -param pParentObject 
+[in, optional]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfobject">IWDFObject</a> interface for the parent object of the created memory object. If <b>NULL</b>, the driver object becomes the default parent. 
 
 
-### -param ppWdfMemory [out]
-
+### -param ppWdfMemory 
+[out]
 A pointer to a buffer that receives a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfmemory">IWDFMemory</a> interface for the newly created WDF memory object.
 
 

@@ -55,28 +55,28 @@ The <b>WmiQueryTraceInformation</b> routine returns information about a <a href=
 
 
 
-### -param TraceInformationClass [in]
-
+### -param TraceInformationClass 
+[in]
 Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_trace_information_class">TRACE_INFORMATION_CLASS</a> enumerator that indicates the type of information to return about an event trace.
 
 
-### -param TraceInformation [out]
-
+### -param TraceInformation 
+[out]
 A pointer to a caller-allocated output buffer where the routine returns the event trace information specified by <i>TraceInformationClass</i>.
 
 
-### -param TraceInformationLength [in]
-
+### -param TraceInformationLength 
+[in]
 Specifies the size, in bytes, of the <i>TraceInformation</i> buffer.
 
 
-### -param RequiredLength [out, optional]
-
+### -param RequiredLength 
+[out, optional]
 A pointer to the value returned by the routine that specifies the required size, in bytes, of the <i>TraceInformation</i> buffer. The caller should set <i>RequiredLength</i> to <b>NULL</b> if it does not use the required length information.
 
 
-### -param Buffer [in, optional]
-
+### -param Buffer 
+[in, optional]
 A pointer to the query-specific input information that a caller supplies. If caller-supplied information is not required, the caller should set <i>Buffer</i> to <b>NULL</b>. 
 
 

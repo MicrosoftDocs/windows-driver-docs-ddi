@@ -55,8 +55,8 @@ The <b>RtlConvertLongToLuid</b> routine converts a long integer to a locally uni
 
 
 
-### -param Long [in]
-
+### -param Long 
+[in]
 Specifies the long integer to convert. 
 
 

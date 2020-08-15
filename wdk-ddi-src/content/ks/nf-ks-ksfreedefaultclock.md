@@ -58,8 +58,8 @@ This may only be called at PASSIVE_LEVEL.
 
 
 
-### -param DefaultClock [in]
-
+### -param DefaultClock 
+[in]
 Specifies the previously allocated structure to free.
 
 

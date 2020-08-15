@@ -55,8 +55,8 @@ The print spooler's <code>RouterFreePrinterNotifyInfo</code> function deallocate
 
 
 
-### -param pInfo [in, optional]
-
+### -param pInfo 
+[in, optional]
 Caller-supplied pointer to a PRINTER_NOTIFY_INFO structure (described in the Windows SDK documentation).
 
 

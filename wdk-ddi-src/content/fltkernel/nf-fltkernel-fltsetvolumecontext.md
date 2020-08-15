@@ -55,13 +55,13 @@ req.typenames:
 
 
 
-### -param Volume [in]
-
+### -param Volume 
+[in]
 Opaque volume pointer for the volume. 
 
 
-### -param Operation [in]
-
+### -param Operation 
+[in]
 Flag specifying details of the operation to be performed. This parameter must be one of the following: 
 
 
@@ -79,13 +79,13 @@ If a context is already set, replace it with <i>NewContext</i>. Otherwise, inser
 If a context is already set, return STATUS_FLT_CONTEXT_ALREADY_DEFINED. Otherwise, insert <i>NewContext</i> into the list of contexts for the volume. 
 
 
-### -param NewContext [in]
-
+### -param NewContext 
+[in]
 Pointer to the new context to be set for the volume. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param OldContext [out, optional]
-
+### -param OldContext 
+[out, optional]
 Pointer to a caller-allocated variable that receives the address of the existing volume context for <i>Instance</i>. This parameter is optional and can be <b>NULL</b>. (For more information about this parameter, see the following Remarks section.) 
 
 

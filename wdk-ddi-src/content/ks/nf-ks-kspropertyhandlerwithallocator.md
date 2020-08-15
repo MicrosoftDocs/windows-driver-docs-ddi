@@ -55,23 +55,23 @@ The <b>KsPropertyHandlerWithAllocator </b>performs the same handling as <a href=
 
 
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 Specifies the IRP with the property request being handled.
 
 
-### -param PropertySetsCount [in]
-
+### -param PropertySetsCount 
+[in]
 Specifies the number of property sets being passed.
 
 
-### -param PropertySet [in]
-
+### -param PropertySet 
+[in]
 Specifies the pointer to an array of property set information.
 
 
-### -param Allocator [in, optional]
-
+### -param Allocator 
+[in, optional]
 Optionally points to an allocation function used to allocate memory to store the property parameters.
 
 

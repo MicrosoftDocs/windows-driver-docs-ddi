@@ -57,28 +57,28 @@ The <b>GetTypeName</b>  method returns the name of the type symbol specified by 
 
 
 
-### -param Module [in]
-
+### -param Module 
+[in]
 Specifies the base address of the module to which the type belongs.  For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/modules">Modules</a>.
 
 
-### -param TypeId [in]
-
+### -param TypeId 
+[in]
 Specifies the type ID of the type.
 
 
-### -param NameBuffer [out, optional]
-
+### -param NameBuffer 
+[out, optional]
 Receives the name of the type.  If <i>NameBuffer</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param NameBufferSize [in]
-
+### -param NameBufferSize 
+[in]
 Specifies the size in characters of the buffer <i>NameBuffer</i>.
 
 
-### -param NameSize [out, optional]
-
+### -param NameSize 
+[out, optional]
 Receives the size in characters of the type's name.  If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
 
 

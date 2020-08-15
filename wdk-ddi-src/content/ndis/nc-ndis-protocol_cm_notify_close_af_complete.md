@@ -62,14 +62,14 @@ The
 
 
 
-### -param CallMgrAfContext [in]
-
+### -param CallMgrAfContext 
+[in]
 A handle to the call manager's AF context area that the call manager supplied to NDIS in the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_open_af">ProtocolCmOpenAf</a> function.
 
 
-### -param Status [in]
-
+### -param Status 
+[in]
 The clients final status for the AF close notification. 
      <i>Status</i> can be one of the following:
      

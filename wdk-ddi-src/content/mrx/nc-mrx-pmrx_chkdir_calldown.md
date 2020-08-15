@@ -55,13 +55,13 @@ The<i>MRxIsValidDirectory</i> routine is called by <a href="https://docs.microso
 
 
 
-### -param RxContext [in, out]
-
+### -param RxContext 
+[in, out]
 A pointer to the RX_CONTEXT structure. This parameter contains the IRP that is requesting the operation. 
 
 
-### -param DirectoryName [in]
-
+### -param DirectoryName 
+[in]
 A pointer to a Unicode string that contains the name of the remote directory.
 
 

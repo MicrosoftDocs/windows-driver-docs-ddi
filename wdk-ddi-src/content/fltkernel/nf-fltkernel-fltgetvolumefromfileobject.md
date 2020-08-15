@@ -55,18 +55,18 @@ The <b>FltGetVolumeFromFileObject</b> routine returns an opaque pointer for the 
 
 
 
-### -param Filter [in]
-
+### -param Filter 
+[in]
 Opaque filter pointer for the caller. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 File object pointer for a file stream that resides on the volume. 
 
 
-### -param RetVolume [out]
-
+### -param RetVolume 
+[out]
 Pointer to a caller-allocated variable that receives an opaque pointer for the volume. This parameter is required and cannot be <b>NULL</b>. 
 
 

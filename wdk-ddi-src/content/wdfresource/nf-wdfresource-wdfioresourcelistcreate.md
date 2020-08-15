@@ -58,18 +58,18 @@ The <b>WdfIoResourceListCreate</b> method creates an empty <a href="https://docs
 
 
 
-### -param RequirementsList [in]
-
+### -param RequirementsList 
+[in]
 A handle to a framework resource-requirements-list object that represents a device's resource requirements list.
 
 
-### -param Attributes [in, optional]
-
+### -param Attributes 
+[in, optional]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that contains attributes for the new object. (The structure's <b>ParentObject</b> member must be <b>NULL</b>.) This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
 
-### -param ResourceList [out]
-
+### -param ResourceList 
+[out]
 A handle to a framework resource-range-list object that represents the new logical configuration.
 
 

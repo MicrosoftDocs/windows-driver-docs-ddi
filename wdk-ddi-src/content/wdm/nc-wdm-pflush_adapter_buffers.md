@@ -55,33 +55,33 @@ The <b>FlushAdapterBuffers</b> routine flushes any data remaining in the system 
 
 
 
-### -param DmaAdapter [in]
-
+### -param DmaAdapter 
+[in]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_adapter">DMA_ADAPTER</a> structure returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a> that represents the bus-master adapter or DMA controller.
 
 
-### -param Mdl [in]
-
+### -param Mdl 
+[in]
 Pointer to the MDL that describes the buffer previously passed in the driver's call to <b>MapTransfer</b>.
 
 
-### -param MapRegisterBase [in]
-
+### -param MapRegisterBase 
+[in]
 Specifies the map registers allocated for the DMA operation.  The system passes this value  to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_control">AdapterControl</a> routine.
 
 
-### -param CurrentVa [in]
-
+### -param CurrentVa 
+[in]
 Pointer to the current virtual address in the buffer, described by the <i>Mdl</i>, where the I/O operation occurred. This value must be the same as the initial <i>CurrentVa</i> value passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pmap_transfer">MapTransfer</a>.
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 Specifies the length, in bytes, of the buffer.
 
 
-### -param WriteToDevice [in]
-
+### -param WriteToDevice 
+[in]
 Specifies the direction of the DMA transfer operation: <b>TRUE</b> for a transfer from a buffer in system memory to the driver's device.
 
 

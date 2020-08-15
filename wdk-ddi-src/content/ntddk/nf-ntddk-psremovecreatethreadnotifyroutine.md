@@ -55,8 +55,8 @@ The <b>PsRemoveCreateThreadNotifyRoutine</b> routine removes a callback routine 
 
 
 
-### -param NotifyRoutine [in]
-
+### -param NotifyRoutine 
+[in]
 Pointer to the callback routine that the driver has previously registered through <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pssetcreatethreadnotifyroutine">PsSetCreateThreadNotifyRoutine</a>. 
 
 

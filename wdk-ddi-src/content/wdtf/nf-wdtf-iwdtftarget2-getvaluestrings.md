@@ -56,13 +56,13 @@ with a specified attribute.
 
 
 
-### -param SDEL [in]
-
+### -param SDEL 
+[in]
 An SDEL statement that specifies the attribute value to retrieve.
 
 
-### -param ppValues [out, retval]
-
+### -param ppValues 
+[out, retval]
 The address of a variable that receives the result of this method.
 
 

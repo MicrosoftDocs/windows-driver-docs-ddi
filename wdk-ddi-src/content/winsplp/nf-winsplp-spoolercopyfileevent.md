@@ -55,18 +55,18 @@ A Point and Print DLL's <code>SpoolerCopyFileEvent</code> function receives noti
 
 
 
-### -param pszPrinterName [in]
-
+### -param pszPrinterName 
+[in]
 Caller-supplied pointer to a string representing the printer name.
 
 
-### -param pszKey [in]
-
+### -param pszKey 
+[in]
 Caller-supplied pointer to a string representing a subkey under the printer's <b>CopyFiles</b> registry key. This subkey identifies the component to which the Point and Print DLL belongs.
 
 
-### -param dwCopyFileEvent [in]
-
+### -param dwCopyFileEvent 
+[in]
 Caller-supplied flag that identifies the event being reported. Valid flag values are contained in the following table.
 
 <table>

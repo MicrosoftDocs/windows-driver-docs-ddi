@@ -56,18 +56,18 @@ The <b>ExtRemoteList</b> constructors create a new instance that wraps a singly-
 
 
 
-### -param Head [in]
-
+### -param Head 
+[in]
 The location, in the target's memory, of the head of the list.  The head is not considered to be an item in the list.  The type of the head of the list is SINGLE_LIST_ENTRY or LIST_ENTRY.
 
 
-### -param LinkOffset [in]
-
+### -param LinkOffset 
+[in]
 The offset from the beginning of a list item to the pointer to the next item in the list.  This is the offset of the SINGLE_LIST_ENTRY or LIST_ENTRY structure embedded within the list item structure.
 
 
-### -param Double [in]
-
+### -param Double 
+[in]
 Specifies whether the list is singly-linked or doubly-linked.  If <i>Double</i> is <code>true</code>, the list is doubly-linked.  If <i>Double</i> is <code>false</code>, the list is singly-linked.
 
 

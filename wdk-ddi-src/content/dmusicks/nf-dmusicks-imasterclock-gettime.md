@@ -55,8 +55,8 @@ The <code>GetTime</code> method retrieves the current reference time read from t
 
 
 
-### -param pTime [out]
-
+### -param pTime 
+[out]
 Output pointer for the reference time. This parameter points to a caller-allocated variable into which the method writes the reference time. Reference time is measured in 100-nanosecond units.
 
 

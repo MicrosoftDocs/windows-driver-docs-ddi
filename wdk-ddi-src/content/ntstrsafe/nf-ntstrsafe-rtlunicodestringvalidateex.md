@@ -56,13 +56,13 @@ The <b>RtlUnicodeStringValidateEx</b> function validates the contents of a <a hr
 
 
 
-### -param SourceString [in]
-
+### -param SourceString 
+[in]
 Optional. A pointer to a <b>UNICODE_STRING</b> structure to be validated. This pointer can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
 
-### -param dwFlags [in]
-
+### -param dwFlags 
+[in]
 The following flag is defined: 
 
 

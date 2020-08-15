@@ -56,8 +56,8 @@ The <b>GetNumberDumpFiles</b> method returns the number of files containing supp
 
 
 
-### -param Number [out]
-
+### -param Number 
+[out]
 Receives the number of files.
 
 

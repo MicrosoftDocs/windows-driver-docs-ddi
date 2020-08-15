@@ -57,18 +57,18 @@ The <b>StorPortInterlockedInsertTailList</b> routine atomically inserts an entry
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param ListHead [in, out]
-
+### -param ListHead 
+[in, out]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_stor_list_entry">STOR_LIST_ENTRY</a> structure that represents the head of the list.
 
 
-### -param ListEntry [in, out]
-
+### -param ListEntry 
+[in, out]
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_stor_list_entry">STOR_LIST_ENTRY</a> structure that represents the entry to be inserted into the list. 
 
 
@@ -77,8 +77,8 @@ Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/st
 <p>Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_stor_list_entry"><b>STOR_LIST_ENTRY</b></a> structure that represents the first entry of the list before the new entry was inserted.</p>
 
 
-### -param Lock [in, out]
-
+### -param Lock 
+[in, out]
 A pointer to a <b>STOR_KSPIN_LOCK</b> structure that serves as the spin lock used to synchronize access to the list. The storage for the spin lock must be resident and must have been initialized by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializespinlock">StorPortInitializeSpinLock</a>.
 
  You must use this spin lock only with the <b>StorPortInterlocked<i>Xxx</i>List</b> routines.

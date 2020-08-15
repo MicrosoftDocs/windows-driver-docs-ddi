@@ -55,8 +55,8 @@ Gets the server for the current process.
 
 
 
-### -param Server [out]
-
+### -param Server 
+[out]
 A pointer to the returned server value. 
 
 

@@ -55,8 +55,8 @@ Writes a byte array property.
 
 
 
-### -param bstrName [in]
-
+### -param bstrName 
+[in]
 The array to write to.
 
 

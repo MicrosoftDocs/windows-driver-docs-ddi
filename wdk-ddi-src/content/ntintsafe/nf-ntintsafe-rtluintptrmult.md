@@ -55,18 +55,18 @@ Multiplies one value of type <b>UINT_PTR</b> by another.
 
 
 
-### -param uMultiplicand [in]
-
+### -param uMultiplicand 
+[in]
 The value to be multiplied by <i>uMultiplier</i>.
 
 
-### -param uMultiplier [in]
-
+### -param uMultiplier 
+[in]
 The value by which to multiply <i>uMultiplicand</i>.
 
 
-### -param puResult [out]
-
+### -param puResult 
+[out]
 A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
 

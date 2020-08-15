@@ -49,8 +49,8 @@ A streaming minidriver's *KStrItemFreeCallback* routine is called to free a prev
 
 ## -parameters
 
-### -param CreateItem [in]
-
+### -param CreateItem 
+[in]
 Specifies a create item that was previously allocated by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksallocateobjectcreateitem">KsAllocateObjectCreateItem</a>.
 
 ## -remarks

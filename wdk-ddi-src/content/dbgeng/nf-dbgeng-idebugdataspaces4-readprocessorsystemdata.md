@@ -58,13 +58,13 @@ The <b>ReadProcessorSystemData</b> method returns data about the specified proce
 
 
 
-### -param Processor [in]
-
+### -param Processor 
+[in]
 Specifies the processor whose data is to be read.
 
 
-### -param Index [in]
-
+### -param Index 
+[in]
 Specifies the data type to read.  The following table contains the valid values.  After successful completion, the data returned in the buffer <i>Buffer</i> has the type specified by the middle column.
 
 <table>
@@ -148,18 +148,18 @@ In this case, the argument <i>Buffer</i> can be considered to have type PULONG.
  
 
 
-### -param Buffer [out]
-
+### -param Buffer 
+[out]
 Receives the processor data.  Upon successful completion of the method, the contents of this buffer may be accessed by casting <i>Buffer</i> to the type specified in the above table.
 
 
-### -param BufferSize [in]
-
+### -param BufferSize 
+[in]
 Specifies the size in bytes of the buffer <i>Buffer</i>.  This is the maximum number of bytes that will be returned.
 
 
-### -param DataSize [out, optional]
-
+### -param DataSize 
+[out, optional]
 Receives the size of the data in bytes.  If <i>DataSize</i> is <b>NULL</b>, this information is not returned.
 
 

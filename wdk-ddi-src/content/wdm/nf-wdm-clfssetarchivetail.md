@@ -56,13 +56,13 @@ The <b>ClfsSetArchiveTail</b> routine sets the archive tail of a CLFS log to a s
 
 
 
-### -param plfoLog [in]
-
+### -param plfoLog 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">LOG_FILE_OBJECT</a> structure that represents a CLFS log. The caller previously obtained this pointer by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfscreatelogfile">ClfsCreateLogFile</a>.
 
 
-### -param plsnArchiveTail [in]
-
+### -param plsnArchiveTail 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cls_lsn">CLFS_LSN</a> structure that specifies the LSN that is to become the new archive tail. This must be the exact LSN of a record in the log.
 
 

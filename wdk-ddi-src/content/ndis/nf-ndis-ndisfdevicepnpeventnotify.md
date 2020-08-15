@@ -58,15 +58,15 @@ A filter driver can call the
 
 
 
-### -param NdisFilterHandle [in]
-
+### -param NdisFilterHandle 
+[in]
 The NDIS handle that identifies this filter module. NDIS passed the handle to the filter driver in
      a call to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
 
 
-### -param NetDevicePnPEvent [in]
-
+### -param NetDevicePnPEvent 
+[in]
 A pointer to a 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_device_pnp_event">NET_DEVICE_PNP_EVENT</a> structure that
      describes a device Plug and Play event.

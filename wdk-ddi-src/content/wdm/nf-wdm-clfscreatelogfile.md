@@ -56,13 +56,13 @@ The <b>ClfsCreateLogFile</b> routine creates or opens a CLFS stream. If necessar
 
 
 
-### -param pplfoLog [out]
-
+### -param pplfoLog 
+[out]
 A pointer to a variable that receives a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">LOG_FILE_OBJECT</a> structure that represents an open instance of the stream.
 
 
-### -param puszLogFileName [in]
-
+### -param puszLogFileName 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that supplies the name of the stream or the underlying physical log. 
 
 If the stream already exists and is the only stream of a dedicated log, the name has the form log:<i>physical log name</i>, where <i>physical log name</i> is the path name, on the underlying file system, of the existing physical log that contains the stream's records.
@@ -90,8 +90,8 @@ The following list gives some examples of valid names.
 </li>
 </ul>
 
-### -param fDesiredAccess [in]
-
+### -param fDesiredAccess 
+[in]
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> that supplies the type of access the client will have (by using the pointer returned in <i>pplfoLog</i>) to the stream. If this parameter is zero, clients can query the stream for its attributes, but cannot read from or write to the stream. This parameter can be zero or any combination of the following flags:
 
 <table>
@@ -133,8 +133,8 @@ The client can mark the stream for deletion.
  
 
 
-### -param dwShareMode [in]
-
+### -param dwShareMode 
+[in]
 The sharing mode of the stream, which can be zero (not shared) or any combination of the following flags:
 
 <table>
@@ -176,13 +176,13 @@ Subsequent requests to open the stream with write access will succeed.
  
 
 
-### -param psdLogFile [in, optional]
-
+### -param psdLogFile 
+[in, optional]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a> structure that supplies security attributes for the stream. This parameter can be <b>NULL</b>. 
 
 
-### -param fCreateDisposition [in]
-
+### -param fCreateDisposition 
+[in]
 The action to take that depends on whether the stream already exists. This parameter must be set to one of the following values:
 
 <table>
@@ -224,8 +224,8 @@ Open an existing stream. Create the stream if it does not already exist.
  
 
 
-### -param fCreateOptions [in]
-
+### -param fCreateOptions 
+[in]
 A set of flags that specify options to apply when creating or opening the stream. This parameter can be zero or a compatible combination of the following flags:
 
 <table>
@@ -267,15 +267,15 @@ All operations on the stream are performed synchronously. Waits in the system th
  
 
 
-### -param fFlagsAndAttributes [in]
-
+### -param fFlagsAndAttributes 
+[in]
 A value that specifies whether the stream is opened for normal or read-only access. This parameter must be set to either 
 
 FILE_ATTRIBUTE_NORMAL or FILE_ATTRIBUTE_READONLY.
 
 
-### -param fLogOptionFlag [in]
-
+### -param fLogOptionFlag 
+[in]
 A hint about the relationship between CLFS and the component creating or opening the stream. This parameter must be set to one of the following values:
 	 
 
@@ -338,13 +338,13 @@ The creating component is a file system minifilter driver that sends all of its 
  
 
 
-### -param pvContext [in, optional]
-
+### -param pvContext 
+[in, optional]
 A pointer to a context. The way the context is interpreted depends on the value passed to <i>fLogOptionsFlag</i>. 
 
 
-### -param cbContext [in]
-
+### -param cbContext 
+[in]
 The size, in bytes, of the context pointed to by <i>pvContext</i>. If <i>pvContext</i> is not <b>NULL</b>, this parameter must be greater than zero. 
 
 

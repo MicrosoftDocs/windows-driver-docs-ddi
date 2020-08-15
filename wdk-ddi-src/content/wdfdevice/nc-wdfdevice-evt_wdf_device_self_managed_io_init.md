@@ -57,8 +57,8 @@ A driver's <i>EvtDeviceSelfManagedIoInit</i> event callback function initializes
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object.
 
 

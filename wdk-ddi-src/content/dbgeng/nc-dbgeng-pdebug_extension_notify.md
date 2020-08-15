@@ -64,8 +64,8 @@ The engine calls the <b>DebugExtensionNotify</b> callback function to inform the
 
 
 
-### -param Notify [in]
-
+### -param Notify 
+[in]
 Can be any of the following values:
 
 <table>
@@ -117,8 +117,8 @@ The debugging session has started running and is now inaccessible.
  
 
 
-### -param Argument [in]
-
+### -param Argument 
+[in]
 Set to zero. (Reserved for future use.)
 
 

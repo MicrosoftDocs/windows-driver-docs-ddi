@@ -60,13 +60,13 @@ The <b>WdfMemoryGetBuffer</b> method returns a pointer to the buffer that is ass
 
 
 
-### -param Memory [in]
-
+### -param Memory 
+[in]
 A handle to a framework memory object.
 
 
-### -param BufferSize [out, optional]
-
+### -param BufferSize 
+[out, optional]
 A pointer to a location that receives the size, in bytes, of the memory buffer. This parameter is optional and can be <b>NULL</b>.
 
 

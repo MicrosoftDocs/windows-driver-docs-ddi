@@ -55,23 +55,23 @@ The USB device emulation class extension (UdeCx) invokes this callback function 
 
 
 
-### -param UdecxWdfDevice [in]
-
+### -param UdecxWdfDevice 
+[in]
 A handle to a framework device object that represents the controller to which the USB device is attached. The client driver initialized this object in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxwdfdevice/nf-udecxwdfdevice-udecxwdfdeviceaddusbdeviceemulation">UdecxWdfDeviceAddUsbDeviceEmulation</a>.
 
 
-### -param UdecxUsbDevice [in]
-
+### -param UdecxUsbDevice 
+[in]
 A handle to UDE device object. The client driver created this object in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbdevice/nf-udecxusbdevice-udecxusbdevicecreate">UdecxUsbDeviceCreate</a>.
 
 
-### -param Interface [in]
-
+### -param Interface 
+[in]
 This value is the <b>bInterfaceNumber</b> of the interface that is waking up. 
 
 
-### -param FunctionPower [in]
-
+### -param FunctionPower 
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbdevice/ne-udecxusbdevice-_udecx_usb_device_function_power">UDECX_USB_DEVICE_FUNCTION_POWER</a>-type value that indicates whether the interface can suspend and send wake signal to the host controller.
 
 

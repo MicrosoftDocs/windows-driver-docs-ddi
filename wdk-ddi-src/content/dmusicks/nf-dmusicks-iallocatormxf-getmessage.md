@@ -55,8 +55,8 @@ The <code>GetMessage</code> method serves as the retrieval point for any DirectM
 
 
 
-### -param ppDMKEvt [out]
-
+### -param ppDMKEvt 
+[out]
 Output pointer for the MIDI event. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the event structure being retrieved from the allocator. The structure itself is empty (zeroed by the allocator).
 
 

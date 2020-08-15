@@ -56,8 +56,8 @@ The <b>ScsiPortStallExecution</b> routine stalls in the miniport driver.
 
 
 
-### -param Delay [in]
-
+### -param Delay 
+[in]
 Specifies the delay interval in microseconds. The given value must be less than a full millisecond.
 
 

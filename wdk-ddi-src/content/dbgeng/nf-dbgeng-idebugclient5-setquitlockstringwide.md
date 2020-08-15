@@ -55,8 +55,8 @@ Sets a quit lock Unicode character string.
 
 
 
-### -param String [in]
-
+### -param String 
+[in]
 A pointer to the quit lock Unicode character string.
 
 

@@ -58,13 +58,13 @@ The <b>WdfUsbTargetDeviceRetrieveCurrentFrameNumber</b> method retrieves the cur
 
 
 
-### -param UsbDevice [in]
-
+### -param UsbDevice 
+[in]
 A handle to a USB device object that was obtained from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdevicecreatewithparameters">WdfUsbTargetDeviceCreateWithParameters</a>.
 
 
-### -param CurrentFrameNumber [out]
-
+### -param CurrentFrameNumber 
+[out]
 A pointer to a location that receives the current 32-bit USB frame number.
 
 

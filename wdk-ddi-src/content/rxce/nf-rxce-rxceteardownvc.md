@@ -55,8 +55,8 @@ req.typenames:
 
 
 
-### -param pVc [in]
-
+### -param pVc 
+[in]
 A pointer to a handle for an virtual circuit structure to be torn down. 
 
 

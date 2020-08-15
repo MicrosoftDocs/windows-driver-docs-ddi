@@ -56,18 +56,18 @@ The <b>KsCreateClock</b> function creates a handle to a clock instance.
 
 
 
-### -param ConnectionHandle [in]
-
+### -param ConnectionHandle 
+[in]
 Specifies the handle to the connection on which to create the clock.
 
 
-### -param ClockCreate [in]
-
+### -param ClockCreate 
+[in]
 Specifies clock create parameters. This currently consists of a flag that must be set to zero.
 
 
-### -param ClockHandle [out]
-
+### -param ClockHandle 
+[out]
 Specifies the new clock handle.
 
 

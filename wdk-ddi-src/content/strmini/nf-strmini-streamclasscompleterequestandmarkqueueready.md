@@ -56,8 +56,8 @@ The <b>StreamClassCompleteRequestAndMarkQueueReady</b> routine completes a reque
 
 
 
-### -param Srb [in]
-
+### -param Srb 
+[in]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_request_block">HW_STREAM_REQUEST_BLOCK</a> that the minidriver has completed processing.
 
 

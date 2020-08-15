@@ -60,13 +60,13 @@ The <b>WdfRequestReuse</b> method reinitializes a framework request object so th
 
 
 
-### -param Request [in]
-
+### -param Request 
+[in]
 A handle to a framework request object.
 
 
-### -param ReuseParams [in]
-
+### -param ReuseParams 
+[in]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/ns-wdfrequest-_wdf_request_reuse_params">WDF_REQUEST_REUSE_PARAMS</a> structure.
 
 

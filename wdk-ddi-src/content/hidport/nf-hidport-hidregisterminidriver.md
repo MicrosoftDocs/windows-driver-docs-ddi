@@ -56,8 +56,8 @@ The <b>HidRegisterMinidriver</b> routine is called by HID minidrivers, during th
 
 
 
-### -param MinidriverRegistration [in]
-
+### -param MinidriverRegistration 
+[in]
 Pointer to a caller-allocated buffer that contains an initialized <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidport/ns-hidport-_hid_minidriver_registration">HID_MINIDRIVER_REGISTRATION</a> structure for the minidriver.
 
 

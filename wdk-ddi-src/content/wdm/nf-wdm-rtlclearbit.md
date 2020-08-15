@@ -55,13 +55,13 @@ The <b>RtlClearBit</b> routine sets the specified bit in a bitmap to zero.
 
 
 
-### -param BitMapHeader [in]
-
+### -param BitMapHeader 
+[in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">RTL_BITMAP</a> structure that describes the bitmap. This structure must have been initialized by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlinitializebitmap">RtlInitializeBitMap</a> routine. 
 
 
-### -param BitNumber [in]
-
+### -param BitNumber 
+[in]
 Specifies the zero-based index of the bit within the bitmap. The routine sets this bit to zero. 
 
 

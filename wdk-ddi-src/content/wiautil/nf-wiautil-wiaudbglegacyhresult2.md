@@ -49,8 +49,8 @@ The **wiauDbgLegacyHresult2** function logs a default message containing an HRES
 
 ## -parameters
 
-### -param hInstance [in]
-
+### -param hInstance 
+[in]
 Specifies the handle to the DLL instance.
 
 ### -param hr

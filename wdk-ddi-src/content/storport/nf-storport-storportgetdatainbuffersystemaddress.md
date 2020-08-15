@@ -56,18 +56,18 @@ Returns the system address for the input data buffer  of a SCSI request block (S
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param Srb [in]
-
+### -param Srb 
+[in]
 The request block to containing the input data buffer.
 
 
-### -param SystemAddress [out]
-
+### -param SystemAddress 
+[out]
 A pointer to  a an  address  value to receive the system address for the input data buffer in <i>Srb</i>.
 
 

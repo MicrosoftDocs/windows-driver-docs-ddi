@@ -56,8 +56,8 @@ The
 
 
 
-### -param ListenSocket [in]
-
+### -param ListenSocket 
+[in]
 A pointer to a 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a> structure that specifies the socket
      object for the listening or stream socket that is being checked for an incoming connection.
@@ -69,8 +69,8 @@ This parameter is reserved for system use. A WSK application must set this param
      zero.
 
 
-### -param AcceptSocketContext [in, optional]
-
+### -param AcceptSocketContext 
+[in, optional]
 A pointer to a caller-supplied context for the socket that is being accepted. The WSK subsystem
      passes this pointer to the accepted socket's event callback functions. The context information is opaque
      to the WSK subsystem. The context information must be stored in non-paged memory. If the WSK application
@@ -78,8 +78,8 @@ A pointer to a caller-supplied context for the socket that is being accepted. Th
      <b>NULL</b>.
 
 
-### -param AcceptSocketDispatch [in, optional]
-
+### -param AcceptSocketDispatch 
+[in, optional]
 A pointer to a constant 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_connection_dispatch">
      WSK_CLIENT_CONNECTION_DISPATCH</a> structure. This structure is a dispatch table that contains
@@ -90,8 +90,8 @@ A pointer to a constant
      pointer to <b>NULL</b>.
 
 
-### -param LocalAddress [out, optional]
-
+### -param LocalAddress 
+[out, optional]
 A pointer to a caller-allocated buffer that receives the local transport address on which the
      incoming connection arrived. The buffer must be located in non-paged memory. The buffer must also be
      large enough to contain the specific SOCKADDR structure type that corresponds to the address family that
@@ -99,8 +99,8 @@ A pointer to a caller-allocated buffer that receives the local transport address
      <b>NULL</b>.
 
 
-### -param RemoteAddress [out, optional]
-
+### -param RemoteAddress 
+[out, optional]
 A pointer to a caller-allocated buffer that receives the remote transport address from which the
      incoming connection originated. The buffer must be located in non-paged memory. The buffer must also be
      large enough to contain the specific SOCKADDR structure type that corresponds to the address family that
@@ -108,8 +108,8 @@ A pointer to a caller-allocated buffer that receives the remote transport addres
      <b>NULL</b>.
 
 
-### -param Irp [in, out]
-
+### -param Irp 
+[in, out]
 A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the accept operation
      asynchronously. For more information about using IRPs with WSK functions, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock

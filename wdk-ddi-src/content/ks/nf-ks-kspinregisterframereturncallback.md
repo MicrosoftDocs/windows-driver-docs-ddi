@@ -56,13 +56,13 @@ The<b> KsPinRegisterFrameReturnCallback </b>function registers a frame return ca
 
 
 
-### -param Pin [in]
-
+### -param Pin 
+[in]
 A pointer to the AVStream <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure that you want to place into injection mode by registering a frame return callback.
 
 
-### -param FrameReturn [in]
-
+### -param FrameReturn 
+[in]
 This parameter supplies the address of a minidriver-provided <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnkspinframereturn">AVStrMiniFrameReturn</a> routine.
 
 

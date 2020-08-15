@@ -50,11 +50,11 @@ Adds a connector to the connector collection object.
 
 ## -parameters
 
-### -param ConnectorCollectionObject [in]
-The handle to the connector collection object that the client driver retrieved in a previous call to [**UcmUcsiConnectorCollectionCreate**](nf-ucmucsippm-ucmucsiconnectorcollectioncreate.md).
+### -param ConnectorCollectionObject 
+[in]The handle to the connector collection object that the client driver retrieved in a previous call to [**UcmUcsiConnectorCollectionCreate**](nf-ucmucsippm-ucmucsiconnectorcollectioncreate.md).
 
-### -param ConnectorInfo [in]
-A pointer to a [**UCMUCSI_CONNECTOR_INFO**](ns-ucmucsippm-_ucmucsi_connector_info.md) structure that contains information about the connector to add.
+### -param ConnectorInfo 
+[in]A pointer to a [**UCMUCSI_CONNECTOR_INFO**](ns-ucmucsippm-_ucmucsi_connector_info.md) structure that contains information about the connector to add.
 
 ## -returns
 Returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method can return an appropriate [NTSTATUS](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values) value.

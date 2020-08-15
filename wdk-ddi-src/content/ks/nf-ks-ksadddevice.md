@@ -56,13 +56,13 @@ The<b> KsAddDevice </b>function is the default <i>AddDevice</i> handler installe
 
 
 
-### -param DriverObject [in]
-
+### -param DriverObject 
+[in]
 A pointer to the WDM driver object for the minidriver.
 
 
-### -param PhysicalDeviceObject [in]
-
+### -param PhysicalDeviceObject 
+[in]
 A pointer to the WDM physical device object.
 
 

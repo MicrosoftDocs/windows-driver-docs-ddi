@@ -49,8 +49,8 @@ The **wiasGetItemType** function indicates the item type.
 
 ## -parameters
 
-### -param pWiasContext [in]
-
+### -param pWiasContext 
+[in]
 Pointer to a WIA item context.
 
 ### -param plType

@@ -55,13 +55,13 @@ The <i>GetBusDriverD3ColdSupport</i> routine enables the driver for a device to 
 
 
 
-### -param Context [in, optional]
-
+### -param Context 
+[in, optional]
 A pointer to interface-specific context information. The caller sets this parameter to the value of the <b>Context</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_d3cold_support_interface">D3COLD_SUPPORT_INTERFACE</a> structure for the interface.
 
 
-### -param D3ColdSupported [out]
-
+### -param D3ColdSupported 
+[out]
 A pointer to a BOOLEAN variable to which the routine writes a value to indicate whether the bus driver supports the D3cold. If this value is <b>TRUE</b>, the bus driver supports D3cold. If <b>FALSE</b>, the bus driver does not support D3cold. If the call fails, the routine returns an error status code and does not write anything to this variable.
 
 

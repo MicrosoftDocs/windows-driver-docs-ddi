@@ -55,13 +55,13 @@ The <b>ExRegisterCallback</b> routine registers a given callback routine with a 
 
 
 
-### -param CallbackObject [in, out]
-
+### -param CallbackObject 
+[in, out]
 A pointer to a callback object obtained from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-excreatecallback">ExCreateCallback</a> routine.
 
 
-### -param CallbackFunction [in]
-
+### -param CallbackFunction 
+[in]
 A pointer to a driver-implemented callback routine, which must be nonpageable. The callback routine must conform to the following prototype:
 
 <div class="code"><span codelanguage=""><table>
@@ -102,8 +102,8 @@ A pointer to a parameter defined by the callback object.
 A pointer to a parameter defined by the callback object.
 
 
-### -param CallbackContext [in, optional]
-
+### -param CallbackContext 
+[in, optional]
 A pointer to a caller-defined structure of data items to be passed as the context parameter of the callback routine each time it is called. Typically the context is part of the caller's device object extension.
 
 

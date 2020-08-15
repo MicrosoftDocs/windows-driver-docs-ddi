@@ -58,8 +58,8 @@ fully configured but before any packets have been delivered.  This occurs when t
 
 
 
-### -param Channel [in]
-
+### -param Channel 
+[in]
 The channel which is started.
 
 

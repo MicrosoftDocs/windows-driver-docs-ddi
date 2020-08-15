@@ -59,8 +59,8 @@ The
 
 
 
-### -param NdisBindingHandle [in]
-
+### -param NdisBindingHandle 
+[in]
 A handle that identifies the binding for which NDIS should obtain the 
      <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> values and network interface indexes.
      NDIS provided this handle at the 
@@ -68,31 +68,31 @@ A handle that identifies the binding for which NDIS should obtain the
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function.
 
 
-### -param pBoundIfIndex [out]
-
+### -param pBoundIfIndex 
+[out]
 A pointer to a caller-supplied interface index variable. If 
      <b>NdisIfQueryBindingIfIndex</b> succeeds, NDIS writes to this variable the network interface index of
      the network interface that is associated with the specified binding and is highest in the driver
      stack.
 
 
-### -param pBoundIfNetLuid [out]
-
+### -param pBoundIfNetLuid 
+[out]
 A pointer to a caller-supplied NET_LUID variable. If 
      <b>NdisIfQueryBindingIfIndex</b> succeeds, NDIS writes to this variable the NET_LUID value of the network
      interface that is associated with the specified binding and is highest in the driver stack.
 
 
-### -param pLowestIfIndex [out]
-
+### -param pLowestIfIndex 
+[out]
 A pointer to a caller-supplied interface index variable. If 
      <b>NdisIfQueryBindingIfIndex</b> succeeds, NDIS writes to this variable the network interface index of
      the network interface that is associated with the specified binding and is lowest in the driver
      stack.
 
 
-### -param pLowestIfNetLuid [out]
-
+### -param pLowestIfNetLuid 
+[out]
 A pointer to a caller-supplied NET_LUID variable. If 
      <b>NdisIfQueryBindingIfIndex</b> succeeds, NDIS writes to this variable the NET_LUID value of the network
      interface that is associated with the specified binding and is lowest in the driver stack.

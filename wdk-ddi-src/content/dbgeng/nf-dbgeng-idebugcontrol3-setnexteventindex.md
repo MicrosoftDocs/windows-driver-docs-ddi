@@ -55,13 +55,13 @@ The <b>SetNextEventIndex</b> method sets the next event for the current target b
 
 
 
-### -param Relation [in]
-
+### -param Relation 
+[in]
 Specifies how to interpret <i>Value</i> when setting the index of the next event.  Possible values are: DEBUG_EINDEX_FROM_START, DEBUG_EINDEX_FROM_END, and DEBUG_EINDEX_FROM_CURRENT.
 
 
-### -param Value [in]
-
+### -param Value 
+[in]
 Specifies the index of the next event relative to the first, last, or current event.  The interpretation of <i>Value</i> depends on the value of <i>Relation</i>, as follows.
 
 <table>
@@ -105,8 +105,8 @@ The current event index plus <i>Value</i>.
 The resulting index must be greater than zero and one less than the number of events returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-getnumberevents">GetNumberEvents</a>.
 
 
-### -param NextIndex [out]
-
+### -param NextIndex 
+[out]
 Receives the index of the next event.  If <i>NextIndex</i> is <b>NULL</b>, this information is not returned.
 
 

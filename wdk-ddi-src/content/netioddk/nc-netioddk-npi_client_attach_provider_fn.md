@@ -56,22 +56,22 @@ A client module's
 
 
 
-### -param NmrBindingHandle [in]
-
+### -param NmrBindingHandle 
+[in]
 A handle used by the NMR to represent the binding between the client module and the provider
      module.
 
 
-### -param ClientContext [in]
-
+### -param ClientContext 
+[in]
 A pointer to the client module's registration context. The client module passes this pointer to
      the NMR when it calls the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrregisterclient">NmrRegisterClient</a> function to register
      itself with the NMR.
 
 
-### -param ProviderRegistrationInstance [in]
-
+### -param ProviderRegistrationInstance 
+[in]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/ns-netioddk-_npi_registration_instance">
      NPI_REGISTRATION_INSTANCE</a> structure. This structure contains the provider module's registration

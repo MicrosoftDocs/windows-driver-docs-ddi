@@ -55,8 +55,8 @@ The <b>IoRegisterContainerNotification</b> routine registers a kernel-mode drive
 
 
 
-### -param NotificationClass [in]
-
+### -param NotificationClass 
+[in]
 Specifies the class of events for which the caller (driver) requests notifications. Set this parameter to the following <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_io_container_notification_class">IO_CONTAINER_NOTIFICATION_CLASS</a> enumeration value:
 
 <ul>
@@ -68,23 +68,23 @@ Specifies the class of events for which the caller (driver) requests notificatio
 For more information, see the following Remarks section. 
 
 
-### -param CallbackFunction [in]
-
+### -param CallbackFunction 
+[in]
 A pointer to a callback function that is implemented by the caller (driver). The I/O manager calls this function to notify the caller when an event of the class indicated by <i>NotificationClass</i> occurs. For <i>NotificationClass</i> = <b>IoSessionStateNotification</b>, this parameter is a pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_session_notification_function">IO_SESSION_NOTIFICATION_FUNCTION</a> function. However, the caller should cast this function pointer to type PIO_CONTAINER_NOTIFICATION_FUNCTION to match the parameter type. For more information, see the following Remarks section.
 
 
-### -param NotificationInformation [in, optional]
-
+### -param NotificationInformation 
+[in, optional]
 A pointer to a caller-allocated buffer that contains the notification information structure for an event of the class specified by <i>NotificationClass</i>. For <i>NotificationClass</i> = <b>IoSessionStateNotification</b>, <i>NotificationInformation</i> points to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_session_state_notification">IO_SESSION_STATE_NOTIFICATION</a> structure. The caller must fill out this structure before it calls <b>IoRegisterContainerNotification</b>. During this call, <b>IoRegisterContainerNotification</b> copies the data from this structure, and the I/O manager does not access the driver's copy of the structure after the call returns.
 
 
-### -param NotificationInformationLength [in]
-
+### -param NotificationInformationLength 
+[in]
 The size, in bytes, of the notification information structure contained in the buffer that is pointed to by <i>NotificationInformation</i>. For <i>NotificationClass</i> = <b>IoSessionStateNotification</b>, set this parameter to <b>sizeof</b>(<b>IO_SESSION_STATE_NOTIFICATION</b>).
 
 
-### -param CallbackRegistration [out]
-
+### -param CallbackRegistration 
+[out]
 A pointer to a location into which this routine writes the address of a container notification registration object. This object is an opaque, system object in which the I/O manager stores information about the caller's container notification registration. When notifications are no longer required, the caller cancels the registration by passing this object pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iounregistercontainernotification">IoUnregisterContainerNotification</a> routine.
 
 

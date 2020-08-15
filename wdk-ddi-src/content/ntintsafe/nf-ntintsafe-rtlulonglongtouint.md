@@ -55,13 +55,13 @@ Converts a value of type <b>ULONGLONG</b> to a value of type <b>UINT</b>.
 
 
 
-### -param ullOperand [in]
-
+### -param ullOperand 
+[in]
 The value to be converted.
 
 
-### -param puResult [out]
-
+### -param puResult 
+[out]
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
 

@@ -77,16 +77,16 @@ DWORD APIENTRY Dot11ExtIhvStopPostAssociate(
 
 
 
-### -param hIhvExtAdapter [in, optional]
-
+### -param hIhvExtAdapter 
+[in, optional]
 The handle used by the IHV Extensions DLL to reference the wireless LAN (WLAN) adapter. This
      handle value was specified through a previous call to the
      <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a> IHV
      Handler function.
 
 
-### -param pPeer [in]
-
+### -param pPeer 
+[in]
 A pointer to a
      <a href="..\windot11\ns-windot11-_dot11_mac_address.md">DOT11_MAC_ADDRESS</a> structure, which
      contains the media access control (MAC) of the access point (AP) with which the IHV Extensions DLL
@@ -96,8 +96,8 @@ A pointer to a
 <div class="alert"><b>Note</b>  For Windows Vista, the IHV Extensions DLL supports only infrastructure basic
      service set (BSS) networks.</div>
 
-### -param dot11AssocStatus [in]
-
+### -param dot11AssocStatus 
+[in]
 A
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/dot11-assoc-status-status-codes">DOT11_ASSOC_STATUS</a> type that specifies the
      association status of the 802.11 station to the network.

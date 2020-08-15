@@ -55,8 +55,8 @@ The <b>PoSetSystemWake</b> routine marks the specified IRP as one that contribut
 
 
 
-### -param Irp [in, out]
-
+### -param Irp 
+[in, out]
 A pointer to the wait/wake IRP.
 
 

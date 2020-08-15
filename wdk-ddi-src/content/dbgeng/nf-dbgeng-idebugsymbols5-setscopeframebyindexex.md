@@ -55,13 +55,13 @@ Sets the current frame by using an index.
 
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 A bit-set that contains options that affect the behavior of this method. 
 
 
-### -param Index [in]
-
+### -param Index 
+[in]
 An index by which to set the frame.
 
 

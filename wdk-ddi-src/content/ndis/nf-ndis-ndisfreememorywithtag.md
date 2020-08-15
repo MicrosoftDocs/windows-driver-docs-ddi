@@ -57,15 +57,15 @@ The
 
 
 
-### -param VirtualAddress [in]
-
+### -param VirtualAddress 
+[in]
 A pointer to the base virtual address of the allocated memory. This address was returned by the 
      <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff550767(v=vs.85)">
      NdisAllocateMemoryWithTag</a> function.
 
 
-### -param Tag [in]
-
+### -param Tag 
+[in]
 A string, delimited by single quotation marks, with up to four characters, usually specified in
      reversed order. The NDIS-supplied default tag for this call is 'maDN', but the caller can override this
      default by supplying an explicit value.

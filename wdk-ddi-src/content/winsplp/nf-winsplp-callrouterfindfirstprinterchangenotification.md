@@ -55,8 +55,8 @@ req.typenames:
 
 
 
-### -param hPrinterRPC [in]
-
+### -param hPrinterRPC 
+[in]
 
 ### -param fdwFilterFlags
 
@@ -64,8 +64,8 @@ req.typenames:
 ### -param fdwOptions
 
 
-### -param hNotify [in]
+### -param hNotify 
+[in]
 
-
-### -param pPrinterNotifyOptions [in]
-
+### -param pPrinterNotifyOptions 
+[in]

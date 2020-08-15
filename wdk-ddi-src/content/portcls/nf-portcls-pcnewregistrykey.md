@@ -56,48 +56,48 @@ The <b>PcNewRegistryKey</b> function opens or creates a new registry key and cre
 
 
 
-### -param OutRegistryKey [out]
-
+### -param OutRegistryKey 
+[out]
 Output pointer to the registry-key object created by this function. This parameter points to a caller-allocated pointer variable into which the function outputs the pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iregistrykey">IRegistryKey</a> object. The object represents the registry key being opened or created. Specify a valid, non-<b>NULL</b> pointer value for this parameter.
 
 
-### -param OuterUnknown [in, optional]
-
+### -param OuterUnknown 
+[in, optional]
 Pointer to the <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of an object that needs to aggregate the <i>OutRegistryKey</i> object. Unless aggregation is required, set this parameter to <b>NULL</b>.
 
 
-### -param RegistryKeyType [in]
-
+### -param RegistryKeyType 
+[in]
 Specifies the type of registry key that the caller wants to create or open. For more information, see the following Remarks section.
 
 
-### -param DesiredAccess [in]
-
+### -param DesiredAccess 
+[in]
 Specifies an access-control mask. This parameter is a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>. It indicates the type of access that the caller is requesting to the registry key that is to be opened or created. For more information, see the following Remarks section.
 
 
-### -param DeviceObject [in, optional]
-
+### -param DeviceObject 
+[in, optional]
 Pointer to the adapter driver's device object. This pointer is cast to type PVOID. If <i>RegistryKeyType</i> is any value other than <b>GeneralRegistryKey</b>, this parameter must point to a valid, initialized system structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>. If the value of <i>RegistryKeyType</i> is <b>GeneralRegistryKey</b>, the <b>PcNewRegistryKey</b> function does not use this parameter. For more information, see the following Remarks section.
 
 
-### -param SubDevice [in, optional]
-
+### -param SubDevice 
+[in, optional]
 Specifies the aspect of the device that is to be offered to clients. Adapter drivers must assign the value <b>NULL</b> to this parameter.
 
 
-### -param ObjectAttributes [in, optional]
-
+### -param ObjectAttributes 
+[in, optional]
 Pointer to the object attributes of the key being created or opened. If <i>RegistryKeyType</i> has the value <b>GeneralRegistryKey</b>, this parameter must point to a valid, initialized system structure of type <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> with a valid <i>ObjectName</i> string for the key; otherwise, the function does not use this parameter. For more information, see the following Remarks section.
 
 
-### -param CreateOptions [in, optional]
-
+### -param CreateOptions 
+[in, optional]
 Specifies the create options. Can be zero if none are desired. If <i>RegistryKeyType</i> is not <b>GeneralRegistryKey</b>, the <b>PcNewRegistryKey</b> function ignores this parameter. For more information, see the following Remarks section.
 
 
-### -param Disposition [out, optional]
-
+### -param Disposition 
+[out, optional]
 Pointer to a variable that receives a value indicating whether a key was created or an existing key was opened. This parameter is optional and can be specified as <b>NULL</b>. If <i>RegistryKeyType</i> is any value other than <b>GeneralRegistryKey</b>, the <b>PcNewRegistryKey</b> function ignores this parameter. For more information, see the following Remarks section.
 
 

@@ -74,23 +74,23 @@ typedef HWN_CLIENT_INITIALIZE_DEVICE *PHWN_CLIENT_INITIALIZE_DEVICE;
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 Handle to the client drivers framework device object.
 
 
-### -param Context [in]
-
+### -param Context 
+[in]
 Pointer to the client driver's context information. This memory space is available for use by the client driver. It is allocated as part of the framework object context space by <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/gpiobtn/create-a-hardware-notification-client-driver">HWN_CLIENT_REGISTRATION_PACKET</a> and  <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-object-context-space">Framework Object Context Space</a>.
 
 
-### -param ResourcesRaw [in]
-
+### -param ResourcesRaw 
+[in]
 Handle to a framework resource-list object that identifies the raw hardware resources that the Plug and Play manager has assigned to the device.
 
 
-### -param ResourcesTranslated [in]
-
+### -param ResourcesTranslated 
+[in]
 Handle to a framework resource-list object that identifies the translated hardware resources that the Plug and Play manager has assigned to the device.
 
 

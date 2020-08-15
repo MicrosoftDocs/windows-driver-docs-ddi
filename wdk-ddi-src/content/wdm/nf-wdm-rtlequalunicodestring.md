@@ -56,18 +56,18 @@ The <b>RtlEqualUnicodeString</b> routine compares two Unicode strings to determi
 
 
 
-### -param String1 [in]
-
+### -param String1 
+[in]
 Pointer to the first Unicode string.
 
 
-### -param String2 [in]
-
+### -param String2 
+[in]
 Pointer to the second Unicode string.
 
 
-### -param CaseInSensitive [in]
-
+### -param CaseInSensitive 
+[in]
 If <b>TRUE</b>, case should be ignored when doing the comparison. 
 
 

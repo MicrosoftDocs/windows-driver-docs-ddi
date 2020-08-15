@@ -56,13 +56,13 @@ The <b>ZwOpenEnlistment</b> routine obtains a handle to an existing <a href="htt
 
 
 
-### -param EnlistmentHandle [out]
-
+### -param EnlistmentHandle 
+[out]
 A pointer to a caller-allocated variable that receives a handle to an enlistment object if the call to <b>ZwOpenEnlistment</b> succeeds.
 
 
-### -param DesiredAccess [in]
-
+### -param DesiredAccess 
+[in]
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>-typed value that specifies the requested access to the enlistment object. For more information about how to specify this parameter, see the <i>DesiredAccess</i> parameter of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntcreateenlistment">ZwCreateEnlistment</a>. This parameter cannot be zero.
 
 
@@ -71,13 +71,13 @@ An <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-ma
 A handle to a resource manager object that was obtained by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntcreateresourcemanager">ZwCreateResourceManager</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntopenresourcemanager">ZwOpenResourceManager</a>.
 
 
-### -param EnlistmentGuid [in]
-
+### -param EnlistmentGuid 
+[in]
 A pointer to a GUID that identifies the enlistment. For more information, see the following Remarks section.
 
 
-### -param ObjectAttributes [in, optional]
-
+### -param ObjectAttributes 
+[in, optional]
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that specifies the object's attributes. Use the <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> routine to initialize this structure, but specify only that routine's <i>InitializedAttributes</i> and <i>Attributes</i> parameters. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE flag in the <i>Attributes</i> parameter. This parameter is optional and can be <b>NULL</b>. 
 
 

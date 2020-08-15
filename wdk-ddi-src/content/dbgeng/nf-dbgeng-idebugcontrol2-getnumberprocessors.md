@@ -57,8 +57,8 @@ The <b>GetNumberProcessors</b> method returns the number of processors on the co
 
 
 
-### -param Number [out]
-
+### -param Number 
+[out]
 Receives the number of processors.
 
 

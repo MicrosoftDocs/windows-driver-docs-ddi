@@ -55,18 +55,18 @@ The <b>ReadBuffer</b> method reads data from the target's memory.  The data is l
 
 
 
-### -param Buffer [out]
-
+### -param Buffer 
+[out]
 Pointer that receives the data read from the target.
 
 
-### -param Bytes [in]
-
+### -param Bytes 
+[in]
 Specifies the number of bytes to read.  The <i>Buffer</i> buffer must be at least this size.
 
 
-### -param MustReadAll [in]
-
+### -param MustReadAll 
+[in]
 Specifies what happens if the debugger engine is unable to read all the data from the target.  If <i>MustReadAll</i> is <code>true</code> and the debugger engine is unable to read <i>Bytes</i> bytes from the target, an <b>ExtRemoteException</b> will be thrown.  If <i>MustReadAll</i>  is <code>false</code>, no exception will be thrown if the engine is unable to read the requested number of bytes from the target.
 
 

@@ -59,8 +59,8 @@ An offload target calls the
 
 
 
-### -param NdisOffloadHandle [in]
-
+### -param NdisOffloadHandle 
+[in]
 A handle that identifies the offloaded TCP connection on which the indication is being made. When
      the connection was offloaded, this handle was supplied in the 
      <b>NdisOffloadHandle</b> member of the 
@@ -68,8 +68,8 @@ A handle that identifies the offloaded TCP connection on which the indication is
      NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure that was associated with the connection state.
 
 
-### -param EventType [in]
-
+### -param EventType 
+[in]
 The event being indicated as one of the following <b>TCP_OFFLOAD_EVENT_TYPE</b> values:
      
 
@@ -103,8 +103,8 @@ Indicates that the remote host has initiated an abortive disconnect by sending a
 Indicates a change in the preferred send backlog size.
 
 
-### -param EventSpecificInformation [in]
-
+### -param EventSpecificInformation 
+[in]
 Specifies additional information about the event being indicated as follows:
      
 

@@ -55,18 +55,18 @@ Gets a Unicode character string prefix for output lines.
 
 
 
-### -param Buffer [out]
-
+### -param Buffer 
+[out]
 The pointer to the buffer of the prefix.
 
 
-### -param BufferSize [in]
-
+### -param BufferSize 
+[in]
 The length of the buffer.
 
 
-### -param PrefixSize [out, optional]
-
+### -param PrefixSize 
+[out, optional]
 A pointer to the length of the prefix.
 
 

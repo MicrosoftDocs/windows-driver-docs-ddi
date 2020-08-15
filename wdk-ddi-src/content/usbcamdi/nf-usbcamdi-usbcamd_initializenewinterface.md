@@ -56,23 +56,23 @@ The <b>USBCAMD_InitializeNewInterface</b> function provides USBCAMD with all the
 
 
 
-### -param DeviceContext [in]
-
+### -param DeviceContext 
+[in]
 Pointer to device-specific context.
 
 
-### -param DeviceData [in]
-
+### -param DeviceData 
+[in]
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbcamdi/ns-usbcamdi-_usbcamd_device_data2">USBCAMD_DEVICE_DATA2</a> structure.
 
 
-### -param Version [in]
-
+### -param Version 
+[in]
 Specifies the version information. This value should be set to the value USBCAMD_VERSION_200 for use with USBCAMD version 2.0.
 
 
-### -param CamControlFlag [in]
-
+### -param CamControlFlag 
+[in]
 Specifies how USBCAMD and the camera minidriver should interact. The camera minidriver should set this value to one or more of the following:
 
 <table>

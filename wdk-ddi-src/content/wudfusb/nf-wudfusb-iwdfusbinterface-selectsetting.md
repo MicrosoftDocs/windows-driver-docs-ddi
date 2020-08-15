@@ -57,8 +57,8 @@ The <b>SelectSetting</b> method selects the specified alternate setting on a USB
 
 
 
-### -param SettingNumber [in]
-
+### -param SettingNumber 
+[in]
 The setting to select on the USB interface.
 
 

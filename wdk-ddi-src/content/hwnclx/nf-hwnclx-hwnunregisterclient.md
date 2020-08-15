@@ -68,8 +68,8 @@ FORCEINLINE NTSTATUS  HwNUnregisterClient(
 
 
 
-### -param Driver [in]
-
+### -param Driver 
+[in]
 Handle to the client drivers framework driver object.
 
 

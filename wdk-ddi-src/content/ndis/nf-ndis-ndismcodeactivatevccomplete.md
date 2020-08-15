@@ -58,15 +58,15 @@ req.typenames:
 
 
 
-### -param Status [in]
-
+### -param Status 
+[in]
 Specifies the final status of the deactivate-VC operation, which can be NDIS_STATUS_SUCCESS or any
      NDIS_STATUS_
      <i>XXX except</i> NDIS_STATUS_PENDING.
 
 
-### -param NdisVcHandle [in]
-
+### -param NdisVcHandle 
+[in]
 Specifies the handle identifying the VC. The caller obtained this handle from its per-VC state,
      designated by the 
      <i>MiniportVcContext</i> passed as an input parameter to its 

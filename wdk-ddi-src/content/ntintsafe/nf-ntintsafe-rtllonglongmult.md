@@ -55,18 +55,18 @@ Multiplies one value of type <b>LONGLONG</b> by another.
 
 
 
-### -param llMultiplicand [in]
-
+### -param llMultiplicand 
+[in]
 The value to be multiplied by <i>llMultiplier</i>.
 
 
-### -param llMultiplier [in]
-
+### -param llMultiplier 
+[in]
 The value by which to multiply <i>llMultiplicand</i>.
 
 
-### -param pllResult [out]
-
+### -param pllResult 
+[out]
 A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
 

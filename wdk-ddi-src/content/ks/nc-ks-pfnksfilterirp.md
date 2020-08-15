@@ -63,13 +63,13 @@ An AVStream minidriver's <i>AVStrMiniFilterCreate</i> routine is called when a f
 
 
 
-### -param Filter [in]
-
+### -param Filter 
+[in]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a>.
 
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 Pointer to the IRP for <i>Filter</i>.
 
 

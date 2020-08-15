@@ -55,8 +55,8 @@ req.typenames:
 
 
 
-### -param pMemPointer [in]
-
+### -param pMemPointer 
+[in]
 Pointer to the memory to be freed.
 
 

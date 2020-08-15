@@ -72,8 +72,8 @@ req.typenames:
 ### -param dwCallbackID
 
 
-### -param pResource [in]
-
+### -param pResource 
+[in]
 
 ### -param dwResourceSize
 

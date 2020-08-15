@@ -55,13 +55,13 @@ The <b>FltGetFileSystemType</b> function takes a volume or instance object and p
 
 
 
-### -param FltObject [in]
-
+### -param FltObject 
+[in]
 A pointer to a filter object. This can be a FLT_INSTANCE or FLT_VOLUME object. 
 
 
-### -param FileSystemType [out]
-
+### -param FileSystemType 
+[out]
 A pointer to a user allocated FLT_FILESYSTEM_TYPE object that receives the file system type for <i>FltObject</i>. 
 
 

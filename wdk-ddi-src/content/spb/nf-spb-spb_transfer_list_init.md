@@ -55,13 +55,13 @@ The <b>SPB_TRANSFER_LIST_INIT</b> function initializes an <a href="https://docs.
 
 
 
-### -param TransferList [out]
-
+### -param TransferList 
+[out]
 A pointer to the <b>SPB_TRANSFER_LIST</b> structure that is to be initialized.
 
 
-### -param TransferCount [in]
-
+### -param TransferCount 
+[in]
 The number of entries in the transfer list. The function writes this value to the <b>TransferCount</b> member of the  <b>SPB_TRANSFER_LIST</b> structure.
 
 

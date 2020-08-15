@@ -55,13 +55,13 @@ The <i>CLIENT_MaskInterrupts</i> event callback function masks interrupts on a s
 
 
 
-### -param Context [in]
-
+### -param Context 
+[in]
 A pointer to the GPIO controller driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/gpio/gpio-device-contexts">device context</a>.
 
 
-### -param MaskParameters [in, out]
-
+### -param MaskParameters 
+[in, out]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_mask_interrupt_parameters">GPIO_MASK_INTERRUPT_PARAMETERS</a> structure that, on entry, describes the GPIO interrupt pins to mask, and, on exit, contains the status of the mask operation.
 
 

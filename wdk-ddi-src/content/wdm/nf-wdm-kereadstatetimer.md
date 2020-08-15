@@ -55,8 +55,8 @@ The <b>KeReadStateTimer</b> routine reads the current state of a timer object.
 
 
 
-### -param Timer [in]
-
+### -param Timer 
+[in]
 A pointer to an initialized timer object, for which the caller provides the storage.
 
 

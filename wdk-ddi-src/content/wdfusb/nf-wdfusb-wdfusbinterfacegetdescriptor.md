@@ -60,18 +60,18 @@ The <b>WdfUsbInterfaceGetDescriptor</b> method retrieves the USB interface descr
 
 
 
-### -param UsbInterface [in]
-
+### -param UsbInterface 
+[in]
 A handle to a USB interface object that was obtained by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdevicegetinterface">WdfUsbTargetDeviceGetInterface</a>. 
 
 
-### -param SettingIndex [in]
-
+### -param SettingIndex 
+[in]
 An index value that identifies an alternate setting for the interface. For more information about alternate settings, see the USB specification.
 
 
-### -param InterfaceDescriptor [out]
-
+### -param InterfaceDescriptor 
+[out]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbspec/ns-usbspec-_usb_interface_descriptor">USB_INTERFACE_DESCRIPTOR</a> structure that the framework fills in.
 
 

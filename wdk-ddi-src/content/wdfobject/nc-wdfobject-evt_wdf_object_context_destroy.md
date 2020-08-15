@@ -57,8 +57,8 @@ A driver's <i>EvtDestroyCallback</i> event callback function performs operations
 
 
 
-### -param Object [in]
-
+### -param Object 
+[in]
 A handle to a framework object.
 
 

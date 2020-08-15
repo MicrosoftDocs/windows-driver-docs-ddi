@@ -60,18 +60,18 @@ The <b>WdfObjectAllocateContext</b> method allocates context space for a specifi
 
 
 
-### -param Handle [in]
-
+### -param Handle 
+[in]
 A handle to a framework object.
 
 
-### -param ContextAttributes [in]
-
+### -param ContextAttributes 
+[in]
 A pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that describes the context space.
 
 
-### -param Context [out]
-
+### -param Context 
+[out]
 A pointer to a location that receives a pointer to the allocated context space.
 
 

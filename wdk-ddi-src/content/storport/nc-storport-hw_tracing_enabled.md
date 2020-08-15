@@ -51,8 +51,8 @@ The **HwStorTracingEnabled** callback routine enables the Storport to notify a m
 
 ### -param HwDeviceExtension
 
-### -param Enabled [in]
-
+### -param Enabled 
+[in]
 True to enable tracing in the miniport. Otherwise, false.
 
 #### - DeviceExtension [in]

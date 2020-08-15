@@ -57,18 +57,18 @@ The <b>KsNotifyEvent</b> method requests that the KS object that owns the given 
 
 
 
-### -param Event [in]
-
+### -param Event 
+[in]
 Identifies the type of DirectShow event. 
 
 
-### -param lParam1 [in]
-
+### -param lParam1 
+[in]
 Specifies the first data parameter for the event.
 
 
-### -param lParam2 [in]
-
+### -param lParam2 
+[in]
 Specifies the second data parameter for the event.
 
 

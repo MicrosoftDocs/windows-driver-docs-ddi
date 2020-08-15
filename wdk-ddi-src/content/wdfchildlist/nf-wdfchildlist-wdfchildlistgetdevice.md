@@ -58,8 +58,8 @@ The <b>WdfChildListGetDevice</b> method returns a handle to the framework device
 
 
 
-### -param ChildList [in]
-
+### -param ChildList 
+[in]
 A handle to a framework child-list object.
 
 

@@ -55,18 +55,18 @@ The USB device emulation class extension (UdeCx) invokes this callback function 
 
 
 
-### -param UdecxUsbDevice [in]
-
+### -param UdecxUsbDevice 
+[in]
 A handle to UDE device object. The client driver created this object in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbdevice/nf-udecxusbdevice-udecxusbdevicecreate">UdecxUsbDeviceCreate</a>.
 
 
-### -param Request [in]
-
+### -param Request 
+[in]
 A handle to a framework request object that represents the request.
 
 
-### -param Params [in]
-
+### -param Params 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbdevice/ns-udecxusbdevice-_udecx_endpoints_configure_params">UDECX_ENDPOINTS_CONFIGURE_PARAMS</a> structure that describes the configuration options.
 
 

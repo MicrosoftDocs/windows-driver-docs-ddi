@@ -56,18 +56,18 @@ The <b>RtlUpcaseUnicodeString</b> routine converts a copy of the source string t
 
 
 
-### -param DestinationString [in, out]
-
+### -param DestinationString 
+[in, out]
 Pointer to a caller-allocated buffer for the converted Unicode string.
 
 
-### -param SourceString [in]
-
+### -param SourceString 
+[in]
 Pointer to the source Unicode string to be converted to uppercase.
 
 
-### -param AllocateDestinationString [in]
-
+### -param AllocateDestinationString 
+[in]
 Specifies if <b>RtlUpcaseUnicodeString</b> is to allocate the buffer space for the <i>DestinationString</i>. If it does, the buffer must be deallocated by calling <b>RtlFreeUnicodeString</b>.
 
 

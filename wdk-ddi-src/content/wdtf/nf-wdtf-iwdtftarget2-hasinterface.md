@@ -65,8 +65,8 @@ Determines whether the target supports a given interface.
 
 
 
-### -param MonikerSuffix [in, optional]
-
+### -param MonikerSuffix 
+[in, optional]
 An optional moniker that defines more options about how 
 the interface should be instantiated. 
 
@@ -75,8 +75,8 @@ Set <i>MonikerSuffix </i>to a <b>VARIANT</b> that
 contains <b>VT_EMPTY</b>.
 
 
-### -param pResult [out, retval]
-
+### -param pResult 
+[out, retval]
 True if the target supports the interface; otherwise false.
 
 

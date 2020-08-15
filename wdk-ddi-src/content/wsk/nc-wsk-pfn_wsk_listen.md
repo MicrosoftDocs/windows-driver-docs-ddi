@@ -56,15 +56,15 @@ req.typenames:
 
 
 
-### -param Socket [in]
-
+### -param Socket 
+[in]
 A pointer to a 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a> structure that specifies the socket
      object for the stream socket that is listening for an incoming connection. This socket must have previously been bound to a local transport address by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_bind">WskBind</a>.
 
 
-### -param Irp [in, out]
-
+### -param Irp 
+[in, out]
 A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the listen operation
      asynchronously. For more information about using IRPs with WSK functions, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock

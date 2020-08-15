@@ -55,13 +55,13 @@ The <b>StorPortFreeMdl</b> routine frees a memory descriptor list (MDL) describi
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param Mdl [in]
-
+### -param Mdl 
+[in]
 A pointer to the MDL to be freed.
 
 

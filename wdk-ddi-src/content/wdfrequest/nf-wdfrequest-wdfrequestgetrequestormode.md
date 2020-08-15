@@ -60,8 +60,8 @@ The <b>WdfRequestGetRequestorMode</b> method returns the processor access mode o
 
 
 
-### -param Request [in]
-
+### -param Request 
+[in]
 A handle to a framework request object.
 
 

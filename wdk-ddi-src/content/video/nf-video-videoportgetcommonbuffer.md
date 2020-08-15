@@ -57,33 +57,33 @@ The <b>VideoPortGetCommonBuffer</b> function is <b>obsolete</b> in Windows XP an
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 Pointer to the miniport driver's device extension.
 
 
-### -param DesiredLength [in]
-
+### -param DesiredLength 
+[in]
 Specifies the requested number of bytes of memory.
 
 
-### -param Alignment [in]
-
+### -param Alignment 
+[in]
 Specifies the requested alignment of the buffer. The video port driver currently ignores this parameter.
 
 
-### -param LogicalAddress [out]
-
+### -param LogicalAddress 
+[out]
 Pointer to a variable that receives the logical address to be used by the adapter to access the allocated buffer.
 
 
-### -param pActualLength [out]
-
+### -param pActualLength 
+[out]
 Pointer to a variable that receives the actual size, in bytes, of the buffer allocated for this request.
 
 
-### -param CacheEnabled [in]
-
+### -param CacheEnabled 
+[in]
 Specifies whether the allocated memory can be cached.
 
 

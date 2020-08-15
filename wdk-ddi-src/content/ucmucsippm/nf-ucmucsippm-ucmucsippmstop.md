@@ -48,8 +48,8 @@ Instructs the UcmUcsiCx class extension to stop sending requests to the client d
 
 ## -parameters
 
-### -param PpmObject [in]
-A handle to a Platform Policy Manager (PPM) object that the client driver received in the previous call to [**UcmUcsiPpmCreate**](nf-ucmucsippm-ucmucsippmcreate.md).
+### -param PpmObject 
+[in]A handle to a Platform Policy Manager (PPM) object that the client driver received in the previous call to [**UcmUcsiPpmCreate**](nf-ucmucsippm-ucmucsippmcreate.md).
 
 ## -remarks
 

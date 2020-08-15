@@ -55,13 +55,13 @@ The <code>Silence</code> method is used to copy silence samples to a specified b
 
 
 
-### -param Buffer [in]
-
+### -param Buffer 
+[in]
 Pointer in kernel virtual-address space to the start of the buffer to which the silence samples are to be written. The buffer must be large enough to contain at least the number of bytes specified in <i>ByteCount</i>.
 
 
-### -param ByteCount [in]
-
+### -param ByteCount 
+[in]
 Specifies the number of bytes of silence to be written to the buffer.
 
 

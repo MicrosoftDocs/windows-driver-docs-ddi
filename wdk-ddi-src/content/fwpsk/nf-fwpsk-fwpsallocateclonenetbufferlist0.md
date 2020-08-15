@@ -59,15 +59,15 @@ The
 
 
 
-### -param originalNetBufferList [in, out]
-
+### -param originalNetBufferList 
+[in, out]
 A pointer to the original 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure that is being
      cloned.
 
 
-### -param netBufferListPoolHandle [in, optional]
-
+### -param netBufferListPoolHandle 
+[in, optional]
 A 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> pool handle that was
      obtained from a previous call to the 
@@ -75,22 +75,22 @@ A
      NdisAllocateNetBufferListPool</a> function. This parameter is optional and can be <b>NULL</b>.
 
 
-### -param netBufferPoolHandle [in, optional]
-
+### -param netBufferPoolHandle 
+[in, optional]
 A 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> pool handle that was obtained from a
      previous call to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferpool">NdisAllocateNetBufferPool</a> function. This parameter is optional and can be <b>NULL</b>.
 
 
-### -param allocateCloneFlags [in]
-
+### -param allocateCloneFlags 
+[in]
 There are currently no flags defined for this function. Callout drivers should set this parameter
      to zero.
 
 
-### -param netBufferList [out]
-
+### -param netBufferList 
+[out]
 A pointer to a variable that receives a pointer to the clone 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
 

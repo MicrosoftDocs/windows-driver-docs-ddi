@@ -55,28 +55,28 @@ An AVStream minidriver's <i>AVStrMiniPinSetDataFormat</i> routine is called at p
 
 
 
-### -param Pin [in]
-
+### -param Pin 
+[in]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure for which the data format is changing.
 
 
-### -param OldFormat [in, optional]
-
+### -param OldFormat 
+[in, optional]
 Optional. Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksdataformat">KSDATAFORMAT</a> structure. Minidrivers can use this field to determine the data format that the pin was using before this call. If <b>NULL</b>, indicates that no data format has been set for the pin and that <i>Pin's</i> create dispatch has not yet been made. A <b>NULL</b> value here indicates that this routine was called at initialization time for format verification.
 
 
-### -param OldAttributeList [in, optional]
-
+### -param OldAttributeList 
+[in, optional]
 Optional. Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksmultiple_item">KSMULTIPLE_ITEM</a> structure that stores attributes for the previous format.
 
 
-### -param DataRange [in]
-
+### -param DataRange 
+[in]
 Pointer to a <a href="https://docs.microsoft.com/previous-versions/ff561658(v=vs.85)">KSDATARANGE</a> structure. The data range for the new format.
 
 
-### -param AttributeRange [in, optional]
-
+### -param AttributeRange 
+[in, optional]
 Optional. The attribute range for the new format.
 
 

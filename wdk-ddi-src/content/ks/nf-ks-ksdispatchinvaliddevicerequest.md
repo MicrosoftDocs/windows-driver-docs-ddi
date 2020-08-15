@@ -56,13 +56,13 @@ The <b>KsDispatchInvalidDeviceRequest</b> function is used in KSDISPATCH_TABLE e
 
 
 
-### -param DeviceObject [in]
-
+### -param DeviceObject 
+[in]
 Specifies the device object associated with the IRP.
 
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 Specifies the IRP that is not being handled.
 
 

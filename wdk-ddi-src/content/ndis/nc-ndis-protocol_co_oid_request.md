@@ -61,8 +61,8 @@ The
 
 
 
-### -param ProtocolAfContext [in]
-
+### -param ProtocolAfContext 
+[in]
 A handle that identifies an address family (AF) context area. If the driver is a client, it
      supplied this handle when it called the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclopenaddressfamilyex">
@@ -71,20 +71,20 @@ A handle that identifies an address family (AF) context area. If the driver is a
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_open_af">ProtocolCmOpenAf</a> function.
 
 
-### -param ProtocolVcContext [in]
-
+### -param ProtocolVcContext 
+[in]
 A handle that identifies the virtual connection (VC) to query or set information on, if the
      request is VC-specific. Otherwise, this parameter is <b>NULL</b>.
 
 
-### -param ProtocolPartyContext [in]
-
+### -param ProtocolPartyContext 
+[in]
 A handle that identifies the party on a multipoint VC to query or set information on, if the
      request is party-specific. Otherwise, this parameter is <b>NULL</b>.
 
 
-### -param OidRequest [in, out]
-
+### -param OidRequest 
+[in, out]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure that contains
      both the buffer and the request packet for the target driver to handle. Depending on the request, the

@@ -55,18 +55,18 @@ The <b>VideoPortSetDmaContext</b> function is <b>obsolete</b> in Windows 2000 an
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 Pointer to the miniport driver's device extension.
 
 
-### -param pDma [out]
-
+### -param pDma 
+[out]
 Pointer to a DMA handle. 
 
 
-### -param InstanceContext [in]
-
+### -param InstanceContext 
+[in]
 Pointer to the DMA context to set.
 
 

@@ -55,8 +55,8 @@ The <b>KeTestSpinLock</b> routine tests for the availability of a spin lock.
 
 
 
-### -param SpinLock [in]
-
+### -param SpinLock 
+[in]
 A pointer to a spin lock. The spin lock must have been initialized by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializespinlock">KeInitializeSpinLock</a>.
 
 

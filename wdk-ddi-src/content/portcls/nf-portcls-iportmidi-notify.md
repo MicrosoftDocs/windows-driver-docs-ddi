@@ -55,8 +55,8 @@ The <code>Notify</code> method notifies the port driver that an interrupt indica
 
 
 
-### -param ServiceGroup [in, optional]
-
+### -param ServiceGroup 
+[in, optional]
 Pointer to the miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iservicegroup">IServiceGroup</a> object.
 
 

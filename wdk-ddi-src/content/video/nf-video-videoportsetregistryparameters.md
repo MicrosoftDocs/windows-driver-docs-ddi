@@ -60,13 +60,13 @@ The <b>VideoPortSetRegistryParameters</b> function writes information under the 
 Pointer to the miniport driver's device extension.
 
 
-### -param ValueName [in]
-
+### -param ValueName 
+[in]
 Pointer to a buffer containing a null-terminated Unicode string that names the value entry for which data is being written in the registry.
 
 
-### -param ValueData [in]
-
+### -param ValueData 
+[in]
 Pointer to a buffer containing the values to be written for the <i>ValueName</i> entry.
 
 

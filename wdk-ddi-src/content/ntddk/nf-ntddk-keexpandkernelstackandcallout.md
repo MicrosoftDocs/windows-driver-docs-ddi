@@ -65,16 +65,16 @@ KeExpandKernelStackAndCallout (
 
 
 
-### -param Callout [in]
-
+### -param Callout 
+[in]
 Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nc-ntddk-expand_stack_callout">ExpandedStackCall</a> routine.
 
-### -param Parameter [in, optional]
-
+### -param Parameter 
+[in, optional]
 Specifies the parameter to pass to the <i>ExpandedStackCall</i> routine.
 
-### -param Size [in]
-
+### -param Size 
+[in]
 Specifies the number of bytes on the stack to provide to the <i>ExpandedStackCall</i> routine. This value must be large enough to accommodate the stack usage of the <i>ExpandedStackCall</i> routine and any call that this routine might make. This value must not exceed MAXIMUM_EXPANSION_SIZE.
 
 ## -returns

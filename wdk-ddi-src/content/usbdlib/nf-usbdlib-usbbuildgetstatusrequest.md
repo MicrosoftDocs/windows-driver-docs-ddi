@@ -56,13 +56,13 @@ req.typenames:
 
 
 
-### -param urb [in, out]
-
+### -param urb 
+[in, out]
 Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a> to be formatted as an status request.
 
 
-### -param op [in]
-
+### -param op 
+[in]
 Specifies one of the following values:
 
 
@@ -92,23 +92,23 @@ Retrieves status from an endpoint for an interface on a USB device.
 Retrieves status from a device-defined target on a USB device.
 
 
-### -param index [in]
-
+### -param index 
+[in]
 Specifies the device-defined index, returned by a successful configuration request, if the request is for an endpoint or interface. Otherwise, <i>Index</i> must be zero.
 
 
-### -param transferBuffer [in, optional]
-
+### -param transferBuffer 
+[in, optional]
 Pointer to a resident buffer to receive the status data or is <b>NULL</b> if an MDL is supplied in <i>TransferBufferMDL</i>.
 
 
-### -param transferBufferMDL [in, optional]
-
+### -param transferBufferMDL 
+[in, optional]
 Pointer to an MDL that describes a resident buffer to receive the status data or is <b>NULL</b> if a buffer is supplied in <i>TransferBuffer</i>.
 
 
-### -param link [in]
-
+### -param link 
+[in]
 Reserved. Must be set to <b>NULL</b>. 
 
 

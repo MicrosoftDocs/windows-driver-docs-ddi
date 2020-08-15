@@ -66,13 +66,13 @@ VOID WRITE_REGISTER_USHORT(
 
 
 
-### -param Register [in]
-
+### -param Register 
+[in]
 Pointer to the register, which must be a mapped range in memory space.
 
 
-### -param Value [in]
-
+### -param Value 
+[in]
 Specifies a USHORT value to be written to the register.
 
 

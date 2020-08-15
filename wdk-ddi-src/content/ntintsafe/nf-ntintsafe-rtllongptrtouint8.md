@@ -55,13 +55,13 @@ Converts a value of type <b>LONG_PTR</b> to a value of type <b>UINT8</b>.
 
 
 
-### -param lOperand [in]
-
+### -param lOperand 
+[in]
 The value to be converted.
 
 
-### -param pui8Result [out]
-
+### -param pui8Result 
+[out]
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
 

@@ -56,18 +56,18 @@ The <b>PcCompleteIrp</b> function completes an IRP that was previously marked as
 
 
 
-### -param pDeviceObject [in]
-
+### -param pDeviceObject 
+[in]
 Pointer to the device object for the device. This parameter must point to a system structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>.
 
 
-### -param pIrp [in]
-
+### -param pIrp 
+[in]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> that is to be completed
 
 
-### -param ntStatus [in]
-
+### -param ntStatus 
+[in]
 Specifies the status of the completed IRP. See the list of NTSTATUS values defined in header file ntstatus.h.
 
 

@@ -55,8 +55,8 @@ The<i> MRxExtendForCache</i> routine is called by <a href="https://docs.microsof
 
 
 
-### -param RxContext [in, out]
-
+### -param RxContext 
+[in, out]
 A pointer to the RX_CONTEXT structure. This parameter contains the IRP that is requesting the operation. 
 
 

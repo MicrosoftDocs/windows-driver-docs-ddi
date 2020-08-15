@@ -60,8 +60,8 @@ The <b>WdfIoTargetGetDevice</b> method returns a handle to the framework device 
 
 
 
-### -param IoTarget [in]
-
+### -param IoTarget 
+[in]
 A handle to an I/O target object. This handle is obtained from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicegetiotarget">WdfDeviceGetIoTarget</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetcreate">WdfIoTargetCreate</a>, or from a method that a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/introduction-to-i-o-targets">specialized I/O target</a> supplies (such as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdevicegetiotarget">WdfUsbTargetDeviceGetIoTarget</a>).
 
 

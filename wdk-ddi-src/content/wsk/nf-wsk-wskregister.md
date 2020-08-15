@@ -59,13 +59,13 @@ The
 
 
 
-### -param WskClientNpi [in]
-
+### -param WskClientNpi 
+[in]
 A pointer to the client NPI implemented by the WSK application.
 
 
-### -param WskRegistration [out]
-
+### -param WskRegistration 
+[out]
 A pointer to a memory location that identifies a WSK application's registration instance. This
      memory location will be initialized by the 
      <b>WskRegister</b> call and will be used by the other 

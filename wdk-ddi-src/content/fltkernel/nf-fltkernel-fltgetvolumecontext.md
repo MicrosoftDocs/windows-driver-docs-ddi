@@ -55,18 +55,18 @@ The <b>FltGetVolumeContext</b> routine retrieves a context that was set for a vo
 
 
 
-### -param Filter [in]
-
+### -param Filter 
+[in]
 Opaque filter pointer for the caller. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param Volume [in]
-
+### -param Volume 
+[in]
 Opaque pointer for the volume whose context is being retrieved. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param Context [out]
-
+### -param Context 
+[out]
 Pointer to a caller-allocated variable that receives the address of the requested context. 
 
 

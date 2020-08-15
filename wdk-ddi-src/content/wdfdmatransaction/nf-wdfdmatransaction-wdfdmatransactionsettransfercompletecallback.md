@@ -59,18 +59,18 @@ req.typenames:
 
 
 
-### -param DmaTransaction [in]
-
+### -param DmaTransaction 
+[in]
 A handle to an initialized DMA transaction object for which to set or clear the transfer completion callback.
 
 
-### -param DmaCompletionRoutine [in, optional]
-
+### -param DmaCompletionRoutine 
+[in, optional]
 A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmatransaction/nc-wdfdmatransaction-evt_wdf_dma_transaction_dma_transfer_complete">EvtDmaTransactionDmaTransferComplete</a> event callback function, or NULL to clear a previously set callback function.
 
 
-### -param DmaCompletionContext [in, optional]
-
+### -param DmaCompletionContext 
+[in, optional]
 A pointer to a buffer containing the driver-specified context to be provided to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmatransaction/nc-wdfdmatransaction-evt_wdf_dma_transaction_dma_transfer_complete">EvtDmaTransactionDmaTransferComplete</a> event callback function, or NULL.
 
 

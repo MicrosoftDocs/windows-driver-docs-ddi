@@ -56,13 +56,13 @@ The <b>NtQuerySecurityObject</b> routine retrieves a copy of an object's securit
 
 
 
-### -param Handle [in]
-
+### -param Handle 
+[in]
 Handle for the object whose security descriptor is to be queried. This handle must have the access specified in the Meaning column of the table shown in the description of the <i>SecurityInformation</i> parameter. 
 
 
-### -param SecurityInformation [in]
-
+### -param SecurityInformation 
+[in]
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/security-information">SECURITY_INFORMATION</a> value specifying the information to be queried.
 
 <table>
@@ -114,18 +114,18 @@ Indicates the system ACL (SACL) of the object is being queried. Requires ACCESS_
  
 
 
-### -param SecurityDescriptor [out]
-
+### -param SecurityDescriptor 
+[out]
 Caller-allocated buffer that <b>NtQuerySecurityObject</b> fills with a copy of the specified security descriptor. The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a> structure is returned in self-relative format. 
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 Size, in bytes, of the buffer pointed to by <i>SecurityDescriptor</i>. 
 
 
-### -param LengthNeeded [out]
-
+### -param LengthNeeded 
+[out]
 Pointer to a caller-allocated variable that receives the number of bytes required to store the copied security descriptor. 
 
 

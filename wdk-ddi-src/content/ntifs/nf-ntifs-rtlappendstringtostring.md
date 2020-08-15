@@ -55,13 +55,13 @@ The <b>RtlAppendStringToString</b> routine concatenates two counted strings. It 
 
 
 
-### -param Destination [in, out]
-
+### -param Destination 
+[in, out]
 A pointer to a counted string to which the string at <i>Source</i> should be appended. 
 
 
-### -param Source [in]
-
+### -param Source 
+[in]
 A pointer to a counted string to be appended to the string at <i>Destination</i>. 
 
 

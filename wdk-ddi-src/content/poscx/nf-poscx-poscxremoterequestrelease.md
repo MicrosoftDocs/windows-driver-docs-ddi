@@ -57,13 +57,13 @@ PosCxRemoteRequestRelease is called whenever a remote device asks for
 
 
 
-### -param device [in]
-
+### -param device 
+[in]
 A handle to a framework device object that represents the device.
 
 
-### -param deviceInterfaceTag [in]
-
+### -param deviceInterfaceTag 
+[in]
 The device interface that initiated the release request.
 
 

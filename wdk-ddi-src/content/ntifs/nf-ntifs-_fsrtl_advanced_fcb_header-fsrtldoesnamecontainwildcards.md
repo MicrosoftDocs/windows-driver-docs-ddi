@@ -55,8 +55,8 @@ The <b>FsRtlDoesNameContainWildCards</b> routine determines whether a Unicode st
 
 
 
-### -param Name [in]
-
+### -param Name 
+[in]
 A pointer to the string to be checked.
 
 

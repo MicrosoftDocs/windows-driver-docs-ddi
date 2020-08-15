@@ -55,8 +55,8 @@ This function initializes a <a href="https://docs.microsoft.com/windows-hardware
 
 
 
-### -param pConfig [out]
-
+### -param pConfig 
+[out]
 A pointer to a new <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorscx/ns-sensorscx-_sensor_controller_config">SENSOR_CONTROLLER_CONFIG</a> structure.
 
 

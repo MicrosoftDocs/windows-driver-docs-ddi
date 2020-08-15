@@ -55,33 +55,33 @@ The <b>USBCAMD_BulkReadWrite</b> service performs a read or write operation on t
 
 
 
-### -param DeviceContext [in]
-
+### -param DeviceContext 
+[in]
 Pointer to the camera minidriver's device context.
 
 
-### -param PipeIndex [in]
-
+### -param PipeIndex 
+[in]
 Specifies the index of the bulk pipe.
 
 
-### -param Buffer [in]
-
+### -param Buffer 
+[in]
 Pointer to the read or write buffer. If this parameter is set to <b>NULL</b> for a read request, USBCAMD pulls a data SRB from the SRB read queue of the stream associated with this pipe. Write requests with a <b>NULL</b> buffer pointer are only permitted on the still pin if an SRB_WRITE_DATA request has been submitted to the still pin.
 
 
-### -param BufferLength [in]
-
+### -param BufferLength 
+[in]
 Specifies the length of the read/write buffer in bytes.
 
 
-### -param CommandComplete [in]
-
+### -param CommandComplete 
+[in]
 Pointer to a camera minidriver defined <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-pcommand_complete_function">CommandCompleteFunction</a>, which is called when the bulk read or write is completed. This value can be <b>NULL</b>.
 
 
-### -param CommandContext [in]
-
+### -param CommandContext 
+[in]
 Pointer to a block of memory, that is passed as an argument to the camera minidriver defined <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-pcommand_complete_function">CommandCompleteFunction</a>.
 
 

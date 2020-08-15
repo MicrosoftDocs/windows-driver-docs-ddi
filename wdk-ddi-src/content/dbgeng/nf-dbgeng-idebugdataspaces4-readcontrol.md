@@ -58,28 +58,28 @@ The <b>ReadControl</b> method reads implementation-specific system data.
 
 
 
-### -param Processor [in]
-
+### -param Processor 
+[in]
 Specifies the processor whose information is to be read.
 
 
-### -param Offset [in]
-
+### -param Offset 
+[in]
 Specifies the offset in the control space of the memory to read.
 
 
-### -param Buffer [out]
-
+### -param Buffer 
+[out]
 Receives the data read from the control-space memory.
 
 
-### -param BufferSize [in]
-
+### -param BufferSize 
+[in]
 Specifies the size in bytes of the buffer <i>Buffer</i>.  This is the maximum number of bytes that will be read.
 
 
-### -param BytesRead [out, optional]
-
+### -param BytesRead 
+[out, optional]
 Receives the number of bytes returned in the buffer <i>Buffer</i>.  If <i>BytesRead</i> is <b>NULL</b>, this information is not returned.
 
 

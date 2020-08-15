@@ -55,8 +55,8 @@ The<b> KsPinReleaseControl </b>function releases the control mutex for the AVStr
 
 
 
-### -param Pin [in]
-
+### -param Pin 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure representing the pin for which to release the control mutex.
 
 

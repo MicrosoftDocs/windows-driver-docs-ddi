@@ -56,13 +56,13 @@ A print processor's <code>OpenPrintProcessor</code> function prepares the print 
 
 
 
-### -param pPrinterName [in]
-
+### -param pPrinterName 
+[in]
 Caller-supplied pointer to the name of the printer for which the print processor is being opened.
 
 
-### -param pPrintProcessorOpenData [in]
-
+### -param pPrintProcessorOpenData 
+[in]
 Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/ns-winsplp-_printprocessoropendata">PRINTPROCESSOROPENDATA</a> structure.
 
 

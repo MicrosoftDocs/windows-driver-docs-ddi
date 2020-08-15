@@ -55,13 +55,13 @@ Writes an integer property.
 
 
 
-### -param bstrName [in]
-
+### -param bstrName 
+[in]
 The property to set.
 
 
-### -param nValue [in]
-
+### -param nValue 
+[in]
 The new value to set.
 
 

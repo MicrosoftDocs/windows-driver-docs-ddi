@@ -55,13 +55,13 @@ req.typenames:
 
 
 
-### -param OpmCxtObject [in]
-
+### -param OpmCxtObject 
+[in]
 The object for the OPM context that a random number will be gotten from.
 
 
-### -param pOutArgs [out]
-
+### -param pOutArgs 
+[out]
 Output arguments returned by <b>EVT_IDD_CX_MONITOR_OPM_GET_RANDOM_NUMBER</b>.
 
 

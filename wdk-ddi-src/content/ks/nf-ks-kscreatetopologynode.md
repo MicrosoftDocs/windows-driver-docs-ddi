@@ -56,23 +56,23 @@ The <b>KsCreateTopologyNode</b> function creates a handle to a topology node ins
 
 
 
-### -param ParentHandle [in]
-
+### -param ParentHandle 
+[in]
 Specifies the handle to the parent on which the node is created.
 
 
-### -param NodeCreate [in]
-
+### -param NodeCreate 
+[in]
 Specifies topology node create parameters.
 
 
-### -param DesiredAccess [in]
-
+### -param DesiredAccess 
+[in]
 Specifies an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> indicating the desired access to the object. This is typically <b>GENERIC_READ</b> and/or <b>GENERIC_WRITE</b>.
 
 
-### -param NodeHandle [out]
-
+### -param NodeHandle 
+[out]
 Location for the topology node handle.
 
 

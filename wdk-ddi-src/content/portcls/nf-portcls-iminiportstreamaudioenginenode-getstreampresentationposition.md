@@ -55,8 +55,8 @@ Gets the current cursor position in the audio data stream that is being rendered
 
 
 
-### -param pPresentationPosition [out]
-
+### -param pPresentationPosition 
+[out]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksaudio_presentation_position">KSAUDIO_PRESENTATION_POSITION</a> structure that represents the current cursor position in the audio data stream.
 
 

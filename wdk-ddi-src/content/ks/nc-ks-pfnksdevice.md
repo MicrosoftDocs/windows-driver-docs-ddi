@@ -55,8 +55,8 @@ An AVStream minidriver's <i>AVStrMiniDevicePostStart</i> routine is called when 
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice">KSDEVICE</a> structure describing the device for which the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-start-device">IRP_MN_START_DEVICE</a> request was sent.
 
 

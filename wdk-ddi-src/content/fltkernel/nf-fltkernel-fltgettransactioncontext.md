@@ -55,18 +55,18 @@ The <b>FltGetTransactionContext</b> routine retrieves a context that was set for
 
 
 
-### -param Instance [in]
-
+### -param Instance 
+[in]
 Opaque instance pointer for the caller. 
 
 
-### -param Transaction [in]
-
+### -param Transaction 
+[in]
 Opaque transaction pointer for the transaction whose context is being retrieved. 
 
 
-### -param Context [out]
-
+### -param Context 
+[out]
 Pointer to a caller-allocated variable that receives the address of the transaction context. 
 
 

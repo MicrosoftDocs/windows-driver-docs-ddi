@@ -57,13 +57,13 @@ The <b>UnmapIoSpace</b> method unmaps a specified range of physical addresses pr
 
 
 
-### -param PseudoBaseAddress [in]
-
+### -param PseudoBaseAddress 
+[in]
 Pointer to the pseudo base address obtained from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice3-mapiospace">MapIoSpace</a> method to which the physical address range was mapped.
 
 
-### -param NumberOfBytes [in]
-
+### -param NumberOfBytes 
+[in]
 Specifies the number of bytes that were mapped.
 
 

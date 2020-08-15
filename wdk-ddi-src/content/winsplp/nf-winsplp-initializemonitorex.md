@@ -55,8 +55,8 @@ req.typenames:
 
 
 
-### -param pRegistryRoot [in]
+### -param pRegistryRoot 
+[in]
 
-
-### -param pMonitor [out]
-
+### -param pMonitor 
+[out]

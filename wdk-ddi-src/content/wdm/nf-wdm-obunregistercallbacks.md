@@ -55,8 +55,8 @@ The <b>ObUnRegisterCallbacks</b> routine unregisters a set of callback routines 
 
 
 
-### -param RegistrationHandle [in]
-
+### -param RegistrationHandle 
+[in]
 A value that identifies the set of callback routines to unregister. The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obregistercallbacks">ObRegisterCallbacks</a> routine provides this value when it originally registered the callback routines.
 
 

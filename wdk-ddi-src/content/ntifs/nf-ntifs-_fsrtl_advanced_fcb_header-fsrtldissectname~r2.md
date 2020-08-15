@@ -55,18 +55,18 @@ Given a Unicode pathname string, the <b>FsRtlDissectName</b> routine returns two
 
 
 
-### -param Path [in]
-
+### -param Path 
+[in]
 Pathname string to be parsed.
 
 
-### -param FirstName [out]
-
+### -param FirstName 
+[out]
 Pointer to the first file name in the pathname string.
 
 
-### -param RemainingName [out]
-
+### -param RemainingName 
+[out]
 Pointer to the remaining unparsed portion of the pathname string.
 
 

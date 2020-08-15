@@ -49,12 +49,12 @@ A minifilter driver can register two routines of type PFLT_INSTANCE_TEARDOWN_CAL
 
 ## -parameters
 
-### -param FltObjects [in]
-
+### -param FltObjects 
+[in]
 Pointer to an [FLT_RELATED_OBJECTS](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_related_objects) structure that contains opaque pointers for the objects related to the current I/O operation.
 
-### -param Reason [in]
-
+### -param Reason 
+[in]
 Flag that indicates why the minifilter driver instance is being torn down. One of the following:
 
 | Flag | Meaning |

@@ -55,13 +55,13 @@ The <b>PcwRegister</b> function registers the caller as a provider of the specif
 
 
 
-### -param Registration [out]
-
+### -param Registration 
+[out]
 A pointer to a PCW_REGISTRATION structure. Receives the handle to the newly allocated registration. The pointer is referenced before the function returns. The caller is responsible to dereference the pointer.
 
 
-### -param Info [in]
-
+### -param Info 
+[in]
 A pointer to a PCW_REGISTRATION_INFORMATION structure that contains the details about the counter set being registered.
 
 

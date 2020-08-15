@@ -55,8 +55,8 @@ The <code>SetState</code> method sets the stream's transport state to a new stat
 
 
 
-### -param State [in]
-
+### -param State 
+[in]
 Specifies the new state that the stream is to be set to. This parameter is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ne-ks-ksstate">KSSTATE</a> enumeration value. For more information, see the following Remarks section.
 
 

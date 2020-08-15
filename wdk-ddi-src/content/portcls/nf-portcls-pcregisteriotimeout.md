@@ -58,18 +58,18 @@ Once registered, the port-class driver calls the timer callback approximately on
 
 
 
-### -param pDeviceObject [in]
-
+### -param pDeviceObject 
+[in]
 Pointer to a device object representing a device on which I/O operations can time out. This parameter must point to a system structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>. When calling the I/O-timer callback routine, the port class driver passes this pointer as the first of two call parameters. For more information, see the following Remarks section.
 
 
-### -param pTimerRoutine [in]
-
+### -param pTimerRoutine 
+[in]
 Pointer to the driver-supplied I/O-timer callback routine. For more information, see the following Remarks section.
 
 
-### -param pContext [in]
-
+### -param pContext 
+[in]
 Pointer to the driver-specific context. When calling the I/O-timer callback routine, the port class driver passes this pointer as the second of two call parameters. For more information, see the following Remarks section.
 
 

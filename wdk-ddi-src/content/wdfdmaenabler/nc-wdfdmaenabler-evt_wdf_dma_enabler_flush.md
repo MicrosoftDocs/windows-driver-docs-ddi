@@ -57,8 +57,8 @@ A driver's <i>EvtDmaEnablerFlush</i> event callback function deallocates a devic
 
 
 
-### -param DmaEnabler [in]
-
+### -param DmaEnabler 
+[in]
 A handle to a DMA enabler object.  
 
 

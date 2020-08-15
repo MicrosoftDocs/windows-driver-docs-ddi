@@ -55,13 +55,13 @@ The <i>DxgkDdiSetBrightness</i> function sets a new brightness level.
 
 
 
-### -param Context [in]
-
+### -param Context 
+[in]
 A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem.
 
 
-### -param Brightness [in]
-
+### -param Brightness 
+[in]
 The brightness level value to set.
 
 

@@ -55,13 +55,13 @@ The <b><i>AtaChannelInitRoutine</i></b> miniport driver routine initializes the 
 
 
 
-### -param ChannelExtension [in]
-
+### -param ChannelExtension 
+[in]
 A pointer to the miniport driver channel extension.
 
 
-### -param ChannelInterface [in, out]
-
+### -param ChannelInterface 
+[in, out]
 A pointer to a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/ns-irb-_ide_channel_interface">IDE_CHANNEL_INTERFACE</a>. 
 
 

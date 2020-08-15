@@ -57,23 +57,23 @@ The <b>GetStackTrace</b> method returns the frames at the top of the specified c
 
 
 
-### -param FrameOffset [in]
-
+### -param FrameOffset 
+[in]
 Specifies the location of the stack frame at the top of the stack.  If <i>FrameOffset</i> is set to zero, the current frame pointer is used instead.
 
 
-### -param StackOffset [in]
-
+### -param StackOffset 
+[in]
 Specifies the location of the current stack.  If <i>StackOffset</i> is set to zero, the current stack pointer is used instead.
 
 
-### -param InstructionOffset [in]
-
+### -param InstructionOffset 
+[in]
 Specifies the location of the instruction of interest for the function that is represented by the stack frame at the top of the stack.  If <i>InstructionOffset</i> is set to zero, the current instruction is used instead.
 
 
-### -param Frames [out]
-
+### -param Frames 
+[out]
 Receives the stack frames.  The number of elements this array holds is <i>FrameSize</i>.
 
 
@@ -82,8 +82,8 @@ Receives the stack frames.  The number of elements this array holds is <i>FrameS
 
 
 
-### -param FramesFilled [out, optional]
-
+### -param FramesFilled 
+[out, optional]
 Receives the number of frames that were placed in the array <i>Frames</i>.  If <i>FramesFilled</i> is <b>NULL</b>, this information is not returned.
 
 

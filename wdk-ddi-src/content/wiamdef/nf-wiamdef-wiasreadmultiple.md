@@ -49,24 +49,24 @@ The **wiasReadMultiple** function retrieves multiple property values from a WIA 
 
 ## -parameters
 
-### -param pWiasContext [in]
-
+### -param pWiasContext 
+[in]
 Pointer to a WIA item context.
 
 ### -param ulCount
 
 Specifies the number of properties to read.
 
-### -param ps [in]
-
+### -param ps 
+[in]
 Pointer to the first element of an array of [PROPSPEC](https://docs.microsoft.com/windows/win32/api/propidl/ns-propidl-propspec) structures, containing the properties to read.
 
-### -param pv [out]
-
+### -param pv 
+[out]
 Pointer to the first element of an array of [PROPVARIANT](https://docs.microsoft.com/windows/win32/api/propidl/ns-propidl-propvariant) structures. Upon return, these structures contain new values for the properties.
 
-### -param pvOld [out, optional]
-
+### -param pvOld 
+[out, optional]
 Pointer to the first element of an array of PROPVARIANT structures previously allocated by the minidriver. Upon return, the array contains the previous values of the property data. If this information is not needed, this parameter can be set to **NULL**.
 
 ## -returns

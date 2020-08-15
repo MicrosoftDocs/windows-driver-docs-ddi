@@ -55,8 +55,8 @@ The <b>KeQueryActiveProcessorCount</b> routine returns the number of currently a
 
 
 
-### -param ActiveProcessors [out, optional]
-
+### -param ActiveProcessors 
+[out, optional]
 A pointer to a [**KAFFINITY**](https://docs.microsoft.com/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity)-typed variable into which the routine writes a bitmask that represents the set of currently active processors. In a hot-add environment, this mask may change during runtime. This parameter is optional and can be specified as <b>NULL</b> if the caller does not require the mask of active processors. 
 
 

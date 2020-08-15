@@ -50,32 +50,32 @@ The **KsFilterGenerateEvents** function generates events of an indicated type th
 
 ## -parameters
 
-### -param Filter [in]
-
+### -param Filter 
+[in]
 A pointer to a [KSFILTER](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter) structure on which to generate events.
 
-### -param EventSet [in, optional]
-
+### -param EventSet 
+[in, optional]
 A pointer to the event set GUID to match for determination of which events to generate. If this parameter is **NULL**, the event set GUID is not taken into account for determining matching events.
 
-### -param EventId [in]
-
+### -param EventId 
+[in]
 The event ID to match for determining which events to generate.
 
-### -param DataSize [in]
-
+### -param DataSize 
+[in]
 The size of *Data* in bytes.
 
-### -param Data [in]
-
+### -param Data 
+[in]
 A pointer to a data buffer. Specify if generating a data event.
 
-### -param CallBack [in, optional]
-
+### -param CallBack 
+[in, optional]
 A pointer to a caller-specified function that is called to determine whether a given event should be generated. If this is **NULL**, no callback verification is performed to determine whether an event should be generated (only *EventSet *and *EventId* are used). For more information, see the Remarks section below.
 
-### -param CallBackContext [in, optional]
-
+### -param CallBackContext 
+[in, optional]
 An optional pointer to a caller-specified context that is passed to the callback function *CallBack*. For more information, see the Remarks section below.
 
 ## -remarks

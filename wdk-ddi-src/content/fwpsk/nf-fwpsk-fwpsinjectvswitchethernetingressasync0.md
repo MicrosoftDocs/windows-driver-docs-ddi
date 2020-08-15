@@ -56,8 +56,8 @@ The <b>FwpsInjectvSwitchEthernetIngressAsync0</b> (was <b>FwpsInjectvSwitchIngre
 
 
 
-### -param injectionHandle [in]
-
+### -param injectionHandle 
+[in]
 An injection handle that was previously created by a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsinjectionhandlecreate0">FwpsInjectionHandleCreate0</a> function with the <i>flags</i> parameter set to <b>FWPS_INJECTION_TYPE_VSWITCH</b>.
 
 
@@ -65,35 +65,35 @@ The <i>addressFamily</i> parameter is not used and should be set to <b>AF_UNSPEC
 
 
 
-### -param injectionContext [in, optional]
-
+### -param injectionContext 
+[in, optional]
 An optional handle to the injection context that can be  retrieved with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsquerypacketinjectionstate0">FwpsQueryPacketInjectionState0</a> function.
 
 
-### -param flags [in]
-
+### -param flags 
+[in]
 Reserved. Must be set to zero.
 
 
-### -param reserved [in, optional]
-
+### -param reserved 
+[in, optional]
 Reserved. Must be set to NULL.
 
 
-### -param vSwitchId [in]
-
+### -param vSwitchId 
+[in]
 The virtual  switch identifier that the filtering engine passed in the 
      <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_incoming_values0_">FWPS_INCOMING_VALUES0</a> structure to the callout driver's 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> callout function. This is the  <b>GUID</b> of the virtual switch that is provided in an xxx_VSWITCH_ID field. 
 
 
-### -param vSwitchSourcePortId [in]
-
+### -param vSwitchSourcePortId 
+[in]
 The virtual  switch source port identifier. 
 
 
-### -param vSwitchSourceNicIndex [in]
-
+### -param vSwitchSourceNicIndex 
+[in]
 The virtual  switch source NIC  index.
 
 
@@ -102,8 +102,8 @@ The virtual  switch source NIC  index.
 A chain of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures to be injected into the virtual switch egress data path.
 
 
-### -param completionFn [in]
-
+### -param completionFn 
+[in]
 A pointer to a 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_inject_complete0">completionFn</a> callout function that is provided by
      the callout driver. The filter engine calls this function after the packet data, at the 
@@ -111,8 +111,8 @@ A pointer to a
      <i>completionFn</i> function will be called once for each <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> in the chain. <i>completionFn</i> must be specified when injecting cloned or created <b>NET_BUFFER_LIST</b> structures. This parameter can be NULL when injecting original unaltered <b>NET_BUFFER_LIST</b> structures that were received from the filter engine. 
 
 
-### -param completionContext [in, optional]
-
+### -param completionContext 
+[in, optional]
 A pointer to a callout driver–provided context that is passed to the callout function pointed to
      by the 
      <i>completionFn</i> parameter. This parameter is optional and can be <b>NULL</b>.

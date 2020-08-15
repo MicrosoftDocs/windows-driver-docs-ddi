@@ -60,28 +60,28 @@ The <b>WdfUsbTargetDeviceFormatRequestForControlTransfer</b> method builds a USB
 
 
 
-### -param UsbDevice [in]
-
+### -param UsbDevice 
+[in]
 A handle to a USB device object that was obtained from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdevicecreatewithparameters">WdfUsbTargetDeviceCreateWithParameters</a>.
 
 
-### -param Request [in]
-
+### -param Request 
+[in]
 A handle to a framework request object. For more information, see the following Remarks section.
 
 
-### -param SetupPacket [in]
-
+### -param SetupPacket 
+[in]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/ns-wdfusb-_wdf_usb_control_setup_packet">WDF_USB_CONTROL_SETUP_PACKET</a> structure that describes the control transfer.
 
 
-### -param TransferMemory [in, optional]
-
+### -param TransferMemory 
+[in, optional]
 A handle to a framework memory object that describes either an input or an output buffer, depending on the device-specific command. This pointer is optional and can be <b>NULL</b>. For more information, see the following Remarks section.
 
 
-### -param TransferOffset [in, optional]
-
+### -param TransferOffset 
+[in, optional]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfmemory/ns-wdfmemory-_wdfmemory_offset">WDFMEMORY_OFFSET</a> structure that supplies optional byte offset and length values. The framework uses these values to determine the beginning address and length, within the buffer that <i>TransferMemory</i> specifies. If this pointer is <b>NULL</b>, the framework uses the entire buffer. 
 
 

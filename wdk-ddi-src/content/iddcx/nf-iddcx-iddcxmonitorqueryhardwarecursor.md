@@ -57,18 +57,18 @@ req.typenames:
 
 
 
-### -param MonitorObject [in]
-
+### -param MonitorObject 
+[in]
 This is the OS context handle for this monitor returned by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iddcx/nf-iddcx-iddcxmonitorarrival">IddCxMonitorArrival</a> call
 
 
-### -param pInArgs [in]
-
+### -param pInArgs 
+[in]
 Input arguments of the function
 
 
-### -param pOutArgs [out]
-
+### -param pOutArgs 
+[out]
 Output arguments of the function
 
 

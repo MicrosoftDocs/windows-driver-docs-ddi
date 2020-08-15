@@ -55,8 +55,8 @@ The <b>SERCX2_CUSTOM_RECEIVE_CONFIG_INIT</b> function initializes a <a href="htt
 
 
 
-### -param Config [out]
-
+### -param Config 
+[out]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/ns-sercx-_sercx2_custom_receive_config">SERCX2_CUSTOM_RECEIVE_CONFIG</a> structure that is to be initialized.
 
 

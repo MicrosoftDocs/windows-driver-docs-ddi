@@ -55,28 +55,28 @@ The <b>PcwAddInstance</b> function adds the specified instance of the counter se
 
 
 
-### -param Buffer [in]
-
+### -param Buffer 
+[in]
 A pointer to the consumer buffer to which the instance of the counter set will be added. Depending on the purpose of the buffer, the function either adds an instance or collects data. 
 
 
-### -param Name [in]
-
+### -param Name 
+[in]
 A pointer to the Unicode string that contains the name of the instance of the counter set.
 
 
-### -param Id [in]
-
+### -param Id 
+[in]
 A numeric value that specifies the <i>Id</i> (identifier) associated with the instance of the counter set.
 
 
-### -param Count [in]
-
+### -param Count 
+[in]
 The number of data blocks associated with this instance.
 
 
-### -param Data [in]
-
+### -param Data 
+[in]
 A pointer to an array of data blocks containing the counter values of this instance.
 
 

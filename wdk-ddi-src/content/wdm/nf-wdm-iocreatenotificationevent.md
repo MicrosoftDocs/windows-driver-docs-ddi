@@ -55,13 +55,13 @@ The <b>IoCreateNotificationEvent</b> routine creates or opens a named notificati
 
 
 
-### -param EventName [in]
-
+### -param EventName 
+[in]
 Pointer to a buffer containing a null-terminated Unicode string that names the event.
 
 
-### -param EventHandle [out]
-
+### -param EventHandle 
+[out]
 Pointer to a location in which to return a handle for the event object. In Windows Server 2003 and later versions of Windows, the returned handle is a <a href="https://docs.microsoft.com/windows-hardware/drivers/">kernel handle</a>. 
 
 

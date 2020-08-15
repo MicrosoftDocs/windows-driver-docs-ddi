@@ -56,13 +56,13 @@ The <b>FltFreeExtraCreateParameterList</b> routine frees an extra create paramet
 
 
 
-### -param Filter [in]
-
+### -param Filter 
+[in]
 Opaque filter pointer for the minifilter driver. This pointer uniquely identifies the minifilter driver and remains constant as long as the minifilter driver is loaded.
 
 
-### -param EcpList [in]
-
+### -param EcpList 
+[in]
 Pointer to the ECP list structure to be freed.
 
 

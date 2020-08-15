@@ -55,11 +55,11 @@ req.typenames:
 
 
 
-### -param bstrName [in]
+### -param bstrName 
+[in]
 
-
-### -param ppXmlNode [out]
-
+### -param ppXmlNode 
+[out]
 
 ## -returns
 

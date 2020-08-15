@@ -55,13 +55,13 @@ The <b>MmAllocateMappingAddress</b> routine reserves a range of system virtual a
 
 
 
-### -param NumberOfBytes [in]
-
+### -param NumberOfBytes 
+[in]
 Specifies the number of bytes to reserve. 
 
 
-### -param PoolTag [in]
-
+### -param PoolTag 
+[in]
 Specifies a four-character tag used to identify the buffer. Use a distinct <i>PoolTag</i> tag for each allocation code path. For a description of pool tags, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag">ExAllocatePoolWithTag</a>. 
 
 

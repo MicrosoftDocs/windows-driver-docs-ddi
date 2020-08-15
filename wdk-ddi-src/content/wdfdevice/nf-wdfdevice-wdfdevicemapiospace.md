@@ -57,28 +57,28 @@ The <b>WdfDeviceMapIoSpace</b> function maps the given physical address range to
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object.
 
 
-### -param PhysicalAddress [in]
-
+### -param PhysicalAddress 
+[in]
 Specifies the starting 64-bit physical address of the I/O range to be mapped.
 
 
-### -param NumberOfBytes [in]
-
+### -param NumberOfBytes 
+[in]
 Specifies a value greater than zero, indicating the number of bytes to be mapped.
 
 
-### -param CacheType [in]
-
+### -param CacheType 
+[in]
 Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_memory_caching_type">MEMORY_CACHING_TYPE</a> value, which indicates the cache attribute to use to map the physical address range. The MEMORY_CACHING_TYPE enumeration type is defined in Wdfdevice.h.
 
 
-### -param PseudoBaseAddress [out]
-
+### -param PseudoBaseAddress 
+[out]
 The address of a location that receives a pointer to the pseudo base address.
 
 

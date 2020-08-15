@@ -57,8 +57,8 @@ The <b>SetNotifyEventHandle</b> method sets the event that will be signaled afte
 
 
 
-### -param Handle [in]
-
+### -param Handle 
+[in]
 Specifies the handle of the event to signal.  If <i>Handle</i> is <b>NULL</b>, no event will be signaled.
 
 

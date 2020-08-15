@@ -56,18 +56,18 @@ The <b>SeTokenSetNoChildProcessRestricted</b> routine sets the <b>TOKEN_NO_CHILD
 
 
 
-### -param Token [in]
-
+### -param Token 
+[in]
 Specifies a pointer to the access token.
 
 
-### -param UnlessSecure [in]
-
+### -param UnlessSecure 
+[in]
 A pointer to a boolean that indicates that secure process creation should always be enabled.
 
 
-### -param AuditOnly [in]
-
+### -param AuditOnly 
+[in]
 A pointer to a boolean that indicates if the mitigation should be enabled in
                 audit-only mode.
 

@@ -55,8 +55,8 @@ The <b>wiasWriteMultiple </b>function writes multiple property values to a WIA i
 
 
 
-### -param pWiasContext [in]
-
+### -param pWiasContext 
+[in]
 Pointer to a WIA item context.
 
 
@@ -65,8 +65,8 @@ Pointer to a WIA item context.
 Specifies the total number of properties to write.
 
 
-### -param ps [in]
-
+### -param ps 
+[in]
 Pointer to the first element of an array of PROPSPEC structures that indicate the properties to write.
 
 

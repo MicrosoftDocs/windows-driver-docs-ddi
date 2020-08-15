@@ -55,8 +55,8 @@ The <b>StartInput</b> callback method is called by the engine to indicate that i
 
 
 
-### -param BufferSize [in]
-
+### -param BufferSize 
+[in]
 Specifies the number of characters requested.  Any input longer than this size will be truncated.
 
 

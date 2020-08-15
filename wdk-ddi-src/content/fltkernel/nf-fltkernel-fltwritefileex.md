@@ -55,18 +55,18 @@ req.typenames:
 
 
 
-### -param InitiatingInstance [in]
-
+### -param InitiatingInstance 
+[in]
 An opaque instance pointer for the minifilter driver instance that the operation is to be sent to. The instance must be attached to the volume where the file resides. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 A pointer to a file object for the file that the data is to be written to. This file object must be currently open. Calling <b>FltWriteFileEx</b> when the file object is not yet open or is no longer open (for example, in a pre-create or post-cleanup callback routine) causes the system to ASSERT on a checked build. This parameter is required and cannot be <b>NULL</b>. 
 
 
-### -param ByteOffset [in, optional]
-
+### -param ByteOffset 
+[in, optional]
 A pointer to a caller-allocated variable that specifies the starting byte offset within the file where the write operation is to begin. 
 
 If this offset is supplied, or if the <b>FLTFL_IO_OPERATION_DO_NOT_UPDATE_BYTE_OFFSET</b> flag is specified in the <i>Flags</i> parameter, <b>FltWriteFileEx</b> does not update the file object's <b>CurrentByteOffset</b> field. 
@@ -81,20 +81,20 @@ If the file object that <i>FileObject</i> points to was opened for asynchronous 
 
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 The size, in bytes, of the buffer that the <i>Buffer</i> parameter points to. If an MDL is provided in <i>Mdl</i>, then <i>Length</i> is the size of the data that MDL describes.
 
 
-### -param Buffer [in]
-
+### -param Buffer 
+[in]
 A pointer to a buffer that contains the data to be written to the file. If the file is opened for noncached I/O, this buffer be must be aligned in accordance with the alignment requirement of the underlying storage device. Minifilter drivers can allocate such an aligned buffer by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatepoolalignedwithtag">FltAllocatePoolAlignedWithTag</a>. 
 
 If an MDL is provided in <i>Mdl</i>, <i>Buffer</i> must be NULL.
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 A bitmask of flags that specify the type of write operation to be performed. 
 
 <table>
@@ -148,28 +148,28 @@ This flag is available starting with Windows Vista.
  
 
 
-### -param BytesWritten [out, optional]
-
+### -param BytesWritten 
+[out, optional]
 A pointer to a caller-allocated variable that receives the number of bytes written to the file. If <i>CallbackRoutine</i> is not <b>NULL</b>, this parameter is ignored. Otherwise, this parameter is optional and can be <b>NULL</b>. 
 
 
-### -param CallbackRoutine [in, optional]
-
+### -param CallbackRoutine 
+[in, optional]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_completed_async_io_callback">PFLT_COMPLETED_ASYNC_IO_CALLBACK</a>-typed callback routine to call when the write operation is complete. This parameter is optional and can be <b>NULL</b>. 
 
 
-### -param CallbackContext [in, optional]
-
+### -param CallbackContext 
+[in, optional]
 A context pointer to be passed to the routine in <i>CallbackRoutine</i> if one is present. This parameter is optional and can be <b>NULL</b>. If <i>CallbackRoutine</i> is <b>NULL</b>, this parameter is ignored. 
 
 
-### -param Key [in, optional]
-
+### -param Key 
+[in, optional]
 An optional key associated with a file object lock.
 
 
-### -param Mdl [in, optional]
-
+### -param Mdl 
+[in, optional]
 An optional MDL that describes the data to write. If a buffer is provided in <i>Buffer</i>, then <i>Mdl</i> must be NULL.
 
 

@@ -58,14 +58,14 @@ The
 
 
 
-### -param SourceHandle [in]
-
+### -param SourceHandle 
+[in]
 An NDIS handle that identifies a filter module or an intermediate driver's protocol
      binding.
 
 
-### -param Request [in]
-
+### -param Request 
+[in]
 A pointer to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure that is to be
      freed.

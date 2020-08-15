@@ -57,8 +57,8 @@ The <b>GetInterruptTimeout</b> method returns the number of seconds that the eng
 
 
 
-### -param Seconds [out]
-
+### -param Seconds 
+[out]
 Receives the number of seconds that the engine will wait for the target when requesting a break into the debugger.
 
 

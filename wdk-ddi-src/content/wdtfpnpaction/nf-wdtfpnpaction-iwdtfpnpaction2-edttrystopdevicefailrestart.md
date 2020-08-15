@@ -56,8 +56,8 @@ then fail the subsequent device restart.
 
 
 
-### -param pbSuccess [out, retval]
-
+### -param pbSuccess 
+[out, retval]
 True if the operation succeeds; otherwise, false.
 
 

@@ -55,18 +55,18 @@ req.typenames:
 
 
 
-### -param Irp [in, optional]
-
+### -param Irp 
+[in, optional]
 A pointer to the IRP to be encapsulated by this RX_CONTEXT structure.
 
 
-### -param RxDeviceObject [in]
-
+### -param RxDeviceObject 
+[in]
 A pointer to the device object to which this RX_CONTEXT and IRP apply.
 
 
-### -param InitialContextFlags [in]
-
+### -param InitialContextFlags 
+[in]
 The set of initial values for the <b>Flags</b> member of the RX_CONTEXT data structure to be stored in the RX_CONTEXT structure. These initial values can be any combination of the following enumerations:
 
 

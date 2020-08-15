@@ -56,13 +56,13 @@ The <b>ExReleaseSpinLockShared</b> routine releases ownership of a  <a href="htt
 
 
 
-### -param param  [in, out]
-
+### -param param  
+[in, out]
 A pointer to the spin lock to release. The caller must own this spin lock for shared access.
 
 
-### -param OldIrql [in]
-
+### -param OldIrql 
+[in]
 The interrupt request level (IRQL) to restore. Set this parameter to the KIRQL value that was returned by the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/hh451053(v=vs.85)">ExAcquireSpinLockShared</a> call that acquired the spin lock.
 
 

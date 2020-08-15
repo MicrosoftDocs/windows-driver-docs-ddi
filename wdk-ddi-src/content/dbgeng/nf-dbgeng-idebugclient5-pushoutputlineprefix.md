@@ -55,13 +55,13 @@ req.typenames:
 
 
 
-### -param NewPrefix [in, optional]
-
+### -param NewPrefix 
+[in, optional]
 A pointer to the new output line prefix.
 
 
-### -param Handle [out]
-
+### -param Handle 
+[out]
 The handle of the previous output line prefix.
 
 

@@ -59,8 +59,8 @@ The
 
 
 
-### -param SourceHandle [in]
-
+### -param SourceHandle 
+[in]
 An NDIS handle that identifies a filter module or an intermediate driver's protocol
      binding.
 
@@ -71,8 +71,8 @@ A pointer to an existing
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure from which NDIS
      copies the information to the newly allocated structure.
 
-### -param PoolTag [in]
-
+### -param PoolTag 
+[in]
 A kernel pool tag. The tag is a string, delimited by single quotation marks, with as many as four
      characters, usually specified in reverse order.
 

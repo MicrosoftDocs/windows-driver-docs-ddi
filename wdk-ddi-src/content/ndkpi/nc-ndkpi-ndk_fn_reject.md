@@ -55,8 +55,8 @@ The <i>NdkReject</i> (<i>NDK_FN_REJECT</i>) function rejects an incoming NDK con
 
 
 
-### -param pNdkConnector [in]
-
+### -param pNdkConnector 
+[in]
 A pointer to an NDK connector object
 (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_connector">NDK_CONNECTOR</a>).
 
@@ -64,8 +64,8 @@ A pointer to an NDK connector object
 ### -param PVOID
 
 
-### -param PrivateDataLength [in]
-
+### -param PrivateDataLength 
+[in]
 The length, in bytes, of the private data that is provided in the <i>pPrivateData</i> parameter.
 
 

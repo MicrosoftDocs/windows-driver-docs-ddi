@@ -65,8 +65,8 @@ Returns an action for the target.
 
 
 
-### -param MonikerSuffix [in, optional]
-
+### -param MonikerSuffix 
+[in, optional]
 An optional moniker that defines more options about how 
 the interface should be instantiated. 
 
@@ -75,8 +75,8 @@ Set <i>MonikerSuffix </i>to a <b>VARIANT</b> that
 contains <b>VT_EMPTY</b>.
 
 
-### -param ppInterface [out, retval]
-
+### -param ppInterface 
+[out, retval]
 The address of a variable that will receive the action.
 
 

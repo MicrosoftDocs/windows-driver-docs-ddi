@@ -56,18 +56,18 @@ The <b>KsUnserializeObjectPropertiesFromRegistry</b> function, when given a dest
 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 Specifies the file object whose properties are being set.
 
 
-### -param ParentKey [in, optional]
-
+### -param ParentKey 
+[in, optional]
 Optionally contains a handle to the parent of the path, or <b>NULL</b>. The Parent Key and/or the <i>RegistryPath</i> must be passed.
 
 
-### -param RegistryPath [in, optional]
-
+### -param RegistryPath 
+[in, optional]
 Optionally contains the path to the key whose subkeys will be enumerated as property sets, or otherwise <b>NULL</b>. The <i>ParentKey</i> and/or the Registry Path must be passed.
 
 

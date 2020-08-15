@@ -57,23 +57,23 @@ Supported starting in Windows 8.
 
 
 
-### -param ParentHandle [in]
-
+### -param ParentHandle 
+[in]
 Specifies the handle to the parent on which the node is created.
 
 
-### -param NodeCreate [in]
-
+### -param NodeCreate 
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksnode_create">KSNODE_CREATE</a> structure that describes the set of information that is used to create the topology node handle.
 
 
-### -param DesiredAccess [in]
-
+### -param DesiredAccess 
+[in]
 Specifies an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> indicating the desired access to the object. This is typically <b>GENERIC_READ</b> and/or <b>GENERIC_WRITE</b>.
 
 
-### -param NodeHandle [out]
-
+### -param NodeHandle 
+[out]
 Location for the topology node handle.
 
 

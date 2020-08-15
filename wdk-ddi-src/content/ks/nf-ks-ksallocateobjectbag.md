@@ -56,13 +56,13 @@ The<b> KsAllocateObjectBag</b> function creates an object bag and associates it 
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice">KSDEVICE</a> representing the device object associated with the newly created object bag.
 
 
-### -param ObjectBag [out]
-
+### -param ObjectBag 
+[out]
 A pointer to a KSOBJECT_BAG (the KSOBJECT_BAG structure is equivalent to type PVOID) where the newly allocated object bag is deposited.
 
 

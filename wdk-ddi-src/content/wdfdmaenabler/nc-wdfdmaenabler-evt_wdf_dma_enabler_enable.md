@@ -57,8 +57,8 @@ A driver's <i>EvtDmaEnablerEnable</i> event callback function enables a device's
 
 
 
-### -param DmaEnabler [in]
-
+### -param DmaEnabler 
+[in]
 A handle to a DMA enabler object. 
 
 

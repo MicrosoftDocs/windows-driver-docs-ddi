@@ -55,8 +55,8 @@ The <b>IoDeleteSymbolicLink</b> routine removes a symbolic link from the system.
 
 
 
-### -param SymbolicLinkName [in]
-
+### -param SymbolicLinkName 
+[in]
 Pointer to a buffered Unicode string that is the user-visible name for the symbolic link. 
 
 

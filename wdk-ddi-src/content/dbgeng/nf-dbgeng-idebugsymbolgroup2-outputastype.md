@@ -56,13 +56,13 @@ The <b>OutputAsType</b>  method changes the type of a symbol in a symbol group. 
 
 
 
-### -param Index [in]
-
+### -param Index 
+[in]
 The index of the entry in this symbol group.  The <i>index</i> of a symbol is an identification number. The index ranges from zero through the number of symbols in the symbol group minus one.
 
 
-### -param Type [in]
-
+### -param Type 
+[in]
 The name of the type of the symbol that you want.  If the name begins with an exclamation mark (<b>!</b>), the name is treated as an extension.  For more information about how to use an extension as a type, see the Remarks section.
 
 

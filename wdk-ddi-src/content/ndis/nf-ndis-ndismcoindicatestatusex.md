@@ -57,16 +57,16 @@ The
 
 
 
-### -param MiniportAdapterHandle [in]
-
+### -param MiniportAdapterHandle 
+[in]
 The miniport adapter handle that NDIS passed at the 
      <i>MiniportAdapterHandle</i> parameter of the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">
      MiniportInitializeEx</a> function.
 
 
-### -param NdisVcHandle [in, optional]
-
+### -param NdisVcHandle 
+[in, optional]
 A handle that identifies the virtual connection (VC). The miniport driver obtained this handle as
      an input parameter to its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_co_create_vc">MiniportCoCreateVc</a> function, either
@@ -75,8 +75,8 @@ A handle that identifies the virtual connection (VC). The miniport driver obtain
      To send the status indication to all protocol bindings, set this parameter to <b>NULL</b>.
 
 
-### -param StatusIndication [in]
-
+### -param StatusIndication 
+[in]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_status_indication">NDIS_STATUS_INDICATION</a> structure
      that contains the status information.

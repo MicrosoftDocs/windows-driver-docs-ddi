@@ -56,8 +56,8 @@ The <b>RemoveSymbolByName</b>  method removes the specified symbol from a symbol
 
 
 
-### -param Name [in]
-
+### -param Name 
+[in]
 The name of the symbol to remove from the symbol group.
 
 

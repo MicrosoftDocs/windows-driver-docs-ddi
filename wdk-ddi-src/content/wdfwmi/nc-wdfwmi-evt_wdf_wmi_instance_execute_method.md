@@ -57,33 +57,33 @@ A driver's <i>EvtWmiInstanceExecuteMethod</i> callback function executes a speci
 
 
 
-### -param WmiInstance [in]
-
+### -param WmiInstance 
+[in]
 A handle to a WMI instance object.
 
 
-### -param MethodId [in]
-
+### -param MethodId 
+[in]
 A value that identifies a method in a provider instance. This value corresponds to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/wmi-property-qualifiers">WmiMethodId</a> value that is specified in the provider's MOF file.
 
 
-### -param InBufferSize [in]
-
+### -param InBufferSize 
+[in]
 The number of bytes of input data.
 
 
-### -param OutBufferSize [in]
-
+### -param OutBufferSize 
+[in]
 The number of bytes of output data that the buffer that <i>Buffer</i> points to can hold.
 
 
-### -param Buffer [in, out]
-
+### -param Buffer 
+[in, out]
 A pointer to a buffer that is used for input, output, or both, as determined by the specified method. If both input and output data are provided, the driver overwrites the input data with the output data.
 
 
-### -param BufferUsed [out]
-
+### -param BufferUsed 
+[out]
 A pointer to a location that receives the number of bytes that the driver wrote into the output buffer. If the output buffer size that the <i>OutBufferSize</i> parameter specifies is too small, the driver sets this location to the required buffer size.  
 
 

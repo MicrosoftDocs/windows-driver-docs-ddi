@@ -55,8 +55,8 @@ The <b>SerCxGetWaitMask</b> method returns the event wait mask for the wait oper
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A WDFDEVICE handle to the framework device object that represents the serial controller.
 
 

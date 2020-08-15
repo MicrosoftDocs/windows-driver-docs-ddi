@@ -57,8 +57,8 @@ The <b>GetPageSize</b> method returns the page size for the effective processor 
 
 
 
-### -param Size [out]
-
+### -param Size 
+[out]
 Receives the page size.
 
 

@@ -56,13 +56,13 @@ The <b>ExpandSymbol</b> method adds or removes the children of a symbol from a s
 
 
 
-### -param Index [in]
-
+### -param Index 
+[in]
 The index of the symbol whose children will be added or removed.  The index of a symbol is an identification number. The index ranges from zero through the number of symbols in the symbol group minus one.
 
 
-### -param Expand [in]
-
+### -param Expand 
+[in]
 A Boolean value that specifies whether to add or remove the symbols children from the symbol group.  If <i>Expand</i> is true, the children are added.  If <i>Expand</i> is false, the children are removed.
 
 

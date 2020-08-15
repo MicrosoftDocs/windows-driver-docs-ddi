@@ -55,20 +55,20 @@ req.typenames:
 
 
 
-### -param MonitorObject [in]
-
+### -param MonitorObject 
+[in]
 A handle used by the OS to identify the monitor that the OPM context should be created on.
 
 
-### -param OpmCxtObject [in]
-
+### -param OpmCxtObject 
+[in]
 
                     
                 A context used by the OS to identify the OPM context the call is for.
 
 
-### -param pInArgs [in]
-
+### -param pInArgs 
+[in]
 
                     
                 Input arguments used by <b>EVT_IDD_CX_MONITOR_OPM CREATE_PROTECTED_OUTPUT</b>.

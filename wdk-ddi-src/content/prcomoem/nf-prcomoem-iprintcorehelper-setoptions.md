@@ -55,18 +55,18 @@ The <b>IPrintCoreHelper::SetOptions</b> method sets multiple feature-option pair
 
 
 
-### -param pDevmode [in, optional]
-
+### -param pDevmode 
+[in, optional]
 A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devicemodew">DEVMODEW</a> structure. If this pointer is provided, <b>IPrintCoreHelper::SetOptions</b> should use the DEVMODEW structure that is pointed to by <i>pDevmode</i> instead of the default or current DEVMODEW structure. If this method is called from the plug-in provider or from either <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps-devmode">IPrintOemPS::DevMode</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-devmode">IPrintOemUni::DevMode</a>, this parameter is required. In most other situations, the parameter should be <b>NULL</b>. When the core driver sets <i>pDevmode</i> to <b>NULL</b>, it modifies its internal state rather than that of the passed-in DEVMODEW structure. This is required during operations such as full UI replacement, where the DEVMODEW structure returned by a DDI, such as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdocumentpropertysheets">DrvDocumentPropertySheets</a>, is being serviced by the core driver's UI module.
 
 
-### -param cbSize [in]
-
+### -param cbSize 
+[in]
 The size, in bytes, of the DEVMODEW structure that is pointed to by the <i>pDevmode</i> parameter. 
 
 
-### -param bResolveConflicts [in]
-
+### -param bResolveConflicts 
+[in]
 A Boolean value that indicates whether <b>IPrintCoreHelper::SetOptions</b> should resolve conflicts that arise from one or more constraints specified in the GPD or PPD view of the configuration file, as well as constraints for functionality implemented by Unidrv or Pscript or the print processor. If <b>TRUE</b>, this method should attempt to resolve the conflict. If <b>FALSE</b>, this method should not attempt to resolve conflicts. For more information, see the Remarks section.
 
 
@@ -75,18 +75,18 @@ A Boolean value that indicates whether <b>IPrintCoreHelper::SetOptions</b> shoul
 
 
 
-### -param cPairs [in]
-
+### -param cPairs 
+[in]
 The number of feature-option pairs that are pointed to by the <i>pFOPairs</i> parameter. 
 
 
-### -param pcPairsWritten [out]
-
+### -param pcPairsWritten 
+[out]
 A pointer to a variable that receives the number of feature-option pairs that were successfully saved before <b>IPrintCoreHelper::SetOptions</b> returned or failed. If this method returns successfully, *<i>pcPairsWritten</i> will have the same value as <i>cPairs</i>. If the method fails, *<i>pcPairsWritten</i> can have any value from zero through the value of <i>cPairs</i>. This parameter is optional and can be <b>NULL</b>.
 
 
-### -param pdwResult [out]
-
+### -param pdwResult 
+[out]
 A pointer to a variable that receives the status of the conflict resolution. The status can be one of the following values.
 
 <table>

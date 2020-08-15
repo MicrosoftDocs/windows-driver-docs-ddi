@@ -57,13 +57,13 @@ req.typenames:
 
 
 
-### -param MonitorObject [in]
-
+### -param MonitorObject 
+[in]
 The monitor object being updated
 
 
-### -param pInArgs [in]
-
+### -param pInArgs 
+[in]
 Input arguments of function 
 
 

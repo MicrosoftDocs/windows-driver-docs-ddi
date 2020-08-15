@@ -55,38 +55,38 @@ The <b>LoadModule</b> callback method is called by the engine when a module-load
 
 
 
-### -param ImageFileHandle [in]
-
+### -param ImageFileHandle 
+[in]
 Specifies the handle to the module's image file.  If this information is not available, <i>ImageFileHandle</i> will be <b>NULL</b>. 
 
 
-### -param BaseOffset [in]
-
+### -param BaseOffset 
+[in]
 Specifies the base address of the module in the target's memory address space.  If this information is not available, <i>BaseOffset</i> will be <b>NULL</b>.
 
 
-### -param ModuleSize [in]
-
+### -param ModuleSize 
+[in]
 Specifies the module's image size in bytes.  If this information is not available, <i>ModuleSize</i> will be <b>NULL</b>.
 
 
-### -param ModuleName [in, optional]
-
+### -param ModuleName 
+[in, optional]
 Specifies the simplified module name that is used by the debugger engine.  In most cases, this matches the image file name excluding the extension.  If this information is not available, <i>ModuleName</i> will be <b>NULL</b>.
 
 
-### -param ImageName [in, optional]
-
+### -param ImageName 
+[in, optional]
 Specifies the module's image file name, which can include the path.  If this information is not available, <i>ImageName</i> will be <b>NULL</b>.
 
 
-### -param CheckSum [in]
-
+### -param CheckSum 
+[in]
 Specifies the checksum of the module's image file.  If this information is not available, <i>CheckSum</i> will be <b>NULL</b>.
 
 
-### -param TimeDateStamp [in]
-
+### -param TimeDateStamp 
+[in]
 Specifies the time and date stamp of the module's image file.  If this information is not available, <i>TimeDateStamp</i> will be zero.
 
 

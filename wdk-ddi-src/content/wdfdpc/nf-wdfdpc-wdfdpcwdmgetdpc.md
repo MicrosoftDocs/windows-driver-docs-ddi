@@ -58,8 +58,8 @@ The <b>WdfDpcWdmGetDpc</b> method returns a pointer to the <a href="https://docs
 
 
 
-### -param Dpc [in]
-
+### -param Dpc 
+[in]
 A handle to a framework DPC object.
 
 

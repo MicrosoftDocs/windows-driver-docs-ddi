@@ -68,18 +68,18 @@ BOOL WINAPI pfnConfigurePortUI(
 
 
 
-### -param pszServer [in, optional]
-
+### -param pszServer 
+[in, optional]
 Caller-supplied pointer to a string representing a server name, or <b>NULL</b> if the printer is local. (The port monitor can ignore this parameter.)
 
 
-### -param hWnd [in]
-
+### -param hWnd 
+[in]
 Caller-supplied handle of the window that should be used as the parent for dialog boxes. If <b>NULL</b>, no dialog boxes should be displayed.
 
 
-### -param pszPortName [in]
-
+### -param pszPortName 
+[in]
 Caller-supplied pointer to a string representing the name of the port to be configured.
 
 

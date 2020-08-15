@@ -57,13 +57,13 @@ The <b>VideoPortGetBytesUsed</b> function is <b>obsolete</b> in Windows 2000 and
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 Pointer to the miniport driver's device extension.
 
 
-### -param pDma [in]
-
+### -param pDma 
+[in]
 Pointer to a DMA handle. To obtain the appropriate DMA handle, use the value in the <b>OutputBuffer</b> member of the <i>pVrp</i> parameter after <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportlockpages">VideoPortLockPages</a> returns. 
 
 

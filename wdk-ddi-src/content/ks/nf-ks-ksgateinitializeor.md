@@ -55,13 +55,13 @@ The<b> KsGateInitializeOr</b> function initializes a <a href="https://docs.micro
 
 
 
-### -param OrGate [in]
-
+### -param OrGate 
+[in]
 A pointer to the KSGATE structure to initialize as a new OR gate.
 
 
-### -param NextAndGate [in, optional]
-
+### -param NextAndGate 
+[in, optional]
 A pointer to an existing KSGATE structure to which <i>OrGate</i> attaches. Optional.
 
 

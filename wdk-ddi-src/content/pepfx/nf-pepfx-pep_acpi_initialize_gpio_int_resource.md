@@ -55,73 +55,73 @@ The <b>PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE</b> function initializes a platform
 
 
 
-### -param InterruptType [in]
-
+### -param InterruptType 
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_kinterrupt_mode">KINTERRUPT_MODE</a> enumeration value that identifies the interrupt type.
 
 
-### -param LevelType [in]
-
+### -param LevelType 
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_kinterrupt_polarity">KINTERRUPT_POLARITY</a> enumeration value that identifies how a device signals an interrupt request on an interrupt line.
 
 
-### -param Shareable [in]
-
+### -param Shareable 
+[in]
 Indicates if the device can be shared.
 
 
-### -param CanWake [in]
-
+### -param CanWake 
+[in]
 Indicates if the device can be woken from a low-power state.
 
 
-### -param PinConfig [in]
-
+### -param PinConfig 
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ne-pepfx-_gpio_pin_config_type">GPIO_PIN_CONFIG_TYPE</a> enumeration value that identifies the GPIO pin configuration type.
 
 
-### -param DebounceTimeout [in]
-
+### -param DebounceTimeout 
+[in]
 Specifies the hardware debounce wait time, in hundredths of milliseconds.
 
 
-### -param ResourceSourceIndex [in]
-
+### -param ResourceSourceIndex 
+[in]
 This parameter should always be zero.
 
 
-### -param ResourceSourceName [in]
-
+### -param ResourceSourceName 
+[in]
 This parameter should always be "ResourceConsumer."
 
 
-### -param ResourceUsage [in]
-
+### -param ResourceUsage 
+[in]
 Indicates if this device is in use.
 
 
-### -param VendorData [in]
-
+### -param VendorData 
+[in]
 A pointer to a raw data buffer containing vendor-defined byte data to be decoded by the OS driver. 
 
 
-### -param VendorDataLength [in]
-
+### -param VendorDataLength 
+[in]
 The size of the buffer in the <i>VendorData</i> partameter.
 
 
-### -param PinTable [in]
-
+### -param PinTable 
+[in]
 A list of pin numbers on the resource. 
 
 
-### -param PinCount [in]
-
+### -param PinCount 
+[in]
 The number of pins described by the <i>PinTable</i> parameter.
 
 
-### -param Resource [out]
-
+### -param Resource 
+[out]
 A pointer to the resource. The structure behind the pointer is of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_gpio_resource">PEP_ACPI_GPIO_RESOURCE</a>. 
 
 

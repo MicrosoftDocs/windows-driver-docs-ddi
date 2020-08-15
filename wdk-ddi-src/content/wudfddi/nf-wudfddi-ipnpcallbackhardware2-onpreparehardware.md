@@ -59,18 +59,18 @@ req.typenames:
 
 
 
-### -param pWdfDevice [in]
-
+### -param pWdfDevice 
+[in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice3">IWDFDevice3</a> interface for the framework device object.
 
 
-### -param pWdfResourcesRaw [in]
-
+### -param pWdfResourcesRaw 
+[in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfcmresourcelist">IWDFCmResourceList</a> interface for the framework resource-list object that identifies the raw hardware resources that the Plug and Play manager has assigned to the device.
 
 
-### -param pWdfResourcesTranslated [in]
-
+### -param pWdfResourcesTranslated 
+[in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfcmresourcelist">IWDFCmResourceList</a> interface for the framework resource-list object that identifies the translated hardware resources that the Plug and Play manager has assigned to the device.
 
 

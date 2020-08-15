@@ -58,15 +58,15 @@ NDIS calls a miniport driver's
 
 
 
-### -param MiniportAdapterContext [in]
-
+### -param MiniportAdapterContext 
+[in]
 A handle to a context area that the miniport driver allocated in its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function.
      The miniport driver uses this context area to maintain state information for a miniport adapter.
 
 
-### -param HaltAction [in]
-
+### -param HaltAction 
+[in]
 The reason for halting the miniport adapter. It can be one of the following values:
      
 

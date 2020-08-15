@@ -55,40 +55,40 @@ The <code>IPrintCoreUI2::WhyConstrained</code> method determines why the specifi
 
 
 
-### -param poemuiobj [in]
-
+### -param poemuiobj 
+[in]
 Pointer to the current context, an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemuiobj">OEMUIOBJ</a> structure.
 
 
-### -param dwFlags [in]
-
+### -param dwFlags 
+[in]
 Is reserved and must be set to zero.
 
 
-### -param pszFeatureKeyword [in]
-
+### -param pszFeatureKeyword 
+[in]
 Pointer to a caller-supplied buffer containing the single feature keyword of interest to the caller.
 
 
-### -param pszOptionKeyword [in]
-
+### -param pszOptionKeyword 
+[in]
 Pointer to a caller-supplied buffer containing the option keyword.
 
 
-### -param pmszReasonList [out]
-
+### -param pmszReasonList 
+[out]
 Pointer to a caller-supplied buffer that receives a list of the feature/option keyword pairs that place constraints on the specified feature/option. This list is in MULTI_SZ format with each item in the list separated from the next by a null character. The list is terminated with two null characters.
 
 Set this parameter to <b>NULL</b> to simply query for the size (*<i>pcbNeeded</i>) of the reason list without having the list filled in.
 
 
-### -param cbSize [in]
-
+### -param cbSize 
+[in]
 Specifies the size, in bytes, of the buffer pointed to by <i>pmszReasonList</i>.
 
 
-### -param pcbNeeded [out]
-
+### -param pcbNeeded 
+[out]
 Pointer to a memory location that receives the actual size, in bytes, of the reason list.
 
 

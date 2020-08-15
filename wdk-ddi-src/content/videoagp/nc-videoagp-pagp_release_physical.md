@@ -55,13 +55,13 @@ The <b>AgpReleasePhysical</b> function frees a physical address range reserved b
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 Pointer to the miniport driver's device extension.
 
 
-### -param PhysicalReserveContext [in]
-
+### -param PhysicalReserveContext 
+[in]
 Is the context handle that identifies the reserved physical address range to be released. This context was obtained from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/videoagp/nc-videoagp-pagp_reserve_physical">AgpReservePhysical</a>.
 
 

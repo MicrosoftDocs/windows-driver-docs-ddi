@@ -51,25 +51,25 @@ The <b>VideoPortMapDmaMemory</b> function is <b>obsolete</b> in Windows 2000 and
 
 ## -parameters
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 Pointer to the miniport driver's device extension.
 
 
-### -param pVrp [in]
-
+### -param pVrp 
+[in]
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_request_packet">VIDEO_REQUEST_PACKET</a>.
 
-### -param BoardAddress [in]
-
+### -param BoardAddress 
+[in]
 Specifies the adapter's beginning address.
 
-### -param Length [in]
-
+### -param Length 
+[in]
 Specifies the length, in bytes, of the range of memory.
 
-### -param InIoSpace [in]
-
+### -param InIoSpace 
+[in]
 Indicates the location of the range. This parameter can be one of the following values:
 
 |Value|Meaning|
@@ -80,16 +80,16 @@ Indicates the location of the range. This parameter can be one of the following 
 |VIDEO_MEMORY_SPACE_P6CACHE|P6 MTRR caching, which is equivalent to write-combine caching. (kernel and user mode).|
 |VIDEO_MEMORY_SPACE_USER_MODE|Memory pointer for application use.|
 
-### -param MappedUserEvent [in]
-
+### -param MappedUserEvent 
+[in]
 Is reserved for system use.
 
-### -param DisplayDriverEvent [in]
-
+### -param DisplayDriverEvent 
+[in]
 Is reserved for system use.
 
-### -param VirtualAddress [in, out]
-
+### -param VirtualAddress 
+[in, out]
 Is reserved for system use.
 
 ## -returns

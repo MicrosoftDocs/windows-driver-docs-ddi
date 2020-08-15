@@ -56,28 +56,28 @@ The <b>ZwSetVolumeInformationFile</b> routine modifies information about the vol
 
 
 
-### -param FileHandle [in]
-
+### -param FileHandle 
+[in]
 Handle to a file object for an open file, directory, storage device, or volume whose volume information is to be modified. 
 
 
-### -param IoStatusBlock [out]
-
+### -param IoStatusBlock 
+[out]
 Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the operation. 
 
 
-### -param FsInformation [in]
-
+### -param FsInformation 
+[in]
 Pointer to a caller-allocated buffer containing the volume information to be modified. The structure of the information in this buffer depends on the value of <i>FsInformationClass</i>, as shown in the following table. 
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 Size in bytes of the buffer pointed to by <i>FsInformation</i>. The caller should set this parameter according to the given <i>FsInformationClass</i>. 
 
 
-### -param FsInformationClass [in]
-
+### -param FsInformationClass 
+[in]
 Type of volume information to be set. One of the following: 
 
 <table>

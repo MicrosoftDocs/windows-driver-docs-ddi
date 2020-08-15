@@ -55,8 +55,8 @@ The <b>RtlInitializeUnicodePrefix</b> routine initializes a prefix table.
 
 
 
-### -param PrefixTable [out]
-
+### -param PrefixTable 
+[out]
 Pointer to caller-allocated buffer, which must be at least <b>sizeof</b>(UNICODE_PREFIX_TABLE), for the prefix table header. <b>RtlInitializeUnicodePrefix</b> initializes this header, which should be considered opaque by the caller. 
 
 

@@ -57,18 +57,18 @@ A driver's <i>EvtUsbTargetPipeReadersFailed</i> event callback function informs 
 
 
 
-### -param Pipe [in]
-
+### -param Pipe 
+[in]
 A handle to a framework pipe object.
 
 
-### -param Status [in]
-
+### -param Status 
+[in]
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS value</a> that the pipe's I/O target returned.
 
 
-### -param UsbdStatus [in]
-
+### -param UsbdStatus 
+[in]
 The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff539136(v=vs.85)">USBD_STATUS</a>-typed status value that the pipe's I/O target returned.
 
 

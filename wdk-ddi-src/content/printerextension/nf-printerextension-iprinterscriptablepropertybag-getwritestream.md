@@ -55,13 +55,13 @@ Gets a stream and uses it  to write to a stream property.
 
 
 
-### -param bstrName [in]
-
+### -param bstrName 
+[in]
 The property to write.
 
 
-### -param ppStream [out, retval]
-
+### -param ppStream 
+[out, retval]
 The retrieved stream.
 
 

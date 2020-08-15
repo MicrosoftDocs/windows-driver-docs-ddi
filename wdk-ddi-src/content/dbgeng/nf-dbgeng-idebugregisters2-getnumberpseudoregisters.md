@@ -55,8 +55,8 @@ The <b>GetNumberPseudoRegisters</b> method returns the number of pseudo-register
 
 
 
-### -param Number [out]
-
+### -param Number 
+[out]
 Receives the number of pseudo-registers that are maintained by the debugger engine.
 
 

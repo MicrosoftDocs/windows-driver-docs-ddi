@@ -49,24 +49,24 @@ The **NtAllocateVirtualMemory** routine reserves, commits, or both, a region of 
 
 ## -parameters
 
-### -param ProcessHandle [in]
-
+### -param ProcessHandle 
+[in]
 A handle for the process for which the mapping should be done. Use the **NtCurrentProcess** macro, defined in *Ntddk.h*, to specify the current process.
 
-### -param BaseAddress [in, out]
-
+### -param BaseAddress 
+[in, out]
 A pointer to a variable that will receive the base address of the allocated region of pages. If the initial value of *BaseAddress* is non-**NULL**, the region is allocated starting at the specified virtual address rounded down to the next host page size address boundary. If the initial value of *BaseAddress* is **NULL**, the operating system will determine where to allocate the region.
 
-### -param ZeroBits [in]
-
+### -param ZeroBits 
+[in]
 The number of high-order address bits that must be zero in the base address of the section view. Used only when the operating system determines where to allocate the region, as when *BaseAddress** is **NULL**. Note that when ZeroBits is larger than 32, it becomes a bitmask.
 
-### -param RegionSize [in, out]
-
+### -param RegionSize 
+[in, out]
 A pointer to a variable that will receive the actual size, in bytes, of the allocated region of pages. The initial value of *RegionSize* specifies the size, in bytes, of the region and is rounded up to the next host page size boundary. *RegionSize* cannot be zero on input.
 
-### -param AllocationType [in]
-
+### -param AllocationType 
+[in]
 A bitmask containing flags that specify the type of allocation to be performed for the specified region of pages. The following table describes the most common flags. See [**VirtualAlloc**](https://docs.microsoft.com/windows/win32/api/memoryapi/nf-memoryapi-virtualalloc) for a full list of possible flags and descriptions.
 
 > [!NOTE]
@@ -80,8 +80,8 @@ A bitmask containing flags that specify the type of allocation to be performed f
 | MEM_RESET | Reset the state of the specified region so that if the pages are in paging file, they are discarded and pages of zeros are brought in. If the pages are in memory and modified, they are marked as not modified so that they will not be written out to the paging file. The contents are *not* zeroed. The **Protect** parameter is not used, but it must be set to a valid value. If MEM_RESET is set, no other flag may be set. |
 | Other MEM_*XXX* flags | See [**VirtualAlloc**](https://docs.microsoft.com/windows/win32/api/memoryapi/nf-memoryapi-virtualalloc). |
 
-### -param Protect [in]
-
+### -param Protect 
+[in]
 A bitmask containing page protection flags that specify the protection desired for the committed region of pages. The following table describes these flags.
 
 | Flag | Meaning |

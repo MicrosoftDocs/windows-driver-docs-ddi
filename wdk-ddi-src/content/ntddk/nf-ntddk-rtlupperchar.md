@@ -55,8 +55,8 @@ The <b>RtlUpperChar</b> routine converts the specified character to uppercase.
 
 
 
-### -param Character [in]
-
+### -param Character 
+[in]
 Specifies the character to convert. 
 
 

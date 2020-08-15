@@ -55,8 +55,8 @@ This routine terminates the specified silo.
 
 
 
-### -param ServerSilo [in]
-
+### -param ServerSilo 
+[in]
 A pointer to the silo being terminated.
 
 

@@ -56,8 +56,8 @@ The <b>ZwPowerInformation</b> routine sets or retrieves system power information
 
 
 
-### -param InformationLevel [in]
-
+### -param InformationLevel 
+[in]
 Specifies the requested information level, which indicates the specific power information to be set or retrieved. Currently, the only supported <i>POWER_INFORMATION_LEVEL</i> value is <b>PlatformInformation</b>.
 
 <table>
@@ -79,23 +79,23 @@ Information represents the currently supported power capabilities of the system.
  
 
 
-### -param InputBuffer [in, optional]
-
+### -param InputBuffer 
+[in, optional]
 Pointer to a caller-allocated input buffer. This parameter must be <b>NULL</b>, otherwise <b>ERROR_INVALID_PARAMETER</b> is returned. 
 
 
-### -param InputBufferLength [in]
-
+### -param InputBufferLength 
+[in]
 Size, in bytes, of the buffer at <i>InputBuffer</i>. The parameter must be set to zero.
 
 
-### -param OutputBuffer [out, optional]
-
+### -param OutputBuffer 
+[out, optional]
 A pointer to an output buffer. The data type of this buffer depends on the information level requested in the <i>InformationLevel</i> parameter. For the <b>PlatformInformation</b> level, the only currently supported value, the <i>OutputBuffer </i> parameter is required and should be of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_power_platform_information">POWER_PLATFORM_INFORMATION</a> type.
 
 
-### -param OutputBufferLength [in]
-
+### -param OutputBufferLength 
+[in]
 Size, in bytes, of the output buffer. Depending on the information level requested, the buffer may be variably sized. <i>PlatformInformation</i>, the only currently supported value, requires a buffer that is the size of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_power_platform_information">POWER_PLATFORM_INFORMATION</a> structure.
 
 

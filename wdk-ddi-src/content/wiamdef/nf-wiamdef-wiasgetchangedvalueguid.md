@@ -49,12 +49,12 @@ The **wiasGetChangedValueGuid** function determines whether a property with a GU
 
 ## -parameters
 
-### -param pWiasContext [in]
-
+### -param pWiasContext 
+[in]
 Pointer to a WIA item context.
 
-### -param pContext [in]
-
+### -param pContext 
+[in]
 Pointer to a [WIA_PROPERTY_CONTEXT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wia_property_context) structure that contains the current property context.
 
 ### -param bNoValidation

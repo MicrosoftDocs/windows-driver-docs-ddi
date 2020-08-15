@@ -56,18 +56,18 @@ The<b> KsPinGetConnectedPinInterface</b> function queries the pin to which <i>Pi
 
 
 
-### -param Pin [in]
-
+### -param Pin 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure. AVStream queries the pin connected to <i>Pin</i> for the requested interface.
 
 
-### -param InterfaceId [in]
-
+### -param InterfaceId 
+[in]
 A pointer to the GUID specifying the interface type to be obtained. A <b>QueryInterface</b> call is automatically performed for this interface.
 
 
-### -param Interface [out]
-
+### -param Interface 
+[out]
 A pointer to a pointer that AVStream sets to the location of the COM interface.
 
 

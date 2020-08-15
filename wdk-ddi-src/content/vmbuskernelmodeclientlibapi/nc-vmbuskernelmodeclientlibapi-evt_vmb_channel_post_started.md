@@ -58,8 +58,8 @@ the opposite endpoint.
 
 
 
-### -param Channel [in]
-
+### -param Channel 
+[in]
 The channel for these endpoints.
 
 

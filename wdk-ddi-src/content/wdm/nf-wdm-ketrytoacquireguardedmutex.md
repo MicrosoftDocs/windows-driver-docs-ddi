@@ -55,8 +55,8 @@ The <b>KeTryToAcquireGuardedMutex</b> routine acquires a guarded mutex, if avail
 
 
 
-### -param Mutex [in, out]
-
+### -param Mutex 
+[in, out]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">KGUARDED_MUTEX</a> structure for the guarded mutex.
 
 

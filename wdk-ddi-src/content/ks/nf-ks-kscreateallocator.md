@@ -56,18 +56,18 @@ The <b>KsCreateAllocator</b> function creates a handle to an allocator for the g
 
 
 
-### -param ConnectionHandle [in]
-
+### -param ConnectionHandle 
+[in]
 Specifies the handle to the sink connection on which to create the allocator.
 
 
-### -param AllocatorFraming [in]
-
+### -param AllocatorFraming 
+[in]
 Specified framing for the allocator.
 
 
-### -param AllocatorHandle [out]
-
+### -param AllocatorHandle 
+[out]
 Specifies the pointer to a handle to store the allocator handle.
 
 

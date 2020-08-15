@@ -58,8 +58,8 @@ The <b>WdfInterruptWdmGetInterrupt</b> method returns a pointer to the WDM inter
 
 
 
-### -param Interrupt [in]
-
+### -param Interrupt 
+[in]
 A handle to a framework interrupt object.
 
 

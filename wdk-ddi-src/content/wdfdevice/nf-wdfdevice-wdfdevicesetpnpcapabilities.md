@@ -60,13 +60,13 @@ The <b>WdfDeviceSetPnpCapabilities</b> method reports a device's Plug and Play c
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object.
 
 
-### -param PnpCapabilities [in]
-
+### -param PnpCapabilities 
+[in]
 A pointer to a driver-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_pnp_capabilities">WDF_DEVICE_PNP_CAPABILITIES</a> structure.
 
 

@@ -68,8 +68,8 @@ The engine calls the <i>KnownStructOutput</i> callback function to request infor
 
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 One of the following values, depending on what information the engine wants to obtain from the extension DLL.
 
 <table>
@@ -111,8 +111,8 @@ Get  a single-line representation of a structure.
  
 
 
-### -param Offset [in]
-
+### -param Offset 
+[in]
 <b>When getting a list of names:</b> Unused.
 
 <b>When asking whether a name should be printed:</b> Unused.
@@ -120,8 +120,8 @@ Get  a single-line representation of a structure.
 <b>When getting a single-line representation:</b>  Specifies the location in the target's memory address space of the structure to be printed.
 
 
-### -param TypeName [in]
-
+### -param TypeName 
+[in]
 <b>When getting a list of names:</b>  Unused.
 
 <b>When asking whether a name should be printed:</b> Specifies the name of the structure.  This is one of the names returned from the DEBUG_KNOWN_STRUCT_GET_NAMES query.
@@ -129,8 +129,8 @@ Get  a single-line representation of a structure.
 <b>When getting a single-line representation:</b>  Specifies the name of the structure.  This is one of the names returned from the DEBUG_KNOWN_STRUCT_GET_NAMES query.
 
 
-### -param Buffer [out]
-
+### -param Buffer 
+[out]
 <b>When getting a list of names:</b>  Receives a list of the names of the structures that the extension can format for printing.  One null character must appear between each pair of names.  The list must be terminated with two null characters. The number of characters written to this buffer must not exceed the value of <i>BufferSize</i>.
 
 <b>When asking whether a name should be printed:</b> Unused.
@@ -138,8 +138,8 @@ Get  a single-line representation of a structure.
 <b>When getting a single-line representation:</b>  Receives a representation  of the structure, identified by <i>StructName</i> and <i>Address</i>, as a string. The number of characters written to this buffer must not exceed the value of <i>BufferSize</i>.
 
 
-### -param BufferChars [in, out]
-
+### -param BufferChars 
+[in, out]
 <b>When getting a list of names:</b>  On input, specifies the size, in characters, of  <i>Buffer</i>. On output, if the buffer is too small, receives the required buffer size.
 
 <b>When asking whether a name should be printed:</b> Unused.

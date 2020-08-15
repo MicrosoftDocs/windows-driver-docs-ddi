@@ -55,48 +55,48 @@ The <code>IPrintCoreUI2::GetOptionAttribute</code> method retrieves the option a
 
 
 
-### -param poemuiobj [in]
-
+### -param poemuiobj 
+[in]
 Pointer to the current context, an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemuiobj">OEMUIOBJ</a> structure.
 
 
-### -param dwFlags [in]
-
+### -param dwFlags 
+[in]
 Is reserved and must be set to zero.
 
 
-### -param pszFeatureKeyword [in]
-
+### -param pszFeatureKeyword 
+[in]
 Pointer to a caller-supplied buffer containing an ASCII string specifying the single feature keyword to query for. 
 
 
-### -param pszOptionKeyword [in]
-
+### -param pszOptionKeyword 
+[in]
 Pointer to a caller-supplied buffer containing an ASCII string specifying the single option keyword to query for. This value can be obtained from a prior call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcoreui2-enumoptions">IPrintCoreUI2::EnumOptions</a>. 
 
 
-### -param pszAttribute [in]
-
+### -param pszAttribute 
+[in]
 Pointer to a caller-supplied buffer containing an ASCII string specifying the single attribute requested. If this parameter is <b>NULL</b>, the caller is requesting a list of all supported attribute names for the option, as opposed to specifying a specific attribute name for the option.
 
 
-### -param pdwDataType [out]
-
+### -param pdwDataType 
+[out]
 Pointer to a memory location that receives a value specifying the data type of the requested attribute. This value is an enumerator of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ne-printoem-_eattribute_datatype">EATTRIBUTE_DATATYPE</a> enumeration.
 
 
-### -param pbData [out]
-
+### -param pbData 
+[out]
 Pointer to a caller-supplied buffer that receives the requested data. To simply query for the number of bytes needed to fulfill a request, set this parameter to <b>NULL</b>.
 
 
-### -param cbSize [in]
-
+### -param cbSize 
+[in]
 Specifies the size, in bytes of the buffer pointed to by <i>pbData</i>.
 
 
-### -param pcbNeeded [out]
-
+### -param pcbNeeded 
+[out]
 Pointer to a memory location that receives the actual size, in bytes, of the requested data.
 
 

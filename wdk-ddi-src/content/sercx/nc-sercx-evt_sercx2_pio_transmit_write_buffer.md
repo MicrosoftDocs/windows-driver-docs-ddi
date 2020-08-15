@@ -55,18 +55,18 @@ The <i>EvtSerCx2PioTransmitWriteBuffer</i> event callback function is called by 
 
 
 
-### -param PioTransmit [in]
-
+### -param PioTransmit 
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIOTRANSMIT</a> handle to a PIO-transmit object. The serial controller driver previously called the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2piotransmitcreate">SerCx2PioTransmitCreate</a> method to create this object.
 
 
-### -param Buffer [in]
-
+### -param Buffer 
+[in]
 A pointer to the write buffer. This parameter is the virtual address of a locked-down buffer in system memory.
 
 
-### -param Length [in]
-
+### -param Length 
+[in]
 The number of bytes in the write buffer that are available to be transmitted.
 
 

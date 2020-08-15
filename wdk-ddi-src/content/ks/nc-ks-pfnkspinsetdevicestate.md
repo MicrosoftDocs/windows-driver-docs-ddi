@@ -55,18 +55,18 @@ An AVStream minidriver's <i>AVStrMiniPinSetDeviceState</i> routine is called whe
 
 
 
-### -param Pin [in]
-
+### -param Pin 
+[in]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure for which state is changing.
 
 
-### -param ToState [in]
-
+### -param ToState 
+[in]
 The target <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ne-ks-ksstate">KSSTATE</a> after receipt of the IOCTL.
 
 
-### -param FromState [in]
-
+### -param FromState 
+[in]
 The previous <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ne-ks-ksstate">KSSTATE</a>.
 
 

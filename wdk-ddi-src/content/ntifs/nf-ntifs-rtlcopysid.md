@@ -56,18 +56,18 @@ The <b>RtlCopySid</b> routine copies the value of a security identifier (SID) to
 
 
 
-### -param DestinationSidLength [in]
-
+### -param DestinationSidLength 
+[in]
 Length, in bytes, of the buffer to receive the copy of the SID. 
 
 
-### -param DestinationSid [in]
-
+### -param DestinationSid 
+[in]
 Pointer to a caller-allocated buffer to receive a copy of the source SID structure. The buffer must be at least <b>sizeof</b>(SID),
 
 
-### -param SourceSid [in]
-
+### -param SourceSid 
+[in]
 Pointer to the source SID structure to be copied.
 
 

@@ -58,8 +58,8 @@ The <b>WdfCommonBufferGetAlignedVirtualAddress</b> method returns the virtual ad
 
 
 
-### -param CommonBuffer [in]
-
+### -param CommonBuffer 
+[in]
 A handle to a common buffer object that the driver obtained by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfcommonbuffer/nf-wdfcommonbuffer-wdfcommonbuffercreate">WdfCommonBufferCreate</a>.  
 
 

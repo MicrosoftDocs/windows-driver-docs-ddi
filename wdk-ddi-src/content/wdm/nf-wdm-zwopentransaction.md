@@ -56,28 +56,28 @@ The <b>ZwOpenTransaction</b> routine obtains a handle to an existing <a href="ht
 
 
 
-### -param TransactionHandle [out]
-
+### -param TransactionHandle 
+[out]
 A pointer to a caller-allocated variable that receives a handle to the transaction object if <b>ZwOpenTransaction</b> returns STATUS_SUCCESS.
 
 
-### -param DesiredAccess [in]
-
+### -param DesiredAccess 
+[in]
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that specifies the caller's requested access to the transaction object. For information about how to specify this parameter, see the <i>DesiredAccess</i> parameter of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntcreatetransaction">ZwCreateTransaction</a>. 
 
 
-### -param ObjectAttributes [in, optional]
-
+### -param ObjectAttributes 
+[in, optional]
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that specifies the object's attributes. Use the <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> routine to initialize this structure, but specify only that routine's <i>InitializedAttributes</i> and <i>Attributes</i> parameters. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE flag in the <i>Attributes</i> parameter. The <i>ObjectAttributes</i> parameter is optional and can be <b>NULL</b>. 
 
 
-### -param Uow [in]
-
+### -param Uow 
+[in]
 A pointer to a GUID that is a transaction object's <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ktm-objects">unit of work (UOW) identifier</a>. This GUID identifies the transaction object to open. 
 
 
-### -param TmHandle [in, optional]
-
+### -param TmHandle 
+[in, optional]
 A handle to a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/transaction-manager-objects">transaction manager object</a>. If this parameter is not <b>NULL</b>, KTM searches only for transaction objects that belong to the specified transaction manager object. If this parameter is <b>NULL</b>, KTM searches all transaction objects.
 
 

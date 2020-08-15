@@ -58,24 +58,24 @@ req.typenames:
 
 
 
-### -param MiniportAdapterHandle [in]
-
+### -param MiniportAdapterHandle 
+[in]
 Specifies the handle input to 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
 
 
-### -param InitialPort [in]
-
+### -param InitialPort 
+[in]
 Specifies the bus-relative address of the first port in the range of ports.
 
 
-### -param NumberOfPorts [in]
-
+### -param NumberOfPorts 
+[in]
 Specifies the number of ports in the range.
 
 
-### -param PortOffset [in]
-
+### -param PortOffset 
+[in]
 Specifies the mapped base port address returned by 
      <b>NdisMRegisterIoPortRange</b>.
 

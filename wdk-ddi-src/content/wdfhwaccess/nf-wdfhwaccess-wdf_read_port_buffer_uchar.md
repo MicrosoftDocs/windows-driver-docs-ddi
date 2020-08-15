@@ -57,23 +57,23 @@ The <b>WDF_READ_PORT_BUFFER_UCHAR</b> function reads a number of bytes from the 
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object.
 
 
-### -param Port [in]
-
+### -param Port 
+[in]
 Specifies the port address, which must be a mapped memory range in I/O space.
 
 
-### -param Buffer [out]
-
+### -param Buffer 
+[out]
 A pointer to a buffer into which an array of UCHAR values is read.
 
 
-### -param Count [in]
-
+### -param Count 
+[in]
 Specifies the number of bytes to be read into the buffer.
 
 

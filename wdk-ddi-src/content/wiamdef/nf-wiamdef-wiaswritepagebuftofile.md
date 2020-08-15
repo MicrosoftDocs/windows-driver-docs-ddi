@@ -49,8 +49,8 @@ The **wiasWritePageBufToFile** function writes the contents of a temporary page 
 
 ## -parameters
 
-### -param pmdtc [in]
-
+### -param pmdtc 
+[in]
 Pointer to a [MINIDRV_TRANSFER_CONTEXT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_minidrv_transfer_context) structure.
 
 ## -returns

@@ -55,18 +55,18 @@ Multiplies one value of type <b>UINT8</b> by another.
 
 
 
-### -param u8Multiplicand [in]
-
+### -param u8Multiplicand 
+[in]
 The value to be multiplied by <i>u8Multiplier</i>.
 
 
-### -param u8Multiplier [in]
-
+### -param u8Multiplier 
+[in]
 The value by which to multiply <i>u8Multiplicand</i>.
 
 
-### -param pu8Result [out]
-
+### -param pu8Result 
+[out]
 A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
 

@@ -55,20 +55,20 @@ req.typenames:
 
 
 
-### -param hPrinterIC [in]
+### -param hPrinterIC 
+[in]
 
+### -param pIn 
+[in]
 
-### -param pIn [in]
+### -param cIn 
+[in]
 
+### -param pOut 
+[out]
 
-### -param cIn [in]
+### -param cOut 
+[in]
 
-
-### -param pOut [out]
-
-
-### -param cOut [in]
-
-
-### -param ul [in]
-
+### -param ul 
+[in]

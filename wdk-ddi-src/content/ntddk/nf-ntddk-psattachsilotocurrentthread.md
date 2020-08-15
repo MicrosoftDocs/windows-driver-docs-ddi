@@ -55,8 +55,8 @@ This routine places a thread temporarily into the specified <i>Silo</i>.
 
 
 
-### -param Silo [in]
-
+### -param Silo 
+[in]
 The silo that the thread is to impersonate. The caller must hold a  reference to the silo throughout the duration of the impersonation.
 
 

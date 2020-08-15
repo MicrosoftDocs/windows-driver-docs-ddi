@@ -55,13 +55,13 @@ The <b>ObRegisterCallbacks</b> routine registers a list of callback routines for
 
 
 
-### -param CallbackRegistration [in]
-
+### -param CallbackRegistration 
+[in]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_ob_callback_registration">OB_CALLBACK_REGISTRATION</a> structure that specifies the list of callback routines and other registration information.
 
 
-### -param RegistrationHandle [out]
-
+### -param RegistrationHandle 
+[out]
 A pointer to a variable that receives a value that identifies the set of registered callback routines. The caller passes this value to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obunregistercallbacks">ObUnRegisterCallbacks</a> routine to unregister the set of callbacks. 
 
 

@@ -55,13 +55,13 @@ The <b>RtlEnumerateGenericTable</b> routine is used to enumerate the elements in
 
 
 
-### -param Table [in]
-
+### -param Table 
+[in]
 A pointer to the generic table (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_rtl_generic_table">RTL_GENERIC_TABLE</a>). The table must have been initialized by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinitializegenerictable">RtlInitializeGenericTable</a>.
 
 
-### -param Restart [in]
-
+### -param Restart 
+[in]
 Set to <b>TRUE</b> if the enumeration is to start at the first element in the table. Set to <b>FALSE</b> if resuming the enumeration from a previous call.
 
 To enumerate all elements in the table, use <b>RtlEnumerateGenericTable</b> as follows:

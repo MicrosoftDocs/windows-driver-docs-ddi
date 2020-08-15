@@ -55,23 +55,23 @@ The <b>MmAllocatePagesForMdl</b> routine allocates zero-filled, nonpaged, physic
 
 
 
-### -param LowAddress [in]
-
+### -param LowAddress 
+[in]
 Specifies the physical address of the start of the first address range from which the allocated pages can come. If <b>MmAllocatePagesForMdl</b> cannot allocate the requested number of bytes in the first address range, it iterates through additional address ranges to get more pages. At each iteration, <b>MmAllocatePagesForMdl</b> adds the value of <i>SkipBytes</i> to the previous start address to obtain the start of the next address range.
 
 
-### -param HighAddress [in]
-
+### -param HighAddress 
+[in]
 Specifies the physical address of the end of the first address range from which the allocated pages can come. 
 
 
-### -param SkipBytes [in]
-
+### -param SkipBytes 
+[in]
 Specifies the number of bytes to skip from the start of the previous address range from which the allocated pages can come. <i>SkipBytes</i> must be an integer multiple of the virtual memory page size, in bytes. 
 
 
-### -param TotalBytes [in]
-
+### -param TotalBytes 
+[in]
 Specifies the total number of bytes to allocate for the MDL. 
 
 

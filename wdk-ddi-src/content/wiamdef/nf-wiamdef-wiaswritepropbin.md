@@ -55,8 +55,8 @@ The <b>wiasWritePropBin </b>function writes a single binary-data property value 
 
 
 
-### -param pWiasContext [in]
-
+### -param pWiasContext 
+[in]
 Pointer to a WIA item context.
 
 
@@ -70,8 +70,8 @@ Specifies the property identifier.
 Specifies the total number of bytes to write to the item.
 
 
-### -param pbVal [in]
-
+### -param pbVal 
+[in]
 Pointer to the first byte of an array of bytes to be written to the item.
 
 

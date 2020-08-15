@@ -56,18 +56,18 @@ The <b>KsGetMediaTypeCount</b> function returns the number of available media ty
 
 
 
-### -param FilterHandle [in]
-
+### -param FilterHandle 
+[in]
 Handle to the filter that contains the pin factory to query.
 
 
-### -param PinFactoryId [in]
-
+### -param PinFactoryId 
+[in]
 Identifier of the pin factory against which the number of media types is being returned.
 
 
-### -param MediaTypeCount [out]
-
+### -param MediaTypeCount 
+[out]
 Pointer to a variable to receive the number of media types.
 
 

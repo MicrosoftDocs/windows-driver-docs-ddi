@@ -55,8 +55,8 @@ The <b>DbgBreakPointWithStatus</b> routine breaks into the kernel debugger and s
 
 
 
-### -param Status [in]
-
+### -param Status 
+[in]
 Specifies a ULONG value that is sent to the debugger (for example, a status code or an address).
 
 

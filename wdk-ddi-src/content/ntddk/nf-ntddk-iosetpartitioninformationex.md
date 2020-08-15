@@ -55,18 +55,18 @@ For the disk represented by <i>DeviceObject</i>, the <b>IoSetPartitionInformatio
 
 
 
-### -param DeviceObject [in]
-
+### -param DeviceObject 
+[in]
 Pointer to the device object representing the device on which the partition type is to be set.
 
 
-### -param PartitionNumber [in]
-
+### -param PartitionNumber 
+[in]
 Specifies the partition number on the device whose partition type is to be set.
 
 
-### -param PartitionInfo [in]
-
+### -param PartitionInfo 
+[in]
 A structure whose <i>PartitionType</i> member specifies the type for the partition. For the currently defined <i>PartitionType</i> values <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_partition_information">PARTITION_INFORMATION</a>.
 
 

@@ -55,13 +55,13 @@ Frees a Storport timer context object previously created by the <a href="https:/
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param TimerHandle [in]
-
+### -param TimerHandle 
+[in]
 A pointer to an opaque buffer for the timer context returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializetimer">StorPortInitializeTimer</a>.
 
 

@@ -55,8 +55,8 @@ The <b>GetNumberEvents</b> method returns the number of <a href="https://docs.mi
 
 
 
-### -param Events [out]
-
+### -param Events 
+[out]
 Receives the number of events stored in the target.  If the target offers multiple events, <i>Events</i> will be set to the number of events available.  Otherwise, <i>Events</i> will be set to one.
 
 

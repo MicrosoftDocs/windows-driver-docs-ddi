@@ -74,8 +74,8 @@ DWORD APIENTRY Dot11ExtIhvInitService(
 
 
 
-### -param dwVerNumUsed [in]
-
+### -param dwVerNumUsed 
+[in]
 The interface version used by the operating system. The value of this parameter must be between
      the ranges of version numbers returned in the
      <i>pDot11IHVVersionInfo</i> parameter of the
@@ -83,8 +83,8 @@ The interface version used by the operating system. The value of this parameter 
      Dot11ExtIhvGetVersionInfo</a> IHV Handler function.
 
 
-### -param pDot11ExtAPI [in]
-
+### -param pDot11ExtAPI 
+[in]
 A pointer to a
      <a href="..\wlanihv\ns-wlanihv-_dot11ext_apis.md">DOT11EXT_APIS</a> structure, which contains the
      addresses of the IHV Extensibility functions that are supported by the operating system. The operating
@@ -97,8 +97,8 @@ A pointer to a
 This parameter is reserved for use by the operating system.
 
 
-### -param pDot11IHVHandlers [out]
-
+### -param pDot11IHVHandlers 
+[out]
 A pointer to a
      <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_handlers.md">DOT11EXT_IHV_HANDLERS</a> structure,
      which contains the addresses of the IHV Handler functions supported by the IHV Extensions DLL. The DLL

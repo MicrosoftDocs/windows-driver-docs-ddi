@@ -55,8 +55,8 @@ The <b>PoStartDeviceBusy</b> routine marks the start of a period of time in whic
 
 
 
-### -param IdlePointer [in, out]
-
+### -param IdlePointer 
+[in, out]
 A pointer to an idle counter. This is a pointer value that was previously returned by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-poregisterdeviceforidledetection">PoRegisterDeviceForIdleDetection</a> routine. Because <b>PoRegisterDeviceForIdleDetection</b> might return a <b>NULL</b> pointer, the caller must verify that the pointer is non-<b>NULL</b> before it calls <b>PoStartDeviceBusy</b>.
 
 

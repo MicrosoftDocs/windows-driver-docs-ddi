@@ -58,25 +58,25 @@ The <b>WDF_WRITE_PORT_BUFFER_USHORT</b> function writes a number of USHORT value
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object.
 
 
-### -param Port [in]
-
+### -param Port 
+[in]
 A pointer to the port, which must be a mapped memory range in I/O space.
 
 
 
-### -param Buffer [in]
-
+### -param Buffer 
+[in]
 A pointer to a buffer from which an array of USHORT values is to be written.
 
 
 
-### -param Count [in]
-
+### -param Count 
+[in]
 Specifies the number of USHORT values to be written to the buffer.
 
 

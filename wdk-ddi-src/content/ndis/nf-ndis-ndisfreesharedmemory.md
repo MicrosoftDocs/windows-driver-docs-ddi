@@ -58,8 +58,8 @@ The
 
 
 
-### -param NdisHandle [in]
-
+### -param NdisHandle 
+[in]
 An NDIS driver or instance handle that was obtained during caller initialization. This should be
      the same handle that was passed to the 
      <i>NdisHandle</i> parameter of the 
@@ -67,8 +67,8 @@ An NDIS driver or instance handle that was obtained during caller initialization
      NdisAllocateSharedMemory</a> function when the shared memory was allocated.
 
 
-### -param AllocationHandle [in]
-
+### -param AllocationHandle 
+[in]
 A handle for a context area that identifies the shared memory block. This is the handle that NDIS
      supplied at the 
      <i>pSharedMemoryProviderContext</i> parameter of the 

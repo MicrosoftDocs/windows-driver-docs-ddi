@@ -58,8 +58,8 @@ The
 
 
 
-### -param Addend [in]
-
+### -param Addend 
+[in]
 A pointer to the variable to be decremented.
 
 ## -returns

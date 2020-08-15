@@ -50,8 +50,8 @@ The **WcsAssociateColorProfileWithDevice** function associates a specified WCS c
 
 A [WCS_PROFILE_MANAGEMENT_SCOPE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/icm/ne-icm-wcs_profile_management_scope) value that specifies the scope of this profile management operation.
 
-### -param pProfileName [in]
-
+### -param pProfileName 
+[in]
 A pointer to the file name of the profile to associate.
 
 ### -param pDeviceName [in]

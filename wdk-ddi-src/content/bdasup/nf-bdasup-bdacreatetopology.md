@@ -56,18 +56,18 @@ The <b>BdaCreateTopology</b> function creates the topology between two pins.
 
 
 
-### -param pKSFilter [in]
-
+### -param pKSFilter 
+[in]
 Points to the BDA filter on which to create topology.
 
 
-### -param InputPinId [in]
-
+### -param InputPinId 
+[in]
 Specifies the identifier of the filter's input pin.
 
 
-### -param OutputPinId [in]
-
+### -param OutputPinId 
+[in]
 Specifies the identifier of the filter's output pin.
 
 

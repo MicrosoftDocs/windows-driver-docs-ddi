@@ -55,28 +55,28 @@ The <b>StorPortGetLogicalProcessorRelationship</b> routine returns relationship 
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
-### -param ProcessorNumber [in, optional]
-
+### -param ProcessorNumber 
+[in, optional]
 An optional pointer to a processor number for which relationships are to be returned. If this parameter is not provided, information about all processors is returned.
 
 
-### -param RelationshipType [in]
-
+### -param RelationshipType 
+[in]
 The type of relationship to be returned.
 
 
-### -param Information [out]
-
+### -param Information 
+[out]
 A pointer to a buffer that receives the specified information.
 
 
-### -param Length [in, out]
-
+### -param Length 
+[in, out]
 A pointer to the length of the information buffer, in bytes. Upon return, this value receives the number of bytes that are populated with relationship information.
 
 

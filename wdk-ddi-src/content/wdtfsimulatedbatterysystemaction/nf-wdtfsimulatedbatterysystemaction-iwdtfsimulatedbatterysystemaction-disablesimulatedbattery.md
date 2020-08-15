@@ -61,8 +61,8 @@ Use this method is used to disable the simulated battery (uninstalls simulated
 
 
 
-### -param pbSuccess [out, retval]
-
+### -param pbSuccess 
+[out, retval]
 
 ## -returns
 

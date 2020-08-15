@@ -55,18 +55,18 @@ req.typenames:
 
 
 
-### -param Server [in]
-
+### -param Server 
+[in]
 The server of the task.
 
 
-### -param PackageFullName [in]
-
+### -param PackageFullName 
+[in]
 A pointer to the package name.
 
 
-### -param BackgroundTaskId [in]
-
+### -param BackgroundTaskId 
+[in]
 A pointer to the task ID. 
 
 

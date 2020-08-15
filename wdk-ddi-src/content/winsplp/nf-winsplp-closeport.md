@@ -66,8 +66,8 @@ BOOL ClosePort(
 
 
 
-### -param hPort [in]
-
+### -param hPort 
+[in]
 Caller-supplied pointer to a port handle.
 
 

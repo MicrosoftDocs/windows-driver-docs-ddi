@@ -48,12 +48,12 @@ The `WcsEnumColorProfilesSize` function returns the size, in bytes, of the buffe
 
 ### -param scope
 
-### -param pEnumRecord [in]
-
+### -param pEnumRecord 
+[in]
 A pointer to a structure that specifies the enumeration criteria.
 
-### -param pdwSize [out]
-
+### -param pdwSize 
+[out]
 A pointer to a variable that receives the size of the buffer that is required to receive all enumerated profile names. This value is used by the *dwSize* parameter of the [WcsEnumColorProfiles](nf-icm-wcsenumcolorprofiles.md) function.
 
 #### - profileManagementScope [in]

@@ -56,13 +56,13 @@ The <b>ReadImageNtHeaders</b> method returns the NT headers for the specified im
 
 
 
-### -param ImageBase [in]
-
+### -param ImageBase 
+[in]
 Specifies the location in the target's virtual address space of the image whose NT headers are being requested.
 
 
-### -param Headers [out]
-
+### -param Headers 
+[out]
 Receives the NT headers for the specified image.
 
 

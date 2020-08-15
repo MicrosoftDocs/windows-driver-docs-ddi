@@ -55,8 +55,8 @@ The <b>KsRemoveAggregate</b> method removes a previously added COM server aggreg
 
 
 
-### -param AggregateClass [in]
-
+### -param AggregateClass 
+[in]
 Identifies the COM server to remove.
 
 

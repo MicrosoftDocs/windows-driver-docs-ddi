@@ -58,13 +58,13 @@ The <b>WdfCmResourceListRemoveByDescriptor</b> method removes a specified resour
 
 
 
-### -param List [in]
-
+### -param List 
+[in]
 A handle to a framework resource-list object that represents a list of hardware resources for a device.
 
 
-### -param Descriptor [in]
-
+### -param Descriptor 
+[in]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_descriptor">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure that describes a hardware resource.
 
 

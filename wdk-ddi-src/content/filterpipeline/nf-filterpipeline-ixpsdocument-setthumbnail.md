@@ -55,8 +55,8 @@ The <code>SetThumbnail</code> method removes the current thumbnail object from t
 
 
 
-### -param pThumbnail [in]
-
+### -param pThumbnail 
+[in]
 A pointer to a new thumbnail.
 
 

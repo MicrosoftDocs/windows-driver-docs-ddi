@@ -55,13 +55,13 @@ The<i>MRxStart</i> routine is called by <a href="https://docs.microsoft.com/wind
 
 
 
-### -param RxContext [in, out]
-
+### -param RxContext 
+[in, out]
 A pointer to the RX_CONTEXT structure. This parameter contains the IRP that requested the network mini-redirector to start. 
 
 
-### -param RxDeviceObject [in, out]
-
+### -param RxDeviceObject 
+[in, out]
 A pointer to the RDBSS_DEVICE_OBJECT structure for this network mini-redirector. 
 
 

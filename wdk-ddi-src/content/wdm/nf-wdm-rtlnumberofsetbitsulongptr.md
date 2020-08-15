@@ -55,8 +55,8 @@ The <b>RtlNumberOfSetBitsUlongPtr</b> routine returns the number of bits in the 
 
 
 
-### -param Target [in]
-
+### -param Target 
+[in]
 A ULONG_PTR integer value.
 
 

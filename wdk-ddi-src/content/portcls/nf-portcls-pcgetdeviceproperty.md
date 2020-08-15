@@ -56,28 +56,28 @@ The <b>PcGetDeviceProperty</b> function returns the requested device property fr
 
 
 
-### -param DeviceObject [in]
-
+### -param DeviceObject 
+[in]
 Pointer to the device object for the device. This parameter points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> system structure but is cast to type PVOID.
 
 
-### -param DeviceProperty [in]
-
+### -param DeviceProperty 
+[in]
 Specifies the Plug and Play device property that is requested. For a list of property specifier values, see the following Remarks section.
 
 
-### -param BufferLength [in]
-
+### -param BufferLength 
+[in]
 Specifies the length in bytes of the buffer that is to receive the requested property data.
 
 
-### -param PropertyBuffer [out]
-
+### -param PropertyBuffer 
+[out]
 Pointer to a caller-allocated buffer into which the method is to write the requested property data. The buffer must be large enough to contain the number of bytes specified in <i>BufferLength</i>.
 
 
-### -param ResultLength [out]
-
+### -param ResultLength 
+[out]
 Pointer to a caller-allocated variable into which the method outputs a count specifying the number of bytes actually written to the buffer. If the buffer size specified in <i>BufferLength</i> is too small to hold the property data, the method instead outputs the number of bytes required for the property data and returns STATUS_BUFFER_TOO_SMALL.
 
 

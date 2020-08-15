@@ -55,18 +55,18 @@ The <b>KsCompleteIoOperation</b> method cleans up the extended header and comple
 
 
 
-### -param Sample [in, out]
-
+### -param Sample 
+[in, out]
 Pointer to the <b>IMediaSample</b> interface for the associated media sample.
 
 
-### -param StreamHeader [in, out]
-
+### -param StreamHeader 
+[in, out]
 Pointer to a buffer that contains the extended header information.
 
 
-### -param IoOperation [in]
-
+### -param IoOperation 
+[in]
 Value that specifies the type of I/O operation. This value can be one of the following values from the KSIOOPERATION enumerated type:
 
 <table>
@@ -98,8 +98,8 @@ Read data from stream.
  
 
 
-### -param Cancelled [in]
-
+### -param Cancelled 
+[in]
 Boolean value that is <b>TRUE</b> if the I/O operation was canceled and <b>FALSE</b> otherwise.
 
 

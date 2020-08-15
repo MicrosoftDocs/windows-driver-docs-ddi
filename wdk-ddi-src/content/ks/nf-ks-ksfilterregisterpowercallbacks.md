@@ -50,16 +50,16 @@ The **KsFilterRegisterPowerCallbacks** function registers power management callb
 
 ## -parameters
 
-### -param Filter [in]
-
+### -param Filter 
+[in]
 A pointer to the [KSFILTER](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter) structure for which to register power callbacks. In order to receive power notification messages, *Filter* must be filter-centric.
 
-### -param Sleep [in, optional]
-
+### -param Sleep 
+[in, optional]
 A pointer to a function that handles sleep requests for the device. If **NULL**, no sleep callback is registered. For more information, see the Remarks section below.
 
-### -param Wake [in, optional]
-
+### -param Wake 
+[in, optional]
 A pointer to a function that handles wake requests for the device. If **NULL**, no wake callback is specified. For more information, see the Remarks section below.
 
 ## -remarks

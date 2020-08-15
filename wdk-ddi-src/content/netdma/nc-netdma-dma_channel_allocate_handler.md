@@ -58,30 +58,30 @@ in Windows 8 and later.</div><div> </div>The
 
 
 
-### -param ProviderContext [in]
-
+### -param ProviderContext 
+[in]
 A pointer that identifies a DMA provider's context area. The DMA provider driver passes this
      handle to the NetDMA interface in a call to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nf-netdma-netdmaregisterprovider">
      NetDmaRegisterProvider</a> function.
 
 
-### -param ChannelParameters [in]
-
+### -param ChannelParameters 
+[in]
 A pointer to a 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_channel_parameters">
      NET_DMA_CHANNEL_PARAMETERS</a> structure that defines the configuration parameters for the DMA
      channel.
 
 
-### -param NetDmaChannelHandle [in]
-
+### -param NetDmaChannelHandle 
+[in]
 A handle that identifies the DMA channel. Provider drivers pass this handle to 
      <b>NetDma<i>Xxx</i></b> functions to identify the DMA channel.
 
 
-### -param pProviderChannelContext [out]
-
+### -param pProviderChannelContext 
+[out]
 A pointer to a value that is a pointer to a DMA provider's context area for the DMA channel. The
      DMA provider driver allocates this context area before returning from 
      <i>ProviderAllocateDmaChannel</i>. NetDMA passes the context area pointer to 

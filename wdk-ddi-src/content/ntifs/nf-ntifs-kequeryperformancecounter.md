@@ -57,8 +57,8 @@ Use **KeQueryPerformanceCounter** to acquire high resolution (<1&micro;s) time s
 
 
 
-### -param PerformanceFrequency [out, optional]
-
+### -param PerformanceFrequency 
+[out, optional]
 A pointer to a variable to which **KeQueryPerformanceCounter** writes the performance counter frequency, in ticks per second. This parameter is optional and can be NULL if the caller does not need the counter frequency value.
 
 

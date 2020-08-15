@@ -56,18 +56,18 @@ The <b>GetSystemIdsByIndex</b> method returns the engine target IDs for the spec
 
 
 
-### -param Start [in]
-
+### -param Start 
+[in]
 Specifies the index of the first target whose target ID is requested.
 
 
-### -param Count [in]
-
+### -param Count 
+[in]
 Specifies the number of processes whose IDs are requested.
 
 
-### -param Ids [out]
-
+### -param Ids 
+[out]
 Receives the engine target IDs.  If <i>Ids</i> is <b>NULL</b>, this information is not returned; otherwise, <i>Ids</i> is treated as an array of <i>Count</i> ULONG values.
 
 

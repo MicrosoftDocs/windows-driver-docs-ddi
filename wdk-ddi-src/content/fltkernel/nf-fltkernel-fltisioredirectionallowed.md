@@ -55,18 +55,18 @@ The <b>FltIsIoRedirectionAllowed</b> routine determines whether I/O can be redir
 
 
 
-### -param SourceInstance [in]
-
+### -param SourceInstance 
+[in]
 The filter instance on the source device stack.
 
 
-### -param TargetInstance [in]
-
+### -param TargetInstance 
+[in]
 The filter instance on the target device stack.
 
 
-### -param RedirectionAllowed [out]
-
+### -param RedirectionAllowed 
+[out]
 A value of <b>TRUE</b> if all I/O to the source device stack can be redirected to the target device stack by changing the filter instance referenced, otherwise <b>FALSE</b>.
 
 

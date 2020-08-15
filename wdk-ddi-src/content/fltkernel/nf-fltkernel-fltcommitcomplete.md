@@ -56,18 +56,18 @@ The <b>FltCommitComplete</b> routine acknowledges a TRANSACTION_NOTIFY_COMMIT no
 
 
 
-### -param Instance [in]
-
+### -param Instance 
+[in]
 Opaque instance pointer for the caller. 
 
 
-### -param Transaction [in]
-
+### -param Transaction 
+[in]
 Opaque transaction pointer for the transaction. 
 
 
-### -param TransactionContext [in, optional]
-
+### -param TransactionContext 
+[in, optional]
 Pointer to the minifilter driver's context for the transaction. This parameter is optional and can be <b>NULL</b>. 
 
 

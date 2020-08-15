@@ -55,8 +55,8 @@ The <b>IoWritePartitionTableEx</b> routine writes partition tables from the entr
 
 
 
-### -param DeviceObject [in]
-
+### -param DeviceObject 
+[in]
 Pointer to the device object representing the disk whose partition tables are to be written.
 
 

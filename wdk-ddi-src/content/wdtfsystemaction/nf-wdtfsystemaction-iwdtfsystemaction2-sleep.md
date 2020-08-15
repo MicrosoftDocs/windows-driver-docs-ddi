@@ -55,8 +55,8 @@ Puts the system into the desired sleep state.
 
 
 
-### -param nSleepState [in]
-
+### -param nSleepState 
+[in]
 The sleep state.
 
 

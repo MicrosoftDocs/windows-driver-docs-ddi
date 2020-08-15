@@ -58,15 +58,15 @@ The
 
 
 
-### -param deviceObject [in, out]
-
+### -param deviceObject 
+[in, out]
 A pointer to a device object that was previously created by the callout driver. For more
      information about how a callout driver creates a device object, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/creating-a-device-object">Creating a Device Object</a>.
 
 
-### -param callback [in]
-
+### -param callback 
+[in]
 A pointer to a callout driver-provided service state change callback function. The filter engine
      calls this function whenever there is a change in the state of the filter engine.
      
@@ -131,15 +131,15 @@ The filter engine is stopping.
 The filter engine is running.
 
 
-### -param context [in, optional]
-
+### -param context 
+[in, optional]
 A pointer to a callout driver-provided context that is passed to the callback function specified
      in the 
      <i>Callback</i> parameter.
 
 
-### -param changeHandle [out]
-
+### -param changeHandle 
+[out]
 A pointer to a variable that receives a handle that is associated with the registration of the
      callback function. A callout driver passes this handle to the
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmbfestateunsubscribechanges0">FwpmBfeStateUnsubscribeChanges0</a> function to deregister the callback function.

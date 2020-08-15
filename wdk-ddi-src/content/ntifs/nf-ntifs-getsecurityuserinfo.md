@@ -56,18 +56,18 @@ The <b>GetSecurityUserInfo</b> function retrieves information about a logon <a h
 
 
 
-### -param LogonId [in, optional]
-
+### -param LogonId 
+[in, optional]
 An optional pointer to an <a href="https://go.microsoft.com/fwlink/p/?linkid=121236">LUID</a> containing the logon session for which information is to be retrieved. If <i>LogonId</i> is <b>NULL</b>, information for the logon session of the calling thread is returned.
 
 
-### -param Flags [in]
-
+### -param Flags 
+[in]
 This parameter is currently not used.
 
 
-### -param UserInformation [out]
-
+### -param UserInformation 
+[out]
 A pointer to a location which contains a pointer to a <a href="https://go.microsoft.com/fwlink/p/?linkid=121238">SecurityUserData</a> structure. If the function call succeeds, the user information is returned in this structure. The caller is responsible for freeing this buffer by calling the <a href="https://go.microsoft.com/fwlink/p/?linkid=121239">LsaFreeReturnBuffer</a> function.
 
 

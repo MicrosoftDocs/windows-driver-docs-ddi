@@ -55,8 +55,8 @@ The <b>IWiaTransferCallback::TransferCallback</b> method is implemented by an im
 
 
 
-### -param lFlags [in]
-
+### -param lFlags 
+[in]
 Currently unused. Should be set to zero.
 
 
@@ -67,8 +67,8 @@ Currently unused. Should be set to zero.
 
 
 
-#### - WiaTransferParams [in]
-
+#### - WiaTransferParams 
+[in]
 Specifies a pointer to a WiaTransferParams structure. This structure is defined in the Microsoft Windows SDK documentation.
 
 

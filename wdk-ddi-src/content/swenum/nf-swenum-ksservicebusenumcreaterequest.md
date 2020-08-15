@@ -58,13 +58,13 @@ The <b>KsServiceBusEnumCreateRequest</b> function services IRP_MJ_CREATE request
 
 
 
-### -param DeviceObject [in]
-
+### -param DeviceObject 
+[in]
 Pointer to the device object.
 
 
-### -param Irp [in, out]
-
+### -param Irp 
+[in, out]
 Pointer to the IRP that is associated with the device object.
 
 

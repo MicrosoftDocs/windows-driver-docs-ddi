@@ -57,23 +57,23 @@ The <b>SetScope</b> method sets the current scope.
 
 
 
-### -param InstructionOffset [in]
-
+### -param InstructionOffset 
+[in]
 Specifies the location in the process's virtual address space for the scope's current instruction.  This is only used if both <i>ScopeFrame</i> and <i>ScopeContext</i> are <b>NULL</b>; otherwise, it is ignored.
 
 
-### -param ScopeFrame [in, optional]
-
+### -param ScopeFrame 
+[in, optional]
 Specifies the scope's stack frame.  For information about this structure, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_stack_frame">DEBUG_STACK_FRAME</a>.
 
 
-### -param ScopeContext [in, optional]
-
+### -param ScopeContext 
+[in, optional]
 Specifies the scope's <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/scopes-and-symbol-groups">thread context</a>.  The type of the thread context is the CONTEXT structure for the target's effective processor.  The buffer <i>ScopeContext</i> must be large enough to hold this structure.  If <i>ScopeContext</i> is <b>NULL</b>, the current <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/changing-contexts">register context</a> is used instead.
 
 
-### -param ScopeContextSize [in]
-
+### -param ScopeContextSize 
+[in]
 Specifies the size of the buffer <i>ScopeContext</i>.
 
 

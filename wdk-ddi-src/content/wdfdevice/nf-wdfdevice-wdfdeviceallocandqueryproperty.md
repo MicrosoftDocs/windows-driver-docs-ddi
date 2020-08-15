@@ -60,28 +60,28 @@ The <b>WdfDeviceAllocAndQueryProperty</b> method allocates a buffer and retrieve
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object.
 
 
-### -param DeviceProperty [in]
-
+### -param DeviceProperty 
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfwdm/ne-wudfwdm-device_registry_property">DEVICE_REGISTRY_PROPERTY</a>-typed enumerator that identifies the device property to be retrieved.
 
 
-### -param PoolType [in]
-
+### -param PoolType 
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type">POOL_TYPE</a>-typed enumerator that specifies the type of memory to be allocated.
 
 
-### -param PropertyMemoryAttributes [in, optional]
-
+### -param PropertyMemoryAttributes 
+[in, optional]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that describes object attributes for the memory object that the function will allocate. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
 
-### -param PropertyMemory [out]
-
+### -param PropertyMemory 
+[out]
 A pointer to a WDFMEMORY-typed location that receives a handle to a framework memory object. 
 
 

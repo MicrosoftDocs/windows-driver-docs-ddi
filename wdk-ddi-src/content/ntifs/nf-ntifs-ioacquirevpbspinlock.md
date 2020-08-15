@@ -55,8 +55,8 @@ The <b>IoAcquireVpbSpinLock</b> routine acquires the Volume Parameter Block (VPB
 
 
 
-### -param Irql [out]
-
+### -param Irql 
+[out]
 Pointer to a caller-allocated variable in which to save the current IRQL for a subsequent call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ioreleasevpbspinlock">IoReleaseVpbSpinLock</a>. Usually the <i>Irql</i> is saved on the stack as a local variable.
 
 

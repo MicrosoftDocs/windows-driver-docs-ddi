@@ -55,11 +55,11 @@ req.typenames:
 
 
 
-### -param hPrinter [in]
+### -param hPrinter 
+[in]
 
+### -param pDevMode 
+[in]
 
-### -param pDevMode [in]
-
-
-### -param pResID [out]
-
+### -param pResID 
+[out]

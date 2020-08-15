@@ -55,8 +55,8 @@ The <b>KeQueryDpcWatchdogInformation</b> routine returns the deferred procedure 
 
 
 
-### -param WatchdogInformation [out]
-
+### -param WatchdogInformation 
+[out]
 A pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_kdpc_watchdog_information">KDPC_WATCHDOG_INFORMATION</a> structure. The routine writes the current DPC watchdog timer values to this structure.
 
 

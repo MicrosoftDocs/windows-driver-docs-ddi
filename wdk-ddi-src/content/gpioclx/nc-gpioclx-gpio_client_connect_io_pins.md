@@ -55,13 +55,13 @@ The <i>CLIENT_ConnectIoPins</i> event callback function opens a logical connecti
 
 
 
-### -param Context [in]
-
+### -param Context 
+[in]
 A pointer to the GPIO controller driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/gpio/gpio-device-contexts">device context</a>.
 
 
-### -param ConnectParameters [in]
-
+### -param ConnectParameters 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_connect_io_pins_parameters">GPIO_CONNECT_IO_PINS_PARAMETERS</a> structure that describes a connection to a set of GPIO pins and that specifies whether to configure these pins as data inputs or outputs.
 
 

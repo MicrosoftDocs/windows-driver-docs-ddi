@@ -55,8 +55,8 @@ The <b>RtlDestroyHeap</b> routine destroys the specified heap object. <b>RtlDest
 
 
 
-### -param HeapHandle [in]
-
+### -param HeapHandle 
+[in]
 Handle for the heap to be destroyed. This parameter is a heap handle returned by <b>RtlCreateHeap</b>. 
 
 

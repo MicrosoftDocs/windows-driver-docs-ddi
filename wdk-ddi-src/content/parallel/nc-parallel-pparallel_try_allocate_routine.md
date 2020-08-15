@@ -65,8 +65,8 @@ typedef BOOLEAN ParallelTryAllocateRoutine(
 
 
 
-### -param TryAllocateContext [in]
-
+### -param TryAllocateContext 
+[in]
 Pointer to the device extension of a functional device object that represents a parallel port.
 
 

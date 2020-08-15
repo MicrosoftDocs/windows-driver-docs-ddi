@@ -57,23 +57,23 @@ The <b>GetModuleByOffset</b> method searches through the target's <a href="https
 
 
 
-### -param Offset [in]
-
+### -param Offset 
+[in]
 Specifies a location in the target's virtual address space which is inside the desired module's memory allocation -- for example, the address of a symbol belonging to the module.
 
 
-### -param StartIndex [in]
-
+### -param StartIndex 
+[in]
 Specifies the index to start searching from.
 
 
-### -param Index [out, optional]
-
+### -param Index 
+[out, optional]
 Receives the index of the module.  If <i>Index</i> is <b>NULL</b>, this information is not returned.
 
 
-### -param Base [out, optional]
-
+### -param Base 
+[out, optional]
 Receives the location in the target's memory address space of the base of the module.  If <i>Base</i> is <b>NULL</b>, this information is not returned.
 
 

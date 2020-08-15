@@ -59,8 +59,8 @@ An offload target calls the
 
 
 
-### -param NdisOffloadHandle [in]
-
+### -param NdisOffloadHandle 
+[in]
 A handle that identifies the offloaded TCP connection on which the indication is being made. When
      the connection was offloaded, this handle was supplied in the 
      <b>NdisOffloadHandle</b> member of the 
@@ -68,8 +68,8 @@ A handle that identifies the offloaded TCP connection on which the indication is
      NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure that was associated with the connection state.
 
 
-### -param NetBufferList [in]
-
+### -param NetBufferList 
+[in]
 A pointer to a 
       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure. Each 
       <b>NET_BUFFER_LIST</b> structure
@@ -92,8 +92,8 @@ The
       indication.
 
 
-### -param Status [in]
-
+### -param Status 
+[in]
 The offload target must supply the following status value:
      
 
@@ -109,8 +109,8 @@ This indicates that the host stack can retain ownership of the NET_BUFFER_LIST s
        MiniportTcpOffloadReceiveReturn</a> function of the offload target.
 
 
-### -param BytesConsumed [out]
-
+### -param BytesConsumed 
+[out]
 A pointer to a ULONG-typed variable that receives the number of bytes that were consumed by the
      client application.
 

@@ -55,8 +55,8 @@ Stops the device.
 
 
 
-### -param pResult [out, retval]
-
+### -param pResult 
+[out, retval]
 True if all of the I/O operations after the last 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemaasyncoperation-start">Start</a> or 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Continue</a> succeeded; 

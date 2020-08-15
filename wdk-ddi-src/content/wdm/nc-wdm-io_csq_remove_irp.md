@@ -55,13 +55,13 @@ The <i>CsqRemoveIrp</i> routine is used by the system to remove the specified IR
 
 
 
-### -param Csq [in]
-
+### -param Csq 
+[in]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">IO_CSQ</a> structure for the cancel-safe IRP queue.
 
 
-### -param Irp [in]
-
+### -param Irp 
+[in]
 Pointer to the IRP to remove from the IRP queue. 
 
 

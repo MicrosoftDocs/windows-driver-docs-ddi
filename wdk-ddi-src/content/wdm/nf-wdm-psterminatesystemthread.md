@@ -55,8 +55,8 @@ The <b>PsTerminateSystemThread</b> routine terminates the current system thread.
 
 
 
-### -param ExitStatus [in]
-
+### -param ExitStatus 
+[in]
 Specifies the status of the terminating system thread. 
 
 

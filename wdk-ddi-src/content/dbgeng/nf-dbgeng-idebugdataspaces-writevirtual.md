@@ -58,23 +58,23 @@ The <b>WriteVirtual</b> method writes data to the target's virtual address space
 
 
 
-### -param Offset [in]
-
+### -param Offset 
+[in]
 Specifies the location in the target's virtual address space to be written.
 
 
-### -param Buffer [in]
-
+### -param Buffer 
+[in]
 Specifies the buffer to write the memory from.
 
 
-### -param BufferSize [in]
-
+### -param BufferSize 
+[in]
 Specifies the size in bytes of the buffer.  This is also the number of bytes requested to be written.
 
 
-### -param BytesWritten [out, optional]
-
+### -param BytesWritten 
+[out, optional]
 Receives the number of bytes that were written.  If it is set to <b>NULL</b>, this information is not returned.
 
 

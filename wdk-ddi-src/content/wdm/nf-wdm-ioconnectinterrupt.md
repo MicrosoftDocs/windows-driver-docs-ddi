@@ -55,58 +55,58 @@ The <b>IoConnectInterrupt</b> routine registers a device driver's <a href="https
 
 
 
-### -param InterruptObject [out]
-
+### -param InterruptObject 
+[out]
 Pointer to the address of driver-supplied storage for a pointer to a set of interrupt objects. This pointer must be passed in subsequent calls to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kesynchronizeexecution">KeSynchronizeExecution</a>.
 
 
-### -param ServiceRoutine [in]
-
+### -param ServiceRoutine 
+[in]
 Pointer to the entry point for the driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-kservice_routine">InterruptService</a> routine.
 
 
-### -param ServiceContext [in, optional]
-
+### -param ServiceContext 
+[in, optional]
 Pointer to the driver-determined context that will be supplied to the <i>InterruptService</i> routine when it is called. The <i>ServiceContext</i> area must be in resident memory: in the device extension of a driver-created device object, in the controller extension of a driver-created controller object, or in nonpaged pool allocated by the device driver. See <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/providing-isr-context-information">Providing ISR Context Information</a> for details.
 
 
-### -param SpinLock [in, optional]
-
+### -param SpinLock 
+[in, optional]
 Pointer to an initialized spin lock, for which the driver supplies the storage, that will be used to synchronize access to driver-determined data shared by other driver routines. This parameter is required if the ISR handles more than one vector or if the driver has more than one ISR. Otherwise, the driver need not allocate storage for an interrupt spin lock and the input pointer is <b>NULL</b>.
 
 
-### -param Vector [in]
-
+### -param Vector 
+[in]
 Specifies the interrupt vector passed in the interrupt resource at the <b>u.Interrupt.Vector</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_descriptor">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>.
 
 
-### -param Irql [in]
-
+### -param Irql 
+[in]
 Specifies the DIRQL passed in the interrupt resource at the <b>u.Interrupt.Level</b> member of <b>CM_PARTIAL_RESOURCE_DESCRIPTOR</b>.
 
 
-### -param SynchronizeIrql [in]
-
+### -param SynchronizeIrql 
+[in]
 Specifies the DIRQL at which the ISR will run. If the ISR handles more than one interrupt vector or the driver has more than one ISR, this value must be the highest of the <i>Irql</i> values passed at <b>u.Interrupt.Level</b> in each interrupt resource. Otherwise, the <i>Irql</i> and <i>SynchronizeIrql</i> values are identical.
 
 
-### -param InterruptMode [in]
-
+### -param InterruptMode 
+[in]
 Specifies whether the device interrupt is <b>LevelSensitive</b> or <b>Latched</b>.
 
 
-### -param ShareVector [in]
-
+### -param ShareVector 
+[in]
 Specifies whether the interrupt vector is sharable. 
 
 
-### -param ProcessorEnableMask [in]
-
+### -param ProcessorEnableMask 
+[in]
 Specifies a [**KAFFINITY**](https://docs.microsoft.com/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity) value representing the set of processors on which device interrupts can occur in this platform. This value is passed in the interrupt resource at <b>u.Interrupt.Affinity</b>. 
 
 
-### -param FloatingSave [in]
-
+### -param FloatingSave 
+[in]
 Specifies whether to save the floating-point stack when the driver's device interrupts. For x86-based and Itanium-based platforms, this value must be set to <b>FALSE</b>. For more information about saving floating-point and MMX state, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-floating-point-or-mmx-in-a-wdm-driver">Using Floating Point or MMX in a WDM Driver</a>. 
 
 

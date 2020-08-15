@@ -56,33 +56,33 @@ The
 
 
 
-### -param ParentDescriptor [in, optional]
-
+### -param ParentDescriptor 
+[in, optional]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a> of the parent object that contains the new object being created. <i>ParentDescriptor</i> can be <b>NULL</b>, or have a <b>NULL</b> system access control list (<a href="https://docs.microsoft.com/windows-hardware/drivers/">SACL</a>) or a <b>NULL</b> discretionary access control list (<a href="https://docs.microsoft.com/windows-hardware/drivers/">DACL</a>).
 
 
-### -param ExplicitDescriptor [in, optional]
-
+### -param ExplicitDescriptor 
+[in, optional]
 Pointer to an explicit <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a> that is applied to the new object. <i>ExplicitDescriptor</i> can be <b>NULL</b>, or have a <b>NULL</b> SACL or a <b>NULL</b> DACL.
 
 
-### -param NewDescriptor [out]
-
+### -param NewDescriptor 
+[out]
 Receives a pointer to the returned <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a>.  <b>SeAssignSecurityEx</b> allocates the buffer from the paged memory pool.
 
 
-### -param ObjectType [in, optional]
-
+### -param ObjectType 
+[in, optional]
 Pointer to a GUID for the type of object being created. If the object does not have a GUID, <i>ObjectType</i> must be set to <b>NULL</b>.
 
 
-### -param IsDirectoryObject [in]
-
+### -param IsDirectoryObject 
+[in]
 Specifies whether the new object is a directory object. If <i>IsDirectoryObject</i> is set to <b>TRUE</b>, the new object is a directory object, otherwise the new object is not a directory object.
 
 
-### -param AutoInheritFlags [in]
-
+### -param AutoInheritFlags 
+[in]
 Specifies the type of automatic inheritance that is applied to access control entries (<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/ace">ACE</a>) in the access control lists (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_acl">ACL</a>) specified by <i>ParentDescriptor</i>. <i>AutoInheritFlags</i> also controls privilege checking, owner checking, and setting a default owner and group for <i>NewDescriptor</i>. <i>AutoInheritFlags</i> must be set to a logical OR of one or more of the following values:
 
 <table>
@@ -244,18 +244,18 @@ ACEs that are inherited from the parent descriptor are appended after the ACEs s
 </li>
 </ol>
 
-### -param SubjectContext [in]
-
+### -param SubjectContext 
+[in]
 Pointer to a security context of the subject that is creating the object. <i>SubjectContext</i> is used to retrieve default security information for the new object, including the default owner, the primary group, and discretionary access control.
 
 
-### -param GenericMapping [in]
-
+### -param GenericMapping 
+[in]
 Pointer to an array of access mask values that specify the mapping between each generic rights to object-specific rights.
 
 
-### -param PoolType [in]
-
+### -param PoolType 
+[in]
 This parameter is unused.  The buffer to hold the new security descriptor is always allocated from paged pool.
 
 

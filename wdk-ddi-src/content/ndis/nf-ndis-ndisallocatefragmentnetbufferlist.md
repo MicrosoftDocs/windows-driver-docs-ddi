@@ -59,8 +59,8 @@ Call the
 
 
 
-### -param OriginalNetBufferList [in]
-
+### -param OriginalNetBufferList 
+[in]
 A pointer to an existing NET_BUFFER_LIST structure.
 
 
@@ -76,28 +76,28 @@ A NET_BUFFER structure pool handle that was previously returned from a call to
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferpool">
      NdisAllocateNetBufferPool</a>.
 
-### -param StartOffset [in]
-
+### -param StartOffset 
+[in]
 An additional byte offset from the start of the data in each 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure. This offset is in addition
      to the value of the 
      <b>DataOffset</b> member specified in each NET_BUFFER structure.
 
 
-### -param MaximumLength [in]
-
+### -param MaximumLength 
+[in]
 The maximum length, in bytes, for each fragment in the new NET_BUFFER_LIST structure. Each
      fragment is described by a NET_BUFFER structure.
 
 
-### -param DataOffsetDelta [in]
-
+### -param DataOffsetDelta 
+[in]
 The additional amount of 
      <i>used data space</i> that NDIS should make available in the new NET_BUFFER structures.
 
 
-### -param DataBackFill [in]
-
+### -param DataBackFill 
+[in]
 The amount of data space in addition to the value of the 
      <i>DataOffsetDelta</i> parameter to allocate if allocation is necessary. If NDIS must allocate memory to
      supply the data space requested in 
@@ -105,8 +105,8 @@ The amount of data space in addition to the value of the
      <i>DataBackFill</i> specifies.
 
 
-### -param AllocateFragmentFlags [in]
-
+### -param AllocateFragmentFlags 
+[in]
 NDIS flags that can be combined with an OR operation. Set this parameter to zero. There are
      currently no flags defined for this function.
 

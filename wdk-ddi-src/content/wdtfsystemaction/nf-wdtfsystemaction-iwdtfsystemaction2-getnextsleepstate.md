@@ -55,8 +55,8 @@ Returns the next supported sleep state.
 
 
 
-### -param pnSleepState [out, retval]
-
+### -param pnSleepState 
+[out, retval]
 The sleep state.
 
 

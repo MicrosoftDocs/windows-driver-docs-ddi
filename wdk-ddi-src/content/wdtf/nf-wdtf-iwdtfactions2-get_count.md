@@ -56,8 +56,8 @@ Gets the number of actions in this collection.
 
 
 
-### -param pVal [out]
-
+### -param pVal 
+[out]
 The number of actions.
 
 

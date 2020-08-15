@@ -55,28 +55,28 @@ Passes kernel mode IOCTLs to UFX.
 
 
 
-### -param UfxDevice [in]
-
+### -param UfxDevice 
+[in]
 A handle to a UFX device object that the driver created by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>.
 
 
-### -param Request [in]
-
+### -param Request 
+[in]
 A handle to a framework request object.
 
 
-### -param OutputBufferLength [in]
-
+### -param OutputBufferLength 
+[in]
 The length, in bytes, of the request's output buffer, if an output buffer is available.
 
 
-### -param InputBufferLength [in]
-
+### -param InputBufferLength 
+[in]
 The length, in bytes, of the request's input buffer, if an input buffer is available.
 
 
-### -param IoControlCode [in]
-
+### -param IoControlCode 
+[in]
 The driver-defined or system-defined IOCTL that is associated with the request.
 
 

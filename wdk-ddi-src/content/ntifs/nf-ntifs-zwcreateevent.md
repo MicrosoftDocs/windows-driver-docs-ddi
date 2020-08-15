@@ -50,12 +50,12 @@ The **ZwCreateEvent** routine creates an event object, sets the initial state of
 
 ## -parameters
 
-### -param EventHandle [out]
-
+### -param EventHandle 
+[out]
 A pointer to a variable that will receive the event object handle. The handle includes bookkeeping information, such as a reference count and security context.
 
-### -param DesiredAccess [in]
-
+### -param DesiredAccess 
+[in]
 The [**ACCESS_MASK**](https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask) value that represents the desired types of access for the event object. The following table contains the event-specific ACCESS_MASK values.
 
 | Value | Desired access |
@@ -64,16 +64,16 @@ The [**ACCESS_MASK**](https://docs.microsoft.com/windows-hardware/drivers/kernel
 | EVENT_MODIFY_STATE | Modify the state of the event object. |
 | EVENT_ALL_ACCESS   | All possible access rights to the event object. |
 
-### -param ObjectAttributes [in, optional]
-
+### -param ObjectAttributes 
+[in, optional]
 A pointer to the object attributes structure supplied by the caller to be used for the specified object. These attributes would include the **ObjectName** and the [**SECURITY_DESCRIPTOR**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor), for example. This parameter is initialized by calling the [**InitializeObjectAttributes**](https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes) macro.
 
-### -param EventType [in]
-
+### -param EventType 
+[in]
 The type of the event, which can be **SynchronizationEvent** or a **NotificationEvent**. These values belong to the **EVENT_TYPE** enumeration, which is defined in the *ntdef.h* header file.
 
-### -param InitialState [in]
-
+### -param InitialState 
+[in]
 The initial state of the event object. Set to **TRUE** to initialize the event object to the Signaled state. Set to **FALSE** to initialize the event object to the not-Signaled state.
 
 ## -returns

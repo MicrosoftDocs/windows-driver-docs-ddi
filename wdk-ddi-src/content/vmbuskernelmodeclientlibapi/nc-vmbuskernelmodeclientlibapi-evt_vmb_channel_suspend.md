@@ -59,8 +59,8 @@ state.
 
 
 
-### -param Channel [in]
-
+### -param Channel 
+[in]
 The channel which is suspended.
 
 

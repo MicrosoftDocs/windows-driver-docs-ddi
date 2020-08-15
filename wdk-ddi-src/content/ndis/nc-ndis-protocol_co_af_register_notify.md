@@ -60,8 +60,8 @@ The
 
 
 
-### -param ProtocolBindingContext [in]
-
+### -param ProtocolBindingContext 
+[in]
 Specifies the handle to the client-allocated context area in which the client protocol maintains
      per-binding run-time state. The client's 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a> function
@@ -69,8 +69,8 @@ Specifies the handle to the client-allocated context area in which the client pr
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a>.
 
 
-### -param AddressFamily [in]
-
+### -param AddressFamily 
+[in]
 Pointer to a buffer describing the signaling-protocol support provided by a call manager that just
      registered these services with NDIS by calling 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscmregisteraddressfamilyex">

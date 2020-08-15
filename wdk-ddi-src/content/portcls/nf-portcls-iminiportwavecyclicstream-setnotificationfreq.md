@@ -55,13 +55,13 @@ The <code>SetNotificationFreq</code> method controls the frequency at which noti
 
 
 
-### -param Interval [in]
-
+### -param Interval 
+[in]
 Specifies the interval between notification interrupts. This parameter value is expressed in milliseconds.
 
 
-### -param FrameSize [out]
-
+### -param FrameSize 
+[out]
 Output pointer for the frame size. This parameter points to a caller-allocated variable into which the method writes the maximum number of bytes that can be transferred in <i>Interval</i> milliseconds. This byte count determines the size of the buffer that needs to be allocated for the input or output stream.
 
 

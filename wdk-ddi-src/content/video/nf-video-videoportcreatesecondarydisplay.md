@@ -55,18 +55,18 @@ The <b>VideoPortCreateSecondaryDisplay</b> function enables dual-view support by
 
 
 
-### -param HwDeviceExtension [in]
-
+### -param HwDeviceExtension 
+[in]
 Pointer to the miniport driver's device extension. This is the hardware extension for the device that wants to create additional display device objects.
 
 
-### -param SecondaryDeviceExtension [in, out]
-
+### -param SecondaryDeviceExtension 
+[in, out]
 Pointer to the location in which to store the hardware device extension for the secondary display device.
 
 
-### -param ulFlag [in]
-
+### -param ulFlag 
+[in]
 Is a set of attributes for the secondary display device. This parameter is restricted to the following value:
 
 |Value|Meaning|

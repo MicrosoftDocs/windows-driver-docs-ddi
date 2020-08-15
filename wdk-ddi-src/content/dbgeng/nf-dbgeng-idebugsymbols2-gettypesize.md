@@ -57,18 +57,18 @@ The <b>GetTypeSize</b> method returns the number of bytes of memory an instance 
 
 
 
-### -param Module [in]
-
+### -param Module 
+[in]
 Specifies the base address of the module containing the type.  For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/modules">Modules</a>.
 
 
-### -param TypeId [in]
-
+### -param TypeId 
+[in]
 Specifies the type ID of the type.
 
 
-### -param Size [out]
-
+### -param Size 
+[out]
 Receives the number of bytes of memory an instance of the specified type requires.
 
 

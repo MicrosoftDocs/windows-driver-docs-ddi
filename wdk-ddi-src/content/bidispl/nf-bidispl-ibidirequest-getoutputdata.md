@@ -55,18 +55,18 @@ The <b>GetOutputData</b> method gets the specified output data coming back from 
 
 
 
-### -param dwIndex [in]
-
+### -param dwIndex 
+[in]
 A zero-based index of the output data that is requested. For more information, see Remarks.
 
 
-### -param ppszSchema [out]
-
+### -param ppszSchema 
+[out]
 A pointer to a NULL-terminated string that receives the schema string. The caller must call the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function to free this pointer.
 
 
-### -param pdwType [out]
-
+### -param pdwType 
+[out]
 A pointer to a variable that receives the type of the output data. This parameter can be one of the following values.
 
 <table>
@@ -158,13 +158,13 @@ Binary data.
  
 
 
-### -param ppData [out]
-
+### -param ppData 
+[out]
 A pointer to the variable that receives a pointer to the byte array containing the output data. The buffer is allocated by the COM interface to store the output data. The caller is responsible for calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> to free the buffer.
 
 
-### -param uSize [out]
-
+### -param uSize 
+[out]
 A pointer to a variable that receives the size of the byte array specified by **ppData.
 
 

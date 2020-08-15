@@ -58,13 +58,13 @@ The <b>WdfDeviceIndicateWakeStatus</b> method informs the framework that the cal
 
 
 
-### -param Device [in]
-
+### -param Device 
+[in]
 A handle to a framework device object. 
 
 
-### -param WaitWakeStatus [in]
-
+### -param WaitWakeStatus 
+[in]
 An NTSTATUS status value. If the device triggered a wake signal, the caller must set this value to STATUS_SUCCESS or another status value for which <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">NT_SUCCESS</a>(<i>WaitWakeStatus</i>) equals <b>TRUE</b>. If the device did not trigger a wake signal or if an error was detected, the caller must provide a status value for which NT_SUCCESS(<i>WaitWakeStatus</i>) equals <b>FALSE</b>. For more information, see the following Remarks section. 
 
 

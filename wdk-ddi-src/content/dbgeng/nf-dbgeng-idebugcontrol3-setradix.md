@@ -57,8 +57,8 @@ The <b>SetRadix</b> method sets the default radix (number base) used by the <a h
 
 
 
-### -param Radix [in]
-
+### -param Radix 
+[in]
 Specifies the new default radix.  The following table contains the possible values for the radix.
 
 <table>

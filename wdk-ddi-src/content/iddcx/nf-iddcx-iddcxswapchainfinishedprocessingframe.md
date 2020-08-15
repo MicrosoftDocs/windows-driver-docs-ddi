@@ -57,8 +57,8 @@ req.typenames:
 
 
 
-### -param SwapChainObject [in]
-
+### -param SwapChainObject 
+[in]
 The swap-chain object whose current frame is being queried.
 
 

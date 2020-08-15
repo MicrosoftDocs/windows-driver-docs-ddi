@@ -57,13 +57,13 @@ A driver's <i>EvtDriverDeviceAdd</i> event callback function performs device ini
 
 
 
-### -param Driver [in]
-
+### -param Driver 
+[in]
 A handle to a framework driver object that represents the driver.
 
 
-### -param DeviceInit [in, out]
-
+### -param DeviceInit 
+[in, out]
 A pointer to a framework-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure. 
 
 

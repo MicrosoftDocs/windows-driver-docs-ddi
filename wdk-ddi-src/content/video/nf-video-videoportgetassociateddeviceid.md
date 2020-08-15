@@ -55,8 +55,8 @@ The <b>VideoPortGetAssociatedDeviceID</b> function obtains the child ID for a sp
 
 
 
-### -param DeviceObject [in]
-
+### -param DeviceObject 
+[in]
 Pointer to the child device object, a <a href="https://docs.microsoft.com/windows-hardware/drivers/">PDO</a>.
 
 

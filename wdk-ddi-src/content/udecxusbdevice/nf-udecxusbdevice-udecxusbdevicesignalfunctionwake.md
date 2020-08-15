@@ -56,13 +56,13 @@ Initiates wake up of the specified function from a low power state. This applies
 
 
 
-### -param UdecxUsbDevice [in]
-
+### -param UdecxUsbDevice 
+[in]
 A handle to UDE device object. The client driver retrieved this pointer in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbdevice/nf-udecxusbdevice-udecxusbdevicecreate">UdecxUsbDeviceCreate</a>.
 
 
-### -param Interface [in]
-
+### -param Interface 
+[in]
 This value is the <b>bInterfaceNumber</b> of the interface that is waking up. 
 
 

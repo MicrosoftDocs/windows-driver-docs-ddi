@@ -58,13 +58,13 @@ The <b>WdfControlDeviceInitAllocate</b> method allocates a <a href="https://docs
 
 
 
-### -param Driver [in]
-
+### -param Driver 
+[in]
 A handle to a framework driver object.
 
 
-### -param SDDLString [in]
-
+### -param SDDLString 
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that describes a Unicode string. This string is a Security Descriptor Definition Language (SDDL) representation of a security descriptor. For more information, see the following Remarks section.
 
 
