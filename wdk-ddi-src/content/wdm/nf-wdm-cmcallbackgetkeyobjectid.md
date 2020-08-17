@@ -74,7 +74,7 @@ A pointer to a location that receives a pointer to the unique identifier that re
 
 ### -param ObjectName 
 [out, optional]
-A pointer to a location that receives a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure. This structure contains the object name of the registry key object that <i>Object</i> specifies. The object name is actually the full path name of the registry key that the object represents. The caller must not write to this <b>UNICODE_STRING</b> structure or free it. This parameter is optional and can be <b>NULL</b>.
+A pointer to a location that receives a pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure. This structure contains the object name of the registry key object that <i>Object</i> specifies. The object name is actually the full path name of the registry key that the object represents. The caller must not write to this <b>UNICODE_STRING</b> structure or free it. This parameter is optional and can be <b>NULL</b>.
 
 
 ## -returns
@@ -145,7 +145,7 @@ For more information about <b>CmCallbackGetKeyObjectID</b> and registry filterin
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

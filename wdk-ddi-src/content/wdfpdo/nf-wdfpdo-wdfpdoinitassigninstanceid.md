@@ -65,7 +65,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/
 
 ### -param InstanceID 
 [in]
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains an <a href="https://docs.microsoft.com/windows-hardware/drivers/install/instance-ids">instance ID</a> string. The driver can allocate the string's buffer from paged pool. 
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains an <a href="https://docs.microsoft.com/windows-hardware/drivers/install/instance-ids">instance ID</a> string. The driver can allocate the string's buffer from paged pool. 
 
 
 ## -returns

@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <b>RtlStringCchCopyUnicodeString</b> function copies the contents of a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure to a specified destination.
+The <b>RtlStringCchCopyUnicodeString</b> function copies the contents of a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure to a specified destination.
 
 
 ## -parameters
@@ -160,7 +160,7 @@ For more information about the safe string functions, see <a href="https://docs.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

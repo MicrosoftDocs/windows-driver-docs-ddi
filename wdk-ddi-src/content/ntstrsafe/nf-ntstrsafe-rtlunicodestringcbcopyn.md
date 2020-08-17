@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <b>RtlUnicodeStringCbCopyN</b> function copies a string from one <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure to another while limiting the size of the copied string.
+The <b>RtlUnicodeStringCbCopyN</b> function copies a string from one <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure to another while limiting the size of the copied string.
 
 
 ## -parameters
@@ -160,7 +160,7 @@ For more information about the safe string functions, see <a href="https://docs.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

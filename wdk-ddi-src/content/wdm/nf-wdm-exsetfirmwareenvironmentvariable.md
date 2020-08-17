@@ -57,7 +57,7 @@ The <b>ExSetFirmwareEnvironmentVariable</b> routine sets the value of the specif
 
 ### -param VariableName 
 [in]
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the name of the specified environment variable.
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the name of the specified environment variable.
 
 
 ### -param VendorGuid 
@@ -169,7 +169,7 @@ If you create a backup datastore, you can use the  <a href="https://docs.microso
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

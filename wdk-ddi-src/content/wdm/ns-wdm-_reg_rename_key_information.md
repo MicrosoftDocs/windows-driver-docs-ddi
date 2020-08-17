@@ -62,7 +62,7 @@ A pointer to the registry key object for the key whose name is about to be chang
 
 ### -field NewName
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the new name for the registry key.
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the new name for the registry key.
 
 
 ### -field CallContext

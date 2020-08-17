@@ -58,7 +58,7 @@ The **WdmlibRtlInitUnicodeStringEx** function initializes a counted string of Un
 
 ### -param DestinationString 
 [out]
-A pointer to the [UNICODE_STRING](https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string) structure to be initialized.
+A pointer to the [UNICODE_STRING](https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure to be initialized.
 
 
 ### -param SourceString 
@@ -70,7 +70,7 @@ A pointer to a null-terminated wide-character string. This string is used to ini
 
 
 
-The routine copies the *SourceString* pointer value to the **Buffer** member of the [UNICODE_STRING](https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string) structure pointed to by *DestinationString*. The **Length** member of this structure is set to the length, in bytes, of the source string, excluding the terminating null. The **MaximumLength** member of the structure is set to the length, in bytes, of the source string, including the terminating null. If *SourceString* is **NULL**, **Length** and **MaximumLength** are both set to zero.
+The routine copies the *SourceString* pointer value to the **Buffer** member of the [UNICODE_STRING](https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure pointed to by *DestinationString*. The **Length** member of this structure is set to the length, in bytes, of the source string, excluding the terminating null. The **MaximumLength** member of the structure is set to the length, in bytes, of the source string, including the terminating null. If *SourceString* is **NULL**, **Length** and **MaximumLength** are both set to zero.
 
 **WdmlibRtlInitUnicodeStringEx** does not alter the source string pointed to by *SourceString*.
 
@@ -90,7 +90,7 @@ Callers of **WdmlibRtlInitUnicodeStringEx** can be running at IRQL <= DISPATCH_L
 
 [RtlUnicodeStringInitEx](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlunicodestringinitex) 
 
-[UNICODE_STRING](https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string)
+[UNICODE_STRING](https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string)
 
 
 

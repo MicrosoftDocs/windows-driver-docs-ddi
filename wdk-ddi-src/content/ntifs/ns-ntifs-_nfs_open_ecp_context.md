@@ -57,7 +57,7 @@ The NFS_OPEN_ECP_CONTEXT structure is used by the Network File System (NFS) serv
 
 ### -field ExportAlias
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that supplies the export alias (share name) for the NFS server that contains the files to be opened. This member is a hint and can be a name, <b>NULL</b>, or a zero-length string. 
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that supplies the export alias (share name) for the NFS server that contains the files to be opened. This member is a hint and can be a name, <b>NULL</b>, or a zero-length string. 
 
 
 ### -field ClientSocketAddress
@@ -85,7 +85,7 @@ The NFS_OPEN_ECP_CONTEXT structure is read-only. You should use it to retrieve i
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

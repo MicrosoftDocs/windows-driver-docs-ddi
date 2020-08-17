@@ -67,7 +67,7 @@ A pointer to the class GUID that identifies the functionality (the device interf
 
 ### -param ReferenceString 
 [in, optional]
-Optionally points to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>. The string must not contain any path separator characters ("/" or "\\"). Function drivers typically specify <b>NULL</b> for this parameter. Filter drivers must specify <b>NULL</b>.
+Optionally points to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>. The string must not contain any path separator characters ("/" or "\\"). Function drivers typically specify <b>NULL</b> for this parameter. Filter drivers must specify <b>NULL</b>.
 
 Reference strings are only used by a few bus drivers, such as <i>swenum</i>, which is a bus driver that uses device interface instances as placeholders for software devices created on demand. When an instance of an interface is opened, the I/O manager passes the instance's reference string to the driver. The string becomes part of the interface instance's name (as an appended path component). The driver can then use the reference string to differentiate between two interface instances of the same class for a single device.
 

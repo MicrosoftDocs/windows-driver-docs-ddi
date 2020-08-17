@@ -77,7 +77,7 @@ When retrieving file path information, **ValueName** is ignored.
 
 When retrieving registry information, **ValueType** must specify the expected registry value type that corresponds to the registry value name.
 When retrieving file path information, **ValueType** must be 0 to succeed. 
-See [Registry Value Types](https://docs.microsoft.com/windows/desktop/SysInfo/registry-value-types) for more detail.
+See [Registry Value Types](https://docs.microsoft.com/windows/win32/sysinfo/registry-value-types) for more detail.
 
 ### -field PhysicalAdapterIndex
 *[In] ULONG PhysicalAdapterIndex*

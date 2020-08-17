@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <b>RtlUnicodeStringCbCatN</b> function concatenates two strings that are contained in <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structures while limiting the size of the copied string.
+The <b>RtlUnicodeStringCbCatN</b> function concatenates two strings that are contained in <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structures while limiting the size of the copied string.
 
 
 ## -parameters
@@ -160,7 +160,7 @@ For more information about the safe string functions, see <a href="https://docs.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

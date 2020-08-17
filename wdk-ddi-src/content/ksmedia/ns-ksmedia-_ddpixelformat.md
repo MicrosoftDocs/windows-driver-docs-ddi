@@ -68,7 +68,7 @@ Indicates a set of flags that specify optional control flags. This member is a b
 | DDPF_BUMPHEIGHT | Bump map height data in the pixel format is valid. |
 | DDPF_COMPRESSED | The surface accepts pixel data in the specified format and compresses it during the write operation. |
 | DDPF_D3DFORMAT | Indicates a DirectX 8.0 and later format capability entry in the texture format list. This flag is not exposed to applications. |
-| DDPF_FOURCC | The [FOURCC](https://docs.microsoft.com/windows/desktop/directshow/fourcc-codes) code is valid. |
+| DDPF_FOURCC | The [FOURCC](https://docs.microsoft.com/windows/win32/directshow/fourcc-codes) code is valid. |
 | DDPF_LUMINANCE | Luminance data in the pixel format is valid. Use this flag for luminance-only or luminance-plus-alpha surfaces; the bit depth is then specified in the **dwLuminanceBitCount** member. |
 | DDPF_LUMINANCEPIXELS | Luminance data in the pixel format is valid. Use this flag when hanging luminance off, for example, bumpmap surfaces. The bitmask for the luminance portion of the pixel is then specified in the **dwBumpLuminanceBitMask** member. |
 | DDPF_NOVEL_TEXTURE_FORMAT | Indicates a new surface format that the runtime might not expose to all applications. |
@@ -86,7 +86,7 @@ Indicates a set of flags that specify optional control flags. This member is a b
 
 ### -field dwFourCC
 
-Specifies a surface format code including any of the codes in the D3DFORMAT enumerated type. Some [FOURCC](https://docs.microsoft.com/windows/desktop/directshow/fourcc-codes) codes are part of D3DFORMAT. For more information about D3DFORMAT, see the SDK documentation. Hardware vendors can also define and supply format codes that are specific to their hardware.
+Specifies a surface format code including any of the codes in the D3DFORMAT enumerated type. Some [FOURCC](https://docs.microsoft.com/windows/win32/directshow/fourcc-codes) codes are part of D3DFORMAT. For more information about D3DFORMAT, see the SDK documentation. Hardware vendors can also define and supply format codes that are specific to their hardware.
 
 ### -field dwRGBBitCount
 

@@ -100,7 +100,7 @@ This member is not applicable to UMDF drivers.
 
 ### -field TargetDeviceName
 
-If the value of <b>Type</b> is <b>WdfIoTargetOpenByName</b>, this is a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the name of a device, file, or device interface. For information about the format of this name, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/object-names">Object Names</a>.
+If the value of <b>Type</b> is <b>WdfIoTargetOpenByName</b>, this is a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the name of a device, file, or device interface. For information about the format of this name, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/object-names">Object Names</a>.
 
 If the value of <b>Type</b> is not <b>WdfIoTargetOpenByName</b>, this member is ignored.
 
@@ -296,7 +296,7 @@ Drivers should initialize the <b>WDF_IO_TARGET_OPEN_PARAMS</b> structure by call
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 
 
 

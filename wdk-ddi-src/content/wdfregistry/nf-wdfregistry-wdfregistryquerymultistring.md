@@ -67,7 +67,7 @@ A handle to a registry-key object that represents an opened registry key.
 
 ### -param ValueName 
 [in]
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a value name. 
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a value name. 
 
 
 ### -param StringsAttributes 
@@ -191,6 +191,8 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 Before your driver calls <b>WdfRegistryQueryMultiString</b>, it must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfcollection/nf-wdfcollection-wdfcollectioncreate">WdfCollectionCreate</a> to create a collection object. 
 
+If the caller does not provide a *StringsAttributes* parameter, any WDFSTRING objects created by the framework are by default parented to the WDFDRIVER.
+
 After <b>WdfRegistryQueryMultiString</b> returns, the driver can call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfcollection/nf-wdfcollection-wdfcollectiongetcount">WdfCollectionGetCount</a> to obtain the number of retrieved strings and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfcollection/nf-wdfcollection-wdfcollectiongetitem">WdfCollectionGetItem</a> to obtain string objects from the collection.
 
 If the collection contains objects before the driver calls the <b>WdfRegistryQueryMultiString</b> method, the method does not remove those objects or change their index values. The new objects are appended to the end of the collection.
@@ -237,7 +239,7 @@ count = WdfCollectionGetCount(col);
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 
 
 
