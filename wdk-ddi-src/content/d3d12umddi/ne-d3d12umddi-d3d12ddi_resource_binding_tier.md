@@ -38,7 +38,7 @@ tech.root: display
 
 ## -description
 
-The resource binding tiers. See [Hardware Tiers](https://docs.microsoft.com/windows/desktop/direct3d12/hardware-support) for the Tier descriptions.
+The resource binding tiers. See [Hardware Tiers](https://docs.microsoft.com/windows/win32/direct3d12/hardware-support) for the Tier descriptions.
 
 ## -enum-fields
 
