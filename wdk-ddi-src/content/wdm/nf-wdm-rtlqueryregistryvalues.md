@@ -493,7 +493,7 @@ A null-terminated Unicode string (such as REG_SZ, REG_EXPAND_SZ).
 
 </td>
 <td>
-<b>EntryContext</b> must point to an initialized <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure. If the <b>Buffer</b> member of <b>UNICODE_STRING</b> is <b>NULL</b>, the routine allocates storage for the string data. Otherwise, it stores the string data in the buffer that <b>Buffer</b> points to.
+<b>EntryContext</b> must point to an initialized <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure. If the <b>Buffer</b> member of <b>UNICODE_STRING</b> is <b>NULL</b>, the routine allocates storage for the string data. Otherwise, it stores the string data in the buffer that <b>Buffer</b> points to.
 
 </td>
 </tr>
@@ -552,7 +552,7 @@ See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 
 
 

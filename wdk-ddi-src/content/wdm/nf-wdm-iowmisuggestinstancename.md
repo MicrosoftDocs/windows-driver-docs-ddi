@@ -72,7 +72,7 @@ If <b>TRUE</b> then the suggested names returned will combine the <i>PhysicalDev
 
 ### -param SuggestedInstanceName 
 [out]
-A pointer to a buffer which upon successful completion will contain a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> which contains the suggested instance name. The caller is responsible for freeing this buffer when it is no longer needed.
+A pointer to a buffer which upon successful completion will contain a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> which contains the suggested instance name. The caller is responsible for freeing this buffer when it is no longer needed.
 
 
 ## -returns

@@ -68,7 +68,7 @@ A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hard
 
 ### -param RegistryPath 
 [in]
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the path name of the registry key for the  GPIO controller driver. This parameter should be the registry path name that was passed to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine. For more information about driver registry keys, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/overview-of-registry-trees-and-keys">Registry Trees for Devices and Drivers</a>.
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the path name of the registry key for the  GPIO controller driver. This parameter should be the registry path name that was passed to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine. For more information about driver registry keys, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/overview-of-registry-trees-and-keys">Registry Trees for Devices and Drivers</a>.
 
 
 ## -returns
@@ -149,7 +149,7 @@ Later, just before the GPIO controller driver unloads, the driver calls the <a h
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

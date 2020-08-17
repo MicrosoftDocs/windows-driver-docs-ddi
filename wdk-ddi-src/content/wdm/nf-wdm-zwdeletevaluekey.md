@@ -63,7 +63,7 @@ The handle to the registry key containing the value entry of interest. This key 
 
 ### -param ValueName 
 [in]
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the name of the value entry to delete. This parameter can be an empty string if the value entry has no name. 
+Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the name of the value entry to delete. This parameter can be an empty string if the value entry has no name. 
 
 
 ## -returns

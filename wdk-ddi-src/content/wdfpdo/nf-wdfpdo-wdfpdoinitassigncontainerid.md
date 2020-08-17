@@ -65,7 +65,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/
 
 ### -param ContainerID 
 [in]
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a container ID string. The driver can allocate the string's buffer from paged pool.
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a container ID string. The driver can allocate the string's buffer from paged pool.
 
 
 ## -returns
@@ -120,7 +120,7 @@ The driver must call <b>WdfPdoInitAssignContainerID</b> before calling <a href="
 
 #### Examples
 
-The following code example initializes a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure, stores a Unicode string in the structure, and then registers the Unicode string as the device's container ID.
+The following code example initializes a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure, stores a Unicode string in the structure, and then registers the Unicode string as the device's container ID.
 
 ```cpp
 UNICODE_STRING containerId = {0}; 
