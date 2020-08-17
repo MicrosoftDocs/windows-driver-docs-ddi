@@ -63,4 +63,4 @@ Array of PIDs that identify packets to unmap from the output of a PID filter.
 
 [KSPROPSETID_BdaPIDFilter](https://docs.microsoft.com/windows-hardware/drivers/stream/kspropsetid-bdapidfilter)
 
-[MEDIA_SAMPLE_CONTENT](https://docs.microsoft.com/windows/desktop/directshow/media-sample-content)
+[MEDIA_SAMPLE_CONTENT](https://docs.microsoft.com/windows/win32/directshow/media-sample-content)

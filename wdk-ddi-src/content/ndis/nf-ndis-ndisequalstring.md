@@ -80,7 +80,7 @@ A boolean value that is <b>TRUE</b> if case should be ignored when doing the com
 
 Starting with Windows 2000, a string of type NDIS_STRING is a counted, null-terminated Unicode string.
     That is, NDIS defines the NDIS_STRING type as a 
-    <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> type.
+    <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> type.
 
 
 
@@ -110,7 +110,7 @@ Starting with Windows 2000, a string of type NDIS_STRING is a counted, null-term
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

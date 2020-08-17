@@ -78,7 +78,7 @@ MEDIA_SAMPLE_CONTENT enumerated type value that specifies the type of media cont
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/directshow/media-sample-content">MEDIA_SAMPLE_CONTENT</a>
+<a href="https://docs.microsoft.com/windows/win32/directshow/media-sample-content">MEDIA_SAMPLE_CONTENT</a>
  
 
  

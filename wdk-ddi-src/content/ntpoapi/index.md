@@ -19,4 +19,4 @@ tech.root: kernel
 
 This header contains functions and data structures that an application can use power management. For more information, see:
 
-- [About Power Management](https://docs.microsoft.com/windows/desktop/Power/about-power-management)
+- [About Power Management](https://docs.microsoft.com/windows/win32/power/about-power-management)
