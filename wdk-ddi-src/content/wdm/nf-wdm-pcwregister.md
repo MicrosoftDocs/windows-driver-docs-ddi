@@ -101,7 +101,7 @@ RegisterMyCounterset(
 }
 ```
 
-The CTRPP-generated Register function will be named *Prefix*Register*Counterset*. *Prefix* is usually blank, but may be present if the `-prefix` parameter was used on the CTRPP command-line. *Counterset* is the name of the counterset, as specified in the manifest. The generated Register function will invoke the *Prefix*InitRegistrationInformation*Counterset* function to initialize a `PCW_REGISTRATION_INFORMATION` structure and then invoke `PcwRegister` to create a new registration and store the handle in the global `MyCounterset` variable (declared in the CTRPP-generated header).
+The CTRPP-generated Register function will be named *Prefix*Register*Counterset*. *Prefix* is usually blank, but may be present if the `-prefix` parameter was used on the CTRPP command-line. *Counterset* is the name of the counterset, as specified in the manifest. The generated Register function will invoke the *Prefix*InitRegistrationInformation*Counterset* function to initialize a `PCW_REGISTRATION_INFORMATION` structure and then invoke `PcwRegister` to create a new registration and store the handle in the global *Counterset* variable (declared in the CTRPP-generated header, `MyCounterset` in the example).
 
 In some cases, the CTRPP-generated Add function might not be appropriate.
 
@@ -125,7 +125,7 @@ Status = PcwRegister(&MyCounterset, &RegInfo);
 
 The CTRPP-generated InitRegistrationInformation\*\*\* function initializes the `RegInfo` structure based on declarations from the manifest. For more information about the generated InitRegistrationInformation function, refer to the documentation for [PCW\_REGISTRATION\_INFORMATION](ns-wdm-_pcw_registration_information.md).
 
-If using your own handle variables instead of `MyCounterset` to store the handle, you may also need to call `PcwUnregister` and `PcwCreateInstance` directly instead of using the CTRPP-generated `Unregister***` and `Create***` functions.
+If using your own handle variables instead of *Counterset* to store the handle, you may also need to call `PcwUnregister` and `PcwCreateInstance` directly instead of using the CTRPP-generated `Unregister***` and `Create***` functions.
 
 ## -see-also
 

@@ -59,9 +59,9 @@ A pointer to the counterset registration that owns this instance. The registrati
 
 ### -param Name [in]
 
-A pointer to the Unicode string that contains the name of the instance of the counterset.
+A pointer to the Unicode string that contains the name of the instance of the counterset. This must not be NULL.
 
-Instance `Name` values MUST be stable over time (the same logical instance should use the same `Name` value for all invocations of the callback) and MUST be unique. If the counterset supports multiple instances, the instance `Name` should not be blank. Instance name matching is not case-sensitive, so `Name` values should not differ only by case.
+Instance `Name` values MUST be stable over time (the same logical instance should use the same `Name` value for all invocations of the callback) and MUST be unique. If the counterset is registered as single-instance, the instance `Name` should be blank (0-length). If the counterset registered as multi-instance, the instance `Name` should not be blank. Instance name matching is not case-sensitive, so `Name` values should not differ only by case.
 
 ### -param Count [in]
 
@@ -126,7 +126,7 @@ CreateMyCounterset(
 }
 ```
 
-The CTRPP-generated Create function will be named *Prefix*Create*Counterset*. *Prefix* is usually blank, but may be present if the `-prefix` parameter was used on the CTRPP command-line. *Counterset* is the name of the counterset, as specified in the manifest. The function will have Data parameters based on the structures defined in the manifest. The function will wrap the user-provided data block(s) into an array of `PCW_DATA` structures and then call `PcwCreateInstance`. Note that the function references `MyCounterset`, which is a global variable that holds the counterset registration handle initialized by the CTRPP-generated Register\*\*\* function.
+The CTRPP-generated Create function will be named *Prefix*Create*Counterset*. *Prefix* is usually blank, but may be present if the `-prefix` parameter was used on the CTRPP command-line. *Counterset* is the name of the counterset, as specified in the manifest. The function will have Data parameters based on the structures defined in the manifest. The function will wrap the user-provided data block(s) into an array of `PCW_DATA` structures and then call `PcwCreateInstance`. Note that the function references a *Counterset* variable (`MyCounterset` in the example), which is a global variable that holds the counterset registration handle initialized by the CTRPP-generated Register\*\*\* function.
 
 ## -see-also
 

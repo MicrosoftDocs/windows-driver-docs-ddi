@@ -59,11 +59,11 @@ A numeric value that specifies an index into an array of [PCW\_DATA](ns-wdm-_pcw
 
 ### -field Offset
 
-A numeric value that specifies an offset (in bytes) relative to the data block indicated by the `StructIndex` field. In subsequent calls to `PcwCreateInstance` or `PcwAddInstance`, the address `PcwData[PcwCounterDescriptor->StructIndex].Data + PcwCounterDescriptor->Offset` will be used as the start of the value for the counter with ID `CounterDescriptor->Id`.
+A numeric value that specifies an offset (in bytes) relative to the data block indicated by the `StructIndex` field. In subsequent calls to `PcwCreateInstance` or `PcwAddInstance`, the address `PcwData[PcwCounterDescriptor->StructIndex].Data + PcwCounterDescriptor->Offset` will be used as the start of the value for the counter with ID `PcwCounterDescriptor->Id`.
 
 ### -field Size
 
-A numeric value that specifies the size, in bytes, of the value for the counter with ID `CounterDescriptor->Id`. The `Size` field should be set to 4 (for a `UINT32` counter value) or 8 (for a `UINT64` counter value).
+A numeric value that specifies the size, in bytes, of the value for the counter with ID `PcwCounterDescriptor->Id`. The `Size` field should be set to 4 (for a `UINT32` counter value) or 8 (for a `UINT64` counter value).
 
 ## -remarks
 

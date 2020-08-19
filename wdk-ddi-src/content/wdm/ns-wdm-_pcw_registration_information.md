@@ -146,7 +146,7 @@ InitRegistrationInformationMyCounterset(
 
 The CTRPP-generated InitRegistrationInformation function will be named *Prefix*InitRegistrationInformation*Counterset*. *Prefix* is usually blank, but may be present if the `-prefix` parameter was used on the CTRPP command-line. *Counterset* is the name of the counterset, as specified in the manifest. The generated InitRegistrationInformation function will initialize the provided `PCW_REGISTRATION_INFORMATION` structure with values from the function parameters and the manifest.
 
-The CTRPP-generated InitRegistrationInformation function can optionally verify that the sizes of the structure members match the sizes declared in the manifest. By default, `CTRPP_VERIFY_COUNTER_SIZES` is set to 0, disabling this check. To enable this check, `#define CTRPP_VERIFY_COUNTER_SIZES 1` before including the CTRPP-generated header.
+The CTRPP-generated InitRegistrationInformation function can optionally verify that the sizes of the structure members match the sizes declared in the manifest. By default, `CTRPP_VERIFY_COUNTER_SIZES` is set to 0, disabling this check. To enable this check, `#define CTRPP_VERIFY_COUNTER_SIZES 1` before including the CTRPP-generated header. If the check is enabled, a size mismatch will trigger a compile error due to failure of the C_ASSERT condition.
 
 ## -see-also
 

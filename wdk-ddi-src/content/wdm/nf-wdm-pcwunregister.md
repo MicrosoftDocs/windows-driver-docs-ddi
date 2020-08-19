@@ -75,7 +75,7 @@ UnregisterMyCounterset(
 }
 ```
 
-The CTRPP-generated Unregister function will be named *Prefix*Unregister*CounterSet*. *Prefix* is usually blank, but may be present if the `-prefix` parameter was used on the CTRPP command-line. *CounterSet* is the name of the counterset, as specified in the manifest. Note that the function references `MyCounterset`, which is a global variable that holds the counterset registration handle initialized by the CTRPP-generated Register\*\*\* function.
+The CTRPP-generated Unregister function will be named *Prefix*Unregister*CounterSet*. *Prefix* is usually blank, but may be present if the `-prefix` parameter was used on the CTRPP command-line. *CounterSet* is the name of the counterset, as specified in the manifest. Note that the function references a *Counterset* variable (`MyCounterset` in the example), which is a global variable that holds the counterset registration handle initialized by the CTRPP-generated Register\*\*\* function.
 
 ## -see-also
 
