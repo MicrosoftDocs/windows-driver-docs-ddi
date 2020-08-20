@@ -41,7 +41,7 @@ targetos: Windows
 req.typenames: ATTRIBUTE_INFO_4, *PATTRIBUTE_INFO_4
 ---
 
-# _ATTRIBUTE_INFO_4 structure
+# _ATTRIBUTE_INFO_4 structure (winddiui.h)
 
 
 ## -description
