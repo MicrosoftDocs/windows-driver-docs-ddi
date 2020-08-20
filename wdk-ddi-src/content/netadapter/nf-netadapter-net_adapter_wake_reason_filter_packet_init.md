@@ -1,10 +1,10 @@
 ---
-UID: NF:netadapter.NET_ADAPTER_WAKE_REASON_MAGIC_PACKET_INIT
-title: NET_ADAPTER_WAKE_REASON_MAGIC_PACKET_INIT
+UID: NF:netadapter.NET_ADAPTER_WAKE_REASON_FILTER_PACKET_INIT
+title: NET_ADAPTER_WAKE_REASON_FILTER_PACKET_INIT
 ms.date: 08/20/2020
 ms.topic: language-reference
 targetos: Windows
-description: The NET_ADAPTER_WAKE_REASON_MAGIC_PACKET_INIT method initializes a NET_ADAPTER_WAKE_REASON_PACKET when the wake source is a magic packet.
+description: 
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -20,7 +20,7 @@ req.namespace:
 req.redist: 
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
-req.target-type: Universal
+req.target-type: 
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
@@ -31,16 +31,17 @@ api_type:
 api_location:
  - netadapter.h
 api_name:
- - NET_ADAPTER_WAKE_REASON_MAGIC_PACKET_INIT
+ - NET_ADAPTER_WAKE_REASON_FILTER_PACKET_INIT
 f1_keywords:
- - netadapter/NET_ADAPTER_WAKE_REASON_MAGIC_PACKET_INIT
+ - NET_ADAPTER_WAKE_REASON_FILTER_PACKET_INIT
+ - netadapter/NET_ADAPTER_WAKE_REASON_FILTER_PACKET_INIT
 dev_langs:
  - c++
 ---
 
 ## -description
 
-The **NET_ADAPTER_WAKE_REASON_MAGIC_PACKET_INIT** method initializes a [**NET_ADAPTER_WAKE_REASON_PACKET**](../netadapter/ns-netadapter-_net_adapter_wake_reason_packet.md) structure for a wake-up event caused by a magic packet.
+The **NET_ADAPTER_WAKE_REASON_FILTER_PACKET_INIT** method initializes a [**NET_ADAPTER_WAKE_REASON_PACKET**](../netadapter/ns-netadapter-_net_adapter_wake_reason_packet.md) structure for a wake-up event caused by a packet that matches a filter the driver supports.
 
 ## -parameters
 
@@ -55,7 +56,7 @@ This method does not return a value.
 ## -remarks
 
 When the [**NET_WAKE_SOURCE_TYPE**](/windows-hardware/drivers/ddi/netwakesource/ne-netwakesource-_net_wake_source_type) is
-NetWakeSourceTypeMagicPacket, call **NET_ADAPTER_WAKE_REASON_MAGIC_PACKET_INIT** to initialize the [**NET_ADAPTER_WAKE_REASON_PACKET**](../netadapter/ns-netadapter-_net_adapter_wake_reason_packet.md) structure. Call [**NetAdapterReportWakeReasonPacket**](/windows-hardware/drivers/ddi/netadapter/nf-netadapter-netadapterreportwakereasonpacket) to report this wake reason to NetAdapterCx.
+NetWakeSourceTypePacketFilterMatch, call **NET_ADAPTER_WAKE_REASON_FILTER_PACKET_INIT** to initialize the [**NET_ADAPTER_WAKE_REASON_PACKET**](../netadapter/ns-netadapter-_net_adapter_wake_reason_packet.md) structure. Call [**NetAdapterReportWakeReasonPacket**](/windows-hardware/drivers/ddi/netadapter/nf-netadapter-netadapterreportwakereasonpacket) to report this wake reason to NetAdapterCx.
 
 This method zeroes out the memory for the **NET_ADAPTER_WAKE_REASON_PACKET** structure, sets the **Size** member, and sets the **PatternId** member.
 
