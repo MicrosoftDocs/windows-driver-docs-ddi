@@ -51,7 +51,7 @@ The KSAC3_BIT_STREAM_MODE structure specifies the bit-stream mode, which is the 
 
 ### -field BitStreamMode
 
-Specifies the bit-stream mode. The **BitStreamMode** member is set to a value in the range 0 to 7. 
+Specifies the bit-stream mode. The **BitStreamMode** member is set to a value in the range 0 to 7.
 
 Specify the value of this member as one of the following constants:
 
