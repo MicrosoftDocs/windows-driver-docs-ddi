@@ -79,7 +79,7 @@ A pointer to an arguments string.
 
 
 
-If this method succeeds, it returns **S_OK**. Otherwise, it returns an HRESULT error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 If a debugger session is not already started, this method starts one. 
 

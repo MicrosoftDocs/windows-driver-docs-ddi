@@ -85,7 +85,7 @@ A pointer to the number of regions available to the entry.
 
 
 
-If this method succeeds, it returns **S_OK**. Otherwise, it returns an HRESULT error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 This function returns all known memory regions that associated
     with a specified source entry.  Simple symbols have a single region that starts from their base. More complicated regions, such as functions that have multiple code areas, can have an arbitrarily

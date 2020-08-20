@@ -60,7 +60,7 @@ A pointer to a [D3DDDICB_EVICT](../d3dumddi/ns-d3dumddi-d3dddicb_evict.md) struc
 
 ## -returns
 
-If this callback function succeeds, it returns S_OK. Otherwise, it returns an HRESULT error code.
+If this callback function succeeds, it returns S_OK. Otherwise, it returns an **HRESULT** error code.
 
 ## -prototype
 

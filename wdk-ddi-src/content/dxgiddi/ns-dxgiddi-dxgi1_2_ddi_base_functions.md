@@ -239,7 +239,7 @@ HRESULT __stdcall* pfnCheckMultiplaneOverlaySupport(
 
 **Return value**
 
-If this callback function succeeds, it returns S_OK. Otherwise, it returns an HRESULT error code.
+If this callback function succeeds, it returns S_OK. Otherwise, it returns an **HRESULT** error code.
 
 ### -field pfnPresentMultiplaneOverlay
 

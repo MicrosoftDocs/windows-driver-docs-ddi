@@ -65,7 +65,7 @@ Returns an SDEL statement that queries for all devices that use the driver packa
 
 
 
-If this method succeeds, it returns **S_OK**. Otherwise, it returns an HRESULT error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 
 

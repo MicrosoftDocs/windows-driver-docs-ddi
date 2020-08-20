@@ -98,7 +98,7 @@ A pointer to the length of the output buffer.
 
 
 
-If this callback function succeeds, it returns **S_OK**. Otherwise, it returns an HRESULT error code.
+If this callback function succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 
 

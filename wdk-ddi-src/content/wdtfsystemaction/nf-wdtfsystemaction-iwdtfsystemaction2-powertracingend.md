@@ -57,7 +57,7 @@ This method ends a power trace session. Any power state events that occurred bet
 
 
 
-If this method succeeds, it returns **S_OK**. Otherwise, it returns an HRESULT error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 
 

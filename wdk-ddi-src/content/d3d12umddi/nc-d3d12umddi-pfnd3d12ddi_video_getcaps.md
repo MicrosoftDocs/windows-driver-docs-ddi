@@ -61,7 +61,7 @@ The handle of a device.
 
 ## -returns
 
-If this callback function succeeds, it returns **S_OK**. Otherwise, it returns an HRESULT error code.
+If this callback function succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
 

@@ -70,7 +70,7 @@ An offset for the debugging information.
 
 
 
-If this method succeeds, it returns **S_OK**. Otherwise, it returns an HRESULT error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 The method gets JUT debugging information from   a specified address from the debugging target, and then sets the current
     debugger scope context from that information. 

@@ -58,7 +58,7 @@ Starts a trace for power state transitions and saves an .etl file in the current
 
 
 
-If this method succeeds, it returns **S_OK**. Otherwise, it returns an HRESULT error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 
 
