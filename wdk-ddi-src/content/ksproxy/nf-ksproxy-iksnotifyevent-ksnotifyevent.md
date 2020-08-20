@@ -53,18 +53,15 @@ The **KsNotifyEvent** method requests that the KS object that owns the given Dir
 
 ### -param Event
 
-[in]
-Identifies the type of DirectShow event.
+[in] Identifies the type of DirectShow event.
 
 ### -param lParam1
 
-[in]
-Specifies the first data parameter for the event.
+[in] Specifies the first data parameter for the event.
 
 ### -param lParam2
 
-[in]
-Specifies the second data parameter for the event.
+[in] Specifies the second data parameter for the event.
 
 ## -returns
 
@@ -72,4 +69,4 @@ Returns NOERROR if successful; otherwise, returns an error code.
 
 ## -see-also
 
-[IMediaEvent](https://docs.microsoft.com/en-us/windows/win32/api/control/nn-control-imediaevent)
+[IMediaEvent](https://docs.microsoft.com/windows/win32/api/control/nn-control-imediaevent)
