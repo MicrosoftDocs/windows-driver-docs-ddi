@@ -41,7 +41,7 @@ targetos: Windows
 req.typenames: 
 ---
 
-# PCW\_CALLBACK callback function
+# PCW_CALLBACK callback function
 
 ## -description
 
@@ -51,11 +51,11 @@ Providers can optionally implement a `PCW_CALLBACK` function to receive notifica
 
 ### -param Type [in]
 
-A [PCW\_CALLBACK\_TYPE](ne-wdm-_pcw_callback_type.md) enumeration value indicating why the callback was invoked. Possible values are `PcwCallbackAddCounter`, `PcwCallbackRemoveCounter`, `PcwCallbackEnumerateInstances`, and `PcwCallbackCollectData`.
+A [PCW_CALLBACK_TYPE](ne-wdm-_pcw_callback_type.md) enumeration value indicating why the callback was invoked. Possible values are `PcwCallbackAddCounter`, `PcwCallbackRemoveCounter`, `PcwCallbackEnumerateInstances`, and `PcwCallbackCollectData`.
 
 ### -param Info [in]
 
-A pointer to a [PCW\_CALLBACK\_INFORMATION](ns-wdm-_pcw_callback_information.md) union that supplies details about why the provider callback was invoked. The details will be in the field corresponding to the `Type` parameter. For example, if `Type == PcwCallbackEnumerateInstances` then the details will be in `Info->EnumerateInstances`.
+A pointer to a [PCW_CALLBACK_INFORMATION](ns-wdm-_pcw_callback_information.md) union that supplies details about why the provider callback was invoked. The details will be in the field corresponding to the `Type` parameter. For example, if `Type == PcwCallbackEnumerateInstances` then the details will be in `Info->EnumerateInstances`.
 
 ### -param Context [in, optional]
 
@@ -327,9 +327,9 @@ In the `DriverEntry` routine of the KCS sample, the `KcsGeometricWaveCallback` f
 
 [PcwCreateInstance function](nf-wdm-pcwcreateinstance.md)
 
-[\_PCW\_CALLBACK\_TYPE enumeration](ne-wdm-_pcw_callback_type.md)
+[PCW_CALLBACK_TYPE enumeration](ne-wdm-_pcw_callback_type.md)
 
-[\_PCW\_CALLBACK\_INFORMATION structure](ns-wdm-_pcw_callback_information.md)
+[PCW_CALLBACK_INFORMATION structure](ns-wdm-_pcw_callback_information.md)
 
 [CTRPP](https://docs.microsoft.com/windows/win32/perfctrs/ctrpp)
 
