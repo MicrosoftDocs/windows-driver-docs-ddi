@@ -57,7 +57,7 @@ This structure describes the scanned image data that is passed to the <a href="h
 
 ### -field EventType
 
-The type of event. For the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/dn757466(v=vs.85)">BarcodeScannerImagePreviewReceived</a> event the value of this field is <b>BarcodeScannerImagePreviewReceived</b>.
+The type of event. For the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/dn757466(v=vs.85)">BarcodeScannerImagePreviewReceived</a> event the value of this field is **BarcodeScannerImagePreviewReceived**.
 
 
 ### -field DataLength
@@ -69,7 +69,7 @@ The length, in bytes, of the image preview data.
 
 
 
-The image preview bitmap data immediately follows after this structure in memory for <i>DataLength</i> bytes.
+The image preview bitmap data immediately follows after this structure in memory for *DataLength* bytes.
 
 
 

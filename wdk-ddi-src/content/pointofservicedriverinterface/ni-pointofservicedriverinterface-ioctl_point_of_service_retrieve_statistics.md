@@ -5,7 +5,7 @@ description: This I/O control function returns unified point of service (UPOS) s
 old-location: pos\ioctl_point_of_service_retrieve_statistics.htm
 tech.root: pos
 ms.assetid: 8c63ef41-e4dd-4b34-a897-c9bec13f4211
-ms.date: 02/23/2018
+ms.date: 08/21/2020
 keywords: ["IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS IOCTL"]
 ms.keywords: IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS, IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS control, IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS, pos.ioctl_point_of_service_retrieve_statistics
 f1_keywords:
@@ -43,63 +43,39 @@ req.typenames:
 
 # IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS IOCTL
 
-
 ## -description
-
 
 This I/O control function returns unified point of service (UPOS) standard information about a device such as its category, manufacturer, and firmware revision number.
 
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
-[in] Not used with this operation; set to <b>NULL</b>.
-
+[in] Not used with this operation; set to **NULL**.
 
 ### -input-buffer-length
 
-Not used with this operation; set to <b>0</b> (zero).
-
+Not used with this operation; set to **0** (zero).
 
 ### -output-buffer
 
-Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pointofservicedriverinterface/ns-pointofservicedriverinterface-_posstatisticsheader">PosStatisticsHeader</a> structure that contains the statistics.
-
+Pointer to the [PosStatisticsHeader](https://docs.microsoft.com/windows-hardware/drivers/ddi/pointofservicedriverinterface/ns-pointofservicedriverinterface-_posstatisticsheader) structure that contains the statistics.
 
 ### -output-buffer-length
 
-Size of the output buffer in bytes. Set to sizeof(<i>PosStatisticsHeader</i>).
-
+Size of the output buffer in bytes. Set to sizeof(*PosStatisticsHeader*).
 
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
-Returns <b>TRUE</b> if successful; otherwise, returns <b>FALSE</b>.
+Returns **TRUE** if successful; otherwise, returns **FALSE**.
 
 ## -remarks
 
-To get extended error information, call <a href="https://go.microsoft.com/fwlink/p/?LinkId=316871">GetLastError</a>. The following list shows common error values:
+To get extended error information, call [GetLastError](https://docs.microsoft.com/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror). The following list shows common error values:
 
 - STATUS_BUFFER_OVERFLOW: The output buffer is not large enough to hold the statistics.
 

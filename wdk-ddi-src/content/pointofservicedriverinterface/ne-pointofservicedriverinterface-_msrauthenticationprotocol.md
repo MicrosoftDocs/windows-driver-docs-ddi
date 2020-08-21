@@ -69,7 +69,7 @@ Challenge-response authentication is supported.
 
 
 
-<div class="alert"><b>Tip</b>  Password authentication is an example of challenge-response authentication.</div>
+<div class="alert">**Tip**  Password authentication is an example of challenge-response authentication.</div>
 <div> </div>
 
 

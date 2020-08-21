@@ -5,7 +5,7 @@ description: This structure indicates the type of device, version, and recommend
 old-location: pos\posdevicebasicstype.htm
 tech.root: pos
 ms.assetid: 5f882f37-0554-48c0-b4a0-026d42452f56
-ms.date: 02/23/2018
+ms.date: 08/21/2020
 keywords: ["PosDeviceBasicsType structure"]
 ms.keywords: PosDeviceBasicsType, PosDeviceBasicsType structure, _PosDeviceBasicsType, pointofservicedriverinterface/PosDeviceBasicsType, pos.posdevicebasicstype
 f1_keywords:
@@ -43,29 +43,20 @@ req.typenames: PosDeviceBasicsType
 
 # _PosDeviceBasicsType structure
 
-
 ## -description
-
 
 This structure indicates the type of device, version, and recommended buffer size as specified by the driver.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Version
 
 Contains the major and minor version of the POS driver interface. The top 16 bits contains the major version and the bottom 16 bits contains the minor version.
 
-
 ### -field DeviceType
 
-Indicates the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pointofservicecommontypes/ne-pointofservicecommontypes-_posdevicetype">PosDeviceType</a> of the POS device (for example, a barcode scanner or a magnetic stripe reader).
-
+Indicates the [PosDeviceType](https://docs.microsoft.com/windows-hardware/drivers/ddi/pointofservicecommontypes/ne-pointofservicecommontypes-_posdevicetype) of the POS device (for example, a barcode scanner or a magnetic stripe reader).
 
 ### -field RecommendedBufferSize
 
-Indicates the size of the buffer that needs to be allocated to receive event data when calling <a href="https://go.microsoft.com/fwlink/p/?LinkId=314125">ReadFile</a> to retrieve events for this device
-
+Indicates the size of the buffer that needs to be allocated to receive event data when calling [ReadFile](https://docs.microsoft.com/windows/win32/api/fileapi/nf-fileapi-readfile) to retrieve events for this device.
