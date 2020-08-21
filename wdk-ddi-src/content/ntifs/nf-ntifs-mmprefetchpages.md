@@ -5,7 +5,7 @@ description: The MmPrefetchPages routine reads groups of pages from secondary st
 old-location: ifsk\mmprefetchpages.htm
 tech.root: ifsk
 ms.assetid: fd76dfed-2c47-4289-a672-1db8129f5a9e
-ms.date: 04/16/2018
+ms.date: 08/21/2020
 keywords: ["MmPrefetchPages function"]
 ms.keywords: MmPrefetchPages, MmPrefetchPages routine [Installable File System Drivers], ifsk.mmprefetchpages, mmref_6e555336-a134-409a-9c8a-a4a217e38599.xml, ntifs/MmPrefetchPages
 f1_keywords:
@@ -49,13 +49,13 @@ The **MmPrefetchPages** routine reads groups of pages from secondary storage in 
 
 ## -parameters
 
-### -param NumberOfLists 
-[in]
-The number of read-lists in the array passed in the *ReadLists* parameter.
+### -param NumberOfLists
 
-### -param ReadLists 
-[in]
-A pointer to an array of read-lists to be prefetched.
+[in] The number of read-lists in the array passed in the *ReadLists* parameter.
+
+### -param ReadLists
+
+[in] A pointer to an array of read-lists to be prefetched.
 
 ## -returns
 
@@ -71,3 +71,7 @@ A pointer to an array of read-lists to be prefetched.
 ## -remarks
 
 **MmPrefetchPages** reads pages from secondary storage described in the read-lists in the optimal fashion. The caller builds a list of various file objects and logical block offsets, passing them to the **MmPrefetchPages** function which examines the internal pages, reading in those that are not already valid or in transition. The pages are read with a single read, using a dummy page to bridge small gaps. If the gap is "large", then separate reads are issued.
+
+> [!NOTE]
+>
+> The [section object](https://docs.microsoft.com/windows-hardware/drivers/kernel/section-objects-and-views) must already exist for the file to be prefetched. A section handle can be obtained by calling [**ZwCreateSection**](../wdm/nf-wdm-zwcreatefile.md).
