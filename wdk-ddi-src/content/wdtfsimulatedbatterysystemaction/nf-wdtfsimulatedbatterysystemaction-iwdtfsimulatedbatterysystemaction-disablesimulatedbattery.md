@@ -68,7 +68,7 @@ Use this method is used to disable the simulated battery (uninstalls simulated
 
 
 
-If this method succeeds, it returns **S_OK**. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 
 
