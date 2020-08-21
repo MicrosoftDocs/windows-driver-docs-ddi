@@ -139,8 +139,9 @@ Specifies the processor that will receive packets where the hash cannot be calcu
 
 The **NDIS_RECEIVE_SCALE_PARAMETERS** structure defines the [Receive Side Scaling (RSS)](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-receive-side-scaling2) parameters for the [OID_GEN_RECEIVE_SCALE_PARAMETERS](https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-receive-scale-parameters) OID.
 
-> [!NOTE] The indirection table and secret key are appended after the
-> **NDIS_RECEIVE_SCALE_PARAMETERS** structure members.
+> [!NOTE]
+> The indirection table and secret key are appended after the **NDIS_RECEIVE_SCALE_PARAMETERS**
+> structure members.
 
 The indirection table has the following version-specific format:
 
