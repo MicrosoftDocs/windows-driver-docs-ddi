@@ -57,10 +57,10 @@ This structure defines the types of magnetic stripe cards supported by the reade
 
 ### -field Count
 
-Count of supported magnetic stripe cards defined in <b>CardTypes[MSR_CARD_TYPE_MAX_COUNT]</b>.
+Count of supported magnetic stripe cards defined in **CardTypes[MSR_CARD_TYPE_MAX_COUNT]**.
 
 
 ### -field CardTypes
 
-Magnetic stripe cards supported by the reader. The first <b>Count</b> members are valid.
+Magnetic stripe cards supported by the reader. The first **Count** members are valid.
 

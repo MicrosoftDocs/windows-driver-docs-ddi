@@ -57,7 +57,7 @@ This structure provides the authentication information used to authenticate a de
 
 ### -field Size
 
-If the optional <b>SessionId</b> is present, this will include the size of <b>SessionId[MSR_SESSION_ID_SIZE]</b>
+If the optional **SessionId** is present, this will include the size of **SessionId[MSR_SESSION_ID_SIZE]**
 
 
 ### -field Challenge1

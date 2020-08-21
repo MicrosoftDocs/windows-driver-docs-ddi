@@ -57,7 +57,7 @@ This structure describes a buffer of barcode symbologies supported by the driver
 
 ### -field dataLengthInBytes
 
-The size of the buffer that contains the symbologies, including the size of the <b>PosBarcodeScanDataTypeData</b> structure.
+The size of the buffer that contains the symbologies, including the size of the **PosBarcodeScanDataTypeData** structure.
 
 
 ### -field scanDataTypes_0

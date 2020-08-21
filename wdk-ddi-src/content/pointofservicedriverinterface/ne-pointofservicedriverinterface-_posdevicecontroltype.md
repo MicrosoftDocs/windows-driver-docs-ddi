@@ -271,7 +271,7 @@ Represents <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/poin
 
 
 
-This enumeration provides values for each IOCTL that you can send to the device driver. It is a convenient way to indicate which IOCTL to dispatch when calling functions like <b>SendDeviceCommand()</b>.
+This enumeration provides values for each IOCTL that you can send to the device driver. It is a convenient way to indicate which IOCTL to dispatch when calling functions like **SendDeviceCommand()**.
 
 
 

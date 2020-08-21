@@ -57,7 +57,7 @@ This structure contains the value of a statistic.
 
 ### -field EntryName
 
-Indicates the NULL-terminated statistic name (for example, <i>GoodScanCount</i> or <i>BadScanCount</i>).
+Indicates the NULL-terminated statistic name (for example, *GoodScanCount* or *BadScanCount*).
 
 
 ### -field Value
