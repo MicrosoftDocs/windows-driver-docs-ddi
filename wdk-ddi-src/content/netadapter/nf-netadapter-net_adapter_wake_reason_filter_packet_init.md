@@ -20,7 +20,7 @@ req.namespace:
 req.redist: 
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
-req.target-type: 
+req.target-type: Universal
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
@@ -41,7 +41,14 @@ dev_langs:
 
 ## -description
 
-The **NET_ADAPTER_WAKE_REASON_FILTER_PACKET_INIT** method initializes a [**NET_ADAPTER_WAKE_REASON_PACKET**](../netadapter/ns-netadapter-_net_adapter_wake_reason_packet.md) structure for a wake-up event caused by a packet that matches a filter the driver supports.
+> [!WARNING]
+> Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+>
+> NetAdapterCx is preview only in Windows 10, version 2004.
+>
+> Currently, NetAdapterCx client drivers cannot be certified.
+
+The client driver calls the  **NET_ADAPTER_WAKE_REASON_FILTER_PACKET_INIT** method to initialize a [**NET_ADAPTER_WAKE_REASON_PACKET**](../netadapter/ns-netadapter-_net_adapter_wake_reason_packet.md) structure when reporting that a packet matching a driver supported filter caused a wake-up event.
 
 ## -parameters
 
