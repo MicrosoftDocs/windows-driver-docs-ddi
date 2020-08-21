@@ -65,11 +65,11 @@ A WDFMEMORY buffer that contains the wake packet.
 
 ## -remarks
 
-Call [**NET_ADAPTER_WAKE_REASON_PACKET_INIT**](nf-netadapter-net_adapter_wake_reason_packet_init.md) to initialize this structure when the [**NET_WAKE_SOURCE_TYPE**](../netwakesource/ne-netwakesource-_net_wake_source_type) is NetWakeSourceTypeBitmapPattern.
+Call [**NET_ADAPTER_WAKE_REASON_PACKET_INIT**](nf-netadapter-net_adapter_wake_reason_packet_init.md) to initialize this structure if the [**NET_WAKE_SOURCE_TYPE**](../netwakesource/ne-netwakesource-_net_wake_source_type.md) is NetWakeSourceTypeBitmapPattern.
 
-Call [**NET_ADAPTER_WAKE_REASON_MAGIC_PACKET_INIT**](nf-netadapter-net_adapter_wake_reason_magic_packet_init.md) to initialize this structure when the **NET_WAKE_SOURCE_TYPE** is NetWakeSourceTypeMagicPacket.
+Call [**NET_ADAPTER_WAKE_REASON_MAGIC_PACKET_INIT**](nf-netadapter-net_adapter_wake_reason_magic_packet_init.md) to initialize this structure if the **NET_WAKE_SOURCE_TYPE** is NetWakeSourceTypeMagicPacket.
 
-Call [**NET_ADAPTER_WAKE_REASON_FILTER_PACKET_INIT**](nf-netadapter-net_adapter_wake_reason_filter_packet_init.md) to initialize this structure when the **NET_WAKE_SOURCE_TYPE** is NetWakeSourceTypePacketFilterMatch.
+Call [**NET_ADAPTER_WAKE_REASON_FILTER_PACKET_INIT**](nf-netadapter-net_adapter_wake_reason_filter_packet_init.md) to initialize this structure if the **NET_WAKE_SOURCE_TYPE** is NetWakeSourceTypePacketFilterMatch.
 
 A **NET_ADAPTER_WAKE_REASON_PACKET** structure is passed as an input parameter to [**NetAdapterReportWakeReasonPacket**](../netadapter/nf-netadapter-netadapterreportwakereasonpacket.md).
 
