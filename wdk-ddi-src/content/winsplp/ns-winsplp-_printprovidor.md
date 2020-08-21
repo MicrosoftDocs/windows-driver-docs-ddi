@@ -60,8 +60,8 @@ The PRINTPROVIDOR structure is used as a parameter to a print provider's [Initia
 | Return value | Definition |
 | --- | --- |
 | ROUTER_SUCCESS | The provider supports the specified printer and has opened it. |
-| ROUTER_STOP_ROUTING | The provider supports the specified printer, but an error occurred and the printer could not be opened. It is assumed that no other provider can support the printer. The function must call [SetLastError](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror). |
-| ROUTER_UNKNOWN | The provider does not support the specified printer. The function must call [SetLastError](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror) and specify ERROR_INVALID_NAME. |
+| ROUTER_STOP_ROUTING | The provider supports the specified printer, but an error occurred and the printer could not be opened. It is assumed that no other provider can support the printer. The function must call [SetLastError](https://docs.microsoft.com/windows/win32/api/errhandlingapi/nf-errhandlingapi-setlasterror). |
+| ROUTER_UNKNOWN | The provider does not support the specified printer. The function must call [SetLastError](https://docs.microsoft.com/windows/win32/api/errhandlingapi/nf-errhandlingapi-setlasterror) and specify ERROR_INVALID_NAME. |
 
 The router calls each provider until one of them returns ROUTER_SUCCESS or ROUTER_STOP_ROUTING. If the provider returns ROUTER_SUCCESS, it must also return a unique handle. For more information, see [Introduction to Print Providers](https://docs.microsoft.com/windows-hardware/drivers/print/introduction-to-print-providers).) The router first attempts to call the provider's **OpenPrinterEx** function. If that function is not supported, the router calls [OpenPrinter](https://docs.microsoft.com/windows/win32/printdocs/openprinter).
 
@@ -99,11 +99,11 @@ The router calls each provider until one of them returns ROUTER_SUCCESS or ROUTE
 
 ### -field fpAddPrinterDriver
 
-(Optional. Can be NULL.) Pointer to the provider's [AddPrinterDriver](https://docs.microsoft.com/windows/win32/printdocs/addprinterdriver) function. If the provider does not support the specified driver or server, it should specify ERROR_INVALID_NAME to [SetLastError](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror) before returning **FALSE**.
+(Optional. Can be NULL.) Pointer to the provider's [AddPrinterDriver](https://docs.microsoft.com/windows/win32/printdocs/addprinterdriver) function. If the provider does not support the specified driver or server, it should specify ERROR_INVALID_NAME to [SetLastError](https://docs.microsoft.com/windows/win32/api/errhandlingapi/nf-errhandlingapi-setlasterror) before returning **FALSE**.
 
 ### -field fpEnumPrinterDrivers
 
-(Optional. Can be NULL.) Pointer to the provider's [EnumPrinterDrivers](https://docs.microsoft.com/windows/win32/printdocs/enumprinterdrivers) function. If the provider does not support the specified server, it should specify ERROR_INVALID_NAME to [SetLastError](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror) before returning **FALSE**.
+(Optional. Can be NULL.) Pointer to the provider's [EnumPrinterDrivers](https://docs.microsoft.com/windows/win32/printdocs/enumprinterdrivers) function. If the provider does not support the specified server, it should specify ERROR_INVALID_NAME to [SetLastError](https://docs.microsoft.com/windows/win32/api/errhandlingapi/nf-errhandlingapi-setlasterror) before returning **FALSE**.
 
 ### -field fpGetPrinterDriver
 
@@ -111,11 +111,11 @@ The router calls each provider until one of them returns ROUTER_SUCCESS or ROUTE
 
 ### -field fpGetPrinterDriverDirectory
 
-(Optional. Can be NULL.) Pointer to the provider's [GetPrinterDriverDirectory](https://docs.microsoft.com/windows/win32/printdocs/getprinterdriverdirectory) function. If the provider does not support the specified server, it should specify ERROR_INVALID_NAME to [SetLastError](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror) before returning **FALSE**.
+(Optional. Can be NULL.) Pointer to the provider's [GetPrinterDriverDirectory](https://docs.microsoft.com/windows/win32/printdocs/getprinterdriverdirectory) function. If the provider does not support the specified server, it should specify ERROR_INVALID_NAME to [SetLastError](https://docs.microsoft.com/windows/win32/api/errhandlingapi/nf-errhandlingapi-setlasterror) before returning **FALSE**.
 
 ### -field fpDeletePrinterDriver
 
-(Optional. Can be NULL.) Pointer to the provider's [DeletePrinterDriver](https://docs.microsoft.com/windows/win32/printdocs/deleteprinterdriver) function. If the provider does not support the specified server, it should specify ERROR_INVALID_NAME to [SetLastError](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror) before returning **FALSE**.
+(Optional. Can be NULL.) Pointer to the provider's [DeletePrinterDriver](https://docs.microsoft.com/windows/win32/printdocs/deleteprinterdriver) function. If the provider does not support the specified server, it should specify ERROR_INVALID_NAME to [SetLastError](https://docs.microsoft.com/windows/win32/api/errhandlingapi/nf-errhandlingapi-setlasterror) before returning **FALSE**.
 
 ### -field fpAddPrintProcessor
 
@@ -229,15 +229,15 @@ Obsolete. Must be NULL.
 
 ### -field fpAddPort
 
-(Optional. Can be NULL.) Pointer to the provider's [AddPort](https://docs.microsoft.com/windows/win32/printdocs/addport) function. If the provider does not support the specified port, it must supply ERROR_NOT_SUPPORTED to [SetLastError](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror) before returning **FALSE**.
+(Optional. Can be NULL.) Pointer to the provider's [AddPort](https://docs.microsoft.com/windows/win32/printdocs/addport) function. If the provider does not support the specified port, it must supply ERROR_NOT_SUPPORTED to [SetLastError](https://docs.microsoft.com/windows/win32/api/errhandlingapi/nf-errhandlingapi-setlasterror) before returning **FALSE**.
 
 ### -field fpConfigurePort
 
-(Required.) Pointer to the provider's [ConfigurePort](https://docs.microsoft.com/windows/win32/printdocs/configureport) function. If the function supplies ERROR_NOT_SUPPORTED, ERROR_INVALID_NAME, or ERROR_UNKNOWN_PORT to [SetLastError](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror), the router will attempt to call another provider.
+(Required.) Pointer to the provider's [ConfigurePort](https://docs.microsoft.com/windows/win32/printdocs/configureport) function. If the function supplies ERROR_NOT_SUPPORTED, ERROR_INVALID_NAME, or ERROR_UNKNOWN_PORT to [SetLastError](https://docs.microsoft.com/windows/win32/api/errhandlingapi/nf-errhandlingapi-setlasterror), the router will attempt to call another provider.
 
 ### -field fpDeletePort
 
-(Required.) Pointer to the provider's [DeletePort](https://docs.microsoft.com/windows/win32/printdocs/deleteport) function. If the provider does not support the specified port, it must supply ERROR_NOT_SUPPORTED to [SetLastError](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror) before returning **FALSE**.
+(Required.) Pointer to the provider's [DeletePort](https://docs.microsoft.com/windows/win32/printdocs/deleteport) function. If the provider does not support the specified port, it must supply ERROR_NOT_SUPPORTED to [SetLastError](https://docs.microsoft.com/windows/win32/api/errhandlingapi/nf-errhandlingapi-setlasterror) before returning **FALSE**.
 
 ### -field fpCreatePrinterIC
 
@@ -265,11 +265,11 @@ Not used. Must be NULL.
 
 ### -field fpAddMonitor
 
-(Optional. Can be NULL.) Pointer to the provider's [AddMonitor](https://docs.microsoft.com/windows/win32/printdocs/addmonitor) function. If the provider does not support the specified monitor, it must supply ERROR_INVALID_NAME to [SetLastError](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror) before returning **FALSE**.
+(Optional. Can be NULL.) Pointer to the provider's [AddMonitor](https://docs.microsoft.com/windows/win32/printdocs/addmonitor) function. If the provider does not support the specified monitor, it must supply ERROR_INVALID_NAME to [SetLastError](https://docs.microsoft.com/windows/win32/api/errhandlingapi/nf-errhandlingapi-setlasterror) before returning **FALSE**.
 
 ### -field fpDeleteMonitor
 
-(Optional. Can be NULL.) Pointer to the provider's [DeleteMonitor](https://docs.microsoft.com/windows/win32/printdocs/addmonitor) function. If the provider does not support the specified monitor, it must supply ERROR_INVALID_NAME to [SetLastError](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror) before returning **FALSE**.
+(Optional. Can be NULL.) Pointer to the provider's [DeleteMonitor](https://docs.microsoft.com/windows/win32/printdocs/addmonitor) function. If the provider does not support the specified monitor, it must supply ERROR_INVALID_NAME to [SetLastError](https://docs.microsoft.com/windows/win32/api/errhandlingapi/nf-errhandlingapi-setlasterror) before returning **FALSE**.
 
 ### -field fpResetPrinter
 
@@ -289,7 +289,7 @@ Not used. Must be NULL.
 
 ### -field fpAddPortEx
 
-(Optional. Can be NULL.) Pointer to the provider's **AddPortEx** function. If the provider does not support the specified port, it must supply ERROR_NOT_SUPPORTED to [SetLastError](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror) before returning **FALSE**.
+(Optional. Can be NULL.) Pointer to the provider's **AddPortEx** function. If the provider does not support the specified port, it must supply ERROR_NOT_SUPPORTED to [SetLastError](https://docs.microsoft.com/windows/win32/api/errhandlingapi/nf-errhandlingapi-setlasterror) before returning **FALSE**.
 
 ### -field fpShutDown
 
@@ -309,7 +309,7 @@ For internal use only. Must be NULL.
 
 ### -field fpSetPort
 
-(Optional. Can be NULL.) Pointer to the provider's [SetPort](https://docs.microsoft.com/windows/win32/printdocs/setport) function. If the function supplies ERROR_NOT_SUPPORTED, ERROR_INVALID_NAME, or ERROR_UNKNOWN_PORT to [SetLastError](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror), the router will attempt to call another provider.
+(Optional. Can be NULL.) Pointer to the provider's [SetPort](https://docs.microsoft.com/windows/win32/printdocs/setport) function. If the function supplies ERROR_NOT_SUPPORTED, ERROR_INVALID_NAME, or ERROR_UNKNOWN_PORT to [SetLastError](https://docs.microsoft.com/windows/win32/api/errhandlingapi/nf-errhandlingapi-setlasterror), the router will attempt to call another provider.
 
 ### -field fpEnumPrinterData
 
@@ -361,7 +361,7 @@ For internal use only. Must be NULL.
 
 ### -field fpDeletePrinterDriverEx
 
-(Optional. Can be NULL.) Pointer to the provider's [DeletePrinterDriverEx](https://docs.microsoft.com/windows/win32/printdocs/deleteprinterdriverex) function. If the provider does not support the specified server, it should specify ERROR_INVALID_NAME to [SetLastError](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror) before returning **FALSE**.
+(Optional. Can be NULL.) Pointer to the provider's [DeletePrinterDriverEx](https://docs.microsoft.com/windows/win32/printdocs/deleteprinterdriverex) function. If the provider does not support the specified server, it should specify ERROR_INVALID_NAME to [SetLastError](https://docs.microsoft.com/windows/win32/api/errhandlingapi/nf-errhandlingapi-setlasterror) before returning **FALSE**.
 
 ### -field fpAddPerMachineConnection
 
@@ -381,7 +381,7 @@ For internal use only. Must be NULL.
 
 ### -field fpAddPrinterDriverEx
 
-(Optional. Can be NULL.) Pointer to the provider's [AddPrinterDriverEx](https://docs.microsoft.com/windows/win32/printdocs/addprinterdriverex) function. If the provider does not support the specified server, it should specify ERROR_INVALID_NAME to [SetLastError](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror) before returning **FALSE**.
+(Optional. Can be NULL.) Pointer to the provider's [AddPrinterDriverEx](https://docs.microsoft.com/windows/win32/printdocs/addprinterdriverex) function. If the provider does not support the specified server, it should specify ERROR_INVALID_NAME to [SetLastError](https://docs.microsoft.com/windows/win32/api/errhandlingapi/nf-errhandlingapi-setlasterror) before returning **FALSE**.
 
 ### -field fpSplReadPrinter
 

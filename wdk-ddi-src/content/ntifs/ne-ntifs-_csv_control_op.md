@@ -35,7 +35,7 @@ targetos: Windows
 
 ## -description
 
-Specifies the type of cluster shared volume (CSV) control operation to use with the [FSCTL_CSV_CONTROL](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_csv_control) control code.
+Specifies the type of cluster shared volume (CSV) control operation to use with the [FSCTL_CSV_CONTROL](https://docs.microsoft.com/windows/win32/api/winioctl/ni-winioctl-fsctl_csv_control) control code.
 
 ## -enum-fields
 
@@ -93,7 +93,7 @@ Enables caching of the CSV file.
 
 ## -remarks
 
-An alternative to calling the [FSCTL_CSV_CONTROL](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_csv_control) control code with this enumeration is to use the [CSV_CONTROL_PARAM](https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-csv_control_param) structure, which encapsulates a member of this enumeration type.
+An alternative to calling the [FSCTL_CSV_CONTROL](https://docs.microsoft.com/windows/win32/api/winioctl/ni-winioctl-fsctl_csv_control) control code with this enumeration is to use the [CSV_CONTROL_PARAM](https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-csv_control_param) structure, which encapsulates a member of this enumeration type.
 
 ## -see-also
 
@@ -107,4 +107,4 @@ An alternative to calling the [FSCTL_CSV_CONTROL](https://docs.microsoft.com/win
 
 [CSV_QUERY_REDIRECT_STATE](https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-csv_query_redirect_state)
 
-[FSCTL_CSV_CONTROL](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_csv_control)
+[FSCTL_CSV_CONTROL](https://docs.microsoft.com/windows/win32/api/winioctl/ni-winioctl-fsctl_csv_control)

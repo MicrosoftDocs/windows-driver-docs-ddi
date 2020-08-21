@@ -146,9 +146,9 @@ The driver must call [ZwClose](https://docs.microsoft.com/windows-hardware/drive
 
 The registry keys opened by this routine are nonvolatile.
 
-User-mode setup applications can access these registry keys by using [device installation functions](https://docs.microsoft.com/windows-hardware/drivers/install/using-device-installation-functions) such as [SetupDiOpenDevRegKey](https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiopendevregkey). An example of a user-mode setup applications would be a class installer, a Win32 DLL that performs installation operations for devices in a particular [Device Setup Class](https://docs.microsoft.com/windows-hardware/drivers/install/overview-of-device-setup-classes).
+User-mode setup applications can access these registry keys by using [device installation functions](https://docs.microsoft.com/windows-hardware/drivers/install/using-device-installation-functions) such as [SetupDiOpenDevRegKey](https://docs.microsoft.com/windows/win32/api/setupapi/nf-setupapi-setupdiopendevregkey). An example of a user-mode setup applications would be a class installer, a Win32 DLL that performs installation operations for devices in a particular [Device Setup Class](https://docs.microsoft.com/windows-hardware/drivers/install/overview-of-device-setup-classes).
 
-To create registry keys, use <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-addreg-directive">INF AddReg directives</a> in an INF file or use [SetupDiCreateDevRegKey](https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicreatedevregkeya) in a setup application.
+To create registry keys, use <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-addreg-directive">INF AddReg directives</a> in an INF file or use [SetupDiCreateDevRegKey](https://docs.microsoft.com/windows/win32/api/setupapi/nf-setupapi-setupdicreatedevregkeya) in a setup application.
 
 Callers of **IoOpenDeviceRegistryKey** must be running at IRQL = PASSIVE_LEVEL in the context of a system thread. 
 

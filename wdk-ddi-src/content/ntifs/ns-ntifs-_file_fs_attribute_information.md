@@ -101,7 +101,7 @@ This information can be queried in either of the following ways:
 
 * Call [FltQueryVolumeInformation](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueryvolumeinformation) or [ZwQueryVolumeInformationFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-zwqueryvolumeinformationfile), passing **FileFsAttributeInformation** as the value of *FileInformationClass* and passing a caller-allocated, **FILE_FS_ATTRIBUTE_INFORMATION**-structured buffer as the value of *FileInformation*.
 
-  * Note: On CSVFS, **FileFsAttributeInformation** returns **FILE_FS_ATTRIBUTE_INFORMATION** for the CSVFS file system. If you want to query **FileFsAttributeInformation** for the file system CSVFS is layered on then you should use [FSCTL_CSV_QUERY_DOWN_LEVEL_FILE_SYSTEM_CHARACTERISTICS](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_csv_query_down_level_file_system_characteristics).
+  * Note: On CSVFS, **FileFsAttributeInformation** returns **FILE_FS_ATTRIBUTE_INFORMATION** for the CSVFS file system. If you want to query **FileFsAttributeInformation** for the file system CSVFS is layered on then you should use [FSCTL_CSV_QUERY_DOWN_LEVEL_FILE_SYSTEM_CHARACTERISTICS](https://docs.microsoft.com/windows/win32/api/winioctl/ni-winioctl-fsctl_csv_query_down_level_file_system_characteristics).
 
 * Create an IRP with major function code [IRP_MJ_QUERY_VOLUME_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-query-volume-information).
 
