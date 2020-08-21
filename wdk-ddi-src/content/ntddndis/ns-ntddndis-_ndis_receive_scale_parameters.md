@@ -133,7 +133,7 @@ The size, in bytes, of a processor mask array entry.
 
 ### -field DefaultProcessorNumber
 
-Specifies the processor that will receive packets where the hash cannot be calculated.
+When RSS is enabled, specifies the processor that will receive packets where the hash cannot be calculated.
 
 ## -remarks
 
