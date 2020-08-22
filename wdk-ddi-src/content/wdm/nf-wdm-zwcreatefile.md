@@ -534,7 +534,7 @@ FILE_COMPLETE_IF_OPLOCKED
 
 </td>
 <td>
-Complete this operation immediately with an alternate success code of STATUS_OPLOCK_BREAK_IN_PROGRESS if the target file is opportunistic locked (oplock), rather than blocking the caller's thread. If the file is oplocked, another caller already has access to the file. This flag is not used by device and intermediate drivers. For information about oplock, see [Opportunistic Locks](https://docs.microsoft.com/windows/desktop/FileIO/opportunistic-locks).
+Complete this operation immediately with an alternate success code of STATUS_OPLOCK_BREAK_IN_PROGRESS if the target file is opportunistic locked (oplock), rather than blocking the caller's thread. If the file is oplocked, another caller already has access to the file. This flag is not used by device and intermediate drivers. For information about oplock, see [Opportunistic Locks](https://docs.microsoft.com/windows/win32/fileio/opportunistic-locks).
 
 </td>
 </tr>
@@ -554,7 +554,7 @@ FILE_OPEN_REPARSE_POINT
 
 </td>
 <td>
-Open a file with a reparse point and bypass normal reparse point processing for the file. For more information, see the following Remarks section. For information about reparse point, see [Reparse Points](https://docs.microsoft.com/windows/desktop/FileIO/reparse-points).
+Open a file with a reparse point and bypass normal reparse point processing for the file. For more information, see the following Remarks section. For information about reparse point, see [Reparse Points](https://docs.microsoft.com/windows/win32/fileio/reparse-points).
 
 </td>
 </tr>
@@ -618,7 +618,7 @@ FILE_RESERVE_OPFILTER
 
 </td>
 <td>
-This flag allows an application to request a Filter opportunistic lock (oplock) to prevent other applications from getting share violations. If there are already open handles, the create request will fail with STATUS_OPLOCK_NOT_GRANTED. For more information, see the following Remarks section. For information about oplock, see [Opportunistic Locks](https://docs.microsoft.com/windows/desktop/FileIO/opportunistic-locks).
+This flag allows an application to request a Filter opportunistic lock (oplock) to prevent other applications from getting share violations. If there are already open handles, the create request will fail with STATUS_OPLOCK_NOT_GRANTED. For more information, see the following Remarks section. For information about oplock, see [Opportunistic Locks](https://docs.microsoft.com/windows/win32/fileio/opportunistic-locks).
 
 </td>
 </tr>
@@ -856,6 +856,6 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntwritefile">ZwWriteFile</a>
  
 
- [Opportunistic Locks](https://docs.microsoft.com/windows/desktop/FileIO/opportunistic-locks)
+ [Opportunistic Locks](https://docs.microsoft.com/windows/win32/fileio/opportunistic-locks)
 
-[Reparse Points](https://docs.microsoft.com/windows/desktop/FileIO/reparse-points)
+[Reparse Points](https://docs.microsoft.com/windows/win32/fileio/reparse-points)

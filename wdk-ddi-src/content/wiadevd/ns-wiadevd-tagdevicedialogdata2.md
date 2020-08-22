@@ -55,11 +55,11 @@ Specifies the size, in bytes, of this structure.
 
 ### -field pIWiaItemRoot
 
-Points to an [IWiaItem2](https://docs.microsoft.com/windows/desktop/wia/-wia-iwiaitem2) interface that represents the valid root item in the application item tree.
+Points to an [IWiaItem2](https://docs.microsoft.com/windows/win32/wia/-wia-iwiaitem2) interface that represents the valid root item in the application item tree.
 
 ### -field dwFlags
 
-Specifies the flags passed to [IWiaItem2::DeviceDlg](https://docs.microsoft.com/windows/desktop/wia/-wia-iwiaitem2-devicedlg) and [IWiaDevMgr2::GetImageDlg](https://docs.microsoft.com/windows/desktop/wia/-wia-iwiadevmgr2-getimagedlg) by the calling program. The possible values for this member are WIA_DEVICE_DIALOG_SINGLE_IMAGE and WIA_DEVICE_DIALOG_USE_COMMON_UI (defined in header file *Wiadef.h*).
+Specifies the flags passed to [IWiaItem2::DeviceDlg](https://docs.microsoft.com/windows/win32/wia/-wia-iwiaitem2-devicedlg) and [IWiaDevMgr2::GetImageDlg](https://docs.microsoft.com/windows/win32/wia/-wia-iwiadevmgr2-getimagedlg) by the calling program. The possible values for this member are WIA_DEVICE_DIALOG_SINGLE_IMAGE and WIA_DEVICE_DIALOG_USE_COMMON_UI (defined in header file *Wiadef.h*).
 
 ### -field hwndParent
 
@@ -93,7 +93,7 @@ The **DeviceDialog** method must allocate the **BSTR** pointer array specified i
 
 To retain a reference to an **IWiaItem2** interface, the **DeviceDialog** method must call the [IUnknown::AddRef](https://docs.microsoft.com/windows/win32/api/unknwn/nf-unknwn-iunknown-addref) method on the interface before returning from the call.
 
-To access information about an **IWiaItem2** object's properties, the **DeviceDialog** method must query the object to obtain its [IWiaPropertyStorage](https://docs.microsoft.com/windows/win32/api/wia_xp/nn-wia_xp-iwiapropertystorage) interface. To transfer data from an **IWiaItem2** object, the **DeviceDialog** method must query the object to obtain its [IWiaTransfer](https://docs.microsoft.com/windows/desktop/wia/-wia-iwiatransfer) interface.
+To access information about an **IWiaItem2** object's properties, the **DeviceDialog** method must query the object to obtain its [IWiaPropertyStorage](https://docs.microsoft.com/windows/win32/api/wia_xp/nn-wia_xp-iwiapropertystorage) interface. To transfer data from an **IWiaItem2** object, the **DeviceDialog** method must query the object to obtain its [IWiaTransfer](https://docs.microsoft.com/windows/win32/wia/-wia-iwiatransfer) interface.
 
 ## -see-also
 
@@ -101,15 +101,15 @@ To access information about an **IWiaItem2** object's properties, the **DeviceDi
 
 [IUnknown::AddRef](https://docs.microsoft.com/windows/win32/api/unknwn/nf-unknwn-iunknown-addref)
 
-[IWiaDevMgr2::GetImageDlg](https://docs.microsoft.com/windows/desktop/wia/-wia-iwiadevmgr2-getimagedlg)
+[IWiaDevMgr2::GetImageDlg](https://docs.microsoft.com/windows/win32/wia/-wia-iwiadevmgr2-getimagedlg)
 
-[IWiaItem2](https://docs.microsoft.com/windows/desktop/wia/-wia-iwiaitem2)
+[IWiaItem2](https://docs.microsoft.com/windows/win32/wia/-wia-iwiaitem2)
 
-[IWiaItem2::DeviceDlg](https://docs.microsoft.com/windows/desktop/wia/-wia-iwiaitem2-devicedlg)
+[IWiaItem2::DeviceDlg](https://docs.microsoft.com/windows/win32/wia/-wia-iwiaitem2-devicedlg)
 
 [IWiaPropertyStorage](https://docs.microsoft.com/windows/win32/api/wia_xp/nn-wia_xp-iwiapropertystorage)
 
-[IWiaTransfer](https://docs.microsoft.com/windows/desktop/wia/-wia-iwiatransfer)
+[IWiaTransfer](https://docs.microsoft.com/windows/win32/wia/-wia-iwiatransfer)
 
 [IWiaUIExtension2::DeviceDialog](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff545053(v=vs.85))
 
