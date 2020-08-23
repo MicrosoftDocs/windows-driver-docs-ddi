@@ -79,7 +79,7 @@ A pointer to a variable to which **KeQueryPerformanceCounter** writes the perfor
 
 To obtain the frequency of the performance counter, specify a non-**NULL** pointer value for the *PerformanceFrequency* parameter. The frequency of the performance counter is fixed at system boot and is consistent across all processors. Therefore, a driver can cache the frequency of the performance counter during initialization.  
 
-For more info about this function and its usage, see [Acquiring high-resolution time stamps](https://docs.microsoft.com/windows/desktop/SysInfo/acquiring-high-resolution-time-stamps). 
+For more info about this function and its usage, see [Acquiring high-resolution time stamps](https://docs.microsoft.com/windows/win32/sysinfo/acquiring-high-resolution-time-stamps). 
 
 
 

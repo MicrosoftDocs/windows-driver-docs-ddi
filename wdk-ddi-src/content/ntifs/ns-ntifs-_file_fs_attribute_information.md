@@ -72,13 +72,13 @@ Bitmask of flags specifying attributes of the specified file system, as a compat
 | **FILE_NAMED_STREAMS** (0x00040000) | The file system supports named [data streams](https://docs.microsoft.com/openspecs/windows_protocols/ms-smb/c7d64f17-1ab6-4151-b9e8-f15813235c83#gt_f3529cd8-50da-4f36-aa0b-66af455edbb6) for a file. |
 | **FILE_READ_ONLY_VOLUME** (0x00080000) | The specified volume is read-only. |
 | **FILE_SEQUENTIAL_WRITE_ONCE** (0x00100000) | The specified volume can be written to one time only. The write must be performed in sequential order. |
-| **FILE_SUPPORTS_TRANSACTIONS** (0x00200000) | The file system supports [transaction processing](https://docs.microsoft.com/windows/desktop/FileIO/transactional-ntfs-portal). |
+| **FILE_SUPPORTS_TRANSACTIONS** (0x00200000) | The file system supports [transaction processing](https://docs.microsoft.com/windows/win32/fileio/transactional-ntfs-portal). |
 | **FILE_SUPPORTS_HARD_LINKS** (0x00400000) | The file system supports direct links to other devices and partitions. |
 | **FILE_SUPPORTS_EXTENDED_ATTRIBUTES** (0x00800000) | The file system supports extended attributes (EAs). |
 | **FILE_SUPPORTS_OPEN_BY_FILE_ID** (0x01000000) | The file system supports open by file ID. |
 | **FILE_SUPPORTS_USN_JOURNAL** (0x02000000) | The file system supports update sequence number (USN) journals. |
 | **FILE_SUPPORTS_INTEGRITY_STREAMS** (0x04000000) | The file system supports [integrity streams](https://docs.microsoft.com/windows-server/storage/refs/integrity-streams). |
-| **FILE_SUPPORTS_BLOCK_REFCOUNTING** (0x08000000) | The file system supports [block cloning](https://docs.microsoft.com/windows/desktop/FileIO/block-cloning), that is, sharing logical clusters between files on the same volume. The file system reallocates on writes to shared clusters. |
+| **FILE_SUPPORTS_BLOCK_REFCOUNTING** (0x08000000) | The file system supports [block cloning](https://docs.microsoft.com/windows/win32/fileio/block-cloning), that is, sharing logical clusters between files on the same volume. The file system reallocates on writes to shared clusters. |
 | **FILE_SUPPORTS_SPARSE_VDL** (0x10000000) | The file system tracks whether each cluster of a file contains valid data (either from explicit file writes or automatic zeros) or invalid data (has not yet been written to or zeroed). File systems that use sparse valid data length (VDL) do not store a valid data length and do not require that valid data be contiguous within a file. |
 | **FILE_DAX_VOLUME** (0x20000000)| The specified volume is a direct access (DAX) volume. |
 | **FILE_SUPPORTS_GHOSTING** (0x40000000) | The file system supports ghosting. |

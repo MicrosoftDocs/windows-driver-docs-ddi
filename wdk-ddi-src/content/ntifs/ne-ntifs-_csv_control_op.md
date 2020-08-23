@@ -97,7 +97,7 @@ An alternative to calling the [FSCTL_CSV_CONTROL](https://docs.microsoft.com/win
 
 ## -see-also
 
-[File Management Enumerations](https://docs.microsoft.com/windows/desktop/FileIO/file-management-enumerations)
+[File Management Enumerations](https://docs.microsoft.com/windows/win32/fileio/file-management-enumerations)
 
 [CSV_CONTROL_PARAM](https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-csv_control_param)
 
