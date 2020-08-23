@@ -103,11 +103,11 @@ For more info about this function and its usage, see [Acquiring high-resolution 
 
 
 
-[QueryPerformanceCounter](https://docs.microsoft.com/windows/desktop/api/profileapi/nf-profileapi-queryperformancecounter)
+[QueryPerformanceCounter](https://docs.microsoft.com/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter)
 
 
 
-[QueryPerformanceFrequency](https://docs.microsoft.com/windows/desktop/api/profileapi/nf-profileapi-queryperformancefrequency)
+[QueryPerformanceFrequency](https://docs.microsoft.com/windows/win32/api/profileapi/nf-profileapi-queryperformancefrequency)
  
 
  

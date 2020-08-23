@@ -72,7 +72,7 @@ GDI handle to the physical device. This handle is received by the printer driver
 
 ### -field hPrinter
 
-Spooler's handle to the printer. This handle is received by the printer driver's <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a> function, as the function's <i>hDriver</i> argument.
+Spooler's handle to the printer. This handle is received by the printer driver's <a href="https://docs.microsoft.com/windows/win32/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a> function, as the function's <i>hDriver</i> argument.
 
 
 ### -field hOEM
@@ -118,7 +118,7 @@ The DEVOBJ structure is accessible to graphics DDI hooking functions through the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
 
 
 

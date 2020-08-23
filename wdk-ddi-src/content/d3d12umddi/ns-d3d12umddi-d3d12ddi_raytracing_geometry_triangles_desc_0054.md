@@ -55,7 +55,7 @@ The memory pointed to must be in [resource state](ne-d3d12umddi-d3d12ddi_resourc
 
 ### -field IndexFormat
 
-A [DXGI_FORMAT](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format), representing the format of the indices in *IndexBuffer*. This value must be one of the following:
+A [DXGI_FORMAT](https://docs.microsoft.com/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format), representing the format of the indices in *IndexBuffer*. This value must be one of the following:
 
 * DXGI_FORMAT_UNKNOWN (when *IndexBuffer* is NULL)
 * DXGI_FORMAT_R32_UINT
@@ -63,7 +63,7 @@ A [DXGI_FORMAT](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxg
 
 ### -field VertexFormat
 
-A [DXGI_FORMAT](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format), representing the format of the vertices (positions) in *VertexBuffer*. This value must be one of the following:
+A [DXGI_FORMAT](https://docs.microsoft.com/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format), representing the format of the vertices (positions) in *VertexBuffer*. This value must be one of the following:
 
 * DXGI_FORMAT_R32G32_FLOAT (third component assumed 0)
 * DXGI_FORMAT_R32G32B32_FLOAT
