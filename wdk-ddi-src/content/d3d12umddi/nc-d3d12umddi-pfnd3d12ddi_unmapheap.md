@@ -1,9 +1,9 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_UNMAPHEAP
 title: PFND3D12DDI_UNMAPHEAP (d3d12umddi.h)
-description: Implemented by the client driver to unmap a heap.
+description: A client driver implements PFND3D12DDI_UNMAPHEAP to unmap a heap.
 ms.assetid: ff2743ac-ae14-4c19-836a-d8a869b3ff9b
-ms.date: 10/19/2018
+ms.date: 08/21/2020
 keywords: ["PFND3D12DDI_UNMAPHEAP callback function"]
 req.header: d3d12umddi.h
 req.include-header: 
@@ -46,36 +46,35 @@ dev_langs:
 
 ## -description
 
-Implemented by the client driver to unmap a heap.
+A client driver implements **PFND3D12DDI_UNMAPHEAP** to unmap a heap.
 
 ## -parameters
 
 ### -param Arg1
 
-A handle to the display device (graphics context).
+[in] *hDisplayDevice*: Handle to the display device (graphics context).
 
 ### -param Arg2
 
-A heap handle.
+[in] *hHeap*: Handle to a display device-managed heap that needs to be unmapped.
 
 ## -prototype
 
 ```cpp
 //Declaration
 
-PFND3D12DDI_UNMAPHEAP Pfnd3d12ddiUnmapheap; 
+PFND3D12DDI_UNMAPHEAP Pfnd3d12ddiUnmapheap;
 
 // Definition
 
-VOID Pfnd3d12ddiUnmapheap 
+VOID Pfnd3d12ddiUnmapheap
 (
-	 D3D12DDI_HDEVICE
-	 D3D12DDI_HHEAP
+    D3D12DDI_HDEVICE hDisplayDevice,
+    D3D12DDI_HHEAP hHeap
 )
 {...}
 
-PFND3D12DDI_UNMAPHEAP 
-
+PFND3D12DDI_UNMAPHEAP
 
 ```
 
@@ -83,3 +82,4 @@ PFND3D12DDI_UNMAPHEAP
 
 ## -see-also
 
+[**PFND3D12DDI_MAPHEAP**](nc-d3d12umddi-pfnd3d12ddi_mapheap.md)
