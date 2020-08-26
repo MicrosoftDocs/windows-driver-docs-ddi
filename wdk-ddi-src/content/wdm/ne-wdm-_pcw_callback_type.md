@@ -45,7 +45,7 @@ req.typenames: PCW_CALLBACK_TYPE, *PPCW_CALLBACK_TYPE
 
 ## -description
 
-The `PCW_CALLBACK_TYPE` enumeration defines the type of the notification sent by the system to the provider-defined [PCW\_CALLBACK](nc-wdm-pcw_callback.md) function. The system passes a value of this enumeration in the `Type` parameter of the callback.
+The `PCW_CALLBACK_TYPE` enumeration defines the type of the notification sent by the system to the provider-defined [PCW_CALLBACK](nc-wdm-pcw_callback.md) function. The system passes a value of this enumeration in the `Type` parameter of the callback.
 
 ## -enum-fields
 
@@ -71,8 +71,8 @@ Most providers will use the same implementation for PcwCallbackEnumerateInstance
 
 The system invokes the provider's callback with this `Type` value to request the provider to provide the Name, Id, and counter data values for the instances of the counterset.
 
-Refer to the documentation for the [PCW\_CALLBACK](nc-wdm-pcw_callback.md) function for details and examples of handling this notification.
+Refer to the documentation for the [PCW_CALLBACK](nc-wdm-pcw_callback.md) function for details and examples of handling this notification.
 
 ## -see-also
 
-[PCW\_CALLBACK callback function](nc-wdm-pcw_callback.md)
+[PCW_CALLBACK callback function](nc-wdm-pcw_callback.md)

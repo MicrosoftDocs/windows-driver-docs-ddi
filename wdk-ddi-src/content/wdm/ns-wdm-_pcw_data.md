@@ -41,7 +41,7 @@ targetos: Windows
 req.typenames: PCW_DATA, *PPCW_DATA
 ---
 
-# \_PCW\_DATA structure
+# _PCW_DATA structure
 
 ## -description
 

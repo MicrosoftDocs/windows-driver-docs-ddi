@@ -86,7 +86,7 @@ An array of descriptors for the provider data blocks that contain the counter va
 
 Counterset providers can supply information to the consumer through two different systems:
 
-- The provider can supply a `PCW_CALLBACK` function that will be invoked by the Performance Counter Library as needed to collect data. For more information on this system, refer to the documentation for [PCW\_CALLBACK](nc-wdm-pcw_callback.md).
+- The provider can supply a `PCW_CALLBACK` function that will be invoked by the Performance Counter Library as needed to collect data. For more information on this system, refer to the documentation for [PCW_CALLBACK](nc-wdm-pcw_callback.md).
 - The provider can use `PcwCreateInstance` and `PcwCloseInstance` to maintain a list of available instances and the corresponding counter data. This system is simple to implement but limited in flexibility.
 
 Before the provider uses this function, the provider must call the `PcwRegister` function to create a registration.

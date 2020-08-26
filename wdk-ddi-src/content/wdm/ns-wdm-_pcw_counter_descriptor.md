@@ -41,7 +41,7 @@ targetos: Windows
 req.typenames: PCW_COUNTER_DESCRIPTOR, *PPCW_COUNTER_DESCRIPTOR
 ---
 
-# \_PCW\_COUNTER\_DESCRIPTOR structure
+# _PCW_COUNTER_DESCRIPTOR structure
 
 ## -description
 
@@ -55,7 +55,7 @@ A numeric value that specifies the ID of the counter described by this structure
 
 ### -field StructIndex
 
-A numeric value that specifies an index into an array of [PCW\_DATA](ns-wdm-_pcw_data.md) structures. In subsequent calls to `PcwCreateInstance` or `PcwAddInstance`, the data block described by `PcwData[PcwCounterDescriptor->StructIndex]` will be used as the source of data for the counter with ID `PcwCounterDescriptor->Id`.
+A numeric value that specifies an index into an array of [PCW_DATA](ns-wdm-_pcw_data.md) structures. In subsequent calls to `PcwCreateInstance` or `PcwAddInstance`, the data block described by `PcwData[PcwCounterDescriptor->StructIndex]` will be used as the source of data for the counter with ID `PcwCounterDescriptor->Id`.
 
 ### -field Offset
 
@@ -69,13 +69,13 @@ A numeric value that specifies the size, in bytes, of the value for the counter 
 
 Most developers do not need to use this structure directly. The `CTRPP` tool generates registration code that initializes `PCW_COUNTER_DESCRIPTOR` structures based on the content of the provider manifest.
 
-An array of `PCW_COUNTER_DESCRIPTOR` structures is provided during counterset registration (via the [PCW\_REGISTRATION\_INFORMATION](ns-wdm-_pcw_registration_information.md) structure passed to `PcwRegister`). The information from the array is recorded and will be used by `PcwCreateInstance` or `PcwAddInstance` to extract counter values from the data blocks described by a `PCW_DATA` array.
+An array of `PCW_COUNTER_DESCRIPTOR` structures is provided during counterset registration (via the [PCW_REGISTRATION_INFORMATION](ns-wdm-_pcw_registration_information.md) structure passed to `PcwRegister`). The information from the array is recorded and will be used by `PcwCreateInstance` or `PcwAddInstance` to extract counter values from the data blocks described by a `PCW_DATA` array.
 
 ## -see-also
 
-[\_PCW\_REGISTRATION\_INFORMATION structure](ns-wdm-_pcw_registration_information.md)
+[_PCW_REGISTRATION_INFORMATION structure](ns-wdm-_pcw_registration_information.md)
 
-[\_PCW\_DATA structure](ns-wdm-_pcw_data.md)
+[_PCW_DATA structure](ns-wdm-_pcw_data.md)
 
 [CTRPP](https://docs.microsoft.com/windows/win32/perfctrs/ctrpp)
 

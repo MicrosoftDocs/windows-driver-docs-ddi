@@ -84,7 +84,7 @@ An array of descriptors for the provider data blocks that contain the counter va
 
 ## -remarks
 
-The `PcwAddInstance` function should called by the provider-defined [PCW\_CALLBACK](nc-wdm-pcw_callback.md) routine when the notification type is either `PcwCallbackEnumerateInstances` or `PcwCallbackCollectData`. The `Buffer` to be used comes from the `Info` parameter for the `PCW_CALLBACK` routine, e.g. `Info->EnumerateInstances.Buffer` or `Info->CollectData.Buffer`.
+The `PcwAddInstance` function should called by the provider-defined [PCW_CALLBACK](nc-wdm-pcw_callback.md) routine when the notification type is either `PcwCallbackEnumerateInstances` or `PcwCallbackCollectData`. The `Buffer` to be used comes from the `Info` parameter for the `PCW_CALLBACK` routine, e.g. `Info->EnumerateInstances.Buffer` or `Info->CollectData.Buffer`.
 
 When called for a `PcwCallbackEnumerateInstances` notification, `PcwAddInstance` adds the `Name` and `Id` values to the buffer. When called for a `PcwCallbackCollectData` notification, `PcwAddInstance` adds the `Name`, `Id`, and counter data values to the buffer.
 
@@ -120,4 +120,4 @@ The CTRPP-generated Add function will be named *Prefix*Add*Counterset*. *Prefix*
 
 ## -see-also
 
-[PCW\_CALLBACK callback function](nc-wdm-pcw_callback.md)
+[PCW_CALLBACK callback function](nc-wdm-pcw_callback.md)

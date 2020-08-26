@@ -51,11 +51,11 @@ The `PcwRegister` function creates a new counterset registration. Most developer
 
 ### -param Registration [out]
 
-A pointer to a PPCW\_REGISTRATION. Receives the handle to the new registration. The registration should be closed using [PcwUnregister](nf-wdm-pcwunregister.md).
+A pointer to a PPCW_REGISTRATION. Receives the handle to the new registration. The registration should be closed using [PcwUnregister](nf-wdm-pcwunregister.md).
 
 ### -param Info [in]
 
-A pointer to a [PCW\_REGISTRATION\_INFORMATION](ns-wdm-_pcw_registration_information.md) structure that contains the details about the counter set being registered.
+A pointer to a [PCW_REGISTRATION_INFORMATION](ns-wdm-_pcw_registration_information.md) structure that contains the details about the counter set being registered.
 
 ## -returns
 
@@ -71,7 +71,7 @@ A pointer to a [PCW\_REGISTRATION\_INFORMATION](ns-wdm-_pcw_registration_informa
 `PcwRegister` may return `STATUS_INVALID_PARAMETER_2` in the following cases:
 
 - The `Info->Name->Length` field is 0 or is not a multiple of `sizeof(WCHAR)`.
-- The `Info->Version` field does not match a supported value for this version of Windows. When running on Windows prior to 10.0.19645 (`NTDDI_VERSION < NTDDI_VERSION_MN`), the `Version` field must be set to PCW\_VERSION\_1 (0x100). When running on Windows 10.0.19645 and later (`NTDDI_VERSION >= NTDDI_VERSION_MN`), this may be set to PCW\_VERSION\_1 (0x100) or PCW\_VERSION\_2 (0x200).
+- The `Info->Version` field does not match a supported value for this version of Windows. When running on Windows prior to 10.0.19645 (`NTDDI_VERSION < NTDDI_VERSION_MN`), the `Version` field must be set to PCW_VERSION_1 (0x100). When running on Windows 10.0.19645 and later (`NTDDI_VERSION >= NTDDI_VERSION_MN`), this may be set to PCW_VERSION_1 (0x100) or PCW_VERSION_2 (0x200).
 - The `Info->Flags` field contains a value not recognized by the running version of Windows.
 
 ## -remarks
@@ -123,7 +123,7 @@ InitRegistrationInformationMyCounterset(Callback, CallbackContext, &RegInfo);
 Status = PcwRegister(&MyCounterset, &RegInfo);
 ```
 
-The CTRPP-generated InitRegistrationInformation\*\*\* function initializes the `RegInfo` structure based on declarations from the manifest. For more information about the generated InitRegistrationInformation function, refer to the documentation for [PCW\_REGISTRATION\_INFORMATION](ns-wdm-_pcw_registration_information.md).
+The CTRPP-generated InitRegistrationInformation\*\*\* function initializes the `RegInfo` structure based on declarations from the manifest. For more information about the generated InitRegistrationInformation function, refer to the documentation for [PCW_REGISTRATION_INFORMATION](ns-wdm-_pcw_registration_information.md).
 
 If using your own handle variables instead of *Counterset* to store the handle, you may also need to call `PcwUnregister` and `PcwCreateInstance` directly instead of using the CTRPP-generated `Unregister***` and `Create***` functions.
 
@@ -131,4 +131,4 @@ If using your own handle variables instead of *Counterset* to store the handle, 
 
 [PcwUnregister function](nf-wdm-pcwunregister.md)
 
-[\_PCW\_REGISTRATION\_INFORMATION structure](ns-wdm-_pcw_registration_information.md)
+[_PCW_REGISTRATION_INFORMATION structure](ns-wdm-_pcw_registration_information.md)

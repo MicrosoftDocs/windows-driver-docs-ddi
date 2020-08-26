@@ -41,7 +41,7 @@ targetos: Windows
 req.typenames: PCW_REGISTRATION_INFORMATION, *PPCW_REGISTRATION_INFORMATION
 ---
 
-# \_PCW\_REGISTRATION\_INFORMATION structure
+# _PCW_REGISTRATION_INFORMATION structure
 
 ## -description
 
@@ -53,14 +53,14 @@ The `PCW_REGISTRATION_INFORMATION` structure supplies details about the provider
 
 The numeric value that specifies the version of Performance Counters for Windows (PCW) that the provider requires.
 
-When running on Windows prior to 10.0.19645 (`NTDDI_VERSION < NTDDI_VERSION_MN`), the `Version` field must be set to PCW\_VERSION\_1 (0x100). When running on Windows 10.0.19645 and later (`NTDDI_VERSION >= NTDDI_VERSION_MN`), this may be set to PCW\_VERSION\_1 (0x100) or PCW\_VERSION\_2 (0x200). If the `Version` field is set to an unrecognized value, `PcwRegister` will return STATUS\_INVALID\_PARAMETER\_2.
+When running on Windows prior to 10.0.19645 (`NTDDI_VERSION < NTDDI_VERSION_MN`), the `Version` field must be set to PCW_VERSION_1 (0x100). When running on Windows 10.0.19645 and later (`NTDDI_VERSION >= NTDDI_VERSION_MN`), this may be set to PCW_VERSION_1 (0x100) or PCW_VERSION_2 (0x200). If the `Version` field is set to an unrecognized value, `PcwRegister` will return STATUS_INVALID_PARAMETER_2.
 
 When using the CTRPP-generated Register\*\*\* or InitRegistrationInformation\*\*\* functions, the `Version` field will be set to `PCW_CURRENT_VERSION`, which is equivalent to one of the following values, depending on the compile-time value of `NTDDI_VERSION`:
 
-|Condition|PCW\_CURRENT\_VERSION value
+|Condition|PCW_CURRENT_VERSION value
 |---|---
-|`NTDDI_VERSION <  NTDDI_WIN10_FE`|PCW\_VERSION\_1 (0x0100)
-|`NTDDI_VERSION >= NTDDI_WIN10_FE`|PCW\_VERSION\_2 (0x0200)
+|`NTDDI_VERSION <  NTDDI_WIN10_FE`|PCW_VERSION_1 (0x0100)
+|`NTDDI_VERSION >= NTDDI_WIN10_FE`|PCW_VERSION_2 (0x0200)
 
 If your code builds with `NTDDI_VERSION >= NTDDI_WIN10_FE` but needs to run on an earlier version of Windows, you will need to set `Version = PCW_VERSION_1` as described in the documentation for [PcwRegister](nf-wdm-pcwregister.md).
 
@@ -80,7 +80,7 @@ An array of descriptors for the counters of this counterset. The information fro
 
 ### -field Callback
 
-A pointer to the optional [PCW\_CALLBACK](nc-wdm-pcw_callback.md) callback function that notifies the provider about events related to this counter set. This field may be NULL if the callback is not needed (i.e. if the counterset instances will be managed via `PcwCreateInstance` and `PcwCloseInstance`).
+A pointer to the optional [PCW_CALLBACK](nc-wdm-pcw_callback.md) callback function that notifies the provider about events related to this counter set. This field may be NULL if the callback is not needed (i.e. if the counterset instances will be managed via `PcwCreateInstance` and `PcwCloseInstance`).
 
 ### -field CallbackContext
 
@@ -94,7 +94,7 @@ The `Flags` field will be ignored if the `Version` field is less than `PCW_VERSI
 
 The `Flags` field enables special behavior of `PcwRegister`. Set to a combination of one or more `PCW_REGISTRATION_FLAGS` values:
 
-|PCW\_REGISTRATION\_FLAGS|Meaning
+|PCW_REGISTRATION_FLAGS|Meaning
 |---|---
 |PcwRegistrationNone (0x0)        |Default (no special behaviors required).
 |PcwRegistrationSiloNeutral (0x1) |Indicates that this registration should be visible to consumers in all server silos. By default, a registration is visible only to consumers in the server silo that was active when the registration was created (i.e. the registration that was attached to the thread when `PcwRegister` was called).
@@ -150,9 +150,9 @@ The CTRPP-generated InitRegistrationInformation function can optionally verify t
 
 ## -see-also
 
-[\_PCW\_COUNTER\_DESCRIPTOR structure](ns-wdm-_pcw_counter_descriptor.md)
+[_PCW_COUNTER_DESCRIPTOR structure](ns-wdm-_pcw_counter_descriptor.md)
 
-[PCW\_CALLBACK callback function](nc-wdm-pcw_callback.md)
+[PCW_CALLBACK callback function](nc-wdm-pcw_callback.md)
 
 [PcwRegister function](nf-wdm-pcwregister.md)
 
