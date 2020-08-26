@@ -48,7 +48,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The PRINTIFI32 structure is a fixed-size version of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_ifimetrics">IFIMETRICS</a> structure, and defines information for a given typeface that GDI can use.
+The PRINTIFI32 structure is a fixed-size version of the <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-_ifimetrics">IFIMETRICS</a> structure, and defines information for a given typeface that GDI can use.
 
 
 ## -syntax
@@ -126,7 +126,7 @@ typedef struct _PRINTIFI32 {
 
 ### -field cjThis
 
-Specifies the size in bytes of this structure. The specified size includes any Unicode strings appended to the end of this structure, plus the size in bytes of the optional <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_ifiextra">IFIEXTRA</a> structure.
+Specifies the size in bytes of this structure. The specified size includes any Unicode strings appended to the end of this structure, plus the size in bytes of the optional <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-_ifiextra">IFIEXTRA</a> structure.
 
 
 ### -field cjIfiExtra
@@ -156,11 +156,11 @@ Specifies the offset in bytes to a null-terminated Unicode string representing t
 
 ### -field dpFontSim
 
-Specifies the offset in bytes from the beginning of this structure to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fontsim">FONTSIM</a> structure that describes the simulations that the font supports. The driver should set this member to a nonzero value only if the font supports bold, italic, or bold italic simulations; otherwise, the driver should set this to zero.
+Specifies the offset in bytes from the beginning of this structure to a <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-_fontsim">FONTSIM</a> structure that describes the simulations that the font supports. The driver should set this member to a nonzero value only if the font supports bold, italic, or bold italic simulations; otherwise, the driver should set this to zero.
 
 Note that if a font is italic by design, the driver should not indicate font support for italic simulation although it can indicate font support for bold italic simulation. Similarly, the driver should not indicate font support for bold simulation if the font is bold by design, but can indicate font support for bold italic simulation. If the font is both bold and italic by design, it should not support any simulations.
 
-The offsets in the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fontsim">FONTSIM</a> structure are relative to the base of the FONTSIM structure.
+The offsets in the <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-_fontsim">FONTSIM</a> structure are relative to the base of the FONTSIM structure.
 
 
 ### -field lEmbedId
@@ -674,7 +674,7 @@ Indicates that the font contains a valid digital signature.
 
 #### FM_INFO_RETURNS_OUTLINES
 
-Indicates that for any glyph supported by the driver, GDI can request a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_pathobj">PATHOBJ</a> structure that describes the outline of that glyph. If possible, when the outline is filled using GDI's path filling conventions, the resulting bitmap should be identical to the bitmap returned by the driver. The FM_INFO_RETURNS_OUTLINES and FM_INFO_RETURNS_STOKES flags cannot be set concurrently.
+Indicates that for any glyph supported by the driver, GDI can request a <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-_pathobj">PATHOBJ</a> structure that describes the outline of that glyph. If possible, when the outline is filled using GDI's path filling conventions, the resulting bitmap should be identical to the bitmap returned by the driver. The FM_INFO_RETURNS_OUTLINES and FM_INFO_RETURNS_STOKES flags cannot be set concurrently.
 
 
 
@@ -1106,9 +1106,9 @@ Is an array of 10 bytes used to describe the visual characteristics of a given t
 
 The PRINTIFI32 structure is available in Windows Server 2003 SP1 and later. Because this structure is of fixed size, and it is guaranteed not to change across architectures or operating system versions, it can be used for binary file layouts. Unidrv UFM files are laid out in the format described in this structure, for all platforms. Pscript5 NTF files use the platform-specific version of this structure.
 
-Additional information for a typeface can optionally be specified in the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_ifiextra">IFIEXTRA</a> structure.
+Additional information for a typeface can optionally be specified in the <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-_ifiextra">IFIEXTRA</a> structure.
 
-A driver's <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvqueryfont">DrvQueryFont</a> routine fills out and returns an IFIMETRICS structure to GDI.
+A driver's <a href="https://docs.microsoft.com/windows/win32/api/winddi/nf-winddi-drvqueryfont">DrvQueryFont</a> routine fills out and returns an IFIMETRICS structure to GDI.
 
 The PRINTIFI32 structure defines all the information for a typeface that GDI understands. Most of the members are FWORD values, which are signed 16-bit quantities in design space. If the font is a raster font, design space and device space are the same and a font unit is equivalent to the distance between pixels.
 
@@ -1119,7 +1119,7 @@ The coordinate system in the font/notional space is such that the y coordinate i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_ifimetrics">IFIMETRICS</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-_ifimetrics">IFIMETRICS</a>
 
 
 

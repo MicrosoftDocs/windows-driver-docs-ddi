@@ -5,7 +5,7 @@ description: The WcsAssociateColorProfileWithDevice function associates a specif
 old-location: print\wcsassociatecolorprofilewithdevice.htm
 tech.root: print
 ms.assetid: b1863604-e8a2-4dc7-9f2f-e0eea9baab1a
-ms.date: 08/14/2020
+ms.date: 08/26/2020
 keywords: ["WcsAssociateColorProfileWithDevice function"]
 ms.keywords: WcsAssociateColorProfileWithDevice, WcsAssociateColorProfileWithDevice function [Print Devices], colorfnc_2d78f2bd-52f8-48c9-a018-30b4fed5746b.xml, icm/WcsAssociateColorProfileWithDevice, print.wcsassociatecolorprofilewithdevice
 req.header: icm.h
@@ -48,11 +48,11 @@ The **WcsAssociateColorProfileWithDevice** function associates a specified WCS c
 
 ### -param scope [in]
 
-A [WCS_PROFILE_MANAGEMENT_SCOPE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/icm/ne-icm-wcs_profile_management_scope) value that specifies the scope of this profile management operation.
+A [WCS_PROFILE_MANAGEMENT_SCOPE](https://docs.microsoft.com/previous-versions/windows/desktop/wcs/wcs-profile-management-scope) value that specifies the scope of this profile management operation.
 
-### -param pProfileName 
-[in]
-A pointer to the file name of the profile to associate.
+### -param pProfileName
+
+[in] A pointer to the file name of the profile to associate.
 
 ### -param pDeviceName [in]
 

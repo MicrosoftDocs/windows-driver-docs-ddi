@@ -5,7 +5,7 @@ description: The ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER structure contains output
 old-location: acpi\acpi_device_information_output_buffer.htm
 tech.root: acpi
 ms.assetid: 15AA7E06-DD7F-46B4-B2C2-604EA5150F7D
-ms.date: 02/15/2018
+ms.date: 08/26/2020
 keywords: ["ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER structure"]
 ms.keywords: "*PACPI_DEVICE_INFORMATION_OUTPUT_BUFFER, ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER, ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER structure [ACPI Devices], PACPI_DEVICE_INFORMATION_OUTPUT_BUFFER, PACPI_DEVICE_INFORMATION_OUTPUT_BUFFER structure pointer [ACPI Devices], _ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER, acpi.acpi_device_information_output_buffer, acpi.acpi_get_device_information_output_buffer, acpiioct/ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER, acpiioct/PACPI_DEVICE_INFORMATION_OUTPUT_BUFFER"
 f1_keywords:
@@ -101,7 +101,7 @@ The offset from the beginning of this structure to the beginning of the **Instan
 
 A number identifying the class of the device.
 
-For more information, see the [Peripheral Component Interconnect Special Interest Group (PCI-SIG)](https://pcisig.org) specifications for baseclass code definitions.
+For more information, see the [Peripheral Component Interconnect Special Interest Group (PCI-SIG)](https://pcisig.com/specifications) specifications for baseclass code definitions.
 
 ### -field HardwareRevision
 
@@ -111,7 +111,7 @@ A number identifying the hardware revision of the device.
 
 A number identifying the programming interface of the device.
 
-For more information, see the [Peripheral Component Interconnect Special Interest Group (PCI-SIG)](https://pcisig.org) specifications for class programming interface definitions.
+For more information, see the [Peripheral Component Interconnect Special Interest Group (PCI-SIG)](https://pcisig.com/specifications) specifications for class programming interface definitions.
 
 ### -field Reserved1
 
@@ -121,7 +121,7 @@ Reserved. Do not use.
 
 A number identifying the subclass of the device.
 
-For more information, see the [Peripheral Component Interconnect Special Interest Group (PCI-SIG)](https://pcisig.org) specifications for subclass code definitions.
+For more information, see the [Peripheral Component Interconnect Special Interest Group (PCI-SIG)](https://pcisig.com/specifications) specifications for subclass code definitions.
 
 ## -remarks
 

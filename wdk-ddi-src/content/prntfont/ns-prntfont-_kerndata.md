@@ -67,7 +67,7 @@ Specifies the number of elements in the <b>KernPair</b> array.
 
 ### -field KernPair
 
-Is an array of <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fd_kerningpair">FD_KERNINGPAIR</a> structures.
+Is an array of <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-_fd_kerningpair">FD_KERNINGPAIR</a> structures.
 
 
 ## -remarks
@@ -84,7 +84,7 @@ A .ufm file's KERNDATA structures are accessed by a pointer in the file's <a hre
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fd_kerningpair">FD_KERNINGPAIR</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-_fd_kerningpair">FD_KERNINGPAIR</a>
 
 
 

@@ -5,7 +5,7 @@ description: The WcsGetDefaultColorProfileSize function returns the size, in byt
 old-location: print\wcsgetdefaultcolorprofilesize.htm
 tech.root: print
 ms.assetid: d04306e2-3479-4ba4-ac4d-bf3715487fcf
-ms.date: 08/14/2020
+ms.date: 08/26/2020
 keywords: ["WcsGetDefaultColorProfileSize function"]
 ms.keywords: WcsGetDefaultColorProfileSize, WcsGetDefaultColorProfileSize function [Print Devices], colorfnc_8259a030-267a-4d53-93fe-73e63f0e5fd7.xml, icm/WcsGetDefaultColorProfileSize, print.wcsgetdefaultcolorprofilesize
 req.header: icm.h
@@ -48,31 +48,31 @@ The **WcsGetDefaultColorProfileSize** function returns the size, in bytes, of th
 
 ### -param scope
 
-### -param pDeviceName [in, optional]
+### -param pDeviceName
 
-A pointer to the name of the device for which the default color profile is to be obtained. If **NULL**, a device-independent default profile will be used.
+[in, optional] A pointer to the name of the device for which the default color profile is to be obtained. If **NULL**, a device-independent default profile will be used.
 
 The device name for a monitor can be obtained from [DISPLAY_DEVICE.DeviceID](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-display_devicea).
 
-### -param cptColorProfileType [in]
+### -param cptColorProfileType
 
-A [COLORPROFILETYPE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/icm/ne-icm-colorprofiletype) value that specifies the color profile type.
+[in] A [COLORPROFILETYPE](https://docs.microsoft.com/previous-versions/windows/desktop/wcs/colorprofiletype) value that specifies the color profile type.
 
-### -param cpstColorProfileSubType [in]
+### -param cpstColorProfileSubType
 
-A [COLORPROFILESUBTYPE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/icm/ne-icm-colorprofilesubtype) value that specifies the color profile subtype.
+[in] A [COLORPROFILESUBTYPE](https://docs.microsoft.com/previous-versions/windows/desktop/wcs/colorprofilesubtype) value that specifies the color profile subtype.
 
-### -param dwProfileID [in]
+### -param dwProfileID
 
-The ID of the color space that the color profile represents.
+[in] The ID of the color space that the color profile represents.
 
-### -param pcbProfileName [out]
+### -param pcbProfileName
 
-A pointer to a location that receives the size, in bytes, of the path name of the default color profile, including the null terminator.
+[out] A pointer to a location that receives the size, in bytes, of the path name of the default color profile, including the null terminator.
 
-#### - profileManagementScope [in]
+#### - profileManagementScope
 
-A [WCS_PROFILE_MANAGEMENT_SCOPE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/icm/ne-icm-wcs_profile_management_scope) value that specifies the scope of this profile management operation.
+[in] A [WCS_PROFILE_MANAGEMENT_SCOPE](https://docs.microsoft.com/previous-versions/windows/desktop/wcs/wcs-profile-management-scope) value that specifies the scope of this profile management operation.
 
 ## -remarks
 
@@ -82,10 +82,10 @@ This function is executable in Least-Privileged User Account (LUA) context.
 
 ## -see-also
 
-[COLORPROFILESUBTYPE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/icm/ne-icm-colorprofilesubtype)
+[COLORPROFILESUBTYPE](https://docs.microsoft.com/previous-versions/windows/desktop/wcs/colorprofilesubtype)
 
-[COLORPROFILETYPE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/icm/ne-icm-colorprofiletype)
+[COLORPROFILETYPE](https://docs.microsoft.com/previous-versions/windows/desktop/wcs/colorprofiletype)
 
-[WCS_PROFILE_MANAGEMENT_SCOPE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/icm/ne-icm-wcs_profile_management_scope)
+[WCS_PROFILE_MANAGEMENT_SCOPE](https://docs.microsoft.com/previous-versions/windows/desktop/wcs/wcs-profile-management-scope)
 
 [WcsGetDefaultColorProfile](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/icm/nf-icm-wcsgetdefaultcolorprofile)

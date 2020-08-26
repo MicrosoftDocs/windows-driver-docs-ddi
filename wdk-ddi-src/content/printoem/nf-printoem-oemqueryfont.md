@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The <code>OEMQueryFont</code> function is used by GDI to get the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_ifimetrics">IFIMETRICS</a> structure for a given font. 
+The <code>OEMQueryFont</code> function is used by GDI to get the <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-_ifimetrics">IFIMETRICS</a> structure for a given font. 
 
 
 ## -parameters
