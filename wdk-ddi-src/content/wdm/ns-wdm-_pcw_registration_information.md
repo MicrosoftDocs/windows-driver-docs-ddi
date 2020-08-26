@@ -41,7 +41,7 @@ targetos: Windows
 req.typenames: PCW_REGISTRATION_INFORMATION, *PPCW_REGISTRATION_INFORMATION
 ---
 
-# _PCW_REGISTRATION_INFORMATION structure
+# PCW_REGISTRATION_INFORMATION structure
 
 ## -description
 

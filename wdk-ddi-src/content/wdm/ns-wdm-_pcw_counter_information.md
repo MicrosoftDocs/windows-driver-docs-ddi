@@ -41,7 +41,7 @@ targetos: Windows
 req.typenames: PCW_COUNTER_INFORMATION, *PPCW_COUNTER_INFORMATION
 ---
 
-# _PCW_COUNTER_INFORMATION structure
+# PCW_COUNTER_INFORMATION structure
 
 ## -description
 

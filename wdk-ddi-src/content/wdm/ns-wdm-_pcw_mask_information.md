@@ -41,7 +41,7 @@ targetos: Windows
 req.typenames: PCW_MASK_INFORMATION, *PPCW_MASK_INFORMATION
 ---
 
-# _PCW_MASK_INFORMATION structure
+# PCW_MASK_INFORMATION structure
 
 ## -description
 

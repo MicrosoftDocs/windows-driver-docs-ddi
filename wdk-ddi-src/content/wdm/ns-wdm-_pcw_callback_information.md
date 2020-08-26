@@ -41,7 +41,7 @@ targetos: Windows
 req.typenames: PCW_CALLBACK_INFORMATION, *PPCW_CALLBACK_INFORMATION
 ---
 
-# _PCW_CALLBACK_INFORMATION structure
+# PCW_CALLBACK_INFORMATION structure
 
 ## -description
 

@@ -41,7 +41,7 @@ targetos: Windows
 req.typenames: PCW_CALLBACK_TYPE, *PPCW_CALLBACK_TYPE
 ---
 
-# _PCW_CALLBACK_TYPE enumeration
+# PCW_CALLBACK_TYPE enumeration
 
 ## -description
 
