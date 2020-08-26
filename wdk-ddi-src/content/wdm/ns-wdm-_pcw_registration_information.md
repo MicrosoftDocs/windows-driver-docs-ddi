@@ -45,7 +45,7 @@ req.typenames: PCW_REGISTRATION_INFORMATION, *PPCW_REGISTRATION_INFORMATION
 
 ## -description
 
-The `PCW_REGISTRATION_INFORMATION` structure supplies details about the provider and the counterset. Most developers will use the [CTRPP](https://docs.microsoft.com/windows/win32/perfctrs/ctrpp)-generated Register\*\*\* or InitRegistrationInformation\*\*\* functions instead of using this structure directly.
+The `PCW_REGISTRATION_INFORMATION` structure supplies details about the provider and the counterset. Most developers will use the [CTRPP](https://docs.microsoft.com/windows/win32/perfctrs/ctrpp)-generated RegisterXxx or InitRegistrationInformationXxx functions instead of using this structure directly.
 
 ## -struct-fields
 
@@ -55,7 +55,7 @@ The numeric value that specifies the version of Performance Counters for Windows
 
 When running on Windows prior to 10.0.19645 (`NTDDI_VERSION < NTDDI_VERSION_MN`), the `Version` field must be set to PCW_VERSION_1 (0x100). When running on Windows 10.0.19645 and later (`NTDDI_VERSION >= NTDDI_VERSION_MN`), this may be set to PCW_VERSION_1 (0x100) or PCW_VERSION_2 (0x200). If the `Version` field is set to an unrecognized value, `PcwRegister` will return STATUS_INVALID_PARAMETER_2.
 
-When using the CTRPP-generated Register\*\*\* or InitRegistrationInformation\*\*\* functions, the `Version` field will be set to `PCW_CURRENT_VERSION`, which is equivalent to one of the following values, depending on the compile-time value of `NTDDI_VERSION`:
+When using the CTRPP-generated RegisterXxx or InitRegistrationInformationXxx functions, the `Version` field will be set to `PCW_CURRENT_VERSION`, which is equivalent to one of the following values, depending on the compile-time value of `NTDDI_VERSION`:
 
 |Condition|PCW_CURRENT_VERSION value
 |---|---
@@ -103,9 +103,9 @@ The `Flags` field enables special behavior of `PcwRegister`. Set to a combinatio
 
 The [PcwRegister](nf-wdm-pcwregister.md) function takes an `Info` parameter that is a pointer to this structure.
 
-### CTRPP-generated InitRegistrationInformation\*\*\* function
+### CTRPP-generated InitRegistrationInformationXxx function
 
-Most developers do not need to use `PCW_REGISTRATION_INFORMATION` directly. Instead, they will compile a manifest with the CTRPP tool and use the Register\*\*\* or InitRegistrationInformation\*\*\* functions from the CTRPP-generated header. The generated Register function calls InitRegistrationInformation and then calls `PcwRegister` (see [PcwRegister](nf-wdm-pcwregister.md) for details). The generated InitRegistrationInformation function will look like this:
+Most developers do not need to use `PCW_REGISTRATION_INFORMATION` directly. Instead, they will compile a manifest with the CTRPP tool and use the RegisterXxx or InitRegistrationInformationXxx functions from the CTRPP-generated header. The generated Register function calls InitRegistrationInformation and then calls `PcwRegister` (see [PcwRegister](nf-wdm-pcwregister.md) for details). The generated InitRegistrationInformation function will look like this:
 
 ```C
 EXTERN_C FORCEINLINE VOID

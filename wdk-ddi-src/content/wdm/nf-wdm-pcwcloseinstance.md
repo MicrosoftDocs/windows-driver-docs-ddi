@@ -45,7 +45,7 @@ req.typenames:
 
 ## -description
 
-The `PcwCloseInstance` function closes a counterset instance that was created using [PcwCreateInstance](nf-wdm-pcwcreateinstance.md). Most developers will use a [CTRPP](https://docs.microsoft.com/windows/win32/perfctrs/ctrpp)-generated Close\*\*\* function instead of calling this function directly.
+The `PcwCloseInstance` function closes a counterset instance that was created using [PcwCreateInstance](nf-wdm-pcwcreateinstance.md). Most developers will use a [CTRPP](https://docs.microsoft.com/windows/win32/perfctrs/ctrpp)-generated CloseXxx function instead of calling this function directly.
 
 ## -parameters
 
@@ -59,9 +59,9 @@ Use the `PcwCreateInstance` function to create a counterset instance.
 
 You cannot call `PcwCloseInstance` on an instance if you have already called [PcwUnregister](nf-wdm-pcwunregister.md) for the corresponding counterset registration. When you unregister the counterset, any remaining instances are closed for you. Closing them again will crash the system.
 
-### CTRPP-generated Close\*\*\* function
+### CTRPP-generated CloseXxx function
 
-Most developers do not need to call `PcwCloseInstance` directly. Instead, they will compile a manifest with the CTRPP tool and use the Close\*\*\* function from the CTRPP-generated header. The generated function will look like this:
+Most developers do not need to call `PcwCloseInstance` directly. Instead, they will compile a manifest with the CTRPP tool and use the CloseXxx function from the CTRPP-generated header. The generated function will look like this:
 
 ```C
 EXTERN_C FORCEINLINE VOID

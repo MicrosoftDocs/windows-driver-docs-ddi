@@ -45,7 +45,7 @@ req.typenames:
 
 ## -description
 
-The `PcwRegister` function creates a new counterset registration. Most developers will use a [CTRPP](https://docs.microsoft.com/windows/win32/perfctrs/ctrpp)-generated Register\*\*\* function instead of calling this function directly.
+The `PcwRegister` function creates a new counterset registration. Most developers will use a [CTRPP](https://docs.microsoft.com/windows/win32/perfctrs/ctrpp)-generated RegisterXxx function instead of calling this function directly.
 
 ## -parameters
 
@@ -80,9 +80,9 @@ The provider calls this function to create a new counterset registration. All of
 
 By default, the new counterset is visible only to the server silo that was active at the time of registration (i.e. `PcwRegister` associates the newly-created registration with the server silo that was attached to the thread when `PcwRegister` is called). If running on Windows 10.0.19645 and later (`NTDDI_VERSION >= NTDDI_VERSION_MN`) you may create a counterset registration that is visible to all server silos by setting `PCW_REGISTRATION_INFORMATION::Version` to `PCW_VERSION_2` and setting `PCW_REGISTRATION_INFORMATION::Flags` to `PcwRegistrationSiloNeutral`.
 
-### CTRPP-generated Register\*\*\* function
+### CTRPP-generated RegisterXxx function
 
-Most developers do not need to call `PcwRegister` directly. Instead, they will compile a manifest with the CTRPP tool and use the Register\*\*\* function from the CTRPP-generated header. The generated function will look like this:
+Most developers do not need to call `PcwRegister` directly. Instead, they will compile a manifest with the CTRPP tool and use the RegisterXxx function from the CTRPP-generated header. The generated function will look like this:
 
 ```C
 EXTERN_C FORCEINLINE NTSTATUS
@@ -123,7 +123,7 @@ InitRegistrationInformationMyCounterset(Callback, CallbackContext, &RegInfo);
 Status = PcwRegister(&MyCounterset, &RegInfo);
 ```
 
-The CTRPP-generated InitRegistrationInformation\*\*\* function initializes the `RegInfo` structure based on declarations from the manifest. For more information about the generated InitRegistrationInformation function, refer to the documentation for [PCW_REGISTRATION_INFORMATION](ns-wdm-_pcw_registration_information.md).
+The CTRPP-generated InitRegistrationInformationXxx function initializes the `RegInfo` structure based on declarations from the manifest. For more information about the generated InitRegistrationInformation function, refer to the documentation for [PCW_REGISTRATION_INFORMATION](ns-wdm-_pcw_registration_information.md).
 
 If using your own handle variables instead of *Counterset* to store the handle, you may also need to call `PcwUnregister` and `PcwCreateInstance` directly instead of using the CTRPP-generated **Unregister***Xxx* and **Create***Xxx* functions.
 

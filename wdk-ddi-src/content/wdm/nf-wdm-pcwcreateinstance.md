@@ -45,7 +45,7 @@ req.typenames:
 
 ## -description
 
-The `PcwCreateInstance` function creates a new counterset instance. Most developers will use a [CTRPP](https://docs.microsoft.com/windows/win32/perfctrs/ctrpp)-generated Create\*\*\* function instead of calling this function directly.
+The `PcwCreateInstance` function creates a new counterset instance. Most developers will use a [CTRPP](https://docs.microsoft.com/windows/win32/perfctrs/ctrpp)-generated CreateXxx function instead of calling this function directly.
 
 ## -parameters
 
@@ -99,9 +99,9 @@ The provider must maintain data blocks (usually in paged or nonpaged pool) conta
 
 Use the PcwCloseInstance function to close the instance.
 
-### CTRPP-generated Create\*\*\* function
+### CTRPP-generated CreateXxx function
 
-Most developers do not need to call `PcwCreateInstance` directly. Instead, they will compile a manifest with the CTRPP tool and use the Create\*\*\* function from the CTRPP-generated header. The generated function will look like this:
+Most developers do not need to call `PcwCreateInstance` directly. Instead, they will compile a manifest with the CTRPP tool and use the CreateXxx function from the CTRPP-generated header. The generated function will look like this:
 
 ```C
 EXTERN_C __inline NTSTATUS
@@ -126,7 +126,7 @@ CreateMyCounterset(
 }
 ```
 
-The CTRPP-generated Create function will be named *Prefix*Create*Counterset*. *Prefix* is usually blank, but may be present if the `-prefix` parameter was used on the CTRPP command-line. *Counterset* is the name of the counterset, as specified in the manifest. The function will have Data parameters based on the structures defined in the manifest. The function will wrap the user-provided data block(s) into an array of `PCW_DATA` structures and then call `PcwCreateInstance`. Note that the function references a *Counterset* variable (`MyCounterset` in the example), which is a global variable that holds the counterset registration handle initialized by the CTRPP-generated Register\*\*\* function.
+The CTRPP-generated Create function will be named *Prefix*Create*Counterset*. *Prefix* is usually blank, but may be present if the `-prefix` parameter was used on the CTRPP command-line. *Counterset* is the name of the counterset, as specified in the manifest. The function will have Data parameters based on the structures defined in the manifest. The function will wrap the user-provided data block(s) into an array of `PCW_DATA` structures and then call `PcwCreateInstance`. Note that the function references a *Counterset* variable (`MyCounterset` in the example), which is a global variable that holds the counterset registration handle initialized by the CTRPP-generated RegisterXxx function.
 
 ## -see-also
 

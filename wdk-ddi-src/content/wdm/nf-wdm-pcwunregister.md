@@ -45,7 +45,7 @@ req.typenames:
 
 ## -description
 
-The `PcwUnregister` function closes the specified counterset registration. Most developers will use a [CTRPP](https://docs.microsoft.com/windows/win32/perfctrs/ctrpp)-generated Unregister\*\*\* function instead of calling this function directly.
+The `PcwUnregister` function closes the specified counterset registration. Most developers will use a [CTRPP](https://docs.microsoft.com/windows/win32/perfctrs/ctrpp)-generated UnregisterXxx function instead of calling this function directly.
 
 ## -parameters
 
@@ -61,7 +61,7 @@ Before the provider uses this function, the provider must call the [PcwRegister]
 
 ### CTRPP-generated UnregisterXxx function
 
-Most developers do not need to call `PcwUnregister` directly. Instead, they will compile a manifest with the CTRPP tool and use the Unregister\*\*\* function from the CTRPP-generated header. The generated function will look like this:
+Most developers do not need to call `PcwUnregister` directly. Instead, they will compile a manifest with the CTRPP tool and use the UnregisterXxx function from the CTRPP-generated header. The generated function will look like this:
 
 ```C
 EXTERN_C FORCEINLINE VOID
@@ -75,7 +75,7 @@ UnregisterMyCounterset(
 }
 ```
 
-The CTRPP-generated Unregister function will be named *Prefix*Unregister*CounterSet*. *Prefix* is usually blank, but may be present if the `-prefix` parameter was used on the CTRPP command-line. *CounterSet* is the name of the counterset, as specified in the manifest. Note that the function references a *Counterset* variable (`MyCounterset` in the example), which is a global variable that holds the counterset registration handle initialized by the CTRPP-generated Register\*\*\* function.
+The CTRPP-generated Unregister function will be named *Prefix*Unregister*CounterSet*. *Prefix* is usually blank, but may be present if the `-prefix` parameter was used on the CTRPP command-line. *CounterSet* is the name of the counterset, as specified in the manifest. Note that the function references a *Counterset* variable (`MyCounterset` in the example), which is a global variable that holds the counterset registration handle initialized by the CTRPP-generated RegisterXxx function.
 
 ## -see-also
 
