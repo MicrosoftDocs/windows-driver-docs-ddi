@@ -1,7 +1,7 @@
 ---
 UID: NS:wdm._PCW_COUNTER_INFORMATION
 title: _PCW_COUNTER_INFORMATION (wdm.h)
-description: The PCW_COUNTER_INFORMATION structure describes attributes that identify a specific instance of a counter set.
+description: The PCW_COUNTER_INFORMATION structure describes attributes that identify a specific instance of a counterset.
 old-location: devtest\pcw_counter_information.htm
 tech.root: devtest
 ms.assetid: fe4d8df4-0e15-49fb-a5ec-40aa8acf3675
@@ -41,26 +41,24 @@ targetos: Windows
 req.typenames: PCW_COUNTER_INFORMATION, *PPCW_COUNTER_INFORMATION
 ---
 
-# _PCW_COUNTER_INFORMATION structure
-
+# PCW_COUNTER_INFORMATION structure
 
 ## -description
 
-
-The PCW_COUNTER_INFORMATION structure describes attributes that identify a specific instance of a counter set. 
-
+The `PCW_COUNTER_INFORMATION` structure is the type of the `AddCounter` and `RemoveCounter` members of the [PCW_CALLBACK_INFORMATION](ns-wdm-_pcw_callback_information.md) union. It contains details of a notification sent by the system to a provider-defined [PCW_CALLBACK](nc-wdm-pcw_callback.md) function.
 
 ## -struct-fields
 
-
-
-
 ### -field CounterMask
 
-A bitmask. If the <i>x</i>-th bit is set, counter <i>x</i>^2 is included in the query. The value assigned to identify the counters exposed in a registration.
-
+A bitmask. If the `x`-th bit is set, counter with ID `x` is included in the query.
 
 ### -field InstanceMask
 
-A Unicode string that contains a wildcard specification of the instance. That is, "*" and "?" have the usual meaning of zero-or-more-characters and any-character respectively. The <b>InstanceMask</b> identifies and maps the counter set to a specific instance. 
+A Unicode string that contains a wildcard specification of instance names to be matched in the query. If all instance names should match the query, the `InstanceMask` field will be `"*"`. Otherwise, `"*"` and `"?"` have the usual wildcard meaning of "zero-or-more-characters" and "any-character" respectively. Note that instance name matching is not case-sensitive.
 
+## -see-also
+
+[PCW_CALLBACK callback function](nc-wdm-pcw_callback.md)
+
+[_PCW_CALLBACK_INFORMATION structure](ns-wdm-_pcw_callback_information.md)
