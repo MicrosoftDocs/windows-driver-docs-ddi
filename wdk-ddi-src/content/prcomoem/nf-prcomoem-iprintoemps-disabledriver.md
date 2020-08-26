@@ -104,7 +104,7 @@ The method is not implemented.
 
 
 
-The <code>IPrintOemPS::DisableDriver</code> method, provided by rendering plug-ins for Pscript5, performs the same types of operations as the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvdisabledriver">DrvDisableDriver</a> function that is exported by Pscript5's printer graphics DLL.
+The <code>IPrintOemPS::DisableDriver</code> method, provided by rendering plug-ins for Pscript5, performs the same types of operations as the <a href="https://docs.microsoft.com/windows/win32/api/winddi/nf-winddi-drvdisabledriver">DrvDisableDriver</a> function that is exported by Pscript5's printer graphics DLL.
 
 <code>IPrintOemPS::DisableDriver</code> and <b>IPrintOemPS::EnableDriver</b> must be implemented as a pair. If you implement one, you must implement the other. For more information, see the Remarks section in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps-enabledriver">IPrintOemPS::EnableDriver</a>. 
 

@@ -62,7 +62,7 @@ Specifies the size, in bytes of the IPPARAMS structure. Supplied by Unidrv.
 
 ### -field ptOffset
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagpoint">POINT</a> structure containing the banded image's offset from the upper left corner of the drawing area. Supplied by Unidrv.
+Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-tagpoint">POINT</a> structure containing the banded image's offset from the upper left corner of the drawing area. Supplied by Unidrv.
 
 
 ### -field pHalftoneOption
@@ -89,7 +89,7 @@ Specifies whether a blank band was drawn in the source bitmap supplied to <a hre
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagpoint">POINT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-tagpoint">POINT</a>
  
 
  

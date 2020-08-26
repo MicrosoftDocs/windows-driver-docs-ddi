@@ -67,7 +67,7 @@ Handle to the glyph. See the following Remarks section. Supplied by the <a href=
 
 ### -field pGlyphData
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_glyphdata">GLYPHDATA</a> structure. The structure is filled in by Unidrv's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a> callback function. The pointer is supplied by the <i>UNIFONTOBJ_GetInfo</i> caller.
+Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-_glyphdata">GLYPHDATA</a> structure. The structure is filled in by Unidrv's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a> callback function. The pointer is supplied by the <i>UNIFONTOBJ_GetInfo</i> caller.
 
 
 ## -remarks
@@ -86,7 +86,7 @@ The value that a rendering plug-in specifies for the <b>hGlyph</b> member must h
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_glyphdata">GLYPHDATA</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-_glyphdata">GLYPHDATA</a>
 
 
 

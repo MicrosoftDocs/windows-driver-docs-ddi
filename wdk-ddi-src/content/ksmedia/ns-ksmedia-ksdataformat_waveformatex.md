@@ -62,7 +62,7 @@ Specifies the general features of the stream's data format. This member is a str
 
 ### -field WaveFormatEx
 
-Describes the wave-specific details of the audio stream's data format. This member contains an initialized <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-twaveformatex">WAVEFORMATEX</a> structure.
+Describes the wave-specific details of the audio stream's data format. This member contains an initialized <a href="https://docs.microsoft.com/windows/win32/api/mmreg/ns-mmreg-twaveformatex">WAVEFORMATEX</a> structure.
 
 
 ## -remarks
@@ -89,7 +89,7 @@ Note that the <b>WaveFormatEx</b> member of the KSDATAFORMAT_WAVEFORMATEX struct
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-twaveformatex">WAVEFORMATEX</a>
+<a href="https://docs.microsoft.com/windows/win32/api/mmreg/ns-mmreg-twaveformatex">WAVEFORMATEX</a>
 
 
 

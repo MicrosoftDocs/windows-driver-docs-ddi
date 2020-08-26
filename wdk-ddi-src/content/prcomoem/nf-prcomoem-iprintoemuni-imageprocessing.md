@@ -74,7 +74,7 @@ Caller-supplied pointer to a BITMAPINFOHEADER structure that describes the bitma
 
 Caller-supplied pointer to a color table. This parameter is used only if the output format is eight bits per pixel. For more information, see the following Remarks section.
 
-When interpreting a bitmap, you must examine the color table. Unidrv can modify the colors in a bitmap, but it will also make corresponding adjustments in the color table, resulting in no net change. However, if you ignore color table changes, and examine only the bitmap, an image might not print properly. For an example, see the discussion of the <i>pPaletteEntry</i> parameter in <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-ht_get8bppmaskpalette">HT_Get8BPPMaskPalette</a>.
+When interpreting a bitmap, you must examine the color table. Unidrv can modify the colors in a bitmap, but it will also make corresponding adjustments in the color table, resulting in no net change. However, if you ignore color table changes, and examine only the bitmap, an image might not print properly. For an example, see the discussion of the <i>pPaletteEntry</i> parameter in <a href="https://docs.microsoft.com/windows/win32/api/winddi/nf-winddi-ht_get8bppmaskpalette">HT_Get8BPPMaskPalette</a>.
 
 
 ### -param dwCallbackID
@@ -259,7 +259,7 @@ The <code>IPrintOemUni::ImageProcessing</code> method is optional. If a renderin
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-ht_get8bppmaskpalette">HT_Get8BPPMaskPalette</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winddi/nf-winddi-ht_get8bppmaskpalette">HT_Get8BPPMaskPalette</a>
 
 
 
