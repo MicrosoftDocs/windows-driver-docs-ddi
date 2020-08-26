@@ -69,7 +69,7 @@ Pointer to the address of a routine-allocated buffer that contains a collection'
 
 
 
-**HidD_GetPreparsedData** returns **TRUE** if it succeeds; otherwise, it returns **FALSE**. Use [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) to get extended error information.
+**HidD_GetPreparsedData** returns **TRUE** if it succeeds; otherwise, it returns **FALSE**. Use [**GetLastError**](https://docs.microsoft.com/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) to get extended error information.
 
 
 
